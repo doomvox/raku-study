@@ -171,7 +171,8 @@ use v6;
 #   Is the === operator recursive? e.g. does it work with references
 #   to data structures? If so, does it handle circular references?
 
-# A: neither === or =:= have trouble with circularity (I don't think they recurse)
+# A: neither === or =:= have trouble with circularity
+#    (though they are recursive, see block 6 below)
 #    eqv, on the other hand, hangs-up when run on circular structures
 {
     say "--- block 3 ---";
@@ -268,20 +269,44 @@ use v6;
     my $x_prime := $x;
 
     say $x === $z;  # False: different values, 3 vs 2
-    say $x =:= $z;  # False: okay, different containers
     say $x.WHICH, ' ', $z.WHICH;  # Int|3 Int|2
+    say $x =:= $z;  # False: okay, different containersa
 
     say $x === $x_prime;  # True  values are the same: both 3
-    say $x =:= $x_prime;  # True  because they're the same containers 
     say $x.WHICH, ' ', $x_prime.WHICH; # Int|3 Int|3
+    say $x =:= $x_prime;  # True  because they're the same containers 
 
     say $x =:= $y;  # False   because they're different container
-    say $x === $y;  # True    the values are the same, both 3
     say $x.WHICH, ' ', $y.WHICH;  # Int|3 Int|3
-
+    say $x === $y;  # True    the values are the same, both 3
 
 }
 
+{ # deeper structures
+    say "--- block 6 ---";
+    my $v1 = 3;
+    my $v2 = 6;
+    my $m1 := $v1;
+    my $m2 := $v2;
+    my $t1 := $m1;
+    my $t2 := $m2;
+
+    my $m1b := $v1;
+    my $t1b := $m1b;
+
+    # eqv work for recursive checks of actual values
+    say $t1 eqv $t2;   # False
+    say $t1 eqv $t1b;  # True
+
+    # value identity (also recurses)
+    say $t1 === $t2;   # False
+    say $t1 === $t1b;  # True   
+
+    # container identity  (also recurses)
+    say $t1 =:= $t2;   # False
+    say $t1 =:= $t1b;  # True   
+
+}
 
 
 ## TODO 
