@@ -21,19 +21,16 @@ use v6;
 # "Value identity operator. Returns True if both arguments are
 # the same object, disregarding any containerization."
 
-# I think this is the idea:
-# "===" is an *object* identity operator (not a "value" one)
-# which says True if two objects are the same, and False if
-# they're not, even if they happen to point to the same container.
-# 
-# In contrast '=:=' would say "True" when two different objects
-# point to the same container.
-#
-# (But: I've see confusing behavior that complicates things)
+## From Alan: From Andrew Shitov's book (page 42) 
+##   ===  returns True if both operands have the same value.  
+##   =:=  returns True if refer to the same object
+
+
+## Darren Duncan steps through it:
 
 ## if value is false container is false
 ## if value is true, container might or might not be true
-## if container is true, then value is guaranteed to be true.  (but why?)
+## if container is true, then value is guaranteed to be true.  ((hm.))
 ## if container is false, then value might or might not be 
 
 {
@@ -73,6 +70,7 @@ use v6;
     say '1' eq '1.0';  # False  But: "1.0.Str" stringifies to '1' ?
     say 1.Str , ' ', 1.0.Str;  # 1 1
     say 1.WHAT, ' ', 1.0.WHAT; # (Int) (Rat)
+    say 1.WHICH, ' ', 1.0.WHICH; # Int|1 Rat|1/1
     say 1 eqv 1.0;  # True
     say 1 === 1.0;  # False
     say 1 =:= 1.0;  # False
@@ -80,23 +78,23 @@ use v6;
 
 {
     say "--- block 1 ---";
-    my ($w, $x, $y) = (2, 3, 3);
-    my $z := $x;  # an alias, now $z and $x point at the same container
+    my ($z, $x, $y) = (2, 3, 3);
+    my $x_prime := $x;  # an alias, now $x_prime and $x point at the same container
 
-    say $x.WHICH, ' ', $w.WHICH;  # Int|3 Int|2
-    say $x === $w;  # False   different values, 3 vs 2
-    say $x =:= $w;  # False   ... and different containers
+    say $x.WHICH, ' ', $z.WHICH;  # Int|3 Int|2
+    say $x === $z;  # False   different values, 3 vs 2
+    say $x =:= $z;  # False   ... and different containers
 
     say $x.WHICH, ' ', $y.WHICH;  # Int|3 Int|3
     say $x === $y;  # True    the values are the same, both 3
     say $x =:= $y;  # False   but they're different containers
 
-    say $x.WHICH, ' ', $z.WHICH; # Int|3 Int|3
-    say $x === $z;  # True    values are the same here too, both 3
-    say $x =:= $z;  # True    but they're the *same* containers 
+    say $x.WHICH, ' ', $x_prime.WHICH; # Int|3 Int|3
+    say $x === $x_prime;  # True    values are the same here too, both 3
+    say $x =:= $x_prime;  # True    but they're the *same* containers 
 
-    my @a = ( $w, $x, $y, $z );
-    my @b = ( $w, $x, $y, $z );
+    my @a = ( $z, $x, $y, $x_prime );
+    my @b = ( $z, $x, $y, $x_prime );
 
     # reflexive check: everything the same on both sides
     say @a === @a; # True     
@@ -160,13 +158,13 @@ use v6;
     say @array1 eqv @array2;  # False
 
     ## but does eqv look at values or the count of items? A: values
-    my @array3 = < AAA BBB CCC  >;
-    say @array1 eqv @array3;  # False
+    my @array4 = < AAA BBB CCC  >;
+    say @array1 eqv @array4;  # False
 
     ## The traditional numeric comparison coerces to Num and compares count (see block 4)
-    say @array1 == @array3;  # True
+    say @array1 == @array4;  # True
     ## string comparison joins arrays on spaces and compares contents of arrays
-    say @array1 eq @array3;  # False
+    say @array1 eq @array4;  # False
 }
 
 # David Christiensen asks:
@@ -244,11 +242,42 @@ use v6;
   ##   basic_equality.pl6
 }
 
-{
+{ # summarizing some behavior seen above.
     say "--- block 5 ---";
 
+    my @a = ( 2, 3, 3 );
+    my @b = ( 2, 3, 3 );
+    
+    my @b_prime := @b;
+
+    say @a =:= @b; # False, ok, because they're different containers.
+    say @a === @b; # False: despite being the same "values"-- it uses .WHICH
+    say @a.WHICH, ' ', @b.WHICH;  # Array|76046968 Array|76047000
+
+    say @b =:= @b_prime; # True, makes sense, they point at the same container
+    say @b === @b_prime; # True? 
+    # To quote the docs: "Returns True if both arguments are the
+    # same object, disregarding any containerization."
+    # But they're *different* objects aren't they?
+    # But WHICH doesn't think they're different:
+    say @b.WHICH, ' ', @b_prime.WHICH;  # Array|67218704 Array|67218704
 
 
+    # Back-up to a simpler case, using scalars
+    my ($x, $y, $z) = (3, 3, 2);
+    my $x_prime := $x;
+
+    say $x === $z;  # False: different values, 3 vs 2
+    say $x =:= $z;  # False: okay, different containers
+    say $x.WHICH, ' ', $z.WHICH;  # Int|3 Int|2
+
+    say $x === $x_prime;  # True  values are the same: both 3
+    say $x =:= $x_prime;  # True  because they're the same containers 
+    say $x.WHICH, ' ', $x_prime.WHICH; # Int|3 Int|3
+
+    say $x =:= $y;  # False   because they're different container
+    say $x === $y;  # True    the values are the same, both 3
+    say $x.WHICH, ' ', $y.WHICH;  # Int|3 Int|3
 
 
 }
