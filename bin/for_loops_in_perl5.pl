@@ -25,17 +25,17 @@ use strict;
 $|=1;
 use Data::Dumper;
 
-my @source_monsters = qw( godzilla wolfman blob mothera garuda );
+my @main_monsters = qw( godzilla wolfman blob mothera garuda );
 
-my @monsters = @source_monsters;
+my @monsters = @main_monsters;
 # processing one at a time is trivial
 for my $m ( @monsters ) {
   say $m;
 }
 
 
-@monsters = @source_monsters;
-# processing two at a time takes some thought
+# Processing two at a time takes some thought.  I've done it like this:
+@monsters = @main_monsters;
 while ( @monsters ) {
   my ($a, $b) = ( shift( @monsters ) || '', shift( @monsters ) || '' );
   say "1st: $a";
@@ -44,21 +44,21 @@ while ( @monsters ) {
 
 ## I had the idea there was an "each" solution, but I don't know where that came from.
 ##     each ARRAY   return the index and value for the next element of an array
-@monsters = @source_monsters;
+@monsters = @main_monsters;
 my ($idx, $val) = each @monsters;
 say "idx: $idx  val: $val"; # idx: 0  val: godzilla
 
-## david christensen suggests using List::Util, perhaps all? But there's a "pairs"
+## David Christensen suggests using List::Util. Perhaps "all"? But there's a "pairs"
 use List::Util qw( pairs );
-@monsters = @source_monsters;
+@monsters = @main_monsters;
 foreach my $pair ( pairs @monsters ) {
   my ( $a, $b ) = @{ $pair };
   say "1: $a  2: $b";
 }
 ## Doesn't handle the last loop that's short a value: "Odd number of elements in pairs"
 
-# bruce gray solution, using splice
-@monsters = @source_monsters;
+# Bruce Gray solution, using splice
+@monsters = @main_monsters;
 while (@monsters) {
   no warnings 'uninitialized';
   my ($x, $y) = splice @monsters, 0, 2;
