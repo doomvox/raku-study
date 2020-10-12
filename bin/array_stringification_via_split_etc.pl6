@@ -55,10 +55,21 @@ dd( @r ); # Array @r = ["My", "Bloody", "Valentine|Sonic", "Youth"]
 dd(@r);
 # Array @r = [["My", "Bloody", "Valentine"], ["Sonic", "Youth"]]
 
-# That's an array of arrays, two elements, split into 3 and 2 words respectively
+# That's an array of arrays, two top-level items that are split 
+# into 3 and 2 words respectively
 
-# Note: split does stringification because it's intended to be run on strings, 
-# or things that can become strings-- map doesn't do this because it's 
+# Note: .split does stringification because it's intended to be run on strings, 
+# or things that can become strings-- .map doesn't do this because it's 
 # intended to be run on things like Arrays.
 
+## Bruce Gray points out that the square brackets here aren't needed, 
+## they're a perl5-ism: 
+##   @r = @a.map({ [ .split(" ") ] });
+
+@r = @a.map({  .split(" ")  });
+dd(@r);
+# Array @r = [("My", "Bloody", "Valentine").Seq, ("Sonic", "Youth").Seq]
+
+# Though, the fact that the inner elements are Seq and not Array
+# might be a draw-back for some purpose.
 
