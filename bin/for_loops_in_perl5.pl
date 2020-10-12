@@ -27,12 +27,11 @@ use Data::Dumper;
 
 my @main_monsters = qw( godzilla wolfman blob mothera garuda );
 
+# In perl processing one element at a time is trivial:
 my @monsters = @main_monsters;
-# processing one at a time is trivial
 for my $m ( @monsters ) {
   say $m;
 }
-
 
 # Processing two at a time takes some thought.  I've done it like this:
 @monsters = @main_monsters;
@@ -43,7 +42,7 @@ while ( @monsters ) {
 }
 
 ## I had the idea there was an "each" solution, but I don't know where that came from.
-##     each ARRAY   return the index and value for the next element of an array
+##   perlfunc:  each ARRAY   return the index and value for the next element of an array
 @monsters = @main_monsters;
 my ($idx, $val) = each @monsters;
 say "idx: $idx  val: $val"; # idx: 0  val: godzilla
@@ -55,18 +54,19 @@ foreach my $pair ( pairs @monsters ) {
   my ( $a, $b ) = @{ $pair };
   say "1: $a  2: $b";
 }
-## Doesn't handle the last loop that's short a value: "Odd number of elements in pairs"
+## But this doesn't handle the last loop that's short a value:
+## "Odd number of elements in pairs"
 
 # Bruce Gray solution, using splice
 @monsters = @main_monsters;
 while (@monsters) {
-  no warnings 'uninitialized';
+  no warnings 'uninitialized';  # if the last element is empty just shut up about it
   my ($x, $y) = splice @monsters, 0, 2;
   say "1: $x   2: $y";
 }
 
 ## The point is that this is a pretty simple thing to want to do,
-## but it takes a bit of thought to get it (in contrast to raku,
+## but it takes a bit of thought (in contrast to raku,
 ## where it's as trivial as looping over one element at a time).
 
 
