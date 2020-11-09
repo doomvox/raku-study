@@ -11,11 +11,29 @@ use v6;
 ## Some perl5 solutions:
 ##   for_loops_in_perl5.pl
 
-{ 
-    my @monsters = < godzilla wolfman blob mothera garuda goldfish thevoid spawn fingfangfoom mysterio dormammu >;
-    for @monsters -> $a, $b {
-        say "1: $a  2: $b";
+my @original_monsters =
+ < godzilla wolfman blob mothera garuda goldfish thevoid spawn fingfangfoom mysterio dormammu >;
+
+{
+    my @monsters = @original_monsters;
+    try {
+        for @monsters -> $a, $b {
+            # say "1: $a  2: $b";
+            printf( "1: %-13s  2: %-10s\n", $a, $b );
+        }
+        # 1: godzilla  2: wolfman
+        # 1: blob  2: mothera
+        # 1: garuda  2: goldfish
+        # 1: thevoid  2: spawn
+        # 1: fingfangfoom  2: mysterio
+        # Too few positionals passed; expected 2 arguments but got 1
+
+        ## TODO how do you resume processing after this CATCH?
+        # CATCH { say "odd number of monsters"; .say; .resume};
+        ## This exception is not resumable
     }
+    # That crashes on an error because there's an odd number of items.
+    # I've covered for that with a "try" block; though it drops the last item on the floor.
 }
 
 {
@@ -25,7 +43,8 @@ use v6;
     ## have the integers control how many items to read next. 
     ## My variant has a seperate list of chunk sizes.
 
-    my @monsters = < godzilla wolfman blob mothera garuda goldfish thevoid spawn fingfangfoom mysterio dormammu >;
+    say "---";
+    my @monsters = @original_monsters;
     my @chunks = ( 1, 2, 3, 4, 5 );
     while @monsters {
         state $i = 0;
@@ -45,7 +64,8 @@ use v6;
 }   
 
 {
-    my @monsters = < godzilla wolfman blob mothera garuda goldfish thevoid spawn fingfangfoom mysterio dormammu >;
+    say "---";
+    my @monsters = @original_monsters;
     ## bruce gray solution:
     my @m = <1 a 3 b c d 2 e f 1 g>;
     loop ( my $i = 0; $i <= @m.end; ) {
@@ -61,8 +81,9 @@ use v6;
 
 
 {
+    say "---";
     ## bruce gray alternate to my code:
-    my @monsters = < godzilla wolfman blob mothera garuda goldfish thevoid spawn fingfangfoom mysterio dormammu >;
+    my @monsters = @original_monsters;
     my @chunks = ( 1, 2, 3, 4, 5 );
     .say for @monsters.rotor( @chunks ); 
     # (godzilla)
@@ -70,6 +91,7 @@ use v6;
     # (mothera garuda goldfish)
     # (thevoid spawn fingfangfoom mysterio)
 
-    ## It's very tight, but leaves behind the "dormammu" unprocessed, because there aren't
-    ## enough items to fill out the chunk.
+    ## It's very tight, but leaves behind the "dormammu"
+    ## unprocessed, because there aren't enough items to fill out
+    ## the chunk.
 }
