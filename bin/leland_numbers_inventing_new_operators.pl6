@@ -138,8 +138,6 @@ say @a >>䑄<< @b;  # custom summation, run with hyper op
 # say @a {䑄}.hyper @b;
 # Unexpected block in infix position (missing statement control word before the expression?)
 
-
-
 # b.g. hint:
 # .say for hyper map &infix:<...>, @a Z @b; 
 
@@ -154,7 +152,6 @@ say @a >>䑄<< @b;  # custom summation, run with hyper op
 #     ($ (Any $a, Any $b))
 
 say "---";
-
 say hyper map -> ($a, $b) { 
     say "adding a: $a and b: $b";  # adding a: 5 and b: 6
     my $sum = $a + $b;
