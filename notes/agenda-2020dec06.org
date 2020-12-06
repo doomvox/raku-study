@@ -22,7 +22,7 @@ https://unix.stackexchange.com/questions/622195/how-do-i-use-grep-to-find-lines-
 raku -ne '.say if .words.classify({$_}).grep(*.value >= 3);' 
 
 raku -ne '.say if .words.Bag.values.any >= 3;' 
-
+ 
 earlier effort:
 raku -ne '.say if .words.classify.grep(*.value >= 3);'
 
