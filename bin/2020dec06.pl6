@@ -88,13 +88,28 @@ for $text.lines -> $line {
 say "---";
 ## another bg approach:
 ## raku -ne '.say if .words.Bag.values.any >= 3;' 
-my $cutoff = 4;
+$cutoff = 2;
 say "===";
 for $text.lines -> $line {
-    my %bagged = $line.words.Bag;
-#    say %bagged;
-#    if any( %bagged.values >= $cutoff ) {
-    if %bagged.values >= $cutoff {
+    my @l = $line.words;
+    # say "L:", @l;
+
+    ## these are all the same:
+    my %bagged = bag @l;
+    # my %bagged = @l.Bag;
+    # my %bagged = $line.words.Bag;
+
+    # say "B: ", %bagged;
+    if any( %bagged.values ) >= $cutoff {
          say ">>", $line, "<<";
      }
 }
+
+
+
+# Set        True if present
+# SetHash
+# Bag        Count of whats present
+# BagHash    
+# Mix        
+# MixHash
