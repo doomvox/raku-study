@@ -17,3 +17,5 @@ lambert lum:
 *** advent calendar?
 *** rosetta code?
 *** bill has a stackexchange question he wants to do in raku
+https://unix.stackexchange.com/questions/622195/how-do-i-use-grep-to-find-lines-in-which-any-word-occurs-3-times 
+
