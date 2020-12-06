@@ -47,4 +47,5 @@ say $text.words.classify( { $_ } ){ $target }; # [to to to to to to to]
 
 say $text.words.classify( { $_ } ){ $target }.elems; # 7
 
-say $text.words.classify( { $_ } ){ $target }.grep( *.values >= 3 );
+say $text.words.classify( { $_ } ){ $target }.grep( *.values >= 3 ); # ()
+
