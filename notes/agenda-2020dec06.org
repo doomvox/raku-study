@@ -1,0 +1,17 @@
+* Agenda Dec 6, 2020
+** zoom issues
+*** alternatives
+**** floobits
+*** workarounds
+**** github
+** the ,= affair
+*** basics of arrays, hashes under raku
+** docker
+*** podman as alternative, 
+lambert lum:
+**** root not primary user
+**** docker hub, nginex people
+*** solomon_hykes talk 2013 is okay
+** other raku stuff:
+*** advent calendar?
+*** rosetta code?
