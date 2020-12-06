@@ -16,3 +16,4 @@ lambert lum:
 ** other raku stuff:
 *** advent calendar?
 *** rosetta code?
+*** bill has a stackexchange question he wants to do in raku
