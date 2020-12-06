@@ -68,7 +68,7 @@ the code is used in more than one place a race condition could
 make it hard to predict what the operator will do.
 
 An object oriented implementation with individual state for each 
-instance might be more sensible.
+instance might be more sensible. (An operator factory class?)
 
 =head1 MOTIVATION
 
