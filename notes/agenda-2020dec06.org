@@ -20,4 +20,7 @@ lambert lum:
 https://unix.stackexchange.com/questions/622195/how-do-i-use-grep-to-find-lines-in-which-any-word-occurs-3-times
 *** Bruce Gray: solution to the SE question: 
 raku -ne '.say if .words.classify.grep(*.value >= 3);'
-
+*** Lambert Lum solutions:
+Variant solution with ack, 
+ack '(common).*\1.*\1'
+ack '(\b\w+\b).*\b\1\b.*\b\1\b' 
