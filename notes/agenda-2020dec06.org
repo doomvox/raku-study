@@ -20,4 +20,4 @@ lambert lum:
 https://unix.stackexchange.com/questions/622195/how-do-i-use-grep-to-find-lines-in-which-any-word-occurs-3-times
 *** Bruce Gray: solution to the SE question: 
 raku -ne '.say if .words.classify.grep(*.value >= 3);'
-** dummy speaks
+
