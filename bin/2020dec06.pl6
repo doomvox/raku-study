@@ -26,4 +26,25 @@ END
 
 say "text: $text";
 
-.say if $text.words.classify.grep(*.value >= 3);
+my $target = "to";
+
+say $text.words.elems; # 155;
+
+say $text.words.classify( {$_ eq 'to'} );
+# {False => [The hitherto guarded subject pertains my non-professional visit Egypt fourteen years ago, and has been avoided by me for several reasons. For one thing, I am averse exploiting certain unmistakably actual facts and conditions obviously unknown the myriad tourists who throng about the pyramids and apparently secreted with much diligence by the authorities at Cairo, who cannot be wholly ignorant of them. For another thing, I dislike recount an incident in which my own fantastic imagination must have played so great a part. What I saw—or thought I saw—certainly did not take place; but is rather be viewed as a ...], True => [to to to to to to to]}
+
+
+my $ret =  $text.words.classify( {$_ eq 'to'} );
+say $ret{ True } ;        #  [to to to to to to to]
+say $ret{ True }.elems ;  # 7 
+
+
+# .grep( *.value >= 3 );
+
+say $text.words.classify( { $_ } );
+
+say $text.words.classify( { $_ } ){ $target }; # [to to to to to to to]
+
+say $text.words.classify( { $_ } ){ $target }.elems; # 7
+
+say $text.words.classify( { $_ } ){ $target }.grep( *.values >= 3 );
