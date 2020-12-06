@@ -4,11 +4,17 @@
 
 use v6;
 
+## And odd thing I found in the operator list in the docs:
+
 # https://docs.raku.org/routine/,=
 
 # my %a = :11a, :22b;
 # %a ,= :33x;
 # say %a # OUTPUT: «{a => 11, b => 22, x => 33}␤»
+
+## Discussed on the perl6-users list:
+## https://www.nntp.perl.org/group/perl.perl6.users/2020/12/msg9422.html
+
 
 ## my first thought: could you use this to add an item to an array, ala push?
 ## it doesn't seem so, it transforms the contents of the array in a way I don't understand.
