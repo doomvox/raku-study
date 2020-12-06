@@ -13,7 +13,7 @@ use v6;
 # say %a # OUTPUT: «{a => 11, b => 22, x => 33}␤»
 
 ## Discussed on the perl6-users list:
-## https://www.nntp.perl.org/group/perl.perl6.users/2020/12/msg9422.html
+##   https://www.nntp.perl.org/group/perl.perl6.users/2020/12/msg9422.html
 
 
 ## my first thought: could you use this to add an item to an array, ala push?
