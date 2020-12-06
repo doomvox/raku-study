@@ -2,6 +2,7 @@
 ** zoom issues
 *** alternatives
 **** floobits
+https://floobits.com/
 *** workarounds
 **** github
 ** the ,= affair
