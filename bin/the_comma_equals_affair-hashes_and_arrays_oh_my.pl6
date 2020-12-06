@@ -15,7 +15,6 @@ use v6;
 ## Discussed on the perl6-users list:
 ##   https://www.nntp.perl.org/group/perl.perl6.users/2020/12/msg9422.html
 
-
 ## my first thought: could you use this to add an item to an array, ala push?
 ## it doesn't seem so, it transforms the contents of the array in a way I don't understand.
 my @monsters = < garuda blob golem mothera godzilla >;

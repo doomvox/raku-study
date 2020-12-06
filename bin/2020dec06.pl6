@@ -49,3 +49,52 @@ say $text.words.classify( { $_ } ){ $target }.elems; # 7
 
 say $text.words.classify( { $_ } ){ $target }.grep( *.values >= 3 ); # ()
 
+
+my %h = ( 'a' => 1, 'b' => 2, 'c' => 3 );
+say %h;  # {a => 1, b => 2, c => 3}
+say %h.values; #  (1 2 3)
+say %h.keys;   #  (c b a)
+
+say %h.grep( *.value >= 1 );  # (c => 3 b => 2 a => 1)
+
+say %h.grep( *.value >= 3 );  # (c => 3)
+
+say "XXX";
+say $text.words.classify( { $_ } ){ $target }; # [to to to to to to to]
+
+# .grep( *.value >= 3 ); # ()
+
+say $text.words.classify( { $_ } ).map( { .key => .value.elems } ).grep( *.value >= 3 );
+#  (and => 4 to => 7 of => 5 I => 4 by => 3 my => 4 the => 6 in => 3)
+
+
+my $cutoff = 2;
+for $text.lines -> $line {
+    if $line.words.classify( { $_ } ).map({ .key => .value.elems }).grep( *.value >= $cutoff ) {
+        say $line;
+    }
+}
+
+say "---";
+my $cutoff = 2;
+for $text.lines -> $line {
+    my %classified = $line.words.classify( { $_ } );
+    if %classified.map({ .key => .value.elems }).grep( *.value >= $cutoff ) {
+        say $line;
+    }
+}
+
+
+say "---";
+## another bg approach:
+## raku -ne '.say if .words.Bag.values.any >= 3;' 
+my $cutoff = 4;
+say "===";
+for $text.lines -> $line {
+    my %bagged = $line.words.Bag;
+#    say %bagged;
+#    if any( %bagged.values >= $cutoff ) {
+    if %bagged.values >= $cutoff {
+         say ">>", $line, "<<";
+     }
+}
