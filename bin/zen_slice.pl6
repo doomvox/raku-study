@@ -59,3 +59,21 @@ say @numbers;  #  [(wuhn tew thuree foah fahv sex sevhun) (bugs peter easter)]
     | @a = | @a, 'four';
     say @a;  #  [one two three]
 }
+
+{ # bruce gray posts the delphic:
+    my $v = 3;
+    $v [R/]= 1;   #  R *reverses* an operator, takes L-R turns into R-L
+    say $v;      # 0.333333
+
+    $v = 3;
+    say (1/$v);  # 0.333333
+}
+
+## bruce gray makes the point this is a case where DWIM won over consistency
+## 
+## [+] 
+## [<] 
+
+## Arguably not useful:
+##  ,=
+
