@@ -1,0 +1,58 @@
+* meeting notes Dec 6, 2020
+** zoom issues
+*** alternatives
+**** teletype for atom
+***** not obvious how to use it with emacs
+**** floobits
+https://floobits.com/
+***** shared interactive editing, supported by atom and emacs
+***** video conferencing features-- replace zoom entirely?
+***** requires paid account, if that's per attendee it's a deal breaker
+*** workarounds
+**** github for file sharing during meeting
+https://github.com/doomvox/raku-study
+https://github.com/doomvox/raku-study/blob/main/notes/meeting_2020dec06.org
+
+** the ,= affair
+https://www.nntp.perl.org/group/perl.perl6.users/2020/11/msg9384.html
+*** quirks of arrays and hashes under raku
+https://github.com/doomvox/raku-study/blob/main/bin/the_comma_equals_affair-hashes_and_arrays_oh_my.pl6
+*** zen_slices
+https://github.com/doomvox/raku-study/blob/main/bin/zen_slice.pl6
+https://github.com/doomvox/raku-study/blob/main/bin/commafication_conundrum_with_hashes_vs_arrays.pl6
+*** decont (via bill)
+https://docs.raku.org/language/glossary#index-entry-decont 
+https://docs.raku.org/language/subscripts#index-entry-Zen_slices 
+
+** docker
+*** podman as alternative, 
+lambert lum:
+**** root not primary user
+**** docker hub, nginex people
+*** solomon_hykes talk 2013 is okay
+
+** find lines with 3 or more occurrences of any word 
+*** A stackexchange question, how to do this in raku
+https://unix.stackexchange.com/questions/622195/how-do-i-use-grep-to-find-lines-in-which-any-word-occurs-3-times
+*** workarea
+https://github.com/doomvox/raku-study/blob/main/bin/grep_for_lines_with_repeated_occurrences_of_words.pl6
+*** Bruce Gray solutions
+raku -ne '.say if .words.classify({$_}).grep(*.value >= 3);' 
+raku -ne '.say if .words.Bag.values.any >= 3;' 
+
+*** Lambert Lum solutions:
+ack '(common).*\1.*\1'
+ack '(\b\w+\b).*\b\1\b.*\b\1\b'
+
+** Bruce Gray shares links to some simple javascript toys:
+https://tixy.land/?code=sin%28t%29
+https://tixy.land/
+
+** more next time (maybe) on:
+**** sets, bags, mixes
+https://docs.raku.org/language/setbagmix
+**** "Algebraic Data Types"  
+https://github.com/timo/ADT/
+
+
+
