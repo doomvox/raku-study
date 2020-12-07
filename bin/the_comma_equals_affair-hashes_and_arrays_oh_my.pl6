@@ -260,3 +260,18 @@ say "===";
     @in_stages ,= 'c';    
     say @in_stages;  # (\Array_61500640 = [Array_61500640 d])
 }
+
+
+# ## feels sensible
+# %a ,= %b;
+# %a = %a, %b;
+
+# ## feels nutty (at first)
+# @m ,= @n;
+# @m = @m, @n;
+
+# <operator>= behaves same in all cases
+# $a ~= $b;
+# $a = $a ~ $b;
+
+# ,=

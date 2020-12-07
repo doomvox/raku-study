@@ -7,6 +7,10 @@ https://floobits.com/
 **** github
 ** the ,= affair
 *** basics of arrays, hashes under raku
+*** decont (via bill)
+https://docs.raku.org/language/glossary#index-entry-decont 
+https://docs.raku.org/language/subscripts#index-entry-Zen_slices 
+
 ** docker
 *** podman as alternative, 
 lambert lum:
@@ -29,4 +33,12 @@ raku -ne '.say if .words.classify.grep(*.value >= 3);'
 *** Lambert Lum solutions:
 Variant solution with ack, 
 ack '(common).*\1.*\1'
-ack '(\b\w+\b).*\b\1\b.*\b\1\b' 
+ack '(\b\w+\b).*\b\1\b.*\b\1\b'
+
+*** next time:
+**** sets, bags, mixes
+https://docs.raku.org/language/setbagmix
+**** "Algebraic Data Types"  
+https://github.com/timo/ADT/
+
+

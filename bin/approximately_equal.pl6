@@ -55,3 +55,4 @@ use v6;
     say .1 =~= 0;        # OUTPUT: False
     say .09 =~= 0;       # OUTPUT: True
 }
+
