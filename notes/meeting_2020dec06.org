@@ -1,13 +1,13 @@
 * meeting notes Dec 6, 2020
 ** zoom issues
-*** alternatives
+*** alternatives 
 **** teletype for atom
 ***** not obvious how to use it with emacs
 **** floobits
 https://floobits.com/
-***** shared interactive editing, supported by atom and emacs
-***** video conferencing features-- replace zoom entirely?
-***** requires paid account, if that's per attendee it's a deal breaker
+***** shared interactive editing, supports both atom and emacs
+***** has video conferencing features: replace zoom entirely?
+***** requires paid account: if per attendee it's a deal breaker
 *** workarounds
 **** github for file sharing during meeting
 https://github.com/doomvox/raku-study
