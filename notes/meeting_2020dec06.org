@@ -26,33 +26,32 @@ https://docs.raku.org/language/subscripts#index-entry-Zen_slices
 
 ** docker
 *** podman as alternative, 
-lambert lum:
-**** root not primary user
-**** docker hub, nginex people
+**** lambert lum: in podman root not primary user
+*** lambert lum: docker hub run by nginex people
 *** solomon_hykes talk 2013 is okay
 
 ** find lines with 3 or more occurrences of any word 
 *** A stackexchange question, how to do this in raku
-https://unix.stackexchange.com/questions/622195/how-do-i-use-grep-to-find-lines-in-which-any-word-occurs-3-times
+**** https://unix.stackexchange.com/questions/622195/how-do-i-use-grep-to-find-lines-in-which-any-word-occurs-3-times
 *** workarea
-https://github.com/doomvox/raku-study/blob/main/bin/grep_for_lines_with_repeated_occurrences_of_words.pl6
+**** https://github.com/doomvox/raku-study/blob/main/bin/grep_for_lines_with_repeated_occurrences_of_words.pl6
 *** Bruce Gray solutions
-raku -ne '.say if .words.classify({$_}).grep(*.value >= 3);' 
-raku -ne '.say if .words.Bag.values.any >= 3;' 
+**** raku -ne '.say if .words.classify({$_}).grep(*.value >= 3);' 
+**** raku -ne '.say if .words.Bag.values.any >= 3;' 
 
 *** Lambert Lum solutions:
-ack '(common).*\1.*\1'
-ack '(\b\w+\b).*\b\1\b.*\b\1\b'
+**** ack '(common).*\1.*\1'
+**** ack '(\b\w+\b).*\b\1\b.*\b\1\b'
 
 ** Bruce Gray shares links to some simple javascript toys:
-https://tixy.land/?code=sin%28t%29
-https://tixy.land/
+*** https://tixy.land/?code=sin%28t%29
+*** https://tixy.land/
 
 ** more next time (maybe) on:
 **** sets, bags, mixes
-https://docs.raku.org/language/setbagmix
+***** https://docs.raku.org/language/setbagmix
 **** "Algebraic Data Types"  
-https://github.com/timo/ADT/
+***** https://github.com/timo/ADT/
 
 
 
