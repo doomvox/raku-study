@@ -5,6 +5,9 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2020dec13.org
 *** 10 minutes on git basics?
 *** finish auto git push: /home/doom/lib/emacs/githacks.el
 testing this right now... 
+
+** stackoverflow question:
+https://stackoverflow.com/questions/65226308/why-do-i-get-different-backtracking-with-these-raku-regexes
 ** working with dna sequences 
 Arne Sommer
 https://raku-musings.com/sequenced-multiplication.html
@@ -18,4 +21,5 @@ https://raku-musings.com/sequenced-multiplication.html
 
 ** compilers written in raku grammars
 https://andrewshitov.com/2018/11/06/creating-a-compiler-with-perl-6/ 
+
 
