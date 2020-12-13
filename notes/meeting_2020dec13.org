@@ -18,3 +18,5 @@ https://raku-musings.com/sequenced-multiplication.html
 
 
 
+** compilers written in raku grammars
+https://andrewshitov.com/2018/11/06/creating-a-compiler-with-perl-6/ 
