@@ -1,0 +1,20 @@
+* meeting notes Dec 13, 2020
+** github for file sharing during meeting
+https://github.com/doomvox/raku-study
+https://github.com/doomvox/raku-study/blob/main/notes/meeting_2020dec13.org
+*** 10 minutes on git basics?
+*** finish auto git push: /home/doom/lib/emacs/githacks.el
+testing this right now... 
+** working with dna sequences 
+Arne Sommer
+https://raku-musings.com/sequenced-multiplication.html
+** zen slices
+*** don't containterize
+**** though docs link to blog post that claim they are
+** sets, bags, mixes
+***** https://docs.raku.org/language/setbagmix
+** "Algebraic Data Types"  
+***** https://github.com/timo/ADT/
+
+
+
