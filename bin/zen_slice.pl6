@@ -69,8 +69,7 @@ say @numbers;  #  [(wuhn tew thuree foah fahv sex sevhun) (bugs peter easter)]
     say (1/$v);  # 0.333333
 }
 
-## bruce gray makes the point this is a case where DWIM won over consistency
-## 
+## bruce gray makes the point there are cases where DWIM won over consistency:
 ## [+] 
 ## [<] 
 
