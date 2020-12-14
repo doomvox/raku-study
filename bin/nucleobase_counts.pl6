@@ -384,9 +384,6 @@ say "===";
 # :: 14 & 12 7 & 24 3 & 48 1 & 96
 # 168
 
-# And that's it. Links About me Keyword Index Raku Courses
-# Beginning Raku (book) RSS Feed Code (zip) Reddit Comments
-
 # Copyright © Arne Sommer 2020. -- Contact: info@perl6.eu
 
 
