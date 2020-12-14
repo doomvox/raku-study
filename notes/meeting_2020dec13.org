@@ -33,11 +33,13 @@ http://www.ozonehouse.com/mark/blog/code/PeriodicTable.html
 ** docs repository
 https://github.com/Raku/doc/
 
+** demo scripts from this meeting
 
+https://github.com/doomvox/raku-study/blob/main/bin/julio_on_regexp_backtracking.pl6
 
-julio_on_regexp_backtracking.pl6
-nucleobase_counts.pl6
-boolean_conversion_operator.pl6
-perl5_and_or_or_context.pl
-modulus_operators.pl6
-perl6_and_or_or_operators.pl6
+https://github.com/doomvox/raku-study/blob/main/bin/nucleobase_counts.pl6
+https://github.com/doomvox/raku-study/blob/main/bin/boolean_conversion_operator.pl6
+https://github.com/doomvox/raku-study/blob/main/bin/perl5_and_or_or_context.pl
+https://github.com/doomvox/raku-study/blob/main/bin/modulus_operators.pl6
+https://github.com/doomvox/raku-study/blob/main/bin/perl6_and_or_or_operators.pl6
+
