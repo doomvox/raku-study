@@ -29,8 +29,6 @@ Your Perl5 Brain On Perl6 from 2017: https://www.youtube.com/watch?v=EUXclZ_d0DQ
 *** "Pneumatic tube mail in New York City" 
 https://en.wikipedia.org/wiki/Pneumatic_tube_mail_in_New_York_City
 
-*** 
-
 ** things dicussed
 
 *** stackoverflow question about raku backtracking
