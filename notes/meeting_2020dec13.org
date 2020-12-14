@@ -23,3 +23,7 @@ https://raku-musings.com/sequenced-multiplication.html
 https://andrewshitov.com/2018/11/06/creating-a-compiler-with-perl-6/ 
 
 
+
+https://docs.raku.org/syntax/macros 
+https://perl6advent.wordpress.com/2012/12/23/day-23-macros/ 
+
