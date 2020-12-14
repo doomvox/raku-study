@@ -23,6 +23,9 @@ http://www.ozonehouse.com/mark/blog/code/PeriodicTable.html
 *** docs repository
 https://github.com/Raku/doc/
 
+*** Bruce Gray talks
+
+
 ** things dicussed
 
 *** stackoverflow question about raku backtracking
