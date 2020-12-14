@@ -24,7 +24,7 @@ http://www.ozonehouse.com/mark/blog/code/PeriodicTable.html
 https://github.com/Raku/doc/
 
 *** Bruce Gray talks
-
+Your Perl5 Brain On Perl6 from 2017: https://www.youtube.com/watch?v=EUXclZ_d0DQ
 
 ** things dicussed
 
