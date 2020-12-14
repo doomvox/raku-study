@@ -53,9 +53,6 @@ https://github.com/doomvox/raku-study/blob/main/bin/modulus_operators.pl6
 *** perl6_and_or_or_operators.pl6
 https://github.com/doomvox/raku-study/blob/main/bin/perl6_and_or_or_operators.pl6
 
-
-
-
 ** future topics (maybe)
 *** zen slices
 **** don't containterize
