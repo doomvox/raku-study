@@ -59,7 +59,7 @@ https://github.com/doomvox/raku-study/blob/main/bin/perl6_and_or_or_operators.pl
 ** future topics (maybe)
 *** zen slices
 **** don't containterize
-***** though docs link to blog post that claim they are
+though docs link to blog post that claim they are
 *** sets, bags, mixes
 ****** https://docs.raku.org/language/setbagmix
 *** "Algebraic Data Types"  
