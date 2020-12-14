@@ -22,8 +22,14 @@ https://raku-musings.com/sequenced-multiplication.html
 ** compilers written in raku grammars
 https://andrewshitov.com/2018/11/06/creating-a-compiler-with-perl-6/ 
 
-
-
+** hygenic macros for raku (someday)
 https://docs.raku.org/syntax/macros 
 https://perl6advent.wordpress.com/2012/12/23/day-23-macros/ 
+ 
+** periodic table of operators
+http://www.ozonehouse.com/mark/periodic/ 
+http://www.ozonehouse.com/mark/blog/code/PeriodicTable.html 
+
+** docs repository
+https://github.com/Raku/doc/
 
