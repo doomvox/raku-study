@@ -14,24 +14,27 @@ testing this right now...
 ** "Algebraic Data Types"  
 ***** https://github.com/timo/ADT/
 
-** compilers written in raku grammars
+** things mentioned:
+
+*** compilers written in raku grammars
 https://andrewshitov.com/2018/11/06/creating-a-compiler-with-perl-6/ 
 
-** hygenic macros for raku (someday)
+*** hygenic macros for raku (someday)
 https://docs.raku.org/syntax/macros 
 https://perl6advent.wordpress.com/2012/12/23/day-23-macros/ 
  
-** periodic table of operators
+*** periodic table of operators
 http://www.ozonehouse.com/mark/periodic/ 
 http://www.ozonehouse.com/mark/blog/code/PeriodicTable.html 
 
-** docs repository
+*** docs repository
 https://github.com/Raku/doc/
 
+** things dicussed
 
-** stackoverflow question:
+*** stackoverflow question about raku backtracking
 https://stackoverflow.com/questions/65226308/why-do-i-get-different-backtracking-with-these-raku-regexes
-** working with dna sequences 
+*** working with dna sequences 
 Arne Sommer
 https://raku-musings.com/sequenced-multiplication.html
 
