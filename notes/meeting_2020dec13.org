@@ -34,7 +34,6 @@ http://www.ozonehouse.com/mark/blog/code/PeriodicTable.html
 https://github.com/Raku/doc/
 
 ** demo scripts from this meeting
-
 https://github.com/doomvox/raku-study/blob/main/bin/julio_on_regexp_backtracking.pl6
 
 https://github.com/doomvox/raku-study/blob/main/bin/nucleobase_counts.pl6
