@@ -102,6 +102,14 @@ say '---';
         say "Zero also passes, I bet.";
     }
 
+    $ret = 1;
+    if ( $ret ~~ Any and not( $ret ) ) {
+        say "One should *not* get us here.";
+    } else {
+        say "one ain't bupkes";
+    }
+
+
     
     CATCH { default { say .Str } };
 }
