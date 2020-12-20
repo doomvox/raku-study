@@ -139,10 +139,6 @@ say '---';
         say "yes?";
     }
 
-
-
-
-
     ## but checking for "Any" doesn't help, because everything is.
 
     my Str $str = '';
