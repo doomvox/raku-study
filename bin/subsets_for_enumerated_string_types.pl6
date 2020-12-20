@@ -147,11 +147,15 @@ say '---';
     say Nil === Nil;  # True
     say Nil !=== Nil; # False
 
-    my $monster = 'mothera';
-    if ($monster == 4) {
-        say "ja";
+    { 
+        my $monster = 'mothera';
+        if ($monster == 4) {
+            say "ja";
+        }
+        # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏mothera' (indicated by ⏏)
+        CATCH { default { say .Str } };
     }
-    # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏mothera' (indicated by ⏏)
+
     if ($monster eq 'mothera') {
         say "ja";
     }
