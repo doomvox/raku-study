@@ -55,3 +55,5 @@ my $mah_point_2 = Point.new(x => 666, y => 9);
 say $mah_point_2.x; # 666
 say $mah_point_2.y; # 9
 
+
+my $mah_point_3 = Point.new(y => 13);
