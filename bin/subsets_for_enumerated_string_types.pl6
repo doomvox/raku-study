@@ -114,7 +114,7 @@ say '---';
     my Str $str = '';
     say $str.WHAT;
     if ( $str ~~ Any and not( $str ) ) {
-        say "An empty string declared as a string...";
+        say "An empty string declared as a string is still an Any";
     } 
 
     
