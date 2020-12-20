@@ -75,6 +75,7 @@ say '---';
     }
 
     my $ret = nada();
+    dd $ret;
     say $ret;      # (Any)
     say $ret.WHAT; # (Any)
 
