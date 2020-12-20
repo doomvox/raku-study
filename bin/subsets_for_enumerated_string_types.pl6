@@ -128,9 +128,16 @@ say '---';
     }
 
     if ( $ret === Any ) {
-        say "Triple equals for the win.";
+        say "Triple equals against Any has to work, right?";
     } else {
-        say "right?";
+        say "yes?";
+    }
+
+
+    if ( $ret_b === Nil ) {
+        say "Triple equals against Any has to work, right?";
+    } else {
+        say "yes?";
     }
 
 
