@@ -27,7 +27,6 @@ Jeff's small C program to generate signed and unsidnged ints
 Bruce Gray refers to native numerics docs:
 https://docs.raku.org/language/numerics 
 
-
 *** Jeff mentions video: Hacking on the Rakudo Compiler by Rob Holez [YT] 
 https://www.youtube.com/watch?v=adUdmol7cLU 
 
