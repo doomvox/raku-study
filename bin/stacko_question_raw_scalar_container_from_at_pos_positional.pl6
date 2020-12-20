@@ -46,23 +46,17 @@ class Testoidal does Positional
 }
 
 my $trial = Testoidal.new;
-
 die unless $trial[2] == 24;
-
 die unless $trial[5] == 12;
 
 
 $trial[7] = 120;
-
 die unless $trial[2] == 24;
-
 die unless $trial[5] == 120;
 
 
 $trial[10] = 240;
-
 die unless $trial[2] == 240;
-
 die unless $trial[5] == 120;
 
 # Would it be possible to somehow (and: simply) return the
