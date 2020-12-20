@@ -3,11 +3,8 @@
 # stacko_question_raw_scalar_container_from_at_pos_positional.pl6            20 Dec 2020 
 use v6;
 
-
 ## Make errors into warnings
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
-
-
 
 #  my @monsters = < garuda blob golem mothera godzilla tingler >;
 
