@@ -19,7 +19,17 @@ https://github.com/timo/ADT/
 **** https://github.com/rakudo/rakudo/issues/3851
 Jeff's small C program to generate signed and unsidnged ints
 #+BEGIN_SRC c
-#!/usr/bin/tcc -run #include <stdio.h> int main() { uint16_t usint; int16_t sint; usint= 0xffff; sint= 0xffff; printf("unsigned: %i\n", usint); printf("unsigned u: %u\n", usint); printf("signed: %i\n", sint); return 0; } 
+#!/usr/bin/tcc -run 
+#include <stdio.h> 
+int main() { 
+  uint16_t usint; 
+  int16_t sint; 
+  usint= 0xffff; 
+  sint= 0xffff; 
+  printf("unsigned: %i\n", usint); 
+  printf("unsigned u: %u\n", usint); 
+  printf("signed: %i\n", sint); 
+  return 0; } 
 #+END_SRC
 
 **** Bruce Gray refers to native numerics docs:
