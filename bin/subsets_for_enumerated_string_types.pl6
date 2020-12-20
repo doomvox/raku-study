@@ -50,6 +50,7 @@ say '---';
 say '---';
 {
     sub shall_live () returns Trekoids {
+        my $name = Trekoids.pick;
         return "$name must die";
     }
     say must_die("Spock");
