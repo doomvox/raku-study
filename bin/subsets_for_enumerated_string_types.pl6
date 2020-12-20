@@ -45,6 +45,7 @@ say '---';
     say must_die("Spock");
     # Spock must die
     say must_die("Bingo");
+    CATCH { default { say .Str } };
     ## Constraint type check failed in binding to parameter '$name'; expected Trekoids but got Str ("Bingo")
 }
 say '---';
