@@ -5,8 +5,6 @@
 ## Make errors into warnings
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-#  my @monsters = < garuda blob golem mothera godzilla tingler >;
-
 use v6.d;
 use NativeCall;
 class simple is repr('CStruct') {
