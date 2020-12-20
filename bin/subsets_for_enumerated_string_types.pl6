@@ -81,6 +81,10 @@ say '---';
     if ( $ret ) {
         say "but that was Nil wasn't it?";
     }
+
+    if ( $ret ~~ Nil ) {
+        say "yes, looks like a Nil return";
+    }
     
     CATCH { default { say .Str } };
 }
