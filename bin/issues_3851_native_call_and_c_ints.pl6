@@ -6,6 +6,9 @@
 # Jeff is interested in this:
 # https://stackoverflow.com/questions/59209789/using-void-structs-in-raku-via-nativecall
 
+
+https://www.youtube.com/watch?v=adUdmol7cLU 
+
 ## Make errors into warnings
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
