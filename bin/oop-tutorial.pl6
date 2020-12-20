@@ -50,3 +50,5 @@ dd $mah_point;
 
 say $mah_point.x;
 say $mah_point.y;
+
+my $mah_point = Point.new(x => 666, y => 9);
