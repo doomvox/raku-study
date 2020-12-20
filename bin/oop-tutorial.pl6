@@ -7,7 +7,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 use v6;
 
-#  my @monsters = < garuda blob golem mothera godzilla tingler >;
+
 
 class Point {
     has Int $.x;
