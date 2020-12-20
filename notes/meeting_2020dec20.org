@@ -37,6 +37,12 @@ Bruce gray suggestion for compiling as gcc:
 gcc ~/T/d20201220/t16.c && ./a.out 
 #+END_SRC
 
+
+Bruce Gray:
+#+BEGIN_SRC c
+say $_, "\t", simple.new(:value($_)).value for 0..65537; 
+#+END_SRC
+
 **** Bruce Gray refers to native numerics docs:
 ***** https://docs.raku.org/language/numerics 
 
