@@ -8,7 +8,7 @@ use v6;
 # Yary hint:
 #  Experiment to turn ALL failures into warnings— at top level, “CATCH { default { .note; .resume } }” 
 
-CATCH { default { .note; .resume } }
+CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 say '---';
 {
