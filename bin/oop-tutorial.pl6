@@ -60,7 +60,7 @@ my $mah_point_3 = Point.new(y => 13);
 dd $mah_point_3;
 # Point $mah_point_3 = Point.new(x => Int, y => 13)
 
-## has to be rw too get this to work
+## has to be rw to get this to work
 say $mah_point_3.x; # (Int)
 $mah_point_3.x = 77;
 say $mah_point_3.x; # 
