@@ -68,4 +68,20 @@ say '---';
 }
 
 
+say '---';
+{
+    sub nada () {
+        return Nil;
+    }
+
+    my $ret = nada();
+    say $ret;
+    say $ret.WHAT;
+
+    if( $ret ) {
+        say "but that was Nil wasn't it?";
+    }
+    
+    CATCH { default { say .Str } };
+}
 
