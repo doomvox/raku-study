@@ -7,8 +7,6 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 use v6;
 
-
-
 class Point {
     has Int $.x;
     has Int $.y;
