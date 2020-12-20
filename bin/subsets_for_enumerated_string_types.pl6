@@ -36,7 +36,7 @@ my Trekoids $name;
     # Type check failed in assignment to $name; expected Trekoids but got Str ("Bozo")
 }
 
-sub must_die (Trekoids $name returns Str) {
+sub must_die (Trekoids $name, returns Str) {
     return "$name must die";
 }
 
