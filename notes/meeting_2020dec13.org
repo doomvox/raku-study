@@ -2,10 +2,7 @@
 ** github for file sharing during meeting
 https://github.com/doomvox/raku-study
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2020dec13.org
-*** 10 minutes on git basics?
-*** finish auto git push: /home/doom/lib/emacs/githacks.el
-testing this right now... 
-
+*** auto git push on save: /home/doom/lib/emacs/githacks.el
 
 ** things mentioned:
 

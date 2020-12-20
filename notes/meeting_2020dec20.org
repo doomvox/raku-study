@@ -1,0 +1,14 @@
+* meeting notes Dec 20, 2020
+** possible topics 
+*** cover git basics
+*** sets, bags, mixes
+****** https://docs.raku.org/language/setbagmix
+*** "Algebraic Data Types"  
+https://github.com/timo/ADT/
+*** lizmat articles using the type system
+https://raku-advent.blog/2020/12/18/day-18-typed-raku-part-1-taming-state/
+https://raku-advent.blog/2020/12/19/day-19-typed-raku-part-2-taming-behaviour/
+https://www.reddit.com/r/rakulang/comments/kg5dbj/day_19_typed_raku_part_2_taming_behaviour_ben/
+*** Yary Hluchan raises an issue about about restricting Nil return with a type subset
+https://www.nntp.perl.org/group/perl.perl6.language/2020/12/msg36850.html
+
