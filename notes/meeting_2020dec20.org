@@ -17,5 +17,14 @@ https://github.com/doomvox/raku-study/blob/main/bin/subset_to_restrict_nil_retur
 https://en.wikipedia.org/wiki/Three-valued_logic
 *** Jeff talks about this issue:
 https://github.com/rakudo/rakudo/issues/3851
+
+
+Jeff's small C program to generate signed and unsidnged ints
+#+BEGIN_SRC c
+#!/usr/bin/tcc -run #include <stdio.h> int main() { uint16_t usint; int16_t sint; usint= 0xffff; sint= 0xffff; printf("unsigned: %i\n", usint); printf("unsigned u: %u\n", usint); printf("signed: %i\n", sint); return 0; } 
+#+END_SRC
+
 *** Jeff mentions video: Hacking on the Rakudo Compiler by Rob Holez [YT] 
 https://www.youtube.com/watch?v=adUdmol7cLU 
+
+
