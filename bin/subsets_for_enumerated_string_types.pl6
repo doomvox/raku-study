@@ -142,8 +142,8 @@ say '---';
     ## but checking for "Any" doesn't help, because everything is.
 
     say "===";
-    say Any === Any;
-
+    say Any === Any; # True
+    say Nil === Nil; # 
 
     my Str $str = '';
     say $str.WHAT;
