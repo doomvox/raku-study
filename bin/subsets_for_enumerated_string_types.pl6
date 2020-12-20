@@ -109,6 +109,13 @@ say '---';
         say "one ain't bupkes";
     }
 
+    ## but checking for "Any" doesn't help, because everything is.
+
+    my Str $str = '';
+    say $str.WHAT;
+    if ( $str ~~ Any and not( $str ) ) {
+        say "An empty string declared as a string...";
+    } 
 
     
     CATCH { default { say .Str } };
