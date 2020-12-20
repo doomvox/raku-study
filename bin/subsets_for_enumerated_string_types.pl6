@@ -56,8 +56,6 @@ say '---';
     }
     say shall_live();
     # e.g. Spock
-
-
 }
 
 
