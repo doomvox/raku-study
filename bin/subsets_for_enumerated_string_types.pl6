@@ -92,6 +92,11 @@ say '---';
         say "So that was Nil, or something much like it";
     }
 
+    $ret = '';
+    if ( $ret ~~ Any and not( $ret ) ) {
+        say "Empty string also passes, I bet.";
+    }
+
     
     CATCH { default { say .Str } };
 }
