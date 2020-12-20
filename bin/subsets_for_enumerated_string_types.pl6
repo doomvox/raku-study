@@ -78,7 +78,7 @@ say '---';
     say $ret;
     say $ret.WHAT;
 
-    if( $ret ) {
+    if ( $ret ) {
         say "but that was Nil wasn't it?";
     }
     
