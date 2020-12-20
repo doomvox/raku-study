@@ -170,7 +170,6 @@ say '---';
     if ( $str ~~ Any and not( $str ) ) {
         say "An empty string declared as a string is still an Any";
     } 
-
     
     CATCH { default { say .Str } };
 }
