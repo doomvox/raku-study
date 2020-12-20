@@ -83,6 +83,12 @@ say '---';
     say "hey nil, yes?";
     dd $ret_b;
 
+    say "simple binding op demo:";
+    my $a = 3;
+    my $b := $a;
+    $a = 6;
+    say $b;
+
     if ( $ret ) {
         say "but that was Nil wasn't it?";
     }
