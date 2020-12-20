@@ -121,6 +121,7 @@ say '---';
     CATCH { default { say .Str } };
 }
 
+# https://docs.raku.org/type/Nil#index-entry-Nil_assignment
 
 # When assigned to a container, the Nil value (but not any subclass
 # of Nil) will attempt to revert the container to its default
