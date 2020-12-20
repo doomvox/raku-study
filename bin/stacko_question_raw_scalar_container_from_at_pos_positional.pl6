@@ -9,8 +9,12 @@ use v6;
 
 #  my @monsters = < garuda blob golem mothera godzilla tingler >;
 
-
-I'm attempting to implement a class that 'does' Positional that also allows me to update its values by assigning to the result returned by the AT-POS method. Eventually, I was able to concoct the following class that works as intended:
+# https://stackoverflow.com/questions/62968829/returning-a-raw-scalar-container-from-at-pos-method-rather-than-a-proxy-insta
+# 
+# I'm attempting to implement a class that 'does' Positional that
+# also allows me to update its values by assigning to the result
+# returned by the AT-POS method. Eventually, I was able to concoct
+# the following class that works as intended:
 
 class Test does Positional
 {
