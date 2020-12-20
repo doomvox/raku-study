@@ -8,8 +8,8 @@ use v6;
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 class Point {
-    has Int $.x;
-    has Int $.y;
+    has Int $.x is rw;
+    has Int $.y is rw;
 }
  
 class Rectangle {
