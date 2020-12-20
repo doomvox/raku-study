@@ -45,25 +45,25 @@ class Testoidal does Positional
     }
 }
 
-my $test = Testoidal.new;
+my $trial = Testoidal.new;
 
-die unless $test[2] == 24;
+die unless $trial[2] == 24;
 
-die unless $test[5] == 12;
-
-
-$test[7] = 120;
-
-die unless $test[2] == 24;
-
-die unless $test[5] == 120;
+die unless $trial[5] == 12;
 
 
-$test[10] = 240;
+$trial[7] = 120;
 
-die unless $test[2] == 240;
+die unless $trial[2] == 24;
 
-die unless $test[5] == 120;
+die unless $trial[5] == 120;
+
+
+$trial[10] = 240;
+
+die unless $trial[2] == 240;
+
+die unless $trial[5] == 120;
 
 # Would it be possible to somehow (and: simply) return the
 # container bound to $!slot_1 (or $!slot_2) inside the Testoidal
