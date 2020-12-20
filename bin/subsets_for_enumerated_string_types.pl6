@@ -56,7 +56,7 @@ say '---';
     say shall_live();
     # Spock
 
-    ## Constraint type check failed in binding to parameter '$name'; expected Trekoids but got Str ("Bingo")
+
 }
 
 
