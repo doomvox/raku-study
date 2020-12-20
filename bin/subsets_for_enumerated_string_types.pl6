@@ -58,7 +58,7 @@ say '---';
     # e.g. Spock
 
     sub shall_fail () returns Trekoids {
-        my $name = 'LizardKing';
+        my Trekoids $name = 'LizardKing';
         return $name;
     }
     say shall_fail();
