@@ -53,6 +53,7 @@ say '---';
         my $name = << spock uhurhu kirk >>.pick.tc;
         return $name;
     }
+    say "shall live: ";
     say shall_live();
     # e.g. Spock
 
