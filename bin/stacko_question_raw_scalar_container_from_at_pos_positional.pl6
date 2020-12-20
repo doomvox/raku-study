@@ -16,7 +16,7 @@ use v6;
 # returned by the AT-POS method. Eventually, I was able to concoct
 # the following class that works as intended:
 
-class Test does Positional
+class Testoidal does Positional
 {
     has $.slot_1 is rw = 12;
     has $.slot_2 is rw = 24;
@@ -46,7 +46,7 @@ class Test does Positional
     }
 }
 
-my $test = Test.new;
+my $test = Testoidal.new;
 
 die unless $test[2] == 24;
 
