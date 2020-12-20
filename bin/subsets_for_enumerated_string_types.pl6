@@ -79,6 +79,9 @@ say '---';
     say $ret;      # (Any)
     say $ret.WHAT; # (Any)
 
+    my $ret_b := nada();
+    dd $ret_b;
+
     if ( $ret ) {
         say "but that was Nil wasn't it?";
     }
