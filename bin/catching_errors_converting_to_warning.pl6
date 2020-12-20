@@ -16,7 +16,7 @@ say '---';
 
     subset Trekoids of Str where * eq any(<< Kirk Spock McCoy Scotty Uhuru Chapel Chekov Sulu >>);
     my Trekoids $name;
-
+    $name = "Bozo";
 #    CATCH { default { say .Str } };
 }
 
