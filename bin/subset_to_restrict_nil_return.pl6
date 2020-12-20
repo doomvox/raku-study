@@ -2,9 +2,10 @@
 # 
 # subset_to_restrict_nil_return.pl6            20 Dec 2020 
 
-## my changes:
+## my findings:
 #  o  added semi-colons to get it to parse as a script.
 #  o  added "say"s to echo returns
+#  o  confirm reported behavior
 
 use v6;
 
