@@ -151,6 +151,7 @@ say '---';
     if ($monster == 4) {
         say "ja";
     }
+    # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏mothera' (indicated by ⏏)
     if ($monster eq 'mothera') {
         say "ja";
     }
