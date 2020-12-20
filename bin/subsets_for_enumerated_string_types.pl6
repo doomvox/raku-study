@@ -154,13 +154,15 @@ say '---';
         }
         # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏mothera' (indicated by ⏏)
 
-        if ($monster eq 'mothera') {
-            say "ja";
-        }
-
         CATCH { default { say .Str } };
     }
 
+    {
+        my $monster = 'mothera';
+        if ($monster eq 'mothera') {
+            say "ja";
+        }
+    }
 
 
     my Str $str = '';
