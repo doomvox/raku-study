@@ -42,6 +42,8 @@ Bruce Gray:
 say $_, "\t", simple.new(:value($_)).value for 0..65537; 
 #+END_SRC
 
+***** https://github.com/rakudo/rakudo/blob/master/lib/NativeCall.rakumod 
+
 **** Bruce Gray refers to native numerics docs:
 ***** https://docs.raku.org/language/numerics 
 
