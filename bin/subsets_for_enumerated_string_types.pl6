@@ -151,7 +151,6 @@ say '---';
     if ($monster == 4) {
         say "ja";
     }
-        
     if ($monster eq 'mothera') {
         say "ja";
     }
