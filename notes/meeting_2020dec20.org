@@ -25,7 +25,7 @@ int main() {
   uint16_t usint; 
   int16_t  sint; 
   usint= 0xffff; 
-  sint= 0xffff; 
+  sint=  0xffff; 
   printf("unsigned: %i\n", usint); 
   printf("unsigned u: %u\n", usint); 
   printf("signed: %i\n", sint); 
