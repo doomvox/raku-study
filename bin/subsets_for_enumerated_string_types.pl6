@@ -45,6 +45,7 @@ sub must_die (Trekoids $name) returns Str {
     say must_die("Spock");
     # Spock must die
     say must_die("Bingo");
+    ## Constraint type check failed in binding to parameter '$name'; expected Trekoids but got Str ("Bingo")
 }
 
 
