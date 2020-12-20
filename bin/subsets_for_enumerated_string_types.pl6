@@ -43,7 +43,7 @@ sub must_die (Trekoids $name) returns Str {
 {
     say '---';
     say must_die("Spock");
-
+    # Spock must die
 }
 
 
