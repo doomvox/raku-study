@@ -14,7 +14,7 @@ https://github.com/timo/ADT/
 **** https://www.nntp.perl.org/group/perl.perl6.language/2020/12/msg36850.html
 **** https://github.com/doomvox/raku-study/blob/main/bin/subset_to_restrict_nil_return.pl6
 *** Bill raises question, is three-valued logic implemented in Raku:
-https://en.wikipedia.org/wiki/Three-valued_logic
+**** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/subset_to_restrict_nil_return.pl6https://en.wikipedia.org/wiki/Three-valued_logic
 *** Jeff talks about this issue:
 https://github.com/rakudo/rakudo/issues/3851
 
