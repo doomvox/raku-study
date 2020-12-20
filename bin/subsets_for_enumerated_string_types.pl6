@@ -147,10 +147,15 @@ say '---';
     say Nil === Nil;  # True
     say Nil !=== Nil; # False
 
+    my $monster = 'mothera';
     if ($monster == 4) {
-        say "ja"?
+        say "ja";
     }
         
+    if ($monster eq 'mothera') {
+        say "ja";
+    }
+
 
     my Str $str = '';
     say $str.WHAT;
