@@ -90,13 +90,13 @@ say '---';
 #     say $b;
 
     if ( $ret ) {
-        say "but that was Nil wasn't it?";
+        say "but that was Nil wasn't it?";  # doesn't hit
     }
 
     if ( $ret ~~ Nil ) {
-        say "yes, looks like a Nil return";
+        say "yes, looks like a Nil return";   ## this doesn't hit, it's an Any not a nil 
     } else {
-        say "how do you check for Nil if raku keeps calling it an empty Any?";
+        say "how do you check for Nil if raku keeps calling it an empty Any?";  ## this hits
     }
 
     if ( $ret ~~ Any and not( $ret ) ) {
