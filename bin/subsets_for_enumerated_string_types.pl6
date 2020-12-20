@@ -160,7 +160,7 @@ say '---';
     {
         my $monster = 'mothera';
         if ($monster eq 'mothera') {
-            say "ja";
+            say "ja";  # ja
         }
     }
 
