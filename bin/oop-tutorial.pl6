@@ -43,3 +43,6 @@ $r.describe();
 # 0
 # 10
 # 0
+
+
+my $mah_point = Point.new(x => 113, y => 267);
