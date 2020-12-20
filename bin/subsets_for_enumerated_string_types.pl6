@@ -120,6 +120,16 @@ say '---';
         say "one ain't bupkes";
     }
 
+
+    if ( $ret === Nil ) {
+        say "Triple equals for the win.";
+    } else {
+        say "right?";
+    }
+
+
+
+
     ## but checking for "Any" doesn't help, because everything is.
 
     my Str $str = '';
