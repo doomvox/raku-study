@@ -56,7 +56,7 @@ say '---';
     say "shall live: ";
     say shall_live();
     # e.g. Spock
-
+    say "---";
     sub shall_fail () returns Trekoids {
         my $name = 'LizardKing';
         return $name;
