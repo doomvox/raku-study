@@ -24,9 +24,6 @@ use v6;
 # Except that this doesn't work:
 #   Type check failed in assignment to $name; expected Trekoids but got Str ("Spock")
 
-
-
-
 subset Trekoids of Str where * eq any(<< Kirk Spock McCoy Scotty Uhuru Chapel >>);
 my Trekoids $name;
 {
