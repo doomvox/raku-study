@@ -12,6 +12,7 @@
 ## Make errors into warnings
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
+
 use v6.d;
 use NativeCall;
 class simple is repr('CStruct') {
