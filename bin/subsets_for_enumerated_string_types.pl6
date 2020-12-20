@@ -80,6 +80,7 @@ say '---';
     say $ret.WHAT; # (Any)
 
     my $ret_b := nada();
+    say "hey nil, yes?";
     dd $ret_b;
 
     if ( $ret ) {
