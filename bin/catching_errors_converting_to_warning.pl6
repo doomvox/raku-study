@@ -14,7 +14,7 @@ say '---';
 {
 #    say 3/0;  # This exception is not resumable
 
-    subset Trekoids of Str where * eq any(<< Kirk Spock McCoy Scotty Uhuru Chapel >>);
+    subset Trekoids of Str where * eq any(<< Kirk Spock McCoy Scotty Uhuru Chapel Chekov Sulu >>);
     my Trekoids $name;
 
 #    CATCH { default { say .Str } };
