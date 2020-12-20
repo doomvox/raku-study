@@ -124,13 +124,13 @@ say '---';
     if ( $ret === Nil ) {
         say "Triple equals for the win.";
     } else {
-        say "right?";
+        say "T3 ng on detecting Nil (when we're really Any)";
     }
 
     if ( $ret === Any ) {
         say "Triple equals against Any has to work, right?";
     } else {
-        say "yes?";
+        say "T3 ng on detecting Any";
     }
 
     if ( $ret_b === Nil ) {
