@@ -26,9 +26,9 @@ int main() {
   int16_t  sint; 
   usint= 0xffff; 
   sint=  0xffff; 
-  printf("unsigned: %i\n", usint); 
+  printf("unsigned: %i\n",   usint); 
   printf("unsigned u: %u\n", usint); 
-  printf("signed: %i\n", sint); 
+  printf("signed: %i\n",     sint); 
   return 0; } 
 #+END_SRC
 
