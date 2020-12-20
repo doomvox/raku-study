@@ -18,6 +18,6 @@ say '---';
 
 say '---';
 {
-
+    say "still alive";
 #    CATCH { default { say .Str } };
 }
