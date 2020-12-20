@@ -19,6 +19,11 @@ class Rectangle {
     method area(--> Int) {
         ($!upper.x - $!lower.x) * ( $!upper.y - $!lower.y);
     }
+
+    method cicrumfrence(--> Int) {
+        ($!upper.x + $!lower.x + $!upper.y + $!lower.y);        
+    }
+
 }
  
 # Create a new Rectangle from two Points 
