@@ -5,7 +5,7 @@
 ## my findings:
 #  o  added semi-colons to get it to parse as a script.
 #  o  added "say"s to echo returns
-#  o  confirm reported behavior
+#  o  confirmed reported behavior
 
 use v6;
 
