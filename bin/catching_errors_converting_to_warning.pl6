@@ -11,17 +11,17 @@ use v6;
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 say '---';
-{
+# {
 #    say 3/0;  # This exception is not resumable
 
     subset Trekoids of Str where * eq any(<< Kirk Spock McCoy Scotty Uhuru Chapel Chekov Sulu >>);
     my Trekoids $name;
     $name = "Bozo";
 #    CATCH { default { say .Str } };
-}
+# }
 
 say '---';
-{
+# {
     say "still alive";
 #    CATCH { default { say .Str } };
-}
+# }
