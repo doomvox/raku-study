@@ -39,7 +39,6 @@ my Trekoids $name;
 
 say '---';
 {
-
     sub must_die (Trekoids $name) returns Str {
         return "$name must die";
     }
