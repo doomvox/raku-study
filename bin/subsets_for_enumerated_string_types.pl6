@@ -147,30 +147,11 @@ say '---';
     say Nil === Nil;  # True
     say Nil !=== Nil; # False
 
-    { 
-        my $monster = 'mothera';
-        if ($monster == 4) {
-            say "ja";
-        }
-        # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏mothera' (indicated by ⏏)
-
-        CATCH { default { say .Str } };
-    }
-
-    {
-        my $monster = 'mothera';
-        if ($monster eq 'mothera') {
-            say "ja";  # ja
-        }
-    }
-
-
     my Str $str = '';
     say $str.WHAT;
     if ( $str ~~ Any and not( $str ) ) {
         say "An empty string declared as a string is still an Any";
     } 
-    
     CATCH { default { say .Str } };
 }
 
@@ -180,3 +161,21 @@ say '---';
 # of Nil) will attempt to revert the container to its default
 # value; if no such default is declared, Raku assumes Any.
 
+
+## simple == eq comparison
+{ 
+    my $monster = 'mothera';
+    if ($monster == 4) {
+        say "ja";
+    }
+    # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏mothera' (indicated by ⏏)
+
+    CATCH { default { say .Str } };
+}
+
+{
+    my $monster = 'mothera';
+    if ($monster eq 'mothera') {
+        say "ja";  # ja
+    }
+}
