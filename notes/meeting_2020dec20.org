@@ -4,7 +4,7 @@
 *** sets, bags, mixes
 **** https://docs.raku.org/language/setbagmix
 *** "Algebraic Data Types"  
-https://github.com/timo/ADT/
+**** https://github.com/timo/ADT/
 *** lizmat articles using the type system
 **** https://raku-advent.blog/2020/12/18/day-18-typed-raku-part-1-taming-state/
 **** https://raku-advent.blog/2020/12/19/day-19-typed-raku-part-2-taming-behaviour/
