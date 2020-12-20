@@ -20,7 +20,7 @@ class Rectangle {
         ($!upper.x - $!lower.x) * ( $!upper.y - $!lower.y);
     }
 
-    method cicrumfrence(--> Int) {
+    method perimeter(--> Int) {
         ($!upper.x + $!lower.x + $!upper.y + $!lower.y);        
     }
 
