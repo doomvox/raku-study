@@ -32,7 +32,6 @@ int main() {
   return 0; } 
 #+END_SRC
 
-
 Bruce gray suggestion for compiling as gcc:
 #+BEGIN_SRC sh
 gcc ~/T/d20201220/t16.c && ./a.out 
