@@ -143,8 +143,9 @@ say '---';
 
     say "===";
     say Any === Any; # True
+    say Any !=== Any; # True
     say Nil === Nil; # True
-    say Nil !=== Nil; 
+    say Nil !=== Nil; # False
 
     my Str $str = '';
     say $str.WHAT;
