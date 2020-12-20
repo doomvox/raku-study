@@ -56,6 +56,15 @@ say '---';
     }
     say shall_live();
     # e.g. Spock
+
+    sub shall_fail () returns Trekoids {
+        my $name = 'LizardKing';
+        return $name;
+    }
+    say shall_fail();
+
+
+    CATCH { default { say .Str } };
 }
 
 
