@@ -2,10 +2,12 @@
 # 
 # oop-tutorial.pl6            20 Dec 2020 
 
+use v6;
+
 ## Make errors into warnings
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-use v6;
+
 
 class Point {
     has Int $.x;
