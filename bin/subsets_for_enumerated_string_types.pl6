@@ -50,7 +50,7 @@ say '---';
 say '---';
 {
     sub shall_live () returns Trekoids {
-        my Trekoids $name = << spock uhurhu kirk >>.pick.tc;
+        my Trekoids $name = << spock uhuru kirk >>.pick.tc;
         return $name;
     }
     say "shall live: ";
