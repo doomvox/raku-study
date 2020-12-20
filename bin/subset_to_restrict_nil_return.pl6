@@ -30,7 +30,6 @@ sub in-check (non-Nil $in) { $in }
 # &in-check
 say in-check(33);
 # 33
-
 say in-check(Nil);
 
 # Constraint type check failed in binding to parameter '$in'; expected non-Nil but got Nil (Nil)
