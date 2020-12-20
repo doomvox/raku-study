@@ -127,6 +127,13 @@ say '---';
         say "right?";
     }
 
+    if ( $ret === Any ) {
+        say "Triple equals for the win.";
+    } else {
+        say "right?";
+    }
+
+
 
 
 
