@@ -47,5 +47,16 @@ say '---';
     say must_die("Bingo");
     ## Constraint type check failed in binding to parameter '$name'; expected Trekoids but got Str ("Bingo")
 }
+say '---';
+{
+    sub shall_live () returns Trekoids {
+        return "$name must die";
+    }
+    say must_die("Spock");
+    # Spock must die
+    say must_die("Bingo");
+    ## Constraint type check failed in binding to parameter '$name'; expected Trekoids but got Str ("Bingo")
+}
+
 
 
