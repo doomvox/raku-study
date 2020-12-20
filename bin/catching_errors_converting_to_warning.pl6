@@ -12,7 +12,9 @@ CATCH { default { .note; .resume } }
 
 say '---';
 {
-    say 3/0;
+#    say 3/0;  # This exception is not resumable
+
+
 #    CATCH { default { say .Str } };
 }
 
