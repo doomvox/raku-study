@@ -55,7 +55,7 @@ say '---';
         return $name;
     }
     say shall_live();
-    # Spock
+    # e.g. Spock
 
 
 }
