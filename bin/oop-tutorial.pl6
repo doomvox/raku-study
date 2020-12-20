@@ -26,11 +26,11 @@ class Rectangle {
 
     method describe() {
         say $!upper.x;
-        say $!lower.x);
+        say $!lower.x;
         say $!upper.y;
         say $!lower.y;
     }
-}
+
  
 # Create a new Rectangle from two Points 
 my $r = Rectangle.new(lower => Point.new(x => 0, y => 0),
