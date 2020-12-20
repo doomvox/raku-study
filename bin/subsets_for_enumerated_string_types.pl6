@@ -51,10 +51,10 @@ say '---';
 {
     sub shall_live () returns Trekoids {
         my $name = << spock uhurhu kirk >>;
-        return "$name must die";
+        return $name;
     }
     say shall_live();
-    # Spock must die
+    # Spock
     say must_die("Bingo");
     ## Constraint type check failed in binding to parameter '$name'; expected Trekoids but got Str ("Bingo")
 }
