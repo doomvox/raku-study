@@ -87,6 +87,11 @@ say '---';
     } else {
         say "how do you check for Nil if raku keeps calling it an empty Any?";
     }
+
+    if ( $ret ~~ Any and not( $ret ) ) {
+        say "So that was Nil, or something much like it";
+    }
+
     
     CATCH { default { say .Str } };
 }
