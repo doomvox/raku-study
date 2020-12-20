@@ -66,14 +66,18 @@ die unless $test[2] == 240;
 
 die unless $test[5] == 120;
 
-Would it be possible to somehow (and: simply) return the container bound to $!slot_1 (or $!slot_2) inside the Test class implementation?
+# Would it be possible to somehow (and: simply) return the
+# container bound to $!slot_1 (or $!slot_2) inside the Testoidal
+# class implementation?
 
-Before I discovered the use of Proxy instances I attempted to return (and return-rw) the result of expression position % 2 ?? $!slot_1.VAR !! $!slot_2.VAR, because I'm under the impression that the VAR method gives me access to the underlying container, in the hope that I can simply return it. That didn't really work, and I do not understand why yet: I suspect it somehow gets coerced back to a value somehow?
+# Before I discovered the use of Proxy instances I attempted to
+# return (and return-rw) the result of expression position % 2 ??
+# $!slot_1.VAR !! $!slot_2.VAR, because I'm under the impression
+# that the VAR method gives me access to the underlying container,
+# in the hope that I can simply return it. That didn't really work,
+# and I do not understand why yet: I suspect it somehow gets
+# coerced back to a value somehow?
 
-So in other words: is it possible to simplify my AT-POS implementation in this particular situation?
+# So in other words: is it possible to simplify my AT-POS
+# implementation in this particular situation?
 
-Thanks,
-
-Regards,
-
-Raymond.
