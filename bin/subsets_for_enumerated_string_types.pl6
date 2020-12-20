@@ -134,9 +134,9 @@ say '---';
     }
 
     if ( $ret_b === Nil ) {
-        say "Triple equals against Any has to work, right?";
+        say "Triple equals on the ret_b created via binding op is True-ish";
     } else {
-        say "yes?";
+        say "Falsey!";  
     }
 
     ## but checking for "Any" doesn't help, because everything is.
