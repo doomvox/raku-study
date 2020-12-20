@@ -25,7 +25,7 @@ class Rectangle {
     }
 
     method describe() {
-        say "x1:  $!upper.x
+
     }
 
 }
