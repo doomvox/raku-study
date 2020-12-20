@@ -142,10 +142,15 @@ say '---';
     ## but checking for "Any" doesn't help, because everything is.
 
     say "===";
-    say Any === Any; # True
-    say Any !=== Any; # True
-    say Nil === Nil; # True
+    say Any === Any;  # True
+    say Any !=== Any; # False
+    say Nil === Nil;  # True
     say Nil !=== Nil; # False
+
+    if ($monster == 4) {
+        say "ja"?
+    }
+        
 
     my Str $str = '';
     say $str.WHAT;
