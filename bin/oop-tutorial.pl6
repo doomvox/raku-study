@@ -48,8 +48,8 @@ $r.describe();
 my $mah_point = Point.new(x => 113, y => 267);
 dd $mah_point;
 
-say $mah_point.x;
-say $mah_point.y;
+say $mah_point.x; # 113
+say $mah_point.y; # 267
 
 my $mah_point_2 = Point.new(x => 666, y => 9);
 say $mah_point_2.x; # 666
