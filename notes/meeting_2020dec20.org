@@ -23,7 +23,7 @@ Jeff's small C program to generate signed and unsigned ints
 #include <stdio.h> 
 int main() { 
   uint16_t usint; 
-  int16_t sint; 
+  int16_t  sint; 
   usint= 0xffff; 
   sint= 0xffff; 
   printf("unsigned: %i\n", usint); 
