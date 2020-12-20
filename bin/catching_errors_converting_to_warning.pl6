@@ -14,7 +14,6 @@ say '---';
 {
 #    say 3/0;  # This exception is not resumable
 
-
 #    CATCH { default { say .Str } };
 }
 
