@@ -63,7 +63,6 @@ say '---';
     }
     say shall_fail();
 
-
     CATCH { default { say .Str } };
 }
 
