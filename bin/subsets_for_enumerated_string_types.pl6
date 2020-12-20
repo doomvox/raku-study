@@ -84,6 +84,8 @@ say '---';
 
     if ( $ret ~~ Nil ) {
         say "yes, looks like a Nil return";
+    } else {
+        say "how do you check for Nil if raku keeps calling it an empty Any?";
     }
     
     CATCH { default { say .Str } };
