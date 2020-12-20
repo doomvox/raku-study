@@ -57,3 +57,4 @@ say $mah_point_2.y; # 9
 
 
 my $mah_point_3 = Point.new(y => 13);
+dd $mah_point_3;
