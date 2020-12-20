@@ -133,7 +133,6 @@ say '---';
         say "yes?";
     }
 
-
     if ( $ret_b === Nil ) {
         say "Triple equals against Any has to work, right?";
     } else {
