@@ -134,12 +134,16 @@ say '---';
     }
 
     if ( $ret_b === Nil ) {
-        say "XXX: Triple equals on the ret_b created via binding op is True-ish";
+        say "XXX: Triple equals on the ret_b created via binding op is True-ish"; # A hit.
     } else {
         say "Falsey!";  
     }
 
     ## but checking for "Any" doesn't help, because everything is.
+
+    say "===";
+    say Any === Any;
+
 
     my Str $str = '';
     say $str.WHAT;
