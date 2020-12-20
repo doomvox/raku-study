@@ -62,6 +62,7 @@ say '---';
         return $name;
     }
     say shall_fail();
+    # Type check failed for return value; expected Trekoids but got Str ("LizardKing")
 
     CATCH { default { say .Str } };
 }
