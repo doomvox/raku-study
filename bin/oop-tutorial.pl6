@@ -24,6 +24,10 @@ class Rectangle {
         (($!upper.x - $!lower.x) + ($!upper.y - $!lower.y));        
     }
 
+    method describe() {
+        say "x1:  $!upper.x
+    }
+
 }
  
 # Create a new Rectangle from two Points 
