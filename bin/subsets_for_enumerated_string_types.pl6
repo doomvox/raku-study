@@ -70,13 +70,13 @@ say '---';
 
 say '---';
 {
-    sub nada () {
+    sub nada () returns Nil {
         return Nil;
     }
 
     my $ret = nada();
-    say $ret;
-    say $ret.WHAT;
+    say $ret;      # (Any)
+    say $ret.WHAT; # (Any)
 
     if ( $ret ) {
         say "but that was Nil wasn't it?";
