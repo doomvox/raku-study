@@ -2,7 +2,7 @@
 ** possible topics 
 *** cover git basics
 *** sets, bags, mixes
-****** https://docs.raku.org/language/setbagmix
+**** https://docs.raku.org/language/setbagmix
 *** "Algebraic Data Types"  
 https://github.com/timo/ADT/
 *** lizmat articles using the type system
