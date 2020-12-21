@@ -47,7 +47,7 @@ $r.describe();
 # 10
 # 0
 
-say "===';
+say '===';
 
 my $mah_point = Point.new(x => 113, y => 267);
 dd $mah_point;
