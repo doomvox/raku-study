@@ -30,10 +30,8 @@ class Rectangle {
     }
 
     method describe() {
-
         say "( $!upper.x, $!upper.y )";
         say $!lower.x;
-
         say $!lower.y;
     }
 }
