@@ -22,7 +22,7 @@ class Rectangle {
     method area(--> Int) {
         $!internal = "okay already";
 #        ($!upper.x - $!lower.x) * ( $!upper.y - $!lower.y);  # faster, maybe recommended
-        ($.upper.x - $.lower.x) * ( $.upper.y - $.lower.y); #  also works, *maybe* slower, bruce thinks it might be better now
+        ($.upper.x - $.lower.x) * ( $.upper.y - $.lower.y); #  also works, *maybe* slower, bruce thinks it might be recommended now
     }
 
     method perimeter(--> Int) {
