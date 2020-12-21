@@ -42,7 +42,7 @@ my $r = Rectangle.new(lower => Point.new(x => 0, y => 0),
                       upper => Point.new(x => 10, y => 10));
  
 say $r.area();      # 100
-say $r.perimeter(); #  20
+say $r.perimeter(); #  40
 $r.describe(); 
 # 10
 # 0
