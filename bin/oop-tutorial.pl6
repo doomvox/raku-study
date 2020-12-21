@@ -15,7 +15,7 @@ class Point {
 class Rectangle {
     has Point $.lower;
     has Point $.upper;
- 
+
     method area(--> Int) {
         ($.upper.x - $.lower.x) * ( $.upper.y - $.lower.y);
 #        ($!upper.x - $!lower.x) * ( $!upper.y - $!lower.y);
