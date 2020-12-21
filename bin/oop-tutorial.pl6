@@ -7,6 +7,9 @@ use v6;
 ## Make errors into warnings
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
+# Working through the first example in the OOP tutorial in the documentation:
+#   https://docs.raku.org/language/classtut
+
 class Point {
     has Int $.x is rw = 0;
     has Int $.y is rw = 0;
