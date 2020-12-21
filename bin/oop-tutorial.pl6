@@ -66,3 +66,5 @@ dd $mah_point_3;
 say $mah_point_3.x; # (Int)
 $mah_point_3.x = 77;
 say $mah_point_3.x; # 
+
+
