@@ -18,7 +18,6 @@ class Rectangle {
  
     method area(--> Int) {
         ($.upper.x - $.lower.x) * ( $.upper.y - $.lower.y);
-
 #        ($!upper.x - $!lower.x) * ( $!upper.y - $!lower.y);
     }
 
