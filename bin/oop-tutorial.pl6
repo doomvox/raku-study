@@ -16,9 +16,11 @@ class Rectangle {
     has Point $.lower;
     has Point $.upper;
 
+    has Str $!internal;
+
     method area(--> Int) {
-        ($!upper.x - $!lower.x) * ( $!upper.y - $!lower.y);  # faster, maybe recommended
-#        ($.upper.x - $.lower.x) * ( $.upper.y - $.lower.y); #  also works, *maybe* slower, bruce thinks it might be better now
+#        ($!upper.x - $!lower.x) * ( $!upper.y - $!lower.y);  # faster, maybe recommended
+        ($.upper.x - $.lower.x) * ( $.upper.y - $.lower.y); #  also works, *maybe* slower, bruce thinks it might be better now
     }
 
     method perimeter(--> Int) {
