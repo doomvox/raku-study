@@ -26,7 +26,7 @@ class Rectangle {
     }
 
     method perimeter(--> Int) {
-        2 * (($!upper.x - $!lower.x) + ($!upper.y - $!lower.y));        
+        2 * (abs($!upper.x - $!lower.x) + abs($!upper.y - $!lower.y));        
     }
 
     method describe() {
