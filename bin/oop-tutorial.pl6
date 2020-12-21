@@ -20,7 +20,6 @@ class Rectangle {
     has Point $.upper;
 
     method area(--> Int) {
-        $!internal = "okay already";
 #        ($!upper.x - $!lower.x) * ( $!upper.y - $!lower.y);  # faster, maybe recommended
         ($.upper.x - $.lower.x) * ( $.upper.y - $.lower.y); #  also works, *maybe* slower, bruce thinks it might be recommended now
     }
