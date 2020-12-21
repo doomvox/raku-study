@@ -10,6 +10,9 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 class Point {
     has Int $.x is rw = 0;
     has Int $.y is rw = 0;
+
+    has Str $!whatevea;
+
 }
  
 class Rectangle {
