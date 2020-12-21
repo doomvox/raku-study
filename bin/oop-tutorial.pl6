@@ -21,7 +21,7 @@ class Rectangle {
 
     method area(--> Int) {
 #        ($!upper.x - $!lower.x) * ( $!upper.y - $!lower.y);  # faster, maybe recommended
-        ($.upper.x - $.lower.x) * ( $.upper.y - $.lower.y);   # works, but slower (?), bruce thinks it might be recommended now
+        ($.upper.x - $.lower.x) * ( $.upper.y - $.lower.y);   # works, but slower (?), bruce thinks it's recommended now
                                                               # "low hanging fruit for the optimizer"
     }
 
