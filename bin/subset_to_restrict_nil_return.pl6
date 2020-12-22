@@ -21,7 +21,6 @@ say out-check(44);
 # 44
 say out-check(Nil);
 # Nil
-
 ## ^ Huh, I expected an exception on "out-check(Nil)" saying the return value failed the "returns" constraint.
 
 ## The subtype works as I expect as an the argument check
