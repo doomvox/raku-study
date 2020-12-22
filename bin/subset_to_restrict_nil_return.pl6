@@ -50,7 +50,10 @@ use v6;
         return $val;
     }
 
-    say no-nil( 66 );
-    say no-nil( Nil );
+    say no-nil( 66 ); # 66
 
+    say no-nil( Nil );
+    # Nil value, skipping return (maybe)
+    #   in sub no-nil at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/subset_to_restrict_nil_return.pl6 line 49
+    #   in block <unit> at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/subset_to_restrict_nil_return.pl6 line 54
 }
