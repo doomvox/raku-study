@@ -40,8 +40,11 @@ say in-check(Nil);
 ## implementing Raku 6.d.
 
 ## The experts say that Nil has to propagate, that's central to the error handling approach.
-## 
 
+sub no_nil( $val ) {
+    die "" if $val ~~ Nil;
+    return $val;
+}
 
 
 
