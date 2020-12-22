@@ -16,7 +16,6 @@ use v6;
 subset non-Nil where * !=== Nil;
 {
      sub out-check($out) returns non-Nil { return $out }
-     # &out-check
      say out-check(44);
      # 44
      say out-check(Nil);
@@ -27,7 +26,6 @@ subset non-Nil where * !=== Nil;
 {
     ## The subtype works as I expect as an the argument check
     sub in-check (non-Nil $in) { $in }
-    # &in-check
     say in-check(33);
     # 33
     say in-check(Nil);
