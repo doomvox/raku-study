@@ -15,8 +15,6 @@ use v6;
 
 subset non-Nil where * !=== Nil;
 {
-
-     # (non-Nil)
      sub out-check($out) returns non-Nil { return $out }
      # &out-check
      say out-check(44);
