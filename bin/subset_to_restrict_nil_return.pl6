@@ -39,8 +39,8 @@ say in-check(Nil);
 ## This is Rakudo version 2020.07 built on MoarVM version 2020.07
 ## implementing Raku 6.d.
 
-
-
+## The experts say that Nil has to propagate, that's central to the error handling approach.
+## 
 
 
 
