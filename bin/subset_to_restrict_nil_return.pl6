@@ -41,10 +41,10 @@ say in-check(Nil);
 
 ## The experts say that Nil has to propagate, that's central to the error handling approach.
 
-sub no_nil( $val ) {
+sub no-nil( $val ) {
     die "Nil value, skipping return (maybe)" if $val ~~ Nil;
     return $val;
 }
 
-
-
+say no-nil( 66 );
+say no-nil( Nil );
