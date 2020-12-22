@@ -13,15 +13,17 @@ use v6;
 # https://www.nntp.perl.org/group/perl.perl6.language/2020/12/msg36850.html
 #   perl6-language@perl.org
 
-{subset non-Nil where * !=== Nil;
- # (non-Nil)
- sub out-check($out) returns non-Nil { return $out }
- # &out-check
- say out-check(44);
- # 44
- say out-check(Nil);
- # Nil
- ## ^ Huh, I expected an exception on "out-check(Nil)" saying the return value failed the "returns" constraint.
+subset non-Nil where * !=== Nil;
+{
+
+     # (non-Nil)
+     sub out-check($out) returns non-Nil { return $out }
+     # &out-check
+     say out-check(44);
+     # 44
+     say out-check(Nil);
+     # Nil
+     ## ^ Huh, I expected an exception on "out-check(Nil)" saying the return value failed the "returns" constraint.
 }
 
 {
