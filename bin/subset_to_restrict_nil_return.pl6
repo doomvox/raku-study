@@ -39,7 +39,7 @@ say in-check(Nil);
 ## This is Rakudo version 2020.07 built on MoarVM version 2020.07
 ## implementing Raku 6.d.
 
-## Is this my understanding of return type checking that's off, or a known issue, or something I should add to an issue tracker?
+
 
 
 
