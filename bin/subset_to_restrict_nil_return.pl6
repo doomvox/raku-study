@@ -35,7 +35,7 @@ use v6;
     # Constraint type check failed in binding to parameter '$in'; expected non-Nil but got Nil (Nil)
     #   in sub in-check at <unknown file> line 1
     #   in block <unit> at <unknown file> line 1
-    CATCH { default { say "CAUGHT: ", .Str; .resume } }
+    CATCH { default { say "CAUGHT: ", .Str; } }
 }
 
 ## $ raku --version
