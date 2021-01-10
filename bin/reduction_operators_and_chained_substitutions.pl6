@@ -14,5 +14,5 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 say [+] 1, 2, 3;                # 6
 say reduce &infix:<+>, 1, 2, 3; # 6
 
-say reduce <+>, 1, 2, 3; # 6
+say reduce '+', 1, 2, 3; # 6
 
