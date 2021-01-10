@@ -53,7 +53,6 @@ dd $hero.meaningless;  ## hm
 say $hero.meaningless.defined;
 say "---";
 $hero.meaningless = Nil;
-say $hero.meaningless.defined;
 dd $hero.meaningless;  ## (Any)
-
+say $hero.meaningless.defined;
 
