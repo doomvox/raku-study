@@ -31,7 +31,7 @@ my $hero = Hero.new(:name('Þor')
                     :inventory(['Mjölnir','Chariot','Bilskirnir']));
 
 ### say $hero.name("bozo the clown");  #Too many positionals passed; expected 1 argument but got 2 ((LTA, eh?))
-$hero.name = "bozo";  ## Cannot modify an immutable Str (>>> Þor <<<)
+### $hero.name = "bozo";  ## Cannot modify an immutable Str (>>> Þor <<<)  (( needs an 'is rw' ))
 
 say $hero.name;
 say $hero.act;
