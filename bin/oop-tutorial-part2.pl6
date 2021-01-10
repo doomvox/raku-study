@@ -13,7 +13,7 @@ use v6;
 # https://medium.freecodecamp.org/a-short-overview-of-object-oriented-software-design-c7aa0a622c83 
 class Hero {
     has @!inventory;
-    has Str $.name is rw;
+    has Str $.name;
     submethod BUILD( :$name, :@inventory ) {
         $!name = ">>> $name <<<";
         @!inventory = @inventory
