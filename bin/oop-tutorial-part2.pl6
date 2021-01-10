@@ -14,7 +14,7 @@ use v6;
 class Hero {
     has @!inventory;
     has Str $.name;
-    has $.meaningless;
+    has $.meaningless is rw;
     submethod BUILD( :$name, :@inventory ) {
         $!name = "$name".uc;
         @!inventory = @inventory
