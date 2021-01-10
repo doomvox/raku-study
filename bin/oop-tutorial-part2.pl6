@@ -49,9 +49,8 @@ say $hero.meaningless.defined;
 
 say "---";
 $hero.meaningless = "hm";
-say $hero.meaningless.defined;
 dd $hero.meaningless;  ## hm
-
+say $hero.meaningless.defined;
 say "---";
 $hero.meaningless = Nil;
 say $hero.meaningless.defined;
