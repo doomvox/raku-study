@@ -7,8 +7,6 @@ use v6;
 ## Make errors into warnings
 ##   CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-#  my @monsters = < garuda blob golem mothera godzilla tingler >;
-
 # These two are equivalent: 
 say [+] 1, 2, 3;                # 6
 say reduce &infix:<+>, 1, 2, 3; # 6
