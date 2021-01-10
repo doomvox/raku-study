@@ -18,11 +18,9 @@ class Hero {
         $!name = ">>> $name <<<";
         @!inventory = @inventory
     }
-
     method name {
         $!name = $!name.uc;
     }
- 
     method act {
         return @!inventory.pick;
     }
