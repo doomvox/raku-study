@@ -29,6 +29,7 @@ my $hero = Hero.new(:name('Þor')
 say $hero.name;
 
 say $hero.name("bozo the clown");
+$hero.name = "bozo";
 
 say $hero.act;
 
