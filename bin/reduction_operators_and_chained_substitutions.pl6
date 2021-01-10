@@ -45,5 +45,5 @@ put $caesar;  # Gallia est omnis divisa in partes tres
 put $trans1;  # Gaul is a_whole divided into parts three
 
 say "---";
-my $w = "Hello world";
+$w = "Hello world, already.";
 /good/ andthen say "$_ is good";
