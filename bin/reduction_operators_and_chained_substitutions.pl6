@@ -15,4 +15,4 @@ say [+] 1, 2, 3;                # OUTPUT: «6␤»
 say reduce &infix:<+>, 1, 2, 3; # OUTPUT: «6␤»
 
 
-## hm?
+## hm
