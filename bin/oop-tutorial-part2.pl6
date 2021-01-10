@@ -18,6 +18,10 @@ class Hero {
         $!name = ">>> $name <<<";
         @!inventory = @inventory
     }
+    method metastuff {
+        say $!name;
+    }
+
     method name {
         $!name = $!name.uc;
     }
