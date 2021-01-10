@@ -43,13 +43,16 @@ say  $hero.act;
 # Bilskirnir  (( what? ))
 # Mjölnir     (( oh, it's picking randomly ))
 
+say "---";
 dd $hero.meaningless;  ## (Any)
 say $hero.meaningless.defined;
 
+say "---";
 $hero.meaningless = "hm";
 say $hero.meaningless.defined;
 dd $hero.meaningless;  ## hm
 
+say "---";
 $hero.meaningless = Nil;
 say $hero.meaningless.defined;
 dd $hero.meaningless;  ## (Any)
