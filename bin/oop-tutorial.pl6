@@ -69,3 +69,15 @@ $mah_point_3.x = 77;
 say $mah_point_3.x;   # 77 
 
 
+
+## Fing
+## Fang
+## Foom
+##
+## Fester
+## Festival
+## Foster
+## Fantasy
+## Fongoo
+## Filter
+## 

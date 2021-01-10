@@ -54,4 +54,25 @@ subset non-Nil where * !=== Nil;
     # Nil value, skipping return (maybe)
     #   in sub no-nil at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/subset_to_restrict_nil_return.pl6 line 49
     #   in block <unit> at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/subset_to_restrict_nil_return.pl6 line 54
+    CATCH { default { say "CAUGHT: ", .Str; } }
+}
+
+
+{
+
+    sub death_to_nil ( $val ) {
+        die if $val ~~ Nil;
+        CATCH{ default { return dFalse } };
+        return True;
+    }
+
+    subset anitnihilism where { death_to_nil( $_ ) };
+
+     sub out-check($out) returns anitnihilism { return $out }
+     say out-check(44);
+     # 44
+     say out-check(Nil);
+     # Nil
+
+     ### My trickery doesn't seem to be working...
 }
