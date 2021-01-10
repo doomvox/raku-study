@@ -44,3 +44,6 @@ my $trans1 = do given $caesar {
 put $caesar;  # Gallia est omnis divisa in partes tres
 put $trans1;  # Gaul is a_whole divided into parts three
 
+say "---";
+my $w = "Hello world";
+/good/ andthen say "$_ is good";
