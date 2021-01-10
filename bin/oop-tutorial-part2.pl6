@@ -42,3 +42,5 @@ say $hero.act;
 
 # Bilskirnir  (( what? ))
 # Mjölnir     (( oh, it's picking randomly ))
+
+say $hero.meaningless;
