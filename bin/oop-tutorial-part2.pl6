@@ -2,10 +2,10 @@
 # 
 # oop-tutorial-part2.pl6            10 Jan 2021 
 
+use v6;
+
 ## Make errors into warnings
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
-
-use v6;
 
 #  my @monsters = < garuda blob golem mothera godzilla tingler >;
 
