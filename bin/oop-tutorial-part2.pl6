@@ -26,11 +26,10 @@ class Hero {
 my $hero = Hero.new(:name('Þor')
                     :inventory(['Mjölnir','Chariot','Bilskirnir']));
 
-say $hero.name;
-
 ### say $hero.name("bozo the clown");  #Too many positionals passed; expected 1 argument but got 2 ((LTA, eh?))
 $hero.name = "bozo";
 
+say $hero.name;
 say $hero.act;
 
 # Bilskirnir  (( what? ))
