@@ -28,4 +28,4 @@ my $hero = Hero.new(:name('Þor'),
 say $hero.act;
 
 # Bilskirnir  (( what? ))
-
+# Mjölnir     (( oh, it's picking randomly ))
