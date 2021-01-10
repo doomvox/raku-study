@@ -36,17 +36,17 @@ my $hero = Hero.new(:name('Þor')
 ### $hero.name = "bozo";  ## Cannot modify an immutable Str (>>> Þor <<<)  (( needs an 'is rw' ))
 
 $hero.metastuff;
-say $hero.name;
+say  $hero.name;
 $hero.metastuff;
-say $hero.act;
+say  $hero.act;
 
 # Bilskirnir  (( what? ))
 # Mjölnir     (( oh, it's picking randomly ))
 
-say $hero.meaningless;  ## (Any)
+dd $hero.meaningless;  ## (Any)
 $hero.meaningless = "hm";
-say $hero.meaningless;  ## hm
+dd $hero.meaningless;  ## hm
 $hero.meaningless = Nil;
-say $hero.meaningless;  ## (Any)
+dd $hero.meaningless;  ## (Any)
 
 
