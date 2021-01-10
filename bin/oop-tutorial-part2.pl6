@@ -35,7 +35,9 @@ my $hero = Hero.new(:name('Þor')
 ### say $hero.name("bozo the clown");  #Too many positionals passed; expected 1 argument but got 2 ((LTA, eh?))
 ### $hero.name = "bozo";  ## Cannot modify an immutable Str (>>> Þor <<<)  (( needs an 'is rw' ))
 
+$hero.metastuff;
 say $hero.name;
+$hero.metastuff;
 say $hero.act;
 
 # Bilskirnir  (( what? ))
