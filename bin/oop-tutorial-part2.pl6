@@ -23,8 +23,11 @@ class Hero {
         return @!inventory.pick;
     }
 }
-my $hero = Hero.new(:name('Þor'),
+my $hero = Hero.new(:name('Þor')
                     :inventory(['Mjölnir','Chariot','Bilskirnir']));
+
+say $hero.name;
+
 say $hero.act;
 
 # Bilskirnir  (( what? ))
