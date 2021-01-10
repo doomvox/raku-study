@@ -18,7 +18,7 @@ say reduce &infix:<+>, 1, 2, 3; # 6
 ##  say reduce('+'), 1, 2, 3; # 6
 ### (1, 2, 3).reduce('+');
 
-say (1..4).reduce(&infix:<+>);   # OUTPUT: «10␤» 
-say reduce &infix:<+>, 1..4;     # OUTPUT: «10␤» 
-say reduce &min, 1..4;           # OUTPUT: «1␤» 
+say (1..4).reduce(&infix:<+>);   # 10
+say reduce &infix:<+>, 1..4;     # 10
+say reduce &min, 1..4;           # 1
  
