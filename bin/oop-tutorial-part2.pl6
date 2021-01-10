@@ -45,9 +45,11 @@ say  $hero.act;
 
 dd $hero.meaningless;  ## (Any)
 say $hero.meaningless.defined;
+
 $hero.meaningless = "hm";
 say $hero.meaningless.defined;
 dd $hero.meaningless;  ## hm
+
 $hero.meaningless = Nil;
 say $hero.meaningless.defined;
 dd $hero.meaningless;  ## (Any)
