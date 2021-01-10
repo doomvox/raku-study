@@ -21,7 +21,6 @@ class Hero {
     method metastuff {
         say $!name;
     }
-
 #     method name {
 #         $!name = $!name.uc;
 #     }
