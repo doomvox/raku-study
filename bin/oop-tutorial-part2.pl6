@@ -28,7 +28,7 @@ my $hero = Hero.new(:name('Þor')
 
 say $hero.name;
 
-say $hero.name("bozo the clown");
+say $hero.name("bozo the clown");  #Too many positionals passed; expected 1 argument but got 2 ((LTA, eh?))
 $hero.name = "bozo";
 
 say $hero.act;
