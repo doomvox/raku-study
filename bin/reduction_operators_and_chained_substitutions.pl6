@@ -24,4 +24,25 @@ say reduce &min, 1..4;           # 1
 say (1..4).reduce({ $^a + $^b });  # 10
 
 
+## https://stackoverflow.com/questions/65066358/concatenating-s-in-raku/65077600#65077600
+
+say "===";
+my $a = do given $w {S/Hello/Hola/ andthen S/world/mundo/};
+say $a;
+
+
+Taking this idea a little further, I wrote the following 'baby Raku' translation script and saved it as Bello_Gallico.p6. It's fun to run!
+
+my $caesar = "Gallia est omnis divisa in partes tres";
+my $trans1 = do given $caesar {
+ S/Gallia/Gaul/ andthen
+ S/est/is/ andthen
+ S/omnis/a_whole/ andthen
+ S/divisa/divided/ andthen
+ S/in/into/ andthen
+ S/partes/parts/ andthen
+ S/tres/three/ 
+};
+put $caesar;
+put $trans1;
 
