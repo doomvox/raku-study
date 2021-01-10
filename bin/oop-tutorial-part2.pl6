@@ -14,7 +14,7 @@ use v6;
 class Hero {
     has @!inventory;
     has Str $.name;
-    has $.meaningless is rw;
+    has Str $.meaningless is rw;
     submethod BUILD( :$name, :@inventory ) {
         $!name = "$name".uc;
         @!inventory = @inventory
@@ -47,4 +47,6 @@ say $hero.meaningless;  ## (Any)
 $hero.meaningless = "hm";
 say $hero.meaningless;  ## hm
 $hero.meaningless = Nil;
-say $hero.meaningless;  ## hm
+say $hero.meaningless;  ## (Any)
+
+
