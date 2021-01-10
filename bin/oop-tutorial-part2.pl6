@@ -43,6 +43,7 @@ say  $hero.act;
 # Bilskirnir  (( what? ))
 # Mjölnir     (( oh, it's picking randomly ))
 
+## Raku OOP works the way I think it should, letting you assign Nil to clear a field:
 say "---";
 dd $hero.meaningless;  ## (Any)
 say $hero.meaningless.defined;  # False
