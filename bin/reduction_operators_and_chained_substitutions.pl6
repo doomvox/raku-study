@@ -23,5 +23,6 @@ say reduce &infix:<+>, 1..4;     # 10
 say reduce &min, 1..4;           # 1
  
 
-
+## that &infix jazz bothers me... this works:
 say (1..4).reduce({ $^a + $^b });  # 10
+
