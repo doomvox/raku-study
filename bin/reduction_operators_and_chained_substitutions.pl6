@@ -24,4 +24,4 @@ say reduce &min, 1..4;           # 1
 say (1..4).reduce({ $^a + $^b });  # 10
 
 
-my @output = map{ s/tagname/tagvalue/r } @input;
+
