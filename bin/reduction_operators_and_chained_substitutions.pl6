@@ -9,7 +9,6 @@ use v6;
 
 #  my @monsters = < garuda blob golem mothera godzilla tingler >;
 
-
 # These two are equivalent: 
 say [+] 1, 2, 3;                # 6
 say reduce &infix:<+>, 1, 2, 3; # 6
