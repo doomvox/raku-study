@@ -45,14 +45,14 @@ say  $hero.act;
 
 say "---";
 dd $hero.meaningless;  ## (Any)
-say $hero.meaningless.defined;
+say $hero.meaningless.defined;  # False
 
 say "---";
 $hero.meaningless = "hm";
 dd $hero.meaningless;  ## hm
-say $hero.meaningless.defined;
+say $hero.meaningless.defined;  # True
 say "---";
 $hero.meaningless = Nil;
 dd $hero.meaningless;  ## (Any)
-say $hero.meaningless.defined;
+say $hero.meaningless.defined;  # False
 
