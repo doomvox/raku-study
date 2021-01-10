@@ -23,4 +23,5 @@ say reduce &infix:<+>, 1..4;     # 10
 say reduce &min, 1..4;           # 1
  
 
-say (1..4).reduce({ $^a + $^b });
+
+say (1..4).reduce({ $^a + $^b });  # 10
