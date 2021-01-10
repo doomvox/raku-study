@@ -18,6 +18,10 @@ class Hero {
         $!name = ">>> $name <<<";
         @!inventory = @inventory
     }
+
+    method name {
+        $!name = $!name.uc;
+    }
  
     method act {
         return @!inventory.pick;
@@ -27,7 +31,7 @@ my $hero = Hero.new(:name('Þor')
                     :inventory(['Mjölnir','Chariot','Bilskirnir']));
 
 ### say $hero.name("bozo the clown");  #Too many positionals passed; expected 1 argument but got 2 ((LTA, eh?))
-$hero.name = "bozo";
+$hero.name = "bozo";  ## Cannot modify an immutable Str (>>> Þor <<<)
 
 say $hero.name;
 say $hero.act;
