@@ -22,9 +22,9 @@ class Hero {
         say $!name;
     }
 
-    method name {
-        $!name = $!name.uc;
-    }
+#     method name {
+#         $!name = $!name.uc;
+#     }
     method act {
         return @!inventory.pick;
     }
