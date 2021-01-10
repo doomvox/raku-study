@@ -16,3 +16,4 @@ say reduce &infix:<+>, 1, 2, 3; # 6
 
 say reduce('+'), 1, 2, 3; # 6
 
+(1, 2, 3).reduce('+');
