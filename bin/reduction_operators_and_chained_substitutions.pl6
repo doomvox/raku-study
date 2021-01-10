@@ -27,6 +27,7 @@ say (1..4).reduce({ $^a + $^b });  # 10
 ## https://stackoverflow.com/questions/65066358/concatenating-s-in-raku/65077600#65077600
 
 say "===";
+my $w = "Hello world";
 my $a = do given $w {S/Hello/Hola/ andthen S/world/mundo/};
 say $a;
 
