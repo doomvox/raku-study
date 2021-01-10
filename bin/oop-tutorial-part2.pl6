@@ -27,3 +27,5 @@ my $hero = Hero.new(:name('Þor'),
                     :inventory(['Mjölnir','Chariot','Bilskirnir']));
 say $hero.act;
 
+# Bilskirnir  (( what? ))
+
