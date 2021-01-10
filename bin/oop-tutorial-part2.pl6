@@ -45,3 +45,4 @@ say $hero.act;
 
 say $hero.meaningless;  ## (Any)
 $hero.meaningless = "hm";
+say $hero.meaningless;  ## 
