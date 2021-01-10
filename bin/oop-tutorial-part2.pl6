@@ -45,4 +45,5 @@ say $hero.act;
 
 say $hero.meaningless;  ## (Any)
 $hero.meaningless = "hm";
-say $hero.meaningless;  ## 
+say $hero.meaningless;  ## hm
+$hero.meaningless = Nil;
