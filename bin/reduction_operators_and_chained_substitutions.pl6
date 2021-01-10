@@ -30,9 +30,6 @@ say "===";
 my $a = do given $w {S/Hello/Hola/ andthen S/world/mundo/};
 say $a;
 
-
-Taking this idea a little further, I wrote the following 'baby Raku' translation script and saved it as Bello_Gallico.p6. It's fun to run!
-
 my $caesar = "Gallia est omnis divisa in partes tres";
 my $trans1 = do given $caesar {
  S/Gallia/Gaul/ andthen
