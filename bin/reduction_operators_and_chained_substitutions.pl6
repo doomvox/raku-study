@@ -46,4 +46,4 @@ put $trans1;  # Gaul is a_whole divided into parts three
 
 say "---";
 $_ = "Hello world, already.";
-/world/ andthen say "$_.Str is good";
+/world/ andthen say "$_.gist is good";
