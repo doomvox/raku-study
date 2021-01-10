@@ -11,8 +11,8 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 
 # These two are equivalent: 
-say [+] 1, 2, 3;                # OUTPUT: «6␤» 
-say reduce &infix:<+>, 1, 2, 3; # OUTPUT: «6␤»
+say [+] 1, 2, 3;                # 6
+say reduce &infix:<+>, 1, 2, 3; # 6
 
 
 
