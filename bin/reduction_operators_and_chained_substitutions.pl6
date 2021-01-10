@@ -17,3 +17,8 @@ say reduce &infix:<+>, 1, 2, 3; # 6
 ### trying things at random:
 ##  say reduce('+'), 1, 2, 3; # 6
 ### (1, 2, 3).reduce('+');
+
+say (1..4).reduce(&infix:<+>);   # OUTPUT: «10␤» 
+say reduce &infix:<+>, 1..4;     # OUTPUT: «10␤» 
+say reduce &min, 1..4;           # OUTPUT: «1␤» 
+ 
