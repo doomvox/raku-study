@@ -15,7 +15,7 @@ class Hero {
     has @!inventory;
     has Str $.name is rw;
     submethod BUILD( :$name, :@inventory ) {
-        $!name = ">>> $name <<<<";
+        $!name = ">>> $name <<<";
         @!inventory = @inventory
     }
  
