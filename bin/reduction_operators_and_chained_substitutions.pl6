@@ -29,7 +29,7 @@ say (1..4).reduce({ $^a + $^b });  # 10
 say "===";
 my $w = "Hello world";
 my $a = do given $w {S/Hello/Hola/ andthen S/world/mundo/};
-say $a;
+say $a; # Hola mundo
 
 my $caesar = "Gallia est omnis divisa in partes tres";
 my $trans1 = do given $caesar {
@@ -41,6 +41,6 @@ my $trans1 = do given $caesar {
  S/partes/parts/ andthen
  S/tres/three/ 
 };
-put $caesar;
-put $trans1;
+put $caesar;  # Gallia est omnis divisa in partes tres
+put $trans1;  # Gaul is a_whole divided into parts three
 
