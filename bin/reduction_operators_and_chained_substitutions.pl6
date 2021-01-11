@@ -53,4 +53,4 @@ $str ~~ /sky/   andthen say "$_ is good";  # doesn't match
 $str ~~ /world/ orelse say "not so good";  # doesn't match
 $str ~~ /sky/   orelse say "not so good";  # not so good
 
-$str ~~ /sky/   orelse say "not so good: " ~~ $/;  # not so good
+$str ~~ /sky/   orelse say "not so good: " ~ $/;  # not so good
