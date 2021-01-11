@@ -118,6 +118,6 @@ say "===";
         s/delta/ddd/
     };
 
-    put $txt;
-    put $trans;
+    put $txt;     #  aaa bbb ccc ddd
+    put $trans;   #  delta
 }
