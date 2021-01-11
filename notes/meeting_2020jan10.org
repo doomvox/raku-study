@@ -17,7 +17,7 @@
 **** chaining with &&
 ** discussed
 *** mro: object method resolution order
-https://en.wikipedia.org/wiki/C3_linearization
-https://perldoc.perl.org/mro
+**** https://en.wikipedia.org/wiki/C3_linearization
+**** https://perldoc.perl.org/mro
 *** LWP::Simple
 **** https://github.com/raku-community-modules/LWP-Simple
