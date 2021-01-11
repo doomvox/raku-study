@@ -150,7 +150,7 @@ say "===";
         s/beta/bbb/  &&
         s/gamma/ccc/ &&
         s/delta/ddd/;
-        $_
+        $_                  ## forces the do given to return the transformed string
     };
 
     put $txt;     #  aaa bbb ccc ddd
