@@ -138,5 +138,18 @@ say "===";
     dd $obj;
     # Match $obj = Match.new(:orig("godzilla MONKEY rhodan"), :from(16), :pos(22))
     say $obj.Str;  # rhodan
+}
 
+{
+    say "---";
+    my $txt = "alpha beta gamma delta";
+    my $trans = do given $txt {
+        s/alpha/aaa/ &&
+        s/beta/bbb/  &&
+        s/gamma/ccc/ &&
+        s/delta/ddd/ 
+    };
+
+    put $txt;     #  aaa bbb ccc ddd
+    put $trans;   #  delta
 }
