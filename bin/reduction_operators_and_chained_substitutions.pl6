@@ -104,5 +104,5 @@ say "===";
         $_ = $_.uc;
         say $_;  # BUGS PETER EASTER
     }
-    say $r_str;
+    say $r_str;  # BUGS PETER EASTER
 }
