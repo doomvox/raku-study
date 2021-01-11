@@ -11,7 +11,8 @@
 *** idioms for chained substitutions
 **** https://stackoverflow.com/questions/65066358/concatenating-s-in-raku/65077600#65077600
 **** https://github.com/doomvox/raku-study/blob/main/bin/reduction_operators_and_chained_substitutions.pl6
-
+**** s/// vs S/// non-destructive
+**** chaining with andthen
 ** discussed
 *** mro: object method resolution order
 https://en.wikipedia.org/wiki/C3_linearization
