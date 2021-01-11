@@ -46,4 +46,6 @@ put $trans1;  # Gaul is a_whole divided into parts three
 
 say "---";
 my $str = "Hello world, already.";
-$str ~~ /world/  andthen say "$_ is good";
+$str ~~ /world/ andthen say "$_ is good";
+
+$str ~~ /sky/ andthen say "$_ is good";
