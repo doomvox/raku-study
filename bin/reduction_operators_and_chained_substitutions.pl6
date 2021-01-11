@@ -134,6 +134,6 @@ say "===";
 
     $_ = $monster_str;
     my $obj = s/mothera/MONKEY/ && s/rhodan/WILLARD/;  #
-    say $obj.WHAT;
-
+    say $obj.WHAT; # (Match)
+    dd $obj;
 }
