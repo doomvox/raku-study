@@ -53,4 +53,4 @@ $str ~~ /world/ orelse say "not so good";  # doesn't match
 $str ~~ /sky/   orelse say "not so good";  # not so good
 
 $str ~~ /sky/   orelse say "not so good: " ~ $/.gist; # not so good: Nil
-##  A Nil match object means you can't 
+##  A Nil match object means you can't check *what* failed: no metadata
