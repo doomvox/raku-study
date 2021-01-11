@@ -139,6 +139,7 @@ say "===";
     # Match $obj = Match.new(:orig("godzilla MONKEY rhodan"), :from(16), :pos(22))
     say $obj.Str;  # rhodan
     ## minor oddity here:  the match object from a s/// stringifies to the original value that's been replaced
+    ## you don't, for example, get $_, the state of the string *after* the replacement.
 }
 
 {
