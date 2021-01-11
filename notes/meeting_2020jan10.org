@@ -2,6 +2,7 @@
 ** topics
 *** basics of writing Raku objects
 **** brian d foy, p706-709
+**** https://docs.raku.org/language/classtut
 **** https://docs.raku.org/language/objects
 **** https://github.com/doomvox/raku-study/blob/main/bin/oop-tutorial-part2.pl6
 *** raku concurrency example start/await
