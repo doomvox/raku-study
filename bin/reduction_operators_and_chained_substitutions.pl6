@@ -100,9 +100,9 @@ say "===";
     my @rabbits  = < bugs peter easter >;
     my $r_str = @rabbits.join(" ");
     given  $r_str {
-        say $_;
+        say $_;  # bugs peter easter
         $_ = $_.uc;
-        say $_;
+        say $_;  # BUGS PETER EASTER
     }
     say $r_str;
 }
