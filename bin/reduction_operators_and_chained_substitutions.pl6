@@ -112,9 +112,9 @@ say "===";
     say "---";
     my $caesar = "alpha beta gamma";
     my $trans1 = do given $caesar {
-        s/alpha/aaa/    &&
-        s/beta/bbb/         &&
-        s/gamma/ccc/     &&
+        s/alpha/aaa/ &&
+        s/beta/bbb/  &&
+        s/gamma/ccc/ &&
         s/delta/ddd/
     };
 
