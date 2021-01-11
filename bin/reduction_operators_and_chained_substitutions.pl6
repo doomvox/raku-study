@@ -55,3 +55,5 @@ $str ~~ /sky/   orelse say "not so good";  # not so good
 $str ~~ /sky/   orelse say "not so good: " ~ $/.gist; # not so good: Nil
 ##  A Nil match object means you can't check *what* failed: no metadata
 
+
+say "The rat messes with the cat" ~ s/rat/RAT/;
