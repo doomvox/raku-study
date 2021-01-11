@@ -137,6 +137,6 @@ say "===";
     say $obj.WHAT; # (Match)
     dd $obj;
     # Match $obj = Match.new(:orig("godzilla MONKEY rhodan"), :from(16), :pos(22))
-    say $obj.^methods ~~ s/\s+/\n/;
+    say $obj.Str;
 
 }
