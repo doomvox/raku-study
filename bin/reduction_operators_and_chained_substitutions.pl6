@@ -102,7 +102,7 @@ say "===";
     given  $r_str {
         say $_;
         $_ = $_.uc;
-        
+        say $_;
     }
 
 }
