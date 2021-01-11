@@ -106,3 +106,21 @@ say "===";
     }
     say $r_str;  # BUGS PETER EASTER
 }
+
+
+{
+    say "---";
+    my $caesar = "alpha beta gamma";
+    my $trans1 = do given $caesar {
+        s/alpha/aaa/    &&
+        s/beta/bbb/         &&
+        s/gamma/ccc/  &&
+        s/divisa/divided/ &&
+        s/in/into/        &&
+        s/partes/parts/   && 
+        s/tres/three/     
+    };
+
+    put $caesar;
+    put $trans1; 
+}
