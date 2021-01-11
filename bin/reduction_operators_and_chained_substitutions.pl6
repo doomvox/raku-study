@@ -147,7 +147,8 @@ say "===";
         s/alpha/aaa/ &&
         s/beta/bbb/  &&
         s/gamma/ccc/ &&
-        s/delta/ddd/ 
+        s/delta/ddd/;
+        $_
     };
 
     put $txt;     #  aaa bbb ccc ddd
