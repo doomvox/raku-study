@@ -78,7 +78,9 @@ say "===";
     put $trans1;  # Gaul is a_whole divided into parts three
 }
 
+
 {
+    say "---";
     my $caesar = "Gallia est omnis divisa in partes tres";
     my $trans1 = do given $caesar {
         S/Gallia/Gaul/;
