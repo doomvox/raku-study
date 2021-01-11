@@ -5,7 +5,7 @@
 **** https://docs.raku.org/language/objects
 **** https://github.com/doomvox/raku-study/blob/main/bin/oop-tutorial-part2.pl6
 *** raku concurrency example start/await
-**** 
+**** https://github.com/doomvox/raku-study/blob/main/bin/json_comparator_worthington.pl6
 **** David Christensen's perl5 thread example (3x speed up)
 *** idioms for chained substitutions
 *** 
