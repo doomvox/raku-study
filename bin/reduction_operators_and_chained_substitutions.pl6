@@ -126,9 +126,7 @@ say "===";
     say "---";
     my $monster_str = "godzilla mothera rhodan";
     $_ = $monster_str;
-
     s/mothera/MONKEY/ && s/rhodan/WILLARD/;
-    
     say $_;
 
 }
