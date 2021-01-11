@@ -101,6 +101,8 @@ say "===";
     my $r_str = @rabbits.join(" ");
     given  $r_str {
         say $_;
+        $_ = $_.uc;
+        
     }
 
-    }
+}
