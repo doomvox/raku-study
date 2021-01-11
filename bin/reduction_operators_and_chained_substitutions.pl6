@@ -127,9 +127,13 @@ say "===";
     my $monster_str = "godzilla mothera rhodan";
     $_ = $monster_str;
     s/mothera/MONKEY/ && s/rhodan/WILLARD/;
-    say $_;
+    say $_;  # godzilla MONKEY WILLARD
 
     $_ = $monster_str;
-    say s/mothera/MONKEY/ && s/rhodan/WILLARD/;
+    say s/mothera/MONKEY/ && s/rhodan/WILLARD/;  # ｢rhodan｣
+
+    $_ = $monster_str;
+    my $obj = s/mothera/MONKEY/ && s/rhodan/WILLARD/;  #
+    say $obj.WHAT;
 
 }
