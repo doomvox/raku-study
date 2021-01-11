@@ -136,4 +136,7 @@ say "===";
     my $obj = s/mothera/MONKEY/ && s/rhodan/WILLARD/;  #
     say $obj.WHAT; # (Match)
     dd $obj;
+    # Match $obj = Match.new(:orig("godzilla MONKEY rhodan"), :from(16), :pos(22))
+    say $obj.^methods;
+
 }
