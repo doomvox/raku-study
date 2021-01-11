@@ -95,3 +95,9 @@ say "===";
     put $caesar;
     put $trans1; 
 }
+
+{
+    my @rabbits  = < bugs peter easter >;
+    say @rabbits.join(" ");
+
+    }
