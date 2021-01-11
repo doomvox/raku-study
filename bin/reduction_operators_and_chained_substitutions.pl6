@@ -66,13 +66,13 @@ say "===";
 
     my $caesar = "Gallia est omnis divisa in partes tres";
     my $trans1 = do given $caesar {
-        { printf "%20s, %20s\n", $caesar, $_; s/Gallia/Gaul/    };
-        { printf "%20s, %20s\n", $caesar, $_; s/est/is/         };
-        { printf "%20s, %20s\n", $caesar, $_; s/omnis/a_whole/  };
-        { printf "%20s, %20s\n", $caesar, $_; s/divisa/divided/ };
-        { printf "%20s, %20s\n", $caesar, $_; s/in/into/        };
-        { printf "%20s, %20s\n", $caesar, $_; s/partes/parts/   };
-        { printf "%20s, %20s\n", $caesar, $_; s/tres/three/     } 
+        { printf "%40s, %40s\n", $caesar, $_; s/Gallia/Gaul/    };
+        { printf "%40s, %40s\n", $caesar, $_; s/est/is/         };
+        { printf "%40s, %40s\n", $caesar, $_; s/omnis/a_whole/  };
+        { printf "%40s, %40s\n", $caesar, $_; s/divisa/divided/ };
+        { printf "%40s, %40s\n", $caesar, $_; s/in/into/        };
+        { printf "%40s, %40s\n", $caesar, $_; s/partes/parts/   };
+        { printf "%40s, %40s\n", $caesar, $_; s/tres/three/     } 
     };
     put $caesar;  # Gallia est omnis divisa in partes tres
     put $trans1;  # Gaul is a_whole divided into parts three
