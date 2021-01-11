@@ -19,6 +19,8 @@
 ***** https://docs.raku.org/routine/andthen
 **** chaining with &&
 **** note: there's a defined-or but no defined-and
+**** A s/// returns the *match* object, so it stringifies to original value, not replacement.
+
 ** discussed
 *** mro: object method resolution order
 **** https://en.wikipedia.org/wiki/C3_linearization
