@@ -128,6 +128,6 @@ say "===";
 
     s/mothera/MONKEY/ && s/rhodan/WILLARD/;
     
-
+    say $_;
 
 }
