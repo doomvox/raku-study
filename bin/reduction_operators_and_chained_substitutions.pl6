@@ -110,7 +110,7 @@ say "===";
 
 {
     say "---";
-    my $txt = "alpha beta gamma";
+    my $txt = "alpha beta gamma delta";
     my $trans1 = do given $txt {
         s/alpha/aaa/ &&
         s/beta/bbb/  &&
