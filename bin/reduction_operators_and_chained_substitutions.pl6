@@ -98,6 +98,9 @@ say "===";
 
 {
     my @rabbits  = < bugs peter easter >;
-    say @rabbits.join(" ");
+    my $r_str = @rabbits.join(" ");
+    given  $r_str {
+        say $_;
+    }
 
     }
