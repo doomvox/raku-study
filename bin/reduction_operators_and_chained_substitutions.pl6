@@ -56,7 +56,7 @@ $str ~~ /sky/   orelse say "not so good: " ~ $/.gist; # not so good: Nil
 ##  A Nil match object means you can't check *what* failed: no metadata
 
 my $s = "The rat messes with the cat";
-say  $s ~~ s/rat/RAT/;
+say  $s ~~ s/rat/RAT/;  # ｢rat｣
 
 say "===";
 {
@@ -76,4 +76,20 @@ say "===";
     };
     put $caesar;  # Gallia est omnis divisa in partes tres
     put $trans1;  # Gaul is a_whole divided into parts three
+}
+
+{
+    my $caesar = "Gallia est omnis divisa in partes tres";
+    my $trans1 = do given $caesar {
+        S/Gallia/Gaul/;
+        S/est/is/;
+        S/omnis/a_whole/;
+        S/divisa/divided/;
+        S/in/into/;
+        S/partes/parts/;
+        S/tres/three/ 
+    };
+
+    put $caesar;
+    put $trans1; 
 }
