@@ -15,7 +15,7 @@
 **** https://github.com/doomvox/raku-study/blob/main/bin/reduction_operators_and_chained_substitutions.pl6
 **** s/// vs S/// (non-destructive)
 ***** https://docs.raku.org/language/operators#Substitution_operators
-***** A s/// returns the *match* object, so it stringifies to original value, not replacement.
+***** A s/// returns the *match* object, so it stringifies to original matched string, not replacement.
 **** chaining with andthen
 ***** https://docs.raku.org/routine/andthen
 **** chaining with &&
