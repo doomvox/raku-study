@@ -114,11 +114,8 @@ say "===";
     my $trans1 = do given $caesar {
         s/alpha/aaa/    &&
         s/beta/bbb/         &&
-        s/gamma/ccc/  &&
-        s/divisa/divided/ &&
-        s/in/into/        &&
-        s/partes/parts/   && 
-        s/tres/three/     
+        s/gamma/ccc/     &&
+        s/delta/ddd/
     };
 
     put $caesar;
