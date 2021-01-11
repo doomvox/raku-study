@@ -152,5 +152,5 @@ say "===";
     };
 
     put $txt;     #  aaa bbb ccc ddd
-    put $trans;   #  delta
+    put $trans;   #  aaa bbb ccc ddd
 }
