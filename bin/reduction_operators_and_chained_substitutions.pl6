@@ -121,3 +121,10 @@ say "===";
     put $txt;     #  aaa bbb ccc ddd
     put $trans;   #  delta
 }
+
+{ 
+    my $monster_str = "godzilla mothera rhodan tingler";
+
+
+
+}
