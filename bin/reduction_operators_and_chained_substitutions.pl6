@@ -67,12 +67,12 @@ say "===";
     my $caesar = "Gallia est omnis divisa in partes tres";
     my $trans1 = do given $caesar {
         { say $_; s/Gallia/Gaul/ };
-        s/est/is/;
-        s/omnis/a_whole/;
-        s/divisa/divided/;
-        s/in/into/;
-        s/partes/parts/;
-        s/tres/three/ 
+        { say $_; s/est/is/ };
+        { say $_; s/omnis/a_whole/ };
+        { say $_; s/divisa/divided/ };
+        { say $_; s/in/into/ };
+        { say $_; s/partes/parts/ };
+        { say $_; s/tres/three/ } 
     };
     put $caesar;  # Gallia est omnis divisa in partes tres
     put $trans1;  # Gaul is a_whole divided into parts three
