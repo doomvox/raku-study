@@ -33,12 +33,12 @@ say $a; # Hola mundo
 
 my $caesar = "Gallia est omnis divisa in partes tres";
 my $trans1 = do given $caesar {
- S/Gallia/Gaul/ andthen
- S/est/is/ andthen
- S/omnis/a_whole/ andthen
- S/divisa/divided/ andthen
- S/in/into/ andthen
- S/partes/parts/ andthen
+ S/Gallia/Gaul/     andthen
+ S/est/is/          andthen
+ S/omnis/a_whole/   andthen
+ S/divisa/divided/  andthen
+ S/in/into/         andthen
+ S/partes/parts/    andthen
  S/tres/three/ 
 };
 put $caesar;  # Gallia est omnis divisa in partes tres
@@ -54,3 +54,4 @@ $str ~~ /world/ orelse say "not so good";  # doesn't match
 $str ~~ /sky/   orelse say "not so good";  # not so good
 
 $str ~~ /sky/   orelse say "not so good: " ~ $/.gist; # not so good: Nil
+##  A Nil match object means you can't 
