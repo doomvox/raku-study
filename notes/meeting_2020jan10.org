@@ -1,4 +1,4 @@
-* meeting notes Jan 10, 2020
+* meeting notes Jan 10, 2021
 ** topics
 *** basics of writing Raku objects
 **** brian d foy, p706-709
