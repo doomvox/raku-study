@@ -66,13 +66,13 @@ say "===";
 
     my $caesar = "Gallia est omnis divisa in partes tres";
     my $trans1 = do given $caesar {
-        { prinf "%20s, %20s", $caesar, $_; s/Gallia/Gaul/ };
-        { prinf "%20s, %20s", $caesar, $_; s/est/is/ };
-        { prinf "%20s, %20s", $caesar, $_; s/omnis/a_whole/ };
+        { prinf "%20s, %20s", $caesar, $_; s/Gallia/Gaul/    };
+        { prinf "%20s, %20s", $caesar, $_; s/est/is/         };
+        { prinf "%20s, %20s", $caesar, $_; s/omnis/a_whole/  };
         { prinf "%20s, %20s", $caesar, $_; s/divisa/divided/ };
-        { prinf "%20s, %20s", $caesar, $_; s/in/into/ };
-        { prinf "%20s, %20s", $caesar, $_; s/partes/parts/ };
-        { prinf "%20s, %20s", $caesar, $_; s/tres/three/ } 
+        { prinf "%20s, %20s", $caesar, $_; s/in/into/        };
+        { prinf "%20s, %20s", $caesar, $_; s/partes/parts/   };
+        { prinf "%20s, %20s", $caesar, $_; s/tres/three/     } 
     };
     put $caesar;  # Gallia est omnis divisa in partes tres
     put $trans1;  # Gaul is a_whole divided into parts three
