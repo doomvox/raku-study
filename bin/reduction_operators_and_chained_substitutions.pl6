@@ -123,7 +123,8 @@ say "===";
 }
 
 { 
-    my $monster_str = "godzilla mothera rhodan tingler";
+    my $monster_str = "godzilla mothera rhodan";
+
 
 
 
