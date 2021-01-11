@@ -129,4 +129,7 @@ say "===";
     s/mothera/MONKEY/ && s/rhodan/WILLARD/;
     say $_;
 
+    $_ = $monster_str;
+    say s/mothera/MONKEY/ && s/rhodan/WILLARD/;
+
 }
