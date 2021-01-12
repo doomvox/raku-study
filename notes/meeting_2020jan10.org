@@ -26,5 +26,6 @@
 **** https://perldoc.perl.org/mro
 *** LWP::Simple
 **** https://github.com/raku-community-modules/LWP-Simple
-
+*** SV Perl had an intro to Raku talk recently, by Yary Hluchan.  Slides:
+https://www.icloud.com/keynote/0rYAz1cfyzXNjGGYDfhS9dA1A#Raku-Optimize_for_Fun
  
