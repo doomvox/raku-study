@@ -36,7 +36,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     '| data; and more',
     'stuff |',
     '|data',
-    'stuff | dkdkll ; kdkkd ; stubborn ',  #  very slow line
+    'stuff | "dkdkll ; kdkkd" ; stubborn ',  #  very slow line
     ;
     for @s {
         '>'.say;.say; '#'.say;
