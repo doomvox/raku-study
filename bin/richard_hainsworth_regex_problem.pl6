@@ -12,7 +12,7 @@ use Test;
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 {
-    my $bar = '\|';
+#    my $bar = '\|'; # doesn't interp the way I think it should
     my regex fcode {
         ^ $<content>=
            (
