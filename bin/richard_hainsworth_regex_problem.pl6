@@ -31,11 +31,12 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
         \s*
         $
     } 
-    my @s = 'stuff | data ; more data',
+    my @s =
+    'stuff | data ; more data',
     '| data; and more',
     'stuff |',
     '|data',
-    'stuff | dkdkll ; kdkkd ; stubborn '
+    'stuff | dkdkll ; kdkkd ; stubborn ',  #  very slow line
     ;
     for @s {
         '>'.say;.say; '#'.say;
