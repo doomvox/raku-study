@@ -5,6 +5,27 @@
 ## issues with parsing pod6, which includes things like this:
 ## X<hash|hashes, definition of; associative arrays>
 
+
+## some doomvox junk:
+#     my @expected =
+#     { fcode   => ｢stuff | data ; more data｣,
+#       content => ｢stuff｣,
+#       meta    => ｢data｣,
+#       meta    => ｢more data｣,
+#     },
+#     '',
+#     '',
+#     '',
+#     ;
+
+
+#         my $expected_hash = @expected.pop;
+#         say $expected_hash;
+#         my $expected = $expected_hash<content>;
+#         say $expected;
+#         is($ret , $expected , "content matched on case: $case" );
+
+
 use v6;
 use Test;
 
