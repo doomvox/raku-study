@@ -36,8 +36,8 @@ use Test;
 
 
 ## bruce gray improvement:
-# %foo{‘bar’} can be said as 
-# %foo<bar> 
+# %foo{‘bar’} can be said as %foo<bar> 
+
 # Also, the hash slice %foo{‘bar, ‘baz’} is shorter as: 
 # %foo<bar baz> 
 # [ \s* $<meta>=( .*? \S ) \s* ]+ % \; 
