@@ -6,11 +6,15 @@
 *** yary hluchan contributed his grammar solution to the rh prob
 ** basic regex feature '%'
 *** like a join, matches a sequence of *this* separated by *those*
-
+#+BEGIN_SRC perl6
 token head  { <head-word>+ % <[\ \t]>+ | '' }
-** grammar token feature '~' to indicate bracketing chars at the beginning
+#+END_SRC
+** grammar token feature '~' 
+*** indicate bracketing chars at the beginning of the token
+#+BEGIN_SRC perl6
+token meta-quoted { '"' ~ '"' <inside-quotes>* }
+#+END_SRC
 
-	token meta-quoted { '"' ~ '"' <inside-quotes>* }
 ** basics of match objects
 *** dd doesn't dump *everything*
 *** if a named capture matches multiple times, you extract the hits as a list
