@@ -83,8 +83,8 @@ use Test;
         say $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
         say "match object: ";
         dd $/;
-        my $ret = $/<fcode>;
-        say "ret fcode: ", $ret;
+        my $ret = $/<fcode><content>;
+        say "ret fcode content : ", $ret;
 
         '==='.say;
     }   
