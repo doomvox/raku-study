@@ -50,10 +50,9 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     for @s {
         '---'.say;
         .say;
-        '==='.say;
 #        say $_ ~~ /<fcode>/
         say $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
-
+        '==='.say;
     }   
 
 }
