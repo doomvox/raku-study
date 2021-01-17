@@ -43,6 +43,9 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
         .say;
         '==='.say;
         say $_ ~~ /<fcode>/
+
+        say $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
+
     }   
 
 }
