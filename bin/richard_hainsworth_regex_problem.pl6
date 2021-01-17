@@ -40,7 +40,11 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     ;
 
     my @expected =
-    '',
+    ' fcode => ｢stuff | data ; more data｣
+  content => ｢stuff｣
+  meta => ｢data｣
+  meta => ｢more data｣
+',
     '',
     '',
     '',
@@ -54,7 +58,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
         # Note Yary's stylish way of getting elapsed time for this case...
         my $ret = $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
         say $ret;
-        is( $ret, @expected.pop, "fcode " );
+        is( $ret, @expected.pop, "fcode on case: $case" );
         '==='.say;
     }   
 
