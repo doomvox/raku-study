@@ -59,8 +59,10 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
         say $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
         say "match object: ";
         dd $/;
-        
-        is( $/{fcode}, @expected.pop{fcode}, "fcode on case: $case" );
+
+        my $ret = $/{fcode};
+        my $expected = @expected.pop{fcode};
+        is($ret , $expected , "fcode on case: $case" );
         '==='.say;
     }   
 
