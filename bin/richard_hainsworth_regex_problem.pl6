@@ -34,6 +34,16 @@ use Test;
 
 #    my $bar = '\|'; # doesn't interp the way I think it should
 
+
+## bruce gray improvement:
+# %foo{‘bar’} can be said as 
+# %foo<bar> 
+# Also, the hash slice %foo{‘bar, ‘baz’} is shorter as: 
+# %foo<bar baz> 
+# [ \s* $<meta>=( .*? \S ) \s* ]+ % \; 
+# \s* [ $<meta>=( .*? \S ) ]+ % [\s*\;\s*] 
+
+
 {
     my regex fcode {
         ^ $<content>=
