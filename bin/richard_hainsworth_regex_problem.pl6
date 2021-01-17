@@ -8,8 +8,16 @@ use v6;
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 {
+    my $bar = '\|';
     my regex fcode {
-        ^ $<content>= (<-[\|]>*)\s* \|? \s* $
+        ^ $<content>=
+           (
+              <-[\|]>* # everything's that's not a slash
+           )
+           \s*         # any whitespace
+           \|?         # a single bar
+           \s*
+           $
         |
         ^ $<content>=[ .* \S]*\s*<?before \|>
         \|
