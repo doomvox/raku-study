@@ -20,7 +20,7 @@ use Test;
               <-[\|]>* # anything that's not a vertical bar
            )
            \s*         # any whitespace
-           \| ?      # a single bar
+           \| ?        # a single bar
            \s*
            $
         |
