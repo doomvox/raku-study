@@ -60,7 +60,8 @@ use Test;
         dd $/;
 
         my $ret = $/<content>;
-        say $ret;
+        say "content: ", $ret;
+
 #         my $expected_hash = @expected.pop;
 #         say $expected_hash;
 #         my $expected = $expected_hash<content>;
