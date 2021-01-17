@@ -115,7 +115,7 @@ use Test;
         my $ret = $/<fcode><content>;
         say "ret fcode content : ", $ret;
 
-        say $/<fcode><meta>.list;
+        say "what?", $/<fcode><meta>.list;
 
         '==='.say;
     }   
