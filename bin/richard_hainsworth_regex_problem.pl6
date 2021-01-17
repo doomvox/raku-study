@@ -81,6 +81,15 @@ use Test;
         $
     } 
 
+    ## with a bruce gray improvement
+    my regex fcode {
+        ^ $<content>=[ <-[\|]>* \S] \s*<?before \|>
+        \| \s*
+        [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
+        \s*
+        $
+    } 
+
 
     my @s =
     'stuff | data ; more data',
