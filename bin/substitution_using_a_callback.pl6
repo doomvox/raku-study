@@ -16,3 +16,5 @@ my $coderef =
 $str ~~ s/(<<\w>>)/ &$coderef /;
 
 say $str;
+
+## dynamicallly scoped vars?
