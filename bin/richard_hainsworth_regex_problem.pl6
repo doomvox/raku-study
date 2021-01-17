@@ -38,6 +38,15 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     '|data',
     'stuff | "alpha ; beta" ; omega ',  #  very slow line
     ;
+
+    my @expected =
+    '',
+    '',
+    '',
+    '',
+    ;
+    
+
     for @s {
         '---'.say;
         .say;
