@@ -14,7 +14,6 @@ token head  { <head-word>+ % <[\ \t]>+ | '' }
 #+BEGIN_SRC perl6
 token meta-quoted { '"' ~ '"' <inside-quotes>* }
 #+END_SRC
-
 ** basics of match objects
 *** dd doesn't dump *everything*
 *** if a named capture matches multiple times, you extract the hits as a list
