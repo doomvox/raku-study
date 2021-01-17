@@ -64,7 +64,7 @@ use Test;
         say $ret;
         my $expected_hash = @expected.pop;
         say $expected_hash;
-        my $expected = @expected.pop()<content>;
+        my $expected = $expected_hash<content>;
         say $expected;
         is($ret , $expected , "content matched on case: $case" );
         '==='.say;
