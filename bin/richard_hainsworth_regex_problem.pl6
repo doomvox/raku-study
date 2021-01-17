@@ -28,18 +28,6 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
         \s*
         $
     } 
-}
-
-{
-    my regex fcode {
-        ^ $<content>= (<-[\|]>*)\s* \|? \s* $
-        |
-        ^ $<content>=[ .* \S]*\s*<?before \|>
-        \|
-        [\s* $<meta>=( .*? \S )\s*]+ % \;
-        \s*
-        $
-    } 
     my @s =
     'stuff | data ; more data',
     '| data; and more',
