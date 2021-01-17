@@ -17,9 +17,6 @@ my regex fcode {
     $
 } 
 
-
-
-
 my regex fcode {
     ^ $<content>= (<-[\|]>*)\s* \|? \s* $
     |
