@@ -17,7 +17,7 @@ use Test;
     my regex fcode {
         ^ $<content>=
            (
-              <-[\|]>* # anything that's not a slash
+              <-[\|]>* # anything that's not a vertical bar
            )
            \s*         # any whitespace
            \| ?      # a single bar
