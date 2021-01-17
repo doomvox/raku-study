@@ -11,8 +11,9 @@ use Test;
 ## Make errors into warnings
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-{
 #    my $bar = '\|'; # doesn't interp the way I think it should
+
+{
     my regex fcode {
         ^ $<content>=
            (
