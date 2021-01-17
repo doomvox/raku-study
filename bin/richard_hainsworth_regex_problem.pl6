@@ -18,7 +18,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
               <-[\|]>* # anything that's not a slash
            )
            \s*         # any whitespace
-           \|?         # a single bar
+           $bar ?      # a single bar
            \s*
            $
         |
