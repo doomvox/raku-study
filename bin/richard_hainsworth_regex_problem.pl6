@@ -39,16 +39,16 @@ use Test;
     'stuff | "alpha ; beta" ; omega ',  #  very slow line
     ;
 
-    my @expected =
-    { fcode   => ｢stuff | data ; more data｣,
-      content => ｢stuff｣,
-      meta    => ｢data｣,
-      meta    => ｢more data｣,
-    },
-    '',
-    '',
-    '',
-    ;
+#     my @expected =
+#     { fcode   => ｢stuff | data ; more data｣,
+#       content => ｢stuff｣,
+#       meta    => ｢data｣,
+#       meta    => ｢more data｣,
+#     },
+#     '',
+#     '',
+#     '',
+#     ;
     
 
     for @s {
