@@ -56,7 +56,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
         my $case = $_;
         say $case;
         # Note Yary's stylish way of getting elapsed time for this case...
-        $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
+        say $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
         say "match object: ";
         dd $/;
         # Match $/ = Match.new(:orig("stuff | data ; more data"), :from(0), :pos(24), :hash(Map.new((:fcode(Match.new(:orig("stuff | data ; more data"), :from(0), :pos(24), :hash(Map.new((:content(Match.new(:orig("stuff | data ; more data"), :from(0), :pos(5))),:meta([Match.new(:orig("stuff | data ; more data"), :from(8), :pos(12)), Match.new(:orig("stuff | data ; more data"), :from(15), :pos(24))]))))))))))
