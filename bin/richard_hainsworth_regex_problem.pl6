@@ -8,7 +8,6 @@ use v6;
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 {
-
     my regex fcode {
         ^ $<content>= (<-[\|]>*)\s* \|? \s* $
         |
@@ -18,7 +17,6 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
         \s*
         $
     } 
-
 }
 
 {
