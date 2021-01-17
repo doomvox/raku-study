@@ -14,3 +14,6 @@ my $coderef =
    {   .uc;  };
 
 $str ~~ s/<<\w>>/ $coderef /;
+
+
+say $str;
