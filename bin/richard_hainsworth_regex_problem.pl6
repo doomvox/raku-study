@@ -115,10 +115,10 @@ use Test;
         my $ret = $/<fcode><content>;
         say "ret fcode content : ", $ret;
 
-#        .say for "what?", $/<fcode><meta>.list;
-        for $/<fcode><meta>.list -> $hit {
-            say $hit;
-        }
+       .say for $/<fcode><meta>.list;
+#         for $/<fcode><meta>.list -> $hit {
+#             say $++, ': ', $hit;
+#         }
 
         '==='.say;
     }   
