@@ -39,7 +39,9 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     'stuff | "dkdkll ; kdkkd" ; stubborn ',  #  very slow line
     ;
     for @s {
-        '>'.say;.say; '#'.say;
+        '>'.say;
+        .say;
+        '#'.say;
         say $_ ~~ /<fcode>/
     }   
 
