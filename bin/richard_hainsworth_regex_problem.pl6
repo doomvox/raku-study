@@ -81,8 +81,8 @@ use Test;
 #         $
 #     } 
 
-## removing the incidental <?before \|>,
-## and also the key fix:
+## experimented with removing the incidental <?before \|>...
+## But the key fix:
 
    # ^ $<content>=[ .* \S]* \s* #<?before \|> # Still slow 
    # ^ $<content>=[ .* \S] \s* #<?before \|> # Aha! Removing the star fixes the problem!!!! 
