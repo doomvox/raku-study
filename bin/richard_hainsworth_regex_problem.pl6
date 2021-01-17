@@ -60,7 +60,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
         say "match object: ";
         dd $/;
         
-        is( $/.hash, @expected.pop, "fcode on case: $case" );
+        is( $/{fcode}, @expected.pop{fcode}, "fcode on case: $case" );
         '==='.say;
     }   
 
