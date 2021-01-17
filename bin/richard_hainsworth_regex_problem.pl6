@@ -62,6 +62,8 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
         my $ret = $/{fcode};
         my $expected = @expected.pop{fcode};
+        say $ret;
+        say $expected;
         is($ret , $expected , "fcode on case: $case" );
         '==='.say;
     }   
