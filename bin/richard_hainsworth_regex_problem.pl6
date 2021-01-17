@@ -9,6 +9,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 {
     my regex fcode {
+        :r
         ^ $<content>= (<-[\|]>*)\s* \|? \s* $
         |
         ^ $<content>=[ .* \S]*\s*<?before \|>
