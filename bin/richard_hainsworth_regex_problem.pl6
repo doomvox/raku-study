@@ -50,7 +50,6 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     for @s {
         '---'.say;
         .say;
-#        say $_ ~~ /<fcode>/
         # Note Yary's stylish way of getting elapsed time for this case...
         say $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
         '==='.say;
