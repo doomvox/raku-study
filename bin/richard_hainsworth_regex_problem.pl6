@@ -70,16 +70,16 @@ use Test;
 #         $
 #     } 
 
-    ## new richard hainsworth version:
-    my regex fcode {
-        ^ $<content>= (<-[\|]>*) \|? \s* $
-        ||
-        ^ $<content>=[ .* \S]*\s*<?before \|>
-        \| \s*
-        [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
-        \s*
-        $
-    } 
+#     ## new richard hainsworth version:
+#     my regex fcode {
+#         ^ $<content>= (<-[\|]>*) \|? \s* $
+#         ||
+#         ^ $<content>=[ .* \S]*\s*<?before \|>
+#         \| \s*
+#         [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
+#         \s*
+#         $
+#     } 
 
     ## with a bruce gray improvement
     my regex fcode {
