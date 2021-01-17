@@ -8,7 +8,9 @@
 *** like a join, matches a sequence of *this* separated by *those*
 
 token head  { <head-word>+ % <[\ \t]>+ | '' }
+** grammar token feature '~' to indicate bracketing chars at the beginning
 
+	token meta-quoted { '"' ~ '"' <inside-quotes>* }
 ** basics of match objects
 *** dd doesn't dump *everything*
 *** if a named capture matches multiple times, you extract the hits as a list
