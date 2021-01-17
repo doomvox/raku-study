@@ -6,7 +6,7 @@
 ## X<hash|hashes, definition of; associative arrays>
 
 use v6;
-
+use Test;
 ## Make errors into warnings
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
