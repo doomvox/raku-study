@@ -8,4 +8,9 @@ use v6;
 # CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 
+my $str = "aaa bbb ccc ddd";
 
+my $coderef =
+   {   .uc;  };
+
+$str ~~ s/<<\w>>/ $coderef /;
