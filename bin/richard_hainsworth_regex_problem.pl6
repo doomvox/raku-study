@@ -22,7 +22,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
            \s*
            $
         |
-        ^ $<content>=[ .* \S]*\s*<?before \|>
+        ^ $<content>=[ .* \S]*\s*<?before $bar>
         $bar
         [\s* $<meta>=( .*? \S )\s*]+ % \;
         \s*
