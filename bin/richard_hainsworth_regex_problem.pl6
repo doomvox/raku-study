@@ -59,10 +59,11 @@ use Test;
               \s*
               <?before \|>
               \|
-          [ \s*
-            $<meta>=( .*? \S ) \s* ]+
-          % \;
-        \s*
+
+              #  [ \s* $<meta>=( .*? \S ) \s* ]+ % \;
+              \s* [ $<meta>=( .*? \S ) ]+ % [\s*\;\s*]   ## bg approach
+  
+      \s*
         $
     } 
 
