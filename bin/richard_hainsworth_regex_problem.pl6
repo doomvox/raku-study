@@ -74,7 +74,7 @@ use Test;
 #     my regex fcode {
 #         ^ $<content>= (<-[\|]>*) \|? \s* $
 #         ||
-#         ^ $<content>=[ .* \S]* \s*<?before \|> ## the evil * is here: \S]*
+#         ^ $<content>=[ .* \S]* \s* <?before \|> ## the evil * is here: \S]*
 #         \| \s*
 #         [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
 #         \s*
@@ -95,7 +95,6 @@ use Test;
         \s*
         $
     } 
-
 
     my @s =
     'stuff | data ; more data',
