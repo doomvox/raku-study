@@ -7,32 +7,39 @@ use v6;
 ## Make errors into warnings
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-my regex fcode {
-    ^ $<content>= (<-[\|]>*)\s* \|? \s* $
-    |
-    ^ $<content>=[ .* \S]*\s*<?before \|>
-    \|
-    [\s* $<meta>=( .*? \S )\s*]+ % \;
-    \s*
-    $
-} 
+{
 
-my regex fcode {
-    ^ $<content>= (<-[\|]>*)\s* \|? \s* $
-    |
-    ^ $<content>=[ .* \S]*\s*<?before \|>
-    \|
-    [\s* $<meta>=( .*? \S )\s*]+ % \;
-    \s*
-    $
-} 
-my @s = 'stuff | data ; more data',
-'| data; and more',
-'stuff |',
-'|data',
-'stuff | dkdkll ; kdkkd ; stubborn '
-;
-for @s {
-    '>'.say;.say; '#'.say;
-    say $_ ~~ /<fcode>/
-}   
+    my regex fcode {
+        ^ $<content>= (<-[\|]>*)\s* \|? \s* $
+        |
+        ^ $<content>=[ .* \S]*\s*<?before \|>
+        \|
+        [\s* $<meta>=( .*? \S )\s*]+ % \;
+        \s*
+        $
+    } 
+
+}
+
+{
+    my regex fcode {
+        ^ $<content>= (<-[\|]>*)\s* \|? \s* $
+        |
+        ^ $<content>=[ .* \S]*\s*<?before \|>
+        \|
+        [\s* $<meta>=( .*? \S )\s*]+ % \;
+        \s*
+        $
+    } 
+    my @s = 'stuff | data ; more data',
+    '| data; and more',
+    'stuff |',
+    '|data',
+    'stuff | dkdkll ; kdkkd ; stubborn '
+    ;
+    for @s {
+        '>'.say;.say; '#'.say;
+        say $_ ~~ /<fcode>/
+    }   
+
+}
