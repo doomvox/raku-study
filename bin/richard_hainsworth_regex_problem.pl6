@@ -51,7 +51,9 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
         '---'.say;
         .say;
         # Note Yary's stylish way of getting elapsed time for this case...
-        say $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
+        my $ret = $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
+        say $ret;
+        is( $ret, @expected.pop, "" );
         '==='.say;
     }   
 
