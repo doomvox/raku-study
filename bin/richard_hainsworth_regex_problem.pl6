@@ -28,6 +28,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
         \s*
         $
     } 
+
     my @s =
     'stuff | data ; more data',
     '| data; and more',
