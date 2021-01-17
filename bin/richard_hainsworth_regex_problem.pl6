@@ -43,7 +43,6 @@ use Test;
 # [ \s* $<meta>=( .*? \S ) \s* ]+ % \; 
 # \s* [ $<meta>=( .*? \S ) ]+ % [\s*\;\s*] 
 
-
 {
     my regex fcode {
         ^ $<content>=
