@@ -64,7 +64,7 @@ use Test;
         say $ret;
         my $expected = @expected.pop()<content>;
         say $expected;
-        is($ret , $expected , "fcode on case: $case" );
+        is($ret , $expected , "content matched on case: $case" );
         '==='.say;
     }   
 
