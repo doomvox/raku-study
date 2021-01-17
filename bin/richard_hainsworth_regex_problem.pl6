@@ -45,9 +45,14 @@ use Test;
            \s*
            $
         |
-        ^ $<content>=[ .* \S]* \s* <?before \|>
-        \|
-        [\s* $<meta>=( .*? \S ) \s* ]+ % \;
+        ^ $<content>=
+              [ .* \S]*
+              \s*
+              <?before \|>
+              \|
+          [ \s*
+            $<meta>=( .*? \S ) \s* ]+
+          % \;
         \s*
         $
     } 
