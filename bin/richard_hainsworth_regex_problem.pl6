@@ -117,6 +117,7 @@ use Test;
 
 #        .say for "what?", $/<fcode><meta>.list;
         for $/<fcode><meta>.list -> $hit {
+            say $++;
             say $hit;
         }
 
