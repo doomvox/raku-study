@@ -43,29 +43,44 @@ use Test;
 # [ \s* $<meta>=( .*? \S ) \s* ]+ % \; 
 # \s* [ $<meta>=( .*? \S ) ]+ % [\s*\;\s*] 
 
-{
-    my regex fcode {
-        ^ $<content>=
-           (
-              <-[\|]>* # anything that's not a vertical bar
-           )
-           \s*         # any whitespace
-           \| ?        # a single bar
-           \s*
-           $
-        |
-        ^ $<content>=
-              [ .* \S]*
-              \s*
-              <?before \|>
-              \|
 
-              #  [ \s* $<meta>=( .*? \S ) \s* ]+ % \;
-              \s* [ $<meta>=( .*? \S ) ]+ % [\s*\;\s*]   ## bg approach
+
+{
+
+#     my regex fcode {
+#         ^ $<content>=
+#            (
+#               <-[\|]>* # anything that's not a vertical bar
+#            )
+#            \s*         # any whitespace
+#            \| ?        # a single bar
+#            \s*
+#            $
+#         |
+#         ^ $<content>=
+#               [ .* \S]*
+#               \s*
+#               <?before \|>
+#               \|
+
+#               #  [ \s* $<meta>=( .*? \S ) \s* ]+ % \;
+#               \s* [ $<meta>=( .*? \S ) ]+ % [\s*\;\s*]   ## bg approach
   
-      \s*
+#       \s*
+#         $
+#     } 
+
+    ## new richard hainsworth version:
+    my regex fcode {
+        ^ $<content>= (<-[\|]>*) \|? \s* $
+        ||
+        ^ $<content>=[ .* \S]*\s*<?before \|>
+        \| \s*
+        [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
+        \s*
         $
     } 
+
 
     my @s =
     'stuff | data ; more data',
