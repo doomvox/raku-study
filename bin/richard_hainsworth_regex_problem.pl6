@@ -81,7 +81,7 @@ use Test;
 #         $
 #     } 
 
-    ## with a bruce gray improvement
+    ## with a bruce gray improvement (*really* fast now)
     my regex fcode {
         ^ $<content>=[ <-[\|]>* \S] \s*<?before \|>
         \| \s*
