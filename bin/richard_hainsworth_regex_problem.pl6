@@ -7,6 +7,7 @@
 
 use v6;
 use Test;
+
 ## Make errors into warnings
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
@@ -18,12 +19,12 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
               <-[\|]>* # anything that's not a slash
            )
            \s*         # any whitespace
-           $bar ?      # a single bar
+           \| ?      # a single bar
            \s*
            $
         |
-        ^ $<content>=[ .* \S]*\s*<?before $bar>
-        $bar
+        ^ $<content>=[ .* \S]*\s*<?before \|>
+        \|
         [\s* $<meta>=( .*? \S )\s*]+ % \;
         \s*
         $
