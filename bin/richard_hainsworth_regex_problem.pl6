@@ -74,7 +74,7 @@ use Test;
 #     my regex fcode {
 #         ^ $<content>= (<-[\|]>*) \|? \s* $
 #         ||
-#         ^ $<content>=[ .* \S]* \s*<?before \|> ## the * here is evil: \S]*
+#         ^ $<content>=[ .* \S]* \s*<?before \|> ## the evil * is here: \S]*
 #         \| \s*
 #         [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
 #         \s*
