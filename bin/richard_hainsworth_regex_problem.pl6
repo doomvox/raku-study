@@ -45,7 +45,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     '| data; and more',
     'stuff |',
     '|data',
-    'stuff | "alpha ; beta" ; stubborn ',  #  very slow line
+    'stuff | "alpha ; beta" ; omega ',  #  very slow line
     ;
     for @s {
         '---'.say;
