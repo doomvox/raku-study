@@ -60,9 +60,10 @@ use Test;
         say "match object: ";
         dd $/;
 
-        my $ret = $/{fcode};
-        my $expected = @expected.pop{fcode};
+        my $ret = $/<content>;
         say $ret;
+        my $expected = @expected.pop{fcode};
+
         say $expected;
         is($ret , $expected , "fcode on case: $case" );
         '==='.say;
