@@ -2,6 +2,9 @@
 # 
 # richard_hainsworth_regex_problem.pl6            17 Jan 2021 
 
+## issues with parsing pod6, which includes things like this:
+## X<hash|hashes, definition of; associative arrays>
+
 use v6;
 
 ## Make errors into warnings
@@ -12,7 +15,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     my regex fcode {
         ^ $<content>=
            (
-              <-[\|]>* # everything's that's not a slash
+              <-[\|]>* # anything that's not a slash
            )
            \s*         # any whitespace
            \|?         # a single bar
