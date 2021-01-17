@@ -34,9 +34,10 @@ use Test;
 
 #    my $bar = '\|'; # doesn't interp the way I think it should
 
+# some basics of hash dereferencing:
+#   %foo{‘bar’} can be said as %foo<bar> 
 
 ## bruce gray improvement:
-
 # Also, the hash slice %foo{‘bar, ‘baz’} is shorter as: 
 # %foo<bar baz> 
 # [ \s* $<meta>=( .*? \S ) \s* ]+ % \; 
