@@ -24,9 +24,9 @@ use Test;
            \s*
            $
         |
-        ^ $<content>=[ .* \S]*\s*<?before \|>
+        ^ $<content>=[ .* \S]* \s* <?before \|>
         \|
-        [\s* $<meta>=( .*? \S )\s*]+ % \;
+        [\s* $<meta>=( .*? \S ) \s* ]+ % \;
         \s*
         $
     } 
