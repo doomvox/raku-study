@@ -8,26 +8,26 @@ use v6;
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 my regex fcode {
-^ $<content>= (<-[\|]>*)\s* \|? \s* $
-|
-^ $<content>=[ .* \S]*\s*<?before \|>
-\|
-[\s* $<meta>=( .*? \S )\s*]+ % \;
-\s*
-$
+    ^ $<content>= (<-[\|]>*)\s* \|? \s* $
+    |
+    ^ $<content>=[ .* \S]*\s*<?before \|>
+    \|
+    [\s* $<meta>=( .*? \S )\s*]+ % \;
+    \s*
+    $
 } 
-  
-  
+
+
 
 
 my regex fcode {
-^ $<content>= (<-[\|]>*)\s* \|? \s* $
-|
-^ $<content>=[ .* \S]*\s*<?before \|>
-\|
-[\s* $<meta>=( .*? \S )\s*]+ % \;
-\s*
-$
+    ^ $<content>= (<-[\|]>*)\s* \|? \s* $
+    |
+    ^ $<content>=[ .* \S]*\s*<?before \|>
+    \|
+    [\s* $<meta>=( .*? \S )\s*]+ % \;
+    \s*
+    $
 } 
 my @s = 'stuff | data ; more data',
 '| data; and more',
@@ -36,6 +36,6 @@ my @s = 'stuff | data ; more data',
 'stuff | dkdkll ; kdkkd ; stubborn '
 ;
 for @s {
-'>'.say;.say; '#'.say;
-say $_ ~~ /<fcode>/
+    '>'.say;.say; '#'.say;
+    say $_ ~~ /<fcode>/
 }   
