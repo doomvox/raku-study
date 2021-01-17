@@ -40,10 +40,10 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     ;
 
     my @expected =
-    { fcode   => ｢stuff | data ; more data｣
-      content => ｢stuff｣
-      meta    => ｢data｣
-      meta    => ｢more data｣
+    { fcode   => ｢stuff | data ; more data｣,
+      content => ｢stuff｣,
+      meta    => ｢data｣,
+      meta    => ｢more data｣,
     },
     '',
     '',
