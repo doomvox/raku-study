@@ -38,17 +38,6 @@ use Test;
     '|data',
     'stuff | "alpha ; beta" ; omega ',  #  very slow line
     ;
-
-#     my @expected =
-#     { fcode   => ｢stuff | data ; more data｣,
-#       content => ｢stuff｣,
-#       meta    => ｢data｣,
-#       meta    => ｢more data｣,
-#     },
-#     '',
-#     '',
-#     '',
-#     ;
     
     for @s {
         '---'.say;
@@ -62,11 +51,6 @@ use Test;
         my $ret = $/<content>;
         say "content: ", $ret;
 
-#         my $expected_hash = @expected.pop;
-#         say $expected_hash;
-#         my $expected = $expected_hash<content>;
-#         say $expected;
-#         is($ret , $expected , "content matched on case: $case" );
         '==='.say;
     }   
 
