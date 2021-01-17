@@ -81,9 +81,15 @@ use Test;
 #         $
 #     } 
 
+## removing the incidental <?before \|>,
+## and also the key fix:
+
+   # ^ $<content>=[ .* \S]* \s* #<?before \|> # Still slow 
+   # ^ $<content>=[ .* \S] \s* #<?before \|> # Aha! Removing the star fixes the problem!!!! 
+
     ## with a bruce gray improvement (*really* fast now)
     my regex fcode {
-        ^ $<content>=[ <-[\|]>* \S] \s*
+        ^ $<content>=[ <-[\|]>* \S] \s* <?before \|>
         \| \s*
         [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
         \s*
