@@ -11,7 +11,7 @@ use v6;
 my $str = "aaa bbb ccc ddd";
 
 my $coderef =
-   {   .uc;  };
+   {   $1.uc;  };
 
 $str ~~ s/(<<\w>>)/ $coderef /;
 
