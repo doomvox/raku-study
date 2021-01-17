@@ -60,7 +60,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
         say $ret.WHAT;
         dd $ret;
         say "match object: ";
-        dd $\;
+        dd $/;
         is( $ret, @expected.pop, "fcode on case: $case" );
         '==='.say;
     }   
