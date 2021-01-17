@@ -56,9 +56,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
         my $case = $_;
         say $case;
         # Note Yary's stylish way of getting elapsed time for this case...
-        my $ret = $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
-        say $ret.WHAT;
-        dd $ret;
+        $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
         say "match object: ";
         dd $/;
         is( $ret, @expected.pop, "fcode on case: $case" );
