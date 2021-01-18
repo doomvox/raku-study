@@ -34,8 +34,7 @@ https://www.icloud.com/keynote/0rYAz1cfyzXNjGGYDfhS9dA1A#Raku-Optimize_for_Fun
 
 ** future subjects
 *** grammars have rule and regexp as well as token
-*** bruce gray points out a virtue of grammars is the grammar debugger
-
+*** grammar debugger: a virtue of using grammars
 *** list comprehension
 **** grep, map, etc.
 **** exists in raku, python-influenced, see python-to-raku pages, etc.
