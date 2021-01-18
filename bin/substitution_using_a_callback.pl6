@@ -14,7 +14,7 @@ my $coderef =
    {  $0.uc; };
 
 # $str ~~ s/(<<\w>>)/ $coderef() /;
-$str ~~ s/(<<\w>>)/ 123 /;
+$str ~~ s/(\b\w\b)/ 123 /;
 
 say $str;
 
