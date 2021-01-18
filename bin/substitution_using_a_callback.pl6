@@ -16,11 +16,12 @@ my $coderef =
 # $str ~~ s/(«\w+»)/ 123 /;
 # $str ~~ s/(<<\w+>>)/{$coderef()}/;
 # $str ~~ s/(<<\w+>>)/{ $coderef() }/;
-$str ~~ s/(<<\w+>>)/$coderef()/;
+my $ret = $str ~~ s/(<<\w+>>)/$coderef()/;
+say $ret.WHAT;
 
 say $str;
 
-say $0;
+say $0;  #  ｢aaa｣
 my $newstr = "hey: $coderef()";
 say $newstr;  # hey: AAA  (so what's $0 anyway)
 
