@@ -29,7 +29,7 @@ https://github.com/doomvox/raku-study/blob/main/bin/accessing_dynamic_scope_via_
 https://github.com/doomvox/raku-study/blob/main/bin/substitution_using_a_callback.pl6
 
 ** news
-*** slides for yary's recent talk at SV Perl "Raku: Optimize for Fun"
+*** slides for Yary Hluchan's recent talk at SV Perl "Raku: Optimize for Fun"
 https://www.icloud.com/keynote/0rYAz1cfyzXNjGGYDfhS9dA1A#Raku-Optimize_for_Fun
 
 ** future subjects
