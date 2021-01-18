@@ -37,6 +37,4 @@ say $0;  #  ｢aaa｣
 my $newstr = "hey: $coderef()";
 say $newstr;  # hey: AAA  (so what's $0 anyway)
 
-
-
 my $ret2 = $str ~~ s:g/(<<\w+>>)/$coderef()/;
