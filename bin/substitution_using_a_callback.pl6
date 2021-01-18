@@ -46,6 +46,14 @@ say $ret;
 say $ret2 + 0;  # 5
 say +$ret2;     # 5
 
+{
+
+    my $ret2 = $str2 ~~ s:2nd/(<<\w+>>)/$coderef()/; 
+
+    }
+
+
+
 # raku -e 'my $str = "ooo"; $str ~~ s:2nd/o/x/; say $str;' 
 # oxo
 
