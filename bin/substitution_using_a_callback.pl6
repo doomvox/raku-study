@@ -61,5 +61,4 @@ say +$ret2;     # 5
 
     say $str; # garuda BLOB tingler annette_funnicello
 
-
     }
