@@ -36,13 +36,13 @@ sub factory {
 {
     my $var = 3;
     my $coderef = factory();
-    $coderef();
+    $coderef();  # 76trombones
 }
 
 {
     my $var = 7;
     my $coderef = factory();
-    $coderef();
+    $coderef();  # 76trombones
 }
 
 
