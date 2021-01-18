@@ -1,6 +1,6 @@
 
 # A grammar-based solution to Richard Hainsworth regex problem by Yary Hluchan
-# /home/doom/End/Cave/Perl6/Wall/raku-study/bin/richard_hainsworth_regex_problem.pl6
+# regex-based approach: richard_hainsworth_regex_problem.pl6
 
 
 grammar Content-and-Attributes {
