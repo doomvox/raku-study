@@ -20,6 +20,17 @@ my $ret = $str ~~ s/(<<\w+>>)/$coderef()/;
 say $ret.WHAT; # (Match)
 dd $ret;
 
+# Match object from s///
+#    $ret = Match.new(:orig("aaa bbb ccc ddd"),
+#                     :from(0),
+#                     :pos(3),
+#                     :list((Match.new(:orig("aaa bbb ccc ddd"),
+#                                      :from(0),
+#                                      :pos(3)),)))
+
+say ?$ret;
+
+
 say $str;
 
 say $0;  #  ｢aaa｣
