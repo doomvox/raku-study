@@ -33,7 +33,6 @@ sub factory {
     return { say $var };
 }
 
-
 {
     my $var = 3;
     my $coderef = factory();
