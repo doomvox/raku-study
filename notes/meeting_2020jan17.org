@@ -35,9 +35,11 @@ https://www.icloud.com/keynote/0rYAz1cfyzXNjGGYDfhS9dA1A#Raku-Optimize_for_Fun
 ** future subjects
 *** grammars have rule and regexp as well as token
 *** grammar debugger: a virtue of using grammars
+*** regex: why would "<? before \/> \/" behave differently than just "\/"
 *** list comprehension
 **** grep, map, etc.
 **** exists in raku, python-influenced, see python-to-raku pages, etc.
+
 
 *** defining a defined and operator
 **** any way to do lazy evaulation correctly?
