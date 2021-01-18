@@ -21,6 +21,10 @@ token meta-quoted { '"' ~ '"' <inside-quotes>* }
 *** dd doesn't dump *everything*
 *** if a named capture matches multiple times, you extract the hits as a list
 
+** using coderefs in a substitution
+bin/substitution_using_a_callback.pl6
+
+
 ** future subjects:
 *** grammars have rule and regexp as well as token
 *** bruce gray points out a virtue of grammars is the grammar debugger
@@ -39,3 +43,4 @@ https://www.icloud.com/keynote/0rYAz1cfyzXNjGGYDfhS9dA1A#Raku-Optimize_for_Fun
 #+BEGIN_SRC perl6
 foo() && bar ()
 #+END_SRC
+
