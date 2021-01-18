@@ -56,6 +56,10 @@ say +$ret2;     # 5
     my $ret = $str ~~ s:2nd/(<<\w+>>)/$coderef()/;
 
     say $ret;
+    # ｢blob｣
+    # 0 => ｢blob｣
+
+    say $str;
 
 
     }
