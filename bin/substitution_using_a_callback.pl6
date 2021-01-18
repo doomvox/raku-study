@@ -46,8 +46,6 @@ say $ret;
 say $ret2 + 0;  # 5
 say +$ret2;     # 5
 
-
-
 # raku -e 'my $str = "ooo"; $str ~~ s:2nd/o/x/; say $str;' 
 # oxo
 
