@@ -7,9 +7,6 @@ use v6;
 ## Make errors into warnings
 ##  CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-#  my @monsters = < garuda blob golem mothera godzilla tingler >;
-
-
 my $lexical   = 1;
 my $*dynamic1 = 10;
 my $*dynamic2 = 100;
