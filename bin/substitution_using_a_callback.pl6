@@ -22,3 +22,4 @@ say $str;
 
 
 my $newstr = "hey: $coderef()";
+say $newstr;
