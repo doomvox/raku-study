@@ -26,3 +26,11 @@ say-all();    # OUTPUT: 1, 10, 100
 }
  
 say-all();  # OUTPUT: 1, 10, 101 
+
+
+
+my $var = 3;
+
+sub something {
+    say $var;
+}
