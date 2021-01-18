@@ -45,4 +45,4 @@ my $ret2 = $str2 ~~ s:g/(<<\w+>>)/$coderef()/;
 say $ret2 + 0;  # 5
 say +$ret2;     # 5
 
-say $ret2;
+
