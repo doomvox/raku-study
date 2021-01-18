@@ -7,7 +7,6 @@ use v6;
 ## Make errors into warnings
 # CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-
 my $str = "aaa bbb ccc ddd";
 
 my $coderef =
