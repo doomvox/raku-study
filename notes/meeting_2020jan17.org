@@ -2,8 +2,8 @@
  * richard hainsworth regex problem, matching pod6-like things
 *** bin/richard_hainsworth_regex_problem.pl6
 *** bin/richard_hainsworth_grammar.raku
-** github setup: got a number of people added as collaborators
-*** yary hluchan contributed his grammar solution to the rh prob
+**** yary hluchan contribution: grammar-based solution
+** github setup: got a number of people added as collaborators.  Anyone else interested?
 ** basic regex feature '%'
 *** like a join, matches a sequence of *this* separated by *those*
 #+BEGIN_SRC perl6
