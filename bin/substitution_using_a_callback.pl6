@@ -53,8 +53,6 @@ say +$ret2;     # 5
     say $str2;  # alpha BETA gamma delta epsilon
     }
 
-
-
 # raku -e 'my $str = "ooo"; $str ~~ s:2nd/o/x/; say $str;' 
 # oxo
 
