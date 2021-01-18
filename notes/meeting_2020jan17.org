@@ -19,7 +19,7 @@ token meta-quoted { '"' ~ '"' <inside-quotes>* }
 
 ** basics of match objects
 *** can have objects within objects, e.g. multiple named captures
-*** dd doesn't dump *everything*
+*** dd doesn't dump *everything*: it picks a place to stop (and formatting is LTA)
 *** if a named capture matches multiple times, you extract the hits as a list
 
 ** dynamic scoping in raku
