@@ -17,4 +17,4 @@ $str ~~ s/(<<\w>>)/ &$coderef /;
 
 say $str;
 
-## dynamicallly scoped vars?
+
