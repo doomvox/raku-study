@@ -5,19 +5,20 @@ grammar Content-and-Attributes {
 	# attrs is semicolon-separated list of things, can be double-quoted, or empty
 	# What we care about are "head" and "meta" results
 
+ # TODO rule instead of token? use .ws instead of \s or \h
 	token TOP {   <head>
-				| <head> \s* '|' \s* <metas> }
+				| <head> \s* '|' \s* <metas> \s* }
 
-	token head-word  { <-[|\ \t]>+ }
-	token head  { <head-word>+ % <[\ \t]>+ | '' }
+	token head-word  { <-[|\h]>+ }
+	token head  { <head-word>+ % \h+ | '' }
 
-	token metas { <meta>* % [ \s* ';' \s* ] \s* } # Semicolon-separated 0-or-more attr
+	token metas { <meta>* % [ \s* ';' \s* ] } # Semicolon-separated 0-or-more attr
 
-	token meta-word { <-[;\"\ \t]>+ } # Anything without quote or solidus or space
-	token meta-words { <meta-word>+ % <[\ \t]>* }
+	token meta-word { <-[;\"\h]>+ } # Anything without quote or solidus or space
+	token meta-words { <meta-word>+ % \h* }
 	token inside-quotes { <-[ " ]>+ | '\"' }
 	token meta-quoted { '"' ~ '"' <inside-quotes>* }
-	token meta { <meta-words> | <meta-quoted> }
+	token meta { <meta-words> | <meta-quoted> } # TODO: use "make" to pull inside-quotes value to meta
 }
 
 my regex fcode {
@@ -33,6 +34,7 @@ my regex fcode {
 my @s = 'stuff | data ; more data',
         '| data; and more',
         'stuff |',
+        'stuff with spaces | http://i-am-a-url.com/',
         '|data',
         'stuff | dkdkll ; kdkkd  ; stubborn ',
 		'stuff | "dkdkll ; kdkkd" ; stubborn '

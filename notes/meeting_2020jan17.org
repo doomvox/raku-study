@@ -6,7 +6,7 @@
 *** yary hluchan contributed his grammar solution to the rh prob
 ** basic regex feature '%'
 *** like a join, matches a sequence of *this* separated by *those*
-#+BEGIN_SRC perl6
+!#+BEGIN_SRC perl6
 token head  { <head-word>+ % <[\ \t]>+ | '' }
 #+END_SRC
 ** grammar token feature '~' 
@@ -20,3 +20,9 @@ token meta-quoted { '"' ~ '"' <inside-quotes>* }
 ** future subjects:
 *** grammars have rule and regexp as well as token
 *** bruce gray points out a virtue of grammars is the grammar debugger
+
+
+
+
+** slides for yary's recent talk at SV Perl
+https://www.icloud.com/keynote/0rYAz1cfyzXNjGGYDfhS9dA1A#Raku-Optimize_for_Fun
