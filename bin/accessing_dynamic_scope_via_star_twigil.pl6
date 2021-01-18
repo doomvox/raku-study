@@ -47,18 +47,18 @@ sub factory {
 
 
 my $*dyno = 77;
-sub factory {
+sub factory2 {
     return { say $*dyno };
 }
 
 {
-    my $coderef = factory();
+    my $coderef = factory2();
     $*dyno = 3;
     $coderef();
 }
 
 {
-    my $coderef = factory();
+    my $coderef = factory2();
     my $*dyno = 7;
     $coderef();
 }
