@@ -6,7 +6,7 @@
 *** yary hluchan contributed his grammar solution to the rh prob
 ** basic regex feature '%'
 *** like a join, matches a sequence of *this* separated by *those*
-!#+BEGIN_SRC perl6
+#+BEGIN_SRC perl6
 token head  { <head-word>+ % <[\ \t]>+ | '' }
 #+END_SRC
 
