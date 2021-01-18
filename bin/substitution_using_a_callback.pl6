@@ -13,7 +13,7 @@ my $str = "aaa bbb ccc ddd";
 my $coderef =
    {  $1.uc; };
 
-$str ~~ s/(<<\w>>)/ $coderef.() /;
+$str ~~ s/(<<\w>>)/ $coderef() /;
 
 say $str;
 
