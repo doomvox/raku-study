@@ -12,6 +12,8 @@ my $str = "aaa bbb ccc ddd";
 my $coderef =
    {  $0.uc; };
 
+$coderef.WHAT;
+
 # $str ~~ s/(«\w+»)/ 123 /;
 # $str ~~ s/(<<\w+>>)/{$coderef()}/;
 # $str ~~ s/(<<\w+>>)/{ $coderef() }/;
