@@ -26,5 +26,5 @@ token meta-quoted { '"' ~ '"' <inside-quotes>* }
 *** bruce gray points out a virtue of grammars is the grammar debugger
 
 ** news
-*** slides for yary's recent talk at SV Perl
+*** slides for yary's recent talk at SV Perl "Raku: Optimize for Fun"
 https://www.icloud.com/keynote/0rYAz1cfyzXNjGGYDfhS9dA1A#Raku-Optimize_for_Fun
