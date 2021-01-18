@@ -1,7 +1,7 @@
 * meeting notes Jan 17, 2021
  * Richard Hainsworth regex problem, matching pod6-like things
 *** https://github.com/doomvox/raku-study/blob/main/bin/richard_hainsworth_regex_problem.pl6
-**** main trouble was a double-star pattern, like: "(a*)*'"
+**** main trouble was a double-star pattern, like: "(a*)*"
 *** https://github.com/doomvox/raku-study/blob/main/bin/richard_hainsworth_grammar.raku
 **** Yary Hluchan contribution: grammar-based solution
 ** github setup: got a number of people added as collaborators.  Anyone else interested?
