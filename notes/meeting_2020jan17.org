@@ -1,7 +1,7 @@
 * meeting notes Jan 17, 2021
  * richard hainsworth regex problem, matching pod6-like things
-*** bin/richard_hainsworth_regex_problem.pl6
-*** bin/richard_hainsworth_grammar.raku
+*** https://github.com/doomvox/raku-study/blob/main/bin/richard_hainsworth_regex_problem.pl6
+*** https://github.com/doomvox/raku-study/blob/main/bin/richard_hainsworth_grammar.raku
 **** yary hluchan contribution: grammar-based solution
 ** github setup: got a number of people added as collaborators.  Anyone else interested?
 ** basic regex feature '%'
@@ -22,10 +22,10 @@ token meta-quoted { '"' ~ '"' <inside-quotes>* }
 *** if a named capture matches multiple times, you extract the hits as a list
 
 ** dynamic scoping in raku
-bin/accessing_dynamic_scope_via_star_twigil.pl6
+https://github.com/doomvox/raku-study/blob/main/bin/accessing_dynamic_scope_via_star_twigil.pl6
 
 ** using coderefs in a substitution
-bin/substitution_using_a_callback.pl6
+https://github.com/doomvox/raku-study/blob/main/bin/substitution_using_a_callback.pl6
 
 ** future subjects:
 *** grammars have rule and regexp as well as token
