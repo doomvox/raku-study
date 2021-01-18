@@ -28,6 +28,7 @@ say-all();    # OUTPUT: 1, 10, 100
 say-all();  # OUTPUT: 1, 10, 101 
 
 
+my $var = 'huh';
 sub factory {
     return { say $var };
 }
