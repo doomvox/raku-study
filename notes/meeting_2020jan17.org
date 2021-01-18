@@ -33,4 +33,8 @@ https://www.icloud.com/keynote/0rYAz1cfyzXNjGGYDfhS9dA1A#Raku-Optimize_for_Fun
 *** list comprehension
 **** grep, map, etc.
 **** exists in raku, python-influenced
-*** 
+*** defining a defined and operator
+**** any way to do lazy evaulation correctly?
+!#+BEGIN_SRC perl6
+foo() && bar ()
+#+END_SRC
