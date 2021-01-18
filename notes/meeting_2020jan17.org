@@ -17,6 +17,7 @@ token meta-quoted { '"' ~ '"' <inside-quotes>* }
 #+END_SRC
 
 ** basics of match objects
+*** objects within objects
 *** dd doesn't dump *everything*
 *** if a named capture matches multiple times, you extract the hits as a list
 
