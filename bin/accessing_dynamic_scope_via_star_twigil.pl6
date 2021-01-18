@@ -52,13 +52,13 @@ sub factory {
 }
 
 {
-    $*dyno = 3;
     my $coderef = factory();
+    $*dyno = 3;
     $coderef();
 }
 
 {
-    my $var = 7;
     my $coderef = factory();
+    my $*dyno = 7;
     $coderef();
 }
