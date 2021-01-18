@@ -39,7 +39,7 @@ say $newstr;  # hey: AAA  (so what's $0 anyway)
 
 my $str2 = "alpha beta gamma delta epsilon";
 
-my $ret2 = $str2 ~~ s:2nd/(<<\w+>>)/$coderef()/;
+my $ret2 = $str2 ~~ s:g/(<<\w+>>)/$coderef()/;
 
 say $ret;
 
@@ -47,3 +47,12 @@ say $ret2 + 0;  # 5
 say +$ret2;     # 5
 
 
+
+# raku -e 'my $str = "ooo"; $str ~~ s:2nd/o/x/; say $str;' 
+# oxo
+
+{
+    my $str = "garuda blob tingler annette_funnicello";
+    my $ret2 = $str2 ~~ s:2nd/(<<\w+>>)/$coderef()/;
+
+    }
