@@ -28,3 +28,9 @@ token meta-quoted { '"' ~ '"' <inside-quotes>* }
 ** news
 *** slides for yary's recent talk at SV Perl "Raku: Optimize for Fun"
 https://www.icloud.com/keynote/0rYAz1cfyzXNjGGYDfhS9dA1A#Raku-Optimize_for_Fun
+
+** future subjects
+*** list comprehension
+**** grep, map, etc.
+**** exists in raku, python-influenced
+*** 
