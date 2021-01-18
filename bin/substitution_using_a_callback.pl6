@@ -41,14 +41,16 @@ my $str2 = "alpha beta gamma delta epsilon";
 
 my $ret2 = $str2 ~~ s:g/(<<\w+>>)/$coderef()/;
 
-say $ret;
+say $ret2;
 
 say $ret2 + 0;  # 5
 say +$ret2;     # 5
 
 {
-
+    my $str2 = "alpha beta gamma delta epsilon";
     my $ret2 = $str2 ~~ s:2nd/(<<\w+>>)/$coderef()/; 
+    say $ret2;
+
 
     }
 
