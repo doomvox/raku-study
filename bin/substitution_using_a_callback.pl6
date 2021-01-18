@@ -51,7 +51,7 @@ say +$ret2;     # 5
 
 {
     my $str = "garuda blob tingler annette_funnicello";
-    my $ret = $str ~~ s:2nd/(<<\w+>>)/$coderef()/;
+    my $ret = $str ~~ s:2nd:g/(<<\w+>>)/$coderef()/;
 
     say $ret;
     # ｢blob｣
