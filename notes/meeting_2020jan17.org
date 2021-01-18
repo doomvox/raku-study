@@ -39,7 +39,6 @@ https://www.icloud.com/keynote/0rYAz1cfyzXNjGGYDfhS9dA1A#Raku-Optimize_for_Fun
 *** list comprehension
 **** grep, map, etc.
 **** exists in raku, python-influenced, see python-to-raku pages, etc.
-
 *** defining a "defined and" operator, like the "defined or"
 **** any way to do lazy evaulation correctly?
 #+BEGIN_SRC perl6
