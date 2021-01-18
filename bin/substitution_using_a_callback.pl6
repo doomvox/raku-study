@@ -20,6 +20,5 @@ $str ~~ s/(<<\w+>>)/$coderef()/;
 
 say $str;
 
-
 my $newstr = "hey: $coderef()";
 say $newstr;  # hey: AAA  (so what's $0 anyway)
