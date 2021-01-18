@@ -29,14 +29,15 @@ https://github.com/doomvox/raku-study/blob/main/bin/accessing_dynamic_scope_via_
 https://github.com/doomvox/raku-study/blob/main/bin/substitution_using_a_callback.pl6
 
 ** future subjects:
-*** grammars have rule and regexp as well as token
-*** bruce gray points out a virtue of grammars is the grammar debugger
 
 ** news
 *** slides for yary's recent talk at SV Perl "Raku: Optimize for Fun"
 https://www.icloud.com/keynote/0rYAz1cfyzXNjGGYDfhS9dA1A#Raku-Optimize_for_Fun
 
 ** future subjects
+*** grammars have rule and regexp as well as token
+*** bruce gray points out a virtue of grammars is the grammar debugger
+
 *** list comprehension
 **** grep, map, etc.
 **** exists in raku, python-influenced, see python-to-raku pages, etc.
