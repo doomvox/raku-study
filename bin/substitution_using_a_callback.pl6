@@ -59,7 +59,7 @@ say +$ret2;     # 5
     # ｢blob｣
     # 0 => ｢blob｣
 
-    say $str;
+    # say $str; # garuda BLOB tingler annette_funnicello
 
 
     }
