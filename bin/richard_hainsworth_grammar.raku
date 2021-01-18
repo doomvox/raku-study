@@ -17,7 +17,7 @@ grammar Content-and-Attributes {
 	token meta-word { <-[;\"\h]>+ } # Anything without quote or solidus or space
 	token meta-words { <meta-word>+ % \h* }
 	token inside-quotes { [ # Grouping
-							<-[ " \\ ]>+ # Non quote, non-backlash string
+							<-[ " \\ ]> # Non quote, non-backlash string
 							| \\ .       # OR backslash followed by anything
 							]* # 0 or more of the above
 						} 
