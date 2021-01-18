@@ -39,7 +39,7 @@ say $newstr;  # hey: AAA  (so what's $0 anyway)
 
 my $str2 = "alpha beta gamma delta epsilon";
 
-my $ret2 = $str2 ~~ s:g/(<<\w+>>)/$coderef()/;
+my $ret2 = $str2 ~~ s:g:2nd/(<<\w+>>)/$coderef()/;
 
 say $ret2 + 0;  # 5
 say +$ret2;     # 5
