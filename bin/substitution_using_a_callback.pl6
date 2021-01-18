@@ -28,7 +28,9 @@ dd $ret;
 #                                      :from(0),
 #                                      :pos(3)),)))
 
-say ?$ret;
+say ?$ret;  #  True
+
+say !!$ret;
 
 
 say $str;
