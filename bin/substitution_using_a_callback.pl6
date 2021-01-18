@@ -15,8 +15,10 @@ my $coderef =
 
 # $str ~~ s/(«\w+»)/ 123 /;
 # $str ~~ s/(<<\w+>>)/{$coderef()}/;
-$str ~~ s/(<<\w+>>)/{ $coderef() }/;
+# $str ~~ s/(<<\w+>>)/{ $coderef() }/;
+$str ~~ s/(<<\w+>>)/$coderef()/;
 
 say $str;
 
 
+my $newstr = "hey: $coderef()";
