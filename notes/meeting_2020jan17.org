@@ -1,5 +1,5 @@
 * meeting notes Jan 17, 2021
- * richard hainsworth regex problem, matching pod6-like things
+ * Richard Hainsworth regex problem, matching pod6-like things
 *** https://github.com/doomvox/raku-study/blob/main/bin/richard_hainsworth_regex_problem.pl6
 *** https://github.com/doomvox/raku-study/blob/main/bin/richard_hainsworth_grammar.raku
 **** yary hluchan contribution: grammar-based solution
