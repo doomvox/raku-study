@@ -12,7 +12,7 @@ my $str = "aaa bbb ccc ddd";
 my $coderef =
    {  $0.uc; };
 
-say $coderef.WHAT;
+say $coderef.WHAT;  #  (Block)
 
 # $str ~~ s/(«\w+»)/ 123 /;
 # $str ~~ s/(<<\w+>>)/{$coderef()}/;
