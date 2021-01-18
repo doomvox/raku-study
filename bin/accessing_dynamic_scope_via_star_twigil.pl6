@@ -54,7 +54,7 @@ sub factory2 {
 
 {
     my $coderef = factory2();
-    $*dyno = 3;
+    my $*dyno = 3;
     $coderef();  #  3
 }
 
