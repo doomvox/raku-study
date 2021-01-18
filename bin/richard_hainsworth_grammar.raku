@@ -16,8 +16,12 @@ grammar Content-and-Attributes {
 
 	token meta-word { <-[;\"\h]>+ } # Anything without quote or solidus or space
 	token meta-words { <meta-word>+ % \h* }
-	token inside-quotes { <-[ " ]>+ | '\"' }
-	token meta-quoted { '"' ~ '"' <inside-quotes>* }
+	token inside-quotes { [ # Grouping
+							<-[ " \\ ]>+ # Non quote, non-backlash string
+							| \\ .       # OR backslash followed by anything
+							]* # 0 or more of the above
+						} 
+	token meta-quoted { '"' ~ '"' <inside-quotes> }
 	token meta { <meta-words> | <meta-quoted> } # TODO: use "make" to pull inside-quotes value to meta
 }
 
@@ -37,7 +41,8 @@ my @s = 'stuff | data ; more data',
         'stuff with spaces | http://i-am-a-url.com/',
         '|data',
         'stuff | dkdkll ; kdkkd  ; stubborn ',
-		'stuff | "dkdkll ; kdkkd" ; stubborn '
+		'stuff | "dkdkll ; kdkkd" ; stubborn ',
+		'stuff | "dkdkll \"I am an inside quote\" ; kdkkd" ; stubborn '
         ;
 
 for @s {
