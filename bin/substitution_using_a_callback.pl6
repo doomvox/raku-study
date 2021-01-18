@@ -13,7 +13,7 @@ my $str = "aaa bbb ccc ddd";
 my $coderef =
    {  $_.uc; };
 
-$str ~~ s/(<<\w>>)/ $coderef() /;
+$str ~~ s/(<<\w+>>)/ $coderef() /;
 # $str ~~ s/(«\w+»)/ 123 /;
 
 say $str;
