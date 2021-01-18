@@ -22,4 +22,4 @@ say $str;
 
 
 my $newstr = "hey: $coderef()";
-say $newstr;
+say $newstr;  # hey: AAA  (so what's $0 anyway)
