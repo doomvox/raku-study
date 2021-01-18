@@ -44,3 +44,21 @@ sub factory {
     my $coderef = factory();
     $coderef();
 }
+
+
+my $*dyno = 77;
+sub factory {
+    return { say $*dyno };
+}
+
+{
+    $*dyno = 3;
+    my $coderef = factory();
+    $coderef();
+}
+
+{
+    my $var = 7;
+    my $coderef = factory();
+    $coderef();
+}
