@@ -24,7 +24,6 @@ token meta-quoted { '"' ~ '"' <inside-quotes>* }
 ** dynamic scoping in raku
 bin/accessing_dynamic_scope_via_star_twigil.pl6
 
-
 ** using coderefs in a substitution
 bin/substitution_using_a_callback.pl6
 
