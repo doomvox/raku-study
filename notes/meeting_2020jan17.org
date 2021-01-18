@@ -21,8 +21,5 @@ token meta-quoted { '"' ~ '"' <inside-quotes>* }
 *** grammars have rule and regexp as well as token
 *** bruce gray points out a virtue of grammars is the grammar debugger
 
-
-
-
 ** slides for yary's recent talk at SV Perl
 https://www.icloud.com/keynote/0rYAz1cfyzXNjGGYDfhS9dA1A#Raku-Optimize_for_Fun
