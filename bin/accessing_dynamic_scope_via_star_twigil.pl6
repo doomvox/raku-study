@@ -27,6 +27,7 @@ say-all();    # OUTPUT: 1, 10, 100
  
 say-all();  # OUTPUT: 1, 10, 101 
 
+say "===";
 
 my $var = '76trombones';
 sub factory {
