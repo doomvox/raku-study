@@ -17,7 +17,8 @@ my $coderef =
 # $str ~~ s/(<<\w+>>)/{$coderef()}/;
 # $str ~~ s/(<<\w+>>)/{ $coderef() }/;
 my $ret = $str ~~ s/(<<\w+>>)/$coderef()/;
-say $ret.WHAT;
+say $ret.WHAT; # (Match)
+dd $ret;
 
 say $str;
 
