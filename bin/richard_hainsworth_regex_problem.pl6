@@ -73,15 +73,15 @@ for @cases.kv -> $i, $case {
     # Note the stylish way of getting an elapsed time (from Yary Hluchan)
     say "took ", (now - ENTER now), " sec"; 
     
-    say "match object: ";
-    dd $/;
+#     say "match object: ";
+#     dd $/;
 
+    ## extract matched values from match object
     my ($fcode_content, @fcode_meta);
     if ( not $/ ) { # standardize on empty 'no match' values to make tests easier
         $fcode_content = '';
         @fcode_meta    = [];
     } else {
-        # extract matched values from match object
         $fcode_content = $/<fcode><content>;
         @fcode_meta    = $/<fcode><meta>.list.map({.Str});  ## gotta be a better way
     }
