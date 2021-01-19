@@ -71,8 +71,9 @@ for @cases -> $case {
     say "match object: ";
     dd $/;
 
-        my $fcode_content = $/<fcode><content>;
-        my @fcode_meta = $/<fcode><meta>.list.map({.Str});  ## gotta be a better way
+    # extract matched values from match object
+    my $fcode_content = $/<fcode><content>;
+    my @fcode_meta = $/<fcode><meta>.list.map({.Str});  ## gotta be a better way
 
         say "fcode_content : ", $fcode_content;
         say "meta: ";
