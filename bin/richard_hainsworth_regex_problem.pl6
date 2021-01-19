@@ -57,10 +57,6 @@ use Test;
         say "ret fcode content : ", $ret;
 
        .say for $/<fcode><meta>.list;
-#         for $/<fcode><meta>.list -> $hit {
-#             say $++, ': ', $hit;
-#         }
-
         '==='.say;
     }   
 
