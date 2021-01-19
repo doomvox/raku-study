@@ -53,14 +53,18 @@ my @cases =
     },
     );
 
-    my @s =
-    'stuff | data ; more data',
-    '| data; and more',
-    'stuff |',
-    '|data',
-    'stuff | "alpha ; beta" ; omega ',  #  very slow line
-    ;
+#     my @s =
+#     'stuff | data ; more data',
+#     '| data; and more',
+#     'stuff |',
+#     '|data',
+#     'stuff | "alpha ; beta" ; omega ',  #  very slow line
+#     ;
     
+for @cases -> $case {
+    my ($name, $input, $expected) = 
+                       $case<name input expected>;
+
     for @s {
         my $case = $_;
         say $case;
