@@ -2,14 +2,13 @@
 # 
 # richard_hainsworth_regex_problem.pl6            17 Jan 2021 
 
-## issues with parsing pod6, which includes things like this:
-## X<hash|hashes, definition of; associative arrays>
+## Richard Hainsworth brought up a problem he had with using a regexp 
+## to parse pod6 (including his own, new extensions to it).
+## Specifically he wanted to parse pod6 features like this:
+##   X<hash|hashes, definition of; associative arrays>
 
 use v6;
 use Test;
-
-## Make errors into warnings
-### CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 # some basics of hash dereferencing:
 #   %foo{‘bar’} can be said as %foo<bar> 
