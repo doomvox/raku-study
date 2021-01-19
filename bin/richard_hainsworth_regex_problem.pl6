@@ -27,26 +27,31 @@ use Test;
 my @cases =
 (
     { name     => 'one',
-      input    => 'yaddah1',
+      input    => 'stuff | data ; more data',
       expected => 'result1',
+
+    
+    
+    
+    
+    
     },
     { name     => 'two',
-      input    => 'yaddah2',
+      input    => '| data; and more',
       expected => 'result2',
     },
     { name     => 'three',
-      input    => 'yaddah3',
+      input    => 'stuff |',
       expected => 'result3',
     },
     { name     => 'four',
-      input    => 'yaddah3',
+      input    => '|data',
       expected => 'result3',
     },
     { name     => 'five: very slow',
-      input    => 'yaddah3',
+      input    => 'stuff | "alpha ; beta" ; omega ',  
       expected => 'result3',
     },
-
 
     );
 
