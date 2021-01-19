@@ -16,7 +16,7 @@ use Test;
    # ^ $<content>=[ .* \S]* \s* #<?before \|> # Still slow 
    # ^ $<content>=[ .* \S]  \s* #<?before \|> # Removing the star fixes problem
 
-   my regex fcode {
+    my regex fcode {
         ^ $<content>=[ <-[\|]>* \S] \s* <?before \|>
         \| \s*
         [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
@@ -25,7 +25,7 @@ use Test;
     } 
 
 my @cases =
-(
+  (
     { name     => 'one',
       input    => 'stuff | data ; more data',
       expected_data => 'result1',
@@ -62,12 +62,13 @@ my @cases =
 #     ;
     
 for @cases -> $case {
-    my ($name, $input, $expected) = 
+    my ($name, $input, $expected_data, $expected_meta) = 
                        $case<name input expected>;
 
-    for @s {
-        my $case = $_;
-        say $case;
+#     for @s {
+#         my $case = $_;
+#         say $case;
+
         # Note the stylish way of getting an elapsed time (from Yary Hluchan)
         say $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
         say "match object: ";
