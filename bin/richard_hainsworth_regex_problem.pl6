@@ -28,27 +28,27 @@ my @cases =
   (
     { name     => 'one',
       input    => 'stuff | data ; more data',
-      expected_data => 'stuff',
+      expected_content => 'stuff',
       expected_meta => 'result1',
     },
     { name     => 'two',
       input    => '| data; and more',
-      expected_data => 'result2',
+      expected_content => 'result2',
       expected_meta => 'result2',
     },
     { name     => 'three',
       input    => 'stuff |',
-      expected_data => 'result3',
+      expected_content => 'result3',
       expected_meta => 'result3',
     },
     { name     => 'four',
       input    => '|data',
-      expected_data => 'result3',
+      expected_content => 'result3',
       expected_meta => 'result3',
     },
     { name     => 'five: very slow',
       input    => 'stuff | "alpha ; beta" ; omega ',  
-      expected_data => 'result3',
+      expected_content => 'result3',
       expected_meta => 'result3',
     },
     );
@@ -62,8 +62,8 @@ my @cases =
 #     ;
     
 for @cases -> $case {
-    my ($name, $input, $expected_data, $expected_meta) = 
-                       $case<name input expected_data expected_meta>;
+    my ($name, $input, $expected_content, $expected_meta) = 
+                       $case<name input expected_content expected_meta>;
     say $input ~~ /<fcode>/;
     # Note the stylish way of getting an elapsed time (from Yary Hluchan)
     say "took ", (now - ENTER now), " sec"; 
@@ -77,7 +77,7 @@ for @cases -> $case {
         say "meta: ";
        .say for @fcode_meta;
 
-       is( $fcode_content, $expected_data, "Testing we matched expected content.");
+       is( $fcode_content, $expected_content, "Testing we matched expected content.");
 
        '==='.say;
        exit;  ## DEBUG just do the first one for now
