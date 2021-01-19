@@ -63,7 +63,7 @@ my @cases =
     
 for @cases -> $case {
     my ($name, $input, $expected_data, $expected_meta) = 
-                       $case<name input expected>;
+                       $case<name input expected_data expected_meta>;
 
 #     for @s {
 #         my $case = $_;
