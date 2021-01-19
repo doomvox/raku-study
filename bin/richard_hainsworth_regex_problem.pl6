@@ -10,19 +10,19 @@
 use v6;
 use Test;
 
-{
-   ## Experimented with removing the incidental <?before \|>...
-   ## The key fix (from Bruce Gray):
-   # ^ $<content>=[ .* \S]* \s* #<?before \|> # Still slow 
-   # ^ $<content>=[ .* \S]  \s* #<?before \|> # Removing the star fixes problem
 
-    my regex fcode {
-        ^ $<content>=[ <-[\|]>* \S] \s* <?before \|>
-        \| \s*
-        [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
-        \s*
-        $
-    } 
+## Experimented with removing the incidental <?before \|>...
+## The key fix (from Bruce Gray):
+# ^ $<content>=[ .* \S]* \s* #<?before \|> # Still slow 
+# ^ $<content>=[ .* \S]  \s* #<?before \|> # Removing the star fixes problem
+
+my regex fcode {
+    ^ $<content>=[ <-[\|]>* \S] \s* <?before \|>
+    \| \s*
+    [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
+    \s*
+    $
+} 
 
 my @cases =
   (
