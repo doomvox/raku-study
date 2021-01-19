@@ -46,7 +46,7 @@ my @cases =
     { name     => 'four',
       input    => '|data',
       expected_content => '',
-      expected_meta    => 'data',
+      expected_meta    => [],
     },
     { name     => 'five: very slow',
       input    => 'stuff | "alpha ; beta" ; omega ',  
