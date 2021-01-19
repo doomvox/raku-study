@@ -90,5 +90,4 @@ for @cases.kv -> $i, $case {
     is-deeply( @fcode_meta, $expected_meta, "Testing case $case_number matched expected meta values.");
 
     '==='.say;
-##    exit if $++>1; ### DEBUG (( no workies? ))
 }   
