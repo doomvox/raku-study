@@ -79,8 +79,8 @@ for @cases.kv -> $i, $case {
         say "meta: ";
        .say for @fcode_meta;
 
-       is( $fcode_content, $expected_content, "Testing that in case $i matched expected content.");
-       is-deeply( @fcode_meta, $expected_meta, "Testing that in case $i matched expected meta values.");
+       is( $fcode_content, $expected_content, "Testing case $i matched expected content.");
+       is-deeply( @fcode_meta, $expected_meta, "Testing case $i matched expected meta values.");
 
        '==='.say;
        exit if $++>1; ### DEBUG (( no workies? ))
