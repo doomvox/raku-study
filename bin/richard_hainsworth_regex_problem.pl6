@@ -64,13 +64,10 @@ my @cases =
 for @cases -> $case {
     my ($name, $input, $expected_data, $expected_meta) = 
                        $case<name input expected_data expected_meta>;
-
-#     for @s {
-#         my $case = $_;
-#         say $case;
-
-        # Note the stylish way of getting an elapsed time (from Yary Hluchan)
-        say $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
+    say $input ~~ /<fcode>/;
+    # Note the stylish way of getting an elapsed time (from Yary Hluchan)
+    say "took ", (now - ENTER now), " sec"; 
+    
         say "match object: ";
         dd $/;
         my $fcode_content = $/<fcode><content>;
