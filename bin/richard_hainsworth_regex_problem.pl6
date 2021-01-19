@@ -72,7 +72,8 @@ for @cases -> $case {
     dd $/;
 
         my $fcode_content = $/<fcode><content>;
-        my @fcode_meta = $/<fcode><meta>.list.Str;
+        my @fcode_meta = $/<fcode><meta>.list.map({.Str});
+
         say "fcode_content : ", $fcode_content;
         say "meta: ";
        .say for @fcode_meta;
