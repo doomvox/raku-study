@@ -44,7 +44,7 @@ use Test;
         say "fcode_content : ", $fcode_content;
 #       .say for $/<fcode><meta>.list;
         say "meta: ";
-       .say for @fcode_meta
+       .say for @fcode_meta;
        '==='.say;
        exit;  ## DEBUG just do the first one
     }   
