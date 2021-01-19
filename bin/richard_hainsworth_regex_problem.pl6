@@ -62,6 +62,7 @@ my @cases =
 #     ;
     
 for @cases.kv -> $i, $case {
+    my $case_number = $i + 1;
     my ($name, $input, $expected_content, $expected_meta) = 
                        $case<name input expected_content expected_meta>;
     say $input ~~ /<fcode>/;
