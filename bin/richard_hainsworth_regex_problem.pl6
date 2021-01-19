@@ -38,7 +38,7 @@ use Test;
         '---'.say;
         my $case = $_;
         say $case;
-        # Note Yary's stylish way of getting elapsed time for this case...
+        # Note the stylish way of getting an elapsed time (from Yary Hluchan)
         say $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
         say "match object: ";
         dd $/;
