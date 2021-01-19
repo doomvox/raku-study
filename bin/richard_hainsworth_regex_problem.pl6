@@ -10,11 +10,14 @@
 use v6;
 use Test;
 
-## Experimented with removing the incidental <?before \|>...
 ## The key fix (from Bruce Gray):
 # ^ $<content>=[ .* \S]* \s* #<?before \|> # Still slow 
 # ^ $<content>=[ .* \S]  \s* #<?before \|> # Removing the star fixes problem
 
+## Also removed the incidental <?before \|>...
+
+## Note: doesn't seem to handle the last case correctly, 
+## with two values quoted to make them one value.
 my regex fcode {
     ^ $<content>=[ <-[\|]>* \S] \s* 
     \| \s*
