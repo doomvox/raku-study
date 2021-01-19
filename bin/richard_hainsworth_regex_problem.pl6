@@ -73,8 +73,7 @@ for @cases.kv -> $i, $case {
     # Note the stylish way of getting an elapsed time (from Yary Hluchan)
     say "took ", (now - ENTER now), " sec"; 
     
-#     say "match object: ";
-#     dd $/;
+    # say "match object: "; dd $/;
 
     ## extract matched values from match object
     my ($fcode_content, @fcode_meta);
