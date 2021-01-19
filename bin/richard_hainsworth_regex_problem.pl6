@@ -51,11 +51,7 @@ my @cases =
       expected_data => 'result3',
       expected_meta => 'result3',
     },
-
     );
-
-      
-
 
     my @s =
     'stuff | data ; more data',
