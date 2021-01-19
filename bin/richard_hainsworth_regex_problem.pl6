@@ -69,6 +69,7 @@ for @cases.kv -> $i, $case {
     my $case_number = $i + 1;
     my ($name, $input, $expected_content, $expected_meta) = 
                        $case<name input expected_content expected_meta>;
+    say "matching against: $input";
     say $input ~~ /<fcode>/;
     # Note the stylish way of getting an elapsed time (from Yary Hluchan)
     say "took ", (now - ENTER now), " sec"; 
