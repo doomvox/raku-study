@@ -68,14 +68,19 @@ for @cases -> $case {
     # Note the stylish way of getting an elapsed time (from Yary Hluchan)
     say "took ", (now - ENTER now), " sec"; 
     
-        say "match object: ";
-        dd $/;
+    say "match object: ";
+    dd $/;
+
         my $fcode_content = $/<fcode><content>;
         my @fcode_meta = $/<fcode><meta>.list;
         say "fcode_content : ", $fcode_content;
-#       .say for $/<fcode><meta>.list;
         say "meta: ";
        .say for @fcode_meta;
+
+      is( $fcode_content, $expected_data, "Testing we matched expected content.")
+
+
+
        '==='.say;
        exit;  ## DEBUG just do the first one for now
     }   
