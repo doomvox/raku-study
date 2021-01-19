@@ -83,7 +83,7 @@ for @cases -> $case {
        is-deeply( @fcode_meta, $expected_meta, "Testing we matched expected meta values.");
 
        '==='.say;
-       exit if $++>2; ###DEBUG
+       exit if $++>1; ###DEBUG
     }   
 
 }
