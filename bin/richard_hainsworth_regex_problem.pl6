@@ -28,23 +28,28 @@ my @cases =
 (
     { name     => 'one',
       input    => 'stuff | data ; more data',
-      expected => 'result1',
+      expected_data => 'result1',
+      expected_meta => 'result1',
     },
     { name     => 'two',
       input    => '| data; and more',
-      expected => 'result2',
+      expected_data => 'result2',
+      expected_meta => 'result2',
     },
     { name     => 'three',
       input    => 'stuff |',
-      expected => 'result3',
+      expected_data => 'result3',
+      expected_meta => 'result3',
     },
     { name     => 'four',
       input    => '|data',
-      expected => 'result3',
+      expected_data => 'result3',
+      expected_meta => 'result3',
     },
     { name     => 'five: very slow',
       input    => 'stuff | "alpha ; beta" ; omega ',  
-      expected => 'result3',
+      expected_data => 'result3',
+      expected_meta => 'result3',
     },
 
     );
@@ -74,7 +79,7 @@ my @cases =
         say "meta: ";
        .say for @fcode_meta;
        '==='.say;
-       exit;  ## DEBUG just do the first one
+       exit;  ## DEBUG just do the first one for now
     }   
 
 }
