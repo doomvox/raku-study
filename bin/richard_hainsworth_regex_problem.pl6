@@ -11,7 +11,7 @@ use v6;
 use Test;
 
 {
-   ## experimented with removing the incidental <?before \|>...
+   ## Experimented with removing the incidental <?before \|>...
    ## The key fix (from Bruce Gray):
    # ^ $<content>=[ .* \S]* \s* #<?before \|> # Still slow 
    # ^ $<content>=[ .* \S]  \s* #<?before \|> # Removing the star fixes problem
