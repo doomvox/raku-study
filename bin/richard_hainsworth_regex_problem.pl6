@@ -72,7 +72,7 @@ for @cases.kv -> $i, $case {
     say "match object: ";
     dd $/;
 
-    if not $/  {
+    if( not $/ ) {
         $fcode_content = '';
         $fcode_meta = []';
     } else {
