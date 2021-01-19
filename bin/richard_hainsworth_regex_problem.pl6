@@ -72,7 +72,7 @@ for @cases -> $case {
     dd $/;
 
         my $fcode_content = $/<fcode><content>;
-        my @fcode_meta = $/<fcode><meta>.list.map({.Str});
+        my @fcode_meta = $/<fcode><meta>.list.map({.Str});  ## gotta be a better way
 
         say "fcode_content : ", $fcode_content;
         say "meta: ";
