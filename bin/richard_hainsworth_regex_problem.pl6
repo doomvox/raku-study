@@ -73,7 +73,7 @@ for @cases.kv -> $i, $case {
     dd $/;
 
     my ($fcode_content, @fcode_meta);
-    if not $/  { # standardize on empty 'no match' values to make tests easier
+    if ( not $/ ) { # standardize on empty 'no match' values to make tests easier
         $fcode_content = '';
         @fcode_meta    = [];
     } else {
@@ -90,4 +90,4 @@ for @cases.kv -> $i, $case {
     is-deeply( @fcode_meta, $expected_meta, "Testing case $case_number matched expected meta values.");
 
     '==='.say;
-}   
+}
