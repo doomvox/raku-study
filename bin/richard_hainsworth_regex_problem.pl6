@@ -10,7 +10,6 @@
 use v6;
 use Test;
 
-
 ## Experimented with removing the incidental <?before \|>...
 ## The key fix (from Bruce Gray):
 # ^ $<content>=[ .* \S]* \s* #<?before \|> # Still slow 
