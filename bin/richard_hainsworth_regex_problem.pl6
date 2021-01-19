@@ -55,7 +55,6 @@ use Test;
         dd $/;
         my $ret = $/<fcode><content>;
         say "ret fcode content : ", $ret;
-
        .say for $/<fcode><meta>.list;
        '==='.say;
     }   
