@@ -29,12 +29,6 @@ my @cases =
     { name     => 'one',
       input    => 'stuff | data ; more data',
       expected => 'result1',
-
-    
-    
-    
-    
-    
     },
     { name     => 'two',
       input    => '| data; and more',
