@@ -16,7 +16,7 @@ use Test;
 
 ## Also removed the incidental <?before \|>...
 
-## Note: doesn't seem to handle the last case correctly, 
+## Note: *still* doesn't seem to handle the last case correctly, 
 ## with two values quoted to make them one value.
 my regex fcode {
     ^ $<content>=[ <-[\|]>* \S] \s* 
