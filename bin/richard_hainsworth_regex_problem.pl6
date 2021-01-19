@@ -10,15 +10,6 @@
 use v6;
 use Test;
 
-# some basics of hash dereferencing:
-#   %foo{‘bar’} can be said as %foo<bar> 
-
-## bruce gray improvement:
-# Also, the hash slice %foo{‘bar, ‘baz’} is shorter as: 
-# %foo<bar baz> 
-# [ \s* $<meta>=( .*? \S ) \s* ]+ % \; 
-# \s* [ $<meta>=( .*? \S ) ]+ % [\s*\;\s*] 
-
 {
 
 ## experimented with removing the incidental <?before \|>...
