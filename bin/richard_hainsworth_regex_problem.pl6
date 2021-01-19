@@ -77,7 +77,7 @@ for @cases -> $case {
         say "meta: ";
        .say for @fcode_meta;
 
-       is( $fcode_content, $expected_data, "Testing we matched expected content.")
+       is( $fcode_content, $expected_data, "Testing we matched expected content.");
 
        '==='.say;
        exit;  ## DEBUG just do the first one for now
