@@ -19,7 +19,7 @@ use Test;
    # ^ $<content>=[ .* \S]  \s* #<?before \|> # Removing the star fixes problem
 
     ## with a bruce gray improvement (*really* fast now)
-    my regex fcode {
+   my regex fcode {
         ^ $<content>=[ <-[\|]>* \S] \s* <?before \|>
         \| \s*
         [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
