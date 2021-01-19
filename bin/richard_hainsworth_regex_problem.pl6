@@ -24,6 +24,33 @@ use Test;
         $
     } 
 
+my @cases =
+(
+    { name     => 'one',
+      input    => 'yaddah1',
+      expected => 'result1',
+    },
+    { name     => 'two',
+      input    => 'yaddah2',
+      expected => 'result2',
+    },
+    { name     => 'three',
+      input    => 'yaddah3',
+      expected => 'result3',
+    },
+    { name     => 'four',
+      input    => 'yaddah3',
+      expected => 'result3',
+    },
+    { name     => 'five',
+      comment  => 'very slow',
+      input    => 'yaddah3',
+      expected => 'result3',
+    },
+
+
+    );
+
       
 
 
