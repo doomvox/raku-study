@@ -73,14 +73,14 @@ for @cases.kv -> $i, $case {
     dd $/;
 
     my ($fcode_content, @fcode_meta);
-#     if ( not $/ ) { # standardize on empty 'no match' values to make tests easier
-#         $fcode_content = '';
-#         @fcode_meta    = [];
-#     } else {
-#         # extract matched values from match object
-#         $fcode_content = $/<fcode><content>;
-#         @fcode_meta    = $/<fcode><meta>.list.map({.Str});  ## gotta be a better way
-#     }
+    if ( not $/ ) { # standardize on empty 'no match' values to make tests easier
+        $fcode_content = '';
+        @fcode_meta    = [];
+    } else {
+        # extract matched values from match object
+        $fcode_content = $/<fcode><content>;
+        @fcode_meta    = $/<fcode><meta>.list.map({.Str});  ## gotta be a better way
+    }
 
     say "fcode_content : ", $fcode_content;
     say "meta: ";
