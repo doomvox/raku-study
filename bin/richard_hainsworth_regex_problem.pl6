@@ -73,7 +73,7 @@ for @cases.kv -> $i, $case {
     dd $/;
 
     my ($fcode_content, @fcode_meta);
-    if not $/  { # if no match standardize on values to make tests easier
+    if not $/  { # standardize on empty 'no match' values to make tests easier
         $fcode_content = '';
         $fcode_meta    = [];
     } else {
