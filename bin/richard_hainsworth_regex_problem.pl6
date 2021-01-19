@@ -39,9 +39,11 @@ use Test;
         say $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec"; 
         say "match object: ";
         dd $/;
-        my $ret = $/<fcode><content>;
-        say "ret fcode content : ", $ret;
-       .say for $/<fcode><meta>.list;
+        my $fcode_content = $/<fcode><content>;
+        my @fcode_meta = $/<fcode><meta>.list;
+        say "fcode_content : ", $fcode_content;
+#       .say for $/<fcode><meta>.list;
+       .say for @fcode_meta
        '==='.say;
        exit;  ## DEBUG just do the first one
     }   
