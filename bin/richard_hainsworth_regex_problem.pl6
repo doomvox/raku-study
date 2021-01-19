@@ -13,12 +13,11 @@ use Test;
 {
 
 ## experimented with removing the incidental <?before \|>...
-## But the key fix:
+## But the key fix (from Bruce Gray)
 
    # ^ $<content>=[ .* \S]* \s* #<?before \|> # Still slow 
    # ^ $<content>=[ .* \S]  \s* #<?before \|> # Removing the star fixes problem
 
-    ## with a bruce gray improvement (*really* fast now)
    my regex fcode {
         ^ $<content>=[ <-[\|]>* \S] \s* <?before \|>
         \| \s*
