@@ -79,7 +79,7 @@ for @cases.kv -> $i, $case {
     } else {
         # extract matched values from match object
         $fcode_content = $/<fcode><content>;
-        @fcode_meta = $/<fcode><meta>.list.map({.Str});  ## gotta be a better way
+        @fcode_meta    = $/<fcode><meta>.list.map({.Str});  ## gotta be a better way
     }
 
         say "fcode_content : ", $fcode_content;
