@@ -11,7 +11,6 @@ use v6;
 use Test;
 
 {
-
 ## experimented with removing the incidental <?before \|>...
 ## But the key fix (from Bruce Gray)
  
