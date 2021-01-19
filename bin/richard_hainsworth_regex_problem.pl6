@@ -61,7 +61,7 @@ my @cases =
 #     'stuff | "alpha ; beta" ; omega ',  #  very slow line
 #     ;
     
-for @cases -> $case {
+for @cases.kv -> $i, $case {
     my ($name, $input, $expected_content, $expected_meta) = 
                        $case<name input expected_content expected_meta>;
     say $input ~~ /<fcode>/;
