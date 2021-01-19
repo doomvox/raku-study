@@ -20,8 +20,6 @@ use Test;
 # [ \s* $<meta>=( .*? \S ) \s* ]+ % \; 
 # \s* [ $<meta>=( .*? \S ) ]+ % [\s*\;\s*] 
 
-
-
 {
 
 ## experimented with removing the incidental <?before \|>...
