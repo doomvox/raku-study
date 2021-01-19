@@ -33,7 +33,7 @@ use Test;
     ;
     
     for @s {
-        '---'.say;
+#        '---'.say;
         my $case = $_;
         say $case;
         # Note the stylish way of getting an elapsed time (from Yary Hluchan)
