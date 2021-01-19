@@ -16,7 +16,7 @@ use Test;
 # ^ $<content>=[ .* \S]  \s* #<?before \|> # Removing the star fixes problem
 
 my regex fcode {
-    ^ $<content>=[ <-[\|]>* \S] \s* <?before \|>
+    ^ $<content>=[ <-[\|]>* \S] \s* 
     \| \s*
     [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
     \s*
