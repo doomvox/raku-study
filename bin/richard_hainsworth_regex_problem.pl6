@@ -16,7 +16,7 @@ use Test;
 ## But the key fix:
 
    # ^ $<content>=[ .* \S]* \s* #<?before \|> # Still slow 
-   # ^ $<content>=[ .* \S] \s* #<?before \|> # Aha! Removing the star fixes the problem!!!! 
+   # ^ $<content>=[ .* \S]  \s* #<?before \|> # Aha! Removing the star fixes the problem!!!! 
 
     ## with a bruce gray improvement (*really* fast now)
     my regex fcode {
