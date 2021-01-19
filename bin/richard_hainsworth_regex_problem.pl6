@@ -75,7 +75,7 @@ for @cases.kv -> $i, $case {
     my ($fcode_content, @fcode_meta);
     if not $/  {
         $fcode_content = '';
-        $fcode_meta = [];
+        $fcode_meta    = [];
     } else {
         # extract matched values from match object
         $fcode_content = $/<fcode><content>;
