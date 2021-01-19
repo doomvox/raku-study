@@ -49,7 +49,7 @@ my @cases =
     { name     => 'five: very slow',
       input    => 'stuff | "alpha ; beta" ; omega ',  
       expected_content => 'result3',
-      expected_meta => 'result3',
+      expected_meta    => 'result3',
     },
     );
 
