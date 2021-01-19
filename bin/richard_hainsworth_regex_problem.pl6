@@ -24,40 +24,6 @@ use Test;
 
 {
 
-#     my regex fcode {
-#         ^ $<content>=
-#            (
-#               <-[\|]>* # anything that's not a vertical bar
-#            )
-#            \s*         # any whitespace
-#            \| ?        # a single bar
-#            \s*
-#            $
-#         |
-#         ^ $<content>=
-#               [ .* \S]*
-#               \s*
-#               <?before \|>
-#               \|
-
-#               #  [ \s* $<meta>=( .*? \S ) \s* ]+ % \;
-#               \s* [ $<meta>=( .*? \S ) ]+ % [\s*\;\s*]   ## bg approach
-  
-#       \s*
-#         $
-#     } 
-
-#     ## new richard hainsworth version:
-#     my regex fcode {
-#         ^ $<content>= (<-[\|]>*) \|? \s* $
-#         ||
-#         ^ $<content>=[ .* \S]* \s* <?before \|> ## the evil * is here: \S]*
-#         \| \s*
-#         [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
-#         \s*
-#         $
-#     } 
-
 ## experimented with removing the incidental <?before \|>...
 ## But the key fix:
 
