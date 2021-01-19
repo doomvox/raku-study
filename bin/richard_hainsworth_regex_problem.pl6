@@ -29,7 +29,7 @@ my @cases =
     { name     => 'one',
       input    => 'stuff | data ; more data',
       expected_content => 'stuff',
-      expected_meta => 'result1',
+      expected_meta => ['data', 'more data'],
     },
     { name     => 'two',
       input    => '| data; and more',
