@@ -21,7 +21,7 @@ use Test;
 my regex fcode {
     ^ $<content>=[ <-[\|]>* \S] \s* 
     \| \s*
-    [ $<meta>=( <-[;\s]>* ) ]+ % [\s*\;\s*]
+    [ $<meta>=( <-[;]>* ) ]+ % [\s*\;\s*]
     \s*
     $
 } 
