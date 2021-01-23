@@ -21,10 +21,13 @@ use Test;
 my regex fcode {
     ^ $<content>=[ <-[\|]>* \S] \s* 
     \| \s*
-    [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
+    [ $<meta>=( <-[;\s]>* ) ]+ % [\s*\;\s*]
     \s*
     $
 } 
+#    [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
+
+
 
 my @cases =
   (
