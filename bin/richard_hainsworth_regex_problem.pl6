@@ -25,6 +25,10 @@ my regex fcode {
     \s*
     $
 } 
+
+# This seems to work no better or worse...
+#    [ $<meta>=( <-[;]>*? ) ]+ % [\s*\;\s*]
+# Then this, it's predecesor
 #    [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
 
 
