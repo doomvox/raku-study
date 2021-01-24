@@ -23,11 +23,4 @@ dd $/;
 # my $subpat = qr{ ... };
 # my $pat  = qr{ ... $subpat ... };
 
-
-
-
-
-
-
-
 my $pat2 = regex { aaa };
