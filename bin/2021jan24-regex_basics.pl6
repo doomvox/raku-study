@@ -14,11 +14,11 @@ $str ~~ $pat;
 say $/;    #  ｢aaa｣
 dd $/;
 #  Match $/ = Match.new(:orig("dddcccbbbaaa000"), :from(9), :pos(12))
-
 my regex subpat { bbb };
-
 my $pat2 = regex { <subpat> aaa };
-
 $str ~~ $pat2;
 say $/;
+
+# ｢bbbaaa｣
+#  subpat => ｢bbb｣
 
