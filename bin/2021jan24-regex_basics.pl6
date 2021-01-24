@@ -106,7 +106,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     
     my regex reg-e { $<one>=( bd ) | $<two>=( .* d ) };
     say "acbd" ~~ &reg-e;         # ｢acbd｣
-    say "bdac" ~~ &reg-e;        #  ｢bd｣
+    say "bdac" ~~ &reg-e;         #  ｢bd｣
 
 
 }
