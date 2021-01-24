@@ -70,15 +70,13 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     say $s ~~ &fails-but-fast; # Nil
        
     my regex works-different { .+? q }
-    say $s ~~ &works-different; # 
+    say $s ~~ &works-different; # also works:   ｢Tokens won't backtrack, which makes them fail q｣
 
-  ## Note that non-backtracking works on terms, that is, as the
-  ## example below, if you have matched something, then you will
-  ## never backtrack. But when you fail to match, if there is
-  ## another candidate introduced by | or ||, you will retry to
-  ## match again.
-
-    exit;
+    ## Note that non-backtracking works on terms, that is, as the
+    ## example below, if you have matched something, then you will
+    ## never backtrack. But when you fail to match, if there is
+    ## another candidate introduced by | or ||, you will retry to
+    ## match again.
 
     my token tok-a { .* d  };
     my token tok-b { .* d | bd };
