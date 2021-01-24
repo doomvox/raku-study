@@ -55,6 +55,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 }
 
 {
+    say "===";
 
     ## Starting with examples from:
     ## https://docs.raku.org/language/grammars
