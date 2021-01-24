@@ -25,5 +25,4 @@ dd $/;
 
 my regex $subpat = regex {bbb};
 
-
 my $pat2 = regex { aaa };
