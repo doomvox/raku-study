@@ -86,4 +86,5 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     my regex reg-a { .* d  };
     say so "bd" ~~ &reg-a;        #  False
 
+
 }
