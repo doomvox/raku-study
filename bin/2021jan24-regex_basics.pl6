@@ -74,7 +74,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
     my token tok-a { .* d  };
     my token tok-b { .* d | bd };
-    say so "bd" ~~ &tok-a;        # OUTPUT: False
-    say so "bd" ~~ &tok-b;        # OUTPUT: True
+    say so "bd" ~~ &tok-a;        #  False
+    say so "bd" ~~ &tok-b;        #  True
 
 }
