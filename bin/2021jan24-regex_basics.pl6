@@ -17,6 +17,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     my regex $subpat { bbb };
     my $pat2 = regex {:i $subpat aaa };
     $str ~~ $pat2;
+    say "hm: ";
     say $/;
 
     # ｢bbbaaa｣
