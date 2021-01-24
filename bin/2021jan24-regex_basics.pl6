@@ -70,6 +70,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     say $s ~~ &fails-but-fast; # Nil
        
 
+    my regex works-but-slow { .+? q }
 
 
   ## Note that non-backtracking works on terms, that is, as the
