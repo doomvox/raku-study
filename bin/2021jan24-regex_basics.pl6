@@ -100,6 +100,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 #     my regex reg-c { .* d || bd };
 #     say "acbd" ~~ &reg-b;         # ｢acbd｣
 
+    # first matching calternation wins (maybe)
     my regex reg-d { $<one>=( bd ) || $<two>=( .* d ) };
     say "acbd" ~~ &reg-d;         # ｢acbd｣
     say "bdac" ~~ &reg-d;         #  ｢bd｣
