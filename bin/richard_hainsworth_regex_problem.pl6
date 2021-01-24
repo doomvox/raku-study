@@ -31,8 +31,6 @@ my regex fcode {
 # Then this, it's predecesor
 #    [ $<meta>=( .*? ) ]+ % [\s*\;\s*]
 
-
-
 my @cases =
   (
     { name     => 'one',
