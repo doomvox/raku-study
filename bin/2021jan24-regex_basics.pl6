@@ -46,5 +46,5 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 { 
     my $monster = "godzilla";
     my $result = $monster.subst('zil', 'ZIL').subst('la','LA');
-    say $result;  # godZILla
+    say $result;  # godZILLA
 }
