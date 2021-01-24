@@ -36,3 +36,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     # ｢AAAbbb｣
     #  fred => ｢AAA｣
 }
+
+{ 
+    my $monster = "godzilla";
+    @monsters.
