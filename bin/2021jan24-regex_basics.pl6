@@ -8,10 +8,10 @@ use v6;
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 
-
+my $str = "dddcccbbbaaa000";
 
 my $pat = regex { aaa };
 
-
+$str ~~ $pat;
 
 
