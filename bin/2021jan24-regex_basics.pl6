@@ -114,3 +114,4 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     say "acbd" ~~ &reg-e;         #  globbed => ｢acbd｣
     say "bdac" ~~ &reg-e;         #  specific => ｢bd｣
 }
+
