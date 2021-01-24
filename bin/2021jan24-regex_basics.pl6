@@ -29,13 +29,13 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 }
 
 {
-    my $str = "AAA";
-    my $pat = regex { :i aaa };
+    my $str = "AAAbbbCCCddd";
+    my $pat = regex { :i $<fred>=( aaa bbb ) };
     say $str ~~ $pat;  ## ｢AAA｣
 
-    my $str = "AAA";
-    my $pat = regex { :i aaa };
-    say $str ~~ $pat;  ## ｢AAA｣
+
+
+
 
 
 
