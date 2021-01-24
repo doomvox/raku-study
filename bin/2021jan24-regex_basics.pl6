@@ -33,11 +33,4 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     my $pat = regex { :i $<fred>=( aaa bbb ) };
     say $str ~~ $pat;  ## ｢AAA｣
 
-
-
-
-
-
-
-
 }
