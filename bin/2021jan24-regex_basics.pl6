@@ -29,3 +29,4 @@ my $pat2 = regex { <subpat> aaa };
 
 $str ~~ $pat2;
 say $/;
+
