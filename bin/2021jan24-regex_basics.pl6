@@ -102,7 +102,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
     # first matching calternation wins (maybe)
     my regex reg-d { $<one>=( bd ) || $<two>=( .* d ) };
-    say "acbd" ~~ &reg-d;         # ｢acbd｣
+    say "acbd" ~~ &reg-d;         # ｢acbd｣   ((WEIRD ONE))
     say "bdac" ~~ &reg-d;         #  ｢bd｣
     
     # longest token matching (maybe)
