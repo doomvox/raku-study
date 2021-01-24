@@ -20,8 +20,8 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     say "---";
     say $str ~~ $pat2;
     my $match = $str ~~ $pat2;
-    say "hm: ";
     say $match;  #  (Any)
+    say "---";
 
     # ｢bbbaaa｣
     #  subpat => ｢bbb｣
