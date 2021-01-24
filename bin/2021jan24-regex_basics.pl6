@@ -19,4 +19,15 @@ say $/;    #  ｢aaa｣
 dd $/;
 #  Match $/ = Match.new(:orig("dddcccbbbaaa000"), :from(9), :pos(12))
 
+# ## p5 code, composing a pattern into another pattern
+# my $subpat = qr{ ... };
+# my $pat  = qr{ ... $subpat ... };
+
+
+
+
+
+
+
+
 my $pat2 = regex { aaa };
