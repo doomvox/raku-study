@@ -25,4 +25,7 @@ dd $/;
 
 my regex $subpat = regex { bbb };
 
-my $pat2 = regex { aaa };
+my $pat2 = regex { <subpat> aaa };
+
+$str ~~ $pat2;
+say $/;
