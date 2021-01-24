@@ -83,4 +83,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     say so "bd" ~~ &tok-a;        #  False
     say so "bd" ~~ &tok-b;        #  True
 
+    say "bd" ~~ &tok-a;        
+    say "bd" ~~ &tok-b;        
+
 }
