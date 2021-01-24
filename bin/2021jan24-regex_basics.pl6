@@ -101,11 +101,11 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 #     say "acbd" ~~ &reg-b;         # ｢acbd｣
 
     my regex reg-Z { bd || .* d };
-    say "acbd" ~~ &reg-Z;         #
+    say "acbd" ~~ &reg-Z;         # ｢acbd｣
 
-    my regex reg-d { bd || .* d };
+    my regex reg-d { ( bd ) || ( .* d ) };
     say "bdac" ~~ &reg-d;        #  ｢bd｣
-
-
+    say $0;
+    say $1;
 
 }
