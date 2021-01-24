@@ -83,7 +83,6 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     say so "bd" ~~ &tok-a;        #  False
     say so "bd" ~~ &tok-b;        #  True
 
-
     my regex reg-a { .* d  };
     say so "bd" ~~ &reg-a;        #  False
 
