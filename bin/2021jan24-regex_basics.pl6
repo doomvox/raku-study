@@ -89,6 +89,10 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     say so "bd" ~~ &reg-a;        #  True
 
     my rule rul-a { .* d  };
-    say so "bd" ~~ &rul-a;        # 
+    say so "bd" ~~ &rul-a;        # False
+
+    my rule rul-b {.*d};
+    say so "bd" ~~ &rul-b;        # False
+
 
 }
