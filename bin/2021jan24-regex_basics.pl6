@@ -23,4 +23,7 @@ dd $/;
 # my $subpat = qr{ ... };
 # my $pat  = qr{ ... $subpat ... };
 
+my regex $subpat = regex {bbb};
+
+
 my $pat2 = regex { aaa };
