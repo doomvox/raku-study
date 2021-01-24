@@ -66,9 +66,9 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     say so $s ~~ &fails-but-fast; # False
                                   # the entire string get taken by the .+ 
 
-    say $s ~~ &works-but-slow; # True
-    say $s ~~ &fails-but-fast; # False
-                                  # the entire string get taken by the .+ 
+    say $s ~~ &works-but-slow; # 
+    say $s ~~ &fails-but-fast; # 
+       
 
 
 
