@@ -23,14 +23,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     #  subpat => ｢bbb｣
 }
 {
-    my $str = "DDDCCCBBBaaa000";
+    my $str = "AAA";
     my $pat = regex { aaa };
-    $str ~~ $pat;
-    say $/;    #  ｢aaa｣
-    dd $/;
-    #  Match $/ = Match.new(:orig("dddcccbbbaaa000"), :from(9), :pos(12))
-    my regex subpat { bbb };
-    my $pat2 = regex {:i <subpat> aaa };
-    $str ~~ $pat2;
-    say $/;
+    say $str ~~ $pat;
 }
