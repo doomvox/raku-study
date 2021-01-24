@@ -66,6 +66,12 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     say so $s ~~ &fails-but-fast; # False
                                   # the entire string get taken by the .+ 
 
+    say $s ~~ &works-but-slow; # True
+    say $s ~~ &fails-but-fast; # False
+                                  # the entire string get taken by the .+ 
+
+
+
   ## Note that non-backtracking works on terms, that is, as the
   ## example below, if you have matched something, then you will
   ## never backtrack. But when you fail to match, if there is
