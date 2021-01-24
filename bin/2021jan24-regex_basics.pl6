@@ -33,5 +33,4 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     my $pat2 = regex {:i <subpat> aaa };
     $str ~~ $pat2;
     say $/;
-
 }
