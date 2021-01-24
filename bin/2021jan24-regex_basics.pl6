@@ -59,12 +59,12 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     ## Starting with examples from:
     ## https://docs.raku.org/language/grammars
 
-my regex works-but-slow { .+ q }
-my token fails-but-fast { .+ q }
-my $s = 'Tokens won\'t backtrack, which makes them fail quicker!';
-say so $s ~~ &works-but-slow; # OUTPUT: «True␤» 
-say so $s ~~ &fails-but-fast; # OUTPUT: «False␤» 
-                              # the entire string get taken by the .+ 
+    my regex works-but-slow { .+ q }
+    my token fails-but-fast { .+ q }
+    my $s = 'Tokens won\'t backtrack, which makes them fail quicker!';
+    say so $s ~~ &works-but-slow; # True
+    say so $s ~~ &fails-but-fast; # False
+                                  # the entire string get taken by the .+ 
 
   ## Note that non-backtracking works on terms, that is, as the
   ## example below, if you have matched something, then you will
