@@ -63,12 +63,11 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     my regex works-but-slow { .+ q }
     my token fails-but-fast { .+ q }
     my $s = 'Tokens won\'t backtrack, which makes them fail quicker!';
-    say so $s ~~ &works-but-slow; # True
+    say so $s ~~ &works-but-slow; # True    # the entire string get taken by the .+ 
     say so $s ~~ &fails-but-fast; # False
-                                  # the entire string get taken by the .+ 
-
-    say $s ~~ &works-but-slow; # 
-    say $s ~~ &fails-but-fast; # 
+                                  
+    say $s ~~ &works-but-slow; # ｢Tokens won't backtrack, which makes them fail q｣
+    say $s ~~ &fails-but-fast; # Nil
        
 
 
