@@ -72,6 +72,8 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
   ## another candidate introduced by | or ||, you will retry to
   ## match again.
 
+    exit;
+
     my token tok-a { .* d  };
     my token tok-b { .* d | bd };
     say so "bd" ~~ &tok-a;        #  False
