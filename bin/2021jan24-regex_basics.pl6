@@ -105,15 +105,16 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     say "acbd" ~~ &reg-d;         # ｢acbd｣   two => ｢acbd｣  ((WEIRD ONE))
     say "bdac" ~~ &reg-d;         #  ｢bd｣    one => ｢bd｣
 
+    my regex reg-f { $<two>=( .* d ) || $<one>=( bd )};
+    say "acbd" ~~ &reg-f;         #   two => ｢acbd｣
+    say "bdac" ~~ &reg-f;         #   two => ｢bd｣
+
     # longest token matching (maybe)
     my regex reg-e { $<one>=( bd ) | $<two>=( .* d ) };
     say "acbd" ~~ &reg-e;         #  two => ｢acbd｣
     say "bdac" ~~ &reg-e;         #  one => ｢bd｣
 
 
-    my regex reg-f { $<two>=( .* d ) || $<one>=( bd )};
-    say "acbd" ~~ &reg-f;         # 
-    say "bdac" ~~ &reg-f;         # 
 
 
 }
