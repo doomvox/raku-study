@@ -10,7 +10,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 
 
-my $pat = regex: { aaa };
+my $pat = regex { aaa };
 
 
 
