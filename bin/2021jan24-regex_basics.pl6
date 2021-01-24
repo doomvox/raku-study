@@ -25,5 +25,5 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 {
     my $str = "aaa";
     my $pat = regex { aaa };
-    say $str ~~ $pat;  ;; Nil
+    say $str ~~ $pat;  ;; ｢aaa｣
 }
