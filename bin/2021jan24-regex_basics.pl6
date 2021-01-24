@@ -8,7 +8,7 @@ use v6;
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 
-my $str = "DDDCCCBBBAAA000";
+my $str = "DDDCCCBBBaaa000";
 my $pat = regex { aaa };
 $str ~~ $pat;
 say $/;    #  ｢aaa｣
