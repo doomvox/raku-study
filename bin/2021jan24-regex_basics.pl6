@@ -69,7 +69,6 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     say $s ~~ &works-but-slow; # ｢Tokens won't backtrack, which makes them fail q｣
     say $s ~~ &fails-but-fast; # Nil
        
-
     my regex works-different { .+? q }
     say $s ~~ &works-different; # 
 
