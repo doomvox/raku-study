@@ -100,10 +100,10 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 #     my regex reg-c { .* d || bd };
 #     say "acbd" ~~ &reg-b;         # ｢acbd｣
 
-    my regex reg-Z { ( bd ) || ( .* d ) };
+    my regex reg-Z { $<one>=( bd ) || $<two>=( .* d ) };
     say "acbd" ~~ &reg-Z;         # ｢acbd｣
 
-    my regex reg-d { ( bd ) || ( .* d ) };
+    my regex reg-d { $<one>=( bd ) || $<two>=( .* d ) };
     say "bdac" ~~ &reg-d;        #  ｢bd｣
     
 
