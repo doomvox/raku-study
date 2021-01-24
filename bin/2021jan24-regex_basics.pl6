@@ -15,6 +15,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     dd $/;
     #  Match $/ = Match.new(:orig("dddcccbbbaaa000"), :from(9), :pos(12))
     my Regex $subpat = regex { bbb };
+    say $subpat;
     my $pat2 = regex {:i $subpat aaa };
     $str ~~ $pat2;
     say "hm: ";
