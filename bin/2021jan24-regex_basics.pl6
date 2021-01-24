@@ -101,6 +101,9 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 #     say "acbd" ~~ &reg-b;         # ｢acbd｣
 
     my regex reg-d { bd || .* d };
+     say "acbd" ~~ &reg-b;         # ｢acbd｣
+
+    my regex reg-d { bd || .* d };
     say "bdac" ~~ &reg-d;        #  ｢bd｣
 
 
