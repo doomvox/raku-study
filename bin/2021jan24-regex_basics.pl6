@@ -9,19 +9,11 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 
 my $str = "dddcccbbbaaa000";
-
 my $pat = regex { aaa };
-
 $str ~~ $pat;
-
 say $/;    #  ｢aaa｣
-
 dd $/;
 #  Match $/ = Match.new(:orig("dddcccbbbaaa000"), :from(9), :pos(12))
-
-# ## p5 code, composing a pattern into another pattern
-# my $subpat = qr{ ... }x;
-# my $pat  = qr{ ... $subpat ... }x;
 
 my regex subpat { bbb };
 
