@@ -114,7 +114,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     say "acbd" ~~ &reg-e;         #  globbed => ｢acbd｣
     say "bdac" ~~ &reg-e;         #  specific => ｢bd｣
 
-## Note the "WEIRD ONE" mystery.  Classic regep match picks odd alternative.
+    ## Note the "WEIRD ONE" mystery.  Classic regep match picks odd alternative.
 
 }
 
