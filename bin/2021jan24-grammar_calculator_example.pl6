@@ -5,8 +5,7 @@
 use v6;
 
 # Example from page (under Proto regexes):
-# https://docs.raku.org/language/grammars
-
+#   https://docs.raku.org/language/grammars
 
 grammar Calculator {
     token TOP { [ <add> | <sub> ] }
