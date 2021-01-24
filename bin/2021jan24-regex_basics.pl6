@@ -31,7 +31,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 {
     my $str = "AAAbbbCCCddd";
-    my $pat = regex { :i $<fred>=( aaa bbb ) };
+    my $pat = regex { :i $<fred>=( aaa ) bbb };
     say $str ~~ $pat;  ## ｢AAA｣
 
 }
