@@ -14,4 +14,5 @@ my $pat = regex { aaa };
 
 $str ~~ $pat;
 
+say $/;   
 
