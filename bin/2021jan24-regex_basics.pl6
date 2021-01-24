@@ -20,9 +20,9 @@ dd $/;
 #  Match $/ = Match.new(:orig("dddcccbbbaaa000"), :from(9), :pos(12))
 
 # ## p5 code, composing a pattern into another pattern
-# my $subpat = qr{ ... };
-# my $pat  = qr{ ... $subpat ... };
+# my $subpat = qr{ ... }x;
+# my $pat  = qr{ ... $subpat ... }x;
 
-my regex $subpat = regex {bbb};
+my regex $subpat = regex { bbb };
 
 my $pat2 = regex { aaa };
