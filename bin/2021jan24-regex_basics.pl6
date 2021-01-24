@@ -23,7 +23,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     #  subpat => ｢bbb｣
 }
 {
-    my $str = "AAA";
+    my $str = "aaa";
     my $pat = regex { aaa };
-    say $str ~~ $pat;
+    say $str ~~ $pat;  ;; Nil
 }
