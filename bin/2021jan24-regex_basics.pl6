@@ -101,18 +101,18 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 #     say "acbd" ~~ &reg-b;         # ｢acbd｣
 
     # first matching alternation wins (maybe)
-    my regex reg-d { $<one>=( bd ) || $<two>=( .* d ) };
+    my regex reg-d { $<specific>=( bd ) || $<two>=( .* d ) };
     say "acbd" ~~ &reg-d;         # ｢acbd｣   two => ｢acbd｣  ((WEIRD ONE))
-    say "bdac" ~~ &reg-d;         #  ｢bd｣    one => ｢bd｣
+    say "bdac" ~~ &reg-d;         #  ｢bd｣    specific => ｢bd｣
 
-    my regex reg-f { $<two>=( .* d ) || $<one>=( bd )};
+    my regex reg-f { $<two>=( .* d ) || $<specific>=( bd )};
     say "acbd" ~~ &reg-f;         #   two => ｢acbd｣
     say "bdac" ~~ &reg-f;         #   two => ｢bd｣
 
     # longest token matching (maybe)
-    my regex reg-e { $<one>=( bd ) | $<two>=( .* d ) };
+    my regex reg-e { $<specific>=( bd ) | $<two>=( .* d ) };
     say "acbd" ~~ &reg-e;         #  two => ｢acbd｣
-    say "bdac" ~~ &reg-e;         #  one => ｢bd｣
+    say "bdac" ~~ &reg-e;         #  specific => ｢bd｣
 
 
 
