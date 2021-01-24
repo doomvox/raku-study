@@ -53,3 +53,28 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     my $result = $monster.subst('zil', 'ZIL').subst('la','LA');
     say $result;  # godZILLA
 }
+
+{
+
+    ## Starting with examples from:
+    ## https://docs.raku.org/language/grammars
+
+my regex works-but-slow { .+ q }
+my token fails-but-fast { .+ q }
+my $s = 'Tokens won\'t backtrack, which makes them fail quicker!';
+say so $s ~~ &works-but-slow; # OUTPUT: «True␤» 
+say so $s ~~ &fails-but-fast; # OUTPUT: «False␤» 
+                              # the entire string get taken by the .+ 
+
+  ## Note that non-backtracking works on terms, that is, as the
+  ## example below, if you have matched something, then you will
+  ## never backtrack. But when you fail to match, if there is
+  ## another candidate introduced by | or ||, you will retry to
+  ## match again.
+
+my token tok-a { .* d  };
+my token tok-b { .* d | bd };
+say so "bd" ~~ &tok-a;        # OUTPUT: «False␤» 
+say so "bd" ~~ &tok-b;        # OUTPUT: «True␤»     
+
+}
