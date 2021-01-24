@@ -112,8 +112,8 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 
     my regex reg-f { $<two>=( .* d ) || $<one>=( bd )};
-    say "acbd" ~~ &reg-f;         # ｢acbd｣   two => ｢acbd｣  ((WEIRD ONE))
-    say "bdac" ~~ &reg-f;         #  ｢bd｣    one => ｢bd｣
+    say "acbd" ~~ &reg-f;         # 
+    say "bdac" ~~ &reg-f;         # 
 
 
 }
