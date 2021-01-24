@@ -22,6 +22,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     # ｢bbbaaa｣
     #  subpat => ｢bbb｣
 }
+
 {
     my $str = "AAA";
     my $pat = regex { :i aaa };
