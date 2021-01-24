@@ -94,5 +94,9 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     my rule rul-b {.*d};
     say so "bd" ~~ &rul-b;        # False
 
+    my regex reg-b { .* d | bd };
+    say "acbd" ~~ &reg-b;        #  
+
+
 
 }
