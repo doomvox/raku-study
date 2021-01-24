@@ -102,8 +102,8 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
     # first matching alternation wins (maybe)
     my regex reg-d { $<one>=( bd ) || $<two>=( .* d ) };
-    say "acbd" ~~ &reg-d;         # ｢acbd｣   ((WEIRD ONE))
-    say "bdac" ~~ &reg-d;         #  ｢bd｣
+    say "acbd" ~~ &reg-d;         # ｢acbd｣   two => ｢acbd｣  ((WEIRD ONE))
+    say "bdac" ~~ &reg-d;         #  ｢bd｣     one => ｢bd｣
     
     # longest token matching (maybe)
     my regex reg-e { $<one>=( bd ) | $<two>=( .* d ) };
