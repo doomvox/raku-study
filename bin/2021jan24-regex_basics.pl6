@@ -113,5 +113,8 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
     my regex reg-e { $<specific>=( bd ) | $<globbed>=( .* d ) };
     say "acbd" ~~ &reg-e;         #  globbed => ｢acbd｣
     say "bdac" ~~ &reg-e;         #  specific => ｢bd｣
+
+## Note the "WEIRD ONE" mystery.  Classic regep match picks odd alternative.
+
 }
 
