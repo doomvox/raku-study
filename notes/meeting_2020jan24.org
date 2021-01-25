@@ -26,7 +26,10 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/grammar_example_fr
 
 *** metagib: counting regex matches
 
-From Bruce Gray : raku -e 'my $p = regex { ab }; say +("ababcaabbc" ~~ m:g/$p/);'
+From Bruce Gray : 
+#+BEGIN_SRC sh
+raku -e 'my $p = regex { ab }; say +("ababcaabbc" ~~ m:g/$p/);'
+#+END_SRC
 
 From metagib : Yes!! For doing that I convert to a list and them a bag
 
