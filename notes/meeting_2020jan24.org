@@ -54,5 +54,5 @@ From William Michels : shorter: raku -e 'my $p = regex { ab }; say ("ababcaabbc"
 *** https://github.com/doomvox/raku-study/blob/main/bin/subset_to_restrict_nil_return.pl6
 
 ** news
-Lambert Lum will be doing a regex talk on February 4th at Silicon Valley Perl: 
+Lambert Lum will be doing a regex talk on February 4th at Silicon Valley Perl
 *** https://www.meetup.com/SVPerl/events/fftdcsyccdbgb/
