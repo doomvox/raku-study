@@ -1,0 +1,9 @@
+# Enter s///g; lines, /e not allowed /g assumed. C-x # runs on other window
+s/beta/BETA/g;
+
+
+
+
+
+# In the modififed buffer, the prefix is C-c .
+# Next change: n  Undo: u  Accept all: A  Revert all: R
