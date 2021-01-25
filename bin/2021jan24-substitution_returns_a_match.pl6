@@ -6,5 +6,5 @@ use v6;
 
 my $str = 'old string';
 $str ~~ s/o .+ d/new/;
-say $str; # OUTPUT: «new string␤»
+say $str;  # new string
 
