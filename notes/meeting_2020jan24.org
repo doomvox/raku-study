@@ -128,3 +128,4 @@ my $saved;
 my $ret = $str ~~ s/o .+ d/{$saved = 'new'}/;
 say $str;
 say $saved;
+
