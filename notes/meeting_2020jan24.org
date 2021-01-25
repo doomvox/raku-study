@@ -4,7 +4,7 @@
 *** finding recent changes
 Bruce Gray points out you can use this: https://github.com/doomvox/raku-study/commits/main
 *** dated subdirectories
-Experimenting with dated subdirectories (or date prefixes?)
+less visual noise than date-stamps in file names
 
 ** main topic: basics of regexes (and tokens, rules, grammars...)
 *** demo scripts
