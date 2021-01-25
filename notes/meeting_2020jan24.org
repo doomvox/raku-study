@@ -45,7 +45,6 @@ From William Michels : shorter:
 raku -e 'my $p = regex { ab }; say ("ababcaabbc" ~~ m:g/$p/).Bag.elems;'
 #+END_SRC
 
-
 ** Raku containers
 *** https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9605.html
 *** https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9603.html
