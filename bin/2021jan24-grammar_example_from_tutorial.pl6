@@ -13,7 +13,12 @@ grammar G {
 }
  
 my $match = G.parse( "Þor is mighty" );
-say $match.raku;     # OUTPUT: «Match.new(made => Any, pos => 13, orig => "Þor is mighty",...» 
-say $/.raku;         # OUTPUT: «Match.new(made => Any, pos => 13, orig => "Þor is mighty",...» 
+say $match.raku;     
+
+## Match.new(:orig("Þor is mighty"), :from(0), :pos(13), :hash(Map.new((:thingy(Match.new(:orig("Þor is mighty"), :from(0), :pos(3)))))))
+
+say $/.raku;         
+# Match.new(:orig("Þor is mighty"), :from(0), :pos(13), :hash(Map.new((:thingy(Match.new(:orig("Þor is mighty"), :from(0), :pos(3)))))))
+
 say $/<thingy>.raku;
 # OUTPUT: «Match.new(made => Any, pos => 3, orig => "Þor is mighty", hash => Map.new(()), list => (), from => 0)␤» 
