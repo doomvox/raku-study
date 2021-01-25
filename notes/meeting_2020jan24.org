@@ -26,9 +26,6 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/grammar_example_fr
 
 *** metagib: counting regex matches
 
-William Michels:  on using $++ to count
-https://github.com/rakudo/rakudo/issues/3564
-
 From Bruce Gray : raku -e 'my $p = regex { ab }; say +("ababcaabbc" ~~ m:g/$p/);'
 
 From metagib : Yes!! For doing that I convert to a list and them a bag
@@ -44,6 +41,10 @@ From William Michels : shorter:
 #+BEGIN_SRC sh
 raku -e 'my $p = regex { ab }; say ("ababcaabbc" ~~ m:g/$p/).Bag.elems;'
 #+END_SRC
+
+**** William Michels:  on using $++ to count
+https://github.com/rakudo/rakudo/issues/3564
+
 
 ** Raku containers
 *** https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9605.html
