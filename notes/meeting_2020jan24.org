@@ -65,3 +65,4 @@ https://github.com/rakudo/rakudo/issues/3564
 *** news
 Lambert Lum will be doing a regex talk on February 4th at Silicon Valley Perl
 **** https://www.meetup.com/SVPerl/events/fftdcsyccdbgb/
+ 
