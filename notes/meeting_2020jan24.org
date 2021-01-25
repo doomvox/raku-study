@@ -32,11 +32,6 @@ https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9657.html
 https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9605.html
 https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9603.html
 
-
-
-13:32:14	 From Lambert Lum : my $pat = rx{ aaa };
-say 'aaa' ~~ $pat;
-
 13:32:55	 From metagib : The other day I was exploring counting every regex that match in a string, for example:
 13:35:14	 From metagib : Forget it, it's difficult writing code the phone
 13:36:01	 From Joseph Brenner : That reminds me of femats last theorem.
