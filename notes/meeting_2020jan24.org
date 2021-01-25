@@ -1,8 +1,8 @@
 * meeting notes Jan 24, 2021
 ** github issues: 
 *** views of directories don't have very good sort options
-*** recent changes
-Bruce Gray points out you can find recent changes via: https://github.com/doomvox/raku-study/commits/main
+*** finding recent changes
+Bruce Gray points out you can use this: https://github.com/doomvox/raku-study/commits/main
 *** dated subdirectories
 Experimenting with dated subdirectories (or date prefixes?)
 
