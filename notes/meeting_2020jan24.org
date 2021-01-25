@@ -48,6 +48,7 @@ https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9657.html
 https://www.ruby-lang.org/en/documentation/faq/1/
 https://docs.raku.org/language/rb-nutshell
 
+
 https://github.com/doomvox/raku-study/blob/main/bin/subset_to_restrict_nil_return.pl6
 
 ** news
