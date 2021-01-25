@@ -1,11 +1,16 @@
 * meeting notes Jan 24, 2021
 ** main topic: basics of regexes (and tokens, rules, grammars...)
 *** demo scripts
-https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/substitution_returns_a_match.pl6
-https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/grammar_example_from_tutorial.pl6
-https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/grammar_calculator_example.pl6
-https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/perl5-regexp_alternation.pl
 https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/regex_basics.pl6
+https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/perl5-regexp_alternation.pl
+
+https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/substitution_returns_a_match.pl6
+
+https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/grammar_calculator_example.pl6
+https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/grammar_example_from_tutorial.pl6
+
+
+
 
 
 
