@@ -4,6 +4,9 @@
 
 use v6;
 
+## Example from:
+## https://docs.raku.org/language/grammar_tutorial
+
 grammar G {
     token TOP { <thingy> .* }
     token thingy { 'Þor' }
