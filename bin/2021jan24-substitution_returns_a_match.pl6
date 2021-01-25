@@ -5,6 +5,6 @@
 use v6;
 
 my $str = 'old string';
-$str ~~ s/o .+ d/new/;
+my $ret = $str ~~ s/o .+ d/new/;
 say $str;  # new string
 
