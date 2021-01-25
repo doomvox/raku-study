@@ -27,14 +27,13 @@ https://docs.raku.org/language/regexes#Quoted_lists_are_LTM_matches
 
 https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9657.html
 
-13:16:23	 From Joseph Brenner : https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9603.html
-13:16:48	 From William Michels : https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9605.html
 
-13:25:56	 From Joseph Brenner : https://github.com/doomvox/raku-study/tree/main/bin
+** Raku containers
+https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9605.html
+https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9603.html
 
-13:26:46	 From Bruce Gray : https://github.com/doomvox/raku-study/commits/main
 
-13:28:29	 From Bruce Gray : That link is what I use to tell what is recent. Not nearly as good as sorting the file list, but better than nothing.
+
 
 13:30:33	 From William Michels : Welcome Alan!
 13:31:18	 From William Michels : SOLIDUS
