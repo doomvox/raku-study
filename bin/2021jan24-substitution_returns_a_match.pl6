@@ -11,3 +11,5 @@ say $str;  # new string
 say $ret;  # ｢old｣
 
 dd $ret;
+# Match $ret = Match.new(:orig("old string"), :from(0), :pos(3))
+
