@@ -1,2 +1,8 @@
 * meeting notes Jan 24, 2021
 ** main topic: basics of regexes (and tokens, rules, grammars...)
+*** Longest Token Matching
+https://perlgeek.de/en/article/longest-token-matching 
+https://stackoverflow.com/questions/64407663/raku-regex-inconsistent-longest-token-matching 
+https://docs.raku.org/syntax/%7C#Quoted_lists_are_LTM_matches 
+https://docs.raku.org/language/regexes#Quoted_lists_are_LTM_matches 
+
