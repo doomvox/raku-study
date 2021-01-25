@@ -12,7 +12,7 @@ grammar G {
     token thingy { 'Þor' }
 }
  
-my $match = G.parse("Þor is mighty");
+my $match = G.parse( "Þor is mighty" );
 say $match.raku;     # OUTPUT: «Match.new(made => Any, pos => 13, orig => "Þor is mighty",...» 
 say $/.raku;         # OUTPUT: «Match.new(made => Any, pos => 13, orig => "Þor is mighty",...» 
 say $/<thingy>.raku;
