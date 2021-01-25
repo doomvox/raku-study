@@ -50,12 +50,6 @@ https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9657.html
 
 https://github.com/doomvox/raku-study/blob/main/bin/subset_to_restrict_nil_return.pl6
 
-
-
-
-Remember:  Feb 4th, silicon valley perl,  lambert intro to regex talk
-https://www.meetup.com/SVPerl/events/fftdcsyccdbgb/
-
 ** news
 Lambert Lum will be doing a regex talk on February 4th at Silicon
 Valley Perl: 
