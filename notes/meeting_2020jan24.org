@@ -26,7 +26,7 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/grammar_example_fr
 
 *** metagib: counting regex matches
 
-William Michels:  using $++ to count
+William Michels:  on using $++ to count
 https://github.com/rakudo/rakudo/issues/3564
 
 From Bruce Gray : raku -e 'my $p = regex { ab }; say +("ababcaabbc" ~~ m:g/$p/);'
