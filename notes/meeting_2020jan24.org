@@ -19,10 +19,10 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/grammar_calculator
 https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/grammar_example_from_tutorial.pl6
 
 *** Longest Token Matching
-https://perlgeek.de/en/article/longest-token-matching 
-https://stackoverflow.com/questions/64407663/raku-regex-inconsistent-longest-token-matching 
-https://docs.raku.org/syntax/%7C#Quoted_lists_are_LTM_matches 
-https://docs.raku.org/language/regexes#Quoted_lists_are_LTM_matches
+**** https://perlgeek.de/en/article/longest-token-matching 
+**** https://stackoverflow.com/questions/64407663/raku-regex-inconsistent-longest-token-matching 
+**** https://docs.raku.org/syntax/%7C#Quoted_lists_are_LTM_matches 
+**** https://docs.raku.org/language/regexes#Quoted_lists_are_LTM_matches
 
 *** metagib: 
 "The other day I was exploring counting every regex that match in a string, for example:"
@@ -41,9 +41,9 @@ From William Michels : shorter: raku -e 'my $p = regex { ab }; say ("ababcaabbc"
 
 
 ** Raku containers
-https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9605.html
-https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9603.html
-https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9657.html
+*** https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9605.html
+*** https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9603.html
+*** https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9657.html
 
 
 ** perl -> ruby -> raku
