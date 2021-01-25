@@ -8,4 +8,6 @@ my $str = 'old string';
 my $ret = $str ~~ s/o .+ d/new/;
 say $str;  # new string
 
-say $ret;
+say $ret;  # ｢old｣
+
+dd $ret;
