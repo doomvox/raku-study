@@ -41,7 +41,6 @@ raku -e 'my $p = regex { ab }; say ("ababcaabbc" ~~ m:g/$p/).List.Bag.elems;'
 #+END_SRC
 
 From William Michels : shorter: 
-
 #+BEGIN_SRC sh
 raku -e 'my $p = regex { ab }; say ("ababcaabbc" ~~ m:g/$p/).Bag.elems;'
 #+END_SRC
