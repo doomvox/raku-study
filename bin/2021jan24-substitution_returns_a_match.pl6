@@ -18,7 +18,7 @@ use v6;
 }
 
 { # bruce gray variant: 
-
+    say "---";
     my $str = 'old string';
     my $saved;
     my $ret = $str ~~ s/o .+ d/{$saved = 'new'}/;
