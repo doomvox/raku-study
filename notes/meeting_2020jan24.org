@@ -47,20 +47,21 @@ raku -e 'my $p = regex { ab }; say ("ababcaabbc" ~~ m:g/$p/).Bag.elems;'
 **** William Michels:  on using $++ to count
 https://github.com/rakudo/rakudo/issues/3564
 
+** other topics
 
-** Raku containers
-*** https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9605.html
-*** https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9603.html
-*** https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9657.html
+*** Raku containers
+**** https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9605.html
+**** https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9603.html
+**** https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9657.html
 
 
-** perl -> ruby -> raku
-*** https://www.ruby-lang.org/en/documentation/faq/1/
-*** https://docs.raku.org/language/rb-nutshell
+*** perl -> ruby -> raku
+**** https://www.ruby-lang.org/en/documentation/faq/1/
+**** https://docs.raku.org/language/rb-nutshell
 
-** Revisited issue with nil returns
-*** https://github.com/doomvox/raku-study/blob/main/bin/subset_to_restrict_nil_return.pl6
+*** Revisited issue with nil returns
+**** https://github.com/doomvox/raku-study/blob/main/bin/subset_to_restrict_nil_return.pl6
 
-** news
+*** news
 Lambert Lum will be doing a regex talk on February 4th at Silicon Valley Perl
-*** https://www.meetup.com/SVPerl/events/fftdcsyccdbgb/
+**** https://www.meetup.com/SVPerl/events/fftdcsyccdbgb/
