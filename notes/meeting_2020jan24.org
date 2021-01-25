@@ -7,8 +7,6 @@ Bruce Gray points out you can find recent changes via: https://github.com/doomvo
 *** dated subdirectories
 Experimenting with dated subdirectories (or date prefixes?)
 
-*** 
-
 ** main topic: basics of regexes (and tokens, rules, grammars...)
 *** demo scripts
 https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/regex_basics.pl6
