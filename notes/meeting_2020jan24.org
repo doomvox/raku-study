@@ -1,5 +1,4 @@
 * meeting notes Jan 24, 2021
-
 ** github issues: 
 *** views of directories don't have very good sort options
 *** recent changes
