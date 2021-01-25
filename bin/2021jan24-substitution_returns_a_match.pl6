@@ -22,7 +22,6 @@ use v6;
     my $str = 'old string';
     my $saved;
     my $ret = $str ~~ s/o .+ d/{$saved = 'new'}/;
-    say $str;
-    say $saved; 
-
+    say $str;     # new string
+    say $saved;   # new 
 }
