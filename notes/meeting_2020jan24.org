@@ -23,19 +23,17 @@ https://docs.raku.org/syntax/%7C#Quoted_lists_are_LTM_matches
 https://docs.raku.org/language/regexes#Quoted_lists_are_LTM_matches
 
 *** metagib: 
+"The other day I was exploring counting every regex that match in a string, for example:"
 
 
-https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9657.html
 
 
 ** Raku containers
 https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9605.html
 https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9603.html
+https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9657.html
 
-13:32:55	 From metagib : The other day I was exploring counting every regex that match in a string, for example:
-13:35:14	 From metagib : Forget it, it's difficult writing code the phone
-13:36:01	 From Joseph Brenner : That reminds me of femats last theorem.
-13:36:03	 From Bruce Gray : metagib: yes, very hard.
+
 13:36:37	 From William Michels : metagib, were you using $++ to count? Here's an issue I raised (now resolved): https://github.com/rakudo/rakudo/issues/3564
 13:39:08	 From metagib : Well I don't know that special variable $ could be used in that way lol, but now works?
 13:39:54	 From Bruce Gray : metagib: like this?
