@@ -50,7 +50,6 @@ https://docs.raku.org/language/rb-nutshell
 
 https://github.com/doomvox/raku-study/blob/main/bin/subset_to_restrict_nil_return.pl6
 
-
 ** news
 Lambert Lum will be doing a regex talk on February 4th at Silicon
 Valley Perl: 
