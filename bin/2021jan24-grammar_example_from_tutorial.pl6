@@ -20,3 +20,4 @@ say $/<thingy>.raku;
 # Match.new(:orig("Þor is mighty"), :from(0), :pos(3))
 
 say $/<thingy>; # ｢Þor｣
+
