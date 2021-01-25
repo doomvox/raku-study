@@ -34,9 +34,6 @@ https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9603.html
 
 
 
-
-13:30:33	 From William Michels : Welcome Alan!
-13:31:18	 From William Michels : SOLIDUS
 13:32:14	 From Lambert Lum : my $pat = rx{ aaa };
 say 'aaa' ~~ $pat;
 
