@@ -1,4 +1,14 @@
 * meeting notes Jan 24, 2021
+
+** github issues: 
+*** views of directories don't have very good sort options
+*** recent changes
+Bruce Gray points out you can find recent changes via: https://github.com/doomvox/raku-study/commits/main
+*** dated subdirectories
+Experimenting with dated subdirectories (or date prefixes?)
+
+*** 
+
 ** main topic: basics of regexes (and tokens, rules, grammars...)
 *** demo scripts
 https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/regex_basics.pl6
@@ -35,8 +45,11 @@ https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9657.html
 13:16:48	 From William Michels : https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9605.html
 
 13:25:56	 From Joseph Brenner : https://github.com/doomvox/raku-study/tree/main/bin
+
 13:26:46	 From Bruce Gray : https://github.com/doomvox/raku-study/commits/main
+
 13:28:29	 From Bruce Gray : That link is what I use to tell what is recent. Not nearly as good as sorting the file list, but better than nothing.
+
 13:30:33	 From William Michels : Welcome Alan!
 13:31:18	 From William Michels : SOLIDUS
 13:32:14	 From Lambert Lum : my $pat = rx{ aaa };
