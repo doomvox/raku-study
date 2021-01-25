@@ -25,9 +25,7 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/grammar_example_fr
 **** https://docs.raku.org/language/regexes#Quoted_lists_are_LTM_matches
 
 *** metagib: counting regex matches
-
 From Bruce Gray : 
-
 #+BEGIN_SRC sh
 raku -e 'my $p = regex { ab }; say +("ababcaabbc" ~~ m:g/$p/);'
 #+END_SRC
