@@ -14,7 +14,6 @@ grammar G {
  
 my $match = G.parse( "Þor is mighty" );
 say $match.raku;     
-
 ## Match.new(:orig("Þor is mighty"), :from(0), :pos(13), :hash(Map.new((:thingy(Match.new(:orig("Þor is mighty"), :from(0), :pos(3)))))))
 
 say $/.raku;         
