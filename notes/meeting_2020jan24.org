@@ -8,7 +8,7 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/substitution_retur
 
 https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/grammar_calculator_example.pl6
 https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/grammar_example_from_tutorial.pl6
-
+*** 
 
 
 
@@ -25,3 +25,99 @@ https://docs.raku.org/syntax/%7C#Quoted_lists_are_LTM_matches
 https://docs.raku.org/language/regexes#Quoted_lists_are_LTM_matches
 *** 
 
+
+*** metagib: 
+
+
+https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9657.html
+
+13:16:23	 From Joseph Brenner : https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9603.html
+13:16:48	 From William Michels : https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9605.html
+13:19:19	 From Joseph Brenner : Hey metagb, I just muted you for a minute.  Feel free to unmute. 
+13:22:57	 From William Michels : Hey metagib, Joe is going to do some Raku regex stuff. Feel free to jump in with questions or problems!
+13:23:29	 From metagib : Joseph Brenner: it's OK because I was eating while watch
+13:25:56	 From Joseph Brenner : https://github.com/doomvox/raku-study/tree/main/bin
+13:26:46	 From Bruce Gray : https://github.com/doomvox/raku-study/commits/main
+13:28:29	 From Bruce Gray : That link is what I use to tell what is recent. Not nearly as good as sorting the file list, but better than nothing.
+13:30:33	 From William Michels : Welcome Alan!
+13:31:18	 From William Michels : SOLIDUS
+13:32:14	 From Lambert Lum : my $pat = rx{ aaa };
+say 'aaa' ~~ $pat;
+
+13:32:55	 From metagib : The other day I was exploring counting every regex that match in a string, for example:
+13:35:14	 From metagib : Forget it, it's difficult writing code the phone
+13:36:01	 From Joseph Brenner : That reminds me of femats last theorem.
+13:36:03	 From Bruce Gray : metagib: yes, very hard.
+13:36:37	 From William Michels : metagib, were you using $++ to count? Here's an issue I raised (now resolved): https://github.com/rakudo/rakudo/issues/3564
+13:39:08	 From metagib : Well I don't know that special variable $ could be used in that way lol, but now works?
+13:39:54	 From Bruce Gray : metagib: like this?
+13:39:57	 From Bruce Gray : raku -e 'my $p = regex { ab }; say +("ababcaabbc" ~~ m:g/$p/);'
+13:40:06	 From Bruce Gray : Output: 3
+13:40:49	 From metagib : Yes!! For doing that I convert to a list and them a bag
+13:41:29	 From metagib : *then
+13:42:00	 From William Michels : Yes $++ works, you can even do math. I'm going to try Bruce's example now... .
+13:43:06	 From Bruce Gray : :g is short for :global , so it matches the pattern as many times as possible (without overlap)
+13:43:51	 From William Michels : raku -e 'my $p = regex { ab }; say ("ababcaabbc" ~~ m:g/$p/).List.Bag.elems;'
+13:44:40	 From William Michels : shorter: raku -e 'my $p = regex { ab }; say ("ababcaabbc" ~~ m:g/$p/).Bag.elems;'
+13:44:55	 From metagib : It it's possible count the match when you have multiple captures as one using :g, for example /a.c/ in 'abc adc atc'
+13:45:43	 From metagib : Sorry, that's are not captures, are matches
+13:48:30	 From Bruce Gray : metagib, was that a question or a statement?
+13:50:29	 From William Michels : I think he corrected himself, e.d. s/captures/matches/
+13:50:39	 From William Michels : e.g. s/captures/matches/
+13:52:18	 From metagib : It's was a question, but was answered but the comments before
+13:53:32	 From Bruce Gray : OK, thanks
+13:53:41	 From metagib : Sorry if doesn't clear, I have little (I hope) barrier lenguaje
+13:54:45	 From William Michels : No worries!
+13:54:47	 From William Michels : https://www.ruby-lang.org/en/documentation/faq/1/
+13:55:00	 From William Michels : https://docs.raku.org/language/rb-nutshell
+13:56:01	 From Bruce Gray : No apology needed! If we need some effort to bridge the barrier, then we want to do that needed work.
+13:56:29	 From metagib : William: I mean English barrier lol, I know some raku :)
+13:57:03	 From metagib : ❤️❤️
+14:02:51	 From Bruce Gray : my \foo = sub () {…}
+14:03:16	 From Bruce Gray : sub foo () {…}
+14:03:40	 From Bruce Gray : my $foo = sub {…}
+14:08:41	 From metagib : Using concatenate methods of substitutions.. How could deal with intermediate errors?
+14:09:56	 From metagib : For example in the transformation of  godzilla=>godZI=>godZILLA
+14:19:05	 From Joseph Brenner : subset_to_restrict_nil_return.pl6
+14:19:32	 From Bruce Gray : Clarifying point: “foo”.subst(‘bar’, ‘bar’) will return a unchanged “foo”, but that is not an *error*.
+14:19:57	 From Joseph Brenner : https://github.com/doomvox/raku-study/blob/main/bin/subset_to_restrict_nil_return.pl6
+14:20:49	 From William Michels : Here's some R code (REPL) showing tri-valued logic in practice:
+14:20:52	 From William Michels : > TRUE & NA
+[1] NA
+> FALSE & NA
+[1] FALSE
+> TRUE | NA
+[1] TRUE
+> FALSE | NA
+[1] NA
+>
+14:21:10	 From Bruce Gray : .subst() does not (easily) tell you whether is succeeded. If you need to know, use s/// instead. That actually came up last week here.
+14:23:19	 From metagib : In a book (I remember which one) don't recommend s// for simple substitutions because it's more slow than .substr
+14:23:52	 From metagib : * I don't remember which one, maybe it was learning raku
+14:24:00	 From Joseph Brenner : metagib:  that could be, but performance isn't a major concern for me at the moment... plus they change the optimization.
+14:24:20	 From Joseph Brenner : Something that's slow one month might be fine the next month.
+14:34:10	 From Bruce Gray : metagib, I do not see any such performance mentioned in Learning Perl 6. If you remember where you saw that, I would be interested to know.
+14:36:22	 From Joseph Brenner : Remember:  Feb 4th, silicon valley perl,  lambert intro to regex talk
+14:36:42	 From Lambert Lum : https://www.meetup.com/SVPerl/events/fftdcsyccdbgb/
+14:38:09	 From Joseph Brenner : https://docs.raku.org/language/grammars
+14:38:12	 From metagib : Just now I don't rebember where I read, but maybe If find the next week make a resume of those tricks that are not so obvious, of the performance lenguaje
+14:39:44	 From metagib : In fact I want to write some entry blogs of these topics, for example the adverbs of race and hyper I read in a blog post and they are completely invisible for everyone
+14:41:58	 From metagib : Guys I have to leave, but I will stay connected for next time and this time with the mail thing done
+14:42:29	 From Bruce Gray : metagib: great to have your join!
+14:51:00	 From William Michels : https://perlgeek.de/en/article/longest-token-matching
+14:51:24	 From William Michels : https://stackoverflow.com/questions/64407663/raku-regex-inconsistent-longest-token-matching
+14:52:23	 From William Michels : https://docs.raku.org/syntax/%7C#Quoted_lists_are_LTM_matches
+14:54:20	 From William Michels : https://docs.raku.org/language/regexes#Quoted_lists_are_LTM_matches
+15:02:49	 From Joseph Brenner : https://github.com/doomvox/raku-study/blob/main/bin/2021jan24-regex_basics.pl6
+15:10:12	 From William Michels : "Only the declarative prefixes of each rule participate in LTM."
+15:14:55	 From Bruce Gray : https://www.nntp.perl.org/group/perl.perl6.users/2021/01/msg9645.html
+15:17:12	 From Joseph Brenner : https://stackoverflow.com/questions/64407663/raku-regex-inconsistent-longest-token-matching
+15:38:07	 From Bruce Gray : perl -wE 'say $1 if "acbd" =~ /(bd|.*d)/'
+acbd
+perl -wE 'say $1 if "bdac" =~ /(bd|.*d)/'
+bd
+16:21:27	 From Bruce Gray : my $str = 'old string';
+my $saved;
+my $ret = $str ~~ s/o .+ d/{$saved = 'new'}/;
+say $str;
+say $saved;
