@@ -25,7 +25,8 @@ https://docs.raku.org/language/regexes#Quoted_lists_are_LTM_matches
 *** metagib: 
 "The other day I was exploring counting every regex that match in a string, for example:"
 
-William Michels : metagib, were you using $++ to count? Here's an issue I raised (now resolved): https://github.com/rakudo/rakudo/issues/3564
+William Michels :  using $++ to count
+https://github.com/rakudo/rakudo/issues/3564
 
 From Bruce Gray : raku -e 'my $p = regex { ab }; say +("ababcaabbc" ~~ m:g/$p/);'
 
