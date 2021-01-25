@@ -15,23 +15,12 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/substitution_retur
 
 https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/grammar_calculator_example.pl6
 https://github.com/doomvox/raku-study/blob/main/bin/2021jan24/grammar_example_from_tutorial.pl6
-*** 
-
-
-
-
-
-
-
-
 
 *** Longest Token Matching
 https://perlgeek.de/en/article/longest-token-matching 
 https://stackoverflow.com/questions/64407663/raku-regex-inconsistent-longest-token-matching 
 https://docs.raku.org/syntax/%7C#Quoted_lists_are_LTM_matches 
 https://docs.raku.org/language/regexes#Quoted_lists_are_LTM_matches
-*** 
-
 
 *** metagib: 
 
