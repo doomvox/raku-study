@@ -1,1 +1,2 @@
 * meeting notes Jan 24, 2021
+** main topic: basics of regexes (and tokens, rules, grammars...)
