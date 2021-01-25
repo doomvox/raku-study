@@ -8,7 +8,7 @@ use v6;
 ## https://docs.raku.org/language/grammar_tutorial
 
 grammar G {
-    token TOP { <thingy> .* }
+    token TOP    { <thingy> .* }
     token thingy { 'Þor' }
 }
  
