@@ -9,3 +9,6 @@
 **** related to "containers"?
 **** also twigils
 *** regexes and grammars again
+**** get a handle on basics
+***** Note: initial grammar example in docs is too complex.
+***** Follow Moritz Lenz?
