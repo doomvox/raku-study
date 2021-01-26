@@ -1,0 +1,11 @@
+* meeting notes Jan 31, 2021
+** agenda
+*** hello, welcome (pretend you're a warm human being)
+*** announcements  
+*** invite suggested topics
+*** work on topics
+** possible topics
+*** sigils in raku: you can stash anything in a $ so what does it mean?
+**** related to "containers"?
+**** also twigils
+*** regexes and grammars again
