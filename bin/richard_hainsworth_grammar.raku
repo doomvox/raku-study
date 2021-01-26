@@ -54,3 +54,6 @@ for @s {
 #    say $_ ~~ /<fcode>/, "\ntook ", (now - ENTER now), " sec";
     say Content-and-Attributes.parse($_), "\ntook ", (now - ENTER now), " sec";
 }
+
+
+
