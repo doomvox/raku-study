@@ -12,3 +12,4 @@
 **** get a handle on basics
 ***** Note: initial grammar example in docs is too complex.
 ***** Follow Moritz Lenz?
+**** simple parsing job: doomfiles 
