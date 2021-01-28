@@ -2,6 +2,7 @@
 ** agenda
 *** hello, welcome (pretend you're a warm human being)
 *** announcements  
+**** svperl on regexes: https://www.meetup.com/SVPerl/events/fftdcsyccdbgb/
 *** invite suggested topics
 *** work on topics
 ** possible topics
@@ -12,7 +13,9 @@
 **** get a handle on basics
 ***** Note: initial grammar example in docs is too complex.
 ***** Follow Moritz Lenz?
-**** simple parsing job: doomfiles 
-
+**** simple parsing job: doomfiles
+*** regexes
+**** csv example: show difference of zero-width comma matching vs literal
+**** play with %
 
 
