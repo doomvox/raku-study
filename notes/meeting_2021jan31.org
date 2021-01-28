@@ -17,5 +17,6 @@
 *** regexes
 **** csv example: show difference of zero-width comma matching vs literal
 **** play with %
-
+*** string interpolation: "\s" is an error.  
+Should it be " "? Note that "\n" and "\t" work.
 
