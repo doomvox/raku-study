@@ -19,4 +19,4 @@
 **** play with %
 *** string interpolation: "\s" is an error.  
 Should it be " "? Note that "\n" and "\t" work.
-
+ 
