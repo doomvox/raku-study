@@ -33,3 +33,4 @@ say @data;
 say @data;
 # [a a a herman herman a hm hm a a]
 @data[7] = 'ho?';
+say @data;
