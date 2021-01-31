@@ -60,4 +60,10 @@ reduce: work on a data structure rather than a list
 
 Perl5 module: Test::Differences eq_or_diff
 
+**** tarjan algorithm 
+Richard Hainsworth: find strongly connected regions, because 
+detecting loops in the general case is ~impossible (halting problem).
+
+
 *** Raku phasers
+
