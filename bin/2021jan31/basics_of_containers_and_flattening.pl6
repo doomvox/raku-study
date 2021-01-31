@@ -28,3 +28,4 @@ put $newer.raku
 
 
 my %h = @monsters;
+say %h;
