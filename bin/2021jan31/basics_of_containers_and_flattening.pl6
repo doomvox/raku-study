@@ -74,3 +74,4 @@ say %new;
 
 my %stuff = %threat_lev, %effects_cost;
 dd %stuff;
+# Hash %stuff = {:blob(2), :garuda(8), :godzilla(6), :golem(1), :mothera(6), :tingler(3)}
