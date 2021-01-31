@@ -30,7 +30,9 @@ my $gamma = 'gamma';
 
 my $scalar_array_kind_of = $alpha, $beta, $gamma;
 say $scalar_array_kind_of.WHAT;  # (Str)
-say $scalar_array_kind_of;
+say $scalar_array_kind_of; # alpha
+
+my $array_kind_of_not_scalar_this_time_i_hope = ($alpha, $beta, $gamma);
 
 exit;
 
