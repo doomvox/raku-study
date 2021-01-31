@@ -45,3 +45,7 @@ say @data;
 # [a a [aaa bbb ccc] alfred alfred a ho? ho? a a]
 @data[9] := @subdata;
 say @data;
+# [a a [aaa bbb ccc] alfred alfred a ho? ho? a [aaa bbb ccc]]
+
+# I tire of 'ho?'
+@data[7] = 'the_peanuts';
