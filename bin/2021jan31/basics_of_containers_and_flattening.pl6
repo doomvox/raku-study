@@ -15,7 +15,6 @@ say $not_an_array_or_is_it;  #  [garuda blob golem mothera godzilla tingler]
 say $not_an_array_or_is_it[3];   # mothera
 $not_an_array_or_is_it[3] = 'doris_day';
 say $not_an_array_or_is_it[3];   # doris_day
-
 say $not_an_array_or_is_it.WHAT; # (Array)
 
 exit;
