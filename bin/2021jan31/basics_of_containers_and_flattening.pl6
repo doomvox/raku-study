@@ -28,7 +28,7 @@ my $alpha = 'alpha';
 my $beta = 'beta';
 my $gamma = 'gamma';
 
-my $scalar_array_kind_of = $alpha, $beta, $gamma;
+my $scalar_array_kind_of = $alpha, $beta, $gamma;  ## completely ignores these: $beta, $gamma; 
 say $scalar_array_kind_of.WHAT;  # (Str)
 say $scalar_array_kind_of; # alpha
 
