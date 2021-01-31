@@ -52,3 +52,4 @@ say @data;
 say @data;
 
 @subdata[2] := @data;
+say @data;
