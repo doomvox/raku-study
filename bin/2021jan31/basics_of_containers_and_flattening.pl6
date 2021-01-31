@@ -41,7 +41,9 @@ say $array_kind_of_not_scalar_this_time_i_hope.WHAT; # (List)
 
 
 my ($one, $two, $three) = @monsters;
-
+say "one: $one";
+say "two: $ two";
+say :$three;
 
 
 exit;
