@@ -179,5 +179,5 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
     my @a2 = @a{'misc'};
     say @a2;
 
-
+    say "MEEP";
 }
