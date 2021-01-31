@@ -12,7 +12,6 @@ my @monsters = < godzilla mothera ghidora gammera golem rhodan >;  # 0..5
 my @data = 'a' xx 10;  ## note the raku xx operator for lists
 say @data; # [a a a a a a a a a a]
 
-
 my $str = @monsters[0];
 
 @data[3] := $str;
