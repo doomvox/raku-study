@@ -19,5 +19,5 @@ my $str = @monsters[0];
 
 say @data; 
 # [a a a godzilla godzilla a a a a a]
-
+@data[4] = 'herman';
 
