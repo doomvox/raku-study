@@ -21,3 +21,4 @@ say @data;
 # [a a a godzilla godzilla a a a a a]
 @data[4] = 'herman';
 say @data; 
+# [a a a herman herman a a a a a]
