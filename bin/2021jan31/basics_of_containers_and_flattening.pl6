@@ -5,7 +5,7 @@
 use v6;
 
 ## Make errors into warnings
-CATCH { default { say "CAUGHT: ", .Str; .resume } }
+### CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 my @monsters = < garuda blob golem mothera godzilla tingler >;
 
@@ -35,6 +35,11 @@ say $scalar_array_kind_of; # alpha
 my $array_kind_of_not_scalar_this_time_i_hope = ($alpha, $beta, $gamma);
 say $array_kind_of_not_scalar_this_time_i_hope; # (alpha beta gamma)
 say $array_kind_of_not_scalar_this_time_i_hope.WHAT; # (List)
+
+
+my ($one, $two, $three) = @monsters;
+
+
 
 exit;
 
