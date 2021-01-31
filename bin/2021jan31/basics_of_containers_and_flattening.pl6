@@ -29,8 +29,8 @@ my $beta = 'beta';
 my $gamma = 'gamma';
 
 my $scalar_array_kind_of = $alpha, $beta, $gamma;
-say $scalar_array_kind_of.WHAT;
-
+say $scalar_array_kind_of.WHAT;  # (Str)
+sa $scalar_array_kind_of;
 
 exit;
 
