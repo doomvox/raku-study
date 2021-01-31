@@ -11,4 +11,4 @@ my @monsters = < godzilla mothera ghidora gammera golem rhodan >;  # 0..5
 
 my @data = 'a' x 10;
 
-say @data;
+say @data; # [aaaaaaaaaa]
