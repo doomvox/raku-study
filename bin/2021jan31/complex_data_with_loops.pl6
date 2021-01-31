@@ -53,3 +53,5 @@ say @data;
 
 @subdata[2] := @data;
 say @data;
+# (\Array_68147776 = [a a [aaa bbb Array_68147776] alfred alfred a the_peanuts the_peanuts a [aaa bbb Array_68147776]])
+
