@@ -9,7 +9,8 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 my @monsters = < godzilla mothera ghidora gammera golem rhodan >;  # 0..5
 
-my @data = generate_baked_data();
+my @data1 = generate_baked_data();
+my @data2 = generate_baked_data();
 say @data1;
 say @data2;
 
