@@ -9,6 +9,16 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 my @monsters = < garuda blob golem mothera godzilla tingler >;
 
+my $not_an_array_or_is_it = @monsters;
+say $not_an_array_or_is_it;
+
+
+
+# my ( $new ) =  @monsters;
+
+
+
+
 my @new = @monsters;
 say @new;  # [garuda blob golem mothera godzilla tingler]
 
