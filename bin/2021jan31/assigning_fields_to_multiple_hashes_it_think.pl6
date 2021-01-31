@@ -34,7 +34,7 @@ my %j = <oo jj yy> Z=> 22 .. *;
 # in block <unit> at <unknown file> line 4 
 
 for %h, %g, %j -> %hh {
-    say $++;
+    say "loop count: ", $++;
     %hh = Empty
 }
 
