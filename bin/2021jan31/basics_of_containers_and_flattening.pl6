@@ -59,11 +59,11 @@ my %threat_lev = (
 );
 
 my %effects_cost = (
-    garuda   => 6,
-    blob     => 3,
-    golem    => 2,
-    mothera  => 5,
-    godzilla => 8,
+    garuda   => 8,
+    blob     => 2,
+    golem    => 1,
+    mothera  => 6,
+    godzilla => 6,
     tingler  => 3,
 );
 
