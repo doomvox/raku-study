@@ -8,7 +8,7 @@ use v6;
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 ## bruce gray idea
-for %!hash1, %!hash2, %!hash3 <-> %h { %h = Empty }
+# for %!hash1, %!hash2, %!hash3 <-> %h { %h = Empty }
 
 ## richard hainsworth:
 my %h = <a v c> Z=> 1..*
