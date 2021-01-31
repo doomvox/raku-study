@@ -40,6 +40,9 @@ https://github.com/doomvox/raku-study/commit/891a2e1b643b3c56f86d44ce91c5016e065
 Write a function that takes a string and returns a boolean indicating if there
 are balanced () [] {}. This is valid [()]{}. This is not valid [)](}}.
 Write your own test cases using Test::More.
+
 Note: Currently a popular interview question, not just for Perl.
 Lambert needed one hour for this question.
+
 Hint: split with empty field will break a string into individual char
+
