@@ -154,13 +154,15 @@ dd %alternate_summary;
 
 say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
 
-say "===";
-my %h_ola = { a => 1, b => 2, c => 3 };
-say %h_ola;
-my %misc = { hm => 0, ho => 0, heh => 0 };
-%h_ola{'misc'} = %misc;
+{
+    say "===";
+    my %h_ola = { a => 1, b => 2, c => 3 };
+    say %h_ola;
+    my %misc = { hm => 0, ho => 0, heh => 0 };
+    %h_ola{'misc'} = %misc;
 
-say %h_ola;
+    say %h_ola;
 
-my $thing = $h{'misc'};
-say $thing;
+    my $thing = $h{'misc'};
+    say $thing;
+}
