@@ -27,4 +27,4 @@ say @data;
 @data[6] := @data[7];
 say @data;
 # [a a a herman herman a a a a a]
-@data[7] = 'doris day';
+@data[7] = 'doris_day';
