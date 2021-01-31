@@ -16,3 +16,4 @@ my @newer = @new;
 say @newer;  # 
 
 my $new = @monsters;
+say $new;
