@@ -36,14 +36,11 @@ use v6;
     say @m2;
     # [godzilla grendel wormface blob fingfangfoom tingler]
 
-Though for what I'm doing now, I think it might be better to
-just alias it with the binding operator:
+# Though for what I'm doing now, I think it might be better to
+# just alias it with the binding operator:
 
-   my @m := %stash{'monsters'};
-
-So, like I said: I don't have any particular questions about this,
-I think I more or less know what's going on... it will be a while
-before I stop tripping over this sort of thing, though.
+   my @m3 := %stash{'monsters'};
+   say @m3;
 
 
 
