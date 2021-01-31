@@ -49,7 +49,7 @@ say "two: $two";
 
 say [:$three];   # [three => golem]
 
-say [:$one $:two :$three];   # [three => golem]
+say [:$one  :$two :$three];   # [three => golem]
 
 exit;
 
