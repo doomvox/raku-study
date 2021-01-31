@@ -29,8 +29,6 @@ use v6;
 
     # [[godzilla grendel wormface blob fingfangfoom tingler]]
 
-
-
 Yary Hluchan pointed out that I could slip it out, and get what
 I wanted:
 
