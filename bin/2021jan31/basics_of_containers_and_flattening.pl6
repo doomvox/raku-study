@@ -38,3 +38,6 @@ my @c = <c c c>;
 
 my @a_of_a = @a, @b, @c;
 say @a_of_a;
+# [[a a a] [b b b] [c c c]]
+
+my @copy_a = @a;
