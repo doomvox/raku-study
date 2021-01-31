@@ -49,8 +49,10 @@ say "two: $two";
 
 say [:$three];   # [three => golem]
 
-say [:$one  :$two :$three];   
+say [:$one  :$two  :$three];   
 # [one => garuda two => blob three => golem]
+
+say [:$one,  :$two,  :$three];   
 
 exit;
 
