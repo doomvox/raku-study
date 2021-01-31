@@ -40,3 +40,6 @@ say @data;
 # [a a a alfred alfred a ho? ho? a a]
 
 my @subdata = <<aaa bbb ccc>>;
+@data[2] := @subdata;
+
+say @data;
