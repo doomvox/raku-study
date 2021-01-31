@@ -13,6 +13,8 @@ my @data = 'a' xx 10;  ## note the raku xx operator for lists
 say @data; # [a a a a a a a a a a]
 
 my $str = @monsters[0];
+
+# using the binding operator, two slots in data share a container now
 @data[3] := $str;
 @data[4] := $str;
 
