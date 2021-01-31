@@ -40,9 +40,8 @@ say %g; # {}
 say %j; # {}
 
 # bruce gray points out this fails:
-for %h, %g, %j <-> %hh {
-    %hh = Empty;
-}
+for %h, %g, %j <-> %hh { say %hh }; 
+
 # Died with X::Parameter::RW
 # in block <unit> at <unknown file> line 1
 
