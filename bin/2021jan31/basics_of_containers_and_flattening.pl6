@@ -68,8 +68,6 @@ for @monsters -> $one, $two, $three {
   }
 }
 
-
-
 exit;
 
 my @new = @monsters;
