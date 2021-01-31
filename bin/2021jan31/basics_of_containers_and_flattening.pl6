@@ -21,7 +21,7 @@ say $not_an_array_or_is_it;
 
 my $list = ('alpha', 'beta', 'gamma');
 say $list.WHAT; # (List)
-$list[1] = 'hey there';
+# $list[1] = 'hey there';
 ## CAUGHT: Cannot modify an immutable List ((alpha beta gamma))
 
 my $alpha = 'alpha';
