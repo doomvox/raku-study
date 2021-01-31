@@ -91,3 +91,4 @@ say %summary{'effects_cost'}{'garuda'};  ## 8
 
 
 my %alternate_summary = :%threat_lev , :%effects_cost;
+dd %alternate_summary;
