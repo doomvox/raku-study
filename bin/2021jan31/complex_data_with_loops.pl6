@@ -10,5 +10,4 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 my @monsters = < godzilla mothera ghidora gammera golem rhodan >;  # 0..5
 
 my @data = 'a' x 10;
-
-say @data; # [aaaaaaaaaa]
+# say @data; # [aaaaaaaaaa]
