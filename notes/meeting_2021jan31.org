@@ -15,7 +15,8 @@ https://github.com/doomvox/raku-study/blob/main/bin/richard_hainsworth_role_clas
 **** also twigils
 *** regexes and grammars again
 **** get a handle on basics
-***** Note: initial grammar example in docs is too complex. (grammar tutorial page is better)
+***** Note: initial grammar tutorial example in docs is too complex, focuses on proto and inheritence
+https://docs.raku.org/language/grammar_tutorial
 ***** Follow Moritz Lenz?
 **** simple parsing job: doomfiles
 *** regexes
