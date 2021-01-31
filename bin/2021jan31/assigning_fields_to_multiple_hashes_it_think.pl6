@@ -4,6 +4,8 @@
 
 use v6;
 
+## Experimenting with clearing fields in hashes.
+
 ## Make errors into warnings
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
