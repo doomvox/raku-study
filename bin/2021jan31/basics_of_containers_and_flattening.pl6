@@ -173,4 +173,5 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
 
     my %h2 = %h_ola{'misc'};
     say %h2;
+
 }
