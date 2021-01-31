@@ -12,7 +12,7 @@ my @monsters = < godzilla mothera ghidora gammera golem rhodan >;  # 0..5
 my @data = generate_baked_data();
 say @data;
 
-sub generate_backed_data {
+sub generate_baked_data {
     my @data = 'a' xx 10;  ## note the raku xx operator for lists
 #    say @data; # [a a a a a a a a a a]
 
