@@ -21,7 +21,7 @@ use v6;
 # my first thought was to do this:
 
     my @m = %stash{'monsters'};
-    say @m;
+    say @m; # [[godzilla grendel wormface blob fingfangfoom tingler]]
 
 # But that doesn't get the original array back, instead you end up
 # with the entire original array as the first element of a newly
