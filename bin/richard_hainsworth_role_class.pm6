@@ -25,10 +25,27 @@ use v6.d;
 # subtle bugs that arose because I'd not handled the emptying process properly.
 
 
-role RakuClosureTemplater {
+role RakuClosureTemplater is export {
     #| maps the key to template and emits the result of the closure
     method rakuclosure-rendition(Str $key, %params --> Str) {
         X::ProcessedPod::MissingTemplates.new.throw unless $.templates-loaded;
+        note "At $?LINE rendering with \<$key>" if $.debug;
+        # special case some keys.
+        # 'zero' is only used to trigger the completion method
+        return '' if $key eq 'zero';
+        # 'raw' typically does not need any extra processing. If it does, the following line can be commented out.
+        return %params<contents> if $key eq 'raw';
+        X::ProcessedPod::Non-Existent-Template.new(:$key, :%params).throw
+        unless %.tmpl{$key}:exists;
+        #special case escape key. The template only expects a String scalar.
+        #other templates expect two %
+        if $key eq 'escaped' {
+            %.tmpl<escaped>(%params<contents>)
+        }
+        else
+        {
+            %.tmpl{$key}(%params, %.tmpl)
+        }
     }
 }
 
@@ -43,6 +60,24 @@ role MustacheTemplater {
     method mustache-rendition(Str $key, %params --> Str) {
         $!engine = Template::Mustache.new without $!engine;
         X::ProcessedPod::MissingTemplates.new.throw unless $.templates-loaded;
+        return '' if $key eq 'zero';
+        # special case this as there must be no EOL.
+        X::ProcessedPod::Non-Existent-Template.new(:$key, :%params).throw
+        unless %.tmpl{$key}:exists;
+        # templating engines like mustache do not handle logic or loops, which some Pod formats require.
+        # hence we pass a Subroutine instead of a string in the template
+        # the subroutine takes the same parameters as rendition and produces a mustache string
+        # eg P format template escapes containers
+
+        note "At $?LINE rendering with \<$key>" if $.debug;
+        my $interpolate = %.tmpl{$key} ~~ Block
+                ?? %.tmpl{$key}(%params)
+                # if the template is a block, then run as sub and pass in the params
+                !! %.tmpl{$key};
+        $!engine.render(
+                $interpolate,
+                %params, :from(%.tmpl)
+                )
     }
 }
 
