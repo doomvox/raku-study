@@ -72,4 +72,5 @@ my %new = %threat_lev;
 say %new;
 # {blob => 3, garuda => 6, godzilla => 8, golem => 2, mothera => 5, tingler => 3}
 
-my %stuff = %threat_lev, %
+my %stuff = %threat_lev, %effects_cost;
+say %stuff;
