@@ -5,6 +5,8 @@
 **** svperl on regexes: https://www.meetup.com/SVPerl/events/fftdcsyccdbgb/
 *** invite suggested topics
 *** work on topics
+*** code examples are going here:
+https://github.com/doomvox/raku-study/tree/main/bin/2021jan31
 ** possible topics
 *** sigils in raku: you can stash anything in a $ so what does it mean?
 **** related to "containers"?
