@@ -20,7 +20,8 @@ say $not_an_array_or_is_it;
 # [garuda blob golem doris_day godzilla tingler]
 
 my $list = ('alpha', 'beta', 'gamma');
-say $list.WHAT;
+say $list.WHAT; # (List)
+$list[1] = 'hey there';
 
 my $alpha = 'alpha';
 my $beta = 'beta';
