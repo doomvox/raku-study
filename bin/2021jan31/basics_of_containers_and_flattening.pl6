@@ -88,3 +88,6 @@ say %summary{'effects_cost'};
 ## {blob => 2, garuda => 8, godzilla => 6, golem => 1, mothera => 6, tingler => 3}
 
 say %summary{'effects_cost'}{'garuda'};  ## 8
+
+
+my %alternate_summary = :%threat_lev , :%effects_cost;
