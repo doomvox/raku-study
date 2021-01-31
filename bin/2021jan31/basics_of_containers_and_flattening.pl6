@@ -41,4 +41,4 @@ say @a_of_a;
 # [[a a a] [b b b] [c c c]]
 
 my @copy_a = @a;
-say @copy_a;
+say @copy_a; # [a a a]
