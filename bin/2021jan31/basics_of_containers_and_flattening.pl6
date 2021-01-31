@@ -13,3 +13,4 @@ my @new = @monsters;
 say @new;  # [garuda blob golem mothera godzilla tingler]
 
 my @newer = @new;
+say @newer;  # 
