@@ -40,7 +40,7 @@ my @a_of_a = @a, @b, @c;
 say @a_of_a;
 # [[a a a] [b b b] [c c c]]
 say @a_of_a[1];
-
+# [b b b]
 my @copy_a = @a;
 say @copy_a; # [a a a]
 ## The behavior of *single* assignments flattens/listifies,
