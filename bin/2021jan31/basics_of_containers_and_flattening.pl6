@@ -5,7 +5,7 @@
 use v6;
 
 ## Make errors into warnings
-### CATCH { default { say "CAUGHT: ", .Str; .resume } }
+CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 my @monsters = < garuda blob golem mothera godzilla tingler >;
 
@@ -29,6 +29,9 @@ my $beta = 'beta';
 my $gamma = 'gamma';
 
 my $scalar_array_kind_of = $alpha, $beta, $gamma;  ## completely ignores these: $beta, $gamma; 
+# Useless use of $beta in sink context (line 31)
+# Useless use of $gamma in sink context (line 31)
+
 say $scalar_array_kind_of.WHAT;  # (Str)
 say $scalar_array_kind_of; # alpha
 
