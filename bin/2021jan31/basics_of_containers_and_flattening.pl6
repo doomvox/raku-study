@@ -54,6 +54,14 @@ say [:$one  :$two  :$three];
 
 say [:$one,  :$two,  :$three];   
 
+
+
+for @monsters -> $one, $two, $three {
+    say [:$one,  :$two,  :$three];   
+}
+
+
+
 exit;
 
 my @new = @monsters;
