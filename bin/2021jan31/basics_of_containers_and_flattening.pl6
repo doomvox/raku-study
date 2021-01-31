@@ -178,6 +178,11 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
     
     my @a2 = %h{'misc'};
     say @a2;
+    # [{heh => 0, hm => 0, ho => 0}]
 
-    say "MEEP";
+    ## so, we get a different context with %h2 line and @a2
+    ## hash context vs list context
+    ## hash context decontainerizes, list doesn't (?)
+
+    say "MEEP";  
 }
