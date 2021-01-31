@@ -24,3 +24,4 @@ dd $newer;
 ## Array $newer = $["garuda", "blob", "golem", "mothera", "godzilla", "tingler"]
 
 put $newer.raku
+## $["garuda", "blob", "golem", "mothera", "godzilla", "tingler"]
