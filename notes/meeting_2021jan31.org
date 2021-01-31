@@ -13,7 +13,8 @@ https://github.com/doomvox/raku-study/blob/main/bin/richard_hainsworth_role_clas
 
 ** possible topics
 *** Q: somewhere in the docs there's a good simple grammar example parsing ini-style format data
-*** lambert lum: problem with recursive regexes
+
+
 *** sigils in raku: you can stash anything in a $ so what does it mean?
 **** related to "containers"?
 **** also twigils
@@ -31,3 +32,13 @@ Should it be " "? Note that "\n" and "\t" work.
 *** Code by Richard Hainsworth (finanalyst): "The repeated code is irritating me."
 https://github.com/doomvox/raku-study/commit/891a2e1b643b3c56f86d44ce91c5016e065c06c3
 
+
+*** lambert lum: problem with recursive regexes* 
+
+43.[ interview question; very hard]
+Write a function that takes a string and returns a boolean indicating if there
+are balanced () [] {}. This is valid [()]{}. This is not valid [)](}}.
+Write your own test cases using Test::More.
+Note: Currently a popular interview question, not just for Perl.
+Lambert needed one hour for this question.
+Hint: split with empty field will break a string into individual char
