@@ -47,7 +47,7 @@ say "two: $two";
 # CAUGHT: Unexpected named argument 'three' passed
 # This exception is not resumable
 
-say [:$three];
+say [:$three];   # [three => golem]
 
 exit;
 
