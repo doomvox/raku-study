@@ -33,6 +33,10 @@ Should it be " "? Note that "\n" and "\t" work.
 https://github.com/doomvox/raku-study/commit/891a2e1b643b3c56f86d44ce91c5016e065c06c3
 
 
+
+**** bruce gray suggestion
+for %!hash1, %!hash2, %!hash3 <-> %h { %h = Empty }
+
 *** lambert lum: problem with recursive regexes* 
 
 43.[ interview question; very hard]
