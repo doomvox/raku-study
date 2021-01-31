@@ -57,8 +57,8 @@ say [:$one,  :$two,  :$three];
 for @monsters -> $one, $two, $three {
     say [:$one,  :$two,  :$three];   
 }
-
-
+# [one => garuda two => blob three => golem]
+# [one => doris_day two => godzilla three => tingler]
 
 exit;
 
