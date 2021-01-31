@@ -60,3 +60,4 @@ my %threat_lev = (
 
 
 my %new = %threat_lev;
+say %new;
