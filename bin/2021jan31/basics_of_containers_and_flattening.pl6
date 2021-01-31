@@ -163,7 +163,6 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
     my %another_misc = %misc;
     say %another_misc;
 
-    exit;
     %h_ola{'misc'} = %misc;
     say %h_ola;
     # {a => 1, b => 2, c => 3, misc => {heh => 0, hm => 0, ho => 0}}
