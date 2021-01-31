@@ -81,3 +81,4 @@ is-deeply( %stuff, %effects_cost, "The second hash assign overrides the first")
 
 
 my %summary = threat_lev => %threat_lev , effects_cost => %effects_cost;
+dd %summary;
