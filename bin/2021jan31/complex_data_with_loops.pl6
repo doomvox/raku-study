@@ -11,3 +11,10 @@ my @monsters = < godzilla mothera ghidora gammera golem rhodan >;  # 0..5
 
 my @data = 'a' x 10;
 # say @data; # [aaaaaaaaaa]
+
+
+my $str = @monsters[0];
+
+@data[3] := $str;
+@data[4] := $str;
+
