@@ -10,4 +10,6 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 my @monsters = < garuda blob golem mothera godzilla tingler >;
 
 my @new = @monsters;
-say @new;
+say @new;  # [garuda blob golem mothera godzilla tingler]
+
+my @newer = @new;
