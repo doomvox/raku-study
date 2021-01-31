@@ -58,6 +58,18 @@ my %threat_lev = (
     tingler  => 3,
 );
 
+my %effects_cost = (
+    garuda   => 6,
+    blob     => 3,
+    golem    => 2,
+    mothera  => 5,
+    godzilla => 8,
+    tingler  => 3,
+);
+
+
 my %new = %threat_lev;
 say %new;
 # {blob => 3, garuda => 6, godzilla => 8, golem => 2, mothera => 5, tingler => 3}
+
+my %stuff = %threat_lev, %
