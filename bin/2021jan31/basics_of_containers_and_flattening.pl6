@@ -29,6 +29,7 @@ my $beta = 'beta';
 my $gamma = 'gamma';
 
 my $scalar_array_kind_of = $alpha, $beta, $gamma;  ## completely ignores these: $beta, $gamma; 
+# But there's compiler warnings at least:
 # Useless use of $beta in sink context (line 31)
 # Useless use of $gamma in sink context (line 31)
 
@@ -174,7 +175,5 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
     my %h2 = %h{'misc'};
     say %h2;
     # {heh => 0, hm => 0, ho => 0}
-
     
-
 }
