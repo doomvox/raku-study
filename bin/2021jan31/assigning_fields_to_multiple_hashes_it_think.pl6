@@ -11,11 +11,11 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 # for %!hash1, %!hash2, %!hash3 <-> %h { %h = Empty }
 
 ## richard hainsworth:
-my %h = <a v c> Z=> 1..*
+my %h = <a v c> Z=> 1..*;
 # {a => 1, c => 3, v => 2}
-my %g = <uo e ek > Z=> 10..*
+my %g = <uo e ek > Z=> 10..*;
 # {e => 11, ek => 12, uo => 10}
-my %j = <oo jj yy> Z=> 22 .. *
+my %j = <oo jj yy> Z=> 22 .. *;
 # {jj => 23, oo => 22, yy => 24}
 for %h, %g, %j <-> %hh { %hh = Empty }
 
