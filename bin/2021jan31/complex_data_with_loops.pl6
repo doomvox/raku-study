@@ -41,5 +41,6 @@ say @data;
 
 my @subdata = <<aaa bbb ccc>>;
 @data[2] := @subdata;
-
 say @data;
+# [a a [aaa bbb ccc] alfred alfred a ho? ho? a a]
+@data[9] := @subdata;
