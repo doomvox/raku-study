@@ -28,6 +28,7 @@ say @data;
 say @data;
 # [a a a herman herman a a a a a]
 @data[7] = 'doris_day';
+say @data;
 # [a a a herman herman a a a a a]
 @data[6] = 'hm';
 say @data;
