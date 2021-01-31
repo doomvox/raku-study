@@ -68,8 +68,6 @@ for @monsters -> $one, $two, $three {
   }
 }
 
-
-
 my @new = @monsters;
 say @new;  # [garuda blob golem mothera godzilla tingler]
 
