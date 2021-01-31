@@ -77,7 +77,7 @@ dd %stuff;
 # Hash %stuff = {:blob(2), :garuda(8), :godzilla(6), :golem(1), :mothera(6), :tingler(3)}
 
 use Test;
-is-deeply( %stuff, %effects_cost, "The second hash assign overrides the first")
+is-deeply( %stuff, %effects_cost, "The second hash assign overrides the first");
 
 
 my %summary = threat_lev => %threat_lev , effects_cost => %effects_cost;
