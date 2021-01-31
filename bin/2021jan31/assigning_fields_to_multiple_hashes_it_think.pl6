@@ -46,6 +46,7 @@ say %j; # {}
 for %h, %g, %j <-> %hh { say %hh }; 
 ## CAUGHT: Parameter '%hh' expected a writable container, but got Hash value
 
+
 # It's telling you you're trying to make something rw that's *already* rw.
 # which is, like, not intuitive.  If you're talking DWIM, it's clear what you mean.
 
