@@ -10,7 +10,11 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 my @monsters = < godzilla mothera ghidora gammera golem rhodan >;  # 0..5
 
 my @data = generate_baked_data();
-say @data;
+say @data1;
+say @data2;
+
+use Test;
+is-deeply @data1, @data2, "Testing that two identical backed data structures seem equal;
 
 sub generate_baked_data {
     my @data = 'a' xx 10;  ## note the raku xx operator for lists
