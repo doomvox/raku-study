@@ -34,3 +34,7 @@ my %j = <oo jj yy> Z=> 22 .. *;
 for %h, %g, %j -> %hh {
     %hh = Empty
 }
+
+say %h;
+say %g;
+say %j;
