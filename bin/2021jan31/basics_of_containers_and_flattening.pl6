@@ -42,3 +42,5 @@ say @a_of_a;
 
 my @copy_a = @a;
 say @copy_a; # [a a a]
+## The behavior of *single* assignments flattens/listifies,
+## but multiple ones don't.
