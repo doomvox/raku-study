@@ -29,4 +29,4 @@ put $newer.raku;
 
 my %h = @monsters;  # list of 6 elements
 say %h;  ## {garuda => blob, godzilla => tingler, golem => mothera}
-## that's remarkably p5ish behavior that I didn't expect.
+## that's remarkably p5ish behavior that I didn't expect
