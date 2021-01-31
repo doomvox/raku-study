@@ -17,12 +17,15 @@ my %g = <uo e ek > Z=> 10..*;
 # {e => 11, ek => 12, uo => 10}
 my %j = <oo jj yy> Z=> 22 .. *;
 # {jj => 23, oo => 22, yy => 24}
-for %h, %g, %j <-> %hh { %hh = Empty }
+for %h, %g, %j <-> %hh {
+    %hh = Empty
+}
 
 # CAUGHT: Parameter '%hh' expected a writable container, but got Hash value
 # CAUGHT: Parameter '%hh' expected a writable container, but got Hash value
 # CAUGHT: Parameter '%hh' expected a writable container, but got Hash value
 
+## Richard saw this in 
 # Parameter '%hh' expects a writable container (variable) as an argument,
 # but got '{a => 1, c => 3, v => 2}' (Hash) as a value without a
 # container.
