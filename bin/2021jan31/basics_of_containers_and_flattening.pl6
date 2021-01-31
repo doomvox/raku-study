@@ -44,7 +44,10 @@ my ($one, $two, $three) = @monsters;
 say "one: $one";
 say "two: $two";
 say :$three;
+# CAUGHT: Unexpected named argument 'three' passed
+# This exception is not resumable
 
+say [:$three];
 
 exit;
 
