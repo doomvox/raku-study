@@ -7,4 +7,19 @@ use v6;
 ## Make errors into warnings
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
+## bruce gray idea
 for %!hash1, %!hash2, %!hash3 <-> %h { %h = Empty }
+
+## richard hainsworth:
+my %h = <a v c> Z=> 1..*
+# {a => 1, c => 3, v => 2}
+my %g = <uo e ek > Z=> 10..*
+# {e => 11, ek => 12, uo => 10}
+my %j = <oo jj yy> Z=> 22 .. *
+# {jj => 23, oo => 22, yy => 24}
+for %h, %g, %j <-> %hh { %hh = Empty }
+
+# Parameter '%hh' expects a writable container (variable) as an argument,
+# but got '{a => 1, c => 3, v => 2}' (Hash) as a value without a
+# container.
+# in block <unit> at <unknown file> line 4 
