@@ -29,11 +29,11 @@ use v6;
 
     # [[godzilla grendel wormface blob fingfangfoom tingler]]
 
-Yary Hluchan pointed out that I could slip it out, and get what
-I wanted:
+# Yary Hluchan pointed out that I could slip it out, and get what
+# I wanted:
 
-    my @m = | %stash{'monsters'};
-    say @m;
+    my @m2 = | %stash{'monsters'};
+    say @m2;
     # [godzilla grendel wormface blob fingfangfoom tingler]
 
 Though for what I'm doing now, I think it might be better to
