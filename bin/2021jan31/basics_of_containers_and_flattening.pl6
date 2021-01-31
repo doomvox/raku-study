@@ -156,9 +156,9 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
 
 {
     say "===";
-    my %h = { a => 1, b => 2, c => 3 };
+    my %h = ( a => 1, b => 2, c => 3 );
     say %h; # {a => 1, b => 2, c => 3}
-    my %misc = { hm => 0, ho => 0, heh => 0 };
+    my %misc = ( hm => 0, ho => 0, heh => 0 );
 
     my %another_misc = %misc;
     say %another_misc;
