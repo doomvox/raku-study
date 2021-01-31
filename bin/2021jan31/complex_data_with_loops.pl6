@@ -17,4 +17,7 @@ my $str = @monsters[0];
 @data[3] := $str;
 @data[4] := $str;
 
-say @data.map({.gist}).join('  ');
+say @data;
+# say @data.map({.gist}).join('  ');
+
+
