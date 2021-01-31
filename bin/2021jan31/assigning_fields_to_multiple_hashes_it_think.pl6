@@ -41,7 +41,10 @@ say %j; # {}
 
 # bruce gray points out this fails:
 for %h, %g, %j <-> %hh { say %hh }; 
+## CAUGHT: Parameter '%hh' expected a writable container, but got Hash value
 
-# Died with X::Parameter::RW
-# in block <unit> at <unknown file> line 1
+# It's telling you you're trying to make something rw that's *already* rw.
+# which is, like, not intuitive.  If you're talking DWIM, it's clear what you mean.
 
+# Still: interesting point that if you're passing containers, you've got rw
+# by definition, so looping over hashes like this, you've got rw.
