@@ -11,7 +11,7 @@
 **** also twigils
 *** regexes and grammars again
 **** get a handle on basics
-***** Note: initial grammar example in docs is too complex.
+***** Note: initial grammar example in docs is too complex. (grammar tutorial page is better)
 ***** Follow Moritz Lenz?
 **** simple parsing job: doomfiles
 *** regexes
@@ -19,4 +19,6 @@
 **** play with %
 *** string interpolation: "\s" is an error.  
 Should it be " "? Note that "\n" and "\t" work.
- 
+*** Richard Hainsworth (finanalyst): "The repeated code is irritating me."
+https://github.com/doomvox/raku-study/commit/891a2e1b643b3c56f86d44ce91c5016e065c06c3
+
