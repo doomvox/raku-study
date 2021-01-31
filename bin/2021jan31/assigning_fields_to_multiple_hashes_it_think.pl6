@@ -51,4 +51,4 @@ for %h, %g, %j <-> %hh { say %hh };
 # Still: interesting point that if you're passing containers, you've got rw
 # by definition, so looping over hashes like this, you've got rw.
 
-
+# Interesting there's yet another bit of weirdness connected to containers.
