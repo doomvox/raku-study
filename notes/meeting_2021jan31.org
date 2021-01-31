@@ -67,6 +67,12 @@ detecting loops in the general case is ~impossible (halting problem).
 https://stackoverflow.com/questions/261573/best-algorithm-for-detecting-cycles-in-a-directed-graph
 https://en.wikipedia.org/wiki/Tarjan%E2%80%99s_strongly_connected_components_algorithm
 
+**** bruce gray
+https://docs.raku.org/routine/WHERE 
+*not* a silver bullet, though. 
+https://metacpan.org/pod/circular::require 
+https://perldoc.perl.org/B::Xref 
+
 *** Raku phasers
 CATCH/CONTROL
 
