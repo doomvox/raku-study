@@ -64,6 +64,7 @@ Perl5 module: Test::Differences eq_or_diff
 Richard Hainsworth: find strongly connected regions, because 
 detecting loops in the general case is ~impossible (halting problem).
 
+https://stackoverflow.com/questions/261573/best-algorithm-for-detecting-cycles-in-a-directed-graph
 https://en.wikipedia.org/wiki/Tarjan%E2%80%99s_strongly_connected_components_algorithm
 
 *** Raku phasers
