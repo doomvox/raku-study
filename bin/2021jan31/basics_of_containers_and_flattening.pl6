@@ -92,3 +92,6 @@ say %summary{'effects_cost'}{'garuda'};  ## 8
 
 my %alternate_summary = :%threat_lev , :%effects_cost;
 dd %alternate_summary;
+# Hash %alternate_summary = {:effects_cost(${:blob(2), :garuda(8), :godzilla(6), :golem(1), :mothera(6), :tingler(3)}), :threat_lev(${:blob(3), :garuda(6), :godzilla(8), :golem(2), :mothera(5), :tingler(3)})}
+
+say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
