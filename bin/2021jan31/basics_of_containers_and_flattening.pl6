@@ -16,6 +16,15 @@ say $not_an_array_or_is_it[3];   # mothera
 $not_an_array_or_is_it[3] = 'doris_day';
 say $not_an_array_or_is_it[3];   # doris_day
 say $not_an_array_or_is_it.WHAT; # (Array)
+say $not_an_array_or_is_it;
+
+
+my $alpha = 'alpha';
+my $beta = 'beta';
+my $gamma = 'gamma';
+
+# my $scalar_array_kind_of = 
+
 
 exit;
 
