@@ -163,6 +163,6 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
 
     say %h_ola;
 
-    my $thing = $h{'misc'};
+    my $thing = $h_ola{'misc'};
     say $thing;
 }
