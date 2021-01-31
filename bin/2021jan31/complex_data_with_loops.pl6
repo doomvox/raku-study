@@ -24,6 +24,8 @@ say @data;
 say @data; 
 # [a a a alfred alfred a a a a a]
 
+## We can bind an element in the array to another element, 
+## sharing container now, can change it on either end.
 @data[6] := @data[7];
 say @data;
 # [a a a alfred alfred a a a a a]
@@ -36,3 +38,4 @@ say @data;
 @data[7] = 'ho?';
 say @data;
 # [a a a alfred alfred a ho? ho? a a]
+
