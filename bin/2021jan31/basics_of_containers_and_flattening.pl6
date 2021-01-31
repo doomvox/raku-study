@@ -22,12 +22,13 @@ say $not_an_array_or_is_it;
 my $list = ('alpha', 'beta', 'gamma');
 say $list.WHAT; # (List)
 $list[1] = 'hey there';
+## CAUGHT: Cannot modify an immutable List ((alpha beta gamma))
 
 my $alpha = 'alpha';
 my $beta = 'beta';
 my $gamma = 'gamma';
 
-# my $scalar_array_kind_of = 
+my $scalar_array_kind_of = $alpha, $beta, $gamma;
 
 
 exit;
