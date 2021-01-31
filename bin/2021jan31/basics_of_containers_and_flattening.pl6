@@ -17,7 +17,10 @@ $not_an_array_or_is_it[3] = 'doris_day';
 say $not_an_array_or_is_it[3];   # doris_day
 say $not_an_array_or_is_it.WHAT; # (Array)
 say $not_an_array_or_is_it;
+# [garuda blob golem doris_day godzilla tingler]
 
+my $list = ('alpha', 'beta', 'gamma');
+say $list.WHAT;
 
 my $alpha = 'alpha';
 my $beta = 'beta';
