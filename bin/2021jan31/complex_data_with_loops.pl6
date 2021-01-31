@@ -50,3 +50,5 @@ say @data;
 # I tire of 'ho?'
 @data[7] = 'the_peanuts';
 say @data;
+
+@subdata[2] := @data;
