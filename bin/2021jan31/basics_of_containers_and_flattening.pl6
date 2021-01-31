@@ -19,3 +19,5 @@ my $new = @monsters;
 say $new;
 my $newer = $new;
 say $newer;
+
+dd $newer;
