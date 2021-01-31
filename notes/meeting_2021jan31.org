@@ -3,6 +3,8 @@
 *** hello, welcome (pretend you're a warm human being)
 *** announcements  
 **** svperl on regexes: https://www.meetup.com/SVPerl/events/fftdcsyccdbgb/
+planning on following with a pack/unpack talk 
+(what would Raku equivalent be?)
 *** invite suggested topics
 *** work on topics
 *** today's code examples:
