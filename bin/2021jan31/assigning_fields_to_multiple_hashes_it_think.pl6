@@ -35,6 +35,14 @@ for %h, %g, %j -> %hh {
     %hh = Empty
 }
 
-say %h;
-say %g;
-say %j;
+say %h; # {}
+say %g; # {}
+say %j; # {}
+
+# bruce gray points out this fails:
+for %h, %g, %j <-> %hh {
+    %hh = Empty;
+}
+# Died with X::Parameter::RW
+# in block <unit> at <unknown file> line 1
+
