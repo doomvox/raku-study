@@ -9,7 +9,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 my @monsters = < godzilla mothera ghidora gammera golem rhodan >;  # 0..5
 
-my @data = 'a' xx 10;
+my @data = 'a' xx 10;  ## note the raku xx operator for lists
 say @data; # [a a a a a a a a a a]
 
 
