@@ -30,3 +30,11 @@ put $newer.raku;
 my %h = @monsters;  # list of 6 elements
 say %h;  ## {garuda => blob, godzilla => tingler, golem => mothera}
 ## that's remarkably p5ish behavior that I didn't expect
+
+
+my @a = <a a a>;
+my @b = <b b b>;
+my @c = <c c c>;
+
+my @a_of_a = @a, @b, @c;
+say @a_of_a;
