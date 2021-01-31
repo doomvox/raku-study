@@ -7,7 +7,7 @@ use v6;
 ## Make errors into warnings
 #### CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-my @monsters = < garuda blob golem mothera godzilla tingler >;
+my @monsters = < garuda blob golem mothera godzilla tingler the_jangler>;
 
 my $not_an_array_or_is_it = @monsters;
 say $not_an_array_or_is_it;  #  [garuda blob golem mothera godzilla tingler]
