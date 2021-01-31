@@ -56,11 +56,6 @@ say [:$one,  :$two,  :$three];
 
 exit;
 
-# my ( $new ) =  @monsters;
-
-
-
-
 my @new = @monsters;
 say @new;  # [garuda blob golem mothera godzilla tingler]
 
