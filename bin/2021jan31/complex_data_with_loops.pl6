@@ -20,19 +20,19 @@ my $str = @monsters[0];
 
 say @data; 
 # [a a a godzilla godzilla a a a a a]
-@data[4] = 'herman';
+@data[4] = 'alfred';
 say @data; 
-# [a a a herman herman a a a a a]
+# [a a a alfred alfred a a a a a]
 
 @data[6] := @data[7];
 say @data;
-# [a a a herman herman a a a a a]
+# [a a a alfred alfred a a a a a]
 @data[7] = 'doris_day';
 say @data;
-# [a a a herman herman a doris_day doris_day a a]
+# [a a a alfred alfred a doris_day doris_day a a]
 @data[6] = 'hm';
 say @data;
-# [a a a herman herman a hm hm a a]
+# [a a a alfred alfred a hm hm a a]
 @data[7] = 'ho?';
 say @data;
-# [a a a herman herman a ho? ho? a a]
+# [a a a alfred alfred a ho? ho? a a]
