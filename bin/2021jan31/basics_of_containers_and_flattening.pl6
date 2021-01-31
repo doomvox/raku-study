@@ -25,3 +25,6 @@ dd $newer;
 
 put $newer.raku
 ## $["garuda", "blob", "golem", "mothera", "godzilla", "tingler"]
+
+
+my %h = @monsters;
