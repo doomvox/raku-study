@@ -60,6 +60,11 @@ for @monsters -> $one, $two, $three {
 # [one => garuda two => blob three => golem]
 # [one => doris_day two => godzilla three => tingler]
 
+{ my @monsters = < garuda blob golem mothera godzilla tingler jingle jangle jongle juggler>;
+
+
+
+
 exit;
 
 my @new = @monsters;
