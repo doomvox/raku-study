@@ -46,3 +46,11 @@ Lambert needed one hour for this question.
 
 Hint: split with empty field will break a string into individual char
 
+*** queue, thread safe, existing module (p5) close queue with undef value
+awkward with multiple readers/writers (?)
+create queue handle, open send/receive handles
+recursive data structure
+loop detection
+comparison of recursives
+walking recursives in parallel
+reduce: work on a data structure rather than a list
