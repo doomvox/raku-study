@@ -26,7 +26,6 @@ dd $newer;
 put $newer.raku;
 ## $["garuda", "blob", "golem", "mothera", "godzilla", "tingler"]
 
-
 my %h = @monsters;  # list of 6 elements
 say %h;  ## {garuda => blob, godzilla => tingler, golem => mothera}
 ## that's remarkably p5ish behavior that I didn't expect
@@ -46,3 +45,18 @@ my @copy_a = @a;
 say @copy_a; # [a a a]
 ## The behavior of *single* assignments flattens/listifies,
 ## but multiple ones don't.
+
+
+### 
+
+my %threat_lev = (
+    garuda   => 6,
+    blob     => 3,
+    golem    => 2,
+    mothera  => 5,
+    godzilla => 8,
+    tingler  => 3,
+);
+
+
+my %new = %threat_lev;
