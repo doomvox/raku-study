@@ -14,7 +14,7 @@ say @data1;
 say @data2;
 
 use Test;
-is-deeply @data1, @data2, "Testing that two identical backed data structures seem equal;
+is-deeply @data1, @data2, "Testing that two identical backed data structures look same to is-deeply";
 
 sub generate_baked_data {
     my @data = 'a' xx 10;  ## note the raku xx operator for lists
