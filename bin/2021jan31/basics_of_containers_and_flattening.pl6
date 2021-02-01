@@ -176,6 +176,7 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
     ## and hashes need pairs.  Like this, maybe:
     my %weird{Any} = (%h{'misc'} => 1);
     say "OOO: ", %weird;
+    # OOO: {{heh => 0, hm => 0, ho => 0} => 1}
 
     my %h2 = %h{'misc'};
     say %h2;
