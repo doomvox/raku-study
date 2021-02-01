@@ -20,9 +20,8 @@ $supply.tap( &say ); # OUTPUT: «c␤d␤e␤a␤b␤»
 multi sub    rotate(@list,  Int:D $n = 1 --> Seq:D)
 multi method rotate(List:D: Int:D $n = 1 --> Seq:D)
 
-Returns a Seq with the list elements rotated to the left when $n is positive or to the right otherwise.
-
-Examples:
+# Returns a Seq with the list elements rotated to the left when $n is positive or to the right otherwise.
+# Examples:
 
 say <a b c d e>.rotate(2);   # OUTPUT: (c d e a b) 
 say <a b c d e>.rotate(-1);  # OUTPUT: (e a b c d)
