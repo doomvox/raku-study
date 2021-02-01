@@ -183,6 +183,10 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
     say %h2;
     # {heh => 0, hm => 0, ho => 0}
 
+    # possible, needs the parens though
+    ## my %h2 = %h{ misc() };
+
+
 # Note, could do this:
 #    my %h2 = %h<misc>;
 
