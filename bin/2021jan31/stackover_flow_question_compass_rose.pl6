@@ -8,7 +8,7 @@ use v6;
 
 my @cardinal = <a b c d>;
 
-my @doom_rot = @cardinal[1.. *-1, 0];
+my @doom_rot = @cardinal[1 .. *-1, 0];
 say "dr: ", @doom_rot;            # dr: [(b c d) a]
 my @doom_flat_rot = @cardinal[1..*-1,0].flat;
 say "dfr: ", @doom_flat_rot;     # dfr: [b c d a]
