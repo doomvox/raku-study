@@ -18,7 +18,8 @@ my $last = @c.pop;
 my @d    = @c.unshift($last);
 say "d: ", @d;  #  [d a b c]
 
-my @d2 = @cardinal.unshift(@cardinal.pop);
+@c    = @cardinal;
+my @d2 = @c.unshift(@c.pop);
 say "d2: ", @d2;
 
 
