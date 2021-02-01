@@ -13,8 +13,8 @@ my @post_half = ( @intercard Z @cardinal[1..*-1,0].flat )>>.join;
 my @half = ( ( @cardinal Z @intercard ).flat Z ( [Z] @pre_half, @post_half ).flat ).flat;
 say @half;
 
-@half .= map( *.trans("abcd" => "NESW") );
-@half .= map( { S:g/ <((NE|ES|SW|WN)<same>(.))>$ /$1$0/} );
+@half .= map( *.trans( "abcd" => "NESW" ) );
+@half .= map( { S:g/ < ( (NE|ES|SW|WN)<same>(.) ) >$ /$1$0/} );
 @half .= map( *.subst(:g, "ES","SE") );
 @half .= map( *.subst(:g, "WN","NW") );
 say @half;
