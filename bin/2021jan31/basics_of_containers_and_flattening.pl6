@@ -168,11 +168,14 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
     say %h;
     # {a => 1, b => 2, c => 3, misc => {heh => 0, hm => 0, ho => 0}}
 
-##    my %weird{Any} = (%h{'misc'} => 1);
-
     my $thing = %h{'misc'};
     say $thing;
     # {heh => 0, hm => 0, ho => 0}
+
+    ## Aside, I actually thought that's throw an error because I was assigning one thing 
+    ## and hashes need pairs.  Like this, maybe:
+    my %weird{Any} = (%h{'misc'} => 1);
+
 
     my %h2 = %h{'misc'};
     say %h2;
