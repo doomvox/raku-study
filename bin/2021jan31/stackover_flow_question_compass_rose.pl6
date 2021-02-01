@@ -13,9 +13,9 @@ say "dr: ", @doom_rot;            # dr: [(b c d) a]
 my @doom_flat_rot = @cardinal[1..*-1,0].flat;
 say "dfr: ", @doom_flat_rot;     # dfr: [b c d a]
 
-my @c = @cardinal;
+my @c    = @cardinal;
 my $last = @cardinal.pop;
-my @d = @cardinal.unshift($last);
+my @d    = @cardinal.unshift($last);
 
 my @doom_introspection = @cardinal Z @cardinal[1..*-1,0].flat;
 say @doom_introspection; # [(a b) (b c) (c d) (d a)]
