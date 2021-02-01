@@ -13,7 +13,8 @@ https://github.com/doomvox/raku-study/blob/main/bin/richard_hainsworth_role_clas
 
 ** possible topics
 *** Q: somewhere in the docs there's a good simple grammar example parsing ini-style format data
-
+richard found this in regexs:
+https://docs.raku.org/language/regexes#Subrules
 
 *** sigils in raku: you can stash anything in a $ so what does it mean?
 **** related to "containers"?
@@ -78,3 +79,7 @@ https://perldoc.perl.org/B::Xref
 *** Raku phasers
 CATCH/CONTROL
 
+
+
+*** William Michels answer on stacko
+https://stackoverflow.com/questions/65853009/is-there-a-programmatic-way-to-elaborate-the-half-winds-in-raku/65878823#65878823
