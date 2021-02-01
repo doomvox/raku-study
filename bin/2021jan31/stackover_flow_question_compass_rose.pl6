@@ -36,6 +36,7 @@ say "d4: ", @d4;  # d4:
 my @doom_introspection = @cardinal Z @cardinal[1..*-1,0].flat;
 say @doom_introspection; # [(a b) (b c) (c d) (d a)]
 
+## using rotate to rotate
 # my @intercard = ( (@cardinal Z @cardinal[1..*-1,0].flat )>>.join ); #between cardinal
 my @intercard = ( (@cardinal Z @cardinal.rotate(-1) )>>.join ); #between cardinal
 
