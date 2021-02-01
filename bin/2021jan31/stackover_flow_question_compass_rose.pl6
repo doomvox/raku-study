@@ -9,7 +9,7 @@ use v6;
 my @cardinal = <a b c d>;
 
 my @doom_introspection = @cardinal Z @cardinal[1..*-1,0].flat;
-
+say @doom_introspection;
 
 my @intercard = ( (@cardinal Z @cardinal[1..*-1,0].flat )>>.join ); #between cardinal
 my @pre_half  = ( (@cardinal Z @intercard)>>.join ).flat;
