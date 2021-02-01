@@ -79,8 +79,6 @@ https://perldoc.perl.org/B::Xref
 *** Raku phasers
 CATCH/CONTROL
 
-
-
 *** William Michels answer on stacko
 https://stackoverflow.com/questions/65853009/is-there-a-programmatic-way-to-elaborate-the-half-winds-in-raku/65878823#65878823
 
