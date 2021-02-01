@@ -17,9 +17,6 @@ $supply.tap( &say ); # OUTPUT: «c␤d␤e␤a␤b␤»
 
 # Using rotate with lists:
 
-multi sub    rotate(@list,  Int:D $n = 1 --> Seq:D)
-multi method rotate(List:D: Int:D $n = 1 --> Seq:D)
-
 # Returns a Seq with the list elements rotated to the left when $n is positive or to the right otherwise.
 # Examples:
 
