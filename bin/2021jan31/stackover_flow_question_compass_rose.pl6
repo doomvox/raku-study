@@ -9,7 +9,9 @@ use v6;
 my @cardinal = <a b c d>;
 
 my @doom_rot = @cardinal[1..*-1,0];
-say "dr: ", @doom_rot;
+say "dr: ", @doom_rot; # dr: [(b c d) a]
+my @doom_flat_rot = @cardinal[1..*-1,0].flat;
+
 my @doom_introspection = @cardinal Z @cardinal[1..*-1,0].flat;
 say @doom_introspection; # [(a b) (b c) (c d) (d a)]
 
