@@ -5,10 +5,24 @@
 use v6;
 
 ## https://docs.raku.org/routine/rotate
-# available since 2020.06 (I'm still on 2020.05):
 
+# Using it with Supply:
+# available since 2020.06 (I'm still on 2020.05):
 my $supply = Supply.from-list( <a b c d e> ).rotate( 2 );
 $supply.tap( &say ); # OUTPUT: «c␤d␤e␤a␤b␤»
 
 # 2020.05:
 #  No such method 'rotate' for invocant of type 'Supply'
+
+
+# Using rotate with lists:
+
+multi sub    rotate(@list,  Int:D $n = 1 --> Seq:D)
+multi method rotate(List:D: Int:D $n = 1 --> Seq:D)
+
+Returns a Seq with the list elements rotated to the left when $n is positive or to the right otherwise.
+
+Examples:
+
+say <a b c d e>.rotate(2);   # OUTPUT: (c d e a b) 
+say <a b c d e>.rotate(-1);  # OUTPUT: (e a b c d)
