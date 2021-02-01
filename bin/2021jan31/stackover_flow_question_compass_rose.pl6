@@ -26,6 +26,11 @@ say "d2: ", @d2;
 my @d3 = .unshift(.pop) with @c;
 say "d3: ", @d3;  # d3: [d a b c]
 
+@c    = @cardinal;
+my @d4 = @c.rotate(1);
+say "d4: ", @d4;  # d3: [d a b c]
+
+
 
 my @doom_introspection = @cardinal Z @cardinal[1..*-1,0].flat;
 say @doom_introspection; # [(a b) (b c) (c d) (d a)]
