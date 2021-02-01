@@ -60,9 +60,9 @@ say @half;
 
 say '---';
 say flat <N E S W N>.rotor(2 => -1).map: { (.[[0,], [0,0,1], [0,1], [1,0,1]])>>.join };
-# 
+# bruce gray result:
 # (N NNE NE ENE E EES ES SES S SSW SW WSW W WWN WN NWN)
-#
+# compared to Bill's:
 # [N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW]
 #                 ^^^ ^^ ^^^                ^^^ ^^ ^^^
 
