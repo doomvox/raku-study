@@ -14,8 +14,8 @@ my @doom_flat_rot = @cardinal[1..*-1,0].flat;
 say "dfr: ", @doom_flat_rot;     # dfr: [b c d a]
 
 my @c    = @cardinal;
-my $last = @cardinal.pop;
-my @d    = @cardinal.unshift($last);
+my $last = @c.pop;
+my @d    = @c.unshift($last);
 say "d: ", @d;  #  [d a b c]
 
 my @d2 = @cardinal.unshift(@cardinal.pop);
