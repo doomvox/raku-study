@@ -181,6 +181,10 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
     my %h2 = %h{'misc'};
     say %h2;
     # {heh => 0, hm => 0, ho => 0}
+
+# Note, could do this:
+#    my %h2 = %h<misc>;
+
     
     my @a2 = %h{'misc'};
     say @a2;
