@@ -26,6 +26,7 @@ say "d2: ", @d2;
 my @d3 = .unshift(.pop) with @c;
 say "d3: ", @d3;  # d3: [d a b c]
 
+
 my @doom_introspection = @cardinal Z @cardinal[1..*-1,0].flat;
 say @doom_introspection; # [(a b) (b c) (c d) (d a)]
 
@@ -44,5 +45,6 @@ say @half;
 # [N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW]
 
 
-
+# Bruce Gray stab at it:
+#  raku -e 'say flat <N E S W N>.rotor(2 => -1).map: { (.[[0,], [0,0,1], [0,1], [1,0,1]])>>.join };' 
 
