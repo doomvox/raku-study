@@ -83,3 +83,8 @@ CATCH/CONTROL
 
 *** William Michels answer on stacko
 https://stackoverflow.com/questions/65853009/is-there-a-programmatic-way-to-elaborate-the-half-winds-in-raku/65878823#65878823
+
+** stuff
+*** alan question, in pod6 if you "=begin blah" is blah arbitrary, or are they special values?
+https://docs.raku.org/language/pod
+**** It seems that it's arbitrary, but *some* values are special, such as 'comment'. 
