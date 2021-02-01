@@ -8,8 +8,10 @@ use v6;
 
 my @cardinal = <a b c d>;
 
+my @doom_rot = @cardinal[1..*-1,0];
+say @doom_rot;
 my @doom_introspection = @cardinal Z @cardinal[1..*-1,0].flat;
-say @doom_introspection;
+say @doom_introspection; # [(a b) (b c) (c d) (d a)]
 
 my @intercard = ( (@cardinal Z @cardinal[1..*-1,0].flat )>>.join ); #between cardinal
 my @pre_half  = ( (@cardinal Z @intercard)>>.join ).flat;
