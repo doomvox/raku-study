@@ -24,7 +24,7 @@ say "d2: ", @d2;
 
 @c    = @cardinal;
 my @d3 = .unshift(.pop) with @c;
-say "d3: ", @d3;
+say "d3: ", @d3;  # d3: [d a b c]
 
 
 
