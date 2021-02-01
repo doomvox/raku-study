@@ -45,6 +45,12 @@ say @half;
 # [N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW]
 
 
-# Bruce Gray stab at it:
+# Bruce Gray stab at it (ordering a little off):
 #  raku -e 'say flat <N E S W N>.rotor(2 => -1).map: { (.[[0,], [0,0,1], [0,1], [1,0,1]])>>.join };' 
 
+say flat <N E S W N>.rotor(2 => -1).map: { (.[[0,], [0,0,1], [0,1], [1,0,1]])>>.join };
+# 
+# (N NNE NE ENE E EES ES SES S SSW SW WSW W WWN WN NWN)
+
+# [N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW]
+#                 ^^^ ^^ ^^^                ^^^ ^^ ^^^
