@@ -18,6 +18,9 @@ my $last = @cardinal.pop;
 my @d    = @cardinal.unshift($last);
 say "d: ", @d;  #  [d a b c]
 
+my @d2 = @cardinal.unshift(@cardinal.pop);
+say "d2: ", @d2;
+
 my @doom_introspection = @cardinal Z @cardinal[1..*-1,0].flat;
 say @doom_introspection; # [(a b) (b c) (c d) (d a)]
 
