@@ -23,7 +23,7 @@ my @d2 = @c.unshift(@c.pop);
 say "d2: ", @d2;
 
 @c    = @cardinal;
-my @d3 = .unshift(.pop) for (@c);
+my @d3 = .unshift(.pop) with @c;
 say "d3: ", @d3;
 
 
