@@ -19,3 +19,6 @@ say @half;
 @half .= map( *.subst(:g, "WN","NW") );
 say @half;
 
+
+
+
