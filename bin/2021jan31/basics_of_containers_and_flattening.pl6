@@ -168,6 +168,8 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
     say %h;
     # {a => 1, b => 2, c => 3, misc => {heh => 0, hm => 0, ho => 0}}
 
+##    my %weird{Any} = (%h{'misc'} => 1);
+
     my $thing = %h{'misc'};
     say $thing;
     # {heh => 0, hm => 0, ho => 0}
@@ -183,6 +185,9 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
     ## so, we get a different context with %h2 line and @a2
     ## hash context vs list context
     ## hash context decontainerizes, list doesn't (?)
+    ## arguably, because the hash case makes no sense otherwise
 
     say "MEEP";  
 }
+
+
