@@ -40,7 +40,7 @@ my @intercard = ( (@cardinal Z @cardinal.rotate(-1) )>>.join ); #between cardina
 
 my @pre_half  = ( (@cardinal Z @intercard)>>.join ).flat;
 # my @post_half = ( @intercard Z @cardinal[1..*-1,0].flat )>>.join;
-my @post_half = ( @intercard Z @cardinal.rotate(-1); )>>.join;
+my @post_half = ( @intercard Z @cardinal.rotate(-1) )>>.join;
 my @half = ( ( @cardinal Z @intercard ).flat Z ( [Z] @pre_half, @post_half ).flat ).flat;
 say @half;
 # [a aab ab abb b bbc bc bcc c ccd cd cdd d dda da daa]
