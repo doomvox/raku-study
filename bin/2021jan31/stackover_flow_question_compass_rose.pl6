@@ -14,7 +14,7 @@ my @half = ( ( @cardinal Z @intercard ).flat Z ( [Z] @pre_half, @post_half ).fla
 say @half;
 
 @half .= map( *.trans( "abcd" => "NESW" ) );
-@half .= map( { S:g/ < ( (NE|ES|SW|WN)<same>(.) ) >$ /$1$0/} );
+@half .= map( { S:g/ < ( (NE|ES|SW|WN)<same>(.) )>$ /$1$0/} );
 @half .= map( *.subst(:g, "ES","SE") );
 @half .= map( *.subst(:g, "WN","NW") );
 say @half;
