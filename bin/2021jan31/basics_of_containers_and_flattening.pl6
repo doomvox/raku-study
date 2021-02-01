@@ -175,7 +175,8 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
     ## Aside, I actually thought that's throw an error because I was assigning one thing 
     ## and hashes need pairs.  Like this, maybe:
     my %weird{Any} = (%h{'misc'} => 1);
-    say %weird;
+    say "OOO: ", %weird;
+
 
 
     my %h2 = %h{'misc'};
