@@ -88,7 +88,7 @@ https://stackoverflow.com/questions/65853009/is-there-a-programmatic-way-to-elab
 *** alan question, in pod6 if you "=begin blah" is blah arbitrary, or are they special values?
 https://docs.raku.org/language/pod
 **** It seems that it's arbitrary, but *some* values are special, such as 'comment'.
-*** source code for docs is in pod, e.g.
+*** source code for docs is in pod, e.g. :
 https://github.com/Raku/doc/blob/master/doc/Language/control.pod6
 In depth docs:
 https://docs.raku.org/language/pod#Block_structure 
