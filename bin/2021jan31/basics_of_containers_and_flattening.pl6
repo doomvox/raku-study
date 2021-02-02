@@ -40,7 +40,7 @@ my $scalar_array_kind_of = $alpha, $beta, $gamma;  ## completely ignores these: 
 # Useless use of $gamma in sink context (line 31)
 ##
 # Note: compiler warnings are effectively hidden away at the top 
-# of the output-- they can pop up by surprised while you're focused
+# of the output-- they can pop up by surprise while you're focused
 # on the bottom where the action normally is.
 
 say $scalar_array_kind_of.WHAT;  # (Str)
