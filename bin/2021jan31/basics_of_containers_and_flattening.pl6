@@ -62,7 +62,7 @@ say "three: $three";  # three: golem
 #   CAUGHT: Unexpected named argument 'three' passed
 #   This exception is not resumable
 
-## This does work, FWIW
+## This *does* work, FWIW
 say [:$three];   # [three => golem]
 ## dd is eaisier, even less typing, and more info:
 dd $three; # Str $three = "golem"
