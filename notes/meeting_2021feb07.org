@@ -6,3 +6,8 @@
 *** work on topics
 *** today's code examples:
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
+
+** possible topics
+*** grammar parsing examples
+**** handling ini-style data
+https://docs.raku.org/language/regexes#Subrules
