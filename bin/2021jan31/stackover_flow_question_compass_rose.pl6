@@ -71,3 +71,7 @@ say flat <N E S W N>.rotor(2 => -1).map: { (.[[0,], [0,0,1], [0,1], [1,0,1]])>>.
 
 say flat <N NE E SE S SW W NW N>.rotor(3 => -1).map: { (.[[0,], [0,1], [1,], [2,1] ])>>.join };
 # (N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW)
+
+
+## Joseph Brenner: the rules about how the directions should
+## be ordered suggests to me we want customized sort behavior...
