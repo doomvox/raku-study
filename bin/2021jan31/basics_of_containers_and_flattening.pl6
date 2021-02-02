@@ -35,6 +35,9 @@ my $beta = 'beta';
 my $gamma = 'gamma';
 
 my $scalar_array_kind_of = $alpha, $beta, $gamma;  ## completely ignores these: $beta, $gamma; 
+say $scalar_array_kind_of.WHAT;  # (Str)
+say $scalar_array_kind_of; # alpha
+
 # But there's compiler warnings at least:
 # Useless use of $beta in sink context (line 31)
 # Useless use of $gamma in sink context (line 31)
@@ -43,8 +46,6 @@ my $scalar_array_kind_of = $alpha, $beta, $gamma;  ## completely ignores these: 
 # of the output-- they can pop up by surprise while you're focused
 # on the bottom where the new action normally is.
 
-say $scalar_array_kind_of.WHAT;  # (Str)
-say $scalar_array_kind_of; # alpha
 
 my $array_kind_of_not_scalar_this_time_i_hope = ($alpha, $beta, $gamma);
 say $array_kind_of_not_scalar_this_time_i_hope; # (alpha beta gamma)
