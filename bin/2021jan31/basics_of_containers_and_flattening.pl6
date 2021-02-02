@@ -80,7 +80,7 @@ for @monsters -> $one, $two, $three {
 }
 # [one => garuda two => blob three => golem]
 # [one => doris_day two => godzilla three => tingler]
-
+## Note there's six @monsters, even multiple of 3
 
 { ## some for loop tricks, ? for optional, ='' for empty string default
   my @monsters = < garuda blob golem mothera godzilla tingler jingle jangle jongle juggler>;
