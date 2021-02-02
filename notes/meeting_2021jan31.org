@@ -63,8 +63,8 @@ Hint: split with empty field will break a string into individual char
 **** reduce of complex data structures (not just a list)
 
 **** existing data structure comparison code
-Perl5 module: Test::Differences eq_or_diff
-
+***** Perl5 cpan module: Test::Differences eq_or_diff
+***** Raku Test has an is-deeply, but it presumes a DAG, loops cause it to hang
 
 **** tarjan algorithm 
 Richard Hainsworth: find strongly connected regions, because 
