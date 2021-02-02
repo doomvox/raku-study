@@ -18,7 +18,6 @@ use Test;
 is-deeply( @data1, @data2, "Testing that two identical baked data structures look same to is-deeply");
 ## hangs permanently
 
-
 sub generate_baked_data {
     my @data = 'a' xx 10;  ## note the raku xx operator for lists
 #    say @data; # [a a a a a a a a a a]
