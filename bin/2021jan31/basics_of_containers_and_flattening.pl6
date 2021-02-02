@@ -222,3 +222,8 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
 }
 
 
+## QUESTION: is this right?  I'm *still* having trouble with this:
+##
+## e.g. using "=", assigning an array to an array is different from 
+## assigning a hash to a hash: the array gets a new container
+## the hash just gets copied.
