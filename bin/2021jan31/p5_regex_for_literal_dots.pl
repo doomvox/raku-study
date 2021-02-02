@@ -20,8 +20,6 @@ since the . metachar normally matches both).
 
 =cut
 
-
-# use 5.10.0;
 use feature ":5.10.0";
 use warnings;
 use strict;
