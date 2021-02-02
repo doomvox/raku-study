@@ -6,7 +6,7 @@ use v6;
 
 ## https://docs.raku.org/routine/rotate
 #### This is a case where the sections of the docs were generated in
-#### a poor order, leading with "Supply" rather than "Lists".
+#### a poor order, leading with "Supply" rather than "Lists"
 
 # Using it with Supply:
 #   available since 2020.06 (but I'm still on 2020.05):
