@@ -128,7 +128,7 @@ say @copy_a; # [a a a]
 
 
 ### 
-
+## Two hashes with the same keys and different numeric values
 my %threat_lev = (
     garuda   => 6,
     blob     => 3,
