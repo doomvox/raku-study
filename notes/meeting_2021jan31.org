@@ -61,7 +61,10 @@ Hint: split with empty field will break a string into individual char
 **** loop detection in complex recursive data structures
 **** walking two data structures in parallel
 **** reduce of complex data structures (not just a list)
+
+**** existing data structure comparison code
 Perl5 module: Test::Differences eq_or_diff
+
 
 **** tarjan algorithm 
 Richard Hainsworth: find strongly connected regions, because 
