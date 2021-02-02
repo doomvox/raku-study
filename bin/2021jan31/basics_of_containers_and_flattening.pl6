@@ -60,8 +60,9 @@ say "two: $two";      # two: blob
 #   CAUGHT: Unexpected named argument 'three' passed
 #   This exception is not resumable
 
-## This does work, FWIW (dd is easier)
+## This does work, FWIW
 say [:$three];   # [three => golem]
+
 dd $three;
 
 say [:$one  :$two  :$three];   
