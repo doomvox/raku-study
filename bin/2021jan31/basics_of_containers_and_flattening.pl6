@@ -193,9 +193,10 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
 
     ## Aside, I actually thought that'd throw an error because I was assigning one thing 
     ## and hashes need pairs.  Like this, maybe:
+    ## This Any declaration let's you use arbitrary objects as keys
     my %weird{Any} = (%h{'misc'} => 1);
-    say "OOO: ", %weird;
-    # OOO: {{heh => 0, hm => 0, ho => 0} => 1}
+    say "ARB: ", %weird;
+    # ARB: {{heh => 0, hm => 0, ho => 0} => 1}
 
     my %h2 = %h{'misc'};
     say %h2;
