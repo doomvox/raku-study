@@ -191,7 +191,7 @@ say %alternate_summary{'effects_cost'}{'garuda'};  ## 8
     say $thing;
     # {heh => 0, hm => 0, ho => 0}
 
-    ## Aside, I actually thought that's throw an error because I was assigning one thing 
+    ## Aside, I actually thought that'd throw an error because I was assigning one thing 
     ## and hashes need pairs.  Like this, maybe:
     my %weird{Any} = (%h{'misc'} => 1);
     say "OOO: ", %weird;
