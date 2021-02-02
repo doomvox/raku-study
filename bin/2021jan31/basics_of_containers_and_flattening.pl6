@@ -62,8 +62,8 @@ say "two: $two";      # two: blob
 
 ## This does work, FWIW
 say [:$three];   # [three => golem]
-
-dd $three;
+## dd is eaisier, even less typing:
+dd $three; # Str $three = "golem"
 
 say [:$one  :$two  :$three];   
 # [one => garuda two => blob three => golem]
