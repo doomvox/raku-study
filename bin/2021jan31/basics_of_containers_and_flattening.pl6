@@ -41,7 +41,7 @@ my $scalar_array_kind_of = $alpha, $beta, $gamma;  ## completely ignores these: 
 ##
 # Note: compiler warnings are effectively hidden away at the top 
 # of the output-- they can pop up by surprise while you're focused
-# on the bottom where the action normally is.
+# on the bottom where the new action normally is.
 
 say $scalar_array_kind_of.WHAT;  # (Str)
 say $scalar_array_kind_of; # alpha
