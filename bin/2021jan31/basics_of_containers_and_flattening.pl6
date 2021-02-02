@@ -67,10 +67,12 @@ say [:$three];   # [three => golem]
 ## dd is eaisier, even less typing, and more info:
 dd $three; # Str $three = "golem"
 
-# reasonably neat, though:
+## reasonably neat.  looks odd without commas, but works:
 say [:$one  :$two  :$three];   
 # [one => garuda two => blob three => golem]
+## perhaps more normal, with commas:
 say [:$one,  :$two,  :$three];   
+# [one => garuda two => blob three => golem]
 
 for @monsters -> $one, $two, $three {
     say [:$one,  :$two,  :$three];   
