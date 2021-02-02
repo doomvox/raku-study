@@ -43,8 +43,6 @@ But somewhat strangely, that doesn't work, and this does:
 for %!hash1, %!hash2, %!hash3 -> %h { %h = Empty }
 #+END_SRC
 
-
-
 *** lambert lum: problem with recursive regexes* 
 
 43.[ interview question; very hard]
