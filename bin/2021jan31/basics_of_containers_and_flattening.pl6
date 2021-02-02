@@ -46,7 +46,6 @@ say $scalar_array_kind_of; # alpha
 # of the output-- they can pop up by surprise while you're focused
 # on the bottom where the new action normally is.
 
-
 my $array_kind_of_not_scalar_this_time_i_hope = ($alpha, $beta, $gamma);
 say $array_kind_of_not_scalar_this_time_i_hope; # (alpha beta gamma)
 say $array_kind_of_not_scalar_this_time_i_hope.WHAT; # (List)
