@@ -14,3 +14,4 @@ https://docs.raku.org/language/regexes#Subrules
 **** Moritz Lenz book
 *** Lambert Lum's balanced braces question
 *** raku "queues": 
+https://docs.raku.org/type/Supply
