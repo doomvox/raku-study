@@ -6,7 +6,7 @@
 ## puzzling with different types of variable assignment.
 ## e.g. using "=", assigning an array to an array is different from 
 ## assigning a hash to a hash: the array gets a new container
-## that hash just gets copied.
+## the hash just gets copied.
 
 use v6;
 
