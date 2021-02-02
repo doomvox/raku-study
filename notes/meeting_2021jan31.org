@@ -56,10 +56,11 @@ Lambert needed one hour for this question.
 
 Hint: split with empty field will break a string into individual char
 
-*** topic, david christensen, complex recursive data structures, loop detection,
-walking in parallel, reduce operations, etc.
-
-implement a thread safe queue with multiple readers and writers
+*** topic (david christensen): working with complex recursive data structures
+**** implement a thread safe queue with multiple readers and writers
+**** loop detection in complex recursive data structures
+**** walking two data structures in parallel
+**** reducing complex data structures
 
 queue, thread safe, existing module (p5) close queue with undef value
 awkward with multiple readers/writers (?)
