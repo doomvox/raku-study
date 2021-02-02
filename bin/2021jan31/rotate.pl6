@@ -7,7 +7,8 @@ use v6;
 ## https://docs.raku.org/routine/rotate
 
 # Using it with Supply:
-# available since 2020.06 (I'm still on 2020.05):
+#   available since 2020.06 (but I'm still on 2020.05):
+
 # my $supply = Supply.from-list( <a b c d e> ).rotate( 2 );
 # $supply.tap( &say ); # OUTPUT: «c␤d␤e␤a␤b␤»
 
