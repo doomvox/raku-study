@@ -2,6 +2,9 @@
 # 
 # complex_data_with_loops.pl6            31 Jan 2021 
 
+# Verifying again that is-deeply hangs when run on data structures 
+# with loops in them.
+
 use v6;
 
 ## Make errors into warnings
