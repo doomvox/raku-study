@@ -33,10 +33,17 @@ Should it be " "? Note that "\n" and "\t" work.
 *** Code by Richard Hainsworth (finanalyst): "The repeated code is irritating me."
 https://github.com/doomvox/raku-study/commit/891a2e1b643b3c56f86d44ce91c5016e065c06c3
 
-**** bruce gray suggestion
+**** ways of clearing hash fields.  A bruce gray suggestion:
 #+BEGIN_SRC perl6-mode
 for %!hash1, %!hash2, %!hash3 <-> %h { %h = Empty }
 #+END_SRC
+
+But somewhat strangely, that doesn't work, and this does:
+#+BEGIN_SRC perl6-mode
+for %!hash1, %!hash2, %!hash3 -> %h { %h = Empty }
+#+END_SRC
+
+
 
 *** lambert lum: problem with recursive regexes* 
 
