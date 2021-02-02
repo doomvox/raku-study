@@ -82,7 +82,7 @@ for @monsters -> $one, $two, $three {
 # [one => doris_day two => godzilla three => tingler]
 ## Note there's six @monsters, even multiple of 3
 
-{ ## some for loop tricks, ? for optional, ='' for empty string default
+{ ## for loop tricks for arbitrary size lists: ? for optional, ='' for empty string default
   my @monsters = < garuda blob golem mothera godzilla tingler jingle jangle jongle juggler>;
   for @monsters -> $one, $two?, $three='' {
       say [:$one,  :$two,  :$three];   
