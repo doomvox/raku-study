@@ -52,8 +52,8 @@ say $array_kind_of_not_scalar_this_time_i_hope.WHAT; # (List)
 
 
 my ($one, $two, $three) = @monsters;
-say "XXX one: $one";
-say "two: $two";
+say "one: $one";  # one: garuda
+say "two: $two";      # two: blob
 ## say :$three;
 # CAUGHT: Unexpected named argument 'three' passed
 # This exception is not resumable
