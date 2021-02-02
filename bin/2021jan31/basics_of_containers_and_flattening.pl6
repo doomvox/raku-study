@@ -74,6 +74,7 @@ say [:$one  :$two  :$three];
 say [:$one,  :$two,  :$three];   
 # [one => garuda two => blob three => golem]
 
+## once again, I like raku for loop syntax:
 for @monsters -> $one, $two, $three {
     say [:$one,  :$two,  :$three];   
 }
