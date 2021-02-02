@@ -60,17 +60,7 @@ Hint: split with empty field will break a string into individual char
 **** implement a thread safe queue with multiple readers and writers
 **** loop detection in complex recursive data structures
 **** walking two data structures in parallel
-**** reducing complex data structures
-
-queue, thread safe, existing module (p5) close queue with undef value
-awkward with multiple readers/writers (?)
-create queue handle, open send/receive handles
-recursive data structure
-loop detection
-comparison of recursives
-walking recursives in parallel
-reduce: work on a data structure rather than a list
-
+**** reduce of complex data structures (not just a list)
 Perl5 module: Test::Differences eq_or_diff
 
 **** tarjan algorithm 
