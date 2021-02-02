@@ -67,9 +67,9 @@ say [:$three];   # [three => golem]
 ## dd is eaisier, even less typing, and more info:
 dd $three; # Str $three = "golem"
 
+# reasonably neat, though:
 say [:$one  :$two  :$three];   
 # [one => garuda two => blob three => golem]
-
 say [:$one,  :$two,  :$three];   
 
 for @monsters -> $one, $two, $three {
