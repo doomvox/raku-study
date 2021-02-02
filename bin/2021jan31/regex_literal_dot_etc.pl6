@@ -7,7 +7,7 @@ use v6;
 ## Make errors into warnings
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-# Recent ToddAndMargo question, answered JJ Merello
+# Recent ToddAndMargo question, answered byy JJ Merello
 
 {
     my $x = "1.33.222.4";
