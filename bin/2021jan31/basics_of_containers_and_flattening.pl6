@@ -81,7 +81,9 @@ for @monsters -> $one, $two, $three {
 # [one => garuda two => blob three => golem]
 # [one => doris_day two => godzilla three => tingler]
 
-{ my @monsters = < garuda blob golem mothera godzilla tingler jingle jangle jongle juggler>;
+
+{ ## some for loop tricks, ? for optional, ='' for empty string default
+  my @monsters = < garuda blob golem mothera godzilla tingler jingle jangle jongle juggler>;
   for @monsters -> $one, $two?, $three='' {
       say [:$one,  :$two,  :$three];   
       # ...
