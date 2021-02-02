@@ -62,7 +62,7 @@ say "two: $two";      # two: blob
 
 ## This does work, FWIW
 say [:$three];   # [three => golem]
-## dd is eaisier, even less typing:
+## dd is eaisier, even less typing, and more info:
 dd $three; # Str $three = "golem"
 
 say [:$one  :$two  :$three];   
