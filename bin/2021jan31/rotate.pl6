@@ -5,6 +5,8 @@
 use v6;
 
 ## https://docs.raku.org/routine/rotate
+#### This is a case where the sections of the docs were generated in
+#### a poor order, leading with "Supply" rather than "Lists".
 
 # Using it with Supply:
 #   available since 2020.06 (but I'm still on 2020.05):
@@ -17,7 +19,9 @@ use v6;
 
 # Using rotate with lists:
 
-# Returns a Seq with the list elements rotated to the left when $n is positive or to the right otherwise.
+# Returns a Seq with the list elements rotated to the left when
+# $n is positive or to the right otherwise.
+
 # Examples:
 
 say <a b c d e>.rotate(2);   # OUTPUT: (c d e a b) 
