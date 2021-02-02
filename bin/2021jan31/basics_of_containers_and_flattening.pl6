@@ -56,6 +56,7 @@ say "one: $one";      # one: garuda
 say "two: $two";      # two: blob
 say "three: $three";  # three: golem
 
+## Side-issue, can you skip redundant typing when doing that output?
 ## say :$three;  # shortcut doesn't work, thinks it's a named arg for say
 #
 #   CAUGHT: Unexpected named argument 'three' passed
