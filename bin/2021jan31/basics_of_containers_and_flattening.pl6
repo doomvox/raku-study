@@ -2,6 +2,9 @@
 # 
 # basics_of_containers_and_flattening.pl6            31 Jan 2021 
 
+## Joseph Brenner: I continue to find the behavior of containers 
+## puzzling with different types of variable assignment.
+
 use v6;
 
 ## Make errors into warnings
