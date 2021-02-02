@@ -13,8 +13,7 @@ use v6;
 # $supply.tap( &say ); # OUTPUT: «c␤d␤e␤a␤b␤»
 
 # Running on 2020.05:
-#  No such method 'rotate' for invocant of type 'Supply'
-
+#   No such method 'rotate' for invocant of type 'Supply'
 
 # Using rotate with lists:
 
