@@ -13,8 +13,8 @@ p5_regex_for_literal_dots.pl -- experimenting with regexes to match literal dots
 =head1 DESCRIPTION
 
 B<trial-p5_bracket_dot_pattern_in_regex.pl> is a script which
-does some basic exploration of using perl5 regexes to match literal 
-dots in a string (and to *not* match things that are not literal dots, 
+does some basic exploration of using perl5 regexes to match literal
+dots in a string (and to *not* match things that are not literal dots,
 since the . metachar normally matches both).
 
 
@@ -89,7 +89,7 @@ GetOptions ("d|debug"    => \$DEBUG,
               qr{ \Q.\E }x,
               );
 
-  for my $pat (@pats) { 
+  for my $pat (@pats) {
     say "checking pat: $pat";
     if ( $str1 =~ m/$pat/x ) {
       say "  matched a literal dot";
