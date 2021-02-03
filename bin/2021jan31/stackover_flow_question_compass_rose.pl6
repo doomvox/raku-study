@@ -4,6 +4,9 @@
 
 use v6;
 
+my @correct = [N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW];
+say @correct;
+
 ## william michels solution:
 
 my @cardinal = <a b c d>;
