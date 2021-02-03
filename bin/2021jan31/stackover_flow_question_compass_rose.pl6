@@ -8,6 +8,8 @@ use v6;
 
 my @cardinal = <a b c d>;
 
+
+
 ## looking at alternate methods of doing a rotate
 my @doom_rot = @cardinal[1 .. *-1, 0];
 say "dr: ", @doom_rot;            # dr: [(b c d) a]
@@ -58,6 +60,7 @@ say @half;
 # [N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW]
 
 
+#===
 # Bruce Gray stab at it (ordering a little off):
 #  raku -e 'say flat <N E S W N>.rotor(2 => -1).map: { (.[[0,], [0,0,1], [0,1], [1,0,1]])>>.join };' 
 
