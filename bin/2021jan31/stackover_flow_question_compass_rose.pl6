@@ -8,7 +8,34 @@ use v6;
 
 my @cardinal = <a b c d>;
 
+## examining the zip: gets pairs of current and next element
+my @doom_introspection = @cardinal Z @cardinal[1..*-1,0].flat;
+say @doom_introspection; # [(a b) (b c) (c d) (d a)]
 
+## using rotate to rotate
+# my @intercard = ( (@cardinal Z @cardinal[1..*-1,0].flat )>>.join ); #between cardinal
+my @intercard = ( (@cardinal Z @cardinal.rotate(-1) )>>.join ); #between cardinal
+
+my @pre_half  = ( (@cardinal Z @intercard)>>.join ).flat;
+
+## again, rotate 
+# my @post_half = ( @intercard Z @cardinal[1..*-1,0].flat )>>.join;
+my @post_half = ( @intercard Z @cardinal.rotate(-1) )>>.join;
+
+my @half = ( ( @cardinal Z @intercard ).flat Z ( [Z] @pre_half, @post_half ).flat ).flat;
+say @half;
+# [a aab ab abb b bbc bc bcc c ccd cd cdd d dda da daa]
+
+@half .= map( *.trans( "abcd" => "NESW" ) );
+@half .= map( { S:g/ <( (NE|ES|SW|WN)<same>(.) )> $ /$1$0/ } );
+@half .= map( *.subst(:g, "ES","SE") );
+@half .= map( *.subst(:g, "WN","NW") );
+say @half;
+# [N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW]
+
+
+## refactoring william michels solution:
+say "===";
 
 ## looking at alternate methods of doing a rotate
 my @doom_rot = @cardinal[1 .. *-1, 0];
@@ -58,6 +85,7 @@ say @half;
 @half .= map( *.subst(:g, "WN","NW") );
 say @half;
 # [N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW]
+
 
 
 #===
