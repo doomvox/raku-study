@@ -36,6 +36,8 @@ say @expected;
     @half .= map( *.subst(:g, "WN","NW") );
     say @half;
     # [N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW]
+
+    is-deeply @half, @expected, "Testing WM solution";
 }
 
 
