@@ -5,21 +5,14 @@
 use v6;
 use Test;
 
+
 my @expected = <N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW>;
 say @expected;
 
 ## william michels solution:
 {
     my @cardinal = <a b c d>;
-
-    ## examining the zip: gets pairs of current and next element
-    my @doom_introspection = @cardinal Z @cardinal[1..*-1,0].flat;
-    say @doom_introspection; # [(a b) (b c) (c d) (d a)]
-
-    ## using rotate to rotate
-    # my @intercard = ( (@cardinal Z @cardinal[1..*-1,0].flat )>>.join ); #between cardinal
-    my @intercard = ( (@cardinal Z @cardinal.rotate(-1) )>>.join ); #between cardinal
-
+    my @intercard = ( (@cardinal Z @cardinal[1..*-1,0].flat )>>.join ); #between cardinal
     my @pre_half  = ( (@cardinal Z @intercard)>>.join ).flat;
 
     ## again, rotate 
