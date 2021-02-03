@@ -4,8 +4,8 @@
 
 use v6;
 
-my @correct = <N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW>;
-say @correct;
+my @expected = <N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW>;
+say @expected;
 
 ## william michels solution:
 {
