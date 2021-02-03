@@ -3,6 +3,7 @@
 # stackover_flow_question_compass_rose.pl6            31 Jan 2021 
 
 use v6;
+use Test;
 
 my @expected = <N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW>;
 say @expected;
