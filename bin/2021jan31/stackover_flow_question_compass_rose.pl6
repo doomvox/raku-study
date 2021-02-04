@@ -76,6 +76,7 @@ say @expected;
         push( @new_zip, @barrons[ $i ] => @barrons[ $i+1 ] );
     }
     dd @new_zip;
+    # Array @new_zip = [:a("b"), :b("c"), :c("d"), :d("a")]
 
     ## using rotate to rotate
     my @intercard = ( (@cardinal Z @cardinal.rotate(-1) )>>.join ); # between cardinal
