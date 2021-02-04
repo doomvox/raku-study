@@ -81,6 +81,7 @@ say @expected;
     # Array @new_zip = [:a("b"), :b("c"), :c("d"), :d("a")]
     dd @new_flat_zip;
     # Array @new_flat_zip = [("a", "b"), ("b", "c"), ("c", "d"), ("d", "a")]
+    say @new_flat_zip;
 
     ## using rotate to rotate
     my @intercard = ( (@cardinal Z @cardinal.rotate(-1) )>>.join ); # between cardinal
