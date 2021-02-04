@@ -94,8 +94,6 @@ say @expected;
         push( @doom_intercard, ( @barrons[ $i ] , @barrons[ $i+1 ] ) );
     }
 
-
-
     my @pre_half  = ( (@cardinal Z @intercard)>>.join ).flat;
 
     ## again, rotate 
