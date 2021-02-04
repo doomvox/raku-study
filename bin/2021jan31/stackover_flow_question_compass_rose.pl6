@@ -70,9 +70,7 @@ say @expected;
     is-deeply( @doom_zip, @expected_zip, "Testing list of current and next values paired as sub-lists: " ~ @doom_zip.gist);
 
     ## using rotate to rotate
-    # my @intercard = ( (@cardinal Z @cardinal[1..*-1,0].flat )>>.join ); #between cardinal
-    my @intercard = ( (@cardinal Z @cardinal.rotate(-1) )>>.join ); #between cardinal
-
+    my @intercard = ( (@cardinal Z @cardinal.rotate(-1) )>>.join ); # between cardinal
     my @pre_half  = ( (@cardinal Z @intercard)>>.join ).flat;
 
     ## again, rotate 
