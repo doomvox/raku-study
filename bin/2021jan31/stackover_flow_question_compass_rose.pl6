@@ -63,7 +63,6 @@ say @expected;
     say "d4: ", @d4;  # d4: 
     is-deeply( @d4, @expected_rot, "Checking intermediate value rotated list: " ~ @d4.gist );
 
-
     ## examining the zip: gets pairs of current and next element
     my @expected_zip = ( <a b>, <b c>, <c d>, <d a> );
     my @doom_zip = @cardinal Z @cardinal[1..*-1,0].flat;
