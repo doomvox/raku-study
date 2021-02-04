@@ -55,7 +55,7 @@ say @expected;
     say "d2: ", @d2;
 
     @c    = @cardinal;
-    my @d3 = .unshift(.pop) with @c;  ## at last, I see what with is for.  As opposed to for.
+    my @d3 = .pop(.unshift) with @c;  ## at last, I see what with is for.  As opposed to for.
     say "d3: ", @d3;  # d3: [d a b c]
 
     @c    = @cardinal;
