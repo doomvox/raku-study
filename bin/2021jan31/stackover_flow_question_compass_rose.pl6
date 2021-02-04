@@ -93,7 +93,7 @@ say @expected;
 
 #     my @doom_intercard;
 #     push( @doom_intercard, ( @barrons[ $_ ] ~ @barrons[ $_+1 ] ) ) for 0..3;        
-    my @doom_intercard.push( ( @barrons[ $_ ] ~ @barrons[ $_+1 ] ) ) for 0..3;        
+    my @doom_intercard.push( @barrons[ $_ ] ~ @barrons[ $_+1 ]  ) for 0..3;        
 
     is-deeply( @doom_intercard, @intercard, "Testing new way to get to intercard" );    
 
