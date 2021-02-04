@@ -70,6 +70,16 @@ say @expected;
     is-deeply( @doom_zip, @expected_zip, "Testing list of current and next values paired as sub-lists: " ~ @doom_zip.gist);
     ## Q: what if we used Pairs?
 
+    my @barrons = < a b c d >;
+    my @new_zip;
+    for 0..3 -> $i 
+       push( @new_zip, @barrons[ $i ]->@barrons[ $i+1 ] );
+
+
+    }
+
+
+
     ## using rotate to rotate
     my @intercard = ( (@cardinal Z @cardinal.rotate(-1) )>>.join ); # between cardinal
     my @pre_half  = ( (@cardinal Z @intercard)>>.join ).flat;
