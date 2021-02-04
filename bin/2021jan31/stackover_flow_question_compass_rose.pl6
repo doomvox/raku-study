@@ -93,7 +93,7 @@ say @expected;
 
     my @doom_intercard;
     for 0..3 -> $i  {
-        push( @doom_intercard, ( @barrons[ $i ] , @barrons[ $i+1 ] ) );
+        push( @doom_intercard, ( @barrons[ $i ] ~ @barrons[ $i+1 ] ) );        
     }
 
     my @pre_half  = ( (@cardinal Z @intercard)>>.join ).flat;
