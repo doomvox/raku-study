@@ -95,7 +95,8 @@ say @expected;
     push( @doom_intercard, ( @barrons[ $_ ] ~ @barrons[ $_+1 ] ) ) for 0..3;        
     is-deeply( @doom_intercard, @intercard, "Testing new way to get to intercard" );    
 
-    my @pre_half  = ( (@cardinal Z @intercard)>>.join ).flat;
+    # continuing with WM, but using doom_intercard
+    my @pre_half  = ( (@cardinal Z @doom_intercard)>>.join ).flat;
 
     ## again, rotate 
     # my @post_half = ( @intercard Z @cardinal[1..*-1,0].flat )>>.join;
