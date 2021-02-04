@@ -83,7 +83,7 @@ say @expected;
     # Array @new_flat_zip = [("a", "b"), ("b", "c"), ("c", "d"), ("d", "a")]
     say @new_flat_zip; # [(a b) (b c) (c d) (d a)]
 
-    ## using rotate to rotate
+    ## just using rotate to rotate
     my @intercard = ( (@cardinal Z @cardinal.rotate(-1) )>>.join ); # between cardinal
     my @pre_half  = ( (@cardinal Z @intercard)>>.join ).flat;
 
