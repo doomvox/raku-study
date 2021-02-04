@@ -73,9 +73,11 @@ say @expected;
     my @barrons = < a b c d a >; ## note extra val.  
     my @new_zip;
     my @new_flat_zip;
+    my @new_intercard;
     for 0..3 -> $i  {
         push( @new_zip, @barrons[ $i ] => @barrons[ $i+1 ] );
         push( @new_flat_zip, ( @barrons[ $i ] , @barrons[ $i+1 ] ) );
+        push( @new_intercard, ( @barrons[ $i ] ~ @barrons[ $i+1 ] ) );        
     }
     dd @new_zip;
     # Array @new_zip = [:a("b"), :b("c"), :c("d"), :d("a")]
