@@ -107,6 +107,7 @@ say @expected;
     # [a aab ab abb b bbc bc bcc c ccd cd cdd d dda da daa]
     put @half.perl;
     my @expected_raw_half = <a aab ab abb b bbc bc bcc c ccd cd cdd d dda da daa>;
+    is-deeply( @half, @expected_raw_half, "Testing raw half");
 
     @half .= map( *.trans( "abcd" => "NESW" ) );
     @half .= map( { S:g/ <( (NE|ES|SW|WN)<same>(.) )> $ /$1$0/ } );
