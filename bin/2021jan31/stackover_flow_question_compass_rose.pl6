@@ -93,7 +93,7 @@ say @expected;
 
     my @doom_intercard;
     push( @doom_intercard, ( @barrons[ $i ] ~ @barrons[ $i+1 ] ) ) for 0..3 -> $i;        
-
+    is-deeply( @doom_intercard, @intercard, "Testing new way to get to intercard" );    
 
     my @pre_half  = ( (@cardinal Z @intercard)>>.join ).flat;
 
