@@ -97,8 +97,7 @@ say @expected;
 
     # continuing with WM, but using doom_intercard
     my @pre_half  = ( (@cardinal Z @doom_intercard)>>.join ).flat;
-
-    ## again, rotate 
+    # using .rotate 
     my @post_half = ( @doom_intercard Z @cardinal.rotate(1) )>>.join;
     my @half = ( ( @cardinal Z @doom_intercard ).flat Z ( [Z] @pre_half, @post_half ).flat ).flat;
     say @half;
