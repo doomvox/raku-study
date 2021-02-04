@@ -102,7 +102,7 @@ say @expected;
 
     ## again, rotate 
     # my @post_half = ( @intercard Z @cardinal[1..*-1,0].flat )>>.join;
-    my @post_half = ( @intercard Z @cardinal.rotate(-1) )>>.join;
+    my @post_half = ( @intercard Z @cardinal.rotate(1) )>>.join;
 
     my @half = ( ( @cardinal Z @intercard ).flat Z ( [Z] @pre_half, @post_half ).flat ).flat;
     say @half;
