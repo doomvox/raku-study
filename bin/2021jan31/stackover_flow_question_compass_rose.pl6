@@ -85,6 +85,7 @@ say @expected;
 
     ## just using rotate to rotate
     my @intercard = ( (@cardinal Z @cardinal.rotate(-1) )>>.join ); # between cardinal
+    say @intercard;
     is-deeply( @new_flat_zip, @intercard, "Testing new way to get to first zip" );
 
 
