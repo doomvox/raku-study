@@ -66,9 +66,9 @@ say @expected;
 
     ## examining the zip: gets pairs of current and next element
     my @expected_zip = ( <a b>, <b c>, <c d>, <d a> );
-    my @doom_introspection = @cardinal Z @cardinal[1..*-1,0].flat;
-    say @doom_introspection; # [(a b) (b c) (c d) (d a)]
-    is-deeply( @doom_introspection, @expected_zip, "Testing list of current and next values paired as sub-lists" );
+    my @doom_zip = @cardinal Z @cardinal[1..*-1,0].flat;
+    say @doom_zip; # [(a b) (b c) (c d) (d a)]
+    is-deeply( @doom_introspection, @expected_zip, "Testing list of current and next values paired as sub-lists" ~ @doom_zip.gist);
 
     ## using rotate to rotate
     # my @intercard = ( (@cardinal Z @cardinal[1..*-1,0].flat )>>.join ); #between cardinal
