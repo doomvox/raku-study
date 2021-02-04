@@ -73,7 +73,7 @@ say @expected;
     my @barrons = < a b c d >;
     my @new_zip;
     for 0..3 -> $i  {
-        push( @new_zip, @barrons[ $i ]->@barrons[ $i+1 ] );
+        push( @new_zip, @barrons[ $i ] => @barrons[ $i+1 ] );
     }
     dd @new_zip;
 
