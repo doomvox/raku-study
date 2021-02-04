@@ -59,7 +59,7 @@ say @expected;
     say "d3: ", @d3;  # d3: [d a b c]
 
     @c    = @cardinal;
-    my @d4 = @c.rotate(-1);
+    my @d4 = @c.rotate(1);
     say "d4: ", @d4;  # d4: 
 
 
