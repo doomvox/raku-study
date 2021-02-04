@@ -91,8 +91,6 @@ say @expected;
     say @intercard; # [ad ba cb dc]
     is-deeply( @new_intercard, @intercard, "Testing new way to get to intercard" );
 
-
-
     my @doom_intercard;
     for 0..3 -> $i  {
         push( @doom_intercard, ( @barrons[ $i ] , @barrons[ $i+1 ] ) );
