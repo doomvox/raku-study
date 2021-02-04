@@ -84,12 +84,12 @@ say @expected;
     dd @new_flat_zip;
     # Array @new_flat_zip = [("a", "b"), ("b", "c"), ("c", "d"), ("d", "a")]
     say @new_flat_zip; # [(a b) (b c) (c d) (d a)]
-    say @new_intercard;
+    say @new_intercard; # [ad ba cb dc]
 
     ## just using rotate to rotate
     my @intercard = ( (@cardinal Z @cardinal.rotate(-1) )>>.join ); # between cardinal
     say @intercard; # [ad ba cb dc]
-    is-deeply( @new_flat_zip, @intercard, "Testing new way to get to first zip" );
+    is-deeply( @new_intercard, @intercard, "Testing new way to get to first zip" );
 
 
 
