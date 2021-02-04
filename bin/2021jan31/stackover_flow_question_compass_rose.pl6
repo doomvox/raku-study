@@ -85,6 +85,7 @@ say @expected;
     # Array @new_flat_zip = [("a", "b"), ("b", "c"), ("c", "d"), ("d", "a")]
     say @new_flat_zip; # [(a b) (b c) (c d) (d a)]
     say @new_intercard;
+    say @new_intercard;
 
     ## just using rotate to rotate
     my @intercard = ( (@cardinal Z @cardinal.rotate(-1) )>>.join ); # between cardinal
