@@ -61,7 +61,7 @@ say @expected;
     @c    = @cardinal;
     my @d4 = @c.rotate(1);
     say "d4: ", @d4;  # d4: 
-    is-deeply( @d4, @exected_rot, "Checking intermediate value rotated list" );
+    is-deeply( @d4, @expected_rot, "Checking intermediate value rotated list" );
 
 
     ## examining the zip: gets pairs of current and next element
