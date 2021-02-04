@@ -75,7 +75,7 @@ say @expected;
     for 0..3 -> $i  {
         push( @new_zip, @barrons[ $i ]->@barrons[ $i+1 ] );
     }
-    say @new_zip;
+    dd @new_zip;
 
     ## using rotate to rotate
     my @intercard = ( (@cardinal Z @cardinal.rotate(-1) )>>.join ); # between cardinal
