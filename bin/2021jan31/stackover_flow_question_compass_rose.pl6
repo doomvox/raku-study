@@ -35,8 +35,9 @@ say @expected;
     say "===";
     my @cardinal = <a b c d>;
 
-    my @expected_rot = @cardinal[1..*-1,0].flat;
-
+    my @expected_rot;
+    my @check_rot = @cardinal[1..*-1,0].flat;
+    say @check_rot;
 
     ## looking at alternate methods of doing a rotate
     my @doom_rot = @cardinal[1 .. *-1, 0];
