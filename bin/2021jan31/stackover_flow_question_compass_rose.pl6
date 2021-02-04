@@ -105,7 +105,6 @@ say @expected;
     dd @half;
     say @half;
     # [a aab ab abb b bbc bc bcc c ccd cd cdd d dda da daa]
-    put @half.perl;
     my @expected_raw_half = <a aab ab abb b bbc bc bcc c ccd cd cdd d dda da daa>;
     is-deeply( @half, @expected_raw_half, "Testing raw half");
 
