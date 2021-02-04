@@ -70,7 +70,7 @@ say @expected;
     is-deeply( @doom_zip, @expected_zip, "Testing list of current and next values paired as sub-lists: " ~ @doom_zip.gist);
     ## Q: what if we used Pairs?
 
-    my @barrons = < a b c d >;
+    my @barrons = < a b c d a >; ## note extra val.  
     my @new_zip;
     for 0..3 -> $i  {
         push( @new_zip, @barrons[ $i ] => @barrons[ $i+1 ] );
