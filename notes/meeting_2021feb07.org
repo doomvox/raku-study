@@ -15,3 +15,6 @@ https://docs.raku.org/language/regexes#Subrules
 *** Lambert Lum's balanced braces question
 *** raku "queues": 
 https://docs.raku.org/type/Supply
+*** multidimensional arrays, fixed size arrays (shaped)
+https://docs.raku.org/language/list#index-entry-Shaped_arrays
+
