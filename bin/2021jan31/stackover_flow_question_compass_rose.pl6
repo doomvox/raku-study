@@ -133,5 +133,5 @@ say @expected;
     # (N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW)
 }
 
- ## Joseph Brenner: the rules about how the directions should
- ## be ordered suggests to me we want customized sort behavior...
+## Joseph Brenner: the rules about how the directions should
+## be ordered suggests to me we want customized sort behavior...
