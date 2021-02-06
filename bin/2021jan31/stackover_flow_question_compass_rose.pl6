@@ -118,21 +118,22 @@ say @expected;
     is-deeply( @half, @expected, "Testing doom refactoring" );
 }
 
-#===
-# Bruce Gray stab at it (ordering a little off):
-#  raku -e 'say flat <N E S W N>.rotor(2 => -1).map: { (.[[0,], [0,0,1], [0,1], [1,0,1]])>>.join };' 
+{ 
+    # Bruce Gray solution (tight, but the ordering is a little off):
+    #  raku -e 'say flat <N E S W N>.rotor(2 => -1).map: { (.[[0,], [0,0,1], [0,1], [1,0,1]])>>.join };' 
 
-say '---';
-say flat <N E S W N>.rotor(2 => -1).map: { (.[[0,], [0,0,1], [0,1], [1,0,1]])>>.join };
-# bruce gray result:
-# (N NNE NE ENE E EES ES SES S SSW SW WSW W WWN WN NWN)
-# compared to Bill's:
-# [N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW]
-#                 ^^^ ^^ ^^^                ^^^ ^^ ^^^
+    say '---';
+    say flat <N E S W N>.rotor(2 => -1).map: { (.[[0,], [0,0,1], [0,1], [1,0,1]])>>.join };
+    # bruce gray result:
+    # (N NNE NE ENE E EES ES SES S SSW SW WSW W WWN WN NWN)
+    # compared to Bill's:
+    # [N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW]
+    #                 ^^^ ^^ ^^^                ^^^ ^^ ^^^
 
-say flat <N NE E SE S SW W NW N>.rotor(3 => -1).map: { (.[[0,], [0,1], [1,], [2,1] ])>>.join };
-# (N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW)
+    say flat <N NE E SE S SW W NW N>.rotor(3 => -1).map: { (.[[0,], [0,1], [1,], [2,1] ])>>.join };
+    # (N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW)
 
 
-## Joseph Brenner: the rules about how the directions should
-## be ordered suggests to me we want customized sort behavior...
+    ## Joseph Brenner: the rules about how the directions should
+    ## be ordered suggests to me we want customized sort behavior...
+}
