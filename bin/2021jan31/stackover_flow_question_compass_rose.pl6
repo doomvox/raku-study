@@ -5,6 +5,7 @@
 use v6;
 use Test;
 
+# https://stackoverflow.com/questions/65853009/is-there-a-programmatic-way-to-elaborate-the-half-winds-in-raku/65878823#65878823
 
 my @expected = <N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW>;
 say @expected;
