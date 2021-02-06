@@ -121,7 +121,6 @@ say @expected;
 { 
     # Bruce Gray solution (tight, but the ordering is a little off):
     #  raku -e 'say flat <N E S W N>.rotor(2 => -1).map: { (.[[0,], [0,0,1], [0,1], [1,0,1]])>>.join };' 
-
     say '---';
     say flat <N E S W N>.rotor(2 => -1).map: { (.[[0,], [0,0,1], [0,1], [1,0,1]])>>.join };
     # bruce gray result:
