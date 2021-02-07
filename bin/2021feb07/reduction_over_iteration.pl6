@@ -11,8 +11,7 @@ use v6;
 my @rabbits  = < bugs peter easter >;
 
 my $all ~= @rabbits; 
-
-say "...$all...";
+say "...$all..."; # ...bugs peter easter...
 
 
 
