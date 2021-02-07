@@ -9,11 +9,6 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 #  my @monsters = < garuda blob golem mothera godzilla tingler >;
 
-
-
-
-
-
 # ====
 #  sheet of cheats
 
