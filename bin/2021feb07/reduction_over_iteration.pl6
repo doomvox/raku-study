@@ -17,10 +17,10 @@ say "...$all..."; # ...bugs peter easter...
 # peter
 # easter
 
-
-say .[0] [~] .[1] for @rabbits.rotor(2, :partial);
+say .[0] [~] .[1] for @rabbits.rotor(2);
 # bugspeter
 
+say .[0] [~] .[1] for @rabbits.rotor(2, :partial);
 
 
 
