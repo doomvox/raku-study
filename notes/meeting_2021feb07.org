@@ -53,6 +53,7 @@ unshift      push
  |/_        _\|  
 shift         pop
 
+
 https://en.wikipedia.org/wiki/Compass_rose 
 https://en.wikipedia.org/wiki/Points_of_the_compass 
 https://en.wikipedia.org/wiki/Points_of_the_compass#32-wind_compass_rose 
