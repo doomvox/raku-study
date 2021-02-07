@@ -7,7 +7,8 @@ use v6;
 ## Make errors into warnings
 # CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-
+# Question on list:
+# https://www.nntp.perl.org/group/perl.perl6.users/2021/02/msg9691.html
 
 # https://docs.raku.org/language/regexes#Regex_interpolation
 
