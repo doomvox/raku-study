@@ -100,6 +100,7 @@ sub sort_directions_deeper_fixed( *@elements ) {
 {
     say "---";
     my @elements = ( 'N', 'NE', 'E', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW');
+    my %order = <N S E W> Z=> 0..*; 
     # bruce gray suggestion:
     my @result = @elements.sort({ %order{ .comb }.join }); 
 }
