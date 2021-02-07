@@ -52,3 +52,8 @@ use v6;
 #   in any term at /home/doom/End/Sys/Perl6/rakudo-star-2020.05-rc1/src/rakudo-2020.05.1/install/share/perl6/lib/Perl6/Grammar.moarvm line 1
 
 # ｢｣
+
+
+# raku --version
+# This is Rakudo version 2020.05.1 built on MoarVM version 2020.05
+# implementing Raku 6.d.
