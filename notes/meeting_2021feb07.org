@@ -75,3 +75,6 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb07.org
 
 
 
+
+** "the camel has two humps"
+ guys who figured out how to detect programming aptitude
