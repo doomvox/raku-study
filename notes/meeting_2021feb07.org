@@ -31,7 +31,6 @@ https://docs.raku.org/type/Supply
 *** multidimensional arrays, fixed size arrays (shaped)
 https://docs.raku.org/language/list#index-entry-Shaped_arrays
 
-
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb07.org
 
 
