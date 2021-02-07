@@ -13,8 +13,12 @@ my $all ~= @rabbits;
 say "...$all..."; # ...bugs peter easter...
 
 .say for @rabbits;
+# bugs
+# peter
+# easter
 
 
+say $^a [~] $^b for @rabbits.rotor(2);
 
 
 
