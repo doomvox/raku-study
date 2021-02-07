@@ -85,7 +85,6 @@ sub sort_directions_deeper_fixed( *@elements ) {
     return @result;
 }
 
-
 {
     say "---";
     my @elements = ( 'N', 'NE', 'E', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW');
