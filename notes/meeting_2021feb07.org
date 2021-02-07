@@ -59,5 +59,7 @@ https://en.wikipedia.org/wiki/Compass_rose
 https://en.wikipedia.org/wiki/Points_of_the_compass 
 https://en.wikipedia.org/wiki/Points_of_the_compass#32-wind_compass_rose
 
+http://rosettacode.org/wiki/Box_the_compass 
+
 ** lizmat talk on sets at FOSDEM 
 *** william michels recommends
