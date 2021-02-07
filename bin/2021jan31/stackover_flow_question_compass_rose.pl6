@@ -32,7 +32,7 @@ say @expected;
 }
 
 
-{## trying to refactor they william michels solution:
+{## trying to refactor the william michels solution:
     say "===";
     my @cardinal = <a b c d>;
 
