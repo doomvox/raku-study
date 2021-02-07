@@ -62,7 +62,7 @@ say @expected;
 
     # bruce gray says given is better, with is to check definedness:
     my @d3b = .push(.shift) given @c;  
-    say "d3b: ", @d3b;
+    say "d3b: ", @d3b; # d3b: [c d a b]
 
     @c    = @cardinal;
     my @d4 = @c.rotate(1);
