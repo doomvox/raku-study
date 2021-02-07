@@ -44,12 +44,16 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jan31
 ** my favorite cheat sheet
 
 #+BEGIN_SRC picture-mode
+↖
+↗
+
+
 
 unshift      push
  \           /
- _\| _ _ _ _/ 
+  ↘ _ _ _ _ ↙
    /        \
- |/_        _\|  
+  ↙          ↘
 shift         pop
 
 #+END_SRC
@@ -68,6 +72,7 @@ http://rosettacode.org/wiki/Box_the_compass
 
 https://docs.raku.org/language/faq#How_can_I_get_command_line_history_in_the_Raku_prompt_(REPL)? 
 https://github.com/raku-community-modules/Linenoise 
+
 less ~/.raku/rakudo-history 
 
 Again, this file can be seen at github:
