@@ -43,9 +43,10 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jan31
 
 ** my favorite cheat sheet
 
+
 unshift      push
- \          |/_
- _\| _ _ _ _ 
+ \           /
+ _\| _ _ _ _/ 
    /        \
  |/_        _\|  
 shift         pop
