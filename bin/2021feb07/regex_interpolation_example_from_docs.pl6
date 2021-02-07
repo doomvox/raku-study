@@ -27,6 +27,7 @@ use v6;
 }
 
 {
+    say "---";
     my $string   = 'Is this a regex or a string. ';
     my $regex    = /\w+/;
     say $string.match: / $regex /;                        #  ｢Is｣
