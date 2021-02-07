@@ -9,7 +9,6 @@ use v6;
 
 
 my @rabbits  = < bugs peter easter >;
-
 my $all ~= @rabbits; 
 say "...$all..."; # ...bugs peter easter...
 
