@@ -9,6 +9,9 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
 
 ** possible topics
 *** return to the compass rose problem
+**** William Michel's code is good: 
+***** working, practical code
+***** can see how solution evolved 
 **** rotate
 ***** aside: at last I used 'with'
 **** custom sort
