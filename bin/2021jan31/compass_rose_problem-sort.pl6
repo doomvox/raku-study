@@ -9,9 +9,9 @@ use v6;
 
 {
     my %order = ( N => 0,
-                  S => 1,
-                  W => 2,
-                  E => 3 );
+                  S => 1,   
+                  W => 2,   
+                  E => 3 ); 
 
     my @elements = ( 'N', 'NE', 'E', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW');
     
