@@ -45,6 +45,7 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021jan31.org
 last weeks code:
 https://github.com/doomvox/raku-study/tree/main/bin/2021jan31
 
+** my favorite cheat sheet
 
 unshift      push
  \          |/_
@@ -56,4 +57,5 @@ shift         pop
 
 https://en.wikipedia.org/wiki/Compass_rose 
 https://en.wikipedia.org/wiki/Points_of_the_compass 
-https://en.wikipedia.org/wiki/Points_of_the_compass#32-wind_compass_rose 
+https://en.wikipedia.org/wiki/Points_of_the_compass#32-wind_compass_rose
+
