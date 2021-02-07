@@ -51,7 +51,6 @@ unshift      push
    /        \
   ↙          ↘
 shift         pop
-
 #+END_SRC
 
 
