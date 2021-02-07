@@ -84,6 +84,8 @@ use v6;
     say $string.match: / $(f1) /;                         # ｢$pattern1｣
 
     say "~~~";
-    say $string.match: / $([~] $pattern3.comb.reverse) /; #  ｢string｣
+
+    say ([~] $pattern3.comb.reverse);
+
 
 }
