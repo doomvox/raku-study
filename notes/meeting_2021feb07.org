@@ -75,3 +75,4 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb07.org
 
 ** "the camel has two humps"
  guys who figured out how to detect programming aptitude
+ https://retractionwatch.com/2014/07/18/the-camel-doesnt-have-two-humps-programming-aptitude-test-canned-for-overzealous-conclusion/ 
