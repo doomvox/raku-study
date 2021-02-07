@@ -96,8 +96,7 @@ use v6;
     # t
     # s
 
-    say [~] $pattern3.comb;
-
+    say [~] $pattern3.comb;  # gnirts
 }
 
 
