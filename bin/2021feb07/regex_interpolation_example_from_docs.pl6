@@ -32,3 +32,23 @@ use v6;
     my $regex    = /\w+/;
     say $string.match: / $regex /;                        #  ｢Is｣
 }
+
+## cut and pasting the above one line at a time into the repl, it blows up:
+
+# To exit type 'exit' or '^D'
+# > my $string   = 'Is this a regex or a string. ';
+# Is this a regex or a string. 
+# > my $regex    = /\w+/;
+# /\w+/
+# > say $string.match: / $regex /;                        #  ｢Is｣
+# Regex object coerced to string (please use .gist or .raku to do that)
+#   in any metachar at /home/doom/End/Sys/Perl6/rakudo-star-2020.05-rc1/src/rakudo-2020.05.1/install/share/nqp/lib/NQPP6QRegex.moarvm line 1
+#   in any termseq at /home/doom/End/Sys/Perl6/rakudo-star-2020.05-rc1/src/rakudo-2020.05.1/install/share/nqp/lib/NQPP6QRegex.moarvm line 1
+#   in any quote:sym</ /> at /home/doom/End/Sys/Perl6/rakudo-star-2020.05-rc1/src/rakudo-2020.05.1/install/share/perl6/lib/Perl6/Grammar.moarvm line 1
+#   in any quote at /home/doom/End/Sys/Perl6/rakudo-star-2020.05-rc1/src/rakudo-2020.05.1/install/share/perl6/lib/Perl6/Grammar.moarvm line 1
+#   in any value:sym<quote> at /home/doom/End/Sys/Perl6/rakudo-star-2020.05-rc1/src/rakudo-2020.05.1/install/share/perl6/lib/Perl6/Grammar.moarvm line 1
+#   in any value at /home/doom/End/Sys/Perl6/rakudo-star-2020.05-rc1/src/rakudo-2020.05.1/install/share/perl6/lib/Perl6/Grammar.moarvm line 1
+#   in any term:sym<value> at /home/doom/End/Sys/Perl6/rakudo-star-2020.05-rc1/src/rakudo-2020.05.1/install/share/perl6/lib/Perl6/Grammar.moarvm line 1
+#   in any term at /home/doom/End/Sys/Perl6/rakudo-star-2020.05-rc1/src/rakudo-2020.05.1/install/share/perl6/lib/Perl6/Grammar.moarvm line 1
+
+# ｢｣
