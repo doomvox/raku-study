@@ -12,7 +12,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
 **** rotate
 ***** aside: at last I used 'with'
 **** custom sort
-**** possibly recursive code
+**** a recursive solution?
 *** grammar parsing examples
 **** handling ini-style data
 https://docs.raku.org/language/regexes#Subrules
