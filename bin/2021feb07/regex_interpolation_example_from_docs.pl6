@@ -86,6 +86,6 @@ use v6;
     say "~~~";
 
     say ([~] $pattern3.comb.reverse);  # string
-    say $pattern3.comb;
+    say $pattern3.comb;                # (g n i r t s)
 
 }
