@@ -1,7 +1,8 @@
 * meeting notes Feb 07, 2021
 ** agenda
 *** hello, welcome
-*** announcements  
+*** announcements
+**** lambert's pack/unpack talk coming up at SV Perl
 *** propose we return to last weeks topics, but invite suggested topics
 *** work on topics
 *** today's code examples:
