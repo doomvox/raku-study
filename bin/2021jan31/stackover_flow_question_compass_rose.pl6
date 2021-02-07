@@ -60,6 +60,9 @@ say @expected;
     my @d3 = .push(.shift) with @c;  ## at last, I see what with is for.  As opposed to for.
     say "d3: ", @d3;  # d3: [d a b c]
 
+    my @d3 = .push(.shift) given @c;  
+    say @d3;
+
     @c    = @cardinal;
     my @d4 = @c.rotate(1);
     say "d4: ", @d4;  # d4: 
