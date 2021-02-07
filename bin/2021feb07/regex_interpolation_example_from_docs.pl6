@@ -58,3 +58,7 @@ use v6;
 # raku --version
 # This is Rakudo version 2020.05.1 built on MoarVM version 2020.05
 # implementing Raku 6.d.
+
+## Bruce Gray reports that pasting the three lines together as a block works.
+## I don't see this, all three pasted blow up also (emacs sub shell, if that matters...)
+
