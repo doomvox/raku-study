@@ -21,7 +21,7 @@ say .[0] [~] .[1] for @rabbits.rotor(2);
 # bugspeter
 
 say .[0] [~] .[1] for @rabbits.rotor(2, :partial);
-
+# Use of uninitialized value element of type Any in string context.
 
 
 # ====
