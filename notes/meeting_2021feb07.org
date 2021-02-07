@@ -69,3 +69,10 @@ http://rosettacode.org/wiki/Box_the_compass
 https://docs.raku.org/language/faq#How_can_I_get_command_line_history_in_the_Raku_prompt_(REPL)? 
 https://github.com/raku-community-modules/Linenoise 
 less ~/.raku/rakudo-history 
+
+This file is here up at github:
+
+https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb07.org
+
+
+
