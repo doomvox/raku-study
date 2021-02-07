@@ -44,5 +44,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
 unshift      push
  \          |/_
  _\| _ _ _ _ 
-  /         _\|
+   /        \
+ |/_        _\|  
 shift         pop
+
