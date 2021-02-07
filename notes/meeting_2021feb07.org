@@ -2,7 +2,7 @@
 ** agenda
 *** hello, welcome
 *** announcements  
-*** invite suggested topics
+*** propose we return to last weeks topics, but invite suggested topics
 *** work on topics
 *** today's code examples:
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
