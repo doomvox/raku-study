@@ -102,6 +102,7 @@ sub sort_directions_deeper_fixed( *@elements ) {
     my @elements = ( 'N', 'NE', 'E', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW');
     my %order = <N S E W> Z=> 0..*; 
     dd %order;
+    ## Hash %order = {:E(2), :N(0), :S(1), :W(3)}
     # bruce gray suggestion:
     my @result = @elements.sort({ %order{ .comb }.join }); 
     say @result;
