@@ -93,7 +93,6 @@ sub sort_directions_deeper_fixed( *@elements ) {
     }
 }
 
-
 # Q: how would you do indefinite length strings?
 ## Can you do something like <||> to join iteration over length of string?
 ## (Actually: the length of the shortest of $^a , $^b?)
