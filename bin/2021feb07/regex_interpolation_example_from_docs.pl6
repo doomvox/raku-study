@@ -66,6 +66,7 @@ use v6;
 
 
 {
+    say "===";
     my $string   = 'Is this a regex or a string: 123\w+False$pattern1 ?';
     my $pattern1 = 'string';
     my $pattern3 = 'gnirts';
