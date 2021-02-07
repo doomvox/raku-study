@@ -13,7 +13,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
 ***** aside: at last I used 'with'
 **** custom sort
 **** a recursive solution?
-**** better to Test, which means better to use library
+**** better to Test, which means better to use a library
 *** grammar parsing examples
 **** handling ini-style data
 https://docs.raku.org/language/regexes#Subrules
