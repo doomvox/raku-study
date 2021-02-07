@@ -33,5 +33,5 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb07.org
 
 ** 
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb07.org
-
 https://github.com/doomvox/raku-study/tree/main/bin/2021jan31
+https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
