@@ -82,5 +82,4 @@ use v6;
     
     say $string.match: / $pattern4 /;                     # ｢$pattern1｣
     say $string.match: / $(f1) /;                         # ｢$pattern1｣
-
 }
