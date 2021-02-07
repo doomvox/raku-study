@@ -9,6 +9,8 @@
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
 
 ** possible topics
+*** bruce gray idea for looking for cycles in data structures
+**** thread safe unique identifiers for a queue
 *** return to the compass rose problem
 **** William Michel's code is good: 
 ***** working, practical code*
