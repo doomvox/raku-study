@@ -90,4 +90,6 @@ use v6;
 
     .say for $pattern3.comb;
 
+
+
 }
