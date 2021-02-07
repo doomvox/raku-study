@@ -36,9 +36,17 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb07.org
 
 
 ** some links to bug people with in chat
+this weeks notes:
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb07.org
-https://github.com/doomvox/raku-study/tree/main/bin/2021jan31
+
+this weeks code:
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
+
+last weeks notes:
+https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021jan31.org
+
+last weeks code:
+https://github.com/doomvox/raku-study/tree/main/bin/2021jan31
 
 
 unshift      push
@@ -47,4 +55,5 @@ unshift      push
    /        \
  |/_        _\|  
 shift         pop
+
 
