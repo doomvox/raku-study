@@ -96,6 +96,8 @@ use v6;
     # t
     # s
 
+    say [~] $pattern3.comb;
+
 }
 
 
