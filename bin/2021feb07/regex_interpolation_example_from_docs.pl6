@@ -53,6 +53,7 @@ use v6;
 
 # ｢｣
 
+## I'm using a slightly old raku:
 
 # raku --version
 # This is Rakudo version 2020.05.1 built on MoarVM version 2020.05
