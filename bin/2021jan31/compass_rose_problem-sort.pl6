@@ -8,6 +8,8 @@
 use v6;
 
 {
+    # bruce gray version:
+    #   my %order = <N S E W> Z=> 0..*; 
     my %order = ( N => 0,
                   S => 1,   
                   W => 2,   
