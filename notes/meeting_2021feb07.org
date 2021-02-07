@@ -44,11 +44,6 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jan31
 ** my favorite cheat sheet
 
 #+BEGIN_SRC picture-mode
-↖
-↗
-
-
-
 unshift      push
  \           /
   ↘ _ _ _ _ ↙
