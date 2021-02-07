@@ -18,8 +18,8 @@ say "...$all..."; # ...bugs peter easter...
 # easter
 
 
-say .[0] [~] .[1] for @rabbits.rotor(2);
-# Cannot use placeholder parameter $^a outside of a sub or block
+say .[0] [~] .[1] for @rabbits.rotor(2);  # bugspeter
+
 
 
 
