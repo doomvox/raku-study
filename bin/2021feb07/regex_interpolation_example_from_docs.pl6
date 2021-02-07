@@ -67,20 +67,20 @@ use v6;
 
 {
     say "===";
-    my $string   = 'Is this a regex or a string: 123\w+False$pattern1 ?';
+    my $string   = 'Is this a regex or a string: 123\w+False$pattern1 ?'; 
     my $pattern1 = 'string';
     my $pattern3 = 'gnirts';
     my $pattern4 = '$pattern1';
     my $bool     = True;
     my sub f1    { return Q[$pattern1] };
     
-    say $string.match: / $pattern3.flip /;                #  [6] OUTPUT: «Nil␤» 
-    say $string.match: / "$pattern3.flip()" /;            #  [7] OUTPUT: «｢string｣␤» 
-    say $string.match: / $($pattern3.flip) /;             #  [8] OUTPUT: «｢string｣␤» 
-    say $string.match: / $([~] $pattern3.comb.reverse) /; #  [9] OUTPUT: «｢string｣␤» 
-    say $string.match: / $(!$bool) /;                     # [10] OUTPUT: «｢False｣␤» 
+    say $string.match: / $pattern3.flip /;                #  Nil
+    say $string.match: / "$pattern3.flip()" /;            #  ｢string｣
+    say $string.match: / $($pattern3.flip) /;             #  ｢string｣
+    say $string.match: / $([~] $pattern3.comb.reverse) /; #  ｢string｣
+    say $string.match: / $(!$bool) /;                     #  ｢False｣
     
-    say $string.match: / $pattern4 /;                     # [11] OUTPUT: «｢$pattern1｣␤» 
-    say $string.match: / $(f1) /;                         # [12] OUTPUT: «｢$pattern1｣␤»
+    say $string.match: / $pattern4 /;                     # ｢$pattern1｣
+    say $string.match: / $(f1) /;                         # ｢$pattern1｣
 
 }
