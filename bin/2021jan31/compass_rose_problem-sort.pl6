@@ -97,8 +97,12 @@ sub sort_directions_deeper_fixed( *@elements ) {
 ## Can you do something like <||> to join iteration over length of string?
 ## (Actually: the length of the shortest of $^a , $^b?)
 
-# bruce gray suggestion:
-my @result = @elements.sort({ %order{ .comb }.join }); 
+{
+    say "---";
+    my @elements = ( 'N', 'NE', 'E', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW');
+    # bruce gray suggestion:
+    my @result = @elements.sort({ %order{ .comb }.join }); 
+}
 
 
 # ====
