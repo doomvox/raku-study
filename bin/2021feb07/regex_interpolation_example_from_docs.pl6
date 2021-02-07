@@ -24,6 +24,7 @@ use v6;
     say $string.match: / $pattern2 /;                     #  ｢\w+｣
     say $string.match: / $regex /;                        #  ｢Is｣
     say $string.match: / $number /;                       #  ｢123｣
+
 }
 
 {
