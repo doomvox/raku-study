@@ -12,28 +12,27 @@ use v6;
 
 # https://docs.raku.org/language/regexes#Regex_interpolation
 
-my $string   = 'Is this a regex or a string: 123\w+False$pattern1 ?';
-my $pattern1 = 'string';
-my $pattern2 = '\w+';
-my $number   = 123;
-my $regex    = /\w+/;
- 
-say $string.match: / 'string' /;                      #  ｢string｣
-say $string.match: / $pattern1 /;                     #  ｢string｣
-say $string.match: / $pattern2 /;                     #  ｢\w+｣
-say $string.match: / $regex /;                        #  ｢Is｣
-say $string.match: / $number /;                       #  ｢123｣
+{
+    my $string   = 'Is this a regex or a string: 123\w+False$pattern1 ?';
+    my $pattern1 = 'string';
+    my $pattern2 = '\w+';
+    my $number   = 123;
+    my $regex    = /\w+/;
+    
+    say $string.match: / 'string' /;                      #  ｢string｣
+    say $string.match: / $pattern1 /;                     #  ｢string｣
+    say $string.match: / $pattern2 /;                     #  ｢\w+｣
+    say $string.match: / $regex /;                        #  ｢Is｣
+    say $string.match: / $number /;                       #  ｢123｣
+}
 
+{
+    my $string   = 'Is this a regex or a string. ';
+    my $pattern1 = 'string';
+    my $pattern2 = '\w+';
+    my $number   = 123;
+    my $regex    = /\w+/;
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
+    say $string.match: / $regex /;                        #  ｢Is｣
+}
