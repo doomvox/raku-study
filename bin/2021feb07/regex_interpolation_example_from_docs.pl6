@@ -25,6 +25,7 @@ use v6;
     say $string.match: / $regex /;                        #  ｢Is｣
     say $string.match: / $number /;                       #  ｢123｣
 
+
 }
 
 {
