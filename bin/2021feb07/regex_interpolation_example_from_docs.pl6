@@ -97,3 +97,12 @@ use v6;
     # s
 
 }
+
+
+@var
+$var
+%var
+
+$var[2]  # uses @var  (has nothing to do with $var)
+
+
