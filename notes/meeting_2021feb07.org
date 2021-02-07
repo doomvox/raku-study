@@ -43,6 +43,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jan31
 
 ** my favorite cheat sheet
 
+#+BEGIN_SRC picture-mode
 
 unshift      push
  \           /
@@ -50,6 +51,8 @@ unshift      push
    /        \
  |/_        _\|  
 shift         pop
+
+#+END_SRC
 
 
 https://en.wikipedia.org/wiki/Compass_rose 
