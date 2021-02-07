@@ -60,6 +60,7 @@ say @expected;
     my @d3 = .push(.shift) with @c;  ## at last, I see what with is for.  As opposed to for.
     say "d3: ", @d3;  # d3: [d a b c]
 
+    # bruce gray says given is better, with is to check definedness:
     my @d3b = .push(.shift) given @c;  
     say "d3b: ", @d3b;
 
