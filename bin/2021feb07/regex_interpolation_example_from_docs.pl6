@@ -28,11 +28,6 @@ use v6;
 
 {
     my $string   = 'Is this a regex or a string. ';
-    my $pattern1 = 'string';
-    my $pattern2 = '\w+';
-    my $number   = 123;
     my $regex    = /\w+/;
-    
-
     say $string.match: / $regex /;                        #  ｢Is｣
 }
