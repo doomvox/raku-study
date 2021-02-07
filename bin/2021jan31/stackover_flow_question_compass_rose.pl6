@@ -135,3 +135,5 @@ say @expected;
 
 ## Joseph Brenner: the rules about how the directions should
 ## be ordered suggests to me we want customized sort behavior...
+
+## /home/doom/End/Cave/Perl6/bin/compass_rose_problem-sort.pl6
