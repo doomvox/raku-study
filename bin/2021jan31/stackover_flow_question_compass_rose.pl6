@@ -61,7 +61,7 @@ say @expected;
     say "d3: ", @d3;  # d3: [d a b c]
 
     my @d3b = .push(.shift) given @c;  
-    say @d3b;
+    say "d3b: ", @d3b;
 
     @c    = @cardinal;
     my @d4 = @c.rotate(1);
