@@ -12,9 +12,12 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
 /home/doom/End/Cave/Perl6/Wall/raku-study/notes/meeting_2021feb07.org
 
 ** possible topics
-*** bruce gray idea for looking for cycles in data structures
+*** bruce gray thoughts on finding cycles in data structures, circular dependencies, etc
 **** thread safe unique identifiers for a queue
 https://docs.raku.org/type/atomicint 
+**** miyagawa code for CPAN circular dependencies
+https://gist.github.com/miyagawa/5516279
+
 *** return to the compass rose problem
 https://stackoverflow.com/questions/65853009/is-there-a-programmatic-way-to-elaborate-the-half-winds-in-raku/65878823#65878823
 https://en.wikipedia.org/wiki/Compass_rose
@@ -90,7 +93,6 @@ https://perlconference.us/tpc-2020-cloud/schedule/
 https://docs.google.com/presentation/d/e/2PACX-1vTA72TQJfUiKSrUGcDO4JS09weJVOKaqKjzUJZF6kILFTTjoX-8YrHPZY9b1Qu1kkmYb2j0BI5lpN4D/pub
 
 ** other subject:
-*** Bruce Gray : https://gist.github.com/miyagawa/5516279
 *** Alan mentioned: friction stir welding
 
 
