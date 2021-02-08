@@ -30,4 +30,8 @@ for @monsters -> $m {
         %h{ $m } = 1;    
     }
 }
-say %h;
+say %h;  # {gammera => 1, ghidora => 1, godzilla => 1, golem => 1}
+
+if %h{ $check_this } {
+  ## one we've seen before
+}
