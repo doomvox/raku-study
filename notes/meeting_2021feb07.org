@@ -8,6 +8,9 @@
 *** today's code examples:
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
 
+*** TODO go through chat messages 
+/home/doom/End/Cave/Perl6/Wall/raku-study/notes/meeting_2021feb07.org
+
 ** possible topics
 *** bruce gray idea for looking for cycles in data structures
 **** thread safe unique identifiers for a queue
