@@ -20,7 +20,7 @@ https://docs.raku.org/type/atomicint
 ***** working, practical code
 ***** can see how solution evolved 
 **** rotate
-***** aside: at last I used 'with'
+***** aside: at last I used 'with' (but bruce gray points out 'given' is better there)
 **** custom sort
 ***** TODO translate to abcd and do a single char sort?
 **** a recursive solution?
