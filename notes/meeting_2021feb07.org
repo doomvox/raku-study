@@ -78,5 +78,8 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb07.org
  https://retractionwatch.com/2014/07/18/the-camel-doesnt-have-two-humps-programming-aptitude-test-canned-for-overzealous-conclusion/ 
 
 
- 
+** bruce gray pick (discussion of programming education):
+https://www.amazon.com/gp/product/0670805416/ The Sachertorte Algorithm
+
+** blue tiger
 
