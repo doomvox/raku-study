@@ -43,7 +43,7 @@ https://docs.raku.org/type/Supply
 https://docs.raku.org/language/list#index-entry-Shaped_arrays
 
 ** some links to bug people with in chat
-this weeks notes:
+this weeks notes (that is, *this* file):
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb07.org
 this weeks code:
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
