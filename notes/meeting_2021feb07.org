@@ -91,3 +91,7 @@ https://perlconference.us/tpc-2020-cloud/schedule/
 William Michels : Sorry Joe, I see a '~=' there, what's that again?
 
 Bruce Gray : https://gist.github.com/miyagawa/5516279
+
+
+Bruce Gray: http://rosettacode.org/wiki/Words_from_neighbour_ones
+  Possible topic for next time.
