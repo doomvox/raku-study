@@ -16,6 +16,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
 **** thread safe unique identifiers for a queue
 https://docs.raku.org/type/atomicint 
 *** return to the compass rose problem
+https://stackoverflow.com/questions/65853009/is-there-a-programmatic-way-to-elaborate-the-half-winds-in-raku/65878823#65878823
 **** I liked William Michel's code:
 ***** working, practical code
 ***** can see how solution evolved 
