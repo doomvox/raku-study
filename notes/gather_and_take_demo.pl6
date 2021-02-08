@@ -30,8 +30,6 @@ for @monsters -> $m {
 }
 say %h;  # {gammera => 1, ghidora => 1, godzilla => 1, golem => 1}
 
-
-
 my %z = gather 
   for @monsters -> $m {
      if $m ~~ /^g/ { 
