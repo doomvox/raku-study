@@ -31,6 +31,17 @@ say @expected;
     is-deeply( @half, @expected, "Testing WM solution" );
 }
 
+{ # bruce gray refactor of william micheals solution:
+    my @intercard = @cardinal  Z~ @cardinal.rotate;
+    my @pre_half  = @cardinal  Z~ @intercard;
+    my @post_half = @intercard Z~ @cardinal.rotate;
+    my @half      = flat zip @cardinal, @pre_half, @intercard, @post_half;
+    14:40:06	 From Bruce Gray : @half .= map: {
+        .trans( 'abcd' => 'NESW' )
+        .subst( :g, / ^ (..) <same> (.) $ /, { $1 ~ $0 } )
+        .subst( :g, /   (ES | WN)       $ /, { $0.flip } )
+    };
+}
 
 {## trying to refactor the william michels solution:
     say "===";
