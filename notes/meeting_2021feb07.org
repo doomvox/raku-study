@@ -82,4 +82,7 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb07.org
 https://www.amazon.com/gp/product/0670805416/ The Sachertorte Algorithm
 
 ** blue tiger
+bruce gray perl-to-raku translator
 
+** conference in the clouds coming up from june 
+https://perlconference.us/tpc-2020-cloud/schedule/ 
