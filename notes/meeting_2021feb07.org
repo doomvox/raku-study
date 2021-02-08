@@ -22,6 +22,7 @@ https://docs.raku.org/type/atomicint
 **** rotate
 ***** aside: at last I used 'with'
 **** custom sort
+***** TODO translate to abcd and do a single char sort?
 **** a recursive solution?
 **** better to Test, which means better to use a library
 *** grammar parsing examples
