@@ -16,9 +16,9 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
 **** thread safe unique identifiers for a queue
 https://docs.raku.org/type/atomicint 
 *** return to the compass rose problem
-**** William Michel's code is good: 
-***** working, practical code*
-**** can see how solution evolved 
+**** I liked William Michel's code:
+***** working, practical code
+***** can see how solution evolved 
 **** rotate
 ***** aside: at last I used 'with'
 **** custom sort
