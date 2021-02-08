@@ -4,10 +4,12 @@
 
 use v6;
 
+my @rabbits  = < bugs peter easter >;
+
 my @a =
-gather for @input -> $item {
-    if ( $item ~~ /^t/ ) {
-        take $item.tc;
+gather for @rabbits -> $r {
+    if ( $r ~~ /^t/ ) {
+        take $r.tc;
         }
 };
 
