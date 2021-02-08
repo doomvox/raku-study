@@ -86,3 +86,4 @@ bruce gray perl-to-raku translator
 
 ** conference in the clouds coming up from june 
 https://perlconference.us/tpc-2020-cloud/schedule/ 
+
