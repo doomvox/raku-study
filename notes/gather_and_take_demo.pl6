@@ -40,5 +40,5 @@ my %z = gather
         take $m => 1;    
      }
 }
-say %z;
+say %z; # {gammera => 1, ghidora => 1, godzilla => 1, golem => 1}
 
