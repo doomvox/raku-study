@@ -13,6 +13,6 @@ gather for @rabbits -> $r {
         }
 };
 
-say @a;  # [Tew Thuree]
+
 
 
