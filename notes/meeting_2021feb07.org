@@ -91,6 +91,9 @@ https://docs.google.com/presentation/d/e/2PACX-1vTA72TQJfUiKSrUGcDO4JS09weJVOKaq
 
 Bruce Gray : https://gist.github.com/miyagawa/5516279
 
+Alan mentioned: friction stir welding
+
+
 **  topics for next time:
 *** Bruce Gray: http://rosettacode.org/wiki/Words_from_neighbour_ones
 *** William Michels : Sorry Joe, I see a '~=' there, what's that again?
