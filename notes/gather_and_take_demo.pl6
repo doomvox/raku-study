@@ -7,11 +7,11 @@ use v6;
 my @rabbits  = < bugs peter easter >;
 
 my @a =
-gather for @rabbits -> $r {
-    if ( $r ~~ /^t/ ) {
+  gather for @rabbits -> $r {
+     if ( $r ~~ /^b/ ) {
         take $r.tc;
         }
-};
+  };
 
 
 
