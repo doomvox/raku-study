@@ -16,9 +16,8 @@ my @a =
 say @a; # [Bugs]
 
 my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
-
 my @b;
 for @monsters -> $m {
     @b.push( $m ) if $m ~~ /^g/;
 }
-say @b;
+say @b; #  [godzilla ghidora gammera golem]
