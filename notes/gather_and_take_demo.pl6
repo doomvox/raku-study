@@ -5,14 +5,12 @@
 use v6;
 
 my @rabbits  = < bugs peter easter >;
-
 my @a =
   gather for @rabbits -> $r {
      if ( $r ~~ /^b/ ) {
         take $r.tc;
         }
   };
-
 say @a; # [Bugs]
 
 my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
