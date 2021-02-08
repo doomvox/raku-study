@@ -63,6 +63,7 @@ http://rosettacode.org/wiki/Box_the_compass
 
 ** lizmat talk on sets at FOSDEM 
 *** william michels recommends this one
+https://fosdem.org/2021/schedule/track/perl_and_raku_programming/
 
 ** alan question about saving off repl sessions:
 https://docs.raku.org/language/faq#How_can_I_get_command_line_history_in_the_Raku_prompt_(REPL)? 
@@ -83,3 +84,6 @@ bruce gray perl-to-raku translator
 ** conference in the clouds from june 
 https://perlconference.us/tpc-2020-cloud/schedule/ 
 
+William Michels : Sorry Joe, I see a '~=' there, what's that again?
+
+Bruce Gray : https://gist.github.com/miyagawa/5516279
