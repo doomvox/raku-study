@@ -19,6 +19,7 @@ https://docs.raku.org/type/atomicint
 https://stackoverflow.com/questions/65853009/is-there-a-programmatic-way-to-elaborate-the-half-winds-in-raku/65878823#65878823
 https://en.wikipedia.org/wiki/Compass_rose
 https://en.wikipedia.org/wiki/Points_of_the_compass
+https://en.wikipedia.org/wiki/Points_of_the_compass#32-wind_compass_rose
 **** I liked William Michel's code:
 ***** working, practical code
 ***** can see how solution evolved 
