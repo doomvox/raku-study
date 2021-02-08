@@ -32,6 +32,13 @@ for @monsters -> $m {
 }
 say %h;  # {gammera => 1, ghidora => 1, godzilla => 1, golem => 1}
 
-if %h{ $check_this } {
-  ## one we've seen before
+
+
+my %z = gather 
+  for @monsters -> $m {
+     if $m ~~ /^g/ { 
+        take $m => 1;    
+     }
 }
+say %z;
+
