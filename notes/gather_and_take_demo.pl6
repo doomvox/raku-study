@@ -21,3 +21,13 @@ for @monsters -> $m {
     @b.push( $m ) if $m ~~ /^g/;
 }
 say @b; #  [godzilla ghidora gammera golem]
+
+
+my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
+my %h;
+for @monsters -> $m {
+    if $m ~~ /^g/ { 
+        %h{ $m } = 1;    
+    }
+}
+say %h;
