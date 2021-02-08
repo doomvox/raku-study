@@ -85,8 +85,9 @@ https://www.amazon.com/gp/product/0670805416/
 ** blue tiger
 bruce gray perl-to-raku translator
 
-** conference in the clouds from june 
+** conference in the clouds from june  (william michels)
 https://perlconference.us/tpc-2020-cloud/schedule/ 
+https://docs.google.com/presentation/d/e/2PACX-1vTA72TQJfUiKSrUGcDO4JS09weJVOKaqKjzUJZF6kILFTTjoX-8YrHPZY9b1Qu1kkmYb2j0BI5lpN4D/pub
 
 William Michels : Sorry Joe, I see a '~=' there, what's that again?
 
