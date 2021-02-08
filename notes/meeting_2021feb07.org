@@ -55,7 +55,7 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021jan31.org
 last weeks code:
 https://github.com/doomvox/raku-study/tree/main/bin/2021jan31
 
-** my favorite cheat sheet
+** one of my favorite cheat sheets
 
 #+BEGIN_SRC picture-mode
 unshift      push
