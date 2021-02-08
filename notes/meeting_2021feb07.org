@@ -59,7 +59,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jan31
 
 #+BEGIN_SRC picture-mode
 unshift      push
-  ↘         ↙
+  ↘          ↙
     =======
   ↙          ↘
 shift         pop
