@@ -2,7 +2,7 @@
 # 
 # gather_and_take_demo.pl6            07 Feb 2021 
 
-## re-implementing "grep" to demo what gather/take is for
+## re-implementing "grep" to demo  gather/take 
 
 use v6;
 
