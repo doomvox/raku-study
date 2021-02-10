@@ -98,6 +98,8 @@ sub sort_directions_deeper_fixed( *@elements ) {
 ## (Actually: the length of the shortest of $^a , $^b?)
 
 {
+    # the solution is to combine the transformed elements into a single sort key
+    # (as suggested by lambert lum and bruce gray)
     say "---";
     my @elements = ( 'N', 'NE', 'E', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW');
     my %order = <N S E W> Z=> 0..*; 
