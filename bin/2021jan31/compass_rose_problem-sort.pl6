@@ -113,17 +113,17 @@ sub sort_directions_deeper_fixed( *@elements ) {
 }
 
 
-{ # more bruce gray code:
-    my @intercard = @cardinal Z~ @cardinal.rotate;
-    my @pre_half = @cardinal Z~ @intercard;
-    my @post_half = @intercard Z~ @cardinal.rotate;
-    my @half = flat zip @cardinal, @pre_half, @intercard, @post_half; 
-    @half .= map: {
-        .trans( 'abcd' => 'NESW' )
-        .subst( :g, / ^ (..) <same> (.) $ /, { $1 ~ $0 } )
-        .subst( :g, / (ES | WN) $ /, { $0.flip } )
-    }; 
-}
+# { # more bruce gray code:
+#     my @intercard = @cardinal Z~ @cardinal.rotate;
+#     my @pre_half = @cardinal Z~ @intercard;
+#     my @post_half = @intercard Z~ @cardinal.rotate;
+#     my @half = flat zip @cardinal, @pre_half, @intercard, @post_half; 
+#     @half .= map: {
+#         .trans( 'abcd' => 'NESW' )
+#         .subst( :g, / ^ (..) <same> (.) $ /, { $1 ~ $0 } )
+#         .subst( :g, / (ES | WN) $ /, { $0.flip } )
+#     }; 
+# }
 
 
 # ====
