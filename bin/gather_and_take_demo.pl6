@@ -2,6 +2,8 @@
 # 
 # gather_and_take_demo.pl6            07 Feb 2021 
 
+## re-implementing "grep" to demo what gather/take is for
+
 use v6;
 
 my @rabbits  = < bugs peter easter >;
