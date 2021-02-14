@@ -11,5 +11,6 @@ say $s;
 say $s{2};   # True
 say $s{'2'}; # False
 
-say $s.values; # (True True True)
-say $s.keys;
+say $s.values; # (True True True)    better than 1 1 1
+say $s.keys;   # (2 4 6)
+
