@@ -71,6 +71,6 @@ my $m = mix < a b c a a b >;
 say $m;
 say $m<a>;
 say $m<a>.WHAT;
-say $m.values
+say $m.values;
 
 $m<c>=2.5;
