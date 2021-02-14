@@ -57,4 +57,4 @@ j. paul morrison (70s)
 
 *** oslo perl mongers 
 brian d foy 
-
+renaming is good
