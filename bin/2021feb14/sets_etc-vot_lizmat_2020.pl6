@@ -7,6 +7,7 @@ use method-menu;
 use Object::Examine;
 
 my $s = set 2, 4, 6;
+$s does Introspector;
 $s.menu;
 
 say $s.^methods;
