@@ -89,3 +89,6 @@ say $mh<c>.WHAT;  # (Num)
 
 say $mh<a>;  # 2
 say $mh<a>.WHAT;   # (Int)
+
+say $mh<b>;  # 
+say $mh<b>.WHAT; 
