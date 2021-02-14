@@ -4,6 +4,7 @@
 
 use v6;
 use method-menu;
+use Object::Examine;
 
 my $s = set 2, 4, 6;
 
