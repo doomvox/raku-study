@@ -8,5 +8,7 @@ my $s = set 2, 4, 6;
 
 say $s;
 
-say $s{2};
-say $s{'2'};
+say $s{2};   # True
+say $s{'2'}; # False
+
+say $s.values;
