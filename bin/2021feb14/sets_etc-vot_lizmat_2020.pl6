@@ -14,3 +14,5 @@ say $s{'2'}; # False
 say $s.values; # (True True True)    better than 1 1 1
 say $s.keys;   # (2 4 6)
 
+my $b = bag < a b c a a b >;
+say $b;
