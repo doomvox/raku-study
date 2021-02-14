@@ -29,3 +29,4 @@ https://www.nntp.perl.org/group/perl.perl6.users/2021/02/msg9706.html
 ***** pickpairs
 ***** of
 ***** roll
+** lambert lum asks about pack/unpack: just in experimental form in raku
