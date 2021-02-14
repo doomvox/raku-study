@@ -66,3 +66,4 @@ say '--1--';
 $b does Introspector;
 .say for $b.menu.split("\n").grep({/Bag/});
 # say $b.menu.grep({/<<Set>>/});
+
