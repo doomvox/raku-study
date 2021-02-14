@@ -10,7 +10,7 @@ my $s = set 2, 4, 6;
 $s does Introspector;
 $s.menu;
 
-say $s.^methods;
+# say $s.^methods;
 
 say $s;      # Set(2 4 6)
 
