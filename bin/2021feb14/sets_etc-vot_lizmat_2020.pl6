@@ -11,4 +11,5 @@ say $s;
 say $s{2};   # True
 say $s{'2'}; # False
 
-say $s.values;
+say $s.values; # (True True True)
+say $s.keys;
