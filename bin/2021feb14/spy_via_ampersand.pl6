@@ -17,8 +17,11 @@ sub spy {
 
 
 say "===";
-
+# talking about method calls and $_
 say 66.cosine;
 
 $_ = 77;
 say .cosine;
+
+say <aaa bbb ccc>.map({ .uc });
+say <aaa bbb ccc>.map: *.uc;
