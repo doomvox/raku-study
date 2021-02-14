@@ -7,6 +7,8 @@ use method-menu;
 use Object::Examine;
 
 my $s = set 2, 4, 6;
+# say $s.^methods;
+
 $s does Introspector;
 say $s.menu.grep({/Set/});
 # (ACCEPTS                   Set                      
@@ -43,7 +45,7 @@ say $s.menu.grep({/Set/});
 # total                     Set                      
 
 
-# say $s.^methods;
+
 
 say $s;      # Set(2 4 6)
 
