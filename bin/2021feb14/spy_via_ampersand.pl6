@@ -27,4 +27,4 @@ say <aaa bbb ccc>.map({ .uc });   #  (AAA BBB CCC)
 
 say <aaa bbb ccc>.map( *.uc );    #  (AAA BBB CCC)
 
-say <aaa bbb ccc>.map: *.uc ;    #  (AAA BBB CCC)
+say <aaa bbb ccc>.map: *.uc ;     #  (AAA BBB CCC)
