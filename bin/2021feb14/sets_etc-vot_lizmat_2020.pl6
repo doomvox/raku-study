@@ -9,6 +9,7 @@ use Object::Examine;
 my $s = set 2, 4, 6;
 # say $s.^methods;
 
+say '---';
 $s does Introspector;
 say $s.menu.grep({/Set/});
 # (ACCEPTS                   Set                      
