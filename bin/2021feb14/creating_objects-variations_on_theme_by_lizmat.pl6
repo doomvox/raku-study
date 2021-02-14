@@ -17,8 +17,9 @@ class Point {
     has $.y };
 
 for ^1_000_000 {
-    Point.new( x => 42,
-               y => 666)
+    my $assign =   ## Added for B
+      Point.new( x => 42,
+                 y => 666)
     }
 
 # run order: co A, ch, co A, ch
