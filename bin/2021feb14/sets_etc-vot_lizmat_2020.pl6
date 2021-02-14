@@ -84,11 +84,11 @@ my $mh = (
 
 say $mh;  # MixHash(a(2) b(3.51) c(3.141592653589793))
 
-say $mh<c>;  # 3.141592653589793
-say $mh<c>.WHAT;  # (Num)
+say $mh<c>;        # 3.141592653589793
+say $mh<c>.WHAT;   # (Num)
 
 say $mh<a>;  # 2
 say $mh<a>.WHAT;   # (Int)
 
-say $mh<b>;       #  3.51
-say $mh<b>.WHAT;  # (Rat)
+say $mh<b>;        #  3.51
+say $mh<b>.WHAT;   # (Rat)
