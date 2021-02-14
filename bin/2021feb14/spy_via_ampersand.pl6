@@ -23,6 +23,6 @@ say 66.cos; # -0.99964745596635
 $_ = 77;
 say .cos;   # -0.03097503173121646
 
-say <aaa bbb ccc>.map({ .uc });
+say <aaa bbb ccc>.map({ .uc });   #  (AAA BBB CCC)
 
-# say <aaa bbb ccc>.map( *.uc ).grep();
+say <aaa bbb ccc>.map( *.uc ).grep();
