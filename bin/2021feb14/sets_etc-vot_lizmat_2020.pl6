@@ -64,5 +64,5 @@ say "Bag values: ", $b.values;  # (2 3 1)
 
 say '--1--';
 $b does Introspector;
-say $b.menu.grep({/Bag/});
+say $b.menu.split("\n").grep({/Bag/});
 # say $b.menu.grep({/<<Set>>/});
