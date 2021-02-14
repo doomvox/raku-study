@@ -31,4 +31,6 @@ weighted random pick
 ***** of
 ***** roll
 ** lambert lum asks about pack/unpack: just in experimental form in raku
-https://docs.raku.org/routine/unpack 
+https://docs.raku.org/routine/unpack
+** jonathan swift, etc
+http://obsidianrook.com/doomfiles/MODEST_PROPOSAL.html
