@@ -36,6 +36,7 @@ for ^1_000_000 {
 # user	0m1.676s
 # sys	0m0.036s
 
+## first run of "co B":
 # real	0m1.678s
 # user	0m1.772s
 # sys	0m0.040s
