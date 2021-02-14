@@ -6,7 +6,7 @@ use v6;
 use method-menu;
 
 my $s = set 2, 4, 6;
-say $s.m;
+say m $s;
 
 say $s.^methods;
 
