@@ -54,3 +54,9 @@ for ^1_000_000 {
 # real	0m5.781s
 # user	0m5.860s
 # sys	0m0.032s
+
+# # third run:
+# real	0m5.854s
+# user	0m5.924s
+# sys	0m0.040s
+
