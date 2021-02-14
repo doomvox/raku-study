@@ -15,4 +15,4 @@ say $s.values; # (True True True)    better than 1 1 1
 say $s.keys;   # (2 4 6)
 
 my $b = bag < a b c a a b >;
-say $b;
+say $b; # Bag(a(3) b(2) c)
