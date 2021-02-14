@@ -8,7 +8,10 @@
 # comparison object creation and hash creation
 #   time raku -e 'class Point { has $.x; has $.y }; for ^1_000_000 { Point.new( x => 42, y => 666) }'
 #   time raku -e 'for ^1_000_000 { my %p = x => 42, y => 666 }'
-# 0.5s vs 1.66s
+# See: 0.5s vs 1.66s, deducting 120ms start-up => 4x as fast
+
+# my slide screenshot:
+#   /home/doom/End/Cave/Perl6/Ore/lizmat-2020-01.png
 
 use v6;
 
