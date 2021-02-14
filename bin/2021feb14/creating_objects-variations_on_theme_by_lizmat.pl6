@@ -22,9 +22,16 @@ for ^1_000_000 {
     }
 
 # time ./creating_objects-variations_on_theme_by_lizmat.pl6
+## first run:
 # real	0m3.345s
 # user	0m1.752s
 # sys	0m0.048s
+## second run:
+# real	0m1.577s
+# user	0m1.676s
+# sys	0m0.036s
+
+
 
 # time ./creating_hashes-variations_on_theme_by_lizmat.pl6
 # real	0m5.869s
