@@ -12,11 +12,11 @@ my $s = set 2, 4, 6;
 say '--0--';
 $s does Introspector;
 # say $s.menu.grep({/Set/});
-my @m0 =  | $s.menu.split("\n");
-my @m1 =  | $s.menu.split("\n").grep({/Set/});
+my @m0 =  | $s.menu.split("\n");  # 85 items
+my @m1 =  | $s.menu.split("\n").grep({/Set/});  # 32 items
+say @m1;
 
-say @m0.elems, ' ', @m1.elems;
-dd @m0;
+
 
 # (ACCEPTS                   Set                      
 # BUILDALL                  Set                      
