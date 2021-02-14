@@ -41,6 +41,10 @@ for ^1_000_000 {
 # user	0m1.772s
 # sys	0m0.040s
 
+## second run of "co B":
+# real	0m1.654s
+# user	0m1.776s
+# sys	0m0.012s
 
 
 # time ./creating_hashes-variations_on_theme_by_lizmat.pl6
