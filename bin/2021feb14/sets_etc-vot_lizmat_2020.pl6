@@ -8,7 +8,7 @@ use Object::Examine;
 
 my $s = set 2, 4, 6;
 $s does Introspector;
-say $s.menu;
+say $s.menu.grep({/Set/});
 
 # say $s.^methods;
 
