@@ -42,9 +42,6 @@ use v6;
 # my $captured = qqx{echo $arg};
 
 
-
-
-
 # ===
 # Author:  doom@kzsu.stanford.edu
 
