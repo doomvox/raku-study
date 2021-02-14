@@ -12,7 +12,10 @@ my $s = set 2, 4, 6;
 say '--0--';
 $s does Introspector;
 # say $s.menu.grep({/Set/});
-say $s.menu;
+my @m0 =  $s.menu;
+my @m1 =  $s.menu.grep({/Set/});
+
+say @m0.elems, @m1.elems;
 
 # (ACCEPTS                   Set                      
 # BUILDALL                  Set                      
