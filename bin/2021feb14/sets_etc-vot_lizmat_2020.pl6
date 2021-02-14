@@ -54,3 +54,6 @@ say $s.keys;   # (2 4 6)
 
 my $b = bag < a b c a a b >;
 say $b; # Bag(a(3) b(2) c)
+
+$b does Introspector;
+$b.menu say $s.menu.grep({/<<Bag>>/});
