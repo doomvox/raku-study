@@ -14,3 +14,5 @@ Last week's notes:
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb07.org
 Last weeks demo scripts:
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
+** possible topics
+*** 
