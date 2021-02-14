@@ -59,8 +59,8 @@ say $s.keys;   # (2 4 6)
 
 my $b = bag < a b c a a b >;
 say $b; # Bag(a(3) b(2) c)
-
-say $b.values;
+say $b.values;  # (2 3 1)
+## a Bag is much like a Mix, except the values are integers
 
 say '--1--';
 $b does Introspector;
