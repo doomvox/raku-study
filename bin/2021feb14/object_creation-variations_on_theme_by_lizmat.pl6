@@ -1,6 +1,6 @@
 #!/usr/bin/env perl6
 # 
-# object_creation-variations_on_theme_by_lizmat.pl6            14 Feb 2021 
+# creating_objects-variations_on_theme_by_lizmat.pl6            14 Feb 2021 
 
 ## Elizabeth Mattijsen (sp) 
 ## Deutscher Perl-/Raku-Workshop 2020
