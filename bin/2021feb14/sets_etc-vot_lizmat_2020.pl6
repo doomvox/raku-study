@@ -88,3 +88,4 @@ say $mh<c>;  # 3.141592653589793
 say $mh<c>.WHAT;  # (Num)
 
 say $mh<a>;  # 3.141592653589793
+say $mh<a>.WHAT;  
