@@ -11,7 +11,9 @@ my $s = set 2, 4, 6;
 
 say '--0--';
 $s does Introspector;
-say $s.menu.grep({/Set/});
+# say $s.menu.grep({/Set/});
+ $s.menu;
+
 # (ACCEPTS                   Set                      
 # BUILDALL                  Set                      
 # Baggy                     Set                      
