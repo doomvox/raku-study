@@ -5,8 +5,8 @@
 
 use v6;
 
-my @monsters =
-    << godzilla blob mothera mechazilla tingler garuda gammera  >>;
+my @monsters =  
+  << godzilla blob mothera mechazilla tingler garuda gammera  >>;
 say "result: ", @monsters.grep({ m/^g/ }).&spy.grep({ m/z/ }).map({ .uc });
 
 sub spy {
