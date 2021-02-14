@@ -8,7 +8,7 @@
 *** today's code examples:
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
 
-*** TODO go through chat messages 
+*** saved chat
 /home/doom/End/Cave/Perl6/Wall/raku-study/notes/meeting_2021feb07.org
 
 ** possible topics
