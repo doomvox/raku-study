@@ -24,4 +24,5 @@ $_ = 77;
 say .cosine;
 
 say <aaa bbb ccc>.map({ .uc });
-say <aaa bbb ccc>.map: *.uc;
+
+# say <aaa bbb ccc>.map( *.uc ).grep();
