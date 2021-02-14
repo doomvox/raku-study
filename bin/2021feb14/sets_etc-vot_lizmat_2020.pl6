@@ -76,3 +76,10 @@ say $m.values;
 ## Can't do this, it's a Mix, not a MixHash:
 ## $m<c>=2.5; # Cannot modify an immutable Int (1)
 
+my $mh = (
+    a => 2.5,
+    b => 3.51,
+    c => pi
+    ).MixHash;
+
+say $mh;
