@@ -16,4 +16,9 @@ sub spy {
 }    
 
 
+say "===";
 
+say 66.cosine;
+
+$_ = 77;
+say .cosine;
