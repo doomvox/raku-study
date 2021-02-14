@@ -21,6 +21,7 @@ for ^1_000_000 {
                y => 666)
     }
 
+# run order: co, ch, co, ch
 # time ./creating_objects-variations_on_theme_by_lizmat.pl6
 
 ## first run (first use of raku today)
