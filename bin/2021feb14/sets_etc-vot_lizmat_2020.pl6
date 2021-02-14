@@ -7,6 +7,7 @@ use v6;
 my $s = set 2, 4, 6;
 
 say $s.^methods;
+use method::menu;
 
 say $s;      # Set(2 4 6)
 
