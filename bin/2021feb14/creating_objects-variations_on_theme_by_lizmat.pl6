@@ -26,3 +26,9 @@ for ^1_000_000 {
 # real	0m3.345s
 # user	0m1.752s
 # sys	0m0.048s
+
+time ./creating_hashes-variations_on_theme_by_lizmat.pl6
+
+real	0m5.869s
+user	0m5.948s
+sys	0m0.036s
