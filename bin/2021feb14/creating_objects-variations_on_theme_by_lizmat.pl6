@@ -34,6 +34,13 @@ for ^1_000_000 {
 
 
 # time ./creating_hashes-variations_on_theme_by_lizmat.pl6
+
+## first run:
 # real	0m5.869s
 # user	0m5.948s
 # sys	0m0.036s
+
+# ## second run:
+# real	0m5.781s
+# user	0m5.860s
+# sys	0m0.032s
