@@ -16,6 +16,7 @@ my @m0 =  | $s.menu;
 my @m1 =  | $s.menu.grep({/Set/});
 
 say @m0.elems, ' ', @m1.elems;
+dd @m0;
 
 # (ACCEPTS                   Set                      
 # BUILDALL                  Set                      
