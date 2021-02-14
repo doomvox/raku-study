@@ -73,5 +73,6 @@ say $m<a>;
 say $m<a>.WHAT;  # (Int)
 say $m.values;
 
-## This is a Mix, not a MixHash:
+## Can't do this, it's a Mix, not a MixHash:
 ## $m<c>=2.5; # Cannot modify an immutable Int (1)
+
