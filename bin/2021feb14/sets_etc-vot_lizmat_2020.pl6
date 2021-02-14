@@ -82,4 +82,7 @@ my $mh = (
     c => pi
     ).MixHash;
 
-say $mh;
+say $mh;  # MixHash(a(2.5) b(3.51) c(3.141592653589793))
+
+say $mh<c>;
+say $mh<c>.WHAT;
