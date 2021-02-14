@@ -35,6 +35,12 @@ weighted random pick
 **** new book "unix a memoir and a history"
 ** lambert lum asks about pack/unpack: just in experimental form in raku
 https://docs.raku.org/routine/unpack
+
+** MONKEY-PATCHING, augment
+https://docs.raku.org/syntax/augment
+https://docs.raku.org/language/experimental#macros 
+https://docs.raku.org/language/pragmas#nqp 
+
 ** jonathan swift, etc
 http://obsidianrook.com/doomfiles/MODEST_PROPOSAL.html
 
@@ -48,3 +54,4 @@ https://github.com/seasidest/seaside
 
 *** flow-based programmer
 j. paul morrison (70s)
+
