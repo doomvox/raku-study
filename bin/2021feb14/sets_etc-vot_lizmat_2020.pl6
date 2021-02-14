@@ -12,7 +12,7 @@ my $s = set 2, 4, 6;
 say '--0--';
 $s does Introspector;
 # say $s.menu.grep({/Set/});
-my @m0 =  | $s.menu.split;
+my @m0 =  | $s.menu.split("\n");
 my @m1 =  | $s.menu.grep({/Set/});
 
 say @m0.elems, ' ', @m1.elems;
