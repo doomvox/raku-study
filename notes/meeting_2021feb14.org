@@ -2,3 +2,5 @@
 ** agenda
 *** hey
 *** any announcements
+**** sv perl talk, "secure coding in perl", Thursday, March 04, 6:39pm
+https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
