@@ -70,7 +70,8 @@ $b does Introspector;
 my $m = mix < a b c a a b >;
 say $m;
 say $m<a>;
-say $m<a>.WHAT;
+say $m<a>.WHAT;  # (Int)
 say $m.values;
 
-$m<c>=2.5;
+## This is a Mix, not a MixHash:
+## $m<c>=2.5; # Cannot modify an immutable Int (1)
