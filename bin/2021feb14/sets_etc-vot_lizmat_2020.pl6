@@ -57,5 +57,5 @@ say $b; # Bag(a(3) b(2) c)
 
 say '---';
 $b does Introspector;
-say $b.menu.grep({/<<Bag>>/});
+say $b.menu.grep({/Bag/});
 say $b.menu.grep({/<<Set>>/});
