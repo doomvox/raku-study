@@ -49,6 +49,10 @@ my @m1 =  | $s.menu.split("\n").grep({/Set/});  # 32 items
 # roll                      Set                      
 # total                     Set                      
 
+say "===";
+say $s.menu;
+say "===";
+
 say $s;      # Set(2 4 6)
 
 say $s{2};   # True
@@ -92,3 +96,4 @@ say $mh<a>.WHAT;   # (Int)
 
 say $mh<b>;        #  3.51
 say $mh<b>.WHAT;   # (Rat)
+1
