@@ -9,6 +9,39 @@ use Object::Examine;
 my $s = set 2, 4, 6;
 $s does Introspector;
 say $s.menu.grep({/Set/});
+# (ACCEPTS                   Set                      
+# BUILDALL                  Set                      
+# Baggy                     Set                      
+# Bool                      Set                      
+# Capture                   Set                      
+# Int                       Set                      
+# Mixy                      Set                      
+# Num                       Set                      
+# Numeric                   Set                      
+# Real                      Set                      
+# STORE                     Set                      
+# Setty                     Set                      
+# Str                       Set                      
+# WHICH                     Set                      
+# default                   Set                      
+# elems                     Set                      
+# fmt                       Set                      
+# gist                      Set                      
+# grab                      Set                      
+# grabpairs                 Set                      
+# iterator                  Set                      
+# keyof                     Set                      
+# maxpairs                  Set                      
+# minpairs                  Set                      
+# new                       Set                      
+# new-from-pairs            Set                      
+# of                        Set                      
+# pick                      Set                      
+# pickpairs                 Set                      
+# raku                      Set                      
+# roll                      Set                      
+# total                     Set                      
+
 
 # say $s.^methods;
 
