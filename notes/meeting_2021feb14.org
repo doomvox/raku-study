@@ -55,3 +55,6 @@ https://github.com/seasidest/seaside
 *** flow-based programmer
 j. paul morrison (70s)
 
+*** oslo perl mongers 
+brian d foy 
+
