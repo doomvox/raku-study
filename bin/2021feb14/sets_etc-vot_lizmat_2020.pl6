@@ -84,5 +84,5 @@ my $mh = (
 
 say $mh;  # MixHash(a(2.5) b(3.51) c(3.141592653589793))
 
-say $mh<c>;
+say $mh<c>;  # 3.141592653589793
 say $mh<c>.WHAT;
