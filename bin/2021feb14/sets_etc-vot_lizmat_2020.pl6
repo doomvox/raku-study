@@ -77,12 +77,14 @@ say $m.values;
 ## $m<c>=2.5; # Cannot modify an immutable Int (1)
 
 my $mh = (
-    a => 2.5,
+    a => 2,
     b => 3.51,
     c => pi
     ).MixHash;
 
-say $mh;  # MixHash(a(2.5) b(3.51) c(3.141592653589793))
+say $mh;  # MixHash(a(2) b(3.51) c(3.141592653589793))
 
 say $mh<c>;  # 3.141592653589793
-say $mh<c>.WHAT;
+say $mh<c>.WHAT;  # (Num)
+
+say $mh<a>;  # 3.141592653589793
