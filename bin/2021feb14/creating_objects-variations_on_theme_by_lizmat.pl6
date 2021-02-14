@@ -17,7 +17,7 @@ class Point {
     has $.y };
 
 for ^1_000_000 {
-#    my $assign =   ## Added for B
+    my $assign =   ## Added for B
       Point.new( x => 42,
                  y => 666)
     }
