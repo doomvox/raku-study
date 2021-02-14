@@ -67,3 +67,9 @@ $b does Introspector;
 .say for $b.menu.split("\n").grep({/Bag/});
 # say $b.menu.grep({/<<Set>>/});
 
+my $m = mix < a b c a a b >;
+say $m;
+say $m<a>;
+say $m.values
+
+$m<c>=2.5;
