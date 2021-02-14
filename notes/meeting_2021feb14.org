@@ -26,6 +26,7 @@ https://www.nntp.perl.org/group/perl.perl6.users/2021/02/msg9706.html
 ***** maxpairs
 ***** minpairs
 ***** pick
+weighted random pick
 ***** pickpairs
 ***** of
 ***** roll
