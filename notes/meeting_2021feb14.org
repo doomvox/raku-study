@@ -30,3 +30,4 @@ https://www.nntp.perl.org/group/perl.perl6.users/2021/02/msg9706.html
 ***** of
 ***** roll
 ** lambert lum asks about pack/unpack: just in experimental form in raku
+https://docs.raku.org/routine/unpack 
