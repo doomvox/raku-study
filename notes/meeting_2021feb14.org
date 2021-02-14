@@ -37,3 +37,10 @@ https://docs.raku.org/routine/unpack
 ** jonathan swift, etc
 http://obsidianrook.com/doomfiles/MODEST_PROPOSAL.html
 
+** misc subjects, smalltalk and beyond
+*** squeak
+https://squeak.org/ 
+
+*** seaside
+https://en.wikipedia.org/wiki/Seaside_(software)
+https://github.com/seasidest/seaside 
