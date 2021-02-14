@@ -6,6 +6,8 @@ use v6;
 
 my $s = set 2, 4, 6;
 
+say $s.^methods;
+
 say $s;      # Set(2 4 6)
 
 say $s{2};   # True
