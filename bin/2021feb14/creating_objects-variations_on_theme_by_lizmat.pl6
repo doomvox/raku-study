@@ -22,7 +22,7 @@ for ^1_000_000 {
                  y => 666)
     }
 
-# run order: co A, ch, co A, ch, co B
+# run order: co A, ch, co A, ch, co B, ch, co B
 
 # time ./creating_objects-variations_on_theme_by_lizmat.pl6
 
