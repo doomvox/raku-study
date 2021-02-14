@@ -3,7 +3,7 @@
 # sets_etc-vot_lizmat_2020.pl6            14 Feb 2021 
 
 use v6;
-use method-menu;
+# use method-menu;
 use Object::Examine;
 
 my $s = set 2, 4, 6;
