@@ -25,4 +25,4 @@ say .cos;   # -0.03097503173121646
 
 say <aaa bbb ccc>.map({ .uc });   #  (AAA BBB CCC)
 
-say <aaa bbb ccc>.map( *.uc ).grep();
+say <aaa bbb ccc>.map( *.uc );
