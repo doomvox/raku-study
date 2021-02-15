@@ -151,7 +151,7 @@ say $diff; # Set(blob grendel wormface)
     my $new_mix = ( godilla => 2.5,
                     mothera => 1.5,
                     blob    => 1,
-                    gammera => 0.5 ).MixHash;
+                    gammera => 0.5 ).Mix;
 
     say $new_mix;
     say $new_mix.pick;
