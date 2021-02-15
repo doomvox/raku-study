@@ -107,8 +107,8 @@ say $mh<b>.WHAT;   # (Rat)
 
 say "--2--";
 
-my @monsters1 = < godzilla grendel wormface blob >;
-my @monsters2 = < godzilla mothera ghidora gammera golem rhodan >;
+my @monsters1 = < godzilla mothera ghidora gammera rhodan >;
+my @monsters2 = < godzilla blob grendel wormface mothera ghidora gammera golem rhodan >;
 
 my $result = set @monsters2  (-) set @monsters1 ;
 
