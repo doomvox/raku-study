@@ -127,6 +127,7 @@ say $diff; # Set(blob grendel wormface)
 # Variable '@monster2' is not declared.  Did you mean any of these:
 # '@monsters2', '@monsters1'?
 
-
 my $hm = @monster2.Set  (-) @monsters1.Set ;
 say $hm;
+# Variable '@monster2' is not declared.  Did you mean any of these:
+# '@monsters2', '@monsters1'?
