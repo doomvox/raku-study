@@ -2,8 +2,12 @@
 # 
 # set_difference.pl6            15 Feb 2021 
 
+## playing with minor syntax variations in set differences,
+## making sure they all work as I expect
+
 use v6;
 use Test;
+
 say "--0--";
 
 my @japanese = < godzilla mothera ghidora gammera rhodan >;
