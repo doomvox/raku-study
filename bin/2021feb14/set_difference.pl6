@@ -14,6 +14,15 @@ my @all = < godzilla blob grendel wormface mothera ghidora gammera golem rhodan 
 my @japanese = < godzilla mothera ghidora gammera rhodan >;
 my @expected = < blob wormface golem >;
 
+{ 
+    my $s_all = set @all;
+    say $s_all;  # 
+    my $s_j = set @japanese;
+    say $s_j;  # 
+    my $diff = $s_j (-) $s_all;
+    say $diff; # Set(blob grendel wormface)
+}
+
 {
     my $result = set @all  (-) set @japanese ;
     say $result;
@@ -23,14 +32,7 @@ my @expected = < blob wormface golem >;
                "Testing set difference: array to set via function on same line");
 }
 
-{ 
-    my $s_j = set @japanese;
-    say $s_j;  # Set(blob godzilla grendel wormface)
-    my $s_all = set @all;
-    say $s_all;  # Set(gammera ghidora godzilla golem mothera rhodan)
-    my $diff = $s_j (-) $s_all;
-    say $diff; # Set(blob grendel wormface)
-}
+
 
 {
     my $result = set(@all)  (-) set(@japanese) ;
