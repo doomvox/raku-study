@@ -26,8 +26,11 @@ my $expected_set = set @expected;
                "Testing set difference; convert arrays via function first." );
     # ok 1 - Testing set difference; convert arrays via function first.
 
-    my @diff = $diff.Array;
-    is-deeply( @diff, @expected,
+    # This is an array of pairs, not what I want
+    # my @diff = $diff.Array;  # $[:grendel, :wormface, :golem, :blob]
+    my @diff = $diff.keys;  
+
+    is-deeply( @diff, @expected, 
                "Testing set difference; convert arrays via function first, convert to array after." );
 
 
