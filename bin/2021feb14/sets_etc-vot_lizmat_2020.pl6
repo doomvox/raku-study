@@ -17,7 +17,6 @@ my $s = set 2, 4, 6;
 
 say '--0--';
 $s does Introspector;
-# say $s.menu.grep({/Set/});
 my @m0 =  | $s.menu.split("\n");  # 85 items
 my @m1 =  | $s.menu.split("\n").grep({/Set/});  # 32 items
 .say for @m1;
