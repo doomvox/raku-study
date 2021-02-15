@@ -88,25 +88,27 @@ say $m.values;
 ## Can't assign a value to a Mix, it's immutable.  Would need a MixHash:
 ## $m<c>=2.5; # Cannot modify an immutable Int (1)
 
-## Q: what *exactly* are the keys of a Mix?
-## A: *any* numeric type
+{
+    ## Q: what *exactly* are the keys of a Mix?
+    ## A: *any* numeric type
 
-my $mh = (
-    a => 2,
-    b => 3.51,
-    c => pi
+    my $mh = (
+        a => 2,
+        b => 3.51,
+        c => pi
     ).MixHash;
 
-say $mh;  # MixHash(a(2) b(3.51) c(3.141592653589793))
+    say $mh;  # MixHash(a(2) b(3.51) c(3.141592653589793))
 
-say $mh<c>;        # 3.141592653589793
-say $mh<c>.WHAT;   # (Num)
+    say $mh<c>;        # 3.141592653589793
+    say $mh<c>.WHAT;   # (Num)
 
-say $mh<a>;  # 2
-say $mh<a>.WHAT;   # (Int)
+    say $mh<a>;  # 2
+    say $mh<a>.WHAT;   # (Int)
 
-say $mh<b>;        #  3.51
-say $mh<b>.WHAT;   # (Rat)
+    say $mh<b>;        #  3.51
+    say $mh<b>.WHAT;   # (Rat)
+}
 
 say "--2--";
 
