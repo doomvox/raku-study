@@ -159,8 +159,9 @@ say $diff; # Set(blob grendel wormface)
 # .pick is not supported on a Mix, maybe use .roll instead?
 #   in block <unit> at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021feb14/sets_etc-vot_lizmat_2020.pl6 line 157
 
-    say $new_mix.roll;
-    say $new_mix.roll;
-    say $new_mix.roll;
-    say $new_mix.roll;
+    say $new_mix.roll;  # mothera
+    say $new_mix.roll;  # mothera
+    say $new_mix.roll;  # gammera
+    say $new_mix.roll;  # mothera
+
 }
