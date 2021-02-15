@@ -11,7 +11,7 @@
 # MixHash
 
 use v6;
-# use method-menu;
+
 use Object::Examine;  ## brings in Introspector role
 
 my $s = set 2, 4, 6;
