@@ -63,9 +63,8 @@ my @m1 =  | $s.menu.split("\n").grep({/Set/});  # 32 items
 # total                     Set                      
 
 say "===";
+## The full list from menu
 say $s.menu;
-
-## The full list:
 # ACCEPTS                   Set                      
 # BIND-POS                  Any                      
 # BUILDALL                  Set                      
