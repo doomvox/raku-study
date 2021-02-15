@@ -108,25 +108,25 @@ say $mh<b>.WHAT;   # (Rat)
 say "--2--";
 
 my @monsters1 = < godzilla mothera ghidora gammera rhodan >;
-my @monsters2 = < godzilla blob grendel wormface mothera ghidora gammera golem rhodan >;
+my @all = < godzilla blob grendel wormface mothera ghidora gammera golem rhodan >;
 
-my $result = set @monsters2  (-) set @monsters1 ;
+my $result = set @all  (-) set @monsters1 ;
 
 
 my $sm1 = set @monsters1;
 say $sm1;  # Set(blob godzilla grendel wormface)
-my $sm2 = set @monsters2;
+my $sm2 = set @all;
 say $sm2;  # Set(gammera ghidora godzilla golem mothera rhodan)
 my $diff = $sm1 (-) $sm2;
 say $diff; # Set(blob grendel wormface)
 
 {
- my $result = set(@monsters2)  (-) set(@monsters1) ;
+ my $result = set(@all)  (-) set(@monsters1) ;
  say $result;
 }
 
 {
-    my $hm = @monsters2.Set (-) @monsters1.Set ;
+    my $hm = @all.Set (-) @monsters1.Set ;
     say $hm;
 }
 
@@ -137,14 +137,14 @@ say $diff; # Set(blob grendel wormface)
 
 
  {
-     my $ho = (set @monsters2)  (-)  (set @monsters1);
+     my $ho = (set @all)  (-)  (set @monsters1);
      say $ho;
 
  }
 
 
 {
-    my $ho = @monsters2 (-) @monsters1;
+    my $ho = @all (-) @monsters1;
     say $ho;
 
 
