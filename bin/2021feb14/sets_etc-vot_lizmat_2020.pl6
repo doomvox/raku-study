@@ -89,8 +89,7 @@ say $m.values;
 ## $m<c>=2.5; # Cannot modify an immutable Int (1)
 
 {
-    ## Q: what *exactly* are the keys of a Mix?
-    ## A: *any* numeric type
+    # Q: what *exactly* are the keys of a Mix? A: *any* numeric type
 
     my $mh = (
         a => 2,
