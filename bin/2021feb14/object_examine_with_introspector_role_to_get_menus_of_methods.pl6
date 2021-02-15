@@ -20,12 +20,12 @@ say $s.^methods;
 ## (2) single line, unsorted output is hard to read
 
 $s does Introspector;
-
-# BUG (I think): menu returns a big chunk of text instead of a list of lines
 my @m0 =  | $s.menu.split("\n");  # 85 items
 my @m1 =  | $s.menu.split("\n").grep({/Set/});  # 32 items
 .say for @m1;
 
+# Issues with menu
+# menu returns a big chunk of text instead of a list of lines (a BUG I think TODO FIXME)
 
 # (ACCEPTS                   Set                      
 # BUILDALL                  Set                      
