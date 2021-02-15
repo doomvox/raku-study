@@ -12,7 +12,7 @@ say "--0--";
 
 my @all = < godzilla blob grendel wormface mothera ghidora gammera golem rhodan >;
 my @japanese = < godzilla mothera ghidora gammera rhodan >;
-my @expected = < blob wormface golem >;
+my @expected = < blob grendel wormface golem >;
 
 { 
     my $s_all = set @all;
