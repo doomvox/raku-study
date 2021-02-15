@@ -25,7 +25,9 @@ my @m1 =  | $s.menu.split("\n").grep({/Set/});  # 32 items
 .say for @m1;
 
 # Issues with menu
-# menu returns a big chunk of text instead of a list of lines (a BUG I think TODO FIXME)
+# (1) menu returns a big chunk of text instead of a list of lines (a BUG I think TODO FIXME)
+# (2) the listings are fairly long, here I'm constraining them to methods defined (or redefined)
+#     in Set.
 
 # (ACCEPTS                   Set                      
 # BUILDALL                  Set                      
