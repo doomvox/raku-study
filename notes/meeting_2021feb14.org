@@ -32,7 +32,7 @@ like pick, but can use with Mix too (pick not a Mix method, eh?)
 I rate convenience over performance on these features.
 Why doesn't this work?
 #+BEGIN_SRC perl6
-my $result = set @monster2  (-) set @monsters1 ;
+my $result = set @monster2  (-) set @monsters1;
 # Variable '@monster2' is not declared.  Did you mean any of these:
 # '@monsters2', '@monsters1'?
 #+END_SRC
