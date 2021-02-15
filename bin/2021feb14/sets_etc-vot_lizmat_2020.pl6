@@ -146,7 +146,8 @@ say $diff; # Set(blob grendel wormface)
 
 
 {
-
+    ## Doing a weighted random draw using a Mix: the method name
+    ## is "roll" (there's no pick?).
     my $new_mix = ( godilla => 2.5,
                     mothera => 1.5,
                     blob    => 1,
