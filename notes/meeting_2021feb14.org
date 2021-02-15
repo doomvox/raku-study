@@ -5,7 +5,7 @@
 **** sv perl talk, "secure coding in perl", Thursday, March 04, 6:39pm
 https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
 *** any suggested topics?
-** meeting links (might re-post in chat periodically)
+** meeting links
 The meeting notes:
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb14.org
 Demo scripts:
