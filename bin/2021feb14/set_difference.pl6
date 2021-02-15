@@ -31,7 +31,7 @@ my $expected_set = set @expected;
     say $result;
     say $result.WHAT;
 
-    is-deeply( $result, @expected,
+    is-deeply( $result, $expected_set,
                "Testing set difference: array to set via function on same line");
 }
 
