@@ -29,8 +29,8 @@ weighted random pick
 ***** roll
 like pick, but can use with Mix too (pick not a Mix method, eh?)
 **** convenience issues
-I rate convenience over performance on these features
-
+I rate convenience over performance on these features.
+Why doesn't this work?
 #+BEGIN_SRC perl6
 my $result = set @monster2  (-) set @monsters1 ;
 # Variable '@monster2' is not declared.  Did you mean any of these:
