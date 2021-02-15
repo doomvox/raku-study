@@ -15,7 +15,6 @@ use v6;
 
 my $s = set 2, 4, 6;
 
-
 say '--0--';
 $s does Introspector;
 # say $s.menu.grep({/Set/});
