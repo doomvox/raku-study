@@ -90,7 +90,6 @@ say $m.values;
 
 {
     # Q: what *exactly* are the keys of a Mix? A: *any* numeric type
-
     my $mh = (
         a => 2,
         b => 3.51,
