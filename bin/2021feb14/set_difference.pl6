@@ -19,12 +19,17 @@ my $expected_set = set @expected;
     my $s_all = set @all;
     say $s_all;  # Set(blob gammera ghidora godzilla golem grendel mothera rhodan wormface)
     my $s_j = set @japanese;
-    say $s_j;  # Set(gammera ghidora godzilla mothera rhodan)
+    say $s_j;    # Set(gammera ghidora godzilla mothera rhodan)
     my $diff = $s_all (-) $s_j;
-    say $diff; # Set(blob golem grendel wormface)
+    say $diff;   # Set(blob golem grendel wormface)
     is-deeply( $diff, $expected_set,
                "Testing set difference; convert arrays via function first." );
     # ok 1 - Testing set difference; convert arrays via function first.
+
+    my @diff = $diff.Array;
+    is-deeply( @diff, @expected
+               "Testing set difference; convert arrays via function first, convert to array after." );
+
 
 }
 
