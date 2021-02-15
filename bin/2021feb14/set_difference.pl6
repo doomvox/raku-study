@@ -13,6 +13,7 @@ say "--0--";
 my @all = < godzilla blob grendel wormface mothera ghidora gammera golem rhodan >;
 my @japanese = < godzilla mothera ghidora gammera rhodan >;
 my @expected = < blob grendel wormface golem >;
+my $expected_set = set @expected;
 
 { 
     my $s_all = set @all;
