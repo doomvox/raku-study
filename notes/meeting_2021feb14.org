@@ -6,7 +6,7 @@
 https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
 *** any suggested topics?
 ** meeting links
-The meeting notes:
+The meeting notes (this file):
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb14.org
 Demo scripts:
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb14
