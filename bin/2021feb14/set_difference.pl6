@@ -32,8 +32,8 @@ my @expected = < blob wormface golem >;
 }
 
 {
- my $result = set(@all)  (-) set(@japanese) ;
- say $result;
+    my $result = set(@all)  (-) set(@japanese) ;
+    say $result;
 }
 
 {
