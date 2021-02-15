@@ -3,8 +3,8 @@
 # set_difference.pl6            15 Feb 2021 
 
 use v6;
-
-say "--2--";
+use Test;
+say "--0--";
 
 my @japanese = < godzilla mothera ghidora gammera rhodan >;
 my @all = < godzilla blob grendel wormface mothera ghidora gammera golem rhodan >;
