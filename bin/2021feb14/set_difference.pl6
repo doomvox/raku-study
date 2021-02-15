@@ -27,7 +27,7 @@ my $expected_set = set @expected;
     # ok 1 - Testing set difference; convert arrays via function first.
 
     my @diff = $diff.Array;
-    is-deeply( @diff, @expected
+    is-deeply( @diff, @expected,
                "Testing set difference; convert arrays via function first, convert to array after." );
 
 
