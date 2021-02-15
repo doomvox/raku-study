@@ -2,7 +2,7 @@
 # 
 # set_difference.pl6            15 Feb 2021 
 
-## playing with minor syntax variations in set differences,
+## Playing with minor syntax variations in set differences,
 ## making sure they all work as I expect
 
 use v6;
@@ -13,7 +13,12 @@ say "--0--";
 my @japanese = < godzilla mothera ghidora gammera rhodan >;
 my @all = < godzilla blob grendel wormface mothera ghidora gammera golem rhodan >;
 
+my @expected = < blob wormface golem >;
+
+{
 my $result = set @all  (-) set @japanese ;
+
+}
 
 my $sm1 = set @japanese;
 say $sm1;  # Set(blob godzilla grendel wormface)
