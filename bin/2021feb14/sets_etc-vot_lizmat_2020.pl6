@@ -15,43 +15,6 @@ use v6;
 my $s = set 2, 4, 6;
 
 say '--0--';
-$s does Introspector;
-my @m0 =  | $s.menu.split("\n");  # 85 items
-my @m1 =  | $s.menu.split("\n").grep({/Set/});  # 32 items
-.say for @m1;
-
-# (ACCEPTS                   Set                      
-# BUILDALL                  Set                      
-# Baggy                     Set                      
-# Bool                      Set                      
-# Capture                   Set                      
-# Int                       Set                      
-# Mixy                      Set                      
-# Num                       Set                      
-# Numeric                   Set                      
-# Real                      Set                      
-# STORE                     Set                      
-# Setty                     Set                      
-# Str                       Set                      
-# WHICH                     Set                      
-# default                   Set                      
-# elems                     Set                      
-# fmt                       Set                      
-# gist                      Set                      
-# grab                      Set                      
-# grabpairs                 Set                      
-# iterator                  Set                      
-# keyof                     Set                      
-# maxpairs                  Set                      
-# minpairs                  Set                      
-# new                       Set                      
-# new-from-pairs            Set                      
-# of                        Set                      
-# pick                      Set                      
-# pickpairs                 Set                      
-# raku                      Set                      
-# roll                      Set                      
-# total                     Set                      
 
 say "===";
 say $s.menu;
