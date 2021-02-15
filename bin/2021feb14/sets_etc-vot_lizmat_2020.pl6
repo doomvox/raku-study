@@ -104,4 +104,5 @@ say $mh<a>.WHAT;   # (Int)
 
 say $mh<b>;        #  3.51
 say $mh<b>.WHAT;   # (Rat)
-1
+
+say "--2--";
