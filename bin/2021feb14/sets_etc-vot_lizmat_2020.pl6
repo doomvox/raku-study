@@ -116,6 +116,8 @@ my @monsters2 = < godzilla mothera ghidora gammera golem rhodan >;
 # '@monsters2', '@monsters1'?
 
 my $sm1 = set @monsters1;
-say $sm1;
+say $sm1;  # Set(blob godzilla grendel wormface)
 my $sm2 = set @monsters2;
-say $sm2;
+say $sm2;  # Set(gammera ghidora godzilla golem mothera rhodan)
+
+my $diff = $sm1 (-) $sm2;
