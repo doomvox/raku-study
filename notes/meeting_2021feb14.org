@@ -31,6 +31,7 @@ like pick, but can use with Mix too (pick not a Mix method, eh?)
 **** convenience issues
 I rate convenience over performance on these features.
 Why doesn't this work?
+Why is error message so LTA?
 
 #+BEGIN_SRC perl6
 my $result = set @monster2  (-) set @monsters1;
