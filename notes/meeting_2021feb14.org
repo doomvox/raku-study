@@ -36,6 +36,7 @@ my $result = set @monster2  (-) set @monsters1;
 # Variable '@monster2' is not declared.  Did you mean any of these:
 # '@monsters2', '@monsters1'?
 #+END_SRC
+
 See:
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb14/sets_etc-vot_lizmat_2020.pl6
 
