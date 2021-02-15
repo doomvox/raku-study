@@ -121,14 +121,15 @@ my $diff = $sm1 (-) $sm2;
 say $diff; # Set(blob grendel wormface)
 
 
-# my $not_a_result = set(@monsters2)  (-) set(@monsters1) ;
-# Variable '@monsters2' is not declared.  Did you mean any of these:
-# '@monsters2', '@monsters1'?
+{
+ my $result = set(@monsters2)  (-) set(@monsters1) ;
+ say $result;
+}
 
-# my $hm = @monsters2.Set (-) @monsters1.Set ;
-# say $hm;
-# Variable '@monsters2' is not declared.  Did you mean any of these:
-# '@monsters2', '@monsters1'?
+{
+    my $hm = @monsters2.Set (-) @monsters1.Set ;
+    say $hm;
+}
 
 {
     my $sm1 = @monsters1.Set;
@@ -136,12 +137,11 @@ say $diff; # Set(blob grendel wormface)
 }
 
 
-# {
-#     my $ho = (set @monsters2)  (-)  (set @monsters1);
-#     say $ho;
-# # Variable '@monsters2' is not declared.  Did you mean any of these:
-# # '@monsters2', '@monsters1'?
-# }
+ {
+     my $ho = (set @monsters2)  (-)  (set @monsters1);
+     say $ho;
+
+ }
 
 
 {
