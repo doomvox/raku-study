@@ -28,6 +28,9 @@ weighted random pick
 ***** of
 ***** roll
 like pick, but can use with Mix too (pick not a Mix method, eh?)
+**** convenience issues
+I rate convenience over performance on these features
+
 
 *** Kernighan on raku
 **** Brian Kernighan on Perl6 (Raku): https://youtu.be/Sg4U4r_AgJU?t=3429 
