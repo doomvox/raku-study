@@ -20,7 +20,9 @@ my @expected = < blob wormface golem >;
     my $s_j = set @japanese;
     say $s_j;  # 
     my $diff = $s_all (-) $s_j;
-    say $diff; # Set(blob grendel wormface)
+    say $diff; # 
+    is-deeply( $diff, @expected,
+               "Testing set difference; convert arrays via function first." );
 }
 
 {
