@@ -25,9 +25,9 @@ my @expected = < blob wormface golem >;
 { 
     my $sm_j = set @japanese;
     say $sm_j;  # Set(blob godzilla grendel wormface)
-    my $sm2 = set @all;
-    say $sm2;  # Set(gammera ghidora godzilla golem mothera rhodan)
-    my $diff = $sm_j (-) $sm2;
+    my $sm_all = set @all;
+    say $sm_all;  # Set(gammera ghidora godzilla golem mothera rhodan)
+    my $diff = $sm_j (-) $sm_all;
     say $diff; # Set(blob grendel wormface)
 }
 
