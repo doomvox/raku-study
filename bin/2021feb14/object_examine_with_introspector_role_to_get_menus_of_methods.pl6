@@ -160,3 +160,6 @@ say $s.^methods;  # There's no "values" in this list:
 
 say so $s.^methods.gist.grep(/<<values>>/);  # False
 say so $s.^methods.gist.grep(/<<maxpairs>>/); # True
+
+## Theory: the Hash-ish methods come from some role,
+## and ^methods (and hence, my menu) doesn't see them.
