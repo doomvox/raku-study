@@ -32,7 +32,7 @@ my $expected_set = set @expected;
     my @diff = $diff.keys.sort;  
     is-deeply( @diff, @expected, 
                "Testing set difference; convert arrays via function first, convert to array after." );
-
+    # ok 2 - Testing set difference; convert arrays via function first, convert to array after.
 
 }
 
