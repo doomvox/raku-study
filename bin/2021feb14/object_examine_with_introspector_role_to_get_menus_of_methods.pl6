@@ -16,6 +16,9 @@ my $s = set 2, 4, 6;
 say $s.^methods;
 
 $s does Introspector;
+
+# BUG (I think): menu returns a big chunk of text instead of a list of lines
 my @m0 =  | $s.menu.split("\n");  # 85 items
 my @m1 =  | $s.menu.split("\n").grep({/Set/});  # 32 items
 .say for @m1;
+
