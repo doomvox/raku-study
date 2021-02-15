@@ -128,4 +128,4 @@ say $diff; # Set(blob grendel wormface)
 # '@monsters2', '@monsters1'?
 
 
-my $not_a_result = @monster2.Set  (-) @monsters1.Set ;
+my $hm = @monster2.Set  (-) @monsters1.Set ;
