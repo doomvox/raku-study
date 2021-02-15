@@ -2,6 +2,15 @@
 # 
 # sets_etc-vot_lizmat_2020.pl6            14 Feb 2021 
 
+## QuantHash? 
+
+# Set
+# Bag
+# Mix
+# SetHash
+# BagHash
+# MixHash
+
 use v6;
 # use method-menu;
 use Object::Examine;
