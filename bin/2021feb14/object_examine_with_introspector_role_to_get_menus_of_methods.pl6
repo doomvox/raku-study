@@ -150,3 +150,7 @@ say $s.menu;
 # toggle                    Any                      
 # total                     Set                      
 
+## But there's something wrong here, there are methods missing from the full list.
+
+say $s.values;
+say $s.keys;
