@@ -85,7 +85,7 @@ say $m<a>;
 say $m<a>.WHAT;  # (Int)
 say $m.values;
 
-## Can't do this, it's a Mix, not a MixHash:
+## Can't assign a value to a Mix, it's immutable.  Would need a MixHash:
 ## $m<c>=2.5; # Cannot modify an immutable Int (1)
 
 my $mh = (
@@ -111,7 +111,6 @@ my @jmonsters = < godzilla mothera ghidora gammera rhodan >;
 my @all = < godzilla blob grendel wormface mothera ghidora gammera golem rhodan >;
 
 my $result = set @all  (-) set @jmonsters ;
-
 
 my $sm1 = set @jmonsters;
 say $sm1;  # Set(blob godzilla grendel wormface)
