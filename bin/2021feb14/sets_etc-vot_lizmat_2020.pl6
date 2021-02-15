@@ -109,3 +109,5 @@ say "--2--";
 
 my @monsters1 = < godzilla grendel wormface blob >;
 my @monsters2 = < godzilla mothera ghidora gammera golem rhodan >;
+
+my $result = set @monster2 (-) set @monsters1;
