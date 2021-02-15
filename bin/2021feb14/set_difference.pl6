@@ -19,7 +19,7 @@ my @expected = < blob wormface golem >;
     say $s_all;  # 
     my $s_j = set @japanese;
     say $s_j;  # 
-    my $diff = $s_j (-) $s_all;
+    my $diff = $s_all (-) $s_j;
     say $diff; # Set(blob grendel wormface)
 }
 
