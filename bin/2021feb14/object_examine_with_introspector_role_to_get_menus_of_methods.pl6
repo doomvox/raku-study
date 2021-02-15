@@ -155,4 +155,6 @@ say $s.menu;
 say $s.values; # (True True True)
 say $s.keys;   # (4 2 6)
 
+say $s.^methods;
+
 say $s.^methods.gist.grep(/<<values>>/);
