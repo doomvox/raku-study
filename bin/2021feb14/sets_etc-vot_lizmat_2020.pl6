@@ -169,6 +169,4 @@ say $diff; # Set(blob grendel wormface)
     for ^1000 {
         say $new_mix.roll;
     }
-
-
 }
