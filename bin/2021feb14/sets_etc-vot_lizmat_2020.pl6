@@ -140,5 +140,5 @@ say $diff; # Set(blob grendel wormface)
 
 {
     my $ho = (set @monster2)  (-)  (set @monsters1);
-
+    say $ho;
 }
