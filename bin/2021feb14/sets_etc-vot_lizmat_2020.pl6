@@ -144,3 +144,12 @@ say $diff; # Set(blob grendel wormface)
 # Variable '@monster2' is not declared.  Did you mean any of these:
 # '@monsters2', '@monsters1'?
 }
+
+
+{
+
+    my $new_mix = ( godilla => 2.5,
+                    mothera => 1.5,
+                    blob    => 1,
+                    gammera => 0.5 ).MixHash;
+
