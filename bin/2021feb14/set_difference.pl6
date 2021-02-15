@@ -34,6 +34,7 @@ my @expected = < blob wormface golem >;
                "Testing set difference: array to set via function on same line");
 }
 
+exit;
 
 
 {
