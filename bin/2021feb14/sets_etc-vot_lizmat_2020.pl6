@@ -106,3 +106,6 @@ say $mh<b>;        #  3.51
 say $mh<b>.WHAT;   # (Rat)
 
 say "--2--";
+
+my @monsters1 = < godzilla grendel wormface blob >;
+my @monsters2 = < godzilla mothera ghidora gammera golem rhodan >;
