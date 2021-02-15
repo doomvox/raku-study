@@ -30,6 +30,8 @@ weighted random pick
 ***** pickpairs
 ***** of
 ***** roll
+like pick, but exits on Mix too (pick does not, huh?)
+
 *** Kernighan on raku
 **** Brian Kernighan on Perl6 (Raku): https://youtu.be/Sg4U4r_AgJU?t=3429 
 **** new book "unix a memoir and a history"
