@@ -152,5 +152,7 @@ say $s.menu;
 
 ## But there's something wrong here, there are methods missing from the full list.
 
-say $s.values;
-say $s.keys;
+say $s.values; # (True True True)
+say $s.keys;   # (4 2 6)
+
+say $s.^methods.grep(/<<values>>/);
