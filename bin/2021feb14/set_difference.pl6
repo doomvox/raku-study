@@ -15,7 +15,10 @@ my @japanese = < godzilla mothera ghidora gammera rhodan >;
 my @expected = < blob wormface golem >;
 
 {
-my $result = set @all  (-) set @japanese ;
+    my $result = set @all  (-) set @japanese ;
+    say $result;
+    say $result.WHAT;
+
 
 }
 
