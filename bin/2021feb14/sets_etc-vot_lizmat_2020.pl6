@@ -110,8 +110,10 @@ say "--2--";
 my @monsters1 = < godzilla grendel wormface blob >;
 my @monsters2 = < godzilla mothera ghidora gammera golem rhodan >;
 
-my $result = set( @monster2 ) (-) set( @monsters1 );
+# my $result = set @monster2  (-) set @monsters1 ;
 
 # Variable '@monster2' is not declared.  Did you mean any of these:
 # '@monsters2', '@monsters1'?
 
+my $sm1 = set @monsters1;
+say $sm1;
