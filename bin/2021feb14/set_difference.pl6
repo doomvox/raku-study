@@ -22,12 +22,14 @@ my @expected = < blob wormface golem >;
 
 }
 
-my $sm1 = set @japanese;
-say $sm1;  # Set(blob godzilla grendel wormface)
-my $sm2 = set @all;
-say $sm2;  # Set(gammera ghidora godzilla golem mothera rhodan)
-my $diff = $sm1 (-) $sm2;
-say $diff; # Set(blob grendel wormface)
+{ 
+    my $sm_j = set @japanese;
+    say $sm_j;  # Set(blob godzilla grendel wormface)
+    my $sm2 = set @all;
+    say $sm2;  # Set(gammera ghidora godzilla golem mothera rhodan)
+    my $diff = $sm_j (-) $sm2;
+    say $diff; # Set(blob grendel wormface)
+}
 
 {
  my $result = set(@all)  (-) set(@japanese) ;
@@ -40,8 +42,8 @@ say $diff; # Set(blob grendel wormface)
 }
 
 {
-    my $sm1 = @japanese.Set;
-    say $sm1;  # Set(blob godzilla grendel wormface)
+    my $sm_j = @japanese.Set;
+    say $sm_j;  # Set(blob godzilla grendel wormface)
 }
 
 
