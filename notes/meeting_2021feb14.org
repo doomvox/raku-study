@@ -5,15 +5,11 @@
 **** sv perl talk, "secure coding in perl", Thursday, March 04, 6:39pm
 https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
 *** any suggested topics?
-** meeting links (re-post in chat periodically)
+** meeting links (might re-post in chat periodically)
 The meeting notes:
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb14.org
 Demo scripts:
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb14
-Last week's notes:
-https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb07.org
-Last weeks demo scripts:
-https://github.com/doomvox/raku-study/tree/main/bin/2021feb07
 ** possible topics
 *** in raku, data objects are faster than hashes (a lizmat point)
 *** classes vs prototypes: toddandmargo vs ralph mellor
