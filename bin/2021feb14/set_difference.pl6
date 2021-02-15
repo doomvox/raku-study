@@ -22,7 +22,7 @@ my $expected_set = set @expected;
     say $s_j;  # 
     my $diff = $s_all (-) $s_j;
     say $diff; # 
-    is-deeply( $diff, @expected,
+    is-deeply( $diff, @expected_set,
                "Testing set difference; convert arrays via function first." );
 }
 
