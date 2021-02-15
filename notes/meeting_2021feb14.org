@@ -15,6 +15,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb14
 *** classes vs prototypes: toddandmargo vs ralph mellor
 https://www.nntp.perl.org/group/perl.perl6.users/2021/02/msg9706.html
 *** sets/bags/mixes 
+**** could use a general name.  Larry Wall called them QuantHashes
 **** some Set methods
 ***** elems
 ***** grab
@@ -27,7 +28,7 @@ weighted random pick
 ***** of
 ***** roll
 like pick, but exits on Mix too (pick does not, huh?)
-**** could use a general name.  Larry Wall called them QuantHashes
+
 *** Kernighan on raku
 **** Brian Kernighan on Perl6 (Raku): https://youtu.be/Sg4U4r_AgJU?t=3429 
 **** new book "unix a memoir and a history"
