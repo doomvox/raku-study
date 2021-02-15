@@ -28,7 +28,7 @@ my $expected_set = set @expected;
 
     # This is an array of pairs, not what I want
     # my @diff = $diff.Array;  # $[:grendel, :wormface, :golem, :blob]
-    # Array, sorted to have a defined order for is-deeply
+    # Array, sorted to have a defined order for is-deeply comparison
     my @diff = $diff.keys.sort;  
     is-deeply( @diff, @expected, 
                "Testing set difference; convert arrays via function first, convert to array after." );
