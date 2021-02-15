@@ -8,7 +8,14 @@ use v6;
 # with mainly adds a method named "menu" that does a more elaborate listing
 # of available methods on an object than .^methods does.
 
+# Here, we're looking at some of the methods availble on Set objects
+
 use Object::Examine;  ## brings in Introspector role
 my $s = set 2, 4, 6;
 
 say $s.^methods;
+
+$s does Introspector;
+my @m0 =  | $s.menu.split("\n");  # 85 items
+my @m1 =  | $s.menu.split("\n").grep({/Set/});  # 32 items
+.say for @m1;
