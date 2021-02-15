@@ -153,3 +153,10 @@ say $diff; # Set(blob grendel wormface)
                     blob    => 1,
                     gammera => 0.5 ).MixHash;
 
+    say $new_mix;
+    say $new_mix.pick;
+    say $new_mix.pick;
+    say $new_mix.pick;
+    say $new_mix.pick;
+    say $new_mix.pick;
+}
