@@ -15,7 +15,8 @@ my $s = set 2, 4, 6;
 
 say $s.^methods;
 # (iterator of new-from-pairs default elems total grab grabpairs pick pickpairs roll keyof STORE Int Num Numeric Real Capture fmt Setty Baggy Mixy WHICH Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new new Method+{is-nodal}.new Method+{is-nodal}.new minpairs maxpairs Bool Method+{is-nodal}.new Method+{is-nodal}.new ACCEPTS Str gist raku Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new BUILDALL)
-## Issues with ^methods: (1) often includes lots of cruft: Method+{is-nodal}.new
+## Issues with ^methods listings:
+## (1) often includes lots of cruft: Method+{is-nodal}.new
 ## (2) single line, unsorted output is hard to read
 
 $s does Introspector;
