@@ -55,3 +55,7 @@ my @m1 =  | $s.menu.split("\n").grep({/Set/});  # 32 items
 # raku                      Set                      
 # roll                      Set                      
 # total                     Set                      
+
+say "===";
+say $s.menu;
+say "===";
