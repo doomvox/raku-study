@@ -24,12 +24,14 @@ my $expected_set = set @expected;
     say $diff; # 
     is-deeply( $diff, $expected_set,
                "Testing set difference; convert arrays via function first." );
+    # ok 1 - Testing set difference; convert arrays via function first.
+
 }
 
 {
     my $result = set @all  (-) set @japanese ;
-    say $result;
-    say $result.WHAT;
+    say $result;       #  Set(Set(blob golem grendel wormface))
+    say $result.WHAT;  # (Set)
 
     is-deeply( $result, $expected_set,
                "Testing set difference: array to set via function on same line");
