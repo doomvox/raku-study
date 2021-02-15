@@ -12,10 +12,9 @@
 
 use v6;
 
-use Object::Examine;  ## brings in Introspector role
 
 my $s = set 2, 4, 6;
-# say $s.^methods;
+
 
 say '--0--';
 $s does Introspector;
