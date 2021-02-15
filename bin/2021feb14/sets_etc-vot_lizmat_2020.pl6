@@ -139,7 +139,7 @@ say $diff; # Set(blob grendel wormface)
 
 
 {
-    my $ho = (set @monster2)  (-) (set @monsters1);
+    my $ho = (set @monster2)  (-)  (set @monsters1);
 Variable '@monster2' is not declared.  Did you mean any of these:
 '@monsters2', '@monsters1'?
 }
