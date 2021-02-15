@@ -131,3 +131,7 @@ say $diff; # Set(blob grendel wormface)
 # say $hm;
 # Variable '@monster2' is not declared.  Did you mean any of these:
 # '@monsters2', '@monsters1'?
+
+
+my $sm1 = @monsters1.Set;
+say $sm1;  # Set(blob godzilla grendel wormface)
