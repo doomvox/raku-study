@@ -164,4 +164,11 @@ say $diff; # Set(blob grendel wormface)
     say $new_mix.roll;  # gammera
     say $new_mix.roll;  # mothera
 
+
+    my @rolls;
+    for ^1000 {
+        say $new_mix.roll;
+    }
+
+
 }
