@@ -120,7 +120,6 @@ say $sm2;  # Set(gammera ghidora godzilla golem mothera rhodan)
 my $diff = $sm1 (-) $sm2;
 say $diff; # Set(blob grendel wormface)
 
-
 {
  my $result = set(@monsters2)  (-) set(@monsters1) ;
  say $result;
