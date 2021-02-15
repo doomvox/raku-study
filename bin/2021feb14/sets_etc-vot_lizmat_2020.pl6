@@ -117,3 +117,4 @@ my @monsters2 = < godzilla mothera ghidora gammera golem rhodan >;
 
 my $sm1 = set @monsters1;
 say $sm1;
+my $sm2 = set @monsters2;
