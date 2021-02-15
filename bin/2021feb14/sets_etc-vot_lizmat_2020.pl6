@@ -16,9 +16,6 @@ my $s = set 2, 4, 6;
 
 say '--0--';
 
-say "===";
-say $s.menu;
-say "===";
 
 say $s;      # Set(2 4 6)
 
