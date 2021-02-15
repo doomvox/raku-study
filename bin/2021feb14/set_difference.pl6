@@ -10,9 +10,8 @@ use Test;
 
 say "--0--";
 
-my @japanese = < godzilla mothera ghidora gammera rhodan >;
 my @all = < godzilla blob grendel wormface mothera ghidora gammera golem rhodan >;
-
+my @japanese = < godzilla mothera ghidora gammera rhodan >;
 my @expected = < blob wormface golem >;
 
 {
