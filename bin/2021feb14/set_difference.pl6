@@ -19,7 +19,8 @@ my @expected = < blob wormface golem >;
     say $result;
     say $result.WHAT;
 
-
+    is-deeply( $result, @expected,
+               "Testing set difference: array to set via function on same line");
 }
 
 { 
