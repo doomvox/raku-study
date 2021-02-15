@@ -121,3 +121,4 @@ my $sm2 = set @monsters2;
 say $sm2;  # Set(gammera ghidora godzilla golem mothera rhodan)
 
 my $diff = $sm1 (-) $sm2;
+say $diff;
