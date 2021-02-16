@@ -82,6 +82,7 @@ http://obsidianrook.com/doomfiles
 **** Examples using the graphical layout features
 http://obsidianrook.com/doomfiles/METHOD.html
 http://obsidianrook.com/doomfiles/DESPERATE.html
+http://obsidianrook.com/doomfiles/BEATNIK_59.html
 
 **** Some pages on software-oriented subjects
 http://obsidianrook.com/doomfiles/THE_TOY_WEB.html
