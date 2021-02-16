@@ -59,11 +59,12 @@ my $expected_set = set @expected;
 }
 
  {
-     my $ho = (set @all)  (-)  (set @japanese);
-     say $ho;
+     my $result = (set @all)  (-)  (set @japanese);
+     say $result;
 
  }
 
+exit;
 
 {
     my $ho = @all (-) @japanese;
