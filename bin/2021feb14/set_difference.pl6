@@ -114,6 +114,7 @@ my $expected_set = set @expected;
     my $result = @all.Mix (-) @japanese.Bag;
     # say $result; # Bag(blob golem grendel wormface)
     my $expected_mix = $expected_set.Mix;
+    say $expected_mix;
     is-deeply( $result, $expected_bag,
                "Testing mixed case: set difference on mix and bag");
     # ok 9 - Testing mixed case: set difference on set and bag
