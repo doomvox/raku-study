@@ -52,7 +52,7 @@ my $expected_set = set @expected;
 
 {
     my $result = @all.Set (-) @japanese.Set;
-    say $result;
+    # say $result;
     is-deeply( $result, $expected_set,
                "Testing set difference: explicit array to set via method call on same line");
     # ok 4 - Testing set difference: explicit array to set via method call on same line
@@ -60,9 +60,10 @@ my $expected_set = set @expected;
 
  {
      my $result = (set @all)  (-)  (set @japanese);
-     say $result; # Set(blob golem grendel wormface)
+     # say $result; # Set(blob golem grendel wormface)
      is-deeply( $result, $expected_set,
                "Testing set difference: array to set via function with parens around, all on same line");
+     # ok 5 - Testing set difference: array to set via function with parens around, all on same line
 
  }
 
