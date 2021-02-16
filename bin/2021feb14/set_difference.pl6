@@ -47,6 +47,7 @@ my $expected_set = set @expected;
 #    say $result;       # Set(blob golem grendel wormface)
     is-deeply( $result, $expected_set,
                "Testing set difference: array to set via function *with parens* on same line");
+    # ok 3 - Testing set difference: array to set via function *with parens* on same line
 }
 
 {
