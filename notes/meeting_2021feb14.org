@@ -85,8 +85,8 @@ https://github.com/doomvox/rectpara
 ****** unpublished: architecture is terrible
 ****** successor perl project scheme: Necklace
 ****** raku parsing of pages a possiblity 
-(despite the fact that they're technically html)
-
+******* despite the fact that they're technically html
+******* using a real html parser is another possibility
 
 **** Examples using the graphical layout features
 http://obsidianrook.com/doomfiles/METHOD.html
