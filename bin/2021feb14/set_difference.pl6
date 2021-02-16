@@ -71,7 +71,7 @@ my $expected_set = set @expected;
     my $result = @all (-) @japanese;
     say $result; # Set(blob golem grendel wormface)
     is-deeply( $result, $expected_set,
-               "Testing set difference: array to set via function with parens around, all on same line");
+               "Testing set difference: implicit conversion of array to set by set operator");
 
 }
 
