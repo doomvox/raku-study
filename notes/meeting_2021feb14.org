@@ -81,4 +81,10 @@ https://leanpub.com/preparing_for_perl7/c/oslo
 http://obsidianrook.com/doomfiles
 
 **** bi-directional linked list of web pages
-
+***** elisp: rectpara.el
+https://github.com/doomvox/rectpara
+***** perl: "webchain"
+****** unpublished: architecture is terrible
+****** successor perl project scheme: Necklace
+****** raku parsing of pages a possiblity 
+(despite the fact that they're technically html)
