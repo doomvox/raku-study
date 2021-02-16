@@ -160,6 +160,7 @@ say $s.^methods;  # There's no "values" in this list:
 
 put $s.^methods;
 
+
 say so $s.^methods.gist.grep(/<<values>>/);   # False
 say so $s.^methods.gist.grep(/<<keys>>/);     # False
 say so $s.^methods.gist.grep(/<<maxpairs>>/); # True
