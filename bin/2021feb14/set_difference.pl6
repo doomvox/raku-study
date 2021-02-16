@@ -117,5 +117,5 @@ my $expected_set = set @expected;
     say $expected_mix;
     is-deeply( $result, $expected_bag,
                "Testing mixed case: set difference on mix and bag");
-    # ok 9 - Testing mixed case: set difference on set and bag
+
 }
