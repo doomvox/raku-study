@@ -81,7 +81,7 @@ my $expected_set = set @expected;
 
 {
     my $result = @all.Bag (-) @japanese.Bag;
-    say $result;
+    say $result; # Bag(blob golem grendel wormface)
     is-deeply( $result, $expected_set,
                "Testing set difference on bags");
 
