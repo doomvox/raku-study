@@ -16,9 +16,6 @@ use v6;
 say '--0--';
 my $s = set 2, 4, 6;
 
-
-
-
 say $s;      # Set(2 4 6)
 
 say $s{2};   # True
