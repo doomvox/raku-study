@@ -81,7 +81,7 @@ my $expected_set = set @expected;
 
 {
     my $result = @all.Bag (-) @japanese.Bag;
-    # say $result;
+    say $result;
     is-deeply( $result, $expected_set,
                "Testing set difference: explicit array to set via method call on same line");
     # ok 4 - Testing set difference: explicit array to set via method call on same line
