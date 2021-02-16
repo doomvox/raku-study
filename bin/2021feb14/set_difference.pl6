@@ -45,7 +45,6 @@ my $expected_set = set @expected;
 {
     my $result = set( @all )  (-) set( @japanese ) ;
     say $result;       #  
-
     is-deeply( $result, $expected_set,
                "Testing set difference: array to set via function *with parens* on same line");
 }
