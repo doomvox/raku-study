@@ -38,8 +38,8 @@ my $expected_set = set @expected;
 {
     # This one fails, apparently the first "set" acts on everything to the right
     my $result = set @all  (-) set @japanese ;
-    say $result;       #  Set(Set(blob golem grendel wormface))
-    say $result.WHAT;  # (Set)
+#    say $result;       #  Set(Set(blob golem grendel wormface))
+#    say $result.WHAT;  # (Set)
 }
 
 {
