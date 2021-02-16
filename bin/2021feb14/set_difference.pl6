@@ -81,7 +81,7 @@ my $expected_set = set @expected;
 
 {
     my $result = @all.Bag (-) @japanese.Bag;
-    say $result; # Bag(blob golem grendel wormface)
+    # say $result; # Bag(blob golem grendel wormface)
     my $expected_bag = $expected_set.Bag;
     is-deeply( $result, $expected_bag,
                "Testing set difference on bags");
@@ -91,7 +91,7 @@ my $expected_set = set @expected;
 {
     # set difference of Bag and Set generates a Bag
     my $result = @all.Bag (-) @japanese.Set;
-    say $result; # Bag(blob golem grendel wormface)
+    # say $result; # Bag(blob golem grendel wormface)
     my $expected_bag = $expected_set.Bag;
     is-deeply( $result, $expected_bag,
                "Testing mixed case: set difference on bag and set");
@@ -101,7 +101,7 @@ my $expected_set = set @expected;
 {
     # set difference of Set and Bag
     my $result = @all.Set (-) @japanese.Bag;
-    say $result; # Bag(blob golem grendel wormface)
+    # say $result; # Bag(blob golem grendel wormface)
     my $expected_bag = $expected_set.Bag;
     is-deeply( $result, $expected_bag,
                "Testing mixed case: set difference on set and bag");
