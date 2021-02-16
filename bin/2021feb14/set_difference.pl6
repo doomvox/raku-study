@@ -110,6 +110,8 @@ my $expected_set = set @expected;
 
 
 {
+    ## set diff operation on Mix and Bag ends up with Mix
+    ## lizmat rule: ends up with whatever has more information
     # set difference of Mix and Bag
     my $result = @all.Mix (-) @japanese.Bag;
     # say $result; # Mix(blob golem grendel wormface)
