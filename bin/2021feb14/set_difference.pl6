@@ -66,8 +66,6 @@ my $expected_set = set @expected;
 
  }
 
-exit;
-
 {
     my $ho = @all (-) @japanese;
     say $ho;
