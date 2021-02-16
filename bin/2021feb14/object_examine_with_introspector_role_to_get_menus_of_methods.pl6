@@ -164,3 +164,7 @@ say so $s.^methods.gist.grep(/<<maxpairs>>/); # True
 
 ## Theory: the Hash-ish methods come from some role,
 ## and ^methods (and hence, my menu) doesn't see them.
+
+## raku -e 'Set.^methods.map(*.name).grep(/keys/)>>.say'
+
+Set.^methods.map(*.name).grep(/keys/)>>.say
