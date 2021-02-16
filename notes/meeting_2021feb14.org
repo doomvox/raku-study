@@ -75,8 +75,7 @@ renaming raku worked
 ** brian d foy, preparing for perl 7
 https://leanpub.com/preparing_for_perl7/c/oslo
 
-** some personal projects I talked about too much
-
+** personal projects I talked about too much
 *** doomfiles
 http://obsidianrook.com/doomfiles
 **** bi-directional linked list of web pages
