@@ -85,5 +85,5 @@ my $expected_set = set @expected;
     my $expected_bag = $expected_set.Bag;
     is-deeply( $result, $expected_bag,
                "Testing set difference on bags");
-
+    # ok 7 - Testing set difference on bags
 }
