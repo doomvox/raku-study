@@ -72,6 +72,7 @@ my $expected_set = set @expected;
     say $result; # Set(blob golem grendel wormface)
     is-deeply( $result, $expected_set,
                "Testing set difference: implicit conversion of array to set by set operator");
+    # ok 6 - Testing set difference: implicit conversion of array to set by set operator
 
 }
 
