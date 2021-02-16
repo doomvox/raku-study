@@ -79,7 +79,11 @@ https://leanpub.com/preparing_for_perl7/c/oslo
 
 *** doomfiles
 http://obsidianrook.com/doomfiles
+**** Examples using the graphical layout features
+http://obsidianrook.com/doomfiles/METHOD.html
+http://obsidianrook.com/doomfiles/DESPERATE.html
 
+**** Some pages on software-oriented subjects
 http://obsidianrook.com/doomfiles/THE_TOY_WEB.html
 http://obsidianrook.com/doomfiles/MODEST_PROPOSAL.html
 http://obsidianrook.com/doomfiles/ENGLEBARTS_BARD.html
