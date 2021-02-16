@@ -50,8 +50,12 @@ my $expected_set = set @expected;
 }
 
 {
-    my $hm = @all.Set (-) @japanese.Set ;
+    my $result = @all.Set (-) @japanese.Set ;
     say $hm;
+    is-deeply( $result, $expected_set,
+               "Testing set difference: array to set via function *with parens* on same line");
+
+
 }
 
 {
