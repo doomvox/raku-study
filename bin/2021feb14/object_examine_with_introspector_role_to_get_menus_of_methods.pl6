@@ -158,6 +158,8 @@ say $s.keys;   # (4 2 6)
 say $s.^methods;  # There's no "values" in this list:
 # (menu default pick minpairs Setty grabpairs SET-SELF raku Method+{is-nodal}.new Real Baggy iterator keyof Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new Mixy of grab Method+{is-nodal}.new ACCEPTS new elems Method+{is-nodal}.new Str Method+{is-nodal}.new WHICH Bool RAW-HASH fmt new-from-pairs Numeric total maxpairs Method+{is-nodal}.new Capture Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new Int gist Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new Num Method+{is-nodal}.new Method+{is-nodal}.new Method+{is-nodal}.new roll pickpairs STORE BUILDALL)
 
+put $s.^methods;
+
 say so $s.^methods.gist.grep(/<<values>>/);   # False
 say so $s.^methods.gist.grep(/<<keys>>/);     # False
 say so $s.^methods.gist.grep(/<<maxpairs>>/); # True
@@ -166,5 +168,4 @@ say so $s.^methods.gist.grep(/<<maxpairs>>/); # True
 ## and ^methods (and hence, my menu) doesn't see them.
 
 ## raku -e 'Set.^methods.map(*.name).grep(/keys/)>>.say'
-
 ## Set.^methods.map(*.name).grep(/keys/)>>.say;  # keys
