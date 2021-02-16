@@ -167,4 +167,5 @@ say so $s.^methods.gist.grep(/<<maxpairs>>/); # True
 
 ## raku -e 'Set.^methods.map(*.name).grep(/keys/)>>.say'
 
-Set.^methods.map(*.name).grep(/keys/)>>.say;
+
+## Set.^methods.map(*.name).grep(/keys/)>>.say;  # keys
