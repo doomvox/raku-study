@@ -79,6 +79,16 @@ https://leanpub.com/preparing_for_perl7/c/oslo
 
 *** doomfiles
 http://obsidianrook.com/doomfiles
+**** bi-directional linked list of web pages
+***** elisp: rectpara.el
+https://github.com/doomvox/rectpara
+***** perl: "webchain"
+****** unpublished: architecture is terrible
+****** successor perl project scheme: Necklace
+****** raku parsing of pages a possiblity 
+(despite the fact that they're technically html)
+
+
 **** Examples using the graphical layout features
 http://obsidianrook.com/doomfiles/METHOD.html
 http://obsidianrook.com/doomfiles/DESPERATE.html
@@ -90,11 +100,3 @@ http://obsidianrook.com/doomfiles/MODEST_PROPOSAL.html
 http://obsidianrook.com/doomfiles/ENGLEBARTS_BARD.html
 http://obsidianrook.com/doomfiles/CONNECTIVITY.html
 
-**** bi-directional linked list of web pages
-***** elisp: rectpara.el
-https://github.com/doomvox/rectpara
-***** perl: "webchain"
-****** unpublished: architecture is terrible
-****** successor perl project scheme: Necklace
-****** raku parsing of pages a possiblity 
-(despite the fact that they're technically html)
