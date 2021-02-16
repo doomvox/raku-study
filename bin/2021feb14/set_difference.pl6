@@ -58,12 +58,6 @@ my $expected_set = set @expected;
     # ok 4 - Testing set difference: explicit array to set via method call on same line
 }
 
-{
-    my $s_j = @japanese.Set;
-    say $s_j;  # Set(blob godzilla grendel wormface)
-}
-
-
  {
      my $ho = (set @all)  (-)  (set @japanese);
      say $ho;
