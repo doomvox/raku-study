@@ -82,6 +82,7 @@ http://obsidianrook.com/doomfiles
 
 http://obsidianrook.com/doomfiles/THE_TOY_WEB.html
 http://obsidianrook.com/doomfiles/MODEST_PROPOSAL.html
+http://obsidianrook.com/doomfiles/ENGLEBARTS_BARD.html
 http://obsidianrook.com/doomfiles/CONNECTIVITY.html
 
 **** bi-directional linked list of web pages
