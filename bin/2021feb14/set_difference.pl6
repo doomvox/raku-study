@@ -67,6 +67,7 @@ my $expected_set = set @expected;
  }
 
 {
+    # simplest method works, (-) operator does implicit conversion to sets
     my $result = @all (-) @japanese;
     say $result; # Set(blob golem grendel wormface)
     is-deeply( $result, $expected_set,
