@@ -47,7 +47,7 @@ my $expected_set = set @expected;
     say $result;       #  
 
     is-deeply( $result, $expected_set,
-               "Testing set difference: array to set via function on same line");
+               "Testing set difference: array to set via function *with parens* on same line");
 }
 
 exit;
