@@ -51,12 +51,6 @@ my $expected_set = set @expected;
 
 exit;
 
-
-{
-    my $result = set(@all)  (-) set(@japanese) ;
-    say $result;
-}
-
 {
     my $hm = @all.Set (-) @japanese.Set ;
     say $hm;
