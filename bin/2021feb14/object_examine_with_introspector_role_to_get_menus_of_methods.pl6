@@ -160,6 +160,7 @@ say $s.^methods;  # There's no "values" in this list:
 
 say "ZZZ";
 $s.^methods.map( *.name ).say;
+# (menu Capture Baggy DELETE-KEY maxpairs hash default STORE total Numeric SET-SELF grabpairs Bool fmt RAW-HASH minpairs elems pickpairs Bag SetHash ASSIGN-KEY pairs new values keyof kv Setty EXISTS-KEY WHICH Str of MixHash Int gist Mix Num list raku pick grab iterator Real Set Mixy AT-KEY roll Hash ACCEPTS antipairs new-from-pairs keys BagHash BUILDALL)
 
 
 say so $s.^methods.gist.grep(/<<values>>/);   # False
