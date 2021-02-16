@@ -93,6 +93,6 @@ my $expected_set = set @expected;
     say $result; # Bag(blob golem grendel wormface)
     my $expected_bag = $expected_set.Bag;
     is-deeply( $result, $expected_bag,
-               "Testing set difference on bags");
+               "Testing mixed case: set difference on bag and set");
     # ok 7 - Testing set difference on bags
 }
