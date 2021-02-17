@@ -23,5 +23,5 @@ use v6;
     for @chars -> $c {
         $str ~= $c;
     }
-    say $str;
+    say $str;  # abcdefghijklm
 }
