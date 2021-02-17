@@ -4,4 +4,4 @@ hello; any announcements; any new topics; now let's ick those tops
 ** topics
 *** combined operator assignment shortcuts
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/combined_operator_assignment_shortcuts.pl6
-*** ^methods method oddities
+*** ^methods method oddities: .name
