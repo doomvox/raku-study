@@ -28,9 +28,13 @@ use v6;
 }
 
 {  ## this is a very perlish shortcut, they exist for most binary operators
-    my $num = 2;
-    $num += 3;
-    say $num; # 5
+    my $sum = 2;
+    $sum += 3;
+    say $sum; # 5
     
+    my $prod = 2;
+    $prod *= 3;
+    say $prod; # 6
+
 
 }
