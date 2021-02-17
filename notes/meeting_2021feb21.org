@@ -9,5 +9,5 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/combined_operator_
 **** act on *and return* arrays
 **** preserve order
 **** maybe: avoid uniqifying
-**** act on more complex structures
+**** maybe: act on more complex structures
 ***** distinguish and preserve metadata
