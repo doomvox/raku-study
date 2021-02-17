@@ -45,7 +45,9 @@ use v6;
     say @numbers[0];  # Set(foah sex tew)
 
     my @rabbits  = < bugs peter easter >;
-    @rabbits | (-)= <peter>;
+    # @rabbits | (-)= <peter>;
+    # Prefix - requires an argument, but no valid term found.
+
     say @rabbits;
 
 }
