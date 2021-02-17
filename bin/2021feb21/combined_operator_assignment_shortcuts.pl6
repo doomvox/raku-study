@@ -38,10 +38,10 @@ use v6;
 
 }
 
-{ ## Q: Does this work for set difference? A: Yes
+{ ## Q: Does this work for set difference? A: Yes... but you get another container
     my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
     @numbers (-)= <wuhn thuree fahv sevhun>;
-    say @numbers;  # [Set(foah sex tew)]
-    say @numbers[0];  # [Set(foah sex tew)]
+    say @numbers;     # [Set(foah sex tew)]
+    say @numbers[0];  # Set(foah sex tew)
 }
 
