@@ -7,6 +7,7 @@ use v6;
 # A question asked in chat a few weeks ago, what does "~=" do?
 
 {
+    ## ~= 
     my $str1 = 'hell';
     my $str1 = $str1 ~ 'lo';
 
@@ -14,4 +15,12 @@ use v6;
     my $str2 ~= 'lo';
 
     say $str1, ' ', $str2: # hello hello
+}
+
+{ my @chars = < a b c d e f g h i j k l m>;
+  my $str;
+  for @chars -> $c {
+      $str ~= $c;
+  }
+  say $str;
 }
