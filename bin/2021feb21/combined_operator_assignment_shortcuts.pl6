@@ -7,7 +7,12 @@ use v6;
 # A question asked in chat a few weeks ago, what does "~=" do?
 
 {
-    my $str = 'hell';
-    my $str = $str ~ 'lo';
+    my $str1 = 'hell';
+    my $str1 = $str1 ~ 'lo';
+
+    my $str2 = 'hell';
+    my $str2 ~= 'lo';
+
+
     say $str: # hello
 }
