@@ -36,5 +36,11 @@ use v6;
     $prod *= 3;
     say $prod; # 6
 
-
 }
+
+{ ## Q: how about set difference?
+    my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
+    @numbers (-)= <wuhn thuree fahv sevhun>;
+    say @numbers
+
+    }
