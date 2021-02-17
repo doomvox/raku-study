@@ -8,6 +8,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/combined_operator_
 *** variants of set operations:
 **** act on *and return* arrays
 **** preserve order
+***** note: .unique preserves order
 **** maybe: avoid uniqifying
 **** maybe: act on more complex structures
 ***** distinguish and preserve metadata
