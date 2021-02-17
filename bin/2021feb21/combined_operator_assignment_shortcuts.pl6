@@ -27,7 +27,7 @@ use v6;
     say $str;  # abcdefghijklm
 }
 
-{  ## this is a very perlish shortcut, they exist for most binary operators
+{  ## this is a very perlish shortcut: works for most binary operators
     my $sum = 2;
     $sum += 3;
     say $sum; # 5
