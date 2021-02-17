@@ -8,10 +8,13 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/combined_operator_
 *** variants of set operations:
 **** act on *and return* arrays
 **** preserve order
-***** note: relate ops that preserve order
-****** .unique
-****** .squish  fold together consequtive dupes
-****** .Bag     gets counts of repeated elements
+***** note: there are related operations that preserve order
+|         |                                  |
+|---------+----------------------------------|
+| .unique | does a uniq                      |
+| .squish | fold together consequtive dupes  |
+| .Bag    | gets counts of repeated elements |
+|         |                                  |
 **** maybe: avoid uniqifying
 **** maybe: act on more complex structures
 ***** distinguish and preserve metadata
