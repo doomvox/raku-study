@@ -43,5 +43,10 @@ use v6;
     @numbers (-)= <wuhn thuree fahv sevhun>;
     say @numbers;     # [Set(foah sex tew)]
     say @numbers[0];  # Set(foah sex tew)
+
+    my @rabbits  = < bugs peter easter >;
+    @rabbits | (-)= <peter>;
+    say @rabbits;
+
 }
 
