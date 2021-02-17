@@ -17,7 +17,8 @@ use v6;
     say $str1, ' ', $str2; # hello hello
 }
 
-{ ## another way of doing a join
+{   ## convenient to accumulate substrings in one string variable
+    ## e.g. another way of doing a join
     my @chars = < a b c d e f g h i j k l m>;
     my $str;
     for @chars -> $c {
