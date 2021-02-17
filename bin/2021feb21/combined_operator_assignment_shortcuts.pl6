@@ -9,10 +9,10 @@ use v6;
 {
     ## these two constructs are the same:
     my $str1 = 'hell';
-    my $str1 = $str1 ~ 'lo';
+    $str1 = $str1 ~ 'lo';
 
     my $str2 = 'hell';
-    my $str2 ~= 'lo';
+    $str2 ~= 'lo';
 
     say $str1, ' ', $str2: # hello hello
 }
