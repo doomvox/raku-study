@@ -26,3 +26,11 @@ use v6;
     }
     say $str;  # abcdefghijklm
 }
+
+{  ## this is a very perlish shortcut, they exist for most binary operators
+    my $num = 2;
+    $num += 3;
+    say $hum; # 5
+    
+
+}
