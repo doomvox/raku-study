@@ -13,5 +13,5 @@ use v6;
     my $str2 = 'hell';
     my $str2 ~= 'lo';
 
-    say $str: # hello
+    say $str1, ' ', $str2: # hello hello
 }
