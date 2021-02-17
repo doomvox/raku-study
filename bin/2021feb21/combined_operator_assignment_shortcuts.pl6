@@ -14,7 +14,7 @@ use v6;
     my $str2 = 'hell';
     $str2 ~= 'lo';
 
-    say $str1, ' ', $str2: # hello hello
+    say $str1, ' ', $str2; # hello hello
 }
 
 { ## another way of doing a join
