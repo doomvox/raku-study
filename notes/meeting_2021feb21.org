@@ -23,3 +23,4 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/sets_etc-working_f
 **** maybe: act on more complex structures
 ***** distinguish and preserve metadata
 ****** do-able with custom WHICH?
+****** what about numeric operations
