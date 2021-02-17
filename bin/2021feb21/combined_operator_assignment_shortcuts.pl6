@@ -47,8 +47,5 @@ use v6;
     my @rabbits  = < bugs peter easter >;
     # @rabbits | (-)= <peter>;
     # Prefix - requires an argument, but no valid term found.
-
-    say @rabbits;
-
 }
 
