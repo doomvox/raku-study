@@ -12,3 +12,9 @@ use v6;
     .sort( - *.value )
     .head(5)
     }
+# Sample output (.roll examples are non-deterministic)
+# e => 47
+# n => 45
+# g => 44
+# h => 44
+# d => 43
