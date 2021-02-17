@@ -7,7 +7,7 @@ use v6;
 # A question asked in chat a few weeks ago, what does "~=" do?
 
 {
-    ## ~= 
+    ## these two constructs are the same:
     my $str1 = 'hell';
     my $str1 = $str1 ~ 'lo';
 
@@ -17,10 +17,11 @@ use v6;
     say $str1, ' ', $str2: # hello hello
 }
 
-{ my @chars = < a b c d e f g h i j k l m>;
-  my $str;
-  for @chars -> $c {
-      $str ~= $c;
-  }
-  say $str;
+{ ## another way of doing a join
+    my @chars = < a b c d e f g h i j k l m>;
+    my $str;
+    for @chars -> $c {
+        $str ~= $c;
+    }
+    say $str;
 }
