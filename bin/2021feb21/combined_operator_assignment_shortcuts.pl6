@@ -48,6 +48,7 @@ use v6;
     # @rabbits | (-)= <peter>;
     # Prefix - requires an argument, but no valid term found.
 
+    ## TODO try defining a new operator that does a set diff and then a flat
 
 }
 
