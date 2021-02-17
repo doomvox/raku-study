@@ -30,7 +30,7 @@ use v6;
 {  ## this is a very perlish shortcut, they exist for most binary operators
     my $num = 2;
     $num += 3;
-    say $hum; # 5
+    say $num; # 5
     
 
 }
