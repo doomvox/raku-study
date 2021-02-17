@@ -6,6 +6,7 @@ hello; any announcements; any new topics; now let's ick those tops
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/combined_operator_assignment_shortcuts.pl6
 *** ^methods method oddities: .name
 *** lizmat fosdem talk on sets etc
+https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/sets_etc-working_from_lizmat_examples_fosdem_talk.pl6
 *** TODO project: write variants of set operations:
 **** act on *and return* arrays
 **** preserve order
