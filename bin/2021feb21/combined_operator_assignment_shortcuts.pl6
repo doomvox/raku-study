@@ -38,8 +38,8 @@ use v6;
 
 }
 
-{ ## Q: how about set difference?
+{ ## Q: Does this work for set difference? A: Yes
     my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
     @numbers (-)= <wuhn thuree fahv sevhun>;
-    say @numbers;
+    say @numbers;  # [Set(foah sex tew)]
 }
