@@ -10,7 +10,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/combined_operator_
 **** preserve order
 ***** note: relate ops that preserve order
 ****** .unique
-****** .squish  elements on right that aren't on left (chk)
+****** .squish  fold together consequtive dupes
 ****** .Bag     gets counts of repeated elements
 **** maybe: avoid uniqifying
 **** maybe: act on more complex structures
