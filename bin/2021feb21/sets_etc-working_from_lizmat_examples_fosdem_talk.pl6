@@ -5,4 +5,10 @@
 use v6;
 
 
-
+## lizmat fosdem 2021 
+{
+    .say for ("a" .. "z").roll(1000)
+    .Bag
+    .sort( - *.value )
+    .head(5)
+    }
