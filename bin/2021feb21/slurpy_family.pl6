@@ -43,6 +43,20 @@ a([1, 2]);                 # OUTPUT: «[1, 2]»
 a(1, [1, 2], ([3, 4], 5)); # OUTPUT: «[1, 1, 2, 3, 4, 5]» 
 a(($_ for 1, 2, 3));       # OUTPUT: «[1, 2, 3]» 
 
+
+## Unflattened slurpy
+my @array = <a b c>;
+my $list := <d e f>;
+sub b(**@b) { @b.raku.say };
+b(@array);                 # OUTPUT: «[["a", "b", "c"],]␤» 
+b(1, $list, [2, 3]);       # OUTPUT: «[1, ("d", "e", "f"), [2, 3]]␤» 
+b([1, 2]);                 # OUTPUT: «[[1, 2],]␤» 
+b(1, [1, 2], ([3, 4], 5)); # OUTPUT: «[1, [1, 2], ([3, 4], 5)]␤» 
+b(($_ for 1, 2, 3));       # OUTPUT: «[(1, 2, 3),]␤» 
+
+
+
+
 # Sigiled parameters will always impose a context on the
 # collected arguments. Sigilless parameters can also be used
 # slurpily, preceded by a + sign, to work with whatever initial
