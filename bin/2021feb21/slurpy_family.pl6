@@ -17,6 +17,7 @@ use v6;
 # Flattened slurpy
 # The single asterisk form flattens passed arguments.
 sub slurpy1( *@pour-and-savor ) {
+    say '---';
     for @pour-and-savor {
         say "flt: " ~ $++ ~ ": $_" 
     }
@@ -25,6 +26,7 @@ sub slurpy1( *@pour-and-savor ) {
 # Unflattened slurpy
 # The double asterisk form does not flatten arguments.
 sub slurpy2( **@chug-no-regrets ) {
+    say '---';
     for @chug-no-regrets {
         say "unflt: " ~ $++ ~ ": $_" 
     }
@@ -33,6 +35,7 @@ sub slurpy2( **@chug-no-regrets ) {
 # Single argument rule slurpy
 # The plus form flattens according to the single argument rule.
 sub slurpy3( +@read-the-label ) {
+    say '---';
     for @read-the-label {
         say "sarg: " ~ $++ ~ ": $_" 
     }
