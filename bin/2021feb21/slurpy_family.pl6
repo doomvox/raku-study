@@ -16,12 +16,13 @@ use v6;
 
 sub slurpy1( *@pour-and-savor ) {
     # The single asterisk form flattens passed arguments.
-
+    # Flattened slurpy
 
 };
 
 sub slurpy2( **@chug-no-regrets ) {
     # The double asterisk form does not flatten arguments.
+    # Unflattened slurpy
 
 };
 
