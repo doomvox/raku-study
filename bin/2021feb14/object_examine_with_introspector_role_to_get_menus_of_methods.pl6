@@ -170,7 +170,7 @@ say so $s.^methods.gist.grep(/<<maxpairs>>/); # True
 ## Theory: the Hash-ish methods come from some role,
 ## and ^methods (and hence, my menu) doesn't see them.
 
-say "===";a
+say "===";
 
 ## Actually: some odd issue where you *need* to call .name
 ## (not just .gist) to deal with those "Method+{is-nodal}"
