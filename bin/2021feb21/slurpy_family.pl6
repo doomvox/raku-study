@@ -20,6 +20,8 @@ sub slurpy1( *@pour-and-savor ) {
 
 
 sub slurpy2( **@chug-no-regrets ) {
+    # The double asterisk form does not flatten arguments.
+
 };
 
 sub slurpy3( +@read-the-label ) {
