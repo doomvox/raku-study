@@ -25,6 +25,8 @@ sub slurpy2( **@chug-no-regrets ) {
 };
 
 sub slurpy3( +@read-the-label ) {
+    # The plus form flattens according to the single argument rule.
+
 };
 
 
