@@ -28,6 +28,7 @@ sub slurpy2( **@chug-no-regrets ) {
 
 sub slurpy3( +@read-the-label ) {
     # The plus form flattens according to the single argument rule.
+    # Single argument rule slurpy
 
 };
 
@@ -56,6 +57,14 @@ b(($_ for 1, 2, 3));       # OUTPUT: «[(1, 2, 3),]␤»
 
 
 
+# Single argument rule slurpy
+
+# A slurpy parameter created using a plus engages the "single
+# argument rule", which decides how to handle the slurpy argument
+# based upon context. Basically, if only a single argument is
+# passed and that argument is Iterable, that argument is used to
+# fill the slurpy parameter array. In any other case, +@ works
+# like **@.
 
 
 ## (What?)
