@@ -20,15 +20,19 @@ sub slurpy1( *@pour-and-savor ) {
 
 };
 
+# Unflattened slurpy
+# The double asterisk form does not flatten arguments.
 sub slurpy2( **@chug-no-regrets ) {
-    # The double asterisk form does not flatten arguments.
-    # Unflattened slurpy
+    
+    
 
 };
 
+# Single argument rule slurpy
+# The plus form flattens according to the single argument rule.
 sub slurpy3( +@read-the-label ) {
-    # The plus form flattens according to the single argument rule.
-    # Single argument rule slurpy
+    
+    
 
 };
 
