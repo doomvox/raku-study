@@ -4,3 +4,12 @@
 
 use v6;
 
+# The slurpy family
+# at 13:20 
+
+sub slurpy1( *@pour-and-savor ) {
+};
+
+
+sub slurpy2( *@chug-no-regrets ) {
+};
