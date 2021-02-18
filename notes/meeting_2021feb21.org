@@ -16,7 +16,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/sets_etc-working_f
 **** act on *and return* arrays
 **** preserve order
 ***** related operations
-|         |                                  |                 |
+| method  | description                      | key attribute   |
 |---------+----------------------------------+-----------------|
 | .unique | does a uniq                      | preserves order |
 | .squish | fold together consequtive dupes  | preserves order |
