@@ -66,6 +66,14 @@ b(($_ for 1, 2, 3));       # OUTPUT: «[(1, 2, 3),]␤»
 # fill the slurpy parameter array. In any other case, +@ works
 # like **@.
 
+my @array = <a b c>;
+my $list := <d e f>;
+sub c(+@b) { @b.raku.say };
+c(@array);                 # OUTPUT: «["a", "b", "c"]␤» 
+c(1, $list, [2, 3]);       # OUTPUT: «[1, ("d", "e", "f"), [2, 3]]␤» 
+c([1, 2]);                 # OUTPUT: «[1, 2]␤» 
+c(1, [1, 2], ([3, 4], 5)); # OUTPUT: «[1, [1, 2], ([3, 4], 5)]␤» 
+c(($_ for 1, 2, 3));       # OUTPUT: «[1, 2, 3]␤» 
 
 ## (What?)
 # Sigiled parameters will always impose a context on the
