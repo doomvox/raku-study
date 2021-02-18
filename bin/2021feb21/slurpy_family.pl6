@@ -20,7 +20,6 @@ sub slurpy1( *@pour-and-savor ) {
     for @pour-and-savor {
         say "flt: " ~ $++ ~ ": $_" 
     }
-
 };
 
 # Unflattened slurpy
@@ -34,7 +33,10 @@ sub slurpy2( **@chug-no-regrets ) {
 # Single argument rule slurpy
 # The plus form flattens according to the single argument rule.
 sub slurpy3( +@read-the-label ) {
-    "sarg: " ~ $++ ~ ": $_".say for @read-the-label;
+    for @read-the-label {
+        say "sarg: " ~ $++ ~ ": $_" 
+    }
+
 };
 
 my @array = <a b c>;
