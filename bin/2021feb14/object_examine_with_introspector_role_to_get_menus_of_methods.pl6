@@ -184,7 +184,8 @@ Set.^methods.map(*.name).grep(/keys/)>>.say;  # keys
 ## and it all works better.
 
 
-
+say "---";
 my @mob = Set.^methods;
 my $mob = @mob[0];
+dd($mob);
 $mob.^methods.map(*.name)>>.say;  # keys
