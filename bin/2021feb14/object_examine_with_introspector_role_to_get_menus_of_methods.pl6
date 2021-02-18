@@ -269,4 +269,4 @@ $mob.^methods.map(*.name)>>.say;  # keys
 
 
 say "---";
-$mob.^methods.map(*.name).unique>>.say;  # keys
+$mob.^methods.map(*.name).unique>>.say;
