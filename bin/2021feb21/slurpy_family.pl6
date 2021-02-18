@@ -52,6 +52,28 @@ slurpy2( <a b c> );
 slurpy3( @array );
 slurpy3( <a b c> );
 
+## Now I understand not: thought the single-argument form would behave differently
+# ---
+# flt: 0: a
+# flt: 1: b
+# flt: 2: c
+# ---
+# flt: 0: a
+# flt: 1: b
+# flt: 2: c
+# ---
+# unflt: 0: a b c
+# ---
+# unflt: 0: a b c
+# ---
+# sarg: 0: a
+# sarg: 1: b
+# sarg: 2: c
+# ---
+# sarg: 0: a
+# sarg: 1: b
+# sarg: 2: c
+
 
 
 
