@@ -270,9 +270,8 @@ $mob.^methods.map(*.name)>>.say;  # keys
 
 
 say "---";
-## No idea what all those duplications are about
+## I have no idea what all those duplications are about
 $mob.^methods.map(*.name).unique>>.say;
-
 # gist
 # <anon>
 # package
