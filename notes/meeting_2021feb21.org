@@ -1,6 +1,9 @@
 * meeting notes Feb 21, 2021
 ** agenda
 hello; any announcements; any new topics; now let's ick those tops
+** announcements
+Ian Kluft, "Secure Coding in Perl", March 4, 2021
+https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
 ** topics
 *** combined operator assignment shortcuts
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/combined_operator_assignment_shortcuts.pl6
