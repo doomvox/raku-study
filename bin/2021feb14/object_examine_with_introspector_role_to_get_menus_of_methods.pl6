@@ -312,6 +312,6 @@ $mob.^methods.map(*.name).unique>>.say;
 # ACCEPTS
 # new
 
-## Same listing from the class Method as from the object.
+## Same listing from the class Method as from the object
 say "---";
 Method.^methods.map(*.name).unique>>.say;
