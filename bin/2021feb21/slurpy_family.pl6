@@ -17,13 +17,18 @@ use v6;
 # Flattened slurpy
 # The single asterisk form flattens passed arguments.
 sub slurpy1( *@pour-and-savor ) {
-    "flt: " ~ $++ ~ ": $_".say for @pour-and-savor;
+    for @pour-and-savor {
+        say "flt: " ~ $++ ~ ": $_" 
+    }
+
 };
 
 # Unflattened slurpy
 # The double asterisk form does not flatten arguments.
 sub slurpy2( **@chug-no-regrets ) {
-    "unflt: " ~ $++ ~ ": $_".say for @chug-no-regrets;
+    for @chug-no-regrets {
+        say "unflt: " ~ $++ ~ ": $_" 
+    }
 };
 
 # Single argument rule slurpy
