@@ -170,7 +170,9 @@ say so $s.^methods.gist.grep(/<<maxpairs>>/); # True
 ## Theory: the Hash-ish methods come from some role,
 ## and ^methods (and hence, my menu) doesn't see them.
 
-## No, this is entirely an illusion from say's use of gist, which truncates long lists
+## Actually: some odd issue where you *need* to call .name
+## (not just .gist) to deal with those "Method+{is-nodal}"
+## entries-- so it *is* something to do with roles vs. classes.
 
 ## raku -e 'Set.^methods.map(*.name).grep(/keys/)>>.say'
-## Set.^methods.map(*.name).grep(/keys/)>>.say;  # keys
+Set.^methods.map(*.name).grep(/keys/)>>.say;  # keys
