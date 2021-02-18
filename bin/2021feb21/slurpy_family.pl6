@@ -17,14 +17,16 @@ use v6;
 # Flattened slurpy
 # The single asterisk form flattens passed arguments.
 sub slurpy1( *@pour-and-savor ) {
-   for @pour-and-savor;
+    "$++: $_".say
+    for @pour-and-savor;
 
 };
 
 # Unflattened slurpy
 # The double asterisk form does not flatten arguments.
 sub slurpy2( **@chug-no-regrets ) {
-   for @chug-no-regrets;
+    "$++: $_".say
+    for @chug-no-regrets;
     
 
 };
@@ -32,9 +34,8 @@ sub slurpy2( **@chug-no-regrets ) {
 # Single argument rule slurpy
 # The plus form flattens according to the single argument rule.
 sub slurpy3( +@read-the-label ) {
+    "$++: $_".say
     for @read-the-label;
-    
-
 };
 
 
