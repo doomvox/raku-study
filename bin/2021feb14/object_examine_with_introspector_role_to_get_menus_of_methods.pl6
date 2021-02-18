@@ -185,3 +185,6 @@ Set.^methods.map(*.name).grep(/keys/)>>.say;  # keys
 
 
 
+my @mob = Set.^methods;
+my $mob = @mob[0];
+$mob.^methods.map(*.name)>>.say;  # keys
