@@ -19,3 +19,15 @@ sub slurpy2( **@chug-no-regrets ) {
 
 sub slurpy3( +@read-the-label ) {
 };
+
+
+
+# https://docs.raku.org/type/Signature#Slurpy_parameters
+
+# Sigiled parameters will always impose a context on the collected arguments. Sigilless parameters can also be used slurpily, preceded by a + sign, to work with whatever initial type they started with:
+
+# sub zipi( +zape ) {
+#     zape.^name => zape
+# };
+# say zipi( "Hey "); # OUTPUT: «List => (Hey )␤» 
+# say zipi( 1...* ); # OUTPUT: «Seq => (...)␤» 
