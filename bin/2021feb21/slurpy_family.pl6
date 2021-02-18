@@ -6,6 +6,7 @@ use v6;
 
 # Matthew Stephen Stuckwisch talk "Surprisingly Unsurprising"
 # At 13:20, The slurpy family
+# (Uses some silly jokes that obscure the point.)
 
 # https://docs.raku.org/language/functions
 # sub grab(+@a) { "grab $_".say for @a }
