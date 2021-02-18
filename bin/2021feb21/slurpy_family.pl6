@@ -56,6 +56,8 @@ b(($_ for 1, 2, 3));       # OUTPUT: «[(1, 2, 3),]␤»
 
 
 
+
+
 ## (What?)
 # Sigiled parameters will always impose a context on the
 # collected arguments. Sigilless parameters can also be used
