@@ -266,3 +266,7 @@ $mob.^methods.map(*.name)>>.say;  # keys
 # Capture
 # POSITIONS
 # BUILDALL
+
+
+say "---";
+$mob.^methods.map(*.name).unique>>.say;  # keys
