@@ -268,5 +268,46 @@ $mob.^methods.map(*.name)>>.say;  # keys
 # BUILDALL
 
 
+
 say "---";
+## No idea what all those duplications are about
 $mob.^methods.map(*.name).unique>>.say;
+
+# gist
+# <anon>
+# package
+# candidates
+# raku
+# leave
+# multi
+# cando
+# soft
+# wrap
+# onlystar
+# unwrap
+# BUILDALL
+# add_phaser
+# POSITIONS
+# fire_if_phasers
+# WHY
+# phasers
+# has-phasers
+# fire_phasers
+# has-phaser
+# set_why
+# returns
+# of
+# signature
+# outer
+# static_id
+# Str
+# prec
+# line
+# Capture
+# assuming
+# arity
+# count
+# file
+# is-implementation-detail
+# ACCEPTS
+# new
