@@ -14,9 +14,11 @@ use v6;
 ## The real deal is spelled out here:
 # https://docs.raku.org/type/Signature#Slurpy_parameters
 
+#  Flattened slurpy
+# The single asterisk form flattens passed arguments.
 sub slurpy1( *@pour-and-savor ) {
-    # The single asterisk form flattens passed arguments.
-    # Flattened slurpy
+    
+    #
 
 };
 
