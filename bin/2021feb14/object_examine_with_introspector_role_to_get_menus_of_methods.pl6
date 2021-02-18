@@ -178,3 +178,8 @@ say "===";
 
 ## raku -e 'Set.^methods.map(*.name).grep(/keys/)>>.say'
 Set.^methods.map(*.name).grep(/keys/)>>.say;  # keys
+
+## Modified Object::Examine Introspector role,
+## the .menu method now uses .name instead of .gist,
+## and it all works better.
+
