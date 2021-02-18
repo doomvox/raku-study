@@ -11,5 +11,8 @@ sub slurpy1( *@pour-and-savor ) {
 };
 
 
-sub slurpy2( *@chug-no-regrets ) {
+sub slurpy2( **@chug-no-regrets ) {
+};
+
+sub slurpy3( +@read-the-label ) {
 };
