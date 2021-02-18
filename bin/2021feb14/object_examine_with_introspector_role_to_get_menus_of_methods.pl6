@@ -271,6 +271,7 @@ $mob.^methods.map(*.name)>>.say;  # keys
 
 say "---";
 ## I have no idea what all those duplications are about
+## weirdly, I don't see a ".name" in a Method.^methods call.
 $mob.^methods.map(*.name).unique>>.say;
 # gist
 # <anon>
@@ -310,3 +311,7 @@ $mob.^methods.map(*.name).unique>>.say;
 # is-implementation-detail
 # ACCEPTS
 # new
+
+
+say "---";
+Method.^methods.map(*.name).unique>>.say;
