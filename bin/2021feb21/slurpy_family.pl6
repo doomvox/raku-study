@@ -18,7 +18,6 @@ sub slurpy1( *@pour-and-savor ) {
 
 };
 
-
 sub slurpy2( **@chug-no-regrets ) {
     # The double asterisk form does not flatten arguments.
 
@@ -30,8 +29,16 @@ sub slurpy3( +@read-the-label ) {
 };
 
 
-
 # https://docs.raku.org/type/Signature#Slurpy_parameters
+## Flatened slurpy
+my @array = <a b c>;
+my $list := <d e f>;
+sub a(*@a)  { @a.raku.say };
+a(@array);                 # OUTPUT: «["a", "b", "c"]» 
+a(1, $list, [2, 3]);       # OUTPUT: «[1, "d", "e", "f", 2, 3]» 
+a([1, 2]);                 # OUTPUT: «[1, 2]» 
+a(1, [1, 2], ([3, 4], 5)); # OUTPUT: «[1, 1, 2, 3, 4, 5]» 
+a(($_ for 1, 2, 3));       # OUTPUT: «[1, 2, 3]» 
 
 # Sigiled parameters will always impose a context on the
 # collected arguments. Sigilless parameters can also be used
