@@ -33,6 +33,7 @@ sub slurpy3( +@read-the-label ) {
 };
 
 
+
 # # https://docs.raku.org/type/Signature#Slurpy_parameters
 # ## Flatened slurpy
 # my @array = <a b c>;
