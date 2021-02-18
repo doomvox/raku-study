@@ -185,7 +185,9 @@ Set.^methods.map(*.name).grep(/keys/)>>.say;  # keys
 
 
 say "---";
+# Looking at a Method object
 my @mob = Set.^methods;
 my $mob = @mob[0];
 dd($mob);
+# Method $mob = method iterator (Set:D: *%_) { #`(Method|43904112) ... }
 $mob.^methods.map(*.name)>>.say;  # keys
