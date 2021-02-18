@@ -10,6 +10,8 @@ use v6;
 # https://docs.raku.org/language/functions
 # sub grab(+@a) { "grab $_".say for @a }
 
+# https://docs.raku.org/type/Signature#Slurpy_parameters
+
 sub slurpy1( *@pour-and-savor ) {
 };
 
