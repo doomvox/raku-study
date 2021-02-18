@@ -13,6 +13,9 @@ use v6;
 # https://docs.raku.org/type/Signature#Slurpy_parameters
 
 sub slurpy1( *@pour-and-savor ) {
+    # The single asterisk form flattens passed arguments.
+
+
 };
 
 
