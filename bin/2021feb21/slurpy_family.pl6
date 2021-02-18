@@ -33,27 +33,27 @@ sub slurpy3( +@read-the-label ) {
 };
 
 
-# https://docs.raku.org/type/Signature#Slurpy_parameters
-## Flatened slurpy
-my @array = <a b c>;
-my $list := <d e f>;
-sub a(*@a)  { @a.raku.say };
-a(@array);                 # OUTPUT: «["a", "b", "c"]» 
-a(1, $list, [2, 3]);       # OUTPUT: «[1, "d", "e", "f", 2, 3]» 
-a([1, 2]);                 # OUTPUT: «[1, 2]» 
-a(1, [1, 2], ([3, 4], 5)); # OUTPUT: «[1, 1, 2, 3, 4, 5]» 
-a(($_ for 1, 2, 3));       # OUTPUT: «[1, 2, 3]» 
+# # https://docs.raku.org/type/Signature#Slurpy_parameters
+# ## Flatened slurpy
+# my @array = <a b c>;
+# my $list := <d e f>;
+# sub a(*@a)  { @a.raku.say };
+# a(@array);                 # OUTPUT: «["a", "b", "c"]» 
+# a(1, $list, [2, 3]);       # OUTPUT: «[1, "d", "e", "f", 2, 3]» 
+# a([1, 2]);                 # OUTPUT: «[1, 2]» 
+# a(1, [1, 2], ([3, 4], 5)); # OUTPUT: «[1, 1, 2, 3, 4, 5]» 
+# a(($_ for 1, 2, 3));       # OUTPUT: «[1, 2, 3]» 
 
 
-## Unflattened slurpy
-my @array = <a b c>;
-my $list := <d e f>;
-sub b(**@b) { @b.raku.say };
-b(@array);                 # OUTPUT: «[["a", "b", "c"],]␤» 
-b(1, $list, [2, 3]);       # OUTPUT: «[1, ("d", "e", "f"), [2, 3]]␤» 
-b([1, 2]);                 # OUTPUT: «[[1, 2],]␤» 
-b(1, [1, 2], ([3, 4], 5)); # OUTPUT: «[1, [1, 2], ([3, 4], 5)]␤» 
-b(($_ for 1, 2, 3));       # OUTPUT: «[(1, 2, 3),]␤» 
+# ## Unflattened slurpy
+# my @array = <a b c>;
+# my $list := <d e f>;
+# sub b(**@b) { @b.raku.say };
+# b(@array);                 # OUTPUT: «[["a", "b", "c"],]␤» 
+# b(1, $list, [2, 3]);       # OUTPUT: «[1, ("d", "e", "f"), [2, 3]]␤» 
+# b([1, 2]);                 # OUTPUT: «[[1, 2],]␤» 
+# b(1, [1, 2], ([3, 4], 5)); # OUTPUT: «[1, [1, 2], ([3, 4], 5)]␤» 
+# b(($_ for 1, 2, 3));       # OUTPUT: «[(1, 2, 3),]␤» 
 
 
 
@@ -66,14 +66,14 @@ b(($_ for 1, 2, 3));       # OUTPUT: «[(1, 2, 3),]␤»
 # fill the slurpy parameter array. In any other case, +@ works
 # like **@.
 
-my @array = <a b c>;
-my $list := <d e f>;
-sub c(+@b) { @b.raku.say };
-c(@array);                 # OUTPUT: «["a", "b", "c"]␤» 
-c(1, $list, [2, 3]);       # OUTPUT: «[1, ("d", "e", "f"), [2, 3]]␤» 
-c([1, 2]);                 # OUTPUT: «[1, 2]␤» 
-c(1, [1, 2], ([3, 4], 5)); # OUTPUT: «[1, [1, 2], ([3, 4], 5)]␤» 
-c(($_ for 1, 2, 3));       # OUTPUT: «[1, 2, 3]␤» 
+# my @array = <a b c>;
+# my $list := <d e f>;
+# sub c(+@b) { @b.raku.say };
+# c(@array);                 # OUTPUT: «["a", "b", "c"]␤» 
+# c(1, $list, [2, 3]);       # OUTPUT: «[1, ("d", "e", "f"), [2, 3]]␤» 
+# c([1, 2]);                 # OUTPUT: «[1, 2]␤» 
+# c(1, [1, 2], ([3, 4], 5)); # OUTPUT: «[1, [1, 2], ([3, 4], 5)]␤» 
+# c(($_ for 1, 2, 3));       # OUTPUT: «[1, 2, 3]␤» 
 
 ## (What?)
 # Sigiled parameters will always impose a context on the
