@@ -4,8 +4,8 @@
 
 use v6;
 
-# The slurpy family
-# at 13:20 
+# Matthew Stephen Stuckwisch talk "Surprisingly Unsurprising"
+# At 13:20, The slurpy family
 
 sub slurpy1( *@pour-and-savor ) {
 };
