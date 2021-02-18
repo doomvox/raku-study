@@ -32,6 +32,17 @@ sub slurpy3( +@read-the-label ) {
     "sarg: $++: $_".say for @read-the-label;
 };
 
+my @array = <a b c>;
+slurpy1( @array );
+slurpy1( <a b c> );
+
+slurpy2( @array );
+slurpy2( <a b c> );
+
+slurpy3( @array );
+slurpy3( <a b c> );
+
+
 
 
 # # https://docs.raku.org/type/Signature#Slurpy_parameters
