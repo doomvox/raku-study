@@ -24,6 +24,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/sets_etc-working_f
 
 *** TODO project: write variants of set operations:
 **** act on *and return* arrays
+***** a wrapper could remember what it was given 
 **** preserve order
 **** maybe: avoid uniqifying
 **** maybe: act on more complex structures
