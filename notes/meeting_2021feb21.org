@@ -8,6 +8,7 @@ https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
 *** combined operator assignment shortcuts
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/combined_operator_assignment_shortcuts.pl6
 *** ^methods method oddities: .name
+https://github.com/rakudo/rakudo/issues/4207
 *** lizmat fosdem talk on sets etc
 **** http://bofh.nikhef.nl/events/FOSDEM/2021/D.perl/raku_sets_without_borders.mp4
 **** code example
@@ -16,7 +17,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/sets_etc-working_f
 **** act on *and return* arrays
 **** preserve order
 ***** related operations
-| method  | description                      | key attribute   |
+| method  | description                      | key attributes  |
 |---------+----------------------------------+-----------------|
 | .unique | does a uniq                      | preserves order |
 | .squish | fold together consequtive dupes  | preserves order |
