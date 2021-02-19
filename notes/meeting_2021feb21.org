@@ -14,16 +14,17 @@ https://www.nntp.perl.org/group/perl.perl6.users/2021/02/msg9734.html
 **** http://bofh.nikhef.nl/events/FOSDEM/2021/D.perl/raku_sets_without_borders.mp4
 **** code example
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/sets_etc-working_from_lizmat_examples_fosdem_talk.pl6
-*** TODO project: write variants of set operations:
-**** act on *and return* arrays
-**** preserve order
-***** related operations
+**** related operations
 | method  | description                      | key attributes  |
 |---------+----------------------------------+-----------------|
 | .unique | does a uniq                      | preserves order |
 | .squish | fold together consequtive dupes  | preserves order |
 | .Bag    | gets counts of repeated elements |                 |
 |         |                                  |                 |
+
+*** TODO project: write variants of set operations:
+**** act on *and return* arrays
+**** preserve order
 **** maybe: avoid uniqifying
 **** maybe: act on more complex structures
 ***** distinguish and preserve metadata
