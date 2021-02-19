@@ -9,6 +9,7 @@ https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/combined_operator_assignment_shortcuts.pl6
 *** ^methods method oddities: .name
 https://github.com/rakudo/rakudo/issues/4207
+https://www.nntp.perl.org/group/perl.perl6.users/2021/02/msg9734.html
 *** lizmat fosdem talk on sets etc
 **** http://bofh.nikhef.nl/events/FOSDEM/2021/D.perl/raku_sets_without_borders.mp4
 **** code example
