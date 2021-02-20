@@ -318,4 +318,6 @@ say "---";
 Method.^methods.map(*.name).unique>>.say;
 
 say "---";
-$mob.^methods.map(*.name).[0]>>.say;
+# method objects from ^methods on Method
+my @metameth = Method.^methods;
+@metameth[0].name>>.say
