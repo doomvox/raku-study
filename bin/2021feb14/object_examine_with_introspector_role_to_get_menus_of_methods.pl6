@@ -270,7 +270,8 @@ $mob.^methods.map(*.name)>>.say;  # keys
 
 
 say "---";
-## I have no idea what all those duplications are about
+## I have no idea what all those duplications are about (oh: on multiple instances of objects?a)
+
 ## weirdly, I don't see a ".name" in a Method.^methods call.
 $mob.^methods.map(*.name).unique>>.say;
 # gist
@@ -315,3 +316,6 @@ $mob.^methods.map(*.name).unique>>.say;
 ## Same listing from the class Method as from the object
 say "---";
 Method.^methods.map(*.name).unique>>.say;
+
+say "---";
+$mob.^methods.map(*.name).[0]>>.say;
