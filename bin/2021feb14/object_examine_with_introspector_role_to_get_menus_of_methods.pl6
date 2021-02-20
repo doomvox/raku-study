@@ -320,5 +320,5 @@ Method.^methods.map(*.name).unique>>.say;
 say "---";
 # method objects from ^methods on Method
 my @metameth = Method.^methods;
-say @metameth[0].name;
-say @metameth[1].name;
+# say @metameth[0].name;
+# say @metameth[2].name;
