@@ -37,7 +37,6 @@ use v6;
     .Bag
     .sort( - *.value  )
     .head(5);
-    
     }
 
 say "---";
