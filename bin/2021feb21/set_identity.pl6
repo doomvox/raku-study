@@ -40,5 +40,5 @@ use v6;
     my $s3 = set $obj1, $obj2, $obj3;
 
     say $s1 (==) $s2;  # True
-    say $s1 (==) $s3;  # True
+    say $s1 (==) $s3;  # False
     }
