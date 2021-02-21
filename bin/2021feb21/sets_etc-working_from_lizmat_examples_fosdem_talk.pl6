@@ -5,7 +5,8 @@
 use v6;
 
 ## QuantHash
-##   Set  Bag  Mix     SetHash  BagHash  MixHash
+##   Set      Bag       Mix      SetHash  BagHash  MixHash
+##   boolean  integer   rational
 
 ## lizmat fosdem 2021 
 {
