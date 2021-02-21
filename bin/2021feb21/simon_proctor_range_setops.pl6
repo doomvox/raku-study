@@ -9,3 +9,4 @@ use v6;
 use Range::SetOps;
 say 10 (elem) (1.5 .. 15.2); # True
 say 20 (elem) (1.5 .. 15.2); # False
+
