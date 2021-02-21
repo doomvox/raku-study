@@ -32,3 +32,8 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/sets_etc-working_f
 ***** distinguish and preserve metadata
 ****** do-able (partially) with custom WHICH
 ****** what about numeric operations
+
+
+*** andrew shitov "Perl 6 at a Glance"
+**** https://andrewshitov.com/perl6-at-a-glance/
+**** https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf
