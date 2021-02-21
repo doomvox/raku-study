@@ -28,7 +28,10 @@ use v6;
                 );
     my @p = $m.pick(24);
     
-
+    say @p
+    .sort( - *.value  )
+    .head(5);
+    
     }
 
 say "---";
