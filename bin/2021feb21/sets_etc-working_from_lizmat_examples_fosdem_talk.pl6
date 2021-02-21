@@ -51,8 +51,9 @@ say "---";
 
     say "---";
     my $other =  (2, 4, 6) (-) (6, 8, 10);
-    say $other;
+    say $other;  # Set(2 4)
 
+    say "---";
 
 
     }
