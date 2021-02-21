@@ -14,7 +14,4 @@ use v6;
     my $set_of_sets_1 = set $numbers1, $numbers2;
     my $set_of_sets_2 = set $numbers1, $numbers2;
 
- my $numbers1  = set < wuhn tew thuree foah fahv sex sevhun >;
-     my $numbers2  = set < wuhn tew thuree foah fahv sex sevhun >;
-     say $numbers1 (==) $numbers2;  #  True
  }
