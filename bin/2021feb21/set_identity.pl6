@@ -49,6 +49,9 @@ use v6;
     my $obj_lst_1 = ( $obj1, $obj2 );
     my $obj_lst_2 = ( $obj1, $obj2, $obj3 );
 
+    dd( $obj_lst_1 );
+    dd( $obj_lst_2 );
+
     say $obj_lst_2 (-) $obj_lst_2;
     # Set()
 
