@@ -41,5 +41,4 @@ use v6;
 
     say $s1 (==) $s2;  # True
     say $s1 (==) $s3;  # True
-
     }
