@@ -7,5 +7,5 @@ use v6;
 { 
     my $numbers1  = set < wuhn tew thuree foah fahv sex sevhun >;
     my $numbers2  = set < wuhn tew thuree foah fahv sex sevhun >;
-    say $numbers1 (==) $numbers2
+    say $numbers1 (==) $numbers2;  #  True
 }
