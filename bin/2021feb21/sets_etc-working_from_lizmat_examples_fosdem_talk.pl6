@@ -9,7 +9,7 @@ use v6;
 {
     .say for ("a" .. "z").roll(1000)
     .Bag
-    .sort( - *.value )
+    .sort( - *.value  )
     .head(5)
     }
 # Sample output (.roll examples are non-deterministic)
