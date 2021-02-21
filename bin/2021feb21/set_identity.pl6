@@ -10,7 +10,6 @@ use v6;
     say $numbers1 (==) $numbers2;  #  True
 
     say $numbers1 (==) $numbers1;  #  True
-
 }
 
 
