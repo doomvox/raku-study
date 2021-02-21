@@ -14,6 +14,13 @@ use v6;
     my $set_of_sets_1 = set $numbers1, $numbers2;
     my $set_of_sets_2 = set $numbers1, $numbers2;
 
-    say $set_of_sets_1 (==) $set_of_sets_1;  #  
-    say $set_of_sets_1 (==) $set_of_sets_2;  #  
+    say $set_of_sets_1 (==) $set_of_sets_1;  #  True
+    say $set_of_sets_1 (==) $set_of_sets_2;  #  True
+
+
+    my $something1 = "alpha";
+
+    my $set_of_sets_2 = set $numbers1, $numbers2;
+
+
  }
