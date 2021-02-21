@@ -72,6 +72,5 @@ say "---";
     # simon proctor:
     # my @diff = (@monsters1 (-) @monsters2).keys; 
 
-
     }
 
