@@ -64,6 +64,6 @@ say "---";
     my @diff_the_second = | @monsters2 (-) @monsters1;
     say @diff_the_second; # [Set(blob dracula horta tingler wolfman)]
 
-    say @diff_the_second.keys;
+    say @diff_the_second.[0]keys; 
 
     }
