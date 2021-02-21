@@ -26,7 +26,7 @@ use v6;
                   c => 12,
                   d => 0.5,
                 );
-    say $m.roll(24);
+    say $m.pick(24);
     
 
     }
