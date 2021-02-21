@@ -49,8 +49,8 @@ use v6;
     my $obj_lst_1 = ( $obj1, $obj2 );
     my $obj_lst_2 = ( $obj1, $obj2, $obj3 );
 
-    dd( $obj_lst_1 );
-    dd( $obj_lst_2 );
+    dd( $obj_lst_1 ); # List $obj_lst_1 = $(E.new, E.new)
+    dd( $obj_lst_2 ); # List $obj_lst_2 = $(E.new, E.new, E.new)
 
     say $obj_lst_2 (-) $obj_lst_2;
     # Set()
