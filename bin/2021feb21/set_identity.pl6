@@ -16,5 +16,4 @@ use v6;
 
     say $set_of_sets_1 (==) $set_of_sets_1;  #  
     say $set_of_sets_1 (==) $set_of_sets_2;  #  
-
  }
