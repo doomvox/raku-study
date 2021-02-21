@@ -37,7 +37,7 @@ use v6;
 
     my $s1 = $obj1, $obj2;
     my $s2 = $obj1, $obj2;
-    my $s2 = $obj1, $obj2, $obj3;
+    my $s3 = $obj1, $obj2, $obj3;
 
     say $s1 (==) $s2;
     say $s1 (==) $s3;
