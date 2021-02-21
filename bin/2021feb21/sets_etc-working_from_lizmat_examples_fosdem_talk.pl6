@@ -66,7 +66,6 @@ say "---";
 
     say @diff_the_second.[0].keys;   # (dracula tingler wolfman horta blob)
 
-
     say ( @monsters2 (-) @monsters1 ).keys;
     # (dracula tingler wolfman horta blob)
 
