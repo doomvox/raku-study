@@ -61,5 +61,6 @@ say "---";
     #  [Set(blob dracula horta tingler wolfman)]
     say @diff[0];  # Set(blob dracula horta tingler wolfman)
 
+    my @diff_the_second = | @monsters2 (-) @monsters1;
 
     }
