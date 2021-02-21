@@ -29,7 +29,6 @@ use v6;
     # my @p = $m.pick(24);
     #  .pick is not supported on a Mix, maybe use .roll instead?
     my @p = $m.roll(24);
-    
     .say for @p
     .Bag
     .sort( - *.value  )
