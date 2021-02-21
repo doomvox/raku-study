@@ -4,5 +4,7 @@
 
 use v6;
 
-  use Range::SetOps;
-  say 10 (elem) (1.5 .. 15.2);
+# https://github.com/Scimon/p6-Range-SetOps
+
+use Range::SetOps;
+say 10 (elem) (1.5 .. 15.2);
