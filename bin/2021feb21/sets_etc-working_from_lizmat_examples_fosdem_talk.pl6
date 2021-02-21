@@ -31,6 +31,7 @@ use v6;
     my @p = $m.roll(24);
     
     say @p
+    .Bag
     .sort( - *.value  )
     .head(5);
     
