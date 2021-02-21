@@ -47,6 +47,7 @@ say "---";
     say $s2 (-) $s1;
 
     my $result = $s2 (-) $s1;
+    say $result.keys;
 
 
     }
