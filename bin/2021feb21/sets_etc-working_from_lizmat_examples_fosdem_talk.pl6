@@ -30,10 +30,10 @@ use v6;
     #  .pick is not supported on a Mix, maybe use .roll instead?
     my @p = $m.roll(24);
     
-    say @p
+    @p
     .Bag
     .sort( - *.value  )
-    .head(5);
+    .head(5).say;
     
     }
 
