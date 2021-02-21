@@ -64,5 +64,6 @@ use v6;
     #    say $obj_lst_2.WHATEVER;
 
     say $obj_lst_2 (|) $obj_lst_2;
+    # Set(E.new E.new E.new)
 
     }
