@@ -54,6 +54,11 @@ say "---";
     say $other;  # Set(2 4)
 
     say "---";
+    my @monsters1 = < godzilla mothera ghidora gammera golem rhodan >;
+    my @monsters2 = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
+
+
+
 
 
     }
