@@ -4,6 +4,8 @@
 
 use v6;
 
+## QuantHash
+##  Set Bag  Mix     SetHash  BagHash  MixHash
 
 ## lizmat fosdem 2021 
 {
