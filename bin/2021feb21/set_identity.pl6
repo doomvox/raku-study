@@ -63,8 +63,15 @@ use v6;
     say $obj_lst_2 (|) $obj_lst_2;
     # Set(E.new E.new E.new)
 
+
+    say $s1.WHICH;
+    say $s2.WHICH;
+    say $s3.WHICH;
+
+
     }
 
 ## richard hainsworth remarked that (==) didn't seem to be working these days,
 ## can't reproduce issue at the moment.
+
 
