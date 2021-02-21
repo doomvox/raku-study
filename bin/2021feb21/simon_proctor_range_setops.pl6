@@ -24,6 +24,7 @@ say 20 (elem) (1.5 .. 15.2); # False
 # ∈
 
 # (<)  is subset of
+## Returns True if $a is a strict subset of $b, i.e., that all the elements of $a are elements of $b but $a is a smaller set than $b.
 say (1,2,3)  (<) (2,3,1);    # False?
 say (1,2)    (<) (2,3,1);    # True
 say (2,3,1)  (<) (2,3,1);    # False
