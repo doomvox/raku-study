@@ -5,7 +5,6 @@
 use v6;
 
 # A question asked in chat a few weeks ago, what does "~=" do?
-
 {
     ## these two constructs are the same:
     my $str1 = 'hell';
