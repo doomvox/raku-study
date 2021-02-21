@@ -55,7 +55,7 @@ use v6;
     say $obj_lst_2 (-) $obj_lst_2;
     # Set()
 
-    say $obj_lst_1 (-) $obj_lst_2;
+    say $obj_lst_2 (-) $obj_lst_1;
     # Set()
 
 
