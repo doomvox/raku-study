@@ -50,7 +50,7 @@ say "---";
     say $result.keys;
 
     say "---";
-    my $other =  2, 4, 6 (-) 6, 8, 10;
+    my $other =  (2, 4, 6) (-) (6, 8, 10);
     say $other;
 
 
