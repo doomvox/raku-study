@@ -58,4 +58,7 @@ use v6;
     # Set(E.new)
 
 
+    say $obj_lst_2 (+) $obj_lst_2;
+
+
     }
