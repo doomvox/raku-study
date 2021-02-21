@@ -30,8 +30,13 @@ use v6;
     class E {};
     my $obj1 = E.new();
     my $obj2 = E.new();
+    my $obj3 = E.new();
 
-    say $obj1;
-    say $obj2;
+    say $obj1;  # E.new
+    say $obj2;  # E.new
+
+    my $s1 = $obj1, $obj2;
+    my $s2 = $obj1, $obj2;
+    my $s2 = $obj1, $obj2, $obj3;
 
     }
