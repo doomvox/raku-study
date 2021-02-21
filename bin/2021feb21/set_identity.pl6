@@ -28,6 +28,7 @@ use v6;
 {
 
     class E {};
-    
+    my $obj1 = E.new();
+    my $obj2 = E.new();
 
     }
