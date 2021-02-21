@@ -18,7 +18,7 @@ use v6;
     say $set_of_sets_1 (==) $set_of_sets_2;  #  True
 
 
-    my $something1 = "alpha";
+    my $some_string = "alpha";
 
     my $set_of_sets_2 = set $numbers1, $numbers2;
 
