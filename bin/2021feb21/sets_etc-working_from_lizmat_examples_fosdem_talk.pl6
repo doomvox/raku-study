@@ -70,6 +70,9 @@ say "---";
     say ( @monsters2 (-) @monsters1 ).keys;
     # (dracula tingler wolfman horta blob)
 
+    # simon proctor;
+    # my @diff = (@monsters1 (-) @monsters2).keys; 
+
 
     }
 
