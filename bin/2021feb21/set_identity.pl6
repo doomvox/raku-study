@@ -26,7 +26,7 @@ use v6;
  }
 
 {
-
+    say "===";
     class E {};
     my $obj1 = E.new();
     my $obj2 = E.new();
@@ -39,7 +39,7 @@ use v6;
     my $s2 = $obj1, $obj2;
     my $s3 = $obj1, $obj2, $obj3;
 
-    say $s1 (==) $s2;
-    say $s1 (==) $s3;
+    say $s1 (==) $s2;  # True
+    say $s1 (==) $s3;  # True
 
     }
