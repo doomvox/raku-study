@@ -57,8 +57,6 @@ say "---";
     my @monsters1 = < godzilla mothera ghidora gammera golem rhodan >;
     my @monsters2 = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
     my @diff = @monsters2 (-) @monsters1;
-
-
-
+    say @diff;
 
     }
