@@ -35,3 +35,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/sets_etc-working_f
 *** andrew shitov "Perl 6 at a Glance"
 **** https://andrewshitov.com/perl6-at-a-glance/
 **** https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf
+
+*** javascript tools to plot graphs large datasets
+**** d3 
+**** svg (partial solution)
