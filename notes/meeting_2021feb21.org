@@ -1,6 +1,7 @@
 * meeting notes Feb 21, 2021
 ** agenda
-hello; any announcements; any new topics; now let's ick those tops
+*** hello; any announcements; any new topics; now let's ick those tops
+*** richard hainsworth will present his work on pod6 processing
 ** announcements
 Ian Kluft, "Secure Coding in Perl", March 4, 2021
 https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
