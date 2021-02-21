@@ -68,7 +68,7 @@ use v6;
     say $s2.WHICH;  # Set|A7F2AE139D882F0FC1CA5088C6C4CEA83CFE3626
     say $s3.WHICH;  # Set|47C70AE92E9E5A58B526E8C4FE5E44DE4A8F61BD
 
-    }
+}
 
 ## richard hainsworth remarked that (==) didn't seem to be working these days,
 ## can't reproduce issue at the moment.
