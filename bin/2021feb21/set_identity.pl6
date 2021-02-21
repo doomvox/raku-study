@@ -31,4 +31,7 @@ use v6;
     my $obj1 = E.new();
     my $obj2 = E.new();
 
+    say $obj1;
+    say $obj2;
+
     }
