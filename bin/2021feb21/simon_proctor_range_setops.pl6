@@ -21,6 +21,4 @@ say 10 == any(1.5 .. 15.2);
 say 20 == any(1.5 .. 15.2);
 # any(False, False, False, False, False, False, False, False, False, False, False, False, False, False)
 
-say (20 == any(1.5 .. 15.2) ).elems;
-# any(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
 
