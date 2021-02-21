@@ -54,7 +54,6 @@ use v6;
 
     say $obj_lst_2 (-) $obj_lst_2;
     # Set()
-
     say $obj_lst_2 (-) $obj_lst_1;
     # Set(E.new)
 
