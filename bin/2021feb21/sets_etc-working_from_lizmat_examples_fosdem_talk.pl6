@@ -49,5 +49,11 @@ say "---";
     my $result = $s2 (-) $s1;
     say $result.keys;
 
+    say "---"
+    my $other =  2, 4, 6 (-) 6, 8, 10;
+    
+    say $s2 (-) $s1;
+
+
 
     }
