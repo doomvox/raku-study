@@ -68,7 +68,7 @@ say "---";
 
 
     say ( @monsters2 (-) @monsters1 ).keys;
-
+    # (dracula tingler wolfman horta blob)
 
 
     }
