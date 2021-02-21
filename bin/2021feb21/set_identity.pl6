@@ -39,6 +39,8 @@ use v6;
     my $s2 = set $obj1, $obj2;
     my $s3 = set $obj1, $obj2, $obj3;
 
+    say $s3.keys;
+
     say $s1 (==) $s2;  # True
     say $s1 (==) $s3;  # False
 
@@ -47,8 +49,8 @@ use v6;
     my $obj_lst_1 = $obj1, $obj2;
     my $obj_lst_2 = $obj1, $obj2, $obj3;
 
-    say $obj_lst_1.keys;  # (0)
-    say $obj_lst_2.keys;  # (0)
+    say $obj_lst_1.keys;  # 
+    say $obj_lst_2.keys;  # 
 
     say $obj_lst_2 (-) $obj_lst_2;
     # Set()
