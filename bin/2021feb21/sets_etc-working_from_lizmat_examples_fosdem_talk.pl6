@@ -26,7 +26,7 @@ use v6;
                   c => 12,
                   d => 0.5,
                 );
-    say $m.pick(24);
+    my @p = $m.pick(24);
     
 
     }
