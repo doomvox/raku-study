@@ -21,3 +21,6 @@ say 20 (elem) (1.5 .. 15.2); # False
 # # any(False, False, False, False, False, False, False, False, False, False, False, False, False, False)
 
 
+# ∈
+
+say (1,2,3) (<) (2,3,1)
