@@ -15,6 +15,7 @@ use v6;
     my $set_of_sets_2 = set $numbers1, $numbers2;
 
     say $set_of_sets_1.keys;
+    # (Set(fahv foah sevhun sex tew thuree wuhn))
 
     say $set_of_sets_1 (==) $set_of_sets_1;  #  True
     say $set_of_sets_1 (==) $set_of_sets_2;  #  True
@@ -23,3 +24,10 @@ use v6;
     my $set_of_stuff = set $numbers1, $numbers2, $some_string;    
     say $set_of_sets_1 (==) $set_of_stuff; # False
  }
+
+{
+
+    class E {};
+    
+
+    }
