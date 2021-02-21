@@ -65,3 +65,6 @@ use v6;
 
     }
 
+## richard hainsworth remarked that (==) didn't seem to be working these days,
+## can't reproduce issue at the moment.
+
