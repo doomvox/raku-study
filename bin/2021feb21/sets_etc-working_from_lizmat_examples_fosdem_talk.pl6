@@ -58,5 +58,7 @@ say "---";
     my @monsters2 = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
     my @diff = @monsters2 (-) @monsters1;
     say @diff;
+    #  [Set(blob dracula horta tingler wolfman)]
+    say @diff[0];
 
     }
