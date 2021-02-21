@@ -21,7 +21,6 @@ use v6;
     my $some_string = "alpha";
     my $set_of_stuff = set $numbers1, $numbers2, $some_string;    
 
-    my $set_of_sets_2 = set $numbers1, $numbers2;
-
+    say $set_of_sets_1 (==) $set_of_stuff;
 
  }
