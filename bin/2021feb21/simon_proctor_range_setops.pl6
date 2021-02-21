@@ -7,4 +7,6 @@ use v6;
 # https://github.com/Scimon/p6-Range-SetOps
 
 use Range::SetOps;
-say 10 (elem) (1.5 .. 15.2);
+say 10 (elem) (1.5 .. 15.2); # True
+
+say 20 (elem) (1.5 .. 15.2); # 
