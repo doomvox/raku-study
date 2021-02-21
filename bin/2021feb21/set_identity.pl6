@@ -44,7 +44,6 @@ use v6;
     say $s1 (==) $s2;  # True
     say $s1 (==) $s3;  # False
 
-
     say "---";
     my $obj_lst_1 = ( $obj1, $obj2 );
     my $obj_lst_2 = ( $obj1, $obj2, $obj3 );
@@ -63,5 +62,11 @@ use v6;
 
     say $obj_lst_2 (|) $obj_lst_2;
     # Set(E.new E.new E.new)
+
+    }
+
+{
+
+#    say $s1 (==) $s3;  # False
 
     }
