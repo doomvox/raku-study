@@ -173,6 +173,7 @@ for @a -> $item {
 
 {
     # A trick Bruce Gray likes, the ":p" adverb sets things up as pairs
+    #  https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
     say "===";
     my %z =
       A => 42,
