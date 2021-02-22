@@ -211,3 +211,13 @@ for @a -> $item {
    # baker
 
    }
+
+
+{
+    my %z =
+      A => 42,
+      B => 99;
+
+    .say for %z<B A>:p; 
+
+    }
