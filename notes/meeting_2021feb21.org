@@ -1,6 +1,5 @@
 * meeting notes Feb 21, 2021
 ** agenda
-*** hello; any announcements; any new topics; now let's ick those tops
 *** richard hainsworth will present his work on pod6 processing
 **** http://raku.finanalyst.org
 **** Raku::Pod::Render
