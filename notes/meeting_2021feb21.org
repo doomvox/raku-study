@@ -102,7 +102,9 @@ digraph G {
 https://docs.raku.org/type/Signature#Slurpy_parameters
 
 
+
 *** Three types of "slurpy" parameters
+**** https://docs.raku.org/type/Signature#Slurpy_parameters
 |                      |         |                                         |
 |----------------------+---------+-----------------------------------------|
 | flattened            | *@args  | flattens passed arguments               |
