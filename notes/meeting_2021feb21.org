@@ -126,3 +126,6 @@ for @a -> $item {
    # loops exactly 6 times
  }
 #+END_SRC
+
+**** Matthew Stephen Stuckwisch talk
+***** https://video.fosdem.org/2021/D.perl/raku_unexpected_simplicity.webm
