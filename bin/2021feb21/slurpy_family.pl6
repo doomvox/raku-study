@@ -5,6 +5,7 @@
 use v6;
 
 # Matthew Stephen Stuckwisch talk "Surprisingly Unsurprising"
+#   https://video.fosdem.org/2021/D.perl/raku_unexpected_simplicity.webm
 # At 13:20, The slurpy family
 # (Uses some silly jokes that obscure the point.)
 
