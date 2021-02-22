@@ -78,5 +78,5 @@ use v6;
 {
     my $working =  <a b c>;
     $working (-)= 'b';
-    say $working;
+    say $working;  # Set(a c)
 }
