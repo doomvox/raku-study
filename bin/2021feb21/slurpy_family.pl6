@@ -168,5 +168,6 @@ for @a -> $item {
     my @c = < 7 >;
 
     .say for @a.pairs; 
+    say "---";
     .say for (@a,@b,@c).pairs; 
 }
