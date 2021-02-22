@@ -28,6 +28,7 @@ sub slurpy1( *@pour-and-savor ) {
 # The double asterisk form does not flatten arguments.
 sub slurpy2( **@chug-no-regrets ) {
     say '---';
+    say "unflattened: ", @chug-no-regrets.elems;
     for @chug-no-regrets {
         say "unflt: " ~ $++ ~ ": $_" 
     }
