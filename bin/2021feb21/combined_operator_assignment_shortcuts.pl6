@@ -98,7 +98,7 @@ use v6;
 }
 
 {
-    my %h  = < wuhn tew thuree foah fahv sex sevhun >;
+    my %h  = (wuhn => 1,  tew => 2,  thuree => 3 >;
     %h (-)=  <wuhn thuree fahv sevhun>;
     say %h;     # 
 }
