@@ -67,3 +67,11 @@ use v6;
     say $set1;  # Set(2 6)
 
 }
+
+
+{
+    my $not_set_yet =  2, 4, 6;
+    $not_set_yet (-)= 4;
+    say $not_set_yet;  # Set(2 6)
+
+}
