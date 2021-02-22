@@ -84,5 +84,19 @@ use v6;
 {
     my $working =  <a b c d e >;
     $working (-)= <b e>;
-    say $working;  # 
+    say $working;  # Set(a c d)
+}
+
+{
+    ## Q: Does this work for set difference? A: Yes... but you get another container
+    my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
+    @numbers (-)=  <wuhn thuree fahv sevhun>;
+    say @numbers;     # [Set(foah sex tew)]  ## BUG?  Bruce Gray thinks so.
+    say @numbers[0];  # Set(foah sex tew)
+
+    my @rabbits  = < bugs peter easter >;
+    # @rabbits | (-)= <peter>;
+    # Prefix - requires an argument, but no valid term found.
+
+    ## TODO try defining a new operator that does a set diff and then a flat
 }
