@@ -131,9 +131,8 @@ slurpy3( <a b c> );
 # say zipi( "Hey "); # OUTPUT: «List => (Hey )␤» 
 # say zipi( 1...* ); # OUTPUT: «Seq => (...)␤» 
 
-
+say "===";
 ## single-argument rule demo with "for":
-
 my @a = < 1 2 3 4 5 >;
 my @b = < 4 5 >;
 my @c = < 7 >;
