@@ -30,3 +30,7 @@ my $b = set $set.^method_names;
 
 say ($b (-) $a).keys.sort;  # (RAW-HASH SET-SELF)
 say ($a (-) $b).keys.sort;  # ()
+
+
+say $a.RAW-HASH.WHY;
+say $a.SELF.WHY;
