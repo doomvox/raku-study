@@ -51,11 +51,16 @@ my @array = <a b c>;
 slurpy1( @array );
 slurpy1( <a b>, <d e> );
 # ---
-# slurpy1( <a b c> );
 # flattened: 3
 # flt: 0: a
 # flt: 1: b
 # flt: 2: c
+# ---
+# flattened: 4
+# flt: 0: a
+# flt: 1: b
+# flt: 2: d
+# flt: 3: e
 
 slurpy2( @array );
 slurpy2( <a b c>, <d e f> );
