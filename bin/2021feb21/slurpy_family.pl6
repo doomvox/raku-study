@@ -19,6 +19,7 @@ use v6;
 # The single asterisk form flattens passed arguments.
 sub slurpy1( *@pour-and-savor ) {
     say '---';
+    say "flattened: ", @pour-and-savor.elems;
     for @pour-and-savor {
         say "flt: " ~ $++ ~ ": $_" 
     }
