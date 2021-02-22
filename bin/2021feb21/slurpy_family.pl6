@@ -219,5 +219,12 @@ for @a -> $item {
       B => 99;
 
     .say for %z<B A>:p; 
+    # B => 99
+    # A => 42
+
+    ## :p says "give that to me in pairs"
+
+
+    .say for %z<B A>.pairs;
 
     }
