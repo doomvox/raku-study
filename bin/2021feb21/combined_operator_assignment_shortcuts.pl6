@@ -6,6 +6,7 @@ use v6;
 
 # A question asked in chat a few weeks ago, what does "~=" do?
 {
+    ## TODO  bill points out ~= is not in documentation index
     ## these two constructs are the same:
     my $str1 = 'hell';
     $str1 = $str1 ~ 'lo';
