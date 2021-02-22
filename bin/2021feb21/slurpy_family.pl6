@@ -162,6 +162,7 @@ for @a -> $item {
 # https://docs.raku.org/syntax/Single%20Argument%20Rule 
 
 {
+    say "===";
     my @a = < 1 2 3 4 5 >;
     my @b = < 4 5 >;
     my @c = < 7 >;
