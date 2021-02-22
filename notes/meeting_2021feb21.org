@@ -66,3 +66,37 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 *** Scimon Proctor: Here's the Graph for Any.
 **** https://docs.raku.org/images/type-graph-Any.svg
 
+
+
+14:44:46	 From Bill Michels : "dot" is the traditional Graphviz renderer
+14:45:13	 From Bruce Gray : digraph G {
+
+  subgraph cluster_0 {
+    style=filled;
+    color=lightgrey;
+    node [style=filled,color=white];
+    a0 -> a1 -> a2 -> a3;
+    label = "process #1";
+  }
+
+  subgraph cluster_1 {
+    node [style=filled];
+    b0 -> b1 -> b2 -> b3;
+    label = "process #2";
+    color=blue
+  }
+  start -> a0;
+  start -> b0;
+  a1 -> b3;
+  b2 -> a3;
+  a3 -> a0;
+  a3 -> end;
+  b3 -> end;
+
+  start [shape=Mdiamond];
+  end [shape=Msquare];
+}
+14:45:25	 From Bruce Gray : https://dreampuf.github.io/GraphvizOnline/
+
+https://github.com/Raku/doc/blob/master/type-graph.txt
+https://github.com/Raku/doc/blob/master/xt/type-graph.t
