@@ -94,5 +94,4 @@ use v6;
     @l (-)=  <wuhn thuree fahv sevhun>;
     say @l;     # [Set(foah sex tew)]
     say @l[0];  # Set(foah sex tew)
-
 }
