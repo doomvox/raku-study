@@ -163,9 +163,9 @@ for @a -> $item {
 
 {
     say "===";
-    my @a = < 1 2 3 4 5 >;
-    my @b = < 4 5 >;
-    my @c = < 7 >;
+    my @a = < a b c d >;
+    my @b = < f g >;
+    my @c = < j >;
 
     .say for @a.pairs; 
      say "---";
