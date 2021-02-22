@@ -73,3 +73,10 @@ use v6;
     $not_set_yet (-)= 4;
     say $not_set_yet; # Set(2 6)  Now it is.  Still working.
 }
+
+
+{
+    my $working =  <a b c>;
+    $working (-)= 'b';
+    say $working;
+}
