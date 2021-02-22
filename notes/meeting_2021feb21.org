@@ -2,6 +2,8 @@
 ** agenda
 *** hello; any announcements; any new topics; now let's ick those tops
 *** richard hainsworth will present his work on pod6 processing
+**** looks very good, very far along, additional features for html effects and image includes
+***** one goal is to extend pod6 so that it's more useful for website generation
 ** announcements
 Ian Kluft, "Secure Coding in Perl", March 4, 2021
 https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
