@@ -84,5 +84,5 @@ use v6;
 {
     my $working =  <a b c d e >;
     $working (-)= <b e>
-    say $working;  # Set(a c)
+    say $working;  # 
 }
