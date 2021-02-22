@@ -130,3 +130,18 @@ slurpy3( <a b c> );
 # };
 # say zipi( "Hey "); # OUTPUT: «List => (Hey )␤» 
 # say zipi( 1...* ); # OUTPUT: «Seq => (...)␤» 
+
+
+## single-argument rule demo with "for":
+
+my @a = < 1 2 3 4 5 >;
+my @b = < 4 5 >;
+my @c = < 7 >;
+
+for @a, @b, @c -> $array {
+   ## 3 times
+ }
+
+for @a -> $item {
+    ## loop however many times to cover each element of @a
+    }
