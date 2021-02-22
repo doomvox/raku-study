@@ -49,6 +49,12 @@ sub slurpy3( +@read-the-label ) {
 my @array = <a b c>;
 slurpy1( @array );
 # slurpy1( <a b c> );
+# flattened: 3
+# flt: 0: a
+# flt: 1: b
+# flt: 2: c
+# ---
+
 
 slurpy2( @array );
 # slurpy2( <a b c> );
@@ -72,12 +78,6 @@ slurpy3( <a b c>, <d e f> );
 
 ## Now I understand not: thought the single-argument form would behave differently
 ## (( I get it now: the for loop hides the differences because it shows single arg rule ))an
-# ---
-# flattened: 3
-# flt: 0: a
-# flt: 1: b
-# flt: 2: c
-# ---
 
 # ===
 
