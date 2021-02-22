@@ -73,6 +73,7 @@ slurpy3( @array );
 # sarg: 2: c
 # ===
 
+
 # # https://docs.raku.org/type/Signature#Slurpy_parameters
 # ## Flatened slurpy
 # my @array = <a b c>;
