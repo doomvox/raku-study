@@ -201,5 +201,13 @@ for @a -> $item {
     # d => delta
  
    .say for %h.kv;
+   # d
+   # delta
+   # c
+   # charlie
+   # a
+   # able
+   # b
+   # baker
 
    }
