@@ -57,15 +57,14 @@ slurpy3( @array );
 # slurpy3( <a b c> );
 
 ## Now I understand not: thought the single-argument form would behave differently
+## (( I get it now: the for loop hides the differences because it shows single arg rule ))an
 # ---
+# flattened: 3
 # flt: 0: a
 # flt: 1: b
 # flt: 2: c
 # ---
-# flt: 0: a
-# flt: 1: b
-# flt: 2: c
-# ---
+# unflattened: 1
 # unflt: 0: a b c
 # ---
 # unflt: 0: a b c
