@@ -41,3 +41,5 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/sets_etc-working_f
 *** javascript tools to plot graphs large datasets
 **** d3 
 **** svg (partial solution)
+
+https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb) 
