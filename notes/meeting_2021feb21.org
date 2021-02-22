@@ -63,11 +63,9 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 
 ** graphviz is used for raku docs
 *** https://graphviz.org/
+*** usual run via "dot"
 *** Scimon Proctor: Here's the Graph for Any.
 **** https://docs.raku.org/images/type-graph-Any.svg
-
-14:44:46	 From Bill Michels : "dot" is the traditional Graphviz renderer
-
 *** Bruce Gray example of using GraphViz:
 **** Using online graphviz site: 
 ***** https://dreampuf.github.io/GraphvizOnline/
