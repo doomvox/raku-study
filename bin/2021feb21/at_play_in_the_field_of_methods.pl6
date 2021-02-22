@@ -33,3 +33,6 @@ say ($a (-) $b).keys.sort;  # ()
 
 #  say $a.RAW-HASH.WHY;
 #  say $a.SELF.WHY;
+
+
+say $a.RAW-HASH;
