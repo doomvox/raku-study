@@ -107,7 +107,7 @@ digraph G {
 **** code examples
 https://github.com/doomvox/raku-study/tree/main//bin/2021feb21/slurpy_family.pl6
 
-**** Bruce Gray explains the single arg behavior with for loop as exampe
+**** Bruce Gray explains the single arg behavior with for loop as example
 #+BEGIN_SRC perl6
 for @a, @b, @c -> $array {
    # loops exactly 3 times
