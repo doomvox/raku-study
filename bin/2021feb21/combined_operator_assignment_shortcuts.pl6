@@ -107,6 +107,6 @@ use v6;
 {
     my %h1  = (wuhn => 1,  tew => 2,  thuree => 3 );
     my %h2  = (wuhn => 1);
-    say %h1 (-) %h2;
+    my %h_diff =  %h1 (-) %h2;
     say %h;     # {tew => True, thuree => True}
 }
