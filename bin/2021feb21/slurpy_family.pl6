@@ -230,7 +230,11 @@ for @a -> $item {
     # 0 => 99
     # 1 => 42
 
+    say "---";
     # .say for %z<B A>:pairs;
     # Unexpected named argument 'pairs' passed
+
+
+## https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb) 
 
     }
