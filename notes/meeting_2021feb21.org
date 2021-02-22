@@ -96,3 +96,16 @@ digraph G {
 *** javascript tools to plot graphs large datasets
 **** d3 
 **** svg (partial solution)
+
+
+
+https://docs.raku.org/type/Signature#Slurpy_parameters
+/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021feb21/slurpy_family.pl6
+
+*** Three types of "slurpy" parameters
+|                      |         |                                         |
+|----------------------+---------+-----------------------------------------|
+| flattened            | *@args  | flattens passed arguments               |
+| unflattened          | **@args | slurps all arguments without flattening |
+| single argument rule | +@args  | only flattens if a single argument      |
+
