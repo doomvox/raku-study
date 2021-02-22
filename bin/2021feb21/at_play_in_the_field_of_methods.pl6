@@ -32,7 +32,7 @@ say ($b (-) $a).keys.sort;  # (RAW-HASH SET-SELF)
 say ($a (-) $b).keys.sort;  # ()
 
 #  say $a.RAW-HASH.WHY;
-#  say $a.SELF.WHY;
+  say $a.SET-SELF.WHY;
 
 say $a.RAW-HASH;
 # Rakudo::Internals::IterationSet.new
