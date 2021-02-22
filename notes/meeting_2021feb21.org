@@ -97,12 +97,6 @@ digraph G {
 **** d3 
 **** svg (partial solution)
 
-
-
-https://docs.raku.org/type/Signature#Slurpy_parameters
-
-
-
 *** Three types of "slurpy" parameters
 **** https://docs.raku.org/type/Signature#Slurpy_parameters
 |                      |         |                                         |
