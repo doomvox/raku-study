@@ -54,7 +54,7 @@ slurpy2( @array );
 # slurpy2( <a b c> );
 
 slurpy3( @array );
-# slurpy3( <a b c> );
+slurpy3( <a b c> );
 
 ## Now I understand not: thought the single-argument form would behave differently
 ## (( I get it now: the for loop hides the differences because it shows single arg rule ))an
