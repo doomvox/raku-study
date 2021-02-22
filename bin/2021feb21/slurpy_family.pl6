@@ -85,9 +85,8 @@ slurpy3( <a b c>, <d e f> );
 # sarg: 0: a b c
 # sarg: 1: d e f
 
-
-## Now I understand not: thought the single-argument form would behave differently
-## (( I get it now: the for loop hides the differences because it shows single arg rule ))an
+## (I think I was confused by early tests using the for loop to probe
+## what I got, but that in turn exhibits the single-arg rule...)
 
 # ===
 
