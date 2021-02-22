@@ -69,6 +69,9 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 14:44:46	 From Bill Michels : "dot" is the traditional Graphviz renderer
 
 *** Bruce Gray example of using GraphViz:
+**** Using online graphviz site: 
+***** https://dreampuf.github.io/GraphvizOnline/
+***** Feed it this graph description:
 #+BEGIN_SRC c
 digraph G {
 
@@ -99,7 +102,8 @@ digraph G {
 }
 #+END_SRC
 
-14:45:25	 From Bruce Gray : https://dreampuf.github.io/GraphvizOnline/
+14:45:25	 From Bruce Gray : 
 
 https://github.com/Raku/doc/blob/master/type-graph.txt
 https://github.com/Raku/doc/blob/master/xt/type-graph.t
+
