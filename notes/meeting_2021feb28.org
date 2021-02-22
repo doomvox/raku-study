@@ -11,7 +11,6 @@ https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
 *** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
 *** https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql
 
-
 *** adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
 https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 
