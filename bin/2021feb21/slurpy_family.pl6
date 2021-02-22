@@ -199,4 +199,7 @@ for @a -> $item {
     # b => baker
     # c => charlie
     # d => delta
-    }
+ 
+   .say for %h.kv;
+
+   }
