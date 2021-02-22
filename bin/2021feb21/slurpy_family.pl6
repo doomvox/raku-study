@@ -224,7 +224,6 @@ for @a -> $item {
 
     ## :p says "give that to me in pairs"
 
-
     .say for %z<B A>.pairs;
     # 0 => 99
     # 1 => 42
