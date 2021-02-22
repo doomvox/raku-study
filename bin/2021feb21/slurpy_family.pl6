@@ -67,16 +67,11 @@ slurpy3( @array );
 # unflattened: 1
 # unflt: 0: a b c
 # ---
-# unflt: 0: a b c
-# ---
+# single arg rule: 3
 # sarg: 0: a
 # sarg: 1: b
 # sarg: 2: c
-# ---
-# sarg: 0: a
-# sarg: 1: b
-# sarg: 2: c
-
+# ===
 
 
 
