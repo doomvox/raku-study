@@ -4,3 +4,7 @@
 
 use v6;
 
+my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
+my $set = set @monsters;
+
+say $set.^methods;
