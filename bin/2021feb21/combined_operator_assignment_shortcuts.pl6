@@ -109,3 +109,4 @@ use v6;
     my %h_diff =  %h1 (-) %h2;
     say %h_diff;  # {tew => True, thuree => True}   ## Okay... but why not a Bag?
 }
+
