@@ -42,7 +42,7 @@ use v6;
     say "###";
     ## Q: Does this work for set difference? A: Yes... but you get another container
     my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
-    @numbers (-)= <wuhn thuree fahv sevhun>;
+    @numbers (-)=  <wuhn thuree fahv sevhun>;
     say @numbers;     # [Set(foah sex tew)]  ## BUG?  Bruce Gray thinks so.
     say @numbers[0];  # Set(foah sex tew)
 
@@ -78,5 +78,11 @@ use v6;
 {
     my $working =  <a b c>;
     $working (-)= 'b';
+    say $working;  # Set(a c)
+}
+
+{
+    my $working =  <a b c d e >;
+    $working (-)= <b d>
     say $working;  # Set(a c)
 }
