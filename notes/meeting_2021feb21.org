@@ -46,7 +46,6 @@ https://github.com/Scimon/p6-Range-SetOps
 **** d3 
 **** svg (partial solution)
 
-
 *** feature bruce gray likes a lot, adverbs that control returns, e.g. :p for pairs
 https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 ** steven_lebark
