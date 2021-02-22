@@ -49,7 +49,7 @@ sub slurpy3( +@read-the-label ) {
 
 my @array = <a b c>;
 slurpy1( @array );
-slurpy1( <a b c>, <d e f> );
+slurpy1( <a b>, <d e> );
 # ---
 # slurpy1( <a b c> );
 # flattened: 3
