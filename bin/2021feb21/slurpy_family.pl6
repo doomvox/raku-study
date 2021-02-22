@@ -139,7 +139,7 @@ my @b = < 4 5 >;
 my @c = < 7 >;
 
 for @a, @b, @c -> $array {
-    ## shoule loop exactly 3 times
+    ## should loop exactly 3 times
     say $++;
  }
 
