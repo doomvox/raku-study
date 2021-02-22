@@ -74,7 +74,6 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 ***** Feed it this graph description:
 #+BEGIN_SRC c
 digraph G {
-
   subgraph cluster_0 {
     style=filled;
     color=lightgrey;
@@ -82,7 +81,6 @@ digraph G {
     a0 -> a1 -> a2 -> a3;
     label = "process #1";
   }
-
   subgraph cluster_1 {
     node [style=filled];
     b0 -> b1 -> b2 -> b3;
