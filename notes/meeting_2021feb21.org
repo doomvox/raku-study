@@ -8,6 +8,7 @@ https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
 ** topics
 *** combined operator assignment shortcuts
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/combined_operator_assignment_shortcuts.pl6
+**** TODO  bill points out ~= is not in documentation index
 *** ^methods method oddities: .name
 https://github.com/rakudo/rakudo/issues/4207
 https://www.nntp.perl.org/group/perl.perl6.users/2021/02/msg9734.html
