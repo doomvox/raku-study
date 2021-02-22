@@ -9,7 +9,7 @@
 Ian Kluft, "Secure Coding in Perl", March 4, 2021
 https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
 ** topics
-*** combined operator assignment shortcuts
+*** combined operator assignment shortcuts (e.g. ~=)
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/combined_operator_assignment_shortcuts.pl6
 **** TODO  bill points out ~= is not in documentation index
 *** ^methods method oddities: .name
