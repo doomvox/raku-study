@@ -52,3 +52,8 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 ** steven_lebark
 *** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
 *** https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql
+
+
+
+** Bill Michels contributes some news of rust:
+*** https://www.theregister.com/2021/02/02/patching_apache_rust/
