@@ -100,7 +100,7 @@ digraph G {
 
 
 https://docs.raku.org/type/Signature#Slurpy_parameters
-/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021feb21/slurpy_family.pl6
+
 
 *** Three types of "slurpy" parameters
 |                      |         |                                         |
@@ -108,6 +108,8 @@ https://docs.raku.org/type/Signature#Slurpy_parameters
 | flattened            | *@args  | flattens passed arguments               |
 | unflattened          | **@args | slurps all arguments without flattening |
 | single argument rule | +@args  | only flattens if a single argument      |
+**** code examples
+https://github.com/doomvox/raku-study/tree/main//bin/2021feb21/slurpy_family.pl6
 
 **** Bruce Gray explains the single arg behavior with for loop as exampe
 #+BEGIN_SRC perl6
