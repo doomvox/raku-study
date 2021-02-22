@@ -12,9 +12,10 @@ https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
 *** combined operator assignment shortcuts (e.g. ~=)
 https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/combined_operator_assignment_shortcuts.pl6
 **** TODO  bill points out ~= is not in documentation index
-*** ^methods oddities: .name better than .gist; ^method_name better than ^methods
-https://github.com/rakudo/rakudo/issues/4207
-https://www.nntp.perl.org/group/perl.perl6.users/2021/02/msg9734.html
+*** ^methods oddities
+**** .name better than .gist; ^method_name better than ^methods
+**** https://github.com/rakudo/rakudo/issues/4207
+**** https://www.nntp.perl.org/group/perl.perl6.users/2021/02/msg9734.html
 *** lizmat fosdem talk on sets etc
 **** http://bofh.nikhef.nl/events/FOSDEM/2021/D.perl/raku_sets_without_borders.mp4
 **** code example
