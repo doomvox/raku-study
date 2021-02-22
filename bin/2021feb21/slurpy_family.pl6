@@ -163,7 +163,7 @@ for @a -> $item {
 
 {
     say "===";
-    my @a = < a b c d >;
+    my @a = < a b c d e >;
     my @b = < f g >;
     my @c = < j >;
 
