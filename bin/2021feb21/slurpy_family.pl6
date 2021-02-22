@@ -176,7 +176,7 @@ for @a -> $item {
    # 1 => b
    # 2 => c
    # 3 => d
-   # 4 => e
+   # 4 => e     ## because @a[4] is 'e'
    # ---
    # 0 => [a b c d e]
    # 1 => [f g]
