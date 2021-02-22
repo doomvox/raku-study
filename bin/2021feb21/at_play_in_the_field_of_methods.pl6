@@ -26,6 +26,6 @@ say $set.^method_names;
 
 
 my $a = set $set.^methods>>.name;
-my $b = set $set.^method_name;
+my $b = set $set.^method_names;
 
 say ($b (-) $a).sort;
