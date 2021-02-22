@@ -24,7 +24,6 @@ say $set.^methods>>.name;
 say $set.^method_names;
 # (iterator of new-from-pairs default elems total grab grabpairs pick pickpairs roll RAW-HASH keyof SET-SELF STORE Int Num Numeric Real Capture fmt Setty Baggy Mixy WHICH kv values Set SetHash AT-KEY ASSIGN-KEY DELETE-KEY new keys antipairs minpairs maxpairs Bool hash Hash ACCEPTS Str gist raku EXISTS-KEY Bag BagHash Mix MixHash list pairs BUILDALL)
 
-
 my $a = set $set.^methods>>.name;
 my $b = set $set.^method_names;
 
