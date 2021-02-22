@@ -70,7 +70,7 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 
 *** Bruce Gray example of using GraphViz:
 
-#+BEGIN_SRC perl
+#+BEGIN_SRC c
 digraph G {
 
   subgraph cluster_0 {
