@@ -97,6 +97,8 @@ use v6;
     say @l[0];  # Set(foah sex tew)
 }
 
+exit;
+
 {
     my %h  = < wuhn tew thuree foah fahv sex sevhun >;
     %h (-)=  <wuhn thuree fahv sevhun>;
