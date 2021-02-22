@@ -88,6 +88,8 @@ use v6;
 }
 
 {
+    # the issue is using an array for Set storage
+    # upgrading an array in place has to create a Set inside the array as first element
     my @l  = < wuhn tew thuree foah fahv sex sevhun >;
     @l (-)=  <wuhn thuree fahv sevhun>;
     say @l;     # [Set(foah sex tew)]  ## BUG?  Bruce Gray thinks so.
