@@ -93,9 +93,4 @@ use v6;
     say @l;     # [Set(foah sex tew)]  ## BUG?  Bruce Gray thinks so.
     say @l[0];  # Set(foah sex tew)
 
-    my @rabbits  = < bugs peter easter >;
-    # @rabbits | (-)= <peter>;
-    # Prefix - requires an argument, but no valid term found.
-
-    ## TODO try defining a new operator that does a set diff and then a flat
 }
