@@ -142,6 +142,7 @@ for @a, @b, @c -> $array {
     say $++;
  }
 
+say "---";
 for @a -> $item {
     ## loop however many times to cover each element of @a
     say $++;
