@@ -60,3 +60,9 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 
 ** perl weekly challenge: 
 *** https://perlweeklychallenge.org/
+
+** graphviz is used for raku docs
+*** https://graphviz.org/
+*** Scimon Proctor: Here's the Graph for Any.
+**** https://docs.raku.org/images/type-graph-Any.svg
+
