@@ -36,3 +36,6 @@ say ($a (-) $b).keys.sort;  # ()
 
 
 say $a.RAW-HASH;
+# Rakudo::Internals::IterationSet.new
+
+say $a.SET-SELF;
