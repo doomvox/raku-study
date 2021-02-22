@@ -93,7 +93,7 @@ digraph G {
 ****** https://github.com/Raku/doc/blob/master/type-graph.txt
 ****** https://github.com/Raku/doc/blob/master/xt/type-graph.t
 
-*** javascript tools to plot graphs large datasets
+*** javascript tools to plot graphs of large datasets
 **** d3 
 **** svg (partial solution)
 
