@@ -50,5 +50,11 @@ use v6;
 
     ## TODO try defining a new operator that does a set diff and then a flat
 
+    my $set1 = set 2, 4, 6;
+    my $set2 = set 4;
+
+    $set1 (-)= $set2;
+    say $set1;
+
 }
 
