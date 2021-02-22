@@ -99,8 +99,5 @@ digraph G {
 }
 #+END_SRC
 
-
-
-https://github.com/Raku/doc/blob/master/type-graph.txt
-https://github.com/Raku/doc/blob/master/xt/type-graph.t
-
+****** https://github.com/Raku/doc/blob/master/type-graph.txt
+****** https://github.com/Raku/doc/blob/master/xt/type-graph.t
