@@ -29,5 +29,4 @@ my $a = set $set.^methods>>.name;
 my $b = set $set.^method_names;
 
 say ($b (-) $a).keys.sort;
-
 say ($a (-) $b).keys.sort;
