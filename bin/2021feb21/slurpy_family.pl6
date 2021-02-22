@@ -192,4 +192,6 @@ for @a -> $item {
         c => 'charlie',
         d => 'delta',
         );
+    
+    .say for %h.pairs
     }
