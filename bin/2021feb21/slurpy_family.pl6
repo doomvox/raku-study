@@ -46,20 +46,19 @@ sub slurpy3( +@read-the-label ) {
 
 };
 
-# ---
+
 my @array = <a b c>;
 slurpy1( @array );
+# ---
 # slurpy1( <a b c> );
 # flattened: 3
 # flt: 0: a
 # flt: 1: b
 # flt: 2: c
-# ---
-
 
 slurpy2( @array );
 # slurpy2( <a b c> );
-
+# ---
 # unflattened: 1
 # unflt: 0: a b c
 # ---
@@ -67,6 +66,7 @@ slurpy2( @array );
 slurpy3( @array );
 slurpy3( <a b c>, <d e f> );
 
+# ---
 # single arg rule: 3
 # sarg: 0: a
 # sarg: 1: b
