@@ -99,5 +99,5 @@ use v6;
 {
     my %h  = < wuhn tew thuree foah fahv sex sevhun >;
     %h (-)=  <wuhn thuree fahv sevhun>;
-    say %h;     # [Set(foah sex tew)]
+    say %h;     # 
 }
