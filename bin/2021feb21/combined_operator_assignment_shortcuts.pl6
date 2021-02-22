@@ -88,10 +88,10 @@ use v6;
 }
 
 {
-    my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
-    @numbers (-)=  <wuhn thuree fahv sevhun>;
-    say @numbers;     # [Set(foah sex tew)]  ## BUG?  Bruce Gray thinks so.
-    say @numbers[0];  # Set(foah sex tew)
+    my @l  = < wuhn tew thuree foah fahv sex sevhun >;
+    @l (-)=  <wuhn thuree fahv sevhun>;
+    say @l;     # [Set(foah sex tew)]  ## BUG?  Bruce Gray thinks so.
+    say @l[0];  # Set(foah sex tew)
 
     my @rabbits  = < bugs peter easter >;
     # @rabbits | (-)= <peter>;
