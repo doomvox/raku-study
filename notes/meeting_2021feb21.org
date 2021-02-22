@@ -121,5 +121,6 @@ for @a -> $item {
  }
 #+END_SRC
 
-**** Matthew Stephen Stuckwisch talk
+**** Matthew Stephen Stuckwisch talk 
+Has a slide that got me wondering about slurpy variants
 ***** https://video.fosdem.org/2021/D.perl/raku_unexpected_simplicity.webm
