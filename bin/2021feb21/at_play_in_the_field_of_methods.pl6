@@ -8,3 +8,6 @@ my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
 my $set = set @monsters;
 
 say $set.^methods;
+
+say $set.^methods>>.gist;
+say $set.^methods>>.name;
