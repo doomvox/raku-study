@@ -160,3 +160,12 @@ for @a -> $item {
 # 4
 
 # https://docs.raku.org/syntax/Single%20Argument%20Rule 
+
+{
+    my @a = < 1 2 3 4 5 >;
+    my @b = < 4 5 >;
+    my @c = < 7 >;
+
+    .say for @a.pairs; 
+    .say for (@a,@b,@c).pairs; 
+}
