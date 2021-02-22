@@ -41,7 +41,7 @@ https://github.com/Scimon/p6-Range-SetOps
 **** https://andrewshitov.com/perl6-at-a-glance/
 **** https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf
 
-*** feature bruce gray likes a lot, adverbs that control returns, e.g. :p for pairs
+*** adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
 https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 ** steven_lebark
 *** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
