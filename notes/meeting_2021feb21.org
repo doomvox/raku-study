@@ -42,4 +42,6 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021feb21/sets_etc-working_f
 **** d3 
 **** svg (partial solution)
 
+
+*** feature bruce gray likes a lot, adverbs that control returns, e.g. :p for pairs
 https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb) 
