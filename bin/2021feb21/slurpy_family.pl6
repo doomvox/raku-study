@@ -46,6 +46,7 @@ sub slurpy3( +@read-the-label ) {
 
 };
 
+# ---
 my @array = <a b c>;
 slurpy1( @array );
 # slurpy1( <a b c> );
