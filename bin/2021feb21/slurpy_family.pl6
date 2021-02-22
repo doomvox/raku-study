@@ -72,7 +72,6 @@ slurpy2( <a b c>, <d e f> );
 # unflt: 0: a b c
 # unflt: 1: d e f
 
-
 slurpy3( @array );
 slurpy3( <a b c>, <d e f> );
 
