@@ -69,7 +69,6 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 14:44:46	 From Bill Michels : "dot" is the traditional Graphviz renderer
 
 *** Bruce Gray example of using GraphViz:
-
 #+BEGIN_SRC c
 digraph G {
 
