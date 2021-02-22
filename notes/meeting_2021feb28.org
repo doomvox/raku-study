@@ -7,6 +7,11 @@
 SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
 https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
 ** topics (beginning with copies from previous meeting notes)
+** steven_lebark
+*** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
+*** https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql
+
+
 *** adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
 https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 
