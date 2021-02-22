@@ -37,7 +37,7 @@ sub slurpy2( **@chug-no-regrets ) {
 # The plus form flattens according to the single argument rule.
 sub slurpy3( +@read-the-label ) {
     say '---';
-    say @read-the-label.elems;
+    say "single arg rule: ", @read-the-label.elems;
     for @read-the-label {
         say "sarg: " ~ $++ ~ ": $_" 
     }
