@@ -158,3 +158,5 @@ for @a -> $item {
 # 2
 # 3
 # 4
+
+https://docs.raku.org/syntax/Single%20Argument%20Rule 
