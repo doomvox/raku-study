@@ -103,10 +103,9 @@ use v6;
     say %h;     # {tew => True, thuree => True}
 }
 
-
 {
     my %h1  = (wuhn => 1,  tew => 2,  thuree => 3 );
     my %h2  = (wuhn => 1);
     my %h_diff =  %h1 (-) %h2;
-    say %h_diff;  # {tew => True, thuree => True}
+    say %h_diff;  # {tew => True, thuree => True}   ## Okay... but why not a Bag?
 }
