@@ -183,3 +183,13 @@ for @a -> $item {
    # 2 => [j]
 
 }
+
+
+{
+    my %h = (
+        a => 'able',
+        b => 'baker',
+        c => 'charlie',
+        d => 'delta',
+        );
+    }
