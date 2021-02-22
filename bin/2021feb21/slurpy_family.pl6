@@ -90,7 +90,6 @@ slurpy3( <a b c>, <d e f> );
 
 # ===
 
-
 # # https://docs.raku.org/type/Signature#Slurpy_parameters
 # ## Flatened slurpy
 # my @array = <a b c>;
