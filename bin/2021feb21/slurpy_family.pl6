@@ -147,3 +147,14 @@ for @a -> $item {
     ## loop however many times to cover each element of @a
     say $++;
     }
+
+# ===
+# 0
+# 1
+# 2
+# ---
+# 0
+# 1
+# 2
+# 3
+# 4
