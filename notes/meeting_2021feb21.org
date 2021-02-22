@@ -4,7 +4,7 @@
 *** richard hainsworth will present his work on pod6 processing
 **** http://raku.finanalyst.org
 **** Raku::Pod::Render
-**** looks very good, very far along, additional features for html effects and image includes
+**** looks very good: additional features for html effects and image includes
 ***** goal: extend pod6 so that it's more useful for website generation
 ** announcements
 Ian Kluft, "Secure Coding in Perl", March 4, 2021
