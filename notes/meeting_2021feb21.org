@@ -109,3 +109,16 @@ https://docs.raku.org/type/Signature#Slurpy_parameters
 | unflattened          | **@args | slurps all arguments without flattening |
 | single argument rule | +@args  | only flattens if a single argument      |
 
+**** Bruce Gray explains the single arg behavior with for loop as exampe
+#+BEGIN_SRC perl6
+for @a, @b, @c -> $array {
+   # loops exactly 3 times
+ }
+#+END_SRC
+
+#+BEGIN_SRC perl6
+my @a = <a b c d e f>;
+for @a -> $item {
+   # loops exactly 6 times
+ }
+#+END_SRC
