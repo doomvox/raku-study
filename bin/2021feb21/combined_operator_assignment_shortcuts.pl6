@@ -97,7 +97,6 @@ use v6;
 }
 
 {
-    # the issue is using an array for Set storage
     my @l  = < wuhn tew thuree foah fahv sex sevhun >;
     @l (-)=  <wuhn thuree fahv sevhun>;
     say @l;     # [Set(foah sex tew)]
