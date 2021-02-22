@@ -198,7 +198,7 @@ for @a -> $item {
     }
 
 # ===
-# could work with additional code examples form docs:
+# could play with additional code examples form docs:
 
 # # https://docs.raku.org/type/Signature#Slurpy_parameters
 # ## Flatened slurpy
