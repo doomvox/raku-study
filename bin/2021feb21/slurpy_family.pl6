@@ -226,5 +226,7 @@ for @a -> $item {
 
 
     .say for %z<B A>.pairs;
+    # 0 => 99
+    # 1 => 42
 
     }
