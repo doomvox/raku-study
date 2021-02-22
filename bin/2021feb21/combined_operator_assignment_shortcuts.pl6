@@ -97,8 +97,7 @@ use v6;
 }
 
 {
-    my @l  = < wuhn tew thuree foah fahv sex sevhun >;
-    @l (-)=  <wuhn thuree fahv sevhun>;
-    say @l;     # [Set(foah sex tew)]
-    say @l[0];  # Set(foah sex tew)
+    my %h  = < wuhn tew thuree foah fahv sex sevhun >;
+    %h (-)=  <wuhn thuree fahv sevhun>;
+    say %h;     # [Set(foah sex tew)]
 }
