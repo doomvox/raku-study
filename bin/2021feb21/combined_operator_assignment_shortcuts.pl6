@@ -57,7 +57,6 @@ use v6;
     $set1 (-)= $set2;
     say $set1;  # Set(2 6)
     # No extra container this time.
-
 }
 
 
