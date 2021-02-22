@@ -66,8 +66,6 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 *** Scimon Proctor: Here's the Graph for Any.
 **** https://docs.raku.org/images/type-graph-Any.svg
 
-
-
 14:44:46	 From Bill Michels : "dot" is the traditional Graphviz renderer
 14:45:13	 From Bruce Gray : digraph G {
 
