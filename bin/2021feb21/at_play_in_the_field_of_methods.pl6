@@ -28,4 +28,4 @@ say $set.^method_names;
 my $a = set $set.^methods>>.name;
 my $b = set $set.^method_name;
 
-say $b (-) $a;
+say $b (-) $a.sort;
