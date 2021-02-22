@@ -67,7 +67,10 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 **** https://docs.raku.org/images/type-graph-Any.svg
 
 14:44:46	 From Bill Michels : "dot" is the traditional Graphviz renderer
-14:45:13	 From Bruce Gray : digraph G {
+
+*** Bruce Gray example of using GraphViz:
+#+BEGIN_SRC c
+digraph G {
 
   subgraph cluster_0 {
     style=filled;
@@ -94,6 +97,8 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
   start [shape=Mdiamond];
   end [shape=Msquare];
 }
+#+END_SRC
+
 14:45:25	 From Bruce Gray : https://dreampuf.github.io/GraphvizOnline/
 
 https://github.com/Raku/doc/blob/master/type-graph.txt
