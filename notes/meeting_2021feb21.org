@@ -99,7 +99,7 @@ digraph G {
 
 *** Three types of "slurpy" parameters
 **** https://docs.raku.org/type/Signature#Slurpy_parameters
-|                      |         |                                         |
+|                      | syntax  | description                             |
 |----------------------+---------+-----------------------------------------|
 | flattened            | *@args  | flattens passed arguments               |
 | unflattened          | **@args | slurps all arguments without flattening |
