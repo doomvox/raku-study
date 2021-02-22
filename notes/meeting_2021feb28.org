@@ -3,4 +3,6 @@
 *** plan stuff
 *** ask for ideas
 *** stall until end of meeting
-** 
+** announcements
+SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
+https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
