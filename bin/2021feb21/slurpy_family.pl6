@@ -172,6 +172,7 @@ for @a -> $item {
 
 
 {
+    # A trick Bruce Gray likes, the ":p" adverb sets things up as pairs
     say "===";
     my %z =
       A => 42,
