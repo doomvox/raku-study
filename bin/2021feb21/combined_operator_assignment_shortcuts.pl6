@@ -91,7 +91,7 @@ use v6;
     my $var = 'rutagbega';
     # the issue is using an array for Set storage
     # upgrading an array in place has to create a Set inside the array as first element
-    my @l  = < wuhn tew $var thuree foah fahv sex sevhun >;
+    my @l  = << wuhn tew $var thuree foah fahv sex sevhun >>;
     @l (-)=  <wuhn thuree fahv sevhun>;
     say @l;     # [Set(foah sex tew)]
     say @l[0];  # Set(foah sex tew)
