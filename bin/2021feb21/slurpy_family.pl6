@@ -47,15 +47,14 @@ sub slurpy3( +@read-the-label ) {
 };
 
 my @array = <a b c>;
-flattened: 3
 slurpy1( @array );
 # slurpy1( <a b c> );
 
 slurpy2( @array );
-slurpy2( <a b c> );
+# slurpy2( <a b c> );
 
 slurpy3( @array );
-slurpy3( <a b c> );
+# slurpy3( <a b c> );
 
 ## Now I understand not: thought the single-argument form would behave differently
 # ---
