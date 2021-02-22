@@ -64,7 +64,6 @@ use v6;
 {
     my $set1 = set 2, 4, 6;
     $set1 (-)= 4;
-    say $set1;  # 
-
+    say $set1;  # Set(2 6)
 
 }
