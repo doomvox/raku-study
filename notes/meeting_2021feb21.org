@@ -58,7 +58,5 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 ** Bill Michels contributes some news of rust:
 *** https://www.theregister.com/2021/02/02/patching_apache_rust/
 
-
-
 ** perl weekly challenge: 
 https://perlweeklychallenge.org/
