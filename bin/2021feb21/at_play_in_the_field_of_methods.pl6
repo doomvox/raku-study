@@ -34,8 +34,8 @@ say ($a (-) $b).keys.sort;  # ()
 #  say $a.RAW-HASH.WHY;
 #  say $a.SELF.WHY;
 
-
 say $a.RAW-HASH;
 # Rakudo::Internals::IterationSet.new
 
-say $a.SET-SELF;
+# say $a.SET-SELF;
+# Too few positionals passed; expected 2 arguments but got 1
