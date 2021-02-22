@@ -53,8 +53,23 @@ slurpy1( @array );
 slurpy2( @array );
 # slurpy2( <a b c> );
 
+# unflattened: 1
+# unflt: 0: a b c
+# ---
+
+
 slurpy3( @array );
 slurpy3( <a b c>, <d e f> );
+
+# single arg rule: 3
+# sarg: 0: a
+# sarg: 1: b
+# sarg: 2: c
+# ---
+# single arg rule: 2
+# sarg: 0: a b c
+# sarg: 1: d e f
+
 
 ## Now I understand not: thought the single-argument form would behave differently
 ## (( I get it now: the for loop hides the differences because it shows single arg rule ))an
@@ -64,13 +79,7 @@ slurpy3( <a b c>, <d e f> );
 # flt: 1: b
 # flt: 2: c
 # ---
-# unflattened: 1
-# unflt: 0: a b c
-# ---
-# single arg rule: 3
-# sarg: 0: a
-# sarg: 1: b
-# sarg: 2: c
+
 # ===
 
 
