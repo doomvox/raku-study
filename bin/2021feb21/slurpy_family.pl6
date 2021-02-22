@@ -194,4 +194,8 @@ for @a -> $item {
         );
     
     .say for %h.pairs
+   # a => able
+   # b => baker
+   # c => charlie
+   # d => delta
     }
