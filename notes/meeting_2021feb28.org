@@ -34,3 +34,6 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 ./rakudo/gen/moar/CORE.c.setting:17123:    multi method gist(Junction:D:) {
 ./rakudo/gen/moar/CORE.c.setting:18196:    multi method gist(::?CLASS:D:) { $!key                     }
 ./rakudo/gen/moar/CORE.c.setting:18342:    multi method gist(Numeric:D:) { self.Str }
+./rakudo/gen/moar/CORE.c.setting:20616:    multi method gist(Blob:D:) {
+./rakudo/gen/moar/CORE.c.setting:21609:    multi method gist(Uni:D:) {
+./rakudo/gen/moar/CORE.c.setting:21655:    method gist {
