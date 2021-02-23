@@ -25,7 +25,7 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 
 **** nqp, roast, rakudo
 
-***** find . -type f -exec grep --color -nH -e 'method\s+gist\b' {} +
+***** find . -type f -exec egrep --color -nH -e 'method\s+gist\b' {} +
 
 ./rakudo/gen/moar/CORE.c.setting:3938:        method gist(--> Str:D) {
 ./rakudo/gen/moar/CORE.c.setting:4154:        my str $gist = self.MAYBE-GIST(thing);
