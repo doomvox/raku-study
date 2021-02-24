@@ -319,8 +319,8 @@ Method.^methods.map(*.name).unique>>.say;
 
 say "---";
 # method objects from ^methods on Method
-my @metameth = Method.^methods;
-say @metameth.elems;
+my @metameth = Method.^methods;  
+say @metameth.elems;              # 74
 say @metameth[0].name;
 say @metameth[1].name;
 say @metameth[2].name;
