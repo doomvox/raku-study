@@ -333,6 +333,7 @@ say @n.elems; # 45
 say @n;
 # [gist unwrap onlystar cando raku gist soft candidates wrap package multi leave BUILDALL POSITIONS returns raku WHY of add_phaser fire_phasers has-phaser has-phasers fire_if_phasers phasers set_why BUILDALL cando Str Capture static_id new count POSITIONS signature returns assuming ACCEPTS prec of is-implementation-detail outer arity file line BUILDALL]
 
+x
 
 say "---";
 say $mob.^method_names;
