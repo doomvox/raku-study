@@ -325,6 +325,13 @@ say @metameth[0].name;            # gist
 say @metameth[1].name;            # <anon>
 say @metameth[2].name;            # <anon>
 
+my @n;
+for @metameth -> $mm {
+    push @n, $mm.name if $mm.name ne '<anon>';
+}
+say @n;
+
+
 say "---";
 say $mob.^method_names;
 # (gist)
