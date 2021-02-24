@@ -322,7 +322,7 @@ say "---";
 my @metameth = Method.^methods;  
 say @metameth.elems;              # 74
 say @metameth[0].name;            # gist
-say @metameth[1].name;            # <anon>
+say @metameth[1].name;            # <anon>  (later: onlystar)
 say @metameth[2].name;            # <anon>
 
 my @n;
