@@ -336,3 +336,13 @@ say @n;
 say "-=<>=-";
 say $mob.^method_names;
 # (gist)
+
+## Questions keep multipling:
+## (1) order of methods from ^methods can vary between runs (?)
+
+## (2) there may be a lot of anonymous ones
+
+## (3) the ^method_names method seems to give you the name of the
+## particular method object it's called on, not the list of methods
+## you might call on a method object (the metameth).
+
