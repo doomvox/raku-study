@@ -324,4 +324,4 @@ my @metameth = Method.^methods;
 # say @metameth[2].name;
 
 say "---";
-say $mob.^methods_names;
+say $mob.^method_names;
