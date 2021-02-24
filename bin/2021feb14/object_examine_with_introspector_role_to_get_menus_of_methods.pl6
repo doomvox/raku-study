@@ -320,6 +320,7 @@ Method.^methods.map(*.name).unique>>.say;
 say "---";
 # method objects from ^methods on Method
 my @metameth = Method.^methods;
+say @metameth.elems;
 say @metameth[0].name;
 # gist
 say @metameth[2].name;
