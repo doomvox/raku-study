@@ -322,3 +322,6 @@ say "---";
 my @metameth = Method.^methods;
 # say @metameth[0].name;
 # say @metameth[2].name;
+
+say "---";
+say $mob.^methods_names;
