@@ -321,9 +321,9 @@ say "---";
 # method objects from ^methods on Method
 my @metameth = Method.^methods;  
 say @metameth.elems;              # 74
-say @metameth[0].name;
-say @metameth[1].name;
-say @metameth[2].name;
+say @metameth[0].name;            # gist
+say @metameth[1].name;            # <anon>
+say @metameth[2].name;            # <anon>
 
 say "---";
 say $mob.^method_names;
