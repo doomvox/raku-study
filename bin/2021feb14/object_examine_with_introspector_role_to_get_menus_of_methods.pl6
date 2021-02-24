@@ -322,7 +322,7 @@ say "---";
 my @metameth = Method.^methods;
 say @metameth.elems;
 say @metameth[0].name;
-# gist
+say @metameth[1].name;
 say @metameth[2].name;
 
 say "---";
