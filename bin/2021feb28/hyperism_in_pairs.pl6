@@ -84,12 +84,13 @@ use v6;
 }
 
 {
+    ## any use for a hyper and a reduce?
     my @a = 1, 2, 3;
     my @b = 3, 7, 9;
     say @a >>+<< @b; # [4 9 12]
     my $double_sum = [+] @a >>+<< @b;
     say $double_sum;  # 25
-    }
+}
 
 
 # Hyper forms of unary operators have the pointy bit aimed at the operator and the blunt end at the list to be operated on.
