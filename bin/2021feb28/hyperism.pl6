@@ -31,9 +31,10 @@ say @b;  #  [A B C]
 # B
 # C
 
-# # The first parameter of a method is the invocant. 
-## This is a weirdly incoherent remark:
-#    So we can pretend to have a method call with a sub that got a good first positional argument. 
+## I know what they're getting at, but this is unreadable:
+
+# The first parameter of a method is the invocant. 
+# So we can pretend to have a method call with a sub that got a good first positional argument. 
 
 sub foo( Str:D $c ){ $c.uc x 2 };
 say @a».&foo;  # [AA BB CC]
