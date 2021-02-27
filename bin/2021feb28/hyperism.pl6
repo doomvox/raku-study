@@ -75,6 +75,9 @@ say ">: " ~ ">".ord;   # >: 62
 say "☰: " ~ "☰".ord;  # ☰: 9776
 printf "%x\n", "☰".ord;  # 2630
 
+say chr(9776);
+
+
 ## Q: is there a more convenient way to convert to hex?
 
 
