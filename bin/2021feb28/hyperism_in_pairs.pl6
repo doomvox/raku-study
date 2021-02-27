@@ -72,8 +72,11 @@ use v6;
     ## Don't really see the difference between that and this:
 
     my ($i, $j, $k) = (1, 2, 3);
-#    say " >$i< ", " >$j< ", " >$k< ";  ## This messes things up terribly
     say " |$i| ", " |$j| ", " |$k| ";  #  |1|  |2|  |3| 
+
+
+    # Note, tried this, confuses raku completely
+    #    say " >$i< ", " >$j< ", " >$k< ";  
 
 }
 
