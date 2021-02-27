@@ -69,4 +69,4 @@ say ">: " ~ ">".ord;   # >: 62
 # 2630;TRIGRAM FOR HEAVEN;So;0;ON;;;;;N;;;;;
 say "☰: " ~ "☰".ord;  # ☰: 9776
 
-say "☰".ord.hex;
+printf "%d", "☰".ord;
