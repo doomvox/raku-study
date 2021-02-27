@@ -39,7 +39,7 @@ sub foo( Str:D $c ){ $c.uc x 2 };
 say @a».&foo;  # [AA BB CC]
 
 # # Blocks have an implicit positional arguments that lands in $_. 
-# # The latter can be omitted for method calls.  (( weird: an explanation of something basic ))
+# # The latter can be omitted for method calls.  (( weird: something basic *explained* ))
 say @a».&{ $_ ~ .uc ~ $_ };  # [aAa bBb cCc]
 
 ## These are some very intriguing remarks that tell more than I want
