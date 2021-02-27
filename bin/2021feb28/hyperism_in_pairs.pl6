@@ -120,7 +120,11 @@ use v6;
 # my @slops;        # May Contain Nuts 
 # @slops».?this-method-may-not-exist();
 
-# Hyper operators can work with hashes. The pointy direction indicates if missing keys are to be ignored in the resulting hash. The enclosed operator operates on all values that have keys in both hashes.
+# Hyper operators can work with hashes. The pointy direction
+# indicates if missing keys are to be ignored in the resulting
+# hash. The enclosed operator operates on all values that have
+# keys in both hashes.
+
 # %foo «+» %bar; 	intersection of keys
 # %foo »+« %bar; 	union of keys
 # %outer »+» %inner; 	only keys of %inner that exist in %outer will occur in the result
