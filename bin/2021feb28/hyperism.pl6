@@ -18,7 +18,6 @@ use v6;
     say @nm1[0];  # GARUDA BLOB GOLEM
     say @nm2;     # [GARUDA BLOB GOLEM]
     say @nm2[0];  # GARUDA
-
 }
 
 say "---";
