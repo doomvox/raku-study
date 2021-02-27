@@ -79,6 +79,7 @@ say chr(9776); # ☰
 say "\x[2630]"; # ☰
 
 ## Hm?
+say sprintf( "%x", 9776);
 say chr( sprintf( "%x", 9776) ); # ੆
 
 
