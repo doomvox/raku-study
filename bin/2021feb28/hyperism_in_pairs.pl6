@@ -70,7 +70,8 @@ use v6;
 
 
     my ($i, $j, $k) = (1, 2, 3);
-    say " >$i< ", " >$j< ", " >$k< ";
+#    say " >$i< ", " >$j< ", " >$k< ";  ## This messes things up terribly
+    say " |$i| ", " |$j| ", " |$k| ";
 
 }
 
