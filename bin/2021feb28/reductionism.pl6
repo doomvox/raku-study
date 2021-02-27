@@ -5,7 +5,6 @@
 use v6;
 
 # https://docs.raku.org/language/operators#Reduction_operators
-
 # Reduction operators
 
 # Any infix operator (except for non-associating operators) can be surrounded by square brackets in term position to create a list operator that reduces using that operation.
