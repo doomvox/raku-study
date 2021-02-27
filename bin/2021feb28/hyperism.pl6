@@ -42,11 +42,21 @@ say @a».&foo;  # [AA BB CC]
 # # be omitted for method calls. 
 say @a».&{ $_ ~ .uc ~ $_ };  # [aAa bBb cCc]
 
-# Hyper method calls may appear to be the same as doing a map call, however along with being a hint to the compiler that it can parallelize the call, the behavior is also affected by nodality of the method being invoked, depending on which either nodemap or deepmap semantics are used to perform the call.
+## These are some very intriguing remarks that tell more than I want
+## to know and explain little:
 
-# The nodality is checked by looking up whether the Callable provides nodal method. If the hyper is applied to a method, that Callable is that method name, looked up on List type; if the hyper is applied to a routine (e.g. ».&foo), that routine functions as that Callable. If the Callable is determined to provide nodal method, nodemap semantics are used to perform the hyper call, otherwise duckmap semantics are used.
+   # Hyper method calls may appear to be the same as doing a map
+   # call, however along with being a hint to the compiler that it
+   # can parallelize the call, the behavior is also affected by
+   # nodality of the method being invoked, depending on which either
+   # nodemap or deepmap semantics are used to perform the call.
 
-# Take care to avoid a common mistake of expecting side-effects to occur in order. The following say is not guaranteed to produce the output in order:
+   # The nodality is checked by looking up whether the Callable
+   # provides nodal method. If the hyper is applied to a method,
+   # that Callable is that method name, looked up on List type; if
+   # the hyper is applied to a routine (e.g. ».&foo), that routine
+   # functions as that Callable. If the Callable is determined to
+   # provide nodal method, nodemap semantics are used to perform the
+   # hyper call, otherwise duckmap semantics are used.
 
-# @a».say;  # WRONG! Could produce a␤b␤c␤ or c␤b␤a␤ or any other order 
 
