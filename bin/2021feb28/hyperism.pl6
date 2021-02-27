@@ -5,6 +5,7 @@
 use v6;
 
 ## Reviewing hypers:
+##   with hypers N inputs produce N outputs (always? typically?)
 
 {
     my @monsters = < garuda blob golem >;
