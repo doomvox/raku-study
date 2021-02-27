@@ -30,8 +30,10 @@ use v6;
     #  [+] @m;
 
     my @s = [+] @n [+] @m;
-    say @s;
+    say @s; # [6]
 
+    my @t = [+] @n, [+] @m;
+    say @t;
 }
 
 
