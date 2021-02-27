@@ -60,6 +60,6 @@ say @a».&{ $_ ~ .uc ~ $_ };  # [aAa bBb cCc]
    # hyper call, otherwise duckmap semantics are used.
 
 
-
+say "a: " ~ "a".ord;
 say "»: " ~ "»".ord;
 say ">: " ~ ">".ord;
