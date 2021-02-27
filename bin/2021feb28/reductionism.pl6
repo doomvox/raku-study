@@ -51,7 +51,11 @@ use v6;
     say [**] 4, 3, 2;     # 4**3**2 = 4**(3**2) = 262144
 }
 
-# Applying [+] to a single element will return that element
-# say [+] 42;           # OUTPUT: «42␤» 
+{
+    # Applying [+] to a single element will return that element
+    say [+] 42;           # OUTPUT: «42␤» 
 
+    my @c = < a b c >;    
+    say [~] @c;
 
+}
