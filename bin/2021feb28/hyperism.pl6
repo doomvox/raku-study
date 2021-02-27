@@ -38,7 +38,6 @@ say @b;  #  [A B C]
 sub foo( Str:D $c ){ $c.uc x 2 };
 say @a».&foo;  # [AA BB CC]
 
-# # 
 # say @a».&foo;
 # # Blocks have an implicit positional arguments that lands in $_. The latter can 
 # # be omitted for method calls. 
