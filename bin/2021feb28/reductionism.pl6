@@ -47,9 +47,9 @@ use v6;
 
 {
 # Reduction operators have the same associativity as the operators they are based on.
-
-say [-] 4, 3, 2;      # 4-3-2 = (4-3)-2 = -1 
-say [**] 4, 3, 2;     # 4**3**2 = 4**(3**2) = 262144
+    say [-] 4, 3, 2;      # 4-3-2 = (4-3)-2 = -1 
+    say [**] 4, 3, 2;     # 4**3**2 = 4**(3**2) = 262144
+}
 
 # Applying [+] to a single element will return that element
 
