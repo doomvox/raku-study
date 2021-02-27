@@ -59,6 +59,11 @@ say @a».&{ $_ ~ .uc ~ $_ };  # [aAa bBb cCc]
    # provide nodal method, nodemap semantics are used to perform the
    # hyper call, otherwise duckmap semantics are used.
 
+my @c = @a.map({ .uc });
+say @c;  # [A B C]
+
+
+
 ## playing with .ord briefly:
 say "a: " ~ "a".ord;   # a: 97
 say "A: " ~ "A".ord;   # A: 65
@@ -72,5 +77,3 @@ printf "%x\n", "☰".ord;  # 2630
 ## Q: is there a more convenient way to convert to hex?
 
 
-my @c = @a.map({ .uc });
-say @c;  # [A B C]
