@@ -10,8 +10,8 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 #  my @monsters = < garuda blob golem mothera godzilla tingler >;
 
 
-## I'm in a mood to reveiw hypers.  Some slides from Steven Lembark:
-##  https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
+## I'm in a mood to reveiw hypers.  
+
 
 
 
