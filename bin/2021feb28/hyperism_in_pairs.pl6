@@ -15,16 +15,17 @@ use v6;
 
 # Single elements are    treated as lists of one element
 
-# If one of the lists
-# is shorter than the other, the operator will cycle over the
-# shorter list until all elements of the longer list are
-# processed.
+# If one of the lists is shorter than the other, the operator
+# will cycle over the shorter list until all elements of the
+# longer list are processed.
 
-# say (1, 2, 3) »*» 2;          # OUTPUT: «(2 4 6)␤» 
-# say (1, 2, 3, 4) »~» <a b>;   # OUTPUT: «(1a 2b 3a 4b)␤» 
-# say (1, 2, 3) »+« (4, 5, 6);  # OUTPUT: «(5 7 9)␤» 
-# say (&sin, &cos, &sqrt)».(0.5);
-# # OUTPUT: «(0.479425538604203 0.877582561890373 0.707106781186548)␤»
+{
+    say (1, 2, 3) »*» 2;          # OUTPUT: «(2 4 6)␤» 
+    say (1, 2, 3, 4) »~» <a b>;   # OUTPUT: «(1a 2b 3a 4b)␤» 
+    say (1, 2, 3) »+« (4, 5, 6);  # OUTPUT: «(5 7 9)␤» 
+    say (&sin, &cos, &sqrt)».(0.5);
+    # OUTPUT: «(0.479425538604203 0.877582561890373 0.707106781186548)␤»
+}
 
 # The last example illustrates how postcircumfix operators (in this case .()) can also be hypered.
 
