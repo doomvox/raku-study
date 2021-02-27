@@ -76,10 +76,10 @@ use v6;
     # Note, tried this, confuses raku completely
     #    say " >$i< ", " >$j< ", " >$k< ";  
 
+    ## This behaves differently though:
     my ($m, $n, $l);
     (($m, $n), $l) = ((7, 9), 3);
-    say " |$m| ", " |$n| ", " |$l| ";  #  |1|  |2|  |3| 
-
+    say " |$m| ", " |$n| ", " |$l| ";  #   |7 9|  |3|  || 
 
 }
 
