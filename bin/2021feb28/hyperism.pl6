@@ -10,8 +10,8 @@ use v6;
 ## Reviewing hypers:
 
 my @monsters = < garuda blob golem >;
-say @monsters.uc;  
-say @monsters>>.uc;
+say @monsters.uc;    # GARUDA BLOB GOLEM
+say @monsters>>.uc;  # [GARUDA BLOB GOLEM]
 
 
 say "---";
