@@ -8,7 +8,16 @@ use v6;
 
 # Hyper operators
 
-# Hyper operators include « and », with their ASCII variants << and >>. They apply a given operator enclosed (or preceded or followed, in the case of unary operators) by « and/or » to one or two lists, returning the resulting list, with the pointy part of « or » aimed at the shorter list. Single elements are turned to a list, so they can be used too. If one of the lists is shorter than the other, the operator will cycle over the shorter list until all elements of the longer list are processed.
+# Hyper operators include « and », with their ASCII variants << # and >>. 
+
+# They apply a given operator enclosed  to  lists
+# 
+# or two lists, returning the resulting list, with the pointy
+# part of « or » aimed at the shorter list. Single elements are
+# turned to a list, so they can be used too. If one of the lists
+# is shorter than the other, the operator will cycle over the
+# shorter list until all elements of the longer list are
+# processed.
 
 # say (1, 2, 3) »*» 2;          # OUTPUT: «(2 4 6)␤» 
 # say (1, 2, 3, 4) »~» <a b>;   # OUTPUT: «(1a 2b 3a 4b)␤» 
