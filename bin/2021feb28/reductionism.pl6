@@ -33,7 +33,12 @@ use v6;
     say @s; # [6]
 
     my @t = [+] @n, [+] @m;
-    say @t;
+    say @t; # [9] 
+    
+    # So, that ignores the ", [+] @m" completely
+
+    my @u = ( [+] @n, [+] @m );
+    say @7
 }
 
 
