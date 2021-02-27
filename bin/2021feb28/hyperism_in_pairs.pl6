@@ -50,6 +50,7 @@ use v6;
 
 {
     # In this case, it's the postcircumfix[] which is being hypered.
+    # so we're pulling out the 1th element from each array:
     my @a = <1 2 3>;
     my @b = <4 5 6>;
     say (@a,@b)»[1]; (2 5)
