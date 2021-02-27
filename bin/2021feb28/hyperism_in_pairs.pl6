@@ -58,13 +58,14 @@ use v6;
 }
 
 
-# Assignment metaoperators can be hyped.
-
-# my @a = 1, 2, 3;
-# say @a »+=» 1;    # OUTPUT: «[2 3 4]␤» 
-# my ($a, $b, $c);
-# (($a, $b), $c) «=» ((1, 2), 3);
-# say "$a, $c";       #  OUTPUT: «1, 3␤»
+{
+    # Assignment metaoperators can be hyped.
+    my @a = 1, 2, 3;
+    say @a »+=» 1;    # OUTPUT: «[2 3 4]␤» 
+    my ($a, $b, $c);
+    (($a, $b), $c) «=» ((1, 2), 3);
+    say "$a, $c";       #  OUTPUT: «1, 3␤»
+}
 
 # Hyper forms of unary operators have the pointy bit aimed at the operator and the blunt end at the list to be operated on.
 
