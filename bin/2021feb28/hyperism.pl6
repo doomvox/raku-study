@@ -77,7 +77,7 @@ printf "%x\n", "☰".ord;  # 2630
 
 say chr(9776); # ☰
 say "\x[2630]"; # ☰
-say chr( sprintf "%x\n", 9776 );
+say chr( sprintf( "%x\n", 9776) ); # ੆
 
 
 ## Q: is there a more convenient way to convert to hex?
