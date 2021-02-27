@@ -83,6 +83,14 @@ use v6;
     say " |$m| ", " |$n| ", " |$l| ";  #   |7 9|  |3|  || 
 }
 
+{
+    my @a = 1, 2, 3;
+    my @b = 3, 7, 9;
+
+
+    }
+
+
 # Hyper forms of unary operators have the pointy bit aimed at the operator and the blunt end at the list to be operated on.
 
 # my @wisdom = True, False, True;
