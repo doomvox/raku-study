@@ -53,7 +53,7 @@ use v6;
     my @a = <1 2 3>;
     my @b = <4 5 6>;
     say (@a,@b)»[1]; # 
-}}
+}
 
 
 # Assignment metaoperators can be hyped.
