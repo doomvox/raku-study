@@ -48,10 +48,6 @@ use v6;
     ## left: 3 elements, right: 4 elements
 }
 
-
-
-
-
 # my @a = <1 2 3>;
 # my @b = <4 5 6>;
 # say (@a,@b)»[1]; # OUTPUT: «(2 5)␤»
