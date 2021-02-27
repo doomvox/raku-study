@@ -21,8 +21,10 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 # all elements of a List out of order and return the list of
 # return values in order.
 
-# my @a = <a b c>;
-# my @b = @a».ord;                  # OUTPUT: «[97, 98, 99]␤» 
+my @a = <a b c>;
+my @b = @a».uc; 
+say @b;
+
 # # The first parameter of a method is the invocant. 
 # sub foo(Str:D $c){ $c.ord * 2 };
 # # So we can pretend to have a method call with a sub that got a good 
