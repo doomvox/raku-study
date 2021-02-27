@@ -61,7 +61,8 @@ use v6;
 {
     # Assignment metaoperators can be hyped.
     my @a = 1, 2, 3;
-    say @a »+=» 1;    # OUTPUT: «[2 3 4]␤» 
+    # adds 1 to each item
+    say @a »+=» 1;    # [2 3 4]
     my ($a, $b, $c);
     (($a, $b), $c) «=» ((1, 2), 3);
     say "$a, $c";       #  OUTPUT: «1, 3␤»
