@@ -9,11 +9,15 @@ use v6;
 
 ## Reviewing hypers:
 
-my @monsters = < garuda blob golem >;
-say @monsters.uc;    # GARUDA BLOB GOLEM
-say @monsters>>.uc;  # [GARUDA BLOB GOLEM]
+{
+    my @monsters = < garuda blob golem >;
+    say @monsters.uc;    # GARUDA BLOB GOLEM
+    say @monsters>>.uc;  # [GARUDA BLOB GOLEM]
 
+    my @nm1 = @monsters.uc;
+    my @nm2 = @monsters>>.uc;
 
+}
 
 say "---";
 # https://docs.raku.org/language/operators#index-entry-hyper_method_call_operator
