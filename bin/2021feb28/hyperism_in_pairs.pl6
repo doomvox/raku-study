@@ -120,6 +120,8 @@ use v6;
 # my @slops;        # May Contain Nuts 
 # @slops».?this-method-may-not-exist();
 
+## This is pretty cool, a feature I've often wanted in p5 land:
+
 # Hyper operators can work with hashes. The pointy direction
 # indicates if missing keys are to be ignored in the resulting
 # hash. The enclosed operator operates on all values that have
