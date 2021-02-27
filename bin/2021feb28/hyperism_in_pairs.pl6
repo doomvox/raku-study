@@ -68,7 +68,6 @@ use v6;
     (($a, $b), $c) «=» ((1, 2), 3);
     say "$a, $b, $c";       #  1, 2, 3
 
-    
     ## Don't really see the difference between that and this:
 
     my ($i, $j, $k) = (1, 2, 3);
@@ -76,6 +75,10 @@ use v6;
 
     # Note, tried this, confuses raku completely
     #    say " >$i< ", " >$j< ", " >$k< ";  
+
+    my ($m, $n, $l);
+    (($m, $n), $l) = ((1, 2), 3);
+
 
 }
 
