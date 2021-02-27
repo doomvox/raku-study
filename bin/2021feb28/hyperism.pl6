@@ -14,6 +14,7 @@ say @monsters.uc;
 say @monsters>>.uc;
 
 
+say "---";
 # https://docs.raku.org/language/operators#index-entry-hyper_method_call_operator
 
 # methodop ». / methodop >>.
