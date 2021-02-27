@@ -66,7 +66,12 @@ use v6;
 
     my ($a, $b, $c);
     (($a, $b), $c) «=» ((1, 2), 3);
-    say "$a, $b, $c";       #  1, 3
+    say "$a, $b, $c";       #  1, 2, 3
+
+
+    my ($i, $j, $k) = (1, 2, 3);
+    say $i, $j, $k;
+
 }
 
 # Hyper forms of unary operators have the pointy bit aimed at the operator and the blunt end at the list to be operated on.
