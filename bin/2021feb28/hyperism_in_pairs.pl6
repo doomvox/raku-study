@@ -7,6 +7,7 @@ use v6;
 # https://docs.raku.org/language/operators#Hyper_operators
 
 # Hyper operators
+#   combine many into many, features to deal with length differences in input lists
 
 # Hyper operators include « and », with their ASCII variants << # and >>. 
 
