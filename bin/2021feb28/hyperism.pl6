@@ -59,9 +59,10 @@ say @a».&{ $_ ~ .uc ~ $_ };  # [aAa bBb cCc]
    # provide nodal method, nodemap semantics are used to perform the
    # hyper call, otherwise duckmap semantics are used.
 
-my @c = @a.map({ .uc });
-say @c;  # [A B C]
 
+## I'm not seeing any unexpected behavior with map:
+
+say = @a.map({ .uc }); # [A B C]
 say  @a.map({ .&{ $_ ~ .uc ~ $_ } }); # (aAa bBb cCc)
 say  @a.map({  $_ ~ .uc ~ $_  });     # (aAa bBb cCc)
 
