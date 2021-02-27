@@ -22,6 +22,7 @@ use v6;
 {
     # add 2 to every element
     say (1, 2, 3) »*» 2;          # (2 4 6)
+
     # append a/b to each
     say (1, 2, 3, 4) »~» <a b>;   # (1a 2b 3a 4b)
     
