@@ -38,7 +38,7 @@ use v6;
 }
 
 {
-    ## Make errors into warnings
+    ## Make errors into warnings in this scope
     CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
     # a problem with numbers of elements:
