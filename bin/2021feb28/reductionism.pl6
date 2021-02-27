@@ -24,11 +24,14 @@ use v6;
     say @n; # [2 3 4]
     say @m; # [1 2 3]
     my @r = @n [+] @m;
-    say @r;  # [6]  # ?
+    say @r;  # [6] 
 
-#     2+1= 3
-#     3+2= 5
-#     4+3= 7
+    # So, that line ignores the @n and uses
+    #  [+] @m;
+
+    my @s = [+] @n [+] @m;
+
+
 }
 
 
