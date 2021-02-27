@@ -24,6 +24,8 @@ use v6;
     say (1, 2, 3) »*» 2;          # (2 4 6)
     # append a/b to each
     say (1, 2, 3, 4) »~» <a b>;   # (1a 2b 3a 4b)
+    
+    # add each element in sequence
     say (1, 2, 3) »+« (4, 5, 6);  # (5 7 9)
 
     # apply series of functions to a single element
