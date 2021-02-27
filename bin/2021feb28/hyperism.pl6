@@ -26,6 +26,10 @@ my @b = @a».uc;
 say @b;  #  [A B C]
 
 @b>>.say;
+## output here is in-order, but this is not guaranteed
+# A
+# B
+# C
 
 # # The first parameter of a method is the invocant. 
 # sub foo(Str:D $c){ $c.ord * 2 };
