@@ -23,7 +23,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 my @a = <a b c>;
 my @b = @a».uc; 
-say @b;
+say @b;  #  [A B C]
 
 # # The first parameter of a method is the invocant. 
 # sub foo(Str:D $c){ $c.ord * 2 };
