@@ -92,3 +92,8 @@ say "\x[2630]"; # ☰
 ## Q: look for more convenient ways to do hex conversion
 
 
+{
+    my @n = 2, 3, 4;
+    my @m = 1, 2, 3;
+    my @r = @n [+] @m;
+    say @r;
