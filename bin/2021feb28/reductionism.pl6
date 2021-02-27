@@ -59,5 +59,4 @@ use v6;
     my @c = < a b c >;    
     say [~] @c;  # abc
     say [~] 'z'; # z
-
 }
