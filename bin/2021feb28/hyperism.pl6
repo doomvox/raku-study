@@ -64,6 +64,7 @@ say @c;  # [A B C]
 
 
 
+say "===";
 ## playing with .ord briefly:
 say "a: " ~ "a".ord;   # a: 97
 say "A: " ~ "A".ord;   # A: 65
