@@ -40,7 +40,7 @@ say @a».&foo;  # [AA BB CC]
 
 # # Blocks have an implicit positional arguments that lands in $_. The latter can 
 # # be omitted for method calls. 
-say @a».&{ $_ ~ .uc ~ $_ };
+say @a».&{ $_ ~ .uc ~ $_ };  # [aAa bBb cCc]
 
 # Hyper method calls may appear to be the same as doing a map call, however along with being a hint to the compiler that it can parallelize the call, the behavior is also affected by nodality of the method being invoked, depending on which either nodemap or deepmap semantics are used to perform the call.
 
