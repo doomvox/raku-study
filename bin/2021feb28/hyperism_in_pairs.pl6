@@ -106,7 +106,12 @@ use v6;
 
 # say -« [[1, 2], 3]; # OUTPUT: «[[-1 -2] -3]␤»
 
-# Also, methods can be called in an out of order, concurrent fashion. The resulting list will be in order. Note that all hyper operators are candidates for parallelism and will cause tears if the methods have side effects. The optimizer has full reign over hyper operators, which is the reason that they cannot be defined by the user.
+# Also, methods can be called in an out of order, concurrent
+# fashion. The resulting list will be in order. Note that all
+# hyper operators are candidates for parallelism and will cause
+# tears if the methods have side effects. The optimizer has full
+# reign over hyper operators, which is the reason that they
+# cannot be defined by the user.
 
 # class CarefulClass { method take-care {} }
 # my CarefulClass @objs;
