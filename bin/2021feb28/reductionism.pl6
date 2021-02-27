@@ -43,7 +43,6 @@ use v6;
     my @v = ( ( [+] @n) , ( [+] @m ) ); 
     say @v; # [9 6]   ## finally, the behavior I expected.
 
-
 }
 
 
