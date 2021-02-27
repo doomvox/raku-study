@@ -53,7 +53,10 @@ use v6;
     # so we're pulling out the 1th element from each array:
     my @a = <1 2 3>;
     my @b = <4 5 6>;
-    say (@a,@b)»[1]; (2 5)
+    say (@a,@b)»[1]; # (2 5)
+
+    say (@a,@b)»[0]; # (1 4) 
+
 }
 
 
