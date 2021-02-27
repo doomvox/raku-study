@@ -25,6 +25,8 @@ my @a = <a b c>;
 my @b = @a».uc; 
 say @b;  #  [A B C]
 
+say @b.say;
+
 # # The first parameter of a method is the invocant. 
 # sub foo(Str:D $c){ $c.ord * 2 };
 # # So we can pretend to have a method call with a sub that got a good 
