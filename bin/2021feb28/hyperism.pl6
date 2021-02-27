@@ -31,7 +31,7 @@ say @b;  #  [A B C]
 # B
 # C
 
-## I know what they're getting at, but this is unreadable:
+## I know what they're getting at, but this really weird phrasing:
 
 # The first parameter of a method is the invocant. 
 # So we can pretend to have a method call with a sub that got a good first positional argument. 
