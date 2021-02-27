@@ -14,6 +14,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 
 # https://docs.raku.org/language/operators#index-entry-hyper_method_call_operator
+
 # methodop ». / methodop >>.
 
 # This is the hyper method call operator. Will call a method on all elements of a List out of order and return the list of return values in order.
