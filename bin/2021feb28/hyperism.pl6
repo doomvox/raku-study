@@ -59,7 +59,6 @@ say @a».&{ $_ ~ .uc ~ $_ };  # [aAa bBb cCc]
    # provide nodal method, nodemap semantics are used to perform the
    # hyper call, otherwise duckmap semantics are used.
 
-
 ## playing with .ord briefly:
 say "a: " ~ "a".ord;   # a: 97
 say "A: " ~ "A".ord;   # A: 65
