@@ -11,9 +11,11 @@ use v6;
 # be surrounded by square brackets in term position to create a
 # list operator that reduces using that operation.
 
-say [+] 1, 2, 3;      # 1 + 2 + 3 = 6 
-my @a = (5, 6);
-say [*] @a;           # 5 * 6 = 30
+{
+    say [+] 1, 2, 3;      # 1 + 2 + 3 = 6 
+    my @a = (5, 6);
+    say [*] @a;           # 5 * 6 = 30
+}
 
 # Reduction operators have the same associativity as the operators they are based on.
 
