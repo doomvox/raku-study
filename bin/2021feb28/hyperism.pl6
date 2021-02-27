@@ -63,7 +63,7 @@ say @a».&{ $_ ~ .uc ~ $_ };  # [aAa bBb cCc]
 
 
 ## I'm not seeing any unexpected behavior with map:
-say = @a.map({ .uc }); # [A B C]
+say  @a.map({ .uc }); # [A B C]
 say  @a.map({ .&{ $_ ~ .uc ~ $_ } }); # (aAa bBb cCc)
 say  @a.map({  $_ ~ .uc ~ $_  });     # (aAa bBb cCc)
 
