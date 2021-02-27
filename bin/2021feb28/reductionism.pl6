@@ -37,8 +37,8 @@ use v6;
     
     # So, that ignores the ", [+] @m" completely
 
-    my @u = ( [+] @n, [+] @m );
-    say @7
+    my @u = ( [+] @n, [+] @m ); 
+    say @u;
 }
 
 
