@@ -9,8 +9,8 @@ use v6;
 
 ## Reviewing hypers:
 
-my @monsters = < garuda blob golem mothera godzilla tingler >;
-say @monsters.uc;
+my @monsters = < garuda blob golem >;
+say @monsters.uc;  
 say @monsters>>.uc;
 
 
