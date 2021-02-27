@@ -16,10 +16,10 @@ use v6;
 
     my @nm1 = @monsters.uc;    ## entire list assigned to first element
     my @nm2 = @monsters>>.uc;  ## each item assigned to an element
-    say @nm1;  # [GARUDA BLOB GOLEM]
+    say @nm1;                # [GARUDA BLOB GOLEM]
     say @nm1.WHAT, @nm1[0];  # (Array)GARUDA BLOB GOLEM
-    say @nm2;  
-    say @nm2.WHAT, @nm2[0];
+    say @nm2;                # [GARUDA BLOB GOLEM]
+    say @nm2.WHAT, @nm2[0];  (Array)GARUDA
 
 }
 
