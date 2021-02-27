@@ -19,7 +19,7 @@ use v6;
     say @nm1;                # [GARUDA BLOB GOLEM]
     say @nm1.WHAT, @nm1[0];  # (Array)GARUDA BLOB GOLEM
     say @nm2;                # [GARUDA BLOB GOLEM]
-    say @nm2.WHAT, @nm2[0];  (Array)GARUDA
+    say @nm2.WHAT, @nm2[0];  # (Array)GARUDA
 
 }
 
