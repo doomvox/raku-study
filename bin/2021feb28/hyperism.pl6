@@ -69,6 +69,8 @@ say "===";
 ## playing with .ord briefly:
 say "a: " ~ "a".ord;   # a: 97
 say "A: " ~ "A".ord;   # A: 65
+
+# 00BB;RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK;Pf;0;ON;;;;;Y;RIGHT POINTING GUILLEMET;;;;
 say "»: " ~ "»".ord;   # »: 187
 say ">: " ~ ">".ord;   # >: 62
 
