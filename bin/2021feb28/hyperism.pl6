@@ -7,10 +7,11 @@ use v6;
 ## ## Make errors into warnings
 ##   CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-my @monsters = < garuda blob golem mothera godzilla tingler >;
-
-
 ## Reviewing hypers:
+
+my @monsters = < garuda blob golem mothera godzilla tingler >;
+say @monsters.uc;
+say @monsters>>.uc;
 
 
 # https://docs.raku.org/language/operators#index-entry-hyper_method_call_operator
