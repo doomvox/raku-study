@@ -76,11 +76,10 @@ use v6;
     # Note, tried this, confuses raku completely
     #    say " >$i< ", " >$j< ", " >$k< ";  
 
-    ## This behaves differently though:
+    ## This does behave differently though:
     my ($m, $n, $l);
     (($m, $n), $l) = ((7, 9), 3);
     say " |$m| ", " |$n| ", " |$l| ";  #   |7 9|  |3|  || 
-
 }
 
 # Hyper forms of unary operators have the pointy bit aimed at the operator and the blunt end at the list to be operated on.
