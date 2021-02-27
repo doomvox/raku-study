@@ -32,11 +32,12 @@ say @b;  #  [A B C]
 # C
 
 # # The first parameter of a method is the invocant. 
-sub foo( Str:D $c ){ $c.uc x 2 };
-say @a».&foo;
-
 ## This is a weirdly incoherent remark:
 #    So we can pretend to have a method call with a sub that got a good first positional argument. 
+
+sub foo( Str:D $c ){ $c.uc x 2 };
+say @a».&foo;  # [AA BB CC]
+
 # # 
 # say @a».&foo;
 # # Blocks have an implicit positional arguments that lands in $_. The latter can 
