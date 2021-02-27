@@ -4,9 +4,6 @@
 
 use v6;
 
-## ## Make errors into warnings
-##   CATCH { default { say "CAUGHT: ", .Str; .resume } }
-
 ## Reviewing hypers:
 
 {
