@@ -4,13 +4,13 @@
 
 use v6;
 
-## Make errors into warnings
-CATCH { default { say "CAUGHT: ", .Str; .resume } }
+## ## Make errors into warnings
+##   CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-#  my @monsters = < garuda blob golem mothera godzilla tingler >;
+my @monsters = < garuda blob golem mothera godzilla tingler >;
 
 
-## I'm in a mood to reveiw hypers.  
+## Reviewing hypers:
 
 
 # https://docs.raku.org/language/operators#index-entry-hyper_method_call_operator
