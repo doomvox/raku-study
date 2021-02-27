@@ -74,7 +74,6 @@ use v6;
     my ($i, $j, $k) = (1, 2, 3);
     say " |$i| ", " |$j| ", " |$k| ";  #  |1|  |2|  |3| 
 
-
     # Note, tried this, confuses raku completely
     #    say " >$i< ", " >$j< ", " >$k< ";  
 
