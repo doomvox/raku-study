@@ -41,3 +41,6 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 ./rakudo/gen/moar/CORE.c.setting:21609:    multi method gist(Uni:D:) {
 ./rakudo/gen/moar/CORE.c.setting:21655:    method gist {
 ./rakudo/gen/moar/CORE.c.setting:22820:    multi method gist(Str:D:) { self }
+
+*** promises and threads
+https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
