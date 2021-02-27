@@ -55,7 +55,7 @@ use v6;
     # Applying [+] to a single element will return that element
     say [+] 42;           # OUTPUT: «42␤» 
 
-    ## the "return that element" rule gets it to work for any operator, no?
+    ## the "return that element" rule gets it to work for any operator, I think
     my @c = < a b c >;    
     say [~] @c;  # abc
     say [~] 'z'; # z
