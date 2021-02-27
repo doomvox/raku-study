@@ -62,7 +62,7 @@ say @a».&{ $_ ~ .uc ~ $_ };  # [aAa bBb cCc]
 my @c = @a.map({ .uc });
 say @c;  # [A B C]
 
-
+my @d = @a.map({ .&{ $_ ~ .uc ~ $_ } });
 
 say "===";
 ## playing with .ord briefly:
