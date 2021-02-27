@@ -64,4 +64,4 @@ say @a».&{ $_ ~ .uc ~ $_ };  # [aAa bBb cCc]
 say "a: " ~ "a".ord;   # a: 97
 say "A: " ~ "A".ord;   # A: 65
 say "»: " ~ "»".ord;   # »: 187
-say ">: " ~ ">".ord;
+say ">: " ~ ">".ord;   # >: 62
