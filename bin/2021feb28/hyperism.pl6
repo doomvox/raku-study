@@ -67,4 +67,6 @@ say "»: " ~ "»".ord;   # »: 187
 say ">: " ~ ">".ord;   # >: 62
 
 # 2630;TRIGRAM FOR HEAVEN;So;0;ON;;;;;N;;;;;
-say "☰: " ~ "☰".ord;
+say "☰: " ~ "☰".ord;  # ☰: 9776
+
+say "☰".ord.hex;
