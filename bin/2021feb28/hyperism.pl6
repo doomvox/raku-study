@@ -66,3 +66,5 @@ say "A: " ~ "A".ord;   # A: 65
 say "»: " ~ "»".ord;   # »: 187
 say ">: " ~ ">".ord;   # >: 62
 
+# 2630;TRIGRAM FOR HEAVEN;So;0;ON;;;;;N;;;;;
+say "☰: " ~ "☰".ord;
