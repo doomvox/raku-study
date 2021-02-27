@@ -76,7 +76,7 @@ say "☰: " ~ "☰".ord;  # ☰: 9776
 printf "%x\n", "☰".ord;  # 2630
 
 say chr(9776); # ☰
-say char("\x[2630]");
+say chr("\x[2630]");
 
 ## Q: is there a more convenient way to convert to hex?
 
