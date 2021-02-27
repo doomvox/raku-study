@@ -52,7 +52,7 @@ use v6;
     # In this case, it's the postcircumfix[] which is being hypered.
     my @a = <1 2 3>;
     my @b = <4 5 6>;
-    say (@a,@b)»[1]; # 
+    say (@a,@b)»[1]; (2 5)
 }
 
 
