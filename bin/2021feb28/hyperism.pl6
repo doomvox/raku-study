@@ -16,7 +16,9 @@ use v6;
 
     my @nm1 = @monsters.uc;
     my @nm2 = @monsters>>.uc;
-    say @nm1.WHAT, @nm1[0];
+    say @nm1;
+    say @nm1.WHAT, @nm1[0];  # (Array)GARUDA BLOB GOLEM
+    say @nm2;
     say @nm2.WHAT, @nm2[0];
 
 }
