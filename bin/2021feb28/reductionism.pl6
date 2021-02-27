@@ -38,7 +38,12 @@ use v6;
     # So, that ignores the ", [+] @m" completely
 
     my @u = ( [+] @n, [+] @m ); 
-    say @u;
+    say @u; # [9]
+
+    my @v = ( ( [+] @n) , ( [+] @m ) ); 
+    say @v; # [9]
+
+
 }
 
 
