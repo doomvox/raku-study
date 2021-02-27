@@ -48,12 +48,13 @@ use v6;
     ## left: 3 elements, right: 4 elements
 }
 
+{
+    # In this case, it's the postcircumfix[] which is being hypered.
+    my @a = <1 2 3>;
+    my @b = <4 5 6>;
+    say (@a,@b)»[1]; # OUTPUT: «(2 5)␤»
 
-# my @a = <1 2 3>;
-# my @b = <4 5 6>;
-# say (@a,@b)»[1]; # OUTPUT: «(2 5)␤»
 
-# In this case, it's the postcircumfix[] which is being hypered.
 
 # Assignment metaoperators can be hyped.
 
