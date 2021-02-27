@@ -86,8 +86,8 @@ use v6;
 {
     my @a = 1, 2, 3;
     my @b = 3, 7, 9;
-
-
+    my $double_sum = [+] @a >>+<< @b;
+    say $double_sum;
     }
 
 
