@@ -38,6 +38,9 @@ use v6;
 }
 
 {
+    ## Make errors into warnings
+    CATCH { default { say "CAUGHT: ", .Str; .resume } }
+
     # add each element in sequence
     say (1, 2, 3) »+« (4, 5, 6, 7);  # (5 7 9)
 
@@ -130,8 +133,12 @@ left: 3 elements, right: 4 elements
 # say $neighbors »>>+<<» ($p, *);   # OUTPUT: «((1 3) (2 2) (2 4) (3 3))␤»
 
 
-## Make errors into warnings
-CATCH { default { say "CAUGHT: ", .Str; .resume } }
+
+
+
+
+
+
 
 #  my @monsters = < garuda blob golem mothera godzilla tingler >;
 
