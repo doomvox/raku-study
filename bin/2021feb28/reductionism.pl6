@@ -52,7 +52,6 @@ use v6;
 }
 
 # Applying [+] to a single element will return that element
-
 # say [+] 42;           # OUTPUT: «42␤» 
 
 
