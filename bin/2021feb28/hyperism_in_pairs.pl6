@@ -49,11 +49,11 @@ use v6;
 }
 
 {
-    # a problem with numbers of elements:
-    say (1, 2, 3) »+« (4, 5, 6, 7);  
+#     # a problem with numbers of elements:
+#     say (1, 2, 3) »+« (4, 5, 6, 7);  
 
-    ## CAUGHT: Lists on either side of non-dwimmy hyperop of infix:<+> are not of the same length while recursing
-    ## left: 3 elements, right: 4 elements
+#     ## CAUGHT: Lists on either side of non-dwimmy hyperop of infix:<+> are not of the same length while recursing
+#     ## left: 3 elements, right: 4 elements
 
     say "still alive";
 }
