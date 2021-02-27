@@ -17,7 +17,9 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 # methodop ». / methodop >>.
 
-# This is the hyper method call operator. Will call a method on all elements of a List out of order and return the list of return values in order.
+# This is the hyper method call operator. Will call a method on
+# all elements of a List out of order and return the list of
+# return values in order.
 
 # my @a = <a b c>;
 # my @b = @a».ord;                  # OUTPUT: «[97, 98, 99]␤» 
@@ -36,7 +38,7 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 # Take care to avoid a common mistake of expecting side-effects to occur in order. The following say is not guaranteed to produce the output in order:
 
-
+# @a».say;  # WRONG! Could produce a␤b␤c␤ or c␤b␤a␤ or any other order 
 
 
 
