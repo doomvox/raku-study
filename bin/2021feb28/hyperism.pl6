@@ -16,6 +16,8 @@ use v6;
 
     my @nm1 = @monsters.uc;
     my @nm2 = @monsters>>.uc;
+    say @nm1.WHAT;
+    say @nm2.WHAT;
 
 }
 
