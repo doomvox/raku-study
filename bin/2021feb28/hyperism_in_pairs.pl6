@@ -20,11 +20,13 @@ use v6;
 # longer list are processed.
 
 {
-    say (1, 2, 3) »*» 2;          # OUTPUT: «(2 4 6)␤» 
-    say (1, 2, 3, 4) »~» <a b>;   # OUTPUT: «(1a 2b 3a 4b)␤» 
-    say (1, 2, 3) »+« (4, 5, 6);  # OUTPUT: «(5 7 9)␤» 
+    # add 2 to every element
+    say (1, 2, 3) »*» 2;          # (2 4 6)
+    # append a b to each
+    say (1, 2, 3, 4) »~» <a b>;   # (1a 2b 3a 4b)
+    say (1, 2, 3) »+« (4, 5, 6);  # (5 7 9)
     say (&sin, &cos, &sqrt)».(0.5);
-    # OUTPUT: «(0.479425538604203 0.877582561890373 0.707106781186548)␤»
+    # (0.479425538604203 0.8775825618903728 0.7071067811865476)
 }
 
 # The last example illustrates how postcircumfix operators (in this case .()) can also be hypered.
