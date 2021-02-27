@@ -56,6 +56,8 @@ use v6;
     say [+] 42;           # OUTPUT: «42␤» 
 
     my @c = < a b c >;    
-    say [~] @c;
+    say [~] @c;  # abc
+
+    say [~] 'z';
 
 }
