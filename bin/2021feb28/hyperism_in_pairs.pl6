@@ -29,12 +29,20 @@ use v6;
     # add each element in sequence
     say (1, 2, 3) »+« (4, 5, 6);  # (5 7 9)
 
+
+    # add each element in sequence
+    say (1, 2, 3) »+« (4, 5, 6, 7);  # (5 7 9)
+
+
     # apply series of functions to a single element
     say (&sin, &cos, &sqrt)».(0.5);
     # (0.479425538604203 0.8775825618903728 0.7071067811865476)
+
+    # The last example illustrates how postcircumfix operators (in this case .()) can also be hypered.
+
 }
 
-# The last example illustrates how postcircumfix operators (in this case .()) can also be hypered.
+
 
 # my @a = <1 2 3>;
 # my @b = <4 5 6>;
