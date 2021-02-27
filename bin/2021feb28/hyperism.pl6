@@ -73,3 +73,4 @@ printf "%x\n", "☰".ord;  # 2630
 
 
 my @c = @a.map({ .uc });
+say @c;
