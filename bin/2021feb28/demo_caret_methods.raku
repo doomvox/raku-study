@@ -91,6 +91,3 @@ say "---";
         say  @stuff.grep(/'Method+{is-nodal}.new'/);
     }
 }
-
-        say @method_names;
-        @method_names
