@@ -97,6 +97,7 @@ say "---";
 
 
 {
+    CATCH { default { say "CAUGHT: ", .Str; .resume } }
     say "===Y===";
     my $type_list_file = "/home/doom/End/Cave/Perl6/Wall/raku-study/type.lst";
     my @lines = $type_list_file.IO.lines;
