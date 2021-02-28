@@ -88,6 +88,6 @@ say "---";
     for @classes -> $c {
         say "c: $c";
         my @stuff =  EVAL "$c.^methods>>.gist";
-        say  @stuff.grep(/'Method+{is-nodal}.new'/).elems;
+        say  "weirdzo count: ", @stuff.grep(/'Method+{is-nodal}.new'/).elems;
     }
 }
