@@ -52,7 +52,7 @@ https://github.com/Raku/nqp
 "not quite perl" minimal sub-set of Raku that compiles the rest
 
 **** rakudo, user-level docs
-https://github.com/Raku/doc
+***** https://github.com/Raku/doc
 #+BEGIN_SRC sh
 ## newfangled way they want to do it
 gh repo clone Raku/doc
