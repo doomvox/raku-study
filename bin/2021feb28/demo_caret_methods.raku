@@ -42,7 +42,9 @@ say "---";
 
 
 say "---";
-say  Set.^methods;       
+{
+    say  Set.^methods;       
 
-my Set $a = set 2, 4, 6;
-say $a.^methods;
+    my Set $s = set 2, 4, 6;
+    say $s.^methods;
+}
