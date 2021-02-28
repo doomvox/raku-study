@@ -31,10 +31,16 @@ This seems to be the developer-oriented docs, the equivalent of man perlguts:
 **** rakudo 
 https://github.com/rakudo/rakudo
 
+**** nqp
+
+**** roast
+test suite and effective specs
+
+
+**** rakudo, user-level docs
 https://github.com/Raku/doc
 
 
-**** nqp, roast, rakudo
 
 
 ***** find . -type f -exec egrep --color -nH -e 'method\s+gist\b' {} +
