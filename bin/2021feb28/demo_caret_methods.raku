@@ -6,7 +6,7 @@ use v6;
 
 .say for Str.^methods;       ##  the caret stuff means this is okay
 
-say Str.HOW.methods;
+.say for Str.HOW.methods;
 
 .say for Str.WHAT;           ## b.g.:  uppercase are alerts, something funny if you do this
 
