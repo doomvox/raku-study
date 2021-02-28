@@ -9,6 +9,9 @@
 ***** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb28.org
 **** demo scripts
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021feb28
+*** this is a free form meeting without set agenda
+*** typically I share screen and start talking to keep things moving
+*** if you've got anything you want to show, just say so, I'll unshare
 ** announcements
 SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
 https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
