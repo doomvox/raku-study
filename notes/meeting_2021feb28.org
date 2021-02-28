@@ -43,6 +43,10 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 ./rakudo/gen/moar/CORE.c.setting:22820:    multi method gist(Str:D:) { self }
 
 
+
+
+***** equivalent of man perlguts?
+/home/doom/End/Sys/Perl6/dev/rakudo/docs
 **** Q: is there a spec for Raku?  
 ***** not really: various references point at the test suite as the "spec": 
 https://github.com/Raku/roast
@@ -65,6 +69,10 @@ $obj.^can("bark")
 ******* https://raku.org/specification/
 ******** 6.c spec: https://github.com/Raku/roast/tree/6.c-errata
 ******** dev spec: https://github.com/Raku/roast
+****** 
+
+
+
 
 *** promises and threads
 https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
