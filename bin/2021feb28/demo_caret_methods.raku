@@ -86,6 +86,7 @@ say "---";
     use MONKEY;
     my @classes = < Set Date Str >;
     for @classes -> $c {
-        say EVAL {"$c.^methods"};
+        say EVAL "$c.^methods";
+        ## EVAL() in Raku is intended to evaluate strings, did you mean 'try'?
     }
 }
