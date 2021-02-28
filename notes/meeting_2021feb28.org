@@ -79,6 +79,12 @@ Returns a list of public methods available on the class (which includes methods 
 
 ******** Note: there is no mention of .^method_names on this page, type/Metamodel::ClassHOW
 
+******* https://docs.raku.org/language/classtut#Introspection
+my Programmer $o .= new;
+...
+say $o.^methods(:local)».name.join(', ');
+
+********  Note: there is no mention of .^method_names on this page, language/classtut#Introspection
 
 *** promises and threads
 https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
