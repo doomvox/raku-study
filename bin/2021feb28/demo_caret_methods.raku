@@ -135,7 +135,6 @@ use v6;
 
     for @lines -> $l {
         my $c = $l.split( /\s+/ ).[0];
-        say "c: $c";
         my @other;
         try {
             my @meth = ::($c).^methods;
@@ -156,7 +155,7 @@ use v6;
                       }
                   };
         }
-        say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
+        say  "$c weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
     }
 }
 
