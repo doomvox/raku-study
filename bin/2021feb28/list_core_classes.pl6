@@ -26,3 +26,4 @@ for @pairs.sort({ $^a.[0] cmp $^b.[0] }) -> $pair {
 #    say $class.new.^methods.elems, ' ',  $obj.^methods.elems;
     say "$new_class_instance_m_count $existing_object_m_count";
 
+}
