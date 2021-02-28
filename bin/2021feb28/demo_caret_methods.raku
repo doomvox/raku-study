@@ -82,7 +82,7 @@ say "---";
 }
 
 {
-    say "===0===";
+    say "===X===";
     use MONKEY;
     my @classes = < Set Date Str >;
     for @classes -> $c {
