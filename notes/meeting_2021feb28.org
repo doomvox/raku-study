@@ -77,7 +77,7 @@ say Int.^methods(:all).pick.name;         # OUTPUT: «random Int method n
 
 Returns a list of public methods available on the class (which includes methods from superclasses and roles). 
 
-******** Note: there is no mention of .^method_names on this page
+******** Note: there is no mention of .^method_names on this page, type/Metamodel::ClassHOW
 
 
 *** promises and threads
