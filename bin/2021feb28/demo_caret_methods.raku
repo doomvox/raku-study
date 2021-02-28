@@ -86,7 +86,9 @@ say "---";
     use MONKEY;
     my @classes = < Set Date Str >;
     for @classes -> $c {
-        say EVAL "$c.^methods";
-        ## EVAL() in Raku is intended to evaluate strings, did you mean 'try'?
+        my @method_names = EVAL "$c.^methods";
+        say @method_names;
+        @method_names.grep(/'Method+{is-nodal}.new'/)
+
     }
 }
