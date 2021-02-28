@@ -17,7 +17,7 @@ my @classes    = SymbolScan.list_core_class_names;
 
 say "count of core classes: ", @classes.elems;
 
-for @classes -> $c {
+for @classes.sort -> $c {
     say $c;
 }
 
