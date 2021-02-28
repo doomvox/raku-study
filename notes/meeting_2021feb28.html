@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-02-28 Sun 12:57 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title></title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Joseph Brenner" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgd7068be">1. meeting notes Feb 28, 2021</a>
+<ul>
+<li><a href="#orgd1da03b">1.1. plan</a>
+<ul>
+<li><a href="#org2984771">1.1.1. plan stuff</a></li>
+<li><a href="#orgdc95465">1.1.2. ask for ideas</a></li>
+<li><a href="#org8818933">1.1.3. stall until end of meeting</a></li>
+</ul>
+</li>
+<li><a href="#org92ead2e">1.2. usual stuff</a>
+<ul>
+<li><a href="#orga85dc26">1.2.1. we use a github project for sharing demo code and so on:</a></li>
+<li><a href="#org598e126">1.2.2. this is a free form meeting without set agenda</a></li>
+<li><a href="#org7877107">1.2.3. typically I share screen and start talking to keep things moving</a></li>
+<li><a href="#orge65cc6e">1.2.4. if you've got anything you want to show, just say so, I'll unshare</a></li>
+</ul>
+</li>
+<li><a href="#org5649a16">1.3. announcements</a></li>
+<li><a href="#orgecc19b3">1.4. possible topics</a>
+<ul>
+<li><a href="#org60c0264">1.4.1. steven<sub>lembark</sub></a></li>
+<li><a href="#org3a8b14b">1.4.2. adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)</a></li>
+<li><a href="#orgecbfd07">1.4.3. andrew shitov "Perl 6 at a Glance"</a></li>
+<li><a href="#orgd81e645">1.4.4. perl weekly challenge:</a></li>
+<li><a href="#org0abaeba">1.4.5. promises and threads</a></li>
+<li><a href="#orgb7288dc">1.4.6. how is Raku code organized?</a></li>
+<li><a href="#orgac07161">1.4.7. how would you get a list of all the built-in classes?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd7068be" class="outline-2">
+<h2 id="orgd7068be"><span class="section-number-2">1</span> meeting notes Feb 28, 2021</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-orgd1da03b" class="outline-3">
+<h3 id="orgd1da03b"><span class="section-number-3">1.1</span> plan</h3>
+<div class="outline-text-3" id="text-1-1">
+</div><div id="outline-container-org2984771" class="outline-4">
+<h4 id="org2984771"><span class="section-number-4">1.1.1</span> plan stuff</h4>
+</div>
+<div id="outline-container-orgdc95465" class="outline-4">
+<h4 id="orgdc95465"><span class="section-number-4">1.1.2</span> ask for ideas</h4>
+</div>
+<div id="outline-container-org8818933" class="outline-4">
+<h4 id="org8818933"><span class="section-number-4">1.1.3</span> stall until end of meeting</h4>
+</div>
+</div>
+<div id="outline-container-org92ead2e" class="outline-3">
+<h3 id="org92ead2e"><span class="section-number-3">1.2</span> usual stuff</h3>
+<div class="outline-text-3" id="text-1-2">
+</div><div id="outline-container-orga85dc26" class="outline-4">
+<h4 id="orga85dc26"><span class="section-number-4">1.2.1</span> we use a github project for sharing demo code and so on:</h4>
+<div class="outline-text-4" id="text-1-2-1">
+</div><ol class="org-ol"><li><a id="org9efe1e4"></a>meeting notes (this file)<br  /><ol class="org-ol"><li><a id="orgc258193"></a><a href="https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb28.org">https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb28.org</a><br  /></li></ol></li>
+<li><a id="orgdf446f0"></a>demo scripts<br  /><ol class="org-ol"><li><a id="orgdc32eed"></a><a href="https://github.com/doomvox/raku-study/tree/main/bin/2021feb28">https://github.com/doomvox/raku-study/tree/main/bin/2021feb28</a><br  /></li></ol></li></ol>
+</div>
+<div id="outline-container-org598e126" class="outline-4">
+<h4 id="org598e126"><span class="section-number-4">1.2.2</span> this is a free form meeting without set agenda</h4>
+</div>
+<div id="outline-container-org7877107" class="outline-4">
+<h4 id="org7877107"><span class="section-number-4">1.2.3</span> typically I share screen and start talking to keep things moving</h4>
+</div>
+<div id="outline-container-orge65cc6e" class="outline-4">
+<h4 id="orge65cc6e"><span class="section-number-4">1.2.4</span> if you've got anything you want to show, just say so, I'll unshare</h4>
+</div>
+</div>
+<div id="outline-container-org5649a16" class="outline-3">
+<h3 id="org5649a16"><span class="section-number-3">1.3</span> announcements</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
+<a href="https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/">https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgecc19b3" class="outline-3">
+<h3 id="orgecc19b3"><span class="section-number-3">1.4</span> possible topics</h3>
+<div class="outline-text-3" id="text-1-4">
+</div><div id="outline-container-org60c0264" class="outline-4">
+<h4 id="org60c0264"><span class="section-number-4">1.4.1</span> steven<sub>lembark</sub></h4>
+<div class="outline-text-4" id="text-1-4-1">
+</div><ol class="org-ol"><li><a id="orga137686"></a><a href="https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my">https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my</a><br  /><ol class="org-ol"><li><a id="org59bbb24"></a>slide21:  "unit sub MAIN { &#x2026;"  unit?<br  /></li></ol></li>
+<li><a id="org5c684b8"></a><a href="https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql">https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql</a><br  /></li></ol>
+</div>
+<div id="outline-container-org3a8b14b" class="outline-4">
+<h4 id="org3a8b14b"><span class="section-number-4">1.4.2</span> adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)</h4>
+<div class="outline-text-4" id="text-1-4-2">
+</div><ol class="org-ol"><li><a id="orga8d2df7"></a><a href="https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)">https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)</a><br  /></li></ol>
+</div>
+<div id="outline-container-orgecbfd07" class="outline-4">
+<h4 id="orgecbfd07"><span class="section-number-4">1.4.3</span> andrew shitov "Perl 6 at a Glance"</h4>
+<div class="outline-text-4" id="text-1-4-3">
+</div><ol class="org-ol"><li><a id="orgbd83f12"></a><a href="https://andrewshitov.com/perl6-at-a-glance/">https://andrewshitov.com/perl6-at-a-glance/</a><br  /></li>
+<li><a id="org28cc4fd"></a><a href="https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf">https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf</a><br  /></li></ol>
+</div>
+<div id="outline-container-orgd81e645" class="outline-4">
+<h4 id="orgd81e645"><span class="section-number-4">1.4.4</span> perl weekly challenge:</h4>
+<div class="outline-text-4" id="text-1-4-4">
+</div><ol class="org-ol"><li><a id="org6690543"></a><a href="https://perlweeklychallenge.org/">https://perlweeklychallenge.org/</a><br  /></li></ol>
+</div>
+
+<div id="outline-container-org0abaeba" class="outline-4">
+<h4 id="org0abaeba"><span class="section-number-4">1.4.5</span> promises and threads</h4>
+<div class="outline-text-4" id="text-1-4-5">
+</div><ol class="org-ol"><li><a id="orgd1087e1"></a><a href="https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/">https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/</a><br  /></li>
+<li><a id="org9a3d5a9"></a>Jonathan Worthington<br  /><ol class="org-ol"><li><a id="orgcc8d48e"></a><a href="https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/Racing-to-writeness-to-wrongness-leads.md">https://github.com/Raku/CCR/blob/main/Remaster/Jonathan Worthington/Racing-to-writeness-to-wrongness-leads.md</a><br  /></li>
+<li><a id="org076cc52"></a><a href="https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md">https://github.com/Raku/CCR/blob/main/Remaster/Jonathan Worthington/A-unified-and-improved-Supply-concurrency-model.md</a><br  /></li></ol></li></ol>
+</div>
+
+<div id="outline-container-orgb7288dc" class="outline-4">
+<h4 id="orgb7288dc"><span class="section-number-4">1.4.6</span> how is Raku code organized?</h4>
+<div class="outline-text-4" id="text-1-4-6">
+</div><ol class="org-ol"><li><a id="org42cb035"></a>rakudo/docs<br  /><div class="outline-text-5" id="text-1-4-6-1">
+<p>
+The developer-oriented docs (the equivalent of man perlguts)
+/home/doom/End/Sys/Perl6/dev/rakudo/docs
+</p>
+</div></li>
+
+<li><a id="org829999e"></a>roast<br  /><div class="outline-text-5" id="text-1-4-6-2">
+<p>
+test suite and effective specs for Raku
+<a href="https://github.com/Raku/roast">https://github.com/Raku/roast</a>
+</p>
+</div></li>
+
+<li><a id="org6a2f9d3"></a>rakudo<br  /><div class="outline-text-5" id="text-1-4-6-3">
+<p>
+<a href="https://github.com/rakudo/rakudo">https://github.com/rakudo/rakudo</a>
+the leading implementation of Raku
+</p>
+</div></li>
+
+<li><a id="org7ab3900"></a>nqp<br  /><div class="outline-text-5" id="text-1-4-6-4">
+<p>
+<a href="https://github.com/Raku/nqp">https://github.com/Raku/nqp</a>
+"not quite perl" minimal sub-set of Raku that compiles the rest
+</p>
+</div></li>
+
+<li><a id="orgdb34ae4"></a>rakudo, user-level docs<br  /><ol class="org-ol"><li><a id="org50f79d2"></a><a href="https://github.com/Raku/doc">https://github.com/Raku/doc</a><br  /><div class="outline-text-6" id="text-1-4-6-5-1">
+<div class="org-src-container">
+<pre class="src src-sh">## newfangled way they want to do it
+gh repo clone Raku/doc
+## what I still do
+git clone git@github.com:Raku/doc
+</pre>
+</div>
+</div></li>
+
+<li><a id="orga82dbe6"></a>As opposed to the user-level docs:<br  /><div class="outline-text-6" id="text-1-4-6-5-2">
+<p>
+<a href="https://github.com/Raku/doc/">https://github.com/Raku/doc/</a>
+</p>
+</div></li></ol></li>
+<li><a id="orgc807114"></a>Q: is there a spec for Raku?<br  /><ol class="org-ol"><li><a id="org27212d6"></a>not really: various references point at the test suite as the "spec":<br  /><div class="outline-text-6" id="text-1-4-6-6-1">
+<p>
+<a href="https://github.com/Raku/roast">https://github.com/Raku/roast</a>
+</p>
+</div>
+<ol class="org-ol"><li><a id="org3c20e8f"></a>This now supersedes the Synopsis pages<br  /></li></ol></li>
+
+<li><a id="orgc668328"></a>what is the proper behavior of ^methods and ^method<sub>names</sub><br  /><ol class="org-ol"><li><a id="org23695da"></a>researching for this issue:<br  /><div class="outline-text-7" id="text-1-4-6-6-2-1">
+<p>
+<a href="https://github.com/rakudo/rakudo/issues/4207">https://github.com/rakudo/rakudo/issues/4207</a>
+</p>
+</div></li>
+<li><a id="org83b5b68"></a>There are no tests of ^method<sub>names</sub> but there are some for ^methods:<br  /><ol class="org-ol"><li><a id="org1dba567"></a><a href="https://github.com/Raku/roast/blob/master/S12-introspection/methods.t">https://github.com/Raku/roast/blob/master/S12-introspection/methods.t</a><br  /></li>
+<li><a id="org395037c"></a>These are largely sanity tests written to avoid gratuitious breakage<br  /><div class="outline-text-8" id="text-1-4-6-6-2-2-2">
+<p>
+e.g. it checks that Any.<sup>methods</sup> shows more than List.<sup>methods</sup>
+</p>
+</div></li></ol></li>
+<li><a id="org6334732"></a>Synopsis 12 describes a ".<sup>methods</sup>" (a short cut for ".HOW.methods")<br  /><ol class="org-ol"><li><a id="orgfad0289"></a><a href="https://design.raku.org/S12.html#Introspection">https://design.raku.org/S12.html#Introspection</a><br  /></li>
+<li><a id="orge919566"></a>In general, the behavior described here seems much like the current behavior:<br  /><div class="outline-text-8" id="text-1-4-6-6-2-3-2">
+<p>
+"The .<sup>methods</sup> method returns method-descriptors containing:
+    name                the name of the method"
+</p>
+</div></li>
+<li><a id="org696dc04"></a>Note, the ".<sup>can</sup>" method might be used to check the ".<sup>methods.name</sup>":<br  /><div class="outline-text-8" id="text-1-4-6-6-2-3-3">
+<p>
+$obj.<sup>can</sup>("bark")
+</p>
+</div></li>
+<li><a id="org989b3e0"></a><a href="https://raku.org/specification/">https://raku.org/specification/</a><br  /><ol class="org-ol"><li><a id="org3a6b403"></a>6.c spec: <a href="https://github.com/Raku/roast/tree/6.c-errata">https://github.com/Raku/roast/tree/6.c-errata</a><br  /></li>
+<li><a id="org33218d3"></a>dev spec: <a href="https://github.com/Raku/roast">https://github.com/Raku/roast</a><br  /></li></ol></li></ol></li>
+<li><a id="org342b5b0"></a>Places ".<sup>methods</sup>" are mentioned in docs<br  /><ol class="org-ol"><li><a id="org10b9a12"></a>found via search index:<br  /><ol class="org-ol"><li><a id="org05fc99e"></a><a href="https://docs.raku.org/type/Metamodel::ClassHOW">https://docs.raku.org/type/Metamodel::ClassHOW</a><br  /><div class="outline-text-9" id="text-1-4-6-6-2-4-1-1">
+<p>
+say Int.<sup>methods</sup>(:all).pick.name;         # OUTPUT: «random Int method n
+</p>
+</div></li>
+<li><a id="org5e18ad7"></a><a href="https://docs.raku.org/type/Metamodel::ClassHOW">https://docs.raku.org/type/Metamodel::ClassHOW</a>#(Metamodel::MethodContainer)<sub>method</sub><sub>methods</sub><br  /><div class="outline-text-9" id="text-1-4-6-6-2-4-1-2">
+<p>
+Returns a list of public methods available on the class (which includes methods from superclasses and roles). 
+</p>
+</div></li>
+<li><a id="orgc730db5"></a><a href="https://docs.raku.org/language/classtut#Introspection">https://docs.raku.org/language/classtut#Introspection</a><br  /><div class="outline-text-9" id="text-1-4-6-6-2-4-1-3">
+<p>
+my Programmer $o .= new;
+&#x2026;
+say $o.<sup>methods</sup>(:local)».name.join(', ');
+</p>
+</div></li>
+<li><a id="orge8c2f84"></a><a href="https://docs.raku.org/type/ForeignCode">https://docs.raku.org/type/ForeignCode</a><br  /></li></ol></li>
+<li><a id="org0b2c5cc"></a>found grepping the src for the docs: find . -type f -exec grep &#x2013;color -nH -e '\<sup>method</sup>' {} +<br  /><ol class="org-ol"><li><a id="org051aa6f"></a><a href="https://docs.raku.org/language/5to6-perlvar">https://docs.raku.org/language/5to6-perlvar</a><br  /></li>
+<li><a id="orge879866"></a>Language/classtut<br  /></li>
+<li><a id="orgf42ce90"></a>Language/operators<br  /></li>
+<li><a id="org0de2698"></a>Language/rb-nutshell<br  /></li>
+<li><a id="org4242c45"></a>Language/structures<br  /></li>
+<li><a id="org3ecb84a"></a>Type/ForeignCode<br  /></li>
+<li><a id="org4eff6cd"></a>Type/Metamodel/MethodContainer<br  /></li>
+<li><a id="org4cdac46"></a>Type/Signature<br  /></li>
+<li><a id="org542279f"></a>Type/Stash<br  /></li></ol></li></ol></li>
+<li><a id="orgfcc9be7"></a>There are no places ".<sup>method</sup><sub>names</sub>" is mentioned in the docs.<br  /></li></ol></li></ol></li></ol>
+</div>
+
+<div id="outline-container-orgac07161" class="outline-4">
+<h4 id="orgac07161"><span class="section-number-4">1.4.7</span> how would you get a list of all the built-in classes?</h4>
+<div class="outline-text-4" id="text-1-4-7">
+</div><ol class="org-ol"><li><a id="orge300ea2"></a>note: can't instantiate with an empty new on all (just many)<br  /></li>
+<li><a id="orga6b359a"></a>Symbol::Scan can get you ones currently in use<br  /><ol class="org-ol"><li><a id="org55b1ea8"></a><a href="https://github.com/doomvox/perl6-symbol-scan">https://github.com/doomvox/perl6-symbol-scan</a><br  /></li>
+<li><a id="orgf6dba19"></a>git@github.com:doomvox/perl6-symbol-scan.git<br  /></li></ol></li></ol>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Joseph Brenner</p>
+<p class="date">Created: 2021-02-28 Sun 12:57</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
