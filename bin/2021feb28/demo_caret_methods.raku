@@ -106,12 +106,12 @@ say "---";
         my $c = $l.split( /\s+/ ).[0];
         say "c: $c";
         my @other;
-        try {
+#        try {
             @other = ::($c).^methods>>.gist;
-            CATCH { when X::Method::NotFound
-                    {say "skipping $c because it's fuggheaded"}
-                  };
-        }
+#             CATCH { when X::Method::NotFound
+#                     {say "skipping $c because it's fuggheaded"}
+#                   };
+#         }
         say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
     }
 }
