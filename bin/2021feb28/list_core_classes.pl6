@@ -20,6 +20,6 @@ say "count of core classes: ", @classes.elems;
 for @classes.sort -> $c {
 #    say $c;
     my $obj = $c.new;
-    say $obj.name;
+    say $obj;
 }
 
