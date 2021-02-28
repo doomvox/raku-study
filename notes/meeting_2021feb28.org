@@ -60,7 +60,15 @@ https://github.com/rakudo/rakudo/issues/4207
 ******* These are largely sanity tests written to avoid gratuitious breakage
 e.g. it checks that Any.^methods shows more than List.^methods
 ****** Synopsis 12 describes a ".^methods" (a short cut for ".HOW.methods")
-https://design.raku.org/S12.html#Introspection
+******* https://design.raku.org/S12.html#Introspection
+******* In general, the behavior described here seems much like the current behavior:
+"The .^methods method returns method-descriptors containing:
+    name                the name of the method"
+******* Note, the ".^can" method might be used to check the ".^methods.name":
+$obj.^can("bark")
+******* https://raku.org/specification/
+******** 6.c spec: https://github.com/Raku/roast/tree/6.c-errata
+******** dev spec: https://github.com/Raku/roast
 *** promises and threads
 https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
 **** Jonathan Worthington
