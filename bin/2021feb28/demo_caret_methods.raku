@@ -99,6 +99,7 @@ say "---";
 {
     say "===Y===";
     my $type_list_file = "/home/doom/End/Cave/Perl6/Wall/raku-study/type.lst";
+    my @types = $type_list_file.IO.lines;
 
 #    use MONKEY;
     my @classes = < Set Date Str >;
