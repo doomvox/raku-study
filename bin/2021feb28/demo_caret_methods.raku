@@ -107,7 +107,7 @@ use v6;
         my @other;
         try {
             my @meth = ::($c).^methods;
-            say "meth: ", @meth;
+            say "methodism: ", @meth;
             @other = @meth>>.gist;
             CATCH { when X::Method::NotFound
                     { say "skipping $c because it's fuggheaded"; }
