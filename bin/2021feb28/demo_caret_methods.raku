@@ -55,10 +55,10 @@ say "---";
 
     ## say .name for Set.^methods;
 
-    my @sm1 =  Set.^methods.>>name;       
+    my @sm1 =  Set.^methods>>.name;       
 
     my $s2 = set 2, 4, 6;
-    my @sm2 = $s.^methods.>>name;
+    my @sm2 = $s.^methods>>.name;
 
     say @sm2 (-) @sm1;
 
