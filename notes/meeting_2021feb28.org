@@ -50,7 +50,7 @@ https://github.com/Raku/roast
 
 
 
-https://design.raku.org/S12.html#Introspection
+
 
 ***** what is the proper behavior of ^methods and ^method_names
 ****** researching for this issue: 
@@ -59,6 +59,8 @@ https://github.com/rakudo/rakudo/issues/4207
 ******* https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 ******* These are largely sanity tests written to avoid gratuitious breakage
 e.g. it checks that Any.^methods shows more than List.^methods
+****** Synopsis 12 shows a ".methods" not ".^methods"
+https://design.raku.org/S12.html#Introspection
 *** promises and threads
 https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
 **** Jonathan Worthington
