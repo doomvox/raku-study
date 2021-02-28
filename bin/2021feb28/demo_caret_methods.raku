@@ -26,8 +26,7 @@ say $mo.^methods.>>.name;
 
 my $anonymous_mo = @method_objects[1];
 say "--8--";
-say @method_objects[0].^method_names;
-
+say @method_objects[0].^method_names;  # (gist)
 
 say "---";
 my Str $a = "hey";
