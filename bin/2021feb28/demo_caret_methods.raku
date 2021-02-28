@@ -69,8 +69,12 @@ say "---";
 
     ## p5
     ##       my $rule = qr{ stuff }xms;
+
+    ##      s/match me/{change to} 
+
+    $thing = ~ s/(match me)/
+                  {
+                      change_to($1)
+                  }exg;
  
-
-
-
 }
