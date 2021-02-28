@@ -101,3 +101,8 @@ say $o.^methods(:local)».name.join(', ');
 ******** Type/Signature
 ******** Type/Stash
 ****** There are no places ".^method_names" is mentioned in the docs.
+
+*** how would you get a list of all the built-in classes?
+**** note: an empty new doesn't *in general* work for all of them
+**** Symbol::Scan gets you ones currently in use
+**** git@github.com:doomvox/perl6-symbol-scan.git
