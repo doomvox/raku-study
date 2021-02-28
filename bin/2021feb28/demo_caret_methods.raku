@@ -4,4 +4,4 @@
 
 use v6;
 
-say Str.^methods;
+.say for Str.^methods;
