@@ -7,7 +7,8 @@ use v6;
 .say for Str.^methods;
 
 .say for Str.HOW.methods;
-.say for Str.WHAT;
+
+.say for Str.WHAT;  ## b.g.:  uppercase are alerts
 
 say "---";
 my @method_objects = Str.^methods;
