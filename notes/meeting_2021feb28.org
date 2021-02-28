@@ -46,7 +46,7 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 **** Q: is there a spec for Raku?  
 ***** not really: various references point at the test suite as the "spec": 
 https://github.com/Raku/roast
-****** The Synopsis pages were the original design documents, once thought of as the spec
+****** This now supersedes the Synopsis pages
 
 ***** what is the proper behavior of ^methods and ^method_names
 ****** researching for this issue: 
