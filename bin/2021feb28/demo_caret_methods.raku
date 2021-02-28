@@ -16,3 +16,4 @@ say $mo.^methods.>>.name;
 say "---";
 my Str $a = "hey";
 say $a.^methods;
+say "---";
