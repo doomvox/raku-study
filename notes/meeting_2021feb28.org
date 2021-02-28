@@ -138,3 +138,6 @@ say $o.^methods(:local)».name.join(', ');
 **** parsing files like this:
 ***** https://github.com/jpaulm/parsefbp/blob/master/test/data/DrawFBP_output.fbp
 
+**** jg: the sed and awk for json data, on every platform now 
+(bruce gray recomendation).
+
