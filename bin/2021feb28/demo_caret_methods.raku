@@ -155,7 +155,7 @@ use v6;
                       }
                   };
         }
-        say  "$c weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
+        say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems, $c;
     }
 }
 
