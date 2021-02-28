@@ -114,3 +114,7 @@ say $o.^methods(:local)».name.join(', ');
 **** Symbol::Scan can get you ones currently in use
 ***** https://github.com/doomvox/perl6-symbol-scan
 ***** git@github.com:doomvox/perl6-symbol-scan.git
+** david christensen
+*** interested in flow-based programming
+*** indefinite numbers of readers/writers
+*** currently favoring perl5 for it
