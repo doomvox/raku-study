@@ -34,5 +34,4 @@ say  Str.^methods;
 my Str $a = "hey";
 say $a.^methods;
 
-
 say "---";
