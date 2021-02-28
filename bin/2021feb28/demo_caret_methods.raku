@@ -101,13 +101,8 @@ say "---";
     my $type_list_file = "/home/doom/End/Cave/Perl6/Wall/raku-study/type.lst";
     my @types = $type_list_file.IO.lines;
 
-#    use MONKEY;
-    my @classes = < Set Date Str >;
-    for @classes -> $c {
+    for @types -> $c {
         say "c: $c";
-#         my @stuff =  EVAL "$c.^methods>>.gist";
-#         say  "weirdzo count: ", @stuff.grep(/'Method+{is-nodal}.new'/).elems;
-
         my @other = ::($c).^methods>>.gist;
         say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
     }
