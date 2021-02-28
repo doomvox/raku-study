@@ -115,7 +115,7 @@ use v6;
                       { say "Yaddah: X::NoSuchSymbol"; }
                       when X::Parameter::InvalidConcreteness 
                       {
-                          if $name eq 'Failure' {
+                          if $c eq 'Failure' {
                               # return False;
                           }
                           else {
