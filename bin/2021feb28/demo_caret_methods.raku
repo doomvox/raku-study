@@ -72,9 +72,11 @@ say "---";
 
     ##      s/match me/{change to} 
 
-    $thing = ~ s/(match me)/
-                  {
-                      change_to($1)
-                  }exg;
+#     $thing = ~ s/(match me)/
+#                   {
+#                       change_to($1)
+#                   }exg;
+
+#     s///e
  
 }
