@@ -82,10 +82,10 @@ say "---";
 }
 
 {
+    say "===0===";
     use MONKEY;
     my @classes = < Set Date Str >;
     for @classes -> $c {
         say EVAL {"$c.^methods"};
     }
-
 }
