@@ -29,6 +29,10 @@ say "--8--";
 say @method_objects[0].^method_names;  # (gist)
 
 say "---";
+say  Str.^methods;       
+
 my Str $a = "hey";
 say $a.^methods;
+
+
 say "---";
