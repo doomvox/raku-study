@@ -18,7 +18,8 @@ my @classes    = SymbolScan.list_core_class_names;
 say "count of core classes: ", @classes.elems;
 
 for @classes.sort -> $c {
-    say $c;
+#    say $c;
     my $obj = $c.new;
+    say $obj.name;
 }
 
