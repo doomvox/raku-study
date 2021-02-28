@@ -73,20 +73,20 @@ $obj.^can("bark")
 ******* https://raku.org/specification/
 ******** 6.c spec: https://github.com/Raku/roast/tree/6.c-errata
 ******** dev spec: https://github.com/Raku/roast
-****** Places ".^methods" are mentioned in docs (found via search index):
-******* https://docs.raku.org/type/Metamodel::ClassHOW
+****** Places ".^methods" are mentioned in docs 
+******* found via search index:
+******** https://docs.raku.org/type/Metamodel::ClassHOW
 say Int.^methods(:all).pick.name;         # OUTPUT: «random Int method n
-******* https://docs.raku.org/type/Metamodel::ClassHOW#(Metamodel::MethodContainer)_method_methods
+******** https://docs.raku.org/type/Metamodel::ClassHOW#(Metamodel::MethodContainer)_method_methods
 Returns a list of public methods available on the class (which includes methods from superclasses and roles). 
-******* https://docs.raku.org/language/classtut#Introspection
+******** https://docs.raku.org/language/classtut#Introspection
 my Programmer $o .= new;
 ...
 say $o.^methods(:local)».name.join(', ');
-******* https://docs.raku.org/type/ForeignCode
-****** grepping the src turns up a few more:
+******** https://docs.raku.org/type/ForeignCode
+******* found grepping the src for the docs: find . -type f -exec grep --color -nH -e '\^method' {} +
 ******* https://docs.raku.org/language/5to6-perlvar
-
-find . -type f -exec grep --color -nH -e '\^method' {} +
+******* Language/classtut
 
 ./doc/Language/5to6-perlvar.pod6:231:exact running instance, for more information use <.^methods> to introspect all the above.
 
