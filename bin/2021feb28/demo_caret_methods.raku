@@ -141,10 +141,6 @@ use v6;
             my @meth = ::($c).^methods;
             say "methodism: ", @meth;
             @other = @meth>>.gist;
-
-            say  "weirdzo count: ", 
-              @other.grep(/'Method+{is-nodal}.new'/).elems;
-
             CATCH { when X::Method::NotFound
                     { say "skipping $c because it's fuggheaded"; }
                       when X::NoSuchSymbol 
