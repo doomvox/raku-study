@@ -72,20 +72,14 @@ $obj.^can("bark")
 ****** Places ".^methods" are mentioned in docs:
 ******* https://docs.raku.org/type/Metamodel::ClassHOW
 say Int.^methods(:all).pick.name;         # OUTPUT: «random Int method n
-
 ******* https://docs.raku.org/type/Metamodel::ClassHOW#(Metamodel::MethodContainer)_method_methods
-
 Returns a list of public methods available on the class (which includes methods from superclasses and roles). 
-
-******** Note: there is no mention of .^method_names on this page, type/Metamodel::ClassHOW
-
 ******* https://docs.raku.org/language/classtut#Introspection
 my Programmer $o .= new;
 ...
 say $o.^methods(:local)».name.join(', ');
-
-********  Note: there is no mention of .^method_names on this page, language/classtut#Introspection
-
+******* https://docs.raku.org/type/ForeignCode
+****** There are no places ".^method_names" is mentioned in the docs.
 *** promises and threads
 https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
 **** Jonathan Worthington
