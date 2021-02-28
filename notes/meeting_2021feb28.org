@@ -43,32 +43,6 @@ https://github.com/Raku/nqp
 **** rakudo, user-level docs
 https://github.com/Raku/doc
 
-
-
-
-***** find . -type f -exec egrep --color -nH -e 'method\s+gist\b' {} +
-
-./rakudo/gen/moar/CORE.c.setting:3938:        method gist(--> Str:D) {
-./rakudo/gen/moar/CORE.c.setting:4154:        my str $gist = self.MAYBE-GIST(thing);
-./rakudo/gen/moar/CORE.c.setting:16741:    multi method gist(Routine:D:) {
-./rakudo/gen/moar/CORE.c.setting:16847:    multi method gist(Method:D:) { self.name }
-./rakudo/gen/moar/CORE.c.setting:16854:    multi method gist(Submethod:D:) { self.name }
-./rakudo/gen/moar/CORE.c.setting:17123:    multi method gist(Junction:D:) {
-./rakudo/gen/moar/CORE.c.setting:18196:    multi method gist(::?CLASS:D:) { $!key                     }
-./rakudo/gen/moar/CORE.c.setting:18342:    multi method gist(Numeric:D:) { self.Str }
-./rakudo/gen/moar/CORE.c.setting:20616:    multi method gist(Blob:D:) {
-./rakudo/gen/moar/CORE.c.setting:21609:    multi method gist(Uni:D:) {
-./rakudo/gen/moar/CORE.c.setting:21655:    method gist {
-./rakudo/gen/moar/CORE.c.setting:22820:    multi method gist(Str:D:) { self }
-
-
-
-
-
-
-
-gh repo clone Raku/doc
-
 ***** As opposed to the user-level docs:
 https://github.com/Raku/doc/
 **** Q: is there a spec for Raku?  
