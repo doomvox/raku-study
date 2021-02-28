@@ -4,11 +4,13 @@
 
 use v6;
 
-.say for Str.^methods;
+.say for Str.^methods;       ##  the caret stuff means this is okay
 
 .say for Str.HOW.methods;
 
-.say for Str.WHAT;  ## b.g.:  uppercase are alerts
+.say for Str.WHAT;           ## b.g.:  uppercase are alerts, something funny if you do this
+
+# design principle:  evil (including EVAL) should be greppable
 
 say "---";
 my @method_objects = Str.^methods;
