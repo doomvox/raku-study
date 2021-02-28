@@ -90,7 +90,7 @@ say "---";
         my @stuff =  EVAL "$c.^methods>>.gist";
         say  "weirdzo count: ", @stuff.grep(/'Method+{is-nodal}.new'/).elems;
 
-        my @other = ::($class).^methods>>.gist;
+        my @other = ::($c).^methods>>.gist;
         say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
     }
 }
