@@ -5,3 +5,10 @@
 use v6;
 
 .say for Str.^methods;
+
+my @method_objects = Str.^methods;
+@method_objects[0].WHAT;
+
+
+my Str $a = "hey";
+
