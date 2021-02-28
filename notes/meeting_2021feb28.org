@@ -24,8 +24,13 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 **** https://perlweeklychallenge.org/
 
 *** how is Raku code organized (what's the "man perlguts"?)
+**** This seems to be the developer-oriented docs, the equivalent of man perlguts:
+/home/doom/End/Sys/Perl6/dev/rakudo/docs
 
 **** nqp, roast, rakudo
+
+https://github.com/rakudo/rakudo
+git://github.com/rakudo/rakudo.git
 
 ***** find . -type f -exec egrep --color -nH -e 'method\s+gist\b' {} +
 
@@ -45,8 +50,13 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 
 
 
-***** This seems to be the developer-oriented docs, the equivalent of man perlguts:
-/home/doom/End/Sys/Perl6/dev/rakudo/docs
+
+
+
+gh repo clone Raku/doc
+
+***** As opposed to the user-level docs:
+https://github.com/Raku/doc/
 **** Q: is there a spec for Raku?  
 ***** not really: various references point at the test suite as the "spec": 
 https://github.com/Raku/roast
