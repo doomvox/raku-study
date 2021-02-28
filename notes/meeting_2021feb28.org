@@ -48,10 +48,6 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 https://github.com/Raku/roast
 ****** Synopsis pages were the original design documents, once thought of as the spec
 
-
-
-
-
 ***** what is the proper behavior of ^methods and ^method_names
 ****** researching for this issue: 
 https://github.com/rakudo/rakudo/issues/4207
@@ -69,6 +65,7 @@ $obj.^can("bark")
 ******* https://raku.org/specification/
 ******** 6.c spec: https://github.com/Raku/roast/tree/6.c-errata
 ******** dev spec: https://github.com/Raku/roast
+
 *** promises and threads
 https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
 **** Jonathan Worthington
