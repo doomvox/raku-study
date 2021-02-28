@@ -7,7 +7,7 @@
 *** we use a github project for sharing demo code and so on:
 **** meeting notes (this file)
 ***** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb28.org
-***** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb28.org.html
+***** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb28.html
 **** demo scripts
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021feb28
 *** this is a free form meeting without set agenda
