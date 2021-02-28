@@ -80,3 +80,12 @@ say "---";
 #     s///e
  
 }
+
+{
+    use MONKEY;
+    my @classes = < Set Date Str >;
+    for @classes -> $c {
+        say EVAL {"$c.^methods"};
+    }
+
+}
