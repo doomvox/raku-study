@@ -111,4 +111,5 @@ say $o.^methods(:local)».name.join(', ');
 *** how would you get a list of all the built-in classes?
 **** note: can't instantiate with an empty new on all (just many)
 **** Symbol::Scan can get you ones currently in use
+***** https://github.com/doomvox/perl6-symbol-scan
 ***** git@github.com:doomvox/perl6-symbol-scan.git
