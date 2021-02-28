@@ -60,6 +60,7 @@ say "---";
     my $s2 = set 2, 4, 6;
     my @sm2 = $s.^methods.>>name;
 
+    say @sm2 (-) @sm1;
 
     
 
