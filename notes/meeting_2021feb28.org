@@ -27,6 +27,9 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 **** This seems to be the developer-oriented docs, the equivalent of man perlguts:
 /home/doom/End/Sys/Perl6/dev/rakudo/docs
 
+https://github.com/Raku/doc
+
+
 **** nqp, roast, rakudo
 
 https://github.com/rakudo/rakudo
