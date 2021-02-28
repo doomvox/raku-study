@@ -56,7 +56,7 @@ say "---";
     my @sm1 =  Set.^methods.>>name;       
 
     my $s2 = set 2, 4, 6;
-    say $s.^methods.>>name;
+    my @sm2 = $s.^methods.>>name;
 
 
 }
