@@ -91,3 +91,6 @@ say "---";
         say  "weirdzo count: ", @stuff.grep(/'Method+{is-nodal}.new'/).elems;
     }
 }
+
+IO.
+/home/doom/End/Cave/Perl6/Wall/raku-study/type.lst
