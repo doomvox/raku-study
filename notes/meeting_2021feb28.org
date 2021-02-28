@@ -15,7 +15,7 @@
 ** announcements
 SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
 https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
-** topics 
+** possible topics 
 *** steven_lembark
 **** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
 ***** slide21:  "unit sub MAIN { ..."  unit?
@@ -27,7 +27,6 @@ https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
 *** andrew shitov "Perl 6 at a Glance"
 **** https://andrewshitov.com/perl6-at-a-glance/
 **** https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf
-
 *** perl weekly challenge: 
 **** https://perlweeklychallenge.org/
 
