@@ -1,0 +1,330 @@
+Name 	Type 	Description
+Any 	class 	Thing/object
+Array 	class 	Sequence of itemized values
+Associative 	role 	Object that supports looking up values by key
+AST 	class 	Abstract representation of a piece of source code
+atomicint 	class 	Integer (native storage at the platform's atomic operation size)
+Attribute 	class 	Member variable
+Backtrace 	class 	Snapshot of the dynamic call stack
+Backtrace::Frame 	class 	Single frame of a Backtrace
+Bag 	class 	Immutable collection of distinct objects with integer weights
+Baggy 	role 	Collection of distinct weighted objects
+BagHash 	class 	Mutable collection of distinct objects with integer weights
+Blob 	role 	Immutable buffer for binary data ('Binary Large OBject')
+Block 	class 	Code object with its own lexical scope
+Bool 	enum 	Logical Boolean
+Buf 	role 	Mutable buffer for binary data
+Callable 	role 	Invocable code object
+CallFrame 	class 	Captures the current frame state
+Cancellation 	class 	Removal of a task from a Scheduler before normal completion
+Capture 	class 	Argument list suitable for passing to a Signature
+Channel 	class 	Thread-safe queue for sending values from producers to consumers
+Code 	class 	Code object
+Collation 	class 	Encapsulates instructions about how strings should be sorted
+Compiler 	class 	Information related to the compiler that is being used
+Complex 	class 	Complex number
+ComplexStr 	class 	Dual value complex number and string
+CompUnit 	class 	CompUnit
+CompUnit::PrecompilationRepository 	role 	CompUnit::PrecompilationRepository
+CompUnit::Repository 	role 	CompUnit::Repository
+CompUnit::Repository::FileSystem 	class 	CompUnit::Repository::FileSystem
+CompUnit::Repository::Installation 	class 	CompUnit::Repository::Installation
+Cool 	class 	Object that can be treated as both a string and number
+CurrentThreadScheduler 	class 	Scheduler that synchronously executes code on the current thread
+CX::Done 	class 	Done control exception
+CX::Emit 	class 	Emit control exception
+CX::Last 	class 	Last control exception
+CX::Next 	class 	Next control exception
+CX::Proceed 	class 	Proceed control exception
+CX::Redo 	class 	Redo control exception
+CX::Return 	class 	Return control exception
+CX::Succeed 	class 	Succeed control exception
+CX::Take 	class 	Take control exception
+CX::Warn 	class 	Control exception warning
+Date 	class 	Calendar date
+Dateish 	role 	Object that can be treated as a date
+DateTime 	class 	Calendar date with time
+Distribution 	role 	Distribution
+Distribution::Hash 	class 	Distribution::Hash
+Distribution::Locally 	class 	Distribution::Locally
+Distribution::Path 	class 	Distribution::Path
+Distribution::Resource 	class 	Every one of the resources installed with a distribution
+Distro 	class 	Distribution related information
+Duration 	class 	Length of time
+Encoding 	role 	Support for character encodings.
+Encoding::Registry 	class 	Management of available encodings
+Endian 	enum 	Indicate endianness (6.d, 2018.12 and later)
+Enumeration 	role 	Working with the role behind the enum type
+Exception 	class 	Anomalous event capable of interrupting normal control-flow
+Failure 	class 	Delayed exception
+FatRat 	class 	Rational number (arbitrary-precision)
+ForeignCode 	class 	Rakudo-specific class that wraps around code in other languages (generally NQP)
+Grammar 	class 	Formal grammar made up of named regexes
+Hash 	class 	Mapping from strings to itemized values
+HyperSeq 	class 	An object for performing batches of work in parallel with ordered output
+HyperWhatever 	class 	Placeholder for multiple unspecified values/arguments
+Instant 	class 	Specific moment in time
+Int 	class 	Integer (arbitrary-precision)
+int 	class 	Native integer
+IntStr 	class 	Dual value integer and string
+IO 	role 	Input/output related routines
+IO::ArgFiles 	class 	Iterate over contents of files specified on command line
+IO::CatHandle 	class 	Use multiple IO handles as if they were one
+IO::Handle 	class 	Opened file or stream
+IO::Notification 	class 	Asynchronous notification for file and directory changes
+IO::Notification::Change 	class 	Changes in a file, produced by watch-file
+IO::Path 	class 	File or directory path
+IO::Path::Cygwin 	class 	IO::Path pre-loaded with IO::Spec::Cygwin
+IO::Path::Parts 	class 	IO::Path parts encapsulation
+IO::Path::QNX 	class 	IO::Path pre-loaded with IO::Spec::QNX
+IO::Path::Unix 	class 	IO::Path pre-loaded with IO::Spec::Unix
+IO::Path::Win32 	class 	IO::Path pre-loaded with IO::Spec::Win32
+IO::Pipe 	class 	Buffered inter-process string or binary stream
+IO::Socket 	role 	Network socket
+IO::Socket::Async 	class 	Asynchronous socket in TCP or UDP
+IO::Socket::Async::ListenSocket 	class 	A tap for listening TCP sockets
+IO::Socket::INET 	class 	TCP Socket
+IO::Spec 	class 	Platform specific operations on file and directory paths
+IO::Spec::Cygwin 	class 	Platform specific operations on file and directory paths for Cygwin
+IO::Spec::QNX 	class 	Platform specific operations on file and directory paths QNX
+IO::Spec::Unix 	class 	Platform specific operations on file and directory paths for POSIX
+IO::Spec::Win32 	class 	Platform specific operations on file and directory paths for Windows
+IO::Special 	class 	Path to special I/O device
+Iterable 	role 	Interface for container objects that can be iterated over
+Iterator 	role 	Generic API for producing a sequence of values
+Junction 	class 	Logical superposition of values
+Kernel 	class 	Kernel related information
+Label 	class 	Tagged location in the source code
+List 	class 	Sequence of values
+Lock 	class 	A low-level, re-entrant, mutual exclusion lock
+Lock::Async 	class 	A non-blocking, non-re-entrant, mutual exclusion lock
+Macro 	class 	Compile-time routine
+Map 	class 	Immutable mapping from strings to values
+Match 	class 	Result of a successful regex match
+Metamodel::AttributeContainer 	role 	Metaobject that can hold attributes
+Metamodel::C3MRO 	role 	Metaobject that supports the C3 method resolution order
+Metamodel::ClassHOW 	class 	Metaobject representing a Raku class.
+Metamodel::ConcreteRoleHOW 	class 	Provides an implementation of a concrete instance of a role
+Metamodel::CurriedRoleHOW 	class 	Support for parameterized roles that have not been instantiated
+Metamodel::DefiniteHOW 	class 	Metaobject for type definiteness
+Metamodel::Documenting 	role 	Metarole for documenting types.
+Metamodel::EnumHOW 	class 	Metaobject representing a Raku enum.
+Metamodel::Finalization 	role 	Metaobject supporting object finalization
+Metamodel::MethodContainer 	role 	Metaobject that supports storing and introspecting methods
+Metamodel::Mixins 	role 	Metaobject for generating mixins
+Metamodel::MROBasedMethodDispatch 	role 	Metaobject that supports resolving inherited methods
+Metamodel::MultipleInheritance 	role 	Metaobject that supports multiple inheritance
+Metamodel::Naming 	role 	Metaobject that supports named types
+Metamodel::PackageHOW 	class 	Metaobject representing a Raku package.
+Metamodel::ParametricRoleGroupHOW 	role 	Represents a group of roles with different parameterizations
+Metamodel::ParametricRoleHOW 	role 	Represents a non-instantiated, parameterized, role.
+Metamodel::Primitives 	class 	Metaobject that supports low-level type operations
+Metamodel::PrivateMethodContainer 	role 	Metaobject that supports private methods
+Metamodel::RoleContainer 	role 	Metaobject that supports holding/containing roles
+Metamodel::RolePunning 	role 	Metaobject that supports punning of roles.
+Metamodel::Stashing 	role 	Metarole for type stashes
+Metamodel::Trusting 	role 	Metaobject that supports trust relations between types
+Metamodel::Versioning 	role 	Metaobjects that support versioning
+Method 	class 	Member function
+Mix 	class 	Immutable collection of distinct objects with Real weights
+MixHash 	class 	Mutable collection of distinct objects with Real weights
+Mixy 	role 	Collection of distinct objects with Real weights
+Mu 	class 	The root of the Raku type hierarchy.
+NFC 	class 	Codepoint string in Normal Form C (composed)
+NFD 	class 	Codepoint string in Normal Form D (decomposed)
+NFKC 	class 	Codepoint string in Normal Form KC (compatibility composed)
+NFKD 	class 	Codepoint string in Normal Form KD (compatibility decomposed)
+Nil 	class 	Absence of a value or a benign failure
+Num 	class 	Floating-point number
+Numeric 	class 	Number or object that can act as a number
+NumStr 	class 	Dual value floating-point number and string
+ObjAt 	class 	Unique identification for an object
+Order 	enum 	Human readable form for comparison operators.
+Pair 	class 	Key/value pair
+Parameter 	class 	Element of a Signature
+Perl 	class 	Perl related information
+Pod::Block 	class 	Block in a Pod document
+Pod::Block::Code 	class 	Verbatim code block in a Pod document
+Pod::Block::Comment 	class 	Comment in a Pod document
+Pod::Block::Declarator 	class 	Declarator block in a Pod document
+Pod::Block::Named 	class 	Named block in a Pod document
+Pod::Block::Para 	class 	Paragraph in a Pod document
+Pod::Block::Table 	class 	Table in a Pod document
+Pod::Defn 	class 	Pod definition list
+Pod::FormattingCode 	class 	Pod formatting code
+Pod::Heading 	class 	Heading in a Pod document
+Pod::Item 	class 	Item in a Pod enumeration list
+Positional 	role 	Object that supports looking up values by index
+PositionalBindFailover 	role 	Failover for binding to a Positional
+PredictiveIterator 	role 	Iterators that can predict number of values
+Proc 	class 	Running process (filehandle-based interface)
+Proc::Async 	class 	Running process (asynchronous interface)
+Promise 	class 	Status/result of an asynchronous computation
+Proxy 	class 	Item container with custom storage and retrieval
+PseudoStash 	class 	Stash type for pseudo-packages
+QuantHash 	role 	Object hashes with a limitation on the type of values
+RaceSeq 	class 	Performs batches of work in parallel without respecting original order.
+Raku 	class 	Raku related information
+Range 	class 	Interval of ordered values
+Rat 	class 	Rational number (limited-precision)
+Rational 	role 	Number stored as numerator and denominator
+RatStr 	class 	Dual value rational number and string
+Real 	role 	Non-complex number
+Regex 	class 	String pattern
+Routine 	class 	Code object with its own lexical scope and return handling
+Routine::WrapHandle 	class 	Holds all information needed to unwrap a wrapped routine.
+Scalar 	class 	A mostly transparent container used for indirections
+Scheduler 	role 	Scheme for automatically assigning tasks to threads
+Semaphore 	class 	Control access to shared resources by multiple threads
+Seq 	class 	An iterable, potentially lazy sequence of values
+Sequence 	role 	Common methods of sequences
+Set 	class 	Immutable collection of distinct objects
+SetHash 	class 	Mutable collection of distinct objects
+Setty 	role 	Collection of distinct objects
+Signature 	class 	Parameter list pattern
+Slip 	class 	A kind of List that automatically flattens into an outer container
+Stash 	class 	Table for "our"-scoped symbols
+Str 	class 	String of characters
+StrDistance 	class 	Contains the result of a string transformation.
+Stringy 	role 	String or object that can act as a string
+Sub 	class 	Subroutine
+Submethod 	class 	Member function that is not inherited by subclasses
+Supplier 	class 	Live Supply factory
+Supplier::Preserving 	class 	Cached live Supply factory
+Supply 	class 	Asynchronous data stream with multiple subscribers
+Systemic 	role 	Information related to the build system
+Tap 	class 	Subscription to a Supply
+Telemetry 	class 	Collect performance state for analysis
+Telemetry::Instrument::Thread 	class 	Instrument for collecting Thread data
+Telemetry::Instrument::ThreadPool 	class 	Instrument for collecting ThreadPoolScheduler data
+Telemetry::Instrument::Usage 	class 	Instrument for collecting getrusage data
+Telemetry::Period 	class 	Performance data over a period
+Telemetry::Sampler 	class 	Telemetry instrument pod
+Test 	module 	Writing and running tests
+Thread 	class 	Concurrent execution of code (low-level)
+ThreadPoolScheduler 	class 	Scheduler that distributes work among a pool of threads
+UInt 	class 	Unsigned integer (arbitrary-precision)
+Uni 	class 	A string of Unicode codepoints
+utf8 	class 	Mutable uint8 buffer for utf8 binary data
+ValueObjAt 	class 	Unique identification for value types
+Variable 	class 	Object representation of a variable for use in traits
+Version 	class 	Module version descriptor
+VM 	class 	Raku Virtual Machine related information
+Whatever 	class 	Placeholder for the value of an unspecified argument
+WhateverCode 	class 	Code object constructed by Whatever-currying
+X::AdHoc 	class 	Error with a custom message
+X::Anon::Augment 	class 	Compilation error due to augmenting an anonymous package
+X::Anon::Multi 	class 	Compilation error due to declaring an anonymous multi
+X::Assignment::RO 	class 	Exception thrown when trying to assign to something read-only
+X::Attribute::NoPackage 	class 	Compilation error due to declaring an attribute outside of a package
+X::Attribute::Package 	class 	Compilation error due to declaring an attribute in an ineligible package
+X::Attribute::Required 	class 	Compilation error due to not declaring an attribute with the is required trait
+X::Attribute::Undeclared 	class 	Compilation error due to an undeclared attribute
+X::Augment::NoSuchType 	class 	Compilation error due to augmenting a non-existing type
+X::Bind 	class 	Error due to binding to something that is not a variable or container
+X::Bind::NativeType 	class 	Compilation error due to binding to a natively typed variable
+X::Bind::Slice 	class 	Error due to binding to a slice
+X::Caller::NotDynamic 	class 	Error while trying to access a non dynamic variable through CALLER
+X::Cannot::Lazy 	class 	Error due to inappropriate usage of a lazy list
+X::Channel::ReceiveOnClosed 	class 	Error due to calling receive on a closed channel
+X::Channel::SendOnClosed 	class 	Error due to calling send on a closed channel
+X::Comp 	role 	Common role for compile-time errors
+X::Composition::NotComposable 	class 	Compilation error due to composing an ineligible type
+X::Constructor::Positional 	class 	Error due to passing positional arguments to a default constructor
+X::Control 	class 	Role for control exceptions
+X::ControlFlow 	class 	Error due to calling a loop control command in an ineligible scope
+X::ControlFlow::Return 	class 	Error due to calling return outside a routine
+X::DateTime::TimezoneClash 	class 	Error due to using both time zone offset and :timezone
+X::Declaration::Scope 	class 	Compilation error due to a declaration with an ineligible scope
+X::Declaration::Scope::Multi 	class 	Compilation error due to declaring a multi with an ineligible scope
+X::Does::TypeObject 	class 	Error due to mixing into a type object
+X::Dynamic::NotFound 	class 	Runtime error thrown when a dynamic variable does not exist
+X::Eval::NoSuchLang 	class 	Error due to specifying an unknown language for EVAL
+X::Export::NameClash 	class 	Compilation error due to exporting the same symbol twice
+X::Inheritance::NotComposed 	class 	Error due to inheriting from a type that's not composed yet
+X::Inheritance::Unsupported 	class 	Compilation error due to inheriting from an ineligible type
+X::IO 	role 	IO related error
+X::IO::Chdir 	class 	Error while trying to change the working directory
+X::IO::Chmod 	class 	Error while trying to change file permissions
+X::IO::Copy 	class 	Error while trying to copy a file
+X::IO::Cwd 	class 	Error while trying to determine the current working directory
+X::IO::Dir 	class 	Error while trying to get a directory's contents
+X::IO::DoesNotExist 	class 	Error while doing file tests on a non existing path
+X::IO::Link 	class 	Error while trying to create a link
+X::IO::Mkdir 	class 	Error while trying to create a directory
+X::IO::Move 	class 	Error while trying to move a file
+X::IO::Rename 	class 	Error while trying to rename a file or directory
+X::IO::Rmdir 	class 	Error while trying to remove a directory
+X::IO::Symlink 	class 	Error while trying to create a symbolic link
+X::IO::Unlink 	class 	Error while trying to remove a file
+X::Method::InvalidQualifier 	class 	Error due to calling a qualified method from an ineligible class
+X::Method::NotFound 	class 	Error due to calling a method that isn't there
+X::Method::Private::Permission 	class 	Compilation error due to calling a private method without permission
+X::Method::Private::Unqualified 	class 	Compilation error due to an unqualified private method call
+X::Mixin::NotComposable 	class 	Error due to using an ineligible type as a mixin
+X::NoDispatcher 	class 	Error due to calling a dispatch command in an ineligible scope
+X::Numeric::Real 	class 	Error while trying to coerce a number to a Real type
+X::NYI 	class 	Error due to use of an unimplemented feature
+X::Obsolete 	class 	Compilation error due to use of obsolete syntax
+X::OS 	role 	Error reported by the operating system
+X::OutOfRange 	class 	Error due to indexing outside of an allowed range
+X::Package::Stubbed 	class 	Compilation error due to a stubbed package that is never defined
+X::Parameter::Default 	class 	Compilation error due to an unallowed default value in a signature
+X::Parameter::MultipleTypeConstraints 	class 	Compilation error due to a parameter with multiple type constraints
+X::Parameter::Placeholder 	class 	Compilation error due to an unallowed placeholder in a signature
+X::Parameter::Twigil 	class 	Compilation error due to an unallowed twigil in a signature
+X::Parameter::WrongOrder 	class 	Compilation error due to passing parameters in the wrong order
+X::Phaser::Multiple 	class 	Compilation error due to multiple phasers of the same type
+X::Phaser::PrePost 	class 	Error due to a false return value of a PRE/POST phaser
+X::Placeholder::Block 	class 	Compilation error due to a placeholder in an ineligible block
+X::Placeholder::Mainline 	class 	Compilation error due to a placeholder in the mainline
+X::Pod 	role 	Pod related error
+X::Proc::Async 	role 	Exception thrown by Proc::Async
+X::Proc::Async::AlreadyStarted 	class 	Error due to calling start on an already started Proc::Async object
+X::Proc::Async::BindOrUse 	class 	Error due to trying to bind a handle that is also used
+X::Proc::Async::CharsOrBytes 	class 	Error due to tapping the same Proc::Async stream for both text and binary reading
+X::Proc::Async::MustBeStarted 	class 	Error due to interacting with a Proc::Async stream before spawning its process
+X::Proc::Async::OpenForWriting 	class 	Error due to writing to a read-only Proc::Async object
+X::Proc::Async::TapBeforeSpawn 	class 	Error due to tapping a Proc::Async stream after spawning its process
+X::Proc::Unsuccessful 	class 	Exception thrown if a Proc object is sunk after the process it ran exited unsuccessfully
+X::Promise::CauseOnlyValidOnBroken 	class 	Error due to asking why an unbroken promise has been broken.
+X::Promise::Vowed 	class 	Error due to directly trying to keep/break a vowed promise.
+X::Redeclaration 	class 	Compilation error due to declaring an already declared symbol
+X::Role::Initialization 	class 	Error due to passing an initialization value to an ineligible role
+X::Scheduler::CueInNaNSeconds 	class 	Error caused by passing NaN to Scheduler.cue as :at, :in, or :every
+X::Seq::Consumed 	class 	Error due to trying to reuse a consumed sequence
+X::Sequence::Deduction 	class 	Error due to constructing a sequence from ineligible input
+X::Signature::NameClash 	class 	Compilation error due to two named parameters with the same name
+X::Signature::Placeholder 	class 	Compilation error due to placeholders in a block with a signature
+X::Str::Numeric 	class 	Error while trying to coerce a string to a number
+X::StubCode 	class 	Runtime error due to execution of stub code
+X::Syntax 	role 	Syntax error thrown by the compiler
+X::Syntax::Augment::WithoutMonkeyTyping 	class 	Compilation error due to augmenting a type without the MONKEY-TYPING pragma
+X::Syntax::Comment::Embedded 	class 	Compilation error due to a malformed inline comment
+X::Syntax::Confused 	class 	Compilation error due to unrecognized syntax
+X::Syntax::InfixInTermPosition 	class 	Compilation error due to an infix in term position
+X::Syntax::Malformed 	class 	Compilation error due to a malformed construct (usually a declarator)
+X::Syntax::Missing 	class 	Compilation error due to a missing piece of syntax
+X::Syntax::NegatedPair 	class 	Compilation error due to passing an argument to a negated colonpair
+X::Syntax::NoSelf 	class 	Compilation error due to implicitly using a self that is not there
+X::Syntax::Number::RadixOutOfRange 	class 	Compilation error due to an unallowed radix in a number literal
+X::Syntax::P5 	class 	Compilation error due to use of Perl-only syntax
+X::Syntax::Perl5Var 	class 	Compilation error due to use of Perl-only default variables
+X::Syntax::Regex::Adverb 	class 	Compilation error due to an unrecognized regex adverb
+X::Syntax::Regex::SolitaryQuantifier 	class 	Compilation error due to a regex quantifier without preceding atom
+X::Syntax::Reserved 	class 	Compilation error due to use of syntax reserved for future use
+X::Syntax::Self::WithoutObject 	class 	Compilation error due to invoking self in an ineligible scope
+X::Syntax::Signature::InvocantMarker 	class 	Compilation error due to a misplaced invocant marker in a signature
+X::Syntax::Term::MissingInitializer 	class 	Compilation error due to declaring a term without initialization
+X::Syntax::UnlessElse 	class 	Compilation error due to an unless clause followed by else
+X::Syntax::Variable::Match 	class 	Compilation error due to declaring a match variable
+X::Syntax::Variable::Numeric 	class 	Compilation error due to declaring a numeric symbol
+X::Syntax::Variable::Twigil 	class 	Compilation error due to an unallowed twigil in a declaration
+X::Temporal 	role 	Error related to DateTime or Date
+X::Temporal::InvalidFormat 	class 	Error due to using an invalid format when creating a DateTime or Date
+X::TypeCheck 	class 	Error due to a failed type check
+X::TypeCheck::Assignment 	class 	Error due to a failed type check during assignment
+X::TypeCheck::Binding 	class 	Error due to a failed type check during binding
+X::TypeCheck::Return 	class 	Error due to a failed typecheck during return
+X::TypeCheck::Splice 	class 	Compilation error due to a macro trying to splice a non-AST value
+X::Undeclared 	class 	Compilation error due to an undeclared symbol
