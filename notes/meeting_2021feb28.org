@@ -45,7 +45,7 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 
 
 
-***** equivalent of man perlguts?
+***** This seems to be the developer-oriented docs, the equivalent of man perlguts:
 /home/doom/End/Sys/Perl6/dev/rakudo/docs
 **** Q: is there a spec for Raku?  
 ***** not really: various references point at the test suite as the "spec": 
