@@ -113,7 +113,7 @@ use v6;
                     { say "skipping $c because it's fuggheaded"; }
                     when X::NoSuchSymbol 
                     { say "Yaddah: X::NoSuchSymbol"; }
-                  };
+                  }
         }
         say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
     }
