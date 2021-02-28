@@ -99,7 +99,12 @@ say "---";
 {
     say "===Y===";
     my $type_list_file = "/home/doom/End/Cave/Perl6/Wall/raku-study/type.lst";
-    my @types = $type_list_file.IO.lines;
+    my @lines = $type_list_file.IO.lines;
+
+    for @lines -> $l {
+#        $l.split(
+        my $c = $l.split: /\s+/
+        }
 
     for @types -> $c {
         say "c: $c";
