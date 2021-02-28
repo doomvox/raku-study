@@ -108,7 +108,7 @@ say "---";
         my @other;
         try {
             @other = ::($c).^methods>>.gist;
-            say @other.elems;
+            say "XXX: ", @other.elems;
             CATCH { when X::Method::NotFound
                     {say "skipping $c because it's fuggheaded"}
                   };
