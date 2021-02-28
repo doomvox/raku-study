@@ -88,6 +88,6 @@ say "---";
     for @classes -> $c {
         say "c: $c";
         my @stuff =  EVAL "$c.^methods>>.gist";
-        say @stuff[0];
+        say @stuff[1];
     }
 }
