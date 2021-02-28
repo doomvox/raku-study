@@ -69,7 +69,9 @@ $obj.^can("bark")
 ******* https://raku.org/specification/
 ******** 6.c spec: https://github.com/Raku/roast/tree/6.c-errata
 ******** dev spec: https://github.com/Raku/roast
-****** 
+****** Places ".^methods" are mentioned in docs:
+https://docs.raku.org/type/Metamodel::ClassHOW
+say Int.^methods(:all).pick.name;         # OUTPUT: «random Int method n
 
 
 
