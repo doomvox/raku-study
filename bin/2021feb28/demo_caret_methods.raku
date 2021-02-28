@@ -6,6 +6,7 @@ use v6;
 
 .say for Str.^methods;
 
+say "---";
 my @method_objects = Str.^methods;
 say @method_objects[0].WHAT;
 
