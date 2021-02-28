@@ -134,3 +134,4 @@ say $o.^methods(:local)».name.join(', ');
 
 **** parsing files like this:
 ***** https://github.com/jpaulm/parsefbp/blob/master/test/data/DrawFBP_output.fbp
+
