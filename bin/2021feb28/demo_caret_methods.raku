@@ -102,11 +102,7 @@ say "---";
     my @lines = $type_list_file.IO.lines;
 
     for @lines -> $l {
-#        $l.split(
-        my $c = $l.split: /\s+/
-        }
-
-    for @types -> $c {
+        my $c = $l.split( /\s+/ ).[0];
         say "c: $c";
         my @other = ::($c).^methods>>.gist;
         say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
