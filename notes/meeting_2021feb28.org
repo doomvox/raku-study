@@ -83,6 +83,28 @@ my Programmer $o .= new;
 ...
 say $o.^methods(:local)».name.join(', ');
 ******* https://docs.raku.org/type/ForeignCode
+******* grepping the src turns up a few more:
+find . -type f -exec grep --color -nH -e '\^method' {} +
+./doc/Language/5to6-perlvar.pod6:231:exact running instance, for more information use <.^methods> to introspect all the above.
+./doc/Language/classtut.pod6:811:say $o.^methods(:local)».name.join(', ');
+./doc/Language/classtut.pod6:839:X<|^methods>
+./doc/Language/classtut.pod6:840:C<$o.^methods(:local)> produces a list of L<Method|/type/Method>s that can be
+./doc/Language/classtut.pod6:860:value is. With C<.^methods>, you can learn what you can do with the class.
+./doc/Language/operators.pod6:804:A X<metamethod call>. C<$invocant.^method> calls C<method> on C<$invocant>'s
+./doc/Language/rb-nutshell.pod6:1034:$person.^methods;          # Raku, using .^ syntax to access metamethods
+./doc/Language/structures.pod6:475:In this case we are using the I<syntactic sugar> for C<HOW.method>, C<^method>,
+./doc/Type/ForeignCode.pod6:20:say $_.name ~ ' → ' ~ $_.^name for &does-nothing.^methods;
+./doc/Type/Metamodel/ClassHOW.pod6:38:    say Int.^methods(:all).pick.name;         # OUTPUT: «random Int method name␤»
+./doc/Type/Metamodel/MethodContainer.pod6:15:    say .name for Int.^methods(:all);
+./doc/Type/Metamodel/MethodContainer.pod6:44:    say A.^methods();                   # x
+./doc/Type/Metamodel/MethodContainer.pod6:45:    say A.^methods(:all);               # x infinite defined ...
+./doc/Type/Signature.pod6:119:    say Foo.^methods.first(*.name eq 'bar').signature ~~ :($: *%) ;
+./doc/Type/Stash.pod6:38:class itself, via C<.can> and C<.^methods>.
+./util/list-missing-methods.p6:119:    try { ::($type-name).^methods;
+./util/list-missing-methods.p6:127:    my %methods := (::($type-name).^methods(:local).classify(
+./util/missing-methods.p6:42:    return $type-name.^methods(:local);
+
+
 ****** There are no places ".^method_names" is mentioned in the docs.
 *** promises and threads
 https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
