@@ -19,7 +19,6 @@ https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
 *** steven_lembark
 **** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
 ***** slide21:  "unit sub MAIN { ..."  unit?
-
 **** https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql
 
 *** adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
