@@ -127,3 +127,7 @@ say $o.^methods(:local)».name.join(', ');
 *** interested in flow-based programming
 *** indefinite numbers of readers/writers
 *** currently favoring perl5 for it
+** bruce gray links
+**** http://rosettacode.org/wiki/Padovan_sequence 
+**** http://rosettacode.org/wiki/Modified_random_distribution 
+**** bruce gray has done some work with a parser for a flow based language
