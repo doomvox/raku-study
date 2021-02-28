@@ -110,9 +110,9 @@ use v6;
             say "meth: ", @meth;
             @other = @meth>>.gist;
             CATCH { when X::Method::NotFound
-                    { say "skipping $c because it's fuggheaded" }
+                    { say "skipping $c because it's fuggheaded"; }
                     when X::NoSuchSymbol 
-                    { say "Yaddah: X::NoSuchSymbol"; }
+                    { say "Yaddah: X::NoSuchSymbol" }
                   };
         }
         say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
