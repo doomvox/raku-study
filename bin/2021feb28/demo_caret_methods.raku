@@ -114,12 +114,14 @@ use v6;
                       when X::NoSuchSymbol 
                       { say "Yaddah: X::NoSuchSymbol"; }
                       when X::Parameter::InvalidConcreteness 
-                      if $name eq 'Failure' {
-                          return False;
+                      {
+                          if $name eq 'Failure' {
+                              # return False;
+                          }
+                          else {
+                              warn;
+                          }
                       }
-                      else {
-                          warn;
-                      } 
                   };
         }
         say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
