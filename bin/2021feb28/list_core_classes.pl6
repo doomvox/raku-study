@@ -11,9 +11,15 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 use Symbol::Scan;
 
-my @pairs      = SymbolScan.list_core_class_pairs;
+# my @pairs      = SymbolScan.list_core_class_pairs;
 my @classes    = SymbolScan.list_core_class_names;
-my @class_objs = SymbolScan.list_core_class_objects;
+# my @class_objs = SymbolScan.list_core_class_objects;
+
+say "count of core classes: ", @classes.elems;
+
+for @classes -> $c {
+    say $c;
+}
 
 
 
