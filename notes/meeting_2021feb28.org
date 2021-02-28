@@ -70,10 +70,14 @@ $obj.^can("bark")
 ******** 6.c spec: https://github.com/Raku/roast/tree/6.c-errata
 ******** dev spec: https://github.com/Raku/roast
 ****** Places ".^methods" are mentioned in docs:
-https://docs.raku.org/type/Metamodel::ClassHOW
+******* https://docs.raku.org/type/Metamodel::ClassHOW
 say Int.^methods(:all).pick.name;         # OUTPUT: «random Int method n
 
+******* https://docs.raku.org/type/Metamodel::ClassHOW#(Metamodel::MethodContainer)_method_methods
 
+Returns a list of public methods available on the class (which includes methods from superclasses and roles). 
+
+******** Note: there is no mention of .^method_names on this page
 
 
 *** promises and threads
