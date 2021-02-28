@@ -30,12 +30,15 @@ This seems to be the developer-oriented docs, the equivalent of man perlguts:
 
 **** rakudo 
 https://github.com/rakudo/rakudo
+the leading implementation of Raku
 
 **** nqp
+https://github.com/Raku/nqp
+"not quite perl" minimal sub-set of Raku that compiles the rest
 
 **** roast
 test suite and effective specs
-
+https://github.com/Raku/roast
 **** rakudo, user-level docs
 https://github.com/Raku/doc
 
