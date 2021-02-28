@@ -105,7 +105,10 @@ say "---";
     for @lines -> $l {
         my $c = $l.split( /\s+/ ).[0];
         say "c: $c";
-        my @other = ::($c).^methods>>.gist;
+        my @other;
+        try {
+            @other = ::($c).^methods>>.gist;
+        }
         say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
     }
 }
