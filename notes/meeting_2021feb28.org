@@ -3,6 +3,12 @@
 *** plan stuff
 *** ask for ideas
 *** stall until end of meeting
+** usual stuff
+*** we use a github project for sharing demo code and so on:
+**** meeting notes (this file)
+***** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021feb28.org
+**** demo scripts
+***** https://github.com/doomvox/raku-study/tree/main/bin/2021feb28
 ** announcements
 SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
 https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
