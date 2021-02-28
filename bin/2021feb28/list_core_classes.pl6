@@ -11,13 +11,13 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 use Symbol::Scan;
 
-# my @pairs      = SymbolScan.list_core_class_pairs;
-my @classes    = SymbolScan.list_core_class_names;
+my @pairs      = SymbolScan.list_core_class_pairs;
+# my @classes    = SymbolScan.list_core_class_names;
 # my @class_objs = SymbolScan.list_core_class_objects;
 
 say "count of core classes: ", @classes.elems;
 
-for @classes.sort -> $c {
+for @pairs.sort({ $^a.[0] cmp $^b.[0] }) -> $c {
 #    say $c;
     my $obj = $c.new;
     say $obj;
