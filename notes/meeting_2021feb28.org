@@ -23,9 +23,9 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 *** perl weekly challenge: 
 **** https://perlweeklychallenge.org/
 
-*** how is Raku code organized (what's the "man perlguts"?)
+*** how is Raku code organized?
 **** rakudo/docs
-This seems to be the developer-oriented docs, the equivalent of man perlguts:
+The developer-oriented docs (the equivalent of man perlguts)
 /home/doom/End/Sys/Perl6/dev/rakudo/docs
 
 **** roast
