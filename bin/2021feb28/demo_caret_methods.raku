@@ -83,12 +83,12 @@ say "---";
 
 {
     say "===X===";
-    use MONKEY;
+#    use MONKEY;
     my @classes = < Set Date Str >;
     for @classes -> $c {
         say "c: $c";
-        my @stuff =  EVAL "$c.^methods>>.gist";
-        say  "weirdzo count: ", @stuff.grep(/'Method+{is-nodal}.new'/).elems;
+#         my @stuff =  EVAL "$c.^methods>>.gist";
+#         say  "weirdzo count: ", @stuff.grep(/'Method+{is-nodal}.new'/).elems;
 
         my @other = ::($c).^methods>>.gist;
         say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
