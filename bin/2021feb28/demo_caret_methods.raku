@@ -87,9 +87,6 @@ say "---";
     my @classes = < Set Date Str >;
     for @classes -> $c {
         say "c: $c";
-        my @method_names = EVAL "$c.^methods";
-        say @method_names;
-        @method_names.grep(/'Method+{is-nodal}.new'/)
-
+        say EVAL "$c.^methods";
     }
 }
