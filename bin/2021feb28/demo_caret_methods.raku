@@ -6,8 +6,10 @@ use v6;
 
 .say for Str.^methods;       ##  the caret stuff means this is okay
 
-.say for Str.HOW.methods;
+## that's a short hand for this:
+## .say for Str.HOW.methods;
 
+## why are other introspectors upper case?
 .say for Str.WHAT;           ## b.g.:  uppercase are alerts, something funny if you do this
 
 # design principle:  evil (including EVAL) should be greppable
