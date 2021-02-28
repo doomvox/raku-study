@@ -6,6 +6,9 @@ use v6;
 
 .say for Str.^methods;
 
+.say for Str.HOW.methods;
+.say for Str.WHAT;
+
 say "---";
 my @method_objects = Str.^methods;
 say @method_objects[0].WHAT;  # (Submethod)
