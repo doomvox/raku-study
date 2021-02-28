@@ -85,16 +85,15 @@ my Programmer $o .= new;
 say $o.^methods(:local)».name.join(', ');
 ******** https://docs.raku.org/type/ForeignCode
 ******* found grepping the src for the docs: find . -type f -exec grep --color -nH -e '\^method' {} +
-******* https://docs.raku.org/language/5to6-perlvar
-******* Language/classtut
-******* Language/operators
-******* Language/rb-nutshell
-******* Language/structures
-******* Type/ForeignCode
-******* Type/Metamodel/MethodContainer
-******* Type/Signature
-******* Type/Stash
-
+******** https://docs.raku.org/language/5to6-perlvar
+******** Language/classtut
+******** Language/operators
+******** Language/rb-nutshell
+******** Language/structures
+******** Type/ForeignCode
+******** Type/Metamodel/MethodContainer
+******** Type/Signature
+******** Type/Stash
 ****** There are no places ".^method_names" is mentioned in the docs.
 *** promises and threads
 https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
