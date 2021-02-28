@@ -96,8 +96,40 @@ use v6;
 # }
 
 
+# {
+#     say "===Y===";
+#     my $type_list_file = "/home/doom/End/Cave/Perl6/Wall/raku-study/type.lst";
+#     my @lines = $type_list_file.IO.lines.skip;
+
+#     for @lines -> $l {
+#         my $c = $l.split( /\s+/ ).[0];
+#         say "c: $c";
+#         my @other;
+#         try {
+#             my @meth = ::($c).^methods;
+#             say "methodism: ", @meth;
+#             @other = @meth>>.gist;
+#             CATCH { when X::Method::NotFound
+#                     { say "skipping $c because it's fuggheaded"; }
+#                       when X::NoSuchSymbol 
+#                       { say "Yaddah: X::NoSuchSymbol"; }
+#                       when X::Parameter::InvalidConcreteness 
+#                       {
+#                           if $c eq 'Failure' {
+#                               # return False;
+#                           }
+#                           else {
+#                               warn;
+#                           }
+#                       }
+#                   };
+#         }
+#         say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
+#     }
+# }
+
 {
-    say "===Y===";
+    say "===W===";
     my $type_list_file = "/home/doom/End/Cave/Perl6/Wall/raku-study/type.lst";
     my @lines = $type_list_file.IO.lines.skip;
 
@@ -127,3 +159,4 @@ use v6;
         say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
     }
 }
+
