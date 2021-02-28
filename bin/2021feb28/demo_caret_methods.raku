@@ -108,6 +108,7 @@ say "---";
         my @other;
         try {
             @other = ::($c).^methods>>.gist;
+            CATCH { }
         }
         say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
     }
