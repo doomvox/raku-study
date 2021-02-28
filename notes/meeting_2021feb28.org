@@ -29,8 +29,6 @@ https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
 https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/Racing-to-writeness-to-wrongness-leads.md
 https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md
 
-
-
 *** how is Raku code organized?
 **** rakudo/docs
 The developer-oriented docs (the equivalent of man perlguts)
