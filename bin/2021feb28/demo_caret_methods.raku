@@ -62,6 +62,12 @@ say "---";
 
     say @sm2.Bag (-) @sm1.Bag;  #  Bag()
 
-    say @sm1.grep( /'Method+{is-nodal}'/ );
+    say @sm1.grep( /'Method+{is-nodal}'/ ); # ()
+
+    ## p5ishness
+    ## /\Qreally+not\E/
+
+    ## p5
+    ##       my $rule = qr{ stuff }xms;
 
 }
