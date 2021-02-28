@@ -24,4 +24,5 @@ use v6;
 # 'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
 
 
-## something like replace 
+## Something like replace \1:/usr/local/bin but only if it doesn't match already
+
