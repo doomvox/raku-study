@@ -27,3 +27,14 @@ for @pairs.sort({ $^a.[0] cmp $^b.[0] }) -> $pair {
     say "$new_class_instance_m_count $existing_object_m_count";
 
 }
+
+# count of core classes: 94
+# class: AST
+# 6 6
+# class: Allomorph
+# 79 79
+# class: Any
+# 92 92
+# class: Attribute
+# CAUGHT: Required named parameter 'name' not passed
+# This exception is not resumable
