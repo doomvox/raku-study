@@ -108,7 +108,9 @@ say "---";
         my @other;
         try {
             @other = ::($c).^methods>>.gist;
-            CATCH { when X::Method::NotFound }
+            CATCH { when X::Method::NotFound
+                    {say "skipping $c because it's fuggheaded}
+                  };
         }
         say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems;
     }
