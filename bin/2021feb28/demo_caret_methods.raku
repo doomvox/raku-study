@@ -62,6 +62,6 @@ say "---";
 
     say @sm2.Bag (-) @sm1.Bag;  #  Bag()
 
-    say @sm1.grep( /Method\+\{is\-nodal\}/ )
+    say @sm1.grep( /'Method+{is-nodal}'/ );
 
 }
