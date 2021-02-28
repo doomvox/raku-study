@@ -23,6 +23,14 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 *** perl weekly challenge: 
 **** https://perlweeklychallenge.org/
 
+*** promises and threads
+https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
+**** Jonathan Worthington
+https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/Racing-to-writeness-to-wrongness-leads.md
+https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md
+
+
+
 *** how is Raku code organized?
 **** rakudo/docs
 The developer-oriented docs (the equivalent of man perlguts)
@@ -95,8 +103,3 @@ say $o.^methods(:local)».name.join(', ');
 ******** Type/Signature
 ******** Type/Stash
 ****** There are no places ".^method_names" is mentioned in the docs.
-*** promises and threads
-https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
-**** Jonathan Worthington
-https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/Racing-to-writeness-to-wrongness-leads.md
-https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md
