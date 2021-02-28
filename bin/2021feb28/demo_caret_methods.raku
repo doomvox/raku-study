@@ -113,7 +113,6 @@ use v6;
                     { say "skipping $c because it's fuggheaded"; }
                       when X::NoSuchSymbol 
                       { say "Yaddah: X::NoSuchSymbol"; }
-
                       when X::Parameter::InvalidConcreteness 
                       if $name eq 'Failure' {
                           return False;
