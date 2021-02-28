@@ -87,6 +87,6 @@ say "---";
     my @classes = < Set Date Str >;
     for @classes -> $c {
         say "c: $c";
-        say EVAL "$c.^methods";
+        say EVAL ".name for $c.^methods";
     }
 }
