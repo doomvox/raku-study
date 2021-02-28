@@ -27,7 +27,6 @@ https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/
 
 Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin
 
-
 ***** yary hluchan's answer:
 s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ 
 
