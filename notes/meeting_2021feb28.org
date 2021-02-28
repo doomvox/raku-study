@@ -58,7 +58,7 @@ https://github.com/rakudo/rakudo/issues/4207
 ****** There are no tests of ^method_names but there are some for ^methods:
 ******* https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 ******* These are largely sanity tests written to avoid gratuitious breakage
-
+e.g. it checks that Any.^methods shows more than List.^methods
 *** promises and threads
 https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
 **** Jonathan Worthington
