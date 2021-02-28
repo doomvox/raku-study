@@ -92,5 +92,3 @@ say "---";
     }
 }
 
-IO.
-/home/doom/End/Cave/Perl6/Wall/raku-study/type.lst
