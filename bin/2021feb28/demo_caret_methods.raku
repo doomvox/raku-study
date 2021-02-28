@@ -11,6 +11,7 @@ use v6;
 
 ## why are other introspectors upper case?
 .say for Str.WHAT;           ## b.g.:  uppercase are alerts, something funny if you do this
+
 # design principle:  evil (including EVAL) should be greppable
 
 say "---";
