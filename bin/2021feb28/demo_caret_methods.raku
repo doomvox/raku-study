@@ -15,4 +15,4 @@ my $mo = @method_objects[0];
 say $mo.^methods.>>.name;
 say "---";
 my Str $a = "hey";
-
+say $a.^methods;
