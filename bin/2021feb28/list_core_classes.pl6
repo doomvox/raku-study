@@ -19,7 +19,6 @@ say "count of core classes: ", @classes.elems;
 
 for @pairs.sort({ $^a.[0] cmp $^b.[0] }) -> $pair {
     my ($class, $obj) = $pair.kv;
-    my $obj = $c.new;
-    say $obj;
+    say "class: $class";
 }
 
