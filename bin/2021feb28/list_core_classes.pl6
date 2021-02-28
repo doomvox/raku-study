@@ -17,8 +17,8 @@ my @pairs      = SymbolScan.list_core_class_pairs;
 
 say "count of core classes: ", @classes.elems;
 
-for @pairs.sort({ $^a.[0] cmp $^b.[0] }) -> $c {
-#    say $c;
+for @pairs.sort({ $^a.[0] cmp $^b.[0] }) -> $pair {
+    my ($class, $obj) = $pair.kv;
     my $obj = $c.new;
     say $obj;
 }
