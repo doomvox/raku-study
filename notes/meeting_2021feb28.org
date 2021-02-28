@@ -28,6 +28,10 @@ https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
 This seems to be the developer-oriented docs, the equivalent of man perlguts:
 /home/doom/End/Sys/Perl6/dev/rakudo/docs
 
+**** roast
+test suite and effective specs for Raku
+https://github.com/Raku/roast
+
 **** rakudo 
 https://github.com/rakudo/rakudo
 the leading implementation of Raku
@@ -36,9 +40,6 @@ the leading implementation of Raku
 https://github.com/Raku/nqp
 "not quite perl" minimal sub-set of Raku that compiles the rest
 
-**** roast
-test suite and effective specs
-https://github.com/Raku/roast
 **** rakudo, user-level docs
 https://github.com/Raku/doc
 
