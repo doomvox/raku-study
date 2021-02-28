@@ -21,7 +21,7 @@ for @pairs.sort({ $^a.[0] cmp $^b.[0] }) -> $pair {
     my ($class, $obj) = $pair.kv;
     say "class: $class";
     use MONKEY;
-    my $new_class_instance_m_count = EVAL { "$class.new.^methods.elems" };
+    my $new_class_instance_m_count = EVAL( "$class.new.^methods.elems" );
     my $existing_object_m_count = $obj.^methods.elems;
 #    say $class.new.^methods.elems, ' ',  $obj.^methods.elems;
     say "$new_class_instance_m_count $existing_object_m_count";
