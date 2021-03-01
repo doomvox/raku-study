@@ -213,4 +213,6 @@ use v6;
 
     say @names;
 
+    say @gists (-) @names;
+
 }
