@@ -138,7 +138,7 @@ use v6;
         my $c = $l.split( /\s+/ ).[0];
         my @other;
         try {
-            my @meth = ::($c).^methods;
+            my @meth = ::($c).^methods;   ## Note syntax for calling a method on class name in variable
             ## say "methodism: ", @meth;
             @other = @meth>>.gist;
             CATCH { when X::Method::NotFound
@@ -232,3 +232,6 @@ use v6;
     }
 
 }
+
+### alternate approach: scan through all classes looking for .name ne .gist cases?
+
