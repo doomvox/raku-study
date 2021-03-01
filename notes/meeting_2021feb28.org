@@ -33,8 +33,8 @@ s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~
 *** how is Raku code organized?
 **** rakudo/docs
 The developer-oriented docs (the equivalent of man perlguts)
-/home/doom/End/Sys/Perl6/dev/rakudo/docs
 ***** these are out-of-date: "architecture" talks about parrot
+***** /home/doom/End/Sys/Perl6/dev/rakudo/docs
 **** roast
 test suite and effective specs for Raku
 https://github.com/Raku/roast
@@ -49,8 +49,6 @@ https://github.com/Raku/nqp
 
 **** rakudo, user-level docs
 ***** https://github.com/Raku/doc
-***** As opposed to the user-level docs:
-https://github.com/Raku/doc/
 
 **** a github annoyance: they're pushing a new command-line interface "gh":
 #+BEGIN_SRC sh
