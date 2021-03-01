@@ -214,5 +214,7 @@ use v6;
     say @names;
 
     say @gists (-) @names;
+    # Set(Method+{is-nodal}.new Submethod+{is-hidden-from-backtrace}.new)
 
+    say @names (-) @gists;
 }
