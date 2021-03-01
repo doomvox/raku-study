@@ -154,7 +154,7 @@ use v6;
     .say for @results.sort({ +.[0] })
 }
 
-## The problem cases:
+## The 48 problem cases:
 
 # [1 Channel]
 # [1 IO::Handle]
