@@ -148,7 +148,7 @@ use v6;
                       { if $c eq 'Failure' { } else { warn; } }
                   };
         }
-        say  @other.grep(/'Method+{is-nodal}.new'/).elems, " ", $c;
+        printf "%10d %s\n",  @other.grep(/'Method+{is-nodal}.new'/).elems, " ", $c;
     }
 }
 
