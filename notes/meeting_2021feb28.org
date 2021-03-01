@@ -34,7 +34,7 @@ s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~
 **** rakudo/docs
 The developer-oriented docs (the equivalent of man perlguts)
 /home/doom/End/Sys/Perl6/dev/rakudo/docs
-
+***** these are out-of-date: "architecture" talks about parrot
 **** roast
 test suite and effective specs for Raku
 https://github.com/Raku/roast
