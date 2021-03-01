@@ -1,0 +1,20 @@
+* meeting notes Mar 07, 2021
+
+** possible topics (carried over from earlier meetings)
+*** Steven_lembark
+**** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
+***** slide21:  "unit sub MAIN { ..."  unit?
+**** https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql
+*** adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
+**** https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
+*** andrew shitov "Perl 6 at a Glance"
+**** https://andrewshitov.com/perl6-at-a-glance/
+**** https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf
+*** perl weekly challenge: 
+**** https://perlweeklychallenge.org/
+
+*** promises and threads
+**** https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
+**** Jonathan Worthington
+***** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/Racing-to-writeness-to-wrongness-leads.md
+***** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md
