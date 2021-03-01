@@ -221,7 +221,6 @@ use v6;
 
 
     for IO::Handle.^methods -> $mo {
-
         my $gist = $mo.gist;
         my $name = $mo.name;
 
