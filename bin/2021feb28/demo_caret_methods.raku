@@ -152,9 +152,8 @@ use v6;
 
 
         @results.push( [ @other.grep(/'Method+{is-nodal}.new'/).elems, $c ] );
-
-        printf "%10d %s\n",  
-
     }
+
+    .say for @results.sort(- *.[0])
 }
 
