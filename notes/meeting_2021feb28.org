@@ -49,6 +49,8 @@ https://github.com/Raku/nqp
 
 **** rakudo, user-level docs
 ***** https://github.com/Raku/doc
+***** As opposed to the user-level docs:
+https://github.com/Raku/doc/
 
 **** a github annoyance: they're pushing a new command-line interface "gh":
 #+BEGIN_SRC sh
@@ -58,8 +60,6 @@ gh repo clone Raku/doc
 git clone git@github.com:Raku/doc
 #+END_SRC
 
-***** As opposed to the user-level docs:
-https://github.com/Raku/doc/
 **** Q: is there a spec for Raku?  
 ***** not really: various references point at the test suite as the "spec": 
 https://github.com/Raku/roast
