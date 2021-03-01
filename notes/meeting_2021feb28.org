@@ -49,6 +49,8 @@ https://github.com/Raku/nqp
 
 **** rakudo, user-level docs
 ***** https://github.com/Raku/doc
+
+**** a github annoyance: they're pushing a new command-line interface "gh":
 #+BEGIN_SRC sh
 ## newfangled way they want to do it
 gh repo clone Raku/doc
