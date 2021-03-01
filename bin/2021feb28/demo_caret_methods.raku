@@ -204,3 +204,13 @@ use v6;
 # [75 Metamodel::PackageHOW]
 # [75 Metamodel::ParametricRoleGroupHOW]
 # [75 Metamodel::ParametricRoleHOW]
+
+{
+
+    say "===ZZZ===";
+    my @names = IO::Handle.^methods>>.name;
+    my @gists = IO::Handle.^methods>>.gist;
+
+    say @names;
+
+}
