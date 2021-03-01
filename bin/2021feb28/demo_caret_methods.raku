@@ -151,6 +151,6 @@ use v6;
         }
         @results.push(  @other.grep(/'Method+{is-nodal}.new'/).elems, $c  );
     }
-    .say for @results.sort( *.[0])
+    .say for @results.sort(- *.[0])
 }
 
