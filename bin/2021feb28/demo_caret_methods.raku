@@ -150,7 +150,7 @@ use v6;
                   };
         }
         @results.push(  @other.grep(/'Method+{is-nodal}.new'/).elems, $c  );
-        say @results[0];
+        say @results[0].raku;
         exit;
     }
     .say for @results.sort({ +.[0] })
