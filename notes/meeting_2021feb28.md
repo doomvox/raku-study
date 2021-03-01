@@ -2,76 +2,76 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org9bf388e">1. meeting notes Feb 28, 2021</a>
+<li><a href="#org244b145">1. meeting notes Feb 28, 2021</a>
 <ul>
-<li><a href="#org87b8682">1.1. plan</a>
+<li><a href="#org2ca9435">1.1. plan</a>
 <ul>
-<li><a href="#org2d6fcd3">1.1.1. plan stuff</a></li>
-<li><a href="#orgf335f05">1.1.2. ask for ideas</a></li>
-<li><a href="#orga380be4">1.1.3. stall until end of meeting</a></li>
+<li><a href="#org72ff233">1.1.1. plan stuff</a></li>
+<li><a href="#org4cbd3cf">1.1.2. ask for ideas</a></li>
+<li><a href="#org07fd21f">1.1.3. stall until end of meeting</a></li>
 </ul>
 </li>
-<li><a href="#org6d83795">1.2. usual stuff</a>
+<li><a href="#orgd27c372">1.2. usual stuff</a>
 <ul>
-<li><a href="#org55c97e0">1.2.1. we use a github project for sharing demo code and so on:</a></li>
-<li><a href="#orge74b2b1">1.2.2. this is a free form meeting without set agenda</a></li>
-<li><a href="#org7bda27a">1.2.3. typically I share screen and start talking to keep things moving</a></li>
-<li><a href="#orge05db82">1.2.4. if you've got anything you want to show, just say so, I'll unshare</a></li>
+<li><a href="#org39a8319">1.2.1. we use a github project for sharing demo code and so on:</a></li>
+<li><a href="#orgbf71911">1.2.2. this is a free form meeting without set agenda</a></li>
+<li><a href="#orgabdf006">1.2.3. typically I share screen and start talking to keep things moving</a></li>
+<li><a href="#orgecd56a2">1.2.4. if you've got anything you want to show, just say so, I'll unshare</a></li>
 </ul>
 </li>
-<li><a href="#orga84469f">1.3. announcements</a></li>
-<li><a href="#org3216a0b">1.4. possible topics</a>
+<li><a href="#orgcdf464b">1.3. announcements</a></li>
+<li><a href="#org0562f2e">1.4. possible topics</a>
 <ul>
-<li><a href="#orgfe0f578">1.4.1. lambert lum: regex problem from hell</a></li>
-<li><a href="#org3b19987">1.4.2. how is Raku code organized?</a></li>
-<li><a href="#orgd41971c">1.4.3. how would you get a list of all the built-in classes?</a></li>
+<li><a href="#org51c299a">1.4.1. lambert lum: regex problem from hell</a></li>
+<li><a href="#org9bee7d7">1.4.2. how is Raku code organized?</a></li>
+<li><a href="#orgda60aaf">1.4.3. how would you get a list of all the built-in classes?</a></li>
 </ul>
 </li>
-<li><a href="#orgdd04a06">1.5. david christensen</a>
+<li><a href="#org8cc4a18">1.5. david christensen</a>
 <ul>
-<li><a href="#orgc42949a">1.5.1. interested in flow-based programming</a></li>
-<li><a href="#orgec49e0f">1.5.2. indefinite numbers of readers/writers</a></li>
-<li><a href="#orgb32d37d">1.5.3. currently favoring perl5 for it</a></li>
+<li><a href="#orgee04cfd">1.5.1. interested in flow-based programming</a></li>
+<li><a href="#orgf1e1a3d">1.5.2. indefinite numbers of readers/writers</a></li>
+<li><a href="#orgdeadd9f">1.5.3. currently favoring perl5 for it</a></li>
 </ul>
 </li>
-<li><a href="#orgc44dd7b">1.6. bruce gray links</a></li>
+<li><a href="#org9ae950c">1.6. bruce gray links</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<a id="org9bf388e"></a>
+<a id="org244b145"></a>
 
 # meeting notes Feb 28, 2021
 
 
-<a id="org87b8682"></a>
+<a id="org2ca9435"></a>
 
 ## plan
 
 
-<a id="org2d6fcd3"></a>
+<a id="org72ff233"></a>
 
 ### plan stuff
 
 
-<a id="orgf335f05"></a>
+<a id="org4cbd3cf"></a>
 
 ### ask for ideas
 
 
-<a id="orga380be4"></a>
+<a id="org07fd21f"></a>
 
 ### stall until end of meeting
 
 
-<a id="org6d83795"></a>
+<a id="orgd27c372"></a>
 
 ## usual stuff
 
 
-<a id="org55c97e0"></a>
+<a id="org39a8319"></a>
 
 ### we use a github project for sharing demo code and so on:
 
@@ -88,22 +88,22 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021feb28>
 
 
-<a id="orge74b2b1"></a>
+<a id="orgbf71911"></a>
 
 ### this is a free form meeting without set agenda
 
 
-<a id="org7bda27a"></a>
+<a id="orgabdf006"></a>
 
 ### typically I share screen and start talking to keep things moving
 
 
-<a id="orge05db82"></a>
+<a id="orgecd56a2"></a>
 
 ### if you've got anything you want to show, just say so, I'll unshare
 
 
-<a id="orga84469f"></a>
+<a id="orgcdf464b"></a>
 
 ## announcements
 
@@ -111,12 +111,12 @@ SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
 <https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/>
 
 
-<a id="org3216a0b"></a>
+<a id="org0562f2e"></a>
 
 ## possible topics
 
 
-<a id="orgfe0f578"></a>
+<a id="org51c299a"></a>
 
 ### lambert lum: regex problem from hell
 
@@ -134,7 +134,7 @@ SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
         s~<sup>(?!(?:\s*[^:]\*:)\*/usr/local/bin(?:\s+|:|$))</sup>.\*\K$~:/usr/local/bin~ 
 
 
-<a id="org3b19987"></a>
+<a id="org9bee7d7"></a>
 
 ### how is Raku code organized?
 
@@ -256,7 +256,7 @@ SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
         5.  There are no places ".<sup>method</sup><sub>names</sub>" is mentioned in the docs.
 
 
-<a id="orgd41971c"></a>
+<a id="orgda60aaf"></a>
 
 ### how would you get a list of all the built-in classes?
 
@@ -269,27 +269,27 @@ SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
     2.  git@github.com:doomvox/perl6-symbol-scan.git
 
 
-<a id="orgdd04a06"></a>
+<a id="org8cc4a18"></a>
 
 ## david christensen
 
 
-<a id="orgc42949a"></a>
+<a id="orgee04cfd"></a>
 
 ### interested in flow-based programming
 
 
-<a id="orgec49e0f"></a>
+<a id="orgf1e1a3d"></a>
 
 ### indefinite numbers of readers/writers
 
 
-<a id="orgb32d37d"></a>
+<a id="orgdeadd9f"></a>
 
 ### currently favoring perl5 for it
 
 
-<a id="orgc44dd7b"></a>
+<a id="org9ae950c"></a>
 
 ## bruce gray links
 
