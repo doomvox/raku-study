@@ -148,7 +148,7 @@ use v6;
                       { if $c eq 'Failure' { } else { warn; } }
                   };
         }
-        say  "weirdzo count: ", @other.grep(/'Method+{is-nodal}.new'/).elems, " ", $c;
+        say  other.grep(/'Method+{is-nodal}.new'/).elems, " ", $c;
     }
 }
 
