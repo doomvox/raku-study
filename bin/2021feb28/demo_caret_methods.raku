@@ -149,7 +149,7 @@ use v6;
                       { if $c eq 'Failure' { } else { warn; } }
                   };
         }
-        @results.push( @other.grep(/'Method+{is-nodal}.new'/).elems, $c );
+        @results.push( [ @other.grep(/'Method+{is-nodal}.new'/).elems, $c ] );
     }
     .say for @results.sort({ +.[0] })
 }
