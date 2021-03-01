@@ -133,6 +133,7 @@ use v6;
     my $type_list_file = "/home/doom/End/Cave/Perl6/Wall/raku-study/type.lst";
     my @lines = $type_list_file.IO.lines.skip;
 
+    my @results;
     for @lines -> $l {
         my $c = $l.split( /\s+/ ).[0];
         my @other;
@@ -148,7 +149,12 @@ use v6;
                       { if $c eq 'Failure' { } else { warn; } }
                   };
         }
-        printf "%10d %s\n",  @other.grep(/'Method+{is-nodal}.new'/).elems,  $c;
+
+
+        @results.push( [ @other.grep(/'Method+{is-nodal}.new'/).elems, $c ] );
+
+        printf "%10d %s\n",  
+
     }
 }
 
