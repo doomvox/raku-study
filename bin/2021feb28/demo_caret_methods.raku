@@ -226,10 +226,10 @@ use v6;
         my $name = $mo.name;
 
         if ($name eq "BUILDALL") {
-            say $gist;
+            say $gist;  # Method+{is-nodal}.new
         }
         if ($name eq "Supply") {
-            say $gist;
+            say $gist;  # Submethod+{is-hidden-from-backtrace}.new
         }
     }
 
