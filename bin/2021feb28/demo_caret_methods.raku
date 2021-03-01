@@ -220,5 +220,20 @@ use v6;
     # Set(BUILDALL Supply)
 
 
+    for IO::Handle.^methods -> $mo {
+
+        my $gist = $mo.gist;
+        my $name = $mo.name;
+
+        if ($name eq "BUILDALL") {
+            say $gist;
+        }
+
+        if ($name eq "Supply") {
+            say $gist;
+        }
+
+
+    }
 
 }
