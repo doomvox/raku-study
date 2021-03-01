@@ -1,3 +1,7 @@
+
+## David Christsen's "bug.t" file.  See:
+## https://mail.pm.org/pipermail/sanfrancisco-pm/2021-February/004769.html
+
 use strict;
 use warnings;
 use Scalar::Util	qw( reftype );
