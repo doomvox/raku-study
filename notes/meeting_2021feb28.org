@@ -64,7 +64,7 @@ https://github.com/Raku/roast
 ****** This now supersedes the Synopsis pages
 
 ***** what is the proper behavior of ^methods and ^method_names
-****** researching for this issue: 
+****** research for this issue: 
 https://github.com/rakudo/rakudo/issues/4207
 ****** There are no tests of ^method_names but there are some for ^methods:
 ******* https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
