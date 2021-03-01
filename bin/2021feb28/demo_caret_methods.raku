@@ -231,8 +231,6 @@ use v6;
         if ($name eq "Supply") {
             say $gist;
         }
-
-
     }
 
 }
