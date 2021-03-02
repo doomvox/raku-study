@@ -10,6 +10,7 @@
 #      not append if /usr/local/bin is already present. The
 #      secure_path line looks like this.
 
+
 # The context is a third party tool that takes a PCRE perl5-style regex
 # and a replacement string as two arguments.
 
