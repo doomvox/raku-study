@@ -49,8 +49,8 @@ my @cases = (
              [ 'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
                'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
                'Declines to append because path is already at the END'],
-             [ 'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
-               'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
+             [ 'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
+               'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
                'Declines to append because path is already at the START'],
 
              );
