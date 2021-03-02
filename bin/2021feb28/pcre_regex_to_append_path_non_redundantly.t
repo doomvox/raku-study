@@ -149,6 +149,7 @@ say "===";
             .*  ## matches *everything* but only if the negative lookahead does not match
             $
           )
+          $
       }x;
 
     (my $result = $input) 
