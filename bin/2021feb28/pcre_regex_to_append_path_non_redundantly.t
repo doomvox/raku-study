@@ -46,8 +46,9 @@ my @cases = (
                'Defaults secure_path = /bin:/usr/local/bin:/root/bin' ],
              );
 
-
+my $i;
 foreach my @pair (@cases) {
+  $i++;
   my ($input, $expected) = @pair;
 
   (my $result = $input) 
