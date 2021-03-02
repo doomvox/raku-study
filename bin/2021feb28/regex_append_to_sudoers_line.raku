@@ -50,11 +50,33 @@ for @cases -> $case {
      say $sublabel;
      my $replace = ':/usr/local/bin';
 
-#     my $pattern = /\:/;
+
+      qr{
+          ^ 
+          (        # Capture to $1
+          [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
+          (?!       #  A zero-width negative lookahead assertion.
+            (?:     
+              #            \s*      # not needed?
+              [^:]* 
+              : 
+            )*       
+            /usr/local/bin
+            (?: 
+              #            \s+ |   #  not needed
+              :   | 
+              $    ) 
+          )
+          .*  ## matches *everything* but only if the negative lookahead does not match
+#          \K  ## keeps *everything*, prevents s/// from removing anything from the existing string
+          )        # End $1 capture
+          $
+
 
      my $pattern =
      /
-           ^ 
+           ^
+           (   # Begin capture
            <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
            <!before               # line 59
              [ <-[:]>* \: ]*       
@@ -62,15 +84,14 @@ for @cases -> $case {
              [ \:  | $ ]
            >   ## TODO ERROR:  couldn't find final '>' (corresponding starter was at line 59)
            .*  ## matches *everything* but only if the negative lookahead does not match
-           ## TODO what's the raku way to do perl5's \K? (look up "backtrack control"?)
-           \K  ## keeps *everything*, prevents s/// from removing anything from the existing string
+           )   # End capture
            $
        /;
 
      my $result = $input;
      $result
        ~~
-       s/<$pattern>/$replace/ ;
+       s/<$pattern>/$replace/ ;  ## how to embed the first capture in raku replace?
 
      say 'R: ', $result;
      
@@ -84,50 +105,3 @@ for @cases -> $case {
 
 
 
-##  Above, I'm trying to adapt this perl5 code to raku:
-
-# { my $label = "Testing variant solution";
-#   foreach my $case (@cases) {
-#     my ($input, $expected, $sublabel) = @{ $case };
-
-#     my $replace = ':/usr/local/bin';
-
-#     ## a zero-width pattern that matches only if there's 
-#     ## no /usr/local/bin already in the given string
-#     my $pattern =
-#       qr{
-#           ^ 
-#           [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
-#           (?!       #  A zero-width negative lookahead assertion.
-#             (?:     
-#               #            \s*      # not needed?
-#               [^:]* 
-#               : 
-#             )*       
-#             /usr/local/bin
-#             (?: 
-#               #            \s+ |   #  not needed
-#               :   | 
-#               $    ) 
-#           )
-#           .*  ## matches *everything* but only if the negative lookahead does not match
-#           \K  ## keeps *everything*, prevents s/// from removing anything from the existing string
-#           $
-#       }x;
-
-#     (my $result = $input) 
-#       =~
-#       s{ $pattern }{$replace}x ;
-
-#     is( $result, $expected, "$label: $sublabel" );
-#   }
-# }
-
-
-
-
-
-
-
-## Also see:
-##  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021feb28/pcre_regex_to_append_path_non_redundantly.t
