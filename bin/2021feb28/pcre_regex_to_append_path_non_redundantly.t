@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-# Run this like so: `perl pcre_regex_to_append_path_non_redundantly.t'
-#   doom@kzsu.stanford.edu     2021/03/01 17:10:09
+# perl pcre_regex_to_append_path_non_redundantly.t
+#           doom@kzsu.stanford.edu     2021/03/01 17:10:09
 
 
 ## At the 2021feb28 SF Perl gathering, Lambert Lum posed a regex from hell question: 
