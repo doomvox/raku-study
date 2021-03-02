@@ -10,6 +10,7 @@
 #      not append if /usr/local/bin is already present. The
 #      secure_path line looks like this.
 
+#    Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin
 
 # The context is a third party tool that takes a PCRE perl5-style regex
 # and a replacement string as two arguments.
@@ -38,7 +39,12 @@ ok(1, "If we made it this far, we're ok. All modules are loaded.");
 # Yary Hluchan's answer:
 #   s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ 
 
+my @cases = (
+             [ 'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin',
+               'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin',
 
+# 'Defaults secure_path = /bin:/usr/local/bin:/root/bin' =>
+# 'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
 
 
 
