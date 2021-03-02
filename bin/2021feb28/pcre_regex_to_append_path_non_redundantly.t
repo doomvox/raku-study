@@ -55,7 +55,6 @@ foreach my @pair (@cases) {
     =~ s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ ;
 
   is( $result, $expected, "case: $i");
-
 }
 
 
