@@ -43,11 +43,11 @@ say @cases;
 
 my $label = 'Testing Yary variant';
 for @cases -> $case {
+     say '---';
      my ($input, $expected, $sublabel) = $case.values;
      say $input;
      say $expected;
      say $sublabel;
-     say '---';
      my $replace = ':/usr/local/bin';
 
      my $pattern = '\:';
