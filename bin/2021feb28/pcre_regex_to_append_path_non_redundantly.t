@@ -87,7 +87,7 @@ foreach my $case (@cases) {
             :   | 
             $    ) 
         )
-        .*
+        .*  ## matches *everything* but only if the negative lookahead does not match
         \K  ## keep all to the left don't include in $& (the match)
         $
     }x;
