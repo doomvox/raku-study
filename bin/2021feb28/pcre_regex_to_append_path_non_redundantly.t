@@ -63,7 +63,7 @@ my @cases = (
     (my $result = $input) 
       =~ s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ ;
 
-    is( $result, $expected, "$label: $sublabel");
+    is( $result, $expected, "$label: $sublabel" );
   }
 }
 
