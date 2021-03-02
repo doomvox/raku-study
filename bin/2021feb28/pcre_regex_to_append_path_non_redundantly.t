@@ -163,14 +163,28 @@ say "===";
 
 ### TODO include another check, show a version of the regexp without \x formatting
 
+{
+  my $label = "Testing Yary solution";
+  foreach my $case (@cases) {
+    my ($input, $expected, $sublabel) = @{ $case };
+
+    (my $result = $input) 
+      =~ s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ ;
+
+    is( $result, $expected, "$label: $sublabel" );
+  }
+}
+
+
 
 # Also see:
 #  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021feb28/regex_append_to_sudoers_line.raku
 
 # say "===";
-# ## Curious about whether it could be done *without* \K
 # ## NOT WORKING
-# ## contradictory: want a zero-width match that replaces *at the end*
+# ## Curious about whether it could be done *without* \K with
+# ## multiple (overlapping?) zero-width matches.
+# ## Contradictory: want a zero-width match that replaces *at the end*
 # { my $label = 'Testing sans \K solution';
 #   foreach my $case (@cases) {
 #     my ($input, $expected, $sublabel) = @{ $case };
