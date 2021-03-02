@@ -64,6 +64,9 @@ foreach my $case (@cases) {
 ## That's key to this solution: the replace is *appended*, nothing that's
 ## matched is removed by the s///
 
+## Another key element is the negative lookahead assertion that fails
+## if there's already a /usr/local/bin entry
+
 foreach my $case (@cases) {
   my ($input, $expected, $label) = @{ $case };
 
