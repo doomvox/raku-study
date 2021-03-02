@@ -18,7 +18,7 @@
 # The replace string will be something like
 #   \1:/usr/local/bin 
 
-# Examples of input and output:
+# Two examples of input and output:
 
 # 'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin' =>
 # 'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin',
