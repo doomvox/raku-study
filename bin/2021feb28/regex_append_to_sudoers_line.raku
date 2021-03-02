@@ -23,7 +23,56 @@ use v6;
 
 ## Something like replace \1:/usr/local/bin but only if it doesn't match already
 
+my @cases = (
+             [ 'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin',
+               'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin',
+               'Appends new path'],
+             [ 'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
+               'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
+               'Declines to append because path is already in the MIDDLE'],
+             [ 'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
+               'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
+               'Declines to append because path is already at the END'],
+             [ 'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
+               'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
+               'Declines to append because path is already at the START'],
 
+             )
+
+exit;
+
+foreach my $case (@cases) {
+  my ($input, $expected, $label) = @{ $case };
+
+  my $replace = ':/usr/local/bin';
+
+  my $pattern =
+    qr{
+        ^ 
+        [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
+        (?!       #  A zero-width negative lookahead assertion.
+          (?:     
+#            \s*      # not needed?
+            [^:]* 
+            : 
+          )*       
+          /usr/local/bin
+          (?: 
+#            \s+ |   #  not needed
+            :   | 
+            $    ) 
+        )
+        .*  ## matches *everything* but only if the negative lookahead does not match
+        \K  ## keeps *everything*, prevents s/// from removing anything from the existing string
+        $
+    }x;
+
+  (my $result = $input) 
+    =~
+    s{ $pattern }{$replace}x ;
+
+  is( $result, $expected, "case: $label");
+}
 
 
 
