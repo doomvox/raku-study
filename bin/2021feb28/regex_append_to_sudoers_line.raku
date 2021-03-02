@@ -75,9 +75,9 @@ for @cases -> $case {
          <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
          <!before              
              [
-             [ <-[:]>* \: ]*       
-             /usr/local/bin
-             [ \:  | $ ]
+               [ <-[:]>* \: ]*       
+               /usr/local/bin
+               [ : | $ ]
              ]
            >   
          .*  ## matches *everything* but only if the negative lookahead does not match
