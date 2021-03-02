@@ -149,6 +149,7 @@ say "===";
             .*  ## matches *everything* but only if the negative lookahead does not match
             $
           )
+       # $  ## with $ outside the zero-width, it fails to match at all
       }x;
 
     (my $result = $input) 
