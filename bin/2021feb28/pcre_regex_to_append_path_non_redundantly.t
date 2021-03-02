@@ -126,8 +126,8 @@ say "===";
 
     my $replace = ':/usr/local/bin';
 
-    ## a zero-width pattern that matches only if there's 
-    ## no /usr/local/bin already in the given string
+    ## Trying to use zero-width positive wrappers to get 
+    ## a zero-width pattern *without* using \K
     my $pattern =
       qr{
           ^ 
@@ -146,7 +146,7 @@ say "===";
                 $    ) 
             )
             .*  ## matches *everything* but only if the negative lookahead does not match
-          )?
+          )
          $
       }x;
 
