@@ -41,39 +41,42 @@ my @cases = (
 
 exit;
 
-foreach my $case (@cases) {
-  my ($input, $expected, $label) = @{ $case };
+{ my $label = "Testing variant solution";
+  foreach my $case (@cases) {
+    my ($input, $expected, $sublabel) = @{ $case };
 
-  my $replace = ':/usr/local/bin';
+    my $replace = ':/usr/local/bin';
 
-  my $pattern =
-    qr{
-        ^ 
-        [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
-        (?!       #  A zero-width negative lookahead assertion.
-          (?:     
-#            \s*      # not needed?
-            [^:]* 
-            : 
-          )*       
-          /usr/local/bin
-          (?: 
-#            \s+ |   #  not needed
-            :   | 
-            $    ) 
-        )
-        .*  ## matches *everything* but only if the negative lookahead does not match
-        \K  ## keeps *everything*, prevents s/// from removing anything from the existing string
-        $
-    }x;
+    ## a zero-width pattern that matches only if there's 
+    ## no /usr/local/bin already in the given string
+    my $pattern =
+      qr{
+          ^ 
+          [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
+          (?!       #  A zero-width negative lookahead assertion.
+            (?:     
+              #            \s*      # not needed?
+              [^:]* 
+              : 
+            )*       
+            /usr/local/bin
+            (?: 
+              #            \s+ |   #  not needed
+              :   | 
+              $    ) 
+          )
+          .*  ## matches *everything* but only if the negative lookahead does not match
+          \K  ## keeps *everything*, prevents s/// from removing anything from the existing string
+          $
+      }x;
 
-  (my $result = $input) 
-    =~
-    s{ $pattern }{$replace}x ;
+    (my $result = $input) 
+      =~
+      s{ $pattern }{$replace}x ;
 
-  is( $result, $expected, "case: $label");
+    is( $result, $expected, "$label: $sublabel" );
+  }
 }
-
 
 
 
