@@ -66,6 +66,14 @@ foreach my $case (@cases) {
 
   my $pattern =
     qr{
+        ^ 
+        (?! 
+          (?: \s* [^:]* : )*
+          /usr/local/bin
+          (?: \s+ | : | $ ) ).*
+        \K  ## What is \K?
+        $
+
     }x;
 
   (my $result = $input) 
