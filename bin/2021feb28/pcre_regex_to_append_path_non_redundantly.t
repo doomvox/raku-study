@@ -61,6 +61,8 @@ foreach my $case (@cases) {
 
 ## What is \K?
 ##  \K        [6]  Keep the stuff left of the \K, don't include it in $&
+## That's key to this solution: the replace is *appended*, nothing that's
+## matched is removed by the s///
 
 foreach my $case (@cases) {
   my ($input, $expected, $label) = @{ $case };
