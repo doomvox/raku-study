@@ -164,7 +164,7 @@ say "===";
 ### TODO include another check, show a version of the regexp without \x formatting
 
 {
-  my $label = "Demo without \x";
+  my $label = 'Demo without \x';
   foreach my $case (@cases) {
     my ($input, $expected, $sublabel) = @{ $case };
 
