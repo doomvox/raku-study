@@ -169,30 +169,10 @@ say "===";
     my ($input, $expected, $sublabel) = @{ $case };
 
     my $pattern =
-      qr{
-          ^ 
-          (        # Capture to $1
-          [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
-          (?!       #  A zero-width negative lookahead assertion.
-            (?:     
-              #            \s*      # not needed?
-              [^:]* 
-              : 
-            )*       
-            /usr/local/bin
-            (?: 
-              #            \s+ |   #  not needed
-              :   | 
-              $    ) 
-          )
-          .*  ## matches *everything* but only if the negative lookahead does not match
-          )        # end $1 capture
-          $
-      };
-
+      qr{^([^=]*?=\s+(?!(?:[^:]*:)*/usr/local/bin(?::|$)).*)$};
 
     (my $result = $input) 
-      =~ s{^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$}{:/usr/local/bin} ;
+      =~ s{$pattern}{\1:/usr/local/bin} ;
 
     is( $result, $expected, "$label: $sublabel" );
   }
