@@ -116,19 +116,12 @@ say "===";
 }
 
 say "===";
-## Expanded formating of Yary's solution (/x), with a few fixes:
-
-## What is \K?
-##  \K        [6]  Keep the stuff left of the \K, don't include it in $&
-## That's key to this solution: the replace is *appended*, nothing that's
-## matched is removed by the s///
-
-## Question: is \K supported by PCRE?
+## Curious about whether it could be done *without* \K
 
 ## Another key element is the negative lookahead assertion that fails
 ## if there's already a /usr/local/bin entry
 
-{ my $label = "Testing variant solution";
+{ my $label = 'Testing sans \K solution';
   foreach my $case (@cases) {
     my ($input, $expected, $sublabel) = @{ $case };
 
