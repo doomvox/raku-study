@@ -124,9 +124,6 @@ say "===";
   foreach my $case (@cases) {
     my ($input, $expected, $sublabel) = @{ $case };
 
-    # replace leads with \1: need to capture what we want to keep
-    my $replace = '\1:/usr/local/bin';
-
     ## A pattern that matches the entire string, but only if 
     ## there's no /usr/local/bin already 
     my $pattern =
@@ -152,9 +149,14 @@ say "===";
           $
       }x;
 
+    # (( BUT \1 is a literal if quoted ))
+    # replace leads with \1: need to capture what we want to keep
+    # my $replace = '\1:/usr/local/bin';
+
+    my $append = ':/usr/local/bin';
     (my $result = $input) 
       =~
-      s{ $pattern }{$replace}x ;
+      s{ $pattern }{\1$append}x ;
 
     is( $result, $expected, "$label: $sublabel" );
   }
