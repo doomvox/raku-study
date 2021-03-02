@@ -68,7 +68,11 @@ foreach my $case (@cases) {
     qr{
         ^ 
         (?! 
-          (?: \s* [^:]* : )*
+          (?: 
+            \s* 
+            [^:]* 
+            : 
+          )*
           /usr/local/bin
           (?: \s+ | : | $ ) ).*
         \K  ## What is \K?
