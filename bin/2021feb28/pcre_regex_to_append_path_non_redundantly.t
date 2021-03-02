@@ -112,7 +112,7 @@ my @cases = (
       =~
       s{ $pattern }{$replace}x ;
 
-    is( $result, $expected, "$label: $sublabel");
+    is( $result, $expected, "$label: $sublabel" );
   }
 }
 done_testing();
