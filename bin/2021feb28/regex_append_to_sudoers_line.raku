@@ -71,8 +71,10 @@ for @cases -> $case {
 #           $
 #       }x;
 
-     (my $result = $input) 
-       =~
+     my $result = $input;
+
+     $input
+       ~~
        s{ $pattern }{$replace}x ;
 
 
