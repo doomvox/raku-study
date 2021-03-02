@@ -82,6 +82,7 @@ foreach my $case (@cases) {
   my $pattern =
     qr{
 #        ^ 
+        \s+
         (?!       #  A zero-width negative lookahead assertion.
 
 #           (?:     
