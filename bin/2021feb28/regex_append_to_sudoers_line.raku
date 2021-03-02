@@ -41,7 +41,7 @@ my @cases = (
 
 say @cases;
 
-my $label = 'Testing Yary variant';
+my $label = 'Testing raku translation of perl regex';
 for @cases -> $case {
      say '---';
      my ($input, $expected, $sublabel) = $case.values;
