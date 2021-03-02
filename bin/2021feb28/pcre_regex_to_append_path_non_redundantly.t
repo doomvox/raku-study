@@ -47,9 +47,9 @@ my @cases = (
              );
 
 my $i;
-foreach my @pair (@cases) {
+foreach my $pair (@cases) {
   $i++;
-  my ($input, $expected) = @pair;
+  my ($input, $expected) = @{ $pair };
 
   (my $result = $input) 
     =~ s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ ;
