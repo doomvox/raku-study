@@ -50,7 +50,7 @@ for @cases -> $case {
      say '---';
      my $replace = ':/usr/local/bin';
 
-     my $pattern = 'local';
+     my $pattern = ':';
 
 #     my $pattern =
 #       qr{
