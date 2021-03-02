@@ -46,6 +46,9 @@ my @cases = (
              [ 'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
                'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
                'Declines to append redundant path'],
+             [ 'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
+               'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
+               'Declines to append redundant path'],
              );
 
 foreach my $case (@cases) {
@@ -80,7 +83,7 @@ foreach my $case (@cases) {
             \s*      # the space after the equal sign is where we start scanning
             [^:]* 
             : 
-          )*
+          )*       
           /usr/local/bin
           (?: 
             \s+ | 
