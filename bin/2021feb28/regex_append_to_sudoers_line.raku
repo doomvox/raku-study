@@ -48,7 +48,7 @@ for @cases -> $case {
      say $input;
      say $expected;
      say $sublabel;
-     my $replace = '{}:/usr/local/bin{}';
+     my $replace = ':/usr/local/bin{}';
 
      my $pattern = '\:';
 
