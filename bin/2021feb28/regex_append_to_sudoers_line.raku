@@ -47,6 +47,9 @@ for @cases -> $case {
      say $expected;
      say $sublabel;
      say '---';
+     my $replace = ':/usr/local/bin';
+
+
 }
 
 exit;
