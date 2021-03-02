@@ -62,8 +62,15 @@ foreach my $case (@cases) {
 foreach my $case (@cases) {
   my ($input, $expected, $label) = @{ $case };
 
+  my $replace = ':/usr/local/bin';
+
+  my $pattern =
+    qr{
+    }x;
+
   (my $result = $input) 
-    =~ s{^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$}{:/usr/local/bin} ;
+    =~
+    s{ $pattern }{$replace}x ;
 
   is( $result, $expected, "case: $label");
 }
