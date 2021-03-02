@@ -53,6 +53,19 @@ my @cases = (
              [ 'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
                'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
                'Declines to append because path is already at the START'],
+             [ 'Defaults secure_path = ',
+               'Defaults secure_path = :/usr/local/bin',  # Edge case- leading colon is arguable
+               'Appends to empty line'],
+             [ 'Defaults secure_path = /usr/local/bin',
+               'Defaults secure_path = /usr/local/bin',
+               'Declines to append because path is already EQUAL'],
+             [ 'Defaults secure_path = /usr/local/bind',
+               'Defaults secure_path = /usr/local/bind:/usr/local/bin',
+               'Appends because path is "bind" not "bin"'],
+             [ 'Defaults secure_path = /another/usr/local/bin',
+               'Defaults secure_path = /another/usr/local/bin:/usr/local/bin',
+               'Appends because path starts with "/another" not "/usr"'],
+
 
             );
 {
