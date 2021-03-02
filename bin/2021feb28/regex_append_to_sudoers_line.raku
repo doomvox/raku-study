@@ -70,18 +70,20 @@ for @cases -> $case {
 
      my $pattern =
      /
-           ^
-           (   # Begin capture
-           <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
-           <!before              
+     ^
+     (   # Begin capture
+         <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
+         <!before              
+             [
              [ <-[:]>* \: ]*       
              /usr/local/bin
              [ \:  | $ ]
+             ]
            >   
-           .*  ## matches *everything* but only if the negative lookahead does not match
-           )   # End capture
-           $
-       /;
+         .*  ## matches *everything* but only if the negative lookahead does not match
+     )   # End capture
+     $
+     /;
 
      my $append = ':/usr/local/bin';
 
