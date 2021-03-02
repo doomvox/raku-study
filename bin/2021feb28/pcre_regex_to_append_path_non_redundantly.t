@@ -164,12 +164,35 @@ say "===";
 ### TODO include another check, show a version of the regexp without \x formatting
 
 {
-  my $label = "Testing Yary solution";
+  my $label = "Demo without \x";
   foreach my $case (@cases) {
     my ($input, $expected, $sublabel) = @{ $case };
 
+    my $pattern =
+      qr{
+          ^ 
+          (        # Capture to $1
+          [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
+          (?!       #  A zero-width negative lookahead assertion.
+            (?:     
+              #            \s*      # not needed?
+              [^:]* 
+              : 
+            )*       
+            /usr/local/bin
+            (?: 
+              #            \s+ |   #  not needed
+              :   | 
+              $    ) 
+          )
+          .*  ## matches *everything* but only if the negative lookahead does not match
+          )        # end $1 capture
+          $
+      };
+
+
     (my $result = $input) 
-      =~ s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ ;
+      =~ s{^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$}{:/usr/local/bin} ;
 
     is( $result, $expected, "$label: $sublabel" );
   }
@@ -184,7 +207,7 @@ say "===";
 # ## NOT WORKING
 # ## Curious about whether it could be done *without* \K with
 # ## multiple (overlapping?) zero-width matches.
-# ## Contradictory: want a zero-width match that replaces *at the end*
+# ## Contradictory: can't have a zero-width match that replaces *at the end*
 # { my $label = 'Testing sans \K solution';
 #   foreach my $case (@cases) {
 #     my ($input, $expected, $sublabel) = @{ $case };
