@@ -95,7 +95,6 @@ foreach my $case (@cases) {
             :   | 
             $    ) 
         )
-
         .*  ## matches *everything* but only if the negative lookahead does not match
         \K  ## keeps *everything*, prevents s/// from removing anything from the existing string
         $
