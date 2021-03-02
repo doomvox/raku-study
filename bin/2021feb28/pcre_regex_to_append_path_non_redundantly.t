@@ -46,6 +46,9 @@ ok(1, "If we made it this far, we're ok. All modules are loaded.");
 # Insert your test code below, the Test::More module is used here so read
 # its man page ( perldoc Test::More ) for help writing this test script.
 
+# Yary Hluchan:
+# s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ 
+
 
 
 done_testing();
