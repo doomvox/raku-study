@@ -150,11 +150,13 @@ say "===";
             $
           )
        # $  ## with $ outside the zero-width, it fails to match at all (?)
+       |
+         (^.*$)
       }x;
 
     (my $result = $input) 
       =~
-      s{ $pattern }{$replace}x ;
+      s{ $pattern }{\1$replace}x ;
 
     is( $result, $expected, "$label: $sublabel" );
   }
