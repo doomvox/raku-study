@@ -85,6 +85,8 @@ my @cases = (
 
     my $replace = ':/usr/local/bin';
 
+    ## a zero-width pattern that matches only if there's 
+    ## no /usr/local/bin already in the given string
     my $pattern =
       qr{
           ^ 
