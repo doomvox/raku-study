@@ -50,7 +50,6 @@ for @cases -> $case {
      say $sublabel;
      my $replace = ':/usr/local/bin';
 
-
 #       qr{
 #           ^ 
 #           (        # Capture to $1
