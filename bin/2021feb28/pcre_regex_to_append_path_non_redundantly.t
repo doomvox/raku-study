@@ -84,7 +84,6 @@ foreach my $case (@cases) {
         ^ 
         \s+
         (?!       #  A zero-width negative lookahead assertion.
-
           (?:     
             \s*      # maybe not needed?
             [^:]* 
@@ -102,6 +101,7 @@ foreach my $case (@cases) {
             :   | 
             $    ) 
         )
+
         .*  ## matches *everything* but only if the negative lookahead does not match
         \K  ## keeps *everything*, prevents s/// from removing anything from the existing string
         $
