@@ -67,7 +67,7 @@ my @cases = (
   }
 }
 
-## Expanded form of Yary's solution via \x, with a few fixes:
+## Expanded formating of Yary's solution (/x), with a few fixes:
 
 ## What is \K?
 ##  \K        [6]  Keep the stuff left of the \K, don't include it in $&
