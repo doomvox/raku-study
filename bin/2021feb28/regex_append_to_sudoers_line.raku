@@ -51,24 +51,24 @@ for @cases -> $case {
      my $replace = ':/usr/local/bin';
 
 
-      qr{
-          ^ 
-          (        # Capture to $1
-          [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
-          (?!       #  A zero-width negative lookahead assertion.
-            (?:     
-              [^:]* 
-              : 
-            )*       
-            /usr/local/bin
-            (?: 
-              :   | 
-              $    ) 
-          )
-          .*  ## matches *everything* but only if the negative lookahead does not match
-          )        # End $1 capture
-          $
-
+#       qr{
+#           ^ 
+#           (        # Capture to $1
+#           [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
+#           (?!       #  A zero-width negative lookahead assertion.
+#             (?:     
+#               [^:]* 
+#               : 
+#             )*       
+#             /usr/local/bin
+#             (?: 
+#               :   | 
+#               $    ) 
+#           )
+#           .*  ## matches *everything* but only if the negative lookahead does not match
+#           )        # End $1 capture
+#           $
+#         }
 
      my $pattern =
      /
