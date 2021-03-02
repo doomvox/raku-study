@@ -36,7 +36,7 @@ use Data::Dumper;
 ok(1, "If we made it this far, we're ok. All modules are loaded.");
 
 # Yary Hluchan's answer:
-# s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ 
+#   s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ 
 
 
 
