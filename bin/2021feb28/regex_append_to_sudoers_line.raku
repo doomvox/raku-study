@@ -57,7 +57,7 @@ for @cases -> $case {
            ^ 
            <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
            <!before               # line 59
-             [ <-[:]>* : ]*       
+             [ <-[:]>* ':' ]*       
              /usr/local/bin
              [ \:  | $ ]
            >   ## TODO ERROR:  couldn't find final '>' (corresponding starter was at line 59)
