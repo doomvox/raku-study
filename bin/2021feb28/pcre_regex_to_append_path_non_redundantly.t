@@ -86,7 +86,8 @@ foreach my $case (@cases) {
             \s+ | 
             :   | 
             $    ) 
-        ).*
+        )
+        .*
         \K  ## keep all to the left don't include in $& (the match)
         $
     }x;
