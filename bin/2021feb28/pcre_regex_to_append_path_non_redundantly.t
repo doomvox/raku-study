@@ -85,6 +85,7 @@ say "===";
 
     my $replace = ':/usr/local/bin';
 
+    ## Effectively:
     ## a zero-width pattern that matches only if there's 
     ## no /usr/local/bin already in the given string
     my $pattern =
@@ -119,14 +120,15 @@ say "===";
 say "===";
 ## Can that solution be made to work without \K?
 
-{ my $label = "Testing variant solution";
+{ my $label = "Testing sans \K solution";
   foreach my $case (@cases) {
     my ($input, $expected, $sublabel) = @{ $case };
 
     my $replace = ':/usr/local/bin';
 
-    ## a zero-width pattern that matches only if there's 
-    ## no /usr/local/bin already in the given string
+
+    ## A pattern that matches the entire string, but only if 
+    ## there's no /usr/local/bin already in the given string
     my $pattern =
       qr{
           ^ 
