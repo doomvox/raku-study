@@ -1,5 +1,10 @@
 * meeting notes Mar 07, 2021
 
+
+** announcments
+*** richard hainsworth: alternative pod6 processing 
+**** Raku docs: http://raku.finanalyst.org
+
 ** possible topics (carried over from earlier meetings)
 *** Steven_lembark
 **** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
