@@ -67,7 +67,7 @@ my @cases = (
   }
 }
 
-say STDERR "===";
+say "===";
 ## Expanded formating of Yary's solution (/x), with a few fixes:
 
 ## What is \K?
