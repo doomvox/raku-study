@@ -80,7 +80,7 @@ foreach my $case (@cases) {
 
 my $label = "Testing variant solution";
 foreach my $case (@cases) {
-  my ($input, $expected, $label) = @{ $case };
+  my ($input, $expected, $sublabel) = @{ $case };
 
   my $replace = ':/usr/local/bin';
 
@@ -109,7 +109,7 @@ foreach my $case (@cases) {
     =~
     s{ $pattern }{$replace}x ;
 
-  is( $result, $expected, "case: $label");
+  is( $result, $expected, "$label: $sublabel");
 }
 
 done_testing();
