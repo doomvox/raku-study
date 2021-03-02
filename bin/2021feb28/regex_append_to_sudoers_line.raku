@@ -56,12 +56,13 @@ for @cases -> $case {
      /
            ^ 
            < - [=] >*?  \=  \s+   # Begin after  'Defaults secure_path = '
-           <!before               #  A zero-width negative lookahead assertion.
+           <!before               # line 59
              [ < - [:] >* \: ]*       
              /usr/local/bin
              [ \:  | $ ]
            >   ## TODO ERROR:  couldn't find final '>' (corresponding starter was at line 59)
            .*  ## matches *everything* but only if the negative lookahead does not match
+           ## TODO what's the raku way to do \K?
            \K  ## keeps *everything*, prevents s/// from removing anything from the existing string
            $
        /;
