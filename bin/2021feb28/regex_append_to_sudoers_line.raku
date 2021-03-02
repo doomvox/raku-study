@@ -82,7 +82,9 @@ for @cases -> $case {
 }
 
 
-exit;
+
+
+##  Above, I'm trying to adapt this perl5 code to raku:
 
 # { my $label = "Testing variant solution";
 #   foreach my $case (@cases) {
