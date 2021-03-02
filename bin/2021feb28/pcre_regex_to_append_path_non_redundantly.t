@@ -74,10 +74,10 @@ say "===";
 ## That's key to this solution: the replace is *appended*, nothing that's
 ## matched is removed by the s///
 
-## Question: is \K supported by PCRE?
-
 ## Another key element is the negative lookahead assertion that fails
 ## if there's already a /usr/local/bin entry
+
+## TODO  is \K supported by PCRE?
 
 { my $label = "Testing variant solution";
   foreach my $case (@cases) {
