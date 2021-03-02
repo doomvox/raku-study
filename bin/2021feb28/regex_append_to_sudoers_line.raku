@@ -66,7 +66,7 @@ for @cases -> $case {
              [
                #            \s+ |   #  not needed
                :   | 
-                       $
+               $
              ]
            )
            .*  ## matches *everything* but only if the negative lookahead does not match
