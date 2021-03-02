@@ -39,6 +39,8 @@ my @cases = (
 
              )
 
+say @cases;
+
 exit;
 
 { my $label = "Testing variant solution";
