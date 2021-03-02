@@ -37,7 +37,7 @@ my @cases = (
                'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
                'Declines to append because path is already at the START'],
 
-             )
+             );
 
 say @cases;
 
