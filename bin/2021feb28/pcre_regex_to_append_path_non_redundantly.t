@@ -114,6 +114,56 @@ say "===";
     is( $result, $expected, "$label: $sublabel" );
   }
 }
+
+say "===";
+## Expanded formating of Yary's solution (/x), with a few fixes:
+
+## What is \K?
+##  \K        [6]  Keep the stuff left of the \K, don't include it in $&
+## That's key to this solution: the replace is *appended*, nothing that's
+## matched is removed by the s///
+
+## Question: is \K supported by PCRE?
+
+## Another key element is the negative lookahead assertion that fails
+## if there's already a /usr/local/bin entry
+
+{ my $label = "Testing variant solution";
+  foreach my $case (@cases) {
+    my ($input, $expected, $sublabel) = @{ $case };
+
+    my $replace = ':/usr/local/bin';
+
+    ## a zero-width pattern that matches only if there's 
+    ## no /usr/local/bin already in the given string
+    my $pattern =
+      qr{
+          ^ 
+          [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
+          (?!       #  A zero-width negative lookahead assertion.
+            (?:     
+              #            \s*      # not needed?
+              [^:]* 
+              : 
+            )*       
+            /usr/local/bin
+            (?: 
+              #            \s+ |   #  not needed
+              :   | 
+              $    ) 
+          )
+          .*  ## matches *everything* but only if the negative lookahead does not match
+          \K  ## keeps *everything*, prevents s/// from removing anything from the existing string
+          $
+      }x;
+
+    (my $result = $input) 
+      =~
+      s{ $pattern }{$replace}x ;
+
+    is( $result, $expected, "$label: $sublabel" );
+  }
+}
 done_testing();
 
 # Also see:
