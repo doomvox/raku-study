@@ -88,9 +88,9 @@ for @cases -> $case {
      my $result = $input;
      $result
        ~~
-       s/<$pattern>/$replace/ ;  ## how to embed the first capture in raku replace?
+       s/<$pattern>/$0$replace/ ;  ## does $0 work to embed the previous capture here?
 
-     say 'R: ', $result;
+     say 'result: ', $result;
      
 
 # use Test;
