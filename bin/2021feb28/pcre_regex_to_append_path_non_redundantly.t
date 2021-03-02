@@ -80,13 +80,13 @@ foreach my $case (@cases) {
         ^ 
         (?!       #  A zero-width negative lookahead assertion.
           (?: 
-#            \s*      # the space after the equal sign is where we start scanning
+#            \s*      # actually, not needed
             [^:]* 
             : 
           )*       
           /usr/local/bin
           (?: 
-            \s+ | 
+#            \s+ | 
             :   | 
             $    ) 
         )
