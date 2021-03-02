@@ -82,7 +82,7 @@ foreach my $case (@cases) {
             :   | 
             $    ) 
         ).*
-        \K  ## keep all to the left don't include in $& (the match)
+#        \K  ## keep all to the left don't include in $& (the match)
         $
     }x;
 
