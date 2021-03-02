@@ -124,13 +124,15 @@ say "===";
   foreach my $case (@cases) {
     my ($input, $expected, $sublabel) = @{ $case };
 
-    my $replace = ':/usr/local/bin';
+    # replace leads with \1: need to capture what we want to keep
+    my $replace = '\1:/usr/local/bin';
 
     ## A pattern that matches the entire string, but only if 
     ## there's no /usr/local/bin already 
     my $pattern =
       qr{
           ^ 
+          (        # Capture to $1
           [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
           (?!       #  A zero-width negative lookahead assertion.
             (?:     
@@ -146,6 +148,7 @@ say "===";
           )
           .*  ## matches *everything* but only if the negative lookahead does not match
 #          \K  ## keeps *everything*, prevents s/// from removing anything from the existing string
+          )        # End $1 capture
           $
       }x;
 
