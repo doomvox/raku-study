@@ -86,7 +86,7 @@ foreach my $case (@cases) {
           )*       
           /usr/local/bin
           (?: 
-#            \s+ | 
+#            \s+ |   # actually, not needed
             :   | 
             $    ) 
         )
