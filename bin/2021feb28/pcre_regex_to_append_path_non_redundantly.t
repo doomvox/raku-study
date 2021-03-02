@@ -107,10 +107,6 @@ foreach my $case (@cases) {
   is( $result, $expected, "case: $label");
 }
 
-
-
-
-
 done_testing();
 
 # Also see:
