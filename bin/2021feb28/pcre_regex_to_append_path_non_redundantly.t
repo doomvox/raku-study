@@ -129,7 +129,9 @@ say "===";
     my $pattern =
       qr{
           ^ 
-          [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
+          (?=       #  zero-width positive lookahead
+            [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
+            )
           (?!       #  A zero-width negative lookahead assertion.
             (?:     
               #            \s*      # not needed?
