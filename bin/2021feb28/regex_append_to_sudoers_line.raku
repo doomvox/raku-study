@@ -55,7 +55,7 @@ for @cases -> $case {
      my $pattern =
      /
            ^ 
-           < - [=] >*?  \=  \s+   # Begin after  'Defaults secure_path = '
+           <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
            <!before               # line 59
              [ <-[:]>* \: ]*       
              /usr/local/bin
