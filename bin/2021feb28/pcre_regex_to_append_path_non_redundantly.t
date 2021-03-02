@@ -48,7 +48,7 @@ my @cases = (
                'Declines to append redundant path'],
              [ 'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
                'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
-               'Declines to append redundant path'],
+               'Declines to append redundant path at the end'],
              );
 
 foreach my $case (@cases) {
