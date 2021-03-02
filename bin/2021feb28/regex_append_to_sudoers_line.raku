@@ -71,6 +71,14 @@ for @cases -> $case {
 #           $
 #       }x;
 
+     (my $result = $input) 
+       =~
+       s{ $pattern }{$replace}x ;
+
+
+# use Test;
+#     is( $result, $expected, "$label: $sublabel" );
+
 
 }
 
