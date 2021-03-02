@@ -45,10 +45,14 @@ my @cases = (
                'Appends new path'],
              [ 'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
                'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
-               'Declines to append redundant path'],
+               'Declines to append because path is already in the MIDDLE'],
              [ 'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
                'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
-               'Declines to append redundant path at the end'],
+               'Declines to append because path is already at the END'],
+             [ 'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
+               'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
+               'Declines to append because path is already at the START'],
+
              );
 
 foreach my $case (@cases) {
