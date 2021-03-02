@@ -50,6 +50,10 @@ my @cases = (
 foreach my @pair (@cases) {
   my ($input, $expected) = @pair;
 
+  (my $result = $input) 
+    =~ s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ ;
+
+  is( $result, $expected, "");
 
 }
 
