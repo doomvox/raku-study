@@ -48,7 +48,6 @@ for @cases -> $case {
      say $input;
      say $expected;
      say $sublabel;
-     my $replace = ':/usr/local/bin';
 
 #       qr{
 #           ^ 
@@ -84,10 +83,12 @@ for @cases -> $case {
            $
        /;
 
+     my $append = ':/usr/local/bin';
+
      my $result = $input;
      $result
        ~~
-       s/<$pattern>/$0$replace/ ;  ## does $0 work to embed the previous capture here?
+       s/<$pattern>/$0$append/ ;  ## does $0 work to embed the previous capture here?
 
      say 'result: ', $result;
      
