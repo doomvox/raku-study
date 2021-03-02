@@ -55,13 +55,15 @@ my @cases = (
 
              );
 
+
+my $label = "Testing Yary solution";
 foreach my $case (@cases) {
-  my ($input, $expected, $label) = @{ $case };
+  my ($input, $expected, $sublabel) = @{ $case };
 
   (my $result = $input) 
     =~ s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ ;
 
-  is( $result, $expected, "case: $label");
+  is( $result, $expected, "$label: $sublabel");
 }
 
 ## Expanding on Yary's solution to see what it's doing:
@@ -76,6 +78,7 @@ foreach my $case (@cases) {
 ## Another key element is the negative lookahead assertion that fails
 ## if there's already a /usr/local/bin entry
 
+my $label = "Testing variant solution";
 foreach my $case (@cases) {
   my ($input, $expected, $label) = @{ $case };
 
