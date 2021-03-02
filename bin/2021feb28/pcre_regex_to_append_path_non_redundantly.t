@@ -77,10 +77,13 @@ foreach my $case (@cases) {
             : 
           )*
           /usr/local/bin
-          (?: \s+ | : | $ ) ).*
-        \K  ## What is \K?
+          (?: 
+            \s+ | 
+            :   | 
+            $    ) 
+        ).*
+        \K  
         $
-
     }x;
 
   (my $result = $input) 
