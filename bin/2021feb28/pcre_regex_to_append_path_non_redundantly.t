@@ -85,13 +85,13 @@ foreach my $case (@cases) {
         [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
         (?!       #  A zero-width negative lookahead assertion.
           (?:     
-#            \s*      # maybe not needed?
+#            \s*      # not needed?
             [^:]* 
             : 
           )*       
           /usr/local/bin
           (?: 
-#            \s+ |   #  maybe not needed
+#            \s+ |   #  not needed
             :   | 
             $    ) 
         )
