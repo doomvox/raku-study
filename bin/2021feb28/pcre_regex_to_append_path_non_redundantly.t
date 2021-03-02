@@ -83,11 +83,19 @@ foreach my $case (@cases) {
     qr{
         ^ 
         (?!       #  A zero-width negative lookahead assertion.
-          (?: 
+
+#           (?:     
+#             \s*      # maybe not needed?
+#             [^:]* 
+#             : 
+#           )*       
+
+          (?:     
             \s*      # maybe not needed?
             [^:]* 
             : 
           )*       
+
           /usr/local/bin
           (?: 
             \s+ |   #  maybe not needed
