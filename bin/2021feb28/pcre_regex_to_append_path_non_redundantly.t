@@ -82,9 +82,7 @@ foreach my $case (@cases) {
   my $pattern =
     qr{
         ^ 
-        [^=]*?
-        = 
-        \s+
+        [^=]*?   =  \s+   ## Begin after  'Defaults secure_path = '
         (?!       #  A zero-width negative lookahead assertion.
           (?:     
 #            \s*      # maybe not needed?
