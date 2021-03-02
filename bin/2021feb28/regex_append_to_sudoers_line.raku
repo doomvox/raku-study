@@ -50,7 +50,7 @@ for @cases -> $case {
      say $sublabel;
      my $replace = ':/usr/local/bin{}';
 
-     my $pattern = '\:';
+     my $pattern = /\:/;
 
 #     my $pattern =
 #       qr{
