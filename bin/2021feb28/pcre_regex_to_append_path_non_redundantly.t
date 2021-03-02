@@ -57,6 +57,14 @@ foreach my $case (@cases) {
   is( $result, $expected, "case: $label");
 }
 
+foreach my $case (@cases) {
+  my ($input, $expected, $label) = @{ $case };
+
+  (my $result = $input) 
+    =~ s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ ;
+
+  is( $result, $expected, "case: $label");
+}
 
 
 
