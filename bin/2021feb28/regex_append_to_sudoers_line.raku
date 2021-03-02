@@ -60,7 +60,7 @@ for @cases -> $case {
              [ < - [:] >* \: ]*       
              /usr/local/bin
              [ \:  | $ ]
-           >
+           >   ## TODO ERROR:  couldn't find final '>' (corresponding starter was at line 59)
            .*  ## matches *everything* but only if the negative lookahead does not match
            \K  ## keeps *everything*, prevents s/// from removing anything from the existing string
            $
