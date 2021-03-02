@@ -10,8 +10,6 @@
 #      not append if /usr/local/bin is already present. The
 #      secure_path line looks like this.
 
-# change 'tests => 1' to 'tests => last_test_to_print';
-
 # The context is a third party tool that takes a PCRE perl5-style regex
 # and a replacement string as two arguments.
 
@@ -46,7 +44,10 @@ ok(1, "If we made it this far, we're ok. All modules are loaded.");
 
 
 
+
 done_testing();
+
+
 
 # Also see:
 #  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021feb28/regex_append_to_sudoers_line.raku
