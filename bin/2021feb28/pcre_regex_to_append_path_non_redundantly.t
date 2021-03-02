@@ -2,7 +2,6 @@
 # perl pcre_regex_to_append_path_non_redundantly.t
 #           doom@kzsu.stanford.edu     2021/03/01 17:10:09
 
-
 ## At the 2021feb28 SF Perl gathering, Lambert Lum posed a regex from hell question: 
 
 # 298. [very hard] Given a line from /etc/sudoers, Write a regex
