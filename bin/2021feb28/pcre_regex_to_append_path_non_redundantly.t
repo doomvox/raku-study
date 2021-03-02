@@ -88,7 +88,6 @@ foreach my $case (@cases) {
           (?:     
             \s*      # maybe not needed?
             [^:]* 
-
             : 
           )*       
 
