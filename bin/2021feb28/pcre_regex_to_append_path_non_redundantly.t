@@ -48,15 +48,13 @@ my @cases = (
                'Declines to append redundant path'],
              );
 
-my $i;
 foreach my $case (@cases) {
-  $i++;
   my ($input, $expected, $label) = @{ $case };
 
   (my $result = $input) 
     =~ s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ ;
 
-  is( $result, $expected, "case: $i");
+  is( $result, $expected, "case: $label");
 }
 
 
