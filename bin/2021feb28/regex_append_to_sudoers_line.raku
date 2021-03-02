@@ -74,11 +74,11 @@ for @cases -> $case {
 #       }x;
 
      my $result = $input;
-
-     $input
+     $result;
        ~~
        s/<$pattern>/$replace/ ;
 
+     
 
 # use Test;
 #     is( $result, $expected, "$label: $sublabel" );
