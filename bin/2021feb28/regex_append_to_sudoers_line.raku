@@ -62,7 +62,7 @@ for @cases -> $case {
              [ \:  | $ ]
            >   ## TODO ERROR:  couldn't find final '>' (corresponding starter was at line 59)
            .*  ## matches *everything* but only if the negative lookahead does not match
-           ## TODO what's the raku way to do \K?
+           ## TODO what's the raku way to do perl5's \K?
            \K  ## keeps *everything*, prevents s/// from removing anything from the existing string
            $
        /;
