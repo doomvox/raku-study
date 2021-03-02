@@ -1,4 +1,4 @@
-# Test file created outside of h2xs framework.
+#!/usr/bin/env perl
 # Run this like so: `perl pcre_regex_to_append_path_non_redundantly.t'
 #   doom@kzsu.stanford.edu     2021/03/01 17:10:09
 
