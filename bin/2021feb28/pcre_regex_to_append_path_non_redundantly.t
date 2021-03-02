@@ -5,8 +5,6 @@
 
 ## At the 2021feb28 SF Perl gathering, Lambert Lum posed a regex from hell question: 
 
-# *** lambert lum: regex problem from hell
-# **** 
 # 298. [very hard] Given a line from /etc/sudoers, Write a regex
 #      that will append /usr/local/bin to the secure_path line. Do
 #      not append if /usr/local/bin is already present. The
