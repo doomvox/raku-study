@@ -78,6 +78,7 @@ for @cases -> $case {
        ~~
        s/<$pattern>/$replace/ ;
 
+     say $result;
      
 
 # use Test;
