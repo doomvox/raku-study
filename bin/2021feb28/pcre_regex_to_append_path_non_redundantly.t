@@ -185,7 +185,7 @@ say '===';
 
 # say "===";
 # ## NOT WORKING
-# ## Curious about whether it could be done *without* \K with
+# ## Curious about whether it could be done without \K via
 # ## multiple (overlapping?) zero-width matches.
 # ## Contradictory: can't have a zero-width match that replaces *at the end*
 # { my $label = 'Testing sans \K solution';
