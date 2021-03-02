@@ -41,6 +41,7 @@ my @cases = (
 
 say @cases;
 
+my $label = 'Testing Yary variant';
 for @cases -> $case {
      my ($input, $expected, $sublabel) = $case.values;
      say $input;
@@ -49,8 +50,30 @@ for @cases -> $case {
      say '---';
      my $replace = ':/usr/local/bin';
 
+#     my $pattern =
+#       qr{
+#           ^ 
+#           [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
+#           (?!       #  A zero-width negative lookahead assertion.
+#             (?:     
+#               #            \s*      # not needed?
+#               [^:]* 
+#               : 
+#             )*       
+#             /usr/local/bin
+#             (?: 
+#               #            \s+ |   #  not needed
+#               :   | 
+#               $    ) 
+#           )
+#           .*  ## matches *everything* but only if the negative lookahead does not match
+#           \K  ## keeps *everything*, prevents s/// from removing anything from the existing string
+#           $
+#       }x;
+
 
 }
+
 
 exit;
 
