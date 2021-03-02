@@ -85,7 +85,7 @@ foreach my $case (@cases) {
         [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
         (?!       #  A zero-width negative lookahead assertion.
           (?:     
-            \s*      # maybe not needed?
+#            \s*      # maybe not needed?
             [^:]* 
             : 
           )*       
