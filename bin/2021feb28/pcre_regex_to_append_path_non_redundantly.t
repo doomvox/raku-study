@@ -10,10 +10,26 @@
 #      not append if /usr/local/bin is already present. The
 #      secure_path line looks like this.
 
-
-#########################
-
 # change 'tests => 1' to 'tests => last_test_to_print';
+
+# The context is a third party tool that takes a PCRE perl5-style regex
+# and a replacement string as two arguments.
+
+# The replace string will be something like
+#   \1:/usr/local/bin 
+
+# Examples of input and output:
+
+# 'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin' =>
+# 'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin',
+
+# 'Defaults secure_path = /bin:/usr/local/bin:/root/bin' =>
+# 'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
+
+
+
+
+
 
 use Test::More;
 
