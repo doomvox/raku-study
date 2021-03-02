@@ -66,7 +66,7 @@ foreach my $case (@cases) {
   is( $result, $expected, "$label: $sublabel");
 }
 
-## Expanding on Yary's solution to see what it's doing:
+
 
 ## What is \K?
 ##  \K        [6]  Keep the stuff left of the \K, don't include it in $&
