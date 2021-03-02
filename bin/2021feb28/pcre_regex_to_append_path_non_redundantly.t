@@ -59,6 +59,9 @@ foreach my $case (@cases) {
 
 ## Expanding on Yary's solution to see what it's doing:
 
+## What is \K?
+##  \K        [6]  Keep the stuff left of the \K, don't include it in $&
+
 foreach my $case (@cases) {
   my ($input, $expected, $label) = @{ $case };
 
