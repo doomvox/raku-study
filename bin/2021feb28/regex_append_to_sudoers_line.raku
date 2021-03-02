@@ -41,6 +41,14 @@ my @cases = (
 
 say @cases;
 
+for @cases -> $case {
+     my ($input, $expected, $sublabel) = $case.values;
+     say $input;
+     say $expected;
+     say $sublabel;
+     say '---';
+}
+
 exit;
 
 # { my $label = "Testing variant solution";
