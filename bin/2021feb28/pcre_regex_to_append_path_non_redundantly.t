@@ -2,8 +2,6 @@
 # Run this like so: `perl pcre_regex_to_append_path_non_redundantly.t'
 #   doom@kzsu.stanford.edu     2021/03/01 17:10:09
 
-# Also see:
-#  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021feb28/regex_append_to_sudoers_line.raku
 
 ## At the 2021feb28 SF Perl gathering, Lambert Lum posed a regex from hell question: 
 
@@ -51,3 +49,8 @@ ok(1, "If we made it this far, we're ok. All modules are loaded.");
 
 
 done_testing();
+
+
+
+# Also see:
+#  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021feb28/regex_append_to_sudoers_line.raku
