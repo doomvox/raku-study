@@ -195,49 +195,6 @@ say '===';
 # Also see:
 #  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021feb28/regex_append_to_sudoers_line.raku
 
-# say "===";
-# ## NOT WORKING
-# ## Curious about whether it could be done without \K via
-# ## multiple (overlapping?) zero-width matches.
-# ## Contradictory: can't have a zero-width match that replaces *at the end*
-# { my $label = 'Testing sans \K solution';
-#   foreach my $case (@cases) {
-#     my ($input, $expected, $sublabel) = @{ $case };
-
-#     my $replace = ':/usr/local/bin';
-
-#     ## Trying to use zero-width positive wrappers to get 
-#     ## a zero-width pattern *without* using \K
-#     my $pattern =
-#       qr{
-#           (?=                 # zero-width positive lookahead
-#             ^ 
-#             [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
-#             (?!               # A zero-width negative lookahead assertion.
-#               (?:     
-#                 #            \s*      # not needed?
-#                 [^:]* 
-#                 : 
-#               )*       
-#               /usr/local/bin
-#               (?: 
-#                 #            \s+ |   #  not needed
-#                 :   | 
-#                 $    ) 
-#             )
-#             .*  ## matches *everything* but only if the negative lookahead does not match
-#             $
-#           )
-#        # $  ## with $ outside the zero-width, it fails to match at all (?)
-#       }x;
-
-#     (my $result = $input) 
-#       =~
-#       s{ $pattern }{$replace}x ;
-
-#     is( $result, $expected, "$label: $sublabel" );
-#   }
-# }
 
 done_testing();
 
