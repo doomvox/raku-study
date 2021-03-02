@@ -84,7 +84,7 @@ foreach my $case (@cases) {
         ^ 
         (?!       #  A zero-width negative lookahead assertion.
           (?: 
-            \s*      # actually, maybe not needed
+            \s*      # actually, maybe not needed?
             [^:]* 
             : 
           )*       
