@@ -57,7 +57,7 @@ foreach my $case (@cases) {
   is( $result, $expected, "case: $label");
 }
 
-## Expanding on Yary's solution:
+## Expanding on Yary's solution to see what it's doing:
 
 foreach my $case (@cases) {
   my ($input, $expected, $label) = @{ $case };
