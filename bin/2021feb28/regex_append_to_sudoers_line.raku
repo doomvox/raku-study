@@ -7,8 +7,6 @@ use v6;
 ## using sysadmin tools that allow an input pattern and replace,
 ## but no other elements.  pcre, perl5 compatible (but crippled)
 
-
-
 # 298. [very hard] Given a line from /etc/sudoers, 
 
 #      Write a regex that will append /usr/local/bin to the secure_path line. 
@@ -23,6 +21,7 @@ use v6;
 # 'Defaults secure_path = /bin:/usr/local/bin:/root/bin' =>
 # 'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
 
-
 ## Something like replace \1:/usr/local/bin but only if it doesn't match already
 
+## See also:
+##  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021feb28/pcre_regex_to_append_path_non_redundantly.t
