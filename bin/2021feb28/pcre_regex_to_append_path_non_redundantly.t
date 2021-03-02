@@ -84,13 +84,13 @@ foreach my $case (@cases) {
         ^ 
         (?!       #  A zero-width negative lookahead assertion.
           (?: 
-            \s*      # actually, not needed
+            \s*      # actually, maybe not needed
             [^:]* 
             : 
           )*       
           /usr/local/bin
           (?: 
-            \s+ |   # actually, not needed
+            \s+ |   # actually, maybe not needed
             :   | 
             $    ) 
         )
