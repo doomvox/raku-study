@@ -160,8 +160,8 @@ say "===";
           $
       }x;
 
-    # (( BUT \1 is a literal if quoted ))
     # replace leads with \1: need to capture what we want to keep
+    # (( BUT \1 is a literal if quoted ))
     # my $replace = '\1:/usr/local/bin';
 
     my $append = ':/usr/local/bin';
