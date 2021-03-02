@@ -41,11 +41,17 @@ ok(1, "If we made it this far, we're ok. All modules are loaded.");
 
 my @cases = (
              [ 'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin',
-               'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin',
+               'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin' ],
+             [ 'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
+               'Defaults secure_path = /bin:/usr/local/bin:/root/bin' ],
+             );
 
-# 'Defaults secure_path = /bin:/usr/local/bin:/root/bin' =>
-# 'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
 
+foreach my @pair (@cases) {
+  my ($input, $expected) = @pair;
+
+
+}
 
 
 
