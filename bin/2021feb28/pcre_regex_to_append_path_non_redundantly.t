@@ -54,9 +54,7 @@ my @cases = (
                'Declines to append because path is already at the START'],
 
              );
-
-
-{ my $label = "Testing Yary solution";
+$label = "Testing Yary solution";
   foreach my $case (@cases) {
     my ($input, $expected, $sublabel) = @{ $case };
 
