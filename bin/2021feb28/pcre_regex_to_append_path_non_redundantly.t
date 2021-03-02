@@ -126,9 +126,8 @@ say "===";
 
     my $replace = ':/usr/local/bin';
 
-
     ## A pattern that matches the entire string, but only if 
-    ## there's no /usr/local/bin already in the given string
+    ## there's no /usr/local/bin already 
     my $pattern =
       qr{
           ^ 
