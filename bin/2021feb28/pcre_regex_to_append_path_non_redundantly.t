@@ -70,6 +70,7 @@ foreach my $case (@cases) {
 ##  \K        [6]  Keep the stuff left of the \K, don't include it in $&
 ## That's key to this solution: the replace is *appended*, nothing that's
 ## matched is removed by the s///
+## Question: is \K supported by PCRE?
 
 ## Another key element is the negative lookahead assertion that fails
 ## if there's already a /usr/local/bin entry
