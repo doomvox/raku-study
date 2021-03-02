@@ -118,9 +118,6 @@ say "===";
 say "===";
 ## Curious about whether it could be done *without* \K
 
-## Another key element is the negative lookahead assertion that fails
-## if there's already a /usr/local/bin entry
-
 { my $label = 'Testing sans \K solution';
   foreach my $case (@cases) {
     my ($input, $expected, $sublabel) = @{ $case };
