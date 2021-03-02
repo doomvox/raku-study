@@ -77,7 +77,7 @@ for @cases -> $case {
 
      $input
        ~~
-       s{ $pattern }{$replace}x ;
+       s/<$pattern>/$replace/ ;
 
 
 # use Test;
