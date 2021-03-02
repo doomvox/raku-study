@@ -39,7 +39,7 @@ ok(1, "If we made it this far, we're ok. All modules are loaded.");
 # Yary Hluchan's answer:
 #   s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ 
 
-my @cases = (
+my @cases = ( # for each case, an input string, an expected result, and a description
              [ 'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin',
                'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin',
                'Appends new path'],
