@@ -44,7 +44,5 @@ ok(1, "If we made it this far, we're ok. All modules are loaded.");
 
 done_testing();
 
-
-
 # Also see:
 #  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021feb28/regex_append_to_sudoers_line.raku
