@@ -39,22 +39,23 @@ ok(1, "If we made it this far, we're ok. All modules are loaded.");
 # Yary Hluchan's answer:
 #   s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ 
 
-# for each case, an input string, an expected result, and a description
-my @cases = ( 
-             [ 'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin',
-               'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin',
-               'Appends new path'],
-             [ 'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
-               'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
-               'Declines to append because path is already in the MIDDLE'],
-             [ 'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
-               'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
-               'Declines to append because path is already at the END'],
-             [ 'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
-               'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
-               'Declines to append because path is already at the START'],
+{
+  # for each case, an input string, an expected result, and a description
+  my @cases = ( 
+               [ 'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin',
+                 'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin',
+                 'Appends new path'],
+               [ 'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
+                 'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
+                 'Declines to append because path is already in the MIDDLE'],
+               [ 'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
+                 'Defaults secure_path = /bin:/root/bin:/usr/local/bin',
+                 'Declines to append because path is already at the END'],
+               [ 'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
+                 'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
+                 'Declines to append because path is already at the START'],
 
-             );
+              );
   my $label = "Testing Yary solution";
   foreach my $case (@cases) {
     my ($input, $expected, $sublabel) = @{ $case };
