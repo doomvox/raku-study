@@ -41,10 +41,24 @@ ok(1, "If we made it this far, we're ok. All modules are loaded.");
 
 my @cases = (
              [ 'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin',
-               'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin' ],
+               'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin',
+               'Appends new path'],
              [ 'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
-               'Defaults secure_path = /bin:/usr/local/bin:/root/bin' ],
+               'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
+               'Declines to append redundant path'],
              );
+
+my $i;
+foreach my $case (@cases) {
+  $i++;
+  my ($input, $expected, $label) = @{ $case };
+
+  (my $result = $input) 
+    =~ s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ ;
+
+  is( $result, $expected, "case: $i");
+}
+
 
 my $i;
 foreach my $pair (@cases) {
