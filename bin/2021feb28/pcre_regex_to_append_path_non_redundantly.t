@@ -25,11 +25,6 @@
 # 'Defaults secure_path = /bin:/usr/local/bin:/root/bin' =>
 # 'Defaults secure_path = /bin:/usr/local/bin:/root/bin',
 
-
-
-
-
-
 use Test::More;
 
 use 5.10.0;
