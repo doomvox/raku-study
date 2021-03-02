@@ -72,7 +72,7 @@ foreach my $case (@cases) {
   my $pattern =
     qr{
         ^ 
-        (?! 
+        (?!       #  A zero-width negative lookahead assertion.
           (?: 
             \s* 
             [^:]* 
