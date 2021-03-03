@@ -317,4 +317,14 @@ my @WORKIES;
 
 }
 
-
+{
+    my @report;
+    my $line = '';
+    for @WORKIES -> $pc {
+        $line  =  'mro: ';
+        $line ~= ::($pc).^mro.gist;
+        $line ~= "  for $pc";
+        @report.push($line);
+    }
+    @report.sort>>.say;
+}
