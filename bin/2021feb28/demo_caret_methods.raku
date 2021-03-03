@@ -252,3 +252,55 @@ my @PROBLEM_CASES;
         say 'mro: ', "$pc".^mro, "   for $pc";
     }
 }
+
+# mro: ((Str) (Cool) (Any) (Mu))   for Any
+# mro: ((Str) (Cool) (Any) (Mu))   for Array
+# mro: ((Str) (Cool) (Any) (Mu))   for Backtrace
+# mro: ((Str) (Cool) (Any) (Mu))   for Bag
+# mro: ((Str) (Cool) (Any) (Mu))   for BagHash
+# mro: ((Str) (Cool) (Any) (Mu))   for Capture
+# mro: ((Str) (Cool) (Any) (Mu))   for Channel
+# mro: ((Str) (Cool) (Any) (Mu))   for Endian
+# mro: ((Str) (Cool) (Any) (Mu))   for Grammar
+# mro: ((Str) (Cool) (Any) (Mu))   for Hash
+# mro: ((Str) (Cool) (Any) (Mu))   for HyperSeq
+# mro: ((Str) (Cool) (Any) (Mu))   for IO::ArgFiles
+# mro: ((Str) (Cool) (Any) (Mu))   for IO::CatHandle
+# mro: ((Str) (Cool) (Any) (Mu))   for IO::Handle
+# mro: ((Str) (Cool) (Any) (Mu))   for IO::Path::Parts
+# mro: ((Str) (Cool) (Any) (Mu))   for IO::Pipe
+# mro: ((Str) (Cool) (Any) (Mu))   for IO::Socket::Async
+# mro: ((Str) (Cool) (Any) (Mu))   for List
+# mro: ((Str) (Cool) (Any) (Mu))   for Map
+# mro: ((Str) (Cool) (Any) (Mu))   for Match
+# mro: ((Str) (Cool) (Any) (Mu))   for Metamodel::ClassHOW
+# mro: ((Str) (Cool) (Any) (Mu))   for Metamodel::ConcreteRoleHOW
+# mro: ((Str) (Cool) (Any) (Mu))   for Metamodel::CurriedRoleHOW
+# mro: ((Str) (Cool) (Any) (Mu))   for Metamodel::EnumHOW
+# mro: ((Str) (Cool) (Any) (Mu))   for Metamodel::PackageHOW
+# mro: ((Str) (Cool) (Any) (Mu))   for Metamodel::ParametricRoleGroupHOW
+# mro: ((Str) (Cool) (Any) (Mu))   for Metamodel::ParametricRoleHOW
+# mro: ((Str) (Cool) (Any) (Mu))   for Mix
+# mro: ((Str) (Cool) (Any) (Mu))   for MixHash
+# mro: ((Str) (Cool) (Any) (Mu))   for NFC
+# mro: ((Str) (Cool) (Any) (Mu))   for NFD
+# mro: ((Str) (Cool) (Any) (Mu))   for NFKC
+# mro: ((Str) (Cool) (Any) (Mu))   for NFKD
+# mro: ((Str) (Cool) (Any) (Mu))   for Nil
+# mro: ((Str) (Cool) (Any) (Mu))   for Order
+# mro: ((Str) (Cool) (Any) (Mu))   for Pair
+# mro: ((Str) (Cool) (Any) (Mu))   for Promise
+# mro: ((Str) (Cool) (Any) (Mu))   for PseudoStash
+# mro: ((Str) (Cool) (Any) (Mu))   for RaceSeq
+# mro: ((Str) (Cool) (Any) (Mu))   for Range
+# mro: ((Str) (Cool) (Any) (Mu))   for Seq
+# mro: ((Str) (Cool) (Any) (Mu))   for Set
+# mro: ((Str) (Cool) (Any) (Mu))   for SetHash
+# mro: ((Str) (Cool) (Any) (Mu))   for Slip
+# mro: ((Str) (Cool) (Any) (Mu))   for Stash
+# mro: ((Str) (Cool) (Any) (Mu))   for Supply
+# mro: ((Str) (Cool) (Any) (Mu))   for Uni
+# mro: ((Str) (Cool) (Any) (Mu))   for utf8
+
+## To my eye, that strongly suggests the problem is in the Str class...
+## but actually, this makes no sense to me.  
