@@ -322,6 +322,7 @@ say "===WORKIES===";
     my @report;
     my $line = '';
     for @WORKIES -> $pc {
+        CATCH { default { say "CAUGHT: ", .Str; .resume } }
         $line  =  'mro: ';
         $line ~= ::($pc).^mro.gist;
         $line ~= "  for $pc";
