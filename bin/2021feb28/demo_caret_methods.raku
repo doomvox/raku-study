@@ -144,9 +144,9 @@ my @PROBLEM_CASES;
             ## say "methodism: ", @meth;
             @other = @meth>>.gist;
             CATCH { when X::Method::NotFound
-                    { say "skipping $c because it's fuggheaded"; }
+                    { say "skipping $c because gist method not found"; }
                     when X::NoSuchSymbol 
-                    { say "Yaddah: X::NoSuchSymbol"; }
+                    { say "skipping $c because X::NoSuchSymbol"; }
                     when X::Parameter::InvalidConcreteness 
                     { if $c eq 'Failure' { } else { warn; } }
                   };
