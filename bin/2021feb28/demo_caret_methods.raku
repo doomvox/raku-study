@@ -242,5 +242,7 @@ my @PROBLEM_CASES;
 
 }
 
-### alternate approach: scan through all classes looking for .name ne .gist cases?
+### TODO alternate approach: scan through all classes looking for .name ne .gist cases?
 
+## For now:
+## Work with @PROBLEM_CASES, which are classes with 1 or more {Method+{is-nodal} .gist
