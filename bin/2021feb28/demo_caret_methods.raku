@@ -153,7 +153,7 @@ my @PROBLEM_CASES;
         }
         @results.push( [ @other.grep(/'Method+{is-nodal}.new'/).elems, $c ] );
     }
-    .say for @results.sort({ +.[0] })
+    .say for @results.sort({ +.[0] });
 
     @PROBLEM_CASES = @results>>.[1];
     say @PROBLEM_CASES;
