@@ -354,12 +354,14 @@ say "===WORKIES===";
                     { if $wc eq 'Failure' { } else { warn; } }
                     default { say "ask me if i care"; }
                   };
-        }
 
         $line  =  'mro: ';
         $line  ~=  $mro;
         $line  ~= "  for $wc";
         @report.push($line);
+
+        }
+
     }
     @report.sort>>.say;
 }
