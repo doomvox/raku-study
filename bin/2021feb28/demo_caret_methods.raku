@@ -323,7 +323,11 @@ say "===WORKIES===";
     my $line = '';
     for @WORKIES -> $pc {
         $line  =  'mro: ';
-        $line ~= ::($pc).^mro.gist;
+        # $line ~= ::($pc).^mro.gist;
+        #   You know what's bleeding annoying?
+        #   "This exception is not resumable" that's what.
+
+        my $line ~= run(«raku -e "$pc"», :out).out.slurp;
         $line ~= "  for $pc";
         @report.push($line);
     }
