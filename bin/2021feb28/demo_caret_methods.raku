@@ -317,7 +317,7 @@ my @WORKIES;
 
 }
 
-# say "===WORKIES===";
+say "===WORKIES===";
 # {
 #     my @report;
 #     my $line = '';
@@ -338,6 +338,32 @@ my @WORKIES;
 # #    CATCH { default { say "CAUGHT: ", .Str; .resume } }
 # }
 
+
+{
+    my @report;
+    my $line = '';
+    for @WORKIES -> $wc {
+        $line  =  'mro: ';
+
+        try {
+            my @mro = ::($c).^mro;
+            @other = @mro>>.gist;
+            CATCH { when X::Method::NotFound
+                    { say "skipping $c because ^mro method not found"; }
+                    when X::NoSuchSymbol 
+                    { say "skipping $c because X::NoSuchSymbol"; }
+                    when X::Parameter::InvalidConcreteness 
+                    { if $c eq 'Failure' { } else { warn; } }
+                  };
+        }
+
+
+        $line ~= "  for $wc";
+        @report.push($line);
+    }
+    @report.sort>>.say;
+#    CATCH { default { say "CAUGHT: ", .Str; .resume } }
+}
 
     my @results;
     for @lines -> $l {
