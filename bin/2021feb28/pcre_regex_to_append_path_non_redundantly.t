@@ -52,10 +52,10 @@ my @cases = (
              [ 'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
                'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
                'Declines to append because path is already at the START'],
-             [ 'Defaults secure_path = ',  # Note: without a trailing space would break "sans \K solution"
+             [ 'Defaults secure_path = ',  
                'Defaults secure_path = :/usr/local/bin',  # Edge case- leading colon is arguable
                'Appends to empty line'],
-             [ 'Defaults secure_path =',  # Note: without a trailing space would break "sans \K solution"
+             [ 'Defaults secure_path =',  # Hard case for the "sans \K solution"
                'Defaults secure_path = :/usr/local/bin',  # Edge case- leading colon is arguable
                'Appends to empty line without trailing space'],
              [ 'Defaults secure_path = /usr/local/bin',
