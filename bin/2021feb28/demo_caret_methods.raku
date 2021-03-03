@@ -252,6 +252,5 @@ my @PROBLEM_CASES;
  
         say 'mro: ', "$pc".^mro, "for $pc";
 
-
     }
 }
