@@ -249,8 +249,8 @@ my @PROBLEM_CASES;
 
 {
     for @PROBLEM_CASES -> $pc {
-        say $pc;
-        say "$pc".^mro;
+ 
+        say 'mro: ', "$pc".^mro, "for $pc";
 
 
     }
