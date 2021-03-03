@@ -317,23 +317,23 @@ my @WORKIES;
 
 }
 
-say "===WORKIES===";
-{
-    my @report;
-    my $line = '';
-    for @WORKIES.unique -> $wc {
-        $line  =  'mro: ';
-        # $line ~= ::($wc).^mro.gist;
-        #   You know what's bleeding annoying?
-        #   "This exception is not resumable" that's what.
- #       $line ~= run(«raku -e "$wc.^mro"», :out).out.slurp;
+# say "===WORKIES===";
+# {
+#     my @report;
+#     my $line = '';
+#     for @WORKIES.unique -> $wc {
+#         $line  =  'mro: ';
+#         # $line ~= ::($wc).^mro.gist;
+#         #   You know what's bleeding annoying?
+#         #   "This exception is not resumable" that's what.
+#  #       $line ~= run(«raku -e "$wc.^mro"», :out).out.slurp;
 
-        ## This sledge hammer isn't working either
-        ##        $line ~= run(«raku -e "$wc.^mro"», :out).out.slurp;
+#         ## This sledge hammer isn't working either
+#         ##        $line ~= run(«raku -e "$wc.^mro"», :out).out.slurp;
 
-        $line ~= "  for $wc";
-        @report.push($line);
-    }
-    @report.sort>>.say;
-#    CATCH { default { say "CAUGHT: ", .Str; .resume } }
-}
+#         $line ~= "  for $wc";
+#         @report.push($line);
+#     }
+#     @report.sort>>.say;
+# #    CATCH { default { say "CAUGHT: ", .Str; .resume } }
+# }
