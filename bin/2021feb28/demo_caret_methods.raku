@@ -328,8 +328,8 @@ say "===WORKIES===";
         #   "This exception is not resumable" that's what.
  #       $line ~= run(«raku -e "$wc.^mro"», :out).out.slurp;
 
-## This sledge hammer isn't working either
-##        $line ~= run(«raku -e "$wc.^mro"», :out).out.slurp;
+        ## This sledge hammer isn't working either
+        ##        $line ~= run(«raku -e "$wc.^mro"», :out).out.slurp;
 
         $line ~= "  for $wc";
         @report.push($line);
