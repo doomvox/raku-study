@@ -38,3 +38,20 @@ for @pairs.sort({ $^a.[0] cmp $^b.[0] }) -> $pair {
 # class: Attribute
 # CAUGHT: Required named parameter 'name' not passed
 # This exception is not resumable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
