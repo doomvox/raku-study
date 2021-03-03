@@ -55,6 +55,9 @@ my @cases = (
              [ 'Defaults secure_path = ',  # Note: without a trailing space would break "sans \K solution"
                'Defaults secure_path = :/usr/local/bin',  # Edge case- leading colon is arguable
                'Appends to empty line'],
+             [ 'Defaults secure_path =',  # Note: without a trailing space would break "sans \K solution"
+               'Defaults secure_path = :/usr/local/bin',  # Edge case- leading colon is arguable
+               'Appends to empty line'],
              [ 'Defaults secure_path = /usr/local/bin',
                'Defaults secure_path = /usr/local/bin',
                'Declines to append because path is already EQUAL'],
