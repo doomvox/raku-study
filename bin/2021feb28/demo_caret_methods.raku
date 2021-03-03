@@ -260,6 +260,7 @@ my @PROBLEM_CASES;
 
 say @report.sort;
 
+
 # mro: ((Str) (Cool) (Any) (Mu))   for Any
 # mro: ((Str) (Cool) (Any) (Mu))   for Array
 # mro: ((Str) (Cool) (Any) (Mu))   for Backtrace
