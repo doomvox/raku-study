@@ -251,7 +251,7 @@ my @PROBLEM_CASES;
     my @report;
     my $line = '';
     for @PROBLEM_CASES -> $pc {
-        $line =  'mro: ';
+        $line  =  'mro: ';
         $line ~= ::($pc).^mro.gist;
         $line ~= "  for $pc";
     }
