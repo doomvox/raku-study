@@ -165,7 +165,8 @@ my @WORKIES;
             @WORKIES.push($class) 
         }
     }
-    say @PROBLEM_CASES.elems; # 48
+    say "Number of classes that show problem: ", @PROBLEM_CASES.elems; # 48
+    say "Number of classes that seem okay: ", @WORKIES.elems; # 48
 }
 
 ## The 48 problem cases:
