@@ -167,6 +167,8 @@ my @WORKIES;
     }
     say "Number of classes that show problem: ", @PROBLEM_CASES.elems; # 48
     say "Number of classes that seem okay: ", @WORKIES.elems; # 
+    # Number of classes that show problem: 48
+    # Number of classes that seem okay: 281
 }
 
 ## The 48 problem cases:
