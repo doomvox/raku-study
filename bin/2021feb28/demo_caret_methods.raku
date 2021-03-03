@@ -256,7 +256,7 @@ my @PROBLEM_CASES;
         $line ~= "  for $pc";
         @report.push($line);
     }
-    @report.sort.say;
+    say @report.sort;
 }
 
 
