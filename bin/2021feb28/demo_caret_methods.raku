@@ -326,7 +326,8 @@ say "===WORKIES===";
         # $line ~= ::($wc).^mro.gist;
         #   You know what's bleeding annoying?
         #   "This exception is not resumable" that's what.
-        $line ~= run(«raku -e "$wc.^mro"», :out).out.slurp;
+ #       $line ~= run(«raku -e "$wc.^mro"», :out).out.slurp;
+       $line ~= run(«raku -e "$wc.^mro"», :out).out;
         $line ~= "  for $wc";
         @report.push($line);
     }
