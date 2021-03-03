@@ -339,29 +339,31 @@ say "===WORKIES===";
 # }
 
 
-{
-    my @report;
-    my $line = '';
-    for @WORKIES -> $wc {
-        my $mro;
-        try {
-            $mro = ::($wc).^mro;
-            CATCH { when X::Method::NotFound
-                    { say "skipping $wc because ^mro method not found"; }
-                    when X::NoSuchSymbol 
-                    { say "skipping $wc because X::NoSuchSymbol"; }
-                    when X::Parameter::InvalidConcreteness 
-                    { if $wc eq 'Failure' { } else { warn; } }
-                  };
-        }
+### This stuff isn't working on WORKIES:
 
-        if ($mro) { 
-            $line  =  'mro: ';
-            $line  ~=  $mro;
-            $line  ~= "  for $wc";
-            @report.push($line);
-        };
-    }
-    @report.sort>>.say;
-}
+# {
+#     my @report;
+#     my $line = '';
+#     for @WORKIES -> $wc {
+#         my $mro;
+#         try {
+#             $mro = ::($wc).^mro;
+#             CATCH { when X::Method::NotFound
+#                     { say "skipping $wc because ^mro method not found"; }
+#                     when X::NoSuchSymbol 
+#                     { say "skipping $wc because X::NoSuchSymbol"; }
+#                     when X::Parameter::InvalidConcreteness 
+#                     { if $wc eq 'Failure' { } else { warn; } }
+#                   };
+#         }
+
+#         if ($mro) { 
+#             $line  =  'mro: ';
+#             $line  ~=  $mro;
+#             $line  ~= "  for $wc";
+#             @report.push($line);
+#         };
+#     }
+#     @report.sort>>.say;
+# }
 
