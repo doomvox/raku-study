@@ -373,3 +373,5 @@ say "===WORKIES===";
 # Cannot look up attributes in a AST type object
 #   in block  at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021feb28/demo_caret_methods.raku line 361
 #   in block <unit> at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021feb28/demo_caret_methods.raku line 320
+
+@WORKIES>>.say;
