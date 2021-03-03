@@ -346,8 +346,7 @@ say "===WORKIES===";
         $line  =  'mro: ';
 
         try {
-            my @mro = ::($c).^mro;
-            @other = @mro>>.gist;
+            my $mro = ::($c).^mro;
             CATCH { when X::Method::NotFound
                     { say "skipping $c because ^mro method not found"; }
                     when X::NoSuchSymbol 
