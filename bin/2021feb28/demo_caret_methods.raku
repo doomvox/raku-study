@@ -256,9 +256,10 @@ my @PROBLEM_CASES;
         $line ~= "  for $pc";
     }
     @report.push($line);
+    say @report.sort;
 }
 
-say @report.sort;
+
 
 
 # mro: ((Str) (Cool) (Any) (Mu))   for Any
