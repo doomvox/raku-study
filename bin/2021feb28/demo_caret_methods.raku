@@ -660,3 +660,12 @@ say "===WORKIES===";
 # X::TypeCheck::Return
 # X::TypeCheck::Splice
 # X::Undeclared
+
+## 
+
+# raku -e 'say Date.^mro'
+# ((Date) (Any) (Mu))
+# raku -e 'say Thread.^mro'
+# ((Thread) (Any) (Mu))
+# raku -e 'say Bool.^mro'
+# ((Bool) (Int) (Cool) (Any) (Mu))
