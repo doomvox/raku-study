@@ -128,6 +128,8 @@ use v6;
 #     }
 # }
 
+
+my @PROBLEM_CASES;
 {
     say "===W===";
     my $type_list_file = "/home/doom/End/Cave/Perl6/Wall/raku-study/type.lst";
@@ -152,6 +154,9 @@ use v6;
         @results.push( [ @other.grep(/'Method+{is-nodal}.new'/).elems, $c ] );
     }
     .say for @results.sort({ +.[0] })
+
+    @PROBLEM_CASES = @results>>.[1];
+    say @PROBLEM_CASES;
 }
 
 ## The 48 problem cases:
