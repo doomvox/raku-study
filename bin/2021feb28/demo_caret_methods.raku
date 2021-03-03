@@ -160,7 +160,6 @@ my @PROBLEM_CASES;
         my ($count, $class) = $r.values;
         @PROBLEM_CASES.push($class) if $count > 0;
     }
-    say @PROBLEM_CASES;
 }
 
 ## The 48 problem cases:
