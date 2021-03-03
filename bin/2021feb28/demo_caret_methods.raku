@@ -159,7 +159,11 @@ my @WORKIES;
     say "PC: ";
     for @results -> $r {
         my ($count, $class) = $r.values;
-        @PROBLEM_CASES.push($class) if $count > 0;
+        if $count > 0 {
+            @PROBLEM_CASES.push($class) 
+        } else {
+            @WORKIES.push($class) 
+        }
     }
     say @PROBLEM_CASES.elems; # 48
 }
