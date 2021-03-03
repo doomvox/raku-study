@@ -257,6 +257,56 @@ my @PROBLEM_CASES;
         @report.push($line);
     }
     @report.sort>>.say;
+
+# mro: ((Any) (Mu))  for Any
+# mro: ((ArgFiles) (CatHandle) (Handle) (Any) (Mu))  for IO::ArgFiles
+# mro: ((Array) (List) (Cool) (Any) (Mu))  for Array
+# mro: ((Async) (Any) (Mu))  for IO::Socket::Async
+# mro: ((Backtrace) (Any) (Mu))  for Backtrace
+# mro: ((Bag) (Any) (Mu))  for Bag
+# mro: ((BagHash) (Any) (Mu))  for BagHash
+# mro: ((Capture) (Any) (Mu))  for Capture
+# mro: ((CatHandle) (Handle) (Any) (Mu))  for IO::CatHandle
+# mro: ((Channel) (Any) (Mu))  for Channel
+# mro: ((ClassHOW) (Any) (Mu))  for Metamodel::ClassHOW
+# mro: ((ConcreteRoleHOW) (Any) (Mu))  for Metamodel::ConcreteRoleHOW
+# mro: ((CurriedRoleHOW) (Any) (Mu))  for Metamodel::CurriedRoleHOW
+# mro: ((Endian) (Int) (Cool) (Any) (Mu))  for Endian
+# mro: ((EnumHOW) (Any) (Mu))  for Metamodel::EnumHOW
+# mro: ((Grammar) (Match) (Capture) (Cool) (Any) (Mu))  for Grammar
+# mro: ((Handle) (Any) (Mu))  for IO::Handle
+# mro: ((Hash) (Map) (Cool) (Any) (Mu))  for Hash
+# mro: ((HyperSeq) (Any) (Mu))  for HyperSeq
+# mro: ((List) (Cool) (Any) (Mu))  for List
+# mro: ((Map) (Cool) (Any) (Mu))  for Map
+# mro: ((Match) (Capture) (Cool) (Any) (Mu))  for Match
+# mro: ((Mix) (Any) (Mu))  for Mix
+# mro: ((MixHash) (Any) (Mu))  for MixHash
+# mro: ((NFC) (Uni) (Any) (Mu))  for NFC
+# mro: ((NFD) (Uni) (Any) (Mu))  for NFD
+# mro: ((NFKC) (Uni) (Any) (Mu))  for NFKC
+# mro: ((NFKD) (Uni) (Any) (Mu))  for NFKD
+# mro: ((Order) (Int) (Cool) (Any) (Mu))  for Order
+# mro: ((PackageHOW) (Any) (Mu))  for Metamodel::PackageHOW
+# mro: ((Pair) (Any) (Mu))  for Pair
+# mro: ((ParametricRoleGroupHOW) (Any) (Mu))  for Metamodel::ParametricRoleGroupHOW
+# mro: ((ParametricRoleHOW) (Any) (Mu))  for Metamodel::ParametricRoleHOW
+# mro: ((Parts) (Any) (Mu))  for IO::Path::Parts
+# mro: ((Pipe) (Handle) (Any) (Mu))  for IO::Pipe
+# mro: ((Promise) (Any) (Mu))  for Promise
+# mro: ((PseudoStash) (Map) (Cool) (Any) (Mu))  for PseudoStash
+# mro: ((RaceSeq) (Any) (Mu))  for RaceSeq
+# mro: ((Range) (Cool) (Any) (Mu))  for Range
+# mro: ((Seq) (Cool) (Any) (Mu))  for Seq
+# mro: ((Set) (Any) (Mu))  for Set
+# mro: ((SetHash) (Any) (Mu))  for SetHash
+# mro: ((Slip) (List) (Cool) (Any) (Mu))  for Slip
+# mro: ((Stash) (Hash) (Map) (Cool) (Any) (Mu))  for Stash
+# mro: ((Supply) (Any) (Mu))  for Supply
+# mro: ((Uni) (Any) (Mu))  for Uni
+# mro: ((utf8) (Any) (Mu))  for utf8
+# mro: (Nil (Cool) (Any) (Mu))  for Nil
+
 }
 
 
