@@ -132,7 +132,7 @@ say "===";
 }
 
 say "===";
-## We can make this solution work without \K 
+## We can make this solution work without \K by including \1 in the replace
 { my $label = "Testing sans \K solution";
   foreach my $case (@cases) {
     my ($input, $expected, $sublabel) = @{ $case };
