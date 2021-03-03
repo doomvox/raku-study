@@ -156,7 +156,9 @@ my @PROBLEM_CASES;
     .say for @results.sort({ +.[0] });
 
     say "PC: ";
-    @PROBLEM_CASES = @results>>.[1];
+    for @results -> $r {
+        my ($count, $class) = $r.values;
+    @PROBLEM_CASES = @results.map();>>.[1];
     say @PROBLEM_CASES;
 }
 
