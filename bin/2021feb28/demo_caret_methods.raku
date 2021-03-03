@@ -246,3 +246,11 @@ my @PROBLEM_CASES;
 
 ## For now:
 ## Work with @PROBLEM_CASES, which are classes with 1 or more {Method+{is-nodal} .gist
+
+{
+    for @PROBLEM_CASES -> $pc {
+        say $pc;
+        say "$pc".^mro;
+
+
+    }
