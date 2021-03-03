@@ -357,10 +357,9 @@ say "===WORKIES===";
 
         $line  =  'mro: ';
         $line  ~=  $mro;
-        $line ~= "  for $wc";
+        $line  ~= "  for $wc";
         @report.push($line);
     }
     @report.sort>>.say;
-#    CATCH { default { say "CAUGHT: ", .Str; .resume } }
 }
 
