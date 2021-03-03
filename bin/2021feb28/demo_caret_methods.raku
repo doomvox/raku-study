@@ -255,9 +255,10 @@ my @PROBLEM_CASES;
         $line ~= ::($pc).^mro.gist;
         $line ~= "  for $pc";
     }
-
     @report.push($line);
 }
+
+say @report.sort;
 
 # mro: ((Str) (Cool) (Any) (Mu))   for Any
 # mro: ((Str) (Cool) (Any) (Mu))   for Array
