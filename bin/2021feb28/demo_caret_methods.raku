@@ -343,7 +343,6 @@ say "===WORKIES===";
     my @report;
     my $line = '';
     for @WORKIES -> $wc {
-        $line  =  'mro: ';
         my $mro;
         try {
             $mro = ::($c).^mro;
