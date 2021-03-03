@@ -331,5 +331,5 @@ say "===WORKIES===";
         @report.push($line);
     }
     @report.sort>>.say;
-    CATCH { default { say "CAUGHT: ", .Str; .resume } }
+#    CATCH { default { say "CAUGHT: ", .Str; .resume } }
 }
