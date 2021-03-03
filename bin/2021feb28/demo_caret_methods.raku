@@ -673,3 +673,5 @@ say "===WORKIES===";
 # ((Bool) (Int) (Cool) (Any) (Mu))
 
 ## note Any occurs here too.
+
+## many of WORKIES won't let you call ^mro on them. 
