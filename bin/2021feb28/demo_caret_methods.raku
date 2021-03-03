@@ -321,7 +321,7 @@ say "===WORKIES===";
 {
     my @report;
     my $line = '';
-    for @WORKIES -> $wc {
+    for @WORKIES.unique -> $wc {
         $line  =  'mro: ';
         # $line ~= ::($wc).^mro.gist;
         #   You know what's bleeding annoying?
