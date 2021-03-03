@@ -254,8 +254,8 @@ my @PROBLEM_CASES;
         $line  =  'mro: ';
         $line ~= ::($pc).^mro.gist;
         $line ~= "  for $pc";
+        @report.push($line);
     }
-    @report.push($line);
     @report.sort.say;
 }
 
