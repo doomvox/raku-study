@@ -249,7 +249,10 @@ my @PROBLEM_CASES;
 
 {
     for @PROBLEM_CASES -> $pc {
-        say 'mro: ', ::($pc).^mro, "   for $pc";
+        my $line =  'mro: ';
+        $line ~= ::($pc).^mro.gist;
+        $line ~= "  for $pc";
+
     }
 }
 
@@ -302,5 +305,5 @@ my @PROBLEM_CASES;
 # mro: ((Str) (Cool) (Any) (Mu))   for Uni
 # mro: ((Str) (Cool) (Any) (Mu))   for utf8
 
-## To my eye, that strongly suggests the problem is in the Str class...
-## but actually, this makes no sense to me.  
+
+
