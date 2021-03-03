@@ -158,7 +158,8 @@ my @PROBLEM_CASES;
     say "PC: ";
     for @results -> $r {
         my ($count, $class) = $r.values;
-    @PROBLEM_CASES = @results.map();>>.[1];
+        @PROBLEM_CASES.push($class) if $count > 0;
+    }
     say @PROBLEM_CASES;
 }
 
