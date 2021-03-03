@@ -55,7 +55,7 @@ my @cases = (
              [ 'Defaults secure_path = ',  
                'Defaults secure_path = :/usr/local/bin',  # Edge case- leading colon is arguable
                'Appends to empty line'],
-#              [ 'Defaults secure_path =',  # A hard case for the "sans \K solution"
+#              [ 'Defaults secure_path =',  # A hard case for the "sans \K solution": is handling this required?
 #                'Defaults secure_path = :/usr/local/bin',  # Edge case- leading colon is arguable
 #                'Appends to empty line without trailing space'],
              [ 'Defaults secure_path = /usr/local/bin',
