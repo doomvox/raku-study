@@ -321,14 +321,14 @@ say "===WORKIES===";
 {
     my @report;
     my $line = '';
-    for @WORKIES -> $pc {
+    for @WORKIES -> $wc {
         $line  =  'mro: ';
-        # $line ~= ::($pc).^mro.gist;
+        # $line ~= ::($wc).^mro.gist;
         #   You know what's bleeding annoying?
         #   "This exception is not resumable" that's what.
 
-        my $line ~= run(«raku -e "$pc"», :out).out.slurp;
-        $line ~= "  for $pc";
+        my $line ~= run(«raku -e "$wc"», :out).out.slurp;
+        $line ~= "  for $wc";
         @report.push($line);
     }
     @report.sort>>.say;
