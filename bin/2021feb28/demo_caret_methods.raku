@@ -344,9 +344,9 @@ say "===WORKIES===";
     my $line = '';
     for @WORKIES -> $wc {
         $line  =  'mro: ';
-
+        my $mro;
         try {
-            my $mro = ::($c).^mro;
+            $mro = ::($c).^mro;
             CATCH { when X::Method::NotFound
                     { say "skipping $c because ^mro method not found"; }
                     when X::NoSuchSymbol 
@@ -364,21 +364,3 @@ say "===WORKIES===";
 #    CATCH { default { say "CAUGHT: ", .Str; .resume } }
 }
 
-    my @results;
-    for @lines -> $l {
-        my $c = $l.split( /\s+/ ).[0];
-        my @other;
-        try {
-            my @mro = ::($c).^mro;
-            @other = @mro>>.gist;
-            CATCH { when X::Method::NotFound
-                    { say "skipping $c because ^mro method not found"; }
-                    when X::NoSuchSymbol 
-                    { say "skipping $c because X::NoSuchSymbol"; }
-                    when X::Parameter::InvalidConcreteness 
-                    { if $c eq 'Failure' { } else { warn; } }
-                  };
-        }
-        @results.push( [ @other.grep(/'Method+{is-nodal}.new'/).elems, $c ] );
-    }
-    .say for @results.sort({ +.[0] });
