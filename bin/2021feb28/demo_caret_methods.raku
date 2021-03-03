@@ -352,6 +352,7 @@ say "===WORKIES===";
                     { say "skipping $wc because X::NoSuchSymbol"; }
                     when X::Parameter::InvalidConcreteness 
                     { if $wc eq 'Failure' { } else { warn; } }
+                    default { say "ask me if i care"; }
                   };
         }
 
