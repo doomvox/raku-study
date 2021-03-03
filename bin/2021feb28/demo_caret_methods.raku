@@ -337,3 +337,23 @@ my @WORKIES;
 #     @report.sort>>.say;
 # #    CATCH { default { say "CAUGHT: ", .Str; .resume } }
 # }
+
+
+    my @results;
+    for @lines -> $l {
+        my $c = $l.split( /\s+/ ).[0];
+        my @other;
+        try {
+            my @meth = ::($c).^mro;
+            @other = @meth>>.gist;
+            CATCH { when X::Method::NotFound
+                    { say "skipping $c because gist method not found"; }
+                    when X::NoSuchSymbol 
+                    { say "skipping $c because X::NoSuchSymbol"; }
+                    when X::Parameter::InvalidConcreteness 
+                    { if $c eq 'Failure' { } else { warn; } }
+                  };
+        }
+        @results.push( [ @other.grep(/'Method+{is-nodal}.new'/).elems, $c ] );
+    }
+    .say for @results.sort({ +.[0] });
