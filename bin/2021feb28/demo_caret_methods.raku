@@ -160,9 +160,9 @@ my @WORKIES;
     for @results -> $r {
         my ($count, $class) = $r.values;
         if ( $count > 0 ) {
-            @PROBLEM_CASES.push($class);
+            @PROBLEM_CASES.push( $class );
         } else {
-            @WORKIES.push($class);
+            @WORKIES.push( $class );
         }
     }
     say "Number of classes that show problem: ", @PROBLEM_CASES.elems; # 48
