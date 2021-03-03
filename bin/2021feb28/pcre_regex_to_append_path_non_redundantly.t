@@ -144,10 +144,10 @@ say "===";
       qr{
           ^ 
           (        # Capture to $1
-          [^=]*?   =     # Begin after  'Defaults secure_path = '
+          [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
           (?!       #  A zero-width negative lookahead assertion.
             (?:     
-                          \s*      # not needed?
+#                          \s*      # not needed?
               [^:]* 
               : 
             )*       
