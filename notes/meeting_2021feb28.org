@@ -76,7 +76,7 @@ e.g. it checks that Any.^methods shows more than List.^methods
 "The .^methods method returns method-descriptors containing:
     name                the name of the method"
 ******* Note, the ".^can" method might be used to check the ".^methods.name":
-$obj.^can("bark")
+$dog.^can("bark")
 ******* https://raku.org/specification/
 ******** 6.c spec: https://github.com/Raku/roast/tree/6.c-errata
 ******** dev spec: https://github.com/Raku/roast
