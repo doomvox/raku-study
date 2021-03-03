@@ -130,6 +130,7 @@ use v6;
 
 
 my @PROBLEM_CASES;
+my @WORKIES;
 {
     say "===W===";
     my $type_list_file = "/home/doom/End/Cave/Perl6/Wall/raku-study/type.lst";
