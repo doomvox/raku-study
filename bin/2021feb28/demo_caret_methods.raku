@@ -317,6 +317,7 @@ my @WORKIES;
 
 }
 
+say "===WORKIES===";
 {
     my @report;
     my $line = '';
