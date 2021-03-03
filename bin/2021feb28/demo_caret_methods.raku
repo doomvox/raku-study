@@ -248,12 +248,15 @@ my @PROBLEM_CASES;
 ## Work with @PROBLEM_CASES, which are classes with 1 or more {Method+{is-nodal} .gist
 
 {
+    my @report;
+    my $line = '';
     for @PROBLEM_CASES -> $pc {
-        my $line =  'mro: ';
+        $line =  'mro: ';
         $line ~= ::($pc).^mro.gist;
         $line ~= "  for $pc";
-
     }
+
+    @report.push($line);
 }
 
 # mro: ((Str) (Cool) (Any) (Mu))   for Any
