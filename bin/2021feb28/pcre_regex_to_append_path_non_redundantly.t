@@ -144,6 +144,7 @@ say "===";
           ^ 
           (        # Capture to $1
 #          [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
+          # Trying a more explicit form
           Defaults \s+ secure_path \s+ = \s+   # Begin after  'Defaults secure_path = '
           (?!       #  A zero-width negative lookahead assertion.
             (?:     
