@@ -145,10 +145,10 @@ my @PROBLEM_CASES;
             @other = @meth>>.gist;
             CATCH { when X::Method::NotFound
                     { say "skipping $c because it's fuggheaded"; }
-                      when X::NoSuchSymbol 
-                      { say "Yaddah: X::NoSuchSymbol"; }
-                      when X::Parameter::InvalidConcreteness 
-                      { if $c eq 'Failure' { } else { warn; } }
+                    when X::NoSuchSymbol 
+                    { say "Yaddah: X::NoSuchSymbol"; }
+                    when X::Parameter::InvalidConcreteness 
+                    { if $c eq 'Failure' { } else { warn; } }
                   };
         }
         @results.push( [ @other.grep(/'Method+{is-nodal}.new'/).elems, $c ] );
