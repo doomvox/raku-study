@@ -347,11 +347,11 @@ say "===WORKIES===";
         try {
             $mro = ::($wc).^mro;
             CATCH { when X::Method::NotFound
-                    { say "skipping $c because ^mro method not found"; }
+                    { say "skipping $wc because ^mro method not found"; }
                     when X::NoSuchSymbol 
-                    { say "skipping $c because X::NoSuchSymbol"; }
+                    { say "skipping $wc because X::NoSuchSymbol"; }
                     when X::Parameter::InvalidConcreteness 
-                    { if $c eq 'Failure' { } else { warn; } }
+                    { if $wc eq 'Failure' { } else { warn; } }
                   };
         }
 
