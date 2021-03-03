@@ -164,7 +164,7 @@ say "===";
           $
       }x;
 
-    # replace leads with \1: we capture what we want to keep
+    # replace leads with \1: we've captured what we want to keep
     # (( BUT \1 is a literal if quoted ))
     # my $replace = '\1:/usr/local/bin';
 
