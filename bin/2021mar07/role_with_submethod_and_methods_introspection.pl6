@@ -8,7 +8,6 @@
 use v6;
 
 class Foo {
-
     role Z {
         method gist {
             'whatever';
@@ -35,6 +34,8 @@ say $foo.^methods;
 
 say $foo.^method_names;
 ## (vlub TWEAK BUILDALL blah)
+
+say $foo.^methods>>.name;
 
 say .name for $foo.^methods;
 # vlub
