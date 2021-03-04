@@ -28,11 +28,12 @@ class Foo {
 }
 
 
-say Foo.new.^methods;
+my $foo = Foo.new;
 
+say $foo.^methods;
 ## (whatever TWEAK Submethod+{is-hidden-from-backtrace}.new <anon>)
 
-say Foo.new.^method_names;
+say $foo.^method_names;
 
 
 
