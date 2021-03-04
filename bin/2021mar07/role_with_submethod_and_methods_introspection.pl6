@@ -39,9 +39,10 @@ say $foo.^methods>>.name;
 ## (vlub TWEAK BUILDALL <anon>)
 
 say "---";
+
 # verifying you can actually call this routine with "blah"
 say $foo.blah;
-# Blah!
+# Blah!   (Note: modified the code so blah returns something)
 
 
 # By the way, a second use of new throws an error:
