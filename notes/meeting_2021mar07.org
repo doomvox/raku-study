@@ -27,8 +27,9 @@
 ** other possible topics
 
 *** the great "say Set.^methods" affair
-
-https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
-
-*** issue discussion
+**** the issue (bug report and discussion):
 https://github.com/rakudo/rakudo/issues/4207
+
+**** the roast test, aka the spec:
+https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
+***** it checks the case of inheritence, but not roles
