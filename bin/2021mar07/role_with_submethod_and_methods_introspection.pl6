@@ -23,7 +23,7 @@ class Foo {
     }
 
     submethod TWEAK {
-        self.^add_method('blah', method () {});
+        self.^add_method('blah', method () { return 'blah'; });
     }
 }
 
@@ -44,7 +44,7 @@ say .name for $foo.^methods;
 
 say "---";
 say $foo.blah;
-
+# Nil
 
 ## my $foo2 = Foo.new;
 
