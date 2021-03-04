@@ -34,6 +34,9 @@ say $foo.^methods;
 ## (whatever TWEAK Submethod+{is-hidden-from-backtrace}.new <anon>)
 
 say $foo.^method_names;
+## (vlub TWEAK BUILDALL blah)
+
+say .name for $foo.^methods;
 
 
 ## my $foo2 = Foo.new;
