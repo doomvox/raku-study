@@ -42,6 +42,7 @@ say .name for $foo.^methods;
 # BUILDALL
 # <anon>
 
+say "---";
 say $foo.blah;
 
 
