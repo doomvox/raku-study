@@ -43,8 +43,10 @@ say .name for $foo.^methods;
 # <anon>
 
 say "---";
+# verifying you can actually call this routine with "blah"
 say $foo.blah;
-# Nil
+# Blah!
+
 
 ## my $foo2 = Foo.new;
 
