@@ -23,7 +23,7 @@ class Foo {
     }
 
     submethod TWEAK {
-        self.^add_method('blah', method () { return 'blah'; });
+        self.^add_method('blah', method () { return 'Blah!'; });
     }
 }
 
