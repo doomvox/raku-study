@@ -41,8 +41,9 @@ say $foo.^methods>>.name;
 say "---";
 
 # verifying you can actually call this routine with "blah"
+# (Note: modified the code so blah returns something)
 say $foo.blah;
-# Blah!   (Note: modified the code so blah returns something)
+# Blah!   
 
 
 # By the way, a second use of new throws an error:
