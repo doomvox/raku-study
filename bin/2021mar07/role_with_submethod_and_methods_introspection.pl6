@@ -37,6 +37,11 @@ say $foo.^method_names;
 ## (vlub TWEAK BUILDALL blah)
 
 say .name for $foo.^methods;
+# vlub
+# TWEAK
+# BUILDALL
+# <anon>
+
 
 
 ## my $foo2 = Foo.new;
