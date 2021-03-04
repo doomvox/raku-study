@@ -44,7 +44,8 @@ say $foo.blah;
 # Blah!
 
 
-## my $foo2 = Foo.new;
+my $foo2 = Foo.new;
+
 
 ## Make errors into warnings
 ## CATCH { default { say "CAUGHT: ", .Str; .resume } }
