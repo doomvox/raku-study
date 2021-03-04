@@ -48,8 +48,6 @@ say $foo.blah;
 my $foo2 = Foo.new;
 ## Package 'Foo' already has a method 'blah' (did you mean to declare a multi-method?)
 
-say "That's all";
-
 ## Make errors into warnings
 ## CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
