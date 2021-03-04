@@ -36,6 +36,7 @@ say $foo.^methods;
 say $foo.^method_names;
 
 
+## my $foo2 = Foo.new;
 
 ## Make errors into warnings
 ## CATCH { default { say "CAUGHT: ", .Str; .resume } }
