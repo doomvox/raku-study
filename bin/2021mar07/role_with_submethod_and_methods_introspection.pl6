@@ -36,12 +36,7 @@ say $foo.^method_names;
 ## (vlub TWEAK BUILDALL blah)
 
 say $foo.^methods>>.name;
-
-say .name for $foo.^methods;
-# vlub
-# TWEAK
-# BUILDALL
-# <anon>
+## (vlub TWEAK BUILDALL <anon>)
 
 say "---";
 # verifying you can actually call this routine with "blah"
