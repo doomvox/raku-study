@@ -34,7 +34,7 @@ https://github.com/rakudo/rakudo/issues/4207
 https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 ***** it checks the case of inheritence, but not roles
 
-*** a stupid mistake that isn't: creating your own method named with a leading ^
+*** a stupid mistake that isn't: creating a method named with a leading ^
 **** https://stackoverflow.com/questions/54143036/class-method-name-with-doesnt-get-invoked-properly/54147131#54147131
 
 *** 69 cent tour of raku regexs
