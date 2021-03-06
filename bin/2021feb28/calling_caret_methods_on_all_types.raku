@@ -1,6 +1,8 @@
 #!/usr/bin/env perl6
 # 
-# exploring_problem_cases_in_caret_methods_for_all_classes.raku            06 Mar 2021 
+# calling_caret_methods_on_all_types.raku        06 Mar 2021 
+
+
 
 use v6;
 
