@@ -92,6 +92,7 @@ use v6;
 }
 
 {
+    say "---";
     my @a = < a b c >;
     my @n = < 1 2 3 >;
     my @C = < A B C >;
