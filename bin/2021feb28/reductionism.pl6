@@ -24,7 +24,7 @@ use v6;
     my @m = 1, 2, 3;
     say @n; # [2 3 4]
     say @m; # [1 2 3]
-    my @r = @n [+] @m;
+    my @r = @n [+] @m;  ## WRONG  maybe meant >>+<<
     say @r;  # [6] 
 
     # So, that line ignores the @n and uses
