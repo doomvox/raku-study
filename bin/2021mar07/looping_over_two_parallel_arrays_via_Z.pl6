@@ -104,17 +104,20 @@ use v6;
     my @hm = ( @a Z @n ) Z @C;
     say @hm; # [((a 1) A) ((b 2) B) ((c 3) C)]
     ## That's what I'd have expected the first time
-    say "btw, flat?";
-    say @hm.flat;    # (((a 1) A) ((b 2) B) ((c 3) C))
-    say @hm>>.flat;  # [(((a) (1)) (A)) (((b) (2)) (B)) (((c) (3)) (C))]
 
-    ## Actual behavior
+    ## the actual behavior is convenient for extending the loop idiom
     for @a Z @n Z @C -> ( $v1, $v2, $v3 ) {
          say "v1: $v1, v2: $v2, v3: $v3";
      }
      # v1: a, v2: 1, v3: A
      # v1: b, v2: 2, v3: B
      # v1: c, v2: 3, v3: C
+
+    say "btw, flat?";
+    say @hm.flat;    # (((a 1) A) ((b 2) B) ((c 3) C))
+    say @hm>>.flat;  # [(((a) (1)) (A)) (((b) (2)) (B)) (((c) (3)) (C))]
+
+
 }
 
 
