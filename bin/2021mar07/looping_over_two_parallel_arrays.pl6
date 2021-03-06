@@ -45,7 +45,7 @@ use v6;
 
 { 
     ## what if they're unequal lengths?  (an issue I'm always watching)
-    my @alpha = <a b c>;
+    my @alpha   = <a b c>;
     my @numeric = <1 2 3>;
     my @zipped = @alpha Z @numeric;
     say @zipped;  # [(a 1) (b 2) (c 3)]
