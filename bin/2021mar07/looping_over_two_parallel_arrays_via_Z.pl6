@@ -113,10 +113,13 @@ use v6;
      # v1: b, v2: 2, v3: B
      # v1: c, v2: 3, v3: C
 
-    say "btw, flat?";
+    say "btw, what about flat?";
     say @hm.flat;    # (((a 1) A) ((b 2) B) ((c 3) C))
     say @hm>>.flat;  # [(((a) (1)) (A)) (((b) (2)) (B)) (((c) (3)) (C))]
 
+    for @hm>>.flat -> $a {
+        say $a;
+    }
 
 }
 
