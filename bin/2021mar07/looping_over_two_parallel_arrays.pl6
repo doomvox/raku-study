@@ -20,16 +20,15 @@ for 0 ..^ @English -> $index {
     say "@English[ $index ] => @Latvian[ $index ]";
 }
 
-# In Raku, you can use the Z meta-operator to create a sequence
-# of lists so that you get one element from each array (actually,
-# lists are expected as input) at a time:
+# In Raku, you can use the Z meta-operator 
 
 for @English Z @Latvian -> ($english, $latvian) {
     say "$english is $latvian in Latvian.";
 }
 
-
-
+my @alpha = <a b c>;
+my @numeric = <1 2 3>;
+my @zipped =  @alpha Z @numeric;
 
 
 
