@@ -108,6 +108,9 @@ use v6;
      for @a Z @n Z @C -> ( $v1, $v2, $v3 ) {
          say "v1: $v1, v2: $v2, v3: $v3";
      }
+     # v1: a, v2: 1, v3: A
+     # v1: b, v2: 2, v3: B
+     # v1: c, v2: 3, v3: C
 }
 
 
