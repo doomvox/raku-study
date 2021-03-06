@@ -82,7 +82,9 @@ use v6;
 
     # and if one side is empty
     my @alpha0   = <a b c d e>;
-    # my @numeric0 = <>;  # Unsupported use of <>.  In Raku please use: lines() to read input, ('')
+    # my @numeric0 = <>;
+    ## Heh: 
+    ## Unsupported use of <>.  In Raku please use: lines() to read input, ('')
     my @numeric0 = ();
     my @zipped0 = @alpha0 Z @numeric0;
     say @zipped0;  #
