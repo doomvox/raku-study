@@ -34,6 +34,10 @@ say @zipped;  # [(a 1) (b 2) (c 3)]
 for @zipped -> ($a, $n) {
     say "a: $a, n: $n";
 }
+# a: a, n: 1
+# a: b, n: 2
+# a: c, n: 3
+
 
 
 # ====
