@@ -101,9 +101,8 @@ use v6;
     say @triple;  # [(a 1 A) (b 2 B) (c 3 C)]
     ## Ye gods: that's an excellent DWIM, but not at all expected.
 
-
     my @hm = ( @a Z @n ) Z @C;
-
+    say @hm;
 
 #     for @a Z @n Z @ C -> 
 #     }
