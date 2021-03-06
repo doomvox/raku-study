@@ -18,7 +18,7 @@ my @Latvian = <pirmdiena otrdiena trešdiena ceturtdiena
 # A traditional way would be to use an index:
 
 for 0 ..^ @English -> $index {
-    say "@English[ $index ] = @Latvian[ $index ]";
+    say "@English[ $index ] => @Latvian[ $index ]";
 }
 
 # In Raku, you can use the Z meta-operator to create a sequence
