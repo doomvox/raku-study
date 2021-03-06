@@ -4,7 +4,7 @@
 
 use v6;
 
-# .say for Str.^methods;       ##  the caret stuff means this is okay
+# .say for Str.^methods;       
 
 # ## that's a short hand for this:
 # ## .say for Str.HOW.methods;
