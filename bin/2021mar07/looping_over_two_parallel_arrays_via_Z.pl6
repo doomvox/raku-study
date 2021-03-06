@@ -104,6 +104,7 @@ use v6;
     my @hm = ( @a Z @n ) Z @C;
     say @hm; # [((a 1) A) ((b 2) B) ((c 3) C)]
     ## That's what I'd have expected the first time
+    say "btw, flat?";
     say @hm.flat;
 
     ## Actual behavior
