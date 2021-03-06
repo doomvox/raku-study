@@ -45,23 +45,17 @@ use v6;
 
 { 
     ## what if they're unequal lengths?  (an issue I'm always watching)
+    # case 1, alpha longer
     my @alpha1   = <a b c d e>;
     my @numeric1 = <1 2 3>;
     my @zipped1 = @alpha1 Z @numeric1;
-    say @zipped1;  # [(a 1) (b 2) (c 3)]
+    say @zipped1;  # 
 
 
+    # case 2, numeric longer
     my @alpha2   = <a b c>;
     my @numeric2 = <1 2 3 4 5>;
     my @zipped2 = @alpha2 Z @numeric2;
-    say @zipped1;  # [(a 1) (b 2) (c 3)]
+    say @zipped2;  # 
 
-
-
-    for @zipped -> ($a, $n) {
-        say "a: $a, n: $n";
-    }
-    # a: a, n: 1
-    # a: b, n: 2
-    # a: c, n: 3
 }
