@@ -49,13 +49,15 @@ use v6;
     my @alpha1   = <a b c d e>;
     my @numeric1 = <1 2 3>;
     my @zipped1 = @alpha1 Z @numeric1;
-    say @zipped1;  # 
+    say @zipped1;  # [(a 1) (b 2) (c 3)]
 
 
     # case 2, numeric longer
     my @alpha2   = <a b c>;
     my @numeric2 = <1 2 3 4 5>;
     my @zipped2 = @alpha2 Z @numeric2;
-    say @zipped2;  # 
+    say @zipped2;  # [(a 1) (b 2) (c 3)]
+
+    ## the shorter wins (e.g. no "recycling rule" in play)
 
 }
