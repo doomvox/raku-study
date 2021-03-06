@@ -16,7 +16,6 @@ my @Latvian = <pirmdiena otrdiena trešdiena ceturtdiena
                piektdiena sestdiena svētdiena>;
 
 # A traditional way would be to use an index:
-
 for 0 ..^ @English -> $index {
     say "@English[ $index ] => @Latvian[ $index ]";
 }
