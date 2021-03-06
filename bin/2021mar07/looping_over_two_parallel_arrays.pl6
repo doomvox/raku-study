@@ -81,7 +81,7 @@ use v6;
     say @zipped1c;  # 
 
     my @alpha0   = <a b c d e>;
-    my @numeric0 = <1>;
+    my @numeric0 = <>;
     my @zipped0 = @alpha0 Z @numeric0;
     say @zipped0;  #
 
