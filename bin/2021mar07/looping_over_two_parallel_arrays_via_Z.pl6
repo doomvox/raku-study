@@ -124,11 +124,7 @@ use v6;
         # (((b) (2)) (B))
         # (((c) (3)) (C))
     }
-
 }
-
-
-
 
 { ## TODO extend the use of an index, cover the case where one is longer
   ##      this is a way you could manually implement "zip with recycling"
