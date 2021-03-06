@@ -30,8 +30,8 @@ use v6;
     # So, that line ignores the @n and uses
     #  [+] @m;
 
-say "MEEP: ",  @n >>+<< @m;
-
+    # Aside: might've been thinking of this:
+    say @n >>+<< @m;  # [3 5 7]
 
     my @s = [+] @n [+] @m;
     say @s; # [6]
