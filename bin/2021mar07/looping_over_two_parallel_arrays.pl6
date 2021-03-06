@@ -59,6 +59,7 @@ use v6;
     say @zipped2;  # [(a 1) (b 2) (c 3)]
 
     ## the shorter wins (e.g. no "recycling rule" in play)
+    ##  TODO: but what if you *wanted* to recycle?
 }
 
 {
@@ -67,18 +68,18 @@ use v6;
     my @alpha1   = <a b c d e>;
     my @numeric1 = <1>;
     my @zipped1 = @alpha1 Z @numeric1;
-    say @zipped1;  # 
+    say @zipped1;  #  [(a 1)]
 
     my @alpha1b   = <a b c d e>;
     my @numeric1b = 1;
     my @zipped1b = @alpha1b Z @numeric1b;
-    say @zipped1b;  # 
+    say @zipped1b;  # [(a 1)]
 
     # one if the single item isn't an array/list?
     my @alpha1c   = <a b c d e>;
     my $numeric1c = 1;
     my @zipped1c = @alpha1c Z $numeric1c;
-    say @zipped1c;  # 
+    say @zipped1c;  # [(a 1)]
 
     # and if one side is empty
     my @alpha0   = <a b c d e>;
