@@ -26,6 +26,7 @@ for @English Z @Latvian -> ($english, $latvian) {
     say "$english is $latvian in Latvian.";
 }
 
+## Is it clear what the Z does?
 my @alpha = <a b c>;
 my @numeric = <1 2 3>;
 my @zipped = @alpha Z @numeric;
