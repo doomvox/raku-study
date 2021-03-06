@@ -97,7 +97,7 @@ use v6;
     my @n = < 1 2 3 >;
     my @C = < A B C >;
 
-    my @triple = @a Z @n Z @ C;
+    my @triple = @a Z @n Z @C;
     say @triple;
 
 #     for @a Z @n Z @ C -> 
