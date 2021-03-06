@@ -1,6 +1,6 @@
 #!/usr/bin/env perl6
 # 
-# looping_over_two_parallel_arrays.pl6            06 Mar 2021 
+# looping_over_two_parallel_arrays_via_Z.pl6            06 Mar 2021 
 
 use v6;
 
