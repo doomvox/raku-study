@@ -28,7 +28,6 @@ use v6;
     }
 }
 
-
 { 
     ## Is it clear what the Z does?
     my @alpha = <a b c>;
