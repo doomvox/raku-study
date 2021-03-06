@@ -94,7 +94,6 @@ use v6;
 { ## TODO extend the use of an index, cover the case where one is longer
   ##      this is a way you could manually implement "zip with recycling"
 
-#     # A traditional way would be to use an index:
 #     for 0 ..^ @English -> $index {
 #         say "@English[ $index ] => @Latvian[ $index ]";
 #     }
