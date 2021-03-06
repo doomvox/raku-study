@@ -45,7 +45,6 @@ say "---";
 say $foo.blah;
 # Blah!   
 
-
 # By the way, a second use of new throws an error:
 ## my $foo2 = Foo.new;
 ## Package 'Foo' already has a method 'blah' (did you mean to declare a multi-method?)
