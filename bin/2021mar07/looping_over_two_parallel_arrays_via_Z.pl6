@@ -98,7 +98,12 @@ use v6;
     my @C = < A B C >;
 
     my @triple = @a Z @n Z @C;
-    say @triple;
+    say @triple;  # [(a 1 A) (b 2 B) (c 3 C)]
+    ## Ye gods: that's an excellent DWIM, but not at all expected.
+
+
+    my @hm = ( @a Z @n ) Z @C;
+
 
 #     for @a Z @n Z @ C -> 
 #     }
