@@ -60,4 +60,7 @@ use v6;
 
     ## the shorter wins (e.g. no "recycling rule" in play)
 
+    # and what if there's only one or zero or...
+
+
 }
