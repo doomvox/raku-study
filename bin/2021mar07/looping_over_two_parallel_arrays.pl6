@@ -7,6 +7,9 @@ use v6;
 ## Make errors into warnings
 # CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
+# And idiom Andrew Shitov wrote up:
+#   https://andrewshitov.com/2020/03/16/a-couple-of-syntax-sweets-in-raku/
+
 #  my @monsters = < garuda blob golem mothera godzilla tingler >;
 
 my @English = <Monday Tuesday Wednesday Thursday
