@@ -118,7 +118,6 @@ use v6;
     say @hm>>.flat;  # [(((a) (1)) (A)) (((b) (2)) (B)) (((c) (3)) (C))]
     ## That's a good example of the "*how* flat?" problem, I think
     
-
     for @hm>>.flat -> $a {
         say $a;
         # (((a) (1)) (A))
