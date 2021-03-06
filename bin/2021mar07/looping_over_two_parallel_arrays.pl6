@@ -74,6 +74,12 @@ use v6;
     my @zipped1b = @alpha1b Z @numeric1b;
     say @zipped1b;  # 
 
+    # one if the single isn't an array/list?
+    my @alpha1c   = <a b c d e>;
+    my $numeric1c = 1;
+    my @zipped1c = @alpha1c Z $numeric1c;
+    say @zipped1c;  # 
+
 
 
     my @alpha0   = <a b c d e>;
