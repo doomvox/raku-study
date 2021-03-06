@@ -90,5 +90,4 @@ use v6;
     my @zipped0 = @alpha0 Z @numeric0;
     say @zipped0;  #
 
-
 }
