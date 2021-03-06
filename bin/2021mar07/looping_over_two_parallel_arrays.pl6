@@ -80,6 +80,7 @@ use v6;
     my @zipped1c = @alpha1c Z $numeric1c;
     say @zipped1c;  # 
 
+    # and if one side is empty
     my @alpha0   = <a b c d e>;
     my @numeric0 = <>;
     my @zipped0 = @alpha0 Z @numeric0;
