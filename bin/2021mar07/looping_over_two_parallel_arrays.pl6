@@ -59,8 +59,15 @@ use v6;
     say @zipped2;  # [(a 1) (b 2) (c 3)]
 
     ## the shorter wins (e.g. no "recycling rule" in play)
+}
 
+{
     # and what if there's only one or zero or...
+
+    my @alpha0   = <a b c d e>;
+    my @numeric0 = <1>;
+    my @zipped0 = @alpha0 Z @numeric0;
+    say @zipped0;  #
 
 
 }
