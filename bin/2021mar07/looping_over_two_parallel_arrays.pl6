@@ -26,57 +26,18 @@ for @English Z @Latvian -> ($english, $latvian) {
     say "$english is $latvian in Latvian.";
 }
 
-## Is it clear what the Z does?
-my @alpha = <a b c>;
-my @numeric = <1 2 3>;
-my @zipped = @alpha Z @numeric;
-say @zipped;  # [(a 1) (b 2) (c 3)]
+{ 
+    ## Is it clear what the Z does?
+    my @alpha = <a b c>;
+    my @numeric = <1 2 3>;
+    my @zipped = @alpha Z @numeric;
+    say @zipped;  # [(a 1) (b 2) (c 3)]
 
-for @zipped -> ($a, $n) {
-    say "a: $a, n: $n";
+    for @zipped -> ($a, $n) {
+        say "a: $a, n: $n";
+    }
+    # a: a, n: 1
+    # a: b, n: 2
+    # a: c, n: 3
 }
-# a: a, n: 1
-# a: b, n: 2
-# a: c, n: 3
-
-
-
-# ====
-#  sheet of cheats
-
-# A unicode paste board:
-# «
-# »
-# π
-# 𝑒
-
-# use DBIish;
-# my $dbh = DBIish.connect("Pg", database => 'doom', :user<doom>, :port<5434>);
-
-# my $sth = $dbh.prepare(q:to/STATEMENT/);
-#     SELECT * FROM funked_up
-# STATEMENT
-
-# $sth.execute();
-# my @rows = $sth.allrows();
-
-
-
-# external commands without shell:
-# my $arg = 'Hello';
-# my $captured = run('echo', $arg, :out).out.slurp;
-# my $captured = run(«echo "$arg"», :out).out.slurp;
-
-
-# using shell:
-# my $arg = 'Hello';
-# my $captured = shell("echo $arg", :out).out.slurp;
-# my $captured = qqx{echo $arg};
-
-
-
-
-
-# ===
-# Author:  doom@kzsu.stanford.edu
 
