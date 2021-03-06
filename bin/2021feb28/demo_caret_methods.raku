@@ -129,3 +129,5 @@ use v6;
 # }
 
 
+## Moving the rest of the action to here:
+##   /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021feb28/exploring_problem_cases_in_caret_methods_for_all_classes.raku
