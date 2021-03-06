@@ -29,8 +29,11 @@ for @English Z @Latvian -> ($english, $latvian) {
 my @alpha = <a b c>;
 my @numeric = <1 2 3>;
 my @zipped = @alpha Z @numeric;
-say @zipped;
+say @zipped;  # [(a 1) (b 2) (c 3)]
 
+for @zipped -> ($a, $n) {
+    say "a: $a, n: $n";
+}
 
 
 # ====
