@@ -70,7 +70,7 @@ use v6;
     say @zipped1;  # 
 
     my @alpha1b   = <a b c d e>;
-    my @numeric1b = <1>;
+    my @numeric1b = 1;
     my @zipped1b = @alpha1b Z @numeric1b;
     say @zipped1b;  # 
 
