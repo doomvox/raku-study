@@ -44,7 +44,7 @@ use v6;
     my @u = ( [+] @n, [+] @m ); 
     say @u; # [9]
 
-    my @v = ( ( [+] @n) , ( [+] @m ) ); 
+    my @v = ( ( [+] @n) , ( [+] @m ) );   ## a lot of parens
     say @v; # [9 6]   ## finally, the behavior I expected.
 
 }
