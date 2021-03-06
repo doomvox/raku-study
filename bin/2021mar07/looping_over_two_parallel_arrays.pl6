@@ -7,24 +7,27 @@ use v6;
 ## Make errors into warnings
 # CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-# And idiom Andrew Shitov wrote up:
-#   https://andrewshitov.com/2020/03/16/a-couple-of-syntax-sweets-in-raku/
+{
+    # An idiom Andrew Shitov wrote up:
+    #   https://andrewshitov.com/2020/03/16/a-couple-of-syntax-sweets-in-raku/
 
-my @English = <Monday Tuesday Wednesday Thursday
+    my @English = <Monday Tuesday Wednesday Thursday
                Friday Saturday Sunday>;
-my @Latvian = <pirmdiena otrdiena trešdiena ceturtdiena 
+    my @Latvian = <pirmdiena otrdiena trešdiena ceturtdiena 
                piektdiena sestdiena svētdiena>;
 
-# A traditional way would be to use an index:
-for 0 ..^ @English -> $index {
-    say "@English[ $index ] => @Latvian[ $index ]";
+    # A traditional way would be to use an index:
+    for 0 ..^ @English -> $index {
+        say "@English[ $index ] => @Latvian[ $index ]";
+    }
+
+    # In Raku, you can use the Z meta-operator 
+
+    for @English Z @Latvian -> ($english, $latvian) {
+        say "$english is $latvian in Latvian.";
+    }
 }
 
-# In Raku, you can use the Z meta-operator 
-
-for @English Z @Latvian -> ($english, $latvian) {
-    say "$english is $latvian in Latvian.";
-}
 
 { 
     ## Is it clear what the Z does?
