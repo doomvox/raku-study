@@ -91,6 +91,22 @@ use v6;
     say @zipped0;  # []
 }
 
+{
+    my @a = < a b c >;
+    my @n = < 1 2 3 >;
+    my @C = < A B C >;
+
+    my @triple = @a Z @n Z @ C;
+    say @triple;
+
+#     for @a Z @n Z @ C -> 
+#     }
+
+}
+
+
+
+
 { ## TODO extend the use of an index, cover the case where one is longer
   ##      this is a way you could manually implement "zip with recycling"
 
