@@ -64,6 +64,18 @@ use v6;
 {
     # and what if there's only one or zero or...
 
+    my @alpha1   = <a b c d e>;
+    my @numeric1 = <1>;
+    my @zipped1 = @alpha1 Z @numeric1;
+    say @zipped1;  # 
+
+    my @alpha1b   = <a b c d e>;
+    my @numeric1b = <1>;
+    my @zipped1b = @alpha1b Z @numeric1b;
+    say @zipped1b;  # 
+
+
+
     my @alpha0   = <a b c d e>;
     my @numeric0 = <1>;
     my @zipped0 = @alpha0 Z @numeric0;
