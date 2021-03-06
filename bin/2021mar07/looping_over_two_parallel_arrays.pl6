@@ -29,7 +29,7 @@ for @English Z @Latvian -> ($english, $latvian) {
 my @alpha = <a b c>;
 my @numeric = <1 2 3>;
 my @zipped = @alpha Z @numeric;
-
+say @zipped;
 
 
 
