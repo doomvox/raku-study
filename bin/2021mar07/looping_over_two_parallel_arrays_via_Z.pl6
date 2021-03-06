@@ -106,7 +106,7 @@ use v6;
     ## That's what I'd have expected the first time
     say "btw, flat?";
     say @hm.flat;    # (((a 1) A) ((b 2) B) ((c 3) C))
-    say @hm>>.flat;  #
+    say @hm>>.flat;  # [(((a) (1)) (A)) (((b) (2)) (B)) (((c) (3)) (C))]
 
     ## Actual behavior
     for @a Z @n Z @C -> ( $v1, $v2, $v3 ) {
