@@ -2,8 +2,6 @@
 # 
 # calling_caret_methods_on_all_types.raku        06 Mar 2021 
 
-
-
 use v6;
 
 # .say for Str.^methods;       ##  the caret stuff means this is okay
