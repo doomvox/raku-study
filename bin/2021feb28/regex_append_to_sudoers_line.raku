@@ -71,7 +71,7 @@ for @cases -> $case {
      my $pattern =
      /
      ^
-     <(   # Begin capture
+     (   # Begin capture
          <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
          <!before              
              [  ## line 77
@@ -81,7 +81,7 @@ for @cases -> $case {
              ]
            >   
          .*  ## matches *everything* but only if the negative lookahead does not match
-     )>   # End capture
+     )   # End capture
      $
      /;
 
