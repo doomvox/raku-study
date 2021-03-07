@@ -11,9 +11,10 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 my $text =
   "Blah blah blah \x{c} bleh \t bleh and also 	(that's a literal)\n meep \b hey";
 
+say $text;
 
-#  my @monsters = < garuda blob golem mothera godzilla tingler >;
-
+say $text.chars;
+say $text.bytes;
 
 ## <cntrl> 	
 
