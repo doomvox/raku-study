@@ -16,7 +16,7 @@ say $text;
 say $text.chars;                  # 69
 say $text.encode('utf-8').bytes;  # 69
 
-$text.^methods;
+say $text.^methods;
 
 
 ## <cntrl> 	
