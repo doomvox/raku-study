@@ -14,7 +14,7 @@ my $text =
 say $text;
 
 say $text.chars;
-say $text.bytes;
+say $text.encode(utf-8).bytes;
 
 $text.^methods;
 
