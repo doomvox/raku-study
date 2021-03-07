@@ -38,6 +38,8 @@ say $new_text.chars;              # 64
 # ｣
 # > 
 
+say $/ if "hello\n" ~~ / <:Ll>+<:Cc>+ /;
+
 
 # bruce gray, for readability:
 #  raku -e 'say $/ if "hello\n" ~~ $_ for /<.lower>+<.cntrl>+/, /<.lower>+/, /<.cntrl>+/;' 
