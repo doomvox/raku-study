@@ -41,6 +41,7 @@ ok(1, "If we made it this far, we're ok. All modules are loaded.");
 ## TODO other possible cases: double-quoted strings; escaped continuation lines; end-of-line comments
 
 # for each case, an input string, an expected result, and a description
+# a case from lambert lum: existing path is just /usr/local/bin
 my @cases = ( 
              [ 'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin',
                'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin',
