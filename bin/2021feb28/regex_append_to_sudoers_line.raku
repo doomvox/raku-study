@@ -91,7 +91,7 @@ for @cases -> $case {
      $result
        ~~ s/<$pattern>/$0$append/ ;  ## does $0 work to embed the previous capture here?
 
-     say $0;  # Nil
+     say "i watch dollar 0: ", $0;  # Nil
      say 'result: ', $result;
      
 
