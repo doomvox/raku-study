@@ -55,5 +55,5 @@ https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 
 ** bash books 
 bash          (d christensen pick)
-bash cookbook (d christensen pick)
+bash cookbook (d christensen pick, weak writing)
 unix shells (jeff pick)
