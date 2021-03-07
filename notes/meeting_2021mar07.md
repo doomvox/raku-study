@@ -1,62 +1,62 @@
-- [meeting notes Mar 07, 2021](#orgfb7b865)
-  - [announcments](#org65814e6)
-    - [richard hainsworth: alternative pod6 processing](#org04bff20)
-  - [the usual meeting links:](#org74d86a8)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>](#orgbb06ff7)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md>](#org516b242)
-  - [topics](#orga1a6c1a)
-    - [lamberts regex problem, munging sudoers lines](#org14365fd)
-    - [](#orgf831ecc)
-    - [the great "say Set.<sup>methods</sup>" affair](#orge90a01f)
-    - [a stupid mistake that isn't: naming a method with a leading ^](#org93d6d8d)
-    - [69 cent tour of raku regexs](#org1fcde07)
-    - [some simple grammar demos](#orgfbbde10)
-  - [possible topics (carried over from earlier meetings)](#org4face27)
-    - [Steven<sub>lembark</sub>](#orge1ebec5)
-    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#org23198b2)
-    - [andrew shitov "Perl 6 at a Glance"](#org5eb9fec)
-    - [perl weekly challenge:](#org5ec6cb1)
-    - [promises and threads](#org81b2eb1)
+- [meeting notes Mar 07, 2021](#org25e6b70)
+  - [announcments](#orge329669)
+    - [richard hainsworth: alternative pod6 processing](#orgc58352a)
+  - [the usual meeting links:](#orgee55a3f)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>](#orgb5c1be3)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md>](#org8f88e95)
+  - [topics](#org5d7460a)
+    - [lamberts regex problem, munging sudoers lines](#org2b20865)
+    - [jeff questions about compiler options, etc](#org438a0fe)
+    - [the great "say Set.<sup>methods</sup>" affair](#org7f72196)
+    - [a stupid mistake that isn't: naming a method with a leading ^](#org5e8dc53)
+    - [69 cent tour of raku regexs](#orgcffe105)
+    - [some simple grammar demos](#org0c14911)
+  - [possible topics (carried over from earlier meetings)](#orgc226e88)
+    - [Steven<sub>lembark</sub>](#org285533c)
+    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#orgfe13b4b)
+    - [andrew shitov "Perl 6 at a Glance"](#org2687596)
+    - [perl weekly challenge:](#orgc0fdad8)
+    - [promises and threads](#org52000ff)
 
 
-<a id="orgfb7b865"></a>
+<a id="org25e6b70"></a>
 
 # meeting notes Mar 07, 2021
 
 
-<a id="org65814e6"></a>
+<a id="orge329669"></a>
 
 ## announcments
 
 
-<a id="org04bff20"></a>
+<a id="orgc58352a"></a>
 
 ### richard hainsworth: alternative pod6 processing
 
 1.  His version of Raku docs: <http://raku.finanalyst.org>
 
 
-<a id="org74d86a8"></a>
+<a id="orgee55a3f"></a>
 
 ## the usual meeting links:
 
 
-<a id="orgbb06ff7"></a>
+<a id="orgb5c1be3"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>
 
 
-<a id="org516b242"></a>
+<a id="org8f88e95"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md>
 
 
-<a id="orga1a6c1a"></a>
+<a id="org5d7460a"></a>
 
 ## topics
 
 
-<a id="org14365fd"></a>
+<a id="org2b20865"></a>
 
 ### lamberts regex problem, munging sudoers lines
 
@@ -65,12 +65,12 @@
 2.  raku translation&#x2013; still has problems
 
 
-<a id="orgf831ecc"></a>
+<a id="org438a0fe"></a>
 
-### 
+### jeff questions about compiler options, etc
 
 
-<a id="orge90a01f"></a>
+<a id="org7f72196"></a>
 
 ### the great "say Set.<sup>methods</sup>" affair
 
@@ -85,7 +85,7 @@
     1.  it checks the case of inheritence, but not roles
 
 
-<a id="org93d6d8d"></a>
+<a id="org5e8dc53"></a>
 
 ### a stupid mistake that isn't: naming a method with a leading ^
 
@@ -94,22 +94,22 @@
     1.  should this generate a warning/error?
 
 
-<a id="org1fcde07"></a>
+<a id="orgcffe105"></a>
 
 ### 69 cent tour of raku regexs
 
 
-<a id="orgfbbde10"></a>
+<a id="org0c14911"></a>
 
 ### some simple grammar demos
 
 
-<a id="org4face27"></a>
+<a id="orgc226e88"></a>
 
 ## possible topics (carried over from earlier meetings)
 
 
-<a id="orge1ebec5"></a>
+<a id="org285533c"></a>
 
 ### Steven<sub>lembark</sub>
 
@@ -120,14 +120,14 @@
 2.  <https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql>
 
 
-<a id="org23198b2"></a>
+<a id="orgfe13b4b"></a>
 
 ### adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
 
 1.  <https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)>
 
 
-<a id="org5eb9fec"></a>
+<a id="org2687596"></a>
 
 ### andrew shitov "Perl 6 at a Glance"
 
@@ -136,14 +136,14 @@
 2.  <https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf>
 
 
-<a id="org5ec6cb1"></a>
+<a id="orgc0fdad8"></a>
 
 ### perl weekly challenge:
 
 1.  <https://perlweeklychallenge.org/>
 
 
-<a id="org81b2eb1"></a>
+<a id="org52000ff"></a>
 
 ### promises and threads
 

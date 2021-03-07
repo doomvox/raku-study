@@ -14,7 +14,7 @@
 *** lamberts regex problem, munging sudoers lines
 **** david christensen variation: scripted solution
 **** raku translation-- still has problems
-*** 
+*** jeff questions about compiler options, etc
 
 *** the great "say Set.^methods" affair
 **** the issue (bug report and discussion):
