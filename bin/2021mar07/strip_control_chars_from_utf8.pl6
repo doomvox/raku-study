@@ -28,4 +28,14 @@ say $new_text.chars;              # 64
 
 
 
+## william michels solution:
 
+> say $/ if "hello\n" ~~ / <:Ll>+<:Cc>+ /;
+｢hello
+｣
+> say $/ if "hello\n" ~~ / <:Ll>+ /;
+｢hello｣
+> say $/ if "hello\n" ~~ / <:Cc>+ /;
+｢
+｣
+> 
