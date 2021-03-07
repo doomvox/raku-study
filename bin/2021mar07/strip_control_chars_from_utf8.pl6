@@ -38,7 +38,13 @@ say $new_text.chars;              # 64
 # ｣
 # > 
 
-say $/ if "hello\n" ~~ / <:Ll>+<:Cc>+ /;
+say $/ if "hello\n" ~~ / <:Ll>+<:Cc>+ /;  # but requires the control chars after the lower case
+# ｢hello
+# ｣
+
+
+<:Ll+:Cc> 
+
 
 
 # bruce gray, for readability:
