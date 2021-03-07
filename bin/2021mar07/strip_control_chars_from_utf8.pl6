@@ -43,10 +43,10 @@ say $/ if "hello\n" ~~ / <:Ll>+<:Cc>+ /;  # but requires the control chars after
 # ｣
 
 say $/ if "hello\n" ~~ / <:Ll+:Cc>+  /;  # intermixed
-｢hello
-｣
+# ｢hello
+# ｣
 
-
+say $/ if "Chocolate\n" ~~ / <[:Ll+:Cc]>+  /;  # intermixed
 
 
 # bruce gray, for readability:
