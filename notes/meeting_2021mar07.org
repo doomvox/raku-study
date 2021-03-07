@@ -5,6 +5,10 @@
 *** richard hainsworth: alternative pod6 processing 
 **** Raku docs: http://raku.finanalyst.org
 
+** usual links:
+https://github.com/doomvox/raku-study/tree/main/bin/2021mar07
+
+
 ** possible topics (carried over from earlier meetings)
 *** Steven_lembark
 **** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
@@ -26,7 +30,7 @@
 
 ** other possible topics
 *** lamberts regex problem, munging sudoers lines
-**** david christensen variation: scripted solution, additional test cases
+**** david christensen variation: scripted solution
 **** raku translation-- still has problems
 *** 
 
