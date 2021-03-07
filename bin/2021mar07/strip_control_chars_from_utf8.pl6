@@ -54,3 +54,5 @@ say $/ if "#cccll yaddah chocolate # cake" ~~ m:g / ^ < :Ll+ :Cc+ [#]+ \s >* /; 
 
 # bruce gray, for readability:
 #  raku -e 'say $/ if "hello\n" ~~ $_ for /<.lower>+<.cntrl>+/, /<.lower>+/, /<.cntrl>+/;' 
+# Or better:
+#   <:lower+:cntrl> 
