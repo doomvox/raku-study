@@ -19,7 +19,7 @@ say $text.encode('utf-8').bytes;  # 69
 ## say $text.^methods;
 # trans
 
-$text.subst(/<cntrl>/,'');
+$text.subst(/<cntrl>/,'',:g);
 
 say $text;
 
