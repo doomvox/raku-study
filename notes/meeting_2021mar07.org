@@ -5,7 +5,7 @@
 *** richard hainsworth: alternative pod6 processing 
 **** His version of Raku docs: http://raku.finanalyst.org
 
-** usual links:
+** the usual meeting links:
 *** https://github.com/doomvox/raku-study/tree/main/bin/2021mar07
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md
 
