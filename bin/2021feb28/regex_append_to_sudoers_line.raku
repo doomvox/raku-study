@@ -76,8 +76,8 @@ for @cases -> $case {
          <!before              
              [  ## line 77
                [ <-[:]>* \: ]*       
-               '/usr/local/bin'
-               [ : | $ ]
+               '/usr/local/bin' 
+               [ \: | $ ]
              ]
            >   
          .*  ## matches *everything* but only if the negative lookahead does not match
