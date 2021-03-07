@@ -25,6 +25,10 @@
 ***** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md
 
 ** other possible topics
+*** lamberts regex problem, munging sudoers lines
+**** david christensen variation: scripted solution, additional test cases
+**** raku translation-- still has problems
+*** 
 
 *** the great "say Set.^methods" affair
 **** the issue (bug report and discussion):
