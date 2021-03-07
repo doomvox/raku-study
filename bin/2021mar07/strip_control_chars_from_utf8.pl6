@@ -24,7 +24,7 @@ say $text.encode('utf-8').bytes;  # 69
 my $new_text = $text.subst(:g, /<cntrl>/, '');
 
 say $new_text;
-say $new_text.chars;                  # 69
+say $new_text.chars;              # 64
 
 
 
