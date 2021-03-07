@@ -52,3 +52,8 @@ https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 ***** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md
 
 ** linux kernel module to shut up damn bell
+
+** bash books 
+bash          (d christensen pick)
+bash cookbook (d christensen pick)
+unix shells (jeff pick)
