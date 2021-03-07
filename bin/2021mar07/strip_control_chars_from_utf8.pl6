@@ -16,6 +16,9 @@ say $text;
 say $text.chars;
 say $text.bytes;
 
+$text.^methods;
+
+
 ## <cntrl> 	
 
 
