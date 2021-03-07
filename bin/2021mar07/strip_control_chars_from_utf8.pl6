@@ -22,5 +22,5 @@ say $text.encode('utf-8').bytes;  # 69
 $text.subst(:g, /<cntrl>/, '');
 
 say $text;
-
+say $text.chars;                  # 69
 
