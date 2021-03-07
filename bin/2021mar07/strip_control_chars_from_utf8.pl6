@@ -19,10 +19,13 @@ say $text.encode('utf-8').bytes;  # 69
 ## say $text.^methods;
 # trans
 
-$text.subst(:g, /<cntrl>/, '');
+## $text.subst(:g, /<cntrl>/, '');  ## tosses return, no warning
 
-# my $new_text = $text.subst(:g, /<cntrl>/, '');
+my $new_text = $text.subst(:g, /<cntrl>/, '');
 
-# say $new_text;
-# say $new_text.chars;                  # 69
+say $new_text;
+say $new_text.chars;                  # 69
+
+
+
 
