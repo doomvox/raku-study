@@ -30,8 +30,6 @@ https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 *** 69 cent tour of raku regexs
 *** some simple grammar demos
 
-
-
 ** possible topics (carried over from earlier meetings)
 *** Steven_lembark
 **** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
@@ -54,6 +52,8 @@ https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 ** linux kernel module to shut up damn bell
 
 ** bash books, much new features
-bash          (d christensen pick)
-bash cookbook (d christensen pick, weak writing)
-unix shells (jeff pick)
+*** bash          (d christensen pick)
+*** bash cookbook (d christensen pick, weak writing)
+*** unix shells (jeff pick)
+*** bash programming, apress (alan)
+
