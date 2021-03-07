@@ -17,8 +17,10 @@ say $text.chars;                  # 69
 say $text.encode('utf-8').bytes;  # 69
 
 say $text.^methods;
+# trans
 
+$text.subst('<cntrl>','');
 
-## <cntrl> 	
+say $text;
 
 
