@@ -87,8 +87,6 @@ for @cases -> $case {
 
      my $append = ':/usr/local/bin';
 
-     say $0;  # Nil
-
      my $result = $input;
      $result
        ~~ s/<$pattern>/$0$append/ ;  ## does $0 work to embed the previous capture here?
