@@ -1,52 +1,62 @@
-- [meeting notes Mar 07, 2021](#org1acb87a)
-  - [announcments](#org1e4cd7a)
-    - [richard hainsworth: alternative pod6 processing](#org35b90bb)
-  - [usual links:](#org64f87aa)
-  - [possible topics (carried over from earlier meetings)](#org7c41182)
-    - [Steven<sub>lembark</sub>](#orge6ad23b)
-    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#org3c3b55f)
-    - [andrew shitov "Perl 6 at a Glance"](#orgcc2b944)
-    - [perl weekly challenge:](#orgd517519)
-    - [promises and threads](#org7c42f55)
-  - [other possible topics](#org66f8f55)
-    - [lamberts regex problem, munging sudoers lines](#orga84174c)
-    - [](#org539fd9c)
-    - [the great "say Set.<sup>methods</sup>" affair](#orgcef65ef)
-    - [a stupid mistake that isn't: naming a method with a leading ^](#orgce007a9)
-    - [69 cent tour of raku regexs](#org86e2a3b)
-    - [some simple grammar demos](#org505f238)
+- [meeting notes Mar 07, 2021](#org3765c49)
+  - [announcments](#orgcc51e40)
+    - [richard hainsworth: alternative pod6 processing](#org0777b5e)
+  - [usual links:](#org5a5ad38)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>](#org7db359b)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md>](#org15a45ff)
+  - [possible topics (carried over from earlier meetings)](#org87dd444)
+    - [Steven<sub>lembark</sub>](#org6ccb46f)
+    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#org796b8a1)
+    - [andrew shitov "Perl 6 at a Glance"](#org05197f7)
+    - [perl weekly challenge:](#org11e95e4)
+    - [promises and threads](#orgeb6aacb)
+  - [other possible topics](#orgd2f4967)
+    - [lamberts regex problem, munging sudoers lines](#orga5d0e91)
+    - [](#org2874b9d)
+    - [the great "say Set.<sup>methods</sup>" affair](#org78fd6fb)
+    - [a stupid mistake that isn't: naming a method with a leading ^](#org849b43a)
+    - [69 cent tour of raku regexs](#org6c1ed3f)
+    - [some simple grammar demos](#orgdd4e457)
 
 
-<a id="org1acb87a"></a>
+<a id="org3765c49"></a>
 
 # meeting notes Mar 07, 2021
 
 
-<a id="org1e4cd7a"></a>
+<a id="orgcc51e40"></a>
 
 ## announcments
 
 
-<a id="org35b90bb"></a>
+<a id="org0777b5e"></a>
 
 ### richard hainsworth: alternative pod6 processing
 
 1.  Raku docs: <http://raku.finanalyst.org>
 
 
-<a id="org64f87aa"></a>
+<a id="org5a5ad38"></a>
 
 ## usual links:
 
-<https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>
+
+<a id="org7db359b"></a>
+
+### <https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>
 
 
-<a id="org7c41182"></a>
+<a id="org15a45ff"></a>
+
+### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md>
+
+
+<a id="org87dd444"></a>
 
 ## possible topics (carried over from earlier meetings)
 
 
-<a id="orge6ad23b"></a>
+<a id="org6ccb46f"></a>
 
 ### Steven<sub>lembark</sub>
 
@@ -57,14 +67,14 @@
 2.  <https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql>
 
 
-<a id="org3c3b55f"></a>
+<a id="org796b8a1"></a>
 
 ### adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
 
 1.  <https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)>
 
 
-<a id="orgcc2b944"></a>
+<a id="org05197f7"></a>
 
 ### andrew shitov "Perl 6 at a Glance"
 
@@ -73,14 +83,14 @@
 2.  <https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf>
 
 
-<a id="orgd517519"></a>
+<a id="org11e95e4"></a>
 
 ### perl weekly challenge:
 
 1.  <https://perlweeklychallenge.org/>
 
 
-<a id="org7c42f55"></a>
+<a id="orgeb6aacb"></a>
 
 ### promises and threads
 
@@ -93,12 +103,12 @@
     2.  <https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md>
 
 
-<a id="org66f8f55"></a>
+<a id="orgd2f4967"></a>
 
 ## other possible topics
 
 
-<a id="orga84174c"></a>
+<a id="orga5d0e91"></a>
 
 ### lamberts regex problem, munging sudoers lines
 
@@ -107,12 +117,12 @@
 2.  raku translation&#x2013; still has problems
 
 
-<a id="org539fd9c"></a>
+<a id="org2874b9d"></a>
 
 ### 
 
 
-<a id="orgcef65ef"></a>
+<a id="org78fd6fb"></a>
 
 ### the great "say Set.<sup>methods</sup>" affair
 
@@ -127,7 +137,7 @@
     1.  it checks the case of inheritence, but not roles
 
 
-<a id="orgce007a9"></a>
+<a id="org849b43a"></a>
 
 ### a stupid mistake that isn't: naming a method with a leading ^
 
@@ -136,11 +146,11 @@
     1.  should this generate a warning/error?
 
 
-<a id="org86e2a3b"></a>
+<a id="org6c1ed3f"></a>
 
 ### 69 cent tour of raku regexs
 
 
-<a id="org505f238"></a>
+<a id="orgdd4e457"></a>
 
 ### some simple grammar demos

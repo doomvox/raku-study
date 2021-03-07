@@ -6,8 +6,8 @@
 **** Raku docs: http://raku.finanalyst.org
 
 ** usual links:
-https://github.com/doomvox/raku-study/tree/main/bin/2021mar07
-
+*** https://github.com/doomvox/raku-study/tree/main/bin/2021mar07
+*** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md
 
 ** possible topics (carried over from earlier meetings)
 *** Steven_lembark
