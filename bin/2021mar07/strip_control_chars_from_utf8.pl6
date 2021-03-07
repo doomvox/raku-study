@@ -8,7 +8,8 @@ use v6;
 CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 
-my $text = "Blah blah blah \x{c} bleh \t bleh and also 	(that's a literal)\n meep \b hey";
+my $text =
+  "Blah blah blah \x{c} bleh \t bleh and also 	(that's a literal)\n meep \b hey";
 
 
 #  my @monsters = < garuda blob golem mothera godzilla tingler >;
