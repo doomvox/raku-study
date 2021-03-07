@@ -53,7 +53,7 @@ https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 
 ** linux kernel module to shut up damn bell
 
-** bash books 
+** bash books, much new features
 bash          (d christensen pick)
 bash cookbook (d christensen pick, weak writing)
 unix shells (jeff pick)
