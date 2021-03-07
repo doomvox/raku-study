@@ -46,7 +46,7 @@ say $/ if "hello\n" ~~ / <:Ll+:Cc>+  /;  # intermixed
 # ｢hello
 # ｣
 
-say $/ if "Chocolate # cake n" ~~ / [ <:Ll+:Cc+[%]> ]*  /;  # ｢｣
+say $/ if "Chocolate # cake n" ~~ / [ <:Ll+:Cc+[%]> ]*  /;  
 
 
 
