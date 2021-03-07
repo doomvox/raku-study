@@ -50,8 +50,6 @@ say $/ if "# chocolate # cake" ~~ m:g / ^ <:Ll+:Cc+[#]> *   /;   # (｢#｣)
 
 say $/ if "#cccll yaddah chocolate # cake" ~~ m/ ^ <:Ll+:Cc+[#]+:space>* /;   # ｢#cccll yaddah chocolate # cake｣
 
-
-
 # bruce gray, for readability:
 #  raku -e 'say $/ if "hello\n" ~~ $_ for /<.lower>+<.cntrl>+/, /<.lower>+/, /<.cntrl>+/;' 
 # Or better:
