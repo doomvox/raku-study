@@ -38,6 +38,8 @@ ok(1, "If we made it this far, we're ok. All modules are loaded.");
 # Yary Hluchan's answer:
 #   s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ 
 
+## TODO other possible cases: double-quoted strings; escaped continuation lines; end-of-line comments
+
 # for each case, an input string, an expected result, and a description
 my @cases = ( 
              [ 'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin',
