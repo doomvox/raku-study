@@ -46,8 +46,8 @@ say $/ if "hello\n" ~~ / <:Ll+:Cc>+  /;  # intermixed
 # ｢hello
 # ｣
 
-say $/ if "Chocolate\n" ~~ / [ <:Ll+:Cc> ]*  /;  
-# ｢C｣
+say $/ if "Chocolate\n" ~~ / [ <:Ll+:Cc> ]*  /;  # ｢｣
+
 
 # bruce gray, for readability:
 #  raku -e 'say $/ if "hello\n" ~~ $_ for /<.lower>+<.cntrl>+/, /<.lower>+/, /<.cntrl>+/;' 
