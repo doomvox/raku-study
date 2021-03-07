@@ -87,7 +87,7 @@ for @cases -> $case {
 
      my $append = ':/usr/local/bin';
 
-     say $0;
+     say $0;  # Nil
 
      my $result = $input;
      $result
