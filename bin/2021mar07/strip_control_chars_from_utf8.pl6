@@ -15,6 +15,9 @@ use v6;
 # 15:13:02	 From Jeff : https://raku-musings.com/rash1.html
 # 15:14:13	 From Bruce Gray : collapses to 0x00..0x1f, 0x7f, 0x80..0x9f
 
+# 15:16:09	 From Bruce Gray : https://en.wikipedia.org/wiki/Control_character#In_Unicode
+# 15:16:14	 From Bruce Gray : https://en.wikipedia.org/wiki/Unicode_control_characters
+
 
 
 my $text =
