@@ -72,10 +72,6 @@ http://redsymbol.net/articles/unofficial-bash-strict-mode/
 
 https://olivergondza.github.io/2019/10/01/bash-strict-mode.html
 
-
-
-
-
 16:02:47	 From Bruce Gray : http://rosettacode.org/wiki/Modified_random_distribution#Raku
 16:04:21	 From Jeff : wu
 16:10:20	 From Bill Michels : https://www.humblebundle.com/books/pocket-reference-guides-oreilly-books
