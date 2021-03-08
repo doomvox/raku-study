@@ -78,7 +78,6 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 *** linux 
 **** William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now" 
 ***** https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability
-
 ***** About the "Lenovo Solution Center".  Installing linux would've blown it away in any case.
 
 **** perl 6 snark
