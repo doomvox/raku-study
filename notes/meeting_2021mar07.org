@@ -57,7 +57,6 @@ https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 *** unix shells (jeff pick)
 *** "pro bash programming" by chris johnson, apress (alan pick)
 
-
 *** book on the hidden logic of english:
 **** "uncovering the logic of english" (jeff pick)
 ***** clusters of morphemes 
