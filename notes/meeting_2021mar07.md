@@ -1,69 +1,69 @@
-- [meeting notes Mar 07, 2021](#orga4aa2c9)
-  - [announcments](#orgff0a977)
-    - [richard hainsworth: alternative pod6 processing](#orgc0b1b3b)
-  - [the usual meeting links:](#orgdf386d3)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>](#org3ffa128)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md>](#org1ee90f1)
-  - [topics](#orgfcebb00)
-    - [lamberts regex problem, munging sudoers lines](#orgc389aad)
-    - [jeff questions about compiler options, etc](#org75afd1d)
-    - [the great "say Set.<sup>methods</sup>" affair](#org27df8e3)
-    - [a stupid mistake that isn't: naming a method with a leading ^](#org31fe991)
-    - [69 cent tour of raku regexs](#org9d0e067)
-    - [some simple grammar demos](#org81add54)
-  - [possible topics (carried over from earlier meetings)](#orgee769f3)
-    - [Steven<sub>lembark</sub>](#org7ced90a)
-    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#org6c471c0)
-    - [andrew shitov "Perl 6 at a Glance"](#org081c3c0)
-    - [perl weekly challenge:](#orgecf9251)
-    - [promises and threads](#org298be97)
-  - [linux kernel module to shut up damn bell](#org88acbd3)
-  - [bash books, much new features](#org471e04f)
-    - [bash          (d christensen pick)](#orgc26890e)
-    - [bash cookbook (d christensen pick, weak writing)](#orgb4b3638)
-    - [unix shells (jeff pick)](#org4d18cc9)
-    - [bash programming, apress (alan)](#orgcb7604e)
-    - [book on the hidden logic of english:](#orgfb99964)
+- [meeting notes Mar 07, 2021](#org0fa2585)
+  - [announcments](#org2160fce)
+    - [richard hainsworth: alternative pod6 processing](#org376cbdb)
+  - [the usual meeting links:](#orgb54d5dc)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>](#orgb48b6e4)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md>](#orga5ac700)
+  - [topics](#org593c8a2)
+    - [lamberts regex problem, munging sudoers lines](#org8c091f1)
+    - [jeff questions about compiler options, etc](#orgfcdc7e2)
+    - [the great "say Set.<sup>methods</sup>" affair](#org63de08e)
+    - [a stupid mistake that isn't: naming a method with a leading ^](#orgd0e3374)
+    - [69 cent tour of raku regexs](#org4e632fe)
+    - [some simple grammar demos](#org925602b)
+  - [possible topics (carried over from earlier meetings)](#org637f3b4)
+    - [Steven<sub>lembark</sub>](#orgc156a79)
+    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#org7288fd4)
+    - [andrew shitov "Perl 6 at a Glance"](#orgcde2b1e)
+    - [perl weekly challenge:](#org778d11c)
+    - [promises and threads](#org69b298e)
+  - [linux kernel module to shut up damn bell](#orga5763c2)
+  - [bash books, much new features](#org7e4ebed)
+    - [bash          (d christensen pick)](#orga05884e)
+    - [bash cookbook (d christensen pick, weak writing)](#orgbd36e3c)
+    - [unix shells (jeff pick)](#org3b52b20)
+    - ["pro bash programming" by chris johnson, apress (alan)](#orgf104b4e)
+    - [book on the hidden logic of english:](#org71b6a7c)
 
 
-<a id="orga4aa2c9"></a>
+<a id="org0fa2585"></a>
 
 # meeting notes Mar 07, 2021
 
 
-<a id="orgff0a977"></a>
+<a id="org2160fce"></a>
 
 ## announcments
 
 
-<a id="orgc0b1b3b"></a>
+<a id="org376cbdb"></a>
 
 ### richard hainsworth: alternative pod6 processing
 
 1.  His version of Raku docs: <http://raku.finanalyst.org>
 
 
-<a id="orgdf386d3"></a>
+<a id="orgb54d5dc"></a>
 
 ## the usual meeting links:
 
 
-<a id="org3ffa128"></a>
+<a id="orgb48b6e4"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>
 
 
-<a id="org1ee90f1"></a>
+<a id="orga5ac700"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md>
 
 
-<a id="orgfcebb00"></a>
+<a id="org593c8a2"></a>
 
 ## topics
 
 
-<a id="orgc389aad"></a>
+<a id="org8c091f1"></a>
 
 ### lamberts regex problem, munging sudoers lines
 
@@ -72,12 +72,12 @@
 2.  raku translation&#x2013; still has problems
 
 
-<a id="org75afd1d"></a>
+<a id="orgfcdc7e2"></a>
 
 ### jeff questions about compiler options, etc
 
 
-<a id="org27df8e3"></a>
+<a id="org63de08e"></a>
 
 ### the great "say Set.<sup>methods</sup>" affair
 
@@ -92,7 +92,7 @@
     1.  it checks the case of inheritence, but not roles
 
 
-<a id="org31fe991"></a>
+<a id="orgd0e3374"></a>
 
 ### a stupid mistake that isn't: naming a method with a leading ^
 
@@ -101,22 +101,22 @@
     1.  should this generate a warning/error?
 
 
-<a id="org9d0e067"></a>
+<a id="org4e632fe"></a>
 
 ### 69 cent tour of raku regexs
 
 
-<a id="org81add54"></a>
+<a id="org925602b"></a>
 
 ### some simple grammar demos
 
 
-<a id="orgee769f3"></a>
+<a id="org637f3b4"></a>
 
 ## possible topics (carried over from earlier meetings)
 
 
-<a id="org7ced90a"></a>
+<a id="orgc156a79"></a>
 
 ### Steven<sub>lembark</sub>
 
@@ -127,14 +127,14 @@
 2.  <https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql>
 
 
-<a id="org6c471c0"></a>
+<a id="org7288fd4"></a>
 
 ### adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
 
 1.  <https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)>
 
 
-<a id="org081c3c0"></a>
+<a id="orgcde2b1e"></a>
 
 ### andrew shitov "Perl 6 at a Glance"
 
@@ -143,14 +143,14 @@
 2.  <https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf>
 
 
-<a id="orgecf9251"></a>
+<a id="org778d11c"></a>
 
 ### perl weekly challenge:
 
 1.  <https://perlweeklychallenge.org/>
 
 
-<a id="org298be97"></a>
+<a id="org69b298e"></a>
 
 ### promises and threads
 
@@ -163,37 +163,37 @@
     2.  <https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md>
 
 
-<a id="org88acbd3"></a>
+<a id="orga5763c2"></a>
 
 ## linux kernel module to shut up damn bell
 
 
-<a id="org471e04f"></a>
+<a id="org7e4ebed"></a>
 
 ## bash books, much new features
 
 
-<a id="orgc26890e"></a>
+<a id="orga05884e"></a>
 
 ### bash          (d christensen pick)
 
 
-<a id="orgb4b3638"></a>
+<a id="orgbd36e3c"></a>
 
 ### bash cookbook (d christensen pick, weak writing)
 
 
-<a id="org4d18cc9"></a>
+<a id="org3b52b20"></a>
 
 ### unix shells (jeff pick)
 
 
-<a id="orgcb7604e"></a>
+<a id="orgf104b4e"></a>
 
-### bash programming, apress (alan)
+### "pro bash programming" by chris johnson, apress (alan)
 
 
-<a id="orgfb99964"></a>
+<a id="org71b6a7c"></a>
 
 ### book on the hidden logic of english:
 
