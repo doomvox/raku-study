@@ -69,21 +69,3 @@ https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 *** shadow novel where esperanto was spoken
 ***  "Crime Under Cover" (1941) by Maxwell Grant
 ****  http://obsidianrook.com/doomfiles/LA_OMBRO.html
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
