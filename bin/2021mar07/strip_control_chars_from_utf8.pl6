@@ -55,6 +55,7 @@ use v6;
 # 15:47:56	 From Bruce Gray : Alternate: <:lower+:cntrl>
 # 15:48:50	 From Bill Michels : <[<:Cc+:Ll> #]>+
 
+# 15:55:38	 From Bruce Gray : raku -e 'say $/ if "hello\n" ~~ $_ for /<:lower+:cntrl>+/, /<.lower>+/, /<.cntrl>+/;'
 
 
 my $text =
