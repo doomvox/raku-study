@@ -108,7 +108,7 @@ for @cases -> $case {
     say "===";
     ## playing fragments above the above regex
 
-    say "XXX = 666" ~~ '<-[=]>*? \=  \s+';  # False
+    say "XXX = 666" ~~ /<-[=]>*? \=  \s+/;  # False
 
 #      ^
 #      (   # Begin capture
