@@ -116,7 +116,7 @@ for @cases -> $case {
 
     say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>*? \: ]* /; # ｢:/usr/trash/bin:｣
 
-    say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>+? \: ]* /; # ｢:/usr/trash/bin:｣
+    say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>+? \: ]* /; # ｢｣   Hm?
 
 #      ^
 #      (   # Begin capture
