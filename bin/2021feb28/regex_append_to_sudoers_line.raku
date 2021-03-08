@@ -104,3 +104,24 @@ for @cases -> $case {
 
 
 
+{
+    ## playing fragments above the above regex
+
+
+    say "" ~~ '<-[=]>*?  \=  \s+';
+
+#      ^
+#      (   # Begin capture
+#          <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
+#          <!before              
+#              [  
+#                [ <-[:]>*? \: ]*       
+#                '/usr/local/bin' 
+#                [ \: | $ ]
+#              ]
+#            >   
+#          .*  ## matches *everything* but only if the negative lookahead does not match
+#      )   # End capture
+#      $
+
+    }
