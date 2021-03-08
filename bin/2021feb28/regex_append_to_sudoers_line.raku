@@ -128,7 +128,7 @@ for @cases -> $case {
     say "x:z" ~~ / [ <-[:]>+ \: ]* /;    # ｢x:｣
     say "x:y:z" ~~ / [ <-[:]>+ \: ]* /;  # ｢x:y:｣  ## the * repeats the two-char match
 
-    say "xX:yY:zZ" ~~ / [ <-[:]>+ \: ]* /;  # ｢x:y:｣  ## the * repeats the two-char match
+    say "xX:yY:zZ" ~~ / [ <-[:]>+ \: ]* /;  # ｢xX:yY:｣   ## the + repeats the non-colon match
 
 
 
