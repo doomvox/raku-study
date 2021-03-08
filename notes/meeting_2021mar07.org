@@ -73,8 +73,6 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 ***** William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now" 
 ****** https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability
 
-
-
 16:23:35	 From Joseph Brenner : To really nerd out, we need to start talking about loglan or lojban.
 16:23:45	 From Joseph Brenner : (And I'll invariably bring up Babel-17).
 17:06:41	 From Bruce Gray : https://en.wikipedia.org/wiki/The_World_of_Null-A
