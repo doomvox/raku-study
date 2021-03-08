@@ -120,7 +120,8 @@ for @cases -> $case {
     # is it the non-greedy causing problems?
     say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>+? \: ]* /; # ｢｣   
 
-    say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>+ \: ]* /; 
+    # nope: same behavior
+    say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>+ \: ]* /;  # ｢｣
 
 #      ^
 #      (   # Begin capture
