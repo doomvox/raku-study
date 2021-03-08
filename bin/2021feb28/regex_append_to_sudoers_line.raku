@@ -123,6 +123,10 @@ for @cases -> $case {
     # nope: same behavior
     say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>+ \: ]* /;  # ｢｣
 
+    say "x:" ~~ / [ <-[:]>+ \: ]* /;  # ｢｣
+
+
+
 
 #      ^
 #      (   # Begin capture
