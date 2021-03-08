@@ -40,8 +40,8 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 *** Bruce Gray covered a code example for generating a histogram of a random distribution
 **** http://rosettacode.org/wiki/Modified_random_distribution#Raku
 
-** linux kernel module to shut up damn bell
-*** 15:19:52	 From Jeff : #rmod pcspkr#vi /etc/modprobe.d/blacklistblacklist pcspkr:wq
+*** linux kernel module to shut up damn bell
+**** 15:19:52	 From Jeff : #rmod pcspkr#vi /etc/modprobe.d/blacklistblacklist pcspkr:wq
 
 *** Bash, etc
 **** Bruce Gray picks
@@ -69,8 +69,6 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 17:09:20	 From Joseph Brenner : organon
 17:09:22	 From Joseph Brenner : aristotle
 
-**** bruce gray discussion
-***** http://rosettacode.org/wiki/Modified_random_distribution#Raku
 
 **** shadow novel where esperanto was spoken
 ****  "Crime Under Cover" (1941) by Maxwell Grant
