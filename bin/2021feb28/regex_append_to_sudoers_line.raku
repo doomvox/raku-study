@@ -123,6 +123,7 @@ for @cases -> $case {
     # nope: same behavior
     say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>+ \: ]* /;  # ｢｣
 
+
 #      ^
 #      (   # Begin capture
 #          <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
