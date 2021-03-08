@@ -65,14 +65,17 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 **** William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now" 
 ***** https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability
 
-15:26:14	 From Bruce Gray : http://redsymbol.net/articles/unofficial-bash-strict-mode/
+**** Bash
+
+Bruce Gray : 
+http://redsymbol.net/articles/unofficial-bash-strict-mode/
 
 https://olivergondza.github.io/2019/10/01/bash-strict-mode.html
-15:26:25	 From Jeff : yes, good article!
 
-15:27:56	 From Jeff : zsh
 
-15:55:38	 From Bruce Gray : raku -e 'say $/ if "hello\n" ~~ $_ for /<:lower+:cntrl>+/, /<.lower>+/, /<.cntrl>+/;'
+
+
+
 16:02:47	 From Bruce Gray : http://rosettacode.org/wiki/Modified_random_distribution#Raku
 16:04:21	 From Jeff : wu
 16:10:20	 From Bill Michels : https://www.humblebundle.com/books/pocket-reference-guides-oreilly-books
