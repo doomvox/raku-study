@@ -4,6 +4,9 @@
 
 use v6;
 
+# *** William Michels suggests doing this simple shell problem in Raku:
+# **** https://unix.stackexchange.com/a/636948
+
 # 15:08:19	 From Bill Michels : "Cc"	"Control" or "cntrl" on this page: https://docs.raku.org/language/regexes#Unicode_properties
 # 15:10:06	 From Bruce Gray : Better: https://docs.raku.org/language/regexes#Predefined_character_classes
 # 15:11:53	 From Bill Michels : https://tools.ietf.org/html/rfc3629#section-3
