@@ -67,3 +67,4 @@ https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 **** http://rosettacode.org/wiki/Modified_random_distribution#Raku
 
 *** shadow novel where esperanto was spoken
+# "Crime Under Cover" (1941) by Maxwell Grant
