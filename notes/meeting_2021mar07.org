@@ -74,8 +74,6 @@ http://redsymbol.net/articles/unofficial-bash-strict-mode/
 
 https://olivergondza.github.io/2019/10/01/bash-strict-mode.html
 
-16:02:47	 From 
-
 16:10:20	 From Bill Michels : https://www.humblebundle.com/books/pocket-reference-guides-oreilly-books
 16:12:13	 From Joseph Brenner : http://perl-begin.org/humour/perl6_perl_6_cover_lg.jpg
 
