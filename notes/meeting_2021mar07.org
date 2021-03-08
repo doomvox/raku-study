@@ -63,3 +63,5 @@ https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 
 *** humble bundle promotion: oreilley pocket references
 
+*** bruce gray discussion
+http://rosettacode.org/wiki/Modified_random_distribution#Raku
