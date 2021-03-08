@@ -10,7 +10,7 @@
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md
 
 
-** topics
+** topics (really a disorganized list of stuff I'm pretending belongs in hierarchical order)
 *** lamberts regex problem, munging sudoers lines
 **** david christensen variation: scripted solution
 **** raku translation-- still has problems

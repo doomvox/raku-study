@@ -1,73 +1,73 @@
-- [meeting notes Mar 07, 2021](#org2ecb1cd)
-  - [announcments](#org4f3d635)
-    - [richard hainsworth: alternative pod6 processing](#orgcbe1f4e)
-  - [the usual meeting links:](#orge4adbf5)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>](#orgff9d2cd)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md>](#orgb3d16fb)
-  - [topics](#org964e7ab)
-    - [lamberts regex problem, munging sudoers lines](#org506e797)
-    - [jeff questions about compiler options, etc](#org27cdcb9)
-    - [the great "say Set.<sup>methods</sup>" affair](#orga1fc71a)
-    - [a stupid mistake that isn't: naming a method with a leading ^](#org1b3aca4)
-    - [69 cent tour of raku regexs](#org438c1e5)
-    - [some simple grammar demos](#orgec3af83)
-  - [possible topics (carried over from earlier meetings)](#org382dcf9)
-    - [Steven<sub>lembark</sub>](#org93b6184)
-    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#org943939a)
-    - [andrew shitov "Perl 6 at a Glance"](#orgf7364a6)
-    - [perl weekly challenge:](#orgd2c5f51)
-    - [promises and threads](#org080d461)
-  - [linux kernel module to shut up damn bell](#orgc83b8c4)
-  - [bash books, much new features](#org36f070e)
-    - [bash          (d christensen pick)](#org72ea11a)
-    - [bash cookbook (d christensen mention, weak writing)](#org585eae4)
-    - [unix shells (jeff pick)](#org2f95777)
-    - ["pro bash programming" by chris johnson, apress (alan pick)](#org5bc7f84)
-    - [book on the hidden logic of english:](#orgf9966fe)
-    - [humble bundle promotion: oreilley pocket references](#orgc821df4)
-    - [bruce gray discussion](#org84d4a56)
-    - [shadow novel where esperanto was spoken](#orgbbe47f9)
-    - ["Crime Under Cover" (1941) by Maxwell Grant](#org3eb2df0)
+- [meeting notes Mar 07, 2021](#org38d9234)
+  - [announcments](#org9d28a46)
+    - [richard hainsworth: alternative pod6 processing](#orga326d82)
+  - [the usual meeting links:](#orgd466f7d)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>](#org799ddc7)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md>](#org44ec40c)
+  - [topics (really a disorganized list of stuff I'm pretending belongs in hierarchical order)](#org71a9747)
+    - [lamberts regex problem, munging sudoers lines](#orgaea2e8f)
+    - [jeff questions about compiler options, etc](#org9b34f40)
+    - [the great "say Set.<sup>methods</sup>" affair](#org5d30742)
+    - [a stupid mistake that isn't: naming a method with a leading ^](#org29b64d8)
+    - [69 cent tour of raku regexs](#orgde0c442)
+    - [some simple grammar demos](#orgeb6fbd1)
+  - [possible topics (carried over from earlier meetings)](#org86aabd6)
+    - [Steven<sub>lembark</sub>](#org5abc609)
+    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#org9cbfa0e)
+    - [andrew shitov "Perl 6 at a Glance"](#org9e783ea)
+    - [perl weekly challenge:](#org61e4eed)
+    - [promises and threads](#org20562dc)
+  - [linux kernel module to shut up damn bell](#orgc1de9b2)
+  - [bash books, much new features](#org518b153)
+    - [bash          (d christensen pick)](#orgdcef1e3)
+    - [bash cookbook (d christensen mention, weak writing)](#org600d8f1)
+    - [unix shells (jeff pick)](#org5a97af2)
+    - ["pro bash programming" by chris johnson, apress (alan pick)](#orgf3ac087)
+    - [book on the hidden logic of english:](#org1d9cbca)
+    - [humble bundle promotion: oreilley pocket references](#org8c43057)
+    - [bruce gray discussion](#org3419a06)
+    - [shadow novel where esperanto was spoken](#org525741a)
+    - ["Crime Under Cover" (1941) by Maxwell Grant](#orgad83d5f)
 
 
-<a id="org2ecb1cd"></a>
+<a id="org38d9234"></a>
 
 # meeting notes Mar 07, 2021
 
 
-<a id="org4f3d635"></a>
+<a id="org9d28a46"></a>
 
 ## announcments
 
 
-<a id="orgcbe1f4e"></a>
+<a id="orga326d82"></a>
 
 ### richard hainsworth: alternative pod6 processing
 
 1.  His version of Raku docs: <http://raku.finanalyst.org>
 
 
-<a id="orge4adbf5"></a>
+<a id="orgd466f7d"></a>
 
 ## the usual meeting links:
 
 
-<a id="orgff9d2cd"></a>
+<a id="org799ddc7"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>
 
 
-<a id="orgb3d16fb"></a>
+<a id="org44ec40c"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md>
 
 
-<a id="org964e7ab"></a>
+<a id="org71a9747"></a>
 
-## topics
+## topics (really a disorganized list of stuff I'm pretending belongs in hierarchical order)
 
 
-<a id="org506e797"></a>
+<a id="orgaea2e8f"></a>
 
 ### lamberts regex problem, munging sudoers lines
 
@@ -76,12 +76,12 @@
 2.  raku translation&#x2013; still has problems
 
 
-<a id="org27cdcb9"></a>
+<a id="org9b34f40"></a>
 
 ### jeff questions about compiler options, etc
 
 
-<a id="orga1fc71a"></a>
+<a id="org5d30742"></a>
 
 ### the great "say Set.<sup>methods</sup>" affair
 
@@ -96,7 +96,7 @@
     1.  it checks the case of inheritence, but not roles
 
 
-<a id="org1b3aca4"></a>
+<a id="org29b64d8"></a>
 
 ### a stupid mistake that isn't: naming a method with a leading ^
 
@@ -105,22 +105,22 @@
     1.  should this generate a warning/error?
 
 
-<a id="org438c1e5"></a>
+<a id="orgde0c442"></a>
 
 ### 69 cent tour of raku regexs
 
 
-<a id="orgec3af83"></a>
+<a id="orgeb6fbd1"></a>
 
 ### some simple grammar demos
 
 
-<a id="org382dcf9"></a>
+<a id="org86aabd6"></a>
 
 ## possible topics (carried over from earlier meetings)
 
 
-<a id="org93b6184"></a>
+<a id="org5abc609"></a>
 
 ### Steven<sub>lembark</sub>
 
@@ -131,14 +131,14 @@
 2.  <https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql>
 
 
-<a id="org943939a"></a>
+<a id="org9cbfa0e"></a>
 
 ### adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
 
 1.  <https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)>
 
 
-<a id="orgf7364a6"></a>
+<a id="org9e783ea"></a>
 
 ### andrew shitov "Perl 6 at a Glance"
 
@@ -147,14 +147,14 @@
 2.  <https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf>
 
 
-<a id="orgd2c5f51"></a>
+<a id="org61e4eed"></a>
 
 ### perl weekly challenge:
 
 1.  <https://perlweeklychallenge.org/>
 
 
-<a id="org080d461"></a>
+<a id="org20562dc"></a>
 
 ### promises and threads
 
@@ -167,37 +167,37 @@
     2.  <https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md>
 
 
-<a id="orgc83b8c4"></a>
+<a id="orgc1de9b2"></a>
 
 ## linux kernel module to shut up damn bell
 
 
-<a id="org36f070e"></a>
+<a id="org518b153"></a>
 
 ## bash books, much new features
 
 
-<a id="org72ea11a"></a>
+<a id="orgdcef1e3"></a>
 
 ### bash          (d christensen pick)
 
 
-<a id="org585eae4"></a>
+<a id="org600d8f1"></a>
 
 ### bash cookbook (d christensen mention, weak writing)
 
 
-<a id="org2f95777"></a>
+<a id="org5a97af2"></a>
 
 ### unix shells (jeff pick)
 
 
-<a id="org5bc7f84"></a>
+<a id="orgf3ac087"></a>
 
 ### "pro bash programming" by chris johnson, apress (alan pick)
 
 
-<a id="orgf9966fe"></a>
+<a id="org1d9cbca"></a>
 
 ### book on the hidden logic of english:
 
@@ -206,24 +206,24 @@
     1.  clusters of morphemes
 
 
-<a id="orgc821df4"></a>
+<a id="org8c43057"></a>
 
 ### humble bundle promotion: oreilley pocket references
 
 
-<a id="org84d4a56"></a>
+<a id="org3419a06"></a>
 
 ### bruce gray discussion
 
 1.  <http://rosettacode.org/wiki/Modified_random_distribution#Raku>
 
 
-<a id="orgbbe47f9"></a>
+<a id="org525741a"></a>
 
 ### shadow novel where esperanto was spoken
 
 
-<a id="org3eb2df0"></a>
+<a id="orgad83d5f"></a>
 
 ### "Crime Under Cover" (1941) by Maxwell Grant
 
