@@ -123,7 +123,11 @@ for @cases -> $case {
     # nope: same behavior
     say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>+ \: ]* /;  # ｢｣
 
-    say "x:" ~~ / [ <-[:]>+ \: ]* /;  # ｢｣
+    # this matches:
+    say "x:" ~~ / [ <-[:]>+ \: ]* /;  # ｢x:｣
+
+    # this matches:
+    say "x:x" ~~ / [ <-[:]>+ \: ]* /;  # ｢x:｣
 
 
 
