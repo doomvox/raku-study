@@ -117,9 +117,10 @@ for @cases -> $case {
     say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>*? \: ]* /; # ｢:/usr/trash/bin:｣
 
     # demanding a leading non-colon fails?  But why wouldn't "n:" match?
+    # is it the non-greedy causing problems?
     say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>+? \: ]* /; # ｢｣   
 
-    say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>+? \: ]* /; # ｢｣   
+    say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>+ \: ]* /; 
 
 #      ^
 #      (   # Begin capture
