@@ -56,5 +56,5 @@ say $/ if "yaddahchocolatecake" ~~ <[a..z]-[aeiouyw]>;  # ｢#cccll yaddah ch｣
 
 # bruce gray, for readability:
 #  raku -e 'say $/ if "hello\n" ~~ $_ for /<.lower>+<.cntrl>+/, /<.lower>+/, /<.cntrl>+/;' 
-# Or better:
+# Or better (closer to problem statement):
 #   <:lower+:cntrl> 
