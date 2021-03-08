@@ -48,7 +48,7 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 ***** http://redsymbol.net/articles/unofficial-bash-strict-mode/
 ***** https://olivergondza.github.io/2019/10/01/bash-strict-mode.html
 
-*** bash books, much new features
+*** bash books. modern bash has new features
 **** bash          (d christensen pick)
 **** bash cookbook (d christensen mention, weak writing)
 **** unix shells (jeff pick)
