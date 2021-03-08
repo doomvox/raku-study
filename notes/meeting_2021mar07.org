@@ -43,36 +43,36 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 ** linux kernel module to shut up damn bell
 *** 15:19:52	 From Jeff : #rmod pcspkr#vi /etc/modprobe.d/blacklistblacklist pcspkr:wq
 
-** bash books, much new features
-*** bash          (d christensen pick)
-*** bash cookbook (d christensen mention, weak writing)
-*** unix shells (jeff pick)
-*** "pro bash programming" by chris johnson, apress (alan pick)
+*** Bash, etc
+**** Bruce Gray picks
+***** http://redsymbol.net/articles/unofficial-bash-strict-mode/
+***** https://olivergondza.github.io/2019/10/01/bash-strict-mode.html
 
-*** book on the hidden logic of english:
-**** "uncovering the logic of english" (jeff pick)
-***** clusters of morphemes
+*** bash books, much new features
+**** bash          (d christensen pick)
+**** bash cookbook (d christensen mention, weak writing)
+**** unix shells (jeff pick)
+**** "pro bash programming" by chris johnson, apress (alan pick)
 
-*** humble bundle promotion: oreilley pocket references
+*** books in general
+***** "uncovering the logic of english" (jeff pick)
+****** clusters of morphemes
 
-*** bruce gray discussion
-**** http://rosettacode.org/wiki/Modified_random_distribution#Raku
+***** humble bundle promotion: oreilley pocket references
+****** https://www.humblebundle.com/books/pocket-reference-guides-oreilly-books
 
-*** shadow novel where esperanto was spoken
-***  "Crime Under Cover" (1941) by Maxwell Grant
-****  http://obsidianrook.com/doomfiles/LA_OMBRO.html
+**** bruce gray discussion
+***** http://rosettacode.org/wiki/Modified_random_distribution#Raku
 
-*** misc elements from chat
+**** shadow novel where esperanto was spoken
+****  "Crime Under Cover" (1941) by Maxwell Grant
+*****  http://obsidianrook.com/doomfiles/LA_OMBRO.html
 
-**** William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now" 
-***** https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability
+**** misc elements from chat
 
-**** Bash, etc
+***** William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now" 
+****** https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability
 
-Bruce Gray : 
-http://redsymbol.net/articles/unofficial-bash-strict-mode/
-
-https://olivergondza.github.io/2019/10/01/bash-strict-mode.html
 
 16:10:20	 From Bill Michels : https://www.humblebundle.com/books/pocket-reference-guides-oreilly-books
 16:12:13	 From Joseph Brenner : http://perl-begin.org/humour/perl6_perl_6_cover_lg.jpg
