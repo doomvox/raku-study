@@ -124,9 +124,9 @@ for @cases -> $case {
     say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>+ \: ]* /;  # ｢｣
 
     # this matches:
-    say "x:" ~~ / [ <-[:]>+ \: ]* /;  # ｢x:｣
-    say "x:z" ~~ / [ <-[:]>+ \: ]* /;  # ｢x:｣
-    say "x:y:z" ~~ / [ <-[:]>+ \: ]* /;  # ｢x:｣
+    say "x:" ~~ / [ <-[:]>+ \: ]* /;     # ｢x:｣
+    say "x:z" ~~ / [ <-[:]>+ \: ]* /;    # ｢x:｣
+    say "x:y:z" ~~ / [ <-[:]>+ \: ]* /;  # ｢x:y:｣
 
 
 
