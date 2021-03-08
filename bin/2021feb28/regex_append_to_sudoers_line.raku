@@ -75,7 +75,7 @@ for @cases -> $case {
          <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
          <!before              
              [  
-               [ <-[:]>* \: ]*       
+               [ <-[:]>*? \: ]*       
                '/usr/local/bin' 
                [ \: | $ ]
              ]
