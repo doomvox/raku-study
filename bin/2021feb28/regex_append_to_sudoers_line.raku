@@ -111,7 +111,7 @@ for @cases -> $case {
     say "XXX = 666" ~~ /<-[=]>*? \=  \s+/;  # ｢XXX = ｣
 
     my $pat = /<-[=]>*? \=  \s+/;
-    say "XXX = 666" ~~ $pat ;  # ｢XXX = ｣
+    say "XXX = 666" ~~ $pat ;               # ｢XXX = ｣
 
 
 #      ^
