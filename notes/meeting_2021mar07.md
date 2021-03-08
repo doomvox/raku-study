@@ -1,78 +1,78 @@
-- [meeting notes Mar 07, 2021](#orgcaa246b)
-  - [announcments](#org84a491a)
-    - [richard hainsworth: alternative pod6 processing](#orga8eb7c5)
-  - [the usual meeting links:](#org17a1bf0)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>](#org52da879)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md>](#org089501e)
-    - [SF Perl site for mailing list subscription info:](#org8e6996a)
-  - ["topics" (disorganized list of stuff I'm pretending belongs in a hierarchy)](#org7a95cb3)
-    - [back to last weeks regex problem, munging sudoers lines via a sysadmin tool](#orgdcfc9a4)
-    - [jeff had questions about compiler options, etc](#org7ac521e)
-    - [William Michels suggests doing this simple shell problem in Raku:](#org2e35315)
-    - [Bruce Gray covered a code example for generating a histogram of a random distribution](#orge58b826)
-    - [linux kernel module to shut up damn bell](#org08fab0b)
-    - [Bash, etc](#org06cda2b)
-    - [bash books. modern bash has new features](#org3e3edda)
-    - [books in general](#orgcae712f)
-  - [possible topics (not covered this time)](#orga476c6c)
-    - [andrew shitov's raku course on-line:](#org1a86a80)
-    - [the great "say Set.<sup>methods</sup>" affair](#orgf9011b0)
-    - [a stupid mistake that isn't: naming a method with a leading ^](#orga2716b7)
-    - [69 cent tour of raku regexs](#org91d05ff)
-    - [some simple grammar demos](#org51e0fd7)
-  - [more possible topics (carried over from earlier meetings)](#orgd530431)
-    - [Steven<sub>lembark</sub>](#org35b1db3)
-    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#org58ef07a)
-    - [andrew shitov "Perl 6 at a Glance"](#orga1000a9)
-    - [perl weekly challenge:](#orgbe71ddc)
-    - [promises and threads](#org4a8e95c)
+- [meeting notes Mar 07, 2021](#org989e315)
+  - [announcments](#orge524367)
+    - [richard hainsworth: alternative pod6 processing](#org9aa5842)
+  - [the usual meeting links:](#orgd7f2ef4)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>](#org0dd0284)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md>](#orgce1888b)
+    - [SF Perl site for mailing list subscription info:](#orgacd311f)
+  - ["topics" (disorganized list of stuff I'm pretending belongs in a hierarchy)](#org3df8385)
+    - [back to last weeks regex problem, munging sudoers lines via a sysadmin tool](#org9e391bb)
+    - [jeff had questions about compiler options, etc](#orgf2ec679)
+    - [William Michels suggests doing this simple shell problem in Raku:](#org8d08cb9)
+    - [Bruce Gray covered a code example for generating a histogram of a random distribution](#org11aeeae)
+    - [linux kernel module to shut up damn bell](#org58369bc)
+    - [Bash, etc](#org793b254)
+    - [bash books. modern bash has new features](#org2cb91ea)
+    - [books in general](#org81bb21c)
+  - [possible topics (not covered this time)](#org25038d3)
+    - [andrew shitov's raku course on-line:](#org39cc633)
+    - [the great "say Set.<sup>methods</sup>" affair](#org1f0ddf6)
+    - [a stupid mistake that isn't: naming a method with a leading ^](#orgaa38687)
+    - [69 cent tour of raku regexs](#org4f6695b)
+    - [some simple grammar demos](#org834e004)
+  - [more possible topics (carried over from earlier meetings)](#org96f2c4e)
+    - [Steven<sub>lembark</sub>](#org6656232)
+    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#org32d3838)
+    - [andrew shitov "Perl 6 at a Glance"](#orga2b018c)
+    - [perl weekly challenge:](#org33203fb)
+    - [promises and threads](#orgd924282)
 
 
-<a id="orgcaa246b"></a>
+<a id="org989e315"></a>
 
 # meeting notes Mar 07, 2021
 
 
-<a id="org84a491a"></a>
+<a id="orge524367"></a>
 
 ## announcments
 
 
-<a id="orga8eb7c5"></a>
+<a id="org9aa5842"></a>
 
 ### richard hainsworth: alternative pod6 processing
 
 1.  His version of Raku docs: <http://raku.finanalyst.org>
 
 
-<a id="org17a1bf0"></a>
+<a id="orgd7f2ef4"></a>
 
 ## the usual meeting links:
 
 
-<a id="org52da879"></a>
+<a id="org0dd0284"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2021mar07>
 
 
-<a id="org089501e"></a>
+<a id="orgce1888b"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md>
 
 
-<a id="org8e6996a"></a>
+<a id="orgacd311f"></a>
 
 ### SF Perl site for mailing list subscription info:
 
 1.  <http://sf.pm.org/>
 
 
-<a id="org7a95cb3"></a>
+<a id="org3df8385"></a>
 
 ## "topics" (disorganized list of stuff I'm pretending belongs in a hierarchy)
 
 
-<a id="orgdcfc9a4"></a>
+<a id="org9e391bb"></a>
 
 ### back to last weeks regex problem, munging sudoers lines via a sysadmin tool
 
@@ -97,7 +97,7 @@
     1.  <https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/regex_append_to_sudoers_line.raku>
 
 
-<a id="org7ac521e"></a>
+<a id="orgf2ec679"></a>
 
 ### jeff had questions about compiler options, etc
 
@@ -114,7 +114,7 @@
             2.  
 
 
-<a id="org2e35315"></a>
+<a id="org8d08cb9"></a>
 
 ### William Michels suggests doing this simple shell problem in Raku:
 
@@ -125,21 +125,21 @@
     <https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6>
 
 
-<a id="orge58b826"></a>
+<a id="org11aeeae"></a>
 
 ### Bruce Gray covered a code example for generating a histogram of a random distribution
 
 1.  <http://rosettacode.org/wiki/Modified_random_distribution#Raku>
 
 
-<a id="org08fab0b"></a>
+<a id="org58369bc"></a>
 
 ### linux kernel module to shut up damn bell
 
 1.  15:19:52	 From Jeff : #rmod pcspkr#vi /etc/modprobe.d/blacklistblacklist pcspkr:wq
 
 
-<a id="org06cda2b"></a>
+<a id="org793b254"></a>
 
 ### Bash, etc
 
@@ -150,7 +150,7 @@
     2.  <https://olivergondza.github.io/2019/10/01/bash-strict-mode.html>
 
 
-<a id="org3e3edda"></a>
+<a id="org2cb91ea"></a>
 
 ### bash books. modern bash has new features
 
@@ -163,7 +163,7 @@
 4.  "pro bash programming" by chris johnson, apress (alan pick)
 
 
-<a id="orgcae712f"></a>
+<a id="org81bb21c"></a>
 
 ### books in general
 
@@ -181,34 +181,34 @@
 
 1.  shadow novel where esperanto was spoken
 
-2.  "Crime Under Cover" (1941) by Maxwell Grant
+    1.  "Crime Under Cover" (1941) by Maxwell Grant
+    
+    2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
 
-    1.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
-
-3.  misc elements from chat
+2.  misc elements from chat
 
     1.  William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now"
     
         1.  <https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability>
 
-4.  perl 6 snark
+3.  perl 6 snark
 
     1.  ![img](//perl-begin.org/humour/perl6_perl_6_cover_lg.jpg)
 
 
-<a id="orga476c6c"></a>
+<a id="org25038d3"></a>
 
 ## possible topics (not covered this time)
 
 
-<a id="org1a86a80"></a>
+<a id="org39cc633"></a>
 
 ### andrew shitov's raku course on-line:
 
 <https://course.raku.org/>
 
 
-<a id="orgf9011b0"></a>
+<a id="org1f0ddf6"></a>
 
 ### the great "say Set.<sup>methods</sup>" affair
 
@@ -223,7 +223,7 @@
     1.  it checks the case of inheritence, but not roles
 
 
-<a id="orga2716b7"></a>
+<a id="orgaa38687"></a>
 
 ### a stupid mistake that isn't: naming a method with a leading ^
 
@@ -232,22 +232,22 @@
     1.  should this generate a warning/error?
 
 
-<a id="org91d05ff"></a>
+<a id="org4f6695b"></a>
 
 ### 69 cent tour of raku regexs
 
 
-<a id="org51e0fd7"></a>
+<a id="org834e004"></a>
 
 ### some simple grammar demos
 
 
-<a id="orgd530431"></a>
+<a id="org96f2c4e"></a>
 
 ## more possible topics (carried over from earlier meetings)
 
 
-<a id="org35b1db3"></a>
+<a id="org6656232"></a>
 
 ### Steven<sub>lembark</sub>
 
@@ -258,14 +258,14 @@
 2.  <https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql>
 
 
-<a id="org58ef07a"></a>
+<a id="org32d3838"></a>
 
 ### adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
 
 1.  <https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)>
 
 
-<a id="orga1000a9"></a>
+<a id="orga2b018c"></a>
 
 ### andrew shitov "Perl 6 at a Glance"
 
@@ -274,14 +274,14 @@
 2.  <https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf>
 
 
-<a id="orgbe71ddc"></a>
+<a id="org33203fb"></a>
 
 ### perl weekly challenge:
 
 1.  <https://perlweeklychallenge.org/>
 
 
-<a id="org4a8e95c"></a>
+<a id="orgd924282"></a>
 
 ### promises and threads
 

@@ -71,7 +71,7 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 
 
 **** shadow novel where esperanto was spoken
-****  "Crime Under Cover" (1941) by Maxwell Grant
+*****  "Crime Under Cover" (1941) by Maxwell Grant
 *****  http://obsidianrook.com/doomfiles/LA_OMBRO.html
 
 **** misc elements from chat
