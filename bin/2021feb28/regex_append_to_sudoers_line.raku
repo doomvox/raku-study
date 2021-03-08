@@ -125,9 +125,8 @@ for @cases -> $case {
 
     # this matches:
     say "x:" ~~ / [ <-[:]>+ \: ]* /;  # ｢x:｣
-
-    # this matches:
     say "x:z" ~~ / [ <-[:]>+ \: ]* /;  # ｢x:｣
+    say "x:y:z" ~~ / [ <-[:]>+ \: ]* /;  # ｢x:｣
 
 
 
