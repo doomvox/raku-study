@@ -110,6 +110,10 @@ for @cases -> $case {
 
     say "XXX = 666" ~~ /<-[=]>*? \=  \s+/;  # ｢XXX = ｣
 
+    my $pat = /<-[=]>*? \=  \s+/;
+    say "XXX = 666" ~~ $pat ;  # ｢XXX = ｣
+
+
 #      ^
 #      (   # Begin capture
 #          <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
