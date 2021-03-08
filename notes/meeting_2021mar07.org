@@ -72,8 +72,6 @@ https://olivergondza.github.io/2019/10/01/bash-strict-mode.html
 
 15:27:56	 From Jeff : zsh
 
-15:51:58	 From Jeff : print
-15:51:59	 From Jeff : print#
 15:55:38	 From Bruce Gray : raku -e 'say $/ if "hello\n" ~~ $_ for /<:lower+:cntrl>+/, /<.lower>+/, /<.cntrl>+/;'
 16:02:47	 From Bruce Gray : http://rosettacode.org/wiki/Modified_random_distribution#Raku
 16:04:21	 From Jeff : wu
