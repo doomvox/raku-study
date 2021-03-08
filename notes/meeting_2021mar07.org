@@ -8,59 +8,36 @@
 ** the usual meeting links:
 *** https://github.com/doomvox/raku-study/tree/main/bin/2021mar07
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md
-
+*** SF Perl site for mailing list subscription info:
+**** http://sf.pm.org/
 
 ** "topics" (disorganized list of stuff I'm pretending belongs in a hierarchy)
 
 *** back to last weeks regex problem, munging sudoers lines via a sysadmin tool
-**** problem posed by lambert lum
-***** 
+**** problem posed by lambert lum, who revealed his solution
+***** $line =~ s{(^Defaults\s+secure_path\s*(?:.(?!/usr/local/bin))*$)}{$1:/usr/local/bin};
 **** yary approach, with some doomvox additons:
 ***** https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/pcre_regex_to_append_path_non_redundantly.t
 ***** "\K" regex code is Trick #7: https://blogs.oracle.com/linux/the-top-10-tricks-of-perl-one-liners-v2
-
+***** Bruce Gray confirms "PCRE does understand \K"
 **** david christensen variation, showed a scripted solution
 ***** virtue of handling cases like escaped continuation lines with trailing comments
 **** raku translation-- still has problems
 ***** https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/regex_append_to_sudoers_line.raku
 
+*** jeff had questions about compiler options, etc
+**** --cc=$(tc=getCC)
+***** Bruce Gray points at:
+****** https://github.com/MoarVM/MoarVM/blob/master/Configure.pl
+******* --moar-option='--option=value'
+Options to pass to MoarVM configuration for --gen-moar
+******* 
 
-
-
-*** jeff questions about compiler options, etc
-
-*** the great "say Set.^methods" affair
-**** the issue (bug report and discussion):
-https://github.com/rakudo/rakudo/issues/4207
-
-**** the roast test, aka the spec:
-https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
-***** it checks the case of inheritence, but not roles
-
-*** a stupid mistake that isn't: naming a method with a leading ^
-**** https://stackoverflow.com/questions/54143036/class-method-name-with-doesnt-get-invoked-properly/54147131#54147131
-***** should this generate a warning/error?
-*** 69 cent tour of raku regexs
-*** some simple grammar demos
-
-** possible topics (carried over from earlier meetings)
-*** Steven_lembark
-**** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
-***** slide21:  "unit sub MAIN { ..."  unit?
-**** https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql
-*** adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
-**** https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
-*** andrew shitov "Perl 6 at a Glance"
-**** https://andrewshitov.com/perl6-at-a-glance/
-**** https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf
-*** perl weekly challenge: 
-**** https://perlweeklychallenge.org/
-
-*** promises and threads
-**** https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
-**** Jonathan Worthington
-***** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/Racing-to-writeness-to-wrongness-leads.md
-***** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md
+*** William Michels suggests doing this simple shell problem in Raku:
+**** https://unix.stackexchange.com/a/636948
+**** there were a few interesting angles involving with raku character classes
+https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6
+**** 
 
 ** linux kernel module to shut up damn bell
 
@@ -90,32 +67,7 @@ https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 
 
 
-13:41:10	 From 
-13:41:47	 From Joseph Brenner : http://sf.pm.org/
-13:49:26	 From Joseph Brenner : How about the empty path case: 
-13:49:28	 From Joseph Brenner : Defaults secure_path = 
-13:52:34	 From Bruce Gray : PCRE does understand \K
-13:52:47	 From Jeff : Good to know.
-13:54:00	 From Joseph Brenner : Thanks Bruce.
-13:58:33	 From Jeff : BRB
-14:01:31	 From Jeff : back
-14:15:47	 From Lambert Lum :   $line =~ s{(^Defaults\s+secure_path\s*(?:.(?!/usr/local/bin))*$)}{$1:/usr/local/bin};
 
-14:34:15	 From Jeff : --cc=$(tc=getCC)
-14:39:22	 From Bruce Gray : https://github.com/MoarVM/MoarVM/blob/master/Configure.pl
-14:43:16	 From Bill Michels : Jeff maybe an email to Patrick "tyil" Spek is in order. See: https://fglt.nl/guides/picking-a-distro.html
-14:43:19	 From Bill Michels : Patrick 'tyil' Spek <p.spek@tyil.work>
-14:43:43	 From Bill Michels : https://git.sr.ht/~tyil/rakudo-star
-14:44:22	 From Jeff : https://bugs.gentoo.org/727808
-14:44:36	 From Bill Michels : https://www.tyil.nl/
-14:46:57	 From Joseph Brenner : Back in a minute.
-14:48:55	 From Bill Michels : p.spek@tyil.nl
-14:51:01	 From Jeff : Slackware
-14:51:52	 From Bruce Gray : https://github.com/Raku/nqp/blob/master/Configure.pl
---moar-option='--option=value'
-Options to pass to MoarVM configuration for --gen-moar
-14:58:29	 From Jeff : https://course.raku.org/
-15:02:56	 From Bill Michels : Anyone have a Raku solution? https://unix.stackexchange.com/a/636948
 15:08:19	 From Bill Michels : "Cc"	"Control" or "cntrl" on this page: https://docs.raku.org/language/regexes#Unicode_properties
 15:10:06	 From Bruce Gray : Better: https://docs.raku.org/language/regexes#Predefined_character_classes
 15:11:53	 From Bill Michels : https://tools.ietf.org/html/rfc3629#section-3
@@ -181,3 +133,41 @@ To exit type 'exit' or '^D'
 17:09:18	 From Joseph Brenner : categories
 17:09:20	 From Joseph Brenner : organon
 17:09:22	 From Joseph Brenner : aristotle
+
+** possible topics (not covered this time)
+
+*** andrew shitov's raku course on-line:
+https://course.raku.org/
+
+*** the great "say Set.^methods" affair
+**** the issue (bug report and discussion):
+https://github.com/rakudo/rakudo/issues/4207
+
+**** the roast test, aka the spec:
+https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
+***** it checks the case of inheritence, but not roles
+
+*** a stupid mistake that isn't: naming a method with a leading ^
+**** https://stackoverflow.com/questions/54143036/class-method-name-with-doesnt-get-invoked-properly/54147131#54147131
+***** should this generate a warning/error?
+*** 69 cent tour of raku regexs
+*** some simple grammar demos
+
+** more possible topics (carried over from earlier meetings)
+*** Steven_lembark
+**** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
+***** slide21:  "unit sub MAIN { ..."  unit?
+**** https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql
+*** adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
+**** https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
+*** andrew shitov "Perl 6 at a Glance"
+**** https://andrewshitov.com/perl6-at-a-glance/
+**** https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf
+*** perl weekly challenge: 
+**** https://perlweeklychallenge.org/
+
+*** promises and threads
+**** https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
+**** Jonathan Worthington
+***** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/Racing-to-writeness-to-wrongness-leads.md
+***** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md
