@@ -74,10 +74,10 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 *****  "Crime Under Cover" (1941) by Maxwell Grant
 *****  http://obsidianrook.com/doomfiles/LA_OMBRO.html
 
-**** misc elements from chat
 
-***** William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now" 
-****** https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability
+*** linux 
+**** William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now" 
+***** https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability
 
 **** perl 6 snark
 ***** http://perl-begin.org/humour/perl6_perl_6_cover_lg.jpg
