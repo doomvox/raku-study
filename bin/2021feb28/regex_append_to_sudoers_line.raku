@@ -114,6 +114,9 @@ for @cases -> $case {
     say "XXX = 666" ~~ $pat ;               # ｢XXX = ｣
 
 
+    say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>*? \: ]* /
+
+
 #      ^
 #      (   # Begin capture
 #          <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
