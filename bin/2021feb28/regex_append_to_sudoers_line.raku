@@ -114,9 +114,9 @@ for @cases -> $case {
     say "XXX = 666" ~~ $pat ;               # ｢XXX = ｣
 
 
-    say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>*? \: ]* / # ｢:/usr/trash/bin:｣
+    say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>*? \: ]* /; # ｢:/usr/trash/bin:｣
 
-    say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>+? \: ]* / # ｢:/usr/trash/bin:｣
+    say ":/usr/trash/bin:/home/lostfool/bin" ~~ / [ <-[:]>+? \: ]* /; # ｢:/usr/trash/bin:｣
 
 #      ^
 #      (   # Begin capture
