@@ -39,6 +39,7 @@ Options to pass to MoarVM configuration for --gen-moar
 https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6
 
 ** linux kernel module to shut up damn bell
+*** 15:19:52	 From Jeff : #rmod pcspkr#vi /etc/modprobe.d/blacklistblacklist pcspkr:wq
 
 ** bash books, much new features
 *** bash          (d christensen pick)
@@ -64,51 +65,13 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 **** William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now" 
 ***** https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability
 
-15:15:00	 From Joseph Brenner : https://github.com/doomvox/raku-study/tree/main/bin/2021mar07
-15:15:19	 From Joseph Brenner : https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md
-15:16:09	 From Bruce Gray : https://en.wikipedia.org/wiki/Control_character#In_Unicode
-15:16:14	 From Bruce Gray : https://en.wikipedia.org/wiki/Unicode_control_characters
-15:19:52	 From Jeff : #rmod pcspkr#vi /etc/modprobe.d/blacklistblacklist pcspkr:wq
 15:26:14	 From Bruce Gray : http://redsymbol.net/articles/unofficial-bash-strict-mode/
+
 https://olivergondza.github.io/2019/10/01/bash-strict-mode.html
 15:26:25	 From Jeff : yes, good article!
-15:27:56	 From Jeff : zsh
-15:31:51	 From Bill Michels : ~$ raku
-Welcome to 𝐑𝐚𝐤𝐮𝐝𝐨™ v2020.10.
-Implementing the 𝐑𝐚𝐤𝐮™ programming language v6.d.
-Built on MoarVM version 2020.10.
 
-To exit type 'exit' or '^D'
-> say $/ if "hello\n" ~~ / <:Ll>+<:Cc>+ /;
-｢hello
-｣
-> say $/ if "hello\n" ~~ / <:Ll>+ /;
-｢hello｣
-> say $/ if "hello\n" ~~ / <:Cc>+ /;
-｢
-｣
->
-15:35:03	 From Jeff : 0xfffe
-15:35:47	 From Jeff : err... 0xfffd
-15:37:08	 From Bill Michels : https://util.unicode.org/UnicodeJsps/character.jsp?a=FFFD
-15:39:14	 From Jeff : tr [[:ctrl:]]
-15:39:27	 From Bill Michels : "3.7 Enabling Lossless Conversion" https://www.unicode.org/reports/tr36/#EnablingLosslessConversion
-15:40:43	 From Bruce Gray : Bill: variant:
-15:40:45	 From Bruce Gray : raku -e 'say $/ if "hello\n" ~~ $_ for /<.lower>+<.cntrl>+/, /<.lower>+/, /<.cntrl>+/;'
-15:42:12	 From Bruce Gray : <:Ll>+<:Cc>+
-15:43:36	 From Bruce Gray : <:Ll+:Cc>
-15:44:14	 From Bill Michels : > say $/ if "hello\n" ~~ / <:Cc>+<:Ll>+ /;
-()
->
-15:44:54	 From Bill Michels : YES!!
-15:44:56	 From Bill Michels : > say $/ if "hello\n" ~~ / <:Cc+:Ll>+ /;
-｢hello
-｣
->
-15:45:03	 From Bill Michels : Thanks Bruce!
-15:45:14	 From Bruce Gray : yw
-15:47:56	 From Bruce Gray : Alternate: <:lower+:cntrl>
-15:48:50	 From Bill Michels : <[<:Cc+:Ll> #]>+
+15:27:56	 From Jeff : zsh
+
 15:51:58	 From Jeff : print
 15:51:59	 From Jeff : print#
 15:55:38	 From Bruce Gray : raku -e 'say $/ if "hello\n" ~~ $_ for /<:lower+:cntrl>+/, /<.lower>+/, /<.cntrl>+/;'
