@@ -55,7 +55,7 @@ https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 *** bash          (d christensen pick)
 *** bash cookbook (d christensen pick, weak writing)
 *** unix shells (jeff pick)
-*** "pro bash programming" by chris johnson, apress (alan)
+*** "pro bash programming" by chris johnson, apress (alan pick)
 
 
 *** book on the hidden logic of english:
