@@ -18,6 +18,43 @@ use v6;
 # 15:16:09	 From Bruce Gray : https://en.wikipedia.org/wiki/Control_character#In_Unicode
 # 15:16:14	 From Bruce Gray : https://en.wikipedia.org/wiki/Unicode_control_characters
 
+# 15:31:51	 From Bill Michels : ~$ raku
+# Welcome to 𝐑𝐚𝐤𝐮𝐝𝐨™ v2020.10.
+# Implementing the 𝐑𝐚𝐤𝐮™ programming language v6.d.
+# Built on MoarVM version 2020.10.
+
+# To exit type 'exit' or '^D'
+# > say $/ if "hello\n" ~~ / <:Ll>+<:Cc>+ /;
+# ｢hello
+# ｣
+# > say $/ if "hello\n" ~~ / <:Ll>+ /;
+# ｢hello｣
+# > say $/ if "hello\n" ~~ / <:Cc>+ /;
+# ｢
+# ｣
+# >
+# 15:35:03	 From Jeff : 0xfffe
+# 15:35:47	 From Jeff : err... 0xfffd
+# 15:37:08	 From Bill Michels : https://util.unicode.org/UnicodeJsps/character.jsp?a=FFFD
+# 15:39:14	 From Jeff : tr [[:ctrl:]]
+# 15:39:27	 From Bill Michels : "3.7 Enabling Lossless Conversion" https://www.unicode.org/reports/tr36/#EnablingLosslessConversion
+# 15:40:43	 From Bruce Gray : Bill: variant:
+# 15:40:45	 From Bruce Gray : raku -e 'say $/ if "hello\n" ~~ $_ for /<.lower>+<.cntrl>+/, /<.lower>+/, /<.cntrl>+/;'
+# 15:42:12	 From Bruce Gray : <:Ll>+<:Cc>+
+# 15:43:36	 From Bruce Gray : <:Ll+:Cc>
+# 15:44:14	 From Bill Michels : > say $/ if "hello\n" ~~ / <:Cc>+<:Ll>+ /;
+# ()
+# >
+# 15:44:54	 From Bill Michels : YES!!
+# 15:44:56	 From Bill Michels : > say $/ if "hello\n" ~~ / <:Cc+:Ll>+ /;
+# ｢hello
+# ｣
+# >
+# 15:45:03	 From Bill Michels : Thanks Bruce!
+# 15:45:14	 From Bruce Gray : yw
+# 15:47:56	 From Bruce Gray : Alternate: <:lower+:cntrl>
+# 15:48:50	 From Bill Michels : <[<:Cc+:Ll> #]>+
+
 
 
 my $text =
