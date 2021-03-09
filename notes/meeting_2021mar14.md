@@ -1,16 +1,16 @@
-- [meeting notes Mar 14, 2021](#orgc7c899e)
-    - [the usual meeting links:](#org69a33e6)
-  - [agenda (?)](#org7f4b2b6)
-    - [69 cent tours](#org0fb10f9)
-    - [bits from last week:](#org043126c)
+- [meeting notes Mar 14, 2021](#org46a03b8)
+    - [the usual meeting links:](#orgf2d7408)
+  - [agenda (?)](#org770435f)
+    - [69 cent tours](#org2e88dda)
+    - [bits from last week:](#org1b49276)
 
 
-<a id="orgc7c899e"></a>
+<a id="org46a03b8"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org69a33e6"></a>
+<a id="orgf2d7408"></a>
 
 ### the usual meeting links:
 
@@ -29,12 +29,12 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="org7f4b2b6"></a>
+<a id="org770435f"></a>
 
 ## agenda (?)
 
 
-<a id="org0fb10f9"></a>
+<a id="org2e88dda"></a>
 
 ### 69 cent tours
 
@@ -49,7 +49,7 @@
 3.  grammars
 
 
-<a id="org043126c"></a>
+<a id="org1b49276"></a>
 
 ### bits from last week:
 
@@ -98,10 +98,6 @@
         1.  <https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability>
         
         2.  About the "Lenovo Solution Center".  Installing linux would've blown it away in any case.
-    
-    2.  perl 6 snark
-    
-        1.  ![img](//perl-begin.org/humour/perl6_perl_6_cover_lg.jpg)
 
 1.  possible topics (not covered this time)
 
