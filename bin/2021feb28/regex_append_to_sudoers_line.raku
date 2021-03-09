@@ -131,7 +131,7 @@ for @cases -> $case {
     say "xX:yY:zZ" ~~ / [ <-[:]>+ \: ]* /;  # ｢xX:yY:｣   ## the + repeats the non-colon match
 
 
-    say "xX:yY:zZ" ~~ / <-[:]>+ \: /;  # ｢xX:yY:｣   ## the + repeats the non-colon match
+    say "xX:yY:zZ" ~~ / <-[:]>+ \: /;  # ｢xX:｣   ** without the wrapping []*, only one chunk 
 
 #      ^
 #      (   # Begin capture
