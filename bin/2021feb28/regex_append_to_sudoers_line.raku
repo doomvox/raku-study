@@ -180,6 +180,7 @@ for @cases -> $case {
 #        $input ~~ / {$pattern}  /;   #  NG
 #        $input ~~ /$pattern/;        #  NG
         $input ~~ /<$pattern>/;       #  NG
+## Conclusion: this is stupid.  Read the docs again, idjit.
 
         say $0;
         say '---';
