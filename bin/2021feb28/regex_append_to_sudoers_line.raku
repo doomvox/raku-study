@@ -152,7 +152,7 @@ for @cases -> $case {
 }
 
 { ## a bigger fragment, matching for the /usr/local/bin
-
+    say "===";
     my $pattern = /
                  (   # Begin capture
                    [ <-[:]>*? \: ]*       
