@@ -30,16 +30,8 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 ******* "uncovering the logic of english" (jeff pick)
 ******** clusters of morphemes
 
-******* humble bundle promotion: oreilley pocket references
-******** https://www.humblebundle.com/books/pocket-reference-guides-oreilly-books
-
-******* lapping against the sapir wharf
-******** 16:23:35	 From Joseph Brenner : To really nerd out, we need to start talking about loglan or lojban.
-******** 16:23:45	 From Joseph Brenner : (And I'll invariably bring up Babel-17).
-******** 17:06:41	 From Bruce Gray : https://en.wikipedia.org/wiki/The_World_of_Null-A
-
-******** Aristotle's "Categories" (the first book of the Organon)
-********* the way programmer's think, the source of it all (maybe)
+******* Aristotle's "Categories" (the first book of the Organon)
+******** the way programmer's think, the source of it all (maybe)
 
 ****** shadow novel where the bad guys speak esperanto
 *******  "Crime Under Cover" (1941) by Maxwell Grant
