@@ -76,8 +76,8 @@ for @cases -> $case {
      say "i watch dollar 0: ", $0;  # Nil
      say 'result: ', $result;
 
-# use Test;
-#     is( $result, $expected, "$label: $sublabel" );
+use Test;
+is( $result, $expected, "$label: $sublabel" );
 
 ## reference, the p5 regex I'm trying to convert here:
 #       qr{
