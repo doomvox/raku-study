@@ -199,7 +199,6 @@ for @cases -> $case {
         say $0;    # Nil    ## This is the *real* WTF, why isn't the 0 match in $0 now?
         say '---';
     }
-
 }
 
 
