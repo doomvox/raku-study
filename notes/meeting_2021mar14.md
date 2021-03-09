@@ -1,16 +1,17 @@
-- [meeting notes Mar 14, 2021](#orgcc7d432)
-    - [the usual meeting links:](#org45253a5)
-  - [agenda (?)](#org546171b)
-    - [69 cent tours](#orgbe35390)
-    - [bits from last week:](#orgd64db36)
+- [meeting notes Mar 14, 2021](#org925b6f6)
+    - [the usual meeting links:](#org475e524)
+  - [agenda (?)](#orga96f837)
+    - [69 cent tours](#org2eea6da)
+    - [bits from last week:](#org95683ba)
+    - [possible topics (carried over)](#org6b8f091)
 
 
-<a id="orgcc7d432"></a>
+<a id="org925b6f6"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org45253a5"></a>
+<a id="org475e524"></a>
 
 ### the usual meeting links:
 
@@ -29,12 +30,12 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="org546171b"></a>
+<a id="orga96f837"></a>
 
 ## agenda (?)
 
 
-<a id="orgbe35390"></a>
+<a id="org2eea6da"></a>
 
 ### 69 cent tours
 
@@ -49,7 +50,7 @@
 3.  grammars
 
 
-<a id="orgd64db36"></a>
+<a id="org95683ba"></a>
 
 ### bits from last week:
 
@@ -99,42 +100,45 @@
         
         2.  About the "Lenovo Solution Center".  Installing linux would've blown it away in any case.
 
-1.  possible topics (carried over)
 
-    1.  a stupid mistake that isn't: naming a method with a leading ^
+<a id="org6b8f091"></a>
+
+### possible topics (carried over)
+
+1.  a stupid mistake that isn't: naming a method with a leading ^
+
+    1.  <https://stackoverflow.com/questions/54143036/class-method-name-with-doesnt-get-invoked-properly/54147131#54147131>
     
-        1.  <https://stackoverflow.com/questions/54143036/class-method-name-with-doesnt-get-invoked-properly/54147131#54147131>
+        1.  should this generate a warning/error?
+
+2.  Steven<sub>lembark</sub>
+
+    1.  <https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my>
+    
+        1.  slide21:  "unit sub MAIN { &#x2026;"  unit?
+    
+    2.  <https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql>
+
+3.  adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
+
+    1.  <https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)>
+
+4.  andrew shitov "Perl 6 at a Glance"
+
+    1.  <https://andrewshitov.com/perl6-at-a-glance/>
+    
+    2.  <https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf>
+
+5.  perl weekly challenge:
+
+    1.  <https://perlweeklychallenge.org/>
+
+6.  promises and threads
+
+    1.  <https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/>
+    
+    2.  Jonathan Worthington
+    
+        1.  <https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/Racing-to-writeness-to-wrongness-leads.md>
         
-            1.  should this generate a warning/error?
-    
-    2.  Steven<sub>lembark</sub>
-    
-        1.  <https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my>
-        
-            1.  slide21:  "unit sub MAIN { &#x2026;"  unit?
-        
-        2.  <https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql>
-    
-    3.  adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
-    
-        1.  <https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)>
-    
-    4.  andrew shitov "Perl 6 at a Glance"
-    
-        1.  <https://andrewshitov.com/perl6-at-a-glance/>
-        
-        2.  <https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf>
-    
-    5.  perl weekly challenge:
-    
-        1.  <https://perlweeklychallenge.org/>
-    
-    6.  promises and threads
-    
-        1.  <https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/>
-        
-        2.  Jonathan Worthington
-        
-            1.  <https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/Racing-to-writeness-to-wrongness-leads.md>
-            
-            2.  <https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md>
+        2.  <https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md>
