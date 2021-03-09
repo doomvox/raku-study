@@ -211,6 +211,7 @@ for @cases -> $case {
 ## my regex float { <[+-]>?\d*'.'\d+[e<[+-]>?\d+]? }
 
 
+
 ## https://docs.raku.org/type/Regex
 
 # To match a string against a regex, you can use the smartmatch operator:
