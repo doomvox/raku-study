@@ -153,7 +153,8 @@ for @cases -> $case {
 
 { ## a bigger fragment, matching for the /usr/local/bin
     say "===";
-    my $pattern = /
+#    my $pattern = /      ## executes on $_ immediately?
+    my $pattern = rx/
                  (   # Begin capture
                    [ <-[:]>*? \: ]*       
                    '/usr/local/bin'   ## '/' needs quote, particularly with // delimiters
