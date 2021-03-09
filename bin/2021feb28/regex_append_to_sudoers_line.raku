@@ -182,3 +182,7 @@ for @cases -> $case {
 ## To match a string against a regex, you can use the smartmatch operator:
 
 ## my $match = 'abc' ~~ rx/ ^ab /;
+
+
+## Predefined character classes:
+## https://docs.raku.org/language/regexes#Predefined_character_classes
