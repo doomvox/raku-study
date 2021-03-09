@@ -162,7 +162,7 @@ for @cases -> $case {
                   /;
 
 #    for @cases -> $case {
-    for @cases>>.values.[0] -> $input {
+    for @cases>>.[0] -> $input {
 #        my $input = $case.values.[0];
         say "input: $input";
 #        $input ~~ m/ $pattern /;  ## Q: why does this $pattern work raw, without {$pattern}
