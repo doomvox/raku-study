@@ -3,6 +3,7 @@
 # regex_append_to_sudoers_line.raku            28 Feb 2021 
 
 use v6;
+     use Test;
 
 ## using sysadmin tools that allow an input pattern and replace,
 ## but no other elements.  pcre, perl5 compatible (but crippled)
@@ -76,8 +77,7 @@ for @cases -> $case {
      say "i watch dollar 0: ", $0;  # Nil
      say 'result: ', $result;
 
-use Test;
-is( $result, $expected, "$label: $sublabel" );
+     is( $result, $expected, "$label: $sublabel" );
 
 ## reference, the p5 regex I'm trying to convert here:
 #       qr{
