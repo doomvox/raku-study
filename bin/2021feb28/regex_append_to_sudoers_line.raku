@@ -145,8 +145,20 @@ for @cases -> $case {
 #                [ \: | $ ]
 #              ]
 #            >   
-#          .*  ## matches *everything* but only if the negative lookahead does not match
+#          .*  ## matches *everything* but only if the negative lookahead does not matchp
 #      )   # End capture
 #      $
 
-    }
+}
+
+{ ## a bigger fragment, matching for the /usr/local/bin
+
+    my $pattern = /
+                   [ <-[:]>*? \: ]*       
+                   '/usr/local/bin'   ## '/' needs quote, particularly with // delimiters
+                   [ \: | $ ]
+                  /;
+
+
+
+}
