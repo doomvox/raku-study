@@ -168,8 +168,8 @@ for @cases -> $case {
 #        $input ~~ m/(local)/;    ## This works, above line does not.
 
         $pattern = rx/(local)/;
-        say $pattern.WHAT;
-        say $pattern;
+        say $pattern.WHAT; # (Regex)
+        say $pattern;      # rx/(local)/
 
 
 
