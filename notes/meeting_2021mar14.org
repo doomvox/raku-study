@@ -1,6 +1,15 @@
 * meeting notes Mar 14, 2021
-** agenda (?)
+*** the usual meeting links:
+**** the code examples usually go here:
+https://github.com/doomvox/raku-study/tree/main/bin/2021mar14
+**** the meeting notes (this file) gets automatically exported here:
+https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
+**** The SF Perl mailing list is good for general discussion.  Subscription info is here:
+***** http://sf.pm.org/
+**** A lot of us hang out on the perl6-users mailing list
 
+
+** agenda (?)
 *** 69 cent tours
 **** git
 ***** github
@@ -8,60 +17,14 @@
 ***** quoting, interpolating, matching
 **** grammars
 
-**** bits from last week:
+*** bits from last week:
 
-**** the usual meeting links:
-***** the code examples usually go here:
-https://github.com/doomvox/raku-study/tree/main/bin/2021mar14
-***** the meeting notes (this file) gets automatically exported here:
-https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
-***** The SF Perl mailing list is good for general discussion.  Subscription info is here:
-****** http://sf.pm.org/
-***** A lot of us hang out on the perl6-users mailing list
-
-**** "topics" (disorganized list of stuff I'm pretending belongs in a hierarchy)
-
-***** back to last weeks regex problem, munging sudoers lines via a sysadmin tool
-****** problem posed by lambert lum, who revealed his solution
-******* $line =~ s{(^Defaults\s+secure_path\s*(?:.(?!/usr/local/bin))*$)}{$1:/usr/local/bin};
-****** yary approach, with some doomvox additons:
-******* https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/pcre_regex_to_append_path_non_redundantly.t
-******* "\K" regex code is Trick #7: https://blogs.oracle.com/linux/the-top-10-tricks-of-perl-one-liners-v2
-******* Bruce Gray confirms "PCRE does understand \K"
-****** david christensen variation, showed a scripted solution
-******* virtue of handling cases like escaped continuation lines with trailing comments
+***** back to the regex problem, munging sudoers lines via a sysadmin tool
 ****** raku translation-- still has problems
 ******* https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/regex_append_to_sudoers_line.raku
 
-***** jeff had questions about compiler options, etc
-****** --cc=$(tc=getCC)
-******* Bruce Gray points at:
-******** https://github.com/MoarVM/MoarVM/blob/master/Configure.pl
-********* --moar-option='--option=value'
-Options to pass to MoarVM configuration for --gen-moar
-********* 
-
-***** William Michels suggests doing this simple shell problem in Raku:
-****** https://unix.stackexchange.com/a/636948
-****** there were a few interesting angles involving with raku character classes
+****** regex character classes example
 https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6
-
-***** Bruce Gray covered a code example for generating a histogram of a random distribution
-****** http://rosettacode.org/wiki/Modified_random_distribution#Raku
-
-***** linux kernel module to shut up damn bell
-****** 15:19:52	 From Jeff : #rmod pcspkr#vi /etc/modprobe.d/blacklistblacklist pcspkr:wq
-
-***** Bash, etc
-****** Bruce Gray picks
-******* http://redsymbol.net/articles/unofficial-bash-strict-mode/
-******* https://olivergondza.github.io/2019/10/01/bash-strict-mode.html
-
-***** bash books. modern bash has new features
-****** bash          (d christensen pick)
-****** bash cookbook (d christensen mention, weak writing)
-****** unix shells (jeff pick)
-****** "pro bash programming" by chris johnson, apress (alan pick)
 
 ***** books in general
 ******* "uncovering the logic of english" (jeff pick)
@@ -76,7 +39,7 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 ******** 17:06:41	 From Bruce Gray : https://en.wikipedia.org/wiki/The_World_of_Null-A
 
 ******** Aristotle's "Categories" (the first book of the Organon)
-********* the way programmer's think, the source of it all (?)
+********* the way programmer's think, the source of it all (maybe)
 
 ****** shadow novel where the bad guys speak esperanto
 *******  "Crime Under Cover" (1941) by Maxwell Grant
