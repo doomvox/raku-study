@@ -1,17 +1,17 @@
-- [meeting notes Mar 14, 2021](#orgcd58209)
-    - [the usual meeting links:](#org4733b88)
-  - [agenda (?)](#org7e810ab)
-    - [69 cent tours](#orgbfcb514)
-    - [bits from last week:](#org304d66c)
-    - [possible topics (carried over)](#orgc41464d)
+- [meeting notes Mar 14, 2021](#orga7e285d)
+    - [the usual meeting links:](#org58473bc)
+  - [agenda (?)](#orgd17bc5d)
+    - [69 cent tours](#orga51de8b)
+    - [bits from last week:](#orgba857ec)
+    - [possible topics (carried over)](#org3f874b0)
 
 
-<a id="orgcd58209"></a>
+<a id="orga7e285d"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org4733b88"></a>
+<a id="org58473bc"></a>
 
 ### the usual meeting links:
 
@@ -30,12 +30,12 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="org7e810ab"></a>
+<a id="orgd17bc5d"></a>
 
 ## agenda (?)
 
 
-<a id="orgbfcb514"></a>
+<a id="orga51de8b"></a>
 
 ### 69 cent tours
 
@@ -50,7 +50,7 @@
 3.  grammars
 
 
-<a id="org304d66c"></a>
+<a id="orgba857ec"></a>
 
 ### bits from last week:
 
@@ -89,7 +89,7 @@
         2.  About the "Lenovo Solution Center".  Installing linux would've blown it away in any case.
 
 
-<a id="orgc41464d"></a>
+<a id="org3f874b0"></a>
 
 ### possible topics (carried over)
 

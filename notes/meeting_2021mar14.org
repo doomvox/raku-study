@@ -29,7 +29,6 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 ***** books in general
 ******* "uncovering the logic of english" (jeff pick)
 ******** clusters of morphemes
-
 ******* Aristotle's "Categories" (the first book of the Organon)
 ******** the way programmer's think, the source of it all (maybe)
 
