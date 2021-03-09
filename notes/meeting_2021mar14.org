@@ -10,16 +10,14 @@
 
 ** bits from last week:
 
-
-** announcments
-*** richard hainsworth: alternative pod6 processing 
-**** His version of Raku docs: http://raku.finanalyst.org
-
 ** the usual meeting links:
-*** https://github.com/doomvox/raku-study/tree/main/bin/2021mar07
-*** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md
-*** SF Perl site for mailing list subscription info:
+*** the code examples usually go here:
+https://github.com/doomvox/raku-study/tree/main/bin/2021mar14
+*** the meeting notes (this file) gets automatically exported here:
+https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
+*** The SF Perl mailing list is good for general discussion.  Subscription info is here:
 **** http://sf.pm.org/
+*** A lot of us hang out on the perl6-users mailing list
 
 ** "topics" (disorganized list of stuff I'm pretending belongs in a hierarchy)
 
