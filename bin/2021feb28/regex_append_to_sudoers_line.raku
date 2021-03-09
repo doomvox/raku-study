@@ -50,7 +50,6 @@ for @cases -> $case {
 #      say $expected;
 #      say $sublabel;
 
-
      my $pattern =
      /
      ^
