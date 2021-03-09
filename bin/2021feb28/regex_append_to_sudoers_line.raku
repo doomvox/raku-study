@@ -177,7 +177,8 @@ for @cases -> $case {
         say "input: $input";
 #        $input ~~ m/  $pattern  /;  # NG
 #        $input ~~ m/  {$pattern}  /;  # NG
-        $input ~~ / {$pattern}  /;  # 
+#        $input ~~ / {$pattern}  /;  #  NG
+        $input ~~ /$pattern/;  #  NG
 
         say $0;
         say '---';
