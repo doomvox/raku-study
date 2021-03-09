@@ -169,7 +169,7 @@ for @cases -> $case {
 #        $pattern = '(local)';
         $input ~~ m/ $pattern /;  ## Q: why does this $pattern work raw, without {$pattern}
 #        $input ~~ m/$pattern/;  ## Q: why does this $pattern work raw, without {$pattern} (( DOES IT? ))
-        $input ~~ m/(local)/;    ## This works, above line does not.
+#        $input ~~ m/(local)/;    ## This works, above line does not.
         say $0;
         say '---';
     }
