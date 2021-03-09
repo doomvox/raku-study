@@ -200,3 +200,8 @@ for @cases -> $case {
 ## Predefined character classes:
 ##   https://docs.raku.org/language/regexes#Predefined_character_classes
 
+
+##
+
+## Note this style, no equals but declare as a regex:
+## my regex float { <[+-]>?\d*'.'\d+[e<[+-]>?\d+]? }
