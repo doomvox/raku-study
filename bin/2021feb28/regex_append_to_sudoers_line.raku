@@ -203,5 +203,5 @@ for @cases -> $case {
 
 ##
 
-## Note this style, no equals but declare as a regex:
+## Note this style, no equals but declare as a regex (I like the curlies):
 ## my regex float { <[+-]>?\d*'.'\d+[e<[+-]>?\d+]? }
