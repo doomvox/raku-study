@@ -171,8 +171,6 @@ for @cases -> $case {
         say $pattern.WHAT; # (Regex)
         say $pattern;      # rx/(local)/
 
-
-
 #    for @cases -> $case {
     for @cases>>.[0] -> $input {
 #        my $input = $case.values.[0];
