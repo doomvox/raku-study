@@ -167,15 +167,15 @@ for @cases -> $case {
 #        $input ~~ m/$pattern/;  ## Q: why does this $pattern work raw, without {$pattern} (( DOES IT? ))
 #        $input ~~ m/(local)/;    ## This works, above line does not.
 
-        $pattern = rx/(local)/;
-        say $pattern.WHAT; # (Regex)
-        say $pattern;      # rx/(local)/
+    $pattern = rx/(local)/;
+    say $pattern.WHAT; # (Regex)
+    say $pattern;      # rx/(local)/
 
 #    for @cases -> $case {
     for @cases>>.[0] -> $input {
 #        my $input = $case.values.[0];
         say "input: $input";
-        $input ~~ m/ { $pattern } /;  # 
+        $input ~~ m/  $pattern  /;  # 
 
         say $0;
         say '---';
