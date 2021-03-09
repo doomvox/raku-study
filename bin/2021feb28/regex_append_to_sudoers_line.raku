@@ -136,7 +136,7 @@ for @cases -> $case {
 
 
     say ":y" ~~ / <-[:]>+ \: /;  # Nil  ## + requires a non-colon before a colon
-    say ":y" ~~ / <-[:]>* \: /;  # ｢xX:｣   ## same behavior with a * not a +
+    say ":y" ~~ / <-[:]>* \: /;  # ｢:｣  ## * is okay with zero non-colons before colon
 
 
 #      ^
