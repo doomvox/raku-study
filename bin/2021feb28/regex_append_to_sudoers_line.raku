@@ -154,9 +154,11 @@ for @cases -> $case {
 { ## a bigger fragment, matching for the /usr/local/bin
 
     my $pattern = /
+                 (   # Begin capture
                    [ <-[:]>*? \: ]*       
                    '/usr/local/bin'   ## '/' needs quote, particularly with // delimiters
                    [ \: | $ ]
+                 )   # End capture
                   /;
 
 
