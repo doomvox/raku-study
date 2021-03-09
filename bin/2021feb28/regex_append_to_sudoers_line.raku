@@ -40,7 +40,7 @@ my @cases = (
 
              );
 
-say @cases;
+# say @cases;
 
 my $label = 'Testing raku translation of perl regex';
 for @cases -> $case {
@@ -161,6 +161,11 @@ for @cases -> $case {
                  )   # End capture
                   /;
 
+    for @cases -> $case {
+        say '---';
+        my $input = $case.values.[0];
+
+    }
 
 
 }
