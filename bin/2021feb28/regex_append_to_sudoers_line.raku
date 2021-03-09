@@ -167,9 +167,11 @@ for @cases -> $case {
 #        my $input = $case.values.[0];
         say "input: $input";
 #        $pattern = '(local)';
-        $input ~~ m/ $pattern /;  ## Q: why does this $pattern work raw, without {$pattern}
 #        $input ~~ m/$pattern/;  ## Q: why does this $pattern work raw, without {$pattern} (( DOES IT? ))
 #        $input ~~ m/(local)/;    ## This works, above line does not.
+
+        $input ~~ m/ { $pattern } /;  
+
         say $0;
         say '---';
     }
