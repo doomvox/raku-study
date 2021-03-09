@@ -1,16 +1,16 @@
-- [meeting notes Mar 14, 2021](#org0cb5b85)
-    - [the usual meeting links:](#org2199ac3)
-  - [agenda (?)](#orga4fc720)
-    - [69 cent tours](#orgd2042d5)
-    - [bits from last week:](#orgb2adb13)
+- [meeting notes Mar 14, 2021](#orgcc7d432)
+    - [the usual meeting links:](#org45253a5)
+  - [agenda (?)](#org546171b)
+    - [69 cent tours](#orgbe35390)
+    - [bits from last week:](#orgd64db36)
 
 
-<a id="org0cb5b85"></a>
+<a id="orgcc7d432"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org2199ac3"></a>
+<a id="org45253a5"></a>
 
 ### the usual meeting links:
 
@@ -29,12 +29,12 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="orga4fc720"></a>
+<a id="org546171b"></a>
 
 ## agenda (?)
 
 
-<a id="orgd2042d5"></a>
+<a id="orgbe35390"></a>
 
 ### 69 cent tours
 
@@ -49,7 +49,7 @@
 3.  grammars
 
 
-<a id="orgb2adb13"></a>
+<a id="orgd64db36"></a>
 
 ### bits from last week:
 
@@ -99,17 +99,15 @@
         
         2.  About the "Lenovo Solution Center".  Installing linux would've blown it away in any case.
 
-1.  possible topics
+1.  possible topics (carried over)
 
     1.  a stupid mistake that isn't: naming a method with a leading ^
     
         1.  <https://stackoverflow.com/questions/54143036/class-method-name-with-doesnt-get-invoked-properly/54147131#54147131>
         
             1.  should this generate a warning/error?
-
-2.  more possible topics (carried over from earlier meetings)
-
-    1.  Steven<sub>lembark</sub>
+    
+    2.  Steven<sub>lembark</sub>
     
         1.  <https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my>
         
@@ -117,21 +115,21 @@
         
         2.  <https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql>
     
-    2.  adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
+    3.  adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
     
         1.  <https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)>
     
-    3.  andrew shitov "Perl 6 at a Glance"
+    4.  andrew shitov "Perl 6 at a Glance"
     
         1.  <https://andrewshitov.com/perl6-at-a-glance/>
         
         2.  <https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf>
     
-    4.  perl weekly challenge:
+    5.  perl weekly challenge:
     
         1.  <https://perlweeklychallenge.org/>
     
-    5.  promises and threads
+    6.  promises and threads
     
         1.  <https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/>
         
