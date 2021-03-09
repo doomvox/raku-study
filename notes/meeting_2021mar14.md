@@ -1,16 +1,16 @@
-- [meeting notes Mar 14, 2021](#org46a03b8)
-    - [the usual meeting links:](#orgf2d7408)
-  - [agenda (?)](#org770435f)
-    - [69 cent tours](#org2e88dda)
-    - [bits from last week:](#org1b49276)
+- [meeting notes Mar 14, 2021](#org0cb5b85)
+    - [the usual meeting links:](#org2199ac3)
+  - [agenda (?)](#orga4fc720)
+    - [69 cent tours](#orgd2042d5)
+    - [bits from last week:](#orgb2adb13)
 
 
-<a id="org46a03b8"></a>
+<a id="org0cb5b85"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orgf2d7408"></a>
+<a id="org2199ac3"></a>
 
 ### the usual meeting links:
 
@@ -29,12 +29,12 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="org770435f"></a>
+<a id="orga4fc720"></a>
 
 ## agenda (?)
 
 
-<a id="org2e88dda"></a>
+<a id="orgd2042d5"></a>
 
 ### 69 cent tours
 
@@ -49,7 +49,7 @@
 3.  grammars
 
 
-<a id="org1b49276"></a>
+<a id="orgb2adb13"></a>
 
 ### bits from last week:
 
@@ -99,33 +99,13 @@
         
         2.  About the "Lenovo Solution Center".  Installing linux would've blown it away in any case.
 
-1.  possible topics (not covered this time)
+1.  possible topics
 
-    1.  andrew shitov's raku course on-line:
-    
-        <https://course.raku.org/>
-    
-    2.  the great "say Set.<sup>methods</sup>" affair
-    
-        1.  the issue (bug report and discussion):
-        
-            <https://github.com/rakudo/rakudo/issues/4207>
-        
-        2.  the roast test, aka the spec:
-        
-            <https://github.com/Raku/roast/blob/master/S12-introspection/methods.t>
-            
-            1.  it checks the case of inheritence, but not roles
-    
-    3.  a stupid mistake that isn't: naming a method with a leading ^
+    1.  a stupid mistake that isn't: naming a method with a leading ^
     
         1.  <https://stackoverflow.com/questions/54143036/class-method-name-with-doesnt-get-invoked-properly/54147131#54147131>
         
             1.  should this generate a warning/error?
-    
-    4.  69 cent tour of raku regexs
-    
-    5.  some simple grammar demos
 
 2.  more possible topics (carried over from earlier meetings)
 
