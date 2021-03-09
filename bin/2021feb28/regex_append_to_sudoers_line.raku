@@ -171,6 +171,8 @@ for @cases -> $case {
 #        $input ~~ m/(local)/;    ## This works, above line does not.
 
         $pattern = rx/(local)/;
+        say $pattern.WHAT;
+        say $pattern;
         $input ~~ m/ { $pattern } /;  # 
 
         say $0;
