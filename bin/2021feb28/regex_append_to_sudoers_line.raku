@@ -171,7 +171,7 @@ for @cases -> $case {
 #        $input ~~ m/(local)/;    ## This works, above line does not.
 
         $pattern = rx/(local/;
-        $input ~~ m/ { $pattern } /;  # still isn't working...
+        $input ~~ m/ { $pattern } /;  # 
 
         say $0;
         say '---';
