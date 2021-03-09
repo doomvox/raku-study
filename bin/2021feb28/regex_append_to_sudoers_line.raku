@@ -185,7 +185,12 @@ for @cases -> $case {
 ## Conclusion: this is stupid.  Read the docs again, idjit.
 
 #        $input ~~ /<pattern>/;       #  NG.  WTF?
-        $input ~~ m/<pattern>/;       #  NG.  WTF?
+#        $input ~~ m/<pattern>/;       #  NG.  
+
+        my $ret = 
+          $input ~~ m/<pattern>/;       #  
+
+        say $ret;
 
         say $0;
         say '---';
