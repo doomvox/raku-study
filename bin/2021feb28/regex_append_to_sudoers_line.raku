@@ -191,6 +191,7 @@ for @cases -> $case {
           $input ~~ m/<pattern>/;       #  
 
         say $ret;
+        say $ret.WHAT;
 
         say $0;
         say '---';
