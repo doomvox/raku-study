@@ -1,0 +1,131 @@
+* meeting notes Mar 14, 2021
+** agenda (?)
+
+** 69 tours
+*** git
+*** regexs
+**** quoting, interpolating, matching
+*** grammars
+
+** bits from last week:
+
+
+** announcments
+*** richard hainsworth: alternative pod6 processing 
+**** His version of Raku docs: http://raku.finanalyst.org
+
+** the usual meeting links:
+*** https://github.com/doomvox/raku-study/tree/main/bin/2021mar07
+*** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar07.md
+*** SF Perl site for mailing list subscription info:
+**** http://sf.pm.org/
+
+** "topics" (disorganized list of stuff I'm pretending belongs in a hierarchy)
+
+*** back to last weeks regex problem, munging sudoers lines via a sysadmin tool
+**** problem posed by lambert lum, who revealed his solution
+***** $line =~ s{(^Defaults\s+secure_path\s*(?:.(?!/usr/local/bin))*$)}{$1:/usr/local/bin};
+**** yary approach, with some doomvox additons:
+***** https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/pcre_regex_to_append_path_non_redundantly.t
+***** "\K" regex code is Trick #7: https://blogs.oracle.com/linux/the-top-10-tricks-of-perl-one-liners-v2
+***** Bruce Gray confirms "PCRE does understand \K"
+**** david christensen variation, showed a scripted solution
+***** virtue of handling cases like escaped continuation lines with trailing comments
+**** raku translation-- still has problems
+***** https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/regex_append_to_sudoers_line.raku
+
+*** jeff had questions about compiler options, etc
+**** --cc=$(tc=getCC)
+***** Bruce Gray points at:
+****** https://github.com/MoarVM/MoarVM/blob/master/Configure.pl
+******* --moar-option='--option=value'
+Options to pass to MoarVM configuration for --gen-moar
+******* 
+
+*** William Michels suggests doing this simple shell problem in Raku:
+**** https://unix.stackexchange.com/a/636948
+**** there were a few interesting angles involving with raku character classes
+https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6
+
+*** Bruce Gray covered a code example for generating a histogram of a random distribution
+**** http://rosettacode.org/wiki/Modified_random_distribution#Raku
+
+*** linux kernel module to shut up damn bell
+**** 15:19:52	 From Jeff : #rmod pcspkr#vi /etc/modprobe.d/blacklistblacklist pcspkr:wq
+
+*** Bash, etc
+**** Bruce Gray picks
+***** http://redsymbol.net/articles/unofficial-bash-strict-mode/
+***** https://olivergondza.github.io/2019/10/01/bash-strict-mode.html
+
+*** bash books. modern bash has new features
+**** bash          (d christensen pick)
+**** bash cookbook (d christensen mention, weak writing)
+**** unix shells (jeff pick)
+**** "pro bash programming" by chris johnson, apress (alan pick)
+
+*** books in general
+***** "uncovering the logic of english" (jeff pick)
+****** clusters of morphemes
+
+***** humble bundle promotion: oreilley pocket references
+****** https://www.humblebundle.com/books/pocket-reference-guides-oreilly-books
+
+***** lapping against the sapir wharf
+****** 16:23:35	 From Joseph Brenner : To really nerd out, we need to start talking about loglan or lojban.
+****** 16:23:45	 From Joseph Brenner : (And I'll invariably bring up Babel-17).
+****** 17:06:41	 From Bruce Gray : https://en.wikipedia.org/wiki/The_World_of_Null-A
+
+****** Aristotle's "Categories" (the first book of the Organon)
+******* the way programmer's think, the source of it all (?)
+
+**** shadow novel where the bad guys speak esperanto
+*****  "Crime Under Cover" (1941) by Maxwell Grant
+*****  http://obsidianrook.com/doomfiles/LA_OMBRO.html
+
+
+*** linux 
+**** William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now" 
+***** https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability
+***** About the "Lenovo Solution Center".  Installing linux would've blown it away in any case.
+
+**** perl 6 snark
+***** http://perl-begin.org/humour/perl6_perl_6_cover_lg.jpg
+
+** possible topics (not covered this time)
+
+*** andrew shitov's raku course on-line:
+https://course.raku.org/
+
+*** the great "say Set.^methods" affair
+**** the issue (bug report and discussion):
+https://github.com/rakudo/rakudo/issues/4207
+
+**** the roast test, aka the spec:
+https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
+***** it checks the case of inheritence, but not roles
+
+*** a stupid mistake that isn't: naming a method with a leading ^
+**** https://stackoverflow.com/questions/54143036/class-method-name-with-doesnt-get-invoked-properly/54147131#54147131
+***** should this generate a warning/error?
+*** 69 cent tour of raku regexs
+*** some simple grammar demos
+
+** more possible topics (carried over from earlier meetings)
+*** Steven_lembark
+**** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
+***** slide21:  "unit sub MAIN { ..."  unit?
+**** https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql
+*** adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
+**** https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
+*** andrew shitov "Perl 6 at a Glance"
+**** https://andrewshitov.com/perl6-at-a-glance/
+**** https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf
+*** perl weekly challenge: 
+**** https://perlweeklychallenge.org/
+
+*** promises and threads
+**** https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
+**** Jonathan Worthington
+***** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/Racing-to-writeness-to-wrongness-leads.md
+***** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md
