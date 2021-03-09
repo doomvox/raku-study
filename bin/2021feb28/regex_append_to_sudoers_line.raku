@@ -174,3 +174,11 @@ for @cases -> $case {
     }
 
 }
+
+
+## Duh: rx//
+
+## https://docs.raku.org/type/Regex
+## To match a string against a regex, you can use the smartmatch operator:
+
+## my $match = 'abc' ~~ rx/ ^ab /;
