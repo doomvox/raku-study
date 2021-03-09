@@ -161,10 +161,11 @@ for @cases -> $case {
                  )   # End capture
                   /;
 
-    for @cases -> $case {
+#    for @cases -> $case {
+    for @cases>>.values.[0] -> $input {
         say '---';
-        my $input = $case.values.[0];
-
+#        my $input = $case.values.[0];
+        say "input: $input";
         $input ~~ m/ $pattern /;  ## Q: why does this $pattern work raw, without {$pattern}
         say $0;
     }
