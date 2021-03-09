@@ -46,10 +46,6 @@ my $label = 'Testing raku translation of perl regex';
 for @cases -> $case {
      say '---';
      my ($input, $expected, $sublabel) = $case.values;
-#      say $input;
-#      say $expected;
-#      say $sublabel;
-
      my $pattern =
      /
      ^
