@@ -1,17 +1,17 @@
-- [meeting notes Mar 14, 2021](#orga7e285d)
-    - [the usual meeting links:](#org58473bc)
-  - [agenda (?)](#orgd17bc5d)
-    - [69 cent tours](#orga51de8b)
-    - [bits from last week:](#orgba857ec)
-    - [possible topics (carried over)](#org3f874b0)
+- [meeting notes Mar 14, 2021](#org5e72b55)
+    - [the usual meeting links:](#org8f4ce80)
+  - [agenda (?)](#org908876d)
+    - [69 cent tours](#orga119fa9)
+    - [bits from last week:](#org5abe1ea)
+    - [possible topics (carried over)](#orgd2c2119)
 
 
-<a id="orga7e285d"></a>
+<a id="org5e72b55"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org58473bc"></a>
+<a id="org8f4ce80"></a>
 
 ### the usual meeting links:
 
@@ -30,12 +30,12 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="orgd17bc5d"></a>
+<a id="org908876d"></a>
 
 ## agenda (?)
 
 
-<a id="orga51de8b"></a>
+<a id="orga119fa9"></a>
 
 ### 69 cent tours
 
@@ -50,7 +50,7 @@
 3.  grammars
 
 
-<a id="orgba857ec"></a>
+<a id="org5abe1ea"></a>
 
 ### bits from last week:
 
@@ -64,17 +64,13 @@
     
         <https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6>
 
-2.  books in general
+2.  books
 
-    1.  "uncovering the logic of english" (jeff pick)
-    
-        1.  clusters of morphemes
-    
-    2.  Aristotle's "Categories" (the first book of the Organon)
+    1.  Aristotle's "Categories" (the first book of the Organon)
     
         1.  the way programmer's think, the source of it all (maybe)
     
-    1.  shadow novel where the bad guys speak esperanto
+    2.  shadow novel where the bad guys speak esperanto
     
         1.  "Crime Under Cover" (1941) by Maxwell Grant
         
@@ -89,7 +85,7 @@
         2.  About the "Lenovo Solution Center".  Installing linux would've blown it away in any case.
 
 
-<a id="org3f874b0"></a>
+<a id="orgd2c2119"></a>
 
 ### possible topics (carried over)
 

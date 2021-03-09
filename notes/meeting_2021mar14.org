@@ -26,12 +26,9 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 ****** regex character classes example
 https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6
 
-***** books in general
-******* "uncovering the logic of english" (jeff pick)
-******** clusters of morphemes
-******* Aristotle's "Categories" (the first book of the Organon)
+***** books
+****** Aristotle's "Categories" (the first book of the Organon)
 ******** the way programmer's think, the source of it all (maybe)
-
 ****** shadow novel where the bad guys speak esperanto
 *******  "Crime Under Cover" (1941) by Maxwell Grant
 *******  http://obsidianrook.com/doomfiles/LA_OMBRO.html
@@ -42,7 +39,6 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 ******* About the "Lenovo Solution Center".  Installing linux would've blown it away in any case.
 
 *** possible topics (carried over)
-
 ***** a stupid mistake that isn't: naming a method with a leading ^
 ****** https://stackoverflow.com/questions/54143036/class-method-name-with-doesnt-get-invoked-properly/54147131#54147131
 ******* should this generate a warning/error?
