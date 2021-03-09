@@ -175,11 +175,11 @@ for @cases -> $case {
     for @cases>>.[0] -> $input {
 #        my $input = $case.values.[0];
         say "input: $input";
-#        $input ~~ m/  $pattern  /;  # NG
-#        $input ~~ m/  {$pattern}  /;  # NG
-#        $input ~~ / {$pattern}  /;  #  NG
-#        $input ~~ /$pattern/;  #  NG
-        $input ~~ /<$pattern>/;  #  NG
+#        $input ~~ m/  $pattern  /;   # NG
+#        $input ~~ m/  {$pattern}  /; # NG
+#        $input ~~ / {$pattern}  /;   #  NG
+#        $input ~~ /$pattern/;        #  NG
+        $input ~~ /<$pattern>/;       #  NG
 
         say $0;
         say '---';
