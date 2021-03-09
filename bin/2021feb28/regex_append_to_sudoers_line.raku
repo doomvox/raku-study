@@ -135,7 +135,7 @@ for @cases -> $case {
     say "xX:yY:zZ" ~~ / <-[:]>* \: /;  # ｢xX:｣   ## same behavior with a * not a +
 
 
-    say ":y" ~~ / <-[:]>+ \: /;  # ｢xX:｣   ## without the wrapping []*, only one chunk 
+    say ":y" ~~ / <-[:]>+ \: /;  # Nil  ## + requires a non-colon before a colon
     say ":y" ~~ / <-[:]>* \: /;  # ｢xX:｣   ## same behavior with a * not a +
 
 
