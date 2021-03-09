@@ -217,3 +217,9 @@ for @cases -> $case {
 # To match a string against a regex, you can use the smartmatch operator:
 
 # my $match = 'abc' ~~ rx/ ^ab /;
+
+
+# Or you can evaluate the regex in Boolean context, in which case it matches against the $_ variable
+
+# $_ = 'abc';
+# if / ^ab /  { ... }
