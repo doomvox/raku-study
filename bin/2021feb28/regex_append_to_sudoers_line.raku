@@ -165,6 +165,8 @@ for @cases -> $case {
         say '---';
         my $input = $case.values.[0];
 
+        $input ~~ m/ $pattern /;  ## Q: why does this $pattern work raw, without {$pattern}
+        say $0;
 
     }
 
