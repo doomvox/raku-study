@@ -133,6 +133,9 @@ for @cases -> $case {
 
     say "xX:yY:zZ" ~~ / <-[:]>+ \: /;  # ｢xX:｣   ** without the wrapping []*, only one chunk 
 
+    say "xX:yY:zZ" ~~ / <-[:]>* \: /;  # ｢xX:｣   
+
+
 #      ^
 #      (   # Begin capture
 #          <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
