@@ -10,7 +10,7 @@
     |           (?:                |        [                  | non-capturing grouping         |
     |             [^:]*            |          <-[:]>*?         | non-colons                     |
     |             :                |           \:              |   up to a colon                |                  
-    |           )*                 |        ]*                 | 0 or more of the non-cap group |
+    |           )*                 |        ]*                 | 0 or more of the group         |
     |           /usr/local/bin     |        '/usr/local/bin'   |                                |
     |           (?:                |        [                  | colon or end-of-string         |
     |             :   |            |          \: |             |                                |
