@@ -23,7 +23,8 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 ****** raku translation
 ******* https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/regex_append_to_sudoers_line.raku
 ******* Q: what is up with $0.  When does it work?
-******* https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/sudoers_append_regexes.rectpara
+******* comparing the p5 and raku regexes
+******** https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/sudoers_append_regexes.rectpara
 ****** regex character classes example
 https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6
 

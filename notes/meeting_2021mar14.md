@@ -1,17 +1,17 @@
-- [meeting notes Mar 14, 2021](#orgb45da36)
-    - [the usual meeting links:](#orgbe004c2)
-  - [agenda (?)](#orgb3c12f1)
-    - [69 cent tours](#org829713e)
-    - [bits from last week:](#orgacb13ef)
-    - [possible topics (carried over)](#orga34640e)
+- [meeting notes Mar 14, 2021](#org7fd9697)
+    - [the usual meeting links:](#orgcb39030)
+  - [agenda (?)](#orge149f25)
+    - [69 cent tours](#org40ddd8c)
+    - [bits from last week:](#orgd2e8ade)
+    - [possible topics (carried over)](#org3beca3d)
 
 
-<a id="orgb45da36"></a>
+<a id="org7fd9697"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orgbe004c2"></a>
+<a id="orgcb39030"></a>
 
 ### the usual meeting links:
 
@@ -30,12 +30,12 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="orgb3c12f1"></a>
+<a id="orge149f25"></a>
 
 ## agenda (?)
 
 
-<a id="org829713e"></a>
+<a id="org40ddd8c"></a>
 
 ### 69 cent tours
 
@@ -50,7 +50,7 @@
 3.  grammars
 
 
-<a id="orgacb13ef"></a>
+<a id="orgd2e8ade"></a>
 
 ### bits from last week:
 
@@ -62,7 +62,9 @@
         
         2.  Q: what is up with $0.  When does it work?
         
-        3.  <https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/sudoers_append_regexes.rectpara>
+        3.  comparing the p5 and raku regexes
+        
+            1.  <https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/sudoers_append_regexes.rectpara>
     
     2.  regex character classes example
     
@@ -89,7 +91,7 @@
         2.  About the "Lenovo Solution Center".  Installing linux would've blown it away in any case.
 
 
-<a id="orga34640e"></a>
+<a id="org3beca3d"></a>
 
 ### possible topics (carried over)
 
