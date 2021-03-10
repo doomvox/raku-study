@@ -1,17 +1,17 @@
-- [meeting notes Mar 14, 2021](#org7fd9697)
-    - [the usual meeting links:](#orgcb39030)
-  - [agenda (?)](#orge149f25)
-    - [69 cent tours](#org40ddd8c)
-    - [bits from last week:](#orgd2e8ade)
-    - [possible topics (carried over)](#org3beca3d)
+- [meeting notes Mar 14, 2021](#orga1c15ad)
+    - [the usual meeting links:](#org56f18ac)
+  - [agenda (?)](#org2d2ef73)
+    - [69 cent tours](#org75de7e4)
+    - [bits from last week:](#orga9a15cf)
+    - [possible topics (carried over)](#org8d940ea)
 
 
-<a id="org7fd9697"></a>
+<a id="orga1c15ad"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orgcb39030"></a>
+<a id="org56f18ac"></a>
 
 ### the usual meeting links:
 
@@ -30,12 +30,12 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="orge149f25"></a>
+<a id="org2d2ef73"></a>
 
 ## agenda (?)
 
 
-<a id="org40ddd8c"></a>
+<a id="org75de7e4"></a>
 
 ### 69 cent tours
 
@@ -50,11 +50,31 @@
 3.  grammars
 
 
-<a id="orgd2e8ade"></a>
+<a id="orga9a15cf"></a>
 
 ### bits from last week:
 
-1.  back to that regex problem, munging sudoers lines via a sysadmin tool
+1.  linux
+
+    1.  William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now"
+    
+        1.  <https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability>
+        
+        2.  The vulnerability is in the "Lenovo Solution Center", but installing linux first blows that crap away
+
+2.  books
+
+    1.  shadow novel where the bad guys speak esperanto
+    
+        1.  "Crime Under Cover" (1941) by Maxwell Grant
+        
+        2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
+    
+    2.  Aristotle's "Categories" (the first book of the Organon)
+    
+        1.  the way programmer's think, the source of it all (maybe)
+
+3.  back to that regex problem, munging sudoers lines via a sysadmin tool
 
     1.  raku translation
     
@@ -70,28 +90,8 @@
     
         <https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6>
 
-2.  books
 
-    1.  Aristotle's "Categories" (the first book of the Organon)
-    
-        1.  the way programmer's think, the source of it all (maybe)
-    
-    2.  shadow novel where the bad guys speak esperanto
-    
-        1.  "Crime Under Cover" (1941) by Maxwell Grant
-        
-        2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
-
-3.  linux
-
-    1.  William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now"
-    
-        1.  <https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability>
-        
-        2.  About the "Lenovo Solution Center".  Installing linux would've blown it away in any case.
-
-
-<a id="org3beca3d"></a>
+<a id="org8d940ea"></a>
 
 ### possible topics (carried over)
 
