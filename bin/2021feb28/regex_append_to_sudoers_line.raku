@@ -90,7 +90,7 @@ my @cases = (
 
 
 
-    ## for reference, the original p5 regex we converted from:
+    ## for reference, the original p5 regex translated to this raku form
     #       qr{
     #           ^ 
     #           (        # Capture to $1
