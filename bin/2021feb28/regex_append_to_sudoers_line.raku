@@ -69,9 +69,9 @@ my @cases = (
 #         $result
 #         ~~ s/$pattern/$0$append/ ;  ## does $0 work to embed the previous capture here? (( maybe not: it's Nil ))
 
-#         $result
-#         ~~ s/$pattern/$/$append/ ;  ## does $/ work?   Yes, it does.  (So, like, wtf?)
-#                                     ## weird that it even parses:  $/ inside s///?
+         $result
+         ~~ s/$pattern/$/$append/ ;  ## does $/ work?   Yes, it does.  (So, like, wtf?)
+                                     ## weird that it even parses:  $/ inside s///?
 
 #         ## seems strange, but this works:
 #         $result
