@@ -19,7 +19,7 @@
     |       .*                     |     .*                    | everything (after that =)      |        
     |       )                      |     )                     | end capture                    |
     |       $                      |     $                     | eos                            |
-    |     }                        |    }                      |                                |
+    |     }x                       |    }                      |                                |
     |                              |                           |                                |
                                                                                                 
     
