@@ -74,7 +74,7 @@ my @cases = (
 #                                     ## weird that it even parses:  $/ inside s///?
 
         $result
-        ~~ s{$pattern} = $/$append ;  ## does $/ work?   Yes, it does.  (So, like, wtf?)
+        ~~ s{$pattern} = "$/$append" ;  ## does $/ work?   Yes, it does.  (So, like, wtf?)
                                     ## weird that it even parses:  $/ inside s///?
 
 
