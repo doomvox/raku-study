@@ -1,24 +1,24 @@
-- [](#org6826070)
+- [](#orgcf40d39)
 
 
-<a id="org6826070"></a>
+<a id="orgcf40d39"></a>
 
 # 
 
-| p5               | raku                           | comment                       |
-|---------------- |------------------------------ |----------------------------- |
-| ^                | ^                              |                               |
-| (                | (                              | begin capture                 |
-| [^=]\*?   =  \s+ | <-[=]>\*?  \\=  \s+   #        | paths are after '= '          |
-| (?!              | <!before                       | zero-width negative lookahead |
-| (?:              | [                              | non-capturing grouping        |
-| [^:]\* : )\*     | [ <-[:]>\*? \\: ]\*            |                               |
-| /usr/local/bin   | '/usr/local/bin'               |                               |
-| (?: : ## $ )     | [ \\: ## $ ]                   | (( ## stand-in for vertbar )) |
-|                  | ]                              |                               |
-|                  | >                              |                               |
-|                  | .\*  ## matches **everything** |                               |
-|                  | )   # End capture              |                               |
-|                  | $                              |                               |
-|                  |                                |                               |
-|                  |                                |                               |
+| p5               | raku                    | comment                       |
+|---------------- |----------------------- |----------------------------- |
+| ^                | ^                       |                               |
+| (                | (                       | begin capture                 |
+| [^=]\*?   =  \s+ | <-[=]>\*?  \\=  \s+   # | paths are after '= '          |
+| (?!              | <!before                | zero-width negative lookahead |
+| (?:              | [                       | non-capturing grouping        |
+| [^:]\* : )\*     | [ <-[:]>\*? \\: ]\*     |                               |
+| /usr/local/bin   | '/usr/local/bin'        |                               |
+| (?: : ## $ )     | [ \\: ## $ ]            | (( ## stand-in for vertbar )) |
+| )                | ]                       |                               |
+|                  | >                       |                               |
+| .\*              | .\*                     | matches everything after =    |
+| )                | )   # End capture       |                               |
+| $                | $                       |                               |
+|                  |                         |                               |
+|                  |                         |                               |
