@@ -40,8 +40,6 @@ my @cases = (
 
              );
 
-# say @cases;
-
 {
     my $label = 'Testing raku translation of perl regex';
     for @cases -> $case {
