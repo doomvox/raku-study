@@ -72,9 +72,7 @@ my @cases = (
 #         ~~ s/$pattern/$0$append/ ;  ## does $0 work to embed the previous capture here? (( maybe not, it's Nil ))
 
         $result
-        ~~ s/$pattern/$/$append/ ;  ## does $/ work?
-
-
+        ~~ s/$pattern/$/$append/ ;  ## does $/ work?   Yes, it does.  (So, like, what?)
 
         say "i watch dollar 0: ", $0;  # Nil
         say 'result: ', $result;
