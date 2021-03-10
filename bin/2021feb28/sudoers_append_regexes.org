@@ -14,5 +14,5 @@
 | .*              | .*                    | matches everything after =    |
 |  )              | )   # End capture     |                               |
 |  $              | $                     |                               |
-|                 |                       |                               |
-|                 |                       |                               |
+
+

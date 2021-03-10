@@ -1,7 +1,7 @@
-- [](#orgcf40d39)
+- [](#org22f0e89)
 
 
-<a id="orgcf40d39"></a>
+<a id="org22f0e89"></a>
 
 # 
 
@@ -20,5 +20,3 @@
 | .\*              | .\*                     | matches everything after =    |
 | )                | )   # End capture       |                               |
 | $                | $                       |                               |
-|                  |                         |                               |
-|                  |                         |                               |
