@@ -42,58 +42,62 @@ my @cases = (
 
 # say @cases;
 
-my $label = 'Testing raku translation of perl regex';
-for @cases -> $case {
-     say '---';
-     my ($input, $expected, $sublabel) = $case.values;
+{
+    my $label = 'Testing raku translation of perl regex';
+    for @cases -> $case {
+        say '---';
+        my ($input, $expected, $sublabel) = $case.values;
 
-     my $pattern =
-     /
-     ^
-     (   # Begin capture
-         <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
-         <!before              
+        my $pattern =
+        /
+        ^
+        (   # Begin capture
+            <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
+            <!before              
              [  
                [ <-[:]>*? \: ]*       
                '/usr/local/bin' 
                [ \: | $ ]
              ]
            >   
-         .*  ## matches *everything* but only if the negative lookahead does not match
-     )   # End capture
-     $
-     /;
+            .*  ## matches *everything* but only if the negative lookahead does not match
+        )   # End capture
+        $
+        /;
 
-     my $append = ':/usr/local/bin';
+        my $append = ':/usr/local/bin';
 
-     my $result = $input;
-     $result
-       ~~ s/$pattern/$0$append/ ;  ## does $0 work to embed the previous capture here?
+        my $result = $input;
+        $result
+        ~~ s/$pattern/$0$append/ ;  ## does $0 work to embed the previous capture here?
 
-     say "i watch dollar 0: ", $0;  # Nil
-     say 'result: ', $result;
+        say "i watch dollar 0: ", $0;  # Nil
+        say 'result: ', $result;
 
-     is( $result, $expected, "$label: $sublabel" );
+        is( $result, $expected, "$label: $sublabel" );
 
-## reference, the p5 regex I'm trying to convert here:
-#       qr{
-#           ^ 
-#           (        # Capture to $1
-#           [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
-#           (?!       #  A zero-width negative lookahead assertion.
-#             (?:     
-#               [^:]* 
-#               : 
-#             )*       
-#             /usr/local/bin
-#             (?: 
-#               :   | 
-#               $    ) 
-#           )
-#           .*  ## matches *everything* but only if the negative lookahead does not match
-#           )        # End $1 capture
-#           $
-#         }
+    }
+
+
+    ## reference, the p5 regex I'm trying to convert here:
+    #       qr{
+    #           ^ 
+    #           (        # Capture to $1
+    #           [^=]*?   =  \s+   # Begin after  'Defaults secure_path = '
+    #           (?!       #  A zero-width negative lookahead assertion.
+    #             (?:     
+    #               [^:]* 
+    #               : 
+    #             )*       
+    #             /usr/local/bin
+    #             (?: 
+    #               :   | 
+    #               $    ) 
+    #           )
+    #           .*  ## matches *everything* but only if the negative lookahead does not match
+    #           )        # End $1 capture
+    #           $
+    #         }
 
 }
 
