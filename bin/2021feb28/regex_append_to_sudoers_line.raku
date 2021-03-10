@@ -87,7 +87,7 @@ my @cases = (
 #        say 'result: ', $result;
 
         is( $result, $expected, "$label: $sublabel" );
-        say '---';
+#       say '---';
     }
 
 
