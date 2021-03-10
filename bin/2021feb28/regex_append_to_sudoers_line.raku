@@ -73,6 +73,7 @@ my @cases = (
         ~~ s/$pattern/$/$append/ ;  ## does $/ work?   Yes, it does.  (So, like, wtf?)
                                     ## weird that it even parses:  $/ inside s///?
 
+
 #        say "i watch dollar 0: ", $0;  # Nil
 #        say 'result: ', $result;
 
