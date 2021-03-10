@@ -82,7 +82,7 @@ my @cases = (
     }
 
 
-    ## reference, the p5 regex I'm trying to convert here:
+    ## reference, the original p5 regex we converted from:
     #       qr{
     #           ^ 
     #           (        # Capture to $1
