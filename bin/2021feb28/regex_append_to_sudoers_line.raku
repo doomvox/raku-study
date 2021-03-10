@@ -47,8 +47,7 @@ my @cases = (
         my ($input, $expected, $sublabel) = $case.values;
 
         my $pattern =
-#        rx/
-        rx{
+        rx{  ## even with braces (not slashes, rx//) still have to quote /usr/local/bin
         ^
         (   # Begin capture
             <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
