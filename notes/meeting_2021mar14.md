@@ -1,17 +1,17 @@
-- [meeting notes Mar 14, 2021](#orgda5e7d4)
-    - [the usual meeting links:](#org2371f6c)
-  - [agenda (?)](#org7385232)
-    - [69 cent tours](#org6d6fb23)
-    - [bits from last week:](#orgabe4ed7)
-    - [possible topics (carried over)](#orgd3fd1fa)
+- [meeting notes Mar 14, 2021](#org12543ff)
+    - [the usual meeting links:](#org170771b)
+  - [agenda (?)](#orga13dd5d)
+    - [69 cent tours](#org75a131b)
+    - [bits from last week:](#org09570a6)
+    - [possible topics (carried over)](#orgcba1d1c)
 
 
-<a id="orgda5e7d4"></a>
+<a id="org12543ff"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org2371f6c"></a>
+<a id="org170771b"></a>
 
 ### the usual meeting links:
 
@@ -30,12 +30,12 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="org7385232"></a>
+<a id="orga13dd5d"></a>
 
 ## agenda (?)
 
 
-<a id="org6d6fb23"></a>
+<a id="org75a131b"></a>
 
 ### 69 cent tours
 
@@ -50,11 +50,11 @@
 3.  grammars
 
 
-<a id="orgabe4ed7"></a>
+<a id="org09570a6"></a>
 
 ### bits from last week:
 
-1.  back to the regex problem, munging sudoers lines via a sysadmin tool
+1.  back to that regex problem, munging sudoers lines via a sysadmin tool
 
     1.  raku translation
     
@@ -87,7 +87,7 @@
         2.  About the "Lenovo Solution Center".  Installing linux would've blown it away in any case.
 
 
-<a id="orgd3fd1fa"></a>
+<a id="orgcba1d1c"></a>
 
 ### possible topics (carried over)
 

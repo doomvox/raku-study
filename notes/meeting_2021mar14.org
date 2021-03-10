@@ -19,7 +19,7 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 
 *** bits from last week:
 
-***** back to the regex problem, munging sudoers lines via a sysadmin tool
+***** back to that regex problem, munging sudoers lines via a sysadmin tool
 ****** raku translation
 ******* https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/regex_append_to_sudoers_line.raku
 ******* Q: what is up with $0.  When does it work?
