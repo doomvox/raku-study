@@ -51,11 +51,11 @@ my @cases = (
         (   # Begin capture
             <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
             <!before              
-             [  
+      #      [  
                [ <-[:]>*? \: ]*       
                '/usr/local/bin' 
                [ \: | $ ]       
-             ]                  
+      #      ]                  
            >   
             .*  ## matches *everything* but only if the negative lookahead does not match
         )   # End capture
