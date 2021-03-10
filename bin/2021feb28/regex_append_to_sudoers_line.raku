@@ -74,8 +74,8 @@ my @cases = (
         $result
         ~~ s/$pattern/$/$append/ ;  ## does $/ work?   Yes, it does.  (So, like, what?)
 
-        say "i watch dollar 0: ", $0;  # Nil
-        say 'result: ', $result;
+#        say "i watch dollar 0: ", $0;  # Nil
+#        say 'result: ', $result;
 
         is( $result, $expected, "$label: $sublabel" );
 
