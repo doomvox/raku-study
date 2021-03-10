@@ -68,8 +68,13 @@ my @cases = (
         my $append = ':/usr/local/bin';
 
         my $result = $input;
+#         $result
+#         ~~ s/$pattern/$0$append/ ;  ## does $0 work to embed the previous capture here?
+
         $result
-        ~~ s/$pattern/$0$append/ ;  ## does $0 work to embed the previous capture here?
+        ~~ s/$pattern/\0$append/ ;  ## does $0 work to embed the previous capture here?
+
+
 
         say "i watch dollar 0: ", $0;  # Nil
         say 'result: ', $result;
