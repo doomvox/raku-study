@@ -47,7 +47,7 @@ my @cases = (
         my ($input, $expected, $sublabel) = $case.values;
 
         my $pattern =
-        rx/
+        /
         ^
         (   # Begin capture
             <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
