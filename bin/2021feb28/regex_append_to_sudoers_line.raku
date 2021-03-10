@@ -43,9 +43,8 @@ my @cases = (
 {
     my $label = 'Testing raku translation of perl regex';
     for @cases -> $case {
-        say '---';
         my ($input, $expected, $sublabel) = $case.values;
-
+     
         my $pattern =
         rx{  ## even with braces (not slashes, rx//), still have to quote /usr/local/bin
         ^
@@ -88,8 +87,9 @@ my @cases = (
 #        say 'result: ', $result;
 
         is( $result, $expected, "$label: $sublabel" );
-
+        say '---';
     }
+
 
 
     ## reference, the original p5 regex we converted from:
