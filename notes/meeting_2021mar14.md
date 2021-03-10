@@ -1,17 +1,17 @@
-- [meeting notes Mar 14, 2021](#org5e72b55)
-    - [the usual meeting links:](#org8f4ce80)
-  - [agenda (?)](#org908876d)
-    - [69 cent tours](#orga119fa9)
-    - [bits from last week:](#org5abe1ea)
-    - [possible topics (carried over)](#orgd2c2119)
+- [meeting notes Mar 14, 2021](#orgda5e7d4)
+    - [the usual meeting links:](#org2371f6c)
+  - [agenda (?)](#org7385232)
+    - [69 cent tours](#org6d6fb23)
+    - [bits from last week:](#orgabe4ed7)
+    - [possible topics (carried over)](#orgd3fd1fa)
 
 
-<a id="org5e72b55"></a>
+<a id="orgda5e7d4"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org8f4ce80"></a>
+<a id="org2371f6c"></a>
 
 ### the usual meeting links:
 
@@ -30,12 +30,12 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="org908876d"></a>
+<a id="org7385232"></a>
 
 ## agenda (?)
 
 
-<a id="orga119fa9"></a>
+<a id="org6d6fb23"></a>
 
 ### 69 cent tours
 
@@ -50,15 +50,17 @@
 3.  grammars
 
 
-<a id="org5abe1ea"></a>
+<a id="orgabe4ed7"></a>
 
 ### bits from last week:
 
 1.  back to the regex problem, munging sudoers lines via a sysadmin tool
 
-    1.  raku translation&#x2013; still has problems
+    1.  raku translation
     
         1.  <https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/regex_append_to_sudoers_line.raku>
+        
+        2.  Q: what is up with $0.  When does it work?
     
     2.  regex character classes example
     
@@ -85,7 +87,7 @@
         2.  About the "Lenovo Solution Center".  Installing linux would've blown it away in any case.
 
 
-<a id="orgd2c2119"></a>
+<a id="orgd3fd1fa"></a>
 
 ### possible topics (carried over)
 
