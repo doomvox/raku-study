@@ -15,8 +15,8 @@
     |           (?:                |        [                  | colon or end-of-string         |
     |             :   |            |          \: |             |                                |
     |             $    )           |          $   ]            |                                |
-    |       )                      |       >                   |                                |
-    |       .*                     |     .*                    | everything (after =)           |        
+    |       )                      |       >                   | end of zero-width group        |
+    |       .*                     |     .*                    | everything (after that =)      |        
     |       )                      |     )                     | end capture                    |
     |       $                      |     $                     | eos                            |
     |     }                        |    }                      |                                |
