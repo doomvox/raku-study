@@ -37,9 +37,7 @@ my @cases = (
              [ 'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
                'Defaults secure_path = /usr/local/bin:/bin:/root/bin',
                'Declines to append because path is already at the START'],
-
              );
-
 {
     my $label = 'Testing raku translation of perl regex';
     for @cases -> $case {
