@@ -78,7 +78,7 @@ my @cases = (
 #           ~~ s{$pattern} = "$/$append";  
 
 
-         $result.subst( $pattern, "$/$append" ); # 
+         $result.subst( $pattern, "$/$append" ); # Use of uninitialized value element of type Any in string context.
 #         $result.subst( $pattern, $/.Str ~ $append ); # Use of Nil in string context
 
 #        say "i watch dollar 0: ", $0;  # Nil
