@@ -90,7 +90,7 @@ my @cases = (
 
 
 
-    ## reference, the original p5 regex we converted from:
+    ## for reference, the original p5 regex we converted from:
     #       qr{
     #           ^ 
     #           (        # Capture to $1
