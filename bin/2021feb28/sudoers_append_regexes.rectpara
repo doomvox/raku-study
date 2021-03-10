@@ -13,8 +13,8 @@
     |           )*                 |        ]*                 | 0 or more of the group         |
     |           /usr/local/bin     |        '/usr/local/bin'   |                                |
     |           (?:                |        [                  | colon or end-of-string         |
-    |             :   |            |          \: |             |                                |
-    |             $    )           |          $   ]            |                                |
+    |             :  |             |          \: |             |                                |
+    |             $   )            |          $   ]            |                                |
     |       )                      |       >                   | end of zero-width group        |
     |       .*                     |     .*                    | everything (after that =)      |        
     |       )                      |     )                     | end capture                    |
