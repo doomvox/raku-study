@@ -77,7 +77,9 @@ my @cases = (
 #         $result
 #           ~~ s{$pattern} = "$/$append";  
 
-        $result.subst( $pattern, $/.Str ~ $append );
+
+         $result.subst( $pattern, "$/$append" ); # 
+#         $result.subst( $pattern, $/.Str ~ $append ); # Use of Nil in string context
 
 #        say "i watch dollar 0: ", $0;  # Nil
 #        say 'result: ', $result;
