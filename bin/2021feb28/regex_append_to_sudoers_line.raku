@@ -73,11 +73,11 @@ my @cases = (
 #         ~~ s/$pattern/$/$append/ ;  ## does $/ work?   Yes, it does.  (So, like, wtf?)
 #                                     ## weird that it even parses:  $/ inside s///?
 
-        $result
-        ~~ s{$pattern} = "$/$append" ;  ## does $/ work?   Yes, it does.  (So, like, wtf?)
-                                    ## weird that it even parses:  $/ inside s///?
+#         ## seems strange, but this works:
+#         $result
+#           ~~ s{$pattern} = "$/$append";  
 
-
+        $result.subst( $pattern, "$/$append");
 
 #        say "i watch dollar 0: ", $0;  # Nil
 #        say 'result: ', $result;
