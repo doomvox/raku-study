@@ -55,8 +55,8 @@ my @cases = (
              [  
                [ <-[:]>*? \: ]*       
                '/usr/local/bin' 
-               [ \: | $ ]
-             ]
+               [ \: | $ ]       
+             ]                  
            >   
             .*  ## matches *everything* but only if the negative lookahead does not match
         )   # End capture
