@@ -1,17 +1,17 @@
-- [meeting notes Mar 14, 2021](#orga1c15ad)
-    - [the usual meeting links:](#org56f18ac)
-  - [agenda (?)](#org2d2ef73)
-    - [69 cent tours](#org75de7e4)
-    - [bits from last week:](#orga9a15cf)
-    - [possible topics (carried over)](#org8d940ea)
+- [meeting notes Mar 14, 2021](#org3479d84)
+    - [the usual meeting links:](#org30dd53a)
+  - [agenda (?)](#orgd5f7b4d)
+    - [69 cent tours](#org538d891)
+    - [bits from last week:](#org967c35f)
+    - [possible topics (carried over)](#org8086ee4)
 
 
-<a id="orga1c15ad"></a>
+<a id="org3479d84"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org56f18ac"></a>
+<a id="org30dd53a"></a>
 
 ### the usual meeting links:
 
@@ -30,12 +30,12 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="org2d2ef73"></a>
+<a id="orgd5f7b4d"></a>
 
 ## agenda (?)
 
 
-<a id="org75de7e4"></a>
+<a id="org538d891"></a>
 
 ### 69 cent tours
 
@@ -50,7 +50,7 @@
 3.  grammars
 
 
-<a id="orga9a15cf"></a>
+<a id="org967c35f"></a>
 
 ### bits from last week:
 
@@ -91,7 +91,7 @@
         <https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6>
 
 
-<a id="org8d940ea"></a>
+<a id="org8086ee4"></a>
 
 ### possible topics (carried over)
 

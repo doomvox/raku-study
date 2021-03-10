@@ -22,7 +22,6 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 ****** William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now" 
 ******* https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability
 ******* The vulnerability is in the "Lenovo Solution Center", but installing linux first blows that crap away
-
 ***** books
 ****** shadow novel where the bad guys speak esperanto
 *******  "Crime Under Cover" (1941) by Maxwell Grant
