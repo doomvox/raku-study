@@ -1,18 +1,18 @@
 * 
-| p5                                           | raku                                   |
-|----------------------------------------------+----------------------------------------|
-| ^                                            | ^                                      |
-| (        # Capture to $1                     | (   # Begin capture                    |
-| [^=]*?   =  \s+   # Begin after  '= '        | <-[=]>*?  \=  \s+   # Begin after '= ' |
-| (?!      #  zero-width negative lookahead    | <!before                               |
-|                                              | [                                      |
-|                                              | [ <-[:]>*? \: ]*                       |
-|                                              | '/usr/local/bin'                       |
-|                                              | [ \: ## $ ]                            |
-|                                              | ]                                      |
-|                                              | >                                      |
-|                                              | .*  ## matches *everything*            |
-|                                              | )   # End capture                      |
-|                                              | $                                      |
-|                                              |                                        |
-|                                              |                                        |
+| p5              | raku                        | comment                       |
+|-----------------+-----------------------------+-------------------------------|
+| ^               | ^                           |                               |
+| (               | (                           | begin capture                 |
+| [^=]*?   =  \s+ | <-[=]>*?  \=  \s+   #       | paths are after '= '          |
+| (?!             | <!before                    | zero-width negative lookahead |
+| (?:             | [                           | non-capturing grouping        |
+| [^:]* : )*      | [ <-[:]>*? \: ]*            |                               |
+| /usr/local/bin  | '/usr/local/bin'            |                               |
+| (?: : ## $ )    | [ \: ## $ ]                 | (( ## stand-in for vertbar )) |
+|                 | ]                           |                               |
+|                 | >                           |                               |
+|                 | .*  ## matches *everything* |                               |
+|                 | )   # End capture           |                               |
+|                 | $                           |                               |
+|                 |                             |                               |
+|                 |                             |                               |
