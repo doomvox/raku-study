@@ -47,7 +47,8 @@ my @cases = (
         my ($input, $expected, $sublabel) = $case.values;
 
         my $pattern =
-        /
+#        rx/
+        rx{
         ^
         (   # Begin capture
             <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
@@ -61,7 +62,7 @@ my @cases = (
             .*  ## matches *everything* but only if the negative lookahead does not match
         )   # End capture
         $
-        /;
+        };
 
         my $append = ':/usr/local/bin';
 
