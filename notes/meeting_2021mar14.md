@@ -1,17 +1,17 @@
-- [meeting notes Mar 14, 2021](#org12543ff)
-    - [the usual meeting links:](#org170771b)
-  - [agenda (?)](#orga13dd5d)
-    - [69 cent tours](#org75a131b)
-    - [bits from last week:](#org09570a6)
-    - [possible topics (carried over)](#orgcba1d1c)
+- [meeting notes Mar 14, 2021](#orgb45da36)
+    - [the usual meeting links:](#orgbe004c2)
+  - [agenda (?)](#orgb3c12f1)
+    - [69 cent tours](#org829713e)
+    - [bits from last week:](#orgacb13ef)
+    - [possible topics (carried over)](#orga34640e)
 
 
-<a id="org12543ff"></a>
+<a id="orgb45da36"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org170771b"></a>
+<a id="orgbe004c2"></a>
 
 ### the usual meeting links:
 
@@ -30,12 +30,12 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="orga13dd5d"></a>
+<a id="orgb3c12f1"></a>
 
 ## agenda (?)
 
 
-<a id="org75a131b"></a>
+<a id="org829713e"></a>
 
 ### 69 cent tours
 
@@ -50,7 +50,7 @@
 3.  grammars
 
 
-<a id="org09570a6"></a>
+<a id="orgacb13ef"></a>
 
 ### bits from last week:
 
@@ -61,6 +61,8 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/regex_append_to_sudoers_line.raku>
         
         2.  Q: what is up with $0.  When does it work?
+        
+        3.  <https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/sudoers_append_regexes.rectpara>
     
     2.  regex character classes example
     
@@ -87,7 +89,7 @@
         2.  About the "Lenovo Solution Center".  Installing linux would've blown it away in any case.
 
 
-<a id="orgcba1d1c"></a>
+<a id="orga34640e"></a>
 
 ### possible topics (carried over)
 
