@@ -1,7 +1,7 @@
-- [](#org04b9a7b)
+- [](#org03e6085)
 
 
-<a id="org04b9a7b"></a>
+<a id="org03e6085"></a>
 
 # 
 
@@ -12,7 +12,7 @@
 | [^=]\*? =  \s+ | <-[=]>\*?  \\=  \s+ | paths are after '= '           |
 | (?!            | <!before            | zero-width negative lookahead  |
 | (?:            | [                   | non-capturing grouping         |
-| [^:]\* :       | [ <-[:]>\*? \\:     |                                |
+| [^:]\* :       | [ <-[:]>\*? \\:     | non-colons up to a colon       |
 | )\*            | ]\*                 | 0 or more of the non-cap group |
 | /usr/local/bin | '/usr/local/bin'    |                                |
 | (?: : ## $ )   | [ \\: ## $ ]        | colon or end-of-string         |
