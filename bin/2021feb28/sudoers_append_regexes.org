@@ -3,7 +3,7 @@
 |-----------------+-----------------------+-------------------------------|
 | ^               | ^                     |                               |
 | (               | (                     | begin capture                 |
-| [^=]*?   =  \s+ | <-[=]>*?  \=  \s+   # | paths are after '= '          |
+| [^=]*?   =  \s+ | <-[=]>*?  \=  \s+     | paths are after '= '          |
 | (?!             | <!before              | zero-width negative lookahead |
 | (?:             | [                     | non-capturing grouping        |
 | [^:]* : )*      | [ <-[:]>*? \: ]*      |                               |
@@ -12,7 +12,7 @@
 | )               | ]                     |                               |
 |                 | >                     |                               |
 | .*              | .*                    | matches everything after =    |
-|  )              | )   # End capture     |                               |
-|  $              | $                     |                               |
+| )               | )                     | end capture                   |
+| $               | $                     |                               |
 
 

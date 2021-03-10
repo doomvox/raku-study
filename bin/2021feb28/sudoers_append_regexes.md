@@ -1,22 +1,22 @@
-- [](#org22f0e89)
+- [](#org3a733ca)
 
 
-<a id="org22f0e89"></a>
+<a id="org3a733ca"></a>
 
 # 
 
-| p5               | raku                    | comment                       |
-|---------------- |----------------------- |----------------------------- |
-| ^                | ^                       |                               |
-| (                | (                       | begin capture                 |
-| [^=]\*?   =  \s+ | <-[=]>\*?  \\=  \s+   # | paths are after '= '          |
-| (?!              | <!before                | zero-width negative lookahead |
-| (?:              | [                       | non-capturing grouping        |
-| [^:]\* : )\*     | [ <-[:]>\*? \\: ]\*     |                               |
-| /usr/local/bin   | '/usr/local/bin'        |                               |
-| (?: : ## $ )     | [ \\: ## $ ]            | (( ## stand-in for vertbar )) |
-| )                | ]                       |                               |
-|                  | >                       |                               |
-| .\*              | .\*                     | matches everything after =    |
-| )                | )   # End capture       |                               |
-| $                | $                       |                               |
+| p5               | raku                | comment                       |
+|---------------- |------------------- |----------------------------- |
+| ^                | ^                   |                               |
+| (                | (                   | begin capture                 |
+| [^=]\*?   =  \s+ | <-[=]>\*?  \\=  \s+ | paths are after '= '          |
+| (?!              | <!before            | zero-width negative lookahead |
+| (?:              | [                   | non-capturing grouping        |
+| [^:]\* : )\*     | [ <-[:]>\*? \\: ]\* |                               |
+| /usr/local/bin   | '/usr/local/bin'    |                               |
+| (?: : ## $ )     | [ \\: ## $ ]        | (( ## stand-in for vertbar )) |
+| )                | ]                   |                               |
+|                  | >                   |                               |
+| .\*              | .\*                 | matches everything after =    |
+| )                | )                   | end capture                   |
+| $                | $                   |                               |
