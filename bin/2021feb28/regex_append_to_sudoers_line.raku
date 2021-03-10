@@ -69,10 +69,10 @@ my @cases = (
 
         my $result = $input;
 #         $result
-#         ~~ s/$pattern/$0$append/ ;  ## does $0 work to embed the previous capture here?
+#         ~~ s/$pattern/$0$append/ ;  ## does $0 work to embed the previous capture here? (( maybe not, it's Nil ))
 
         $result
-        ~~ s/$pattern/\0$append/ ;  ## does $0 work to embed the previous capture here?
+        ~~ s/$pattern/$/$append/ ;  ## does $/ work?
 
 
 
