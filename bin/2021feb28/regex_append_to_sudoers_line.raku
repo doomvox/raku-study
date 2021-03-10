@@ -55,7 +55,7 @@ my @cases = (
             <!before              
              [  
                [ <-[:]>*? \: ]*       
-               '/usr/local/bin' 
+               /usr/local/bin
                [ \: | $ ]
              ]
            >   
