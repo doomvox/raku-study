@@ -1,7 +1,7 @@
-- [](#org5f054b7)
+- [](#org52a5d61)
 
 
-<a id="org5f054b7"></a>
+<a id="org52a5d61"></a>
 
 # 
 
@@ -12,7 +12,8 @@
 | [^=]\*? =  \s+ | <-[=]>\*?  \\=  \s+ | paths are after '= '          |
 | (?!            | <!before            | zero-width negative lookahead |
 | (?:            | [                   | non-capturing grouping        |
-| [^:]\* : )\*   | [ <-[:]>\*? \\: ]\* |                               |
+| [^:]\* :       | [ <-[:]>\*? \\:     |                               |
+| )\*            | ]\*                 | 0 or more of non-cap group    |
 | /usr/local/bin | '/usr/local/bin'    |                               |
 | (?: : ## $ )   | [ \\: ## $ ]        | (( ## stand-in for vertbar )) |
 | )              | ]                   |                               |
