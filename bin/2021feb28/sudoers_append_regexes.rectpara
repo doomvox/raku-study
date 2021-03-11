@@ -3,9 +3,7 @@ Problem: using a single s/// operation, make sure the location
 not there already:                                                  
                                                                     
    Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin            
-
-
-
+ 
     |  perl5                       |  raku                     |  comment                       |
     |------------------------------+---------------------------+--------------------------------|
     |                              |                           |                                |
