@@ -11,7 +11,7 @@ present already:
     |  perl5                       |  raku                     |  comment                       |
     |------------------------------+---------------------------+--------------------------------|
     |  $pattern =                  | $pattern =                |                                |
-    |   qr{                        | rx{                       |                                |
+    |   qr{                        |  rx{                      |                                |
     |       ^                      |    ^                      | bos                            |
     |       (                      |    (                      | begin capture                  |
     |         [^=]*?   =  \s+      |      <-[=]>*?  \=  \s+    | paths are after '= '           |
