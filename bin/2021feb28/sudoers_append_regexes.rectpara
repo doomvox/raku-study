@@ -6,11 +6,11 @@ using a single s/// operation, append the location
 "/usr/local/bin" to the path, but only if it's not
 present already:
                                                                     
-
- 
+          
+          
     |  perl5                       |  raku                     |  comment                       |
     |------------------------------+---------------------------+--------------------------------|
-    |                              |                           |                                |
+    |  $pattern =                  | $pattern =                |                                |
     |   qr{                        | rx{                       |                                |
     |       ^                      |    ^                      | bos                            |
     |       (                      |    (                      | begin capture                  |
