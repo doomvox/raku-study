@@ -1,17 +1,17 @@
-- [meeting notes Mar 14, 2021](#org052c853)
-    - [the usual meeting links:](#orgdaa0b8e)
-  - [agenda (?)](#orgfcffd87)
-    - [69 cent tours](#org20d5af4)
-    - [bits from last week:](#org58017eb)
-    - [possible topics (carried over)](#org5668957)
+- [meeting notes Mar 14, 2021](#org85aa0cd)
+    - [the usual meeting links:](#orgbc7803c)
+  - [agenda (?)](#orgb4df0d2)
+    - [69 cent tours](#org8995141)
+    - [bits from last week:](#orga86c019)
+    - [possible topics (carried over)](#org66b1b03)
 
 
-<a id="org052c853"></a>
+<a id="org85aa0cd"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orgdaa0b8e"></a>
+<a id="orgbc7803c"></a>
 
 ### the usual meeting links:
 
@@ -30,27 +30,23 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="orgfcffd87"></a>
+<a id="orgb4df0d2"></a>
 
 ## agenda (?)
 
 
-<a id="org20d5af4"></a>
+<a id="org8995141"></a>
 
 ### 69 cent tours
 
-1.  git
-
-    1.  github
-
-2.  regexs
+1.  regexs
 
     1.  quoting, interpolating, matching
 
-3.  grammars
+2.  grammars
 
 
-<a id="org58017eb"></a>
+<a id="orga86c019"></a>
 
 ### bits from last week:
 
@@ -93,7 +89,7 @@
     3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="org5668957"></a>
+<a id="org66b1b03"></a>
 
 ### possible topics (carried over)
 

@@ -11,8 +11,6 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 
 ** agenda (?)
 *** 69 cent tours
-**** git
-***** github
 **** regexs
 ***** quoting, interpolating, matching
 **** grammars
