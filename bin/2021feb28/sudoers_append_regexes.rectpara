@@ -27,7 +27,13 @@ not there already:
     |     }x                       |    }                      |                                |
     |                              |                           |                                |
     |                              |                           |                                |
-    |                              |  $line ~~                 |                                |
-    |                              |    s/$pattern/$/$append/; |                                |
+    |  $line =~                    |  $line ~~                 |                                |
+    |   s{ $pattern }{$replace}x;  |    s/$pattern/$/$append/; |                                |
     |                              |                           |                                |
-
+                                
+                                
+                                
+                                
+                                
+      
+      
