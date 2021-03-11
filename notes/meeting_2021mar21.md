@@ -1,9 +1,15 @@
-- [meeting notes Mar 21, 2021](#org2764c56)
+- [meeting notes Mar 21, 2021](#orgb727677)
+  - [topics](#orgcbfd5f9)
 
 
-<a id="org2764c56"></a>
+<a id="orgb727677"></a>
 
 # meeting notes Mar 21, 2021
+
+
+<a id="orgcbfd5f9"></a>
+
+## topics
 
 1.  69 cent tour of git
 
