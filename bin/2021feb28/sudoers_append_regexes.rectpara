@@ -30,7 +30,7 @@ not there already:
     |  $line =~                    |  $line ~~                 |                                |
     |   s{ $pattern }{\1$append}x; |    s/$pattern/$/$append/; |                                |
     |                              |                           |                                |
-    |   $1 works too               |                           |                                |                                
+    |   $1 works too               |  $/ works, but not $0 (?) |                                |                                
                                 
                                 
                                 
