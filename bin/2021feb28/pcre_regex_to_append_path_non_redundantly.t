@@ -194,7 +194,6 @@ say '===';
     (my $result = $input) 
       =~ s{$pattern}{\1:/usr/local/bin} ;
 
-
     is( $result, $expected, "$label: $sublabel" );
   }
 }
