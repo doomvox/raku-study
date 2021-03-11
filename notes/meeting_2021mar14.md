@@ -1,17 +1,17 @@
-- [meeting notes Mar 14, 2021](#orgcd5a0e2)
-    - [the usual meeting links:](#org7da5442)
-  - [agenda (?)](#org52c4360)
-    - [69 cent tours](#orgb85da1f)
-    - [bits from last week:](#orga16b109)
-    - [possible topics (carried over)](#org1ab2be7)
+- [meeting notes Mar 14, 2021](#org052c853)
+    - [the usual meeting links:](#orgdaa0b8e)
+  - [agenda (?)](#orgfcffd87)
+    - [69 cent tours](#org20d5af4)
+    - [bits from last week:](#org58017eb)
+    - [possible topics (carried over)](#org5668957)
 
 
-<a id="orgcd5a0e2"></a>
+<a id="org052c853"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org7da5442"></a>
+<a id="orgdaa0b8e"></a>
 
 ### the usual meeting links:
 
@@ -30,12 +30,12 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="org52c4360"></a>
+<a id="orgfcffd87"></a>
 
 ## agenda (?)
 
 
-<a id="orgb85da1f"></a>
+<a id="org20d5af4"></a>
 
 ### 69 cent tours
 
@@ -50,7 +50,7 @@
 3.  grammars
 
 
-<a id="orga16b109"></a>
+<a id="org58017eb"></a>
 
 ### bits from last week:
 
@@ -89,9 +89,11 @@
     2.  regex character classes example
     
         <https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6>
+    
+    3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="org1ab2be7"></a>
+<a id="org5668957"></a>
 
 ### possible topics (carried over)
 

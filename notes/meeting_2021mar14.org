@@ -40,7 +40,7 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 ****** regex character classes example
 https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6
 
-
+****** Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( ... )>
 *** possible topics (carried over)
 ***** a stupid mistake that isn't: naming a method with a leading ^
 ****** https://stackoverflow.com/questions/54143036/class-method-name-with-doesnt-get-invoked-properly/54147131#54147131
