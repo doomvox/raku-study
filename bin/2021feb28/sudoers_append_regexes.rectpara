@@ -28,7 +28,7 @@ not there already:
     |                              |                           |                                |
     |                              |                           |                                |
     |  $line =~                    |  $line ~~                 |                                |
-    |   s{ $pattern }{$replace}x;  |    s/$pattern/$/$append/; |                                |
+    |   s{ $pattern }{\1$append}x; |    s/$pattern/$/$append/; |                                |
     |                              |                           |                                |
                                 
                                 
