@@ -94,7 +94,7 @@ say "===";
 ## Another key element is the negative lookahead assertion that fails
 ## if there's already a /usr/local/bin entry
 
-## TODO  is \K supported by PCRE?
+## TODO  is \K supported by PCRE?  (( Yes ))
 
 { my $label = "Testing variant solution";
   foreach my $case (@cases) {
