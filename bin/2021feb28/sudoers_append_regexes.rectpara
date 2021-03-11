@@ -2,7 +2,7 @@ Using a single s/// operation, make sure the location
 "/usr/local/bin" is in this path, appending it, but only 
 if it's not there already:
                           
-  'Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin'   
+   Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin    
 
 
 
