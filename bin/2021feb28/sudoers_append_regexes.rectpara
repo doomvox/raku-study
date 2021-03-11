@@ -12,8 +12,8 @@ present already:
     |------------------------------+---------------------------+--------------------------------|
     |  $pattern =                  | $pattern =                |                                |
     |   qr{                        |  rx{                      |                                |
-    |       ^                      |    ^                      | bos                            |
-    |       (                      |    (                      | begin capture                  |
+    |       ^                      |     ^                     | bos                            |
+    |       (                      |     (                     | begin capture                  |
     |         [^=]*?   =  \s+      |      <-[=]>*?  \=  \s+    | paths are after '= '           |
     |         (?!                  |      <!before             | zero-width negative lookahead  |
     |           (?:                |        [                  | non-capturing grouping         |
@@ -25,9 +25,9 @@ present already:
     |             :  |             |          \: |             | colon or...                    |
     |             $   )            |          $   ]            |    end-of-string               |
     |       )                      |       >                   | end of zero-width group        |
-    |       .*                     |     .*                    | everything (after that =)      |        
-    |       )                      |     )                     | end capture                    |
-    |       $                      |     $                     | eos                            |
+    |       .*                     |      .*                   | everything (after that =)      |        
+    |       )                      |      )                    | end capture                    |
+    |       $                      |      $                    | eos                            |
     |     }x                       |    }                      |                                |
     |                              |                           |                                |
     |                              |                           |                                |
