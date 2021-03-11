@@ -192,7 +192,7 @@ say '===';
 #     (my $result = $input) 
 #       =~ s{$pattern}{\1:/usr/local/bin} ;
     (my $result = $input) 
-      =~ s{$pattern}{\1:/usr/local/bin} ;
+      =~ s{$pattern}{$1:/usr/local/bin} ;
 
     is( $result, $expected, "$label: $sublabel" );
   }
