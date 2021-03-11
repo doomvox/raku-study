@@ -1,13 +1,13 @@
 Problem: on a line like so:
-                                                                   
-   Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin            
-                                
-using a single s/// operation, append the location      
+
+   Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin
+
+using a single s/// operation, append the location
 "/usr/local/bin" to the path, but only if it's not
 present already:
-                                                                    
-          
-          
+
+
+
     |  perl5                       |  raku                     |  comment                       |
     |------------------------------+---------------------------+--------------------------------|
     |  $pattern =                  | $pattern =                |                                |
@@ -18,14 +18,14 @@ present already:
     |         (?!                  |      <!before             | zero-width negative lookahead  |
     |           (?:                |        [                  | non-capturing grouping         |
     |             [^:]*            |          <-[:]>*?         | non-colons                     |
-    |             :                |           \:              |   up to a colon                |                  
+    |             :                |           \:              |   up to a colon                |
     |           )*                 |        ]*                 | 0 or more of the group         |
     |           /usr/local/bin     |        '/usr/local/bin'   |                                |
     |           (?:                |        [                  |                                |
     |             :  |             |          \: |             | colon or...                    |
     |             $   )            |          $   ]            |    end-of-string               |
     |       )                      |       >                   | end of zero-width group        |
-    |       .*                     |      .*                   | everything (after that =)      |        
+    |       .*                     |      .*                   | everything (after that =)      |
     |       )                      |      )                    | end capture                    |
     |       $                      |      $                    | eos                            |
     |     }x                       |    }                      |                                |
@@ -34,10 +34,4 @@ present already:
     |  $line =~                    |  $line ~~                 |                                |
     |   s{ $pattern }{\1$append}x; |    s/$pattern/$/$append/; |                                |
     |                              |                           |                                |
-    |   $1 works too               |  $/ works, but not $0 (?) |                                |                                
-                                
-                                
-                                
-                                
-      
-      
+    |   $1 works too               |  $/ works, but not $0 (?) |                                |
