@@ -1,0 +1,4 @@
+* meeting notes Mar 21, 2021
+
+**** 69 cent tour of git
+***** github
