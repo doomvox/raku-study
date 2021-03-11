@@ -26,6 +26,7 @@ not there already:
     |       $                      |     $                     | eos                            |
     |     }x                       |    }                      |                                |
     |                              |                           |                                |
+    |                              |                           |                                |
     |                              |  $line ~~                 |                                |
     |                              |    s/$pattern/$/$append/; |                                |
     |                              |                           |                                |
