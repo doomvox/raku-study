@@ -1,17 +1,18 @@
-- [meeting notes Mar 14, 2021](#org85aa0cd)
-    - [the usual meeting links:](#orgbc7803c)
-  - [agenda (?)](#orgb4df0d2)
-    - [69 cent tours](#org8995141)
-    - [bits from last week:](#orga86c019)
-    - [possible topics (carried over)](#org66b1b03)
+- [meeting notes Mar 14, 2021](#org2801472)
+    - [the usual meeting links:](#org8a1a5ed)
+  - [agenda (?)](#org1b9a024)
+    - [69 cent tours](#org2171bf8)
+    - [yet another alternative raku documentation project?](#org22e5e82)
+    - [bits from last week:](#org02560c3)
+    - [possible topics (carried over)](#org5651366)
 
 
-<a id="org85aa0cd"></a>
+<a id="org2801472"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orgbc7803c"></a>
+<a id="org8a1a5ed"></a>
 
 ### the usual meeting links:
 
@@ -30,12 +31,12 @@
 4.  A lot of us hang out on the perl6-users mailing list
 
 
-<a id="orgb4df0d2"></a>
+<a id="org1b9a024"></a>
 
 ## agenda (?)
 
 
-<a id="org8995141"></a>
+<a id="org2171bf8"></a>
 
 ### 69 cent tours
 
@@ -46,7 +47,14 @@
 2.  grammars
 
 
-<a id="orga86c019"></a>
+<a id="org22e5e82"></a>
+
+### yet another alternative raku documentation project?
+
+<https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
+
+
+<a id="org02560c3"></a>
 
 ### bits from last week:
 
@@ -89,7 +97,7 @@
     3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="org66b1b03"></a>
+<a id="org5651366"></a>
 
 ### possible topics (carried over)
 
