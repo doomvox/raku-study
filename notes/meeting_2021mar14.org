@@ -13,6 +13,10 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 *** 69 cent tours
 **** regexs
 ***** quoting, interpolating, matching
+****** question about regex interpolation and captures
+******* https://www.nntp.perl.org/group/perl.perl6.users/2021/03/msg9786.html
+******* https://www.nntp.perl.org/group/perl.perl6.users/2021/03/msg9791.html
+
 **** grammars
 
 ***** Brad Gilbert complains about reaching for grammars too soon

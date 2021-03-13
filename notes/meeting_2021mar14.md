@@ -1,18 +1,18 @@
-- [meeting notes Mar 14, 2021](#org0c1ea67)
-    - [the usual meeting links:](#org49d792b)
-  - [agenda (?)](#orgccfc740)
-    - [69 cent tours](#org45750b4)
-    - [yet another alternative raku documentation project?](#orgc468b92)
-    - [bits from last week:](#org558a5a1)
-    - [possible topics (carried over)](#org9ed252c)
+- [meeting notes Mar 14, 2021](#org4f0e84d)
+    - [the usual meeting links:](#org2a28e6b)
+  - [agenda (?)](#org1f1c471)
+    - [69 cent tours](#orgd68a771)
+    - [yet another alternative raku documentation project?](#org520ab10)
+    - [bits from last week:](#org3cb16b8)
+    - [possible topics (carried over)](#orgf71734f)
 
 
-<a id="org0c1ea67"></a>
+<a id="org4f0e84d"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org49d792b"></a>
+<a id="org2a28e6b"></a>
 
 ### the usual meeting links:
 
@@ -33,18 +33,24 @@
     1.  <https://raku.org/community/>
 
 
-<a id="orgccfc740"></a>
+<a id="org1f1c471"></a>
 
 ## agenda (?)
 
 
-<a id="org45750b4"></a>
+<a id="orgd68a771"></a>
 
 ### 69 cent tours
 
 1.  regexs
 
     1.  quoting, interpolating, matching
+    
+        1.  question about regex interpolation and captures
+        
+            1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/03/msg9786.html>
+            
+            2.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/03/msg9791.html>
 
 2.  grammars
 
@@ -53,14 +59,14 @@
         <https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but>
 
 
-<a id="orgc468b92"></a>
+<a id="org520ab10"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org558a5a1"></a>
+<a id="org3cb16b8"></a>
 
 ### bits from last week:
 
@@ -103,7 +109,7 @@
     3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="org9ed252c"></a>
+<a id="orgf71734f"></a>
 
 ### possible topics (carried over)
 
