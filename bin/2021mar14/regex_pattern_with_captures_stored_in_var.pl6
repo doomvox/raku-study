@@ -87,3 +87,9 @@ say "---";
         #     1 => ｢million｣
     }
 }
+
+say "---";
+
+grammar NumberUnits {
+    TOP { (\d+) \s+ (\w+) }
+}
