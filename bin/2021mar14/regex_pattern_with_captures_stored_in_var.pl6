@@ -72,7 +72,7 @@ say "===";
        #     0 => ｢9｣
        #     1 => ｢million｣
 
-       say $pattern[0]
+       say $pattern[0];
 
    }
 }
