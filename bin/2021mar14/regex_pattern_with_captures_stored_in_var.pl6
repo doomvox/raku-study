@@ -57,3 +57,23 @@ say "===";
    }
 }
 
+
+{ # A Moritz Lenz, in email, points in this direction: make it a named capture
+   my $input = 'There are 9 million bicycles in beijing.'; 
+   my $pattern = rx{ (\d+) \s+ (\w+) };
+   if $input ~~ / <pattern=$pattern> / {
+       say $0.^name;  # Nil
+       say $0;        # Nil
+       say $1.^name;  # Nil
+       say $1;        # Nil
+       say $/;
+       # ｢9 million｣
+       #   pattern => ｢9 million｣
+       #     0 => ｢9｣
+       #     1 => ｢million｣
+
+       say $pattern[0]
+
+   }
+}
+
