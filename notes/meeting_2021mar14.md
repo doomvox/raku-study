@@ -1,18 +1,18 @@
-- [meeting notes Mar 14, 2021](#org433f956)
-    - [the usual meeting links:](#org24af6b0)
-  - [agenda](#org8dd8eaa)
-    - [regexs, a 69 cent tour:](#org22c46d2)
-    - [yet another alternative raku documentation project?](#org3b43e8c)
-    - [bits from last week:](#org85775f7)
-    - [possible topics (carried over)](#orgad29d72)
+- [meeting notes Mar 14, 2021](#org3fdfcec)
+    - [the usual meeting links:](#orgff8a5f4)
+  - [agenda](#orgdb16d8b)
+    - [regexs, a 69 cent tour:](#org6dbaad0)
+    - [yet another alternative raku documentation project?](#org73001c7)
+    - [bits from last week:](#orgfcbb427)
+    - [possible topics (carried over)](#orgc74c8c7)
 
 
-<a id="org433f956"></a>
+<a id="org3fdfcec"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org24af6b0"></a>
+<a id="orgff8a5f4"></a>
 
 ### the usual meeting links:
 
@@ -33,12 +33,12 @@
     1.  <https://raku.org/community/>
 
 
-<a id="org8dd8eaa"></a>
+<a id="orgdb16d8b"></a>
 
 ## agenda
 
 
-<a id="org22c46d2"></a>
+<a id="org6dbaad0"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -67,14 +67,14 @@
         <https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but>
 
 
-<a id="org3b43e8c"></a>
+<a id="org73001c7"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org85775f7"></a>
+<a id="orgfcbb427"></a>
 
 ### bits from last week:
 
@@ -105,7 +105,7 @@
     4.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="orgad29d72"></a>
+<a id="orgc74c8c7"></a>
 
 ### possible topics (carried over)
 
