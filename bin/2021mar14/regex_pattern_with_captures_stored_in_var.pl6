@@ -66,6 +66,9 @@ say "---";
        # He seemed to be saying this would be the zeroth capture, but it isn't:
        say $pattern[0]; # rx{ (\d+) \s+ (\w+) }
    }
+
+   say '...';
+
 }
 
 
