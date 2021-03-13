@@ -170,28 +170,28 @@ say "---";
 # make
 # package
 # know_how
-
+# 
 # replace-with
-
+# 
 # orig
 # set_pragma
-
+# 
 # to
 # same
 # grammar
-
+# 
 # upper
 # prune
 # pragma
 # ww
-
+# 
 # clone
 # caps
-
+# 
 # target
-
+# 
 # set_how
-
+# 
 # kv
 # keys
 # values
