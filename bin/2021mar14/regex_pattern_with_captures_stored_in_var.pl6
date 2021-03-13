@@ -49,7 +49,12 @@ say "===";
        say $0;        # Nil
        say $1.^name;  # Nil
        say $1;        # Nil
-       say $/;        # ｢9 million｣
+       say $/;
+       # ｢9 million｣
+       #   nameo => ｢9 million｣
+       #     0 => ｢9｣
+       #     1 => ｢million｣
+
    }
 }
 
