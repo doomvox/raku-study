@@ -114,92 +114,89 @@ say "---";
 
 #    .say for $ret.^methods>>.name;
 
-## names of some of the sub-patterns?
-# TOP
-# number
-# units
-# 
-# ws
-# ident
-# space
-# cntrl
-# alpha
-# alnum
-# xdigit
-# punct
-# ast
-# digit
-# blank
-# wb
-# 
-# after
-# before
-# postmatch
-# prematch
-# at
-# pos
-# 
-# subparse
-# parsefile
-# parse
-# 
-## Some things about "braids"?
-# braid
-# clone_braid_from
-# set_braid
-# set_braid_from
-# snapshot_braid
-# 
-## and "slang"s 
-# slangs
-# define_slang
-# refine_slang
-# switch_to_slang
-# slang_grammar
-# slang_actions
-# 
-# graph
-# made
-# chunks
-# 
-# how
-# 
-# actions
-# set_actions
-# 
-# make
-# package
-# know_how
-# 
-# replace-with
-# 
-# orig
-# set_pragma
-# 
-# to
-# same
-# grammar
-# 
-# upper
-# prune
-# pragma
-# ww
-# 
-# clone
-# caps
-# 
-# target
-# 
-# set_how
-# 
-# kv
-# keys
-# values
-# pairs
-# antipairs
-
-
-
+     ## names of some of the sub-patterns?
+     # TOP
+     # number
+     # units
+     # 
+     # ws
+     # ident
+     # space
+     # cntrl
+     # alpha
+     # alnum
+     # xdigit
+     # punct
+     # ast
+     # digit
+     # blank
+     # wb
+     # 
+     # after
+     # before
+     # postmatch
+     # prematch
+     # at
+     # pos
+     # 
+     # subparse
+     # parsefile
+     # parse
+     # 
+     ## Some things about "braids"?
+     # braid
+     # clone_braid_from
+     # set_braid
+     # set_braid_from
+     # snapshot_braid
+     # 
+     ## and "slang"s 
+     # slangs
+     # define_slang
+     # refine_slang
+     # switch_to_slang
+     # slang_grammar
+     # slang_actions
+     # 
+     # graph
+     # made
+     # chunks
+     # 
+     # how
+     # 
+     # actions
+     # set_actions
+     # 
+     # make
+     # package
+     # know_how
+     # 
+     # replace-with
+     # 
+     # orig
+     # set_pragma
+     # 
+     # to
+     # same
+     # grammar
+     # 
+     # upper
+     # prune
+     # pragma
+     # ww
+     # 
+     # clone
+     # caps
+     # 
+     # target
+     # 
+     # set_how
+     # 
+     # kv
+     # keys
+     # values
+     # pairs
+     # antipairs
 
    say $ret.^methods;
 
