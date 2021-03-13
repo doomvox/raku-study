@@ -63,11 +63,8 @@ say "===";
    my $input = 'There are 9 million bicycles in beijing.'; 
    my $pattern = rx{ (\d+) \s+ (\w+) };
    if $input ~~ / <$pattern> / {
+
        say $/;
-       # ｢9 million｣
-       #   pattern => ｢9 million｣
-       #     0 => ｢9｣
-       #     1 => ｢million｣
 
        # Is this supposed to work?  It doesn't 
        say $pattern[0]; # rx{ (\d+) \s+ (\w+) }
