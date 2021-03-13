@@ -12,7 +12,7 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 **** A lot of us hang out on the perl6-users mailing list.  Subscription info:
 ***** https://raku.org/community/
 
-*** bits from last week:
+** bits from last week:
 ***** linux 
 ****** William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now" 
 ******* https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability
@@ -29,7 +29,7 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 
 
 
-** agenda
+** agenda this week
 *** regexs, a 69 cent tour:
 ***** the regex problem, munging sudoers lines via a sysadmin tool
 ****** raku translation
