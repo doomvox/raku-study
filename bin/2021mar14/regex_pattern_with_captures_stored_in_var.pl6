@@ -32,11 +32,24 @@ say '---';
    }
 }
 
-
 ## Posted question to perl6-users list:
 # https://www.nntp.perl.org/group/perl.perl6.users/2021/03/msg9786.html
 # 
 # > Does this behavior make sense to anyone?  When you've got a regex
 # > with captures in it, the captures don't work if the regex is
 # > stashed in a variable and then interpolated into a regex.
+
+say "===";
+
+{ # A workaround via Brad Gilbert
+   my $input = 'There are 9 million bicycles in beijing.'; 
+   my $pattern = rx{ (\d+) \s+ (\w+) };
+   if $input ~~ / <nameo=$pattern> / {
+       say $0.^name;  # Nil
+       say $0;        # Nil
+       say $1.^name;  # Nil
+       say $1;        # Nil
+       say $/;        # ｢9 million｣
+   }
+}
 
