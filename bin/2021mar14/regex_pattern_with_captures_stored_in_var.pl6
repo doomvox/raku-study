@@ -98,7 +98,8 @@ say "---";
         regex units  { \w+ }
     }
 
-    say NumberUnits.parse( $input );
+    my $ret = NumberUnits.parse( $input );
+    say $ret;
     # ｢There are 9 million bicycles in beijing.｣
     #  number => ｢9｣
     #  units => ｢million｣
