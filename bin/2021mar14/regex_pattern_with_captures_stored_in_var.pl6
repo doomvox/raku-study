@@ -105,6 +105,6 @@ say "---";
     #  units => ｢million｣
 
     say $ret.WHAT; # (NumberUnits)
-    say $ret{number};
+    say $ret.^methods>>.name;
 
 }
