@@ -114,11 +114,11 @@ say "---";
 
 #    .say for $ret.^methods>>.name;
 
-# Shows names of some of the sub-patterns:
+## names of some of the sub-patterns?
 # TOP
 # number
 # units
-
+# 
 # ws
 # ident
 # space
@@ -131,25 +131,25 @@ say "---";
 # digit
 # blank
 # wb
-
+# 
 # after
 # before
 # postmatch
 # prematch
 # at
 # pos
-
+# 
 # subparse
 # parsefile
 # parse
-
+# 
 ## Some things about "braids"?
 # braid
 # clone_braid_from
 # set_braid
 # set_braid_from
 # snapshot_braid
-
+# 
 ## and "slang"s 
 # slangs
 # define_slang
