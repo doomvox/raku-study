@@ -104,8 +104,11 @@ say "---";
     #  number => ｢9｣
     #  units => ｢million｣
 
-    say $ret.WHAT; # (NumberUnits)  the docs say this is a Match object
+    # The docs say parse returns a Match object, but:
+    say $ret.WHAT; # (NumberUnits)  
+    say $ret.^mro; #
 
+    # This acts someone like a Match
     say $ret<number>;  # ｢9｣
     say $ret<units>;   # ｢million｣
 
