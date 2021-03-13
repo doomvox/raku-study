@@ -135,27 +135,24 @@ say "---";
 # ast
 # after
 
-
 ## Some things about "braids"?
 # braid
 # clone_braid_from
 # set_braid_from
-# refine_slang
+
 # define_slang
+# refine_slang
+# switch_to_slang
 
 
 # graph
 
 # made
 
-# !protoregex_table
-# !cursor_push_cstack
-# !cursor_fail
-# gist
-# !clone_match_at
-# !cursor_pass_quick
-# !fresh_highexpect
-# switch_to_slang
+
+
+
+
 # CURSOR_NEXT
 # OTHERGRAMMAR
 # !cursor_start_cur
