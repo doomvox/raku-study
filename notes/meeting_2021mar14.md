@@ -1,18 +1,18 @@
-- [meeting notes Mar 14, 2021](#org444e258)
-    - [the usual meeting links:](#orge71965d)
-  - [agenda (?)](#org5ac23e9)
-    - [69 cent tours](#orgc99813b)
-    - [yet another alternative raku documentation project?](#org10c855f)
-    - [bits from last week:](#org8aa4a91)
-    - [possible topics (carried over)](#orgaabc1bb)
+- [meeting notes Mar 14, 2021](#org6924eb4)
+    - [the usual meeting links:](#org61da53e)
+  - [agenda (?)](#org5df401b)
+    - [69 cent tours](#org5888243)
+    - [yet another alternative raku documentation project?](#org1aebbeb)
+    - [bits from last week:](#orgc07a29c)
+    - [possible topics (carried over)](#orgddd7fb5)
 
 
-<a id="org444e258"></a>
+<a id="org6924eb4"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orge71965d"></a>
+<a id="org61da53e"></a>
 
 ### the usual meeting links:
 
@@ -33,12 +33,12 @@
     1.  <https://raku.org/community/>
 
 
-<a id="org5ac23e9"></a>
+<a id="org5df401b"></a>
 
 ## agenda (?)
 
 
-<a id="orgc99813b"></a>
+<a id="org5888243"></a>
 
 ### 69 cent tours
 
@@ -48,15 +48,19 @@
 
 2.  grammars
 
+3.  Brad Gilbert complains about reaching for grammars too soon
 
-<a id="org10c855f"></a>
+    <https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but>
+
+
+<a id="org1aebbeb"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org8aa4a91"></a>
+<a id="orgc07a29c"></a>
 
 ### bits from last week:
 
@@ -99,7 +103,7 @@
     3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="orgaabc1bb"></a>
+<a id="orgddd7fb5"></a>
 
 ### possible topics (carried over)
 

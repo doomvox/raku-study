@@ -15,6 +15,10 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 ***** quoting, interpolating, matching
 **** grammars
 
+
+**** Brad Gilbert complains about reaching for grammars too soon
+https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but
+
 *** yet another alternative raku documentation project?
 **** https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/
 
@@ -43,6 +47,8 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6
 
 ****** Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( ... )>
+
+
 
 *** possible topics (carried over)
 ***** a stupid mistake that isn't: naming a method with a leading ^
