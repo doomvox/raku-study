@@ -114,6 +114,7 @@ say "---";
 
 #    .say for $ret.^methods>>.name;
 
+# Shows names of some of the sub-patterns:
 # TOP
 # number
 # units
