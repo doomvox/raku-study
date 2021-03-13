@@ -176,18 +176,18 @@ say "---";
 # package
 # know_how
 # postmatch
-# ACCEPTS
+
 # snapshot_braid
-# PRECURSOR
+
 # replace-with
-# !cursor_more
+
 # orig
 # set_pragma
-# WHICH
-# !cursor_start_fail
+
+
 # prematch
-# !protoregex
-# FAILGOAL
+
+
 # raku
 # before
 # to
