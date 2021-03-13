@@ -126,7 +126,6 @@ say "---";
 # set_braid_from
 # refine_slang
 
-# lower
 # ident
 # space
 # cntrl
