@@ -193,44 +193,45 @@ say "---";
 # to
 # same
 # grammar
-# !cursor_start_all
+
 # upper
 # prune
 # pragma
 # ww
-# RECURSE
+
 # pos
 # clone
 # caps
-# INTERPOLATE
-# !protoregex_nfa
-# INDMETHOD
+
+
+
 # target
-# CURSOR_OVERLAP
+
 # set_how
-# BUILDALL
-# BUILD
+
+
+
+
+
+
+# kv
 # keys
-# FLATTENABLE_HASH
-# EXISTS-POS
 # values
 # pairs
-# AT-KEY
-# EXISTS-KEY
-# hash
-# Str
-# FLATTENABLE_LIST
 # antipairs
+
+
+# hash
+
+
 # list
-# kv
-# gist
+
+
 # from-args
 # elems
-# WHICH
+
 # Capture
-# Numeric
-# Bool
-# raku
+
 
    say $ret.^methods;
 
