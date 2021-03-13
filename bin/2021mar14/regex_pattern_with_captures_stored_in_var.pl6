@@ -187,7 +187,7 @@ say "---";
 
 
 
-# raku
+
 # before
 # to
 # same
