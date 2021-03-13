@@ -72,6 +72,7 @@ say "---";
        say $<pattern>[0]; # ｢9｣
        say $<pattern>[1]; # ｢million｣
    }
+
 }
 
 
