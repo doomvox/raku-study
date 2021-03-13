@@ -8,7 +8,6 @@ use v6;
 # CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 my $dict = "/usr/share/dict/american-english";
-
 {
     for $dict.IO.open( :r ).lines -> $word {
         if $word ~~ / $($word.flip) / {
