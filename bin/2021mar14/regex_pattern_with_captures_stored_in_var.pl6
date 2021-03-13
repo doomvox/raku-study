@@ -125,7 +125,7 @@ say "---";
 
 # set_braid_from
 # refine_slang
-# !precompute_nfas
+
 # lower
 # ident
 # space
