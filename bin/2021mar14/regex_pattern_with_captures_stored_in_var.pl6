@@ -68,13 +68,6 @@ say "---";
    }
 
    say '...';
-
-}
-
-
-{ 
-   my $input = 'There are 9 million bicycles in beijing.'; 
-   my $pattern = rx{ (\d+) \s+ (\w+) };
    if $input ~~ / <pattern=$pattern> / {
        # Moritz Lenz was probably trying to say that this would work
        say $<pattern>[0]; # ｢9｣
@@ -82,4 +75,5 @@ say "---";
 
    }
 }
+
 
