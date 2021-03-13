@@ -67,7 +67,7 @@ say "---";
        say $pattern[0]; # rx{ (\d+) \s+ (\w+) }
 
        say $input[0];
-       say $match[0];
+       # say $match[0]; # Variable '$match' is not declared.  Did you mean 'Match'?
 
 
    }
