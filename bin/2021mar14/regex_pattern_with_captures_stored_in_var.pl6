@@ -108,8 +108,8 @@ say "---";
 #    say $ret.number;
 #    say $ret.units;
 
-    say $ret<number>;
-    say $ret<units>;
+    say $ret<number>;  # ｢9｣
+    say $ret<units>;   # ｢million｣
 
 
 }
