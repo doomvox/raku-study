@@ -165,9 +165,6 @@ say "---";
 
 # actions
 
-
-
-
 # blank
 
 # set_actions
