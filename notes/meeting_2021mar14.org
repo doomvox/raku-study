@@ -12,7 +12,7 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 **** A lot of us hang out on the perl6-users mailing list.  Subscription info:
 ***** https://raku.org/community/
 
-** bits from last week:
+** quick bits from last week:
 ***** linux 
 ****** William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now" 
 ******* https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability
