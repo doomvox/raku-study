@@ -49,7 +49,7 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 ****** https://stackoverflow.com/questions/54143036/class-method-name-with-doesnt-get-invoked-properly/54147131#54147131
 ******* should this generate a warning/error?
 
-***** Steven_lembark
+***** Steven Lembark
 ****** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
 ******* slide21:  "unit sub MAIN { ..."  unit?
 ****** https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql
