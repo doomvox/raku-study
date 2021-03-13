@@ -47,7 +47,6 @@ https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-no
 ****** Aristotle's "Categories" (the first book of the Organon)
 ******** the way programmer's think, the source of it all (maybe)
 
-
 ****** regex character classes example
 https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6
 
