@@ -63,7 +63,17 @@ say "---";
    my $input = 'There are 9 million bicycles in beijing.'; 
    my $pattern = rx{ (\d+) \s+ (\w+) };
    if $input ~~ / <$pattern> / {
-       # Is this supposed to work?  It doesn't 
+       # He seemed to be saying this would be the zeroth capture, but it isn't:
+       say $pattern[0]; # rx{ (\d+) \s+ (\w+) }
+   }
+}
+
+
+{ 
+   my $input = 'There are 9 million bicycles in beijing.'; 
+   my $pattern = rx{ (\d+) \s+ (\w+) };
+   if $input ~~ / <$pattern> / {
+       # He seemed to be saying this would be the zeroth capture, but it isn't:
        say $pattern[0]; # rx{ (\d+) \s+ (\w+) }
 
 #        say $<pattern>[0]; # ｢9｣
