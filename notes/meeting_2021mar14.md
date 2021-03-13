@@ -1,18 +1,18 @@
-- [meeting notes Mar 14, 2021](#orgdf396db)
-    - [the usual meeting links:](#orgdfcb687)
-  - [agenda (?)](#org7921f03)
-    - [69 cent tours](#org17ab505)
-    - [yet another alternative raku documentation project?](#orgd9401b3)
-    - [bits from last week:](#org8870352)
-    - [possible topics (carried over)](#org1d8cbc4)
+- [meeting notes Mar 14, 2021](#org2545239)
+    - [the usual meeting links:](#org0ba6703)
+  - [agenda (?)](#org843670a)
+    - [69 cent tours](#org09e33c8)
+    - [yet another alternative raku documentation project?](#org68e2585)
+    - [bits from last week:](#org4be27ae)
+    - [possible topics (carried over)](#org866d230)
 
 
-<a id="orgdf396db"></a>
+<a id="org2545239"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orgdfcb687"></a>
+<a id="org0ba6703"></a>
 
 ### the usual meeting links:
 
@@ -33,12 +33,12 @@
     1.  <https://raku.org/community/>
 
 
-<a id="org7921f03"></a>
+<a id="org843670a"></a>
 
 ## agenda (?)
 
 
-<a id="org17ab505"></a>
+<a id="org09e33c8"></a>
 
 ### 69 cent tours
 
@@ -49,14 +49,14 @@
 2.  grammars
 
 
-<a id="orgd9401b3"></a>
+<a id="org68e2585"></a>
 
 ### yet another alternative raku documentation project?
 
-<https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
+1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org8870352"></a>
+<a id="org4be27ae"></a>
 
 ### bits from last week:
 
@@ -99,7 +99,7 @@
     3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="org1d8cbc4"></a>
+<a id="org866d230"></a>
 
 ### possible topics (carried over)
 
