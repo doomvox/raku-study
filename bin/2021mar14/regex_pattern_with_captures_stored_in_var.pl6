@@ -75,5 +75,16 @@ say "---";
    }
 }
 
+say "---";
+# using named regex (another Brad Gilbert suggestion 
 
-
+{ 
+   my $input = 'There are 9 million bicycles in beijing.'; 
+   my regex pattern { (\d+) \s+ (\w+) }
+    if $input ~~ / <pattern>  / {
+        say $/;
+    }
+    ｢9 million｣
+     pattern => ｢9 million｣
+      0 => ｢9｣
+      1 => ｢million｣
