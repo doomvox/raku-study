@@ -14,7 +14,7 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 ***** the regex problem, munging sudoers lines via a sysadmin tool
 ****** raku translation
 ******* https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/regex_append_to_sudoers_line.raku
-******* comparison the p5 and raku regexes
+******* comparison of p5 and raku regexes
 ******** https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/sudoers_append_regexes.rectpara
 
 
