@@ -105,8 +105,11 @@ say "---";
     #  units => ｢million｣
 
     say $ret.WHAT; # (NumberUnits)
-    say $ret.number;
-    say $ret.units;
+#    say $ret.number;
+#    say $ret.units;
+
+    say $ret<number>;
+    say $ret<units>;
 
 
 }
