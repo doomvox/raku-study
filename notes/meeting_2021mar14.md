@@ -1,18 +1,18 @@
-- [meeting notes Mar 14, 2021](#org906e8ae)
-    - [the usual meeting links:](#orgdda3428)
-  - [agenda](#orge6a7603)
-    - [regexs, a 69 cent tour](#orgdb3b388)
-    - [yet another alternative raku documentation project?](#orgbc35de6)
-    - [bits from last week:](#org585bd5d)
-    - [possible topics (carried over)](#orgca7345b)
+- [meeting notes Mar 14, 2021](#org7e8943b)
+    - [the usual meeting links:](#orga342d00)
+  - [agenda](#org7232b18)
+    - [regexs, a 69 cent tour:](#org61da216)
+    - [yet another alternative raku documentation project?](#orgfed9e9b)
+    - [bits from last week:](#org524a5b2)
+    - [possible topics (carried over)](#orgbfcf0a0)
 
 
-<a id="org906e8ae"></a>
+<a id="org7e8943b"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orgdda3428"></a>
+<a id="orga342d00"></a>
 
 ### the usual meeting links:
 
@@ -33,14 +33,14 @@
     1.  <https://raku.org/community/>
 
 
-<a id="orge6a7603"></a>
+<a id="org7232b18"></a>
 
 ## agenda
 
 
-<a id="orgdb3b388"></a>
+<a id="org61da216"></a>
 
-### regexs, a 69 cent tour
+### regexs, a 69 cent tour:
 
 1.  the regex problem, munging sudoers lines via a sysadmin tool
 
@@ -69,14 +69,14 @@
         <https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but>
 
 
-<a id="orgbc35de6"></a>
+<a id="orgfed9e9b"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org585bd5d"></a>
+<a id="org524a5b2"></a>
 
 ### bits from last week:
 
@@ -107,7 +107,7 @@
     4.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="orgca7345b"></a>
+<a id="orgbfcf0a0"></a>
 
 ### possible topics (carried over)
 

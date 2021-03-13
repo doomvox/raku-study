@@ -10,8 +10,7 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 ***** https://raku.org/community/
 
 ** agenda
-*** regexs, a 69 cent tour
-
+*** regexs, a 69 cent tour:
 ***** the regex problem, munging sudoers lines via a sysadmin tool
 ****** raku translation
 ******* https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/regex_append_to_sudoers_line.raku
