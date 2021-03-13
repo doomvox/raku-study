@@ -117,10 +117,3 @@ say "---";
     # say "abc" ~~ m/$ret.number/;  # False
 
 }
-
-
-
-
-
-
-
