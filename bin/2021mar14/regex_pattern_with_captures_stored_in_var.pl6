@@ -134,6 +134,9 @@ say "---";
 # punct
 # ast
 # after
+# digit
+# blank
+
 
 ## Some things about "braids"?
 # braid
@@ -161,11 +164,10 @@ say "---";
 # DYNQUANT_LIMITS
 # how
 
-# digit
 
 # actions
 
-# blank
+
 
 # set_actions
 
