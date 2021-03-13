@@ -69,8 +69,8 @@ say "---";
        # say $match[0]; # Variable '$match' is not declared.  Did you mean 'Match'?
    }
    say '...';
+   # Moritz Lenz was probably trying to say that this works:
    if $input ~~ / <pattern=$pattern> / {
-       # Moritz Lenz was probably trying to say that this works:
        say $<pattern>[0]; # ｢9｣
        say $<pattern>[1]; # ｢million｣
    }
