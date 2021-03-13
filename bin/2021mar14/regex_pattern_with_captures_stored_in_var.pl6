@@ -99,5 +99,9 @@ say "---";
     }
 
     say NumberUnits.parse( $input );
+    # ｢There are 9 million bicycles in beijing.｣
+    #  number => ｢9｣
+    #  units => ｢million｣
+
 
 }
