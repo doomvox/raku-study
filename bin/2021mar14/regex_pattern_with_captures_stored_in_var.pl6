@@ -198,11 +198,6 @@ say "---";
 # pairs
 # antipairs
 
-
-# hash
-# list
-
-
 # from-args
 # elems
 
