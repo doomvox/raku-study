@@ -72,12 +72,10 @@ say "---";
 { 
    my $input = 'There are 9 million bicycles in beijing.'; 
    my $pattern = rx{ (\d+) \s+ (\w+) };
-   if $input ~~ / <$pattern> / {
-       # He seemed to be saying this would be the zeroth capture, but it isn't:
-       say $pattern[0]; # rx{ (\d+) \s+ (\w+) }
-
-#        say $<pattern>[0]; # ｢9｣
-#        say $<pattern>[1]; # ｢million｣
+   if $input ~~ / <pattern=$pattern> / {
+       # Moritz Lenz was probably trying to say that this would work
+       say $<pattern>[0]; # ｢9｣
+       say $<pattern>[1]; # ｢million｣
 
    }
 }
