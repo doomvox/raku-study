@@ -1,30 +1,30 @@
-- [meeting notes Mar 14, 2021](#org458c6cb)
-  - [the plan:](#org1bff872)
-    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#org130b24f)
-    - [the usual meeting links:](#org66a13e2)
-  - [agenda](#org27a52df)
-    - [regexs, a 69 cent tour:](#orga3803d6)
-    - [yet another alternative raku documentation project?](#org9623bcb)
-    - [bits from last week:](#org2b37f26)
-    - [possible topics (carried over)](#org2e9450a)
+- [meeting notes Mar 14, 2021](#org3edb18f)
+  - [the plan:](#org983dd80)
+    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#orgf1b9900)
+    - [the usual meeting links:](#org588ab11)
+  - [agenda](#org14d8d62)
+    - [regexs, a 69 cent tour:](#orgb1aacd9)
+    - [yet another alternative raku documentation project?](#org230f748)
+    - [bits from last week:](#orgcc429ad)
+    - [possible topics (carried over)](#org29425ae)
 
 
-<a id="org458c6cb"></a>
+<a id="org3edb18f"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org1bff872"></a>
+<a id="org983dd80"></a>
 
 ## the plan:
 
 
-<a id="org130b24f"></a>
+<a id="orgf1b9900"></a>
 
 ### hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first
 
 
-<a id="org66a13e2"></a>
+<a id="org588ab11"></a>
 
 ### the usual meeting links:
 
@@ -45,12 +45,12 @@
     1.  <https://raku.org/community/>
 
 
-<a id="org27a52df"></a>
+<a id="org14d8d62"></a>
 
 ## agenda
 
 
-<a id="orga3803d6"></a>
+<a id="orgb1aacd9"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -79,14 +79,14 @@
         <https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but>
 
 
-<a id="org9623bcb"></a>
+<a id="org230f748"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org2b37f26"></a>
+<a id="orgcc429ad"></a>
 
 ### bits from last week:
 
@@ -106,18 +106,14 @@
         
         2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
     
-    2.  Aristotle's "Categories" (the first book of the Organon)
-    
-        1.  the way programmer's think, the source of it all (maybe)
-    
-    3.  regex character classes example
+    2.  regex character classes example
     
         <https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6>
     
-    4.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
+    3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="org2e9450a"></a>
+<a id="org29425ae"></a>
 
 ### possible topics (carried over)
 
