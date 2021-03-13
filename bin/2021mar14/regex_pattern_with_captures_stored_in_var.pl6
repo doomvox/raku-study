@@ -91,6 +91,9 @@ say "---";
 say "---";
 
 {
+    my $input = 'There are 9 million bicycles in beijing.'; 
     grammar NumberUnits {
         TOP { (\d+) \s+ (\w+) }
     }
+
+    say NumberUnits.parse( $input );
