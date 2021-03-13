@@ -12,6 +12,23 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 **** A lot of us hang out on the perl6-users mailing list.  Subscription info:
 ***** https://raku.org/community/
 
+*** bits from last week:
+***** linux 
+****** William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now" 
+******* https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability
+******* The vulnerability is in the "Lenovo Solution Center", but installing linux first blows that crap away
+***** books
+****** shadow novel where the bad guys speak esperanto
+*******  "Crime Under Cover" (1941) by Maxwell Grant
+*******  http://obsidianrook.com/doomfiles/LA_OMBRO.html
+
+****** regex character classes example
+https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6
+
+****** Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( ... )>
+
+
+
 ** agenda
 *** regexs, a 69 cent tour:
 ***** the regex problem, munging sudoers lines via a sysadmin tool
@@ -34,20 +51,6 @@ https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-no
 **** https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/
 
 
-*** bits from last week:
-***** linux 
-****** William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now" 
-******* https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability
-******* The vulnerability is in the "Lenovo Solution Center", but installing linux first blows that crap away
-***** books
-****** shadow novel where the bad guys speak esperanto
-*******  "Crime Under Cover" (1941) by Maxwell Grant
-*******  http://obsidianrook.com/doomfiles/LA_OMBRO.html
-
-****** regex character classes example
-https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6
-
-****** Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( ... )>
 
 
 

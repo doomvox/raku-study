@@ -1,30 +1,30 @@
-- [meeting notes Mar 14, 2021](#org3edb18f)
-  - [the plan:](#org983dd80)
-    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#orgf1b9900)
-    - [the usual meeting links:](#org588ab11)
-  - [agenda](#org14d8d62)
-    - [regexs, a 69 cent tour:](#orgb1aacd9)
-    - [yet another alternative raku documentation project?](#org230f748)
-    - [bits from last week:](#orgcc429ad)
-    - [possible topics (carried over)](#org29425ae)
+- [meeting notes Mar 14, 2021](#orgad6dac1)
+  - [the plan:](#org53f6768)
+    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#org7cfa851)
+    - [the usual meeting links:](#org6de7f51)
+    - [bits from last week:](#org17e8823)
+  - [agenda](#orgb9326ea)
+    - [regexs, a 69 cent tour:](#org6320090)
+    - [yet another alternative raku documentation project?](#orga734932)
+    - [possible topics (carried over)](#org68a8522)
 
 
-<a id="org3edb18f"></a>
+<a id="orgad6dac1"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org983dd80"></a>
+<a id="org53f6768"></a>
 
 ## the plan:
 
 
-<a id="orgf1b9900"></a>
+<a id="org7cfa851"></a>
 
 ### hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first
 
 
-<a id="org588ab11"></a>
+<a id="org6de7f51"></a>
 
 ### the usual meeting links:
 
@@ -45,12 +45,39 @@
     1.  <https://raku.org/community/>
 
 
-<a id="org14d8d62"></a>
+<a id="org17e8823"></a>
+
+### bits from last week:
+
+1.  linux
+
+    1.  William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now"
+    
+        1.  <https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability>
+        
+        2.  The vulnerability is in the "Lenovo Solution Center", but installing linux first blows that crap away
+
+2.  books
+
+    1.  shadow novel where the bad guys speak esperanto
+    
+        1.  "Crime Under Cover" (1941) by Maxwell Grant
+        
+        2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
+    
+    2.  regex character classes example
+    
+        <https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6>
+    
+    3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
+
+
+<a id="orgb9326ea"></a>
 
 ## agenda
 
 
-<a id="orgb1aacd9"></a>
+<a id="org6320090"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -79,41 +106,14 @@
         <https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but>
 
 
-<a id="org230f748"></a>
+<a id="orga734932"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="orgcc429ad"></a>
-
-### bits from last week:
-
-1.  linux
-
-    1.  William Michels : August 26, 2019 "Lenovo Security Flaw Could Affect Millions: What to Do Now"
-    
-        1.  <https://www.laptopmag.com/articles/lenovo-solution-center-vulnerability>
-        
-        2.  The vulnerability is in the "Lenovo Solution Center", but installing linux first blows that crap away
-
-2.  books
-
-    1.  shadow novel where the bad guys speak esperanto
-    
-        1.  "Crime Under Cover" (1941) by Maxwell Grant
-        
-        2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
-    
-    2.  regex character classes example
-    
-        <https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6>
-    
-    3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
-
-
-<a id="org29425ae"></a>
+<a id="org68a8522"></a>
 
 ### possible topics (carried over)
 
