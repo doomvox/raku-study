@@ -1,18 +1,18 @@
-- [meeting notes Mar 14, 2021](#org7e8943b)
-    - [the usual meeting links:](#orga342d00)
-  - [agenda](#org7232b18)
-    - [regexs, a 69 cent tour:](#org61da216)
-    - [yet another alternative raku documentation project?](#orgfed9e9b)
-    - [bits from last week:](#org524a5b2)
-    - [possible topics (carried over)](#orgbfcf0a0)
+- [meeting notes Mar 14, 2021](#org0c396e7)
+    - [the usual meeting links:](#orgba827f9)
+  - [agenda](#org6076088)
+    - [regexs, a 69 cent tour:](#org0caf191)
+    - [yet another alternative raku documentation project?](#org1b1463e)
+    - [bits from last week:](#org0bddf36)
+    - [possible topics (carried over)](#org7aa3399)
 
 
-<a id="org7e8943b"></a>
+<a id="org0c396e7"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orga342d00"></a>
+<a id="orgba827f9"></a>
 
 ### the usual meeting links:
 
@@ -33,12 +33,12 @@
     1.  <https://raku.org/community/>
 
 
-<a id="org7232b18"></a>
+<a id="org6076088"></a>
 
 ## agenda
 
 
-<a id="org61da216"></a>
+<a id="org0caf191"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -48,9 +48,7 @@
     
         1.  <https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/regex_append_to_sudoers_line.raku>
         
-        2.  Q: what is up with $0.  When does it work?
-        
-        3.  comparing the p5 and raku regexes
+        2.  comparing the p5 and raku regexes
         
             1.  <https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/sudoers_append_regexes.rectpara>
 
@@ -69,14 +67,14 @@
         <https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but>
 
 
-<a id="orgfed9e9b"></a>
+<a id="org1b1463e"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org524a5b2"></a>
+<a id="org0bddf36"></a>
 
 ### bits from last week:
 
@@ -107,7 +105,7 @@
     4.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="orgbfcf0a0"></a>
+<a id="org7aa3399"></a>
 
 ### possible topics (carried over)
 
