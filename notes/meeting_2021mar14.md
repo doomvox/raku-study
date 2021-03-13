@@ -1,30 +1,31 @@
-- [meeting notes Mar 14, 2021](#org2110cfa)
-  - [the plan:](#orga7ed30b)
-    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#org3825645)
-    - [the usual meeting links:](#org6111bd6)
-  - [bits from last week:](#org5101bc0)
-  - [agenda this week](#org037c915)
-    - [regexs, a 69 cent tour:](#org79645b4)
-    - [yet another alternative raku documentation project?](#orgf15b3e9)
-    - [possible topics (carried over)](#org03bcef0)
+- [meeting notes Mar 14, 2021](#orgb43f571)
+  - [the plan:](#orgad7bf7e)
+    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#org5f49dba)
+    - [the usual meeting links:](#org00e171a)
+  - [bits from last week:](#org27f2fd5)
+  - [agenda this week](#org139d34b)
+    - [regexs, a 69 cent tour:](#orgac5ac8f)
+  - [other topics:](#org481b28a)
+    - [yet another alternative raku documentation project?](#orgb197bfa)
+    - [possible topics (carried over)](#org43d8558)
 
 
-<a id="org2110cfa"></a>
+<a id="orgb43f571"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orga7ed30b"></a>
+<a id="orgad7bf7e"></a>
 
 ## the plan:
 
 
-<a id="org3825645"></a>
+<a id="org5f49dba"></a>
 
 ### hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first
 
 
-<a id="org6111bd6"></a>
+<a id="org00e171a"></a>
 
 ### the usual meeting links:
 
@@ -45,7 +46,7 @@
     1.  <https://raku.org/community/>
 
 
-<a id="org5101bc0"></a>
+<a id="org27f2fd5"></a>
 
 ## bits from last week:
 
@@ -72,12 +73,12 @@
     3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="org037c915"></a>
+<a id="org139d34b"></a>
 
 ## agenda this week
 
 
-<a id="org79645b4"></a>
+<a id="orgac5ac8f"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -106,14 +107,19 @@
         <https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but>
 
 
-<a id="orgf15b3e9"></a>
+<a id="org481b28a"></a>
+
+## other topics:
+
+
+<a id="orgb197bfa"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org03bcef0"></a>
+<a id="org43d8558"></a>
 
 ### possible topics (carried over)
 
