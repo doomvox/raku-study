@@ -148,6 +148,7 @@ say "---";
 # clone_braid_from
 # set_braid
 # set_braid_from
+# snapshot_braid
 
 ## and "slang"s 
 # slangs
@@ -171,7 +172,6 @@ say "---";
 # know_how
 
 
-# snapshot_braid
 
 # replace-with
 
