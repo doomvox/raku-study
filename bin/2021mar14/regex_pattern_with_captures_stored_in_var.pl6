@@ -104,5 +104,6 @@ say "---";
     #  number => ｢9｣
     #  units => ｢million｣
 
+    say $ret.WHAT;
 
 }
