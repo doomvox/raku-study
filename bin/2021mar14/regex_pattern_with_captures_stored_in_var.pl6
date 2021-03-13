@@ -135,6 +135,8 @@ say "---";
 # ast
 # digit
 # blank
+# after
+# prematch
 
 
 ## Some things about "braids"?
@@ -182,7 +184,7 @@ say "---";
 # orig
 # set_pragma
 
-# prematch
+
 
 # raku
 # before
