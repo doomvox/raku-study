@@ -81,7 +81,7 @@ say "---";
 { # Wild stab
    my $input = 'There are 9 million bicycles in beijing.'; 
    my $pattern = rx{ (\d+) \s+ (\w+) };
-   if $input ~~ / <:$pattern> / {
+   if $input ~~ / <$:pattern> / {
        say $/;
        # ｢9 million｣
        #   pattern => ｢9 million｣
