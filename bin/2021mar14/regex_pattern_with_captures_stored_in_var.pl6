@@ -73,7 +73,7 @@ say "===";
        #     1 => ｢million｣
 
        say $pattern[0]; # rx{ (\d+) \s+ (\w+) }
-       say $pattern[1]; # rx{ (\d+) \s+ (\w+) }
+       say $<pattern>[1]; # rx{ (\d+) \s+ (\w+) }
 
    }
 }
