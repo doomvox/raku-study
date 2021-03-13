@@ -90,6 +90,7 @@ say "---";
 
 say "---";
 
-grammar NumberUnits {
-    TOP { (\d+) \s+ (\w+) }
-}
+{
+    grammar NumberUnits {
+        TOP { (\d+) \s+ (\w+) }
+    }
