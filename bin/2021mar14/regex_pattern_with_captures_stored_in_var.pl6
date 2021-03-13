@@ -104,12 +104,10 @@ say "---";
     #  number => ｢9｣
     #  units => ｢million｣
 
-    say $ret.WHAT; # (NumberUnits)
+    say $ret.WHAT; # (NumberUnits)  the docs say this is a Match object
 #    say $ret.number;
 #    say $ret.units;
 
     say $ret<number>;  # ｢9｣
     say $ret<units>;   # ｢million｣
-
-
 }
