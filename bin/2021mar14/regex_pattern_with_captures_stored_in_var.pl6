@@ -106,7 +106,7 @@ say "---";
 
     # The docs say parse returns a Match object, but:
     say $ret.WHAT; # (NumberUnits)  
-    say $ret.^mro; #
+    say $ret.^mro; # ((NumberUnits) (Grammar) (Match) (Capture) (Cool) (Any) (Mu))
 
     # This acts someone like a Match
     say $ret<number>;  # ｢9｣
