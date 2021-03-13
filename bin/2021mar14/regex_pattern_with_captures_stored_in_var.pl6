@@ -176,10 +176,6 @@ say "---";
 # orig
 # set_pragma
 
-
-
-
-
 # to
 # same
 # grammar
