@@ -123,10 +123,6 @@ say "---";
 # parsefile
 # parse
 
-# !cursor_start
-# Numeric
-# CURSOR
-# !cursor_pos
 # set_braid_from
 # refine_slang
 # !precompute_nfas
