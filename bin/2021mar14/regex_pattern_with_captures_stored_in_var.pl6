@@ -63,11 +63,10 @@ say "---";
    my $input = 'There are 9 million bicycles in beijing.'; 
    my $pattern = rx{ (\d+) \s+ (\w+) };
    if $input ~~ / <$pattern> / {
-       # He seemed to be saying this would be the zeroth capture, but it isn't:
+       # Would something like this be the zeroth capture?
        say $pattern[0]; # rx{ (\d+) \s+ (\w+) }
        say $input[0]; # There are 9 million bicycles in beijing.
        # say $match[0]; # Variable '$match' is not declared.  Did you mean 'Match'?
-
 
    }
    say '...';
