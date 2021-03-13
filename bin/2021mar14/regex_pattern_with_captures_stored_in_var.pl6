@@ -34,6 +34,7 @@ say '---';
 
 
 ## Posted question to perl6-users list:
+
 # > Does this behavior make sense to anyone?  When you've got a regex
 # > with captures in it, the captures don't work if the regex is
 # > stashed in a variable and then interpolated into a regex.
