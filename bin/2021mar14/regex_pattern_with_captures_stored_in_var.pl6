@@ -41,7 +41,7 @@ say '---';
 
 say "===";
 
-{ # A workaround via Brad Gilbert
+{ # A workaround via Brad Gilbert: make it a named capture
    my $input = 'There are 9 million bicycles in beijing.'; 
    my $pattern = rx{ (\d+) \s+ (\w+) };
    if $input ~~ / <pattern=$pattern> / {
