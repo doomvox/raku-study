@@ -15,7 +15,7 @@
 *** back to last weeks regex problem, munging sudoers lines via a sysadmin tool
 **** problem posed by lambert lum, who revealed his solution
 ***** $line =~ s{(^Defaults\s+secure_path\s*(?:.(?!/usr/local/bin))*$)}{$1:/usr/local/bin};
-**** yary approach, with some doomvox additons:
+**** yary approach, with some doomvox additions:
 ***** https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/pcre_regex_to_append_path_non_redundantly.t
 ***** "\K" regex code is Trick #7: https://blogs.oracle.com/linux/the-top-10-tricks-of-perl-one-liners-v2
 ***** Bruce Gray confirms "PCRE does understand \K"
