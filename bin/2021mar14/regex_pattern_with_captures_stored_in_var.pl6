@@ -67,7 +67,6 @@ say "---";
        say $pattern[0]; # rx{ (\d+) \s+ (\w+) }
        say $input[0]; # There are 9 million bicycles in beijing.
        # say $match[0]; # Variable '$match' is not declared.  Did you mean 'Match'?
-
    }
    say '...';
    if $input ~~ / <pattern=$pattern> / {
