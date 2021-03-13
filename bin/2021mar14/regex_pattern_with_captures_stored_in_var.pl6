@@ -35,7 +35,6 @@ say '---';
 
 ## Posted question to perl6-users list:
 # https://www.nntp.perl.org/group/perl.perl6.users/2021/03/msg9786.html
-# https://www.nntp.perl.org/group/perl.perl6.users/2021/03/msg9791.html
 
 # > Does this behavior make sense to anyone?  When you've got a regex
 # > with captures in it, the captures don't work if the regex is
