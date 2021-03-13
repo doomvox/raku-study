@@ -9,7 +9,7 @@ use v6;
 
 my $dict = "/usr/share/dict/american-english";
 {
-    for $dict.IO.open( :r ).lines -> $word {
+    for $dict.IO.open( :r ).lines  -> $word {
         if $word ~~ / $($word.flip) / {
             say $word if $word.chars > 1;
         }
