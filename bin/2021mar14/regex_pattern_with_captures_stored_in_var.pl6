@@ -54,7 +54,6 @@ say "===";
        #   nameo => ｢9 million｣
        #     0 => ｢9｣
        #     1 => ｢million｣
-
    }
 }
 
