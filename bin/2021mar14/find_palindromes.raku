@@ -18,7 +18,7 @@ if $DEBUG {
 {
     for $DICT.IO.open( :r ).lines -> $word {
         if $word ~~ / $($word.flip) / {
-            say $word;
+            say $word if $word.elems>1;
         }
     }
 }
