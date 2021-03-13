@@ -1,18 +1,30 @@
-- [meeting notes Mar 14, 2021](#org3fdfcec)
-    - [the usual meeting links:](#orgff8a5f4)
-  - [agenda](#orgdb16d8b)
-    - [regexs, a 69 cent tour:](#org6dbaad0)
-    - [yet another alternative raku documentation project?](#org73001c7)
-    - [bits from last week:](#orgfcbb427)
-    - [possible topics (carried over)](#orgc74c8c7)
+- [meeting notes Mar 14, 2021](#org416bbe0)
+  - [the plan:](#orga7935e5)
+    - [hellos; put links in chat; regexs/grammars this week (anything else?); run through old bits](#org41002bd)
+    - [the usual meeting links:](#org9f6f47d)
+  - [agenda](#org73273e5)
+    - [regexs, a 69 cent tour:](#orgf9af66d)
+    - [yet another alternative raku documentation project?](#org86d4324)
+    - [bits from last week:](#org534cc7b)
+    - [possible topics (carried over)](#orge920eaa)
 
 
-<a id="org3fdfcec"></a>
+<a id="org416bbe0"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orgff8a5f4"></a>
+<a id="orga7935e5"></a>
+
+## the plan:
+
+
+<a id="org41002bd"></a>
+
+### hellos; put links in chat; regexs/grammars this week (anything else?); run through old bits
+
+
+<a id="org9f6f47d"></a>
 
 ### the usual meeting links:
 
@@ -33,12 +45,12 @@
     1.  <https://raku.org/community/>
 
 
-<a id="orgdb16d8b"></a>
+<a id="org73273e5"></a>
 
 ## agenda
 
 
-<a id="org6dbaad0"></a>
+<a id="orgf9af66d"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -67,14 +79,14 @@
         <https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but>
 
 
-<a id="org73001c7"></a>
+<a id="org86d4324"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="orgfcbb427"></a>
+<a id="org534cc7b"></a>
 
 ### bits from last week:
 
@@ -105,7 +117,7 @@
     4.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="orgc74c8c7"></a>
+<a id="orge920eaa"></a>
 
 ### possible topics (carried over)
 
