@@ -138,63 +138,40 @@ say "---";
 ## Some things about "braids"?
 # braid
 # clone_braid_from
+# set_braid
 # set_braid_from
 
+## and "slang"s 
+# slangs
 # define_slang
 # refine_slang
 # switch_to_slang
-
+# slang_grammar
 
 # graph
 
 # made
 
-
-
-
-
-# CURSOR_NEXT
-# OTHERGRAMMAR
-# !cursor_start_cur
 # chunks
-# Num
-# !dump_str
-# from
-# !highexpect
-# !alt_nfa
-# !set_highexpect
-# CURSOR_MORE
+
 # wb
 # chars
 # at
 # slang_actions
 # DYNQUANT_LIMITS
 # how
-# Bool
+
 # digit
-# print
-# !DELEGATE_ACCEPTS
-# !clear_highwater
+
 # actions
-# !cursor_start_subcapture
-# dump
-# !dba
-# INTERPOLATE_ASSERTION
-# STR
-# !reduce_with_match
-# !cursor_init
+
+
+
+
 # blank
-# slangs
-# !cursor_next
-# CALL_SUBRULE
-# Str
-# INDRULE
-# !reduce
+
 # set_actions
-# !DYNQUANT_LIMITS
-# !alt
-# slang_grammar
-# set_braid
+
 # make
 # package
 # know_how
