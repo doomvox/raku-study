@@ -7,9 +7,21 @@ use v6;
 ## Make errors into warnings
 # CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
+my $DEBUG = True;  
+my $TMPDIR = IO::Spec::Unix.tmpdir;  # "/tmp"
 
+my $DICT  = "/usr/share/dict/american-english";
+if $DEBUG { 
+    $DICT = "/home/doom/End/Cave/Perl6/bin/dat/small.dict";
+}
 
-my Str $pattern = 'ailemac';
-say 'camelia' ~~ / $($pattern.flip) /;     # OUTPUT: «｢camelia｣␤»
+{
+    for $DICT.IO.open( :r ).lines -> $word {
+        if $word ~~ / $($word.flip) / {
+            say $word;
+        }
+    }
+}
+
 
 
