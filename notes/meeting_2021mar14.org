@@ -15,8 +15,7 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 ***** quoting, interpolating, matching
 **** grammars
 
-
-**** Brad Gilbert complains about reaching for grammars too soon
+***** Brad Gilbert complains about reaching for grammars too soon
 https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but
 
 *** yet another alternative raku documentation project?
