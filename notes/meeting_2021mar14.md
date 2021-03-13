@@ -1,18 +1,18 @@
-- [meeting notes Mar 14, 2021](#org0c396e7)
-    - [the usual meeting links:](#orgba827f9)
-  - [agenda](#org6076088)
-    - [regexs, a 69 cent tour:](#org0caf191)
-    - [yet another alternative raku documentation project?](#org1b1463e)
-    - [bits from last week:](#org0bddf36)
-    - [possible topics (carried over)](#org7aa3399)
+- [meeting notes Mar 14, 2021](#org2b4439d)
+    - [the usual meeting links:](#org8f52c5f)
+  - [agenda](#orge1459a0)
+    - [regexs, a 69 cent tour:](#org394d626)
+    - [yet another alternative raku documentation project?](#org3311731)
+    - [bits from last week:](#org4673d31)
+    - [possible topics (carried over)](#org801b18c)
 
 
-<a id="org0c396e7"></a>
+<a id="org2b4439d"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orgba827f9"></a>
+<a id="org8f52c5f"></a>
 
 ### the usual meeting links:
 
@@ -33,12 +33,12 @@
     1.  <https://raku.org/community/>
 
 
-<a id="org6076088"></a>
+<a id="orge1459a0"></a>
 
 ## agenda
 
 
-<a id="org0caf191"></a>
+<a id="org394d626"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -48,7 +48,7 @@
     
         1.  <https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/regex_append_to_sudoers_line.raku>
         
-        2.  comparing the p5 and raku regexes
+        2.  comparison the p5 and raku regexes
         
             1.  <https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/sudoers_append_regexes.rectpara>
 
@@ -67,14 +67,14 @@
         <https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but>
 
 
-<a id="org1b1463e"></a>
+<a id="org3311731"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org0bddf36"></a>
+<a id="org4673d31"></a>
 
 ### bits from last week:
 
@@ -105,7 +105,7 @@
     4.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="org7aa3399"></a>
+<a id="org801b18c"></a>
 
 ### possible topics (carried over)
 
