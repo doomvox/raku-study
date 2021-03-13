@@ -112,11 +112,16 @@ say "---";
     say $ret.^methods;
 # (regex TOP { .*? <number> \s+ <units> .*? } regex number { \d+ } regex units  { \w+ } Submethod+{is-hidden-from-backtrace}.new subparse parsefile parse Submethod+{is-hidden-from-backtrace}.new digit space !dba ws OTHERGRAMMAR !fresh_highexpect !cursor_next !cursor_push_cstack replace-with INTERPOLATE xdigit Bool set_pragma set_package !cursor_start_all chunks cntrl !clear_highwater orig snapshot_braid WHICH !cursor_pass INTERPOLATE_ASSERTION alnum gist postmatch !cursor_more prune slang_grammar !reduce !cursor_capture !cursor_init ast after to prematch STR clone_braid_from wb !cursor_start CURSOR_OVERLAP at before make raku upper !shared_type !protoregex_table !BACKREF !LITERAL punct set_how how actions DYNQUANT_LIMITS pragma !set_highexpect made Num graph !cursor_start_fail !cursor_start_cur !DYNQUANT_LIMITS !protoregex caps CURSOR_MORE slang_actions switch_to_slang Str lower ww define_slang CURSOR_NEXT check_LANG_oopsies slangs blank INDRULE !highexpect clone check_PACKAGE_oopsies !protoregex_nfa print !precompute_nfas set_braid package know_how alpha !shared refine_slang pos CALL_SUBRULE !reduce_with_match ...)
 
-    say "666" ~~ $ret.number;
-    say "abc" ~~ $ret.number;
+    say "666" ~~ m/$ret.number/;
+    say "abc" ~~ m/$ret.number/;
 #    say $ret.units;
 
 
 }
+
+
+
+
+
 
 
