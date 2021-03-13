@@ -69,7 +69,7 @@ say "---";
 
    say '...';
    if $input ~~ / <pattern=$pattern> / {
-       # Moritz Lenz was probably trying to say that this would work
+       # Moritz Lenz was probably trying to say that this works:
        say $<pattern>[0]; # ｢9｣
        say $<pattern>[1]; # ｢million｣
 
