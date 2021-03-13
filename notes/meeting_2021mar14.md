@@ -1,30 +1,30 @@
-- [meeting notes Mar 14, 2021](#org416bbe0)
-  - [the plan:](#orga7935e5)
-    - [hellos; put links in chat; regexs/grammars this week (anything else?); run through old bits](#org41002bd)
-    - [the usual meeting links:](#org9f6f47d)
-  - [agenda](#org73273e5)
-    - [regexs, a 69 cent tour:](#orgf9af66d)
-    - [yet another alternative raku documentation project?](#org86d4324)
-    - [bits from last week:](#org534cc7b)
-    - [possible topics (carried over)](#orge920eaa)
+- [meeting notes Mar 14, 2021](#org152d2e7)
+  - [the plan:](#org7e3ddf3)
+    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#orgd3fe6ba)
+    - [the usual meeting links:](#orgbeef4fc)
+  - [agenda](#orgfafdeb5)
+    - [regexs, a 69 cent tour:](#orgecf7290)
+    - [yet another alternative raku documentation project?](#org5555992)
+    - [bits from last week:](#orgaee6465)
+    - [possible topics (carried over)](#org9db4dea)
 
 
-<a id="org416bbe0"></a>
+<a id="org152d2e7"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orga7935e5"></a>
+<a id="org7e3ddf3"></a>
 
 ## the plan:
 
 
-<a id="org41002bd"></a>
+<a id="orgd3fe6ba"></a>
 
-### hellos; put links in chat; regexs/grammars this week (anything else?); run through old bits
+### hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first
 
 
-<a id="org9f6f47d"></a>
+<a id="orgbeef4fc"></a>
 
 ### the usual meeting links:
 
@@ -45,12 +45,12 @@
     1.  <https://raku.org/community/>
 
 
-<a id="org73273e5"></a>
+<a id="orgfafdeb5"></a>
 
 ## agenda
 
 
-<a id="orgf9af66d"></a>
+<a id="orgecf7290"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -79,14 +79,14 @@
         <https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but>
 
 
-<a id="org86d4324"></a>
+<a id="org5555992"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org534cc7b"></a>
+<a id="orgaee6465"></a>
 
 ### bits from last week:
 
@@ -117,7 +117,7 @@
     4.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="orge920eaa"></a>
+<a id="org9db4dea"></a>
 
 ### possible topics (carried over)
 

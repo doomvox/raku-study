@@ -1,6 +1,6 @@
 * meeting notes Mar 14, 2021
 ** the plan:
-*** hellos; put links in chat; regexs/grammars this week (anything else?); run through old bits
+*** hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first
 
 *** the usual meeting links:
 **** the code examples usually go here:
