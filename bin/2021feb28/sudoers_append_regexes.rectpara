@@ -35,3 +35,4 @@ present already:
     |   s{ $pattern }{\1$append}x; |    s/$pattern/$/$append/; |                                |
     |                              |                           |                                |
     |   $1 works too               |  $/ works, but not $0 (?) |                                |
+

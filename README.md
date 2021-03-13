@@ -2,9 +2,8 @@
 Exploratory programming using the Raku language
 
 As the organizer of the San Francisco Perl Group, I started a Raku
-Study Group a few years back.  At this point, the group needs some
-way of sharing the exploratory code we've been generating, and
-that's the main purpose of this repository.
+Study Group a few years back.  When we needed a place to share some of the exploratory code 
+we've been generating, I created this github project. 
 
 The SF Perl Raku study group began life as an in-person meeting
 (usually over at the Oakland Museum's Cafe), but recently we've
