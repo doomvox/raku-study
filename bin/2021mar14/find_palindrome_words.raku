@@ -7,7 +7,7 @@ use v6;
 ## Make errors into warnings
 # CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-my $dict = "/home/doom/End/Cave/Perl6/bin/dat/small.dict";
+my $dict = "/usr/share/dict/american-english";
 
 {
     for $dict.IO.open( :r ).lines -> $word {
