@@ -1,18 +1,18 @@
-- [meeting notes Mar 14, 2021](#org4f0e84d)
-    - [the usual meeting links:](#org2a28e6b)
-  - [agenda (?)](#org1f1c471)
-    - [69 cent tours](#orgd68a771)
-    - [yet another alternative raku documentation project?](#org520ab10)
-    - [bits from last week:](#org3cb16b8)
-    - [possible topics (carried over)](#orgf71734f)
+- [meeting notes Mar 14, 2021](#org906e8ae)
+    - [the usual meeting links:](#orgdda3428)
+  - [agenda](#orge6a7603)
+    - [regexs, a 69 cent tour](#orgdb3b388)
+    - [yet another alternative raku documentation project?](#orgbc35de6)
+    - [bits from last week:](#org585bd5d)
+    - [possible topics (carried over)](#orgca7345b)
 
 
-<a id="org4f0e84d"></a>
+<a id="org906e8ae"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org2a28e6b"></a>
+<a id="orgdda3428"></a>
 
 ### the usual meeting links:
 
@@ -33,40 +33,50 @@
     1.  <https://raku.org/community/>
 
 
-<a id="org1f1c471"></a>
+<a id="orge6a7603"></a>
 
-## agenda (?)
+## agenda
 
 
-<a id="orgd68a771"></a>
+<a id="orgdb3b388"></a>
 
-### 69 cent tours
+### regexs, a 69 cent tour
 
-1.  regexs
+1.  the regex problem, munging sudoers lines via a sysadmin tool
 
-    1.  quoting, interpolating, matching
+    1.  raku translation
     
-        1.  question about regex interpolation and captures
+        1.  <https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/regex_append_to_sudoers_line.raku>
         
-            1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/03/msg9786.html>
-            
-            2.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/03/msg9791.html>
+        2.  Q: what is up with $0.  When does it work?
+        
+        3.  comparing the p5 and raku regexes
+        
+            1.  <https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/sudoers_append_regexes.rectpara>
 
-2.  grammars
+2.  quoting, interpolating, matching
+
+    1.  question about regex interpolation and captures
+    
+        1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/03/msg9786.html>
+        
+        2.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/03/msg9791.html>
+
+1.  grammars
 
     1.  Brad Gilbert complains about reaching for grammars too soon
     
         <https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but>
 
 
-<a id="org520ab10"></a>
+<a id="orgbc35de6"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org3cb16b8"></a>
+<a id="org585bd5d"></a>
 
 ### bits from last week:
 
@@ -89,27 +99,15 @@
     2.  Aristotle's "Categories" (the first book of the Organon)
     
         1.  the way programmer's think, the source of it all (maybe)
-
-3.  the regex problem, munging sudoers lines via a sysadmin tool
-
-    1.  raku translation
     
-        1.  <https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/regex_append_to_sudoers_line.raku>
-        
-        2.  Q: what is up with $0.  When does it work?
-        
-        3.  comparing the p5 and raku regexes
-        
-            1.  <https://github.com/doomvox/raku-study/blob/main/bin/2021feb28/sudoers_append_regexes.rectpara>
-    
-    2.  regex character classes example
+    3.  regex character classes example
     
         <https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6>
     
-    3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
+    4.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="orgf71734f"></a>
+<a id="orgca7345b"></a>
 
 ### possible topics (carried over)
 
