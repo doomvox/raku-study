@@ -7,7 +7,7 @@ use v6;
 ## Make errors into warnings
 # CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-my $DEBUG = True;  
+my $DEBUG = False;  
 my $TMPDIR = IO::Spec::Unix.tmpdir;  # "/tmp"
 
 my $DICT  = "/usr/share/dict/american-english";
