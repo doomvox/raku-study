@@ -133,7 +133,6 @@ say "---";
 # xdigit
 # punct
 # ast
-# after
 # digit
 # blank
 
