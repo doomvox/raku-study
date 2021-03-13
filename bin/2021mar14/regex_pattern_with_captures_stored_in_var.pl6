@@ -66,7 +66,6 @@ say "---";
        # He seemed to be saying this would be the zeroth capture, but it isn't:
        say $pattern[0]; # rx{ (\d+) \s+ (\w+) }
    }
-
    say '...';
    if $input ~~ / <pattern=$pattern> / {
        # Moritz Lenz was probably trying to say that this works:
