@@ -49,7 +49,6 @@ https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-no
 
 
 ** other topics:
-
 *** yet another alternative raku documentation project?
 **** https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/
 
