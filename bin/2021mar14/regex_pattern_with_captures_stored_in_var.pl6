@@ -129,10 +129,9 @@ say "---";
 # ident
 # space
 # cntrl
-# set_package
+
 # alpha
-# !braid
-# !BACKREF
+
 # alnum
 # ws
 # !cursor_capture
