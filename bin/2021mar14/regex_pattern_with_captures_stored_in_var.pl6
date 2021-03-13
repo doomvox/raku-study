@@ -198,10 +198,7 @@ say "---";
 # pairs
 # antipairs
 
-# from-args
-# elems
 
-# Capture
 
 
    say $ret.^methods;
