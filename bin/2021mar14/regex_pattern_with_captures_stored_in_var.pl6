@@ -44,14 +44,14 @@ say "===";
 { # A workaround via Brad Gilbert
    my $input = 'There are 9 million bicycles in beijing.'; 
    my $pattern = rx{ (\d+) \s+ (\w+) };
-   if $input ~~ / <nameo=$pattern> / {
+   if $input ~~ / <pattern=$pattern> / {
        say $0.^name;  # Nil
        say $0;        # Nil
        say $1.^name;  # Nil
        say $1;        # Nil
        say $/;
        # ｢9 million｣
-       #   nameo => ｢9 million｣
+       #   pattern => ｢9 million｣
        #     0 => ｢9｣
        #     1 => ｢million｣
    }
