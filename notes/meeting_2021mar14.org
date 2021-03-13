@@ -2,7 +2,7 @@
 *** the usual meeting links:
 **** the code examples usually go here:
 https://github.com/doomvox/raku-study/tree/main/bin/2021mar14
-**** the meeting notes (this *.org file) gets automatically exported here:
+**** the meeting notes (this *.org file) gets automatically exported:
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 **** The SF Perl mailing list is good for general discussion.  Subscription info is here:
 ***** http://sf.pm.org/
