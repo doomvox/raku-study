@@ -134,10 +134,7 @@ say "---";
 
 # alnum
 # ws
-# !cursor_capture
-# !shared
-# !LITERAL
-# Int
+
 # clone_braid_from
 # check_PACKAGE_oopsies
 # braid
