@@ -112,7 +112,7 @@ say "---";
     say $ret<number>;  # ｢9｣
     say $ret<units>;   # ｢million｣
 
-    .say for $ret.^methods>>.name;
+#    .say for $ret.^methods>>.name;
 
 # TOP
 # number
