@@ -8,7 +8,6 @@ use v6;
 # CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 my $DEBUG = False;  
-my $TMPDIR = IO::Spec::Unix.tmpdir;  # "/tmp"
 
 my $DICT  = "/usr/share/dict/american-english";
 if $DEBUG { 
