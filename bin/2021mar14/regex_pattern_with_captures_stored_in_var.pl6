@@ -123,34 +123,31 @@ say "---";
 # parsefile
 # parse
 
-# set_braid_from
-# refine_slang
 
+# ws
 # ident
 # space
 # cntrl
-
 # alpha
-
 # alnum
-# ws
-
-# clone_braid_from
-# check_PACKAGE_oopsies
-# braid
-# graph
-# define_slang
-# check_LANG_oopsies
-# !highwater
-# made
-# !cursor_pass
 # xdigit
-# !BACKREF-LATEST-CAPTURE
-# !shared_type
-# MATCH
-# after
 # punct
 # ast
+# after
+
+
+## Some things about "braids"?
+# braid
+# clone_braid_from
+# set_braid_from
+# refine_slang
+# define_slang
+
+
+# graph
+
+# made
+
 # !protoregex_table
 # !cursor_push_cstack
 # !cursor_fail
