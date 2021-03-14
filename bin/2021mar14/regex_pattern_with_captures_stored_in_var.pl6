@@ -72,6 +72,10 @@ say "---";
    if $input ~~ / <pattern=$pattern> / {
        say $<pattern>[0]; # ｢9｣
        say $<pattern>[1]; # ｢million｣
+
+       say $/<pattern>[0]; # ｢9｣
+       say $/<pattern>[1]; # ｢million｣
+
    }
 }
 
