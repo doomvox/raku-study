@@ -16,7 +16,7 @@ my $dict = "/usr/share/dict/american-english";
     }
 
     say "count: ", @words.elems;
-    say @words.sort(*.chars);
+    say @words.sort(*.chars);   # longest: deified
 }
 
 
