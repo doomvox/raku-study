@@ -127,8 +127,11 @@ say "---";
     }
 
     my $text = q:to/END_TEXT/;
-
-    my $input = 'There are 9 million bicycles in beijing.'; 
+    There are 9 million bicycles in beijing.
+    There are 76 trombones in the big parade.
+    There are 40 top songs in the hit parade.
+    There are 660 feet in a furlong.
+    
 
     END_TEXT
 
