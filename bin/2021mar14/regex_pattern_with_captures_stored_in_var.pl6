@@ -116,7 +116,8 @@ say "---";
     say "keys: ", $ret.keys;
 
 
-#    .say for $ret.^methods>>.name;
+    ## METHODICAL APPROACH
+    #    .say for $ret.^methods>>.name;
 
      ## names of some of the sub-patterns?
      # TOP
