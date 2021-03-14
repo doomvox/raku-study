@@ -159,8 +159,8 @@ say "---";
     say $ret;
     say "---";
     say 'line: ', $ret<line>;
-#    say 'number: ', $ret<number>;  
-#    say 'units: ', $ret<units>;   
+    say 'number: ', $ret<line><number>;  
+    say 'units: ', $ret<line><units>;   
 }
 
 
