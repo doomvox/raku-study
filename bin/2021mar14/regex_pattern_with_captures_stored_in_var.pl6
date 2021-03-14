@@ -138,6 +138,8 @@ say "---";
 #         say $++, ' ', $l;
 #     }
 
+    $text .= chomp;
+
     my
     grammar NumberUnits {
 #        regex TOP {  <line>+ % \n } 
