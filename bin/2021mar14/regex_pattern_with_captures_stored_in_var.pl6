@@ -186,10 +186,6 @@ say "---";
 
 }
 
-
-
-
-
     ## METHODICAL APPROACH
     ## groping around in the list of available methods:
     #    .say for $ret.^methods>>.name;
