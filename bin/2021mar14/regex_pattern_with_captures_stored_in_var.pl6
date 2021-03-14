@@ -114,7 +114,6 @@ say "---";
 
     say "values: ", $ret.values; # values: (｢million｣ ｢9｣)
     say "keys: ",   $ret.keys;   # keys: (units number)
-
 }
 
 
