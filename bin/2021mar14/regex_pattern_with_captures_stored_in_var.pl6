@@ -133,7 +133,7 @@ say "---";
     Sky-diver terminal velocity is around 120 mph.
     END_TEXT
 
-    say $text;
+    # say $text;
     for $text.lines -> $l {
         say $++, ' ', $l;
     }
