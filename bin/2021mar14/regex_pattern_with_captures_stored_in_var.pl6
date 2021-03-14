@@ -157,7 +157,7 @@ say "---";
     }
 
     ## \N  means anything but a newline, an alternate to '.'
-    ## \s  to \h
+    ## might change \s  to \h
 
     ## This works too, %% allows a trailing newline
     my
