@@ -1,31 +1,31 @@
-- [meeting notes Mar 14, 2021](#org431b314)
-  - [the plan:](#org6a1e921)
-    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#orgc6ceb6e)
-    - [the usual meeting links:](#org47c8e80)
-  - [quick bits from last week:](#org8f0ffc4)
-  - [agenda this week](#org2e72127)
-    - [regexs, a 69 cent tour:](#org85f71c3)
-  - [other topics:](#org643f9db)
-    - [yet another alternative raku documentation project?](#org97be294)
-    - [possible topics (carried over)](#org2486242)
+- [meeting notes Mar 14, 2021](#org66c505c)
+  - [the plan:](#orgff26fa9)
+    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#org96aa586)
+    - [the usual meeting links:](#orgc32baf7)
+  - [quick bits from last week:](#orgdcf8b86)
+  - [agenda this week](#orgb1b42e0)
+    - [regexs, a 69 cent tour:](#org2e3bbca)
+  - [other topics:](#org90099ae)
+    - [yet another alternative raku documentation project?](#org68a3447)
+    - [possible topics (carried over)](#org2783f5c)
 
 
-<a id="org431b314"></a>
+<a id="org66c505c"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org6a1e921"></a>
+<a id="orgff26fa9"></a>
 
 ## the plan:
 
 
-<a id="orgc6ceb6e"></a>
+<a id="org96aa586"></a>
 
 ### hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first
 
 
-<a id="org47c8e80"></a>
+<a id="orgc32baf7"></a>
 
 ### the usual meeting links:
 
@@ -46,7 +46,7 @@
     1.  <https://raku.org/community/>
 
 
-<a id="org8f0ffc4"></a>
+<a id="orgdcf8b86"></a>
 
 ## quick bits from last week:
 
@@ -73,12 +73,12 @@
     3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="org2e72127"></a>
+<a id="orgb1b42e0"></a>
 
 ## agenda this week
 
 
-<a id="org85f71c3"></a>
+<a id="org2e3bbca"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -105,21 +105,25 @@
     1.  Brad Gilbert complains about reaching for grammars too soon
     
         <https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but>
+    
+    2.  zoffix talk july 28, 2018 intro p6 regexes and grammars
+    
+        1.  <https://www.youtube.com/watch?v=TUmFAPvssrk>
 
 
-<a id="org643f9db"></a>
+<a id="org90099ae"></a>
 
 ## other topics:
 
 
-<a id="org97be294"></a>
+<a id="org68a3447"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org2486242"></a>
+<a id="org2783f5c"></a>
 
 ### possible topics (carried over)
 

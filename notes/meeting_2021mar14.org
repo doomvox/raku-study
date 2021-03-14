@@ -45,6 +45,8 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 ***** Brad Gilbert complains about reaching for grammars too soon
 https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but
 
+***** zoffix talk july 28, 2018 intro p6 regexes and grammars
+****** https://www.youtube.com/watch?v=TUmFAPvssrk
 
 ** other topics:
 *** yet another alternative raku documentation project?
