@@ -135,7 +135,7 @@ say "---";
 
     say $text;
     for $text.lines -> $l {
-        say $++, $l;
+        say $++, ' ', $l;
     }
 
     my
