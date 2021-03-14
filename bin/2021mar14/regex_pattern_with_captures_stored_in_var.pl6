@@ -147,7 +147,7 @@ say "---";
         regex number { \d+ }
         regex units  { \w+ }
     }
-
+    say "and now we parse...";
     my $ret = NumberUnits.parse( $text );
     say $ret;
     say 'line: ', $ret<line>;
