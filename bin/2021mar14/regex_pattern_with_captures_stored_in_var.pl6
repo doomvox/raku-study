@@ -115,7 +115,6 @@ say "---";
     say "values: ", $ret.values; # values: (｢million｣ ｢9｣)
     say "keys: ",   $ret.keys;   # keys: (units number)
 
-
     ## METHODICAL APPROACH
     #    .say for $ret.^methods>>.name;
 
