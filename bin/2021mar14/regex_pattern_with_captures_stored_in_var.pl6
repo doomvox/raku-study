@@ -149,7 +149,7 @@ say "---";
         regex units  { \w+ }
     }
     say "and now we parse...";
-    chomp( $text );
+    $text = chomp( $text );
     my $ret = NumberUnits.parse( $text );
     say $ret;
     say "---";
