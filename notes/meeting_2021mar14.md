@@ -1,32 +1,33 @@
-- [meeting notes Mar 14, 2021](#orgb0f9e9a)
-  - [the plan:](#org0c37476)
-    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#org59052b8)
-    - [the usual meeting links:](#org2652e26)
-  - [quick bits from last week:](#orgf1b41b0)
-  - [agenda this week](#org43ee1f1)
-    - [reduce (Bruce Gray)](#orgb800093)
-    - [regexs, a 69 cent tour:](#org9437c96)
-  - [other topics:](#org1b2d8e2)
-    - [yet another alternative raku documentation project?](#org15b2c40)
-    - [possible topics (carried over)](#org7635f42)
+- [meeting notes Mar 14, 2021](#org49584de)
+  - [the plan:](#orgd55b0aa)
+    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#orge885873)
+    - [the usual meeting links:](#org29749e5)
+  - [quick bits from last week:](#orgba4a6da)
+  - [agenda this week](#orgcfb822a)
+    - [<https://datavizblog.com/2018/12/21/dataviz-humor-oreilly-programming-book-parody-covers/>](#org8bd89a4)
+    - [reduce (Bruce Gray)](#org8c85f60)
+    - [regexs, a 69 cent tour:](#orgff073bd)
+  - [other topics:](#orgd3e577c)
+    - [yet another alternative raku documentation project?](#org2ddd638)
+    - [possible topics (carried over)](#orgab492be)
 
 
-<a id="orgb0f9e9a"></a>
+<a id="org49584de"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org0c37476"></a>
+<a id="orgd55b0aa"></a>
 
 ## the plan:
 
 
-<a id="org59052b8"></a>
+<a id="orge885873"></a>
 
 ### hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first
 
 
-<a id="org2652e26"></a>
+<a id="org29749e5"></a>
 
 ### the usual meeting links:
 
@@ -47,7 +48,7 @@
     1.  <https://raku.org/community/>
 
 
-<a id="orgf1b41b0"></a>
+<a id="orgba4a6da"></a>
 
 ## quick bits from last week:
 
@@ -74,17 +75,22 @@
     3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="org43ee1f1"></a>
+<a id="orgcfb822a"></a>
 
 ## agenda this week
 
 
-<a id="orgb800093"></a>
+<a id="org8bd89a4"></a>
+
+### <https://datavizblog.com/2018/12/21/dataviz-humor-oreilly-programming-book-parody-covers/>
+
+
+<a id="org8c85f60"></a>
 
 ### reduce (Bruce Gray)
 
 
-<a id="org9437c96"></a>
+<a id="orgff073bd"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -117,19 +123,19 @@
         1.  <https://www.youtube.com/watch?v=TUmFAPvssrk>
 
 
-<a id="org1b2d8e2"></a>
+<a id="orgd3e577c"></a>
 
 ## other topics:
 
 
-<a id="org15b2c40"></a>
+<a id="org2ddd638"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org7635f42"></a>
+<a id="orgab492be"></a>
 
 ### possible topics (carried over)
 
