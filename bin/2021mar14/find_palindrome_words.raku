@@ -7,7 +7,6 @@ use v6;
 my $dict = "/usr/share/dict/american-english";
 {
 #    for $dict.IO.open( :r ).lines  -> $word {
-
     my @words = gather 
     for $dict.IO.lines -> $word {
         if $word ~~ / $($word.flip) / {
