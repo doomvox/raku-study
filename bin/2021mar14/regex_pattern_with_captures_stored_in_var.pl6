@@ -163,7 +163,8 @@ say "---";
     my
     grammar NumberUnits {
         regex TOP {  <line>+ %% \n } 
-        regex line { ^^ .*? <number> \s+ <units> .*? $$ }
+#        regex line { ^^ .*? <number> \s+ <units> .*? $$ }
+        regex line { ^^ .*? <number> <ws> <units> .*? $$ }
         regex number { \d+ }
         regex units  { \w+ }
     }
