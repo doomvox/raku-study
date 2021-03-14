@@ -14,6 +14,9 @@ my $dict = "/usr/share/dict/american-english";
             take $word if $word.chars > 1;  # no zzz?!
         }
     }
+
+    say "count: ", @words.elems;
+    say @words.sort(*.chars);
 }
 
 
