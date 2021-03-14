@@ -116,7 +116,34 @@ say "---";
     say "values: ", $ret.values; # values: (｢million｣ ｢9｣)
 }
 
+say "---";
 
+{
+    my $input = 'There are 9 million bicycles in beijing.'; 
+    grammar NumberUnits {
+        regex TOP { <line>+ }
+        regex line { ^ .*? <number> \s+ <units> .*? $ }
+        regex number { \d+ }
+        regex units  { \w+ }
+    }
+
+    my $ret = NumberUnits.parse( $input );
+    say $ret;
+    # ｢There are 9 million bicycles in beijing.｣
+    #  number => ｢9｣
+    #  units => ｢million｣
+
+    # The docs say parse returns a Match object, but:
+    say $ret.WHAT; # (NumberUnits)  
+    say $ret.^mro; # ((NumberUnits) (Grammar) (Match) (Capture) (Cool) (Any) (Mu))
+
+    # This acts somewhat like a Match
+    say $ret<number>;  # ｢9｣
+    say $ret<units>;   # ｢million｣
+
+    say "keys: ",   $ret.keys;   # keys: (units number)
+    say "values: ", $ret.values; # values: (｢million｣ ｢9｣)
+}
 
 
 
