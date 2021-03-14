@@ -159,8 +159,8 @@ say "---";
     say $ret;
     say "---";
     say 'line: ', $ret<line>;
-    say 'number: ', $ret<line><number>;  
-    say 'units: ', $ret<line><units>;   
+    say 'number: ', $ret<line>.list>>.<number>.join(' | ');
+    say 'units: ', $ret<line>.list>>.<units>.join(' | ');
 }
 
 
