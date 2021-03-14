@@ -115,6 +115,12 @@ say "---";
     say "values: ", $ret.values;
     say "keys: ", $ret.keys;
 
+    say "666" ~~ m/(\d+)/;  # 
+    # ｢666｣
+    #  0 => ｢666｣
+
+
+
 #    .say for $ret.^methods>>.name;
 
      ## names of some of the sub-patterns?
@@ -209,9 +215,6 @@ say "---";
     # say "666" ~~ m/$ret.number/;  # False  
     # say "abc" ~~ m/$ret.number/;  # False
 
-    say "666" ~~ m/(\d+)/;  # 
-    # ｢666｣
-    #  0 => ｢666｣
 
 
 }
