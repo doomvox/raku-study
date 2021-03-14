@@ -140,6 +140,7 @@ say "---";
 
 #    $text .= chomp;
 
+    ## This is workable
     my
     grammar NumberUnitsAlt {
         regex TOP {  <line>+ } 
@@ -148,6 +149,7 @@ say "---";
         regex units  { \w+ }
     }
 
+    ## This works too, %% has to do with trailing items
     my
     grammar NumberUnits {
 #        regex TOP {  <line>+ % \n } 
