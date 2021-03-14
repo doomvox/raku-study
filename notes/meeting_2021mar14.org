@@ -23,7 +23,7 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
 *******  "Crime Under Cover" (1941) by Maxwell Grant
 *******  http://obsidianrook.com/doomfiles/LA_OMBRO.html
 
-****** regex character classes example
+****** regex character classes example (hm?)
 https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6
 
 ****** Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( ... )>

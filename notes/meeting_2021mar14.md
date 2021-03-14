@@ -1,31 +1,31 @@
-- [meeting notes Mar 14, 2021](#orgf6b4c27)
-  - [the plan:](#orga21a403)
-    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#orga58078a)
-    - [the usual meeting links:](#org07b3269)
-  - [quick bits from last week:](#org75805ba)
-  - [agenda this week](#orgbaf4281)
-    - [regexs, a 69 cent tour:](#org58cb65c)
-  - [other topics:](#org188b9e7)
-    - [yet another alternative raku documentation project?](#orgee2a47f)
-    - [possible topics (carried over)](#org01487e5)
+- [meeting notes Mar 14, 2021](#org81b931e)
+  - [the plan:](#org5e8b119)
+    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#org864e872)
+    - [the usual meeting links:](#org4375362)
+  - [quick bits from last week:](#orgc61b573)
+  - [agenda this week](#org7121023)
+    - [regexs, a 69 cent tour:](#org6b426ac)
+  - [other topics:](#org2700328)
+    - [yet another alternative raku documentation project?](#org18bc65e)
+    - [possible topics (carried over)](#orgd23c752)
 
 
-<a id="orgf6b4c27"></a>
+<a id="org81b931e"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orga21a403"></a>
+<a id="org5e8b119"></a>
 
 ## the plan:
 
 
-<a id="orga58078a"></a>
+<a id="org864e872"></a>
 
 ### hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first
 
 
-<a id="org07b3269"></a>
+<a id="org4375362"></a>
 
 ### the usual meeting links:
 
@@ -46,7 +46,7 @@
     1.  <https://raku.org/community/>
 
 
-<a id="org75805ba"></a>
+<a id="orgc61b573"></a>
 
 ## quick bits from last week:
 
@@ -66,19 +66,19 @@
         
         2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
     
-    2.  regex character classes example
+    2.  regex character classes example (hm?)
     
         <https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_chars_from_utf8.pl6>
     
     3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="orgbaf4281"></a>
+<a id="org7121023"></a>
 
 ## agenda this week
 
 
-<a id="org58cb65c"></a>
+<a id="org6b426ac"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -111,19 +111,19 @@
         1.  <https://www.youtube.com/watch?v=TUmFAPvssrk>
 
 
-<a id="org188b9e7"></a>
+<a id="org2700328"></a>
 
 ## other topics:
 
 
-<a id="orgee2a47f"></a>
+<a id="org18bc65e"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org01487e5"></a>
+<a id="orgd23c752"></a>
 
 ### possible topics (carried over)
 
