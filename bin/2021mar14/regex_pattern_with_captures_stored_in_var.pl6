@@ -133,6 +133,7 @@ say "---";
     Sky-diver terminal velocity is around 120 mph.
     END_TEXT
 
+    say $text;
 
     my
     grammar NumberUnits {
@@ -141,9 +142,6 @@ say "---";
         regex number { \d+ }
         regex units  { \w+ }
     }
-
-
-    say $text;
 
     my $ret = NumberUnits.parse( $text );
     say $ret;
