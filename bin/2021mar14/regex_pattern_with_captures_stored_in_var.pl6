@@ -138,7 +138,7 @@ say "---";
 #         say $++, ' ', $l;
 #     }
 
-    $text .= chomp;
+#    $text .= chomp;
 
     my
     grammar NumberUnits {
