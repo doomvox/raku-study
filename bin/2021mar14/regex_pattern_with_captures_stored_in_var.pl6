@@ -119,6 +119,7 @@ say "---";
     # ｢666｣
     #  0 => ｢666｣
 
+
 #    .say for $ret.^methods>>.name;
 
      ## names of some of the sub-patterns?
