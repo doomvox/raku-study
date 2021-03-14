@@ -167,8 +167,10 @@ say "---";
         regex ws { \h }
 #        regex line { ^^ .*? <number> <ws> <units> .*? $$ }
         rule line {^^.*?<number> <units>.*?$$}
-        regex number { \d+ }
-        regex units  { \w+ }
+#        regex number { \d+ }
+        token number { \d+ }
+#        regex units  { \w+ }
+        token units  { \w+ }
     }
     say "and now we parse...";
 
