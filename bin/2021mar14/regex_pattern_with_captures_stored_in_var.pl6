@@ -149,7 +149,7 @@ say "---";
         regex units  { \w+ }
     }
 
-    ## This works too, %% has to do with trailing items
+    ## This works too, %% allows a trailing newline
     my
     grammar NumberUnits {
 #        regex TOP {  <line>+ % \n } 
