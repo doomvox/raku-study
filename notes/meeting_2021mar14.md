@@ -1,32 +1,32 @@
-- [meeting notes Mar 14, 2021](#orge7a56a8)
-  - [the plan:](#org36c77d1)
-    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#org6d1f98d)
-    - [the usual meeting links:](#orga381c48)
-  - [quick bits from last week:](#org784698a)
-  - [agenda this week](#orgb25816c)
-    - [reduce (bruce gray)](#orgc06572d)
-    - [regexs, a 69 cent tour:](#org9ca8692)
-  - [other topics:](#org6590a8b)
-    - [yet another alternative raku documentation project?](#orgd145b7d)
-    - [possible topics (carried over)](#orge1dd363)
+- [meeting notes Mar 14, 2021](#orgb0f9e9a)
+  - [the plan:](#org0c37476)
+    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#org59052b8)
+    - [the usual meeting links:](#org2652e26)
+  - [quick bits from last week:](#orgf1b41b0)
+  - [agenda this week](#org43ee1f1)
+    - [reduce (Bruce Gray)](#orgb800093)
+    - [regexs, a 69 cent tour:](#org9437c96)
+  - [other topics:](#org1b2d8e2)
+    - [yet another alternative raku documentation project?](#org15b2c40)
+    - [possible topics (carried over)](#org7635f42)
 
 
-<a id="orge7a56a8"></a>
+<a id="orgb0f9e9a"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org36c77d1"></a>
+<a id="org0c37476"></a>
 
 ## the plan:
 
 
-<a id="org6d1f98d"></a>
+<a id="org59052b8"></a>
 
 ### hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first
 
 
-<a id="orga381c48"></a>
+<a id="org2652e26"></a>
 
 ### the usual meeting links:
 
@@ -47,7 +47,7 @@
     1.  <https://raku.org/community/>
 
 
-<a id="org784698a"></a>
+<a id="orgf1b41b0"></a>
 
 ## quick bits from last week:
 
@@ -74,17 +74,17 @@
     3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="orgb25816c"></a>
+<a id="org43ee1f1"></a>
 
 ## agenda this week
 
 
-<a id="orgc06572d"></a>
+<a id="orgb800093"></a>
 
-### reduce (bruce gray)
+### reduce (Bruce Gray)
 
 
-<a id="org9ca8692"></a>
+<a id="org9437c96"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -117,19 +117,19 @@
         1.  <https://www.youtube.com/watch?v=TUmFAPvssrk>
 
 
-<a id="org6590a8b"></a>
+<a id="org1b2d8e2"></a>
 
 ## other topics:
 
 
-<a id="orgd145b7d"></a>
+<a id="org15b2c40"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="orge1dd363"></a>
+<a id="org7635f42"></a>
 
 ### possible topics (carried over)
 
