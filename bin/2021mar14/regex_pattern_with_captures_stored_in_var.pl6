@@ -166,7 +166,7 @@ say "---";
 #        regex line { ^^ .*? <number> \s+ <units> .*? $$ }
         regex ws { \h }
 #        regex line { ^^ .*? <number> <ws> <units> .*? $$ }
-        rule line { ^^ .*? <number> <units> .*? $$ }
+        rule line { ^^.*?<number> <units>.*?$$ }
         regex number { \d+ }
         regex units  { \w+ }
     }
