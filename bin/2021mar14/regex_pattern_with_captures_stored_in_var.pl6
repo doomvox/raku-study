@@ -146,10 +146,9 @@ say "---";
 
     my $ret = NumberUnits.parse( $text );
     say $ret;
-
+    say $ret<line>;
     say $ret<number>;  
     say $ret<units>;   
-
 }
 
 
