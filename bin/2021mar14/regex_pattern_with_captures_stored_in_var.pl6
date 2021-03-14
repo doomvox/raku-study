@@ -141,6 +141,15 @@ say "---";
 #    $text .= chomp;
 
     my
+    grammar NumberUnitsAlt {
+        regex TOP {  <line>+ %% \n } 
+        regex line { ^^ .*? <number> \s+ <units> .*? $$ }
+        regex number { \d+ }
+        regex units  { \w+ }
+    }
+
+
+    my
     grammar NumberUnits {
 #        regex TOP {  <line>+ % \n } 
 #        token TOP { <line>* }
