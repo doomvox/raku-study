@@ -73,9 +73,9 @@ say "---";
        say $<pattern>[0]; # ｢9｣
        say $<pattern>[1]; # ｢million｣
 
+       # or the slightly more explicit
        say $/<pattern>[0]; # ｢9｣
        say $/<pattern>[1]; # ｢million｣
-
    }
 }
 
