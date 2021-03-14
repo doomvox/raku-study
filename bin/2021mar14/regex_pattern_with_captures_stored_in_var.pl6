@@ -137,7 +137,7 @@ say "---";
 
     my
     grammar NumberUnits {
-        regex TOP {  <line>* % \n } 
+        regex TOP {  <line>+ % \n } 
 #        token TOP { <line>* }
         regex line { ^^ .*? <number> \s+ <units> .*? $$ }
         regex number { \d+ }
