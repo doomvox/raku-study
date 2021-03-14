@@ -108,7 +108,7 @@ say "---";
     say $ret.WHAT; # (NumberUnits)  
     say $ret.^mro; # ((NumberUnits) (Grammar) (Match) (Capture) (Cool) (Any) (Mu))
 
-    # This acts someone like a Match
+    # This acts some what like a Match
     say $ret<number>;  # ｢9｣
     say $ret<units>;   # ｢million｣
 
