@@ -161,6 +161,12 @@ say "---";
     say 'line: ', $ret<line>;
     say 'number: ', $ret<line>.list>>.<number>.join(' | ');
     say 'units: ', $ret<line>.list>>.<units>.join(' | ');
+
+    for $ret<line> -> $item {
+        say $item<number>, ' ',  $item<units>;
+    }
+
+
 }
 
 
