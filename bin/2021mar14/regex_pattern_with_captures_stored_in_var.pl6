@@ -115,7 +115,17 @@ say "---";
     say "values: ", $ret.values; # values: (｢million｣ ｢9｣)
     say "keys: ",   $ret.keys;   # keys: (units number)
 
+
+}
+
+
+
+
+
+
+
     ## METHODICAL APPROACH
+    ## groping around in the list of available methods:
     #    .say for $ret.^methods>>.name;
 
      ## names of some of the sub-patterns?
@@ -214,7 +224,4 @@ say "---";
     # say "666" ~~ m/(\d+)/;  
     ## ｢666｣
     ##  0 => ｢666｣
-
-
-}
 
