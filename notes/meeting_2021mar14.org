@@ -29,6 +29,8 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 ****** Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( ... )>
 
 ** agenda this week
+*** reduce (bruce gray)
+
 *** regexs, a 69 cent tour:
 ***** the regex problem, munging sudoers lines via a sysadmin tool
 ****** raku translation
