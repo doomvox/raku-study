@@ -140,6 +140,13 @@ say "---";
 
 #    $text .= chomp;
 
+## flailing
+#        regex TOP {  <line>+ % \n } 
+#        token TOP { <line>* }
+#        regex TOP {  <line>**5 % \n  } 
+#        regex TOP {  <line>+ .*? } 
+
+
     ## This is workable
     my
     grammar NumberUnitsAlt {
@@ -152,10 +159,6 @@ say "---";
     ## This works too, %% allows a trailing newline
     my
     grammar NumberUnits {
-#        regex TOP {  <line>+ % \n } 
-#        token TOP { <line>* }
-#        regex TOP {  <line>**5 % \n  } 
-#        regex TOP {  <line>+ .*? } 
         regex TOP {  <line>+ %% \n } 
         regex line { ^^ .*? <number> \s+ <units> .*? $$ }
         regex number { \d+ }
