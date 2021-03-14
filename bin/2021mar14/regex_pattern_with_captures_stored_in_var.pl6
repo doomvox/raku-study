@@ -124,13 +124,6 @@ say "---";
 say "===";
 say "---";
 {
-    my
-    grammar NumberUnits {
-        regex TOP { <line>* }
-        regex line { ^^ .*? <number> \s+ <units> .*? $$ }
-        regex number { \d+ }
-        regex units  { \w+ }
-    }
 
     my $text = q:to/END_TEXT/;
     There are 9 million bicycles in beijing.
@@ -139,6 +132,16 @@ say "---";
     There are 660 feet in a furlong.
     Sky-diver terminal velocity is around 120 mph.
     END_TEXT
+
+
+    my
+    grammar NumberUnits {
+        regex TOP { <line>* }
+        regex line { ^^ .*? <number> \s+ <units> .*? $$ }
+        regex number { \d+ }
+        regex units  { \w+ }
+    }
+
 
     say $text;
 
