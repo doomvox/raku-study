@@ -131,7 +131,7 @@ say "---";
     There are 76 trombones in the big parade.
     There are 40 top songs in the hit parade.
     There are 660 feet in a furlong.
-    
+    Sky-diver terminal velocity is around 120 mph.
 
     END_TEXT
 
