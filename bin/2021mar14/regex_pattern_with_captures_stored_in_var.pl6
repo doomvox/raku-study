@@ -92,7 +92,7 @@ say "---";
 
 {
     my $input = 'There are 9 million bicycles in beijing.'; 
-    grammar NumberUnits {
+    my grammar NumberUnits {
         regex TOP { .*? <number> \s+ <units> .*? }
         regex number { \d+ }
         regex units  { \w+ }
@@ -119,7 +119,7 @@ say "---";
 say "---";
 
 {
-    grammar NumberUnits {
+    my grammar NumberUnits {
         regex TOP { <line>+ }
         regex line { ^^ .*? <number> \s+ <units> .*? $$ }
         regex number { \d+ }
