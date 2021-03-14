@@ -144,7 +144,7 @@ say "---";
 #        token TOP { <line>* }
 #        regex TOP {  <line>**5 % \n  } 
         regex TOP {  <line>+ } 
-        regex line { ^^ .*? <number> \s+ <units> .*? $$ }
+        regex line { ^^ .*? <number> \s+ <units> .*? $$ \n }
         regex number { \d+ }
         regex units  { \w+ }
     }
