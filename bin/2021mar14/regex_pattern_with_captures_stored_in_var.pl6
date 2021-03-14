@@ -134,6 +134,9 @@ say "---";
     END_TEXT
 
     say $text;
+    for $text.lines -> $l {
+        say $++, $l;
+    }
 
     my
     grammar NumberUnits {
