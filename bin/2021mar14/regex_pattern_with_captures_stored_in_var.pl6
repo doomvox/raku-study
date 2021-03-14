@@ -169,9 +169,6 @@ say "---";
     }
     say "and now we parse...";
 
-
-
-
 #     $text = chomp( $text );
 #     say $text.chars;
 
