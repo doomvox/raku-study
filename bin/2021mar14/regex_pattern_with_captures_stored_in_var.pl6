@@ -153,7 +153,7 @@ say "---";
     my $ret = NumberUnits.parse( $text );
     say $ret;
     say "---";
-    say 'line: ', $ret<line>.chomp;
+    say 'line: ', $ret<line>;
     say 'number: ', $ret<number>;  
     say 'units: ', $ret<units>;   
 }
