@@ -112,6 +112,8 @@ say "---";
     say $ret<number>;  # ｢9｣
     say $ret<units>;   # ｢million｣
 
+    say "values: ", $ret.values;
+
 #    .say for $ret.^methods>>.name;
 
      ## names of some of the sub-patterns?
