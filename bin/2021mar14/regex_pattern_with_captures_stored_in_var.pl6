@@ -156,6 +156,9 @@ say "---";
         regex units  { \w+ }
     }
 
+    ## \N  means anything but a newline, an alternate to '.'
+    ## \s  to \h
+
     ## This works too, %% allows a trailing newline
     my
     grammar NumberUnits {
