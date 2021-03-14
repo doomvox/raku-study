@@ -113,6 +113,7 @@ say "---";
     say $ret<units>;   # ｢million｣
 
     say "values: ", $ret.values;
+    say "keys: ", $ret.keys;
 
 #    .say for $ret.^methods>>.name;
 
