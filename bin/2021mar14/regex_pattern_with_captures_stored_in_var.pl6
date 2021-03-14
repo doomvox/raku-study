@@ -206,7 +206,7 @@ say "---";
     # say "666" ~~ m/$ret.number/;  # False  
     # say "abc" ~~ m/$ret.number/;  # False
 
-    say "666" ~~ m/(\d+)/;  # False  
+    say "666" ~~ m/(\d+)/;  # 
 
 
 }
