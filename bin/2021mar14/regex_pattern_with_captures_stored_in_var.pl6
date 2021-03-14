@@ -134,7 +134,7 @@ say "---";
     Sky-diver terminal velocity is around 120 mph.
     END_TEXT
 
-    my $ret = NumberUnits.parse( $input );
+    my $ret = NumberUnits.parse( $text );
     say $ret;
     # ｢There are 9 million bicycles in beijing.｣
     #  number => ｢9｣
