@@ -207,6 +207,8 @@ say "---";
     # say "abc" ~~ m/$ret.number/;  # False
 
     say "666" ~~ m/(\d+)/;  # 
+    # ｢666｣
+    #  0 => ｢666｣
 
 
 }
