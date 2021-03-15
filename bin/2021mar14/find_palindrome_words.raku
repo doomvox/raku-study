@@ -21,6 +21,7 @@ my $dict = "/usr/share/dict/american-english";
     # find the longest word:
     say @words.sort(*.chars).tail;   #  deified
 
+    say "---";
     # list all in order of length
     .say for @words.sort(- *.chars);   
 
