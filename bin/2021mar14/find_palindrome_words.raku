@@ -4,9 +4,12 @@
 
 use v6;
 
+## I had:
+##    for $dict.IO.open( :r ).lines  -> $word {
+## but .open can be left implicit, and read-only is the default
+
 my $dict = "/usr/share/dict/american-english";
 {
-#    for $dict.IO.open( :r ).lines  -> $word {
     my @words = gather 
     for $dict.IO.lines -> $word {
         if $word ~~ / $($word.flip) / {
