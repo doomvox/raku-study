@@ -1,60 +1,60 @@
-- [meeting notes Mar 14, 2021](#org5608d58)
-  - [the usual meeting links:](#orgf0db2e4)
-    - [the code examples usually go here:](#orgebb7300)
-    - [the meeting notes (this \*.org file) gets automatically exported:](#orgc0e0959)
-    - [The SF Perl mailing list is good for general discussion.  Subscription info:](#org5758d11)
-    - [A lot of us hang out on the perl6-users mailing list.  Subscription info:](#org18023c6)
-  - [quick bits from last week:](#org3391bae)
-  - [agenda this week](#org102f9ef)
-    - [reduce (Bruce Gray)](#org6065f28)
-    - [Chinese zodiac and pairwise](#org97f0f68)
-    - [regexs, a 69 cent tour:](#org29fb277)
-  - [other topics:](#org88ae89e)
-    - [yet another alternative raku documentation project?](#orga951c42)
-  - [more parody book covers](#orga7644cf)
-    - [<https://datavizblog.com/2018/12/21/dataviz-humor-oreilly-programming-book-parody-covers/>](#org93b0688)
-  - [possible topics (carried over)](#orgd20c443)
+- [meeting notes Mar 14, 2021](#orgad1e67a)
+  - [the usual meeting links:](#orgd0ad672)
+    - [the code examples usually go here:](#org57b3ff2)
+    - [the meeting notes (this \*.org file) gets automatically exported:](#org29f0e71)
+    - [The SF Perl mailing list is good for general discussion.  Subscription info:](#orgf1f66e7)
+    - [A lot of us hang out on the perl6-users mailing list.  Subscription info:](#org129f5f6)
+  - [quick bits from last week:](#orgdf58c4d)
+  - [agenda this week](#org38c9fbc)
+    - [reduce (Bruce Gray)](#org865e668)
+    - [Chinese zodiac problem and raku's pairwise](#org19f747d)
+    - [regexs, a 69 cent tour:](#orgdf034ba)
+  - [other topics:](#org8e4629b)
+    - [yet another alternative raku documentation project?](#org52bc38e)
+  - [more parody book covers](#orgea46973)
+    - [<https://datavizblog.com/2018/12/21/dataviz-humor-oreilly-programming-book-parody-covers/>](#org5b4ba4e)
+  - [possible topics (carried over)](#org0101a34)
 
 
-<a id="org5608d58"></a>
+<a id="orgad1e67a"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orgf0db2e4"></a>
+<a id="orgd0ad672"></a>
 
 ## the usual meeting links:
 
 
-<a id="orgebb7300"></a>
+<a id="org57b3ff2"></a>
 
 ### the code examples usually go here:
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021mar14>
 
 
-<a id="orgc0e0959"></a>
+<a id="org29f0e71"></a>
 
 ### the meeting notes (this \*.org file) gets automatically exported:
 
 <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md>
 
 
-<a id="org5758d11"></a>
+<a id="orgf1f66e7"></a>
 
 ### The SF Perl mailing list is good for general discussion.  Subscription info:
 
 1.  <http://sf.pm.org/>
 
 
-<a id="org18023c6"></a>
+<a id="org129f5f6"></a>
 
 ### A lot of us hang out on the perl6-users mailing list.  Subscription info:
 
 1.  <https://raku.org/community/>
 
 
-<a id="org3391bae"></a>
+<a id="orgdf58c4d"></a>
 
 ## quick bits from last week:
 
@@ -81,12 +81,12 @@
     3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="org102f9ef"></a>
+<a id="org38c9fbc"></a>
 
 ## agenda this week
 
 
-<a id="org6065f28"></a>
+<a id="org865e668"></a>
 
 ### reduce (Bruce Gray)
 
@@ -95,16 +95,16 @@
 2.  <http://rosettacode.org/wiki/Horner%27s_rule_for_polynomial_evaluation>
 
 
-<a id="org97f0f68"></a>
+<a id="org19f747d"></a>
 
-### Chinese zodiac and pairwise
+### Chinese zodiac problem and raku's pairwise
 
 1.  <http://rosettacode.org/wiki/Chinese_zodiac#Raku>
 
 2.  <https://raku-musings.com/playing-zodiac.html>
 
 
-<a id="org29fb277"></a>
+<a id="orgdf034ba"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -137,29 +137,29 @@
         1.  <https://www.youtube.com/watch?v=TUmFAPvssrk>
 
 
-<a id="org88ae89e"></a>
+<a id="org8e4629b"></a>
 
 ## other topics:
 
 
-<a id="orga951c42"></a>
+<a id="org52bc38e"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="orga7644cf"></a>
+<a id="orgea46973"></a>
 
 ## more parody book covers
 
 
-<a id="org93b0688"></a>
+<a id="org5b4ba4e"></a>
 
 ### <https://datavizblog.com/2018/12/21/dataviz-humor-oreilly-programming-book-parody-covers/>
 
 
-<a id="orgd20c443"></a>
+<a id="org0101a34"></a>
 
 ## possible topics (carried over)
 
