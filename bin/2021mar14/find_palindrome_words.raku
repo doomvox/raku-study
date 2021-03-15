@@ -24,7 +24,6 @@ my $dict = "/usr/share/dict/american-english";
     say "---";
     # list all in order of length
     .say for @words.sort(- *.chars);   
-
 }
 
 
