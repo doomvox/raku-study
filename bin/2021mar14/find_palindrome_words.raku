@@ -19,6 +19,9 @@ my $dict = "/usr/share/dict/american-english";
 
     say "count: ", @words.elems;
     say @words.sort(*.chars).tail;   #  deified
+
+    .say for @words.sort(- *.chars);   
+
 }
 
 
