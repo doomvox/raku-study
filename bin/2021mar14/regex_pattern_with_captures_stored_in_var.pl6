@@ -169,7 +169,7 @@ say "---";
         token number { \d+ }
         token units  { \w+ }
     }
-    say "and now we parse...";
+    say "And now we parse...";
 
     my $ret = NumberUnits.parse( $text );
     say $ret;
