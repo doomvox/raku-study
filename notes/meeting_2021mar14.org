@@ -35,7 +35,6 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 **** https://github.com/Raku/doc/issues/3817
 **** http://rosettacode.org/wiki/Horner%27s_rule_for_polynomial_evaluation
 
-
 *** Chinese zodiac and pairwise
 **** http://rosettacode.org/wiki/Chinese_zodiac#Raku
 **** https://raku-musings.com/playing-zodiac.html
