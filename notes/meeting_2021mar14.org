@@ -1,16 +1,13 @@
 * meeting notes Mar 14, 2021
-** the plan:
-*** hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first
-
-*** the usual meeting links:
-**** the code examples usually go here:
+** the usual meeting links:
+*** the code examples usually go here:
 https://github.com/doomvox/raku-study/tree/main/bin/2021mar14
-**** the meeting notes (this *.org file) gets automatically exported:
+*** the meeting notes (this *.org file) gets automatically exported:
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021mar14.md
-**** The SF Perl mailing list is good for general discussion.  Subscription info:
-***** http://sf.pm.org/
-**** A lot of us hang out on the perl6-users mailing list.  Subscription info:
-***** https://raku.org/community/
+*** The SF Perl mailing list is good for general discussion.  Subscription info:
+**** http://sf.pm.org/
+*** A lot of us hang out on the perl6-users mailing list.  Subscription info:
+**** https://raku.org/community/
 
 ** quick bits from last week:
 ***** linux 
