@@ -165,7 +165,7 @@ say "---";
         regex TOP {  <line>+ %% \n } 
         regex ws { \h }
         regex line { ^^ .*? <number> <ws> <units> .*? $$ }
-#        rule line {^^.*?<number> <units>.*?$$}  ## works, but I like
+#        rule line {^^.*?<number> <units>.*?$$}  ## works, but I like the regex better
 #        regex number { \d+ }
         token number { \d+ }
 #        regex units  { \w+ }
