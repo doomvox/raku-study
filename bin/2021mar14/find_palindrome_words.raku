@@ -18,7 +18,6 @@ my $dict = "/usr/share/dict/american-english";
     }
 
     say "count: ", @words.elems;
-#    say @words.sort(*.chars);   # longest: deified
     say @words.sort(*.chars).tail;   #  deified
 }
 
@@ -26,3 +25,4 @@ my $dict = "/usr/share/dict/american-english";
 # Observations:
 # (1) there are no two character palindrome words, e.g. 'ee' or 'oo'.
 # (2) there's no 'zzz' in the dictionary?  (one of my favorite words.)
+# 
