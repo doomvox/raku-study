@@ -171,9 +171,6 @@ say "---";
     }
     say "and now we parse...";
 
-#     $text = chomp( $text );
-#     say $text.chars;
-
     my $ret = NumberUnits.parse( $text );
     say $ret;
     say "---";
