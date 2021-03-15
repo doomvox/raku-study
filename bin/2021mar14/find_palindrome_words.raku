@@ -6,7 +6,7 @@ use v6;
 
 ## I had:
 ##    for $dict.IO.open( :r ).lines  -> $word {
-## but .open can be left implicit, and read-only is the default
+## but .open is just done implicitly, and read-only is the default
 
 my $dict = "/usr/share/dict/american-english";
 {
