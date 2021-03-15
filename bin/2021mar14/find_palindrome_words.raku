@@ -13,7 +13,7 @@ my $dict = "/usr/share/dict/american-english";
     my @words = gather 
     for $dict.IO.lines -> $word {
         if $word ~~ / $($word.flip) / {
-            take $word if $word.chars > 1;  # no zzz?!
+            take $word if $word.chars > 1;  
         }
     }
 
@@ -23,4 +23,6 @@ my $dict = "/usr/share/dict/american-english";
 }
 
 
-
+# Observations:
+# (1) there are no two character palindrome words, e.g. 'ee' or 'oo'.
+# (2) there's no 'zzz' in the dictionary?  (one of my favorite words.)
