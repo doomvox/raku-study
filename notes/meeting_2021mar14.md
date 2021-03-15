@@ -1,34 +1,34 @@
-- [meeting notes Mar 14, 2021](#org2146085)
-  - [the plan:](#org2a9bf40)
-    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#org772066e)
-    - [the usual meeting links:](#org19fe9b4)
-  - [quick bits from last week:](#orgc5aba8d)
-  - [agenda this week](#org8b38332)
-    - [<https://datavizblog.com/2018/12/21/dataviz-humor-oreilly-programming-book-parody-covers/>](#orgbc2107b)
-    - [reduce (Bruce Gray)](#orgfc729d7)
-    - [Chinese zodiac and pairwise](#orgad90e3f)
-    - [regexs, a 69 cent tour:](#org6128c6a)
-  - [other topics:](#org891e255)
-    - [yet another alternative raku documentation project?](#org8073ad7)
-    - [possible topics (carried over)](#orgcc3b4e1)
+- [meeting notes Mar 14, 2021](#orga219891)
+  - [the plan:](#orgc3bced3)
+    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#org334c7e9)
+    - [the usual meeting links:](#org40264ef)
+  - [quick bits from last week:](#orgb69f14d)
+  - [agenda this week](#org44234c7)
+    - [<https://datavizblog.com/2018/12/21/dataviz-humor-oreilly-programming-book-parody-covers/>](#org2a70dcd)
+    - [reduce (Bruce Gray)](#org31f8a67)
+    - [Chinese zodiac and pairwise](#org60da082)
+    - [regexs, a 69 cent tour:](#orge286f2e)
+  - [other topics:](#org458de3d)
+    - [yet another alternative raku documentation project?](#orgb2e2167)
+    - [possible topics (carried over)](#orgd0fe7e3)
 
 
-<a id="org2146085"></a>
+<a id="orga219891"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="org2a9bf40"></a>
+<a id="orgc3bced3"></a>
 
 ## the plan:
 
 
-<a id="org772066e"></a>
+<a id="org334c7e9"></a>
 
 ### hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first
 
 
-<a id="org19fe9b4"></a>
+<a id="org40264ef"></a>
 
 ### the usual meeting links:
 
@@ -49,7 +49,7 @@
     1.  <https://raku.org/community/>
 
 
-<a id="orgc5aba8d"></a>
+<a id="orgb69f14d"></a>
 
 ## quick bits from last week:
 
@@ -76,22 +76,26 @@
     3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="org8b38332"></a>
+<a id="org44234c7"></a>
 
 ## agenda this week
 
 
-<a id="orgbc2107b"></a>
+<a id="org2a70dcd"></a>
 
 ### <https://datavizblog.com/2018/12/21/dataviz-humor-oreilly-programming-book-parody-covers/>
 
 
-<a id="orgfc729d7"></a>
+<a id="org31f8a67"></a>
 
 ### reduce (Bruce Gray)
 
+1.  <https://github.com/Raku/doc/issues/3817>
 
-<a id="orgad90e3f"></a>
+2.  <http://rosettacode.org/wiki/Horner%27s_rule_for_polynomial_evaluation>
+
+
+<a id="org60da082"></a>
 
 ### Chinese zodiac and pairwise
 
@@ -100,7 +104,7 @@
 2.  <https://raku-musings.com/playing-zodiac.html>
 
 
-<a id="org6128c6a"></a>
+<a id="orge286f2e"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -133,19 +137,19 @@
         1.  <https://www.youtube.com/watch?v=TUmFAPvssrk>
 
 
-<a id="org891e255"></a>
+<a id="org458de3d"></a>
 
 ## other topics:
 
 
-<a id="org8073ad7"></a>
+<a id="orgb2e2167"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="orgcc3b4e1"></a>
+<a id="orgd0fe7e3"></a>
 
 ### possible topics (carried over)
 
