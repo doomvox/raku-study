@@ -1,34 +1,35 @@
-- [meeting notes Mar 14, 2021](#org4138766)
-  - [the plan:](#orgb43539f)
-    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#orgfaafbf9)
-    - [the usual meeting links:](#org0395068)
-  - [quick bits from last week:](#org373ed83)
-  - [agenda this week](#org6e11f36)
-    - [<https://datavizblog.com/2018/12/21/dataviz-humor-oreilly-programming-book-parody-covers/>](#org18000ae)
-    - [reduce (Bruce Gray)](#org8167a9b)
-    - [Chinese zodiac and pairwise](#org63821bc)
-    - [regexs, a 69 cent tour:](#orgd8bc5b8)
-  - [other topics:](#org3ac38ee)
-    - [yet another alternative raku documentation project?](#org165df42)
-    - [possible topics (carried over)](#org1e0ccbf)
+- [meeting notes Mar 14, 2021](#org51a6e72)
+  - [the plan:](#org5c5c7e5)
+    - [hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first](#org4d3c435)
+    - [the usual meeting links:](#orgbfadaed)
+  - [quick bits from last week:](#org307dfab)
+  - [agenda this week](#orgfadf5a0)
+    - [reduce (Bruce Gray)](#org9558969)
+    - [Chinese zodiac and pairwise](#org93bfb3e)
+    - [regexs, a 69 cent tour:](#orga4e1f4a)
+  - [other topics:](#orgb3d1d7e)
+    - [yet another alternative raku documentation project?](#orgca03bad)
+  - [more parody book covers](#org1736051)
+    - [<https://datavizblog.com/2018/12/21/dataviz-humor-oreilly-programming-book-parody-covers/>](#orgb578ed7)
+    - [possible topics (carried over)](#org205fa94)
 
 
-<a id="org4138766"></a>
+<a id="org51a6e72"></a>
 
 # meeting notes Mar 14, 2021
 
 
-<a id="orgb43539f"></a>
+<a id="org5c5c7e5"></a>
 
 ## the plan:
 
 
-<a id="orgfaafbf9"></a>
+<a id="org4d3c435"></a>
 
 ### hellos; put links in chat; regexs/grammars this week (anything else?); do old bits first
 
 
-<a id="org0395068"></a>
+<a id="orgbfadaed"></a>
 
 ### the usual meeting links:
 
@@ -49,7 +50,7 @@
     1.  <https://raku.org/community/>
 
 
-<a id="org373ed83"></a>
+<a id="org307dfab"></a>
 
 ## quick bits from last week:
 
@@ -76,17 +77,12 @@
     3.  Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( &#x2026; )>
 
 
-<a id="org6e11f36"></a>
+<a id="orgfadf5a0"></a>
 
 ## agenda this week
 
 
-<a id="org18000ae"></a>
-
-### <https://datavizblog.com/2018/12/21/dataviz-humor-oreilly-programming-book-parody-covers/>
-
-
-<a id="org8167a9b"></a>
+<a id="org9558969"></a>
 
 ### reduce (Bruce Gray)
 
@@ -95,7 +91,7 @@
 2.  <http://rosettacode.org/wiki/Horner%27s_rule_for_polynomial_evaluation>
 
 
-<a id="org63821bc"></a>
+<a id="org93bfb3e"></a>
 
 ### Chinese zodiac and pairwise
 
@@ -104,7 +100,7 @@
 2.  <https://raku-musings.com/playing-zodiac.html>
 
 
-<a id="orgd8bc5b8"></a>
+<a id="orga4e1f4a"></a>
 
 ### regexs, a 69 cent tour:
 
@@ -137,19 +133,29 @@
         1.  <https://www.youtube.com/watch?v=TUmFAPvssrk>
 
 
-<a id="org3ac38ee"></a>
+<a id="orgb3d1d7e"></a>
 
 ## other topics:
 
 
-<a id="org165df42"></a>
+<a id="orgca03bad"></a>
 
 ### yet another alternative raku documentation project?
 
 1.  <https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/>
 
 
-<a id="org1e0ccbf"></a>
+<a id="org1736051"></a>
+
+## more parody book covers
+
+
+<a id="orgb578ed7"></a>
+
+### <https://datavizblog.com/2018/12/21/dataviz-humor-oreilly-programming-book-parody-covers/>
+
+
+<a id="org205fa94"></a>
 
 ### possible topics (carried over)
 

@@ -29,7 +29,6 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 ****** Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( ... )>
 
 ** agenda this week
-*** https://datavizblog.com/2018/12/21/dataviz-humor-oreilly-programming-book-parody-covers/
 
 *** reduce (Bruce Gray)
 **** https://github.com/Raku/doc/issues/3817
@@ -62,6 +61,9 @@ https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-no
 ** other topics:
 *** yet another alternative raku documentation project?
 **** https://www.reddit.com/r/rakulang/comments/m3jt6e/looking_for_volunteers/
+
+** more parody book covers
+*** https://datavizblog.com/2018/12/21/dataviz-humor-oreilly-programming-book-parody-covers/
 
 *** possible topics (carried over)
 ***** a stupid mistake that isn't: naming a method with a leading ^
