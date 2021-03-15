@@ -28,7 +28,7 @@ present already:
     |       .*                     |      .*                   | everything (after that =)      |
     |       )                      |      )                    | end capture                    |
     |       $                      |      $                    | eos                            |
-    |     }x                       |    }                      |                                |
+    |     }x;                      |    };                     |                                |
     |                              |                           |                                |
     |                              |                           |                                |
     |  $line =~                    |  $line ~~                 |                                |
