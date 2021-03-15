@@ -11,11 +11,11 @@ use v6;
 my $dict = "/usr/share/dict/american-english";
 {
     my @words = gather 
-    for $dict.IO.lines -> $word {
-        if $word ~~ / $($word.flip) / {
-            take $word if $word.chars > 1;  
-        }
-    }
+      for $dict.IO.lines -> $word {
+          if $word ~~ / $($word.flip) / {
+              take $word if $word.chars > 1;  
+          }
+      }
 
     say "count: ", @words.elems;
     # find the longest word:
