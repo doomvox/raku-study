@@ -33,6 +33,10 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 
 *** reduce (Bruce Gray)
 
+*** Chinese zodiac and pairwise
+**** http://rosettacode.org/wiki/Chinese_zodiac#Raku
+**** https://raku-musings.com/playing-zodiac.html
+
 *** regexs, a 69 cent tour:
 ***** the regex problem, munging sudoers lines via a sysadmin tool
 ****** raku translation
