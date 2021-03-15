@@ -13,7 +13,6 @@ my $dict = "/usr/share/dict/american-english";
     my @words = gather 
     for $dict.IO.lines -> $word {
         if $word ~~ / $($word.flip) / {
-            # say $word if $word.chars > 1;  # no zzz?!
             take $word if $word.chars > 1;  # no zzz?!
         }
     }
