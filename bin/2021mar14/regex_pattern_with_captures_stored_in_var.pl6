@@ -58,7 +58,7 @@ say "===";
 }
 
 say "---";
-# A Moritz Lenz, in email, suggests there's an alternate name for $/ to use
+# Moritz Lenz, in email, suggests there's an alternate name for $/ to use
 { 
    my $input = 'There are 9 million bicycles in beijing.'; 
    my $pattern = rx{ (\d+) \s+ (\w+) };
