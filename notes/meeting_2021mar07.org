@@ -83,14 +83,9 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 ***** http://perl-begin.org/humour/perl6_perl_6_cover_lg.jpg
 
 ** possible topics (not covered this time)
-
-*** andrew shitov's raku course on-line:
-https://course.raku.org/
-
 *** the great "say Set.^methods" affair
 **** the issue (bug report and discussion):
 https://github.com/rakudo/rakudo/issues/4207
-
 **** the roast test, aka the spec:
 https://github.com/Raku/roast/blob/master/S12-introspection/methods.t
 ***** it checks the case of inheritence, but not roles
