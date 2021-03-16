@@ -13,18 +13,18 @@ present already:
     |  $pattern =                  | $pattern =                |                                |
     |   qr{                        |  rx{                      |                                |
     |       ^                      |     ^                     | bos                            |
-    |       (                      |     (                     | begin capture                  |
-    |         [^=]*?   =  \s+      |      <-[=]>*?  \=  \s+    | paths are after '= '           |
-    |         (?!                  |      <!before             | zero-width negative lookahead  |
-    |           (?:                |        [                  | non-capturing grouping         |
-    |             [^:]*            |          <-[:]>*          | non-colons                     |
-    |             :                |           \:              |   up to a colon                |
-    |           )*                 |        ]*                 | 0 or more of the group         |
-    |           /usr/local/bin     |        '/usr/local/bin'   |                                |
-    |           (?:                |        [                  |                                |
-    |             :  |             |          \: |             | colon or...                    |
-    |             $   )            |          $   ]            |    end-of-string               |
-    |       )                      |       >                   | end of zero-width group        |
+    |        (                     |     (                     | begin capture                  |
+    |          [^=]*?   =  \s+     |      <-[=]>*?  \=  \s+    | paths are after '= '           |
+    |          (?!                 |      <!before             | zero-width negative lookahead  |
+    |            (?:               |        [                  | non-capturing grouping         |
+    |              [^:]*           |          <-[:]>*          | non-colons                     |
+    |              :               |           \:              |   up to a colon                |
+    |            )*                |        ]*                 | 0 or more of the group         |
+    |            /usr/local/bin    |        '/usr/local/bin'   |                                |
+    |            (?:               |        [                  |                                |
+    |              :  |            |          \: |             | colon or...                    |
+    |              $   )           |          $   ]            |    end-of-string               |
+    |        )                     |       >                   | end of zero-width group        |
     |       .*                     |      .*                   | everything (after that =)      |
     |       )                      |      )                    | end capture                    |
     |       $                      |      $                    | eos                            |
