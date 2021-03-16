@@ -40,3 +40,5 @@ present already:
 
 p5: 58 chars
 qr{^([^=]*?=\s+(?!(?:[^:]*:)*/usr/local/bin(?::|$)).*)$}x;
+
+raku:
