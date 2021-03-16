@@ -37,3 +37,6 @@ present already:
     |   $1 works too               |  $/ works, but not $0 (?) |                                |
 
 
+
+p5: 58 chars
+qr{^([^=]*?=\s+(?!(?:[^:]*:)*/usr/local/bin(?::|$)).*)$}x;
