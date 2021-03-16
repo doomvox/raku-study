@@ -1,18 +1,30 @@
-- [topics](#org2f0900d)
-  - [possible topics for the raku study group (collected from previous meeting notes, delete these once they're covered)](#org266c1c9)
-  - [note: ideally something like a database, where you enter links to the meetings when a topic is discussed, etc](#org07de024)
+- [topics](#orgd37800c)
+  - [raku study group topics](#orgac64610)
+    - [collected from previous meeting notes](#org7477bd3)
+    - [delete these once they're covered](#orge874319)
+  - [techid: database with categorization features, links to meeting notes](#orgedf8def)
 
 
-<a id="org2f0900d"></a>
+<a id="orgd37800c"></a>
 
 # topics
 
 
-<a id="org266c1c9"></a>
+<a id="orgac64610"></a>
 
-## possible topics for the raku study group (collected from previous meeting notes, delete these once they're covered)
+## raku study group topics
 
 
-<a id="org07de024"></a>
+<a id="org7477bd3"></a>
 
-## note: ideally something like a database, where you enter links to the meetings when a topic is discussed, etc
+### collected from previous meeting notes
+
+
+<a id="orge874319"></a>
+
+### delete these once they're covered
+
+
+<a id="orgedf8def"></a>
+
+## techid: database with categorization features, links to meeting notes
