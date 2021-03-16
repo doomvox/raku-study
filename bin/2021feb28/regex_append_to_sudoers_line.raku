@@ -49,7 +49,7 @@ my @cases = (
         (   # Begin capture
             <-[=]>*?  \=  \s+   # Begin after  'Defaults secure_path = '
             <!before              
-               [ <-[:]>*? \: ]*       
+               [ <-[:]>* \: ]*       
                '/usr/local/bin'
                [ \: | $ ]       
            >   
