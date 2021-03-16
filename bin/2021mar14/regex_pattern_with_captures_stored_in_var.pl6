@@ -94,7 +94,7 @@ say "---";
 
 say "---";
 
-{
+{ # developing this into a grammar
     my $input = 'There are 9 million bicycles in beijing.'; 
     my
     grammar NumberUnits {
