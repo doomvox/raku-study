@@ -54,7 +54,7 @@ except perhaps on the quoting:
  "=" => "\="
  ":" => "\:"
 
-Maybe better would be:
+Maybe better would be single quotes:
    '='
    ':'
       
