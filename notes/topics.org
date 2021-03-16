@@ -1,0 +1,3 @@
+* topics
+** possible topics for the raku study group (collected from previous meeting notes, delete these once they're covered)
+** note: ideally something like a database, where you enter links to the meetings when a topic is discussed, etc
