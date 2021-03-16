@@ -97,7 +97,7 @@ digraph G {
 **** d3 
 **** svg (partial solution)
 
-*** Three types of "slurpy" parameters
+*** Three types of "slurpy" parameters (/home/doom/End/Cave/Ice/Xtal/Perl6/passing_args.org)
 **** https://docs.raku.org/type/Signature#Slurpy_parameters
 |                      | syntax  | description                             |
 |----------------------+---------+-----------------------------------------|
