@@ -17,7 +17,7 @@ present already:
     |         [^=]*?   =  \s+      |      <-[=]>*?  \=  \s+    | paths are after '= '           |
     |         (?!                  |      <!before             | zero-width negative lookahead  |
     |           (?:                |        [                  | non-capturing grouping         |
-    |             [^:]*            |          <-[:]>*?         | non-colons                     |
+    |             [^:]*            |          <-[:]>*          | non-colons                     |
     |             :                |           \:              |   up to a colon                |
     |           )*                 |        ]*                 | 0 or more of the group         |
     |           /usr/local/bin     |        '/usr/local/bin'   |                                |
