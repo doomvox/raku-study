@@ -25,8 +25,7 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 
 ****** Q: is there a raku equivalent of \K?  A: yes, it's done with "capture markers", <( ... )>
 
-** agenda this week
-
+** stuff for this week
 *** reduce (Bruce Gray)
 **** https://github.com/Raku/doc/issues/3817
 **** http://rosettacode.org/wiki/Horner%27s_rule_for_polynomial_evaluation
