@@ -48,7 +48,6 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar07/strip_control_char
 ******* https://www.nntp.perl.org/group/perl.perl6.users/2021/03/msg9791.html
 
 **** grammars
-
 ***** Brad Gilbert complains about reaching for grammars too soon
 https://stackoverflow.com/questions/66266790/the-token-of-raku-grammar-doesnt-not-hit-the-first-occurences-of-a-document-but
 
