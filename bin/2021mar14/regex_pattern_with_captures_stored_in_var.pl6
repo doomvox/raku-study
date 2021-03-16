@@ -123,7 +123,7 @@ say "---";
 
 say "===";
 say "---";
-{
+{ ## getting a grammar that can parse multiple lines like this:
 
     my $text = q:to/END_TEXT/;
     There are 9 million bicycles in beijing.
