@@ -80,7 +80,7 @@ say "---";
 }
 
 say "---";
-{ # using a named regex (which was also a Brad Gilbert suggestion)
+{ # using a named regex (which was a Brad Gilbert suggestion)
    my $input = 'There are 9 million bicycles in beijing.'; 
    my regex pattern { (\d+) \s+ (\w+) }
     if $input ~~ / <pattern>  / {
