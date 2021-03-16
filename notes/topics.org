@@ -31,3 +31,15 @@ https://course.raku.org/
 ***** Jonathan Worthington
 ****** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/Racing-to-writeness-to-wrongness-leads.md
 ****** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md
+
+
+*** other files to go through
+
+  -rw-r--r--  1 doom doom  1888 Feb 14 17:07 meeting_2020dec20.org
+  -rw-r--r--  1 doom doom  3606 Feb 13 22:15 meeting_2021feb07.org
+  -rw-r--r--  1 doom doom  3803 Feb  7 14:02 meeting_2021jan31.org
+  -rw-r--r--  1 doom doom  2519 Jan 24 20:45 meeting_2021jan24.org
+  -rw-r--r--  1 doom doom  1940 Jan 18 13:17 meeting_2020jan17.org
+  -rw-r--r--  1 doom doom  1505 Jan 12 11:52 meeting_2020jan10.org
+  -rw-r--r--  1 doom doom  2158 Dec 19 17:17 meeting_2020dec13.org
+  -rw-r--r--  1 doom doom  2146 Dec  7 13:23 meeting_2020dec06.org
