@@ -158,7 +158,7 @@ say "---";
     ## \N  means anything but a newline, an alternate to '.'
     ## might change \s  to \h
 
-    ## This works too, %% id like %, but allows a trailing newline
+    ## This works too, %% is like %, but allows a trailing newline
     my
     grammar NumberUnits {
         regex TOP {  <line>+ %% \n } 
