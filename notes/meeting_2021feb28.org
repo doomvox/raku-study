@@ -30,7 +30,7 @@ Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin
 ***** yary hluchan's answer:
 s~^(?!(?:\s*[^:]*:)*/usr/local/bin(?:\s+|:|$)).*\K$~:/usr/local/bin~ 
 
-*** how is Raku code organized?
+*** how is Raku code organized? (See: /home/doom/End/Cave/Perl6/Notes/rakudoguts.org)
 **** rakudo/docs
 The developer-oriented docs (the equivalent of man perlguts)
 ***** these are out-of-date: "architecture" talks about parrot

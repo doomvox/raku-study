@@ -1,77 +1,56 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#org244b145">1. meeting notes Feb 28, 2021</a>
-<ul>
-<li><a href="#org2ca9435">1.1. plan</a>
-<ul>
-<li><a href="#org72ff233">1.1.1. plan stuff</a></li>
-<li><a href="#org4cbd3cf">1.1.2. ask for ideas</a></li>
-<li><a href="#org07fd21f">1.1.3. stall until end of meeting</a></li>
-</ul>
-</li>
-<li><a href="#orgd27c372">1.2. usual stuff</a>
-<ul>
-<li><a href="#org39a8319">1.2.1. we use a github project for sharing demo code and so on:</a></li>
-<li><a href="#orgbf71911">1.2.2. this is a free form meeting without set agenda</a></li>
-<li><a href="#orgabdf006">1.2.3. typically I share screen and start talking to keep things moving</a></li>
-<li><a href="#orgecd56a2">1.2.4. if you've got anything you want to show, just say so, I'll unshare</a></li>
-</ul>
-</li>
-<li><a href="#orgcdf464b">1.3. announcements</a></li>
-<li><a href="#org0562f2e">1.4. possible topics</a>
-<ul>
-<li><a href="#org51c299a">1.4.1. lambert lum: regex problem from hell</a></li>
-<li><a href="#org9bee7d7">1.4.2. how is Raku code organized?</a></li>
-<li><a href="#orgda60aaf">1.4.3. how would you get a list of all the built-in classes?</a></li>
-</ul>
-</li>
-<li><a href="#org8cc4a18">1.5. david christensen</a>
-<ul>
-<li><a href="#orgee04cfd">1.5.1. interested in flow-based programming</a></li>
-<li><a href="#orgf1e1a3d">1.5.2. indefinite numbers of readers/writers</a></li>
-<li><a href="#orgdeadd9f">1.5.3. currently favoring perl5 for it</a></li>
-</ul>
-</li>
-<li><a href="#org9ae950c">1.6. bruce gray links</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
+- [meeting notes Feb 28, 2021](#org00ad2d2)
+  - [plan](#orgaac544b)
+    - [plan stuff](#orgd69e42b)
+    - [ask for ideas](#orga7bfb5f)
+    - [stall until end of meeting](#orge76f4a0)
+  - [usual stuff](#org7fe9477)
+    - [we use a github project for sharing demo code and so on:](#orgadee22e)
+    - [this is a free form meeting without set agenda](#org0e735af)
+    - [typically I share screen and start talking to keep things moving](#orgb1eef6e)
+    - [if you've got anything you want to show, just say so, I'll unshare](#org162f780)
+  - [announcements](#orgf2cb423)
+  - [possible topics](#orge64d15f)
+    - [lambert lum: regex problem from hell](#org3836229)
+    - [how is Raku code organized? (See: /home/doom/End/Cave/Perl6/Notes/rakudoguts.org)](#org0488ab7)
+    - [how would you get a list of all the built-in classes?](#orgcec85e6)
+  - [david christensen](#orgb2f3e6a)
+    - [interested in flow-based programming](#org546473c)
+    - [indefinite numbers of readers/writers](#orgc4d0a0f)
+    - [currently favoring perl5 for it](#org5de1d96)
+  - [bruce gray links](#org06e79bd)
 
-<a id="org244b145"></a>
+
+<a id="org00ad2d2"></a>
 
 # meeting notes Feb 28, 2021
 
 
-<a id="org2ca9435"></a>
+<a id="orgaac544b"></a>
 
 ## plan
 
 
-<a id="org72ff233"></a>
+<a id="orgd69e42b"></a>
 
 ### plan stuff
 
 
-<a id="org4cbd3cf"></a>
+<a id="orga7bfb5f"></a>
 
 ### ask for ideas
 
 
-<a id="org07fd21f"></a>
+<a id="orge76f4a0"></a>
 
 ### stall until end of meeting
 
 
-<a id="orgd27c372"></a>
+<a id="org7fe9477"></a>
 
 ## usual stuff
 
 
-<a id="org39a8319"></a>
+<a id="orgadee22e"></a>
 
 ### we use a github project for sharing demo code and so on:
 
@@ -88,55 +67,51 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021feb28>
 
 
-<a id="orgbf71911"></a>
+<a id="org0e735af"></a>
 
 ### this is a free form meeting without set agenda
 
 
-<a id="orgabdf006"></a>
+<a id="orgb1eef6e"></a>
 
 ### typically I share screen and start talking to keep things moving
 
 
-<a id="orgecd56a2"></a>
+<a id="org162f780"></a>
 
 ### if you've got anything you want to show, just say so, I'll unshare
 
 
-<a id="orgcdf464b"></a>
+<a id="orgf2cb423"></a>
 
 ## announcements
 
-SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
-<https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/>
+SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021 <https://www.meetup.com/SVPerl/events/gjdzdsyccfbgb/>
 
 
-<a id="org0562f2e"></a>
+<a id="orge64d15f"></a>
 
 ## possible topics
 
 
-<a id="org51c299a"></a>
+<a id="org3836229"></a>
 
 ### lambert lum: regex problem from hell
 
 1.  
 
-    1.  [very hard] Given a line from /etc/sudoers, Write a regex
-        that will append /usr/local/bin to the secure<sub>path</sub> line. Do
-        not append if /usr/local/bin is already present. The
-        secure<sub>path</sub> line looks like this.
+    1.  [very hard] Given a line from /etc/sudoers, Write a regex that will append /usr/local/bin to the secure<sub>path</sub> line. Do not append if /usr/local/bin is already present. The secure<sub>path</sub> line looks like this.
     
     Defaults secure<sub>path</sub> = /sbin:/bin:/usr/sbin:/usr/bin
     
     1.  yary hluchan's answer:
     
-        s~<sup>(?!(?:\s*[^:]\*:)\*/usr/local/bin(?:\s+|:|$))</sup>.\*\K$~:/usr/local/bin~ 
+        s~<sup>(?!(?:\s*[^:]\*:)\*/usr/local/bin(?:\s+|:|$))</sup>.\*\K$~:/usr/local/bin~
 
 
-<a id="org9bee7d7"></a>
+<a id="org0488ab7"></a>
 
-### how is Raku code organized?
+### how is Raku code organized? (See: /home/doom/End/Cave/Perl6/Notes/rakudoguts.org)
 
 1.  rakudo/docs
 
@@ -148,18 +123,15 @@ SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
 
 2.  roast
 
-    test suite and effective specs for Raku
-    <https://github.com/Raku/roast>
+    test suite and effective specs for Raku <https://github.com/Raku/roast>
 
 3.  rakudo
 
-    <https://github.com/rakudo/rakudo>
-    the leading implementation of Raku
+    <https://github.com/rakudo/rakudo> the leading implementation of Raku
 
 4.  nqp
 
-    <https://github.com/Raku/nqp>
-    "not quite perl" minimal sub-set of Raku that compiles the rest
+    <https://github.com/Raku/nqp> "not quite perl" minimal sub-set of Raku that compiles the rest
 
 5.  rakudo, user-level docs
 
@@ -167,10 +139,12 @@ SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
 
 6.  a github annoyance: they're pushing a new command-line interface "gh":
 
-        ## newfangled way they want to do it
-        gh repo clone Raku/doc
-        ## what I still do
-        git clone git@github.com:Raku/doc
+    ```sh
+    ## newfangled way they want to do it
+    gh repo clone Raku/doc
+    ## what I still do
+    git clone git@github.com:Raku/doc
+    ```
 
 7.  Q: is there a spec for Raku?
 
@@ -200,12 +174,11 @@ SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
             
             2.  In general, the behavior described here seems much like the current behavior:
             
-                "The .<sup>methods</sup> method returns method-descriptors containing:
-                    name                the name of the method"
+                "The .<sup>methods</sup> method returns method-descriptors containing: name the name of the method"
             
             3.  Note, the ".<sup>can</sup>" method might be used to check the ".<sup>methods.name</sup>":
             
-                $obj.<sup>can</sup>("bark")
+                $dog.<sup>can</sup>("bark")
             
             4.  <https://raku.org/specification/>
             
@@ -219,17 +192,15 @@ SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
             
                 1.  <https://docs.raku.org/type/Metamodel::ClassHOW>
                 
-                    say Int.<sup>methods</sup>(:all).pick.name;         # OUTPUT: «random Int method n
+                    say Int.<sup>methods</sup>(:all).pick.name; # OUTPUT: «random Int method n
                 
                 2.  <https://docs.raku.org/type/Metamodel::ClassHOW>#(Metamodel::MethodContainer)<sub>method</sub><sub>methods</sub>
                 
-                    Returns a list of public methods available on the class (which includes methods from superclasses and roles). 
+                    Returns a list of public methods available on the class (which includes methods from superclasses and roles).
                 
                 3.  <https://docs.raku.org/language/classtut#Introspection>
                 
-                    my Programmer $o .= new;
-                    &#x2026;
-                    say $o.<sup>methods</sup>(:local)».name.join(', ');
+                    my Programmer $o .= new; &#x2026; say $o.<sup>methods</sup>(:local)».name.join(', ');
                 
                 4.  <https://docs.raku.org/type/ForeignCode>
             
@@ -256,7 +227,7 @@ SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
         5.  There are no places ".<sup>method</sup><sub>names</sub>" is mentioned in the docs.
 
 
-<a id="orgda60aaf"></a>
+<a id="orgcec85e6"></a>
 
 ### how would you get a list of all the built-in classes?
 
@@ -269,27 +240,27 @@ SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
     2.  git@github.com:doomvox/perl6-symbol-scan.git
 
 
-<a id="org8cc4a18"></a>
+<a id="orgb2f3e6a"></a>
 
 ## david christensen
 
 
-<a id="orgee04cfd"></a>
+<a id="org546473c"></a>
 
 ### interested in flow-based programming
 
 
-<a id="orgf1e1a3d"></a>
+<a id="orgc4d0a0f"></a>
 
 ### indefinite numbers of readers/writers
 
 
-<a id="orgdeadd9f"></a>
+<a id="org5de1d96"></a>
 
 ### currently favoring perl5 for it
 
 
-<a id="org9ae950c"></a>
+<a id="org06e79bd"></a>
 
 ## bruce gray links
 
@@ -306,4 +277,3 @@ SV Perl talk: Ian Kluft, "Secure Coding in Perl", March 4, 2021
 5.  jg: the sed and awk for json data, on every platform now
 
     (bruce gray recomendation).
-
