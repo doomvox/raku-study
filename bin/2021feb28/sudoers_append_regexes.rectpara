@@ -2,7 +2,7 @@ Problem: on a line like so:
 
    Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin
 
-using a single s/// operation, append the location
+Using a single s/// operation, append the location
 "/usr/local/bin" to the path, but only if it's not
 present already:
 
