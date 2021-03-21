@@ -11,9 +11,6 @@ use v6;
 ## See issue:
 ##  https://github.com/Raku/doc/issues/3824
 
-
-## CAUGHT: This type cannot unbox to a native string: P6opaque, Seq
-
 class DNA {
     has $.chain is rw;
  
