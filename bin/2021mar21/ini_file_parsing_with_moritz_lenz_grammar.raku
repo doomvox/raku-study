@@ -32,7 +32,11 @@ grammar INIFile {
 }
 
 my $txt = :to/END/;
+[db]
+driver: mysql
+host: db01.example.com
 
+                      
 END
 
 
