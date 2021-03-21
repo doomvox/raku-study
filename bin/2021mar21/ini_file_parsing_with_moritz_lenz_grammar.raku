@@ -54,3 +54,5 @@ say $txt;
 
 (
     my $ini = INIFile.parse( $txt );
+
+}
