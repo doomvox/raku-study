@@ -2,6 +2,24 @@
 # 
 # ini_file_parsing_with_moritz_lenz_grammar.raku            20 Mar 2021 
 
+## SNIPPET
+# exit;
+
+# {
+#     say "===";
+#     for $txt.lines -> $line {
+#         say '---';
+#         say $line;
+# #        my $header_mo = INIFile.parse( $line, :rule('header') );
+# #        say $header_mo;
+#         my $keyvalue_mo = INIFile.parse( $line, :rule('keyvalue') );
+#         say $keyvalue_mo;
+#    }
+
+# }
+
+
+
 use v6;
 # use Grammar::Tracer;
 
@@ -84,17 +102,3 @@ say $txt;
 }
 ## section header keyvalue keyster valueoid
 
-exit;
-
-{
-    say "===";
-    for $txt.lines -> $line {
-        say '---';
-        say $line;
-#        my $header_mo = INIFile.parse( $line, :rule('header') );
-#        say $header_mo;
-        my $keyvalue_mo = INIFile.parse( $line, :rule('keyvalue') );
-        say $keyvalue_mo;
-   }
-
-}
