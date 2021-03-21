@@ -54,7 +54,7 @@ say $txt;
 
 {
     for $txt.lines -> $line {
-        my $ini = INIFile.parse( $txt );
+        my $ini = INIFile.parse( $line, 'header' );
     }
 
 }
