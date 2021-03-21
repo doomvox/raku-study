@@ -24,11 +24,14 @@ grammar INIFile {
         ^^
         <key>
         <[:=]> 
-        $<value>=[<-[\n;#]>*]
+        <value>
         <.eol>
     }
     rule key {
         [\w+]
+    }
+    rule value {
+        [<-[\n;#]>*]
     }
     token ws { <!ww> \h* }
     token eol {
