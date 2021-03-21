@@ -75,7 +75,7 @@ say $txt;
     for $ini.<section> -> $section {
         for $section.<keyvalue> -> $keyvalue {
 #            say $keyvalue.^methods>>.name;
-            say $keyvalue.^keyster;
+            say $keyvalue.keyster;
             }
     }
 
