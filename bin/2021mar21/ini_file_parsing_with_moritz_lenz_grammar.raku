@@ -23,6 +23,7 @@ grammar INIFile {
         ^^
         $<key>=[\w+]
         <[:=]>
+        \s
         $<value>=[<-[\n;#]>*]
         <.eol>
     }
