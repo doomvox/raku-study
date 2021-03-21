@@ -14,6 +14,10 @@ my $txt = q:to/END_TXT/;
 Here we have a "quoted" string.
 END_TXT
 
+"abcxyz" ~~ m/<[z]>/;  ## char class
+say $/;
+
+
 {
     my $qq = chr(2*16+2);  # "
     say $qq;
