@@ -15,7 +15,7 @@ Here we have a "quoted" string.
 END_TXT
 
 {
-    my regex simple_q { \" <-["]>* \" };
+    my regex simple_q { \" <-[ " ]>* \" };
 
     $txt ~~ m/<simple_q>/;
     say $/;
