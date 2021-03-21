@@ -39,8 +39,5 @@ END_TXT
     # ｢"quotes can be \"scary\" yes"｣
     #  quote => ｢"quotes can be \"scary\" yes"｣
 
-
-
-
 }
 
