@@ -59,6 +59,8 @@ say $txt;
     # my $ini = INIFile.parsefile( $file );
     say $ini; 
 
+    say $ini.<key>
+
 
 }
 
