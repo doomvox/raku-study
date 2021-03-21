@@ -24,7 +24,7 @@ END_TXT
 {
     my $qq = chr(2*16+2);  # "
     say $qq;
-    my regex simple_q { \" < -[ <$qq> ] >* \" };   # Quote words construct too complex to use in a regex
+    my regex simple_q { \" <-[ <$qq> ]>* \" };   # Quote words construct too complex to use in a regex
 
     $txt ~~ m/<simple_q>/;
     say $/;
