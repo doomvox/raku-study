@@ -30,13 +30,13 @@ grammar INIFile {
 }
 
 my $txt = q:to/END_TEXT/;
-[db]
-driver: mysql
-host: db01.example.com
-port: 122
-username: us123
-password: swdfsh
-END_TEXT
+    [db]
+    driver: mysql
+    host: db01.example.com
+    port: 122
+    username: us123
+    password: swdfsh
+    END_TEXT
 
 my  $file = "/home/doom/tmp/simple_config.ini";
 $file.IO.spurt($txt);
