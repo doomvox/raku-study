@@ -30,9 +30,10 @@ class DNA {
       ###  This type cannot unbox to a native string: P6opaque, Seq
 };
  
+## Example docs claim you can do this
 my @string is DNA = 'GAATCC';
 say @string.Str;    # OUTPUT: «((G A A) (T C C))␤» 
-@string = 'ACGTCG';
-say @string.Str;    # OUTPUT: «((A C G) (T C G))␤» 
+# @string = 'ACGTCG';
+# say @string.Str;    # OUTPUT: «((A C G) (T C G))␤» 
 
 
