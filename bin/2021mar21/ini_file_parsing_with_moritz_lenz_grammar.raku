@@ -60,7 +60,7 @@ say $txt;
     say $ini; 
     say $ini.WHAT; # (INIFile)
 
-    say .<keyvalue>.<key> for $ini.<section>.lst;
+    say .<keyvalue>.<key> for $ini.<section>.list;
 #    say $ini.<section>;
 
 
