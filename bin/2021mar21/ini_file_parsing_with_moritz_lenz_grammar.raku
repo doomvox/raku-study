@@ -52,8 +52,9 @@ say $txt;
     say $ini; #(Any)
 }
 
-(
+{
     for $txt.lines -> $line {
         my $ini = INIFile.parse( $txt );
     }
+
 }
