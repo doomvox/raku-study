@@ -31,7 +31,7 @@ grammar INIFile {
         \w+
     }
     token value {
-        (<-[\n;#]>*)
+        <-[\n;#]>*
     }
     token ws { <!ww> \h* }
     token eol {
