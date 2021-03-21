@@ -61,6 +61,8 @@ say $txt;
     #(Any)
 }
 
+exit;
+
 {
     say "===";
     for $txt.lines -> $line {
