@@ -7,3 +7,7 @@
 ****** simple
 ****** embedded quotes
 ***** ini file parsing
+** carried over
+*** shadow novel where the bad guys speak esperanto
+****  "Crime Under Cover" (1941) by Maxwell Grant
+****  http://obsidianrook.com/doomfiles/LA_OMBRO.html
