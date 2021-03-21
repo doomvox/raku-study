@@ -37,3 +37,9 @@ class DNA {
 # say @string.Str;    # OUTPUT: «((A C G) (T C G))␤» 
 
 
+## Are these cases different?  Docs are very unclear:
+
+#   my @a is Foo = 1,2,3;
+
+#   my @a is Foo;
+#   @a = 1,2,3;
