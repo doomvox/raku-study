@@ -22,12 +22,12 @@ grammar INIFile {
     }
     rule keyvalue {
         ^^
-        <key>
+        <keyster>
         <[:=]> 
         <value>
         <.eol>?
     }
-    token key {
+    token keyster {
         \w+
     }
     token value {
@@ -64,13 +64,13 @@ say $txt;
     say "XXX";
 #    say $ini.<section>;
 
-#    say .<keyvalue>.<key> for $ini.<section>.list;
+#    say .<keyvalue>.<keyster> for $ini.<section>.list;
     say .gist for $ini.<section>.[0].<keyvalue>.list;
 #    say .WHAT for $ini.<section>.[0].<keyvalue>.list;
     say "---";
-#    say .key for $ini.<section>.[0].<keyvalue>.list;
+#    say .keyster for $ini.<section>.[0].<keyvalue>.list;
     say $ini.<section>.[0].<keyvalue>.elems;
-    say $_.key for $ini.<section>.[0].<keyvalue>;
+    say $_.keyster for $ini.<section>.[0].<keyvalue>;
 
 }
 
