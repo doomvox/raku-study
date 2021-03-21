@@ -21,6 +21,7 @@ say $/;
 # ｢"quoted"｣
 #  simple_q => ｢"quoted"｣
 
+say $/<simple_q>;
 
 
 
