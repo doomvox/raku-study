@@ -33,11 +33,6 @@ END_TXT
 
 }
 
-
-## CAUGHT: Unable to allocate an array of 268439552 elements
-## This exception is not resumable
-
-
 for <ab cd ef> { 
 say $_;
 }
