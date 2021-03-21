@@ -17,8 +17,6 @@ END_TXT
 {
     my $qq = chr(2*16+2);  # "
     say $qq;
-    exit;
-
     my regex simple_q { \" <-[ " ]>* \" };
 
     $txt ~~ m/<simple_q>/;
