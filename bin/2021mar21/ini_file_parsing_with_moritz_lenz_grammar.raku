@@ -27,10 +27,10 @@ grammar INIFile {
         <value>
         <.eol>
     }
-    rule key {
+    token key {
         (\w+)
     }
-    rule value {
+    token value {
         (<-[\n;#]>*)
     }
     token ws { <!ww> \h* }
