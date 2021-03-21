@@ -38,7 +38,6 @@ username: us123
 password: swdfsh
 END
 
-
 my  $file = "/home/doom/tmp/simple_config.ini";
-
 $file.IO.spurt($txt);
+
