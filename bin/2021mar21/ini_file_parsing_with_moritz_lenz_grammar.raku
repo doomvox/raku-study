@@ -7,7 +7,6 @@ use v6;
 # code example from 
 # p. 122 of Moritz Lenz "Parsing with Perl6 Regexes and Grammars"
 
-
 grammar INIFile {
     token TOP { <section>* }
     token section {
