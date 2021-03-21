@@ -2,10 +2,15 @@
 ** topics
 *** comma has some new repl features: multi-line support
 *** grammars
-**** moritz lenz examples 
+**** examples 
 ***** quoted strings
-****** simple
+****** simple (moritz lenz)
 ****** embedded quotes
+******* moritz lenz 
+
+******* yary hluchan
+******** https://github.com/doomvox/raku-study/blob/main/notes/bin/richard_hainsworth_grammar.raku
+******** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/richard_hainsworth_grammar.raku
 ***** ini file parsing
 **** calculator example (revival)
 ***** https://github.com/doomvox/raku-study/blob/main/notes/bin/2021jan24/grammar_calculator_example.pl6
