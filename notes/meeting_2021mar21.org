@@ -1,4 +1,3 @@
 * meeting notes Mar 21, 2021
 ** topics
-**** 69 cent tour of git
-***** github
+*** comma has some new repl features: multi-line support
