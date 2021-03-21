@@ -58,6 +58,7 @@ say $txt;
         say $line;
         my $header_mo = INIFile.parse( $line, :rule('header') );
         say $header_mo;
+        say '---';
         my $keyvalue_mo = INIFile.parse( $line, :rule('keyvalue') );
         say $keyvalue_mo;
    }
