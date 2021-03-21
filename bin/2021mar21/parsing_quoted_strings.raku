@@ -18,7 +18,8 @@ my regex simple_q { \" <-["]>* \" };
 
 $txt ~~ m/<simple_q>/;
 say $/;
-
+# ｢"quoted"｣
+#  simple_q => ｢"quoted"｣
 
 
 
