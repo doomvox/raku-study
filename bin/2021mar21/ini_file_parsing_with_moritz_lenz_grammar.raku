@@ -61,8 +61,6 @@ say $txt;
 
         my $keyvalue_mo = INIFile.parse( $line, :rule('keyvalue') );
         say $keyvalue_mo;
-
-
    }
 
 }
