@@ -14,8 +14,11 @@ my $txt = q:to/END_TXT/;
 Here we have a "quoted" string.
 END_TXT
 
-"abcxyz" ~~ m/(<[z]>)/;  ## char class
-say $/;
+{
+    my $str = "abcxyz";
+    $str ~~ m/(<[z]>)/;  ## char class
+    say $/;
+}
 
 
 {
