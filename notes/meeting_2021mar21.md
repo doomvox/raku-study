@@ -1,29 +1,30 @@
-- [meeting notes Mar 21, 2021](#org6b5abe4)
-  - [topics](#org6878b0b)
-    - [comma has some new repl features: multi-line support](#orgf28de30)
-    - [grammars](#org5802a59)
-    - [nested map idioms (?)](#org5f72e94)
-    - [looping idioms using Z (did we talk about this?)](#orgf19bf6c)
-  - [carried over](#org05248c2)
-    - [shadow novel where the bad guys speak esperanto](#org4e09c70)
+- [meeting notes Mar 21, 2021](#org78d1bfc)
+  - [topics](#org1e3880c)
+    - [comma has some new repl features: multi-line support](#orgdc3b82d)
+    - [grammars](#org73ca6d6)
+    - [nested map idioms (?)](#orgfa928e2)
+  - [revivals](#org2e9d1ed)
+    - [looping idioms using Z (did we talk about this?)](#org5d95274)
+  - [carried over](#org21f7c9d)
+    - [shadow novel where the bad guys speak esperanto](#org3b92868)
 
 
-<a id="org6b5abe4"></a>
+<a id="org78d1bfc"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="org6878b0b"></a>
+<a id="org1e3880c"></a>
 
 ## topics
 
 
-<a id="orgf28de30"></a>
+<a id="orgdc3b82d"></a>
 
 ### comma has some new repl features: multi-line support
 
 
-<a id="org5802a59"></a>
+<a id="org73ca6d6"></a>
 
 ### grammars
 
@@ -37,13 +38,22 @@
     
     2.  ini file parsing
 
+2.  calculator example (revival)
 
-<a id="org5f72e94"></a>
+    <https://github.com/doomvox/raku-study/blob/main/notes/bin/2021jan24/grammar_calculator_example.pl6> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jan24/grammar<sub>calculator</sub><sub>example.pl6</sub>
+
+
+<a id="orgfa928e2"></a>
 
 ### nested map idioms (?)
 
 
-<a id="orgf19bf6c"></a>
+<a id="org2e9d1ed"></a>
+
+## revivals
+
+
+<a id="org5d95274"></a>
 
 ### looping idioms using Z (did we talk about this?)
 
@@ -52,12 +62,12 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping<sub>over</sub><sub>two</sub><sub>parallel</sub><sub>arrays</sub><sub>via</sub><sub>Z.pl6</sub>
 
 
-<a id="org05248c2"></a>
+<a id="org21f7c9d"></a>
 
 ## carried over
 
 
-<a id="org4e09c70"></a>
+<a id="org3b92868"></a>
 
 ### shadow novel where the bad guys speak esperanto
 
