@@ -32,7 +32,7 @@ END_TXT
     # ｢"quoted"｣
     #  simple_q => ｢"quoted"｣
 
-    say $/<simple_q>; # ｢"quoted"｣
-    say $<simple_q>;  # ｢"quoted"｣
+#     say $/<simple_q>; # ｢"quoted"｣
+#     say $<simple_q>;  # ｢"quoted"｣
 
 }
