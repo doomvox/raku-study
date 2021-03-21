@@ -4,10 +4,9 @@
 
 use v6;
 
-## Make errors into warnings
-CATCH { default { say "CAUGHT: ", .Str; .resume } }
+# code example from 
+# p. 122 of Moritz Lenz "Parsing with Perl6 Regexes and Grammars"
 
-#  my @monsters = < garuda blob golem mothera godzilla tingler >;
 
 grammar INIFile {
     token TOP { <section>* }
@@ -35,8 +34,9 @@ my $txt = :to/END/;
 [db]
 driver: mysql
 host: db01.example.com
-
-                      
+port: 122
+username: us123
+password: swdfsh
 END
 
 
