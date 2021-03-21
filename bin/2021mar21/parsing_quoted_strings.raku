@@ -16,7 +16,7 @@ END_TXT
 
 {
     my $str = "abcxyz";
-    $str ~~ m/(<[a..z]>+)/;  ## char class to match a z
+    $str ~~ m/(<[a..z]>+?)/;  ## char class to match a z
     say $/;
 }
 
