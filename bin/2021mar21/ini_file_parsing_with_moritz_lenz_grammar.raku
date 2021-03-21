@@ -31,8 +31,11 @@ grammar INIFile {
         }
 }
 
+my $txt = :to/END/;
+
+END
+
 
 my  $file = "/home/doom/tmp/simple_config.ini";
-
 
 $file.IO.spurt($txt);
