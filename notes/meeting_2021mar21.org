@@ -25,7 +25,7 @@
 
 *** bruce gray
 **** http://rosettacode.org/wiki/Cousin_primes 
-primes that differ by 4
+cousin primes: primes that differ by 4
 **** http://rosettacode.org/wiki/Special_factorials
 
 

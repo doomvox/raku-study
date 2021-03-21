@@ -1,33 +1,33 @@
-- [meeting notes Mar 21, 2021](#org2f285c8)
-  - [topics](#org8ca31ef)
-    - [comma has some new repl features: multi-line support](#org4f22c05)
-    - [grammars](#org861f7a7)
-    - [nested map idioms](#org686d7d1)
-    - [looping idioms using Z (revival)](#orgc37d1b8)
-    - [bruce gray](#org04c85ac)
-  - [carried over](#org00fd9c2)
-    - [shadow novel where the bad guys speak esperanto](#org4a813e7)
-    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#orgcff7fd1)
+- [meeting notes Mar 21, 2021](#org69a3f05)
+  - [topics](#org7113a16)
+    - [comma has some new repl features: multi-line support](#orgc6bdcd1)
+    - [grammars](#orgbc8db1f)
+    - [nested map idioms](#org48be58f)
+    - [looping idioms using Z (revival)](#orge2d6d27)
+    - [bruce gray](#orgf5d4319)
+  - [carried over](#org91f718b)
+    - [shadow novel where the bad guys speak esperanto](#org5c631c2)
+    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org5bad3fe)
 
 
-<a id="org2f285c8"></a>
+<a id="org69a3f05"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="org8ca31ef"></a>
+<a id="org7113a16"></a>
 
 ## topics
 
 
-<a id="org4f22c05"></a>
+<a id="orgc6bdcd1"></a>
 
 ### comma has some new repl features: multi-line support
 
 1.  <https://www.edument.se/en/blog/post/comma-in-2020>
 
 
-<a id="org861f7a7"></a>
+<a id="orgbc8db1f"></a>
 
 ### grammars
 
@@ -60,14 +60,14 @@
     2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jan24/grammar<sub>calculator</sub><sub>example.pl6</sub>
 
 
-<a id="org686d7d1"></a>
+<a id="org48be58f"></a>
 
 ### nested map idioms
 
 1.  TODO 
 
 
-<a id="orgc37d1b8"></a>
+<a id="orge2d6d27"></a>
 
 ### looping idioms using Z (revival)
 
@@ -76,23 +76,23 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping<sub>over</sub><sub>two</sub><sub>parallel</sub><sub>arrays</sub><sub>via</sub><sub>Z.pl6</sub>
 
 
-<a id="org04c85ac"></a>
+<a id="orgf5d4319"></a>
 
 ### bruce gray
 
 1.  <http://rosettacode.org/wiki/Cousin_primes>
 
-    primes that differ by 4
+    cousin primes: primes that differ by 4
 
 2.  <http://rosettacode.org/wiki/Special_factorials>
 
 
-<a id="org00fd9c2"></a>
+<a id="org91f718b"></a>
 
 ## carried over
 
 
-<a id="org4a813e7"></a>
+<a id="org5c631c2"></a>
 
 ### shadow novel where the bad guys speak esperanto
 
@@ -101,7 +101,7 @@
 2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
 
 
-<a id="orgcff7fd1"></a>
+<a id="org5bad3fe"></a>
 
 ### zoffix talk july 28, 2018 intro p6 regexes and grammars
 
