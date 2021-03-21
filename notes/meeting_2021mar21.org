@@ -27,3 +27,5 @@
 ****  "Crime Under Cover" (1941) by Maxwell Grant
 ****  http://obsidianrook.com/doomfiles/LA_OMBRO.html
 
+*** zoffix talk july 28, 2018 intro p6 regexes and grammars
+**** https://www.youtube.com/watch?v=TUmFAPvssrk

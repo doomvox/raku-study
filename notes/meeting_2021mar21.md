@@ -1,29 +1,30 @@
-- [meeting notes Mar 21, 2021](#org0bad12b)
-  - [topics](#orge859aab)
-    - [comma has some new repl features: multi-line support](#org2263010)
-    - [grammars](#orgd0610f3)
-    - [nested map idioms](#orga9eb4d3)
-    - [looping idioms using Z (revival)](#orge5ef0fb)
-  - [carried over](#orgc8e8a08)
-    - [shadow novel where the bad guys speak esperanto](#org18e2fbd)
+- [meeting notes Mar 21, 2021](#orgbb2a6cd)
+  - [topics](#orgefd5883)
+    - [comma has some new repl features: multi-line support](#org20604af)
+    - [grammars](#orge1a878c)
+    - [nested map idioms](#org124b038)
+    - [looping idioms using Z (revival)](#orga2ec039)
+  - [carried over](#org5162eff)
+    - [shadow novel where the bad guys speak esperanto](#org396c525)
+    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org5b823fe)
 
 
-<a id="org0bad12b"></a>
+<a id="orgbb2a6cd"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="orge859aab"></a>
+<a id="orgefd5883"></a>
 
 ## topics
 
 
-<a id="org2263010"></a>
+<a id="org20604af"></a>
 
 ### comma has some new repl features: multi-line support
 
 
-<a id="orgd0610f3"></a>
+<a id="orge1a878c"></a>
 
 ### grammars
 
@@ -54,14 +55,14 @@
     2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jan24/grammar<sub>calculator</sub><sub>example.pl6</sub>
 
 
-<a id="orga9eb4d3"></a>
+<a id="org124b038"></a>
 
 ### nested map idioms
 
 1.  TODO 
 
 
-<a id="orge5ef0fb"></a>
+<a id="orga2ec039"></a>
 
 ### looping idioms using Z (revival)
 
@@ -70,15 +71,22 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping<sub>over</sub><sub>two</sub><sub>parallel</sub><sub>arrays</sub><sub>via</sub><sub>Z.pl6</sub>
 
 
-<a id="orgc8e8a08"></a>
+<a id="org5162eff"></a>
 
 ## carried over
 
 
-<a id="org18e2fbd"></a>
+<a id="org396c525"></a>
 
 ### shadow novel where the bad guys speak esperanto
 
 1.  "Crime Under Cover" (1941) by Maxwell Grant
 
 2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
+
+
+<a id="org5b823fe"></a>
+
+### zoffix talk july 28, 2018 intro p6 regexes and grammars
+
+1.  <https://www.youtube.com/watch?v=TUmFAPvssrk>
