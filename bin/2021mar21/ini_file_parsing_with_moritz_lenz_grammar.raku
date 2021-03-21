@@ -63,7 +63,7 @@ say $txt;
 #    say $ini.<section>;
 
 #    say .<keyvalue>.<key> for $ini.<section>.list;
-    say .gist.<keyvalue>.<key> for $ini.<section>.list;
+    say .gist for $ini.<section>.list;
 
 
 }
