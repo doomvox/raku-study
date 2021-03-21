@@ -70,9 +70,6 @@ say $txt;
 
 }
 
-
-
-
 exit;
 
 {
