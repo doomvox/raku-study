@@ -70,7 +70,7 @@ say $txt;
     say "---";
 #    say .key for $ini.<section>.[0].<keyvalue>.list;
     say $ini.<section>.[0].<keyvalue>.elems;
-    say $ini.<section>.[0].<keyvalue>.values;
+    say $_.key  for $ini.<section>.[0].<keyvalue>;
 
 }
 
