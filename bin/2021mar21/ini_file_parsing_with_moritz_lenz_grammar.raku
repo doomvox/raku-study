@@ -44,3 +44,4 @@ $file.IO.spurt($txt);
 say $txt;
 
 my $ini = INIFile.parse( $txt );
+say $ini;
