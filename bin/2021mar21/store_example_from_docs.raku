@@ -5,7 +5,7 @@
 use v6;
 
 ## Make errors into warnings
-CATCH { default { say "CAUGHT: ", .Str; .resume } }
+## CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 #  my @monsters = < garuda blob golem mothera godzilla tingler >;
 
@@ -13,6 +13,9 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 ##  https://docs.raku.org/routine/STORE
 ## See issue:
 ##  https://github.com/Raku/doc/issues/3824
+
+
+## CAUGHT: This type cannot unbox to a native string: P6opaque, Seq
 
 class DNA {
     has $.chain is rw;
