@@ -65,7 +65,7 @@ say $txt;
 #    say $ini.<section>;
 
 #    say .<keyvalue>.<key> for $ini.<section>.list;
-    say .gist for $ini.<section>.list[0];
+    say .gist for $ini.<section>.<keyvalue>.list[0];
 
 
 }
