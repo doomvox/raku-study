@@ -1,29 +1,29 @@
-- [meeting notes Mar 21, 2021](#org1192a4f)
-  - [topics](#orgb4e0937)
-    - [comma has some new repl features: multi-line support](#org913d85f)
-    - [grammars](#org2450e92)
-    - [nested map idioms (?)](#orge33590e)
-    - [looping idioms using Z (revival)](#org93e6bd2)
-  - [carried over](#org1cf0596)
-    - [shadow novel where the bad guys speak esperanto](#orgedb0ef0)
+- [meeting notes Mar 21, 2021](#org0bad12b)
+  - [topics](#orge859aab)
+    - [comma has some new repl features: multi-line support](#org2263010)
+    - [grammars](#orgd0610f3)
+    - [nested map idioms](#orga9eb4d3)
+    - [looping idioms using Z (revival)](#orge5ef0fb)
+  - [carried over](#orgc8e8a08)
+    - [shadow novel where the bad guys speak esperanto](#org18e2fbd)
 
 
-<a id="org1192a4f"></a>
+<a id="org0bad12b"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="orgb4e0937"></a>
+<a id="orge859aab"></a>
 
 ## topics
 
 
-<a id="org913d85f"></a>
+<a id="org2263010"></a>
 
 ### comma has some new repl features: multi-line support
 
 
-<a id="org2450e92"></a>
+<a id="orgd0610f3"></a>
 
 ### grammars
 
@@ -54,12 +54,14 @@
     2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jan24/grammar<sub>calculator</sub><sub>example.pl6</sub>
 
 
-<a id="orge33590e"></a>
+<a id="orga9eb4d3"></a>
 
-### nested map idioms (?)
+### nested map idioms
+
+1.  TODO 
 
 
-<a id="org93e6bd2"></a>
+<a id="orge5ef0fb"></a>
 
 ### looping idioms using Z (revival)
 
@@ -68,12 +70,12 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping<sub>over</sub><sub>two</sub><sub>parallel</sub><sub>arrays</sub><sub>via</sub><sub>Z.pl6</sub>
 
 
-<a id="org1cf0596"></a>
+<a id="orgc8e8a08"></a>
 
 ## carried over
 
 
-<a id="orgedb0ef0"></a>
+<a id="org18e2fbd"></a>
 
 ### shadow novel where the bad guys speak esperanto
 

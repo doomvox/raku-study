@@ -15,8 +15,8 @@
 **** calculator example (revival)
 ***** https://github.com/doomvox/raku-study/blob/main/notes/bin/2021jan24/grammar_calculator_example.pl6
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jan24/grammar_calculator_example.pl6
-*** nested map idioms (?)
-
+*** nested map idioms 
+**** TODO
 *** looping idioms using Z (revival)
 **** https://github.com/doomvox/raku-study/blob/main/notes/bin/2021mar07/looping_over_two_parallel_arrays_via_Z.pl6
 **** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping_over_two_parallel_arrays_via_Z.pl6
