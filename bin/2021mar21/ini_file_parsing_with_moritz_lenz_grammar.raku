@@ -77,6 +77,8 @@ say $txt;
 #            say $keyvalue.^methods>>.name;
 #            say $keyvalue.keyster; ## #<failed match>  
             say $keyvalue.value; 
+            # ｢host: db01.example.com｣
+            # ｢｣
         }
     }
 }
