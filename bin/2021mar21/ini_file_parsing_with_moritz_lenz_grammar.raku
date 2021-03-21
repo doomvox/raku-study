@@ -70,7 +70,7 @@ say $txt;
     say "---";
 #    say .keyster for $ini.<section>.[0].<keyvalue>.list;
     say $ini.<section>.[0].<keyvalue>.elems;
-    say .keyster for $ini.<section>.[0].<keyvalue>;
+    say $_.WHAT for $ini.<section>.[0].<keyvalue>;
 
 }
 
