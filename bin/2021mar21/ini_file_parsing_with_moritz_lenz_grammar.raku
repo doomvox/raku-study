@@ -54,6 +54,7 @@ say $txt;
 }
 
 {
+    say "===";
     for $txt.lines -> $line {
         say $line;
         my $header_mo = INIFile.parse( $line, :rule('header') );
