@@ -74,7 +74,7 @@ say $txt;
 
     for $ini.<section> -> $section {
         for $section.<keyvalue> -> $keyvalue {
-            say $keyvalue.gist;
+            say $keyvalue.[0].gist;
             }
     }
 
