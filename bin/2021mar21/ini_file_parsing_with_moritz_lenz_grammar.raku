@@ -28,7 +28,7 @@ grammar INIFile {
         <.eol>?
     }
     token key {
-        (\w+)
+        \w+
     }
     token value {
         (<-[\n;#]>*)
