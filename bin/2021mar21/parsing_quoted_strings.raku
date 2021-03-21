@@ -15,6 +15,10 @@ Here we have a "quoted" string.
 END_TXT
 
 {
+    my $qq = chr(22);
+    say $qq;
+    exit;
+
     my regex simple_q { \" <-[ " ]>* \" };
 
     $txt ~~ m/<simple_q>/;
