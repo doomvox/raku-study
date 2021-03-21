@@ -29,7 +29,7 @@ grammar INIFile {
         }
 }
 
-my $txt = :to/END_TEXT/;
+my $txt = q:to/END_TEXT/;
 [db]
 driver: mysql
 host: db01.example.com
