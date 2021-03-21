@@ -3,7 +3,7 @@
 # ini_file_parsing_with_moritz_lenz_grammar.raku            20 Mar 2021 
 
 use v6;
-use Grammar::Tracer;
+# use Grammar::Tracer;
 
 # code example from 
 # p. 122 of Moritz Lenz "Parsing with Perl6 Regexes and Grammars"
