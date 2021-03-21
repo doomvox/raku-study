@@ -68,6 +68,7 @@ say $txt;
     say .gist for $ini.<section>.[0].<keyvalue>.list;
 #    say .WHAT for $ini.<section>.[0].<keyvalue>.list;
     say "---";
+#    say .key for $ini.<section>.[0].<keyvalue>.list;
     say .key for $ini.<section>.[0].<keyvalue>.list;
 
 
