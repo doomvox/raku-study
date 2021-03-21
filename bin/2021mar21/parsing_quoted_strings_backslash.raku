@@ -33,5 +33,12 @@ END_TXT
     #  quote => ｢"quoted"｣
 
     say $<quote>;  # ｢"quoted"｣
+
+    $txt2 ~~ m/<quote>/;
+    say $/;
+
+
+
+
 }
 
