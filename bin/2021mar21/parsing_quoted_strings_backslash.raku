@@ -35,3 +35,8 @@ END_TXT
 #     say $<simple_q>;  # ｢"quoted"｣
 
 }
+
+
+## CAUGHT: Unable to allocate an array of 268439552 elements
+## This exception is not resumable
+
