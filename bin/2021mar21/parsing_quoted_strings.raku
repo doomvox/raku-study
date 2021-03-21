@@ -16,10 +16,11 @@ END_TXT
 
 {
     my $str = "abcxyz";
-    $str ~~ m/(<[z]>)/;  ## char class
+    $str ~~ m/(<[z]>)/;  ## char class to match a z
     say $/;
 }
 
+exit;
 
 {
     my $qq = chr(2*16+2);  # "
