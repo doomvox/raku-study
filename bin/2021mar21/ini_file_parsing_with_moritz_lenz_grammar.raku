@@ -76,7 +76,7 @@ say $txt;
         for $section.<keyvalue> -> $keyvalue {
 #            say $keyvalue.^methods>>.name;
 #            say $keyvalue.keyster; ## #<failed match>  
-            say $keyvalue.value; ## #<failed match>  
+            say $keyvalue.value; 
         }
     }
 }
