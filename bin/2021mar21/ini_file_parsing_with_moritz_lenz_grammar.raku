@@ -49,14 +49,20 @@ say $txt;
 {
     my $ini = INIFile.parse( $txt );
     # my $ini = INIFile.parsefile( $file );
-    say $ini; #(Any)
+    say $ini; 
+    #(Any)
 }
 
 {
     for $txt.lines -> $line {
         say $line;
-        my $ini = INIFile.parse( $line, :rule('header') );
-        say $ini;
-    }
+        my $header_mo = INIFile.parse( $line, :rule('header') );
+        say $header_mo;
+
+        my $keyvalue_mo = INIFile.parse( $line, :rule('keyvalue') );
+        say $keyvalue_mo;
+
+
+   }
 
 }
