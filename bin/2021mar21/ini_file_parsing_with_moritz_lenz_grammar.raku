@@ -59,7 +59,7 @@ say $txt;
     # my $ini = INIFile.parsefile( $file );
     say $ini; 
 
-    say $ini.<section>>>.<keyvalue>>>.<key>;
+    say $ini>>.<section>>>.<keyvalue>>>.<key>;
 
 
 }
