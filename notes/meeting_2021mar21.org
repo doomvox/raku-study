@@ -26,6 +26,7 @@
 *** bruce gray
 **** http://rosettacode.org/wiki/Cousin_primes 
 cousin primes: primes that differ by 4
+goal: find all less than 1000
 **** http://rosettacode.org/wiki/Special_factorials
 
 
