@@ -24,13 +24,13 @@ grammar INIFile {
         ^^
         <keyster>
         <[:=]> 
-        <value>
+        <valueoid>
         <.eol>?
     }
     token keyster {
         \w+
     }
-    token value {
+    token valueoid {
         <-[\n;#]>*
     }
     token ws { <!ww> \h* }
@@ -76,13 +76,13 @@ say $txt;
         for $section.<keyvalue> -> $keyvalue {
 #            say $keyvalue.^methods>>.name;
 #            say $keyvalue.keyster; ## #<failed match>  
-            say $keyvalue.value; 
+            say $keyvalue.valueoid; 
             # ｢host: db01.example.com｣
             # ｢｣
         }
     }
 }
-## section header keyvalue keyster value
+## section header keyvalue keyster valueoid
 
 exit;
 
