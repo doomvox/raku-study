@@ -18,7 +18,7 @@ END_TXT
 # p.80 moritz lenz 'parsing'
 {
     my regex quote {
-        \"
+       \"
         [
          <-[ " \\ ]>    ## regular character
          | \\ .         ## escape sequence
