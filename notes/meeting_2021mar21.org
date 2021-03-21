@@ -1,7 +1,7 @@
 * meeting notes Mar 21, 2021
 ** topics
 *** comma has some new repl features: multi-line support
-**** https://rakudoweekly.blog/2020/11/02/2020-44-comma-comma/
+**** https://www.edument.se/en/blog/post/comma-in-2020
 *** grammars
 **** examples 
 ***** quoted strings
