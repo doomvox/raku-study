@@ -67,7 +67,7 @@ say $txt;
 #    say .<keyvalue>.<keyster> for $ini.<section>.list;
 #    say .gist for $ini.<section>.[0].<keyvalue>.list;
 #    say .WHAT for $ini.<section>.[0].<keyvalue>.list;
-    say "===";
+    say "^^^";
 #    say .keyster for $ini.<section>.[0].<keyvalue>.list;
 #     say $ini.<section>.[0].<keyvalue>.elems;
 #     say $_.value for $ini.<section>.[0].<keyvalue>;
