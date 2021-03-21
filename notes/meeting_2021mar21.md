@@ -1,29 +1,29 @@
-- [meeting notes Mar 21, 2021](#org4ea829d)
-  - [topics](#org89d1580)
-    - [comma has some new repl features: multi-line support](#org7be589e)
-    - [grammars](#org084b948)
-    - [nested map idioms (?)](#org35f8899)
-    - [looping idioms using Z (revival)](#orgac1db7d)
-  - [carried over](#orgbe73c93)
-    - [shadow novel where the bad guys speak esperanto](#org012f106)
+- [meeting notes Mar 21, 2021](#org1192a4f)
+  - [topics](#orgb4e0937)
+    - [comma has some new repl features: multi-line support](#org913d85f)
+    - [grammars](#org2450e92)
+    - [nested map idioms (?)](#orge33590e)
+    - [looping idioms using Z (revival)](#org93e6bd2)
+  - [carried over](#org1cf0596)
+    - [shadow novel where the bad guys speak esperanto](#orgedb0ef0)
 
 
-<a id="org4ea829d"></a>
+<a id="org1192a4f"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="org89d1580"></a>
+<a id="orgb4e0937"></a>
 
 ## topics
 
 
-<a id="org7be589e"></a>
+<a id="org913d85f"></a>
 
 ### comma has some new repl features: multi-line support
 
 
-<a id="org084b948"></a>
+<a id="org2450e92"></a>
 
 ### grammars
 
@@ -36,6 +36,8 @@
         2.  embedded quotes
         
             1.  moritz lenz
+            
+                1.  TODO 
             
             2.  yary hluchan
             
@@ -52,12 +54,12 @@
     2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jan24/grammar<sub>calculator</sub><sub>example.pl6</sub>
 
 
-<a id="org35f8899"></a>
+<a id="orge33590e"></a>
 
 ### nested map idioms (?)
 
 
-<a id="orgac1db7d"></a>
+<a id="org93e6bd2"></a>
 
 ### looping idioms using Z (revival)
 
@@ -66,12 +68,12 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping<sub>over</sub><sub>two</sub><sub>parallel</sub><sub>arrays</sub><sub>via</sub><sub>Z.pl6</sub>
 
 
-<a id="orgbe73c93"></a>
+<a id="org1cf0596"></a>
 
 ## carried over
 
 
-<a id="org012f106"></a>
+<a id="orgedb0ef0"></a>
 
 ### shadow novel where the bad guys speak esperanto
 
