@@ -16,7 +16,7 @@ END_TXT
     my regex quote {
         \"
         [
-         <-[ " \\ ]>*   ## regular character
+         <-[ " \\ ]>    ## regular character
          | \\ .         ## escape sequence
         ]*
        \" 
