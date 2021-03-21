@@ -18,7 +18,7 @@ grammar INIFile {
         <keyvalue>*
         }
     rule header {
-        '[' <-[ \] \n ]>+ ']'
+        '[' <-[ \] \n ]>+ ']' <eol>?
     }
     rule keyvalue {
         ^^
