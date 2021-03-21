@@ -1,27 +1,27 @@
-- [meeting notes Mar 21, 2021](#org7143d2a)
-  - [topics](#orgb3c2d4b)
-    - [comma has some new repl features: multi-line support](#orgcc7fb65)
-    - [grammars](#org0960ab7)
-  - [carried over](#org04592d3)
-    - [shadow novel where the bad guys speak esperanto](#org272eb28)
+- [meeting notes Mar 21, 2021](#orgfe10f69)
+  - [topics](#org06cf5f0)
+    - [comma has some new repl features: multi-line support](#org5bb0031)
+    - [grammars](#orgd1e57ee)
+  - [carried over](#org01cdc87)
+    - [shadow novel where the bad guys speak esperanto](#org9d47a72)
 
 
-<a id="org7143d2a"></a>
+<a id="orgfe10f69"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="orgb3c2d4b"></a>
+<a id="org06cf5f0"></a>
 
 ## topics
 
 
-<a id="orgcc7fb65"></a>
+<a id="org5bb0031"></a>
 
 ### comma has some new repl features: multi-line support
 
 
-<a id="org0960ab7"></a>
+<a id="orgd1e57ee"></a>
 
 ### grammars
 
@@ -36,12 +36,12 @@
     2.  ini file parsing
 
 
-<a id="org04592d3"></a>
+<a id="org01cdc87"></a>
 
 ## carried over
 
 
-<a id="org272eb28"></a>
+<a id="org9d47a72"></a>
 
 ### shadow novel where the bad guys speak esperanto
 
