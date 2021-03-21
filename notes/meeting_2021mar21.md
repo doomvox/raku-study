@@ -1,30 +1,32 @@
-- [meeting notes Mar 21, 2021](#orgbb2a6cd)
-  - [topics](#orgefd5883)
-    - [comma has some new repl features: multi-line support](#org20604af)
-    - [grammars](#orge1a878c)
-    - [nested map idioms](#org124b038)
-    - [looping idioms using Z (revival)](#orga2ec039)
-  - [carried over](#org5162eff)
-    - [shadow novel where the bad guys speak esperanto](#org396c525)
-    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org5b823fe)
+- [meeting notes Mar 21, 2021](#org57a1989)
+  - [topics](#org224468e)
+    - [comma has some new repl features: multi-line support](#org580fefc)
+    - [grammars](#orgbe02233)
+    - [nested map idioms](#org36e04c2)
+    - [looping idioms using Z (revival)](#orgf7e2489)
+  - [carried over](#orgc4a0d8c)
+    - [shadow novel where the bad guys speak esperanto](#orgec534a4)
+    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org89545ea)
 
 
-<a id="orgbb2a6cd"></a>
+<a id="org57a1989"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="orgefd5883"></a>
+<a id="org224468e"></a>
 
 ## topics
 
 
-<a id="org20604af"></a>
+<a id="org580fefc"></a>
 
 ### comma has some new repl features: multi-line support
 
+1.  <https://rakudoweekly.blog/2020/11/02/2020-44-comma-comma/>
 
-<a id="orge1a878c"></a>
+
+<a id="orgbe02233"></a>
 
 ### grammars
 
@@ -55,14 +57,14 @@
     2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jan24/grammar<sub>calculator</sub><sub>example.pl6</sub>
 
 
-<a id="org124b038"></a>
+<a id="org36e04c2"></a>
 
 ### nested map idioms
 
 1.  TODO 
 
 
-<a id="orga2ec039"></a>
+<a id="orgf7e2489"></a>
 
 ### looping idioms using Z (revival)
 
@@ -71,12 +73,12 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping<sub>over</sub><sub>two</sub><sub>parallel</sub><sub>arrays</sub><sub>via</sub><sub>Z.pl6</sub>
 
 
-<a id="org5162eff"></a>
+<a id="orgc4a0d8c"></a>
 
 ## carried over
 
 
-<a id="org396c525"></a>
+<a id="orgec534a4"></a>
 
 ### shadow novel where the bad guys speak esperanto
 
@@ -85,7 +87,7 @@
 2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
 
 
-<a id="org5b823fe"></a>
+<a id="org89545ea"></a>
 
 ### zoffix talk july 28, 2018 intro p6 regexes and grammars
 
