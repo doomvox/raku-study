@@ -31,8 +31,8 @@ class DNA {
 };
  
 ## Example docs claim you can do this (throws an error)
-my @string is DNA = 'GAATCC';
-say @string.Str;    # OUTPUT: «((G A A) (T C C))␤» 
+# my @string is DNA = 'GAATCC';
+# say @string.Str;    # OUTPUT: «((G A A) (T C C))␤» 
 # @string = 'ACGTCG';
 # say @string.Str;    # OUTPUT: «((A C G) (T C G))␤» 
 
