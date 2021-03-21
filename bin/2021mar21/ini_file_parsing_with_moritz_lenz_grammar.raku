@@ -41,3 +41,4 @@ my $txt = q:to/END_TEXT/;
 my  $file = "/home/doom/tmp/simple_config.ini";
 $file.IO.spurt($txt);
 
+say $txt;
