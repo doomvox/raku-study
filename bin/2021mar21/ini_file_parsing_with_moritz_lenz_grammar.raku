@@ -53,6 +53,7 @@ say $txt;
 }
 
 (
-    my $ini = INIFile.parse( $txt );
-
+    for $txt.lines -> $line {
+        my $ini = INIFile.parse( $txt );
+    }
 }
