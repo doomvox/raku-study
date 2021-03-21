@@ -42,3 +42,5 @@ my  $file = "/home/doom/tmp/simple_config.ini";
 $file.IO.spurt($txt);
 
 say $txt;
+
+my $ini = INIFile.parse( $txt );
