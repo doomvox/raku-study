@@ -25,6 +25,10 @@ END_TXT
     $txt ~~ m/<quote>/;
     say $/;
 
+  # ｢"quoted"｣
+  #  quote => ｢"quoted"｣
+
+
     # ｢"quoted"｣
     #  simple_q => ｢"quoted"｣
 
