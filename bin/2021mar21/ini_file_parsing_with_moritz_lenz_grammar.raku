@@ -72,6 +72,12 @@ say $txt;
     say $ini.<section>.[0].<keyvalue>.elems;
     say $_.value for $ini.<section>.[0].<keyvalue>;
 
+    for $ini.<section> -> $section {
+        for $section.<keyvalue> -> $keyvalue {
+            say $keyvalue.gist;
+            }
+    }
+
 }
 
 exit;
