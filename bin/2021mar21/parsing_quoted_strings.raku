@@ -14,14 +14,15 @@ my $txt = q:to/END_TXT/;
 Here we have a "quoted" string.
 END_TXT
 
-my regex simple_q { \" <-["]>* \" };
+{
+    my regex simple_q { \" <-["]>* \" };
 
-$txt ~~ m/<simple_q>/;
-say $/;
-# ｢"quoted"｣
-#  simple_q => ｢"quoted"｣
+    $txt ~~ m/<simple_q>/;
+    say $/;
+    # ｢"quoted"｣
+    #  simple_q => ｢"quoted"｣
 
-say $/<simple_q>; # ｢"quoted"｣
-say $<simple_q>;  # ｢"quoted"｣
+    say $/<simple_q>; # ｢"quoted"｣
+    say $<simple_q>;  # ｢"quoted"｣
 
-
+}
