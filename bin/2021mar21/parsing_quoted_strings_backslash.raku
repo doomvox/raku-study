@@ -11,7 +11,7 @@ my $txt = q:to/END_TXT/;
 Here we have a "quoted" string.
 END_TXT
 
-my $txt_2 = q:to/END_TXT/;
+my $txt2 = q:to/END_TXT/;
 Here we nested quotes: "quotes can be \"scary\" yes" string.
 END_TXT
 
