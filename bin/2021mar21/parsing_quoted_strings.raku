@@ -25,7 +25,7 @@ exit;
 {
     my $qq = chr(2*16+2);  # "
     say $qq;
-    my regex simple_q { \" < -[ <$qq> ] >* \" };  
+#    my regex simple_q { \" < -[ <$qq> ] >* \" };  
 
     $txt ~~ m/<simple_q>/;
     say $/;
