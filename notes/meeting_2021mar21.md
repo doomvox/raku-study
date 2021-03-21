@@ -1,28 +1,29 @@
-- [meeting notes Mar 21, 2021](#orgf6b3bc7)
-  - [topics](#orgbe239ac)
-    - [comma has some new repl features: multi-line support](#orga718d44)
-    - [grammars](#org70244eb)
-    - [nested map idioms](#orgf0c3228)
-  - [carried over](#orgaa60820)
-    - [shadow novel where the bad guys speak esperanto](#orgf701048)
+- [meeting notes Mar 21, 2021](#org6b5abe4)
+  - [topics](#org6878b0b)
+    - [comma has some new repl features: multi-line support](#orgf28de30)
+    - [grammars](#org5802a59)
+    - [nested map idioms (?)](#org5f72e94)
+    - [looping idioms using Z (did we talk about this?)](#orgf19bf6c)
+  - [carried over](#org05248c2)
+    - [shadow novel where the bad guys speak esperanto](#org4e09c70)
 
 
-<a id="orgf6b3bc7"></a>
+<a id="org6b5abe4"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="orgbe239ac"></a>
+<a id="org6878b0b"></a>
 
 ## topics
 
 
-<a id="orga718d44"></a>
+<a id="orgf28de30"></a>
 
 ### comma has some new repl features: multi-line support
 
 
-<a id="org70244eb"></a>
+<a id="org5802a59"></a>
 
 ### grammars
 
@@ -37,17 +38,26 @@
     2.  ini file parsing
 
 
-<a id="orgf0c3228"></a>
+<a id="org5f72e94"></a>
 
-### nested map idioms
+### nested map idioms (?)
 
 
-<a id="orgaa60820"></a>
+<a id="orgf19bf6c"></a>
+
+### looping idioms using Z (did we talk about this?)
+
+1.  <https://github.com/doomvox/raku-study/blob/main/notes/bin/2021mar07/looping_over_two_parallel_arrays_via_Z.pl6>
+
+2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping<sub>over</sub><sub>two</sub><sub>parallel</sub><sub>arrays</sub><sub>via</sub><sub>Z.pl6</sub>
+
+
+<a id="org05248c2"></a>
 
 ## carried over
 
 
-<a id="orgf701048"></a>
+<a id="org4e09c70"></a>
 
 ### shadow novel where the bad guys speak esperanto
 
