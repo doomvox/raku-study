@@ -31,7 +31,3 @@ END_TXT
     say $<quote>;  # ｢"quoted"｣
 }
 
-
-for <ab cd ef> { 
-say $_;
-}
