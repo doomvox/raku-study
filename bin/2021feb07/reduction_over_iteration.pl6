@@ -9,7 +9,7 @@ use v6;
 
 
 my @rabbits  = < bugs peter easter >;
-my $all ~= @rabbits; 
+my $all ~= @rabbits;   ## note: if you've got p5 eyes, ~= seems *really* strange
 say "...$all..."; # ...bugs peter easter...
 
 .say for @rabbits;
