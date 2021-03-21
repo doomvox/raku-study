@@ -30,6 +30,7 @@ class DNA {
     }
  
     method Str(::?CLASS:D:) { return $.chain.comb.rotor(3) }
+      ###  This type cannot unbox to a native string: P6opaque, Seq
 };
  
 my @string is DNA = 'GAATCC';
