@@ -23,7 +23,6 @@ END_TXT
          | \\ .         ## escape sequence
         ]*
          \" 
-        ]
      };
 
     $txt ~~ m/<quote>/;
