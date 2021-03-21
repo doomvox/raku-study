@@ -33,5 +33,4 @@ END_TXT
 
     say $/<simple_q>; # ｢"quoted"｣
     say $<simple_q>;  # ｢"quoted"｣
-
 }
