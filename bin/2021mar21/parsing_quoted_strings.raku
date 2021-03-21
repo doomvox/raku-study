@@ -15,7 +15,7 @@ Here we have a "quoted" string.
 END_TXT
 
 {
-    my $qq = chr(2*16+2);
+    my $qq = chr(2*16+2);  # "
     say $qq;
     exit;
 
