@@ -54,6 +54,7 @@ say $txt;
 
 {
     for $txt.lines -> $line {
+        say $line;
         my $ini = INIFile.parse( $line, :rule('header') );
         say $ini;
     }
