@@ -22,10 +22,13 @@ grammar INIFile {
     }
     rule keyvalue {
         ^^
-        $<key>=[\w+]
+        <key>
         <[:=]> 
         $<value>=[<-[\n;#]>*]
         <.eol>
+    }
+    rule key {
+        [\w+]
     }
     token ws { <!ww> \h* }
     token eol {
