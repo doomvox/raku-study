@@ -36,6 +36,8 @@ END_TXT
 
     $txt2 ~~ m/<quote>/;
     say $/;
+    # ｢"quotes can be \"scary\" yes"｣
+    #  quote => ｢"quotes can be \"scary\" yes"｣
 
 
 
