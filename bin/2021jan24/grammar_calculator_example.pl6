@@ -25,3 +25,5 @@ say Calculator.parse('2 + 3', actions => Calculations).made;
 
 
 say Calculator.parse('3 - 7', actions => Calculations).made;
+## -4
+
