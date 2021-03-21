@@ -8,7 +8,7 @@ use v6;
 # p. 122 of Moritz Lenz "Parsing with Perl6 Regexes and Grammars"
 
 # STATUS: not working.  proof for typos
-# tests of the components
+# individual tests of the components
 
 grammar INIFile {
     token TOP { <section>* }
