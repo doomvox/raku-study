@@ -15,7 +15,6 @@ my $txt_2 = q:to/END_TXT/;
 Here we nested quotes: "quotes can be \"scary\" yes" string.
 END_TXT
 
-
 # p.80 moritz lenz 'parsing'
 {
     my regex quote {
