@@ -57,7 +57,7 @@ say $txt;
 {
     my $ini = INIFile.parse( $txt );
     # my $ini = INIFile.parsefile( $file );
-    say $ini; 
+#    say $ini; 
     say $ini.WHAT; # (INIFile)
 
     say "XXX";
