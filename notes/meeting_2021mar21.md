@@ -1,32 +1,32 @@
-- [meeting notes Mar 21, 2021](#org2e08207)
-  - [topics](#org28faf79)
-    - [comma has some new repl features: multi-line support](#orgff3b7a3)
-    - [grammars](#orgc4edb43)
-    - [nested map idioms](#orgae13e95)
-    - [looping idioms using Z (revival)](#org6ef6fbc)
-  - [carried over](#orga3a8618)
-    - [shadow novel where the bad guys speak esperanto](#org29c6388)
-    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org8a678d5)
+- [meeting notes Mar 21, 2021](#orgb867853)
+  - [topics](#org26fd262)
+    - [comma has some new repl features: multi-line support](#orga811cca)
+    - [grammars](#orge691d17)
+    - [nested map idioms](#orgd9792f1)
+    - [looping idioms using Z (revival)](#org7f4e887)
+  - [carried over](#org17d6c9b)
+    - [shadow novel where the bad guys speak esperanto](#orgf2be5cd)
+    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org5bcf1fb)
 
 
-<a id="org2e08207"></a>
+<a id="orgb867853"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="org28faf79"></a>
+<a id="org26fd262"></a>
 
 ## topics
 
 
-<a id="orgff3b7a3"></a>
+<a id="orga811cca"></a>
 
 ### comma has some new repl features: multi-line support
 
 1.  <https://www.edument.se/en/blog/post/comma-in-2020>
 
 
-<a id="orgc4edb43"></a>
+<a id="orge691d17"></a>
 
 ### grammars
 
@@ -40,9 +40,9 @@
         
             1.  moritz lenz
             
-                1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing<sub>quoted</sub><sub>strings</sub><sub>backslash.raku</sub>
+                1.  <https://github.com/doomvox/raku-study/blob/main/notes/bin/2021mar21/parsing_quoted_strings_backslash.raku>
                 
-                2.  <https://github.com/doomvox/raku-study/blob/main/notes/bin/2021mar21/parsing_quoted_strings_backslash.raku>
+                2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing<sub>quoted</sub><sub>strings</sub><sub>backslash.raku</sub>
             
             2.  yary hluchan
             
@@ -59,14 +59,14 @@
     2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jan24/grammar<sub>calculator</sub><sub>example.pl6</sub>
 
 
-<a id="orgae13e95"></a>
+<a id="orgd9792f1"></a>
 
 ### nested map idioms
 
 1.  TODO 
 
 
-<a id="org6ef6fbc"></a>
+<a id="org7f4e887"></a>
 
 ### looping idioms using Z (revival)
 
@@ -75,12 +75,12 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping<sub>over</sub><sub>two</sub><sub>parallel</sub><sub>arrays</sub><sub>via</sub><sub>Z.pl6</sub>
 
 
-<a id="orga3a8618"></a>
+<a id="org17d6c9b"></a>
 
 ## carried over
 
 
-<a id="org29c6388"></a>
+<a id="orgf2be5cd"></a>
 
 ### shadow novel where the bad guys speak esperanto
 
@@ -89,7 +89,7 @@
 2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
 
 
-<a id="org8a678d5"></a>
+<a id="org5bcf1fb"></a>
 
 ### zoffix talk july 28, 2018 intro p6 regexes and grammars
 
