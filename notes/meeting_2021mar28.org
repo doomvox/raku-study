@@ -4,3 +4,15 @@
 **** review perl5 approaches
 ***** maybe, try python version
 **** get some raku code working 
+***** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested_map.raku
+*** quoted string regexs
+**** perl5 versions
+**** continue with raku versions
+***** next: balanced quotes of various types
+****** yary hluchan
+******** https://github.com/doomvox/raku-study/blob/main/notes/bin/richard_hainsworth_grammar.raku
+******** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/richard_hainsworth_grammar.raku
+
+****** moritz lenz 
+******** https://github.com/doomvox/raku-study/blob/main/notes/bin/2021mar21/parsing_quoted_strings_backslash.raku
+******** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing_quoted_strings_backslash.raku
