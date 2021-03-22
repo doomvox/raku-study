@@ -39,6 +39,7 @@ documentation is weak and code example isn't working
 ***** https://github.com/Raku/doc/issues/3824
 ***** Can compare to perl5's tie, e.g. (bruce gray)
 ****** https://metacpan.org/pod/Tie::File
+***** https://design.raku.org/S06.html
 
 ** carried over
 *** shadow novel where the bad guys speak esperanto
