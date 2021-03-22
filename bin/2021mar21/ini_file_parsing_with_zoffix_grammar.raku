@@ -30,6 +30,5 @@ my $txt = q:to/END_TEXT/;
         for $section.<row> -> $row {
             say $row.<key>, ' => ', $row.<value>;
         }
-
     }
 }
