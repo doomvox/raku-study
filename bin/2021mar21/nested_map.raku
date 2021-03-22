@@ -20,5 +20,5 @@ say @mat; # [(3 7 9) (2 4 6) (13 17 23)]
 
 say "---";
 say @mat; # [(3 7 9) (2 4 6) (13 17 23)]
-@mat.map({ .map({ .say }) }); 
+@mat.map({ .map({ .say }) });  ## no output??? 
 
