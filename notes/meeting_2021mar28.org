@@ -20,3 +20,6 @@
 **** find alternate examples
 **** narrow down what was wrong with moritz lenz inifile
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini_file_parsing_with_moritz_lenz_grammar.raku
+*** grammar to parse doomfiles
+**** simple scripts, e.g. scan through browse sequence
+
