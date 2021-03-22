@@ -6,7 +6,7 @@ use v6;
 
 grammar TPM {
     token key {
-
+        <-[:\n]>+
     }
 
 
