@@ -30,8 +30,8 @@ say @mat; # [(3 7 9) (2 4 6) (13 17 23)]
 ## @mat.map({ .map( -> $a { $a.say } ) });
 
 for @mat -> $row {
-    for $row.values -> $element {
-        say $row;
+    for $row -> $element {
+        say $element;
         }
     say "\n";
 }
