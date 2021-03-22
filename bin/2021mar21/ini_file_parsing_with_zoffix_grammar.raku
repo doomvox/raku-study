@@ -5,19 +5,16 @@
 use v6;
 
 grammar TPM {
-    token key {
-        <-[:\n]>+
+    token key     { <-[:\n]>+         }
+    token value   { <-[\]\n]>+        }
+    rule row      { <key> ':' <value> }
+    rule header   { '[' ~ ']' <value> }
     }
 
 
     token section {
     }
-    rule header {
-    }
-    rule keyvalue {
-    }
-    token value {
-    }
+
     token ws { <!ww> \h* }
     token eol {
         \n [\h*\n]*
