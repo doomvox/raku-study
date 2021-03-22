@@ -34,8 +34,10 @@ goal: find all less than 1000
 ***** https://rosettacode.org/wiki/Sorting_algorithms/Strand_sort#Raku
 
 **** STORE oop feature (bill michels)
+documentation is weak and code example isn't working
 ***** https://docs.raku.org/routine/STORE
-***** 
+***** https://github.com/Raku/doc/issues/3824
+
 ** carried over
 *** shadow novel where the bad guys speak esperanto
 ****  "Crime Under Cover" (1941) by Maxwell Grant

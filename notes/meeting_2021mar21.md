@@ -1,33 +1,33 @@
-- [meeting notes Mar 21, 2021](#orgebbf7cf)
-  - [topics](#org33c605b)
-    - [comma has some new repl features: multi-line support](#org05322b3)
-    - [grammars](#org7288559)
-    - [nested map idioms](#org8618c07)
-    - [looping idioms using Z (revival)](#orgd3c426c)
-    - [bruce gray](#orgcd550f0)
-  - [carried over](#org43e220b)
-    - [shadow novel where the bad guys speak esperanto](#org3ca19fb)
-    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org9eaf62d)
+- [meeting notes Mar 21, 2021](#orge42d7d1)
+  - [topics](#org8f89c38)
+    - [comma has some new repl features: multi-line support](#orga69c8cb)
+    - [grammars](#orgcecd899)
+    - [nested map idioms](#orge9fc1a3)
+    - [looping idioms using Z (revival)](#org346f720)
+    - [bruce gray](#orgc79f46d)
+  - [carried over](#org5593f58)
+    - [shadow novel where the bad guys speak esperanto](#orgb7ebfd1)
+    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org2007b25)
 
 
-<a id="orgebbf7cf"></a>
+<a id="orge42d7d1"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="org33c605b"></a>
+<a id="org8f89c38"></a>
 
 ## topics
 
 
-<a id="org05322b3"></a>
+<a id="orga69c8cb"></a>
 
 ### comma has some new repl features: multi-line support
 
 1.  <https://www.edument.se/en/blog/post/comma-in-2020>
 
 
-<a id="org7288559"></a>
+<a id="orgcecd899"></a>
 
 ### grammars
 
@@ -60,14 +60,14 @@
     2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jan24/grammar<sub>calculator</sub><sub>example.pl6</sub>
 
 
-<a id="org8618c07"></a>
+<a id="orge9fc1a3"></a>
 
 ### nested map idioms
 
 1.  TODO 
 
 
-<a id="orgd3c426c"></a>
+<a id="org346f720"></a>
 
 ### looping idioms using Z (revival)
 
@@ -76,7 +76,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping<sub>over</sub><sub>two</sub><sub>parallel</sub><sub>arrays</sub><sub>via</sub><sub>Z.pl6</sub>
 
 
-<a id="orgcd550f0"></a>
+<a id="orgc79f46d"></a>
 
 ### bruce gray
 
@@ -94,17 +94,19 @@
 
 4.  STORE oop feature (bill michels)
 
+    documentation is weak and code example isn't working
+    
     1.  <https://docs.raku.org/routine/STORE>
     
-    2.  
+    2.  <https://github.com/Raku/doc/issues/3824>
 
 
-<a id="org43e220b"></a>
+<a id="org5593f58"></a>
 
 ## carried over
 
 
-<a id="org3ca19fb"></a>
+<a id="orgb7ebfd1"></a>
 
 ### shadow novel where the bad guys speak esperanto
 
@@ -113,7 +115,7 @@
 2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
 
 
-<a id="org9eaf62d"></a>
+<a id="org2007b25"></a>
 
 ### zoffix talk july 28, 2018 intro p6 regexes and grammars
 
