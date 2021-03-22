@@ -1,33 +1,33 @@
-- [meeting notes Mar 21, 2021](#orge42d7d1)
-  - [topics](#org8f89c38)
-    - [comma has some new repl features: multi-line support](#orga69c8cb)
-    - [grammars](#orgcecd899)
-    - [nested map idioms](#orge9fc1a3)
-    - [looping idioms using Z (revival)](#org346f720)
-    - [bruce gray](#orgc79f46d)
-  - [carried over](#org5593f58)
-    - [shadow novel where the bad guys speak esperanto](#orgb7ebfd1)
-    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org2007b25)
+- [meeting notes Mar 21, 2021](#org964d11f)
+  - [topics](#org42fc1ba)
+    - [comma has some new repl features: multi-line support](#org0f21357)
+    - [grammars](#org0cfc43d)
+    - [nested map idioms](#orgdd4be25)
+    - [looping idioms using Z (revival)](#org8637b82)
+    - [bruce gray](#org60a1610)
+  - [carried over](#orga574a58)
+    - [shadow novel where the bad guys speak esperanto](#orgd584ae7)
+    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org845983e)
 
 
-<a id="orge42d7d1"></a>
+<a id="org964d11f"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="org8f89c38"></a>
+<a id="org42fc1ba"></a>
 
 ## topics
 
 
-<a id="orga69c8cb"></a>
+<a id="org0f21357"></a>
 
 ### comma has some new repl features: multi-line support
 
 1.  <https://www.edument.se/en/blog/post/comma-in-2020>
 
 
-<a id="orgcecd899"></a>
+<a id="org0cfc43d"></a>
 
 ### grammars
 
@@ -60,14 +60,14 @@
     2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jan24/grammar<sub>calculator</sub><sub>example.pl6</sub>
 
 
-<a id="orge9fc1a3"></a>
+<a id="orgdd4be25"></a>
 
 ### nested map idioms
 
 1.  TODO 
 
 
-<a id="org346f720"></a>
+<a id="org8637b82"></a>
 
 ### looping idioms using Z (revival)
 
@@ -76,7 +76,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping<sub>over</sub><sub>two</sub><sub>parallel</sub><sub>arrays</sub><sub>via</sub><sub>Z.pl6</sub>
 
 
-<a id="orgc79f46d"></a>
+<a id="org60a1610"></a>
 
 ### bruce gray
 
@@ -99,14 +99,18 @@
     1.  <https://docs.raku.org/routine/STORE>
     
     2.  <https://github.com/Raku/doc/issues/3824>
+    
+    3.  Can compare to perl5's tie, e.g. (bruce gray)
+    
+        1.  <https://metacpan.org/pod/Tie::File>
 
 
-<a id="org5593f58"></a>
+<a id="orga574a58"></a>
 
 ## carried over
 
 
-<a id="orgb7ebfd1"></a>
+<a id="orgd584ae7"></a>
 
 ### shadow novel where the bad guys speak esperanto
 
@@ -115,7 +119,7 @@
 2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
 
 
-<a id="org2007b25"></a>
+<a id="org845983e"></a>
 
 ### zoffix talk july 28, 2018 intro p6 regexes and grammars
 

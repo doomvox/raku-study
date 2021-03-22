@@ -37,7 +37,8 @@ goal: find all less than 1000
 documentation is weak and code example isn't working
 ***** https://docs.raku.org/routine/STORE
 ***** https://github.com/Raku/doc/issues/3824
-
+***** Can compare to perl5's tie, e.g. (bruce gray)
+****** https://metacpan.org/pod/Tie::File
 ** carried over
 *** shadow novel where the bad guys speak esperanto
 ****  "Crime Under Cover" (1941) by Maxwell Grant
