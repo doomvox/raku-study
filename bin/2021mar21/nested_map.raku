@@ -29,11 +29,13 @@ say @mat; # [(3 7 9) (2 4 6) (13 17 23)]
 
 ## @mat.map({ .map( -> $a { $a.say } ) });
 
+say "---";
 for (0..@mat.elems) -> $i {
     for (0..@mat[$i].elems) -> $j {    
         say @mat[$i][$j];
     }
 }
+say "---";
 
 for @mat -> $row {
     for $row -> $element {
