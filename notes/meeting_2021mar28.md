@@ -1,21 +1,21 @@
-- [meeting notes Mar 28, 2021](#org712938d)
-  - [topics](#org4b870a2)
-    - [nested map idioms](#org2a08107)
-    - [quoted string regexs](#org8171379)
-    - [extracting results from grammar matches](#org318807a)
+- [meeting notes Mar 28, 2021](#orge4266e1)
+  - [topics](#orga29f3ac)
+    - [nested map idioms](#org62091d9)
+    - [quoted string regexs](#org27bafd2)
+    - [extracting results from grammar matches](#org201ea93)
 
 
-<a id="org712938d"></a>
+<a id="orge4266e1"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org4b870a2"></a>
+<a id="orga29f3ac"></a>
 
 ## topics
 
 
-<a id="org2a08107"></a>
+<a id="org62091d9"></a>
 
 ### nested map idioms
 
@@ -28,7 +28,7 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested<sub>map.raku</sub>
 
 
-<a id="org8171379"></a>
+<a id="org27bafd2"></a>
 
 ### quoted string regexs
 
@@ -51,10 +51,12 @@
             2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing<sub>quoted</sub><sub>strings</sub><sub>backslash.raku</sub>
 
 
-<a id="org318807a"></a>
+<a id="org201ea93"></a>
 
 ### extracting results from grammar matches
 
 1.  find alternate examples
 
 2.  narrow down what was wrong with moritz lenz inifile
+
+    1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini<sub>file</sub><sub>parsing</sub><sub>with</sub><sub>moritz</sub><sub>lenz</sub><sub>grammar.raku</sub>
