@@ -1,33 +1,33 @@
-- [meeting notes Mar 21, 2021](#org1faf493)
-  - [topics](#org62cc1a0)
-    - [comma has some new repl features: multi-line support](#org6186cc6)
-    - [grammars](#orgcefb47c)
-    - [nested map idioms](#org6c9287c)
-    - [looping idioms using Z (revival)](#org627f207)
-    - [bruce gray](#org4e6ec94)
-  - [carried over](#orgdefd879)
-    - [shadow novel where the bad guys speak esperanto](#org2e7910b)
-    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#orga4e8eed)
+- [meeting notes Mar 21, 2021](#orgebbf7cf)
+  - [topics](#org33c605b)
+    - [comma has some new repl features: multi-line support](#org05322b3)
+    - [grammars](#org7288559)
+    - [nested map idioms](#org8618c07)
+    - [looping idioms using Z (revival)](#orgd3c426c)
+    - [bruce gray](#orgcd550f0)
+  - [carried over](#org43e220b)
+    - [shadow novel where the bad guys speak esperanto](#org3ca19fb)
+    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org9eaf62d)
 
 
-<a id="org1faf493"></a>
+<a id="orgebbf7cf"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="org62cc1a0"></a>
+<a id="org33c605b"></a>
 
 ## topics
 
 
-<a id="org6186cc6"></a>
+<a id="org05322b3"></a>
 
 ### comma has some new repl features: multi-line support
 
 1.  <https://www.edument.se/en/blog/post/comma-in-2020>
 
 
-<a id="orgcefb47c"></a>
+<a id="org7288559"></a>
 
 ### grammars
 
@@ -60,14 +60,14 @@
     2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jan24/grammar<sub>calculator</sub><sub>example.pl6</sub>
 
 
-<a id="org6c9287c"></a>
+<a id="org8618c07"></a>
 
 ### nested map idioms
 
 1.  TODO 
 
 
-<a id="org627f207"></a>
+<a id="orgd3c426c"></a>
 
 ### looping idioms using Z (revival)
 
@@ -76,7 +76,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping<sub>over</sub><sub>two</sub><sub>parallel</sub><sub>arrays</sub><sub>via</sub><sub>Z.pl6</sub>
 
 
-<a id="org4e6ec94"></a>
+<a id="orgcd550f0"></a>
 
 ### bruce gray
 
@@ -86,13 +86,25 @@
 
 2.  <http://rosettacode.org/wiki/Special_factorials>
 
+3.  strand sort (bill michels)
 
-<a id="orgdefd879"></a>
+    1.  <https://rosettacode.org/wiki/Sorting_algorithms/Strand_sort#Perl>
+    
+    2.  <https://rosettacode.org/wiki/Sorting_algorithms/Strand_sort#Raku>
+
+4.  STORE oop feature (bill michels)
+
+    1.  <https://docs.raku.org/routine/STORE>
+    
+    2.  
+
+
+<a id="org43e220b"></a>
 
 ## carried over
 
 
-<a id="org2e7910b"></a>
+<a id="org3ca19fb"></a>
 
 ### shadow novel where the bad guys speak esperanto
 
@@ -101,7 +113,7 @@
 2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
 
 
-<a id="orga4e8eed"></a>
+<a id="org9eaf62d"></a>
 
 ### zoffix talk july 28, 2018 intro p6 regexes and grammars
 

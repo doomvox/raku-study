@@ -29,7 +29,13 @@ cousin primes: primes that differ by 4
 goal: find all less than 1000
 **** http://rosettacode.org/wiki/Special_factorials
 
+**** strand sort (bill michels)
+***** https://rosettacode.org/wiki/Sorting_algorithms/Strand_sort#Perl
+***** https://rosettacode.org/wiki/Sorting_algorithms/Strand_sort#Raku
 
+**** STORE oop feature (bill michels)
+***** https://docs.raku.org/routine/STORE
+***** 
 ** carried over
 *** shadow novel where the bad guys speak esperanto
 ****  "Crime Under Cover" (1941) by Maxwell Grant
