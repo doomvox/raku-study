@@ -33,5 +33,5 @@ for @mat -> $row {
     for $row -> $element {
         say $row;
         }
-    say;
+    say "\n";
 }
