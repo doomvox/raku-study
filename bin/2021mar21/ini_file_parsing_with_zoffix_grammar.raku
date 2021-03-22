@@ -25,7 +25,8 @@ my $txt = q:to/END_TEXT/;
 
 {
     my $ini = INIFile.parse( $txt );
-    for $ini.<section> -> $section {
-        ## ...
-    }
+    dd $ini;
+#     for $ini.<section> -> $section {
+#         ## ...
+#     }
 }
