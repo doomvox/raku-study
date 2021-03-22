@@ -16,3 +16,6 @@
 ****** moritz lenz 
 ******** https://github.com/doomvox/raku-study/blob/main/notes/bin/2021mar21/parsing_quoted_strings_backslash.raku
 ******** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing_quoted_strings_backslash.raku
+*** extracting results from grammar matches
+**** find alternate examples
+**** narrow down what was wrong with moritz lenz inifile
