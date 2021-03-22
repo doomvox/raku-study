@@ -45,6 +45,13 @@ https://docs.raku.org/language/subscripts#Custom_type_example
 
 
 
+15:25:59	 From Bill Michels : 
+15:29:05	 From Bill Michels : Contrary view: 
+
+**** Bill Michels video picks
+***** https://youtu.be/lwIXF25KJCo
+***** https://youtu.be/jYpBGku0aTU
+
 ** carried over
 *** shadow novel where the bad guys speak esperanto
 ****  "Crime Under Cover" (1941) by Maxwell Grant

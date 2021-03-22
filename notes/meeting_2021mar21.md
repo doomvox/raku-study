@@ -1,33 +1,33 @@
-- [meeting notes Mar 21, 2021](#orgb688eb8)
-  - [topics](#org2fa6b91)
-    - [comma has some new repl features: multi-line support](#org91c9b0a)
-    - [grammars](#orga4a8745)
-    - [nested map idioms](#org4c84c0b)
-    - [looping idioms using Z (revival)](#orgc483f2d)
-    - [bruce gray](#orgbde1fa3)
-  - [carried over](#org3dd02ad)
-    - [shadow novel where the bad guys speak esperanto](#org4dd3640)
-    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org8c71481)
+- [meeting notes Mar 21, 2021](#org38ea733)
+  - [topics](#org64cd32a)
+    - [comma has some new repl features: multi-line support](#orgdb29533)
+    - [grammars](#orgccd3fbd)
+    - [nested map idioms](#orgaaa9c2e)
+    - [looping idioms using Z (revival)](#org9d45cf8)
+    - [bruce gray](#org95faf90)
+  - [carried over](#orgfdb0413)
+    - [shadow novel where the bad guys speak esperanto](#org4b1d960)
+    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org62fce38)
 
 
-<a id="orgb688eb8"></a>
+<a id="org38ea733"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="org2fa6b91"></a>
+<a id="org64cd32a"></a>
 
 ## topics
 
 
-<a id="org91c9b0a"></a>
+<a id="orgdb29533"></a>
 
 ### comma has some new repl features: multi-line support
 
 1.  <https://www.edument.se/en/blog/post/comma-in-2020>
 
 
-<a id="orga4a8745"></a>
+<a id="orgccd3fbd"></a>
 
 ### grammars
 
@@ -60,14 +60,14 @@
     2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jan24/grammar<sub>calculator</sub><sub>example.pl6</sub>
 
 
-<a id="org4c84c0b"></a>
+<a id="orgaaa9c2e"></a>
 
 ### nested map idioms
 
 1.  TODO 
 
 
-<a id="orgc483f2d"></a>
+<a id="org9d45cf8"></a>
 
 ### looping idioms using Z (revival)
 
@@ -76,7 +76,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping<sub>over</sub><sub>two</sub><sub>parallel</sub><sub>arrays</sub><sub>via</sub><sub>Z.pl6</sub>
 
 
-<a id="orgbde1fa3"></a>
+<a id="org95faf90"></a>
 
 ### bruce gray
 
@@ -109,14 +109,22 @@
     5.  better example
     
         <https://docs.raku.org/language/subscripts#Custom_type_example>
+        
+        15:25:59 From Bill Michels : 15:29:05 From Bill Michels : Contrary view:
+
+5.  Bill Michels video picks
+
+    1.  <https://youtu.be/lwIXF25KJCo>
+    
+    2.  <https://youtu.be/jYpBGku0aTU>
 
 
-<a id="org3dd02ad"></a>
+<a id="orgfdb0413"></a>
 
 ## carried over
 
 
-<a id="org4dd3640"></a>
+<a id="org4b1d960"></a>
 
 ### shadow novel where the bad guys speak esperanto
 
@@ -125,7 +133,7 @@
 2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
 
 
-<a id="org8c71481"></a>
+<a id="org62fce38"></a>
 
 ### zoffix talk july 28, 2018 intro p6 regexes and grammars
 
