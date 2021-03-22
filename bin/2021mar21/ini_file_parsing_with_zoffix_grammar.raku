@@ -9,19 +9,13 @@ grammar TPM {
     token value   { <-[\]\n]>+        }
     rule row      { <key> ':' <value> }
     rule header   { '[' ~ ']' <value> }
-    }
-
-
-    token section {
-    }
-
-    token ws { <!ww> \h* }
-    token eol {
-        \n [\h*\n]*
-    }
-
+    rule section  { <header> <row>+   }
     token TOP { <section>+ }
 }
+#     token ws { <!ww> \h* }
+#     token eol {
+#         \n [\h*\n]*
+#     }
 
 my $txt = q:to/END_TEXT/;
     [db]
