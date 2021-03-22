@@ -1,33 +1,33 @@
-- [meeting notes Mar 21, 2021](#orgaba102d)
-  - [topics](#org06f6eb6)
-    - [comma has some new repl features: multi-line support](#org7b481bf)
-    - [grammars](#org3434168)
-    - [nested map idioms](#org20f99d6)
-    - [looping idioms using Z (revival)](#org4280c75)
-    - [bruce gray](#org813208c)
-  - [carried over](#orgaff7997)
-    - [shadow novel where the bad guys speak esperanto](#orgbe434ed)
-    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#orga16b9a9)
+- [meeting notes Mar 21, 2021](#org2f5b893)
+  - [topics](#org83fedc1)
+    - [comma has some new repl features: multi-line support](#org16db01e)
+    - [grammars](#org6f6a3e3)
+    - [nested map idioms](#org3d814c0)
+    - [looping idioms using Z (revival)](#orge949a1b)
+    - [bruce gray](#orgfdc233c)
+  - [carried over](#org86bd7ba)
+    - [shadow novel where the bad guys speak esperanto](#org3a3b67d)
+    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org142a88d)
 
 
-<a id="orgaba102d"></a>
+<a id="org2f5b893"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="org06f6eb6"></a>
+<a id="org83fedc1"></a>
 
 ## topics
 
 
-<a id="org7b481bf"></a>
+<a id="org16db01e"></a>
 
 ### comma has some new repl features: multi-line support
 
 1.  <https://www.edument.se/en/blog/post/comma-in-2020>
 
 
-<a id="org3434168"></a>
+<a id="org6f6a3e3"></a>
 
 ### grammars
 
@@ -60,14 +60,14 @@
     2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jan24/grammar<sub>calculator</sub><sub>example.pl6</sub>
 
 
-<a id="org20f99d6"></a>
+<a id="org3d814c0"></a>
 
 ### nested map idioms
 
 1.  TODO 
 
 
-<a id="org4280c75"></a>
+<a id="orge949a1b"></a>
 
 ### looping idioms using Z (revival)
 
@@ -76,7 +76,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping<sub>over</sub><sub>two</sub><sub>parallel</sub><sub>arrays</sub><sub>via</sub><sub>Z.pl6</sub>
 
 
-<a id="org813208c"></a>
+<a id="orgfdc233c"></a>
 
 ### bruce gray
 
@@ -107,12 +107,12 @@
     4.  <https://design.raku.org/S06.html>
 
 
-<a id="orgaff7997"></a>
+<a id="org86bd7ba"></a>
 
 ## carried over
 
 
-<a id="orgbe434ed"></a>
+<a id="org3a3b67d"></a>
 
 ### shadow novel where the bad guys speak esperanto
 
@@ -121,7 +121,7 @@
 2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
 
 
-<a id="orga16b9a9"></a>
+<a id="org142a88d"></a>
 
 ### zoffix talk july 28, 2018 intro p6 regexes and grammars
 
