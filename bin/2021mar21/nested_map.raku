@@ -27,4 +27,4 @@ say @mat; # [(3 7 9) (2 4 6) (13 17 23)]
 # 3
 # 3
 
-@mat.map({ .map( -> $a { $a.gist.say } )});
+@mat.map({ .map( -> $a { $a.say } ) });
