@@ -34,7 +34,7 @@ for (0..@mat.elems-1) -> $i {
     for (0..@mat[$i].elems-1) -> $j {    
         say @mat[$i][$j];
     }
-    say "  |";
+    say "  .";
 }
 say "---";
 
