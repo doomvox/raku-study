@@ -1,0 +1,6 @@
+* meeting notes Mar 28, 2021
+** topics
+*** nested map idioms
+**** review perl5 approaches
+***** maybe, try python version
+**** get some raku code working 
