@@ -28,7 +28,8 @@ my $txt = q:to/END_TEXT/;
 #    say $ini;
     for $ini.<section> -> $section {
         for $section.<row> -> $row {
-            say $section, ": ", $row.<key>, ' => ', $row.<value>;
+            ## TODO would like a section name
+            say $section.name, ':  ', $row.<key>, ' => ', $row.<value>;
         }
     }
 }
