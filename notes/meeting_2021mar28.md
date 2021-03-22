@@ -1,22 +1,23 @@
-- [meeting notes Mar 28, 2021](#orgce46f80)
-  - [topics](#orga4fdb76)
-    - [nested map idioms](#org67e54be)
-    - [quoted string regexs](#org6cd8e71)
-    - [extracting results from grammar matches](#orgc8364f1)
-    - [grammar to parse doomfiles](#orgf681053)
+- [meeting notes Mar 28, 2021](#org77e4440)
+  - [topics](#orgc197c2d)
+    - [nested map idioms](#org1573c82)
+    - [quoted string regexs](#orgac2d8c9)
+    - [extracting results from grammar matches](#org6574a51)
+    - [grammar to parse doomfiles](#orge4ab24f)
+    - [review continuing discussion of regex interpolation with captures](#orga39a30f)
 
 
-<a id="orgce46f80"></a>
+<a id="org77e4440"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="orga4fdb76"></a>
+<a id="orgc197c2d"></a>
 
 ## topics
 
 
-<a id="org67e54be"></a>
+<a id="org1573c82"></a>
 
 ### nested map idioms
 
@@ -29,7 +30,7 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested<sub>map.raku</sub>
 
 
-<a id="org6cd8e71"></a>
+<a id="orgac2d8c9"></a>
 
 ### quoted string regexs
 
@@ -52,7 +53,7 @@
             2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing<sub>quoted</sub><sub>strings</sub><sub>backslash.raku</sub>
 
 
-<a id="orgc8364f1"></a>
+<a id="org6574a51"></a>
 
 ### extracting results from grammar matches
 
@@ -63,8 +64,13 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini<sub>file</sub><sub>parsing</sub><sub>with</sub><sub>moritz</sub><sub>lenz</sub><sub>grammar.raku</sub>
 
 
-<a id="orgf681053"></a>
+<a id="orge4ab24f"></a>
 
 ### grammar to parse doomfiles
 
 1.  simple scripts, e.g. scan through browse sequence
+
+
+<a id="orga39a30f"></a>
+
+### review continuing discussion of regex interpolation with captures
