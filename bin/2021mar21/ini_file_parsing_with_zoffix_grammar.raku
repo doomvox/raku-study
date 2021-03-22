@@ -26,7 +26,10 @@ my $txt = q:to/END_TEXT/;
 {
     my $ini = TPM.parse( $txt );
     say $ini;
-#     for $ini.<section> -> $section {
-#         ## ...
-#     }
+    for $ini.<section> -> $section {
+        for $section.<row> -> $row {
+            say $row.<key>, ' => ', $row.<value>;
+        }
+
+    }
 }
