@@ -40,7 +40,8 @@ documentation is weak and code example isn't working
 ***** https://design.raku.org/S06.html
 ***** Can compare to perl5's tie, e.g. (bruce gray)
 ****** https://metacpan.org/pod/Tie::File
-
+***** better example
+https://docs.raku.org/language/subscripts#Custom_type_example
 
 
 
