@@ -4,15 +4,17 @@
 
 use v6;
 
-grammar INIFile {
-    token TOP { <section>* }
+grammar TPM {
+    token key {
+
+    }
+
+
     token section {
     }
     rule header {
     }
     rule keyvalue {
-    }
-    token keyster {
     }
     token value {
     }
@@ -20,6 +22,8 @@ grammar INIFile {
     token eol {
         \n [\h*\n]*
     }
+
+    token TOP { <section>+ }
 }
 
 my $txt = q:to/END_TEXT/;
