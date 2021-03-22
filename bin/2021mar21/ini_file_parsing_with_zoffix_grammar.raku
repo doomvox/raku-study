@@ -21,3 +21,16 @@ grammar INIFile {
         \n [\h*\n]*
     }
 }
+
+my $txt = q:to/END_TEXT/;
+    [db]
+    driver: mysql
+    host: db01.example.com
+    END_TEXT
+
+{
+    my $ini = INIFile.parse( $txt );
+    for $ini.<section> -> $section {
+        ## ...
+    }
+}
