@@ -28,7 +28,7 @@ my $txt = q:to/END_TEXT/;
 #    say $ini;
     for $ini.<section> -> $section {
         for $section.<row> -> $row {
-            say $row.<key>, ' => ', $row.<value>;
+            say $section, ": ", $row.<key>, ' => ', $row.<value>;
         }
     }
 }
