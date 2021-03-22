@@ -1,33 +1,33 @@
-- [meeting notes Mar 21, 2021](#org38ea733)
-  - [topics](#org64cd32a)
-    - [comma has some new repl features: multi-line support](#orgdb29533)
-    - [grammars](#orgccd3fbd)
-    - [nested map idioms](#orgaaa9c2e)
-    - [looping idioms using Z (revival)](#org9d45cf8)
-    - [bruce gray](#org95faf90)
-  - [carried over](#orgfdb0413)
-    - [shadow novel where the bad guys speak esperanto](#org4b1d960)
-    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org62fce38)
+- [meeting notes Mar 21, 2021](#org537177a)
+  - [topics](#orgd0fb450)
+    - [comma has some new repl features: multi-line support](#orgef03682)
+    - [grammars](#org8cd6f71)
+    - [nested map idioms](#orgfc3a8b5)
+    - [looping idioms using Z (revival)](#org75e1947)
+    - [rosetta code examples, by bruce gray](#orga2199cf)
+  - [carried over](#org72bdb00)
+    - [shadow novel where the bad guys speak esperanto](#orgdf86bcf)
+    - [zoffix talk july 28, 2018 intro p6 regexes and grammars](#org2989389)
 
 
-<a id="org38ea733"></a>
+<a id="org537177a"></a>
 
 # meeting notes Mar 21, 2021
 
 
-<a id="org64cd32a"></a>
+<a id="orgd0fb450"></a>
 
 ## topics
 
 
-<a id="orgdb29533"></a>
+<a id="orgef03682"></a>
 
 ### comma has some new repl features: multi-line support
 
 1.  <https://www.edument.se/en/blog/post/comma-in-2020>
 
 
-<a id="orgccd3fbd"></a>
+<a id="org8cd6f71"></a>
 
 ### grammars
 
@@ -60,14 +60,14 @@
     2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jan24/grammar<sub>calculator</sub><sub>example.pl6</sub>
 
 
-<a id="orgaaa9c2e"></a>
+<a id="orgfc3a8b5"></a>
 
 ### nested map idioms
 
 1.  TODO 
 
 
-<a id="org9d45cf8"></a>
+<a id="org75e1947"></a>
 
 ### looping idioms using Z (revival)
 
@@ -76,9 +76,9 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar07/looping<sub>over</sub><sub>two</sub><sub>parallel</sub><sub>arrays</sub><sub>via</sub><sub>Z.pl6</sub>
 
 
-<a id="org95faf90"></a>
+<a id="orga2199cf"></a>
 
-### bruce gray
+### rosetta code examples, by bruce gray
 
 1.  <http://rosettacode.org/wiki/Cousin_primes>
 
@@ -119,12 +119,12 @@
     2.  <https://youtu.be/jYpBGku0aTU>
 
 
-<a id="orgfdb0413"></a>
+<a id="org72bdb00"></a>
 
 ## carried over
 
 
-<a id="org4b1d960"></a>
+<a id="orgdf86bcf"></a>
 
 ### shadow novel where the bad guys speak esperanto
 
@@ -133,7 +133,7 @@
 2.  <http://obsidianrook.com/doomfiles/LA_OMBRO.html>
 
 
-<a id="org62fce38"></a>
+<a id="org2989389"></a>
 
 ### zoffix talk july 28, 2018 intro p6 regexes and grammars
 
