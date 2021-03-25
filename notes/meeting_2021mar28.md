@@ -1,24 +1,24 @@
-- [meeting notes Mar 28, 2021](#org877feaf)
-  - [topics](#orgdb8d3cc)
-    - [news: perl foundation project to improve raku docs](#orgcb9feb0)
-    - [nested map idioms](#orgf7aca1e)
-    - [quoted string regexs](#orgfc0620d)
-    - [extracting results from grammar matches](#org1810427)
-    - [grammar to parse doomfiles](#org0d5fb1a)
-    - [review continuing discussion of regex interpolation with captures](#org605668d)
+- [meeting notes Mar 28, 2021](#org3cdd3f4)
+  - [topics](#org3f4f899)
+    - [news: perl foundation project to improve raku docs](#org02e0994)
+    - [nested map idioms](#org5cecaab)
+    - [quoted string regexes](#orga75d77a)
+    - [extracting results from grammar matches](#org2ee8dc9)
+    - [grammar to parse doomfiles](#org2942124)
+    - [review continuing discussion of regex interpolation with captures](#orgafcafa9)
 
 
-<a id="org877feaf"></a>
+<a id="org3cdd3f4"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="orgdb8d3cc"></a>
+<a id="org3f4f899"></a>
 
 ## topics
 
 
-<a id="orgcb9feb0"></a>
+<a id="org02e0994"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -29,7 +29,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="orgf7aca1e"></a>
+<a id="org5cecaab"></a>
 
 ### nested map idioms
 
@@ -42,9 +42,9 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested<sub>map.raku</sub>
 
 
-<a id="orgfc0620d"></a>
+<a id="orga75d77a"></a>
 
-### quoted string regexs
+### quoted string regexes
 
 1.  perl5 versions
 
@@ -65,7 +65,7 @@
             2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing<sub>quoted</sub><sub>strings</sub><sub>backslash.raku</sub>
 
 
-<a id="org1810427"></a>
+<a id="org2ee8dc9"></a>
 
 ### extracting results from grammar matches
 
@@ -76,14 +76,14 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini<sub>file</sub><sub>parsing</sub><sub>with</sub><sub>moritz</sub><sub>lenz</sub><sub>grammar.raku</sub>
 
 
-<a id="org0d5fb1a"></a>
+<a id="org2942124"></a>
 
 ### grammar to parse doomfiles
 
 1.  simple scripts, e.g. scan through browse sequence
 
 
-<a id="org605668d"></a>
+<a id="orgafcafa9"></a>
 
 ### review continuing discussion of regex interpolation with captures
 
