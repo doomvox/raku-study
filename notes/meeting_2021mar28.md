@@ -1,23 +1,31 @@
-- [meeting notes Mar 28, 2021](#orgc77edf3)
-  - [topics](#org0a0f6ec)
-    - [nested map idioms](#orgc534ed2)
-    - [quoted string regexs](#orgc46ac66)
-    - [extracting results from grammar matches](#orge5f7079)
-    - [grammar to parse doomfiles](#org238b2ed)
-    - [review continuing discussion of regex interpolation with captures](#orgee9e22b)
+- [meeting notes Mar 28, 2021](#orgd545a78)
+  - [topics](#orgc92eac7)
+    - [news: perl foundation project to improve raku docs](#org2e5117a)
+    - [nested map idioms](#org6629a7d)
+    - [quoted string regexs](#orgebb7ed9)
+    - [extracting results from grammar matches](#org4b98919)
+    - [grammar to parse doomfiles](#org3840a42)
+    - [review continuing discussion of regex interpolation with captures](#org37a52bb)
 
 
-<a id="orgc77edf3"></a>
+<a id="orgd545a78"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org0a0f6ec"></a>
+<a id="orgc92eac7"></a>
 
 ## topics
 
 
-<a id="orgc534ed2"></a>
+<a id="org2e5117a"></a>
+
+### news: perl foundation project to improve raku docs
+
+1.  <https://perl-foundation-outreach.github.io/season-of-docs-ideas/docs.html>
+
+
+<a id="org6629a7d"></a>
 
 ### nested map idioms
 
@@ -30,7 +38,7 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested<sub>map.raku</sub>
 
 
-<a id="orgc46ac66"></a>
+<a id="orgebb7ed9"></a>
 
 ### quoted string regexs
 
@@ -53,7 +61,7 @@
             2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing<sub>quoted</sub><sub>strings</sub><sub>backslash.raku</sub>
 
 
-<a id="orge5f7079"></a>
+<a id="org4b98919"></a>
 
 ### extracting results from grammar matches
 
@@ -64,14 +72,14 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini<sub>file</sub><sub>parsing</sub><sub>with</sub><sub>moritz</sub><sub>lenz</sub><sub>grammar.raku</sub>
 
 
-<a id="org238b2ed"></a>
+<a id="org3840a42"></a>
 
 ### grammar to parse doomfiles
 
 1.  simple scripts, e.g. scan through browse sequence
 
 
-<a id="orgee9e22b"></a>
+<a id="org37a52bb"></a>
 
 ### review continuing discussion of regex interpolation with captures
 

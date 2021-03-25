@@ -1,5 +1,7 @@
 * meeting notes Mar 28, 2021
 ** topics
+*** news: perl foundation project to improve raku docs
+**** https://perl-foundation-outreach.github.io/season-of-docs-ideas/docs.html
 *** nested map idioms
 **** review perl5 approaches
 ***** maybe, try python version
