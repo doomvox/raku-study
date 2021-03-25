@@ -10,8 +10,8 @@
 **** TODO nested map: get some raku code working 
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested_map.raku
 *** quoted string regexes
-**** perl5 versions
-**** continue with raku versions
+**** TODO re_quoted_str: perl5 versions 
+**** TODO re_quoted_str: continue with raku versions
 ***** next: balanced quotes of various types
 ****** yary hluchan
 ******** https://github.com/doomvox/raku-study/blob/main/notes/bin/richard_hainsworth_grammar.raku

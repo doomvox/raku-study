@@ -1,24 +1,24 @@
-- [meeting notes Mar 28, 2021](#org3cdd3f4)
-  - [topics](#org3f4f899)
-    - [news: perl foundation project to improve raku docs](#org02e0994)
-    - [nested map idioms](#org5cecaab)
-    - [quoted string regexes](#orga75d77a)
-    - [extracting results from grammar matches](#org2ee8dc9)
-    - [grammar to parse doomfiles](#org2942124)
-    - [review continuing discussion of regex interpolation with captures](#orgafcafa9)
+- [meeting notes Mar 28, 2021](#orgc1cd5e1)
+  - [topics](#orgd6f476d)
+    - [news: perl foundation project to improve raku docs](#orgf34aaa4)
+    - [nested map idioms](#org7866358)
+    - [quoted string regexes](#org2c34cfb)
+    - [extracting results from grammar matches](#orgcf9dfc1)
+    - [grammar to parse doomfiles](#org3408685)
+    - [review continuing discussion of regex interpolation with captures](#orgb3d686c)
 
 
-<a id="org3cdd3f4"></a>
+<a id="orgc1cd5e1"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org3f4f899"></a>
+<a id="orgd6f476d"></a>
 
 ## topics
 
 
-<a id="org02e0994"></a>
+<a id="orgf34aaa4"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -29,7 +29,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org5cecaab"></a>
+<a id="org7866358"></a>
 
 ### nested map idioms
 
@@ -42,13 +42,13 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested<sub>map.raku</sub>
 
 
-<a id="orga75d77a"></a>
+<a id="org2c34cfb"></a>
 
 ### quoted string regexes
 
-1.  perl5 versions
+1.  TODO re<sub>quoted</sub><sub>str</sub>: perl5 versions
 
-2.  continue with raku versions
+2.  TODO re<sub>quoted</sub><sub>str</sub>: continue with raku versions
 
     1.  next: balanced quotes of various types
     
@@ -65,7 +65,7 @@
             2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing<sub>quoted</sub><sub>strings</sub><sub>backslash.raku</sub>
 
 
-<a id="org2ee8dc9"></a>
+<a id="orgcf9dfc1"></a>
 
 ### extracting results from grammar matches
 
@@ -76,14 +76,14 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini<sub>file</sub><sub>parsing</sub><sub>with</sub><sub>moritz</sub><sub>lenz</sub><sub>grammar.raku</sub>
 
 
-<a id="org2942124"></a>
+<a id="org3408685"></a>
 
 ### grammar to parse doomfiles
 
 1.  simple scripts, e.g. scan through browse sequence
 
 
-<a id="orgafcafa9"></a>
+<a id="orgb3d686c"></a>
 
 ### review continuing discussion of regex interpolation with captures
 
