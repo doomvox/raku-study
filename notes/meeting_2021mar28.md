@@ -1,31 +1,35 @@
-- [meeting notes Mar 28, 2021](#orgd545a78)
-  - [topics](#orgc92eac7)
-    - [news: perl foundation project to improve raku docs](#org2e5117a)
-    - [nested map idioms](#org6629a7d)
-    - [quoted string regexs](#orgebb7ed9)
-    - [extracting results from grammar matches](#org4b98919)
-    - [grammar to parse doomfiles](#org3840a42)
-    - [review continuing discussion of regex interpolation with captures](#org37a52bb)
+- [meeting notes Mar 28, 2021](#org3ad988f)
+  - [topics](#org70b653d)
+    - [news: perl foundation project to improve raku docs](#org0311ca9)
+    - [nested map idioms](#org960a3b6)
+    - [quoted string regexs](#orgb0e6d51)
+    - [extracting results from grammar matches](#org0a261d9)
+    - [grammar to parse doomfiles](#org53238c7)
+    - [review continuing discussion of regex interpolation with captures](#orge6fb274)
 
 
-<a id="orgd545a78"></a>
+<a id="org3ad988f"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="orgc92eac7"></a>
+<a id="org70b653d"></a>
 
 ## topics
 
 
-<a id="org2e5117a"></a>
+<a id="org0311ca9"></a>
 
 ### news: perl foundation project to improve raku docs
 
 1.  <https://perl-foundation-outreach.github.io/season-of-docs-ideas/docs.html>
 
+    1.  some of the ideas include documenting exceptions and traits better
+    
+    2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
-<a id="org6629a7d"></a>
+
+<a id="org960a3b6"></a>
 
 ### nested map idioms
 
@@ -38,7 +42,7 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested<sub>map.raku</sub>
 
 
-<a id="orgebb7ed9"></a>
+<a id="orgb0e6d51"></a>
 
 ### quoted string regexs
 
@@ -61,7 +65,7 @@
             2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing<sub>quoted</sub><sub>strings</sub><sub>backslash.raku</sub>
 
 
-<a id="org4b98919"></a>
+<a id="org0a261d9"></a>
 
 ### extracting results from grammar matches
 
@@ -72,14 +76,14 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini<sub>file</sub><sub>parsing</sub><sub>with</sub><sub>moritz</sub><sub>lenz</sub><sub>grammar.raku</sub>
 
 
-<a id="org3840a42"></a>
+<a id="org53238c7"></a>
 
 ### grammar to parse doomfiles
 
 1.  simple scripts, e.g. scan through browse sequence
 
 
-<a id="org37a52bb"></a>
+<a id="orge6fb274"></a>
 
 ### review continuing discussion of regex interpolation with captures
 

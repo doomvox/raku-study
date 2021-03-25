@@ -2,6 +2,8 @@
 ** topics
 *** news: perl foundation project to improve raku docs
 **** https://perl-foundation-outreach.github.io/season-of-docs-ideas/docs.html
+***** some of the ideas include documenting exceptions and traits better
+***** they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 *** nested map idioms
 **** review perl5 approaches
 ***** maybe, try python version
