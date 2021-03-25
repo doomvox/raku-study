@@ -21,7 +21,8 @@
 ******** https://github.com/doomvox/raku-study/blob/main/notes/bin/2021mar21/parsing_quoted_strings_backslash.raku
 ******** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing_quoted_strings_backslash.raku
 *** extracting results from grammar matches
-**** find alternate examples
+**** alternate example, works
+/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini_file_parsing_with_zoffix_grammar.raku
 **** narrow down what was wrong with moritz lenz inifile
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini_file_parsing_with_moritz_lenz_grammar.raku
 *** grammar to parse doomfiles
