@@ -81,5 +81,6 @@ say "===";
     # ｢a｣
     #  char => ｢a｣
 
+    say $<char>;
 
     }
