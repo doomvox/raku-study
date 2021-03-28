@@ -22,3 +22,10 @@ for @z -> $z {
 # 63
 # 75
 # 87
+
+## Bruce Gray examples: 
+
+my @z = <a b c>, <d e f>;
+for @z -> @batch_of_3 {...}
+for @z -> ( $m, $n, $o ) {...}
+for @z -> ( Str $m, Str $n, Str $o ) {...} 
