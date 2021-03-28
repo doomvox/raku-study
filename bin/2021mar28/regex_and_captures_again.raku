@@ -64,7 +64,7 @@ say "===";
 
     say $/;
 
-    say $/.<Date><year>.Str;  #  ｢2021｣
+    say $/.<Date><year>.Str;  #  2021
 
 
     }
