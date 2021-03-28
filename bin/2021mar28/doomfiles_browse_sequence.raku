@@ -42,7 +42,7 @@ my $next_node = $match.<body><control_2>.<next_link>.[0].<node_name>;
 say $next_node.Str;
 
 
-sub handle_first_node ($init = 'TOP.html') {
+sub handle_first_node ( Str $init = 'TOP.html') {
 #    my $init = "TOP.html";
 #    my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";  ## TODO better to use pwd?
     my $next_node;
