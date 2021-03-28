@@ -75,6 +75,7 @@ say "===";
     say $remark;  #  The year is 2021
 }
 
+say "===";
 {
     my $m = "the cat" ~~ m/$<char>=[a]/;
     say $/.WHAT;  ##  
