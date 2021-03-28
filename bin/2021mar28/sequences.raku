@@ -26,6 +26,12 @@ for @z -> $z {
 ## Bruce Gray examples: 
 
 my @z = <a b c>, <d e f>;
-for @z -> @batch_of_3 {...}
-for @z -> ( $m, $n, $o ) {...}
-for @z -> ( Str $m, Str $n, Str $o ) {...} 
+for @z -> @batch_of_3 {...};
+for @z -> ( $m, $n, $o ) {...};
+for @z -> ( Str $m, Str $n, Str $o ) {...} ;
+
+
+> #Liz IRC
+Nil
+> my @a = 3,7,6,12,9,6,6,6; say @a.first(6, :k)
+2 
