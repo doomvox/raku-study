@@ -38,7 +38,7 @@ increasing differences:
 http://rosettacode.org/wiki/Next_special_primes#Raku
 
 
-destructureing call:
+destructured syntax:
 
 sub is-special ( ($previous, $gap) ) {
 

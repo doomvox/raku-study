@@ -1,24 +1,24 @@
-- [meeting notes Mar 28, 2021](#org380b8b1)
-  - [topics](#org51d328a)
-    - [news: perl foundation project to improve raku docs](#org55d2200)
-    - [nested map idioms](#org32869fb)
-    - [quoted string regexes](#org60b0b13)
-    - [extracting results from grammar matches](#orgc4c81ec)
-    - [grammar to parse doomfiles](#org518ba00)
-    - [review continuing discussion of regex interpolation with captures](#org91e2831)
+- [meeting notes Mar 28, 2021](#orgef749eb)
+  - [topics](#org2b1e183)
+    - [news: perl foundation project to improve raku docs](#orgca74673)
+    - [nested map idioms](#org1265cc9)
+    - [quoted string regexes](#org01af4e8)
+    - [extracting results from grammar matches](#org9feedee)
+    - [grammar to parse doomfiles](#org235e4f4)
+    - [review continuing discussion of regex interpolation with captures](#orgf699758)
 
 
-<a id="org380b8b1"></a>
+<a id="orgef749eb"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org51d328a"></a>
+<a id="org2b1e183"></a>
 
 ## topics
 
 
-<a id="org55d2200"></a>
+<a id="orgca74673"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -29,7 +29,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org32869fb"></a>
+<a id="org1265cc9"></a>
 
 ### nested map idioms
 
@@ -42,7 +42,7 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested<sub>map.raku</sub>
 
 
-<a id="org60b0b13"></a>
+<a id="org01af4e8"></a>
 
 ### quoted string regexes
 
@@ -65,7 +65,7 @@
             2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing<sub>quoted</sub><sub>strings</sub><sub>backslash.raku</sub>
 
 
-<a id="orgc4c81ec"></a>
+<a id="org9feedee"></a>
 
 ### extracting results from grammar matches
 
@@ -78,14 +78,14 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini<sub>file</sub><sub>parsing</sub><sub>with</sub><sub>moritz</sub><sub>lenz</sub><sub>grammar.raku</sub>
 
 
-<a id="org518ba00"></a>
+<a id="org235e4f4"></a>
 
 ### grammar to parse doomfiles
 
 1.  simple scripts, e.g. scan through browse sequence
 
 
-<a id="org91e2831"></a>
+<a id="orgf699758"></a>
 
 ### review continuing discussion of regex interpolation with captures
 
@@ -95,7 +95,7 @@
     
     <http://rosettacode.org/wiki/Next_special_primes#Raku>
     
-    destructureing call:
+    destructured syntax:
     
     sub is-special ( ($previous, $gap) ) {
     
