@@ -70,7 +70,7 @@ say "===";
     # my Str $year = $/.<Date><year>;
     ## Type check failed in assignment to $year; expected Str but got Match (Match.new(:orig("202...)
     
-    my $year = $/.<Date><year>;
+    my $year = $/.<Date><year>;  # even though not a string
     my $remark = "The year is $year";
     say $remark;  #  The year is 2021
 
