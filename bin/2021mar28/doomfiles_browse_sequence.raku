@@ -55,3 +55,12 @@ sub handle_first_node ( Str $init = 'TOP.html') {
     return $next_node;
 }
 
+
+### Eeek
+### 
+## ...
+# ACT_ONE
+# IMPROPER_BOHEMIANS
+# GREENWICH_SECEDES
+# BURNING_MOMENTS
+# MoarVM panic: Memory allocation failed; could not allocate 1007328 bytes
