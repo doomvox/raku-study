@@ -31,7 +31,8 @@ my grammar df {
     regex h1          { '<H1' [\s+ 'align="left"'] '>' <node_name> '</H1>'                                         }
     regex ruler       { '--------'                                                                                 }
     regex control_2   { <ruler> \s+ <next_link> \s*                                                                }
-    regex stuff       { ( .*? )                                                                                    }
+#    regex stuff       { ( .*? )                                                                                    }
+    regex stuff       { ( .* )                                                                                    }
 
     regex link        { '<A' \s+ 'HREF="' <node_name> '.html' '">' <label> '</A>'                                  }
 
