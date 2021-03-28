@@ -76,7 +76,8 @@ say "^^^\n", $txt, '^^^';
 #            say $keyvalue.^methods>>.name;
 #            say $keyvalue.keyster; ## #<failed match>  
 #            say $keyvalue.value;  ## NO ANGLE BRACKETS, but it's a valid method '.value'
-            say $keyvalue.^methods>>.name;
+
+#            say $keyvalue.^methods>>.name;
 
 ## For the grammar to work, you get methods like "keyster", "value", but you can't use them to access the value:
 # (TOP section header keyvalue keyster value ws eol BUILDALL parsefile subparse parse BUILDALL braid !cursor_push_cstack !reduce_with_match !fresh_highexpect slangs !cursor_start_all cntrl !braid raku clone_braid_from !cursor_more DYNQUANT_LIMITS MATCH chars !highwater OTHERGRAMMAR dump CALL_SUBRULE punct how !protoregex_nfa INDMETHOD set_how clone !protoregex !DELEGATE_ACCEPTS digit switch_to_slang slang_grammar !highexpect ww postmatch prune blank at !DYNQUANT_LIMITS set_braid prematch set_package make CURSOR_OVERLAP INTERPOLATE ACCEPTS after FAILGOAL !protoregex_table CURSOR !clone_match_at !shared_type WHICH !cursor_pos print made same !set_highexpect CURSOR_NEXT !cursor_init set_pragma PRECURSOR Str Num !cursor_start lower alpha !shared check_LANG_oopsies caps gist set_braid_from Bool !BACKREF !precompute_nfas !cursor_start_subcapture know_how ident chunks !cursor_start_cur refine_slang graph !cursor_next before !dba CURSOR_MORE snapshot_braid INTERPOLATE_ASSERTION !cursor_start_fail Numeric ...)
