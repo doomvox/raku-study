@@ -44,7 +44,10 @@ say "===";
 # 8
 # 7 
 
-
+# my @a = <A A B E C D D D E>; say @a.elems; say @a.first("E", :k)
+# 9
+# 3
+# > my @a = <A A B E C D D D E>; say @a.elems; say @a.first("E", :k, :end)
 
 }
 
