@@ -27,6 +27,7 @@ my grammar df {
     }
 
 my $init = 'TOP';
+say $init;
 my $init_file = "$init.html";
 
 my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
