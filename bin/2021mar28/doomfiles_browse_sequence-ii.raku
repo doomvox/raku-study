@@ -68,3 +68,9 @@ sub handle_first_node ( Str $init = 'TOP.html') {
 # GREENWICH_SECEDES
 # BURNING_MOMENTS
 # MoarVM panic: Memory allocation failed; could not allocate 1007328 bytes
+
+## Note, it also hangs and chugs on DELANY
+# Does it have trouble with larger files?
+#  -r--r--r--  1 doom doom   14360 Mar 20 10:37 DELANY.html
+#  -r--r--r--  1 doom doom   30200 Mar 20 10:37 BURNING_MOMENTS.html
+# Too much backtracking?
