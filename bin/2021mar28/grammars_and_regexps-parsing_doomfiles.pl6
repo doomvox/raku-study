@@ -100,7 +100,7 @@ my $link_2 = '<A HREF="TOP.html">[TOP]</A>';
 #    regex TOP { '<HTML>' <stuff> '</HTML>' \s+ }
 
 
-## (3) Q: if you did this would you get a name collison on "stuff"?
+## (3) Q: if you did this would you get a name collison on "stuff"? (( no, nothing calls head/body, if they did they'd nest ))
 #     regex TOP { '<HTML>' <stuff> '</HTML>' \s+ }
 #     regex head { '<HEAD>' <stuff> '</HEAD>' \s+ }
 #     regex body { '<BODY>' <stuff> '</BODY>' \s+ }
