@@ -8,10 +8,10 @@ use v6;
 {
     my @z = 3 , { $_ + 12 } … *; 
 
-    for @z -> $z {
-        say $z;
-        exit if $++ > 6;
-    }
+#     for @z -> $z {
+#         say $z;
+ #        exit if $++ > 6;
+#     }
 
     # 3
     # 15
