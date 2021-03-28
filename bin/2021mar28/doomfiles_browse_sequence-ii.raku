@@ -91,7 +91,7 @@ sub do_rest_by_line( $init ) {
 }
 
 sub do_rest_whole_parse( $init ) {
-    say "init: $init";
+    say "XXX: init: $init";
     my $node = $init;  ## to start "TOP"
     while ( $node ) {
         my $file="$node.html";
