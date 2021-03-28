@@ -21,7 +21,7 @@ my grammar df {
     regex next_link   { '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[NEXT -' \s+ {} $0 ']' '</A>'              }
 
 #    regex node_name   { <-[.]>*? }  ## first cut, better to be explicit
-    # Traditional:  McNODE_NAME
+    # Traditional:  McNODE_NAME_7
     regex node_name   { <[A..Zc0..9_-]>*? }  
     regex label       { <-[<]>*? } # > 
     }
