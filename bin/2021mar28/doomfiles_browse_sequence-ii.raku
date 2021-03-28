@@ -36,9 +36,9 @@ my $init_file = "$init.html";
 my $node = handle_first_node( $init_file );
 say $node.Str;
 
-do_rest_whole_parse( $node.Str );
+do_rest_whole_parse( $node );
 
-sub do_rest_whole_parse() {
+sub do_rest_whole_parse( $node ) {
     while ( $node ) {
         my $file="$node.html";
         my $match = df.parsefile( $file ); 
