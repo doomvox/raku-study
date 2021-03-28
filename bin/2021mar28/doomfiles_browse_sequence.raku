@@ -43,7 +43,6 @@ while ( $node ) {
     say $node.Str if $node;
 }
 
-
 sub handle_first_node ( Str $init = 'TOP.html') {
 #    my $init = "TOP.html";
 #    my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";  ## TODO better to use pwd?
