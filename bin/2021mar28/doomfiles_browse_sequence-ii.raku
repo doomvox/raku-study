@@ -61,13 +61,13 @@ my grammar df {
 my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
 chdir( $loc );
 
-# my $init = 'TOP';
-# say $init;
-# my $init_file = "$init.html";
-# my $node = handle_first_node( $init_file );
-# say $node.Str if $node;
+my $init = 'TOP';
+say $init;
+my $init_file = "$init.html";
+my $node = handle_first_node( $init_file );
+say $node.Str if $node;
 
-do_rest_whole_parse( 'BURNING_MOMENTS' );
+# do_rest_whole_parse( 'BURNING_MOMENTS' );
 
 # do_rest_whole_parse( $node );
 # do_rest_by_line( $node );
