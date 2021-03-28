@@ -80,7 +80,6 @@ my $link_2 = '<A HREF="TOP.html">[TOP]</A>';
 ## Like so, as bg reminds:
 ##   <.ruler>
 
-
 ## (0.5) was having a lot of trouble with syntax-coloring with patterns matching pointies.
 ## single-quotes work better than back-whacks, but even so I hit one of these:
 ### regex label       { <-[<]>*? } # > # gratuitous pointy as hint to syntax-coloring
