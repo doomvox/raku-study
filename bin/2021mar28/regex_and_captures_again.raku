@@ -26,3 +26,7 @@ say "===";
     say $<Date>;    # Nil
 }
 say "===";
+
+## $0 is an alias
+## $/.[0];
+## $0;
