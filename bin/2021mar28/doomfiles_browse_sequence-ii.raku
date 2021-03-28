@@ -86,11 +86,12 @@ sub do_rest_by_line( $init ) {
 }
 
 sub do_rest_whole_parse( $init ) {
-    my $node = $init;
+    my $node = $init;  ## to start "TOP"
     while ( $node ) {
         my $file="$node.html";
         my $match = df.parsefile( $file ); 
         $node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
+#        $node = $match.gimmie_one( 'node_name' );
         say $node.Str if $node;
         exit if $++>6;
     }
