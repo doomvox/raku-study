@@ -88,7 +88,7 @@ say "===";
     say "---";
     # Does this work?
     $/ = Nil;   
-    say $/.WHAT;  ##  Nil
+    say $/.WHAT;  # Nil
     say $<char>; # Nil
 
     $/ = 42;
