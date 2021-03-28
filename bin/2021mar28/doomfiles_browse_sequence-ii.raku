@@ -63,7 +63,7 @@ say $node.Str if $node;
 # do_rest_by_line( $node );
 
 ## doesn't work just now:
-## do_rest_parsefile_individual_regex( $node );
+do_rest_parsefile_individual_regex( $node );
 
 sub do_rest_by_line( $init ) {
     my $node = $init;
