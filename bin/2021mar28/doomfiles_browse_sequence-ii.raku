@@ -27,10 +27,9 @@ my grammar df_1 {
 #    token node_name   { <[A..Zc0..9_-]>*? }  
     regex label       { <-[<]>*? } # > 
     }
-
+#    regex TOP         { '<HTML>'  <head><body> '</HTML>' \s                                                       }
 my grammar df {
     regex TOP         { '<HTML>'  <head><body> '</HTML>' \s*                                                       }
-#    regex TOP         { '<HTML>'  <head><body> '</HTML>' \s                                                       }
     regex head        { '<HEAD>' \s* <title> '</HEAD>' \s*                                                         }
     regex title       { '<TITLE>' 'The doomfiles' ' - ' <node_name> '.html' '</TITLE>' \s*                         }
     regex body        { '<BODY>' \s*  <control_1>  \s* <h1> \s* '<PRE>' <stuff> <control_2> '</PRE>' '</BODY>' \s* }
