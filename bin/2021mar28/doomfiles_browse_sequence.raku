@@ -32,8 +32,9 @@ chdir( $loc );
 my $node = handle_first_node();
 say $node;
 my $file="$node.html";
-my $full_file = "$loc/$file";
-my $match = df.parsefile( $full_file ); 
+#my $full_file = "$loc/$file";
+#my $match = df.parsefile( $full_file ); 
+my $match = df.parsefile( $file ); 
 my $next_node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
 say $next_node;
 
