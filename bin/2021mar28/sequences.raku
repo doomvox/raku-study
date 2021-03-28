@@ -23,6 +23,14 @@ for @z -> $z {
 # 75
 # 87
 
+#Liz IRC
+
+my @a = 3,7,6,12,9,6,6,6;
+say @a.first(6, :k)
+# 2 
+
+exit;
+
 ## Bruce Gray examples: 
 
 my @z = <a b c>, <d e f>;
@@ -31,7 +39,3 @@ for @z -> ( $m, $n, $o ) {...};
 for @z -> ( Str $m, Str $n, Str $o ) {...} ;
 
 
-> #Liz IRC
-Nil
-> my @a = 3,7,6,12,9,6,6,6; say @a.first(6, :k)
-2 
