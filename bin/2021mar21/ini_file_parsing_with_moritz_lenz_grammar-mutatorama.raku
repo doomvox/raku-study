@@ -52,7 +52,7 @@ my $txt = q:to/END_TEXT/;
 my  $file = "/home/doom/tmp/simple_config.ini";
 $file.IO.spurt($txt);
 
-say '^^^', $txt, '^^^';
+say "^^^\n", $txt, '^^^';
 
 {
     my $ini = INIFile.parse( $txt );
