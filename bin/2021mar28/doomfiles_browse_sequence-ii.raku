@@ -41,7 +41,7 @@ my grammar df {
 
     regex stuff       { ( .*? )                                                                                    }
     ## Last thought, make “stuff” greedy on non-left-bracket & ratchet there… 
-
+    
     regex link        { '<A' \s+ 'HREF="' <node_name> '.html' '">' <label> '</A>'                                  }
 
     regex prev_link   { '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[PREV -' \s+ {} $0 ']' '</A>'              }
