@@ -28,8 +28,8 @@ my grammar df {
 
 
 my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
-my $file = handle_first_node();
-
+my $node = handle_first_node();
+my $file="$node.html";
 my $full_file = "$loc/$file";
 my $match = df.parsefile( $full_file ); 
 my $next_node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
