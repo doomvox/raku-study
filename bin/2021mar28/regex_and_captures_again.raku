@@ -83,6 +83,7 @@ say "===";
 
     say "char: ", $<char>;
 
+    # Does this work?
     $/ = Nil;
 
     }
