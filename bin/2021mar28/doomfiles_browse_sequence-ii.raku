@@ -91,11 +91,10 @@ sub do_rest_by_line( $init ) {
 }
 
 sub do_rest_whole_parse( $init ) {
-    say "XXX: init: $init";
     my $node = $init;  ## to start "TOP"
-    say "XXX: node: $node";
+    say "XXX: node: $node";        ## BURNING_MOMENTS
     while ( $node ) {
-        say "YYY: node: $node\n";
+        say "YYY: node: $node\n";  ## SIGHTING_SCENES
         my $file="$node.html";
         my $match = df.parsefile( $file ); 
 
