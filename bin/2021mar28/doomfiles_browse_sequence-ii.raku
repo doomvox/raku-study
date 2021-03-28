@@ -40,7 +40,7 @@ my grammar df {
     regex control_2   { <ruler> \s+ <next_link> \s*                                                                }
     regex stuff       { ( .*? )                                                                                    }
 
-    token link        { '<A' \s+ 'HREF="' <node_name> '.html' '">' <label> '</A>'                                  }
+    regex link        { '<A' \s+ 'HREF="' <node_name> '.html' '">' <label> '</A>'                                  }
 
     token prev_link   { '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[PREV -' \s+ {} $0 ']' '</A>'              }
     token next_link   { '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[NEXT -' \s+ {} $0 ']' '</A>'              }
