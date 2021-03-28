@@ -76,7 +76,7 @@ say "^^^\n", $txt, '^^^';
 #            say $keyvalue.^methods>>.name;
 #            say $keyvalue.keyster; ## #<failed match>  
 #            say $keyvalue.value;  ## NO ANGLE BRACKETS, but it's a valid method '.value'
-            say $keyvalue.^methods;
+            say $keyvalue.^methods>>.name;
             say $keyvalue.<value>; 
         }
     }
