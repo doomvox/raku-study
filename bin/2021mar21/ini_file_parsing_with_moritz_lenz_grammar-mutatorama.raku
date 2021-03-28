@@ -27,7 +27,7 @@ grammar INIFile {
         <value>
         <.eol>?
     }
-    token keyster {
+    token keyster {  ## name collision on 'key'?
         \w+
     }
     token value {
