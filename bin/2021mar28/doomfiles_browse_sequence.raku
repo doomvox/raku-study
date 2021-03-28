@@ -29,6 +29,7 @@ my grammar df {
 
 my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
 my $node = handle_first_node();
+say $node;
 my $file="$node.html";
 my $full_file = "$loc/$file";
 my $match = df.parsefile( $full_file ); 
