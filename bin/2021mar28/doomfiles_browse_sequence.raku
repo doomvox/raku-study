@@ -34,7 +34,7 @@ my $file = 'TOP.html';
 
 my $full_file = "$loc/$file";
 my $match = df.parsefile( $full_file ); 
-my $next_node = $match..[0].<node_name>; 
+my $next_node = $match.[0].<node_name>; 
 say $next_node;
 
 
