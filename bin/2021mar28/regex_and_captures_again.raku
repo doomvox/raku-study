@@ -85,6 +85,6 @@ say "===";
 
     # Does this work?
     $/ = Nil;
-    say $/;
+    say $<char>;
 
     }
