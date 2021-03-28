@@ -78,7 +78,7 @@ say "===";
 say "===";
 {
     my $m = "the cat" ~~ m/$<char>=[a]/;
-    say $/.WHAT;  ##  
+    say $/.WHAT;  ##  (Match)
     say $m;
     # ｢a｣
     #  char => ｢a｣
