@@ -40,7 +40,8 @@ say $node.Str if $node;
 
 do_rest_whole_parse( $node );
 
-sub do_rest_whole_parse( $node ) {
+sub do_rest_whole_parse( $init ) {
+    my $node = $init;
     while ( $node ) {
         my $file="$node.html";
         my $match = df.parsefile( $file ); 
