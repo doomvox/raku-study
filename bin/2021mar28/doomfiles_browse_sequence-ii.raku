@@ -63,8 +63,8 @@ my $init = 'TOP';
 say $init;
 my $init_file = "$init.html";
 
-my $node = handle_first_node( $init_file );
-say $node.Str if $node;
+## my $node = handle_first_node( $init_file );
+## say $node.Str if $node;
 
 do_rest_whole_parse( 'BURNING_MOMENTS' );
 
