@@ -97,6 +97,7 @@ sub do_rest_whole_parse( $init ) {
     while ( $node ) {
         say "YYY: node: $node\n";
         my $file="$node.html";
+        say "ZZZ: file: $file";        
         my $match = df.parsefile( $file ); 
 
         $node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
