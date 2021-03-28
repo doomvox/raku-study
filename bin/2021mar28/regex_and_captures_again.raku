@@ -49,7 +49,7 @@ say "===";
 
 say "===";
 {
-    my regex Date { <year= \d ** 4> '-' <month= \d ** 2> '-' <day= \d ** 2> };
+    my regex Date { <$year= \d ** 4> '-' <$month= \d ** 2> '-' <$day= \d ** 2> };
     say $/ if "2021-03-23" ~~ / <Date> /;
 
 # ｢2021-03-23｣
