@@ -34,7 +34,7 @@ my $file = 'TOP.html';
 
 my $full_file = "$loc/$file";
 my $match = df.parsefile( $full_file ); 
-my $next_node = $match.[0].<node_name>; 
+my $next_node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
 say $next_node;
 
 
@@ -43,7 +43,7 @@ sub handle_first_node {
     my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";  ## TODO better to use pwd?
     for "$loc/$init".IO.lines -> $line {
         my $match = df.parse( $line, :rule('next_link') ); 
-        my $next_node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
+        my $next_node = $match.[0].<node_name>; 
 
     }
 
