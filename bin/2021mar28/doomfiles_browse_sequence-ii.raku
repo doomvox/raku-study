@@ -29,24 +29,24 @@ my grammar df_1 {
     }
 
 my grammar df {
-    regex TOP         { '<HTML>'  <head><body> '</HTML>' \s*                                                       }
+    token TOP         { '<HTML>'  <head><body> '</HTML>' \s*                                                       }
 #    regex TOP         { '<HTML>'  <head><body> '</HTML>' \s                                                       }
-    regex head        { '<HEAD>' \s* <title> '</HEAD>' \s*                                                         }
-    regex title       { '<TITLE>' 'The doomfiles' ' - ' <node_name> '.html' '</TITLE>' \s*                         }
-    regex body        { '<BODY>' \s*  <control_1>  \s* <h1> \s* '<PRE>' <stuff> <control_2> '</PRE>' '</BODY>' \s* }
-    regex control_1   { '<PRE>' \s+ <prev_link> \s+ <link> \s* '</PRE>'                                            }
-    regex h1          { '<H1' [\s+ 'align="left"'] '>' <node_name> '</H1>'                                         }
-    regex ruler       { '--------'                                                                                 }
-    regex control_2   { <ruler> \s+ <next_link> \s*                                                                }
-    regex stuff       { ( .*? )                                                                                    }
+    token head        { '<HEAD>' \s* <title> '</HEAD>' \s*                                                         }
+    token title       { '<TITLE>' 'The doomfiles' ' - ' <node_name> '.html' '</TITLE>' \s*                         }
+    token body        { '<BODY>' \s*  <control_1>  \s* <h1> \s* '<PRE>' <stuff> <control_2> '</PRE>' '</BODY>' \s* }
+    token control_1   { '<PRE>' \s+ <prev_link> \s+ <link> \s* '</PRE>'                                            }
+    token h1          { '<H1' [\s+ 'align="left"'] '>' <node_name> '</H1>'                                         }
+    token ruler       { '--------'                                                                                 }
+    token control_2   { <ruler> \s+ <next_link> \s*                                                                }
+    token stuff       { ( .*? )                                                                                    }
 
-    regex link        { '<A' \s+ 'HREF="' <node_name> '.html' '">' <label> '</A>'                                  }
+    token link        { '<A' \s+ 'HREF="' <node_name> '.html' '">' <label> '</A>'                                  }
 
-    regex prev_link   { '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[PREV -' \s+ {} $0 ']' '</A>'              }
-    regex next_link   { '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[NEXT -' \s+ {} $0 ']' '</A>'              }
+    token prev_link   { '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[PREV -' \s+ {} $0 ']' '</A>'              }
+    token next_link   { '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[NEXT -' \s+ {} $0 ']' '</A>'              }
 
-    regex node_name   { <[A..Zc0..9_-]>*? }   # Doomfiles node names are like:  McNODE_NAME_7
-    regex label       { <-[<]>*? } # > 
+    token node_name   { <[A..Zc0..9_-]>*? }   # Doomfiles node names are like:  McNODE_NAME_7
+    token label       { <-[<]>*? } # > 
     }
 
 
