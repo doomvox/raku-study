@@ -4,11 +4,6 @@
 
 use v6;
 
-## Make errors into warnings
-CATCH { default { say "CAUGHT: ", .Str; .resume } }
-
-#  my @monsters = < garuda blob golem mothera godzilla tingler >;
-
 my grammar df {
     regex TOP         { '<HTML>'  <head><body> '</HTML>' \s*                                                       }
     regex head        { '<HEAD>' \s* <title> '</HEAD>' \s*                                                         }
