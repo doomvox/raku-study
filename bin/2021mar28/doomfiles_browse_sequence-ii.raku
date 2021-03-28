@@ -52,8 +52,8 @@ my grammar df {
 
     regex prev_link   { '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[PREV -' \s+ {} $0 ']' '</A>'              }
 #    regex next_link   { ^^ '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[NEXT -' \s+ {} $0 ']' '</A>'        $$ }
-#    regex next_link   { '<A' \s+ 'HREF="' <node_name> '.html' '">' '[NEXT -' \s+ $( { say $/.<node_name>; $/.<node_name>  } )  ']' '</A>'     }
-    regex next_link   { '<A' \s+ 'HREF="' <node_name> '.html' '">' '[NEXT -' \s+  {} <{ $/.<node_name> }>   ']' '</A>'     }
+    regex next_link   { '<A' \s+ 'HREF="' <node_name> '.html' '">' '[NEXT -' \s+ {} $( { say $/.<node_name>; $/.<node_name>  } )  ']' '</A>'     }
+#    regex next_link   { '<A' \s+ 'HREF="' <node_name> '.html' '">' '[NEXT -' \s+  {} <{ $/.<node_name> }>   ']' '</A>'     }
 
     regex node_name   { <[A..Zc0..9_-]>*? }   # Doomfiles node names are like:  McNODE_NAME_7
     regex label       { <-[<]>*? } # > 
