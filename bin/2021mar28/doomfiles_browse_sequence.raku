@@ -26,10 +26,11 @@ my grammar df {
     regex label       { <-[<]>*? } # > 
     }
 
+my $init_file = "TOP.html";
 
 my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
 chdir( $loc );
-my $node = handle_first_node();
+my $node = handle_first_node( $init_file );
 say $node;
 my $file="$node.html";
 #my $full_file = "$loc/$file";
