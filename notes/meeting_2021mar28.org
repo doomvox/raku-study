@@ -31,7 +31,11 @@
 **** open an issue, I think.
 
 
-bruce gray shows us some rosettacode lazy lists
+bruce gray shows us some rosettacode working with 
+lazy lists to get a list of primes with monotonically 
+increasing differences: 
+
+http://rosettacode.org/wiki/Next_special_primes#Raku
 
 
 destructureing call:
