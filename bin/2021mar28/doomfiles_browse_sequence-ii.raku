@@ -41,7 +41,7 @@ my grammar df {
     regex ruler       { '--------'                                                                                 }
     regex control_2   { <ruler> \s+ <next_link> \s*                                                                }
 
-    regex stuff       { ( .*? )                                                                                    }
+    regex stuff       { ( .* )                                                                                    }
     ## Last thought, make “stuff” greedy on non-left-bracket & ratchet there… 
     
     regex top_link    { '<A' \s+ 'HREF="TOP.html">[TOP]</A>'                                  }
