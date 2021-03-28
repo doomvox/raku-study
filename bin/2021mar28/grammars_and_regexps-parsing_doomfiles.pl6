@@ -41,7 +41,7 @@ my grammar df {
 #    regex node_name   { <-[.]>*? }  ## first cut, better to be explicit
     # Traditional:  McNODE_NAME
     regex node_name   { <[A..Zc_-]>*? }  
-    regex label       { <-[<]>*? } # > 
+    regex label       { <-[<]>*? }          
     }
 ## TODO  o  more decomposition, e.g. an html_ext token
 ##       o  find better way to do pattern back references
