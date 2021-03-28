@@ -95,6 +95,7 @@ sub do_rest_whole_parse( $init ) {
     my $node = $init;  ## to start "TOP"
     say "XXX: node: $node";
     while ( $node ) {
+        say "YYY: node: $node\n";
         my $file="$node.html";
         my $match = df.parsefile( $file ); 
 
