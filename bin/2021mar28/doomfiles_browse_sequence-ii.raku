@@ -36,7 +36,7 @@ my grammar df {
     regex body        { '<BODY>' \s*  <control_1>  \s* <h1> \s* '<PRE>' <stuff> <control_2> '</PRE>' '</BODY>' \s* }
     regex control_1   { '<PRE>' \s+ <prev_link> \s+ <link> \s* '</PRE>'                                            }
     regex h1          { '<H1' [\s+ 'align="left"'] '>' <node_name> '</H1>'                                         }
-    token ruler       { '--------'                                                                                 }
+    regex ruler       { '--------'                                                                                 }
     token control_2   { <ruler> \s+ <next_link> \s*                                                                }
     token stuff       { ( .*? )                                                                                    }
 
