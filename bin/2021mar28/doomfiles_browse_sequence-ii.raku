@@ -60,8 +60,8 @@ my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
 chdir( $loc );
 
 # my $init = 'TOP';
-say $init;
-my $init_file = "$init.html";
+# say $init;
+# my $init_file = "$init.html";
 
 ## my $node = handle_first_node( $init_file );
 ## say $node.Str if $node;
