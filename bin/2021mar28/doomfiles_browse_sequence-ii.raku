@@ -64,6 +64,13 @@ say $node.Str if $node;
 do_rest_by_line( $node );
 
 sub do_rest_by_line( $init ) {
+    my $node = $init;
+    while ( $node ) {
+        my $file="$node.html";
+        my $match = df.parsefile( $file ); 
+        $node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
+        say $node.Str if $node;
+    }
 }
 
 sub do_rest_whole_parse( $init ) {
