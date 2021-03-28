@@ -36,7 +36,7 @@ say $init;
 my $init_file = "$init.html";
 
 my $node = handle_first_node( $init_file );
-say $node.Str;
+say $node.Str if $node;
 
 do_rest_whole_parse( $node );
 
