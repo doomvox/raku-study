@@ -90,8 +90,6 @@ sub do_rest_whole_parse( $init ) {
     while ( $node ) {
         my $file="$node.html";
         my $match = df.parsefile( $file ); 
-        say $match;
-        exit;
 
         $node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
 #        $node = $match.gimmie_one( 'node_name' );  ## Dom::Tiny?  with a "find" to search tree (yary hint)
