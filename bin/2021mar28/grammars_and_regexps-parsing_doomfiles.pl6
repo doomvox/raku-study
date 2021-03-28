@@ -59,7 +59,7 @@ my $link_2 = '<A HREF="TOP.html">[TOP]</A>';
 ## (0.1) 
 ## Note that this (fairly natural mistake) yields an incomprehensible error:
     my $match = df.parse( $content, 'link' );   # looking for:  rule => 'link'
-## Too many positionals passed; expected 2 arguments but got 3  
+## Too many positionals passed; expected 2 arguments but got 3   (( Uh: LTA ))
 ## this is the right way:
 #   my $match = df.parse( $content, :rule('link') );# 
 
