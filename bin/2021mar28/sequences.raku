@@ -26,7 +26,7 @@ for @z -> $z {
 #Liz IRC
 
 my @a = 3,7,6,12,9,6,6,6;
-say @a.first(6, :k)
+say @a.first(6, :k);
 # 2 
 
 exit;
