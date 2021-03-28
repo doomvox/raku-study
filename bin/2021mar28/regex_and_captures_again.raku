@@ -76,7 +76,7 @@ say "===";
 }
 
 {
-    my $m = "the cat" ~~ m/a/;
+    my $m = "the cat" ~~ m/$<char>=[a]/;
     say $m;
 
     }
