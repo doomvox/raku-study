@@ -32,10 +32,10 @@ say @a.first(6, :k);
 exit;
 
 ## Bruce Gray examples: 
-
-my @z = <a b c>, <d e f>;
-for @z -> @batch_of_3 {...};
-for @z -> ( $m, $n, $o ) {...};
-for @z -> ( Str $m, Str $n, Str $o ) {...} ;
-
+{
+    my @z = <a b c>, <d e f>;
+    for @z -> @batch_of_3 {...};
+    for @z -> ( $m, $n, $o ) {...};
+    for @z -> ( Str $m, Str $n, Str $o ) {...} ;
+}
 
