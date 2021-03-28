@@ -66,5 +66,9 @@ say "===";
 
     say $/.<Date><year>.Str;  #  2021
 
+    # Q: what *is* this?
+    my Str $year = $/.<Date><year>;
+
+    
 
     }
