@@ -76,7 +76,7 @@ sub handle_first_node ( Str $init = 'TOP.html') {
 #  -r--r--r--  1 doom doom   30200 Mar 20 10:37 BURNING_MOMENTS.html
 # Too much backtracking?
 
-## It is one of the larger files
+## It is one of the larger files (none of the larger ones are hit earlier)
 #   -r--r--r--  1 doom doom  278451 Mar 20 10:38 WHATSNEW.html
 #   -r--r--r--  1 doom doom  164552 Mar 20 10:38 CONTENTS.html
 #   -r--r--r--  1 doom doom   58222 Mar 20 10:37 NAUGHT_SEVEN.html
@@ -87,4 +87,4 @@ sub handle_first_node ( Str $init = 'TOP.html') {
 #   -r--r--r--  1 doom doom   31420 Mar 20 10:37 THE_VOICE_OF_DOOM.html
 #   -r--r--r--  1 doom doom   30200 Mar 20 10:37 BURNING_MOMENTS.html
 #   -r--r--r--  1 doom doom   25213 Mar 20 10:37 SCAFFOLDING.html
-#   -r--r--r--  1 doom doom   23159 Mar 20 10:37 
+
