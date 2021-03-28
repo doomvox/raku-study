@@ -67,11 +67,9 @@ sub do_rest_by_line( $init ) {
     my $node = $init;
     while ( $node ) {
         my $file="$node.html";
-
         for "$file".IO.lines -> $line {
             my $match = df.parse( $line, :rule('next_link') ); 
             $node = $match.[0].<node_name>; 
-            last if $match;
             say $node.Str if $node;
         }
     }
