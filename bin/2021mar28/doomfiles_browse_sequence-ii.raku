@@ -86,13 +86,13 @@ sub do_rest_whole_parse( $init ) {
 sub handle_first_node ( Str $init = 'TOP.html') {
 #    my $init = "TOP.html";
 #    my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";  ## TODO better to use pwd?
-    my $next_node;
+    my $node;
     for "$init".IO.lines -> $line {
         my $match = df.parse( $line, :rule('next_link') ); 
-        $next_node = $match.[0].<node_name>; 
+        $node = $match.[0].<node_name>; 
         last if $match;
     }
-    return $next_node;
+    return $node;
 }
 
 
