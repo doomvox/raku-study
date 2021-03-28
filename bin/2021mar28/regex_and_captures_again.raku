@@ -78,6 +78,7 @@ say "===";
 {
     my $m = "the cat" ~~ m/$<char>=[a]/;
     say $m;
+    say $/.WHAT;  ##  
     # ｢a｣
     #  char => ｢a｣
 
@@ -85,11 +86,11 @@ say "===";
 
     # Does this work?
     $/ = Nil;
+    say $/.WHAT;  ##  
     say $<char>; # Nil
-    
 
     $/ = 42;
     say $/;  # 42
-    say $/.WHAT;
+    say $/.WHAT;  ##  (Int)
 
     }
