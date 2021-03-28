@@ -71,7 +71,11 @@ say "===";
     ## Type check failed in assignment to $year; expected Str but got Match (Match.new(:orig("202...)
     
     my $year = $/.<Date><year>;  # even though not a string
-    my $remark = "The year is $year";
+    my $remark = "The year is $year";  # interpolation is stringification
     say $remark;  #  The year is 2021
-
 }
+
+{
+    my $m = "the cat" ~~ 
+
+    }
