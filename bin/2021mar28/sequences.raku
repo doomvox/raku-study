@@ -31,7 +31,8 @@ say "===";
     say @a.first(6, :k);
     # 2 
 
-    my @a = 3,7,6,12,9,6,6,6; say @a.first(6, :k, :end) # for the record: from the other end
+    my @a = 3,7,6,12,9,6,6,6;
+    say @a.first(6, :k, :end); # for the record: from the other end
 
 # 7 
 # my @a = <A A B C D D D E>; say @a.elems; say @a.first("E", :k) 
