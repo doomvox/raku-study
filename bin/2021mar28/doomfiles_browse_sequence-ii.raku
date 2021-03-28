@@ -59,7 +59,7 @@ my grammar df {
 my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
 chdir( $loc );
 
-my $init = 'TOP';
+# my $init = 'TOP';
 say $init;
 my $init_file = "$init.html";
 
