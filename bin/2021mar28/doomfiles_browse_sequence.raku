@@ -33,16 +33,15 @@ my $init = 'TOP';
 say $init;
 my $init_file = "$init.html";
 
-
 my $node = handle_first_node( $init_file );
 say $node.Str;
-my $file="$node.html";
-#my $full_file = "$loc/$file";
-#my $match = df.parsefile( $full_file ); 
-my $match = df.parsefile( $file ); 
-my $next_node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
-say $next_node.Str;
 
+while ( $node ) {
+    my $file="$node.html";
+    my $match = df.parsefile( $file ); 
+    $node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
+    say $node.Str if $node;
+}
 
 
 sub handle_first_node ( Str $init = 'TOP.html') {
