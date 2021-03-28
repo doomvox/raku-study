@@ -26,7 +26,8 @@ my grammar df {
     regex label       { <-[<]>*? } # > 
     }
 
-my $init_file = "TOP.html";
+my $init = 'TOP';
+my $init_file = "$init.html";
 
 my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
 chdir( $loc );
