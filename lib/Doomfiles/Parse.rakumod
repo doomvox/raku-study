@@ -12,7 +12,7 @@ class Doomfiles::Parse {
 
 =head1 NAME
 
-Doomfiles::Parse - place to stash tools for parsing "doomfiles"
+Doomfiles::Parse - tools for parsing "doomfiles"
 
 =head1 SYNOPSIS
 
