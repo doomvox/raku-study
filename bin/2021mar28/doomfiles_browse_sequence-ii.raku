@@ -25,7 +25,7 @@ my grammar df {
     # Traditional:  McNODE_NAME_7
 #    regex node_name   { <[A..Zc0..9_-]>*? }  
     token node_name   { <[A..Zc0..9_-]>*? }  
-    token label       { <-[<]>*? } # > 
+    regex label       { <-[<]>*? } # > 
     }
 
 my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
