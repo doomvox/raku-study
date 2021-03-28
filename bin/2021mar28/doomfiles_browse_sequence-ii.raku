@@ -8,7 +8,6 @@ my grammar df {
 #    regex TOP         { '<HTML>'  <head><body> '</HTML>' \s*                                                       }
     regex TOP         { '<HTML>'  <head><body> '</HTML>' \s                                                       }
     regex head        { '<HEAD>' \s* <title> '</HEAD>' \s*                                                         }
-#    regex title       { '<TITLE>' 'The doomfiles' ' - ' <node_name> '.html' '</TITLE>' \s*                         }
     regex title       { '<TITLE>' 'The doomfiles' ' - ' <node_name> '.html' '</TITLE>' \s*                         }
     regex body        { '<BODY>' \s*  <control_1>  \s* <h1> \s* '<PRE>' <stuff> <control_2> '</PRE>' '</BODY>' \s* }
     regex control_1   { '<PRE>' \s+ <prev_link> \s+ <link> \s* '</PRE>'                                            }
