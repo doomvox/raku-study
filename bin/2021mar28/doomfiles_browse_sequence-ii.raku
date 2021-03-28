@@ -39,12 +39,12 @@ say $node.Str;
 do_rest_whole_parse( $node.Str );
 
 sub do_rest_whole_parse() {
-while ( $node ) {
-    my $file="$node.html";
-    my $match = df.parsefile( $file ); 
-    $node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
-    say $node.Str if $node;
-}
+    while ( $node ) {
+        my $file="$node.html";
+        my $match = df.parsefile( $file ); 
+        $node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
+        say $node.Str if $node;
+    }
 }
 
 sub handle_first_node ( Str $init = 'TOP.html') {
