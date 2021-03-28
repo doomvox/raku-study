@@ -82,7 +82,6 @@ say "===";
     say $m;
     # ｢a｣
     #  char => ｢a｣
-
     say "char: ", $<char>;
 
     say "---";
