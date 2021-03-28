@@ -3,7 +3,7 @@
 # doomfiles_browse_sequence-ii.raku            28 Mar 2021 
 
 use v6;
-# use Grammar::Tracer;
+use Grammar::Tracer;
 
 my grammar df_old {
     regex TOP         { '<HTML>'  <head><body> '</HTML>' \s*                                                       }
