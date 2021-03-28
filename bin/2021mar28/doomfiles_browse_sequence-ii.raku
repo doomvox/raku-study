@@ -60,8 +60,9 @@ my $init_file = "$init.html";
 my $node = handle_first_node( $init_file );
 say $node.Str if $node;
 
-do_rest_whole_parse( $node );
+# do_rest_whole_parse( $node );
 ## do_rest_by_line( $node );
+do_rest_parsefile_individual_regex( $node );
 
 sub do_rest_by_line( $init ) {
     my $node = $init;
