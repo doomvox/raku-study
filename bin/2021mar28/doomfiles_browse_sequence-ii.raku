@@ -51,7 +51,7 @@ my grammar df {
     regex link        { '<A' \s+ 'HREF="' <node_name> '.html' '">' <label> '</A>'                                  }
 
     regex prev_link   { '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[PREV -' \s+ {} $0 ']' '</A>'              }
-    regex next_link   { ^^ '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[NEXT -' \s+ {} $0 ']' '</A>'        $$ }
+#    regex next_link   { ^^ '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[NEXT -' \s+ {} $0 ']' '</A>'        $$ }
 #    regex next_link   { '<A' \s+ 'HREF="' <node_name> '.html' '">' '[NEXT -' \s+ {} $( say $/.<node_name>; $/.<node_name> )  ']' '</A>'     }
     regex next_link   { '<A' \s+ 'HREF="' <node_name> '.html' '">' '[NEXT -' \s+  {} <{ $/.<node_name> }>   ']' '</A>'     }
 
