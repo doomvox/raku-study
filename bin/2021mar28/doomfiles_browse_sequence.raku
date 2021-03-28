@@ -33,13 +33,13 @@ my $init_file = "$init.html";
 my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
 chdir( $loc );
 my $node = handle_first_node( $init_file );
-say $node;
+say $node.Str;
 my $file="$node.html";
 #my $full_file = "$loc/$file";
 #my $match = df.parsefile( $full_file ); 
 my $match = df.parsefile( $file ); 
 my $next_node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
-say $next_node;
+say $next_node.Str;
 
 
 sub handle_first_node ($init = 'TOP.html') {
