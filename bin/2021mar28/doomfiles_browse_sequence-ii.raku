@@ -67,9 +67,10 @@ my $init_file = "$init.html";
 my $node = handle_first_node( $init_file );
 say $node.Str if $node;
 
-# do_rest_whole_parse( 'BURNING_MOMENTS' );
+do_rest_whole_parse( $node );
 
-# do_rest_whole_parse( $node );
+
+# do_rest_whole_parse( 'BURNING_MOMENTS' );
 # do_rest_by_line( $node );
 
 ## doesn't work just now:
