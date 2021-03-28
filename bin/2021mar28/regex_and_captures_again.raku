@@ -76,6 +76,6 @@ say "===";
 }
 
 {
-    my $m = "the cat" ~~ 
+    my $m = "the cat" ~~ m/a/;
 
     }
