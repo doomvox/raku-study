@@ -29,7 +29,7 @@ my grammar df_1 {
     }
 
 my grammar df {
-    token TOP         { '<HTML>'  <head><body> '</HTML>' \s*                                                       }
+    regex TOP         { '<HTML>'  <head><body> '</HTML>' \s*                                                       }
 #    regex TOP         { '<HTML>'  <head><body> '</HTML>' \s                                                       }
     token head        { '<HEAD>' \s* <title> '</HEAD>' \s*                                                         }
     token title       { '<TITLE>' 'The doomfiles' ' - ' <node_name> '.html' '</TITLE>' \s*                         }
