@@ -94,7 +94,7 @@ sub do_rest_parsefile_individual_regex( $init ) {
     my $node = $init;
     while ( $node ) {
         my $file="$node.html";
-        my $match = df.parsefile( $file, :rule('next_node'); 
+        my $match = df.parsefile( $file, :rule('next_link'); 
         $node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
         say $node.Str if $node;
     }
