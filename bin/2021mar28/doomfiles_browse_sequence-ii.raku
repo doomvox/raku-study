@@ -6,7 +6,7 @@ use v6;
 use Grammar::Tracer;
 
 my grammar df_1 {
-    regex TOP         { '<HTML>'  <head><body> '</HTML>' \s*                                                       }
+    regex TOP         {'<HTML>'  <head><body> '</HTML>' \s*                                                     }
 #    regex TOP         { '<HTML>'  <head><body> '</HTML>' \s                                                       }
     regex head        { '<HEAD>' \s* <title> '</HEAD>' \s*                                                         }
     regex title       { '<TITLE>' 'The doomfiles' ' - ' <node_name> '.html' '</TITLE>' \s*                         }
@@ -15,6 +15,7 @@ my grammar df_1 {
     regex h1          { '<H1' [\s+ 'align="left"'] '>' <node_name> '</H1>'                                         }
     regex ruler       { '--------'                                                                                 }
     regex control_2   { <ruler> \s+ <next_link> \s*                                                                }
+
     regex stuff       { ( .*? )                                                                                    }
 
     regex link        { '<A' \s+ 'HREF="' <node_name> '.html' '">' <label> '</A>'                                  }
