@@ -11,4 +11,5 @@ my regex Date { \d ** 4 '-' \d ** 2 '-' \d ** 2 };
 say $/ if "2021-03-23" ~~ / ( <Date> ) /;
 say $/.<Date>;  # ｢2021-03-23｣
 
+say "---";
 say $0; # Nil
