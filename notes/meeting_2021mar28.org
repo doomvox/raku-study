@@ -30,3 +30,13 @@
 *** review continuing discussion of regex interpolation with captures
 **** open an issue, I think.
 
+
+bruce gray shows us some rosettacode lazy lists
+
+
+destructureing call:
+
+sub is-special ( ($previous, $gap) ) {
+
+sub requires a list of two elements, unpacked by convenience
+into those names.  (Bet I can use this instead of $pair) 
