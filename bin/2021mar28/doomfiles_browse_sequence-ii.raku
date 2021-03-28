@@ -98,7 +98,7 @@ sub do_rest_whole_parse( $init ) {
         $node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
 #        $node = $match.gimmie_one( 'node_name' );  ## Dom::Tiny?  with a "find" to search tree (yary hint)
         say $node.Str if $node;
-        exit if $++>6;
+        exit if $++>1;
     }
 }
 
