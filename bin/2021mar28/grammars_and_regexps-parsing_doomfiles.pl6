@@ -30,7 +30,7 @@ my grammar df {
     regex control_1   { '<PRE>' \s+ <prev_link> \s+ <link> \s* '</PRE>'                                            }
     regex h1          { '<H1' [\s+ 'align="left"'] '>' <node_name> '</H1>'                                         }
     regex ruler       { '--------'                                                                                 }
-    regex control_2   { <ruler> \s+ <next_link> \s*                                                                }
+    regex control_2   { <.ruler> \s+ <next_link> \s*                                                                }
 #    regex stuff       { ( .*? )                                                                                    }
     regex stuff       { ( .* )                                                                                    }
 
@@ -76,6 +76,9 @@ my $link_2 = '<A HREF="TOP.html">[TOP]</A>';
 ## my $match_2 = df.parse( $link_2, :rule('link') );
 # say $match_2;
 ## Would like non-capturing named groups.  Any way to do that?
+
+## Like so, as bg reminds:
+##   <.ruler>
 
 
 ## (0.5) was having a lot of trouble with syntax-coloring with patterns matching pointies.
