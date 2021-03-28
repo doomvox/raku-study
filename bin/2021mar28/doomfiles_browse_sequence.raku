@@ -41,12 +41,12 @@ say $next_node;
 sub handle_first_node {
     my $init = "TOP.html";
     my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";  ## TODO better to use pwd?
+    my $next_node;
     for "$loc/$init".IO.lines -> $line {
         my $match = df.parse( $line, :rule('next_link') ); 
-        my $next_node = $match.[0].<node_name>; 
-
+        $next_node = $match.[0].<node_name>; 
+        last if $match;
     }
-
-
+    return $next_node;
 }
 
