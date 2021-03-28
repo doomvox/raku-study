@@ -28,6 +28,7 @@ my grammar df {
 
 
 my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
+chdir( $loc );
 my $node = handle_first_node();
 say $node;
 my $file="$node.html";
