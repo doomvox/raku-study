@@ -87,6 +87,8 @@ say "===";
     $/ = Nil;
     say $<char>; # Nil
     
+
     $/ = 42;
+    say $/;
 
     }
