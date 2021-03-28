@@ -22,7 +22,7 @@ my grammar df {
 
 #    regex node_name   { <-[.]>*? }  ## first cut, better to be explicit
     # Traditional:  McNODE_NAME
-    regex node_name   { <[A..Zc_-]>*? }  
+    regex node_name   { <[A..Zc_-0..9]>*? }  
     regex label       { <-[<]>*? } # > 
     }
 
