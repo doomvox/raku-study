@@ -51,6 +51,7 @@ say $*PROGRAM-NAME;
 }
 
 
+say '---';
 {
     my $new_loc = $*PROGRAM.parent.add('../..');
     say $new_loc.Str;
