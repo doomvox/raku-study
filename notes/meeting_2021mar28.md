@@ -1,22 +1,22 @@
-- [meeting notes Mar 28, 2021](#orgf0b1543)
-  - [topics](#orgc6996be)
-    - [news: perl foundation project to improve raku docs](#org3c01a55)
-    - [extracting results from grammar matches](#org7307cbc)
-    - [grammar to parse doomfiles](#orgc35421b)
-    - [review continuing discussion of regex interpolation with captures](#orgc35051c)
+- [meeting notes Mar 28, 2021](#org328e7dc)
+  - [topics](#orgf226694)
+    - [news: perl foundation project to improve raku docs](#org9bbc8a9)
+    - [extracting results from grammar matches](#orgb834cdd)
+    - [grammar to parse doomfiles](#orga6fadd3)
+    - [review continuing discussion of regex interpolation with captures](#org753a935)
 
 
-<a id="orgf0b1543"></a>
+<a id="org328e7dc"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="orgc6996be"></a>
+<a id="orgf226694"></a>
 
 ## topics
 
 
-<a id="org3c01a55"></a>
+<a id="org9bbc8a9"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -27,7 +27,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org7307cbc"></a>
+<a id="orgb834cdd"></a>
 
 ### extracting results from grammar matches
 
@@ -50,7 +50,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="orgc35421b"></a>
+<a id="orga6fadd3"></a>
 
 ### grammar to parse doomfiles
 
@@ -63,7 +63,7 @@
             fixed by changing stuff regex (.\*?) to non-greedy (.\*)
 
 
-<a id="orgc35051c"></a>
+<a id="org753a935"></a>
 
 ### review continuing discussion of regex interpolation with captures
 

@@ -21,7 +21,6 @@
 ****** bad efficiency bug (Mohrvm panic!) 
 fixed by changing   stuff regex (.*?) to non-greedy (.*)
 
-
 *** review continuing discussion of regex interpolation with captures
 **** open an issue, I think.
 
