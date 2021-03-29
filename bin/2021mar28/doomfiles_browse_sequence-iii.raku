@@ -18,7 +18,7 @@ my grammar df {
 ##    regex stuff       { ( .* )                                                                                     }
     regex stuff  ## yary hluchan
     {
-        [                 # Stuff is a group of either
+        [                 # stuff is a group of either
             '<'           #   a left-bracket decision point
           ||              # or
             <-[<]>+:      # > #    a ratcheting string of non-decision points
