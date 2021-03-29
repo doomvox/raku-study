@@ -23,6 +23,16 @@ use v6;
     # 87
 }
 
+## Bruce Gray examples: 
+{
+    my @z = <a b c>, <d e f>;
+    for @z -> @batch_of_3 {...};
+    for @z -> ( $m, $n, $o ) {...};
+    for @z -> ( Str $m, Str $n, Str $o ) {...} ;
+}
+
+
+
 say "===";
 #Liz IRC
 
@@ -52,12 +62,4 @@ say "===";
 }
 
 exit;
-
-## Bruce Gray examples: 
-{
-    my @z = <a b c>, <d e f>;
-    for @z -> @batch_of_3 {...};
-    for @z -> ( $m, $n, $o ) {...};
-    for @z -> ( Str $m, Str $n, Str $o ) {...} ;
-}
 
