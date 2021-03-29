@@ -30,7 +30,6 @@ say $*PROGRAM-NAME;
     ## chdir( $loc );
 }
 
-
 {
     my $loc = $*PROGRAM.dirname.add('..');
     say $loc;
