@@ -8,3 +8,6 @@ use v6;
 # CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 say $*PROGRAM;
+## "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program_location.raku".IO
+
+say $*PROGRAM-NAME;
