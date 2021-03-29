@@ -71,8 +71,6 @@ sub parse_the_rest_starting_at( $init ) {
 # parse_the_rest_starting_at( 'BURNING_MOMENTS' );
 # parse_the_rest_by_line( $node );
 
-## doesn't work just now:
-## parse_the_rest_parsefile_individual_regex( $node );
 
 sub parse_the_rest_by_line( $init ) {
     my $node = $init;
@@ -92,6 +90,7 @@ sub parse_the_rest_by_line( $init ) {
 }
 
 
+## This approach doesn't seem to work 
 sub parse_the_rest_parsefile_individual_regex( $init ) {
     my $node = $init;
     while ( $node ) {
