@@ -45,12 +45,12 @@ say $node.Str if $node;
 parse_the_rest_starting_at( $node );
 
 # parse_the_rest_starting_at( 'BURNING_MOMENTS' );
-# do_rest_by_line( $node );
+# parse_the_rest_by_line( $node );
 
 ## doesn't work just now:
-## do_rest_parsefile_individual_regex( $node );
+## parse_the_rest_parsefile_individual_regex( $node );
 
-sub do_rest_by_line( $init ) {
+sub parse_the_rest_by_line( $init ) {
     my $node = $init;
     while ( $node ) {
         my $file="$node.html";
@@ -79,7 +79,7 @@ sub parse_the_rest_starting_at( $init ) {
     }
 }
 
-sub do_rest_parsefile_individual_regex( $init ) {
+sub parse_the_rest_parsefile_individual_regex( $init ) {
     my $node = $init;
     while ( $node ) {
         my $file="$node.html";
