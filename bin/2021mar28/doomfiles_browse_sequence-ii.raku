@@ -31,6 +31,10 @@ my grammar df {
 my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
 chdir( $loc );
 
+
+do_rest_whole_parse( 'BURNING_MOMENTS' );
+
+
 ## The first file (TOP.html) has a slightly different format and needs seperate handling
 my $init = 'TOP';
 say $init;
