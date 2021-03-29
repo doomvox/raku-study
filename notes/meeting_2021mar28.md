@@ -1,23 +1,23 @@
-- [meeting notes Mar 28, 2021](#org5bbc49d)
-  - [topics](#orgf848521)
-    - [news: perl foundation project to improve raku docs](#orge631754)
-    - [extracting results from grammar matches](#org86ce1d9)
-    - [grammar to parse doomfiles](#orge61d4bf)
-    - [getting a list of primes with monotonically increasing differences](#orgc4fe510)
-    - [sub with "destructuring" syntax:](#orgb6a0261)
+- [meeting notes Mar 28, 2021](#org92ad00d)
+  - [topics](#org532b6c4)
+    - [news: perl foundation project to improve raku docs](#orgcc1cf59)
+    - [extracting results from grammar matches](#orga5fc5cd)
+    - [grammar to parse doomfiles](#orgd36d316)
+    - [getting a list of primes with monotonically increasing differences](#org157905a)
+    - [sub with "destructuring" syntax:](#orgbf0ba9b)
 
 
-<a id="org5bbc49d"></a>
+<a id="org92ad00d"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="orgf848521"></a>
+<a id="org532b6c4"></a>
 
 ## topics
 
 
-<a id="orge631754"></a>
+<a id="orgcc1cf59"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -28,7 +28,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org86ce1d9"></a>
+<a id="orga5fc5cd"></a>
 
 ### extracting results from grammar matches
 
@@ -51,7 +51,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="orge61d4bf"></a>
+<a id="orgd36d316"></a>
 
 ### grammar to parse doomfiles
 
@@ -64,7 +64,7 @@
             fixed by changing stuff regex (.\*?) to non-greedy (.\*)
 
 
-<a id="orgc4fe510"></a>
+<a id="org157905a"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -73,15 +73,13 @@
     1.  <http://rosettacode.org/wiki/Next_special_primes#Raku>
 
 
-<a id="orgb6a0261"></a>
+<a id="orgbf0ba9b"></a>
 
 ### sub with "destructuring" syntax:
 
-\#+BEGIN<sub>SRC</sub> perl6-mode
-
+```perl6-mode
 sub is-special ( ($previous, $gap) ) {
-
-\#END<sub>SRC</sub>
+```
 
 sub requires a list of two elements, unpacked by convenience into those names. (Bet I can use this instead of $pair)
 

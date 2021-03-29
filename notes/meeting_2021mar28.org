@@ -31,7 +31,7 @@ fixed by changing   stuff regex (.*?) to non-greedy (.*)
 
 sub is-special ( ($previous, $gap) ) {
 
-#END_SRC
+#+END_SRC
 
 sub requires a list of two elements, unpacked by convenience
 into those names.  (Bet I can use this instead of $pair) 
