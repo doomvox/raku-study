@@ -6,31 +6,48 @@
 ** techid: database with categorization features, links to meeting notes
 
 ** subjects
-**** a stupid mistake that isn't: naming a method with a leading ^
-***** https://stackoverflow.com/questions/54143036/class-method-name-with-doesnt-get-invoked-properly/54147131#54147131
-****** should this generate a warning/error?
+*** nested map idioms
+**** TODO nested map: review perl5 approaches 
+***** maybe, try python version
+**** TODO nested map: get some raku code working 
+***** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested_map.raku
+*** quoted string regexes
+**** TODO re_quoted_str: perl5 versions 
+**** TODO re_quoted_str: continue with raku versions
+***** next: balanced quotes of various types
+****** yary hluchan
+******** https://github.com/doomvox/raku-study/blob/main/notes/bin/richard_hainsworth_grammar.raku
+******** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/richard_hainsworth_grammar.raku
 
-**** Steven Lembark
-***** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
-****** slide21:  "unit sub MAIN { ..."  unit?
-***** https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql
-**** adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
-***** https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
-**** andrew shitov "Perl 6 at a Glance"
-***** https://andrewshitov.com/perl6-at-a-glance/
-***** https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf
+****** moritz lenz 
+******** https://github.com/doomvox/raku-study/blob/main/notes/bin/2021mar21/parsing_quoted_strings_backslash.raku
+******** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing_quoted_strings_backslash.raku
 
-**** andrew shitov's raku course on-line:
+*** a stupid mistake that isn't: naming a method with a leading ^
+**** https://stackoverflow.com/questions/54143036/class-method-name-with-doesnt-get-invoked-properly/54147131#54147131
+***** should this generate a warning/error?
+
+*** Steven Lembark
+**** https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my
+***** slide21:  "unit sub MAIN { ..."  unit?
+**** https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql
+*** adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
+**** https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)
+*** andrew shitov "Perl 6 at a Glance"
+**** https://andrewshitov.com/perl6-at-a-glance/
+**** https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf
+
+*** andrew shitov's raku course on-line:
 https://course.raku.org/
 
-**** perl weekly challenge: 
-***** https://perlweeklychallenge.org/
+*** perl weekly challenge: 
+**** https://perlweeklychallenge.org/
 
-**** promises and threads
-***** https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
-***** Jonathan Worthington
-****** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/Racing-to-writeness-to-wrongness-leads.md
-****** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md
+*** promises and threads
+**** https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
+**** Jonathan Worthington
+***** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/Racing-to-writeness-to-wrongness-leads.md
+***** https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md
 
 
 *** other files to go through
