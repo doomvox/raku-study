@@ -55,7 +55,19 @@ sub handle_first_node ( Str $init = 'TOP.html') {
 }
 
 sub parse_the_rest_starting_at( $init ) {
-    my $node = $init;  ## to start "TOP"
+    my $node = $init;  ## usually start at "TOP"
+    while ( $node ) {
+        my $file="$node.html";
+        my $match = df.parsefile( $file ) orelse die "parse failure on $node"; 
+        $node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
+        say $node.Str if $node;
+#        exit if $node eq 'COSMETIC';
+    }
+}
+
+
+sub parse_just_this_one( $init ) {
+    my $node = $init;  
     while ( $node ) {
         my $file="$node.html";
         my $match = df.parsefile( $file ) orelse die "parse failure on $node"; 
