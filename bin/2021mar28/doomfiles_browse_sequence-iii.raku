@@ -22,7 +22,7 @@ my grammar df {
             '<'           #   a left-bracket decision point
           ||              # or
             <-[<]>+:  # > #    a ratcheting string of non-decision points
-        ]*                # 0-many of those. Greedy or non-greedy both work?
+        ]*?                # 0-many of those. Greedy or non-greedy both work?
     ) }  # end capture, end regex
 
     regex top_link    { '<A' \s+ 'HREF="TOP.html">[TOP]</A>'                                                       }
