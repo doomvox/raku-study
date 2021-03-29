@@ -21,12 +21,9 @@
 ****** bad efficiency bug (Mohrvm panic!) 
 fixed by changing   stuff regex (.*?) to non-greedy (.*)
 
-
-bruce gray shows us some rosettacode working with 
-lazy lists to get a list of primes with monotonically 
-increasing differences: 
-
-http://rosettacode.org/wiki/Next_special_primes#Raku
+*** getting a list of primes with monotonically increasing differences
+**** bruce gray shows us some lazy list trickery up at rosettacode now
+***** http://rosettacode.org/wiki/Next_special_primes#Raku
 
 
 destructured syntax:
