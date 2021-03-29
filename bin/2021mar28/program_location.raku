@@ -14,7 +14,7 @@ say $*PROGRAM-NAME;
 
 my $l = $*PROGRAM;
 .say for $l.^methods>>.name;
-say $*PROGRAM.chdir('..');
+say "works, but deprecated: ", $*PROGRAM.chdir('..');
 
 my $loc = $*PROGRAM.add('..');
 say $loc;
