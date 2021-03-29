@@ -1,22 +1,21 @@
-- [meeting notes Mar 28, 2021](#org328e7dc)
-  - [topics](#orgf226694)
-    - [news: perl foundation project to improve raku docs](#org9bbc8a9)
-    - [extracting results from grammar matches](#orgb834cdd)
-    - [grammar to parse doomfiles](#orga6fadd3)
-    - [review continuing discussion of regex interpolation with captures](#org753a935)
+- [meeting notes Mar 28, 2021](#org224d687)
+  - [topics](#org4466623)
+    - [news: perl foundation project to improve raku docs](#org211c033)
+    - [extracting results from grammar matches](#orga369ce3)
+    - [grammar to parse doomfiles](#orge445502)
 
 
-<a id="org328e7dc"></a>
+<a id="org224d687"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="orgf226694"></a>
+<a id="org4466623"></a>
 
 ## topics
 
 
-<a id="org9bbc8a9"></a>
+<a id="org211c033"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -27,7 +26,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="orgb834cdd"></a>
+<a id="orga369ce3"></a>
 
 ### extracting results from grammar matches
 
@@ -50,7 +49,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="orga6fadd3"></a>
+<a id="orge445502"></a>
 
 ### grammar to parse doomfiles
 
@@ -61,26 +60,19 @@
         1.  bad efficiency bug (Mohrvm panic!)
         
             fixed by changing stuff regex (.\*?) to non-greedy (.\*)
-
-
-<a id="org753a935"></a>
-
-### review continuing discussion of regex interpolation with captures
-
-1.  open an issue, I think.
-
-    bruce gray shows us some rosettacode working with lazy lists to get a list of primes with monotonically increasing differences:
-    
-    <http://rosettacode.org/wiki/Next_special_primes#Raku>
-    
-    destructured syntax:
-    
-    sub is-special ( ($previous, $gap) ) {
-    
-    sub requires a list of two elements, unpacked by convenience into those names. (Bet I can use this instead of $pair)
-    
-    liz code, willima michels mentions:
-    
-    > #Liz IRC Nil > my @a = 3,7,6,12,9,6,6,6; say @a.first(6, :k) 2
-    
-    next meeting on april 11th, taking a break for easter
+            
+            bruce gray shows us some rosettacode working with lazy lists to get a list of primes with monotonically increasing differences:
+            
+            <http://rosettacode.org/wiki/Next_special_primes#Raku>
+            
+            destructured syntax:
+            
+            sub is-special ( ($previous, $gap) ) {
+            
+            sub requires a list of two elements, unpacked by convenience into those names. (Bet I can use this instead of $pair)
+            
+            liz code, willima michels mentions:
+            
+            > #Liz IRC Nil > my @a = 3,7,6,12,9,6,6,6; say @a.first(6, :k) 2
+            
+            next meeting on april 11th, taking a break for easter
