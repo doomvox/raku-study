@@ -1,6 +1,6 @@
 #!/usr/bin/env perl6
 # 
-# sequences.raku            28 Mar 2021 
+# lazy_lists.raku            28 Mar 2021 
 
 use v6;
 
