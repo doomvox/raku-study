@@ -1,25 +1,25 @@
-- [meeting notes Mar 28, 2021](#orgdc14968)
-  - [topics](#org65514e9)
-    - [news: perl foundation project to improve raku docs](#orgb699e3c)
-    - [news: classes can have custom type coercion in 2020.11](#org191bf8d)
-    - [extracting results from grammar matches](#org10a2865)
-    - [grammar to parse doomfiles](#orgd08f912)
-    - [getting a list of primes with monotonically increasing differences](#orgc8be8a2)
-    - [the .first method](#org3c7663b)
-  - [next meeting on april 11th, taking a break for easter](#orgb60d6a1)
+- [meeting notes Mar 28, 2021](#org3a05d68)
+  - [topics](#org85698bd)
+    - [news: perl foundation project to improve raku docs](#org8174e93)
+    - [news: classes can have custom type coercion in 2020.11](#org08e369b)
+    - [extracting results from grammar matches](#org0a93fca)
+    - [grammar to parse doomfiles](#org70b3f65)
+    - [getting a list of primes with monotonically increasing differences](#org9beefde)
+    - [the .first method](#orgbbb5465)
+  - [next meeting on april 11th, taking a break for easter](#org5755af9)
 
 
-<a id="orgdc14968"></a>
+<a id="org3a05d68"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org65514e9"></a>
+<a id="org85698bd"></a>
 
 ## topics
 
 
-<a id="orgb699e3c"></a>
+<a id="org8174e93"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -30,14 +30,14 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org191bf8d"></a>
+<a id="org08e369b"></a>
 
 ### news: classes can have custom type coercion in 2020.11
 
 <https://rakudoweekly.blog/2020/11/16/2020-46-coercion-renewed/>
 
 
-<a id="org10a2865"></a>
+<a id="org0a93fca"></a>
 
 ### extracting results from grammar matches
 
@@ -60,7 +60,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="orgd08f912"></a>
+<a id="org70b3f65"></a>
 
 ### grammar to parse doomfiles
 
@@ -76,28 +76,26 @@
             
             2.  yary hluchan suggests
             
-                ```perl6-mode
-                Add star  yary<not.com@gmail.com>	Mon, Mar 29, 2021 at 8:36 AM
-                To: Joseph Brenner <doomvox@gmail.com>
-                Cc: perl6-users <perl6-users@perl.org>, San Francisco Perl Mongers User Group <sanfrancisco-pm@pm.org>
-                Reply | Reply to all | Forward | Print | Delete | Show original
-                Hi Joe & other Raku study group attendees,
+                1.  With a night to sleep on it, the thing I was thinking & trying to say is that, in the specialized HTML-grammar you had, the decision points are all at left-brackets. By re-writing "stuff" so that it will only backtrack when it hits a bracket, I expect more speed-memory gains.
                 
-                At the time I left, we were looking at a grammar with a speed-memory issue on large-ish files. I had a germ of an idea which I couldn't express, and from the meeting notes I see you have a simple fix "by changing stuff regex (.\*?) to non-greedy (.\*)" I suspect the greedy-optimization works because the thing after the "stuff" regex is near the end of the file. Thus if instead it was close to the beginning, it would have a similar issue with greedy and non-greedy would fix.
-                
-                With a night to sleep on it, the thing I was thinking & trying to say is that, in the specialized HTML-grammar you had, the decision points are all at left-brackets. By re-writing "stuff" so that it will only backtrack when it hits a bracket, I expect more speed-memory gains.
-                
-                How well does this perform vs the simple .* greedy fix?
-                
-                    regex stuff
-                    { (  # capture stuff (positional capture might not be needed)
-                        [               # Stuff is a group of either
-                            \<          # a left-bracket decision point
-                          ||            # or
-                            <-[ \< ]>+: # a ratcheting string of non-decision points
-                        ]*              # 0-many of those. Greedy or non-greedy both work?
-                    ) }  # end capture, end regex
-                ```
+                    ```perl6-mode
+                    Hi Joe & other Raku study group attendees,
+                    
+                    
+                    
+                    
+                    
+                    How well does this perform vs the simple .* greedy fix?
+                    
+                        regex stuff
+                        { (  # capture stuff (positional capture might not be needed)
+                            [               # Stuff is a group of either
+                                \<          # a left-bracket decision point
+                              ||            # or
+                                <-[ \< ]>+: # a ratcheting string of non-decision points
+                            ]*              # 0-many of those. Greedy or non-greedy both work?
+                        ) }  # end capture, end regex
+                    ```
 
 2.  case insensitive matches (TODO check syntax)
 
@@ -113,7 +111,7 @@
     1.  Yary H : The HTML-tree-find module I was looking at is <https://github.com/zostay/raku-DOM-Tiny>
 
 
-<a id="orgc8be8a2"></a>
+<a id="org9beefde"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -132,7 +130,7 @@
     (Better than my usual dodge of passing a var named $pair which is not actually a Pair.)
 
 
-<a id="org3c7663b"></a>
+<a id="orgbbb5465"></a>
 
 ### the .first method
 
@@ -141,6 +139,6 @@ william michels was interested in some lizmat examples from irc
 <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub>
 
 
-<a id="orgb60d6a1"></a>
+<a id="org5755af9"></a>
 
 ## next meeting on april 11th, taking a break for easter
