@@ -1,25 +1,25 @@
-- [meeting notes Mar 28, 2021](#orgcf8bb23)
-  - [topics](#org5ad77b1)
-    - [news: perl foundation project to improve raku docs](#orga9975f1)
-    - [extracting results from grammar matches](#orgd15dc34)
-    - [grammar to parse doomfiles](#org43030f9)
-    - [getting a list of primes with monotonically increasing differences](#org7c05aa0)
-    - [sub with "destructuring" syntax:](#org79c722e)
-    - [the .first method](#org3b15266)
-  - [next meeting on april 11th, taking a break for easter](#org74a6f13)
+- [meeting notes Mar 28, 2021](#org6792672)
+  - [topics](#org36b89dc)
+    - [news: perl foundation project to improve raku docs](#org2f199ab)
+    - [extracting results from grammar matches](#org6c46181)
+    - [grammar to parse doomfiles](#org461e903)
+    - [getting a list of primes with monotonically increasing differences](#orgb56fa9c)
+    - [sub with "destructuring" syntax:](#orgb2427cc)
+    - [the .first method](#org27e62de)
+  - [next meeting on april 11th, taking a break for easter](#orgca172da)
 
 
-<a id="orgcf8bb23"></a>
+<a id="org6792672"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org5ad77b1"></a>
+<a id="org36b89dc"></a>
 
 ## topics
 
 
-<a id="orga9975f1"></a>
+<a id="org2f199ab"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -30,7 +30,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="orgd15dc34"></a>
+<a id="org6c46181"></a>
 
 ### extracting results from grammar matches
 
@@ -53,12 +53,14 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="org43030f9"></a>
+<a id="org461e903"></a>
 
 ### grammar to parse doomfiles
 
 1.  simple scripts, e.g. scan through browse sequence (done)
 
+    <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/doomfiles_browse_sequence-ii.raku>
+    
     1.  a number of issues:
     
         1.  bad efficiency bug (Mohrvm panic!)
@@ -66,7 +68,7 @@
             fixed by changing stuff regex (.\*?) to non-greedy (.\*)
 
 
-<a id="org7c05aa0"></a>
+<a id="orgb56fa9c"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -75,7 +77,7 @@
     1.  <http://rosettacode.org/wiki/Next_special_primes#Raku>
 
 
-<a id="org79c722e"></a>
+<a id="orgb2427cc"></a>
 
 ### sub with "destructuring" syntax:
 
@@ -88,7 +90,7 @@ sub takes a list of two elements, unpacked into the two named variables.
 (Better than my usual dodge of passing a $pair variable&#x2013; which isn't a Pair.)
 
 
-<a id="org3b15266"></a>
+<a id="org27e62de"></a>
 
 ### the .first method
 
@@ -96,9 +98,7 @@ william michels was interested in some lizmat examples from irc
 
 <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub>
 
-<https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/doomfiles_browse_sequence-ii.raku>
 
-
-<a id="org74a6f13"></a>
+<a id="orgca172da"></a>
 
 ## next meeting on april 11th, taking a break for easter

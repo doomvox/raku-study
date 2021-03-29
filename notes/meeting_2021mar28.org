@@ -17,6 +17,7 @@
 ******** if I understand right: calling it restarts part of the grammar matching
 *** grammar to parse doomfiles
 **** simple scripts, e.g. scan through browse sequence (done)
+https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/doomfiles_browse_sequence-ii.raku
 ***** a number of issues: 
 ****** bad efficiency bug (Mohrvm panic!) 
 fixed by changing   stuff regex (.*?) to non-greedy (.*)
@@ -42,7 +43,7 @@ william michels was interested in some lizmat examples from irc
 https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku
 /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first_method_on_arrays.raku
 
-https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/doomfiles_browse_sequence-ii.raku
+
 
 
 ** next meeting on april 11th, taking a break for easter
