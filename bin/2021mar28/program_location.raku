@@ -11,3 +11,6 @@ say $*PROGRAM;
 ## "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program_location.raku".IO
 
 say $*PROGRAM-NAME;
+
+my $l = $*PROGRAM;
+.say for $l.^methods>>.name;
