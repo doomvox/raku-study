@@ -40,7 +40,13 @@ I expect more speed-memory gains.
             <-[ \< ]>+: # a ratcheting string of non-decision points
         ]*              # 0-many of those. Greedy or non-greedy both work?
     ) }  # end capture, end regex
+
 #+END_SRC
+********** I think instead of this:
+#            <-[ \< ]>+:  #   a ratcheting string of non-decision points
+probably want this:
+#            <-[<]>+:  # > #    a ratcheting string of non-decision points
+
 ****** raku regex's care about trailing whitespace when using $
 ******* need a \s* at the end of TOP in my grammar
 ******* tried a \v but sometimes there's more than one trailing newline, 
