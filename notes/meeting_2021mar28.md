@@ -1,24 +1,24 @@
-- [meeting notes Mar 28, 2021](#org3b41ce6)
-  - [topics](#orgebc35f1)
-    - [news: perl foundation project to improve raku docs](#org9b60393)
-    - [extracting results from grammar matches](#org079960e)
-    - [grammar to parse doomfiles](#orgcc29fda)
-    - [getting a list of primes with monotonically increasing differences](#org6e474dd)
-    - [sub with "destructuring" syntax:](#org7e96e57)
-    - [the .first method](#org75f10cc)
+- [meeting notes Mar 28, 2021](#org7586098)
+  - [topics](#org63b07bd)
+    - [news: perl foundation project to improve raku docs](#orgc3b2845)
+    - [extracting results from grammar matches](#org9505fa9)
+    - [grammar to parse doomfiles](#org0ebfbea)
+    - [getting a list of primes with monotonically increasing differences](#org1421525)
+    - [sub with "destructuring" syntax:](#org09a3f41)
+    - [the .first method](#org40201ba)
 
 
-<a id="org3b41ce6"></a>
+<a id="org7586098"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="orgebc35f1"></a>
+<a id="org63b07bd"></a>
 
 ## topics
 
 
-<a id="org9b60393"></a>
+<a id="orgc3b2845"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -29,7 +29,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org079960e"></a>
+<a id="org9505fa9"></a>
 
 ### extracting results from grammar matches
 
@@ -52,7 +52,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="orgcc29fda"></a>
+<a id="org0ebfbea"></a>
 
 ### grammar to parse doomfiles
 
@@ -65,7 +65,7 @@
             fixed by changing stuff regex (.\*?) to non-greedy (.\*)
 
 
-<a id="org6e474dd"></a>
+<a id="org1421525"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -74,7 +74,7 @@
     1.  <http://rosettacode.org/wiki/Next_special_primes#Raku>
 
 
-<a id="org7e96e57"></a>
+<a id="org09a3f41"></a>
 
 ### sub with "destructuring" syntax:
 
@@ -87,15 +87,13 @@ sub takes a list of two elements, unpacked into the two named variables.
 (Better than my usual dodge of passing a $pair variable&#x2013; which isn't a Pair.)
 
 
-<a id="org75f10cc"></a>
+<a id="org40201ba"></a>
 
 ### the .first method
 
 william michels was interested in some lizmat examples from irc
 
-raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub> <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku>
-
-> my @a = 3,7,6,12,9,6,6,6; say @a.first(6, :k) 2
+<https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub>
 
 next meeting on april 11th, taking a break for easter
 
