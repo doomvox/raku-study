@@ -35,9 +35,7 @@ fixed by changing   stuff regex (.*?) to non-greedy (.*)
 
 
 *** using a real html parser is usually recommended, or course:
-Yary H : The HTML-tree-find module I was looking at is https://github.com/zostay/raku-DOM-Tiny
-
-
+**** Yary H : The HTML-tree-find module I was looking at is https://github.com/zostay/raku-DOM-Tiny
 
 *** getting a list of primes with monotonically increasing differences
 **** bruce gray shows us some lazy list trickery up at rosettacode now

@@ -1,27 +1,27 @@
-- [meeting notes Mar 28, 2021](#org026b3b1)
-  - [topics](#org229ff12)
-    - [news: perl foundation project to improve raku docs](#orga25ecd0)
-    - [news: classes can have custom type coercion in 2020.11](#orgbdb76fc)
-    - [extracting results from grammar matches](#org2e67c55)
-    - [grammar to parse doomfiles](#org9cf60bc)
-    - [using a real html parser is usually recommended, or course:](#orgd72a9fa)
-    - [getting a list of primes with monotonically increasing differences](#org224ef6d)
-    - [sub with "destructuring" syntax:](#org89914a6)
-    - [the .first method](#orgdabe0ba)
-  - [next meeting on april 11th, taking a break for easter](#org87d7a9f)
+- [meeting notes Mar 28, 2021](#org940b435)
+  - [topics](#orgf487c3b)
+    - [news: perl foundation project to improve raku docs](#orgccf0efc)
+    - [news: classes can have custom type coercion in 2020.11](#orgc245214)
+    - [extracting results from grammar matches](#org28faa7a)
+    - [grammar to parse doomfiles](#orga2b4499)
+    - [using a real html parser is usually recommended, or course:](#orgec083d5)
+    - [getting a list of primes with monotonically increasing differences](#org2d0d874)
+    - [sub with "destructuring" syntax:](#org22d04e0)
+    - [the .first method](#orgb6a891c)
+  - [next meeting on april 11th, taking a break for easter](#orgede2436)
 
 
-<a id="org026b3b1"></a>
+<a id="org940b435"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org229ff12"></a>
+<a id="orgf487c3b"></a>
 
 ## topics
 
 
-<a id="orga25ecd0"></a>
+<a id="orgccf0efc"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -32,14 +32,14 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="orgbdb76fc"></a>
+<a id="orgc245214"></a>
 
 ### news: classes can have custom type coercion in 2020.11
 
 <https://rakudoweekly.blog/2020/11/16/2020-46-coercion-renewed/>
 
 
-<a id="org2e67c55"></a>
+<a id="org28faa7a"></a>
 
 ### extracting results from grammar matches
 
@@ -62,7 +62,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="org9cf60bc"></a>
+<a id="orga2b4499"></a>
 
 ### grammar to parse doomfiles
 
@@ -86,14 +86,14 @@
     |                              |                              |                                 |
 
 
-<a id="orgd72a9fa"></a>
+<a id="orgec083d5"></a>
 
 ### using a real html parser is usually recommended, or course:
 
-Yary H : The HTML-tree-find module I was looking at is <https://github.com/zostay/raku-DOM-Tiny>
+1.  Yary H : The HTML-tree-find module I was looking at is <https://github.com/zostay/raku-DOM-Tiny>
 
 
-<a id="org224ef6d"></a>
+<a id="org2d0d874"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -102,7 +102,7 @@ Yary H : The HTML-tree-find module I was looking at is <https://github.com/zosta
     1.  <http://rosettacode.org/wiki/Next_special_primes#Raku>
 
 
-<a id="org89914a6"></a>
+<a id="org22d04e0"></a>
 
 ### sub with "destructuring" syntax:
 
@@ -115,7 +115,7 @@ sub takes a list of two elements, unpacked into the two named variables.
 (Better than my usual dodge of passing a var named $pair which is not actually a Pair.)
 
 
-<a id="orgdabe0ba"></a>
+<a id="orgb6a891c"></a>
 
 ### the .first method
 
@@ -124,6 +124,6 @@ william michels was interested in some lizmat examples from irc
 <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub>
 
 
-<a id="org87d7a9f"></a>
+<a id="orgede2436"></a>
 
 ## next meeting on april 11th, taking a break for easter
