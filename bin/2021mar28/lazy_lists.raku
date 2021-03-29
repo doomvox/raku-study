@@ -39,6 +39,7 @@ use v6;
     # m: a,   n: b,   o: c
     # m: d,   n: e,   o: f
 
+    say "---";
     for @z -> ( Str $M, Str $N, Str $O ) {
         say "M: $M,   N: $N,   O: $O";        
     };
