@@ -15,8 +15,6 @@ my grammar df {
     regex ruler       { '--------'                                                                                 }
     regex control_2   { <ruler> \s+ <next_link> \s*                                                                }
 
-# having this be non-greedy has issues.  much better without
-#    regex stuff       { ( .*? )                                                                                    }
     regex stuff       { ( .* )                                                                                    }
     ## Last thought, make “stuff” greedy on non-left-bracket & ratchet there… 
     
