@@ -16,7 +16,7 @@
 ******* bad gotcha: the .value method is there for the grammar to work
 ******** if I understand right: calling it restarts part of the grammar matching
 *** grammar to parse doomfiles
-**** simple scripts, e.g. scan through browse sequence
+**** simple scripts, e.g. scan through browse sequence (done)
 *** review continuing discussion of regex interpolation with captures
 **** open an issue, I think.
 

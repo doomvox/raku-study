@@ -1,22 +1,22 @@
-- [meeting notes Mar 28, 2021](#orgc738193)
-  - [topics](#org2071e16)
-    - [news: perl foundation project to improve raku docs](#orgd6efa87)
-    - [extracting results from grammar matches](#orgff8afa9)
-    - [grammar to parse doomfiles](#orgb7e2420)
-    - [review continuing discussion of regex interpolation with captures](#org97d22d7)
+- [meeting notes Mar 28, 2021](#org617fa14)
+  - [topics](#org5af7832)
+    - [news: perl foundation project to improve raku docs](#org9941a57)
+    - [extracting results from grammar matches](#org746200c)
+    - [grammar to parse doomfiles](#org8328d35)
+    - [review continuing discussion of regex interpolation with captures](#org2af6d87)
 
 
-<a id="orgc738193"></a>
+<a id="org617fa14"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org2071e16"></a>
+<a id="org5af7832"></a>
 
 ## topics
 
 
-<a id="orgd6efa87"></a>
+<a id="org9941a57"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -27,7 +27,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="orgff8afa9"></a>
+<a id="org746200c"></a>
 
 ### extracting results from grammar matches
 
@@ -50,14 +50,14 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="orgb7e2420"></a>
+<a id="org8328d35"></a>
 
 ### grammar to parse doomfiles
 
-1.  simple scripts, e.g. scan through browse sequence
+1.  simple scripts, e.g. scan through browse sequence (done)
 
 
-<a id="org97d22d7"></a>
+<a id="org2af6d87"></a>
 
 ### review continuing discussion of regex interpolation with captures
 
