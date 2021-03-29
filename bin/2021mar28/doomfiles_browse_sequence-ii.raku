@@ -31,8 +31,8 @@ my grammar df {
 my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
 chdir( $loc );
 
-# parse_the_rest_starting_at( 'BURNING_MOMENTS' );
-# exit;
+parse_the_rest_starting_at( 'BURNING_MOMENTS' );
+exit;
 
 
 ## The first file (TOP.html) has a slightly different format and needs seperate handling
