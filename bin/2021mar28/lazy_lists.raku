@@ -27,7 +27,9 @@ use v6;
 {
     ## Bruce Gray examples, "destructuring" lists with a for loop
     my @z = <a b c>, <d e f>;
-    for @z -> @batch_of_3 {...};
+    for @z -> @batch_of_3 {
+        say @batch_of_3.join('|');
+    };
     for @z -> ( $m, $n, $o ) {...};
     for @z -> ( Str $m, Str $n, Str $o ) {...} ;
 }
