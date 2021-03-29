@@ -24,7 +24,32 @@ https://rakudoweekly.blog/2020/11/16/2020-46-coercion-renewed/
 https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/doomfiles_browse_sequence-ii.raku
 ***** a number of issues: 
 ****** bad efficiency bug (Mohrvm panic!) 
-fixed by changing   stuff regex (.*?) to non-greedy (.*)
+******* fixed by changing   stuff regex (.*?) to non-greedy (.*)
+******* yary hluchan suggests
+#+BEGIN_SRC perl6-mode
+Add star  yary<not.com@gmail.com>	Mon, Mar 29, 2021 at 8:36 AM
+To: Joseph Brenner <doomvox@gmail.com>
+Cc: perl6-users <perl6-users@perl.org>, San Francisco Perl Mongers User Group <sanfrancisco-pm@pm.org>
+Reply | Reply to all | Forward | Print | Delete | Show original
+Hi Joe & other Raku study group attendees,
+
+At the time I left, we were looking at a grammar with a speed-memory issue on large-ish files. I had a germ of an idea which I couldn't express, and from the meeting notes I see you have a simple fix "by changing stuff regex (.\*?) to non-greedy (.\*)" I suspect the greedy-optimization works because the thing after the "stuff" regex is near the end of the file. Thus if instead it was close to the beginning, it would have a similar issue with greedy and non-greedy would fix.
+
+With a night to sleep on it, the thing I was thinking & trying to say is that, in the specialized HTML-grammar you had, the decision points are all at left-brackets. By re-writing "stuff" so that it will only backtrack when it hits a bracket, I expect more speed-memory gains.
+
+How well does this perform vs the simple .* greedy fix?
+
+    regex stuff
+    { (  # capture stuff (positional capture might not be needed)
+        [               # Stuff is a group of either
+            \<          # a left-bracket decision point
+          ||            # or
+            <-[ \< ]>+: # a ratcheting string of non-decision points
+        ]*              # 0-many of those. Greedy or non-greedy both work?
+    ) }  # end capture, end regex
+#+END_SRC
+
+
 **** case insensitive matches (TODO check syntax)
 |                              | perl5              | raku                  |
 |------------------------------+--------------------+-----------------------|
@@ -33,8 +58,8 @@ fixed by changing   stuff regex (.*?) to non-greedy (.*)
 | mixed, only part insensitive | m/(?i: ... ) ... / | m:/ [ :i ... ] ...  / |
 |                              |                    |                       |
 
-*** using a real html parser is usually recommended, of course:
-**** Yary H : The HTML-tree-find module I was looking at is https://github.com/zostay/raku-DOM-Tiny
+**** using a real html parser is usually recommended, of course:
+***** Yary H : The HTML-tree-find module I was looking at is https://github.com/zostay/raku-DOM-Tiny
 
 *** getting a list of primes with monotonically increasing differences
 **** bruce gray shows us some lazy list trickery up at rosettacode now
