@@ -36,6 +36,8 @@ parse_just_this_one( 'BURNING_MOMENTS' );
 parse_just_this_one( 'CONTENTS' );
 parse_just_this_one( 'DELANY' );
 parse_just_this_one( 'WHATSNEW' );
+parse_just_this_one( 'NAUGHT_SEVEN' );
+parse_just_this_one( 'DIONSAUR_WARS' );
 exit;
 
 
