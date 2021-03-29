@@ -25,8 +25,7 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/doomfiles_browse_s
 ***** a number of issues: 
 ****** bad efficiency bug (Mohrvm panic!) 
 ******* fixed by changing   stuff regex (.*?) to non-greedy (.*)
-******* yary hluchan suggests
-
+******* yary hluchan suggestion:
 ******** in the specialized HTML-grammar you had, the decision points are all at left-brackets. 
 By re-writing "stuff" so that it will only backtrack when it hits a bracket, 
 I expect more speed-memory gains.

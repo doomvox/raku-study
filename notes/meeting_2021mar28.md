@@ -1,25 +1,25 @@
-- [meeting notes Mar 28, 2021](#org676936f)
-  - [topics](#orgf16febe)
-    - [news: perl foundation project to improve raku docs](#orge91602d)
-    - [news: classes can have custom type coercion in 2020.11](#org82193f6)
-    - [extracting results from grammar matches](#org04e1130)
-    - [grammar to parse doomfiles](#orgb45f5d7)
-    - [getting a list of primes with monotonically increasing differences](#orgc1da07e)
-    - [the .first method](#orgf3aed30)
-  - [next meeting on april 11th, taking a break for easter](#org765ae80)
+- [meeting notes Mar 28, 2021](#orga1ed5c2)
+  - [topics](#org1a13800)
+    - [news: perl foundation project to improve raku docs](#org5b1a7d6)
+    - [news: classes can have custom type coercion in 2020.11](#orga40f40a)
+    - [extracting results from grammar matches](#org71f4347)
+    - [grammar to parse doomfiles](#org473c37c)
+    - [getting a list of primes with monotonically increasing differences](#org0138ada)
+    - [the .first method](#org42d2742)
+  - [next meeting on april 11th, taking a break for easter](#org0ef553f)
 
 
-<a id="org676936f"></a>
+<a id="orga1ed5c2"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="orgf16febe"></a>
+<a id="org1a13800"></a>
 
 ## topics
 
 
-<a id="orge91602d"></a>
+<a id="org5b1a7d6"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -30,14 +30,14 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org82193f6"></a>
+<a id="orga40f40a"></a>
 
 ### news: classes can have custom type coercion in 2020.11
 
 <https://rakudoweekly.blog/2020/11/16/2020-46-coercion-renewed/>
 
 
-<a id="org04e1130"></a>
+<a id="org71f4347"></a>
 
 ### extracting results from grammar matches
 
@@ -60,7 +60,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="orgb45f5d7"></a>
+<a id="org473c37c"></a>
 
 ### grammar to parse doomfiles
 
@@ -74,7 +74,7 @@
         
             1.  fixed by changing   stuff regex (.\*?) to non-greedy (.\*)
             
-            2.  yary hluchan suggests
+            2.  yary hluchan suggestion:
             
                 1.  in the specialized HTML-grammar you had, the decision points are all at left-brackets.
                 
@@ -131,7 +131,7 @@
     1.  Yary H : The HTML-tree-find module I was looking at is <https://github.com/zostay/raku-DOM-Tiny>
 
 
-<a id="orgc1da07e"></a>
+<a id="org0138ada"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -150,7 +150,7 @@
     (Better than my usual dodge of passing a var named $pair which is not actually a Pair.)
 
 
-<a id="orgf3aed30"></a>
+<a id="org42d2742"></a>
 
 ### the .first method
 
@@ -159,6 +159,6 @@ william michels was interested in some lizmat examples from irc
 <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub>
 
 
-<a id="org765ae80"></a>
+<a id="org0ef553f"></a>
 
 ## next meeting on april 11th, taking a break for easter
