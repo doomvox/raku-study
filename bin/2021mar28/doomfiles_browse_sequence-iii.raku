@@ -36,7 +36,9 @@ my grammar df {
     }
 
 
-my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
+# my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
+my $loc = "../../dat/doomfiles";
+
 chdir( $loc );
 
 parse_just_this_one( 'BURNING_MOMENTS' );
