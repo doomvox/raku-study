@@ -25,7 +25,7 @@ use v6;
 
 
 {
-    ## Bruce Gray examples, "destructuring" with a for loop
+    ## Bruce Gray examples, "destructuring" lists with a for loop
     my @z = <a b c>, <d e f>;
     for @z -> @batch_of_3 {...};
     for @z -> ( $m, $n, $o ) {...};
