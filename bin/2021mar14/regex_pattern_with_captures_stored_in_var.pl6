@@ -96,8 +96,7 @@ say "---";
 
 { # developing this into a grammar
     my $input = 'There are 9 million bicycles in beijing.'; 
-    my
-    grammar NumberUnits {
+    my grammar NumberUnits {
         regex TOP { .*? <number> \s+ <units> .*? }
         regex number { \d+ }
         regex units  { \w+ }
@@ -147,8 +146,7 @@ say "---";
 #        regex TOP {  <line>+ .*? } 
 
     ## This is workable
-    my
-    grammar NumberUnitsAlt {
+    my grammar NumberUnitsAlt {
         regex TOP {  <line>+ } 
         regex line { ^^ .*? <number> \s+ <units> .*? $$ \n }
         regex number { \d+ }
@@ -159,8 +157,7 @@ say "---";
     ## might change \s  to \h
 
     ## This works too, %% is like %, but allows a trailing newline
-    my
-    grammar NumberUnits {
+    my grammar NumberUnits {
         regex TOP {  <line>+ %% \n } 
         regex ws { \h+ }
         regex line { ^^ .*? <number> <ws> <units> .*? $$ } ## Might use \N instead of .
