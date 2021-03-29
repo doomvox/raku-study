@@ -35,6 +35,7 @@ chdir( $loc );
 parse_just_this_one( 'BURNING_MOMENTS' );
 parse_just_this_one( 'CONTENTS' );
 parse_just_this_one( 'DELANY' );
+parse_just_this_one( 'WHATSNEW' );
 exit;
 
 
