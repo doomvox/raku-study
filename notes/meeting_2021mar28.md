@@ -1,22 +1,22 @@
-- [meeting notes Mar 28, 2021](#orgd1c87e8)
-  - [topics](#org22ee4cb)
-    - [news: perl foundation project to improve raku docs](#org7e9f611)
-    - [extracting results from grammar matches](#org7911a1f)
-    - [grammar to parse doomfiles](#org4c1c30e)
-    - [review continuing discussion of regex interpolation with captures](#org27a4c17)
+- [meeting notes Mar 28, 2021](#org03f615e)
+  - [topics](#orgee1bf66)
+    - [news: perl foundation project to improve raku docs](#orgab65796)
+    - [extracting results from grammar matches](#org83d6a0b)
+    - [grammar to parse doomfiles](#orgc922a73)
+    - [review continuing discussion of regex interpolation with captures](#org4289137)
 
 
-<a id="orgd1c87e8"></a>
+<a id="org03f615e"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org22ee4cb"></a>
+<a id="orgee1bf66"></a>
 
 ## topics
 
 
-<a id="org7e9f611"></a>
+<a id="orgab65796"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -27,7 +27,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org7911a1f"></a>
+<a id="org83d6a0b"></a>
 
 ### extracting results from grammar matches
 
@@ -46,16 +46,18 @@
         1.  bruce gray sorted it out: Needed a $/.<value> to deref, **not** $/.value
         
             1.  bad gotcha: the .value method is there for the grammar to work
+            
+                1.  if I understand right, running it has it try to find the next match for 'value'
 
 
-<a id="org4c1c30e"></a>
+<a id="orgc922a73"></a>
 
 ### grammar to parse doomfiles
 
 1.  simple scripts, e.g. scan through browse sequence
 
 
-<a id="org27a4c17"></a>
+<a id="org4289137"></a>
 
 ### review continuing discussion of regex interpolation with captures
 

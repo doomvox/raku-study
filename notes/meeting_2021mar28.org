@@ -14,6 +14,7 @@
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini_file_parsing_with_moritz_lenz_grammar.raku
 ****** bruce gray sorted it out: Needed a $/.<value> to deref, *not* $/.value
 ******* bad gotcha: the .value method is there for the grammar to work
+******** if I understand right, running it has it try to find the next match for 'value'
 *** grammar to parse doomfiles
 **** simple scripts, e.g. scan through browse sequence
 *** review continuing discussion of regex interpolation with captures
