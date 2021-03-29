@@ -26,7 +26,6 @@ my grammar df {
         ]*                # 0-many of those. Greedy or non-greedy both work?
     ) }  # end capture, end regex
 
-
     regex top_link    { '<A' \s+ 'HREF="TOP.html">[TOP]</A>'                                                       }
     regex link        { '<A' \s+ 'HREF="' <node_name> '.html' '">' <label> '</A>'                                  }
 
