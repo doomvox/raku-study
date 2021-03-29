@@ -55,5 +55,4 @@ say $*PROGRAM-NAME;
     my $new_loc = $*PROGRAM.parent.add('../..');
     say $new_loc.Str;
     chdir( $new_loc );
-
 }
