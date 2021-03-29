@@ -21,7 +21,7 @@ my grammar df {
         [                 # stuff is a group of either
             '<'           #   a left-bracket decision point
           ||              # or
-            <-[<]>+:      # > #    a ratcheting string of non-decision points
+            <-[\<]>+:      # > #    a ratcheting string of non-decision points
         ]*?               # 0-many of those. Greedy or non-greedy both work?
     }  # end capture, end regex
 
