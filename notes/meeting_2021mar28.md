@@ -1,23 +1,23 @@
-- [meeting notes Mar 28, 2021](#org92ad00d)
-  - [topics](#org532b6c4)
-    - [news: perl foundation project to improve raku docs](#orgcc1cf59)
-    - [extracting results from grammar matches](#orga5fc5cd)
-    - [grammar to parse doomfiles](#orgd36d316)
-    - [getting a list of primes with monotonically increasing differences](#org157905a)
-    - [sub with "destructuring" syntax:](#orgbf0ba9b)
+- [meeting notes Mar 28, 2021](#orgc994662)
+  - [topics](#org67cccd9)
+    - [news: perl foundation project to improve raku docs](#orgf6847db)
+    - [extracting results from grammar matches](#org4ca159c)
+    - [grammar to parse doomfiles](#orgac2465c)
+    - [getting a list of primes with monotonically increasing differences](#org656466f)
+    - [sub with "destructuring" syntax:](#org3271f05)
 
 
-<a id="org92ad00d"></a>
+<a id="orgc994662"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org532b6c4"></a>
+<a id="org67cccd9"></a>
 
 ## topics
 
 
-<a id="orgcc1cf59"></a>
+<a id="orgf6847db"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -28,7 +28,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="orga5fc5cd"></a>
+<a id="org4ca159c"></a>
 
 ### extracting results from grammar matches
 
@@ -51,7 +51,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="orgd36d316"></a>
+<a id="orgac2465c"></a>
 
 ### grammar to parse doomfiles
 
@@ -64,7 +64,7 @@
             fixed by changing stuff regex (.\*?) to non-greedy (.\*)
 
 
-<a id="org157905a"></a>
+<a id="org656466f"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -73,7 +73,7 @@
     1.  <http://rosettacode.org/wiki/Next_special_primes#Raku>
 
 
-<a id="orgbf0ba9b"></a>
+<a id="org3271f05"></a>
 
 ### sub with "destructuring" syntax:
 

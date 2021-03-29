@@ -28,9 +28,7 @@ fixed by changing   stuff regex (.*?) to non-greedy (.*)
 *** sub with "destructuring" syntax:
 
 #+BEGIN_SRC perl6-mode
-
 sub is-special ( ($previous, $gap) ) {
-
 #+END_SRC
 
 sub requires a list of two elements, unpacked by convenience
