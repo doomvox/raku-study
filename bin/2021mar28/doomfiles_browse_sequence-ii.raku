@@ -33,6 +33,7 @@ chdir( $loc );
 
 # parse_the_rest_starting_at( 'BURNING_MOMENTS' );
 parse_just_this_one( 'BURNING_MOMENTS' );
+parse_just_this_one( 'CONTENTS' );
 exit;
 
 
