@@ -1,25 +1,25 @@
-- [meeting notes Mar 28, 2021](#org19afcc4)
-  - [topics](#org31790f5)
-    - [news: perl foundation project to improve raku docs](#org81a6f27)
-    - [news: classes can have custom type coercion in 2020.11](#org44ecbae)
-    - [extracting results from grammar matches](#org09e6ab5)
-    - [grammar to parse doomfiles](#org74d063e)
-    - [getting a list of primes with monotonically increasing differences](#org2361149)
-    - [the .first method](#org9add329)
-  - [next meeting on april 11th, taking a break for easter](#org802862b)
+- [meeting notes Mar 28, 2021](#orgc97f676)
+  - [topics](#orge0da227)
+    - [news: perl foundation project to improve raku docs](#org3cf6f61)
+    - [news: classes can have custom type coercion in 2020.11](#org580bec2)
+    - [extracting results from grammar matches](#orgb90c222)
+    - [grammar to parse doomfiles](#org6459d0e)
+    - [getting a list of primes with monotonically increasing differences](#org30c14d8)
+    - [the .first method](#orgaec2181)
+  - [next meeting on april 11th, taking a break for easter](#org93fb352)
 
 
-<a id="org19afcc4"></a>
+<a id="orgc97f676"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org31790f5"></a>
+<a id="orge0da227"></a>
 
 ## topics
 
 
-<a id="org81a6f27"></a>
+<a id="org3cf6f61"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -30,14 +30,14 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org44ecbae"></a>
+<a id="org580bec2"></a>
 
 ### news: classes can have custom type coercion in 2020.11
 
 <https://rakudoweekly.blog/2020/11/16/2020-46-coercion-renewed/>
 
 
-<a id="org09e6ab5"></a>
+<a id="orgb90c222"></a>
 
 ### extracting results from grammar matches
 
@@ -60,7 +60,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="org74d063e"></a>
+<a id="org6459d0e"></a>
 
 ### grammar to parse doomfiles
 
@@ -101,6 +101,10 @@
             
             3.  don't see how to refer back to a named capture within a regex
             
+                ```perl6-mode
+                regex next_link { '<A' \s+ 'HREF="' <node_name> '.html' '">' '[NEXT -' \s+ {} $( say $/.<node_name>; $/.<node_name> ) ']' '</A>' }
+                ```
+                
                 1.  ended up adding a gratuitous order group around a named capture
                 
                 2.  note, when doing a $0 to refer back to a group in the same pattern, need '{} $0'
@@ -125,7 +129,7 @@
     1.  Yary H : The HTML-tree-find module I was looking at is <https://github.com/zostay/raku-DOM-Tiny>
 
 
-<a id="org2361149"></a>
+<a id="org30c14d8"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -144,7 +148,7 @@
     (Better than my usual dodge of passing a var named $pair which is not actually a Pair.)
 
 
-<a id="org9add329"></a>
+<a id="orgaec2181"></a>
 
 ### the .first method
 
@@ -153,6 +157,6 @@ william michels was interested in some lizmat examples from irc
 <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub>
 
 
-<a id="org802862b"></a>
+<a id="org93fb352"></a>
 
 ## next meeting on april 11th, taking a break for easter
