@@ -41,7 +41,10 @@ I expect more speed-memory gains.
         ]*              # 0-many of those. Greedy or non-greedy both work?
     ) }  # end capture, end regex
 #+END_SRC
-
+****** raku regex's care a trailing whitespace when using $
+******* need a \s* at the end of my grammar
+******* tried a \v but sometimes there's more than one trailing newline, 
+sometimes there are a few spaces thrown in...
 
 **** case insensitive matches (TODO check syntax)
 |                              | perl5              | raku                  |
