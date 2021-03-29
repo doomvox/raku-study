@@ -32,7 +32,7 @@ my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
 chdir( $loc );
 
 
-do_rest_whole_parse( 'BURNING_MOMENTS' );
+parse_the_rest_starting_at( 'BURNING_MOMENTS' );
 
 
 ## The first file (TOP.html) has a slightly different format and needs seperate handling
@@ -42,9 +42,9 @@ my $init_file = "$init.html";
 my $node = handle_first_node( $init_file );
 say $node.Str if $node;
 
-do_rest_whole_parse( $node );
+parse_the_rest_starting_at( $node );
 
-# do_rest_whole_parse( 'BURNING_MOMENTS' );
+# parse_the_rest_starting_at( 'BURNING_MOMENTS' );
 # do_rest_by_line( $node );
 
 ## doesn't work just now:
@@ -67,7 +67,7 @@ sub do_rest_by_line( $init ) {
     }
 }
 
-sub do_rest_whole_parse( $init ) {
+sub parse_the_rest_starting_at( $init ) {
     my $node = $init;  ## to start "TOP"
     while ( $node ) {
         my $file="$node.html";
