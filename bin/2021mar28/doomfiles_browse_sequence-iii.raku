@@ -79,13 +79,13 @@ sub parse_the_rest_starting_at( $init ) {
 }
 
 
+
 sub parse_just_this_one( $init ) {
     my $node = $init;  
     my $file="$node.html";
     my $match = df.parsefile( $file ) orelse die "parse failure on $node"; 
-    # say $match;
-    $node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
-    say $node.Str if $node;
+    my $next_node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
+    printf "%20s -> %-20s\n", $node, $next_node if $next_node;
 }
 
 
