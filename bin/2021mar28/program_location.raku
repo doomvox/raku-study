@@ -17,5 +17,5 @@ my $l = $*PROGRAM;
 say $*PROGRAM.chdir('..');
 
 my $loc = $*PROGRAM.add('..');
-say $loc
+say $loc;
 chdir( $loc );
