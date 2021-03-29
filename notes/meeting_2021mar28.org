@@ -20,7 +20,9 @@ https://rakudoweekly.blog/2020/11/16/2020-46-coercion-renewed/
 ******* bad gotcha: the .value method is there for the grammar to work
 ******** if I understand right: calling it restarts part of the grammar matching
 *** grammar to parse doomfiles
-**** simple scripts, e.g. scan through browse sequence (done)
+**** doomfiles: web pages arranged in a bi-directionally linked list via next/prev links
+***** http://obsidianrook.com/doomfiles
+**** simple script, e.g. scan through browse sequence of bi-dire
 https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/doomfiles_browse_sequence-ii.raku
 ***** a number of issues: 
 ****** bad efficiency bug (Mohrvm panic!) 

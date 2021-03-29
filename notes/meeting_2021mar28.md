@@ -1,25 +1,25 @@
-- [meeting notes Mar 28, 2021](#org7c4eec0)
-  - [topics](#orge625c2a)
-    - [news: perl foundation project to improve raku docs](#org45ff521)
-    - [news: classes can have custom type coercion in 2020.11](#org2083f88)
-    - [extracting results from grammar matches](#org6a05ad1)
-    - [grammar to parse doomfiles](#org5859d27)
-    - [getting a list of primes with monotonically increasing differences](#org881bca5)
-    - [the .first method](#orgb4c4196)
-  - [next meeting on april 11th, taking a break for easter](#org1385984)
+- [meeting notes Mar 28, 2021](#orga7c6a74)
+  - [topics](#org36045e4)
+    - [news: perl foundation project to improve raku docs](#org2dbf318)
+    - [news: classes can have custom type coercion in 2020.11](#org29f2346)
+    - [extracting results from grammar matches](#org1a76ddc)
+    - [grammar to parse doomfiles](#org823ed16)
+    - [getting a list of primes with monotonically increasing differences](#orgb028f04)
+    - [the .first method](#orge949b46)
+  - [next meeting on april 11th, taking a break for easter](#org22b146a)
 
 
-<a id="org7c4eec0"></a>
+<a id="orga7c6a74"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="orge625c2a"></a>
+<a id="org36045e4"></a>
 
 ## topics
 
 
-<a id="org45ff521"></a>
+<a id="org2dbf318"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -30,14 +30,14 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org2083f88"></a>
+<a id="org29f2346"></a>
 
 ### news: classes can have custom type coercion in 2020.11
 
 <https://rakudoweekly.blog/2020/11/16/2020-46-coercion-renewed/>
 
 
-<a id="org6a05ad1"></a>
+<a id="org1a76ddc"></a>
 
 ### extracting results from grammar matches
 
@@ -60,11 +60,15 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="org5859d27"></a>
+<a id="org823ed16"></a>
 
 ### grammar to parse doomfiles
 
-1.  simple scripts, e.g. scan through browse sequence (done)
+1.  doomfiles: web pages arranged in a bi-directionally linked list via next/prev links
+
+    1.  <http://obsidianrook.com/doomfiles>
+
+2.  simple script, e.g. scan through browse sequence of bi-dire
 
     <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/doomfiles_browse_sequence-ii.raku>
     
@@ -117,7 +121,7 @@
                         regex prev_link   { '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[PREV -' \s+ {} $0 ']' '</A>' }
                         ```
 
-2.  case insensitive matches (TODO check syntax)
+3.  case insensitive matches (TODO check syntax)
 
     |                              | perl5                        | raku                            |
     |---------------------------- |---------------------------- |------------------------------- |
@@ -126,12 +130,12 @@
     | mixed, only part insensitive | m/(?i: &#x2026; ) &#x2026; / | m:/ [ :i &#x2026; ] &#x2026;  / |
     |                              |                              |                                 |
 
-3.  using a real html parser is usually recommended, of course:
+4.  using a real html parser is usually recommended, of course:
 
     1.  Yary H : The HTML-tree-find module I was looking at is <https://github.com/zostay/raku-DOM-Tiny>
 
 
-<a id="org881bca5"></a>
+<a id="orgb028f04"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -150,7 +154,7 @@
     (Better than my usual dodge of passing a var named $pair which is not actually a Pair.)
 
 
-<a id="orgb4c4196"></a>
+<a id="orge949b46"></a>
 
 ### the .first method
 
@@ -159,6 +163,6 @@ william michels was interested in some lizmat examples from irc
 <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub>
 
 
-<a id="org1385984"></a>
+<a id="org22b146a"></a>
 
 ## next meeting on april 11th, taking a break for easter
