@@ -31,6 +31,7 @@ my grammar df {
 my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
 chdir( $loc );
 
+## The first file (TOP.html) has a slightly different format and needs seperate handling
 my $init = 'TOP';
 say $init;
 my $init_file = "$init.html";
