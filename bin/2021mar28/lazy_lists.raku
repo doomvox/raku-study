@@ -30,6 +30,9 @@ use v6;
     for @z -> @batch_of_3 {
         say @batch_of_3.join('|');
     };
+    # a|b|c
+    # d|e|f
+
     for @z -> ( $m, $n, $o ) {...};
     for @z -> ( Str $m, Str $n, Str $o ) {...} ;
 }
