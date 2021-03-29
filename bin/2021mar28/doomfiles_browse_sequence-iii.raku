@@ -15,7 +15,7 @@ my grammar df {
     regex ruler       { '--------'                                                                                 }
     regex control_2   { <ruler> \s+ <next_link> \s*                                                                }
 
-    regex stuff       { ( .* )                                                                                     }
+##    regex stuff       { ( .* )                                                                                     }
 
     regex top_link    { '<A' \s+ 'HREF="TOP.html">[TOP]</A>'                                                       }
     regex link        { '<A' \s+ 'HREF="' <node_name> '.html' '">' <label> '</A>'                                  }
