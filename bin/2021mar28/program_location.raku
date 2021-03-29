@@ -16,6 +16,8 @@ my $l = $*PROGRAM;
 .say for $l.^methods>>.name;
 say "works, but deprecated: ", $*PROGRAM.chdir('..');
 
+
+say ".add method seems to act on the full path to program including the script name";
 my $loc = $*PROGRAM.add('..');
 say $loc;
 chdir( $loc );
