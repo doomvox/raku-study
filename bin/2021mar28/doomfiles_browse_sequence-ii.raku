@@ -102,7 +102,6 @@ sub handle_first_node ( Str $init = 'TOP.html') {
 
 
 ### On larger files, can see a crash "MoarVM panic"
-### 
 ## ...
 # ACT_ONE
 # IMPROPER_BOHEMIANS
