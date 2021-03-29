@@ -47,7 +47,9 @@ I expect more speed-memory gains.
 sometimes there are a few spaces thrown in...
 ******* don't see how to refer back to a named capture within a regex
 #+BEGIN_SRC perl6-mode
-regex next_link { '<A' \s+ 'HREF="' <node_name> '.html' '">' '[NEXT -' \s+ {} $( say $/.<node_name>; $/.<node_name> ) ']' '</A>' }
+## NOT WORKING
+regex next_link { '<A' \s+ 'HREF="' <node_name> '.html' '">' '[NEXT -' \s+ {} $( say $/.<node_name> ) ']' '</A>' } 
+regex next_link   { '<A' \s+ 'HREF="' <node_name> '.html' '">' '[NEXT -' \s+  {} <{ $/.<node_name> }>   ']' '</A>' }
 #+END_SRC
 
 ******** ended up adding a gratuitous order group around a named capture
