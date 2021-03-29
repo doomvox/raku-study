@@ -14,3 +14,4 @@ say $*PROGRAM-NAME;
 
 my $l = $*PROGRAM;
 .say for $l.^methods>>.name;
+say $*PROGRAM.chdir('..');
