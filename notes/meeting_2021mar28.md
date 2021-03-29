@@ -1,22 +1,22 @@
-- [meeting notes Mar 28, 2021](#org1ae4d69)
-  - [topics](#orgf253031)
-    - [news: perl foundation project to improve raku docs](#orgbda3a51)
-    - [extracting results from grammar matches](#orgd582c28)
-    - [grammar to parse doomfiles](#orgd000fd3)
-    - [review continuing discussion of regex interpolation with captures](#orgef45bd1)
+- [meeting notes Mar 28, 2021](#org87fd8bb)
+  - [topics](#org9cf8c6b)
+    - [news: perl foundation project to improve raku docs](#orgbaa3f08)
+    - [extracting results from grammar matches](#org91bd4ff)
+    - [grammar to parse doomfiles](#org8116887)
+    - [review continuing discussion of regex interpolation with captures](#orgc4cb196)
 
 
-<a id="org1ae4d69"></a>
+<a id="org87fd8bb"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="orgf253031"></a>
+<a id="org9cf8c6b"></a>
 
 ## topics
 
 
-<a id="orgbda3a51"></a>
+<a id="orgbaa3f08"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -27,27 +27,31 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="orgd582c28"></a>
+<a id="org91bd4ff"></a>
 
 ### extracting results from grammar matches
 
 1.  alternate example, works
 
     /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini<sub>file</sub><sub>parsing</sub><sub>with</sub><sub>zoffix</sub><sub>grammar.raku</sub>
+    
+    1.  from zoffix talk july 28, 2018 intro p6 regexes and grammars
+    
+        1.  <https://www.youtube.com/watch?v=TUmFAPvssrk>
 
 2.  narrow down what was wrong with moritz lenz inifile
 
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini<sub>file</sub><sub>parsing</sub><sub>with</sub><sub>moritz</sub><sub>lenz</sub><sub>grammar.raku</sub>
 
 
-<a id="orgd000fd3"></a>
+<a id="org8116887"></a>
 
 ### grammar to parse doomfiles
 
 1.  simple scripts, e.g. scan through browse sequence
 
 
-<a id="orgef45bd1"></a>
+<a id="orgc4cb196"></a>
 
 ### review continuing discussion of regex interpolation with captures
 

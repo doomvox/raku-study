@@ -7,6 +7,10 @@
 *** extracting results from grammar matches
 **** alternate example, works
 /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini_file_parsing_with_zoffix_grammar.raku
+***** from zoffix talk july 28, 2018 intro p6 regexes and grammars
+****** https://www.youtube.com/watch?v=TUmFAPvssrk
+
+
 **** narrow down what was wrong with moritz lenz inifile
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini_file_parsing_with_moritz_lenz_grammar.raku
 *** grammar to parse doomfiles
