@@ -76,7 +76,7 @@ sub parse_just_this_one( $init ) {
     my $file="$node.html";
     my $match = df.parsefile( $file ) orelse die "parse failure on $node"; 
     my $next_node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
-    say "$node ->  $next_node" if $next_node;
+    printf "", $node, $next_node if $next_node;
 }
 
 
