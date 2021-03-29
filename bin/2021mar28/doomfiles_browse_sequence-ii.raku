@@ -75,8 +75,8 @@ sub parse_just_this_one( $init ) {
     my $node = $init;  
     my $file="$node.html";
     my $match = df.parsefile( $file ) orelse die "parse failure on $node"; 
-    $node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
-    say $node.Str if $node;
+    $next_node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
+    say $next_node.Str if $next_node;
 }
 
 
