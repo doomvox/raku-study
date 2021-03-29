@@ -18,11 +18,11 @@ my grammar df {
 ##    regex stuff       { ( .* )                                                                                     }
     regex stuff  ## yary hluchan
     { (  # capture stuff (positional capture might not be needed)
-        [               # Stuff is a group of either
-            '<'         # a left-bracket decision point
-          ||            # or
-#            <-[ \< ]>+: # a ratcheting string of non-decision points
-            <-[<]>+:  # > #  a ratcheting string of non-decision points
+        [                 # Stuff is a group of either
+            '<'           #   a left-bracket decision point
+          ||              # or
+#            <-[ \< ]>+:  #   a ratcheting string of non-decision points
+            <-[<]>+:  # > #    a ratcheting string of non-decision points
         ]*              # 0-many of those. Greedy or non-greedy both work?
     ) }  # end capture, end regex
 
