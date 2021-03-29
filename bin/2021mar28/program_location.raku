@@ -34,4 +34,7 @@ say $*PROGRAM-NAME;
     my $dir = $*PROGRAM.dirname;
     say $dir;
     chdir( $dir );
+
+    my $new_dir = $dir.add('../..');
+
 }
