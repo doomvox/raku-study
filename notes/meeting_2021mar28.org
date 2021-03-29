@@ -45,6 +45,13 @@ I expect more speed-memory gains.
 ******* need a \s* at the end of TOP in my grammar
 ******* tried a \v but sometimes there's more than one trailing newline, 
 sometimes there are a few spaces thrown in...
+******* don't see how to refer back to a named capture within a regex
+******** ended up adding a gratuitous order group around a named capture
+******** note, when doing a $0 to refer back to a group in the same pattern, need '{} $0'
+********* the gratuitious code block "publishes" the intermediate match results
+#+BEGIN_SRC perl6-mode
+regex prev_link   { '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[PREV -' \s+ {} $0 ']' '</A>' }
+#+END_SRC
 
 **** case insensitive matches (TODO check syntax)
 |                              | perl5              | raku                  |
