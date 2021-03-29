@@ -43,7 +43,4 @@ william michels was interested in some lizmat examples from irc
 https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku
 /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first_method_on_arrays.raku
 
-
-
-
 ** next meeting on april 11th, taking a break for easter
