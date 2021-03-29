@@ -16,4 +16,6 @@ my $l = $*PROGRAM;
 .say for $l.^methods>>.name;
 say $*PROGRAM.chdir('..');
 
-chdir( $*PROGRAM.add('..') );
+my $loc = $*PROGRAM.add('..');
+say $loc
+chdir( $loc );
