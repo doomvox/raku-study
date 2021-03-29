@@ -16,10 +16,13 @@ my $l = $*PROGRAM;
 .say for $l.^methods>>.name;
 say "works, but deprecated: ", $*PROGRAM.chdir('..');
 
+my $new_l = $*PROGRAM.chdir('..').Str;
+say $new_l;
 
 say ".add method seems to act on the full path to program including the script name";
 my $loc = $*PROGRAM.add('..');
 say $loc;
 ## "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program_location.raku/..".IO
 
-chdir( $loc );
+## This won't work, file doesn't exist
+## chdir( $loc );
