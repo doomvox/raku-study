@@ -19,5 +19,6 @@ say "works, but deprecated: ", $*PROGRAM.chdir('..');
 
 say ".add method seems to act on the full path to program including the script name";
 my $loc = $*PROGRAM.add('..');
+## "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program_location.raku/..".IO
 say $loc;
 chdir( $loc );
