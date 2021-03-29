@@ -25,11 +25,13 @@ fixed by changing   stuff regex (.*?) to non-greedy (.*)
 **** bruce gray shows us some lazy list trickery up at rosettacode now
 ***** http://rosettacode.org/wiki/Next_special_primes#Raku
 
-**** side bit I thought was interesting 
+*** sub with "destructuring" syntax:
 
-destructured syntax:
+#+BEGIN_SRC perl6-mode
 
 sub is-special ( ($previous, $gap) ) {
+
+#END_SRC
 
 sub requires a list of two elements, unpacked by convenience
 into those names.  (Bet I can use this instead of $pair) 

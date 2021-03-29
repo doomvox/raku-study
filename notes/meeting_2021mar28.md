@@ -1,22 +1,23 @@
-- [meeting notes Mar 28, 2021](#orgacd7a4d)
-  - [topics](#orgbcc9b0b)
-    - [news: perl foundation project to improve raku docs](#orge2496df)
-    - [extracting results from grammar matches](#org9e6536a)
-    - [grammar to parse doomfiles](#org41dd900)
-    - [getting a list of primes with monotonically increasing differences](#org5fa2ff4)
+- [meeting notes Mar 28, 2021](#org5bbc49d)
+  - [topics](#orgf848521)
+    - [news: perl foundation project to improve raku docs](#orge631754)
+    - [extracting results from grammar matches](#org86ce1d9)
+    - [grammar to parse doomfiles](#orge61d4bf)
+    - [getting a list of primes with monotonically increasing differences](#orgc4fe510)
+    - [sub with "destructuring" syntax:](#orgb6a0261)
 
 
-<a id="orgacd7a4d"></a>
+<a id="org5bbc49d"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="orgbcc9b0b"></a>
+<a id="orgf848521"></a>
 
 ## topics
 
 
-<a id="orge2496df"></a>
+<a id="orge631754"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -27,7 +28,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org9e6536a"></a>
+<a id="org86ce1d9"></a>
 
 ### extracting results from grammar matches
 
@@ -50,7 +51,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="org41dd900"></a>
+<a id="orge61d4bf"></a>
 
 ### grammar to parse doomfiles
 
@@ -63,7 +64,7 @@
             fixed by changing stuff regex (.\*?) to non-greedy (.\*)
 
 
-<a id="org5fa2ff4"></a>
+<a id="orgc4fe510"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -71,16 +72,21 @@
 
     1.  <http://rosettacode.org/wiki/Next_special_primes#Raku>
 
-2.  side bit I thought was interesting
 
-    destructured syntax:
-    
-    sub is-special ( ($previous, $gap) ) {
-    
-    sub requires a list of two elements, unpacked by convenience into those names. (Bet I can use this instead of $pair)
-    
-    liz code, willima michels mentions:
-    
-    > #Liz IRC Nil > my @a = 3,7,6,12,9,6,6,6; say @a.first(6, :k) 2
-    
-    next meeting on april 11th, taking a break for easter
+<a id="orgb6a0261"></a>
+
+### sub with "destructuring" syntax:
+
+\#+BEGIN<sub>SRC</sub> perl6-mode
+
+sub is-special ( ($previous, $gap) ) {
+
+\#END<sub>SRC</sub>
+
+sub requires a list of two elements, unpacked by convenience into those names. (Bet I can use this instead of $pair)
+
+liz code, willima michels mentions:
+
+> #Liz IRC Nil > my @a = 3,7,6,12,9,6,6,6; say @a.first(6, :k) 2
+
+next meeting on april 11th, taking a break for easter
