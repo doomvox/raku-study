@@ -58,7 +58,7 @@ say $node.Str if $node;
 parse_the_rest_starting_at( $node );
 
 sub handle_first_node ( Str $init = 'TOP.html') {
-    my $node; # >
+    my $node; 
     for "$init".IO.lines -> $line {
         my $match = df.parse( $line, :rule('next_link') ); 
         $node = $match.[0].<node_name>; 
