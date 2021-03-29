@@ -32,6 +32,7 @@ my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
 chdir( $loc );
 
 parse_the_rest_starting_at( 'BURNING_MOMENTS' );
+parse_just_this_one( 'BURNING_MOMENTS' );
 exit;
 
 
