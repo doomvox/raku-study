@@ -35,6 +35,7 @@ say $*PROGRAM-NAME;
     say $dir;
     chdir( $dir );
 
-    my $new_dir = $dir.add('../..');
+    ## my $new_dir = $dir.add('../..');
+    ## No such method 'add' for invocant of type 'Str'
 
 }
