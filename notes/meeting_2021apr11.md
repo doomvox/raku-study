@@ -1,20 +1,20 @@
-- [meeting notes Apr 11, 2021](#orgc902308)
-  - [possible topics](#orgb324de6)
-    - [nested map idioms](#org03c6fc4)
-    - [quoted string regexes](#org1353cad)
+- [meeting notes Apr 11, 2021](#org4915e21)
+  - [possible topics](#orgf15220d)
+    - [nested map idioms](#org05eb4a4)
+    - [quoted string regexes](#orgba867dc)
 
 
-<a id="orgc902308"></a>
+<a id="org4915e21"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="orgb324de6"></a>
+<a id="orgf15220d"></a>
 
 ## possible topics
 
 
-<a id="org03c6fc4"></a>
+<a id="org05eb4a4"></a>
 
 ### nested map idioms
 
@@ -27,7 +27,7 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested<sub>map.raku</sub>
 
 
-<a id="org1353cad"></a>
+<a id="orgba867dc"></a>
 
 ### quoted string regexes
 
