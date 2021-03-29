@@ -31,6 +31,9 @@ say $*PROGRAM-NAME;
 }
 
 {
+    my $dir = $*PROGRAM.dirname;
+    say $dir;
+    exit;
     my $loc = $*PROGRAM.dirname.add('..');
     say $loc;
     chdir( $loc );
