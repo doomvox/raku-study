@@ -1,25 +1,25 @@
-- [meeting notes Mar 28, 2021](#org6f2d7d1)
-  - [topics](#org86630cf)
-    - [news: perl foundation project to improve raku docs](#orgffc643e)
-    - [news: classes can have custom type coercion in 2020.11](#org9dee68f)
-    - [extracting results from grammar matches](#orgf40d052)
-    - [grammar to parse doomfiles](#org919cfde)
-    - [getting a list of primes with monotonically increasing differences](#org8231c96)
-    - [the .first method](#org8eeab8c)
-  - [next meeting on april 11th, taking a break for easter](#org1b590ec)
+- [meeting notes Mar 28, 2021](#org7ebaadd)
+  - [topics](#org2280bf0)
+    - [news: perl foundation project to improve raku docs](#org65094e6)
+    - [news: classes can have custom type coercion in 2020.11](#org20321bc)
+    - [extracting results from grammar matches](#org92ca7b8)
+    - [grammar to parse doomfiles](#orgb6aef85)
+    - [getting a list of primes with monotonically increasing differences](#orgecfa566)
+    - [the .first method](#orgf6f1523)
+  - [next meeting on april 11th, taking a break for easter](#org8fffc91)
 
 
-<a id="org6f2d7d1"></a>
+<a id="org7ebaadd"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org86630cf"></a>
+<a id="org2280bf0"></a>
 
 ## topics
 
 
-<a id="orgffc643e"></a>
+<a id="org65094e6"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -30,14 +30,14 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org9dee68f"></a>
+<a id="org20321bc"></a>
 
 ### news: classes can have custom type coercion in 2020.11
 
 <https://rakudoweekly.blog/2020/11/16/2020-46-coercion-renewed/>
 
 
-<a id="orgf40d052"></a>
+<a id="org92ca7b8"></a>
 
 ### extracting results from grammar matches
 
@@ -60,7 +60,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="org919cfde"></a>
+<a id="orgb6aef85"></a>
 
 ### grammar to parse doomfiles
 
@@ -91,9 +91,9 @@
                     ) }  # end capture, end regex
                     ```
         
-        2.  raku regex's care a trailing whitespace when using $
+        2.  raku regex's care about trailing whitespace when using $
         
-            1.  need a \s* at the end of my grammar
+            1.  need a \s* at the end of TOP in my grammar
             
             2.  tried a \v but sometimes there's more than one trailing newline,
             
@@ -113,7 +113,7 @@
     1.  Yary H : The HTML-tree-find module I was looking at is <https://github.com/zostay/raku-DOM-Tiny>
 
 
-<a id="org8231c96"></a>
+<a id="orgecfa566"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -132,7 +132,7 @@
     (Better than my usual dodge of passing a var named $pair which is not actually a Pair.)
 
 
-<a id="org8eeab8c"></a>
+<a id="orgf6f1523"></a>
 
 ### the .first method
 
@@ -141,6 +141,6 @@ william michels was interested in some lizmat examples from irc
 <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub>
 
 
-<a id="org1b590ec"></a>
+<a id="org8fffc91"></a>
 
 ## next meeting on april 11th, taking a break for easter
