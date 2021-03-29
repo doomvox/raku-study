@@ -25,6 +25,7 @@ fixed by changing   stuff regex (.*?) to non-greedy (.*)
 **** bruce gray shows us some lazy list trickery up at rosettacode now
 ***** http://rosettacode.org/wiki/Next_special_primes#Raku
 
+**** side bit I thought was interesting 
 
 destructured syntax:
 
@@ -44,3 +45,4 @@ Nil
 
 
 next meeting on april 11th, taking a break for easter
+
