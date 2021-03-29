@@ -1,23 +1,23 @@
-- [meeting notes Mar 28, 2021](#org27333b5)
-  - [topics](#org34c0808)
-    - [news: perl foundation project to improve raku docs](#orgc5ccf68)
-    - [extracting results from grammar matches](#orgdccde20)
-    - [grammar to parse doomfiles](#org4bf0d1c)
-    - [getting a list of primes with monotonically increasing differences](#org4cdfa27)
-    - [sub with "destructuring" syntax:](#org3a65e6f)
+- [meeting notes Mar 28, 2021](#org709087d)
+  - [topics](#orgf73b8c5)
+    - [news: perl foundation project to improve raku docs](#orgafd6381)
+    - [extracting results from grammar matches](#org25c827a)
+    - [grammar to parse doomfiles](#org5c225db)
+    - [getting a list of primes with monotonically increasing differences](#orge327d9d)
+    - [sub with "destructuring" syntax:](#org48801e0)
 
 
-<a id="org27333b5"></a>
+<a id="org709087d"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org34c0808"></a>
+<a id="orgf73b8c5"></a>
 
 ## topics
 
 
-<a id="orgc5ccf68"></a>
+<a id="orgafd6381"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -28,7 +28,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="orgdccde20"></a>
+<a id="org25c827a"></a>
 
 ### extracting results from grammar matches
 
@@ -51,7 +51,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="org4bf0d1c"></a>
+<a id="org5c225db"></a>
 
 ### grammar to parse doomfiles
 
@@ -64,7 +64,7 @@
             fixed by changing stuff regex (.\*?) to non-greedy (.\*)
 
 
-<a id="org4cdfa27"></a>
+<a id="orge327d9d"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -73,7 +73,7 @@
     1.  <http://rosettacode.org/wiki/Next_special_primes#Raku>
 
 
-<a id="org3a65e6f"></a>
+<a id="org48801e0"></a>
 
 ### sub with "destructuring" syntax:
 
@@ -81,7 +81,9 @@
 sub is-special ( ($previous, $gap) ) {
 ```
 
-sub requires a list of two elements, unpacked by convenience into two named variables. (Better than my usual dodge of passing a $pair variable&#x2013; which isn't a Pair.)
+sub takes a list of two elements, unpacked into the two named variables.
+
+(Better than my usual dodge of passing a $pair variable&#x2013; which isn't a Pair.)
 
 liz code, willima michels mentions:
 

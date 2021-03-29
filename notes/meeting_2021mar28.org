@@ -31,8 +31,8 @@ fixed by changing   stuff regex (.*?) to non-greedy (.*)
 sub is-special ( ($previous, $gap) ) {
 #+END_SRC
 
-sub requires a list of two elements, unpacked by convenience
-into two named variables.  
+sub takes a list of two elements, unpacked into the two named variables.  
+
 (Better than my usual dodge of passing a $pair variable-- which
 isn't a Pair.) 
 
