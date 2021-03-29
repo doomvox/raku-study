@@ -1,23 +1,24 @@
-- [meeting notes Mar 28, 2021](#org709087d)
-  - [topics](#orgf73b8c5)
-    - [news: perl foundation project to improve raku docs](#orgafd6381)
-    - [extracting results from grammar matches](#org25c827a)
-    - [grammar to parse doomfiles](#org5c225db)
-    - [getting a list of primes with monotonically increasing differences](#orge327d9d)
-    - [sub with "destructuring" syntax:](#org48801e0)
+- [meeting notes Mar 28, 2021](#orgc14fe0d)
+  - [topics](#orgae6d41b)
+    - [news: perl foundation project to improve raku docs](#org310ded7)
+    - [extracting results from grammar matches](#org013a0a2)
+    - [grammar to parse doomfiles](#org951ae50)
+    - [getting a list of primes with monotonically increasing differences](#org9295f97)
+    - [sub with "destructuring" syntax:](#orgdbe63f0)
+    - [the .first method](#org4ae39f9)
 
 
-<a id="org709087d"></a>
+<a id="orgc14fe0d"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="orgf73b8c5"></a>
+<a id="orgae6d41b"></a>
 
 ## topics
 
 
-<a id="orgafd6381"></a>
+<a id="org310ded7"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -28,7 +29,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org25c827a"></a>
+<a id="org013a0a2"></a>
 
 ### extracting results from grammar matches
 
@@ -51,7 +52,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="org5c225db"></a>
+<a id="org951ae50"></a>
 
 ### grammar to parse doomfiles
 
@@ -64,7 +65,7 @@
             fixed by changing stuff regex (.\*?) to non-greedy (.\*)
 
 
-<a id="orge327d9d"></a>
+<a id="org9295f97"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -73,7 +74,7 @@
     1.  <http://rosettacode.org/wiki/Next_special_primes#Raku>
 
 
-<a id="org48801e0"></a>
+<a id="orgdbe63f0"></a>
 
 ### sub with "destructuring" syntax:
 
@@ -85,7 +86,12 @@ sub takes a list of two elements, unpacked into the two named variables.
 
 (Better than my usual dodge of passing a $pair variable&#x2013; which isn't a Pair.)
 
-liz code, willima michels mentions:
+
+<a id="org4ae39f9"></a>
+
+### the .first method
+
+william michels was interested in some lizmat examples from irc
 
 > #Liz IRC Nil > my @a = 3,7,6,12,9,6,6,6; say @a.first(6, :k) 2
 
