@@ -23,8 +23,9 @@ use v6;
     # 87
 }
 
-## Bruce Gray examples: 
+
 {
+    ## Bruce Gray examples, "destructuring" with a for loop
     my @z = <a b c>, <d e f>;
     for @z -> @batch_of_3 {...};
     for @z -> ( $m, $n, $o ) {...};
