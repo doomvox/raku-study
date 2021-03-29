@@ -41,7 +41,7 @@ use v6;
 
     for @z -> ( Str $m, Str $n, Str $o ) {
         say "m: $m,   n: $n,   o: $o";        
-    } ;
+    };
 }
 
 
