@@ -16,6 +16,15 @@ my grammar df {
     regex control_2   { <ruler> \s+ <next_link> \s*                                                                }
 
 ##    regex stuff       { ( .* )                                                                                     }
+    regex stuff  ## yary hluchan
+    { (  # capture stuff (positional capture might not be needed)
+        [               # Stuff is a group of either
+            \<          # a left-bracket decision point
+          ||            # or
+            <-[ \< ]>+: # a ratcheting string of non-decision points
+        ]*              # 0-many of those. Greedy or non-greedy both work?
+    ) }  # end capture, end regex
+
 
     regex top_link    { '<A' \s+ 'HREF="TOP.html">[TOP]</A>'                                                       }
     regex link        { '<A' \s+ 'HREF="' <node_name> '.html' '">' <label> '</A>'                                  }
