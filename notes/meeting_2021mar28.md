@@ -1,22 +1,22 @@
-- [meeting notes Mar 28, 2021](#org03f615e)
-  - [topics](#orgee1bf66)
-    - [news: perl foundation project to improve raku docs](#orgab65796)
-    - [extracting results from grammar matches](#org83d6a0b)
-    - [grammar to parse doomfiles](#orgc922a73)
-    - [review continuing discussion of regex interpolation with captures](#org4289137)
+- [meeting notes Mar 28, 2021](#org3e240a5)
+  - [topics](#org5b0b814)
+    - [news: perl foundation project to improve raku docs](#org537e534)
+    - [extracting results from grammar matches](#org7a50e71)
+    - [grammar to parse doomfiles](#org08f2ad6)
+    - [review continuing discussion of regex interpolation with captures](#org6d74424)
 
 
-<a id="org03f615e"></a>
+<a id="org3e240a5"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="orgee1bf66"></a>
+<a id="org5b0b814"></a>
 
 ## topics
 
 
-<a id="orgab65796"></a>
+<a id="org537e534"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -27,7 +27,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org83d6a0b"></a>
+<a id="org7a50e71"></a>
 
 ### extracting results from grammar matches
 
@@ -47,17 +47,17 @@
         
             1.  bad gotcha: the .value method is there for the grammar to work
             
-                1.  if I understand right, running it has it try to find the next match for 'value'
+                1.  if I understand right, running it restarts part of the grammar matching
 
 
-<a id="orgc922a73"></a>
+<a id="org08f2ad6"></a>
 
 ### grammar to parse doomfiles
 
 1.  simple scripts, e.g. scan through browse sequence
 
 
-<a id="org4289137"></a>
+<a id="org6d74424"></a>
 
 ### review continuing discussion of regex interpolation with captures
 
