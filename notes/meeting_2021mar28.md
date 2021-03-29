@@ -1,24 +1,22 @@
-- [meeting notes Mar 28, 2021](#orgef749eb)
-  - [topics](#org2b1e183)
-    - [news: perl foundation project to improve raku docs](#orgca74673)
-    - [nested map idioms](#org1265cc9)
-    - [quoted string regexes](#org01af4e8)
-    - [extracting results from grammar matches](#org9feedee)
-    - [grammar to parse doomfiles](#org235e4f4)
-    - [review continuing discussion of regex interpolation with captures](#orgf699758)
+- [meeting notes Mar 28, 2021](#org1ae4d69)
+  - [topics](#orgf253031)
+    - [news: perl foundation project to improve raku docs](#orgbda3a51)
+    - [extracting results from grammar matches](#orgd582c28)
+    - [grammar to parse doomfiles](#orgd000fd3)
+    - [review continuing discussion of regex interpolation with captures](#orgef45bd1)
 
 
-<a id="orgef749eb"></a>
+<a id="org1ae4d69"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org2b1e183"></a>
+<a id="orgf253031"></a>
 
 ## topics
 
 
-<a id="orgca74673"></a>
+<a id="orgbda3a51"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -29,43 +27,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org1265cc9"></a>
-
-### nested map idioms
-
-1.  TODO nested map: review perl5 approaches
-
-    1.  maybe, try python version
-
-2.  TODO nested map: get some raku code working
-
-    1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested<sub>map.raku</sub>
-
-
-<a id="org01af4e8"></a>
-
-### quoted string regexes
-
-1.  TODO re<sub>quoted</sub><sub>str</sub>: perl5 versions
-
-2.  TODO re<sub>quoted</sub><sub>str</sub>: continue with raku versions
-
-    1.  next: balanced quotes of various types
-    
-        1.  yary hluchan
-        
-            1.  <https://github.com/doomvox/raku-study/blob/main/notes/bin/richard_hainsworth_grammar.raku>
-            
-            2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/richard<sub>hainsworth</sub><sub>grammar.raku</sub>
-        
-        2.  moritz lenz
-        
-            1.  <https://github.com/doomvox/raku-study/blob/main/notes/bin/2021mar21/parsing_quoted_strings_backslash.raku>
-            
-            2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing<sub>quoted</sub><sub>strings</sub><sub>backslash.raku</sub>
-
-
-<a id="org9feedee"></a>
+<a id="orgd582c28"></a>
 
 ### extracting results from grammar matches
 
@@ -78,14 +40,14 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini<sub>file</sub><sub>parsing</sub><sub>with</sub><sub>moritz</sub><sub>lenz</sub><sub>grammar.raku</sub>
 
 
-<a id="org235e4f4"></a>
+<a id="orgd000fd3"></a>
 
 ### grammar to parse doomfiles
 
 1.  simple scripts, e.g. scan through browse sequence
 
 
-<a id="orgf699758"></a>
+<a id="orgef45bd1"></a>
 
 ### review continuing discussion of regex interpolation with captures
 
@@ -100,3 +62,9 @@
     sub is-special ( ($previous, $gap) ) {
     
     sub requires a list of two elements, unpacked by convenience into those names. (Bet I can use this instead of $pair)
+    
+    liz code, willima michels mentions:
+    
+    > #Liz IRC Nil > my @a = 3,7,6,12,9,6,6,6; say @a.first(6, :k) 2
+    
+    next meeting on april 11th, taking a break for easter
