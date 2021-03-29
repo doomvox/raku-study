@@ -34,7 +34,7 @@ sub is-special ( ($previous, $gap) ) {
 
 sub takes a list of two elements, unpacked into the two named variables.  
 
-(Better than my usual dodge of passing a $pair variable which is
+(Better than my usual dodge of passing a var named $pair which is
 not actually a Pair.)
 
 
