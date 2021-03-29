@@ -1,25 +1,25 @@
-- [meeting notes Mar 28, 2021](#orga1ed5c2)
-  - [topics](#org1a13800)
-    - [news: perl foundation project to improve raku docs](#org5b1a7d6)
-    - [news: classes can have custom type coercion in 2020.11](#orga40f40a)
-    - [extracting results from grammar matches](#org71f4347)
-    - [grammar to parse doomfiles](#org473c37c)
-    - [getting a list of primes with monotonically increasing differences](#org0138ada)
-    - [the .first method](#org42d2742)
-  - [next meeting on april 11th, taking a break for easter](#org0ef553f)
+- [meeting notes Mar 28, 2021](#org7c4eec0)
+  - [topics](#orge625c2a)
+    - [news: perl foundation project to improve raku docs](#org45ff521)
+    - [news: classes can have custom type coercion in 2020.11](#org2083f88)
+    - [extracting results from grammar matches](#org6a05ad1)
+    - [grammar to parse doomfiles](#org5859d27)
+    - [getting a list of primes with monotonically increasing differences](#org881bca5)
+    - [the .first method](#orgb4c4196)
+  - [next meeting on april 11th, taking a break for easter](#org1385984)
 
 
-<a id="orga1ed5c2"></a>
+<a id="org7c4eec0"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org1a13800"></a>
+<a id="orge625c2a"></a>
 
 ## topics
 
 
-<a id="org5b1a7d6"></a>
+<a id="org45ff521"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -30,14 +30,14 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="orga40f40a"></a>
+<a id="org2083f88"></a>
 
 ### news: classes can have custom type coercion in 2020.11
 
 <https://rakudoweekly.blog/2020/11/16/2020-46-coercion-renewed/>
 
 
-<a id="org71f4347"></a>
+<a id="org6a05ad1"></a>
 
 ### extracting results from grammar matches
 
@@ -60,7 +60,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="org473c37c"></a>
+<a id="org5859d27"></a>
 
 ### grammar to parse doomfiles
 
@@ -131,7 +131,7 @@
     1.  Yary H : The HTML-tree-find module I was looking at is <https://github.com/zostay/raku-DOM-Tiny>
 
 
-<a id="org0138ada"></a>
+<a id="org881bca5"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -150,7 +150,7 @@
     (Better than my usual dodge of passing a var named $pair which is not actually a Pair.)
 
 
-<a id="org42d2742"></a>
+<a id="orgb4c4196"></a>
 
 ### the .first method
 
@@ -159,6 +159,6 @@ william michels was interested in some lizmat examples from irc
 <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub>
 
 
-<a id="org0ef553f"></a>
+<a id="org1385984"></a>
 
 ## next meeting on april 11th, taking a break for easter
