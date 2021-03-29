@@ -5,32 +5,6 @@
 use v6;
 # use Grammar::Tracer;
 
-my grammar df_old {
-    regex TOP         { '<HTML>'  <head><body> '</HTML>' \s*                                                       }
-#    regex TOP         { '<HTML>'  <head><body> '</HTML>' \s                                                       }
-    regex head        { '<HEAD>' \s* <title> '</HEAD>' \s*                                                         }
-    regex title       { '<TITLE>' 'The doomfiles' ' - ' <node_name> '.html' '</TITLE>' \s*                         }
-    regex body        { '<BODY>' \s*  <control_1>  \s* <h1> \s* '<PRE>' <stuff> <control_2> '</PRE>' '</BODY>' \s* }
-    regex control_1   { '<PRE>' \s+ <prev_link> \s+ <link> \s* '</PRE>'                                            }
-    regex h1          { '<H1' [\s+ 'align="left"'] '>' <node_name> '</H1>'                                         }
-    regex ruler       { '--------'                                                                                 }
-    regex control_2   { <ruler> \s+ <next_link> \s*                                                                }
-
-    regex stuff       { ( .* )                                                                                    }
-
-    regex link        { '<A' \s+ 'HREF="' <node_name> '.html' '">' <label> '</A>'                                  }
-
-    regex prev_link   { '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[PREV -' \s+ {} $0 ']' '</A>'              }
-    regex next_link   { '<A' \s+ 'HREF="' ( <node_name> ) '.html' '">' '[NEXT -' \s+ {} $0 ']' '</A>'              }
-
-#    regex node_name   { <-[.]>*? }  ## first cut, better to be explicit
-    # Traditional:  McNODE_NAME_7
-    regex node_name   { <[A..Zc0..9_-]>*? }  
-#    token node_name   { <[A..Zc0..9_-]>*? }  
-    regex label       { <-[<]>*? } # > 
-    }
-#    regex TOP         { '<HTML>'  <head><body> '</HTML>' \s                                                       }
-
 my grammar df {
 #    regex TOP         { '<HTML>'  <head><body> '</HTML>' \v                                                       }
     regex TOP         { '<HTML>'  <head><body> '</HTML>' \s*                                                       }
