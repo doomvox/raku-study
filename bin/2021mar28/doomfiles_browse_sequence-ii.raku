@@ -66,10 +66,6 @@ sub parse_the_rest_starting_at( $init ) {
     }
 }
 
-
-
-
-
 ## line-by-line approach, dodges the whole file parsing issues
 # parse_the_rest_by_line( $node );
 sub parse_the_rest_by_line( $init ) {
