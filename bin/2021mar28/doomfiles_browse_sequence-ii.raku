@@ -92,7 +92,6 @@ sub parse_the_rest_parsefile_individual_regex( $init ) {
 
 sub handle_first_node ( Str $init = 'TOP.html') {
 #    my $init = "TOP.html";
-#    my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";  ## TODO better to use pwd?
     my $node;
     for "$init".IO.lines -> $line {
         my $match = df.parse( $line, :rule('next_link') ); 
