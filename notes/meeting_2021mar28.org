@@ -34,8 +34,9 @@ sub is-special ( ($previous, $gap) ) {
 
 sub takes a list of two elements, unpacked into the two named variables.  
 
-(Better than my usual dodge of passing a $pair variable-- 
-which isn't a Pair.) 
+(Better than my usual dodge of passing a $pair variable which is
+not actually a Pair.)
+
 
 *** the .first method 
 william michels was interested in some lizmat examples from irc

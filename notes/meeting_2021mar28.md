@@ -1,25 +1,25 @@
-- [meeting notes Mar 28, 2021](#org2068649)
-  - [topics](#orgc3443ec)
-    - [news: perl foundation project to improve raku docs](#org4ce064e)
-    - [extracting results from grammar matches](#org228ca70)
-    - [grammar to parse doomfiles](#orgda0475b)
-    - [getting a list of primes with monotonically increasing differences](#org83f99bc)
-    - [sub with "destructuring" syntax:](#org2ed88e0)
-    - [the .first method](#org4b472e6)
-  - [next meeting on april 11th, taking a break for easter](#org2d1692d)
+- [meeting notes Mar 28, 2021](#orgd75c1fc)
+  - [topics](#org4b78d7a)
+    - [news: perl foundation project to improve raku docs](#orge1902d5)
+    - [extracting results from grammar matches](#org78e6f86)
+    - [grammar to parse doomfiles](#org0ef8a4e)
+    - [getting a list of primes with monotonically increasing differences](#orgd789970)
+    - [sub with "destructuring" syntax:](#org770c9db)
+    - [the .first method](#org57b4f1c)
+  - [next meeting on april 11th, taking a break for easter](#org32ed7d1)
 
 
-<a id="org2068649"></a>
+<a id="orgd75c1fc"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="orgc3443ec"></a>
+<a id="org4b78d7a"></a>
 
 ## topics
 
 
-<a id="org4ce064e"></a>
+<a id="orge1902d5"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -30,7 +30,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org228ca70"></a>
+<a id="org78e6f86"></a>
 
 ### extracting results from grammar matches
 
@@ -53,7 +53,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="orgda0475b"></a>
+<a id="org0ef8a4e"></a>
 
 ### grammar to parse doomfiles
 
@@ -68,7 +68,7 @@
             fixed by changing stuff regex (.\*?) to non-greedy (.\*)
 
 
-<a id="org83f99bc"></a>
+<a id="orgd789970"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -77,7 +77,7 @@
     1.  <http://rosettacode.org/wiki/Next_special_primes#Raku>
 
 
-<a id="org2ed88e0"></a>
+<a id="org770c9db"></a>
 
 ### sub with "destructuring" syntax:
 
@@ -87,10 +87,10 @@ sub is-special ( ($previous, $gap) ) {
 
 sub takes a list of two elements, unpacked into the two named variables.
 
-(Better than my usual dodge of passing a $pair variable&#x2013; which isn't a Pair.)
+(Better than my usual dodge of passing a $pair variable which is not actually a Pair.)
 
 
-<a id="org4b472e6"></a>
+<a id="org57b4f1c"></a>
 
 ### the .first method
 
@@ -99,6 +99,6 @@ william michels was interested in some lizmat examples from irc
 <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub>
 
 
-<a id="org2d1692d"></a>
+<a id="org32ed7d1"></a>
 
 ## next meeting on april 11th, taking a break for easter
