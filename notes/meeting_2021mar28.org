@@ -17,6 +17,11 @@
 ******** if I understand right: calling it restarts part of the grammar matching
 *** grammar to parse doomfiles
 **** simple scripts, e.g. scan through browse sequence (done)
+***** a number of issues: 
+****** bad efficiency bug (Mohrvm panic!) 
+fixed by changing   stuff regex (.*?) to non-greedy (.*)
+
+
 *** review continuing discussion of regex interpolation with captures
 **** open an issue, I think.
 
