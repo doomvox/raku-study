@@ -39,3 +39,13 @@ say $*PROGRAM-NAME;
     ## No such method 'add' for invocant of type 'Str'
 
 }
+
+{
+    my $dir = $*PROGRAM.parent;
+    say $dir;
+    chdir( $dir );
+
+    ## my $new_dir = $dir.add('../..');
+    ## No such method 'add' for invocant of type 'Str'
+
+}
