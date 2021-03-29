@@ -34,7 +34,7 @@ use v6;
     # d|e|f
 
     for @z -> ( $m, $n, $o ) {
-        say "m: $m, n: $n, o: $o";
+        say "m: $m,   n: $n,   o: $o";
     };
 
     for @z -> ( Str $m, Str $n, Str $o ) {...} ;
