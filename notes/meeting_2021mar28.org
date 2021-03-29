@@ -21,6 +21,14 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/doomfiles_browse_s
 ***** a number of issues: 
 ****** bad efficiency bug (Mohrvm panic!) 
 fixed by changing   stuff regex (.*?) to non-greedy (.*)
+**** case insensitive matches (TODO check syntax)
+|                              | perl5              | raku                  |
+|------------------------------+--------------------+-----------------------|
+| external modifier/adverb     | m/.../i            | m:i/.../              |
+| internal to pattern          | m/(?i: ... )/      | m:/ :i ... /          |
+| mixed, only part insensitive | m/(?i: ... ) ... / | m:/ [ :i ... ] ...  / |
+|                              |                    |                       |
+
 
 *** getting a list of primes with monotonically increasing differences
 **** bruce gray shows us some lazy list trickery up at rosettacode now
