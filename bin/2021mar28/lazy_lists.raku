@@ -33,6 +33,7 @@ use v6;
     # a|b|c
     # d|e|f
 
+    say "---";
     for @z -> ( $m, $n, $o ) {
         say "m: $m,   n: $n,   o: $o";
     };
