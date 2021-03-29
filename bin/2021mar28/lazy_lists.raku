@@ -48,6 +48,12 @@ use v6;
     # M: d,   N: e,   O: f
 
 
+    my @x = ( (1, 2, 3), (4, 5, 6) );
+    for @x -> ( Str $M, Str $N, Str $O ) {
+        say "M: $M,   N: $N,   O: $O";        
+    };
+
+
 }
 
 
