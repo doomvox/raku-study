@@ -49,3 +49,7 @@ say $*PROGRAM-NAME;
     say $new_dir;
     ## No such method 'add' for invocant of type 'Str'
 }
+
+
+    my $new_loc = $*PROGRAM.parent.add('../..');
+    chdir( $new_loc );
