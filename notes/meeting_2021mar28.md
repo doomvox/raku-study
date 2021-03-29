@@ -1,23 +1,23 @@
-- [meeting notes Mar 28, 2021](#orgc994662)
-  - [topics](#org67cccd9)
-    - [news: perl foundation project to improve raku docs](#orgf6847db)
-    - [extracting results from grammar matches](#org4ca159c)
-    - [grammar to parse doomfiles](#orgac2465c)
-    - [getting a list of primes with monotonically increasing differences](#org656466f)
-    - [sub with "destructuring" syntax:](#org3271f05)
+- [meeting notes Mar 28, 2021](#org27333b5)
+  - [topics](#org34c0808)
+    - [news: perl foundation project to improve raku docs](#orgc5ccf68)
+    - [extracting results from grammar matches](#orgdccde20)
+    - [grammar to parse doomfiles](#org4bf0d1c)
+    - [getting a list of primes with monotonically increasing differences](#org4cdfa27)
+    - [sub with "destructuring" syntax:](#org3a65e6f)
 
 
-<a id="orgc994662"></a>
+<a id="org27333b5"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org67cccd9"></a>
+<a id="org34c0808"></a>
 
 ## topics
 
 
-<a id="orgf6847db"></a>
+<a id="orgc5ccf68"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -28,7 +28,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org4ca159c"></a>
+<a id="orgdccde20"></a>
 
 ### extracting results from grammar matches
 
@@ -51,7 +51,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="orgac2465c"></a>
+<a id="org4bf0d1c"></a>
 
 ### grammar to parse doomfiles
 
@@ -64,7 +64,7 @@
             fixed by changing stuff regex (.\*?) to non-greedy (.\*)
 
 
-<a id="org656466f"></a>
+<a id="org4cdfa27"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -73,7 +73,7 @@
     1.  <http://rosettacode.org/wiki/Next_special_primes#Raku>
 
 
-<a id="org3271f05"></a>
+<a id="org3a65e6f"></a>
 
 ### sub with "destructuring" syntax:
 
@@ -81,7 +81,7 @@
 sub is-special ( ($previous, $gap) ) {
 ```
 
-sub requires a list of two elements, unpacked by convenience into those names. (Bet I can use this instead of $pair)
+sub requires a list of two elements, unpacked by convenience into two named variables. (Better than my usual dodge of passing a $pair variable&#x2013; which isn't a Pair.)
 
 liz code, willima michels mentions:
 

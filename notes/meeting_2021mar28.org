@@ -32,7 +32,9 @@ sub is-special ( ($previous, $gap) ) {
 #+END_SRC
 
 sub requires a list of two elements, unpacked by convenience
-into those names.  (Bet I can use this instead of $pair) 
+into two named variables.  
+(Better than my usual dodge of passing a $pair variable-- which
+isn't a Pair.) 
 
 
  liz code, willima michels mentions:
