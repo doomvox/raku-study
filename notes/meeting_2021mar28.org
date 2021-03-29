@@ -39,11 +39,16 @@ which isn't a Pair.)
 *** the .first method 
 william michels was interested in some lizmat examples from irc
 
-> #Liz IRC
-Nil
+raku-study/bin/2021mar28/first_method_on_arrays.raku
+/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first_method_on_arrays.raku
+https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku
+
 > my @a = 3,7,6,12,9,6,6,6; say @a.first(6, :k)
 2 
 
 
 next meeting on april 11th, taking a break for easter
 
+
+
+https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/doomfiles_browse_sequence-ii.raku
