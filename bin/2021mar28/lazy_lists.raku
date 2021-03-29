@@ -52,7 +52,7 @@ use v6;
     for @x -> ( Str $M, Str $N, Str $O ) {
         say "M: $M,   N: $N,   O: $O";        
     };
-
+    ## Type check failed in binding to parameter '$M'; expected Str but got Int (1)
 
 }
 
