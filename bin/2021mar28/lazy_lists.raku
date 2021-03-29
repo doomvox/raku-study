@@ -5,6 +5,8 @@
 use v6;
 
 {
+    ## using a code block to specify the pattern of generating a sequence
+
     my @z = 3 , { $_ + 12 } … *; 
 
     for @z -> $z {
