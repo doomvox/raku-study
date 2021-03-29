@@ -27,3 +27,10 @@ say $loc;
 
 ## This won't work, file doesn't exist
 ## chdir( $loc );
+
+
+{
+    my $loc = $*PROGRAM.dirname.add('..');
+    say $loc;
+    chdir( $loc );
+}
