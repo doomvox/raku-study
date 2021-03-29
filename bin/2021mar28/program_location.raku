@@ -48,5 +48,4 @@ say $*PROGRAM-NAME;
     my $new_dir = $dir.add('../..');
     say $new_dir;
     ## No such method 'add' for invocant of type 'Str'
-
 }
