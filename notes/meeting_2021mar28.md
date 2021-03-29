@@ -1,22 +1,22 @@
-- [meeting notes Mar 28, 2021](#org87fd8bb)
-  - [topics](#org9cf8c6b)
-    - [news: perl foundation project to improve raku docs](#orgbaa3f08)
-    - [extracting results from grammar matches](#org91bd4ff)
-    - [grammar to parse doomfiles](#org8116887)
-    - [review continuing discussion of regex interpolation with captures](#orgc4cb196)
+- [meeting notes Mar 28, 2021](#orgd1c87e8)
+  - [topics](#org22ee4cb)
+    - [news: perl foundation project to improve raku docs](#org7e9f611)
+    - [extracting results from grammar matches](#org7911a1f)
+    - [grammar to parse doomfiles](#org4c1c30e)
+    - [review continuing discussion of regex interpolation with captures](#org27a4c17)
 
 
-<a id="org87fd8bb"></a>
+<a id="orgd1c87e8"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org9cf8c6b"></a>
+<a id="org22ee4cb"></a>
 
 ## topics
 
 
-<a id="orgbaa3f08"></a>
+<a id="org7e9f611"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -27,7 +27,7 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org91bd4ff"></a>
+<a id="org7911a1f"></a>
 
 ### extracting results from grammar matches
 
@@ -42,16 +42,20 @@
 2.  narrow down what was wrong with moritz lenz inifile
 
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/ini<sub>file</sub><sub>parsing</sub><sub>with</sub><sub>moritz</sub><sub>lenz</sub><sub>grammar.raku</sub>
+    
+        1.  bruce gray sorted it out: Needed a $/.<value> to deref, **not** $/.value
+        
+            1.  bad gotcha: the .value method is there for the grammar to work
 
 
-<a id="org8116887"></a>
+<a id="org4c1c30e"></a>
 
 ### grammar to parse doomfiles
 
 1.  simple scripts, e.g. scan through browse sequence
 
 
-<a id="orgc4cb196"></a>
+<a id="org27a4c17"></a>
 
 ### review continuing discussion of regex interpolation with captures
 
