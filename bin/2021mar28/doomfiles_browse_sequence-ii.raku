@@ -91,7 +91,6 @@ sub parse_the_rest_parsefile_individual_regex( $init ) {
 }
 
 sub handle_first_node ( Str $init = 'TOP.html') {
-#    my $init = "TOP.html";
     my $node;
     for "$init".IO.lines -> $line {
         my $match = df.parse( $line, :rule('next_link') ); 
