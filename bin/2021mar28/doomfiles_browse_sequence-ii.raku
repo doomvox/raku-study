@@ -44,6 +44,30 @@ say $node.Str if $node;
 
 parse_the_rest_starting_at( $node );
 
+sub handle_first_node ( Str $init = 'TOP.html') {
+    my $node;
+    for "$init".IO.lines -> $line {
+        my $match = df.parse( $line, :rule('next_link') ); 
+        $node = $match.[0].<node_name>; 
+        last if $match;
+    }
+    return $node;
+}
+
+sub parse_the_rest_starting_at( $init ) {
+    my $node = $init;  ## to start "TOP"
+    while ( $node ) {
+        my $file="$node.html";
+        my $match = df.parsefile( $file ) orelse die "parse failure on $node"; 
+        $node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
+#        $node = $match.gimmie_one( 'node_name' );  ## Dom::Tiny?  with a "find" to search tree (yary hint)
+        say $node.Str if $node;
+        exit if $node eq 'COSMETIC';
+    }
+}
+
+
+
 # parse_the_rest_starting_at( 'BURNING_MOMENTS' );
 # parse_the_rest_by_line( $node );
 
@@ -67,17 +91,6 @@ sub parse_the_rest_by_line( $init ) {
     }
 }
 
-sub parse_the_rest_starting_at( $init ) {
-    my $node = $init;  ## to start "TOP"
-    while ( $node ) {
-        my $file="$node.html";
-        my $match = df.parsefile( $file ) orelse die "parse failure on $node"; 
-        $node = $match.<body><control_2>.<next_link>.[0].<node_name>; 
-#        $node = $match.gimmie_one( 'node_name' );  ## Dom::Tiny?  with a "find" to search tree (yary hint)
-        say $node.Str if $node;
-        exit if $node eq 'COSMETIC';
-    }
-}
 
 sub parse_the_rest_parsefile_individual_regex( $init ) {
     my $node = $init;
@@ -88,16 +101,6 @@ sub parse_the_rest_parsefile_individual_regex( $init ) {
         $node = $match.[0].<node_name>; 
         say $node.Str if $node;
     }
-}
-
-sub handle_first_node ( Str $init = 'TOP.html') {
-    my $node;
-    for "$init".IO.lines -> $line {
-        my $match = df.parse( $line, :rule('next_link') ); 
-        $node = $match.[0].<node_name>; 
-        last if $match;
-    }
-    return $node;
 }
 
 
