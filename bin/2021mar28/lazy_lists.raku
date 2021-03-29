@@ -36,6 +36,8 @@ use v6;
     for @z -> ( $m, $n, $o ) {
         say "m: $m,   n: $n,   o: $o";
     };
+    # m: a,   n: b,   o: c
+    # m: d,   n: e,   o: f
 
     for @z -> ( Str $m, Str $n, Str $o ) {...} ;
 }
