@@ -39,8 +39,8 @@ use v6;
     # m: a,   n: b,   o: c
     # m: d,   n: e,   o: f
 
-    for @z -> ( Str $m, Str $n, Str $o ) {
-        say "m: $m,   n: $n,   o: $o";        
+    fOr @z -> ( Str $M, Str $N, Str $O ) {
+        say "M: $M,   N: $N,   O: $O";        
     };
 }
 
