@@ -27,9 +27,10 @@ my grammar df {
     regex label       { <-[<]>*? } # > 
     }
 
+# my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
+my $df_loc = $*PROGRAM.parent.add('../../dat/doomfiles');
+chdir( $df_loc );
 
-my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
-chdir( $loc );
 
 parse_just_this_one( 'BURNING_MOMENTS' );
 parse_just_this_one( 'CONTENTS' );
