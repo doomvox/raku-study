@@ -1,25 +1,25 @@
-- [meeting notes Mar 28, 2021](#org45979a2)
-  - [topics](#org987c37a)
-    - [news: perl foundation project to improve raku docs](#org79f9c30)
-    - [news: classes can have custom type coercion in 2020.11](#org74b240b)
-    - [extracting results from grammar matches](#org749e58a)
-    - [grammar to parse doomfiles](#orga7bc01e)
-    - [getting a list of primes with monotonically increasing differences](#org41d3e3a)
-    - [the .first method](#org910b1ca)
-  - [next meeting on april 11th, taking a break for easter](#orgd35bb4d)
+- [meeting notes Mar 28, 2021](#org1099cbe)
+  - [topics](#orgf690bd6)
+    - [news: perl foundation project to improve raku docs](#orgc404aa2)
+    - [news: classes can have custom type coercion in 2020.11](#org369c7a5)
+    - [extracting results from grammar matches](#org8c3aaa4)
+    - [grammar to parse doomfiles](#org7bdb171)
+    - [getting a list of primes with monotonically increasing differences](#org1bd1d52)
+    - [the .first method](#orgaf73f39)
+  - [next meeting on april 11th, taking a break for easter](#orge2fa4ed)
 
 
-<a id="org45979a2"></a>
+<a id="org1099cbe"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org987c37a"></a>
+<a id="orgf690bd6"></a>
 
 ## topics
 
 
-<a id="org79f9c30"></a>
+<a id="orgc404aa2"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -30,14 +30,14 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org74b240b"></a>
+<a id="org369c7a5"></a>
 
 ### news: classes can have custom type coercion in 2020.11
 
 <https://rakudoweekly.blog/2020/11/16/2020-46-coercion-renewed/>
 
 
-<a id="org749e58a"></a>
+<a id="org8c3aaa4"></a>
 
 ### extracting results from grammar matches
 
@@ -60,7 +60,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="orga7bc01e"></a>
+<a id="org7bdb171"></a>
 
 ### grammar to parse doomfiles
 
@@ -82,7 +82,7 @@
             
                 1.  in the specialized HTML-grammar you had, the decision points are all at left-brackets.
                 
-                    By re-writing "stuff" so that it will only backtrack when it hits a bracket, I expect more speed-memory gains.
+                    By re-writing "stuff" so that it will only backtrack when it hits a dash I expect more speed-memory gains.
                     
                     ```perl6-mode
                     regex stuff 
@@ -141,7 +141,7 @@
     1.  Yary H : The HTML-tree-find module I was looking at is <https://github.com/zostay/raku-DOM-Tiny>
 
 
-<a id="org41d3e3a"></a>
+<a id="org1bd1d52"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -160,7 +160,7 @@
     (Better than my usual dodge of passing a var named $pair which is not actually a Pair.)
 
 
-<a id="org910b1ca"></a>
+<a id="orgaf73f39"></a>
 
 ### the .first method
 
@@ -169,6 +169,6 @@ william michels was interested in some lizmat examples from irc
 <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub>
 
 
-<a id="orgd35bb4d"></a>
+<a id="orge2fa4ed"></a>
 
 ## next meeting on april 11th, taking a break for easter

@@ -29,7 +29,7 @@ https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/doomfiles_browse_s
 ******* fixed by changing   stuff regex (.*?) to non-greedy (.*)
 ******* yary hluchan suggestion:
 ******** in the specialized HTML-grammar you had, the decision points are all at left-brackets. 
-By re-writing "stuff" so that it will only backtrack when it hits a bracket, 
+By re-writing "stuff" so that it will only backtrack when it hits a dash
 I expect more speed-memory gains.
 #+BEGIN_SRC perl6-mode
     regex stuff 
