@@ -37,7 +37,6 @@ my grammar df {
 
 
 # my $loc = "/home/doom/End/Stage/Mirthless/doomfiles";
-
 my $df_loc = $*PROGRAM.parent.add('../../dat/doomfiles');
 chdir( $df_loc );
 
