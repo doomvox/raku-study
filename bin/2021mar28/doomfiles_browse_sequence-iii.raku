@@ -33,7 +33,6 @@ my grammar df {
         ]*           # 0-many of those. Greedy or non-greedy both work, about the same speed.
     }  # end regex
 
-
     regex top_link    { '<A' \s+ 'HREF="TOP.html">[TOP]</A>'                                                       }
     regex link        { '<A' \s+ 'HREF="' <node_name> '.html' '">' <label> '</A>'                                  }
 
