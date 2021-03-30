@@ -15,23 +15,19 @@ my grammar df {
     regex ruler       { '--------'                                                                                 }
     regex control_2   { <ruler> \s+ <next_link> \s*                                                                }
 
-#     regex stuff  ## yary hluchan idea (doesn't parse for some reason)
-#     {
-#         [                 # stuff is a group of either
-#             '<'           # > #  a left-bracket decision point
-#           ||              # or
-#             <-[<]>+:      # > #    a ratcheting string of non-decision points
-#         ]*               # 0-many of those. Greedy or non-greedy both work?
-#     }  # end capture, end regex
-
-    regex stuff 
+    regex stuff  ## yary hluchan idea
     {
-        [            # stuff is a group of either
-            <-[-]>+: # a ratcheting string of non-decision points. Removing ratcheting makes it hang on Yary's system.
-          ||         # or
-            '-'      # a "dash" decision point
-        ]*           # 0-many of those. Greedy or non-greedy both work, about the same speed.
+        [                 # stuff is a group of either
+            <-[-]>+:      # > #    a ratcheting string of non-decision points. Removing ratcheting makes it hang on Yary's system.
+          ||              # or
+            '-'           # > #  a "dash" decision point
+        ]*               # 0-many of those. Greedy or non-greedy both work, about the same speed.
     }  # end regex
+
+	# About the same meaning & performance as above
+	regex stuff-alt {
+        [<-[-]>*:]+ %% '-'  # >> # Chunk ratcheting non-dashes, separated by dashes.
+	}
 
     regex top_link    { '<A' \s+ 'HREF="TOP.html">[TOP]</A>'                                                       }
     regex link        { '<A' \s+ 'HREF="' <node_name> '.html' '">' <label> '</A>'                                  }
