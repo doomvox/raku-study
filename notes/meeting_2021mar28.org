@@ -43,7 +43,7 @@ I expect more speed-memory gains.
 #+END_SRC
 ********** I think instead of this:
 #            <-[ \< ]>+:  #   a ratcheting string of non-decision points
-probably want this:
+you probably want this:
 #            <-[<]>+:  # > #    a ratcheting string of non-decision points
 
 ****** raku regex's care about trailing whitespace when using $
