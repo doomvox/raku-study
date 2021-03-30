@@ -31,7 +31,6 @@ my grammar df {
 my $df_loc = $*PROGRAM.parent.add('../../dat/doomfiles');
 chdir( $df_loc );
 
-
 parse_just_this_one( 'BURNING_MOMENTS' );
 parse_just_this_one( 'CONTENTS' );
 parse_just_this_one( 'DELANY' );
