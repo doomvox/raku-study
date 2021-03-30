@@ -20,7 +20,7 @@ my grammar df {
         [                 # stuff is a group of either
             <-[-]>+:      # > #    a ratcheting string of non-decision points. Removing ratcheting makes it hang on Yary's system.
           ||              # or
-            '-'           # > #  a "dash" decision point
+            '-'           #  a "dash" decision point
         ]*               # 0-many of those. Greedy or non-greedy both work, about the same speed.
     }  # end regex
 
