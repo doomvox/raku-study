@@ -1,25 +1,25 @@
-- [meeting notes Mar 28, 2021](#orga5d8a35)
-  - [topics](#org1479df7)
-    - [news: perl foundation project to improve raku docs](#orged055ca)
-    - [news: classes can have custom type coercion in 2020.11](#org9165a2e)
-    - [extracting results from grammar matches](#org856e707)
-    - [grammar to parse doomfiles](#org601421a)
-    - [getting a list of primes with monotonically increasing differences](#orgbf3d79a)
-    - [the .first method](#orgbb0b3ff)
-  - [next meeting on april 11th, taking a break for easter](#org445c100)
+- [meeting notes Mar 28, 2021](#org45979a2)
+  - [topics](#org987c37a)
+    - [news: perl foundation project to improve raku docs](#org79f9c30)
+    - [news: classes can have custom type coercion in 2020.11](#org74b240b)
+    - [extracting results from grammar matches](#org749e58a)
+    - [grammar to parse doomfiles](#orga7bc01e)
+    - [getting a list of primes with monotonically increasing differences](#org41d3e3a)
+    - [the .first method](#org910b1ca)
+  - [next meeting on april 11th, taking a break for easter](#orgd35bb4d)
 
 
-<a id="orga5d8a35"></a>
+<a id="org45979a2"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org1479df7"></a>
+<a id="org987c37a"></a>
 
 ## topics
 
 
-<a id="orged055ca"></a>
+<a id="org79f9c30"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -30,14 +30,14 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="org9165a2e"></a>
+<a id="org74b240b"></a>
 
 ### news: classes can have custom type coercion in 2020.11
 
 <https://rakudoweekly.blog/2020/11/16/2020-46-coercion-renewed/>
 
 
-<a id="org856e707"></a>
+<a id="org749e58a"></a>
 
 ### extracting results from grammar matches
 
@@ -60,7 +60,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="org601421a"></a>
+<a id="orga7bc01e"></a>
 
 ### grammar to parse doomfiles
 
@@ -95,7 +95,7 @@
                     }  # end regex
                     ```
                     
-                    1.  Hm&#x2026; doesn't this consume the first hyphen of the ruler line?  So why does it match
+                    1.  Hm&#x2026; doesn't this consume the first hyphen of the ruler line?  So why does it match?
                     
                     2.  I think instead of this:
                     
@@ -141,7 +141,7 @@
     1.  Yary H : The HTML-tree-find module I was looking at is <https://github.com/zostay/raku-DOM-Tiny>
 
 
-<a id="orgbf3d79a"></a>
+<a id="org41d3e3a"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -160,7 +160,7 @@
     (Better than my usual dodge of passing a var named $pair which is not actually a Pair.)
 
 
-<a id="orgbb0b3ff"></a>
+<a id="org910b1ca"></a>
 
 ### the .first method
 
@@ -169,6 +169,6 @@ william michels was interested in some lizmat examples from irc
 <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub>
 
 
-<a id="org445c100"></a>
+<a id="orgd35bb4d"></a>
 
 ## next meeting on april 11th, taking a break for easter

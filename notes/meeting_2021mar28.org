@@ -41,7 +41,7 @@ I expect more speed-memory gains.
         ]*           # 0-many of those. Greedy or non-greedy both work, about the same speed.
     }  # end regex
 #+END_SRC
-********** Hm... doesn't this consume the first hyphen of the ruler line?  So why does it match
+********** Hm... doesn't this consume the first hyphen of the ruler line?  So why does it match?
 ********** I think instead of this:
 #            <-[ \< ]>+:  #   a ratcheting string of non-decision points
 you probably want this:
