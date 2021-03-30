@@ -15,7 +15,6 @@ my grammar df {
     regex ruler       { '--------'                                                                                 }
     regex control_2   { <ruler> \s+ <next_link> \s*                                                                }
 
-##    regex stuff       { ( .* )                                                                                     }
     regex stuff  ## yary hluchan idea (doesn't parse for some reason)
     {
         [                 # stuff is a group of either
