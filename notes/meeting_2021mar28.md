@@ -1,25 +1,25 @@
-- [meeting notes Mar 28, 2021](#orgd572761)
-  - [topics](#org117b018)
-    - [news: perl foundation project to improve raku docs](#orgff33715)
-    - [news: classes can have custom type coercion in 2020.11](#orga1293fc)
-    - [extracting results from grammar matches](#org9c02e2d)
-    - [grammar to parse doomfiles](#org7298d1f)
-    - [getting a list of primes with monotonically increasing differences](#orgdd8f2b1)
-    - [the .first method](#org5130b2a)
-  - [next meeting on april 11th, taking a break for easter](#org7e0f5e7)
+- [meeting notes Mar 28, 2021](#org525d1f7)
+  - [topics](#org07c926d)
+    - [news: perl foundation project to improve raku docs](#org29b8fd9)
+    - [news: classes can have custom type coercion in 2020.11](#org0ed8f26)
+    - [extracting results from grammar matches](#orga56a8ec)
+    - [grammar to parse doomfiles](#org908f7b8)
+    - [getting a list of primes with monotonically increasing differences](#orgbc6743c)
+    - [the .first method](#org5737ebf)
+  - [next meeting on april 11th, taking a break for easter](#org3c07148)
 
 
-<a id="orgd572761"></a>
+<a id="org525d1f7"></a>
 
 # meeting notes Mar 28, 2021
 
 
-<a id="org117b018"></a>
+<a id="org07c926d"></a>
 
 ## topics
 
 
-<a id="orgff33715"></a>
+<a id="org29b8fd9"></a>
 
 ### news: perl foundation project to improve raku docs
 
@@ -30,14 +30,14 @@
     2.  they're looking for suggestions for big things to fix (not our usual bug reports to JJ)
 
 
-<a id="orga1293fc"></a>
+<a id="org0ed8f26"></a>
 
 ### news: classes can have custom type coercion in 2020.11
 
 <https://rakudoweekly.blog/2020/11/16/2020-46-coercion-renewed/>
 
 
-<a id="org9c02e2d"></a>
+<a id="orga56a8ec"></a>
 
 ### extracting results from grammar matches
 
@@ -60,7 +60,7 @@
                 1.  if I understand right: calling it restarts part of the grammar matching
 
 
-<a id="org7298d1f"></a>
+<a id="org908f7b8"></a>
 
 ### grammar to parse doomfiles
 
@@ -85,14 +85,14 @@
                     By re-writing "stuff" so that it will only backtrack when it hits a bracket, I expect more speed-memory gains.
                     
                     ```perl6-mode
-                    regex stuff
-                    { (  # capture stuff (positional capture might not be needed)
-                        [               # Stuff is a group of either
-                            \<          # a left-bracket decision point
-                          ||            # or
-                            <-[ \< ]>+: # a ratcheting string of non-decision points
-                        ]*              # 0-many of those. Greedy or non-greedy both work?
-                    ) }  # end capture, end regex
+                    regex stuff 
+                    {
+                        [            # stuff is a group of either
+                            <-[-]>+: # a ratcheting string of non-decision points. Removing ratcheting makes it hang on Yary's system.
+                          ||         # or
+                            '-'      # a "dash" decision point
+                        ]*           # 0-many of those. Greedy or non-greedy both work, about the same speed.
+                    }  # end regex
                     ```
                     
                     1.  I think instead of this:
@@ -139,7 +139,7 @@
     1.  Yary H : The HTML-tree-find module I was looking at is <https://github.com/zostay/raku-DOM-Tiny>
 
 
-<a id="orgdd8f2b1"></a>
+<a id="orgbc6743c"></a>
 
 ### getting a list of primes with monotonically increasing differences
 
@@ -158,7 +158,7 @@
     (Better than my usual dodge of passing a var named $pair which is not actually a Pair.)
 
 
-<a id="org5130b2a"></a>
+<a id="org5737ebf"></a>
 
 ### the .first method
 
@@ -167,6 +167,6 @@ william michels was interested in some lizmat examples from irc
 <https://github.com/doomvox/raku-study/blob/main/bin/2021mar28/first_method_on_arrays.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/first<sub>method</sub><sub>on</sub><sub>arrays.raku</sub>
 
 
-<a id="org7e0f5e7"></a>
+<a id="org3c07148"></a>
 
 ## next meeting on april 11th, taking a break for easter
