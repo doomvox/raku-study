@@ -15,7 +15,6 @@ my @islands_N = <<"Africa" "Antarctica" "Asia" "Australia" "Axel Heiberg" "Baffi
 # say @interleave;
 # [(Africa 11506) (Antarctica 5500) ...
 
-
 ##    my %h = @names Z=> @numbers;
 
 my %islands; 
