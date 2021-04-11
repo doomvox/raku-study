@@ -32,7 +32,7 @@ if( $stringy =~ m/(.*?)-/ ) {
   say "string sans hyphens: ", $hit;
 }
 
-if( $stringy =~ m/([^-]*?)-/ ) {
+if( $stringy =~ m/([^-]*)-/ ) {       ## <-[-]>
   my $hit = $1;
   say "string sans hyphens: ", $hit;
 }
