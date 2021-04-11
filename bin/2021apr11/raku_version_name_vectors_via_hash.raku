@@ -57,7 +57,7 @@ say "===";
 
 my $islands_A = <11506,5500,16988,2968>.split(",");
 my $islands_N = < Africa Antarctica Asia Australia>;
-my @islands_ArrayOfPairs = $islands_A.list Z=> $islands_N.list;
+my @islands_ArrayOfPairs = $islands_N.list Z=> $islands_A.list;
 say @islands_ArrayOfPairs».key;
 # [11506 5500 16988 2968]
 say @islands_ArrayOfPairs».value;
