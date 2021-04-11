@@ -68,3 +68,7 @@ say @islands_ArrayOfPairs[3].value;
 # Australia
 say @islands_ArrayOfPairs[3]; 
 # 2968 => Australia 
+
+my %A_N = $islands_N.antipairs; 
+
+say %A_N{'Antarctica'};
