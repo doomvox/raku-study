@@ -5,3 +5,5 @@
 *** stackoverflow question by william michels "dualvars"
 **** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p
 *** salve j. nilsen: conversation about idiomatic raku
+*** accuracy equivalency of large numbers (mailing list)
+**** https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html
