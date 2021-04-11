@@ -10,3 +10,7 @@ programs written as literary works
 http://www.quotationspage.com/quote/24934.html
 *** accuracy equivalency of large numbers (mailing list)
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html
+
+
+** future topics, mixins mixed up
+https://github.com/rakudo/rakudo/issues/4282
