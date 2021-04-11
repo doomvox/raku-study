@@ -28,10 +28,6 @@ my @islands_N = <<"Africa" "Antarctica" "Asia" "Australia" "Axel Heiberg" "Baffi
 my %islands = @islands_N Z=> @islands_A;
 say %islands;
 
-# bg hint, AoH?  Array of Pairs
-# my @islands_AoH = $islands_A.list Z=> $islands_N.list; 
-
-
 # {Africa => 11506, Antarctica => 5500, Asia => 16988, Australia => 2968, ...
 
 say %islands{'Antarctica'};
