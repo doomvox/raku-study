@@ -16,7 +16,7 @@ my @islands_N = <<"Africa" "Antarctica" "Asia" "Australia" "Axel Heiberg" "Baffi
 # [(Africa 11506) (Antarctica 5500) ...
 
 
-##    my %h = @names [Z=>] @numbers;
+##    my %h = @names Z=> @numbers;
 
 my %islands; 
 # for @islands_N, @islands_A -> ($n, $a) {
