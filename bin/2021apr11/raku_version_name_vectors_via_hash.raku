@@ -43,7 +43,7 @@ say %islands{'Africa'}; ## 11506
 say %islands{ %islands.keys.sort.[0] }; ## 11506
 
 # say "Islands--first (returns Name): ",  @islands[0]>>.Str;    #OUTPUT: (Africa)
-say %islands.keys.sort.[0]  ## Africa
+say %islands.keys.sort.[0];  ## Africa
 
 ## I don't get what these examples are supposed to show:
 # put "Islands--first (returns Name): ",  @islands[0];          #OUTPUT: Africa
