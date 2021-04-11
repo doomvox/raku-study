@@ -24,6 +24,7 @@ my @islands_N = <<"Africa" "Antarctica" "Asia" "Australia" "Axel Heiberg" "Baffi
 #     %islands{ $n } = $a;
 # }
 
+## zipping together arrays into hash
 my %islands = @islands_N Z=> @islands_A;
 
 say %islands;
