@@ -37,6 +37,12 @@ if( $stringy =~ m/ ( [^-]* ) - /x ) {       ## [ <-[-]>* ] -
   say "string sans hyphens: ", $hit;
 }
 
+$stringy = "Hey here we're about to be interrupted--  and yet there's still more-- and now we're done --------";
+
+if( $stringy =~ m/ ( [^-]* ) - /x ) {       ## [ <-[-]>* ] - 
+  my $hit = $1;
+  say "string sans hyphens: ", $hit;
+}
 
 
 
