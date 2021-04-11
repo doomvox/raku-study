@@ -26,7 +26,6 @@ my @islands_N = <<"Africa" "Antarctica" "Asia" "Australia" "Axel Heiberg" "Baffi
 
 ## zipping together arrays into hash
 my %islands = @islands_N Z=> @islands_A;
-
 say %islands;
 
 
