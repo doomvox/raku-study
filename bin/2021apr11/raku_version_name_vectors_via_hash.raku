@@ -28,6 +28,8 @@ say %islands;
 ## I thought this would work, but what do I know.
 my %islands_better = @islands_N Z=> @islands_A;
 
+say %islands_better;
+
 # use Test;
 # is-deeply( %islands, %islands_better, "both same, yes?" );
 # say %islands;
