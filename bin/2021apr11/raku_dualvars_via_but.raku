@@ -12,12 +12,13 @@ say "$n"; # three
 say $n + 1; # 4
 
 say +$n; # three
-# my $m = [$n++];
+
 my $m = $n++;
 
+# my $m = [$n++];
 ## Seriously LTA:
-$m = $m--;
+# $m = $m--;
 # No such method 'pred' for invocant of type 'Array'.  Did you mean any
 # of these: 'grep', 'ord', 'tree'?
-#   in block <unit> at /home/doom/End/Cave/Perl6/bin/raku_dualvars_via_but.raku line 17
+
 say $m;
