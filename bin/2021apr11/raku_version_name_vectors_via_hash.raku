@@ -71,4 +71,7 @@ say @islands_ArrayOfPairs[3];
 
 my %A_N = $islands_N.antipairs; 
 
-say %A_N{'Antarctica'};
+say %A_N{'Antarctica'}; # 1
+
+
+say @islands_ArrayOfPairs[ %A_N{'Antarctica'} ];
