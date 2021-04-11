@@ -14,21 +14,6 @@ use v6;
 my @islands_A = <11506,5500,16988,2968,16>.split(","); #Area
 my @islands_N = <<"Africa" "Antarctica" "Asia" "Australia" "Axel Heiberg">>; #Name
 
-## look for a neat one-liner to zip two lists into a hash
-# my @interleave = @islands_N [Z] @islands_A;
-# say @interleave;
-# [(Africa 11506) (Antarctica 5500) ...
-
-##    my %h = @names Z=> @numbers;
-
-# my %islands; 
-# # for @islands_N, @islands_A -> ($n, $a) {
-# while ( @islands_N ) {
-#     my $n = @islands_N.pop;
-#     my $a = @islands_A.pop;
-#     %islands{ $n } = $a;
-# }
-
 ## zipping together arrays into hash
 my %islands = @islands_N Z=> @islands_A;
 say %islands;
