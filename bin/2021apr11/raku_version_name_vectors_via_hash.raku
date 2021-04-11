@@ -73,5 +73,4 @@ my %A_N = $islands_N.antipairs;
 
 say %A_N{'Antarctica'}; # 1
 
-
 say @islands_ArrayOfPairs[ %A_N{'Antarctica'} ];
