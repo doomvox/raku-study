@@ -1,7 +1,7 @@
 * topics
 **  raku study group topics
 *** collected from previous meeting notes
-***  delete these once they're covered
+*** delete these once they're covered
 
 ** techid: database with categorization features, links to meeting notes
 

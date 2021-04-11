@@ -1,52 +1,52 @@
-- [topics](#orgcf95378)
-  - [raku study group topics](#orgfc9b730)
-    - [collected from previous meeting notes](#orgcb5d3f5)
-    - [delete these once they're covered](#org0a4ede6)
-  - [techid: database with categorization features, links to meeting notes](#org0dbeb5b)
-  - [subjects](#org343289c)
-    - [nested map idioms](#org60b61bb)
-    - [quoted string regexes](#orgf18e23c)
-    - [a stupid mistake that isn't: naming a method with a leading ^](#org234be09)
-    - [Steven Lembark](#orgc26bcaa)
-    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#org6f8e5b0)
-    - [andrew shitov "Perl 6 at a Glance"](#orgb621d5a)
-    - [andrew shitov's raku course on-line:](#orge38ed79)
-    - [perl weekly challenge:](#org33f660b)
-    - [promises and threads](#orgd0d5b7d)
-    - [other files to go through](#org5495862)
+- [topics](#org00749e8)
+  - [raku study group topics](#orgf3735fa)
+    - [collected from previous meeting notes](#org3fbe269)
+    - [delete these once they're covered](#org9404695)
+  - [techid: database with categorization features, links to meeting notes](#org0d11012)
+  - [subjects](#orga12b3ac)
+    - [nested map idioms](#org94eba07)
+    - [quoted string regexes](#orgb93d91a)
+    - [a stupid mistake that isn't: naming a method with a leading ^](#org7e22029)
+    - [Steven Lembark](#orgafafbc6)
+    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#orgb32a642)
+    - [andrew shitov "Perl 6 at a Glance"](#orgf2efa39)
+    - [andrew shitov's raku course on-line:](#orgf67fab0)
+    - [perl weekly challenge:](#orge1443b1)
+    - [promises and threads](#orgde14a72)
+    - [other files to go through](#orgd5deb85)
 
 
-<a id="orgcf95378"></a>
+<a id="org00749e8"></a>
 
 # topics
 
 
-<a id="orgfc9b730"></a>
+<a id="orgf3735fa"></a>
 
 ## raku study group topics
 
 
-<a id="orgcb5d3f5"></a>
+<a id="org3fbe269"></a>
 
 ### collected from previous meeting notes
 
 
-<a id="org0a4ede6"></a>
+<a id="org9404695"></a>
 
 ### delete these once they're covered
 
 
-<a id="org0dbeb5b"></a>
+<a id="org0d11012"></a>
 
 ## techid: database with categorization features, links to meeting notes
 
 
-<a id="org343289c"></a>
+<a id="orga12b3ac"></a>
 
 ## subjects
 
 
-<a id="org60b61bb"></a>
+<a id="org94eba07"></a>
 
 ### nested map idioms
 
@@ -59,7 +59,7 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested<sub>map.raku</sub>
 
 
-<a id="orgf18e23c"></a>
+<a id="orgb93d91a"></a>
 
 ### quoted string regexes
 
@@ -82,7 +82,7 @@
             2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing<sub>quoted</sub><sub>strings</sub><sub>backslash.raku</sub>
 
 
-<a id="org234be09"></a>
+<a id="org7e22029"></a>
 
 ### a stupid mistake that isn't: naming a method with a leading ^
 
@@ -91,7 +91,7 @@
     1.  should this generate a warning/error?
 
 
-<a id="orgc26bcaa"></a>
+<a id="orgafafbc6"></a>
 
 ### Steven Lembark
 
@@ -102,14 +102,14 @@
 2.  <https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql>
 
 
-<a id="org6f8e5b0"></a>
+<a id="orgb32a642"></a>
 
 ### adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
 
 1.  <https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)>
 
 
-<a id="orgb621d5a"></a>
+<a id="orgf2efa39"></a>
 
 ### andrew shitov "Perl 6 at a Glance"
 
@@ -118,21 +118,21 @@
 2.  <https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf>
 
 
-<a id="orge38ed79"></a>
+<a id="orgf67fab0"></a>
 
 ### andrew shitov's raku course on-line:
 
 <https://course.raku.org/>
 
 
-<a id="org33f660b"></a>
+<a id="orge1443b1"></a>
 
 ### perl weekly challenge:
 
 1.  <https://perlweeklychallenge.org/>
 
 
-<a id="orgd0d5b7d"></a>
+<a id="orgde14a72"></a>
 
 ### promises and threads
 
@@ -145,7 +145,7 @@
     2.  <https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md>
 
 
-<a id="org5495862"></a>
+<a id="orgd5deb85"></a>
 
 ### other files to go through
 
