@@ -26,7 +26,10 @@ while ( @islands_N ) {
     %islands{ $n } = $a;
 }
 
- %islands = @islands_N Z=> @islands_A;
+my %islands_better = @islands_N [Z=>] @islands_A;
+
+use Test;
+is( %islands, %islands_better, "" );
 say %islands;
 
 # {Africa => 11506, Antarctica => 5500, Asia => 16988, Australia => 2968, ...
