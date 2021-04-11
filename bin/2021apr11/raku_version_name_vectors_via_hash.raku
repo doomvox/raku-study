@@ -55,7 +55,7 @@ my $islands_A = <11506,5500,16988,2968,16>.split(",");
 my $islands_N = <<"Africa" "Antarctica" "Asia" "Australia" "Axel Heiberg">>;
 
 # bruce gray hint  Array of Pairs to preserve order:
-my @islands_AoH = $islands_A.list Z=> $islands_N.list; 
+## my @islands_AoP = $islands_A.list Z=> $islands_N.list; 
 
 my $islands_A = <11506,5500,16988,2968>.split(",");
 my $islands_N = < Africa Antarctica Asia Australia>;
