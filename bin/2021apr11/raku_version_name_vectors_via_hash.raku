@@ -69,9 +69,11 @@ say @islands_ArrayOfPairs[3].value;
 say @islands_ArrayOfPairs[3]; 
 # 2968 => Australia 
 
+## how to do lookups by name?
 my %A_N = $islands_N.antipairs; 
 
 say %A_N{'Antarctica'}; # 1
 
 say @islands_ArrayOfPairs[ %A_N{'Antarctica'} ];
 # Antarctica => 5500
+
