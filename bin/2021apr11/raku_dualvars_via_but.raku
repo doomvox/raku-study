@@ -13,6 +13,7 @@ say $n + 1; # 4
 
 say +$n; # three
 my $m = [$n++];
+
 ## Seriously LTA:
 $m = $m--;
 # No such method 'pred' for invocant of type 'Array'.  Did you mean any
