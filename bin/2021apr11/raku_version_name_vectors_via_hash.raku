@@ -16,6 +16,11 @@ my @islands_N = <<"Africa" "Antarctica" "Asia" "Australia" "Axel Heiberg" "Baffi
 
 ##    my %h = @names Z=> @numbers;
 
+## I thought this would work, but what do I know.
+my %islands_better = @islands_N Z=> @islands_A;
+
+say %islands_better;
+
 my %islands; 
 # for @islands_N, @islands_A -> ($n, $a) {
 while ( @islands_N ) {
@@ -25,10 +30,6 @@ while ( @islands_N ) {
 }
 say %islands;
 
-## I thought this would work, but what do I know.
-my %islands_better = @islands_N Z=> @islands_A;
-
-say %islands_better;
 
 # use Test;
 # is-deeply( %islands, %islands_better, "both same, yes?" );
