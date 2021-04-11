@@ -26,7 +26,7 @@ while ( @islands_N ) {
     %islands{ $n } = $a;
 }
 
-my %islands = @islands_N Z=> @islands_A;
+ %islands = @islands_N Z=> @islands_A;
 say %islands;
 
 # {Africa => 11506, Antarctica => 5500, Asia => 16988, Australia => 2968, ...
