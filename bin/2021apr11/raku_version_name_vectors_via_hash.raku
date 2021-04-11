@@ -25,9 +25,9 @@ while ( @islands_N ) {
     my $a = @islands_A.pop;
     %islands{ $n } = $a;
 }
-say %islands;
 
-# my %islands = @islands_N Z=> @islands_A;
+my %islands = @islands_N Z=> @islands_A;
+say %islands;
 
 # {Africa => 11506, Antarctica => 5500, Asia => 16988, Australia => 2968, ...
 
