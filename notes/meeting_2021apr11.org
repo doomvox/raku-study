@@ -6,5 +6,6 @@
 **** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p
 *** salve j. nilsen: conversation about idiomatic raku
 **** hidden agenda (aha): understandability (not quite "readability", condescending)
+programs written as literary works
 *** accuracy equivalency of large numbers (mailing list)
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html
