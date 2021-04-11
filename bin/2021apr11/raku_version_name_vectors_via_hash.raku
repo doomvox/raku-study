@@ -26,7 +26,7 @@ while ( @islands_N ) {
     %islands{ $n } = $a;
 }
 
-my %islands_better = @islands_A [Z=>] @islands_N;
+my %islands_better = @islands_N Z=> @islands_A;
 
 use Test;
 is-deeply( %islands, %islands_better, "'kay" );
