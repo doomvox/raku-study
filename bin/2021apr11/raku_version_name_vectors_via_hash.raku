@@ -27,6 +27,8 @@ while ( @islands_N ) {
 }
 say %islands;
 
+# my %islands = @islands_N Z=> @islands_A;
+
 # {Africa => 11506, Antarctica => 5500, Asia => 16988, Australia => 2968, ...
 
 say %islands{'Antarctica'};
