@@ -32,6 +32,7 @@ say %islands;
 # is-deeply( %islands, %islands_better, "'kay" );
 # say %islands;
 
+
 # {Africa => 11506, Antarctica => 5500, Asia => 16988, Australia => 2968, ...
 
 say %islands{'Antarctica'};
