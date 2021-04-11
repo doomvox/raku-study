@@ -25,6 +25,7 @@ while ( @islands_N ) {
     my $a = @islands_A.pop;
     %islands{ $n } = $a;
 }
+say %islands;
 
 my %islands_better = @islands_N Z=> @islands_A;
 
