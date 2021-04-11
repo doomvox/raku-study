@@ -64,8 +64,8 @@ say @islands_ArrayOfPairs».value;
 say @islands_ArrayOfPairs[3].key;
 say @islands_ArrayOfPairs[3].value;
 say @islands_ArrayOfPairs[3]; 
-[11506 5500 16988 2968]
-[Africa Antarctica Asia Australia]
-2968
-Australia
-2968 => Australia 
+# [11506 5500 16988 2968]
+# [Africa Antarctica Asia Australia]
+# 2968
+# Australia
+# 2968 => Australia 
