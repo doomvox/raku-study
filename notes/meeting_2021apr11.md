@@ -1,42 +1,42 @@
-- [meeting notes Apr 11, 2021](#org9526d88)
-  - [rough plan](#orgd73aa57)
-    - [ask about questions, ideas, discussion topics](#org42ff167)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org5c365e6)
-    - [stackoverflow question by william michels "dualvars"](#org4bcd328)
-    - [salve j. nilsen: conversation about idiomatic raku](#org3a248a5)
-    - [accuracy equivalency of large numbers (mailing list)](#orgc9f937a)
-  - [future topics:](#org1c224d0)
-    - [mixins mixed up](#orgc3aea0b)
+- [meeting notes Apr 11, 2021](#orga18a244)
+  - [rough plan](#org4bcc338)
+    - [ask about questions, ideas, discussion topics](#orgd7abde9)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#orge341ca5)
+    - [stackoverflow question by william michels "dualvars"](#orgcbdd4f3)
+    - [salve j. nilsen: conversation about idiomatic raku](#org0e7273a)
+    - [accuracy equivalency of large numbers (mailing list)](#orgdb8f612)
+  - [future topics:](#org2257087)
+    - [mixins mixed up:](#org7f09469)
 
 
-<a id="org9526d88"></a>
+<a id="orga18a244"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="orgd73aa57"></a>
+<a id="org4bcc338"></a>
 
 ## rough plan
 
 
-<a id="org42ff167"></a>
+<a id="orgd7abde9"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="org5c365e6"></a>
+<a id="orge341ca5"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="org4bcd328"></a>
+<a id="orgcbdd4f3"></a>
 
 ### stackoverflow question by william michels "dualvars"
 
 1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p>
 
 
-<a id="org3a248a5"></a>
+<a id="org0e7273a"></a>
 
 ### salve j. nilsen: conversation about idiomatic raku
 
@@ -45,20 +45,20 @@
     programs written as literary works <http://www.quotationspage.com/quote/24934.html>
 
 
-<a id="orgc9f937a"></a>
+<a id="orgdb8f612"></a>
 
 ### accuracy equivalency of large numbers (mailing list)
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html>
 
 
-<a id="org1c224d0"></a>
+<a id="org2257087"></a>
 
 ## future topics:
 
 
-<a id="orgc3aea0b"></a>
+<a id="org7f09469"></a>
 
-### mixins mixed up
+### mixins mixed up:
 
 <https://github.com/rakudo/rakudo/issues/4282>

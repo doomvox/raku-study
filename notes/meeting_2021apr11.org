@@ -13,5 +13,5 @@ http://www.quotationspage.com/quote/24934.html
 
 
 ** future topics: 
-*** mixins mixed up
+*** mixins mixed up:
 https://github.com/rakudo/rakudo/issues/4282
