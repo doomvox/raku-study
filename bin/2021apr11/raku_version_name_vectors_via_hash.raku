@@ -51,8 +51,6 @@ say %islands.keys.sort.[0];  ## Africa
 
 say "===";
 # bg: example of non-indiomatic code
-my $islands_A = <11506,5500,16988,2968,16>.split(","); 
-my $islands_N = <<"Africa" "Antarctica" "Asia" "Australia" "Axel Heiberg">>;
 
 # bruce gray hint  Array of Pairs to preserve order:
 ## my @islands_AoP = $islands_A.list Z=> $islands_N.list; 
