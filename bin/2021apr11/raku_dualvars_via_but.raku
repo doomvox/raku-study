@@ -12,7 +12,8 @@ say "$n"; # three
 say $n + 1; # 4
 
 say +$n; # three
-my $m = [$n++];
+# my $m = [$n++];
+my $m = $n++;
 
 ## Seriously LTA:
 $m = $m--;
