@@ -21,4 +21,4 @@ my $m = $n++;
 # No such method 'pred' for invocant of type 'Array'.  Did you mean any
 # of these: 'grep', 'ord', 'tree'?
 
-say $m;
+say $m; # three
