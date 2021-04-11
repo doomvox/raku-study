@@ -28,7 +28,7 @@ my @islands_N = <<"Africa" "Antarctica" "Asia" "Australia" "Axel Heiberg" "Baffi
 my %islands = @islands_N Z=> @islands_A;
 say %islands;
 
-# bg hint, AoH? 
+# bg hint, AoH?  Array of Pairs
 # my @islands_AoH = $islands_A.list Z=> $islands_N.list; 
 
 
