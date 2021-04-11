@@ -1,52 +1,62 @@
-- [topics](#org2ab4aff)
-  - [raku study group topics](#org9bdaff6)
-    - [collected from previous meeting notes](#orgb89907e)
-    - [delete these once they're covered](#org9cd57ed)
-  - [techid: create a database with categorization features, links to meeting notes](#orge1220d6)
-  - [subjects](#org07922c6)
-    - [nested map idioms](#orgbdd7988)
-    - [quoted string regexes](#orgafbf0df)
-    - [a stupid mistake that isn't: naming a method with a leading ^](#org808f15f)
-    - [Steven Lembark](#orgaf63f40)
-    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#orgd2ca4b8)
-    - [andrew shitov "Perl 6 at a Glance"](#org7272ea0)
-    - [andrew shitov's raku course on-line:](#org3f6da31)
-    - [perl weekly challenge:](#orgd967ebe)
-    - [promises and threads](#org7f19d61)
-    - [other files to go through](#orgc32927f)
+- [topics](#orgc30fcf5)
+  - [raku study group topics](#orgce750fb)
+    - [collected from previous meeting notes](#org8c3294a)
+    - [delete these once they're covered](#org138529d)
+  - [techid: create a database of topic ideas](#org3ae3273)
+    - [features](#orgf5b5546)
+  - [subjects](#org54c5348)
+    - [nested map idioms](#org9847d4c)
+    - [quoted string regexes](#orgf473957)
+    - [a stupid mistake that isn't: naming a method with a leading ^](#org9edc96b)
+    - [Steven Lembark](#org2568fb5)
+    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#orgf53adf4)
+    - [andrew shitov "Perl 6 at a Glance"](#orgf13a6e7)
+    - [andrew shitov's raku course on-line:](#org992fbd9)
+    - [perl weekly challenge:](#orgec8526f)
+    - [promises and threads](#org7eb0e07)
+    - [other files to go through](#org32aca6e)
 
 
-<a id="org2ab4aff"></a>
+<a id="orgc30fcf5"></a>
 
 # topics
 
 
-<a id="org9bdaff6"></a>
+<a id="orgce750fb"></a>
 
 ## raku study group topics
 
 
-<a id="orgb89907e"></a>
+<a id="org8c3294a"></a>
 
 ### collected from previous meeting notes
 
 
-<a id="org9cd57ed"></a>
+<a id="org138529d"></a>
 
 ### delete these once they're covered
 
 
-<a id="orge1220d6"></a>
+<a id="org3ae3273"></a>
 
-## techid: create a database with categorization features, links to meeting notes
+## techid: create a database of topic ideas
 
 
-<a id="org07922c6"></a>
+<a id="orgf5b5546"></a>
+
+### features
+
+1.  categorization
+
+2.  links to meeting notes
+
+
+<a id="org54c5348"></a>
 
 ## subjects
 
 
-<a id="orgbdd7988"></a>
+<a id="org9847d4c"></a>
 
 ### nested map idioms
 
@@ -59,7 +69,7 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested<sub>map.raku</sub>
 
 
-<a id="orgafbf0df"></a>
+<a id="orgf473957"></a>
 
 ### quoted string regexes
 
@@ -82,7 +92,7 @@
             2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing<sub>quoted</sub><sub>strings</sub><sub>backslash.raku</sub>
 
 
-<a id="org808f15f"></a>
+<a id="org9edc96b"></a>
 
 ### a stupid mistake that isn't: naming a method with a leading ^
 
@@ -91,7 +101,7 @@
     1.  should this generate a warning/error?
 
 
-<a id="orgaf63f40"></a>
+<a id="org2568fb5"></a>
 
 ### Steven Lembark
 
@@ -102,14 +112,14 @@
 2.  <https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql>
 
 
-<a id="orgd2ca4b8"></a>
+<a id="orgf53adf4"></a>
 
 ### adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
 
 1.  <https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)>
 
 
-<a id="org7272ea0"></a>
+<a id="orgf13a6e7"></a>
 
 ### andrew shitov "Perl 6 at a Glance"
 
@@ -118,21 +128,21 @@
 2.  <https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf>
 
 
-<a id="org3f6da31"></a>
+<a id="org992fbd9"></a>
 
 ### andrew shitov's raku course on-line:
 
 <https://course.raku.org/>
 
 
-<a id="orgd967ebe"></a>
+<a id="orgec8526f"></a>
 
 ### perl weekly challenge:
 
 1.  <https://perlweeklychallenge.org/>
 
 
-<a id="org7f19d61"></a>
+<a id="org7eb0e07"></a>
 
 ### promises and threads
 
@@ -145,7 +155,7 @@
     2.  <https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md>
 
 
-<a id="orgc32927f"></a>
+<a id="org32aca6e"></a>
 
 ### other files to go through
 

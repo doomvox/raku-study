@@ -3,8 +3,10 @@
 *** collected from previous meeting notes
 *** delete these once they're covered
 
-** techid: create a database with categorization features, links to meeting notes
-
+** techid: create a database of topic ideas
+*** features
+**** categorization
+**** links to meeting notes
 ** subjects
 *** nested map idioms
 **** TODO nested map: review perl5 approaches 
