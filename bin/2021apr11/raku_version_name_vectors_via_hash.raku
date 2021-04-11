@@ -28,11 +28,6 @@ my @islands_N = <<"Africa" "Antarctica" "Asia" "Australia" "Axel Heiberg" "Baffi
 my %islands = @islands_N Z=> @islands_A;
 say %islands;
 
-
-# use Test;
-# is-deeply( %islands, %islands_better, "both same, yes?" );
-# say %islands;
-
 # {Africa => 11506, Antarctica => 5500, Asia => 16988, Australia => 2968, ...
 
 say %islands{'Antarctica'};
