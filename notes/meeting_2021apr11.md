@@ -1,30 +1,30 @@
-- [meeting notes Apr 11, 2021](#orge478c63)
-  - [rough plan](#orga468005)
-    - [ask about questions, ideas, discussion topics](#org00e7e20)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org1144ab6)
-    - [](#orgefbeaf7)
+- [meeting notes Apr 11, 2021](#org17ad816)
+  - [rough plan](#org22d4e7f)
+    - [ask about questions, ideas, discussion topics](#orgb44fc74)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org23012a5)
+    - [](#orge2a10a7)
 
 
-<a id="orge478c63"></a>
+<a id="org17ad816"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="orga468005"></a>
+<a id="org22d4e7f"></a>
 
 ## rough plan
 
 
-<a id="org00e7e20"></a>
+<a id="orgb44fc74"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="org1144ab6"></a>
+<a id="org23012a5"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="orgefbeaf7"></a>
+<a id="orge2a10a7"></a>
 
 ###
