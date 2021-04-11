@@ -3,3 +3,5 @@
 *** ask about questions, ideas, discussion topics
 *** recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 *** stackoverflow question by william michels "dualvars"
+**** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p
+*** salve j. nilsen: conversation about idiomatic raku
