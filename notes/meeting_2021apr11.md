@@ -1,49 +1,49 @@
-- [meeting notes Apr 11, 2021](#org6bbe273)
-  - [rough plan](#org1f51b23)
-    - [ask about questions, ideas, discussion topics](#org7e6102d)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org78201a7)
-    - [stackoverflow question by william michels "dualvars"](#orgae94d40)
-    - [salve j. nilsen: conversation about idiomatic raku](#org4bd928c)
-    - [accuracy equivalency of large numbers (mailing list)](#orgd824149)
+- [meeting notes Apr 11, 2021](#org9eec44f)
+  - [rough plan](#org0ddacbf)
+    - [ask about questions, ideas, discussion topics](#org9f47275)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org76dbb8f)
+    - [stackoverflow question by william michels "dualvars"](#org0c37da9)
+    - [salve j. nilsen: conversation about idiomatic raku](#orgdce856c)
+    - [accuracy equivalency of large numbers (mailing list)](#org080d05f)
 
 
-<a id="org6bbe273"></a>
+<a id="org9eec44f"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="org1f51b23"></a>
+<a id="org0ddacbf"></a>
 
 ## rough plan
 
 
-<a id="org7e6102d"></a>
+<a id="org9f47275"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="org78201a7"></a>
+<a id="org76dbb8f"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="orgae94d40"></a>
+<a id="org0c37da9"></a>
 
 ### stackoverflow question by william michels "dualvars"
 
 1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p>
 
 
-<a id="org4bd928c"></a>
+<a id="orgdce856c"></a>
 
 ### salve j. nilsen: conversation about idiomatic raku
 
 1.  hidden agenda (aha): understandability (not quite "readability", condescending)
 
-    programs written as literary works
+    programs written as literary works <http://www.quotationspage.com/quote/24934.html>
 
 
-<a id="orgd824149"></a>
+<a id="org080d05f"></a>
 
 ### accuracy equivalency of large numbers (mailing list)
 
