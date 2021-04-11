@@ -24,9 +24,9 @@ say %islands{'Antarctica'};
 # 5500
 
 # say "All islands (returns Area): ",     @islands;             #OUTPUT: returns 48 areas (above)
-say "All islands (returns Area): ",     %islands.values;        #OUTPUT: returns 48 areas (above)
+say "All islands (returns Area): ",     %islands.values;        #OUTPUT: returns all the areas
 # say "All islands (returns Name): ",     @islands>>.Str;       #OUTPUT: returns 48 names (above)
-say "All islands (returns Name): ",     %islands>>.keys;       #OUTPUT: returns 48 names (above)
+say "All islands (returns Name): ",     %islands>>.keys;       #OUTPUT: returns all the names
 # say "Islands--slice (returns Area): ",  @islands[0..3];       #OUTPUT: (11506 5500 16988 2968)
 ## TODO 
 ## say "Islands--slice (returns Area): ",  %islands.sort(%islands.keys).slice(0..3);   
