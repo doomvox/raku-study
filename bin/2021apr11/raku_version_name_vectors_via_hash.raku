@@ -57,3 +57,16 @@ my $islands_N = <<"Africa" "Antarctica" "Asia" "Australia" "Axel Heiberg">>;
 # bruce gray hint  Array of Pairs to preserve order:
 my @islands_AoH = $islands_A.list Z=> $islands_N.list; 
 
+my $islands_A = <11506,5500,16988,2968>.split(",");
+my $islands_N = < Africa Antarctica Asia Australia>;
+my @islands_AoH = $islands_A.list Z=> $islands_N.list;
+say @islands_AoH».key;
+say @islands_AoH».value;
+say @islands_AoH[3].key;
+say @islands_AoH[3].value;
+say @islands_AoH[3]; 
+[11506 5500 16988 2968]
+[Africa Antarctica Asia Australia]
+2968
+Australia
+2968 => Australia 
