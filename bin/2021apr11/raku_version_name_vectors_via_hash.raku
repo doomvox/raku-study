@@ -18,7 +18,7 @@ my @islands_N = <<"Africa" "Antarctica" "Asia" "Australia" "Axel Heiberg">>; #Na
 my %islands = @islands_N Z=> @islands_A;
 say %islands;
 
-# {Africa => 11506, Antarctica => 5500, Asia => 16988, Australia => 2968, ...
+# {Africa => 11506, Antarctica => 5500, Asia => 16988, Australia => 2968, Axel Heiberg => 16}
 
 say %islands{'Antarctica'};
 # 5500
