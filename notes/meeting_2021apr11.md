@@ -1,47 +1,47 @@
-- [meeting notes Apr 11, 2021](#org3033969)
-  - [rough plan](#orgb0f3d6d)
-    - [ask about questions, ideas, discussion topics](#orgf1021d5)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#orgff84921)
-    - [stackoverflow question by william michels "dualvars"](#orgedecd70)
-    - [salve j. nilsen: conversation about idiomatic raku](#orgce2e675)
-    - [accuracy equivalency of large numbers (mailing list)](#orgb76a487)
+- [meeting notes Apr 11, 2021](#orge663bf9)
+  - [rough plan](#orga2fffc4)
+    - [ask about questions, ideas, discussion topics](#org3a547a9)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org32224bc)
+    - [stackoverflow question by william michels "dualvars"](#org688b8e2)
+    - [salve j. nilsen: conversation about idiomatic raku](#org76e3324)
+    - [accuracy equivalency of large numbers (mailing list)](#orgb6329b7)
 
 
-<a id="org3033969"></a>
+<a id="orge663bf9"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="orgb0f3d6d"></a>
+<a id="orga2fffc4"></a>
 
 ## rough plan
 
 
-<a id="orgf1021d5"></a>
+<a id="org3a547a9"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="orgff84921"></a>
+<a id="org32224bc"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="orgedecd70"></a>
+<a id="org688b8e2"></a>
 
 ### stackoverflow question by william michels "dualvars"
 
 1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p>
 
 
-<a id="orgce2e675"></a>
+<a id="org76e3324"></a>
 
 ### salve j. nilsen: conversation about idiomatic raku
 
-1.  hidden agenda (aha): understandability (not quite "readability")
+1.  hidden agenda (aha): understandability (not quite "readability", condescending)
 
 
-<a id="orgb76a487"></a>
+<a id="orgb6329b7"></a>
 
 ### accuracy equivalency of large numbers (mailing list)
 
