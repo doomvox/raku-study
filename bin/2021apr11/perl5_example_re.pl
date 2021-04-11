@@ -27,6 +27,9 @@ use Data::Dumper;
 
 my $stringy = "Hey here we're about to be interrupted--";
 
+if( $stringy =~ m/(.*?)-/ ) {
+  my $hit = $1;
+}
 
 
 
