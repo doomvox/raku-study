@@ -59,12 +59,12 @@ my $islands_A = <11506,5500,16988,2968>.split(",");
 my $islands_N = < Africa Antarctica Asia Australia>;
 my @islands_ArrayOfPairs = $islands_A.list Z=> $islands_N.list;
 say @islands_ArrayOfPairs».key;
-say @islands_ArrayOfPairs».value;
-say @islands_ArrayOfPairs[3].key;
-say @islands_ArrayOfPairs[3].value;
-say @islands_ArrayOfPairs[3]; 
 # [11506 5500 16988 2968]
+say @islands_ArrayOfPairs».value;
 # [Africa Antarctica Asia Australia]
+say @islands_ArrayOfPairs[3].key;
 # 2968
+say @islands_ArrayOfPairs[3].value;
 # Australia
+say @islands_ArrayOfPairs[3]; 
 # 2968 => Australia 
