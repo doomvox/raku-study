@@ -1,3 +1,5 @@
 * meeting notes Apr 11, 2021
 ** rough plan
-*** recap grammar to parse doomfiles, yary hluchan's approach, "decision points"
+*** ask about questions, ideas, discussion topics
+*** recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
+*** 
