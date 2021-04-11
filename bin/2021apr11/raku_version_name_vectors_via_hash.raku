@@ -36,7 +36,6 @@ say %islands;
 say %islands{'Antarctica'};
 # 5500
 
-
 # say "All islands (returns Area): ",     @islands;             #OUTPUT: returns 48 areas (above)
 say "All islands (returns Area): ",     %islands.values;        #OUTPUT: returns 48 areas (above)
 # say "All islands (returns Name): ",     @islands>>.Str;       #OUTPUT: returns 48 names (above)
