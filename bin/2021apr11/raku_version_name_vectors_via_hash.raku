@@ -29,7 +29,7 @@ while ( @islands_N ) {
 my %islands_better = @islands_N [Z=>] @islands_A;
 
 use Test;
-is( %islands, %islands_better, "'kay" );
+is-deeply( %islands, %islands_better, "'kay" );
 say %islands;
 
 # {Africa => 11506, Antarctica => 5500, Asia => 16988, Australia => 2968, ...
