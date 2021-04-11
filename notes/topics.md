@@ -1,52 +1,52 @@
-- [topics](#org00749e8)
-  - [raku study group topics](#orgf3735fa)
-    - [collected from previous meeting notes](#org3fbe269)
-    - [delete these once they're covered](#org9404695)
-  - [techid: database with categorization features, links to meeting notes](#org0d11012)
-  - [subjects](#orga12b3ac)
-    - [nested map idioms](#org94eba07)
-    - [quoted string regexes](#orgb93d91a)
-    - [a stupid mistake that isn't: naming a method with a leading ^](#org7e22029)
-    - [Steven Lembark](#orgafafbc6)
-    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#orgb32a642)
-    - [andrew shitov "Perl 6 at a Glance"](#orgf2efa39)
-    - [andrew shitov's raku course on-line:](#orgf67fab0)
-    - [perl weekly challenge:](#orge1443b1)
-    - [promises and threads](#orgde14a72)
-    - [other files to go through](#orgd5deb85)
+- [topics](#org2ab4aff)
+  - [raku study group topics](#org9bdaff6)
+    - [collected from previous meeting notes](#orgb89907e)
+    - [delete these once they're covered](#org9cd57ed)
+  - [techid: create a database with categorization features, links to meeting notes](#orge1220d6)
+  - [subjects](#org07922c6)
+    - [nested map idioms](#orgbdd7988)
+    - [quoted string regexes](#orgafbf0df)
+    - [a stupid mistake that isn't: naming a method with a leading ^](#org808f15f)
+    - [Steven Lembark](#orgaf63f40)
+    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#orgd2ca4b8)
+    - [andrew shitov "Perl 6 at a Glance"](#org7272ea0)
+    - [andrew shitov's raku course on-line:](#org3f6da31)
+    - [perl weekly challenge:](#orgd967ebe)
+    - [promises and threads](#org7f19d61)
+    - [other files to go through](#orgc32927f)
 
 
-<a id="org00749e8"></a>
+<a id="org2ab4aff"></a>
 
 # topics
 
 
-<a id="orgf3735fa"></a>
+<a id="org9bdaff6"></a>
 
 ## raku study group topics
 
 
-<a id="org3fbe269"></a>
+<a id="orgb89907e"></a>
 
 ### collected from previous meeting notes
 
 
-<a id="org9404695"></a>
+<a id="org9cd57ed"></a>
 
 ### delete these once they're covered
 
 
-<a id="org0d11012"></a>
+<a id="orge1220d6"></a>
 
-## techid: database with categorization features, links to meeting notes
+## techid: create a database with categorization features, links to meeting notes
 
 
-<a id="orga12b3ac"></a>
+<a id="org07922c6"></a>
 
 ## subjects
 
 
-<a id="org94eba07"></a>
+<a id="orgbdd7988"></a>
 
 ### nested map idioms
 
@@ -59,7 +59,7 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested<sub>map.raku</sub>
 
 
-<a id="orgb93d91a"></a>
+<a id="orgafbf0df"></a>
 
 ### quoted string regexes
 
@@ -82,7 +82,7 @@
             2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing<sub>quoted</sub><sub>strings</sub><sub>backslash.raku</sub>
 
 
-<a id="org7e22029"></a>
+<a id="org808f15f"></a>
 
 ### a stupid mistake that isn't: naming a method with a leading ^
 
@@ -91,7 +91,7 @@
     1.  should this generate a warning/error?
 
 
-<a id="orgafafbc6"></a>
+<a id="orgaf63f40"></a>
 
 ### Steven Lembark
 
@@ -102,14 +102,14 @@
 2.  <https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql>
 
 
-<a id="orgb32a642"></a>
+<a id="orgd2ca4b8"></a>
 
 ### adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
 
 1.  <https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)>
 
 
-<a id="orgf2efa39"></a>
+<a id="org7272ea0"></a>
 
 ### andrew shitov "Perl 6 at a Glance"
 
@@ -118,21 +118,21 @@
 2.  <https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf>
 
 
-<a id="orgf67fab0"></a>
+<a id="org3f6da31"></a>
 
 ### andrew shitov's raku course on-line:
 
 <https://course.raku.org/>
 
 
-<a id="orge1443b1"></a>
+<a id="orgd967ebe"></a>
 
 ### perl weekly challenge:
 
 1.  <https://perlweeklychallenge.org/>
 
 
-<a id="orgde14a72"></a>
+<a id="org7f19d61"></a>
 
 ### promises and threads
 
@@ -145,7 +145,7 @@
     2.  <https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md>
 
 
-<a id="orgd5deb85"></a>
+<a id="orgc32927f"></a>
 
 ### other files to go through
 

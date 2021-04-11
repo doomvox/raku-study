@@ -3,7 +3,7 @@
 *** collected from previous meeting notes
 *** delete these once they're covered
 
-** techid: database with categorization features, links to meeting notes
+** techid: create a database with categorization features, links to meeting notes
 
 ** subjects
 *** nested map idioms
