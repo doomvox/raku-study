@@ -59,3 +59,7 @@ say %islands.keys.sort.[0]  ## Africa
 # put "Islands--first (returns Name): ",  @islands[0];          #OUTPUT: Africa
 # put "Islands--first (returns Name): ",  @islands[0]>>.Str;    #OUTPUT: Africa
 
+
+
+# bruce gray hint  Array of Pairs to preserve order:
+my @islands_AoH = $islands_A.list Z=> $islands_N.list; 
