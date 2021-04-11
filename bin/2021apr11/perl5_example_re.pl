@@ -29,6 +29,7 @@ my $stringy = "Hey here we're about to be interrupted--";
 
 if( $stringy =~ m/(.*?)-/ ) {
   my $hit = $1;
+  say "string sans hyphens: ", $hit;
 }
 
 
