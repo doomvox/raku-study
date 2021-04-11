@@ -48,7 +48,6 @@ say %islands.keys.sort.[0];  ## Africa
 # put "Islands--first (returns Name): ",  @islands[0];          #OUTPUT: Africa
 # put "Islands--first (returns Name): ",  @islands[0]>>.Str;    #OUTPUT: Africa
 
-
 say "===";
 # bg: example of non-indiomatic code
 ## my $islands_A = <11506,5500,16988,2968,16>.split(","); 
