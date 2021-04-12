@@ -59,3 +59,51 @@ https://github.com/rakudo/rakudo/blob/a68d2579f2b3ac295d34d1daa63a3b59a3df9ff1/s
 https://github.com/rakudo/rakudo/blob/995d39c03b10d8834c7f597a7eb6b8653366a469/src/core.c/Rakudo/Internals.pm6
 
 http://www.softpanorama.org/SE/conceptual_integrity.shtml
+
+14:48:05	 From Bill_Michels : > x <- 1:4
+> names(x) <- LETTERS[1:4]
+> str(x)
+ Named int [1:4] 1 2 3 4
+ - attr(*, "names")= chr [1:4] "A" "B" "C" "D"
+> x
+A B C D 
+1 2 3 4 
+> print(x)
+A B C D 
+1 2 3 4 
+> cat(x)
+1 2 3 4
+14:49:24	 From Bill_Michels : > x[1]
+A 
+1 
+> x["A"]
+A 
+1 
+> sum(x)
+[1] 10
+> sin(x)
+         A          B          C          D 
+ 0.8414710  0.9092974  0.1411200 -0.7568025 
+>
+14:50:04	 From Salve J. Nilsen : Cyril Connolly quote: https://www.brainyquote.com/quotes/cyril_connolly_100796
+14:55:14	 From Bill_Michels : > 1:12
+ [1]  1  2  3  4  5  6  7  8  9 10 11 12
+> (1:12)*2
+ [1]  2  4  6  8 10 12 14 16 18 20 22 24
+>
+14:56:07	 From Bill_Michels : > (1:12)*c(1,10)
+ [1]   1  20   3  40   5  60   7  80   9 100  11 120
+>
+14:56:17	 From Joseph Brenner : Back in a minute (sorry). 
+14:58:04	 From Bill_Michels : > c(1,10)
+[1]  1 10
+>
+14:58:25	 From Bill_Michels : > c(1:4,10)
+[1]  1  2  3  4 10
+>
+14:59:31	 From Bill_Michels : > c(1:4,"A")
+[1] "1" "2" "3" "4" "A"
+
+
+https://github.com/LaurentRosenfeld/think_raku
+https://github.com/LaurentRosenfeld/think_raku/blob/master/PDF/think_raku.pdf

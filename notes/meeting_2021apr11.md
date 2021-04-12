@@ -1,50 +1,50 @@
-- [meeting notes Apr 11, 2021](#org8622f2c)
-  - [code examples](#orga25f259)
-  - [rough plan](#org0d935e5)
-    - [ask about questions, ideas, discussion topics](#orge69caf3)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org6e7b783)
-    - [stackoverflow question by william michels "dualvars"](#org8dc64df)
-    - [salve j. nilsen: conversation about idiomatic raku](#org54fe5cc)
-    - [accuracy equivalency of large numbers (mailing list)](#orgd76af9c)
-  - [future topics:](#orgac5a7c1)
-    - [mixins mixed up:](#org8bd3b67)
+- [meeting notes Apr 11, 2021](#orgea724fc)
+  - [code examples](#orgc4613be)
+  - [rough plan](#orgdaa1dbb)
+    - [ask about questions, ideas, discussion topics](#org7a096b0)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org3b92f10)
+    - [stackoverflow question by william michels "dualvars"](#orga5c55fe)
+    - [salve j. nilsen: conversation about idiomatic raku](#org902bd63)
+    - [accuracy equivalency of large numbers (mailing list)](#org73cfdf1)
+  - [future topics:](#org03e877d)
+    - [mixins mixed up:](#org4c62c38)
 
 
-<a id="org8622f2c"></a>
+<a id="orgea724fc"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="orga25f259"></a>
+<a id="orgc4613be"></a>
 
 ## code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021mar28>
 
 
-<a id="org0d935e5"></a>
+<a id="orgdaa1dbb"></a>
 
 ## rough plan
 
 
-<a id="orge69caf3"></a>
+<a id="org7a096b0"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="org6e7b783"></a>
+<a id="org3b92f10"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="org8dc64df"></a>
+<a id="orga5c55fe"></a>
 
 ### stackoverflow question by william michels "dualvars"
 
 1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p>
 
 
-<a id="org54fe5cc"></a>
+<a id="org902bd63"></a>
 
 ### salve j. nilsen: conversation about idiomatic raku
 
@@ -53,19 +53,19 @@
     programs written as literary works <http://www.quotationspage.com/quote/24934.html>
 
 
-<a id="orgd76af9c"></a>
+<a id="org73cfdf1"></a>
 
 ### accuracy equivalency of large numbers (mailing list)
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html>
 
 
-<a id="orgac5a7c1"></a>
+<a id="org03e877d"></a>
 
 ## future topics:
 
 
-<a id="org8bd3b67"></a>
+<a id="org4c62c38"></a>
 
 ### mixins mixed up:
 
@@ -94,3 +94,11 @@ apple considered adopting zfs
 <https://github.com/rakudo/rakudo/blob/a68d2579f2b3ac295d34d1daa63a3b59a3df9ff1/src/core.c/Cool.pm6> <https://github.com/rakudo/rakudo/blob/995d39c03b10d8834c7f597a7eb6b8653366a469/src/core.c/Rakudo/Internals.pm6>
 
 <http://www.softpanorama.org/SE/conceptual_integrity.shtml>
+
+14:48:05 From Bill<sub>Michels</sub> : > x <- 1:4 > names(x) <- LETTERS[1:4] > str(x) Named int [1:4] 1 2 3 4
+
+-   attr(\*, "names")= chr [1:4] "A" "B" "C" "D"
+
+> x A B C D 1 2 3 4 > print(x) A B C D 1 2 3 4 > cat(x) 1 2 3 4 14:49:24 From Bill<sub>Michels</sub> : > x[1] A 1 > x["A"] A 1 > sum(x) [1] 10 > sin(x) A B C D 0.8414710 0.9092974 0.1411200 -0.7568025 > 14:50:04 From Salve J. Nilsen : Cyril Connolly quote: <https://www.brainyquote.com/quotes/cyril_connolly_100796> 14:55:14 From Bill<sub>Michels</sub> : > 1:12 [1] 1 2 3 4 5 6 7 8 9 10 11 12 > (1:12)\*2 [1] 2 4 6 8 10 12 14 16 18 20 22 24 > 14:56:07 From Bill<sub>Michels</sub> : > (1:12)\*c(1,10) [1] 1 20 3 40 5 60 7 80 9 100 11 120 > 14:56:17 From Joseph Brenner : Back in a minute (sorry). 14:58:04 From Bill<sub>Michels</sub> : > c(1,10) [1] 1 10 > 14:58:25 From Bill<sub>Michels</sub> : > c(1:4,10) [1] 1 2 3 4 10 > 14:59:31 From Bill<sub>Michels</sub> : > c(1:4,"A") [1] "1" "2" "3" "4" "A"
+
+<https://github.com/LaurentRosenfeld/think_raku> <https://github.com/LaurentRosenfeld/think_raku/blob/master/PDF/think_raku.pdf>
