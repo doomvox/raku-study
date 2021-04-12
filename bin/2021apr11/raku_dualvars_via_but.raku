@@ -15,7 +15,7 @@ say +$n; # three
 
 my $m = $n++;
 
-# my $m = [$n++];
+# my $m = [$n++];  ## ... but what were the square brackets for?
 ## Seriously LTA:
 # $m = $m--;
 # No such method 'pred' for invocant of type 'Array'.  Did you mean any
