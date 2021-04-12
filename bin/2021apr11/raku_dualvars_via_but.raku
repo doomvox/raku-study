@@ -24,5 +24,4 @@ my $m = $n++;
 ## and that under the hood tries to call "pred": would be better if the
 ## error message used the operator "--"
 
-
 say $m; # three
