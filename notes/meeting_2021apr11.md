@@ -1,51 +1,51 @@
-- [meeting notes Apr 11, 2021](#org45425d4)
-  - [code examples](#orge079fd8)
-  - [rough plan](#org64a4d90)
-    - [ask about questions, ideas, discussion topics](#org5a60a83)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org08d05af)
-    - [stackoverflow question by william michels "dualvars"](#org7012dd3)
-    - [salve j. nilsen: conversation about idiomatic raku](#orgb169c61)
-    - [accuracy equivalency of large numbers (mailing list)](#org109e213)
-  - [future topics:](#orgf45b3a5)
-    - [mixins mixed up:](#orgf0f1c6d)
-  - [things discussed](#orgbfbe742)
+- [meeting notes Apr 11, 2021](#orgb05aaf3)
+  - [code examples](#org15fee94)
+  - [rough plan](#orga7f362b)
+    - [ask about questions, ideas, discussion topics](#orge4a7631)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#orgbade1d7)
+    - [stackoverflow question by william michels "dualvars"](#org9d99957)
+    - [salve j. nilsen: conversation about idiomatic raku](#org2fb1cb8)
+    - [accuracy equivalency of large numbers (mailing list)](#orgebb2e6c)
+  - [future topics:](#org00d0ae1)
+    - [mixins mixed up:](#orgb98be83)
+  - [things discussed](#org025dff8)
 
 
-<a id="org45425d4"></a>
+<a id="orgb05aaf3"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="orge079fd8"></a>
+<a id="org15fee94"></a>
 
 ## code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021mar28>
 
 
-<a id="org64a4d90"></a>
+<a id="orga7f362b"></a>
 
 ## rough plan
 
 
-<a id="org5a60a83"></a>
+<a id="orge4a7631"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="org08d05af"></a>
+<a id="orgbade1d7"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="org7012dd3"></a>
+<a id="org9d99957"></a>
 
 ### stackoverflow question by william michels "dualvars"
 
 1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p>
 
 
-<a id="orgb169c61"></a>
+<a id="org2fb1cb8"></a>
 
 ### salve j. nilsen: conversation about idiomatic raku
 
@@ -54,26 +54,26 @@
     programs written as literary works <http://www.quotationspage.com/quote/24934.html>
 
 
-<a id="org109e213"></a>
+<a id="orgebb2e6c"></a>
 
 ### accuracy equivalency of large numbers (mailing list)
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html>
 
 
-<a id="orgf45b3a5"></a>
+<a id="org00d0ae1"></a>
 
 ## future topics:
 
 
-<a id="orgf0f1c6d"></a>
+<a id="orgb98be83"></a>
 
 ### mixins mixed up:
 
 <https://github.com/rakudo/rakudo/issues/4282>
 
 
-<a id="orgbfbe742"></a>
+<a id="org025dff8"></a>
 
 ## things discussed
 
@@ -85,9 +85,7 @@ perl5 zfs <https://metacpan.org/pod/Filesys::ZFS>
 
 perl5 params::validate <https://metacpan.org/pod/Params::Validate> <https://metacpan.org/pod/Data::Validation>
 
-apple considered adopting zfs
-
-<https://appleinsider.com/articles/07/06/06/apple_to_adopt_zfs_as_default_file_system_for_leopard> <https://www.macworld.com/article/1058320/zfs.html> <https://arstechnica.com/gadgets/2016/06/zfs-the-other-new-apple-file-system-that-almost-was-until-it-wasnt/>
+apple considered adopting zfs <https://appleinsider.com/articles/07/06/06/apple_to_adopt_zfs_as_default_file_system_for_leopard> <https://www.macworld.com/article/1058320/zfs.html> <https://arstechnica.com/gadgets/2016/06/zfs-the-other-new-apple-file-system-that-almost-was-until-it-wasnt/>
 
 <https://docs.raku.org/syntax/Regex%20adverbs#(Regexes)><sub>regex</sub><sub>Regex</sub><sub>adverbs</sub><sub>Regex</sub><sub>adverbs</sub> <https://docs.raku.org/language/regexes#index-entry-regex_adverb_:ratchet-regex_adverb_:r-Ratchet> <https://docs.raku.org/language/regexes#Backtracking>
 
