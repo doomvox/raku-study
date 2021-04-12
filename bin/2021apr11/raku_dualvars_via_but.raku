@@ -16,7 +16,8 @@ say +$n; # three
 my $m = $n++;
 
 # my $m = [$n++];  ## ... but what did I think the square brackets were for?
-## Seriously LTA:
+
+## But this is an LTA error message
 # $m = $m--;
 # No such method 'pred' for invocant of type 'Array'.  Did you mean any
 # of these: 'grep', 'ord', 'tree'?
