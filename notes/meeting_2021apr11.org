@@ -50,3 +50,7 @@ CVE-2021-27365. Exploitable heap buffer overflow due to the use of sprintf().
 However, sprintf() is always dangerous and should never be used, because it doesn’t check if there’s enough space in the final memory block for the printed data to fit.
  ...
 Modern code shouldn’t use C functions that can perform memory copies of unlimited length – use snprintf(), which means format and print at most N bytes into string, and its friends instead.
+
+
+https://github.com/rakudo/rakudo/search?p=5&q=sprintf
+https://github.com/rakudo/rakudo/search?q=sprintf

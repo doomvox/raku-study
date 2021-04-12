@@ -1,50 +1,50 @@
-- [meeting notes Apr 11, 2021](#org2ddf3d7)
-  - [code examples](#orga6c3a2b)
-  - [rough plan](#orgc6327d7)
-    - [ask about questions, ideas, discussion topics](#org583599c)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#orgb3a6482)
-    - [stackoverflow question by william michels "dualvars"](#org2f316a9)
-    - [salve j. nilsen: conversation about idiomatic raku](#org35a311a)
-    - [accuracy equivalency of large numbers (mailing list)](#org87b7687)
-  - [future topics:](#org8db1e5c)
-    - [mixins mixed up:](#org2653eb7)
+- [meeting notes Apr 11, 2021](#org6fcd8e2)
+  - [code examples](#orgb7eca05)
+  - [rough plan](#orgf7203a2)
+    - [ask about questions, ideas, discussion topics](#orgc7932b2)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#orga98c06c)
+    - [stackoverflow question by william michels "dualvars"](#org4a8a028)
+    - [salve j. nilsen: conversation about idiomatic raku](#orgd7fd56c)
+    - [accuracy equivalency of large numbers (mailing list)](#orgddc7469)
+  - [future topics:](#org5b31d69)
+    - [mixins mixed up:](#org5b18cfd)
 
 
-<a id="org2ddf3d7"></a>
+<a id="org6fcd8e2"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="orga6c3a2b"></a>
+<a id="orgb7eca05"></a>
 
 ## code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021mar28>
 
 
-<a id="orgc6327d7"></a>
+<a id="orgf7203a2"></a>
 
 ## rough plan
 
 
-<a id="org583599c"></a>
+<a id="orgc7932b2"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="orgb3a6482"></a>
+<a id="orga98c06c"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="org2f316a9"></a>
+<a id="org4a8a028"></a>
 
 ### stackoverflow question by william michels "dualvars"
 
 1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p>
 
 
-<a id="org35a311a"></a>
+<a id="orgd7fd56c"></a>
 
 ### salve j. nilsen: conversation about idiomatic raku
 
@@ -53,19 +53,19 @@
     programs written as literary works <http://www.quotationspage.com/quote/24934.html>
 
 
-<a id="org87b7687"></a>
+<a id="orgddc7469"></a>
 
 ### accuracy equivalency of large numbers (mailing list)
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html>
 
 
-<a id="org8db1e5c"></a>
+<a id="org5b31d69"></a>
 
 ## future topics:
 
 
-<a id="org2653eb7"></a>
+<a id="org5b18cfd"></a>
 
 ### mixins mixed up:
 
@@ -88,3 +88,5 @@ apple considered adopting zfs
 {} is here: <https://docs.raku.org/language/regexes#Capture_numbers>
 
 <https://nakedsecurity.sophos.com/2021/03/17/serious-security-the-linux-kernel-bugs-that-surfaced-after-15-years/> CVE-2021-27365. Exploitable heap buffer overflow due to the use of sprintf(). However, sprintf() is always dangerous and should never be used, because it doesn’t check if there’s enough space in the final memory block for the printed data to fit. &#x2026; Modern code shouldn’t use C functions that can perform memory copies of unlimited length – use snprintf(), which means format and print at most N bytes into string, and its friends instead.
+
+<https://github.com/rakudo/rakudo/search?p=5&q=sprintf> <https://github.com/rakudo/rakudo/search?q=sprintf>
