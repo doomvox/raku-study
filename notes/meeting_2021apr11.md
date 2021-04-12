@@ -1,50 +1,50 @@
-- [meeting notes Apr 11, 2021](#orgb4b34a4)
-  - [code examples](#org202b1d7)
-  - [rough plan](#org59a5229)
-    - [ask about questions, ideas, discussion topics](#org50d83b3)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org775b1f9)
-    - [stackoverflow question by william michels "dualvars"](#orgb314951)
-    - [salve j. nilsen: conversation about idiomatic raku](#orgcfbd7ad)
-    - [accuracy equivalency of large numbers (mailing list)](#orgb572162)
-  - [future topics:](#orgca88fab)
-    - [mixins mixed up:](#org3b17fb2)
+- [meeting notes Apr 11, 2021](#org44128e7)
+  - [code examples](#orge2f2f42)
+  - [rough plan](#org09d1477)
+    - [ask about questions, ideas, discussion topics](#org5777048)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#orgf2efad8)
+    - [stackoverflow question by william michels "dualvars"](#orgb154add)
+    - [salve j. nilsen: conversation about idiomatic raku](#orgb414071)
+    - [accuracy equivalency of large numbers (mailing list)](#org65685b2)
+  - [future topics:](#org3541617)
+    - [mixins mixed up:](#org716ddc9)
 
 
-<a id="orgb4b34a4"></a>
+<a id="org44128e7"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="org202b1d7"></a>
+<a id="orge2f2f42"></a>
 
 ## code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021mar28>
 
 
-<a id="org59a5229"></a>
+<a id="org09d1477"></a>
 
 ## rough plan
 
 
-<a id="org50d83b3"></a>
+<a id="org5777048"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="org775b1f9"></a>
+<a id="orgf2efad8"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="orgb314951"></a>
+<a id="orgb154add"></a>
 
 ### stackoverflow question by william michels "dualvars"
 
 1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p>
 
 
-<a id="orgcfbd7ad"></a>
+<a id="orgb414071"></a>
 
 ### salve j. nilsen: conversation about idiomatic raku
 
@@ -53,19 +53,19 @@
     programs written as literary works <http://www.quotationspage.com/quote/24934.html>
 
 
-<a id="orgb572162"></a>
+<a id="org65685b2"></a>
 
 ### accuracy equivalency of large numbers (mailing list)
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html>
 
 
-<a id="orgca88fab"></a>
+<a id="org3541617"></a>
 
 ## future topics:
 
 
-<a id="org3b17fb2"></a>
+<a id="org716ddc9"></a>
 
 ### mixins mixed up:
 
@@ -108,3 +108,5 @@ Salve J. Nilsen : <https://perl6book.com/>
 Bill<sub>Michels</sub> : <https://www.researchgate.net/profile/Joris-Meys> Bruce Gray : <https://en.wikipedia.org/wiki/XY_problem> Salve J. Nilsen : Typeglobs: <https://perldoc.perl.org/perldata#Typeglobs-and-Filehandles> Bill<sub>Michels</sub> : <https://perldoc.perl.org/functions/prototype> Bill<sub>Michels</sub> : <https://perlmonks.org/index.pl?node_id=861966>
 
 Bill<sub>Michels</sub> : "Far More Than Everything You've Ever Wanted to Know about Prototypes in Perl" by Tom Christiansen
+
+Bruce Gray : <https://stackoverflow.com/questions/67030459/what-persistent-data-structures-does-raku-rakudo-include>

@@ -120,3 +120,4 @@ Bill_Michels : https://perlmonks.org/index.pl?node_id=861966
 Bill_Michels : "Far More Than Everything You've Ever Wanted to Know about
 Prototypes in Perl" by Tom Christiansen 
 
+Bruce Gray : https://stackoverflow.com/questions/67030459/what-persistent-data-structures-does-raku-rakudo-include
