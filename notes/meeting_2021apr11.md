@@ -1,53 +1,53 @@
-- [meeting notes Apr 11, 2021](#orgc486abe)
-  - [code examples](#org771c75c)
-  - [rough plan](#org30df0e8)
-    - [ask about questions, ideas, discussion topics](#org74e83f2)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org97ecb03)
-    - [stackoverflow question by william michels "dualvars"](#org1598c49)
-    - [salve j. nilsen: conversation about idiomatic raku](#org519faa5)
-    - [accuracy equivalency of large numbers (mailing list)](#orgafccdfb)
-  - [future topics:](#orgcb58008)
-    - [mixins mixed up:](#orgecbeddc)
-  - [things discussed](#org445142b)
-    - [regex](#org05369a2)
-    - [zfs](#orgbf27873)
+- [meeting notes Apr 11, 2021](#org88824e8)
+  - [code examples](#org228f8c8)
+  - [rough plan](#orga9fa4b0)
+    - [ask about questions, ideas, discussion topics](#orgb3470f3)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org0810cbd)
+    - [stackoverflow question by william michels "dualvars"](#org0c746df)
+    - [salve j. nilsen: conversation about idiomatic raku](#org886e856)
+    - [accuracy equivalency of large numbers (mailing list)](#org73fd68b)
+  - [future topics:](#orgcd14cc9)
+    - [mixins mixed up:](#org268ee7a)
+  - [things discussed](#org8dc641a)
+    - [regex](#orgf0b21c3)
+    - [zfs](#org21ab0ad)
 
 
-<a id="orgc486abe"></a>
+<a id="org88824e8"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="org771c75c"></a>
+<a id="org228f8c8"></a>
 
 ## code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021mar28>
 
 
-<a id="org30df0e8"></a>
+<a id="orga9fa4b0"></a>
 
 ## rough plan
 
 
-<a id="org74e83f2"></a>
+<a id="orgb3470f3"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="org97ecb03"></a>
+<a id="org0810cbd"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="org1598c49"></a>
+<a id="org0c746df"></a>
 
 ### stackoverflow question by william michels "dualvars"
 
 1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p>
 
 
-<a id="org519faa5"></a>
+<a id="org886e856"></a>
 
 ### salve j. nilsen: conversation about idiomatic raku
 
@@ -56,31 +56,31 @@
     programs written as literary works <http://www.quotationspage.com/quote/24934.html>
 
 
-<a id="orgafccdfb"></a>
+<a id="org73fd68b"></a>
 
 ### accuracy equivalency of large numbers (mailing list)
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html>
 
 
-<a id="orgcb58008"></a>
+<a id="orgcd14cc9"></a>
 
 ## future topics:
 
 
-<a id="orgecbeddc"></a>
+<a id="org268ee7a"></a>
 
 ### mixins mixed up:
 
 <https://github.com/rakudo/rakudo/issues/4282>
 
 
-<a id="org445142b"></a>
+<a id="org8dc641a"></a>
 
 ## things discussed
 
 
-<a id="org05369a2"></a>
+<a id="orgf0b21c3"></a>
 
 ### regex
 
@@ -93,15 +93,17 @@
     1.  {} to "publish"
     
         <https://docs.raku.org/language/regexes#Capture_numbers>
-        
-        brian d foy talk, preparing for perl 7 <https://www.youtube.com/channel/UCqMg7ia28fvx6iN08QR_-ig>
-        
-        <https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)>
-        
-        perl5 params::validate <https://metacpan.org/pod/Params::Validate> <https://metacpan.org/pod/Data::Validation>
+
+3.  oslo perl brian d foy talk, preparing for perl 7
+
+    <https://www.youtube.com/channel/UCqMg7ia28fvx6iN08QR_-ig>
+    
+    <https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)>
+    
+    perl5 params::validate <https://metacpan.org/pod/Params::Validate> <https://metacpan.org/pod/Data::Validation>
 
 
-<a id="orgbf27873"></a>
+<a id="org21ab0ad"></a>
 
 ### zfs
 
