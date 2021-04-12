@@ -107,3 +107,16 @@ A
 
 https://github.com/LaurentRosenfeld/think_raku
 https://github.com/LaurentRosenfeld/think_raku/blob/master/PDF/think_raku.pdf
+
+Salve J. Nilsen : https://perl6book.com/
+
+
+Bill_Michels : https://www.researchgate.net/profile/Joris-Meys
+Bruce Gray : https://en.wikipedia.org/wiki/XY_problem
+Salve J. Nilsen : Typeglobs: https://perldoc.perl.org/perldata#Typeglobs-and-Filehandles
+Bill_Michels : https://perldoc.perl.org/functions/prototype
+Bill_Michels : https://perlmonks.org/index.pl?node_id=861966
+
+Bill_Michels : "Far More Than Everything You've Ever Wanted to Know about
+Prototypes in Perl" by Tom Christiansen 
+
