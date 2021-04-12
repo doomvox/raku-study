@@ -1,55 +1,56 @@
-- [meeting notes Apr 11, 2021](#org199f28f)
-  - [code examples](#org429bb77)
-  - [rough plan](#org867cffb)
-    - [ask about questions, ideas, discussion topics](#org11ab633)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org200fb71)
-    - [stackoverflow question by william michels "dualvars"](#org9ed7e32)
-    - [salve j. nilsen: conversation about idiomatic raku](#org07d5b98)
-    - [accuracy equivalency of large numbers (mailing list)](#org5703fc2)
-  - [future topics:](#org17ca405)
-    - [mixins mixed up:](#org74f8311)
-  - [things discussed](#org7f25e30)
-    - [regex](#orgcb17287)
-    - [zfs](#orgbb429d3)
-    - [parameter validation in perl5](#orgf8b7c83)
-    - [sprintf: classic c buffer overflow bug](#orgd9e929b)
+- [meeting notes Apr 11, 2021](#org14f7b18)
+  - [code examples](#org9769a2b)
+  - [rough plan](#orgbfbd1bb)
+    - [ask about questions, ideas, discussion topics](#org3219b13)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org78812e6)
+    - [stackoverflow question by william michels "dualvars"](#org6eecf75)
+    - [salve j. nilsen: conversation about idiomatic raku](#org2f47256)
+    - [accuracy equivalency of large numbers (mailing list)](#org51594e4)
+  - [future topics:](#org8cbc80a)
+    - [mixins mixed up:](#orgb26c777)
+  - [things discussed](#org2370bb5)
+    - [regex](#orgad35949)
+    - [zfs](#orgb872922)
+    - [parameter validation in perl5](#org93e3d12)
+    - [sprintf: classic c buffer overflow bug](#orgdd9cb50)
+    - [sprintf in raku has little to do with the C version.](#org4541eaa)
 
 
-<a id="org199f28f"></a>
+<a id="org14f7b18"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="org429bb77"></a>
+<a id="org9769a2b"></a>
 
 ## code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021mar28>
 
 
-<a id="org867cffb"></a>
+<a id="orgbfbd1bb"></a>
 
 ## rough plan
 
 
-<a id="org11ab633"></a>
+<a id="org3219b13"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="org200fb71"></a>
+<a id="org78812e6"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="org9ed7e32"></a>
+<a id="org6eecf75"></a>
 
 ### stackoverflow question by william michels "dualvars"
 
 1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p>
 
 
-<a id="org07d5b98"></a>
+<a id="org2f47256"></a>
 
 ### salve j. nilsen: conversation about idiomatic raku
 
@@ -58,31 +59,31 @@
     programs written as literary works <http://www.quotationspage.com/quote/24934.html>
 
 
-<a id="org5703fc2"></a>
+<a id="org51594e4"></a>
 
 ### accuracy equivalency of large numbers (mailing list)
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html>
 
 
-<a id="org17ca405"></a>
+<a id="org8cbc80a"></a>
 
 ## future topics:
 
 
-<a id="org74f8311"></a>
+<a id="orgb26c777"></a>
 
 ### mixins mixed up:
 
 <https://github.com/rakudo/rakudo/issues/4282>
 
 
-<a id="org7f25e30"></a>
+<a id="org2370bb5"></a>
 
 ## things discussed
 
 
-<a id="orgcb17287"></a>
+<a id="orgad35949"></a>
 
 ### regex
 
@@ -105,7 +106,7 @@
     <https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)>
 
 
-<a id="orgbb429d3"></a>
+<a id="orgb872922"></a>
 
 ### zfs
 
@@ -118,14 +119,14 @@
     <https://metacpan.org/pod/Filesys::ZFS>
 
 
-<a id="orgf8b7c83"></a>
+<a id="org93e3d12"></a>
 
 ### parameter validation in perl5
 
 <https://metacpan.org/pod/Params::Validate> <https://metacpan.org/pod/Data::Validation>
 
 
-<a id="orgd9e929b"></a>
+<a id="orgdd9cb50"></a>
 
 ### sprintf: classic c buffer overflow bug
 
@@ -134,6 +135,11 @@
 CVE-2021-27365. Exploitable heap buffer overflow due to the use of sprintf().
 
 However, sprintf() is always dangerous and should never be used, because it doesn’t check if there’s enough space in the final memory block for the printed data to fit. &#x2026; Modern code shouldn’t use C functions that can perform memory copies of unlimited length – use snprintf(), which means format and print at most N bytes into string, and its friends instead.
+
+
+<a id="org4541eaa"></a>
+
+### sprintf in raku has little to do with the C version.
 
 <https://github.com/rakudo/rakudo/search?p=5&q=sprintf> <https://github.com/rakudo/rakudo/search?q=sprintf>
 
