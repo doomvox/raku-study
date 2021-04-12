@@ -1,54 +1,55 @@
-- [meeting notes Apr 11, 2021](#orgf8c37af)
-  - [code examples](#org2f6834a)
-  - [rough plan](#orgcc1ec53)
-    - [ask about questions, ideas, discussion topics](#orgb0cd91c)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org9fa8303)
-    - [stackoverflow question by william michels "dualvars"](#org4fdd947)
-    - [salve j. nilsen: conversation about idiomatic raku](#orgf509dbb)
-    - [accuracy equivalency of large numbers (mailing list)](#orgaeae661)
-  - [future topics:](#org8223be3)
-    - [mixins mixed up:](#org189a1a4)
-  - [things discussed](#orgd3acae0)
-    - [regex](#orgd247d0a)
-    - [zfs](#org011e021)
-    - [parameter validation in perl5](#org2a81109)
+- [meeting notes Apr 11, 2021](#org199f28f)
+  - [code examples](#org429bb77)
+  - [rough plan](#org867cffb)
+    - [ask about questions, ideas, discussion topics](#org11ab633)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org200fb71)
+    - [stackoverflow question by william michels "dualvars"](#org9ed7e32)
+    - [salve j. nilsen: conversation about idiomatic raku](#org07d5b98)
+    - [accuracy equivalency of large numbers (mailing list)](#org5703fc2)
+  - [future topics:](#org17ca405)
+    - [mixins mixed up:](#org74f8311)
+  - [things discussed](#org7f25e30)
+    - [regex](#orgcb17287)
+    - [zfs](#orgbb429d3)
+    - [parameter validation in perl5](#orgf8b7c83)
+    - [sprintf: classic c buffer overflow bug](#orgd9e929b)
 
 
-<a id="orgf8c37af"></a>
+<a id="org199f28f"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="org2f6834a"></a>
+<a id="org429bb77"></a>
 
 ## code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021mar28>
 
 
-<a id="orgcc1ec53"></a>
+<a id="org867cffb"></a>
 
 ## rough plan
 
 
-<a id="orgb0cd91c"></a>
+<a id="org11ab633"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="org9fa8303"></a>
+<a id="org200fb71"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="org4fdd947"></a>
+<a id="org9ed7e32"></a>
 
 ### stackoverflow question by william michels "dualvars"
 
 1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p>
 
 
-<a id="orgf509dbb"></a>
+<a id="org07d5b98"></a>
 
 ### salve j. nilsen: conversation about idiomatic raku
 
@@ -57,31 +58,31 @@
     programs written as literary works <http://www.quotationspage.com/quote/24934.html>
 
 
-<a id="orgaeae661"></a>
+<a id="org5703fc2"></a>
 
 ### accuracy equivalency of large numbers (mailing list)
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html>
 
 
-<a id="org8223be3"></a>
+<a id="org17ca405"></a>
 
 ## future topics:
 
 
-<a id="org189a1a4"></a>
+<a id="org74f8311"></a>
 
 ### mixins mixed up:
 
 <https://github.com/rakudo/rakudo/issues/4282>
 
 
-<a id="orgd3acae0"></a>
+<a id="org7f25e30"></a>
 
 ## things discussed
 
 
-<a id="orgd247d0a"></a>
+<a id="orgcb17287"></a>
 
 ### regex
 
@@ -104,7 +105,7 @@
     <https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)>
 
 
-<a id="org011e021"></a>
+<a id="orgbb429d3"></a>
 
 ### zfs
 
@@ -117,13 +118,22 @@
     <https://metacpan.org/pod/Filesys::ZFS>
 
 
-<a id="org2a81109"></a>
+<a id="orgf8b7c83"></a>
 
 ### parameter validation in perl5
 
 <https://metacpan.org/pod/Params::Validate> <https://metacpan.org/pod/Data::Validation>
 
-<https://nakedsecurity.sophos.com/2021/03/17/serious-security-the-linux-kernel-bugs-that-surfaced-after-15-years/> CVE-2021-27365. Exploitable heap buffer overflow due to the use of sprintf(). However, sprintf() is always dangerous and should never be used, because it doesn’t check if there’s enough space in the final memory block for the printed data to fit. &#x2026; Modern code shouldn’t use C functions that can perform memory copies of unlimited length – use snprintf(), which means format and print at most N bytes into string, and its friends instead.
+
+<a id="orgd9e929b"></a>
+
+### sprintf: classic c buffer overflow bug
+
+<https://nakedsecurity.sophos.com/2021/03/17/serious-security-the-linux-kernel-bugs-that-surfaced-after-15-years/>
+
+CVE-2021-27365. Exploitable heap buffer overflow due to the use of sprintf().
+
+However, sprintf() is always dangerous and should never be used, because it doesn’t check if there’s enough space in the final memory block for the printed data to fit. &#x2026; Modern code shouldn’t use C functions that can perform memory copies of unlimited length – use snprintf(), which means format and print at most N bytes into string, and its friends instead.
 
 <https://github.com/rakudo/rakudo/search?p=5&q=sprintf> <https://github.com/rakudo/rakudo/search?q=sprintf>
 

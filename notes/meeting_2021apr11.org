@@ -51,11 +51,18 @@ https://metacpan.org/pod/Filesys::ZFS
 https://metacpan.org/pod/Params::Validate
 https://metacpan.org/pod/Data::Validation
 
+*** sprintf: classic c buffer overflow bug
+
 https://nakedsecurity.sophos.com/2021/03/17/serious-security-the-linux-kernel-bugs-that-surfaced-after-15-years/
+
 CVE-2021-27365. Exploitable heap buffer overflow due to the use of sprintf().
-However, sprintf() is always dangerous and should never be used, because it doesn’t check if there’s enough space in the final memory block for the printed data to fit.
- ...
-Modern code shouldn’t use C functions that can perform memory copies of unlimited length – use snprintf(), which means format and print at most N bytes into string, and its friends instead.
+
+However, sprintf() is always dangerous and should never be used,
+ because it doesn’t check if there’s enough space in the final
+ memory block for the printed data to fit.  ...  Modern code
+ shouldn’t use C functions that can perform memory copies of
+ unlimited length – use snprintf(), which means format and print
+ at most N bytes into string, and its friends instead.
 
 
 https://github.com/rakudo/rakudo/search?p=5&q=sprintf
