@@ -20,30 +20,38 @@ https://github.com/rakudo/rakudo/issues/4282
 
 ** things discussed
 
+*** regex 
+**** scoped control of backtracking (rachet)
+https://docs.raku.org/syntax/Regex%20adverbs#(Regexes)_regex_Regex_adverbs_Regex_adverbs
+https://docs.raku.org/language/regexes#index-entry-regex_adverb_:ratchet-regex_adverb_:r-Ratchet
+https://docs.raku.org/language/regexes#Backtracking
+
+**** backreferences to numeric capture variables
+***** {} to "publish"
+https://docs.raku.org/language/regexes#Capture_numbers
+
+
 brian d foy talk, preparing for perl 7
 https://www.youtube.com/channel/UCqMg7ia28fvx6iN08QR_-ig
 
 https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)
 
-perl5 zfs
-https://metacpan.org/pod/Filesys::ZFS
 
 perl5 params::validate
 https://metacpan.org/pod/Params::Validate
 https://metacpan.org/pod/Data::Validation
 
-apple considered adopting zfs
+*** zfs
+**** apple considered adopting zfs
 https://appleinsider.com/articles/07/06/06/apple_to_adopt_zfs_as_default_file_system_for_leopard
 https://www.macworld.com/article/1058320/zfs.html
 https://arstechnica.com/gadgets/2016/06/zfs-the-other-new-apple-file-system-that-almost-was-until-it-wasnt/
 
+**** perl5 cpan package
+https://metacpan.org/pod/Filesys::ZFS
 
-https://docs.raku.org/syntax/Regex%20adverbs#(Regexes)_regex_Regex_adverbs_Regex_adverbs
-https://docs.raku.org/language/regexes#index-entry-regex_adverb_:ratchet-regex_adverb_:r-Ratchet
-https://docs.raku.org/language/regexes#Backtracking
 
-{} is here:
-https://docs.raku.org/language/regexes#Capture_numbers
+
 
 https://nakedsecurity.sophos.com/2021/03/17/serious-security-the-linux-kernel-bugs-that-surfaced-after-15-years/
 CVE-2021-27365. Exploitable heap buffer overflow due to the use of sprintf().
