@@ -21,3 +21,10 @@ brian d foy talk, preparing for perl 7
 https://www.youtube.com/channel/UCqMg7ia28fvx6iN08QR_-ig
 
 https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)
+
+perl5 zfs
+https://metacpan.org/pod/Filesys::ZFS
+
+perl5 params::validate
+https://metacpan.org/pod/Params::Validate
+https://metacpan.org/pod/Data::Validation
