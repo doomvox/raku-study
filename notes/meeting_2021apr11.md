@@ -1,53 +1,53 @@
-- [meeting notes Apr 11, 2021](#org5213d13)
-  - [code examples](#org6170fdb)
-  - [rough plan](#orgf178bac)
-    - [ask about questions, ideas, discussion topics](#org8cf8179)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#orgbd00f71)
-    - [stackoverflow question by william michels "dualvars"](#org81dc5fd)
-    - [salve j. nilsen: conversation about idiomatic raku](#orgb0e36bc)
-    - [accuracy equivalency of large numbers (mailing list)](#orgd1ad3b4)
-  - [future topics:](#orgdfbc661)
-    - [mixins mixed up:](#org32e6a22)
-  - [things discussed](#orgc4a5103)
-    - [regex](#org575dfe8)
-    - [zfs](#org9048d10)
+- [meeting notes Apr 11, 2021](#org77b4bb8)
+  - [code examples](#orge753490)
+  - [rough plan](#org5e64816)
+    - [ask about questions, ideas, discussion topics](#org270ea8f)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org06c7756)
+    - [stackoverflow question by william michels "dualvars"](#orga2d4e6e)
+    - [salve j. nilsen: conversation about idiomatic raku](#orgee44969)
+    - [accuracy equivalency of large numbers (mailing list)](#org059687a)
+  - [future topics:](#org6710f42)
+    - [mixins mixed up:](#orgdc567c3)
+  - [things discussed](#org8b4c57f)
+    - [regex](#orga15b0d2)
+    - [zfs](#org892a467)
 
 
-<a id="org5213d13"></a>
+<a id="org77b4bb8"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="org6170fdb"></a>
+<a id="orge753490"></a>
 
 ## code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021mar28>
 
 
-<a id="orgf178bac"></a>
+<a id="org5e64816"></a>
 
 ## rough plan
 
 
-<a id="org8cf8179"></a>
+<a id="org270ea8f"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="orgbd00f71"></a>
+<a id="org06c7756"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="org81dc5fd"></a>
+<a id="orga2d4e6e"></a>
 
 ### stackoverflow question by william michels "dualvars"
 
 1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p>
 
 
-<a id="orgb0e36bc"></a>
+<a id="orgee44969"></a>
 
 ### salve j. nilsen: conversation about idiomatic raku
 
@@ -56,31 +56,31 @@
     programs written as literary works <http://www.quotationspage.com/quote/24934.html>
 
 
-<a id="orgd1ad3b4"></a>
+<a id="org059687a"></a>
 
 ### accuracy equivalency of large numbers (mailing list)
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html>
 
 
-<a id="orgdfbc661"></a>
+<a id="org6710f42"></a>
 
 ## future topics:
 
 
-<a id="org32e6a22"></a>
+<a id="orgdc567c3"></a>
 
 ### mixins mixed up:
 
 <https://github.com/rakudo/rakudo/issues/4282>
 
 
-<a id="orgc4a5103"></a>
+<a id="org8b4c57f"></a>
 
 ## things discussed
 
 
-<a id="org575dfe8"></a>
+<a id="orga15b0d2"></a>
 
 ### regex
 
@@ -105,7 +105,7 @@
     perl5 params::validate <https://metacpan.org/pod/Params::Validate> <https://metacpan.org/pod/Data::Validation>
 
 
-<a id="org9048d10"></a>
+<a id="org892a467"></a>
 
 ### zfs
 
