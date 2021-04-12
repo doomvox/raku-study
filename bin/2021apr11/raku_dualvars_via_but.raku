@@ -20,5 +20,9 @@ my $m = $n++;
 # $m = $m--;
 # No such method 'pred' for invocant of type 'Array'.  Did you mean any
 # of these: 'grep', 'ord', 'tree'?
+## So I was treating an array like a numeric scalar with the "--" operator,
+## and that under the hood tries to call "pred": would be better if the
+## error message used the operator "--"
+
 
 say $m; # three
