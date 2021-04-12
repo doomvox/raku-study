@@ -36,3 +36,11 @@ apple considered adopting zfs
 https://appleinsider.com/articles/07/06/06/apple_to_adopt_zfs_as_default_file_system_for_leopard
 https://www.macworld.com/article/1058320/zfs.html
 https://arstechnica.com/gadgets/2016/06/zfs-the-other-new-apple-file-system-that-almost-was-until-it-wasnt/
+
+
+https://docs.raku.org/syntax/Regex%20adverbs#(Regexes)_regex_Regex_adverbs_Regex_adverbs
+https://docs.raku.org/language/regexes#index-entry-regex_adverb_:ratchet-regex_adverb_:r-Ratchet
+https://docs.raku.org/language/regexes#Backtracking
+
+{} is here:
+https://docs.raku.org/language/regexes#Capture_numbers
