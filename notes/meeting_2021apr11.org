@@ -122,11 +122,14 @@ A
 [1] "1" "2" "3" "4" "A"
 
 
+*** raku books
+
 https://github.com/LaurentRosenfeld/think_raku
 https://github.com/LaurentRosenfeld/think_raku/blob/master/PDF/think_raku.pdf
 
 Salve J. Nilsen : https://perl6book.com/
 
+*** misc other topics
 
 Bill_Michels : https://www.researchgate.net/profile/Joris-Meys
 Bruce Gray : https://en.wikipedia.org/wiki/XY_problem
