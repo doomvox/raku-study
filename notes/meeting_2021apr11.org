@@ -74,6 +74,9 @@ https://github.com/rakudo/rakudo/blob/995d39c03b10d8834c7f597a7eb6b8653366a469/s
 
 http://www.softpanorama.org/SE/conceptual_integrity.shtml
 
+
+*** named vectors in R lang
+
 14:48:05	 From Bill_Michels : > x <- 1:4
 > names(x) <- LETTERS[1:4]
 > str(x)

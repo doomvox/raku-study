@@ -1,56 +1,57 @@
-- [meeting notes Apr 11, 2021](#org14f7b18)
-  - [code examples](#org9769a2b)
-  - [rough plan](#orgbfbd1bb)
-    - [ask about questions, ideas, discussion topics](#org3219b13)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org78812e6)
-    - [stackoverflow question by william michels "dualvars"](#org6eecf75)
-    - [salve j. nilsen: conversation about idiomatic raku](#org2f47256)
-    - [accuracy equivalency of large numbers (mailing list)](#org51594e4)
-  - [future topics:](#org8cbc80a)
-    - [mixins mixed up:](#orgb26c777)
-  - [things discussed](#org2370bb5)
-    - [regex](#orgad35949)
-    - [zfs](#orgb872922)
-    - [parameter validation in perl5](#org93e3d12)
-    - [sprintf: classic c buffer overflow bug](#orgdd9cb50)
-    - [sprintf in raku has little to do with the C version.](#org4541eaa)
+- [meeting notes Apr 11, 2021](#org80a4fed)
+  - [code examples](#orgc887276)
+  - [rough plan](#org20dbc3c)
+    - [ask about questions, ideas, discussion topics](#org9ebcb30)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#org44ed8b1)
+    - [stackoverflow question by william michels "dualvars"](#orge4588f3)
+    - [salve j. nilsen: conversation about idiomatic raku](#orgc3ed108)
+    - [accuracy equivalency of large numbers (mailing list)](#orgad1b5fa)
+  - [future topics:](#org7e52303)
+    - [mixins mixed up:](#orge50b543)
+  - [things discussed](#orge53867a)
+    - [regex](#orge6adb81)
+    - [zfs](#orgf446ee4)
+    - [parameter validation in perl5](#org8b53271)
+    - [sprintf: classic c buffer overflow bug](#org2cca534)
+    - [sprintf in raku has little to do with the C version.](#org375ed7e)
+    - [named vectors in R lang](#org06ec0da)
 
 
-<a id="org14f7b18"></a>
+<a id="org80a4fed"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="org9769a2b"></a>
+<a id="orgc887276"></a>
 
 ## code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021mar28>
 
 
-<a id="orgbfbd1bb"></a>
+<a id="org20dbc3c"></a>
 
 ## rough plan
 
 
-<a id="org3219b13"></a>
+<a id="org9ebcb30"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="org78812e6"></a>
+<a id="org44ed8b1"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="org6eecf75"></a>
+<a id="orge4588f3"></a>
 
 ### stackoverflow question by william michels "dualvars"
 
 1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p>
 
 
-<a id="org2f47256"></a>
+<a id="orgc3ed108"></a>
 
 ### salve j. nilsen: conversation about idiomatic raku
 
@@ -59,31 +60,31 @@
     programs written as literary works <http://www.quotationspage.com/quote/24934.html>
 
 
-<a id="org51594e4"></a>
+<a id="orgad1b5fa"></a>
 
 ### accuracy equivalency of large numbers (mailing list)
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html>
 
 
-<a id="org8cbc80a"></a>
+<a id="org7e52303"></a>
 
 ## future topics:
 
 
-<a id="orgb26c777"></a>
+<a id="orge50b543"></a>
 
 ### mixins mixed up:
 
 <https://github.com/rakudo/rakudo/issues/4282>
 
 
-<a id="org2370bb5"></a>
+<a id="orge53867a"></a>
 
 ## things discussed
 
 
-<a id="orgad35949"></a>
+<a id="orge6adb81"></a>
 
 ### regex
 
@@ -106,7 +107,7 @@
     <https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)>
 
 
-<a id="orgb872922"></a>
+<a id="orgf446ee4"></a>
 
 ### zfs
 
@@ -119,14 +120,14 @@
     <https://metacpan.org/pod/Filesys::ZFS>
 
 
-<a id="org93e3d12"></a>
+<a id="org8b53271"></a>
 
 ### parameter validation in perl5
 
 <https://metacpan.org/pod/Params::Validate> <https://metacpan.org/pod/Data::Validation>
 
 
-<a id="orgdd9cb50"></a>
+<a id="org2cca534"></a>
 
 ### sprintf: classic c buffer overflow bug
 
@@ -137,7 +138,7 @@ CVE-2021-27365. Exploitable heap buffer overflow due to the use of sprintf().
 However, sprintf() is always dangerous and should never be used, because it doesn’t check if there’s enough space in the final memory block for the printed data to fit. &#x2026; Modern code shouldn’t use C functions that can perform memory copies of unlimited length – use snprintf(), which means format and print at most N bytes into string, and its friends instead.
 
 
-<a id="org4541eaa"></a>
+<a id="org375ed7e"></a>
 
 ### sprintf in raku has little to do with the C version.
 
@@ -146,6 +147,11 @@ However, sprintf() is always dangerous and should never be used, because it does
 <https://github.com/rakudo/rakudo/blob/a68d2579f2b3ac295d34d1daa63a3b59a3df9ff1/src/core.c/Cool.pm6> <https://github.com/rakudo/rakudo/blob/995d39c03b10d8834c7f597a7eb6b8653366a469/src/core.c/Rakudo/Internals.pm6>
 
 <http://www.softpanorama.org/SE/conceptual_integrity.shtml>
+
+
+<a id="org06ec0da"></a>
+
+### named vectors in R lang
 
 14:48:05 From Bill<sub>Michels</sub> : > x <- 1:4 > names(x) <- LETTERS[1:4] > str(x) Named int [1:4] 1 2 3 4
 
