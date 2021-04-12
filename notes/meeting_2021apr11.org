@@ -1,4 +1,6 @@
 * meeting notes Apr 11, 2021
+** code examples
+https://github.com/doomvox/raku-study/tree/main/bin/2021mar28
 ** rough plan
 *** ask about questions, ideas, discussion topics
 *** recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"

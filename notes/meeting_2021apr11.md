@@ -1,42 +1,50 @@
-- [meeting notes Apr 11, 2021](#orgb9efa0b)
-  - [rough plan](#orgb4ce97f)
-    - [ask about questions, ideas, discussion topics](#orgdc046a3)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#orga6c91e7)
-    - [stackoverflow question by william michels "dualvars"](#org48485f8)
-    - [salve j. nilsen: conversation about idiomatic raku](#orgc871b6a)
-    - [accuracy equivalency of large numbers (mailing list)](#org47801a3)
-  - [future topics:](#org67082eb)
-    - [mixins mixed up:](#org9b58db1)
+- [meeting notes Apr 11, 2021](#orgd9f40e0)
+  - [code examples](#orga513486)
+  - [rough plan](#org3559b0c)
+    - [ask about questions, ideas, discussion topics](#orgc77c32d)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#orgc2b2a23)
+    - [stackoverflow question by william michels "dualvars"](#orgf4b5ef7)
+    - [salve j. nilsen: conversation about idiomatic raku](#orgdd75cfd)
+    - [accuracy equivalency of large numbers (mailing list)](#org05624b6)
+  - [future topics:](#org69ad453)
+    - [mixins mixed up:](#org5cad449)
 
 
-<a id="orgb9efa0b"></a>
+<a id="orgd9f40e0"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="orgb4ce97f"></a>
+<a id="orga513486"></a>
+
+## code examples
+
+<https://github.com/doomvox/raku-study/tree/main/bin/2021mar28>
+
+
+<a id="org3559b0c"></a>
 
 ## rough plan
 
 
-<a id="orgdc046a3"></a>
+<a id="orgc77c32d"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="orga6c91e7"></a>
+<a id="orgc2b2a23"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="org48485f8"></a>
+<a id="orgf4b5ef7"></a>
 
 ### stackoverflow question by william michels "dualvars"
 
 1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p>
 
 
-<a id="orgc871b6a"></a>
+<a id="orgdd75cfd"></a>
 
 ### salve j. nilsen: conversation about idiomatic raku
 
@@ -45,19 +53,19 @@
     programs written as literary works <http://www.quotationspage.com/quote/24934.html>
 
 
-<a id="org47801a3"></a>
+<a id="org05624b6"></a>
 
 ### accuracy equivalency of large numbers (mailing list)
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html>
 
 
-<a id="org67082eb"></a>
+<a id="org69ad453"></a>
 
 ## future topics:
 
 
-<a id="org9b58db1"></a>
+<a id="org5cad449"></a>
 
 ### mixins mixed up:
 
