@@ -54,3 +54,8 @@ Modern code shouldn’t use C functions that can perform memory copies of unlimi
 
 https://github.com/rakudo/rakudo/search?p=5&q=sprintf
 https://github.com/rakudo/rakudo/search?q=sprintf
+
+https://github.com/rakudo/rakudo/blob/a68d2579f2b3ac295d34d1daa63a3b59a3df9ff1/src/core.c/Cool.pm6
+https://github.com/rakudo/rakudo/blob/995d39c03b10d8834c7f597a7eb6b8653366a469/src/core.c/Rakudo/Internals.pm6
+
+http://www.softpanorama.org/SE/conceptual_integrity.shtml
