@@ -33,6 +33,9 @@ https://docs.raku.org/language/regexes#Capture_numbers
 **** oslo perl brian d foy talk, preparing for perl 7
 https://www.youtube.com/channel/UCqMg7ia28fvx6iN08QR_-ig
 
+
+**** beam the erlang vm
+
 https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)
 
 
