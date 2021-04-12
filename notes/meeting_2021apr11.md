@@ -1,42 +1,42 @@
-- [meeting notes Apr 11, 2021](#orga18a244)
-  - [rough plan](#org4bcc338)
-    - [ask about questions, ideas, discussion topics](#orgd7abde9)
-    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#orge341ca5)
-    - [stackoverflow question by william michels "dualvars"](#orgcbdd4f3)
-    - [salve j. nilsen: conversation about idiomatic raku](#org0e7273a)
-    - [accuracy equivalency of large numbers (mailing list)](#orgdb8f612)
-  - [future topics:](#org2257087)
-    - [mixins mixed up:](#org7f09469)
+- [meeting notes Apr 11, 2021](#orgaf8eacf)
+  - [rough plan](#orgd7c1600)
+    - [ask about questions, ideas, discussion topics](#org59af6a5)
+    - [recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"](#orge7bc595)
+    - [stackoverflow question by william michels "dualvars"](#orgff9868f)
+    - [salve j. nilsen: conversation about idiomatic raku](#org3e7b951)
+    - [accuracy equivalency of large numbers (mailing list)](#org489d02f)
+  - [future topics:](#orgf1d5dcb)
+    - [mixins mixed up:](#org2bb1b89)
 
 
-<a id="orga18a244"></a>
+<a id="orgaf8eacf"></a>
 
 # meeting notes Apr 11, 2021
 
 
-<a id="org4bcc338"></a>
+<a id="orgd7c1600"></a>
 
 ## rough plan
 
 
-<a id="orgd7abde9"></a>
+<a id="org59af6a5"></a>
 
 ### ask about questions, ideas, discussion topics
 
 
-<a id="orge341ca5"></a>
+<a id="orge7bc595"></a>
 
 ### recap of grammar to parse doomfiles: yary hluchan's approach, "decision points"
 
 
-<a id="orgcbdd4f3"></a>
+<a id="orgff9868f"></a>
 
 ### stackoverflow question by william michels "dualvars"
 
 1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p>
 
 
-<a id="org0e7273a"></a>
+<a id="org3e7b951"></a>
 
 ### salve j. nilsen: conversation about idiomatic raku
 
@@ -45,20 +45,24 @@
     programs written as literary works <http://www.quotationspage.com/quote/24934.html>
 
 
-<a id="orgdb8f612"></a>
+<a id="org489d02f"></a>
 
 ### accuracy equivalency of large numbers (mailing list)
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9860.html>
 
 
-<a id="org2257087"></a>
+<a id="orgf1d5dcb"></a>
 
 ## future topics:
 
 
-<a id="org7f09469"></a>
+<a id="org2bb1b89"></a>
 
 ### mixins mixed up:
 
 <https://github.com/rakudo/rakudo/issues/4282>
+
+brian d foy talk, preparing for perl 7 <https://www.youtube.com/channel/UCqMg7ia28fvx6iN08QR_-ig>
+
+<https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)>
