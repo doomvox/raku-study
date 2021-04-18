@@ -41,7 +41,7 @@ use v6;
     my Int @comfortably = 1, 2, 3, 4, 5;
     h( @comfortably );
 
-    push @comfortably, 'numb';
+    # push @comfortably, 'numb';
     ## Type check failed in assignment to @comfortably; expected Int but got Str ("numb")
 
     ## hash where values have to be Int
