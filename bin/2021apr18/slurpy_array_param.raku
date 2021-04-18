@@ -6,12 +6,19 @@ use v6;
 
 # https://docs.raku.org/type/Signature
 
+## colon pair
+## :$a  
+## a => $a
+
 ## Q: whats up with :( ... )
 # $ = :($a, @b);  # exactly two arguments, where the second one must be Positional 
 # $ = :($a, *@b); # at least one argument, @b slurps up any beyond that 
 # $ = :(*%h);     # no positional arguments, but any number of named arguments 
  
-sub one-arg (@)  { }
+sub one-arg (@)  {
+    
+}
+
 sub slurpy  (*@) { }
 one-arg (5, 6, 7); # ok, same as one-arg((5, 6, 7)) 
 slurpy  (5, 6, 7); # ok 
