@@ -63,7 +63,7 @@ use v6;
     say "---";
 #    sub g(*@a where {$_.all ~~ Int}) { say 'here! ', @a };
 
-#    sub g(*@a where *.all ~~ Int) { say 'and there! ', @a };
+    sub g(*@a where *.all ~~ Int) { say 'and there! ', @a };
 # barfola:
 #  Constraint type check failed in binding to parameter '@a'; expected anonymous constraint to be met but got Array ([1, 2, 3])
 
