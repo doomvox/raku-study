@@ -68,3 +68,8 @@ slurp-nameds(foo => 42, bar => 666); # Received: bar, foo
     # The pair operator is being demoted to a fat comma?
 
 }
+
+## Bruce Gray:
+
+## https://docs.raku.org/language/traps#Named_parameters 
+## sub genius ( Pair $p1, Pair $p2, Pair $p3 ) { … } 
