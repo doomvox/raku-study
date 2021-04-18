@@ -19,7 +19,8 @@ sub one-arg (@)  {
     
 }
 
-sub slurpy  (*@) { }
+sub slurpy  (*@) {
+}
 one-arg (5, 6, 7); # ok, same as one-arg((5, 6, 7)) 
 slurpy  (5, 6, 7); # ok 
 slurpy   5, 6, 7 ; # ok 
