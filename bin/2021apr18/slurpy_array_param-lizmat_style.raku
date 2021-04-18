@@ -52,7 +52,6 @@ slurp-an-array-less-harder( | @foo, | @numbers );
 # just one: 
 # b
 
-
 my @flat = ( | @foo, | @numbers );
 
 # my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
