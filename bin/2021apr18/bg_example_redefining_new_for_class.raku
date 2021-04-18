@@ -25,9 +25,14 @@ say "----";
 {
     class Dog {
         has ($color, $feet, $tail);
-        multi method new (::?CLASS:U: $a, $b, $c) {   ## ::?CLASS:U: is "insurance", only defining this to work if invocant is undef
+        multi method new (::?CLASS:U: $a, $b, $c) {   ## ::?CLASS:U: is "insurance"
             self.new: :color($a), :feet($b), $tail($c);
         }
     }
     my Dog $spot .= new( "black", 4, 1 ); 
 }
+
+
+## ::?CLASS:U: is "insurance":
+## only defining this to work if invocant is undef
+## class method, only 
