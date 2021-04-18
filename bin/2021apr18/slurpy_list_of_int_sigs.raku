@@ -40,10 +40,6 @@ use v6;
     my @comfortably[Int] = 1, 2, 3, 4, 5;
     h( @comfortably );
 
-#     # [1 2 3 4 5]
-
-
-
 }
 
 
