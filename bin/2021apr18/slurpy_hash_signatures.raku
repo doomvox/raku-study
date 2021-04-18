@@ -73,3 +73,12 @@ slurp-nameds(foo => 42, bar => 666); # Received: bar, foo
 
 ## https://docs.raku.org/language/traps#Named_parameters 
 ## sub genius ( Pair $p1, Pair $p2, Pair $p3 ) { … } 
+
+
+ 
+say :$foo; 
+say (:$foo); 
+say foo => $foo; 
+
+## creating signature 
+## say :($foo); 
