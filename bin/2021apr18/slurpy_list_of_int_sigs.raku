@@ -5,7 +5,6 @@
 use v6;
 
 sub f(*@a where {$_.all ~~ Int}) { say @a };
-
 f( 1, 2, 3 );
 
 f( 1, 2, 3, 4, 5);
