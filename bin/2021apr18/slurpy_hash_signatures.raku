@@ -87,3 +87,15 @@ slurp-nameds(foo => 42, bar => 666); # Received: bar, foo
 
 ## creating signature 
 ## say :($foo); 
+
+
+## another point:
+
+## 
+%named_args = ( param1 => 1, param2 => 2 );
+
+## won't work right:
+my $obj = Bozosity.new( %named_args );                                           
+
+## this is *special cased*:
+my $obj = Bozosity.new( | %named_args );                                           
