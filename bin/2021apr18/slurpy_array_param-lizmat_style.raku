@@ -20,5 +20,6 @@ handle-array( @foo, @numbers );
 
 sub slurp-an-array( *@values ) {
     # do something with @values
+    say @values;
 }
 slurp-an-array("foo", 42, "baz");
