@@ -61,7 +61,7 @@ use v6;
 {
     ## simplified 
     say "---";
-#    sub g(*@a where *.all ~~ Int) { say @a };
+#    sub g(*@a where *.all ~~ Int) { say 'and there! ', @a };
     sub g(*@a where {$_.all ~~ Int}) { say 'here! ', @a };
 
     g( 1, 2, 3 );  # here! [1 2 3]
