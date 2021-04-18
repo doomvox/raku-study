@@ -26,7 +26,7 @@ for (1..$islands_A.elems) {
     $i++;
 };
 
-say "aAa";
+say "^^^";
 "\ntry name-to-value: ".put;
 my $selected = <<"Asia" "Africa" "Antarctica" "Axel Heiberg" "Greenland">>;
 say $selected.elems;
