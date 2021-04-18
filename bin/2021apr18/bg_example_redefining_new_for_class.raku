@@ -35,7 +35,6 @@ say "----";
 ## only defining this to work if invocant is undefined
 ## a class method, only 
 
-
 ## should work:
 my $doggie = Dog.new( "red", 3, 2 );
 
