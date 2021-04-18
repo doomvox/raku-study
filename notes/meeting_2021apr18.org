@@ -6,3 +6,8 @@ more readable form of notes:
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr18.md
 code examples:
 https://github.com/doomvox/raku-study/tree/main/bin/2021apr18
+** agenda, such as it is
+*** ask for ideas
+*** slurpy hash signatures, calling oddity
+https://mail.google.com/mail/u/0/h/10kwmq2chxjpd/?&th=178e65b454e8d6ca&v=c&s=s
+*** 
