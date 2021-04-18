@@ -26,6 +26,7 @@ for (1..$islands_A.elems) {
 "\ntry name-to-value: ".put;
 my $selected = <<"Asia" "Africa" "Antarctica" "Axel Heiberg" "Greenland">>;
 say $selected.elems;
+
 #Below WORKS!
 for (@islands) -> $a {put ($a.Str~"\t"~$a.Num) if $a.Str eq $selected[3]}; #WORKS!
 "____".put;
