@@ -80,6 +80,7 @@ slurp-nameds(foo => 42, bar => 666); # Received: bar, foo
 ## LTLTA messaging
 
 ## Another version of the trouble:
+
 # say :$foo; 
 # say (:$foo); 
 # say foo => $foo; 
