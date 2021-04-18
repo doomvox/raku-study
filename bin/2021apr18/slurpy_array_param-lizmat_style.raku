@@ -23,3 +23,6 @@ sub slurp-an-array( *@values ) {
     say @values;
 }
 slurp-an-array("foo", 42, "baz");
+#  [foo 42 baz]
+
+slurp-an-array( @numbers );
