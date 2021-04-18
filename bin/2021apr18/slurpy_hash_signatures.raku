@@ -99,3 +99,7 @@ my $obj = Bozosity.new( %named_args );
 
 ## this is *special cased*:
 my $obj = Bozosity.new( | %named_args );                                           
+
+## Confusables:
+##   @  &
+##   %  # 
