@@ -21,6 +21,7 @@ use v6;
     ## g( 1, 2, 3 );  # Too many positionals passed; expected 1 argument but got 3
     g( [ 1, 2, 3 ] ); # works, just wants one thing
     # [1 2 3]
+
 #    g( 1, 2, 3, 4, 5);
     my @comfortably = 1, 2, 3, 4, 5;
     g( @comfortably );
