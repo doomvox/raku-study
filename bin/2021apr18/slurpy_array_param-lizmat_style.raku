@@ -38,6 +38,7 @@ say "---";
 sub slurp-an-array-less-harder( **@values ) {  
     # do something with @values
     say @values;
+    say @values[1];
 }
 slurp-an-array-less-harder( @foo, @numbers );
 ## [[a b c d e f g h i j k l m n o p q r s t u v w x y z] [wuhn tew thuree foah fahv sex sevhun]]
