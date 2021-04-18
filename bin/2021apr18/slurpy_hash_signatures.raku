@@ -32,7 +32,7 @@ say join(' ',
 # Question: what sub signature invocation gives you behavior like
 # the standard "new" method, which takes a series of named arguments?
 
-# Mu.pm6:
+# From Mu.pm6:
 #    multi method new(*%attrinit) {
 
 
