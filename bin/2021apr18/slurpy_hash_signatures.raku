@@ -75,6 +75,10 @@ slurp-nameds(foo => 42, bar => 666); # Received: bar, foo
 ## This would work:
 ## sub genius ( Pair $p1, Pair $p2, Pair $p3 ) { … } 
  
+## pairs special cased if it looks like a named parameter
+
+## LTLTA messaging
+
 say :$foo; 
 say (:$foo); 
 say foo => $foo; 
