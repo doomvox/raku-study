@@ -36,7 +36,7 @@ say join(' ',
 #    multi method new(*%attrinit) {
 
 
-# Elizabeth Mattijsen, "How subroutine signatures work in Perl 6",  2018sep12 
+# From Elizabeth Mattijsen, "How subroutine signatures work in Perl 6",  2018sep12 
 # https://opensource.com/article/18/9/signatures-perl-6
 
 # If you want to catch any (other) named arguments, you can use a
