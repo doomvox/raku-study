@@ -35,7 +35,7 @@ say "----";
 ## only defining this to work if invocant is undefined
 ## a class method, only 
 
-## should run:
+## should run the variant new:
 my $doggie = Dog.new( "red", 3, 2 );
 
 ## won't work:
