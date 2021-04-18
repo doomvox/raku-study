@@ -31,6 +31,7 @@ my $selected = <<"Asia" "Africa" "Antarctica" "Axel Heiberg" "Greenland">>;
 say $selected.elems;
 
 # Below WORKS!
+say "aAa";
 for (@islands) -> $a {put ($a.Str~"\t"~$a.Num) if $a.Str eq $selected[3]}; #WORKS!
 "____".put;
 
