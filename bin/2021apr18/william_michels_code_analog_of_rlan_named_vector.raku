@@ -30,11 +30,11 @@ for (1..$islands_A.elems) {
 my $selected = <<"Asia" "Africa" "Antarctica" "Axel Heiberg" "Greenland">>;
 say $selected.elems;
 
-#Below WORKS!
+# Below WORKS!
 for (@islands) -> $a {put ($a.Str~"\t"~$a.Num) if $a.Str eq $selected[3]}; #WORKS!
 "____".put;
 
-#WORKS!
+# WORKS!
 for (@islands) -> $a {
     for 0..($selected.elems-1) -> $i {
     if ($a.Str eq $selected[$i].Str) { ($a.Str, $a.Num).say };
