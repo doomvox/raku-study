@@ -11,6 +11,7 @@ say so 'ỡ' ~~ rx:ignoremark /o/;    # OUTPUT: «True>
 say so 'U' ~~ rx:ignoremark /Ü/;    
 # True
 say so 'u' ~~ rx:ignoremark /Ü/;    
+# False
 
 say so 'aU' ~~ rx:ignoremark /äÜ/;    
 # True
