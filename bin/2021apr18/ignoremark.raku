@@ -16,3 +16,9 @@ say so 'u' ~~ rx:ignoremark :i /Ü/;
 # True
 say so 'aU' ~~ rx:ignoremark /äÜ/;    
 # True
+
+
+say "1:\t", $/ if "בראשית" ~~ m/ בְּרֵאשִׁית /;
+say "2:\t", $/ if "בראשית" ~~ m:ignoremark/ בְּרֵאשִׁית /; #OUTPUT: ｢בראשית｣
+say "3:\t", $/ if "בְּרֵאשִׁית" ~~ m/ בראשית /;
+say "4:\t", $/ if "בְּרֵאשִׁית" ~~ m:ignoremark/ בראשית /; #OUTPUT: ｢בְּרֵאשִׁית｣ 
