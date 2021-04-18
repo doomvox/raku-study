@@ -27,3 +27,4 @@ slurp-an-array("foo", 42, "baz");
 
 say "---";
 slurp-an-array( @numbers );
+# [wuhn tew thuree foah fahv sex sevhun]
