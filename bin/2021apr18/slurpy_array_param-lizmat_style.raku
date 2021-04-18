@@ -32,3 +32,10 @@ slurp-an-array( @numbers );
 slurp-an-array( @foo, @numbers );
 # [a b c d e f g h i j k l m n o p q r s t u v w x y z wuhn tew thuree foah fahv sex sevhun]
 
+
+
+sub slurp-an-array-even-harder( **@values ) {  
+    # do something with @values
+    say @values;
+}
+slurp-an-array-even-harder("foo", 42, "baz");
