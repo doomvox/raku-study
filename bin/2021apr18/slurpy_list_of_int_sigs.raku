@@ -44,9 +44,14 @@ use v6;
     push @comfortably, 'numb';
     ## Type check failed in assignment to @comfortably; expected Int but got Str ("numb")
 
+    ## hash where values have to be Int
     my Int %h_v = ( a => 1, b => 2, c = 3 );
 
+    ## hash where keys have to be Int
     my %h_k{Int} = ( 1 => a, 2 => b, 3 => c );
+
+    ## my %h_obj{Any};
+    
 
 }
 
