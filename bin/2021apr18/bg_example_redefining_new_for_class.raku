@@ -9,14 +9,19 @@ use v6;
 ## raku -e 'class Dog { has $color; has $feet; has $tail; }; my Dog $spot .= new( :color("black"), :feet(4), tail => 1 );'
 ## raku -e 'class Dog { has $color; has $feet; has $tail; multi method new (::?CLASS:U: $a, $b, $c) { self.new: :color($a), :feet($b), $tail($c)} }; my Dog $spot .= new( :color("black"), :feet(4), tail => 1 );' 
 
-class Dog {
-has ($color, $feet, $tail);
+{
+    class Dog {
+        has ($color, $feet, $tail);
+    }
+    my Dog $spot .= new( :color("black"), :feet(4), tail => 1 );
+
+    # Works
+    my Dog $spot .= new( "black", 4, 1 );
+    # Error: Default constructor for 'Dog' only takes named arguments
 }
-my Dog $spot .= new( :color("black"), :feet(4), tail => 1 );
-# Works
-my Dog $spot .= new( "black", 4, 1 );
-# Error: Default constructor for 'Dog' only takes named arguments
-# ----
+
+say "----";
+
 class Dog {
 has ($color, $feet, $tail);
 multi method new (::?CLASS:U: $a, $b, $c) {
