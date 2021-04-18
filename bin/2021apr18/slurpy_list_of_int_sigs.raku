@@ -65,9 +65,6 @@ use v6;
     sub g(*@a where {$_.all ~~ Int}) { say 'here! ', @a };
 
     g( 1, 2, 3 );  # here! [1 2 3]
-
-
-#    g( 1, 2, 3, 4, 5);
     my @comfortably = 1, 2, 3, 4, 5;
     g( @comfortably );
     # [1 2 3 4 5]
