@@ -34,5 +34,5 @@ say "----";
 
 
 ## ::?CLASS:U: is "insurance":
-## only defining this to work if invocant is undef
+## only defining this to work if invocant is undefined
 ## class method, only 
