@@ -35,9 +35,9 @@ slurp-an-array( @foo, @numbers );
 
 
 say "---";
-sub slurp-an-array-even-harder( **@values ) {  
+sub slurp-an-array-less-harder( **@values ) {  
     # do something with @values
     say @values;
 }
-slurp-an-array-even-harder("foo", 42, "baz");
+slurp-an-array-less-harder("foo", 42, "baz");
 
