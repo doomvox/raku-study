@@ -38,4 +38,4 @@ say "----";
 
 my $doggie = Dog.new( "red", 3, 2 );
 
-my $new_dog = $doggie.new();
+my $new_dog = $doggie.new( 'speckled', 3, 1 );
