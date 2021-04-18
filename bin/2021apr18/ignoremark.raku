@@ -10,7 +10,7 @@ say so 'ỡ' ~~ rx:ignoremark /o/;    # OUTPUT: «True>
 
 say so 'U' ~~ rx:ignoremark /Ü/;    
 # True
-say so 'U' ~~ rx:ignoremark /Ü/;    
+say so 'u' ~~ rx:ignoremark /Ü/;    
 
 say so 'aU' ~~ rx:ignoremark /äÜ/;    
 # True
