@@ -16,3 +16,5 @@ https://stackoverflow.com/questions/56393888/why-how-is-an-additional-variable-n
 ** TODO for next week, paul evans video, future of perl5 (william michels pick)
 https://ftp.osuosl.org/pub/fosdem/2021/D.perl/perl_in_2025.mp4
 
+** open issue, sub sigs with slurpies:
+/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr18/slurpy_list_of_int_sigs.raku
