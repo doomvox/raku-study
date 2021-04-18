@@ -56,9 +56,9 @@ slurp-nameds(foo => 42, bar => 666); # Received: bar, foo
     genius( 'ha' => 1, 'ho' => 2, 'hum' => 3 ); 
     ## Error: Too many positionals passed; expected 0 arguments but got 3
 
-    ## Got that?  When passing pairs to a sub, quoting the key causes
-    ## things to barf, and the messaging is seriously LTA.
+    # Got that?  When passing pairs to a sub, quoting the key causes
+    # things to barf, and the messaging is seriously LTA.
 
-    ## The pair operator is being demoted to a fat comma?
+    # The pair operator is being demoted to a fat comma?
 
 }
