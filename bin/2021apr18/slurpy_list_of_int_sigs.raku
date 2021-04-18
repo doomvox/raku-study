@@ -12,3 +12,6 @@ f( 1, 2, 3, 4, 5);
 
 my @comfortably = 1, 2, 3, 4, 5;
 f( @comfortably );
+
+
+## sub f(*@a where {$_.all ~~ Int}) { say @a };
