@@ -16,6 +16,7 @@ use v6;
 }
 
 {
+    say "---";
     sub g(@a where {$_.all ~~ Int}) { say @a };
     g( 1, 2, 3 );
     g( 1, 2, 3, 4, 5);
