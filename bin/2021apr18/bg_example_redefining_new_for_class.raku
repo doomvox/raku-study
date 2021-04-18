@@ -23,7 +23,7 @@ use v6;
 say "----";
 {
     class Dog {
-        has ($color, $feet, $tail);
+        has ($.color, $.feet, $.tail);
         multi method new (::?CLASS:U: $a, $b, $c) {   ## ::?CLASS:U: is "insurance"
             self.new: :color($a), :feet($b), $tail($c);
         }
