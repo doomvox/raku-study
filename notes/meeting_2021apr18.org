@@ -10,4 +10,6 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021apr18
 *** ask for ideas
 *** slurpy hash signatures, calling oddity
 https://mail.google.com/mail/u/0/h/10kwmq2chxjpd/?&th=178e65b454e8d6ca&v=c&s=s
-*** 
+*** regexes again, stackoverflow
+https://stackoverflow.com/questions/56393888/why-how-is-an-additional-variable-needed-in-matching-repeated-arbitary-character/67078299#67078299
+
