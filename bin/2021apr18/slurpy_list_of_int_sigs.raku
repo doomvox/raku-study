@@ -17,10 +17,10 @@ use v6;
 
 {
     sub g(@a where {$_.all ~~ Int}) { say @a };
-    f( 1, 2, 3 );
-    f( 1, 2, 3, 4, 5);
+    g( 1, 2, 3 );
+    g( 1, 2, 3, 4, 5);
     my @comfortably = 1, 2, 3, 4, 5;
-    f( @comfortably );
+    g( @comfortably );
 }
 
 
