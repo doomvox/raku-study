@@ -17,9 +17,14 @@ say join(' ',
         );
 # Output: 2 2 2 2
 
-# And unlike in perl, in raku the key *does* need to be quoted
+# When accessing the hash, the key *does* need to be quoted
 # Because of this, I keep thinking I need to quote keys (as in %h1 or %h4),
 # though really the pair operator does implicit quoting of the left side.
+
+# By the way, I do know about this variant:
+say join(' ',
+         %h1<ho>, %h2<ho>, %h3<ho>, %h4<ho>
+        );
 
 # Now, on to my main point... 
 
