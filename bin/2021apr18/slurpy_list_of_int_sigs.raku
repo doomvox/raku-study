@@ -59,7 +59,7 @@ use v6;
 
 
 {
-    ## simplified 
+    ## possible simplification, doesn't seem to be working 
     say "---";
 #    sub g(*@a where {$_.all ~~ Int}) { say 'here! ', @a };
 
