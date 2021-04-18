@@ -1,0 +1,4 @@
+* meeting notes Apr 18, 2021
+** links
+
+https://github.com/doomvox/raku-study/tree/main/bin/2021apr18
