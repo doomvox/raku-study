@@ -46,7 +46,6 @@ slurp-an-array-less-harder( @foo, @numbers );
 ## just one: 
 ## [wuhn tew thuree foah fahv sex sevhun]
 
-
 slurp-an-array-less-harder( | @foo, | @numbers );
 
 my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
