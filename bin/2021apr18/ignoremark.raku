@@ -8,6 +8,7 @@ say so 'a' ~~ rx/ä/;                # OUTPUT: «False»
 say so 'a' ~~ rx:ignoremark /ä/;    # OUTPUT: «True» 
 say so 'ỡ' ~~ rx:ignoremark /o/;    # OUTPUT: «True> 
 
+# say so 'au' ~~ rx:ignoremark /äÜ/;    
 
-
-say so 'au' ~~ rx:ignoremark /äÜ/;    # OUTPUT: «True» 
+say so 'aU' ~~ rx:ignoremark /äÜ/;    
+# False 
