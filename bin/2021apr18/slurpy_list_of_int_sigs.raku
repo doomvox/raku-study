@@ -73,6 +73,12 @@ use v6;
 }
 
 
+## Bruce Gray summary of the issue, would expect both of these to be the same:
+
+# raku -e 'sub foo (*@a where {$_.all ~~ Int}) {say @a}; foo(1,2,3);'
+# [1 2 3]
+# raku -e 'sub foo (*@a where *.all ~~ Int ) {say @a}; foo(1,2,3);'
+# Constraint type check failed in binding to parameter '@a'; expected anonymous constraint to be met but got Array ([1, 2, 3]) 
 
 
 ## sub f(*@a where {$_.all ~~ Int}) { say @a };
