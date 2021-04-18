@@ -57,4 +57,7 @@ my @flat = ( | @foo, | @numbers );
 say "---";
 my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
 slurp-an-array-less-harder( @foo, @numbers, @monsters );
+# [[a b c d e f g h i j k l m n o p q r s t u v w x y z] [wuhn tew thuree foah fahv sex sevhun] [godzilla mothera rhodan tingler wolfman dracula horta blob]]
+# just one: 
+# [wuhn tew thuree foah fahv sex sevhun]
 
