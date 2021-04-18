@@ -31,7 +31,6 @@ say "----";
     my Dog $spot .= new( "black", 4, 1 ); 
 }
 
-
 ## ::?CLASS:U: is "insurance":
 ## only defining this to work if invocant is undefined
 ## a class method, only 
