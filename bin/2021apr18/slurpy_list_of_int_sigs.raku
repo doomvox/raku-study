@@ -25,6 +25,7 @@ use v6;
 #    g( 1, 2, 3, 4, 5);
     my @comfortably = 1, 2, 3, 4, 5;
     g( @comfortably );
+    # [1 2 3 4 5]
 }
 
 
