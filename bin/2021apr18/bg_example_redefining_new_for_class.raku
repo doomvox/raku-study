@@ -22,10 +22,12 @@ use v6;
 
 say "----";
 
-class Dog {
-has ($color, $feet, $tail);
-multi method new (::?CLASS:U: $a, $b, $c) {
-self.new: :color($a), :feet($b), $tail($c);
+{
+    class Dog {
+        has ($color, $feet, $tail);
+        multi method new (::?CLASS:U: $a, $b, $c) {
+            self.new: :color($a), :feet($b), $tail($c);
+        }
+    }
+    my Dog $spot .= new( "black", 4, 1 ); 
 }
-}
-my Dog $spot .= new( "black", 4, 1 ); 
