@@ -34,3 +34,8 @@ say "----";
 ## ::?CLASS:U: is "insurance":
 ## only defining this to work if invocant is undefined
 ## a class method, only 
+
+
+my $doggie = Dog.new( "red", 3, 2 );
+
+my $new_dog = $doggie.new();
