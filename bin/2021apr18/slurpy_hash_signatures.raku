@@ -30,13 +30,14 @@ say join(' ',
 # Now, on to my main point... 
 
 # Question: what sub signature invocation gives you behavior like
-# the standard "new" method, which takes a series of named arguments
+# the standard "new" method, which takes a series of named arguments?
 
 # Mu.pm6:
 #    multi method new(*%attrinit) {
 
-# file:///home/doom/Dust/Attic/Perl6/Understanding%20signatures%20in%20Perl%206%20|%20Opensource.com.html
+
 # Elizabeth Mattijsen, "How subroutine signatures work in Perl 6",  2018sep12 
+# https://opensource.com/article/18/9/signatures-perl-6
 
 # If you want to catch any (other) named arguments, you can use a
 # so-called "slurpy hash." Just like the slurpy array, it is
