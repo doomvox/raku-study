@@ -18,7 +18,7 @@ handle-array( @foo, @numbers );
 # [wuhn tew thuree foah fahv sex sevhun]
 
 
-sub slurp-an-array(*@values) {
+sub slurp-an-array( *@values ) {
     # do something with @values
 }
 slurp-an-array("foo", 42, "baz");
