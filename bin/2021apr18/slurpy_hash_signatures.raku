@@ -4,7 +4,7 @@
 
 use v6;
 
-# Before I get started here, a small point about hash definition.
+# Before I get started here, a small point about defining hashes.
 # There are various ways that work:
 
 my %h1 = ( 'ha' => 1, 'ho' => 2, 'hum' => 3 ); 
