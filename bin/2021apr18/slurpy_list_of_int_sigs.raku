@@ -42,7 +42,10 @@ use v6;
     h( @comfortably );
 
     push @comfortably, 'numb';
+    ## Type check failed in assignment to @comfortably; expected Int but got Str ("numb")
+
 }
+
 
 
 
