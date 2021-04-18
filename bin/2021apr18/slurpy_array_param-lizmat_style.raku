@@ -4,9 +4,10 @@
 
 use v6;
 
-sub handle-array(@a) {
+sub handle-array( @a ) {
     # do something with @a
 }
+
 my @foo = "a" .. "z";
 handle-array(@foo);
 
