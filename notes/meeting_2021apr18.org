@@ -1,5 +1,5 @@
 * meeting notes Apr 18, 2021
-** links
+** meeting links
 The notes (this file):
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr18.org
 more readable form of notes:
