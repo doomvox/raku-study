@@ -48,7 +48,7 @@ use v6;
     my Int %h_v = ( a => 1, b => 2, c => 3 );
 
     ## hash where keys have to be Int
-    my %h_k{Int} = ( 1 => a, 2 => b, 3 => c );
+    my %h_k{Int} = ( 1 => 'a', 2 => 'b', 3 => 'c' );
 
     ## my %h_obj{Any};
     
