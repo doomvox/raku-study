@@ -21,7 +21,6 @@ use v6;
 }
 
 say "----";
-
 {
     class Dog {
         has ($color, $feet, $tail);
