@@ -35,6 +35,7 @@ use v6;
     # h( 1, 2, 3 );  
     #  Calling h(Int, Int, Int) will never work with declared signature (Int @a)
     h( [ 1, 2, 3 ] ); 
+    #  Type check failed in binding to parameter '@a'; expected Positional[Int] but got Array ([1, 2, 3])
 #     # [1 2 3]
 
 # #    h( 1, 2, 3, 4, 5);
