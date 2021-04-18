@@ -17,4 +17,4 @@ https://stackoverflow.com/questions/56393888/why-how-is-an-additional-variable-n
 https://ftp.osuosl.org/pub/fosdem/2021/D.perl/perl_in_2025.mp4
 
 ** open issue, sub sigs with slurpies:
-/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr18/slurpy_list_of_int_sigs.raku
+https://github.com/doomvox/raku-study/tree/main/bin/2021apr18/slurpy_list_of_int_sigs.raku
