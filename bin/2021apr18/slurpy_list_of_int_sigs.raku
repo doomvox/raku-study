@@ -18,8 +18,9 @@ use v6;
 {
     say "---";
     sub g(@a where {$_.all ~~ Int}) { say @a };
-    g( 1, 2, 3 );
-    g( 1, 2, 3, 4, 5);
+    ## g( 1, 2, 3 );  # Too many positionals passed; expected 1 argument but got 3
+    g( [ 1, 2, 3 ] );  # Too many positionals passed; expected 1 argument but got 3
+#    g( 1, 2, 3, 4, 5);
     my @comfortably = 1, 2, 3, 4, 5;
     g( @comfortably );
 }
