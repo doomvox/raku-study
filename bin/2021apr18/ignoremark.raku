@@ -12,6 +12,7 @@ say so 'U' ~~ rx:ignoremark /Ü/;
 # True
 say so 'u' ~~ rx:ignoremark /Ü/;    
 # False
+say so 'u' ~~ rx:ignoremark /Ü/;    
 
 say so 'aU' ~~ rx:ignoremark /äÜ/;    
 # True
