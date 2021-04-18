@@ -29,4 +29,5 @@ slurpy   5, 6, 7 ; # ok
 # one-arg  5, 6, 7 ; # X::TypeCheck::Argument 
  
 sub named-names (*%named-args) { %named-args.keys };
-say named-names :foo(42) :bar<baz>; # OUTPUT: «foo bar␤» 
+say named-names :foo(42) :bar<baz>; 
+  ## (bar foo)
