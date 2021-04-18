@@ -9,7 +9,7 @@ use v6;
 
 my %h1 = ( 'ha' => 1, 'ho' => 2, 'hum' => 3 ); 
 my %h2 = (  ha  => 1,  ho  => 2,  hum  => 3 ); 
-my %h3 =  ha  => 1,  ho  => 2,  hum  => 3;
+my %h3 =  ha  => 1,  ho  => 2,  hum  => 3; # favored idiom 
 my %h4 = 'ha' => 1, 'ho' => 2, 'hum' => 3;
 
 ## perl5 
@@ -41,7 +41,6 @@ say join(' ',
 
 # From Mu.pm6:
 #    multi method new(*%attrinit) {
-
 
 # From Elizabeth Mattijsen, "How subroutine signatures work in Perl 6",  2018sep12 
 # https://opensource.com/article/18/9/signatures-perl-6
