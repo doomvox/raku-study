@@ -33,13 +33,13 @@ use v6;
     say "---";
     sub h( Int @a ) { say @a };
     ## h( 1, 2, 3 );  # Too many positionals passed; expected 1 argument but got 3
-    h( [ 1, 2, 3 ] ); # works, just wants one thing
-    # [1 2 3]
+#     h( [ 1, 2, 3 ] ); # works, just wants one thing
+#     # [1 2 3]
 
-#    h( 1, 2, 3, 4, 5);
-    my @comfortably = 1, 2, 3, 4, 5;
-    h( @comfortably );
-    # [1 2 3 4 5]
+# #    h( 1, 2, 3, 4, 5);
+#     my @comfortably = 1, 2, 3, 4, 5;
+#     h( @comfortably );
+#     # [1 2 3 4 5]
 }
 
 
