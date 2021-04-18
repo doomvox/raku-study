@@ -25,6 +25,7 @@ say join(' ',
 say join(' ',
          %h1<ho>, %h2<ho>, %h3<ho>, %h4<ho>
         );
+# Output: 2 2 2 2
 
 # Now, on to my main point... 
 
