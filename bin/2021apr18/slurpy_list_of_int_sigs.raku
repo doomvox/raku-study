@@ -34,7 +34,8 @@ use v6;
     sub h( Int @a ) { say @a };
     # h( 1, 2, 3 );  
     #  Calling h(Int, Int, Int) will never work with declared signature (Int @a)
-    h( [ 1, 2, 3 ] ); 
+    ## Oops:
+    ## h( [ 1, 2, 3 ] ); 
     #  Type check failed in binding to parameter '@a'; expected Positional[Int] but got Array ([1, 2, 3])
 
     my @comfortably[Int] = 1, 2, 3, 4, 5;
