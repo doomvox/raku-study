@@ -13,6 +13,5 @@ https://mail.google.com/mail/u/0/h/10kwmq2chxjpd/?&th=178e65b454e8d6ca&v=c&s=s
 *** regexes again, on stackoverflow
 https://stackoverflow.com/questions/56393888/why-how-is-an-additional-variable-needed-in-matching-repeated-arbitary-character/67078299#67078299
 
-
-** todo for next week, paul evans video, future of perl5 (william michels pick)
+** TODO for next week, paul evans video, future of perl5 (william michels pick)
 https://ftp.osuosl.org/pub/fosdem/2021/D.perl/perl_in_2025.mp4
