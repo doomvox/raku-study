@@ -38,7 +38,7 @@ use v6;
     ## h( [ 1, 2, 3 ] ); 
     #  Type check failed in binding to parameter '@a'; expected Positional[Int] but got Array ([1, 2, 3])
 
-    my @comfortably[Int] = 1, 2, 3, 4, 5;
+    my Int @comfortably = 1, 2, 3, 4, 5;
     h( @comfortably );
 }
 
