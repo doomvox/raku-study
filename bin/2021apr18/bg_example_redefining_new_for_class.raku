@@ -38,6 +38,5 @@ say "----";
 
 ## should work:
 my $doggie = Dog.new( "red", 3, 2 );
-
 ## won't work:
 my $new_dog = $doggie.new( 'speckled', 3, 1 );
