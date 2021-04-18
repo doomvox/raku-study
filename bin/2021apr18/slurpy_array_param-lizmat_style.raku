@@ -9,5 +9,6 @@ sub handle-array( @a ) {
 }
 
 my @foo = "a" .. "z";
-handle-array(@foo);
+
+handle-array( @foo );
 
