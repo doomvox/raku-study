@@ -10,6 +10,8 @@ use v6;
 # bigger issue is how to go from "name" to "value", and this is
 # what I came up with:
 
+my @islands;
+
 "\ntry name-to-value: ".put;
 my $selected = <<"Asia" "Africa" "Antarctica" "Axel Heiberg" "Greenland">>;
 say $selected.elems;
