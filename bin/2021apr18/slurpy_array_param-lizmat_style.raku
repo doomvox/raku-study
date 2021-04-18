@@ -48,6 +48,6 @@ slurp-an-array-less-harder( @foo, @numbers );
 
 slurp-an-array-less-harder( | @foo, | @numbers );
 
-my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
-slurp-an-array-less-harder( @foo, @numbers, @monsters );
+# my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
+# slurp-an-array-less-harder( @foo, @numbers, @monsters );
 
