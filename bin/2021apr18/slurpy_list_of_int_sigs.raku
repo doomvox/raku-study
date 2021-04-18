@@ -32,7 +32,8 @@ use v6;
 {
     say "---";
     sub h( Int @a ) { say @a };
-    h( 1, 2, 3 );  
+    # h( 1, 2, 3 );  
+    #  Calling h(Int, Int, Int) will never work with declared signature (Int @a)
     h( [ 1, 2, 3 ] ); 
 #     # [1 2 3]
 
