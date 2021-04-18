@@ -44,6 +44,8 @@ use v6;
     push @comfortably, 'numb';
     ## Type check failed in assignment to @comfortably; expected Int but got Str ("numb")
 
+    my Int %h = ( a => 1, b => 2, c = 3 );
+
 }
 
 
