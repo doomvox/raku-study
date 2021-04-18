@@ -62,7 +62,7 @@ use v6;
     ## simplified 
     say "---";
 #    sub g(*@a where *.all ~~ Int) { say @a };
-    sub g(* @a where {$_.all ~~ Int}) { say @a };
+    sub g(*@a where {$_.all ~~ Int}) { say @a };
 
     g( 1, 2, 3 );  
     ##  g( [ 1, 2, 3 ] ); # works, just wants one thing
