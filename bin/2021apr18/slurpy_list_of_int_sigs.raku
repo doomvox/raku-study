@@ -10,6 +10,7 @@ use v6;
     f( 1, 2, 3, 4, 5);
     my @comfortably = 1, 2, 3, 4, 5;
     f( @comfortably );
+    # [1 2 3 4 5]
 
     # f( 1, 01, 'wuhn' );
     #  Constraint type check failed in binding to parameter '@a'; expected anonymous constraint to be met but got Array ([1, 1, "wuhn"])
