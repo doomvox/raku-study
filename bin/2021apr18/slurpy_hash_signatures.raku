@@ -21,7 +21,7 @@ say join(' ',
 # Because of this, I keep thinking I need to quote keys (as in %h1 or %h4),
 # though really the pair operator does implicit quoting of the left side.
 
-# By the way, I do know about this variant:
+# By the way, I do know about this idiom:
 say join(' ',
          %h1<ho>, %h2<ho>, %h3<ho>, %h4<ho>
         );
