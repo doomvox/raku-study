@@ -54,8 +54,6 @@ sub slurp-nameds(*%nameds) {
 }
 slurp-nameds(foo => 42, bar => 666); # Received: bar, foo
 
-exit;
-
 {
     sub genius(*%fried) { say %fried };
     genius( ha => 1, ho => 2, hum => 3 ); 
