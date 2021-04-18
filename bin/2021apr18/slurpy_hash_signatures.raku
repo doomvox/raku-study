@@ -15,7 +15,9 @@ my %h4 = 'ha' => 1, 'ho' => 2, 'hum' => 3;
 ## perl5 
 ## my $thing = $h1{ho};
 
-my $thing = %h1{ 'ho' };
+## perl6
+## my $thing = %h1{ 'ho' };
+## my $thing = %h1<ho>; # favored idiom
 
 say join(' ',
          %h1{'ho'}, %h2{'ho'}, %h3{'ho'}, %h4{'ho'}
