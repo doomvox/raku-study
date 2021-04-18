@@ -38,6 +38,7 @@ say "---";
 sub slurp-an-array-less-harder( **@values ) {  
     # do something with @values
     say @values;
+    say "just one: ";
     say @values[1];
 }
 slurp-an-array-less-harder( @foo, @numbers );
