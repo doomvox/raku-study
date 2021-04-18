@@ -52,7 +52,6 @@ use v6;
 
     ## my %h_obj{Any};
     
-
 }
 
 
