@@ -12,6 +12,11 @@ my %h2 = (  ha  => 1,  ho  => 2,  hum  => 3 );
 my %h3 =  ha  => 1,  ho  => 2,  hum  => 3;
 my %h4 = 'ha' => 1, 'ho' => 2, 'hum' => 3;
 
+## perl5 
+## my $thing = $h1{ho};
+
+my $thing = %h1{ 'ho' };
+
 say join(' ',
          %h1{'ho'}, %h2{'ho'}, %h3{'ho'}, %h4{'ho'}
         );
