@@ -61,3 +61,9 @@ slurp-an-array-less-harder( @foo, @numbers, @monsters );
 # just one: 
 # [wuhn tew thuree foah fahv sex sevhun]
 
+
+sub takes-two( @onesie, @twosie ) {
+# ... 
+     }
+
+takes-two( @a, @b );
