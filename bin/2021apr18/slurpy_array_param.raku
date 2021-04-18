@@ -6,9 +6,10 @@ use v6;
 
 # https://docs.raku.org/type/Signature
 
-$ = :($a, @b);  # exactly two arguments, where the second one must be Positional 
-$ = :($a, *@b); # at least one argument, @b slurps up any beyond that 
-$ = :(*%h);     # no positional arguments, but any number of named arguments 
+## Q: whats up with :( ... )
+# $ = :($a, @b);  # exactly two arguments, where the second one must be Positional 
+# $ = :($a, *@b); # at least one argument, @b slurps up any beyond that 
+# $ = :(*%h);     # no positional arguments, but any number of named arguments 
  
 sub one-arg (@)  { }
 sub slurpy  (*@) { }
