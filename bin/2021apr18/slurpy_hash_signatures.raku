@@ -39,7 +39,7 @@ say join(' ',
 
 # Now, on to my main point... 
 
-# Question: what sub signature invocation gives you behavior like
+# Question: what sub signature syntax gives you behavior like
 # the standard "new" method, which takes a series of named arguments?
 
 # From Mu.pm6:
