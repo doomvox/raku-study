@@ -25,4 +25,4 @@ for split( '', $str) -> $c {
     $chk = $c;
 }
 
-say $chk.^methods>>.name;
+$chk.^methods>>.name for .say;
