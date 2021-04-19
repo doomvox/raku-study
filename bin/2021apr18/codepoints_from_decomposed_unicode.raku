@@ -23,7 +23,7 @@ for split( '', $str) -> $c {
 #    say $c;
 #    $chk = $c;
 #    printf( "%s  %d\n", $c, $c.codes);
-    printf( "%s  %d\n", $c, $c.ord);
+    printf( "%s  %d  %x\n", $c, $c.ord);
 }
 
 # .say for $chk.^methods>>.name; # codes, chars, ord, ords
