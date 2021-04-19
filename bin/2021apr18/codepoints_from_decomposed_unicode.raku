@@ -22,7 +22,7 @@ my $str   = $fh.readchars( 10000, enc => 'utf8-c8' );
 for split( '', $str) -> $c {
 #    say $c;
 #    $chk = $c;
-    printf( '%s  %d', $c, $c.codes);
+    printf( "%s  %d\n", $c, $c.codes);
 }
 
 # .say for $chk.^methods>>.name; # codes, chars, ord, ords
