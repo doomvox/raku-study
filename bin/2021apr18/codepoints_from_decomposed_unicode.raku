@@ -18,6 +18,6 @@ my $str   = $fh.readchars( 10000, enc => 'utf8-c8' );
 #     say $c;
 # };
 
-for $str.split -> $c {
+for split($str) -> $c {
     say $c;
 }
