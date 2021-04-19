@@ -48,9 +48,9 @@ say join(' ',
 # From Elizabeth Mattijsen, "How subroutine signatures work in Perl 6",  2018sep12 
 #   https://opensource.com/article/18/9/signatures-perl-6
 
-# If you want to catch any (other) named arguments, you can use a
-# so-called "slurpy hash." Just like the slurpy array, it is
-# indicated with an asterisk before a hash:
+# If you want to catch any (other) named arguments, you can use a so-called
+# "slurpy hash." Just like the slurpy array, it is indicated with an
+# asterisk before a hash:
 
 sub slurp-nameds(*%nameds) {
     say "Received: " ~ join ", ", sort keys %nameds;
