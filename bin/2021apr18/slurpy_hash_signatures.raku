@@ -27,7 +27,7 @@ say join(' ',
 ##   my $thing = %h1<ho>; # favored idiom
 
 
-# When accessing the hash, the key *does* need to be quoted
+# So, unlike when defining the hash when accessing it the key *does* need to be quoted
 # Because of this, I keep thinking I need to quote keys (as in %h1 or %h4),
 # though really the pair operator does implicit quoting of the left side.
 
