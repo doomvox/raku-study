@@ -12,8 +12,8 @@ my %h2 = (  ha  => 1,  ho  => 2,  hum  => 3 );
 my %h3 =  ha  => 1,  ho  => 2,  hum  => 3; # favored idiom 
 my %h4 = 'ha' => 1, 'ho' => 2, 'hum' => 3;
 
-## perl5 
-## my $thing = $h1{ho};
+## perl5 had implicit quoting of keys:
+##   my $thing = $h1{ho};
 
 ## perl6
 ## my $thing = %h1{ 'ho' };
