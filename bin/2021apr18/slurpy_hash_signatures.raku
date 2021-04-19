@@ -52,7 +52,7 @@ say join(' ',
 # "slurpy hash." Just like the slurpy array, it is indicated with an
 # asterisk before a hash:
 
-sub slurp-nameds(*%nameds) {
+sub slurp-nameds( *%nameds ) {
     say "Received: " ~ join ", ", sort keys %nameds;
 }
 slurp-nameds(foo => 42, bar => 666); # Received: bar, foo
