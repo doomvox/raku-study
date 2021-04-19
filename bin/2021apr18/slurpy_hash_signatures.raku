@@ -28,8 +28,8 @@ say join(' ',
 
 
 # So, unlike when defining the hash when accessing it the key *does* need to be quoted
-# Because of this, I keep thinking I need to quote keys (as in %h1 or %h4),
-# though really the pair operator does implicit quoting of the left side.
+# (Because of this, I keep thinking I need to quote keys (as in %h1 or %h4),
+# though really the pair operator does implicit quoting of the left side.)
 
 # By the way, I do know about this idiom:
 say join(' ',
