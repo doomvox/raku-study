@@ -18,11 +18,11 @@ my $str   = $fh.readchars( 10000, enc => 'utf8-c8' );
 #     say $c;
 # };
 
-my $chk;
-
+# my $chk;
 for split( '', $str) -> $c {
-    say $c;
-    $chk = $c;
+#    say $c;
+#    $chk = $c;
+    say $c, $c.codes;
 }
 
-.say for $chk.^methods>>.name;
+# .say for $chk.^methods>>.name; # codes, chars, ord, ords
