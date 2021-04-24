@@ -8,5 +8,5 @@
 ***** match/case ideas are good
 ****** restricting to constants is un-perlish, though
 ***** some slides: /home/doom/End/Cave/Perl6/Ore/leonerd-match_case_idea-01.png
-
+*** some silly printf experiments (perl5)
 

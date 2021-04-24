@@ -1,19 +1,20 @@
-- [meeting notes Apr 25, 2021](#org840c24b)
-  - [agenda stuff](#org023a1fa)
-    - [paul evans (leonerd) talk from 2020](#orgb663645)
+- [meeting notes Apr 25, 2021](#orga8d531b)
+  - [agenda stuff](#org0841212)
+    - [paul evans (leonerd) talk from 2020](#org747dc45)
+    - [some silly printf experiments (perl5)](#org01668e4)
 
 
-<a id="org840c24b"></a>
+<a id="orga8d531b"></a>
 
 # meeting notes Apr 25, 2021
 
 
-<a id="org023a1fa"></a>
+<a id="org0841212"></a>
 
 ## agenda stuff
 
 
-<a id="orgb663645"></a>
+<a id="org747dc45"></a>
 
 ### paul evans (leonerd) talk from 2020
 
@@ -30,3 +31,8 @@
         1.  restricting to constants is un-perlish, though
     
     2.  some slides: /home/doom/End/Cave/Perl6/Ore/leonerd-match<sub>case</sub><sub>idea</sub>-01.png
+
+
+<a id="org01668e4"></a>
+
+### some silly printf experiments (perl5)
