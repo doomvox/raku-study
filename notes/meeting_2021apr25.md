@@ -1,20 +1,20 @@
-- [meeting notes Apr 25, 2021](#orga8d531b)
-  - [agenda stuff](#org0841212)
-    - [paul evans (leonerd) talk from 2020](#org747dc45)
-    - [some silly printf experiments (perl5)](#org01668e4)
+- [meeting notes Apr 25, 2021](#org4a51f9e)
+  - [agenda stuff](#org3815dfb)
+    - [paul evans (leonerd) talk from 2020](#orga6d6e86)
+    - [some silly printf experiments (perl5)](#org63e72ad)
 
 
-<a id="orga8d531b"></a>
+<a id="org4a51f9e"></a>
 
 # meeting notes Apr 25, 2021
 
 
-<a id="org0841212"></a>
+<a id="org3815dfb"></a>
 
 ## agenda stuff
 
 
-<a id="org747dc45"></a>
+<a id="orga6d6e86"></a>
 
 ### paul evans (leonerd) talk from 2020
 
@@ -29,10 +29,14 @@
     1.  match/case ideas are good
     
         1.  restricting to constants is un-perlish, though
+        
+        2.  maybe:
+        
+            perserve given/when, with default to "smartmatch", but you get match/case behavior when you specify a comparison
     
     2.  some slides: /home/doom/End/Cave/Perl6/Ore/leonerd-match<sub>case</sub><sub>idea</sub>-01.png
 
 
-<a id="org01668e4"></a>
+<a id="org63e72ad"></a>
 
 ### some silly printf experiments (perl5)
