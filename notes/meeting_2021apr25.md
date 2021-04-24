@@ -1,19 +1,19 @@
-- [meeting notes Apr 25, 2021](#org06fa61b)
-  - [agenda stuff](#orgfe09822)
-    - [paul evans (leonerd) talk from 2020](#org8e37cfc)
+- [meeting notes Apr 25, 2021](#org4defa8e)
+  - [agenda stuff](#org639475d)
+    - [paul evans (leonerd) talk from 2020](#orge6e8a0c)
 
 
-<a id="org06fa61b"></a>
+<a id="org4defa8e"></a>
 
 # meeting notes Apr 25, 2021
 
 
-<a id="orgfe09822"></a>
+<a id="org639475d"></a>
 
 ## agenda stuff
 
 
-<a id="org8e37cfc"></a>
+<a id="orge6e8a0c"></a>
 
 ### paul evans (leonerd) talk from 2020
 
@@ -25,4 +25,8 @@
 
 3.  summary: ways to make perl more raku-like in the absence of a type system
 
-    1.
+    1.  match/case ideas are good
+    
+        1.  restricting to constants is un-perlish, though
+    
+    2.  some slides: /home/doom/End/Cave/Perl6/Ore/leonerd-match<sub>case</sub><sub>idea</sub>-01.png

@@ -5,4 +5,6 @@
 **** my local copy:
 /home/doom/Dust/Video/Tech/paul_evans-future_of_perl_in_2025-2021feb06.mp4
 **** summary: ways to make perl more raku-like in the absence of a type system
-***** 
+***** match/case ideas are good
+****** restricting to constants is un-perlish, though
+***** some slides: /home/doom/End/Cave/Perl6/Ore/leonerd-match_case_idea-01.png
