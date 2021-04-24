@@ -1,1 +1,7 @@
 * meeting notes Apr 25, 2021
+** agenda stuff
+*** paul evans (leonerd) talk from 2020
+**** https://ftp.osuosl.org/pub/fosdem/2021/D.perl/perl_in_2025.mp4
+/home/doom/Dust/Video/Tech/paul_evans-future_of_perl_in_2025-2021feb06.mp4
+**** my summary: making perl more raku-like in the absence of a type system
+**** 
