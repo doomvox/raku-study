@@ -1,38 +1,38 @@
-- [meeting notes Apr 18, 2021](#orga26570f)
-  - [meeting links](#org33ab9dc)
-  - [agenda, such as it is](#orge655dcb)
-    - [ask for ideas](#org24896c5)
-    - [slurpy hash signatures, calling oddity](#orgb6cc058)
-    - [regexes again, on stackoverflow](#org0a1bdc9)
-  - [for next week, paul evans video, future of perl5 (william michels pick)](#org0c341a3)
-  - [open issue, sub sigs with slurpies:](#org63e3ead)
-  - [perl5's Log4Perl](#orgc1d1fb6)
-  - [rudeness that challenges even my standards](#org26cf2dd)
+- [meeting notes Apr 18, 2021](#org7473aaf)
+  - [meeting links](#org4ef0dc9)
+  - [agenda, such as it is](#org3baefac)
+    - [ask for ideas](#org59334f3)
+    - [slurpy hash signatures, calling oddity](#org215473b)
+    - [regexes again, on stackoverflow](#org2e17653)
+  - [for next week, paul evans video, future of perl5 (william michels pick)](#org159e4ce)
+  - [open issue, sub sigs with slurpies:](#org674d469)
+  - [perl5's Log4Perl](#orga812995)
+  - [rudeness that challenges even my standards](#orgb3b62f4)
 
 
-<a id="orga26570f"></a>
+<a id="org7473aaf"></a>
 
 # meeting notes Apr 18, 2021
 
 
-<a id="org33ab9dc"></a>
+<a id="org4ef0dc9"></a>
 
 ## meeting links
 
 The notes (this file): <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr18.org> more readable form of notes: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr18.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021apr18/>
 
 
-<a id="orge655dcb"></a>
+<a id="org3baefac"></a>
 
 ## agenda, such as it is
 
 
-<a id="org24896c5"></a>
+<a id="org59334f3"></a>
 
 ### ask for ideas
 
 
-<a id="orgb6cc058"></a>
+<a id="org215473b"></a>
 
 ### slurpy hash signatures, calling oddity
 
@@ -43,21 +43,21 @@ The notes (this file): <https://github.com/doomvox/raku-study/blob/main/notes/me
     <https://docs.raku.org/language/traps#Named_parameters>
 
 
-<a id="org0a1bdc9"></a>
+<a id="org2e17653"></a>
 
 ### regexes again, on stackoverflow
 
 <https://stackoverflow.com/questions/56393888/why-how-is-an-additional-variable-needed-in-matching-repeated-arbitary-character/67078299#67078299>
 
 
-<a id="org0c341a3"></a>
+<a id="org159e4ce"></a>
 
 ## for next week, paul evans video, future of perl5 (william michels pick)
 
 <https://ftp.osuosl.org/pub/fosdem/2021/D.perl/perl_in_2025.mp4>
 
 
-<a id="org63e3ead"></a>
+<a id="org674d469"></a>
 
 ## open issue, sub sigs with slurpies:
 
@@ -66,14 +66,14 @@ The notes (this file): <https://github.com/doomvox/raku-study/blob/main/notes/me
 <http://blogs.perl.org/users/damian_conway/2019/09/itchscratch.html> <http://rosettacode.org/wiki/Order_by_pair_comparisons#Raku>
 
 
-<a id="orgc1d1fb6"></a>
+<a id="orga812995"></a>
 
 ## perl5's Log4Perl
 
 <https://www.perl.com/pub/2002/09/11/log4perl.html/> <https://metacpan.org/pod/Log::Log4perl> <https://metacpan.org/pod/Log::Log4perl::Appender#Parameters-passed-on-to-the-appender's-log>()-method
 
 
-<a id="org26cf2dd"></a>
+<a id="orgb3b62f4"></a>
 
 ## rudeness that challenges even my standards
 

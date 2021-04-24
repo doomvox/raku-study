@@ -15,12 +15,11 @@ https://docs.raku.org/language/traps#Named_parameters
 *** TODO regexes again, on stackoverflow
 https://stackoverflow.com/questions/56393888/why-how-is-an-additional-variable-needed-in-matching-repeated-arbitary-character/67078299#67078299
 
-** TODO for next week, paul evans video, future of perl5 (william michels pick)
+** for next week, paul evans video, future of perl5 (william michels pick)
 https://ftp.osuosl.org/pub/fosdem/2021/D.perl/perl_in_2025.mp4
 
-** TODO open issue, sub sigs with slurpies:
+** open issue, sub sigs with slurpies:
 https://github.com/doomvox/raku-study/tree/main/bin/2021apr18/slurpy_list_of_int_sigs.raku
-
 
 http://blogs.perl.org/users/damian_conway/2019/09/itchscratch.html 
 http://rosettacode.org/wiki/Order_by_pair_comparisons#Raku 
