@@ -1,19 +1,19 @@
-- [meeting notes Apr 25, 2021](#org4defa8e)
-  - [agenda stuff](#org639475d)
-    - [paul evans (leonerd) talk from 2020](#orge6e8a0c)
+- [meeting notes Apr 25, 2021](#org840c24b)
+  - [agenda stuff](#org023a1fa)
+    - [paul evans (leonerd) talk from 2020](#orgb663645)
 
 
-<a id="org4defa8e"></a>
+<a id="org840c24b"></a>
 
 # meeting notes Apr 25, 2021
 
 
-<a id="org639475d"></a>
+<a id="org023a1fa"></a>
 
 ## agenda stuff
 
 
-<a id="orge6e8a0c"></a>
+<a id="orgb663645"></a>
 
 ### paul evans (leonerd) talk from 2020
 
