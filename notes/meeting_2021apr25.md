@@ -1,20 +1,20 @@
-- [meeting notes Apr 25, 2021](#org4d3e40f)
-  - [agenda stuff](#org49387a4)
-    - [paul evans (leonerd) talk from 2020](#orgd5355ec)
-    - [some silly printf experiments (perl5)](#org5d2354c)
+- [meeting notes Apr 25, 2021](#org81ac0e1)
+  - [agenda stuff](#orgf1b76b2)
+    - [paul evans (leonerd) talk from 2020](#org5adac91)
+    - [some silly printf experiments (perl5)](#orgb71f643)
 
 
-<a id="org4d3e40f"></a>
+<a id="org81ac0e1"></a>
 
 # meeting notes Apr 25, 2021
 
 
-<a id="org49387a4"></a>
+<a id="orgf1b76b2"></a>
 
 ## agenda stuff
 
 
-<a id="orgd5355ec"></a>
+<a id="org5adac91"></a>
 
 ### paul evans (leonerd) talk from 2020
 
@@ -34,9 +34,9 @@
         
             perserve given/when, with default to "smartmatch", but you get match/case behavior when you specify a comparison
     
-    2.  some slides: /home/doom/End/Cave/Perl6/Ore/leonerd-match<sub>case</sub><sub>idea</sub>-01.png
+    2.  some slides: /home/doom/End/Cave/Perl6/Ore/Leonerd/leonerd-match<sub>case</sub><sub>idea</sub>-01.png
 
 
-<a id="org5d2354c"></a>
+<a id="orgb71f643"></a>
 
 ### some silly printf experiments (perl5)
