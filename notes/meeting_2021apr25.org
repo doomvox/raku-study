@@ -14,3 +14,5 @@ but you get match/case behavior when you specify a comparison
 
 *** some silly printf experiments (perl5)
 
+*** raku idioms
+/home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
