@@ -25,7 +25,6 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021apr18/slurpy_list_of_int
 http://blogs.perl.org/users/damian_conway/2019/09/itchscratch.html 
 http://rosettacode.org/wiki/Order_by_pair_comparisons#Raku 
 
-
 ** perl5's Log4Perl
 https://www.perl.com/pub/2002/09/11/log4perl.html/
 https://metacpan.org/pod/Log::Log4perl
