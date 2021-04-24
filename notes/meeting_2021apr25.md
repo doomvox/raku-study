@@ -1,21 +1,21 @@
-- [meeting notes Apr 25, 2021](#orgc480762)
-  - [agenda stuff](#orgab404e7)
-    - [paul evans (leonerd) talk from 2020](#orgf96edf7)
-    - [some silly printf experiments (perl5)](#org544773d)
-    - [raku idioms](#org33acbf2)
+- [meeting notes Apr 25, 2021](#orgbc3f92d)
+  - [agenda stuff](#org0e159fa)
+    - [paul evans (leonerd) talk from 2020](#orge6d1d9c)
+    - [some silly printf experiments (perl5)](#org8de5d85)
+    - [raku idioms](#orgee0fd47)
 
 
-<a id="orgc480762"></a>
+<a id="orgbc3f92d"></a>
 
 # meeting notes Apr 25, 2021
 
 
-<a id="orgab404e7"></a>
+<a id="org0e159fa"></a>
 
 ## agenda stuff
 
 
-<a id="orgf96edf7"></a>
+<a id="orge6d1d9c"></a>
 
 ### paul evans (leonerd) talk from 2020
 
@@ -38,12 +38,12 @@
     2.  some slides: /home/doom/End/Cave/Perl6/Ore/Leonerd/leonerd-match<sub>case</sub><sub>idea</sub>-01.png
 
 
-<a id="org544773d"></a>
+<a id="org8de5d85"></a>
 
 ### some silly printf experiments (perl5)
 
 
-<a id="org33acbf2"></a>
+<a id="orgee0fd47"></a>
 
 ### raku idioms
 
