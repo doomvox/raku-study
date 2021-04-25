@@ -18,3 +18,6 @@ but you get match/case behavior when you specify a comparison
 /home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
 
 *** data container class
+
+** announcement
+*** for next week, could everyone install git if they haven't already?

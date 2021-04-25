@@ -1,22 +1,24 @@
-- [meeting notes Apr 25, 2021](#org2dd3eb0)
-  - [agenda stuff](#orgbc7988b)
-    - [paul evans (leonerd) talk from 2020](#org2462f7e)
-    - [some silly printf experiments (perl5)](#org70c58e8)
-    - [raku idioms](#orge1c2069)
-    - [data container class](#org041e37b)
+- [meeting notes Apr 25, 2021](#org8d13609)
+  - [agenda stuff](#org361004f)
+    - [paul evans (leonerd) talk from 2020](#org427fb54)
+    - [some silly printf experiments (perl5)](#org00a3741)
+    - [raku idioms](#orgc2a88a2)
+    - [data container class](#orgc0779ce)
+  - [announcement](#org1aa7291)
+    - [for next week, could everyone install git if they haven't already?](#org6a59d05)
 
 
-<a id="org2dd3eb0"></a>
+<a id="org8d13609"></a>
 
 # meeting notes Apr 25, 2021
 
 
-<a id="orgbc7988b"></a>
+<a id="org361004f"></a>
 
 ## agenda stuff
 
 
-<a id="org2462f7e"></a>
+<a id="org427fb54"></a>
 
 ### paul evans (leonerd) talk from 2020
 
@@ -39,18 +41,28 @@
     2.  some slides: /home/doom/End/Cave/Perl6/Ore/Leonerd/leonerd-match<sub>case</sub><sub>idea</sub>-01.png
 
 
-<a id="org70c58e8"></a>
+<a id="org00a3741"></a>
 
 ### some silly printf experiments (perl5)
 
 
-<a id="orge1c2069"></a>
+<a id="orgc2a88a2"></a>
 
 ### raku idioms
 
 /home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
 
 
-<a id="org041e37b"></a>
+<a id="orgc0779ce"></a>
 
 ### data container class
+
+
+<a id="org1aa7291"></a>
+
+## announcement
+
+
+<a id="org6a59d05"></a>
+
+### for next week, could everyone install git if they haven't already?
