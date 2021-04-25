@@ -66,3 +66,5 @@ my @a = ( %h1, %h2, %h3 );
 my $some_hash = @a[1];
 
 say $some_hash.WHAT; # (Hash)
+
+say @a;
