@@ -12,6 +12,7 @@ class MyRow {
     has Numeric $.area  is rw;
 #    has Num $.area  is rw;
 #    has NumStr $.area  is rw;
+    
     }
 
 my $r1 = MyRow.new( state => 'ny', area => 10000 );
