@@ -5,7 +5,7 @@
 use v6;
 
 my @a = <A B>, <D E>, <X Y>;
-for @a -> [$first, $second] {  ## some languages call this "pattern matching" ?
+for @a -> [$first, $second] {  ## some languages call this "pattern matching" ?  A pattern in the signature.
 
     say "first: $first";
     say "second: $second";
