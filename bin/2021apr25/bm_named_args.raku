@@ -20,3 +20,7 @@ genius( ha => 1, ho => 2, hum => 3 );
 
 genius( fred => {ha => 1}, george => {ho => 2}, ginger => {hum => 3} ); ## series of three hashes
 # {fred => {ha => 1}, george => {ho => 2}, ginger => {hum => 3}}
+
+
+
+sub mission( *@fried ) { say %fried };
