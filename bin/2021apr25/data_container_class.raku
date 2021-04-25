@@ -24,11 +24,7 @@ class MyRow {
 
 #    method Numeric(Str) {  ## someday this might work for strings that look-like-number?
     method Numeric { 
-#        +$!area;
-        say "before: ", $!area.WHAT, ' ', $!area;
-        my $ret = +$!area;
-        say "ret: ", $ret.WHAT, '  ', $ret;
-        return $ret;
+        +$!area;
         }
 
     ## This does work:
