@@ -19,5 +19,5 @@ for @a -> @z {
 
 
 
-## Make errors into warnings
-CATCH { default { say "CAUGHT: ", .Str; .resume-force-just-do-it-stop-bugging-me-keep-going-you-idjit } }
+# ## Make errors into warnings
+# CATCH { default { say "CAUGHT: ", .Str; .resume-force-just-do-it-stop-bugging-me-keep-going-you-idjit } }
