@@ -52,6 +52,7 @@ say $r1.gist;  # MyRow.new(state => "NY", area => 10000)
 say "---";     # NY
 
  {
+     say "---";
      my $r3 = MyRow.new( state => 'tn', area => '333' );
      say $r3;
      say +$r3;
