@@ -23,4 +23,5 @@ genius( fred => {ha => 1}, george => {ho => 2}, ginger => {hum => 3} ); ## serie
 
 
 
-sub mission( *@fried ) { say %fried };
+sub mission( *@tank ) { say %tank };
+
