@@ -37,3 +37,20 @@ mission( {ha => 1}, {ho => 2}, {hum => 3} );
 
 say "---";
 mission( {ha => 1, gah => 0, blah => -1}, {ho => 2}, {hum => 3} ); 
+
+# (Array)
+# (Pair)
+# ha   => 1
+# blah => -1
+# gah  => 0
+# ho   => 2
+# hum  => 3
+
+
+## tricks to play with:
+##  sub church(*%fried, *@frab) { say %fried, @frab }
+
+# sub church($name, $excuse, *%fried, *@frab) { say %fried, @frab }
+# church( "me", "dog ate it", ha => 3, ho => 2,  "this would end up in @frab", heh => 3 );
+
+
