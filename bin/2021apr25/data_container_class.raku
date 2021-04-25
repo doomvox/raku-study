@@ -9,9 +9,9 @@ use v6;
 
 class MyRow {
     has Str     $.state is rw;
-    has Numeric $.area  is rw;
+#    has Numeric $.area  is rw;
 #    has Num $.area  is rw;
-#    has NumStr $.area  is rw;
+    has NumStr $.area  is rw;
 
     method Str {
         $!state;
