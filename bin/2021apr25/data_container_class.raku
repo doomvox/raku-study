@@ -17,7 +17,8 @@ class MyRow {
         $!state;
         }
 
-    method Numeric {
+#    method Numeric(Str) {  ## someday this might work for strings that look-like-number
+    method Numeric { 
         $!area;
         }
 
