@@ -63,11 +63,14 @@ my ($total, $output, $count) = (0, '', 0);
 while( my $line = <$fh> ) {
   chomp($line);
 
-  #                          /-------------------\
-  #                                              V
-  my $out_line = sprintf("%s%n%*d %d|", $line, $count, ($width - $count), $count, ($width - $count) );
-  #                             ^                          |
-  #                             \--------------------------/
+#   #                          /-------------------\
+#   #                                              V
+#   my $out_line = sprintf("%s%n%*d %d|", $line, $count, ($width - $count), $count, ($width - $count) );
+#   #                             ^                          |
+#   #                             \--------------------------/
+
+  my $out_line = sprintf( '%s%n', $line, $count )
+               ~ sprintf( '%*d %d|', ($width - $count), $count, ($width - $count) ); 
 
 #  my $out_line = sprintf("%s%n%*d", $line, $count, ($width - length($line)) , $count );
 
@@ -89,7 +92,7 @@ say $output;
 ##  o  there's no %n in raku... how about "*"?  
 
 
-my $out_line = sprintf("%*s%*d%*d", $line, $w1, $count, $w2, $numeric, $w3);
+## my $out_line = sprintf("%*s%*d%*d", $line, $w1, $count, $w2, $numeric, $w3);
 
 
 ### end main, into the subs
