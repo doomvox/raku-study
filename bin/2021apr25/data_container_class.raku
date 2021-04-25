@@ -64,6 +64,7 @@ say "---";     # NY
      my $r4 = MyRow.new( state => 'xx', area => '0' );
      say $r4.raku;
      say +$r4;
+# Type check failed in assignment to $!area; expected Numesque but got Str ("0")
 
 #     # when area is Num 
 #     # Type check failed in assignment to $!area; expected Num but got Int (10000)
