@@ -8,8 +8,8 @@ use v6;
 ## Q: how do you get it to accept a number in string form?
 
 class MyRow {
-    has Str     $.state is rw;
-    has Numeric $.area  is rw;
+    has Str      $.state is rw;
+    has Numeric  $.area  is rw;
 #    has Num $.area  is rw;
 #    has NumStr $.area  is rw;
 #    has Numeric(Str) $.area  is rw;
