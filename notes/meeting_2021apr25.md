@@ -1,33 +1,33 @@
-- [meeting notes Apr 25, 2021](#org0564a34)
-  - [meeting links](#org8a26796)
-  - [agenda stuff](#org2a3b417)
-    - [paul evans (leonerd) talk from 2020](#orgd318111)
-    - [some silly printf experiments (perl5)](#org87f4ccd)
-    - [raku idioms](#org8c21d2d)
-    - [data container class](#org87316d4)
-    - [ralph on rakuism](#orgfd34bde)
-  - [announcement](#org93e50d5)
-    - [for next week, could everyone install git if they haven't already?](#org7f3cea1)
+- [meeting notes Apr 25, 2021](#org2ad1b91)
+  - [meeting links](#orgd6afd29)
+  - [agenda stuff](#orga9f9da2)
+    - [paul evans (leonerd) talk from 2020](#orga0d1ef0)
+    - [some silly printf experiments (perl5)](#org74de0fe)
+    - [raku idioms](#orgd28cdd3)
+    - [data container class](#org88df317)
+    - [ralph on rakuism](#org98e0b3d)
+  - [announcement](#orgb1d2156)
+    - [for next week, could everyone install git if they haven't already?](#org9ef4c81)
 
 
-<a id="org0564a34"></a>
+<a id="org2ad1b91"></a>
 
 # meeting notes Apr 25, 2021
 
 
-<a id="org8a26796"></a>
+<a id="orgd6afd29"></a>
 
 ## meeting links
 
 The notes (this file): <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr25.org> more readable form of notes: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr25.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/>
 
 
-<a id="org2a3b417"></a>
+<a id="orga9f9da2"></a>
 
 ## agenda stuff
 
 
-<a id="orgd318111"></a>
+<a id="orga0d1ef0"></a>
 
 ### paul evans (leonerd) talk from 2020
 
@@ -50,33 +50,37 @@ The notes (this file): <https://github.com/doomvox/raku-study/blob/main/notes/me
     2.  some slides: /home/doom/End/Cave/Perl6/Ore/Leonerd/leonerd-match<sub>case</sub><sub>idea</sub>-01.png
 
 
-<a id="org87f4ccd"></a>
+<a id="org74de0fe"></a>
 
 ### some silly printf experiments (perl5)
 
 
-<a id="org8c21d2d"></a>
+<a id="orgd28cdd3"></a>
 
 ### raku idioms
 
 /home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
 
 
-<a id="org87316d4"></a>
+<a id="org88df317"></a>
 
 ### data container class
 
 
-<a id="orgfd34bde"></a>
+<a id="org98e0b3d"></a>
 
 ### ralph on rakuism
 
 
-<a id="org93e50d5"></a>
+<a id="orgb1d2156"></a>
 
 ## announcement
 
 
-<a id="org7f3cea1"></a>
+<a id="org9ef4c81"></a>
 
 ### for next week, could everyone install git if they haven't already?
+
+<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr25.md> :1hour, :2min
+
+<https://github.com/rakudo/rakudo/issues/4343>
