@@ -7,5 +7,8 @@ use v6;
 my %hashola = whun => 1, tew => 2, thuree => 3;
 
 say %hashola;
+# {tew => 2, thuree => 3, whun => 1}
 
 dd %hashola;
+# Hash %hashola = {:tew(2), :thuree(3), :whun(1)}
+
