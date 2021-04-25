@@ -22,7 +22,7 @@ class MyRow {
         }
 
     method BUILD {
-        self.!state = uc( $state );
+        $self.!state = uc( $state );
         }
 
     }
