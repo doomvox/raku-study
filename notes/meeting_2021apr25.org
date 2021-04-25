@@ -28,7 +28,6 @@ but you get match/case behavior when you specify a comparison
 
 https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/line_character_counting_via_sprintf.pl
 
-
 *** raku idioms
 /home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
 
