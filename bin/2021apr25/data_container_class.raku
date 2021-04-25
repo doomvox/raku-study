@@ -57,7 +57,9 @@ say "---";     # NY
     # (Oh great)
 
      ## But note:
-     # say '333'.Numeric.WHAT;  # (Int)
+     say '333'.Numeric.WHAT;  # (Int)
+
+     say 'four'.Numeric.WHAT;
 
 #     ## Puzzling, according to: https://docs.raku.org/type.html
 #     ##   Numeric 	class 	Number or object that can act as a number
