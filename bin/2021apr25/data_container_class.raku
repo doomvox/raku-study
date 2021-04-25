@@ -22,6 +22,10 @@ class MyRow {
         $!area;
         }
 
+    ## This does work:
+    ##   sub Foo ( Int(Str) $bar ) {…} 
+
+
      ## using a BUILD routine to force state to be uppercase
 #    submethod BUILD( :$state, :$area ) {  ## could write a build to accept looks-like-number strings
 
