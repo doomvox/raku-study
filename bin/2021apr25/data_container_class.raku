@@ -27,6 +27,7 @@ class MyRow {
 #        +$!area;
         say "before: ", $!area.WHAT, $!area;
         +$!area;
+        say "after: ", $!area.WHAT, $!area;
         }
 
     ## This does work:
