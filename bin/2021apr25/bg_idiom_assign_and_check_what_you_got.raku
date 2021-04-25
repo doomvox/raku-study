@@ -6,7 +6,7 @@ use v6;
 
 my @a = <A B C>, <D E F>, 42;
 for @a -> @z {
-    say $++, ":", @z.WHAT;
+    say $++, ": ", @z.WHAT;
 } 
 
 # (List)
