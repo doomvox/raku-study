@@ -26,7 +26,6 @@ class MyRow {
      submethod TWEAK {
          $!state = $!state.uc;
      }
-
     }
 
 my $r1 = MyRow.new( state => 'ny', area => 10000 );
