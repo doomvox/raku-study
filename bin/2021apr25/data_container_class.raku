@@ -24,7 +24,7 @@ class MyRow {
 
 #    method Numeric(Str) {  ## someday this might work for strings that look-like-number?
     method Numeric { 
-        $!area;
+        +$!area;
         }
 
     ## This does work:
