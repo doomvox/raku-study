@@ -35,8 +35,6 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/line_character_cou
 https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
 /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr25/data_container_class.raku
 
-*** ralph on rakuism 
-
 ** announcement
 *** for next week, could everyone install git if they haven't already?
 

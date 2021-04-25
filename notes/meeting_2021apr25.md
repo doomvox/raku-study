@@ -1,41 +1,40 @@
-- [meeting notes Apr 25, 2021](#org3c6bcea)
-  - [meeting links](#org43b1c2f)
-  - [agenda stuff](#org1d6bfc1)
-    - [slurpy hash named arguments, discussion with ralph](#org84d5aff)
-    - [paul evans (leonerd) talk from 2020 (or 2021?)](#orga732c48)
-    - [some silly printf experiments (perl5)](#org8c2b3f0)
-    - [raku idioms](#orgfa14bf9)
-    - [data container class](#orgdd419a5)
-    - [ralph on rakuism](#orgfb74684)
-  - [announcement](#orgb31f170)
-    - [for next week, could everyone install git if they haven't already?](#org35ae932)
+- [meeting notes Apr 25, 2021](#org9ac62a6)
+  - [meeting links](#orgfa3a4ba)
+  - [agenda stuff](#orgdfd32ca)
+    - [slurpy hash named arguments, discussion with ralph](#orgee41aec)
+    - [paul evans (leonerd) talk from 2020 (or 2021?)](#orgb3694c7)
+    - [some silly printf experiments (perl5)](#org84416e4)
+    - [raku idioms](#org530e1ad)
+    - [data container class](#orgbea9b88)
+  - [announcement](#orgb4c2564)
+    - [for next week, could everyone install git if they haven't already?](#org71d8ea2)
 
 
-<a id="org3c6bcea"></a>
+<a id="org9ac62a6"></a>
 
 # meeting notes Apr 25, 2021
 
 
-<a id="org43b1c2f"></a>
+<a id="orgfa3a4ba"></a>
 
 ## meeting links
 
 The notes (this file): <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr25.org> more readable form of notes: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr25.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/>
 
 
-<a id="org1d6bfc1"></a>
+<a id="orgdfd32ca"></a>
 
 ## agenda stuff
 
 
-<a id="org84d5aff"></a>
+<a id="orgee41aec"></a>
 
 ### slurpy hash named arguments, discussion with ralph
 
 <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9883.html>
 
 
-<a id="orga732c48"></a>
+<a id="orgb3694c7"></a>
 
 ### paul evans (leonerd) talk from 2020 (or 2021?)
 
@@ -58,37 +57,32 @@ The notes (this file): <https://github.com/doomvox/raku-study/blob/main/notes/me
     2.  some slides: /home/doom/End/Cave/Perl6/Ore/Leonerd/leonerd-match<sub>case</sub><sub>idea</sub>-01.png
 
 
-<a id="org8c2b3f0"></a>
+<a id="org84416e4"></a>
 
 ### some silly printf experiments (perl5)
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/line_character_counting_via_sprintf.pl>
 
 
-<a id="orgfa14bf9"></a>
+<a id="org530e1ad"></a>
 
 ### raku idioms
 
 /home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
 
 
-<a id="orgdd419a5"></a>
+<a id="orgbea9b88"></a>
 
 ### data container class
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr25/data<sub>container</sub><sub>class.raku</sub>
 
 
-<a id="orgfb74684"></a>
-
-### ralph on rakuism
-
-
-<a id="orgb31f170"></a>
+<a id="orgb4c2564"></a>
 
 ## announcement
 
 
-<a id="org35ae932"></a>
+<a id="org71d8ea2"></a>
 
 ### for next week, could everyone install git if they haven't already?
