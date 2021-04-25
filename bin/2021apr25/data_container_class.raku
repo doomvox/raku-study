@@ -8,7 +8,6 @@ use v6;
 ## Q: how do you get it to accept a number in string form?
 
 ## special num type that takes a string that looks like a num (potentially useful?)
-
 subset Numesque of Any where { defined .Numeric };
 
 class MyRow {
