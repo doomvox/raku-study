@@ -12,3 +12,5 @@ say %hashola;
 dd %hashola;
 # Hash %hashola = {:tew(2), :thuree(3), :whun(1)}
 
+
+say %hashola.raku;
