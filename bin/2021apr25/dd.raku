@@ -6,3 +6,6 @@ use v6;
 
 my %hashola = whun => 1, tew => 2, thuree => 3;
 
+say %hashola;
+
+dd %hashola;
