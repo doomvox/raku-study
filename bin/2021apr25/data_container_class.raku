@@ -4,26 +4,23 @@
 
 use v6;
 
-## Despite the names Row and Table (which sound like general purpose
-## classes) these are actually special-purpose.  So: "My*" ? 
-
 ## Q: what's a good type for a general purpose numeric field.  Numeric?
 ## Q: how do you get it to accept a number in numeric form?
 
-class Row {
+class MyRow {
     has Str     $.state is rw;
     has Numeric $.area  is rw;
 #    has Num $.area  is rw;
 #    has NumStr $.area  is rw;
     }
 
-my $r1 = Row.new( state => 'ny', area => 10000 );
-my $r2 = Row.new( state => 'ca', area => 666.67 );
+my $r1 = MyRow.new( state => 'ny', area => 10000 );
+my $r2 = MyRow.new( state => 'ca', area => 666.67 );
 
 say $r1, ' ', $r2;
 
 {
-    my $r3 = Row.new( state => 'tn', area => '333' );
+    my $r3 = MyRow.new( state => 'tn', area => '333' );
 
     # when area is Num 
     # Type check failed in assignment to $!area; expected Num but got Int (10000)
@@ -45,9 +42,9 @@ say $r1, ' ', $r2;
 }
 
 {
-    my $r3 = Row.new( state => 'tn', area => '333'.Numeric );
+    my $r3 = MyRow.new( state => 'tn', area => '333'.Numeric );
     say $r1, ' ', $r2, ' ', $r3;
-    # Row.new(state => "ny", area => 10000) Row.new(state => "ca", area => 666.67) Row.new(state => "tn", area => 333)
+    # MyRow.new(state => "ny", area => 10000) MyRow.new(state => "ca", area => 666.67) MyRow.new(state => "tn", area => 333)
 
     # And so we have learned, assigning to a Numeric field will not cast to .Numeric, 
     # not even when that's eminently doable.
@@ -65,15 +62,15 @@ say $r1, ' ', $r2;
 
 
 
-class Table {
+class MyTable {
     has      @.data  is rw;  ## restrict to an array of arrays somehow?  drop "rw"?  and "."?
-    has Row  @.rows  is rw;
+    has MyRow  @.rows  is rw;
 
     submethod TWEAK {
         my @new;
         for @!data -> ( $state, $area ) {
             my $obj = 
-              Row.new( :$state, :$area );
+              MyRow.new( :$state, :$area );
             @new.push( $obj );
         }
         @!rows = @new; ## binding operator?
@@ -87,12 +84,12 @@ my @raw = (
     ( 'gamma', 3 ),    
 );
 
-my @rows = Table.new( data => @raw );
+my @rows = MyTable.new( data => @raw );
 
 say @rows;
 
 
 ## I might want something more like this:
-##   Table.new( @rows );
+##   MyTable.new( @rows );
 ## But my guess is I might want additional fields 
 
