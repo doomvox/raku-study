@@ -9,8 +9,8 @@ for @a -> @z {
     say $++, ": ", @z.WHAT;
 } 
 
-# (List)
-# (List)
+# 0: (List)
+# 1: (List)
 # Type check failed in binding to parameter '@z'; expected Positional but got Int (42)
 # in block <unit> at -e line 1 
 
