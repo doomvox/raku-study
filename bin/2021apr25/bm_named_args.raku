@@ -58,6 +58,10 @@ mission( {ha => 1, gah => 0, blah => -1}, {ho => 2}, {hum => 3} );
 
 say "===";
 
+my %h1 = a => 1, b => 2, c => 3;
+my %h2 = godzilla => 666,  grendel => 23,  wormface => 7;
+my %h3 = ();
+
 my @a = ( %h1, %h2, %h3 );
 my $some_hash = @a[1];
 
