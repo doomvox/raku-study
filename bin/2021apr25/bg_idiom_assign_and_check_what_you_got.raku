@@ -13,3 +13,11 @@ for @a -> @z {
 # (List)
 # Type check failed in binding to parameter '@z'; expected Positional but got Int (42)
 # in block <unit> at -e line 1 
+
+
+
+
+
+
+## Make errors into warnings
+CATCH { default { say "CAUGHT: ", .Str; .resume-force-just-do-it-stop-bugging-me-keep-going-you-idjit } }
