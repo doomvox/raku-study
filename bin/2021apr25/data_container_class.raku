@@ -24,7 +24,7 @@ class MyRow {
      ## using a BUILD routine to force state to be uppercase
 #    submethod BUILD( :$state, :$area ) {
      submethod TWEAK {
-         $!state = $state.uc;
+         $!state = $!state.uc;
      }
 
     }
