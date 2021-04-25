@@ -41,8 +41,8 @@ say ''~$r1;    # NY
 say $r1.gist;  # MyRow.new(state => "NY", area => 10000)
 say "---";     # NY
 
-# {
-#     my $r3 = MyRow.new( state => 'tn', area => '333' );
+ {
+     my $r3 = MyRow.new( state => 'tn', area => '333' );
 
 #     # when area is Num 
 #     # Type check failed in assignment to $!area; expected Num but got Int (10000)
@@ -50,18 +50,20 @@ say "---";     # NY
 #     # when area is NumStr
 #     # Type check failed in assignment to $!area; expected NumStr but got Int (10000)
 
-#     # when area is Numeric:
-#     #   Type check failed in assignment to $!area; expected Numeric but got Str ("333")
-#     # (Oh great)
+    # when area is Numeric:
+    #   Type check failed in assignment to $!area; expected Numeric but got Str ("333")
+    # (Oh great)
 
-#     ## But note:
-#     # say '333'.Numeric.WHAT;  # (Int)
+     ## But note:
+     # say '333'.Numeric.WHAT;  # (Int)
+
 #     ## Puzzling, according to: https://docs.raku.org/type.html
 #     ##   Numeric 	class 	Number or object that can act as a number
 
 #     CATCH { default { say "CAUGHT: ", .Str; .resume } } ## Yow: I found a *resumbable* error!
 #     # CAUGHT: Type check failed in assignment to $!area; expected Numeric but got Str ("333")
-# }
+
+}
 
 # {
 #     my $r3 = MyRow.new( state => 'tn', area => '333'.Numeric );
