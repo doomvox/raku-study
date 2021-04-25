@@ -18,7 +18,7 @@ class MyRow {
         }
 
     method Numeric {
-        $!state;
+        $!area;
         }
 
     }
