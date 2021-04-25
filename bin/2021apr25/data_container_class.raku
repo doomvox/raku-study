@@ -28,7 +28,7 @@ class MyRow {
         say "before: ", $!area.WHAT, ' ', $!area;
         my $ret = +$!area;
         say "ret: ", $!ret.WHAT, '  ', $!ret;
-        $ret;
+        return $ret;
         }
 
     ## This does work:
