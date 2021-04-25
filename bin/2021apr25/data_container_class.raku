@@ -23,9 +23,11 @@ class MyRow {
 
      ## using a BUILD routine to force state to be uppercase
 #    submethod BUILD( :$state, :$area ) {
-     submethod TWEAK {
+
+     submethod TWEAK {  ## emacs jargon after-hook
          $!state = $!state.uc;
      }
+
     }
 
 my $r1 = MyRow.new( state => 'ny', area => 10000 );
