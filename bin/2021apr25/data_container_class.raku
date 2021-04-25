@@ -34,13 +34,12 @@ my $r2 = MyRow.new( state => 'ca', area => 666.67 );
 say "---XXX---";
 say $r1, ' ', $r2;
 
-say "$r1";   # NY
-say +$r1;    # 10000
-say ~$r1;    # NY
-say ''~$r1;  # NY
-say $r1.gist;
-say "---";   # NY
-
+say "$r1";     # NY
+say +$r1;      # 10000
+say ~$r1;      # NY
+say ''~$r1;    # NY
+say $r1.gist;  # MyRow.new(state => "NY", area => 10000)
+say "---";     # NY
 
 # {
 #     my $r3 = MyRow.new( state => 'tn', area => '333' );
