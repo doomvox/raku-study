@@ -22,8 +22,8 @@ genius( fred => {ha => 1}, george => {ho => 2}, ginger => {hum => 3} ); ## serie
 # {fred => {ha => 1}, george => {ho => 2}, ginger => {hum => 3}}
 
 
-say {ha => 1}.WHAT;
-say (ha => 1).WHAT;
+say {ha => 1}.WHAT;  # (Hash)
+say (ha => 1).WHAT;  # (Pair)
 
 sub mission( *@tank ) {
     say @tank.WHAT;     # (Array)
