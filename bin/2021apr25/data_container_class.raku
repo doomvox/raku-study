@@ -39,9 +39,9 @@ class MyRow {
      }
 
 
-                 submethod BUILD ( Numeric(Cool) :$area ) { $!area = $area; }; my $o = Foo.new: area => "42"; say $o.raku;}' 
-
-
+     submethod BUILD ( Numeric(Cool) :$area ) {
+         $!area = $area;
+     };
 
     }
 
