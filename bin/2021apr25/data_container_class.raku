@@ -17,7 +17,7 @@ class MyRow {
         $!state;
         }
 
-    method Str {
+    method Numeric {
         $!state;
         }
 
