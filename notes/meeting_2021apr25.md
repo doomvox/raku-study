@@ -1,41 +1,42 @@
-- [meeting notes Apr 25, 2021](#orgb049f97)
-  - [meeting links](#orgfb3cb5a)
-  - [agenda stuff](#org4e8d372)
-    - [slurpy hash named arguments, discussion with ralph](#orgc1fd528)
-    - [paul evans (leonerd) talk from 2020 (or 2021?)](#orgfb5008d)
-    - [some silly printf experiments (perl5)](#org000fb7c)
-    - [raku idioms](#orgd880752)
-    - [data container class](#orgc2056d8)
-  - [announcement](#org6aaba22)
-    - [for next week, could everyone install git if they haven't already?](#org1a40575)
-    - [bruce gray rosetta  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#orgb6c4d8c)
+- [meeting notes Apr 25, 2021](#org4b5f7ed)
+  - [meeting links](#org3038649)
+  - [agenda stuff](#orged1776d)
+    - [slurpy hash named arguments, discussion with ralph](#org50b15c5)
+    - [paul evans (leonerd) talk from 2020 (or 2021?)](#org1cefc53)
+    - [some silly printf experiments (perl5)](#orgc0e7392)
+    - [raku idioms](#orgdbf7fa3)
+    - [data container class](#org169d31e)
+  - [announcement](#org26faf33)
+    - [for next week, could everyone install git if they haven't already?](#org6e53245)
+    - [bruce gray rosetta  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#org0fdfe0f)
+    - [](#orgf0477bb)
 
 
-<a id="orgb049f97"></a>
+<a id="org4b5f7ed"></a>
 
 # meeting notes Apr 25, 2021
 
 
-<a id="orgfb3cb5a"></a>
+<a id="org3038649"></a>
 
 ## meeting links
 
 The notes (this file): <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr25.org> more readable form of notes: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr25.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/>
 
 
-<a id="org4e8d372"></a>
+<a id="orged1776d"></a>
 
 ## agenda stuff
 
 
-<a id="orgc1fd528"></a>
+<a id="org50b15c5"></a>
 
 ### slurpy hash named arguments, discussion with ralph
 
 <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9883.html>
 
 
-<a id="orgfb5008d"></a>
+<a id="org1cefc53"></a>
 
 ### paul evans (leonerd) talk from 2020 (or 2021?)
 
@@ -58,37 +59,44 @@ The notes (this file): <https://github.com/doomvox/raku-study/blob/main/notes/me
     2.  some slides: /home/doom/End/Cave/Perl6/Ore/Leonerd/leonerd-match<sub>case</sub><sub>idea</sub>-01.png
 
 
-<a id="org000fb7c"></a>
+<a id="orgc0e7392"></a>
 
 ### some silly printf experiments (perl5)
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/line_character_counting_via_sprintf.pl>
 
 
-<a id="orgd880752"></a>
+<a id="orgdbf7fa3"></a>
 
 ### raku idioms
 
 /home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
 
 
-<a id="orgc2056d8"></a>
+<a id="org169d31e"></a>
 
 ### data container class
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr25/data<sub>container</sub><sub>class.raku</sub>
 
 
-<a id="org6aaba22"></a>
+<a id="org26faf33"></a>
 
 ## announcement
 
 
-<a id="org1a40575"></a>
+<a id="org6e53245"></a>
 
 ### for next week, could everyone install git if they haven't already?
 
 
-<a id="orgb6c4d8c"></a>
+<a id="org0fdfe0f"></a>
 
 ### bruce gray rosetta  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
+
+
+<a id="orgf0477bb"></a>
+
+### 
+
+"All your idioms are belong to us" <https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/>
