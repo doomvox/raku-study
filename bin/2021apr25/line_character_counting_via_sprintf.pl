@@ -69,6 +69,7 @@ while( my $line = <$fh> ) {
 #   #                             ^                          |
 #   #                             \--------------------------/
 
+  ## bg solution this actually works:
   my $out_line = sprintf( '%s%n', $line, $count )
                . sprintf( '%*d %d|', ($width - $count), $count, ($width - $count) ); 
 
