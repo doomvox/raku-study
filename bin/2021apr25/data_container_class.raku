@@ -33,6 +33,11 @@ my $r2 = MyRow.new( state => 'ca', area => 666.67 );
 
 say $r1, ' ', $r2;
 
+say "$r1";
+
+say +$r1;
+
+
 {
     my $r3 = MyRow.new( state => 'tn', area => '333' );
 
