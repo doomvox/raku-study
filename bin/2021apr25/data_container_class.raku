@@ -7,6 +7,9 @@ use v6;
 ## Q: what's a good type for a general purpose numeric field.  Is Numeric best?
 ## Q: how do you get it to accept a number in string form?
 
+subset Numesque of Int where * > -1;
+
+
 class MyRow {
     has Str      $.state is rw;
     has Numeric  $.area  is rw;
