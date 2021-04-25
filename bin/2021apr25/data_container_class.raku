@@ -21,6 +21,7 @@ class MyRow {
         $!area;
         }
 
+     ## using a BUILD routine to force state to be uppercase
      method BUILD( :$state, :$area ) {
          $!state = $state.uc;
      }
