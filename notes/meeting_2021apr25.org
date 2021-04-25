@@ -17,3 +17,4 @@ but you get match/case behavior when you specify a comparison
 *** raku idioms
 /home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
 
+*** data container class
