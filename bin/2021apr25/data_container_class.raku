@@ -43,7 +43,7 @@ say ~$r1;  # NY
 
 say ''~$r1;  # NY
 
-say "---";
+say "---";   # NY
 
 
 # {
