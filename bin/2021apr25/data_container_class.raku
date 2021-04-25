@@ -18,7 +18,6 @@ class MyRow {
 
     has Numesque  $.area  is rw;
 
-
     method Str {
         $!state;
         }
