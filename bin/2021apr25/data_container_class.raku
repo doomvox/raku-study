@@ -22,7 +22,7 @@ class MyRow {
         }
 
      method BUILD( :$state, :$area ) {
-         $!state = $!state.uc;
+         $!state = $state.uc;
      }
 
     }
