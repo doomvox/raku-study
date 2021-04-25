@@ -48,8 +48,10 @@ mission( {ha => 1, gah => 0, blah => -1}, {ho => 2}, {hum => 3} );
 
 
 ## tricks to play with:
+## (1)
 ##  sub church(*%fried, *@frab) { say %fried, @frab }
 
+## (2)
 # sub church($name, $excuse, *%fried, *@frab) { say %fried, @frab }
 # church( "me", "dog ate it", ha => 3, ho => 2,  "this would end up in @frab", heh => 3 );
 
