@@ -61,7 +61,7 @@ say "---";     # NY
      say '333'+1;
 
 
-     my $r4 = MyRow.new( state => 'tn', area => '333' );
+     my $r4 = MyRow.new( state => 'xx', area => '0' );
      say $r4.raku;
      say +$r4;
 
