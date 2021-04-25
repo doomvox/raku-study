@@ -4,7 +4,12 @@
 
 use v6;
 
+sub genius(*%fried) { say %fried };
+# genius( ha => 1, ho => 2, hum => 3 );
+# ## Output: {ha => 1, ho => 2, hum => 3}
+
 genius( ha => 1, ho => 2, hum => 3 );
+
 {ha => 1, ho => 2, hum => 3}
 > genius( {ha => 1}, {ho => 2}, {hum => 3} );
 Too many positionals passed; expected 0 arguments but got 3
