@@ -38,7 +38,6 @@ class MyRow {
          $!state = $!state.uc;
      }
 
-
      submethod BUILD ( Numeric(Cool) :$!area, :$!state ) { }; 
      # No need for body:
      #         $!area = $area;
