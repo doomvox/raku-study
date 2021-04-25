@@ -46,6 +46,8 @@ mission( {ha => 1, gah => 0, blah => -1}, {ho => 2}, {hum => 3} );
 # ho   => 2
 # hum  => 3
 
+## hashes get flattened when passed to slurpy arrays?  Hm.
+
 
 ## tricks to play with:
 ## (1)
