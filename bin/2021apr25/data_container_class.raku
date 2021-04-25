@@ -43,7 +43,7 @@ say $r1.gist;  # MyRow.new(state => "NY", area => 10000)
 say "---";     # NY
 
  {
-#     my $r3 = MyRow.new( state => 'tn', area => '333' );
+     my $r3 = MyRow.new( state => 'tn', area => '333' );
 
 #     # when area is Num 
 #     # Type check failed in assignment to $!area; expected Num but got Int (10000)
@@ -56,8 +56,8 @@ say "---";     # NY
     # (Oh great)
 
      ## But note:
-     say '333'.Numeric.WHAT;   #  (Int)
-     say 'four'.Numeric.WHAT;  #  (Failure)
+#     say '333'.Numeric.WHAT;   #  (Int)
+#     say 'four'.Numeric.WHAT;  #  (Failure)
 
 #     ## Puzzling, according to: https://docs.raku.org/type.html
 #     ##   Numeric 	class 	Number or object that can act as a number
