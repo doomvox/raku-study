@@ -23,7 +23,7 @@ genius( fred => {ha => 1}, george => {ho => 2}, ginger => {hum => 3} ); ## serie
 
 
 say {ha => 1}.WHAT;
-
+say ha => 1.WHAT;
 
 sub mission( *@tank ) {
     say @tank.WHAT;     # (Array)
