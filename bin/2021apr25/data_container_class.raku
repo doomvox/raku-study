@@ -43,11 +43,6 @@ class MyRow {
 #         $!area = $area;
      };
 
-     
-
-
-
-
     }
 
 my $r1 = MyRow.new( state => 'ny', area => 10000 );
