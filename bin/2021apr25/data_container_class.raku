@@ -76,6 +76,12 @@ say "---";     # NY
      say $r5.raku;
      say +$r5;
 
+     # Earlier failure:
+     # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏six' (indicated by ⏏)
+
+     # Final error:
+     # Type check failed in assignment to $!area; expected Numeric but got Failure (Failure.new(exceptio...)
+
 
 
 
