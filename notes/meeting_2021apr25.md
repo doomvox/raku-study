@@ -1,24 +1,32 @@
-- [meeting notes Apr 25, 2021](#orgbfc87c9)
-  - [agenda stuff](#org0722346)
-    - [paul evans (leonerd) talk from 2020](#orgb12f0c6)
-    - [some silly printf experiments (perl5)](#org1a9c535)
-    - [raku idioms](#orga4ffab9)
-    - [data container class](#org75aabc5)
-  - [announcement](#org2e2e922)
-    - [for next week, could everyone install git if they haven't already?](#org5327866)
+- [meeting notes Apr 25, 2021](#orgf5fa3dd)
+  - [meeting links](#org290ca8d)
+  - [agenda stuff](#orgf260ad7)
+    - [paul evans (leonerd) talk from 2020](#org3f68b9d)
+    - [some silly printf experiments (perl5)](#org4fb24d9)
+    - [raku idioms](#orgacfb90d)
+    - [data container class](#org2314f0f)
+  - [announcement](#orgc329374)
+    - [for next week, could everyone install git if they haven't already?](#org4eaa8e6)
 
 
-<a id="orgbfc87c9"></a>
+<a id="orgf5fa3dd"></a>
 
 # meeting notes Apr 25, 2021
 
 
-<a id="org0722346"></a>
+<a id="org290ca8d"></a>
+
+## meeting links
+
+The notes (this file): <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr25.org> more readable form of notes: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr25.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/>
+
+
+<a id="orgf260ad7"></a>
 
 ## agenda stuff
 
 
-<a id="orgb12f0c6"></a>
+<a id="org3f68b9d"></a>
 
 ### paul evans (leonerd) talk from 2020
 
@@ -41,28 +49,28 @@
     2.  some slides: /home/doom/End/Cave/Perl6/Ore/Leonerd/leonerd-match<sub>case</sub><sub>idea</sub>-01.png
 
 
-<a id="org1a9c535"></a>
+<a id="org4fb24d9"></a>
 
 ### some silly printf experiments (perl5)
 
 
-<a id="orga4ffab9"></a>
+<a id="orgacfb90d"></a>
 
 ### raku idioms
 
 /home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
 
 
-<a id="org75aabc5"></a>
+<a id="org2314f0f"></a>
 
 ### data container class
 
 
-<a id="org2e2e922"></a>
+<a id="orgc329374"></a>
 
 ## announcement
 
 
-<a id="org5327866"></a>
+<a id="org4eaa8e6"></a>
 
 ### for next week, could everyone install git if they haven't already?

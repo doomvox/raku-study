@@ -1,4 +1,12 @@
 * meeting notes Apr 25, 2021
+** meeting links
+The notes (this file):
+https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr25.org
+more readable form of notes:
+https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr25.md
+code examples:
+https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/
+
 ** agenda stuff
 *** paul evans (leonerd) talk from 2020
 **** https://ftp.osuosl.org/pub/fosdem/2021/D.perl/perl_in_2025.mp4
