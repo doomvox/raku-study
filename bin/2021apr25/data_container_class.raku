@@ -53,6 +53,8 @@ say "---";     # NY
 
  {
      my $r3 = MyRow.new( state => 'tn', area => '333' );
+     say $r3;
+     say +$r3;
 
 #     # when area is Num 
 #     # Type check failed in assignment to $!area; expected Num but got Int (10000)
