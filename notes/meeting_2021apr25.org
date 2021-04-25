@@ -24,8 +24,6 @@ but you get match/case behavior when you specify a comparison
 ***** some slides: /home/doom/End/Cave/Perl6/Ore/Leonerd/leonerd-match_case_idea-01.png
 
 *** some silly printf experiments (perl5)
-#  my $rounded = sprintf("%3.2f", $cost);
-
 https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/line_character_counting_via_sprintf.pl
 
 *** raku idioms
