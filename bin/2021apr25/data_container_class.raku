@@ -70,7 +70,20 @@ say "---";     # NY
      my $r4 = MyRow.new( state => 'xx', area => '0' );
      say $r4.raku;
      say +$r4;
-# Type check failed in assignment to $!area; expected Numesque but got Str ("0")
+
+
+     my $r5 = MyRow.new( state => 'zn', area => 'six' );
+     say $r5.raku;
+     say +$r5;
+
+
+
+
+     # With the Defined check in Numesque can cover for this:
+     # Type check failed in assignment to $!area; expected Numesque but got Str ("0")
+
+
+
 
 #     # when area is Num 
 #     # Type check failed in assignment to $!area; expected Num but got Int (10000)
