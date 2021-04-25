@@ -59,6 +59,14 @@ say "---";     # NY
     #   Type check failed in assignment to $!area; expected Numeric but got Str ("333")
     # (Oh great)
 
+
+    # Using this hypothetical:
+    #     has Numeric(Str) $.area  is rw;
+
+    # ===SORRY!=== Error while compiling /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr25/data_container_class.raku
+    # Coercion 'Numeric(Str)' is insufficiently type-like to qualify a
+    # variable.  Did you mean 'class'?
+
      ## But note:
 #     say '333'.Numeric.WHAT;   #  (Int)
 #     say 'four'.Numeric.WHAT;  #  (Failure)
