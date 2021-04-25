@@ -37,6 +37,12 @@ class MyRow {
      submethod TWEAK {  ## emacs jargon after-hook
          $!state = $!state.uc;
      }
+
+
+                 submethod BUILD ( Numeric(Cool) :$area ) { $!area = $area; }; my $o = Foo.new: area => "42"; say $o.raku;}' 
+
+
+
     }
 
 my $r1 = MyRow.new( state => 'ny', area => 10000 );
