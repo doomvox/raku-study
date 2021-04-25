@@ -93,7 +93,7 @@ say $output;
 ##  o  there's no %n in raku... how about "*"?  
 
 
-## my $out_line = sprintf("%*s%*d%*d", $line, $w1, $count, $w2, $numeric, $w3);
+my $out_line = sprintf("%*s%*d%*d", $line, $w1, $count, $w2, $numeric, $w3);
 
 
 ### end main, into the subs
