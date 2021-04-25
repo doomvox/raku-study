@@ -63,13 +63,14 @@ my ($total, $output, $count) = (0, '', 0);
 while( my $line = <$fh> ) {
   chomp($line);
 
-#   #                          /-------------------\
-#   #                                              V
-#   my $out_line = sprintf("%s%n%*d %d|", $line, $count, ($width - $count), $count, ($width - $count) );
-#   #                             ^                          |
-#   #                             \--------------------------/
+  #                          /-------------------\
+  #                                              V
+  my $out_line = sprintf("%s%n%*d %d|", $line, $count, ($width - $count), $count, ($width - $count) );
+  #                             ^                          |
+  #                             \--------------------------/
 
-  my $out_line = sprintf("%s%n%*d", $line, $count, ($width - length($line)) , $count );
+#  my $out_line = sprintf("%s%n%*d", $line, $count, ($width - length($line)) , $count );
+
   $output .= $out_line . "\n";
   $total += $count;
 }
