@@ -38,6 +38,7 @@ say "$r1";   # NY
 say +$r1;    # 10000
 say ~$r1;    # NY
 say ''~$r1;  # NY
+say $r1.gist;
 say "---";   # NY
 
 
