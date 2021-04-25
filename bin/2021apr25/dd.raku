@@ -14,3 +14,4 @@ dd %hashola;
 
 
 say %hashola.raku;
+# {:tew(2), :thuree(3), :whun(1)}
