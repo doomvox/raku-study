@@ -5,7 +5,7 @@
 use v6;
 
 ## Q: what's a good type for a general purpose numeric field.  Is Numeric best?
-## Q: how do you get it to accept a number in numeric form?
+## Q: how do you get it to accept a number in string form?
 
 class MyRow {
     has Str     $.state is rw;
