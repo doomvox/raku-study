@@ -37,6 +37,7 @@ say "$r1";
 
 say +$r1;
 
+say "---";
 
 {
     my $r3 = MyRow.new( state => 'tn', area => '333' );
