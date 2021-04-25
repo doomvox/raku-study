@@ -67,3 +67,5 @@ my $some_hash = @a[1];
 
 say $some_hash.WHAT; # (Hash)
 say @a;
+#  [{a => 1, b => 2, c => 3} {godzilla => 666, grendel => 23, wormface => 7} {}]
+
