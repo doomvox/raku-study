@@ -20,7 +20,6 @@ class MyRow {
     method Numeric {
         $!area;
         }
-
     }
 
 my $r1 = MyRow.new( state => 'ny', area => 10000 );
