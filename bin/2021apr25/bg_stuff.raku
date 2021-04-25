@@ -5,9 +5,16 @@
 use v6;
 
 my @a = <A B>, <D E>, <X Y>;
-for @a -> [$first, $second] {
+for @a -> [$first, $second] {  ## some languages call this "pattern matching" ?
 
     say "first: $first";
     say "second: $second";
 
 } 
+
+# first: A
+# second: B
+# first: D
+# second: E
+# first: X
+# second: Y
