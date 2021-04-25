@@ -59,6 +59,8 @@ say "---";     # NY
      say $r3;
      say $r3+1;
 
+     say '333'+1;
+
 #     # when area is Num 
 #     # Type check failed in assignment to $!area; expected Num but got Int (10000)
 
