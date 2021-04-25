@@ -27,7 +27,7 @@ class MyRow {
 #        +$!area;
         say "before: ", $!area.WHAT, ' ', $!area;
         my $ret = +$!area;
-        say "ret: ", $!ret.WHAT, '  ', $!rer;
+        say "ret: ", $!ret.WHAT, '  ', $!ret;
         $ret;
         }
 
