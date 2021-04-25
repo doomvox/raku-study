@@ -64,7 +64,7 @@ say "---";     # NY
      my $r4 = MyRow.new( state => 'tn', area => '333' );
      say $r4.raku;
      say $r4.gist;
-     say $r4;
+     say +$r4;
 
 #     # when area is Num 
 #     # Type check failed in assignment to $!area; expected Num but got Int (10000)
