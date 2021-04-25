@@ -32,7 +32,7 @@ class MyRow {
 my $r1 = MyRow.new( state => 'ny', area => 10000 );
 my $r2 = MyRow.new( state => 'ca', area => 666.67 );
 
-say "---";
+say "---XXX---";
 say $r1, ' ', $r2;
 
 say "$r1"; # NY
