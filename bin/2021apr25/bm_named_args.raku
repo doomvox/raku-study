@@ -56,6 +56,7 @@ mission( {ha => 1, gah => 0, blah => -1}, {ho => 2}, {hum => 3} );
 # sub church($name, $excuse, *%fried, *@frab) { say %fried, @frab }
 # church( "me", "dog ate it", ha => 3, ho => 2,  "this would end up in @frab", heh => 3 );
 
+say "===";
 
 my @a = ( %h1, %h2, %h3 );
 my $some_hash = @a[1];
