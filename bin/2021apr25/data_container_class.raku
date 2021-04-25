@@ -40,8 +40,8 @@ class MyRow {
 
 
      submethod BUILD ( Numeric(Cool) :$!area, :$!state ) { }; 
-#         $!area = $area;
-
+     # No need for body:
+     #         $!area = $area;
     }
 
 my $r1 = MyRow.new( state => 'ny', area => 10000 );
