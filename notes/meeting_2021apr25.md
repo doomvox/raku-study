@@ -1,41 +1,41 @@
-- [meeting notes Apr 25, 2021](#orge9bde23)
-  - [meeting links](#org245f441)
-  - [agenda stuff](#orge398333)
-    - [slurpy hash named arguments, discussion with ralph](#org78f306c)
-    - [paul evans (leonerd) talk from 2020 (or 2021?)](#org1a67564)
-    - [some silly printf experiments (perl5)](#org74a7b60)
-    - [raku idioms](#org0d69298)
-    - [data container class](#org8ac7d1d)
-  - [announcement](#orgffab4eb)
-    - [for next week, could everyone install git if they haven't already?](#org3baa431)
-    - [<https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#org2740532)
+- [meeting notes Apr 25, 2021](#org111da5e)
+  - [meeting links](#orgfb99fee)
+  - [agenda stuff](#org7d2eb9e)
+    - [slurpy hash named arguments, discussion with ralph](#orgfec0983)
+    - [paul evans (leonerd) talk from 2020 (or 2021?)](#org517cf20)
+    - [some silly printf experiments (perl5)](#orgf5d18ce)
+    - [raku idioms](#org209c44e)
+    - [data container class](#orgdd9d921)
+  - [announcement](#org16398d2)
+    - [for next week, could everyone install git if they haven't already?](#orgb4d5c9e)
+    - [bruce gray rosetta  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#orge89647a)
 
 
-<a id="orge9bde23"></a>
+<a id="org111da5e"></a>
 
 # meeting notes Apr 25, 2021
 
 
-<a id="org245f441"></a>
+<a id="orgfb99fee"></a>
 
 ## meeting links
 
 The notes (this file): <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr25.org> more readable form of notes: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021apr25.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/>
 
 
-<a id="orge398333"></a>
+<a id="org7d2eb9e"></a>
 
 ## agenda stuff
 
 
-<a id="org78f306c"></a>
+<a id="orgfec0983"></a>
 
 ### slurpy hash named arguments, discussion with ralph
 
 <https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9883.html>
 
 
-<a id="org1a67564"></a>
+<a id="org517cf20"></a>
 
 ### paul evans (leonerd) talk from 2020 (or 2021?)
 
@@ -58,37 +58,37 @@ The notes (this file): <https://github.com/doomvox/raku-study/blob/main/notes/me
     2.  some slides: /home/doom/End/Cave/Perl6/Ore/Leonerd/leonerd-match<sub>case</sub><sub>idea</sub>-01.png
 
 
-<a id="org74a7b60"></a>
+<a id="orgf5d18ce"></a>
 
 ### some silly printf experiments (perl5)
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/line_character_counting_via_sprintf.pl>
 
 
-<a id="org0d69298"></a>
+<a id="org209c44e"></a>
 
 ### raku idioms
 
 /home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
 
 
-<a id="org8ac7d1d"></a>
+<a id="orgdd9d921"></a>
 
 ### data container class
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr25/data<sub>container</sub><sub>class.raku</sub>
 
 
-<a id="orgffab4eb"></a>
+<a id="org16398d2"></a>
 
 ## announcement
 
 
-<a id="org3baa431"></a>
+<a id="orgb4d5c9e"></a>
 
 ### for next week, could everyone install git if they haven't already?
 
 
-<a id="org2740532"></a>
+<a id="orge89647a"></a>
 
-### <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
+### bruce gray rosetta  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>

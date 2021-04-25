@@ -35,7 +35,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_cla
 
 ** announcement
 *** for next week, could everyone install git if they haven't already?
-*** https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
+*** TODO bruce gray rosetta  https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
 
 
 
