@@ -21,7 +21,7 @@ class MyRow {
         $!area;
         }
 
-     method BUILD( :$state, ;$area ) {
+     method BUILD( :$state, :$area ) {
          $!state = $!state.uc;
      }
 
