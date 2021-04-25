@@ -63,7 +63,6 @@ say "---";     # NY
 
      my $r4 = MyRow.new( state => 'tn', area => '333' );
      say $r4.raku;
-     say $r4.gist;
      say +$r4;
 
 #     # when area is Num 
