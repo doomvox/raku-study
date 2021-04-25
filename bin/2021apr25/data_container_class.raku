@@ -39,7 +39,10 @@ say "$r1"; # NY
 
 say +$r1;  # 10000
 
+say ~$r1; 
+
 say "---";
+
 
 # {
 #     my $r3 = MyRow.new( state => 'tn', area => '333' );
