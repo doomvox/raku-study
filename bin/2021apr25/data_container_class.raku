@@ -27,7 +27,6 @@ class MyRow {
      submethod TWEAK {  ## emacs jargon after-hook
          $!state = $!state.uc;
      }
-
     }
 
 my $r1 = MyRow.new( state => 'ny', area => 10000 );
