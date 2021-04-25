@@ -58,7 +58,6 @@ say "---";     # NY
      say $r3.gist;
      say $r3;
      say $r3+1;
-
      say '333'+1;
 
 #     # when area is Num 
