@@ -20,6 +20,11 @@ class MyRow {
     method Numeric {
         $!area;
         }
+
+    BUILD {
+        $!state = uc( $state 0;
+        }
+
     }
 
 my $r1 = MyRow.new( state => 'ny', area => 10000 );
