@@ -71,6 +71,7 @@ say "---";     # NY
      say $r4.raku;
      say +$r4;
 
+     ## assigning a string that's not a numeric to our flexy numeric
      my $r5 = MyRow.new( state => 'zn', area => 'six' );
      say $r5.raku;
      say +$r5;
