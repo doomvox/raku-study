@@ -71,7 +71,6 @@ say "---";     # NY
      say $r4.raku;
      say +$r4;
 
-
      my $r5 = MyRow.new( state => 'zn', area => 'six' );
      say $r5.raku;
      say +$r5;
