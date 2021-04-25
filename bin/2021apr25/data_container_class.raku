@@ -39,9 +39,14 @@ class MyRow {
      }
 
 
-     submethod BUILD ( :$state, Numeric(Cool) :$area ) {
-         $!area = $area;
+     submethod BUILD ( Numeric(Cool) :$!area, :$!state ) { }; 
+#         $!area = $area;
      };
+
+     
+
+
+
 
     }
 
