@@ -57,3 +57,7 @@ mission( {ha => 1, gah => 0, blah => -1}, {ho => 2}, {hum => 3} );
 # church( "me", "dog ate it", ha => 3, ho => 2,  "this would end up in @frab", heh => 3 );
 
 
+my @a = ( %h1, %h2, %h3 );
+
+my $some_hash = @a[1];
+
