@@ -77,8 +77,6 @@ while( my $line = <$fh> ) {
   my $out_line = sprintf( '%s%n', $line, $count )
                . sprintf( '%*d %d|', ($width - $count), $count, ($width - $count) ); 
 
-
-
   $output .= $out_line . "\n";
   $total += $count;
 }
