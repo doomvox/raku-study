@@ -1,31 +1,31 @@
-- [idioms](#org718228b)
-  - [from the docs](#orga7856b0)
-    - [utilpm piece from 2011](#org7f4ef76)
-    - [some idioms from the docs](#org9fb811c)
+- [idioms](#org6e5577d)
+  - [from the docs](#org22e2b82)
+    - [utilpm piece from 2011](#orgeda8fb7)
+    - [some idioms from the docs](#org8752d4d)
 
 
-<a id="org718228b"></a>
+<a id="org6e5577d"></a>
 
 # idioms
 
-I'm looking for "recommended idioms", cases where there are several ways of doing things in raku but one is favored. (The word "idiom" is used in a wider sense on occasion to just mean "a way to do it".)
+I'm looking for "recommended idioms", cases where there are several ways of doing things in raku but one is favored. (The word "idiom" also gets used in a wider sense to just mean "a way to do it".)
 
 
-<a id="orga7856b0"></a>
+<a id="org22e2b82"></a>
 
 ## from the docs
 
 The word idiom is used in the docs, though not all that frequently&#x2013;
 
 
-<a id="org7f4ef76"></a>
+<a id="orgeda8fb7"></a>
 
 ### utilpm piece from 2011
 
 <https://perl6advent.wordpress.com/2011/12/23/day-23-idiomatic-perl-6/>
 
 
-<a id="org9fb811c"></a>
+<a id="org8752d4d"></a>
 
 ### some idioms from the docs
 

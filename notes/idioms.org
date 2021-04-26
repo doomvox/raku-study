@@ -1,7 +1,7 @@
 * idioms
 I'm looking for "recommended idioms", cases where there are
 several ways of doing things in raku but one is favored.  
-(The word "idiom" is used in a wider sense on occasion to just
+(The word "idiom" also gets used in a wider sense to just
 mean "a way to do it".)
 
 ** from the docs
