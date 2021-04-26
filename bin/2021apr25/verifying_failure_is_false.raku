@@ -7,5 +7,5 @@ use v6;
 say '333'.Numeric.WHAT;            # (Int)
 say 'thureesies'.Numeric.WHAT;     # (Failure)
 
-if '3'.Numeric { say 'true!'; }
-if 'three'.Numeric { say 'true!'; }
+if '3'.Numeric { say 'true!' } else { say 'not.' }
+if 'three'.Numeric { say 'true!' } else { say 'not.' }
