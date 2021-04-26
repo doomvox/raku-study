@@ -1,6 +1,6 @@
 * idioms
-The word idiom is used in the docs, though not
-that frequently-- we're looking for "recommended idioms",
+The word idiom is used in the docs, though not all 
+that frequently-- here I'm looking for "recommended idioms",
 cases where there are several ways of doing things in raku.
  
 ** utilpm piece from 2011

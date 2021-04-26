@@ -1,38 +1,38 @@
-- [idioms](#orgde4c1de)
-  - [utilpm piece from 2011](#orgc17ceaa)
-  - [some idioms from the docs](#org57d1729)
-    - [assignment with method call](#org1628a7b)
-    - [using signals in an event driven situation:](#org1eaacab)
-    - [stringifying match object](#org95c089f)
-    - [call named params in colon-style similar to declaration](#org955ca96)
-    - [usually drop optional parens](#orgf2958bb)
-    - [raku "or die" used much like perl](#org15ccded)
-    - [given/when](#org55ab357)
-    - [looping over keys and values of a hash](#org36d34e5)
-    - [use LEAVE phaser for closing the handles](#org7163c6d)
-    - [the smartmatch operator ~~ rather than does](#org5f814a1)
+- [idioms](#org6b2263a)
+  - [utilpm piece from 2011](#org5053ead)
+  - [some idioms from the docs](#orge9ddd89)
+    - [assignment with method call](#orgc30c2d5)
+    - [using signals in an event driven situation:](#org3475cec)
+    - [stringifying match object](#org1960fda)
+    - [call named params in colon-style similar to declaration](#orga882884)
+    - [usually drop optional parens](#orgde068a1)
+    - [raku "or die" used much like perl](#orgdb788bc)
+    - [given/when](#org7120316)
+    - [looping over keys and values of a hash](#orgf9351ae)
+    - [use LEAVE phaser for closing the handles](#orge28c7f0)
+    - [the smartmatch operator ~~ rather than does](#org92b41a4)
 
 
-<a id="orgde4c1de"></a>
+<a id="org6b2263a"></a>
 
 # idioms
 
-The word idiom is used in the docs, though not that frequently&#x2013; we're looking for "recommended idioms", cases where there are several ways of doing things in raku.
+The word idiom is used in the docs, though not all that frequently&#x2013; here I'm looking for "recommended idioms", cases where there are several ways of doing things in raku.
 
 
-<a id="orgc17ceaa"></a>
+<a id="org5053ead"></a>
 
 ## utilpm piece from 2011
 
 <https://perl6advent.wordpress.com/2011/12/23/day-23-idiomatic-perl-6/>
 
 
-<a id="org57d1729"></a>
+<a id="orge9ddd89"></a>
 
 ## some idioms from the docs
 
 
-<a id="org1628a7b"></a>
+<a id="orgc30c2d5"></a>
 
 ### assignment with method call
 
@@ -44,7 +44,7 @@ class LongClassName {
 ```
 
 
-<a id="org1eaacab"></a>
+<a id="org3475cec"></a>
 
 ### using signals in an event driven situation:
 
@@ -58,14 +58,14 @@ react {
 ```
 
 
-<a id="org95c089f"></a>
+<a id="org1960fda"></a>
 
 ### stringifying match object
 
 $/.Str should also work, ~$/ is currently the more common idiom.
 
 
-<a id="org955ca96"></a>
+<a id="orga882884"></a>
 
 ### call named params in colon-style similar to declaration
 
@@ -80,7 +80,7 @@ speak(:word(hi), :times(2));      # Maybe *more* idiomatic? (if it works)
 ```
 
 
-<a id="orgf2958bb"></a>
+<a id="orgde068a1"></a>
 
 ### usually drop optional parens
 
@@ -95,7 +95,7 @@ while $x > 5 { ... }        # Perl 6, more idiomatic
 ```
 
 
-<a id="org15ccded"></a>
+<a id="orgdb788bc"></a>
 
 ### raku "or die" used much like perl
 
@@ -105,7 +105,7 @@ rmdir "newdir" or die "$!";
 ```
 
 
-<a id="org55ab357"></a>
+<a id="org7120316"></a>
 
 ### given/when
 
@@ -121,7 +121,7 @@ given $var {
 ```
 
 
-<a id="org36d34e5"></a>
+<a id="orgf9351ae"></a>
 
 ### looping over keys and values of a hash
 
@@ -133,7 +133,7 @@ for %vowels.kv -> $vowel, $index {
 ```
 
 
-<a id="org7163c6d"></a>
+<a id="orge28c7f0"></a>
 
 ### use LEAVE phaser for closing the handles
 
@@ -148,7 +148,7 @@ if $do-stuff-with-the-file {
 ```
 
 
-<a id="org5f814a1"></a>
+<a id="org92b41a4"></a>
 
 ### the smartmatch operator ~~ rather than does
 
