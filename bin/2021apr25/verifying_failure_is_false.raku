@@ -4,5 +4,8 @@
 
 use v6;
 
-say '333'.Numeric.WHAT;
-say 'thureesies'.Numeric.WHAT;
+say '333'.Numeric.WHAT;            # (Int)
+say 'thureesies'.Numeric.WHAT;     # (Failure)
+
+if '3'.Numeric { say 'true!'; }
+if 'three'.Numeric { say 'true!'; }
