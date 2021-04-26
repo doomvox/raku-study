@@ -34,7 +34,8 @@ class MyRow {
      ## using a BUILD routine to force state to be uppercase
 #    submethod BUILD( :$state, :$area ) {  ## could write a build to accept looks-like-number strings
 
-     submethod TWEAK {  ## emacs jargon would be "an after hook"
+    submethod TWEAK {  ## emacs jargon would be "an after hook"
+        
          $!state = $!state.uc;
      }
 
