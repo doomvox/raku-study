@@ -63,17 +63,21 @@ my ($total, $output, $count) = (0, '', 0);
 while( my $line = <$fh> ) {
   chomp($line);
 
+#   # nice (if weird) idea that doesn't actually work (later instances of $count not updated)
 #   #                          /-------------------\
 #   #                                              V
 #   my $out_line = sprintf("%s%n%*d %d|", $line, $count, ($width - $count), $count, ($width - $count) );
 #   #                             ^                          |
 #   #                             \--------------------------/
 
+  #  # This does work, but it's not weird enough to be interesting
+  #  my $out_line = sprintf("%s%n%*d", $line, $count, ($width - length($line)) , $count );
+
   ## bg solution this actually works:
   my $out_line = sprintf( '%s%n', $line, $count )
                . sprintf( '%*d %d|', ($width - $count), $count, ($width - $count) ); 
 
-  #  my $out_line = sprintf("%s%n%*d", $line, $count, ($width - length($line)) , $count );
+
 
   $output .= $out_line . "\n";
   $total += $count;
