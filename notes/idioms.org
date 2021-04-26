@@ -5,9 +5,8 @@ several ways of doing things in raku but one is favored.
 mean "a way to do it".)
 
 ** from the docs
-The word idiom is used in the docs, though not all 
-that frequently-- 
- 
+The word idiom is used in *some* places in the docs.
+
 *** utilpm piece from 2011
     https://perl6advent.wordpress.com/2011/12/23/day-23-idiomatic-perl-6/
 
