@@ -1,0 +1,107 @@
+* idioms
+The word idiom is used in the docs, though not
+that frequently
+
+** utilpm piece from 2011
+    https://perl6advent.wordpress.com/2011/12/23/day-23-idiomatic-perl-6/
+
+** some idioms from the docs
+
+*** assignment with method call
+#+BEGIN_SRC perl6
+class LongClassName { 
+     has $.frobnicate; 
+ } 
+ my LongClassName $bar .= new( frobnicate => 42 ); # no need to repeat class name 
+#+END_SRC
+
+*** using signals in an event driven situation:
+
+#+BEGIN_SRC perl6
+react { 
+     whenever signal(SIGINT) { 
+         say "goodbye"; 
+         done 
+     } 
+ } 
+#+END_SRC
+
+*** stringifying match object 
+ $/.Str should also work, ~$/ is currently the more common idiom.
+
+*** call named params in colon-style similar to declaration
+#+BEGIN_SRC perl6
+sub speak(:$word, :$times) {
+  say $word for ^$times
+}
+speak(word => 'hi', times => 2);
+speak(:word<hi>, :times<2>);      # Alternative, more idiomatic
+
+speak(:word(hi), :times(2));      # Maybe *more* idiomatic? (if it works)
+
+#+END_SRC
+
+*** usually drop optional parens 
+#+BEGIN_SRC perl6
+ if ($a < 0) { ... }         # Perl 6 
+ if $a < 0 { ... }           # Perl 6, more idiomatic 
+#+END_SRC
+
+#+BEGIN_SRC perl6
+ while ($x > 5) { ... }      # Perl 6 
+ while $x > 5 { ... }        # Perl 6, more idiomatic 
+#+END_SRC
+
+
+*** raku "or die" used much like perl
+#+BEGIN_SRC raku
+mkdir "newdir" or die "$!";   ## but now it dies anyway, so...
+rmdir "newdir" or die "$!"; 
+#+END_SRC
+
+*** given/when
+given sets $_ inside the following block. 
+The keywords for individual cases are when and default. 
+
+#+BEGIN_SRC perl6
+my $var = (Any, 21, any <answer lie>).pick;
+given $var {
+    when 21 { say $_ * 2 }
+    when 'lie' { .say }
+    default { say 'default' }
+}
+#+END_SRC
+
+*** looping over keys and values of a hash
+
+#+BEGIN_SRC perl6
+my %vowels = 'a' => 1, 'e' => 2, 'i' => 3, 'o' => 4, 'u' => 5;
+for %vowels.kv -> $vowel, $index {
+  "$vowel: $index".say;
+}
+#+END_SRC
+
+*** use LEAVE phaser for closing the handles 
+works regardless of how the block is left.
+#+BEGIN_SRC perl6
+if $do-stuff-with-the-file { 
+     my $fh = open "path-to-file"; 
+     LEAVE close $fh; 
+     # ... do stuff with the file 
+ } 
+#+END_SRC
+
+*** the smartmatch operator ~~ rather than does
+#+BEGIN_SRC perl6
+my $d = Date.new('2016-06-03');
+say $d.does(Dateish);       # True    (Date does role Dateish) 
+say $d ~~ Dateish;          # True
+#+END_SRC
+
+Note: isa is like does, but returns True only for superclasses, 
+does includes both superclasses and roles.
+
+#+BEGIN_SRC perl6
+say $d.isa(Dateish);        # False
+#+END_SRC
+
