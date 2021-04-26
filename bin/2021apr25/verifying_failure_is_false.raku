@@ -4,3 +4,5 @@
 
 use v6;
 
+say '333'.Numeric.WHAT;
+say 'thureesies'.Numeric.WHAT;
