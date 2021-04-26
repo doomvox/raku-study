@@ -1,7 +1,7 @@
 * idioms
 The word idiom is used in the docs, though not
 that frequently
-
+ 
 ** utilpm piece from 2011
     https://perl6advent.wordpress.com/2011/12/23/day-23-idiomatic-perl-6/
 
