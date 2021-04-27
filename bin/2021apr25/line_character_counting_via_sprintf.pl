@@ -65,6 +65,7 @@ while( my $line = <$fh> ) {
 
 #   # nice (if weird) idea that doesn't actually work (later instances of $count not updated)
 #   #                          /-------------------\
+#   #                          |                   |
 #   #                          |                   V
 #   my $out_line = sprintf("%s%n%*d %d|", $line, $count, ($width - $count), $count, ($width - $count) );
 #   #                                                     \--------------/
