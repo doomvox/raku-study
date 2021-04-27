@@ -63,7 +63,7 @@ my ($total, $output, $count) = (0, '', 0);
 while( my $line = <$fh> ) {
   chomp($line);
 
-#   # nice (if weird) idea that doesn't actually work (later instances of $count not updated)
+#   # nice (if weird) idea that doesn't actually work (later uses of $count don't see update)
 #   #                         /--------------------\
 #   #                         |                    |
 #   #                         /\                   V
