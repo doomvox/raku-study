@@ -16,12 +16,6 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021may02/
 *** raku idioms
 /home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
 
-*** data container class
-
-/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr25/data_container_class.raku
-
-
-
 ** announcement
 *** for next week, could everyone install git if they haven't already?
 *** TODO bruce gray rosetta  https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
