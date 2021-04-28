@@ -3,7 +3,7 @@
 This file of notes can be read over at github:
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021may02.md
 code examples:
-https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/
+https://github.com/doomvox/raku-study/tree/main/bin/2021may02/
 
 ** agenda stuff
 *** slurpy hash named arguments, discussion with ralph
