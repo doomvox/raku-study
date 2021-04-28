@@ -1,0 +1,39 @@
+* meeting notes May 02, 2021
+** meeting links
+This file of notes can be read over at github:
+https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021may02.md
+code examples:
+https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/
+
+** agenda stuff
+*** slurpy hash named arguments, discussion with ralph
+https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9883.html 
+
+*** paul evans (leonerd) talk from 2020 (or 2021?)
+**** https://ftp.osuosl.org/pub/fosdem/2021/D.perl/perl_in_2025.mp4
+**** my local copy:
+/home/doom/Dust/Video/Tech/paul_evans-future_of_perl_in_2025-2021feb06.mp4
+**** summary: ways to make perl more raku-like in the absence of a type system
+***** match/case ideas are good
+****** restricting to constants is un-perlish, though
+****** maybe:  
+perserve given/when, with default to "smartmatch",
+but you get match/case behavior when you specify a comparison
+***** some slides: /home/doom/End/Cave/Perl6/Ore/Leonerd/leonerd-match_case_idea-01.png
+
+*** some silly printf experiments (perl5)
+https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/line_character_counting_via_sprintf.pl
+
+*** raku idioms
+/home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
+
+*** data container class
+https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
+/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr25/data_container_class.raku
+
+** announcement
+*** for next week, could everyone install git if they haven't already?
+*** TODO bruce gray rosetta  https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
+
+*** Look at this:
+"All your idioms are belong to us" https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/
