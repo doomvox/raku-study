@@ -7,6 +7,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021may02/
 
 ** agenda stuff
 *** 69 cent tour of git and github
+*** bruce gray rosetta  https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
 *** typology: what is accepted by what 
 **** is anything ever cast automatically
 *** raku classes as data containers
@@ -17,8 +18,8 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021may02/
 /home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
 
 ** announcement
-*** for next week, could everyone install git if they haven't already?
-*** TODO bruce gray rosetta  https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
+
+
 
 *** Look at this:
 "All your idioms are belong to us" https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/
