@@ -11,10 +11,6 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021may02/
 **** is anything ever cast automatically
 *** raku classes as data containers
 
-
-
-
-
 *** slurpy hash named arguments, discussion with ralph
 https://www.nntp.perl.org/group/perl.perl6.users/2021/04/msg9883.html 
 
