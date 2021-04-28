@@ -1,89 +1,89 @@
-- [meeting notes May 02, 2021](#orgde96319)
-  - [meeting links](#org9eadb69)
-  - [agenda stuff](#orge48e481)
-    - [69 cent tour of git and github](#org4f29c30)
-    - [typology: what is accepted by what](#org439abc4)
-    - [raku classes as data containers](#org6452264)
-    - [some silly printf experiments (perl5)](#orga88147b)
-    - [raku idioms](#orgcf49308)
-    - [data container class](#orgdd80def)
-  - [announcement](#org6d8778d)
-    - [for next week, could everyone install git if they haven't already?](#orga6a36a1)
-    - [bruce gray rosetta  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#org8e158b4)
-    - [Look at this:](#org4681f1b)
+- [meeting notes May 02, 2021](#org7ea42a2)
+  - [meeting links](#org2c1a5f5)
+  - [agenda stuff](#org3dae25f)
+    - [69 cent tour of git and github](#org85f3ba7)
+    - [typology: what is accepted by what](#orgf02f240)
+    - [raku classes as data containers](#org0229f5c)
+  - [ongoing](#org8243723)
+    - [raku idioms](#orgf29250f)
+    - [data container class](#org832dc54)
+  - [announcement](#orgd5748ee)
+    - [for next week, could everyone install git if they haven't already?](#org074b233)
+    - [bruce gray rosetta  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#orge5d57c7)
+    - [Look at this:](#org3a16d70)
 
 
-<a id="orgde96319"></a>
+<a id="org7ea42a2"></a>
 
 # meeting notes May 02, 2021
 
 
-<a id="org9eadb69"></a>
+<a id="org2c1a5f5"></a>
 
 ## meeting links
 
 This file of notes can be read over at github: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021may02.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021may02/>
 
 
-<a id="orge48e481"></a>
+<a id="org3dae25f"></a>
 
 ## agenda stuff
 
 
-<a id="org4f29c30"></a>
+<a id="org85f3ba7"></a>
 
 ### 69 cent tour of git and github
 
 
-<a id="org439abc4"></a>
+<a id="orgf02f240"></a>
 
 ### typology: what is accepted by what
 
 1.  is anything ever cast automatically
 
 
-<a id="org6452264"></a>
+<a id="org0229f5c"></a>
 
 ### raku classes as data containers
 
-
-<a id="orga88147b"></a>
-
-### some silly printf experiments (perl5)
-
-<https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/line_character_counting_via_sprintf.pl>
+1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="orgcf49308"></a>
+<a id="org8243723"></a>
+
+## ongoing
+
+
+<a id="orgf29250f"></a>
 
 ### raku idioms
 
 /home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
 
 
-<a id="orgdd80def"></a>
+<a id="org832dc54"></a>
 
 ### data container class
 
-<https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku> /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr25/data<sub>container</sub><sub>class.raku</sub>
+/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr25/data<sub>container</sub><sub>class.raku</sub>
 
 
-<a id="org6d8778d"></a>
+<a id="orgd5748ee"></a>
 
 ## announcement
 
 
-<a id="orga6a36a1"></a>
+<a id="org074b233"></a>
 
 ### for next week, could everyone install git if they haven't already?
 
 
-<a id="org8e158b4"></a>
+<a id="orge5d57c7"></a>
 
 ### bruce gray rosetta  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org4681f1b"></a>
+<a id="org3a16d70"></a>
 
 ### Look at this:
 

@@ -10,16 +10,17 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021may02/
 *** typology: what is accepted by what 
 **** is anything ever cast automatically
 *** raku classes as data containers
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
 
-*** some silly printf experiments (perl5)
-https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/line_character_counting_via_sprintf.pl
-
+** ongoing
 *** raku idioms
 /home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
 
 *** data container class
-https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
+
 /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr25/data_container_class.raku
+
+
 
 ** announcement
 *** for next week, could everyone install git if they haven't already?
