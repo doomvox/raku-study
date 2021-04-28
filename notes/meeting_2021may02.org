@@ -15,11 +15,13 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021may02/
 
 ** ongoing
 *** raku idioms
-/home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
+**** https://github.com/doomvox/raku-study/blob/main/notes/idioms.org
+***** https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/
+
 
 ** announcement
 
 
 
 *** Look at this:
-"All your idioms are belong to us" https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/
+"All your idioms are belong to us" 
