@@ -20,7 +20,5 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021may02/
 
 ** announcement
 
-
-
 *** Look at this:
 "All your idioms are belong to us" 

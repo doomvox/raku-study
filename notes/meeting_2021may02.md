@@ -1,63 +1,63 @@
-- [meeting notes May 02, 2021](#org973bdda)
-  - [meeting links](#org9394687)
-  - [agenda stuff](#orgdbc4879)
-    - [69 cent tour of git and github](#orgd3970a4)
-    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#org2e7d018)
-    - [typology: what is accepted by what](#org8d215cc)
-    - [raku classes as data containers](#org6d6077f)
-  - [ongoing](#orgee835a9)
-    - [raku idioms](#orgd9104a9)
-  - [announcement](#orgc87618c)
-    - [Look at this:](#orga93eb88)
+- [meeting notes May 02, 2021](#org116d9fe)
+  - [meeting links](#orgfbac174)
+  - [agenda stuff](#org56b78eb)
+    - [69 cent tour of git and github](#org1fba3fd)
+    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#org0a53f5f)
+    - [typology: what is accepted by what](#orgc45de6e)
+    - [raku classes as data containers](#orgd6b2996)
+  - [ongoing](#org40d90f4)
+    - [raku idioms](#org6b02c7a)
+  - [announcement](#org3402b7f)
+    - [Look at this:](#org1f6d4a4)
 
 
-<a id="org973bdda"></a>
+<a id="org116d9fe"></a>
 
 # meeting notes May 02, 2021
 
 
-<a id="org9394687"></a>
+<a id="orgfbac174"></a>
 
 ## meeting links
 
 This file of notes can be read over at github: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021may02.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021may02/>
 
 
-<a id="orgdbc4879"></a>
+<a id="org56b78eb"></a>
 
 ## agenda stuff
 
 
-<a id="orgd3970a4"></a>
+<a id="org1fba3fd"></a>
 
 ### 69 cent tour of git and github
 
 
-<a id="org2e7d018"></a>
+<a id="org0a53f5f"></a>
 
 ### bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org8d215cc"></a>
+<a id="orgc45de6e"></a>
 
 ### typology: what is accepted by what
 
 1.  is anything ever cast automatically
 
 
-<a id="org6d6077f"></a>
+<a id="orgd6b2996"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="orgee835a9"></a>
+<a id="org40d90f4"></a>
 
 ## ongoing
 
 
-<a id="orgd9104a9"></a>
+<a id="org6b02c7a"></a>
 
 ### raku idioms
 
@@ -66,12 +66,12 @@ This file of notes can be read over at github: <https://github.com/doomvox/raku-
     1.  <https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/>
 
 
-<a id="orgc87618c"></a>
+<a id="org3402b7f"></a>
 
 ## announcement
 
 
-<a id="orga93eb88"></a>
+<a id="org1f6d4a4"></a>
 
 ### Look at this:
 
