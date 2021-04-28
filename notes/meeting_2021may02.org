@@ -17,6 +17,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021may02/
 *** raku idioms
 **** https://github.com/doomvox/raku-study/blob/main/notes/idioms.org
 ***** https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/
+***** maybe: favor methods over functions?
 
 ** announcement
 
