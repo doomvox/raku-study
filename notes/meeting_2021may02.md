@@ -1,63 +1,62 @@
-- [meeting notes May 02, 2021](#org336b97b)
-  - [meeting links](#org6a469a7)
-  - [agenda stuff](#org3739da6)
-    - [69 cent tour of git and github](#org8f96056)
-    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#orgc256ab3)
-    - [typology: what is accepted by what](#orgd1daad5)
-    - [raku classes as data containers](#org658ef2b)
-  - [ongoing](#orga3d7c60)
-    - [raku idioms](#org42b805c)
-  - [announcement](#org0a0a3b0)
-    - [Look at this:](#org5570e00)
+- [meeting notes May 02, 2021](#org23a20e7)
+  - [meeting links](#org98c4f75)
+  - [agenda stuff](#org9e6bbd7)
+    - [69 cent tour of git and github](#org038478b)
+    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#org0f0fe22)
+    - [typology: what is accepted by what](#orgc4db13c)
+    - [raku classes as data containers](#org212d766)
+  - [ongoing](#orge49bf29)
+    - [raku idioms](#orgf4c9ad8)
+  - [announcement](#org7f6ba1d)
 
 
-<a id="org336b97b"></a>
+<a id="org23a20e7"></a>
 
 # meeting notes May 02, 2021
 
 
-<a id="org6a469a7"></a>
+<a id="org98c4f75"></a>
 
 ## meeting links
 
 This file of notes can be read over at github: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021may02.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021may02/>
 
 
-<a id="org3739da6"></a>
+<a id="org9e6bbd7"></a>
 
 ## agenda stuff
 
 
-<a id="org8f96056"></a>
+<a id="org038478b"></a>
 
 ### 69 cent tour of git and github
 
 
-<a id="orgc256ab3"></a>
+<a id="org0f0fe22"></a>
 
 ### bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="orgd1daad5"></a>
+<a id="orgc4db13c"></a>
 
 ### typology: what is accepted by what
 
 1.  is anything ever cast automatically
 
 
-<a id="org658ef2b"></a>
+<a id="org212d766"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="orga3d7c60"></a>
+<a id="orge49bf29"></a>
 
 ## ongoing
 
 
-<a id="org42b805c"></a>
+<a id="orgf4c9ad8"></a>
 
 ### raku idioms
 
@@ -68,13 +67,6 @@ This file of notes can be read over at github: <https://github.com/doomvox/raku-
     2.  maybe: favor methods over functions?
 
 
-<a id="org0a0a3b0"></a>
+<a id="org7f6ba1d"></a>
 
 ## announcement
-
-
-<a id="org5570e00"></a>
-
-### Look at this:
-
-"All your idioms are belong to us"
