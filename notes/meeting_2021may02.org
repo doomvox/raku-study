@@ -20,4 +20,4 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021may02/
 ***** maybe: favor methods over functions?
 
 ** announcements
-*** TODO
+*** TODO: find announcements
