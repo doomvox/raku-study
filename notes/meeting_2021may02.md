@@ -1,75 +1,75 @@
-- [meeting notes May 02, 2021](#orge38bc49)
-  - [meeting links](#orgaf6b860)
-  - [agenda stuff](#org00bcb76)
-    - [69 cent tour of git and github](#org7db73e7)
-    - [bruce gray rosetta  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#orgcc3b251)
-    - [typology: what is accepted by what](#org03ec293)
-    - [raku classes as data containers](#org94dd1ac)
-  - [ongoing](#org237febd)
-    - [raku idioms](#orga3d8af8)
-  - [announcement](#org668fbba)
-    - [Look at this:](#org8089122)
+- [meeting notes May 02, 2021](#org54f2aac)
+  - [meeting links](#orga5441a5)
+  - [agenda stuff](#orge0545d7)
+    - [69 cent tour of git and github](#org39f4eab)
+    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#orgb1b2c64)
+    - [typology: what is accepted by what](#org4e3c76c)
+    - [raku classes as data containers](#org53e1809)
+  - [ongoing](#orgbfbc8ba)
+    - [raku idioms](#orgcb5ff9f)
+  - [announcement](#org75e8b70)
+    - [Look at this:](#org21c6c25)
 
 
-<a id="orge38bc49"></a>
+<a id="org54f2aac"></a>
 
 # meeting notes May 02, 2021
 
 
-<a id="orgaf6b860"></a>
+<a id="orga5441a5"></a>
 
 ## meeting links
 
 This file of notes can be read over at github: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021may02.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021may02/>
 
 
-<a id="org00bcb76"></a>
+<a id="orge0545d7"></a>
 
 ## agenda stuff
 
 
-<a id="org7db73e7"></a>
+<a id="org39f4eab"></a>
 
 ### 69 cent tour of git and github
 
 
-<a id="orgcc3b251"></a>
+<a id="orgb1b2c64"></a>
 
-### bruce gray rosetta  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
+### bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org03ec293"></a>
+<a id="org4e3c76c"></a>
 
 ### typology: what is accepted by what
 
 1.  is anything ever cast automatically
 
 
-<a id="org94dd1ac"></a>
+<a id="org53e1809"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org237febd"></a>
+<a id="orgbfbc8ba"></a>
 
 ## ongoing
 
 
-<a id="orga3d8af8"></a>
+<a id="orgcb5ff9f"></a>
 
 ### raku idioms
 
 /home/doom/End/Cave/Ice/Xtal/Perl6/idioms.org
 
 
-<a id="org668fbba"></a>
+<a id="org75e8b70"></a>
 
 ## announcement
 
 
-<a id="org8089122"></a>
+<a id="org21c6c25"></a>
 
 ### Look at this:
 
