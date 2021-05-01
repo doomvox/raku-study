@@ -1,30 +1,30 @@
-- [69 cent tour of git](#orgf469adf)
-  - [version 0.1](#org904c268)
-  - [some stops on the tour](#org092fb7c)
-    - [working with an existing git repo, e.g.](#orgc4a33e4)
-    - [initialize a new git repo](#org1b16071)
-    - [starting with existing github repo raku-study](#org285490d)
-    - [continuing with a new git repo](#org26bb762)
-    - [the cool stuff](#org330816f)
-    - [things you will not do with git](#org003fa46)
+- [69 cent tour of git](#org0970a1d)
+  - [version 0.1](#orgc2affad)
+  - [some stops on the tour](#org2c35dc9)
+    - [working with an existing git repo, e.g.](#org4322f2c)
+    - [initialize a new git repo](#orgcf00f95)
+    - [starting with existing github repo raku-study](#orgf344b87)
+    - [continuing with a new git repo](#org88ae8ec)
+    - [the cool stuff](#org9d23d9d)
+    - [things you will not do with git](#orgdf2720f)
 
 
-<a id="orgf469adf"></a>
+<a id="org0970a1d"></a>
 
 # 69 cent tour of git
 
 
-<a id="org904c268"></a>
+<a id="orgc2affad"></a>
 
 ## version 0.1
 
 
-<a id="org092fb7c"></a>
+<a id="org2c35dc9"></a>
 
 ## some stops on the tour
 
 
-<a id="orgc4a33e4"></a>
+<a id="org4322f2c"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -73,12 +73,18 @@
 
 7.  do some things with this
 
-    \#+BEGIN<sub>SRC</sub> perl6 cd /tmp/dev/raku-study/bin/2021may02 echo "say 'hello';" > hello.raku raku hello.raku git status git commit -m'created demo script hello.raku'
+    ```perl6
+    cd /tmp/dev/raku-study/bin/2021may02
+    echo "say 'hello';" > hello.raku
+    raku hello.raku
+    git status
+    git commit -m'created demo script hello.raku'
     
-    git log &#x2013;oneline | egrep 'created demo'
+    git log --oneline | egrep 'created demo'
+    ```
 
 
-<a id="org1b16071"></a>
+<a id="orgcf00f95"></a>
 
 ### initialize a new git repo
 
@@ -109,7 +115,7 @@
         2.  SHA1 hashes of information in tree
 
 
-<a id="org285490d"></a>
+<a id="orgf344b87"></a>
 
 ### starting with existing github repo raku-study
 
@@ -126,7 +132,7 @@
 5.  resolving a merge conflict
 
 
-<a id="org26bb762"></a>
+<a id="org88ae8ec"></a>
 
 ### continuing with a new git repo
 
@@ -137,7 +143,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org330816f"></a>
+<a id="org9d23d9d"></a>
 
 ### the cool stuff
 
@@ -154,7 +160,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org003fa46"></a>
+<a id="orgdf2720f"></a>
 
 ### things you will not do with git
 
