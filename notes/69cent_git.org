@@ -3,7 +3,7 @@
 ** some stops on the tour
 *** working with an existing git repo, e.g. 
 **** https://github.com/doomvox/raku-study
-**** if it hasn't been done already
+**** set-up to do if not done already:
 ***** create a github account
 ***** get added as a collaborator
 ****** Settings->Manage Access->Invite a collaborator

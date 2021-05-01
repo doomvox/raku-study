@@ -1,36 +1,36 @@
-- [69 cent tour of git](#org5eb4c6d)
-  - [version 0.1](#org04a4b52)
-  - [some stops on the tour](#org478ea81)
-    - [working with an existing git repo, e.g.](#org5a81639)
-    - [initialize a new git repo](#org79b5026)
-    - [starting with existing github repo raku-study](#org49a99d4)
-    - [continuing with a new git repo](#org79c5dbf)
-    - [the cool stuff](#org45392e4)
-    - [things you will not do with git](#org3fac9c5)
+- [69 cent tour of git](#orgccc74d1)
+  - [version 0.1](#org59f6ff9)
+  - [some stops on the tour](#org0b84eaa)
+    - [working with an existing git repo, e.g.](#orgb622f05)
+    - [initialize a new git repo](#org75c5a96)
+    - [starting with existing github repo raku-study](#org8896f9f)
+    - [continuing with a new git repo](#org9df751d)
+    - [the cool stuff](#org95fa73e)
+    - [things you will not do with git](#orgcb9a49c)
 
 
-<a id="org5eb4c6d"></a>
+<a id="orgccc74d1"></a>
 
 # 69 cent tour of git
 
 
-<a id="org04a4b52"></a>
+<a id="org59f6ff9"></a>
 
 ## version 0.1
 
 
-<a id="org478ea81"></a>
+<a id="org0b84eaa"></a>
 
 ## some stops on the tour
 
 
-<a id="org5a81639"></a>
+<a id="orgb622f05"></a>
 
 ### working with an existing git repo, e.g.
 
 1.  <https://github.com/doomvox/raku-study>
 
-2.  if it hasn't been done already
+2.  set-up to do if not done already:
 
     1.  create a github account
     
@@ -76,7 +76,7 @@
     ```
 
 
-<a id="org79b5026"></a>
+<a id="org75c5a96"></a>
 
 ### initialize a new git repo
 
@@ -107,7 +107,7 @@
         2.  SHA1 hashes of information in tree
 
 
-<a id="org49a99d4"></a>
+<a id="org8896f9f"></a>
 
 ### starting with existing github repo raku-study
 
@@ -124,7 +124,7 @@
 5.  resolving a merge conflict
 
 
-<a id="org79c5dbf"></a>
+<a id="org9df751d"></a>
 
 ### continuing with a new git repo
 
@@ -135,7 +135,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org45392e4"></a>
+<a id="org95fa73e"></a>
 
 ### the cool stuff
 
@@ -152,7 +152,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org3fac9c5"></a>
+<a id="orgcb9a49c"></a>
 
 ### things you will not do with git
 
