@@ -7,7 +7,6 @@ use v6;
 sub dostuff (*%nameo, *@ordo) {
    my $item1 = %nameo{'his'};
    my $arg0  = @ordo[0];
-
 }
 
 
