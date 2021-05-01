@@ -1,30 +1,30 @@
-- [69 cent tour of git](#org80016d4)
-  - [version 0.1](#orgb6ae624)
-  - [some stops on the tour](#orga9148ad)
-    - [working with an existing git repo, e.g.](#orgba7b1ba)
-    - [initialize a new git repo](#org5ccc18d)
-    - [starting with existing github repo raku-study](#orgf29d069)
-    - [continuing with a new git repo](#org071514f)
-    - [the cool stuff](#org9cab703)
-    - [things you will not do with git](#orge39200f)
+- [69 cent tour of git](#orgf469adf)
+  - [version 0.1](#org904c268)
+  - [some stops on the tour](#org092fb7c)
+    - [working with an existing git repo, e.g.](#orgc4a33e4)
+    - [initialize a new git repo](#org1b16071)
+    - [starting with existing github repo raku-study](#org285490d)
+    - [continuing with a new git repo](#org26bb762)
+    - [the cool stuff](#org330816f)
+    - [things you will not do with git](#org003fa46)
 
 
-<a id="org80016d4"></a>
+<a id="orgf469adf"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgb6ae624"></a>
+<a id="org904c268"></a>
 
 ## version 0.1
 
 
-<a id="orga9148ad"></a>
+<a id="org092fb7c"></a>
 
 ## some stops on the tour
 
 
-<a id="orgba7b1ba"></a>
+<a id="orgc4a33e4"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -73,10 +73,12 @@
 
 7.  do some things with this
 
-    \#+BEGIN<sub>SRC</sub> perl6 cd /tmp/dev/raku-study/bin/2021may02 echo "say 'hello';" > hello.raku raku hello.raku git status
+    \#+BEGIN<sub>SRC</sub> perl6 cd /tmp/dev/raku-study/bin/2021may02 echo "say 'hello';" > hello.raku raku hello.raku git status git commit -m'created demo script hello.raku'
+    
+    git log &#x2013;oneline | egrep 'created demo'
 
 
-<a id="org5ccc18d"></a>
+<a id="org1b16071"></a>
 
 ### initialize a new git repo
 
@@ -107,7 +109,7 @@
         2.  SHA1 hashes of information in tree
 
 
-<a id="orgf29d069"></a>
+<a id="org285490d"></a>
 
 ### starting with existing github repo raku-study
 
@@ -124,7 +126,7 @@
 5.  resolving a merge conflict
 
 
-<a id="org071514f"></a>
+<a id="org26bb762"></a>
 
 ### continuing with a new git repo
 
@@ -135,7 +137,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org9cab703"></a>
+<a id="org330816f"></a>
 
 ### the cool stuff
 
@@ -152,7 +154,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="orge39200f"></a>
+<a id="org003fa46"></a>
 
 ### things you will not do with git
 

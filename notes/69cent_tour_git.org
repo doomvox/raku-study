@@ -36,6 +36,9 @@ cd /tmp/dev/raku-study/bin/2021may02
 echo "say 'hello';" > hello.raku
 raku hello.raku
 git status
+git commit -m'created demo script hello.raku'
+
+git log --oneline | egrep 'created demo'
 
 
 *** initialize a new git repo
