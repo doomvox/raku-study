@@ -4,7 +4,8 @@
 
 use v6;
 
-
+sub dostuff (*%nameo, *@ordo) {
+}
 
 
 
