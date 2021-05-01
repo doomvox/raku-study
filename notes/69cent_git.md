@@ -1,30 +1,30 @@
-- [69 cent tour of git](#orgccc74d1)
-  - [version 0.1](#org59f6ff9)
-  - [some stops on the tour](#org0b84eaa)
-    - [working with an existing git repo, e.g.](#orgb622f05)
-    - [initialize a new git repo](#org75c5a96)
-    - [starting with existing github repo raku-study](#org8896f9f)
-    - [continuing with a new git repo](#org9df751d)
-    - [the cool stuff](#org95fa73e)
-    - [things you will not do with git](#orgcb9a49c)
+- [69 cent tour of git](#org556cd34)
+  - [version 0.1](#orgbb0acf1)
+  - [some stops on the tour](#orgcbabfd4)
+    - [working with an existing git repo, e.g.](#org7d56b57)
+    - [initialize a new git repo](#orgd4f8b58)
+    - [starting with existing github repo raku-study](#orgd6c9b5b)
+    - [continuing with a new git repo](#org97efcfa)
+    - [the cool stuff](#org5e5513b)
+    - [things you will not do with git](#org90ebfae)
 
 
-<a id="orgccc74d1"></a>
+<a id="org556cd34"></a>
 
 # 69 cent tour of git
 
 
-<a id="org59f6ff9"></a>
+<a id="orgbb0acf1"></a>
 
 ## version 0.1
 
 
-<a id="org0b84eaa"></a>
+<a id="orgcbabfd4"></a>
 
 ## some stops on the tour
 
 
-<a id="orgb622f05"></a>
+<a id="org7d56b57"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -34,7 +34,7 @@
 
     1.  create a github account
     
-    2.  get added as a collaborator
+    2.  get added to raku-study as a collaborator
     
         1.  Settings->Manage Access->Invite a collaborator
     
@@ -76,7 +76,7 @@
     ```
 
 
-<a id="org75c5a96"></a>
+<a id="orgd4f8b58"></a>
 
 ### initialize a new git repo
 
@@ -107,7 +107,7 @@
         2.  SHA1 hashes of information in tree
 
 
-<a id="org8896f9f"></a>
+<a id="orgd6c9b5b"></a>
 
 ### starting with existing github repo raku-study
 
@@ -124,7 +124,7 @@
 5.  resolving a merge conflict
 
 
-<a id="org9df751d"></a>
+<a id="org97efcfa"></a>
 
 ### continuing with a new git repo
 
@@ -135,7 +135,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org95fa73e"></a>
+<a id="org5e5513b"></a>
 
 ### the cool stuff
 
@@ -152,7 +152,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="orgcb9a49c"></a>
+<a id="org90ebfae"></a>
 
 ### things you will not do with git
 

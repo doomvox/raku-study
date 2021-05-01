@@ -5,7 +5,7 @@
 **** https://github.com/doomvox/raku-study
 **** set-up to do if not done already:
 ***** create a github account
-***** get added as a collaborator
+***** get added to raku-study as a collaborator
 ****** Settings->Manage Access->Invite a collaborator
 ***** share your public ssh key (rsa, not dsa) at your github account
 ****** picture button (top-right)->Settings (near bottom)->SSH and GPG keys->New SSH key button (uppper right)
