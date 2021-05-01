@@ -1,30 +1,30 @@
-- [69 cent tour of git](#orgbd975df)
-  - [version 0.1](#orgb37818c)
-  - [some stops on the tour](#orgc69c6d8)
-    - [working with an existing git repo, e.g.](#org170fc68)
-    - [initialize a new git repo](#orgd063a81)
-    - [starting with existing github repo raku-study](#org9af09f5)
-    - [continuing with a new git repo](#orgd7f32be)
-    - [the cool stuff](#org99d3bce)
-    - [things you will not do with git](#orgb7ba04f)
+- [69 cent tour of git](#org60ba586)
+  - [version 0.1](#org10faf0c)
+  - [some stops on the tour](#org9d9ae40)
+    - [working with an existing git repo, e.g.](#org4b633e0)
+    - [initialize a new git repo](#orgb8aa289)
+    - [starting with existing github repo raku-study](#org9980f3e)
+    - [continuing with a new git repo](#org532e3dc)
+    - [the cool stuff](#orgcc6a7fd)
+    - [things you will not do with git](#org6d95af1)
 
 
-<a id="orgbd975df"></a>
+<a id="org60ba586"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgb37818c"></a>
+<a id="org10faf0c"></a>
 
 ## version 0.1
 
 
-<a id="orgc69c6d8"></a>
+<a id="org9d9ae40"></a>
 
 ## some stops on the tour
 
 
-<a id="org170fc68"></a>
+<a id="org4b633e0"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -80,11 +80,12 @@
     git status
     git commit -m'created demo script hello.raku'
     git log -n 3
+    git log -n 3 --oneline
     git log --oneline | egrep 'created demo'
     ```
 
 
-<a id="orgd063a81"></a>
+<a id="orgb8aa289"></a>
 
 ### initialize a new git repo
 
@@ -115,7 +116,7 @@
         2.  SHA1 hashes of information in tree
 
 
-<a id="org9af09f5"></a>
+<a id="org9980f3e"></a>
 
 ### starting with existing github repo raku-study
 
@@ -132,7 +133,7 @@
 5.  resolving a merge conflict
 
 
-<a id="orgd7f32be"></a>
+<a id="org532e3dc"></a>
 
 ### continuing with a new git repo
 
@@ -143,7 +144,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org99d3bce"></a>
+<a id="orgcc6a7fd"></a>
 
 ### the cool stuff
 
@@ -160,7 +161,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="orgb7ba04f"></a>
+<a id="org6d95af1"></a>
 
 ### things you will not do with git
 

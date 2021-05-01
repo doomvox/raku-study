@@ -38,6 +38,7 @@ raku hello.raku
 git status
 git commit -m'created demo script hello.raku'
 git log -n 3
+git log -n 3 --oneline
 git log --oneline | egrep 'created demo'
 #+END_SRC
 
