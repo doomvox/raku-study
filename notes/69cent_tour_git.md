@@ -1,30 +1,30 @@
-- [69 cent tour of git](#org344a94f)
-  - [version 0.1](#org9fce8ec)
-  - [some stops on the tour](#org146f4c6)
-    - [working with an existing git repo, e.g.](#orge4b6a39)
-    - [initialize a new git repo](#org15f5f3a)
-    - [starting with existing github repo raku-study](#orgcc174bb)
-    - [continuing with a new git repo](#org29d8a3a)
-    - [the cool stuff](#org0d38f9e)
-    - [things you will not do with git](#orgf4d7412)
+- [69 cent tour of git](#org3d6eab5)
+  - [version 0.1](#orga3e2ce5)
+  - [some stops on the tour](#org53ba8c3)
+    - [working with an existing git repo, e.g.](#orgea3e177)
+    - [initialize a new git repo](#org4501548)
+    - [starting with existing github repo raku-study](#org10fbd0f)
+    - [continuing with a new git repo](#orgf4fa4df)
+    - [the cool stuff](#org50b812e)
+    - [things you will not do with git](#org2eac72a)
 
 
-<a id="org344a94f"></a>
+<a id="org3d6eab5"></a>
 
 # 69 cent tour of git
 
 
-<a id="org9fce8ec"></a>
+<a id="orga3e2ce5"></a>
 
 ## version 0.1
 
 
-<a id="org146f4c6"></a>
+<a id="org53ba8c3"></a>
 
 ## some stops on the tour
 
 
-<a id="orge4b6a39"></a>
+<a id="orgea3e177"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -84,7 +84,15 @@
     git log --oneline | egrep 'created demo'
     ```
 
-8.  edit the file, check diff, commit
+8.  to do and to notice
+
+    1.  note: no sequential version numbers
+    
+    2.  "commits" are SHA1 hashes
+    
+    3.  not file oriented: commits can include changes throughout the tree
+
+9.  edit the file, check diff, commit
 
     ```sh
     echo "say 'goodbye';" >> hello.raku
@@ -102,7 +110,7 @@
     ```
 
 
-<a id="org15f5f3a"></a>
+<a id="org4501548"></a>
 
 ### initialize a new git repo
 
@@ -121,13 +129,9 @@
         ```
     
     4.  .git/info/exclude
-    
-        1.  note: no sequential numbers, "commits" are
-        
-        2.  SHA1 hashes of information in tree
 
 
-<a id="orgcc174bb"></a>
+<a id="org10fbd0f"></a>
 
 ### starting with existing github repo raku-study
 
@@ -140,7 +144,7 @@
 3.  resolving a merge conflict
 
 
-<a id="org29d8a3a"></a>
+<a id="orgf4fa4df"></a>
 
 ### continuing with a new git repo
 
@@ -151,7 +155,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org0d38f9e"></a>
+<a id="org50b812e"></a>
 
 ### the cool stuff
 
@@ -168,7 +172,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="orgf4d7412"></a>
+<a id="org2eac72a"></a>
 
 ### things you will not do with git
 

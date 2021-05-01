@@ -42,6 +42,11 @@ git log -n 3 --oneline
 git log --oneline | egrep 'created demo'
 #+END_SRC
 
+**** to do and to notice
+****** note: no sequential version numbers 
+****** "commits" are SHA1 hashes
+****** not file oriented: commits can include changes throughout the tree
+
 **** edit the file, check diff, commit
 #+BEGIN_SRC sh
 echo "say 'goodbye';" >> hello.raku
@@ -71,8 +76,6 @@ git push
 #+END_SRC 
 ***** .git/info/exclude
 
-******          note: no sequential numbers, "commits" are
-******          SHA1 hashes of information in tree
 *** starting with existing github repo raku-study
 **** create an account at github
 ***** have me assign you commit privs to raku-study
