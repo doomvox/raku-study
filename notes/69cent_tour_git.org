@@ -30,7 +30,7 @@ cd /tmp/dev
 #+BEGIN_SRC sh
 git clone git@github.com:doomvox/raku-study.git
 #+END_SRC
-**** create a file, push changes
+**** create a file, add and commit
 #+BEGIN_SRC sh
 cd /tmp/dev/raku-study/bin/2021may02
 echo "say 'hello';" > hello.raku
@@ -40,6 +40,10 @@ git commit -m'created demo script hello.raku'
 git log -n 3
 git log -n 3 --oneline
 git log --oneline | egrep 'created demo'
+#+END_SRC
+
+
+**** edit the file, check diff, commit
 echo "say 'goodbye';" >> hello.raku
 git status
 git diff
@@ -66,9 +70,7 @@ git push
 *.[oa]
 #+END_SRC 
 ***** .git/info/exclude
-*****        git commit
-*****        git diff
-*****        git log
+
 ******          note: no sequential numbers, "commits" are
 ******          SHA1 hashes of information in tree
 *** starting with existing github repo raku-study

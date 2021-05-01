@@ -1,30 +1,30 @@
-- [69 cent tour of git](#org250c36c)
-  - [version 0.1](#orgdb0d43a)
-  - [some stops on the tour](#org2e7d7a2)
-    - [working with an existing git repo, e.g.](#orgd9e588a)
-    - [initialize a new git repo](#orga153c39)
-    - [starting with existing github repo raku-study](#org52c51a2)
-    - [continuing with a new git repo](#org58cc0ad)
-    - [the cool stuff](#orgf99147c)
-    - [things you will not do with git](#org4f9a0fc)
+- [69 cent tour of git](#org89d9308)
+  - [version 0.1](#org37ada1d)
+  - [some stops on the tour](#org50d97aa)
+    - [working with an existing git repo, e.g.](#orgcfb71c9)
+    - [initialize a new git repo](#orgfa98a82)
+    - [starting with existing github repo raku-study](#org39c046d)
+    - [continuing with a new git repo](#orge1c49f2)
+    - [the cool stuff](#orge3854f0)
+    - [things you will not do with git](#org060df38)
 
 
-<a id="org250c36c"></a>
+<a id="org89d9308"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgdb0d43a"></a>
+<a id="org37ada1d"></a>
 
 ## version 0.1
 
 
-<a id="org2e7d7a2"></a>
+<a id="org50d97aa"></a>
 
 ## some stops on the tour
 
 
-<a id="orgd9e588a"></a>
+<a id="orgcfb71c9"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -71,7 +71,7 @@
     git clone git@github.com:doomvox/raku-study.git
     ```
 
-7.  create a file, push changes
+7.  create a file, add and commit
 
     ```sh
     cd /tmp/dev/raku-study/bin/2021may02
@@ -82,22 +82,14 @@
     git log -n 3
     git log -n 3 --oneline
     git log --oneline | egrep 'created demo'
-    echo "say 'goodbye';" >> hello.raku
-    git status
-    git diff
-    git commit -m 'added goodbye line to hello.raku'
-    git commit -a -m 'added goodbye line to hello.raku'
-    git log -3
-    git diff
-    git diff <commit1> <commit2>
-    git pull
-    git status
-    git commit -a -m'wtf?'
-    git push
     ```
 
+8.  edit the file, check diff, commit
 
-<a id="orga153c39"></a>
+    echo "say 'goodbye';" >> hello.raku git status git diff git commit -m 'added goodbye line to hello.raku' git commit -a -m 'added goodbye line to hello.raku' git log -3 git diff git diff <commit1> <commit2> git pull git status git commit -a -m'wtf?' git push \\#+END<sub>SRC</sub>
+
+
+<a id="orgfa98a82"></a>
 
 ### initialize a new git repo
 
@@ -117,18 +109,12 @@
     
     4.  .git/info/exclude
     
-    5.  git commit
-    
-    6.  git diff
-    
-    7.  git log
-    
         1.  note: no sequential numbers, "commits" are
         
         2.  SHA1 hashes of information in tree
 
 
-<a id="org52c51a2"></a>
+<a id="org39c046d"></a>
 
 ### starting with existing github repo raku-study
 
@@ -141,7 +127,7 @@
 3.  resolving a merge conflict
 
 
-<a id="org58cc0ad"></a>
+<a id="orge1c49f2"></a>
 
 ### continuing with a new git repo
 
@@ -152,7 +138,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgf99147c"></a>
+<a id="orge3854f0"></a>
 
 ### the cool stuff
 
@@ -169,7 +155,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org4f9a0fc"></a>
+<a id="org060df38"></a>
 
 ### things you will not do with git
 
