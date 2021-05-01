@@ -8,7 +8,7 @@ sub dostuff (*%nameo, *@ordo) {
    my $item1 = %nameo{'his'};
    my $action  = @ordo[0];
 
-   say "$action $item1";
+   printf "%s %s!\n", $action, ucfirst( $item1 );
 }
 
 dostuff( his => 'bingo', 'shout' );  # shout bingo
