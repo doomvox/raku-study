@@ -1,0 +1,87 @@
+* 69 cent tour of git
+** version 0.1
+** some stops on the tour
+*** working with an existing git repo, e.g. 
+**** https://github.com/doomvox/raku-study
+**** if it hasn't been done already
+***** create a github account
+***** get added as a collaborator
+****** Settings->Manage Access->Invite a collaborator
+***** share your public ssh key (rsa, not dsa) at your github account
+****** picture button (top-right)->Settings (near bottom)->SSH and GPG keys->New SSH key button (uppper right)
+****** Add your "ssh-rsa" from: ~/.ssh/id_rsa.pub
+******* if you don't have one yet, run:
+#+BEGIN_SRC perl6
+ssh-keygen -t rsa
+#+END_SRC
+
+**** if you haven't already
+
+**** go to the "Code" button near the right, click for the drop-down
+**** with the SSH tab selected (the default) you'll see:
+#+BEGIN_SRC sh
+git@github.com:doomvox/raku-study.git
+#+END_SRC
+**** 
+
+
+**** create a location to work, e.g.:
+#+BEGIN_SRC perl6
+mkdir /tmp/dev
+cd /tmp/dev
+#+END_SRC
+**** use git
+#+BEGIN_SRC perl6
+git clone git@github.com:doomvox/raku-study.git
+#+END_SRC
+
+*** initialize a new git repo
+****  working standalone
+
+***** git add
+***** git status
+***** .gitignore
+#+BEGIN_SRC sh
+*~   
+*#* 
+*.[oa]
+#+END_SRC 
+***** .git/info/exclude
+*****        git commit
+*****        git diff
+*****        git log
+******          note: no sequential numbers, "commits" are
+******          SHA1 hashes of information in tree
+*** starting with existing github repo raku-study
+**** create an account at github
+***** have me assign you commit privs to raku-study
+**** pull a copy
+**** edit a file, push changes
+**** create a file, push changes
+**** resolving a merge conflict
+*** continuing with a new git repo
+**** creating a new project at github
+**** associating existing repo with new project
+See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
+*** the cool stuff
+**** git branch
+**** github pull request
+**** this shit *is* cool, but it can get complicated
+        http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+***** "Pro Git" by Scott Chacon and  Ben Straub
+Can read on-line, also via (spit) Amazon
+Source is at github: https://github.com/progit/progit2
+
+*** things you will not do with git
+**** work with binary files
+(compiled code, media files, ms word docs, etc)
+**** control your entire home directory
+**** set up a meta-git repository that contains multiple git projects.
+**** share work with another person without using a server
+
+
+
+
+
+
