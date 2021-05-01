@@ -1,30 +1,30 @@
-- [69 cent tour of git](#orgba97928)
-  - [version 0.1](#orge1e0614)
-  - [some stops on the tour](#org1605bbd)
-    - [working with an existing git repo, e.g.](#orgfa9095d)
-    - [initialize a new git repo](#org3a0cf93)
-    - [starting with existing github repo raku-study](#org38c459b)
-    - [continuing with a new git repo](#orga75ed1e)
-    - [the cool stuff](#org11e3fbd)
-    - [things you will not do with git](#org9629e9a)
+- [69 cent tour of git](#orgdfc0819)
+  - [version 0.1](#org1093991)
+  - [some stops on the tour](#org35a3f37)
+    - [working with an existing git repo, e.g.](#org9729937)
+    - [initialize a new git repo](#org3d0e440)
+    - [starting with existing github repo raku-study](#org8ff0215)
+    - [continuing with a new git repo](#org236baf7)
+    - [the cool stuff](#org985a784)
+    - [things you will not do with git](#org2c8f768)
 
 
-<a id="orgba97928"></a>
+<a id="orgdfc0819"></a>
 
 # 69 cent tour of git
 
 
-<a id="orge1e0614"></a>
+<a id="org1093991"></a>
 
 ## version 0.1
 
 
-<a id="org1605bbd"></a>
+<a id="org35a3f37"></a>
 
 ## some stops on the tour
 
 
-<a id="orgfa9095d"></a>
+<a id="org9729937"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -71,7 +71,7 @@
     git clone git@github.com:doomvox/raku-study.git
     ```
 
-7.  do some things with this
+7.  create a file, push changes
 
     ```sh
     cd /tmp/dev/raku-study/bin/2021may02
@@ -93,7 +93,7 @@
     ```
 
 
-<a id="org3a0cf93"></a>
+<a id="org3d0e440"></a>
 
 ### initialize a new git repo
 
@@ -124,7 +124,7 @@
         2.  SHA1 hashes of information in tree
 
 
-<a id="org38c459b"></a>
+<a id="org8ff0215"></a>
 
 ### starting with existing github repo raku-study
 
@@ -132,16 +132,12 @@
 
     1.  have me assign you commit privs to raku-study
 
-2.  pull a copy
+2.  edit a file, push changes
 
-3.  edit a file, push changes
-
-4.  create a file, push changes
-
-5.  resolving a merge conflict
+3.  resolving a merge conflict
 
 
-<a id="orga75ed1e"></a>
+<a id="org236baf7"></a>
 
 ### continuing with a new git repo
 
@@ -152,7 +148,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org11e3fbd"></a>
+<a id="org985a784"></a>
 
 ### the cool stuff
 
@@ -169,7 +165,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org9629e9a"></a>
+<a id="org2c8f768"></a>
 
 ### things you will not do with git
 

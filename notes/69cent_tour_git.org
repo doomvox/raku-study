@@ -30,7 +30,7 @@ cd /tmp/dev
 #+BEGIN_SRC sh
 git clone git@github.com:doomvox/raku-study.git
 #+END_SRC
-**** do some things with this
+**** create a file, push changes
 #+BEGIN_SRC sh
 cd /tmp/dev/raku-study/bin/2021may02
 echo "say 'hello';" > hello.raku
@@ -70,9 +70,9 @@ git diff <commit1> <commit2>
 *** starting with existing github repo raku-study
 **** create an account at github
 ***** have me assign you commit privs to raku-study
-**** pull a copy
+
 **** edit a file, push changes
-**** create a file, push changes
+
 **** resolving a merge conflict
 *** continuing with a new git repo
 **** creating a new project at github
