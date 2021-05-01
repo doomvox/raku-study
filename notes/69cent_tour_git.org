@@ -45,7 +45,9 @@ git log --oneline | egrep 'created demo'
 **** to do and to notice
 ****** note: no sequential version numbers 
 ****** "commits" are SHA1 hashes
+******* they're long but you can abbreivate to 5 or 6 chars
 ****** not file oriented: commits can include changes throughout the tree
+****** 
 
 **** edit the file, check diff, commit
 #+BEGIN_SRC sh

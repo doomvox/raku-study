@@ -1,30 +1,30 @@
-- [69 cent tour of git](#org3d6eab5)
-  - [version 0.1](#orga3e2ce5)
-  - [some stops on the tour](#org53ba8c3)
-    - [working with an existing git repo, e.g.](#orgea3e177)
-    - [initialize a new git repo](#org4501548)
-    - [starting with existing github repo raku-study](#org10fbd0f)
-    - [continuing with a new git repo](#orgf4fa4df)
-    - [the cool stuff](#org50b812e)
-    - [things you will not do with git](#org2eac72a)
+- [69 cent tour of git](#org3bc3eb9)
+  - [version 0.1](#orgeff25ff)
+  - [some stops on the tour](#org4c40426)
+    - [working with an existing git repo, e.g.](#orgc1126ea)
+    - [initialize a new git repo](#org76a1b9c)
+    - [starting with existing github repo raku-study](#org8eb4d21)
+    - [continuing with a new git repo](#org22304ec)
+    - [the cool stuff](#org7f189cf)
+    - [things you will not do with git](#org60fc25d)
 
 
-<a id="org3d6eab5"></a>
+<a id="org3bc3eb9"></a>
 
 # 69 cent tour of git
 
 
-<a id="orga3e2ce5"></a>
+<a id="orgeff25ff"></a>
 
 ## version 0.1
 
 
-<a id="org53ba8c3"></a>
+<a id="org4c40426"></a>
 
 ## some stops on the tour
 
 
-<a id="orgea3e177"></a>
+<a id="orgc1126ea"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -90,7 +90,11 @@
     
     2.  "commits" are SHA1 hashes
     
+        1.  they're long but you can abbreivate to 5 or 6 chars
+    
     3.  not file oriented: commits can include changes throughout the tree
+    
+    4.  
 
 9.  edit the file, check diff, commit
 
@@ -110,7 +114,7 @@
     ```
 
 
-<a id="org4501548"></a>
+<a id="org76a1b9c"></a>
 
 ### initialize a new git repo
 
@@ -131,7 +135,7 @@
     4.  .git/info/exclude
 
 
-<a id="org10fbd0f"></a>
+<a id="org8eb4d21"></a>
 
 ### starting with existing github repo raku-study
 
@@ -144,7 +148,7 @@
 3.  resolving a merge conflict
 
 
-<a id="orgf4fa4df"></a>
+<a id="org22304ec"></a>
 
 ### continuing with a new git repo
 
@@ -155,7 +159,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org50b812e"></a>
+<a id="org7f189cf"></a>
 
 ### the cool stuff
 
@@ -172,7 +176,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org2eac72a"></a>
+<a id="org60fc25d"></a>
 
 ### things you will not do with git
 
