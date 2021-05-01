@@ -1,30 +1,30 @@
-- [69 cent tour of git](#org265242d)
-  - [version 0.1](#org4fe357a)
-  - [some stops on the tour](#orgea4347e)
-    - [working with an existing git repo, e.g.](#org325ad69)
-    - [initialize a new git repo](#orgec0a2d9)
-    - [starting with existing github repo raku-study](#orgd2af919)
-    - [continuing with a new git repo](#org7d11c1a)
-    - [the cool stuff](#org3862776)
-    - [things you will not do with git](#org6a4bd02)
+- [69 cent tour of git](#org64c32ab)
+  - [version 0.1](#org1b72140)
+  - [some stops on the tour](#orge2957cb)
+    - [working with an existing git repo, e.g.](#org06a5021)
+    - [initialize a new git repo](#org9f44159)
+    - [starting with existing github repo raku-study](#org066381b)
+    - [continuing with a new git repo](#org12cd0f7)
+    - [the cool stuff](#org79f068b)
+    - [things you will not do with git](#org0b1f109)
 
 
-<a id="org265242d"></a>
+<a id="org64c32ab"></a>
 
 # 69 cent tour of git
 
 
-<a id="org4fe357a"></a>
+<a id="org1b72140"></a>
 
 ## version 0.1
 
 
-<a id="orgea4347e"></a>
+<a id="orge2957cb"></a>
 
 ## some stops on the tour
 
 
-<a id="org325ad69"></a>
+<a id="org06a5021"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -65,14 +65,14 @@
     cd /tmp/dev
     ```
 
-6.  use git
+6.  use git get a local copy of raku-study repository
 
     ```perl6
     git clone git@github.com:doomvox/raku-study.git
     ```
 
 
-<a id="orgec0a2d9"></a>
+<a id="org9f44159"></a>
 
 ### initialize a new git repo
 
@@ -103,7 +103,7 @@
         2.  SHA1 hashes of information in tree
 
 
-<a id="orgd2af919"></a>
+<a id="org066381b"></a>
 
 ### starting with existing github repo raku-study
 
@@ -120,7 +120,7 @@
 5.  resolving a merge conflict
 
 
-<a id="org7d11c1a"></a>
+<a id="org12cd0f7"></a>
 
 ### continuing with a new git repo
 
@@ -131,7 +131,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org3862776"></a>
+<a id="org79f068b"></a>
 
 ### the cool stuff
 
@@ -148,7 +148,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org6a4bd02"></a>
+<a id="org0b1f109"></a>
 
 ### things you will not do with git
 

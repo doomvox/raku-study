@@ -26,7 +26,7 @@ git@github.com:doomvox/raku-study.git
 mkdir /tmp/dev
 cd /tmp/dev
 #+END_SRC
-**** use git
+**** use git get a local copy of raku-study repository
 #+BEGIN_SRC perl6
 git clone git@github.com:doomvox/raku-study.git
 #+END_SRC
