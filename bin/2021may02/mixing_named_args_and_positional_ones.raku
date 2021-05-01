@@ -11,7 +11,7 @@ sub dostuff (*%nameo, *@ordo) {
    say "$action $item1";
 }
 
-
+dostuff( his => 'bingo', 'shout' );
 
 
 
