@@ -1,30 +1,30 @@
-- [69 cent tour of git](#orgcb9f442)
-  - [version 0.1](#org38e84e4)
-  - [some stops on the tour](#orgd3201d5)
-    - [working with an existing git repo, e.g.](#org64d3b1f)
-    - [initialize a new git repo](#orgbf359a5)
-    - [starting with existing github repo raku-study](#org4dc680e)
-    - [continuing with a new git repo](#org6316ecb)
-    - [the cool stuff](#orgad6d354)
-    - [things you will not do with git](#org4ca9515)
+- [69 cent tour of git](#org5e0c2d5)
+  - [version 0.1](#org02c85ff)
+  - [some stops on the tour](#orgbab8b73)
+    - [working with an existing git repo, e.g.](#org950dd8e)
+    - [initialize a new git repo](#org06dbef2)
+    - [starting with existing github repo raku-study](#org178a0a3)
+    - [continuing with a new git repo](#orgbafac12)
+    - [the cool stuff](#org7a17edf)
+    - [things you will not do with git](#orgc1765a5)
 
 
-<a id="orgcb9f442"></a>
+<a id="org5e0c2d5"></a>
 
 # 69 cent tour of git
 
 
-<a id="org38e84e4"></a>
+<a id="org02c85ff"></a>
 
 ## version 0.1
 
 
-<a id="orgd3201d5"></a>
+<a id="orgbab8b73"></a>
 
 ## some stops on the tour
 
 
-<a id="org64d3b1f"></a>
+<a id="org950dd8e"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -82,12 +82,12 @@
     git log -n 3
     git log -n 3 --oneline
     git log --oneline | egrep 'created demo'
-    echo "say 'goodbye;" >> hello.raku
+    echo "say 'goodbye';" >> hello.raku
     git status
     ```
 
 
-<a id="orgbf359a5"></a>
+<a id="org06dbef2"></a>
 
 ### initialize a new git repo
 
@@ -118,7 +118,7 @@
         2.  SHA1 hashes of information in tree
 
 
-<a id="org4dc680e"></a>
+<a id="org178a0a3"></a>
 
 ### starting with existing github repo raku-study
 
@@ -135,7 +135,7 @@
 5.  resolving a merge conflict
 
 
-<a id="org6316ecb"></a>
+<a id="orgbafac12"></a>
 
 ### continuing with a new git repo
 
@@ -146,7 +146,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgad6d354"></a>
+<a id="org7a17edf"></a>
 
 ### the cool stuff
 
@@ -163,7 +163,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org4ca9515"></a>
+<a id="orgc1765a5"></a>
 
 ### things you will not do with git
 
