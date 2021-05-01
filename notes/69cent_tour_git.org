@@ -15,8 +15,6 @@
 ssh-keygen -t rsa
 #+END_SRC
 
-**** if you haven't already
-
 **** go to the "Code" button near the right, click for the drop-down
 **** with the SSH tab selected (the default) you'll see:
 #+BEGIN_SRC sh
