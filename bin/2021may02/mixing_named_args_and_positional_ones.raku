@@ -5,6 +5,10 @@
 use v6;
 
 sub dostuff (*%nameo, *@ordo) {
+
+    
+   my $item1 = %nameo{'his'};
+
 }
 
 
