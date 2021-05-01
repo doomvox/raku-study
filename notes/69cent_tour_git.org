@@ -42,6 +42,7 @@ git log -n 3 --oneline
 git log --oneline | egrep 'created demo'
 echo "say 'goodbye';" >> hello.raku
 git status
+git diff
 
 #+END_SRC
 
