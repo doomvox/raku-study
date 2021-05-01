@@ -1,30 +1,30 @@
-- [69 cent tour of git](#orgda98d76)
-  - [version 0.1](#orgb618ab1)
-  - [some stops on the tour](#orge5f82fe)
-    - [working with an existing git repo, e.g.](#org731d912)
-    - [initialize a new git repo](#orge284299)
-    - [starting with existing github repo raku-study](#org28802ac)
-    - [continuing with a new git repo](#org205bc8c)
-    - [the cool stuff](#org0d28d8a)
-    - [things you will not do with git](#org8f7c530)
+- [69 cent tour of git](#orgecd10d6)
+  - [version 0.1](#orgd64340e)
+  - [some stops on the tour](#orgdc20a7c)
+    - [working with an existing git repo, e.g.](#org342c931)
+    - [initialize a new git repo](#orga9ef042)
+    - [starting with existing github repo raku-study](#orgbf1f12e)
+    - [continuing with a new git repo](#orge7a8410)
+    - [the cool stuff](#org6695b26)
+    - [things you will not do with git](#org0103bf6)
 
 
-<a id="orgda98d76"></a>
+<a id="orgecd10d6"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgb618ab1"></a>
+<a id="orgd64340e"></a>
 
 ## version 0.1
 
 
-<a id="orge5f82fe"></a>
+<a id="orgdc20a7c"></a>
 
 ## some stops on the tour
 
 
-<a id="org731d912"></a>
+<a id="org342c931"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -84,7 +84,7 @@
     ```
 
 
-<a id="orge284299"></a>
+<a id="orga9ef042"></a>
 
 ### initialize a new git repo
 
@@ -115,7 +115,7 @@
         2.  SHA1 hashes of information in tree
 
 
-<a id="org28802ac"></a>
+<a id="orgbf1f12e"></a>
 
 ### starting with existing github repo raku-study
 
@@ -132,7 +132,7 @@
 5.  resolving a merge conflict
 
 
-<a id="org205bc8c"></a>
+<a id="orge7a8410"></a>
 
 ### continuing with a new git repo
 
@@ -143,7 +143,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org0d28d8a"></a>
+<a id="org6695b26"></a>
 
 ### the cool stuff
 
@@ -160,7 +160,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org8f7c530"></a>
+<a id="org0103bf6"></a>
 
 ### things you will not do with git
 
