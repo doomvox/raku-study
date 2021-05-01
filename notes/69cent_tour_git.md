@@ -1,30 +1,30 @@
-- [69 cent tour of git](#org89d9308)
-  - [version 0.1](#org37ada1d)
-  - [some stops on the tour](#org50d97aa)
-    - [working with an existing git repo, e.g.](#orgcfb71c9)
-    - [initialize a new git repo](#orgfa98a82)
-    - [starting with existing github repo raku-study](#org39c046d)
-    - [continuing with a new git repo](#orge1c49f2)
-    - [the cool stuff](#orge3854f0)
-    - [things you will not do with git](#org060df38)
+- [69 cent tour of git](#orgd30c4ee)
+  - [version 0.1](#org2f238e3)
+  - [some stops on the tour](#orgc398eb0)
+    - [working with an existing git repo, e.g.](#org7b76081)
+    - [initialize a new git repo](#orgbb9d8a7)
+    - [starting with existing github repo raku-study](#org199a61d)
+    - [continuing with a new git repo](#orgdfef4b1)
+    - [the cool stuff](#orga7be43a)
+    - [things you will not do with git](#orgedb5a0b)
 
 
-<a id="org89d9308"></a>
+<a id="orgd30c4ee"></a>
 
 # 69 cent tour of git
 
 
-<a id="org37ada1d"></a>
+<a id="org2f238e3"></a>
 
 ## version 0.1
 
 
-<a id="org50d97aa"></a>
+<a id="orgc398eb0"></a>
 
 ## some stops on the tour
 
 
-<a id="orgcfb71c9"></a>
+<a id="org7b76081"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -86,10 +86,23 @@
 
 8.  edit the file, check diff, commit
 
-    echo "say 'goodbye';" >> hello.raku git status git diff git commit -m 'added goodbye line to hello.raku' git commit -a -m 'added goodbye line to hello.raku' git log -3 git diff git diff <commit1> <commit2> git pull git status git commit -a -m'wtf?' git push \\#+END<sub>SRC</sub>
+    ```sh
+    echo "say 'goodbye';" >> hello.raku
+    git status
+    git diff
+    git commit -m 'added goodbye line to hello.raku'
+    git commit -a -m 'added goodbye line to hello.raku'
+    git log -3
+    git diff
+    git diff <commit1> <commit2>
+    git pull
+    git status
+    git commit -a -m'wtf?'
+    git push
+    ```
 
 
-<a id="orgfa98a82"></a>
+<a id="orgbb9d8a7"></a>
 
 ### initialize a new git repo
 
@@ -114,7 +127,7 @@
         2.  SHA1 hashes of information in tree
 
 
-<a id="org39c046d"></a>
+<a id="org199a61d"></a>
 
 ### starting with existing github repo raku-study
 
@@ -127,7 +140,7 @@
 3.  resolving a merge conflict
 
 
-<a id="orge1c49f2"></a>
+<a id="orgdfef4b1"></a>
 
 ### continuing with a new git repo
 
@@ -138,7 +151,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orge3854f0"></a>
+<a id="orga7be43a"></a>
 
 ### the cool stuff
 
@@ -155,7 +168,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org060df38"></a>
+<a id="orgedb5a0b"></a>
 
 ### things you will not do with git
 

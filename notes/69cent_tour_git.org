@@ -44,6 +44,7 @@ git log --oneline | egrep 'created demo'
 
 
 **** edit the file, check diff, commit
+#+BEGIN_SRC sh
 echo "say 'goodbye';" >> hello.raku
 git status
 git diff
