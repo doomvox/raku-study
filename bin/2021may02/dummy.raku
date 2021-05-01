@@ -7,7 +7,8 @@ use v6;
 my @things = «π»;
 say @things;
 
-
+my $pi_e = π * 𝑒;
+say $pi_e;
 
 
 
