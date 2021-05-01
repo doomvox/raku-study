@@ -41,6 +41,8 @@ git log -n 3
 git log -n 3 --oneline
 git log --oneline | egrep 'created demo'
 echo "say 'goodbye;" >> hello.raku
+git status
+
 #+END_SRC
 
 *** initialize a new git repo
