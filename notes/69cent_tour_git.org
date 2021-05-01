@@ -39,7 +39,6 @@ git status
 git commit -m'created demo script hello.raku'
 git log -n 3
 git log --oneline | egrep 'created demo'
-
 #+END_SRC
 
 *** initialize a new git repo
