@@ -11,7 +11,7 @@ sub dostuff (*%nameo, *@ordo) {
    printf "%s %s!\n", $action, uc( $item1 );
 }
 
-dostuff( his => 'bingo', 'shout' );  # shout bingo
+dostuff( his => 'bingo', 'shout' );  # shout BINGO!
 
 
 
