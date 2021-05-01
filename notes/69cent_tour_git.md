@@ -1,30 +1,30 @@
-- [69 cent tour of git](#orga4bd313)
-  - [version 0.1](#org9e102ea)
-  - [some stops on the tour](#orgafe714c)
-    - [working with an existing git repo, e.g.](#org601d36d)
-    - [initialize a new git repo](#org0a583bb)
-    - [starting with existing github repo raku-study](#orgfc36527)
-    - [continuing with a new git repo](#orgd93aa5d)
-    - [the cool stuff](#org85b62a9)
-    - [things you will not do with git](#org126f5e2)
+- [69 cent tour of git](#orgba97928)
+  - [version 0.1](#orge1e0614)
+  - [some stops on the tour](#org1605bbd)
+    - [working with an existing git repo, e.g.](#orgfa9095d)
+    - [initialize a new git repo](#org3a0cf93)
+    - [starting with existing github repo raku-study](#org38c459b)
+    - [continuing with a new git repo](#orga75ed1e)
+    - [the cool stuff](#org11e3fbd)
+    - [things you will not do with git](#org9629e9a)
 
 
-<a id="orga4bd313"></a>
+<a id="orgba97928"></a>
 
 # 69 cent tour of git
 
 
-<a id="org9e102ea"></a>
+<a id="orge1e0614"></a>
 
 ## version 0.1
 
 
-<a id="orgafe714c"></a>
+<a id="org1605bbd"></a>
 
 ## some stops on the tour
 
 
-<a id="org601d36d"></a>
+<a id="orgfa9095d"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -88,11 +88,12 @@
     git commit -m 'added goodbye line to hello.raku'
     git commit -a -m 'added goodbye line to hello.raku'
     git log -3
+    git diff
     git diff <commit1> <commit2>
     ```
 
 
-<a id="org0a583bb"></a>
+<a id="org3a0cf93"></a>
 
 ### initialize a new git repo
 
@@ -123,7 +124,7 @@
         2.  SHA1 hashes of information in tree
 
 
-<a id="orgfc36527"></a>
+<a id="org38c459b"></a>
 
 ### starting with existing github repo raku-study
 
@@ -140,7 +141,7 @@
 5.  resolving a merge conflict
 
 
-<a id="orgd93aa5d"></a>
+<a id="orga75ed1e"></a>
 
 ### continuing with a new git repo
 
@@ -151,7 +152,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org85b62a9"></a>
+<a id="org11e3fbd"></a>
 
 ### the cool stuff
 
@@ -168,7 +169,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org126f5e2"></a>
+<a id="org9629e9a"></a>
 
 ### things you will not do with git
 
