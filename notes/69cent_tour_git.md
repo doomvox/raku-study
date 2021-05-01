@@ -1,30 +1,30 @@
-- [69 cent tour of git](#orgb27159e)
-  - [version 0.1](#orgc84ad9e)
-  - [some stops on the tour](#org15cccc0)
-    - [working with an existing git repo, e.g.](#org473c092)
-    - [initialize a new git repo](#org1512932)
-    - [starting with existing github repo raku-study](#org8dd9386)
-    - [continuing with a new git repo](#org4545d56)
-    - [the cool stuff](#orgb0106a6)
-    - [things you will not do with git](#org62570f7)
+- [69 cent tour of git](#org250c36c)
+  - [version 0.1](#orgdb0d43a)
+  - [some stops on the tour](#org2e7d7a2)
+    - [working with an existing git repo, e.g.](#orgd9e588a)
+    - [initialize a new git repo](#orga153c39)
+    - [starting with existing github repo raku-study](#org52c51a2)
+    - [continuing with a new git repo](#org58cc0ad)
+    - [the cool stuff](#orgf99147c)
+    - [things you will not do with git](#org4f9a0fc)
 
 
-<a id="orgb27159e"></a>
+<a id="org250c36c"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgc84ad9e"></a>
+<a id="orgdb0d43a"></a>
 
 ## version 0.1
 
 
-<a id="org15cccc0"></a>
+<a id="org2e7d7a2"></a>
 
 ## some stops on the tour
 
 
-<a id="org473c092"></a>
+<a id="orgd9e588a"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -91,12 +91,13 @@
     git diff
     git diff <commit1> <commit2>
     git pull
+    git status
     git commit -a -m'wtf?'
     git push
     ```
 
 
-<a id="org1512932"></a>
+<a id="orga153c39"></a>
 
 ### initialize a new git repo
 
@@ -127,7 +128,7 @@
         2.  SHA1 hashes of information in tree
 
 
-<a id="org8dd9386"></a>
+<a id="org52c51a2"></a>
 
 ### starting with existing github repo raku-study
 
@@ -140,7 +141,7 @@
 3.  resolving a merge conflict
 
 
-<a id="org4545d56"></a>
+<a id="org58cc0ad"></a>
 
 ### continuing with a new git repo
 
@@ -151,7 +152,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgb0106a6"></a>
+<a id="orgf99147c"></a>
 
 ### the cool stuff
 
@@ -168,7 +169,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org62570f7"></a>
+<a id="org4f9a0fc"></a>
 
 ### things you will not do with git
 

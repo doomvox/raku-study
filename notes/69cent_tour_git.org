@@ -49,6 +49,7 @@ git log -3
 git diff
 git diff <commit1> <commit2>
 git pull
+git status
 git commit -a -m'wtf?'
 git push
 #+END_SRC
