@@ -5,6 +5,7 @@
 use v6;
 
 my @things = «π»;
+say @things;
 
 
 
