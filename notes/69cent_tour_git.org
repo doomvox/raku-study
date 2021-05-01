@@ -31,9 +31,7 @@ cd /tmp/dev
 git clone git@github.com:doomvox/raku-study.git
 #+END_SRC
 **** do some things with this
-
 #+BEGIN_SRC sh
-
 cd /tmp/dev/raku-study/bin/2021may02
 echo "say 'hello';" > hello.raku
 raku hello.raku
