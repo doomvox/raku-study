@@ -1,30 +1,30 @@
-- [69 cent tour of git](#org64c32ab)
-  - [version 0.1](#org1b72140)
-  - [some stops on the tour](#orge2957cb)
-    - [working with an existing git repo, e.g.](#org06a5021)
-    - [initialize a new git repo](#org9f44159)
-    - [starting with existing github repo raku-study](#org066381b)
-    - [continuing with a new git repo](#org12cd0f7)
-    - [the cool stuff](#org79f068b)
-    - [things you will not do with git](#org0b1f109)
+- [69 cent tour of git](#orgdfc0819)
+  - [version 0.1](#org1093991)
+  - [some stops on the tour](#org35a3f37)
+    - [working with an existing git repo, e.g.](#org9729937)
+    - [initialize a new git repo](#org3d0e440)
+    - [starting with existing github repo raku-study](#org8ff0215)
+    - [continuing with a new git repo](#org236baf7)
+    - [the cool stuff](#org985a784)
+    - [things you will not do with git](#org2c8f768)
 
 
-<a id="org64c32ab"></a>
+<a id="orgdfc0819"></a>
 
 # 69 cent tour of git
 
 
-<a id="org1b72140"></a>
+<a id="org1093991"></a>
 
 ## version 0.1
 
 
-<a id="orge2957cb"></a>
+<a id="org35a3f37"></a>
 
 ## some stops on the tour
 
 
-<a id="org06a5021"></a>
+<a id="org9729937"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -60,19 +60,40 @@
 
 5.  create a location to work, e.g.:
 
-    ```perl6
+    ```sh
     mkdir /tmp/dev
     cd /tmp/dev
     ```
 
 6.  use git get a local copy of raku-study repository
 
-    ```perl6
+    ```sh
     git clone git@github.com:doomvox/raku-study.git
     ```
 
+7.  create a file, push changes
 
-<a id="org9f44159"></a>
+    ```sh
+    cd /tmp/dev/raku-study/bin/2021may02
+    echo "say 'hello';" > hello.raku
+    raku hello.raku
+    git status
+    git commit -m'created demo script hello.raku'
+    git log -n 3
+    git log -n 3 --oneline
+    git log --oneline | egrep 'created demo'
+    echo "say 'goodbye';" >> hello.raku
+    git status
+    git diff
+    git commit -m 'added goodbye line to hello.raku'
+    git commit -a -m 'added goodbye line to hello.raku'
+    git log -3
+    git diff
+    git diff <commit1> <commit2>
+    ```
+
+
+<a id="org3d0e440"></a>
 
 ### initialize a new git repo
 
@@ -103,7 +124,7 @@
         2.  SHA1 hashes of information in tree
 
 
-<a id="org066381b"></a>
+<a id="org8ff0215"></a>
 
 ### starting with existing github repo raku-study
 
@@ -111,16 +132,12 @@
 
     1.  have me assign you commit privs to raku-study
 
-2.  pull a copy
+2.  edit a file, push changes
 
-3.  edit a file, push changes
-
-4.  create a file, push changes
-
-5.  resolving a merge conflict
+3.  resolving a merge conflict
 
 
-<a id="org12cd0f7"></a>
+<a id="org236baf7"></a>
 
 ### continuing with a new git repo
 
@@ -131,7 +148,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org79f068b"></a>
+<a id="org985a784"></a>
 
 ### the cool stuff
 
@@ -148,7 +165,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org0b1f109"></a>
+<a id="org2c8f768"></a>
 
 ### things you will not do with git
 

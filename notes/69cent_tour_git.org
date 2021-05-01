@@ -22,15 +22,33 @@ git@github.com:doomvox/raku-study.git
 #+END_SRC
 
 **** create a location to work, e.g.:
-#+BEGIN_SRC perl6
+#+BEGIN_SRC sh
 mkdir /tmp/dev
 cd /tmp/dev
 #+END_SRC
 **** use git get a local copy of raku-study repository
-#+BEGIN_SRC perl6
+#+BEGIN_SRC sh
 git clone git@github.com:doomvox/raku-study.git
 #+END_SRC
-
+**** create a file, push changes
+#+BEGIN_SRC sh
+cd /tmp/dev/raku-study/bin/2021may02
+echo "say 'hello';" > hello.raku
+raku hello.raku
+git status
+git commit -m'created demo script hello.raku'
+git log -n 3
+git log -n 3 --oneline
+git log --oneline | egrep 'created demo'
+echo "say 'goodbye';" >> hello.raku
+git status
+git diff
+git commit -m 'added goodbye line to hello.raku'
+git commit -a -m 'added goodbye line to hello.raku'
+git log -3
+git diff
+git diff <commit1> <commit2>
+#+END_SRC
 
 *** initialize a new git repo
 ****  working standalone
@@ -52,9 +70,9 @@ git clone git@github.com:doomvox/raku-study.git
 *** starting with existing github repo raku-study
 **** create an account at github
 ***** have me assign you commit privs to raku-study
-**** pull a copy
+
 **** edit a file, push changes
-**** create a file, push changes
+
 **** resolving a merge conflict
 *** continuing with a new git repo
 **** creating a new project at github
