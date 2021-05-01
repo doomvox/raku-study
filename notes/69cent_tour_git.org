@@ -20,8 +20,6 @@ ssh-keygen -t rsa
 #+BEGIN_SRC sh
 git@github.com:doomvox/raku-study.git
 #+END_SRC
-**** 
-
 
 **** create a location to work, e.g.:
 #+BEGIN_SRC perl6

@@ -1,30 +1,30 @@
-- [69 cent tour of git](#org116b522)
-  - [version 0.1](#orga29b251)
-  - [some stops on the tour](#orge68bb43)
-    - [working with an existing git repo, e.g.](#org4ea99a0)
-    - [initialize a new git repo](#org4085425)
-    - [starting with existing github repo raku-study](#org01b5614)
-    - [continuing with a new git repo](#org923b798)
-    - [the cool stuff](#orgc3d462a)
-    - [things you will not do with git](#orgffd213f)
+- [69 cent tour of git](#org505758e)
+  - [version 0.1](#org8e15e07)
+  - [some stops on the tour](#org00dc336)
+    - [working with an existing git repo, e.g.](#org43ffd17)
+    - [initialize a new git repo](#orgd2bb0d7)
+    - [starting with existing github repo raku-study](#orgde73cef)
+    - [continuing with a new git repo](#orga3f7484)
+    - [the cool stuff](#org2c7e52a)
+    - [things you will not do with git](#orge6e0a7b)
 
 
-<a id="org116b522"></a>
+<a id="org505758e"></a>
 
 # 69 cent tour of git
 
 
-<a id="orga29b251"></a>
+<a id="org8e15e07"></a>
 
 ## version 0.1
 
 
-<a id="orge68bb43"></a>
+<a id="org00dc336"></a>
 
 ## some stops on the tour
 
 
-<a id="org4ea99a0"></a>
+<a id="org43ffd17"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -58,23 +58,21 @@
     git@github.com:doomvox/raku-study.git
     ```
 
-5.  
-
-6.  create a location to work, e.g.:
+5.  create a location to work, e.g.:
 
     ```perl6
     mkdir /tmp/dev
     cd /tmp/dev
     ```
 
-7.  use git
+6.  use git
 
     ```perl6
     git clone git@github.com:doomvox/raku-study.git
     ```
 
 
-<a id="org4085425"></a>
+<a id="orgd2bb0d7"></a>
 
 ### initialize a new git repo
 
@@ -105,7 +103,7 @@
         2.  SHA1 hashes of information in tree
 
 
-<a id="org01b5614"></a>
+<a id="orgde73cef"></a>
 
 ### starting with existing github repo raku-study
 
@@ -122,7 +120,7 @@
 5.  resolving a merge conflict
 
 
-<a id="org923b798"></a>
+<a id="orga3f7484"></a>
 
 ### continuing with a new git repo
 
@@ -133,7 +131,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgc3d462a"></a>
+<a id="org2c7e52a"></a>
 
 ### the cool stuff
 
@@ -150,7 +148,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="orgffd213f"></a>
+<a id="orge6e0a7b"></a>
 
 ### things you will not do with git
 
