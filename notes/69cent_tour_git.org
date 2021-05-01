@@ -48,6 +48,9 @@ git commit -a -m 'added goodbye line to hello.raku'
 git log -3
 git diff
 git diff <commit1> <commit2>
+git pull
+git commit -a -m'wtf?'
+git push
 #+END_SRC
 
 *** initialize a new git repo
