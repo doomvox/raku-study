@@ -13,10 +13,6 @@ sub dostuff (*%nameo, *@ordo) {
 
 dostuff( his => 'bingo', 'shout' );  # shout BINGO!
 
-
-
-
-
 # ====
 #  sheet of cheats
 
