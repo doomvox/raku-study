@@ -42,7 +42,6 @@ git log -n 3 --oneline
 git log --oneline | egrep 'created demo'
 #+END_SRC
 
-
 **** edit the file, check diff, commit
 #+BEGIN_SRC sh
 echo "say 'goodbye';" >> hello.raku
