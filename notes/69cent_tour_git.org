@@ -40,6 +40,7 @@ git commit -m'created demo script hello.raku'
 git log -n 3
 git log -n 3 --oneline
 git log --oneline | egrep 'created demo'
+echo "say 'goodbye;" >> hello.raku
 #+END_SRC
 
 *** initialize a new git repo
