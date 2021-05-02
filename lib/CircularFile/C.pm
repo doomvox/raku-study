@@ -74,7 +74,7 @@ sub c {
   say "Called c...";
   my $ret = c() || 'c';
   $GLOBAL++;
-  if ( > 4 ) {
+  if ( $GLOBAL > 4 ) {
     exit;
   }
   return $ret;
