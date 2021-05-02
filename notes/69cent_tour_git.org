@@ -9,6 +9,7 @@
 https://github.com/doomvox/raku-study/settings/access
 ***** share your public ssh key (rsa, not dsa) at your github account
 ****** picture button (top-right)->Settings->SSH and GPG keys->New SSH key button
+https://github.com/settings/keys 
 ****** Add your "ssh-rsa" from: ~/.ssh/id_rsa.pub
 ******* if you don't have one yet, run:
 #+BEGIN_SRC perl6

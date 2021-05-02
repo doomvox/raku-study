@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org18b9f22)
-  - [some stops on the tour](#orgdb0f578)
-    - [first stop: using an existing git repo, e.g.](#org51e2184)
-    - [second stop: create a new git repo](#org2d5891a)
-    - [third stop: putting that new git repo on github](#org0fb1648)
-    - [fourth stop: haven't covered the cool stuff](#orgf569724)
-    - [fifth stop: things you will not do with git](#org5b6d134)
+- [69 cent tour of git](#org0885f6b)
+  - [some stops on the tour](#orgc93d7c9)
+    - [first stop: using an existing git repo, e.g.](#org69d997d)
+    - [second stop: create a new git repo](#orgb1fdaa2)
+    - [third stop: putting that new git repo on github](#orgf1ed611)
+    - [fourth stop: haven't covered the cool stuff](#orga694d00)
+    - [fifth stop: things you will not do with git](#org8ea2bd5)
 
 
-<a id="org18b9f22"></a>
+<a id="org0885f6b"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgdb0f578"></a>
+<a id="orgc93d7c9"></a>
 
 ## some stops on the tour
 
 
-<a id="org51e2184"></a>
+<a id="org69d997d"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -36,6 +36,8 @@
     3.  share your public ssh key (rsa, not dsa) at your github account
     
         1.  picture button (top-right)->Settings->SSH and GPG keys->New SSH key button
+        
+            <https://github.com/settings/keys>
         
         2.  Add your "ssh-rsa" from: ~/.ssh/id<sub>rsa.pub</sub>
         
@@ -123,7 +125,7 @@
     ```
 
 
-<a id="org2d5891a"></a>
+<a id="orgb1fdaa2"></a>
 
 ### second stop: create a new git repo
 
@@ -150,7 +152,7 @@
 2.  resolving a merge conflict
 
 
-<a id="org0fb1648"></a>
+<a id="orgf1ed611"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -161,7 +163,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgf569724"></a>
+<a id="orga694d00"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -180,7 +182,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org5b6d134"></a>
+<a id="org8ea2bd5"></a>
 
 ### fifth stop: things you will not do with git
 
