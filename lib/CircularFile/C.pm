@@ -66,6 +66,8 @@ my $DEBUG = 1;
 
 # Preloaded methods go here.
 
+use Circular::A qw( :all );
+
 sub c {
 
 }
