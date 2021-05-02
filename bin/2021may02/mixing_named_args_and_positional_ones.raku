@@ -35,7 +35,11 @@ use v6;
 ##   copyoid( $source, $dest, recursive => 1, warn_level => 0 );
 
     sub copyoid ( $source, $dest, *%opt ) {
-        my $recursive = %opt<recursive>;
+        my ($recursive, $warn_level) = %opt<recursive warn_level>;
+        say "$source to $dest";
+        say "recursive: $recursive";
+        say "warn_level: $warn_level";
+
 
     }
 
