@@ -17,6 +17,9 @@ sub slurp_array (*%opt, *@list) {
     say "count: ", @list.elems;
 }
 
+my @monsters = < godzilla grendel wormface blob >;
+slurp_array( @monsters )
+
 
 ## Try to make errors into warnings
 #   CATCH { default { say "CAUGHT: ", .Str; .resume } }
