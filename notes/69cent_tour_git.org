@@ -64,7 +64,7 @@ git commit -a -m'wtf?'
 git push
 #+END_SRC
 
-*** new topic: initialize a new git repo
+*** new topic: create a new git repo
 ****  working standalone
 
 ***** git add

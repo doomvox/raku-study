@@ -1,30 +1,30 @@
-- [69 cent tour of git](#org2526dd0)
-  - [version 0.1](#orgfc924ff)
-  - [some stops on the tour](#orga0fd972)
-    - [working with an existing git repo, e.g.](#org7ade8db)
-    - [new topic: initialize a new git repo](#org87d2c7a)
-    - [starting with existing github repo raku-study](#org44e0cc6)
-    - [continuing with a new git repo](#org5233632)
-    - [the cool stuff](#orgbb3fa55)
-    - [things you will not do with git](#org7b47290)
+- [69 cent tour of git](#orgd37e24f)
+  - [version 0.1](#orge80b444)
+  - [some stops on the tour](#org3d68962)
+    - [working with an existing git repo, e.g.](#orgc6dd4f5)
+    - [new topic: create a new git repo](#org92919bc)
+    - [starting with existing github repo raku-study](#orgf60f096)
+    - [continuing with a new git repo](#org1728159)
+    - [the cool stuff](#org00c2811)
+    - [things you will not do with git](#org23d0350)
 
 
-<a id="org2526dd0"></a>
+<a id="orgd37e24f"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgfc924ff"></a>
+<a id="orge80b444"></a>
 
 ## version 0.1
 
 
-<a id="orga0fd972"></a>
+<a id="org3d68962"></a>
 
 ## some stops on the tour
 
 
-<a id="org7ade8db"></a>
+<a id="orgc6dd4f5"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -112,9 +112,9 @@
     ```
 
 
-<a id="org87d2c7a"></a>
+<a id="org92919bc"></a>
 
-### new topic: initialize a new git repo
+### new topic: create a new git repo
 
 1.  working standalone
 
@@ -133,7 +133,7 @@
     4.  .git/info/exclude
 
 
-<a id="org44e0cc6"></a>
+<a id="orgf60f096"></a>
 
 ### starting with existing github repo raku-study
 
@@ -146,7 +146,7 @@
 3.  resolving a merge conflict
 
 
-<a id="org5233632"></a>
+<a id="org1728159"></a>
 
 ### continuing with a new git repo
 
@@ -157,7 +157,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgbb3fa55"></a>
+<a id="org00c2811"></a>
 
 ### the cool stuff
 
@@ -174,7 +174,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org7b47290"></a>
+<a id="org23d0350"></a>
 
 ### things you will not do with git
 
