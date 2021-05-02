@@ -1,30 +1,29 @@
-- [69 cent tour of git](#org4907226)
-  - [version 0.1](#org75b7c99)
-  - [some stops on the tour](#org56e2847)
-    - [working with an existing git repo, e.g.](#org893292d)
-    - [new topic: create a new git repo](#orgbc54fc2)
-    - [starting with existing github repo raku-study](#org1ce7d17)
-    - [continuing with a new git repo](#orgdecb566)
-    - [the cool stuff](#org7ef25c6)
-    - [things you will not do with git](#org8d4f693)
+- [69 cent tour of git](#orgef46042)
+  - [version 0.1](#orgaf27dac)
+  - [some stops on the tour](#orga12ed0e)
+    - [working with an existing git repo, e.g.](#org84ee38f)
+    - [new topic: create a new git repo](#org3539961)
+    - [continuing with a new git repo](#orgdd59010)
+    - [the cool stuff](#orgcccd44c)
+    - [things you will not do with git](#orge15b442)
 
 
-<a id="org4907226"></a>
+<a id="orgef46042"></a>
 
 # 69 cent tour of git
 
 
-<a id="org75b7c99"></a>
+<a id="orgaf27dac"></a>
 
 ## version 0.1
 
 
-<a id="org56e2847"></a>
+<a id="orga12ed0e"></a>
 
 ## some stops on the tour
 
 
-<a id="org893292d"></a>
+<a id="org84ee38f"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -112,7 +111,7 @@
     ```
 
 
-<a id="orgbc54fc2"></a>
+<a id="org3539961"></a>
 
 ### new topic: create a new git repo
 
@@ -136,21 +135,10 @@
     
     6.  .git/info/exclude
 
-
-<a id="org1ce7d17"></a>
-
-### starting with existing github repo raku-study
-
-1.  create an account at github
-
-    1.  have me assign you commit privs to raku-study
-
-2.  edit a file, push changes
-
-3.  resolving a merge conflict
+2.  resolving a merge conflict
 
 
-<a id="orgdecb566"></a>
+<a id="orgdd59010"></a>
 
 ### continuing with a new git repo
 
@@ -161,7 +149,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org7ef25c6"></a>
+<a id="orgcccd44c"></a>
 
 ### the cool stuff
 
@@ -178,7 +166,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org8d4f693"></a>
+<a id="orge15b442"></a>
 
 ### things you will not do with git
 
