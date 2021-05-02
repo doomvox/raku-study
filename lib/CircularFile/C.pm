@@ -66,6 +66,8 @@ my $DEBUG = 1;
 
 # Preloaded methods go here.
 
+my $GLOBAL = 0;
+
 use lib ("/home/doom/End/Cave/Perl6/Wall/raku-study/lib/CircularFile");
 use CircularFile::A qw( :all );
 sub c {
