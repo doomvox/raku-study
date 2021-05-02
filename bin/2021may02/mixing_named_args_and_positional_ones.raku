@@ -26,13 +26,13 @@ use v6;
     ## hm... that's okay by me, but I expected *2*
 }
 
+say '---';
 {
+    ## perl5 idiom: ordered args with an options hash ref in last place:
+    ##   copyoid( $source, $dest, { recursive => 1, warn_level => 0 } );
 
-## perl5 idiom: ordered args with an options hash ref in last place:
-##   copyoid( $source, $dest, { recursive => 1, warn_level => 0 } );
-
-## raku simplifies this:
-##   copyoid( $source, $dest, recursive => 1, warn_level => 0 );
+    ## raku simplifies this:
+    ##   copyoid( $source, $dest, recursive => 1, warn_level => 0 );
 
     sub copyoid ( $source, $dest, *%opt ) {
         my ($recursive, $warn_level) = %opt<recursive warn_level>;
@@ -46,6 +46,8 @@ use v6;
 }
 
 
+
+say '---';
 {
     sub slurp_array (*%opt, *@list) {
         say "count: ", @list.elems;
