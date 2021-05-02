@@ -27,7 +27,7 @@ use v6;
 }
 
 ## perl5 idiom: ordered args with an options hash ref in last place:
-##  copy_oidal_routine( $source, $dest, { recursive => 1, warn_level => 0 } );
+##   copy_oidal_routine( $source, $dest, { recursive => 1, warn_level => 0 } );
 
 ##  copy_
 
