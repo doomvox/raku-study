@@ -69,9 +69,9 @@ my $DEBUG = 1;
 use Circular::B qw( :all );
 
 sub a {
-
-  b();
-
+  say "Called a...";
+  my $ret = b();
+  return $ret;
 }
 
 1;
