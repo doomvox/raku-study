@@ -22,6 +22,7 @@ slurp_array( @monsters ); # count: 4
 
 my @rabbits  = < bugs peter easter >;
 slurp_array( @monsters, @rabbits ); # count: 7
+## hm... that's okay by me, but I expected *2*
 
 
 ## Try to make errors into warnings
