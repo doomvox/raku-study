@@ -75,7 +75,7 @@ git push -u origin main
 #+END_SRC
 
 *** new topic: create a new git repo
-****  working standalone
+****  working standalone (without a server like github)
 ***** cd <where_ever>
 ***** git init
 ***** git add

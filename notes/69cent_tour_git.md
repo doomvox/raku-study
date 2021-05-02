@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org7fd3025)
-  - [some stops on the tour](#orgd0d23df)
-    - [working with an existing git repo, e.g.](#org3b35f6d)
-    - [new topic: create a new git repo](#org8e3b0ca)
-    - [follow on topic: putting that new git repo on github](#org5d4a5a0)
-    - [the cool stuff &#x2013; haven't really covered any of it](#org9bbdc64)
-    - [things you will not do with git](#org89216f7)
+- [69 cent tour of git](#orgf5b21a0)
+  - [some stops on the tour](#org61cfb71)
+    - [working with an existing git repo, e.g.](#org03da93b)
+    - [new topic: create a new git repo](#org3f9189c)
+    - [follow on topic: putting that new git repo on github](#orgc4366b8)
+    - [the cool stuff &#x2013; haven't really covered any of it](#orga851d8a)
+    - [things you will not do with git](#orgd5b945b)
 
 
-<a id="org7fd3025"></a>
+<a id="orgf5b21a0"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgd0d23df"></a>
+<a id="org61cfb71"></a>
 
 ## some stops on the tour
 
 
-<a id="org3b35f6d"></a>
+<a id="org03da93b"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -119,11 +119,11 @@
     ```
 
 
-<a id="org8e3b0ca"></a>
+<a id="org3f9189c"></a>
 
 ### new topic: create a new git repo
 
-1.  working standalone
+1.  working standalone (without a server like github)
 
     1.  cd <where<sub>ever</sub>>
     
@@ -146,7 +146,7 @@
 2.  resolving a merge conflict
 
 
-<a id="org5d4a5a0"></a>
+<a id="orgc4366b8"></a>
 
 ### follow on topic: putting that new git repo on github
 
@@ -157,7 +157,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org9bbdc64"></a>
+<a id="orga851d8a"></a>
 
 ### the cool stuff &#x2013; haven't really covered any of it
 
@@ -176,7 +176,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org89216f7"></a>
+<a id="orgd5b945b"></a>
 
 ### things you will not do with git
 
