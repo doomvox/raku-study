@@ -36,7 +36,7 @@ say '---';
 
     sub copyoid ( $source, $dest, *%opt ) {
         my ($recursive, $warn_level) = %opt<recursive warn_level>;
-        say "$source to $dest";
+        say "will oidally copy: $source to $dest";
         say "recursive: $recursive";
         say "warn_level: $warn_level";
 
