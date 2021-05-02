@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org0885f6b)
-  - [some stops on the tour](#orgc93d7c9)
-    - [first stop: using an existing git repo, e.g.](#org69d997d)
-    - [second stop: create a new git repo](#orgb1fdaa2)
-    - [third stop: putting that new git repo on github](#orgf1ed611)
-    - [fourth stop: haven't covered the cool stuff](#orga694d00)
-    - [fifth stop: things you will not do with git](#org8ea2bd5)
+- [69 cent tour of git](#org83a3a46)
+  - [some stops on the tour](#org0259b57)
+    - [first stop: using an existing git repo, e.g.](#org80257a4)
+    - [second stop: create a new git repo](#org8be16e7)
+    - [third stop: putting that new git repo on github](#orgbadc488)
+    - [fourth stop: haven't covered the cool stuff](#org203f76f)
+    - [fifth stop: things you will not do with git](#org821e148)
 
 
-<a id="org0885f6b"></a>
+<a id="org83a3a46"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgc93d7c9"></a>
+<a id="org0259b57"></a>
 
 ## some stops on the tour
 
 
-<a id="org69d997d"></a>
+<a id="org80257a4"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -125,7 +125,7 @@
     ```
 
 
-<a id="orgb1fdaa2"></a>
+<a id="org8be16e7"></a>
 
 ### second stop: create a new git repo
 
@@ -152,7 +152,7 @@
 2.  resolving a merge conflict
 
 
-<a id="orgf1ed611"></a>
+<a id="orgbadc488"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -163,7 +163,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orga694d00"></a>
+<a id="org203f76f"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -182,7 +182,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org8ea2bd5"></a>
+<a id="org821e148"></a>
 
 ### fifth stop: things you will not do with git
 
