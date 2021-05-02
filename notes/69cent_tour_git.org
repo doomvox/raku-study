@@ -111,9 +111,3 @@ But source is at github: https://github.com/progit/progit2
 **** control your entire home directory
 **** set up a meta-git repository that contains multiple git projects.
 **** share work with another person without using a server
-
-
-
-
-
-
