@@ -22,3 +22,6 @@ https://github.com/doomvox/raku-study/blob/main/notes/69cent_tour_git.md
 
 ** announcements
 *** TODO: find announcements
+** appendix: the usual links
+*** code examples
+https://github.com/doomvox/raku-study/tree/main/bin/2021may02
