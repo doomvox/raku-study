@@ -98,6 +98,7 @@ See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 *** the cool stuff -- haven't really covered any of it
 **** git branch
 **** github pull request
+https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests
 **** this shit *is* cool, but it can get complicated
         http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
