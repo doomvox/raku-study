@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org83a3a46)
-  - [some stops on the tour](#org0259b57)
-    - [first stop: using an existing git repo, e.g.](#org80257a4)
-    - [second stop: create a new git repo](#org8be16e7)
-    - [third stop: putting that new git repo on github](#orgbadc488)
-    - [fourth stop: haven't covered the cool stuff](#org203f76f)
-    - [fifth stop: things you will not do with git](#org821e148)
+- [69 cent tour of git](#orgbd38a63)
+  - [some stops on the tour](#orgf26439c)
+    - [first stop: using an existing git repo, e.g.](#org1f9e7bb)
+    - [second stop: create a new git repo](#org1e409b6)
+    - [third stop: putting that new git repo on github](#org920986c)
+    - [fourth stop: haven't covered the cool stuff](#org2836268)
+    - [fifth stop: things you will not do with git](#orgac75ff8)
 
 
-<a id="org83a3a46"></a>
+<a id="orgbd38a63"></a>
 
 # 69 cent tour of git
 
 
-<a id="org0259b57"></a>
+<a id="orgf26439c"></a>
 
 ## some stops on the tour
 
 
-<a id="org80257a4"></a>
+<a id="org1f9e7bb"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -82,10 +82,11 @@
 7.  create a file, add and commit
 
     ```sh
-    cd /tmp/dev/raku-study/bin/2021may02
+    cd ~/dev/raku-study/bin/2021may02
     echo "say 'hello';" > hello.raku
     raku hello.raku
     git status
+    git add hello.raku
     git commit -m'created demo script hello.raku'
     git log -n 3
     git log -n 3 --oneline
@@ -108,9 +109,8 @@
     echo "say 'goodbye';" >> hello.raku
     git status
     git diff
-    git commit -m 'added goodbye line to hello.raku'
     git commit -a -m 'added goodbye line to hello.raku'
-    git log -3
+    git log -n 3
     git diff
     git diff <commit1> <commit2>
     git pull
@@ -125,7 +125,7 @@
     ```
 
 
-<a id="org8be16e7"></a>
+<a id="org1e409b6"></a>
 
 ### second stop: create a new git repo
 
@@ -152,7 +152,7 @@
 2.  resolving a merge conflict
 
 
-<a id="orgbadc488"></a>
+<a id="org920986c"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -163,7 +163,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org203f76f"></a>
+<a id="org2836268"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -182,7 +182,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org821e148"></a>
+<a id="orgac75ff8"></a>
 
 ### fifth stop: things you will not do with git
 

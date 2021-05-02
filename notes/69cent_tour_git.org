@@ -42,10 +42,11 @@ git clone git@github.com:doomvox/raku-study.git
 #+END_SRC
 **** create a file, add and commit
 #+BEGIN_SRC sh
-cd /tmp/dev/raku-study/bin/2021may02
+cd ~/dev/raku-study/bin/2021may02
 echo "say 'hello';" > hello.raku
 raku hello.raku
 git status
+git add hello.raku
 git commit -m'created demo script hello.raku'
 git log -n 3
 git log -n 3 --oneline
@@ -63,9 +64,8 @@ git log --oneline | egrep 'created demo'
 echo "say 'goodbye';" >> hello.raku
 git status
 git diff
-git commit -m 'added goodbye line to hello.raku'
 git commit -a -m 'added goodbye line to hello.raku'
-git log -3
+git log -n 3
 git diff
 git diff <commit1> <commit2>
 git pull
@@ -93,7 +93,7 @@ git show REVISION:path/to/file
 ***** .git/info/exclude
 
 **** resolving a merge conflict
-
+ 
 *** third stop: putting that new git repo on github
 **** creating a new project at github
 **** associating existing repo with new project
