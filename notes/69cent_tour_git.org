@@ -66,6 +66,7 @@ git push
 
 *** new topic: create a new git repo
 ****  working standalone
+***** git init
 ***** git add
 ***** git status
 ***** .gitignore

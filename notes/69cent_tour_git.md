@@ -1,30 +1,30 @@
-- [69 cent tour of git](#org226ac18)
-  - [version 0.1](#orga94d49e)
-  - [some stops on the tour](#orgb0c4bbf)
-    - [working with an existing git repo, e.g.](#orgffb673b)
-    - [new topic: create a new git repo](#orgf254756)
-    - [starting with existing github repo raku-study](#org8bd68b3)
-    - [continuing with a new git repo](#org845ca3e)
-    - [the cool stuff](#orga1d1613)
-    - [things you will not do with git](#orgd4ae5a6)
+- [69 cent tour of git](#org8f26640)
+  - [version 0.1](#org923920a)
+  - [some stops on the tour](#orge3788b5)
+    - [working with an existing git repo, e.g.](#org920e56d)
+    - [new topic: create a new git repo](#orgc033a89)
+    - [starting with existing github repo raku-study](#orgf5c4581)
+    - [continuing with a new git repo](#org63d2397)
+    - [the cool stuff](#org3f0171d)
+    - [things you will not do with git](#org4e8d182)
 
 
-<a id="org226ac18"></a>
+<a id="org8f26640"></a>
 
 # 69 cent tour of git
 
 
-<a id="orga94d49e"></a>
+<a id="org923920a"></a>
 
 ## version 0.1
 
 
-<a id="orgb0c4bbf"></a>
+<a id="orge3788b5"></a>
 
 ## some stops on the tour
 
 
-<a id="orgffb673b"></a>
+<a id="org920e56d"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -112,17 +112,19 @@
     ```
 
 
-<a id="orgf254756"></a>
+<a id="orgc033a89"></a>
 
 ### new topic: create a new git repo
 
 1.  working standalone
 
-    1.  git add
+    1.  git init
     
-    2.  git status
+    2.  git add
     
-    3.  .gitignore
+    3.  git status
+    
+    4.  .gitignore
     
         ```sh
         *~   
@@ -130,10 +132,10 @@
         *.[oa]
         ```
     
-    4.  .git/info/exclude
+    5.  .git/info/exclude
 
 
-<a id="org8bd68b3"></a>
+<a id="orgf5c4581"></a>
 
 ### starting with existing github repo raku-study
 
@@ -146,7 +148,7 @@
 3.  resolving a merge conflict
 
 
-<a id="org845ca3e"></a>
+<a id="org63d2397"></a>
 
 ### continuing with a new git repo
 
@@ -157,7 +159,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orga1d1613"></a>
+<a id="org3f0171d"></a>
 
 ### the cool stuff
 
@@ -174,7 +176,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="orgd4ae5a6"></a>
+<a id="org4e8d182"></a>
 
 ### things you will not do with git
 
