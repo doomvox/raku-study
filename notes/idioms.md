@@ -1,54 +1,54 @@
-- [idioms](#org7f00e76)
-  - [blog posts](#org7b686ee)
-    - [utilpm piece from 2011 (more of a "Raku way to do it" piece):](#orgd103092)
-    - [recent piece by gfldex,  writing a wget in raku several different ways](#org1a1be9d)
-  - [from the docs](#org19cbd19)
-    - [assignment with method call](#orgf30210d)
-    - [using signals in an event driven situation:](#org8db6c59)
-    - [stringifying match object](#org346b80f)
-    - [call named params in colon-style similar to declaration](#orgae70526)
-    - [usually drop optional parens](#orgf332e34)
-    - [raku "or die" used much like perl](#orgbe6c0bb)
-    - [given/when](#orge36e461)
-    - [looping over keys and values of a hash](#orga9b465e)
-    - [use LEAVE phaser for closing the handles](#org62b75eb)
-    - [the smartmatch operator ~~ rather than does](#org4a926a8)
+- [idioms](#orgbb8d4cf)
+  - [blog posts](#orgf922cdf)
+    - [utilpm from 2011 (more of a "Raku way to do it" piece):](#orge53dec2)
+    - [gfldex from 2021, writing a wget in raku several different ways](#org1dd78dd)
+  - [from the docs](#orgf97d02c)
+    - [assignment with method call](#orgfd4c9ba)
+    - [using signals in an event driven situation:](#org8008515)
+    - [stringifying match object](#org2ad4aca)
+    - [call named params in colon-style similar to declaration](#org09f985f)
+    - [usually drop optional parens](#orgfb27ec1)
+    - [raku "or die" used much like perl](#orgf6088cb)
+    - [given/when](#org43acdbd)
+    - [looping over keys and values of a hash](#orga9a5791)
+    - [use LEAVE phaser for closing the handles](#org2581a84)
+    - [the smartmatch operator ~~ rather than does](#orgaf62b61)
 
 
-<a id="org7f00e76"></a>
+<a id="orgbb8d4cf"></a>
 
 # idioms
 
 I'm looking for "recommended idioms", cases where there are several ways of doing things in raku but one is favored. (The word "idiom" also gets used in a wider sense to just mean "a way to do it", or "the Raku way of doing it".)
 
 
-<a id="org7b686ee"></a>
+<a id="orgf922cdf"></a>
 
 ## blog posts
 
 
-<a id="orgd103092"></a>
+<a id="orge53dec2"></a>
 
-### utilpm piece from 2011 (more of a "Raku way to do it" piece):
+### utilpm from 2011 (more of a "Raku way to do it" piece):
 
 <https://perl6advent.wordpress.com/2011/12/23/day-23-idiomatic-perl-6/>
 
 
-<a id="org1a1be9d"></a>
+<a id="org1dd78dd"></a>
 
-### recent piece by gfldex,  writing a wget in raku several different ways
+### gfldex from 2021, writing a wget in raku several different ways
 
 <https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/>
 
 
-<a id="org19cbd19"></a>
+<a id="orgf97d02c"></a>
 
 ## from the docs
 
 The docs uses the word "idiom" occasionally, though only sometimes indicating a style preference:
 
 
-<a id="orgf30210d"></a>
+<a id="orgfd4c9ba"></a>
 
 ### assignment with method call
 
@@ -60,7 +60,7 @@ class LongClassName {
 ```
 
 
-<a id="org8db6c59"></a>
+<a id="org8008515"></a>
 
 ### using signals in an event driven situation:
 
@@ -74,14 +74,14 @@ react {
 ```
 
 
-<a id="org346b80f"></a>
+<a id="org2ad4aca"></a>
 
 ### stringifying match object
 
 $/.Str should also work, ~$/ is currently the more common idiom.
 
 
-<a id="orgae70526"></a>
+<a id="org09f985f"></a>
 
 ### call named params in colon-style similar to declaration
 
@@ -96,7 +96,7 @@ speak(:word(hi), :times(2));      # Maybe *more* idiomatic? (if it works)
 ```
 
 
-<a id="orgf332e34"></a>
+<a id="orgfb27ec1"></a>
 
 ### usually drop optional parens
 
@@ -111,7 +111,7 @@ while $x > 5 { ... }        # Perl 6, more idiomatic
 ```
 
 
-<a id="orgbe6c0bb"></a>
+<a id="orgf6088cb"></a>
 
 ### raku "or die" used much like perl
 
@@ -121,7 +121,7 @@ rmdir "newdir" or die "$!";
 ```
 
 
-<a id="orge36e461"></a>
+<a id="org43acdbd"></a>
 
 ### given/when
 
@@ -137,7 +137,7 @@ given $var {
 ```
 
 
-<a id="orga9b465e"></a>
+<a id="orga9a5791"></a>
 
 ### looping over keys and values of a hash
 
@@ -149,7 +149,7 @@ for %vowels.kv -> $vowel, $index {
 ```
 
 
-<a id="org62b75eb"></a>
+<a id="org2581a84"></a>
 
 ### use LEAVE phaser for closing the handles
 
@@ -164,7 +164,7 @@ if $do-stuff-with-the-file {
 ```
 
 
-<a id="org4a926a8"></a>
+<a id="orgaf62b61"></a>
 
 ### the smartmatch operator ~~ rather than does
 
