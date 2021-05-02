@@ -13,8 +13,10 @@ https://github.com/doomvox/raku-study/blob/main/notes/69cent_tour_git.md
 **** is anything ever cast automatically
 *** raku classes as data containers
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
-*** programming in the large
+*** programming in the large (david christensen)
 **** larger applications
+**** circular dependencies in functions
+
 
 ** ongoing
 *** raku idioms
