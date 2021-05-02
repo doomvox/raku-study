@@ -73,6 +73,9 @@ use CircularFile::A qw( :all );
 sub c {
   say "Called c...";
   my $ret = c() || 'c';
+  if ($GLOBAL++ > 1000 ) {
+    exit;
+  }
   return $ret;
 }
 
