@@ -24,8 +24,7 @@ https://github.com/doomvox/raku-study/blob/main/notes/69cent_tour_git.md
 ***** maybe: favor methods over functions?
 
 ** announcements
-*** TODO: find announcements
-*** Next month is mother's day.  So we cancel!
+*** Next month is mother's day.  No meeting.
 ** appendix: the usual links
 *** code examples
 https://github.com/doomvox/raku-study/tree/main/bin/2021may02

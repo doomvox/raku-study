@@ -1,67 +1,66 @@
-- [meeting notes May 02, 2021](#orgf04633f)
-  - [meeting links](#orgf531822)
-  - [agenda stuff](#org6e2ce86)
-    - [69 cent tour of git and github](#org7e649d7)
-    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#orgf350d5c)
-    - [type system: what is accepted by what](#org8cbce2e)
-    - [raku classes as data containers](#orgd972536)
-    - [programming in the large (david christensen)](#orga659ee0)
-  - [ongoing](#orgbd378eb)
-    - [raku idioms](#org672b321)
-  - [announcements](#org05e6b38)
-    - [: find announcements](#org7fe0451)
-    - [Next month is mother's day.  So we cancel!](#org1fbb95f)
-  - [appendix: the usual links](#org649119d)
-    - [code examples](#org5237741)
-    - [meeting notes (material from this file)](#orgf5d0d7b)
-    - [SF Perl page, has links to mailing list](#org539dfbb)
-    - [perl6-users mailing list archive](#orgdbc2b81)
+- [meeting notes May 02, 2021](#org4ea3c65)
+  - [meeting links](#org4506018)
+  - [agenda stuff](#orgd1a5e41)
+    - [69 cent tour of git and github](#org045b5ec)
+    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#orge2b5a7f)
+    - [type system: what is accepted by what](#org334df2d)
+    - [raku classes as data containers](#orgfd80e99)
+    - [programming in the large (david christensen)](#orgc2a69d2)
+  - [ongoing](#org36af83c)
+    - [raku idioms](#org785c508)
+  - [announcements](#org79f435b)
+    - [Next month is mother's day.  No meeting.](#org9f1a26d)
+  - [appendix: the usual links](#orga033fd6)
+    - [code examples](#org677835b)
+    - [meeting notes (material from this file)](#org93289d9)
+    - [SF Perl page, has links to mailing list](#org3cc70f6)
+    - [perl6-users mailing list archive](#org6731f3e)
 
 
-<a id="orgf04633f"></a>
+<a id="org4ea3c65"></a>
 
 # meeting notes May 02, 2021
 
 
-<a id="orgf531822"></a>
+<a id="org4506018"></a>
 
 ## meeting links
 
 This file of notes can be read over at github: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021may02.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021may02/>
 
 
-<a id="org6e2ce86"></a>
+<a id="orgd1a5e41"></a>
 
 ## agenda stuff
 
 
-<a id="org7e649d7"></a>
+<a id="org045b5ec"></a>
 
 ### 69 cent tour of git and github
 
 <https://github.com/doomvox/raku-study/blob/main/notes/69cent_tour_git.md>
 
 
-<a id="orgf350d5c"></a>
+<a id="orge2b5a7f"></a>
 
 ### bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org8cbce2e"></a>
+<a id="org334df2d"></a>
 
 ### type system: what is accepted by what
 
 1.  is anything ever cast automatically
 
 
-<a id="orgd972536"></a>
+<a id="orgfd80e99"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="orga659ee0"></a>
+<a id="orgc2a69d2"></a>
 
 ### programming in the large (david christensen)
 
@@ -70,12 +69,12 @@ This file of notes can be read over at github: <https://github.com/doomvox/raku-
 2.  circular dependencies in functions
 
 
-<a id="orgbd378eb"></a>
+<a id="org36af83c"></a>
 
 ## ongoing
 
 
-<a id="org672b321"></a>
+<a id="org785c508"></a>
 
 ### raku idioms
 
@@ -86,48 +85,43 @@ This file of notes can be read over at github: <https://github.com/doomvox/raku-
     2.  maybe: favor methods over functions?
 
 
-<a id="org05e6b38"></a>
+<a id="org79f435b"></a>
 
 ## announcements
 
 
-<a id="org7fe0451"></a>
+<a id="org9f1a26d"></a>
 
-### : find announcements
-
-
-<a id="org1fbb95f"></a>
-
-### Next month is mother's day.  So we cancel!
+### Next month is mother's day.  No meeting.
 
 
-<a id="org649119d"></a>
+<a id="orga033fd6"></a>
 
 ## appendix: the usual links
 
 
-<a id="org5237741"></a>
+<a id="org677835b"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may02>
 
 
-<a id="orgf5d0d7b"></a>
+<a id="org93289d9"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may02.md>
 
 
-<a id="org539dfbb"></a>
+<a id="org3cc70f6"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="orgdbc2b81"></a>
+<a id="org6731f3e"></a>
 
 ### perl6-users mailing list archive
 
