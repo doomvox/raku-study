@@ -15,6 +15,15 @@ https://github.com/doomvox/raku-study/settings/access
 #+BEGIN_SRC perl6
 ssh-keygen -t rsa
 #+END_SRC
+******* ssh config:  add github
+~/.ssh/config
+#+BEGIN_SRC sh 
+      Host github.com
+         Hostname ssh.github.com
+         Port 443
+         IdentityFile /home/doom/.ssh/id_rsa
+#+END_SRC
+
 
 **** go to the "Code" button near the right, click for the drop-down
 **** with the SSH tab selected (the default) you'll see:

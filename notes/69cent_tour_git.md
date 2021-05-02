@@ -1,29 +1,29 @@
-- [69 cent tour of git](#orge4c9716)
-  - [version 0.1](#orgd99239b)
-  - [some stops on the tour](#orged34587)
-    - [working with an existing git repo, e.g.](#org678effd)
-    - [new topic: create a new git repo](#orgecf569f)
-    - [follow on topic: putting that new git repo on github](#org5829ede)
-    - [the cool stuff &#x2013; haven't really covered any of it](#org97222cf)
-    - [things you will not do with git](#org55ba7b2)
+- [69 cent tour of git](#orge8e6098)
+  - [version 0.1](#orga2f6489)
+  - [some stops on the tour](#org9cdca4b)
+    - [working with an existing git repo, e.g.](#orgafc7cec)
+    - [new topic: create a new git repo](#org7cd6536)
+    - [follow on topic: putting that new git repo on github](#org13c469d)
+    - [the cool stuff &#x2013; haven't really covered any of it](#org800a000)
+    - [things you will not do with git](#org26e2029)
 
 
-<a id="orge4c9716"></a>
+<a id="orge8e6098"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgd99239b"></a>
+<a id="orga2f6489"></a>
 
 ## version 0.1
 
 
-<a id="orged34587"></a>
+<a id="org9cdca4b"></a>
 
 ## some stops on the tour
 
 
-<a id="org678effd"></a>
+<a id="orgafc7cec"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -49,6 +49,17 @@
             
                 ```perl6
                 ssh-keygen -t rsa
+                ```
+            
+            2.  ssh config:  add github
+            
+                ~/.ssh/config
+                
+                ```sh
+                Host github.com
+                   Hostname ssh.github.com
+                   Port 443
+                   IdentityFile /home/doom/.ssh/id_rsa
                 ```
 
 3.  go to the "Code" button near the right, click for the drop-down
@@ -114,7 +125,7 @@
     ```
 
 
-<a id="orgecf569f"></a>
+<a id="org7cd6536"></a>
 
 ### new topic: create a new git repo
 
@@ -141,7 +152,7 @@
 2.  resolving a merge conflict
 
 
-<a id="org5829ede"></a>
+<a id="org13c469d"></a>
 
 ### follow on topic: putting that new git repo on github
 
@@ -152,7 +163,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org97222cf"></a>
+<a id="org800a000"></a>
 
 ### the cool stuff &#x2013; haven't really covered any of it
 
@@ -169,7 +180,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org55ba7b2"></a>
+<a id="org26e2029"></a>
 
 ### things you will not do with git
 
