@@ -11,7 +11,6 @@ use v6;
 
         printf "%s %s!\n", $action, uc( $item1 );
     }
-
     dostuff( his => 'bingo', 'shout' );  # shout BINGO!
 }
 
