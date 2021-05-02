@@ -43,6 +43,11 @@ say '---';
     }
 
     copyoid("/tmp/oid_loc_1", "/home/doom/mah_oid_loc", recursive => 1, warn_level => 666 );
+    # we will oidally copy: /tmp/oid_loc_1 to /home/doom/mah_oid_locR# we will oidally copy: /tmp/oid_loc_1 to /home/doom/mah_oid-amanda_edge_loc
+    # recursive: 1
+    # warn_level: 666
+
+
 }
 
 
