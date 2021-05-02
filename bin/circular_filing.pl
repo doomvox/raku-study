@@ -60,8 +60,6 @@ use CircularFile::A qw( :all ) ; # added by perlnow
 
 say a();
 
-
-
 ### end main, into the subs
 
 sub say_usage {
