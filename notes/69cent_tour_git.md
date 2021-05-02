@@ -1,29 +1,29 @@
-- [69 cent tour of git](#orgda2899f)
-  - [version 0.1](#org4465f2a)
-  - [some stops on the tour](#org3b013d3)
-    - [working with an existing git repo, e.g.](#orgc27a6b9)
-    - [new topic: create a new git repo](#org4afefda)
-    - [follow on topic: putting that new git repo on github](#org86117da)
-    - [the cool stuff &#x2013; haven't really covered any of it](#orge6c534e)
-    - [things you will not do with git](#org3aa142f)
+- [69 cent tour of git](#orgcbb56b9)
+  - [version 0.1](#orgf0e724b)
+  - [some stops on the tour](#org740dd20)
+    - [working with an existing git repo, e.g.](#orgb79c52f)
+    - [new topic: create a new git repo](#orge040511)
+    - [follow on topic: putting that new git repo on github](#orgb157668)
+    - [the cool stuff &#x2013; haven't really covered any of it](#org03fd0da)
+    - [things you will not do with git](#org3c21a4e)
 
 
-<a id="orgda2899f"></a>
+<a id="orgcbb56b9"></a>
 
 # 69 cent tour of git
 
 
-<a id="org4465f2a"></a>
+<a id="orgf0e724b"></a>
 
 ## version 0.1
 
 
-<a id="org3b013d3"></a>
+<a id="org740dd20"></a>
 
 ## some stops on the tour
 
 
-<a id="orgc27a6b9"></a>
+<a id="orgb79c52f"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -36,6 +36,8 @@
     2.  get added to raku-study as a collaborator
     
         1.  Settings->Manage Access->Invite a collaborator
+        
+            <https://github.com/doomvox/raku-study/settings/access>
     
     3.  share your public ssh key (rsa, not dsa) at your github account
     
@@ -111,7 +113,7 @@
     ```
 
 
-<a id="org4afefda"></a>
+<a id="orge040511"></a>
 
 ### new topic: create a new git repo
 
@@ -138,7 +140,7 @@
 2.  resolving a merge conflict
 
 
-<a id="org86117da"></a>
+<a id="orgb157668"></a>
 
 ### follow on topic: putting that new git repo on github
 
@@ -149,7 +151,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orge6c534e"></a>
+<a id="org03fd0da"></a>
 
 ### the cool stuff &#x2013; haven't really covered any of it
 
@@ -166,7 +168,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org3aa142f"></a>
+<a id="org3c21a4e"></a>
 
 ### things you will not do with git
 
