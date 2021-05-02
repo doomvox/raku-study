@@ -1,68 +1,68 @@
-- [meeting notes May 02, 2021](#org72aa420)
-  - [meeting links](#org5a0be86)
-  - [agenda stuff](#org0eb17c2)
-    - [69 cent tour of git and github](#org65af26c)
-    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#orgd25c9f6)
-    - [typology: what is accepted by what](#org700cbde)
-    - [raku classes as data containers](#orge1d704b)
-  - [ongoing](#org978d01a)
-    - [raku idioms](#org13f3e6b)
-  - [announcements](#org4854aa5)
-    - [: find announcements](#org4bbd9da)
-  - [appendix: the usual links](#orgf0c2079)
-    - [code examples](#orgadd1208)
-    - [meeting notes (material in this file)](#org2a04dd2)
+- [meeting notes May 02, 2021](#org814db3d)
+  - [meeting links](#orgae102b4)
+  - [agenda stuff](#orgb4fe759)
+    - [69 cent tour of git and github](#org7bc41df)
+    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#org19981ff)
+    - [typology: what is accepted by what](#org72c8d14)
+    - [raku classes as data containers](#org0afbd23)
+  - [ongoing](#org6d35473)
+    - [raku idioms](#org4e160e5)
+  - [announcements](#orgb4338df)
+    - [: find announcements](#orgb17df96)
+  - [appendix: the usual links](#org4afa81b)
+    - [code examples](#org2316b46)
+    - [meeting notes (material from this file)](#org81693c7)
 
 
-<a id="org72aa420"></a>
+<a id="org814db3d"></a>
 
 # meeting notes May 02, 2021
 
 
-<a id="org5a0be86"></a>
+<a id="orgae102b4"></a>
 
 ## meeting links
 
 This file of notes can be read over at github: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021may02.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021may02/>
 
 
-<a id="org0eb17c2"></a>
+<a id="orgb4fe759"></a>
 
 ## agenda stuff
 
 
-<a id="org65af26c"></a>
+<a id="org7bc41df"></a>
 
 ### 69 cent tour of git and github
 
 <https://github.com/doomvox/raku-study/blob/main/notes/69cent_tour_git.md>
 
 
-<a id="orgd25c9f6"></a>
+<a id="org19981ff"></a>
 
 ### bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org700cbde"></a>
+<a id="org72c8d14"></a>
 
 ### typology: what is accepted by what
 
 1.  is anything ever cast automatically
 
 
-<a id="orge1d704b"></a>
+<a id="org0afbd23"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org978d01a"></a>
+<a id="org6d35473"></a>
 
 ## ongoing
 
 
-<a id="org13f3e6b"></a>
+<a id="org4e160e5"></a>
 
 ### raku idioms
 
@@ -73,30 +73,30 @@ This file of notes can be read over at github: <https://github.com/doomvox/raku-
     2.  maybe: favor methods over functions?
 
 
-<a id="org4854aa5"></a>
+<a id="orgb4338df"></a>
 
 ## announcements
 
 
-<a id="org4bbd9da"></a>
+<a id="orgb17df96"></a>
 
 ### : find announcements
 
 
-<a id="orgf0c2079"></a>
+<a id="org4afa81b"></a>
 
 ## appendix: the usual links
 
 
-<a id="orgadd1208"></a>
+<a id="org2316b46"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may02>
 
 
-<a id="org2a04dd2"></a>
+<a id="org81693c7"></a>
 
-### meeting notes (material in this file)
+### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may02.md>
