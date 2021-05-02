@@ -94,7 +94,7 @@ git push -u origin main
 **** creating a new project at github
 **** associating existing repo with new project
 See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
-*** the cool stuff -- haven't really covered any of it
+*** fourth stop: haven't covered the cool stuff
 **** git branch
 **** github pull request
 https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests
