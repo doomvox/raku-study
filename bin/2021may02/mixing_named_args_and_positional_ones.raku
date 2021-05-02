@@ -27,10 +27,10 @@ use v6;
 }
 
 ## perl5 idiom: ordered args with an options hash ref in last place:
-##   copyzoid( $source, $dest, { recursive => 1, warn_level => 0 } );
+##   copyoid( $source, $dest, { recursive => 1, warn_level => 0 } );
 
 
-##   copyzoid( $source, $dest, recursive => 1, warn_level => 0 );
+##   copyoid( $source, $dest, recursive => 1, warn_level => 0 );
 
 
 
