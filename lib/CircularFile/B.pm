@@ -67,7 +67,9 @@ my $DEBUG = 1;
 # Preloaded methods go here.
 
 sub b {
-  c();
+  say "Called b...";
+  my $ret = c() || 'c';
+  return $ret;
 }
 
 1;
