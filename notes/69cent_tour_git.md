@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org25d34bc)
-  - [some stops on the tour](#org25dcaa7)
-    - [first stop: using an existing git repo, e.g.](#org631093d)
-    - [second stop: create a new git repo](#orgd5455bc)
-    - [third stop: putting that new git repo on github](#org1ec3296)
-    - [fourth stop: haven't covered the cool stuff](#orgc6c7361)
-    - [fifth stop: things you will not do with git](#org0684902)
+- [69 cent tour of git](#org1021345)
+  - [some stops on the tour](#orgfb95c7d)
+    - [first stop: using an existing git repo, e.g.](#org77cdb1c)
+    - [second stop: create a new git repo](#org76be4f9)
+    - [third stop: putting that new git repo on github](#orgd30f0c9)
+    - [fourth stop: haven't covered the cool stuff](#orgcd7f2e5)
+    - [fifth stop: things you will not do with git](#org1f1b8de)
 
 
-<a id="org25d34bc"></a>
+<a id="org1021345"></a>
 
 # 69 cent tour of git
 
 
-<a id="org25dcaa7"></a>
+<a id="orgfb95c7d"></a>
 
 ## some stops on the tour
 
 
-<a id="org631093d"></a>
+<a id="org77cdb1c"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -82,7 +82,7 @@
 7.  create a file, add and commit
 
     ```sh
-    cd /tmp/dev/raku-study/bin/2021may02
+    cd ~/dev/raku-study/bin/2021may02
     echo "say 'hello';" > hello.raku
     raku hello.raku
     git status
@@ -125,7 +125,7 @@
     ```
 
 
-<a id="orgd5455bc"></a>
+<a id="org76be4f9"></a>
 
 ### second stop: create a new git repo
 
@@ -152,7 +152,7 @@
 2.  resolving a merge conflict
 
 
-<a id="org1ec3296"></a>
+<a id="orgd30f0c9"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -163,7 +163,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgc6c7361"></a>
+<a id="orgcd7f2e5"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -182,7 +182,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org0684902"></a>
+<a id="org1f1b8de"></a>
 
 ### fifth stop: things you will not do with git
 

@@ -42,7 +42,7 @@ git clone git@github.com:doomvox/raku-study.git
 #+END_SRC
 **** create a file, add and commit
 #+BEGIN_SRC sh
-cd /tmp/dev/raku-study/bin/2021may02
+cd ~/dev/raku-study/bin/2021may02
 echo "say 'hello';" > hello.raku
 raku hello.raku
 git status
