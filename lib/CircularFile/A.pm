@@ -70,7 +70,7 @@ use Circular::B qw( :all );
 
 sub a {
   say "Called a...";
-  my $ret = b();
+  my $ret = b() || 'b';
   return $ret;
 }
 
