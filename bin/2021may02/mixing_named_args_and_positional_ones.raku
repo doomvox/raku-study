@@ -21,7 +21,7 @@ my @monsters = < godzilla grendel wormface blob >;
 slurp_array( @monsters ); # count: 4
 
 my @rabbits  = < bugs peter easter >;
-slurp_array( @monsters, @rabbits ); # count: 2
+slurp_array( @monsters, @rabbits ); # count: 7
 
 
 ## Try to make errors into warnings
