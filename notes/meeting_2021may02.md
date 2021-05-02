@@ -1,79 +1,79 @@
-- [meeting notes May 02, 2021](#org82a77b0)
-  - [meeting links](#org4a55167)
-  - [agenda stuff](#org9a731e2)
-    - [69 cent tour of git and github](#org09cd2e4)
-    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#org446496e)
-    - [typology: what is accepted by what](#org1c13cd5)
-    - [raku classes as data containers](#orgb462a61)
-    - [programming in the large](#org18aa49d)
-  - [ongoing](#orga26ef4f)
-    - [raku idioms](#org01e183b)
-  - [announcements](#orgebb986d)
-    - [: find announcements](#org7c176d5)
-    - [next month is mother's day.  should we cancel?](#org04d062d)
-  - [appendix: the usual links](#org62cf4b4)
-    - [code examples](#orgfaa2ba0)
-    - [meeting notes (material from this file)](#org9f7a76a)
-    - [SF Perl page, has links to mailing list](#orgc1994f1)
-    - [perl6-users mailing list archive](#org36ceda8)
+- [meeting notes May 02, 2021](#org0d1cb0a)
+  - [meeting links](#org93c9629)
+  - [agenda stuff](#org5154535)
+    - [69 cent tour of git and github](#org5be1d2f)
+    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#orgf66ed3c)
+    - [typology: what is accepted by what](#org7bf66ed)
+    - [raku classes as data containers](#org4b7b2b9)
+    - [programming in the large](#org6592d18)
+  - [ongoing](#org8e26afa)
+    - [raku idioms](#orgc8c5eb3)
+  - [announcements](#org0f63df9)
+    - [: find announcements](#org4de1fea)
+    - [next month is mother's day.  should we cancel?](#orgc614636)
+  - [appendix: the usual links](#org5e6e75d)
+    - [code examples](#org1615e87)
+    - [meeting notes (material from this file)](#org2275e88)
+    - [SF Perl page, has links to mailing list](#org0844532)
+    - [perl6-users mailing list archive](#org6c1acc6)
 
 
-<a id="org82a77b0"></a>
+<a id="org0d1cb0a"></a>
 
 # meeting notes May 02, 2021
 
 
-<a id="org4a55167"></a>
+<a id="org93c9629"></a>
 
 ## meeting links
 
 This file of notes can be read over at github: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021may02.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021may02/>
 
 
-<a id="org9a731e2"></a>
+<a id="org5154535"></a>
 
 ## agenda stuff
 
 
-<a id="org09cd2e4"></a>
+<a id="org5be1d2f"></a>
 
 ### 69 cent tour of git and github
 
 <https://github.com/doomvox/raku-study/blob/main/notes/69cent_tour_git.md>
 
 
-<a id="org446496e"></a>
+<a id="orgf66ed3c"></a>
 
 ### bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org1c13cd5"></a>
+<a id="org7bf66ed"></a>
 
 ### typology: what is accepted by what
 
 1.  is anything ever cast automatically
 
 
-<a id="orgb462a61"></a>
+<a id="org4b7b2b9"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org18aa49d"></a>
+<a id="org6592d18"></a>
 
 ### programming in the large
 
-larger applications
+1.  larger applications
 
 
-<a id="orga26ef4f"></a>
+<a id="org8e26afa"></a>
 
 ## ongoing
 
 
-<a id="org01e183b"></a>
+<a id="orgc8c5eb3"></a>
 
 ### raku idioms
 
@@ -84,48 +84,48 @@ larger applications
     2.  maybe: favor methods over functions?
 
 
-<a id="orgebb986d"></a>
+<a id="org0f63df9"></a>
 
 ## announcements
 
 
-<a id="org7c176d5"></a>
+<a id="org4de1fea"></a>
 
 ### : find announcements
 
 
-<a id="org04d062d"></a>
+<a id="orgc614636"></a>
 
 ### next month is mother's day.  should we cancel?
 
 
-<a id="org62cf4b4"></a>
+<a id="org5e6e75d"></a>
 
 ## appendix: the usual links
 
 
-<a id="orgfaa2ba0"></a>
+<a id="org1615e87"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may02>
 
 
-<a id="org9f7a76a"></a>
+<a id="org2275e88"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may02.md>
 
 
-<a id="orgc1994f1"></a>
+<a id="org0844532"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="org36ceda8"></a>
+<a id="org6c1acc6"></a>
 
 ### perl6-users mailing list archive
 
