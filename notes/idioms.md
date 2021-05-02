@@ -1,54 +1,54 @@
-- [idioms](#org921f4fe)
-  - [blog posts](#orgc7ead78)
-    - [utilpm piece from 2011 (perl5 things translated to raku):](#org3f1c3f4)
-    - [recent piece by gfldex,  writing a wget in raku several different ways](#org6621e64)
-  - [from the docs](#orgf80fb49)
-    - [assignment with method call](#org8b4cbe7)
-    - [using signals in an event driven situation:](#orgd0f6500)
-    - [stringifying match object](#orgf353063)
-    - [call named params in colon-style similar to declaration](#orgcdefbfc)
-    - [usually drop optional parens](#org1d7413c)
-    - [raku "or die" used much like perl](#org4d0cf52)
-    - [given/when](#orga4cd4f0)
-    - [looping over keys and values of a hash](#orgb08a243)
-    - [use LEAVE phaser for closing the handles](#org6b4fddf)
-    - [the smartmatch operator ~~ rather than does](#org03b87be)
+- [idioms](#org7f00e76)
+  - [blog posts](#org7b686ee)
+    - [utilpm piece from 2011 (more of a "Raku way to do it" piece):](#orgd103092)
+    - [recent piece by gfldex,  writing a wget in raku several different ways](#org1a1be9d)
+  - [from the docs](#org19cbd19)
+    - [assignment with method call](#orgf30210d)
+    - [using signals in an event driven situation:](#org8db6c59)
+    - [stringifying match object](#org346b80f)
+    - [call named params in colon-style similar to declaration](#orgae70526)
+    - [usually drop optional parens](#orgf332e34)
+    - [raku "or die" used much like perl](#orgbe6c0bb)
+    - [given/when](#orge36e461)
+    - [looping over keys and values of a hash](#orga9b465e)
+    - [use LEAVE phaser for closing the handles](#org62b75eb)
+    - [the smartmatch operator ~~ rather than does](#org4a926a8)
 
 
-<a id="org921f4fe"></a>
+<a id="org7f00e76"></a>
 
 # idioms
 
 I'm looking for "recommended idioms", cases where there are several ways of doing things in raku but one is favored. (The word "idiom" also gets used in a wider sense to just mean "a way to do it", or "the Raku way of doing it".)
 
 
-<a id="orgc7ead78"></a>
+<a id="org7b686ee"></a>
 
 ## blog posts
 
 
-<a id="org3f1c3f4"></a>
+<a id="orgd103092"></a>
 
-### utilpm piece from 2011 (perl5 things translated to raku):
+### utilpm piece from 2011 (more of a "Raku way to do it" piece):
 
 <https://perl6advent.wordpress.com/2011/12/23/day-23-idiomatic-perl-6/>
 
 
-<a id="org6621e64"></a>
+<a id="org1a1be9d"></a>
 
 ### recent piece by gfldex,  writing a wget in raku several different ways
 
 <https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/>
 
 
-<a id="orgf80fb49"></a>
+<a id="org19cbd19"></a>
 
 ## from the docs
 
 The docs uses the word "idiom" occasionally, though only sometimes indicating a style preference:
 
 
-<a id="org8b4cbe7"></a>
+<a id="orgf30210d"></a>
 
 ### assignment with method call
 
@@ -60,7 +60,7 @@ class LongClassName {
 ```
 
 
-<a id="orgd0f6500"></a>
+<a id="org8db6c59"></a>
 
 ### using signals in an event driven situation:
 
@@ -74,14 +74,14 @@ react {
 ```
 
 
-<a id="orgf353063"></a>
+<a id="org346b80f"></a>
 
 ### stringifying match object
 
 $/.Str should also work, ~$/ is currently the more common idiom.
 
 
-<a id="orgcdefbfc"></a>
+<a id="orgae70526"></a>
 
 ### call named params in colon-style similar to declaration
 
@@ -96,7 +96,7 @@ speak(:word(hi), :times(2));      # Maybe *more* idiomatic? (if it works)
 ```
 
 
-<a id="org1d7413c"></a>
+<a id="orgf332e34"></a>
 
 ### usually drop optional parens
 
@@ -111,7 +111,7 @@ while $x > 5 { ... }        # Perl 6, more idiomatic
 ```
 
 
-<a id="org4d0cf52"></a>
+<a id="orgbe6c0bb"></a>
 
 ### raku "or die" used much like perl
 
@@ -121,7 +121,7 @@ rmdir "newdir" or die "$!";
 ```
 
 
-<a id="orga4cd4f0"></a>
+<a id="orge36e461"></a>
 
 ### given/when
 
@@ -137,7 +137,7 @@ given $var {
 ```
 
 
-<a id="orgb08a243"></a>
+<a id="orga9b465e"></a>
 
 ### looping over keys and values of a hash
 
@@ -149,7 +149,7 @@ for %vowels.kv -> $vowel, $index {
 ```
 
 
-<a id="org6b4fddf"></a>
+<a id="org62b75eb"></a>
 
 ### use LEAVE phaser for closing the handles
 
@@ -164,7 +164,7 @@ if $do-stuff-with-the-file {
 ```
 
 
-<a id="org03b87be"></a>
+<a id="org4a926a8"></a>
 
 ### the smartmatch operator ~~ rather than does
 

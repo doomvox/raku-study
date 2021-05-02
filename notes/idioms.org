@@ -5,7 +5,7 @@ several ways of doing things in raku but one is favored.
 mean "a way to do it", or "the Raku way of doing it".)
 
 ** blog posts
-*** utilpm piece from 2011 (perl5 things translated to raku):
+*** utilpm piece from 2011 (more of a "Raku way to do it" piece):
 https://perl6advent.wordpress.com/2011/12/23/day-23-idiomatic-perl-6/
 
 *** recent piece by gfldex,  writing a wget in raku several different ways
