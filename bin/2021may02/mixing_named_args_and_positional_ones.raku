@@ -13,7 +13,7 @@ sub dostuff (*%nameo, *@ordo) {
 
 dostuff( his => 'bingo', 'shout' );  # shout BINGO!
 
-sub dostuff (*%opt, *@list) {
+sub slurp_array (*%opt, *@list) {
     say "count: ", @list.elems;
 }
 
