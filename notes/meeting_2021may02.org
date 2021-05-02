@@ -17,7 +17,6 @@ https://github.com/doomvox/raku-study/blob/main/notes/69cent_tour_git.md
 **** larger applications
 **** circular dependencies in functions
 
-
 ** ongoing
 *** raku idioms
 **** https://github.com/doomvox/raku-study/blob/main/notes/idioms.org
