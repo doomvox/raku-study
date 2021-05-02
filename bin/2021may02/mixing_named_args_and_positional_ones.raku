@@ -42,6 +42,8 @@ use v6;
 
     }
 
+    copyoid ( "/tmp/oid_loc_1", "~/mah_oid_loc", recursive => 1, warn_level => 666 );
+
 }
 
 
