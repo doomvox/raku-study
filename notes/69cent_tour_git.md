@@ -1,25 +1,25 @@
-- [69 cent tour of git](#orged3e944)
-  - [some stops on the tour](#org37e3836)
-    - [working with an existing git repo, e.g.](#org4490b57)
-    - [new topic: create a new git repo](#org2e5d266)
-    - [follow on topic: putting that new git repo on github](#orgc4929da)
-    - [the cool stuff &#x2013; haven't really covered any of it](#org1066e8a)
-    - [things you will not do with git](#orge33f6a9)
+- [69 cent tour of git](#org59bf9f7)
+  - [some stops on the tour](#org9fd703a)
+    - [Using an existing git repo, e.g.](#org29e5d88)
+    - [new topic: create a new git repo](#org1065aa8)
+    - [follow on topic: putting that new git repo on github](#org580380c)
+    - [the cool stuff &#x2013; haven't really covered any of it](#org14ce4d4)
+    - [things you will not do with git](#orgc4b9810)
 
 
-<a id="orged3e944"></a>
+<a id="org59bf9f7"></a>
 
 # 69 cent tour of git
 
 
-<a id="org37e3836"></a>
+<a id="org9fd703a"></a>
 
 ## some stops on the tour
 
 
-<a id="org4490b57"></a>
+<a id="org29e5d88"></a>
 
-### working with an existing git repo, e.g.
+### Using an existing git repo, e.g.
 
 1.  <https://github.com/doomvox/raku-study>
 
@@ -119,7 +119,7 @@
     ```
 
 
-<a id="org2e5d266"></a>
+<a id="org1065aa8"></a>
 
 ### new topic: create a new git repo
 
@@ -146,7 +146,7 @@
 2.  resolving a merge conflict
 
 
-<a id="orgc4929da"></a>
+<a id="org580380c"></a>
 
 ### follow on topic: putting that new git repo on github
 
@@ -157,7 +157,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org1066e8a"></a>
+<a id="org14ce4d4"></a>
 
 ### the cool stuff &#x2013; haven't really covered any of it
 
@@ -176,7 +176,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="orge33f6a9"></a>
+<a id="orgc4b9810"></a>
 
 ### things you will not do with git
 

@@ -1,6 +1,6 @@
 * 69 cent tour of git
 ** some stops on the tour
-*** working with an existing git repo, e.g. 
+*** Using an existing git repo, e.g. 
 **** https://github.com/doomvox/raku-study
 **** set-up to do if not done already:
 ***** create a github account
