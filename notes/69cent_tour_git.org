@@ -68,6 +68,7 @@ git commit -a -m 'added goodbye line to hello.raku'
 git log -n 3
 git diff
 git diff <commit1> <commit2>
+<emacs server-start>
 git pull
 git status
 git commit -a -m'wtf?'
