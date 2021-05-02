@@ -70,6 +70,8 @@ use Circular::A qw( :all );
 
 sub c {
 
+  a();
+
 }
 
 
