@@ -1,29 +1,29 @@
-- [69 cent tour of git](#orga11d79a)
-  - [version 0.1](#org51f1eee)
-  - [some stops on the tour](#orgb507db6)
-    - [working with an existing git repo, e.g.](#org31346b7)
-    - [new topic: create a new git repo](#org3b86467)
-    - [follow on topic: putting a new git repo on github](#orgc45f405)
-    - [the cool stuff &#x2013; haven't really covered any of it](#org61156c5)
-    - [things you will not do with git](#org4f240f0)
+- [69 cent tour of git](#org98a83c7)
+  - [version 0.1](#org4bdfbfe)
+  - [some stops on the tour](#org509634d)
+    - [working with an existing git repo, e.g.](#orgd4759e9)
+    - [new topic: create a new git repo](#orga839774)
+    - [follow on topic: putting a new git repo on github](#org59e5a33)
+    - [the cool stuff &#x2013; haven't really covered any of it](#orga456103)
+    - [things you will not do with git](#org2259cab)
 
 
-<a id="orga11d79a"></a>
+<a id="org98a83c7"></a>
 
 # 69 cent tour of git
 
 
-<a id="org51f1eee"></a>
+<a id="org4bdfbfe"></a>
 
 ## version 0.1
 
 
-<a id="orgb507db6"></a>
+<a id="org509634d"></a>
 
 ## some stops on the tour
 
 
-<a id="org31346b7"></a>
+<a id="orgd4759e9"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -64,7 +64,7 @@
     cd /tmp/dev
     ```
 
-6.  use git get a local copy of raku-study repository
+6.  git a local copy of raku-study repository
 
     ```sh
     git clone git@github.com:doomvox/raku-study.git
@@ -111,7 +111,7 @@
     ```
 
 
-<a id="org3b86467"></a>
+<a id="orga839774"></a>
 
 ### new topic: create a new git repo
 
@@ -138,7 +138,7 @@
 2.  resolving a merge conflict
 
 
-<a id="orgc45f405"></a>
+<a id="org59e5a33"></a>
 
 ### follow on topic: putting a new git repo on github
 
@@ -149,7 +149,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org61156c5"></a>
+<a id="orga456103"></a>
 
 ### the cool stuff &#x2013; haven't really covered any of it
 
@@ -166,7 +166,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org4f240f0"></a>
+<a id="org2259cab"></a>
 
 ### things you will not do with git
 
