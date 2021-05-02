@@ -62,7 +62,8 @@ git diff <commit1> <commit2>
 git pull
 git status
 git commit -a -m'wtf?'
-git push
+# git push
+git push -u origin main
 #+END_SRC
 
 *** new topic: create a new git repo

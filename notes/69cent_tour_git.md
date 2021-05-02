@@ -1,29 +1,29 @@
-- [69 cent tour of git](#orgcbb56b9)
-  - [version 0.1](#orgf0e724b)
-  - [some stops on the tour](#org740dd20)
-    - [working with an existing git repo, e.g.](#orgb79c52f)
-    - [new topic: create a new git repo](#orge040511)
-    - [follow on topic: putting that new git repo on github](#orgb157668)
-    - [the cool stuff &#x2013; haven't really covered any of it](#org03fd0da)
-    - [things you will not do with git](#org3c21a4e)
+- [69 cent tour of git](#orge4c9716)
+  - [version 0.1](#orgd99239b)
+  - [some stops on the tour](#orged34587)
+    - [working with an existing git repo, e.g.](#org678effd)
+    - [new topic: create a new git repo](#orgecf569f)
+    - [follow on topic: putting that new git repo on github](#org5829ede)
+    - [the cool stuff &#x2013; haven't really covered any of it](#org97222cf)
+    - [things you will not do with git](#org55ba7b2)
 
 
-<a id="orgcbb56b9"></a>
+<a id="orge4c9716"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgf0e724b"></a>
+<a id="orgd99239b"></a>
 
 ## version 0.1
 
 
-<a id="org740dd20"></a>
+<a id="orged34587"></a>
 
 ## some stops on the tour
 
 
-<a id="orgb79c52f"></a>
+<a id="org678effd"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -109,11 +109,12 @@
     git pull
     git status
     git commit -a -m'wtf?'
-    git push
+    # git push
+    git push -u origin main
     ```
 
 
-<a id="orge040511"></a>
+<a id="orgecf569f"></a>
 
 ### new topic: create a new git repo
 
@@ -140,7 +141,7 @@
 2.  resolving a merge conflict
 
 
-<a id="orgb157668"></a>
+<a id="org5829ede"></a>
 
 ### follow on topic: putting that new git repo on github
 
@@ -151,7 +152,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org03fd0da"></a>
+<a id="org97222cf"></a>
 
 ### the cool stuff &#x2013; haven't really covered any of it
 
@@ -168,7 +169,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org3c21a4e"></a>
+<a id="org55ba7b2"></a>
 
 ### things you will not do with git
 
