@@ -15,11 +15,9 @@ use v6;
 }
 
 {
-
     sub slurp_array (*%opt, *@list) {
         say "count: ", @list.elems;
     }
-
     my @monsters = < godzilla grendel wormface blob >;
     slurp_array( @monsters ); # count: 4
 
