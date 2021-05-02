@@ -1,29 +1,29 @@
-- [69 cent tour of git](#org7e02e92)
-  - [version 0.1](#orgb2a163b)
-  - [some stops on the tour](#org39f7d64)
-    - [working with an existing git repo, e.g.](#org4f93ee2)
-    - [new topic: create a new git repo](#org14a604a)
-    - [follow on topic: putting a new git repo on github](#org90d5dff)
-    - [the cool stuff &#x2013; haven't really covered any of it](#org9b3aac9)
-    - [things you will not do with git](#org3dc6394)
+- [69 cent tour of git](#orga11d79a)
+  - [version 0.1](#org51f1eee)
+  - [some stops on the tour](#orgb507db6)
+    - [working with an existing git repo, e.g.](#org31346b7)
+    - [new topic: create a new git repo](#org3b86467)
+    - [follow on topic: putting a new git repo on github](#orgc45f405)
+    - [the cool stuff &#x2013; haven't really covered any of it](#org61156c5)
+    - [things you will not do with git](#org4f240f0)
 
 
-<a id="org7e02e92"></a>
+<a id="orga11d79a"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgb2a163b"></a>
+<a id="org51f1eee"></a>
 
 ## version 0.1
 
 
-<a id="org39f7d64"></a>
+<a id="orgb507db6"></a>
 
 ## some stops on the tour
 
 
-<a id="org4f93ee2"></a>
+<a id="org31346b7"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -39,7 +39,7 @@
     
     3.  share your public ssh key (rsa, not dsa) at your github account
     
-        1.  picture button (top-right)->Settings (near bottom)->SSH and GPG keys->New SSH key button (uppper right)
+        1.  picture button (top-right)->Settings->SSH and GPG keys->New SSH key button
         
         2.  Add your "ssh-rsa" from: ~/.ssh/id<sub>rsa.pub</sub>
         
@@ -111,7 +111,7 @@
     ```
 
 
-<a id="org14a604a"></a>
+<a id="org3b86467"></a>
 
 ### new topic: create a new git repo
 
@@ -138,7 +138,7 @@
 2.  resolving a merge conflict
 
 
-<a id="org90d5dff"></a>
+<a id="orgc45f405"></a>
 
 ### follow on topic: putting a new git repo on github
 
@@ -149,7 +149,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org9b3aac9"></a>
+<a id="org61156c5"></a>
 
 ### the cool stuff &#x2013; haven't really covered any of it
 
@@ -166,7 +166,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org3dc6394"></a>
+<a id="org4f240f0"></a>
 
 ### things you will not do with git
 

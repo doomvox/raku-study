@@ -8,7 +8,7 @@
 ***** get added to raku-study as a collaborator
 ****** Settings->Manage Access->Invite a collaborator
 ***** share your public ssh key (rsa, not dsa) at your github account
-****** picture button (top-right)->Settings (near bottom)->SSH and GPG keys->New SSH key button (uppper right)
+****** picture button (top-right)->Settings->SSH and GPG keys->New SSH key button
 ****** Add your "ssh-rsa" from: ~/.ssh/id_rsa.pub
 ******* if you don't have one yet, run:
 #+BEGIN_SRC perl6
