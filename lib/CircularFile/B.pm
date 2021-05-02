@@ -67,6 +67,7 @@ my $DEBUG = 1;
 # Preloaded methods go here.
 
 use lib ("/home/doom/End/Cave/Perl6/Wall/raku-study/lib/CircularFile");
+use CircularFile::C qw( :all ) ; 
 sub b {
   say "Called b...";
   my $ret = c() || 'c';
