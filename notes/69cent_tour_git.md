@@ -1,30 +1,30 @@
-- [69 cent tour of git](#orga8e729a)
-  - [version 0.1](#org683b576)
-  - [some stops on the tour](#org7248c00)
-    - [working with an existing git repo, e.g.](#org13f00d3)
-    - [initialize a new git repo](#orge4372a8)
-    - [starting with existing github repo raku-study](#org220acc6)
-    - [continuing with a new git repo](#org6e4d49b)
-    - [the cool stuff](#org3397c23)
-    - [things you will not do with git](#orgc3bbed4)
+- [69 cent tour of git](#org2526dd0)
+  - [version 0.1](#orgfc924ff)
+  - [some stops on the tour](#orga0fd972)
+    - [working with an existing git repo, e.g.](#org7ade8db)
+    - [new topic: initialize a new git repo](#org87d2c7a)
+    - [starting with existing github repo raku-study](#org44e0cc6)
+    - [continuing with a new git repo](#org5233632)
+    - [the cool stuff](#orgbb3fa55)
+    - [things you will not do with git](#org7b47290)
 
 
-<a id="orga8e729a"></a>
+<a id="org2526dd0"></a>
 
 # 69 cent tour of git
 
 
-<a id="org683b576"></a>
+<a id="orgfc924ff"></a>
 
 ## version 0.1
 
 
-<a id="org7248c00"></a>
+<a id="orga0fd972"></a>
 
 ## some stops on the tour
 
 
-<a id="org13f00d3"></a>
+<a id="org7ade8db"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -112,9 +112,9 @@
     ```
 
 
-<a id="orge4372a8"></a>
+<a id="org87d2c7a"></a>
 
-### initialize a new git repo
+### new topic: initialize a new git repo
 
 1.  working standalone
 
@@ -133,7 +133,7 @@
     4.  .git/info/exclude
 
 
-<a id="org220acc6"></a>
+<a id="org44e0cc6"></a>
 
 ### starting with existing github repo raku-study
 
@@ -146,7 +146,7 @@
 3.  resolving a merge conflict
 
 
-<a id="org6e4d49b"></a>
+<a id="org5233632"></a>
 
 ### continuing with a new git repo
 
@@ -157,7 +157,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org3397c23"></a>
+<a id="orgbb3fa55"></a>
 
 ### the cool stuff
 
@@ -174,7 +174,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="orgc3bbed4"></a>
+<a id="org7b47290"></a>
 
 ### things you will not do with git
 
