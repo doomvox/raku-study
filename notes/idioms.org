@@ -14,9 +14,6 @@ https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/
 *** damien conway 2019, idioms for iterating over a list or doing something else if empty
 http://blogs.perl.org/users/damian_conway/2019/09/itchscratch.html
 
-
-
-
 ** from the docs
 The docs uses the word "idiom" occasionally, though only sometimes indicating
 a style preference:
