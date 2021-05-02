@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org236d144)
-  - [some stops on the tour](#orga59af37)
-    - [first stop: using an existing git repo, e.g.](#org6ba631d)
-    - [second stop: create a new git repo](#orge46a02b)
-    - [third stop: putting that new git repo on github](#orgb54fa84)
-    - [fourth stop: haven't covered the cool stuff](#org1ccba71)
-    - [fifth stop: things you will not do with git](#org30a761a)
+- [69 cent tour of git](#orgbd38a63)
+  - [some stops on the tour](#orgf26439c)
+    - [first stop: using an existing git repo, e.g.](#org1f9e7bb)
+    - [second stop: create a new git repo](#org1e409b6)
+    - [third stop: putting that new git repo on github](#org920986c)
+    - [fourth stop: haven't covered the cool stuff](#org2836268)
+    - [fifth stop: things you will not do with git](#orgac75ff8)
 
 
-<a id="org236d144"></a>
+<a id="orgbd38a63"></a>
 
 # 69 cent tour of git
 
 
-<a id="orga59af37"></a>
+<a id="orgf26439c"></a>
 
 ## some stops on the tour
 
 
-<a id="org6ba631d"></a>
+<a id="org1f9e7bb"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -109,9 +109,8 @@
     echo "say 'goodbye';" >> hello.raku
     git status
     git diff
-    git commit -m 'added goodbye line to hello.raku'
     git commit -a -m 'added goodbye line to hello.raku'
-    git log -3
+    git log -n 3
     git diff
     git diff <commit1> <commit2>
     git pull
@@ -126,7 +125,7 @@
     ```
 
 
-<a id="orge46a02b"></a>
+<a id="org1e409b6"></a>
 
 ### second stop: create a new git repo
 
@@ -153,7 +152,7 @@
 2.  resolving a merge conflict
 
 
-<a id="orgb54fa84"></a>
+<a id="org920986c"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -164,7 +163,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org1ccba71"></a>
+<a id="org2836268"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -183,7 +182,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org30a761a"></a>
+<a id="orgac75ff8"></a>
 
 ### fifth stop: things you will not do with git
 
