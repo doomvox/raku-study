@@ -72,7 +72,7 @@ say '---';
 
     my @rabbits  = < bugs peter easter >;
     slurp_array( @monsters, @rabbits ); # count: 7
-    ## hm... that's okay by me, but I expected *2*, though I shouldn't have:
+    ## hm... I expected *2*, but shouldn't have: singlearg rule needs + not * 
     ##  /home/doom/End/Cave/Perl6/Wall/raku-study/notes/meeting_2021feb21.org
 
 }
