@@ -84,7 +84,7 @@ git push
 **** creating a new project at github
 **** associating existing repo with new project
 See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
-*** the cool stuff
+*** the cool stuff -- haven't really covered any of it
 **** git branch
 **** github pull request
 **** this shit *is* cool, but it can get complicated
