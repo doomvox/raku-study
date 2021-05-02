@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org1021345)
-  - [some stops on the tour](#orgfb95c7d)
-    - [first stop: using an existing git repo, e.g.](#org77cdb1c)
-    - [second stop: create a new git repo](#org76be4f9)
-    - [third stop: putting that new git repo on github](#orgd30f0c9)
-    - [fourth stop: haven't covered the cool stuff](#orgcd7f2e5)
-    - [fifth stop: things you will not do with git](#org1f1b8de)
+- [69 cent tour of git](#org236d144)
+  - [some stops on the tour](#orga59af37)
+    - [first stop: using an existing git repo, e.g.](#org6ba631d)
+    - [second stop: create a new git repo](#orge46a02b)
+    - [third stop: putting that new git repo on github](#orgb54fa84)
+    - [fourth stop: haven't covered the cool stuff](#org1ccba71)
+    - [fifth stop: things you will not do with git](#org30a761a)
 
 
-<a id="org1021345"></a>
+<a id="org236d144"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgfb95c7d"></a>
+<a id="orga59af37"></a>
 
 ## some stops on the tour
 
 
-<a id="org77cdb1c"></a>
+<a id="org6ba631d"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -86,6 +86,7 @@
     echo "say 'hello';" > hello.raku
     raku hello.raku
     git status
+    git add hello.raku
     git commit -m'created demo script hello.raku'
     git log -n 3
     git log -n 3 --oneline
@@ -125,7 +126,7 @@
     ```
 
 
-<a id="org76be4f9"></a>
+<a id="orge46a02b"></a>
 
 ### second stop: create a new git repo
 
@@ -152,7 +153,7 @@
 2.  resolving a merge conflict
 
 
-<a id="orgd30f0c9"></a>
+<a id="orgb54fa84"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -163,7 +164,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgcd7f2e5"></a>
+<a id="org1ccba71"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -182,7 +183,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org1f1b8de"></a>
+<a id="org30a761a"></a>
 
 ### fifth stop: things you will not do with git
 

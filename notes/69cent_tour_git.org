@@ -46,6 +46,7 @@ cd ~/dev/raku-study/bin/2021may02
 echo "say 'hello';" > hello.raku
 raku hello.raku
 git status
+git add hello.raku
 git commit -m'created demo script hello.raku'
 git log -n 3
 git log -n 3 --oneline
