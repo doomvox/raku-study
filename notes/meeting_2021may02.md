@@ -1,68 +1,70 @@
-- [meeting notes May 02, 2021](#org814db3d)
-  - [meeting links](#orgae102b4)
-  - [agenda stuff](#orgb4fe759)
-    - [69 cent tour of git and github](#org7bc41df)
-    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#org19981ff)
-    - [typology: what is accepted by what](#org72c8d14)
-    - [raku classes as data containers](#org0afbd23)
-  - [ongoing](#org6d35473)
-    - [raku idioms](#org4e160e5)
-  - [announcements](#orgb4338df)
-    - [: find announcements](#orgb17df96)
-  - [appendix: the usual links](#org4afa81b)
-    - [code examples](#org2316b46)
-    - [meeting notes (material from this file)](#org81693c7)
+- [meeting notes May 02, 2021](#orgb155873)
+  - [meeting links](#orgc5d7c2d)
+  - [agenda stuff](#orga5412d4)
+    - [69 cent tour of git and github](#orgaafd3a5)
+    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#orgbacfa87)
+    - [typology: what is accepted by what](#org12100dc)
+    - [raku classes as data containers](#org762a07e)
+  - [ongoing](#orgcb2c1d3)
+    - [raku idioms](#org41b1459)
+  - [announcements](#orgd8f8da5)
+    - [: find announcements](#org4c912e1)
+  - [appendix: the usual links](#org8773fd9)
+    - [code examples](#org745dcef)
+    - [meeting notes (material from this file)](#org35c8c4b)
+    - [SF Perl page, has links to mailing list](#orgee00a86)
+    - [perl6-users mailing list archive](#orgc062386)
 
 
-<a id="org814db3d"></a>
+<a id="orgb155873"></a>
 
 # meeting notes May 02, 2021
 
 
-<a id="orgae102b4"></a>
+<a id="orgc5d7c2d"></a>
 
 ## meeting links
 
 This file of notes can be read over at github: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021may02.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021may02/>
 
 
-<a id="orgb4fe759"></a>
+<a id="orga5412d4"></a>
 
 ## agenda stuff
 
 
-<a id="org7bc41df"></a>
+<a id="orgaafd3a5"></a>
 
 ### 69 cent tour of git and github
 
 <https://github.com/doomvox/raku-study/blob/main/notes/69cent_tour_git.md>
 
 
-<a id="org19981ff"></a>
+<a id="orgbacfa87"></a>
 
 ### bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org72c8d14"></a>
+<a id="org12100dc"></a>
 
 ### typology: what is accepted by what
 
 1.  is anything ever cast automatically
 
 
-<a id="org0afbd23"></a>
+<a id="org762a07e"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org6d35473"></a>
+<a id="orgcb2c1d3"></a>
 
 ## ongoing
 
 
-<a id="org4e160e5"></a>
+<a id="org41b1459"></a>
 
 ### raku idioms
 
@@ -73,30 +75,44 @@ This file of notes can be read over at github: <https://github.com/doomvox/raku-
     2.  maybe: favor methods over functions?
 
 
-<a id="orgb4338df"></a>
+<a id="orgd8f8da5"></a>
 
 ## announcements
 
 
-<a id="orgb17df96"></a>
+<a id="org4c912e1"></a>
 
 ### : find announcements
 
 
-<a id="org4afa81b"></a>
+<a id="org8773fd9"></a>
 
 ## appendix: the usual links
 
 
-<a id="org2316b46"></a>
+<a id="org745dcef"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may02>
 
 
-<a id="org81693c7"></a>
+<a id="org35c8c4b"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may02.md>
+
+
+<a id="orgee00a86"></a>
+
+### SF Perl page, has links to mailing list
+
+<http://sf.pm.org/>
+
+
+<a id="orgc062386"></a>
+
+### perl6-users mailing list archive
+
+<https://www.nntp.perl.org/group/perl.perl6.users/>
