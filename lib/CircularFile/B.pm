@@ -52,7 +52,7 @@ BEGIN {
  %EXPORT_TAGS = ( 'all' => [
  # TODO Add names of items to export here.
  qw(
-
+     b
     ) ] );
   # The above allows declaration	use CircularFile::B ':all';
 
