@@ -53,6 +53,9 @@ say '---';
     ## Too few positionals passed; expected 2 arguments but got 1
     
     copyoid("wuhn", "done", recursive => 0, warn_level => 23 );
+    # oidally copy: wuhn to done
+    # recursive: 0
+    # warn_level: 23
  
 
 }
