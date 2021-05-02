@@ -78,8 +78,8 @@ git push
 #+END_SRC 
 ***** .git/info/exclude
 
-
 **** resolving a merge conflict
+
 *** continuing with a new git repo
 **** creating a new project at github
 **** associating existing repo with new project

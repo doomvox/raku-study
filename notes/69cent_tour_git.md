@@ -1,29 +1,29 @@
-- [69 cent tour of git](#orgef46042)
-  - [version 0.1](#orgaf27dac)
-  - [some stops on the tour](#orga12ed0e)
-    - [working with an existing git repo, e.g.](#org84ee38f)
-    - [new topic: create a new git repo](#org3539961)
-    - [continuing with a new git repo](#orgdd59010)
-    - [the cool stuff](#orgcccd44c)
-    - [things you will not do with git](#orge15b442)
+- [69 cent tour of git](#org7a54c4a)
+  - [version 0.1](#orgd892103)
+  - [some stops on the tour](#orgb3e4566)
+    - [working with an existing git repo, e.g.](#orga91c540)
+    - [new topic: create a new git repo](#orgde01e10)
+    - [continuing with a new git repo](#orgcece989)
+    - [the cool stuff](#orgfab9f99)
+    - [things you will not do with git](#org1ba78ec)
 
 
-<a id="orgef46042"></a>
+<a id="org7a54c4a"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgaf27dac"></a>
+<a id="orgd892103"></a>
 
 ## version 0.1
 
 
-<a id="orga12ed0e"></a>
+<a id="orgb3e4566"></a>
 
 ## some stops on the tour
 
 
-<a id="org84ee38f"></a>
+<a id="orga91c540"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -111,7 +111,7 @@
     ```
 
 
-<a id="org3539961"></a>
+<a id="orgde01e10"></a>
 
 ### new topic: create a new git repo
 
@@ -138,7 +138,7 @@
 2.  resolving a merge conflict
 
 
-<a id="orgdd59010"></a>
+<a id="orgcece989"></a>
 
 ### continuing with a new git repo
 
@@ -149,7 +149,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgcccd44c"></a>
+<a id="orgfab9f99"></a>
 
 ### the cool stuff
 
@@ -166,7 +166,7 @@
         Can read on-line, also via (spit) Amazon Source is at github: <https://github.com/progit/progit2>
 
 
-<a id="orge15b442"></a>
+<a id="org1ba78ec"></a>
 
 ### things you will not do with git
 
