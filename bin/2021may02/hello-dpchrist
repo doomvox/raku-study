@@ -1,2 +1,3 @@
 #!/usr/bin/env raku
 print "hello, world!\n";
+print "goodby, cruel world!\n";
