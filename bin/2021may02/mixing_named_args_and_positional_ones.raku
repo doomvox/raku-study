@@ -51,6 +51,7 @@ say '---';
     # This, however, has issues:
     copyoid ("/tmp/oid_loc_1", "/home/doom/mah_oid_loc", recursive => 1, warn_level => 666 );
 
+    CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 }
 
