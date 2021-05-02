@@ -78,7 +78,6 @@ git push
 #+END_SRC 
 ***** .git/info/exclude
 
-
 *** starting with existing github repo raku-study
 **** create an account at github
 ***** have me assign you commit privs to raku-study
