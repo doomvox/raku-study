@@ -91,7 +91,7 @@ See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
         http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
 ***** "Pro Git" by Scott Chacon and  Ben Straub
-Can read on-line, also via (spit) Amazon
+Can read on-line, also can get from (spit) Amazon
 Source is at github: https://github.com/progit/progit2
 
 *** things you will not do with git
