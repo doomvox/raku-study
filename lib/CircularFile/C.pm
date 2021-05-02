@@ -69,9 +69,7 @@ my $DEBUG = 1;
 use Circular::A qw( :all );
 
 sub c {
-
   a();
-
 }
 
 
