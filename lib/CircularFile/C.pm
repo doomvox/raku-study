@@ -66,7 +66,9 @@ my $DEBUG = 1;
 
 # Preloaded methods go here.
 
+sub c {
 
+}
 
 
 1;
