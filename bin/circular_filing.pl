@@ -54,6 +54,9 @@ GetOptions ("d|debug"    => \$DEBUG,
 
 { no warnings 'once'; $DB::single = 1; }
 
+use FindBin qw($Bin);
+use lib ("$Bin/../lib/");
+use CircularFile::A qw() ; # added by perlnow
 
 
 
