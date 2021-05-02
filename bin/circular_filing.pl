@@ -56,9 +56,9 @@ GetOptions ("d|debug"    => \$DEBUG,
 
 use FindBin qw($Bin);
 use lib ("$Bin/../lib/");
-use CircularFile::A qw() ; # added by perlnow
+use CircularFile::A qw( :all ) ; # added by perlnow
 
-
+say a();
 
 
 
