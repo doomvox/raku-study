@@ -20,6 +20,7 @@ sub slurp_array (*%opt, *@list) {
 my @monsters = < godzilla grendel wormface blob >;
 slurp_array( @monsters ) # count: 4
 
+my @rabbits  = < bugs peter easter >;
 
 
 ## Try to make errors into warnings
