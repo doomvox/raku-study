@@ -22,6 +22,7 @@ https://github.com/doomvox/raku-study/blob/main/notes/69cent_tour_git.md
 
 ** announcements
 *** TODO: find announcements
+*** next month is mother's day.  should we cancel?
 ** appendix: the usual links
 *** code examples
 https://github.com/doomvox/raku-study/tree/main/bin/2021may02
