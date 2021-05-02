@@ -7,8 +7,11 @@ mean "a way to do it".)
 ** from the docs
 The word idiom is used in *some* places in the docs.
 
-*** utilpm piece from 2011
-    https://perl6advent.wordpress.com/2011/12/23/day-23-idiomatic-perl-6/
+*** utilpm piece from 2011 (perl5 things translated to raku):
+https://perl6advent.wordpress.com/2011/12/23/day-23-idiomatic-perl-6/
+
+*** recent piece by gfldex,  writing a wget in raku several different ways
+https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/
 
 *** some idioms from the docs
 
