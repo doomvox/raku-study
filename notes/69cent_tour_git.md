@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org522c3ff)
-  - [some stops on the tour](#org575ef1d)
-    - [first stop: using an existing git repo, e.g.](#org9a67086)
-    - [second stop: create a new git repo](#org99ff544)
-    - [third stop: putting that new git repo on github](#orgb1f6b4d)
-    - [fourth stop: haven't covered the cool stuff](#org592215e)
-    - [things you will not do with git](#org88e19f1)
+- [69 cent tour of git](#orgb3d88e9)
+  - [some stops on the tour](#orgde2f2a7)
+    - [first stop: using an existing git repo, e.g.](#org073e487)
+    - [second stop: create a new git repo](#org6a51b88)
+    - [third stop: putting that new git repo on github](#org3b0da68)
+    - [fourth stop: haven't covered the cool stuff](#orgd1dc49c)
+    - [things you will not do with git](#org9b45e64)
 
 
-<a id="org522c3ff"></a>
+<a id="orgb3d88e9"></a>
 
 # 69 cent tour of git
 
 
-<a id="org575ef1d"></a>
+<a id="orgde2f2a7"></a>
 
 ## some stops on the tour
 
 
-<a id="org9a67086"></a>
+<a id="org073e487"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -119,7 +119,7 @@
     ```
 
 
-<a id="org99ff544"></a>
+<a id="org6a51b88"></a>
 
 ### second stop: create a new git repo
 
@@ -146,7 +146,7 @@
 2.  resolving a merge conflict
 
 
-<a id="orgb1f6b4d"></a>
+<a id="org3b0da68"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -157,7 +157,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org592215e"></a>
+<a id="orgd1dc49c"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -167,7 +167,7 @@
 
     <https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests>
 
-3.  this shit **is** cool, but it can get complicated
+3.  branches can get complicated
 
     <http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging>
     
@@ -176,7 +176,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org88e19f1"></a>
+<a id="org9b45e64"></a>
 
 ### things you will not do with git
 

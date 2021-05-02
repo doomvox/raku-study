@@ -98,8 +98,8 @@ See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 **** git branch
 **** github pull request
 https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests
-**** this shit *is* cool, but it can get complicated
-        http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+**** branches can get complicated
+http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
 ***** "Pro Git" by Scott Chacon and  Ben Straub
 Can read on-line, also can get from (spit) Amazon
