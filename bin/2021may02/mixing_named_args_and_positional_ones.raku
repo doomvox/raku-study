@@ -52,7 +52,7 @@ say '---';
     # copyoid ("/tmp/oid_loc_1", "/home/doom/mah_oid_loc", recursive => 1, warn_level => 666 );
     ## Too few positionals passed; expected 2 arguments but got 1
     
-    copyoid("wuhn", "done", recursive => 0, warn_level => 666 );
+    copyoid("wuhn", "done", recursive => 0, warn_level => 23 );
  
 
 }
