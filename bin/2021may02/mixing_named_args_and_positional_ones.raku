@@ -4,26 +4,31 @@
 
 use v6;
 
-sub dostuff (*%nameo, *@ordo) {
-   my $item1 = %nameo{'his'};
-   my $action  = @ordo[0];
+{
+    sub dostuff (*%nameo, *@ordo) {
+        my $item1 = %nameo{'his'};
+        my $action  = @ordo[0];
 
-   printf "%s %s!\n", $action, uc( $item1 );
+        printf "%s %s!\n", $action, uc( $item1 );
+    }
+
+    dostuff( his => 'bingo', 'shout' );  # shout BINGO!
 }
 
-dostuff( his => 'bingo', 'shout' );  # shout BINGO!
+{
 
-sub slurp_array (*%opt, *@list) {
-    say "count: ", @list.elems;
+    sub slurp_array (*%opt, *@list) {
+        say "count: ", @list.elems;
+    }
+
+    my @monsters = < godzilla grendel wormface blob >;
+    slurp_array( @monsters ); # count: 4
+
+    my @rabbits  = < bugs peter easter >;
+    slurp_array( @monsters, @rabbits ); # count: 7
+    ## hm... that's okay by me, but I expected *2*
+
 }
-
-my @monsters = < godzilla grendel wormface blob >;
-slurp_array( @monsters ); # count: 4
-
-my @rabbits  = < bugs peter easter >;
-slurp_array( @monsters, @rabbits ); # count: 7
-## hm... that's okay by me, but I expected *2*
-
 
 ## Try to make errors into warnings
 #   CATCH { default { say "CAUGHT: ", .Str; .resume } }
