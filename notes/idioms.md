@@ -1,45 +1,45 @@
-- [idioms](#org5fc9824)
-  - [blog posts](#orgbd7100f)
-    - [utilpm piece from 2011 (perl5 things translated to raku):](#org467e45d)
-    - [recent piece by gfldex,  writing a wget in raku several different ways](#org51c332a)
-  - [from the docs](#org640db4d)
-    - [some idioms from the docs](#org905eef3)
+- [idioms](#org801ea09)
+  - [blog posts](#orgd8ec63c)
+    - [utilpm piece from 2011 (perl5 things translated to raku):](#org6d763f0)
+    - [recent piece by gfldex,  writing a wget in raku several different ways](#orgdb74b4d)
+  - [from the docs](#org67920e4)
+    - [some idioms from the docs](#org725d0ba)
 
 
-<a id="org5fc9824"></a>
+<a id="org801ea09"></a>
 
 # idioms
 
 I'm looking for "recommended idioms", cases where there are several ways of doing things in raku but one is favored. (The word "idiom" also gets used in a wider sense to just mean "a way to do it".)
 
 
-<a id="orgbd7100f"></a>
+<a id="orgd8ec63c"></a>
 
 ## blog posts
 
 
-<a id="org467e45d"></a>
+<a id="org6d763f0"></a>
 
 ### utilpm piece from 2011 (perl5 things translated to raku):
 
 <https://perl6advent.wordpress.com/2011/12/23/day-23-idiomatic-perl-6/>
 
 
-<a id="org51c332a"></a>
+<a id="orgdb74b4d"></a>
 
 ### recent piece by gfldex,  writing a wget in raku several different ways
 
 <https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/>
 
 
-<a id="org640db4d"></a>
+<a id="org67920e4"></a>
 
 ## from the docs
 
-The docs uses the word "idiom" occasionally, sometimes indicating the kind of style recommendation I'm looking for.
+The docs uses the word "idiom" occasionally, though only sometimes indicating a style preference:
 
 
-<a id="org905eef3"></a>
+<a id="org725d0ba"></a>
 
 ### some idioms from the docs
 

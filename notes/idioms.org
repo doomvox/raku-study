@@ -13,8 +13,8 @@ https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/
 
 
 ** from the docs
-The docs uses the word "idiom" occasionally, sometimes indicating
-the kind of style recommendation I'm looking for.
+The docs uses the word "idiom" occasionally, though only sometimes indicating
+a style preference:
 
 *** some idioms from the docs
 
