@@ -13,6 +13,11 @@ sub dostuff (*%nameo, *@ordo) {
 
 dostuff( his => 'bingo', 'shout' );  # shout BINGO!
 
+sub dostuff (*%opt, *@list) {
+    say "count: ", @list.elems;
+}
+
+
 ## Try to make errors into warnings
 #   CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
