@@ -69,6 +69,9 @@ my $DEBUG = 1;
 use Circular::B qw( :all );
 
 sub a {
+
+  b();
+
 }
 
 1;
