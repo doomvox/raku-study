@@ -9,7 +9,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021may02/
 *** 69 cent tour of git and github
 https://github.com/doomvox/raku-study/blob/main/notes/69cent_tour_git.md
 *** bruce gray rosetta code entry:  https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
-*** typology: what is accepted by what 
+*** type system: what is accepted by what 
 **** is anything ever cast automatically
 *** raku classes as data containers
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
