@@ -1,5 +1,4 @@
 * 69 cent tour of git
-** version 0.1
 ** some stops on the tour
 *** working with an existing git repo, e.g. 
 **** https://github.com/doomvox/raku-study
