@@ -1,23 +1,23 @@
-- [69 cent tour of git](#orgf5b21a0)
-  - [some stops on the tour](#org61cfb71)
-    - [working with an existing git repo, e.g.](#org03da93b)
-    - [new topic: create a new git repo](#org3f9189c)
-    - [follow on topic: putting that new git repo on github](#orgc4366b8)
-    - [the cool stuff &#x2013; haven't really covered any of it](#orga851d8a)
-    - [things you will not do with git](#orgd5b945b)
+- [69 cent tour of git](#orged3e944)
+  - [some stops on the tour](#org37e3836)
+    - [working with an existing git repo, e.g.](#org4490b57)
+    - [new topic: create a new git repo](#org2e5d266)
+    - [follow on topic: putting that new git repo on github](#orgc4929da)
+    - [the cool stuff &#x2013; haven't really covered any of it](#org1066e8a)
+    - [things you will not do with git](#orge33f6a9)
 
 
-<a id="orgf5b21a0"></a>
+<a id="orged3e944"></a>
 
 # 69 cent tour of git
 
 
-<a id="org61cfb71"></a>
+<a id="org37e3836"></a>
 
 ## some stops on the tour
 
 
-<a id="org03da93b"></a>
+<a id="org4490b57"></a>
 
 ### working with an existing git repo, e.g.
 
@@ -96,7 +96,7 @@
     
     2.  "commits" are SHA1 hashes
     
-        1.  they're long but you can abbreivate to 5 or 6 chars
+        1.  they're long but you can abbreviate to 5 or 6 chars
     
     3.  not file oriented: commits can include changes throughout the tree
 
@@ -119,7 +119,7 @@
     ```
 
 
-<a id="org3f9189c"></a>
+<a id="org2e5d266"></a>
 
 ### new topic: create a new git repo
 
@@ -146,7 +146,7 @@
 2.  resolving a merge conflict
 
 
-<a id="orgc4366b8"></a>
+<a id="orgc4929da"></a>
 
 ### follow on topic: putting that new git repo on github
 
@@ -157,7 +157,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orga851d8a"></a>
+<a id="org1066e8a"></a>
 
 ### the cool stuff &#x2013; haven't really covered any of it
 
@@ -176,7 +176,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="orgd5b945b"></a>
+<a id="orge33f6a9"></a>
 
 ### things you will not do with git
 
