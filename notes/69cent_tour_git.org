@@ -80,7 +80,7 @@ git push
 
 **** resolving a merge conflict
 
-*** continuing with a new git repo
+*** follow on topic: putting a new git repo on github
 **** creating a new project at github
 **** associating existing repo with new project
 See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
