@@ -1,23 +1,23 @@
-- [69 cent tour of git](#orgd02dd08)
-  - [some stops on the tour](#orgde1558b)
-    - [first stop: using an existing git repo, e.g.](#org72eb52d)
-    - [second stop: create a new git repo](#org1bed305)
-    - [third stop: putting that new git repo on github](#org93c692b)
-    - [fourth stop: haven't covered the cool stuff](#orgc1f58bb)
-    - [fifth stop: things you will not do with git](#org5690812)
+- [69 cent tour of git](#org4139c8d)
+  - [some stops on the tour](#orgfcf6b36)
+    - [first stop: using an existing git repo, e.g.](#org9570e45)
+    - [second stop: create a new git repo](#orga4b5e99)
+    - [third stop: putting that new git repo on github](#org7ca1003)
+    - [fourth stop: haven't covered the cool stuff](#orgc93aa40)
+    - [fifth stop: things you will not do with git](#org2f0a352)
 
 
-<a id="orgd02dd08"></a>
+<a id="org4139c8d"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgde1558b"></a>
+<a id="orgfcf6b36"></a>
 
 ## some stops on the tour
 
 
-<a id="org72eb52d"></a>
+<a id="org9570e45"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="org1bed305"></a>
+<a id="orga4b5e99"></a>
 
 ### second stop: create a new git repo
 
@@ -150,14 +150,14 @@
     
     6.  .git/info/exclude
 
-2.  
+2.  adding version control to existing tree (bruce gray idiom)
 
     ```sh
     git init ; git add . ; git commit -m 'Initial commit'
     ```
 
 
-<a id="org93c692b"></a>
+<a id="org7ca1003"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgc1f58bb"></a>
+<a id="orgc93aa40"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -187,7 +187,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org5690812"></a>
+<a id="org2f0a352"></a>
 
 ### fifth stop: things you will not do with git
 
