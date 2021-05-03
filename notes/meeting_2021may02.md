@@ -1,67 +1,67 @@
-- [meeting notes May 02, 2021](#org0b06c29)
-  - [meeting links](#org0fb0c0c)
-  - [agenda stuff](#orgc38bfd4)
-    - [69 cent tour of git and github](#org848e9e4)
-    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#orge98fc64)
-    - [type system: what is accepted by what](#org95dbc9c)
-    - [raku classes as data containers](#orgfaddeac)
-    - [programming in the large (david christensen)](#org714b11c)
-  - [ongoing](#org00ede80)
-    - [raku idioms](#org9dbc89d)
-  - [announcements](#org18e009d)
-    - [Next month is mother's day.  No meeting.](#org08f81d6)
-  - [appendix: the usual links](#org1052589)
-    - [code examples](#orgcdb70a5)
-    - [meeting notes (material from this file)](#org31dcb26)
-    - [SF Perl page, has links to mailing list](#org62a8fb0)
-    - [perl6-users mailing list archive](#org6ea1789)
-  - [misc links via chat](#orgc364a8b)
+- [meeting notes May 02, 2021](#org27e0681)
+  - [meeting links](#org784a0ed)
+  - [agenda stuff](#org7c6a6fc)
+    - [69 cent tour of git and github](#org99aed67)
+    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#orgf97e4df)
+    - [type system: what is accepted by what](#org6cded84)
+    - [raku classes as data containers](#orgc703254)
+    - [programming in the large (david christensen)](#org7cd2052)
+  - [ongoing](#org0a63495)
+    - [raku idioms](#org4aee672)
+  - [announcements](#orgb217af3)
+    - [Next month is mother's day.  No meeting.](#org875a595)
+  - [appendix: the usual links](#org2152c05)
+    - [code examples](#org26bf8a4)
+    - [meeting notes (material from this file)](#orge84e47b)
+    - [SF Perl page, has links to mailing list](#orge9ab7a5)
+    - [perl6-users mailing list archive](#org2a51624)
+  - [misc links via chat](#org50cb678)
 
 
-<a id="org0b06c29"></a>
+<a id="org27e0681"></a>
 
 # meeting notes May 02, 2021
 
 
-<a id="org0fb0c0c"></a>
+<a id="org784a0ed"></a>
 
 ## meeting links
 
 This file of notes can be read over at github: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021may02.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021may02/>
 
 
-<a id="orgc38bfd4"></a>
+<a id="org7c6a6fc"></a>
 
 ## agenda stuff
 
 
-<a id="org848e9e4"></a>
+<a id="org99aed67"></a>
 
 ### 69 cent tour of git and github
 
 <https://github.com/doomvox/raku-study/blob/main/notes/69cent_tour_git.md>
 
 
-<a id="orge98fc64"></a>
+<a id="orgf97e4df"></a>
 
 ### bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org95dbc9c"></a>
+<a id="org6cded84"></a>
 
 ### type system: what is accepted by what
 
 1.  is anything ever cast automatically
 
 
-<a id="orgfaddeac"></a>
+<a id="orgc703254"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org714b11c"></a>
+<a id="org7cd2052"></a>
 
 ### programming in the large (david christensen)
 
@@ -70,12 +70,12 @@ This file of notes can be read over at github: <https://github.com/doomvox/raku-
 2.  circular dependencies in functions
 
 
-<a id="org00ede80"></a>
+<a id="org0a63495"></a>
 
 ## ongoing
 
 
-<a id="org9dbc89d"></a>
+<a id="org4aee672"></a>
 
 ### raku idioms
 
@@ -86,50 +86,50 @@ This file of notes can be read over at github: <https://github.com/doomvox/raku-
     2.  maybe: favor methods over functions?
 
 
-<a id="org18e009d"></a>
+<a id="orgb217af3"></a>
 
 ## announcements
 
 
-<a id="org08f81d6"></a>
+<a id="org875a595"></a>
 
 ### Next month is mother's day.  No meeting.
 
 
-<a id="org1052589"></a>
+<a id="org2152c05"></a>
 
 ## appendix: the usual links
 
 
-<a id="orgcdb70a5"></a>
+<a id="org26bf8a4"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may02>
 
 
-<a id="org31dcb26"></a>
+<a id="orge84e47b"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may02.md>
 
 
-<a id="org62a8fb0"></a>
+<a id="orge9ab7a5"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="org6ea1789"></a>
+<a id="org2a51624"></a>
 
 ### perl6-users mailing list archive
 
 <https://www.nntp.perl.org/group/perl.perl6.users/>
 
 
-<a id="orgc364a8b"></a>
+<a id="org50cb678"></a>
 
 ## misc links via chat
 
@@ -143,6 +143,10 @@ This file of notes can be read over at github: <https://github.com/doomvox/raku-
 
 15:56:35 From Bruce Gray : git init ; git add . ; git commit -m 'Initial commit'
 
-15:59:06 From Bruce Gray : <https://cli.github.com/> 15:59:32 From Joseph Brenner : <https://cli.github.com/> 16:02:52 From Bruce Gray : <https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically> 16:19:25 From Bruce Gray : <https://metacpan.org/pod/release/VPARSEVAL/Devel-Calltree-0.00_3/script/calltree> 16:25:13 From Bruce Gray : <http://rosettacode.org/wiki/Discrete_Fourier_transform#Raku> 16:25:17 From Bruce Gray : <http://rosettacode.org/wiki/Coprime_triplets#Raku> 16:35:24 From Joseph Brenner : firefox: 16:35:27 From Joseph Brenner :
+15:59:06 From Bruce Gray : <https://cli.github.com/>
 
-fourier=: ] +/@:\* ^@(0j<sub>2p1</sub> \* **/~@i.@# % #) ifourier=: # %~ ] +/@:** ^@(0j2p1 \* \*/~@i.@# % #)
+16:02:52 From Bruce Gray : <https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically>
+
+16:19:25 From Bruce Gray : <https://metacpan.org/pod/release/VPARSEVAL/Devel-Calltree-0.00_3/script/calltree>
+
+16:25:13 From Bruce Gray : <http://rosettacode.org/wiki/Discrete_Fourier_transform#Raku> 16:25:17 From Bruce Gray : <http://rosettacode.org/wiki/Coprime_triplets#Raku>
