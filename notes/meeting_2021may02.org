@@ -12,7 +12,7 @@ http://rosettacode.org/wiki/Discrete_Fourier_transform#Raku
 *** bruce gray rosetta code entry (skipped this time): https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
 *** type system: what is accepted by what 
 **** is anything ever cast automatically
-*** raku classes as data containers
+*** raku classes as data containers (skipped)
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
 *** programming in the large (david christensen)
 **** larger applications
