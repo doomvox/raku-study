@@ -115,7 +115,6 @@ But source is at github: https://github.com/progit/progit2
 **** there's a command line tool to do github manipulations without the damn website UI
 https://cli.github.com/
 
-
 *** fifth stop: things you will not do with git
 **** work with binary files
 (compiled code, media files, ms word docs, etc)
