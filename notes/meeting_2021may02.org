@@ -37,14 +37,14 @@ http://sf.pm.org/
 https://www.nntp.perl.org/group/perl.perl6.users/
 
 ** misc links via chat
-*** Bill Michels : https://perlmonks.org/index.pl?node_id=861966
-*** Bill Michels : https://www.openpgp.org/
-*** David Christensen : https://docs.github.com/en/github/authenticating-to-github/githubs-ssh-key-fingerprints
-*** Bruce Gray : https://cli.github.com/
-*** Bruce Gray : https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically
-*** Bruce Gray : https://metacpan.org/pod/release/VPARSEVAL/Devel-Calltree-0.00_3/script/calltree
-*** Bruce Gray : http://rosettacode.org/wiki/Discrete_Fourier_transform#Raku
-*** Bruce Gray : http://rosettacode.org/wiki/Coprime_triplets#Raku
+*** Bill Michels: https://perlmonks.org/index.pl?node_id=861966
+*** Bill Michels: https://www.openpgp.org/
+*** David Christensen: https://docs.github.com/en/github/authenticating-to-github/githubs-ssh-key-fingerprints
+*** Bruce Gray: https://cli.github.com/
+*** Bruce Gray: https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically
+*** Bruce Gray: https://metacpan.org/pod/release/VPARSEVAL/Devel-Calltree-0.00_3/script/calltree
+*** Bruce Gray: http://rosettacode.org/wiki/Discrete_Fourier_transform#Raku
+*** Bruce Gray: http://rosettacode.org/wiki/Coprime_triplets#Raku
 
 
 
