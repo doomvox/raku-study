@@ -1,22 +1,23 @@
-- [meeting notes May 16, 2021](#orgf5fd6da)
-  - [agenda stuff](#orgb30d05b)
-    - [bruce gray rosettacode entries](#orgad92396)
-    - [raku classes as data containers (skipped)](#orgffe640e)
-  - [ongoing](#orgc81c3fd)
-    - [programming in the large (david christensen)](#org4d8b130)
+- [meeting notes May 16, 2021](#org5c33f9e)
+  - [agenda stuff](#org79625f0)
+    - [bruce gray rosettacode entries](#org1512a59)
+    - [raku classes as data containers](#org89ab35a)
+    - [type system: what is accepted by what  (skipped)](#org0e7c0c6)
+  - [ongoing](#org37120ef)
+    - [programming in the large (david christensen)](#org2e2811d)
 
 
-<a id="orgf5fd6da"></a>
+<a id="org5c33f9e"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="orgb30d05b"></a>
+<a id="org79625f0"></a>
 
 ## agenda stuff
 
 
-<a id="orgad92396"></a>
+<a id="org1512a59"></a>
 
 ### bruce gray rosettacode entries
 
@@ -25,19 +26,26 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="orgffe640e"></a>
+<a id="org89ab35a"></a>
 
-### raku classes as data containers (skipped)
+### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="orgc81c3fd"></a>
+<a id="org0e7c0c6"></a>
+
+### type system: what is accepted by what  (skipped)
+
+1.  is anything ever cast automatically
+
+
+<a id="org37120ef"></a>
 
 ## ongoing
 
 
-<a id="org4d8b130"></a>
+<a id="org2e2811d"></a>
 
 ### programming in the large (david christensen)
 

@@ -3,8 +3,11 @@
 *** bruce gray rosettacode entries
 **** http://rosettacode.org/wiki/Coprime_triplets#Raku
 **** https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
-*** raku classes as data containers (skipped)
+*** raku classes as data containers
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
+*** type system: what is accepted by what  (skipped)
+**** is anything ever cast automatically
+
 ** ongoing
 *** programming in the large (david christensen)
 **** larger applications
