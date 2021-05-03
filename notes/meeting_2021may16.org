@@ -16,9 +16,9 @@
 
 ** appendix: the usual links
 *** code examples
-https://github.com/doomvox/raku-study/tree/main/bin/2021may02
+https://github.com/doomvox/raku-study/tree/main/bin/2021may16
 *** meeting notes (material from this file)
-https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may02.md
+https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may16.md
 *** SF Perl page, has links to mailing list
 http://sf.pm.org/
 *** perl6-users mailing list archive
