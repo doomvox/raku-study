@@ -116,5 +116,5 @@ But source is at github: https://github.com/progit/progit2
 **** work with binary files
 (compiled code, media files, ms word docs, etc)
 **** control your entire home directory
-**** set up a meta-git repository that contains multiple git projects.
+**** TODO set up a meta-git repository that contains multiple git projects. ((or can you?))
 **** share work with another person without using a server

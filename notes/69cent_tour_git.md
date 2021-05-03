@@ -1,23 +1,23 @@
-- [69 cent tour of git](#orgdeb2b67)
-  - [some stops on the tour](#orgd855498)
-    - [first stop: using an existing git repo, e.g.](#org20f014c)
-    - [second stop: create a new git repo](#org11ae667)
-    - [third stop: putting that new git repo on github](#org4f93b2e)
-    - [fourth stop: haven't covered the cool stuff](#org2ddde7e)
-    - [fifth stop: things you will not do with git](#org596f78e)
+- [69 cent tour of git](#org6607f5c)
+  - [some stops on the tour](#org05185c5)
+    - [first stop: using an existing git repo, e.g.](#org00cc304)
+    - [second stop: create a new git repo](#orga7ef1a4)
+    - [third stop: putting that new git repo on github](#org038ba91)
+    - [fourth stop: haven't covered the cool stuff](#org1cfa20b)
+    - [fifth stop: things you will not do with git](#orgfba9ef5)
 
 
-<a id="orgdeb2b67"></a>
+<a id="org6607f5c"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgd855498"></a>
+<a id="org05185c5"></a>
 
 ## some stops on the tour
 
 
-<a id="org20f014c"></a>
+<a id="org00cc304"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="org11ae667"></a>
+<a id="orga7ef1a4"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="org4f93b2e"></a>
+<a id="org038ba91"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org2ddde7e"></a>
+<a id="org1cfa20b"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -187,7 +187,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org596f78e"></a>
+<a id="orgfba9ef5"></a>
 
 ### fifth stop: things you will not do with git
 
@@ -197,6 +197,6 @@
 
 2.  control your entire home directory
 
-3.  set up a meta-git repository that contains multiple git projects.
+3.  TODO set up a meta-git repository that contains multiple git projects. ((or can you?))
 
 4.  share work with another person without using a server
