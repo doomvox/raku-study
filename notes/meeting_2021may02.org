@@ -34,3 +34,26 @@ https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may02.md
 http://sf.pm.org/
 *** perl6-users mailing list archive
 https://www.nntp.perl.org/group/perl.perl6.users/
+
+** misc links via chat
+
+14:06:08	 From Bill Michels : https://perlmonks.org/index.pl?node_id=861966
+
+
+14:29:42	 From Bill Michels : https://www.openpgp.org/
+
+14:50:52	 From David Christensen : https://docs.github.com/en/github/authenticating-to-github/githubs-ssh-key-fingerprints
+
+15:37:02	 From Joseph Brenner : git push -u origin main
+15:56:35	 From Bruce Gray : git init ; git add . ; git commit -m 'Initial commit'
+15:59:06	 From Bruce Gray : https://cli.github.com/
+15:59:32	 From Joseph Brenner : https://cli.github.com/
+16:02:52	 From Bruce Gray : https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically
+16:19:25	 From Bruce Gray : https://metacpan.org/pod/release/VPARSEVAL/Devel-Calltree-0.00_3/script/calltree
+16:25:13	 From Bruce Gray : http://rosettacode.org/wiki/Discrete_Fourier_transform#Raku
+16:25:17	 From Bruce Gray : http://rosettacode.org/wiki/Coprime_triplets#Raku
+16:35:24	 From Joseph Brenner : firefox:
+16:35:27	 From Joseph Brenner : 
+
+fourier=: ] +/@:* ^@(0j_2p1 * */~@i.@# % #)
+ifourier=: # %~ ] +/@:* ^@(0j2p1 * */~@i.@# % #)
