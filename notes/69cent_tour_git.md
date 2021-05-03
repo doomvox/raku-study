@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org6607f5c)
-  - [some stops on the tour](#org05185c5)
-    - [first stop: using an existing git repo, e.g.](#org00cc304)
-    - [second stop: create a new git repo](#orga7ef1a4)
-    - [third stop: putting that new git repo on github](#org038ba91)
-    - [fourth stop: haven't covered the cool stuff](#org1cfa20b)
-    - [fifth stop: things you will not do with git](#orgfba9ef5)
+- [69 cent tour of git](#org1c1dd1a)
+  - [some stops on the tour](#org0cfbfff)
+    - [first stop: using an existing git repo, e.g.](#orgde26df2)
+    - [second stop: create a new git repo](#org36017c6)
+    - [third stop: putting that new git repo on github](#org05e4adf)
+    - [fourth stop: haven't covered the cool stuff](#org96fcc59)
+    - [fifth stop: things you will not do with git](#orga105a65)
 
 
-<a id="org6607f5c"></a>
+<a id="org1c1dd1a"></a>
 
 # 69 cent tour of git
 
 
-<a id="org05185c5"></a>
+<a id="org0cfbfff"></a>
 
 ## some stops on the tour
 
 
-<a id="org00cc304"></a>
+<a id="orgde26df2"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -73,7 +73,7 @@
     cd /tmp/dev
     ```
 
-6.  git a local copy of raku-study repository
+6.  get a local copy of raku-study repository
 
     ```sh
     git clone git@github.com:doomvox/raku-study.git
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="orga7ef1a4"></a>
+<a id="org36017c6"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="org038ba91"></a>
+<a id="org05e4adf"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org1cfa20b"></a>
+<a id="org96fcc59"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -187,7 +187,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="orgfba9ef5"></a>
+<a id="orga105a65"></a>
 
 ### fifth stop: things you will not do with git
 

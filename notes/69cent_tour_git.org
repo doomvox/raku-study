@@ -36,7 +36,7 @@ git@github.com:doomvox/raku-study.git
 mkdir /tmp/dev
 cd /tmp/dev
 #+END_SRC
-**** git a local copy of raku-study repository
+**** get a local copy of raku-study repository
 #+BEGIN_SRC sh
 git clone git@github.com:doomvox/raku-study.git
 #+END_SRC
