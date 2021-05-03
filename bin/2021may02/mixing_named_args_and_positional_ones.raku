@@ -76,6 +76,8 @@ say '---';
  
 }
 
+## TODO next, integrate this with bg's idiom for alternate new methods;
+##      use it for the data container class idea
 
 
 
