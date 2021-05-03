@@ -94,7 +94,7 @@ git show REVISION:path/to/file
 ***** .git/info/exclude
 
 **** resolving a merge conflict
- 
+
 *** third stop: putting that new git repo on github
 **** creating a new project at github
 **** associating existing repo with new project
