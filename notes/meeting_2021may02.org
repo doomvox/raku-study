@@ -1,4 +1,3 @@
-* meeting notes May 02, 2021
 ** meeting links
 This file of notes can be read over at github:
 https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021may02.md
