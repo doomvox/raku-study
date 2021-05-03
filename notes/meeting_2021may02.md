@@ -1,114 +1,113 @@
-- [meeting links](#org68ae67a)
-  - [agenda stuff](#orgb7c000f)
-    - [69 cent tour of git and github](#orgb65458d)
-    - [bruce gray on his discrete fourier transform solution:](#org265b113)
-    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#org40bf4ef)
-    - [type system: what is accepted by what](#orge1c1815)
-      - [is anything ever cast automatically](#orgdf6a980)
-    - [raku classes as data containers](#orgab464ac)
-      - [<https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>](#org7e0d133)
-    - [programming in the large (david christensen)](#orga4b98bb)
-      - [larger applications](#org262865d)
-      - [circular dependencies in functions](#org0f54aae)
-  - [ongoing](#org19c2aae)
-    - [raku idioms](#orgb1d748e)
-      - [<https://github.com/doomvox/raku-study/blob/main/notes/idioms.org>](#org1452ae2)
-  - [announcements](#orgf7a65a6)
-    - [Next month is mother's day.  No meeting.](#orgfa753ff)
-  - [appendix: the usual links](#orge03c828)
-    - [code examples](#org7559e71)
-    - [meeting notes (material from this file)](#orge4c4ab1)
-    - [SF Perl page, has links to mailing list](#orgbb0e303)
-    - [perl6-users mailing list archive](#org4e0b4b4)
-  - [misc links via chat](#orgcbdd36e)
-    - [Bill Michels : <https://perlmonks.org/index.pl?node_id=861966>](#orgebddf88)
-    - [Bill Michels : <https://www.openpgp.org/>](#org1e96464)
-    - [David Christensen : <https://docs.github.com/en/github/authenticating-to-github/githubs-ssh-key-fingerprints>](#org1b9bf4a)
-    - [Bruce Gray : git init ; git add . ; git commit -m 'Initial commit'](#orgc77c508)
-    - [Bruce Gray : <https://cli.github.com/>](#orgec49dea)
-    - [Bruce Gray : <https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically>](#org1614626)
-    - [Bruce Gray : <https://metacpan.org/pod/release/VPARSEVAL/Devel-Calltree-0.00_3/script/calltree>](#orga184054)
-    - [Bruce Gray : <http://rosettacode.org/wiki/Discrete_Fourier_transform#Raku>](#org8424a70)
-    - [Bruce Gray : <http://rosettacode.org/wiki/Coprime_triplets#Raku>](#org6039899)
+- [meeting links](#orgcd9725f)
+  - [agenda stuff](#org91b30d3)
+    - [69 cent tour of git and github](#org7ed6218)
+    - [bruce gray on his discrete fourier transform solution:](#org2904b53)
+    - [bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>](#org73fa3ab)
+    - [type system: what is accepted by what](#org0f2dbbd)
+      - [is anything ever cast automatically](#orgcc1cad5)
+    - [raku classes as data containers](#org7096259)
+      - [<https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>](#org30aef05)
+    - [programming in the large (david christensen)](#orgdf20468)
+      - [larger applications](#orga76dbb1)
+      - [circular dependencies in functions](#org4f997b4)
+  - [ongoing](#org2c08cbe)
+    - [raku idioms](#org4176543)
+      - [<https://github.com/doomvox/raku-study/blob/main/notes/idioms.org>](#org08be29c)
+  - [announcements](#org7c606c6)
+    - [Next month is mother's day.  No meeting.](#orgede7854)
+  - [appendix: the usual links](#orgf72b322)
+    - [code examples](#org7a05806)
+    - [meeting notes (material from this file)](#orgdcb607c)
+    - [SF Perl page, has links to mailing list](#org956b64b)
+    - [perl6-users mailing list archive](#org65bfc7b)
+  - [misc links via chat](#org73d65d3)
+    - [Bill Michels : <https://perlmonks.org/index.pl?node_id=861966>](#org520f946)
+    - [Bill Michels : <https://www.openpgp.org/>](#org5135891)
+    - [David Christensen : <https://docs.github.com/en/github/authenticating-to-github/githubs-ssh-key-fingerprints>](#org6d39304)
+    - [Bruce Gray : <https://cli.github.com/>](#orgff96891)
+    - [Bruce Gray : <https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically>](#orgdfd8e87)
+    - [Bruce Gray : <https://metacpan.org/pod/release/VPARSEVAL/Devel-Calltree-0.00_3/script/calltree>](#orgcb007ad)
+    - [Bruce Gray : <http://rosettacode.org/wiki/Discrete_Fourier_transform#Raku>](#org8b78b9c)
+    - [Bruce Gray : <http://rosettacode.org/wiki/Coprime_triplets#Raku>](#org29c30c7)
 
 
-<a id="org68ae67a"></a>
+<a id="orgcd9725f"></a>
 
 # meeting links
 
 This file of notes can be read over at github: <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021may02.md> code examples: <https://github.com/doomvox/raku-study/tree/main/bin/2021may02/>
 
 
-<a id="orgb7c000f"></a>
+<a id="org91b30d3"></a>
 
 # agenda stuff
 
 
-<a id="orgb65458d"></a>
+<a id="org7ed6218"></a>
 
 ## 69 cent tour of git and github
 
 <https://github.com/doomvox/raku-study/blob/main/notes/69cent_tour_git.md>
 
 
-<a id="org265b113"></a>
+<a id="org2904b53"></a>
 
 ## bruce gray on his discrete fourier transform solution:
 
 <http://rosettacode.org/wiki/Discrete_Fourier_transform#Raku>
 
 
-<a id="org40bf4ef"></a>
+<a id="org73fa3ab"></a>
 
 ## bruce gray rosetta code entry:  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="orge1c1815"></a>
+<a id="org0f2dbbd"></a>
 
 ## type system: what is accepted by what
 
 
-<a id="orgdf6a980"></a>
+<a id="orgcc1cad5"></a>
 
 ### is anything ever cast automatically
 
 
-<a id="orgab464ac"></a>
+<a id="org7096259"></a>
 
 ## raku classes as data containers
 
 
-<a id="org7e0d133"></a>
+<a id="org30aef05"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="orga4b98bb"></a>
+<a id="orgdf20468"></a>
 
 ## programming in the large (david christensen)
 
 
-<a id="org262865d"></a>
+<a id="orga76dbb1"></a>
 
 ### larger applications
 
 
-<a id="org0f54aae"></a>
+<a id="org4f997b4"></a>
 
 ### circular dependencies in functions
 
 
-<a id="org19c2aae"></a>
+<a id="org2c08cbe"></a>
 
 # ongoing
 
 
-<a id="orgb1d748e"></a>
+<a id="org4176543"></a>
 
 ## raku idioms
 
 
-<a id="org1452ae2"></a>
+<a id="org08be29c"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/idioms.org>
 
@@ -117,94 +116,89 @@ This file of notes can be read over at github: <https://github.com/doomvox/raku-
 2.  maybe: favor methods over functions?
 
 
-<a id="orgf7a65a6"></a>
+<a id="org7c606c6"></a>
 
 # announcements
 
 
-<a id="orgfa753ff"></a>
+<a id="orgede7854"></a>
 
 ## Next month is mother's day.  No meeting.
 
 
-<a id="orge03c828"></a>
+<a id="orgf72b322"></a>
 
 # appendix: the usual links
 
 
-<a id="org7559e71"></a>
+<a id="org7a05806"></a>
 
 ## code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may02>
 
 
-<a id="orge4c4ab1"></a>
+<a id="orgdcb607c"></a>
 
 ## meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may02.md>
 
 
-<a id="orgbb0e303"></a>
+<a id="org956b64b"></a>
 
 ## SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="org4e0b4b4"></a>
+<a id="org65bfc7b"></a>
 
 ## perl6-users mailing list archive
 
 <https://www.nntp.perl.org/group/perl.perl6.users/>
 
 
-<a id="orgcbdd36e"></a>
+<a id="org73d65d3"></a>
 
 # misc links via chat
 
 
-<a id="orgebddf88"></a>
+<a id="org520f946"></a>
 
 ## Bill Michels : <https://perlmonks.org/index.pl?node_id=861966>
 
 
-<a id="org1e96464"></a>
+<a id="org5135891"></a>
 
 ## Bill Michels : <https://www.openpgp.org/>
 
 
-<a id="org1b9bf4a"></a>
+<a id="org6d39304"></a>
 
 ## David Christensen : <https://docs.github.com/en/github/authenticating-to-github/githubs-ssh-key-fingerprints>
 
 
-<a id="orgc77c508"></a>
-
-## Bruce Gray : git init ; git add . ; git commit -m 'Initial commit'
-
-
-<a id="orgec49dea"></a>
+<a id="orgff96891"></a>
 
 ## Bruce Gray : <https://cli.github.com/>
 
 
-<a id="org1614626"></a>
+<a id="orgdfd8e87"></a>
 
 ## Bruce Gray : <https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically>
 
 
-<a id="orga184054"></a>
+<a id="orgcb007ad"></a>
 
 ## Bruce Gray : <https://metacpan.org/pod/release/VPARSEVAL/Devel-Calltree-0.00_3/script/calltree>
 
 
-<a id="org8424a70"></a>
+<a id="org8b78b9c"></a>
 
 ## Bruce Gray : <http://rosettacode.org/wiki/Discrete_Fourier_transform#Raku>
 
 
-<a id="org6039899"></a>
+<a id="org29c30c7"></a>
 
 ## Bruce Gray : <http://rosettacode.org/wiki/Coprime_triplets#Raku>
