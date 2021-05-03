@@ -3,7 +3,8 @@
 *** bruce gray rosettacode entries
 **** http://rosettacode.org/wiki/Coprime_triplets#Raku
 **** https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
-
+*** argument passing via slurpy arrays and slurpy hash, etc
+**** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing_named_args_and_positional_ones.raku
 *** raku classes as data containers
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
 *** type system: what is accepted by what  (skipped)
