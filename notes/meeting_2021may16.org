@@ -14,3 +14,18 @@
 *** programming in the large (david christensen)
 **** larger applications
 
+** appendix: the usual links
+*** code examples
+https://github.com/doomvox/raku-study/tree/main/bin/2021may02
+*** meeting notes (material from this file)
+https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may02.md
+*** SF Perl page, has links to mailing list
+http://sf.pm.org/
+*** perl6-users mailing list archive
+https://www.nntp.perl.org/group/perl.perl6.users/
+*** meeting notes (material from this file)
+https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may02.md
+*** SF Perl page, has links to mailing list
+http://sf.pm.org/
+*** perl6-users mailing list archive
+https://www.nntp.perl.org/group/perl.perl6.users/
