@@ -1,2 +1,4 @@
 * meeting notes May 16, 2021
 ** agenda stuff
+*** bruce gray rosettacode entries
+**** http://rosettacode.org/wiki/Coprime_triplets#Raku

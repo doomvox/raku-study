@@ -1,12 +1,20 @@
-- [meeting notes May 16, 2021](#orga6990c9)
-  - [agenda stuff](#org4cf6572)
+- [meeting notes May 16, 2021](#org419a253)
+  - [agenda stuff](#org13d3f4a)
+    - [bruce gray rosettacode entries](#org07492d8)
 
 
-<a id="orga6990c9"></a>
+<a id="org419a253"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org4cf6572"></a>
+<a id="org13d3f4a"></a>
 
 ## agenda stuff
+
+
+<a id="org07492d8"></a>
+
+### bruce gray rosettacode entries
+
+1.  <http://rosettacode.org/wiki/Coprime_triplets#Raku>
