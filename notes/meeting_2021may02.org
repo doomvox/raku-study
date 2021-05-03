@@ -37,7 +37,8 @@ http://sf.pm.org/
 https://www.nntp.perl.org/group/perl.perl6.users/
 
 ** misc links via chat
-*** Bill Michels: https://perlmonks.org/index.pl?node_id=861966
+
+*** Tom Christensen on perl5 prototypes: https://perlmonks.org/index.pl?node_id=861966 (bill michels)
 *** Bill Michels: https://www.openpgp.org/
 *** David Christensen: https://docs.github.com/en/github/authenticating-to-github/githubs-ssh-key-fingerprints
 *** Bruce Gray: https://cli.github.com/
