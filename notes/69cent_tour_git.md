@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org4139c8d)
-  - [some stops on the tour](#orgfcf6b36)
-    - [first stop: using an existing git repo, e.g.](#org9570e45)
-    - [second stop: create a new git repo](#orga4b5e99)
-    - [third stop: putting that new git repo on github](#org7ca1003)
-    - [fourth stop: haven't covered the cool stuff](#orgc93aa40)
-    - [fifth stop: things you will not do with git](#org2f0a352)
+- [69 cent tour of git](#orgdeb2b67)
+  - [some stops on the tour](#orgd855498)
+    - [first stop: using an existing git repo, e.g.](#org20f014c)
+    - [second stop: create a new git repo](#org11ae667)
+    - [third stop: putting that new git repo on github](#org4f93b2e)
+    - [fourth stop: haven't covered the cool stuff](#org2ddde7e)
+    - [fifth stop: things you will not do with git](#org596f78e)
 
 
-<a id="org4139c8d"></a>
+<a id="orgdeb2b67"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgfcf6b36"></a>
+<a id="orgd855498"></a>
 
 ## some stops on the tour
 
 
-<a id="org9570e45"></a>
+<a id="org20f014c"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="orga4b5e99"></a>
+<a id="org11ae667"></a>
 
 ### second stop: create a new git repo
 
@@ -150,14 +150,14 @@
     
     6.  .git/info/exclude
 
-2.  adding version control to existing tree (bruce gray idiom)
+2.  adding version control to existing tree (bruce gray)
 
     ```sh
     git init ; git add . ; git commit -m 'Initial commit'
     ```
 
 
-<a id="org7ca1003"></a>
+<a id="org4f93b2e"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgc93aa40"></a>
+<a id="org2ddde7e"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -187,7 +187,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org2f0a352"></a>
+<a id="org596f78e"></a>
 
 ### fifth stop: things you will not do with git
 

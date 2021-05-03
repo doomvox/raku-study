@@ -92,7 +92,7 @@ git show REVISION:path/to/file
 *.[oa]
 #+END_SRC 
 ***** .git/info/exclude
-**** adding version control to existing tree (bruce gray idiom)
+**** adding version control to existing tree (bruce gray)
 #+BEGIN_SRC sh
 git init ; git add . ; git commit -m 'Initial commit'
 #+END_SRC
