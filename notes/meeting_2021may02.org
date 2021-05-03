@@ -45,6 +45,7 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 14:50:52	 From David Christensen : https://docs.github.com/en/github/authenticating-to-github/githubs-ssh-key-fingerprints
 
 15:37:02	 From Joseph Brenner : git push -u origin main
+
 15:56:35	 From Bruce Gray : git init ; git add . ; git commit -m 'Initial commit'
 
 15:59:06	 From Bruce Gray : https://cli.github.com/
