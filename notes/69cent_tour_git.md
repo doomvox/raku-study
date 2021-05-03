@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org1c1dd1a)
-  - [some stops on the tour](#org0cfbfff)
-    - [first stop: using an existing git repo, e.g.](#orgde26df2)
-    - [second stop: create a new git repo](#org36017c6)
-    - [third stop: putting that new git repo on github](#org05e4adf)
-    - [fourth stop: haven't covered the cool stuff](#org96fcc59)
-    - [fifth stop: things you will not do with git](#orga105a65)
+- [69 cent tour of git](#org4b1d118)
+  - [some stops on the tour](#org91dd25f)
+    - [first stop: using an existing git repo, e.g.](#orgb217721)
+    - [second stop: create a new git repo](#org25eda0b)
+    - [third stop: putting that new git repo on github](#orgabf0d04)
+    - [fourth stop: haven't covered the cool stuff](#org983a3c2)
+    - [fifth stop: things you will not do with git](#orgb06b352)
 
 
-<a id="org1c1dd1a"></a>
+<a id="org4b1d118"></a>
 
 # 69 cent tour of git
 
 
-<a id="org0cfbfff"></a>
+<a id="org91dd25f"></a>
 
 ## some stops on the tour
 
 
-<a id="orgde26df2"></a>
+<a id="orgb217721"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="org36017c6"></a>
+<a id="org25eda0b"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="org05e4adf"></a>
+<a id="orgabf0d04"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org96fcc59"></a>
+<a id="org983a3c2"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -186,8 +186,12 @@
     
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
+4.  there's a command line tool to do github manipulations without the damn website UI
 
-<a id="orga105a65"></a>
+    <https://cli.github.com/>
+
+
+<a id="orgb06b352"></a>
 
 ### fifth stop: things you will not do with git
 
