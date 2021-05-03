@@ -1,23 +1,23 @@
-- [69 cent tour of git](#orga8e2934)
-  - [some stops on the tour](#orgcd7f08e)
-    - [first stop: using an existing git repo, e.g.](#orgc6227a3)
-    - [second stop: create a new git repo](#org5a1c6e2)
-    - [third stop: putting that new git repo on github](#orgf2f3903)
-    - [fourth stop: haven't covered the cool stuff](#orgfcf3f62)
-    - [fifth stop: things you will not do with git](#org2109262)
+- [69 cent tour of git](#orgd02dd08)
+  - [some stops on the tour](#orgde1558b)
+    - [first stop: using an existing git repo, e.g.](#org72eb52d)
+    - [second stop: create a new git repo](#org1bed305)
+    - [third stop: putting that new git repo on github](#org93c692b)
+    - [fourth stop: haven't covered the cool stuff](#orgc1f58bb)
+    - [fifth stop: things you will not do with git](#org5690812)
 
 
-<a id="orga8e2934"></a>
+<a id="orgd02dd08"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgcd7f08e"></a>
+<a id="orgde1558b"></a>
 
 ## some stops on the tour
 
 
-<a id="orgc6227a3"></a>
+<a id="org72eb52d"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="org5a1c6e2"></a>
+<a id="org1bed305"></a>
 
 ### second stop: create a new git repo
 
@@ -150,10 +150,14 @@
     
     6.  .git/info/exclude
 
-2.  resolving a merge conflict
+2.  
+
+    ```sh
+    git init ; git add . ; git commit -m 'Initial commit'
+    ```
 
 
-<a id="orgf2f3903"></a>
+<a id="org93c692b"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -164,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgfcf3f62"></a>
+<a id="orgc1f58bb"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -183,7 +187,7 @@
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
 
 
-<a id="org2109262"></a>
+<a id="org5690812"></a>
 
 ### fifth stop: things you will not do with git
 
