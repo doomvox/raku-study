@@ -5,6 +5,7 @@
 # Defining a custom operator that does addition or subtraction alternately,
 # each time it's called.
 
+# STATUS: CLOSED
 # This file was for development.  Copying working code to:
 #   /home/doom/End/Cave/Perl6/Wall/raku-study/lib/PlusMine.pm6
 #   /home/doom/End/Cave/Perl6/Wall/raku-study/t/01-PlusMine.t
