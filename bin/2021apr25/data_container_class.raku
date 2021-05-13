@@ -35,7 +35,6 @@ class MyRow {
 #    submethod BUILD( :$state, :$area ) {  ## could write a build to accept looks-like-number strings
 
     submethod TWEAK {  ## emacs jargon would be "an after hook"
-        
          $!state = $!state.uc;
      }
 
