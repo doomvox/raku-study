@@ -1,6 +1,6 @@
 #!/usr/bin/env perl6
 # 
-# william_michels_code_analog_of_rlan_named_vector.raku            18 Apr 2021 
+# william_michels_code_analog_of_rlang_named_vector.raku            18 Apr 2021 
 
 use v6;
 
