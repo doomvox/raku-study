@@ -24,7 +24,6 @@ ssh-keygen -t rsa
          IdentityFile /home/doom/.ssh/id_rsa
 #+END_SRC
 
-
 **** go to the "Code" button near the right, click for the drop-down
 **** with the SSH tab selected (the default) you'll see:
 #+BEGIN_SRC sh
