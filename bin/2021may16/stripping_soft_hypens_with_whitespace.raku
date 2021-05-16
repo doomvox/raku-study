@@ -28,7 +28,7 @@ say $text_no_gs;
 # raku -e 'say .trans("\c[SOFT HYPHEN]" => "") for lines()' 
 # raku -e 'say .trans("\c[SOFT HYPHEN]" => "").chars for lines();' 
 
-raku -e 'say .trans("\c[SOFT HYPHEN]" => "").trans("\s" => "").chars for lines();' 
+# raku -e 'say .trans("\c[SOFT HYPHEN]" => "").trans("\s" => "").chars for lines();' 
 
 
 
