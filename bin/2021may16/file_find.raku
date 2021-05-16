@@ -25,7 +25,7 @@ for @monsters -> $name {
 
 
 my @check = dir( $loc ).sort;
-say @check[0..2].join("\n");
+say @check[0..2];
   # /home/doom/tmp/grep_me/blob
   # /home/doom/tmp/grep_me/dracula
   # /home/doom/tmp/grep_me/godzilla
