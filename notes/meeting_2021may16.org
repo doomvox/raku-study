@@ -46,7 +46,8 @@ partitioning, not gpt.  1gig unencrypted boot partition.
 overprovisioning, a couple of different devices-- image on usb
 flash drive.
 
-
+samsung gb ssd performed better than usb drives, dram cache
+burn up a sata slot.
 
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 
