@@ -12,13 +12,13 @@ for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
 {
-my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
-
     my $new_loc = "$loc/the_depths";
     mkdir( $new_loc );
     chdir( $new_loc );
+    my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
     for @monsters -> $name {
-        $name.IO.spurt("The $name attacks from the depths!");
+        my $num = @numbers.pop;
+        $name.IO.spurt("The $name attacks from the depths!\n$num\n");
     }
     chdir( $loc );
 }
