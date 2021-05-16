@@ -11,17 +11,17 @@ my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
 for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
-{
-    my $new_loc = "$loc/the_depths";
-    mkdir( $new_loc );
-    chdir( $new_loc );
-    my @numbers  = < wuhn tew thuree foah fahv sex sevhun hate >;
-    for @monsters -> $name {
-        my $num = @numbers.pop;
-        $name.IO.spurt("The $name attacks from the depths!\n$num\n");
-    }
-    chdir( $loc );
-}
+# {
+#     my $new_loc = "$loc/the_depths";
+#     mkdir( $new_loc );
+#     chdir( $new_loc );
+#     my @numbers  = < wuhn tew thuree foah fahv sex sevhun hate >;
+#     for @monsters -> $name {
+#         my $num = @numbers.pop;
+#         $name.IO.spurt("The $name attacks from the depths!\n$num\n");
+#     }
+#     chdir( $loc );
+# }
 
 my @check = dir( $loc );
 say @check.join("\n");
