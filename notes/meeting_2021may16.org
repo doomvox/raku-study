@@ -32,6 +32,11 @@ upgrades, two 8gb, 16gb, dual channel memory.  good for
 virtualization.  SSD sata drive bay (sata two or three?)
 nvidia optimus (two graphics spliced together) 
 debian version 7 wouldn't boot, video issues.  eventually fixed.
+put win7 pro on it for awhile, support yanked 1.5 
+new used laptop win10
+debian 10 was n.g. sam video problem
+debian 9 needed some point revisions to get there 
+interested in debian 10, may have it fixed
 
 
 
