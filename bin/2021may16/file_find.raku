@@ -6,6 +6,7 @@ use v6;
 
 my $loc = '/home/doom/tmp/grep_me';
 
+my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
 
 
 
