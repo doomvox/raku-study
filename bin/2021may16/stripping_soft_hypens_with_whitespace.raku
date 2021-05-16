@@ -13,6 +13,7 @@ Hy­ phen ­ation";
 my $text_no_ws = $text;
 my $text_no_gs = $text;
 
+say "===";
 $text_no_ws ~~ s:g/\w//;
 say $text_no_ws;
 
