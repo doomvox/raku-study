@@ -32,6 +32,7 @@ use File::Find;
 ##  # Type check failed in binding; expected Positional but got Seq ((IO::Path.new("/home...)
 
 my $list = find( dir => $loc );  
-say $list;
+ $list>>.say;
+
 say ( $list.sort )[0..2];
 # ("/home/doom/tmp/grep_me/blob".IO "/home/doom/tmp/grep_me/dracula".IO "/home/doom/tmp/grep_me/godzilla".IO)
