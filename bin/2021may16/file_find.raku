@@ -54,4 +54,5 @@ for @monsters -> $name {
 
 {
     mkdir("$new_loc/yaddah/yaddah/yaddah");
+    say "still here?";
 }
