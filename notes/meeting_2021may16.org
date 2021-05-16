@@ -28,8 +28,9 @@
 *** debian sysadmin issue (david christensen)
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 
-*** bill one-liner attempt, removing hyphens
+*** bill one-liner attempt, removing soft hyphens
 https://practicaltypography.com/hyphenation.html 
+00AD;SOFT HYPHEN;Cf;0;BN;;;;;N;;;;;
 
 
 ** ongoing

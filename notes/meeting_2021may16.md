@@ -1,50 +1,50 @@
-- [meeting notes May 16, 2021](#org86faa7d)
-  - [agenda stuff](#org8ff7cea)
-    - [writing grep variants](#org793fbf9)
-    - [raku classes as data containers](#org2ee699c)
-    - [bruce gray rosettacode entries](#org89707ec)
-    - [argument passing signatures](#org0b4e398)
-    - [super flat](#orgbb8f718)
-    - [type system: what is accepted by what](#org852f2bb)
-    - [debian sysadmin issue (david christensen)](#org5351677)
-    - [higher-order programming as a substitute for macros (perl5)  (david christensen)](#org3129833)
-    - [bill one-liner attempt, removing hyphens](#org104520b)
-  - [ongoing](#orgd02b173)
-    - [programming in the large (david christensen)](#orgc9b0634)
-    - [raku idioms](#org1703173)
-  - [appendix: the usual links](#orgc680368)
-    - [code examples](#org1c7c4e6)
-    - [meeting notes (material from this file)](#org683a86c)
-    - [SF Perl page, has links to mailing list](#org476d9fc)
-    - [perl6-users mailing list archive](#org0f49b49)
-  - [bits](#orgf5c5597)
+- [meeting notes May 16, 2021](#orgaf736c3)
+  - [agenda stuff](#orge3bcfaf)
+    - [writing grep variants](#org2ed0f52)
+    - [raku classes as data containers](#org0330657)
+    - [bruce gray rosettacode entries](#orge1ca579)
+    - [argument passing signatures](#orga11e9d7)
+    - [super flat](#orgaac0bfe)
+    - [type system: what is accepted by what](#orgeb53071)
+    - [debian sysadmin issue (david christensen)](#orgcc4c2be)
+    - [higher-order programming as a substitute for macros (perl5)  (david christensen)](#org7cf9808)
+    - [bill one-liner attempt, removing soft hyphens](#orgc73e0bf)
+  - [ongoing](#org4229768)
+    - [programming in the large (david christensen)](#orgcb9f80b)
+    - [raku idioms](#orge0cfa3c)
+  - [appendix: the usual links](#orgdbc4996)
+    - [code examples](#org790dbea)
+    - [meeting notes (material from this file)](#orgc20b4df)
+    - [SF Perl page, has links to mailing list](#org1a58e2b)
+    - [perl6-users mailing list archive](#orgc877b69)
+  - [bits](#orgbf9ca85)
 
 
-<a id="org86faa7d"></a>
+<a id="orgaf736c3"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org8ff7cea"></a>
+<a id="orge3bcfaf"></a>
 
 ## agenda stuff
 
 
-<a id="org793fbf9"></a>
+<a id="org2ed0f52"></a>
 
 ### writing grep variants
 
 1.  my first attempt: /home/doom/End/Cave/DoomfileTools/bin/df<sub>grep.raku</sub>
 
 
-<a id="org2ee699c"></a>
+<a id="org0330657"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org89707ec"></a>
+<a id="orge1ca579"></a>
 
 ### bruce gray rosettacode entries
 
@@ -53,7 +53,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org0b4e398"></a>
+<a id="orga11e9d7"></a>
 
 ### argument passing signatures
 
@@ -62,7 +62,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="orgbb8f718"></a>
+<a id="orgaac0bfe"></a>
 
 ### super flat
 
@@ -79,7 +79,7 @@
         "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
 
 
-<a id="org852f2bb"></a>
+<a id="orgeb53071"></a>
 
 ### type system: what is accepted by what
 
@@ -88,29 +88,29 @@
     1.  when can you Cool
 
 
-<a id="org5351677"></a>
+<a id="orgcc4c2be"></a>
 
 ### debian sysadmin issue (david christensen)
 
 
-<a id="org3129833"></a>
+<a id="org7cf9808"></a>
 
 ### higher-order programming as a substitute for macros (perl5)  (david christensen)
 
 
-<a id="org104520b"></a>
+<a id="orgc73e0bf"></a>
 
-### bill one-liner attempt, removing hyphens
+### bill one-liner attempt, removing soft hyphens
 
-<https://practicaltypography.com/hyphenation.html>
+<https://practicaltypography.com/hyphenation.html> 00AD;SOFT HYPHEN;Cf;0;BN;;;;;N;;;;;
 
 
-<a id="orgd02b173"></a>
+<a id="org4229768"></a>
 
 ## ongoing
 
 
-<a id="orgc9b0634"></a>
+<a id="orgcb9f80b"></a>
 
 ### programming in the large (david christensen)
 
@@ -119,7 +119,7 @@
 2.  raku die handlers
 
 
-<a id="org1703173"></a>
+<a id="orge0cfa3c"></a>
 
 ### raku idioms
 
@@ -130,40 +130,40 @@
     2.  maybe: favor methods over functions?
 
 
-<a id="orgc680368"></a>
+<a id="orgdbc4996"></a>
 
 ## appendix: the usual links
 
 
-<a id="org1c7c4e6"></a>
+<a id="org790dbea"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may16>
 
 
-<a id="org683a86c"></a>
+<a id="orgc20b4df"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may16.md>
 
 
-<a id="org476d9fc"></a>
+<a id="org1a58e2b"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="org0f49b49"></a>
+<a id="orgc877b69"></a>
 
 ### perl6-users mailing list archive
 
 <https://www.nntp.perl.org/group/perl.perl6.users/>
 
 
-<a id="orgf5c5597"></a>
+<a id="orgbf9ca85"></a>
 
 ## bits
 
