@@ -45,7 +45,7 @@ my $new_loc = "$loc/the_depths";
     for @list -> $f {
         my @hits = 
           $f.lines.grep: /:i whun/;
-        say @hits;
+        say @hits if @hits;;
     }
 
 }
