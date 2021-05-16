@@ -33,3 +33,5 @@ use File::Find;
 
 my $list = find(dir => $loc);  
 say $list;
+
+say ($list.sort)[0..2];
