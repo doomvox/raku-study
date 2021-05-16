@@ -13,7 +13,7 @@ for @monsters -> $name {
 }
 {
     my $new_loc = "$loc/the_depths";
-    mkdir( $new_loc );
+    mkdir( $new_loc );   ## no error if exists already 
     chdir( $new_loc );
     my @numbers  = <wuhn tew thuree foah fahv sex sevhun hate>;
     for @monsters -> $name {
