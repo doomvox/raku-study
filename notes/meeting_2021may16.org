@@ -11,8 +11,9 @@
 *** raku classes as data containers
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
 *** super flat
-https://stackoverflow.com/questions/67515479/what-is-a-simple-and-elegant-way-to-flatten-lists-or-arrays-of-arbitrary-depths
-https://stackoverflow.com/questions/41648119/how-can-i-completely-flatten-a-list-of-lists-of-lists
+**** https://stackoverflow.com/questions/67515479/what-is-a-simple-and-elegant-way-to-flatten-lists-or-arrays-of-arbitrary-depths
+**** https://stackoverflow.com/questions/41648119/how-can-i-completely-flatten-a-list-of-lists-of-lists
+**** https://en.wikipedia.org/wiki/Superflat
 *** type system: what is accepted by what  
 **** is anything ever cast automatically
 ***** when can you Cool

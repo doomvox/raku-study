@@ -1,39 +1,39 @@
-- [meeting notes May 16, 2021](#org859df4f)
-  - [agenda stuff](#org48c71de)
-    - [writing grep variants](#orga0bebf6)
-    - [bruce gray rosettacode entries](#orgcbfe804)
-    - [argument passing signatures](#org235e2b8)
-    - [raku classes as data containers](#orgd6ff4dc)
-    - [super flat](#orgae34944)
-    - [type system: what is accepted by what](#orge1f20c0)
-  - [ongoing](#org0662b66)
-    - [programming in the large (david christensen)](#org040b685)
-    - [raku idioms](#org19eb057)
-  - [appendix: the usual links](#org8d3712a)
-    - [code examples](#org5764269)
-    - [meeting notes (material from this file)](#org768a411)
-    - [SF Perl page, has links to mailing list](#orgb82e0e0)
-    - [perl6-users mailing list archive](#org6a5af49)
+- [meeting notes May 16, 2021](#org8bb66b6)
+  - [agenda stuff](#org403d302)
+    - [writing grep variants](#orga83a1a2)
+    - [bruce gray rosettacode entries](#orga07ea80)
+    - [argument passing signatures](#orge7bb411)
+    - [raku classes as data containers](#org24bc9d4)
+    - [super flat](#orgee317e4)
+    - [type system: what is accepted by what](#org8b3116a)
+  - [ongoing](#org475ac1a)
+    - [programming in the large (david christensen)](#orgf101d07)
+    - [raku idioms](#orgc591e27)
+  - [appendix: the usual links](#org3677f6f)
+    - [code examples](#orgf79c041)
+    - [meeting notes (material from this file)](#orgf316d33)
+    - [SF Perl page, has links to mailing list](#org1d9bbb3)
+    - [perl6-users mailing list archive](#org7a24096)
 
 
-<a id="org859df4f"></a>
+<a id="org8bb66b6"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org48c71de"></a>
+<a id="org403d302"></a>
 
 ## agenda stuff
 
 
-<a id="orga0bebf6"></a>
+<a id="orga83a1a2"></a>
 
 ### writing grep variants
 
 1.  my first attempt: /home/doom/End/Cave/DoomfileTools/bin/df<sub>grep.raku</sub>
 
 
-<a id="orgcbfe804"></a>
+<a id="orga07ea80"></a>
 
 ### bruce gray rosettacode entries
 
@@ -42,7 +42,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org235e2b8"></a>
+<a id="orge7bb411"></a>
 
 ### argument passing signatures
 
@@ -51,21 +51,25 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="orgd6ff4dc"></a>
+<a id="org24bc9d4"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="orgae34944"></a>
+<a id="orgee317e4"></a>
 
 ### super flat
 
-<https://stackoverflow.com/questions/67515479/what-is-a-simple-and-elegant-way-to-flatten-lists-or-arrays-of-arbitrary-depths> <https://stackoverflow.com/questions/41648119/how-can-i-completely-flatten-a-list-of-lists-of-lists>
+1.  <https://stackoverflow.com/questions/67515479/what-is-a-simple-and-elegant-way-to-flatten-lists-or-arrays-of-arbitrary-depths>
+
+2.  <https://stackoverflow.com/questions/41648119/how-can-i-completely-flatten-a-list-of-lists-of-lists>
+
+3.  <https://en.wikipedia.org/wiki/Superflat>
 
 
-<a id="orge1f20c0"></a>
+<a id="org8b3116a"></a>
 
 ### type system: what is accepted by what
 
@@ -74,12 +78,12 @@
     1.  when can you Cool
 
 
-<a id="org0662b66"></a>
+<a id="org475ac1a"></a>
 
 ## ongoing
 
 
-<a id="org040b685"></a>
+<a id="orgf101d07"></a>
 
 ### programming in the large (david christensen)
 
@@ -88,7 +92,7 @@
 2.  raku die handlers
 
 
-<a id="org19eb057"></a>
+<a id="orgc591e27"></a>
 
 ### raku idioms
 
@@ -99,33 +103,33 @@
     2.  maybe: favor methods over functions?
 
 
-<a id="org8d3712a"></a>
+<a id="org3677f6f"></a>
 
 ## appendix: the usual links
 
 
-<a id="org5764269"></a>
+<a id="orgf79c041"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may16>
 
 
-<a id="org768a411"></a>
+<a id="orgf316d33"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may16.md>
 
 
-<a id="orgb82e0e0"></a>
+<a id="org1d9bbb3"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="org6a5af49"></a>
+<a id="org7a24096"></a>
 
 ### perl6-users mailing list archive
 
