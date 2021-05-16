@@ -12,7 +12,7 @@ for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
 
-my @check = dirs( $loc );
+my @check = dir( $loc );
 
 say @check.join("\n");
 
