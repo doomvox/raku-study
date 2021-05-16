@@ -39,8 +39,6 @@ my $list = find( dir => $loc, type => 'file' );
 # say ( $list.sort )[0..2];
 # # ("/home/doom/tmp/grep_me/blob".IO "/home/doom/tmp/grep_me/dracula".IO "/home/doom/tmp/grep_me/godzilla".IO)
 
-
-
 # sub find (:$dir!,
 #            :$name,                             # regex is smartmatched against full path
 #            :$type,                             # 'file' 'dir' 'symlink'
