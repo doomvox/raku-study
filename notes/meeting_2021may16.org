@@ -1,6 +1,6 @@
 * meeting notes May 16, 2021
 ** agenda stuff
-*** grep variants
+*** writing grep variants
 *** bruce gray rosettacode entries
 **** http://rosettacode.org/wiki/Coprime_triplets#Raku
 **** https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
