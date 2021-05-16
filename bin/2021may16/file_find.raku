@@ -14,6 +14,7 @@ for @monsters -> $name {
 
 my @check = dirs( $loc );
 
+say @check.join("\n");
 
 # ====
 #  sheet of cheats
