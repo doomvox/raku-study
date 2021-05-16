@@ -30,8 +30,7 @@
 
 *** bill one-liner attempt, removing soft hyphens
 https://practicaltypography.com/hyphenation.html 
-00AD;SOFT HYPHEN;Cf;0;BN;;;;;N;;;;;
-
+## 00AD;SOFT HYPHEN;Cf;0;BN;;;;;N;;;;;
 
 ** ongoing
 *** programming in the large (david christensen)
