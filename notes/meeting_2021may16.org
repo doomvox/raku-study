@@ -53,6 +53,9 @@ seperate version control server can help.
 
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 
+predicate functions, "is_string" etc.
+
+
 *** bill one-liner attempt, removing soft hyphens
 https://practicaltypography.com/hyphenation.html 
 ## 00AD;SOFT HYPHEN;Cf;0;BN;;;;;N;;;;;
