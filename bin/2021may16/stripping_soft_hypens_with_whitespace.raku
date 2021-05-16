@@ -19,6 +19,10 @@ say $text_no_ws;
 $text_no_gs ~~ s:g/<[\w\x[00ad]]>//;
 say $text_no_gs;
 
+# bg approach, using .trans:
+# raku -e 'say .trans("\c[SOFT HYPHEN]" => "") for lines()' 
+# raku -e 'say .trans("\c[SOFT HYPHEN]" => "").chars for lines();' 
+
 
 
 # ====
