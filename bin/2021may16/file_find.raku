@@ -26,7 +26,9 @@ for @monsters -> $name {
 my @check = dir( $loc ).sort;
 say @check[0..2];
   # ("/home/doom/tmp/grep_me/blob".IO "/home/doom/tmp/grep_me/dracula".IO "/home/doom/tmp/grep_me/godzilla".IO)
+@check>>.say;
 
+say "===";
 use File::Find;
 ## my @list := find(dir => $loc);  
 ##  # Type check failed in binding; expected Positional but got Seq ((IO::Path.new("/home...)
