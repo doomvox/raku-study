@@ -38,8 +38,6 @@ debian 10 was n.g. sam video problem
 debian 9 needed some point revisions to get there 
 interested in debian 10, may have it fixed
 
-
-
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 
 *** bill one-liner attempt, removing soft hyphens
