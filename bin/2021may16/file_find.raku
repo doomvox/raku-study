@@ -24,7 +24,7 @@ for @monsters -> $name {
 # }
 
 my @check = dir( $loc );
-say @check.join("\n");
+say @check[0..2].join("\n");
 
 
 
