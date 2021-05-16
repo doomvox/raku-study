@@ -8,7 +8,7 @@ use v6;
 # https://stackoverflow.com/questions/67373726/why-are-empty-raku-shaped-arrays-truthy
 #  "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
 
-
+## check chat, bg has his solution using .none
 
 
 
