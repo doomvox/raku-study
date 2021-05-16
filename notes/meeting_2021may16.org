@@ -26,7 +26,7 @@
 **** is anything ever cast automatically
 ***** when can you Cool
 
-*** debian sysadmin issue (david christensen)
+*** david christensen talked about a few debian sysadmin issues
 dell two slots 4gb, certain dells have quiet motherboard
 upgrades, two 8gb, 16gb, dual channel memory.  good for
 virtualization.  SSD sata drive bay (sata two or three?)
