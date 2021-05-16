@@ -32,6 +32,7 @@ say $text_no_gs;
 
 
 
+
 # ====
 #  sheet of cheats
 
