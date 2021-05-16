@@ -53,9 +53,8 @@ my $new_loc = "$loc/the_depths";
 
 
     for $list -> $f {
-        $f.lines.grep: /:iwhun/
-
-        }
+        $f.lines.grep: /:i whun/
+    }
 
 
 
