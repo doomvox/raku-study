@@ -50,10 +50,17 @@ my $new_loc = "$loc/the_depths";
 
     # Q: on exclude, could I use an "all" intermixing IO objects and regexs?
     #    or, just use regexs to start with, since I'm not using windows...
+
+
+    for $list -> $f {
+        $f.lines.grep: i:/whun/
+
+        }
+
+
+
+
 }
-
-
-
 
 {
     mkdir("$new_loc/yaddah/yaddah/yaddah");   ## creates intermediate directories without complaint (correct behavior?)
