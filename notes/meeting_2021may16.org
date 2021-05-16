@@ -29,6 +29,7 @@
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 
 *** bill one-liner attempt, removing hyphens
+https://practicaltypography.com/hyphenation.html 
 
 
 ** ongoing
