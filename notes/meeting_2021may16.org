@@ -16,12 +16,12 @@
 **** https://en.wikipedia.org/wiki/Superflat
 **** a job for flat?
 ***** https://stackoverflow.com/questions/67373726/why-are-empty-raku-shaped-arrays-truthy
-"As a follow up, I wonder if a good way to test "all elements are undefined" is @shaped-array.any.so ???"
-
+"As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
 
 *** type system: what is accepted by what  
 **** is anything ever cast automatically
 ***** when can you Cool
+
 ** ongoing
 *** programming in the large (david christensen)
 **** larger applications
