@@ -6,6 +6,7 @@
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
 
 *** bruce gray rosettacode entries
+**** http://rosettacode.org/wiki/Barnsley_fern#Raku 
 **** http://rosettacode.org/wiki/Coprime_triplets#Raku
 **** https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
 
