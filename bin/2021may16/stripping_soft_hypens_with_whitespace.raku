@@ -11,10 +11,11 @@ In jus­ti­fied text, hy­phen­ation is mandatory.
 Hy­ phen ­ation";
 
 my $text_no_ws = $text;
+my $text_no_gs = $text;
 
-$text ~~ s/:g \w//;
+$text_no_ws ~~ s/:g \w//;
 
-
+say $text_no_ws;
 
 
 
