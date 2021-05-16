@@ -40,6 +40,7 @@ interested in debian 10, may have it fixed
 (I'm planning on 10.9).
 bg: bumblebee?  david: no.  
 
+
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 
 *** bill one-liner attempt, removing soft hyphens
