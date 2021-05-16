@@ -15,6 +15,7 @@
 ** ongoing
 *** programming in the large (david christensen)
 **** larger applications
+**** raku die handlers
 *** raku idioms
 **** https://github.com/doomvox/raku-study/blob/main/notes/idioms.org
 ***** https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/

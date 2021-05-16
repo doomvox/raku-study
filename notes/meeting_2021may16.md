@@ -1,36 +1,36 @@
-- [meeting notes May 16, 2021](#orgf37695b)
-  - [agenda stuff](#orgd60ee7a)
-    - [writing grep variants](#org872ad48)
-    - [bruce gray rosettacode entries](#orge6e512a)
-    - [argument passing signatures](#org2fbe495)
-    - [raku classes as data containers](#org31c4d1a)
-    - [type system: what is accepted by what  (skipped)](#org4c27dea)
-  - [ongoing](#orga1b9b92)
-    - [programming in the large (david christensen)](#orgffcf4dc)
-    - [raku idioms](#org478e05e)
-  - [appendix: the usual links](#org8ac9040)
-    - [code examples](#org4fe4f60)
-    - [meeting notes (material from this file)](#org4585562)
-    - [SF Perl page, has links to mailing list](#org4fddc1c)
-    - [perl6-users mailing list archive](#org47aa752)
+- [meeting notes May 16, 2021](#org627da49)
+  - [agenda stuff](#org98ba5a0)
+    - [writing grep variants](#org73bcaef)
+    - [bruce gray rosettacode entries](#orgf730099)
+    - [argument passing signatures](#orgad6ebeb)
+    - [raku classes as data containers](#orgb91828b)
+    - [type system: what is accepted by what  (skipped)](#orgc5ed19c)
+  - [ongoing](#orga91f7ed)
+    - [programming in the large (david christensen)](#org62fb515)
+    - [raku idioms](#org859924b)
+  - [appendix: the usual links](#org43dff7b)
+    - [code examples](#org6c44f93)
+    - [meeting notes (material from this file)](#org04fdb5e)
+    - [SF Perl page, has links to mailing list](#org32d13b2)
+    - [perl6-users mailing list archive](#orga6b3775)
 
 
-<a id="orgf37695b"></a>
+<a id="org627da49"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="orgd60ee7a"></a>
+<a id="org98ba5a0"></a>
 
 ## agenda stuff
 
 
-<a id="org872ad48"></a>
+<a id="org73bcaef"></a>
 
 ### writing grep variants
 
 
-<a id="orge6e512a"></a>
+<a id="orgf730099"></a>
 
 ### bruce gray rosettacode entries
 
@@ -39,7 +39,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org2fbe495"></a>
+<a id="orgad6ebeb"></a>
 
 ### argument passing signatures
 
@@ -48,33 +48,35 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="org31c4d1a"></a>
+<a id="orgb91828b"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org4c27dea"></a>
+<a id="orgc5ed19c"></a>
 
 ### type system: what is accepted by what  (skipped)
 
 1.  is anything ever cast automatically
 
 
-<a id="orga1b9b92"></a>
+<a id="orga91f7ed"></a>
 
 ## ongoing
 
 
-<a id="orgffcf4dc"></a>
+<a id="org62fb515"></a>
 
 ### programming in the large (david christensen)
 
 1.  larger applications
 
+2.  raku die handlers
 
-<a id="org478e05e"></a>
+
+<a id="org859924b"></a>
 
 ### raku idioms
 
@@ -85,33 +87,33 @@
     2.  maybe: favor methods over functions?
 
 
-<a id="org8ac9040"></a>
+<a id="org43dff7b"></a>
 
 ## appendix: the usual links
 
 
-<a id="org4fe4f60"></a>
+<a id="org6c44f93"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may16>
 
 
-<a id="org4585562"></a>
+<a id="org04fdb5e"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may16.md>
 
 
-<a id="org4fddc1c"></a>
+<a id="org32d13b2"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="org47aa752"></a>
+<a id="orga6b3775"></a>
 
 ### perl6-users mailing list archive
 
