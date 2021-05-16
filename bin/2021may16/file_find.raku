@@ -47,7 +47,7 @@ my $new_loc = "$loc/the_depths";
         my @hits = 
           $f.lines.grep: /:i godzilla/;
 
-        .say; # Q: what's in $_
+        # .say; # Q: what's in $_  # (Any)
 
         say @hits if @hits;
     }
