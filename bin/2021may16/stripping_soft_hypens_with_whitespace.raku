@@ -14,9 +14,9 @@ my $text_no_ws = $text;
 my $text_no_gs = $text;
 
 $text_no_ws ~~ s/:g \w//;
-
 say $text_no_ws;
 
+$text_no_ws ~~ s/:g <[\w\x{00ad}]>//;
 
 
 # ====
