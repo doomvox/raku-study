@@ -31,7 +31,7 @@ use File::Find;
 ## my @list := find(dir => $loc);  
 ##  # Type check failed in binding; expected Positional but got Seq ((IO::Path.new("/home...)
 
-my $list = find(dir => $loc);  
+my $list = find( dir => $loc );  
 say $list;
 
 say ( $list.sort )[0..2];
