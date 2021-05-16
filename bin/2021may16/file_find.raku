@@ -23,7 +23,7 @@ for @monsters -> $name {
 #     chdir( $loc );
 # }
 
-my @check = dir( $loc );
+my @check = dir( $loc ).sort;
 say @check[0..2].join("\n");
 
 
