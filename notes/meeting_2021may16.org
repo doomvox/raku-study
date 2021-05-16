@@ -55,7 +55,6 @@ seperate version control server can help.
 
 predicate functions, "is_string" etc.
 
-
 *** bill one-liner attempt, removing soft hyphens
 https://practicaltypography.com/hyphenation.html 
 ## 00AD;SOFT HYPHEN;Cf;0;BN;;;;;N;;;;;
