@@ -57,3 +57,7 @@ my $new_loc = "$loc/the_depths";
     mkdir("$new_loc/yaddah/yaddah/yaddah");   ## creates intermediate directories without complaint (correct behavior?)
     say "still here?";
 }
+
+{
+    mkdir("$new_loc");  
+}
