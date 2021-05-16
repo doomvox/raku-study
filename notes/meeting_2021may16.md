@@ -1,39 +1,39 @@
-- [meeting notes May 16, 2021](#orga8a83d5)
-  - [agenda stuff](#org67e38a3)
-    - [writing grep variants](#org8bab1f8)
-    - [bruce gray rosettacode entries](#orgb1bd70c)
-    - [argument passing signatures](#orga16b558)
-    - [raku classes as data containers](#org7e6f7b2)
-    - [super flat](#org0db614a)
-    - [type system: what is accepted by what](#orge491ac3)
-  - [ongoing](#org9e8c196)
-    - [programming in the large (david christensen)](#org410d3fe)
-    - [raku idioms](#orgc89a550)
-  - [appendix: the usual links](#org298d86b)
-    - [code examples](#org42e9d5d)
-    - [meeting notes (material from this file)](#orgb07ab73)
-    - [SF Perl page, has links to mailing list](#orgdbafb93)
-    - [perl6-users mailing list archive](#org86e3ba0)
+- [meeting notes May 16, 2021](#org261dfab)
+  - [agenda stuff](#orgf60aa48)
+    - [writing grep variants](#orgb3cd4c7)
+    - [bruce gray rosettacode entries](#org206ee67)
+    - [argument passing signatures](#orgd6b3bf1)
+    - [raku classes as data containers](#orgb89c94e)
+    - [super flat](#org7a85c59)
+    - [type system: what is accepted by what](#org1e16ba6)
+  - [ongoing](#org25c5824)
+    - [programming in the large (david christensen)](#orgea08f4e)
+    - [raku idioms](#org833393e)
+  - [appendix: the usual links](#org4f37588)
+    - [code examples](#orgc0e7623)
+    - [meeting notes (material from this file)](#orgca31f5b)
+    - [SF Perl page, has links to mailing list](#orgef1795e)
+    - [perl6-users mailing list archive](#org4837107)
 
 
-<a id="orga8a83d5"></a>
+<a id="org261dfab"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org67e38a3"></a>
+<a id="orgf60aa48"></a>
 
 ## agenda stuff
 
 
-<a id="org8bab1f8"></a>
+<a id="orgb3cd4c7"></a>
 
 ### writing grep variants
 
 1.  my first attempt: /home/doom/End/Cave/DoomfileTools/bin/df<sub>grep.raku</sub>
 
 
-<a id="orgb1bd70c"></a>
+<a id="org206ee67"></a>
 
 ### bruce gray rosettacode entries
 
@@ -42,7 +42,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="orga16b558"></a>
+<a id="orgd6b3bf1"></a>
 
 ### argument passing signatures
 
@@ -51,14 +51,14 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="org7e6f7b2"></a>
+<a id="orgb89c94e"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org0db614a"></a>
+<a id="org7a85c59"></a>
 
 ### super flat
 
@@ -75,7 +75,7 @@
         "As a follow up, I wonder if a good way to test "all elements are undefined" is @shaped-array.any.so ???"
 
 
-<a id="orge491ac3"></a>
+<a id="org1e16ba6"></a>
 
 ### type system: what is accepted by what
 
@@ -84,12 +84,12 @@
     1.  when can you Cool
 
 
-<a id="org9e8c196"></a>
+<a id="org25c5824"></a>
 
 ## ongoing
 
 
-<a id="org410d3fe"></a>
+<a id="orgea08f4e"></a>
 
 ### programming in the large (david christensen)
 
@@ -98,7 +98,7 @@
 2.  raku die handlers
 
 
-<a id="orgc89a550"></a>
+<a id="org833393e"></a>
 
 ### raku idioms
 
@@ -109,33 +109,33 @@
     2.  maybe: favor methods over functions?
 
 
-<a id="org298d86b"></a>
+<a id="org4f37588"></a>
 
 ## appendix: the usual links
 
 
-<a id="org42e9d5d"></a>
+<a id="orgc0e7623"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may16>
 
 
-<a id="orgb07ab73"></a>
+<a id="orgca31f5b"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may16.md>
 
 
-<a id="orgdbafb93"></a>
+<a id="orgef1795e"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="org86e3ba0"></a>
+<a id="org4837107"></a>
 
 ### perl6-users mailing list archive
 
