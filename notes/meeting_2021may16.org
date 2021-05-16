@@ -10,9 +10,9 @@
 **** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing_named_args_and_positional_ones.raku
 *** raku classes as data containers
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
-*** type system: what is accepted by what  (skipped)
+*** type system: what is accepted by what  
 **** is anything ever cast automatically
-
+***** when can you Cool
 ** ongoing
 *** programming in the large (david christensen)
 **** larger applications
