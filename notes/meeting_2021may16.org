@@ -44,7 +44,6 @@ intel model 520 ssds  enterprise desktop drive, sata 3,
 self-encrypting (?), on linux uses dm-crypt for swap, nbr
 partitioning, not gpt.  1gig unencrypted boot partition.
 
-
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 
 *** bill one-liner attempt, removing soft hyphens
