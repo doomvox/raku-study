@@ -16,10 +16,13 @@ my $text_no_gs = $text;
 say "===";
 $text_no_ws ~~ s:g/\s//;
 say $text_no_ws;
+# Hy­phen­ationistheau­to­matedprocessofbreak­ingwordsbe­tweenlinestocre­atemorecon­sis­tencyacrossatextblock.Injus­ti­fiedtext,hy­phen­ationismandatory.Hy­phen­ation
+
 
 say "===";
 $text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
 say $text_no_gs;
+# Hyphenationistheautomatedprocessofbreakingwordsbetweenlinestocreatemoreconsistencyacrossatextblock.Injustifiedtext,hyphenationismandatory.Hyphenation
 
 # bg approach, using .trans:
 # raku -e 'say .trans("\c[SOFT HYPHEN]" => "") for lines()' 
