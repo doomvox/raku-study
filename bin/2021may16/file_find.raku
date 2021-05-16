@@ -12,7 +12,7 @@ for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
 
-    my $new_loc = "$loc/the_depths";
+my $new_loc = "$loc/the_depths";
 {
     mkdir( $new_loc );   ## no error if exists already  (could be a bug, actually?)
     chdir( $new_loc );
