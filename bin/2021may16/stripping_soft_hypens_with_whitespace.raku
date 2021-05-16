@@ -10,7 +10,7 @@ my $text =
 In jus­ti­fied text, hy­phen­ation is mandatory. 
 Hy­ phen ­ation";
 
-
+$text ~~ s/:g \w//;
 
 
 
