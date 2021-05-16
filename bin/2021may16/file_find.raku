@@ -12,6 +12,7 @@ for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
 
+my @check = dirs( $loc );
 
 
 # ====
