@@ -53,7 +53,7 @@ my $new_loc = "$loc/the_depths";
 
     my @files = $list>>.Str;
     
-    for $list -> $f {
+    for @files -> $f {
         my @hits = 
           $f.lines.grep: /:i whun/;
         say @hits;
