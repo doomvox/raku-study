@@ -47,3 +47,5 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 ** bits
 bg summarizes
 fosdem codesection langs for opensource  corporate backed typescript go java
+raku optimized in other ways
+
