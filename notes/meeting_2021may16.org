@@ -43,3 +43,7 @@ https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may16.md
 http://sf.pm.org/
 *** perl6-users mailing list archive
 https://www.nntp.perl.org/group/perl.perl6.users/
+
+** bits
+bg summarizes
+fosdem codesection langs for opensource  corporate backed typescript go java
