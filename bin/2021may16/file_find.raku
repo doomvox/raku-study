@@ -41,16 +41,6 @@ my $new_loc = "$loc/the_depths";
     # say ( $list.sort )[0..2];
     # # ("/home/doom/tmp/grep_me/blob".IO "/home/doom/tmp/grep_me/dracula".IO "/home/doom/tmp/grep_me/godzilla".IO)
 
-    # sub find (:$dir!,
-    #            :$name,                             # regex is smartmatched against full path
-    #            :$type,                             # 'file' 'dir' 'symlink'
-    #            :$exclude = False,                  # e.g. '.git', value smartmatched:  use a junction of IO objects (?)
-    #       Bool :$recursive = True,                 # recursive => False  to do one level, otherwise recurses
-    #       Bool :$keep-going = False) is export {   # keep-going => True  keep chugging on errors
-
-    # Q: on exclude, could I use an "all" intermixing IO objects and regexs?
-    #    or, just use regexs to start with, since I'm not using windows...
-
     my @files = $list>>.Str;
     # The iterator of this Seq is already in use/consumed by another Seq
 
@@ -70,3 +60,16 @@ my $new_loc = "$loc/the_depths";
 {
     mkdir("$new_loc");  
 }
+
+
+
+
+    # sub find (:$dir!,
+    #            :$name,                             # regex is smartmatched against full path
+    #            :$type,                             # 'file' 'dir' 'symlink'
+    #            :$exclude = False,                  # e.g. '.git', value smartmatched:  use a junction of IO objects (?)
+    #       Bool :$recursive = True,                 # recursive => False  to do one level, otherwise recurses
+    #       Bool :$keep-going = False) is export {   # keep-going => True  keep chugging on errors
+
+    # Q: on exclude, could I use an "all" intermixing IO objects and regexs?
+    #    or, just use regexs to start with, since I'm not using windows...
