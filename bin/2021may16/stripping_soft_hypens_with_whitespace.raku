@@ -19,6 +19,8 @@ say $text_no_ws;
 $text_no_gs ~~ s/:g <[\w\x{00ad}]>//;
 say $text_no_gs;
 
+
+
 # ====
 #  sheet of cheats
 
