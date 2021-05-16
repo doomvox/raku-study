@@ -41,10 +41,11 @@ my $new_loc = "$loc/the_depths";
     # say ( @list.sort )[0..2];
     # # ("/home/doom/tmp/grep_me/blob".IO "/home/doom/tmp/grep_me/dracula".IO "/home/doom/tmp/grep_me/godzilla".IO)
 
-    my @files = @list>>.Str;
+    # my @files = @list>>.Str;
     # The iterator of this Seq is already in use/consumed by another Seq
 
-    for @files -> $f {
+    # for @files -> $f {
+    for @list -> $f {
         my @hits = 
           $f.lines.grep: /:i whun/;
         say @hits;
