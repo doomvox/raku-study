@@ -39,6 +39,7 @@ debian 9 needed some point revisions to get there
 interested in debian 10, may have it fixed
 (I'm planning on 10.9).
 bg: bumblebee?  david: no.  
+https://wiki.debian.org/Bumblebee 
 
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 
