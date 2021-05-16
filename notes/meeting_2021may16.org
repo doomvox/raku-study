@@ -43,7 +43,8 @@ https://wiki.debian.org/Bumblebee
 intel model 520 ssds  enterprise desktop drive, sata 3,
 self-encrypting (?), on linux uses dm-crypt for swap, nbr
 partitioning, not gpt.  1gig unencrypted boot partition.
-overprovisioning 
+overprovisioning, a couple of different devices-- image on usb
+flash drive.
 
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 

@@ -1,50 +1,50 @@
-- [meeting notes May 16, 2021](#org006d7ce)
-  - [agenda stuff](#org0d56aef)
-    - [writing grep variants](#orgde7fd9c)
-    - [raku classes as data containers](#org5817e6a)
-    - [bruce gray rosettacode entries](#org70390fa)
-    - [argument passing signatures](#org6b09ae7)
-    - [super flat](#org9816706)
-    - [type system: what is accepted by what](#org5eef035)
-    - [debian sysadmin issue (david christensen)](#orgbb9cf6c)
-    - [higher-order programming as a substitute for macros (perl5)  (david christensen)](#orgc5fdd6b)
-    - [bill one-liner attempt, removing soft hyphens](#orgc832d45)
-  - [ongoing](#org56fad1d)
-    - [programming in the large (david christensen)](#org646e079)
-    - [raku idioms](#org053930e)
-  - [appendix: the usual links](#orgeeffe56)
-    - [code examples](#org7dcb17b)
-    - [meeting notes (material from this file)](#org573b212)
-    - [SF Perl page, has links to mailing list](#org0362ee2)
-    - [perl6-users mailing list archive](#org708c723)
-  - [bits](#orgf666534)
+- [meeting notes May 16, 2021](#orgb9088f8)
+  - [agenda stuff](#org927ff2a)
+    - [writing grep variants](#orgab92514)
+    - [raku classes as data containers](#orgfd095d3)
+    - [bruce gray rosettacode entries](#orgba0c32c)
+    - [argument passing signatures](#org51a7b50)
+    - [super flat](#orged5b464)
+    - [type system: what is accepted by what](#org71b1668)
+    - [debian sysadmin issue (david christensen)](#orgca70657)
+    - [higher-order programming as a substitute for macros (perl5)  (david christensen)](#orgf1a58cf)
+    - [bill one-liner attempt, removing soft hyphens](#org2e9c82b)
+  - [ongoing](#orgc9a338a)
+    - [programming in the large (david christensen)](#org9d3bd6b)
+    - [raku idioms](#org47e9db0)
+  - [appendix: the usual links](#org22fc899)
+    - [code examples](#org6312320)
+    - [meeting notes (material from this file)](#orgc4e90e4)
+    - [SF Perl page, has links to mailing list](#org34661ef)
+    - [perl6-users mailing list archive](#org7104d8c)
+  - [bits](#orgcc51b9a)
 
 
-<a id="org006d7ce"></a>
+<a id="orgb9088f8"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org0d56aef"></a>
+<a id="org927ff2a"></a>
 
 ## agenda stuff
 
 
-<a id="orgde7fd9c"></a>
+<a id="orgab92514"></a>
 
 ### writing grep variants
 
 1.  my first attempt: /home/doom/End/Cave/DoomfileTools/bin/df<sub>grep.raku</sub>
 
 
-<a id="org5817e6a"></a>
+<a id="orgfd095d3"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org70390fa"></a>
+<a id="orgba0c32c"></a>
 
 ### bruce gray rosettacode entries
 
@@ -55,7 +55,7 @@
 3.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org6b09ae7"></a>
+<a id="org51a7b50"></a>
 
 ### argument passing signatures
 
@@ -64,7 +64,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="org9816706"></a>
+<a id="orged5b464"></a>
 
 ### super flat
 
@@ -81,7 +81,7 @@
         "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
 
 
-<a id="org5eef035"></a>
+<a id="org71b1668"></a>
 
 ### type system: what is accepted by what
 
@@ -90,31 +90,31 @@
     1.  when can you Cool
 
 
-<a id="orgbb9cf6c"></a>
+<a id="orgca70657"></a>
 
 ### debian sysadmin issue (david christensen)
 
-dell two slots 4gb, certain dells have quiet motherboard upgrades, two 8gb, 16gb, dual channel memory. good for virtualization. SSD sata drive bay (sata two or three?) nvidia optimus (two graphics spliced together) debian version 7 wouldn't boot, video issues. eventually fixed. put win7 pro on it for awhile, support yanked 1.5 new used laptop win10 debian 10 was n.g. sam video problem debian 9 needed some point revisions to get there interested in debian 10, may have it fixed (I'm planning on 10.9). bg: bumblebee? david: no. <https://wiki.debian.org/Bumblebee> intel model 520 ssds enterprise desktop drive, sata 3, self-encrypting (?), on linux uses dm-crypt for swap, nbr partitioning, not gpt. 1gig unencrypted boot partition. overprovisioning
+dell two slots 4gb, certain dells have quiet motherboard upgrades, two 8gb, 16gb, dual channel memory. good for virtualization. SSD sata drive bay (sata two or three?) nvidia optimus (two graphics spliced together) debian version 7 wouldn't boot, video issues. eventually fixed. put win7 pro on it for awhile, support yanked 1.5 new used laptop win10 debian 10 was n.g. sam video problem debian 9 needed some point revisions to get there interested in debian 10, may have it fixed (I'm planning on 10.9). bg: bumblebee? david: no. <https://wiki.debian.org/Bumblebee> intel model 520 ssds enterprise desktop drive, sata 3, self-encrypting (?), on linux uses dm-crypt for swap, nbr partitioning, not gpt. 1gig unencrypted boot partition. overprovisioning, a couple of different devices&#x2013; image on usb flash drive.
 
 
-<a id="orgc5fdd6b"></a>
+<a id="orgf1a58cf"></a>
 
 ### higher-order programming as a substitute for macros (perl5)  (david christensen)
 
 
-<a id="orgc832d45"></a>
+<a id="org2e9c82b"></a>
 
 ### bill one-liner attempt, removing soft hyphens
 
 <https://practicaltypography.com/hyphenation.html> \\## 00AD;SOFT HYPHEN;Cf;0;BN;;;;;N;;;;;
 
 
-<a id="org56fad1d"></a>
+<a id="orgc9a338a"></a>
 
 ## ongoing
 
 
-<a id="org646e079"></a>
+<a id="org9d3bd6b"></a>
 
 ### programming in the large (david christensen)
 
@@ -123,7 +123,7 @@ dell two slots 4gb, certain dells have quiet motherboard upgrades, two 8gb, 16gb
 2.  raku die handlers
 
 
-<a id="org053930e"></a>
+<a id="org47e9db0"></a>
 
 ### raku idioms
 
@@ -134,40 +134,40 @@ dell two slots 4gb, certain dells have quiet motherboard upgrades, two 8gb, 16gb
     2.  maybe: favor methods over functions?
 
 
-<a id="orgeeffe56"></a>
+<a id="org22fc899"></a>
 
 ## appendix: the usual links
 
 
-<a id="org7dcb17b"></a>
+<a id="org6312320"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may16>
 
 
-<a id="org573b212"></a>
+<a id="orgc4e90e4"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may16.md>
 
 
-<a id="org0362ee2"></a>
+<a id="org34661ef"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="org708c723"></a>
+<a id="org7104d8c"></a>
 
 ### perl6-users mailing list archive
 
 <https://www.nntp.perl.org/group/perl.perl6.users/>
 
 
-<a id="orgf666534"></a>
+<a id="orgcc51b9a"></a>
 
 ## bits
 
