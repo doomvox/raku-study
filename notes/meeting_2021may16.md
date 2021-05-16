@@ -1,39 +1,41 @@
-- [meeting notes May 16, 2021](#org564fe51)
-  - [agenda stuff](#org5c164b2)
-    - [writing grep variants](#orge27f6b2)
-    - [bruce gray rosettacode entries](#orgdf4a729)
-    - [argument passing signatures](#orge744c91)
-    - [raku classes as data containers](#org1dff67f)
-    - [super flat](#orgb2fa8f1)
-    - [type system: what is accepted by what](#orga45b110)
-  - [ongoing](#org8ccdba7)
-    - [programming in the large (david christensen)](#org45de23c)
-    - [raku idioms](#org08eb1cb)
-  - [appendix: the usual links](#org0373636)
-    - [code examples](#org7962869)
-    - [meeting notes (material from this file)](#orga5cb8eb)
-    - [SF Perl page, has links to mailing list](#org2e61793)
-    - [perl6-users mailing list archive](#org9e05355)
+- [meeting notes May 16, 2021](#orgae718fe)
+  - [agenda stuff](#orgbd142d2)
+    - [writing grep variants](#org74b9d56)
+    - [bruce gray rosettacode entries](#org16c8ebc)
+    - [argument passing signatures](#orgc337aae)
+    - [raku classes as data containers](#org7d480ae)
+    - [super flat](#orgda4b3d5)
+    - [type system: what is accepted by what](#org01812d0)
+    - [debian sysadmin issue (david christensen)](#org64bf274)
+    - [higher-order programming as a substitute for macros (perl5)  (david christensen)](#orgbfe45cd)
+  - [ongoing](#org9cb0eeb)
+    - [programming in the large (david christensen)](#org08bd9bc)
+    - [raku idioms](#orgffcf4b4)
+  - [appendix: the usual links](#org654f947)
+    - [code examples](#org5b8d254)
+    - [meeting notes (material from this file)](#org0a51df8)
+    - [SF Perl page, has links to mailing list](#org9078e3b)
+    - [perl6-users mailing list archive](#org9736e4e)
 
 
-<a id="org564fe51"></a>
+<a id="orgae718fe"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org5c164b2"></a>
+<a id="orgbd142d2"></a>
 
 ## agenda stuff
 
 
-<a id="orge27f6b2"></a>
+<a id="org74b9d56"></a>
 
 ### writing grep variants
 
 1.  my first attempt: /home/doom/End/Cave/DoomfileTools/bin/df<sub>grep.raku</sub>
 
 
-<a id="orgdf4a729"></a>
+<a id="org16c8ebc"></a>
 
 ### bruce gray rosettacode entries
 
@@ -42,7 +44,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="orge744c91"></a>
+<a id="orgc337aae"></a>
 
 ### argument passing signatures
 
@@ -51,14 +53,14 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="org1dff67f"></a>
+<a id="org7d480ae"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="orgb2fa8f1"></a>
+<a id="orgda4b3d5"></a>
 
 ### super flat
 
@@ -75,7 +77,7 @@
         "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
 
 
-<a id="orga45b110"></a>
+<a id="org01812d0"></a>
 
 ### type system: what is accepted by what
 
@@ -84,12 +86,22 @@
     1.  when can you Cool
 
 
-<a id="org8ccdba7"></a>
+<a id="org64bf274"></a>
+
+### debian sysadmin issue (david christensen)
+
+
+<a id="orgbfe45cd"></a>
+
+### higher-order programming as a substitute for macros (perl5)  (david christensen)
+
+
+<a id="org9cb0eeb"></a>
 
 ## ongoing
 
 
-<a id="org45de23c"></a>
+<a id="org08bd9bc"></a>
 
 ### programming in the large (david christensen)
 
@@ -98,7 +110,7 @@
 2.  raku die handlers
 
 
-<a id="org08eb1cb"></a>
+<a id="orgffcf4b4"></a>
 
 ### raku idioms
 
@@ -109,33 +121,33 @@
     2.  maybe: favor methods over functions?
 
 
-<a id="org0373636"></a>
+<a id="org654f947"></a>
 
 ## appendix: the usual links
 
 
-<a id="org7962869"></a>
+<a id="org5b8d254"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may16>
 
 
-<a id="orga5cb8eb"></a>
+<a id="org0a51df8"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may16.md>
 
 
-<a id="org2e61793"></a>
+<a id="org9078e3b"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="org9e05355"></a>
+<a id="org9736e4e"></a>
 
 ### perl6-users mailing list archive
 
