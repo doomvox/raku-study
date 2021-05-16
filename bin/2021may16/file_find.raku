@@ -58,9 +58,6 @@ my $new_loc = "$loc/the_depths";
         say @hits;
     }
 
-
-
-
 }
 
 {
