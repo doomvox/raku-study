@@ -13,10 +13,10 @@ Hy­ phen ­ation";
 my $text_no_ws = $text;
 my $text_no_gs = $text;
 
-$text_no_ws ~~ s/:g \w//;
+$text_no_ws ~~ s/\w//;
 say $text_no_ws;
 
-$text_no_gs ~~ s/:g <[\w\x{00ad}]>//;
+$text_no_gs ~~ s/<[\w\x{00ad}]>//;
 say $text_no_gs;
 
 
