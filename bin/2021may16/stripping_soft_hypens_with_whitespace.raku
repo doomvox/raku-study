@@ -14,11 +14,11 @@ my $text_no_ws = $text;
 my $text_no_gs = $text;
 
 say "===";
-$text_no_ws ~~ s:g/\w//;
+$text_no_ws ~~ s:g/\s//;
 say $text_no_ws;
 
 say "===";
-$text_no_gs ~~ s:g/<[\w\x[00ad]]>//;
+$text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
 say $text_no_gs;
 
 # bg approach, using .trans:
