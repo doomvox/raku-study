@@ -23,11 +23,12 @@ for @monsters -> $name {
 #     chdir( $loc );
 # }
 
+
 my @check = dir( $loc ).sort;
 say @check[0..2].join("\n");
-# /home/doom/tmp/grep_me/blob
-# /home/doom/tmp/grep_me/dracula
-# /home/doom/tmp/grep_me/godzilla
+  # /home/doom/tmp/grep_me/blob
+  # /home/doom/tmp/grep_me/dracula
+  # /home/doom/tmp/grep_me/godzilla
 
 
 
