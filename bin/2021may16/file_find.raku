@@ -51,7 +51,8 @@ my $new_loc = "$loc/the_depths";
     # Q: on exclude, could I use an "all" intermixing IO objects and regexs?
     #    or, just use regexs to start with, since I'm not using windows...
 
-
+    my @files = $list>>.Str;
+    
     for $list -> $f {
         my @hits = 
           $f.lines.grep: /:i whun/;
