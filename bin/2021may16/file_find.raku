@@ -41,6 +41,7 @@ my $new_loc = "$loc/the_depths";
     # my @files = @list>>.Str;
     # The iterator of this Seq is already in use/consumed by another Seq
 
+    say "---";
     # for @files -> $f {
     for @list -> $f {
         my @hits = 
