@@ -23,7 +23,6 @@
 ***** when can you Cool
 
 *** debian sysadmin issue (david christensen)
-
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 
 ** ongoing

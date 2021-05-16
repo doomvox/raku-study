@@ -1,41 +1,41 @@
-- [meeting notes May 16, 2021](#orgae718fe)
-  - [agenda stuff](#orgbd142d2)
-    - [writing grep variants](#org74b9d56)
-    - [bruce gray rosettacode entries](#org16c8ebc)
-    - [argument passing signatures](#orgc337aae)
-    - [raku classes as data containers](#org7d480ae)
-    - [super flat](#orgda4b3d5)
-    - [type system: what is accepted by what](#org01812d0)
-    - [debian sysadmin issue (david christensen)](#org64bf274)
-    - [higher-order programming as a substitute for macros (perl5)  (david christensen)](#orgbfe45cd)
-  - [ongoing](#org9cb0eeb)
-    - [programming in the large (david christensen)](#org08bd9bc)
-    - [raku idioms](#orgffcf4b4)
-  - [appendix: the usual links](#org654f947)
-    - [code examples](#org5b8d254)
-    - [meeting notes (material from this file)](#org0a51df8)
-    - [SF Perl page, has links to mailing list](#org9078e3b)
-    - [perl6-users mailing list archive](#org9736e4e)
+- [meeting notes May 16, 2021](#orga7958a9)
+  - [agenda stuff](#org35d3678)
+    - [writing grep variants](#orgedcfd0a)
+    - [bruce gray rosettacode entries](#org678cce3)
+    - [argument passing signatures](#org4341b0f)
+    - [raku classes as data containers](#org8c1e010)
+    - [super flat](#org3391062)
+    - [type system: what is accepted by what](#org9867b45)
+    - [debian sysadmin issue (david christensen)](#org378ab2d)
+    - [higher-order programming as a substitute for macros (perl5)  (david christensen)](#org8b122c2)
+  - [ongoing](#orge1c8bc0)
+    - [programming in the large (david christensen)](#orgb2600a2)
+    - [raku idioms](#org6ab6f17)
+  - [appendix: the usual links](#orgbc4e0d7)
+    - [code examples](#org48250ef)
+    - [meeting notes (material from this file)](#orgffc971c)
+    - [SF Perl page, has links to mailing list](#org8f375ca)
+    - [perl6-users mailing list archive](#org4d1e090)
 
 
-<a id="orgae718fe"></a>
+<a id="orga7958a9"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="orgbd142d2"></a>
+<a id="org35d3678"></a>
 
 ## agenda stuff
 
 
-<a id="org74b9d56"></a>
+<a id="orgedcfd0a"></a>
 
 ### writing grep variants
 
 1.  my first attempt: /home/doom/End/Cave/DoomfileTools/bin/df<sub>grep.raku</sub>
 
 
-<a id="org16c8ebc"></a>
+<a id="org678cce3"></a>
 
 ### bruce gray rosettacode entries
 
@@ -44,7 +44,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="orgc337aae"></a>
+<a id="org4341b0f"></a>
 
 ### argument passing signatures
 
@@ -53,14 +53,14 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="org7d480ae"></a>
+<a id="org8c1e010"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="orgda4b3d5"></a>
+<a id="org3391062"></a>
 
 ### super flat
 
@@ -77,7 +77,7 @@
         "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
 
 
-<a id="org01812d0"></a>
+<a id="org9867b45"></a>
 
 ### type system: what is accepted by what
 
@@ -86,22 +86,22 @@
     1.  when can you Cool
 
 
-<a id="org64bf274"></a>
+<a id="org378ab2d"></a>
 
 ### debian sysadmin issue (david christensen)
 
 
-<a id="orgbfe45cd"></a>
+<a id="org8b122c2"></a>
 
 ### higher-order programming as a substitute for macros (perl5)  (david christensen)
 
 
-<a id="org9cb0eeb"></a>
+<a id="orge1c8bc0"></a>
 
 ## ongoing
 
 
-<a id="org08bd9bc"></a>
+<a id="orgb2600a2"></a>
 
 ### programming in the large (david christensen)
 
@@ -110,7 +110,7 @@
 2.  raku die handlers
 
 
-<a id="orgffcf4b4"></a>
+<a id="org6ab6f17"></a>
 
 ### raku idioms
 
@@ -121,33 +121,33 @@
     2.  maybe: favor methods over functions?
 
 
-<a id="org654f947"></a>
+<a id="orgbc4e0d7"></a>
 
 ## appendix: the usual links
 
 
-<a id="org5b8d254"></a>
+<a id="org48250ef"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may16>
 
 
-<a id="org0a51df8"></a>
+<a id="orgffc971c"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may16.md>
 
 
-<a id="org9078e3b"></a>
+<a id="org8f375ca"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="org9736e4e"></a>
+<a id="org4d1e090"></a>
 
 ### perl6-users mailing list archive
 
