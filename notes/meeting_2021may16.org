@@ -27,6 +27,10 @@
 ***** when can you Cool
 
 *** debian sysadmin issue (david christensen)
+dell two slots 4gb, certain dells have quiet motherboard
+upgrades, two 8gb, 16gb, dual channel memory.  good for
+virtualization.  SSD sata drive bay (sata two or three?)
+
 
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 
