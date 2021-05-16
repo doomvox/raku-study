@@ -52,6 +52,8 @@ my $new_loc = "$loc/the_depths";
     #    or, just use regexs to start with, since I'm not using windows...
 
     my @files = $list>>.Str;
+    # The iterator of this Seq is already in use/consumed by another Seq
+
     for @files -> $f {
         my @hits = 
           $f.lines.grep: /:i whun/;
