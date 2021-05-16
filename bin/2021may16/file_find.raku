@@ -9,10 +9,8 @@ my $loc = '/home/doom/tmp/grep_me';
 chdir( $loc );
 my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
 foreach @monsters -> $name {
-
+    $name.IO.spurt($name);
 }
-
-
 
 
 
