@@ -12,7 +12,11 @@ for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
 my $new_loc = "$loc/the_depths";
-
+mkdir( $new_loc );
+chdir( $new_loc );
+for @monsters -> $name {
+    $name.IO.spurt("The $name attacks from the depths!");
+}
 
 
 
