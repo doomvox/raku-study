@@ -11,6 +11,9 @@ my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
 for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
+my $new_loc = "$loc/the_depths";
+
+
 
 my @check = dir( $loc );
 
