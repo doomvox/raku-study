@@ -37,6 +37,7 @@ new used laptop win10
 debian 10 was n.g. sam video problem
 debian 9 needed some point revisions to get there 
 interested in debian 10, may have it fixed
+(I'm planning on 10.9).
 
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 
