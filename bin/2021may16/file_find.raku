@@ -17,7 +17,7 @@ chdir( $new_loc );
 for @monsters -> $name {
     $name.IO.spurt("The $name attacks from the depths!");
 }
-
+chdir( $loc );
 
 
 my @check = dir( $loc );
