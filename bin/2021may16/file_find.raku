@@ -11,15 +11,17 @@ my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
 for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
-# {
-#     my $new_loc = "$loc/the_depths";
-#     mkdir( $new_loc );
-#     chdir( $new_loc );
-#     for @monsters -> $name {
-#         $name.IO.spurt("The $name attacks from the depths!");
-#     }
-#     chdir( $loc );
-# }
+{
+my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
+
+    my $new_loc = "$loc/the_depths";
+    mkdir( $new_loc );
+    chdir( $new_loc );
+    for @monsters -> $name {
+        $name.IO.spurt("The $name attacks from the depths!");
+    }
+    chdir( $loc );
+}
 
 my @check = dir( $loc );
 
