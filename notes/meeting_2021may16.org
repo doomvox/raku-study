@@ -49,6 +49,8 @@ flash drive.
 samsung gb ssd performed better than usb drives, dram cache
 burn up a sata slot.
 
+cvs server
+
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 
 *** bill one-liner attempt, removing soft hyphens
