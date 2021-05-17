@@ -88,3 +88,5 @@ raku optimized in other ways
 *** announced: going to skip next sunday, thinking about going with every-other week format
 suggestion: have someone else host perl5 meetings on the
 off-weeks.  david christensen is interested. 
+
+*** perl5 cpan module  Filesys::ZFS, david christensen says "not complete"
