@@ -39,8 +39,9 @@ debian 9 needed some point revisions to get there
 interested in debian 10, may have it fixed
 (Note: I've got debian 10.9 slated to install).
 
-bg: bumblebee?  david: no.  
+bruce gray suggests that "bumblebee" can get you out of trouble:
 https://wiki.debian.org/Bumblebee 
+
 intel model 520 ssds  enterprise desktop drive, sata 3,
 self-encrypting (?), on linux uses dm-crypt for swap, nbr
 partitioning, not gpt.  1gig unencrypted boot partition.
