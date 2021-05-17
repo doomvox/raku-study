@@ -38,6 +38,7 @@ debian 10 was n.g. sam video problem
 debian 9 needed some point revisions to get there 
 interested in debian 10, may have it fixed
 (I'm planning on 10.9).
+
 bg: bumblebee?  david: no.  
 https://wiki.debian.org/Bumblebee 
 intel model 520 ssds  enterprise desktop drive, sata 3,
