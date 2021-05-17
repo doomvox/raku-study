@@ -54,8 +54,7 @@ burn up a sata slot.
 seperate version control server can help.
 
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
-
-predicate functions, "is_string" etc.  demo of small function approach.
+predicate functions, "is_string" etc.  demo of a small routine functional approach.
 
 *** bill one-liner attempt, removing soft hyphens
 https://practicaltypography.com/hyphenation.html 
