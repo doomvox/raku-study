@@ -71,9 +71,17 @@ his code for generating type validation predicate functions
 ******** mine returns an expanded set of string codes like the built-in "ref"
 ********* need to do string comparisons later might seem inelegant
 
-*** bill one-liner attempt, removing soft hyphens
-https://practicaltypography.com/hyphenation.html 
+*** bill michaels asks about one-lines to strip "soft hypens"
+**** none of us had ever *seen* a soft hyphen before:
 ## 00AD;SOFT HYPHEN;Cf;0;BN;;;;;N;;;;;
+**** what they do makes some sense: 
+they mark a point in a word where it's okay to hyphenate, but
+when there's no need to hyphenate, they become invisible
+zero-width markers
+
+*** bill found them in this page, notably written by hyphenation nerds:
+https://practicaltypography.com/hyphenation.html
+
 
 ** ongoing
 *** programming in the large (david christensen)
