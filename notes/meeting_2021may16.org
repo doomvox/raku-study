@@ -27,6 +27,8 @@
 ***** when can you Cool
 
 *** david christensen talked about a few debian sysadmin issues
+**** summary: debian 10.9 is mature enough to deal with all display hardware
+**** rought notes:
 dell two slots 4gb, certain dells have quiet motherboard
 upgrades, two 8gb, 16gb, dual channel memory.  good for
 virtualization.  SSD sata drive bay (sata two or three?)
