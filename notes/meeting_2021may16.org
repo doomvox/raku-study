@@ -78,10 +78,10 @@ his code for generating type validation predicate functions
 they mark a point in a word where it's okay to hyphenate, but
 when there's no need to hyphenate, they become invisible
 zero-width markers
-
 *** bill found them in this page, notably written by hyphenation nerds:
 https://practicaltypography.com/hyphenation.html
-
+**** example
+Hy­phen­ation is the au­to­mated process of break­ing words be­tween lines to cre­ate more con­sis­tency across a text block.
 
 
 ** ongoing
