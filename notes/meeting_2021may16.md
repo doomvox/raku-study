@@ -1,53 +1,53 @@
-- [meeting notes May 16, 2021](#org08575a4)
-  - [agenda stuff](#orgb1823a0)
-    - [writing grep variants](#orgfa983ca)
-    - [raku classes as data containers](#org6fa77ba)
-    - [bruce gray rosettacode entries](#org2211735)
-    - [argument passing signatures](#orga945722)
-    - [super flat](#org03dd86f)
-    - [type system: what is accepted by what](#org1287804)
-    - [david christensen talked about a few debian sysadmin issues](#orgd7efba2)
-    - [higher-order programming as a substitute for macros (perl5)  (david christensen)](#org4809bdb)
-    - [bill one-liner attempt, removing soft hyphens](#orgf7bbcac)
-  - [ongoing](#org730c264)
-    - [programming in the large (david christensen)](#org914bddb)
-    - [raku idioms](#org6ee58fd)
-  - [appendix: the usual links](#org59c8512)
-    - [code examples](#orga07a89b)
-    - [meeting notes (material from this file)](#org17e92e4)
-    - [SF Perl page, has links to mailing list](#org5b2eba6)
-    - [perl6-users mailing list archive](#orgea92b51)
-  - [bits](#org2fa7cf0)
-    - [bg summarizes](#org2418ad4)
-    - [announced: going to skip next sunday, thinking about going with every-other week format](#org58087d9)
-    - [perl5 cpan module  Filesys::ZFS, david christensen says "not complete"](#orgb61cc30)
+- [meeting notes May 16, 2021](#orgdbf38a1)
+  - [agenda stuff](#org2535bd9)
+    - [writing grep variants](#orged494b8)
+    - [raku classes as data containers](#org6d1fba9)
+    - [bruce gray rosettacode entries](#org15a8f47)
+    - [argument passing signatures](#orgf23da00)
+    - [super flat](#org01104af)
+    - [type system: what is accepted by what](#orgac09750)
+    - [david christensen talked about a few debian sysadmin issues](#org8a54b91)
+    - [higher-order programming as a substitute for macros (perl5)  (david christensen)](#orgc67eac6)
+    - [bill one-liner attempt, removing soft hyphens](#org6f82c8e)
+  - [ongoing](#orga2e6f18)
+    - [programming in the large (david christensen)](#orgaed7631)
+    - [raku idioms](#orgf722ff8)
+  - [appendix: the usual links](#org32486c4)
+    - [code examples](#org76a53f5)
+    - [meeting notes (material from this file)](#org07d3809)
+    - [SF Perl page, has links to mailing list](#orgc855cd7)
+    - [perl6-users mailing list archive](#orgf675748)
+  - [bits](#org9cc0962)
+    - [bg summarizes](#org432ae41)
+    - [announced: going to skip next sunday, thinking about going with every-other week format](#org00ed73a)
+    - [perl5 cpan module  Filesys::ZFS, david christensen says "not complete"](#orga045cc7)
 
 
-<a id="org08575a4"></a>
+<a id="orgdbf38a1"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="orgb1823a0"></a>
+<a id="org2535bd9"></a>
 
 ## agenda stuff
 
 
-<a id="orgfa983ca"></a>
+<a id="orged494b8"></a>
 
 ### writing grep variants
 
 1.  my first attempt: /home/doom/End/Cave/DoomfileTools/bin/df<sub>grep.raku</sub>
 
 
-<a id="org6fa77ba"></a>
+<a id="org6d1fba9"></a>
 
 ### raku classes as data containers
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org2211735"></a>
+<a id="org15a8f47"></a>
 
 ### bruce gray rosettacode entries
 
@@ -58,7 +58,7 @@
 3.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="orga945722"></a>
+<a id="orgf23da00"></a>
 
 ### argument passing signatures
 
@@ -67,7 +67,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="org03dd86f"></a>
+<a id="org01104af"></a>
 
 ### super flat
 
@@ -84,7 +84,7 @@
         "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
 
 
-<a id="org1287804"></a>
+<a id="orgac09750"></a>
 
 ### type system: what is accepted by what
 
@@ -93,15 +93,15 @@
     1.  when can you Cool
 
 
-<a id="orgd7efba2"></a>
+<a id="org8a54b91"></a>
 
 ### david christensen talked about a few debian sysadmin issues
 
 1.  summary: debian 10.9 is mature enough to deal with all display hardware
 
-2.  rought notes:
+2.  rough notes:
 
-    dell two slots 4gb, certain dells have quiet motherboard upgrades, two 8gb, 16gb, dual channel memory. good for virtualization. SSD sata drive bay (sata two or three?) nvidia optimus (two graphics spliced together) debian version 7 wouldn't boot, video issues. eventually fixed. put win7 pro on it for awhile, support yanked 1.5 new used laptop win10 debian 10 was n.g. sam video problem debian 9 needed some point revisions to get there interested in debian 10, may have it fixed (Note: I've got debian 10.9 slated to install).
+    dell two slots 4gb, certain dells have quiet motherboard upgrades, two 8gb, 16gb, dual channel memory. good for virtualization. SSD sata drive bay (sata two or three?) nvidia optimus (two graphics spliced together) debian version 7 wouldn't boot, video issues. eventually fixed. put win7 pro on it for awhile, support yanked 1.5 new used laptop win10 debian 10 was n.g. same video problem debian 9 needed some point revisions to get there interested in debian 10, may have it fixed (Note: I've got debian 10.9 slated to install).
     
     bruce gray suggests that "bumblebee" can get you out of trouble: <https://wiki.debian.org/Bumblebee>
     
@@ -112,26 +112,26 @@
     seperate version control server can help.
 
 
-<a id="org4809bdb"></a>
+<a id="orgc67eac6"></a>
 
 ### higher-order programming as a substitute for macros (perl5)  (david christensen)
 
 predicate functions, "is<sub>string</sub>" etc. demo of a small routine functional approach.
 
 
-<a id="orgf7bbcac"></a>
+<a id="org6f82c8e"></a>
 
 ### bill one-liner attempt, removing soft hyphens
 
 <https://practicaltypography.com/hyphenation.html> \\## 00AD;SOFT HYPHEN;Cf;0;BN;;;;;N;;;;;
 
 
-<a id="org730c264"></a>
+<a id="orga2e6f18"></a>
 
 ## ongoing
 
 
-<a id="org914bddb"></a>
+<a id="orgaed7631"></a>
 
 ### programming in the large (david christensen)
 
@@ -140,7 +140,7 @@ predicate functions, "is<sub>string</sub>" etc. demo of a small routine function
 2.  raku die handlers
 
 
-<a id="org6ee58fd"></a>
+<a id="orgf722ff8"></a>
 
 ### raku idioms
 
@@ -151,58 +151,58 @@ predicate functions, "is<sub>string</sub>" etc. demo of a small routine function
     2.  maybe: favor methods over functions?
 
 
-<a id="org59c8512"></a>
+<a id="org32486c4"></a>
 
 ## appendix: the usual links
 
 
-<a id="orga07a89b"></a>
+<a id="org76a53f5"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may16>
 
 
-<a id="org17e92e4"></a>
+<a id="org07d3809"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may16.md>
 
 
-<a id="org5b2eba6"></a>
+<a id="orgc855cd7"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="orgea92b51"></a>
+<a id="orgf675748"></a>
 
 ### perl6-users mailing list archive
 
 <https://www.nntp.perl.org/group/perl.perl6.users/>
 
 
-<a id="org2fa7cf0"></a>
+<a id="org9cc0962"></a>
 
 ## bits
 
 
-<a id="org2418ad4"></a>
+<a id="org432ae41"></a>
 
 ### bg summarizes
 
 fosdem codesection langs for opensource corporate backed typescript go java raku optimized in other ways
 
 
-<a id="org58087d9"></a>
+<a id="org00ed73a"></a>
 
 ### announced: going to skip next sunday, thinking about going with every-other week format
 
 suggestion: have someone else host perl5 meetings on the off-weeks. david christensen is interested.
 
 
-<a id="orgb61cc30"></a>
+<a id="orga045cc7"></a>
 
 ### perl5 cpan module  Filesys::ZFS, david christensen says "not complete"
