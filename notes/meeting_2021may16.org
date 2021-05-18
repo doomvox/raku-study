@@ -29,7 +29,7 @@
 *** david christensen talked about a few debian sysadmin issues
 **** summary: debian 10.9 is mature enough to deal with all display hardware, 
 including nvidia optimus
-**** bruce gray recommends "bumblebee" to deal with nvidia optimus
+***** bruce gray recommends "bumblebee" to deal with nvidia optimus
 https://wiki.debian.org/Bumblebee 
 **** rough notes from david's piece:
 dell two slots 4gb, certain dells have quiet motherboard
@@ -43,10 +43,6 @@ debian 10 was n.g. same video problem
 debian 9 needed some point revisions to get there 
 interested in debian 10, may have it fixed
 (Note: I've got debian 10.9 slated to install).
-
-bruce gray suggests that "bumblebee" can get you out of trouble:
-https://wiki.debian.org/Bumblebee 
-
 intel model 520 ssds  enterprise desktop drive, sata 3,
 self-encrypting (?), on linux uses dm-crypt for swap, nbr
 partitioning, not gpt.  1gig unencrypted boot partition.
