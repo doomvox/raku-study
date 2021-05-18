@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org281b1b9)
-  - [some stops on the tour](#org4062396)
-    - [first stop: using an existing git repo, e.g.](#org6a07871)
-    - [second stop: create a new git repo](#org183df6c)
-    - [third stop: putting that new git repo on github](#orgb03aeac)
-    - [fourth stop: haven't covered the cool stuff](#org7069269)
-    - [fifth stop: things you will not do with git](#org2e10ffb)
+- [69 cent tour of git](#orgb9653ca)
+  - [some stops on the tour](#orgf13ee4c)
+    - [first stop: using an existing git repo, e.g.](#orgbceeb68)
+    - [second stop: create a new git repo](#orga77191a)
+    - [third stop: putting that new git repo on github](#org8063da2)
+    - [fourth stop: haven't covered the cool stuff](#org14dfa1c)
+    - [fifth stop: things you will not do with git](#orgc437776)
 
 
-<a id="org281b1b9"></a>
+<a id="orgb9653ca"></a>
 
 # 69 cent tour of git
 
 
-<a id="org4062396"></a>
+<a id="orgf13ee4c"></a>
 
 ## some stops on the tour
 
 
-<a id="org6a07871"></a>
+<a id="orgbceeb68"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,13 +126,13 @@
     ```
 
 
-<a id="org183df6c"></a>
+<a id="orga77191a"></a>
 
 ### second stop: create a new git repo
 
 1.  working standalone (without a server like github)
 
-    1.  cd ~/dev/myproject
+    1.  cd ~/dev/my<sub>project</sub>
     
     2.  git init
     
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="orgb03aeac"></a>
+<a id="org8063da2"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org7069269"></a>
+<a id="org14dfa1c"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -191,7 +191,7 @@
     <https://cli.github.com/>
 
 
-<a id="org2e10ffb"></a>
+<a id="orgc437776"></a>
 
 ### fifth stop: things you will not do with git
 

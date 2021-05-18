@@ -80,7 +80,7 @@ git show REVISION:path/to/file
 #+END_SRC
 *** second stop: create a new git repo
 ****  working standalone (without a server like github)
-***** cd ~/dev/myproject
+***** cd ~/dev/my_project
 ***** git init
 ***** git add
 ***** git status
