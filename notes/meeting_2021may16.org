@@ -82,9 +82,18 @@ zero-width markers
 https://practicaltypography.com/hyphenation.html
 **** example
 Hy­phen­ation is the au­to­mated process of break­ing words be­tween lines to cre­ate more con­sis­tency across a text block.
+*** William Michels : Q. Should Raku create pre-defined (so-called) "Grey-space" character classes?
 *** bruce gray supplies some requested one-liners:
 **** raku -e 'say .trans("\c[SOFT HYPHEN]" => "") for lines()'
 **** raku -e 'say .trans("\c[SOFT HYPHEN]" => "").chars for lines();'
+*** he also makes the point you can do a chained operation to strip whitespace as well
+**** raku -e 'say .trans("\c[SOFT HYPHEN]" => "").trans("\s" => "").chars for lines();' 
+
+*** raku also lets you define custom character classes extending pre-defined ones
+#+BEGIN_SRC perl6
+# strip soft hyphens (U+00AD) as well as whitespace (\s)
+$text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
+#+END_SRC
 
 ** ongoing
 *** programming in the large (david christensen)
