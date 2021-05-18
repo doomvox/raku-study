@@ -72,7 +72,7 @@ his code for generating type validation predicate functions
 ****** comparing david's code to mine:
 ******* david's is certainly tighter, and is very consistent
 ******* mine does fewer sub calls-- probably performs better
-******* returns and expanded set of string codes like the built-in "ref"
+******* mine returns an expanded set of string codes like the built-in "ref"
 ******** need to do string comparisons later might seem inelegant
 
 *** bill one-liner attempt, removing soft hyphens
