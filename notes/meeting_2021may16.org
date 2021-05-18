@@ -82,7 +82,9 @@ zero-width markers
 https://practicaltypography.com/hyphenation.html
 **** example
 Hy­phen­ation is the au­to­mated process of break­ing words be­tween lines to cre­ate more con­sis­tency across a text block.
-
+*** bruce gray supplies some requested one-liners:
+**** raku -e 'say .trans("\c[SOFT HYPHEN]" => "") for lines()'
+**** raku -e 'say .trans("\c[SOFT HYPHEN]" => "").chars for lines();'
 
 ** ongoing
 *** programming in the large (david christensen)
