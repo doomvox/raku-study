@@ -1,23 +1,23 @@
-- [69 cent tour of git](#orgb9653ca)
-  - [some stops on the tour](#orgf13ee4c)
-    - [first stop: using an existing git repo, e.g.](#orgbceeb68)
-    - [second stop: create a new git repo](#orga77191a)
-    - [third stop: putting that new git repo on github](#org8063da2)
-    - [fourth stop: haven't covered the cool stuff](#org14dfa1c)
-    - [fifth stop: things you will not do with git](#orgc437776)
+- [69 cent tour of git](#org9eff872)
+  - [some stops on the tour](#orgdf922e2)
+    - [first stop: using an existing git repo, e.g.](#org0561c43)
+    - [second stop: create a new git repo](#org03810a5)
+    - [third stop: putting that new git repo on github](#org3d6c988)
+    - [fourth stop: haven't covered the cool stuff](#orga34a2f6)
+    - [fifth stop: things you will not do with git](#orge1a8ad8)
 
 
-<a id="orgb9653ca"></a>
+<a id="org9eff872"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgf13ee4c"></a>
+<a id="orgdf922e2"></a>
 
 ## some stops on the tour
 
 
-<a id="orgbceeb68"></a>
+<a id="org0561c43"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="orga77191a"></a>
+<a id="org03810a5"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="org8063da2"></a>
+<a id="org3d6c988"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org14dfa1c"></a>
+<a id="orga34a2f6"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -185,13 +185,17 @@
     1.  "Pro Git" by Scott Chacon and  Ben Straub
     
         Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
+    
+    2.  alan recommends:
+    
+        <https://opensource.com/article/21/4/context-switching-git?sc_cid=7016000000127ECAAY>
 
 4.  there's a command line tool to do github manipulations without the damn website UI
 
     <https://cli.github.com/>
 
 
-<a id="orgc437776"></a>
+<a id="orge1a8ad8"></a>
 
 ### fifth stop: things you will not do with git
 
