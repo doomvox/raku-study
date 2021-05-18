@@ -54,9 +54,10 @@ burn up a sata slot.
 
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 As a demo of functional programming, david christensen showed us
-his code for generating type validation predicate functions.
+his code for generating type validation predicate functions
+("is_string", etc). 
 
-predicate functions, "is_string" etc.  demo of a small routine functional approach.
+
 
 **** bruce gray suggests Params::Util
 ***** https://metacpan.org/pod/Params::Util
