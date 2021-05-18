@@ -55,6 +55,11 @@ burn up a sata slot.
 *** higher-order programming as a substitute for macros (perl5)  (david christensen)
 predicate functions, "is_string" etc.  demo of a small routine functional approach.
 
+**** bruce gray suggests Params::Util
+https://metacpan.org/pod/Params::Util
+**** there are a number of cpan modules to do parameter validation, e.g 
+https://metacpan.org/pod/Params::ValidationCompiler
+
 *** bill one-liner attempt, removing soft hyphens
 https://practicaltypography.com/hyphenation.html 
 ## 00AD;SOFT HYPHEN;Cf;0;BN;;;;;N;;;;;
