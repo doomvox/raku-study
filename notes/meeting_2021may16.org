@@ -27,8 +27,11 @@
 ***** when can you Cool
 
 *** david christensen talked about a few debian sysadmin issues
-**** summary: debian 10.9 is mature enough to deal with all display hardware
-**** rough notes:
+**** summary: debian 10.9 is mature enough to deal with all display hardware, 
+including nvidia optimus
+**** bruce gray recommends "bumblebee" to deal with nvidia optimus
+https://wiki.debian.org/Bumblebee 
+**** rough notes from david's piece:
 dell two slots 4gb, certain dells have quiet motherboard
 upgrades, two 8gb, 16gb, dual channel memory.  good for
 virtualization.  SSD sata drive bay (sata two or three?)
