@@ -57,6 +57,9 @@ As a demo of functional programming, david christensen showed us
 his code for generating type validation predicate functions
 ("is_string", etc). 
 
+**** other ways of handling the problem
+
+
 
 
 **** bruce gray suggests Params::Util
@@ -64,6 +67,14 @@ his code for generating type validation predicate functions
 **** there are a number of cpan modules to do parameter validation, e.g 
 ***** https://metacpan.org/pod/Type::Tiny#Predicate-methods
 ***** https://metacpan.org/pod/Params::ValidationCompiler
+**** a package I wrote that does something similar
+***** https://metacpan.org/pod/Scalar::Classify
+****** comparing david's code to mine:
+******* david's is certainly tighter
+******* mine does fewer sub calls-- probably performs better
+******* returns and expanded set of string codes like the built-in "ref"
+******** need to do string comparisons later might seem inelegant
+
 *** bill one-liner attempt, removing soft hyphens
 https://practicaltypography.com/hyphenation.html 
 ## 00AD;SOFT HYPHEN;Cf;0;BN;;;;;N;;;;;
