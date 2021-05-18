@@ -71,7 +71,7 @@ his code for generating type validation predicate functions
 ******** mine returns an expanded set of string codes like the built-in "ref"
 ********* need to do string comparisons later might seem inelegant
 
-*** William Michels asks about one-lines to strip "soft hypens"
+*** william michels asks about one-liners to strip "soft hypens"
 **** none of us had ever *seen* a soft hyphen before:
 ## 00AD;SOFT HYPHEN;Cf;0;BN;;;;;N;;;;;
 **** what they do makes some sense: 
