@@ -131,3 +131,5 @@ off-weeks.  david christensen is interested.
 
 https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.md
 
+*** steve yegge, a fascinating perl hater:
+https://steve-yegge.blogspot.com/
