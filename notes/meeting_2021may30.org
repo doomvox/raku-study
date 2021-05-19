@@ -31,10 +31,6 @@
     say @b.none.defined.so;  # False
 #+END_SRC
 
-
-
-
-
 *** type system: what is accepted by what   
 **** is anything ever cast automatically
 ***** when can you Cool
