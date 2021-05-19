@@ -141,7 +141,7 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 
 *** announcement: going to skip next sunday, thinking about going with every-other week format
 **** suggestion: have someone else host perl5 meetings on the off-weeks.  
-**** david christensen is interested. 
+**** david christensen is interested
 
 *** perl5 cpan module  Filesys::ZFS, david christensen says "not complete"
 https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.md
