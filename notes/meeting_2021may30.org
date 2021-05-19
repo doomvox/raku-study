@@ -26,4 +26,4 @@
 **** is anything ever cast automatically
 ***** when can you Cool
 
-*** go through my perl5 templates: how much is core raku now
+*** go through my perl5 templates: how much is core raku now?

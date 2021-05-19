@@ -1,37 +1,37 @@
-- [meeting notes May 16, 2021](#orgc353267)
-  - [agenda](#org7b2eeb1)
-    - [raku classes as data containers (postponed) (joe brenner)](#org76cf0ff)
-    - [find/grep variants in raku revisited (joe brenner)](#org3b72478)
-    - [bruce gray rosettacode](#org3b0f790)
-    - [argument passing signatures (joe brenner)](#org350d683)
-    - [super flat](#org2428374)
-    - [type system: what is accepted by what](#orge2f9b1e)
-    - [go through my perl5 templates: how much is core raku now](#orgafe85d0)
+- [meeting notes May 16, 2021](#org84fddec)
+  - [agenda](#org1ea9fbd)
+    - [raku classes as data containers (postponed) (joe brenner)](#orgf33471b)
+    - [find/grep variants in raku revisited (joe brenner)](#org755ccf5)
+    - [bruce gray rosettacode](#orgc15bf13)
+    - [argument passing signatures (joe brenner)](#org8e5fbfe)
+    - [super flat](#org81c1733)
+    - [type system: what is accepted by what](#org687f803)
+    - [go through my perl5 templates: how much is core raku now?](#orgbcb4f3f)
 
 
-<a id="orgc353267"></a>
+<a id="org84fddec"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org7b2eeb1"></a>
+<a id="org1ea9fbd"></a>
 
 ## agenda
 
 
-<a id="org76cf0ff"></a>
+<a id="orgf33471b"></a>
 
 ### raku classes as data containers (postponed) (joe brenner)
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org3b72478"></a>
+<a id="org755ccf5"></a>
 
 ### find/grep variants in raku revisited (joe brenner)
 
 
-<a id="org3b0f790"></a>
+<a id="orgc15bf13"></a>
 
 ### bruce gray rosettacode
 
@@ -40,7 +40,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org350d683"></a>
+<a id="org8e5fbfe"></a>
 
 ### argument passing signatures (joe brenner)
 
@@ -49,7 +49,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="org2428374"></a>
+<a id="org81c1733"></a>
 
 ### super flat
 
@@ -68,7 +68,7 @@
         1.  (b.g. suggest just usine none)
 
 
-<a id="orge2f9b1e"></a>
+<a id="org687f803"></a>
 
 ### type system: what is accepted by what
 
@@ -77,6 +77,6 @@
     1.  when can you Cool
 
 
-<a id="orgafe85d0"></a>
+<a id="orgbcb4f3f"></a>
 
-### go through my perl5 templates: how much is core raku now
+### go through my perl5 templates: how much is core raku now?
