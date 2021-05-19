@@ -11,6 +11,9 @@
 ***** impedance mismatch between oop and File::Find's wanted
 ****** how to pass args to wanted?
 ****** bruce gray suggests an anonymous sub with a closure
+**** discussed an odd go round with
+***** synopsis from an out-of-date version of File::Find
+
 
 *** bruce gray discussed a rosettacode entry
 **** http://rosettacode.org/wiki/Barnsley_fern#Raku 
