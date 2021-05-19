@@ -21,10 +21,6 @@
 ****** https://en.wikipedia.org/wiki/Affine_transformation
 ****** https://mathworld.wolfram.com/AffineTransformation.html
 
-*** argument passing signatures (postponed)
-**** /home/doom/End/Cave/Ice/Xtal/Perl6/passing_args.org
-**** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing_named_args_and_positional_ones.raku
-
 *** testing for all elements undefined
 https://stackoverflow.com/questions/67373726/why-are-empty-raku-shaped-arrays-truthy
 "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
