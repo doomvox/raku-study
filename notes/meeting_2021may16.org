@@ -31,10 +31,11 @@
 **** https://en.wikipedia.org/wiki/Superflat
 
 
-***** https://stackoverflow.com/questions/67373726/why-are-empty-raku-shaped-arrays-truthy
+**** testing for all elements undefined
+https://stackoverflow.com/questions/67373726/why-are-empty-raku-shaped-arrays-truthy
 "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
-****** I thought: "a job for flat?"
-****** bruce gray suggests just using none:
+***** I thought: "a job for flat?"
+***** bruce gray suggests just using none:
 #+BEGIN_SRC perl6
     my @a =   Any xx 3;
     my @b = |(Any xx 2), 0;
