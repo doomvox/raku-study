@@ -139,7 +139,6 @@ suggestion: have someone else host perl5 meetings on the
 off-weeks.  david christensen is interested. 
 
 *** perl5 cpan module  Filesys::ZFS, david christensen says "not complete"
-
 https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.md
 
 *** steve yegge, a fascinating perl hater:
