@@ -40,12 +40,6 @@ https://stackoverflow.com/questions/67373726/why-are-empty-raku-shaped-arrays-tr
     say @b.none.defined.so;  # False
 #+END_SRC
 
-
-
-*** type system: what is accepted by what   (postponed)
-**** is anything ever cast automatically
-***** when can you Cool
-
 *** david christensen talked about a few debian sysadmin issues
 **** summary: debian 10.9 is mature enough to deal with all display hardware, 
 including nvidia optimus
