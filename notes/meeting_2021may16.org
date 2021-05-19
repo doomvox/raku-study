@@ -133,3 +133,5 @@ https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.m
 
 *** steve yegge, a fascinating perl hater:
 https://steve-yegge.blogspot.com/
+
+**** Bruce Gray : "For most people the perceived usefulness of a computer language is inversely proportional to the number of theoretical axes the language intends to grind."  -- Larry Wall
