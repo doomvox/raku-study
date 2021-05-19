@@ -32,6 +32,18 @@
 **** a job for flat?
 ***** https://stackoverflow.com/questions/67373726/why-are-empty-raku-shaped-arrays-truthy
 "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
+****** bruce gray suggests just using none:
+#+BEGIN_SRC perl6
+    my @a =   Any xx 3;
+    my @b = |(Any xx 2), 0;
+    say .raku for :@a, :@b;  
+     ## :a([Any, Any, Any])
+     ## :b([Any, Any, 0])
+    say @a.none.defined.so;  # True
+    say @b.none.defined.so;  # False
+#+END_SRC
+
+
 
 *** type system: what is accepted by what   (postponed)
 **** is anything ever cast automatically
