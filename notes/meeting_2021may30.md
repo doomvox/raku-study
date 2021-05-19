@@ -1,36 +1,37 @@
-- [meeting notes May 16, 2021](#org8bed8de)
-  - [agenda](#org067d16a)
-    - [raku classes as data containers (postponed) (joe brenner)](#org1c526f9)
-    - [find/grep variants in raku revisited (joe brenner)](#org893d812)
-    - [bruce gray rosettacode](#org774ab03)
-    - [argument passing signatures (joe brenner)](#orga653b9d)
-    - [super flat](#orge938232)
-    - [type system: what is accepted by what](#org5bfaa43)
+- [meeting notes May 16, 2021](#org051546f)
+  - [agenda](#orgf7f6c86)
+    - [raku classes as data containers (postponed) (joe brenner)](#org3fe0a65)
+    - [find/grep variants in raku revisited (joe brenner)](#orgbe6b147)
+    - [bruce gray rosettacode](#org04f34b6)
+    - [argument passing signatures (joe brenner)](#org6fc20f9)
+    - [super flat](#org1f1ace8)
+    - [type system: what is accepted by what](#orgfd0a638)
+    - [](#org9045c93)
 
 
-<a id="org8bed8de"></a>
+<a id="org051546f"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org067d16a"></a>
+<a id="orgf7f6c86"></a>
 
 ## agenda
 
 
-<a id="org1c526f9"></a>
+<a id="org3fe0a65"></a>
 
 ### raku classes as data containers (postponed) (joe brenner)
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org893d812"></a>
+<a id="orgbe6b147"></a>
 
 ### find/grep variants in raku revisited (joe brenner)
 
 
-<a id="org774ab03"></a>
+<a id="org04f34b6"></a>
 
 ### bruce gray rosettacode
 
@@ -39,7 +40,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="orga653b9d"></a>
+<a id="org6fc20f9"></a>
 
 ### argument passing signatures (joe brenner)
 
@@ -48,7 +49,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="orge938232"></a>
+<a id="org1f1ace8"></a>
 
 ### super flat
 
@@ -67,10 +68,15 @@
         1.  (b.g. suggest just usine none)
 
 
-<a id="org5bfaa43"></a>
+<a id="orgfd0a638"></a>
 
 ### type system: what is accepted by what
 
 1.  is anything ever cast automatically
 
     1.  when can you Cool
+
+
+<a id="org9045c93"></a>
+
+###
