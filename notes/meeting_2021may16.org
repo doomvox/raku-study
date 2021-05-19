@@ -121,15 +121,6 @@ $text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
 ***** https://gfldex.wordpress.com/2021/04/16/all-your-idioms-are-belong-to-us/
 ***** maybe: favor methods over functions?
 
-** appendix: the usual links
-*** code examples
-https://github.com/doomvox/raku-study/tree/main/bin/2021may16
-*** meeting notes (material from this file)
-https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may16.md
-*** SF Perl page, has links to mailing list
-http://sf.pm.org/
-*** perl6-users mailing list archive
-https://www.nntp.perl.org/group/perl.perl6.users/
 
 ** bits
 
@@ -139,7 +130,6 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 **** bg summarizes
 ***** corporate backed: typescript, go, java
 ***** raku optimized in other ways
-
 
 *** perl5 cpan module  Filesys::ZFS, david christensen says "not complete"
 https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.md
