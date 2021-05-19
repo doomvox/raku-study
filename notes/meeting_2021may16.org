@@ -25,17 +25,11 @@
 **** /home/doom/End/Cave/Ice/Xtal/Perl6/passing_args.org
 **** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing_named_args_and_positional_ones.raku
 
-*** super flat (postponed)
-**** https://stackoverflow.com/questions/67515479/what-is-a-simple-and-elegant-way-to-flatten-lists-or-arrays-of-arbitrary-depths
-**** https://stackoverflow.com/questions/41648119/how-can-i-completely-flatten-a-list-of-lists-of-lists
-**** https://en.wikipedia.org/wiki/Superflat
-
-
-**** testing for all elements undefined
+*** testing for all elements undefined
 https://stackoverflow.com/questions/67373726/why-are-empty-raku-shaped-arrays-truthy
 "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
-***** I thought: "a job for flat?"
-***** bruce gray suggests just using none:
+**** I thought: "a job for flat?"
+**** bruce gray suggests just using none:
 #+BEGIN_SRC perl6
     my @a =   Any xx 3;
     my @b = |(Any xx 2), 0;
