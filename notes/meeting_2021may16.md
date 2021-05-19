@@ -1,40 +1,40 @@
-- [meeting notes May 16, 2021](#org5a7a89c)
-  - [subjects discussed](#org891b7e3)
-    - [richard hainsworth reports in on the documentation system work](#org3c730b7)
-    - [raku features for writing find/grep variants (joe brenner)](#org2e590cc)
-    - [bruce gray discussed a rosettacode entry](#org2cb85a6)
-    - [testing for all elements undefined](#orgbe4ea64)
-    - [david christensen talked about a few debian sysadmin issues](#orgd84735c)
-    - [higher-order programming as a substitute for macros (perl5)  (david christensen)](#org1e46ee7)
-    - [william michels asks about one-liners to strip "soft hypens"](#org485b318)
-    - [bill found them in this page, notably written by hyphenation nerds:](#org305e06d)
-    - [William Michels : Q. Should Raku create pre-defined (so-called) "Grey-space" character classes?](#org9b792c1)
-    - [bruce gray supplies some requested one-liners:](#orgaeb176b)
-    - [he also makes the point you can do a chained operation to strip whitespace as well](#org5f8166d)
-    - [raku also lets you define custom character classes extending pre-defined ones](#orge343df2)
-  - [ongoing](#orgd99dd7e)
-    - [programming in the large (david christensen)](#orgb29ba18)
-    - [raku idioms](#org136da8f)
-  - [bits](#org4b2d558)
-    - [fosdem talk, programming<sub>lang</sub><sub>for</sub><sub>free</sub><sub>software</sub>](#org4f191d1)
-    - [perl5 cpan module  Filesys::ZFS, david christensen says "not complete"](#org0376c40)
-    - [steve yegge, a fascinating perl hater](#org901e9b8)
-  - [announcements](#org4c0e739)
-    - [going to skip next sunday, thinking about going with every-other week format](#orge74f56a)
-    - [next meeting may 30, 2021](#org80fc90e)
+- [meeting notes May 16, 2021](#orgbb7c145)
+  - [subjects discussed](#orgdb23def)
+    - [richard hainsworth reports in on the documentation system work](#org17782cf)
+    - [raku features for writing find/grep variants (joe brenner)](#orgbc55dad)
+    - [bruce gray discussed a rosettacode entry](#org2b2668d)
+    - [testing for all elements undefined](#org70d621a)
+    - [david christensen talked about a few debian sysadmin issues](#org9e120b4)
+    - [higher-order programming as a substitute for macros (perl5)  (david christensen)](#orgcf93419)
+    - [william michels asks about one-liners to strip "soft hypens"](#orgdddff06)
+    - [bill found them in this page, notably written by hyphenation nerds:](#org91dc163)
+    - [William Michels : Q. Should Raku create pre-defined (so-called) "Grey-space" character classes?](#orgb3236e2)
+    - [bruce gray supplies some requested one-liners:](#orgf4c9faf)
+    - [he also makes the point you can do a chained operation to strip whitespace as well](#orga99a4f4)
+    - [raku also lets you define custom character classes extending pre-defined ones](#org3eaf3b2)
+  - [ongoing](#org3340ef6)
+    - [programming in the large (david christensen)](#org25ce13d)
+    - [raku idioms](#orgaa0f467)
+  - [small bits](#orgefa4f5a)
+    - [fosdem talk, programming<sub>lang</sub><sub>for</sub><sub>free</sub><sub>software</sub>](#org9cf8034)
+    - [perl5 cpan module  Filesys::ZFS, david christensen says "not complete"](#orgf1b6e50)
+    - [steve yegge, a fascinating perl hater](#orgcdb4863)
+  - [announcements](#org3a8517d)
+    - [going to skip next sunday, thinking about going with every-other week format](#orga83b015)
+    - [next meeting may 30, 2021](#org6c41bcc)
 
 
-<a id="org5a7a89c"></a>
+<a id="orgbb7c145"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org891b7e3"></a>
+<a id="orgdb23def"></a>
 
 ## subjects discussed
 
 
-<a id="org3c730b7"></a>
+<a id="org17782cf"></a>
 
 ### richard hainsworth reports in on the documentation system work
 
@@ -47,7 +47,7 @@
     2.  (don't know how to subscribe, or if it's archived somewhere)
 
 
-<a id="org2e590cc"></a>
+<a id="orgbc55dad"></a>
 
 ### raku features for writing find/grep variants (joe brenner)
 
@@ -66,7 +66,7 @@
         1.  bruce gray explains the old form (using a binding operator) was once the way to preserve laziness.
 
 
-<a id="org2cb85a6"></a>
+<a id="org2b2668d"></a>
 
 ### bruce gray discussed a rosettacode entry
 
@@ -79,7 +79,7 @@
         2.  <https://mathworld.wolfram.com/AffineTransformation.html>
 
 
-<a id="orgbe4ea64"></a>
+<a id="org70d621a"></a>
 
 ### testing for all elements undefined
 
@@ -100,7 +100,7 @@
     ```
 
 
-<a id="orgd84735c"></a>
+<a id="org9e120b4"></a>
 
 ### david christensen talked about a few debian sysadmin issues
 
@@ -119,7 +119,7 @@
     samsung gb ssd performed better than usb drives, dram cache burn up a sata slot.
 
 
-<a id="org1e46ee7"></a>
+<a id="orgcf93419"></a>
 
 ### higher-order programming as a substitute for macros (perl5)  (david christensen)
 
@@ -158,7 +158,7 @@ As a demo of functional programming, david christensen showed us his code for ge
         ```
 
 
-<a id="org485b318"></a>
+<a id="orgdddff06"></a>
 
 ### william michels asks about one-liners to strip "soft hypens"
 
@@ -171,7 +171,7 @@ As a demo of functional programming, david christensen showed us his code for ge
     they mark a point in a word where it's okay to hyphenate, but when there's no need to hyphenate, they become invisible zero-width markers
 
 
-<a id="org305e06d"></a>
+<a id="org91dc163"></a>
 
 ### bill found them in this page, notably written by hyphenation nerds:
 
@@ -182,12 +182,12 @@ As a demo of functional programming, david christensen showed us his code for ge
     Hy­phen­ation is the au­to­mated process of break­ing words be­tween lines to cre­ate more con­sis­tency across a text block.
 
 
-<a id="org9b792c1"></a>
+<a id="orgb3236e2"></a>
 
 ### William Michels : Q. Should Raku create pre-defined (so-called) "Grey-space" character classes?
 
 
-<a id="orgaeb176b"></a>
+<a id="orgf4c9faf"></a>
 
 ### bruce gray supplies some requested one-liners:
 
@@ -196,14 +196,14 @@ As a demo of functional programming, david christensen showed us his code for ge
 2.  raku -e 'say .trans("\c[SOFT HYPHEN]" => "").chars for lines();'
 
 
-<a id="org5f8166d"></a>
+<a id="orga99a4f4"></a>
 
 ### he also makes the point you can do a chained operation to strip whitespace as well
 
 1.  raku -e 'say .trans("\c[SOFT HYPHEN]" => "").trans("\s" => "").chars for lines();'
 
 
-<a id="orge343df2"></a>
+<a id="org3eaf3b2"></a>
 
 ### raku also lets you define custom character classes extending pre-defined ones
 
@@ -219,12 +219,12 @@ $text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
     2.  From Bruce Gray : <https://www.ptiglobal.com/2018/04/26/the-beauty-of-unicode-zero-width-characters/>
 
 
-<a id="orgd99dd7e"></a>
+<a id="org3340ef6"></a>
 
 ## ongoing
 
 
-<a id="orgb29ba18"></a>
+<a id="org25ce13d"></a>
 
 ### programming in the large (david christensen)
 
@@ -233,7 +233,7 @@ $text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
 2.  raku die handlers
 
 
-<a id="org136da8f"></a>
+<a id="orgaa0f467"></a>
 
 ### raku idioms
 
@@ -244,12 +244,12 @@ $text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
     2.  maybe: favor methods over functions?
 
 
-<a id="org4b2d558"></a>
+<a id="orgefa4f5a"></a>
 
-## bits
+## small bits
 
 
-<a id="org4f191d1"></a>
+<a id="org9cf8034"></a>
 
 ### fosdem talk, programming<sub>lang</sub><sub>for</sub><sub>free</sub><sub>software</sub>
 
@@ -264,14 +264,14 @@ $text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
     2.  raku optimized in other ways
 
 
-<a id="org0376c40"></a>
+<a id="orgf1b6e50"></a>
 
 ### perl5 cpan module  Filesys::ZFS, david christensen says "not complete"
 
 <https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.md>
 
 
-<a id="org901e9b8"></a>
+<a id="orgcdb4863"></a>
 
 ### steve yegge, a fascinating perl hater
 
@@ -280,16 +280,16 @@ $text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
 1.  Bruce Gray: "For most people the perceived usefulness of a computer language is inversely proportional to the number of theoretical axes the language intends to grind."  &#x2013; Larry Wall
 
 
-<a id="org4c0e739"></a>
+<a id="org3a8517d"></a>
 
 ## announcements
 
 
-<a id="orge74f56a"></a>
+<a id="orga83b015"></a>
 
 ### going to skip next sunday, thinking about going with every-other week format
 
 
-<a id="org80fc90e"></a>
+<a id="org6c41bcc"></a>
 
 ### next meeting may 30, 2021

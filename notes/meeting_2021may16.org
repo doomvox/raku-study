@@ -122,7 +122,7 @@ $text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
 ***** maybe: favor methods over functions?
 
 
-** bits
+** small bits
 
 *** fosdem talk, programming_lang_for_free_software
 **** https://www.fosdem.org/2021/schedule/event/programming_lang_for_free_software/
