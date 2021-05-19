@@ -17,7 +17,6 @@
 
 *** bruce gray discussed a rosettacode entry
 **** http://rosettacode.org/wiki/Barnsley_fern#Raku 
-
 ***** william michels 
 ****** https://en.wikipedia.org/wiki/Affine_transformation
 ****** https://mathworld.wolfram.com/AffineTransformation.html
