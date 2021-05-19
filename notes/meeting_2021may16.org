@@ -80,7 +80,6 @@ his code for generating type validation predicate functions
 **** other approaches
 ***** bruce gray suggests Params::Util
 ***** https://metacpan.org/pod/Params::Util
-
 ***** there are a number of cpan modules to do parameter validation, e.g 
 ****** https://metacpan.org/pod/Type::Tiny#Predicate-methods
 ****** https://metacpan.org/pod/Params::ValidationCompiler
@@ -91,6 +90,10 @@ his code for generating type validation predicate functions
 ******** mine does fewer sub calls-- probably performs better
 ******** mine returns an expanded set of string codes like the built-in "ref"
 ********* need to do string comparisons later might seem inelegant
+***** bruce gray:
+#+BEGIN_SRC sh
+perl -wE 'my $v = 5.10.2; say map { sprintf "%02x" } unpack "C*", $v; say map { sprintf "%02x", $_ } unpack "C*", $v;'
+#+END_SRC
 
 *** william michels asks about one-liners to strip "soft hypens"
 **** none of us had ever *seen* a soft hyphen before:
