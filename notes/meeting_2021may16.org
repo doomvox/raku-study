@@ -124,3 +124,10 @@ suggestion: have someone else host perl5 meetings on the
 off-weeks.  david christensen is interested. 
 
 *** perl5 cpan module  Filesys::ZFS, david christensen says "not complete"
+
+*** there's a raku documentation mailing list, created by lizmat
+**** Richard Hainsworth : documentation@raku.org
+**** don't know how to subscribe, or if it's archived somewhere
+
+https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.md
+
