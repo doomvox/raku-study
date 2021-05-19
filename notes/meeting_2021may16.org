@@ -109,9 +109,6 @@ $text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
 *****  William Michels : \c[ZERO WIDTH SPACE]
 *****  From Bruce Gray : https://www.ptiglobal.com/2018/04/26/the-beauty-of-unicode-zero-width-characters/
 
-
-
-
 ** ongoing
 *** programming in the large (david christensen)
 **** larger applications
