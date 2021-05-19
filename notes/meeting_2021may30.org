@@ -2,4 +2,4 @@
 ** agenda
 *** raku classes as data containers (postponed) (joe brenner) 
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
-*** find/grep variants in raku revisited
+*** find/grep variants in raku revisited (joe brenner)

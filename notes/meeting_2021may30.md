@@ -1,26 +1,26 @@
-- [meeting notes May 16, 2021](#org074e97e)
-  - [agenda](#org97a84ec)
-    - [raku classes as data containers (postponed) (joe brenner)](#orgeec91ed)
-    - [find/grep variants in raku revisited](#org90c182f)
+- [meeting notes May 16, 2021](#orgd47de5f)
+  - [agenda](#org06f318d)
+    - [raku classes as data containers (postponed) (joe brenner)](#org82eeb1d)
+    - [find/grep variants in raku revisited (joe brenner)](#orgc8ecf10)
 
 
-<a id="org074e97e"></a>
+<a id="orgd47de5f"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org97a84ec"></a>
+<a id="org06f318d"></a>
 
 ## agenda
 
 
-<a id="orgeec91ed"></a>
+<a id="org82eeb1d"></a>
 
 ### raku classes as data containers (postponed) (joe brenner)
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org90c182f"></a>
+<a id="orgc8ecf10"></a>
 
-### find/grep variants in raku revisited
+### find/grep variants in raku revisited (joe brenner)
