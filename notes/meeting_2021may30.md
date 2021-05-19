@@ -1,42 +1,42 @@
-- [meeting notes May 16, 2021](#org239208e)
-  - [agenda](#org79ce117)
-    - [raku classes as data containers (postponed) (joe brenner)](#orgd774751)
-    - [find/grep variants in raku revisited (joe brenner)](#org22ae878)
-    - [bruce gray rosettacode](#orgccf2371)
-    - [argument passing signatures (joe brenner)](#org6baaa83)
-    - [super flat](#org391826a)
-    - [type system: what is accepted by what](#org804440d)
-    - [go through my perl5 templates: how much is core raku now?](#orgae01b9e)
-  - [appendix: the usual links](#orgfd14fd7)
-    - [code examples](#org7504fa2)
-    - [meeting notes (material from this file)](#org0af136b)
-    - [SF Perl page, has links to mailing list](#orge89b3fa)
-    - [perl6-users mailing list archive](#orgfb317c7)
+- [meeting notes May 16, 2021](#orgaaba090)
+  - [agenda](#orgdef7923)
+    - [raku classes as data containers (joe brenner)](#orgf250c5e)
+    - [find/grep variants in raku revisited (joe brenner)](#org8261022)
+    - [bruce gray rosettacode](#org4331db9)
+    - [argument passing signatures (joe brenner)](#orgbadcf64)
+    - [super flat](#orge2d9ef0)
+    - [type system: what is accepted by what](#org855f0ce)
+    - [go through my perl5 templates: how much is core raku now?](#orgf905613)
+  - [appendix: the usual links](#org4869042)
+    - [code examples](#org60e291c)
+    - [meeting notes (material from this file)](#org6e0cd1e)
+    - [SF Perl page, has links to mailing list](#org6eec306)
+    - [perl6-users mailing list archive](#org905d69a)
 
 
-<a id="org239208e"></a>
+<a id="orgaaba090"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org79ce117"></a>
+<a id="orgdef7923"></a>
 
 ## agenda
 
 
-<a id="orgd774751"></a>
+<a id="orgf250c5e"></a>
 
-### raku classes as data containers (postponed) (joe brenner)
+### raku classes as data containers (joe brenner)
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org22ae878"></a>
+<a id="org8261022"></a>
 
 ### find/grep variants in raku revisited (joe brenner)
 
 
-<a id="orgccf2371"></a>
+<a id="org4331db9"></a>
 
 ### bruce gray rosettacode
 
@@ -45,7 +45,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org6baaa83"></a>
+<a id="orgbadcf64"></a>
 
 ### argument passing signatures (joe brenner)
 
@@ -54,7 +54,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="org391826a"></a>
+<a id="orge2d9ef0"></a>
 
 ### super flat
 
@@ -65,7 +65,7 @@
 3.  <https://en.wikipedia.org/wiki/Superflat>
 
 
-<a id="org804440d"></a>
+<a id="org855f0ce"></a>
 
 ### type system: what is accepted by what
 
@@ -74,38 +74,38 @@
     1.  when can you Cool
 
 
-<a id="orgae01b9e"></a>
+<a id="orgf905613"></a>
 
 ### go through my perl5 templates: how much is core raku now?
 
 
-<a id="orgfd14fd7"></a>
+<a id="org4869042"></a>
 
 ## appendix: the usual links
 
 
-<a id="org7504fa2"></a>
+<a id="org60e291c"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may30>
 
 
-<a id="org0af136b"></a>
+<a id="org6e0cd1e"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may30.md>
 
 
-<a id="orge89b3fa"></a>
+<a id="org6eec306"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="orgfb317c7"></a>
+<a id="org905d69a"></a>
 
 ### perl6-users mailing list archive
 
