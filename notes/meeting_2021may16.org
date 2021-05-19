@@ -12,7 +12,6 @@
 ****** how to pass args to wanted?
 ****** bruce gray suggests an anonymous sub with a closure
 
-
 *** raku classes as data containers (postponed)
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
 
