@@ -16,7 +16,8 @@
 **** https://stackoverflow.com/questions/67515479/what-is-a-simple-and-elegant-way-to-flatten-lists-or-arrays-of-arbitrary-depths
 **** https://stackoverflow.com/questions/41648119/how-can-i-completely-flatten-a-list-of-lists-of-lists
 **** https://en.wikipedia.org/wiki/Superflat
-**** a job for flat? (b.g. suggest just usine none)
+**** a job for flat? 
 ***** https://stackoverflow.com/questions/67373726/why-are-empty-raku-shaped-arrays-truthy
 "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
 
+****** (b.g. suggest just usine none)
