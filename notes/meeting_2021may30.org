@@ -28,6 +28,7 @@
 **** https://github.com/doomvox/raku-study/blob/main/notes/idioms.org
 
 
+***** maybe: favor methods over functions?
 
 ** appendix: the usual links
 *** code examples
