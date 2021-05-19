@@ -21,11 +21,11 @@
 ****** https://en.wikipedia.org/wiki/Affine_transformation
 ****** https://mathworld.wolfram.com/AffineTransformation.html
 
-*** argument passing signatures
+*** argument passing signatures (postponed)
 **** /home/doom/End/Cave/Ice/Xtal/Perl6/passing_args.org
 **** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing_named_args_and_positional_ones.raku
 
-*** super flat
+*** super flat (postponed)
 **** https://stackoverflow.com/questions/67515479/what-is-a-simple-and-elegant-way-to-flatten-lists-or-arrays-of-arbitrary-depths
 **** https://stackoverflow.com/questions/41648119/how-can-i-completely-flatten-a-list-of-lists-of-lists
 **** https://en.wikipedia.org/wiki/Superflat
@@ -33,7 +33,7 @@
 ***** https://stackoverflow.com/questions/67373726/why-are-empty-raku-shaped-arrays-truthy
 "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
 
-*** type system: what is accepted by what  
+*** type system: what is accepted by what   (postponed)
 **** is anything ever cast automatically
 ***** when can you Cool
 
@@ -142,7 +142,6 @@ suggestion: have someone else host perl5 meetings on the
 off-weeks.  david christensen is interested. 
 
 *** perl5 cpan module  Filesys::ZFS, david christensen says "not complete"
-
 
 https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.md
 
