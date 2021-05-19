@@ -148,8 +148,6 @@ https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.m
 https://steve-yegge.blogspot.com/
 **** Bruce Gray: "For most people the perceived usefulness of a computer language is inversely proportional to the number of theoretical axes the language intends to grind."  -- Larry Wall
 
-
-
 ** announcements
 *** going to skip next sunday, thinking about going with every-other week format
 *** next meeting may 30, 2021
