@@ -20,7 +20,7 @@ say $text_no_ws;
 
 
 say "===";
-$text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
+$text_no_gs ~~ s:g/<[\s\x[00ad]]>//;x
 say $text_no_gs;
 # Hyphenationistheautomatedprocessofbreakingwordsbetweenlinestocreatemoreconsistencyacrossatextblock.Injustifiedtext,hyphenationismandatory.Hyphenation
 
