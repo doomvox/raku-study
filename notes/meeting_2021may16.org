@@ -133,10 +133,11 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 
 ** bits
 
-*** bg summarizes
-fosdem codesection langs for opensource  
-corporate backed typescript go java
-raku optimized in other ways
+*** fosdem talk, programming_lang_for_free_software
+**** https://www.fosdem.org/2021/schedule/event/programming_lang_for_free_software/
+**** bg summarizes
+***** corporate backed: typescript, go, java
+***** raku optimized in other ways
 
 *** announced: going to skip next sunday, thinking about going with every-other week format
 suggestion: have someone else host perl5 meetings on the
@@ -152,4 +153,4 @@ https://steve-yegge.blogspot.com/
 
 *** a defense of perl/raku talk
 
-https://www.fosdem.org/2021/schedule/event/programming_lang_for_free_software/
+
