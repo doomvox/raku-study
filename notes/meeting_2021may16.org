@@ -15,7 +15,6 @@
 ***** mis-reading an error message from trying the first line of a synopsis from an out-of-date version of File::Find
 ****** bruce gray explains the old form (using a binding operator) was once the way to preserve laziness.
 
-
 *** bruce gray discussed a rosettacode entry
 **** http://rosettacode.org/wiki/Barnsley_fern#Raku 
 ***** william michels 
