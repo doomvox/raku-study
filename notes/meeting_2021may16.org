@@ -135,6 +135,7 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 
 *** fosdem talk, programming_lang_for_free_software
 **** https://www.fosdem.org/2021/schedule/event/programming_lang_for_free_software/
+**** a defense of perl/raku talk
 **** bg summarizes
 ***** corporate backed: typescript, go, java
 ***** raku optimized in other ways
@@ -148,7 +149,7 @@ https://steve-yegge.blogspot.com/
 
 **** Bruce Gray : "For most people the perceived usefulness of a computer language is inversely proportional to the number of theoretical axes the language intends to grind."  -- Larry Wall
 
-*** a defense of perl/raku talk
+
 
 ** announcements
 *** going to skip next sunday, thinking about going with every-other week format
