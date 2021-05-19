@@ -22,7 +22,6 @@
 
 ****** (b.g. suggest just usine none)
 #+BEGIN_SRC perl6
-
     my @a =   Any xx 3;
     my @b = |(Any xx 2), 0;
     say .raku for :@a, :@b;  
