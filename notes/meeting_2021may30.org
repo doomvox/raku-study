@@ -21,6 +21,19 @@
 "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
 
 ****** (b.g. suggest just usine none)
+#+BEGIN_SRC perl6
+
+    my @a =   Any xx 3;
+    my @b = |(Any xx 2), 0;
+    say .raku for :@a, :@b;  
+     ## :a([Any, Any, Any])
+    say @a.none.defined.so;
+    say @b.none.defined.so;
+#+END_SRC
+
+:b([Any, Any, 0])
+True
+False
 
 *** type system: what is accepted by what   
 **** is anything ever cast automatically

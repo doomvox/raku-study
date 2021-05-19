@@ -1,37 +1,37 @@
-- [meeting notes May 16, 2021](#orgf0fc02f)
-  - [agenda](#org82baa0f)
-    - [raku classes as data containers (postponed) (joe brenner)](#org65c0a9b)
-    - [find/grep variants in raku revisited (joe brenner)](#orgdbc5db4)
-    - [bruce gray rosettacode](#org7443fd0)
-    - [argument passing signatures (joe brenner)](#org2ec8302)
-    - [super flat](#orgfbcd43f)
-    - [type system: what is accepted by what](#org5383abc)
-    - [go through my perl5 templates: how much is core raku now?](#orgff653ce)
+- [meeting notes May 16, 2021](#org305f59a)
+  - [agenda](#orgfebe9bb)
+    - [raku classes as data containers (postponed) (joe brenner)](#org5aa0441)
+    - [find/grep variants in raku revisited (joe brenner)](#org36e699b)
+    - [bruce gray rosettacode](#org39aa859)
+    - [argument passing signatures (joe brenner)](#org500f5ba)
+    - [super flat](#orgd9d7679)
+    - [type system: what is accepted by what](#org15c54e9)
+    - [go through my perl5 templates: how much is core raku now?](#orgf1007ee)
 
 
-<a id="orgf0fc02f"></a>
+<a id="org305f59a"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org82baa0f"></a>
+<a id="orgfebe9bb"></a>
 
 ## agenda
 
 
-<a id="org65c0a9b"></a>
+<a id="org5aa0441"></a>
 
 ### raku classes as data containers (postponed) (joe brenner)
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="orgdbc5db4"></a>
+<a id="org36e699b"></a>
 
 ### find/grep variants in raku revisited (joe brenner)
 
 
-<a id="org7443fd0"></a>
+<a id="org39aa859"></a>
 
 ### bruce gray rosettacode
 
@@ -40,7 +40,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org2ec8302"></a>
+<a id="org500f5ba"></a>
 
 ### argument passing signatures (joe brenner)
 
@@ -49,7 +49,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="orgfbcd43f"></a>
+<a id="orgd9d7679"></a>
 
 ### super flat
 
@@ -66,9 +66,20 @@
         "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
         
         1.  (b.g. suggest just usine none)
+        
+            ```perl6
+            my @a =   Any xx 3;
+            my @b = |(Any xx 2), 0;
+            say .raku for :@a, :@b;  
+             ## :a([Any, Any, Any])
+            say @a.none.defined.so;
+            say @b.none.defined.so;
+            ```
+            
+            :b([Any, Any, 0]) True False
 
 
-<a id="org5383abc"></a>
+<a id="org15c54e9"></a>
 
 ### type system: what is accepted by what
 
@@ -77,6 +88,6 @@
     1.  when can you Cool
 
 
-<a id="orgff653ce"></a>
+<a id="orgf1007ee"></a>
 
 ### go through my perl5 templates: how much is core raku now?
