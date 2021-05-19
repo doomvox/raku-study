@@ -21,3 +21,8 @@
 "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
 
 ****** (b.g. suggest just usine none)
+
+*** type system: what is accepted by what   (postponed)
+**** is anything ever cast automatically
+***** when can you Cool
+

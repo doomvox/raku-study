@@ -1,35 +1,36 @@
-- [meeting notes May 16, 2021](#orgf458800)
-  - [agenda](#org725f588)
-    - [raku classes as data containers (postponed) (joe brenner)](#orgae29cbc)
-    - [find/grep variants in raku revisited (joe brenner)](#orgabca471)
-    - [bruce gray rosettacode](#org10eb422)
-    - [argument passing signatures (joe brenner)](#orgb71b7fe)
-    - [super flat (postponed)](#orge99f7a2)
+- [meeting notes May 16, 2021](#orgb822f41)
+  - [agenda](#orge6ae4db)
+    - [raku classes as data containers (postponed) (joe brenner)](#org52b2c8c)
+    - [find/grep variants in raku revisited (joe brenner)](#org16164bc)
+    - [bruce gray rosettacode](#org9c7f812)
+    - [argument passing signatures (joe brenner)](#org18a7459)
+    - [super flat (postponed)](#org652fb2b)
+    - [type system: what is accepted by what   (postponed)](#org7767eb0)
 
 
-<a id="orgf458800"></a>
+<a id="orgb822f41"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org725f588"></a>
+<a id="orge6ae4db"></a>
 
 ## agenda
 
 
-<a id="orgae29cbc"></a>
+<a id="org52b2c8c"></a>
 
 ### raku classes as data containers (postponed) (joe brenner)
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="orgabca471"></a>
+<a id="org16164bc"></a>
 
 ### find/grep variants in raku revisited (joe brenner)
 
 
-<a id="org10eb422"></a>
+<a id="org9c7f812"></a>
 
 ### bruce gray rosettacode
 
@@ -38,7 +39,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="orgb71b7fe"></a>
+<a id="org18a7459"></a>
 
 ### argument passing signatures (joe brenner)
 
@@ -47,7 +48,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="orge99f7a2"></a>
+<a id="org652fb2b"></a>
 
 ### super flat (postponed)
 
@@ -64,3 +65,12 @@
         "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
         
         1.  (b.g. suggest just usine none)
+
+
+<a id="org7767eb0"></a>
+
+### type system: what is accepted by what   (postponed)
+
+1.  is anything ever cast automatically
+
+    1.  when can you Cool
