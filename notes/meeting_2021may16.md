@@ -1,69 +1,69 @@
-- [meeting notes May 16, 2021](#org4302ffb)
-  - [subjects discussed](#org3185c82)
-    - [richard hainsworth reports in on the documentation system work](#org51641f5)
-    - [writing grep variants](#org38f25a7)
-    - [raku classes as data containers (postponed)](#orgc2f79c6)
-    - [bruce gray rosettacode entries](#org8854450)
-    - [argument passing signatures](#orgcc08ead)
-    - [super flat](#orge54119f)
-    - [type system: what is accepted by what](#org7c18016)
-    - [david christensen talked about a few debian sysadmin issues](#org5a4ca57)
-    - [higher-order programming as a substitute for macros (perl5)  (david christensen)](#orgeeb079a)
-    - [william michels asks about one-liners to strip "soft hypens"](#org1f75135)
-    - [bill found them in this page, notably written by hyphenation nerds:](#orgd979ab9)
-    - [William Michels : Q. Should Raku create pre-defined (so-called) "Grey-space" character classes?](#orgfdce181)
-    - [bruce gray supplies some requested one-liners:](#orgc6ec61f)
-    - [he also makes the point you can do a chained operation to strip whitespace as well](#org843c4ff)
-    - [raku also lets you define custom character classes extending pre-defined ones](#orgc0940e5)
-  - [ongoing](#orgcea1e80)
-    - [programming in the large (david christensen)](#org85d1c33)
-    - [raku idioms](#org92d7f7a)
-  - [appendix: the usual links](#org2dacf45)
-    - [code examples](#orgfc5569c)
-    - [meeting notes (material from this file)](#org6b83efc)
-    - [SF Perl page, has links to mailing list](#org76fcae0)
-    - [perl6-users mailing list archive](#orge4d46ca)
-  - [bits](#orgb6bca69)
-    - [bg summarizes](#orga3ad288)
-    - [announced: going to skip next sunday, thinking about going with every-other week format](#orgc3e5f50)
-    - [perl5 cpan module  Filesys::ZFS, david christensen says "not complete"](#org8e84433)
-    - [there's a raku documentation mailing list, created by lizmat](#org579537c)
-    - [steve yegge, a fascinating perl hater:](#org8abe8a2)
-    - [a defense of perl/raku talk](#orgea7c11e)
+- [meeting notes May 16, 2021](#orga22887e)
+  - [subjects discussed](#org323a5fd)
+    - [richard hainsworth reports in on the documentation system work](#org9303da6)
+    - [writing grep variants](#orga848f1e)
+    - [raku classes as data containers (postponed)](#orga29a73e)
+    - [bruce gray rosettacode entries](#orge31c824)
+    - [argument passing signatures](#org21e84e0)
+    - [super flat](#orga2c637d)
+    - [type system: what is accepted by what](#org218d5ed)
+    - [david christensen talked about a few debian sysadmin issues](#org5f5d2c7)
+    - [higher-order programming as a substitute for macros (perl5)  (david christensen)](#orgcd7cdc1)
+    - [william michels asks about one-liners to strip "soft hypens"](#org23941e8)
+    - [bill found them in this page, notably written by hyphenation nerds:](#org67560a1)
+    - [William Michels : Q. Should Raku create pre-defined (so-called) "Grey-space" character classes?](#orgf0ca76a)
+    - [bruce gray supplies some requested one-liners:](#orgc6c9e9b)
+    - [he also makes the point you can do a chained operation to strip whitespace as well](#org5b7778b)
+    - [raku also lets you define custom character classes extending pre-defined ones](#orgb3b478f)
+  - [ongoing](#org52df216)
+    - [programming in the large (david christensen)](#orgb2c3160)
+    - [raku idioms](#org73006be)
+  - [appendix: the usual links](#orgf5cc5ad)
+    - [code examples](#orgc406747)
+    - [meeting notes (material from this file)](#org2e349d8)
+    - [SF Perl page, has links to mailing list](#org2b8490a)
+    - [perl6-users mailing list archive](#org8e0fc1d)
+  - [bits](#org60e2914)
+    - [bg summarizes](#org47f4fc7)
+    - [announced: going to skip next sunday, thinking about going with every-other week format](#orgff6b1f4)
+    - [perl5 cpan module  Filesys::ZFS, david christensen says "not complete"](#orgfd4b9a5)
+    - [there's a raku documentation mailing list, created by lizmat](#org196f75a)
+    - [steve yegge, a fascinating perl hater:](#orgbc2175a)
+    - [a defense of perl/raku talk](#orgb5a7d6b)
 
 
-<a id="org4302ffb"></a>
+<a id="orga22887e"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org3185c82"></a>
+<a id="org323a5fd"></a>
 
 ## subjects discussed
 
 
-<a id="org51641f5"></a>
+<a id="org9303da6"></a>
 
 ### richard hainsworth reports in on the documentation system work
 
-1.  current discussion: static html vs dynamic database-backed system
+1.  current issue: static html vs dynamic database-backed system
 
 
-<a id="org38f25a7"></a>
+<a id="orga848f1e"></a>
 
 ### writing grep variants
 
 1.  my first attempt: /home/doom/End/Cave/DoomfileTools/bin/df<sub>grep.raku</sub>
 
 
-<a id="orgc2f79c6"></a>
+<a id="orga29a73e"></a>
 
 ### raku classes as data containers (postponed)
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org8854450"></a>
+<a id="orge31c824"></a>
 
 ### bruce gray rosettacode entries
 
@@ -76,7 +76,7 @@
 3.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="orgcc08ead"></a>
+<a id="org21e84e0"></a>
 
 ### argument passing signatures
 
@@ -85,7 +85,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="orge54119f"></a>
+<a id="orga2c637d"></a>
 
 ### super flat
 
@@ -102,7 +102,7 @@
         "As a follow up, I wonder if a good way to test 'all elements are undefined' is @shaped-array.any.so ???"
 
 
-<a id="org7c18016"></a>
+<a id="org218d5ed"></a>
 
 ### type system: what is accepted by what
 
@@ -111,7 +111,7 @@
     1.  when can you Cool
 
 
-<a id="org5a4ca57"></a>
+<a id="org5f5d2c7"></a>
 
 ### david christensen talked about a few debian sysadmin issues
 
@@ -130,7 +130,7 @@
     samsung gb ssd performed better than usb drives, dram cache burn up a sata slot.
 
 
-<a id="orgeeb079a"></a>
+<a id="orgcd7cdc1"></a>
 
 ### higher-order programming as a substitute for macros (perl5)  (david christensen)
 
@@ -163,7 +163,7 @@ As a demo of functional programming, david christensen showed us his code for ge
                     1.  need to do string comparisons later might seem inelegant
 
 
-<a id="org1f75135"></a>
+<a id="org23941e8"></a>
 
 ### william michels asks about one-liners to strip "soft hypens"
 
@@ -176,7 +176,7 @@ As a demo of functional programming, david christensen showed us his code for ge
     they mark a point in a word where it's okay to hyphenate, but when there's no need to hyphenate, they become invisible zero-width markers
 
 
-<a id="orgd979ab9"></a>
+<a id="org67560a1"></a>
 
 ### bill found them in this page, notably written by hyphenation nerds:
 
@@ -187,12 +187,12 @@ As a demo of functional programming, david christensen showed us his code for ge
     Hy­phen­ation is the au­to­mated process of break­ing words be­tween lines to cre­ate more con­sis­tency across a text block.
 
 
-<a id="orgfdce181"></a>
+<a id="orgf0ca76a"></a>
 
 ### William Michels : Q. Should Raku create pre-defined (so-called) "Grey-space" character classes?
 
 
-<a id="orgc6ec61f"></a>
+<a id="orgc6c9e9b"></a>
 
 ### bruce gray supplies some requested one-liners:
 
@@ -201,14 +201,14 @@ As a demo of functional programming, david christensen showed us his code for ge
 2.  raku -e 'say .trans("\c[SOFT HYPHEN]" => "").chars for lines();'
 
 
-<a id="org843c4ff"></a>
+<a id="org5b7778b"></a>
 
 ### he also makes the point you can do a chained operation to strip whitespace as well
 
 1.  raku -e 'say .trans("\c[SOFT HYPHEN]" => "").trans("\s" => "").chars for lines();'
 
 
-<a id="orgc0940e5"></a>
+<a id="orgb3b478f"></a>
 
 ### raku also lets you define custom character classes extending pre-defined ones
 
@@ -224,12 +224,12 @@ $text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
     2.  From Bruce Gray : <https://www.ptiglobal.com/2018/04/26/the-beauty-of-unicode-zero-width-characters/>
 
 
-<a id="orgcea1e80"></a>
+<a id="org52df216"></a>
 
 ## ongoing
 
 
-<a id="org85d1c33"></a>
+<a id="orgb2c3160"></a>
 
 ### programming in the large (david christensen)
 
@@ -238,7 +238,7 @@ $text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
 2.  raku die handlers
 
 
-<a id="org92d7f7a"></a>
+<a id="org73006be"></a>
 
 ### raku idioms
 
@@ -249,64 +249,64 @@ $text_no_gs ~~ s:g/<[\s\x[00ad]]>//;
     2.  maybe: favor methods over functions?
 
 
-<a id="org2dacf45"></a>
+<a id="orgf5cc5ad"></a>
 
 ## appendix: the usual links
 
 
-<a id="orgfc5569c"></a>
+<a id="orgc406747"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may16>
 
 
-<a id="org6b83efc"></a>
+<a id="org2e349d8"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may16.md>
 
 
-<a id="org76fcae0"></a>
+<a id="org2b8490a"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="orge4d46ca"></a>
+<a id="org8e0fc1d"></a>
 
 ### perl6-users mailing list archive
 
 <https://www.nntp.perl.org/group/perl.perl6.users/>
 
 
-<a id="orgb6bca69"></a>
+<a id="org60e2914"></a>
 
 ## bits
 
 
-<a id="orga3ad288"></a>
+<a id="org47f4fc7"></a>
 
 ### bg summarizes
 
 fosdem codesection langs for opensource corporate backed typescript go java raku optimized in other ways
 
 
-<a id="orgc3e5f50"></a>
+<a id="orgff6b1f4"></a>
 
 ### announced: going to skip next sunday, thinking about going with every-other week format
 
 suggestion: have someone else host perl5 meetings on the off-weeks. david christensen is interested.
 
 
-<a id="org8e84433"></a>
+<a id="orgfd4b9a5"></a>
 
 ### perl5 cpan module  Filesys::ZFS, david christensen says "not complete"
 
 
-<a id="org579537c"></a>
+<a id="org196f75a"></a>
 
 ### there's a raku documentation mailing list, created by lizmat
 
@@ -317,7 +317,7 @@ suggestion: have someone else host perl5 meetings on the off-weeks. david christ
     <https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.md>
 
 
-<a id="org8abe8a2"></a>
+<a id="orgbc2175a"></a>
 
 ### steve yegge, a fascinating perl hater:
 
@@ -326,7 +326,7 @@ suggestion: have someone else host perl5 meetings on the off-weeks. david christ
 1.  Bruce Gray : "For most people the perceived usefulness of a computer language is inversely proportional to the number of theoretical axes the language intends to grind."  &#x2013; Larry Wall
 
 
-<a id="orgea7c11e"></a>
+<a id="orgb5a7d6b"></a>
 
 ### a defense of perl/raku talk
 
