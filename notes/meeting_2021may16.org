@@ -7,7 +7,12 @@
 ***** (don't know how to subscribe, or if it's archived somewhere)
 
 *** raku features for writing find/grep variants (joe brenner)
-**** my first attempt: /home/doom/End/Cave/DoomfileTools/bin/df_grep.raku
+**** my first attempt in perl5 bogged down, /home/doom/End/Cave/DoomfileTools/bin/df_grep.raku
+***** impedance mismatch between oop and File::Find's wanted
+****** how to pass args to wanted?
+****** bruce gray suggests an anonymous sub with a closure
+
+
 *** raku classes as data containers (postponed)
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
 
