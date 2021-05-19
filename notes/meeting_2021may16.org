@@ -2,7 +2,6 @@
 ** subjects discussed 
 *** richard hainsworth reports in on the documentation system work
 **** current issue: static html vs dynamic database-backed system
-
 **** a raku documentation mailing list, created by lizmat
 ***** documentation@raku.org
 ***** (don't know how to subscribe, or if it's archived somewhere)
