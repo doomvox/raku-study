@@ -15,14 +15,12 @@
 *** raku classes as data containers (postponed)
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
 
-*** bruce gray rosettacode entries
+*** bruce gray discussed a rosettacode entry
 **** http://rosettacode.org/wiki/Barnsley_fern#Raku 
 
-15:22:05	 From Bruce Gray : http://rosettacode.org/wiki/Barnsley_fern#Raku
-15:25:20	 From William Michels : https://en.wikipedia.org/wiki/Affine_transformation
-15:25:47	 From William Michels : https://mathworld.wolfram.com/AffineTransformation.html
-
-
+***** william michels 
+****** https://en.wikipedia.org/wiki/Affine_transformation
+****** https://mathworld.wolfram.com/AffineTransformation.html
 
 **** http://rosettacode.org/wiki/Coprime_triplets#Raku
 **** https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
