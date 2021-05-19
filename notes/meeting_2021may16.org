@@ -6,7 +6,7 @@
 ***** documentation@raku.org
 ***** (don't know how to subscribe, or if it's archived somewhere)
 
-*** writing grep variants
+*** raku pieces for writing grep variants (joe brenner)
 **** my first attempt: /home/doom/End/Cave/DoomfileTools/bin/df_grep.raku
 *** raku classes as data containers (postponed)
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
