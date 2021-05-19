@@ -1,5 +1,8 @@
 * meeting notes May 16, 2021
-** agenda stuff
+** subjects discussed 
+*** richard hainsworth reports in on the documentation system work
+**** current discussion: static html vs dynamic database-backed system
+
 *** writing grep variants
 **** my first attempt: /home/doom/End/Cave/DoomfileTools/bin/df_grep.raku
 *** raku classes as data containers (postponed)
