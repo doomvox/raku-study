@@ -23,3 +23,15 @@
 
 *** go through my perl5 templates: how much is core raku now?
 
+
+
+** appendix: the usual links
+*** code examples
+https://github.com/doomvox/raku-study/tree/main/bin/2021may30
+*** meeting notes (material from this file)
+https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may30.md
+*** SF Perl page, has links to mailing list
+http://sf.pm.org/
+*** perl6-users mailing list archive
+https://www.nntp.perl.org/group/perl.perl6.users/
+
