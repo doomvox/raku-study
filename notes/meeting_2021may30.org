@@ -27,13 +27,14 @@
     my @b = |(Any xx 2), 0;
     say .raku for :@a, :@b;  
      ## :a([Any, Any, Any])
-    say @a.none.defined.so;
-    say @b.none.defined.so;
+     ## :b([Any, Any, 0])
+    say @a.none.defined.so;  # True
+    say @b.none.defined.so;  # False
 #+END_SRC
 
-:b([Any, Any, 0])
-True
-False
+
+
+
 
 *** type system: what is accepted by what   
 **** is anything ever cast automatically

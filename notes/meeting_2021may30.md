@@ -1,37 +1,37 @@
-- [meeting notes May 16, 2021](#org305f59a)
-  - [agenda](#orgfebe9bb)
-    - [raku classes as data containers (postponed) (joe brenner)](#org5aa0441)
-    - [find/grep variants in raku revisited (joe brenner)](#org36e699b)
-    - [bruce gray rosettacode](#org39aa859)
-    - [argument passing signatures (joe brenner)](#org500f5ba)
-    - [super flat](#orgd9d7679)
-    - [type system: what is accepted by what](#org15c54e9)
-    - [go through my perl5 templates: how much is core raku now?](#orgf1007ee)
+- [meeting notes May 16, 2021](#org9770a66)
+  - [agenda](#org0c6bd62)
+    - [raku classes as data containers (postponed) (joe brenner)](#orgda88d4f)
+    - [find/grep variants in raku revisited (joe brenner)](#org672a205)
+    - [bruce gray rosettacode](#org546eab4)
+    - [argument passing signatures (joe brenner)](#org97d1007)
+    - [super flat](#orge392cca)
+    - [type system: what is accepted by what](#orgbca3ef4)
+    - [go through my perl5 templates: how much is core raku now?](#org72726fe)
 
 
-<a id="org305f59a"></a>
+<a id="org9770a66"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="orgfebe9bb"></a>
+<a id="org0c6bd62"></a>
 
 ## agenda
 
 
-<a id="org5aa0441"></a>
+<a id="orgda88d4f"></a>
 
 ### raku classes as data containers (postponed) (joe brenner)
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku>
 
 
-<a id="org36e699b"></a>
+<a id="org672a205"></a>
 
 ### find/grep variants in raku revisited (joe brenner)
 
 
-<a id="org39aa859"></a>
+<a id="org546eab4"></a>
 
 ### bruce gray rosettacode
 
@@ -40,7 +40,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org500f5ba"></a>
+<a id="org97d1007"></a>
 
 ### argument passing signatures (joe brenner)
 
@@ -49,7 +49,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="orgd9d7679"></a>
+<a id="orge392cca"></a>
 
 ### super flat
 
@@ -72,14 +72,13 @@
             my @b = |(Any xx 2), 0;
             say .raku for :@a, :@b;  
              ## :a([Any, Any, Any])
-            say @a.none.defined.so;
-            say @b.none.defined.so;
+             ## :b([Any, Any, 0])
+            say @a.none.defined.so;  # True
+            say @b.none.defined.so;  # False
             ```
-            
-            :b([Any, Any, 0]) True False
 
 
-<a id="org15c54e9"></a>
+<a id="orgbca3ef4"></a>
 
 ### type system: what is accepted by what
 
@@ -88,6 +87,6 @@
     1.  when can you Cool
 
 
-<a id="orgf1007ee"></a>
+<a id="org72726fe"></a>
 
 ### go through my perl5 templates: how much is core raku now?
