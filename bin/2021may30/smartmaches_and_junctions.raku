@@ -10,3 +10,5 @@ my @lines = (
     'Perhaps I should not hope to convey in mere words the unutterable hideousness that can dwell in absolute silence and barren immensity. -- H.P. Lovecraft',
     );
 
+
+say @lines.grep(/fashion/);
