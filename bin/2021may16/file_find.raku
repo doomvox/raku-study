@@ -26,20 +26,21 @@ my $new_loc = "$loc/the_depths";
 }
 
 {
-    ## comparing the built-in "dir" to the File::Find module's "find"
+    ## comparing the built-in "dir" to the File::Find module's "find" (which recurses)
     my @check = dir( $loc ).sort;
-    say "dir sees: ", @check.elems;
+    say "dir sees: ", @check.elems; # dir sees: 9   
     say @check[0..2];
     # ("/home/doom/tmp/grep_me/blob".IO "/home/doom/tmp/grep_me/dracula".IO "/home/doom/tmp/grep_me/godzilla".IO)
     @check>>.say;
 
     say "===";
     use File::Find;
+    ## The first line of SYNOPSIS in the *old* docs suggest using the binding operator
     ## my @list := find(dir => $loc);  
     ##  # Type check failed in binding; expected Positional but got Seq ((IO::Path.new("/home...)
 
     my @list = find( dir => $loc, type => 'file' );  
-    say "find sees: ", @list.elems;
+    say "find sees: ", @list.elems;   # find sees: 16
     @list>>.say;
 
     # my @files = @list>>.Str;
