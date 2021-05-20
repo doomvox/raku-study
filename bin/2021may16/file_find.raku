@@ -4,6 +4,23 @@
 
 use v6;
 
+## side issue: mkdir seems to do what I want without raising inane errors/warnings
+## there's some question as to whether this is correct behavior: bug?
+
+my $random_name = "mxyplct";
+my $some_loc = '/home/doom/tmp/$random_name';
+{
+    mkdir("$some_loc");  
+}
+
+{
+    mkdir("$some_loc/yaddah/yaddah/yaddah");   ## creates intermediate directories without complaint (correct behavior?)
+    say "still here?";
+}
+
+
+
+
 ## create some files for us to grep through 
 my $loc = '/home/doom/tmp/grep_me';
 chdir( $loc );
@@ -13,14 +30,7 @@ for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
 
-{
-    mkdir("$new_loc/yaddah/yaddah/yaddah");   ## creates intermediate directories without complaint (correct behavior?)
-    say "still here?";
-}
 
-{
-    mkdir("$new_loc");  
-}
 
 
 # create a sub directory with similar files in it
