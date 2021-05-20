@@ -12,3 +12,4 @@ my @lines = (
 
 
 say @lines.grep(/fashion/);
+say @lines.grep(/hideousness/);
