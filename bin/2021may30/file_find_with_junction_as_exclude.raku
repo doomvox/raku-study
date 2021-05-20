@@ -7,7 +7,7 @@ use File::Find;
 
 my @exclude = (
     rx/mothera/,
-    rx//
+    rx/camel/
     );
 
 my @files = find( dir => $loc, type => 'file', exclude => any(@exclude) );    
