@@ -23,3 +23,5 @@ my @exclude = (
     );
 
 my @files = find( dir => $loc, type => 'file', exclude => any(@exclude) );    
+
+say @files;
