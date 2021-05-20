@@ -21,7 +21,7 @@ my @files_all = find( dir => $loc, type => 'file' );
 say @files_all.elems;     # 3
 
 ## with a handcrafted regex we find only 2, skipping mothera as expected
-my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/^[mothera|camel]$/ );    
+my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/\b[mothera|camel]$/ );    
 say @files_trimmed.elems; # 2
 
 ## Trying to do the same with an any junction doesn't work:
