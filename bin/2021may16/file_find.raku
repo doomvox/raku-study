@@ -18,9 +18,7 @@ my $some_loc = '/home/doom/tmp/$random_name';
     say "still going...";
 }
 
-
-
-
+say '---';
 ## create some files for us to grep through 
 my $loc = '/home/doom/tmp/grep_me';
 chdir( $loc );
