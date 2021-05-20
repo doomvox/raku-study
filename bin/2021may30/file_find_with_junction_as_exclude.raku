@@ -23,10 +23,10 @@ my @exclude = (
     );
 
 my @files_all = find( dir => $loc, type => 'file' );
-say @files_all;
+say @files_all.elems;     # 3
 
 my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/mothera|camel/ );    
-say @files_trimmed;
+say @files_trimmed.elems; # 2
 
 my @files = find( dir => $loc, type => 'file', exclude => any(@exclude) );    
 say @files;
