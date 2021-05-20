@@ -31,7 +31,7 @@ for @lines -> $line {
     }
 }
 
-say "---";
+say '---', $++, '---';
 for @lines -> $line {
     for @pats -> $pat { 
         say $line if $line ~~ $pat;
