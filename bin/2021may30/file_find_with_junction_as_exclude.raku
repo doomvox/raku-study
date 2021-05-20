@@ -5,7 +5,7 @@
 use v6;
 use File::Find;
 
-my $loc = "/home/doom/tmp/monster_island";
+my $loc = "~/tmp/monster_island";
 mkdir( $loc );
 chdir( $loc );
 my @monsters = < godzilla mothera rhodan >;
