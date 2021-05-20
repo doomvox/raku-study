@@ -25,8 +25,11 @@ my @exclude = (
 my @files_all = find( dir => $loc, type => 'file' );
 say @files_all;
 
-my @files_trimmed = find( dir => $loc, type => 'file', exclude => any(@exclude) );    
+my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/mothera|camel/ );    
 
-say @files_trimmed;
+
+my @files = find( dir => $loc, type => 'file', exclude => any(@exclude) );    
+
+say @files;
 # [any(("/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/rhodan".IO), ("/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/mothera".IO "/home/doom/tmp/monster_island/rhodan".IO))]
 
