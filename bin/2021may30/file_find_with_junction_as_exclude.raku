@@ -26,7 +26,7 @@ my @files_all = find( dir => $loc, type => 'file' );
 say @files_all;
 
 my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/mothera|camel/ );    
-
+say @files_trimmed;
 
 my @files = find( dir => $loc, type => 'file', exclude => any(@exclude) );    
 
