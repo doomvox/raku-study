@@ -6,8 +6,8 @@ use v6;
 use File::Find;
 
 my @exclude = (
-    rx/wolf/,
-    rx/lizard/
+    rx/mothera/,
+    rx//
     );
 
 my @files = find( dir => $loc, type => 'file', exclude => any(@exclude) );    
