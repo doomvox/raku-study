@@ -16,22 +16,25 @@ for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
 
+## without exclude, we find all 3 files
+my @files_all = find( dir => $loc, type => 'file' );
+say @files_all.elems;     # 3
+
+## with a handcrafted regex we find only 2, skipping mothera as expected
+my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/mothera|camel/ );    
+say @files_trimmed.elems; # 2
+
+## Trying to do the same with an any junction 
 ## doing a find with an exclude:
 my @exclude = (
     rx/mothera/,
     rx/camel/
     );
-
-my @files_all = find( dir => $loc, type => 'file' );
-say @files_all.elems;     # 3
-
-my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/mothera|camel/ );    
-say @files_trimmed.elems; # 2
-
 my @files = find( dir => $loc, type => 'file', exclude => any(@exclude) );    
 say @files;
 # [any(("/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/rhodan".IO), ("/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/mothera".IO "/home/doom/tmp/monster_island/rhodan".IO))]
 
+## note that this works:
 for @monsters {
     .say unless $_ ~~ any(@exclude)
 }
