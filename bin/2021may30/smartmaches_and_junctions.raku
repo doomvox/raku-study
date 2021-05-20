@@ -45,7 +45,7 @@ for @lines -> $line {
 }
 
 say '---4---';
-my $any_pat = join '|', @pats>>.Str;
+my $any_pat = join '|', @pats>>.raku;
 for @lines -> $line {
     say $line if $line ~~ $any_pat
 }
