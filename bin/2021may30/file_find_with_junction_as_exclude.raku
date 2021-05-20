@@ -7,7 +7,7 @@ use File::Find;
 
 my $HOME = %*ENV{'HOME'};
 say $HOME;
-my $loc = "~/tmp/monster_island";
+my $loc = "$HOME/tmp/monster_island";
 mkdir( $loc );
 chdir( $loc );
 my @monsters = < godzilla mothera rhodan >;
