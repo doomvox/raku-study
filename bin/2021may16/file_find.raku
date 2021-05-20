@@ -43,7 +43,7 @@ my $new_loc = "$loc/the_depths";
     say "find sees: ", @list.elems;   # find sees: 16
     @list>>.say;
 
-    my @files = @list>>.Str;
+    my @files = @list>>.Str.say;
     # The iterator of this Seq is already in use/consumed by another Seq
     # Hm: so you couldn't do nested loops over the same Seq?
 
