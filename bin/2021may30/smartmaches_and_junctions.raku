@@ -20,7 +20,7 @@ for @lines -> $line {
 
 
 my @pats = (
-    qr/fashion/,
-    qr/hideousness/
+    rx/fashion/,
+    rx/hideousness/
       );
 
