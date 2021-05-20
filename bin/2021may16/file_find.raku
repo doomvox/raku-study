@@ -65,7 +65,7 @@ my $new_loc = "$loc/the_depths";
 
         # .say; # Q: what's in $_  # (Any)
         # say @hits if @hits;
-        @hits.say if @hits;
+        @hits>>.say if @hits;
     }
 }
 
