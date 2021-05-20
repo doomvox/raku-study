@@ -5,8 +5,8 @@
 use v6;
 
 my @lines = (
-    'Mankind has been complaining about the quantity of reading matter and the scarcity of time for reading it since at least the days of Leviticus... -- JR Licklider',
+    'Mankind has been complaining about the quantity of reading matter and the scarcity of time for reading it since at least the days of Leviticus... -- J.R. Licklider',
     'Let fashion and terminology not mislead us into viewing geometry too differently from physics. -- W.V. Quine',
-    '',
+    'Perhaps I should not hope to convey in mere words the unutterable hideousness that can dwell in absolute silence and barren immensity. -- H.P. Lovecraft',
     );
 
