@@ -35,3 +35,5 @@ say @files;
 for @monsters {
     .say unless $_ ~~ any(@exclude)
 }
+# godzilla
+# rhodan
