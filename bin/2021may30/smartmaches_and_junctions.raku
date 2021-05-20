@@ -15,8 +15,8 @@ say @lines.grep(/fashion/);
 say @lines.grep(/hideousness/);
 
 for @lines -> $line {
-    $line ~~ /fashion/;
-    }
+    say $line if $line ~~ /fashion/;
+}
 
 
 my @pats = (
