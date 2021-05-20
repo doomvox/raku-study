@@ -12,6 +12,17 @@ my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
 for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
+
+{
+    mkdir("$new_loc/yaddah/yaddah/yaddah");   ## creates intermediate directories without complaint (correct behavior?)
+    say "still here?";
+}
+
+{
+    mkdir("$new_loc");  
+}
+
+
 # create a sub directory with similar files in it
 my $new_loc = "$loc/the_depths";
 {
@@ -43,8 +54,6 @@ my $new_loc = "$loc/the_depths";
     say "find sees: ", @list.elems;   # find sees: 16
     @list>>.say;
 
-    ## my @files = @list>>.Str.say;
-
     say "---";
     # for @files -> $f {
     for @list -> $f {
@@ -54,17 +63,8 @@ my $new_loc = "$loc/the_depths";
         # .say; # Q: what's in $_  # (Any)
         say @hits if @hits;
     }
-
 }
 
-{
-    mkdir("$new_loc/yaddah/yaddah/yaddah");   ## creates intermediate directories without complaint (correct behavior?)
-    say "still here?";
-}
-
-{
-    mkdir("$new_loc");  
-}
 
 
 
