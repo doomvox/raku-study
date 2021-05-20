@@ -33,7 +33,7 @@ say @files;
 ## (1) we end up with a single "any" junction in the first element
 ## (2) there are five hits, two redundant rhodan and godzillas, plus one mothera slips through (?)
 
-## note that this works:
+## but note that this works:
 for @monsters {
     .say unless $_ ~~ any(@exclude)
 }
