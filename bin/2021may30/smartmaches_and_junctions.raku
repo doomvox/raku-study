@@ -41,7 +41,5 @@ for @lines -> $line {
 
 say '---3---';
 for @lines -> $line {
-    for @pats -> $pat { 
-        say $line if $line ~~ $pat;
-    }
+    say $line if $line ~~ any( @pats );
 }
