@@ -33,5 +33,5 @@ say @files;
 # [any(("/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/rhodan".IO), ("/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/mothera".IO "/home/doom/tmp/monster_island/rhodan".IO))]
 
 for @monsters {
-    .say if $_ ~~ any(@exclude)
+    .say unless $_ ~~ any(@exclude)
 }
