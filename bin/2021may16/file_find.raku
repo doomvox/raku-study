@@ -36,7 +36,7 @@ my $new_loc = "$loc/the_depths";
     for @monsters -> $name {
 #        my $num = @numbers.pop;
         my $num = $++;
-        $name.IO.spurt("The $name attacks from the depths!\n$num\n");
+        $name.IO.spurt("The $name attacks from the depths!: $num\n");
     }
     chdir( $loc );
 }
