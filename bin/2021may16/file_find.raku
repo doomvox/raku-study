@@ -12,7 +12,6 @@ my $some_loc = '/home/doom/tmp/$random_name';
 {
     mkdir("$some_loc");  
 }
-
 {
     mkdir("$some_loc/yaddah/yaddah/yaddah");   ## creates intermediate directories without complaint (correct behavior?)
     say "still here?";
