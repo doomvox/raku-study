@@ -11,8 +11,8 @@ my $random_name = "mxyplct";
 my $some_loc = '/home/doom/tmp/$random_name';
 {
     mkdir("$some_loc");  
-}
-{
+    mkdir("$some_loc");  
+       ## no error if it exists already  (could be a bug, actually?)
     mkdir("$some_loc/yaddah/yaddah/yaddah");   ## creates intermediate directories without complaint (correct behavior?)
     say "still here?";
 }
@@ -28,10 +28,6 @@ my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
 for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
-
-
-
-
 # create a sub directory with similar files in it
 my $new_loc = "$loc/the_depths";
 {
