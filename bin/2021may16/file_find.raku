@@ -57,6 +57,7 @@ my $new_loc = "$loc/the_depths";
     @list>>.say;
 
     say "---";
+    # now search through the files for any with lines that match grep pattern
     # for @files -> $f {
     for @list -> $f {
         my @hits = 
