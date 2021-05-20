@@ -12,7 +12,7 @@ my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
 for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
-# create a sub directory 
+# create a sub directory with similar files in it
 my $new_loc = "$loc/the_depths";
 {
     mkdir( $new_loc );   ## no error if it exists already  (could be a bug, actually?)
