@@ -43,3 +43,5 @@ say '---3---';
 for @lines -> $line {
     say $line if $line ~~ any( @pats );
 }
+
+say '---4---';
