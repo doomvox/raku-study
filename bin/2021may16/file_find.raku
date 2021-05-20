@@ -4,9 +4,10 @@
 
 use v6;
 
+## create some files for us to grep through 
 my $loc = '/home/doom/tmp/grep_me';
-
 chdir( $loc );
+# create a file for each monster with one line in each
 my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
 for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
