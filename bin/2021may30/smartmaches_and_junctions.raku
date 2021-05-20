@@ -13,3 +13,9 @@ my @lines = (
 
 say @lines.grep(/fashion/);
 say @lines.grep(/hideousness/);
+
+my @pats = (
+    qr/fashion/,
+    qr/hideousness/
+      );
+
