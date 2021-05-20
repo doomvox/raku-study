@@ -25,7 +25,6 @@ my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/mothera|cam
 say @files_trimmed.elems; # 2
 
 ## Trying to do the same with an any junction 
-## doing a find with an exclude:
 my @exclude = (
     rx/mothera/,
     rx/camel/
