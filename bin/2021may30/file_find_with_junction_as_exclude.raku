@@ -25,7 +25,7 @@ my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/<|w>[mother
 say @files_trimmed.elems; # 2
 
 ## Trying to do the same with an any junction doesn't work:
-my @exclude = ( rx/mothera/, rx/camel/ );
+my @exclude = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
 my @files = find( dir => $loc, type => 'file', exclude => any(@exclude) );    
 say @files;
 # [any(("/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/rhodan".IO), ("/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/mothera".IO "/home/doom/tmp/monster_island/rhodan".IO))]
