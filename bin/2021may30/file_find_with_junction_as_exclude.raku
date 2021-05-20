@@ -5,6 +5,7 @@
 use v6;
 use File::Find;
 
+## create some files to find
 my $HOME = %*ENV{'HOME'};
 say $HOME;
 my $loc = "$HOME/tmp/monster_island";
@@ -15,6 +16,7 @@ for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
 
+## doing a find with an exclude:
 my @exclude = (
     rx/mothera/,
     rx/camel/
