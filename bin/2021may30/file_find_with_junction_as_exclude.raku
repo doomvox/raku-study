@@ -24,11 +24,13 @@ say @files_all.elems;     # 3
 my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/mothera|camel/ );    
 say @files_trimmed.elems; # 2
 
-## Trying to do the same with an any junction 
+## Trying to do the same with an any junction doesn't work:
 my @exclude = ( rx/mothera/, rx/camel/ );
 my @files = find( dir => $loc, type => 'file', exclude => any(@exclude) );    
 say @files;
 # [any(("/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/rhodan".IO), ("/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/mothera".IO "/home/doom/tmp/monster_island/rhodan".IO))]
+## (1) we end up with a single "any" junction in the first element
+## (2) there are five hits, two redundant rhodan and godzillas, plus one mothera slips through (?)
 
 ## note that this works:
 for @monsters {
