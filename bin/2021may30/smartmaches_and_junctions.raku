@@ -50,3 +50,9 @@ for @lines -> $line {
 # for @lines -> $line {
 #     say $line if $line ~~ $any_pat
 # }
+
+
+say '---5---';
+for @lines -> $line {
+    say $line if $line ~~ any( @pats );
+}
