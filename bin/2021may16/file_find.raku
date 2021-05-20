@@ -32,11 +32,8 @@ my $new_loc = "$loc/the_depths";
 {
     mkdir( $new_loc );   ## no error if it exists already  (could be a bug, actually?)
     chdir( $new_loc );
-#    my @numbers  = <wuhn tew thuree foah fahv sex sevhun hate>;
     for @monsters -> $name {
-#        my $num = @numbers.pop;
-        my $num = $++;
-        $name.IO.spurt("The $name attacks from the depths!: {$++} \n");
+        $name.IO.spurt("The $name attacks from the depths!: {$++} \none more line\nstill another\nAnd again: $name\n");
     }
     chdir( $loc );
 }
