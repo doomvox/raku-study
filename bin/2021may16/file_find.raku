@@ -36,8 +36,8 @@ my $new_loc = "$loc/the_depths";
     say "===";
     use File::Find;
     ## The first line of SYNOPSIS in the *old* docs suggest using the binding operator
-    ## my @list := find(dir => $loc);  
-    ##  # Type check failed in binding; expected Positional but got Seq ((IO::Path.new("/home...)
+    ##   my @list := find(dir => $loc);  
+    ##   # Type check failed in binding; expected Positional but got Seq ((IO::Path.new("/home...)
 
     my @list = find( dir => $loc, type => 'file' );  
     say "find sees: ", @list.elems;   # find sees: 16
@@ -45,6 +45,7 @@ my $new_loc = "$loc/the_depths";
 
     # my @files = @list>>.Str;
     # The iterator of this Seq is already in use/consumed by another Seq
+    # Hm: so you couldn't do nested loops over the same Seq?
 
     say "---";
     # for @files -> $f {
