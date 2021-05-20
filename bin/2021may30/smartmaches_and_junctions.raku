@@ -14,6 +14,11 @@ my @lines = (
 say @lines.grep(/fashion/);
 say @lines.grep(/hideousness/);
 
+for @lines -> $line {
+    $line ~~ /fashion/;
+    }
+
+
 my @pats = (
     qr/fashion/,
     qr/hideousness/
