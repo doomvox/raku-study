@@ -13,9 +13,6 @@ for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
 
-
-
-
 my @exclude = (
     rx/mothera/,
     rx/camel/
