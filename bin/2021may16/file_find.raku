@@ -39,6 +39,7 @@ my $new_loc = "$loc/the_depths";
     ##  # Type check failed in binding; expected Positional but got Seq ((IO::Path.new("/home...)
 
     my @list = find( dir => $loc, type => 'file' );  
+    say "find sees: ", @list.elems;
     @list>>.say;
 
     # my @files = @list>>.Str;
