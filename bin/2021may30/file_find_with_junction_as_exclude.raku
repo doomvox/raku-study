@@ -5,6 +5,8 @@
 use v6;
 use File::Find;
 
+say $HOME;
+
 my $loc = '/home/doom/tmp/grep_me';
 mkdir( $loc );
 chdir( $loc );
