@@ -5,7 +5,7 @@
 use v6;
 use File::Find;
 
-say $HOME;
+say %ENV{'HOME'};
 
 my $loc = '/home/doom/tmp/grep_me';
 mkdir( $loc );
