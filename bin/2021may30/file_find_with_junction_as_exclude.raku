@@ -5,6 +5,7 @@
 use v6;
 use File::Find;
 
+my $HOME = %*ENV{'HOME'};
 my $loc = "~/tmp/monster_island";
 mkdir( $loc );
 chdir( $loc );
