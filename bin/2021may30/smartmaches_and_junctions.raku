@@ -45,7 +45,7 @@ for @lines -> $line {
 }
 
 say '---4---';
-my $any_pat = join '|', @pats>>.gist;
+my $any_pat = join '|', @pats;
 say $any_pat;
 for @lines -> $line {
     say $line if $line ~~ $any_pat
