@@ -9,8 +9,9 @@ my $loc = '/home/doom/tmp/grep_me';
 mkdir( $loc );
 chdir( $loc );
 
+my @monsters = < godzilla mothera rhodan >;
 
-my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
+
 
 
 my @exclude = (
