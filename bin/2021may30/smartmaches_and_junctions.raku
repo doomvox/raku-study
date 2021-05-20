@@ -19,10 +19,15 @@ for @lines -> $line {
     say $line if $line ~~ /fashion/;
 }
 
-
-
 my @pats = (
     rx/fashion/,
     rx/hideousness/
       );
+
+say "---";
+for @lines -> $line {
+    for @pats -> $pat { 
+        say $line if $line ~~ $pat;
+    }
+}
 
