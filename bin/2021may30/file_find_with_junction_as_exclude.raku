@@ -9,6 +9,9 @@ my $loc = '/home/doom/tmp/grep_me';
 mkdir( $loc );
 chdir( $loc );
 my @monsters = < godzilla mothera rhodan >;
+for @monsters -> $name {
+    $name.IO.spurt("The $name attacks!");
+}
 
 
 
