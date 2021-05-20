@@ -54,5 +54,5 @@ for @lines -> $line {
 
 say '---5---';
 for @lines {
-    .say if $_ ~~ any( @pats );
+    .say if .any( @pats );
 }
