@@ -15,7 +15,7 @@ my $some_loc = '/home/doom/tmp/$random_name';
        ## no error if it exists already  (could be a bug, actually?)
     mkdir("$some_loc/yaddah/yaddah/yaddah");
        ## creates intermediate directories without complaint (correct behavior?)
-    say "still here?";
+    say "still going...";
 }
 
 
