@@ -14,7 +14,8 @@ my @lines = (
 say @lines.grep(/fashion/);
 say @lines.grep(/hideousness/);
 
-say '---', $++, '---';
+# say '---', $++, '---';  ## stays 0 on every invocation (?)
+say '---0---';
 for @lines -> $line {
     say $line if $line ~~ /fashion/;
 }
@@ -24,14 +25,21 @@ my @pats = (
     rx/hideousness/
       );
 
-say '---', $++, '---';
+say '---1---';
 for @lines -> $line {
     for @pats -> $pat { 
         say $line if $line ~~ $pat;
     }
 }
 
-say '---', $++, '---';
+say '---2---';
+for @lines -> $line {
+    for @pats -> $pat { 
+        say $line if $line ~~ $pat;
+    }
+}
+
+say '---3---';
 for @lines -> $line {
     for @pats -> $pat { 
         say $line if $line ~~ $pat;
