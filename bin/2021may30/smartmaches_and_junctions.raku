@@ -45,3 +45,4 @@ for @lines -> $line {
 }
 
 say '---4---';
+my $any_pat = join '|', @pats>>.Str;
