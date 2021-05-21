@@ -92,11 +92,14 @@ say "---";
 
 {
         say "---";
+
+        # note: need to quote regex metachars to use in rx later
         my @exc_str =
-        ( # note: need to quote regex metachars to use in rx later
-            "'/'Old'/'",
-            "'/'Hid'/'"
+        ( 
+            "'/Old/'",
+            "'/Hid/'"
         );
+
 
         my $exc_all_str = join '|', @exc_str;
         my $exc_all_pat = rx/<$exc_all_str>/;
