@@ -107,7 +107,7 @@ say "---";
 
 
     }
-
+exit;
 
     ## use File::Find with exclude feature
     my @exclude =
