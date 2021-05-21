@@ -111,8 +111,8 @@ say "---";
         say "---";
         my @exc_str =
         ( 
-            "/Old/",
-            "/Hid/"
+            "'/Old/'",
+            "'/Hid/'"
         );
 
         my $exc_all_str = join '|', @exc_str.map({ quotemeta( $_) });
