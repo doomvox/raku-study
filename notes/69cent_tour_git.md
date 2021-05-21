@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org0b1e48b)
-  - [some stops on the tour](#orgcac9ed9)
-    - [first stop: using an existing git repo, e.g.](#org078e949)
-    - [second stop: create a new git repo](#org0012860)
-    - [third stop: putting that new git repo on github](#orga868475)
-    - [fourth stop: haven't covered the cool stuff](#orga28cb00)
-    - [fifth stop: things you will not do with git](#org8dfc1d2)
+- [69 cent tour of git](#org49f1f8c)
+  - [some stops on the tour](#orgf1d6819)
+    - [first stop: using an existing git repo, e.g.](#orga5f1440)
+    - [second stop: create a new git repo](#orgfb370c2)
+    - [third stop: putting that new git repo on github](#org285a7c2)
+    - [fourth stop: haven't covered the cool stuff](#org4f20960)
+    - [fifth stop: things you will not do with git](#orgbebcad4)
 
 
-<a id="org0b1e48b"></a>
+<a id="org49f1f8c"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgcac9ed9"></a>
+<a id="orgf1d6819"></a>
 
 ## some stops on the tour
 
 
-<a id="org078e949"></a>
+<a id="orga5f1440"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="org0012860"></a>
+<a id="orgfb370c2"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="orga868475"></a>
+<a id="org285a7c2"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orga28cb00"></a>
+<a id="org4f20960"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -180,11 +180,9 @@
 
 3.  branches can get complicated
 
-    <http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging>
-    
     1.  "Pro Git" by Scott Chacon and  Ben Straub
     
-        Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
+        <http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging> Can read on-line, also can get from (spit) Amazon But source is at github: <https://github.com/progit/progit2>
     
     2.  alan recommends:
     
@@ -195,7 +193,7 @@
     <https://cli.github.com/>
 
 
-<a id="org8dfc1d2"></a>
+<a id="orgbebcad4"></a>
 
 ### fifth stop: things you will not do with git
 
