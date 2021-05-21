@@ -106,9 +106,10 @@ See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests
 **** branches can get complicated
 ***** "Pro Git" by Scott Chacon and  Ben Straub
-http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
-Can read on-line, also can get from (spit) Amazon
-But source is at github: https://github.com/progit/progit2
+****** http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+****** Can read on-line, can get hardcopy from (spit) Amazon
+****** But source is at github: https://github.com/progit/progit2
+
 ***** alan recommends:
 https://opensource.com/article/21/4/context-switching-git?sc_cid=7016000000127ECAAY
 
