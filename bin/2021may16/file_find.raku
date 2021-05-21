@@ -115,13 +115,12 @@ say "---";
             "'/Hid/'"
         );
 
-        my $exc_all_str = join '|', @exc_str.map({ quotemeta( $_) });
+        my $exc_all_str = join '|', @exc_str;
         my $exc_all_pat = rx/<$exc_all_str>/;
 
         my @files = find( dir => $loc, type => 'file', exclude => $exc_all_pat );    
         say "find exclude of built-up pattern: ", @files.elems;
         # find exclude of built-up pattern: 16
-
 
     }
 
