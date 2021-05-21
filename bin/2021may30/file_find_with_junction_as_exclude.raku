@@ -40,8 +40,9 @@ for @monsters {
 # godzilla
 # rhodan
 
-
-my @exclude = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
-my $any_exclude = any(@exclude);
-my @files = find( dir => $loc, type => 'file', exclude => $any_exclude ) );    
-say @files;
+{
+    my @exclude = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
+    my $any_exclude = any(@exclude);
+    my @files = find( dir => $loc, type => 'file', exclude => $any_exclude );    
+    say @files;
+}
