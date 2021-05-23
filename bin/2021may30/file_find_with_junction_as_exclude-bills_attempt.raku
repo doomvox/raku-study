@@ -37,7 +37,11 @@ say "---";
   my $junction = any( 'a', 'b', 'c' );
   say $junction.elems; # any(1, 1, 1)
 
+  # But then, this actually works:
   $junction>>.say;
+  # a
+  # b
+  # c
 
   my $char = 'b';
   say $char ~~ $junction; # True
