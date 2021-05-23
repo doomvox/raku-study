@@ -59,12 +59,13 @@ if  "this" ~~ m:P5/^[a-z]/  {
     say "ng";
 }
 
-say "trying with ^x: " 
-if  "this" ~~ m:P5/(?^x: ^ [a-z] )/  {
-    print "good";
-} else {
-    print "ng";
-}
-print "\n";
+
+# say "trying with ^x: " 
+# if  "this" ~~ m:P5/(?^x: ^ [a-z] )/  {
+#     print "good";
+# } else {
+#     print "ng";
+# }
+# print "\n";
 
 say "raku style" if "this" ~~ m/ ^ <[a..z]> /;  
