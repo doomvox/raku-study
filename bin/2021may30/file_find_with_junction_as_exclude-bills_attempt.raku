@@ -46,6 +46,6 @@ say "---";
   say $junction ~ 'z';
   # any(az, bz, cz)
 
-  say $junction.elems;
+  say $junction.elems; # any(1, 1, 1)
 
 }
