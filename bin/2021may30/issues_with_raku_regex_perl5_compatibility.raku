@@ -4,10 +4,11 @@
 
 use v6;
 
+(
 "/home/doom/End/Thought/some.txt",
 "/home/doom/End/Thought/SNARK_HUNT.html",
 "/home/doom/End/Thought/some_other_thing",
-"/home/doom/End/Thought/STILLETTO_HEEL",
-
+"/home/doom/End/Thought/STILLETTO",
+);
 
 $f.say if $f ~~ m/\/<[0..9cA..Z_-]>+?(\.|$)/;  # 
