@@ -89,7 +89,7 @@ for @monsters {
 {
     my @exclude = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
     my $any_exclude = any(@exclude);
-    my @files = find( dir => $loc, type => 'file', exclude => exclude => { $_ ~~ any(@exclude) } );
+    my @files = find( dir => $loc, type => 'file', exclude => { $_ ~~ any(@exclude) } );
     say @files;
 
 }
