@@ -53,3 +53,5 @@ say "---";
 say "without ^x" if "this" ~~ m:P5/^[a-z]/;  # works
 
 say "with ^x" if "this" ~~ m:P5/(?^x: ^ [a-z] )/;  
+
+say "raku style" if "this" ~~ m/ ^ <[a..z]> /;  
