@@ -53,7 +53,7 @@ say "---";
 say "without ^x" if "this" ~~ m:P5/^[a-z]/;  # works
 
 say "trying with ^x: " 
-if  ( "this" ~~ m:P5/(?^x: ^ [a-z] )/  ) {
+if  "this" ~~ m:P5/(?^x: ^ [a-z] )/  {
     print "good";
 } else {
     print "ng";
