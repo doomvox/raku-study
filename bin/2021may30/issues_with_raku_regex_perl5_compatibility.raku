@@ -58,6 +58,8 @@ if "this" ~~ m/ ^ <[a..z]> / {
 } else {
     say "ng";
 }
+# Trying raku style: good
+
 
 # say "Trying P5 without ^x" if "this" ~~ m:P5/^[a-z]/;  # works
 
