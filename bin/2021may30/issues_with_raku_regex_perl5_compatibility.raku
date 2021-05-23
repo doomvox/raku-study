@@ -50,16 +50,16 @@ for @files -> $f {
 
 say "---";
 
-print "Trying raku style: ";
+printf "%15s", "Trying raku style: ";
 if "this" ~~ m/ ^ <[a..z]> / { say "good"; } else { say "ng"; }
 
-print "Trying P5 without (?^x: ";
+printf "%15s", "Trying P5 without (?^x: ";
 if "this" ~~ m:P5/^[a-z]/ { say "good"; } else { say "ng"; }
 
-print "Trying P5 with (?^x: ";
+printf "%15s", "Trying P5 with (?^x: ";
 if "this" ~~ m:P5/(?^x: ^ [a-z] )/ { say "good"; } else { say "ng"; }
 
-print "Trying P5 with (?^i: ";
+printf "%15s", "Trying P5 with (?^i: ";
 if "this" ~~ m:P5/(?^i: ^ [a-z] )/ { say "good"; } else { say "ng"; }
 
 
