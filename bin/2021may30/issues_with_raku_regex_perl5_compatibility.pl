@@ -27,10 +27,10 @@ use Data::Dumper;
 # Double checking that I understand the embedded pattern modifiers in perl5:
 
 
-printf "%-25s", "Trying :P5 with (?^x: ";
+printf "%-25s", "Trying good old perl5 with (?^x: ";
 if( "this" =~ m/(?^x: ^ [a-z] )/ ) { say "good"; } else { say "ng"; }
 
-printf "%-25s", "Trying :P5 with (?^i: ";
+printf "%-25s", "Trying good old perl5 with (?^i: ";
 if( "this" ~~ m/(?^i: ^ [a-z] )/ ) { say "good"; } else { say "ng"; }
 
 # Sequence (?... not terminated in regex; marked by <-- HERE in m/P5/(?^x <-- HERE / at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may30/issues_with_raku_regex_perl5_compatibility.pl line 31.
