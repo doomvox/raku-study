@@ -46,4 +46,6 @@ say "---";
   say $junction ~ 'z';
   # any(az, bz, cz)
 
+  say $junction.elems;
+
 }
