@@ -50,7 +50,14 @@ for @files -> $f {
 
 say "---";
 
-say "without ^x" if "this" ~~ m:P5/^[a-z]/;  # works
+say "Trying P5 without ^x" if "this" ~~ m:P5/^[a-z]/;  # works
+
+print "Trying P% with ^x: " 
+if  "this" ~~ m:P5/(?^x: ^ [a-z] )/  {
+    say "good";
+} else {
+    say "ng";
+}
 
 say "trying with ^x: " 
 if  "this" ~~ m:P5/(?^x: ^ [a-z] )/  {
