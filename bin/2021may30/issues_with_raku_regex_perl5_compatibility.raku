@@ -50,6 +50,8 @@ for @files -> $f {
 
 say "---";
 
+## In regexes with :P5 compatibility turned-on, do embedded modifiers work?
+
 printf "%-25s", "Trying raku style: ";
 if "this" ~~ m/ ^ <[a..z]> /         { say "good"; } else { say "ng"; }
 
@@ -60,7 +62,7 @@ printf "%-25s", "Trying :P5 with (?^x: ";
 if "this" ~~ m:P5/(?^x: ^ [a-z] )/   { say "good"; } else { say "ng"; }
 
 printf "%-25s", "Trying :P5 with (?^i: ";
-if "this" ~~ m:P5/(?^i: ^ [a-z] )/   { say "good"; } else { say "ng"; }
+if "this" ~~ m:P5/(?^i:^[a-z])/   { say "good"; } else { say "ng"; }
 
 # Trying raku style:       good
 # Trying :P5 without (?^x: good
