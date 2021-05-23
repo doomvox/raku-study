@@ -27,7 +27,6 @@ for @files -> $f {
     $f.say if $f ~~ m:P5/\/[A-Z_]+?(\.|$)/;  
 }
 
-
 # doing the same with a perl5-style regex (avoiding extra capture)
 for @files -> $f { 
     $f.say if $f ~~ m:P5/\/[A-Z_]+?(?:\.|$)/;  
