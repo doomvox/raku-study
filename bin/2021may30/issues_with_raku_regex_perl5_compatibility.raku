@@ -44,3 +44,5 @@ for @files -> $f {
 }
 
 # This perl5 construct isn't supported? "(?^x: ... )"
+#  embedded pattern-match modifiers 
+#  turned on with ^, turned off with -
