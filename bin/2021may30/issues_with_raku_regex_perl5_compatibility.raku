@@ -66,7 +66,7 @@ if "this" ~~ m:P5/^[a-z]/ {
 }
 # Trying P5 without (?^x: good
 
-print "Trying P5 without ^x: " 
+print "Trying P5 without ^x: ";
 if "this" ~~ m:P5/^[a-z]/ {
     say "good";
 } else {
