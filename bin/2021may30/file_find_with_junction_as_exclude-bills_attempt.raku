@@ -44,5 +44,5 @@ say "---";
   say $char eq $junction; # any(False, False, False)
 
   say $junction ~ 'z';
-
+  # any(az, bz, cz)
 }
