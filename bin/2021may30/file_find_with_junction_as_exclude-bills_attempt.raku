@@ -27,10 +27,10 @@ for @monsters -> $name {
     # Exclude3: ["/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/mothera".IO "/home/doom/tmp/monster_island/rhodan".IO]
 }
 
-## I'm not really sure what bill was thinking there... 
-## my impression is junctions, by design aren't supposed to be treated 
-## as compound data structures, they're a *single* thing but with 
-## multiple values that co-exist with each other in "superposition"
+## I wasn't really sure what bill was thinking there, because my
+## impression was that junctions, by design aren't supposed to be
+## treated as compound data structures, they're a *single* thing
+## but with multiple values that co-exist with each other in "superposition"
 
 say "---";
 {
