@@ -35,8 +35,11 @@ for @monsters -> $name {
 say "---";
 { my $junction = any( 'a', 'b', 'c' );
   my $char = 'b';
-  say $char ~~ $junction;
+  say $char ~~ $junction; # True
+  say $char eq $junction; # True
+
   $char = 'e';
-  say $char ~~ $junction;
+  say $char ~~ $junction; # False
+  say $char eq $junction; # False
 
 }
