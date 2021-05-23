@@ -51,10 +51,10 @@ for @files -> $f {
 say "---";
 
 printf "%-25s", "Trying raku style: ";
-if "this" ~~ m/ ^ <[a..z]> / { say "good"; } else { say "ng"; }
+if "this" ~~ m/ ^ <[a..z]> /       { say "good"; } else { say "ng"; }
 
 printf "%-25s", "Trying :P5 without (?^x: ";
-if "this" ~~ m:P5/^[a-z]/ { say "good"; } else { say "ng"; }
+if "this" ~~ m:P5/^[a-z]/          { say "good"; } else { say "ng"; }
 
 printf "%-25s", "Trying :P5 with (?^x: ";
 if "this" ~~ m:P5/(?^x: ^ [a-z] )/ { say "good"; } else { say "ng"; }
