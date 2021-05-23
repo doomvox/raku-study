@@ -12,12 +12,16 @@ my @files = (
     '/home/doom/tmp/files/SomethingOrOther',
 );
 
+# I'm going to be  matching upper-case file names, with or without a file extension
+# So when things work we get this output:
+#   /home/doom/tmp/files/SNARK_HUNT.html
+#   /home/doom/tmp/files/STILL_WATERS
+
+
 # matching upper-case file names, with or without a file extension (works)
 for @files -> $f { 
     $f.say if $f ~~ m/\/<[A..Z_]>+?[\.|$]/;  # 
 }
-# /home/doom/tmp/files/SNARK_HUNT.html
-# /home/doom/tmp/files/STILL_WATERS
 
 # doing the same with a perl5-style regex (works, with extra capture)
 for @files -> $f { 
@@ -29,3 +33,4 @@ for @files -> $f {
 for @files -> $f { 
     $f.say if $f ~~ m:P5/\/[A-Z_]+?(?:\.|$)/;  
 }
+## Hm... that works too
