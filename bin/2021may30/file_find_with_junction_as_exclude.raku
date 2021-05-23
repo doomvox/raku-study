@@ -91,7 +91,7 @@ for @monsters {
     my $any_exclude = any(@exclude);
     my @files = find( dir => $loc, type => 'file', exclude => exclude => { $_ ~~ any(@exclude) } );
     say @files;
-    # ["/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/mothera".IO "/home/doom/tmp/monster_island/rhodan".IO]
+
 }
 
-> 
+
