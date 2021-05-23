@@ -45,6 +45,7 @@ say "---";
 
   my $values = < A B C >;
   my $junction2 = $values>>.any;
+  say $junction2;
 
   
   my $char = 'b';
