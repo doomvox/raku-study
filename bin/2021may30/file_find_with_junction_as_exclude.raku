@@ -95,3 +95,11 @@ for @monsters {
 }
 
 
+# vaddim suggestion (works)
+{
+    my @exclude = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
+    my $any_exclude = any(@exclude);
+    my @files = find( dir => $loc, type => 'file', exclude => * ~~ any(@exclude) );
+    say @files;
+    # ["/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/rhodan".IO]
+}
