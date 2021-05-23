@@ -22,11 +22,13 @@ for @files -> $f {
     $f.say if $f ~~ m/\/<[A..Z_]>+?[\.|$]/;  # 
 }
 
+say "---";
 # doing the same with a perl5-style regex (works, with extra capture)
 for @files -> $f { 
     $f.say if $f ~~ m:P5/\/[A-Z_]+?(\.|$)/;  
 }
 
+say "---";
 # doing the same with a perl5-style regex (avoiding extra capture)
 for @files -> $f { 
     $f.say if $f ~~ m:P5/\/[A-Z_]+?(?:\.|$)/;  
