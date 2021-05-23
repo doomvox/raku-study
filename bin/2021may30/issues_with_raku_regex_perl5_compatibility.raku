@@ -50,8 +50,6 @@ for @files -> $f {
 
 say "---";
 
-
-
 print "Trying raku style: ";
 if "this" ~~ m/ ^ <[a..z]> / {
     say "good";
