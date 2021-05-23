@@ -52,11 +52,11 @@ say "---";
 
 say "without ^x" if "this" ~~ m:P5/^[a-z]/;  # works
 
-say "trying with ^x" 
+say "trying with ^x: " 
 if "this" ~~ m:P5/(?^x: ^ [a-z] )/ {
-    say "good";
+    print "good";
 } else {
-    say "ng";
+    print "ng";
 }
 
 say "raku style" if "this" ~~ m/ ^ <[a..z]> /;  
