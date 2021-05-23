@@ -12,4 +12,4 @@ use v6;
 "/home/doom/End/Thought/SomethingOrOther",
 );
 
-$f.say if $f ~~ m/\/<[0..9cA..Z_-]>+?(\.|$)/;  # 
+$f.say if $f ~~ m/\/<[A..Z_]>+?(\.|$)/;  # 
