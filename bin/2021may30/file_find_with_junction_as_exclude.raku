@@ -85,7 +85,7 @@ for @monsters {
 
 
 
-# vaddim suggestion
+# vaddim suggestion (works)
 {
     my @exclude = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
     my $any_exclude = any(@exclude);
