@@ -42,6 +42,10 @@ say "---";
   # a
   # b
   # c
+
+  my $values = < A B C >;
+  my $junction2 = $values>>.any;
+
   
   my $char = 'b';
   say $char ~~ $junction; # True
