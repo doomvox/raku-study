@@ -33,7 +33,8 @@ for @monsters -> $name {
 ## multiple values that co-exist with each other in "superposition"
 
 say "---";
-{ my $junction = any( 'a', 'b', 'c' );
+{
+  my $junction = any( 'a', 'b', 'c' );
   my $char = 'b';
   say $char ~~ $junction; # True
   say $char eq $junction; # any(False, True, False)
