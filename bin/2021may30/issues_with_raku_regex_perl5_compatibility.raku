@@ -12,5 +12,6 @@ my @files = (
     '/home/doom/tmp/files/SomethingOrOther',
 );
 
+# matching upper-case file names, with or without a file extension.
 
 $f.say if $f ~~ m/\/<[A..Z_]>+?(\.|$)/;  # 
