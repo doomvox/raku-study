@@ -39,7 +39,8 @@ for @files -> $f {
 say "---";
 # doing the same with a perl5-style regex (avoiding extra capture)
 for @files -> $f { 
-#    $f.say if $f ~~ m:P5/\/(?^x:[A-Z_]+?)(?:\.|$)/;  
-    $f.say if $f ~~ m:P5/\/([A-Z_]+?)(?:\.|$)/;  
+    $f.say if $f ~~ m:P5/\/(?^x:[A-Z_]+?)(?:\.|$)/;   ## This doesn't work
+#    $f.say if $f ~~ m:P5/\/([A-Z_]+?)(?:\.|$)/;      ## but this does
 }
 
+This perl5 construct isn't supported? "(?^x: ... )"
