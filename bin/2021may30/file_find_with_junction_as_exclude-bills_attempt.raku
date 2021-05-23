@@ -35,3 +35,7 @@ for @monsters -> $name {
 { my $junction = any( 'a', 'b', 'c' );
   my $char = 'b';
   say $char ~~ $junction;
+  $char = 'e';
+  say $char ~~ $junction;
+
+}
