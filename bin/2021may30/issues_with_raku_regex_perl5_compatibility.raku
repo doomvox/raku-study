@@ -72,7 +72,7 @@ if "this" ~~ m:P5/(?^x: ^ [a-z] )/ {
 } else {
     say "ng";
 }
-
+# Trying P5 with (?^x: ng
 
 
 # say "trying with ^x: " 
