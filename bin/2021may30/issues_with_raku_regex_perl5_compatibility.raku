@@ -58,5 +58,6 @@ if "this" ~~ m:P5/(?^x: ^ [a-z] )/ {
 } else {
     print "ng";
 }
+print "\n";
 
 say "raku style" if "this" ~~ m/ ^ <[a..z]> /;  
