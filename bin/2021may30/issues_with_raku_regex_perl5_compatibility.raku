@@ -39,6 +39,6 @@ for @files -> $f {
 say "---";
 # doing the same with a perl5-style regex (avoiding extra capture)
 for @files -> $f { 
-    $f.say if $f ~~ m:P5/\/(?^x: [A-Z_]+? (?: \. | $) )/;  
+    $f.say if $f ~~ m:P5/\/(?^x: [A-Z_]+? )(?:\.|$)/;  
 }
 
