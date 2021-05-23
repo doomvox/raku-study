@@ -42,7 +42,7 @@ say "---";
   # a
   # b
   # c
-
+  
   my $char = 'b';
   say $char ~~ $junction; # True
   say $char eq $junction; # any(False, True, False)
