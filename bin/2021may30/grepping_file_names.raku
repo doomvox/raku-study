@@ -22,7 +22,7 @@ for @file_io_objs -> $f {
 #    $f.say if $f ~~ /^\//; # any that begin with a slash 
 #    $f.say if $f ~~ /\.html$/;  # any that end with .html
 
-    $f.say if $f ~~ /\/<[A..Z]><-[\/]>*$>/;  # file name begins with uppercase ascii
+    $f.say if $f ~~ /\/<[A..Z]><-[\/]>*$/;  # file name begins with uppercase ascii
 
 }
 
