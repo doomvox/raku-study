@@ -51,19 +51,15 @@ for @files -> $f {
 say "---";
 
 print "Trying raku style: ";
-if "this" ~~ m/ ^ <[a..z]> / { say "good"; } else { say "ng";
-}
-# Trying raku style: good
+if "this" ~~ m/ ^ <[a..z]> / { say "good"; } else { say "ng"; }
 
 print "Trying P5 without (?^x: ";
 if "this" ~~ m:P5/^[a-z]/ { say "good"; } else { say "ng"; }
-# Trying P5 without (?^x: good
 
 print "Trying P5 with (?^x: ";
-if "this" ~~ m:P5/(?^x: ^ [a-z] )/ {
-    say "good";
-} else {
-    say "ng";
-}
+if "this" ~~ m:P5/(?^x: ^ [a-z] )/ { say "good"; } else { say "ng"; }
+
+# Trying raku style: good
+# Trying P5 without (?^x: good
 # Trying P5 with (?^x: ng
 
