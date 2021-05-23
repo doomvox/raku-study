@@ -30,5 +30,5 @@ for @monsters -> $name {
 ## I'm not really sure what bill was thinking there... 
 ## my impression is junctions, by design aren't supposed to be treated 
 ## as compound data structures, they're a *single* thing but with 
-## multiple values that co-exist with each other, "superimposed"
+## multiple values that co-exist with each other in "superposition"
 
