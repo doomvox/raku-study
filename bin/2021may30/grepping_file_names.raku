@@ -20,7 +20,10 @@ say @file_io_objs[3].Str;   # doom/End/Stage/Mirthless/doomfiles/13CLOCKS.html
 
 for @file_io_objs -> $f {
 #    $f.say if $f ~~ /^\//; # any that begin with a slash 
-    $f.say if $f ~~ /\.html$/;  # any that end with .html
+#    $f.say if $f ~~ /\.html$/;  # any that end with .html
+
+    $f.say if $f ~~ /\/<[A-Z]><-[\/]*$>/;  # file name begins with uppercase char
+
 }
 
 ## p5 regex
