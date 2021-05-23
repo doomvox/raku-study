@@ -24,7 +24,7 @@ for @file_io_objs -> $f {
 
 #    $f.say if $f ~~ /\/<[A..Z]><-[\/]>*$/;  # file name begins with uppercase ascii
 
-    $f.say if $f ~~ m:P5/\/(?^x: [0-9cA-Z_-]{3,} )$/;  # 
+    $f.say if $f ~~ m:P5/\/(?^x: [0-9cA-Z_-]{3,})$/;  # 
 
 }
 
