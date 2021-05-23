@@ -50,7 +50,11 @@ say "---";
   my $junction2 = $values>>.any;
   say $junction2;
   # (any(A) any(B) any(C))
-  
+}
+
+{  
+  my $junction = any( 'a', 'b', 'c' );
+
   ## junctions continue to surprise me:
   my $char = 'b';
   say $char ~~ $junction; # True
