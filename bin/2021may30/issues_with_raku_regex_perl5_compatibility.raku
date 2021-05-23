@@ -14,4 +14,6 @@ my @files = (
 
 # matching upper-case file names, with or without a file extension.
 
-$f.say if $f ~~ m/\/<[A..Z_]>+?(\.|$)/;  # 
+for @files -> $f { 
+    $f.say if $f ~~ m/\/<[A..Z_]>+?(\.|$)/;  # 
+}
