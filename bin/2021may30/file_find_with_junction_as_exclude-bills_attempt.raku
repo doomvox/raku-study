@@ -36,10 +36,10 @@ say "---";
 { my $junction = any( 'a', 'b', 'c' );
   my $char = 'b';
   say $char ~~ $junction; # True
-  say $char eq $junction; # True
+  say $char eq $junction; # any(False, True, False)
 
   $char = 'e';
   say $char ~~ $junction; # False
-  say $char eq $junction; # False
+  say $char eq $junction; # any(False, False, False)
 
 }
