@@ -35,6 +35,10 @@ for @monsters -> $name {
 say "---";
 {
   my $junction = any( 'a', 'b', 'c' );
+  say $junction.elems; # any(1, 1, 1)
+
+  $junction>>.say;
+
   my $char = 'b';
   say $char ~~ $junction; # True
   say $char eq $junction; # any(False, True, False)
@@ -46,6 +50,6 @@ say "---";
   say $junction ~ 'z';
   # any(az, bz, cz)
 
-  say $junction.elems; # any(1, 1, 1)
+
 
 }
