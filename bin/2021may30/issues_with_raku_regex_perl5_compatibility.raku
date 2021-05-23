@@ -75,6 +75,10 @@ if  "this" ~~ m:P5/^[a-z]/ {
     say "ng";
 }
 
+## That's actually a compilation error:
+# Unexpected block in infix position (missing statement control word before the expression?)
+# at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may30/issues_with_raku_regex_perl5_compatibility.raku:72
+# ------> if  "this" ~~ m:P5/^[a-z]/⏏ {
 
 # say "trying with ^x: " 
 # if  "this" ~~ m:P5/(?^x: ^ [a-z] )/  {
