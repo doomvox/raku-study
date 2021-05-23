@@ -43,4 +43,4 @@ for @files -> $f {
 #    $f.say if $f ~~ m:P5/\/([A-Z_]+?)(?:\.|$)/;      ## but this does
 }
 
-This perl5 construct isn't supported? "(?^x: ... )"
+# This perl5 construct isn't supported? "(?^x: ... )"
