@@ -15,6 +15,10 @@ my @file_io_objs = (
     "/home/doom/End/Thought/ADDITIONS-THE_PAX_VOBISCUM_BITE".IO,
 );
 
+say @file_io_objs[3].WHAT;
+say @file_io_objs[3].Str;
 
 
-(?^x: [0-9cA-Z_-]{3,} )
+
+## p5 regex
+## (?^x: [0-9cA-Z_-]{3,} )
