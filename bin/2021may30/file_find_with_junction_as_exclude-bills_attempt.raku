@@ -20,5 +20,9 @@ for @monsters -> $name {
     my $exclude3 = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
     my @files3 = find( dir => $loc, type => 'file', exclude => $exclude3>>.any );
     say "Exclude3: ", @files3;
-    #Exclude3: ["/Users/me/test_folder/.DS_Store".IO "/Users/me/test_folder/godzilla".IO "/Users/me/test_folder/mothera".IO "/Users/me/test_folder/rhodan".IO]
+    # Bill's result:
+    # Exclude3: ["/Users/me/test_folder/.DS_Store".IO "/Users/me/test_folder/godzilla".IO "/Users/me/test_folder/mothera".IO "/Users/me/test_folder/rhodan".IO]
+
+    # My result:
+    # Exclude3: ["/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/mothera".IO "/home/doom/tmp/monster_island/rhodan".IO]
 }
