@@ -52,8 +52,8 @@ say "---";
 
 say "Trying P5 without ^x" if "this" ~~ m:P5/^[a-z]/;  # works
 
-print "Trying P% with ^x: " 
-if  "this" ~~ m:P5/(?^x: ^ [a-z] )/  {
+print "Trying P% without ^x: " 
+if  "this" ~~ m:P5/(^[a-z])/  {
     say "good";
 } else {
     say "ng";
