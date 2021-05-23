@@ -64,6 +64,8 @@ say "---";
   # The smartmatch checks that it's comparing string types,
   # and does something like an eq on them, right?
 
+  # But then, there are other cases where junction-in,
+  # junction-out is the only thing that makes sense:
   say $junction ~ 'z';
   # any(az, bz, cz)
 
