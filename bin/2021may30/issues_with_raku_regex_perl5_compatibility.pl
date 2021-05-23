@@ -28,7 +28,7 @@ use Data::Dumper;
 
 
 printf "%-25s", "Trying :P5 with (?^x: ";
-if( "this" =~ m/(?^x ^ [a-z] )/ ) { say "good"; } else { say "ng"; }
+if( "this" =~ m/(?^x: ^ [a-z] )/ ) { say "good"; } else { say "ng"; }
 
 printf "%-25s", "Trying :P5 with (?^i: ";
 if( "this" ~~ m/(?^i ^ [a-z] )/ ) { say "good"; } else { say "ng"; }
