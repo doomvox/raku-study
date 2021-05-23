@@ -74,13 +74,3 @@ if "this" ~~ m:P5/(?^x: ^ [a-z] )/ {
 }
 # Trying P5 with (?^x: ng
 
-
-# say "trying with ^x: " 
-# if  "this" ~~ m:P5/(?^x: ^ [a-z] )/  {
-#     print "good";
-# } else {
-#     print "ng";
-# }
-# print "\n";
-
-
