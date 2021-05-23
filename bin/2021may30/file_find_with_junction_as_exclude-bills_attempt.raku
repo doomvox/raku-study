@@ -43,11 +43,15 @@ say "---";
   # b
   # c
 
+  # but then this idiom creates an array of multiple any
+  # junctions with single values, so they'd behave just like the
+  # individual values themselves:
   my $values = < A B C >;
   my $junction2 = $values>>.any;
   say $junction2;
-
+  # (any(A) any(B) any(C))
   
+  ## junctions continue to surprise me:
   my $char = 'b';
   say $char ~~ $junction; # True
   say $char eq $junction; # any(False, True, False)
@@ -55,6 +59,10 @@ say "---";
   $char = 'e';
   say $char ~~ $junction; # False
   say $char eq $junction; # any(False, False, False)
+  #
+  # I would've thought that there'd be no difference there
+  # The smartmatch checks that it's comparing string types,
+  # and does something like an eq on them, right?
 
   say $junction ~ 'z';
   # any(az, bz, cz)
