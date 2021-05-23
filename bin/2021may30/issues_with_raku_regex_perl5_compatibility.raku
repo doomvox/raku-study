@@ -48,3 +48,6 @@ for @files -> $f {
 #  turned on with ^, turned off with -
 
 
+say "---";
+
+say "works" if "this" ~~ m:P5/^[a-z]/;
