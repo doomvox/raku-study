@@ -43,6 +43,6 @@ say "---";
   say $char ~~ $junction; # False
   say $char eq $junction; # any(False, False, False)
 
-  say $junction . 'z';
+  say $junction ~ 'z';
 
 }
