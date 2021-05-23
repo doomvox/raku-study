@@ -9,6 +9,7 @@ use v6;
 "/home/doom/End/Thought/SNARK_HUNT.html",
 "/home/doom/End/Thought/some_other_thing",
 "/home/doom/End/Thought/STILL_WATERS",
+"/home/doom/End/Thought/SomethingOrOther",
 );
 
 $f.say if $f ~~ m/\/<[0..9cA..Z_-]>+?(\.|$)/;  # 
