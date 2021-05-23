@@ -22,7 +22,13 @@ for @monsters -> $name {
     say "Exclude3: ", @files3;
     # his output:
     # Exclude3: ["/Users/me/test_folder/.DS_Store".IO "/Users/me/test_folder/godzilla".IO "/Users/me/test_folder/mothera".IO "/Users/me/test_folder/rhodan".IO]
-
+    #
     # my output:
     # Exclude3: ["/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/mothera".IO "/home/doom/tmp/monster_island/rhodan".IO]
 }
+
+## I'm not really sure what bill was thinking there... 
+## my impression is junctions, by design aren't supposed to be treated 
+## as compound data structures, they're a *single* thing but with 
+## multiple values that co-exist with each other, "superimposed"
+
