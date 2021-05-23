@@ -59,6 +59,10 @@ if "this" ~~ m:P5/^[a-z]/ { say "good"; } else { say "ng"; }
 print "Trying P5 with (?^x: ";
 if "this" ~~ m:P5/(?^x: ^ [a-z] )/ { say "good"; } else { say "ng"; }
 
+print "Trying P5 with (?^i: ";
+if "this" ~~ m:P5/(?^i: ^ [a-z] )/ { say "good"; } else { say "ng"; }
+
+
 # Trying raku style: good
 # Trying P5 without (?^x: good
 # Trying P5 with (?^x: ng
