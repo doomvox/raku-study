@@ -4,6 +4,7 @@
 
 use v6;
 
+my @files = 
 (
 "/home/doom/End/Thought/some.txt",
 "/home/doom/End/Thought/SNARK_HUNT.html",
@@ -11,5 +12,6 @@ use v6;
 "/home/doom/End/Thought/STILL_WATERS",
 "/home/doom/End/Thought/SomethingOrOther",
 );
+
 
 $f.say if $f ~~ m/\/<[A..Z_]>+?(\.|$)/;  # 
