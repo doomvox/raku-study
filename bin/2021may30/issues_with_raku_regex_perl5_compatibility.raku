@@ -33,4 +33,4 @@ say "---";
 for @files -> $f { 
     $f.say if $f ~~ m:P5/\/[A-Z_]+?(?:\.|$)/;  
 }
-## Hm... that works too
+## Hm... that works too-- could've sworn I've seen that flop
