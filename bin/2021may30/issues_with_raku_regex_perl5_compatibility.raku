@@ -14,7 +14,7 @@ my @files = (
 
 # matching upper-case file names, with or without a file extension.
 for @files -> $f { 
-    $f.say if $f ~~ m/\/<[A..Z_]>+?(\.|$)/;  # 
+    $f.say if $f ~~ m/\/<[A..Z_]>+?[\.|$]/;  # 
 }
 # /home/doom/tmp/files/SNARK_HUNT.html
 # /home/doom/tmp/files/STILL_WATERS
