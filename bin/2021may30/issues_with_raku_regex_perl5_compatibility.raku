@@ -50,6 +50,6 @@ for @files -> $f {
 
 say "---";
 
-say "works no ^x" if "this" ~~ m:P5/^[a-z]/;  # works
+say "works without ^x" if "this" ~~ m:P5/^[a-z]/;  # works
 
 say "works" if "this" ~~ m:P5/(?^x: ^ [a-z] )/;  
