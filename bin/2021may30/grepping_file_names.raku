@@ -15,9 +15,14 @@ my @file_io_objs = (
     "/home/doom/End/Thought/ADDITIONS-THE_PAX_VOBISCUM_BITE".IO,
 );
 
-say @file_io_objs[3].WHAT;
-say @file_io_objs[3].Str;
+say @file_io_objs[3].WHAT;  # (Path)
+say @file_io_objs[3].Str;   # doom/End/Stage/Mirthless/doomfiles/13CLOCKS.html
 
+for @file_io_objs -> $f {
+
+    $f.say if $f ~~ /^\//;
+
+}
 
 
 ## p5 regex
