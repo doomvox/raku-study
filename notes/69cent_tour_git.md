@@ -1,23 +1,23 @@
-- [69 cent tour of git](#orged34b93)
-  - [some stops on the tour](#orga1217a0)
-    - [first stop: using an existing git repo, e.g.](#orgd1fef32)
-    - [second stop: create a new git repo](#org5e6f8a9)
-    - [third stop: putting that new git repo on github](#org9663e01)
-    - [fourth stop: haven't covered the cool stuff](#orgcade297)
-    - [fifth stop: things you will not do with git](#org32502a1)
+- [69 cent tour of git](#org7d499e7)
+  - [some stops on the tour](#orgbe736db)
+    - [first stop: using an existing git repo, e.g.](#orgf006846)
+    - [second stop: create a new git repo](#orgbcdd5b6)
+    - [third stop: putting that new git repo on github](#orgc2e8af9)
+    - [fourth stop: haven't covered the cool stuff](#orgb8f8e74)
+    - [fifth stop: things you will not do with git](#org3c1ab1b)
 
 
-<a id="orged34b93"></a>
+<a id="org7d499e7"></a>
 
 # 69 cent tour of git
 
 
-<a id="orga1217a0"></a>
+<a id="orgbe736db"></a>
 
 ## some stops on the tour
 
 
-<a id="orgd1fef32"></a>
+<a id="orgf006846"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="org5e6f8a9"></a>
+<a id="orgbcdd5b6"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="org9663e01"></a>
+<a id="orgc2e8af9"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgcade297"></a>
+<a id="orgb8f8e74"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -178,7 +178,7 @@
 
     <https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests>
 
-3.  branches can get complicated
+3.  things you might read about branches and such
 
     1.  "Pro Git" by Scott Chacon and  Ben Straub
     
@@ -207,7 +207,7 @@
     <https://cli.github.com/>
 
 
-<a id="org32502a1"></a>
+<a id="org3c1ab1b"></a>
 
 ### fifth stop: things you will not do with git
 
