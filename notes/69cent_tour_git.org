@@ -2,7 +2,7 @@
 ** some stops on the tour
 *** first stop: using an existing git repo, e.g. 
 **** https://github.com/doomvox/raku-study
-**** set-up to do if not done already:
+**** some set-up to do, if not done already:
 ***** create a github account
 ***** get added to raku-study as a collaborator
 ****** Settings->Manage Access->Invite a collaborator

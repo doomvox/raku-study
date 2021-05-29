@@ -1,29 +1,29 @@
-- [69 cent tour of git](#orgf070654)
-  - [some stops on the tour](#org5096982)
-    - [first stop: using an existing git repo, e.g.](#org76fc182)
-    - [second stop: create a new git repo](#org39d3e15)
-    - [third stop: putting that new git repo on github](#org52982f9)
-    - [fourth stop: haven't covered the cool stuff](#org8c8c473)
-    - [fifth stop: things you will not do with git](#orgd69c280)
+- [69 cent tour of git](#orged34b93)
+  - [some stops on the tour](#orga1217a0)
+    - [first stop: using an existing git repo, e.g.](#orgd1fef32)
+    - [second stop: create a new git repo](#org5e6f8a9)
+    - [third stop: putting that new git repo on github](#org9663e01)
+    - [fourth stop: haven't covered the cool stuff](#orgcade297)
+    - [fifth stop: things you will not do with git](#org32502a1)
 
 
-<a id="orgf070654"></a>
+<a id="orged34b93"></a>
 
 # 69 cent tour of git
 
 
-<a id="org5096982"></a>
+<a id="orga1217a0"></a>
 
 ## some stops on the tour
 
 
-<a id="org76fc182"></a>
+<a id="orgd1fef32"></a>
 
 ### first stop: using an existing git repo, e.g.
 
 1.  <https://github.com/doomvox/raku-study>
 
-2.  set-up to do if not done already:
+2.  some set-up to do, if not done already:
 
     1.  create a github account
     
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="org39d3e15"></a>
+<a id="org5e6f8a9"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="org52982f9"></a>
+<a id="org9663e01"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org8c8c473"></a>
+<a id="orgcade297"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -207,7 +207,7 @@
     <https://cli.github.com/>
 
 
-<a id="orgd69c280"></a>
+<a id="org32502a1"></a>
 
 ### fifth stop: things you will not do with git
 
