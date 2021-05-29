@@ -113,6 +113,12 @@ https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/ab
 ***** alan recommends:
 https://opensource.com/article/21/4/context-switching-git?sc_cid=7016000000127ECAAY
 
+***** Randal Schwartz slides
+****** https://www.slideshare.net/RandalSchwartz/git-a-brief-introduction
+****** explains some of the internals as well as workflow
+******* object
+******* index
+
 **** there's a command line tool to do github manipulations without the damn website UI
 https://cli.github.com/
 

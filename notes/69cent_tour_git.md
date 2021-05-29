@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org9c932f8)
-  - [some stops on the tour](#org7e920d0)
-    - [first stop: using an existing git repo, e.g.](#org79bd2bf)
-    - [second stop: create a new git repo](#orgbc271a7)
-    - [third stop: putting that new git repo on github](#org5d8f5b5)
-    - [fourth stop: haven't covered the cool stuff](#org4ba20bd)
-    - [fifth stop: things you will not do with git](#orgeb91a8c)
+- [69 cent tour of git](#orgf070654)
+  - [some stops on the tour](#org5096982)
+    - [first stop: using an existing git repo, e.g.](#org76fc182)
+    - [second stop: create a new git repo](#org39d3e15)
+    - [third stop: putting that new git repo on github](#org52982f9)
+    - [fourth stop: haven't covered the cool stuff](#org8c8c473)
+    - [fifth stop: things you will not do with git](#orgd69c280)
 
 
-<a id="org9c932f8"></a>
+<a id="orgf070654"></a>
 
 # 69 cent tour of git
 
 
-<a id="org7e920d0"></a>
+<a id="org5096982"></a>
 
 ## some stops on the tour
 
 
-<a id="org79bd2bf"></a>
+<a id="org76fc182"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="orgbc271a7"></a>
+<a id="org39d3e15"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="org5d8f5b5"></a>
+<a id="org52982f9"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org4ba20bd"></a>
+<a id="org8c8c473"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -191,13 +191,23 @@
     2.  alan recommends:
     
         <https://opensource.com/article/21/4/context-switching-git?sc_cid=7016000000127ECAAY>
+    
+    3.  Randal Schwartz slides
+    
+        1.  <https://www.slideshare.net/RandalSchwartz/git-a-brief-introduction>
+        
+        2.  explains some of the internals as well as workflow
+        
+            1.  object
+            
+            2.  index
 
 4.  there's a command line tool to do github manipulations without the damn website UI
 
     <https://cli.github.com/>
 
 
-<a id="orgeb91a8c"></a>
+<a id="orgd69c280"></a>
 
 ### fifth stop: things you will not do with git
 
