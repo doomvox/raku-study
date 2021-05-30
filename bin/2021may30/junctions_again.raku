@@ -9,7 +9,7 @@ my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
 my @skip = < mothera rhodan >;
 
 my @skip_patterns = @skip.map({ rx/ $_ / });
-say @skip_patterns;
+say @skip_patterns; # [rx/ $_ / rx/ $_ /]
 
 # my $skip_pattern = rx/ { @skip.join('|') } /;
 # rx/ { @skip.join('|') } /
@@ -23,4 +23,6 @@ say @monsters.grep({ m/$skip_pattern/ });
 say @monsters.grep({ ! m/$skip_pattern/ });
 # (godzilla ghidora gammera golem)
 
-say @monsters ~~ $skip_pattern;
+say @monsters ~~ $skip_pattern;  # ｢mothera｣ ?
+
+say @monsters ~~ any( $
