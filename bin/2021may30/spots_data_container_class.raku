@@ -22,10 +22,9 @@ class Spot {
     has Numeric  $.id             is rw;
     has Numeric  $.category       is rw;
     has Str      $.category_name  is rw;
-    
-    live
-    static
 
+    has Bool     $.live           is rw;
+    has Bool     $.static         is rw;    
 
     method Str {
         $!island;
