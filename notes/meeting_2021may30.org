@@ -5,7 +5,7 @@
 ***** spots example
 ****** schema: /home/doom/End/Cave/GraphVizDbiGeneral/Wall/graphs/schema_diagram.png
 ******* generated with: /home/doom/End/Cave/GraphVizDbiGeneral/bin/generate_schema_diagram_spots
-****** 
+****** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku
 
 *** find/grep variants in raku revisited (joe brenner)
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku

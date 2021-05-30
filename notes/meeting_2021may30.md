@@ -1,32 +1,32 @@
-- [meeting notes May 16, 2021](#orgda7ae04)
-  - [topic ideas](#org2724a53)
-    - [raku classes as data containers (joe brenner)](#orgf51dc40)
-    - [find/grep variants in raku revisited (joe brenner)](#org66b382b)
-    - [bruce gray rosettacode](#org23a98f0)
-    - [argument passing signatures (joe brenner)](#orgdf6766f)
-    - [super flat](#orge4cc042)
-    - [type system: what is accepted by what](#org9cb4e22)
-    - [go through my perl5 templates: how much is core raku now?](#orgf0a19e7)
-    - [raku die handlers vs perl5](#orgee0e7eb)
-    - [raku idioms](#orgf7f6256)
-  - [appendix: the usual links](#org1e9ca6a)
-    - [code examples](#org7718591)
-    - [meeting notes (material from this file)](#orgfdaf892)
-    - [SF Perl page, has links to mailing list](#org716f922)
-    - [perl6-users mailing list archive](#orged486a7)
+- [meeting notes May 16, 2021](#org4d6407d)
+  - [topic ideas](#orgf21d9f7)
+    - [raku classes as data containers (joe brenner)](#orgb07974d)
+    - [find/grep variants in raku revisited (joe brenner)](#org97732b4)
+    - [bruce gray rosettacode](#org44f0943)
+    - [argument passing signatures (joe brenner)](#org5774be9)
+    - [super flat](#orgf0fa3ee)
+    - [type system: what is accepted by what](#org88caa40)
+    - [go through my perl5 templates: how much is core raku now?](#org2ad469f)
+    - [raku die handlers vs perl5](#org02330fe)
+    - [raku idioms](#orgf988844)
+  - [appendix: the usual links](#org30c8ee8)
+    - [code examples](#org0c845ae)
+    - [meeting notes (material from this file)](#org442d3e6)
+    - [SF Perl page, has links to mailing list](#orgcc24153)
+    - [perl6-users mailing list archive](#org1b18d81)
 
 
-<a id="orgda7ae04"></a>
+<a id="org4d6407d"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="org2724a53"></a>
+<a id="orgf21d9f7"></a>
 
 ## topic ideas
 
 
-<a id="orgf51dc40"></a>
+<a id="orgb07974d"></a>
 
 ### raku classes as data containers (joe brenner)
 
@@ -38,17 +38,17 @@
         
             1.  generated with: /home/doom/End/Cave/GraphVizDbiGeneral/bin/generate<sub>schema</sub><sub>diagram</sub><sub>spots</sub>
         
-        2.  
+        2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku>
 
 
-<a id="org66b382b"></a>
+<a id="org97732b4"></a>
 
 ### find/grep variants in raku revisited (joe brenner)
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku>
 
 
-<a id="org23a98f0"></a>
+<a id="org44f0943"></a>
 
 ### bruce gray rosettacode
 
@@ -57,7 +57,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="orgdf6766f"></a>
+<a id="org5774be9"></a>
 
 ### argument passing signatures (joe brenner)
 
@@ -66,7 +66,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="orge4cc042"></a>
+<a id="orgf0fa3ee"></a>
 
 ### super flat
 
@@ -77,7 +77,7 @@
 3.  <https://en.wikipedia.org/wiki/Superflat>
 
 
-<a id="org9cb4e22"></a>
+<a id="org88caa40"></a>
 
 ### type system: what is accepted by what
 
@@ -86,17 +86,17 @@
     1.  when can you Cool
 
 
-<a id="orgf0a19e7"></a>
+<a id="org2ad469f"></a>
 
 ### go through my perl5 templates: how much is core raku now?
 
 
-<a id="orgee0e7eb"></a>
+<a id="org02330fe"></a>
 
 ### raku die handlers vs perl5
 
 
-<a id="orgf7f6256"></a>
+<a id="orgf988844"></a>
 
 ### raku idioms
 
@@ -105,33 +105,33 @@
     1.  maybe: favor methods over functions?
 
 
-<a id="org1e9ca6a"></a>
+<a id="org30c8ee8"></a>
 
 ## appendix: the usual links
 
 
-<a id="org7718591"></a>
+<a id="org0c845ae"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may30>
 
 
-<a id="orgfdaf892"></a>
+<a id="org442d3e6"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may30.md>
 
 
-<a id="org716f922"></a>
+<a id="orgcc24153"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="orged486a7"></a>
+<a id="org1b18d81"></a>
 
 ### perl6-users mailing list archive
 
