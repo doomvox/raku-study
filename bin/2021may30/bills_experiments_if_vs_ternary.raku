@@ -127,6 +127,6 @@ say @collection; # [foah fahv]
 for ('alpha', 'beta', 'gamma' ) -> $g {
     given $g {
          when any( m/^b/, m/^g/ )  {  say 'got b or g'   }
-         default {  'nuttin much'   }
+         default {  say 'nuttin much'   }
     };
 }
