@@ -116,7 +116,6 @@ for (0..5) -> $var {
     say $r;
 }
 
-
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 my @collection = gather 
   for @numbers -> $n {
