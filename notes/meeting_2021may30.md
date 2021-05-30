@@ -1,56 +1,56 @@
-- [meeting notes May 16, 2021](#org4dacc0d)
-  - [linkage](#orgbcd1b84)
-    - [<http://sf.pm.org>](#orgec83299)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021may30>](#orge6a50bb)
-  - [secret plan](#org66adbc7)
-    - [junctions](#org2d2d20e)
-    - [finished that special purpose find/grep script:](#orgadbc2ff)
-    - ["commutative" pattern matching:](#org742f9e7)
-  - [topic ideas](#org5747f23)
-    - [raku classes as data containers (joe brenner)](#org29ddc30)
-    - [argument passing signatures (joe brenner)](#orga95feee)
-    - [find/grep variants in raku revisited (joe brenner)](#org5c6c1ef)
-    - [bruce gray rosettacode](#org6bdfee8)
-    - [super flat](#orgdac93bd)
-    - [type system: what is accepted by what](#org41b63fa)
-    - [go through my perl5 templates: how much is core raku now?](#org54f5fd1)
-    - [raku die handlers vs perl5](#org9daebab)
-    - [raku idioms](#org159f6c9)
-  - [appendix: the usual links](#orgf9178ab)
-    - [code examples](#org1e502da)
-    - [meeting notes (material from this file)](#org628cae8)
-    - [SF Perl page, has links to mailing list](#orgd1ea2e3)
-    - [perl6-users mailing list archive](#org09d97a3)
-  - [announcments](#org9380b48)
-    - [next meeting: June 16th](#org75e046e)
+- [meeting notes May 16, 2021](#orgcbdbfef)
+  - [linkage](#orge624798)
+    - [<http://sf.pm.org>](#org5ffd852)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021may30>](#org9c210fb)
+  - [secret plan](#org71b5a8b)
+    - [junctions](#orgaace078)
+    - [finished that special purpose find/grep script:](#orgb59355d)
+    - ["commutative" pattern matching:](#org69c05ed)
+  - [other topic ideas](#org3814519)
+    - [raku classes as data containers (joe brenner)](#org934729b)
+    - [argument passing signatures (joe brenner)](#org24276a9)
+    - [find/grep variants in raku revisited (joe brenner)](#org66d6efb)
+    - [bruce gray rosettacode](#orgc2857bf)
+    - [super flat](#org74f8ff2)
+    - [type system: what is accepted by what](#orgf735585)
+    - [go through my perl5 templates: how much is core raku now?](#org89c0028)
+    - [raku die handlers vs perl5](#org907ae3d)
+    - [raku idioms](#org039409f)
+  - [appendix: the usual links](#orgc58a9ba)
+    - [code examples](#org3008f86)
+    - [meeting notes (material from this file)](#org59fcea8)
+    - [SF Perl page, has links to mailing list](#org29a1ff1)
+    - [perl6-users mailing list archive](#org264c842)
+  - [announcments](#orgd5a1ea4)
+    - [next meeting: June 16th](#org0a979ed)
 
 
-<a id="org4dacc0d"></a>
+<a id="orgcbdbfef"></a>
 
 # meeting notes May 16, 2021
 
 
-<a id="orgbcd1b84"></a>
+<a id="orge624798"></a>
 
 ## linkage
 
 
-<a id="orgec83299"></a>
+<a id="org5ffd852"></a>
 
 ### <http://sf.pm.org>
 
 
-<a id="orge6a50bb"></a>
+<a id="org9c210fb"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2021may30>
 
 
-<a id="org66adbc7"></a>
+<a id="org71b5a8b"></a>
 
 ## secret plan
 
 
-<a id="org2d2d20e"></a>
+<a id="orgaace078"></a>
 
 ### junctions
 
@@ -65,7 +65,7 @@
     1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9917.html>
 
 
-<a id="orgadbc2ff"></a>
+<a id="orgb59355d"></a>
 
 ### finished that special purpose find/grep script:
 
@@ -76,7 +76,7 @@
     1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9924.html>
 
 
-<a id="org742f9e7"></a>
+<a id="org69c05ed"></a>
 
 ### "commutative" pattern matching:
 
@@ -93,12 +93,12 @@
     2.  a good solution from peter penchev: multiple overlapping zero-width "before" matches
 
 
-<a id="org5747f23"></a>
+<a id="org3814519"></a>
 
-## topic ideas
+## other topic ideas
 
 
-<a id="org29ddc30"></a>
+<a id="org934729b"></a>
 
 ### raku classes as data containers (joe brenner)
 
@@ -113,7 +113,7 @@
         2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku>
 
 
-<a id="orga95feee"></a>
+<a id="org24276a9"></a>
 
 ### argument passing signatures (joe brenner)
 
@@ -122,7 +122,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="org5c6c1ef"></a>
+<a id="org66d6efb"></a>
 
 ### find/grep variants in raku revisited (joe brenner)
 
@@ -131,7 +131,7 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku>
 
 
-<a id="org6bdfee8"></a>
+<a id="orgc2857bf"></a>
 
 ### bruce gray rosettacode
 
@@ -140,7 +140,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="orgdac93bd"></a>
+<a id="org74f8ff2"></a>
 
 ### super flat
 
@@ -151,7 +151,7 @@
 3.  <https://en.wikipedia.org/wiki/Superflat>
 
 
-<a id="org41b63fa"></a>
+<a id="orgf735585"></a>
 
 ### type system: what is accepted by what
 
@@ -160,17 +160,17 @@
     1.  when can you Cool
 
 
-<a id="org54f5fd1"></a>
+<a id="org89c0028"></a>
 
 ### go through my perl5 templates: how much is core raku now?
 
 
-<a id="org9daebab"></a>
+<a id="org907ae3d"></a>
 
 ### raku die handlers vs perl5
 
 
-<a id="org159f6c9"></a>
+<a id="org039409f"></a>
 
 ### raku idioms
 
@@ -179,44 +179,44 @@
     1.  maybe: favor methods over functions?
 
 
-<a id="orgf9178ab"></a>
+<a id="orgc58a9ba"></a>
 
 ## appendix: the usual links
 
 
-<a id="org1e502da"></a>
+<a id="org3008f86"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021may30>
 
 
-<a id="org628cae8"></a>
+<a id="org59fcea8"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may30.md>
 
 
-<a id="orgd1ea2e3"></a>
+<a id="org29a1ff1"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="org09d97a3"></a>
+<a id="org264c842"></a>
 
 ### perl6-users mailing list archive
 
 <https://www.nntp.perl.org/group/perl.perl6.users/>
 
 
-<a id="org9380b48"></a>
+<a id="orgd5a1ea4"></a>
 
 ## announcments
 
 
-<a id="org75e046e"></a>
+<a id="org0a979ed"></a>
 
 ### next meeting: June 16th
