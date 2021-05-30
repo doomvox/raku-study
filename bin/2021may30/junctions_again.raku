@@ -16,6 +16,7 @@ my @skip = < mothera rhodan >;
 my @skip_pats = /mothera/, /rhodan/;
 
 my $combined_re = /@skip_pats/;
+say $combined_re;
 
 
 
