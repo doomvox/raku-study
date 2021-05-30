@@ -28,7 +28,7 @@ my $code_ref = $moon_is_full ?? { load_sliver_bullets; hunt; } !! { rest_whole_n
 
 sub load_sliver_bullets { say "bang!"; }
 sub hunt { say "tramp tramp tramp";}
-rest_whole_night
+sub rest_whole_night { say "zzzz"; }
 
 
 ## Daniel Sockwell irc
