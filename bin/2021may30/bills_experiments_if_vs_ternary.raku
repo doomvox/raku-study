@@ -103,8 +103,6 @@ for (0..5) -> $var {
     say $r;
 }
 
-
-
 for (0..5) -> $var {
     my $r = gather
     given $var {
