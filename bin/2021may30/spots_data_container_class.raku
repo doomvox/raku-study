@@ -23,6 +23,9 @@ class Spot {
     has Numeric  $.category       is rw;
     has Str      $.category_name  is rw;
 
+    has Numeric  $.metacat        is rw;
+    has Str      $.metacat_name   is rw;
+
     has Bool     $.live           is rw;
     has Bool     $.static         is rw;    
 
