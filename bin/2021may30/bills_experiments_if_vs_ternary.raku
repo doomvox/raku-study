@@ -16,7 +16,7 @@ if (0) {'a'} else {'nope'}
 
 my $str = do if (1) {'a'} else {'nope'};
 say $str;
-
+# a
 
 # exit;
 
