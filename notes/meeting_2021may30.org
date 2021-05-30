@@ -1,6 +1,6 @@
 * meeting notes May 30, 2021
 ** secret plan
-*** bg
+*** bruce gray
 **** rosetta code
 **** sorting and comparators
 *** junctions
