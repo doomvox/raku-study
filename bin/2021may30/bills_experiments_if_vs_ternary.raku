@@ -14,10 +14,15 @@ my $str = if (1) {'a'} else {'nope'};
 say $str;
 # Word 'if' interpreted as a listop; please use 'do if' to introduce the statement control word
 
+
+
+
 my $str = do if (1) {'a'} else {'nope'};
 
 
 # exit;
+
+## Bill questions
 
 # # Starting with a series of Daniel Sockwell posts on IRC... 
 # say (1 ?? do {my $a = 0; $a+1} !! 'false');
@@ -25,8 +30,13 @@ my $str = do if (1) {'a'} else {'nope'};
 # # This is what I tried with if_else: 
 # my $d = 0; ( if $d {my $a = 0; ($a+1).Bool} else {my $a = 0; ($a).Bool}).say;
 # ## False 
- 
 
+# > my $d = 0; ( $d ?? {my $a = 0; ($a+1).Bool} !! {my $a = 0; ($a).Bool}).say
+# -> ;; $_? is raw = OUTER::<$_> { #`(Block|140328649538984) ... } 
+# > my $d = 1; ( $d ?? {my $a = 0; ($a+1).Bool} !! {my $a = 0; ($a).Bool}).say
+# -> ;; $_? is raw = OUTER::<$_> { #`(Block|140328649539920) ... } 
+# > my $d = 0; ( $d ?? do {my $a = 0; ($a+1).Bool} !! do {my $a = 0; ($a).Bool}).say
+# False 
 
 # say
 #  (1 ?? do
