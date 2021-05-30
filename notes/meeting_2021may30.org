@@ -48,3 +48,5 @@ http://sf.pm.org/
 *** perl6-users mailing list archive
 https://www.nntp.perl.org/group/perl.perl6.users/
 
+** announcments
+*** next meeting: June 16th
