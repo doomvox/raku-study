@@ -14,8 +14,18 @@
 use v6;
 
 class Spot {
-    has Str      $.island is rw;
-    has Numeric  $.area   is rw;
+    has Str      $.url            is rw;
+    has Str      $.label          is rw;
+    has Str      $.title          is rw;
+    has Str      $.description    is rw;
+
+    has Numeric  $.id             is rw;
+    has Numeric  $.category       is rw;
+    has Str      $.category_name  is rw;
+    
+    live
+    static
+
 
     method Str {
         $!island;
