@@ -7,7 +7,7 @@
 
 use v6;
 
-class MyRow {
+class Spot {
     has Str      $.island is rw;
     has Numeric  $.area   is rw;
 
@@ -24,15 +24,15 @@ class MyRow {
     }; 
 } 
 
-class MyTable {
+class Spots {
     has        @.data;                     
-    has MyRow  @.rows  is rw;
+    has Spot  @.rows  is rw;
     has        %!lookup;
 
     submethod TWEAK {
         @!rows = gather 
         for @!data -> ( $island, $area ) {
-            my $row = MyRow.new( :$island, :$area );
+            my $row = Spot.new( :$island, :$area );
             %!lookup{ $island } = $row;
             take $row;
         }
@@ -53,7 +53,7 @@ my @island_areas = 11506, 5500, 16988, 2968, 16;
 #     say '----';
 #     my @rows = gather 
 #     for  @island_names Z @island_areas -> ($name, $area)  {
-#         take MyRow.new( island => $name, area => $area );
+#         take Spot.new( island => $name, area => $area );
 #     }
 #     say @rows;
 # }
@@ -65,11 +65,11 @@ my @island_areas = 11506, 5500, 16988, 2968, 16;
     my @raw = @island_names Z @island_areas;
     say @raw;
 
-    my $table = MyTable.new( data => @raw );
+    my $table = Spots.new( data => @raw );
     say $table;
 
     my $row = $table.find_island('Africa');
-    say $row;   # MyRow.new(island => "Africa", area => 11506)
+    say $row;   # Spot.new(island => "Africa", area => 11506)
     say ~$row;  # Africa
     say +$row;  # 11506
 
