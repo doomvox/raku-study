@@ -19,5 +19,6 @@ say %power.sort;
 # (gammera => 3 ghidora => 4 godzilla => 8 golem => 5 mothera => 7 rhodan => 6)
 
 for %power.sort -> $element {
-    say $element.WHAT;
+    # say $element.WHAT; # (Pair)
+
 }
