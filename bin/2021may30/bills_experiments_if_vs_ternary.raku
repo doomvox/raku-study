@@ -26,6 +26,9 @@ say $str;
 my $moon_is_full = False;
 my $code_ref = $moon_is_full ?? { load_sliver_bullets; hunt; } !! { rest_whole_night }; 
 
+sub load_sliver_bullets { say "bang!"; }
+sub hunt { say "tramp tramp tramp";}
+rest_whole_night
 
 
 ## Daniel Sockwell irc
