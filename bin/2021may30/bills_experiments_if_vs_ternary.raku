@@ -73,10 +73,14 @@ say (1 ?? do { my $a = 0; $a+1 } !! 'false');
 # my  $which = 1;  ## => one
 my  $which = 5;    ## => huh
 
+for (0..5) -> $which {
+
 my $r = $which == 1 ?? 'one'
      !! $which == 2 ?? 'two'
      !! $which == 3 ?? 'three'
      !!                'huh'
     ; 
 
-say $r; # huh
+say "when which is: $which, then r is $r"; 
+
+}
