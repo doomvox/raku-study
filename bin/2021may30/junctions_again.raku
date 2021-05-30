@@ -16,9 +16,9 @@ my @skip = < mothera rhodan >;
 my @skip_pats = /mothera/, /rhodan/;
 
 my $combined_re = /@skip_pats/;
-say $combined_re;
+say $combined_re;  # /@skip_pats/
 
-say @monsters ~~ $combined_re;
+say @monsters ~~ $combined_re;  #  ｢mothera｣
 
 
 
