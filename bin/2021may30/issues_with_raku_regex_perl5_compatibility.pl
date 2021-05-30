@@ -36,9 +36,6 @@ if( "this" ~~ m/(?^i:^[a-z])/ ) { say "good"; } else { say "ng"; }
 # Trying good old perl5 with (?^x: good
 # Trying good old perl5 with (?^i: good
 
-
-
-
 __END__
 
 =head1 AUTHOR
