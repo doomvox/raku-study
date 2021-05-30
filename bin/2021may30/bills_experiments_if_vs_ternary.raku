@@ -23,8 +23,6 @@ my $str = do if (1) {'a'} else {'nope'};
 say $str;
 # a
 
-# exit;
-
 ## Bill questions
 
 # # Starting with a series of Daniel Sockwell posts on IRC... 
