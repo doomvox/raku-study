@@ -7,12 +7,14 @@
 | M-o p | jump-to-prev  |
 
 
-*** bruce gray tried to answer a question about "commutative" pattern matching:
-https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9958.html
-**** I was once playing with doing this with regex conjunctions
-***** https://www.nntp.perl.org/group/perl.perl6.users/2020/05/msg8512.html
-***** good solutions: multiple overlapping zero-width matches
+*** "commutative" pattern matching:
+**** bruce gray tried to answer a (murky) question:
+***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9958.html
 
+**** this *might* be related to my attempts at matching multiple patterns independant of order
+***** I was trying to use regex conjunctions
+****** https://www.nntp.perl.org/group/perl.perl6.users/2020/05/msg8512.html
+***** a good solution from peter penchev: multiple overlapping zero-width "before" matches
 
 ** topic ideas
 *** raku classes as data containers (joe brenner) 
