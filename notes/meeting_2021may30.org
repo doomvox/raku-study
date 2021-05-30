@@ -9,12 +9,13 @@
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html
 
-**** an issue I just stumbled over: can you pass a junction as an argument:
-***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9917.html
 
 *** finished that special purpose find/grep script:
 /home/doom/End/Cave/DoomfileTools/bin/df_grep.raku
 **** stumbled across odd behavior when passing a junction to exclude
+***** an issue I just stumbled over: can you pass a junction as an argument:
+***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9917.html
+
 **** importing perl5 defintions: ended up shelling out to a perl5 one-liner
 **** raku's perl5 regex compatibility (:P5) is limited
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9924.html
