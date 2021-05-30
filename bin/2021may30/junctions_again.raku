@@ -30,4 +30,4 @@ say @monsters.grep({ ! m/$skip_pattern/ });
 
 say @monsters ~~ $skip_pattern;  # ｢mothera｣ ?
 
-say @monsters ~~ any( $
+
