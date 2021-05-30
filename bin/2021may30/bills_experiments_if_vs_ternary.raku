@@ -78,5 +78,5 @@ say   $which == 1 ?? 'one'
 my $r = $which == 1 ?? 'one'
      !! $which == 2 ?? 'two'
      !! $which == 3 ?? 'three'
-     !! 'huh'
+     !!                'huh'
     ; 
