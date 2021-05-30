@@ -14,4 +14,4 @@ say @skip_patterns;
 my $skip_pattern = rx/ @skip.join('|') /;
 say $skip_pattern;
 
-say @monsters.grep( /$skip_pattern/ );
+say @monsters.grep({ /$skip_pattern/ });
