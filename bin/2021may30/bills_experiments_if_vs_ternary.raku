@@ -80,5 +80,4 @@ for (0..5) -> $which {
         !!                'huh'
        ; 
     say "when which is: $which, then r is $r"; 
-
 }
