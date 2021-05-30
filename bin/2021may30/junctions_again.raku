@@ -15,7 +15,6 @@ say @skip_patterns;
 # rx/ { @skip.join('|') } /
 
 my $skip_pattern = rx/ mothera | rhodan /;
-
 say $skip_pattern;
 
 say @monsters.grep({ m/$skip_pattern/ });
