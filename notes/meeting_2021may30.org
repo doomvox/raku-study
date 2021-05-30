@@ -7,6 +7,14 @@
 | M-o p | jump-to-prev  |
 
 
+*** bruce gray tried to answer a question about "commutative" pattern matching:
+https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9958.html
+
+
+
+**** I was once playing with doing this with conjunctions
+https://www.nntp.perl.org/group/perl.perl6.users/2020/05/msg8512.html
+
 
 ** topic ideas
 *** raku classes as data containers (joe brenner) 
