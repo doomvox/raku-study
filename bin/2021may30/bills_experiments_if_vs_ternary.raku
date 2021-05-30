@@ -5,9 +5,9 @@
 use v6;
 
 ## yary on basics of if:
-say if (1) {'a'} else {'nope'}
+if (1) {'a'} else {'nope'};
 # a
-say if (0) {'a'} else {'nope'}
+say if (0) {'a'} else {'nope'};
 # nope 
 
 # my $str = if (1) {'a'} else {'nope'};
