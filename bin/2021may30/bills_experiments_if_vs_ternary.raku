@@ -89,3 +89,14 @@ for (0..5) -> $which {
 # when which is: 3, then r is three
 # when which is: 4, then r is huh
 # when which is: 5, then r is huh
+
+
+
+for (0..5) -> $var {
+    given $var {
+        when 1 { say 'one' }
+        when 2 { say 'two' }
+        when 3 { say 'three' }
+        default { say 'hud' }
+    }
+}
