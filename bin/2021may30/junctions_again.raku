@@ -18,6 +18,7 @@ my @skip_pats = /mothera/, /rhodan/;
 my $combined_re = /@skip_pats/;
 say $combined_re;
 
+say @monsters ~~ m/$combined_re/;
 
 
 # my @skip_patterns = @skip.map({ rx/ $_ / });
