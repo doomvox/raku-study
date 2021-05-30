@@ -23,7 +23,9 @@ my $str = do if (1) {'a'} else {'nope'};
 say $str;
 # a
 
-## David Socwell irc
+my $code_ref = $moon_is_full ?? { load_sliver_bullets; hunt; } !! { rest_whole_night }; 
+
+## Daniel Sockwell irc
 say (1 ?? do {my $a = 0; $a+1} !! 'false');
 # 1
 
