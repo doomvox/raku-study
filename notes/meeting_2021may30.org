@@ -29,7 +29,7 @@
 ****** https://www.nntp.perl.org/group/perl.perl6.users/2020/05/msg8512.html
 ***** a good solution from peter penchev: multiple overlapping zero-width "before" matches
 
-*** perl5-porters list: got involved with arguing about line trimming
+*** perl5-porters list: got involved with arguing about trimming whitespace
 
 ** other topic ideas
 *** raku classes as data containers (joe brenner) 
