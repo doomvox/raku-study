@@ -7,6 +7,7 @@ use v6;
 ## yary on basics of if:
 # say if (1) {'a'} else {'nope'};
 # Unsupported use of bare "say".  In Raku please use: .say if you meant
+
 say do if (1) {'a'} else {'nope'};
 # a
 say do if (0) {'a'} else {'nope'};
