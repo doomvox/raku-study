@@ -10,6 +10,10 @@
 **** basics (we've talked about them before)
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html
 
+**** an issue I just stumbled over: can you pass a junction as an argument:
+https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9917.html
+
+
 
 *** raku's perl5 regex compatibility (:P5) is limited
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9924.html
