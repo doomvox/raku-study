@@ -1,5 +1,8 @@
 * meeting notes May 16, 2021
 ** secret plan
+*** bg
+**** rosetta code
+**** sorting and comparators
 *** junctions
 **** basics (we've talked about them before)
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
