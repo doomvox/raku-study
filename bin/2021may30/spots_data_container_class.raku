@@ -30,10 +30,6 @@ class Spot {
         $!url;
         }
 
-    method Numeric { 
-        +$!area;
-        }
-
 #     # does Cool coercion of strings that look numeric
 #     submethod BUILD ( Numeric(Cool) :$!area, :$!island ) {
     }; 
