@@ -5,7 +5,7 @@
 use v6;
 
 ## yary on basics of if:
-if (1) {'a'} else {'nope'};
+say if (1) {'a'} else {'nope'};
 # a
 say if (0) {'a'} else {'nope'};
 # nope 
