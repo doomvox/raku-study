@@ -6,3 +6,6 @@ use v6;
 
 my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
 
+my @skip = < mothera rhodan >;
+
+my @skip_patterns = @skip.map({ rx/ $_ / });
