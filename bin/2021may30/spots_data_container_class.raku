@@ -40,7 +40,7 @@ class Spot {
 
 class Spots {
     has        @.data;                     
-    has Spot  @.rows  is rw;
+    has Spot   @.rows  is rw;
     has        %!lookup;
 
     submethod TWEAK {
