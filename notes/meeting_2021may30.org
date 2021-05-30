@@ -81,3 +81,5 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 *** mail "SUBSCRIBE" to documentation@raku.org
 **** maybe it'll work
 
+*** conference coming up (bruce gray talk, etc)
+
