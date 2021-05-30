@@ -1,5 +1,6 @@
 * meeting notes May 30, 2021
 ** secret plan
+*** bill: weirdness on if/else vs ternary 
 *** bruce gray
 **** rosetta code
 **** sorting and comparators
@@ -76,5 +77,8 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 
 ** announcments
 *** next meeting: June 16th
+
+subscribe
+documentation@raku.org
 
 
