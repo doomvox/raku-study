@@ -11,8 +11,11 @@
 
 *** finished that special purpose find/grep script:
 /home/doom/End/Cave/DoomfileTools/bin/df_grep.raku
-**** an issue I just stumbled over: can you pass a junction as an argument:
+**** issue I just stumbled over: can you pass a junction as an argument (File::Find exclude):
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9917.html
+***** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku
+
+
 **** importing perl5 defintions: ended up shelling out to a perl5 one-liner
 **** raku's perl5 regex compatibility (:P5) is limited
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9924.html
@@ -42,8 +45,6 @@
 **** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing_named_args_and_positional_ones.raku
 
 *** find/grep variants in raku revisited (joe brenner)
-**** an issue with getting File::Find to accept a junction for exclude
-***** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku
 
 *** bruce gray rosettacode
 **** http://rosettacode.org/wiki/Coprime_triplets#Raku
