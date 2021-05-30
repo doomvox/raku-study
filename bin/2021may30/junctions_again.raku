@@ -4,4 +4,5 @@
 
 use v6;
 
+my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
 
