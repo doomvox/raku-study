@@ -1,4 +1,4 @@
-* meeting notes May 16, 2021
+* meeting notes May 30, 2021
 ** secret plan
 *** bg
 **** rosetta code
