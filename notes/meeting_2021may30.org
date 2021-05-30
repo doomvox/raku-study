@@ -1,7 +1,7 @@
 * meeting notes May 16, 2021
 ** topic ideas
 *** raku classes as data containers (joe brenner) 
-**** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021may16/data_container_class_iii.raku
 *** find/grep variants in raku revisited (joe brenner)
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku
 *** bruce gray rosettacode
