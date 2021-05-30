@@ -13,21 +13,27 @@ my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
 
 my @skip = < mothera rhodan >;
 
-my @skip_patterns = @skip.map({ rx/ $_ / });
-say @skip_patterns; # [rx/ $_ / rx/ $_ /]
+my @skip_pats = /mothera/, /rhodan/;
 
-# my $skip_pattern = rx/ { @skip.join('|') } /;
-# rx/ { @skip.join('|') } /
+my $combined_re = /@skip_pats/;
 
-my $skip_pattern = rx/ mothera | rhodan /;
-say $skip_pattern;
 
-say @monsters.grep({ m/$skip_pattern/ });
-# (mothera rhodan)
 
-say @monsters.grep({ ! m/$skip_pattern/ });
-# (godzilla ghidora gammera golem)
+# my @skip_patterns = @skip.map({ rx/ $_ / });
+# say @skip_patterns; # [rx/ $_ / rx/ $_ /]
 
-say @monsters ~~ $skip_pattern;  # ｢mothera｣ ?
+# # my $skip_pattern = rx/ { @skip.join('|') } /;
+# # rx/ { @skip.join('|') } /
+
+# my $skip_pattern = rx/ mothera | rhodan /;
+# say $skip_pattern;
+
+# say @monsters.grep({ m/$skip_pattern/ });
+# # (mothera rhodan)
+
+# say @monsters.grep({ ! m/$skip_pattern/ });
+# # (godzilla ghidora gammera golem)
+
+# say @monsters ~~ $skip_pattern;  # ｢mothera｣ ?
 
 
