@@ -125,10 +125,8 @@ say @collection; # [foah fahv]
 
 
 for ('alpha', 'beta', 'gamma' ) -> $g {
-    my $r = do  ## do rears it's head again
     given $g {
-         when any( m/^b/, m/^g/ )  {  'got b or g'   }
+         when any( m/^b/, m/^g/ )  {  say 'got b or g'   }
          default {  'nuttin much'   }
     };
-    say $r;  # got b or g
 }
