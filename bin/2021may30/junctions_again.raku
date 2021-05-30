@@ -18,7 +18,7 @@ my @skip_pats = /mothera/, /rhodan/;
 my $combined_re = /@skip_pats/;
 say $combined_re;
 
-say @monsters ~~ m/$combined_re/;
+say @monsters ~~ $combined_re;
 
 
 
