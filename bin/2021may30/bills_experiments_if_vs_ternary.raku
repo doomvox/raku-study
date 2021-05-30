@@ -4,6 +4,16 @@
 
 use v6;
 
+## yary on basics of if:
+if (1) {'a'} else {'nope'}
+# a
+if (0) {'a'} else {'nope'}
+# nope 
+
+my $str = if (1) {'a'} else {'nope'};
+say $str;
+
+
 # Starting with a series of Daniel Sockwell posts on IRC... 
 say (1 ?? do {my $a = 0; $a+1} !! 'false');
 # 1 
