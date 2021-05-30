@@ -4,7 +4,6 @@
 *** https://github.com/doomvox/raku-study/tree/main/bin/2021may30
 
 ** secret plan
-
 *** junctions
 **** basics (we've talked about them before)
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
