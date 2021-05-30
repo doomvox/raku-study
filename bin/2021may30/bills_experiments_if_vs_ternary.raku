@@ -10,12 +10,12 @@ if (1) {'a'} else {'nope'}
 if (0) {'a'} else {'nope'}
 # nope 
 
-my $str = if (1) {'a'} else {'nope'};
-say $str;
-# Word 'if' interpreted as a listop; please use 'do if' to introduce the statement control word
+# my $str = if (1) {'a'} else {'nope'};
+# say $str;
+## Word 'if' interpreted as a listop; please use 'do if' to introduce the statement control word
 
 my $str = do if (1) {'a'} else {'nope'};
-
+say $str;
 
 
 # exit;
