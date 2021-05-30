@@ -21,6 +21,7 @@ say $combined_re;
 say @monsters ~~ m/$combined_re/;
 
 
+
 # my @skip_patterns = @skip.map({ rx/ $_ / });
 # say @skip_patterns; # [rx/ $_ / rx/ $_ /]
 
