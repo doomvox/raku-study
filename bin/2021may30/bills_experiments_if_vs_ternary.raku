@@ -66,7 +66,7 @@ say (1 ?? do { my $a = 0; $a+1 } !! 'false');
 # with classic Perl, I often chain terneries eg: 
 #  $which == 1 ?? 'one' !! $which == 2 ?? 'two' !! $which == 3 ?? 'three' !! 'huh' 
 
-my  $which = 1;  ## one
+#my  $which = 1;  ## one
 my  $which = 5;  ## one
 
 my $r = $which == 1 ?? 'one'
