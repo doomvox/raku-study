@@ -122,3 +122,5 @@ my @collection = gather
   for @numbers -> $n {
     take $n if $n ~~ /^f/;
   }
+
+say @collection;
