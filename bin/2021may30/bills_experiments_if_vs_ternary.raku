@@ -30,7 +30,7 @@ sub load_sliver_bullets { say "bang!"; }
 sub hunt { say "tramp tramp tramp";}
 sub rest_whole_night { say "zzzz"; }
 
-$code_ref->();
+$code_ref();
 
 
 ## Daniel Sockwell irc
