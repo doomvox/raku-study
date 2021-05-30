@@ -9,7 +9,6 @@
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html
 
-
 *** finished that special purpose find/grep script:
 /home/doom/End/Cave/DoomfileTools/bin/df_grep.raku
 **** an issue I just stumbled over: can you pass a junction as an argument:
