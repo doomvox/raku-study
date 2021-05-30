@@ -64,9 +64,9 @@ say (1 ?? do { my $a = 0; $a+1 } !! 'false');
 
 # Related, since I got in the habit of not having ’switch’ 
 # with classic Perl, I often chain terneries eg: 
-  $which == 1 ?? 'one' !! $which == 2 ?? 'two' !! $which == 3 ?? 'three' !! 'huh' 
+#  $which == 1 ?? 'one' !! $which == 2 ?? 'two' !! $which == 3 ?? 'three' !! 'huh' 
 
-  $which ==        1 ?? 'one'
-      !! $which == 2 ?? 'two'
-      !! $which == 3 ?? 'three'
-                     !! 'huh' 
+my  $which ==        1 ?? 'one'
+        !! $which == 2 ?? 'two'
+        !! $which == 3 ?? 'three'
+                       !! 'huh' 
