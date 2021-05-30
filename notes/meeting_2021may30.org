@@ -79,5 +79,5 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 *** next meeting: June 16th
 
 *** mail "subscribe" to documentation@raku.org
-
+maybe it'll work
 
