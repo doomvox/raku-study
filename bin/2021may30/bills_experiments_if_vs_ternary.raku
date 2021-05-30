@@ -93,10 +93,12 @@ for (0..5) -> $which {
 
 
 for (0..5) -> $var {
+    my $r = 
     given $var {
-        when 1 { say 'one' }
-        when 2 { say 'two' }
-        when 3 { say 'three' }
-        default { say 'hud' }
+        when 1 {  'one' }
+        when 2 {  'two' }
+        when 3 {  'three' }
+        default { 'hud' }
     }
+    say $r;
 }
