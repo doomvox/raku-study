@@ -130,5 +130,5 @@ for ('alpha', 'beta', 'gamma' ) -> $g {
          when any( m/^b/, m/^g/ )  {  'got b or g'   }
          default {  'hud'   }
     };
-    say $r;
+    say $r;  # got b or g
 }
