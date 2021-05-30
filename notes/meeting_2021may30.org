@@ -1,8 +1,4 @@
 * meeting notes May 16, 2021
-** linkage
-*** http://sf.pm.org
-*** https://github.com/doomvox/raku-study/tree/main/bin/2021may30
-
 ** secret plan
 *** junctions
 **** basics (we've talked about them before)
