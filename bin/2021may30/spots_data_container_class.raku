@@ -5,6 +5,8 @@
 #   /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr25/data_container_class.raku
 #   /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may16/data_container_class_iii.raku
 
+## Goal: load data from spots pg database, stash each row as a Spot in the container class Spots
+
 use v6;
 
 class Spot {
