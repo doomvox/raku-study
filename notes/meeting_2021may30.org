@@ -1,17 +1,17 @@
 * meeting notes May 16, 2021
+** linkage
+*** http://sf.pm.org
+*** https://github.com/doomvox/raku-study/tree/main/bin/2021may30
+
 ** secret plan
-*** M-o z  /home/doom/lib/emacs/slip-and-slide.el 
-|-------+---------------|
-| M-o j | jump-to-slide |
-| M-o n | jump-to-next  |
-| M-o p | jump-to-prev  |
 
 *** junctions
 **** basics (we've talked about them before)
+***** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html
 
 **** an issue I just stumbled over: can you pass a junction as an argument:
-https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9917.html
+***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9917.html
 
 
 
@@ -81,3 +81,5 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 
 ** announcments
 *** next meeting: June 16th
+
+
