@@ -1,8 +1,9 @@
 #!/usr/bin/env perl6
 # spots_data_container_class.raku                    29 May 2021 
 
-# Cleaning up material from here:
+# Working with material from here:
 #   /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr25/data_container_class.raku
+#   /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may16/data_container_class_iii.raku
 
 use v6;
 
