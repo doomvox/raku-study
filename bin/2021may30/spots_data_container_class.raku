@@ -34,8 +34,8 @@ class Spot {
         +$!area;
         }
 
-    # does Cool coercion of strings that look numeric
-    submethod BUILD ( Numeric(Cool) :$!area, :$!island ) {
+#     # does Cool coercion of strings that look numeric
+#     submethod BUILD ( Numeric(Cool) :$!area, :$!island ) {
     }; 
 } 
 
