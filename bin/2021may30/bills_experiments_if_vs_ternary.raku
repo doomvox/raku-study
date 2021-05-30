@@ -93,7 +93,7 @@ for (0..5) -> $which {
 
 
 for (0..5) -> $var {
-    my $r = 
+    my $r = do
     given $var {
         when 1 {  'one' }
         when 2 {  'two' }
