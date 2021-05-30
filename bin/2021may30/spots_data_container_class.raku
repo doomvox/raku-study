@@ -27,7 +27,7 @@ class Spot {
     has Bool     $.static         is rw;    
 
     method Str {
-        $!island;
+        $!url;
         }
 
     method Numeric { 
