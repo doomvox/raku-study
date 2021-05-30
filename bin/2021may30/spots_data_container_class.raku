@@ -7,7 +7,7 @@
 
 ## Goal: load data from spots pg database, stash each row as a Spot in the container class Spots
 
-## Incorporate
+## use this with an alternate new:
 ## /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing_named_args_and_positional_ones.raku
 
 use v6;
