@@ -24,6 +24,7 @@ say $str;
 # a
 
 
+
 ## Bill questions
 
 # # Starting with a series of Daniel Sockwell posts on IRC... 
