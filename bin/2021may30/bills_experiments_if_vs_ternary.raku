@@ -123,4 +123,4 @@ my @collection = gather
     take $n if $n ~~ /^f/;
   }
 
-say @collection;
+say @collection; # [foah fahv]
