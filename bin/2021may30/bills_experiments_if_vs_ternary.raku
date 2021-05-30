@@ -99,6 +99,6 @@ for (0..5) -> $var {
         when 2 {  'two' }
         when 3 {  'three' }
         default { 'hud' }
-    }
+    };
     say $r;
 }
