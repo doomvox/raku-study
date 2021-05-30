@@ -12,3 +12,7 @@ my %power = (
     golem    => 5,
     rhodan   => 6,
     );
+say %power;
+
+
+say %power.sort;
