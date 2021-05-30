@@ -75,11 +75,11 @@ my  $which = 5;    ## => huh
 
 for (0..5) -> $which {
 
-my $r = $which == 1 ?? 'one'
-     !! $which == 2 ?? 'two'
-     !! $which == 3 ?? 'three'
-     !!                'huh'
-    ; 
+   my $r = $which == 1 ?? 'one'
+        !! $which == 2 ?? 'two'
+        !! $which == 3 ?? 'three'
+        !!                'huh'
+       ; 
 
     say "when which is: $which, then r is $r"; 
 
