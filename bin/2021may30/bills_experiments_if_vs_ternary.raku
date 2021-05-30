@@ -79,7 +79,6 @@ for (0..5) -> $which {
         !! $which == 3 ?? 'three'
         !!                'huh'
        ; 
-
     say "when which is: $which, then r is $r"; 
 
 }
