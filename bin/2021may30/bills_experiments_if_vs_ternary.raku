@@ -67,7 +67,7 @@ say (1 ?? do { my $a = 0; $a+1 } !! 'false');
   $which == 1 ?? 'one' !! $which == 2 ?? 'two' !! $which == 3 ?? 'three' !! 'huh' 
 
   $which ==
-    1 ?? 'one'
+                   1 ?? 'one'
       !! $which == 2 ?? 'two'
       !! $which == 3 ?? 'three'
-      !! 'huh' 
+                     !! 'huh' 
