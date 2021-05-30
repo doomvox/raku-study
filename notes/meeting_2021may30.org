@@ -1,6 +1,12 @@
 * meeting notes May 16, 2021
 ** secret plan
-*** 
+***   
+|-------+---------------|
+| M-o j | jump-to-slide |
+| M-o n | jump-to-next  |
+| M-o p | jump-to-prev  |
+
+
 
 ** topic ideas
 *** raku classes as data containers (joe brenner) 
