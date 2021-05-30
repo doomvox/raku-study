@@ -15,17 +15,17 @@ say $str;
 
 exit;
 
-# Starting with a series of Daniel Sockwell posts on IRC... 
-say (1 ?? do {my $a = 0; $a+1} !! 'false');
-# 1 
-# This is what I tried with if_else: 
-my $d = 0; ( if $d {my $a = 0; ($a+1).Bool} else {my $a = 0; ($a).Bool}).say;
-## False 
+# # Starting with a series of Daniel Sockwell posts on IRC... 
+# say (1 ?? do {my $a = 0; $a+1} !! 'false');
+# # 1 
+# # This is what I tried with if_else: 
+# my $d = 0; ( if $d {my $a = 0; ($a+1).Bool} else {my $a = 0; ($a).Bool}).say;
+# ## False 
  
 
 
-say
- (1 ?? do
-  { my $a = 0;
-    $a+1
-   } !! 'false');
+# say
+#  (1 ?? do
+#   { my $a = 0;
+#     $a+1
+#    } !! 'false');
