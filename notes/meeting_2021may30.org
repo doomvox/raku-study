@@ -2,6 +2,9 @@
 ** topic ideas
 *** raku classes as data containers (joe brenner) 
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021may16/data_container_class_iii.raku
+***** spots example
+****** schema: /home/doom/End/Cave/GraphVizDbiGeneral/Wall/graphs/schema_diagram.png
+
 *** find/grep variants in raku revisited (joe brenner)
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku
 *** bruce gray rosettacode
