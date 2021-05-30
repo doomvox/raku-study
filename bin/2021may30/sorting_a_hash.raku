@@ -20,5 +20,5 @@ say %power.sort;
 
 for %power.sort -> $element {
     # say $element.WHAT; # (Pair)
-
+    say $element;
 }
