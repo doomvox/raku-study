@@ -131,6 +131,6 @@ for ('alpha', 'beta', 'gamma' ) -> $g {
     };
 }
 
-# nuttin much
-# nuttin much
-# got b or g
+# alpha: nuttin much
+# beta: nuttin much
+# gamma: got b or g
