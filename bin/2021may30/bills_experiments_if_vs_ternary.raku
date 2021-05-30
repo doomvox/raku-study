@@ -74,3 +74,5 @@ my $r = $which == 1 ?? 'one'
      !! $which == 3 ?? 'three'
      !!                'huh'
     ; 
+
+say $r;
