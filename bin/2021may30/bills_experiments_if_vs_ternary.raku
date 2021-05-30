@@ -102,3 +102,16 @@ for (0..5) -> $var {
     };
     say $r;
 }
+
+
+
+for (0..5) -> $var {
+    my $r = gather
+    given $var {
+         when 1  {  take 'one'   }
+         when 2  {  take 'two'   }
+         when 3  {  take 'three' }
+         default {  take 'hud'   }
+    };
+    say $r;
+}
