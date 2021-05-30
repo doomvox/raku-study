@@ -121,3 +121,14 @@ my @collection = gather
   }
 
 say @collection; # [foah fahv]
+
+
+
+for ('alpha', 'beta', 'gamma' ) -> $g {
+    my $r = do  ## do rears it's head again
+    given $g {
+         when any( m/^b/, m/^g/ )  {  'got b or g'   }
+         default {  'hud'   }
+    };
+    say $r;
+}
