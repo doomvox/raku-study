@@ -1,4 +1,7 @@
 * meeting notes May 16, 2021
+** secret plan
+*** 
+
 ** topic ideas
 *** raku classes as data containers (joe brenner) 
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021may16/data_container_class_iii.raku
