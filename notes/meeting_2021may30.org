@@ -3,7 +3,7 @@
 *** raku classes as data containers (joe brenner) 
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021apr25/data_container_class.raku
 *** find/grep variants in raku revisited (joe brenner)
-
+**** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may30/file_find_with_junction_as_exclude.raku
 *** bruce gray rosettacode
 **** http://rosettacode.org/wiki/Coprime_triplets#Raku
 **** https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
