@@ -6,6 +6,13 @@
 | M-o n | jump-to-next  |
 | M-o p | jump-to-prev  |
 
+*** junctions
+**** basics (we've talked about them before)
+***** https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html
+
+
+*** raku's perl5 regex compatibility (:P5) is limited
+**** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9924.html
 
 
 
