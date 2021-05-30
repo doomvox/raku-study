@@ -41,7 +41,6 @@
 **** /home/doom/End/Cave/Ice/Xtal/Perl6/passing_args.org
 **** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing_named_args_and_positional_ones.raku
 
-
 *** find/grep variants in raku revisited (joe brenner)
 **** an issue with getting File::Find to accept a junction for exclude
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku
