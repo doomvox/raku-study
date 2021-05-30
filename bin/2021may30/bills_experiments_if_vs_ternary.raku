@@ -81,3 +81,10 @@ for (0..5) -> $which {
        ; 
     say "when which is: $which, then r is $r"; 
 }
+
+# when which is: 0, then r is huh
+# when which is: 1, then r is one
+# when which is: 2, then r is two
+# when which is: 3, then r is three
+# when which is: 4, then r is huh
+# when which is: 5, then r is huh
