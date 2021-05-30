@@ -23,6 +23,7 @@ my $str = do if (1) {'a'} else {'nope'};
 say $str;
 # a
 
+say (1 ?? do {my $a = 0; $a+1} !! 'false');
 
 
 ## Bill questions
