@@ -4,3 +4,11 @@
 
 use v6;
 
+my %power = ( 
+    godzilla => 8,
+    mothera  => 7,
+    ghidora  => 4,
+    gammera  => 3,
+    golem    => 5,
+    rhodan   => 6,
+    );
