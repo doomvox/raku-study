@@ -4,6 +4,11 @@
 
 use v6;
 
+## bruce gray suggestss
+# my @pats = /abc/, /def/, /ghi/;
+# my $combined_re = /@pats/;
+# ... exclude => $combined_re ... 
+
 my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
 
 my @skip = < mothera rhodan >;
