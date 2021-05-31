@@ -20,7 +20,6 @@ say $combined_re;  # /@skip_pats/
 
 say @monsters ~~ $combined_re;  #  ｢mothera｣
 
-
 # This actually works:
 my @skip_patterns = @skip.map({ rx/ $_ / });
 
