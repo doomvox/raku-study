@@ -38,7 +38,7 @@ my @pairs = (
 
 
 for @pairs -> $p {
-    say $p.WHAT;
+    say $p.WHAT; # (Pair)
     say $p;      # gamma => 3
     say $p.kv;   # (gamma 3)
 }
