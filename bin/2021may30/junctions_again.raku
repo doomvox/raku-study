@@ -22,8 +22,8 @@ say @monsters ~~ $combined_re;  #  ｢mothera｣
 
 
 
-# my @skip_patterns = @skip.map({ rx/ $_ / });
-# say @skip_patterns; # [rx/ $_ / rx/ $_ /]
+my @skip_patterns = @skip.map({ rx/ $_ / });
+say @skip_patterns; # [rx/ $_ / rx/ $_ /]
 
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
 # # rx/ { @skip.join('|') } /
