@@ -33,6 +33,7 @@ dd @skip_patterns[0]; # rx/ $_ /
 say 'mothera' ~~ @skip_patterns[0];   # ｢mothera｣
 say 'rutabega' ~~ @skip_patterns[0];  # Nil
 
+say '---';
 say ('alpha', 'mothera', 'megazoid') ~~ @skip_patterns;
 
 
