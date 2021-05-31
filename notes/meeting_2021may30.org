@@ -5,6 +5,7 @@
 *** bruce gray
 **** rosetta code
 ***** http://rosettacode.org/wiki/Sum_of_first_n_cubes 
+***** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/crossproduct_operator_slash_x_etc.raku
 **** sorting and comparators documentation
 *** junctions
 **** basics (we've talked about them before)
