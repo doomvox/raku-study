@@ -28,7 +28,7 @@ say @skip_patterns[0]; # rx/ $_ /
 dd @skip_patterns[0]; # rx/ $_ /
 # Regex @skip_patterns = rx/ $_ /
 
-my 'mothera' ~~ @skip_patterns[0]
+my 'mothera' ~~ @skip_patterns[0];
 
 
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
