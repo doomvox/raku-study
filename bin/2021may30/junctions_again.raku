@@ -35,7 +35,7 @@ say 'rutabega' ~~ @skip_patterns[0];  # Nil
 
 say '---';
 say ('alpha', 'mothera', 'megazoid') ~~ @skip_patterns;
-
+# False;
 
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
 # # rx/ { @skip.join('|') } /
