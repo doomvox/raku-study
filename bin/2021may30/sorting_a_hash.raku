@@ -40,5 +40,7 @@ my @pairs = (
 for @pairs -> $p {
     say $p.WHAT;
     say $p;
-    say $p.kv
+    say $p.kv;
 }
+
+say @pairs.sort;
