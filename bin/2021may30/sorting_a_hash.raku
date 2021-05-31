@@ -9,8 +9,8 @@ my %power = (
 #    mothera  => 7,
 #    ghidora  => 4,
     gammera  => 3,
-    golem    => 5,
     rhodan   => 6,
+    golem    => 5,
     );
 say %power;
 # {gammera => 3, golem => 5, rhodan => 6}
