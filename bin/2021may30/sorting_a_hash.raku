@@ -31,9 +31,9 @@ for %power.sort -> $element {
 
 
 my @pairs = ( 
-    alpha => 1,
-    beta  => 2,
     gamma => 3,
+    beta  => 2,
+    alpha => 1,
     );
 
 for @pairs -> $p {
