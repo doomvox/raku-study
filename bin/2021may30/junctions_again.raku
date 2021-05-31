@@ -43,7 +43,7 @@ my @fodder =
 say @fodder.grep(/@skip_patterns/);
 # (mothera)
 
-
+say @fodder.grep(@skip_patterns);
 
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
 # # rx/ { @skip.join('|') } /
