@@ -1,6 +1,7 @@
 * meeting notes May 30, 2021
 ** secret plan
-*** bill: weirdness on if/else vs ternary 
+*** bill: weirdness on if/else vs ternary
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/bills_experiments_if_vs_ternary.raku
 *** bruce gray
 **** rosetta code
 ***** http://rosettacode.org/wiki/Sum_of_first_n_cubes 
