@@ -30,6 +30,8 @@ for %power.sort -> $element {
 # mothera => 7
 # rhodan => 6
 
+## You can also have Arrays of Pairs, which are inherently ordered
+## (and allow duplicate keys)
 my @pairs = ( 
     gamma => 3,
     beta  => 2,
