@@ -37,7 +37,8 @@ say '---';
 say ('alpha', 'mothera', 'megazoid') ~~ @skip_patterns;
 # False;
 
-
+my @fodder = 
+('alpha', 'mothera', 'megazoid');
 
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
 # # rx/ { @skip.join('|') } /
