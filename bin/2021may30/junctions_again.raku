@@ -48,9 +48,12 @@ say @fodder.grep(/@skip_patterns/);
 say @fodder.grep(@skip_patterns);  # ()
 # (if you grep for an array what could that mean, though?)
 
-@fodder  = ('ha', 'ah', 'ja' );
+# @fodder  = ('ha', 'ah', 'ja' );
+# say @fodder.grep( 'hm', 'ha' );  # ()
+# Cannot resolve caller grep(Array:D: Str:D, Str:D); none of these signatures match:
+#     ($: Bool:D $t, *%_)
+#     ($: Mu $t, *%_)
 
-say @fodder.grep( 'hm', 'ha' );  # ()
 
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
 # # rx/ { @skip.join('|') } /
