@@ -25,6 +25,7 @@ say @monsters ~~ $combined_re;  #  ｢mothera｣
 my @skip_patterns = @skip.map({ rx/ $_ / });
 
 # But this is a .gist fail, it looks like you got literal interpolation of $_
+# (and issue worth reporting, I think TODO)
 say @skip_patterns;    # [rx/ $_ / rx/ $_ /]
 say @skip_patterns[0]; # rx/ $_ /
 dd @skip_patterns[0]; # rx/ $_ /
