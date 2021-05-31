@@ -41,6 +41,10 @@ for @pairs -> $p {
 #    say $p;      # gamma => 3
     say $p.kv;   # (gamma 3)
 }
+# (gamma 3)
+# (beta 2)
+# (alpha 1)
+
 
 say @pairs.sort;
 # (alpha => 1 beta => 2 gamma => 3)
