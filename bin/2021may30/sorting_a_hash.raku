@@ -30,7 +30,7 @@ for %power.sort -> $element {
 # rhodan => 6
 
 
-my @power = ( 
+my @pairs = ( 
     alpha => 1,
     beta  => 2,
     gamma => 3,
