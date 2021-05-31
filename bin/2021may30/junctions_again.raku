@@ -26,6 +26,10 @@ my @skip_patterns = @skip.map({ rx/ $_ / });
 say @skip_patterns;    # [rx/ $_ / rx/ $_ /]
 say @skip_patterns[0]; # rx/ $_ /
 dd @skip_patterns[0]; # rx/ $_ /
+# Regex @skip_patterns = rx/ $_ /
+
+my 'mothera' ~~ @skip_patterns[0]
+
 
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
 # # rx/ { @skip.join('|') } /
