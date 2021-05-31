@@ -39,4 +39,5 @@ my @pairs = (
 
 for @pairs -> $p {
     say $p.WHAT;
-    }
+
+}
