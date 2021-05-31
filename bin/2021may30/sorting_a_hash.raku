@@ -28,3 +28,10 @@ for %power.sort -> $element {
 # golem => 5
 # mothera => 7
 # rhodan => 6
+
+
+my %power = ( 
+    alpha => 1,
+    beta => 2,
+    gamma => 3,
+    );
