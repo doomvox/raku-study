@@ -35,3 +35,8 @@ my @pairs = (
     beta  => 2,
     gamma => 3,
     );
+
+
+for @pairs -> $p {
+    say $p.WHAT;
+    }
