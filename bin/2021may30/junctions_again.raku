@@ -40,7 +40,8 @@ say ('alpha', 'mothera', 'megazoid') ~~ @skip_patterns;
 my @fodder = 
   ('alpha', 'mothera', 'megazoid');
 
-@fodder.grep(/@skip_patterns/);
+say @fodder.grep(/@skip_patterns/);
+
 
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
 # # rx/ { @skip.join('|') } /
