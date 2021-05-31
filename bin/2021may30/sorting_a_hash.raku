@@ -49,11 +49,11 @@ say @pairs.sort;
 # (alpha => 1 beta => 2 gamma => 3)
 
 
-# Q with object keys how does cmp convert them?
-my %hashola = (
-    $obj1 => 'a',
-    $obj2 => 'a',
-    $obj3 => 'c',
-);
+# # Q with object keys how does cmp convert them?
+# my %hashola = (
+#     $obj1 => 'a',
+#     $obj2 => 'a',
+#     $obj3 => 'c',
+# );
 
-%hashola.sort;
+# %hashola.sort;
