@@ -40,10 +40,17 @@ say ('alpha', 'mothera', 'megazoid') ~~ @skip_patterns;
 my @fodder = 
   ('alpha', 'mothera', 'megazoid');
 
+## sticking an array of regexps in a match works as an alternation
 say @fodder.grep(/@skip_patterns/);
 # (mothera)
 
-say @fodder.grep(@skip_patterns);
+## The array by itself doesn't work:
+say @fodder.grep(@skip_patterns);  # ()
+# (if you grep for an array what could that mean, though?)
+
+@fodder  = ('ha', 'ah', 'ja' );
+
+say @fodder.grep( 'hm', 'ha' );  # ()
 
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
 # # rx/ { @skip.join('|') } /
