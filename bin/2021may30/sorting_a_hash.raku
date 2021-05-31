@@ -13,10 +13,10 @@ my %power = (
     rhodan   => 6,
     );
 say %power;
-# {gammera => 3, ghidora => 4, godzilla => 8, golem => 5, mothera => 7, rhodan => 6}
+# {gammera => 3, golem => 5, rhodan => 6}
 
 say %power.sort;
-# (gammera => 3 ghidora => 4 godzilla => 8 golem => 5 mothera => 7 rhodan => 6)
+# (gammera => 3 golem => 5 rhodan => 6)
 
 for %power.sort -> $element {
     # say $element.WHAT; # (Pair)
