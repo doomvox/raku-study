@@ -3,6 +3,7 @@
 *** bill: weirdness on if/else vs ternary 
 *** bruce gray
 **** rosetta code
+***** http://rosettacode.org/wiki/Sum_of_first_n_cubes 
 **** sorting and comparators documentation
 *** junctions
 **** basics (we've talked about them before)
