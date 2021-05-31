@@ -82,4 +82,4 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 **** maybe it'll work
 
 *** "conference in the clouds" coming up (bruce gray talk, etc)
-june 8-10th, $10
+**** june 8-10th, $10
