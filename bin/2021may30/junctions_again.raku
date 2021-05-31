@@ -21,15 +21,17 @@ say $combined_re;  # /@skip_pats/
 say @monsters ~~ $combined_re;  #  ｢mothera｣
 
 
-
+# This actually works:
 my @skip_patterns = @skip.map({ rx/ $_ / });
+
+# But this is a .gist fail, it looks like you got literal interpolation of $_
 say @skip_patterns;    # [rx/ $_ / rx/ $_ /]
 say @skip_patterns[0]; # rx/ $_ /
 dd @skip_patterns[0]; # rx/ $_ /
 # Regex @skip_patterns = rx/ $_ /
 
-say 'mothera' ~~ @skip_patterns[0];  # ｢mothera｣
-say 'rutabega' ~~ @skip_patterns[0];  # ｢mothera｣
+say 'mothera' ~~ @skip_patterns[0];   # ｢mothera｣
+say 'rutabega' ~~ @skip_patterns[0];  # Nil
 
 
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
