@@ -55,5 +55,5 @@ say @pairs.sort;
 #     $obj2 => 'a',
 #     $obj3 => 'c',
 # );
-
+# 
 # %hashola.sort;
