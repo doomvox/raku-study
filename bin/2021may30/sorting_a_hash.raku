@@ -39,8 +39,9 @@ my @pairs = (
 
 for @pairs -> $p {
     say $p.WHAT;
-    say $p;
-    say $p.kv;
+    say $p;      # gamma => 3
+    say $p.kv;   # (gamma 3)
 }
 
 say @pairs.sort;
+# (alpha => 1 beta => 2 gamma => 3)
