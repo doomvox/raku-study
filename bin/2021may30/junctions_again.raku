@@ -57,6 +57,7 @@ say @fodder.grep(  ('hm', 'ha')  );  # ()
 ## I don't quite get why grep accepts a list of strings...
 ## it doesn't know what to do with them.   TODO
 
+
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
 # # rx/ { @skip.join('|') } /
 
