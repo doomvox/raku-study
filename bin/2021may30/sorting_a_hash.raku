@@ -29,7 +29,6 @@ for %power.sort -> $element {
 # mothera => 7
 # rhodan => 6
 
-
 my @pairs = ( 
     gamma => 3,
     beta  => 2,
