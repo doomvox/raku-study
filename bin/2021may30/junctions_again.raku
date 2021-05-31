@@ -33,6 +33,8 @@ dd @skip_patterns[0]; # rx/ $_ /
 say 'mothera' ~~ @skip_patterns[0];   # ｢mothera｣
 say 'rutabega' ~~ @skip_patterns[0];  # Nil
 
+my ('alpha', 'mothera', 'megazoid') ~~ @skip_patterns;
+
 
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
 # # rx/ { @skip.join('|') } /
