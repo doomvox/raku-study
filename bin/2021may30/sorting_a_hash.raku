@@ -49,7 +49,7 @@ say @pairs.sort;
 # (alpha => 1 beta => 2 gamma => 3)
 
 
-# Q with object keys
+# Q with object keys 
 my %hashola = (
     $obj1 => 'a',
     $obj2 => 'a',
