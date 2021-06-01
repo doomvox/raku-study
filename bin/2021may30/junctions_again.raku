@@ -58,6 +58,9 @@ say @fodder.grep(  ('hm', 'ha')  );  # ()
 ## it doesn't know what to do with them.   TODO
 
 
+say @fodder.grep( any('hm', 'ha')  );  # ()
+
+
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
 # # rx/ { @skip.join('|') } /
 
