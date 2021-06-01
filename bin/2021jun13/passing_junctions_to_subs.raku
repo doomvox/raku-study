@@ -10,7 +10,11 @@ sub scan_monsters ( $search ) {
     my @population = < godzilla grendel ghidora wormface blob >;
 #     my $status = 
 #       @population.grep({/$search/});
-    my $status = @population.match: $search;
+#     my $status = @population.match: $search;
+
+    for @population -> $m {
+        $m ~~ $search;
+    }
     return $status;
 }
 
