@@ -38,6 +38,7 @@ say '---';
     say @files_trimmed;
     say @files_trimmed.elems; # 2
 }
+say '---';
 
 say '---';
 {
