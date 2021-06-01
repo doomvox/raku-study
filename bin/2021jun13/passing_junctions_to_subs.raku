@@ -8,8 +8,9 @@ my $j = 'godzilla' | 'ghidora' | 'gavora';
 
 sub scan_monsters ( $search ) {
     my @population = < godzilla grendel ghidora wormface blob >;
-    my $status = 
-      @population.grep({/$search/});
+#     my $status = 
+#       @population.grep({/$search/});
+    @population ~~ $search;
     return $status;
 }
 
