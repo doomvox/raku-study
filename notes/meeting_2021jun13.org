@@ -36,7 +36,7 @@
 **** http://rosettacode.org/wiki/Coprime_triplets#Raku
 **** https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
 
-*** super flat 
+*** how flat is flat
 **** https://stackoverflow.com/questions/67515479/what-is-a-simple-and-elegant-way-to-flatten-lists-or-arrays-of-arbitrary-depths
 **** https://stackoverflow.com/questions/41648119/how-can-i-completely-flatten-a-list-of-lists-of-lists
 **** https://en.wikipedia.org/wiki/Superflat
