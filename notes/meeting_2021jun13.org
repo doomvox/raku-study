@@ -3,7 +3,7 @@
 
 *** TODO is it possible to just mail "SUBSCRIBE" to documentation@raku.org
 
-** minutes of last meeting
+** from the last meeting
 **** sorting and comparators documentation
 *** junctions
 **** basics (we've talked about them before)
