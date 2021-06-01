@@ -14,4 +14,4 @@ sub scan_monsters ( $search ) {
     return $status;
 }
 
-say scan_monsters( 'ghidora' ),  so scan_monsters( 'ghidora' ); 
+say scan_monsters( 'ghidora' ), ' ',  so scan_monsters( 'ghidora' ); 
