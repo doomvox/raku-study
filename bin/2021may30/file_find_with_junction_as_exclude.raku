@@ -35,7 +35,7 @@ say '---';
     # Note, <|w> is the general boundary pattern, like perl's \b, << is a more specific left-boundary match
     #    my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/<|w>[mothera|camel]$/ );    
     my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/<< [mothera|camel]$/ );    
-    say @files_trimmed;
+    say @files_trimmed; # ["/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/rhodan".IO]
     say @files_trimmed.elems; # 2
 }
 say '---';
