@@ -1,7 +1,7 @@
 * meeting notes June 20, 2021
 ** and now, for something completely different
 
-*** TODO is it possible to "SUBSCRIBE" to documentation@raku.org
+*** TODO is it possible to just mail "SUBSCRIBE" to documentation@raku.org
 
 ** minutes of last meeting
 *** bill: weirdness on if/else vs ternary
