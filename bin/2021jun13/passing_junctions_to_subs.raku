@@ -40,7 +40,7 @@ say "===";
     }
 
     say scan_monsters( 'ghidora' );  #  [ghidora]
-    say scan_monsters( 'gavora' );   # 
+    say scan_monsters( 'gavora' );   #  []
 
     my $j = 'gavora' | 'ghidora' | 'louis_epstein';
     say scan_monsters( $j );  # 
