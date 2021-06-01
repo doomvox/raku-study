@@ -70,6 +70,7 @@ say "---";
   say so $ret2;
 
   if any(False, True, False) { say "yup, truthiness confirmed"; } else { say "el nope, kinda falsie"; }
+  # yup, truthiness confirmed
 
   #
   # I would've thought that there'd be no difference there
