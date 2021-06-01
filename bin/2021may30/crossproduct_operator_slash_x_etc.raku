@@ -7,7 +7,7 @@ use v6;
 ## looking at bruce gray's solution:
 ##  http://rosettacode.org/wiki/Sum_of_first_n_cubes 
 
-## playing with the component operators used there:
+## playing with the operators used there:
 
 my @n = 1, 2, 3, 4, 5, 6;
 
