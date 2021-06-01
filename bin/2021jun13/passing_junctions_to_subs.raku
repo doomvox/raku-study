@@ -32,7 +32,7 @@ say "===";
 ##      make the point that this is obscure behavior: would not think to check for Mu proto before assuming junctions pass okay
 {
     sub scan_monsters ( $search ) {
-        my @hits gather
+        my @hits = gather
         for @population -> $m {
             take $m if $m ~~ $search;
         }
