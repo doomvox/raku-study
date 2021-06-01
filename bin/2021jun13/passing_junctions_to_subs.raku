@@ -16,3 +16,4 @@ sub scan_monsters ( $search ) {
 
 say scan_monsters( 'ghidora' ), ' ',  so scan_monsters( 'ghidora' ); 
 ## True True
+say scan_monsters( 'dorisday' ), ' ',  so scan_monsters( 'dorisday' ); 
