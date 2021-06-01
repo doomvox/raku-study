@@ -8,6 +8,7 @@ use File::Find;
 ## the place we'll put some files and then look for them
 my $HOME = %*ENV{'HOME'};
 my $loc = "$HOME/tmp/monster_island";
+
 ## some names to work with
 my @monsters = < godzilla mothera rhodan >;
 
