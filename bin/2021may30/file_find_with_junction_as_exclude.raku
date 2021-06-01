@@ -5,15 +5,21 @@
 use v6;
 use File::Find;
 
-## create some files to find
-my $HOME = %*ENV{'HOME'};
-say $HOME;
+## place we'll put some files and then look for them
 my $loc = "$HOME/tmp/monster_island";
-mkdir( $loc );
-chdir( $loc );
+## some names to work with
 my @monsters = < godzilla mothera rhodan >;
-for @monsters -> $name {
-    $name.IO.spurt("The $name attacks!");
+
+{
+    ## create some files to find
+    my $HOME = %*ENV{'HOME'};
+    say $HOME;
+    mkdir( $loc );
+    chdir( $loc );
+    my @monsters = < godzilla mothera rhodan >;
+    for @monsters -> $name {
+        $name.IO.spurt("The $name attacks!");
+    }
 }
 
 {
