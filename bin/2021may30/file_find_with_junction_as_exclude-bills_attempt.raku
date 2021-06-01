@@ -80,7 +80,9 @@ say "---";
 
   if "b" eq $junction { say "yup, truthiness confirmed"; } else { say "el nope, kinda falsie"; }
 
-  # But then, there are other cases where junction-in,
+}
+{
+  # Also, there are other cases where junction-in,
   # junction-out is the only thing that makes sense:
   say $junction ~ 'z';
   # any(az, bz, cz)
