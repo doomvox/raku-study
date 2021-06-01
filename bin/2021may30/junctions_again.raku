@@ -61,11 +61,12 @@ say @fodder.grep(  ('hm', 'ha')  );  # ()
 say @fodder.grep( any('hm', 'ha')  );  # (ha)
 
 
+## Flailing around trying to create an alternation pattern from an array (not needed)
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
 # # rx/ { @skip.join('|') } /
 
-# my $skip_pattern = rx/ mothera | rhodan /;
-# say $skip_pattern;
+my $skip_pattern = rx/ mothera | rhodan /;
+say $skip_pattern;
 
 # say @monsters.grep({ m/$skip_pattern/ });
 # # (mothera rhodan)
