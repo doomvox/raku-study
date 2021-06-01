@@ -63,6 +63,11 @@ say "---";
   $char = 'e';
   say $char ~~ $junction; # False
   say $char eq $junction; # any(False, False, False)
+
+  say so $char eq $junction; # any(False, True, False)  => True 
+  say so $char eq $junction; # any(False, False, False) => False
+
+
   #
   # I would've thought that there'd be no difference there
   # The smartmatch checks that it's comparing string types,
