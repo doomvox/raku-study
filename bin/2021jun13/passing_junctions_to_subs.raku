@@ -24,8 +24,9 @@ my @population = < godzilla grendel ghidora wormface blob >;
     }
 
     say scan_monsters_2( $j );  # True
-
 }
+
+say "===";
 ## TODO re-work to return list of all hits
 ##      show that without Mu, the return when searching a junction is useless
 ##      make the point that this is obscure behavior: would not think to check for Mu proto before assuming junctions pass okay
