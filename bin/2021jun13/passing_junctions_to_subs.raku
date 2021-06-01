@@ -53,6 +53,7 @@ say "===";
         return @hits;
     }
     say scan_monsters_2( $j );  # [ghidora]
+
 }
 
 ## NOTES
