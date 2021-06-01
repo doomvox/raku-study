@@ -65,6 +65,7 @@ say @fodder.grep( any('hm', 'ha')  );  # (ha)
 # # my $skip_pattern = rx/ { @skip.join('|') } /;
 # # rx/ { @skip.join('|') } /
 
+## Starting with a manually created alternation
 my $skip_pattern = rx/ mothera | rhodan /;
 say $skip_pattern;  # rx/ mothera | rhodan /
 say @monsters.grep({ m/$skip_pattern/ });
