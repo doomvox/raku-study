@@ -89,8 +89,9 @@ say @monsters.grep({ ! $skip_pattern });
 # (godzilla mothera ghidora gammera golem rhodan)
 ## TODO weird that it matches everything?  Maybe it's the negated form of nothing?
 
-say @monsters.grep( ! $skip_pattern );
-
+# Does that work without the code block?  (Nope.)
+# say @monsters.grep( ! $skip_pattern );
+## Cannot use Bool as Matcher with '.grep'.  Did you mean to use $_ inside a block?
 
 # say @monsters ~~ $skip_pattern;  # ｢mothera｣ ?
 
