@@ -46,8 +46,11 @@ say "===";
     say scan_monsters( $j );  # any([], [ghidora], [])
 
     sub scan_monsters_2 ( Mu $search ) {
-        my $status = any( @population ) ~~ $search;
-        return $status;
+        my @hits = gather
+        for @population -> $m {
+            take $m if $m ~~ $search;
+        }
+        return @hits;
     }
 
     say scan_monsters_2( $j );  # True
