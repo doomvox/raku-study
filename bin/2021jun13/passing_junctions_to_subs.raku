@@ -17,7 +17,7 @@ say scan_monsters( 'gavora' );   # False
 my $j = 'godzilla' | 'ghidora' | 'gavora';
 my $search_j = 'grendel' | 'godzilla' | 'ghidora';
 
-say scan_monsters( $search_j );  # True
+say scan_monsters( $search_j );  # any(True, True, True)
 
 
 
