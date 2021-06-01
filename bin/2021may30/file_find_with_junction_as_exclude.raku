@@ -31,12 +31,14 @@ my @monsters = < godzilla mothera rhodan >;
 say '---';
 {
     ## with a handcrafted regex we find only 2, skipping mothera as expected
+# Note, <|w> is the general boundary pattern, like perl's \b, << is a more specific left-boundary match
 #    my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/<|w>[mothera|camel]$/ );    
     my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/<< [mothera|camel]$/ );    
     say @files_trimmed;
     say @files_trimmed.elems; # 2
 }
 
+say '---';
 {
     ## Trying to do the same with an any junction doesn't work:
     my @exclude = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
