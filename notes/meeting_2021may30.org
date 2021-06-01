@@ -7,7 +7,7 @@
 ***** http://rosettacode.org/wiki/Sum_of_first_n_cubes 
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/crossproduct_operator_slash_x_etc.raku
 **** sorting and comparators documentation
-***** wants a good, centralized write-up of what you really need to know about raku sorts
+***** wants to write a good, centralized page about what you really need to know about raku sorts
 ****** the comparator is key-- what goes before what
 ****** the guts of the sort are written for you-- don't need to re-invent CS 101 wheels
 ****** existing docs are scattered with some peculiar examples
