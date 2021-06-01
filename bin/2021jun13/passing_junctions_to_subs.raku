@@ -20,5 +20,5 @@ my $search_j = 'grendel' | 'godzilla' | 'ghidora';
 
 
 ## NOTES
-
+#
 # monster identification: /home/doom/Dust/Images/Gavora
