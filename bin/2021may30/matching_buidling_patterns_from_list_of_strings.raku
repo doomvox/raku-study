@@ -10,7 +10,6 @@ use v6;
 # ... exclude => $combined_re ... 
 
 my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
-
 my @skip = < mothera rhodan >;
 
 my @skip_pats = /mothera/, /rhodan/;
