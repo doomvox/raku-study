@@ -41,10 +41,6 @@
 **** https://stackoverflow.com/questions/41648119/how-can-i-completely-flatten-a-list-of-lists-of-lists
 **** https://en.wikipedia.org/wiki/Superflat
 
-*** type system: what is accepted by what   
-**** is anything ever cast automatically
-***** when can you Cool
-
 *** go through my perl5 templates: how much is core raku now?
 
 *** raku die handlers vs perl5
