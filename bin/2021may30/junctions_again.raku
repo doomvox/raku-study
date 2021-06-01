@@ -74,6 +74,7 @@ say @monsters.grep({ m/$skip_pattern/ });
 say @monsters.grep({ $skip_pattern });
 # (mothera rhodan)
 
+# negating it to use "skip" pattern to skip
 say @monsters.grep({ ! m/$skip_pattern/ });
 # (godzilla ghidora gammera golem)
 
