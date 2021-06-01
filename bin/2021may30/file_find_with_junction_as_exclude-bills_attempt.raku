@@ -43,7 +43,7 @@ say "---";
   # b
   # c
 
-  # but then this idiom creates an array of multiple any
+  # But this idiom creates an array of multiple any
   # junctions with single values, so they'd behave just like the
   # individual values themselves:
   my $values = < A B C >;
