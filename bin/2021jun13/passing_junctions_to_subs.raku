@@ -54,7 +54,8 @@ say "===";
     }
     say scan_monsters_2( $j );  # [ghidora]
 
-    say scan_monsters_2( rx/^g/ );
+    say scan_monsters( rx/^g/ ); # [godzilla grendel ghidora]
+    say scan_monsters_2( rx/^g/ ); # [godzilla grendel ghidora]
 
 }
 
