@@ -83,16 +83,14 @@ say '---';
 }
 
 say '---';
-
 {
     my @exclude = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
-    my $all_exclude = all(@exclude);
+    my $all_exclude = all(@exclude);  ## trying an all rather than an any (same issue, of course)
     my @files = find( dir => $loc, type => 'file', exclude => $all_exclude );    
     say @files;
 # [all(("/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/rhodan".IO), ("/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/mothera".IO "/home/doom/tmp/monster_island/rhodan".IO))]
 }
-
-
+say '---';
 {
     my @exclude = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
     my $any_exclude = any(@exclude);
