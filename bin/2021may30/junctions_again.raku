@@ -78,6 +78,8 @@ say @monsters.grep({ $skip_pattern });
 say @monsters.grep({ ! m/$skip_pattern/ });
 # (godzilla ghidora gammera golem)
 
+say @monsters.grep({ ! $skip_pattern });
+
 # say @monsters ~~ $skip_pattern;  # ｢mothera｣ ?
 
 
