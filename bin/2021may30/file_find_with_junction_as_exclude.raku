@@ -31,7 +31,8 @@ my @monsters = < godzilla mothera rhodan >;
 say '---';
 {
     ## with a handcrafted regex we find only 2, skipping mothera as expected
-    my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/<|w>[mothera|camel]$/ );    
+#    my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/<|w>[mothera|camel]$/ );    
+    my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/<< [mothera|camel]$/ );    
     say @files_trimmed;
     say @files_trimmed.elems; # 2
 }
