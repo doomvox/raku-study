@@ -1,51 +1,51 @@
-- [meeting notes June 20, 2021](#orgc223fc9)
-  - [and now, for something completely different](#org16bd8f5)
-    - [is it possible to just mail "SUBSCRIBE" to documentation@raku.org](#org4f229cc)
-  - [minutes of last meeting](#org3613a1f)
-    - [junctions](#org85fdf6c)
-    - [follow-up: trying to pass a junction as an argument](#orgcf11590)
-  - [other topic ideas](#orgbad3c8d)
-    - [raku classes as data containers (joe brenner)](#org20cb1c9)
-    - [argument passing signatures (joe brenner)](#orgf61c525)
-    - [bruce gray rosettacode](#orga1429ef)
-    - [super flat](#org8e754e3)
-    - [type system: what is accepted by what](#org3ea2eb9)
-    - [go through my perl5 templates: how much is core raku now?](#orgf93220c)
-    - [raku die handlers vs perl5](#org7f6dd0c)
-    - [raku idioms](#org8b13819)
-  - [appendix: the usual links](#org6b369e4)
-    - [code examples](#org606c928)
-    - [meeting notes (material from this file)](#org9a04c7d)
-    - [SF Perl page, has links to mailing list](#org7796827)
-    - [perl6-users mailing list archive](#orgd2692e7)
-  - [announcments](#org971756e)
-    - [next meeting: July 11th](#org398ae26)
-    - ["conference in the clouds" coming up (bruce gray talk, etc)](#org1f85e94)
+- [meeting notes June 20, 2021](#orgb9d8d10)
+  - [and now, for something completely different](#orgb1da4a1)
+    - [is it possible to just mail "SUBSCRIBE" to documentation@raku.org](#org6aec041)
+  - [minutes of last meeting](#orgb4cbec9)
+    - [junctions](#org375fbef)
+    - [follow-up: trying to pass a junction as an argument](#org8732e07)
+  - [other topic ideas](#org3b20bba)
+    - [raku classes as data containers (joe brenner)](#orgd5ede16)
+    - [unsual argument passing signatures (joe brenner)](#orga35cc29)
+    - [bruce gray rosettacode](#orgba4280c)
+    - [super flat](#org6e38767)
+    - [type system: what is accepted by what](#org34cdaa2)
+    - [go through my perl5 templates: how much is core raku now?](#org504602e)
+    - [raku die handlers vs perl5](#orgfc965cd)
+    - [raku idioms](#org19722b7)
+  - [appendix: the usual links](#org009303d)
+    - [code examples](#orge3693ed)
+    - [meeting notes (material from this file)](#org9c86a1a)
+    - [SF Perl page, has links to mailing list](#org06dbee3)
+    - [perl6-users mailing list archive](#org1cc5822)
+  - [announcments](#orgdd2ee00)
+    - [next meeting: July 11th](#orgabaffea)
+    - ["conference in the clouds" coming up (bruce gray talk, etc)](#org0bbe51a)
 
 
-<a id="orgc223fc9"></a>
+<a id="orgb9d8d10"></a>
 
 # meeting notes June 20, 2021
 
 
-<a id="org16bd8f5"></a>
+<a id="orgb1da4a1"></a>
 
 ## and now, for something completely different
 
 
-<a id="org4f229cc"></a>
+<a id="org6aec041"></a>
 
 ### is it possible to just mail "SUBSCRIBE" to documentation@raku.org
 
 
-<a id="org3613a1f"></a>
+<a id="orgb4cbec9"></a>
 
 ## minutes of last meeting
 
 1.  sorting and comparators documentation
 
 
-<a id="org85fdf6c"></a>
+<a id="org375fbef"></a>
 
 ### junctions
 
@@ -56,7 +56,7 @@
     2.  <https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html>
 
 
-<a id="orgcf11590"></a>
+<a id="org8732e07"></a>
 
 ### follow-up: trying to pass a junction as an argument
 
@@ -75,12 +75,12 @@
     1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9924.html>
 
 
-<a id="orgbad3c8d"></a>
+<a id="org3b20bba"></a>
 
 ## other topic ideas
 
 
-<a id="org20cb1c9"></a>
+<a id="orgd5ede16"></a>
 
 ### raku classes as data containers (joe brenner)
 
@@ -95,16 +95,16 @@
         2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku>
 
 
-<a id="orgf61c525"></a>
+<a id="orga35cc29"></a>
 
-### argument passing signatures (joe brenner)
+### unsual argument passing signatures (joe brenner)
 
 1.  /home/doom/End/Cave/Ice/Xtal/Perl6/passing<sub>args.org</sub>
 
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="orga1429ef"></a>
+<a id="orgba4280c"></a>
 
 ### bruce gray rosettacode
 
@@ -113,7 +113,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org8e754e3"></a>
+<a id="org6e38767"></a>
 
 ### super flat
 
@@ -124,7 +124,7 @@
 3.  <https://en.wikipedia.org/wiki/Superflat>
 
 
-<a id="org3ea2eb9"></a>
+<a id="org34cdaa2"></a>
 
 ### type system: what is accepted by what
 
@@ -133,17 +133,17 @@
     1.  when can you Cool
 
 
-<a id="orgf93220c"></a>
+<a id="org504602e"></a>
 
 ### go through my perl5 templates: how much is core raku now?
 
 
-<a id="org7f6dd0c"></a>
+<a id="orgfc965cd"></a>
 
 ### raku die handlers vs perl5
 
 
-<a id="org8b13819"></a>
+<a id="org19722b7"></a>
 
 ### raku idioms
 
@@ -152,50 +152,50 @@
     1.  maybe: favor methods over functions?
 
 
-<a id="org6b369e4"></a>
+<a id="org009303d"></a>
 
 ## appendix: the usual links
 
 
-<a id="org606c928"></a>
+<a id="orge3693ed"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jun20>
 
 
-<a id="org9a04c7d"></a>
+<a id="org9c86a1a"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021jun20.md>
 
 
-<a id="org7796827"></a>
+<a id="org06dbee3"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="orgd2692e7"></a>
+<a id="org1cc5822"></a>
 
 ### perl6-users mailing list archive
 
 <https://www.nntp.perl.org/group/perl.perl6.users/>
 
 
-<a id="org971756e"></a>
+<a id="orgdd2ee00"></a>
 
 ## announcments
 
 
-<a id="org398ae26"></a>
+<a id="orgabaffea"></a>
 
 ### next meeting: July 11th
 
 
-<a id="org1f85e94"></a>
+<a id="org0bbe51a"></a>
 
 ### "conference in the clouds" coming up (bruce gray talk, etc)
 

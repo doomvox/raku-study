@@ -28,7 +28,7 @@
 ******* generated with: /home/doom/End/Cave/GraphVizDbiGeneral/bin/generate_schema_diagram_spots
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku
 
-*** argument passing signatures (joe brenner)
+*** unsual argument passing signatures (joe brenner)
 **** /home/doom/End/Cave/Ice/Xtal/Perl6/passing_args.org
 **** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing_named_args_and_positional_ones.raku
 
