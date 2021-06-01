@@ -39,7 +39,7 @@ say "===";
         return @hits;
     }
 
-    say scan_monsters( 'ghidora' );  # 
+    say scan_monsters( 'ghidora' );  #  [ghidora]
     say scan_monsters( 'gavora' );   # 
 
     my $j = 'gavora' | 'ghidora' | 'louis_epstein';
