@@ -12,6 +12,7 @@ sub scan_monsters ( $search ) {
     return $status;
 }
 say scan_monsters( 'ghidora' );  # True
-say scan_monsters( 'dorisday' ); # False
+say scan_monsters( 'gavora' ); # False
 
+my $j = 'godzilla' | 'ghidora' | 'gavora';
 my $search_j = 'grendel' | 'godzilla' | 'ghidora';
