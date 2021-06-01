@@ -59,7 +59,6 @@ say "===";
 
     say scan_monsters( rx/^g/ );   # [godzilla grendel ghidora]
     say scan_monsters_mu( rx/^g/ ); # [godzilla grendel ghidora]
-
 }
 
 ## NOTES
