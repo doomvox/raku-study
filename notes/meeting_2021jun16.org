@@ -1,0 +1,88 @@
+* meeting notes June 16, 2021
+** secret plan
+*** bill: weirdness on if/else vs ternary
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/bills_experiments_if_vs_ternary.raku
+*** bruce gray
+**** rosetta code
+***** http://rosettacode.org/wiki/Sum_of_first_n_cubes 
+***** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/crossproduct_operator_slash_x_etc.raku
+**** sorting and comparators documentation
+*** junctions
+**** basics (we've talked about them before)
+***** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
+***** https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html
+
+*** finished that special purpose find/grep script:
+/home/doom/End/Cave/DoomfileTools/bin/df_grep.raku
+**** issue I just stumbled over: can you pass a junction as an argument (File::Find exclude):
+***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9917.html
+***** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku
+
+**** importing perl5 defintions: ended up shelling out to a perl5 one-liner
+**** raku's perl5 regex compatibility (:P5) is limited
+***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9924.html
+
+
+*** "commutative" pattern matching:
+**** bruce gray tried to answer a (murky) question:
+***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9958.html
+
+**** this *might* be related to my attempts at matching multiple patterns independant of order
+***** I was trying to use regex conjunctions
+****** https://www.nntp.perl.org/group/perl.perl6.users/2020/05/msg8512.html
+***** a good solution from peter penchev: multiple overlapping zero-width "before" matches
+
+*** perl5-porters list: trimming whitespace
+
+** other topic ideas
+*** raku classes as data containers (joe brenner) 
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021may16/data_container_class_iii.raku
+***** spots example
+****** schema: /home/doom/End/Cave/GraphVizDbiGeneral/Wall/graphs/schema_diagram.png
+******* generated with: /home/doom/End/Cave/GraphVizDbiGeneral/bin/generate_schema_diagram_spots
+****** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku
+
+*** argument passing signatures (joe brenner)
+**** /home/doom/End/Cave/Ice/Xtal/Perl6/passing_args.org
+**** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing_named_args_and_positional_ones.raku
+
+*** bruce gray rosettacode
+**** http://rosettacode.org/wiki/Coprime_triplets#Raku
+**** https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku 
+
+
+*** super flat 
+**** https://stackoverflow.com/questions/67515479/what-is-a-simple-and-elegant-way-to-flatten-lists-or-arrays-of-arbitrary-depths
+**** https://stackoverflow.com/questions/41648119/how-can-i-completely-flatten-a-list-of-lists-of-lists
+**** https://en.wikipedia.org/wiki/Superflat
+
+*** type system: what is accepted by what   
+**** is anything ever cast automatically
+***** when can you Cool
+
+*** go through my perl5 templates: how much is core raku now?
+
+*** raku die handlers vs perl5
+*** raku idioms
+**** https://github.com/doomvox/raku-study/blob/main/notes/idioms.org
+
+***** maybe: favor methods over functions?
+
+** appendix: the usual links
+*** code examples
+https://github.com/doomvox/raku-study/tree/main/bin/2021may30
+*** meeting notes (material from this file)
+https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021may30.md
+*** SF Perl page, has links to mailing list
+http://sf.pm.org/
+*** perl6-users mailing list archive
+https://www.nntp.perl.org/group/perl.perl6.users/
+
+** announcments
+*** next meeting: June 16th
+
+*** mail "SUBSCRIBE" to documentation@raku.org
+**** maybe it'll work
+
+*** "conference in the clouds" coming up (bruce gray talk, etc)
+**** june 8-10th, $10
