@@ -1,6 +1,8 @@
 * meeting notes June 20, 2021
 ** and now, for something completely different
 
+*** TODO is it possible to "SUBSCRIBE" to documentation@raku.org
+
 ** minutes of last meeting
 *** bill: weirdness on if/else vs ternary
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/bills_experiments_if_vs_ternary.raku
@@ -83,8 +85,6 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 ** announcments
 *** next meeting: July 11th
 
-*** mail "SUBSCRIBE" to documentation@raku.org
-**** maybe it'll work
 
 *** "conference in the clouds" coming up (bruce gray talk, etc)
 **** june 8-10th, $10
