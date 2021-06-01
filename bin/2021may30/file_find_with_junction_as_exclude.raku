@@ -38,7 +38,6 @@ say '---';
     say @files_trimmed; # ["/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/rhodan".IO]
     say @files_trimmed.elems; # 2
 }
-say '---';
 
 say '---';
 {
@@ -60,6 +59,7 @@ say '---';
 
 }
 
+say '---';
 ## raiph: precedence issues? 
 {
     my @exclude = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
