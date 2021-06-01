@@ -1,4 +1,4 @@
-* meeting notes June 16, 2021
+* meeting notes June 13, 2021
 ** and now, for something completely different
 
 ** minutes of last meeting
@@ -81,7 +81,7 @@ http://sf.pm.org/
 https://www.nntp.perl.org/group/perl.perl6.users/
 
 ** announcments
-*** next meeting: June 16th
+*** next meeting: June 13th
 
 *** mail "SUBSCRIBE" to documentation@raku.org
 **** maybe it'll work
