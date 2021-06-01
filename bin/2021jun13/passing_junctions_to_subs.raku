@@ -38,11 +38,11 @@ my @population = < godzilla grendel ghidora wormface blob >;
         return @hits;
     }
 
-    say scan_monsters( 'ghidora' );  # True
-    say scan_monsters( 'gavora' );   # False
+    say scan_monsters( 'ghidora' );  # 
+    say scan_monsters( 'gavora' );   # 
 
     my $j = 'gavora' | 'ghidora' | 'louis_epstein';
-    say scan_monsters( $j );  # any(False, True, False)
+    say scan_monsters( $j );  # 
 
     sub scan_monsters_2 ( Mu $search ) {
         my $status = any( @population ) ~~ $search;
