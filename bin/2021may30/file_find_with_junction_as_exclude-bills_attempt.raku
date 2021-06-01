@@ -83,6 +83,7 @@ say "---";
 {
   # There are other cases where junction-in,
   # junction-out is the only thing that makes sense:
+  my $junction = any( 'a', 'b', 'c' );
   say $junction ~ 'z';
   # any(az, bz, cz)
 
