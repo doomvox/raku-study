@@ -98,4 +98,4 @@ say @monsters.grep({ ! $skip_pattern });
 say @monsters ~~ $skip_pattern;  # ｢mothera｣ ?
 # ｢mothera｣
 
-say @monsters !~ $skip_pattern;  # ｢mothera｣ ?
+say @monsters !~~ $skip_pattern;  # ｢mothera｣ ?
