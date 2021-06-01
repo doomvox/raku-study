@@ -62,6 +62,5 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 ** announcments
 *** next meeting: July 11th
 
-
 *** "conference in the clouds" coming up (bruce gray talk, etc)
 **** june 8-10th, $10
