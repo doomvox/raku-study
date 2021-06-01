@@ -1,4 +1,5 @@
 * meeting notes June 16, 2021
+
 ** secret plan
 *** bill: weirdness on if/else vs ternary
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/bills_experiments_if_vs_ternary.raku
