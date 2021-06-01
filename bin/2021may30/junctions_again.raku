@@ -84,9 +84,11 @@ say @monsters.grep({ ! m/$skip_pattern/ });
 # (godzilla ghidora gammera golem)
 
 
-#
+# negation is no good with just the pattern and no m//
 say @monsters.grep({ ! $skip_pattern });
 # (godzilla mothera ghidora gammera golem rhodan)
+## TODO weird that it matches everything?  Maybe it's the negated form of nothing?
+
 
 # say @monsters ~~ $skip_pattern;  # ｢mothera｣ ?
 
