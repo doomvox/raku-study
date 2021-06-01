@@ -64,6 +64,12 @@ say "---";
   say $char ~~ $junction; # False
   say $char eq $junction; # any(False, False, False)
 
+  # I would've thought that there'd be no difference there
+  # The smartmatch checks that it's comparing string types,
+  # and does something like an eq on them, right?
+
+  # But if you evaluate the eq returns logically, they collapse
+  # to expected values:
   my $ret1 = "b" eq $junction; # any(False, True, False)  => True 
   my $ret2 = "x" eq $junction; # any(False, False, False) => False
   say so $ret1;  # True 
@@ -73,12 +79,6 @@ say "---";
   # yup, truthiness confirmed
 
   if "b" eq $junction { say "yup, truthiness confirmed"; } else { say "el nope, kinda falsie"; }
-
-
-
-  # I would've thought that there'd be no difference there
-  # The smartmatch checks that it's comparing string types,
-  # and does something like an eq on them, right?
 
   # But then, there are other cases where junction-in,
   # junction-out is the only thing that makes sense:
