@@ -14,3 +14,4 @@ sub scan_monsters ( $search ) {
 }
 
 say scan_monsters( 'ghidora' ); # (Any)
+say so scan_monsters( 'ghidora' ); # (Any)
