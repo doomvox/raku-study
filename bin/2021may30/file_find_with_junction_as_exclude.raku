@@ -100,6 +100,7 @@ say '---';
     # ["/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/mothera".IO "/home/doom/tmp/monster_island/rhodan".IO]
 }
 
+say "===";
 # vaddim suggestion (works)
 {
     my @exclude = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
@@ -108,7 +109,6 @@ say '---';
     say @files;
     # ["/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/rhodan".IO]
 }
-
 
 # variation of vaddim suggestion (works)
 {
