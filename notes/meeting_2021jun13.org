@@ -17,7 +17,7 @@
 **** Ralph Mellor conceeds junction "precedence" can be confusing... 
 ***** TODO (( link from mailing list ))
 
-**** raku's perl5 regex compatibility (:P5) is limited
+**** TODO opened issue: raku's perl5 regex compatibility (:P5) can't handle (?^i:
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9924.html
 
 
