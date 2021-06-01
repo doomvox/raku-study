@@ -12,8 +12,9 @@ sub scan_monsters ( $search ) {
 #       @population.grep({/$search/});
 #     my $status = @population.match: $search;
 
+    my $status;
     for @population -> $m {
-        $m ~~ $search;
+        $status = $m ~~ $search;
     }
     return $status;
 }
