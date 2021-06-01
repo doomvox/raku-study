@@ -15,8 +15,7 @@
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9917.html
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku
 **** Ralph Mellor conceeds junction "precedence" can be confusing... 
-***** (( link from mailing list ))
-
+***** TODO (( link from mailing list ))
 
 **** importing perl5 defintions: ended up shelling out to a perl5 one-liner
 **** raku's perl5 regex compatibility (:P5) is limited
