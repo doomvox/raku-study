@@ -46,7 +46,6 @@ my @population = < godzilla grendel ghidora wormface blob >;
     }
 
     say scan_monsters_2( $j );  # True
-
 }
 
 ## NOTES
