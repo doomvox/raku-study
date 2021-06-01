@@ -79,7 +79,6 @@ say "---";
   # yup, truthiness confirmed
 
   if "b" eq $junction { say "yup, truthiness confirmed"; } else { say "el nope, kinda falsie"; }
-
 }
 {
   # Also, there are other cases where junction-in,
