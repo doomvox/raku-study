@@ -23,7 +23,7 @@ sub scan_monsters_2 ( Mu $search ) {
     return $status;
 }
 
-say scan_monsters_2( $j );  # any(False, True, False)
+say scan_monsters_2( $j );  # True
 
 
 ## NOTES
