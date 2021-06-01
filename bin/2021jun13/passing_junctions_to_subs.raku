@@ -14,6 +14,5 @@ sub scan_monsters ( $search ) {
     return $status;
 }
 
-say scan_monsters( 'ghidora' ), ' ',  so scan_monsters( 'ghidora' ); 
-## True True
-say scan_monsters( 'dorisday' ), ' ',  so scan_monsters( 'dorisday' ); 
+say scan_monsters( 'ghidora' );  # True
+say scan_monsters( 'dorisday' ); # False
