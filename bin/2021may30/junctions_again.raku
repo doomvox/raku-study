@@ -98,4 +98,9 @@ say @monsters.grep({ ! $skip_pattern });
 say @monsters ~~ $skip_pattern;  # ｢mothera｣ ?
 # ｢mothera｣
 
-say @monsters !~~ $skip_pattern;  # ｢mothera｣ ?
+say @monsters !~~ $skip_pattern;  
+# False
+## TODO is that right?  I would expected everything except mothera
+
+
+say @monsters ~~ ! m/$skip_pattern/;  
