@@ -93,6 +93,8 @@ say @monsters.grep({ ! $skip_pattern });
 # say @monsters.grep( ! $skip_pattern );
 ## Cannot use Bool as Matcher with '.grep'.  Did you mean to use $_ inside a block?
 
-# say @monsters ~~ $skip_pattern;  # ｢mothera｣ ?
+
+
+say @monsters ~~ $skip_pattern;  # ｢mothera｣ ?
 
 
