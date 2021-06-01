@@ -17,8 +17,6 @@ say scan_monsters( 'gavora' );   # False
 my $j = 'godzilla' | 'ghidora' | 'gavora';
 my $search_j = 'grendel' | 'godzilla' | 'ghidora';
 
-
-
 ## NOTES
 #
 # monster identification: /home/doom/Dust/Images/Gavora
