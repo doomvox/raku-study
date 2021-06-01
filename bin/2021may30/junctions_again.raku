@@ -104,3 +104,7 @@ say @monsters !~~ $skip_pattern;
 
 
 say @monsters ~~ ! m/$skip_pattern/;  
+# False
+## Hm.
+
+## once again, I'd like to have a "(not: ... )" construct
