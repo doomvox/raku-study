@@ -59,7 +59,7 @@ say '---';
 
     my @exclude_str = ( 'mothera', 'camel' );
     for @monsters {
-        .say unless $_ ~~ any(@exclude)
+        .say unless $_ ~~ any(@exclude_str)
     }
 
 
