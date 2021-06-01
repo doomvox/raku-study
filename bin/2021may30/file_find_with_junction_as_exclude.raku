@@ -92,23 +92,13 @@ say '---';
 }
 say '---';
 {
+    ## shot in the dark: wrap the any in a code ref to delay expansion (no good)
     my @exclude = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
     my $any_exclude = any(@exclude);
     my @files = find( dir => $loc, type => 'file', exclude => { $any_exclude } );    
     say @files;
     # ["/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/mothera".IO "/home/doom/tmp/monster_island/rhodan".IO]
 }
-
-
-{
-    my @exclude = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
-    my $all_exclude = all(@exclude);
-    my @files = find( dir => $loc, type => 'file', exclude => { $all_exclude } );    
-    say @files;
-    # ["/home/doom/tmp/monster_island/godzilla".IO "/home/doom/tmp/monster_island/mothera".IO "/home/doom/tmp/monster_island/rhodan".IO]
-}
-
-
 
 # vaddim suggestion (works)
 {
