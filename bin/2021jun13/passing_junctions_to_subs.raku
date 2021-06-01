@@ -18,12 +18,12 @@ my @population = < godzilla grendel ghidora wormface blob >;
     my $j = 'gavora' | 'ghidora' | 'louis_epstein';
     say scan_monsters( $j );  # any(False, True, False)
 
-    sub scan_monsters_2 ( Mu $search ) {
+    sub scan_monsters_mu ( Mu $search ) {
         my $status = any( @population ) ~~ $search;
         return $status;
     }
 
-    say scan_monsters_2( $j );  # True
+    say scan_monsters_mu( $j );  # True
 }
 
 say "===";
@@ -45,17 +45,17 @@ say "===";
     my $j = 'gavora' | 'ghidora' | 'louis_epstein';
     say scan_monsters( $j );  # any([], [ghidora], [])
 
-    sub scan_monsters_2 ( Mu $search ) {
+    sub scan_monsters_mu ( Mu $search ) {
         my @hits = gather
         for @population -> $m {
             take $m if $m ~~ $search;
         }
         return @hits;
     }
-    say scan_monsters_2( $j );  # [ghidora]
+    say scan_monsters_mu( $j );  # [ghidora]
 
     say scan_monsters( rx/^g/ );   # [godzilla grendel ghidora]
-    say scan_monsters_2( rx/^g/ ); # [godzilla grendel ghidora]
+    say scan_monsters_mu( rx/^g/ ); # [godzilla grendel ghidora]
 
 }
 
