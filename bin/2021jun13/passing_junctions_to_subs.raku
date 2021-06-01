@@ -37,6 +37,7 @@ my @population = < godzilla grendel ghidora wormface blob >;
         }
         return @hits;
     }
+
     say scan_monsters( 'ghidora' );  # True
     say scan_monsters( 'gavora' );   # False
 
