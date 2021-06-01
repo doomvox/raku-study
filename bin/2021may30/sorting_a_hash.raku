@@ -18,7 +18,7 @@ say %power;
 say %power.sort;
 # (gammera => 3 golem => 5 rhodan => 6)
 
-## sort on a hash gets a repeatedly ordered list of Pairs
+## sorting on a hash gets a repeatedly ordered list of Pairs
 for %power.sort -> $element {
     # say $element.WHAT; # (Pair)
     say $element;
