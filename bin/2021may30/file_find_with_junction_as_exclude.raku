@@ -57,6 +57,13 @@ say '---';
     # godzilla
     # rhodan
 
+    my @exclude_str = ( 'mothera', 'camel' );
+    for @monsters {
+        .say unless $_ ~~ any(@exclude)
+    }
+
+
+
 }
 
 say '---';
