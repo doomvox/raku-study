@@ -43,9 +43,9 @@ say "---";
   # b
   # c
 
-  # But this idiom creates an array of multiple any
-  # junctions with single values, so they'd behave just like the
-  # individual values themselves:
+  # But this idiom creates an array of multiple any junctions
+  # with single values, so they'd behave just like the individual
+  # values themselves:
   my $values = < A B C >;
   my $junction2 = $values>>.any;
   say $junction2;
