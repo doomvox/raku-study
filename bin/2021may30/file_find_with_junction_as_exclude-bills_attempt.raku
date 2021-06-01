@@ -72,7 +72,7 @@ say "---";
   if any(False, True, False) { say "yup, truthiness confirmed"; } else { say "el nope, kinda falsie"; }
   # yup, truthiness confirmed
 
-  if $char eq $junction { say "yup, truthiness confirmed"; } else { say "el nope, kinda falsie"; }
+  if "b" eq $junction { say "yup, truthiness confirmed"; } else { say "el nope, kinda falsie"; }
 
 
   #
