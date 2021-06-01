@@ -43,7 +43,7 @@ say "===";
     say scan_monsters( 'gavora' );   #  []
 
     my $j = 'gavora' | 'ghidora' | 'louis_epstein';
-    say scan_monsters( $j );  # 
+    say scan_monsters( $j );  # any([], [ghidora], [])
 
     sub scan_monsters_2 ( Mu $search ) {
         my $status = any( @population ) ~~ $search;
