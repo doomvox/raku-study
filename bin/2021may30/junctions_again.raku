@@ -71,14 +71,20 @@ say $skip_pattern;  # rx/ mothera | rhodan /
 say @monsters.grep({ m/$skip_pattern/ });
 # (mothera rhodan)
 
+## grep works fine with just a pattern in a variable
 say @monsters.grep({ $skip_pattern });
 # (mothera rhodan)
 
-# negating it to use "skip" pattern to skip
+say @monsters.grep($skip_pattern);
+
+# negating it to use "skip" pattern to skip: this needs the m/$pat/ form
 say @monsters.grep({ ! m/$skip_pattern/ });
 # (godzilla ghidora gammera golem)
 
+
+#
 say @monsters.grep({ ! $skip_pattern });
+# (godzilla mothera ghidora gammera golem rhodan)
 
 # say @monsters ~~ $skip_pattern;  # ｢mothera｣ ?
 
