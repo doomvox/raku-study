@@ -6,13 +6,13 @@ use v6;
 use File::Find;
 
 ## place we'll put some files and then look for them
+my $HOME = %*ENV{'HOME'};
 my $loc = "$HOME/tmp/monster_island";
 ## some names to work with
 my @monsters = < godzilla mothera rhodan >;
 
 {
     ## create some files to find
-    my $HOME = %*ENV{'HOME'};
     say $HOME;
     mkdir( $loc );
     chdir( $loc );
