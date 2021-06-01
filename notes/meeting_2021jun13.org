@@ -4,23 +4,19 @@
 *** TODO is it possible to just mail "SUBSCRIBE" to documentation@raku.org
 
 ** minutes of last meeting
-*** bill: weirdness on if/else vs ternary
-**** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/bills_experiments_if_vs_ternary.raku
-*** bruce gray
-**** rosetta code
-***** http://rosettacode.org/wiki/Sum_of_first_n_cubes 
-***** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/crossproduct_operator_slash_x_etc.raku
 **** sorting and comparators documentation
 *** junctions
 **** basics (we've talked about them before)
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html
 
-*** finished that special purpose find/grep script:
-/home/doom/End/Cave/DoomfileTools/bin/df_grep.raku
-**** issue I just stumbled over: can you pass a junction as an argument (File::Find exclude):
+*** follow-up: trying to pass a junction as an argument
+**** File::Find exclude
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9917.html
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku
+**** Ralph Mellor conceeds junction "precedence" can be confusing... 
+***** (( link from mailing list ))
+
 
 **** importing perl5 defintions: ended up shelling out to a perl5 one-liner
 **** raku's perl5 regex compatibility (:P5) is limited
