@@ -75,7 +75,9 @@ say @monsters.grep({ m/$skip_pattern/ });
 say @monsters.grep({ $skip_pattern });
 # (mothera rhodan)
 
+## the code block isn't needed either
 say @monsters.grep($skip_pattern);
+# (mothera rhodan)
 
 # negating it to use "skip" pattern to skip: this needs the m/$pat/ form
 say @monsters.grep({ ! m/$skip_pattern/ });
