@@ -31,8 +31,11 @@ my @population = < godzilla grendel ghidora wormface blob >;
 ##      make the point that this is obscure behavior: would not think to check for Mu proto before assuming junctions pass okay
 {
     sub scan_monsters ( $search ) {
-        my $status = any( @population ) ~~ $search;
-        return $status;
+        my @hits gather
+        for @population -> $m {
+            take $m if $m ~~ $search;
+        }
+        return @hits;
     }
     say scan_monsters( 'ghidora' );  # True
     say scan_monsters( 'gavora' );   # False
