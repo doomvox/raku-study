@@ -44,6 +44,7 @@
 *** go through my perl5 templates: how much is core raku now?
 
 *** raku die handlers vs perl5
+
 *** raku idioms
 **** https://github.com/doomvox/raku-study/blob/main/notes/idioms.org
 
