@@ -13,4 +13,4 @@ sub scan_monsters ( $search ) {
     return $status;
 }
 
-say scan_monsters( 'ghidora' ); # False
+say scan_monsters( 'ghidora' ); # (Any)
