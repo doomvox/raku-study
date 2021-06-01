@@ -65,9 +65,9 @@ say "---";
   say $char eq $junction; # any(False, False, False)
 
   my $ret1 = "b" eq $junction; # any(False, True, False)  => True 
-  my $ret2 = "c" eq $junction; # any(False, False, False) => False
-  say so $ret1;  # False (??) expected a True.
-  say so $ret2;
+  my $ret2 = "x" eq $junction; # any(False, False, False) => False
+  say so $ret1;  # True 
+  say so $ret2;  # True (expected false!)
 
   if any(False, True, False) { say "yup, truthiness confirmed"; } else { say "el nope, kinda falsie"; }
   # yup, truthiness confirmed
