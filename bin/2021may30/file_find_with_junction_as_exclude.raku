@@ -5,7 +5,7 @@
 use v6;
 use File::Find;
 
-## place we'll put some files and then look for them
+## the place we'll put some files and then look for them
 my $HOME = %*ENV{'HOME'};
 my $loc = "$HOME/tmp/monster_island";
 ## some names to work with
