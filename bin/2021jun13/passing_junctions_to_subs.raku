@@ -4,8 +4,6 @@
 
 use v6;
 
-my $j = 'godzilla' | 'ghidora' | 'gavora';
-
 # global list to be searched:
 my @population = < godzilla grendel ghidora wormface blob >;
 
@@ -16,4 +14,4 @@ sub scan_monsters ( $search ) {
 say scan_monsters( 'ghidora' );  # True
 say scan_monsters( 'dorisday' ); # False
 
-
+my $search_j = 'grendel' | 'godzilla' | 'ghidora';
