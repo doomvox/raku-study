@@ -89,6 +89,8 @@ say @monsters.grep({ ! $skip_pattern });
 # (godzilla mothera ghidora gammera golem rhodan)
 ## TODO weird that it matches everything?  Maybe it's the negated form of nothing?
 
+say @monsters.grep( ! $skip_pattern );
+
 
 # say @monsters ~~ $skip_pattern;  # ｢mothera｣ ?
 
