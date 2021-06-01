@@ -28,8 +28,11 @@ my @population = < godzilla grendel ghidora wormface blob >;
 
 say "===";
 ##  Another pair of "scan_monsters" that returns a list of all hits
-##      show that without Mu, the return when searching a junction is useless
-##      make the point that this is obscure behavior: would not think to check for Mu proto before assuming junctions pass okay
+##  this makes clear that without Mu, the return when searching a junction is useless
+## 
+##  (I would make the point that this is obscure behavior: would
+##  not think to check for Mu proto before assuming junctions
+##  pass okay)
 {
     sub scan_monsters ( $search ) {
         my @hits = gather
