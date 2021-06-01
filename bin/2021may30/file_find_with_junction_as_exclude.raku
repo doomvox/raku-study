@@ -16,13 +16,17 @@ for @monsters -> $name {
     $name.IO.spurt("The $name attacks!");
 }
 
-## without exclude, we find all 3 files
-my @files_all = find( dir => $loc, type => 'file' );
-say @files_all.elems;     # 3
+{
+    ## without exclude, we find all 3 files
+    my @files_all = find( dir => $loc, type => 'file' );
+    say @files_all.elems;     # 3
+}
 
-## with a handcrafted regex we find only 2, skipping mothera as expected
-my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/<|w>[mothera|camel]$/ );    
-say @files_trimmed.elems; # 2
+{
+    ## with a handcrafted regex we find only 2, skipping mothera as expected
+    my @files_trimmed = find( dir => $loc, type => 'file', exclude => rx/<|w>[mothera|camel]$/ );    
+    say @files_trimmed.elems; # 2
+}
 
 {
     ## Trying to do the same with an any junction doesn't work:
