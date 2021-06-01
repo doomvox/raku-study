@@ -13,7 +13,7 @@ sub scan_monsters ( $search ) {
     my $status = any( @population ) ~~ $search;
     return $status;
 }
-
 say scan_monsters( 'ghidora' );  # True
 say scan_monsters( 'dorisday' ); # False
+
 
