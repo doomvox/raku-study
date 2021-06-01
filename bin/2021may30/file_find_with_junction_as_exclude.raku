@@ -13,7 +13,6 @@ my @monsters = < godzilla mothera rhodan >;
 
 {
     ## create some files to find
-    say $HOME;
     mkdir( $loc );
     chdir( $loc );
     my @monsters = < godzilla mothera rhodan >;
