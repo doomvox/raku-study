@@ -72,7 +72,7 @@ say '---';
 }
 
 say '---';
-## raiph: precedence issues?  the junction is applied at the top level,
+## raiph: essentially a precedence issue.  the junction is applied at the top level,
 ## rather than passed down into the routine and used internally in a smart match
 {
     my @exclude = ( rx/<|w>mothera$/, rx/<|w>camel$/ );
