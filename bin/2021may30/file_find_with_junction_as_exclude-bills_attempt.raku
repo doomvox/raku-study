@@ -72,6 +72,8 @@ say "---";
   if any(False, True, False) { say "yup, truthiness confirmed"; } else { say "el nope, kinda falsie"; }
   # yup, truthiness confirmed
 
+  if $char eq $junction { say "yup, truthiness confirmed"; } else { say "el nope, kinda falsie"; }
+
   #
   # I would've thought that there'd be no difference there
   # The smartmatch checks that it's comparing string types,
