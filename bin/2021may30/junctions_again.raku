@@ -46,7 +46,7 @@ say @fodder.grep(/@skip_patterns/);
 
 ## The array by itself doesn't work:
 say @fodder.grep(@skip_patterns);  # ()
-# (if you grep for an array what could that mean, though?)
+# (if you grep for an array what could that mean, though? TODO)
 
 @fodder  = ('ha', 'ah', 'ja' );
 # say @fodder.grep(  'hm', 'ha'  );  # ()
