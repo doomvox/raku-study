@@ -75,7 +75,7 @@ say "---";
   if "b" eq $junction { say "yup, truthiness confirmed"; } else { say "el nope, kinda falsie"; }
 
 
-  #
+
   # I would've thought that there'd be no difference there
   # The smartmatch checks that it's comparing string types,
   # and does something like an eq on them, right?
