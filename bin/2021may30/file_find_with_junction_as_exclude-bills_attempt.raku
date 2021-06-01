@@ -66,6 +66,8 @@ say "---";
 
   my $ret1 = $char eq $junction; # any(False, True, False)  => True 
   my $ret2 = $char eq $junction; # any(False, False, False) => False
+  say so $ret1;
+  say so $ret2;
 
 
   #
