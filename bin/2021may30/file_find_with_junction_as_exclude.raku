@@ -65,6 +65,9 @@ say '---';
     # godzilla
     # rhodan
 
+    my @files = find( dir => $loc, type => 'file', exclude => any(@exclude_str) );    
+    say @files;
+
 
 
 }
