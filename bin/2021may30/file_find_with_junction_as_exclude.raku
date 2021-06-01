@@ -57,10 +57,13 @@ say '---';
     # godzilla
     # rhodan
 
+    ## Oh, but this works too (no need for the regexes in this case):
     my @exclude_str = ( 'mothera', 'camel' );
     for @monsters {
         .say unless $_ ~~ any(@exclude_str)
     }
+    # godzilla
+    # rhodan
 
 
 
