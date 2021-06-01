@@ -9,9 +9,9 @@ my $j = 'godzilla' | 'ghidora' | 'gavora';
 sub scan_monsters ( $search ) {
     my @population = < godzilla grendel wormface blob >;
     my $status = 
-      @population.match: $search;
+      @population.grep: $search;
     return $status;
 }
 
-say scan_monsters( 'ghidora' ); # (Any)
-say so scan_monsters( 'ghidora' ); # (Any)
+say scan_monsters( 'ghidora' );    # (Any)
+say so scan_monsters( 'ghidora' ); # False
