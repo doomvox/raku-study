@@ -135,6 +135,12 @@ for (0..5) -> $var {
     };
     say "democ C: ", $r.WHAT, ' ', $r, " stringified: $r";
 }
+# democ C: (Seq) (zed) stringified: zed
+# democ C: (Seq) (one) stringified: one
+# democ C: (Seq) (two) stringified: two
+# ...
+## might seem funny it's returning single value lists
+## but gather/take is intended to collect multiple values
 
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 my @collection = gather 
