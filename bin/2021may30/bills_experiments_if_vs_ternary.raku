@@ -40,7 +40,7 @@ my $str = do if (1) {'a'} else {'nope'};
 say $str;
 # a
 
-say "---2---';
+say "---2---";
 my $moon_is_full = False;
 my $code_ref = $moon_is_full ?? { load_sliver_bullets; hunt; } !! { rest_whole_night }; 
 
