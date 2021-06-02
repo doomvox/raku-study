@@ -134,7 +134,6 @@ for (0..5) -> $var {
          default {  take 'hud'   }
     };
     say "democ C: ", $r.WHAT, ' ', $r, "stringified: $r";
-
 }
 
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
