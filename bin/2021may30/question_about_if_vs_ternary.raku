@@ -20,7 +20,6 @@ say (1 ?? do { my $a = 0; $a+1 } !! 'false');
 ## (interestingly: in lisp either way works, every expression 
 ## evaluates to the value of it's last statement)
 
-
 ## Yary Hluchan makes the point that "if" returns a value in the repl:
 # > if (1) {'a'} else {'nope'};
 # a
