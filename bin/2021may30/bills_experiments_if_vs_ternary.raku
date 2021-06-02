@@ -151,6 +151,7 @@ my @collection = gather
 say @collection; # [foah fahv]
 
 say '---E---';
+## first tried this:
 my $j0 = any( m/^b/, m/^g/ );
 
 
