@@ -71,4 +71,13 @@ say "===";
 # This happens because the default is "Any", and Junction is one
 # of the few things that *isn't* based on "Any".
 
-# Could also try multi subs and the Junction type to do special handling...
+# (3) 
+# Instead of using Mu, would it make sense to use the Junction type explicitly?
+# Maybe with a multi for special handling...
+
+# (4)
+# Using Mu in a signature has implications for Junction handling that aren't 
+# immediately clear to the beginner/intermediate Raku programmer.
+# 
+# (a) Odd thought, using an any Junction in a subset as a type constraint 
+# might be more readable:  "Junction | Any" rather than "Mu"
