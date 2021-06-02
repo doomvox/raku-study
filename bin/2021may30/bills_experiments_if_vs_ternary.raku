@@ -165,9 +165,20 @@ for ('alpha', 'beta', 'gamma' ) -> $g {
     };
 }
 
-# alpha: nuttin much
-# beta: nuttin much
-# gamma: nuttin much
+# alpha: not matched by junction
+# beta: not matched by junction
+# gamma: not matched by junction
+
+## That's confusing: expected first two to match
+
+my $j = any( rx/^b/, rx/^g/ );
+for ('alpha', 'beta', 'gamma' ) -> $g {
+    given $g {
+         when $j  {  say "$g: got b or g"   }
+         default  {  say "$g: not matched by junction"   }
+    };
+}
+
 
 
 ## Now I'm confused, so run away.  (TODO)
