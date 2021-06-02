@@ -167,6 +167,7 @@ for ('alpha', 'beta', 'gamma' ) -> $g {
 
 # alpha: nuttin much
 # beta: nuttin much
-# gamma: got b or g
+# gamma: nuttin much
+
 
 ## Now I'm confused, so run away.  (TODO)
