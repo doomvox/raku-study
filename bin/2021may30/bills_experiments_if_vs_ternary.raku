@@ -86,6 +86,7 @@ say (1 ?? do { my $a = 0; $a+1 } !! 'false');
 #    } !! 'false');
 
 
+say "---A---";
 # Yary
 
 # Related, since I got in the habit of not having ’switch’ 
