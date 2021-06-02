@@ -142,6 +142,7 @@ for (0..5) -> $var {
 ## might seem funny it's returning single value lists
 ## but gather/take is intended to collect multiple values
 
+say '---D---';
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 my @collection = gather 
   for @numbers -> $n {
