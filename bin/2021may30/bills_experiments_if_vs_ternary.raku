@@ -4,7 +4,12 @@
 
 use v6;
 
-## yary on basics of if:
+## on basics of if:
+# yary makes the point that "if" returns a value in the repl:
+# > if (1) {'a'} else {'nope'};
+# a
+
+## notably if doesn't seem to do this quite so easily in a script:
 # say if (1) {'a'} else {'nope'};
 # Unsupported use of bare "say".  In Raku please use: .say if you meant
 # Nope:
