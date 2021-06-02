@@ -169,8 +169,9 @@ for ('alpha', 'beta', 'gamma' ) -> $g {
 # beta: not matched by junction
 # gamma: not matched by junction
 
-## That's confusing: expected first two to match
+## That's confusing: expected two to match and only one to fail
 
+## I had the given and when values backwards there, this is right:
 my $j = any( rx/^b/, rx/^g/ );
 for ('alpha', 'beta', 'gamma' ) -> $g {
     given $g {
@@ -179,6 +180,9 @@ for ('alpha', 'beta', 'gamma' ) -> $g {
     };
 }
 
+# alpha: not matched by junction
+# beta: got b or g
+# gamma: got b or g
 
 
 ## Now I'm confused, so run away.  (TODO)
