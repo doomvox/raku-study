@@ -27,9 +27,13 @@ say do if (0) {'a'} else {'nope'};
 
 say "---1---";
 
-my $str = if (1) {'a'} else {'nope'};
+## Trying to capture a return from if like so at least gets us a useful error message:
+# my $str = if (1) {'a'} else {'nope'};
 # say $str;
 ## Word 'if' interpreted as a listop; please use 'do if' to introduce the statement control word
+##                                    \----------------/
+##                                          |          
+##                                          \---->  just what we needed to hear
 
 my $str = do if (1) {'a'} else {'nope'};
 say $str;
