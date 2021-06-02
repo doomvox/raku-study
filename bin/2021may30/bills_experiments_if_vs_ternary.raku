@@ -124,7 +124,7 @@ for (0..5) -> $var {
 }
 
 say '---C---';
-
+## that suggests to me using gather and take
 for (0..5) -> $var {
     my $r = gather
     given $var {
