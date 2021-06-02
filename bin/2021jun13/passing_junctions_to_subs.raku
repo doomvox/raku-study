@@ -81,3 +81,4 @@ say "===";
 # 
 # (a) Odd thought, using an any Junction in a subset as a type constraint 
 # might be more readable:  "Junction | Any" rather than "Mu"
+# That would exclude new types based on Mu, which might be a virtue.
