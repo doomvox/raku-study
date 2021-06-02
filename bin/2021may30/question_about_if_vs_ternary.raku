@@ -157,11 +157,11 @@ for (0..5) -> $var {
          when 3  {  take 'three' }
          default {  take 'zed'   }
     };
-    say "democ C: ", $r.WHAT, ' ', $r, " stringified: $r";
+    say "demo C: ", $r.WHAT, ' ', $r, " stringified: $r";
 }
-# democ C: (Seq) (zed) stringified: zed
-# democ C: (Seq) (one) stringified: one
-# democ C: (Seq) (two) stringified: two
+# demo C: (Seq) (zed) stringified: zed
+# demo C: (Seq) (one) stringified: one
+# demo C: (Seq) (two) stringified: two
 # ...
 
 ## might seem funny it's returning single value lists
