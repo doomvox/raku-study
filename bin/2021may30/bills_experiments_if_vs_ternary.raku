@@ -25,7 +25,7 @@ say do if (1) {'a'} else {'nope'};
 say do if (0) {'a'} else {'nope'};
 # nope 
 
-say "---";
+say "---1---";
 
 # my $str = if (1) {'a'} else {'nope'};
 # say $str;
