@@ -5,7 +5,7 @@
 use v6;
 
 ## on basics of if:
-# yary makes the point that "if" returns a value in the repl:
+## yary makes the point that "if" returns a value in the repl:
 # > if (1) {'a'} else {'nope'};
 # a
 
