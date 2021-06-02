@@ -10,7 +10,7 @@ use v6;
 # a
 
 ## notably if doesn't seem to do this quite so easily in a script:
-# say if (1) {'a'} else {'nope'};
+say if (1) {'a'} else {'nope'};
 ## Unsupported use of bare "say".  In Raku please use: .say if you meant
 
 say do if (1) {'a'} else {'nope'};
