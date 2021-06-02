@@ -67,3 +67,5 @@ say "===";
 
 # Isn't it interesting that specifying "Mu" (the most general possible thing)
 # is different than not specifying any type?
+#
+# Could also try multi subs and the Junction type to do special handling...
