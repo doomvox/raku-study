@@ -4,7 +4,6 @@
 
 use v6;
 
-
 say "---0---";
 ## Daniel Sockwell example via irc
 say (1 ?? do { my $a = 0; $a+1 } !! 'false');
