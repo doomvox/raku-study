@@ -136,7 +136,7 @@ for (0..5) -> $which {
 
 say "---B---";
 
-## example of given/when (need do to capture a return from it)
+## example of given/when (but need do to capture a return from it)
 for (0..5) -> $var {
     my $r = do  ## do rears it's head again
     given $var {
