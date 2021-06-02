@@ -19,6 +19,7 @@ use v6;
 # .say if (1) {'a'} else {'nope'};
 ## Unexpected block in infix position (missing statement control word before the expression?)
 
+## This can be fixed with a "do" (looking ahead a little)
 say do if (1) {'a'} else {'nope'};
 # a
 say do if (0) {'a'} else {'nope'};
