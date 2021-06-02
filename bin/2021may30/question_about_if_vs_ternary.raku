@@ -18,7 +18,7 @@ say (1 ?? do { my $a = 0; $a+1 } !! 'false');
 ## you need to do it inside the control structure  
 
 my $a = 'a';
-my $ret = ( a eq $a ) ?? $a !! "non-aristotelean?";
+my $ret = ( a eq $a ) ?? $a !! "ayn spins";
 
 
 ## (interestingly: in lisp either way works, every expression 
