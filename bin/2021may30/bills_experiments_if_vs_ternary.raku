@@ -120,7 +120,7 @@ for (0..5) -> $var {
          when 3  {  'three' }
          default {  'hud'   }
     };
-    say "exp B: $r";
+    say "demo B: $r";
 }
 
 for (0..5) -> $var {
