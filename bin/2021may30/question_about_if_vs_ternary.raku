@@ -28,6 +28,13 @@ if ($a eq 'a') {
     $ret2 = 'ayn spins';
 }
 
+## Myself, I think that the if/else form has readability advantages, 
+## though it's inelegant that "$ret2" appears three times.
+##
+## The ternary form has the virtue of fitting on one line.
+## If you needed to do this a lot, that can be a big win.
+
+
 ## (interestingly: in lisp either way works, every expression 
 ## evaluates to the value of it's last statement)
 
