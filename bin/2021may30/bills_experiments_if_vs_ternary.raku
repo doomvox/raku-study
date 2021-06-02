@@ -35,6 +35,7 @@ say "---1---";
 ##                                          |          
 ##                                          \---->  just what we needed to hear
 
+# This works:
 my $str = do if (1) {'a'} else {'nope'};
 say $str;
 # a
