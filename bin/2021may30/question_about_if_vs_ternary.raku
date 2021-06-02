@@ -34,9 +34,6 @@ if ($a eq 'a') {
 ## The ternary form has the virtue of fitting on one line.
 ## If you needed to do this a lot, that can be a big win.
 
-## (interestingly: in lisp either way works, every expression 
-## evaluates to the value of it's last statement)
-
 ## Yary Hluchan makes the point that "if" returns a value in the repl:
 # > if (1) {'a'} else {'nope'};
 # a
