@@ -41,6 +41,7 @@ say $str;
 # a
 
 say "---2---";
+## stashing a ternary in a code_ref to execute later
 my $moon_is_full = False;
 my $code_ref = $moon_is_full ?? { load_sliver_bullets; hunt; } !! { rest_whole_night }; 
 
