@@ -4,8 +4,17 @@
 
 use v6;
 
+
+say "---0---";
+## Daniel Sockwell example via irc
+say (1 ?? do { my $a = 0; $a+1 } !! 'false');
+# 1
+
+## William Michels was wondering about ternaries conditionals, 
+## how they work, why you'd use them instead of if/else
+
 ## on basics of if:
-## yary makes the point that "if" returns a value in the repl:
+## Yary Hluchan makes the point that "if" returns a value in the repl:
 # > if (1) {'a'} else {'nope'};
 # a
 
@@ -51,10 +60,8 @@ sub rest_whole_night { say "zzzz"; }
 
 $code_ref(); ## zzzz
 
-say "---3---";
-## Daniel Sockwell example via irc
-say (1 ?? do { my $a = 0; $a+1 } !! 'false');
-# 1
+
+
 
 
 # Bill's first stab...
