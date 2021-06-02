@@ -133,7 +133,8 @@ for (0..5) -> $var {
          when 3  {  take 'three' }
          default {  take 'hud'   }
     };
-    say "demo C: $r";
+    say "democ C: ", $r.WHAT, ' ', $r, "stringified: $r";
+
 }
 
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
