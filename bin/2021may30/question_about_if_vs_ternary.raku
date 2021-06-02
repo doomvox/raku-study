@@ -112,7 +112,7 @@ say '---3---';
 
 
 say "---A---";
-# Yary
+# Yary likes chained ternaries:
 
 # Related, since I got in the habit of not having ’switch’ 
 # with classic Perl, I often chain terneries eg: 
