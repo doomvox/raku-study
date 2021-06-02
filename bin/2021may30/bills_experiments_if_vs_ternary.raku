@@ -16,8 +16,8 @@ use v6;
 ## or use &say to refer to the function as a noun.
 
 # Those are some unhelpful suggestions in that messaging
-.say if (1) {'a'} else {'nope'};
-
+# .say if (1) {'a'} else {'nope'};
+## Unexpected block in infix position (missing statement control word before the expression?)
 
 say do if (1) {'a'} else {'nope'};
 # a
