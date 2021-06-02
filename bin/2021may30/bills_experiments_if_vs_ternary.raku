@@ -51,6 +51,7 @@ sub rest_whole_night { say "zzzz"; }
 
 $code_ref(); ## zzzz
 
+say "---3---";
 ## Daniel Sockwell irc
 say (1 ?? do { my $a = 0; $a+1 } !! 'false');
 # 1
