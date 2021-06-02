@@ -13,6 +13,13 @@ say (1 ?? do { my $a = 0; $a+1 } !! 'false');
 ## William Michels was wondering about ternaries conditionals, 
 ## how they work, why you'd use them instead of if/else
 
+## Myself, I would say that ternaries return an assignable value
+## but if/else doesn't, and if you're going to capture the value 
+## you need to do it inside the control structure  
+
+## (interestingly: in lisp either way works, every expression 
+## evaluates to the value of it's last statement)
+
 ## on basics of if:
 ## Yary Hluchan makes the point that "if" returns a value in the repl:
 # > if (1) {'a'} else {'nope'};
