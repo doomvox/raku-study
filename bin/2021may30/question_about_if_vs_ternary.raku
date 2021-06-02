@@ -21,6 +21,12 @@ my $a = 'a';
 my $ret = ( $a eq 'a' ) ?? $a !! "ayn spins";
 say "ret: $ret";  # ret: a
 
+my $ret2;
+if ($a eq 'a') {
+    $ret2 = $a;
+} else {
+    $ret2 = 'ayn spins';
+}
 
 ## (interestingly: in lisp either way works, every expression 
 ## evaluates to the value of it's last statement)
