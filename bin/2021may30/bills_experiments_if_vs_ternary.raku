@@ -14,7 +14,7 @@ use v6;
 ## Unsupported use of bare "say".  In Raku please use: .say if you meant
 
 # # Nope:
-# # .say if (1) {'a'} else {'nope'};
+.say if (1) {'a'} else {'nope'};
 
 say do if (1) {'a'} else {'nope'};
 # a
