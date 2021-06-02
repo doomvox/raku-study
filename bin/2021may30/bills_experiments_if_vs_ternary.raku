@@ -133,7 +133,7 @@ for (0..5) -> $var {
          when 3  {  take 'three' }
          default {  take 'hud'   }
     };
-    say $r;
+    say "demo C: $r";
 }
 
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
