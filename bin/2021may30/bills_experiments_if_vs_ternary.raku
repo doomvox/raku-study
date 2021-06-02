@@ -123,6 +123,8 @@ for (0..5) -> $var {
     say "demo B: $r";
 }
 
+say '---C---';
+
 for (0..5) -> $var {
     my $r = gather
     given $var {
