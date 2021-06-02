@@ -156,7 +156,7 @@ my $j0 = any( m/^b/, m/^g/ );
 ## Messaging here is LTA:  (TODO)
 ## Use of uninitialized value of type Any in string context.
 
-## need "rx//" for this-- m// tries to match on $_ immediately
+## need "rx//" for this, because m// tries to match on $_ immediately
 my $j = any( rx/^b/, rx/^g/ );
 for ('alpha', 'beta', 'gamma' ) -> $g {
     given $j {
