@@ -71,5 +71,4 @@ say "===";
 # This happens because the default is "Any", and Junction is one
 # of the few things that *isn't* based on "Any".
 
-
 # Could also try multi subs and the Junction type to do special handling...
