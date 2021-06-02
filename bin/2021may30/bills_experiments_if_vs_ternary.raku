@@ -161,7 +161,7 @@ my $j = any( rx/^b/, rx/^g/ );
 for ('alpha', 'beta', 'gamma' ) -> $g {
     given $j {
          when $g  {  say "$g: got b or g"   }
-         default  {  say "$g: nuttin much"   }
+         default  {  say "$g: not matched by junction"   }
     };
 }
 
