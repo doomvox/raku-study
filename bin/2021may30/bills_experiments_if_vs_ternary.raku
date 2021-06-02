@@ -10,13 +10,21 @@ use v6;
 # a
 
 ## notably if doesn't seem to do this quite so easily in a script:
-say if (1) {'a'} else {'nope'};
+# say if (1) {'a'} else {'nope'};
 ## Unsupported use of bare "say".  In Raku please use: .say if you meant
+## to call it as a method on $_, or use an explicit invocant or argument,
+## or use &say to refer to the function as a noun.
+
+# Those are some unhelpful suggestions in that messaging
+.say if (1) {'a'} else {'nope'};
+
 
 say do if (1) {'a'} else {'nope'};
 # a
 say do if (0) {'a'} else {'nope'};
 # nope 
+
+
 
 # my $str = if (1) {'a'} else {'nope'};
 # say $str;
