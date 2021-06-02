@@ -151,8 +151,8 @@ my @collection = gather
 say @collection; # [foah fahv]
 
 say '---E---';
+my $j = any( m/^b/, m/^g/ );
 for ('alpha', 'beta', 'gamma' ) -> $g {
-    my $j = any( m/^b/, m/^g/ );
     given $j {
          when $g  {  say "$g: got b or g"   }
          default  {  say "$g: nuttin much"   }
