@@ -83,9 +83,7 @@ sub rest_whole_night { say "zzzz"; }
 $code_ref(); ## zzzz
 
 
-
-
-
+say '---3---';
 # Bill's first attempts... (( TODO look through these more carfully ))
 # my $d = 0; ( if $d {my $a = 0; ($a+1).Bool} else {my $a = 0; ($a).Bool}).say;
 
