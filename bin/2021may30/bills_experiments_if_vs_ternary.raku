@@ -150,8 +150,7 @@ my @collection = gather
   }
 say @collection; # [foah fahv]
 
-
-
+say '---E---';
 for ('alpha', 'beta', 'gamma' ) -> $g {
     my $j = any( m/^b/, m/^g/ );
     given $j {
