@@ -78,7 +78,7 @@ say "===";
 # (4)
 # Using Mu in a signature has implications for Junction handling that aren't 
 # immediately clear to the beginner/intermediate Raku programmer.
-# 
+
 # (a) Odd thought, using an any Junction in a subset as a type constraint 
 # might be more readable:  "Junction | Any" rather than "Mu"
 # That would exclude new types based on Mu, which might be a virtue.
