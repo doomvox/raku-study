@@ -184,5 +184,3 @@ for ('alpha', 'beta', 'gamma' ) -> $g {
 # beta: got b or g
 # gamma: got b or g
 
-
-## Now I'm confused, so run away.  (TODO)
