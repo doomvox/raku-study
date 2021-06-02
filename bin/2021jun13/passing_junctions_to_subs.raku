@@ -67,6 +67,8 @@ say "===";
 
 # (2) 
 # Isn't it interesting that specifying "Mu" (the most general possible thing)
-# is different than not specifying any type?
-#
+# is different than not specifying any type?  The default is "Any",
+# and Junction is one of the few things that *isn't* based on "Any".
+
+
 # Could also try multi subs and the Junction type to do special handling...
