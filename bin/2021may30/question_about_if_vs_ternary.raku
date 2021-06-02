@@ -17,6 +17,10 @@ say (1 ?? do { my $a = 0; $a+1 } !! 'false');
 ## but if/else doesn't, and if you're going to capture the value 
 ## you need to do it inside the control structure  
 
+my $a = 'a';
+my $ret = ( a eq $a
+
+
 ## (interestingly: in lisp either way works, every expression 
 ## evaluates to the value of it's last statement)
 
