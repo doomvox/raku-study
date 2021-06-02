@@ -1,6 +1,6 @@
 #!/usr/bin/env perl6
 # 
-# bills_experiments_if_vs_ternary.raku            30 May 2021 
+# question_about_if_vs_ternary.raku            30 May 2021 
 
 use v6;
 
