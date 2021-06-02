@@ -10,7 +10,7 @@
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html
 
-*** follow-up: trying to pass a junction as an argument
+*** follow-up: passing junctions as an argument
 **** File::Find exclude
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9917.html
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku
