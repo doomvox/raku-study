@@ -153,7 +153,8 @@ say @collection; # [foah fahv]
 say '---E---';
 ## first tried this:
 my $j0 = any( m/^b/, m/^g/ );
-
+## Messaging here is LTA:  (TODO)
+## Use of uninitialized value of type Any in string context.
 
 my $j = any( rx/^b/, rx/^g/ );
 for ('alpha', 'beta', 'gamma' ) -> $g {
