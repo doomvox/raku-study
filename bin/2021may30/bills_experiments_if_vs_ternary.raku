@@ -109,7 +109,7 @@ for (0..5) -> $which {
 # when which is: 4, then r is huh
 # when which is: 5, then r is huh
 
-
+say "---B---";
 
 for (0..5) -> $var {
     my $r = do  ## do rears it's head again
