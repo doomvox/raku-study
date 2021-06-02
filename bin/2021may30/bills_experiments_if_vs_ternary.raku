@@ -151,6 +151,9 @@ my @collection = gather
 say @collection; # [foah fahv]
 
 say '---E---';
+my $j0 = any( m/^b/, m/^g/ );
+
+
 my $j = any( rx/^b/, rx/^g/ );
 for ('alpha', 'beta', 'gamma' ) -> $g {
     given $j {
