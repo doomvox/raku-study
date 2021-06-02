@@ -19,6 +19,7 @@ say (1 ?? do { my $a = 0; $a+1 } !! 'false');
 
 my $a = 'a';
 my $ret = ( a eq $a ) ?? $a !! "ayn spins";
+say "ret: $ret";
 
 
 ## (interestingly: in lisp either way works, every expression 
