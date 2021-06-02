@@ -118,7 +118,7 @@ for (0..5) -> $var {
          when 1  {  'one'   }
          when 2  {  'two'   }
          when 3  {  'three' }
-         default {  'hud'   }
+         default {  'zed'   }
     };
     say "demo B: $r";
 }
@@ -131,7 +131,7 @@ for (0..5) -> $var {
          when 1  {  take 'one'   }
          when 2  {  take 'two'   }
          when 3  {  take 'three' }
-         default {  take 'hud'   }
+         default {  take 'zed'   }
     };
     say "democ C: ", $r.WHAT, ' ', $r, " stringified: $r";
 }
