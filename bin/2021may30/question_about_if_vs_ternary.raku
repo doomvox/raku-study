@@ -35,7 +35,6 @@ say do if (0) {'a'} else {'nope'};
 # nope 
 
 say "---1---";
-
 ## Trying to capture a return from if like so at least gets us a useful error message:
 # my $str = if (1) {'a'} else {'nope'};
 # say $str;
