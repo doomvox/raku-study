@@ -62,9 +62,10 @@ say "===";
 }
 
 ## NOTES
-#
+# (1) 
 # monster identification: /home/doom/Dust/Images/Gavora
 
+# (2) 
 # Isn't it interesting that specifying "Mu" (the most general possible thing)
 # is different than not specifying any type?
 #
