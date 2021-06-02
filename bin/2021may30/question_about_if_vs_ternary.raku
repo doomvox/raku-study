@@ -47,7 +47,7 @@ if ($a eq 'a') {
 ## to call it as a method on $_, or use an explicit invocant or argument,
 ## or use &say to refer to the function as a noun.
 
-# Those are some unhelpful suggestions in that messaging
+# Those are some unhelpful suggestions in that messaging, e.g. this is no good:
 # .say if (1) {'a'} else {'nope'};
 ## Unexpected block in infix position (missing statement control word before the expression?)
 
