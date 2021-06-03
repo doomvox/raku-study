@@ -14,7 +14,7 @@
 **** File::Find exclude
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9917.html
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku
-***** is this the canonical File::Find repo?  brian d foy has one, too:
+***** is this the canonical File::Find repo?  (brian d foy has one, too, but it looks stale)
 https://github.com/tadzik/File-Find
 ****** TODO open issue / submit pull request to Mu the name and exclude arguments
 **** Ralph Mellor conceeds junction "precedence" can be confusing... 
