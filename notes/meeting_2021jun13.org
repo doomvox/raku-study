@@ -16,6 +16,7 @@
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku
 ***** is this the canonical File::Find repo?  brian d foy has one, too:
 https://github.com/tadzik/File-Find
+****** TODO open issue / submit pull request to Mu the name and exclude arguments
 **** Ralph Mellor conceeds junction "precedence" can be confusing... 
 ***** TODO (( link from mailing list ))
 
