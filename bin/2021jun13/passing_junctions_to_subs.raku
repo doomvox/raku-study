@@ -64,6 +64,8 @@ say "===";
 
 say "===";
 ## named arguments
+## checking that Mu declares type of value part of named arg, just 
+## like any other type declaration
 {
     sub scan_monsters ( :$search ) {
         my @hits = gather
