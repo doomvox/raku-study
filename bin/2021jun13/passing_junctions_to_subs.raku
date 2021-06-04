@@ -64,19 +64,8 @@ say "===";
 
 ## named arguments
 {
-    sub scan_monsters ( :$search ) {
-        my @hits = gather
-        for @population -> $m {
-            take $m if $m ~~ $search;
-        }
-        return @hits;
-    }
-
-    say scan_monsters( 'ghidora' );  #  [ghidora]
-    say scan_monsters( 'gavora' );   #  []
 
     my $j = 'gavora' | 'ghidora' | 'louis_epstein';
-    say scan_monsters( $j );  # any([], [ghidora], [])
 
     sub scan_monsters_mu ( Mu $search ) {
         my @hits = gather
