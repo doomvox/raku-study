@@ -64,7 +64,6 @@ say "===";
 
 ## named arguments
 {
-
     my $j = 'gavora' | 'ghidora' | 'louis_epstein';
 
     sub scan_monsters_mu ( Mu $search ) {
