@@ -61,6 +61,37 @@ say "===";
     say scan_monsters_mu( rx/^g/ ); # [godzilla grendel ghidora]
 }
 
+
+## named arguments
+{
+    sub scan_monsters ( :$search ) {
+        my @hits = gather
+        for @population -> $m {
+            take $m if $m ~~ $search;
+        }
+        return @hits;
+    }
+
+    say scan_monsters( 'ghidora' );  #  [ghidora]
+    say scan_monsters( 'gavora' );   #  []
+
+    my $j = 'gavora' | 'ghidora' | 'louis_epstein';
+    say scan_monsters( $j );  # any([], [ghidora], [])
+
+    sub scan_monsters_mu ( Mu $search ) {
+        my @hits = gather
+        for @population -> $m {
+            take $m if $m ~~ $search;
+        }
+        return @hits;
+    }
+    say scan_monsters_mu( $j );  # [ghidora]
+
+    say scan_monsters( rx/^g/ );   # [godzilla grendel ghidora]
+    say scan_monsters_mu( rx/^g/ ); # [godzilla grendel ghidora]
+}
+
+
 ## NOTES
 # (1) 
 # monster identification: /home/doom/Dust/Images/Gavora
