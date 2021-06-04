@@ -72,8 +72,8 @@ say "===";
         return @hits;
     }
 
-    say scan_monsters( 'ghidora' );  #  [ghidora]
-    say scan_monsters( 'gavora' );   #  []
+    say scan_monsters( search => 'ghidora' );  #  [ghidora]
+    say scan_monsters( search => 'gavora' );   #  []
 
     my $j = 'gavora' | 'ghidora' | 'louis_epstein';
     say scan_monsters( $j );  # any([], [ghidora], [])
