@@ -84,6 +84,7 @@ $code_ref(); ## zzzz
 
 say '---3---';
 # Bill's first attempts... (( TODO look through these more carefully ))
+
 # my $d = 0; ( if $d {my $a = 0; ($a+1).Bool} else {my $a = 0; ($a).Bool}).say;
 
 # # Starting with a series of Daniel Sockwell posts on IRC... 
