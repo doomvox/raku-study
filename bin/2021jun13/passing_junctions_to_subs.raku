@@ -85,7 +85,7 @@ say "===";
         }
         return @hits;
     }
-    say scan_monsters_mu( search => $j );  # [ghidora]
+    say scan_monsters_mu( search => $j );  # [ghidora]  (same)
 
     say scan_monsters( search => rx/^g/ );   # [godzilla grendel ghidora]
     say scan_monsters_mu( search => rx/^g/ ); # [godzilla grendel ghidora]
