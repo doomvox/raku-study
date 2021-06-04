@@ -66,7 +66,7 @@ say "===";
 {
     my $j = 'gavora' | 'ghidora' | 'louis_epstein';
 
-    sub scan_monsters_mu ( Mu $search ) {
+    sub scan_monsters_mu ( Mu :$search ) {
         my @hits = gather
         for @population -> $m {
             take $m if $m ~~ $search;
