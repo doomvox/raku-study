@@ -76,7 +76,7 @@ say "===";
     say scan_monsters( search => 'gavora' );   #  []
 
     my $j = 'gavora' | 'ghidora' | 'louis_epstein';
-    say scan_monsters( $j );  # any([], [ghidora], [])
+    say scan_monsters( search => $j );  # any([], [ghidora], [])
 
     sub scan_monsters_mu ( Mu :$search ) {
         my @hits = gather
@@ -85,10 +85,10 @@ say "===";
         }
         return @hits;
     }
-    say scan_monsters_mu( $j );  # [ghidora]
+    say scan_monsters_mu( search => $j );  # [ghidora]
 
-    say scan_monsters( rx/^g/ );   # [godzilla grendel ghidora]
-    say scan_monsters_mu( rx/^g/ ); # [godzilla grendel ghidora]
+    say scan_monsters( search => rx/^g/ );   # [godzilla grendel ghidora]
+    say scan_monsters_mu( search => rx/^g/ ); # [godzilla grendel ghidora]
 }
 
 
