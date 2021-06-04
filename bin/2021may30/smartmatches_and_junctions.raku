@@ -1,6 +1,6 @@
 #!/usr/bin/env perl6
 # 
-# smartmaches_and_junctions.raku            20 May 2021 
+# smartmatches_and_junctions.raku            20 May 2021 
 
 use v6;
 
