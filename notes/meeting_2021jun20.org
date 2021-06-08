@@ -6,6 +6,8 @@
 **** deepmap
 **** duckmap
 **** nodemap
+**** flatmap
+***** DEPRECATION NOTICE: This method is deprecated in 6.d and will be removed in 6.e. Use .map followed by .flat instead.
 ** from the last meeting
 **** sorting and comparators documentation
 *** junctions

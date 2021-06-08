@@ -1,50 +1,50 @@
-- [meeting notes June 20, 2021](#org222f064)
-  - [and now, for something completely different](#org04eca9e)
-    - [note to self: you can't look for raku modules with file system searches.](#org642836f)
-    - [is it possible to just mail "SUBSCRIBE" to documentation@raku.org](#orgde66623)
-    - [oddities from <https://docs.raku.org/type/Any>](#orgefd2ecf)
-  - [from the last meeting](#org85f12cf)
-    - [junctions](#org7612327)
-    - [follow-up: passing junctions as an argument](#org2c405d1)
-  - [other topic ideas](#org4ca3bae)
-    - [raku classes as data containers (joe brenner)](#org4720cb0)
-    - [unusual argument passing signatures (joe brenner)](#orge35831f)
-    - [bruce gray rosettacode](#orgda8d00c)
-    - [how flat is flat](#org4530373)
-    - [go through my perl5 templates: how much is core raku now?](#org9a62c07)
-    - [raku die handlers vs perl5](#orgba23389)
-    - [raku idioms](#org90e44cf)
-  - [appendix: the usual links](#org35c652a)
-    - [code examples](#org04903e0)
-    - [meeting notes (material from this file)](#org9cf0e5f)
-    - [SF Perl page, has links to mailing list](#orga0cdff6)
-    - [perl6-users mailing list archive](#orgbe27038)
-  - [announcments](#org1ef1973)
-    - [next meeting: July 11th](#org9ae79a8)
-    - ["conference in the clouds" coming up (bruce gray talk, etc)](#org781e099)
+- [meeting notes June 20, 2021](#org821dc25)
+  - [and now, for something completely different](#org2ec54a2)
+    - [note to self: you can't look for raku modules with file system searches.](#orgd0e0d40)
+    - [is it possible to just mail "SUBSCRIBE" to documentation@raku.org](#org524ca8a)
+    - [oddities from <https://docs.raku.org/type/Any>](#org9ce57f3)
+  - [from the last meeting](#orgf6afe05)
+    - [junctions](#org4d16d7f)
+    - [follow-up: passing junctions as an argument](#org79372c6)
+  - [other topic ideas](#org0a92b84)
+    - [raku classes as data containers (joe brenner)](#org65d4d84)
+    - [unusual argument passing signatures (joe brenner)](#orge798e51)
+    - [bruce gray rosettacode](#orgb7e00fa)
+    - [how flat is flat](#org6e0d1fb)
+    - [go through my perl5 templates: how much is core raku now?](#orgf9f9dff)
+    - [raku die handlers vs perl5](#org5e66d07)
+    - [raku idioms](#orgda58e7b)
+  - [appendix: the usual links](#org5bc72a2)
+    - [code examples](#orgad62671)
+    - [meeting notes (material from this file)](#org737df32)
+    - [SF Perl page, has links to mailing list](#org8649bda)
+    - [perl6-users mailing list archive](#org0a1368a)
+  - [announcments](#org47322b7)
+    - [next meeting: July 11th](#org3e91cb1)
+    - ["conference in the clouds" coming up (bruce gray talk, etc)](#org81de564)
 
 
-<a id="org222f064"></a>
+<a id="org821dc25"></a>
 
 # meeting notes June 20, 2021
 
 
-<a id="org04eca9e"></a>
+<a id="org2ec54a2"></a>
 
 ## and now, for something completely different
 
 
-<a id="org642836f"></a>
+<a id="orgd0e0d40"></a>
 
 ### note to self: you can't look for raku modules with file system searches.
 
 
-<a id="orgde66623"></a>
+<a id="org524ca8a"></a>
 
 ### is it possible to just mail "SUBSCRIBE" to documentation@raku.org
 
 
-<a id="orgefd2ecf"></a>
+<a id="org9ce57f3"></a>
 
 ### oddities from <https://docs.raku.org/type/Any>
 
@@ -54,15 +54,19 @@
 
 3.  nodemap
 
+4.  flatmap
 
-<a id="org85f12cf"></a>
+    1.  DEPRECATION NOTICE: This method is deprecated in 6.d and will be removed in 6.e. Use .map followed by .flat instead.
+
+
+<a id="orgf6afe05"></a>
 
 ## from the last meeting
 
 1.  sorting and comparators documentation
 
 
-<a id="org7612327"></a>
+<a id="org4d16d7f"></a>
 
 ### junctions
 
@@ -73,7 +77,7 @@
     2.  <https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html>
 
 
-<a id="org2c405d1"></a>
+<a id="org79372c6"></a>
 
 ### follow-up: passing junctions as an argument
 
@@ -98,12 +102,12 @@
     1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9924.html>
 
 
-<a id="org4ca3bae"></a>
+<a id="org0a92b84"></a>
 
 ## other topic ideas
 
 
-<a id="org4720cb0"></a>
+<a id="org65d4d84"></a>
 
 ### raku classes as data containers (joe brenner)
 
@@ -118,7 +122,7 @@
         2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku>
 
 
-<a id="orge35831f"></a>
+<a id="orge798e51"></a>
 
 ### unusual argument passing signatures (joe brenner)
 
@@ -127,7 +131,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="orgda8d00c"></a>
+<a id="orgb7e00fa"></a>
 
 ### bruce gray rosettacode
 
@@ -136,7 +140,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org4530373"></a>
+<a id="org6e0d1fb"></a>
 
 ### how flat is flat
 
@@ -147,17 +151,17 @@
 3.  <https://en.wikipedia.org/wiki/Superflat>
 
 
-<a id="org9a62c07"></a>
+<a id="orgf9f9dff"></a>
 
 ### go through my perl5 templates: how much is core raku now?
 
 
-<a id="orgba23389"></a>
+<a id="org5e66d07"></a>
 
 ### raku die handlers vs perl5
 
 
-<a id="org90e44cf"></a>
+<a id="orgda58e7b"></a>
 
 ### raku idioms
 
@@ -166,50 +170,50 @@
     1.  maybe: favor methods over functions?
 
 
-<a id="org35c652a"></a>
+<a id="org5bc72a2"></a>
 
 ## appendix: the usual links
 
 
-<a id="org04903e0"></a>
+<a id="orgad62671"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jun20>
 
 
-<a id="org9cf0e5f"></a>
+<a id="org737df32"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021jun20.md>
 
 
-<a id="orga0cdff6"></a>
+<a id="org8649bda"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="orgbe27038"></a>
+<a id="org0a1368a"></a>
 
 ### perl6-users mailing list archive
 
 <https://www.nntp.perl.org/group/perl.perl6.users/>
 
 
-<a id="org1ef1973"></a>
+<a id="org47322b7"></a>
 
 ## announcments
 
 
-<a id="org9ae79a8"></a>
+<a id="org3e91cb1"></a>
 
 ### next meeting: July 11th
 
 
-<a id="org781e099"></a>
+<a id="org81de564"></a>
 
 ### "conference in the clouds" coming up (bruce gray talk, etc)
 
