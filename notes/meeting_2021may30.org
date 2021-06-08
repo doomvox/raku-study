@@ -83,7 +83,7 @@ http://sf.pm.org/
 https://www.nntp.perl.org/group/perl.perl6.users/
 
 ** announcments
-*** next meeting: June 20th, Sunday, so not *immediately* after the conference
+*** next meeting: June 20th, Sunday, so not *immediately* after the conference in the clouds
 
 *** mail "SUBSCRIBE" to documentation@raku.org
 **** maybe it'll work
