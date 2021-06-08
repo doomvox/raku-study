@@ -5,6 +5,7 @@
 *** oddities from https://docs.raku.org/type/Any
 **** deepmap
 **** duckmap
+**** nodemap
 ** from the last meeting
 **** sorting and comparators documentation
 *** junctions
