@@ -2,7 +2,9 @@
 ** and now, for something completely different
 *** note to self: you can't look for raku modules with file system searches.
 *** TODO is it possible to just mail "SUBSCRIBE" to documentation@raku.org
-
+*** oddities from https://docs.raku.org/type/Any
+**** deepmap
+**** duckmap
 ** from the last meeting
 **** sorting and comparators documentation
 *** junctions
