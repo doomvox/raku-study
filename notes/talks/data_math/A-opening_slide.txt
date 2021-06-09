@@ -1,0 +1,16 @@
+
+
+                                             June  9, 2021   
+
+
+    Working on Roughly Parallel Data Structures, 
+    e.g. with Data::Math
+
+    Joseph Brenner 
+    http://obsidianrook.com/doomfiles
+
+
+    I run the SF Perl "Raku Study Group" (next one on June 20th)
+    https://www.meetup.com/San-Francisco-Perl/ 
+
+    (But this is mostly a Perl talk.)

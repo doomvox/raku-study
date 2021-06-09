@@ -1,0 +1,15 @@
+* That's all folksen
+** my "slides" are up at github
+*** 
+** Once again, I'll talk more about this at the Raku Study Group on June 20th
+*** https://www.meetup.com/San-Francisco-Perl/
+** I also post notifications at some mailing lists:
+*** perl6-users@perl.org, subscription info:
+https://lists.perl.org/list/perl6-users.html
+*** the sf perl list, subscription info:
+http://sf.pm.org/
+*** perl6-users mailing list archive
+https://www.nntp.perl.org/group/perl.perl6.users/
+
+
+** you can reach me at: doomvox@gmail.com

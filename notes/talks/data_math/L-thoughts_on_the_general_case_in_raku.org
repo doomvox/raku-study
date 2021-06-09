@@ -1,0 +1,21 @@
+* Thoughts on doing Data::Math in Raku
+** I haven't gone very far with this yet.
+*** tune-in to the next Raku Study Group on June 20th
+**** https://www.meetup.com/San-Francisco-Perl/
+** rummaging around in the toolbox
+*** introspection features are built-in
+**** perl: "ref", "reftype" 
+**** raku: .WHAT, .^name, .^mro
+*** lookslikenumber => can a string numify?
+**** You can just try it, call .Numeric and see if it worked
+
+#+BEGIN_SRC perl6
+if '33333'.Numeric { say 'true!' } else { say 'not.' } # true!
+if 'three'.Numeric { say 'true!' } else { say 'not.' } # not.
+#+END_SRC
+
+#+BEGIN_SRC perl6
+## special type that also takes a string that looks like a num 
+subset Numesque of Any where { defined .Numeric };
+#+END_SRC
+*** raku features include operators for zip, reduction, cross products...

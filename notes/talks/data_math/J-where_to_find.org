@@ -1,0 +1,8 @@
+* where to find Data::Math
+** cpan
+*** https://metacpan.org/pod/Data::Math
+*** https://metacpan.org/pod/Scalar::Classify
+** github
+*** https://github.com/doomvox/data-math
+*** https://github.com/doomvox/scalar-classify
+
