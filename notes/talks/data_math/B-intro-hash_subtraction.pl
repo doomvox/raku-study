@@ -19,10 +19,10 @@ use Data::Dumper;
              us => 666.66,
            );
 
-   %net = %gross - %costs;
+   %net = %gross - %costs;                          ## DOESN'T WORK
 
-   say Dumper( \%net ); #  $VAR1 = { '0' => undef };
-   say scalar %gross;   # 3
-   say scalar %costs;   # 3 
 }
+
+## Clear what that line *should* do
+## pop quiz: what does it actually do?
 

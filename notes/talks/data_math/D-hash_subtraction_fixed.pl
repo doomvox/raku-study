@@ -8,7 +8,6 @@ use warnings;
 use strict;
 $|=1;
 use Data::Dumper;
-use List::MoreUtils qw( zip uniq );
 
 {
   my (%gross, %costs, %net);
@@ -21,7 +20,8 @@ use List::MoreUtils qw( zip uniq );
              es => 259.11,
              us => 666.66,
            );
-  for my $country (keys %gross) {
+
+  for my $country ( keys %gross ) {
     $net{ $country } = $gross{ $country } - $costs{ $country };
   }
 

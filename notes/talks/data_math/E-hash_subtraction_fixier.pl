@@ -8,7 +8,7 @@ use warnings;
 use strict;
 $|=1;
 use Data::Dumper;
-use List::MoreUtils qw( zip uniq );
+use List::MoreUtils qw( uniq );
 
 {
   my (%gross, %costs, %net);
@@ -23,6 +23,7 @@ use List::MoreUtils qw( zip uniq );
              us => 666.66,
              fr => 101.01,
            );
+
   my @keys = uniq keys( %gross ), keys( %costs );
   for my $country ( @keys ) {
     $net{ $country } = $gross{ $country } - $costs{ $country };
@@ -39,9 +40,9 @@ use List::MoreUtils qw( zip uniq );
   ## Much better, though it warns:
   ##   Use of uninitialized value in subtraction
 
-  ## I'm becoming a
+  ## More and more I appreciate:
   ##   no warnings 'unitialized';
-  ## kind of guy
+
 }
 
 

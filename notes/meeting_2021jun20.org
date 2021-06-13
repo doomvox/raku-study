@@ -8,6 +8,15 @@
 **** nodemap
 **** flatmap
 ***** DEPRECATION NOTICE: This method is deprecated in 6.d and will be removed in 6.e. Use .map followed by .flat instead.
+*** Doing the Data::Map job in raku
+**** https://github.com/doomvox/raku-study/tree/main/notes/talks/data_math
+**** https://metacpan.org/pod/Data::Math
+**** https://metacpan.org/pod/Scalar::Classify
+**** https://github.com/doomvox/data-math
+**** https://github.com/doomvox/scalar-classify
+***** Actually, it could be that deepmap and/or duckmap are the solutions
+***** The problem: it's something like zipping together two trees
+
 ** from the last meeting
 **** sorting and comparators documentation
 *** junctions
@@ -21,10 +30,9 @@
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/file_find_with_junction_as_exclude.raku
 ***** is this the canonical File::Find repo?  (brian d foy has one, too, but it looks stale)
 https://github.com/tadzik/File-Find
-****** TODO open issue / submit pull request to Mu the name and exclude arguments
-**** Ralph Mellor conceeds junction "precedence" can be confusing... 
+****** DONE open issue / submit pull request to Mu the name and exclude arguments
+**** Ralph Mellor conceeds junction "precedence" can be confusing.
 ***** TODO (( link from mailing list ))
-
 **** TODO opened/found issue: raku's perl5 regex compatibility (:P5) can't handle (?^i:
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9924.html
 
@@ -69,6 +77,3 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 
 ** announcments
 *** next meeting: July 11th
-
-*** "conference in the clouds" coming up (bruce gray talk, etc)
-**** june 8-10th, $10

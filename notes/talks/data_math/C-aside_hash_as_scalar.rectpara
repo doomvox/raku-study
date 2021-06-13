@@ -1,22 +1,28 @@
 
-Aside: What do you get if you treat a hash as a scalar?
+        Pop quiz: what does this line actually do?
 
-Ever since perl 5.25: a count of keys.
+           %net = %gross - %costs;
 
-For a long time, it was "bucket report":
-a numeric ratio in string form related to
-internal behavior you don't care about.
+        Subtraction of hashes puts them in scalar context.
+        That *used* to give you a "bucket report":
 
-See: https://perldoc.perl.org/perldata 
-     
-I thought this would error out, with
-bucket report strings treated as numbers:
+           a numeric ratio in string form reflecting
+           internal behavior you don't care about.
 
-   %net = %gross - %costs;
+        BUT ever since perl 5.25: it's a count of keys--
+        something you might actually care about.
 
-Instead, those are two key counts (both 3).
-The difference between them is a single value (0).
-Assigning that to a hash generates a warning:
+           See: https://perldoc.perl.org/perldata 
 
-   "Odd number of elements in hash assignment"
+ 
+        But whatever the number of keys, the difference is a single value:
+
+             3 - 3 = 0
+
+        Assigning that to a hash generates a warning:
+
+           "Odd number of elements in hash assignment"
   
+           say scalar %gross; # 3
+           say scalar %costs; # 3
+           say Dumper( \%net ); #  $VAR1 = { '0' => undef };
