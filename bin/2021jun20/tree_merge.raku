@@ -25,7 +25,6 @@ use v6;
    # {2015 => {1 => {de => 354, fr => 382.5}, 2 => {de => 148, fr => 1111}}}
 }
 
-
 # Working towards doing something like Data::Math in Raku.
 # I'm wondering if you can zip a .deepmap
 {
