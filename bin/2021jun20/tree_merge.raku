@@ -49,9 +49,12 @@ use v6;
 #    #    Useless use of Z- in sink context
 #    # Cannot resolve caller Numeric(Pair:D: ); none of these signatures match:
 
-     my $result = %gross Z[{.deepmap({ $^a - $^b})}] %costs;
+     my $result = %gross Z[ {.deepmap({ $^a - $^b})} ] %costs;
+     # Missing infix inside []
      say $result;
 }
+
+
 
 
 
