@@ -54,9 +54,6 @@ use v6;
 #      # Missing infix inside []
      
    my $result = %gross Z[ {.deepmap({ $^a - $^b})} ] %costs;
-     # Missing infix inside []
-
-
 
      say $result;
 }
