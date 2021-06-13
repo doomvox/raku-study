@@ -30,5 +30,10 @@ use v6;
    my $result = %gross Z- %costs;
    say $result;
 
+# Potential difficulties:
+#    Useless use of Z- in sink context
+# Cannot resolve caller Numeric(Pair:D: ); none of these signatures match:
+
+
 
 }
