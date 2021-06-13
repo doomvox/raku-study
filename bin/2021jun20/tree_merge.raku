@@ -43,3 +43,12 @@ use v6;
    # {2015 => {1 => {de => 354, fr => 382.5}, 2 => {de => 148, fr => 1111}}}
 
 }
+
+
+# The zip metaoperator (which is not the same thing as Z) will
+# apply a given infix operator to pairs taken one left, one
+# right, from its arguments. The resulting list is returned.
+
+# my @l = <a b c> Z~ 1, 2, 3;     # RESULT: «[a1 b2 c3]␤»
+
+## create an infix operator?
