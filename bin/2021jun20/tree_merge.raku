@@ -42,6 +42,8 @@ use v6;
                       },
             );
 
+   my $result;
+
 #    my $result = %gross Z- %costs;
 #    say $result;
 
@@ -56,7 +58,7 @@ use v6;
 #    my $result = %gross Z[ .deepmap({ $^a - $^b}) ] %costs;
 #    # Missing infix inside []
 
-#    my $result = %gross Z[ .deepmap({ $^a - $^b}) ] %costs;
+    my $result = %gross Z[ .deepmap({ $^a - $^b}) ] %costs;
      say $result;
 }
 
