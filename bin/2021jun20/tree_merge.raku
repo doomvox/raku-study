@@ -35,14 +35,8 @@ use v6;
 #    # Cannot resolve caller Numeric(Pair:D: ); none of these signatures match:
 
 #    my $result = %gross Z{.deepmap{ $^a - $^b}} %costs;
-
-
-   say %gross;
-   # {2015 => {1 => {de => 177, fr => 191.25}, 2 => {de => 74, fr => 555.5}}}
-   say %gross.deepmap({ .Numeric && $_*2 });
-   # {2015 => {1 => {de => 354, fr => 382.5}, 2 => {de => 148, fr => 1111}}}
-
 }
+
 
 
 # The zip metaoperator (which is not the same thing as Z) will
