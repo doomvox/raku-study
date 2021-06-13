@@ -44,7 +44,7 @@ use v6;
 
    my $result;
 
-#    my $result = %gross Z- %costs;
+#   $result = %gross Z- %costs;
 #    say $result;
 
 #    # Potential difficulties:
@@ -52,13 +52,13 @@ use v6;
 #    # Cannot resolve caller Numeric(Pair:D: ); none of these signatures match:
 
      
-#    my $result = %gross Z[ {.deepmap({ $^a - $^b})} ] %costs;
+#   $result = %gross Z[ {.deepmap({ $^a - $^b})} ] %costs;
 #      # Missing infix inside []
      
-#    my $result = %gross Z[ .deepmap({ $^a - $^b}) ] %costs;
+#   $result = %gross Z[ .deepmap({ $^a - $^b}) ] %costs;
 #    # Missing infix inside []
 
-    my $result = %gross Z[ .deepmap({ $^a - $^b}) ] %costs;
+#    $result = %gross Z[ .deepmap({ $^a - $^b}) ] %costs;
      say $result;
 }
 
