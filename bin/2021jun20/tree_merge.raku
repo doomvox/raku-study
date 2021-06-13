@@ -21,6 +21,8 @@ use v6;
                       },
             );
 
+   my $result = %gross Z- %costs;
+   say $result;
 
 
 }
