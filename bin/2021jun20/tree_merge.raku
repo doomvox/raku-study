@@ -5,7 +5,6 @@
 use v6;
 
 # Working towards doing something like Data::Math in Raku.
-
 # I'm wondering if you can zip a .deepmap
 
 
