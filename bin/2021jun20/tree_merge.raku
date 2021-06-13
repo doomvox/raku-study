@@ -10,6 +10,23 @@ use v6;
     say @a Z- @b; # (1 2 3)
     }
 
+{
+    my ( %gross );
+    %gross = ( 2015 => { 1 => { de => 177.00,
+                               fr => 191.25, },
+                        2 => { de => 74.00,
+                               fr => 555.50, },
+                      },
+            );
+
+   say %gross;
+   # {2015 => {1 => {de => 177, fr => 191.25}, 2 => {de => 74, fr => 555.5}}}
+   say %gross.deepmap({ .Numeric && $_*2 });
+   # {2015 => {1 => {de => 354, fr => 382.5}, 2 => {de => 148, fr => 1111}}}
+
+}
+
+
 # Working towards doing something like Data::Math in Raku.
 # I'm wondering if you can zip a .deepmap
 {
