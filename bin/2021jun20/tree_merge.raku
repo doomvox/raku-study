@@ -37,4 +37,7 @@ use v6;
 #    my $result = %gross Z{.deepmap{ $^a - $^b}} %costs;
 
 
+   %gross.deepmap({ .Numeric && $_*2 })
+
+
 }
