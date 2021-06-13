@@ -73,3 +73,4 @@ use v6;
 # my @l = <a b c> Z~ 1, 2, 3;     # RESULT: «[a1 b2 c3]␤»
 
 ## create an infix operator?
+#    multi infix:<±> ( Num(Cool) $a, Num(Cool) $b ) is export { plusmine( $a, $b ) };
