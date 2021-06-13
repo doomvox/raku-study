@@ -7,7 +7,7 @@ use v6;
 {
     my @a = 2, 4, 6;
     my @b = 1, 2, 3;
-
+    say @a Z- @b;
     }
 
 # Working towards doing something like Data::Math in Raku.
