@@ -6,5 +6,21 @@ use v6;
 
 # Working towards doing something like Data::Math in Raku.
 # I'm wondering if you can zip a .deepmap
+{
+   my ( %gross, %costs );
+   %gross = ( 2015 => { 01 => { de => 77.00,
+                                fr => 191.25, },
+                        02 => { de => 39.00,
+                                fr => 555.50, },
+                      },
+            );
+   %costs = ( 2015 => { 01 => { de => 72.00,
+                                fr => 72.27, },
+                        02 => { de => 191.70,
+                                fr => 81.18, },
+                      },
+            );
 
 
+
+}
