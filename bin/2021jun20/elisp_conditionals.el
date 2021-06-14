@@ -14,3 +14,11 @@
 
 (smaller 3 4)
 (smaller 7 2)
+
+(defun if_smaller (x y)
+  "Echo the smaller value"
+  (let ( smaller )
+    (setq smaller
+          (if (< x y) x y))
+    (message "smaller: %d" smaller)
+    ))
