@@ -12,7 +12,6 @@ use v6;
 my @errors;
 
 @errors = <<ham sandwich ERROR DEBUG lettuce>>;
-say @errors;
 put @errors.raku, "\n____\n";
 
 exit;
