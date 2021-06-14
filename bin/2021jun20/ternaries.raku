@@ -27,7 +27,6 @@ sub say_smaller( $x, $y ) {
 say_if_smaller( 3, 4 );  # 3
 say_if_smaller( 7, 4 );  # 4
 
-
 sub say_if_smaller( $x, $y ) {
     if ( $x < $y ) {
         say $x;
