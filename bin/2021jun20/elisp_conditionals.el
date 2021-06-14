@@ -25,6 +25,10 @@
     (message "smaller: %d" smaller)
     ))
 
+(smaller_too 3 4)
+(smaller_too 7 2)
+
+
 (defun if_smaller (x y)
   "Echo the smaller value"
   (let ( smaller )
