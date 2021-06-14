@@ -43,7 +43,7 @@ say_if_smaller_again( 6, 3 ); # 3
 sub say_if_smaller_again( $x, $y ) {
     my $smaller =  do
     if ( $x < $y ) {
-         $x;
+         $x
     } else {
          $y
     };
