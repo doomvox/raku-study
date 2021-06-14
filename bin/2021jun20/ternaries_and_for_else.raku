@@ -22,7 +22,7 @@ if !@errors
         for  @errors -> $error {
            note $error; #add 'eq "DEBUG"' for T/F
            LAST die if True;}
-        ) -> $end {$end.say};
+        ) -> $end { $end.say };
 
 
 
