@@ -11,8 +11,15 @@ use v6;
 # be used sparingly, e.g. when the return from the ternary is the
 # goal.
 
+# https://perlmaven.com/the-ternary-operator-in-perl
+# Gabor Szabor has a good perl ternary example:
+# 
+#  my $smaller = $x < $y ? $x : $y;
+
+
+
 # In older perl code (back before the defined-or construct "//") we
 # would often do this:
 
-#   my $parameter = shift ? defined : 'default value';
+
 
