@@ -36,6 +36,14 @@ sub say_if_smaller( $x, $y ) {
 }
 
 
+sub say_if_smaller_again( $x, $y ) {
+    my $smaller = do
+    if ( $x < $y ) {
+         $x;
+    } else {
+         $y
+    };
+}
 
 
 # In older perl code (back before the defined-or construct "//") we
