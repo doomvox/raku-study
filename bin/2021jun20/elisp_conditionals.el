@@ -1,5 +1,4 @@
-;;; elisp_conditionals.el --- quick demo of cond in elisp
-(require 'cl-lib)
+;;; elisp_conditionals.el --- quick demos of cond/if in elisp
 
 (defun smaller (x y)
   "Echo the smaller value"
