@@ -22,3 +22,7 @@
           (if (< x y) x y))
     (message "smaller: %d" smaller)
     ))
+
+(if_smaller 3 4)
+(if_smaller 7 2)
+
