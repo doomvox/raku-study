@@ -13,3 +13,5 @@
     (message smaller)
     ))
 
+(smaller 3 4)
+(smaller 7 2)
