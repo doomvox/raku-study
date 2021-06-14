@@ -11,7 +11,8 @@ use v6;
 # be used sparingly, e.g. when the return from the ternary is the
 # goal.
 
-# An older perl code (back before the defined-or construct "//") we
+# In older perl code (back before the defined-or construct "//") we
 # would often do this:
 
 #   my $parameter = shift ? defined : 'default value';
+
