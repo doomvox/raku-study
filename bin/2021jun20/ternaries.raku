@@ -16,8 +16,14 @@ use v6;
 # 
 #  my $smaller = $x < $y ? $x : $y;
 
+my $x = 3;
+my $y = 4;
 
+
+sub say_smaller( $x, $y ) {
   my $smaller = $x < $y ?? $x !! $y;
+  say $smaller;
+}
 
 # In older perl code (back before the defined-or construct "//") we
 # would often do this:
