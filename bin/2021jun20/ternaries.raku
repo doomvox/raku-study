@@ -17,7 +17,7 @@ use v6;
 #  my $smaller = $x < $y ? $x : $y;
 
 
-
+  my $smaller = $x < $y ?? $x !! $y;
 
 # In older perl code (back before the defined-or construct "//") we
 # would often do this:
