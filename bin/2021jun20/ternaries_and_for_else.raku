@@ -9,8 +9,9 @@ use v6;
 # 
 #   http://blogs.perl.org/users/damian_conway/2019/09/itchscratch.html
 
-my @errors = <<ham sandwich ERROR DEBUG lettuce>>;
-#my @errors;
+my @errors;
+
+@errors = <<ham sandwich ERROR DEBUG lettuce>>;
 put @errors.raku, "\n____\n";
 
 if !@errors
