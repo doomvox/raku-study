@@ -24,6 +24,17 @@ sub say_smaller( $x, $y ) {
   say $smaller;
 }
 
+sub say_if_smaller( $x, $y ) {
+    if ( $x < $y ) {
+        say $x;
+    } else {
+        say $y
+    };
+}
+
+
+
+
 # In older perl code (back before the defined-or construct "//") we
 # would often do this:
 
