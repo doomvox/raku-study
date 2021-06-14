@@ -15,6 +15,19 @@
 (smaller 3 4)
 (smaller 7 2)
 
+(defun smaller_too (x y)
+  "Echo the smaller value"
+  (let ( smaller )
+    (setq smaller
+          (cond ((< x y)
+                 x)
+                (t
+                 y)))
+    (message "smaller: %d" smaller)
+    ))
+
+
+
 (defun if_smaller (x y)
   "Echo the smaller value"
   (let ( smaller )
