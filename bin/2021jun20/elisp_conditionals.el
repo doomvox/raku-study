@@ -10,7 +10,7 @@
                  x)
                 (t
                  y)))
-    (message smaller)
+    (message "%d" smaller)
     ))
 
 (smaller 3 4)
