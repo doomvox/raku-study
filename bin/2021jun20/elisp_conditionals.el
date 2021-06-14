@@ -25,8 +25,8 @@
     (message "smaller: %d" smaller)
     ))
 
-(smaller_too 3 4)
-(smaller_too 7 2)
+(smaller_too 7 13)
+(smaller_too 9 3)
 
 (defun if_smaller (x y)
   "Echo the smaller value"
