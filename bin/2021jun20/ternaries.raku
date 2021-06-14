@@ -41,12 +41,7 @@ say_if_smaller_again( 6, 3 ); # 3
 ## if you want an "if" to return a value like the ternary,
 ## you need to do a "do if":
 sub say_if_smaller_again( $x, $y ) {
-    my $smaller =  do
-    if ( $x < $y ) {
-         $x
-    } else {
-         $y
-    };
+    my $smaller =  do if ( $x < $y ) { $x } else { $y };
     say $smaller;
 }
 
