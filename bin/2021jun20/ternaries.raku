@@ -46,6 +46,7 @@ sub say_if_smaller_again( $x, $y ) {
     } else {
          $y
     };
+    say $smaller;
 }
 
 
