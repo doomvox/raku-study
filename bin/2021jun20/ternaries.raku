@@ -36,8 +36,8 @@ sub say_if_smaller( $x, $y ) {
 }
 
 
-say_if_smaller_again( 2, 4 );
-say_if_smaller_again( 6, 3 );
+say_if_smaller_again( 2, 4 ); # 2
+say_if_smaller_again( 6, 3 ); # 3
 
 sub say_if_smaller_again( $x, $y ) {
     my $smaller = do
