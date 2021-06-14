@@ -16,11 +16,7 @@ use v6;
 # 
 #  my $smaller = $x < $y ? $x : $y;
 
-my $x = 3;
-my $y = 4;
-
 say_smaller( 3, 4 );
-
 say_smaller( 7, 4 );
 
 sub say_smaller( $x, $y ) {
