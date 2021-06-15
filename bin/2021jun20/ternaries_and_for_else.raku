@@ -150,13 +150,7 @@ say "=== 5 ===";
                 # LAST warn "" if True;
                 LAST warn @errors.join(" ");
             };
-           
 
-     # Expression needs parens to avoid gobbling block
-     # at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jun20/ternaries_and_for_else.raku:121
-
-     ### which is almost certainly where bill got the idea he should try ()'s
- 
     }
 }
 
