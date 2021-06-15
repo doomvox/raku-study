@@ -87,7 +87,6 @@ say "=== 3 ===";
 #             # if you just use a paren here...
 #             )
 #             # instead of the odd pointy block Bill had:
-
 # #        ) -> $end { $end.say };
      
 #        # You get this odd compilation error:
