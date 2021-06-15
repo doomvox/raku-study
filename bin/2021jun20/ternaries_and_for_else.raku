@@ -194,7 +194,7 @@ say "=== 7 ===";
         !@errors
           ?? 'Compilation complete'.say
           !! 
-            for  @errors -> $error {  # 172
+            for  @errors -> $error {  
                 note $error; #add 'eq "DEBUG"' for T/F
                 # LAST warn "" if True;
                 LAST warn @errors.join(" ");
