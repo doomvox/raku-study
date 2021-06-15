@@ -85,7 +85,8 @@ say "=== 3 ===";
                 # LAST warn "" if True;
                 LAST warn @errors.join(" ");
             }
-        ) -> $end { $end.say };
+            )
+#        ) -> $end { $end.say };
 
     }
 }
