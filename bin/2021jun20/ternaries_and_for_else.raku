@@ -54,7 +54,6 @@ say "===";
     say "---";
 
     sub echo_errors ( @errors ){
-
         !@errors ??
            note 'Compilation complete';
         !!
