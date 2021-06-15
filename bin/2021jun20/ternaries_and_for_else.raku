@@ -31,7 +31,7 @@ use v6;
         LAST die @errors.join(" ");
     }
     if !@errors {
-        note 'Compilation complete' if DEBUG;
+        note 'Compilation complete';
         return $compilation;
     }
 }
