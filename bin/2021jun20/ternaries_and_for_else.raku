@@ -25,8 +25,11 @@ use v6;
 # }
 
 { # stripped down version of damian conway's example
-    my @errors = <mayonnaise velveta wonderbread>;
-
+    my @errors;
+    @errors = <mayonnaise velveta wonderbread>;
+    echo_errors( @errors );
+    @errors = ();
+    echo_errors( @errors );
 
     sub echo_errors ( @errors ){
         for @errors -> $error {
