@@ -11,6 +11,7 @@ use v6;
 
 
 { # damian conway
+    my @errors = <mayonnaise velveta wonderbread>;
     for @errors -> $error {
         note $error if DEBUG;
         LAST die X::CompilationFailed.new( :@errors );
@@ -19,7 +20,6 @@ use v6;
         note 'Compilation complete' if DEBUG;
         return $compilation;
     }
-
 }
 
 
