@@ -85,8 +85,16 @@ say "=== 3 ===";
                 # LAST warn "" if True;
                 LAST warn @errors.join(" ");
             }
+            # if you just use a paren here...
             )
+            # instead of the bafflinf pointy block Bill had:
 #        ) -> $end { $end.say };
+     
+       # You get this odd compilation error:
+       #  Missing block
+       #     expecting any of:
+       #         block or pointy block
+
 
     }
 }
