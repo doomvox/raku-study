@@ -176,7 +176,6 @@ say "=== 6 ===";
             };
         # Word 'for' interpreted as a listop; please use 'do for' to introduce the statement control word
         # (this is how I concluded I needed a "do for" there).
-
     }
 }
 
