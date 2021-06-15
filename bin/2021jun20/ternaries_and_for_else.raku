@@ -54,13 +54,17 @@ say "===";
     say "---";
 
     sub echo_errors ( @errors ){
+
+        !@errors ??
+           note 'Compilation complete';
+        !!
         for @errors -> $error {
             note $error;
             LAST warn @errors.join(" ");
         }
-        if !@errors {
-            note 'Compilation complete';
-        }
+
+
+
     } 
 
 
