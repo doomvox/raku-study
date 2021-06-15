@@ -11,7 +11,14 @@ use v6;
 
 
 { # damian conway
-
+    for @errors -> $error {
+        note $error if DEBUG;
+        LAST die X::CompilationFailed.new( :@errors );
+    }
+    if !@errors {
+        note 'Compilation complete' if DEBUG;
+        return $compilation;
+    }
 
 }
 
