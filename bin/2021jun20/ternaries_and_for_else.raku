@@ -32,7 +32,6 @@ use v6;
     @errors = <mayonnaise velveta wonderbread>;
     echo_errors( @errors );
     say "---";
-
     sub echo_errors ( @errors ){
         for @errors -> $error {
             note $error;
@@ -42,7 +41,6 @@ use v6;
             note 'Compilation complete';
         }
     } 
-
 }
 
 say "===";
