@@ -9,22 +9,24 @@ use v6;
 # 
 #   http://blogs.perl.org/users/damian_conway/2019/09/itchscratch.html
 
-my @errors;
 
-@errors = <<ham sandwich ERROR DEBUG lettuce>>;
-put @errors.raku, "\n____\n";
+{ # william michels
 
-exit;
+    my @errors;
 
-if !@errors
+    @errors = <<ham sandwich ERROR DEBUG lettuce>>;
+    put @errors.raku, "\n____\n";
+
+    exit;
+
+    if !@errors
     ?? 'Compilation complete'.say
     !! (
-          for  @errors -> $error {
-             note $error; #add 'eq "DEBUG"' for T/F
-             LAST die if True;
-          }
-        ) -> $end { $end.say };
-
-
+        for  @errors -> $error {
+            note $error; #add 'eq "DEBUG"' for T/F
+            LAST die if True;
+        }
+    ) -> $end { $end.say };
+}
 
 
