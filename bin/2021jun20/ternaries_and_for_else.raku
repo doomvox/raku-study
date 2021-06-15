@@ -11,6 +11,7 @@ use v6;
 
 
 { # damian conway
+    my $compilation; # ?
     my @errors = <mayonnaise velveta wonderbread>;
     for @errors -> $error {
         note $error if DEBUG;
