@@ -145,12 +145,14 @@ say "=== 5 ===";
            !@errors
         ?? 'Compilation complete'.say
         !! 
-            for  @errors -> $error {
+            for  @errors -> $error {  # 148
                 note $error; #add 'eq "DEBUG"' for T/F
                 # LAST warn "" if True;
                 LAST warn @errors.join(" ");
             };
 
+        ## Undeclared routine:
+        ##      for used at line 148
     }
 }
 
