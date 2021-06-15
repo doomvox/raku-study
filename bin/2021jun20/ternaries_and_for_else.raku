@@ -166,10 +166,9 @@ say "=== 6 ===";
     errorism( @errors );
 
     sub errorism ( @errors ) { 
-        if
-           !@errors
-        ?? 'Compilation complete'.say
-        !! 
+        !@errors
+          ?? 'Compilation complete'.say
+          !! 
             for  @errors -> $error {  # 148
                 note $error; #add 'eq "DEBUG"' for T/F
                 # LAST warn "" if True;
