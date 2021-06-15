@@ -26,13 +26,19 @@ use v6;
 
 { # stripped down version of damian conway's example
     my @errors = <mayonnaise velveta wonderbread>;
-    for @errors -> $error {
-        note $error;
-        LAST die @errors.join(" ");
-    }
-    if !@errors {
-        note 'Compilation complete';
-    }
+
+
+    sub echo_errors ( @errors ){
+        for @errors -> $error {
+            note $error;
+            LAST die @errors.join(" ");
+        }
+        if !@errors {
+            note 'Compilation complete';
+        }
+
+    } 
+
 }
 
 
