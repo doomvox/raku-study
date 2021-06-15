@@ -63,25 +63,6 @@ say "===";
         }
     } 
 
-
-    my @errors = ();
-    errorism( @errors );
-
-    @errors = <<ham sandwich ERROR DEBUG lettuce>>;
-    put @errors.raku, "\n____\n";
-    errorism( @errors );
-
-    sub errorism ( @errors ) { 
-        if !@errors
-        ?? 'Compilation complete'.say
-        !! (
-            for  @errors -> $error {
-                note $error; #add 'eq "DEBUG"' for T/F
-                LAST warn "" if True;
-            }
-        ) -> $end { $end.say };
-
-    }
 }
 
 
