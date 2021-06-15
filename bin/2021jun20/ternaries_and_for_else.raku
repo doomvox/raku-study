@@ -169,11 +169,13 @@ say "=== 6 ===";
         !@errors
           ?? 'Compilation complete'.say
           !! 
-            for  @errors -> $error {  # 148
+            for  @errors -> $error {  # 172
                 note $error; #add 'eq "DEBUG"' for T/F
                 # LAST warn "" if True;
                 LAST warn @errors.join(" ");
             };
+
+        # Word 'for' interpreted as a listop; please use 'do for' to introduce the statement control word
 
     }
 }
