@@ -156,7 +156,32 @@ say "=== 5 ===";
 #     }
 # }
 
-say "=== 6 ===";
+# say "=== 6 ===";
+# { # and yet another stab at it
+#     my @errors = ();
+#     errorism( @errors );
+
+#     @errors = <<ham sandwich ERROR DEBUG lettuce>>;
+#     put @errors.raku, "\n____\n";
+#     errorism( @errors );
+
+#     sub errorism ( @errors ) { 
+#         !@errors
+#           ?? 'Compilation complete'.say
+#           !! 
+#             for  @errors -> $error {  # 172
+#                 note $error; #add 'eq "DEBUG"' for T/F
+#                 # LAST warn "" if True;
+#                 LAST warn @errors.join(" ");
+#             };
+#         # Word 'for' interpreted as a listop; please use 'do for' to introduce the statement control word
+#         # (this is how I concluded I needed a "do for" there).
+#     }
+# }
+
+
+
+say "=== 7 ===";
 { # and yet another stab at it
     my @errors = ();
     errorism( @errors );
