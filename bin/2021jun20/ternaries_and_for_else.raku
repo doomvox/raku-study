@@ -100,7 +100,39 @@ say "=== 3 ===";
 # }
 
 say "=== 4 ===";
-{ # going after a different fix.
+# { # going after a different fix.
+#     my @errors = ();
+#     errorism( @errors );
+
+#     @errors = <<ham sandwich ERROR DEBUG lettuce>>;
+#     put @errors.raku, "\n____\n";
+#     errorism( @errors );
+
+#     sub errorism ( @errors ) { 
+#         if
+#            !@errors
+#         ?? 'Compilation complete'.say
+#         !! {
+#             for  @errors -> $error {
+#                 note $error; #add 'eq "DEBUG"' for T/F
+#                 # LAST warn "" if True;
+#                 LAST warn @errors.join(" ");
+#             }
+#            } # 121
+
+#      # Expression needs parens to avoid gobbling block
+#      # at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jun20/ternaries_and_for_else.raku:121
+
+#      ### which is almost certainly where bill got the idea he should try ()'s
+ 
+#     }
+# }
+
+
+
+
+say "=== 5 ===";
+{ # still another approach
     my @errors = ();
     errorism( @errors );
 
@@ -127,5 +159,6 @@ say "=== 4 ===";
  
     }
 }
+
 
 
