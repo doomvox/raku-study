@@ -55,7 +55,7 @@ say "===";
 
     sub echo_errors ( @errors ){
         !@errors ??
-           note 'Compilation complete';
+           note 'Compilation complete'
         !!
         for @errors -> $error {
             note $error;
