@@ -54,8 +54,6 @@ say "===";
 #    @errors = <<ham sandwich ERROR DEBUG lettuce>>;
     put @errors.raku, "\n____\n";
 
-    exit;
-
     if !@errors
     ?? 'Compilation complete'.say
     !! (
