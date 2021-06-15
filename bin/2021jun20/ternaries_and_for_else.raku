@@ -81,7 +81,8 @@ say "=== 3 ===";
         !! (
             for  @errors -> $error {
                 note $error; #add 'eq "DEBUG"' for T/F
-                LAST warn "" if True;
+                # LAST warn "" if True;
+                LAST warn @errors.join(" ");
             }
         ) -> $end { $end.say };
 
