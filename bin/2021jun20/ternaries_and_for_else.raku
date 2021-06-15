@@ -10,7 +10,7 @@ use v6;
 #   http://blogs.perl.org/users/damian_conway/2019/09/itchscratch.html
 
 
-{ # damian conway
+{ # damian conway's example is a little hard to figure out with just what he's given us.
     my \DEBUG = 1;
     my $compilation; # ?
     my @errors = <mayonnaise velveta wonderbread>;
