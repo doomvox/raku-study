@@ -51,7 +51,7 @@ say "===";
 
     my @errors;
 
-#    @errors = <<ham sandwich ERROR DEBUG lettuce>>;
+    @errors = <<ham sandwich ERROR DEBUG lettuce>>;
     put @errors.raku, "\n____\n";
 
     exit;
