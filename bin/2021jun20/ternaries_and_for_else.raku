@@ -49,9 +49,9 @@ use v6;
 say "===";
 { # william michels
 
-    my @errors;
+    my @errors = ();
 
-    @errors = <<ham sandwich ERROR DEBUG lettuce>>;
+#    @errors = <<ham sandwich ERROR DEBUG lettuce>>;
     put @errors.raku, "\n____\n";
 
     exit;
