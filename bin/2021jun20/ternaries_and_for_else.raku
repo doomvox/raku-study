@@ -54,14 +54,19 @@ say "===";
 #    @errors = <<ham sandwich ERROR DEBUG lettuce>>;
     put @errors.raku, "\n____\n";
 
-    if !@errors
-    ?? 'Compilation complete'.say
-    !! (
-        for  @errors -> $error {
-            note $error; #add 'eq "DEBUG"' for T/F
-            LAST die if True;
-        }
-    ) -> $end { $end.say };
+    sub errorism ( @errors ) { 
+        if !@errors
+        ?? 'Compilation complete'.say
+        !! (
+            for  @errors -> $error {
+                note $error; #add 'eq "DEBUG"' for T/F
+                LAST die if True;
+            }
+        ) -> $end { $end.say };
+
+    }
 }
+
+
 
 
