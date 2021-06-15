@@ -24,6 +24,7 @@ use v6;
 #     }
 # }
 
+say "=== 1 ===";
 { # stripped down version of damian conway's example
     say "---";
     my @errors = ();
@@ -43,7 +44,7 @@ use v6;
     } 
 }
 
-say "===";
+say "=== 2 ===";
 { # doing the same with a ternary ala bill's suggestion
     say "---";
     my @errors = ();
@@ -64,7 +65,7 @@ say "===";
     } 
 }
 
-say "===";
+say "=== 3 ===";
 { # william michels
 
     my @errors = ();
