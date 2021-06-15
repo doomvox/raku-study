@@ -100,7 +100,7 @@ say "=== 3 ===";
 # }
 
 say "=== 4 ===";
-{ # trying to follow william michels thinking...
+{ # going after a different fix.
     my @errors = ();
     errorism( @errors );
 
