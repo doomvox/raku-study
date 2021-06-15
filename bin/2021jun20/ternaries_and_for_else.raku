@@ -50,9 +50,12 @@ say "===";
 { # william michels
 
     my @errors = ();
+    errorism( @errors );
 
-#    @errors = <<ham sandwich ERROR DEBUG lettuce>>;
+
+    @errors = <<ham sandwich ERROR DEBUG lettuce>>;
     put @errors.raku, "\n____\n";
+    errorism( @errors );
 
     sub errorism ( @errors ) { 
         if !@errors
