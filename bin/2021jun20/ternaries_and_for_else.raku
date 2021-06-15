@@ -132,7 +132,32 @@ say "=== 4 ===";
 
 
 say "=== 5 ===";
-{ # still another approach
+# { # still another approach
+#     my @errors = ();
+#     errorism( @errors );
+
+#     @errors = <<ham sandwich ERROR DEBUG lettuce>>;
+#     put @errors.raku, "\n____\n";
+#     errorism( @errors );
+
+#     sub errorism ( @errors ) { 
+#         if
+#            !@errors
+#         ?? 'Compilation complete'.say
+#         !! 
+#             for  @errors -> $error {  # 148
+#                 note $error; #add 'eq "DEBUG"' for T/F
+#                 # LAST warn "" if True;
+#                 LAST warn @errors.join(" ");
+#             };
+
+#         ## Undeclared routine:
+#         ##      for used at line 148
+#     }
+# }
+
+say "=== 6 ===";
+{ # and yet another stab at it
     my @errors = ();
     errorism( @errors );
 
@@ -155,6 +180,5 @@ say "=== 5 ===";
         ##      for used at line 148
     }
 }
-
 
 
