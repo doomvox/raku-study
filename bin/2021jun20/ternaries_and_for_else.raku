@@ -182,7 +182,7 @@ say "=== 5 ===";
 
 
 say "=== 7 ===";
-{ # and yet another stab at it
+{ # Is there anything else besides a do in front of four?
     my @errors = ();
     errorism( @errors );
 
