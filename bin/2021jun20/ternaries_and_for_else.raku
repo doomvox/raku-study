@@ -28,7 +28,7 @@ use v6;
     my @errors = <mayonnaise velveta wonderbread>;
     for @errors -> $error {
         note $error;
-        LAST die X::CompilationFailed.new( :@errors );
+        LAST die @errors.join(" ");
     }
     if !@errors {
         note 'Compilation complete' if DEBUG;
