@@ -10,6 +10,12 @@ use v6;
 #   http://blogs.perl.org/users/damian_conway/2019/09/itchscratch.html
 
 
+{ # damian conway
+
+
+}
+
+
 { # william michels
 
     my @errors;
