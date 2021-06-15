@@ -76,7 +76,8 @@ say "=== 3 ===";
     errorism( @errors );
 
     sub errorism ( @errors ) { 
-        if !@errors
+        if
+           !@errors
         ?? 'Compilation complete'.say
         !! (
             for  @errors -> $error {
