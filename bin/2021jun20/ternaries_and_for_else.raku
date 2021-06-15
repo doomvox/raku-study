@@ -89,7 +89,7 @@ say "=== 3 ===";
 #             # instead of the odd pointy block Bill had:
 # #        ) -> $end { $end.say };
      
-#        # You get this odd compilation error:
+#        # You get this compilation error:
 #        #  Missing block
 #        #     expecting any of:
 #        #         block or pointy block
