@@ -25,6 +25,7 @@ use v6;
 # }
 
 { # stripped down version of damian conway's example
+    say "---";
     my @errors;
     @errors = ();
     echo_errors( @errors );
