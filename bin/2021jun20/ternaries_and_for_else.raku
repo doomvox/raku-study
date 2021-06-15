@@ -62,7 +62,7 @@ say "===";
         !! (
             for  @errors -> $error {
                 note $error; #add 'eq "DEBUG"' for T/F
-                LAST die if True;
+                LAST warn if True;
             }
         ) -> $end { $end.say };
 
