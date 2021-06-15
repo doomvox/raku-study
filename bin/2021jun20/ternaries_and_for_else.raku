@@ -32,7 +32,6 @@ use v6;
     }
     if !@errors {
         note 'Compilation complete';
-        return $compilation;
     }
 }
 
