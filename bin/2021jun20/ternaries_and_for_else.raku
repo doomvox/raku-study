@@ -44,7 +44,7 @@ use v6;
 }
 
 say "===";
-{ # modifying the above to use a ternary ala bill's suggestion
+{ # doing the same with a ternary ala bill's suggestion
     say "---";
     my @errors = ();
     echo_errors( @errors );
