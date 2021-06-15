@@ -149,7 +149,7 @@ say "=== 5 ===";
                 note $error; #add 'eq "DEBUG"' for T/F
                 # LAST warn "" if True;
                 LAST warn @errors.join(" ");
-            }
+            };
            
 
      # Expression needs parens to avoid gobbling block
