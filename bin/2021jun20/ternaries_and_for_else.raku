@@ -112,13 +112,13 @@ say "=== 4 ===";
         if
            !@errors
         ?? 'Compilation complete'.say
-        !! (
+        !! {
             for  @errors -> $error {
                 note $error; #add 'eq "DEBUG"' for T/F
                 # LAST warn "" if True;
                 LAST warn @errors.join(" ");
             }
-            )
+            }
 
     }
 }
