@@ -66,38 +66,38 @@ say "=== 2 ===";
 }
 
 say "=== 3 ===";
-{ # trying to follow william michels thinking...
-    my @errors = ();
-    errorism( @errors );
+# { # trying to follow william michels thinking...
+#     my @errors = ();
+#     errorism( @errors );
 
-    @errors = <<ham sandwich ERROR DEBUG lettuce>>;
-    put @errors.raku, "\n____\n";
-    errorism( @errors );
+#     @errors = <<ham sandwich ERROR DEBUG lettuce>>;
+#     put @errors.raku, "\n____\n";
+#     errorism( @errors );
 
-    sub errorism ( @errors ) { 
-        if
-           !@errors
-        ?? 'Compilation complete'.say
-        !! (
-            for  @errors -> $error {
-                note $error; #add 'eq "DEBUG"' for T/F
-                # LAST warn "" if True;
-                LAST warn @errors.join(" ");
-            }
-            # if you just use a paren here...
-            )
-            # instead of the bafflinf pointy block Bill had:
+#     sub errorism ( @errors ) { 
+#         if
+#            !@errors
+#         ?? 'Compilation complete'.say
+#         !! (
+#             for  @errors -> $error {
+#                 note $error; #add 'eq "DEBUG"' for T/F
+#                 # LAST warn "" if True;
+#                 LAST warn @errors.join(" ");
+#             }
+#             # if you just use a paren here...
+#             )
+#             # instead of the bafflinf pointy block Bill had:
 
-#        ) -> $end { $end.say };
+# #        ) -> $end { $end.say };
      
-       # You get this odd compilation error:
-       #  Missing block
-       #     expecting any of:
-       #         block or pointy block
+#        # You get this odd compilation error:
+#        #  Missing block
+#        #     expecting any of:
+#        #         block or pointy block
 
 
-    }
-}
+#     }
+# }
 
 exit 
 say "=== 4 ===";
