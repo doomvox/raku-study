@@ -48,6 +48,24 @@ use v6;
 
 say "===";
 { # william michels
+    say "---";
+    my @errors = ();
+    echo_errors( @errors );
+    say "---";
+    @errors = <mayonnaise velveta wonderbread>;
+    echo_errors( @errors );
+    say "---";
+
+    sub echo_errors ( @errors ){
+        for @errors -> $error {
+            note $error;
+            LAST warn @errors.join(" ");
+        }
+        if !@errors {
+            note 'Compilation complete';
+        }
+    } 
+
 
     my @errors = ();
     errorism( @errors );
@@ -62,7 +80,31 @@ say "===";
         !! (
             for  @errors -> $error {
                 note $error; #add 'eq "DEBUG"' for T/F
-                LAST warn "hey" if True;
+                LAST warn "" if True;
+            }
+        ) -> $end { $end.say };
+
+    }
+}
+
+
+say "===";
+{ # william michels
+
+    my @errors = ();
+    errorism( @errors );
+
+    @errors = <<ham sandwich ERROR DEBUG lettuce>>;
+    put @errors.raku, "\n____\n";
+    errorism( @errors );
+
+    sub errorism ( @errors ) { 
+        if !@errors
+        ?? 'Compilation complete'.say
+        !! (
+            for  @errors -> $error {
+                note $error; #add 'eq "DEBUG"' for T/F
+                LAST warn "" if True;
             }
         ) -> $end { $end.say };
 
