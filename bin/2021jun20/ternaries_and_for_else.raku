@@ -37,7 +37,7 @@ use v6;
     sub echo_errors ( @errors ){
         for @errors -> $error {
             note $error;
-            LAST die @errors.join(" ");
+#            LAST die @errors.join(" ");
         }
         if !@errors {
             note 'Compilation complete';
