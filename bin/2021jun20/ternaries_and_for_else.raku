@@ -118,7 +118,11 @@ say "=== 4 ===";
                 # LAST warn "" if True;
                 LAST warn @errors.join(" ");
             }
-            }
+           } # 121
+
+     # Expression needs parens to avoid gobbling block
+     # at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jun20/ternaries_and_for_else.raku:121
+
 
     }
 }
