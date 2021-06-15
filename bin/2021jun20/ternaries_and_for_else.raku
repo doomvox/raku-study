@@ -57,7 +57,7 @@ say "===";
         !@errors ??
            note 'Compilation complete'
         !!
-        for @errors -> $error {
+        do for @errors -> $error {
             note $error;
             LAST warn @errors.join(" ");
         }
