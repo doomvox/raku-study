@@ -52,7 +52,6 @@ say "===";
     my @errors = ();
     errorism( @errors );
 
-
     @errors = <<ham sandwich ERROR DEBUG lettuce>>;
     put @errors.raku, "\n____\n";
     errorism( @errors );
