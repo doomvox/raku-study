@@ -44,7 +44,7 @@ use v6;
 }
 
 say "===";
-{ # william michels
+{ # modifying the above to use a ternary
     say "---";
     my @errors = ();
     echo_errors( @errors );
