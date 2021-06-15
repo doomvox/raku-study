@@ -86,7 +86,7 @@ say "=== 3 ===";
 #             }
 #             # if you just use a paren here...
 #             )
-#             # instead of the bafflinf pointy block Bill had:
+#             # instead of the odd pointy block Bill had:
 
 # #        ) -> $end { $end.say };
      
