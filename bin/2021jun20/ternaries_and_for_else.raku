@@ -175,8 +175,6 @@ say "=== 6 ===";
                 LAST warn @errors.join(" ");
             };
 
-        ## Undeclared routine:
-        ##      for used at line 148
     }
 }
 
