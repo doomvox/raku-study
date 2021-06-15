@@ -27,7 +27,7 @@ use v6;
 { # stripped down version of damian conway's example
     my @errors = <mayonnaise velveta wonderbread>;
     for @errors -> $error {
-        note $error if DEBUG;
+        note $error;
         LAST die X::CompilationFailed.new( :@errors );
     }
     if !@errors {
