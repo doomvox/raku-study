@@ -99,7 +99,6 @@ say "=== 3 ===";
 #     }
 # }
 
-exit 
 say "=== 4 ===";
 { # trying to follow william michels thinking...
     my @errors = ();
