@@ -66,8 +66,7 @@ say "=== 2 ===";
 }
 
 say "=== 3 ===";
-{ # william michels
-
+{ # william michels 
     my @errors = ();
     errorism( @errors );
 
