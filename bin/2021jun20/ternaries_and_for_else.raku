@@ -27,10 +27,11 @@ use v6;
 { # stripped down version of damian conway's example
     my @errors;
     @errors = <mayonnaise velveta wonderbread>;
+    say "---";
     echo_errors( @errors );
+    say "---";
     @errors = ();
     echo_errors( @errors );
-
     sub echo_errors ( @errors ){
         for @errors -> $error {
             note $error;
