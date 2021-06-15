@@ -25,8 +25,6 @@ use v6;
 # }
 
 { # stripped down version of damian conway's example
-    my \DEBUG = 1;
-    my $compilation; # ?
     my @errors = <mayonnaise velveta wonderbread>;
     for @errors -> $error {
         note $error if DEBUG;
