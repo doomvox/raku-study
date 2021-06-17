@@ -94,3 +94,63 @@
 |                  | to                 |
 |                  | unshift            |
 | values           | values             |
+
+
+| Associative only |
+|------------------|
+| ASSIGN-KEY       |
+| AT-KEY           |
+| BIND-KEY         |
+| DELETE-KEY       |
+| DUMP             |
+| EXISTS-KEY       |
+| FLATTENABLE_HASH |
+| FLATTENABLE_LIST |
+| Hash             |
+| IterationBuffer  |
+| Map              |
+| WHICH            |
+| categorize-list  |
+| classify-list    |
+| clone            |
+| default          |
+| dynamic          |
+| hash             |
+| head             |
+| keyof            |
+| name             |
+
+
+| Positional only    |
+|--------------------|
+| ASSIGN-POS         |
+| AT-POS             |
+| Array              |
+| BIND-POS           |
+| CALL-ME            |
+| EXISTS-POS         |
+| Slip               |
+| Supply             |
+| chrs               |
+| combinations       |
+| eager              |
+| end                |
+| from               |
+| from-iterator      |
+| from-slurpy        |
+| from-slurpy-flat   |
+| from-slurpy-onearg |
+| is-lazy            |
+| join               |
+| permutations       |
+| pop                |
+| prepend            |
+| reification-target |
+| reverse            |
+| rotate             |
+| shift              |
+| sink               |
+| sum                |
+| tail               |
+| to                 |
+| unshift            |

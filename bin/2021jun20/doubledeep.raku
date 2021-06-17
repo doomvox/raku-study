@@ -57,8 +57,21 @@ use v6;
 
 sub is_positional ( $item ) {
 
+    my @pos_methods = 
+       < ASSIGN-KEY
+         AT-KEY
+         BIND-KEY
+         DELETE-KEY
+         EXISTS-KEY >;
+
+
     $item.^methods>>.name eq all();
 #         .^methods(:local)».name.join(', ');
+
+
+
+
+
 
 }
 
