@@ -9,7 +9,8 @@ use v6;
     my      $h2 = { alpha => 1, beta => 2 };
     my Hash $h3 = { alpha => 1, beta => 2 };
 
-    say join " ", %h1.WHAT, $h2.WHAT, $h3.WHAT;
+#    say join " ", %h1.WHAT, $h2.WHAT, $h3.WHAT;
+    say %h1.WHAT; say $h2.WHAT; say $h3.WHAT;
 
 
     }
