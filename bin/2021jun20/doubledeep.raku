@@ -14,7 +14,7 @@ use v6;
 #    say %h1.^mro.grep('Positional');
 #    say %h1.can('Positional');
 
-    say %h1.can('keys');
+    say %h1.can('keys'); # (Method+{is-nodal}.new Method+{is-nodal}.new)
 
     }
 
