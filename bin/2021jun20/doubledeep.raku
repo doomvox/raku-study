@@ -37,8 +37,9 @@ use v6;
     ## need is_positional(); is_associative(); to know how to use keys
     ## also need to preserve types in new structure
 
-    say $h2.positional;
+    # say $h2.positional; # No such method 'positional' for invocant of type 'Hash'
     say $m2.positional;
+
 
 
     }
