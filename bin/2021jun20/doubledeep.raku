@@ -50,7 +50,8 @@ use v6;
     }
 
 sub is_positional ( $item ) {
-    $item.^methods>>.name;
+#    $item.^methods>>.name;
+#         .^methods(:local)».name.join(', ');
 
 }
 
