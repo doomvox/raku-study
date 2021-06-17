@@ -9,8 +9,9 @@ use v6;
     my      $h2 = { alpha => 1, beta => 2 };
     my Hash $h3 = { alpha => 1, beta => 2 };
 
-    say join " ", %h1.^name, $h2.^name, $h3.^name;
-#    say %h1.WHAT; say $h2.WHAT; say $h3.WHAT;
+    say join " ", %h1.^name, $h2.^name, $h3.^name; # Hash Hash Hash
+
+    say %h1.^mro.grep('Positional');
 
 
     }
