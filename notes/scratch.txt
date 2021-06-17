@@ -1,14 +1,4 @@
 
-Str
-WHICH
-antipairs
-append
-categorize-list
-classify-list
-clone
-clone
-default
-dynamic
 elems
 flat
 fmt
