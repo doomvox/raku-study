@@ -40,7 +40,7 @@ use v6;
     # say $h2.positional; # No such method 'positional' for invocant of type 'Hash'
     # say $m2.positional; # No such method 'positional' for invocant of type 'List'
 
-    say $h2.associative; # 
+    # say $h2.associative; # No such method 'associative' for invocant of type 'Hash'
     say $m2.associative; # 
 
 
