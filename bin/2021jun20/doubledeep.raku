@@ -56,7 +56,6 @@ use v6;
     }
 
 sub is_positional ( $item ) {
-
     my @pos_methods = 
        < ASSIGN-KEY
          AT-KEY
