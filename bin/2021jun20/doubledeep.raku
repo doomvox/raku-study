@@ -51,10 +51,10 @@ use v6;
     say $h2.^methods>>.name;
     say $m2.^methods>>.name;
 
-
     }
 
 sub is_positional ( $item ) {
+
 #    $item.^methods>>.name;
 #         .^methods(:local)».name.join(', ');
 
