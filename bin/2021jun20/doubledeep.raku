@@ -25,7 +25,7 @@ use v6;
     my $m3 = ( 'godzilla', 'mothera', 'ghidora', 'gammera', 'golem', 'rhodan' );
     say join " ", @m1.^name, $m2.^name, $m3.^name; # Array List List
 
-    @m1.can('keys');
+    say @m1.can('keys');
 
 
     }
