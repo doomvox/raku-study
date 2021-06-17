@@ -18,7 +18,12 @@ use v6;
     say %h1.can('keys')>>.^name; # List 
     say %h1.can('keys')[0].^name; # Method+{is-nodal}
     say %h1.can('keys')[1].^name; # Method+{is-nodal}
-    say %h1.can('keys')[0].^name.^name; # Method+{is-nodal}
+    say %h1.can('keys')[0].^name.^name; # Str
+
+    my @m1 = < godzilla mothera ghidora gammera golem rhodan >;
+    my $m1 = < godzilla mothera ghidora gammera golem rhodan >;    
+    my $m2 = ( 'godzilla', 'mothera', 'ghidora', 'gammera', 'golem', 'rhodan' );
+
 
     }
 
