@@ -67,7 +67,6 @@ sub is_associative ( $item ) {
          BIND-KEY
          DELETE-KEY
          EXISTS-KEY >;
-
     my $result = so
        any( $item.^methods>>.name ) eq all( | @assoc_methods );
     return $result;
