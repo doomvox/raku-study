@@ -1,15 +1,4 @@
 
-IterationBuffer
-List
-Map
-Map
-Mix
-MixHash
-Numeric
-STORE
-STORE
-Set
-SetHash
 Str
 WHICH
 antipairs
