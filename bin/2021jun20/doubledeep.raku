@@ -10,7 +10,7 @@ use v6;
     my Hash $h3 = { alpha => 1, beta => 2 };
 
     say join " ", %h1.^name, $h2.^name, $h3.^name;
-    say %h1.WHAT; say $h2.WHAT; say $h3.WHAT;
+#    say %h1.WHAT; say $h2.WHAT; say $h3.WHAT;
 
 
     }
