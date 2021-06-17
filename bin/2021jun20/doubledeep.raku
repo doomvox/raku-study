@@ -5,9 +5,11 @@
 use v6;
 
 {
-
+    my %h1 =   alpha => 1, beta => 2;
+    my $h1 = { alpha => 1, beta => 2 };
 
     }
+
 
 my  %g1   = ( 2015 => {  1 => { de => 177.00,
                                 fr => 191.25, },
