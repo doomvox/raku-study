@@ -72,18 +72,15 @@ sub is_associative ( $item ) {
     return $result;
 }
 
-
 sub is_positional ( $item ) {
     my @pos_methods = 
        < ASSIGN-POS
          AT-POS
          BIND-POS
          EXISTS-POS >;
-
     my $result = so
        any( $item.^methods>>.name ) eq all( | @pos_methods );
     return $result;
-
 }
 
 
