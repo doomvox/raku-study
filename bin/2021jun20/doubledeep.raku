@@ -15,7 +15,9 @@ use v6;
 #    say %h1.can('Positional');
 
     say %h1.can('keys');       # (Method+{is-nodal}.new Method+{is-nodal}.new)
-    say %h1.can('keys')>>.^name; # List
+    say %h1.can('keys')>>.^name; # List # List
+
+    say %h1.can('keys')[0].^name;
 
     }
 
