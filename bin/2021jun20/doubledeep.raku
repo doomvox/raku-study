@@ -69,7 +69,7 @@ sub is_associative ( $item ) {
          EXISTS-KEY >;
 
     my $result = so
-       $item.^methods>>.name eq all( @assoc_methods );
+       $item.^methods>>.name eq all( | @assoc_methods );
     return $result;
 }
 
@@ -82,7 +82,7 @@ sub is_positional ( $item ) {
          EXISTS-POS >;
 
     my $result = so
-       $item.^methods>>.name eq all( @pos_methods );
+       $item.^methods>>.name eq all( | @pos_methods );
     return $result;
 
 }
