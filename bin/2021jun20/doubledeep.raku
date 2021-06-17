@@ -34,6 +34,8 @@ use v6;
     say $h2{'alpha'}; # 1
     say $m2[0]; # godzilla
 
+    ## need is_positional(); is_associative(); to know how to use keys
+
     }
 
 
