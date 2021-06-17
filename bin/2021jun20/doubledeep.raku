@@ -7,7 +7,7 @@ use v6;
 {
     my      %h1 = ( alpha => 1, beta => 2 );
     my      $h2 = { alpha => 1, beta => 2 };
-    my Hash $h3 = ( alpha => 1, beta => 2 );
+    my Hash $h3 = { alpha => 1, beta => 2 };
 
     say join " ", %h1.WHAT, $h2.WHAT, $h3.WHAT;
 
