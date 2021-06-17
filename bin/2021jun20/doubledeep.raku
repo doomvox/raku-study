@@ -37,6 +37,10 @@ use v6;
     ## need is_positional(); is_associative(); to know how to use keys
     ## also need to preserve types in new structure
 
+    say $h2.positional;
+    say $m2.positional;
+
+
     }
 
 
