@@ -49,7 +49,7 @@ use v6;
     # (from-iterator from-slurpy from-slurpy-onearg from-slurpy-flat new to from sum fmt ASSIGN-POS BIND-POS reification-target iterator sink STORE eager Capture FLATTENABLE_LIST FLATTENABLE_HASH CALL-ME pick roll reverse rotate combinations permutations join push append unshift prepend shift pop of item flat lazy-if lazy hyper race Bool Int end Numeric Str elems AT-POS EXISTS-POS ACCEPTS list values keys kv pairs antipairs invert gist raku List Slip Array Supply is-lazy sort tail chrs Mix MixHash Bag BagHash Set SetHash BUILDALL)
 
     say $h2.^methods>>.name;
-    say $m2.^methods>>._name;
+    say $m2.^methods>>.name;
 
 
     }
