@@ -35,6 +35,7 @@ use v6;
     say $m2[0]; # godzilla
 
     ## need is_positional(); is_associative(); to know how to use keys
+    ## also need to preserve types in new structure
 
     }
 
