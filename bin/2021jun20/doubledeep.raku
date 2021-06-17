@@ -69,7 +69,7 @@ sub is_associative ( $item ) {
          EXISTS-KEY >;
 
     my $result = so
-       $item.^methods>>.name eq all( | @assoc_methods );
+       any( $item.^methods>>.name ) eq all( | @assoc_methods );
     return $result;
 }
 
