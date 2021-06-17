@@ -23,7 +23,7 @@ use v6;
     my @m1 = < godzilla mothera ghidora gammera golem rhodan >;
     my $m1 = < godzilla mothera ghidora gammera golem rhodan >;    
     my $m2 = ( 'godzilla', 'mothera', 'ghidora', 'gammera', 'golem', 'rhodan' );
-    say join " ", %m1.^name, $m2.^name, $m3.^name; # Hash Hash Hash
+    say join " ", @m1.^name, $m2.^name, $m3.^name; # Hash Hash Hash
 
 
     }
