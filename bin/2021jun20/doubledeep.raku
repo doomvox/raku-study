@@ -28,8 +28,10 @@ use v6;
     say @m1.can('keys'); # (Method+{is-nodal}.new Method+{is-nodal}.new)
     say so @m1.can('keys'); # True
 
-    say %h1.keys; # (alpha beta)
-    say @m1.keys; # (0 1 2 3 4 5)
+    say $h2.keys; # (alpha beta)
+    say $m2.keys; # (0 1 2 3 4 5)
+
+    
 
 
     }
