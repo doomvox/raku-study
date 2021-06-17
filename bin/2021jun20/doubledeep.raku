@@ -10,9 +10,9 @@ use v6;
     my Hash $h3 = { alpha => 1, beta => 2 };
 
     say join " ", %h1.^name, $h2.^name, $h3.^name; # Hash Hash Hash
-    say %h1.^mro;
-    say %h1.^mro.grep('Positional');
-    say %h1.can('Positional');
+    say %h1.^mro;  # ((Hash) (Map) (Cool) (Any) (Mu))
+#    say %h1.^mro.grep('Positional');
+#    say %h1.can('Positional');
 
     say %h1.can('keys');
 
