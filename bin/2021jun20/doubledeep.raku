@@ -34,7 +34,6 @@ use v6;
     say $h2{'alpha'}; # 1
     say $m2[0]; # godzilla
 
-
     }
 
 
