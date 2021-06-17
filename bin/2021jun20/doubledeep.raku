@@ -26,7 +26,10 @@ use v6;
     say join " ", @m1.^name, $m2.^name, $m3.^name; # Array List List
 
     say @m1.can('keys'); # (Method+{is-nodal}.new Method+{is-nodal}.new)
-    say so @m1.can('keys'); # 
+    say so @m1.can('keys'); # True
+
+    say %h1.keys;
+    say @m1.keys;
 
 
     }
