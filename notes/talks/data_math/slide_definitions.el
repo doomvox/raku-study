@@ -22,9 +22,9 @@
 
 (require 'slip-and-slide)
 
-(setq slip-and-slide-alist 
+(setq slip-and-slide-alist ;; A -> H   J   L -> O
   '(
-    ( a . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/A-opening_slide.txt" )
+    ( a . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/A-opening_slide.png" )
     ( b . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/B-intro-hash_subtraction.pl" )
     ( c . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/C-aside_hash_as_scalar.rectpara" )
     ( d . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/D-hash_subtraction_fixed.pl" )
@@ -33,19 +33,21 @@
     ( g . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/G-arbitrary_structures_with_Data-Math.pl")
     ( h . "/home/doom/End/Cave/DataMath/Wall/Data-Math/lib/Data/Math.pm")
     ( i . "/home/doom/End/Cave/DataMath/Wall/Data-Math/t")
-    ( j . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/J-where_to_find.org" )    
-    ( k . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/K-hash_subtraction_in_raku.raku" )
-    ( l . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/L-thoughts_on_the_general_case_in_raku.org" )
-    ( m . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/M-thanks.org" )
+    ( j . "/home/doom/End/Cave/DataMath/Wall/Scalar-Classify/lib/Scalar/Classify.pm")
+    ( k . "/home/doom/End/Cave/DataMath/Wall/Scalar-Classify/t")
+    ( l . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/L-where_to_find.org" )    
+    ( m . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/M-hash_subtraction_in_raku.raku" )
+    ( n . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/N-thoughts_on_the_general_case_in_raku.org" )
+    ( o . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/O-thanks.org" )
+    ( t . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/" )
+    ( z . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/slide_definitions.el" )
+   ))
 
     ;; a further subject:
     ;; the missing feature of user defined operations (passing an anon sub)
     ;; $a $b passing of sort routines is not really generally available in perl
     ;; in raku it is. 
 
-    ( t . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/" )
-    ( z . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/slide_definitions.el" )
-   ))
 
 
 ;; LICENSE

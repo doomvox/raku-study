@@ -2,27 +2,65 @@
 ** and now, for something completely different
 *** note to self: you can't look for raku modules with file system searches.
 *** TODO is it possible to just mail "SUBSCRIBE" to documentation@raku.org
-*** oddities from https://docs.raku.org/type/Any
-**** deepmap
-**** duckmap
-**** nodemap
-**** flatmap
-***** DEPRECATION NOTICE: This method is deprecated in 6.d and will be removed in 6.e. Use .map followed by .flat instead.
 *** Doing the Data::Map job in raku
 **** https://github.com/doomvox/raku-study/tree/main/notes/talks/data_math
 **** https://metacpan.org/pod/Data::Math
 **** https://metacpan.org/pod/Scalar::Classify
 **** https://github.com/doomvox/data-math
 **** https://github.com/doomvox/scalar-classify
-***** Actually, it could be that deepmap and/or duckmap are the solutions
-***** The problem: it's something like zipping together two trees
+***** deepmap and/or duckmap seem close...
+****** from https://docs.raku.org/type/Any
+******* deepmap
+******* duckmap
+******* nodemap
+******* flatmap
+******** deprecated: use .map followed by .flat instead. ((not the other way around?))
+***** but I need to zip together *two* trees
+****** doublemap, deepcross, treereduce...?  (( any excuse for doublecross? ))
+****** One way: collapse paths to compound keys, then use Mix math
 
-** from the last meeting
+*** a fat rakudo weekly:
+https://rakudoweekly.blog/2021/06/14/2021-24-missing/
+
+*** bits from the conference in the clouds (CinC):
+
+**** Rop
+From Bruce Gray : Least favorite meta-operator: Rop
+my $a = 41; 1 R+= $a; say $a;
+Bwahahaha!
+
+**** leon timmermans:
+From Brent Laabs : "prefix-" X~ @list ...... whaaaat?  zomg!
+From Bruce Gray : Works with Fat Arrow. my %h = <A B C> X=> 1;
+
+**** great naming debates
+***** man perlstyle: 
+"... use underscores to separate words in longer identifiers. It
+is generally easier to read $var_names_like_this than
+$VarNamesLikeThis, especially for non-native speakers of English.
+It's also a simple rule that works consistently with
+'VAR_NAMES_LIKE_THIS'."
+****** I think underscores work as a good stand-in for spaces
+******* btw: unix people hate file names with spaces
+***** hyphen lovers: Leon Timmermans (underscores "ugly"?)
+***** camelcase lovers: Suzana Ezquina ("easier to type")
+***** kebabcase: Fernando Correa, JJ Atria
+****** There's nothing fundamentally interesting about this debate
+****** Except the fact that it exists.
+
+**** my new band is named: "keyboard noise people"
+
+** from the last study group
 **** sorting and comparators documentation
 *** junctions
 **** basics (we've talked about them before)
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
+https://github.com/doomvox/raku-study/tree/main/notes/junctions
+
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html
+
+***** recent discussion of oddities: https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9961.html
+
 
 *** follow-up: passing junctions as an argument
 **** File::Find exclude
@@ -33,7 +71,7 @@ https://github.com/tadzik/File-Find
 ****** DONE open issue / submit pull request to Mu the name and exclude arguments
 **** Ralph Mellor conceeds junction "precedence" can be confusing.
 ***** TODO (( link from mailing list ))
-**** TODO opened/found issue: raku's perl5 regex compatibility (:P5) can't handle (?^i:
+**** TODO find (or open) issue: raku's perl5 regex compatibility (:P5) can't handle (?^i:
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9924.html
 
 ** other topic ideas
