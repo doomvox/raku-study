@@ -64,14 +64,7 @@ sub is_positional ( $item ) {
          DELETE-KEY
          EXISTS-KEY >;
 
-
-    $item.^methods>>.name eq all();
-#         .^methods(:local)».name.join(', ');
-
-
-
-
-
+    $item.^methods>>.name eq all( @pos_methods );
 
 }
 
