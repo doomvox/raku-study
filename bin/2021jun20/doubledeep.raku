@@ -55,7 +55,7 @@ use v6;
 
     }
 
-sub is_positional ( $item ) {
+sub is_associative ( $item ) {
     my @pos_methods = 
        < ASSIGN-KEY
          AT-KEY
@@ -69,7 +69,9 @@ sub is_positional ( $item ) {
 }
 
 
+sub is_positional ( $item ) {
 
+}
 
 
 my  %g1   = ( 2015 => {  1 => { de => 177.00,
