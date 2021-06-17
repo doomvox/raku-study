@@ -43,6 +43,9 @@ use v6;
     # say $h2.associative; # No such method 'associative' for invocant of type 'Hash'
     # say $m2.associative; # No such method 'associative' for invocant of type 'List'
 
+    say $h2.^method_names;
+    say $m2.^method_names;
+
 
 
     }
