@@ -71,11 +71,10 @@ sub is_associative ( $item ) {
 
 sub is_positional ( $item ) {
     my @pos_methods = 
-       < ASSIGN-KEY
-         AT-KEY
-         BIND-KEY
-         DELETE-KEY
-         EXISTS-KEY >;
+       < ASSIGN-POS
+         AT-POS
+         BIND-POS
+         EXISTS-POS >;
 
     my $result = 
        $item.^methods>>.name eq all( @pos_methods );
