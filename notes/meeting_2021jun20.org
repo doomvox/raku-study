@@ -48,7 +48,7 @@ It's also a simple rule that works consistently with
 ****** There's nothing fundamentally interesting about this debate
 ****** Except the fact that it exists.
 
-**** my new band is named: "keyboard noise people"
+**** "keyboard noise people" is my new band name
 
 ** from the last study group
 **** sorting and comparators documentation
