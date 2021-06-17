@@ -56,7 +56,7 @@ use v6;
     }
 
 sub is_associative ( $item ) {
-    my @pos_methods = 
+    my @assoc_methods = 
        < ASSIGN-KEY
          AT-KEY
          BIND-KEY
