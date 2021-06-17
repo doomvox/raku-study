@@ -64,8 +64,9 @@ sub is_positional ( $item ) {
          DELETE-KEY
          EXISTS-KEY >;
 
-    $item.^methods>>.name eq all( @pos_methods );
-
+    my $result = 
+       $item.^methods>>.name eq all( @pos_methods );
+    return $result;
 }
 
 
