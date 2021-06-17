@@ -21,8 +21,8 @@ use v6;
     say %h1.can('keys')[0].^name.^name; # Str
 
     my @m1 = < godzilla mothera ghidora gammera golem rhodan >;
-    my $m1 = < godzilla mothera ghidora gammera golem rhodan >;    
-    my $m2 = ( 'godzilla', 'mothera', 'ghidora', 'gammera', 'golem', 'rhodan' );
+    my $m2 = < godzilla mothera ghidora gammera golem rhodan >;    
+    my $m3 = ( 'godzilla', 'mothera', 'ghidora', 'gammera', 'golem', 'rhodan' );
     say join " ", @m1.^name, $m2.^name, $m3.^name; # Hash Hash Hash
 
 
