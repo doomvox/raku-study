@@ -68,7 +68,7 @@ sub is_associative ( $item ) {
          DELETE-KEY
          EXISTS-KEY >;
 
-    my $result = 
+    my $result = so
        $item.^methods>>.name eq all( @assoc_methods );
     return $result;
 }
@@ -81,7 +81,7 @@ sub is_positional ( $item ) {
          BIND-POS
          EXISTS-POS >;
 
-    my $result = 
+    my $result = so
        $item.^methods>>.name eq all( @pos_methods );
     return $result;
 
