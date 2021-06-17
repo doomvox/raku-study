@@ -82,7 +82,7 @@ sub is_positional ( $item ) {
          EXISTS-POS >;
 
     my $result = so
-       $item.^methods>>.name eq all( | @pos_methods );
+       any( $item.^methods>>.name ) eq all( | @pos_methods );
     return $result;
 
 }
