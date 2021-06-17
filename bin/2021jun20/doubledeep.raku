@@ -55,8 +55,8 @@ use v6;
 
     say "h2 associative? ", is_associative( $h2 );
     say "m2 associative? ", is_associative( $m2 );
-    say is_positional( $h2 );
-    say is_positional( $m2 );
+    say "h2 positional? ",  is_positional( $h2 );
+    say "m2 positional? ",  is_positional( $m2 );
 
     }
 
