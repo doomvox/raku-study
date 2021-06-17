@@ -64,12 +64,22 @@ sub is_associative ( $item ) {
          EXISTS-KEY >;
 
     my $result = 
-       $item.^methods>>.name eq all( @pos_methods );
+       $item.^methods>>.name eq all( @assoc_methods );
     return $result;
 }
 
 
 sub is_positional ( $item ) {
+    my @pos_methods = 
+       < ASSIGN-KEY
+         AT-KEY
+         BIND-KEY
+         DELETE-KEY
+         EXISTS-KEY >;
+
+    my $result = 
+       $item.^methods>>.name eq all( @pos_methods );
+    return $result;
 
 }
 
