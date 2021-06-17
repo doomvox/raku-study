@@ -45,7 +45,8 @@ use v6;
 
     say $h2.^method_names;
     # (clone STORE_AT_KEY STORE BIND-KEY keyof of name default dynamic push append classify-list categorize-list WHICH Hash Map AT-KEY ASSIGN-KEY DELETE-KEY raku gist DUMP BUILDALL)
-    say $m2.^method_names;
+    say $h2.^methods>>.name;
+    say $m2.^methods>>._name;
     # (from-iterator from-slurpy from-slurpy-onearg from-slurpy-flat new to from sum fmt ASSIGN-POS BIND-POS reification-target iterator sink STORE eager Capture FLATTENABLE_LIST FLATTENABLE_HASH CALL-ME pick roll reverse rotate combinations permutations join push append unshift prepend shift pop of item flat lazy-if lazy hyper race Bool Int end Numeric Str elems AT-POS EXISTS-POS ACCEPTS list values keys kv pairs antipairs invert gist raku List Slip Array Supply is-lazy sort tail chrs Mix MixHash Bag BagHash Set SetHash BUILDALL)
     }
 
