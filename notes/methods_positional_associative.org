@@ -1,6 +1,8 @@
 * .^methods>>.name
 
+|------------------+--------------------|
 | Associative      | Positional         |
+| (Hash)           | (Array)            |
 |------------------+--------------------|
 | ACCEPTS          | ACCEPTS            |
 | ASSIGN-KEY       |                    |
