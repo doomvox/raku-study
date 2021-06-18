@@ -111,6 +111,10 @@ my  %g2   = ( 2015 => [   { de => 177.00,
 
 for %g1.keys -> $k {
     my $item =  %g1{ $k };
+    if is_positional( $item ) {
+        }
+    is_associative( $item ) {
+        }
 
 }
 
