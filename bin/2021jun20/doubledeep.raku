@@ -122,3 +122,8 @@ for %g1.keys -> $k {
         
 }
 
+sub handle_value ( $item ) {
+    ## if numeric
+    ## if string
+
+}
