@@ -117,6 +117,7 @@ for %g1.keys -> $k {
     when is_associative( $_ ) {
     }
     else {
+        handle_value( $_ );
     }
         
 }
