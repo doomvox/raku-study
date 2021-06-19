@@ -1,5 +1,5 @@
 * meeting notes June 20, 2021
-** and now, for something completely different
+** stuff
 *** note to self: you can't look for raku modules with file system searches.
 *** TODO is it possible to just mail "SUBSCRIBE" to documentation@raku.org
 *** Doing the Data::Map job in raku
