@@ -59,5 +59,5 @@ my %monster_data =
 # my %munged = %monster_data.deepmap({ $_ + 13 });
 # # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏brown' (indicated by ⏏)
 
-say %monster_data{'godzilla'};
-say %munged{'godzilla'};
+# say %monster_data{'godzilla'};
+# say %munged{'godzilla'};
