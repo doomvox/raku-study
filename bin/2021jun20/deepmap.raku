@@ -137,3 +137,6 @@ say " new 2015 ", %n1{2015};
 #     my @keys = h.keys;
 #     hash @keys Z deepmap(op, h{@keys})
 # }
+
+## Some simple examples:
+# /home/doom/Dust/Sys/Perl6/dev/roast/S32-list/deepmap.t
