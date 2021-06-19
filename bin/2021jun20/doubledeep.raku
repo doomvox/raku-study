@@ -71,10 +71,13 @@ use v6;
 # No such method 'Associative' for invocant of type 'Hash'
 
      say "what about ~~ Associative?";
-     say so $h2 ~~ Associative;
-     say so $h2 ~~ Positional;
-     say so $m2 ~~ Associative;
-     say so $m2 ~~ Positional;
+     say so $h2 ~~ Associative;  # True
+     say so $h2 ~~ Positional;   # False
+     say so $m2 ~~ Associative;  # False
+     say so $m2 ~~ Positional;   # True
+
+     # but I dunno where that comes from:
+     say %h2.^mro;
 
 
     }
