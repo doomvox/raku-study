@@ -66,19 +66,18 @@ say " new 2015 ", %n1{2015};
     my %remunged = %monster_data.deepmap({ $_+12 if .Numeric });
     say %remunged{'godzilla'};        # {color => 21}  WTF?
 
-    # I *sometimes* see that line as {color => 21} 
+    # I *sometimes* see that line as:  {color => 21} 
     #   See: deepmap_WEIRDZO.raku
     # Just adding the following two lines of code is enough to change that last line,
     # Now it's:  {level => 21}    
     my %remunged_too = %monster_data.deepmap({ $_+12 if .Numeric });
-    say %remunged_too{'godzilla'};        # {color => 21}  WTF?
-    # {level => 21}
+    say %remunged_too{'godzilla'}; # {level => 21}
     
     # In anycase, as I feared passing through the unmunged fields 
     # requires explicit instruction, ala the ternary form
 
-    my %quacked_up = %monster_data.deepmap({ $_+12 if .Numeric });
-    say %quacked_up = {'godzilla'};        # {color => 21}  WTF?
+    my %quacked_up = %monster_data.duckmap({ $_+1.69 if .Numeric });
+    say %quacked_up {'godzilla'};        # {color => 21}  WTF?
 
 
 
