@@ -25,8 +25,6 @@ say %g1{2016}{2}{'de'}; # 74
 say %g1{2016}{2}{'de'};
 # say %n1{2016}{2}{'de'};
 
-say %g1{ say "no more"; };
-
 # ====
 #  sheet of cheats
 
