@@ -1,7 +1,5 @@
 * meeting notes June 20, 2021
 ** stuff
-*** note to self: you can't look for raku modules with file system searches.
-*** TODO is it possible to just mail "SUBSCRIBE" to documentation@raku.org
 *** Doing the Data::Map job in raku
 **** https://github.com/doomvox/raku-study/tree/main/notes/talks/data_math
 **** https://metacpan.org/pod/Data::Math
@@ -102,6 +100,10 @@ https://github.com/tadzik/File-Find
 *** raku idioms
 **** https://github.com/doomvox/raku-study/blob/main/notes/idioms.org
 ***** maybe: favor methods over functions?
+** more leftover stuff 
+*** note to self: you can't look for raku modules with file system searches.
+*** TODO is it possible to just mail "SUBSCRIBE" to documentation@raku.org
+
 
 ** appendix: the usual links
 *** code examples
