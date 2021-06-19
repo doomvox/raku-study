@@ -1,14 +1,14 @@
-- [distunguishing positional and associative types](#orgd877756)
-  - [.<sup>methods</sup>>>.name](#org09c2f7d)
-  - [](#orgdb4a14b)
+- [distunguishing positional and associative types](#org8cc3612)
+  - [.<sup>methods</sup>>>.name](#org527d94e)
+  - [using \*-KEY and \*-POS methods as fingerprint](#org0c087e3)
 
 
-<a id="orgd877756"></a>
+<a id="org8cc3612"></a>
 
 # distunguishing positional and associative types
 
 
-<a id="org09c2f7d"></a>
+<a id="org527d94e"></a>
 
 ## .<sup>methods</sup>>>.name
 
@@ -166,9 +166,9 @@
 | unshift            |
 
 
-<a id="orgdb4a14b"></a>
+<a id="org0c087e3"></a>
 
-## 
+## using \*-KEY and \*-POS methods as fingerprint
 
 ```perl6
 sub is_associative ( $item ) {

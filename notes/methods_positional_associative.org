@@ -158,7 +158,7 @@
 | to                 |
 | unshift            |
 
-** 
+** using *-KEY and *-POS methods as fingerprint
 
 #+BEGIN_SRC perl6
 
