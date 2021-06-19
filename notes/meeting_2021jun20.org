@@ -100,6 +100,7 @@ https://github.com/tadzik/File-Find
 *** raku idioms
 **** https://github.com/doomvox/raku-study/blob/main/notes/idioms.org
 ***** maybe: favor methods over functions?
+
 ** more leftover stuff 
 *** note to self: you can't look for raku modules with file system searches.
 *** TODO is it possible to just mail "SUBSCRIBE" to documentation@raku.org
