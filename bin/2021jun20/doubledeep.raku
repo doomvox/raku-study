@@ -63,6 +63,8 @@ use v6;
 
     }
 
+# does any eq all really work?  write tests
+
 sub is_associative ( $item ) {
     my @assoc_methods = 
        < ASSIGN-KEY
