@@ -80,7 +80,7 @@ say " new 2015 ", %n1{2015};
     say %quacked_up{'godzilla'};     # 3.69  (?)
 
     my %quacked_up_2 = %monster_data.duckmap({ $_ - 2.5 });
-    say %quacked_up_2{'godzilla'};     # 3.69  (?)
+    say %quacked_up_2{'godzilla'};     # -0.5
 
 
 
