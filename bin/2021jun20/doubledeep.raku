@@ -77,7 +77,7 @@ use v6;
      say so $m2 ~~ Positional;   # True
 
      # but I dunno where that comes from:
-     say %h2.^mro;
+     say $h2.^mro;
 
 
     }
