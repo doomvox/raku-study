@@ -120,8 +120,9 @@ say " new 2015 ", %n1{2015};
     );
 
     say @monsters[1]; # {color => multi, level => 6, name => mothera}
-    @monsters.deepmap({ .Str ?? $_.uc !! $_ })
+    my @new = @monsters.deepmap({ .Str ?? $_.uc !! $_ })
 
+    say @new[1]; # {color => multi, level => 6, name => mothera}    
 
 
     }
