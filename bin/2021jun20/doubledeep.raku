@@ -120,21 +120,21 @@ my  %g2   = ( 2015 => [   { de => 177.00,
             );
 
 
-for %g1.keys -> $k {
-    my $item =  %g1{ $k };
-    given $item
-    when is_positional( $_ ) {
-        }
-    when is_associative( $_ ) {
-    }
-    else {
-        handle_value( $_ );
-    }
+# for %g1.keys -> $k {
+#     my $item =  %g1{ $k };
+#     given $item
+#     when is_positional( $_ ) {
+#         }
+#     when is_associative( $_ ) {
+#     }
+#     else {
+#         handle_value( $_ );
+#     }
         
-}
+# }
 
-sub handle_value ( $item ) {
-    ## if numeric
-    ## if string
+# sub handle_value ( $item ) {
+#     ## if numeric
+#     ## if string
 
-}
+# }
