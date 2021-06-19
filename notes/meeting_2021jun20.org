@@ -16,7 +16,8 @@
 ***** but I need to zip together *two* trees
 ****** doublemap, deepcross, treereduce...?  (( any excuse for doublecross? ))
 ****** One way: collapse paths to compound keys, then use Mix math
-****** also, what about custom data-container classes? (could be D::M isn't so relevant?)
+****** also, what about custom data-container classes? 
+******* (could be D::M isn't so relevant?)
 
 *** a fat rakudo weekly:
 https://rakudoweekly.blog/2021/06/14/2021-24-missing/
