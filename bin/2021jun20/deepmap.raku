@@ -55,3 +55,5 @@ my %monster_data =
                              },
              );
 
+
+%monster_data.deepmap({ $_ + 13 });
