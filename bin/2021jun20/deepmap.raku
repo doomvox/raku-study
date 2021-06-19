@@ -127,5 +127,4 @@ say " new 2015 ", %n1{2015};
     # [{color => GREEN, level => 9, name => GODZILLA} 
     #  {color => MULTI, level => 6, name => MOTHERA}
     #  {color => BROWN, level => 5, name => RHODAN}]
-
     }
