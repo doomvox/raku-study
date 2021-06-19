@@ -158,4 +158,27 @@
 | to                 |
 | unshift            |
 
-*
+** 
+#+BEGIN_SRC perl6
+sub is_associative ( $item ) {
+    my @assoc_methods = 
+       < ASSIGN-KEY
+         AT-KEY
+         BIND-KEY
+         DELETE-KEY
+         EXISTS-KEY >;
+    my $result = so
+       any( $item.^methods>>.name ) eq all( | @assoc_methods );
+    return $result;
+}
+
+sub is_positional ( $item ) {
+    my @pos_methods = 
+       < ASSIGN-POS
+         AT-POS
+         BIND-POS
+         EXISTS-POS >;
+    my $result = so
+       any( $item.^methods>>.name ) eq all( | @pos_methods );
+    return $result;
+}
