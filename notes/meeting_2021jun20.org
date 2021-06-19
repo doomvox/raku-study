@@ -33,11 +33,14 @@ From Bruce Gray : Works with Fat Arrow. my %h = <A B C> X=> 1;
 
 **** great naming debates
 ***** man perlstyle: 
-"... use underscores to separate words in longer identifiers. It
-is generally easier to read $var_names_like_this than
-$VarNamesLikeThis, especially for non-native speakers of English.
-It's also a simple rule that works consistently with
-'VAR_NAMES_LIKE_THIS'."
+
+"... use underscores to separate words in longer
+identifiers. It is generally easier to read
+$var_names_like_this than $VarNamesLikeThis,
+especially for non-native speakers of English.  
+It's also a simple rule that works consistently 
+with 'VAR_NAMES_LIKE_THIS'."
+
 ****** I think underscores work as a good stand-in for spaces
 ******* btw: unix people hate file names with spaces
 ***** hyphen lovers: Leon Timmermans (underscores "ugly"?)
