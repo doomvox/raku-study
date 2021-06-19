@@ -36,28 +36,35 @@ say "     2015 ", %g1{2015};
 say " new 2015 ", %n1{2015};
 # new 2015 {1 => {de => 2332, fr => 139.38}, 2 => {de => 152.46, fr => 1111}}
 
+{
+    my %monster_data =
+    ( 'godzilla' =>
+      {
+          level => 9,
+          color => 'green',
+      },
+      'mothera'  =>
+                 {
+                     level => 6,
+                     color => 'multi',
+                 },
+      'rhodan'   =>
+                 {
+                     level => 5,
+                     color => 'brown',
+                 },
+    );
 
-my %monster_data =
-             ( 'godzilla' =>
-                             {
-                                 level => 9,
-                                 color => 'green',
-                             },
-               'mothera'  =>
-                             {
-                                 level => 6,
-                                 color => 'multi',
-                             },
-               'rhodan'   =>
-                             {
-                                 level => 5,
-                                 color => 'brown',
-                             },
-             );
+
+    # my %munged = %monster_data.deepmap({ $_ + 13 });
+    # # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏brown' (indicated by ⏏)
+
+    # say %monster_data{'godzilla'};
+    # say %munged{'godzilla'};
 
 
-# my %munged = %monster_data.deepmap({ $_ + 13 });
-# # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏brown' (indicated by ⏏)
+    my %munged = %monster_data.deepmap({ .Numeric ?? $_ + 13 !! $_ });
 
-# say %monster_data{'godzilla'};
-# say %munged{'godzilla'};
+
+
+}
