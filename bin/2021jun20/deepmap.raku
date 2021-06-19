@@ -77,7 +77,7 @@ say " new 2015 ", %n1{2015};
     # requires explicit instruction, ala the ternary form
 
     my %quacked_up = %monster_data.duckmap({ $_+1.69 if .Numeric });
-    say %quacked_up{'godzilla'};        
+    say %quacked_up{'godzilla'};     # 3.69  (?)
 
 
 
