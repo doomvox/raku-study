@@ -77,6 +77,11 @@ say " new 2015 ", %n1{2015};
     # In anycase, as I feared passing through the unmunged fields 
     # requires explicit instruction, ala the ternary form
 
+    my %quacked_up = %monster_data.deepmap({ $_+12 if .Numeric });
+    say %quacked_up = {'godzilla'};        # {color => 21}  WTF?
+
+
+
 }
 
 # perl6 --version
