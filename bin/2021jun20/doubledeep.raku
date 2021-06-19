@@ -70,6 +70,12 @@ use v6;
 # what about .Associative?
 # No such method 'Associative' for invocant of type 'Hash'
 
+     say "what about ~~ Associative?";
+     say so $h2 ~~ Associative;
+     say so $h2 ~~ Positional;
+     say so $m2 ~~ Associative;
+     say so $m2 ~~ Positional;
+
 
     }
 
