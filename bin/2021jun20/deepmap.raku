@@ -91,8 +91,36 @@ say " new 2015 ", %n1{2015};
 
 }
 
+## Note: 
 # perl6 --version
 # Welcome to 𝐑𝐚𝐤𝐮𝐝𝐨™ v2020.10.
 # Implementing the 𝐑𝐚𝐤𝐮™ programming language v6.d.
 # Built on MoarVM version 2020.10.
 
+
+{
+
+    my @monsters =
+    (
+      {
+          name  => 'godzilla',
+          level => 9,
+          color => 'green',
+      },
+      'mothera'  =>
+                 {
+                     level => 6,
+                     color => 'multi',
+                 },
+      'rhodan'   =>
+                 {
+                     level => 5,
+                     color => 'brown',
+                 },
+    );
+
+
+
+
+
+    }
