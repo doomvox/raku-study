@@ -107,18 +107,18 @@ say " new 2015 ", %n1{2015};
           level => 9,
           color => 'green',
       },
-      'mothera'  =>
-                 {
-                     level => 6,
-                     color => 'multi',
-                 },
-      'rhodan'   =>
-                 {
-                     level => 5,
-                     color => 'brown',
-                 },
+      {
+          name =>  'mothera',
+          level => 6,
+          color => 'multi',
+      },
+      { name => 'rhodan'
+        level => 5,
+        color => 'brown',
+      },
     );
 
+    say @monsters[1];
 
 
 
