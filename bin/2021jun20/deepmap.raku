@@ -38,7 +38,7 @@ say " new 2015 ", %n1{2015};
 
 
 my %monster_data =
-            ( 'godzilla' =>
+             ( 'godzilla' =>
                              {
                                  level => 9,
                                  color => 'green',
