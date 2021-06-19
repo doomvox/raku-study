@@ -60,6 +60,11 @@ use v6;
     say "m2 associative? ", is_associative( $m2 );
     say "h2 positional? ",  is_positional( $h2 );
     say "m2 positional? ",  is_positional( $m2 );
+    
+    say so %h2.Associative;
+    say so %h2.Positional;
+    say so %m2.Associative;
+    say so %m2.Positional;
 
     }
 
