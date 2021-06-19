@@ -82,7 +82,7 @@ use v6;
     }
 
 # does any eq all really work?  write tests
-
+# but even better, smartmatch on Associative/Positional
 sub is_associative ( $item ) {
     my @assoc_methods = 
        < ASSIGN-KEY
