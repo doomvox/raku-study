@@ -69,8 +69,8 @@ say " new 2015 ", %n1{2015};
     # I *sometimes* see that line as {color => 21} 
     #   See: deepmap_WEIRDZO.raku
 
-    my %remunged1 = %monster_data.deepmap({ $_+12 if .Numeric });
-    say %remunged2{'godzilla'};        # {color => 21}  WTF?
+    my %remunged_too = %monster_data.deepmap({ $_+12 if .Numeric });
+    say %remunged_too{'godzilla'};        # {color => 21}  WTF?
 
     
 
