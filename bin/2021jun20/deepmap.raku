@@ -59,7 +59,7 @@ say " new 2015 ", %n1{2015};
     # my %munged = %monster_data.deepmap({ $_ + 13 });
     # # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏brown' (indicated by ⏏)
 
-    my %munged = %monster_data.deepmap({ .Numeric ?? $_ + 13 !! $_ });
+    my %munged = %monster_data.deepmap({ .Numeric ?? $_+13 !! $_ });
     say %monster_data{'godzilla'};  # {color => green, level => 9}
     say %munged{'godzilla'};        # {color => green, level => 22}
 
