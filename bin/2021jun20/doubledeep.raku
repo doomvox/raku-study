@@ -61,11 +61,15 @@ use v6;
     say "h2 positional? ",  is_positional( $h2 );
     say "m2 positional? ",  is_positional( $m2 );
     
-    say "what about .Associative?";
-    say so $h2.Associative;
-    say so $h2.Positional;
-    say so $m2.Associative;
-    say so $m2.Positional;
+#     say "what about .Associative?";
+#     say so $h2.Associative;
+#     say so $h2.Positional;
+#     say so $m2.Associative;
+#     say so $m2.Positional;
+
+# what about .Associative?
+# No such method 'Associative' for invocant of type 'Hash'
+
 
     }
 
