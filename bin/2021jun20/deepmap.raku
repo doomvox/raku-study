@@ -52,5 +52,5 @@ my @mdata =  ( 'godzilla' =>
                                  level => 5,
                                  color => 'brown',
                              },
-               );
+             );
 
