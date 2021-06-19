@@ -86,7 +86,7 @@ say " new 2015 ", %n1{2015};
     say %quacked_up_2{'godzilla'};     # -0.5
 
     ## Okay, I *thought* I might've understood what duckmap is
-    ## for, but I still don't.  Ditto nodemap.
+    ## for, but I still don't.  Ditto nodemap.  Later.
 
 
 }
