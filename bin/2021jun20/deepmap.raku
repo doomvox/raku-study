@@ -25,4 +25,4 @@ say %g1{2016}{2}{'de'}; # 74
 my %n1 = %g1.deepmap({ $_ * 2 });
 say %n1{2016}{2}{'de'}; # 148
 
-my %m1 = %g1.deepmap( * * 2 );
+my %m1 = %g1.deepmap( * * 2 );  # 148
