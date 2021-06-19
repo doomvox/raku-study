@@ -72,7 +72,7 @@ say " new 2015 ", %n1{2015};
     # Now it's:  {level => 21}    
     my %remunged_too = %monster_data.deepmap({ $_+12 if .Numeric });
     say %remunged_too{'godzilla'};        # {color => 21}  WTF?
-
+    # {level => 21}
     
 
 }
