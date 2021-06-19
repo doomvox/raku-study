@@ -159,7 +159,9 @@
 | unshift            |
 
 ** 
+
 #+BEGIN_SRC perl6
+
 sub is_associative ( $item ) {
     my @assoc_methods = 
        < ASSIGN-KEY
@@ -182,3 +184,5 @@ sub is_positional ( $item ) {
        any( $item.^methods>>.name ) eq all( | @pos_methods );
     return $result;
 }
+
+ #+END_SRC

@@ -1,14 +1,14 @@
-- [distunguishing positional and associative types](#org0c3c126)
-  - [.<sup>methods</sup>>>.name](#orga6f5d2d)
-  - [](#orgd174dc5)
+- [distunguishing positional and associative types](#orgd877756)
+  - [.<sup>methods</sup>>>.name](#org09c2f7d)
+  - [](#orgdb4a14b)
 
 
-<a id="org0c3c126"></a>
+<a id="orgd877756"></a>
 
 # distunguishing positional and associative types
 
 
-<a id="orga6f5d2d"></a>
+<a id="org09c2f7d"></a>
 
 ## .<sup>methods</sup>>>.name
 
@@ -166,10 +166,31 @@
 | unshift            |
 
 
-<a id="orgd174dc5"></a>
+<a id="orgdb4a14b"></a>
 
 ## 
 
-\#+BEGIN<sub>SRC</sub> perl6 sub is<sub>associative</sub> ( $item ) { my @assoc<sub>methods</sub> = < ASSIGN-KEY AT-KEY BIND-KEY DELETE-KEY EXISTS-KEY >; my $result = so any( $item.<sup>methods</sup>>>.name ) eq all( | @assoc<sub>methods</sub> ); return $result; }
+```perl6
+sub is_associative ( $item ) {
+    my @assoc_methods = 
+       < ASSIGN-KEY
+         AT-KEY
+         BIND-KEY
+         DELETE-KEY
+         EXISTS-KEY >;
+    my $result = so
+       any( $item.^methods>>.name ) eq all( | @assoc_methods );
+    return $result;
+}
 
-sub is<sub>positional</sub> ( $item ) { my @pos<sub>methods</sub> = < ASSIGN-POS AT-POS BIND-POS EXISTS-POS >; my $result = so any( $item.<sup>methods</sup>>>.name ) eq all( | @pos<sub>methods</sub> ); return $result; }
+sub is_positional ( $item ) {
+    my @pos_methods = 
+       < ASSIGN-POS
+         AT-POS
+         BIND-POS
+         EXISTS-POS >;
+    my $result = so
+       any( $item.^methods>>.name ) eq all( | @pos_methods );
+    return $result;
+}
+```
