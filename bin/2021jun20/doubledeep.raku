@@ -79,7 +79,6 @@ use v6;
      # but I dunno where that comes from:
      say $h2.^mro; # ((Hash) (Map) (Cool) (Any) (Mu))
 
-
     }
 
 # does any eq all really work?  write tests
