@@ -37,8 +37,20 @@ say " new 2015 ", %n1{2015};
 # new 2015 {1 => {de => 2332, fr => 139.38}, 2 => {de => 152.46, fr => 1111}}
 
 
-my @mdata =  ( 'godzilla' => {},
-               'mothera'  => {},
-               'rhodan'   => {},
+my @mdata =  ( 'godzilla' =>
+                             {
+                                 level => 9,
+                                 color => 'green',
+                             },
+               'mothera'  =>
+                             {
+                                 level => 6,
+                                 color => 'multi',
+                             },
+               'rhodan'   =>
+                             {
+                                 level => 5,
+                                 color => 'brown',
+                             },
                );
 
