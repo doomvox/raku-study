@@ -1,9 +1,15 @@
-- [.<sup>methods</sup>>>.name](#orgc7e67a9)
+- [distunguishing positional and associative types](#orgfc6402a)
+  - [.<sup>methods</sup>>>.name](#org9a7cd0c)
 
 
-<a id="orgc7e67a9"></a>
+<a id="orgfc6402a"></a>
 
-# .<sup>methods</sup>>>.name
+# distunguishing positional and associative types
+
+
+<a id="org9a7cd0c"></a>
+
+## .<sup>methods</sup>>>.name
 
 | Associative                | Positional         |
 | (Hash)                     | (Array)            |

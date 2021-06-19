@@ -1,4 +1,5 @@
-* .^methods>>.name
+* distunguishing positional and associative types
+** .^methods>>.name
 
 |------------------+--------------------|
 | Associative      | Positional         |
