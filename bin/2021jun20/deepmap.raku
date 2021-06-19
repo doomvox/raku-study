@@ -16,10 +16,11 @@ my  %g1   = ( 2015 => {  1 => { de => 177.00,
                        },
             );
 
-my %n1 = %g1.deepmap({ $_ + 2 });
+# my %n1 = %g1.deepmap({ $_ + 2 });
 
 say %g1{2016}(2}{'de'};
 # say %n1{2016}(2}{'de'};
+
 
 # ====
 #  sheet of cheats
