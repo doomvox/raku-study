@@ -140,3 +140,4 @@ say " new 2015 ", %n1{2015};
 
 ## Some simple examples:
 #   /home/doom/Dust/Sys/Perl6/dev/roast/S32-list/deepmap.t
+
