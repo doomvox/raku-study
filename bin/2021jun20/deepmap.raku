@@ -64,5 +64,11 @@ say " new 2015 ", %n1{2015};
     say %munged{'godzilla'};        # {color => green, level => 22}
 
     my %remunged = %monster_data.deepmap({ $_+12 if .Numeric });
-    say %remunged{'godzilla'};        # {color => green, level => 22}
+    say %remunged{'godzilla'};        # {color => 21}
+    ## TODO I understand that nought.  color? not level?
+
+    my %remunged2 = %monster_data.deepmap({ $_+13 if .Numeric });
+    say %remunged2{'godzilla'};        # {color => green, level => 22}
+
+
 }
