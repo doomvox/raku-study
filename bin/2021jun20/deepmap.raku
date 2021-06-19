@@ -85,6 +85,8 @@ say " new 2015 ", %n1{2015};
     my %quacked_up_2 = %monster_data.duckmap({ $_ - 2.5 });
     say %quacked_up_2{'godzilla'};     # -0.5
 
+    ## Okay, I *thought* I might've understood what duckmap is
+    ## for, but I still don't.  Ditto nodemap.
 
 
 }
@@ -93,3 +95,4 @@ say " new 2015 ", %n1{2015};
 # Welcome to 𝐑𝐚𝐤𝐮𝐝𝐨™ v2020.10.
 # Implementing the 𝐑𝐚𝐤𝐮™ programming language v6.d.
 # Built on MoarVM version 2020.10.
+
