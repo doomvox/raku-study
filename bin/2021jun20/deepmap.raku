@@ -88,7 +88,6 @@ say " new 2015 ", %n1{2015};
     ## Okay, I *thought* I might've understood what duckmap is
     ## for, but I still don't.  Ditto nodemap.  Later.
 
-
 }
 
 ## Note: 
