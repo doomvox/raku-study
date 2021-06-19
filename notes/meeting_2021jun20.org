@@ -100,6 +100,7 @@ https://github.com/tadzik/File-Find
 *** raku idioms
 **** https://github.com/doomvox/raku-study/blob/main/notes/idioms.org
 ***** maybe: favor methods over functions?
+***** leon_timmermans: junctions, favor function on lh, operators on rh?
 
 ** more leftover stuff 
 *** note to self: you can't look for raku modules with file system searches.
