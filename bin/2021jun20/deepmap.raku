@@ -56,4 +56,5 @@ my %monster_data =
              );
 
 
-%monster_data.deepmap({ $_ + 13 });
+my %munged = %monster_data.deepmap({ $_ + 13 });
+
