@@ -129,3 +129,12 @@ say " new 2015 ", %n1{2015};
     #  {color => BROWN, level => 5, name => RHODAN}]
  }
 
+# /home/doom/Dust/Sys/Perl6/dev/rakudo/gen/moar/CORE.c.setting
+# proto sub deepmap($, $, *%) {*}
+# multi sub deepmap(\op, \obj) {
+#     Rakudo::Internals.coremap(op, obj, :deep)
+# }
+# multi sub deepmap(\op, Associative \h) {
+#     my @keys = h.keys;
+#     hash @keys Z deepmap(op, h{@keys})
+# }
