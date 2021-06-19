@@ -77,8 +77,6 @@ say " new 2015 ", %n1{2015};
 
 }
 
-
-
 # perl6 --version
 # Welcome to 𝐑𝐚𝐤𝐮𝐝𝐨™ v2020.10.
 # Implementing the 𝐑𝐚𝐤𝐮™ programming language v6.d.
