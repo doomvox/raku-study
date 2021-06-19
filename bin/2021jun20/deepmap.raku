@@ -74,6 +74,8 @@ say " new 2015 ", %n1{2015};
     say %remunged_too{'godzilla'};        # {color => 21}  WTF?
     # {level => 21}
     
+    # In anycase, as I feared passing through the unmunged fields 
+    # requires explicit instruction, ala the ternary form
 
 }
 
