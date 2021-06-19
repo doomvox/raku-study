@@ -99,6 +99,7 @@ say " new 2015 ", %n1{2015};
 
 
 {
+    # does deepmap work on arrays?  seems so:
     my @monsters =
     (
       {
