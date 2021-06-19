@@ -124,5 +124,7 @@ say " new 2015 ", %n1{2015};
 
     say @new[1]; # {color => multi, level => 6, name => mothera}    
 
+    say @new;
+
 
     }
