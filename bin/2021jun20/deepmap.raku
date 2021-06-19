@@ -28,11 +28,11 @@ say %n1{2016}{2}{'de'}; # 148
 # interestingly, this works too (a fine example of raku consistency)
 my %m1 = %g1.deepmap( * * 2 );  # 148
 
-say %n1{2015};
-# {1 => {de => 2332, fr => 139.38}, 2 => {de => 152.46, fr => 1111}}
 
 say %g1{2016};
 # {1 => {de => 177, fr => 191.25}, 2 => {de => 74, fr => 555.5}}
 say %n1{2016};
 # {1 => {de => 354, fr => 382.5}, 2 => {de => 148, fr => 1111}}
 
+say %n1{2015};
+# {1 => {de => 2332, fr => 139.38}, 2 => {de => 152.46, fr => 1111}}
