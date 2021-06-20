@@ -24,12 +24,14 @@ use v6;
     # but to access an element, you need to know which it is, 
     # the syntax is different:
     { 
+        say "---";
         my $k = @k1[1];
         say $monsters[ $k ]; # mothera
         # say $monsters{ $k };
         # Type List does not support associative indexing.
     }
     { 
+        say "---";
         my $k = @k2[1];
         say $k; # mothera
         say $levels{ $k }; # 7
