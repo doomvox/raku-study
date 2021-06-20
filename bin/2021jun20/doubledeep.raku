@@ -22,7 +22,7 @@ use v6;
 
 
 }
-
+say "===";
 
 {
     my @a = ( { 'alpha' => 'ralpha',
