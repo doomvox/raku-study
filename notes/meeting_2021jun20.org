@@ -1,6 +1,10 @@
 * meeting notes June 20, 2021
 ** stuff
-*** bills stacko
+*** bills stackexchange posts
+13:33:09	 From Bill Michels : https://unix.stackexchange.com/a/654184/227738
+13:35:04	 From Bill Michels : https://unix.stackexchange.com/a/654444/227738
+13:38:35	 From Bill Michels : https://unix.stackexchange.com/a/654467/227738
+
 *** david, perl utility 
 
 *** Doing the Data::Map job in raku
