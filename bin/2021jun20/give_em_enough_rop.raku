@@ -13,3 +13,9 @@ my $a = 41;
 say $a;
 
 # 42
+
+# R = reverse
+
+
+$a += 3.3;
+say $a;
