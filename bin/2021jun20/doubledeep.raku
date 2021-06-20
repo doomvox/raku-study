@@ -11,10 +11,13 @@ use v6;
 {
     my (%g1, %g2) = define_some_structures();
 
-    say %g1;
+## ...
 
 
 }
+
+
+
 
 sub define_some_structures {
     my  %g1   = ( 2015 => {  1 => { de => 177.00,
