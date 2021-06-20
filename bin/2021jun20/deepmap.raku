@@ -128,6 +128,13 @@ say " new 2015 ", %n1{2015};
     #  {color => BROWN, level => 5, name => RHODAN}]
  }
 
+
+
+
+## Some simple examples:
+#   /home/doom/Dust/Sys/Perl6/dev/roast/S32-list/deepmap.t
+
+
 # /home/doom/Dust/Sys/Perl6/dev/rakudo/gen/moar/CORE.c.setting
 # proto sub deepmap($, $, *%) {*}
 # multi sub deepmap(\op, \obj) {
@@ -138,6 +145,9 @@ say " new 2015 ", %n1{2015};
 #     hash @keys Z deepmap(op, h{@keys})
 # }
 
-## Some simple examples:
-#   /home/doom/Dust/Sys/Perl6/dev/roast/S32-list/deepmap.t
+
+
+## Is that really all there is to deepmap?
+## hash?  what if the top level is an array...
+## a different multi sub for Positional? 
 
