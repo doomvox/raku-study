@@ -31,7 +31,9 @@ sub dostuff {
 }
 
 
+dostuff('this!');
 
+dostuff();
 
 
 
