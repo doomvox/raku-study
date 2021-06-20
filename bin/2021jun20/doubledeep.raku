@@ -62,31 +62,6 @@ say "===";
 
 }
 say "===";
-{
-    # verify that deepmap can deal with positionals
-    # array of hashes
-    my @a = ( { 'alpha' => 'ralpha',
-                'beta'  => 'max',
-                'gamma' => 'ra',
-                },
-              { 'alpha' => 1,
-                'beta'  => 2,
-                'gamma' => 3,
-                },
-              { 'alpha' => 101,
-                'beta'  => 102,
-                'gamma' => 103,
-                } );
-    say @a;
-    # [{alpha => ralpha, beta => max, gamma => ra} {alpha => 1, beta => 2, gamma => 3} {alpha => 101, beta => 102, gamma => 103}]
-    my $h = @a[1];
-    say $h; # {alpha => 1, beta => 2, gamma => 3}
-
-
-}
-
-say "===";
-
 
 
 
