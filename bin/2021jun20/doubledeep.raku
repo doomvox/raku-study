@@ -13,7 +13,8 @@ use v6;
     my $levels   = { 'godzilla' => 9, 'mothera' => 7,  'ghidora' => 10 };
 
     say $monsters;
-    say $monsters.WHAT;
+    say $monsters.WHAT; # (List)
+    say $levels; # (List)
 
     my @k1 = $monsters.keys;
     my @k2 = $levels.keys;
