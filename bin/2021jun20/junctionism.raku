@@ -25,3 +25,4 @@ say $weirdzo.WHAT;  # (Junction)
 if $weirdzo {
  say "hi there";  # hi there
 }
+
