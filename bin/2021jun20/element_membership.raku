@@ -10,8 +10,8 @@ my $value = 'ate';
 
 # Is the value in the @numbers array?
 
-if $value (elem) @numbers.Set {
+if $value (cont) @numbers.Set {
     say "yes it is";
 } else {
-    say "no";
+    say "no";  # no
 }
