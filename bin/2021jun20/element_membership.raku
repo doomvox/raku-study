@@ -5,7 +5,6 @@
 use v6;
 
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
-
 my $value = 'tew';
 
 # Is the value in the @numbers array?
