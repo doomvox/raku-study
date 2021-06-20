@@ -24,12 +24,6 @@ use strict;
 $|=1;
 use Data::Dumper;
 
-print "one";
-system( "echo 'check'" );
-print "two";
-print "three";
-
-
 sub dostuff {   ## all arguments go into @_  
 #  my $arg = shift || 'default'; 
 #  my $arg = shift // 'default';   # is shift defined?  if not, use 'default'
