@@ -16,6 +16,5 @@ say $a;
 
 # R = reverse
 
-
 $a += 3.3;
-say $a;
+say $a; # 45.3
