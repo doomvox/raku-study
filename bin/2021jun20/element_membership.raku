@@ -6,11 +6,12 @@ use v6;
 
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 
-my $value = 'ate';
+my $value = 'tew';
 
 # Is the value in the @numbers array?
 my $set = @numbers.Set;
-say $set;
+say $set; # Set(fahv foah sevhun sex tew thuree wuhn)
+
 
 if ($value (elem) $set) {
     say "yes it is";
