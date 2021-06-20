@@ -17,7 +17,9 @@ use v6;
 
     my @k1 = $monsters.keys;
     my @k2 = $levels.keys;
+    say @k1; say @k2;
 
+    $monsters[ @k1
     
 
 
