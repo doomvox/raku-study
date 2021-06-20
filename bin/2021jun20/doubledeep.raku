@@ -21,6 +21,8 @@ use v6;
     say @k1; # [0 1 2]
     say @k2; # [ghidora mothera godzilla]
 
+    # but to access an element, you need to know which it is, 
+    # the syntax is different:
     my $k = @k1[1];
     say $monsters[ $k ]; # mothera
     # say $monsters{ $k };
