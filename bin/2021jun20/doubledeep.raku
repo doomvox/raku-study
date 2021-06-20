@@ -17,7 +17,7 @@ use v6;
 
     # the keys method works with Positional as well as Associative
     my @k1 = $monsters.keys;
-    my @k2 = $levels.keys;
+    my @k2 = $levels.keys.sort;
     say @k1; # [0 1 2]
     say @k2; # [ghidora mothera godzilla]
 
@@ -31,7 +31,7 @@ use v6;
     }
     { 
         my $k = @k2[1];
-        say $k;
+        say $k; # mothera
         say $levels{ $k }; # 7
         say $levels[ $k ];
 
