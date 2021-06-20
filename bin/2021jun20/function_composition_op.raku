@@ -9,6 +9,7 @@ sub g($p){ say 'g'; $p * 2 }
  
 my &composed = &f ∘ &g;
 say composed 2; # OUTPUT: «g␤f␤2␤» 
+
 # equivalent to: 
 say 2.&g.&f;
 # or to: 
