@@ -39,7 +39,8 @@ use v6;
         # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏godzilla'
 
         # Interesting error message.
-        say $monsters['2'];
+        say $monsters['2']; # ghidora
+        say $monsters[2]; # ghidora
 
     }
 
