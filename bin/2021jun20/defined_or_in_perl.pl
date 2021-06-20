@@ -27,7 +27,7 @@ use Data::Dumper;
 
 sub dostuff {
 #  my $arg = shift || 'default'; 
-  my $arg = shift // 'default';   # is shift defined?  
+  my $arg = shift // 'default';   # is shift defined?  if not, use 'default'
   say $arg;
 }
 
