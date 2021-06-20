@@ -20,6 +20,7 @@ my %n1 = %g1.deepmap({ $_ * 2 });
 say %n1{2016}{2}{'de'}; # 148
 
 say %n1;
+say "===";
 
 # interestingly, this works too (a fine example of raku consistency)
 my %m1 = %g1.deepmap( * * 2 );  
