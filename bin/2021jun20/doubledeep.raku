@@ -17,7 +17,8 @@ use v6;
 
     my @k1 = $monsters.keys;
     my @k2 = $levels.keys;
-    say @k1; say @k2;
+    say @k1; # [0 1 2]
+    say @k2; # [ghidora mothera godzilla]
 
     my $k = @k1[1];
     say $monsters[ $k ]; # mothera
