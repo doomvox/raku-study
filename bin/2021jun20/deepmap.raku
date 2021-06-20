@@ -151,3 +151,9 @@ say " new 2015 ", %n1{2015};
 ## hash?  what if the top level is an array...
 ## a different multi sub for Positional? 
 
+## Don't quite see why it wouldn't flatten things...
+
+## Could try a mutant version with a third argument, the
+## key to identify the thing you're mapping, and a second
+## return the path to the thing? 
+
