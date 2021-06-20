@@ -22,7 +22,7 @@ use v6;
 
     my $k = @k1[1];
     say $monsters[ $k ]; # mothera
-    say $monsters{ $k }; 
+    # say $monsters{ $k }; # Type List does not support associative indexing.
 
 #     $k = @k2[1];
 #     say $monsters[ $k ];
