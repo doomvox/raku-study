@@ -15,3 +15,5 @@ say $var.WHAT;  #  (Slip)
 
 
 my $huh = | 'a' | 'b' | 'c';
+say $huh;
+say $huh.WHAT;
