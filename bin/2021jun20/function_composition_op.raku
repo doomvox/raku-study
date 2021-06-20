@@ -15,9 +15,15 @@ say f(g(2));
 say f g 2;
 # g: f: 4.666667
 say "A: ---";
-say g(2);
-say f(2);
-say 2.&g;
+say g(2); # g: 14
+my $ret = f(2); # f: 0.666667
+say $ret;
+say $ret.WHAT;
+say $ret.nude;
+say "===";
+
+
+say 2.&g; 
 say 3.&g;
 say "B: ---";
 
