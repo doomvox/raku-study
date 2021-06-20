@@ -7,7 +7,7 @@ use v6;
 my $condition = True;
 
 my $result = $condition ?? "first" !! "second";
-say "result: $result\n";a
+say "result: $result\n";
 
 my $result2 = do 
 if $condition  {
