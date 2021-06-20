@@ -23,6 +23,7 @@ use v6;
                 } );
     say @a;
     # [{alpha => ralpha, beta => max, gamma => ra} {alpha => 1, beta => 2, gamma => 3} {alpha => 101, beta => 102, gamma => 103}]
+    my $h = @a[1];
 
 }
 
