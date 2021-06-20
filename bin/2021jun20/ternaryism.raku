@@ -7,7 +7,7 @@ use v6;
 my $condition = True;
 
 my $result = $condition ?? "first" !! "second";
-say "result: $result\n";
+say "result: $result\n";  #  result: first
 
 my $result2 = do 
 if $condition  {
@@ -16,4 +16,4 @@ if $condition  {
     "second";
 };
 
-say "result2: $result2\n";
+say "result2: $result2\n";  # result2: first
