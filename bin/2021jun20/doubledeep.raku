@@ -59,6 +59,10 @@ use v6;
 }
 say "===";
 {
+   ## deepmap is promising
+}
+say "===";
+{
     # verify that deepmap can deal with positionals
     # array of hashes
     my @a = ( { 'alpha' => 'ralpha',
