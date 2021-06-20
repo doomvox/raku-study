@@ -12,8 +12,12 @@ use v6;
     my $monsters = < godzilla mothera ghidora gammera golem rhodan >;
     my $levels   = { 'godzilla' => 9, 'mothera' => 7,  'ghidora' => 10 };
 
+    say $monsters;
+    say $monsters.WHAT;
+
     my @k1 = $monsters.keys;
     my @k2 = $levels.keys;
+
 
 
 
