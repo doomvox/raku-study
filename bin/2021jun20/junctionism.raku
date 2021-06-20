@@ -24,5 +24,5 @@ say $weirdzo;       # any(False, False)
 say $weirdzo.WHAT;  # (Junction)
 
 if not $weirdzo {
- say "hi there";
+ say "hi there";  # hi there
 }
