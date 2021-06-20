@@ -4,7 +4,7 @@
 
 use v6;
 
-my $a = 2;
+my $a = 3;
 
 if $a == 3|5|42 {
     say "we're in!";
