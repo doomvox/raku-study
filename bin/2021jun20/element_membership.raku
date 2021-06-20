@@ -23,3 +23,5 @@ if $value eq any( @numbers ) {
     say "meep";            # meep
 }
 
+
+my $result = $condition ?? "first" !! "second";
