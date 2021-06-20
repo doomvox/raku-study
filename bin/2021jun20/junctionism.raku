@@ -19,6 +19,7 @@ if $a == 3 || $a == 5 || $a == 42 {
 }
 
 
-if $a == 3 | $a == 5 | $a == 42 {
-    say "we're in!";
-}
+my $weirdzo = $a == 3 | $a == 5 | $a == 42;
+say $weirdzo;
+say $weirdzo.WHAT;
+
