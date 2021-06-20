@@ -26,6 +26,9 @@ say "===";
 my %m1 = %g1.deepmap( * * 2 );  
 say %m1{2016}{2}{'de'}; # 148
 
+my %m1 = %g1.deepmap( **2 );  
+say %m1{2016}{2}{'de'}; # ?
+
 exit;
 
 say "     2016 ", %g1{2016};
