@@ -10,7 +10,7 @@ use v6;
 
 {
     ## Point 1: there's an asymmetry between Positional and Associative,
-    ## you can use .keys on either, but using the "keys" requires you know 
+    ## you can use .keys on both, but using the "keys" requires you know 
     ## which you're using.
 
     my $monsters = < godzilla mothera ghidora >;
