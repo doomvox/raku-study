@@ -38,9 +38,9 @@ use v6;
         # say $levels[ $k ]; 
         # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏godzilla'
 
-        # Interesting error message.
+        # Interesting error message. Using a string as an index has it trying to convert to a number:
         say $monsters['2']; # ghidora
-        say $monsters[2]; # ghidora
+        say $monsters[2];   # ghidora
 
     }
 
