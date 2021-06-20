@@ -25,7 +25,6 @@ say "ret: ", $ret;      # f: ret: 0.666667
 say $ret.WHAT;  # (Rat)
 say $ret.nude;  # (2 3)
 say "===";
-
 say 2.&g; 
 say 3.&g;
 say "B: ---";
