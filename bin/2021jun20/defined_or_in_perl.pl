@@ -34,6 +34,6 @@ sub dostuff {
 dostuff('this!'); # this!
 dostuff();  # default
 
-
+dostuff( undef );
 
 
