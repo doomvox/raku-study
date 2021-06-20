@@ -84,7 +84,7 @@ say "===";
      # a similar interface was re-implemented 
 
      my $set = (1, 2, 3).Set;
-     say $set.WHAT;
+     say $set.WHAT; # (Set)
      say $set.^mro; # ((Set) (Any) (Mu))
 
      say "set is Associative: ",  so $hash ~~ Associative;  # set is Associative: True
