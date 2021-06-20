@@ -10,6 +10,7 @@ my $value = 'ate';
 
 # Is the value in the @numbers array?
 my $set = @numbers.Set;
+say $set;
 
 if ($value (elem) $set) {
     say "yes it is";
