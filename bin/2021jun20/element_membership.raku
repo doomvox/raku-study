@@ -24,11 +24,3 @@ if $value eq any( @numbers ) {
 }
 
 
-my $result = $condition ?? "first" !! "second";
-
-my $result2 = do 
-if( $condition ) {
-    "first";
-} else {
-    "second";
-};
