@@ -38,6 +38,9 @@ use v6;
         # say $levels[ $k ]; 
         # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏godzilla'
 
+        # Interesting error message.
+        $levels['2'];
+
     }
 
 
