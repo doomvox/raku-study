@@ -55,9 +55,10 @@ with 'VAR_NAMES_LIKE_THIS'."
 ****** I think underscores work as a good stand-in for spaces
 ******* btw: unix people hate file names with spaces
 ***** hyphen lovers: Leon Timmermans (underscores "ugly"?)
-***** camelcase lovers: Suzana Ezquina ("easier to type")
-***** kebabcase: Fernando Correa, JJ Atria
+***** camelcase lovers: Suzana Ezquina ("easier to type")   ThisIsCamel  but: thisIsCamelToo ?
+***** kebabcase: Fernando Correa, JJ Atria  this-is-kebab
 ****** There's nothing fundamentally interesting about this debate, except the fact that it exists.
+
 
 **** my new band name: "keyboard noise people" 
 
