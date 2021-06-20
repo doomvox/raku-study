@@ -81,7 +81,7 @@ say "===";
 
      # if I remember right: 
      # hashes and the set-like types (QuantHashes) don't inherit behavior from the same parent
-     # (Associative is a role)
+     # (Hm: Associative is a role)
 
      my $set = (1, 2, 3).Set;
      say $set.WHAT; # (Set)
