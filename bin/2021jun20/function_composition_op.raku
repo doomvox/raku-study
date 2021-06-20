@@ -4,7 +4,7 @@
 
 use v6;
 
-sub f($p){ say 'f'; $p / 2 }
+sub f($p){ say 'f'; $p / 3 }
 sub g($p){ say 'g'; $p * 2 }
  
 my &composed = &f ∘ &g;
