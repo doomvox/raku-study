@@ -67,6 +67,7 @@ say "===";
 
      my $hash = { alpha => 1, beta => 2 };
      my $array = < godzilla mothera ghidora gammera golem rhodan >;    
+     say $array.WHAT; 
 
      say "what about ~~ Associative?";
      say so $hash ~~ Associative;  # True
