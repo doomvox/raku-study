@@ -41,4 +41,5 @@ dostuff( @stuff ); # a
 @stuff = ();
 dostuff( @stuff ); # default
 
-dostuff( 0 );
+dostuff( 0 );      # default
+dostuff( 1 );      # 1
