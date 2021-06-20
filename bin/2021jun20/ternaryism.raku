@@ -15,3 +15,5 @@ if( $condition ) {
 } else {
     "second";
 };
+
+say "result2: $result2\n";
