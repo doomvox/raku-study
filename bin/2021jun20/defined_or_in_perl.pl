@@ -26,10 +26,10 @@ use Data::Dumper;
 
 
 sub dostuff {
-  my $arg = shift || 'default'; 
+#  my $arg = shift || 'default'; 
+  my $arg = shift // 'default'; 
   say $arg;
 }
-
 
 dostuff('this!'); # this!
 dostuff();  # default
