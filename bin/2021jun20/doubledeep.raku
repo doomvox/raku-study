@@ -8,6 +8,12 @@
 
 use v6;
 
+say "===";
+{
+   ## deepmap is promising
+
+}
+
 {
     ## Point 1: there's an asymmetry between Positional and Associative,
     ## you can use .keys on both, but using the "keys" requires you know 
@@ -56,10 +62,6 @@ use v6;
         ## (there's no defined order), but the error message is peculiar.
     }
 
-}
-say "===";
-{
-   ## deepmap is promising
 }
 say "===";
 {
