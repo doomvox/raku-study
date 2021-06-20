@@ -39,7 +39,7 @@ use v6;
         # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏godzilla'
 
         # Interesting error message.
-        $levels['2'];
+        say $monsters['2'];
 
     }
 
