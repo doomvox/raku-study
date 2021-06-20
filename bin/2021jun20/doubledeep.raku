@@ -11,7 +11,7 @@ use v6;
 {
     my (%g1, %g2) = define_some_structures();
 
-## ...
+    ## ...
 
 
 }
