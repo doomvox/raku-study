@@ -9,6 +9,12 @@
 use v6;
 
 {
+
+
+}
+
+
+{
     my @a = ( { 'alpha' => 'ralpha',
                 'beta'  => 'max',
                 'gamma' => 'ra',
