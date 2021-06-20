@@ -15,6 +15,7 @@ use v6;
     say $monsters.WHAT; # (List)
     say $levels.WHAT;   # (Hash)
 
+    # the keys method works with Positional as well as Associative
     my @k1 = $monsters.keys;
     my @k2 = $levels.keys;
     say @k1; # [0 1 2]
@@ -22,7 +23,8 @@ use v6;
 
     my $k = @k1[1];
     say $monsters[ $k ]; # mothera
-    # say $monsters{ $k }; # Type List does not support associative indexing.
+    # say $monsters{ $k };
+    # Type List does not support associative indexing.
 
 #     $k = @k2[1];
 #     say $monsters[ $k ];
