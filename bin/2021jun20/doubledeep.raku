@@ -69,7 +69,7 @@ say "===";
      my $array = < godzilla mothera ghidora gammera golem rhodan >;    
      say $array.WHAT; # (List)  close enough
 
-     say "what about ~~ Associative?";
+     say "smartmaching with Associative of Positional works?";
      say so $hash ~~ Associative;  # True
      say so $hash ~~ Positional;   # False
      say so $array ~~ Associative;  # False
