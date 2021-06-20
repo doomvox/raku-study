@@ -13,10 +13,9 @@ say composed 2;
 # f
 # 2
 say "---";
-
-
 # equivalent to: 
 say 2.&g.&f;
+say "---";
 # or to: 
 say f g 2;
 say &composed.arity; #  OUTPUT: «1␤» 
