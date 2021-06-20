@@ -56,7 +56,7 @@ with 'VAR_NAMES_LIKE_THIS'."
 ***** kebabcase: Fernando Correa, JJ Atria
 ****** There's nothing fundamentally interesting about this debate, except the fact that it exists.
 
-**** "keyboard noise people" is my new band name
+**** my new band name: "keyboard noise people" 
 
 ** from the last study group
 **** sorting and comparators documentation
