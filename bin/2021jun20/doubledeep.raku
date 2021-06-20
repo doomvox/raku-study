@@ -63,7 +63,7 @@ say "===";
 }
 say "===";
 {
-    ## Q: how do you know if you've got, say, an Array or a Hash?
+    ## Q: how do you know if you've got something like an Array or a Hash?
 
      say "what about ~~ Associative?";
      say so $h2 ~~ Associative;  # True
