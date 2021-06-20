@@ -20,7 +20,7 @@ use v6;
     say @k1; say @k2;
 
     my $k = @k1[1];
-    say $monsters[ $k ];
+    say $monsters[ $k ]; # mothera
 
 #     $k = @k2[1];
 #     say $monsters[ $k ];
