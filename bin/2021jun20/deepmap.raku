@@ -54,6 +54,12 @@ say " new 2015 ", %n1{2015};
                      level => 5,
                      color => 'brown',
                  },
+      'bambi'   =>
+                 {
+                     level => 0,
+                     color => 'brown',
+                 },
+
     );
 
 
