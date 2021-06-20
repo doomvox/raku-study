@@ -9,8 +9,9 @@ my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 my $value = 'ate';
 
 # Is the value in the @numbers array?
+my $set = @numbers.Set;
 
-if ($value (elem) @numbers.Set) {
+if ($value (elem) $set) {
     say "yes it is";
 } else {
     say "no";  # no
