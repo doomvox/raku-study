@@ -1,12 +1,16 @@
 * meeting notes June 20, 2021
 ** stuff
 *** Doing the Data::Map job in raku
-**** https://www.youtube.com/watch?v=wViVLytlwb8
-**** https://github.com/doomvox/raku-study/tree/main/notes/talks/data_math
-**** https://metacpan.org/pod/Data::Math
-**** https://metacpan.org/pod/Scalar::Classify
-**** https://github.com/doomvox/data-math
-**** https://github.com/doomvox/scalar-classify
+**** my lightning talk at the Cinc
+***** https://www.youtube.com/watch?v=wViVLytlwb8
+**** "slides":
+***** https://github.com/doomvox/raku-study/tree/main/notes/talks/data_math
+**** the code:
+***** https://metacpan.org/pod/Data::Math
+***** https://metacpan.org/pod/Scalar::Classify
+***** https://github.com/doomvox/data-math
+***** https://github.com/doomvox/scalar-classify
+**** ideas:
 ***** deepmap and/or duckmap seem close...
 ****** from https://docs.raku.org/type/Any
 ******* deepmap
