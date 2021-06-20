@@ -17,7 +17,8 @@ say f g 2;
 say "A: ---";
 say g(2); # g: 14
 say "I am about to call f(2)!";
-my $ret = f(2);         # f: 0.666667
+my $ret = f(2);         # f:
+# 0.666667
 say "ret: ", $ret;      # f: ret: 0.666667
 say $ret.WHAT;  # (Rat)
 say $ret.nude;  # (2 3)
