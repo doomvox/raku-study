@@ -1,10 +1,6 @@
 #!/usr/bin/env perl6
 # 
-# doubledeep.raku            20 Jun 2021 
-
-## starting over with the doubledeep.raku idea.
-## Also see:
-## /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jun20/doubledeep-explorations_1.raku
+# doubledeep.raku            16 Jun 2021 
 
 use v6;
 
