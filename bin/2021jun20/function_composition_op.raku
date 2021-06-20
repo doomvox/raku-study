@@ -15,7 +15,7 @@ say composed 2;
 say "---";
 say g(2);
 say f(2);
-
+say 2.&g;
 
 say "---";
 
