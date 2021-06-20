@@ -11,9 +11,8 @@ my $value = 'tew';
 # Is the value in the @numbers array?
 my $set = @numbers.Set;
 say $set; # Set(fahv foah sevhun sex tew thuree wuhn)
-
 if ($value (elem) $set) {
-    say "yes it is";
+    say "yes it is";        # yes it is
 } else {
     say "no";  
 }
