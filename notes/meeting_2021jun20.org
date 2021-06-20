@@ -42,6 +42,7 @@ Bwahahaha!
 From Brent Laabs : "prefix-" X~ @list ...... whaaaat?  zomg!
 From Bruce Gray : Works with Fat Arrow. my %h = <A B C> X=> 1;
 
+
 **** great naming debates
 ***** man perlstyle: 
 
@@ -54,7 +55,7 @@ with 'VAR_NAMES_LIKE_THIS'."
 
 ****** I think underscores work as a good stand-in for spaces
 ******* btw: unix people hate file names with spaces
-***** hyphen lovers: Leon Timmermans (underscores "ugly"?)
+***** hyphen lovers: Leon Timmermans (underscores "ugly"?)  
 ***** camelcase lovers: Suzana Ezquina ("easier to type")   ThisIsCamel  but: thisIsCamelToo ?
 ***** kebabcase: Fernando Correa, JJ Atria  this-is-kebab
 ****** There's nothing fundamentally interesting about this debate, except the fact that it exists.
