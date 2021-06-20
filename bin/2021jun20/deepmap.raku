@@ -76,7 +76,7 @@ say " new 2015 ", %n1{2015};
     say %munged{'bambi'};        # {color => brown, level => 0}    .Numeric flawed
                                  # {color => brown, level => 13}   smartmatch Numeric
 
-    my %remunged = %monster_data.deepmap({ $_+12 if .Numeric });            ## WEIRDZO BUG
+    my %remunged = %monster_data.deepmap({ $_+12 if .Numeric });             ## WEIRDZO BUG
     say %remunged{'godzilla'};        # {color => 21}  WTF? 
     say "^^^";  
 
