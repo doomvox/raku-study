@@ -107,6 +107,18 @@ https://github.com/tadzik/File-Find
 *** TODO is it possible to just mail "SUBSCRIBE" to documentation@raku.org
 
 
+*** junctions
+**** basics (we've talked about them before)
+***** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
+https://github.com/doomvox/raku-study/tree/main/notes/junctions
+
+***** https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html
+
+***** recent discussion of oddities: https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9961.html
+
+
+
+
 ** appendix: the usual links
 *** code examples
 https://github.com/doomvox/raku-study/tree/main/bin/2021jun20
