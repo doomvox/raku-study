@@ -10,7 +10,7 @@ my $result = $condition ?? "first" !! "second";
 say "result: $result\n";a
 
 my $result2 = do 
-if( $condition ) {
+if $condition  {
     "first";
 } else {
     "second";
