@@ -43,7 +43,8 @@ use v6;
         say $monsters[2];   # ghidora
 
         say $levels;
-#        say $levels[1];
+        # {ghidora => 10, godzilla => 9, mothera => 7}
+        say $levels[1];
 
 
     }
