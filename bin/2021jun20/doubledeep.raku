@@ -71,12 +71,12 @@ say "===";
 
      say "smartmaching with Associative of Positional works?";
      say "checking the hash: ";
-     say "hash is Associative: ", so $hash ~~ Associative;  # hash is Associative: True
-     say "hash is Positional: ",  so $hash ~~ Positional;   # hash is Positional: False
+     say "hash is Associative: ",  so $hash ~~ Associative;  # hash is Associative: True
+     say "hash is Positional: ",   so $hash ~~ Positional;   # hash is Positional: False
      say "array is Associative: ", so $array ~~ Associative;  # array is Associative: False
      say "array is Positional: ",  so $array ~~ Positional;   # array is Positional: True
 
-     # but I dunno where that comes from:
+     # but I dunno where that Associative and Positional comes from:
      say $hash.^mro; # ((Hash) (Map) (Cool) (Any) (Mu))
 }
 
