@@ -34,6 +34,8 @@ sub dostuff {
 dostuff('this!'); # this!
 dostuff();  # default
 
-dostuff( undef );
+dostuff( undef );  # default
 
+my @stuff = ('a', 'b', 'c');
+dostuff( @stuff );
 
