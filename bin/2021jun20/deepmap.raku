@@ -41,7 +41,8 @@ say " new 2015 ", %n1{2015};
     my %monster_data =
     ( 'godzilla' =>
       {
-          level => '9',
+          # level => '9',  ## Bruce's smartmatch doesn't convert
+          level => 9,   
           color => 'green',
       },
       'mothera'  =>
