@@ -59,16 +59,6 @@ with 'VAR_NAMES_LIKE_THIS'."
 **** my new band name: "keyboard noise people" 
 
 ** from the last study group
-**** sorting and comparators documentation
-*** junctions
-**** basics (we've talked about them before)
-***** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
-https://github.com/doomvox/raku-study/tree/main/notes/junctions
-
-***** https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html
-
-***** recent discussion of oddities: https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9961.html
-
 
 *** follow-up: passing junctions as an argument
 **** File::Find exclude
