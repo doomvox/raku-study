@@ -9,3 +9,6 @@ say (15 if 3 > 4); # ()
 my $var = (15 if 3 > 4); 
 say $var.raku;  #  Empty
 say $var.WHAT;  #  (Slip) 
+
+my $list = | @stuff;
+
