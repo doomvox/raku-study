@@ -17,6 +17,7 @@ if ($value (elem) $set) {
     say "no";  
 }
 
+# another way of checking:
 if $value eq any( @numbers ) {
-    say "meep";
+    say "meep";            # meep
 }
