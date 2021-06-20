@@ -13,7 +13,7 @@ say composed 2;
 say f(g(2));
 # g: f: 4.666667
 say f g 2;
-
+# g: f: 4.666667
 say "A: ---";
 
 
