@@ -63,8 +63,6 @@ say "===";
 }
 say "===";
 
-
-
 {
     my (%h1, %h2) = define_some_structures();
 
