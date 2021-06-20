@@ -41,5 +41,5 @@ dostuff( @stuff ); # a
 @stuff = ();
 dostuff( @stuff ); # default
 
-dostuff( 0 );      # default
+dostuff( 0 );      # default with '||' but 0 with '//'
 dostuff( 1 );      # 1
