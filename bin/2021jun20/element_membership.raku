@@ -4,6 +4,8 @@
 
 use v6;
 
+# "in"
+
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 my $value = 'tew';
 
@@ -20,3 +22,4 @@ if ($value (elem) $set) {
 if $value eq any( @numbers ) {
     say "meep";            # meep
 }
+
