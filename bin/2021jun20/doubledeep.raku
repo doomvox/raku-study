@@ -52,8 +52,6 @@ use v6;
         ## (there's no defined order), but the error message is peculiar.
     }
 
-
-
 #     $k = @k2[1];
 #     say $monsters[ $k ];
 
