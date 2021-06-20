@@ -21,7 +21,7 @@ use v6;
 
     # the keys method works with Positional as well as Associative
     my @k1 = $monsters.keys;
-    my @k2 = $levels.keys.sort;
+    my @k2 = $levels.keys.sort;  # need to sort, or order might vary between runs
     say @k1; # [0 1 2]
     say @k2; # [ghidora mothera godzilla]
 
