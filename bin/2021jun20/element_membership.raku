@@ -12,7 +12,6 @@ my $value = 'tew';
 my $set = @numbers.Set;
 say $set; # Set(fahv foah sevhun sex tew thuree wuhn)
 
-
 if ($value (elem) $set) {
     say "yes it is";
 } else {
