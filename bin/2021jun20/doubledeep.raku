@@ -33,9 +33,10 @@ use v6;
     { 
         say "---";
         my $k = @k2[1];
-        say $k; # mothera
-        say $levels{ $k }; # 7
-        say $levels[ $k ];
+        say $k; # godzilla
+        say $levels{ $k }; # 9
+        # say $levels[ $k ]; 
+        # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏godzilla'
 
     }
 
