@@ -31,6 +31,7 @@ use v6;
     }
     { 
         my $k = @k2[1];
+        say $k;
         say $levels{ $k }; # 7
         say $levels[ $k ];
 
