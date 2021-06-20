@@ -12,16 +12,16 @@ say composed 2;
 # g
 # f
 # 4.666667
-say "---";
+say "A: ---";
 say g(2);
 say f(2);
 say 2.&g;
 say 3.&g;
-say "---";
+say "B: ---";
 
 # equivalent to: 
 say 2.&g.&f;
-say "---";
+say "C: ---";
 # g
 # f
 # 2
