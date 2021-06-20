@@ -29,8 +29,6 @@ say %m1{2016}{2}{'de'}; # 148
 # my %m1 = %g1.deepmap( **2 );  
 # say %m1{2016}{2}{'de'}; # Unable to parse expression in argument list; couldn't find final ')'
 
-exit;
-
 say "     2016 ", %g1{2016};
 #      2016 {1 => {de => 177, fr => 191.25}, 2 => {de => 74, fr => 555.5}}
 say " new 2016 ",%n1{2016};
