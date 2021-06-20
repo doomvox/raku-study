@@ -15,5 +15,5 @@ say $var.WHAT;  #  (Slip)
 
 
 my $huh = | 'a' | 'b' | 'c';
-say $huh;
-say $huh.WHAT;
+say $huh;       # any(a, b, c)
+say $huh.WHAT;  # (Junction)
