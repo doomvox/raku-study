@@ -24,14 +24,13 @@ use strict;
 $|=1;
 use Data::Dumper;
 
-
-sub dostuff {
+sub dostuff {   ## all arguments go into @_  
 #  my $arg = shift || 'default'; 
 #  my $arg = shift // 'default';   # is shift defined?  if not, use 'default'
 
 ## 'ampersand' & 'atsign'
 
-my $arg = defined( $_[0] ) ? $_[0] : 'default';  
+  my $arg = defined( $_[0] ) ? $_[0] : 'default';  
 
 
   say $arg;
