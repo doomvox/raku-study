@@ -6,7 +6,7 @@
 ## Also see:
 ## /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jun20/doubledeep-explorations_1.raku
 
-## 0: deepmap seems promising
+## And deepmap seems promising
 ##    /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jun20/deepmap.raku
 
 use v6;
