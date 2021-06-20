@@ -31,9 +31,8 @@ sub dostuff {
 }
 
 
-dostuff('this!');
-
-dostuff();
+dostuff('this!'); # this!
+dostuff();  # default
 
 
 
