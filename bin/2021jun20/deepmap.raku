@@ -75,6 +75,7 @@ say " new 2015 ", %n1{2015};
                                  # {color => brown, level => 13}   smartmatch Numeric
 
     my %remunged = %monster_data.deepmap({ $_+12 if .Numeric });
+    say "XXX: ";
     say %remunged{'godzilla'};        # {color => 21}  WTF?
 
     # I *sometimes* see that line as:  {color => 21} 
