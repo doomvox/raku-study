@@ -16,3 +16,6 @@ my $result2 = do
     "second";
   };
 say "result2: $result2\n";  # result2: first
+
+
+
