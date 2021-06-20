@@ -81,7 +81,7 @@ say "===";
 
      # if I remember right: 
      # hashes and the set-like types (QuantHashes) don't inherit behavior from the same parent
-     # the interface was re-implemented 
+     # a similar interface was re-implemented 
 
 }
 
