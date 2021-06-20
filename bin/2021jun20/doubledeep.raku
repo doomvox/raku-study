@@ -32,8 +32,8 @@ use v6;
     { 
         my $k = @k2[1];
         say $levels{ $k }; # 7
-        # say $monsters{ $k };
-        # Type List does not support associative indexing.
+        say $levels[ $k ];
+
     }
 
 
