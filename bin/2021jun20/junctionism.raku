@@ -10,7 +10,10 @@ if $a == 3|5|42 {
     say "we're in!";
 }
 
-
 if $a == any( 3, 5, 42 ) {
+    say "we're in!";
+}
+
+if $a == 3 || $a == 5 || $a == 42 {
     say "we're in!";
 }
