@@ -20,6 +20,9 @@ if $a == 3 || $a == 5 || $a == 42 {
 
 
 my $weirdzo = $a == 3 | $a == 5 | $a == 42;
-say $weirdzo;
-say $weirdzo.WHAT;
+say $weirdzo;       # any(False, False)
+say $weirdzo.WHAT;  # (Junction)
 
+if $weirdzo {
+ say "hi there";
+}
