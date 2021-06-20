@@ -14,7 +14,7 @@ use v6;
 
     say $monsters;
     say $monsters.WHAT; # (List)
-    say $levels; # (List)
+    say $levels.WHAT; # (List)
 
     my @k1 = $monsters.keys;
     my @k2 = $levels.keys;
