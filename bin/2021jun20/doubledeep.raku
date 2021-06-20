@@ -42,10 +42,14 @@ use v6;
         say $monsters['2']; # ghidora
         say $monsters[2];   # ghidora
 
+        # Q: can we pull a particular pair out of a hash with numeric indexing? A: No.
         say $levels;
         # {ghidora => 10, godzilla => 9, mothera => 7}
-        say $levels[1];
 
+        # say $levels[1];
+        # Index out of range. Is: 1, should be in 0..0
+        ## As I would've expected, "positional" indexing can't work with a hash
+        ## (there's no defined order), but the error message is peculiar.
 
     }
 
