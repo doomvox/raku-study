@@ -31,7 +31,7 @@ sub dostuff {
 
 ## 'ampersand' & 'atsign'
 
-my $arg = defined( $_[0] ) ?  :  ;
+my $arg = defined( $_[0] ) ? $_[0] : 'default';  
 
 
   say $arg;
