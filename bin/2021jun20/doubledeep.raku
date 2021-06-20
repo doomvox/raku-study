@@ -27,7 +27,7 @@ use v6;
 }
 
 {
-    my (h1, %h2) = define_some_structures();
+    my (%h1, %h2) = define_some_structures();
 
     ## ...
 
