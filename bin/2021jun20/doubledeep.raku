@@ -19,7 +19,12 @@ use v6;
     my @k2 = $levels.keys;
     say @k1; say @k2;
 
-    $monsters[ @k1
+    my $k = @k1[1];
+    say $monsters[ $k ];
+
+    $k = @k2[1];
+    say $monsters[ $k ];
+
     
 
 
