@@ -9,7 +9,7 @@
 use v6;
 
 {
-    my $monsters = < godzilla mothera ghidora gammera golem rhodan >;
+    my $monsters = < godzilla mothera ghidora >;
     my $levels   = { 'godzilla' => 9, 'mothera' => 7,  'ghidora' => 10 };
 
     say $monsters.WHAT; # (List)
@@ -18,6 +18,7 @@ use v6;
     my @k1 = $monsters.keys;
     my @k2 = $levels.keys;
 
+    
 
 
 
