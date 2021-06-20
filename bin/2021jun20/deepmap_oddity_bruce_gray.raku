@@ -17,5 +17,4 @@ my @remunged = @level_color.deepmap({ say .raku; $_ ~~ Numeric ?? $_+12 !! $_ })
 # my @remunged = @level_color.deepmap({ say .raku; $_ ~~ Numeric ?? $_+12 !! 'z' });
 
 say '---';
-
 say .raku for @remunged; 
