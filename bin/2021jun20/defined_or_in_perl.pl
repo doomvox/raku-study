@@ -37,5 +37,6 @@ dostuff();  # default
 dostuff( undef );  # default
 
 my @stuff = ('a', 'b', 'c');
-dostuff( @stuff );
-
+dostuff( @stuff ); # a
+@stuff = ();
+dostuff( @stuff ); 
