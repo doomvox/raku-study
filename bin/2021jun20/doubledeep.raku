@@ -9,6 +9,22 @@
 use v6;
 
 {
+    my @a = ( { 'alpha' => 'ralpha',
+                'beta'  => 'max',
+                'gamma' => 'ra',
+                },
+              { 'alpha' => 1,
+                'beta'  => 2,
+                'gamma' => 3,
+                },
+              { 'alpha' => 101,
+                'beta'  => 102,
+                'gamma' => 103,
+                },
+
+}
+
+{
     my (h1, %h2) = define_some_structures();
 
     ## ...
