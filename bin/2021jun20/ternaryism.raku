@@ -15,5 +15,4 @@ my $result2 = do
   } else {
     "second";
   };
-
 say "result2: $result2\n";  # result2: first
