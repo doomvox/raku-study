@@ -8,7 +8,12 @@ sub f($p){ say 'f'; $p / 2 }
 sub g($p){ say 'g'; $p * 2 }
  
 my &composed = &f ∘ &g;
-say composed 2; # OUTPUT: «g␤f␤2␤» 
+say composed 2; 
+# g
+# f
+# 2
+say "---";
+
 
 # equivalent to: 
 say 2.&g.&f;
