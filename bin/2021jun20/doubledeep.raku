@@ -78,6 +78,11 @@ say "===";
 
      # but I dunno where that Associative and Positional comes from:
      say $hash.^mro; # ((Hash) (Map) (Cool) (Any) (Mu))
+
+     # if I remember right: 
+     # hashes and the set-like types (QuantHashes) don't inherit behavior from the same parent
+     # the interface was re-implemented 
+
 }
 
 
