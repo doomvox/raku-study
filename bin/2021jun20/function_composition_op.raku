@@ -16,6 +16,10 @@ say "---";
 # equivalent to: 
 say 2.&g.&f;
 say "---";
+# g
+# f
+# 2
+# ---
 # or to: 
 say f g 2;
 say &composed.arity; #  OUTPUT: «1␤» 
