@@ -42,7 +42,8 @@ use v6;
         say $monsters['2']; # ghidora
         say $monsters[2];   # ghidora
 
-        say $levels[1];
+        say $levels;
+#        say $levels[1];
 
 
     }
