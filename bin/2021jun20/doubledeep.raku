@@ -50,7 +50,6 @@ use v6;
         # Index out of range. Is: 1, should be in 0..0
         ## As I would've expected, "positional" indexing can't work with a hash
         ## (there's no defined order), but the error message is peculiar.
-
     }
 
 
