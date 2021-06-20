@@ -108,7 +108,6 @@ say " new 2015 ", %n1{2015};
 # Implementing the 𝐑𝐚𝐤𝐮™ programming language v6.d.
 # Built on MoarVM version 2020.10.
 
-
 {
     # does deepmap work on arrays?  seems so:
     my @monsters =
