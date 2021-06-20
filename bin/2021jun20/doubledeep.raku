@@ -9,7 +9,7 @@
 use v6;
 
 {
-    my (%g1, %g2) = define_some_structures();
+    my (h1, %h2) = define_some_structures();
 
     ## ...
 
