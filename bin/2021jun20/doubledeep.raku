@@ -8,9 +8,6 @@
 
 use v6;
 
-## I think this should work to preserve class object class
-##  my $newer = $obj.new;
-
 {
     my      %h1 = ( alpha => 1, beta => 2 );
     my      $h2 = { alpha => 1, beta => 2 };
