@@ -10,7 +10,7 @@ use v6;
 
 say "===";
 {
-   ## 0: deepmap is promising
+   ## 0: deepmap seems promising
 
 }
 
