@@ -9,6 +9,10 @@
 use v6;
 
 {
+    ## Point 1: there's an asymmetry between Positional and Associative,
+    ## you can use .keys on either, but using the "keys" requires you know 
+    ## which you're using.
+
     my $monsters = < godzilla mothera ghidora >;
     my $levels   = { 'godzilla' => 9, 'mothera' => 7,  'ghidora' => 10 };
 
