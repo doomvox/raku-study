@@ -31,4 +31,4 @@ if( $condition ) {
     "first";
 } else {
     "second";
-}
+};
