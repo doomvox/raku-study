@@ -19,10 +19,10 @@
 ****** also, what about custom data-container classes? 
 ******* (could be Data::Math approach isn't so relevant?)
 
-*** there's a fat rakudo weekly:
+*** last rakudo weekly had a bunch of stuff:
 https://rakudoweekly.blog/2021/06/14/2021-24-missing/
 
-*** bits from the conference in the clouds (CinC):
+*** bits from the conference in the clouds (CinC -- pronounced "sink"):
 
 **** Rop
 From Bruce Gray : Least favorite meta-operator: Rop
