@@ -21,7 +21,7 @@ if $a == 3 || $a == 5 || $a == 42 {
 ## bitwise is now +|
 
 my $weirdzo = ($a == 3) | ($a == 5) | ($a == 42);
-say $weirdzo;       # any(False, False)
+say $weirdzo;       # any(True, False, False)
 say $weirdzo.WHAT;  # (Junction)
 if $weirdzo {
  say "hi there";  # hi there
