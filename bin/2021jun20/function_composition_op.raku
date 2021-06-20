@@ -24,4 +24,4 @@ say "---";
 say f g 2;
 say &composed.arity; #  # 1
 say &composed.count; #  # 1
-say &composed.of;    #  # Mu 
+say &composed.of;    #  # Mu   
