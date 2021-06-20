@@ -1,5 +1,8 @@
 * meeting notes June 20, 2021
 ** stuff
+*** bills stacko
+*** david, perl utility 
+
 *** Doing the Data::Map job in raku
 **** my lightning talk at the Cinc
 ***** https://www.youtube.com/watch?v=wViVLytlwb8
