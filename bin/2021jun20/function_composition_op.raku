@@ -10,7 +10,12 @@ sub g($p){ print 'g: '; $p * 7 }
 my &composed = &f ∘ &g;
 say composed 2; 
 # g: f: 4.666667
+say f(g(2));
+
 say "A: ---";
+
+
+
 say g(2);
 say f(2);
 say 2.&g;
