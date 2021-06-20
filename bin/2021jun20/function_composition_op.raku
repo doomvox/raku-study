@@ -22,6 +22,6 @@ say "---";
 # ---
 # or to: 
 say f g 2;
-say &composed.arity; #  OUTPUT: «1␤» 
-say &composed.count; #  OUTPUT: «1␤» 
-say &composed.of;    #  OUTPUT: «(Mu)␤» 
+say &composed.arity; #  # 1
+say &composed.count; #  # 1
+say &composed.of;    #  # Mu 
