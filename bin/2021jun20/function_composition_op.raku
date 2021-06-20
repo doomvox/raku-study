@@ -21,7 +21,6 @@ my $ret = f(2);
 say "XXX";
 # f: XXX
 
-                        # 0.666667
 say "ZZZ";
 say "ret: ", $ret;      # f: ret: 0.666667
 say $ret.WHAT;  # (Rat)
