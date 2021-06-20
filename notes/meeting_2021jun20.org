@@ -25,7 +25,8 @@
 ******* (could be Data::Math approach isn't so relevant?)
 
 *** last rakudo weekly had a bunch of stuff:
-https://rakudoweekly.blog/2021/06/14/2021-24-missing/
+**** https://rakudoweekly.blog/2021/06/14/2021-24-missing/
+
 
 *** bits from the conference in the clouds (CinC -- pronounced "sink"/"sync"):
 
