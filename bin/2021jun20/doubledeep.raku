@@ -65,14 +65,16 @@ say "===";
 {
     ## Q: how do you know if you've got something like an Array or a Hash?
 
+     my $hash = { alpha => 1, beta => 2 };
+
      say "what about ~~ Associative?";
-     say so $h2 ~~ Associative;  # True
-     say so $h2 ~~ Positional;   # False
+     say so $hash ~~ Associative;  # True
+     say so $hash ~~ Positional;   # False
      say so $m2 ~~ Associative;  # False
      say so $m2 ~~ Positional;   # True
 
      # but I dunno where that comes from:
-     say $h2.^mro; # ((Hash) (Map) (Cool) (Any) (Mu))
+     say $hash.^mro; # ((Hash) (Map) (Cool) (Any) (Mu))
 }
 
 
