@@ -26,7 +26,7 @@ use Data::Dumper;
 
 
 sub dostuff {
-  my $arg = shift; 
+  my $arg = shift || 'default'; 
   say $arg;
 }
 
