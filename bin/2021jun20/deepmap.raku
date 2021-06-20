@@ -69,15 +69,15 @@ say " new 2015 ", %n1{2015};
     # # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏brown' (indicated by ⏏)
 
 #    my %munged = %monster_data.deepmap({ .Numeric  ?? $_+13 !! $_ });
-    my %munged = %monster_data.deepmap({ $_ ~~ Numeric  ?? $_+13 !! $_ });
+    my %munged = %monster_data.deepmap({ $_ ~~ Numeric  ?? $_+13 !! $_ });   ## THIS FORM GOOD
     say %monster_data{'godzilla'};  # {color => green, level => 9}
     say %munged{'godzilla'};        # {color => green, level => 22}
 
     say %munged{'bambi'};        # {color => brown, level => 0}    .Numeric flawed
                                  # {color => brown, level => 13}   smartmatch Numeric
 
-    my %remunged = %monster_data.deepmap({ $_+12 if .Numeric });
-    say %remunged{'godzilla'};        # {color => 21}  WTF?
+    my %remunged = %monster_data.deepmap({ $_+12 if .Numeric });            ## WEIRDZO BUG
+    say %remunged{'godzilla'};        # {color => 21}  WTF? 
     say "^^^";  
 
     # I *sometimes* see that line as:  {color => 21} 
