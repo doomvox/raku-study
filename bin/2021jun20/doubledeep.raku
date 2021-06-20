@@ -12,9 +12,8 @@ use v6;
     my $monsters = < godzilla mothera ghidora gammera golem rhodan >;
     my $levels   = { 'godzilla' => 9, 'mothera' => 7,  'ghidora' => 10 };
 
-    say $monsters;
     say $monsters.WHAT; # (List)
-    say $levels.WHAT; # (List)
+    say $levels.WHAT;   # (Hash)
 
     my @k1 = $monsters.keys;
     my @k2 = $levels.keys;
