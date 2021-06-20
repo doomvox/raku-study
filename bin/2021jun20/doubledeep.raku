@@ -85,7 +85,7 @@ say "===";
 
      my $set = (1, 2, 3).Set;
      say $set.WHAT;
-     say $set.^mro;
+     say $set.^mro; ((Set) (Any) (Mu))
 
      say "set is Associative: ",  so $hash ~~ Associative;  # set is Associative: True
      say "set is Positional: ",   so $hash ~~ Positional;   # set is Positional: False
