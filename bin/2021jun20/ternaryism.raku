@@ -4,6 +4,7 @@
 
 use v6;
 
+my $condition = True;
 
 my $result = $condition ?? "first" !! "second";
 
