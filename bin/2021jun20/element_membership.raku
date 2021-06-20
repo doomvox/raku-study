@@ -6,6 +6,9 @@ use v6;
 
 # "in"
 
+# ∈ ∋ 
+# (cont) (elem)
+
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 my $value = 'tew';
 
