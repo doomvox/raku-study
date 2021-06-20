@@ -20,7 +20,6 @@ say "I am about to call f(2)!";
 my $ret = f(2);         
 say "XXX";
 # f: XXX
-                        # 0.666667
 say "ZZZ"; # ZZZ
 say "ret: ", $ret;      # f: ret: 0.666667
 say $ret.WHAT;  # (Rat)
