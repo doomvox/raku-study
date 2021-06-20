@@ -41,7 +41,7 @@ say " new 2015 ", %n1{2015};
     my %monster_data =
     ( 'godzilla' =>
       {
-          level => 9,
+          level => '9',
           color => 'green',
       },
       'mothera'  =>
@@ -70,7 +70,8 @@ say " new 2015 ", %n1{2015};
     say %monster_data{'godzilla'};  # {color => green, level => 9}
     say %munged{'godzilla'};        # {color => green, level => 22}
 
-    say %munged{'bambi'};        # {color => brown, level => 0}
+    say %munged{'bambi'};        # {color => brown, level => 0}    .Numeric flawed
+                                 # {color => brown, level => 13}   smartmatch Numeric
 
 exit;
 
