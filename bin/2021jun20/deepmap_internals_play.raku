@@ -39,3 +39,6 @@ say $vals.WHAT;  # (Seq)
 ## Then the returned List is zipped with the keys
 ## and turned into a hash, via "hash".
 
+## This deepmap is a wrapper to ensure "coremap" only
+## needs to deal with Positionals-- at the *top level*.
+
