@@ -23,3 +23,4 @@ my @keys = $monsters.keys;
 
 say @keys;   # [blob wormface godzilla grendel]
 
+$monsters{ @keys };
