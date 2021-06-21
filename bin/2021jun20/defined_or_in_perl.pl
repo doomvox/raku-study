@@ -39,7 +39,7 @@ sub dostuff {   ## all arguments go into @_  in classic perl-style
   ##  checking defined-ness instead of truth accepts a '0' value
   my $arg = defined( $_[0] ) ? $_[0] : 'default';  
 
-  ##  in modern perls, the "defined-or" operator was introduced
+  ##  in modern perls, the "defined-or" operator was introduced to do this
   #  my $arg = shift // 'default';   # is shift defined?  if not, use 'default'
 
   say $arg;
