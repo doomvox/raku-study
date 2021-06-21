@@ -19,5 +19,4 @@ my $monsters = { godzilla => 8,
                  grendel  => 4,
                  wormface => 6,
                  blob     => 5 };
-
 say $monsters.WHAT; # (Hash)
