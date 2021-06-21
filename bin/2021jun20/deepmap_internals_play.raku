@@ -26,3 +26,4 @@ say @keys;   # [blob wormface godzilla grendel]
 my $ret = $monsters{ @keys };
 say $ret;       # (5 8 6 4)
 say $ret.WHAT;  # (List)
+
