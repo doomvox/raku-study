@@ -34,7 +34,6 @@ sub dostuff {   ## all arguments go into @_  in classic perl-styel
 
   my $arg = defined( $_[0] ) ? $_[0] : 'default';  
 
-
   say $arg;
 }
 
