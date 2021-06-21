@@ -27,8 +27,11 @@ use Data::Dumper;
 ## mispeakbales:
 ## 'ampersand' & 'atsign'
 
+## we like the "this || that" construct for argument defaults
+## 
 
-sub dostuff {   ## all arguments go into @_  in classic perl-styel
+sub dostuff {   ## all arguments go into @_  in classic perl-style
+                ## shift acts on @_ by default, like "shift(@_)"
 #  my $arg = shift || 'default'; 
 #  my $arg = shift // 'default';   # is shift defined?  if not, use 'default'
 
