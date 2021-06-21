@@ -42,10 +42,10 @@ dostuff();  # default
 
 dostuff( undef );  # default
 
+dostuff( 0 );      # default with '||' but 0 with '//'
+dostuff( 1 );      # 1
+
 my @stuff = ('a', 'b', 'c');
 dostuff( @stuff ); # a
 @stuff = ();
 dostuff( @stuff ); # default
-
-dostuff( 0 );      # default with '||' but 0 with '//'
-dostuff( 1 );      # 1
