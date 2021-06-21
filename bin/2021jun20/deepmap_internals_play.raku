@@ -21,3 +21,5 @@ my $monsters = { godzilla => 8,
 say $monsters.WHAT; # (Hash)
 my @keys = h.keys;
 
+say @keys;
+say @keys.WHAT;
