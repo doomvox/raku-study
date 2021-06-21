@@ -14,7 +14,7 @@ use v6;
 say "===";
 {
     ## Point 1: there's an asymmetry between Positional and Associative,
-    ## you can use .keys on both, but using the "keys" requires you know 
+    ## you can use .keys on both, but using those "keys" requires you know 
     ## which you're using.
 
     my $monsters = < godzilla mothera ghidora >;
