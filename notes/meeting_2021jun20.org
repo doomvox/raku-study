@@ -1,6 +1,6 @@
 * meeting notes June 20, 2021
 ** stuff
-*** new work on immutable data structures, daniel
+*** jeff, interested in new work on immutable data structures (post by daniel?)
 
 *** bills stackexchange posts
 13:33:09	 From Bill Michels : https://unix.stackexchange.com/a/654184/227738
