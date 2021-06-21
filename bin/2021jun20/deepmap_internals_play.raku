@@ -19,7 +19,7 @@ my $monsters = { godzilla => 8,
                  wormface => 6,
                  blob     => 5 };
 say $monsters.WHAT; # (Hash)
-my @keys = $monstres.keys;
+my @keys = $monsters.keys;
 
 say @keys;
 say @keys.WHAT;
