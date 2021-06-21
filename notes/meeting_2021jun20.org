@@ -119,7 +119,7 @@ https://github.com/tadzik/File-Find
 
 
 *** junctions
-**** basics (we've talked about them before)
+**** basics
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
 https://github.com/doomvox/raku-study/tree/main/notes/junctions
 
