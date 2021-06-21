@@ -7,7 +7,7 @@
 13:35:04	 From Bill Michels : https://unix.stackexchange.com/a/654444/227738
 13:38:35	 From Bill Michels : https://unix.stackexchange.com/a/654467/227738
 
-*** david: perl utility 
+*** david: has a perl utility he wants to talk about
 
 *** Doing the Data::Map job in raku
 **** my lightning talk at the Cinc
