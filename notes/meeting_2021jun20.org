@@ -11,6 +11,7 @@
 
 *** deepmap
 **** basics
+**** looked at where it's defined in the core
 **** turned up bug: a bad condition can mangle the returned structure
 
 *** Doing the Data::Map job in raku
