@@ -1,5 +1,8 @@
 * meeting notes June 20, 2021
 ** stuff
+*** jeff implenting rpn syntax in raku
+**** grammar?
+**** difficulties with prefix operators with more than one argument
 *** jeff: interested in new work on immutable data structures (post by daniel?)
 
 *** bill stackexchange posts:
