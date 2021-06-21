@@ -9,6 +9,11 @@
 
 *** david: has a perl utility he wants to talk about
 
+*** deepmap
+**** basics
+**** turned up bug: a bad condition can mangle the returned structure
+
+
 *** Doing the Data::Map job in raku
 **** my lightning talk at the Cinc
 ***** https://www.youtube.com/watch?v=wViVLytlwb8
