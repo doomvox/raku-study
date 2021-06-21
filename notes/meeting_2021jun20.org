@@ -142,3 +142,5 @@ https://www.nntp.perl.org/group/perl.perl6.users/
 
 ** announcments
 *** next meeting: July 11th
+*** The Oakland Museum is re-opening--
+**** we might try alternating live and online meetings
