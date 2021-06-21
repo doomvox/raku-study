@@ -45,12 +45,12 @@ sub dostuff {   ## all arguments go into @_  in classic perl-style
   say $arg;
 }
 
-dostuff('this!'); # this!
-dostuff();  # default
+dostuff('this!');  # 'this!'
+dostuff();         # 'default'
 
-dostuff( undef );  # default
+dostuff( undef );  # 'default'
 
-dostuff( 0 );      # default with '||' but 0 with '//'
+dostuff( 0 );      # 'default' with '||' but 0 with '//'
 dostuff( 1 );      # 1
 
 my @stuff = ('a', 'b', 'c');
