@@ -54,7 +54,6 @@ Bwahahaha!
 From Brent Laabs : "prefix-" X~ @list ...... whaaaat?  zomg!
 From Bruce Gray : Works with Fat Arrow. my %h = <A B C> X=> 1;
 
-
 **** great naming debates
 ***** man perlstyle: 
 
