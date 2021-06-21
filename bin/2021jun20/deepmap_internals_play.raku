@@ -20,4 +20,4 @@ my $monsters = { godzilla => 8,
                  wormface => 6,
                  blob     => 5 };
 
-say $monsters.WHAT; # (List)
+say $monsters.WHAT; # (Hash)
