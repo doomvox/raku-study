@@ -28,3 +28,5 @@ say $ret;       # (5 8 6 4)
 say $ret.WHAT;  # (List)
 
 my $vals = $monsters.values;
+say $vals;       # (5 8 6 4)
+say $vals.WHAT;  # (List)
