@@ -24,12 +24,14 @@ use strict;
 $|=1;
 use Data::Dumper;
 
-sub dostuff {   ## all arguments go into @_  
+## mispeakbales:
+## 'ampersand' & 'atsign'
+
+
+sub dostuff {   ## all arguments go into @_  in classic perl
 #  my $arg = shift || 'default'; 
 #  my $arg = shift // 'default';   # is shift defined?  if not, use 'default'
 
-  ## confusables:
-  ## 'ampersand' & 'atsign'
 
   my $arg = defined( $_[0] ) ? $_[0] : 'default';  
 
