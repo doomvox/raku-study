@@ -43,7 +43,7 @@
 **** https://rakudoweekly.blog/2021/06/14/2021-24-missing/
 
 
-*** bits from the Conference in the Clouds (CinC -- pronounced "sink"/"sync"):
+*** bits from the Conference in the Clouds (CinC -- hereafter pronounced "sink"/"sync"):
 
 **** Rop
 From Bruce Gray : Least favorite meta-operator: Rop
