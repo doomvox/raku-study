@@ -12,8 +12,6 @@
 *** deepmap
 **** basics
 **** turned up bug: a bad condition can mangle the returned structure
-**** 
-
 
 *** Doing the Data::Map job in raku
 **** my lightning talk at the Cinc
