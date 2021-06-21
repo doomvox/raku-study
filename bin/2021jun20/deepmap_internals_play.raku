@@ -4,6 +4,7 @@
 
 use v6;
 
+## Understanding the code in 
 
 # proto sub deepmap($, $, *%) {*}
 # multi sub deepmap(\op, \obj) {
