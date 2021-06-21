@@ -22,4 +22,4 @@ say $monsters.WHAT; # (Hash)
 my @keys = $monsters.keys;
 
 say @keys;   # [blob wormface godzilla grendel]
-say @keys.WHAT;
+
