@@ -31,3 +31,7 @@ my $vals = $monsters.values;
 say $vals;       # (5 8 6 4)
 say $vals.WHAT;  # (Seq)
 
+## so, the "h{@keys}" construct calls deepmap
+## with a Positional not an Associative, which
+## hands it off to R::I.coremap with the :deep
+## flag set.
