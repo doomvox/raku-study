@@ -5,6 +5,7 @@
 use v6;
 
 ## Understanding the code in 
+##   rakudo/gen/moar/CORE.c.setting
 
 # proto sub deepmap($, $, *%) {*}
 # multi sub deepmap(\op, \obj) {
