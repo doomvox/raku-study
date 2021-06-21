@@ -35,3 +35,7 @@ say $vals.WHAT;  # (Seq)
 ## with a Positional not an Associative, which
 ## hands it off to R::I.coremap with the :deep
 ## flag set.
+
+## Then the returned List is zipped with the keys
+## and turned into a hash, via "hash".
+
