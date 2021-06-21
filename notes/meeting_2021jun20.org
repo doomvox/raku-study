@@ -73,7 +73,6 @@ with 'VAR_NAMES_LIKE_THIS'."
 ***** kebabcase: Fernando Correa, JJ Atria  this-is-kebab
 ****** There's nothing fundamentally interesting about this debate, except the fact that it exists.
 
-
 **** my new band name: "keyboard noise people" 
 
 ** from the last study group
