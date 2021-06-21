@@ -32,7 +32,6 @@ sub dostuff {   ## all arguments go into @_  in classic perl-styel
 #  my $arg = shift || 'default'; 
 #  my $arg = shift // 'default';   # is shift defined?  if not, use 'default'
 
-
   my $arg = defined( $_[0] ) ? $_[0] : 'default';  
 
 
