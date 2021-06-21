@@ -54,7 +54,7 @@ dostuff( 0 );      # 'default' with '||' but 0 with '//'
 dostuff( 1 );      # 1
 
 my @stuff = ('a', 'b', 'c');
-dostuff( @stuff ); # a
+dostuff( @stuff ); # 'a'
 @stuff = ();
-dostuff( @stuff ); # default
+dostuff( @stuff ); # 'default'
 
