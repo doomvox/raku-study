@@ -49,3 +49,4 @@ my @stuff = ('a', 'b', 'c');
 dostuff( @stuff ); # a
 @stuff = ();
 dostuff( @stuff ); # default
+
