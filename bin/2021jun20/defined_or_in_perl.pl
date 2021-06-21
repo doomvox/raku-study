@@ -28,15 +28,19 @@ use Data::Dumper;
 ## 'ampersand' & 'atsign'
 
 ## we like the "this || that" construct for argument defaults
-## 
+## it has problems when there's a false value that's valid, like "0"
 
 sub dostuff {   ## all arguments go into @_  in classic perl-style
                 ## shift acts on @_ by default, like "shift(@_)"
 
-#  my $arg = shift || 'default'; 
-#  my $arg = shift // 'default';   # is shift defined?  if not, use 'default'
+  ## uses 'default' for 0
+  #  my $arg = shift || 'default'; 
 
+  ##  checking defined-ness instead of truth accepts a '0' value
   my $arg = defined( $_[0] ) ? $_[0] : 'default';  
+
+  ##  in modern perls, the "defined-or" operator was introduced
+  #  my $arg = shift // 'default';   # is shift defined?  if not, use 'default'
 
   say $arg;
 }
