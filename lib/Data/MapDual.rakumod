@@ -36,7 +36,6 @@ class Data::MapDual::Internal {
         "d2 type:" ~ $d2.^name   ;
     }
 
-
 }
 
 
