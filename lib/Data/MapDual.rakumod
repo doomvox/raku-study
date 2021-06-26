@@ -1,8 +1,18 @@
 #                                doom@kzsu.stanford.edu
 #                                26 Jun 2021
+module Data::MapDual {
+
+    sub dualdeepmap ($op, $ds1, $ds2 ) is export {
+    }
+ 
+}
+
+
 class Data::MapDual {
 
+
   
+
 
 }
 
