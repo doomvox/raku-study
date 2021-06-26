@@ -15,6 +15,8 @@ module Data::MapDual {
 class Data::MapDual::Internal {
     has $.new_ds is rw;
 
+    ### want to allow undefs for all of the $d1, $d2... :U ?
+
     multi method dualdeepmap( $op, Associative $d1, Associative $d2 ) {
     }
   
