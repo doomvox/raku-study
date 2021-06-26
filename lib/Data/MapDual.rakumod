@@ -4,6 +4,8 @@ module Data::MapDual {
 
     sub dualdeepmap ( $op, $ds1, $ds2 ) is export {
 
+        my $dmd_obj = $Data::MapDual::Internal->new();
+        $dmd_obj->dualdeepmap( $op, $ds1, $ds2 );
 
 
     }
@@ -13,8 +15,7 @@ module Data::MapDual {
 
 class Data::MapDual::Internal {
     has $.new_ds is rw;
-    TWEAK { # default top-level type matches input $ds1/$ds2 types
-    }
+
   
 
 
