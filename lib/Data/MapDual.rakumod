@@ -2,15 +2,19 @@
 #                                26 Jun 2021
 module Data::MapDual {
 
-    sub dualdeepmap ($op, $ds1, $ds2 ) is export {
+    sub dualdeepmap ( $op, $ds1, $ds2 ) is export {
+
+
+
     }
  
 }
 
 
-class Data::MapDual {
-
-
+class Data::MapDual::Internal {
+    has new_ds is rw;
+    TWEAK {
+    }
   
 
 
