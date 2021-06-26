@@ -12,8 +12,8 @@ module Data::MapDual {
 
 
 class Data::MapDual::Internal {
-    has new_ds is rw;
-    TWEAK {
+    has $.new_ds is rw;
+    TWEAK { # default top-level type matches input $ds1/$ds2 types
     }
   
 
