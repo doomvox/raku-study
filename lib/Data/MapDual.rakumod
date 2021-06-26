@@ -6,8 +6,8 @@ module Data::MapDual {
 
         my $dmd_obj = $Data::MapDual::Internal->new();
         $dmd_obj->dualdeepmap( $op, $ds1, $ds2 );
-
-
+        my $new_ds = $dmd_obj.new_ds;
+        return $new_ds;
     }
  
 }
