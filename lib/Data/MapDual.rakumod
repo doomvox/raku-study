@@ -15,7 +15,26 @@ module Data::MapDual {
 class Data::MapDual::Internal {
     has $.new_ds is rw;
 
+    multi method dualdeepmap( $op, Associative $d1, Associative $d2 ) {
+    }
   
+    multi method dualdeepmap( $op, Positional $d1, Positional $d2 ) {
+    }
+
+    multi method dualdeepmap( $op, Str $d1, Str $d2 ) {
+    }
+
+    multi method dualdeepmap( $op, Numeric $d1, Numeric $d2 ) {
+    }
+
+    multi method dualdeepmap( $op,  $d1,  $d2 ) {
+        die "Do not know what to do with the two data inputs. " ~
+        "operation: " ~ $op.gist ~
+        "d1: " ~ $d1.gist ~
+        "d2: " ~ $d2.gist ~
+        "d1 type:" ~ $d1.^name ~  
+        "d2 type:" ~ $d2.^name   ;
+    }
 
 
 }
