@@ -21,6 +21,8 @@ class Data::MapDual::Internal {
     ### want to allow undefs for all of the $d1, $d2... :U ?
 
     multi method dualmap( $op, Associative :$d1, Associative :$d2 ) {
+        ## flatten associative into positional via uniq list of keys
+        ## can then zip return with keys to get associative back?
     }
   
     multi method dualmap( $op, Positional :$d1, Positional :$d2 ) {
