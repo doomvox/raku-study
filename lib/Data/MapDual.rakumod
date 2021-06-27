@@ -69,7 +69,7 @@ class Data::MapDual::Internal {
             $n = $d1 ~ '|' ~ $d2;
         }
 
-        ## put $ns in the current point in the new data structure
+        ## put $n in the current point in the new data structure
         
     }
 
