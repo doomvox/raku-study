@@ -29,6 +29,9 @@ class Data::MapDual::Internal {
         ## loop over both positional args, hand off each pair to dualmap again
         my $lim = max( $d1.elems, $d2.elems );
         for 0 .. $lim -> $i {
+            my $t1 = $d1[ $i ].WHAT;
+            my $t2 = $d2[ $i ].WHAT;
+
             my $n1 = $d1[ $i ] // .$d2[ $i ].WHAT.new;  ## ?
             my $n2 = $d2[ $i ] // .$d1[ $i ].WHAT.new;  ## ?
             self->dualmap( $op, d1 => $n1, d2 => $n2 );
