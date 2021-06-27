@@ -18,8 +18,8 @@ class Data::MapDual::Internal {
     has $.new_ds is rw;
     has $.cursor is rw;
 
-    method qualify_pair ( $e1, $e2 ) {
-        ## breakout as "qualify_pair"?
+    method qualify_dual ( $e1, $e2 ) {
+        ## breakout as "qualify_dual"?
         my $t1 = $e1.WHAT;
         my $t2 = $e2.WHAT;
         my $n1 = $e1 // .$t2.new;  ## ?
@@ -38,7 +38,7 @@ class Data::MapDual::Internal {
         ## flatten associative into positional via uniq list of keys
         my @keys = unique | $d1.keys, | $d2.keys;
         for @keys -> $k {
-            my ( $n1, $n2 ) = self->qualify_pair( $d1{ $k }, $d2{ $k });
+            my ( $n1, $n2 ) = self->qualify_dual( $d1{ $k }, $d2{ $k });
             my $val = self->dualmap( $op, d1 => $n1, d2 => $n2 );
             $nv{ $k } = $val;
         }
@@ -50,7 +50,7 @@ class Data::MapDual::Internal {
         ## loop over both positional args, hand off each pair to dualmap again
         my $lim = max( $d1.elems, $d2.elems );
         for 0 .. $lim -> $i {
-            my ( $n1, $n2 ) = self->qualify_pair($d1[ $i ], $d2[ $i ]);
+            my ( $n1, $n2 ) = self->qualify_dual($d1[ $i ], $d2[ $i ]);
             my $element = self->dualmap( $op, d1 => $n1, d2 => $n2 );
             push $nv, $element;
         }
