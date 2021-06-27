@@ -14,6 +14,7 @@ module Data::MapDual {
 
 class Data::MapDual::Internal {
     has $.new_ds is rw;
+    has $.ds_cursor is rw;
 
     ### want to allow undefs for all of the $d1, $d2... :U ?
 
@@ -30,7 +31,7 @@ class Data::MapDual::Internal {
     }
 
     multi method dualdeepmap( $op,  $d1,  $d2 ) {
-        die "Do not know what to do with the two data inputs. " ~
+        die "Don't know what to do with the two data inputs. " ~
         "operation: " ~ $op.gist ~
         "d1: " ~ $d1.gist ~
         "d2: " ~ $d2.gist ~
