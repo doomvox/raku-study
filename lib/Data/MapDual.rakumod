@@ -36,18 +36,6 @@ class Data::MapDual::Internal {
         return $nv;
     }
 
-
-
-    method qualify_pair ( $e1, $e2 ) {
-        ## breakout as "qualify_pair"?
-        my $t1 = $e1.WHAT;
-        my $t2 = $e2.WHAT;
-        my $n1 = $e1 // .$t2.new;  ## ?
-        my $n2 = $e2 // .$t1.new; 
-        return ($n1, $n2);
-    }        
-
-  
     multi method dualmap( $op, Positional :$d1, Positional :$d2 ) {
         my $nv;
         ## loop over both positional args, hand off each pair to dualmap again
