@@ -53,7 +53,7 @@ class Data::MapDual::Internal {
         ## loop over both positional args, hand off each pair to dualmap again
         my $lim = max( $d1.elems, $d2.elems );
         for 0 .. $lim -> $i {
-            my( $n1, $n2 ) = self->qualify_pair($d1[ $i ], $d2[ $i ]);
+            my ( $n1, $n2 ) = self->qualify_pair($d1[ $i ], $d2[ $i ]);
             my $element = self->dualmap( $op, d1 => $n1, d2 => $n2 );
             push $nv, $element;
         }
