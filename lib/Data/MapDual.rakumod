@@ -50,7 +50,8 @@ class Data::MapDual::Internal {
             $ns = $d1 ~ '|' ~ $d2;
         }
 
-        return $ns;
+        ## put $ns in the current point in the new data structure
+        
     }
 
     multi method dualmap( $op, Numeric :$d1, Numeric :$d2 ) {
