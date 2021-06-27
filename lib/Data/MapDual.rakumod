@@ -43,6 +43,8 @@ class Data::MapDual::Internal {
         ## string handler
         # my $n = $d1 eq $d2 ?? $d1 !! $d1 ~ '|' ~ $d2;
 
+        my $status = $n > $cutoff ?? 'toobig' !! 'okay';
+
         my $n;
         if ($d1 eq $d2 ) {
             $n = $d1;
