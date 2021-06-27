@@ -29,6 +29,7 @@ class Data::MapDual::Internal {
         ## loop over both positional args, hand off each pair to dualmap again
         my $lim = max( $d1.elems, $d2.elems );
         for 0 .. $lim -> $i {
+            ## breakout as "qualify_pair"?
             my $t1 = $d1[ $i ].WHAT;
             my $t2 = $d2[ $i ].WHAT;
             my $n1 = $d1[ $i ] // .$t2.new;  ## ?
