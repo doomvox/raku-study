@@ -19,7 +19,6 @@ class Data::MapDual::Internal {
     has $.cursor is rw;
 
     method qualify_dual( $e1, $e2 ) {
-        ## breakout as "qualify_dual"?
         my $t1 = $e1.WHAT;
         my $t2 = $e2.WHAT;
         my $n1 = $e1 // .$t2.new;  ## ?
