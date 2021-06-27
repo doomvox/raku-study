@@ -31,6 +31,7 @@ class Data::MapDual::Internal {
     ## make up your mind about tracking the path ("cursor") and revising the "new_ds".
     ## each dualmap should return a new_value.
     ## the context where it's called knows where it should be stashed
+    ## tracking the "cursor" unnecessary?
 
     multi method dualmap( $op, Associative :$d1, Associative :$d2 ) {
         my $nv;
