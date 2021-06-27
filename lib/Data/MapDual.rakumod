@@ -32,8 +32,8 @@ class Data::MapDual::Internal {
             my $t1 = $d1[ $i ].WHAT;
             my $t2 = $d2[ $i ].WHAT;
 
-            my $n1 = $d1[ $i ] // .$d2[ $i ].WHAT.new;  ## ?
-            my $n2 = $d2[ $i ] // .$d1[ $i ].WHAT.new;  ## ?
+            my $n1 = $d1[ $i ] // .$t2.new;
+            my $n2 = $d2[ $i ] // .$t1.new; 
             self->dualmap( $op, d1 => $n1, d2 => $n2 );
         }
 
