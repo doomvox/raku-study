@@ -50,7 +50,7 @@ class Data::MapDual::Internal {
             $ns = $d1 ~ '|' ~ $d2;
         }
 
-
+        return $ns;
     }
 
     multi method dualmap( $op, Numeric :$d1, Numeric :$d2 ) {
