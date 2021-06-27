@@ -32,6 +32,7 @@ class Data::MapDual::Internal {
     ## each dualmap should return a new_value.
     ## the context where it's called knows where it should be stashed
     ## tracking the "cursor" unnecessary?
+    ## maybe pass the current point as fourth argument
 
     multi method dualmap( $op, Associative :$d1, Associative :$d2 ) {
         my $nv;
