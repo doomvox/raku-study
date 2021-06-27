@@ -18,7 +18,7 @@ class Data::MapDual::Internal {
     has $.new_ds is rw;
     has $.cursor is rw;
 
-    ### want to allow undefs for all of the $d1, $d2... :U ?  Howabout named args (def. works)
+    ### want to allow undefs for all of the $d1, $d2... :U ?  Howabout named args (def. works).
 
     multi method dualmap( $op, Associative :$d1, Associative :$d2 ) {
         ## flatten associative into positional via uniq list of keys
