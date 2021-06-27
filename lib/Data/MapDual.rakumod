@@ -30,12 +30,9 @@ class Data::MapDual::Internal {
         my @keys = unique | $d1.keys, | $d2.keys;
         for @keys -> $k {
             my ( $n1, $n2 ) = self->qualify_pair( $d1{ $k }, $d2{ $k });
-            self->dualmap( $op, d1 => $n1, d2 => $n2 );
-
+            my $val = self->dualmap( $op, d1 => $n1, d2 => $n2 );
+            $nv{ $k } = $val;
         }
-
-        ## can then zip return with keys to get associative back?
-        my $nv = hash @keys Z self->dualmap( $op, d1 => $d1, d2 => $d2 );
         return $nv;
     }
   
