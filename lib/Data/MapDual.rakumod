@@ -26,6 +26,7 @@ class Data::MapDual::Internal {
 
     multi method dualmap( $op, Associative :$d1, Associative :$d2 ) {
         my $nv;
+        my @keys = uniq $d1.keys, $d2.keys; ## check
         ## flatten associative into positional via uniq list of keys
         ## can then zip return with keys to get associative back?
         return $nv;
