@@ -33,6 +33,7 @@ class Data::MapDual::Internal {
     ## the context where it's called knows where it should be stashed
     ## tracking the "cursor" unnecessary?
     ## maybe pass the current point as fourth argument
+    ## binding operator to create an alias to the current point
 
     multi method dualmap( $op, Associative :$d1, Associative :$d2 ) {
         my $nv;
