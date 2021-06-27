@@ -20,16 +20,16 @@ class Data::MapDual::Internal {
 
     ### want to allow undefs for all of the $d1, $d2... :U ?
 
-    multi method dualmap( $op, Associative $d1, Associative $d2 ) {
+    multi method dualmap( $op, Associative :$d1, Associative :$d2 ) {
     }
   
-    multi method dualmap( $op, Positional $d1, Positional $d2 ) {
+    multi method dualmap( $op, Positional :$d1, Positional :$d2 ) {
     }
 
-    multi method dualmap( $op, Str $d1, Str $d2 ) {
+    multi method dualmap( $op, Str :$d1, Str :$d2 ) {
     }
 
-    multi method dualmap( $op, Numeric $d1, Numeric $d2 ) {
+    multi method dualmap( $op, Numeric :$d1, Numeric :$d2 ) {
     }
 
     multi method dualmap( $op,  $d1,  $d2 ) {
