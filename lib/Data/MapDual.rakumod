@@ -35,17 +35,25 @@ class Data::MapDual::Internal {
         }
         return $nv;
     }
+
+
+
+    method qualify_pair ( $e1, $e2 ) {
+        ## breakout as "qualify_pair"?
+        my $t1 = $e1.WHAT;
+        my $t2 = $e2.WHAT;
+        my $n1 = $e1 // .$t2.new;  ## ?
+        my $n2 = $e2 // .$t1.new; 
+
+    }        
+
   
     multi method dualmap( $op, Positional :$d1, Positional :$d2 ) {
         my $nv;
         ## loop over both positional args, hand off each pair to dualmap again
         my $lim = max( $d1.elems, $d2.elems );
         for 0 .. $lim -> $i {
-            ## breakout as "qualify_pair"?
-            my $t1 = $d1[ $i ].WHAT;
-            my $t2 = $d2[ $i ].WHAT;
-            my $n1 = $d1[ $i ] // .$t2.new;  ## ?
-            my $n2 = $d2[ $i ] // .$t1.new; 
+            my( $n1, $n2 ) = self->qualify_pair($d1[ $i ], $d2[ $i ]);
             my $element = self->dualmap( $op, d1 => $n1, d2 => $n2 );
             push $nv, $element;
         }
