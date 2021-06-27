@@ -30,6 +30,7 @@ class Data::MapDual::Internal {
     }
   
     multi method dualmap( $op, Positional :$d1, Positional :$d2 ) {
+        my $nv;
         ## loop over both positional args, hand off each pair to dualmap again
         my $lim = max( $d1.elems, $d2.elems );
         for 0 .. $lim -> $i {
@@ -38,7 +39,8 @@ class Data::MapDual::Internal {
             my $t2 = $d2[ $i ].WHAT;
             my $n1 = $d1[ $i ] // .$t2.new;  ## ?
             my $n2 = $d2[ $i ] // .$t1.new; 
-            self->dualmap( $op, d1 => $n1, d2 => $n2 );
+            my $element = self->dualmap( $op, d1 => $n1, d2 => $n2 );
+            push $nv, $element;
         }
 
     }
