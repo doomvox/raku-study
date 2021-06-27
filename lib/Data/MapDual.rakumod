@@ -41,7 +41,15 @@ class Data::MapDual::Internal {
 
     multi method dualmap( $op, Str :$d1, Str :$d2 ) {
         ## string handler
-        my $ns = $d1 eq $d2 ?? $d1 !! $d1 ~ '|' ~ $d2
+        my $ns = $d1 eq $d2 ?? $d1 !! $d1 ~ '|' ~ $d2;
+
+        my $ns;
+        if ($d1 eq $d2 ) {
+            $ns = $d1;
+        } else {
+            $ns = $d1 ~ '|' ~ $d2;
+        }
+
 
     }
 
