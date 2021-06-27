@@ -55,6 +55,7 @@ class Data::MapDual::Internal {
             my $element = self->dualmap( $op, d1 => $n1, d2 => $n2 );
             push $nv, $element;
         }
+        ## stash?
         return $nv;
     }
 
