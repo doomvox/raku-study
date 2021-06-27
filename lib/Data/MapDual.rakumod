@@ -18,6 +18,15 @@ class Data::MapDual::Internal {
     has $.new_ds is rw;
     has $.cursor is rw;
 
+    method qualify_pair ( $e1, $e2 ) {
+        ## breakout as "qualify_pair"?
+        my $t1 = $e1.WHAT;
+        my $t2 = $e2.WHAT;
+        my $n1 = $e1 // .$t2.new;  ## ?
+        my $n2 = $e2 // .$t1.new; 
+        return ($n1, $n2);
+    }        
+
     ### want to allow undefs for all of the $d1, $d2... :U ?  Howabout named args (def. works).
 
     ## make up your mind about tracking the path ("cursor") and revising the "new_ds".
