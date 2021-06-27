@@ -41,21 +41,32 @@ class Data::MapDual::Internal {
 
     multi method dualmap( $op, Str :$d1, Str :$d2 ) {
         ## string handler
-        my $ns = $d1 eq $d2 ?? $d1 !! $d1 ~ '|' ~ $d2;
+        # my $n = $d1 eq $d2 ?? $d1 !! $d1 ~ '|' ~ $d2;
 
-        my $ns;
+        my $n;
         if ($d1 eq $d2 ) {
-            $ns = $d1;
+            $n = $d1;
         } else {
-            $ns = $d1 ~ '|' ~ $d2;
+            $n = $d1 ~ '|' ~ $d2;
         }
 
         ## put $ns in the current point in the new data structure
         
     }
 
-    multi method dualmap( $op, Numeric :$d1, Numeric :$d2 ) {
+    multi method dualmap( Str $op, Numeric :$d1, Numeric :$d2 ) {
+        my $n;
+        given $op {
+            when '+' { 
+
+            }
+        
     }
+
+    multi method dualmap( Code $op, Numeric :$d1, Numeric :$d2 ) {
+    }
+
+
 
     multi method dualmap( $op,  :$d1,  :$d2 ) {
         die "Don't know what to do with the two data inputs. " ~
