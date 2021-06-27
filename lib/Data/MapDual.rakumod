@@ -77,8 +77,19 @@ class Data::MapDual::Internal {
         my $n;
         given $op {
             when '+' { 
-                
+                $n = $d1 + $d2
             }
+            when '-' { 
+                $n = $d1 - $d2
+            }
+            when '*' { 
+                $n = $d1 * $d2
+            }
+            when '/' { 
+                $n = $d1 / $d2
+            }
+
+
         
     }
 
