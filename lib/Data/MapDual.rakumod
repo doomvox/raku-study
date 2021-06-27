@@ -88,9 +88,12 @@ class Data::MapDual::Internal {
             when '/' { 
                 $n = $d1 / $d2
             }
-
-
-        
+            default {
+                die "Don't understand operation: $op";
+            }
+        }
+        ## stash?
+        return $n;
     }
 
     multi method dualmap( Code $op, Numeric :$d1, Numeric :$d2 ) {
