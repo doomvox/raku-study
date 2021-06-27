@@ -3,7 +3,7 @@
 module Data::MapDual {
 
     sub dualmap ( $op, $ds1, $ds2 ) is export {
-        ## Maybe: make sure both d21 and ds2 are defined at *this* level
+        ## Maybe: make sure both $d21 and $ds2 are defined at *this* level
         ## then internally allow them to be undef (easier with named args)
         my $dmd_obj = $Data::MapDual::Internal->new();
         $dmd_obj->dualmap( $op, d1 => $ds1, d2 => $ds2 );
