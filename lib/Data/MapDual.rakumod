@@ -99,6 +99,8 @@ class Data::MapDual::Internal {
     ## the Code variation of numeric operations.  use $^a $^b
     multi method dualmap( Code $op, Numeric :$d1, Numeric :$d2 ) {
         my $n = $op($d1, $d2); ## ?
+        ## stash?
+        return $n;
     }
 
 
