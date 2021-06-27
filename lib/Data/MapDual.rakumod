@@ -21,7 +21,7 @@ class Data::MapDual::Internal {
     method qualify_dual( $e1, $e2 ) {
         my $t1 = $e1.WHAT;
         my $t2 = $e2.WHAT;
-        my $n1 = $e1 // .$t2.new;  ## ?
+        my $n1 = $e1 // .$t2.new;  ## ?   Actually, $e2.new probably works as well.
         my $n2 = $e2 // .$t1.new; 
         return ($n1, $n2);
     }        
