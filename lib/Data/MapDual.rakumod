@@ -2,9 +2,9 @@
 #                                26 Jun 2021
 module Data::MapDual {
 
-    sub dualdeepmap ( $op, $ds1, $ds2 ) is export {
+    sub dualmap ( $op, $ds1, $ds2 ) is export {
         my $dmd_obj = $Data::MapDual::Internal->new();
-        $dmd_obj->dualdeepmap( $op, $ds1, $ds2 );
+        $dmd_obj->dualmap( $op, $ds1, $ds2 );
         my $new_ds = $dmd_obj.new_ds;
         return $new_ds;
     }
@@ -18,19 +18,19 @@ class Data::MapDual::Internal {
 
     ### want to allow undefs for all of the $d1, $d2... :U ?
 
-    multi method dualdeepmap( $op, Associative $d1, Associative $d2 ) {
+    multi method dualmap( $op, Associative $d1, Associative $d2 ) {
     }
   
-    multi method dualdeepmap( $op, Positional $d1, Positional $d2 ) {
+    multi method dualmap( $op, Positional $d1, Positional $d2 ) {
     }
 
-    multi method dualdeepmap( $op, Str $d1, Str $d2 ) {
+    multi method dualmap( $op, Str $d1, Str $d2 ) {
     }
 
-    multi method dualdeepmap( $op, Numeric $d1, Numeric $d2 ) {
+    multi method dualmap( $op, Numeric $d1, Numeric $d2 ) {
     }
 
-    multi method dualdeepmap( $op,  $d1,  $d2 ) {
+    multi method dualmap( $op,  $d1,  $d2 ) {
         die "Don't know what to do with the two data inputs. " ~
         "operation: " ~ $op.gist ~
         "d1: " ~ $d1.gist ~
