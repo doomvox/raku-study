@@ -6,7 +6,7 @@ module Data::MapDual {
         ## Maybe: make sure both d21 and ds2 are defined at *this* level
         ## then *internally* allow them to be undef.
         my $dmd_obj = $Data::MapDual::Internal->new();
-        $dmd_obj->dualmap( $op, $ds1, $ds2 );
+        $dmd_obj->dualmap( $op, d1 => $ds1, d2 => $ds2 );
         my $new_ds = $dmd_obj.new_ds;
         return $new_ds;
     }
@@ -32,7 +32,7 @@ class Data::MapDual::Internal {
     multi method dualmap( $op, Numeric :$d1, Numeric :$d2 ) {
     }
 
-    multi method dualmap( $op,  $d1,  $d2 ) {
+    multi method dualmap( $op,  :$d1,  :$d2 ) {
         die "Don't know what to do with the two data inputs. " ~
         "operation: " ~ $op.gist ~
         "d1: " ~ $d1.gist ~
