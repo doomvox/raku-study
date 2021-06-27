@@ -26,7 +26,7 @@ class Data::MapDual::Internal {
         return ($n1, $n2);
     }        
 
-    ### dualmap: allow undefs for $d1, $d2... Using named args (defintely works).
+    ### dualmap: allow undefs for $d1, $d2... Using named args (defintely works)
 
     ## make up your mind about tracking the path ("cursor") and revising the "new_ds".
     ## each dualmap should return a new_value.
