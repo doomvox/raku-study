@@ -44,7 +44,7 @@ class Data::MapDual::Internal {
         my $t2 = $e2.WHAT;
         my $n1 = $e1 // .$t2.new;  ## ?
         my $n2 = $e2 // .$t1.new; 
-
+        return ($n1, $n2);
     }        
 
   
