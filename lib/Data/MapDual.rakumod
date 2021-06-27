@@ -14,7 +14,7 @@ module Data::MapDual {
 
 class Data::MapDual::Internal {
     has $.new_ds is rw;
-    has $.ds_cursor is rw;
+    has $.cursor is rw;
 
     ### want to allow undefs for all of the $d1, $d2... :U ?
 
