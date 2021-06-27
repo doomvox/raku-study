@@ -71,7 +71,8 @@ class Data::MapDual::Internal {
         }
 
         ## put $n in the current point in the new data structure
-        
+        ## stash?
+        return $n;
     }
 
     multi method dualmap( Str $op, Numeric :$d1, Numeric :$d2 ) {
