@@ -42,7 +42,7 @@ class Data::MapDual::Internal {
             my $element = self->dualmap( $op, d1 => $n1, d2 => $n2 );
             push $nv, $element;
         }
-
+        return $nv;
     }
 
     multi method dualmap( $op, Str :$d1, Str :$d2 ) {
