@@ -239,7 +239,7 @@ use Test;
    $ds{2015} = {};
    say $ds;  # {2015 => {}}
    say $alias; # {}
-   $alias = ( es => 33.3 );
+   $alias = { es => 33.3 };
    say $ds;
    # {2015 => es => 33.3}
 
