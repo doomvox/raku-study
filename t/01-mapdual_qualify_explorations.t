@@ -2,6 +2,10 @@ use v6;
 use Test;
 
 # use Data::MapDual;
+## Getting some familiarity with messing with data structures in raku (no tests here yet)
+## Things works exactly as I expected... 
+## except in my early attempts at modifying a structure via an alias (created via :=)
+## I kept getting immutable errors that are still mysterious too me.
 
 {
    # HoH:  year -> month -> country -> value
