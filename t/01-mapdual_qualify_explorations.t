@@ -123,10 +123,23 @@ use Test;
 #     say $nothing_al;
 
     my $nope_al := %nothing{'nope'};
-    say $nope_al;
+    say $nope_al;  # 0
     $nope_al = -1;
     say %nothing;
+    # {bupkes => 0, nada => 0, nope => -1}
+
+}
+
+{ my %h1 = ( whun => 1,
+             tew  => 2,
+             );
+
+  my %h2 = { whun => 1,
+             tew  => 2,
+             };
 
 
-    }
+  my $h3 = { whun => 1,
+             tew  => 2,
+             };
 
