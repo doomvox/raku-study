@@ -222,6 +222,7 @@ use Test;
 
 
 {
+   # Could it be that the act of creating the alias makes something immutable (no).
    say "===";
    my $ds = { 2015 => {1 => { de => 77.00,
                               fr => 191.25, },
