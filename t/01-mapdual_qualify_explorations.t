@@ -181,3 +181,14 @@ use Test;
 
 ## I understand this nought.
 ## Something about the deep structure makes something immutable?
+
+
+{
+   # HoH:  year -> month -> country -> value
+   my ( %grinch );
+   %grinch = ( 2015 => {1 => { de => 77.00,
+                                fr => 191.25, },
+                       2 => { de => 39.00,
+                                fr => 555.50, },
+
+}
