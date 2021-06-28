@@ -103,7 +103,8 @@ use Test;
     ## and that much works.
 
     $fried = {};
-    say $fried{'eggs'}; 
+    say $fried{'eggs'};  # (Any)
+    say $fried;
 
 
     }
