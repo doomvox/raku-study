@@ -116,7 +116,7 @@ use Test;
     say %nothing; # {bupkes => 0, nada => 0, nope => 0}
     my $nothing_al := %nothing;
     $nothing_al = {};
-
+    say $nothing_al;
 
 
     }
