@@ -86,8 +86,9 @@ use Test;
              $tb = $ta;
              $n = $ta;
         } elsif $b && not $a {
-            !! $b.WHAT;
-
+             $tb = $b.WHAT;
+             $ta = $tb;
+             $n = $tb;
         } else {
             my $tb = $b ?? $b.WHAT !! $a.WHAT;
 
