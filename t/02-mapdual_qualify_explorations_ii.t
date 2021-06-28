@@ -137,6 +137,11 @@ use Test;
                       },
             };
 
-### ?
+
+    ## write code that does
+    ## (1) recursive descent of one (without deepmap)
+    ## (2) recursive descent of two
+    ## (3) runs qualify as it descends
+    ## (4) creates a third structure as it descends
 
 }
