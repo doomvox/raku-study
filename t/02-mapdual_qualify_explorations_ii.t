@@ -97,7 +97,7 @@ use Test;
 
     my ($ta, $tb, $n);
     ($ta, $tb, $n) 
-       = q( a=>$a1, b=>$a2 );
+       = q( a => $a1, b => $a2 );
     say $ta;
     say $tb;
     say $n;
