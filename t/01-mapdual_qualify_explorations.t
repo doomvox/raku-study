@@ -51,4 +51,11 @@ use Data::MapDual;
               comment => 'dummy numbers',
              );
 
+
+   my $thing = %gross{2016};
+   $thing.WHAT;
+
+
+
+
 }
