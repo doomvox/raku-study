@@ -89,4 +89,19 @@ use Test;
     say $a;  # 3
     $b = 6;
     say $a;  # 6
+    ## that much works.
+
+    my $fried = { eggs => 2,
+                  potatoes => 3,
+                  ham  => 0.25,
+                };
+
+    say $fried{'eggs'};
+    my $al := $fried{'eggs'};
+    $al = 3;
+    say $fried{'eggs'};    
+
+
+
     }
+
