@@ -184,7 +184,6 @@ use Test;
 
 
 {
-   # HoH:  year -> month -> country -> value
    my %grinch = ( 2015 => {1 => { de => 77.00,
                                fr => 191.25, },
                         2 => { de => 39.00,
