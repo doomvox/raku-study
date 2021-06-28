@@ -70,5 +70,7 @@ use Test;
    say $thing_alias{2}{'de'};  # 935
    $thing_alias{2}{'de'} = 123.32;
    say $gross{2016}{2}{'de'};  # 123.32
+   ## okay, with hashes declared with outer {} (not parens)
+   ## and assigned to a $var, things work as expected.
 }
 
