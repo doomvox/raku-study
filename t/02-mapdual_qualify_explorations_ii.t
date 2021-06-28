@@ -58,10 +58,10 @@ use Test;
              );
 
 
-   my $thing = %gross{2016};
-   my $thing_al :=  %gross{2016};
-   say $thing.WHAT;    # (Hash)
-   say $thing_al.WHAT; # (Hash)
+   my $thing = $gross{2016};
+   my $thing_alias :=  $gross{2016};
+   say $thing;
+   say $thing_alias;
 
    my $type = $thing.WHAT;
    say $type;           # (Hash)
