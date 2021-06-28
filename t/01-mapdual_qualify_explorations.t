@@ -7,6 +7,8 @@ use Test;
 ## except in my early attempts at modifying a structure via an alias (created via :=)
 ## I kept getting immutable errors that are still mysterious too me.
 
+## plunge ahead, assuming it's going to work.  maybe you'll get more data...
+
 {
    # HoH:  year -> month -> country -> value
    my ( %gross, %costs );
