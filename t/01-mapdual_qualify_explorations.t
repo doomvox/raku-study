@@ -176,7 +176,7 @@ use Test;
           );
   say "--- 5 ---";
   say %h5;
-  my %h5 = ();
+  %h5 = ();
   say %h5;
 
 }
