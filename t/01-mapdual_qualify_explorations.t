@@ -53,7 +53,9 @@ use Data::MapDual;
 
 
    my $thing = %gross{2016};
+   my $thing_al :=  %gross{2016};
    $thing.WHAT;
+   $thing_al.WHAT;
 
 
 
