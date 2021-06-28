@@ -72,5 +72,7 @@ use Test;
    say $gross{2016}{2}{'de'};  # 123.32
    ## okay, with hashes declared with outer {} (not parens)
    ## and assigned to a $var, things work as expected.
+
+   ## (the outer parens were creating a list, perhaps, which was immutable?)
 }
 
