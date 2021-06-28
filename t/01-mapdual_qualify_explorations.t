@@ -167,6 +167,7 @@ use Test;
 }
 
 {
+    # yet another try, also not immutable
     my (%h5);
     %h5 = ( whun => 1,
             tew  => 2,
