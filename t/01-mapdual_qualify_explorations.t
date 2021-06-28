@@ -54,10 +54,15 @@ use Data::MapDual;
 
    my $thing = %gross{2016};
    my $thing_al :=  %gross{2016};
-   $thing.WHAT;
-   $thing_al.WHAT;
+   say $thing.WHAT;
+   say $thing_al.WHAT;
 
+   my $type = $thing.WHAT;
+   say $type;
+   my $x1 = $type.new;
+   my $x2 = $thing.new;
 
-
+   say $x1.WHAT;
+   say $x2.WHAT;
 
 }
