@@ -103,7 +103,6 @@ use Test;
     say $n;  # (Hash)
 }
 
-
 {
    # got holes
    # HoH:  year -> month -> country -> value
