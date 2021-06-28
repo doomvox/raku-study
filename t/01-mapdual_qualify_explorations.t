@@ -115,12 +115,15 @@ use Test;
     my %nothing  =  (nada=>0, nope=>0, bupkes=>0);
     say %nothing; # {bupkes => 0, nada => 0, nope => 0}
     my $nothing_al := %nothing;
-    $nothing_al = {};
-    # Cannot assign to an immutable value
-    #  in block <unit> at /home/doom/End/Cave/Perl6/Wall/raku-study/t/01-mapdual_qualify_explorations.t line 118
 
-    say $nothing_al;
+#     $nothing_al = {};
+#     # Cannot assign to an immutable value
+#     #  in block <unit> at /home/doom/End/Cave/Perl6/Wall/raku-study/t/01-mapdual_qualify_explorations.t line 118
 
+#     say $nothing_al;
+
+
+    my $nope_al := %nothing{'nope'};
 
     }
 
