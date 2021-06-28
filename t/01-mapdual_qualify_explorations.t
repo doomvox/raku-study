@@ -96,11 +96,14 @@ use Test;
                   ham  => 0.25,
                 };
 
-    say $fried{'eggs'};
+    say $fried{'eggs'}; # 2
     my $al := $fried{'eggs'};
     $al = 3;
-    say $fried{'eggs'};    
+    say $fried{'eggs'}; # 3
+    ## and that much works.
 
+    $fried = {};
+    say $fried{'eggs'}; 
 
 
     }
