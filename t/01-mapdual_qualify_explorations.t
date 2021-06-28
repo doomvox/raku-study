@@ -1,7 +1,7 @@
 use v6;
 use Test;
 
-# use Data::MapDual;
+use Data::MapDual;
 
 {
    # HoH:  year -> month -> country -> value
