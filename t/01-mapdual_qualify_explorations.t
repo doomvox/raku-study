@@ -106,9 +106,9 @@ use Test;
 #     say $fried{'eggs'};  # (Any)
 #     say $fried; # {}
 
-    
     my $f_al := $fried;
-
+    $f_al = {};
+    say $fried; 
 
 
     }
