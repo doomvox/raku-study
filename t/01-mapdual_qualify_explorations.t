@@ -130,9 +130,10 @@ use Test;
 
 }
 
-{ my %h1 = ( whun => 1,
+{ # various hash declaration syntaxes, none inadvertantly make it immutable
+  my %h1 = ( whun => 1,
              tew  => 2,
-             );
+            );
 
   my %h2 = { whun => 1,
              tew  => 2,
