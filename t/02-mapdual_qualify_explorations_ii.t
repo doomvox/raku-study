@@ -75,8 +75,36 @@ use Test;
    ## (the outer parens were creating a list, perhaps, which was immutable?)
 }
 
+{
+    my $a1 = { alpha => 1 };
+    my $a2 = Nil;
+    
+    sub q ( :$a, :$b ) {
+        if $a && not $b {
+            my $ta = $a.WHAT
+
+        } elsif $b && not $a {
+            !! $b.WHAT;
+
+        } else {
+
+        my $tb = $b ?? $b.WHAT !! $a.WHAT;
+
+        }
+    }
+
+
+
+        return ($ta, $tb, $n);
+    }
+
+
+
+}
+
 
 {
+   # got holes
    # HoH:  year -> month -> country -> value
     my $gross =
              { 2015 => {1 => { de => 77.00,
@@ -109,10 +137,6 @@ use Test;
                       },
             };
 
-
-
-
-
-
+### ?
 
 }
