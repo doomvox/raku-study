@@ -75,6 +75,6 @@ use Test;
 
    ## hm? 
 
-   say $thing{2};
+   say $thing{2}; # {de => 935, fr => 16.39}
 
 }
