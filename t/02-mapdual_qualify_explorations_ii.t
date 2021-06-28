@@ -78,7 +78,8 @@ use Test;
 
 {
    # HoH:  year -> month -> country -> value
-   my $gross = { 2015 => {1 => { de => 77.00,
+    my $gross =
+             { 2015 => {1 => { de => 77.00,
                                 fr => 191.25, },
                        2 => { de => 39.00,
                                 fr => 555.50, },
@@ -100,7 +101,8 @@ use Test;
               source  => 'doomvox',
               comment => 'fictional numbers',
              };
-   my $costs = { 2015 => {1 => { de => 72.00,
+    my $costs =
+            { 2015 => {1 => { de => 72.00,
                                 fr => 72.27, },
                        2 => { de => 191.70,
                                 fr => 81.18, },
