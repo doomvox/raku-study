@@ -113,7 +113,7 @@ use Test;
     say $fried; # {}
 
     my %nothing  =  (nada=>0, nope=>0, bupkes=>0);
-
+    say %nothing;
 
 
 
