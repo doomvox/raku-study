@@ -86,10 +86,7 @@ use Test;
 { # back to binding 
     my $a = 3;
     my $b :=  $a;
-    say $a;
+    say $a;  # 3
     $b = 6;
-    say $a;
-
-
-
+    say $a;  # 6
     }
