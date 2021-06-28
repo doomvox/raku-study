@@ -92,12 +92,10 @@ use Test;
         } else {
             die "how did I get two holes opposite each other?";
         }
+        return ($ta, $tb, $n);
     }
 
-
-
-
-
+    my ($ta, $tb, $n) = q( 'a'=>$a1, 'b'=>$b2 );
 
     }
 
