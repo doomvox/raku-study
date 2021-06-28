@@ -1,5 +1,5 @@
 * meeting notes June 20, 2021
-** stuff
+** for next time
 *** jeff implenting rpn syntax in raku
 **** grammar
 **** bruce gray reports difficulties with prefix operators with more than one argument
@@ -12,6 +12,7 @@
 
 *** david: has a perl utility he wants to talk about (next meeting?)
 
+** this meeting's stuff
 *** deepmap
 **** basics
 **** looked at where it's defined in the core

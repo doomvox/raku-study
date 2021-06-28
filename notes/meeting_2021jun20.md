@@ -1,48 +1,49 @@
-- [meeting notes June 20, 2021](#org2751484)
-  - [stuff](#org788a3e5)
-    - [jeff implenting rpn syntax in raku](#org4013275)
-    - [jeff: interested in new work on immutable data structures (post by daniel?)](#org7a4ae04)
-    - [bill stackexchange posts:](#orgef8d6d3)
-    - [david: has a perl utility he wants to talk about (next meeting?)](#org7e6bbe3)
-    - [deepmap](#org446838c)
-    - [Doing the Data::Map job in raku](#org4e1a5f0)
-    - [last rakudo weekly had a bunch of stuff:](#orga90d4e9)
-    - [bits from the Conference in the Clouds (CinC &#x2013; hereafter pronounced "sink"/"sync"):](#orga554f6c)
-  - [from the last study group](#org229a734)
-    - [follow-up: passing junctions as an argument](#org931b41c)
-  - [other topic ideas](#org8de4da0)
-    - [raku classes as data containers (joe brenner)](#orgf48eaac)
-    - [unusual argument passing signatures (joe brenner)](#org2df566e)
-    - [bruce gray rosettacode](#org37e0b04)
-    - [how flat is flat](#org9df0bbe)
-    - [go through my perl5 templates: how much is core raku now?](#orga07bb8e)
-    - [raku die handlers vs perl5](#org54f4729)
-    - [raku idioms](#org73e11a7)
-  - [more leftover stuff](#orgd1197a0)
-    - [note to self: you can't look for raku modules with file system searches.](#org5c438ff)
-    - [is it possible to just mail "SUBSCRIBE" to documentation@raku.org](#org50c986e)
-    - [junctions](#org809b296)
-  - [appendix: the usual links](#org8f0af1c)
-    - [code examples](#orgc22e147)
-    - [meeting notes (material from this file)](#orga6b9be5)
-    - [SF Perl page, has links to mailing list](#org0c087b2)
-    - [perl6-users mailing list archive](#org948ab60)
-  - [announcments](#orgc40125c)
-    - [next meeting: July 11th](#orge09e8ee)
-    - [The Oakland Museum is re-opening--](#org47733e5)
+- [meeting notes June 20, 2021](#org135420e)
+  - [for next time](#orgcbc694a)
+    - [jeff implenting rpn syntax in raku](#org2429925)
+    - [jeff: interested in new work on immutable data structures (post by daniel?)](#orgbeac55b)
+    - [bill stackexchange posts:](#orgac21c26)
+    - [david: has a perl utility he wants to talk about (next meeting?)](#orgdd658a9)
+  - [this meeting's stuff](#org283910f)
+    - [deepmap](#orgc23b31c)
+    - [Doing the Data::Map job in raku](#org05a68ac)
+    - [last rakudo weekly had a bunch of stuff:](#org41b969e)
+    - [bits from the Conference in the Clouds (CinC &#x2013; hereafter pronounced "sink"/"sync"):](#org0deb8e4)
+  - [from the last study group](#org0b751b2)
+    - [follow-up: passing junctions as an argument](#orgdfa249f)
+  - [other topic ideas](#orga1a679a)
+    - [raku classes as data containers (joe brenner)](#org8dd0cb1)
+    - [unusual argument passing signatures (joe brenner)](#org4eaffa4)
+    - [bruce gray rosettacode](#org0b9e8b0)
+    - [how flat is flat](#org511d877)
+    - [go through my perl5 templates: how much is core raku now?](#org9a24075)
+    - [raku die handlers vs perl5](#org462ac21)
+    - [raku idioms](#org957a969)
+  - [more leftover stuff](#org8dfeeaf)
+    - [note to self: you can't look for raku modules with file system searches.](#org8414153)
+    - [is it possible to just mail "SUBSCRIBE" to documentation@raku.org](#org1cd851c)
+    - [junctions](#org4acb7e6)
+  - [appendix: the usual links](#orgb4b1bd8)
+    - [code examples](#org245f519)
+    - [meeting notes (material from this file)](#orgacaca3c)
+    - [SF Perl page, has links to mailing list](#org0b816a6)
+    - [perl6-users mailing list archive](#orgc0fed7e)
+  - [announcments](#orgcfa6568)
+    - [next meeting: July 11th](#orgbc51a14)
+    - [The Oakland Museum is re-opening--](#org9f7fb98)
 
 
-<a id="org2751484"></a>
+<a id="org135420e"></a>
 
 # meeting notes June 20, 2021
 
 
-<a id="org788a3e5"></a>
+<a id="orgcbc694a"></a>
 
-## stuff
+## for next time
 
 
-<a id="org4013275"></a>
+<a id="org2429925"></a>
 
 ### jeff implenting rpn syntax in raku
 
@@ -51,24 +52,29 @@
 2.  bruce gray reports difficulties with prefix operators with more than one argument
 
 
-<a id="org7a4ae04"></a>
+<a id="orgbeac55b"></a>
 
 ### jeff: interested in new work on immutable data structures (post by daniel?)
 
 
-<a id="orgef8d6d3"></a>
+<a id="orgac21c26"></a>
 
 ### bill stackexchange posts:
 
 13:33:09 From Bill Michels : <https://unix.stackexchange.com/a/654184/227738> 13:35:04 From Bill Michels : <https://unix.stackexchange.com/a/654444/227738> 13:38:35 From Bill Michels : <https://unix.stackexchange.com/a/654467/227738>
 
 
-<a id="org7e6bbe3"></a>
+<a id="orgdd658a9"></a>
 
 ### david: has a perl utility he wants to talk about (next meeting?)
 
 
-<a id="org446838c"></a>
+<a id="org283910f"></a>
+
+## this meeting's stuff
+
+
+<a id="orgc23b31c"></a>
 
 ### deepmap
 
@@ -79,7 +85,7 @@
 3.  turned up bug: a bad condition can mangle the returned structure
 
 
-<a id="org4e1a5f0"></a>
+<a id="org05a68ac"></a>
 
 ### Doing the Data::Map job in raku
 
@@ -128,14 +134,14 @@
             1.  (could be Data::Math approach isn't so relevant?)
 
 
-<a id="orga90d4e9"></a>
+<a id="org41b969e"></a>
 
 ### last rakudo weekly had a bunch of stuff:
 
 1.  <https://rakudoweekly.blog/2021/06/14/2021-24-missing/>
 
 
-<a id="orga554f6c"></a>
+<a id="org0deb8e4"></a>
 
 ### bits from the Conference in the Clouds (CinC &#x2013; hereafter pronounced "sink"/"sync"):
 
@@ -168,12 +174,12 @@
 4.  my new band name: "keyboard noise people"
 
 
-<a id="org229a734"></a>
+<a id="org0b751b2"></a>
 
 ## from the last study group
 
 
-<a id="org931b41c"></a>
+<a id="orgdfa249f"></a>
 
 ### follow-up: passing junctions as an argument
 
@@ -198,12 +204,12 @@
     1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9924.html>
 
 
-<a id="org8de4da0"></a>
+<a id="orga1a679a"></a>
 
 ## other topic ideas
 
 
-<a id="orgf48eaac"></a>
+<a id="org8dd0cb1"></a>
 
 ### raku classes as data containers (joe brenner)
 
@@ -218,7 +224,7 @@
         2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku>
 
 
-<a id="org2df566e"></a>
+<a id="org4eaffa4"></a>
 
 ### unusual argument passing signatures (joe brenner)
 
@@ -227,7 +233,7 @@
 2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing<sub>named</sub><sub>args</sub><sub>and</sub><sub>positional</sub><sub>ones.raku</sub>
 
 
-<a id="org37e0b04"></a>
+<a id="org0b9e8b0"></a>
 
 ### bruce gray rosettacode
 
@@ -236,7 +242,7 @@
 2.  <https://rosettacode.org/wiki/Tree_from_nesting_levels#Raku>
 
 
-<a id="org9df0bbe"></a>
+<a id="org511d877"></a>
 
 ### how flat is flat
 
@@ -247,17 +253,17 @@
 3.  <https://en.wikipedia.org/wiki/Superflat>
 
 
-<a id="orga07bb8e"></a>
+<a id="org9a24075"></a>
 
 ### go through my perl5 templates: how much is core raku now?
 
 
-<a id="org54f4729"></a>
+<a id="org462ac21"></a>
 
 ### raku die handlers vs perl5
 
 
-<a id="org73e11a7"></a>
+<a id="org957a969"></a>
 
 ### raku idioms
 
@@ -268,22 +274,22 @@
     2.  leon<sub>timmermans</sub>: junctions, favor function on lh, operators on rh?
 
 
-<a id="orgd1197a0"></a>
+<a id="org8dfeeaf"></a>
 
 ## more leftover stuff
 
 
-<a id="org5c438ff"></a>
+<a id="org8414153"></a>
 
 ### note to self: you can't look for raku modules with file system searches.
 
 
-<a id="org50c986e"></a>
+<a id="org1cd851c"></a>
 
 ### is it possible to just mail "SUBSCRIBE" to documentation@raku.org
 
 
-<a id="org809b296"></a>
+<a id="org4acb7e6"></a>
 
 ### junctions
 
@@ -298,50 +304,50 @@
     3.  recent discussion of oddities: <https://www.nntp.perl.org/group/perl.perl6.users/2021/05/msg9961.html>
 
 
-<a id="org8f0af1c"></a>
+<a id="orgb4b1bd8"></a>
 
 ## appendix: the usual links
 
 
-<a id="orgc22e147"></a>
+<a id="org245f519"></a>
 
 ### code examples
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jun20>
 
 
-<a id="orga6b9be5"></a>
+<a id="orgacaca3c"></a>
 
 ### meeting notes (material from this file)
 
 <https://github.com/doomvox/raku-study/tree/main/notes/meeting_2021jun20.md>
 
 
-<a id="org0c087b2"></a>
+<a id="org0b816a6"></a>
 
 ### SF Perl page, has links to mailing list
 
 <http://sf.pm.org/>
 
 
-<a id="org948ab60"></a>
+<a id="orgc0fed7e"></a>
 
 ### perl6-users mailing list archive
 
 <https://www.nntp.perl.org/group/perl.perl6.users/>
 
 
-<a id="orgc40125c"></a>
+<a id="orgcfa6568"></a>
 
 ## announcments
 
 
-<a id="orge09e8ee"></a>
+<a id="orgbc51a14"></a>
 
 ### next meeting: July 11th
 
 
-<a id="org47733e5"></a>
+<a id="org9f7fb98"></a>
 
 ### The Oakland Museum is re-opening--
 
