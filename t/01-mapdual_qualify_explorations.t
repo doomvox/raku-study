@@ -165,3 +165,15 @@ use Test;
   my %h1 = ();
   say %h1;
 }
+
+{
+    my %h5;
+    %h5 = ( whun => 1,
+            tew  => 2,
+          );
+  say "--- 5 ---";
+  say %h5;
+  my %h5 = ();
+  say %h5;
+
+}
