@@ -152,19 +152,19 @@ use Test;
 
   say "--- 4 ---";
   say $h4;
-  my $h4 = ();
+  $h4 = ();
   say $h4;
   say "--- 3 ---";
   say $h3;
-  my $h3 = ();
+  $h3 = ();
   say $h3;
   say "--- 2 ---";
   say %h2;
-  my %h2 = ();
+  %h2 = ();
   say %h2;
   say "--- 1 ---";
   say %h1;
-  my %h1 = ();
+  %h1 = ();
   say %h1;
 }
 
