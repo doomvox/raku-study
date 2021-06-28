@@ -58,11 +58,14 @@ use Test;
    say $thing_al.WHAT; # (Hash)
 
    my $type = $thing.WHAT;
-   say $type;
+   say $type;           # (Hash)
    my $x1 = $type.new;
    my $x2 = $thing.new;
 
-   say $x1.WHAT;
-   say $x2.WHAT;
+   say $x1.WHAT;        # (Hash)
+   say $x2.WHAT;        # (Hash)
+
+   say $thing;
+   say $x1;
 
 }
