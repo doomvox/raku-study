@@ -101,23 +101,13 @@ use Test;
                        
                        2 => { de => 191.70,
                               fr => 81.18, },
-                       3 => { de => 37.00,
-                              fr => 191.91, },
-                        tax_rate => { de => 0.07,
-                                      fr => 0.08, },
                       },
               2016 => {1 => { de => 31.00,
                               fr => 137.37, },
                        2 => { de => 35.00,      # the check value for costs
                               fr => 187.87, },
                        3 => { de => 39.00, },
-                       4 => { de => 33.00,
-                              fr => 1974.76, },
-                        tax_rate => { de => 0.07,
-                                      fr => 0.08, },
                       },
-              source  => 'doomvox',
-              comment => 'dummy numbers',
              };
 
 
