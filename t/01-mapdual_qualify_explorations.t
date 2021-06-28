@@ -163,3 +163,4 @@ use Test;
   say %h1;
   my %h1 = ();
   say %h1;
+}
