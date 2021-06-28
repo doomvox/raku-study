@@ -67,8 +67,8 @@ use Test;
 
 
    say $gross{2016}{2}{'de'};
+   say $thing_alias{2}{'de'};
 
-   $thing_alias{2}{'de'};
 
    ## attempts at modifying original structure reaching through "alias" keep failing silently:
    $thing_al = {};
