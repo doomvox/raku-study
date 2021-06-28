@@ -6,7 +6,7 @@ module Data::MapDual {
         ## Maybe: make sure both $d21 and $ds2 are defined at *this* level
         ## then internally allow them to be undef (easier with named args)
         my $dmd_obj = $Data::MapDual::Internal.new();
-        $dmd_obj->dualmap( $op, d1 => $ds1, d2 => $ds2 );
+        $dmd_obj.dualmap( $op, d1 => $ds1, d2 => $ds2 );
         my $new_ds = $dmd_obj.new_ds;
         return $new_ds;
     }
@@ -41,8 +41,8 @@ class Data::MapDual::Internal {
         ## flatten associative into positional via uniq list of keys
         my @keys = unique | $d1.keys, | $d2.keys;
         for @keys -> $k {
-            my ( $n1, $n2 ) = self->qualify_dual( $d1{ $k }, $d2{ $k });
-            my $val = self->dualmap( $op, d1 => $n1, d2 => $n2 );
+            my ( $n1, $n2 ) = self.qualify_dual( $d1{ $k }, $d2{ $k });
+            my $val = self.dualmap( $op, d1 => $n1, d2 => $n2 );
             $nv{ $k } = $val;
         }
         return $nv;
@@ -53,8 +53,8 @@ class Data::MapDual::Internal {
         ## loop over both positional args, hand off each pair to dualmap again
         my $lim = max( $d1.elems, $d2.elems );
         for 0 .. $lim -> $i {
-            my ( $n1, $n2 ) = self->qualify_dual($d1[ $i ], $d2[ $i ]);
-            my $element = self->dualmap( $op, d1 => $n1, d2 => $n2 );
+            my ( $n1, $n2 ) = self.qualify_dual($d1[ $i ], $d2[ $i ]);
+            my $element = self.dualmap( $op, d1 => $n1, d2 => $n2 );
             push $nv, $element;
         }
         ## stash?
