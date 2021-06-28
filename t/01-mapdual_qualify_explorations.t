@@ -54,8 +54,8 @@ use Test;
 
    my $thing = %gross{2016};
    my $thing_al :=  %gross{2016};
-   say $thing.WHAT;
-   say $thing_al.WHAT;
+   say $thing.WHAT;    # (Hash)
+   say $thing_al.WHAT; # (Hash)
 
    my $type = $thing.WHAT;
    say $type;
