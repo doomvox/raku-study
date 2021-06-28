@@ -91,9 +91,9 @@ use Test;
     say $a;  # 6
     ## that much works.
 
-    my $fried = { eggs => 2,
+    my $fried = { eggs     => 2,
                   potatoes => 3,
-                  ham  => 0.25,
+                  ham      => 0.25,
                 };
 
     say $fried{'eggs'}; # 2
@@ -106,6 +106,7 @@ use Test;
     say $fried{'eggs'};  # (Any)
     say $fried; # {}
 
+    
 
     }
 
