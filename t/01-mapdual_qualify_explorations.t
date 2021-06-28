@@ -241,6 +241,6 @@ use Test;
    say $alias; # {}
    $alias = ( es => 33.3 );
    say $ds;
-   
+   # {2015 => es => 33.3}
 
 }
