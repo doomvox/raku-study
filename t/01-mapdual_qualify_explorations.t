@@ -146,7 +146,7 @@ use Test;
              tew  => 2,
              };
 
-  my %h1 = ();
-  my %h2 = ();
-  my $h3 = ();
   my $h4 = ();
+  my $h3 = ();
+  my %h2 = ();
+  my %h1 = ();
