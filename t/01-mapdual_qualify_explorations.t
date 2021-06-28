@@ -237,6 +237,7 @@ use Test;
    my $alias := $ds{2015};
 
    $ds{2015} = {};
-   say $ds;
-   # {2015 => {}}
+   say $ds;  # {2015 => {}}
+   say $alias;
+   
 }
