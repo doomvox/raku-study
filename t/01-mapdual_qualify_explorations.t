@@ -70,4 +70,8 @@ use Test;
    say $x1;
    # {}
 
+   $thing_al = {};
+   say $thing;
+
+
 }
