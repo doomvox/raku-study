@@ -108,7 +108,7 @@ use Test;
 
     my $f_al := $fried;
     $f_al = {};
-    say $fried; 
+    say $fried; # {}
 
 
     }
