@@ -76,7 +76,7 @@ use Test;
    ## hm? 
 
    say $thing{2}; # {de => 935, fr => 16.39}
-   $thing_al{2}{d3} = 666;
+   $thing_al{2}{'de'} = 666;
    say $thing{2}; # {de => 935, fr => 16.39}
 
 }
