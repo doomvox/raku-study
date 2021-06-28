@@ -102,10 +102,12 @@ use Test;
     say $fried{'eggs'}; # 3
     ## and that much works.
 
-#     $fried = {};
-#     say $fried{'eggs'};  # (Any)
-#     say $fried; # {}
+    # verifying I can wipe a hash by assigning {}:
+    #     $fried = {};
+    #     say $fried{'eggs'};  # (Any)
+    #     say $fried; # {}
 
+    # similarly, wiping it through an "alias" works
     my $f_al := $fried;
     $f_al = {};
     say $fried; # {}
