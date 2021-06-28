@@ -83,3 +83,13 @@ use Test;
    ## hm? 
 }
 
+{ # back to binding 
+    my $a = 3;
+    my $b :=  $a;
+    say $a;
+    $b = 6;
+    say $a;
+
+
+
+    }
