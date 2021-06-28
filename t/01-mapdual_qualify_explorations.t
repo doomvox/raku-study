@@ -123,7 +123,9 @@ use Test;
 #     say $nothing_al;
 
     my $nope_al := %nothing{'nope'};
-
+    say $nope_al;
+    $nope_al = -1;
+    say %nothing;
 
 
     }
