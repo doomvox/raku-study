@@ -102,11 +102,14 @@ use Test;
     say $fried{'eggs'}; # 3
     ## and that much works.
 
-    $fried = {};
-    say $fried{'eggs'};  # (Any)
-    say $fried; # {}
+#     $fried = {};
+#     say $fried{'eggs'};  # (Any)
+#     say $fried; # {}
 
     
+    my $f_al := $fried;
+
+
 
     }
 
