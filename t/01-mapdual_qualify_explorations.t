@@ -137,11 +137,9 @@ use Test;
 
   my %h2 = { whun => 1,
              tew  => 2, };
-#     Useless use of hash composer on right side of hash assignment; did you mean := instead?
-#     at /home/doom/End/Cave/Perl6/Wall/raku-study/t/01-mapdual_qualify_explorations.t:140
-
-  say "useless?  ", %h2;
-
+  #     Useless use of hash composer on right side of hash assignment; did you mean := instead?
+  #     at /home/doom/End/Cave/Perl6/Wall/raku-study/t/01-mapdual_qualify_explorations.t:140
+  say "useless?  ", %h2;  # useless?  {tew => 2, whun => 1}
 
   my $h3 = ( whun => 1,
              tew  => 2,
