@@ -178,3 +178,6 @@ use Test;
   say %h5;
 
 }
+
+## I understand this nought.
+## Something about the deep structure makes something immutable?
