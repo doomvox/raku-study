@@ -96,6 +96,9 @@ use Test;
     }
 
     my ($ta, $tb, $n) = q( 'a'=>$a1, 'b'=>$b2 );
+    say $ta;
+    say $tb;
+    say $n;
 
 }
 
