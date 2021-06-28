@@ -90,8 +90,7 @@ use Test;
              $ta = $tb;
              $n = $tb;
         } else {
-
-
+            die "how did I get two holes together?";
         }
     }
 
