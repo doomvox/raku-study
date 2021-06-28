@@ -80,15 +80,16 @@ use Test;
     my $a2 = Nil;
     
     sub q ( :$a, :$b ) {
+        my ($ta, $tb, $n);
         if $a && not $b {
-            my $ta = $a.WHAT
-
+             $ta = $a.WHAT;
+             $tb = $ta;
+             $n = $ta;
         } elsif $b && not $a {
             !! $b.WHAT;
 
         } else {
-
-        my $tb = $b ?? $b.WHAT !! $a.WHAT;
+            my $tb = $b ?? $b.WHAT !! $a.WHAT;
 
         }
     }
