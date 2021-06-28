@@ -17,5 +17,4 @@ my $d1 = { godzilla  => { level => 9,
            gepelnitch => { level => 10,
                             year => 1995,
                        },
-
          };
