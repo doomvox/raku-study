@@ -139,6 +139,7 @@ use Test;
 
 
     ## write code that does
+    ## (0) qualify sub, run on individual test cases
     ## (1) recursive descent of one (without deepmap)
     ## (2) recursive descent of two
     ## (3) runs qualify as it descends
