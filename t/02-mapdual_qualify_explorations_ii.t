@@ -90,7 +90,7 @@ use Test;
              $ta = $tb;
              $n = $tb;
         } else {
-            my $tb = $b ?? $b.WHAT !! $a.WHAT;
+
 
         }
     }
