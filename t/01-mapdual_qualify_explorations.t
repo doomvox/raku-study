@@ -104,7 +104,7 @@ use Test;
 
     $fried = {};
     say $fried{'eggs'};  # (Any)
-    say $fried;
+    say $fried; # {}
 
 
     }
