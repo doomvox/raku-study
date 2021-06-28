@@ -66,10 +66,10 @@ use Test;
    # {1 => {de => 35, fr => 191.01}, 2 => {de => 935, fr => 16.39}, 3 => {de => 37}, 4 => {de => 39, fr => 7.17}, tax_rate => {de => 0.07, fr => 0.08}}
 
 
-   say $gross{2016}{2}{'de'};
-   say $thing_alias{2}{'de'};
+   say $gross{2016}{2}{'de'};  # 935
+   say $thing_alias{2}{'de'};  # 935
    $thing_alias{2}{'de'} = 123.32;
-   say $gross{2016}{2}{'de'};
+   say $gross{2016}{2}{'de'};  # 123.32
 
 }
 
