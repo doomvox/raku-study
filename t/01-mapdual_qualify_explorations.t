@@ -66,6 +66,8 @@ use Test;
    say $x2.WHAT;        # (Hash)
 
    say $thing;
+   # {1 => {de => 35, fr => 191.01}, 2 => {de => 935, fr => 16.39}, 3 => {de => 37}, 4 => {de => 39, fr => 7.17}, tax_rate => {de => 0.07, fr => 0.08}}
    say $x1;
+   # {}
 
 }
