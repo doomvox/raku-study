@@ -3,7 +3,6 @@ use Test;
 
 use Data::MapDual;
 
-
 {
    # HoH:  year -> month -> country -> value
    my ( %gross, %costs );
