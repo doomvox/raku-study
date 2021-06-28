@@ -138,8 +138,15 @@ use Test;
              tew  => 2,
              };
 
+  my $h3 = ( whun => 1,
+             tew  => 2,
+             );
 
-  my $h3 = { whun => 1,
+  my $h4 = { whun => 1,
              tew  => 2,
              };
 
+  my %h1 = ();
+  my %h2 = ();
+  my $h3 = ();
+  my $h4 = ();
