@@ -37,9 +37,9 @@ use Test;
 {
     say "===";
     my @stuff = ( 'six', 6,  'five', '5',  'four', 4 );
-    my @mod = @stuff.deepmap({ $_ ~~ Numeric ?? $_+1 !! $_ });
+    my @mod = @stuff.deepmap({ $_ ~~ Numeric ?? $_+1 !! $_ });  # quoted 5 is not "Numeric"
     say @mod; # [six 7 five 5 four 5]
-    my @mod2 = @stuff.deepmap({ .Numeric ?? $_+1 !! $_ });
+    my @mod2 = @stuff.deepmap({ .Numeric ?? $_+1 !! $_ });      # quoted 5 can *become* Numeric
     say @mod2; # [six 7 five 6 four 5]
 
 
