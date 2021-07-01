@@ -51,6 +51,6 @@ use Test;
     say "===";
     my @stuff = ( 'six', 6,  'five', '5',  'four', 4 );
     my @mod = @stuff.deepmap({ Nil }); 
-    say @mod
+    say @mod; # [(Any) (Any) (Any) (Any) (Any) (Any)]
 
 }
