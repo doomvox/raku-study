@@ -22,7 +22,7 @@ say '===';
 
 {
     my %ds = { level_1 => { level_2 => 9 }};
-
+    %ds.deepmap{{ $_ * 0.5 if $_ ~~ Numeric  }}
 
 
     }
