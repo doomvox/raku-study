@@ -46,3 +46,11 @@ use Test;
     my @mod3 = @stuff.deepmap({ $_+1 if $_ ~~ Numeric });       # drops anything not Numeric
     say @mod3;  #  [7 5]    
 }
+
+{
+    say "===";
+    my @stuff = ( 'six', 6,  'five', '5',  'four', 4 );
+    my @mod = @stuff.deepmap({ Nil }); 
+    say @mod
+
+}
