@@ -21,8 +21,8 @@ say .raku for @remunged;
 say '===';
 use Test;
 {
-    my %ds1 = ( level_1 => { level_2 => 9 });
-    my %n1 = %ds1.deepmap({ $_ * 0.5 if $_ ~~ Numeric  });
+    my %ds1  = ( level_1 => { level_2 => 9 });
+    my %n1   = %ds1.deepmap({ $_ * 0.5 if $_ ~~ Numeric  });
     my %exp1 = ( level_1 => { level_2 => 4.5 });
     is-deeply( %n1, %exp1, "Testing that numeric value two levels deep was modified" );
     
