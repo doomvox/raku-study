@@ -40,5 +40,5 @@ use Test;
     my @mod = @stuff.deepmap({ $_ ~~ Numeric ?? $_+1 !! $_ });
     say @mod; # [7 six 5 five 5 four]
     my @mod2 = @stuff.deepmap({ .Numeric ?? $_+1 !! $_ });
-
+    say @mod2;
 }
