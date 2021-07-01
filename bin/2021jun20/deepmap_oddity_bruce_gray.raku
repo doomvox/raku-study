@@ -60,6 +60,6 @@ use Test;
     my @mod2 = @stuff.deepmap({ Undef }); 
     say @mod2;
     my %mod2 = %rabbits.deepmap({ Undef }); 
-
+    say %mod2;
 
 }
