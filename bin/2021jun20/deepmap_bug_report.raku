@@ -6,48 +6,13 @@ use v6;
 
 ## subject: deepmap can mangle hash structures rather than just modify values
 
+my @data = (
+    { value => 1, name => 'alpha', },
+    { value => 2, name => 'beta', },
+    { value => 3, name => 'gamma', },
+    { value => 4, name => 'delta', },
+);
 
-
-
-
-
-
-# ====
-#  sheet of cheats
-
-# A unicode paste board:
-# «
-# »
-# π
-# 𝑒
-
-# use DBIish;
-# my $dbh = DBIish.connect("Pg", database => 'doom', :user<doom>, :port<5434>);
-
-# my $sth = $dbh.prepare(q:to/STATEMENT/);
-#     SELECT * FROM funked_up
-# STATEMENT
-
-# $sth.execute();
-# my @rows = $sth.allrows();
-
-
-
-# external commands without shell:
-# my $arg = 'Hello';
-# my $captured = run('echo', $arg, :out).out.slurp;
-# my $captured = run(«echo "$arg"», :out).out.slurp;
-
-
-# using shell:
-# my $arg = 'Hello';
-# my $captured = shell("echo $arg", :out).out.slurp;
-# my $captured = qqx{echo $arg};
-
-
-## Try to make errors into warnings
-#   CATCH { default { say "CAUGHT: ", .Str; .resume } }
-
-# ===
-# Author:  doom@kzsu.stanford.edu
+# my @remunged = @level_color.deepmap({ say .raku; $_ ~~ Numeric ?? $_+12 !! $_ });
+my @remunged = @level_color.deepmap({ $_+12 if $_ ~~ Numeric });
 
