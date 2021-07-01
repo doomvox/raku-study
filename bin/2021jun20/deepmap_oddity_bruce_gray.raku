@@ -28,7 +28,7 @@ use Test;
     
     my %ds2 = ( level_1 => { level_2 => 'nine' });
 #    my %n2 = %ds2.deepmap({ $_ * 0.5 if $_ ~~ Numeric  });
-    my %n2 = %ds2.deepmap({ $_ ~~ Numeric ?? $_ * 0.5 !! $_  });
+    my %n2 = %ds2.deepmap({ $_ ~~ Numeric ?? $_ * 0.5 !! $_ });
     my %exp2 = ( level_1 => { level_2 => 'nine' });
     is-deeply( %n2, %exp2, "Testing that string value two levels deep was NOT modified" );
 }
