@@ -45,5 +45,4 @@ use Test;
     say "---";
     my @mod3 = @stuff.deepmap({ $_+1 if $_ ~~ Numeric });       # drops anything not Numeric
     say @mod3;  #  [7 5]    
-
 }
