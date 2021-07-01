@@ -19,10 +19,11 @@ my @remunged = @level_color.deepmap({ $_+12 if $_ ~~ Numeric });
 say '---';
 say .raku for @remunged; 
 say '===';
-
+use Test;
 {
     my %ds = { level_1 => { level_2 => 9 }};
     %ds.deepmap{{ $_ * 0.5 if $_ ~~ Numeric  }}
+    
 
 
     }
