@@ -6,6 +6,7 @@ use v6;
 
 ## subject: deepmap can mangle hash structures rather than just modify values
 
+## Goal: Add 10 to numeric value and preserve string name 
 my @data = (
     { value => 1, name => 'alpha', },
     { value => 2, name => 'beta',  },
