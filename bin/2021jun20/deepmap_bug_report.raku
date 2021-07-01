@@ -23,7 +23,7 @@ my @expected = (
 { 
     my @new_data = @data.deepmap({$_ ~~ Numeric ?? $_+10 !! $_ });
     say @new_data;  
-    # [{name => alpha, val => 11} {name => beta, val => 12} {name => gamma, val => 13} {name => delta, val => 14}]
+    # [{name => alpha, val => 11} {name => beta, val => 12} {name => gamma, val => 13} ]
     is-deeply( @new_data, @expected,
                "Testing that deepmap with explicit non-numeric pass-through works" );
 
