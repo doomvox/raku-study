@@ -64,3 +64,5 @@ use Test;
 
 
 }
+
+## subject: deepmap can mangle hash structures rather than just transform the keys
