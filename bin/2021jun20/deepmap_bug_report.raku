@@ -9,23 +9,23 @@ use Test;
 
 ## Goal: Add 10 to numeric value and preserve string name 
 my @data = (
-    { value => 1, name => 'alpha', },
-    { value => 2, name => 'beta',  },
-    { value => 3, name => 'gamma', },
-    { value => 4, name => 'delta', },
+    { val => 1, lbl => 'alpha', },
+    { val => 2, lbl => 'beta',  },
+    { val => 3, lbl => 'gamma', },
+    { val => 4, lbl => 'delta', },
 );
 
 my @expected = (
-    { value => 11, name => 'alpha', },
-    { value => 12, name => 'beta',  },
-    { value => 13, name => 'gamma', },
-    { value => 14, name => 'delta', },
+    { val => 11, lbl => 'alpha', },
+    { val => 12, lbl => 'beta',  },
+    { val => 13, lbl => 'gamma', },
+    { val => 14, lbl => 'delta', },
 );
 
 { 
     my @new_data = @data.deepmap({$_ ~~ Numeric ?? $_+10 !! $_ });
     say @new_data;  
-    # [{name => alpha, value => 11} {name => beta, value => 12} {name => gamma, value => 13} {name => delta, value => 14}]
+    # [{lbl => alpha, val => 11} {lbl => beta, val => 12} {lbl => gamma, val => 13} {lbl => delta, val => 14}]
     is-deeply( @new_data, @expected,
                "Testing that deepmap with explicit non-numeric pass-through works" );
 
@@ -33,7 +33,7 @@ my @expected = (
 
 { 
     my @new_data = @data.deepmap({ $_+10 if $_ ~~ Numeric });
-    say @new_data; # # [{value => 11} {name => 12} {value => 13} {name => 14}]
+    say @new_data; # # [{val => 11} {lbl => 12} {val => 13} {lbl => 14}]
     is-deeply( @new_data, @expected,
                "Testing deepmap without explicit pass-through" );
 
