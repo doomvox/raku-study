@@ -21,9 +21,13 @@ say .raku for @remunged;
 say '===';
 use Test;
 {
-    my %ds = { level_1 => { level_2 => 9 }};
-    %ds.deepmap{{ $_ * 0.5 if $_ ~~ Numeric  }}
+    my %ds1 = { level_1 => { level_2 => 9 }};
+    %ds2.deepmap{{ $_ * 0.5 if $_ ~~ Numeric  }}
+    %exp1 = { level_1 => { level_2 => 4.5 }};
+    is-deeply( %ds1, %exp1, "Testing that numeric value two levels deep was modified" );
     
-
+    my %ds2 = { level_1 => { level_2 => 'nine' }};
+    %exp2 = { level_1 => { level_2 => 'nine' }};
+    is-deeply( %ds2, %exp2, "Testing that string value two levels deep was NOT modified" );
 
     }
