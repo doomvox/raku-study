@@ -18,7 +18,6 @@ my @expected = (
     { val => 11, name => 'alpha', },
     { val => 12, name => 'beta',  },
     { val => 13, name => 'gamma', },
-    { val => 14, name => 'delta', },
 );
 
 { 
