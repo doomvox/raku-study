@@ -33,3 +33,9 @@ use Test;
     my %exp2 = ( level_1 => { level_2 => 'nine' });
     is-deeply( %n2, %exp2, "Testing that string value two levels deep was NOT modified" );
 }
+
+{
+    my @stuff = ( 6, 'six', '5', 'five', 4, 'four' );
+    @stuff.deepmap({ $_ ~~ Numeric ?? $_+1 !! $_ })
+
+    }
