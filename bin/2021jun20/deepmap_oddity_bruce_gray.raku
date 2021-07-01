@@ -55,8 +55,11 @@ use Test;
 
     my %rabbits  = < bugs peter easter > X=>1;
     my %mod = %rabbits.deepmap({ Nil }); 
-    say %mod;
+    say %mod; # {bugs => (Any), easter => (Any), peter => (Any)}
 
+    my @mod2 = @stuff.deepmap({ Undef }); 
+    say @mod2;
+    my %mod = %rabbits.deepmap({ Undef }); 
 
 
 }
