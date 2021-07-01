@@ -29,5 +29,4 @@ use Test;
     my %ds2 = { level_1 => { level_2 => 'nine' }};
     %exp2 = { level_1 => { level_2 => 'nine' }};
     is-deeply( %ds2, %exp2, "Testing that string value two levels deep was NOT modified" );
-
     }
