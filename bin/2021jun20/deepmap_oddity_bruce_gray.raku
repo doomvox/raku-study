@@ -57,4 +57,10 @@ use Test;
     my %mod = %rabbits.deepmap({ Nil }); 
     say %mod; # {bugs => (Any), easter => (Any), peter => (Any)}
 
+    my @mod2 = @stuff.deepmap({ Empty }); 
+    say @mod2;
+    my %mod2 = %rabbits.deepmap({ Empty }); 
+    say %mod2;
+
+
 }
