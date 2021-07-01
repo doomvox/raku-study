@@ -12,7 +12,6 @@ my @data = (
     { val => 1, name => 'alpha', },
     { val => 2, name => 'beta',  },
     { val => 3, name => 'gamma', },
-    { val => 4, name => 'delta', },
 );
 
 my @expected = (
