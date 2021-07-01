@@ -24,8 +24,18 @@ my @expected = (
 { 
     my @new_data = @data.deepmap({$_ ~~ Numeric ?? $_+10 !! $_ });
     say @new_data;
-    is-deeply( @new_data, @expected, "Testing that deepmap with explicit non-numeric pass-through works" );
+    is-deeply( @new_data, @expected,
+               "Testing that deepmap with explicit non-numeric pass-through works" );
 
+}
+
+{ 
+    my @new_data = @data.deepmap({ $_+12 if $_ ~~ Numeric });
+    say @new_data;
+    is-deeply( @new_data, @expected,
+               "Testing that deepmap with explicit non-numeric pass-through works" );
+
+}
 
 # my @remunged = @level_color.deepmap({ say .raku; $_ ~~ Numeric ?? $_+12 !! $_ });
 my @remunged = @level_color.deepmap({ $_+12 if $_ ~~ Numeric });
