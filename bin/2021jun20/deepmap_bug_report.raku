@@ -31,7 +31,7 @@ my @expected = (
 
 { 
     my @new_data = @data.deepmap({ $_+10 if $_ ~~ Numeric });
-    say @new_data; # # [{val => 11} {name => 12} {val => 13} {name => 14}]
+    say @new_data; # [{val => 11} {name => 12} {name => 13}]
     is-deeply( @new_data, @expected,
                "Testing deepmap without explicit pass-through" );
 
