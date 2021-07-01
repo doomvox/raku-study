@@ -30,7 +30,7 @@ my @expected = (
 }
 
 { 
-    my @new_data = @data.deepmap({ $_+12 if $_ ~~ Numeric });
+    my @new_data = @data.deepmap({ $_+10 if $_ ~~ Numeric });
     say @new_data;
     is-deeply( @new_data, @expected,
                "Testing that deepmap with explicit non-numeric pass-through works" );
