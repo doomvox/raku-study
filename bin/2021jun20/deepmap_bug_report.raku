@@ -3,6 +3,7 @@
 # deepmap_bug_report.raku            30 Jun 2021 
 
 use v6;
+use Test;
 
 ## subject: deepmap can mangle hash structures rather than just modify values
 
