@@ -22,12 +22,12 @@ say '===';
 use Test;
 {
     my %ds1 = ( level_1 => { level_2 => 9 });
-    %ds1.deepmap{{ $_ * 0.5 if $_ ~~ Numeric  }};
+    %ds1.deepmap({ $_ * 0.5 if $_ ~~ Numeric  });
     my %exp1 = ( level_1 => { level_2 => 4.5 });
     is-deeply( %ds1, %exp1, "Testing that numeric value two levels deep was modified" );
     
     my %ds2 = ( level_1 => { level_2 => 'nine' });
-    %ds2.deepmap{{ $_ * 0.5 if $_ ~~ Numeric  }};
+    %ds2.deepmap({ $_ * 0.5 if $_ ~~ Numeric  });
     my %exp2 = ( level_1 => { level_2 => 'nine' });
     is-deeply( %ds2, %exp2, "Testing that string value two levels deep was NOT modified" );
 }
