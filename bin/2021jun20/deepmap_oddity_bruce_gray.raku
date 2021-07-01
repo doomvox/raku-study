@@ -39,4 +39,5 @@ use Test;
     my @stuff = ( 6, 'six', '5', 'five', 4, 'four' );
     @stuff.deepmap({ $_ ~~ Numeric ?? $_+1 !! $_ });
     say @stuff;
+
 }
