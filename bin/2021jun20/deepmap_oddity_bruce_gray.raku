@@ -53,4 +53,10 @@ use Test;
     my @mod = @stuff.deepmap({ Nil }); 
     say @mod; # [(Any) (Any) (Any) (Any) (Any) (Any)]
 
+    my %rabbits  = < bugs peter easter > X=>1;
+    my %mod = %rabbits.deepmap({ Nil }); 
+    say %mod;
+
+
+
 }
