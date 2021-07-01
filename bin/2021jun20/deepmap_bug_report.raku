@@ -7,7 +7,7 @@ use Test;
 
 ## subject: deepmap can mangle hash structures rather than just modify values
 
-## Goal: Add 10 to numeric value and preserve string label
+## Goal: Add 10 to numeric value and preserve string name
 my @data = (
     { val => 1, name => 'alpha', },
     { val => 2, name => 'beta',  },
