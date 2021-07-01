@@ -43,7 +43,7 @@ use Test;
     say @mod2; # [six 7 five 6 four 5]
 
     say "---";
-    my @mod = @stuff.deepmap({ $_+1 if $_ ~~ Numeric });  
-
+    my @mod3 = @stuff.deepmap({ $_+1 if $_ ~~ Numeric });  
+    say @mod3;
 
 }
