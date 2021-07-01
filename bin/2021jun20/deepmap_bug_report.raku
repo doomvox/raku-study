@@ -36,7 +36,3 @@ my @expected = (
                "Testing deepmap without explicit pass-through" );
 
 }
-
-# my @remunged = @level_color.deepmap({ say .raku; $_ ~~ Numeric ?? $_+12 !! $_ });
-my @remunged = @level_color.deepmap({ $_+12 if $_ ~~ Numeric });
-
