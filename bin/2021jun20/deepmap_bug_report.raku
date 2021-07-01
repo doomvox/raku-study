@@ -8,7 +8,7 @@ use v6;
 
 my @data = (
     { value => 1, name => 'alpha', },
-    { value => 2, name => 'beta', },
+    { value => 2, name => 'beta',  },
     { value => 3, name => 'gamma', },
     { value => 4, name => 'delta', },
 );
