@@ -38,6 +38,6 @@ use Test;
     say "===";
     my @stuff = ( 6, 'six', '5', 'five', 4, 'four' );
     my @mod = @stuff.deepmap({ $_ ~~ Numeric ?? $_+1 !! $_ });
-    say @mod;
+    say @mod; # [7 six 5 five 5 four]
 
 }
