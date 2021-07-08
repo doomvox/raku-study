@@ -1,23 +1,23 @@
-- [69 cent tour of git](#orgf189e5b)
-  - [some stops on the tour](#org7556970)
-    - [first stop: using an existing git repo, e.g.](#org3c376e0)
-    - [second stop: create a new git repo](#orgbd50b8a)
-    - [third stop: putting that new git repo on github](#orgc7218f3)
-    - [fourth stop: haven't covered the cool stuff](#orgb3993f4)
-    - [fifth stop: things you will not do with git](#org6d5e961)
+- [69 cent tour of git](#org2b7697b)
+  - [some stops on the tour](#org42e6255)
+    - [first stop: using an existing git repo, e.g.](#orgbe19f2b)
+    - [second stop: create a new git repo](#orgcfb8db7)
+    - [third stop: putting that new git repo on github](#org9179085)
+    - [fourth stop: haven't covered the cool stuff](#org9c1e8a1)
+    - [fifth stop: things you will not do with git](#org06d2a47)
 
 
-<a id="orgf189e5b"></a>
+<a id="org2b7697b"></a>
 
 # 69 cent tour of git
 
 
-<a id="org7556970"></a>
+<a id="org42e6255"></a>
 
 ## some stops on the tour
 
 
-<a id="org3c376e0"></a>
+<a id="orgbe19f2b"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="orgbd50b8a"></a>
+<a id="orgcfb8db7"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="orgc7218f3"></a>
+<a id="org9179085"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgb3993f4"></a>
+<a id="org9c1e8a1"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -210,14 +210,14 @@
     
         1.  whizzy to little purpose
         
-            1.  drop-down menus
+            1.  drop-down menus in a CLI tool?
             
             2.  won't work in emacs sub-shell
         
         2.  not sure it's scriptable
 
 
-<a id="org6d5e961"></a>
+<a id="org06d2a47"></a>
 
 ### fifth stop: things you will not do with git
 

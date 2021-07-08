@@ -123,7 +123,7 @@ https://opensource.com/article/21/4/context-switching-git?sc_cid=7016000000127EC
 ***** https://cli.github.com/
 ***** unfortunately, this kind of sucks:
 ****** whizzy to little purpose
-******* drop-down menus
+******* drop-down menus in a CLI tool?
 ******* won't work in emacs sub-shell
 ****** not sure it's scriptable
 *** fifth stop: things you will not do with git
