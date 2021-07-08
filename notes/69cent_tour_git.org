@@ -130,5 +130,6 @@ https://opensource.com/article/21/4/context-switching-git?sc_cid=7016000000127EC
 **** work with binary files
 (compiled code, media files, ms word docs, etc)
 **** control your entire home directory
-**** TODO set up a meta-git repository that contains multiple git projects. ((or can you?))
 **** share work with another person without using a server
+**** TODO set up a meta-git repository that contains multiple git projects. ((or can you?))
+

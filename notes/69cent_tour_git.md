@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org2b7697b)
-  - [some stops on the tour](#org42e6255)
-    - [first stop: using an existing git repo, e.g.](#orgbe19f2b)
-    - [second stop: create a new git repo](#orgcfb8db7)
-    - [third stop: putting that new git repo on github](#org9179085)
-    - [fourth stop: haven't covered the cool stuff](#org9c1e8a1)
-    - [fifth stop: things you will not do with git](#org06d2a47)
+- [69 cent tour of git](#org050d494)
+  - [some stops on the tour](#orgad54092)
+    - [first stop: using an existing git repo, e.g.](#org427e7e2)
+    - [second stop: create a new git repo](#org0e1d96c)
+    - [third stop: putting that new git repo on github](#org9ad037b)
+    - [fourth stop: haven't covered the cool stuff](#orgd0ed253)
+    - [fifth stop: things you will not do with git](#orga0b9e40)
 
 
-<a id="org2b7697b"></a>
+<a id="org050d494"></a>
 
 # 69 cent tour of git
 
 
-<a id="org42e6255"></a>
+<a id="orgad54092"></a>
 
 ## some stops on the tour
 
 
-<a id="orgbe19f2b"></a>
+<a id="org427e7e2"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="orgcfb8db7"></a>
+<a id="org0e1d96c"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="org9179085"></a>
+<a id="org9ad037b"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org9c1e8a1"></a>
+<a id="orgd0ed253"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -217,7 +217,7 @@
         2.  not sure it's scriptable
 
 
-<a id="org06d2a47"></a>
+<a id="orga0b9e40"></a>
 
 ### fifth stop: things you will not do with git
 
@@ -227,6 +227,6 @@
 
 2.  control your entire home directory
 
-3.  TODO set up a meta-git repository that contains multiple git projects. ((or can you?))
+3.  share work with another person without using a server
 
-4.  share work with another person without using a server
+4.  TODO set up a meta-git repository that contains multiple git projects. ((or can you?))
