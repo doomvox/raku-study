@@ -4,13 +4,9 @@
 
 use v6;
 
-string=11111001
-~$ array=($(raku -ne '.comb.print' <<<"$string"))
-~$ echo "${array[@]}"
-
-
-
-
+# string=11111001
+# ~$ array=($(raku -ne '.comb.print' <<<"$string"))
+# ~$ echo "${array[@]}"
 
 # ====
 #  sheet of cheats
