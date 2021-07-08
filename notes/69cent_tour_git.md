@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org050d494)
-  - [some stops on the tour](#orgad54092)
-    - [first stop: using an existing git repo, e.g.](#org427e7e2)
-    - [second stop: create a new git repo](#org0e1d96c)
-    - [third stop: putting that new git repo on github](#org9ad037b)
-    - [fourth stop: haven't covered the cool stuff](#orgd0ed253)
-    - [fifth stop: things you will not do with git](#orga0b9e40)
+- [69 cent tour of git](#org2e835ac)
+  - [some stops on the tour](#org8200fa7)
+    - [first stop: using an existing git repo, e.g.](#org4017234)
+    - [second stop: create a new git repo](#orgd81a49b)
+    - [third stop: putting that new git repo on github](#org624102a)
+    - [fourth stop: haven't covered the cool stuff](#org2b0b69c)
+    - [fifth stop: things you will not do with git](#org3b8f3e2)
 
 
-<a id="org050d494"></a>
+<a id="org2e835ac"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgad54092"></a>
+<a id="org8200fa7"></a>
 
 ## some stops on the tour
 
 
-<a id="org427e7e2"></a>
+<a id="org4017234"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="org0e1d96c"></a>
+<a id="orgd81a49b"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="org9ad037b"></a>
+<a id="org624102a"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgd0ed253"></a>
+<a id="org2b0b69c"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -217,7 +217,7 @@
         2.  not sure it's scriptable
 
 
-<a id="orga0b9e40"></a>
+<a id="org3b8f3e2"></a>
 
 ### fifth stop: things you will not do with git
 
