@@ -120,8 +120,12 @@ https://opensource.com/article/21/4/context-switching-git?sc_cid=7016000000127EC
 ******* index
 
 **** there's a command line tool to do github manipulations without the damn website UI
-https://cli.github.com/
-
+***** https://cli.github.com/
+***** unfortunately, this kind of sucks:
+****** whizzy to little purpose
+******* drop-down menus
+******* won't work in emacs sub-shell
+****** not sure it's scriptable
 *** fifth stop: things you will not do with git
 **** work with binary files
 (compiled code, media files, ms word docs, etc)

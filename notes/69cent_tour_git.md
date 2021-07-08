@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org1a7887d)
-  - [some stops on the tour](#org09266fe)
-    - [first stop: using an existing git repo, e.g.](#org5f47e25)
-    - [second stop: create a new git repo](#org3f91e1d)
-    - [third stop: putting that new git repo on github](#org6ccb5b1)
-    - [fourth stop: haven't covered the cool stuff](#org600a465)
-    - [fifth stop: things you will not do with git](#org78df2ba)
+- [69 cent tour of git](#orgf189e5b)
+  - [some stops on the tour](#org7556970)
+    - [first stop: using an existing git repo, e.g.](#org3c376e0)
+    - [second stop: create a new git repo](#orgbd50b8a)
+    - [third stop: putting that new git repo on github](#orgc7218f3)
+    - [fourth stop: haven't covered the cool stuff](#orgb3993f4)
+    - [fifth stop: things you will not do with git](#org6d5e961)
 
 
-<a id="org1a7887d"></a>
+<a id="orgf189e5b"></a>
 
 # 69 cent tour of git
 
 
-<a id="org09266fe"></a>
+<a id="org7556970"></a>
 
 ## some stops on the tour
 
 
-<a id="org5f47e25"></a>
+<a id="org3c376e0"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="org3f91e1d"></a>
+<a id="orgbd50b8a"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="org6ccb5b1"></a>
+<a id="orgc7218f3"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,7 +168,7 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="org600a465"></a>
+<a id="orgb3993f4"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
@@ -204,10 +204,20 @@
 
 4.  there's a command line tool to do github manipulations without the damn website UI
 
-    <https://cli.github.com/>
+    1.  <https://cli.github.com/>
+    
+    2.  unfortunately, this kind of sucks:
+    
+        1.  whizzy to little purpose
+        
+            1.  drop-down menus
+            
+            2.  won't work in emacs sub-shell
+        
+        2.  not sure it's scriptable
 
 
-<a id="org78df2ba"></a>
+<a id="org6d5e961"></a>
 
 ### fifth stop: things you will not do with git
 
