@@ -9,3 +9,4 @@ my $cognito = { $^a + $^b };
 
 say $cognito( 3, 4 );  # 7
 
+say $cognito.WHAT;
