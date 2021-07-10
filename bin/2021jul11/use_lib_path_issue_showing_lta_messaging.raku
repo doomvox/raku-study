@@ -39,10 +39,10 @@ use v6;
 
 
 
-## We are here:
+## This script is located here:
 #   /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jul11/use_lib_lta_messaging.raku
 ## The module I want to use is here:
-# /home/doom/End/Cave/Perl6/Wall/raku-study/lib/Data/Stub.rakumod
+#   /home/doom/End/Cave/Perl6/Wall/raku-study/lib/Data/Stub.rakumod
 
 # relative path from script location:   "../../lib"
 
