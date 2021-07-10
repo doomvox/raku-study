@@ -6,6 +6,9 @@ use v6;
 
 my $a = 3;
 
+## shorthand to create an "any" junction is: "|" 
+## Note: bitwise is now +|
+
 if $a == 3|5|42 {
     say "we're in!";
 }
@@ -18,8 +21,6 @@ if $a == 3 || $a == 5 || $a == 42 {
     say "we're in!";
 }
 
-## shorthand for any, "|" 
-## Note: bitwise is now +|
 my $silly_junction = ($a == 3) | ($a == 5) | ($a == 42);
 say $silly_junction;       # any(True, False, False)
 say $silly_junction.WHAT;  # (Junction)
