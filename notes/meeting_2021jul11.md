@@ -1,26 +1,24 @@
-- [meeting notes July 11, 2021](#orgd4c8db4)
-  - [relative path from program to other directory](#orgf57a5e1)
-    - [/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program<sub>location.raku</sub>](#org3181629)
-    - [Q: how to get that to work with "use lib"](#org8ed0eb2)
+- [meeting notes July 11, 2021](#org22151f8)
+  - [](#org6a69bf8)
+    - [relative path from program to other directory](#org4b7b1d2)
 
 
-<a id="orgd4c8db4"></a>
+<a id="org22151f8"></a>
 
 # meeting notes July 11, 2021
 
 
-<a id="orgf57a5e1"></a>
+<a id="org6a69bf8"></a>
 
-## relative path from program to other directory
-
-
-<a id="org3181629"></a>
-
-### /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program<sub>location.raku</sub>
+## 
 
 
-<a id="org8ed0eb2"></a>
+<a id="org4b7b1d2"></a>
 
-### Q: how to get that to work with "use lib"
+### relative path from program to other directory
 
-1.  BEGIN?
+1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program<sub>location.raku</sub>
+
+2.  Q: how to get that to work with "use lib"
+
+    1.  BEGIN?
