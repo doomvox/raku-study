@@ -90,3 +90,9 @@ use v6;
     say "lib_loc: $lib_loc";
     # lib_loc: /home/doom/End/Cave/Perl6/Wall/raku-study/lib
 }
+
+{
+    my $lib_loc = $*PROGRAM.parent(3).add('lib');
+    say "lib_loc: $lib_loc";
+    # lib_loc: /home/doom/End/Cave/Perl6/Wall/raku-study/lib
+}
