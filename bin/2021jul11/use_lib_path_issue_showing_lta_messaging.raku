@@ -33,8 +33,6 @@ BEGIN {
     my $lib_loc = $*PROGRAM.parent.add('../../lib');
     use lib "$lib_loc";
 }
-say whun(); 
-
 
 # Same deal:
 # BEGIN { 
