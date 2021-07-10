@@ -61,8 +61,8 @@ use v6;
 # # Repository specification can not be an empty string.  Did you mean 'use lib "."' ?
 # say whun();  #  1
 
-# And further, after I hit that problem, I *thought* it could be fixed with the BEGIN phasor:
-
+# And further, after I hit that problem, I *thought* it could be fixed with the BEGIN phasor,
+# but you get the same errors:
 
 BEGIN { 
     my $lib_loc = $*PROGRAM.parent.add('../../lib');
