@@ -11,3 +11,7 @@ say $cognito( 3, 4 );  # 7
 
 say $cognito.WHAT; # (Block)
 
+# A Block and a WhateverCode both are Code
+# my impulse is to specify Code... but if
+# there's no use for a whatever star, maybe
+# Block is better...
