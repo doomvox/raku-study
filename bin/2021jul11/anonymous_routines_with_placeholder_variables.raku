@@ -7,7 +7,7 @@ use v6;
 
 my $cognito = { $^a + $^b };
 
-
+say $cognito( 3, 4 );
 
 
 
