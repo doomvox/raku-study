@@ -22,6 +22,7 @@ if $a == 3 || $a == 5 || $a == 42 {
     say "we're in!";
 }
 
+
 my $silly_junction = ($a == 3) | ($a == 5) | ($a == 42);
 say $silly_junction;       # any(True, False, False)
 say $silly_junction.WHAT;  # (Junction)
