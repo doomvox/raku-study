@@ -47,3 +47,4 @@ use v6;
 # relative path from script location:   "../../lib"
 
 use lib $*PROGRAM.parent.add('../../]lib');
+use Data::Stub;
