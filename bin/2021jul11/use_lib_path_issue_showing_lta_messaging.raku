@@ -98,11 +98,11 @@ use v6;
 # }
 
 
-## Again, uninit/empty string error:
-BEGIN { 
-    my $lib_loc = $*PROGRAM.parent(3).add('lib');
-#    use lib "$lib_loc";
-#    use lib $lib_loc;
-     use lib ($lib_loc);
-     say whun();  #  1
-}
+# ## Again, uninit/empty string error:
+# BEGIN { 
+#     my $lib_loc = $*PROGRAM.parent(3).add('lib');
+# #    use lib "$lib_loc";
+# #    use lib $lib_loc;
+#      use lib ($lib_loc);
+#      say whun();  #  1
+# }
