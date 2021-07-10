@@ -56,6 +56,7 @@ use v6;
 
 my $lib_loc = $*PROGRAM.parent.add('../../lib');
 use lib "$lib_loc";
-# compile time error, complains of an empty string
+# compile time error:
+# Use of uninitialized value $lib_loc of type Any in string context.
 
 say whun();  #  1
