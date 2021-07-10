@@ -56,4 +56,4 @@ my $lib_loc = $*PROGRAM.parent.add('../../lib');
 use lib "$lib_loc";
 # compile time error, complains of an empty string
 
-# say whun();  #  1
+say whun();  #  1
