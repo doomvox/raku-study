@@ -34,6 +34,7 @@ BEGIN {
     use lib "$lib_loc";
 }
 
+
 # Same deal:
 # BEGIN { 
 #     my $lib_loc = $*PROGRAM.parent.add('../../lib');
@@ -41,24 +42,24 @@ BEGIN {
 # use lib "$lib_loc";
 # say whun();  #  1
 
-# {
-#     # Verifying I'm not crazy:
-#     my $lib_loc = $*PROGRAM.parent.add('../../lib');
-#     say "lib_loc: $lib_loc";
-#     # lib_loc: /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jul11/../../lib
-# }
+{
+    # Verifying I'm not crazy:
+    my $lib_loc = $*PROGRAM.parent.add('../../lib');
+    say "lib_loc: $lib_loc";
+    # lib_loc: /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jul11/../../lib
+}
 
-# {
-#     my $lib_loc = $*PROGRAM.parent.add('../../lib').resolve;
-#     say "lib_loc: $lib_loc";
-#     # lib_loc: /home/doom/End/Cave/Perl6/Wall/raku-study/lib
-# }
+{
+    my $lib_loc = $*PROGRAM.parent.add('../../lib').resolve;
+    say "lib_loc: $lib_loc";
+    # lib_loc: /home/doom/End/Cave/Perl6/Wall/raku-study/lib
+}
 
-# {
-#     my $lib_loc = $*PROGRAM.parent(3).add('lib');
-#     say "lib_loc: $lib_loc";
-#     # lib_loc: /home/doom/End/Cave/Perl6/Wall/raku-study/lib
-# }
+{
+    my $lib_loc = $*PROGRAM.parent(3).add('lib');
+    say "lib_loc: $lib_loc";
+    # lib_loc: /home/doom/End/Cave/Perl6/Wall/raku-study/lib
+}
 
 
 # ## Again, uninit/empty string error:
