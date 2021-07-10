@@ -1,21 +1,21 @@
-- [meeting notes July 11, 2021](#org866e007)
-  - [starry dynamo of night](#org158e6fe)
-    - [relative path from program to other directory](#org7de7ce3)
-    - [working towards a Data::Math for raku: dualmap](#org0a2067a)
-    - [small bits related to dualmap project](#org666d7d6)
+- [meeting notes July 11, 2021](#org8a9289c)
+  - [starry dynamo of night](#orgb54831b)
+    - [relative path from program to other directory](#org80113a1)
+    - [working towards a Data::Math for raku: dualmap](#orgac7e9db)
+    - [small bits related to dualmap project](#orgbdece27)
 
 
-<a id="org866e007"></a>
+<a id="org8a9289c"></a>
 
 # meeting notes July 11, 2021
 
 
-<a id="org158e6fe"></a>
+<a id="orgb54831b"></a>
 
 ## starry dynamo of night
 
 
-<a id="org7de7ce3"></a>
+<a id="org80113a1"></a>
 
 ### relative path from program to other directory
 
@@ -26,7 +26,7 @@
     1.  BEGIN?
 
 
-<a id="org0a2067a"></a>
+<a id="orgac7e9db"></a>
 
 ### working towards a Data::Math for raku: dualmap
 
@@ -39,10 +39,10 @@
 4.  /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
 
 
-<a id="org666d7d6"></a>
+<a id="orgbdece27"></a>
 
 ### small bits related to dualmap project
 
 1.  distinguishing between Positional and Associative
 
-2.  creating new
+2.  creating new entries matching types of existing ones
