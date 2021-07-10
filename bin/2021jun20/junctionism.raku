@@ -6,6 +6,7 @@ use v6;
 
 my $a = 3;
 
+# check if 3 is one of a number of values in one step with "any":
 if $a == any( 3, 5, 42 ) {
     say "we're in!";
 }
