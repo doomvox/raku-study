@@ -64,6 +64,12 @@ use v6;
 # And further, after I hit that problem, I *thought* it could be fixed with the BEGIN phasor,
 # but you get the same errors:
 
+# BEGIN { 
+#     my $lib_loc = $*PROGRAM.parent.add('../../lib');
+#     use lib "$lib_loc";
+#     say whun();  #  1
+# }
+
 BEGIN { 
     my $lib_loc = $*PROGRAM.parent.add('../../lib');
     use lib "$lib_loc";
