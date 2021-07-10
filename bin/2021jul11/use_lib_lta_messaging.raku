@@ -49,3 +49,4 @@ use v6;
 use lib $*PROGRAM.parent.add('../../]lib');
 use Data::Stub;
 say whun();  #  1
+
