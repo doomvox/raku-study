@@ -4,8 +4,11 @@
 **** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program_location.raku
 **** Q: how to get that to work with "use lib"
 ***** BEGIN?
-*** working towards a Data::Math for raku
+*** working towards a Data::Math for raku: dualmap
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/Qualify.rakumod
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/01-qualify_dyad.t
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/MapDual.rakumod
 **** /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
+*** small bits related to dualmap project
+**** distinguishing between Positional and Associative
+**** creating new 
