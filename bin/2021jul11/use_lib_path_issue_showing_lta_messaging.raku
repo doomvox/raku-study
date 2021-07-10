@@ -88,4 +88,5 @@ use v6;
 {
     my $lib_loc = $*PROGRAM.parent.add('../../lib').resolve;
     say "lib_loc: $lib_loc";
+    # lib_loc: /home/doom/End/Cave/Perl6/Wall/raku-study/lib
 }
