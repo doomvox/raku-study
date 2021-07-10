@@ -2,6 +2,8 @@
 # 
 # use_lib_lta_messaging.raku            10 Jul 2021 
 
+## STATUS: script is not in runnable condition: incompatible/nonworking blocks are uncommented
+
 use v6;
 
 ## This script is located here:
