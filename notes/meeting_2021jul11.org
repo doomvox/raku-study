@@ -12,3 +12,4 @@
 *** small bits related to dualmap project
 **** distinguishing between Positional and Associative
 **** creating new entries of same type as old
+*** A subject for later I think: $^a $^b
