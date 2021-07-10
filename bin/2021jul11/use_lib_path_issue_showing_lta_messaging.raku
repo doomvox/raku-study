@@ -78,3 +78,5 @@ use v6;
 # use lib "$lib_loc";
 # say whun();  #  1
 
+my $lib_loc = $*PROGRAM.parent.add('../../lib');
+say "lib_loc: $lib_loc";
