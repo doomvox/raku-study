@@ -18,7 +18,8 @@ if $a == 3 || $a == 5 || $a == 42 {
     say "we're in!";
 }
 
-## bitwise is now +|
+## shorthand for any, "|" 
+## Note: bitwise is now +|
 my $weirdzo = ($a == 3) | ($a == 5) | ($a == 42);
 say $weirdzo;       # any(True, False, False)
 say $weirdzo.WHAT;  # (Junction)
