@@ -13,7 +13,6 @@ if $a == any( 3, 5, 42 ) {
 
 ## shorthand to create an "any" junction is: "|" 
 ## Note: bitwise is now +|
-
 if $a == 3|5|42 {
     say "we're in!";
 }
