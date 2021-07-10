@@ -6,3 +6,5 @@
 ***** BEGIN?
 *** working towards a Data::Math for raku
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/Qualify.rakumod
+**** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/01-qualify_dyad.t
+**** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/MapDual.rakumod
