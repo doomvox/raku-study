@@ -1,3 +1,5 @@
 * meeting notes July 11, 2021
-
-/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program_location.raku
+** relative path from program to other directory
+*** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program_location.raku
+*** Q: how to get that to work with "use lib"
+**** BEGIN?
