@@ -13,9 +13,9 @@ use v6;
 
 
 # ## This works:
-# use lib $*PROGRAM.parent.add('../../]lib');
-# use Data::Stub;
-# say whun();  #  1
+use lib $*PROGRAM.parent.add('../../]lib');
+use Data::Stub;
+say whun();  #  1
 
 # I originally thought this would work:
 
