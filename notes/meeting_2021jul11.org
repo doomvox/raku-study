@@ -1,0 +1,3 @@
+* meeting notes July 11, 2021
+
+/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program_location.raku
