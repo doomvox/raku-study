@@ -1,7 +1,6 @@
 #                                doom@kzsu.stanford.edu
 #                                10 Jul 2021
 class Data::Stub {
-
   sub whun is export {
     return 1;
   }
