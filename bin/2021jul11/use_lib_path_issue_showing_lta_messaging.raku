@@ -54,12 +54,12 @@ use v6;
 
 # I originally thought this would work:
 
-my $lib_loc = $*PROGRAM.parent.add('../../lib');
-use lib "$lib_loc";
-compile time error:
-Use of uninitialized value $lib_loc of type Any in string context.
-Repository specification can not be an empty string.  Did you mean 'use lib "."' ?
-say whun();   1
+# my $lib_loc = $*PROGRAM.parent.add('../../lib');
+# use lib "$lib_loc";
+# # compile time error:
+# # Use of uninitialized value $lib_loc of type Any in string context.
+# # Repository specification can not be an empty string.  Did you mean 'use lib "."' ?
+# say whun();  #  1
 
 # And further, after I hit that problem, I *thought* it could be fixed with the BEGIN phasor:
 
