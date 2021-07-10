@@ -11,4 +11,4 @@
 **** /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
 *** small bits related to dualmap project
 **** distinguishing between Positional and Associative
-**** creating new entries matching types of existing ones
+**** creating new entries of same type as old
