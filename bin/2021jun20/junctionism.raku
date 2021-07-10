@@ -17,8 +17,7 @@ if $a == 3|5|42 {
     say "we're in!";
 }
 
-
-# much neater than:
+# those are much neater than:
 if $a == 3 || $a == 5 || $a == 42 {
     say "we're in!";
 }
