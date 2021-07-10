@@ -20,10 +20,10 @@ if $a == 3 || $a == 5 || $a == 42 {
 
 ## shorthand for any, "|" 
 ## Note: bitwise is now +|
-my $weirdzo = ($a == 3) | ($a == 5) | ($a == 42);
-say $weirdzo;       # any(True, False, False)
-say $weirdzo.WHAT;  # (Junction)
-if $weirdzo {
+my $j = ($a == 3) | ($a == 5) | ($a == 42);
+say $j;       # any(True, False, False)
+say $j.WHAT;  # (Junction)
+if $j {
  say "hi there";  # hi there
 }
 
