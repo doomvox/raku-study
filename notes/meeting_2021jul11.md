@@ -1,20 +1,20 @@
-- [meeting notes July 11, 2021](#orgba468e2)
-  - [starry dynamo of night](#org860393b)
-    - [relative path from program to other directory](#org9ba4fda)
-    - [working towards a Data::Math for raku](#orgc37d404)
+- [meeting notes July 11, 2021](#org1230cb6)
+  - [starry dynamo of night](#orgf4ed5e6)
+    - [relative path from program to other directory](#orgc01537c)
+    - [working towards a Data::Math for raku](#org31f7953)
 
 
-<a id="orgba468e2"></a>
+<a id="org1230cb6"></a>
 
 # meeting notes July 11, 2021
 
 
-<a id="org860393b"></a>
+<a id="orgf4ed5e6"></a>
 
 ## starry dynamo of night
 
 
-<a id="org9ba4fda"></a>
+<a id="orgc01537c"></a>
 
 ### relative path from program to other directory
 
@@ -25,7 +25,7 @@
     1.  BEGIN?
 
 
-<a id="orgc37d404"></a>
+<a id="org31f7953"></a>
 
 ### working towards a Data::Math for raku
 
@@ -34,3 +34,5 @@
 2.  /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/01-qualify<sub>dyad.t</sub>
 
 3.  /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/MapDual.rakumod
+
+4.  /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
