@@ -5,8 +5,6 @@ class Data::Stub {
   sub whun is export {
     return 1;
   }
-
-
 }
 
 
