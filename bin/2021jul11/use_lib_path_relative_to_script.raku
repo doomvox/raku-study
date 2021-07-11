@@ -49,6 +49,6 @@ use v6;
 
 ## This works:
 use lib $*PROGRAM.parent.add('../../]lib');
-use Data::Stub;
+use Data::Stub;  ## (( does an import without asking for it??? ))
 say whun();  #  1
 
