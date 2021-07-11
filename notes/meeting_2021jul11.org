@@ -19,3 +19,5 @@
 *** A subject for later I think: $^a $^b
 *** bruce dryrun of raku conference talk
 *** david: has a perl utility he wants to talk about (next meeting?)
+
+*** alan recommends: herbert simon "sciences of the artificial"

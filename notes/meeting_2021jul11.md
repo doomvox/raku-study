@@ -1,24 +1,25 @@
-- [meeting notes July 11, 2021](#orgd06b467)
-  - [starry dynamo of night](#orgf902021)
-    - [bruce blog post perl weekly challenge](#org6fa3963)
-    - [working towards a Data::Math for raku: dualmap](#org81388cc)
-    - [small bits related to dualmap project](#org323065d)
-    - [A subject for later I think: $<sup>a</sup> $<sup>b</sup>](#org8e5ae90)
-    - [bruce dryrun of raku conference talk](#orge5cb02e)
-    - [david: has a perl utility he wants to talk about (next meeting?)](#org466e1cf)
+- [meeting notes July 11, 2021](#orgcb23f23)
+  - [starry dynamo of night](#org166f998)
+    - [bruce blog post perl weekly challenge](#org0768563)
+    - [working towards a Data::Math for raku: dualmap](#org6da3005)
+    - [small bits related to dualmap project](#orgddef04e)
+    - [A subject for later I think: $<sup>a</sup> $<sup>b</sup>](#org391d4f1)
+    - [bruce dryrun of raku conference talk](#org1e0b37b)
+    - [david: has a perl utility he wants to talk about (next meeting?)](#org9231ef2)
+    - [alan recommends: herbert simon "sciences of the artificial"](#org78be3bd)
 
 
-<a id="orgd06b467"></a>
+<a id="orgcb23f23"></a>
 
 # meeting notes July 11, 2021
 
 
-<a id="orgf902021"></a>
+<a id="org166f998"></a>
 
 ## starry dynamo of night
 
 
-<a id="org6fa3963"></a>
+<a id="org0768563"></a>
 
 ### bruce blog post perl weekly challenge
 
@@ -29,7 +30,7 @@
 3.  <> "superflat" trickery
 
 
-<a id="org81388cc"></a>
+<a id="org6da3005"></a>
 
 ### working towards a Data::Math for raku: dualmap
 
@@ -42,7 +43,7 @@
 4.  /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
 
 
-<a id="org323065d"></a>
+<a id="orgddef04e"></a>
 
 ### small bits related to dualmap project
 
@@ -57,16 +58,21 @@
     2.  Q: how to get that to work with "use lib"
 
 
-<a id="org8e5ae90"></a>
+<a id="org391d4f1"></a>
 
 ### A subject for later I think: $<sup>a</sup> $<sup>b</sup>
 
 
-<a id="orge5cb02e"></a>
+<a id="org1e0b37b"></a>
 
 ### bruce dryrun of raku conference talk
 
 
-<a id="org466e1cf"></a>
+<a id="org9231ef2"></a>
 
 ### david: has a perl utility he wants to talk about (next meeting?)
+
+
+<a id="org78be3bd"></a>
+
+### alan recommends: herbert simon "sciences of the artificial"
