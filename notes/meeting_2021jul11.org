@@ -11,6 +11,7 @@
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/MapDual.rakumod
 **** /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
 *** david: has a perl utility he wants to talk about (next meeting?)
+**** uses B::Xref to look for loops in call chains
 *** small bits related to dualmap project
 **** distinguishing between Positional and Associative
 **** creating new entries of same type as old
