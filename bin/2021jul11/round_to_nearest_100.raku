@@ -8,7 +8,7 @@ my $a = 179.37;
 
 say $a.^methods;
 
-
+say $a.round;
 
 
 
