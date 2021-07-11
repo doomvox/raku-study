@@ -6,7 +6,7 @@ use v6;
 
 my $a = 179.37;
 
-
+say $a.^methods;
 
 
 
