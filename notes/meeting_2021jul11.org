@@ -27,3 +27,6 @@
 *** bruce dry-run of raku conference talk
 
 *** alan recommends: herbert simon "sciences of the artificial"
+
+*** next raku study group: July 25th
+

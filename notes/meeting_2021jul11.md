@@ -1,25 +1,26 @@
-- [meeting notes July 11, 2021](#orgb638786)
-  - [starry dynamo of night](#org2e8c1ea)
-    - [bruce blog post perl weekly challenge](#org36c8aa4)
-    - [working towards a Data::Math for raku: dualmap (not published yet)](#org4366da5)
-    - [david: has a perl utility he wants to talk about (next meeting?)](#org202feac)
-    - [small bits related to dualmap project](#org85b9d80)
-    - [placeholder vars: $<sup>a</sup> $<sup>b</sup>](#orgd8737e4)
-    - [bruce dry-run of raku conference talk](#org24a4064)
-    - [alan recommends: herbert simon "sciences of the artificial"](#org6ed223f)
+- [meeting notes July 11, 2021](#org22b383c)
+  - [starry dynamo of night](#org4693aec)
+    - [bruce blog post perl weekly challenge](#org9413c5b)
+    - [working towards a Data::Math for raku: dualmap (not published yet)](#org3c97c98)
+    - [david: has a perl utility he wants to talk about (next meeting?)](#orgdb485d1)
+    - [small bits related to dualmap project](#orgeb77bbb)
+    - [placeholder vars: $<sup>a</sup> $<sup>b</sup>](#org1c11b81)
+    - [bruce dry-run of raku conference talk](#orgbd886f3)
+    - [alan recommends: herbert simon "sciences of the artificial"](#org9a27e40)
+    - [next raku study group: July 25th](#org0542849)
 
 
-<a id="orgb638786"></a>
+<a id="org22b383c"></a>
 
 # meeting notes July 11, 2021
 
 
-<a id="org2e8c1ea"></a>
+<a id="org4693aec"></a>
 
 ## starry dynamo of night
 
 
-<a id="org36c8aa4"></a>
+<a id="org9413c5b"></a>
 
 ### bruce blog post perl weekly challenge
 
@@ -30,7 +31,7 @@
 3.  <> "superflat" trickery
 
 
-<a id="org4366da5"></a>
+<a id="org3c97c98"></a>
 
 ### working towards a Data::Math for raku: dualmap (not published yet)
 
@@ -43,14 +44,14 @@
 4.  /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
 
 
-<a id="org202feac"></a>
+<a id="orgdb485d1"></a>
 
 ### david: has a perl utility he wants to talk about (next meeting?)
 
 1.  uses B::Xref to look for loops in call chains
 
 
-<a id="org85b9d80"></a>
+<a id="orgeb77bbb"></a>
 
 ### small bits related to dualmap project
 
@@ -69,7 +70,7 @@
     1.  can group exports by named tags though
 
 
-<a id="orgd8737e4"></a>
+<a id="org1c11b81"></a>
 
 ### placeholder vars: $<sup>a</sup> $<sup>b</sup>
 
@@ -78,11 +79,16 @@
     1.  <https://fastapi.metacpan.org/source/PEVANS/Scalar-List-Utils-1.56/lib/List/Util.pm>
 
 
-<a id="org24a4064"></a>
+<a id="orgbd886f3"></a>
 
 ### bruce dry-run of raku conference talk
 
 
-<a id="org6ed223f"></a>
+<a id="org9a27e40"></a>
 
 ### alan recommends: herbert simon "sciences of the artificial"
+
+
+<a id="org0542849"></a>
+
+### next raku study group: July 25th
