@@ -16,3 +16,6 @@ import Foo;         # makes sub double available
 say double 21;      # 42  (( Works ))
 
 
+
+import Data::Stub;
+whuhn;
