@@ -53,7 +53,6 @@
     ( I . "" )
 
     ( Z . "/home/doom/Dust/Images/Superflat/" )
-
    ))
 
     ;; a further subject:
