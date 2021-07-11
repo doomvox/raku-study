@@ -1,24 +1,24 @@
-- [meeting notes July 11, 2021](#org720aad1)
-  - [starry dynamo of night](#orgfb87a05)
-    - [bruce blog post perl weekly challenge](#orge9053aa)
-    - [working towards a Data::Math for raku: dualmap](#org4ac0830)
-    - [small bits related to dualmap project](#orgfa22e73)
-    - [A subject for later I think: $<sup>a</sup> $<sup>b</sup>](#org7e9fc17)
-    - [bruce dryrun of raku conference talk](#org75d0775)
-    - [david: has a perl utility he wants to talk about (next meeting?)](#orgdcc5a96)
+- [meeting notes July 11, 2021](#orgd06b467)
+  - [starry dynamo of night](#orgf902021)
+    - [bruce blog post perl weekly challenge](#org6fa3963)
+    - [working towards a Data::Math for raku: dualmap](#org81388cc)
+    - [small bits related to dualmap project](#org323065d)
+    - [A subject for later I think: $<sup>a</sup> $<sup>b</sup>](#org8e5ae90)
+    - [bruce dryrun of raku conference talk](#orge5cb02e)
+    - [david: has a perl utility he wants to talk about (next meeting?)](#org466e1cf)
 
 
-<a id="org720aad1"></a>
+<a id="orgd06b467"></a>
 
 # meeting notes July 11, 2021
 
 
-<a id="orgfb87a05"></a>
+<a id="orgf902021"></a>
 
 ## starry dynamo of night
 
 
-<a id="orge9053aa"></a>
+<a id="org6fa3963"></a>
 
 ### bruce blog post perl weekly challenge
 
@@ -29,7 +29,7 @@
 3.  <> "superflat" trickery
 
 
-<a id="org4ac0830"></a>
+<a id="org81388cc"></a>
 
 ### working towards a Data::Math for raku: dualmap
 
@@ -42,7 +42,7 @@
 4.  /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
 
 
-<a id="orgfa22e73"></a>
+<a id="org323065d"></a>
 
 ### small bits related to dualmap project
 
@@ -57,16 +57,16 @@
     2.  Q: how to get that to work with "use lib"
 
 
-<a id="org7e9fc17"></a>
+<a id="org8e5ae90"></a>
 
 ### A subject for later I think: $<sup>a</sup> $<sup>b</sup>
 
 
-<a id="org75d0775"></a>
+<a id="orge5cb02e"></a>
 
 ### bruce dryrun of raku conference talk
 
 
-<a id="orgdcc5a96"></a>
+<a id="org466e1cf"></a>
 
 ### david: has a perl utility he wants to talk about (next meeting?)
