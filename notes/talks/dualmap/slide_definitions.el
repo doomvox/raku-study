@@ -49,8 +49,6 @@
     ( E . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/02-dualmap.t" )
     ( F . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/03-dualmap_codeblocks.t" )
     ( G . "/home/doom/End/Cave/DataMathRaku/bin/perl_sort_demo.pl" )
-
-
    ))
 
     ;; a further subject:
