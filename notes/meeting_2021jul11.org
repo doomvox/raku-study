@@ -16,7 +16,7 @@
 **** relative path from program to other directory
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program_location.raku
 ***** Q: how to get that to work with "use lib"
-*** A subject for later I think: $^a $^b
+*** A subject for later I think: $^a $^b (tried to cover it on the fly)
 *** bruce dryrun of raku conference talk
 *** david: has a perl utility he wants to talk about (next meeting?)
 

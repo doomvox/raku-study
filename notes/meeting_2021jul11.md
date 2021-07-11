@@ -1,25 +1,25 @@
-- [meeting notes July 11, 2021](#orgcb23f23)
-  - [starry dynamo of night](#org166f998)
-    - [bruce blog post perl weekly challenge](#org0768563)
-    - [working towards a Data::Math for raku: dualmap](#org6da3005)
-    - [small bits related to dualmap project](#orgddef04e)
-    - [A subject for later I think: $<sup>a</sup> $<sup>b</sup>](#org391d4f1)
-    - [bruce dryrun of raku conference talk](#org1e0b37b)
-    - [david: has a perl utility he wants to talk about (next meeting?)](#org9231ef2)
-    - [alan recommends: herbert simon "sciences of the artificial"](#org78be3bd)
+- [meeting notes July 11, 2021](#org4b18e09)
+  - [starry dynamo of night](#org58b852d)
+    - [bruce blog post perl weekly challenge](#org7efe0ee)
+    - [working towards a Data::Math for raku: dualmap](#orgc1d7809)
+    - [small bits related to dualmap project](#orge40b1a7)
+    - [A subject for later I think: $<sup>a</sup> $<sup>b</sup> (tried to cover it on the fly)](#orgfc9b0e8)
+    - [bruce dryrun of raku conference talk](#org3ba6710)
+    - [david: has a perl utility he wants to talk about (next meeting?)](#org7f0f7e0)
+    - [alan recommends: herbert simon "sciences of the artificial"](#org6867820)
 
 
-<a id="orgcb23f23"></a>
+<a id="org4b18e09"></a>
 
 # meeting notes July 11, 2021
 
 
-<a id="org166f998"></a>
+<a id="org58b852d"></a>
 
 ## starry dynamo of night
 
 
-<a id="org0768563"></a>
+<a id="org7efe0ee"></a>
 
 ### bruce blog post perl weekly challenge
 
@@ -30,7 +30,7 @@
 3.  <> "superflat" trickery
 
 
-<a id="org6da3005"></a>
+<a id="orgc1d7809"></a>
 
 ### working towards a Data::Math for raku: dualmap
 
@@ -43,7 +43,7 @@
 4.  /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
 
 
-<a id="orgddef04e"></a>
+<a id="orge40b1a7"></a>
 
 ### small bits related to dualmap project
 
@@ -58,21 +58,21 @@
     2.  Q: how to get that to work with "use lib"
 
 
-<a id="org391d4f1"></a>
+<a id="orgfc9b0e8"></a>
 
-### A subject for later I think: $<sup>a</sup> $<sup>b</sup>
+### A subject for later I think: $<sup>a</sup> $<sup>b</sup> (tried to cover it on the fly)
 
 
-<a id="org1e0b37b"></a>
+<a id="org3ba6710"></a>
 
 ### bruce dryrun of raku conference talk
 
 
-<a id="org9231ef2"></a>
+<a id="org7f0f7e0"></a>
 
 ### david: has a perl utility he wants to talk about (next meeting?)
 
 
-<a id="org78be3bd"></a>
+<a id="org6867820"></a>
 
 ### alan recommends: herbert simon "sciences of the artificial"
