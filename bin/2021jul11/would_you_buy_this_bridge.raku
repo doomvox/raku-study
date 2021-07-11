@@ -29,7 +29,6 @@ my $r = $a + $b;
     my $tb  = $b.WHAT;
 
     my $r = $ta + $tb;
-
 }
 
 
