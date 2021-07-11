@@ -42,7 +42,7 @@
     ( t . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/" )
     ( z . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/slide_definitions.el" )
 
-    ( A . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/A-opening_slide.png" )
+    ( A . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/Qualify.rakumod" )
     ( B . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/B-intro-hash_subtraction.pl" )
     ( C . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/C-aside_hash_as_scalar.rectpara" )
     ( D . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/D-hash_subtraction_fixed.pl" )
