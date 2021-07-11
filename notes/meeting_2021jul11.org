@@ -1,5 +1,4 @@
 * meeting notes July 11, 2021
-
 ** starry dynamo of night
 *** bruce blog post perl weekly challenge
 **** swap nipples below 255
