@@ -13,3 +13,7 @@
 **** distinguishing between Positional and Associative
 **** creating new entries of same type as old
 *** A subject for later I think: $^a $^b
+*** bruce dryrun of raku conference talk
+*** david perl utility
+*** bruce blog post perl weekly challenge
+*** 
