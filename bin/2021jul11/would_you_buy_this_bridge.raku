@@ -26,7 +26,7 @@ my $a;
 my $b;
 
 my $ta  = $a.WHAT;
-my $tb  = $b.WHAT
+my $tb  = $b.WHAT;
 
 my $r = $ta + $tb;
 
