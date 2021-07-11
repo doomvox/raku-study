@@ -1,25 +1,25 @@
-- [meeting notes July 11, 2021](#orgf007c22)
-  - [starry dynamo of night](#orge51aa6a)
-    - [bruce blog post perl weekly challenge](#org5970b8d)
-    - [working towards a Data::Math for raku: dualmap (not published yet)](#orgb38dc5a)
-    - [david: has a perl utility he wants to talk about (next meeting?)](#org2e03ae6)
-    - [small bits related to dualmap project](#orgef08fb8)
-    - [placeholder vars: $<sup>a</sup> $<sup>b</sup> (tried to cover it on the fly)](#orgf75f0a3)
-    - [bruce dryrun of raku conference talk](#orgbb13567)
-    - [alan recommends: herbert simon "sciences of the artificial"](#org483df86)
+- [meeting notes July 11, 2021](#orgb38051b)
+  - [starry dynamo of night](#orge9adabd)
+    - [bruce blog post perl weekly challenge](#org4f0425d)
+    - [working towards a Data::Math for raku: dualmap (not published yet)](#org828f461)
+    - [david: has a perl utility he wants to talk about (next meeting?)](#orga55418a)
+    - [small bits related to dualmap project](#org49b8b5f)
+    - [placeholder vars: $<sup>a</sup> $<sup>b</sup> (tried to cover it on the fly)](#org24b5ab5)
+    - [bruce dryrun of raku conference talk](#org3b67191)
+    - [alan recommends: herbert simon "sciences of the artificial"](#org3cc8f83)
 
 
-<a id="orgf007c22"></a>
+<a id="orgb38051b"></a>
 
 # meeting notes July 11, 2021
 
 
-<a id="orge51aa6a"></a>
+<a id="orge9adabd"></a>
 
 ## starry dynamo of night
 
 
-<a id="org5970b8d"></a>
+<a id="org4f0425d"></a>
 
 ### bruce blog post perl weekly challenge
 
@@ -30,7 +30,7 @@
 3.  <> "superflat" trickery
 
 
-<a id="orgb38dc5a"></a>
+<a id="org828f461"></a>
 
 ### working towards a Data::Math for raku: dualmap (not published yet)
 
@@ -43,14 +43,14 @@
 4.  /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
 
 
-<a id="org2e03ae6"></a>
+<a id="orga55418a"></a>
 
 ### david: has a perl utility he wants to talk about (next meeting?)
 
 1.  uses B::Xref to look for loops in call chains
 
 
-<a id="orgef08fb8"></a>
+<a id="org49b8b5f"></a>
 
 ### small bits related to dualmap project
 
@@ -65,7 +65,7 @@
     2.  Q: how to get that to work with "use lib"
 
 
-<a id="orgf75f0a3"></a>
+<a id="org24b5ab5"></a>
 
 ### placeholder vars: $<sup>a</sup> $<sup>b</sup> (tried to cover it on the fly)
 
@@ -74,11 +74,11 @@
     1.  <https://fastapi.metacpan.org/source/PEVANS/Scalar-List-Utils-1.56/lib/List/Util.pm>
 
 
-<a id="orgbb13567"></a>
+<a id="org3b67191"></a>
 
 ### bruce dryrun of raku conference talk
 
 
-<a id="org483df86"></a>
+<a id="org3cc8f83"></a>
 
 ### alan recommends: herbert simon "sciences of the artificial"

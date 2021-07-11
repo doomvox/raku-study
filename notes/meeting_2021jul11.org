@@ -1,18 +1,18 @@
 * meeting notes July 11, 2021
 ** starry dynamo of night
-*** bruce blog post perl weekly challenge
+*** DONE bruce blog post perl weekly challenge
 **** swap nipples below 255
 **** numbering system 123, no adjacent 1s, what's 80th number
 **** <> "superflat" trickery
 
-*** working towards a Data::Math for raku: dualmap (not published yet)
+*** DONE working towards a Data::Math for raku: dualmap (not published yet)
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/Qualify.rakumod
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/01-qualify_dyad.t
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/MapDual.rakumod
 **** /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
-*** david: has a perl utility he wants to talk about (next meeting?)
+*** DONE david: has a perl utility he wants to talk about (next meeting?)
 **** uses B::Xref to look for loops in call chains
-*** small bits related to dualmap project
+*** DONE small bits related to dualmap project
 **** distinguishing between Positional and Associative
 **** creating new entries of same type as old
 **** relative path from program to other directory
