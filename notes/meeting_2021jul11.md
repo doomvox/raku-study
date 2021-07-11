@@ -1,26 +1,25 @@
-- [meeting notes July 11, 2021](#orge4d2447)
-  - [starry dynamo of night](#org9868119)
-    - [relative path from program to other directory](#org891016b)
-    - [working towards a Data::Math for raku: dualmap](#org080b292)
-    - [small bits related to dualmap project](#org5ecd77c)
-    - [A subject for later I think: $<sup>a</sup> $<sup>b</sup>](#org0c0529a)
-    - [bruce dryrun of raku conference talk](#orga0a8018)
-    - [david: has a perl utility he wants to talk about (next meeting?)](#orgde3c2ff)
-    - [bruce blog post perl weekly challenge](#org41ca7f6)
-    - [](#org35ff9f0)
+- [meeting notes July 11, 2021](#orgdf35f3d)
+  - [starry dynamo of night](#org61674fd)
+    - [relative path from program to other directory](#org6a2484f)
+    - [working towards a Data::Math for raku: dualmap](#orgc5a9bb7)
+    - [small bits related to dualmap project](#org8e998b2)
+    - [A subject for later I think: $<sup>a</sup> $<sup>b</sup>](#orgfacb010)
+    - [bruce dryrun of raku conference talk](#org48eb3db)
+    - [david: has a perl utility he wants to talk about (next meeting?)](#orgfac0651)
+    - [bruce blog post perl weekly challenge](#orge749583)
 
 
-<a id="orge4d2447"></a>
+<a id="orgdf35f3d"></a>
 
 # meeting notes July 11, 2021
 
 
-<a id="org9868119"></a>
+<a id="org61674fd"></a>
 
 ## starry dynamo of night
 
 
-<a id="org891016b"></a>
+<a id="org6a2484f"></a>
 
 ### relative path from program to other directory
 
@@ -31,7 +30,7 @@
     1.  BEGIN?
 
 
-<a id="org080b292"></a>
+<a id="orgc5a9bb7"></a>
 
 ### working towards a Data::Math for raku: dualmap
 
@@ -44,7 +43,7 @@
 4.  /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
 
 
-<a id="org5ecd77c"></a>
+<a id="org8e998b2"></a>
 
 ### small bits related to dualmap project
 
@@ -53,30 +52,25 @@
 2.  creating new entries of same type as old
 
 
-<a id="org0c0529a"></a>
+<a id="orgfacb010"></a>
 
 ### A subject for later I think: $<sup>a</sup> $<sup>b</sup>
 
 
-<a id="orga0a8018"></a>
+<a id="org48eb3db"></a>
 
 ### bruce dryrun of raku conference talk
 
 
-<a id="orgde3c2ff"></a>
+<a id="orgfac0651"></a>
 
 ### david: has a perl utility he wants to talk about (next meeting?)
 
 
-<a id="org41ca7f6"></a>
+<a id="orge749583"></a>
 
 ### bruce blog post perl weekly challenge
 
 1.  swap nipples below 255
 
 2.  numbering system 123, no adjacent 1s, what's 80th number
-
-
-<a id="org35ff9f0"></a>
-
-###
