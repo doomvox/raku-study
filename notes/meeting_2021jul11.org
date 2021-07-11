@@ -21,6 +21,6 @@
 *** DONE placeholder vars: $^a $^b 
 **** the old perl situation
 ***** https://fastapi.metacpan.org/source/PEVANS/Scalar-List-Utils-1.56/lib/List/Util.pm
-*** bruce dryrun of raku conference talk
+*** bruce dry-run of raku conference talk
 
 *** alan recommends: herbert simon "sciences of the artificial"
