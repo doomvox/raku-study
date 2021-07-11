@@ -4,12 +4,13 @@
 
 use v6;
 
-my $a;
-my $b;
+{
+    my $a;
+    my $b;
 
-my $r = $a + $b;
-# Use of uninitialized value of type Any in numeric context
-
+    my $r = $a + $b;
+    # Use of uninitialized value of type Any in numeric context
+}
 
 ## I've seen messaging like this:
 
