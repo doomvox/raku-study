@@ -8,9 +8,11 @@ my $a = 179.37;
 
 say $a.^methods;
 
-say $a.round;
+say $a.round; # 179
 
-
+my $A = $a / 10;
+my $b = $A.round * 10;
+say $b;
 
 
 # ====
