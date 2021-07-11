@@ -11,6 +11,14 @@ my $r = $a + $b;
 # Use of uninitialized value of type Any in numeric context
 
 
+## I've seen messaging like this:
+
+# Invocant of method 'Bridge' must be an object instance of type 'Int',
+# not a type object of type 'Int'.  Did you forget a '.new'?
+
+#            when '+' { 
+#              $n = $d1 + $d2;
+#            }
 
 
 
