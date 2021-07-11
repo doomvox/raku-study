@@ -10,6 +10,7 @@
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/01-qualify_dyad.t
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/MapDual.rakumod
 **** /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
+*** david: has a perl utility he wants to talk about (next meeting?)
 *** small bits related to dualmap project
 **** distinguishing between Positional and Associative
 **** creating new entries of same type as old
@@ -18,6 +19,6 @@
 ***** Q: how to get that to work with "use lib"
 *** A subject for later I think: $^a $^b (tried to cover it on the fly)
 *** bruce dryrun of raku conference talk
-*** david: has a perl utility he wants to talk about (next meeting?)
+
 
 *** alan recommends: herbert simon "sciences of the artificial"
