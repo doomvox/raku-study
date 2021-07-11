@@ -5,7 +5,7 @@
 **** numbering system 123, no adjacent 1s, what's 80th number
 **** <> "superflat" trickery
 
-*** working towards a Data::Math for raku: dualmap
+*** working towards a Data::Math for raku: dualmap (not published yet)
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/Qualify.rakumod
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/01-qualify_dyad.t
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/MapDual.rakumod
