@@ -18,6 +18,9 @@ my $n = 382.99;
 my $r = ($n / 10).round * 10;
 say $r; # 380
 
+## Note: would not be surprised that .round has this feature built-in.
+
+
 
 # ====
 #  sheet of cheats
