@@ -1,26 +1,26 @@
-- [meeting notes July 11, 2021](#orgcd52118)
-  - [starry dynamo of night](#org41128f9)
-    - [relative path from program to other directory](#orgcdd078c)
-    - [working towards a Data::Math for raku: dualmap](#org830ceca)
-    - [small bits related to dualmap project](#orgebb71fe)
-    - [A subject for later I think: $<sup>a</sup> $<sup>b</sup>](#org701906e)
-    - [bruce dryrun of raku conference talk](#org6ca813e)
-    - [david perl utility](#org91f730a)
-    - [bruce blog post perl weekly challenge](#org97c252a)
-    - [](#orgcc3f6c5)
+- [meeting notes July 11, 2021](#orge4d2447)
+  - [starry dynamo of night](#org9868119)
+    - [relative path from program to other directory](#org891016b)
+    - [working towards a Data::Math for raku: dualmap](#org080b292)
+    - [small bits related to dualmap project](#org5ecd77c)
+    - [A subject for later I think: $<sup>a</sup> $<sup>b</sup>](#org0c0529a)
+    - [bruce dryrun of raku conference talk](#orga0a8018)
+    - [david: has a perl utility he wants to talk about (next meeting?)](#orgde3c2ff)
+    - [bruce blog post perl weekly challenge](#org41ca7f6)
+    - [](#org35ff9f0)
 
 
-<a id="orgcd52118"></a>
+<a id="orge4d2447"></a>
 
 # meeting notes July 11, 2021
 
 
-<a id="org41128f9"></a>
+<a id="org9868119"></a>
 
 ## starry dynamo of night
 
 
-<a id="orgcdd078c"></a>
+<a id="org891016b"></a>
 
 ### relative path from program to other directory
 
@@ -31,7 +31,7 @@
     1.  BEGIN?
 
 
-<a id="org830ceca"></a>
+<a id="org080b292"></a>
 
 ### working towards a Data::Math for raku: dualmap
 
@@ -44,7 +44,7 @@
 4.  /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
 
 
-<a id="orgebb71fe"></a>
+<a id="org5ecd77c"></a>
 
 ### small bits related to dualmap project
 
@@ -53,22 +53,22 @@
 2.  creating new entries of same type as old
 
 
-<a id="org701906e"></a>
+<a id="org0c0529a"></a>
 
 ### A subject for later I think: $<sup>a</sup> $<sup>b</sup>
 
 
-<a id="org6ca813e"></a>
+<a id="orga0a8018"></a>
 
 ### bruce dryrun of raku conference talk
 
 
-<a id="org91f730a"></a>
+<a id="orgde3c2ff"></a>
 
-### david perl utility
+### david: has a perl utility he wants to talk about (next meeting?)
 
 
-<a id="org97c252a"></a>
+<a id="org41ca7f6"></a>
 
 ### bruce blog post perl weekly challenge
 
@@ -77,6 +77,6 @@
 2.  numbering system 123, no adjacent 1s, what's 80th number
 
 
-<a id="orgcc3f6c5"></a>
+<a id="org35ff9f0"></a>
 
 ###
