@@ -51,6 +51,8 @@
     ( G . "/home/doom/End/Cave/DataMathRaku/bin/perl_sort_demo.pl" )
     ( H . "" )
     ( I . "" )
+    ( Z . "/home/doom/Dust/Images/Superflat/" )
+
    ))
 
     ;; a further subject:
