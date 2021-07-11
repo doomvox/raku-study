@@ -1,24 +1,24 @@
-- [meeting notes July 11, 2021](#orgc1940a2)
-  - [starry dynamo of night](#org9f0498f)
-    - [bruce blog post perl weekly challenge](#orgf2ec914)
-    - [working towards a Data::Math for raku: dualmap](#org7808612)
-    - [small bits related to dualmap project](#org9103648)
-    - [A subject for later I think: $<sup>a</sup> $<sup>b</sup>](#orgf4578fc)
-    - [bruce dryrun of raku conference talk](#orgb7a9d12)
-    - [david: has a perl utility he wants to talk about (next meeting?)](#org84ed01f)
+- [meeting notes July 11, 2021](#org720aad1)
+  - [starry dynamo of night](#orgfb87a05)
+    - [bruce blog post perl weekly challenge](#orge9053aa)
+    - [working towards a Data::Math for raku: dualmap](#org4ac0830)
+    - [small bits related to dualmap project](#orgfa22e73)
+    - [A subject for later I think: $<sup>a</sup> $<sup>b</sup>](#org7e9fc17)
+    - [bruce dryrun of raku conference talk](#org75d0775)
+    - [david: has a perl utility he wants to talk about (next meeting?)](#orgdcc5a96)
 
 
-<a id="orgc1940a2"></a>
+<a id="org720aad1"></a>
 
 # meeting notes July 11, 2021
 
 
-<a id="org9f0498f"></a>
+<a id="orgfb87a05"></a>
 
 ## starry dynamo of night
 
 
-<a id="orgf2ec914"></a>
+<a id="orge9053aa"></a>
 
 ### bruce blog post perl weekly challenge
 
@@ -29,7 +29,7 @@
 3.  <> "superflat" trickery
 
 
-<a id="org7808612"></a>
+<a id="org4ac0830"></a>
 
 ### working towards a Data::Math for raku: dualmap
 
@@ -42,7 +42,7 @@
 4.  /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
 
 
-<a id="org9103648"></a>
+<a id="orgfa22e73"></a>
 
 ### small bits related to dualmap project
 
@@ -55,20 +55,18 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program<sub>location.raku</sub>
     
     2.  Q: how to get that to work with "use lib"
-    
-    3.  BEGIN?
 
 
-<a id="orgf4578fc"></a>
+<a id="org7e9fc17"></a>
 
 ### A subject for later I think: $<sup>a</sup> $<sup>b</sup>
 
 
-<a id="orgb7a9d12"></a>
+<a id="org75d0775"></a>
 
 ### bruce dryrun of raku conference talk
 
 
-<a id="org84ed01f"></a>
+<a id="orgdcc5a96"></a>
 
 ### david: has a perl utility he wants to talk about (next meeting?)
