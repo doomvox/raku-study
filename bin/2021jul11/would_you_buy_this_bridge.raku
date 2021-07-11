@@ -8,7 +8,7 @@ my $a;
 my $b;
 
 my $r = $a + $b;
-
+# Use of uninitialized value of type Any in numeric context
 
 
 
