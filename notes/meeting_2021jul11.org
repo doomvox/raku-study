@@ -18,6 +18,9 @@
 **** relative path from program to other directory
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program_location.raku
 ***** Q: how to get that to work with "use lib"
+**** raku export challenged, no fine-grained import
+***** can group exports by named tags though
+
 *** DONE placeholder vars: $^a $^b 
 **** the old perl situation
 ***** https://fastapi.metacpan.org/source/PEVANS/Scalar-List-Utils-1.56/lib/List/Util.pm

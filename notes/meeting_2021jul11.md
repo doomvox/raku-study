@@ -1,25 +1,25 @@
-- [meeting notes July 11, 2021](#org8c68276)
-  - [starry dynamo of night](#org01dd49e)
-    - [bruce blog post perl weekly challenge](#org264ba53)
-    - [working towards a Data::Math for raku: dualmap (not published yet)](#org947b00c)
-    - [david: has a perl utility he wants to talk about (next meeting?)](#orgdf91280)
-    - [small bits related to dualmap project](#org3cb5067)
-    - [placeholder vars: $<sup>a</sup> $<sup>b</sup>](#org8a942a2)
-    - [bruce dry-run of raku conference talk](#orge51c39a)
-    - [alan recommends: herbert simon "sciences of the artificial"](#org577fe03)
+- [meeting notes July 11, 2021](#orgb638786)
+  - [starry dynamo of night](#org2e8c1ea)
+    - [bruce blog post perl weekly challenge](#org36c8aa4)
+    - [working towards a Data::Math for raku: dualmap (not published yet)](#org4366da5)
+    - [david: has a perl utility he wants to talk about (next meeting?)](#org202feac)
+    - [small bits related to dualmap project](#org85b9d80)
+    - [placeholder vars: $<sup>a</sup> $<sup>b</sup>](#orgd8737e4)
+    - [bruce dry-run of raku conference talk](#org24a4064)
+    - [alan recommends: herbert simon "sciences of the artificial"](#org6ed223f)
 
 
-<a id="org8c68276"></a>
+<a id="orgb638786"></a>
 
 # meeting notes July 11, 2021
 
 
-<a id="org01dd49e"></a>
+<a id="org2e8c1ea"></a>
 
 ## starry dynamo of night
 
 
-<a id="org264ba53"></a>
+<a id="org36c8aa4"></a>
 
 ### bruce blog post perl weekly challenge
 
@@ -30,7 +30,7 @@
 3.  <> "superflat" trickery
 
 
-<a id="org947b00c"></a>
+<a id="org4366da5"></a>
 
 ### working towards a Data::Math for raku: dualmap (not published yet)
 
@@ -43,14 +43,14 @@
 4.  /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
 
 
-<a id="orgdf91280"></a>
+<a id="org202feac"></a>
 
 ### david: has a perl utility he wants to talk about (next meeting?)
 
 1.  uses B::Xref to look for loops in call chains
 
 
-<a id="org3cb5067"></a>
+<a id="org85b9d80"></a>
 
 ### small bits related to dualmap project
 
@@ -64,8 +64,12 @@
     
     2.  Q: how to get that to work with "use lib"
 
+4.  raku export challenged, no fine-grained import
 
-<a id="org8a942a2"></a>
+    1.  can group exports by named tags though
+
+
+<a id="orgd8737e4"></a>
 
 ### placeholder vars: $<sup>a</sup> $<sup>b</sup>
 
@@ -74,11 +78,11 @@
     1.  <https://fastapi.metacpan.org/source/PEVANS/Scalar-List-Utils-1.56/lib/List/Util.pm>
 
 
-<a id="orge51c39a"></a>
+<a id="org24a4064"></a>
 
 ### bruce dry-run of raku conference talk
 
 
-<a id="org577fe03"></a>
+<a id="org6ed223f"></a>
 
 ### alan recommends: herbert simon "sciences of the artificial"
