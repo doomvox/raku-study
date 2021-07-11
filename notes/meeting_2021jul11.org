@@ -16,4 +16,6 @@
 *** bruce dryrun of raku conference talk
 *** david perl utility
 *** bruce blog post perl weekly challenge
+**** swap nipples below 255
+**** numbering system 123, no adjacent 1s, what's 80th number
 *** 
