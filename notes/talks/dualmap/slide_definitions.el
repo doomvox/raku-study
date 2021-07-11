@@ -48,7 +48,6 @@
     ( D . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/01-qualify_dyad.t")
     ( E . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/02-dualmap.t" )
     ( F . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/03-dualmap_codeblocks.t" )
-
    ))
 
     ;; a further subject:
