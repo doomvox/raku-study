@@ -17,7 +17,7 @@ say double 21;      # 42  (( Works ))
 
 
 ## Using import to pull something in from another file doesn't seem to work, 
-## but just saying "use" seems to do imports, even without :ALL
+## but just saying "use" seems to do imports, even without :ALL 
 
 use lib $*PROGRAM.parent.add('../../lib');
 # import Data::Stub;  #  Could not find module Data::Stub to import symbols from
