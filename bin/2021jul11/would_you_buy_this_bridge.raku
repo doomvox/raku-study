@@ -22,6 +22,19 @@ my $r = $a + $b;
 
 
 
+my $a;
+my $b;
+
+my $ta  = $a.WHAT;
+my $tb  = $b.WHAT
+
+my $r = $ta + $tb;
+
+
+
+
+
+
 
 # ====
 #  sheet of cheats
