@@ -21,5 +21,5 @@ say double 21;      # 42  (( Works ))
 
 use lib $*PROGRAM.parent.add('../../lib');
 # import Data::Stub;  #  Could not find module Data::Stub to import symbols from
-use Data::Stub :ALL;
+use Data::Stub;
 say whun;  ## 1 
