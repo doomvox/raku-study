@@ -46,7 +46,7 @@
     ( B . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/Dualmap.rakumod" )
     ( C . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/Dualmap/Internal.rakumod" )
     ( D . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/01-qualify_dyad.t")
-    ( E . "/home/doom/End/Cave/ChainLightning/Talks/05-DataMath/E-hash_subtraction_fixier.pl" )
+    ( E . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/02-dualmap.t" )
 
 
    ))
