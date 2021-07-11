@@ -16,6 +16,6 @@ import Foo;         # makes sub double available
 say double 21;      # 42  (( Works ))
 
 
-use lib $*PROGRAM.parent.add('../lib');
-import Data::Stub;
+use lib $*PROGRAM.parent.add('../../]lib');
+import Data::Stub;  #  Could not find module Data::Stub to import symbols from
 whuhn;
