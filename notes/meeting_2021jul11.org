@@ -18,6 +18,8 @@
 ***** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program_location.raku
 ***** Q: how to get that to work with "use lib"
 *** A subject for later I think: $^a $^b (tried to cover it on the fly)
+**** the perl situation
+***** https://fastapi.metacpan.org/source/PEVANS/Scalar-List-Utils-1.56/lib/List/Util.pm
 *** bruce dryrun of raku conference talk
 
 

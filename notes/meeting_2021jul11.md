@@ -1,25 +1,25 @@
-- [meeting notes July 11, 2021](#org09f77bc)
-  - [starry dynamo of night](#orgf69aa75)
-    - [bruce blog post perl weekly challenge](#org71f2931)
-    - [working towards a Data::Math for raku: dualmap (not published yet)](#org7364644)
-    - [david: has a perl utility he wants to talk about (next meeting?)](#org3abcba8)
-    - [small bits related to dualmap project](#org1e0850c)
-    - [A subject for later I think: $<sup>a</sup> $<sup>b</sup> (tried to cover it on the fly)](#orgb0c6745)
-    - [bruce dryrun of raku conference talk](#orgbf684fe)
-    - [alan recommends: herbert simon "sciences of the artificial"](#org2bb5044)
+- [meeting notes July 11, 2021](#org07f5443)
+  - [starry dynamo of night](#orgbd712e0)
+    - [bruce blog post perl weekly challenge](#orgf3f9524)
+    - [working towards a Data::Math for raku: dualmap (not published yet)](#org33e2924)
+    - [david: has a perl utility he wants to talk about (next meeting?)](#orgcd7bab9)
+    - [small bits related to dualmap project](#org7446739)
+    - [A subject for later I think: $<sup>a</sup> $<sup>b</sup> (tried to cover it on the fly)](#orgfffef74)
+    - [bruce dryrun of raku conference talk](#org1ca45d0)
+    - [alan recommends: herbert simon "sciences of the artificial"](#orgfa7da99)
 
 
-<a id="org09f77bc"></a>
+<a id="org07f5443"></a>
 
 # meeting notes July 11, 2021
 
 
-<a id="orgf69aa75"></a>
+<a id="orgbd712e0"></a>
 
 ## starry dynamo of night
 
 
-<a id="org71f2931"></a>
+<a id="orgf3f9524"></a>
 
 ### bruce blog post perl weekly challenge
 
@@ -30,7 +30,7 @@
 3.  <> "superflat" trickery
 
 
-<a id="org7364644"></a>
+<a id="org33e2924"></a>
 
 ### working towards a Data::Math for raku: dualmap (not published yet)
 
@@ -43,12 +43,12 @@
 4.  /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
 
 
-<a id="org3abcba8"></a>
+<a id="orgcd7bab9"></a>
 
 ### david: has a perl utility he wants to talk about (next meeting?)
 
 
-<a id="org1e0850c"></a>
+<a id="org7446739"></a>
 
 ### small bits related to dualmap project
 
@@ -63,16 +63,20 @@
     2.  Q: how to get that to work with "use lib"
 
 
-<a id="orgb0c6745"></a>
+<a id="orgfffef74"></a>
 
 ### A subject for later I think: $<sup>a</sup> $<sup>b</sup> (tried to cover it on the fly)
 
+1.  the perl situation
 
-<a id="orgbf684fe"></a>
+    1.  <https://fastapi.metacpan.org/source/PEVANS/Scalar-List-Utils-1.56/lib/List/Util.pm>
+
+
+<a id="org1ca45d0"></a>
 
 ### bruce dryrun of raku conference talk
 
 
-<a id="org2bb5044"></a>
+<a id="orgfa7da99"></a>
 
 ### alan recommends: herbert simon "sciences of the artificial"
