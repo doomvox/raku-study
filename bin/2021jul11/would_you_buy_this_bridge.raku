@@ -26,8 +26,8 @@ use v6;
     my $a;
     my $b;
 
-    my $ta  = $a.WHAT;
-    my $tb  = $b.WHAT;
+    my $ta  = $a.WHAT[0];
+    my $tb  = $b.WHAT[0];
 
     my $r = $ta + $tb;
 }
