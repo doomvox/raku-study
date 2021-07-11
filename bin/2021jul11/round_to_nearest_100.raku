@@ -12,7 +12,10 @@ say $a.round; # 179
 
 my $A = $a / 10;
 my $b = $A.round * 10;
-say $b;
+say $b; # 180
+
+my $n = 382.99;
+my $r = ($n / 10).round * 10;
 
 
 # ====
