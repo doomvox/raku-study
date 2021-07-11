@@ -5,10 +5,6 @@
 **** numbering system 123, no adjacent 1s, what's 80th number
 **** <> "superflat" trickery
 
-*** relative path from program to other directory
-**** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program_location.raku
-**** Q: how to get that to work with "use lib"
-***** BEGIN?
 *** working towards a Data::Math for raku: dualmap
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/Qualify.rakumod
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/01-qualify_dyad.t
@@ -17,6 +13,11 @@
 *** small bits related to dualmap project
 **** distinguishing between Positional and Associative
 **** creating new entries of same type as old
+**** relative path from program to other directory
+***** /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar28/program_location.raku
+***** Q: how to get that to work with "use lib"
+***** BEGIN?
+
 *** A subject for later I think: $^a $^b
 *** bruce dryrun of raku conference talk
 *** david: has a perl utility he wants to talk about (next meeting?)
