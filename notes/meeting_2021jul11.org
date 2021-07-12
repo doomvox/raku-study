@@ -1,18 +1,18 @@
 * meeting notes July 11, 2021
 ** starry dynamo of night
-*** DONE bruce blog post perl weekly challenge
+*** bruce blog post perl weekly challenge
 **** swap nipples below 255
 **** numbering system 123, no adjacent 1s, what's 80th number
 **** <> "superflat" trickery
 
-*** DONE working towards a Data::Math for raku: dualmap (not published yet)
+*** working towards a Data::Math for raku: dualmap (not published yet)
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/Qualify.rakumod
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/01-qualify_dyad.t
 **** /home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/MapDual.rakumod
 **** /home/doom/End/Cave/DataMathRaku/Notes/notes-dualmap
-*** DONE david: has a perl utility he wants to talk about (next meeting?)
+*** david: has a perl utility he wants to talk about (next meeting?)
 **** uses B::Xref to look for loops in call chains
-*** DONE small bits related to dualmap project
+*** small bits related to dualmap project
 **** distinguishing between Positional and Associative
 **** creating new entries of same type as old
 **** relative path from program to other directory
@@ -21,7 +21,7 @@
 **** raku export challenged, no fine-grained import
 ***** can group exports by named tags though
 
-*** DONE placeholder vars: $^a $^b 
+*** placeholder vars: $^a $^b 
 **** the old perl situation
 ***** https://fastapi.metacpan.org/source/PEVANS/Scalar-List-Utils-1.56/lib/List/Util.pm
 *** bruce dry-run of raku conference talk
