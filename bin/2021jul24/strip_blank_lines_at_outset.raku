@@ -52,9 +52,9 @@ for @p -> $p {
     say $p.values;    #  6
 }
 
-# 0 => eggs => 3
+# 0 => eggs     => 3
 # 1 => potatoes => 1
-# 2 => cheese => 0.4
+# 2 => cheese   => 0.4
 
 say %fried.WHAT;  # (Hash)
 say $fried.WHAT;  # (List)
