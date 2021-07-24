@@ -34,7 +34,6 @@ my $fried = { 'eggs'     => 3,
               'cheese'   => 0.4,
               };
 
-
 say "NOW what: $fried";
 
 say $fried.kv;  # (0 eggs => 3 1 potatoes => 1 2 cheese => 0.4)
