@@ -35,4 +35,4 @@ my $fried = ( 'eggs' => 3,
               'cheese' => 0.4,
               );
 
-say "now what $fried";
+say "now what: $fried";
