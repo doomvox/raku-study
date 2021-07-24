@@ -9,7 +9,7 @@ $stringy ~~ s/ing/org/;
 say $stringy;
 
 my $unstrung = | $stringy;
-$unstring ~~ s/ing/org/;
+$unstrung ~~ s/ing/org/;
 
 
 
