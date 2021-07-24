@@ -4,4 +4,6 @@
 
 use v6;
 
+my $file ="/home/doom/tmp/lineotypoblankosity.txt";
 
+say $file.slurp;
