@@ -8,7 +8,6 @@ use v6;
 say '$333' ~~ m/^^ \$ \d+ /;  # ｢$333｣
 
 ## The docs use this:
-
 say '$333' ~~ m/^^ <?[$]> . \d+ /;  # «｢$333｣␤» 
 
 ## Bill raises question, why doesn't this work:
