@@ -6,7 +6,7 @@ use v6;
 
 my $file ="/home/doom/tmp/lineotypoblankosity.txt";
 
-say $file.IO.slurp;
+# say $file.IO.slurp;
 
 for $file.IO.lines -> $line  {
     say "line: $line";
