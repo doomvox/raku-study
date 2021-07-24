@@ -19,4 +19,4 @@ my @lines =  $file.IO.lines;
 # say @lines.join("\n");
 # @lines.join("\n").say;
 
-say "@lines";
+say "{@lines}";
