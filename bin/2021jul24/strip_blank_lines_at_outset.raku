@@ -17,4 +17,4 @@ my $file ="/home/doom/tmp/lineotypoblankosity.txt";
 my @lines =  $file.IO.lines;
 # say @lines.join("\n");
 
-@lines.say;
+@lines.join("\n").say;
