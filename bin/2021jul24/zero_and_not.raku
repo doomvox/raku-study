@@ -35,5 +35,5 @@ say '$1'  ~~ m/ <?[$]> \d+/;       # False
 # (<[\b]>).
 
 
-say 'abd cde'  ~~ m/<!w>/;
+# say 'abd cde'  ~~ m/<!w>/;
 say 'abd cde'  ~~ m/<?wb>/;
