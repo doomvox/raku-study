@@ -21,6 +21,11 @@ my $stang := "dingy";
 my $new = $stang ~~ S/d/st/;
 say $new;  # False
 
+# bill example:
+#  cat ../test_this_alpha.txt | perl6 -e 's:g/^\n+|<(\n)>\n+$//.put given slurp;'
+#  Cannot modify an immutable Str (a
+
+
 
 
 # ====
