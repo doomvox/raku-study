@@ -57,5 +57,5 @@ for @p -> $p {
 # 1 => potatoes => 1
 # 2 => cheese => 0.4
 
-say %fried.WHAT;
+say %fried.WHAT;  # (Hash)
 say $fried.WHAT;  # (List)
