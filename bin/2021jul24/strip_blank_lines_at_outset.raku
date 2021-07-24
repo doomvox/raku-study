@@ -46,3 +46,7 @@ say @p.elems;  # 3
 
 my @e = $fried.kv;
 say @e.elems;  # 6
+
+for @p -> $p {
+    say $p;
+    }
