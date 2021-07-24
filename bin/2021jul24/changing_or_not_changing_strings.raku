@@ -19,7 +19,7 @@ my $stang := "dingy";
 
 
 my $new = $stang ~~ S/d/st/;
-say $new;
+say $new;  # False
 
 
 
