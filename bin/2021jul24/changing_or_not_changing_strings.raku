@@ -15,7 +15,7 @@ say $unstrung;
 
 my $stang := "dingy";  
 # $stang ~~ s/d/st/;          #  Cannot modify an immutable Str (dingy)
-say $stang;
+# say $stang;
 
 
 my $new = $stang ~~ S/d/st/;
