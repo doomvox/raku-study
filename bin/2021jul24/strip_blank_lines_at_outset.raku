@@ -4,7 +4,9 @@
 
 use v6;
 
-my $file ="/home/doom/tmp/lineotypoblankosity.txt";
+# my $file ="/home/doom/tmp/lineotypoblankosity.txt";
+
+my $file = "/home/doom/Dust/Texts/JohnDewey/essaysinexperim03dewegoog_djvu.txt";
 
 # say $file.IO.slurp;
 
@@ -12,5 +14,5 @@ my @lines =  $file.IO.lines;
 
 # say @lines.elems; # 9
 
-say @lines[3];
+say @lines[3];  # fourth line now!
 
