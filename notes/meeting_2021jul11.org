@@ -28,5 +28,5 @@
 
 *** alan recommends: herbert simon "sciences of the artificial"
 
-*** next raku study group: July 25th
+*** next raku study group: July 25th (( oops: went with July 24th ))
 
