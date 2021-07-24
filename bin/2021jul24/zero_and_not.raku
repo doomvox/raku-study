@@ -12,7 +12,6 @@ say '$333' ~~ m/^^ \$ \d+ /;  # ｢$333｣
 say '$333' ~~ m/^^ <?[$]> . \d+ /;  # «｢$333｣␤» 
 
 ## Bill raises question, why doesn't this work:
-
 say '$333' ~~ m/^^ .  <?[$]> \d+ /;  # False
 
 
