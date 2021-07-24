@@ -58,4 +58,4 @@ for @p -> $p {
 say %fried.WHAT;  # (Hash)
 say $fried.WHAT;  # (List)
 
-
+say "===";
