@@ -11,5 +11,5 @@ my @lines =  $file.IO.lines;
 
 # say @lines.elems; # 9
 
-say @lines[100];  
+say @lines[101];  
 
