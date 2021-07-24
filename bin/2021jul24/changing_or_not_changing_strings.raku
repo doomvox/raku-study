@@ -5,11 +5,11 @@
 use v6;
 
 my $stringy = "dingy";
-$string ~~ s/ing/org/;
-say $string;
+$stringy ~~ s/ing/org/;
+say $stringy;
 
 my $unstrung = | $stringy;
-
+$unstring ~~ s/ing/org/;
 
 
 
