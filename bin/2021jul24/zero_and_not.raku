@@ -33,3 +33,6 @@ say '$1'  ~~ m/ <?[$]> \d+/;       # False
 # « and » for left/right boundaries).  If you meant the backspace
 # character, quote it ("\b") or use it as inside a character class
 # (<[\b]>).
+
+
+say 'abd'  ~~ m/\s/;       
