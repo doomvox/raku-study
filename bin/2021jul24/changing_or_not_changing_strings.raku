@@ -13,8 +13,9 @@ $unstrung ~~ s/ing/org/;
 say $unstrung;
 
 
-my $stringy := "dingy";
-
+my $stang := "dingy";
+$stang ~~ s/st/d/;
+say $stang;
 
 # ====
 #  sheet of cheats
