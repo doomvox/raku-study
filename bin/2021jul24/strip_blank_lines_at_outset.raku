@@ -25,4 +25,4 @@ my %fried = ( 'eggs' => 3,
               'cheese' => 0.4,
               );
 
-say "%fried";
+say "%fried.gist";
