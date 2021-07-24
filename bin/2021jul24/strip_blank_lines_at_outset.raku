@@ -8,6 +8,6 @@ my $file ="/home/doom/tmp/lineotypoblankosity.txt";
 
 # say $file.IO.slurp;
 
-for $file.IO.lines -> $line  {
-    say "line: $line";
-}
+my @lines =  $file.IO.lines;
+
+
