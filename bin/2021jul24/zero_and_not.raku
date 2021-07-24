@@ -38,3 +38,8 @@ say '$1'  ~~ m/ <?[$]> \d+/;       # False
 say 'abd cde'  ~~ m/d<|w>/;   #  ｢d｣
 
 say 'abd cde'  ~~ m/<?wb>c/;  #  ｢c｣
+
+## small bug there <!w> works, but <?wb> is better documented
+##  https://docs.raku.org/language/regexes#Lookaround_assertions
+# Summary of anchors
+# <!wb> 	Not a word boundary 	"t⏏w⏏o w⏏o⏏r⏏d⏏s~⏏!"
