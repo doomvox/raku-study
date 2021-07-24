@@ -8,6 +8,7 @@ my $stringy = "dingy";
 $string ~~ s/ing/org/;
 say $string;
 
+my $unstrung = | $stringy;
 
 
 
