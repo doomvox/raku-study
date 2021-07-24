@@ -19,7 +19,7 @@ say $stang;
 
 
 my $new = $stang ~~ S/d/st/;
-
+say $new;
 
 
 
