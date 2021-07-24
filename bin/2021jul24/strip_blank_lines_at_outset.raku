@@ -46,9 +46,9 @@ my @e = $fried.kv;
 say @e.elems;  # 6
 
 for @p -> $p {
-    say $p;           #  potatoes => 1
-    say $p.keys;      #  3
-    say $p.values;    #  6
+    say $p;           
+    say $p.keys;      
+    say $p.values;    
 }
 
 # 0 => eggs     => 3
@@ -57,3 +57,5 @@ for @p -> $p {
 
 say %fried.WHAT;  # (Hash)
 say $fried.WHAT;  # (List)
+
+
