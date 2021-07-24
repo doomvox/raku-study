@@ -15,6 +15,8 @@ use v6;
 my $file ="/home/doom/tmp/lineotypoblankosity.txt";
 
 my @lines =  $file.IO.lines;
-# say @lines.join("\n");
 
-@lines.join("\n").say;
+# say @lines.join("\n");
+# @lines.join("\n").say;
+
+say "@lines";
