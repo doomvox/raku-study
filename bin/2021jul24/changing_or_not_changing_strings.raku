@@ -5,7 +5,7 @@
 use v6;
 
 my $stringy = "dingy";
-$stringy ~~ s/ing/org/;
+$stringy ~~ s/ing/ork/;
 say $stringy;
 
 my $unstrung = | $stringy;
