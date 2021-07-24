@@ -20,9 +20,9 @@ my @lines =  $file.IO.lines;
 
 say "My email is doomvox@gmail.com";
 
-my %fried = ( 'eggs' => 3,
+my %fried = ( 'eggs'     => 3,
               'potatoes' => 1,
-              'cheese' => 0.4,
+              'cheese'   => 0.4,
               );
 
 say %fried;
