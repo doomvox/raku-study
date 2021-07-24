@@ -50,3 +50,7 @@ say @e.elems;  # 6
 for @p -> $p {
     say $p;
     }
+
+# 0 => eggs => 3
+# 1 => potatoes => 1
+# 2 => cheese => 0.4
