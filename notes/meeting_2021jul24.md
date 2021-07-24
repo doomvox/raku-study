@@ -1,18 +1,24 @@
-- [meeting notes July 24, 2021](#orgf3b2782)
-  - [special staturday session](#org2ea5812)
-    - [which we're commemorating with a complete lack of preparation](#org12fc922)
+- [meeting notes July 24, 2021](#org87c7ef3)
+  - [special staturday session](#org27e9be5)
+    - [which we're commemorating with a complete lack of preparation](#org9dc1fd1)
+  - [bill's discussion on an upcoming lightning talk](#org6fed821)
 
 
-<a id="orgf3b2782"></a>
+<a id="org87c7ef3"></a>
 
 # meeting notes July 24, 2021
 
 
-<a id="org2ea5812"></a>
+<a id="org27e9be5"></a>
 
 ## special staturday session
 
 
-<a id="org12fc922"></a>
+<a id="org9dc1fd1"></a>
 
 ### which we're commemorating with a complete lack of preparation
+
+
+<a id="org6fed821"></a>
+
+## bill's discussion on an upcoming lightning talk
