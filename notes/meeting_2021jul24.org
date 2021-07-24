@@ -2,3 +2,4 @@
 ** special staturday session
 *** which we're commemorating with a complete lack of preparation
 ** bill's discussion on an upcoming lightning talk
+*** intro to raku regexes, working with negro baseball league data
