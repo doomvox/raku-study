@@ -3,3 +3,5 @@
 *** which we're commemorating with a complete lack of preparation
 ** bill's discussion on an upcoming lightning talk
 *** intro to raku regexes, working with negro baseball league data
+https://nlbm.mlblogs.com/negro-leagues-players-played-major-role-in-world-war-ii-4bc5cb125b7f
+*** 
