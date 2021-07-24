@@ -18,5 +18,5 @@ my @lines =  $file.IO.lines;
 
 say @lines.join("\n");
 
-
+say "@lines";
 
