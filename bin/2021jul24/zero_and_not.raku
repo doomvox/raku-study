@@ -28,7 +28,7 @@ say '333$' ~~ m/ \d+ <![$]>/;       # ｢33｣
 say '1$'  ~~ m/ \d+ <?[$]>/;       # ｢1｣
 say '$1'  ~~ m/ <?[$]> \d+/;       # False
 
-say 'abd'  ~~ m/\b/;       
+# say 'abd'  ~~ m/\b/;       
 # Unsupported use of \b.  In Raku please use: <|w> for word boundary (or
 # « and » for left/right boundaries).  If you meant the backspace
 # character, quote it ("\b") or use it as inside a character class
