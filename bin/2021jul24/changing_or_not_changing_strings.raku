@@ -13,9 +13,15 @@ $unstrung ~~ s/ing/org/;
 say $unstrung;
 
 
-my $stang := "dingy";
-$stang ~~ s/d/st/;
+my $stang := "dingy";  
+$stang ~~ s/d/st/;          #  Cannot modify an immutable Str (dingy)
 say $stang;
+
+
+my $new = $stang ~~ S/d/st/;
+
+
+
 
 # ====
 #  sheet of cheats
