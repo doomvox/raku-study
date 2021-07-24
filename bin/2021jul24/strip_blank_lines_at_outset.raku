@@ -30,9 +30,9 @@ say %fried;
 say "my recipie: { %fried.gist }";
 
 
-my $fried = ( 'eggs' => 3,
+my $fried = ( 'eggs'     => 3,
               'potatoes' => 1,
-              'cheese' => 0.4,
+              'cheese'   => 0.4,
               );
 
 say "now what: $fried";
@@ -42,7 +42,7 @@ say $fried.kv;  # (0 eggs => 3 1 potatoes => 1 2 cheese => 0.4)
 say $fried.kv.[3]; # potatoes => 1
 
 my @p = $fried.pairs;
-say @p.elems;
+say @p.elems;  # 3
 
 my @e = $fried.kv;
-say @e.elems;
+say @e.elems;  # 6
