@@ -12,8 +12,6 @@ use v6;
 
 # say @lines[3];  
 
-
-
 my $file ="/home/doom/tmp/lineotypoblankosity.txt";
 
 my @lines =  $file.IO.lines;
