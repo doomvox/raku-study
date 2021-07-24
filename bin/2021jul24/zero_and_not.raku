@@ -36,7 +36,5 @@ say '$1'  ~~ m/ <?[$]> \d+/;       # False
 
 
 say 'abd cde'  ~~ m/d<|w>/;   #  ｢d｣
-# No such method 'w' for invocant of type 'Match'.  Did you mean any of
-# these: 'wb', 'ws', 'ww'?
 
 say 'abd cde'  ~~ m/<?wb>c/;  #  ｢c｣
