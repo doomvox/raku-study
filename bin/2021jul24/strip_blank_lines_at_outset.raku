@@ -24,3 +24,5 @@ my %fried = ( 'eggs' => 3,
               'potatoes' => 1,
               'cheese' => 0.4,
               );
+
+say "%fried";
