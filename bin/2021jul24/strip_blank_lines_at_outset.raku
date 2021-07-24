@@ -10,4 +10,4 @@ my $file ="/home/doom/tmp/lineotypoblankosity.txt";
 
 my @lines =  $file.IO.lines;
 
-say @lines.elems;
+# say @lines.elems; # 9
