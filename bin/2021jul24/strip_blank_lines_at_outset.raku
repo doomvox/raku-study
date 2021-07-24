@@ -49,7 +49,9 @@ say @e.elems;  # 6
 
 for @p -> $p {
     say $p;
-    }
+    say $p.keys;
+    say $p.values;
+}
 
 # 0 => eggs => 3
 # 1 => potatoes => 1
