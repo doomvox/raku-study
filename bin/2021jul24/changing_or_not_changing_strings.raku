@@ -13,7 +13,7 @@ $unstrung ~~ s/ing/org/;
 say $unstrung;
 
 
-
+my $stringy := "dingy";
 
 
 # ====
