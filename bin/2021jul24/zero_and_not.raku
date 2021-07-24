@@ -7,6 +7,7 @@ use v6;
 ## Even though this works:
 say '$333' ~~ m/^^ \$ \d+ /;  # ｢$333｣
 
+## https://docs.raku.org/syntax/positive%20lookaround%20assertion
 ## The docs use this:
 say '$333' ~~ m/^^ <?[$]> . \d+ /;  # «｢$333｣␤» 
 
