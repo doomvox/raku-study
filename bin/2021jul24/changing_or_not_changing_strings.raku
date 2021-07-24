@@ -14,7 +14,7 @@ say $unstrung;
 
 
 my $stang := "dingy";
-$stang ~~ s/st/d/;
+$stang ~~ s/d/st/;
 say $stang;
 
 # ====
