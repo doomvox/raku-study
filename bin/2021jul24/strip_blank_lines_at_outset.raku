@@ -27,4 +27,4 @@ my %fried = ( 'eggs' => 3,
 
 say %fried;
 
-say "{ %fried.gist }";
+say "my recipie: { %fried.gist }";
