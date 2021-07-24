@@ -39,4 +39,10 @@ say "now what: $fried";
 
 say $fried.kv;  # (0 eggs => 3 1 potatoes => 1 2 cheese => 0.4)
 
-say $fried.kv.[3];
+say $fried.kv.[3]; # potatoes => 1
+
+my @p = $fried.pairs;
+say @p.elems;
+
+my @e = $fried.kv;
+say @e.elems;
