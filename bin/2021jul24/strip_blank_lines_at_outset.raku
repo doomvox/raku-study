@@ -28,3 +28,11 @@ my %fried = ( 'eggs' => 3,
 say %fried;
 
 say "my recipie: { %fried.gist }";
+
+
+my $fried = ( 'eggs' => 3,
+              'potatoes' => 1,
+              'cheese' => 0.4,
+              );
+
+say "now what $fried";
