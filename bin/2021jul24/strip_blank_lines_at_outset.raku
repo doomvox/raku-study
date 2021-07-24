@@ -56,3 +56,5 @@ for @p -> $p {
 # 0 => eggs => 3
 # 1 => potatoes => 1
 # 2 => cheese => 0.4
+
+say $fried.WHAT;
