@@ -36,3 +36,6 @@ my $fried = ( 'eggs' => 3,
               );
 
 say "now what: $fried";
+
+say $fried.kv;
+
