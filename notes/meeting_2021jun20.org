@@ -95,14 +95,14 @@ https://github.com/tadzik/File-Find
 #+BEGIN_SRC text
 
 I was trying to use an old library of perl regexes via :P5, and I was
-having trouble with the embedded pattern-match modifiers:
+having trouble with the embedded pattern-match modifiers, e.g.
 
   m:P5/(?^i: ... )/
 
 My first preference would be to get :P5 working so
-that it's perfectly compatible with perl, second best
+that it's perfectly compatible with perl; second best
 would be to carefully document the ways it's not
-compatible, third best would be to deprecate it and
+compatible; third best would be to deprecate it and
 generate a warning when you try to use it.
 
 The absolute worst thing to do is what's currently
