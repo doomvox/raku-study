@@ -102,8 +102,8 @@ generate a warning when you try to use it.
 
 The absolute worst thing to do is what's currently
 being done: leaving a semi-broken feature lying
-around, and then when someone trips over it imply
-they're dumb for trying to use it.  
+around (and then when someone trips over it imply
+they're dumb for trying to use it).  
 
 This issue has been open for over two years now. 
 
