@@ -99,8 +99,6 @@ having trouble with the embedded pattern-match modifiers:
 
   m:P5/(?^i: ... )/
 
-
-
 My first preference would be to get :P5 working so
 that it's perfectly compatible with perl, second best
 would be to carefully document the ways it's not
