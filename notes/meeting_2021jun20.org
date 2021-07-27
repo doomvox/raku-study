@@ -94,6 +94,13 @@ https://github.com/tadzik/File-Find
 
 #+BEGIN_SRC text
 
+I was trying to use an old library of perl regexes via :P5, and I was
+having trouble with the embedded pattern-match modifiers:
+
+  m:P5/(?^i: ... )/
+
+
+
 My first preference would be to get :P5 working so
 that it's perfectly compatible with perl, second best
 would be to carefully document the ways it's not
@@ -107,9 +114,6 @@ dumb for trying to use it).
 
 This issue has been open for over two years now. 
 
-I was having trouble with the embedded pattern-match modifiers:
-
-  m:P5/(?^i: ... )/
 
 #END_SRC
 
