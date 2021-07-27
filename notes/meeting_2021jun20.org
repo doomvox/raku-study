@@ -107,6 +107,9 @@ dumb for trying to use it).
 
 This issue has been open for over two years now. 
 
+I was having trouble with the embedded pattern-match modifiers:
+
+  m:P5/(?^i: ... )/
 
 
 
