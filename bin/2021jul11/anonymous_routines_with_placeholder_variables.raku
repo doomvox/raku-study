@@ -33,7 +33,9 @@ say &marine( 3, 2 ); # 1
 my &traction := { $^a - $^b };
 say &traction( 7, 3 );  # 4
 
+say %mission.WHAT;
 &mission =  { $^a ** $^b };
 say &mission( 2, 3 );  # 8
+say %mission.WHAT;
 
 # &marine = sub { $^a ** $^b };
