@@ -17,4 +17,4 @@ say $cognito.WHAT; # (Block)
 # Block is better...
 
 
-$cognito( 1, 2, 3);
+say $cognito( 1, 2, 3);
