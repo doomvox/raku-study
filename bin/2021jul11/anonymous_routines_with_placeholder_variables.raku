@@ -23,7 +23,6 @@ say $cognito.WHAT; # (Block)
 my &over = { $^a * $^b };
 say &over( 3, 3 ); # 9
 
-
 my &mission = sub { $^a * $^b };
 say &mission( 5, 4 ); # 20
 
