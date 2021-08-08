@@ -25,3 +25,4 @@ say &over( 3, 3 ); # 9
 
 
 my &mission = sub { $^a * $^b };
+&mission( 5, 4 );
