@@ -21,5 +21,4 @@ say $cognito.WHAT; # (Block)
 # Too many positionals passed; expected 2 arguments but got 3
 
 my &over = { $^a * $^b };
-
-say &over( 3, 3 );
+say &over( 3, 3 ); # 9
