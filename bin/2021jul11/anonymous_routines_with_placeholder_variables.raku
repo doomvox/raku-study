@@ -25,4 +25,7 @@ say &over( 3, 3 ); # 9
 
 
 my &mission = sub { $^a * $^b };
-say &mission( 5, 4 );
+say &mission( 5, 4 ); # 20
+
+my &marine := sub { $^a - $^b };
+say &marine( 3, 2 );
