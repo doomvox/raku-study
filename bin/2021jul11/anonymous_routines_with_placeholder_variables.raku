@@ -15,3 +15,6 @@ say $cognito.WHAT; # (Block)
 # my impulse is to specify Code... but if
 # there's no use for a whatever star, maybe
 # Block is better...
+
+
+$cognito( 1, 2, 3);
