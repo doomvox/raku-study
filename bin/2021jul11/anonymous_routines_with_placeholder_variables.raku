@@ -17,4 +17,5 @@ say $cognito.WHAT; # (Block)
 # Block is better...
 
 
-say $cognito( 1, 2, 3);
+# say $cognito( 1, 2, 3);
+# Too many positionals passed; expected 2 arguments but got 3
