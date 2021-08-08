@@ -29,3 +29,6 @@ say &mission( 5, 4 ); # 20
 
 my &marine := sub { $^a - $^b };
 say &marine( 3, 2 ); # 1
+
+my &traction := { $^a - $^b };
+say &traction( 7, 3 );
