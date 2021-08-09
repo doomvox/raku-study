@@ -37,4 +37,4 @@ say &mission.WHAT;  # (Sub)
 say &mission.WHAT;  # (Block)
 say &mission( 2, 3 );  # 8
 
-# &marine = sub { $^a ** $^b };
+&marine = sub { $^a ** $^b };
