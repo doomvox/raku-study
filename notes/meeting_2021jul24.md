@@ -1,39 +1,39 @@
-- [meeting notes July 24, 2021](#org772282c)
-  - [special staturday session](#orgfc1f682)
-    - [which we're commemorating with a complete lack of preparation](#org9dfa641)
-  - [bill's discussion on an upcoming lightning talk](#orgd24ac08)
-    - [intro to raku regexes, working with negro baseball league data](#org00e1b89)
-    - [my favorite BASIC program](#org67bea1f)
+- [meeting notes July 24, 2021](#org3692325)
+  - [special staturday session](#orgd7f8c6a)
+    - [which we're commemorating with a complete lack of preparation](#org477acf6)
+  - [bill's discussion on an upcoming lightning talk](#orgc58bcb1)
+    - [intro to raku regexes, working with negro baseball league data](#org0fb45b4)
+    - [my favorite BASIC program](#org2613731)
 
 
-<a id="org772282c"></a>
+<a id="org3692325"></a>
 
 # meeting notes July 24, 2021
 
 
-<a id="orgfc1f682"></a>
+<a id="orgd7f8c6a"></a>
 
 ## special staturday session
 
 
-<a id="org9dfa641"></a>
+<a id="org477acf6"></a>
 
 ### which we're commemorating with a complete lack of preparation
 
 
-<a id="orgd24ac08"></a>
+<a id="orgc58bcb1"></a>
 
 ## bill's discussion on an upcoming lightning talk
 
 
-<a id="org00e1b89"></a>
+<a id="org0fb45b4"></a>
 
 ### intro to raku regexes, working with negro baseball league data
 
 <https://nlbm.mlblogs.com/negro-leagues-players-played-major-role-in-world-war-ii-4bc5cb125b7f>
 
 
-<a id="org67bea1f"></a>
+<a id="org2613731"></a>
 
 ### my favorite BASIC program
 
