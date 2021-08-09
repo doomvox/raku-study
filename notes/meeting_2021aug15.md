@@ -1,13 +1,13 @@
-- [yow](#org13e0301)
-  - [](#org17474c9)
+- [meeting notes August 15, 2021](#org48405b3)
+  - [](#orgc647cb2)
 
 
-<a id="org13e0301"></a>
+<a id="org48405b3"></a>
 
-# yow
+# meeting notes August 15, 2021
 
 
-<a id="org17474c9"></a>
+<a id="orgc647cb2"></a>
 
 ## 
 
