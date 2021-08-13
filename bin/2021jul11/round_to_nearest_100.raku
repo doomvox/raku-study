@@ -39,6 +39,13 @@ say $r; # 380
 # https://docs.raku.org/routine/round
 
 
+# (Real) method round
+
+# method round(Real:D: $scale = 1)
+
+# Rounds the number to scale $scale. If $scale is 1, rounds to an
+# integer. If scale is 0.1, rounds to one digit after the radix
+# point (period or comma), etc.
 
     my $n  = 123.45;
     my $r1  = $n.round( 10 );  ## This works 
