@@ -5,5 +5,6 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines
 *** misc sub-topics:
 **** $code vs &code
 **** sub vs block
+***** subs can use return
 **** placeholder vars idiom
 ***** use the hat just once (the condom convention)
