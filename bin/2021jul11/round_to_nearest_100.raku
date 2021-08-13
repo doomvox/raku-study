@@ -76,11 +76,10 @@ say $r; # 380
 
 }
 
-=pod
+=begin pod
 
 The documentation for the round method doesn't describe the way
 it actually works very well:
-
 # https://docs.raku.org/routine/round
 
 # (Real) method round
@@ -98,7 +97,7 @@ it actually works very well:
 
 
 
-=cut
+=end pod
 
 
 # ===
