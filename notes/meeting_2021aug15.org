@@ -2,3 +2,8 @@
 ** callbacks
 *** aka (in perl5 land) anonymous subs
 https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku
+*** misc sub-topics:
+**** $code vs &code
+**** sub vs block
+**** placeholder vars idiom
+***** follow the condom convention: use the hat just once
