@@ -88,7 +88,11 @@ say $r; # 380
 
 =begin pod
 
-The documentation for the round method has an unintentionally confusing usage shown:
+The documentation for the round method has an unintentionally confusing usage shown.
+I've got roughly three complaints about small things that seem suboptimal to me, 
+but (a) that's quite a bit for a tiny place in the documentation, (b) this is not
+the only place these points come up:
+
 
   https://docs.raku.org/routine/round
 
@@ -133,6 +137,13 @@ The documentation for the round method has an unintentionally confusing usage sh
    Understanding that "Real:D" can mean some numeric variable isn't rocket-science,
    but it's really better to use code examples that are as close to actual code 
    as possible.
+
+   Still another point: to my ear, the term "scale" isn't right at all.  You round
+   off to a "place", you might round off using a "mask", I might think about it as
+   a desired level of granularity or something: it's a stretch to call that argument
+   a "scale".
+
+
 
 
 
