@@ -85,18 +85,24 @@ say $r; # 380
 
 The documentation for the round method has an unintentionally confusing usage shown:
 
-# https://docs.raku.org/routine/round
+  https://docs.raku.org/routine/round
 
-# (Real) method round
+     method round(Real:D: $scale = 1)
 
-# method round(Real:D: $scale = 1)
-
-# Rounds the number to scale $scale. If $scale is 1, rounds to an
-# integer. If scale is 0.1, rounds to one digit after the radix
-# point (period or comma), etc.
+   Rounds the number to scale $scale. If $scale is 1, rounds to an
+   integer. If scale is 0.1, rounds to one digit after the radix
+   point (period or comma), etc.
 
 
-    # my $r3  = $n.round( $scale = 10 );    # Variable '$scale' is not declared
+   I originally misread that, thinking it was saying to do something like this:
+
+     my $rounded  = $number.round( scale => 10 );    
+
+
+
+   If you took it literally
+
+     my $rounded  = $number.round( $scale = 10 );    
 
     my $r6  = round( $n,  10 );   # This works
 
