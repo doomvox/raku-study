@@ -122,7 +122,17 @@ The documentation for the round method has an unintentionally confusing usage sh
    just a distraction because what you'd probably want to do is
    just this:
 
-    my $r6  = round( $n,  10 );   
+     my $rounded  = $number.round( 10 );   
+     my $rounded  = round( $number,  10 );   
+
+
+   And further: those two code examples are much clearer than this signature-style:
+
+     method round(Real:D: $scale = 1)
+   
+   Understanding that "Real:D" can mean some numeric variable isn't rocket-science,
+   but it's really better to use code examples that are as close to actual code 
+   as possible.
 
 
 
