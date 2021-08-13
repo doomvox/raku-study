@@ -28,7 +28,7 @@ say $r; # 380
 
 {
     my $n  = 123.45;
-    my $r1  = $n.round( scale => 1 );
+    my $r1  = $n.round( scale => 100 );
     say $r1;
 
     my $r2 = ($n / 10).round * 10;
