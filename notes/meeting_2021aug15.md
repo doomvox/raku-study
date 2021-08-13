@@ -1,31 +1,31 @@
-- [meeting notes August 15, 2021](#org1d659d0)
-  - [callbacks](#org93e3cb7)
-    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#org50136f4)
-    - [misc sub-topics:](#org5cd144e)
-  - [.round arguments](#orgd60d53d)
-  - [First Data::Dualmap release](#orgdd776b2)
-    - [should handle all built-in datatypes](#org5a6c76b)
-    - [has most features of my perl5 Data::Math](#orgff85a57)
+- [meeting notes August 15, 2021](#org973efc6)
+  - [callbacks](#org8f845a2)
+    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#orgdb84d19)
+    - [misc sub-topics:](#org46540d9)
+  - [.round arguments](#org96bef8b)
+  - [First Data::Dualmap release](#org3e11260)
+    - [should handle all built-in datatypes](#orgc82ae8d)
+    - [has most features of my perl5 Data::Math](#org5eb4cf2)
 
 
-<a id="org1d659d0"></a>
+<a id="org973efc6"></a>
 
 # meeting notes August 15, 2021
 
 
-<a id="org93e3cb7"></a>
+<a id="org8f845a2"></a>
 
 ## callbacks
 
 
-<a id="org50136f4"></a>
+<a id="orgdb84d19"></a>
 
 ### aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku>
 
 
-<a id="org5cd144e"></a>
+<a id="org46540d9"></a>
 
 ### misc sub-topics:
 
@@ -40,27 +40,29 @@
     1.  use the hat just once (the condom convention)
 
 
-<a id="orgd60d53d"></a>
+<a id="org96bef8b"></a>
 
 ## .round arguments
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_100.raku>
 
 
-<a id="orgdd776b2"></a>
+<a id="org3e11260"></a>
 
 ## First Data::Dualmap release
 
 
-<a id="org5a6c76b"></a>
+<a id="orgc82ae8d"></a>
 
 ### should handle all built-in datatypes
 
 
-<a id="orgff85a57"></a>
+<a id="org5eb4cf2"></a>
 
 ### has most features of my perl5 Data::Math
 
 1.  custom callbacks, numerics, strings
 
 2.  TODO implement skip<sub>keys</sub> patterns
+
+    1.  for funsies, accept junctions (use type Mu)

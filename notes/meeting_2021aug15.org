@@ -15,3 +15,4 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_1
 *** has most features of my perl5 Data::Math
 **** custom callbacks, numerics, strings
 **** TODO implement skip_keys patterns
+***** for funsies, accept junctions (use type Mu)
