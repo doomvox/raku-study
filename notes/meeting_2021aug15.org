@@ -10,7 +10,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines
 ***** use the hat just once (the condom convention)
 ** .round arguments
 https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_100.raku
-** First Data::Dualmap release
+** Data::Dualmap, first release
 *** should handle all built-in datatypes
 *** has most features of my perl5 Data::Math
 **** custom callbacks, numerics, strings
