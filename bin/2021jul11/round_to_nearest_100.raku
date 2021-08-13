@@ -57,11 +57,13 @@ say $r; # 380
     say $r2; # 120
 
     # This doesn't compile:
+    # my $r3  = $n.round( $scale = 10 );    # Variable '$scale' is not declared
+    # say "3:",  $r3;
+
+
+    # This doesn't compile, either:
     # my $r3  = $n.round( scale = 10 );   # Preceding context expects a term, but found infix = instead.
     # say $r3;
-
-    my $r3  = $n.round( $scale = 10 );   
-    say "3:",  $r3;
 
 
 
