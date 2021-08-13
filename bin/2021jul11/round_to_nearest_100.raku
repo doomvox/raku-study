@@ -59,7 +59,6 @@ say $r; # 380
 
     ## TODO report documentation bug
 
-
 }
 
 
