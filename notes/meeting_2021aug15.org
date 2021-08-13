@@ -6,4 +6,4 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines
 **** $code vs &code
 **** sub vs block
 **** placeholder vars idiom
-***** follow the condom convention: use the hat just once
+***** use the hat just once (the condom convention)
