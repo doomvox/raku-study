@@ -55,7 +55,7 @@ say $r; # 380
     # say $r5;
 
     my $r6  = round( $n, scale => 10 );   # Unexpected named argument 'scale' passed
-    say $r5;
+    say $r6;
 
 
 }
