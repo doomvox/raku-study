@@ -26,6 +26,12 @@ say $r; # 380
   #          my $r = $n.round(.1);  
 
 
+{
+    my $n  = 123.45;
+    my $r  = $n.round( scale => .1 );
+    say $r;
+
+}
 
 # ===
 # Author:  doom@kzsu.stanford.edu
