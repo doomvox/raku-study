@@ -21,6 +21,12 @@ say $r; # 380
 ## Note: would not be surprised if .round has this feature built-in.
 
 
+  # There's supposed to be an argument to round I could use to simplify this:
+  #          my $r = ($n / 10).round * 10;
+  #          my $r = $n.round(.1);  
+
+
+
 
 # ====
 #  sheet of cheats
