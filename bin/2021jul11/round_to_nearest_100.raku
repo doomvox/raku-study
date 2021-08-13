@@ -45,8 +45,8 @@ say $r; # 380
     say $r2; # 120
 
     # This doesn't compile:
-    my $r3  = $n.round( scale = 10 );   # Preceding context expects a term, but found infix = instead.
-    say $r3;
+    # my $r3  = $n.round( scale = 10 );   # Preceding context expects a term, but found infix = instead.
+    # say $r3;
 
     my $r4  = $n.round( scale => 10 );  ## This doesn't work
     say $r4;
