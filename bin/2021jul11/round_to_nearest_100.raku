@@ -63,9 +63,11 @@ say $r; # 380
     # my $r3  = $n.round( scale = 10 );   # Preceding context expects a term, but found infix = instead.
     # say $r3;
 
+    # Oh, you'd need to do this:
     my $scale;
     my $r3  = $n.round( $scale = 10 );    
-    say "3: $r3";
+    say "3: $r3";  # 3: 120
+
 
     my $r4  = $n.round( scale => 10 );  ## This doesn't work
     say $r4;  # 123, not 120
