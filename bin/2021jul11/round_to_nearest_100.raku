@@ -89,7 +89,8 @@ say $r; # 380
 =begin pod
 
 The documentation for the round method has an unintentionally confusing usage shown.
-I've got roughly three complaints about small things that seem suboptimal to me, 
+
+I've got roughly three complaints about it, mostly small things that seem suboptimal
 but (a) that's quite a bit for a tiny place in the documentation, (b) this is not
 the only place these points come up:
 
