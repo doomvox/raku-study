@@ -61,7 +61,7 @@ say $r; # 380
     # say $r3;
 
     my $r3  = $n.round( $scale = 10 );   
-    say $r3;
+    say "3:",  $r3;
 
 
 
