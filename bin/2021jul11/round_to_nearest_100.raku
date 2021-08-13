@@ -83,8 +83,8 @@ say $r; # 380
 
 =begin pod
 
-The documentation for the round method doesn't describe the way
-it actually works very well:
+The documentation for the round method has an unintentionally confusing usage shown:
+
 # https://docs.raku.org/routine/round
 
 # (Real) method round
