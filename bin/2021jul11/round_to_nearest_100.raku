@@ -124,7 +124,7 @@ the only place these points come up:
 
    But (1) I don't think I ever would and (2) the entire point is
    just a distraction because what you'd probably want to do is
-   just this:
+   just something like this:
 
      my $rounded  = $number.round( 10 );   
      my $rounded  = round( $number,  10 );   
