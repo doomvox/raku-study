@@ -138,10 +138,12 @@ the only place these points come up:
    but it's really better to use code examples that are as close to actual code 
    as possible.
 
-   Still another point: to my ear, the term "scale" isn't right at all.  You round
-   off to a "place", you might round off using a "mask", I might think about it as
-   a desired level of granularity or something: it's a stretch to call that argument
-   a "scale".
+ Still another point: to my ear, the term "scale" isn't right
+ at all.  You round off to a "place", you might round off by
+ ANDing a logical "mask", of I guess you might think about it
+ as imposing a level of granularity: I think it's a stretch to
+ call that argument a "scale", which implies it's a factor to
+ apply to the result.                                                                             
 
 
 
