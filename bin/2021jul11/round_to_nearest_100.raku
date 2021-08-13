@@ -51,7 +51,10 @@ say $r; # 380
     my $r4  = $n.round( scale => 10 );  ## This doesn't work
     say $r4;  # 123, not 120
 
-    my $r5  = round( $n, scale => 10 );  
+    # my $r5  = round( $n, scale => 10 );   # Unexpected named argument 'scale' passed
+    # say $r5;
+
+    my $r6  = round( $n, scale => 10 );   # Unexpected named argument 'scale' passed
     say $r5;
 
 
