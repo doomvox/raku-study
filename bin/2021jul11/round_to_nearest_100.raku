@@ -29,7 +29,8 @@ say $r; # 380
 {
 
 # https://raku.finanalyst.org/type/Real.html#method_round
-# method round(Real:D: $scale = 1)
+
+#   method round(Real:D: $scale = 1)
 
 # Rounds the number to scale $scale. If $scale is 1, rounds to an
 # integer. If scale is 0.1, rounds to one digit after the radix
@@ -38,15 +39,21 @@ say $r; # 380
     my $n  = 123.45;
     my $r1  = $n.round( 10 );  ## This works 
 
-    my $r1  = $n.round( scale => 10 );  ## This doesn't work
-
+    # my $r1  = $n.round( scale => 10 );  ## This doesn't work
 
     say $r1;
 
     my $r2 = ($n / 10).round * 10;
     say $r2; # 120
 
+    my $r3  = $n.round( scale = 10 );  
+    say $r3;
+
+
+
 }
+
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
