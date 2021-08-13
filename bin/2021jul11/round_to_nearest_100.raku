@@ -98,10 +98,15 @@ The documentation for the round method has an unintentionally confusing usage sh
 
      my $rounded  = $number.round( scale => 10 );    
 
+   If you took it literally, and tried to do just this:
 
+     my $rounded  = $number.round( $scale = 10 );    
 
-   If you took it literally
+   It fails to compile with a "Variable '$scale' is not declared" message.
 
+   You can do this:
+  
+     my $scale;
      my $rounded  = $number.round( $scale = 10 );    
 
     my $r6  = round( $n,  10 );   # This works
