@@ -129,8 +129,8 @@ the only place these points come up:
      my $rounded  = $number.round( 10 );   
      my $rounded  = round( $number,  10 );   
 
-
-   And further: those two code examples are much clearer than this signature-style:
+   And further: those two lines of code examples are much clearer
+   than this signature-style:
 
      method round(Real:D: $scale = 1)
    
