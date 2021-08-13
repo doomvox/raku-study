@@ -38,7 +38,6 @@ say $r; # 380
 
 # https://docs.raku.org/routine/round
 
-
 # (Real) method round
 
 # method round(Real:D: $scale = 1)
@@ -77,6 +76,29 @@ say $r; # 380
 
 }
 
+=pod
+
+The documentation for the round method doesn't describe the way
+it actually works very well:
+
+# https://docs.raku.org/routine/round
+
+# (Real) method round
+
+# method round(Real:D: $scale = 1)
+
+# Rounds the number to scale $scale. If $scale is 1, rounds to an
+# integer. If scale is 0.1, rounds to one digit after the radix
+# point (period or comma), etc.
+
+
+    # my $r3  = $n.round( $scale = 10 );    # Variable '$scale' is not declared
+
+    my $r6  = round( $n,  10 );   # This works
+
+
+
+=cut
 
 
 # ===
