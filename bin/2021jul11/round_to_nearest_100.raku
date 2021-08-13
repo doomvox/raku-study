@@ -51,6 +51,8 @@ say $r; # 380
     my $r4  = $n.round( scale => 10 );  ## This doesn't work
     say $r4;  # 123, not 120
 
+    my $r5  = round( $n, scale => 10 );  
+
 
 
 }
