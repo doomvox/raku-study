@@ -1,27 +1,28 @@
-- [meeting notes August 15, 2021](#org759a051)
-  - [callbacks](#org95ec404)
-    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#org5f50e16)
-    - [misc sub-topics:](#org96232e3)
+- [meeting notes August 15, 2021](#org05e9cea)
+  - [callbacks](#org76ee238)
+    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#orgabddac6)
+    - [misc sub-topics:](#orge5a4b23)
+  - [.round arguments](#orgd127840)
 
 
-<a id="org759a051"></a>
+<a id="org05e9cea"></a>
 
 # meeting notes August 15, 2021
 
 
-<a id="org95ec404"></a>
+<a id="org76ee238"></a>
 
 ## callbacks
 
 
-<a id="org5f50e16"></a>
+<a id="orgabddac6"></a>
 
 ### aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku>
 
 
-<a id="org96232e3"></a>
+<a id="orge5a4b23"></a>
 
 ### misc sub-topics:
 
@@ -34,3 +35,10 @@
 3.  placeholder vars idiom
 
     1.  use the hat just once (the condom convention)
+
+
+<a id="orgd127840"></a>
+
+## .round arguments
+
+<https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_100.raku>
