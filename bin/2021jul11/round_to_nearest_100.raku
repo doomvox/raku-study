@@ -118,9 +118,9 @@ The documentation for the round method has an unintentionally confusing usage sh
 
      my $rounded  = $number.round( my $scale = 10 );    
 
-   But I don't think I ever would, and the entire point is just a
-   distraction because what you'd probably want to do is just
-   this:
+   But (1) I don't think I ever would and (2) the entire point is
+   just a distraction because what you'd probably want to do is
+   just this:
 
     my $r6  = round( $n,  10 );   
 
