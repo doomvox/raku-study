@@ -109,10 +109,15 @@ The documentation for the round method has an unintentionally confusing usage sh
 
    It fails to compile with a "Variable '$scale' is not declared" message.
 
-   You can do this:
+   You could do this:
   
      my $scale;
      my $rounded  = $number.round( $scale = 10 );    
+
+   Or this:
+
+     my $rounded  = $number.round( my $scale = 10 );    
+
 
     my $r6  = round( $n,  10 );   # This works
 
