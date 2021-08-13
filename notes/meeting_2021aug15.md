@@ -1,31 +1,31 @@
-- [meeting notes August 15, 2021](#orgf6127cf)
-  - [callbacks](#orgc9061c0)
-    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#org4166904)
-    - [misc sub-topics:](#orgfd32e78)
+- [meeting notes August 15, 2021](#org759a051)
+  - [callbacks](#org95ec404)
+    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#org5f50e16)
+    - [misc sub-topics:](#org96232e3)
 
 
-<a id="orgf6127cf"></a>
+<a id="org759a051"></a>
 
 # meeting notes August 15, 2021
 
 
-<a id="orgc9061c0"></a>
+<a id="org95ec404"></a>
 
 ## callbacks
 
 
-<a id="org4166904"></a>
+<a id="org5f50e16"></a>
 
 ### aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku>
 
 
-<a id="orgfd32e78"></a>
+<a id="org96232e3"></a>
 
 ### misc sub-topics:
 
-1.  $code vs &code
+1.  sigils: $code vs &code
 
 2.  sub vs block
 
