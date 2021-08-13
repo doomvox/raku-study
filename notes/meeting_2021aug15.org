@@ -1,3 +1,4 @@
 * meeting notes August 15, 2021
 ** callbacks
-/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku
+*** aka (in perl5 land) anonymous subs
+https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku

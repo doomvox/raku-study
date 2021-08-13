@@ -1,14 +1,20 @@
-- [meeting notes August 15, 2021](#orgcc7b360)
-  - [callbacks](#org39a71bb)
+- [meeting notes August 15, 2021](#org7c1d4ce)
+  - [callbacks](#org94260fb)
+    - [aka (in perl5 land) anonymous subs](#orge73e296)
 
 
-<a id="orgcc7b360"></a>
+<a id="org7c1d4ce"></a>
 
 # meeting notes August 15, 2021
 
 
-<a id="org39a71bb"></a>
+<a id="org94260fb"></a>
 
 ## callbacks
 
-/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021jul11/anonymous<sub>routines</sub><sub>with</sub><sub>placeholder</sub><sub>variables.raku</sub>
+
+<a id="orge73e296"></a>
+
+### aka (in perl5 land) anonymous subs
+
+<https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku>
