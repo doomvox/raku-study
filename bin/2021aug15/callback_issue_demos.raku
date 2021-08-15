@@ -12,7 +12,6 @@ use v6;
   say $string_thing_0('hey ', 'there'); # hey  | there
 }
 
-exit;
 {
   my $string_thing_1  =  {  ## not a sub, a block
       "$^a | $^b";          ## can't use return
