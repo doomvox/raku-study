@@ -30,6 +30,9 @@ say "===";
   dd $empty_set;
 
   my $null_regex = rx//;
+  dd $null_regex;
+  
+  my @r = 
 
 
   say "===";
