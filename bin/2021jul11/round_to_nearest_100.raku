@@ -101,6 +101,16 @@ say $r; # 380
     }
 
 
+
+# Bruce Gray
+# raku -e 'say 1.3649349.round(0.01)'
+# 1.36
+# raku -e 'say 1.3649349.round(0.01).nude'
+# (34 25) 
+
+
+
+
 =begin pod
 
 The documentation for the round method has an unintentionally confusing usage shown.
