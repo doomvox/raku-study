@@ -24,7 +24,7 @@ use v6;
       "$^a | $^b";          ## 
     };  
   say &string_thing_2('hey ', 'there'); # hey  | there
-  say string_thing_2('hey ', 'there'); # hey  | there
+  say string_thing_2('hey ', 'there');  # hey  | there
 }
 
 say "===";
