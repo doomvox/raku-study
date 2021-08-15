@@ -45,7 +45,6 @@ say "===";
   say $string_thing_from_beyond_the_grave.('hey', 'not_a_hey'); # hey - not_a_hey
 
 }
-exit;
 
 say "===";
 
