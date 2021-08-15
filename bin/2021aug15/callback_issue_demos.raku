@@ -5,7 +5,8 @@
 use v6;
 
 
-  my $string_handler_0  = sub {
+  my $string_thing_0  = sub {
       return "$^a | $^b";
     };  
 
+  say $string_thing_0('hey ', 'there');
