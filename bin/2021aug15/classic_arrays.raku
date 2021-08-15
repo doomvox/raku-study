@@ -29,7 +29,11 @@ say "===";
   my @up = set @nothing;
   dd @up;               # Array @up = [Set.new("bupkes","nada","nope")]
 
-  my Set $upper = @nothing;
+  # my Set $upper = @nothing;
+  # Type check failed in assignment to $upper; expected Set but got Array (["nada", "nope", "bu...)
+
+  my Set $upper = flat @nothing;
+
   dd $upper;
 
 }
