@@ -1,36 +1,37 @@
-- [meeting notes August 15, 2021](#org69b6350)
-  - [callbacks](#orgaa5b532)
-    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#orge3f0016)
-    - [misc sub-topics:](#orgd477382)
-  - [.round arguments](#org0f59e03)
-  - [Data::Dualmap, first release](#org2a587be)
-    - [should handle all built-in datatypes](#orge9fceb4)
-    - [has most features of my perl5 Data::Math](#org7e2c174)
-  - [data classes](#org667a273)
-    - [custom classes as data containers (from June 20, 2021)](#orgde4c277)
-  - [twigils considered weird](#orgda356a3)
-    - [Raku makes sigils an invariant part of a name.](#org1ba00a2)
-    - [Raku now has twigils](#orgf78c78d)
+- [meeting notes August 15, 2021](#orgde8510c)
+  - [callbacks](#orgbebe848)
+    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#org577b8a7)
+    - [misc sub-topics:](#org8a41ca5)
+  - [.round arguments](#org15ad111)
+  - [Data::Dualmap, first release](#org767eb74)
+    - [should handle all built-in datatypes](#orgdb70fd9)
+    - [has most features of my perl5 Data::Math](#orgb9ad726)
+  - [data classes](#orga7173f3)
+    - [custom classes as data containers (from June 20, 2021)](#org2668f2d)
+  - [twigils considered weird](#org712ea0b)
+    - [Raku makes sigils an invariant part of a name.](#org29750bf)
+    - [Raku now has twigils](#org57de9b1)
+  - [david christensen expounds on erlang](#orgd9aa879)
 
 
-<a id="org69b6350"></a>
+<a id="orgde8510c"></a>
 
 # meeting notes August 15, 2021
 
 
-<a id="orgaa5b532"></a>
+<a id="orgbebe848"></a>
 
 ## callbacks
 
 
-<a id="orge3f0016"></a>
+<a id="org577b8a7"></a>
 
 ### aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku>
 
 
-<a id="orgd477382"></a>
+<a id="org8a41ca5"></a>
 
 ### misc sub-topics:
 
@@ -45,24 +46,24 @@
     1.  use the hat just once (the condom convention)
 
 
-<a id="org0f59e03"></a>
+<a id="org15ad111"></a>
 
 ## .round arguments
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_100.raku>
 
 
-<a id="org2a587be"></a>
+<a id="org767eb74"></a>
 
 ## Data::Dualmap, first release
 
 
-<a id="orge9fceb4"></a>
+<a id="orgdb70fd9"></a>
 
 ### should handle all built-in datatypes
 
 
-<a id="org7e2c174"></a>
+<a id="orgb9ad726"></a>
 
 ### has most features of my perl5 Data::Math
 
@@ -73,12 +74,12 @@
     1.  for funsies, accept junctions (use type Mu)
 
 
-<a id="org667a273"></a>
+<a id="orga7173f3"></a>
 
 ## data classes
 
 
-<a id="orgde4c277"></a>
+<a id="org2668f2d"></a>
 
 ### custom classes as data containers (from June 20, 2021)
 
@@ -93,19 +94,19 @@
         2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku>
 
 
-<a id="orgda356a3"></a>
+<a id="org712ea0b"></a>
 
 ## twigils considered weird
 
 
-<a id="org1ba00a2"></a>
+<a id="org29750bf"></a>
 
 ### Raku makes sigils an invariant part of a name.
 
 If it's @stuff when you declare it it's still @stuff[3] later
 
 
-<a id="orgf78c78d"></a>
+<a id="org57de9b1"></a>
 
 ### Raku now has twigils
 
@@ -122,3 +123,8 @@ If it's @stuff when you declare it it's still @stuff[3] later
     3.  Using @.stash internally
     
         @!stash = (&#x2026;);
+
+
+<a id="orgd9aa879"></a>
+
+## david christensen expounds on erlang

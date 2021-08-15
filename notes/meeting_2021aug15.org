@@ -35,3 +35,5 @@ has @!mess;
 has @.stash;
 ***** Using @.stash internally
 @!stash = (...);
+
+** david christensen expounds on erlang
