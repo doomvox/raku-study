@@ -58,5 +58,27 @@ say "===";
 
 }
 
+say "===";
+
+{
+  my $string_thing_3  =  sub {  
+      my $ret;
+      say "here we go";
+      if  $^a eq $^b  { # now we have $a and $b
+          $ret = $a;
+      } else {
+          $ret = $a ~ $b;
+      }
+      return $ret;
+    };  
+#  say $string_thing_3.('hey', 'hey'); # 
+  say $string_thing_3.('hey', 'not_a_hey'); # 
+  say "what??";
+
+  # Too few positionals passed; expected 2 arguments but got 0
+  #   in block  at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021aug15/callback_issue_demos.raku line 23  (( not 46? ))
+
+}
+
 
 # /https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/callback_issue_demos.raku
