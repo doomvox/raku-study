@@ -20,7 +20,7 @@ use v6;
 }
 
 {
-  my &string_thing_2  =  {  ## sigil & not $
+  my &string_thing_2  =  {  ## sigil & not $    ## sometimes barfs pointing at this line: WEIRD
       "$^a | $^b";          ## 
     };  
   # both of these forms work
@@ -36,47 +36,47 @@ use v6;
   # Too few positionals passed; expected 2 arguments but got 0
 }
 
-say "===";
-
-{
-#  my $string_thing_from_beyond_the_grave  =   { (  $^a eq $^b  ) ??  $^a !! "$^a - $^b" }
-  my $string_thing_from_beyond_the_grave  =   { (  $^a eq $^b  ) ??  $a !! "$a - $b" }
-  say $string_thing_from_beyond_the_grave.('hey', 'hey'); # hey
-  say $string_thing_from_beyond_the_grave.('hey', 'not_a_hey'); # hey - not_a_hey
-
-}
-
-say "===";
+# say "===";
 
 # {
-#   my $string_thing_3  =  sub {  
-#       my $ret;
-#       say "here we go";
-#       if  $^a eq $^b  { # now we have $a and $b
-#           $ret = $a;
-#       } else {
-#           $ret = $a ~ $b;
-#       }
-#       return $ret;
-#     };  
-#   # say $string_thing_3.('hey', 'hey'); #   WEIRD: True   (wtf?)
-#   say $string_thing_3.('hey', 'not_a_hey'); # 
-#   say "what??";
+# #  my $string_thing_from_beyond_the_grave  =   { (  $^a eq $^b  ) ??  $^a !! "$^a - $^b" }
+#   my $string_thing_from_beyond_the_grave  =   { (  $^a eq $^b  ) ??  $a !! "$a - $b" }
+#   say $string_thing_from_beyond_the_grave.('hey', 'hey'); # hey
+#   say $string_thing_from_beyond_the_grave.('hey', 'not_a_hey'); # hey - not_a_hey
 
-#   # Too few positionals passed; expected 2 arguments but got 0
-#   #   in block  at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021aug15/callback_issue_demos.raku line 23  (( not 46? ))
 # }
 
-# /https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/callback_issue_demos.raku
+# say "===";
 
-# {
-#   my $string_thing_4  =  sub ($a, $b) {  
-#       return do 
-#       if  $a eq $b  { # now we have $a and $b
-#           $a;
-#       } else {
-#           $a ~ $b;
-#       };
-#     };  
-#   say $string_thing_4.('hey', 'yaddah'); #  heyyaddah
-# }
+# # {
+# #   my $string_thing_3  =  sub {  
+# #       my $ret;
+# #       say "here we go";
+# #       if  $^a eq $^b  { # now we have $a and $b
+# #           $ret = $a;
+# #       } else {
+# #           $ret = $a ~ $b;
+# #       }
+# #       return $ret;
+# #     };  
+# #   # say $string_thing_3.('hey', 'hey'); #   WEIRD: True   (wtf?)
+# #   say $string_thing_3.('hey', 'not_a_hey'); # 
+# #   say "what??";
+
+# #   # Too few positionals passed; expected 2 arguments but got 0
+# #   #   in block  at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021aug15/callback_issue_demos.raku line 23  (( not 46? ))
+# # }
+
+# # /https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/callback_issue_demos.raku
+
+# # {
+# #   my $string_thing_4  =  sub ($a, $b) {  
+# #       return do 
+# #       if  $a eq $b  { # now we have $a and $b
+# #           $a;
+# #       } else {
+# #           $a ~ $b;
+# #       };
+# #     };  
+# #   say $string_thing_4.('hey', 'yaddah'); #  heyyaddah
+# # }
