@@ -29,9 +29,10 @@ use v6;
 {
     sub check_something { True; };
 
-    my $cb = {
+    my $cb = {  # Too many positionals passed; expected 0 or 1 arguments but got 2
+        $^a; $^b;
         if check_something() {
-            $^a eq $^b
+            $a eq $b
         }
     }
 
