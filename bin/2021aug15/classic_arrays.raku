@@ -53,6 +53,7 @@ say "===";
   # Array @leftover = [Set.new("zip","zero","zed")]
 
   my $lefter = $irish (-) $over;
+  dd $lefter;
 
 }
 
