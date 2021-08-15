@@ -36,7 +36,9 @@ say "===";
   # Array @r = [rx/^ $/, rx/^0+$/, rx/^\s/]
 
   my $dull_item = "  ";
-  say so $dull_item ~~ any( @r );
+  say so $dull_item ~~ any( @r );  # True
+  my $the_answer = 42;
+  $the_answer ~~ any( @r );
 
   say "===";
   { # side trip into arrays and sets
