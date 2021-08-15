@@ -6,11 +6,10 @@ use v6;
 
 my $file = "/home/doom/tmp/monsters.txt";
 
-for $file.IO.lines
-.grep({ /^END/ or last }) {
-.say if
+for $file.IO.lines.grep({ /^END/ or last }) {
+    .say if /^a/;
 }
-/^a/;
+
 
 .say for $file.IO.lines.grep({ last if /^END/; True }).grep(/^g/);
 
