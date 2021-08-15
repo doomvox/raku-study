@@ -38,3 +38,5 @@ has @.stash;
 @!stash = (...);
 
 ** david christensen expounds on erlang compared to raku and perl
+
+** question about bruce grey  
