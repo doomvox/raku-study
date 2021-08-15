@@ -46,6 +46,8 @@ has @.stash;
 *** https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/bruce_gray_io_lines_etc.raku
 
 
+
+
 * meeting notes
 ** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug15.md
 * code examples:
