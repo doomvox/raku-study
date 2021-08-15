@@ -15,6 +15,10 @@ use v6;
   my @sweet = @nothing;
   say @sweet;           # [nada nope bupkes]   (( wait, that worked? ))
 
+  my @zero = < zero zip zed >;
+  my @nihilism = @nothing, @zero;
+  say @nhihilism;
+
  
 
 }
