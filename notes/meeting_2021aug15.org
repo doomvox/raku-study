@@ -17,4 +17,10 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_1
 **** TODO implement skip_keys patterns
 ***** for funsies, accept junctions (use type Mu)
 ** data classes
-*** custom classes as data containers
+*** custom classes as data containers (from June 20, 2021)
+
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021may16/data_container_class_iii.raku
+***** spots example
+****** schema: /home/doom/End/Cave/GraphVizDbiGeneral/Wall/graphs/schema_diagram.png
+******* generated with: /home/doom/End/Cave/GraphVizDbiGeneral/bin/generate_schema_diagram_spots
+****** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku
