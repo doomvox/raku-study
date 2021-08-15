@@ -32,6 +32,8 @@ use v6;
       return $thing.('al', 'pha');
   }
 
+  say gerund_eater( string_thing_2 );  # al | pha
+
 }
 
 say "===";
