@@ -40,6 +40,7 @@ say "===";
 
   my $over = Set.new( @nothing );
   dd $over;
+  # Set $over = Set.new("nope","bupkes","nada")
 
 
 }
