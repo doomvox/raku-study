@@ -6,7 +6,8 @@ use v6;
 
 {
   my $string_thing_0  = sub {
-      return "$^a | $^b";
+#      return "$^a | $^b";
+      return "$^b | $^a";
     };  
   say $string_thing_0('hey ', 'there'); # hey  | there
 }
