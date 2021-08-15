@@ -42,6 +42,9 @@ say "===";
   dd $over;
   # Set $over = Set.new("nope","bupkes","nada")
 
+  my Set $irish = @nihilism.Set;
+  dd $irish;
+
 
 }
 
