@@ -40,12 +40,13 @@ say "===";
 
 {
   my $string_thing_3  =  {  
-      do 
+      my $ret;
       if ( $^a eq $^b ) {
-          "$^a";
+          $ret = "$^a";
       } else {
-          "$^a | $^b";          
+          $ret = "$^a | $^b";          
       }
+      $ret;
     };  
   say $string_thing_3('hey', 'hey'); # 
   # Too few positionals passed; expected 2 arguments but got 0
