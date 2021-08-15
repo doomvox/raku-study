@@ -48,6 +48,9 @@ say "===";
   dd $irish;
   # Set $irish = Set.new("zed","zip","bupkes","nada","zero","nope")
 
+  my @leftover = $irish (-) $over;
+  dd @leftover;
+
 
 }
 
