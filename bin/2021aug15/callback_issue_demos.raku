@@ -5,4 +5,7 @@
 use v6;
 
 
+  my $string_handler_0  = sub {
+      return "$^a | $^b";
+    };  
 
