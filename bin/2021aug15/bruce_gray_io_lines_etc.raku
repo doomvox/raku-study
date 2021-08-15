@@ -5,7 +5,7 @@
 use v6;
 
 
-for "gigabyte.txt".IO.lines
+for "/home/doom/tmp/monsters.txt".IO.lines
 .grep({ /^END/ or last }) {
 .say if
 }
