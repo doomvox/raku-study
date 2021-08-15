@@ -16,3 +16,5 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_1
 **** custom callbacks, numerics, strings
 **** TODO implement skip_keys patterns
 ***** for funsies, accept junctions (use type Mu)
+** data classes
+*** custom classes as data containers
