@@ -38,7 +38,7 @@ say "===";
   my $dull_item = "  ";
   say so $dull_item ~~ any( @r );  # True
   my $the_answer = 42;
-  say so $the_answer ~~ any( @r );
+  say so $the_answer ~~ any( @r ); # False
 
   say "===";
   { # side trip into arrays and sets
