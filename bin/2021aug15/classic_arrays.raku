@@ -32,7 +32,8 @@ say "===";
   my $null_regex = rx//;
   dd $null_regex;
   
-  my @r = 
+  my @r = rx//, rx/0/, rx/ /;
+  dd @r;
 
 
   say "===";
