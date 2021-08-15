@@ -83,8 +83,17 @@ say $r; # 380
     say $r6;  # 120
 
     ## TODO report documentation bug
-
+    
 }
+
+
+{
+    my $n = 17;
+    my $r = round( $n, 3 );
+    say $r;
+
+    }
+
 
 =begin pod
 
