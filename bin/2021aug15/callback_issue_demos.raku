@@ -12,7 +12,7 @@ use v6;
 }
 
 {
-  my $string_thing_1  =  {
+  my $string_thing_1  =  {  ## not a sub, a block
       "$^a | $^b";
     };  
   say $string_thing_1('hey ', 'there'); # hey  | there
