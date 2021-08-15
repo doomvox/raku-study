@@ -32,7 +32,11 @@ say "===";
   # my Set $upper = @nothing;
   # Type check failed in assignment to $upper; expected Set but got Array (["nada", "nope", "bu...)
 
-  my Set $upper = flat @nothing;
+  # my Set $upper = flat @nothing;
+  # Type check failed in assignment to $upper; expected Set but got Seq (("nada", "nope", "bu...)
+
+  my $upper = @nothing.Set;
+
   dd $upper;
 
 }
