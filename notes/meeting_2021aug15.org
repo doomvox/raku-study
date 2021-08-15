@@ -45,7 +45,6 @@ has @.stash;
 *** .say for "gigabyte.txt".IO.lines.grep({ last if /^END/; /^a/ }) 
 *** https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/bruce_gray_io_lines_etc.raku
 
-
 ** the usual links:
 *** meeting notes
 **** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug15.md
