@@ -26,9 +26,13 @@ use v6;
 }
 
 
+{
+sub check_something{ True; };
+
 my $cb = {
     if check_something() {
         $^a eq $^b
     }
 }
 
+}
