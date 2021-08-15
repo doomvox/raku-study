@@ -38,10 +38,10 @@ use v6;
 
 say "===";
 
-# {
-#   my $string_thing_2  =  {  ## not a sub, a block
-#       "$^a | $^b";          ## can't use return
-#     };  
-#   say $string_thing_2('hey ', 'there'); # hey  | there
-# }
+{
+  my $string_thing_3  =  {  
+      "$^a | $^b";          
+    };  
+  say $string_thing_3('hey ', 'there'); # hey  | there
+}
 
