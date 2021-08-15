@@ -26,6 +26,12 @@ use v6;
   # both of these forms work
   say &string_thing_2('hey ', 'there'); # hey  | there
   say string_thing_2('hey ', 'there');  # hey  | there
+
+  gerund_eater( %string_thing_2 );
+  sub gerund_eater ($thing) {
+      $thing.('al', 'pha');
+  }
+
 }
 
 say "===";
