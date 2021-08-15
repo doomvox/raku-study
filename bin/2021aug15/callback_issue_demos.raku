@@ -73,7 +73,7 @@ say "===";
 
 
 {
-  my $string_thing_3  =  sub ($a, $b) {  
+  my $string_thing_4  =  sub ($a, $b) {  
       my $ret;
       say "here we go";
       if  $a eq $b  { # now we have $a and $b
@@ -83,7 +83,7 @@ say "===";
       }
       return $ret;
     };  
-  say $string_thing_3.('hey', 'not_a_hey'); # 
+  say $string_thing_4.('hey', 'yaddah'); # 
   say "what??";
 
   # Too few positionals passed; expected 2 arguments but got 0
