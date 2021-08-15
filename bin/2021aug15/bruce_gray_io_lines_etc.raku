@@ -6,7 +6,7 @@ use v6;
 
 
 for "/home/doom/tmp/monsters.txt".IO.lines.grep({ !/^END/ or last }) {
-    .say if /^a/;
+    .say if /^g/;
 }
 
 
