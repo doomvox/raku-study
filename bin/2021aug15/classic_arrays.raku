@@ -71,7 +71,8 @@ say "===";
   dd @m;
   # Array @m = [Bool::True, Bool::True, Bool::True]
 
-  my @m = keys @monsters (-) @japanese;
+  my @n = keys @monsters (-) @japanese;
+  dd @n;
 
 }
 
