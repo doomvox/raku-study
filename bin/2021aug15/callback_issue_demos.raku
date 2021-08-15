@@ -44,9 +44,6 @@ say "===";
   say $string_thing_from_beyond_the_grave.('hey', 'hey'); # hey
   say $string_thing_from_beyond_the_grave.('hey', 'not_a_hey'); # hey - not_a_hey
 
-  # Too few positionals passed; expected 2 arguments but got 0
-  #   in block  at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021aug15/callback_issue_demos.raku line 23  (( not 46? ))
-
 }
 exit;
 
