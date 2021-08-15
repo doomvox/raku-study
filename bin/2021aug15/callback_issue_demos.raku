@@ -20,7 +20,7 @@ use v6;
 }
 
 {
-  my &string_thing_2  =  {  ## sigil & not $    ## sometimes barfs pointing at this line: WEIRD
+  my &string_thing_2  =  {  ## sigil & not $    ## sometimes barfs pointing at this line: WEIRD  (( *stopped working?* ))
       "$^a | $^b";          ## 
     };  
   # both of these forms work
