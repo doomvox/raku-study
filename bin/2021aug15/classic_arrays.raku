@@ -15,7 +15,7 @@ say "===";
 
   my @sweet = @nothing;
   say @sweet;           # [nada nope bupkes]   (( wait, that worked? ))
-                        #                      (( I smell the single argument rule))
+                        #                      (( I smell the single argument rule ))
 
   my @zero = < zero zip zed >;
   my @all_nothing = @nothing, @zero;
