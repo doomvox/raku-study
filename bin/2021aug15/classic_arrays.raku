@@ -31,7 +31,7 @@ say "===";
 
   # my $null_regex = rx//;  # Null regex not allowed
 
-  my @r = rx//, rx/0/, rx/ /;
+  my @r = rx/^ $/, rx/^0+$/, rx/^\s/;
   dd @r;
 
 
