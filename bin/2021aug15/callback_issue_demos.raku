@@ -44,7 +44,7 @@ say "===";
       if ( $^a eq $^b ) {
           $ret = $^a;
       } else {
-          $ret = $^a . $^b;
+          $ret = $^a ~ $^b;
       }
       return $ret;
     };  
