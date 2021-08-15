@@ -8,7 +8,10 @@ use v6;
 ## and try to pin down whatever it is that keeps tripping up my
 ## perl-damaged brain.
 
+{ my @nothing  = < nada nope bupkes >;
+  say @nothing;
 
+}
 
 
 
