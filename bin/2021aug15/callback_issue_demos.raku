@@ -17,3 +17,11 @@ use v6;
     };  
   say $string_thing_1('hey ', 'there'); # hey  | there
 }
+
+{
+  my $string_thing_2  =  {  ## not a sub, a block
+      "$^a | $^b";          ## can't use return
+    };  
+  say $string_thing_1('hey ', 'there'); # hey  | there
+}
+
