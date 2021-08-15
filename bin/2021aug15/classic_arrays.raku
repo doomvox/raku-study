@@ -12,6 +12,7 @@ use v6;
   say @nothing;
   say @nothing[2];
 
+
 }
 
 
