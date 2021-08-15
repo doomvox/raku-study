@@ -56,6 +56,7 @@ say "===";
   dd $lefter;
   # Set $lefter = Set.new("zed","zero","zip")
 
+  say "---";
   my @monsters  = < godzilla mothera rhodan wolfman dracula tingler >;
   my @us        = < tingler wolfman dracula wormface horta blob >;
   my @japanese  = < godzilla mothera rhodan >;
