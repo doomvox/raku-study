@@ -10,8 +10,11 @@ use v6;
 
 { my @nothing  = < nada nope bupkes >;
   say @nothing;         # [nada nope bupkes]
-  say @nothing[2];
+  say @nothing[2];      # bupkes
 
+  my @sweet = @nothing;
+  say @sweet;
+ 
 
 }
 
