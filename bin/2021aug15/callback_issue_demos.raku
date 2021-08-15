@@ -42,7 +42,7 @@ say "===";
   my $string_thing_3  =  sub {  
       my $ret;
       say "here we go";
-      if  $^a eq $^b  {
+      if  $^a eq $^b  { # now we have $a and $b
           $ret = $a;
       } else {
           $ret = $a ~ $b;
