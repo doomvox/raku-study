@@ -27,7 +27,7 @@ say "===";
   say @all_nothing_too; # [nada nope bupkes zero zip zed]
 
   my @up = set @nothing;
-  dd @up;
+  dd @up;               # Array @up = [Set.new("bupkes","nada","nope")]
 
 
 }
