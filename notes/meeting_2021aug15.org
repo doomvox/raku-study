@@ -34,4 +34,4 @@ has @!mess;
 ***** variable with accessors
 has @.stash;
 ***** Using @.stash internally
- @!stash = (...);
+@!stash = (...);
