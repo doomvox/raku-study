@@ -29,11 +29,11 @@ use v6;
 {
     sub check_something { True; };
 
-    my $cb = sub {  # Too many positionals passed; expected 0 or 1 arguments but got 2
+    my $cb = {  # Too many positionals passed; expected 0 or 1 arguments but got 2
         my $nada   = $^a;
         my $bupkes = $^b;
         if check_something() {
-            return $a eq $b
+            $a ~ $b
         }
     }
 
