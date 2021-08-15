@@ -17,7 +17,7 @@ use v6;
 
   my @zero = < zero zip zed >;
   my @nihilism = @nothing, @zero;
-  say @nhihilism;
+  say @nihilism;
 
  
 
