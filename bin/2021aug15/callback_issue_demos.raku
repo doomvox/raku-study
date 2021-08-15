@@ -18,6 +18,7 @@ use v6;
     };  
   say $string_thing_1('hey ', 'there'); # hey  | there
 }
+exit;
 
 # {
 #   my $string_thing_2  =  {  ## not a sub, a block
