@@ -20,6 +20,7 @@ for $file.IO.lines.grep({ !/^END/ or last }) {
     .say if /^g/;
 }
 
+say "===";
 
 
 ## monsters.txt at present:
