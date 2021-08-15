@@ -14,6 +14,5 @@ for "/home/doom/tmp/monsters.txt".IO.lines
 
 
 
-# ===
-# Author:  doom@kzsu.stanford.edu
+
 
