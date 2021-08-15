@@ -61,6 +61,7 @@ say "===";
   my @japanese  = < godzilla mothera rhodan >;
   my @other_furriners = < grendel golem garuda >;
 
+  my @our_founders = @monsters (-) @japanese;
 
 
 
