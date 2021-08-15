@@ -73,6 +73,7 @@ say "===";
 
   my @n = keys @monsters (-) @japanese;
   dd @n;
+  # Array @n = ["dracula", "tingler", "wolfman"]
 
 }
 
