@@ -33,7 +33,7 @@ use v6;
         my $nada   = $^a;
         my $bupkes = $^b;
         if check_something() {
-            $a ~ $b
+            "$a | $b";
         }
     }
 
