@@ -7,7 +7,7 @@ use v6;
 my $file = "/home/doom/tmp/monsters.txt";
 
 for $file.IO.lines.grep({ /^END/ or last }) {
-    .say if /^a/;
+    .say if /^k/;
 }
 
 exit;
