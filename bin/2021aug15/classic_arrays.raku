@@ -42,7 +42,7 @@ say "===";
   dd $over;
   # Set $over = Set.new("nope","bupkes","nada")
 
-  ## Q: might this be adviseable?
+  ## Q: might this idiom be adviseable?
   ##    if you know you want assignment to succeed, and also want strong typing later.
   my Set $irish = @nihilism.Set;
   dd $irish;
