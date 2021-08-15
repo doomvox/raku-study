@@ -138,9 +138,11 @@ but that's a lot for a tiny amount of documentation:
    as possible.
 
  Still another point: to my ear, the term "scale" isn't right at
- all.  I would call this rounding off to a place-- "scaling" implies 
- multiplying by a factor.
+ all.  I would call this rounding off to a *place*, maybe rounding 
+ of to the "nearest __", maybe imposing granularity, or snapping to a grid...
 
+ I think "scaling" implies multiplying by a factor to magnify or shrink, 
+ not to round off.
 
 
 
