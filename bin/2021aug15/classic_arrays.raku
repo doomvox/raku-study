@@ -26,6 +26,10 @@ say "===";
   my @nihilism_too = | @nothing, | @zero;
   say @nihilism_too; # [nada nope bupkes zero zip zed]
 
+}
+
+say "===";
+{ # side trip into arrays and sets
   my @up = set @nothing;
   dd @up;               # Array @up = [Set.new("bupkes","nada","nope")]
 
