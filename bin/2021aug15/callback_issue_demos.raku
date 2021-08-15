@@ -37,9 +37,6 @@ use v6;
 }
 
 say "===";
-exit
-
-
 
 # {
 #   my $string_thing_2  =  {  ## not a sub, a block
