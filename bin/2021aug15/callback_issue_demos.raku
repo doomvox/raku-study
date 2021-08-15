@@ -17,7 +17,16 @@ use v6;
       "$^a | $^b";          ## can't use return
     };  
   say $string_thing_1('hey ', 'there'); # hey  | there
-l}
+}
+
+{
+  my &string_thing_2  =  {  ## sigil
+      "$^a | $^b";          ## 
+    };  
+  say &string_thing_1('hey ', 'there'); # hey  | there
+}
+
+
 
 # {
 #   my $string_thing_2  =  {  ## not a sub, a block
