@@ -39,5 +39,5 @@ has @.stash;
 
 ** david christensen expounds on erlang compared to raku and perl
 
-** question about bruce grey's "reading files can't be this simple" 
+** question about bruce gray's "reading files can't be this simple" 
 *** 
