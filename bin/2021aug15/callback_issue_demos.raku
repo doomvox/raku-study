@@ -39,7 +39,8 @@ use v6;
 say "===";
 
 {
-  my $string_thing_from_beyond_the_grave  =   { (  $^a eq $^b  ) ??  $^a !! "$^a - $^b" }
+#  my $string_thing_from_beyond_the_grave  =   { (  $^a eq $^b  ) ??  $^a !! "$^a - $^b" }
+  my $string_thing_from_beyond_the_grave  =   { (  $^a eq $^b  ) ??  $a !! "$a - $b" }
   say $string_thing_from_beyond_the_grave.('hey', 'hey'); # hey
   say $string_thing_from_beyond_the_grave.('hey', 'not_a_hey'); # hey - not_a_hey
 
