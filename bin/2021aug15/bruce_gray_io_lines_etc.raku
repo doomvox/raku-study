@@ -23,6 +23,7 @@ for $file.IO.lines.grep({ !/^END/ or last }) {
 
 
 ## monsters.txt at present:
+## 
 # godzilla
 # ghidora
 # mothera
