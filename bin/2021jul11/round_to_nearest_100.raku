@@ -147,6 +147,7 @@ but that's a lot for a tiny amount of documentation:
    granularity
    grain 
 
+   precision
 
 =end pod
 
