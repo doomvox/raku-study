@@ -29,6 +29,7 @@ say "===";
   my @up = set @nothing;
   dd @up;               # Array @up = [Set.new("bupkes","nada","nope")]
 
+  my Set $upper = @nothing;
 
 }
 
