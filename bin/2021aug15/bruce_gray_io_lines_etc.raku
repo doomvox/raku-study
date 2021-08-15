@@ -4,12 +4,13 @@
 
 use v6;
 
+my $file = "/home/doom/tmp/monsters.txt";
 
-.say for "gigabyte.txt".IO.lines.grep({ last if /^END/ }).grep(/^a/)
+.say for $file.IO.lines.grep({ last if /^END/ }).grep(/^a/)
 
 exit;
 
-for "/home/doom/tmp/monsters.txt".IO.lines.grep({ !/^END/ or last }) {
+for $file.IO.lines.grep({ !/^END/ or last }) {
     .say if /^g/;
 }
 
