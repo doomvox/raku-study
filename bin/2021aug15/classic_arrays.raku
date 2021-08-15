@@ -26,6 +26,10 @@ say "===";
   my @nihilism_too = | @nothing, | @zero;
   say @nihilism_too; # [nada nope bupkes zero zip zed]
 
+  my $empty_set = Set.new();
+  dd $empty_set;
+
+
   say "===";
   { # side trip into arrays and sets
       my @up = set @nothing;
