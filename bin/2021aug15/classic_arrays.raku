@@ -33,6 +33,7 @@ say "===";
 
   my @r = rx/^ $/, rx/^0+$/, rx/^\s/;
   dd @r;
+  # Array @r = [rx/^ $/, rx/^0+$/, rx/^\s/]
 
 
   say "===";
