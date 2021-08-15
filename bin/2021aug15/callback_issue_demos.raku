@@ -49,6 +49,7 @@ say "===";
   #   in block  at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021aug15/callback_issue_demos.raku line 23  (( not 46? ))
 
 }
+exit;
 
 say "===";
 
