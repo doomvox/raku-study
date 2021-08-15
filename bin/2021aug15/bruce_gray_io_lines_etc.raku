@@ -2,6 +2,8 @@
 # 
 # bruce_gray_io_lines_etc.raku            15 Aug 2021 
 
+## a few bugs in bruce grey's slides
+
 use v6;
 
 my $file = "/home/doom/tmp/monsters.txt";
