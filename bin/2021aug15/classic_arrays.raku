@@ -26,58 +26,58 @@ say "===";
   my @nihilism_too = | @nothing, | @zero;
   say @nihilism_too; # [nada nope bupkes zero zip zed]
 
-say "===";
-{ # side trip into arrays and sets
-  my @up = set @nothing;
-  dd @up;               # Array @up = [Set.new("bupkes","nada","nope")]
+  say "===";
+  { # side trip into arrays and sets
+      my @up = set @nothing;
+      dd @up;               # Array @up = [Set.new("bupkes","nada","nope")]
 
-  # my Set $upper = @nothing;
-  # Type check failed in assignment to $upper; expected Set but got Array (["nada", "nope", "bu...)
+      # my Set $upper = @nothing;
+      # Type check failed in assignment to $upper; expected Set but got Array (["nada", "nope", "bu...)
 
-  # my Set $upper = flat @nothing;
-  # Type check failed in assignment to $upper; expected Set but got Seq (("nada", "nope", "bu...)
+      # my Set $upper = flat @nothing;
+      # Type check failed in assignment to $upper; expected Set but got Seq (("nada", "nope", "bu...)
 
-  my $upper = @nothing.Set;
-  dd $upper;            # Set $upper = Set.new("bupkes","nope","nada")
+      my $upper = @nothing.Set;
+      dd $upper;            # Set $upper = Set.new("bupkes","nope","nada")
 
-  my $over = Set.new( @nothing );
-  dd $over;
-  # Set $over = Set.new("nope","bupkes","nada")
+      my $over = Set.new( @nothing );
+      dd $over;
+      # Set $over = Set.new("nope","bupkes","nada")
 
-  ## Q: might this idiom be adviseable?
-  ##    if you know you want assignment to succeed, and also want strong typing later.
-  my Set $irish = @nihilism.Set;
-  dd $irish;
-  # Set $irish = Set.new("zed","zip","bupkes","nada","zero","nope")
+      ## Q: might this idiom be adviseable?
+      ##    if you know you want assignment to succeed, and also want strong typing later.
+      my Set $irish = @nihilism.Set;
+      dd $irish;
+      # Set $irish = Set.new("zed","zip","bupkes","nada","zero","nope")
 
-  my @leftover = $irish (-) $over;
-  dd @leftover;
-  # Array @leftover = [Set.new("zip","zero","zed")]
+      my @leftover = $irish (-) $over;
+      dd @leftover;
+      # Array @leftover = [Set.new("zip","zero","zed")]
 
-  my $lefter = $irish (-) $over;
-  dd $lefter;
-  # Set $lefter = Set.new("zed","zero","zip")
+      my $lefter = $irish (-) $over;
+      dd $lefter;
+      # Set $lefter = Set.new("zed","zero","zip")
 
-  say "---";
-  my @monsters  = < godzilla mothera rhodan wolfman dracula tingler >;
-  my @us        = < tingler wolfman dracula wormface horta blob >;
-  my @japanese  = < godzilla mothera rhodan >;
-  my @other_furriners = < grendel golem garuda >;
+      say "---";
+      my @monsters  = < godzilla mothera rhodan wolfman dracula tingler >;
+      my @us        = < tingler wolfman dracula wormface horta blob >;
+      my @japanese  = < godzilla mothera rhodan >;
+      my @other_furriners = < grendel golem garuda >;
 
-  my @our_founders = @monsters (-) @japanese;
-  dd @our_founders;
-  # Array @our_founders = [Set.new("tingler","wolfman","dracula")]
-  # Note: that's an array with one element, a set
+      my @our_founders = @monsters (-) @japanese;
+      dd @our_founders;
+      # Array @our_founders = [Set.new("tingler","wolfman","dracula")]
+      # Note: that's an array with one element, a set
 
-  my @m = values @monsters (-) @japanese;
-  dd @m;
-  # Array @m = [Bool::True, Bool::True, Bool::True]
+      my @m = values @monsters (-) @japanese;
+      dd @m;
+      # Array @m = [Bool::True, Bool::True, Bool::True]
 
-  my @n = keys @monsters (-) @japanese;
-  dd @n;
-  # Array @n = ["dracula", "tingler", "wolfman"]
+      my @n = keys @monsters (-) @japanese;
+      dd @n;
+      # Array @n = ["dracula", "tingler", "wolfman"]
 
-}
+  }
 
 }
 
