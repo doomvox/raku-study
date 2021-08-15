@@ -35,6 +35,8 @@ say "===";
   dd @r;
   # Array @r = [rx/^ $/, rx/^0+$/, rx/^\s/]
 
+  my $dull_item = "  ";
+  say so if $dull_item ~~ any( @r );
 
   say "===";
   { # side trip into arrays and sets
