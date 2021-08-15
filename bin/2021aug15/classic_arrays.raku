@@ -10,6 +10,7 @@ use v6;
 
 { my @nothing  = < nada nope bupkes >;
   say @nothing;
+  say @nothing[2];
 
 }
 
