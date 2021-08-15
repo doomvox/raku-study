@@ -29,6 +29,8 @@ say "===";
   my $empty_set = Set.new();
   dd $empty_set;
 
+  my $null_regex = rx//;
+
 
   say "===";
   { # side trip into arrays and sets
