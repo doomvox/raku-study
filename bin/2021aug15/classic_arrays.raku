@@ -33,7 +33,6 @@ say "===";
   # Type check failed in assignment to $upper; expected Set but got Array (["nada", "nope", "bu...)
 
   my Set $upper = flat @nothing;
-
   dd $upper;
 
 }
