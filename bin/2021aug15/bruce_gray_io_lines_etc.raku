@@ -6,7 +6,7 @@ use v6;
 
 my $file = "/home/doom/tmp/monsters.txt";
 
-.say for $file.IO.lines.grep({ last if /^END/ }).grep(/^g/);
+.say for $file.IO.lines.grep({ last if /^END/; True }).grep(/^g/);
 
 exit;
 
