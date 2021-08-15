@@ -27,6 +27,7 @@ use v6;
   say string_thing_2('hey ', 'there'); # hey  | there
 }
 
+say "===";
 exit
 
 
