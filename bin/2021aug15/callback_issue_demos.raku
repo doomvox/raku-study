@@ -78,7 +78,7 @@ say "===";
           $a ~ $b;
       };
     };  
-  say $string_thing_4.('hey', 'yaddah'); # 
+  say $string_thing_4.('hey', 'yaddah'); #  heyyaddah
 
   # Too few positionals passed; expected 2 arguments but got 0
   #   in block  at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021aug15/callback_issue_demos.raku line 23  (( not 46? ))
