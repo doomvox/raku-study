@@ -38,6 +38,9 @@ say "===";
   my $upper = @nothing.Set;
   dd $upper;            # Set $upper = Set.new("bupkes","nope","nada")
 
+  my $over = Set.new( @nothing );
+  dd $over;
+
 
 }
 
