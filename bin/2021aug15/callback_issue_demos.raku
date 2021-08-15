@@ -74,13 +74,12 @@ say "===";
 
 {
   my $string_thing_4  =  sub ($a, $b) {  
-      my $ret;
+      return do 
       if  $a eq $b  { # now we have $a and $b
-          $ret = $a;
+          $a;
       } else {
-          $ret = $a ~ $b;
+          $a ~ $b;
       }
-      return $ret;
     };  
   say $string_thing_4.('hey', 'yaddah'); # 
 
