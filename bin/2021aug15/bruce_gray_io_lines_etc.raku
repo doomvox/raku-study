@@ -10,7 +10,7 @@ for $file.IO.lines.grep({ ! /^END/ or last }) {
     .say if /^k/;
 } # kong
 
-exit;
+say "===";
 
 .say for $file.IO.lines.grep({ last if /^END/; True }).grep(/^g/);
 
