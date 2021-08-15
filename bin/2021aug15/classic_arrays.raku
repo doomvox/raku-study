@@ -13,7 +13,7 @@ use v6;
   say @nothing[2];      # bupkes
 
   my @sweet = @nothing;
-  say @sweet;           # [nada nope bupkes]   (( seriously?  ))
+  say @sweet;           # [nada nope bupkes]   (( wait, that worked? ))
 
  
 
