@@ -20,7 +20,9 @@ use v6;
   say @nihilism;        # [[nada nope bupkes] [zero zip zed]]
 
   my @all_nothing = flat @nothing, @zero;
-  say @all_nothing;
+  say @all_nothing; # [nada nope bupkes zero zip zed]
+
+  my @all_nothing = | @nothing, | @zero;
 
 }
 
