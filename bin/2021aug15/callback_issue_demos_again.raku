@@ -7,7 +7,7 @@ use v6;
 {
   my $string_thing_3  =  sub {  
       my $ret;
-      say "HERE WE GO";
+      say "---";
       if  $^a eq $^b  { # now we have $a and $b
           $ret = $a;
       } else {
