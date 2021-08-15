@@ -41,7 +41,7 @@ say "===";
 {
   my $string_thing_3  =  {  
       do 
-      if( $^a eq $^b ) {
+      if ( $^a eq $^b ) {
           "$^a";
       } else {
           "$^a | $^b";          
