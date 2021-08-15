@@ -69,14 +69,14 @@ say "===";
 
 # /https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/callback_issue_demos.raku
 
-{
-  my $string_thing_4  =  sub ($a, $b) {  
-      return do 
-      if  $a eq $b  { # now we have $a and $b
-          $a;
-      } else {
-          $a ~ $b;
-      };
-    };  
-  say $string_thing_4.('hey', 'yaddah'); #  heyyaddah
-}
+# {
+#   my $string_thing_4  =  sub ($a, $b) {  
+#       return do 
+#       if  $a eq $b  { # now we have $a and $b
+#           $a;
+#       } else {
+#           $a ~ $b;
+#       };
+#     };  
+#   say $string_thing_4.('hey', 'yaddah'); #  heyyaddah
+# }
