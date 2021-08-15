@@ -144,7 +144,8 @@ but that's a lot for a tiny amount of documentation:
  I think "scaling" implies multiplying by a factor to magnify or shrink, 
  not to round off.
 
-
+   granularity
+   grain 
 
 
 =end pod
