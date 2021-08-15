@@ -59,7 +59,7 @@ say "===";
       }
       return $ret;
     };  
-#  say $string_thing_3.('hey', 'hey'); #   WEIRD: True   (wtf?)
+  # say $string_thing_3.('hey', 'hey'); #   WEIRD: True   (wtf?)
   say $string_thing_3.('hey', 'not_a_hey'); # 
   say "what??";
 
