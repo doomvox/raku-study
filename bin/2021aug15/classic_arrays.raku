@@ -83,6 +83,7 @@ say "===";
       dd @our_founders;
       # Array @our_founders = [Set.new("tingler","wolfman","dracula")]
       # Note: that's an array with one element, a set
+      # (( so, what happened to the single argument rule? ))
 
       my @m = values @monsters (-) @japanese;
       dd @m;
