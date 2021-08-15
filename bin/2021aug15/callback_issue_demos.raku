@@ -39,14 +39,14 @@ use v6;
 say "===";
 
 {
-  my $string_thing_3  =  {  
+  my $string_thing_3  =  sub {  
       my $ret;
       if ( $^a eq $^b ) {
           $ret = "$^a";
       } else {
           $ret = "$^a | $^b";          
       }
-      $ret;
+      return $ret;
     };  
   say $string_thing_3('hey', 'hey'); # 
   # Too few positionals passed; expected 2 arguments but got 0
