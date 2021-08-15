@@ -29,7 +29,7 @@ use v6;
 
   gerund_eater( %string_thing_2 );
   sub gerund_eater ($thing) {
-      $thing.('al', 'pha');
+      return $thing.('al', 'pha');
   }
 
 }
