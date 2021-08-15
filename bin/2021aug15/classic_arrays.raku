@@ -68,7 +68,7 @@ say "===";
   # Note: that's an array with one element, a set
 
   my @m = values @monsters (-) @japanese;
-
+  dd @m;
 
 
 }
