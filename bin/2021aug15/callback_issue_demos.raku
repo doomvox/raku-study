@@ -75,7 +75,6 @@ say "===";
 {
   my $string_thing_4  =  sub ($a, $b) {  
       my $ret;
-      say "here we go";
       if  $a eq $b  { # now we have $a and $b
           $ret = $a;
       } else {
