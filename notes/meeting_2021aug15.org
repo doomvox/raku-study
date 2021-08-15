@@ -1,4 +1,5 @@
 * meeting notes August 15, 2021
+
 ** callbacks
 *** aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs
 https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku
