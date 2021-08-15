@@ -27,7 +27,7 @@ say "===";
   say @nihilism_too; # [nada nope bupkes zero zip zed]
 
   my $empty_set = Set.new();
-  dd $empty_set;
+  dd $empty_set;  # Set $empty_set = Set.new()
 
   # my $null_regex = rx//;  # Null regex not allowed
 
