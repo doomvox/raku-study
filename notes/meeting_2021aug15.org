@@ -36,4 +36,4 @@ has @.stash;
 ***** Using @.stash internally
 @!stash = (...);
 
-** david christensen expounds on erlang
+** david christensen expounds on erlang compared to raku and perl
