@@ -8,8 +8,6 @@ my $file = "/home/doom/tmp/monsters.txt";
 
 .say for $file.IO.lines.grep({ last if /^END/; True }).grep(/^g/);
 
-exit;
-
 for $file.IO.lines.grep({ !/^END/ or last }) {
     .say if /^g/;
 }
