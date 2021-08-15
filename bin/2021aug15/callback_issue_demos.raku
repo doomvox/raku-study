@@ -47,6 +47,6 @@ say "===";
           "$^a | $^b";          
       }
     };  
-  say $string_thing_3('hey ', 'there'); # hey  | there
+  say $string_thing_3('hey', 'hey'); # 
 }
 
