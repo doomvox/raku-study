@@ -69,7 +69,9 @@ say "===";
 
   my @m = values @monsters (-) @japanese;
   dd @m;
+  # Array @m = [Bool::True, Bool::True, Bool::True]
 
+  my @m = keys @monsters (-) @japanese;
 
 }
 
