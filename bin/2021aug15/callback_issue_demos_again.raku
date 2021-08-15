@@ -36,6 +36,5 @@ use v6;
             "$a | $b";
         }
     }
-
-    say $cb('godzilla','blob');
+    say $cb('godzilla','blob'); #  godzilla | blob
 }
