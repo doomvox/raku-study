@@ -43,5 +43,7 @@ has @.stash;
 *** https://speakerdeck.com/util/reading-files-cant-be-this-simple
 *** https://conf.raku.org/talk/158 
 *** .say for "gigabyte.txt".IO.lines.grep({ last if /^END/; /^a/ }) 
-*** https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/bruce_gray_io_lines_etc.raku
+*** https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/bruce_gray_io_lines_etc.raku
 
+
+https://github.com/doomvox/raku-study/tree/main/bin/2021aug15
