@@ -54,6 +54,7 @@ say "===";
 
   my $lefter = $irish (-) $over;
   dd $lefter;
+  # Set $lefter = Set.new("zed","zero","zip")
 
 
 }
