@@ -9,5 +9,11 @@ use v6;
       return "$^a | $^b";
     };  
   say $string_thing_0('hey ', 'there'); # hey  | there
+}
 
+{
+  my $string_thing_1  =  {
+      "$^a | $^b";
+    };  
+  say $string_thing_1('hey ', 'there'); # hey  | there
 }
