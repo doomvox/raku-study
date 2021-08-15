@@ -64,7 +64,8 @@ say "===";
 
   my @our_founders = @monsters (-) @japanese;
   dd @our_founders;
-
+  # Array @our_founders = [Set.new("tingler","wolfman","dracula")]
+  # Note: that's an array with one element, a set
 
 
 
