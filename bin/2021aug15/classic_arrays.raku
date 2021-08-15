@@ -22,8 +22,8 @@ use v6;
   my @all_nothing = flat @nothing, @zero;
   say @all_nothing; # [nada nope bupkes zero zip zed]
 
-  my @all_nothing = | @nothing, | @zero;
-
+  my @all_nothing_too = | @nothing, | @zero;
+  say @all_nothing_too; # [nada nope bupkes zero zip zed]
 }
 
 
