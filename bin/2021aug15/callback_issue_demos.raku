@@ -9,7 +9,7 @@ use v6;
       return "$^a | $^b";
 #      return "$^b | $^a";
     };  
-  say $string_thing_0.('hey ', 'there'); # hey  | there
+  say $string_thing_0('hey ', 'there'); # hey  | there
 }
 
 exit;
