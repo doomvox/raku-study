@@ -27,7 +27,7 @@ use v6;
   say &string_thing_2('hey ', 'there'); # hey  | there
   say string_thing_2('hey ', 'there');  # hey  | there
 
-  say gerund_eater( &string_thing_2 );
+  say gerund_eater( &string_thing_2 );  # al | pha
   sub gerund_eater ($thing) {
       return $thing.('al', 'pha');
   }
