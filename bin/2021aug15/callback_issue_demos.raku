@@ -20,10 +20,10 @@ use v6;
 }
 
 {
-  my &string_thing_2  =  {  ## sigil
+  my &string_thing_2  =  {  ## sigil & not $
       "$^a | $^b";          ## 
     };  
-  say &string_thing_2('hey ', 'there'); # hey  | there
+  say string_thing_2('hey ', 'there'); # hey  | there
 }
 
 exit
