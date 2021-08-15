@@ -33,7 +33,7 @@ use v6;
         $nada   = $^a;
         $bupkes = $^b;
         if check_something() {
-            $^a eq $^b
+            $a eq $b
         }
     }
 
