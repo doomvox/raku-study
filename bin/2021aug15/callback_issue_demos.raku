@@ -39,15 +39,9 @@ use v6;
 say "===";
 
 {
-  my $string_thing_from_beyond_the_grave  =  sub {  
-      my $ret;
-      say "here we go";
-      if  $^a eq $^b  { # now we have $a and $b
-          $ret = $a;
-      } else {
-          $ret = $a ~ $b;
+  my $string_thing_from_beyond_the_grave  =   {  
+      (  $^a eq $^b  ) ??  $^a !! "$a - $b"
       }
-      return $ret;
     };  
 #  say $string_thing_from_beyond_the_grave.('hey', 'hey'); # 
   say $string_thing_from_beyond_the_grave.('hey', 'not_a_hey'); # 
