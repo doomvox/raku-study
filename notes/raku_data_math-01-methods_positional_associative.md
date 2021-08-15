@@ -1,26 +1,26 @@
-- [distunguishing positional and associative types](#orgf25b20d)
-  - [smart-match against Positional or Associative (checking for a role)](#org40c2583)
-    - [this is easier than I thought, which is why I investigated the following.](#orgca92970)
-  - [.<sup>methods</sup>>>.name](#orgd180ff1)
-  - [using \*-KEY and \*-POS methods as fingerprint](#org7b14691)
+- [distunguishing positional and associative types](#orgd7d0640)
+  - [smart-match against Positional or Associative (checking for a role)](#org68f5349)
+    - [easier than I realized: thought I might need to check available methods](#org73a07b9)
+  - [.<sup>methods</sup>>>.name](#orgecdc840)
+  - [using \*-KEY and \*-POS methods as fingerprint](#orgc6fc3a9)
 
 
-<a id="orgf25b20d"></a>
+<a id="orgd7d0640"></a>
 
 # distunguishing positional and associative types
 
 
-<a id="org40c2583"></a>
+<a id="org68f5349"></a>
 
 ## smart-match against Positional or Associative (checking for a role)
 
 
-<a id="orgca92970"></a>
+<a id="org73a07b9"></a>
 
-### this is easier than I thought, which is why I investigated the following.
+### easier than I realized: thought I might need to check available methods
 
 
-<a id="orgd180ff1"></a>
+<a id="orgecdc840"></a>
 
 ## .<sup>methods</sup>>>.name
 
@@ -178,7 +178,7 @@
 | unshift            |
 
 
-<a id="org7b14691"></a>
+<a id="orgc6fc3a9"></a>
 
 ## using \*-KEY and \*-POS methods as fingerprint
 

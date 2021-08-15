@@ -1,6 +1,6 @@
 * distunguishing positional and associative types
 ** smart-match against Positional or Associative (checking for a role)
-*** this is easier than I thought, which is why I investigated the following.
+*** easier than I realized: thought I might need to check available methods
 
 ** .^methods>>.name
 
