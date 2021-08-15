@@ -49,7 +49,8 @@ say "===";
       }
       return $ret;
     };  
-  say $string_thing_3.('hey', 'not_a_hey'); # 
+  say $string_thing_3.('hey', 'hey'); # 
+#  say $string_thing_3.('hey', 'not_a_hey'); # 
   say "what??";
 
   # Too few positionals passed; expected 2 arguments but got 0
