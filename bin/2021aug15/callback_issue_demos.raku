@@ -40,7 +40,12 @@ say "===";
 
 {
   my $string_thing_3  =  {  
-      "$^a | $^b";          
+      do 
+      if( $^a eq $^b ) {
+          "$^a";
+      } else {
+          "$^a | $^b";          
+      }
     };  
   say $string_thing_3('hey ', 'there'); # hey  | there
 }
