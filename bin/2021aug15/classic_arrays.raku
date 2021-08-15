@@ -36,7 +36,7 @@ say "===";
   # Type check failed in assignment to $upper; expected Set but got Seq (("nada", "nope", "bu...)
 
   my $upper = @nothing.Set;
-  dd $upper; # Set $upper = Set.new("bupkes","nope","nada")
+  dd $upper;            # Set $upper = Set.new("bupkes","nope","nada")
 
 
 }
