@@ -62,7 +62,7 @@ say "===";
   my @other_furriners = < grendel golem garuda >;
 
   my @our_founders = @monsters (-) @japanese;
-
+  dd @our_founders;
 
 
 
