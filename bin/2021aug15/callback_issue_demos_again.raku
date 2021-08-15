@@ -7,14 +7,14 @@ use v6;
 {
   my $string_thing_3  =  sub {  
       my $ret;
-      say "here we go";
+      say "HERE WE GO";
       if  $^a eq $^b  { # now we have $a and $b
           $ret = $a;
       } else {
           $ret = $a ~ $b;
       }
       return $ret;
-    };  
+   };  
   say $string_thing_3.('hey', 'hey'); #   WEIRD: True   (wtf?)
   say $string_thing_3.('hey', 'not_a_hey'); # 
   say "what??";
