@@ -43,7 +43,7 @@ say "===";
       my $ret;
       say "here we go";
       if  $^a eq $^b  {
-          $ret = $^a;
+          $ret = $a;
       } else {
           $ret = $a ~ $b;
       }
