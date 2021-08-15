@@ -10,6 +10,4 @@ use v6;
     };  
   say $string_thing_0('hey ', 'there'); # hey  | there
 
-
-
 }
