@@ -40,4 +40,6 @@ has @.stash;
 ** david christensen expounds on erlang compared to raku and perl
 
 ** question about bruce gray's "reading files can't be this simple" 
-*** 
+*** https://speakerdeck.com/util/reading-files-cant-be-this-simple
+*** https://conf.raku.org/talk/158 
+*** .say for "gigabyte.txt".IO.lines.grep({ last if /^END/; /^a/ }) 

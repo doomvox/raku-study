@@ -1,39 +1,41 @@
-- [meeting notes August 15, 2021](#org9e5dba1)
-  - [callbacks](#org18f4bb5)
-    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#orge38d3eb)
-    - [misc sub-topics:](#org63b6e0b)
-  - [.round arguments](#org6bab69d)
-  - [Data::Dualmap, first release](#org99435c3)
-    - [should handle all built-in datatypes](#org335c904)
-    - [has most features of my perl5 Data::Math](#org9e3c56d)
-  - [data classes](#orgc8150dc)
-    - [custom classes as data containers (from June 20, 2021)](#org44fd3e7)
-  - [twigils considered weird](#org257026b)
-    - [Raku makes sigils an invariant part of a name.](#orgf98aa11)
-    - [Raku now has twigils](#org2ad1a6a)
-  - [david christensen expounds on erlang compared to raku and perl](#org1833181)
-  - [question about bruce gray's "reading files can't be this simple"](#orgde9d056)
-    - [](#org1b46f8d)
+- [meeting notes August 15, 2021](#org6593e27)
+  - [callbacks](#orgccc695c)
+    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#org5656849)
+    - [misc sub-topics:](#orgd5af39c)
+  - [.round arguments](#org6887eb4)
+  - [Data::Dualmap, first release](#orgf0302b4)
+    - [should handle all built-in datatypes](#org37bc56d)
+    - [has most features of my perl5 Data::Math](#orgc2241c8)
+  - [data classes](#orgd0a9f10)
+    - [custom classes as data containers (from June 20, 2021)](#org16d3e5f)
+  - [twigils considered weird](#org22a1f76)
+    - [Raku makes sigils an invariant part of a name.](#orge9d8497)
+    - [Raku now has twigils](#orgeabf471)
+  - [david christensen expounds on erlang compared to raku and perl](#org6a1598b)
+  - [question about bruce gray's "reading files can't be this simple"](#org8e01b27)
+    - [<https://speakerdeck.com/util/reading-files-cant-be-this-simple>](#org0eb9721)
+    - [<https://conf.raku.org/talk/158>](#org6c34d26)
+    - [.say for "gigabyte.txt".IO.lines.grep({ last if *^END*; *^a* })](#org8d3d718)
 
 
-<a id="org9e5dba1"></a>
+<a id="org6593e27"></a>
 
 # meeting notes August 15, 2021
 
 
-<a id="org18f4bb5"></a>
+<a id="orgccc695c"></a>
 
 ## callbacks
 
 
-<a id="orge38d3eb"></a>
+<a id="org5656849"></a>
 
 ### aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku>
 
 
-<a id="org63b6e0b"></a>
+<a id="orgd5af39c"></a>
 
 ### misc sub-topics:
 
@@ -48,24 +50,24 @@
     1.  use the hat just once (the condom convention)
 
 
-<a id="org6bab69d"></a>
+<a id="org6887eb4"></a>
 
 ## .round arguments
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_100.raku>
 
 
-<a id="org99435c3"></a>
+<a id="orgf0302b4"></a>
 
 ## Data::Dualmap, first release
 
 
-<a id="org335c904"></a>
+<a id="org37bc56d"></a>
 
 ### should handle all built-in datatypes
 
 
-<a id="org9e3c56d"></a>
+<a id="orgc2241c8"></a>
 
 ### has most features of my perl5 Data::Math
 
@@ -76,12 +78,12 @@
     1.  for funsies, accept junctions (use type Mu)
 
 
-<a id="orgc8150dc"></a>
+<a id="orgd0a9f10"></a>
 
 ## data classes
 
 
-<a id="org44fd3e7"></a>
+<a id="org16d3e5f"></a>
 
 ### custom classes as data containers (from June 20, 2021)
 
@@ -96,19 +98,19 @@
         2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku>
 
 
-<a id="org257026b"></a>
+<a id="org22a1f76"></a>
 
 ## twigils considered weird
 
 
-<a id="orgf98aa11"></a>
+<a id="orge9d8497"></a>
 
 ### Raku makes sigils an invariant part of a name.
 
 If it's @stuff when you declare it it's still @stuff[3] later
 
 
-<a id="org2ad1a6a"></a>
+<a id="orgeabf471"></a>
 
 ### Raku now has twigils
 
@@ -127,16 +129,26 @@ If it's @stuff when you declare it it's still @stuff[3] later
         @!stash = (&#x2026;);
 
 
-<a id="org1833181"></a>
+<a id="org6a1598b"></a>
 
 ## david christensen expounds on erlang compared to raku and perl
 
 
-<a id="orgde9d056"></a>
+<a id="org8e01b27"></a>
 
 ## question about bruce gray's "reading files can't be this simple"
 
 
-<a id="org1b46f8d"></a>
+<a id="org0eb9721"></a>
 
-###
+### <https://speakerdeck.com/util/reading-files-cant-be-this-simple>
+
+
+<a id="org6c34d26"></a>
+
+### <https://conf.raku.org/talk/158>
+
+
+<a id="org8d3d718"></a>
+
+### .say for "gigabyte.txt".IO.lines.grep({ last if *^END*; *^a* })
