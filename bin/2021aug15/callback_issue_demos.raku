@@ -58,3 +58,5 @@ say "===";
 
 }
 
+
+# /https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/callback_issue_demos.raku
