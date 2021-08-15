@@ -9,9 +9,9 @@ use v6;
       my $ret;
       say "---";
       if  $^a eq $^b  { # now we have $a and $b
-          $ret = $a;
+          $ret = $^a;
       } else {
-          $ret = $a ~ $b;
+          $ret = $^a ~ $^b;
       }
       return $ret;
    };  
