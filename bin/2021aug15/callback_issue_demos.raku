@@ -23,6 +23,7 @@ use v6;
   my &string_thing_2  =  {  ## sigil & not $
       "$^a | $^b";          ## 
     };  
+  # both work
   say &string_thing_2('hey ', 'there'); # hey  | there
   say string_thing_2('hey ', 'there');  # hey  | there
 }
