@@ -17,14 +17,14 @@ say "===";
   say @sweet;           # [nada nope bupkes]   (( wait, that worked? ))
 
   my @zero = < zero zip zed >;
-  my @nihilism = @nothing, @zero;
-  say @nihilism;        # [[nada nope bupkes] [zero zip zed]]
+  my @all_nothing = @nothing, @zero;
+  say @all_nothing;        # [[nada nope bupkes] [zero zip zed]]
 
-  my @all_nothing = flat @nothing, @zero;
-  say @all_nothing; # [nada nope bupkes zero zip zed]
+  my @all_nothing_KEEP = flat @nothing, @zero;
+  say @all_nothing_KEEP; # [nada nope bupkes zero zip zed]
 
-  my @all_nothing_too = | @nothing, | @zero;
-  say @all_nothing_too; # [nada nope bupkes zero zip zed]
+  my @all_nothing_KEEP_too = | @nothing, | @zero;
+  say @all_nothing_KEEP_too; # [nada nope bupkes zero zip zed]
 
   my @up = set @nothing;
   dd @up;               # Array @up = [Set.new("bupkes","nada","nope")]
@@ -42,7 +42,7 @@ say "===";
   dd $over;
   # Set $over = Set.new("nope","bupkes","nada")
 
-  my Set $irish = @nihilism.Set;
+  my Set $irish = @all_nothing.Set;
   dd $irish;
 
 
