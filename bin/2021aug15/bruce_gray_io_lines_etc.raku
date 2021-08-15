@@ -14,6 +14,8 @@ say "===";
 
 .say for $file.IO.lines.grep({ last if /^END/; True }).grep(/^g/);
 
+say "===";
+
 for $file.IO.lines.grep({ !/^END/ or last }) {
     .say if /^g/;
 }
