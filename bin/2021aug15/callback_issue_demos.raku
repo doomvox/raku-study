@@ -42,9 +42,9 @@ say "===";
   my $string_thing_3  =  sub {  
       my $ret;
       if ( $^a eq $^b ) {
-          $ret = "$^a";
+          $ret = $^a;
       } else {
-          $ret = "$^a | $^b";          
+          $ret = $^a . $^b;
       }
       return $ret;
     };  
