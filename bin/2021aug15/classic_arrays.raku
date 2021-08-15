@@ -9,7 +9,7 @@ use v6;
 ## perl-damaged brain.
 
 { my @nothing  = < nada nope bupkes >;
-  say @nothing;
+  say @nothing;         # [nada nope bupkes]
   say @nothing[2];
 
 
