@@ -8,6 +8,7 @@ use v6;
 ## and try to pin down whatever it is that keeps tripping up my
 ## perl-damaged brain.
 
+say "===";
 { my @nothing  = < nada nope bupkes >;
   say @nothing;         # [nada nope bupkes]
   say @nothing[2];      # bupkes
