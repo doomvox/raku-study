@@ -29,9 +29,8 @@ say "===";
   my $empty_set = Set.new();
   dd $empty_set;
 
-  my $null_regex = rx//;
-  dd $null_regex;
-  
+  # my $null_regex = rx//;  # Null regex not allowed
+
   my @r = rx//, rx/0/, rx/ /;
   dd @r;
 
