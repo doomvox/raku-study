@@ -32,8 +32,8 @@ use v6;
       return $thing.('al', 'pha');
   }
 
-  say gerund_eater( string_thing_2 );  # al | pha
-  # Too few positionals passed; expected 2 arguments but got 0
+#   say gerund_eater( string_thing_2 );  # al | pha
+#   # Too few positionals passed; expected 2 arguments but got 0
 }
 
 # say "===";
