@@ -13,7 +13,7 @@ use v6;
 
 {
   my $string_thing_1  =  {  ## not a sub, a block
-      "$^a | $^b";
+      "$^a | $^b";          ## can't use return
     };  
   say $string_thing_1('hey ', 'there'); # hey  | there
 }
