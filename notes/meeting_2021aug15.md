@@ -1,46 +1,46 @@
-- [meeting notes August 15, 2021](#org5cb9981)
-  - [callbacks](#org5b1b664)
-    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#org38fe396)
-    - [misc sub-topics:](#orgbf6fa4d)
-  - [.round arguments](#orgccc4289)
-  - [Data::Dualmap, first release](#org212fddf)
-    - [should handle all built-in datatypes](#org28e8bd4)
-    - [has most features of my perl5 Data::Math](#org1bdd19e)
-  - [data classes](#org99f447d)
-    - [custom classes as data containers (from June 20, 2021)](#org6acc033)
-  - [twigils considered weird](#orgc6c6d92)
-    - [Raku makes sigils an invariant part of a name.](#org645535c)
-    - [Raku now has twigils](#orgfc50728)
-  - [david christensen expounds on erlang compared to raku and perl](#orgc98d549)
-  - [question about bruce gray's "reading files can't be this simple"](#org8fc2635)
-    - [<https://speakerdeck.com/util/reading-files-cant-be-this-simple>](#org440e090)
-    - [<https://conf.raku.org/talk/158>](#orgcde5d00)
-    - [.say for "gigabyte.txt".IO.lines.grep({ last if *^END*; *^a* })](#orga5f4920)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/bruce_gray_io_lines_etc.raku>](#org9fca3af)
-  - [the usual links:](#orgabcd81d)
-    - [meeting notes](#org2438f87)
-    - [code examples:](#org4e24f8d)
-  - [fun with raku on freebsd (bruce gray)](#org324eeb7)
+- [meeting notes August 15, 2021](#org4a2fdd8)
+  - [callbacks](#org2382c53)
+    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#org41e3345)
+    - [misc sub-topics:](#org97136c9)
+  - [.round arguments](#org70bbf57)
+  - [Data::Dualmap, first release](#orgbb94895)
+    - [should handle all built-in datatypes](#orgacfdc19)
+    - [has most features of my perl5 Data::Math](#orge16d693)
+  - [data classes](#org0cd3de1)
+    - [custom classes as data containers (from June 20, 2021)](#orgfd4e5d6)
+  - [twigils considered weird](#org19189f9)
+    - [Raku makes sigils an invariant part of a name.](#org1b6c8d2)
+    - [Raku now has twigils](#orgd747e6c)
+  - [david christensen expounds on erlang compared to raku and perl](#orgaad8a59)
+  - [question about bruce gray's "reading files can't be this simple"](#orgcc886e2)
+    - [<https://speakerdeck.com/util/reading-files-cant-be-this-simple>](#orgaf69ce8)
+    - [<https://conf.raku.org/talk/158>](#orgcac8abc)
+    - [.say for "gigabyte.txt".IO.lines.grep({ last if *^END*; *^a* })](#orgaf2ce27)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/bruce_gray_io_lines_etc.raku>](#org2752291)
+  - [the usual links:](#org45b9af3)
+    - [meeting notes](#orgd5013aa)
+    - [code examples:](#orgb0801f2)
+  - [fun with raku on freebsd (bruce gray)](#org95b1990)
 
 
-<a id="org5cb9981"></a>
+<a id="org4a2fdd8"></a>
 
 # meeting notes August 15, 2021
 
 
-<a id="org5b1b664"></a>
+<a id="org2382c53"></a>
 
 ## callbacks
 
 
-<a id="org38fe396"></a>
+<a id="org41e3345"></a>
 
 ### aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku>
 
 
-<a id="orgbf6fa4d"></a>
+<a id="org97136c9"></a>
 
 ### misc sub-topics:
 
@@ -55,24 +55,24 @@
     1.  use the hat just once (the condom convention)
 
 
-<a id="orgccc4289"></a>
+<a id="org70bbf57"></a>
 
 ## .round arguments
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_100.raku>
 
 
-<a id="org212fddf"></a>
+<a id="orgbb94895"></a>
 
 ## Data::Dualmap, first release
 
 
-<a id="org28e8bd4"></a>
+<a id="orgacfdc19"></a>
 
 ### should handle all built-in datatypes
 
 
-<a id="org1bdd19e"></a>
+<a id="orge16d693"></a>
 
 ### has most features of my perl5 Data::Math
 
@@ -83,12 +83,12 @@
     1.  for funsies, accept junctions (use type Mu)
 
 
-<a id="org99f447d"></a>
+<a id="org0cd3de1"></a>
 
 ## data classes
 
 
-<a id="org6acc033"></a>
+<a id="orgfd4e5d6"></a>
 
 ### custom classes as data containers (from June 20, 2021)
 
@@ -103,19 +103,19 @@
         2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku>
 
 
-<a id="orgc6c6d92"></a>
+<a id="org19189f9"></a>
 
 ## twigils considered weird
 
 
-<a id="org645535c"></a>
+<a id="org1b6c8d2"></a>
 
 ### Raku makes sigils an invariant part of a name.
 
 If it's @stuff when you declare it it's still @stuff[3] later
 
 
-<a id="orgfc50728"></a>
+<a id="orgd747e6c"></a>
 
 ### Raku now has twigils
 
@@ -134,56 +134,56 @@ If it's @stuff when you declare it it's still @stuff[3] later
         @!stash = (&#x2026;);
 
 
-<a id="orgc98d549"></a>
+<a id="orgaad8a59"></a>
 
 ## david christensen expounds on erlang compared to raku and perl
 
 
-<a id="org8fc2635"></a>
+<a id="orgcc886e2"></a>
 
 ## question about bruce gray's "reading files can't be this simple"
 
 
-<a id="org440e090"></a>
+<a id="orgaf69ce8"></a>
 
 ### <https://speakerdeck.com/util/reading-files-cant-be-this-simple>
 
 
-<a id="orgcde5d00"></a>
+<a id="orgcac8abc"></a>
 
 ### <https://conf.raku.org/talk/158>
 
 
-<a id="orga5f4920"></a>
+<a id="orgaf2ce27"></a>
 
 ### .say for "gigabyte.txt".IO.lines.grep({ last if *^END*; *^a* })
 
 
-<a id="org9fca3af"></a>
+<a id="org2752291"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/bruce_gray_io_lines_etc.raku>
 
 
-<a id="orgabcd81d"></a>
+<a id="org45b9af3"></a>
 
 ## the usual links:
 
 
-<a id="org2438f87"></a>
+<a id="orgd5013aa"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug15.md>
 
 
-<a id="org4e24f8d"></a>
+<a id="orgb0801f2"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021aug15>
 
 
-<a id="org324eeb7"></a>
+<a id="org95b1990"></a>
 
 ## fun with raku on freebsd (bruce gray)
 

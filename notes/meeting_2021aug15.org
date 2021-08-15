@@ -8,7 +8,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines
 ***** subs can use return
 **** placeholder vars idiom
 ***** use the hat just once (the condom convention)
-** .round arguments
+** TODO .round arguments
 https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_100.raku
 ** Data::Dualmap, first release
 *** should handle all built-in datatypes
