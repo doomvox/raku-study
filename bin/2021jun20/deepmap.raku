@@ -70,6 +70,10 @@ say " new 2015 ", %n1{2015};
 
 #    my %munged = %monster_data.deepmap({ .Numeric  ?? $_+13 !! $_ });
     my %munged = %monster_data.deepmap( { $_ ~~ Numeric  ?? $_+13 !! $_ } );   ## THIS FORM GOOD
+
+##    my %munged = %monster_data.my_deepmap( { $_+13 } );  # hypothetical
+
+
     say %monster_data{'godzilla'};  # {color => green, level => 9}
     say %munged{'godzilla'};        # {color => green, level => 22}
 
