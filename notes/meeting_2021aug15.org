@@ -37,6 +37,7 @@ has @.stash;
 @!stash = (...);
 
 ** david christensen expounds on erlang compared to raku and perl
+*** "representational polymorphic" -- larry wall
 
 ** question about bruce gray's "reading files can't be this simple" 
 *** https://speakerdeck.com/util/reading-files-cant-be-this-simple
