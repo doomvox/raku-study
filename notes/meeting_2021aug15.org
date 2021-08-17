@@ -67,7 +67,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_1
 ** david christensen expounds on erlang compared to raku and perl
 *** larry wall talk abour raku at Erlang with Joe Armstrong
 https://www.youtube.com/watch?v=SpH9BTMZKXc
-*** "representational polymorphic" -- larry wall
+**** "representational polymorphic"
 
 ** question about bruce gray's "reading files can't be this simple" 
 *** https://speakerdeck.com/util/reading-files-cant-be-this-simple
