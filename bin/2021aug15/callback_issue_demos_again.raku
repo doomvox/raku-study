@@ -27,7 +27,7 @@ use v6;
 
 ## I was trying to contrive an example where you might use the
 ## placeholders inside a sub-block without first using them in
-## the top level one.  Still throws the "Too many positionals":
+## the top level one.  Still errors out: "Too many positionals".
 
 # say "---";
 # {
