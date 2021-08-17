@@ -52,7 +52,8 @@ has @!hidden;
 has @.stash;
 ***** Using @.stash internally
 @!stash = (...);
-
+***** placeholder vars
+{ $^a eq $^b || $a ?? "$a|$b" }
 ** david christensen expounds on erlang compared to raku and perl
 *** "representational polymorphic" -- larry wall
 
