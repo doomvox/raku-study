@@ -97,6 +97,7 @@ https://www.youtube.com/watch?v=SpH9BTMZKXc
 
 ** from the chat window:
 *** william michels mentions ghidra
+**** a reverse engineering tool from the nsa
 **** https://www.nsa.gov/resources/everyone/ghidra/
 
 
