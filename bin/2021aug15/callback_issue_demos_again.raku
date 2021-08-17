@@ -40,8 +40,6 @@ use v6;
 #     say $cb('godzilla','blob'); #  
 # }
 
-
-
 {
     sub check_something { True; };
     my $cb = {  # Too many positionals passed; expected 0 or 1 arguments but got 2
