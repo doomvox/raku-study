@@ -47,7 +47,7 @@ If it's @stuff when you declare it it's still @stuff[3] later
 *** Raku now has twigils
 **** they can sometimes be used like part of the name, but sometimes not
 ***** internal variables
-has @!mess;
+has @!hidden;
 ***** variable with accessors
 has @.stash;
 ***** Using @.stash internally
