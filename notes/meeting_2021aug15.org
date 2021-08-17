@@ -95,8 +95,7 @@ https://www.youtube.com/watch?v=SpH9BTMZKXc
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021aug15
 
-** some bits from the chat window:
-
+** from the chat window:
 *** william michels brings up ghidra
 **** https://www.nsa.gov/resources/everyone/ghidra/
 
