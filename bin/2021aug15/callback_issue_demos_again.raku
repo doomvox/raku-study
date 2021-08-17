@@ -40,7 +40,7 @@ use v6;
 #     say $cb('godzilla','blob'); #  
 # }
 
-
+## Doing it like so works, of course:
 
 {
     sub check_something { True; };
