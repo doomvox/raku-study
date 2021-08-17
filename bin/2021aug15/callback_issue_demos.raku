@@ -95,5 +95,8 @@ say "===";
 ## He makes the point it's useful to use pointy blocks in an if:
 
 # 15:43:29	 From Bruce Gray : if big_func($foo) -> $saved_val { … }
+
+## Similar to the perlish:
+
 # 15:44:30	 From Bruce Gray : if ( my $saved = big_func($foo) ) {  … }
 # 15:46:39	 From Bruce Gray : if $^a eq $^b    -> $a { $ret = $a }
