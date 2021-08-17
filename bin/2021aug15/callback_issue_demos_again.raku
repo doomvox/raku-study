@@ -39,6 +39,7 @@ use v6;
     say $cb('godzilla','blob'); #  godzilla | blob
 }
 
+exit;
 
 {
     sub check_something { True; };
