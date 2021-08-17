@@ -87,7 +87,7 @@ https://www.youtube.com/watch?v=SpH9BTMZKXc
 ** fun with raku on freebsd (bruce gray)
 *** https://www.freshports.org/lang/rakudo/ 
 *** https://cgit.freebsd.org/ports/commit/?id=a80c31a5dda807dcedb2391dc3e2c6f578f8ce3d 
-*** could use a freebsd expert to consult with
+*** he could use a freebsd expert to consult with
 
 ** the usual links:
 *** meeting notes
