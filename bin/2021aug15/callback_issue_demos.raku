@@ -81,3 +81,19 @@ say "===";
     };  
   say $string_thing_4.('hey', 'yaddah'); #  heyyaddah
 }
+
+
+## Bruce Gray steps through how this works:
+
+## These forms are equivalent:
+
+# 15:41:31	 From Bruce Gray : my $s = { $^a + $^b };
+# 15:42:26	 From Bruce Gray : my $s =              { $^a + $^b };
+# 15:42:36	 From Bruce Gray : my $s = sub ($a, $b) {  $a +  $b };
+# 15:42:56	 From Bruce Gray : my $s =   -> $a, $b  {  $a +  $b };
+
+## He makes the point it's useful to use pointy blocks in an if:
+
+# 15:43:29	 From Bruce Gray : if big_func($foo) -> $saved_val { … }
+# 15:44:30	 From Bruce Gray : if ( my $saved = big_func($foo) ) {  … }
+# 15:46:39	 From Bruce Gray : if $^a eq $^b    -> $a { $ret = $a }
