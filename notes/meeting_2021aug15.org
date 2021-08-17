@@ -59,6 +59,7 @@ has @.stash;
 if( $^a eq $^b ) { $^a } else {"$^a|$^b}
 ****** better:
 if( $^a eq $^b ) { $a } else {"$a|$b}
+
 ** david christensen expounds on erlang compared to raku and perl
 *** "representational polymorphic" -- larry wall
 
