@@ -14,6 +14,8 @@
 
 ** placeholder variables with callback/code blocks
 *** hang-up with placeholders in if/else sub-blocks 
+**** error messaging weak (sounds like it's pointing elsewhere, need to check line numbers)
+**** 
 
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku
 
