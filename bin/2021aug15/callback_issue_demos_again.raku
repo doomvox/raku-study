@@ -27,20 +27,20 @@ use v6;
 
 ## I was trying to contrive an example where you might use the
 ## placeholders inside a sub-block without first using them in
-## the top level one.
+## the top level one.  Still throws the "Too many positionals":
 
-say "---";
-{
-    sub check_something { True; };  ## Stub routine, always true for now
-    my $cb = {  # Too many positionals passed; expected 0 or 1 arguments but got 2
-        if check_something() {
-            "$^a | $^b";
-        }
-    }
-    say $cb('godzilla','blob'); #  
-}
+# say "---";
+# {
+#     sub check_something { True; };  ## Stub routine, always true for now
+#     my $cb = {  # Too many positionals passed; expected 0 or 1 arguments but got 2
+#         if check_something() {
+#             "$^a | $^b";
+#         }
+#     }
+#     say $cb('godzilla','blob'); #  
+# }
 
-exit;
+
 
 {
     sub check_something { True; };
