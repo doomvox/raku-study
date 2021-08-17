@@ -3,6 +3,7 @@
 *** aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs
 **** bruce gray likes "code blocks" despite the potential ambiguities
 ***** "callbacks" refers to how they're used
+***** william michels suggests "gerund", verbs turned into nouns
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku
 *** misc sub-topics:
 **** sigils: $code vs &code
