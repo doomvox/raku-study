@@ -13,11 +13,13 @@
 ******* https://www.nntp.perl.org/group/perl.perl6.users/2021/08/msg10090.html
 
 ** placeholder variables with callback/code blocks
+*** https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku
 *** hang-up with placeholders in if/else sub-blocks 
 **** error messaging weak (sounds like it's pointing elsewhere, need to check line numbers)
-**** 
+**** code examples in the docs are sketchy
+***** I think the standard idiom needs to change ("condom converion" mentioned above
 
-**** https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku
+
 
 
 ** twigils considered weird
