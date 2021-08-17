@@ -40,6 +40,8 @@ use v6;
 #     say $cb('godzilla','blob'); #  
 # }
 
+
+
 {
     sub check_something { True; };
     my $cb = {  
