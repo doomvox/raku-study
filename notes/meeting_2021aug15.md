@@ -1,44 +1,46 @@
-- [meeting notes August 15, 2021](#org6778105)
-  - [callbacks](#org6ee23f9)
-    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#org88597e8)
-    - [misc sub-topics:](#orgc0bdaf3)
-  - [twigils considered weird](#org9747ee6)
-    - [Raku makes sigils an invariant part of a name.](#org973c738)
-    - [Raku now has twigils](#orga07fcac)
-  - [.round arguments, whining about the docs](#org89b4086)
-    - [a case where I feel confused by the "signature" approach, despite knowing better](#org5c7eac7)
-    - [badly needs code examples.](#org9dacab8)
-    - [naming of "scale" seems strange, hard to improve:](#orgb47b76e)
-  - [Data::Dualmap, near first release](#org2971481)
-    - [should handle all built-in datatypes](#orgdda2abf)
-    - [has most features of my perl5 Data::Math](#orgfbeaf2d)
-    - [open question whether it would be better to generalize further](#orgba27486)
-  - [data classes](#org898e240)
-    - [custom classes as data containers (from June 20, 2021)](#org00fa71c)
-  - [david christensen expounds on erlang compared to raku and perl](#orgcd02f2e)
-    - ["representational polymorphic" &#x2013; larry wall](#orgce74676)
-  - [question about bruce gray's "reading files can't be this simple"](#orgc481200)
-    - [<https://speakerdeck.com/util/reading-files-cant-be-this-simple>](#orge84da6d)
-    - [<https://conf.raku.org/talk/158>](#org771b488)
-    - [.say for "gigabyte.txt".IO.lines.grep({ last if *^END*; *^a* })](#org0408b97)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/bruce_gray_io_lines_etc.raku>](#org758f120)
-  - [the usual links:](#orge499d99)
-    - [meeting notes](#orgd87ac45)
-    - [code examples:](#orga56f1d6)
-  - [fun with raku on freebsd (bruce gray)](#org8d69d98)
+- [meeting notes August 15, 2021](#orgbe07300)
+  - [callbacks](#org0e6eef5)
+    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#orgc601630)
+    - [misc sub-topics:](#org0dd1ae8)
+  - [twigils considered weird](#org6a60fed)
+    - [Raku makes sigils an invariant part of a name.](#org0befb0f)
+    - [Raku now has twigils](#org76a1c66)
+  - [.round arguments, whining about the docs](#orgf8c356b)
+    - [a case where I feel confused by the "signature" approach, despite knowing better](#org3b85d69)
+    - [badly needs code examples.](#org4f79113)
+    - [naming of "scale" seems strange, hard to improve:](#orgf7ea219)
+  - [Data::Dualmap, near first release](#org9278772)
+    - [should handle all built-in datatypes](#org1d4091f)
+    - [has most features of my perl5 Data::Math](#orgf87c261)
+    - [open question whether it would be better to generalize further](#orgb45595f)
+  - [data classes](#orgcd8100e)
+    - [custom classes as data containers (from June 20, 2021)](#org51cee99)
+  - [david christensen expounds on erlang compared to raku and perl](#org0fd9982)
+    - ["representational polymorphic" &#x2013; larry wall](#orgd1f62b2)
+  - [question about bruce gray's "reading files can't be this simple"](#orgffd1b0c)
+    - [<https://speakerdeck.com/util/reading-files-cant-be-this-simple>](#org7b62c71)
+    - [<https://conf.raku.org/talk/158>](#org6f5a83a)
+    - [.say for "gigabyte.txt".IO.lines.grep({ last if *^END*; *^a* })](#orge70b322)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/bruce_gray_io_lines_etc.raku>](#org3ca290b)
+  - [fun with raku on freebsd (bruce gray)](#orge8d9a39)
+  - [the usual links:](#orgf6a163f)
+    - [meeting notes](#orgf80e975)
+    - [code examples:](#org78149f8)
+  - [some bits from the chat window:](#org348b1b1)
+    - [william michels brings up ghidra](#org045b3f0)
 
 
-<a id="org6778105"></a>
+<a id="orgbe07300"></a>
 
 # meeting notes August 15, 2021
 
 
-<a id="org6ee23f9"></a>
+<a id="org0e6eef5"></a>
 
 ## callbacks
 
 
-<a id="org88597e8"></a>
+<a id="orgc601630"></a>
 
 ### aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs
 
@@ -51,7 +53,7 @@
 2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku>
 
 
-<a id="orgc0bdaf3"></a>
+<a id="org0dd1ae8"></a>
 
 ### misc sub-topics:
 
@@ -66,19 +68,19 @@
     1.  use the hat just once (the condom convention)
 
 
-<a id="org9747ee6"></a>
+<a id="org6a60fed"></a>
 
 ## twigils considered weird
 
 
-<a id="org973c738"></a>
+<a id="org0befb0f"></a>
 
 ### Raku makes sigils an invariant part of a name.
 
 If it's @stuff when you declare it it's still @stuff[3] later
 
 
-<a id="orga07fcac"></a>
+<a id="org76a1c66"></a>
 
 ### Raku now has twigils
 
@@ -111,26 +113,26 @@ If it's @stuff when you declare it it's still @stuff[3] later
             if( $<sup>a</sup> eq $<sup>b</sup> ) { $a } else {"$a|$b}
 
 
-<a id="org89b4086"></a>
+<a id="orgf8c356b"></a>
 
 ## .round arguments, whining about the docs
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_100.raku>
 
 
-<a id="org5c7eac7"></a>
+<a id="org3b85d69"></a>
 
 ### a case where I feel confused by the "signature" approach, despite knowing better
 
 1.  signatures are how things are defined, not how they're to be used
 
 
-<a id="org9dacab8"></a>
+<a id="org4f79113"></a>
 
 ### badly needs code examples.
 
 
-<a id="orgb47b76e"></a>
+<a id="orgf7ea219"></a>
 
 ### naming of "scale" seems strange, hard to improve:
 
@@ -139,17 +141,17 @@ If it's @stuff when you declare it it's still @stuff[3] later
 2.  I think "nearest" might work:  you "round off to the nearest"
 
 
-<a id="org2971481"></a>
+<a id="org9278772"></a>
 
 ## Data::Dualmap, near first release
 
 
-<a id="orgdda2abf"></a>
+<a id="org1d4091f"></a>
 
 ### should handle all built-in datatypes
 
 
-<a id="orgfbeaf2d"></a>
+<a id="orgf87c261"></a>
 
 ### has most features of my perl5 Data::Math
 
@@ -168,7 +170,7 @@ If it's @stuff when you declare it it's still @stuff[3] later
             1.  had an intermittant test failure: unpredicitable key ordering
 
 
-<a id="orgba27486"></a>
+<a id="orgb45595f"></a>
 
 ### open question whether it would be better to generalize further
 
@@ -177,12 +179,12 @@ If it's @stuff when you declare it it's still @stuff[3] later
 2.  "It's hard to generalize about generalization, sometimes it's good, sometimes not."
 
 
-<a id="org898e240"></a>
+<a id="orgcd8100e"></a>
 
 ## data classes
 
 
-<a id="org00fa71c"></a>
+<a id="org51cee99"></a>
 
 ### custom classes as data containers (from June 20, 2021)
 
@@ -197,62 +199,74 @@ If it's @stuff when you declare it it's still @stuff[3] later
         2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku>
 
 
-<a id="orgcd02f2e"></a>
+<a id="org0fd9982"></a>
 
 ## david christensen expounds on erlang compared to raku and perl
 
 
-<a id="orgce74676"></a>
+<a id="orgd1f62b2"></a>
 
 ### "representational polymorphic" &#x2013; larry wall
 
 
-<a id="orgc481200"></a>
+<a id="orgffd1b0c"></a>
 
 ## question about bruce gray's "reading files can't be this simple"
 
 
-<a id="orge84da6d"></a>
+<a id="org7b62c71"></a>
 
 ### <https://speakerdeck.com/util/reading-files-cant-be-this-simple>
 
 
-<a id="org771b488"></a>
+<a id="org6f5a83a"></a>
 
 ### <https://conf.raku.org/talk/158>
 
 
-<a id="org0408b97"></a>
+<a id="orge70b322"></a>
 
 ### .say for "gigabyte.txt".IO.lines.grep({ last if *^END*; *^a* })
 
 
-<a id="org758f120"></a>
+<a id="org3ca290b"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/bruce_gray_io_lines_etc.raku>
 
 
-<a id="orge499d99"></a>
+<a id="orge8d9a39"></a>
+
+## fun with raku on freebsd (bruce gray)
+
+<https://www.freshports.org/lang/rakudo/> <https://cgit.freebsd.org/ports/commit/?id=a80c31a5dda807dcedb2391dc3e2c6f578f8ce3d>
+
+
+<a id="orgf6a163f"></a>
 
 ## the usual links:
 
 
-<a id="orgd87ac45"></a>
+<a id="orgf80e975"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug15.md>
 
 
-<a id="orga56f1d6"></a>
+<a id="org78149f8"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021aug15>
 
 
-<a id="org8d69d98"></a>
+<a id="org348b1b1"></a>
 
-## fun with raku on freebsd (bruce gray)
+## some bits from the chat window:
 
-<https://www.freshports.org/lang/rakudo/> <https://cgit.freebsd.org/ports/commit/?id=a80c31a5dda807dcedb2391dc3e2c6f578f8ce3d>
+
+<a id="org045b3f0"></a>
+
+### william michels brings up ghidra
+
+1.  <https://www.nsa.gov/resources/everyone/ghidra/>

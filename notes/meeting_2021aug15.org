@@ -73,12 +73,18 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_1
 *** .say for "gigabyte.txt".IO.lines.grep({ last if /^END/; /^a/ }) 
 *** https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/bruce_gray_io_lines_etc.raku
 
+** fun with raku on freebsd (bruce gray)
+https://www.freshports.org/lang/rakudo/ 
+https://cgit.freebsd.org/ports/commit/?id=a80c31a5dda807dcedb2391dc3e2c6f578f8ce3d 
+
 ** the usual links:
 *** meeting notes
 **** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug15.md
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021aug15
 
-** fun with raku on freebsd (bruce gray)
-https://www.freshports.org/lang/rakudo/ 
-https://cgit.freebsd.org/ports/commit/?id=a80c31a5dda807dcedb2391dc3e2c6f578f8ce3d 
+** some bits from the chat window:
+
+*** william michels brings up ghidra
+**** https://www.nsa.gov/resources/everyone/ghidra/
+
