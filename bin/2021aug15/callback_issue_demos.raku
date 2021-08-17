@@ -99,4 +99,5 @@ say "===";
 ## Similar to the perlish:
 
 # 15:44:30	 From Bruce Gray : if ( my $saved = big_func($foo) ) {  … }
+
 # 15:46:39	 From Bruce Gray : if $^a eq $^b    -> $a { $ret = $a }
