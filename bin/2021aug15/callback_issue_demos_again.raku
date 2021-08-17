@@ -29,6 +29,16 @@ use v6;
 ## placeholders inside a sub-block without first using them in
 ## the top level one.
 
+{
+    sub check_something { True; };  ## Stub routine, always true for now
+    my $cb = {  # Too many positionals passed; expected 0 or 1 arguments but got 2
+        if check_something() {
+            "$^a | $^b";
+        }
+    }
+    say $cb('godzilla','blob'); #  godzilla | blob
+}
+
 
 {
     sub check_something { True; };
