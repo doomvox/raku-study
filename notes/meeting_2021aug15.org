@@ -96,7 +96,7 @@ https://www.youtube.com/watch?v=SpH9BTMZKXc
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021aug15
 
 ** from the chat window:
-*** william michels brings up ghidra
+*** william michels mentions ghidra
 **** https://www.nsa.gov/resources/everyone/ghidra/
 
 
