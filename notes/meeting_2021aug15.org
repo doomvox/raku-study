@@ -19,7 +19,7 @@
 **** error messaging weak (sounds like it's pointing elsewhere, need to check line numbers)
 **** code examples in the docs are sketchy
 ***** I think the standard idiom needs to change ("condom converion" mentioned above
-
+****** https://github.com/rakudo/rakudo/issues/4490
 
 
 
