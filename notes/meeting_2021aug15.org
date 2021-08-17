@@ -21,8 +21,6 @@
 ***** I think the standard idiom needs to change to the "condom convention" mentioned above
 ****** https://github.com/rakudo/rakudo/issues/4490
 
-
-
 ** twigils considered weird
 *** Raku makes sigils an invariant part of a name.  
 If it's @stuff when you declare it it's still @stuff[3] later
