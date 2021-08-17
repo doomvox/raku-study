@@ -65,6 +65,8 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_1
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku
 
 ** david christensen expounds on erlang compared to raku and perl
+*** larry wall talk abour raku at Erlang with Joe Armstrong
+https://www.youtube.com/watch?v=SpH9BTMZKXc
 *** "representational polymorphic" -- larry wall
 
 ** question about bruce gray's "reading files can't be this simple" 
@@ -87,4 +89,5 @@ https://cgit.freebsd.org/ports/commit/?id=a80c31a5dda807dcedb2391dc3e2c6f578f8ce
 
 *** william michels brings up ghidra
 **** https://www.nsa.gov/resources/everyone/ghidra/
+
 
