@@ -40,6 +40,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_1
 ****** schema: /home/doom/End/Cave/GraphVizDbiGeneral/Wall/graphs/schema_diagram.png
 ******* generated with: /home/doom/End/Cave/GraphVizDbiGeneral/bin/generate_schema_diagram_spots
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku
+
 ** twigils considered weird
 *** Raku makes sigils an invariant part of a name.  
 If it's @stuff when you declare it it's still @stuff[3] later

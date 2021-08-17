@@ -1,44 +1,44 @@
-- [meeting notes August 15, 2021](#orgf64d517)
-  - [callbacks](#orge1b421f)
-    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#org8ce94cc)
-    - [misc sub-topics:](#org0672b15)
-  - [.round arguments, whining about the docs](#org2795355)
-    - [a case where I feel confused by the "signature" approach, despite knowing better](#org5685bb3)
-    - [badly needs code examples.](#orgea1f24b)
-    - [naming of "scale" seems strange, hard to improve:](#org18c1392)
-  - [Data::Dualmap, near first release](#org6e38e16)
-    - [should handle all built-in datatypes](#org0fdd5fb)
-    - [has most features of my perl5 Data::Math](#org664fef2)
-    - [open question whether it would be better to generalize further](#orgb7a3f78)
-  - [data classes](#org1ce8061)
-    - [custom classes as data containers (from June 20, 2021)](#org767ce77)
-  - [twigils considered weird](#org5f374bb)
-    - [Raku makes sigils an invariant part of a name.](#org81903d4)
-    - [Raku now has twigils](#orgd8c5ea7)
-  - [david christensen expounds on erlang compared to raku and perl](#orgc56c85e)
-    - ["representational polymorphic" &#x2013; larry wall](#orge1ceb2e)
-  - [question about bruce gray's "reading files can't be this simple"](#orgd4d69f1)
-    - [<https://speakerdeck.com/util/reading-files-cant-be-this-simple>](#orgc19de0c)
-    - [<https://conf.raku.org/talk/158>](#org8dc3476)
-    - [.say for "gigabyte.txt".IO.lines.grep({ last if *^END*; *^a* })](#org4062d1c)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/bruce_gray_io_lines_etc.raku>](#org7e7ef74)
-  - [the usual links:](#org5bd59ff)
-    - [meeting notes](#org96e2c97)
-    - [code examples:](#org184c1cf)
-  - [fun with raku on freebsd (bruce gray)](#orgcc5b430)
+- [meeting notes August 15, 2021](#org99c189b)
+  - [callbacks](#orgc2c4844)
+    - [aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs](#orgbff3778)
+    - [misc sub-topics:](#org39d869e)
+  - [.round arguments, whining about the docs](#org4ad770b)
+    - [a case where I feel confused by the "signature" approach, despite knowing better](#org3c828ed)
+    - [badly needs code examples.](#org212092e)
+    - [naming of "scale" seems strange, hard to improve:](#org660d4e0)
+  - [Data::Dualmap, near first release](#org67978d2)
+    - [should handle all built-in datatypes](#org37e6fc4)
+    - [has most features of my perl5 Data::Math](#org3bd2c9f)
+    - [open question whether it would be better to generalize further](#org356f863)
+  - [data classes](#org6ccd77e)
+    - [custom classes as data containers (from June 20, 2021)](#org96561a4)
+  - [twigils considered weird](#org931add0)
+    - [Raku makes sigils an invariant part of a name.](#org52b4a3b)
+    - [Raku now has twigils](#org778272e)
+  - [david christensen expounds on erlang compared to raku and perl](#org04c500c)
+    - ["representational polymorphic" &#x2013; larry wall](#org82685d3)
+  - [question about bruce gray's "reading files can't be this simple"](#org97d9ef3)
+    - [<https://speakerdeck.com/util/reading-files-cant-be-this-simple>](#org2d778d0)
+    - [<https://conf.raku.org/talk/158>](#orgc93f1d4)
+    - [.say for "gigabyte.txt".IO.lines.grep({ last if *^END*; *^a* })](#org1d23fc8)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/bruce_gray_io_lines_etc.raku>](#org8a97a34)
+  - [the usual links:](#org9c2a191)
+    - [meeting notes](#org5c18094)
+    - [code examples:](#org5d77526)
+  - [fun with raku on freebsd (bruce gray)](#orge876058)
 
 
-<a id="orgf64d517"></a>
+<a id="org99c189b"></a>
 
 # meeting notes August 15, 2021
 
 
-<a id="orge1b421f"></a>
+<a id="orgc2c4844"></a>
 
 ## callbacks
 
 
-<a id="org8ce94cc"></a>
+<a id="orgbff3778"></a>
 
 ### aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs
 
@@ -49,7 +49,7 @@
 2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku>
 
 
-<a id="org0672b15"></a>
+<a id="org39d869e"></a>
 
 ### misc sub-topics:
 
@@ -64,26 +64,26 @@
     1.  use the hat just once (the condom convention)
 
 
-<a id="org2795355"></a>
+<a id="org4ad770b"></a>
 
 ## .round arguments, whining about the docs
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_100.raku>
 
 
-<a id="org5685bb3"></a>
+<a id="org3c828ed"></a>
 
 ### a case where I feel confused by the "signature" approach, despite knowing better
 
 1.  signatures are how things are defined, not how they're to be used
 
 
-<a id="orgea1f24b"></a>
+<a id="org212092e"></a>
 
 ### badly needs code examples.
 
 
-<a id="org18c1392"></a>
+<a id="org660d4e0"></a>
 
 ### naming of "scale" seems strange, hard to improve:
 
@@ -92,17 +92,17 @@
 2.  I think "nearest" might work:  you "round off to the nearest"
 
 
-<a id="org6e38e16"></a>
+<a id="org67978d2"></a>
 
 ## Data::Dualmap, near first release
 
 
-<a id="org0fdd5fb"></a>
+<a id="org37e6fc4"></a>
 
 ### should handle all built-in datatypes
 
 
-<a id="org664fef2"></a>
+<a id="org3bd2c9f"></a>
 
 ### has most features of my perl5 Data::Math
 
@@ -121,7 +121,7 @@
             1.  had an intermittant test failure: unpredicitable key ordering
 
 
-<a id="orgb7a3f78"></a>
+<a id="org356f863"></a>
 
 ### open question whether it would be better to generalize further
 
@@ -130,12 +130,12 @@
 2.  "It's hard to generalize about generalization, sometimes it's good, sometimes not."
 
 
-<a id="org1ce8061"></a>
+<a id="org6ccd77e"></a>
 
 ## data classes
 
 
-<a id="org767ce77"></a>
+<a id="org96561a4"></a>
 
 ### custom classes as data containers (from June 20, 2021)
 
@@ -150,19 +150,19 @@
         2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku>
 
 
-<a id="org5f374bb"></a>
+<a id="org931add0"></a>
 
 ## twigils considered weird
 
 
-<a id="org81903d4"></a>
+<a id="org52b4a3b"></a>
 
 ### Raku makes sigils an invariant part of a name.
 
 If it's @stuff when you declare it it's still @stuff[3] later
 
 
-<a id="orgd8c5ea7"></a>
+<a id="org778272e"></a>
 
 ### Raku now has twigils
 
@@ -181,61 +181,61 @@ If it's @stuff when you declare it it's still @stuff[3] later
         @!stash = (&#x2026;);
 
 
-<a id="orgc56c85e"></a>
+<a id="org04c500c"></a>
 
 ## david christensen expounds on erlang compared to raku and perl
 
 
-<a id="orge1ceb2e"></a>
+<a id="org82685d3"></a>
 
 ### "representational polymorphic" &#x2013; larry wall
 
 
-<a id="orgd4d69f1"></a>
+<a id="org97d9ef3"></a>
 
 ## question about bruce gray's "reading files can't be this simple"
 
 
-<a id="orgc19de0c"></a>
+<a id="org2d778d0"></a>
 
 ### <https://speakerdeck.com/util/reading-files-cant-be-this-simple>
 
 
-<a id="org8dc3476"></a>
+<a id="orgc93f1d4"></a>
 
 ### <https://conf.raku.org/talk/158>
 
 
-<a id="org4062d1c"></a>
+<a id="org1d23fc8"></a>
 
 ### .say for "gigabyte.txt".IO.lines.grep({ last if *^END*; *^a* })
 
 
-<a id="org7e7ef74"></a>
+<a id="org8a97a34"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2021aug15/bruce_gray_io_lines_etc.raku>
 
 
-<a id="org5bd59ff"></a>
+<a id="org9c2a191"></a>
 
 ## the usual links:
 
 
-<a id="org96e2c97"></a>
+<a id="org5c18094"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug15.md>
 
 
-<a id="org184c1cf"></a>
+<a id="org5d77526"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021aug15>
 
 
-<a id="orgcc5b430"></a>
+<a id="orge876058"></a>
 
 ## fun with raku on freebsd (bruce gray)
 
