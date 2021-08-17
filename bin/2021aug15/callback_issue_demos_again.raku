@@ -41,7 +41,7 @@ use v6;
 # }
 
 ## Doing it like so works, of course:
-say "===";
+say "---";
 {
     sub check_something { True; };
     my $cb = {  
