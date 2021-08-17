@@ -29,6 +29,7 @@ use v6;
 ## placeholders inside a sub-block without first using them in
 ## the top level one.
 
+say "---";
 {
     sub check_something { True; };  ## Stub routine, always true for now
     my $cb = {  # Too many positionals passed; expected 0 or 1 arguments but got 2
