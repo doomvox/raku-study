@@ -4,13 +4,19 @@
 **** bruce gray likes "code blocks" despite the potential ambiguities
 ***** "callbacks" refers to how they're used
 ***** william michels suggests "gerund": verbs turned into nouns
+**** misc sub-topics:
+***** sigils: $code vs &code
+***** sub vs block
+****** subs can use return
+***** placeholder vars idiom
+****** use the hat just once (the condom convention)
+******* https://www.nntp.perl.org/group/perl.perl6.users/2021/08/msg10090.html
+
+** placeholder variables with callback/code blocks
+*** hang-up with placeholders in if/else sub-blocks 
+
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku
-*** misc sub-topics:
-**** sigils: $code vs &code
-**** sub vs block
-***** subs can use return
-**** placeholder vars idiom
-***** use the hat just once (the condom convention)
+
 
 ** twigils considered weird
 *** Raku makes sigils an invariant part of a name.  
