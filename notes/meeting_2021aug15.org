@@ -42,7 +42,7 @@ if( $^a eq $^b ) { $a } else {"$a|$b}
 
 
 
-** .round arguments, whining about the docs
+** .round arguments (more whining about the docs)
 https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_100.raku
 *** a case where I feel confused by the "signature" approach, despite knowing better
 **** signatures are how things are defined, not how they're to be used
