@@ -2,7 +2,7 @@
 ** callbacks
 *** aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs
 **** bruce gray likes "code blocks" despite the potential ambiguities
-***** "callbacks" is narrow, refers to how they're used
+***** "callbacks" refers to how they're used
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/anonymous_routines_with_placeholder_variables.raku
 *** misc sub-topics:
 **** sigils: $code vs &code
