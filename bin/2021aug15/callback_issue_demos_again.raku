@@ -37,7 +37,7 @@ say "---";
             "$^a | $^b";
         }
     }
-    say $cb('godzilla','blob'); #  godzilla | blob
+    say $cb('godzilla','blob'); #  
 }
 
 exit;
