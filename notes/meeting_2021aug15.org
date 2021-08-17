@@ -29,8 +29,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_1
 ****** (1) need to explicitly pass through when "skipping"
 ****** (2) subtle need to do data_qualify in either case
 ******* had an intermittant test failure: unpredicitable key ordering 
-
-*** some discussion of whether it would be better to generalize further
+*** open question whether it would be better to generalize further
 **** dualmap suggests it applies a block to all leafs
 **** "It's hard to generalize about generalization, sometimes it's good, sometimes not."
 ** data classes
