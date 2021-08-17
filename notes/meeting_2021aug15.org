@@ -24,7 +24,10 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_1
 *** has most features of my perl5 Data::Math
 **** custom callbacks, numerics, strings
 **** TODO implement skip_keys patterns
-***** for funsies, accept junctions (use type Mu)
+***** for funsies, maybe accept junctions (use type Mu)
+*** some discussion of whether it would be better to generalize further
+**** dualmap suggests it applies a block to all leafs
+**** "It's hard to generalize about generalization, sometimes it's good, sometimes not."
 ** data classes
 *** custom classes as data containers (from June 20, 2021)
 
