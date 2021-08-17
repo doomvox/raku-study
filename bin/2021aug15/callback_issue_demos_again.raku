@@ -25,6 +25,11 @@ use v6;
   #   in block  at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021aug15/callback_issue_demos.raku line 23  (( not 46? ))
 }
 
+## I was trying to contrive an example where you might use the
+## placeholders inside a sub-block without first using them in
+## the top level one.
+
+
 {
     sub check_something { True; };
     my $cb = {  # Too many positionals passed; expected 0 or 1 arguments but got 2
@@ -36,3 +41,4 @@ use v6;
     }
     say $cb('godzilla','blob'); #  godzilla | blob
 }
+
