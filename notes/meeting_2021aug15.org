@@ -60,7 +60,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_1
 ***** last bugs:
 ****** (1) needed to explicitly pass through when "skipping"
 ****** (2) subtle need to do data_qualify in skip case also
-******* had an intermittant test failure: unpredicitable key ordering 
+******* had an intermittant test failure: presumably an unpredicitable key ordering effect
 *** open question whether it would be better to generalize further
 **** name "dualmap" suggests it applies a block to all leafs
 **** "It's hard to generalize about generalization, sometimes it's good, sometimes not."
