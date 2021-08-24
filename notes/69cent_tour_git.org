@@ -109,7 +109,7 @@ git checkout new_feature_experiment
 # ... do stuff ...
 # when happy with state of branch
 git checkout master                    # return to original main branch
-git merge new_feature_experiment     # import work from branch
+git merge new_feature_experiment       # import work from branch
 
 
 **** github pull request
