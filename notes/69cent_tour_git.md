@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org354e1fd)
-  - [some stops on the tour](#org721779a)
-    - [first stop: using an existing git repo, e.g.](#org8c32c42)
-    - [second stop: create a new git repo](#org5833474)
-    - [third stop: putting that new git repo on github](#orgc353463)
-    - [fourth stop: haven't covered the cool stuff](#orgd1c6c28)
-    - [fifth stop: things you will not do with git](#org60b6ed3)
+- [69 cent tour of git](#org006fbc1)
+  - [some stops on the tour](#orgf81774f)
+    - [first stop: using an existing git repo, e.g.](#org14cc502)
+    - [second stop: create a new git repo](#orgbfa982a)
+    - [third stop: putting that new git repo on github](#orgc7fdedd)
+    - [fourth stop: haven't covered the cool stuff](#org3eb5531)
+    - [fifth stop: things you will not do with git](#org85a1508)
 
 
-<a id="org354e1fd"></a>
+<a id="org006fbc1"></a>
 
 # 69 cent tour of git
 
 
-<a id="org721779a"></a>
+<a id="orgf81774f"></a>
 
 ## some stops on the tour
 
 
-<a id="org8c32c42"></a>
+<a id="org14cc502"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="org5833474"></a>
+<a id="orgbfa982a"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="orgc353463"></a>
+<a id="orgc7fdedd"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,19 +168,15 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgd1c6c28"></a>
+<a id="org3eb5531"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
 1.  branch and merging
 
-    \#+BEGIN<sub>SRC</sub> sh
+    \#+BEGIN<sub>SRC</sub> sh git branch # list branches git branch -r # list remote branches git branch new<sub>feature</sub><sub>experiment</sub> git checkout new<sub>feature</sub><sub>experiment</sub>
     
-    git branch # list branches git branch -r # list remote branches git branch new<sub>feature</sub><sub>experiment</sub> git checkout new<sub>feature</sub><sub>experiment</sub>
-    
-    git checkout master # return to original main branch git merge new<sub>feature</sub><sub>experiment</sub> # import work from branch
-    
-    \#+END<sub>SRC</sub> sh
+    git checkout master # return to original main branch git merge new<sub>feature</sub><sub>experiment</sub> # import work from branch \\#+END<sub>SRC</sub> sh
 
 2.  github pull request
 
@@ -225,7 +221,7 @@
         2.  not sure it's scriptable
 
 
-<a id="org60b6ed3"></a>
+<a id="org85a1508"></a>
 
 ### fifth stop: things you will not do with git
 
