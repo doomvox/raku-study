@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org7900eb4)
-  - [some stops on the tour](#org96da6b9)
-    - [first stop: using an existing git repo, e.g.](#org7974fa5)
-    - [second stop: create a new git repo](#orgd83b840)
-    - [third stop: putting that new git repo on github](#org89f2459)
-    - [fourth stop: haven't covered the cool stuff](#orgc136c8b)
-    - [fifth stop: things you will not do with git](#orgb02f8bd)
+- [69 cent tour of git](#orge04cecd)
+  - [some stops on the tour](#org748d1f8)
+    - [first stop: using an existing git repo, e.g.](#org956ab5a)
+    - [second stop: create a new git repo](#org16ffa2f)
+    - [third stop: putting that new git repo on github](#org26ad035)
+    - [fourth stop: haven't covered the cool stuff](#org2bc3001)
+    - [fifth stop: things you will not do with git](#org68b23c6)
 
 
-<a id="org7900eb4"></a>
+<a id="orge04cecd"></a>
 
 # 69 cent tour of git
 
 
-<a id="org96da6b9"></a>
+<a id="org748d1f8"></a>
 
 ## some stops on the tour
 
 
-<a id="org7974fa5"></a>
+<a id="org956ab5a"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="orgd83b840"></a>
+<a id="org16ffa2f"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="org89f2459"></a>
+<a id="org26ad035"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,15 +168,19 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgc136c8b"></a>
+<a id="org2bc3001"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
 1.  branch and merging
 
+    \#+BEGIN<sub>SRC</sub> sh
+    
     git branch # list branches git branch -r # list remote branches git branch new<sub>feature</sub><sub>experiment</sub> git checkout new<sub>feature</sub><sub>experiment</sub>
     
     git checkout master # return to original main branch git merge new<sub>feature</sub><sub>experiment</sub> # import work from branch
+    
+    \#+END<sub>SRC</sub> sh
 
 2.  github pull request
 
@@ -221,7 +225,7 @@
         2.  not sure it's scriptable
 
 
-<a id="orgb02f8bd"></a>
+<a id="org68b23c6"></a>
 
 ### fifth stop: things you will not do with git
 

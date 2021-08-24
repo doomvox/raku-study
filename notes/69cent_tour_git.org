@@ -102,6 +102,8 @@ git init ; git add . ; git commit -m 'Initial commit'
 See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 *** fourth stop: haven't covered the cool stuff
 **** branch and merging
+#+BEGIN_SRC sh
+
 git branch                             # list branches
 git branch -r                          # list remote branches
 git branch new_feature_experiment
@@ -111,6 +113,7 @@ git checkout new_feature_experiment
 git checkout master                    # return to original main branch
 git merge new_feature_experiment       # import work from branch
 
+#+END_SRC sh
 
 **** github pull request
 https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests
