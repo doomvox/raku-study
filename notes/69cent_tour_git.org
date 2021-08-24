@@ -101,7 +101,10 @@ git init ; git add . ; git commit -m 'Initial commit'
 **** associating existing repo with new project
 See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 *** fourth stop: haven't covered the cool stuff
-**** git branch
+**** branch and merging
+git branch     # list branches
+git branch -r  # list remote branches
+
 **** github pull request
 https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests
 **** stuff to read
