@@ -104,12 +104,12 @@ See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 **** branch and merging
 git branch                             # list branches
 git branch -r                          # list remote branches
-git branch playing_with_new_feature
-git checkout playing_with_new_feature
+git branch new_feature_experiment
+git checkout new_feature_experiment
 # ... do stuff ...
 # when happy with state of branch
 git checkout master                    # return to original main branch
-git merge playing_with_new_feature     # import work from branch
+git merge new_feature_experiment     # import work from branch
 
 
 **** github pull request

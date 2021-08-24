@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org067f9d3)
-  - [some stops on the tour](#orgaa1fbc7)
-    - [first stop: using an existing git repo, e.g.](#orgde7ff48)
-    - [second stop: create a new git repo](#org6d16583)
-    - [third stop: putting that new git repo on github](#org68bc8be)
-    - [fourth stop: haven't covered the cool stuff](#orgd3cae8f)
-    - [fifth stop: things you will not do with git](#orge1d8aa6)
+- [69 cent tour of git](#org2bb524a)
+  - [some stops on the tour](#orgb118aee)
+    - [first stop: using an existing git repo, e.g.](#org847a601)
+    - [second stop: create a new git repo](#orgf131bd5)
+    - [third stop: putting that new git repo on github](#org2886ae2)
+    - [fourth stop: haven't covered the cool stuff](#org5d61639)
+    - [fifth stop: things you will not do with git](#orgc908d99)
 
 
-<a id="org067f9d3"></a>
+<a id="org2bb524a"></a>
 
 # 69 cent tour of git
 
 
-<a id="orgaa1fbc7"></a>
+<a id="orgb118aee"></a>
 
 ## some stops on the tour
 
 
-<a id="orgde7ff48"></a>
+<a id="org847a601"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="org6d16583"></a>
+<a id="orgf131bd5"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="org68bc8be"></a>
+<a id="org2886ae2"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,15 +168,15 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgd3cae8f"></a>
+<a id="org5d61639"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
 1.  branch and merging
 
-    git branch # list branches git branch -r # list remote branches git branch playing<sub>with</sub><sub>new</sub><sub>feature</sub> git checkout playing<sub>with</sub><sub>new</sub><sub>feature</sub>
+    git branch # list branches git branch -r # list remote branches git branch new<sub>feature</sub><sub>experiment</sub> git checkout new<sub>feature</sub><sub>experiment</sub>
     
-    git checkout master # return to original main branch git merge playing<sub>with</sub><sub>new</sub><sub>feature</sub> # import work from branch
+    git checkout master # return to original main branch git merge new<sub>feature</sub><sub>experiment</sub> # import work from branch
 
 2.  github pull request
 
@@ -221,7 +221,7 @@
         2.  not sure it's scriptable
 
 
-<a id="orge1d8aa6"></a>
+<a id="orgc908d99"></a>
 
 ### fifth stop: things you will not do with git
 
