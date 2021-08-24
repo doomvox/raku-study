@@ -107,7 +107,7 @@ git branch                             # list branches
 git branch -r                          # list remote branches
 git branch new_feature_experiment
 git checkout new_feature_experiment
-# ... do stuff ...
+
 # when happy with state of branch
 git checkout master                    # return to original main branch
 git merge new_feature_experiment       # import work from branch
