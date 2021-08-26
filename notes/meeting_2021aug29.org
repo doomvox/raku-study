@@ -1,4 +1,8 @@
 * meeting notes August 29, 2021
+** before I forget
+*** the argument to round might be called "nearest"
+"round off to the nearest"
+
 ** multiple dispatch
 
 Larry Wall on Raku:
