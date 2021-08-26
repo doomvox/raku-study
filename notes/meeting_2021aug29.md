@@ -1,27 +1,27 @@
-- [meeting notes August 29, 2021](#org2979a45)
-  - [before I forget](#orga69a3a0)
-    - [the argument to round might be called "nearest"](#orgc45bb16)
-  - [multiple dispatch](#org742110d)
+- [meeting notes August 29, 2021](#org856f4f5)
+  - [before I forget](#org88f41b7)
+    - [the argument to round might be called "nearest"](#org3b52b09)
+  - [multiple dispatch](#org3c1ae13)
 
 
-<a id="org2979a45"></a>
+<a id="org856f4f5"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="orga69a3a0"></a>
+<a id="org88f41b7"></a>
 
 ## before I forget
 
 
-<a id="orgc45bb16"></a>
+<a id="org3b52b09"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org742110d"></a>
+<a id="org3c1ae13"></a>
 
 ## multiple dispatch
 
