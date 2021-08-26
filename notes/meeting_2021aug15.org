@@ -1,7 +1,7 @@
 * meeting notes August 15, 2021
 ** callbacks
 *** aka the "anonymous subs" of perl5, lambdas of lisp and other cs nerd langs
-**** bruce gray likes "code blocks" despite the potential ambiguities
+**** bruce gray likes term "code blocks" despite the potential ambiguities
 ***** "callbacks" refers to how they're used
 ***** william michels suggests "gerund": verbs turned into nouns
 **** misc sub-topics:
