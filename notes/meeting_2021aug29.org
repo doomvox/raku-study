@@ -1,4 +1,4 @@
-* 
+* meeting notes August 29, 2021
 ** multiple dispatch
 
 Larry Wall on Raku:

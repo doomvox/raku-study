@@ -1,13 +1,13 @@
-- [](#org614d5eb)
-  - [multiple dispatch](#org1f207df)
+- [meeting notes August 29, 2021](#org9c62719)
+  - [multiple dispatch](#org926b755)
 
 
-<a id="org614d5eb"></a>
+<a id="org9c62719"></a>
 
-# 
+# meeting notes August 29, 2021
 
 
-<a id="org1f207df"></a>
+<a id="org926b755"></a>
 
 ## multiple dispatch
 
