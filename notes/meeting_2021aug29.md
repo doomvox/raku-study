@@ -1,45 +1,45 @@
-- [meeting notes August 29, 2021](#org0e27a37)
-  - [hidden agenda](#org7543139)
-    - [](#org7b12aec)
-  - [before I forget](#org10c6e6b)
-    - [the argument to round might be called "nearest"](#org2a162e1)
-  - [multiple dispatch](#org53a4c94)
-    - [standard complaint](#org4028856)
-    - [using multi-dispatch for "dualmap"](#org3209027)
-    - [dualmap status](#org3955fd7)
-  - [the maybe method (dot question mark operator: ".?")](#orgb552270)
-    - [Safe call operator](#org22eeac5)
-    - [WTF?](#orga0857b3)
+- [meeting notes August 29, 2021](#orgfea41e4)
+  - [hidden agenda](#org9af22d2)
+    - [](#orgf343f33)
+  - [before I forget](#org76f6a2d)
+    - [the argument to round might be called "nearest"](#org7a5426c)
+  - [multiple dispatch](#orgf00b8c6)
+    - [standard complaint](#orgc67f5fa)
+    - [using multi-dispatch for "dualmap"](#org296965c)
+    - [dualmap status](#org662179b)
+  - [the maybe method (dot question mark operator: ".?")](#org9796a66)
+    - [Safe call operator](#org3a141c5)
+    - [WTF?](#org6960554)
 
 
-<a id="org0e27a37"></a>
+<a id="orgfea41e4"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="org7543139"></a>
+<a id="org9af22d2"></a>
 
 ## hidden agenda
 
 
-<a id="org7b12aec"></a>
+<a id="orgf343f33"></a>
 
 ### 
 
 
-<a id="org10c6e6b"></a>
+<a id="org76f6a2d"></a>
 
 ## before I forget
 
 
-<a id="org2a162e1"></a>
+<a id="org7a5426c"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org53a4c94"></a>
+<a id="orgf00b8c6"></a>
 
 ## multiple dispatch
 
@@ -56,7 +56,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="org4028856"></a>
+<a id="orgc67f5fa"></a>
 
 ### standard complaint
 
@@ -71,7 +71,7 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="org3209027"></a>
+<a id="org296965c"></a>
 
 ### using multi-dispatch for "dualmap"
 
@@ -93,7 +93,7 @@ Douglas Crockford:
         1.  but the "is default" feature helps
 
 
-<a id="org3955fd7"></a>
+<a id="org662179b"></a>
 
 ### dualmap status
 
@@ -102,6 +102,8 @@ Douglas Crockford:
     1.  dualmap is now more like deepmap
     
         1.  needs a code block as argument
+        
+        2.  runs on all types of leaf nodes
     
     2.  dualmap-numerics
     
@@ -122,7 +124,7 @@ Douglas Crockford:
             1.  do **this** with a leaf node that looks like **that**
 
 
-<a id="orgb552270"></a>
+<a id="org9796a66"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -131,7 +133,7 @@ my $result = $obj.?method($arg, $arg);
 ```
 
 
-<a id="org22eeac5"></a>
+<a id="org3a141c5"></a>
 
 ### Safe call operator
 
@@ -142,7 +144,7 @@ my $result = $obj.?method($arg, $arg);
 3.  avoids need to check if .can
 
 
-<a id="orga0857b3"></a>
+<a id="org6960554"></a>
 
 ### WTF?
 
