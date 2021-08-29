@@ -25,7 +25,11 @@ say $str4;
 
 
 
+my $str0 = qq{ and now we will add { 2 + 2 } };
+say $str0;
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
+
 
