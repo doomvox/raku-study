@@ -1,43 +1,43 @@
-- [meeting notes August 29, 2021](#org9783acf)
-  - [hidden agenda](#org78979a6)
-    - [](#org238d1a0)
-  - [before I forget](#orgadda453)
-    - [the argument to round might be called "nearest"](#org919e135)
-  - [multiple dispatch](#org451caa4)
-    - [standard complaint](#orgcfff3d9)
-    - [using multi-dispatch for "dualmap"](#org9aefccc)
-  - [the maybe method (dot question mark operator: ".?")](#org5db18fa)
-    - [jonathan worhthington mentions this (WTF)](#org5514086)
+- [meeting notes August 29, 2021](#org016dfd8)
+  - [hidden agenda](#org81cb61c)
+    - [](#org0049a41)
+  - [before I forget](#orgfae6d00)
+    - [the argument to round might be called "nearest"](#org5fc6517)
+  - [multiple dispatch](#orgf05168c)
+    - [standard complaint](#orga18213e)
+    - [using multi-dispatch for "dualmap"](#org6822314)
+  - [the maybe method (dot question mark operator: ".?")](#org90b5cb1)
+    - [jonathan worhthington mentions this (WTF)](#orga51c1e2)
 
 
-<a id="org9783acf"></a>
+<a id="org016dfd8"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="org78979a6"></a>
+<a id="org81cb61c"></a>
 
 ## hidden agenda
 
 
-<a id="org238d1a0"></a>
+<a id="org0049a41"></a>
 
 ### 
 
 
-<a id="orgadda453"></a>
+<a id="orgfae6d00"></a>
 
 ## before I forget
 
 
-<a id="org919e135"></a>
+<a id="org5fc6517"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org451caa4"></a>
+<a id="orgf05168c"></a>
 
 ## multiple dispatch
 
@@ -54,7 +54,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="orgcfff3d9"></a>
+<a id="orga18213e"></a>
 
 ### standard complaint
 
@@ -69,7 +69,7 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="org9aefccc"></a>
+<a id="org6822314"></a>
 
 ### using multi-dispatch for "dualmap"
 
@@ -85,7 +85,7 @@ Douglas Crockford:
         ```
 
 
-<a id="org5db18fa"></a>
+<a id="org90b5cb1"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -94,6 +94,6 @@ my $result = $obj.?method($arg, $arg);
 ```
 
 
-<a id="org5514086"></a>
+<a id="orga51c1e2"></a>
 
 ### jonathan worhthington mentions this (WTF)

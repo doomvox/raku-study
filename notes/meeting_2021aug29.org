@@ -41,7 +41,6 @@ my $dmh = Data::Dualmap::Recurse::Numerics.new(
 my $result = $dmh.dualmap( '-', $gross, $costs );
 #+END_SRC
 
-
 ** the maybe method (dot question mark operator: ".?")
 #+BEGIN_SRC perl6
 my $result = $obj.?method($arg, $arg);
