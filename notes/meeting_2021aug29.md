@@ -1,42 +1,43 @@
-- [meeting notes August 29, 2021](#org37a3041)
-  - [hidden agenda](#org64dd4c1)
-    - [](#org81ddf96)
-  - [before I forget](#org75ed583)
-    - [the argument to round might be called "nearest"](#org07ddf16)
-  - [multiple dispatch](#orgbc87d5d)
-    - [standard complaint](#org3ed74cc)
-  - [the maybe method (dot question mark operator: ".?")](#org61cf7b1)
-    - [jonathan worhthington mentions this (WTF)](#org1c4cce0)
+- [meeting notes August 29, 2021](#orgda1e9b4)
+  - [hidden agenda](#org4a3ae84)
+    - [](#org87160ba)
+  - [before I forget](#orga18fe24)
+    - [the argument to round might be called "nearest"](#org1aa1718)
+  - [multiple dispatch](#org3b01b65)
+    - [standard complaint](#orgb0b7741)
+    - [using multi-dispatch for "dualmap"](#org31106fe)
+  - [the maybe method (dot question mark operator: ".?")](#org0ecced2)
+    - [jonathan worhthington mentions this (WTF)](#orga1f9044)
 
 
-<a id="org37a3041"></a>
+<a id="orgda1e9b4"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="org64dd4c1"></a>
+<a id="org4a3ae84"></a>
 
 ## hidden agenda
 
 
-<a id="org81ddf96"></a>
+<a id="org87160ba"></a>
 
 ### 
 
 
-<a id="org75ed583"></a>
+<a id="orga18fe24"></a>
 
 ## before I forget
 
 
-<a id="org07ddf16"></a>
+<a id="org1aa1718"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="orgbc87d5d"></a>
+<a id="org3b01b65"></a>
 
 ## multiple dispatch
 
@@ -53,7 +54,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="org3ed74cc"></a>
+<a id="orgb0b7741"></a>
 
 ### standard complaint
 
@@ -68,7 +69,19 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="org61cf7b1"></a>
+<a id="org31106fe"></a>
+
+### using multi-dispatch for "dualmap"
+
+1.  kind of cool
+
+    1.  
+    
+        ```perl6
+        ```
+
+
+<a id="org0ecced2"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -77,6 +90,6 @@ my $result = $obj.?method($arg, $arg);
 ```
 
 
-<a id="org1c4cce0"></a>
+<a id="orga1f9044"></a>
 
 ### jonathan worhthington mentions this (WTF)

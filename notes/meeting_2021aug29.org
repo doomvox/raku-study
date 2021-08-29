@@ -31,7 +31,11 @@ errors I worry about."
 ****** not if it means consulting with a social scienctist
 ***** unverified claims about human cognitive abilities abound
 
-
+*** using multi-dispatch for "dualmap"
+**** kind of cool
+***** 
+#+BEGIN_SRC perl6
+#+END_SRC
 
 
 ** the maybe method (dot question mark operator: ".?")
