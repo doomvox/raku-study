@@ -1,45 +1,45 @@
-- [meeting notes August 29, 2021](#orgbeef3a6)
-  - [hidden agenda](#orgd886060)
-    - [](#org0efda51)
-  - [before I forget](#orgec205f2)
-    - [the argument to round might be called "nearest"](#org8a6ff99)
-  - [multiple dispatch](#org8df3f93)
-    - [standard complaint](#org4a4b198)
-    - [using multi-dispatch for "dualmap"](#orgd9ad10f)
-    - [dualmap status](#orgdae0047)
-  - [the maybe method (dot question mark operator: ".?")](#org836a0f4)
-    - [Safe call operator](#org5ab7196)
-    - [WTF?](#org2f37f2a)
+- [meeting notes August 29, 2021](#orga2cd6a6)
+  - [hidden agenda](#org0bd5dc1)
+    - [](#orgd9bad83)
+  - [before I forget](#orgcf07104)
+    - [the argument to round might be called "nearest"](#orgae61c8f)
+  - [multiple dispatch](#org74c25ea)
+    - [standard complaint](#org88c6778)
+    - [using multi-dispatch for "dualmap"](#orgf4580c0)
+    - [dualmap status](#org831031e)
+  - [the maybe method (dot question mark operator: ".?")](#org4a7dcf7)
+    - [Safe call operator](#org472bd9a)
+    - [WTF?](#org474f0cf)
 
 
-<a id="orgbeef3a6"></a>
+<a id="orga2cd6a6"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="orgd886060"></a>
+<a id="org0bd5dc1"></a>
 
 ## hidden agenda
 
 
-<a id="org0efda51"></a>
+<a id="orgd9bad83"></a>
 
 ### 
 
 
-<a id="orgec205f2"></a>
+<a id="orgcf07104"></a>
 
 ## before I forget
 
 
-<a id="org8a6ff99"></a>
+<a id="orgae61c8f"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org8df3f93"></a>
+<a id="org74c25ea"></a>
 
 ## multiple dispatch
 
@@ -56,7 +56,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="org4a4b198"></a>
+<a id="org88c6778"></a>
 
 ### standard complaint
 
@@ -66,12 +66,12 @@ Douglas Crockford:
     
     2.  but computer "scientists" don't do experiments
     
-        1.  not if it means consulting with a social scienctist
+        1.  not if it means consulting with a social scientists
     
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="orgd9ad10f"></a>
+<a id="orgf4580c0"></a>
 
 ### using multi-dispatch for "dualmap"
 
@@ -93,7 +93,7 @@ Douglas Crockford:
         1.  but the "is default" feature helps
 
 
-<a id="orgdae0047"></a>
+<a id="org831031e"></a>
 
 ### dualmap status
 
@@ -126,7 +126,7 @@ Douglas Crockford:
         2.  consider the case of set operations
 
 
-<a id="org836a0f4"></a>
+<a id="org4a7dcf7"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -135,7 +135,7 @@ my $result = $obj.?method($arg, $arg);
 ```
 
 
-<a id="org5ab7196"></a>
+<a id="org472bd9a"></a>
 
 ### Safe call operator
 
@@ -146,7 +146,7 @@ my $result = $obj.?method($arg, $arg);
 3.  avoids need to check if .can
 
 
-<a id="org2f37f2a"></a>
+<a id="org474f0cf"></a>
 
 ### WTF?
 
