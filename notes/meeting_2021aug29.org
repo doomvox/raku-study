@@ -31,7 +31,7 @@ errors I worry about."
 ****** not if it means consulting with a social scienctist
 ***** unverified claims about human cognitive abilities abound
 
-** the maybe method
+** the maybe method (dot question mark operator: ".?")
 #+BEGIN_SRC perl6
 my $result = $obj.?method($arg, $arg);
 #+END_SRC

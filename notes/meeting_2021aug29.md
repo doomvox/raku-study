@@ -1,41 +1,41 @@
-- [meeting notes August 29, 2021](#org8347f26)
-  - [hidden agenda](#orgab7e893)
-    - [](#orgac38220)
-  - [before I forget](#org96fe8d7)
-    - [the argument to round might be called "nearest"](#orgcfa638b)
-  - [multiple dispatch](#org9d3696c)
-    - [standard complaint](#org1e7c811)
-  - [the maybe method](#org7fc1586)
+- [meeting notes August 29, 2021](#orgd3710e5)
+  - [hidden agenda](#orgf72e013)
+    - [](#org70addb3)
+  - [before I forget](#org2e68dca)
+    - [the argument to round might be called "nearest"](#orga8b907a)
+  - [multiple dispatch](#org0a0781d)
+    - [standard complaint](#org0368012)
+  - [the maybe method (dot question mark operator: ".?")](#org7a7cd34)
 
 
-<a id="org8347f26"></a>
+<a id="orgd3710e5"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="orgab7e893"></a>
+<a id="orgf72e013"></a>
 
 ## hidden agenda
 
 
-<a id="orgac38220"></a>
+<a id="org70addb3"></a>
 
 ### 
 
 
-<a id="org96fe8d7"></a>
+<a id="org2e68dca"></a>
 
 ## before I forget
 
 
-<a id="orgcfa638b"></a>
+<a id="orga8b907a"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org9d3696c"></a>
+<a id="org0a0781d"></a>
 
 ## multiple dispatch
 
@@ -52,7 +52,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="org1e7c811"></a>
+<a id="org0368012"></a>
 
 ### standard complaint
 
@@ -67,9 +67,9 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="org7fc1586"></a>
+<a id="org7a7cd34"></a>
 
-## the maybe method
+## the maybe method (dot question mark operator: ".?")
 
 ```perl6
 my $result = $obj.?method($arg, $arg);
