@@ -15,7 +15,7 @@ say $str2;
 ## :c 	:closure 	Interpolate {...} expressions
 
 my $str3 = q :c { and now we will add { 2 + 2 } };
-
+say $str3;
 
 
 
