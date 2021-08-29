@@ -42,7 +42,7 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 #+END_SRC
 **** a little tricky to think about
 ***** it isn't *exactly* like a case statement
-
+****** but the "is default" feature helps
 ** the maybe method (dot question mark operator: ".?")
 #+BEGIN_SRC perl6
 my $result = $obj.?method($arg, $arg);

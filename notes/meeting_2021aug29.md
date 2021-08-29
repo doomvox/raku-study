@@ -1,43 +1,43 @@
-- [meeting notes August 29, 2021](#org29b8baa)
-  - [hidden agenda](#orgb7017cb)
-    - [](#org56fbc31)
-  - [before I forget](#org5a436a7)
-    - [the argument to round might be called "nearest"](#org15ffd50)
-  - [multiple dispatch](#org9866abc)
-    - [standard complaint](#org26b3966)
-    - [using multi-dispatch for "dualmap"](#org7939f03)
-  - [the maybe method (dot question mark operator: ".?")](#org8246c05)
-    - [jonathan worhthington mentions this (WTF)](#orgbfe9c79)
+- [meeting notes August 29, 2021](#orga632705)
+  - [hidden agenda](#org463efa8)
+    - [](#org27cf060)
+  - [before I forget](#orga9b6cae)
+    - [the argument to round might be called "nearest"](#org4888e2e)
+  - [multiple dispatch](#orga64f347)
+    - [standard complaint](#orgc60e44b)
+    - [using multi-dispatch for "dualmap"](#orgca1a3f1)
+  - [the maybe method (dot question mark operator: ".?")](#orga71c695)
+    - [jonathan worhthington mentions this (WTF)](#org633ce37)
 
 
-<a id="org29b8baa"></a>
+<a id="orga632705"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="orgb7017cb"></a>
+<a id="org463efa8"></a>
 
 ## hidden agenda
 
 
-<a id="org56fbc31"></a>
+<a id="org27cf060"></a>
 
 ### 
 
 
-<a id="org5a436a7"></a>
+<a id="orga9b6cae"></a>
 
 ## before I forget
 
 
-<a id="org15ffd50"></a>
+<a id="org4888e2e"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org9866abc"></a>
+<a id="orga64f347"></a>
 
 ## multiple dispatch
 
@@ -54,7 +54,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="org26b3966"></a>
+<a id="orgc60e44b"></a>
 
 ### standard complaint
 
@@ -69,7 +69,7 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="org7939f03"></a>
+<a id="orgca1a3f1"></a>
 
 ### using multi-dispatch for "dualmap"
 
@@ -87,9 +87,11 @@ Douglas Crockford:
 2.  a little tricky to think about
 
     1.  it isn't **exactly** like a case statement
+    
+        1.  but the "is default" feature helps
 
 
-<a id="org8246c05"></a>
+<a id="orga71c695"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -98,6 +100,6 @@ my $result = $obj.?method($arg, $arg);
 ```
 
 
-<a id="orgbfe9c79"></a>
+<a id="org633ce37"></a>
 
 ### jonathan worhthington mentions this (WTF)
