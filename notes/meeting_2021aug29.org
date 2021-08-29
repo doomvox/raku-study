@@ -28,4 +28,4 @@ errors I worry about."
 **** we could check whether strong typing helps
 ***** e.g. conduct experiments where teams of programmers compete
 ***** but computer "scientists" don't do experiments
-****** not if it means talking to a social scienctist
+****** not if it means consulting wtih a social scienctist
