@@ -36,6 +36,8 @@ say $str5;
 #  and now we will add 4 
 
 
+my $str5 = Q:qq[ and now we will add { 2 + 2 } ];
+say $str5;
 
 
 
