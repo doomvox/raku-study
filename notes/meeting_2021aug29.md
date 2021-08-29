@@ -1,42 +1,42 @@
-- [meeting notes August 29, 2021](#org32570f1)
-  - [hidden agenda](#orgf763aaf)
-    - [](#orgf6b7643)
-  - [before I forget](#org31b4f57)
-    - [the argument to round might be called "nearest"](#orgdf3be8e)
-  - [multiple dispatch](#org2310434)
-    - [standard complaint](#orgd545909)
-  - [the maybe method (dot question mark operator: ".?")](#orgc872263)
-    - [jonathan worhthington mentions this (WTF)](#org555bb9b)
+- [meeting notes August 29, 2021](#org37a3041)
+  - [hidden agenda](#org64dd4c1)
+    - [](#org81ddf96)
+  - [before I forget](#org75ed583)
+    - [the argument to round might be called "nearest"](#org07ddf16)
+  - [multiple dispatch](#orgbc87d5d)
+    - [standard complaint](#org3ed74cc)
+  - [the maybe method (dot question mark operator: ".?")](#org61cf7b1)
+    - [jonathan worhthington mentions this (WTF)](#org1c4cce0)
 
 
-<a id="org32570f1"></a>
+<a id="org37a3041"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="orgf763aaf"></a>
+<a id="org64dd4c1"></a>
 
 ## hidden agenda
 
 
-<a id="orgf6b7643"></a>
+<a id="org81ddf96"></a>
 
 ### 
 
 
-<a id="org31b4f57"></a>
+<a id="org75ed583"></a>
 
 ## before I forget
 
 
-<a id="orgdf3be8e"></a>
+<a id="org07ddf16"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org2310434"></a>
+<a id="orgbc87d5d"></a>
 
 ## multiple dispatch
 
@@ -53,7 +53,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="orgd545909"></a>
+<a id="org3ed74cc"></a>
 
 ### standard complaint
 
@@ -68,7 +68,7 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="orgc872263"></a>
+<a id="org61cf7b1"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -77,6 +77,6 @@ my $result = $obj.?method($arg, $arg);
 ```
 
 
-<a id="org555bb9b"></a>
+<a id="org1c4cce0"></a>
 
 ### jonathan worhthington mentions this (WTF)
