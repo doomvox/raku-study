@@ -56,7 +56,7 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 ******** via OOP interface can use code block instead
 ***** still may need more thought for Raku
 ****** maybe: any number of code blocks associated with arbitrary types
-
+******* do *this* with a leaf node that looks like *that*
 
 ** the maybe method (dot question mark operator: ".?")
 #+BEGIN_SRC perl6
