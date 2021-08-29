@@ -38,7 +38,9 @@ say $str5;
 
 my $str6 = Q:qq[ and now we will add { 2 + 2 } ];
 say $str6;
+#  and now we will add 4 
 
+## So, the :qq adverb behaves differently than qq
 
 
 
