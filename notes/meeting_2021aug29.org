@@ -100,3 +100,15 @@ if $obj.can('method') {
 *** https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-127/challenge-127/bruce-gray/perl/ch-1.pl 
 *** Design by Contract, "Fast Fail Principle": https://enterprisecraftsmanship.com/posts/fail-fast-principle/ 
 *** https://github.com/manwar/perlweeklychallenge-club
+
+** William Michaels
+
+https://unix.stackexchange.com/a/654444 
+https://unix.stackexchange.com/a/655217 
+https://unix.stackexchange.com/a/655944 
+https://unix.stackexchange.com/a/658564 
+https://unix.stackexchange.com/a/658618 
+https://unix.stackexchange.com/a/658666 
+https://unix.stackexchange.com/a/658703 
+https://unix.stackexchange.com/a/658716 
+https://unix.stackexchange.com/a/664929 
