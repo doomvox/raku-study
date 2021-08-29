@@ -1,37 +1,46 @@
-- [meeting notes August 29, 2021](#org576f382)
-  - [hidden agenda](#orgaadd027)
-    - [david christensen](#org6205a0e)
-    - [jeff](#org51e95cc)
-  - [the round method, currently calls it's argument "scale"](#org1ad8f47)
-    - [the argument to round might be called "nearest"](#org1da3111)
-    - [lowest common ancestor with raku classes](#org3076ac4)
-  - [multiple dispatch](#orgc3ebc72)
-    - [standard complaint](#org5733ad3)
-    - [using multi-dispatch for "dualmap"](#org428e9a3)
-    - [dualmap status](#orgb6f4ee3)
-  - [the maybe method (dot question mark operator: ".?")](#orgec36a71)
-    - [Safe call operator](#orgc05ddbf)
-  - [the usual links:](#org1218cfe)
-    - [meeting notes](#org975d76b)
-    - [code examples:](#org9da76be)
-  - [Bruce Gray:  <https://theweeklychallenge.org/blog/perl-weekly-challenge-127/>](#org0c0d296)
-    - [<https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-127/challenge-127/bruce-gray/perl/ch-1.pl>](#org9115ef8)
-    - [Design by Contract, "Fast Fail Principle": <https://enterprisecraftsmanship.com/posts/fail-fast-principle/>](#org3f3f202)
-    - [<https://github.com/manwar/perlweeklychallenge-club>](#orgfc8dc9b)
-  - [William Michaels](#org6c42ec9)
+- [meeting notes August 29, 2021](#org0017afb)
+  - [hidden agenda](#org7374f65)
+    - [david christensen](#org9354886)
+    - [jeff](#orge7483ed)
+  - [the round method, currently calls it's argument "scale"](#orgb611e2a)
+    - [the argument to round might be called "nearest"](#orgf40656d)
+    - [lowest common ancestor with raku classes](#org8455cab)
+  - [multiple dispatch](#org3839c00)
+    - [standard complaint](#org9cdc465)
+    - [using multi-dispatch for "dualmap"](#org82c88ae)
+    - [dualmap status](#org421a91b)
+  - [the maybe method (dot question mark operator: ".?")](#org96254c3)
+    - [Safe call operator](#orgf0b6286)
+  - [the usual links:](#org25394f1)
+    - [meeting notes](#orga5a63ee)
+    - [code examples:](#orgcae760d)
+  - [Bruce Gray:  <https://theweeklychallenge.org/blog/perl-weekly-challenge-127/>](#orgf7763c9)
+    - [<https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-127/challenge-127/bruce-gray/perl/ch-1.pl>](#orgaba7343)
+    - [Design by Contract, "Fast Fail Principle": <https://enterprisecraftsmanship.com/posts/fail-fast-principle/>](#org302fb67)
+    - [<https://github.com/manwar/perlweeklychallenge-club>](#orge271d1c)
+  - [William Michaels](#orgd6414a7)
+    - [<https://unix.stackexchange.com/a/654444>](#orgd4d60bd)
+    - [<https://unix.stackexchange.com/a/655217>](#orgb0978a3)
+    - [<https://unix.stackexchange.com/a/655944>](#org655aff1)
+    - [<https://unix.stackexchange.com/a/658564>](#org4d15d60)
+    - [<https://unix.stackexchange.com/a/658618>](#org5b52bfa)
+    - [<https://unix.stackexchange.com/a/658666>](#org53cfae3)
+    - [<https://unix.stackexchange.com/a/658703>](#orga199ef8)
+    - [<https://unix.stackexchange.com/a/658716>](#org254f269)
+    - [<https://unix.stackexchange.com/a/664929>](#orgbbdf043)
 
 
-<a id="org576f382"></a>
+<a id="org0017afb"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="orgaadd027"></a>
+<a id="org7374f65"></a>
 
 ## hidden agenda
 
 
-<a id="org6205a0e"></a>
+<a id="org9354886"></a>
 
 ### david christensen
 
@@ -44,33 +53,33 @@
     2.  unifi controller runs on enginex webserver
 
 
-<a id="org51e95cc"></a>
+<a id="orge7483ed"></a>
 
 ### jeff
 
 1.  pod question?
 
 
-<a id="org1ad8f47"></a>
+<a id="orgb611e2a"></a>
 
 ## the round method, currently calls it's argument "scale"
 
 
-<a id="org1da3111"></a>
+<a id="orgf40656d"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org3076ac4"></a>
+<a id="org8455cab"></a>
 
 ### lowest common ancestor with raku classes
 
 <https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor>
 
 
-<a id="orgc3ebc72"></a>
+<a id="org3839c00"></a>
 
 ## multiple dispatch
 
@@ -87,7 +96,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="org5733ad3"></a>
+<a id="org9cdc465"></a>
 
 ### standard complaint
 
@@ -102,7 +111,7 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="org428e9a3"></a>
+<a id="org82c88ae"></a>
 
 ### using multi-dispatch for "dualmap"
 
@@ -124,7 +133,7 @@ Douglas Crockford:
         1.  but the "is default" feature helpsg
 
 
-<a id="orgb6f4ee3"></a>
+<a id="org421a91b"></a>
 
 ### dualmap status
 
@@ -157,7 +166,7 @@ Douglas Crockford:
         2.  consider the case of set operations
 
 
-<a id="orgec36a71"></a>
+<a id="org96254c3"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -171,7 +180,7 @@ if $obj.can('method') {
 ```
 
 
-<a id="orgc05ddbf"></a>
+<a id="orgf0b6286"></a>
 
 ### Safe call operator
 
@@ -186,47 +195,90 @@ if $obj.can('method') {
 5.  bruce gray argues it's to short-circuit long chains
 
 
-<a id="org1218cfe"></a>
+<a id="org25394f1"></a>
 
 ## the usual links:
 
 
-<a id="org975d76b"></a>
+<a id="orga5a63ee"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug29.md>
 
 
-<a id="org9da76be"></a>
+<a id="orgcae760d"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021aug29>
 
 
-<a id="org0c0d296"></a>
+<a id="orgf7763c9"></a>
 
 ## Bruce Gray:  <https://theweeklychallenge.org/blog/perl-weekly-challenge-127/>
 
 
-<a id="org9115ef8"></a>
+<a id="orgaba7343"></a>
 
 ### <https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-127/challenge-127/bruce-gray/perl/ch-1.pl>
 
 
-<a id="org3f3f202"></a>
+<a id="org302fb67"></a>
 
 ### Design by Contract, "Fast Fail Principle": <https://enterprisecraftsmanship.com/posts/fail-fast-principle/>
 
 
-<a id="orgfc8dc9b"></a>
+<a id="orge271d1c"></a>
 
 ### <https://github.com/manwar/perlweeklychallenge-club>
 
 
-<a id="org6c42ec9"></a>
+<a id="orgd6414a7"></a>
 
 ## William Michaels
 
-<https://unix.stackexchange.com/a/654444> <https://unix.stackexchange.com/a/655217> <https://unix.stackexchange.com/a/655944> <https://unix.stackexchange.com/a/658564> <https://unix.stackexchange.com/a/658618> <https://unix.stackexchange.com/a/658666> <https://unix.stackexchange.com/a/658703> <https://unix.stackexchange.com/a/658716> <https://unix.stackexchange.com/a/664929>
+
+<a id="orgd4d60bd"></a>
+
+### <https://unix.stackexchange.com/a/654444>
+
+
+<a id="orgb0978a3"></a>
+
+### <https://unix.stackexchange.com/a/655217>
+
+
+<a id="org655aff1"></a>
+
+### <https://unix.stackexchange.com/a/655944>
+
+
+<a id="org4d15d60"></a>
+
+### <https://unix.stackexchange.com/a/658564>
+
+
+<a id="org5b52bfa"></a>
+
+### <https://unix.stackexchange.com/a/658618>
+
+
+<a id="org53cfae3"></a>
+
+### <https://unix.stackexchange.com/a/658666>
+
+
+<a id="orga199ef8"></a>
+
+### <https://unix.stackexchange.com/a/658703>
+
+
+<a id="org254f269"></a>
+
+### <https://unix.stackexchange.com/a/658716>
+
+
+<a id="orgbbdf043"></a>
+
+### <https://unix.stackexchange.com/a/664929>
