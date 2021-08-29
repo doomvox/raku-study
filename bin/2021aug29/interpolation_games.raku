@@ -31,7 +31,7 @@ say $str0;
 ## Bruce Gray:
 # raku -e 'say Q:c[abc {2+2}]'  # # abc 4 
 
-my $str5 = qq{ and now we will add { say 2 + 2 } };
+my $str5 = Q:c[ and now we will add { 2 + 2 } ];
 say $str5;
 
 'say Q:c[abc {2+2}]' 
