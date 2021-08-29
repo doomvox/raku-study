@@ -87,6 +87,7 @@ if $obj.can('method') {
 **** https://docs.raku.org/language/operators#methodop_.?
 **** avoids need to check if .can
 **** (from a jonathan worthington code example)
+**** bruce gray argues it's to short-circuit long chains 
 
 ** the usual links:
 *** meeting notes
