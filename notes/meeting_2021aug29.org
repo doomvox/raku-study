@@ -97,6 +97,5 @@ if $obj.can('method') {
 
 ** Bruce Gray:  https://theweeklychallenge.org/blog/perl-weekly-challenge-127/
 
-
 *** https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-127/challenge-127/bruce-gray/perl/ch-1.pl 
 *** Design by Contract, "Fast Fail Principle": https://enterprisecraftsmanship.com/posts/fail-fast-principle/ 
