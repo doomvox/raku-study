@@ -21,3 +21,4 @@ sorts of errors that strong type checking finds are not the
 errors I worry about."  
 
    -- "Javascript: The Good Parts" (2008)
+
