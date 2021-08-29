@@ -1,43 +1,43 @@
-- [meeting notes August 29, 2021](#orgb1da30f)
-  - [hidden agenda](#org7d55c0a)
-    - [](#org657c2d9)
-  - [before I forget](#org54c5b41)
-    - [the argument to round might be called "nearest"](#orgb287069)
-  - [multiple dispatch](#org72f75dd)
-    - [standard complaint](#orgd1894ac)
-    - [using multi-dispatch for "dualmap"](#org7b9926f)
-  - [the maybe method (dot question mark operator: ".?")](#org9960226)
-    - [jonathan worhthington mentions this (WTF)](#orgc883b7d)
+- [meeting notes August 29, 2021](#org9783acf)
+  - [hidden agenda](#org78979a6)
+    - [](#org238d1a0)
+  - [before I forget](#orgadda453)
+    - [the argument to round might be called "nearest"](#org919e135)
+  - [multiple dispatch](#org451caa4)
+    - [standard complaint](#orgcfff3d9)
+    - [using multi-dispatch for "dualmap"](#org9aefccc)
+  - [the maybe method (dot question mark operator: ".?")](#org5db18fa)
+    - [jonathan worhthington mentions this (WTF)](#org5514086)
 
 
-<a id="orgb1da30f"></a>
+<a id="org9783acf"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="org7d55c0a"></a>
+<a id="org78979a6"></a>
 
 ## hidden agenda
 
 
-<a id="org657c2d9"></a>
+<a id="org238d1a0"></a>
 
 ### 
 
 
-<a id="org54c5b41"></a>
+<a id="orgadda453"></a>
 
 ## before I forget
 
 
-<a id="orgb287069"></a>
+<a id="org919e135"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org72f75dd"></a>
+<a id="org451caa4"></a>
 
 ## multiple dispatch
 
@@ -54,7 +54,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="orgd1894ac"></a>
+<a id="orgcfff3d9"></a>
 
 ### standard complaint
 
@@ -69,13 +69,13 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="org7b9926f"></a>
+<a id="org9aefccc"></a>
 
 ### using multi-dispatch for "dualmap"
 
 1.  kind of cool
 
-    1.  
+    1.  implementing this feature in raku took little code:
     
         ```perl6
         my $dmh = Data::Dualmap::Recurse::Numerics.new( 
@@ -85,7 +85,7 @@ Douglas Crockford:
         ```
 
 
-<a id="org9960226"></a>
+<a id="org5db18fa"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -94,6 +94,6 @@ my $result = $obj.?method($arg, $arg);
 ```
 
 
-<a id="orgc883b7d"></a>
+<a id="org5514086"></a>
 
 ### jonathan worhthington mentions this (WTF)
