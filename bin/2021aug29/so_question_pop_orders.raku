@@ -11,6 +11,7 @@ say ( @a[1] - @a[0] ) == ( @b[1] R- @b[0] );              # False {as expected}
 say ( @a.pop() - @a.pop() ) == ( @b.pop() R- @b.pop() );  # True {Huh?!?}
 
 
+
 # ===
 # Author:  doom@kzsu.stanford.edu
 
