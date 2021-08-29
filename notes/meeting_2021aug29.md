@@ -1,43 +1,43 @@
-- [meeting notes August 29, 2021](#orga632705)
-  - [hidden agenda](#org463efa8)
-    - [](#org27cf060)
-  - [before I forget](#orga9b6cae)
-    - [the argument to round might be called "nearest"](#org4888e2e)
-  - [multiple dispatch](#orga64f347)
-    - [standard complaint](#orgc60e44b)
-    - [using multi-dispatch for "dualmap"](#orgca1a3f1)
-  - [the maybe method (dot question mark operator: ".?")](#orga71c695)
-    - [jonathan worhthington mentions this (WTF)](#org633ce37)
+- [meeting notes August 29, 2021](#orgb117370)
+  - [hidden agenda](#org81c272b)
+    - [](#orgc558b54)
+  - [before I forget](#orgecc8438)
+    - [the argument to round might be called "nearest"](#org6e997e4)
+  - [multiple dispatch](#org9846326)
+    - [standard complaint](#org097db0e)
+    - [using multi-dispatch for "dualmap"](#org142913d)
+  - [the maybe method (dot question mark operator: ".?")](#org17639c4)
+    - [jonathan worhthington mentions this (WTF)](#org90bf2b3)
 
 
-<a id="orga632705"></a>
+<a id="orgb117370"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="org463efa8"></a>
+<a id="org81c272b"></a>
 
 ## hidden agenda
 
 
-<a id="org27cf060"></a>
+<a id="orgc558b54"></a>
 
 ### 
 
 
-<a id="orga9b6cae"></a>
+<a id="orgecc8438"></a>
 
 ## before I forget
 
 
-<a id="org4888e2e"></a>
+<a id="org6e997e4"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="orga64f347"></a>
+<a id="org9846326"></a>
 
 ## multiple dispatch
 
@@ -54,7 +54,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="orgc60e44b"></a>
+<a id="org097db0e"></a>
 
 ### standard complaint
 
@@ -69,7 +69,7 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="orgca1a3f1"></a>
+<a id="org142913d"></a>
 
 ### using multi-dispatch for "dualmap"
 
@@ -91,7 +91,7 @@ Douglas Crockford:
         1.  but the "is default" feature helps
 
 
-<a id="orga71c695"></a>
+<a id="org17639c4"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -100,6 +100,6 @@ my $result = $obj.?method($arg, $arg);
 ```
 
 
-<a id="org633ce37"></a>
+<a id="org90bf2b3"></a>
 
 ### jonathan worhthington mentions this (WTF)
