@@ -5,6 +5,8 @@
 use v6;
 
 # https://stackoverflow.com/questions/68885852/brace-delimiters-with-qq-dont-interpolate-code-in-raku
+# what happens with code blocks inside qq{} quotes
+
 
 my $str1 = qq{ and now we will add { 2 + 2 } };
 say $str1;
