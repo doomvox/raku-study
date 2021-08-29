@@ -10,6 +10,9 @@ say $str1;
 
 my $str2 = qq :c { and now we will add { 2 + 2 } };
 say $str2;
+#  and now we will add { 2 + 2 } 
+
+
 
 
 # ===
