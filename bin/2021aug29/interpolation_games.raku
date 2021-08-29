@@ -33,7 +33,7 @@ say $str0;
 
 my $str5 = Q:c[ and now we will add { 2 + 2 } ];
 say $str5;
-
+#  and now we will add 4 
 
 
 
