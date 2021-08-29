@@ -1,43 +1,43 @@
-- [meeting notes August 29, 2021](#orgda1e9b4)
-  - [hidden agenda](#org4a3ae84)
-    - [](#org87160ba)
-  - [before I forget](#orga18fe24)
-    - [the argument to round might be called "nearest"](#org1aa1718)
-  - [multiple dispatch](#org3b01b65)
-    - [standard complaint](#orgb0b7741)
-    - [using multi-dispatch for "dualmap"](#org31106fe)
-  - [the maybe method (dot question mark operator: ".?")](#org0ecced2)
-    - [jonathan worhthington mentions this (WTF)](#orga1f9044)
+- [meeting notes August 29, 2021](#orgb1da30f)
+  - [hidden agenda](#org7d55c0a)
+    - [](#org657c2d9)
+  - [before I forget](#org54c5b41)
+    - [the argument to round might be called "nearest"](#orgb287069)
+  - [multiple dispatch](#org72f75dd)
+    - [standard complaint](#orgd1894ac)
+    - [using multi-dispatch for "dualmap"](#org7b9926f)
+  - [the maybe method (dot question mark operator: ".?")](#org9960226)
+    - [jonathan worhthington mentions this (WTF)](#orgc883b7d)
 
 
-<a id="orgda1e9b4"></a>
+<a id="orgb1da30f"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="org4a3ae84"></a>
+<a id="org7d55c0a"></a>
 
 ## hidden agenda
 
 
-<a id="org87160ba"></a>
+<a id="org657c2d9"></a>
 
 ### 
 
 
-<a id="orga18fe24"></a>
+<a id="org54c5b41"></a>
 
 ## before I forget
 
 
-<a id="org1aa1718"></a>
+<a id="orgb287069"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org3b01b65"></a>
+<a id="org72f75dd"></a>
 
 ## multiple dispatch
 
@@ -54,7 +54,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="orgb0b7741"></a>
+<a id="orgd1894ac"></a>
 
 ### standard complaint
 
@@ -69,7 +69,7 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="org31106fe"></a>
+<a id="org7b9926f"></a>
 
 ### using multi-dispatch for "dualmap"
 
@@ -78,10 +78,14 @@ Douglas Crockford:
     1.  
     
         ```perl6
+        my $dmh = Data::Dualmap::Recurse::Numerics.new( 
+                  string_handler => 
+                     { do if ( $^a eq $^b ) { "Both: $a" } else { "1: $a  2: $b" } } );
+        my $result = $dmh.dualmap( '-', $gross, $costs );
         ```
 
 
-<a id="org0ecced2"></a>
+<a id="org9960226"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -90,6 +94,6 @@ my $result = $obj.?method($arg, $arg);
 ```
 
 
-<a id="orga1f9044"></a>
+<a id="orgc883b7d"></a>
 
 ### jonathan worhthington mentions this (WTF)

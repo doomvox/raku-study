@@ -35,6 +35,13 @@ errors I worry about."
 **** kind of cool
 ***** 
 #+BEGIN_SRC perl6
+
+my $dmh = Data::Dualmap::Recurse::Numerics.new( 
+          string_handler => 
+             { do if ( $^a eq $^b ) { "Both: $a" } else { "1: $a  2: $b" } } );
+my $result = $dmh.dualmap( '-', $gross, $costs );
+
+
 #+END_SRC
 
 
