@@ -1,40 +1,40 @@
-- [meeting notes August 29, 2021](#orgadbde26)
-  - [hidden agenda](#org7eb92e2)
-    - [](#org5217ab6)
-  - [before I forget](#orgd92d25b)
-    - [the argument to round might be called "nearest"](#orgac62a02)
-  - [multiple dispatch](#org0abda9b)
-    - [standard complaint](#org9a5a34f)
+- [meeting notes August 29, 2021](#org2e929b3)
+  - [hidden agenda](#org3b5ce93)
+    - [](#org7d803e7)
+  - [before I forget](#org1f4e8e8)
+    - [the argument to round might be called "nearest"](#org7af9bac)
+  - [multiple dispatch](#org2c092e1)
+    - [standard complaint](#org0c5faaf)
 
 
-<a id="orgadbde26"></a>
+<a id="org2e929b3"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="org7eb92e2"></a>
+<a id="org3b5ce93"></a>
 
 ## hidden agenda
 
 
-<a id="org5217ab6"></a>
+<a id="org7d803e7"></a>
 
 ### 
 
 
-<a id="orgd92d25b"></a>
+<a id="org1f4e8e8"></a>
 
 ## before I forget
 
 
-<a id="orgac62a02"></a>
+<a id="org7af9bac"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org0abda9b"></a>
+<a id="org2c092e1"></a>
 
 ## multiple dispatch
 
@@ -51,7 +51,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="org9a5a34f"></a>
+<a id="org0c5faaf"></a>
 
 ### standard complaint
 
@@ -62,3 +62,5 @@ Douglas Crockford:
     2.  but computer "scientists" don't do experiments
     
         1.  not if it means consulting wtih a social scienctist
+    
+    3.  unverified claims about human cognitive abilities abound

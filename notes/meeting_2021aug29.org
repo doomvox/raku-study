@@ -29,3 +29,4 @@ errors I worry about."
 ***** e.g. conduct experiments where teams of programmers compete
 ***** but computer "scientists" don't do experiments
 ****** not if it means consulting wtih a social scienctist
+***** unverified claims about human cognitive abilities abound
