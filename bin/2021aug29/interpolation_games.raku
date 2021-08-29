@@ -46,7 +46,7 @@ say $str6;
 
 my $str7 = Q :c [ and now we will add { 2 + 2 } ];
 say $str7;
-#  and now we will add { 2 + 2 } 
+
 
 
 
