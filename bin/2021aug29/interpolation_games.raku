@@ -12,11 +12,16 @@ my $str2 = qq :c { and now we will add { 2 + 2 } };
 say $str2;
 #  and now we will add { 2 + 2 } 
 
+# https://docs.raku.org/language/quoting#index-entry-quote_qq-quote_%22_%22-Interpolation:_qq
 ## :c 	:closure 	Interpolate {...} expressions
 
 my $str3 = q :c { and now we will add { 2 + 2 } };
 say $str3;
 #  and now we will add { 2 + 2 } 
+
+
+
+
 
 
 # ===
