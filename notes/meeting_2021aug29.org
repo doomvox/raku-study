@@ -1,6 +1,7 @@
 * meeting notes August 29, 2021
 ** hidden agenda
-*** TODO 
+*** david has something
+*** 
 ** before I forget
 *** the argument to round might be called "nearest"
 "round off to the nearest"
@@ -42,7 +43,7 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 #+END_SRC
 **** a little tricky to think about
 ***** it isn't *exactly* like a case statement
-****** but the "is default" feature helps
+****** but the "is default" feature helpsg
 
 *** dualmap status
 **** did a rewrite
