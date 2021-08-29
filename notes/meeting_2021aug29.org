@@ -2,8 +2,9 @@
 ** hidden agenda
 *** david christensen
 **** general perl5 code to walk a structure recursively
-**** network-- unifi on linode 
-***** linode sponsors of perl 
+**** home network: unifi on linode 
+***** linode sponsors of perl
+***** unifi controller runs on enginex webserver
 *** jeff
 **** pod question?
 ** before I forget
