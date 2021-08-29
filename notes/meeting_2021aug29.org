@@ -60,4 +60,5 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 my $result = $obj.?method($arg, $arg);
 #+END_SRC
 
-*** jonathan worhthington mentions this (WTF)
+*** WTF? 
+**** jonathan worthington code example
