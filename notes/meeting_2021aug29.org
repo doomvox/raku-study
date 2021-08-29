@@ -78,3 +78,4 @@ my $result = $obj.?method($arg, $arg);
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021aug29
 
+
