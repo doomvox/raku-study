@@ -58,6 +58,7 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 ***** still may need more thought for Raku
 ****** maybe: any number of code blocks associated with arbitrary types
 ******* do *this* with a leaf node that looks like *that*
+****** consider the case of set operations
 
 ** the maybe method (dot question mark operator: ".?")
 #+BEGIN_SRC perl6
