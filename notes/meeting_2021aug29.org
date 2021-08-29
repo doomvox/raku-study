@@ -74,9 +74,6 @@ my $result = $obj.?method($arg, $arg);
 *** WTF? 
 **** from a jonathan worthington code example
 
-
-
-
 ** the usual links:
 *** meeting notes
 **** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug29.md
