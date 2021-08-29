@@ -1,7 +1,7 @@
 * meeting notes August 29, 2021
 ** hidden agenda
 *** david has something
-*** 
+**** 
 ** before I forget
 *** the argument to round might be called "nearest"
 "round off to the nearest"
@@ -76,3 +76,9 @@ my $result = $obj.?method($arg, $arg);
 
 
 
+
+** the usual links:
+*** meeting notes
+**** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug29.md
+*** code examples:
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021aug29

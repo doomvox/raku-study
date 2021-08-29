@@ -1,51 +1,50 @@
-- [meeting notes August 29, 2021](#orgd88dea8)
-  - [hidden agenda](#org663dd57)
-    - [david has something](#org72b367a)
-    - [](#org6285790)
-  - [before I forget](#org259947a)
-    - [the argument to round might be called "nearest"](#org6d5793a)
-  - [multiple dispatch](#orgd258ccc)
-    - [standard complaint](#org8deb432)
-    - [using multi-dispatch for "dualmap"](#orgc42b30d)
-    - [dualmap status](#orgaf0831d)
-  - [the maybe method (dot question mark operator: ".?")](#org7c450f8)
-    - [Safe call operator](#orga79122c)
-    - [WTF?](#org153b05e)
+- [meeting notes August 29, 2021](#org7135db2)
+  - [hidden agenda](#orgb49c5ab)
+    - [david has something](#org915c86e)
+  - [before I forget](#org0b992d2)
+    - [the argument to round might be called "nearest"](#org199e18f)
+  - [multiple dispatch](#orgbf1c72c)
+    - [standard complaint](#orgf5aca42)
+    - [using multi-dispatch for "dualmap"](#org30915fa)
+    - [dualmap status](#org066c54c)
+  - [the maybe method (dot question mark operator: ".?")](#org61b4084)
+    - [Safe call operator](#orgf213249)
+    - [WTF?](#orgc71d1da)
+  - [the usual links:](#orgb0134eb)
+    - [meeting notes](#orgbea9a18)
+    - [code examples:](#org55251a2)
 
 
-<a id="orgd88dea8"></a>
+<a id="org7135db2"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="org663dd57"></a>
+<a id="orgb49c5ab"></a>
 
 ## hidden agenda
 
 
-<a id="org72b367a"></a>
+<a id="org915c86e"></a>
 
 ### david has something
 
-
-<a id="org6285790"></a>
-
-### 
+1.  
 
 
-<a id="org259947a"></a>
+<a id="org0b992d2"></a>
 
 ## before I forget
 
 
-<a id="org6d5793a"></a>
+<a id="org199e18f"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="orgd258ccc"></a>
+<a id="orgbf1c72c"></a>
 
 ## multiple dispatch
 
@@ -62,7 +61,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="org8deb432"></a>
+<a id="orgf5aca42"></a>
 
 ### standard complaint
 
@@ -77,7 +76,7 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="orgc42b30d"></a>
+<a id="org30915fa"></a>
 
 ### using multi-dispatch for "dualmap"
 
@@ -99,7 +98,7 @@ Douglas Crockford:
         1.  but the "is default" feature helpsg
 
 
-<a id="orgaf0831d"></a>
+<a id="org066c54c"></a>
 
 ### dualmap status
 
@@ -132,7 +131,7 @@ Douglas Crockford:
         2.  consider the case of set operations
 
 
-<a id="org7c450f8"></a>
+<a id="org61b4084"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -141,7 +140,7 @@ my $result = $obj.?method($arg, $arg);
 ```
 
 
-<a id="orga79122c"></a>
+<a id="orgf213249"></a>
 
 ### Safe call operator
 
@@ -152,8 +151,27 @@ my $result = $obj.?method($arg, $arg);
 3.  avoids need to check if .can
 
 
-<a id="org153b05e"></a>
+<a id="orgc71d1da"></a>
 
 ### WTF?
 
 1.  from a jonathan worthington code example
+
+
+<a id="orgb0134eb"></a>
+
+## the usual links:
+
+
+<a id="orgbea9a18"></a>
+
+### meeting notes
+
+1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug29.md>
+
+
+<a id="org55251a2"></a>
+
+### code examples:
+
+1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021aug29>
