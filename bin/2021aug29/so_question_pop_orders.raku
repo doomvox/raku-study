@@ -12,6 +12,7 @@ say ( @a.pop() - @a.pop() ) == ( @b.pop() R- @b.pop() );  # True {Huh?!?}
 
 
 
+
 # ===
 # Author:  doom@kzsu.stanford.edu
 
