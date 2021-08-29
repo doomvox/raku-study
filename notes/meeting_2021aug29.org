@@ -52,6 +52,8 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 ****** clone of my perl5 project Data::Math
 ******* presumes you're working on numeric leaf nodes
 ******* allows strings for operations ('+', '*', '-', '/')
+******* default string handler does what *I* mean,
+******** via OOP interface can use code block instead
 
 ** the maybe method (dot question mark operator: ".?")
 #+BEGIN_SRC perl6
