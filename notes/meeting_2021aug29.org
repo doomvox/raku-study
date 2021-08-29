@@ -35,3 +35,5 @@ errors I worry about."
 #+BEGIN_SRC perl6
 my $result = $obj.?method($arg, $arg);
 #+END_SRC
+
+*** jonathan worhthington mentions this (WTF)
