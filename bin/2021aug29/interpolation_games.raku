@@ -21,7 +21,7 @@ say $str3;
 
 my $str4 = Q :c { and now we will add { 2 + 2 } };
 say $str4;
-
+#  and now we will add { 2 + 2 } 
 
 
 
