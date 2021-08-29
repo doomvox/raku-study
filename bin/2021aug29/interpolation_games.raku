@@ -23,6 +23,7 @@ my $str4 = Q :c { and now we will add { 2 + 2 } };
 say $str4;
 #  and now we will add { 2 + 2 } 
 
+
 my $str0 = qq{ and now we will add { 2 + 2 } };
 say $str0;
 
