@@ -74,6 +74,7 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 
 my $result = $obj.?method($arg, $arg);
 
+## perhaps an alternate to:
 
 if $obj.can('method') {
    $obj.method( $arg1, $arg2 );
