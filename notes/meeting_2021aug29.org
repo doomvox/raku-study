@@ -95,3 +95,4 @@ if $obj.can('method') {
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021aug29
 
 
+** Bruce Gray:  https://theweeklychallenge.org/blog/perl-weekly-challenge-127/
