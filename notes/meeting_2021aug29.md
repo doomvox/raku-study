@@ -1,44 +1,44 @@
-- [meeting notes August 29, 2021](#org60428e5)
-  - [hidden agenda](#org9045b7c)
-    - [](#orgf6c4dca)
-  - [before I forget](#orgba77f78)
-    - [the argument to round might be called "nearest"](#orga421e1e)
-  - [multiple dispatch](#org24755cf)
-    - [standard complaint](#orgfb54985)
-    - [using multi-dispatch for "dualmap"](#orgae67dec)
-    - [dualmap status](#org92ed443)
-  - [the maybe method (dot question mark operator: ".?")](#orgc40bfa4)
-    - [WTF?](#org08f2f8e)
+- [meeting notes August 29, 2021](#orge79e738)
+  - [hidden agenda](#orgd4c52d1)
+    - [](#orgafd39c5)
+  - [before I forget](#org73a3dbc)
+    - [the argument to round might be called "nearest"](#orgdc27265)
+  - [multiple dispatch](#org0f1fb0d)
+    - [standard complaint](#orgf18b37b)
+    - [using multi-dispatch for "dualmap"](#orge48c191)
+    - [dualmap status](#org457d813)
+  - [the maybe method (dot question mark operator: ".?")](#orgc7143e0)
+    - [WTF?](#org4d8948b)
 
 
-<a id="org60428e5"></a>
+<a id="orge79e738"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="org9045b7c"></a>
+<a id="orgd4c52d1"></a>
 
 ## hidden agenda
 
 
-<a id="orgf6c4dca"></a>
+<a id="orgafd39c5"></a>
 
 ### 
 
 
-<a id="orgba77f78"></a>
+<a id="org73a3dbc"></a>
 
 ## before I forget
 
 
-<a id="orga421e1e"></a>
+<a id="orgdc27265"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org24755cf"></a>
+<a id="org0f1fb0d"></a>
 
 ## multiple dispatch
 
@@ -55,7 +55,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="orgfb54985"></a>
+<a id="orgf18b37b"></a>
 
 ### standard complaint
 
@@ -70,7 +70,7 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="orgae67dec"></a>
+<a id="orge48c191"></a>
 
 ### using multi-dispatch for "dualmap"
 
@@ -92,7 +92,7 @@ Douglas Crockford:
         1.  but the "is default" feature helps
 
 
-<a id="org92ed443"></a>
+<a id="org457d813"></a>
 
 ### dualmap status
 
@@ -115,7 +115,7 @@ Douglas Crockford:
                 1.  via OOP interface can use code block instead
 
 
-<a id="orgc40bfa4"></a>
+<a id="orgc7143e0"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -124,8 +124,8 @@ my $result = $obj.?method($arg, $arg);
 ```
 
 
-<a id="org08f2f8e"></a>
+<a id="org4d8948b"></a>
 
 ### WTF?
 
-1.  jonathan worthington code example
+1.  from a jonathan worthington code example

@@ -61,4 +61,4 @@ my $result = $obj.?method($arg, $arg);
 #+END_SRC
 
 *** WTF? 
-**** jonathan worthington code example
+**** from a jonathan worthington code example
