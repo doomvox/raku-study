@@ -7,7 +7,7 @@
 ***** unifi controller runs on enginex webserver
 *** jeff
 **** pod question?
-** before I forget
+** the round method, currently calls it's argument "scale"
 *** the argument to round might be called "nearest"
 "round off to the nearest"
 
