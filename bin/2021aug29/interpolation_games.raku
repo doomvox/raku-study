@@ -28,6 +28,18 @@ my $str0 = qq{ and now we will add { say 2 + 2 } };
 say $str0;
 #  and now we will add { say 2 + 2 } 
 
+## Bruce Gray:
+# raku -e 'say Q:c[abc {2+2}]'  # # abc 4 
+
+my $str5 = qq{ and now we will add { say 2 + 2 } };
+say $str5;
+
+'say Q:c[abc {2+2}]' 
+
+
+
+
+
 # ===
 # Author:  doom@kzsu.stanford.edu
 
