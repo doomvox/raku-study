@@ -112,3 +112,6 @@ if $obj.can('method') {
 *** https://unix.stackexchange.com/a/658703 
 *** https://unix.stackexchange.com/a/658716 
 *** https://unix.stackexchange.com/a/664929 
+
+
+** Bruce Gray promises an anti-Haskell spiel in the future...
