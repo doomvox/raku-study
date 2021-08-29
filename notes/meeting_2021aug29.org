@@ -48,7 +48,7 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 **** did a rewrite
 ***** dualmap is now more like deepmap
 ****** needs a code block as argument
-****** runs on all types of leaf nodes
+****** acts on any value of any type
 ***** dualmap-numerics
 ****** clone of my perl5 project Data::Math
 ******* presumes you're working on numeric leaf nodes
