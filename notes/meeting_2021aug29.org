@@ -40,6 +40,8 @@ my $dmh = Data::Dualmap::Recurse::Numerics.new(
              { do if ( $^a eq $^b ) { "Both: $a" } else { "1: $a  2: $b" } } );
 my $result = $dmh.dualmap( '-', $gross, $costs );
 #+END_SRC
+**** a little tricky to think about
+***** it isn't *exactly* like a case statement
 
 ** the maybe method (dot question mark operator: ".?")
 #+BEGIN_SRC perl6

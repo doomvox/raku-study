@@ -1,43 +1,43 @@
-- [meeting notes August 29, 2021](#org016dfd8)
-  - [hidden agenda](#org81cb61c)
-    - [](#org0049a41)
-  - [before I forget](#orgfae6d00)
-    - [the argument to round might be called "nearest"](#org5fc6517)
-  - [multiple dispatch](#orgf05168c)
-    - [standard complaint](#orga18213e)
-    - [using multi-dispatch for "dualmap"](#org6822314)
-  - [the maybe method (dot question mark operator: ".?")](#org90b5cb1)
-    - [jonathan worhthington mentions this (WTF)](#orga51c1e2)
+- [meeting notes August 29, 2021](#org29b8baa)
+  - [hidden agenda](#orgb7017cb)
+    - [](#org56fbc31)
+  - [before I forget](#org5a436a7)
+    - [the argument to round might be called "nearest"](#org15ffd50)
+  - [multiple dispatch](#org9866abc)
+    - [standard complaint](#org26b3966)
+    - [using multi-dispatch for "dualmap"](#org7939f03)
+  - [the maybe method (dot question mark operator: ".?")](#org8246c05)
+    - [jonathan worhthington mentions this (WTF)](#orgbfe9c79)
 
 
-<a id="org016dfd8"></a>
+<a id="org29b8baa"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="org81cb61c"></a>
+<a id="orgb7017cb"></a>
 
 ## hidden agenda
 
 
-<a id="org0049a41"></a>
+<a id="org56fbc31"></a>
 
 ### 
 
 
-<a id="orgfae6d00"></a>
+<a id="org5a436a7"></a>
 
 ## before I forget
 
 
-<a id="org5fc6517"></a>
+<a id="org15ffd50"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="orgf05168c"></a>
+<a id="org9866abc"></a>
 
 ## multiple dispatch
 
@@ -54,7 +54,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="orga18213e"></a>
+<a id="org26b3966"></a>
 
 ### standard complaint
 
@@ -69,7 +69,7 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="org6822314"></a>
+<a id="org7939f03"></a>
 
 ### using multi-dispatch for "dualmap"
 
@@ -84,8 +84,12 @@ Douglas Crockford:
         my $result = $dmh.dualmap( '-', $gross, $costs );
         ```
 
+2.  a little tricky to think about
 
-<a id="org90b5cb1"></a>
+    1.  it isn't **exactly** like a case statement
+
+
+<a id="org8246c05"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -94,6 +98,6 @@ my $result = $obj.?method($arg, $arg);
 ```
 
 
-<a id="orga51c1e2"></a>
+<a id="orgbfe9c79"></a>
 
 ### jonathan worhthington mentions this (WTF)
