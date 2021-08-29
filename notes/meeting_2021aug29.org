@@ -54,6 +54,9 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 ******* allows strings for operations ('+', '*', '-', '/')
 ******* default string handler does what *I* mean,
 ******** via OOP interface can use code block instead
+***** still may need more thought for Raku
+****** maybe: any number of code blocks associated with arbitrary types
+
 
 ** the maybe method (dot question mark operator: ".?")
 #+BEGIN_SRC perl6
