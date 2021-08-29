@@ -1,43 +1,44 @@
-- [meeting notes August 29, 2021](#orgb117370)
-  - [hidden agenda](#org81c272b)
-    - [](#orgc558b54)
-  - [before I forget](#orgecc8438)
-    - [the argument to round might be called "nearest"](#org6e997e4)
-  - [multiple dispatch](#org9846326)
-    - [standard complaint](#org097db0e)
-    - [using multi-dispatch for "dualmap"](#org142913d)
-  - [the maybe method (dot question mark operator: ".?")](#org17639c4)
-    - [jonathan worhthington mentions this (WTF)](#org90bf2b3)
+- [meeting notes August 29, 2021](#org20d02a0)
+  - [hidden agenda](#org82aac01)
+    - [](#org726f27f)
+  - [before I forget](#orgc296617)
+    - [the argument to round might be called "nearest"](#org0df5ad2)
+  - [multiple dispatch](#org7972586)
+    - [standard complaint](#orgaf9ca73)
+    - [using multi-dispatch for "dualmap"](#orgeffc17f)
+    - [dualmap status](#orgb45a44e)
+  - [the maybe method (dot question mark operator: ".?")](#org8873f71)
+    - [jonathan worhthington mentions this (WTF)](#org02674e8)
 
 
-<a id="orgb117370"></a>
+<a id="org20d02a0"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="org81c272b"></a>
+<a id="org82aac01"></a>
 
 ## hidden agenda
 
 
-<a id="orgc558b54"></a>
+<a id="org726f27f"></a>
 
 ### 
 
 
-<a id="orgecc8438"></a>
+<a id="orgc296617"></a>
 
 ## before I forget
 
 
-<a id="org6e997e4"></a>
+<a id="org0df5ad2"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org9846326"></a>
+<a id="org7972586"></a>
 
 ## multiple dispatch
 
@@ -54,7 +55,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="org097db0e"></a>
+<a id="orgaf9ca73"></a>
 
 ### standard complaint
 
@@ -69,7 +70,7 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="org142913d"></a>
+<a id="orgeffc17f"></a>
 
 ### using multi-dispatch for "dualmap"
 
@@ -91,7 +92,26 @@ Douglas Crockford:
         1.  but the "is default" feature helps
 
 
-<a id="org17639c4"></a>
+<a id="orgb45a44e"></a>
+
+### dualmap status
+
+1.  did a rewrite
+
+    1.  dualmap is more like deepmap
+    
+        1.  needs a code block as argument
+    
+    2.  dualmap-numerics
+    
+        1.  clone of my perl5 project Data::Math
+        
+            1.  presumes you're working on numeric leaf nodes
+            
+            2.  allows strings for operations ('+', '\*', '-', '/')
+
+
+<a id="org8873f71"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -100,6 +120,6 @@ my $result = $obj.?method($arg, $arg);
 ```
 
 
-<a id="org90bf2b3"></a>
+<a id="org02674e8"></a>
 
 ### jonathan worhthington mentions this (WTF)

@@ -44,6 +44,15 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 ***** it isn't *exactly* like a case statement
 ****** but the "is default" feature helps
 
+*** dualmap status
+**** did a rewrite
+***** dualmap is more like deepmap
+****** needs a code block as argument
+***** dualmap-numerics
+****** clone of my perl5 project Data::Math
+******* presumes you're working on numeric leaf nodes
+******* allows strings for operations ('+', '*', '-', '/')
+
 ** the maybe method (dot question mark operator: ".?")
 #+BEGIN_SRC perl6
 my $result = $obj.?method($arg, $arg);
