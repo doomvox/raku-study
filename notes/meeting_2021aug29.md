@@ -1,32 +1,32 @@
-- [meeting notes August 29, 2021](#org5551b7b)
-  - [hidden agenda](#orgce6c84c)
-    - [david christensen](#org7989bdc)
-    - [jeff](#org31ed2b2)
-  - [the round method, currently calls it's argument "scale"](#orgab026b8)
-    - [the argument to round might be called "nearest"](#orga134caf)
-    - [lowest common ancestor with raku classes](#org95dd402)
-  - [multiple dispatch](#orgb6b1b24)
-    - [standard complaint](#orgdeb2fe9)
-    - [using multi-dispatch for "dualmap"](#org731a81e)
-    - [dualmap status](#orgdb828be)
-  - [the maybe method (dot question mark operator: ".?")](#orge2a1aab)
-    - [Safe call operator](#org92e5cf5)
-  - [the usual links:](#org494e8ff)
-    - [meeting notes](#org039983e)
-    - [code examples:](#org28b399e)
+- [meeting notes August 29, 2021](#org9230996)
+  - [hidden agenda](#orgadafc0d)
+    - [david christensen](#org0f40cb9)
+    - [jeff](#org693a838)
+  - [the round method, currently calls it's argument "scale"](#org8582f65)
+    - [the argument to round might be called "nearest"](#org22de4ce)
+    - [lowest common ancestor with raku classes](#org07d5628)
+  - [multiple dispatch](#orge80adef)
+    - [standard complaint](#org5f61df2)
+    - [using multi-dispatch for "dualmap"](#orgf337765)
+    - [dualmap status](#org2c6b672)
+  - [the maybe method (dot question mark operator: ".?")](#org03be8d8)
+    - [Safe call operator](#orgf843f17)
+  - [the usual links:](#org495d71a)
+    - [meeting notes](#org8b55a73)
+    - [code examples:](#org633eb51)
 
 
-<a id="org5551b7b"></a>
+<a id="org9230996"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="orgce6c84c"></a>
+<a id="orgadafc0d"></a>
 
 ## hidden agenda
 
 
-<a id="org7989bdc"></a>
+<a id="org0f40cb9"></a>
 
 ### david christensen
 
@@ -39,33 +39,33 @@
     2.  unifi controller runs on enginex webserver
 
 
-<a id="org31ed2b2"></a>
+<a id="org693a838"></a>
 
 ### jeff
 
 1.  pod question?
 
 
-<a id="orgab026b8"></a>
+<a id="org8582f65"></a>
 
 ## the round method, currently calls it's argument "scale"
 
 
-<a id="orga134caf"></a>
+<a id="org22de4ce"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org95dd402"></a>
+<a id="org07d5628"></a>
 
 ### lowest common ancestor with raku classes
 
 <https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor>
 
 
-<a id="orgb6b1b24"></a>
+<a id="orge80adef"></a>
 
 ## multiple dispatch
 
@@ -82,7 +82,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="orgdeb2fe9"></a>
+<a id="org5f61df2"></a>
 
 ### standard complaint
 
@@ -97,7 +97,7 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="org731a81e"></a>
+<a id="orgf337765"></a>
 
 ### using multi-dispatch for "dualmap"
 
@@ -119,7 +119,7 @@ Douglas Crockford:
         1.  but the "is default" feature helpsg
 
 
-<a id="orgdb828be"></a>
+<a id="org2c6b672"></a>
 
 ### dualmap status
 
@@ -152,16 +152,21 @@ Douglas Crockford:
         2.  consider the case of set operations
 
 
-<a id="orge2a1aab"></a>
+<a id="org03be8d8"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
 ```perl6
 my $result = $obj.?method($arg, $arg);
+
+
+if $obj.can('method') {
+   $obj.method( $arg1, $arg2 );
+}
 ```
 
 
-<a id="org92e5cf5"></a>
+<a id="orgf843f17"></a>
 
 ### Safe call operator
 
@@ -174,19 +179,19 @@ my $result = $obj.?method($arg, $arg);
 4.  (from a jonathan worthington code example)
 
 
-<a id="org494e8ff"></a>
+<a id="org495d71a"></a>
 
 ## the usual links:
 
 
-<a id="org039983e"></a>
+<a id="org8b55a73"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug29.md>
 
 
-<a id="org28b399e"></a>
+<a id="org633eb51"></a>
 
 ### code examples:
 
