@@ -4,7 +4,7 @@
 
 use v6;
 
-
+https://stackoverflow.com/questions/68761964/raku-pop-order-of-execution
 
 my @a = my @b = [9 , 3];
 say (@a[1] - @a[0]) == (@b[1] R- @b[0]); # False {as expected}
