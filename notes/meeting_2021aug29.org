@@ -30,3 +30,8 @@ errors I worry about."
 ***** but computer "scientists" don't do experiments
 ****** not if it means consulting with a social scienctist
 ***** unverified claims about human cognitive abilities abound
+
+** the maybe method
+#+BEGIN_SRC perl6
+my $result = $obj.?method($arg, $arg);
+#+END_SRC
