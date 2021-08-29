@@ -4,6 +4,8 @@
 
 use v6;
 
+# https://stackoverflow.com/questions/68885852/brace-delimiters-with-qq-dont-interpolate-code-in-raku
+
 my $str1 = qq{ and now we will add { 2 + 2 } };
 say $str1;
 #  and now we will add { 2 + 2 } 
@@ -41,7 +43,6 @@ say $str6;
 #  and now we will add 4 
 
 ## So, the :qq adverb behaves differently than qq   ??
-
 
 
 
