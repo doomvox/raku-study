@@ -46,7 +46,7 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 
 *** dualmap status
 **** did a rewrite
-***** dualmap is more like deepmap
+***** dualmap is now more like deepmap
 ****** needs a code block as argument
 ***** dualmap-numerics
 ****** clone of my perl5 project Data::Math
