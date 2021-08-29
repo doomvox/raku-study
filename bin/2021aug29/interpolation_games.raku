@@ -16,7 +16,7 @@ say $str2;
 
 my $str3 = q :c { and now we will add { 2 + 2 } };
 say $str3;
-
+#  and now we will add { 2 + 2 } 
 
 
 # ===
