@@ -2,7 +2,8 @@
 ** hidden agenda
 *** david christensen
 **** general perl5 code to walk a structure recursively
-**** network
+**** network-- linode unisys
+***** linode sponsors of  perl 
 *** jeff
 **** pod question?
 ** before I forget

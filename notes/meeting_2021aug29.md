@@ -1,67 +1,69 @@
-- [meeting notes August 29, 2021](#org47e3b03)
-  - [hidden agenda](#org480e3bf)
-    - [david christensen](#orgb2c39ce)
-    - [jeff](#orgb319957)
-  - [before I forget](#orgecdd8f4)
-    - [the argument to round might be called "nearest"](#org36b86fe)
-    - [lowest common ancestor with raku classes](#org1faec06)
-  - [multiple dispatch](#org7282b1c)
-    - [standard complaint](#orga02daf3)
-    - [using multi-dispatch for "dualmap"](#orgf5ca720)
-    - [dualmap status](#orgcbd03ff)
-  - [the maybe method (dot question mark operator: ".?")](#orgf4cd177)
-    - [Safe call operator](#org1fb0933)
-  - [the usual links:](#org09dd947)
-    - [meeting notes](#org7a25163)
-    - [code examples:](#orgb3a9206)
+- [meeting notes August 29, 2021](#orgc93bdb4)
+  - [hidden agenda](#org0b009c3)
+    - [david christensen](#org7405997)
+    - [jeff](#org8c82fd0)
+  - [before I forget](#org7d288b9)
+    - [the argument to round might be called "nearest"](#org7a9b6d7)
+    - [lowest common ancestor with raku classes](#orgd238dfb)
+  - [multiple dispatch](#orgd0ef0c3)
+    - [standard complaint](#orga447fee)
+    - [using multi-dispatch for "dualmap"](#orgb47343a)
+    - [dualmap status](#org6a48d17)
+  - [the maybe method (dot question mark operator: ".?")](#org0509505)
+    - [Safe call operator](#org7fc8c29)
+  - [the usual links:](#orga4adc0f)
+    - [meeting notes](#org685f9ec)
+    - [code examples:](#org8fa120c)
 
 
-<a id="org47e3b03"></a>
+<a id="orgc93bdb4"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="org480e3bf"></a>
+<a id="org0b009c3"></a>
 
 ## hidden agenda
 
 
-<a id="orgb2c39ce"></a>
+<a id="org7405997"></a>
 
 ### david christensen
 
 1.  general perl5 code to walk a structure recursively
 
-2.  network
+2.  network&#x2013; linode unisys
+
+    1.  linode sponsors of  perl
 
 
-<a id="orgb319957"></a>
+<a id="org8c82fd0"></a>
 
 ### jeff
 
 1.  pod question?
 
 
-<a id="orgecdd8f4"></a>
+<a id="org7d288b9"></a>
 
 ## before I forget
 
 
-<a id="org36b86fe"></a>
+<a id="org7a9b6d7"></a>
 
 ### the argument to round might be called "nearest"
 
 "round off to the nearest"
 
 
-<a id="org1faec06"></a>
+<a id="orgd238dfb"></a>
 
 ### lowest common ancestor with raku classes
 
 <https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor>
 
 
-<a id="org7282b1c"></a>
+<a id="orgd0ef0c3"></a>
 
 ## multiple dispatch
 
@@ -78,7 +80,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="orga02daf3"></a>
+<a id="orga447fee"></a>
 
 ### standard complaint
 
@@ -93,7 +95,7 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="orgf5ca720"></a>
+<a id="orgb47343a"></a>
 
 ### using multi-dispatch for "dualmap"
 
@@ -115,7 +117,7 @@ Douglas Crockford:
         1.  but the "is default" feature helpsg
 
 
-<a id="orgcbd03ff"></a>
+<a id="org6a48d17"></a>
 
 ### dualmap status
 
@@ -148,7 +150,7 @@ Douglas Crockford:
         2.  consider the case of set operations
 
 
-<a id="orgf4cd177"></a>
+<a id="org0509505"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -157,7 +159,7 @@ my $result = $obj.?method($arg, $arg);
 ```
 
 
-<a id="org1fb0933"></a>
+<a id="org7fc8c29"></a>
 
 ### Safe call operator
 
@@ -170,19 +172,19 @@ my $result = $obj.?method($arg, $arg);
 4.  (from a jonathan worthington code example)
 
 
-<a id="org09dd947"></a>
+<a id="orga4adc0f"></a>
 
 ## the usual links:
 
 
-<a id="org7a25163"></a>
+<a id="org685f9ec"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug29.md>
 
 
-<a id="orgb3a9206"></a>
+<a id="org8fa120c"></a>
 
 ### code examples:
 
