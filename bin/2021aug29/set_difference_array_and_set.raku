@@ -1,6 +1,8 @@
 #!/usr/bin/env perl6
 # 
-# set_difference_array_and_set.raku            21 Aug 2021 
+# mixed_type_set_operations_with_arrays_and_hashes.raku            21 Aug 2021 
+
+mixed_type_set_operations_with_arrays_and_hashes.raku
 
 use v6;
 
