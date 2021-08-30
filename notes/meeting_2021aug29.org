@@ -102,6 +102,9 @@ if $obj.can('method') {
 *** https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-127/challenge-127/bruce-gray/perl/ch-1.pl 
 *** Design by Contract, "Fast Fail Principle": https://enterprisecraftsmanship.com/posts/fail-fast-principle/ 
 
+** some stackoverflow questions
+*** https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/interpolation_games.raku
+*** https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/so_question_order_of_operations_with_R_and_pop.raku
 
 ** william michaels
 *** answers shell questions with raku
