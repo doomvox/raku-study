@@ -1,6 +1,6 @@
 #!/usr/bin/env perl6
 # 
-# interpolation_games.raku            29 Aug 2021 
+# interpolation_games_curly_code_block_inside_qq.raku            29 Aug 2021 
 
 use v6;
 
