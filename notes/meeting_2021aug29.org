@@ -1,7 +1,7 @@
 * meeting notes August 29, 2021
 
 ** the method .round, currently calls it's argument "scale"
-*** that might be called "nearest"
+*** a better term might "nearest"
 "round off to the nearest"
 
 ** lowest common ancestor with raku classes
