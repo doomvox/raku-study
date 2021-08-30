@@ -72,14 +72,14 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 
 my $result = $obj.?method($arg, $arg);
 
-## perhaps an alternate to:
+## an alternate to:
 if $obj.can('method') {
    $obj.method( $arg1, $arg2 );
 }
 
 #+END_SRC
 
-*** Safe call operator (maybe method operator: ".?")
+*** Safe call operator
 **** "$invocant.?method calls method method on $invocant if it has a method of such name. Otherwise it returns Nil."
 **** https://docs.raku.org/language/operators#methodop_.?
 **** avoids need to check if .can
