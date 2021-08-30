@@ -77,8 +77,8 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 ** the maybe method (dot question mark operator: ".?")
 #+BEGIN_SRC perl6
 my $result = $obj.?method($arg, $arg);
-
-## an alternate to:
+#
+# an alternate to:
 if $obj.can('method') {
    $obj.method( $arg1, $arg2 );
 }
