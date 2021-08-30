@@ -1,11 +1,4 @@
 * meeting notes August 29, 2021
-** david christensen
-**** general perl5 code to walk a structure recursively
-**** home network: unifi on linode 
-***** linode: sponsors of perl
-***** unifi controller runs on enginex webserver
-****** https://github.com/doomvox/raku-study/blob/main/notes/dpchrist-perl-walk/Dpchrist-Perl-walk-flowchart.pdf
-****** https://github.com/doomvox/raku-study/blob/main/notes/dpchrist-perl-walk/Dpchrist-Perl-walk-flowchart.odg
 
 ** the method .round, currently calls it's argument "scale"
 *** that might be called "nearest"
@@ -72,6 +65,15 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 ****** maybe: any number of code blocks associated with arbitrary types
 ******* do *this* with a leaf node that looks like *that*
 ****** consider the case of set operations
+
+** david christensen
+**** general perl5 code to walk a structure recursively
+**** home network: unifi on linode 
+***** linode: sponsors of perl
+***** unifi controller runs on enginex webserver
+****** https://github.com/doomvox/raku-study/blob/main/notes/dpchrist-perl-walk/Dpchrist-Perl-walk-flowchart.pdf
+****** https://github.com/doomvox/raku-study/blob/main/notes/dpchrist-perl-walk/Dpchrist-Perl-walk-flowchart.odg
+
 
 ** the maybe method (dot question mark operator: ".?")
 #+BEGIN_SRC perl6
