@@ -5,7 +5,7 @@
 "round off to the nearest"
 
 ** lowest common ancestor with raku classes
-https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor
+*** https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor
 
 
 *** Lowest common ancestor, at wikipedia:
