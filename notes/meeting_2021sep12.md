@@ -1,30 +1,28 @@
-- [the usual links:](#orgc5bee83)
-    - [meeting notes](#org107dbe9)
-      - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug29.md>](#org59cec61)
-    - [code examples:](#orgc0a5a1e)
-      - [<https://github.com/doomvox/raku-study/tree/main/bin/2021aug29>](#orgaad4e58)
+- [meeting notes September 12, 2021](#org7ea987d)
+  - [the usual links:](#org7b6fa30)
+    - [meeting notes](#org333146a)
+    - [code examples:](#org6a42137)
 
 
-<a id="orgc5bee83"></a>
+<a id="org7ea987d"></a>
 
-# the usual links:
-
-
-<a id="org107dbe9"></a>
-
-## meeting notes
+# meeting notes September 12, 2021
 
 
-<a id="org59cec61"></a>
+<a id="org7b6fa30"></a>
 
-### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug29.md>
-
-
-<a id="orgc0a5a1e"></a>
-
-## code examples:
+## the usual links:
 
 
-<a id="orgaad4e58"></a>
+<a id="org333146a"></a>
 
-### <https://github.com/doomvox/raku-study/tree/main/bin/2021aug29>
+### meeting notes
+
+1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug29.md>
+
+
+<a id="org6a42137"></a>
+
+### code examples:
+
+1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021aug29>

@@ -1,4 +1,4 @@
-
+* meeting notes September 12, 2021
 ** the usual links:
 *** meeting notes
 **** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug29.md
