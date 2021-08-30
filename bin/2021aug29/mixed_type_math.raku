@@ -35,16 +35,16 @@ say "===";
 }
 
 my $mixhash1 = %h1.MixHash;
-my $o4 = %h2.Mix;
+my $mix2 = %h2.Mix;
 
 {
-    my $result = $mixhash1 (-) $o4;
+    my $result = $mixhash1 (-) $mix2;
     dd $result;
     # MixHash $result = ("beta"=>-0.2,"alpha"=>-0.1,"gamma"=>-0.3).MixHash
     # MixHash minus Mix =>  MixHash
 }
 {
-    my $result = $o4 (-) $mixhash1;
+    my $result = $mix2 (-) $mixhash1;
     dd $result;
     # Mix $result = ("gamma"=>0.3,"alpha"=>0.1,"beta"=>0.2).Mix
     # Mix minus MixHash => Mix
