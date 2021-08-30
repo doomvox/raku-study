@@ -7,11 +7,11 @@ use v6;
 my %h1  = alpha =>  1,   beta =>  2,   gamma =>  3;
 my %h2  = alpha =>  1.1, beta =>  2.2, gamma =>  3.3;
 
-my $o1 = %h1.Bag;
+my $bag1 = %h1.Bag;
 my $o2 = %h2.Mix;
 
 {
-    my @isa1 = $o1.^mro;
+    my @isa1 = $bag1.^mro;
     my @isa2 = $o2.^mro;
     say @isa1;  # [(Bag) (Any) (Mu)]
     say @isa2;  # [(Mix) (Any) (Mu)]
@@ -21,14 +21,14 @@ my $o2 = %h2.Mix;
 }
 say "===";
 {
-    my $result = $o2 (-) $o1;
+    my $result = $o2 (-) $bag1;
     dd $result;
     # Mix $result = ("beta"=>0.2,"gamma"=>0.3,"alpha"=>0.1).Mix
     #   Mix minus Bag => Mix
 }
 
 {
-    my $result = $o1 (-) $o2;
+    my $result = $bag1 (-) $o2;
     dd $result;
     # Mix $result = ("gamma"=>-0.3,"beta"=>-0.2,"alpha"=>-0.1).Mix
     #   Bag minus Mix => Mix
