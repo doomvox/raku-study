@@ -1,12 +1,10 @@
 * meeting notes August 29, 2021
-** hidden agenda
-*** david christensen
+
+** david christensen
 **** general perl5 code to walk a structure recursively
 **** home network: unifi on linode 
 ***** linode: sponsors of perl
 ***** unifi controller runs on enginex webserver
-*** jeff
-**** pod question?
 ** the round method, currently calls it's argument "scale"
 *** the argument to round might be called "nearest"
 "round off to the nearest"
@@ -114,4 +112,8 @@ if $obj.can('method') {
 *** https://unix.stackexchange.com/a/664929 
 
 
-** Bruce Gray promises an anti-Haskell spiel in the future...
+** the future:
+*** next meeting: September 12th, 2021
+*** Bruce Gray promises an anti-Haskell spiel 
+*** jeff
+**** looking for a pod expert (richard hainsworth?)
