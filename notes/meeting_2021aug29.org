@@ -16,6 +16,9 @@ https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-
 as descendants, where we define each node to be a descendant of
 itself"
 
+**** https://en.wikipedia.org/wiki/Lowest_common_ancestor
+
+
 *** example code
 https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_1.raku
 https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_2.raku
