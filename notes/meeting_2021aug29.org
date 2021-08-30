@@ -100,6 +100,9 @@ if $obj.can('method') {
 *** https://github.com/manwar/perlweeklychallenge-club
 *** https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-127/challenge-127/bruce-gray/perl/ch-1.pl 
 *** Design by Contract, "Fast Fail Principle": https://enterprisecraftsmanship.com/posts/fail-fast-principle/ 
+*** blog post by laurent_r:
+http://blogs.perl.org/users/laurent_r/2021/08/perl-weekly-challenge-127-disjoint-sets-and-conflict-intervals.html
+
 
 ** some stackoverflow questions
 *** https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/interpolation_games.raku
