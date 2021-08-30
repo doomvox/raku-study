@@ -10,13 +10,11 @@ https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-
 
 *** Lowest common ancestor, at wikipedia:
 
-"This article is about lowest common ancestors in graph theory
-and computer science. For the common ancestor of a set of species
-in evolutionary trees, see most recent common ancestor. For a
-common ancestor of all life forms, see last universal common
-ancestor."  
-
-In graph theory and computer science, the lowest common ancestor (LCA) of two nodes v and w in a tree or directed acyclic graph (DAG) T is the lowest (i.e. deepest) node that has both v and w as descendants, where we define each node to be a descendant of itself (so if v has a direct connection from w, w is the lowest common ancestor). 
+"In graph theory and computer science, the lowest common ancestor
+(LCA) of two nodes v and w in a tree or directed acyclic graph
+(DAG) T is the lowest (i.e. deepest) node that has both v and w
+as descendants, where we define each node to be a descendant of
+itself"
 
 *** example code
 https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_1.raku
