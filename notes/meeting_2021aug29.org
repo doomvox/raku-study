@@ -9,18 +9,19 @@
 
 
 *** Lowest common ancestor, at wikipedia:
+**** https://en.wikipedia.org/wiki/Lowest_common_ancestor
 
 "In graph theory and computer science, the lowest common ancestor
 (LCA) of two nodes v and w in a tree or directed acyclic graph
 (DAG) T is the lowest (i.e. deepest) node that has both v and w
 as descendants, where we define each node to be a descendant of itself"
 
-**** the definitions in use:
+**** so the definitions in use:
 ***** the root of a tree is at the top
 ***** a node can be it's own parent
 ****** I think of LCA as "genetic similarity": you are similar to yourself
 
-**** https://en.wikipedia.org/wiki/Lowest_common_ancestor
+
 
 
 *** example code
