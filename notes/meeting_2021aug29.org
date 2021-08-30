@@ -95,9 +95,10 @@ if $obj.can('method') {
 
 ** Bruce Gray: answering the perl weekly challenge in perl and raku
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-127/
+*** https://github.com/manwar/perlweeklychallenge-club
 *** https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-127/challenge-127/bruce-gray/perl/ch-1.pl 
 *** Design by Contract, "Fast Fail Principle": https://enterprisecraftsmanship.com/posts/fail-fast-principle/ 
-*** https://github.com/manwar/perlweeklychallenge-club
+
 
 ** william michaels
 *** answers shell questions with raku
