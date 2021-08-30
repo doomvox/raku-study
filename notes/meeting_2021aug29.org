@@ -122,7 +122,7 @@ http://blogs.perl.org/users/laurent_r/2021/08/perl-weekly-challenge-127-disjoint
 **** https://unix.stackexchange.com/a/658703 
 **** https://unix.stackexchange.com/a/658716 
 **** https://unix.stackexchange.com/a/664929
-*** question: will shell people use tools that need to be installed first.
+*** question: will shell people use a tool that needs to be installed first?
 
 ** the future:
 *** next meeting: September 12th, 2021
