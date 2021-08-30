@@ -25,10 +25,10 @@ use v6;
 {
     say "---";
     my @a = my @b = [9 , 3];
-    say @a.pop;
-    say @a.pop;
-    say @b.pop;
-    say @b.pop;
+    say @a.pop; # 3 
+    say @a.pop; # 9
+    say @b.pop; # 3
+    say @b.pop; # 9
 }
 
 
