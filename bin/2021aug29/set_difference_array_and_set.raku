@@ -2,8 +2,6 @@
 # 
 # mixed_type_set_operations_with_arrays_and_hashes.raku            21 Aug 2021 
 
-mixed_type_set_operations_with_arrays_and_hashes.raku
-
 use v6;
 
 {
