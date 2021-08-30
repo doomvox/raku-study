@@ -76,7 +76,6 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 
 ** the maybe method (dot question mark operator: ".?")
 #+BEGIN_SRC perl6
-
 my $result = $obj.?method($arg, $arg);
 
 ## an alternate to:
@@ -85,7 +84,6 @@ if $obj.can('method') {
 }
 
 #+END_SRC
-
 *** documentation: Safe call operator
 **** "$invocant.?method calls method method on $invocant if it has a method of such name. Otherwise it returns Nil."
 **** https://docs.raku.org/language/operators#methodop_.?
