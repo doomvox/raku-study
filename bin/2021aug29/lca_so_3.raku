@@ -31,6 +31,7 @@ use v6;
     class F is D {};
     class G is F {};
 
+    # bruce gray solution:
     sub LCA( Mu:U $a, Mu:U $b --> Mu:U ) {
         ($a, |$a.^parents).first: * === ($b, |$b.^parents).any;
     }
