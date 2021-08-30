@@ -62,7 +62,7 @@ my $result = $dmh.dualmap( '-', $gross, $costs );
 ******* allows strings for operations ('+', '*', '-', '/')
 ******* default string handler does what *I* mean,
 ******** via OOP interface can use code block instead
-***** still may need more thought for Raku
+***** still may need more thought 
 ****** maybe: any number of code blocks associated with arbitrary types
 ******* do *this* with a leaf node that looks like *that*
 ****** consider the case of set operations
