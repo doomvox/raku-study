@@ -82,9 +82,9 @@ if $obj.can('method') {
 *** Safe call operator
 **** "$invocant.?method calls method method on $invocant if it has a method of such name. Otherwise it returns Nil."
 **** https://docs.raku.org/language/operators#methodop_.?
-**** avoids need to check if .can
-**** (from a jonathan worthington code example)
-**** bruce gray argues it's to short-circuit long chains 
+*** avoids need to check if .can
+*** (from a jonathan worthington code example)
+*** bruce gray argues it's to short-circuit long chains 
 
 ** the usual links:
 *** meeting notes
