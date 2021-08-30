@@ -19,7 +19,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_1.raku
 https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_2.raku
 https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_3.raku
 
-** multiple dispatch
+** multiple dispatch and types
 
 Larry Wall on Raku:
 
