@@ -24,7 +24,7 @@ use v6;
   say E.^parents.first({ $_ === D.^parents.any }); 
   # (B)
 
-  # (1) I would've said the "least common ancestor" would be D,
+  # (1) I would've said the "lowest common ancestor" would be D,
   #     even though you could argue it's not technically an
   #     ancestor of itself: you can treat an E like a D and you
   #     can treat a D like a D, you don't have to treat both like B.
