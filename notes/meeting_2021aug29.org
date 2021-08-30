@@ -12,7 +12,7 @@
 *** that might be called "nearest"
 "round off to the nearest"
 
-*** lowest common ancestor with raku classes
+** lowest common ancestor with raku classes
 https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor
 
 ** multiple dispatch
