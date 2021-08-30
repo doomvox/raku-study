@@ -14,6 +14,8 @@
 
 ** lowest common ancestor with raku classes
 https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor
+/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021aug29/lca_so_1.raku
+/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021aug29/lca_so_2.raku
 
 ** multiple dispatch
 
