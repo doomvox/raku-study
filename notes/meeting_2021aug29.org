@@ -14,6 +14,7 @@
 
 ** lowest common ancestor with raku classes
 https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor
+*** example code
 https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_1.raku
 https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_2.raku
 https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_3.raku
