@@ -99,17 +99,18 @@ if $obj.can('method') {
 *** Design by Contract, "Fast Fail Principle": https://enterprisecraftsmanship.com/posts/fail-fast-principle/ 
 *** https://github.com/manwar/perlweeklychallenge-club
 
-** William Michaels
-
-*** https://unix.stackexchange.com/a/654444 
-*** https://unix.stackexchange.com/a/655217 
-*** https://unix.stackexchange.com/a/655944 
-*** https://unix.stackexchange.com/a/658564 
-*** https://unix.stackexchange.com/a/658618 
-*** https://unix.stackexchange.com/a/658666 
-*** https://unix.stackexchange.com/a/658703 
-*** https://unix.stackexchange.com/a/658716 
-*** https://unix.stackexchange.com/a/664929 
+** william michaels
+*** answers shell questions with raku
+*** if you approve some of these, you might upvote: 
+**** https://unix.stackexchange.com/a/654444 
+**** https://unix.stackexchange.com/a/655217 
+**** https://unix.stackexchange.com/a/655944 
+**** https://unix.stackexchange.com/a/658564 
+**** https://unix.stackexchange.com/a/658618 
+**** https://unix.stackexchange.com/a/658666 
+**** https://unix.stackexchange.com/a/658703 
+**** https://unix.stackexchange.com/a/658716 
+**** https://unix.stackexchange.com/a/664929
 
 
 ** the future:
