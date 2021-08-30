@@ -5,6 +5,9 @@
 **** home network: unifi on linode 
 ***** linode: sponsors of perl
 ***** unifi controller runs on enginex webserver
+****** https://github.com/doomvox/raku-study/blob/main/notes/dpchrist-perl-walk
+
+
 ** the round method, currently calls it's argument "scale"
 *** the argument to round might be called "nearest"
 "round off to the nearest"
