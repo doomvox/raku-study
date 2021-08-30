@@ -21,10 +21,7 @@ as descendants, where we define each node to be a descendant of itself"
 ***** a node can be it's own parent
 ****** I think of LCA as "genetic similarity": you are similar to yourself
 
-
-
-
-*** example code
+**** example code
 https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_1.raku
 https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_2.raku
 https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_3.raku
