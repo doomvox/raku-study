@@ -34,17 +34,17 @@ say "===";
     #   Bag minus Mix => Mix
 }
 
-my $o3 = %h1.MixHash;
+my $mixhash1 = %h1.MixHash;
 my $o4 = %h2.Mix;
 
 {
-    my $result = $o3 (-) $o4;
+    my $result = $mixhash1 (-) $o4;
     dd $result;
     # MixHash $result = ("beta"=>-0.2,"alpha"=>-0.1,"gamma"=>-0.3).MixHash
     # MixHash minus Mix =>  MixHash
 }
 {
-    my $result = $o4 (-) $o3;
+    my $result = $o4 (-) $mixhash1;
     dd $result;
     # Mix $result = ("gamma"=>0.3,"alpha"=>0.1,"beta"=>0.2).Mix
     # Mix minus MixHash => Mix
