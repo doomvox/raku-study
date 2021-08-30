@@ -92,7 +92,6 @@ if $obj.can('method') {
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021aug29
 
-
 ** Bruce Gray: answering the perl weekly challenge in perl and raku
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-127/
 *** https://github.com/manwar/perlweeklychallenge-club
