@@ -79,7 +79,7 @@ if $obj.can('method') {
 
 #+END_SRC
 
-*** Safe call operator
+*** Safe call operator (maybe method operator: ".?")
 **** "$invocant.?method calls method method on $invocant if it has a method of such name. Otherwise it returns Nil."
 **** https://docs.raku.org/language/operators#methodop_.?
 **** avoids need to check if .can
