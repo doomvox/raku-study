@@ -1,6 +1,6 @@
 #!/usr/bin/env perl6
 # 
-# mixed_type_math.raku            20 Aug 2021 
+# mixed_type_set_operations.raku            20 Aug 2021 
 
 use v6;
 
