@@ -5,7 +5,8 @@
 **** home network: unifi on linode 
 ***** linode: sponsors of perl
 ***** unifi controller runs on enginex webserver
-****** https://github.com/doomvox/raku-study/blob/main/notes/dpchrist-perl-walk
+****** https://github.com/doomvox/raku-study/blob/main/notes/dpchrist-perl-walk/Dpchrist-Perl-walk-flowchart.pdf
+****** https://github.com/doomvox/raku-study/blob/main/notes/dpchrist-perl-walk/Dpchrist-Perl-walk-flowchart.odg
 
 
 ** the round method, currently calls it's argument "scale"
