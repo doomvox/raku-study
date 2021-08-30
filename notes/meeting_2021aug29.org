@@ -8,7 +8,6 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/dpchrist-perl-walk/Dpchrist-Perl-walk-flowchart.pdf
 ****** https://github.com/doomvox/raku-study/blob/main/notes/dpchrist-perl-walk/Dpchrist-Perl-walk-flowchart.odg
 
-
 ** the round method, currently calls it's argument "scale"
 *** the argument to round might be called "nearest"
 "round off to the nearest"
