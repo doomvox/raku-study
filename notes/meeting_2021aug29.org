@@ -19,7 +19,7 @@ as descendants, where we define each node to be a descendant of itself"
 **** so the definitions in use:
 ***** the root of a tree is at the top
 ***** a node can be it's own parent
-****** I think of LCA as "genetic similarity": you are similar to yourself
+****** LCA is like "genetic similarity": you are similar to yourself
 
 **** example code
 https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_1.raku
