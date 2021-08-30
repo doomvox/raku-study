@@ -82,7 +82,6 @@ my $result = $obj.?method($arg, $arg);
 if $obj.can('method') {
    $obj.method( $arg1, $arg2 );
 }
-
 #+END_SRC
 *** documentation: Safe call operator
 **** "$invocant.?method calls method method on $invocant if it has a method of such name. Otherwise it returns Nil."
