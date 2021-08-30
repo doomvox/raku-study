@@ -23,6 +23,7 @@ use v6;
 }
 
 {
+    say "---";
     my @a = my @b = [9 , 3];
     say @a.pop;
     say @a.pop;
