@@ -1,78 +1,82 @@
-- [meeting notes August 29, 2021](#org271f520)
-  - [the method .round, currently calls it's argument "scale"](#orgd971d03)
-    - [a better term might be "nearest"](#orgbcf4e78)
-  - [lowest common ancestor with raku classes](#org6dfbe77)
-    - [example code](#org20fc9f6)
-  - [multiple dispatch and types](#org8a2dbc9)
-    - [my standard complaint](#org3618a72)
-    - [using multi-dispatch for "dualmap"](#orgcb7f098)
-    - [dualmap status](#org43f43af)
-  - [david christensen](#orgde1dbf4)
-  - [the maybe method (dot question mark operator: ".?")](#orgbf83738)
-    - [documentation: "Safe call operator"](#org11f1922)
-    - [avoids need to check if .can](#orga0e881d)
-    - [(from a jonathan worthington code example)](#org37d2fc8)
-    - [bruce gray argues it's to short-circuit long chains](#org86566c3)
-  - [the usual links:](#orgad0314a)
-    - [meeting notes](#org2901df0)
-    - [code examples:](#org4e0ee83)
-  - [Bruce Gray: answering the perl weekly challenge in perl and raku](#orga3ad2c5)
-    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-127/>](#orgc0d985f)
-    - [<https://github.com/manwar/perlweeklychallenge-club>](#orgf07faed)
-    - [<https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-127/challenge-127/bruce-gray/perl/ch-1.pl>](#org96b07da)
-    - [Design by Contract, "Fast Fail Principle": <https://enterprisecraftsmanship.com/posts/fail-fast-principle/>](#orgc1227ad)
-    - [blog post by laurent<sub>r</sub>:](#orgcd45d25)
-  - [some stackoverflow questions](#orgfa7485c)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/interpolation_games.raku>](#org01cc25c)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/so_question_order_of_operations_with_R_and_pop.raku>](#org428e3f2)
-  - [william michaels](#org9c494f2)
-    - [answers shell questions with raku](#orgd69e759)
-    - [if you approve some of these, you might upvote:](#orgbe8cff0)
-    - [question: will shell people use a tool that needs to be installed first?](#orgbf1842b)
-  - [the future:](#org1afd651)
-    - [next meeting: September 12th, 2021](#org73dd724)
-    - [Bruce Gray promises an anti-Haskell spiel](#org84aa120)
-    - [jeff](#orgac35e14)
+- [meeting notes August 29, 2021](#org4b9c816)
+  - [the method .round, currently calls it's argument "scale"](#orgccf1171)
+    - [a better term might be "nearest"](#org257b3cc)
+  - [lowest common ancestor with raku classes](#orgdd6eb6b)
+    - [Lowest common ancestor, at wikipedia:](#org7a34269)
+    - [example code](#orgec9e623)
+  - [multiple dispatch and types](#orgcffe763)
+    - [my standard complaint](#org5190595)
+    - [using multi-dispatch for "dualmap"](#org6c1c482)
+    - [dualmap status](#orge3e3c9d)
+  - [david christensen](#org941518e)
+  - [the maybe method (dot question mark operator: ".?")](#orgba69792)
+    - [documentation: "Safe call operator"](#orgfa3a140)
+    - [avoids need to check if .can](#org1b93ef4)
+    - [(from a jonathan worthington code example)](#orgd1b5bca)
+    - [bruce gray argues it's to short-circuit long chains](#org504923f)
+  - [the usual links:](#org19f3d68)
+    - [meeting notes](#org2449dde)
+    - [code examples:](#org4c6a6c1)
+  - [Bruce Gray: answering the perl weekly challenge in perl and raku](#orgceba68e)
+    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-127/>](#org14ec45f)
+    - [<https://github.com/manwar/perlweeklychallenge-club>](#org738bdfe)
+    - [<https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-127/challenge-127/bruce-gray/perl/ch-1.pl>](#orgb6b1f9b)
+    - [Design by Contract, "Fast Fail Principle": <https://enterprisecraftsmanship.com/posts/fail-fast-principle/>](#orga91481f)
+    - [blog post by laurent<sub>r</sub>:](#org411ab58)
+  - [some stackoverflow questions](#org3129566)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/interpolation_games.raku>](#orgec8ad09)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/so_question_order_of_operations_with_R_and_pop.raku>](#org4ae3821)
+  - [william michaels](#orgdd37676)
+    - [answers shell questions with raku](#org2373119)
+    - [if you approve some of these, you might upvote:](#org4538884)
+    - [question: will shell people use a tool that needs to be installed first?](#orga7cfec0)
+  - [the future:](#org6218052)
+    - [next meeting: September 12th, 2021](#orgc6aad70)
+    - [Bruce Gray promises an anti-Haskell spiel](#orgd5b1c8a)
+    - [jeff](#org4dbe5a2)
 
 
-<a id="org271f520"></a>
+<a id="org4b9c816"></a>
 
 # meeting notes August 29, 2021
 
 
-<a id="orgd971d03"></a>
+<a id="orgccf1171"></a>
 
 ## the method .round, currently calls it's argument "scale"
 
 
-<a id="orgbcf4e78"></a>
+<a id="org257b3cc"></a>
 
 ### a better term might be "nearest"
 
 "round off to the nearest"
 
 
-<a id="org6dfbe77"></a>
+<a id="orgdd6eb6b"></a>
 
 ## lowest common ancestor with raku classes
 
 <https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor>
 
-Lowest common ancestor
 
-This article is about lowest common ancestors in graph theory and computer science. For the common ancestor of a set of species in evolutionary trees, see most recent common ancestor. For a common ancestor of all life forms, see last universal common ancestor. In this tree, the lowest common ancestor of the nodes x and y is marked in dark green. Other common ancestors are shown in light green.
+<a id="org7a34269"></a>
+
+### Lowest common ancestor, at wikipedia:
+
+"This article is about lowest common ancestors in graph theory and computer science. For the common ancestor of a set of species in evolutionary trees, see most recent common ancestor. For a common ancestor of all life forms, see last universal common ancestor. In this tree, the lowest common ancestor of the nodes x and y is marked in dark green. Other common ancestors are shown in light green."
 
 In graph theory and computer science, the lowest common ancestor (LCA) of two nodes v and w in a tree or directed acyclic graph (DAG) T is the lowest (i.e. deepest) node that has both v and w as descendants, where we define each node to be a descendant of itself (so if v has a direct connection from w, w is the lowest common ancestor).
 
 
-<a id="org20fc9f6"></a>
+<a id="orgec9e623"></a>
 
 ### example code
 
 <https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_1.raku> <https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_2.raku> <https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/lca_so_3.raku>
 
 
-<a id="org8a2dbc9"></a>
+<a id="orgcffe763"></a>
 
 ## multiple dispatch and types
 
@@ -89,7 +93,7 @@ Douglas Crockford:
 &#x2013; "Javascript: The Good Parts" (2008)
 
 
-<a id="org3618a72"></a>
+<a id="org5190595"></a>
 
 ### my standard complaint
 
@@ -104,7 +108,7 @@ Douglas Crockford:
     3.  unverified claims about human cognitive abilities abound
 
 
-<a id="orgcb7f098"></a>
+<a id="org6c1c482"></a>
 
 ### using multi-dispatch for "dualmap"
 
@@ -126,7 +130,7 @@ Douglas Crockford:
         1.  but the "is default" feature helps
 
 
-<a id="org43f43af"></a>
+<a id="orge3e3c9d"></a>
 
 ### dualmap status
 
@@ -159,7 +163,7 @@ Douglas Crockford:
         2.  consider the case of set operations
 
 
-<a id="orgde1dbf4"></a>
+<a id="org941518e"></a>
 
 ## david christensen
 
@@ -176,7 +180,7 @@ Douglas Crockford:
         2.  <https://github.com/doomvox/raku-study/blob/main/notes/dpchrist-perl-walk/Dpchrist-Perl-walk-flowchart.odg>
 
 
-<a id="orgbf83738"></a>
+<a id="orgba69792"></a>
 
 ## the maybe method (dot question mark operator: ".?")
 
@@ -190,7 +194,7 @@ if $obj.can('method') {
 ```
 
 
-<a id="org11f1922"></a>
+<a id="orgfa3a140"></a>
 
 ### documentation: "Safe call operator"
 
@@ -199,98 +203,98 @@ if $obj.can('method') {
 2.  <https://docs.raku.org/language/operators#methodop>\_.?
 
 
-<a id="orga0e881d"></a>
+<a id="org1b93ef4"></a>
 
 ### avoids need to check if .can
 
 
-<a id="org37d2fc8"></a>
+<a id="orgd1b5bca"></a>
 
 ### (from a jonathan worthington code example)
 
 
-<a id="org86566c3"></a>
+<a id="org504923f"></a>
 
 ### bruce gray argues it's to short-circuit long chains
 
 
-<a id="orgad0314a"></a>
+<a id="org19f3d68"></a>
 
 ## the usual links:
 
 
-<a id="org2901df0"></a>
+<a id="org2449dde"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug29.md>
 
 
-<a id="org4e0ee83"></a>
+<a id="org4c6a6c1"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021aug29>
 
 
-<a id="orga3ad2c5"></a>
+<a id="orgceba68e"></a>
 
 ## Bruce Gray: answering the perl weekly challenge in perl and raku
 
 
-<a id="orgc0d985f"></a>
+<a id="org14ec45f"></a>
 
 ### <https://theweeklychallenge.org/blog/perl-weekly-challenge-127/>
 
 
-<a id="orgf07faed"></a>
+<a id="org738bdfe"></a>
 
 ### <https://github.com/manwar/perlweeklychallenge-club>
 
 
-<a id="org96b07da"></a>
+<a id="orgb6b1f9b"></a>
 
 ### <https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-127/challenge-127/bruce-gray/perl/ch-1.pl>
 
 
-<a id="orgc1227ad"></a>
+<a id="orga91481f"></a>
 
 ### Design by Contract, "Fast Fail Principle": <https://enterprisecraftsmanship.com/posts/fail-fast-principle/>
 
 
-<a id="orgcd45d25"></a>
+<a id="org411ab58"></a>
 
 ### blog post by laurent<sub>r</sub>:
 
 <http://blogs.perl.org/users/laurent_r/2021/08/perl-weekly-challenge-127-disjoint-sets-and-conflict-intervals.html>
 
 
-<a id="orgfa7485c"></a>
+<a id="org3129566"></a>
 
 ## some stackoverflow questions
 
 
-<a id="org01cc25c"></a>
+<a id="orgec8ad09"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/interpolation_games.raku>
 
 
-<a id="org428e3f2"></a>
+<a id="org4ae3821"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2021aug29/so_question_order_of_operations_with_R_and_pop.raku>
 
 
-<a id="org9c494f2"></a>
+<a id="orgdd37676"></a>
 
 ## william michaels
 
 
-<a id="orgd69e759"></a>
+<a id="org2373119"></a>
 
 ### answers shell questions with raku
 
 
-<a id="orgbe8cff0"></a>
+<a id="org4538884"></a>
 
 ### if you approve some of these, you might upvote:
 
@@ -313,27 +317,27 @@ if $obj.can('method') {
 9.  <https://unix.stackexchange.com/a/664929>
 
 
-<a id="orgbf1842b"></a>
+<a id="orga7cfec0"></a>
 
 ### question: will shell people use a tool that needs to be installed first?
 
 
-<a id="org1afd651"></a>
+<a id="org6218052"></a>
 
 ## the future:
 
 
-<a id="org73dd724"></a>
+<a id="orgc6aad70"></a>
 
 ### next meeting: September 12th, 2021
 
 
-<a id="org84aa120"></a>
+<a id="orgd5b1c8a"></a>
 
 ### Bruce Gray promises an anti-Haskell spiel
 
 
-<a id="orgac35e14"></a>
+<a id="org4dbe5a2"></a>
 
 ### jeff
 

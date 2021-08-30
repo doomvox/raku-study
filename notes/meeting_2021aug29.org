@@ -8,10 +8,15 @@
 https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor
 
 
-Lowest common ancestor
+*** Lowest common ancestor, at wikipedia:
 
-This article is about lowest common ancestors in graph theory and computer science. For the common ancestor of a set of species in evolutionary trees, see most recent common ancestor. For a common ancestor of all life forms, see last universal common ancestor.
-In this tree, the lowest common ancestor of the nodes x and y is marked in dark green. Other common ancestors are shown in light green.
+"This article is about lowest common ancestors in graph theory
+and computer science. For the common ancestor of a set of species
+in evolutionary trees, see most recent common ancestor. For a
+common ancestor of all life forms, see last universal common
+ancestor.  In this tree, the lowest common ancestor of the nodes
+x and y is marked in dark green. Other common ancestors are shown
+in light green."
 
 In graph theory and computer science, the lowest common ancestor (LCA) of two nodes v and w in a tree or directed acyclic graph (DAG) T is the lowest (i.e. deepest) node that has both v and w as descendants, where we define each node to be a descendant of itself (so if v has a direct connection from w, w is the lowest common ancestor). 
 
