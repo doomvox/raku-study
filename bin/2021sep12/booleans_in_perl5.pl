@@ -67,6 +67,15 @@ for my $something ( @thingies ) {
 }
 
 
+use Test::More;
+
+
+my $result = some_boolean_function();
+
+is( $result, 0, "false as expected" );
+
+
+
 
 ### end main, into the subs
 
