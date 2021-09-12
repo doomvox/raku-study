@@ -1,7 +1,7 @@
 * meeting notes September 12, 2021
-
 ** the usual links:
 *** meeting notes
 **** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep12.md
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep12
+** miscellanious miscellany 
