@@ -33,7 +33,7 @@ say join ' ', @stuff;
 @stuff = 'a' .. 'ccc';
 # Raku
 # say @stuff;   # [a b c]
-say @stuff;   # [a b c]
+say join ' ', @stuff;   # [a b c]
 
 @stuff = 'a' ... 'ccc';
 # Raku
