@@ -7,7 +7,7 @@ use v6;
 
 my $flag = True;
 
-my @items = ( True, False, 0, 1, "", " ", "yow" );
+my @items = ( True, False, 0, 1, "", " ", "yow", '0', '1' );
 
 for @items -> $item { 
     say "item: |$item|";
