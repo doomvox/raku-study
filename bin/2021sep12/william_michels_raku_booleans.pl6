@@ -4,10 +4,9 @@
 
 use v6;
 
-> my $var = False;
-False
-> say $var;
-False
+my $var = False;
+say $var;
+# False
 > say ++$var
 True
 > say --$var
