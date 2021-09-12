@@ -67,14 +67,13 @@ for my $something ( @thingies ) {
 }
 
 
-use Test::More;
+# use Test::More;
 
+# my $result = some_boolean_function();  # 0 and 1     '', '1' 
 
-my $result = some_boolean_function();
+# is( $result, 0, "false as expected" );
 
-is( $result, 0, "false as expected" );
-
-
+# ok( not $result, "false as expected" );
 
 
 ### end main, into the subs
