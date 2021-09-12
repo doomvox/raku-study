@@ -10,6 +10,7 @@ my $flag = True;
 my @items = ( True, False, 0, 1 );
 
 for @items -> $flag { 
+    say "item: $flag";
     if ($flag) {
         say "truthy!";
     } else {
