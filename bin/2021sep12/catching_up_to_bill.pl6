@@ -55,3 +55,12 @@ $t = $t.pred;
 say $t;       # False
 
 
+# bruce gray:
+# raku -e 'my $z = "B"; say ++$z;' # Output: C 
+# raku -e 'enum Foo ("AA", "CC", "EE"); my Foo $f = CC; say $f.succ; say $f.succ.succ;'
+# EE
+# EE 
+
+
+my @stuff = 'aa' .. 'dd';
+say @stuff;
