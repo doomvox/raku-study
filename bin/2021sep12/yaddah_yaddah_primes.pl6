@@ -4,7 +4,7 @@
 
 use v6;
 
-my $range = 1000000;
+my $range = 10000000;
 say "range: $range";
 my @odd  = grep { ++$ !%% 2 }, grep &is-prime, 2 ..^ $range;
 
