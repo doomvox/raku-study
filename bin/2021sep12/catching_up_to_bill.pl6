@@ -36,7 +36,7 @@ my $t = False;
 my $v = $t + 1;
 dd $v;  # Int $v = 1
 dd $t;  # Bool $t = Bool::False
-$t++;    ## $t + 1; 
+$t++;    ## Not exactly:  $t + 1; 
 dd $t;  # Bool $t = Bool::True
 
 #   |       |
