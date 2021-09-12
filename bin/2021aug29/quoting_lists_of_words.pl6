@@ -14,6 +14,7 @@ my @monsters2 = Q ( godzilla mothera ghidora gammera golem rhodan );
 dd @monsters2;
 # Array @monsters2 = [" godzilla mothera ghidora gammera golem rhodan "]
 say @monsters2;
+# [ godzilla mothera ghidora gammera golem rhodan ]
 
 my @monsters3 = qw[ godzilla mothera ghidora gammera golem rhodan ];
 dd @monsters3;
