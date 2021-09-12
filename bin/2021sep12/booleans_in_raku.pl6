@@ -41,7 +41,7 @@ my $result = $str + 1;
 say $result;  #  1
 
 if ($str) {
-    say "yes! string 0 be true now";
+    say "yes! string 0 be true now";  # yes! string 0 be true now
 }
 
 
