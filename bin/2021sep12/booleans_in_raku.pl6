@@ -44,7 +44,7 @@ if ($str) {
     say "yes! string 0 be true now";  # yes! string 0 be true now
 }
 
-my $funky_perl5ism = '0 but true';  # in perl land, it's true, but it's also a 0 numeric value
+my $funky_perl5ism = '0 but true';  # in perl5 land, it's true, but it's also a 0 numeric value
 
 
 
