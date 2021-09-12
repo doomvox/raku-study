@@ -49,7 +49,8 @@ say $t.succ;  # True
 say $t;       # False
 
 $t = $t.succ;
-say $t;
+say $t;       # True
+
 
 
 # ===
