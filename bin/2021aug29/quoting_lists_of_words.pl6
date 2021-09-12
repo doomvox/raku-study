@@ -19,3 +19,4 @@ say @monsters2;
 my @monsters3 = qw[ godzilla mothera ghidora gammera golem rhodan ];
 dd @monsters3;
 # Array @monsters3 = ["godzilla", "mothera", "ghidora", "gammera", "golem", "rhodan"]
+say @monsters3;
