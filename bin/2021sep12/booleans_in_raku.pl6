@@ -40,7 +40,9 @@ my $str = "0";
 my $result = $str + 1;
 say $result;  #  1
 
-
+if ($str) {
+    say "yes! string 0 be true now";
+}
 
 
 
