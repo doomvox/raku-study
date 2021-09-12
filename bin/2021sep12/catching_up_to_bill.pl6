@@ -30,6 +30,11 @@ say $i;
 
 say $var.Bool; # False
 
+say "---";
+
+
+
+
 
 
 # ===
