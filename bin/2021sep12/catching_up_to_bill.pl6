@@ -38,7 +38,7 @@ my $v = $t + 1;
 dd $v;  # Int $v = 1
 dd $t;  # Bool $t = Bool::False
 $t++;
-dd $t;  # Bool $t = Bool::False
+dd $t;  # Bool $t = Bool::True
 
 
 # ===
