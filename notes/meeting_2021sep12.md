@@ -1,48 +1,48 @@
-- [meeting notes September 12, 2021](#org873fefe)
-  - [the usual links:](#orgb813af7)
-    - [meeting notes](#org5b3698f)
-    - [code examples:](#org77d8735)
-  - [miscellanious miscellany](#orgfb5cc5b)
-    - [Bruce Gray's promised anti-Haskell spiel](#org1cdf8ed)
-    - [A lot of stackoverflow traffic recently](#org4ecfd1c)
-    - [bruce gray rosettacode posts:](#org7a4f942)
+- [meeting notes September 12, 2021](#org327030b)
+  - [the usual links:](#org814cb73)
+    - [meeting notes](#org49f9a42)
+    - [code examples:](#org419808e)
+  - [miscellanious miscellany](#org98a1e01)
+    - [bruce gray's promised anti-Haskell spiel](#org635e292)
+    - [A lot of stackoverflow traffic recently](#org22cb3d0)
+    - [bruce gray rosettacode posts:](#orgcb922c0)
 
 
-<a id="org873fefe"></a>
+<a id="org327030b"></a>
 
 # meeting notes September 12, 2021
 
 
-<a id="orgb813af7"></a>
+<a id="org814cb73"></a>
 
 ## the usual links:
 
 
-<a id="org5b3698f"></a>
+<a id="org49f9a42"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep12.md>
 
 
-<a id="org77d8735"></a>
+<a id="org419808e"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep12>
 
 
-<a id="orgfb5cc5b"></a>
+<a id="org98a1e01"></a>
 
 ## miscellanious miscellany
 
 
-<a id="org1cdf8ed"></a>
+<a id="org635e292"></a>
 
-### Bruce Gray's promised anti-Haskell spiel
+### bruce gray's promised anti-Haskell spiel
 
 
-<a id="org4ecfd1c"></a>
+<a id="org22cb3d0"></a>
 
 ### A lot of stackoverflow traffic recently
 
@@ -53,7 +53,7 @@
     2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep12/quoting_lists_of_words.pl6>
 
 
-<a id="org7a4f942"></a>
+<a id="orgcb922c0"></a>
 
 ### bruce gray rosettacode posts:
 
