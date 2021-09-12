@@ -40,13 +40,12 @@ say join ' ', @stuff;   # [a b c]
 
 
 
-
+say "---";
 @stuff = 'a' ... 'ccc';
 # Raku
 # say @stuff.elems;  # 3
 # a b c aa ab bb bc cc aaa  aab  abbb ccc 
 
-say "---";
 say scalar @stuff;  # 2109
 say join ' ', @stuff;
 
