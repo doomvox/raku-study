@@ -20,6 +20,22 @@ for @items -> $item {
 }
 
 
+# item: |True|
+# truthy!
+# item: |False|
+# falsies!
+# item: |0|
+# falsies!
+# item: |1|
+# truthy!
+# item: ||
+# falsies!
+# item: | |
+# truthy!
+# item: |yow|
+# truthy!
+
+
 
 # ====
 #  sheet of cheats
