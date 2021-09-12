@@ -25,13 +25,16 @@ $|=1;
 use Data::Dumper;
 
 my @stuff = 'aa' .. 'dd';
-say @stuff;   #  [aa ab ac ad ba bb bc bd ca cb cc cd da db dc dd]
+# Raku
+# say @stuff;   #  [aa ab ac ad ba bb bc bd ca cb cc cd da db dc dd]
 
 @stuff = 'a' .. 'ccc';
-say @stuff;   # [a b c]
+# Raku
+# say @stuff;   # [a b c]
 
 @stuff = 'a' ... 'ccc';
-say @stuff.elems;  # 3
+# Raku
+# say @stuff.elems;  # 3
 
 # a b c aa ab bb bc cc aaa  aab  abbb ccc 
 
