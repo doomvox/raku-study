@@ -1,49 +1,50 @@
-- [meeting notes September 12, 2021](#org2c1a4e9)
-  - [the usual links:](#org36a3719)
-    - [meeting notes](#orgadf73b7)
-    - [code examples:](#org2552420)
-  - [miscellanious miscellany](#org0e181f5)
-    - [bruce gray's promised anti-Haskell spiel](#org85d4a44)
-    - [A lot of stackoverflow traffic recently](#org9fe4787)
-    - [bruce gray rosettacode posts:](#org4edc5fe)
-    - [<https://modules.raku.org/dist/Game::Sudoku:cpan:SCIMON>](#orgdd7dc28)
+- [meeting notes September 12, 2021](#org9503cdf)
+  - [the usual links:](#org478028e)
+    - [meeting notes](#org13d5a21)
+    - [code examples:](#org9ad7c4a)
+  - [miscellanious miscellany](#orgbd5f280)
+    - [bruce gray's promised anti-Haskell spiel](#orgce99e92)
+    - [A lot of stackoverflow traffic recently](#orgff4c49a)
+    - [bruce gray rosettacode posts:](#org77f9660)
+    - [<https://modules.raku.org/dist/Game::Sudoku:cpan:SCIMON>](#orga3a70be)
+    - [next meeting: Sept 26, 2021](#orgab392d7)
 
 
-<a id="org2c1a4e9"></a>
+<a id="org9503cdf"></a>
 
 # meeting notes September 12, 2021
 
 
-<a id="org36a3719"></a>
+<a id="org478028e"></a>
 
 ## the usual links:
 
 
-<a id="orgadf73b7"></a>
+<a id="org13d5a21"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep12.md>
 
 
-<a id="org2552420"></a>
+<a id="org9ad7c4a"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep12>
 
 
-<a id="org0e181f5"></a>
+<a id="orgbd5f280"></a>
 
 ## miscellanious miscellany
 
 
-<a id="org85d4a44"></a>
+<a id="orgce99e92"></a>
 
 ### bruce gray's promised anti-Haskell spiel
 
 
-<a id="org9fe4787"></a>
+<a id="orgff4c49a"></a>
 
 ### A lot of stackoverflow traffic recently
 
@@ -54,7 +55,7 @@
     2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep12/quoting_lists_of_words.pl6>
 
 
-<a id="org4edc5fe"></a>
+<a id="org77f9660"></a>
 
 ### bruce gray rosettacode posts:
 
@@ -65,6 +66,11 @@
 3.  <http://rosettacode.org/wiki/Sum_of_primes_in_odd_positions_is_prime#Raku>
 
 
-<a id="orgdd7dc28"></a>
+<a id="orga3a70be"></a>
 
 ### <https://modules.raku.org/dist/Game::Sudoku:cpan:SCIMON>
+
+
+<a id="orgab392d7"></a>
+
+### next meeting: Sept 26, 2021
