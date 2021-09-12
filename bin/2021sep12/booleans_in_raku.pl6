@@ -19,7 +19,6 @@ for @items -> $item {
 
 }
 
-
 # item: |True|
 # truthy!
 # item: |False|
