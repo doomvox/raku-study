@@ -33,13 +33,16 @@ say $var.Bool; # False
 say "---";
 
 my $t = False;
-
 my $v = $t + 1;
 dd $v;  # Int $v = 1
 dd $t;  # Bool $t = Bool::False
-$t++;
+$t++;    ## $t + 1; 
 dd $t;  # Bool $t = Bool::True
 
+#   |       |
+#   |  ++   |
+#   V       V
+# (False, True);
 
 # ===
 # Author:  doom@kzsu.stanford.edu
