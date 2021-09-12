@@ -67,3 +67,6 @@ say @stuff;   #  [aa ab ac ad ba bb bc bd ca cb cc cd da db dc dd]
 
 @stuff = 'a' .. 'ccc';
 say @stuff;   # [a b c]
+
+@stuff = 'a' ... 'ccc';
+say @stuff.elems;
