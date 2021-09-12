@@ -39,44 +39,15 @@ say ++$var.Int
 
 
 
+# bruce gray:
 
+# cheapest is_true() should be double-bang. 
 
+my $truth_value = !! $something; 
 
-# ====
-#  sheet of cheats
+# raku -e 'my $var = True; say ++$var.Int' # Error: Cannot resolve caller --snip-- 
+# raku -e 'my $var = True; say (++$var).Int;' # Output: 1 
 
-# A unicode paste board:
-# «
-# »
-# π
-# 𝑒
-
-# use DBIish;
-# my $dbh = DBIish.connect("Pg", database => 'doom', :user<doom>, :port<5434>);
-
-# my $sth = $dbh.prepare(q:to/STATEMENT/);
-#     SELECT * FROM funked_up
-# STATEMENT
-
-# $sth.execute();
-# my @rows = $sth.allrows();
-
-
-
-# external commands without shell:
-# my $arg = 'Hello';
-# my $captured = run('echo', $arg, :out).out.slurp;
-# my $captured = run(«echo "$arg"», :out).out.slurp;
-
-
-# using shell:
-# my $arg = 'Hello';
-# my $captured = shell("echo $arg", :out).out.slurp;
-# my $captured = qqx{echo $arg};
-
-
-## Try to make errors into warnings
-#   CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 # ===
 # Author:  doom@kzsu.stanford.edu
