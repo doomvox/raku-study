@@ -12,7 +12,7 @@ my @sums = [\+] @odd;
 say @sums.elems;
 # say @sums;
  
-# say .fmt('%5d') for grep { .[2].is-prime }, ( (1,3 ... *) Z @odd Z @sums );
+say .fmt('%5d') for grep { .[2].is-prime }, ( (1,3 ... *) Z @odd Z @sums );
 
 #     1     2     2
 #     3     5     7
