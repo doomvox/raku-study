@@ -44,6 +44,8 @@ dd $t;  # Bool $t = Bool::True
 #   V       V
 # (False, True);
 
+$t = False;
+say $t.succ;
 
 
 
