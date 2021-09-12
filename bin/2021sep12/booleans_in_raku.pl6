@@ -9,9 +9,9 @@ my $flag = True;
 
 my @items = ( True, False, 0, 1 );
 
-for @items -> $flag { 
-    say "item: $flag";
-    if ($flag) {
+for @items -> $item { 
+    say "item: $item";
+    if ($item) {
         say "truthy!";
     } else {
         say "falsies!";
