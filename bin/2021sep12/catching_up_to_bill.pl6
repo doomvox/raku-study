@@ -45,8 +45,8 @@ dd $t;  # Bool $t = Bool::True
 # (False, True);
 
 $t = False;
-say $t.succ;
-
+say $t.succ;  # True
+say $t;
 
 
 # ===
