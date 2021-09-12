@@ -44,6 +44,8 @@ if ($str) {
     say "yes! string 0 be true now";  # yes! string 0 be true now
 }
 
+my $funky_perl5ism = '0 but true';
+
 
 
 # ===
