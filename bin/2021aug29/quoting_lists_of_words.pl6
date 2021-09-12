@@ -30,3 +30,4 @@ dd @monsters5;
 # Array @monsters5 = ["godzilla", "mothera", "ghidora", "gammera", "golem", "rhodan"]
 
 my @monsters6 = qw(godzilla mothera ghidora gammera golem rhodan );
+dd @monsters6;
