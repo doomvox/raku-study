@@ -22,7 +22,7 @@ say "---";
 say $var.Int;  # 1
 say $var + 1;  # 2
 
-say $var - 2;
+say $var - 1;
 say $var.Bool;
 
 
