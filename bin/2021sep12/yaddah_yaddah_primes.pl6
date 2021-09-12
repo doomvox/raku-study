@@ -9,7 +9,7 @@ say "range: $range";
 my @odd  = grep { ++$ !%% 2 }, grep &is-prime, 2 ..^ $range;
 
 my @sums = [\+] @odd;
-say @sums.elems;
+# say @sums.elems;
 # say @sums;
  
 say .fmt('%5d') for grep { .[2].is-prime }, ( (1,3 ... *) Z @odd Z @sums );
