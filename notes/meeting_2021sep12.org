@@ -19,3 +19,4 @@
 *** https://modules.raku.org/dist/Game::Sudoku:cpan:SCIMON 
 
 *** next meeting: Sept 26, 2021
+*** tentative announcment: comparison case statement vs. multi-dispatch

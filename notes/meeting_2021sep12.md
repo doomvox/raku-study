@@ -1,50 +1,51 @@
-- [meeting notes September 12, 2021](#org9503cdf)
-  - [the usual links:](#org478028e)
-    - [meeting notes](#org13d5a21)
-    - [code examples:](#org9ad7c4a)
-  - [miscellanious miscellany](#orgbd5f280)
-    - [bruce gray's promised anti-Haskell spiel](#orgce99e92)
-    - [A lot of stackoverflow traffic recently](#orgff4c49a)
-    - [bruce gray rosettacode posts:](#org77f9660)
-    - [<https://modules.raku.org/dist/Game::Sudoku:cpan:SCIMON>](#orga3a70be)
-    - [next meeting: Sept 26, 2021](#orgab392d7)
+- [meeting notes September 12, 2021](#orgda9e66d)
+  - [the usual links:](#org820585b)
+    - [meeting notes](#org1362fc8)
+    - [code examples:](#org9079f28)
+  - [miscellanious miscellany](#org2a8529a)
+    - [bruce gray's promised anti-Haskell spiel](#orgbfad539)
+    - [A lot of stackoverflow traffic recently](#orge273bbe)
+    - [bruce gray rosettacode posts:](#orgc815448)
+    - [<https://modules.raku.org/dist/Game::Sudoku:cpan:SCIMON>](#org6b0500c)
+    - [next meeting: Sept 26, 2021](#org0331499)
+    - [tentative announcment: comparison case statement vs. multi-dispatch](#orgc742832)
 
 
-<a id="org9503cdf"></a>
+<a id="orgda9e66d"></a>
 
 # meeting notes September 12, 2021
 
 
-<a id="org478028e"></a>
+<a id="org820585b"></a>
 
 ## the usual links:
 
 
-<a id="org13d5a21"></a>
+<a id="org1362fc8"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep12.md>
 
 
-<a id="org9ad7c4a"></a>
+<a id="org9079f28"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep12>
 
 
-<a id="orgbd5f280"></a>
+<a id="org2a8529a"></a>
 
 ## miscellanious miscellany
 
 
-<a id="orgce99e92"></a>
+<a id="orgbfad539"></a>
 
 ### bruce gray's promised anti-Haskell spiel
 
 
-<a id="orgff4c49a"></a>
+<a id="orge273bbe"></a>
 
 ### A lot of stackoverflow traffic recently
 
@@ -55,7 +56,7 @@
     2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep12/quoting_lists_of_words.pl6>
 
 
-<a id="org77f9660"></a>
+<a id="orgc815448"></a>
 
 ### bruce gray rosettacode posts:
 
@@ -66,11 +67,16 @@
 3.  <http://rosettacode.org/wiki/Sum_of_primes_in_odd_positions_is_prime#Raku>
 
 
-<a id="orga3a70be"></a>
+<a id="org6b0500c"></a>
 
 ### <https://modules.raku.org/dist/Game::Sudoku:cpan:SCIMON>
 
 
-<a id="orgab392d7"></a>
+<a id="org0331499"></a>
 
 ### next meeting: Sept 26, 2021
+
+
+<a id="orgc742832"></a>
+
+### tentative announcment: comparison case statement vs. multi-dispatch
