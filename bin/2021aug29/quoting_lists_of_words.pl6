@@ -22,4 +22,4 @@ say @monsters3;
 # [godzilla mothera ghidora gammera golem rhodan]
 
 my @monsters4 = qw [ godzilla mothera ghidora gammera golem rhodan ];
-say @monsters4;
+dd @monsters4;
