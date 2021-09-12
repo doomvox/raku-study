@@ -32,8 +32,9 @@ say $var.Bool; # False
 
 say "---";
 
+my $t = False;
 
-
+my $v = $t + 1;
 
 
 
