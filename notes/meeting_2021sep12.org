@@ -12,6 +12,7 @@
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021sep12/quoting_lists_of_words.pl6
 
 *** bruce gray rosettacode posts:
-**** http://rosettacode.org/wiki/Sum_of_primes_in_odd_positions_is_prime#Raku 
 **** http://rosettacode.org/wiki/Pandigital_prime#Raku 
 **** http://rosettacode.org/wiki/Distinct_power_numbers#Raku
+**** http://rosettacode.org/wiki/Sum_of_primes_in_odd_positions_is_prime#Raku 
+
