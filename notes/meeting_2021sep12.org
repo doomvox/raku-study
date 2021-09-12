@@ -18,7 +18,9 @@
 
 *** https://modules.raku.org/dist/Game::Sudoku:cpan:SCIMON 
 
-*** 
+** A perl raku online conference coming up in November
+*** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
+**** The ephemeral miniconf is a Perl and Raku virtual miniconf that will take place in Zoom the 18 november 2021.
 
 ** next meeting 
 *** next meeting: Sept 26, 2021
