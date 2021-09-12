@@ -5,3 +5,13 @@
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep12
 ** miscellanious miscellany 
+*** Bruce Gray promised an anti-Haskell spiel
+*** A lot of stackoverflow traffic recently
+**** https://stackoverflow.com/questions/68987098/raku-array-will-not-sort 
+***** really a quoting issue, getting a list of quoted words doesn't work with "Q()"
+***** https://github.com/doomvox/raku-study/tree/main/bin/2021sep12/quoting_lists_of_words.pl6
+
+*** bruce gray rosettacode posts:
+**** http://rosettacode.org/wiki/Sum_of_primes_in_odd_positions_is_prime#Raku 
+**** http://rosettacode.org/wiki/Pandigital_prime#Raku 
+**** http://rosettacode.org/wiki/Distinct_power_numbers#Raku
