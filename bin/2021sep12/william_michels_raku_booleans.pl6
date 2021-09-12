@@ -7,34 +7,37 @@ use v6;
 my $var = False;
 say $var;
 # False
-> say ++$var
-True
-> say --$var
-False
+say ++$var
+# True
 
-> say $var.Int
-0
-> say $var.Int + 1
-1
-> say ($var.Int + 1).Bool
-True
 
-> say ++$var.Int
-Cannot resolve caller prefix:<++>(Int:D); the following candidates
-match the type but require mutable arguments:
-    (Mu:D $a is rw)
-    (Int:D $a is rw --> Int:D)
+say --$var
+# False
 
-The following do not match for other reasons:
-    (Bool $a is rw)
-    (Mu:U $a is rw)
-    (Num:D $a is rw)
-    (Num:U $a is rw)
-    (int $a is rw --> int)
-    (num $a is rw --> num)
-  in block <unit> at <unknown file> line 1
+say $var.Int
+# 0
+say $var.Int + 1
+# 1
+say ($var.Int + 1).Bool
+# True
 
-> exit
+say ++$var.Int
+
+# Cannot resolve caller prefix:<++>(Int:D); the following candidates
+# match the type but require mutable arguments:
+#     (Mu:D $a is rw)
+#     (Int:D $a is rw --> Int:D)
+
+# The following do not match for other reasons:
+#     (Bool $a is rw)
+#     (Mu:U $a is rw)
+#     (Num:D $a is rw)
+#     (Num:U $a is rw)
+#     (int $a is rw --> int)
+#     (num $a is rw --> num)
+#   in block <unit> at <unknown file> line 1
+
+
 
 
 
