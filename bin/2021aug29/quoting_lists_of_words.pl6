@@ -35,11 +35,12 @@ dd @monsters5;
 #     gammera used at line 32
 #     ..
 
+# # Valid perl5, not raku
+# if( $flag ) {
+#      ...
+#     }
 
-if( $flag ) {
-     ...
-    }
-
-i f( $flag ) {
+# valid raku
+if ( $flag ) {
      ...
     }
