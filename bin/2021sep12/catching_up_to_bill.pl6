@@ -10,11 +10,12 @@ say $var;
 say ++$var;
 # True
 say $var;
+# True
 
 say $var++;
 # True 
 say $var;
-
+# True
 
 # ===
 # Author:  doom@kzsu.stanford.edu
