@@ -8,6 +8,7 @@ use v6;
 my $flag = True;
 
 my @items = ( True, False, 0, 1, "", " ", "yow", '0', '1' );
+# Note string 0 is true now in Raku-land!
 
 for @items -> $item { 
     say "item: |$item|";
