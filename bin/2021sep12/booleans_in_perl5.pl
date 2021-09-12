@@ -68,11 +68,8 @@ for my $something ( @thingies ) {
 
 
 # use Test::More;
-
 # my $result = some_boolean_function();  # 0 and 1     '', '1' 
-
 # is( $result, 0, "false as expected" );
-
 # ok( not $result, "false as expected" );
 
 
