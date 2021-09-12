@@ -51,7 +51,8 @@ say $t;       # False
 $t = $t.succ;
 say $t;       # True
 
-
+$t = $t.pred;
+say $t;
 
 # ===
 # Author:  doom@kzsu.stanford.edu
