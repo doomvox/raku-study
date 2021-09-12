@@ -35,8 +35,11 @@ say "---";
 my $t = False;
 
 my $v = $t + 1;
-dd $v; # Int $v = 1
-dd $t;
+dd $v;  # Int $v = 1
+dd $t;  # Bool $t = Bool::False
+$t++;
+dd $t;  # Bool $t = Bool::False
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
