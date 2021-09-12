@@ -9,9 +9,11 @@ say $var;
 # False
 say ++$var;
 # True
+say $var;
+
 say $var++;
-
-
+# True 
+say $var;
 
 
 # ===
