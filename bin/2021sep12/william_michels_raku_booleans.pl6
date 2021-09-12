@@ -42,7 +42,7 @@ say ++$var.Int;
 # bruce gray:
 
 # cheapest is_true() should be double-bang. 
-my $truth_value = !! $something; 
+## my $truth_value = !! $something; 
 
 # raku -e 'my $var = True; say ++$var.Int' # Error: Cannot resolve caller --snip-- 
 # raku -e 'my $var = True; say (++$var).Int;' # Output: 1 
