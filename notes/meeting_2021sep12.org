@@ -6,7 +6,8 @@
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep12
 ** miscellanious miscellany 
 *** bruce gray's promised anti-Haskell spiel
-**** roughly: converts two argument function calls into a single arg function call
+**** roughly (I paraphrase)
+converts two argument function calls into a single arg function call
 with a special purpose function with one arg hardcoded (wtf?)
 *** A lot of stackoverflow traffic recently
 **** https://stackoverflow.com/questions/68987098/raku-array-will-not-sort 
