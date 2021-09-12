@@ -16,8 +16,10 @@
 **** http://rosettacode.org/wiki/Distinct_power_numbers#Raku
 **** http://rosettacode.org/wiki/Sum_of_primes_in_odd_positions_is_prime#Raku 
 
-*** https://modules.raku.org/dist/Game::Sudoku:cpan:SCIMON 
 
+
+*** raku sudoko solver? 
+**** https://modules.raku.org/dist/Game::Sudoku:cpan:SCIMON
 ** A perl raku online conference coming up in November
 *** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
 **** The ephemeral miniconf is a Perl and Raku virtual miniconf that will take place in Zoom the 18 november 2021.

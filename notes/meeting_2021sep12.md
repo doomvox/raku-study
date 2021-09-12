@@ -1,55 +1,55 @@
-- [meeting notes September 12, 2021](#org55b18d1)
-  - [the usual links:](#orge1ffd73)
-    - [meeting notes](#org86fad1f)
-    - [code examples:](#org3d10027)
-  - [miscellanious miscellany](#org7bae963)
-    - [bruce gray's promised anti-Haskell spiel](#org5e68170)
-    - [A lot of stackoverflow traffic recently](#org0cd1e34)
-    - [bruce gray rosettacode posts:](#orgcf385e7)
-    - [<https://modules.raku.org/dist/Game::Sudoku:cpan:SCIMON>](#org78d5209)
-  - [A perl raku online conference coming up in November](#org48dbf91)
-    - [<https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>](#org2b4b7be)
-  - [next meeting](#orge586c6d)
-    - [next meeting: Sept 26, 2021](#org72e65be)
-    - [tentative announcment: comparison case statement vs. multi-dispatch](#org3d3e070)
-    - [one-of-these-days: cro for web stuff](#org6682ef1)
+- [meeting notes September 12, 2021](#org18edf43)
+  - [the usual links:](#org143178a)
+    - [meeting notes](#orgfb533b7)
+    - [code examples:](#org4f37559)
+  - [miscellanious miscellany](#org0fc3b4a)
+    - [bruce gray's promised anti-Haskell spiel](#orgc6b4cc1)
+    - [A lot of stackoverflow traffic recently](#org358549d)
+    - [bruce gray rosettacode posts:](#org32913be)
+    - [raku sudoko solver?](#org93b3583)
+  - [A perl raku online conference coming up in November](#org490ebc4)
+    - [<https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>](#orge653690)
+  - [next meeting](#orgd7f714e)
+    - [next meeting: Sept 26, 2021](#org07cfd83)
+    - [tentative announcment: comparison case statement vs. multi-dispatch](#org6f7e8f8)
+    - [one-of-these-days: cro for web stuff](#org20b852b)
 
 
-<a id="org55b18d1"></a>
+<a id="org18edf43"></a>
 
 # meeting notes September 12, 2021
 
 
-<a id="orge1ffd73"></a>
+<a id="org143178a"></a>
 
 ## the usual links:
 
 
-<a id="org86fad1f"></a>
+<a id="orgfb533b7"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep12.md>
 
 
-<a id="org3d10027"></a>
+<a id="org4f37559"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep12>
 
 
-<a id="org7bae963"></a>
+<a id="org0fc3b4a"></a>
 
 ## miscellanious miscellany
 
 
-<a id="org5e68170"></a>
+<a id="orgc6b4cc1"></a>
 
 ### bruce gray's promised anti-Haskell spiel
 
 
-<a id="org0cd1e34"></a>
+<a id="org358549d"></a>
 
 ### A lot of stackoverflow traffic recently
 
@@ -60,7 +60,7 @@
     2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep12/quoting_lists_of_words.pl6>
 
 
-<a id="orgcf385e7"></a>
+<a id="org32913be"></a>
 
 ### bruce gray rosettacode posts:
 
@@ -71,38 +71,40 @@
 3.  <http://rosettacode.org/wiki/Sum_of_primes_in_odd_positions_is_prime#Raku>
 
 
-<a id="org78d5209"></a>
+<a id="org93b3583"></a>
 
-### <https://modules.raku.org/dist/Game::Sudoku:cpan:SCIMON>
+### raku sudoko solver?
+
+1.  <https://modules.raku.org/dist/Game::Sudoku:cpan:SCIMON>
 
 
-<a id="org48dbf91"></a>
+<a id="org490ebc4"></a>
 
 ## A perl raku online conference coming up in November
 
 
-<a id="org2b4b7be"></a>
+<a id="orge653690"></a>
 
 ### <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 1.  The ephemeral miniconf is a Perl and Raku virtual miniconf that will take place in Zoom the 18 november 2021.
 
 
-<a id="orge586c6d"></a>
+<a id="orgd7f714e"></a>
 
 ## next meeting
 
 
-<a id="org72e65be"></a>
+<a id="org07cfd83"></a>
 
 ### next meeting: Sept 26, 2021
 
 
-<a id="org3d3e070"></a>
+<a id="org6f7e8f8"></a>
 
 ### tentative announcment: comparison case statement vs. multi-dispatch
 
 
-<a id="org6682ef1"></a>
+<a id="org20b852b"></a>
 
 ### one-of-these-days: cro for web stuff
