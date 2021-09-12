@@ -27,7 +27,7 @@ use Data::Dumper;
 my @stuff = 'aa' .. 'dd';
 # Raku
 # say @stuff;   #  [aa ab ac ad ba bb bc bd ca cb cc cd da db dc dd]
-say @stuff;
+say join ' ', @stuff;
 
 @stuff = 'a' .. 'ccc';
 # Raku
