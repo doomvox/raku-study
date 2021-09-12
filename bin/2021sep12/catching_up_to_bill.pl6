@@ -35,8 +35,8 @@ say "---";
 my $t = False;
 
 my $v = $t + 1;
-dd $v;
-
+dd $v; # Int $v = 1
+dd $t;
 
 # ===
 # Author:  doom@kzsu.stanford.edu
