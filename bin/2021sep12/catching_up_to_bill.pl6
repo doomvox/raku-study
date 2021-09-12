@@ -72,3 +72,9 @@ say @stuff;   # [a b c]
 say @stuff.elems;  # 3
 
 # a b c aa ab bb bc cc aaa  aab  abbb ccc 
+
+# bruce gray 
+# raku -e 'say "⚀".succ' Output: ⚁ 
+
+
+say "⚀".succ;  # 
