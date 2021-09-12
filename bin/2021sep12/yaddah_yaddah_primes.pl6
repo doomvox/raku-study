@@ -2,6 +2,8 @@
 # 
 # yaddah_yaddah_primes.pl6            12 Sep 2021 
 
+# http://rosettacode.org/wiki/Sum_of_primes_in_odd_positions_is_prime#Raku
+
 use v6;
 
 my $range = 10000000;
