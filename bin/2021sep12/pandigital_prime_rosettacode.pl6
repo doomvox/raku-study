@@ -4,6 +4,8 @@
 
 use v6;
 
+# http://rosettacode.org/wiki/Pandigital_prime#Raku
+
 # Bruce Gray solution:
 say max (1..7).map: -> $size {
     |(1..$size).permutations».join.grep(&is-prime);
