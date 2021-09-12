@@ -21,7 +21,7 @@ say $var.Int + 1;
 say ($var.Int + 1).Bool;
 # True
 
-say ++$var.Int;
+# say ++$var.Int;
 
 # Cannot resolve caller prefix:<++>(Int:D); the following candidates
 # match the type but require mutable arguments:
@@ -36,6 +36,12 @@ say ++$var.Int;
 #     (int $a is rw --> int)
 #     (num $a is rw --> num)
 #   in block <unit> at <unknown file> line 1
+
+
+
+
+
+
 
 
 
