@@ -16,7 +16,6 @@ for @items -> $item {
     } else {
         say "falsies!";
     }
-
 }
 
 # item: |True|
