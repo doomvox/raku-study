@@ -29,6 +29,17 @@ my @monsters5 = qw (godzilla mothera ghidora gammera golem rhodan );
 dd @monsters5;
 # Array @monsters5 = ["godzilla", "mothera", "ghidora", "gammera", "golem", "rhodan"]
 
-my @monsters6 = qw(godzilla mothera ghidora gammera golem rhodan );
-dd @monsters6;
+# my @monsters6 = qw(godzilla mothera ghidora gammera golem rhodan );
+# dd @monsters6;
+# # Undeclared routines:
+#     gammera used at line 32
+#     ..
 
+
+if( $flag ) {
+     ...
+    }
+
+i f( $flag ) {
+     ...
+    }
