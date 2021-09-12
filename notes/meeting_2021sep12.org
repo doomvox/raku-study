@@ -5,6 +5,8 @@
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep12
 ** miscellanious miscellany 
+*** booleans in perl and raku
+
 *** bruce gray's promised anti-Haskell spiel
 **** roughly (I paraphrase)
 converts two argument function calls into a single arg function call
