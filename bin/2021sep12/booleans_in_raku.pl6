@@ -35,10 +35,10 @@ for @items -> $item {
 # truthy!
 
 
+say "---";
 my $str = "0";
-
 my $result = $str + 1;
-say $result;
+say $result;  #  1
 
 
 
