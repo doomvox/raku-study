@@ -1,28 +1,28 @@
-- [meeting notes September 12, 2021](#org81b47ce)
-  - [the usual links:](#org8da772d)
-    - [meeting notes](#orgce38858)
-    - [code examples:](#org616a6a1)
+- [meeting notes September 12, 2021](#org1b5ca25)
+  - [the usual links:](#org279dfe2)
+    - [meeting notes](#orga662ffb)
+    - [code examples:](#orgfef8a9e)
 
 
-<a id="org81b47ce"></a>
+<a id="org1b5ca25"></a>
 
 # meeting notes September 12, 2021
 
 
-<a id="org8da772d"></a>
+<a id="org279dfe2"></a>
 
 ## the usual links:
 
 
-<a id="orgce38858"></a>
+<a id="orga662ffb"></a>
 
 ### meeting notes
 
-1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug29.md>
+1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep12.md>
 
 
-<a id="org616a6a1"></a>
+<a id="orgfef8a9e"></a>
 
 ### code examples:
 
-1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021aug29>
+1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep12>

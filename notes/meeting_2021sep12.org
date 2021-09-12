@@ -2,6 +2,6 @@
 
 ** the usual links:
 *** meeting notes
-**** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021aug29.md
+**** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep12.md
 *** code examples:
-**** https://github.com/doomvox/raku-study/tree/main/bin/2021aug29
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021sep12
