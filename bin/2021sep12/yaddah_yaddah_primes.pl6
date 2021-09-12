@@ -4,7 +4,7 @@
 
 use v6;
 
-my @odd  = grep { ++$ !%% 2 }, grep &is-prime, 2 ..^ 10000;
+my @odd  = grep { ++$ !%% 2 }, grep &is-prime, 2 ..^ 100000;
 
 my @sums = [\+] @odd;
 say @sums;
