@@ -35,11 +35,16 @@ for @items -> $item {
 # truthy!
 
 
+my $str = "0";
 
-# ====
-#  sheet of cheats
+my $result = $str + 1;
+say $result;
+
+
+
 
 
 # ===
 # Author:  doom@kzsu.stanford.edu
+
 
