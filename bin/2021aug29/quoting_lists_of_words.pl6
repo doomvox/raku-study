@@ -4,7 +4,6 @@
 
 use v6;
 
-
 my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
 dd @monsters;
 # Array @monsters = ["godzilla", "mothera", "ghidora", "gammera", "golem", "rhodan"]
