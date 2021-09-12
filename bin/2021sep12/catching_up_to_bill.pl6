@@ -24,7 +24,6 @@ say $var + 1;  # 2
 
 $var--;
 say $var; # 0
-
 say $var.Bool; # False
 
 
