@@ -77,4 +77,7 @@ say @stuff.elems;  # 3
 # raku -e 'say "⚀".succ' Output: ⚁ 
 
 
-say "⚀".succ;  # 
+say "⚀".succ;  # ⚁
+
+my $sum = "⚁" + "⚀";
+say $sum;
