@@ -49,7 +49,7 @@ errors I worry about."
 **** we could check whether strong typing helps
 ***** e.g. conduct experiments where teams of programmers compete
 ***** but computer "scientists" don't do experiments
-****** not if it means consulting with a social scientists
+****** not if it means consulting with social scientists
 ***** unverified claims about human cognitive abilities abound
 
 *** using multi-dispatch for "dualmap"
