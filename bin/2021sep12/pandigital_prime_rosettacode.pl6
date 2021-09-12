@@ -17,7 +17,8 @@ say max (1..7).map( -> $size {
                     );      # 7652413
 
 say max (1..7).map( {
-                    (1..$_).permutations».join.grep(&is-prime);
+                    my $size = $_;
+                    (1..$size).permutations».join.grep(&is-prime);
                     }
                   ).flat;   # 7652413
 
