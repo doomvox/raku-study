@@ -8,6 +8,7 @@ use v6;
 my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
 
 # wrongo
-my @monsters = Q( godzilla mothera ghidora gammera golem rhodan );
+my @monsters2 = Q( godzilla mothera ghidora gammera golem rhodan );
 
-my @monsters = qw [ godzilla mothera ghidora gammera golem rhodan ];
+my @monsters3 = qw[ godzilla mothera ghidora gammera golem rhodan ];
+
