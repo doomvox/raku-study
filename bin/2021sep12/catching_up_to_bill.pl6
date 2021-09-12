@@ -19,6 +19,9 @@ say $var;
 
 say "---";
 
+say $var.Int;
+say $var + 1;
+
 
 
 # ===
