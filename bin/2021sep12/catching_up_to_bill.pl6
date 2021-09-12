@@ -65,6 +65,5 @@ say $t;       # False
 my @stuff = 'aa' .. 'dd';
 say @stuff;   #  [aa ab ac ad ba bb bc bd ca cb cc cd da db dc dd]
 
-
 @stuff = 'a' .. 'ccc';
-say @stuff;
+say @stuff;   # [a b c]
