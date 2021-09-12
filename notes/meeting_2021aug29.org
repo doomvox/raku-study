@@ -128,7 +128,7 @@ http://blogs.perl.org/users/laurent_r/2021/08/perl-weekly-challenge-127-disjoint
 ** william michaels
 *** answers shell questions with raku
 *** if you approve some of these, you might upvote: 
-**** https://unix.stackexchange.com/a/654444 
+**** https://unix.stackexchange.com/a/654444 s
 **** https://unix.stackexchange.com/a/655217 
 **** https://unix.stackexchange.com/a/655944 
 **** https://unix.stackexchange.com/a/658564 
