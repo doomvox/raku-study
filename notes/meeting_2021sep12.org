@@ -6,10 +6,10 @@
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep12
 ** miscellanious miscellany 
 *** booleans in perl and raku
-/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep12/booleans_in_perl5.pl
-/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep12/booleans_in_raku.pl6
-/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep12/william_michels_raku_booleans.pl6
-/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep12/catching_up_to_bill.pl6
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021sep12/booleans_in_perl5.pl
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021sep12/booleans_in_raku.pl6
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021sep12/william_michels_raku_booleans.pl6
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021sep12/catching_up_to_bill.pl6
 
 *** bruce gray's promised anti-Haskell spiel
 **** roughly (I paraphrase)
