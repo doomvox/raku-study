@@ -23,7 +23,11 @@ say $var.Int;  # 1
 say $var + 1;  # 2
 
 $var--;
-say $var; # 0
+say $var;      # False
+
+my $i = $var;
+say $i;
+
 say $var.Bool; # False
 
 
