@@ -79,7 +79,10 @@ say @stuff.elems;  # 3
 
 say "⚀".succ;  # ⚁
 
-my $sum = "⚁" + "⚀";
-say $sum;
+# my $sum = "⚁" + "⚀";
+# say $sum;
 # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏⚁' (indicated by ⏏)
 #   in block <unit> at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep12/catching_up_to_bill.pl6 line 82
+
+my $sum = "⚁".Int + "⚀".Int;
+say $sum;
