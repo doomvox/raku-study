@@ -4,7 +4,9 @@
 
 use v6;
 
-my @odd  = grep { ++$ !%% 2 }, grep &is-prime, 2 ..^ 10000000;
+my $range = 1000;
+say "range: $range";
+my @odd  = grep { ++$ !%% 2 }, grep &is-prime, 2 ..^ $range;
 
 my @sums = [\+] @odd;
 say @sums.elems;
