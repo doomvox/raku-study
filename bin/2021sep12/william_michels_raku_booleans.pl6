@@ -7,21 +7,21 @@ use v6;
 my $var = False;
 say $var;
 # False
-say ++$var
+say ++$var;
 # True
 
 
-say --$var
+say --$var;
 # False
 
-say $var.Int
+say $var.Int;
 # 0
-say $var.Int + 1
+say $var.Int + 1;
 # 1
-say ($var.Int + 1).Bool
+say ($var.Int + 1).Bool;
 # True
 
-say ++$var.Int
+say ++$var.Int;
 
 # Cannot resolve caller prefix:<++>(Int:D); the following candidates
 # match the type but require mutable arguments:
