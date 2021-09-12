@@ -7,7 +7,11 @@ use v6;
 
 my $flag = True;
 
-
+if ($flag) {
+    say "truthy!";
+} else {
+    say "falsies!";
+}
 
 
 
