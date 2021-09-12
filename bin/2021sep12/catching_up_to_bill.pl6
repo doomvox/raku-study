@@ -19,8 +19,8 @@ say $var;
 
 say "---";
 
-say $var.Int;
-say $var + 1;
+say $var.Int;  # 1
+say $var + 1;  # 2
 
 
 
