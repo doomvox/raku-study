@@ -1,46 +1,52 @@
-- [meeting notes September 16, 2021](#orga07fe8f)
-  - [the usual links:](#org85fe8b9)
-    - [meeting notes](#orge29bdaa)
-    - [code examples:](#orgb23293d)
-  - [battle plan](#orga0f4f0e)
-    - [bin pre-loaded with small ammo](#orgd764ff6)
-    - [nano-lightning talk: on case vs multi-dispatch](#orgf6b6ab9)
+- [meeting notes September 16, 2021](#org98911ce)
+  - [the usual links:](#org229c414)
+    - [meeting notes](#org862756f)
+    - [code examples:](#org2ac07c1)
+  - [battle plan](#org87c70f0)
+    - [bin pre-loaded with small ammo](#orge73f718)
+    - [nano-lightning talk: case vs multi-dispatch](#org1799244)
+    - [](#org9277935)
 
 
-<a id="orga07fe8f"></a>
+<a id="org98911ce"></a>
 
 # meeting notes September 16, 2021
 
 
-<a id="org85fe8b9"></a>
+<a id="org229c414"></a>
 
 ## the usual links:
 
 
-<a id="orge29bdaa"></a>
+<a id="org862756f"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="orgb23293d"></a>
+<a id="org2ac07c1"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="orga0f4f0e"></a>
+<a id="org87c70f0"></a>
 
 ## battle plan
 
 
-<a id="orgd764ff6"></a>
+<a id="orge73f718"></a>
 
 ### bin pre-loaded with small ammo
 
 
-<a id="orgf6b6ab9"></a>
+<a id="org1799244"></a>
 
-### nano-lightning talk: on case vs multi-dispatch
+### nano-lightning talk: case vs multi-dispatch
+
+
+<a id="org9277935"></a>
+
+###

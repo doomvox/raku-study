@@ -6,4 +6,5 @@
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26
 ** battle plan
 *** bin pre-loaded with small ammo
-*** nano-lightning talk: on case vs multi-dispatch
+*** nano-lightning talk: case vs multi-dispatch
+*** 
