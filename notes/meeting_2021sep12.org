@@ -19,7 +19,10 @@ special purpose function call with one arg hardcoded.
 
 *** A lot of stackoverflow traffic recently
 **** https://stackoverflow.com/questions/68987098/raku-array-will-not-sort 
-***** really a quoting issue, getting a list of quoted words doesn't work with "Q()"
+
+***** really a quoting issue
+****** getting a list of quoted words doesn't work with "Q()"
+
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021sep12/quoting_lists_of_words.pl6
 
 *** bruce gray rosettacode posts:
