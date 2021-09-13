@@ -13,8 +13,9 @@
 
 *** bruce gray's promised anti-Haskell spiel
 **** roughly (I paraphrase)
-converts two argument function calls into a single arg function call
-with a special purpose function with one arg hardcoded (wtf?)
+the way haskell works is that it converts a two argument function
+call plus(3, 4) into a single arg function call: plus3(4).  A
+special purpose function call with one arg hardcoded.
 
 *** A lot of stackoverflow traffic recently
 **** https://stackoverflow.com/questions/68987098/raku-array-will-not-sort 
