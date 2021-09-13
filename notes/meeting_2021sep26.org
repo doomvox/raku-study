@@ -12,3 +12,7 @@
 **** perl6-users
 **** Raku weekly
 **** rosettacode
+*** the ephemeral miniconf: nov 18 2021
+**** how's it shaping up?
+** next meeting
+*** next meeting: Oct 10, 2021
