@@ -4,3 +4,6 @@
 **** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26
+** battle plan
+*** bin pre-loaded with small ammo
+*** nano-lightning talk: on case vs multi-dispatch
