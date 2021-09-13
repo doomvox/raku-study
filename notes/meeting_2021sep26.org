@@ -11,3 +11,4 @@
 **** stackoverflow
 **** perl6-users
 **** Raku weekly
+**** rosettacode
