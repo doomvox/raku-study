@@ -6,8 +6,11 @@
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26
 ** battle plan
 *** bin pre-loaded with small ammo
-*** nano-lightning talk: case vs multi-dispatch
+*** nano-lightning talk: given-when vs multi-dispatch
+**** 01-the_given_when_case.raku
+**** 02-the_multi_dispatch_case.raku
 *** side issue: lta messages like "Invalid THAT. Did you mean THAT"
+
 *** once around the net
 **** stackoverflow
 **** perl6-users
