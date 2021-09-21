@@ -1,56 +1,62 @@
-- [meeting notes September 16, 2021](#orga903a27)
-  - [the usual links:](#org37b6f1d)
-    - [meeting notes](#orgf6dfe33)
-    - [code examples:](#orgbd08bf5)
-  - [battle plan](#org39be16d)
-    - [bin pre-loaded with small ammo](#org120443e)
-    - [nano-lightning talk: case vs multi-dispatch](#orgf6a40b7)
-    - [once around the net](#orgdff3b02)
-    - [the ephemeral miniconf: nov 18 2021](#org414518d)
-  - [next meeting](#org5ca7f4a)
-    - [next meeting: Oct 10, 2021](#orgfc2cc6e)
+- [meeting notes September 16, 2021](#org803029c)
+  - [the usual links:](#orgf5be811)
+    - [meeting notes](#orga99414c)
+    - [code examples:](#orgb80daf1)
+  - [battle plan](#orgb53b297)
+    - [bin pre-loaded with small ammo](#org95e4d73)
+    - [nano-lightning talk: case vs multi-dispatch](#org6a9bf25)
+    - [side issue: lta messages like "Invalid THAT. Did you mean THAT"](#orgbc50cfa)
+    - [once around the net](#orgf4ed603)
+    - [the ephemeral miniconf: nov 18 2021](#orgf52d476)
+  - [next meeting](#org44bafe3)
+    - [next meeting: Oct 10, 2021](#orga375f68)
 
 
-<a id="orga903a27"></a>
+<a id="org803029c"></a>
 
 # meeting notes September 16, 2021
 
 
-<a id="org37b6f1d"></a>
+<a id="orgf5be811"></a>
 
 ## the usual links:
 
 
-<a id="orgf6dfe33"></a>
+<a id="orga99414c"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="orgbd08bf5"></a>
+<a id="orgb80daf1"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="org39be16d"></a>
+<a id="orgb53b297"></a>
 
 ## battle plan
 
 
-<a id="org120443e"></a>
+<a id="org95e4d73"></a>
 
 ### bin pre-loaded with small ammo
 
 
-<a id="orgf6a40b7"></a>
+<a id="org6a9bf25"></a>
 
 ### nano-lightning talk: case vs multi-dispatch
 
 
-<a id="orgdff3b02"></a>
+<a id="orgbc50cfa"></a>
+
+### side issue: lta messages like "Invalid THAT. Did you mean THAT"
+
+
+<a id="orgf4ed603"></a>
 
 ### once around the net
 
@@ -63,18 +69,18 @@
 4.  rosettacode
 
 
-<a id="org414518d"></a>
+<a id="orgf52d476"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  how's it shaping up?
 
 
-<a id="org5ca7f4a"></a>
+<a id="org44bafe3"></a>
 
 ## next meeting
 
 
-<a id="orgfc2cc6e"></a>
+<a id="orga375f68"></a>
 
 ### next meeting: Oct 10, 2021

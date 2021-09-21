@@ -7,6 +7,7 @@
 ** battle plan
 *** bin pre-loaded with small ammo
 *** nano-lightning talk: case vs multi-dispatch
+*** side issue: lta messages like "Invalid THAT. Did you mean THAT"
 *** once around the net
 **** stackoverflow
 **** perl6-users
