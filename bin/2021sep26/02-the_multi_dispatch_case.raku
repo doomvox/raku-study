@@ -27,8 +27,8 @@ multi sub whats_my_type (Str $item) {
         return "This is a Str";
 }
 
-multi sub whats_my_type ('wuhn' ) {
-        return "This wuhn does *not* fire"; # Why doesn't it?
+multi sub whats_my_type ('whun' ) {
+        return "This whun does *not* fire"; # Why doesn't it?
 }
 
 multi sub whats_my_type ($item) {  # Behaves like the "default" for given/when.
@@ -62,23 +62,23 @@ multi sub whats_my_type ($item) {  # Behaves like the "default" for given/when.
 ## Try:
 ##   /home/doom/End/Cave/Perl6/bin/A2-the_multi_dispatch_case-invalid_typename.raku
 
-# subset Whun of Str where { $_ eq 'wuhn' };
-# multi sub whats_my_type (Wuhn $item) {
+# subset Whun of Str where { $_ eq 'whun' };
+# multi sub whats_my_type (Whun $item) {
 
 # ===SORRY!=== Error while compiling /home/doom/End/Cave/Perl6/bin/02-the_multi_dispatch_case.raku
-# Invalid typename 'Wuhn' in parameter declaration.  Did you mean 'Whun'?
+# Invalid typename 'Whun' in parameter declaration.  Did you mean 'Whun'?
 # at /home/doom/End/Cave/Perl6/bin/02-the_multi_dispatch_case.raku:31
 
 ## (2) didn't remember how to select on a fixed value, tried stuff like this.
 ##     what is this 'constraint' and why doesn't it help?
 
-# multi sub whats_my_type (Str $item constraint $_ eq 'wuhn') {
-#         return "This wuhn *does* fire"; # right?
+# multi sub whats_my_type (Str $item constraint $_ eq 'whun') {
+#         return "This whun *does* fire"; # right?
 # }
 # ===SORRY!=== Error while compiling /home/doom/End/Cave/Perl6/bin/02-the_multi_dispatch_case.raku
 # Malformed parameter
 # at /home/doom/End/Cave/Perl6/bin/02-the_multi_dispatch_case.raku:32
-# ------> multi sub whats_my_type (Str $item⏏ constraint * eq 'wuhn') {
+# ------> multi sub whats_my_type (Str $item⏏ constraint * eq 'whun') {
 #     expecting any of:
 #         constraint
 
