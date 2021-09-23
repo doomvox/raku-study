@@ -51,15 +51,6 @@ multi sub whats_my_type ($item) {  # Behaves like the "default" for given/when.
 
 ## Similar behavior to the given/when version, but not identical
 
-
-
-##===
-## NOTES
-
-
-
-
-
 # ===
 # Author:  doom@kzsu.stanford.edu
 
