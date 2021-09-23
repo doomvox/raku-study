@@ -15,6 +15,10 @@
 ***** TODO benchmark: add a repetition argument, run with "time" 
 ***** TODO write an example using overlapping subsets, need 'is default' to break tie
 ****** point: "default" means something different in the two approaches
+*** data-handling in raku
+**** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527
+***** Bill Michels objects to the word "Row" for a data-record in my solution
+
 *** once around the net
 **** stackoverflow
 **** perl6-users

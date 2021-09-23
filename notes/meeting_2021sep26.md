@@ -1,51 +1,52 @@
-- [meeting notes September 16, 2021](#orgebf0124)
-  - [the usual links:](#org3522350)
-    - [meeting notes](#orgdb65ee8)
-    - [code examples:](#orgcbedd6d)
-  - [battle plan](#orgd4edf54)
-    - [bin pre-loaded with small ammo](#orge9120a6)
-    - [nano-lightning talk: given-when vs multi-dispatch](#org052e055)
-    - [once around the net](#orgbb5c761)
-    - [the ephemeral miniconf: nov 18 2021](#org853fcf4)
-  - [next meeting](#orgfda2bf2)
-    - [next meeting: Oct 10, 2021](#org2b4992c)
+- [meeting notes September 16, 2021](#org3ec26c8)
+  - [the usual links:](#org35c2257)
+    - [meeting notes](#org276071b)
+    - [code examples:](#org4dddde6)
+  - [battle plan](#org4343533)
+    - [bin pre-loaded with small ammo](#org6e4123f)
+    - [nano-lightning talk: given-when vs multi-dispatch](#orge5ef43d)
+    - [data-handling in raku](#org6c1817d)
+    - [once around the net](#org5fd6a74)
+    - [the ephemeral miniconf: nov 18 2021](#org98a63b3)
+  - [next meeting](#orgfc1c726)
+    - [next meeting: Oct 10, 2021](#org518d947)
 
 
-<a id="orgebf0124"></a>
+<a id="org3ec26c8"></a>
 
 # meeting notes September 16, 2021
 
 
-<a id="org3522350"></a>
+<a id="org35c2257"></a>
 
 ## the usual links:
 
 
-<a id="orgdb65ee8"></a>
+<a id="org276071b"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="orgcbedd6d"></a>
+<a id="org4dddde6"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="orgd4edf54"></a>
+<a id="org4343533"></a>
 
 ## battle plan
 
 
-<a id="orge9120a6"></a>
+<a id="org6e4123f"></a>
 
 ### bin pre-loaded with small ammo
 
 
-<a id="org052e055"></a>
+<a id="orge5ef43d"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -66,7 +67,16 @@
         1.  point: "default" means something different in the two approaches
 
 
-<a id="orgbb5c761"></a>
+<a id="org6c1817d"></a>
+
+### data-handling in raku
+
+1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527>
+
+    1.  Bill Michels objects to the word "Row" for a data-record in my solution
+
+
+<a id="org5fd6a74"></a>
 
 ### once around the net
 
@@ -79,18 +89,18 @@
 4.  rosettacode
 
 
-<a id="org853fcf4"></a>
+<a id="org98a63b3"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  how's it shaping up?
 
 
-<a id="orgfda2bf2"></a>
+<a id="orgfc1c726"></a>
 
 ## next meeting
 
 
-<a id="org2b4992c"></a>
+<a id="org518d947"></a>
 
 ### next meeting: Oct 10, 2021
