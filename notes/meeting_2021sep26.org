@@ -9,7 +9,7 @@
 *** nano-lightning talk: given-when vs multi-dispatch
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/01-the_given_when_case.raku
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/02-the_multi_dispatch_case.raku
-*** side issue: lta messages like "Invalid THAT. Did you mean THAT"
+
 
 *** once around the net
 **** stackoverflow
