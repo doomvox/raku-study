@@ -28,7 +28,7 @@ multi sub whats_my_type (Str $item) {
 }
 
 multi sub whats_my_type ('whun' ) {
-        return "This whun does *not* fire"; # Why doesn't it?
+        return "Detected special value 'whun'"; 
 }
 
 multi sub whats_my_type ($item) {  # Behaves like the "default" for given/when.
