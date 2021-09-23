@@ -18,6 +18,9 @@
 *** data-handling in raku
 **** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527
 ***** Bill Michels objects to the word "Row" for a data-record in my solution
+*** lispyness of raku
+**** https://www.codesections.com/blog/raku-lisp-impression/
+**** https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/
 
 *** once around the net
 **** stackoverflow

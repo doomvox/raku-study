@@ -1,52 +1,53 @@
-- [meeting notes September 16, 2021](#org3ec26c8)
-  - [the usual links:](#org35c2257)
-    - [meeting notes](#org276071b)
-    - [code examples:](#org4dddde6)
-  - [battle plan](#org4343533)
-    - [bin pre-loaded with small ammo](#org6e4123f)
-    - [nano-lightning talk: given-when vs multi-dispatch](#orge5ef43d)
-    - [data-handling in raku](#org6c1817d)
-    - [once around the net](#org5fd6a74)
-    - [the ephemeral miniconf: nov 18 2021](#org98a63b3)
-  - [next meeting](#orgfc1c726)
-    - [next meeting: Oct 10, 2021](#org518d947)
+- [meeting notes September 16, 2021](#org756da7f)
+  - [the usual links:](#org2916d69)
+    - [meeting notes](#orgc6b488f)
+    - [code examples:](#org72ab437)
+  - [battle plan](#org3f833e0)
+    - [bin pre-loaded with small ammo](#org5790fa3)
+    - [nano-lightning talk: given-when vs multi-dispatch](#org09cc4ef)
+    - [data-handling in raku](#orga11a1fb)
+    - [lispyness of raku](#org4bb031e)
+    - [once around the net](#org557d647)
+    - [the ephemeral miniconf: nov 18 2021](#org7a61a09)
+  - [next meeting](#org921b24f)
+    - [next meeting: Oct 10, 2021](#org287486b)
 
 
-<a id="org3ec26c8"></a>
+<a id="org756da7f"></a>
 
 # meeting notes September 16, 2021
 
 
-<a id="org35c2257"></a>
+<a id="org2916d69"></a>
 
 ## the usual links:
 
 
-<a id="org276071b"></a>
+<a id="orgc6b488f"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="org4dddde6"></a>
+<a id="org72ab437"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="org4343533"></a>
+<a id="org3f833e0"></a>
 
 ## battle plan
 
 
-<a id="org6e4123f"></a>
+<a id="org5790fa3"></a>
 
 ### bin pre-loaded with small ammo
 
 
-<a id="orge5ef43d"></a>
+<a id="org09cc4ef"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -67,7 +68,7 @@
         1.  point: "default" means something different in the two approaches
 
 
-<a id="org6c1817d"></a>
+<a id="orga11a1fb"></a>
 
 ### data-handling in raku
 
@@ -76,7 +77,16 @@
     1.  Bill Michels objects to the word "Row" for a data-record in my solution
 
 
-<a id="org5fd6a74"></a>
+<a id="org4bb031e"></a>
+
+### lispyness of raku
+
+1.  <https://www.codesections.com/blog/raku-lisp-impression/>
+
+2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
+
+
+<a id="org557d647"></a>
 
 ### once around the net
 
@@ -89,18 +99,18 @@
 4.  rosettacode
 
 
-<a id="org98a63b3"></a>
+<a id="org7a61a09"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  how's it shaping up?
 
 
-<a id="orgfc1c726"></a>
+<a id="org921b24f"></a>
 
 ## next meeting
 
 
-<a id="org518d947"></a>
+<a id="org287486b"></a>
 
 ### next meeting: Oct 10, 2021
