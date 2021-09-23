@@ -20,7 +20,7 @@ sub whats_my_type ($item) {
         when Numeric {  "This is a Numeric (but not an Int or a Rat)" } 
 #       when 'whun'  {  "Count 'whun!' "                              } # this whun *can* fire if uncommented
         when Str     {  "This is a Str"                               }
-        when 'whun'  {  "This whun never fires"                       }
+        when 'whun'  {  "This whun never fires"                       } # this is intercepted by the Str case
         default      {  "Huh?  I guess this is a: " ~ .^name          }
     }
     return $ret;
