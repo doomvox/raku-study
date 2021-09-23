@@ -18,9 +18,9 @@ sub whats_my_type ($item) {
         when Int     {  "This is an Int"                              }
         when Rat     {  "Caught a Rat"                                } 
         when Numeric {  "This is a Numeric (but not an Int or a Rat)" } 
-#       when 'whun'  {  "Count 'wuhn!' "                              } # this wuhn *can* fire if uncommented
+#       when 'whun'  {  "Count 'whun!' "                              } # this whun *can* fire if uncommented
         when Str     {  "This is a Str"                               }
-        when 'whun'  {  "This wuhn never fires"                       }
+        when 'whun'  {  "This whun never fires"                       }
         default      {  "Huh?  I guess this is a: " ~ .^name          }
     }
     return $ret;
