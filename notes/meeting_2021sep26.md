@@ -1,51 +1,51 @@
-- [meeting notes September 16, 2021](#orga90c353)
-  - [the usual links:](#orgf6da8c8)
-    - [meeting notes](#org51b71ed)
-    - [code examples:](#org815b779)
-  - [battle plan](#orge0e424d)
-    - [bin pre-loaded with small ammo](#orge0fb7ac)
-    - [nano-lightning talk: given-when vs multi-dispatch](#org12698cf)
-    - [once around the net](#org795f4e1)
-    - [the ephemeral miniconf: nov 18 2021](#orgd7aaf18)
-  - [next meeting](#org86aa6b3)
-    - [next meeting: Oct 10, 2021](#org48bb51a)
+- [meeting notes September 16, 2021](#orgb0047f8)
+  - [the usual links:](#org4b49b7d)
+    - [meeting notes](#org50d039f)
+    - [code examples:](#orgfb69827)
+  - [battle plan](#org1c53f47)
+    - [bin pre-loaded with small ammo](#org4efd547)
+    - [nano-lightning talk: given-when vs multi-dispatch](#orgcafb859)
+    - [once around the net](#org80f4355)
+    - [the ephemeral miniconf: nov 18 2021](#orge4ca4fc)
+  - [next meeting](#orgfbb3977)
+    - [next meeting: Oct 10, 2021](#orgaba426b)
 
 
-<a id="orga90c353"></a>
+<a id="orgb0047f8"></a>
 
 # meeting notes September 16, 2021
 
 
-<a id="orgf6da8c8"></a>
+<a id="org4b49b7d"></a>
 
 ## the usual links:
 
 
-<a id="org51b71ed"></a>
+<a id="org50d039f"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="org815b779"></a>
+<a id="orgfb69827"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="orge0e424d"></a>
+<a id="org1c53f47"></a>
 
 ## battle plan
 
 
-<a id="orge0fb7ac"></a>
+<a id="org4efd547"></a>
 
 ### bin pre-loaded with small ammo
 
 
-<a id="org12698cf"></a>
+<a id="orgcafb859"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -54,7 +54,7 @@
 2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/02-the_multi_dispatch_case.raku>
 
 
-<a id="org795f4e1"></a>
+<a id="org80f4355"></a>
 
 ### once around the net
 
@@ -67,18 +67,18 @@
 4.  rosettacode
 
 
-<a id="orgd7aaf18"></a>
+<a id="orge4ca4fc"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  how's it shaping up?
 
 
-<a id="org86aa6b3"></a>
+<a id="orgfbb3977"></a>
 
 ## next meeting
 
 
-<a id="org48bb51a"></a>
+<a id="orgaba426b"></a>
 
 ### next meeting: Oct 10, 2021
