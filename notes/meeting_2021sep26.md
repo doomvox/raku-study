@@ -1,51 +1,51 @@
-- [meeting notes September 16, 2021](#orgb0047f8)
-  - [the usual links:](#org4b49b7d)
-    - [meeting notes](#org50d039f)
-    - [code examples:](#orgfb69827)
-  - [battle plan](#org1c53f47)
-    - [bin pre-loaded with small ammo](#org4efd547)
-    - [nano-lightning talk: given-when vs multi-dispatch](#orgcafb859)
-    - [once around the net](#org80f4355)
-    - [the ephemeral miniconf: nov 18 2021](#orge4ca4fc)
-  - [next meeting](#orgfbb3977)
-    - [next meeting: Oct 10, 2021](#orgaba426b)
+- [meeting notes September 16, 2021](#orgc509ae6)
+  - [the usual links:](#org1d2f608)
+    - [meeting notes](#orgd4c4aff)
+    - [code examples:](#org16acb0c)
+  - [battle plan](#orga5c6009)
+    - [bin pre-loaded with small ammo](#org46162c0)
+    - [nano-lightning talk: given-when vs multi-dispatch](#orgb642808)
+    - [once around the net](#org54671a1)
+    - [the ephemeral miniconf: nov 18 2021](#org390a7de)
+  - [next meeting](#org5e896e2)
+    - [next meeting: Oct 10, 2021](#orgd9b7020)
 
 
-<a id="orgb0047f8"></a>
+<a id="orgc509ae6"></a>
 
 # meeting notes September 16, 2021
 
 
-<a id="org4b49b7d"></a>
+<a id="org1d2f608"></a>
 
 ## the usual links:
 
 
-<a id="org50d039f"></a>
+<a id="orgd4c4aff"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="orgfb69827"></a>
+<a id="org16acb0c"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="org1c53f47"></a>
+<a id="orga5c6009"></a>
 
 ## battle plan
 
 
-<a id="org4efd547"></a>
+<a id="org46162c0"></a>
 
 ### bin pre-loaded with small ammo
 
 
-<a id="orgcafb859"></a>
+<a id="orgb642808"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -53,8 +53,12 @@
 
 2.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/02-the_multi_dispatch_case.raku>
 
+    1.  TODO benchmark: add a repetition argument, run with "time"
+    
+    2.  TODO write an example using overlapping subsets, need 'is default' to break tie
 
-<a id="org80f4355"></a>
+
+<a id="org54671a1"></a>
 
 ### once around the net
 
@@ -67,18 +71,18 @@
 4.  rosettacode
 
 
-<a id="orge4ca4fc"></a>
+<a id="org390a7de"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  how's it shaping up?
 
 
-<a id="orgfbb3977"></a>
+<a id="org5e896e2"></a>
 
 ## next meeting
 
 
-<a id="orgaba426b"></a>
+<a id="orgd9b7020"></a>
 
 ### next meeting: Oct 10, 2021
