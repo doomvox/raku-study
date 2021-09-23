@@ -36,22 +36,6 @@ multi sub whats_my_type ($item) {  # Behaves like the "default" for given/when.
 }
 
 
-# raku /home/doom/End/Cave/Perl6/bin/02-the_multi_dispatch_case.raku
-# Checking: 666
-# This is an Int
-# Checking: 2.71
-# Caught a Rat
-# Checking: 2.718281828459045
-# This is a Numeric (but not an Int or a Rat)
-# Checking: 01
-# This is a Str
-# Checking: whun
-# This is a Str
-# Checking: c b a
-# Huh?  I guess this is a: Set
-
-
-## Identical behavior to 01-the_given_when_case.raku.
 
 
 ##===
