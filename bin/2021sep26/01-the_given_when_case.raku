@@ -8,7 +8,8 @@ sub MAIN( $interations = 1 ) {
 
     my @items = ( 666, 2.71, 𝑒, "01", "whun", ('a', 'b', 'c').Set );
 
-    for 1 .. $interations {
+    for 1 .. $interations -> $i {
+        say $i;
         for @items -> $item  {
             say "Checking: " ~ $item;
             say whats_my_type( $item );
