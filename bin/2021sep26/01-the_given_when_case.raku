@@ -13,6 +13,9 @@ sub MAIN( $interations = 1 ) {
         say whats_my_type( $item );
     }
 
+
+}
+
     sub whats_my_type ($item) {
         my $ret = 
         do  given $item  {
@@ -27,7 +30,6 @@ sub MAIN( $interations = 1 ) {
         return $ret;
     }    
 
-}
 
 # raku /home/doom/End/Cave/Perl6/bin/01-the_given_when_case.raku
 # Checking: 666
