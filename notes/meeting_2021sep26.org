@@ -12,9 +12,10 @@
 ***** notice: order matters with given-when, with multidispatch it's specificity
 ****** given-when is straight-forward to think about
 ****** multi-dispatch has OOP flexibility
-***** TODO benchmark: add a repetition argument, run with "time" 
-***** TODO write an example using overlapping subsets, need 'is default' to break tie
-****** point: "default" means something different in the two approaches
+****** TODO benchmark: add a repetition argument, run with "time" 
+****** multi with overlapping subsets supposed to need 'is default' to break tie
+******* https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/multi_dispatch_with_overlapping_subset_types.raku
+******* note: "default" means something different in the two approaches
 *** data-handling in raku
 **** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527
 ***** Bill Michels objects to the word "Row" for a data-record in my solution

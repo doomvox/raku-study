@@ -1,55 +1,55 @@
-- [meeting notes September 16, 2021](#orgde8bc26)
-  - [the usual links:](#org74afeaf)
-    - [meeting notes](#orge3fc582)
-    - [code examples:](#org04e9d77)
-  - [battle plan](#orgeda3bf0)
-    - [bin pre-loaded with small ammo](#org2b282b7)
-    - [nano-lightning talk: given-when vs multi-dispatch](#org6ecfb12)
-    - [data-handling in raku](#orgacd870f)
-    - [lispyness of raku](#orgee8ef89)
-    - [pairs of separators from a string](#orgcdf0da7)
-    - [bioinformatics on rosettacode](#orga1cfa42)
-    - [once around the net](#orged22bce)
-    - [the ephemeral miniconf: nov 18 2021](#org350b474)
-  - [next meeting](#orga9937d7)
-    - [next meeting: Oct 10, 2021](#org5da54de)
+- [meeting notes September 16, 2021](#org09da866)
+  - [the usual links:](#org2ec2dca)
+    - [meeting notes](#orgaf3c8c3)
+    - [code examples:](#orgb93f8a8)
+  - [battle plan](#org019b2bf)
+    - [bin pre-loaded with small ammo](#org138f6ce)
+    - [nano-lightning talk: given-when vs multi-dispatch](#org0743ea8)
+    - [data-handling in raku](#orgb3133ee)
+    - [lispyness of raku](#org4c1a4c1)
+    - [pairs of separators from a string](#orgb4205c2)
+    - [bioinformatics on rosettacode](#orgafe93bd)
+    - [once around the net](#org6ad39e7)
+    - [the ephemeral miniconf: nov 18 2021](#org9f03d46)
+  - [next meeting](#orgba8c611)
+    - [next meeting: Oct 10, 2021](#orge8ef02e)
 
 
-<a id="orgde8bc26"></a>
+<a id="org09da866"></a>
 
 # meeting notes September 16, 2021
 
 
-<a id="org74afeaf"></a>
+<a id="org2ec2dca"></a>
 
 ## the usual links:
 
 
-<a id="orge3fc582"></a>
+<a id="orgaf3c8c3"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="org04e9d77"></a>
+<a id="orgb93f8a8"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="orgeda3bf0"></a>
+<a id="org019b2bf"></a>
 
 ## battle plan
 
 
-<a id="org2b282b7"></a>
+<a id="org138f6ce"></a>
 
 ### bin pre-loaded with small ammo
 
 
-<a id="org6ecfb12"></a>
+<a id="org0743ea8"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -62,15 +62,17 @@
         1.  given-when is straight-forward to think about
         
         2.  multi-dispatch has OOP flexibility
-    
-    2.  TODO benchmark: add a repetition argument, run with "time"
-    
-    3.  TODO write an example using overlapping subsets, need 'is default' to break tie
-    
-        1.  point: "default" means something different in the two approaches
+        
+        3.  TODO benchmark: add a repetition argument, run with "time"
+        
+        4.  multi with overlapping subsets supposed to need 'is default' to break tie
+        
+            1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/multi_dispatch_with_overlapping_subset_types.raku>
+            
+            2.  note: "default" means something different in the two approaches
 
 
-<a id="orgacd870f"></a>
+<a id="orgb3133ee"></a>
 
 ### data-handling in raku
 
@@ -79,7 +81,7 @@
     1.  Bill Michels objects to the word "Row" for a data-record in my solution
 
 
-<a id="orgee8ef89"></a>
+<a id="org4c1a4c1"></a>
 
 ### lispyness of raku
 
@@ -88,21 +90,21 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="orgcdf0da7"></a>
+<a id="orgb4205c2"></a>
 
 ### pairs of separators from a string
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html>
 
 
-<a id="orga1cfa42"></a>
+<a id="orgafe93bd"></a>
 
 ### bioinformatics on rosettacode
 
 1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="orged22bce"></a>
+<a id="org6ad39e7"></a>
 
 ### once around the net
 
@@ -117,18 +119,18 @@
 4.  rosettacode
 
 
-<a id="org350b474"></a>
+<a id="org9f03d46"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="orga9937d7"></a>
+<a id="orgba8c611"></a>
 
 ## next meeting
 
 
-<a id="org5da54de"></a>
+<a id="orge8ef02e"></a>
 
 ### next meeting: Oct 10, 2021
