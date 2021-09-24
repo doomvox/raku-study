@@ -9,11 +9,11 @@ use v6;
 my @monsters = < godzilla mothera ghidora gammera golem wormface >;
 my @heroes   = < beowulf maynard_g_krebs bluebeetle bernie mothera godzilla >;
 
-multi sub speak (List $m) {
-    say "The 3rd element of the List: $h[2]" if $h[2];
+multi sub speak (List $l) {
+    say "The 3rd element of the List: $l[2]" if $h[2];
 }
-multi sub speak (Array $h) {
-    say "The 3rd element of the Array: $h[2]" if $h[2];
+multi sub speak (Array $a) {
+    say "The 3rd element of the Array: $a[2]" if $h[2];
 }
 
 speak( @monsters );
