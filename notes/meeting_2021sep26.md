@@ -1,59 +1,59 @@
-- [meeting notes September 16, 2021](#org16f21e5)
-  - [the usual links:](#orgf69b723)
-    - [meeting notes](#org810276a)
-    - [code examples:](#org2375f97)
-  - [battle plan](#orga24bfeb)
-    - [bin pre-loaded with small ammo](#org0b6e3a8)
-    - [nano-lightning talk: given-when vs multi-dispatch](#orgb060721)
-    - [data-handling in raku](#org7c90a03)
-    - [Data::Reshapers](#org6b25355)
-    - [secure json-ification, vadim belman](#orgb4c6a8d)
-    - [lispyness of raku](#org006699a)
-    - [pairs of separators from a string](#org0943766)
-    - [bioinformatics on rosettacode](#org47c68d1)
-    - [once around the net](#org7357f1e)
-    - [the ephemeral miniconf: nov 18 2021](#orgc125df9)
-  - [next meeting](#org2aedc5f)
-    - [next meeting: Oct 10, 2021](#org7b94799)
+- [meeting notes September 16, 2021](#org6ca2843)
+  - [the usual links:](#orgd5670e7)
+    - [meeting notes](#orga21cde2)
+    - [code examples:](#orgfc2a6eb)
+  - [battle plan](#org6f3ba88)
+    - [bin pre-loaded with small ammo](#org70bc308)
+    - [nano-lightning talk: given-when vs multi-dispatch](#org6f69671)
+    - [data-handling in raku](#org6ccdbac)
+    - [Data::Reshapers](#orga2be9e2)
+    - [secure json-ification, vadim belman](#org8ba6202)
+    - [lispyness of raku](#orga895857)
+    - [pairs of separators from a string](#orgfa1f0dc)
+    - [bioinformatics on rosettacode](#orgb8371dd)
+    - [once around the net](#org4d042a7)
+    - [the ephemeral miniconf: nov 18 2021](#orgc1df923)
+  - [next meeting](#orgaf99e28)
+    - [next meeting: Oct 10, 2021](#org2e6e29c)
 
 
-<a id="org16f21e5"></a>
+<a id="org6ca2843"></a>
 
 # meeting notes September 16, 2021
 
 
-<a id="orgf69b723"></a>
+<a id="orgd5670e7"></a>
 
 ## the usual links:
 
 
-<a id="org810276a"></a>
+<a id="orga21cde2"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="org2375f97"></a>
+<a id="orgfc2a6eb"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="orga24bfeb"></a>
+<a id="org6f3ba88"></a>
 
 ## battle plan
 
 
-<a id="org0b6e3a8"></a>
+<a id="org70bc308"></a>
 
 ### bin pre-loaded with small ammo
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="orgb060721"></a>
+<a id="org6f69671"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -76,7 +76,7 @@
             2.  note: "default" means something different in the two approaches
 
 
-<a id="org7c90a03"></a>
+<a id="org6ccdbac"></a>
 
 ### data-handling in raku
 
@@ -84,15 +84,19 @@
 
     1.  Bill Michels objects to the word "Row" for a data-record in my solution
 
+2.  arrays-of-objects
 
-<a id="org6b25355"></a>
+    1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/>
+
+
+<a id="orga2be9e2"></a>
 
 ### Data::Reshapers
 
 1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
 
 
-<a id="orgb4c6a8d"></a>
+<a id="org8ba6202"></a>
 
 ### secure json-ification, vadim belman
 
@@ -103,7 +107,7 @@
 3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="org006699a"></a>
+<a id="orga895857"></a>
 
 ### lispyness of raku
 
@@ -112,21 +116,21 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="org0943766"></a>
+<a id="orgfa1f0dc"></a>
 
 ### pairs of separators from a string
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html>
 
 
-<a id="org47c68d1"></a>
+<a id="orgb8371dd"></a>
 
 ### bioinformatics on rosettacode
 
 1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org7357f1e"></a>
+<a id="org4d042a7"></a>
 
 ### once around the net
 
@@ -141,18 +145,18 @@
 4.  rosettacode
 
 
-<a id="orgc125df9"></a>
+<a id="orgc1df923"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org2aedc5f"></a>
+<a id="orgaf99e28"></a>
 
 ## next meeting
 
 
-<a id="org7b94799"></a>
+<a id="org2e6e29c"></a>
 
 ### next meeting: Oct 10, 2021
