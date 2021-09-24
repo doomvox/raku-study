@@ -23,6 +23,8 @@
 **** https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/
 *** pairs of separators from a string
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html
+*** bioinformatics on rosettacode 
+http://rosettacode.org/wiki/Bioinformatics/base_count
 
 *** once around the net
 **** stackoverflow

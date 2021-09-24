@@ -1,54 +1,55 @@
-- [meeting notes September 16, 2021](#orga66516b)
-  - [the usual links:](#org95226e5)
-    - [meeting notes](#org6c3a1e6)
-    - [code examples:](#org880f3b2)
-  - [battle plan](#org7554e53)
-    - [bin pre-loaded with small ammo](#org4406bb1)
-    - [nano-lightning talk: given-when vs multi-dispatch](#orga0b46e7)
-    - [data-handling in raku](#org9f36a12)
-    - [lispyness of raku](#orgef3cce3)
-    - [pairs of separators from a string](#org045d51c)
-    - [once around the net](#orgca368d7)
-    - [the ephemeral miniconf: nov 18 2021](#org4ec99ae)
-  - [next meeting](#orgfb67b90)
-    - [next meeting: Oct 10, 2021](#org7b66f90)
+- [meeting notes September 16, 2021](#org9ca50a5)
+  - [the usual links:](#orgc7da8bf)
+    - [meeting notes](#orgea36cc9)
+    - [code examples:](#org03e8872)
+  - [battle plan](#org863b8b1)
+    - [bin pre-loaded with small ammo](#org6115007)
+    - [nano-lightning talk: given-when vs multi-dispatch](#org37301fa)
+    - [data-handling in raku](#org43b39e5)
+    - [lispyness of raku](#org4f94d06)
+    - [pairs of separators from a string](#orgfc6bf5d)
+    - [bioinformatics on rosettacode](#orgcbe6f47)
+    - [once around the net](#org8662bad)
+    - [the ephemeral miniconf: nov 18 2021](#orged66bc7)
+  - [next meeting](#org3b0a850)
+    - [next meeting: Oct 10, 2021](#org96bda45)
 
 
-<a id="orga66516b"></a>
+<a id="org9ca50a5"></a>
 
 # meeting notes September 16, 2021
 
 
-<a id="org95226e5"></a>
+<a id="orgc7da8bf"></a>
 
 ## the usual links:
 
 
-<a id="org6c3a1e6"></a>
+<a id="orgea36cc9"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="org880f3b2"></a>
+<a id="org03e8872"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="org7554e53"></a>
+<a id="org863b8b1"></a>
 
 ## battle plan
 
 
-<a id="org4406bb1"></a>
+<a id="org6115007"></a>
 
 ### bin pre-loaded with small ammo
 
 
-<a id="orga0b46e7"></a>
+<a id="org37301fa"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -69,7 +70,7 @@
         1.  point: "default" means something different in the two approaches
 
 
-<a id="org9f36a12"></a>
+<a id="org43b39e5"></a>
 
 ### data-handling in raku
 
@@ -78,7 +79,7 @@
     1.  Bill Michels objects to the word "Row" for a data-record in my solution
 
 
-<a id="orgef3cce3"></a>
+<a id="org4f94d06"></a>
 
 ### lispyness of raku
 
@@ -87,14 +88,21 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="org045d51c"></a>
+<a id="orgfc6bf5d"></a>
 
 ### pairs of separators from a string
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html>
 
 
-<a id="orgca368d7"></a>
+<a id="orgcbe6f47"></a>
+
+### bioinformatics on rosettacode
+
+<http://rosettacode.org/wiki/Bioinformatics/base_count>
+
+
+<a id="org8662bad"></a>
 
 ### once around the net
 
@@ -107,18 +115,18 @@
 4.  rosettacode
 
 
-<a id="org4ec99ae"></a>
+<a id="orged66bc7"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  how's it shaping up?
 
 
-<a id="orgfb67b90"></a>
+<a id="org3b0a850"></a>
 
 ## next meeting
 
 
-<a id="org7b66f90"></a>
+<a id="org96bda45"></a>
 
 ### next meeting: Oct 10, 2021
