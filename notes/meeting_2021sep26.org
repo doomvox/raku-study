@@ -24,7 +24,7 @@
 *** pairs of separators from a string
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html
 *** bioinformatics on rosettacode 
-http://rosettacode.org/wiki/Bioinformatics/base_count
+**** http://rosettacode.org/wiki/Bioinformatics/base_count
 
 *** once around the net
 **** stackoverflow
@@ -32,6 +32,6 @@ http://rosettacode.org/wiki/Bioinformatics/base_count
 **** Raku weekly
 **** rosettacode
 *** the ephemeral miniconf: nov 18 2021
-**** how's it shaping up?
+**** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
 ** next meeting
 *** next meeting: Oct 10, 2021
