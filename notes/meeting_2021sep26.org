@@ -30,6 +30,7 @@
 **** stackoverflow
 **** perl6-users
 **** Raku weekly
+***** https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/
 **** rosettacode
 *** the ephemeral miniconf: nov 18 2021
 **** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
