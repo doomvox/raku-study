@@ -20,6 +20,8 @@
 *** data-handling in raku
 **** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527
 ***** Bill Michels objects to the word "Row" for a data-record in my solution
+*** Data::Reshapers
+**** https://raku.land/cpan:ANTONOV/Data::Reshapers
 *** secure json-ification, vadim belman
 **** https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100
 **** https://vrurg.github.io/2021/09/14/Secure-JSONification

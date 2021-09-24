@@ -1,58 +1,59 @@
-- [meeting notes September 16, 2021](#org3e7d462)
-  - [the usual links:](#orgdd2c3e6)
-    - [meeting notes](#orga17089a)
-    - [code examples:](#org55dbe89)
-  - [battle plan](#orge1be286)
-    - [bin pre-loaded with small ammo](#orgd6c4389)
-    - [nano-lightning talk: given-when vs multi-dispatch](#org39ab0d0)
-    - [data-handling in raku](#org9d91ea2)
-    - [secure json-ification, vadim belman](#org7ec895e)
-    - [lispyness of raku](#orgff85ec2)
-    - [pairs of separators from a string](#org9bf236a)
-    - [bioinformatics on rosettacode](#org277466a)
-    - [once around the net](#org2731434)
-    - [the ephemeral miniconf: nov 18 2021](#orgf57317a)
-  - [next meeting](#org9a232fc)
-    - [next meeting: Oct 10, 2021](#orgfd08d09)
+- [meeting notes September 16, 2021](#org4f15ddd)
+  - [the usual links:](#org9403c0f)
+    - [meeting notes](#orgd904f9b)
+    - [code examples:](#org8d51511)
+  - [battle plan](#orgd480aca)
+    - [bin pre-loaded with small ammo](#orgaba018b)
+    - [nano-lightning talk: given-when vs multi-dispatch](#org7b80541)
+    - [data-handling in raku](#orga71caa2)
+    - [Data::Reshapers](#org5d1d3f8)
+    - [secure json-ification, vadim belman](#org5858c98)
+    - [lispyness of raku](#org9d1afdf)
+    - [pairs of separators from a string](#org803e671)
+    - [bioinformatics on rosettacode](#orga68387e)
+    - [once around the net](#orgf105aaa)
+    - [the ephemeral miniconf: nov 18 2021](#orgc0b1537)
+  - [next meeting](#org01ebe94)
+    - [next meeting: Oct 10, 2021](#org7a2ba97)
 
 
-<a id="org3e7d462"></a>
+<a id="org4f15ddd"></a>
 
 # meeting notes September 16, 2021
 
 
-<a id="orgdd2c3e6"></a>
+<a id="org9403c0f"></a>
 
 ## the usual links:
 
 
-<a id="orga17089a"></a>
+<a id="orgd904f9b"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="org55dbe89"></a>
+<a id="org8d51511"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="orge1be286"></a>
+<a id="orgd480aca"></a>
 
 ## battle plan
 
 
-<a id="orgd6c4389"></a>
+<a id="orgaba018b"></a>
 
 ### bin pre-loaded with small ammo
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="org39ab0d0"></a>
+<a id="org7b80541"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -75,7 +76,7 @@
             2.  note: "default" means something different in the two approaches
 
 
-<a id="org9d91ea2"></a>
+<a id="orga71caa2"></a>
 
 ### data-handling in raku
 
@@ -84,7 +85,14 @@
     1.  Bill Michels objects to the word "Row" for a data-record in my solution
 
 
-<a id="org7ec895e"></a>
+<a id="org5d1d3f8"></a>
+
+### Data::Reshapers
+
+1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
+
+
+<a id="org5858c98"></a>
 
 ### secure json-ification, vadim belman
 
@@ -95,7 +103,7 @@
 3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="orgff85ec2"></a>
+<a id="org9d1afdf"></a>
 
 ### lispyness of raku
 
@@ -104,21 +112,21 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="org9bf236a"></a>
+<a id="org803e671"></a>
 
 ### pairs of separators from a string
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html>
 
 
-<a id="org277466a"></a>
+<a id="orga68387e"></a>
 
 ### bioinformatics on rosettacode
 
 1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org2731434"></a>
+<a id="orgf105aaa"></a>
 
 ### once around the net
 
@@ -133,18 +141,18 @@
 4.  rosettacode
 
 
-<a id="orgf57317a"></a>
+<a id="orgc0b1537"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org9a232fc"></a>
+<a id="org01ebe94"></a>
 
 ## next meeting
 
 
-<a id="orgfd08d09"></a>
+<a id="org7a2ba97"></a>
 
 ### next meeting: Oct 10, 2021
