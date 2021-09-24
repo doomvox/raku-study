@@ -19,8 +19,6 @@ multi sub speak (Array $h) {
 speak( @monsters );
 speak( <beowulf bernie mothera> );
 
-
-
 # ===
 # Author:  doom@kzsu.stanford.edu
 
