@@ -21,6 +21,8 @@
 *** lispyness of raku
 **** https://www.codesections.com/blog/raku-lisp-impression/
 **** https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/
+*** pairs of separators from a string
+**** https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html
 
 *** once around the net
 **** stackoverflow
