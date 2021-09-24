@@ -4,11 +4,15 @@
 
 use v6;
 
-my @items = ( 666, 2.71, 𝑒, "01", "whun", ('a', 'b', 'c').Set );
+sub MAIN( $interations = 1 ) {
 
-for @items -> $item  {
-    say "Checking: " ~ $item;
-    say whats_my_type( $item );
+    my @items = ( 666, 2.71, 𝑒, "01", "whun", ('a', 'b', 'c').Set );
+
+    for @items -> $item  {
+        say "Checking: " ~ $item;
+        say whats_my_type( $item );
+    }
+
 }
 
 multi sub whats_my_type (Int $item) {
