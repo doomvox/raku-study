@@ -13,7 +13,6 @@ sub MAIN( $interations = 1 ) {
         say whats_my_type( $item );
     }
 
-
 }
 
 sub whats_my_type ($item) {
