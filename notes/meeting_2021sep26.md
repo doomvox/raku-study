@@ -1,58 +1,58 @@
-- [meeting notes September 16, 2021](#org4e045ce)
-  - [the usual links:](#orgf341318)
-    - [meeting notes](#org163a418)
-    - [code examples:](#orgd4fe113)
-  - [battle plan](#orge73d6ff)
-    - [bin pre-loaded with small ammo](#orgd77f873)
-    - [nano-lightning talk: given-when vs multi-dispatch](#orgd264af2)
-    - [data-handling in raku](#org828964a)
-    - [lispyness of raku](#orgdc6035e)
-    - [pairs of separators from a string](#org944e4a9)
-    - [bioinformatics on rosettacode](#org93f7bf2)
-    - [secure json-ification, vadim belman](#orgaac6d7b)
-    - [once around the net](#orgdc3d64a)
-    - [the ephemeral miniconf: nov 18 2021](#orgd27d17c)
-  - [next meeting](#orgae7e650)
-    - [next meeting: Oct 10, 2021](#org2ffd78a)
+- [meeting notes September 16, 2021](#orgc08c1b1)
+  - [the usual links:](#orge92e011)
+    - [meeting notes](#org5469cc7)
+    - [code examples:](#orgefc5833)
+  - [battle plan](#orgcb8eb22)
+    - [bin pre-loaded with small ammo](#org26ad25f)
+    - [nano-lightning talk: given-when vs multi-dispatch](#org934b130)
+    - [data-handling in raku](#org805f470)
+    - [lispyness of raku](#orgbd5bc74)
+    - [pairs of separators from a string](#orgeb1d50c)
+    - [bioinformatics on rosettacode](#orgd1ef075)
+    - [secure json-ification, vadim belman](#orged7cbd2)
+    - [once around the net](#org83de307)
+    - [the ephemeral miniconf: nov 18 2021](#orgcc966bb)
+  - [next meeting](#orgcfacd76)
+    - [next meeting: Oct 10, 2021](#org17f68b5)
 
 
-<a id="org4e045ce"></a>
+<a id="orgc08c1b1"></a>
 
 # meeting notes September 16, 2021
 
 
-<a id="orgf341318"></a>
+<a id="orge92e011"></a>
 
 ## the usual links:
 
 
-<a id="org163a418"></a>
+<a id="org5469cc7"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="orgd4fe113"></a>
+<a id="orgefc5833"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="orge73d6ff"></a>
+<a id="orgcb8eb22"></a>
 
 ## battle plan
 
 
-<a id="orgd77f873"></a>
+<a id="org26ad25f"></a>
 
 ### bin pre-loaded with small ammo
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="orgd264af2"></a>
+<a id="org934b130"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -75,7 +75,7 @@
             2.  note: "default" means something different in the two approaches
 
 
-<a id="org828964a"></a>
+<a id="org805f470"></a>
 
 ### data-handling in raku
 
@@ -84,7 +84,7 @@
     1.  Bill Michels objects to the word "Row" for a data-record in my solution
 
 
-<a id="orgdc6035e"></a>
+<a id="orgbd5bc74"></a>
 
 ### lispyness of raku
 
@@ -93,28 +93,30 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="org944e4a9"></a>
+<a id="orgeb1d50c"></a>
 
 ### pairs of separators from a string
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html>
 
 
-<a id="org93f7bf2"></a>
+<a id="orgd1ef075"></a>
 
 ### bioinformatics on rosettacode
 
 1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="orgaac6d7b"></a>
+<a id="orged7cbd2"></a>
 
 ### secure json-ification, vadim belman
 
-1.  <https://vrurg.github.io/2021/09/14/Secure-JSONification>
+1.  <https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100>
+
+2.  <https://vrurg.github.io/2021/09/14/Secure-JSONification>
 
 
-<a id="orgdc3d64a"></a>
+<a id="org83de307"></a>
 
 ### once around the net
 
@@ -129,18 +131,18 @@
 4.  rosettacode
 
 
-<a id="orgd27d17c"></a>
+<a id="orgcc966bb"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="orgae7e650"></a>
+<a id="orgcfacd76"></a>
 
 ## next meeting
 
 
-<a id="org2ffd78a"></a>
+<a id="org17f68b5"></a>
 
 ### next meeting: Oct 10, 2021

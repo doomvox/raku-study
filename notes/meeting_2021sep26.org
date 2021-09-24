@@ -28,6 +28,7 @@
 *** bioinformatics on rosettacode 
 **** http://rosettacode.org/wiki/Bioinformatics/base_count
 *** secure json-ification, vadim belman
+**** https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100
 **** https://vrurg.github.io/2021/09/14/Secure-JSONification
 
 *** once around the net
