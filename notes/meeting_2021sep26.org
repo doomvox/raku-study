@@ -20,6 +20,11 @@
 *** data-handling in raku
 **** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527
 ***** Bill Michels objects to the word "Row" for a data-record in my solution
+*** secure json-ification, vadim belman
+**** https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100
+**** https://vrurg.github.io/2021/09/14/Secure-JSONification
+**** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/
+
 *** lispyness of raku
 **** https://www.codesections.com/blog/raku-lisp-impression/
 **** https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/
@@ -27,9 +32,6 @@
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html
 *** bioinformatics on rosettacode 
 **** http://rosettacode.org/wiki/Bioinformatics/base_count
-*** secure json-ification, vadim belman
-**** https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100
-**** https://vrurg.github.io/2021/09/14/Secure-JSONification
 
 *** once around the net
 **** stackoverflow
