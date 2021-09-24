@@ -27,8 +27,8 @@
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html
 *** bioinformatics on rosettacode 
 **** http://rosettacode.org/wiki/Bioinformatics/base_count
-*** secure json-ification
-https://vrurg.github.io/2021/09/14/Secure-JSONification
+*** secure json-ification, vadim belman
+**** https://vrurg.github.io/2021/09/14/Secure-JSONification
 
 *** once around the net
 **** stackoverflow
