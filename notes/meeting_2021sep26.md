@@ -1,53 +1,53 @@
-- [meeting notes September 16, 2021](#org756da7f)
-  - [the usual links:](#org2916d69)
-    - [meeting notes](#orgc6b488f)
-    - [code examples:](#org72ab437)
-  - [battle plan](#org3f833e0)
-    - [bin pre-loaded with small ammo](#org5790fa3)
-    - [nano-lightning talk: given-when vs multi-dispatch](#org09cc4ef)
-    - [data-handling in raku](#orga11a1fb)
-    - [lispyness of raku](#org4bb031e)
-    - [once around the net](#org557d647)
-    - [the ephemeral miniconf: nov 18 2021](#org7a61a09)
-  - [next meeting](#org921b24f)
-    - [next meeting: Oct 10, 2021](#org287486b)
+- [meeting notes September 16, 2021](#org3e69361)
+  - [the usual links:](#org78b1184)
+    - [meeting notes](#org099aca7)
+    - [code examples:](#org134c33a)
+  - [battle plan](#org124204f)
+    - [bin pre-loaded with small ammo](#org32e2691)
+    - [nano-lightning talk: given-when vs multi-dispatch](#org65ba0e1)
+    - [data-handling in raku](#org8073c42)
+    - [lispyness of raku](#orgffb9fcf)
+    - [once around the net](#org46a5bab)
+    - [the ephemeral miniconf: nov 18 2021](#org04d0182)
+  - [next meeting](#orgcaca7b7)
+    - [next meeting: Oct 10, 2021](#org8a8e37c)
 
 
-<a id="org756da7f"></a>
+<a id="org3e69361"></a>
 
 # meeting notes September 16, 2021
 
 
-<a id="org2916d69"></a>
+<a id="org78b1184"></a>
 
 ## the usual links:
 
 
-<a id="orgc6b488f"></a>
+<a id="org099aca7"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="org72ab437"></a>
+<a id="org134c33a"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="org3f833e0"></a>
+<a id="org124204f"></a>
 
 ## battle plan
 
 
-<a id="org5790fa3"></a>
+<a id="org32e2691"></a>
 
 ### bin pre-loaded with small ammo
 
 
-<a id="org09cc4ef"></a>
+<a id="org65ba0e1"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -59,7 +59,7 @@
     
         1.  given-when is straight-forward to think about
         
-        2.  multi-dispatch lets you add or shadow cases via OOP methods
+        2.  multi-dispatch has OOP flexibility
     
     2.  TODO benchmark: add a repetition argument, run with "time"
     
@@ -68,7 +68,7 @@
         1.  point: "default" means something different in the two approaches
 
 
-<a id="orga11a1fb"></a>
+<a id="org8073c42"></a>
 
 ### data-handling in raku
 
@@ -77,7 +77,7 @@
     1.  Bill Michels objects to the word "Row" for a data-record in my solution
 
 
-<a id="org4bb031e"></a>
+<a id="orgffb9fcf"></a>
 
 ### lispyness of raku
 
@@ -86,7 +86,7 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="org557d647"></a>
+<a id="org46a5bab"></a>
 
 ### once around the net
 
@@ -99,18 +99,18 @@
 4.  rosettacode
 
 
-<a id="org7a61a09"></a>
+<a id="org04d0182"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  how's it shaping up?
 
 
-<a id="org921b24f"></a>
+<a id="orgcaca7b7"></a>
 
 ## next meeting
 
 
-<a id="org287486b"></a>
+<a id="org8a8e37c"></a>
 
 ### next meeting: Oct 10, 2021

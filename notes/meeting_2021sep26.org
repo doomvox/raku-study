@@ -11,7 +11,7 @@
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/02-the_multi_dispatch_case.raku
 ***** notice: order matters with given-when, with multidispatch it's specificity
 ****** given-when is straight-forward to think about
-****** multi-dispatch lets you add or shadow cases via OOP methods
+****** multi-dispatch has OOP flexibility
 ***** TODO benchmark: add a repetition argument, run with "time" 
 ***** TODO write an example using overlapping subsets, need 'is default' to break tie
 ****** point: "default" means something different in the two approaches
