@@ -16,8 +16,8 @@ multi sub speak (Array $a) {
     say "The 3rd element of the Array: $a[2]" if $a[2];
 }
 
-speak( @monsters );
-speak( <beowulf bernie mothera> );
+speak( @monsters );                  # The 3rd element of the Array: ghidora
+speak( <beowulf bernie mothera> );   # The 3rd element of the List: mothera
 
 # ===
 # Author:  doom@kzsu.stanford.edu
