@@ -26,6 +26,7 @@ speak(3);
 
 # With "is default":
 #    SECOND PLACE: The Int is 3
+# (And the first version will never be called.)
 
 
 # ===
