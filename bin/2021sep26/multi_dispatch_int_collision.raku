@@ -15,7 +15,8 @@ multi sub speak (Int $i) {
 #   (Int $i)
 #   (Int $i)
 
-multi sub speak (Int $i) is default {
+multi sub speak (Int $i) {
+# multi sub speak (Int $i) is default {
     say "SECOND PLACE: The Int is $i";
 }
 
