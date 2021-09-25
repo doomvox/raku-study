@@ -1,1 +1,5 @@
-* 
+* raku case vs multidispatch
+** case
+*** using lexical sequence to order comparisons
+** multidispatch
+*** ordered by specificity
