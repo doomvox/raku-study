@@ -22,6 +22,7 @@
 
 (require 'slip-and-slide)
 
+;; STATUS: unfinished
 (setq slip-and-slide-alist ;; A -> H   J   L -> O
   '(
 
