@@ -25,8 +25,10 @@
 ;; STATUS: new project
 (setq slip-and-slide-alist ;; A -> H   J   L -> O
   '(
+    ;; general meeting notes
     ( a . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/meeting_2021sep26.md" )
-
+    ;; 
+    ( b . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/talks/multidispatch_vs_case/slide_definitions.el" )
     ( c . "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/01-the_given_when_case.raku" )   
     ( d . "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/02-the_multi_dispatch_case.raku" )   
 
