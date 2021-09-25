@@ -5,7 +5,7 @@
 use v6;
 
 multi sub speak (Int $i) {
-    say "The Int is $i";
+    say "FIRST PLACE: The Int is $i";
 }
 
 # multi sub speak (Int $i) {
@@ -16,7 +16,7 @@ multi sub speak (Int $i) {
 #   (Int $i)
 
 multi sub speak (Int $i) is default {
-    say "In case you hadn't heard, The Int is $i";
+    say "SECOND PLACE: The Int is $i";
 }
 
 speak(3);
