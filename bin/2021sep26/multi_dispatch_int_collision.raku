@@ -16,8 +16,24 @@ multi sub speak (Int $i) {
 speak(3);
 ## In case you hadn't heard, The Int is 3
 
+# Without "is default":
+#   Ambiguous call to 'speak(Int)'; these signatures all match:
+#     (Int $i)
+#     (Int $i)
+
+
+
 
 
 # ===
 # Author:  doom@kzsu.stanford.edu
 
+
+
+
+# multi sub speak (Int $i) {
+#     say "In case you hadn't heard, The Int is $i";
+# }
+# Ambiguous call to 'speak(Int)'; these signatures all match:
+#   (Int $i)
+#   (Int $i)
