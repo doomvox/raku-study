@@ -19,8 +19,8 @@ multi sub speak (Int $i) is default {
     say "In case you hadn't heard, The Int is $i";
 }
 
-
 speak(3);
+## In case you hadn't heard, The Int is 3
 
 
 
