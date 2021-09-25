@@ -22,9 +22,11 @@
 
 (require 'slip-and-slide)
 
-;; STATUS: unfinished
+;; STATUS: new project
 (setq slip-and-slide-alist ;; A -> H   J   L -> O
   '(
+
+    ( c . "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/01-the_given_when_case.raku" )   
 
     ( A . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/Qualify.rakumod" )
     ( B . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/Dualmap.rakumod" )
