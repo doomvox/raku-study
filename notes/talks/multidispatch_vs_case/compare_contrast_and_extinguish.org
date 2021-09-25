@@ -3,4 +3,6 @@
 *** uses lexical sequence to order comparisons
 ** multidispatch
 *** uses specificity to order comparisons (mostly)
-**** in the case of subsets, uses order of definition to break ties in type specificity
+**** in the case of subsets, uses order of definition
+***** groups subsets by the type they're based on
+***** then uses the order of definition of subsets based on same type 
