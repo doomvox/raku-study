@@ -1,5 +1,6 @@
 * raku case vs multidispatch
 ** case
-*** using lexical sequence to order comparisons
+*** uses lexical sequence to order comparisons
 ** multidispatch
-*** ordered by specificity
+*** uses specificity to order comparisons (mostly)
+**** in the case of subsets, uses order of definition to break ties in type specificity

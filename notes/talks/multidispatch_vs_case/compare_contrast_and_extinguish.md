@@ -1,30 +1,32 @@
-- [raku case vs multidispatch](#org321c0f8)
-  - [case](#org42c1c82)
-    - [using lexical sequence to order comparisons](#org2ae998f)
-  - [multidispatch](#orgc84a78a)
-    - [ordered by specificity](#org7033896)
+- [raku case vs multidispatch](#org6884630)
+  - [case](#orgb4136c6)
+    - [uses lexical sequence to order comparisons](#org440eb5a)
+  - [multidispatch](#org8ecb441)
+    - [uses specificity to order comparisons (mostly)](#orgeaf2472)
 
 
-<a id="org321c0f8"></a>
+<a id="org6884630"></a>
 
 # raku case vs multidispatch
 
 
-<a id="org42c1c82"></a>
+<a id="orgb4136c6"></a>
 
 ## case
 
 
-<a id="org2ae998f"></a>
+<a id="org440eb5a"></a>
 
-### using lexical sequence to order comparisons
+### uses lexical sequence to order comparisons
 
 
-<a id="orgc84a78a"></a>
+<a id="org8ecb441"></a>
 
 ## multidispatch
 
 
-<a id="org7033896"></a>
+<a id="orgeaf2472"></a>
 
-### ordered by specificity
+### uses specificity to order comparisons (mostly)
+
+1.  in the case of subsets, uses order of definition to break ties in type specificity
