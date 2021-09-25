@@ -15,6 +15,11 @@ multi sub speak (List $l) {
 multi sub speak (Array $a) {
     say "The 3rd element of the Array: $a[2]" if $a[2];
 }
+multi sub speak (Positional $a) {
+    my $type = $a.^name;
+    say "The 3rd element of a $type: $a[2]" if $a[2];
+}
+
 
 speak( @monsters );                  # The 3rd element of the Array: ghidora
 speak( <beowulf bernie mothera> );   # The 3rd element of the List: mothera
