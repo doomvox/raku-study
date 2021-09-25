@@ -4,6 +4,14 @@
 
 use v6;
 
+multi sub speak (Int $i) {
+    say "The Int is $i";
+}
+
+multi sub speak (Int $i) {
+    say "In case you hadn't heard, The Int is $i:;
+}
+
 
 
 
