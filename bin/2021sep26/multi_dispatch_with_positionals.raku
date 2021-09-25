@@ -23,6 +23,7 @@ multi sub speak (Positional $a) {
 
 speak( @monsters );                  # The 3rd element of the Array: ghidora
 speak( <beowulf bernie mothera> );   # The 3rd element of the List: mothera
+speak( 1..3 ); 
 
 # ===
 # Author:  doom@kzsu.stanford.edu
