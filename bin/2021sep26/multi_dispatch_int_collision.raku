@@ -9,7 +9,7 @@ multi sub speak (Int $i) {
 }
 
 multi sub speak (Int $i) {
-    say "In case you hadn't heard, The Int is $i:;
+    say "In case you hadn't heard, The Int is $i";
 }
 
 speak(3);
