@@ -4,7 +4,7 @@
 
 use v6;
 
-# Brad Gilbert
+# Brad Gilbert:
 # The ambiguity it talks about is when two candidates have the
 # same level of type for a given input. For example Str and Int
 # for an IntStr.
