@@ -5,4 +5,4 @@
 *** uses specificity to order comparisons (mostly)
 **** in the case of subsets, uses order of definition
 ***** groups subsets by the type they're based on
-***** then uses the order of definition of subsets based on same type 
+***** uses the order of definition for subsets based on same type 

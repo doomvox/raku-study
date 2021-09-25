@@ -1,31 +1,31 @@
-- [raku case vs multidispatch](#orgc08213e)
-  - [case](#org7b8c8ee)
-    - [uses lexical sequence to order comparisons](#org6ee5096)
-  - [multidispatch](#org8a62258)
-    - [uses specificity to order comparisons (mostly)](#orge933046)
+- [raku case vs multidispatch](#org63d7b94)
+  - [case](#org1c53f48)
+    - [uses lexical sequence to order comparisons](#org265e134)
+  - [multidispatch](#org2b47bd7)
+    - [uses specificity to order comparisons (mostly)](#orgdf2728c)
 
 
-<a id="orgc08213e"></a>
+<a id="org63d7b94"></a>
 
 # raku case vs multidispatch
 
 
-<a id="org7b8c8ee"></a>
+<a id="org1c53f48"></a>
 
 ## case
 
 
-<a id="org6ee5096"></a>
+<a id="org265e134"></a>
 
 ### uses lexical sequence to order comparisons
 
 
-<a id="org8a62258"></a>
+<a id="org2b47bd7"></a>
 
 ## multidispatch
 
 
-<a id="orge933046"></a>
+<a id="orgdf2728c"></a>
 
 ### uses specificity to order comparisons (mostly)
 
@@ -33,4 +33,4 @@
 
     1.  groups subsets by the type they're based on
     
-    2.  then uses the order of definition of subsets based on same type
+    2.  uses the order of definition for subsets based on same type
