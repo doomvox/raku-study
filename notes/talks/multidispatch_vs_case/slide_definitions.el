@@ -44,6 +44,8 @@
     ( G . "/home/doom/End/Cave/DataMathRaku/bin/perl_sort_demo.pl" )
     ( H . "/home/doom/End/Cave/DataMathRaku/Notes/raku_bits_from_dualmap.org" )
 
+    ( z . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/talks/multidispatch_vs_case/slide_definitions.el" )
+
    ))
 
 
