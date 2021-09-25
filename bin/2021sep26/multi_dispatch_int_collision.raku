@@ -14,7 +14,7 @@ multi sub speak (Int $i) {
 }
 
 speak(3);
-## In case you hadn't heard, The Int is 3
+
 
 # Without "is default":
 #   Ambiguous call to 'speak(Int)'; these signatures all match:
@@ -22,6 +22,7 @@ speak(3);
 #     (Int $i)
 
 
+# With "is default":
 
 
 
