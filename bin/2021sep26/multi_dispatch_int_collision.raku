@@ -8,9 +8,17 @@ multi sub speak (Int $i) {
     say "The Int is $i";
 }
 
-multi sub speak (Int $i) {
+# multi sub speak (Int $i) {
+#     say "In case you hadn't heard, The Int is $i";
+# }
+# Ambiguous call to 'speak(Int)'; these signatures all match:
+#   (Int $i)
+#   (Int $i)
+
+multi sub speak (Int $i) is default {
     say "In case you hadn't heard, The Int is $i";
 }
+
 
 speak(3);
 
