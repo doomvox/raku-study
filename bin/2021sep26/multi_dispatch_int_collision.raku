@@ -33,11 +33,3 @@ speak(3);
 # Author:  doom@kzsu.stanford.edu
 
 
-
-
-# multi sub speak (Int $i) {
-#     say "In case you hadn't heard, The Int is $i";
-# }
-# Ambiguous call to 'speak(Int)'; these signatures all match:
-#   (Int $i)
-#   (Int $i)
