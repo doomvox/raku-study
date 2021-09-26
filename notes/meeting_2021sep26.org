@@ -45,7 +45,8 @@
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html
 **** a discussion yary was involved in, which indicates there's something interesting
 *** bioinformatics on rosettacode 
-**** http://rosettacode.org/wiki/Bioinformatics/base_count
+**** there's a half dozen entries, here's a simple one:
+***** http://rosettacode.org/wiki/Bioinformatics/base_count
 *** lca (old topic)
 **** https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor
 **** i think I like raiph's solution (new version of ^parents that uses graph theory definition)
