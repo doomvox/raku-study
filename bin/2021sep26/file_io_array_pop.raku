@@ -27,6 +27,8 @@ my @n = 0 .. 25;
 for @n -> $i { 
     say $z.head($i).tail(1).chr );
 }
+## incredible amounts of flailing here...
+
 
 
 # say @array[0].^method_names;
