@@ -17,10 +17,12 @@ my %translate = (
     'X' => 'S',
 );
 
-for $text.split -> $c {
-    say $c;
+say $text.split;
 
-}
+# for $text.split -> $c {
+#     say $c;
+
+# }
 
 
 
