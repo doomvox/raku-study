@@ -66,7 +66,6 @@ use v6;
     say $name;  # six_six_six
     }
 
-
 { 
     ## Makes more sense to me:
     say "===";
