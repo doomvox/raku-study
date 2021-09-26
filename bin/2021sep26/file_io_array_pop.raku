@@ -23,6 +23,7 @@ say $z.pop; # 10
 say $z.head(6).tail(1);  # (108)
 say chr(108); # l
 
+my @n = 0 .. 25;
 for 0..24 --> $i { 
     say chr( $z.head($i).tail(1) );
 }
