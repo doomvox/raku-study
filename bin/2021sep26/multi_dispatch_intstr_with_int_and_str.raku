@@ -21,7 +21,6 @@ mission("3");  # sub mission recieved a Str: 3
 mission(3);    # sub mission recieved an Int: 3
 
 my IntStr $intstr = 9;
-# $intstr = 9;
 mission( $intstr );
 
 
