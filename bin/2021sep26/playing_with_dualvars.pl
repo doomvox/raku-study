@@ -20,7 +20,15 @@ $|=1;
 use Data::Dumper;
 
 ## man Scalar::Util
+#    dualvar
+#            my $var = dualvar( $num, $string );
 
+#        Returns a scalar that has the value $num in a numeric context and the value $string in a string
+#        context.
+
+#            $foo = dualvar 10, "Hello";
+#            $num = $foo + 2;                    # 12
+#            $str = $foo . " world";             # Hello world
 
 
 
