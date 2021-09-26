@@ -9,13 +9,13 @@ my $text =
 
 
 my %translate = (
-    M => T,
-    A => H,
-    L => E,
-    C => O,
-    R => F,
-    E => I,
-    X => S,
+    'M' => 'T',
+    'A' => 'H',
+    'L' => 'E',
+    'C' => 'O',
+    'R' => 'F',
+    'E' => 'I',
+    'X' => 'S',
 );
 
 ## (Any other letter) = _
