@@ -36,7 +36,7 @@ my $n = dualvar( 5, "five" );
 
 say "The number is $n";
 
-say "Twice the number is : ", $n * 2;
+say "Twice the number is: ", $n * 2;
 
 
 
