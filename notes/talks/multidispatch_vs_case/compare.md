@@ -1,34 +1,34 @@
-- [raku case vs multidispatch](#orge471ef8)
-  - [very roughly](#orgdc79a11)
-    - [case](#org9370da8)
-    - [multi](#orgcfbc2a8)
-  - [utility](#orgd3dbd1e)
-    - [case](#orgf02d876)
-    - [multi](#orgd92b487)
+- [raku case vs multidispatch](#org90a80b3)
+  - [very roughly](#org83c4500)
+    - [case](#orgcfa8f63)
+    - [multi](#orge8f9d67)
+  - [utility](#org2cd086e)
+    - [case](#org7110d09)
+    - [multi](#org1cf3dcf)
 
 
-<a id="orge471ef8"></a>
+<a id="org90a80b3"></a>
 
 # raku case vs multidispatch
 
 
-<a id="orgdc79a11"></a>
+<a id="org83c4500"></a>
 
 ## very roughly
 
 
-<a id="org9370da8"></a>
+<a id="orgcfa8f63"></a>
 
 ### case
 
 1.  an obvious lexical sequence of comparisons (running a gauntlet)
 
 
-<a id="orgcfbc2a8"></a>
+<a id="orge8f9d67"></a>
 
 ### multi
 
-1.  orders types by "specificity", not lexically (not entirely true)
+1.  orders cases ~by "specificity", not lexically
 
     1.  in the case of subsets, uses order of definition
     
@@ -41,19 +41,19 @@
 2.  code that handles various types can be scattered, defined in different places
 
 
-<a id="orgd3dbd1e"></a>
+<a id="org2cd086e"></a>
 
 ## utility
 
 
-<a id="orgf02d876"></a>
+<a id="org7110d09"></a>
 
 ### case
 
 1.  good for any sort of comparison, e.g. pattern matches
 
 
-<a id="orgd92b487"></a>
+<a id="org1cf3dcf"></a>
 
 ### multi
 

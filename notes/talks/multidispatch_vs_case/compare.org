@@ -3,7 +3,7 @@
 *** case
 **** an obvious lexical sequence of comparisons (running a gauntlet)
 *** multi
-**** orders types by "specificity", not lexically (not entirely true)
+**** orders cases ~by "specificity", not lexically 
 ***** in the case of subsets, uses order of definition
 ****** subsets are essentially grouped by the type they're based on
 ****** BUT they don't behave like two multis with same type
