@@ -42,7 +42,7 @@ say "The number is $n";                # The number is 7
 say "Twice the number is: ", $n * 2;   # Twice the number is: 14
 
 
-$n = dualvar( 7, "sacred seven" );
+$n = dualvar( 8, "ate" );
 say +$n;
 say "$n";
 
