@@ -44,16 +44,15 @@ use v6;
 {  # can you shut off this behavior with a qw?
     say "---";
     my @items =  <a b 42>;
-    dd @items[2];
-
+    dd @items[2]; # IntStr @items = IntStr.new(42, "42")
+    
 
     
 
 }
 
-
-
 { 
+  say "===";
   ## Makes more sense to me:
     my $f = IntStr.new(9, "nine");
     say +$f; # 9
