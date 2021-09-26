@@ -50,7 +50,7 @@ use v6;
     dd @stuff[2];  # Str @stuff = "42"
     ## YES: conclusion, using <> quoting is a mugs game, qw<> is less surprising
 
-    ## And I guess: maybe I like qqw<> better than <<>>;
+    ## And I guess: maybe I like qqw<...> better than <<...>>;
 
 }
 
