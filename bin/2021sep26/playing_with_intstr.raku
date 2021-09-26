@@ -67,7 +67,7 @@ use v6;
     say $name;  # six_six_six
 
     @metal_names[3] = 'six_six_six';
-
+    say @metal_names[3];
 
     }
 
