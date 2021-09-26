@@ -52,8 +52,8 @@ use v6;
 }
 
 { 
-  say "===";
-  ## Makes more sense to me:
+    ## Makes more sense to me:
+    say "===";
     my $f = IntStr.new(9, "nine");
     say +$f; # 9
     say ~$f; # nine
