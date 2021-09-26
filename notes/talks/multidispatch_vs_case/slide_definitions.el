@@ -42,6 +42,7 @@
 
     ;; demo of Ambiguous call error
     ( g . "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/multi_dispatch_int_collision.raku")
+    ;; demo of type specificity
     ( h . "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/multi_dispatch_with_positionals.raku")
 
     ;; brad gilbert mentions the case of IntStr/Int/Str
