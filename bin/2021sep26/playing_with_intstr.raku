@@ -31,7 +31,10 @@ use v6;
 
 { 
   ## Makes more sense to me:
-    my $int-str = IntStr.new(9, "nine");
+    my $f = IntStr.new(9, "nine");
+    say +$f; # 9
+    say ~$f; # nine
+
 
 }
 
