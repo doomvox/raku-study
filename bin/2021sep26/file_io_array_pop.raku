@@ -20,7 +20,7 @@ my $z = $file.IO.slurp(:bin);
 say $z.pop; # 10
 say $z.pop; # 10
 
-say $z.head(6).tail(1);
+say $z.head(6).tail(1);  # (108)
 
 
 # say @array[0].^method_names;
