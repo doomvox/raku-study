@@ -43,6 +43,8 @@
     ;; demo of Ambiguous call error
     ( g . "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/multi_dispatch_int_collision.raku")
 
+    ;; brad gilbert mentions the case of IntStr/Int/Str
+
 
     ( z . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/talks/multidispatch_vs_case/slide_definitions.el" )
 
