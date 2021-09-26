@@ -28,6 +28,7 @@ my $intstr = IntStr.new(42, "forty two");
 
 
 
+
 ## NOTES
 ## Note: I can never remember what IntStrs are *for* exactly.
 ##       dim memory:
