@@ -17,6 +17,10 @@ multi sub mission (Int $p) {
     say "sub mission recieved an Int: $p";
 }
 
+mission("3");
+mission(3);
+
+
 
 
 # ===
