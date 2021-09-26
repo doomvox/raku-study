@@ -38,7 +38,7 @@
     ( e . "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/multi_dispatch_with_overlapping_subset_types.raku" )   
 
     ;; minimal summary of the differences
-    ( f . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/talks/multidispatch_vs_case/compare.org" )
+    ( f . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/talks/multidispatch_vs_case/compare_multi_and_case.org" )
 
     ;; demo of Ambiguous call error
     ( g . "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/multi_dispatch_int_collision.raku")
