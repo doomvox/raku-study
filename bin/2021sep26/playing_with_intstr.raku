@@ -27,12 +27,6 @@ use v6;
 # say +$f; # OUTPUT: «42␤» 
 # say ~$f; # OUTPUT: «"forty two"␤»
 
-
-
-
-
-
-
 # ===
 # Author:  doom@kzsu.stanford.edu
 
