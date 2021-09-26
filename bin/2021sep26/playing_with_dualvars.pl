@@ -35,9 +35,10 @@ use Scalar::Util qw( dualvar );
 my $n = dualvar( 5, "five" );
 
 say "The number is $n";
+# The number is five
 
 say "Twice the number is: ", $n * 2;
-
+# Twice the number is: 10
 
 
 __END__
