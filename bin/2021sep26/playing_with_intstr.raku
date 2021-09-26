@@ -22,6 +22,7 @@ my $a = <42>;
 dd $a;
 
 my $int-str = <42>;
+dd $int-str;
 
 
 
