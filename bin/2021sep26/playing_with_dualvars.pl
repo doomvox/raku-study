@@ -43,7 +43,7 @@ say "Twice the number is: ", $n * 2;   # Twice the number is: 14
 
 
 $n = dualvar( 8, "ate" );
-say +$n;
+say $n+0;
 say "$n";
 
 ## Can't seem to set one slot at a time:
