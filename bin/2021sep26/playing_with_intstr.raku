@@ -39,8 +39,6 @@ use v6;
     #     say < 42 > ~~ Int; # OUTPUT: «True␤»
     #     say < 42 > ~~ Str; # OUTPUT: «True␤»
 
-
-
 }
 
 { 
