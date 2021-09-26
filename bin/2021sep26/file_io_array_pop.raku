@@ -8,6 +8,7 @@ use v6;
 
 my $file = "/home/doom/tmp/tta.txt";
 
+IO::CatHandle.new(:bin, $file).slurp.say;
 
 
 
