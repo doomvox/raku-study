@@ -1,61 +1,61 @@
-- [meeting notes September 16, 2021                                      a](#org74179b7)
-  - [the usual links:](#orga28716b)
-    - [meeting notes](#org47e08d0)
-    - [code examples:](#org80a89f9)
-  - [battle plan](#org2c0db10)
-    - [bin pre-loaded with small ammo](#orga2864da)
-    - [nano-lightning talk: given-when vs multi-dispatch](#org7215a52)
-    - [data-handling in raku](#orgbee797f)
-    - [intermixed types and resulting types](#org0950f67)
-    - [Data::Reshapers](#org22660e9)
-    - [secure json-ification, vadim belman](#org014289c)
-    - [lispyness of raku](#org190c0c9)
-    - [pairs of separators from a string](#orge62942a)
-    - [bioinformatics on rosettacode](#orgf8f76c3)
-    - [lca (old topic)](#orgb51228b)
-    - [once around the net](#orgf1dee7d)
-    - [the ephemeral miniconf: nov 18 2021](#org0b8fb6a)
-  - [next meeting](#orge542e96)
-    - [next meeting: Oct 10, 2021](#org7f9c5ca)
+- [meeting notes September 16, 2021                                      a](#org2e602b2)
+  - [the usual links:](#org22fc39a)
+    - [meeting notes](#orge8a843c)
+    - [code examples:](#org9ff7079)
+  - [battle plan](#org26cbf51)
+    - [bin pre-loaded with small ammo](#orgce155fb)
+    - [nano-lightning talk: given-when vs multi-dispatch](#org879fbe1)
+    - [data-handling in raku](#org0cdb54c)
+    - [intermixed types and resulting types](#orgcc50f7c)
+    - [Data::Reshapers](#org62b0341)
+    - [secure json-ification, vadim belman](#orgcf2bd5e)
+    - [lispyness of raku](#orged2a6fb)
+    - [pairs of separators from a string](#orgf6b5acd)
+    - [bioinformatics on rosettacode](#org51893df)
+    - [lca (old topic)](#org930f6fe)
+    - [once around the net](#org67f0a05)
+    - [the ephemeral miniconf: nov 18 2021](#orga278488)
+  - [next meeting](#org3ffe6c4)
+    - [next meeting: Oct 10, 2021](#orge3abdca)
 
 
-<a id="org74179b7"></a>
+<a id="org2e602b2"></a>
 
 # meeting notes September 16, 2021                                      a
 
 
-<a id="orga28716b"></a>
+<a id="org22fc39a"></a>
 
 ## the usual links:
 
 
-<a id="org47e08d0"></a>
+<a id="orge8a843c"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="org80a89f9"></a>
+<a id="org9ff7079"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="org2c0db10"></a>
+<a id="org26cbf51"></a>
 
 ## battle plan
 
 
-<a id="orga2864da"></a>
+<a id="orgce155fb"></a>
 
 ### bin pre-loaded with small ammo
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="org7215a52"></a>
+<a id="org879fbe1"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -69,7 +69,9 @@
         
         2.  multi-dispatch has OOP flexibility
         
-        3.  TODO benchmark: add a repetition argument, run with "time"
+        3.  benchmark: with repetition argument running with "time"
+        
+            1.  results vary tremendously, no clear winner
         
         4.  multi with overlapping subsets supposed to need 'is default' to break tie
         
@@ -78,7 +80,7 @@
             2.  note: "default" means something different in the two approaches
 
 
-<a id="orgbee797f"></a>
+<a id="org0cdb54c"></a>
 
 ### data-handling in raku
 
@@ -91,23 +93,25 @@
     1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/>
 
 
-<a id="org0950f67"></a>
+<a id="orgcc50f7c"></a>
 
 ### intermixed types and resulting types
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/08/msg10102.html>
 
-2.  a few weeks old&#x2013; I still want to respond to it
+2.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/08/msg10114.html>
+
+    1.  TODO a few weeks old&#x2013; I still want to respond to it
 
 
-<a id="org22660e9"></a>
+<a id="org62b0341"></a>
 
 ### Data::Reshapers
 
 1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
 
 
-<a id="org014289c"></a>
+<a id="orgcf2bd5e"></a>
 
 ### secure json-ification, vadim belman
 
@@ -118,7 +122,7 @@
 3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="org190c0c9"></a>
+<a id="orged2a6fb"></a>
 
 ### lispyness of raku
 
@@ -127,7 +131,7 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="orge62942a"></a>
+<a id="orgf6b5acd"></a>
 
 ### pairs of separators from a string
 
@@ -136,14 +140,14 @@
 2.  a discussion yary was involved in, which indicates there's something interesting
 
 
-<a id="orgf8f76c3"></a>
+<a id="org51893df"></a>
 
 ### bioinformatics on rosettacode
 
 1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="orgb51228b"></a>
+<a id="org930f6fe"></a>
 
 ### lca (old topic)
 
@@ -154,7 +158,7 @@
 3.  write it up as an answer of it's own.
 
 
-<a id="orgf1dee7d"></a>
+<a id="org67f0a05"></a>
 
 ### once around the net
 
@@ -169,18 +173,18 @@
 4.  rosettacode
 
 
-<a id="org0b8fb6a"></a>
+<a id="orga278488"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="orge542e96"></a>
+<a id="org3ffe6c4"></a>
 
 ## next meeting
 
 
-<a id="org7f9c5ca"></a>
+<a id="orge3abdca"></a>
 
 ### next meeting: Oct 10, 2021

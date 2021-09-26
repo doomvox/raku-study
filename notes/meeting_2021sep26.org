@@ -13,7 +13,8 @@
 ***** notice: order matters with given-when, with multidispatch it's specificity
 ****** given-when is straight-forward to think about
 ****** multi-dispatch has OOP flexibility
-****** TODO benchmark: add a repetition argument, run with "time" 
+****** benchmark: with repetition argument running with "time"
+******* results vary tremendously, no clear winner
 ****** multi with overlapping subsets supposed to need 'is default' to break tie
 ******* https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/multi_dispatch_with_overlapping_subset_types.raku
 ******* note: "default" means something different in the two approaches
@@ -25,7 +26,8 @@
 
 *** intermixed types and resulting types
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/08/msg10102.html
-**** a few weeks old-- I still want to respond to it
+**** https://www.nntp.perl.org/group/perl.perl6.users/2021/08/msg10114.html
+***** TODO a few weeks old-- I still want to respond to it
 *** Data::Reshapers
 **** https://raku.land/cpan:ANTONOV/Data::Reshapers
 *** secure json-ification, vadim belman
