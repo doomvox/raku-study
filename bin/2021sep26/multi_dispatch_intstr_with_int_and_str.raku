@@ -29,7 +29,7 @@ my $intstr = IntStr.new(42, "forty two");
 say $instr.Int;
 $instr.Int = 5;
 
-say $instr;
+say $intstr;
 
 
 ## NOTES
