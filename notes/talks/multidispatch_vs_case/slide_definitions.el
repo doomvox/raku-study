@@ -53,6 +53,9 @@
     ;; aside aside: perl5 dualvars
     ( k . "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/playing_with_dualvars.pl")
 
+    ( l . "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/multi_dispatch_brad_gilbert_factorial.raku")
+
+
     ( z . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/talks/multidispatch_vs_case/slide_definitions.el" )
    ))
 
