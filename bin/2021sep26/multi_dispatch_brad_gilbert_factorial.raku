@@ -20,7 +20,8 @@ use v6;
 
 {
      multi factorial ( 0 --> 1 ){}; 
-     multi factorial ( 1 --> 1 ){ say "second!" };  # second!
+#     multi factorial ( 1 --> 1 ){ say "second!" };  # second!
+     multi factorial ( 1 ){ say "second!"; return 1; };  # 
      multi factorial ( UInt \n ){ say "third!"; factorial(n - 1) * n }; 
 
      say factorial( 1 );   #  OUTPUT:  1
