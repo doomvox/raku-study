@@ -38,10 +38,6 @@ use v6;
 
 
 
-## Better:
-# my $f = IntStr.new(42, "forty two");
-# say +$f; # OUTPUT: «42␤» 
-# say ~$f; # OUTPUT: «"forty two"␤»
 
 
 # ===
