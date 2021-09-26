@@ -18,6 +18,7 @@ use warnings;
 use strict;
 $|=1;
 use Data::Dumper;
+use Scalar::Util qw( dualvar );
 
 ## man Scalar::Util
 #    dualvar
@@ -29,6 +30,7 @@ use Data::Dumper;
 #            $foo = dualvar 10, "Hello";
 #            $num = $foo + 2;                    # 12
 #            $str = $foo . " world";             # Hello world
+
 
 
 
