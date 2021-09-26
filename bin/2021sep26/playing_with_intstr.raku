@@ -27,6 +27,12 @@ use v6;
     # IntStr $int-str = IntStr.new(42, "42")
     my $int-str = <42>;
     dd $int-str;
+
+    ## See:
+    ## https://docs.raku.org/language/quoting#Word_quoting:_%3C_%3E
+
+
+
 }
 
 { 
