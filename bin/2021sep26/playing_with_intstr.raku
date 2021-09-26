@@ -14,6 +14,7 @@ use v6;
 ##       I always want them to be something that either an integer or an integer in string form
 
 
+
 ## https://docs.raku.org/type/IntStr
 ##
 ## Inherit from Allomorph
