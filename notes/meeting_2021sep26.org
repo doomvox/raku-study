@@ -43,7 +43,8 @@
 **** http://rosettacode.org/wiki/Bioinformatics/base_count
 *** lca (old topic)
 **** https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor
-**** i think I like raiph's solution: write it up as an answer
+**** i think I like raiph's solution (new version of ^parents that uses graph theory definition)
+**** write it up as an answer of it's own.
 
 *** once around the net
 **** stackoverflow
