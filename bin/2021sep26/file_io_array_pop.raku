@@ -21,9 +21,12 @@ say $z.pop; # 10
 say $z.pop; # 10
 
 say $z.head(6).tail(1);  # (108)
+say chr(108); # l
 
-say chr(108);
+for ( 0 .. 24 ) { 
+    say $z.head($i).tail(1);  # (108)
 
+}
 
 
 # say @array[0].^method_names;
