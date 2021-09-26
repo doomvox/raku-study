@@ -20,7 +20,9 @@ multi sub mission (Int $p) {
 mission("3");
 mission(3);
 
-
+my IntStr $intstr;
+$intstr = "9";
+mission( $intstr );
 
 
 # ===
