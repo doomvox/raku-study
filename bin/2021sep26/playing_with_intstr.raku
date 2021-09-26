@@ -13,8 +13,6 @@ use v6;
 ##       you can't use them flexibly the other way:
 ##       I always want them to be something that either an integer or an integer in string form
 
-
-
 ## https://docs.raku.org/type/IntStr
 ##
 ## Inherit from Allomorph
