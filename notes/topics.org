@@ -70,4 +70,5 @@ https://course.raku.org/
 **** https://docs.raku.org/language/operators
 **** https://docs.raku.org/language/pod
 **** https://docs.raku.org/type/Test
+**** https://docs.raku.org/language/variables
 **** 
