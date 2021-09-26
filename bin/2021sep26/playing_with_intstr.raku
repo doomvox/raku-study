@@ -45,9 +45,6 @@ use v6;
     say "---";
     my @items =  <a b 42>;
     dd @items[2]; # IntStr @items = IntStr.new(42, "42")
-    
-
-    
 
 }
 
