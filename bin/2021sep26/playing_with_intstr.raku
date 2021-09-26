@@ -65,7 +65,8 @@ use v6;
     ## $f = IntStr.new(66, "66");
 
     ## $f = <66>;
-
+## my variation (not correct)
+##    $f = qis<66>;
 }
 
 # {
