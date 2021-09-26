@@ -1,60 +1,61 @@
-- [meeting notes September 16, 2021                                      a](#org01d13b4)
-  - [the usual links:](#org0cfecea)
-    - [meeting notes](#orge6402c4)
-    - [code examples:](#orgcc563b1)
-  - [battle plan](#org6d2c3b5)
-    - [bin pre-loaded with small ammo](#org775d0e7)
-    - [nano-lightning talk: given-when vs multi-dispatch](#org59719ff)
-    - [data-handling in raku](#org705e24d)
-    - [intermixed types and resulting types](#orgcbfb60f)
-    - [Data::Reshapers](#orgb659ac0)
-    - [secure json-ification, vadim belman](#org0ea331d)
-    - [lispyness of raku](#orgbcb2077)
-    - [pairs of separators from a string](#org63261ff)
-    - [bioinformatics on rosettacode](#orgb6134a8)
-    - [once around the net](#org043ba20)
-    - [the ephemeral miniconf: nov 18 2021](#org2766874)
-  - [next meeting](#org95ed5b9)
-    - [next meeting: Oct 10, 2021](#orgec891e8)
+- [meeting notes September 16, 2021                                      a](#org5343739)
+  - [the usual links:](#orge140302)
+    - [meeting notes](#orgc797563)
+    - [code examples:](#orgac36891)
+  - [battle plan](#orgb2fa44b)
+    - [bin pre-loaded with small ammo](#org998b3e7)
+    - [nano-lightning talk: given-when vs multi-dispatch](#org812df45)
+    - [data-handling in raku](#org2a98265)
+    - [intermixed types and resulting types](#orge7e7088)
+    - [Data::Reshapers](#org7c1f6e9)
+    - [secure json-ification, vadim belman](#org426826e)
+    - [lispyness of raku](#org18b3021)
+    - [pairs of separators from a string](#orgf469398)
+    - [bioinformatics on rosettacode](#org4940b67)
+    - [lca (old topic)](#orga137389)
+    - [once around the net](#org375fd5b)
+    - [the ephemeral miniconf: nov 18 2021](#org8657801)
+  - [next meeting](#orga0c5a67)
+    - [next meeting: Oct 10, 2021](#org069dc86)
 
 
-<a id="org01d13b4"></a>
+<a id="org5343739"></a>
 
 # meeting notes September 16, 2021                                      a
 
 
-<a id="org0cfecea"></a>
+<a id="orge140302"></a>
 
 ## the usual links:
 
 
-<a id="orge6402c4"></a>
+<a id="orgc797563"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="orgcc563b1"></a>
+<a id="orgac36891"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="org6d2c3b5"></a>
+<a id="orgb2fa44b"></a>
 
 ## battle plan
 
 
-<a id="org775d0e7"></a>
+<a id="org998b3e7"></a>
 
 ### bin pre-loaded with small ammo
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="org59719ff"></a>
+<a id="org812df45"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -77,7 +78,7 @@
             2.  note: "default" means something different in the two approaches
 
 
-<a id="org705e24d"></a>
+<a id="org2a98265"></a>
 
 ### data-handling in raku
 
@@ -90,7 +91,7 @@
     1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/>
 
 
-<a id="orgcbfb60f"></a>
+<a id="orge7e7088"></a>
 
 ### intermixed types and resulting types
 
@@ -99,14 +100,14 @@
 2.  a few weeks old&#x2013; I still want to respond to it
 
 
-<a id="orgb659ac0"></a>
+<a id="org7c1f6e9"></a>
 
 ### Data::Reshapers
 
 1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
 
 
-<a id="org0ea331d"></a>
+<a id="org426826e"></a>
 
 ### secure json-ification, vadim belman
 
@@ -117,7 +118,7 @@
 3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="orgbcb2077"></a>
+<a id="org18b3021"></a>
 
 ### lispyness of raku
 
@@ -126,7 +127,7 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="org63261ff"></a>
+<a id="orgf469398"></a>
 
 ### pairs of separators from a string
 
@@ -135,14 +136,23 @@
 2.  a discussion yary was involved in, which indicates there's something interesting
 
 
-<a id="orgb6134a8"></a>
+<a id="org4940b67"></a>
 
 ### bioinformatics on rosettacode
 
 1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org043ba20"></a>
+<a id="orga137389"></a>
+
+### lca (old topic)
+
+1.  <https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor>
+
+2.  i think I like raiph's solution: write it up as an answer
+
+
+<a id="org375fd5b"></a>
 
 ### once around the net
 
@@ -157,18 +167,18 @@
 4.  rosettacode
 
 
-<a id="org2766874"></a>
+<a id="org8657801"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org95ed5b9"></a>
+<a id="orga0c5a67"></a>
 
 ## next meeting
 
 
-<a id="orgec891e8"></a>
+<a id="org069dc86"></a>
 
 ### next meeting: Oct 10, 2021
