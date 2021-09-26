@@ -38,7 +38,6 @@ use v6;
     #     say <a b 42> eqv ('a', 'b', '42'); # OUTPUT: «False␤», the 42 became an IntStr allomorph
     #     say < 42 > ~~ Int; # OUTPUT: «True␤»
     #     say < 42 > ~~ Str; # OUTPUT: «True␤»
-
 }
 
 { 
