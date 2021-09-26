@@ -41,11 +41,7 @@ mission( $intstr );
 
 
 
-##====
-
-
-
-
+##===
 
 # ===
 # Author:  doom@kzsu.stanford.edu
