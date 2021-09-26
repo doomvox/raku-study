@@ -40,7 +40,7 @@ my $n = dualvar( 5, "five" );  # 5 ,  "5"
 say "The number is $n";                # The number is five
 say "Twice the number is: ", $n * 2;   # Twice the number is: 10
 
-$n = 7;
+$n = 7;   # 5, "7" 
 say "The number is $n";                # The number is 7
 say "Twice the number is: ", $n * 2;   # Twice the number is: 14
 
