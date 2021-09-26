@@ -42,24 +42,6 @@ mission( $intstr );
 
 
 ##====
-## NOTES
-## Note: I can never remember what IntStrs are *for* exactly.
-##       dim memory:
-##         I want them to be something that accepts integers in either string or integer form
-##         they actually "go the other way" (emit Str or Int depending on use?)
-##         the raku version of perl's dualvars?
-
-## https://docs.raku.org/type/IntStr
-##
-## Inherit from Allomorph
-
-## my $int-str = <42>;
-## Huh?
-
-## Better:
-# my $f = IntStr.new(42, "forty two");
-# say +$f; # OUTPUT: «42␤» 
-# say ~$f; # OUTPUT: «"forty two"␤»
 
 
 
