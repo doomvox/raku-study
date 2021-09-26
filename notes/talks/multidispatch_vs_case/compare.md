@@ -1,30 +1,30 @@
-- [raku case vs multidispatch](#org4a79872)
-  - [very roughly](#orgbcae8f8)
-    - [case](#org5e9d2e1)
-    - [multi](#orgadb6fe5)
-  - [utility](#orgc9dec50)
-    - [case](#org4cffdb2)
-    - [multi](#org073a518)
+- [raku case vs multidispatch](#orgdb4b0a9)
+  - [very roughly](#orgcca7b11)
+    - [case](#org7a14280)
+    - [multi](#org3c9c3c9)
+  - [utility](#org7135b6f)
+    - [case](#orgaf8ef83)
+    - [multi](#orgc40b943)
 
 
-<a id="org4a79872"></a>
+<a id="orgdb4b0a9"></a>
 
 # raku case vs multidispatch
 
 
-<a id="orgbcae8f8"></a>
+<a id="orgcca7b11"></a>
 
 ## very roughly
 
 
-<a id="org5e9d2e1"></a>
+<a id="org7a14280"></a>
 
 ### case
 
 1.  an obvious lexical sequence of comparisons (running a gauntlet)
 
 
-<a id="orgadb6fe5"></a>
+<a id="org3c9c3c9"></a>
 
 ### multi
 
@@ -41,19 +41,19 @@
 2.  code that handles various types can be scattered, defined in different places
 
 
-<a id="orgc9dec50"></a>
+<a id="org7135b6f"></a>
 
 ## utility
 
 
-<a id="org4cffdb2"></a>
+<a id="orgaf8ef83"></a>
 
 ### case
 
 1.  good for any sort of comparison, e.g. pattern matches
 
 
-<a id="org073a518"></a>
+<a id="orgc40b943"></a>
 
 ### multi
 
