@@ -24,7 +24,7 @@ say $z.head(6).tail(1);  # (108)
 say chr(108); # l
 
 my @n = 0 .. 25;
-for @n --> $i { 
+for @n -> $i { 
     say chr( $z.head($i).tail(1) );
 }
 
