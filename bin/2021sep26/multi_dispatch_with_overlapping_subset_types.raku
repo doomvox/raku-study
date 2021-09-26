@@ -18,7 +18,6 @@ multi sub speak (Hero $h) {
     say "The hero, $h shouts!";
 }
 
-
 speak('ghidora');  # The monster, ghidora roars!
 speak('beowulf');  # The hero, beowulf shouts!
 speak('mothera');  # The monster, mothera roars!
