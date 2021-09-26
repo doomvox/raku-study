@@ -11,11 +11,11 @@ subset Monster of Str where { $_ eq any( @monsters ) };
 subset Hero    of Str where { $_ eq any( @heroes ) };
 
 ## Monster is favored over Hero because of the order of definition of these multi subs
-multi sub speak (Hero $h) {
-    say "The hero, $h shouts!";
-}
 multi sub speak (Monster $m) {
     say "The monster, $m roars!";
+}
+multi sub speak (Hero $h) {
+    say "The hero, $h shouts!";
 }
 
 
