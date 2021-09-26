@@ -45,6 +45,7 @@ use v6;
     my @items =  <a b 42>;
     dd @items[2];
 
+
     
 
 }
