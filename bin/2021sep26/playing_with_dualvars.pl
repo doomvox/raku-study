@@ -40,6 +40,10 @@ say "The number is $n";
 say "Twice the number is: ", $n * 2;
 # Twice the number is: 10
 
+$n = 7;
+say "The number is $n";
+say "Twice the number is: ", $n * 2;
+
 
 __END__
 
