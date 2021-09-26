@@ -10,8 +10,7 @@ use v6;
 ##       they have two values that comes out in different contexts: a Str or an Int
 ##       you can't use them flexibly the other way:
 ##       I always want them to be something that either an integer or an integer in string form
-##         they actually "go the other way" (emit Str or Int depending on use?)
-##         the raku version of perl's dualvars?
+
 
 ## https://docs.raku.org/type/IntStr
 ##
