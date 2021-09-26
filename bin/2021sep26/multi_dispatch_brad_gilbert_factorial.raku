@@ -8,6 +8,8 @@ use v6;
 ## I don't see a "subset" (or a where) in this example.
 ## I *think* you could resolve is with an "is default".
 
+## Oh: does the notation "0 --> 1" create a subset?
+
 # Doing what you want would make using subsets with multis much less useful.
 
 #     multi factorial ( 0 --> 1 ){}
