@@ -14,12 +14,14 @@ use v6;
 
 # Doing what you want would make using subsets with multis much less useful.
 
-#     multi factorial ( 0 --> 1 ){}
-#     multi factorial ( 1 --> 1 ){}
-#     multi factorial ( UInt \n ){ factorial(n - 1) * n }
+{
+     multi factorial ( 0 --> 1 ){}
+     multi factorial ( 1 --> 1 ){}
+     multi factorial ( UInt \n ){ factorial(n - 1) * n }
 
-#     say factorial( 1 );
-#     # ERROR: both UInt and 1 subsets match.
+     say factorial( 1 );
+     # ERROR: both UInt and 1 subsets match.
+}
 
 # You could modify the general case, but that is tedious and error prone.
 
