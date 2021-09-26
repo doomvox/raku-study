@@ -22,7 +22,6 @@ speak('ghidora');  # The monster, ghidora roars!
 speak('beowulf');  # The hero, beowulf shouts!
 speak('mothera');  # The monster, mothera roars!
 
-
 say @monsters.elems, ' ', @heroes.elems;  # 6 6
 
 # https://docs.raku.org/language/glossary#index-entry-Multi-Dispatch
