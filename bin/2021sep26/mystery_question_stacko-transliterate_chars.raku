@@ -8,6 +8,7 @@ my $text =
 'MAL TIRRUEZF CR MAL RKZYIOL EX MAL OIY UAE RICF "MAL ACWALRM DYEUPLFWL CR ME DYEU MAIM UL IZL RKZZEKYFLF GH OHRMLZH';
 
 
+
 my %translate = (
     'M' => 'T',
     'A' => 'H',
