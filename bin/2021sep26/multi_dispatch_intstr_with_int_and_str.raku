@@ -29,6 +29,13 @@ my $intstr = IntStr.new(42, "forty two");
 # say $intstr;
 mission( $intstr );
 
+## Without the "is default" above
+# Ambiguous call to 'mission(IntStr)'; these signatures all match:
+#   (Str $p)
+#   (Int $p)
+
+
+
 ##====
 ## NOTES
 ## Note: I can never remember what IntStrs are *for* exactly.
