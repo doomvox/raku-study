@@ -63,6 +63,8 @@
 ** next meeting
 *** next meeting: Oct 10, 2021
 
+** misc notes
+
 *** plain text accounting site
 **** doing accounting using just plain text
 **** jeff hint
