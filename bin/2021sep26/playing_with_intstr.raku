@@ -55,6 +55,8 @@ use v6;
 }
 
 {
+    ## bruce's argument 
+
     say "===";
     my @metal_names  = < black_sabbath poison doom 666 >;
     my @metal_names  = ( 'black_sabbath', 'poison', 'doom', '666' );
