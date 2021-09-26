@@ -18,6 +18,7 @@ use v6;
 
 ## What is this notation?  A list of one element?
 dd <42>;
+## IntStr.new(42, "42")
 my $a = <42>;
 dd $a;
 
