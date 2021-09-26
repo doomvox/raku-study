@@ -10,11 +10,6 @@ playing_with_dualvars.pl
 =head1 DESCRIPTION
 
 Stub documentation for playing_with_dualvars.pl,
-created by template.el.
-
-It looks like the author of this script was negligent
-enough to leave the stub unedited.
-
 =cut
 
 use 5.10.0;
