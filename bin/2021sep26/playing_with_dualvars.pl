@@ -9,7 +9,8 @@ playing_with_dualvars.pl
 
 =head1 DESCRIPTION
 
-Stub documentation for playing_with_dualvars.pl,
+Stub documentation for playing_with_dualvars.pl.
+
 =cut
 
 use 5.10.0;
