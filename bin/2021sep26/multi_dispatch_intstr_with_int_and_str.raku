@@ -30,7 +30,9 @@ dd $intstr;
 
 say $intstr;
 
+mission( $intstr );
 
+##====
 ## NOTES
 ## Note: I can never remember what IntStrs are *for* exactly.
 ##       dim memory:
@@ -51,7 +53,7 @@ say $intstr;
 # say ~$f; # OUTPUT: «"forty two"␤»
 
 
-mission( $intstr );
+
 
 
 # ===
