@@ -44,11 +44,11 @@ use v6;
 {  # can you shut off this behavior with a qw?
     say "---";
     my @items =  <a b 42>;
-    dd @items[2]; # IntStr @items = IntStr.new(42, "42")
+    dd @items[2];  # IntStr @items = IntStr.new(42, "42")
 
     my @stuff = qw<a b 42>;
-    dd @stuff[2];
-
+    dd @stuff[2];  # Str @stuff = "42"
+    ## YES: conclusion, using <> quoting is a mugs game, qw<> is less surprising
 }
 
 { 
