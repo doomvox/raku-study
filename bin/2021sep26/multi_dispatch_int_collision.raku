@@ -10,8 +10,8 @@ multi sub speak (Int $i) {
     say "FIRST PLACE: The Int is $i";
 }
 
-# multi sub speak (Int $i) {
-multi sub speak (Int $i) is default {
+multi sub speak (Int $i) {
+# multi sub speak (Int $i) is default {
     say "SECOND PLACE: The Int is $i";
 }
 
