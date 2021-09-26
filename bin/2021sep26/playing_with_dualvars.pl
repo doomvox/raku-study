@@ -46,7 +46,7 @@ $n = dualvar( 7, "sacred seven" );
 say +$n;
 say "$n";
 
-
+$n = 7;
 $n = dualvar( undef, "sacred seven" );
 # Use of uninitialized value in subroutine entry at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/playing_with_dualvars.pl line 45.
 say +$n;  # sacred seven
