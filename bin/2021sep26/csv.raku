@@ -11,7 +11,6 @@ use Text::CSV;
 
 
 
-#   CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 # ===
 # Author:  doom@kzsu.stanford.edu
