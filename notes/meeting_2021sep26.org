@@ -66,3 +66,8 @@
 *** plain text accounting site
 **** doing accounting using just plain text
 **** jeff hint
+
+*** dd-recover
+**** copying data from dying media
+
+*** cryoflux
