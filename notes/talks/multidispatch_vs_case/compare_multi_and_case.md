@@ -1,30 +1,32 @@
-- [raku case vs multidispatch                                              f](#org3e5da90)
-  - [very roughly](#org19cb8e0)
-    - [case](#org8135277)
-    - [multi](#org8fc0a52)
-  - [utility](#orgf33f4e0)
-    - [case](#orgdef1f18)
-    - [multi](#org752d1b7)
+- [raku case vs multidispatch                                              f](#org11a6f63)
+  - [very roughly](#orgc0ac68f)
+    - [case](#org2462b63)
+    - [multi](#org574111e)
+  - [utility](#org394e2f8)
+    - [case](#org3959649)
+    - [multi](#org4187380)
 
 
-<a id="org3e5da90"></a>
+<a id="org11a6f63"></a>
 
 # raku case vs multidispatch                                              f
 
 
-<a id="org19cb8e0"></a>
+<a id="orgc0ac68f"></a>
 
 ## very roughly
 
 
-<a id="org8135277"></a>
+<a id="org2462b63"></a>
 
 ### case
 
 1.  an obvious lexical sequence of comparisons (running a gauntlet)
 
+2.  "default" means the catch-all, the alternative if no other cases match
 
-<a id="org8fc0a52"></a>
+
+<a id="org574111e"></a>
 
 ### multi
 
@@ -40,20 +42,22 @@
 
 2.  code that handles various types can be scattered, defined in different places
 
+3.  there's an "is default" trait available to break ties in type specificity
 
-<a id="orgf33f4e0"></a>
+
+<a id="org394e2f8"></a>
 
 ## utility
 
 
-<a id="orgdef1f18"></a>
+<a id="org3959649"></a>
 
 ### case
 
 1.  good for any sort of comparison, e.g. pattern matches
 
 
-<a id="org752d1b7"></a>
+<a id="org4187380"></a>
 
 ### multi
 

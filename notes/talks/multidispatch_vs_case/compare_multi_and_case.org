@@ -2,6 +2,7 @@
 ** very roughly
 *** case
 **** an obvious lexical sequence of comparisons (running a gauntlet)
+**** "default" means the catch-all, the alternative if no other cases match
 *** multi
 **** orders cases ~by "specificity", not lexically 
 ***** in the case of subsets, falls back to order of definition
@@ -10,6 +11,7 @@
 ******* uses the order of definition for subsets based on same type 
 
 **** code that handles various types can be scattered, defined in different places
+**** there's an "is default" trait available to break ties in type specificity
 
 ** utility
 *** case 
