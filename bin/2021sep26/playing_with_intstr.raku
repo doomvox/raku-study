@@ -20,6 +20,7 @@ use v6;
 dd <42>;
 ## IntStr.new(42, "42")
 my $a = <42>;
+## IntStr $a = IntStr.new(42, "42")
 dd $a;
 
 my $int-str = <42>;
