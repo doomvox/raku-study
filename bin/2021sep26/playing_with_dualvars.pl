@@ -24,6 +24,7 @@ use strict;
 $|=1;
 use Data::Dumper;
 
+## man Scalar::Util
 
 
 
