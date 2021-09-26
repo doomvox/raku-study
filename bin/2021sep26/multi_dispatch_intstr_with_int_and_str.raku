@@ -25,11 +25,8 @@ mission(3);    # sub mission recieved an Int: 3
 # ## see NOTES
 
 my $intstr = IntStr.new(42, "forty two");
-
-dd $intstr;
-
-say $intstr;
-
+# dd $intstr;
+# say $intstr;
 mission( $intstr );
 
 ##====
