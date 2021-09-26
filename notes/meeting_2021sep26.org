@@ -75,4 +75,7 @@
 
 **** kryoflux
 ***** https://kryoflux.com/ 
-***** Floppy disk archival tool 
+***** Floppy disk archival tool
+
+**** harddrive in the freezer trick
+***** can work on SSDs
