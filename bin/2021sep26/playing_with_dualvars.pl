@@ -9,7 +9,11 @@ playing_with_dualvars.pl
 
 =head1 DESCRIPTION
 
-Stub documentation for playing_with_dualvars.pl.
+Playing with perl's dualvar feature, an internal
+performance hack that you can access explicitly 
+via Scalar::Util's dualvar, because this is perl.
+
+Mostly just a perl oddity: not particularly useful.
 
 =cut
 
