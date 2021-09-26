@@ -51,7 +51,6 @@ use v6;
     ## YES: conclusion, using <> quoting is a mugs game, qw<> is less surprising
 
     ## And I guess: maybe I like qqw<...> better than <<...>>;
-
 }
 
 { 
