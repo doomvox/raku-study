@@ -66,6 +66,7 @@ use v6;
     $name = "six_six_six";
     say $name;  # six_six_six
 
+    @metal_names[3] = 'six_six_six';
 
 
     }
