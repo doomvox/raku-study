@@ -17,56 +17,21 @@ my %translate = (
     E => I,
     X => S,
 );
-(Any other letter) = _
-(Anything else) = (itself)
 
-I have the fixed characters covered with:
+## (Any other letter) = _
+## (Anything else) = (itself)
 
-tr MALCREX THEOFIS < file.txt
+## I have the fixed characters covered with:
 
-Or:
+## tr MALCREX THEOFIS < file.txt
 
-sed 'y/MALCREX/THEOFIS/' < file.txt
+## Or:
 
-But how could I enforce the last two rules I mentioned?
+## sed 'y/MALCREX/THEOFIS/' < file.txt
 
-
-
-# ====
-#  sheet of cheats
-
-# A unicode paste board:
-# «
-# »
-# π
-# 𝑒
-
-# use DBIish;
-# my $dbh = DBIish.connect("Pg", database => 'doom', :user<doom>, :port<5434>);
-
-# my $sth = $dbh.prepare(q:to/STATEMENT/);
-#     SELECT * FROM funked_up
-# STATEMENT
-
-# $sth.execute();
-# my @rows = $sth.allrows();
+## But how could I enforce the last two rules I mentioned?
 
 
-
-# external commands without shell:
-# my $arg = 'Hello';
-# my $captured = run('echo', $arg, :out).out.slurp;
-# my $captured = run(«echo "$arg"», :out).out.slurp;
-
-
-# using shell:
-# my $arg = 'Hello';
-# my $captured = shell("echo $arg", :out).out.slurp;
-# my $captured = qqx{echo $arg};
-
-
-## Try to make errors into warnings
-#   CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 # ===
 # Author:  doom@kzsu.stanford.edu
