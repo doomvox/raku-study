@@ -4,5 +4,7 @@
 ** multidispatch
 *** uses specificity to order comparisons (mostly)
 **** in the case of subsets, uses order of definition
-***** groups subsets by the type they're based on
-***** uses the order of definition for subsets based on same type 
+***** subsets are essentially grouped by the type they're based on
+***** BUT they don't behave like two multis with same type
+****** uses the order of definition for subsets based on same type 
+
