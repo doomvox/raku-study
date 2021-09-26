@@ -1,59 +1,60 @@
-- [meeting notes September 16, 2021                                      a](#org9cd7b30)
-  - [the usual links:](#orgdf2c83a)
-    - [meeting notes](#org042e4ee)
-    - [code examples:](#org2d1862c)
-  - [battle plan](#orga79956f)
-    - [bin pre-loaded with small ammo](#orgeea5632)
-    - [nano-lightning talk: given-when vs multi-dispatch](#org0d9f126)
-    - [data-handling in raku](#org915abcb)
-    - [Data::Reshapers](#orgb96e81b)
-    - [secure json-ification, vadim belman](#org50a7f0c)
-    - [lispyness of raku](#orgea1b808)
-    - [pairs of separators from a string](#orgfad27ba)
-    - [bioinformatics on rosettacode](#org06247a1)
-    - [once around the net](#orgfb7e733)
-    - [the ephemeral miniconf: nov 18 2021](#org0ec0915)
-  - [next meeting](#orgfbc447d)
-    - [next meeting: Oct 10, 2021](#orgf5561f9)
+- [meeting notes September 16, 2021                                      a](#orga85c1a5)
+  - [the usual links:](#org6ca020d)
+    - [meeting notes](#org643a7ae)
+    - [code examples:](#org77fcc7a)
+  - [battle plan](#org2ac0ec2)
+    - [bin pre-loaded with small ammo](#org2cae8b7)
+    - [nano-lightning talk: given-when vs multi-dispatch](#org0a9ba3d)
+    - [data-handling in raku](#org362a8c8)
+    - [intermixed types and resulting types](#orgebe16fd)
+    - [Data::Reshapers](#org47c811d)
+    - [secure json-ification, vadim belman](#org233eb9c)
+    - [lispyness of raku](#org009afbb)
+    - [pairs of separators from a string](#org14585fa)
+    - [bioinformatics on rosettacode](#orgd2fc60a)
+    - [once around the net](#org1bf0e5e)
+    - [the ephemeral miniconf: nov 18 2021](#org0ecd3d3)
+  - [next meeting](#orgb7ff19a)
+    - [next meeting: Oct 10, 2021](#orgef9c827)
 
 
-<a id="org9cd7b30"></a>
+<a id="orga85c1a5"></a>
 
 # meeting notes September 16, 2021                                      a
 
 
-<a id="orgdf2c83a"></a>
+<a id="org6ca020d"></a>
 
 ## the usual links:
 
 
-<a id="org042e4ee"></a>
+<a id="org643a7ae"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="org2d1862c"></a>
+<a id="org77fcc7a"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="orga79956f"></a>
+<a id="org2ac0ec2"></a>
 
 ## battle plan
 
 
-<a id="orgeea5632"></a>
+<a id="org2cae8b7"></a>
 
 ### bin pre-loaded with small ammo
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="org0d9f126"></a>
+<a id="org0a9ba3d"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -76,7 +77,7 @@
             2.  note: "default" means something different in the two approaches
 
 
-<a id="org915abcb"></a>
+<a id="org362a8c8"></a>
 
 ### data-handling in raku
 
@@ -89,14 +90,23 @@
     1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/>
 
 
-<a id="orgb96e81b"></a>
+<a id="orgebe16fd"></a>
+
+### intermixed types and resulting types
+
+1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/08/msg10102.html>
+
+2.  a few weeks old&#x2013; I still want to respond to it
+
+
+<a id="org47c811d"></a>
 
 ### Data::Reshapers
 
 1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
 
 
-<a id="org50a7f0c"></a>
+<a id="org233eb9c"></a>
 
 ### secure json-ification, vadim belman
 
@@ -107,7 +117,7 @@
 3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="orgea1b808"></a>
+<a id="org009afbb"></a>
 
 ### lispyness of raku
 
@@ -116,21 +126,21 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="orgfad27ba"></a>
+<a id="org14585fa"></a>
 
 ### pairs of separators from a string
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html>
 
 
-<a id="org06247a1"></a>
+<a id="orgd2fc60a"></a>
 
 ### bioinformatics on rosettacode
 
 1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="orgfb7e733"></a>
+<a id="org1bf0e5e"></a>
 
 ### once around the net
 
@@ -145,18 +155,18 @@
 4.  rosettacode
 
 
-<a id="org0ec0915"></a>
+<a id="org0ecd3d3"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="orgfbc447d"></a>
+<a id="orgb7ff19a"></a>
 
 ## next meeting
 
 
-<a id="orgf5561f9"></a>
+<a id="orgef9c827"></a>
 
 ### next meeting: Oct 10, 2021
