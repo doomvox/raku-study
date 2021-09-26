@@ -28,9 +28,9 @@ use v6;
 }
 
 # You could modify the general case, but that is tedious and error prone.
-
+# 
 #     multi factorial ( Int \n where {$_ >= 0 && $_ != 0 && $_ != 1} ){ factorial(n - 1) * n }
-
+# 
 # (The reason I didn't just do $_ >= 2 is that if another multi is added it should be dealt with in the same way as 0 and 1)
 
 
