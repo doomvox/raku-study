@@ -10,9 +10,9 @@ my $file = "/home/doom/tmp/tta.txt";
 
 IO::CatHandle.new(:bin, $file).slurp.say;
 
-my @array = IO::CatHandle.new(:bin, $file).slurp.say;
+my @array = IO::CatHandle.new(:bin, $file).slurp;
 
-
+say @array.pop(1);
 
 
 
