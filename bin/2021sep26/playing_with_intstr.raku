@@ -40,6 +40,17 @@ use v6;
     #     say < 42 > ~~ Str; # OUTPUT: «True␤»
 }
 
+## asides within asides
+{  # can you shut off this behavior with a qw?
+    my @items =  <a b 42>;
+    dd @items[2];
+
+    
+
+}
+
+
+
 { 
   ## Makes more sense to me:
     my $f = IntStr.new(9, "nine");
