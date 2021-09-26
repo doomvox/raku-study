@@ -16,8 +16,9 @@ use v6;
 ## https://docs.raku.org/type/IntStr
 ## https://docs.raku.org/type/Allomorph
 
-## my $int-str = <42>;
-## Huh?
+## What is this notation?  A list of one element?
+my $int-str = <42>;
+## 
 
 ## Better:
 # my $f = IntStr.new(42, "forty two");
