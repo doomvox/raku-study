@@ -8,12 +8,18 @@ use v6;
 
 my $file = "/home/doom/tmp/tta.txt";
 
-IO::CatHandle.new(:bin, $file).slurp.say;
+# IO::CatHandle.new(:bin, $file).slurp.say;
 
-my @array = IO::CatHandle.new(:bin, $file).slurp;
-say @array.elems; # 1
-say @array[0];
-say @array[0].pop(1);
+# my @array = IO::CatHandle.new(:bin, $file).slurp;
+# say @array.elems; # 1
+# say @array[0];
+# say @array[0].pop(1);
+
+
+my $z = $file.IO.slurp(:bin);
+say $z.pop;
+say $z.pop;
+
 
 
 
