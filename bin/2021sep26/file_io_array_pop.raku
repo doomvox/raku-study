@@ -25,7 +25,6 @@ say chr(108); # l
 
 for ( 0 .. 24 ) { 
     say $z.head($i).tail(1);  # (108)
-
 }
 
 
