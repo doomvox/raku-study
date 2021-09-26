@@ -13,9 +13,11 @@ IO::CatHandle.new(:bin, $file).slurp.say;
 my @array = IO::CatHandle.new(:bin, $file).slurp;
 say @array.elems; # 1
 say @array[0];
-# say @array.pop(1);
+say @array[0].pop(1);
 
-say @array[0].^method_names;
+
+
+# say @array[0].^method_names;
 # (write-int8 
 # write-int16 
 # write-int32 
