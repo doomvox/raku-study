@@ -49,6 +49,9 @@ use v6;
     my @stuff = qw<a b 42>;
     dd @stuff[2];  # Str @stuff = "42"
     ## YES: conclusion, using <> quoting is a mugs game, qw<> is less surprising
+
+    ## And I guess: maybe I like qqw<> better than <<>>;
+
 }
 
 { 
