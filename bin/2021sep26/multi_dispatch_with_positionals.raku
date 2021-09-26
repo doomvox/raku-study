@@ -6,6 +6,9 @@
 
 use v6;
 
+## demo of type specificity, the List and Array versions can 
+## take precedence over the general Positional version:
+
 my @monsters = < godzilla mothera ghidora gammera golem wormface >;
 my @heroes   = < beowulf maynard_g_krebs bluebeetle bernie mothera godzilla >;
 
