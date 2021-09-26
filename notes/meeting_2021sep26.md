@@ -1,64 +1,64 @@
-- [meeting notes September 16, 2021                                      a](#orgf8bd1d8)
-  - [the usual links:](#orgc30ee64)
-    - [meeting notes](#orga48199e)
-    - [code examples:](#org584bf2a)
-  - [battle plan](#orgfa657b9)
-    - [bin pre-loaded with small ammo](#orgae8a4e5)
-    - [nano-lightning talk: given-when vs multi-dispatch](#orgb151e03)
-    - [data-handling in raku](#orgc10a1af)
-    - [intermixed types and resulting types](#org8cf32d7)
-    - [Data::Reshapers](#org518315a)
-    - [secure json-ification, vadim belman](#org5b2f9e1)
-    - [lispyness of raku](#org871518e)
-    - [pairs of separators from a string](#org84e1650)
-    - [bioinformatics on rosettacode](#orga608aef)
-    - [lca (old topic)](#org2d5d9a9)
-    - [once around the net](#org393a5a1)
-    - [the ephemeral miniconf: nov 18 2021](#org77eb20d)
-  - [next meeting](#orgd18374e)
-    - [next meeting: Oct 10, 2021](#org5b340c9)
-    - [plain text accounting site](#orgdfed50f)
-    - [dd-recover](#org4589f89)
-    - [cryoflux](#orgf609127)
+- [meeting notes September 16, 2021                                      a](#org651b77b)
+  - [the usual links:](#orgd0f1362)
+    - [meeting notes](#org3bb23e8)
+    - [code examples:](#org2e69821)
+  - [battle plan](#org7f848c4)
+    - [bin pre-loaded with small ammo](#org73987f5)
+    - [nano-lightning talk: given-when vs multi-dispatch](#orgc9b4d76)
+    - [data-handling in raku](#org19b7b6c)
+    - [intermixed types and resulting types](#org3a18ffc)
+    - [Data::Reshapers](#orga7fd91d)
+    - [secure json-ification, vadim belman](#org2b08f76)
+    - [lispyness of raku](#org6a78bbc)
+    - [pairs of separators from a string](#orge472939)
+    - [bioinformatics on rosettacode](#org10a8d9b)
+    - [lca (old topic)](#org0c684c3)
+    - [once around the net](#org86e91a6)
+    - [the ephemeral miniconf: nov 18 2021](#org5b0547b)
+  - [next meeting](#orgf6cabaa)
+    - [next meeting: Oct 10, 2021](#orgb97675e)
+    - [plain text accounting site](#org05a220e)
+    - [ddrescue, dd<sub>rescue</sub>](#orgb82f6f5)
+    - [cryoflux](#org20c405b)
 
 
-<a id="orgf8bd1d8"></a>
+<a id="org651b77b"></a>
 
 # meeting notes September 16, 2021                                      a
 
 
-<a id="orgc30ee64"></a>
+<a id="orgd0f1362"></a>
 
 ## the usual links:
 
 
-<a id="orga48199e"></a>
+<a id="org3bb23e8"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="org584bf2a"></a>
+<a id="org2e69821"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="orgfa657b9"></a>
+<a id="org7f848c4"></a>
 
 ## battle plan
 
 
-<a id="orgae8a4e5"></a>
+<a id="org73987f5"></a>
 
 ### bin pre-loaded with small ammo
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="orgb151e03"></a>
+<a id="orgc9b4d76"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -89,7 +89,7 @@
                 3.  brad gilbert argues it has to be this way for performance reasons
 
 
-<a id="orgc10a1af"></a>
+<a id="org19b7b6c"></a>
 
 ### data-handling in raku
 
@@ -102,7 +102,7 @@
     1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/>
 
 
-<a id="org8cf32d7"></a>
+<a id="org3a18ffc"></a>
 
 ### intermixed types and resulting types
 
@@ -113,14 +113,14 @@
     1.  TODO a few weeks old&#x2013; I still want to respond to it
 
 
-<a id="org518315a"></a>
+<a id="orga7fd91d"></a>
 
 ### Data::Reshapers
 
 1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
 
 
-<a id="org5b2f9e1"></a>
+<a id="org2b08f76"></a>
 
 ### secure json-ification, vadim belman
 
@@ -131,7 +131,7 @@
 3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="org871518e"></a>
+<a id="org6a78bbc"></a>
 
 ### lispyness of raku
 
@@ -140,7 +140,7 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="org84e1650"></a>
+<a id="orge472939"></a>
 
 ### pairs of separators from a string
 
@@ -149,7 +149,7 @@
 2.  a discussion yary was involved in, which indicates there's something interesting
 
 
-<a id="orga608aef"></a>
+<a id="org10a8d9b"></a>
 
 ### bioinformatics on rosettacode
 
@@ -158,7 +158,7 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org2d5d9a9"></a>
+<a id="org0c684c3"></a>
 
 ### lca (old topic)
 
@@ -169,7 +169,7 @@
 3.  write it up as an answer of it's own.
 
 
-<a id="org393a5a1"></a>
+<a id="org86e91a6"></a>
 
 ### once around the net
 
@@ -184,24 +184,24 @@
 4.  rosettacode
 
 
-<a id="org77eb20d"></a>
+<a id="org5b0547b"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="orgd18374e"></a>
+<a id="orgf6cabaa"></a>
 
 ## next meeting
 
 
-<a id="org5b340c9"></a>
+<a id="orgb97675e"></a>
 
 ### next meeting: Oct 10, 2021
 
 
-<a id="orgdfed50f"></a>
+<a id="org05a220e"></a>
 
 ### plain text accounting site
 
@@ -210,13 +210,13 @@
 2.  jeff hint
 
 
-<a id="org4589f89"></a>
+<a id="orgb82f6f5"></a>
 
-### dd-recover
+### ddrescue, dd<sub>rescue</sub>
 
 1.  copying data from dying media
 
 
-<a id="orgf609127"></a>
+<a id="org20c405b"></a>
 
 ### cryoflux

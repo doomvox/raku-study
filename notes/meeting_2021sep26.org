@@ -67,7 +67,7 @@
 **** doing accounting using just plain text
 **** jeff hint
 
-*** dd-recover
+*** ddrescue, dd_rescue
 **** copying data from dying media
 
 *** cryoflux
