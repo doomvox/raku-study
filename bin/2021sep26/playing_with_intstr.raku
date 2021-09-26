@@ -60,7 +60,14 @@ use v6;
     my $f = IntStr.new(9, "nine");
     say +$f; # 9
     say ~$f; # nine
+
+    ## $f = 66;
+    ## $f = IntStr.new(66, "66");
+
+    ## $f = <66>;
 }
+
+
 
 
 # {
