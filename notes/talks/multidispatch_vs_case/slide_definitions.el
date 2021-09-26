@@ -1,4 +1,4 @@
-;;; slide_definitions.el --- 
+;;; slide_definitions.el ---                                               z
 
 ;; Copyright 2021 Joseph Brenner
 ;;
@@ -26,7 +26,7 @@
 (setq slip-and-slide-alist ;; A -> H   J   L -> O
   '(
     ;; general meeting notes
-    ( a . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/meeting_2021sep26.md" )
+    ( a . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/meeting_2021sep26.org" )
     ;; 
     ( b . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/talks/multidispatch_vs_case/intro.txt" )
 
