@@ -27,6 +27,9 @@ my IntStr $intstr = 9;
 ##       dim memory:
 ##         I want them to be something that accepts integers in either string or integer form
 ##         they actually "go the other way" (emit Str or Int depending on use?)
+##         the raku version of perl's dualvars?
+
+## https://docs.raku.org/type/IntStr
 
 
 
