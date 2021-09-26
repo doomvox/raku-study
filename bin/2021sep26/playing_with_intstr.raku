@@ -17,6 +17,7 @@ use v6;
 ## https://docs.raku.org/type/IntStr
 ##
 ## Inherit from Allomorph
+## https://docs.raku.org/type/Allomorph
 
 ## my $int-str = <42>;
 ## Huh?
