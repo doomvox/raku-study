@@ -44,11 +44,6 @@ use v6;
 {  # can you shut off this behavior with a qw?
     say "---";
 
-    my @monsters = < godzilla mothera ghidora gammera golem rhodan >;  # ('godzilla', 'mothera');
-
-
-
-
     my @items =  <a b 42>;
     dd @items[2];  # IntStr @items = IntStr.new(42, "42")
 
