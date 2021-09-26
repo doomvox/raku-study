@@ -17,8 +17,8 @@ multi sub mission (Int $p) {
     say "sub mission recieved an Int: $p";
 }
 
-mission("3");
-mission(3);
+mission("3");  # sub mission recieved a Str: 3
+mission(3);    # sub mission recieved an Int: 3
 
 my IntStr $intstr;
 $intstr = "9";
