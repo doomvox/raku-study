@@ -40,6 +40,8 @@
     ;; minimal summary of the differences
     ( f . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/talks/multidispatch_vs_case/compare.org" )
 
+
+
     ( z . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/talks/multidispatch_vs_case/slide_definitions.el" )
 
    ))
