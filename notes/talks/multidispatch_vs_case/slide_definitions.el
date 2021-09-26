@@ -40,6 +40,8 @@
     ;; minimal summary of the differences
     ( f . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/talks/multidispatch_vs_case/compare.org" )
 
+    ;; demo of Ambiguous call error
+    ( g . "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/multi_dispatch_int_collision.raku")
 
 
     ( z . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/talks/multidispatch_vs_case/slide_definitions.el" )
