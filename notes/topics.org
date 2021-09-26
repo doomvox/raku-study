@@ -65,3 +65,6 @@ https://course.raku.org/
 
 *** immutability 
 **** https://stackoverflow.com/questions/63294853/how-to-enforce-immutability-with-the-raku-typesystem?rq=1
+
+*** frequently revisited doc pages
+**** https://docs.raku.org/language/operators
