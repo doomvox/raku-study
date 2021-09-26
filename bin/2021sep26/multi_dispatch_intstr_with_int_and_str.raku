@@ -20,9 +20,12 @@ multi sub mission (Int $p) {
 mission("3");  # sub mission recieved a Str: 3
 mission(3);    # sub mission recieved an Int: 3
 
-my IntStr $intstr = 9;
-#  Type check failed in assignment to $intstr; expected IntStr but got Int (9)
+# my IntStr $intstr = 9;
+# #  Type check failed in assignment to $intstr; expected IntStr but got Int (9)
 ## see NOTES
+
+my $intstr = IntStr.new(42, "forty two");
+
 
 
 ## NOTES
