@@ -1,31 +1,34 @@
-- [raku case vs multidispatch](#orgdbeb1a8)
-  - [case](#orgd49d79a)
-    - [uses lexical sequence to order comparisons](#org1d5bcf8)
-  - [multidispatch](#org99378c0)
-    - [uses specificity to order comparisons (mostly)](#orge10d867)
+- [raku case vs multidispatch](#orgf71cef6)
+  - [case](#orgd8a7dcb)
+    - [uses lexical sequence to order comparisons](#org14b7214)
+  - [multidispatch](#org4ecf9e7)
+    - [uses specificity to order comparisons (mostly)](#org3def24c)
+  - [would've like to say:](#orge834e6a)
+    - [case](#org2004e1c)
+    - [multi](#orgbda8f41)
 
 
-<a id="orgdbeb1a8"></a>
+<a id="orgf71cef6"></a>
 
 # raku case vs multidispatch
 
 
-<a id="orgd49d79a"></a>
+<a id="orgd8a7dcb"></a>
 
 ## case
 
 
-<a id="org1d5bcf8"></a>
+<a id="org14b7214"></a>
 
 ### uses lexical sequence to order comparisons
 
 
-<a id="org99378c0"></a>
+<a id="org4ecf9e7"></a>
 
 ## multidispatch
 
 
-<a id="orge10d867"></a>
+<a id="org3def24c"></a>
 
 ### uses specificity to order comparisons (mostly)
 
@@ -36,3 +39,24 @@
     2.  BUT they don't behave like two multis with same type
     
         1.  uses the order of definition for subsets based on same type
+
+
+<a id="orge834e6a"></a>
+
+## would've like to say:
+
+
+<a id="org2004e1c"></a>
+
+### case
+
+1.  running a gauntlet, an obvious lexically determined order of comparisons
+
+
+<a id="orgbda8f41"></a>
+
+### multi
+
+1.  orders types by "specificity", not lexically (not entirely true)
+
+2.  code that handles various types can be scattered, defined in different places

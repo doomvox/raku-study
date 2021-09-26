@@ -8,3 +8,10 @@
 ***** BUT they don't behave like two multis with same type
 ****** uses the order of definition for subsets based on same type 
 
+** would've like to say:
+
+*** case
+**** running a gauntlet, an obvious lexically determined order of comparisons 
+*** multi
+**** orders types by "specificity", not lexically (not entirely true)
+**** code that handles various types can be scattered, defined in different places
