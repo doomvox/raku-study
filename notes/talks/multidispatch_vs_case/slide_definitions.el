@@ -45,6 +45,8 @@
 
     ;; brad gilbert mentions the case of IntStr/Int/Str
 
+    ( h . "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/multi_dispatch_intstr_with_int_and_str.raku")
+
 
     ( z . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/talks/multidispatch_vs_case/slide_definitions.el" )
 
