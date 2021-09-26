@@ -17,6 +17,13 @@ my %translate = (
     'X' => 'S',
 );
 
+for $text.split -> $c {
+    say $c;
+
+}
+
+
+
 ## (Any other letter) = _
 ## (Anything else) = (itself)
 
