@@ -6,6 +6,8 @@ use v6;
 
 ## Jeff question 
 
+my $file = "/home/doom/tmp/tta.txt";
+
 
 
 
