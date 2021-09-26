@@ -32,6 +32,9 @@ use Scalar::Util qw( dualvar );
 #            $str = $foo . " world";             # Hello world
 
 
+my $n = dualvar( 5, "five" );
+
+say "The number is $n";
 
 
 
