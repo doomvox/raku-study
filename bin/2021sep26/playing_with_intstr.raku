@@ -37,15 +37,15 @@ use v6;
 }
 
 
-{
-    my IntStr(Cool) $n;
-    $n = 42;
-    dd $n;
+# {
+#     my IntStr(Cool) $n;
+#     $n = 42;
+#     dd $n;
 
-# Coercion 'IntStr(Cool)' is insufficiently type-like to qualify a
-# variable.  Did you mean 'class'?
+# # Coercion 'IntStr(Cool)' is insufficiently type-like to qualify a
+# # variable.  Did you mean 'class'?
 
-}
+# }
 
 
 
