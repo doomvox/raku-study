@@ -1,30 +1,30 @@
-- [raku case vs multidispatch](#org30e4b6c)
-  - [very roughly](#org0b5d5b6)
-    - [case](#org4a5b722)
-    - [multi](#orge0e29a4)
-  - [utility](#org1e7a4c1)
-    - [case](#org16be405)
-    - [multi](#orgbae6cdc)
+- [raku case vs multidispatch](#org4a79872)
+  - [very roughly](#orgbcae8f8)
+    - [case](#org5e9d2e1)
+    - [multi](#orgadb6fe5)
+  - [utility](#orgc9dec50)
+    - [case](#org4cffdb2)
+    - [multi](#org073a518)
 
 
-<a id="org30e4b6c"></a>
+<a id="org4a79872"></a>
 
 # raku case vs multidispatch
 
 
-<a id="org0b5d5b6"></a>
+<a id="orgbcae8f8"></a>
 
 ## very roughly
 
 
-<a id="org4a5b722"></a>
+<a id="org5e9d2e1"></a>
 
 ### case
 
 1.  an obvious lexical sequence of comparisons (running a gauntlet)
 
 
-<a id="orge0e29a4"></a>
+<a id="orgadb6fe5"></a>
 
 ### multi
 
@@ -32,7 +32,7 @@
 
     1.  in the case of subsets, falls back to order of definition
     
-        1.  subsets are essentially grouped by the type they're based on
+        1.  subsets are grouped by the type they're based on
         
         2.  BUT they don't behave like two multis with same type
         
@@ -41,19 +41,19 @@
 2.  code that handles various types can be scattered, defined in different places
 
 
-<a id="org1e7a4c1"></a>
+<a id="orgc9dec50"></a>
 
 ## utility
 
 
-<a id="org16be405"></a>
+<a id="org4cffdb2"></a>
 
 ### case
 
 1.  good for any sort of comparison, e.g. pattern matches
 
 
-<a id="orgbae6cdc"></a>
+<a id="org073a518"></a>
 
 ### multi
 
