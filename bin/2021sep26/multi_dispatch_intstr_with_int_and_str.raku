@@ -21,8 +21,13 @@ mission("3");  # sub mission recieved a Str: 3
 mission(3);    # sub mission recieved an Int: 3
 
 my IntStr $intstr = 9;
+#  Type check failed in assignment to $intstr; expected IntStr but got Int (9)
 mission( $intstr );
 
+## Note: I can never remember what IntStrs are *for* exactly.
+##       dim memory:
+##         I want them to be something that accepts integers in either string or integer form
+##         they actually "go the other way" (emit Str or Int depending on use?)
 
 # ===
 # Author:  doom@kzsu.stanford.edu
