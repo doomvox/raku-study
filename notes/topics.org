@@ -62,3 +62,5 @@ https://course.raku.org/
   -rw-r--r--  1 doom doom  1505 Jan 12 11:52 meeting_2020jan10.org
   -rw-r--r--  1 doom doom  2158 Dec 19 17:17 meeting_2020dec13.org
   -rw-r--r--  1 doom doom  2146 Dec  7 13:23 meeting_2020dec06.org
+*** immutability 
+https://stackoverflow.com/questions/63294853/how-to-enforce-immutability-with-the-raku-typesystem?rq=1
