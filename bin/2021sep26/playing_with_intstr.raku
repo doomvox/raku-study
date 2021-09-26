@@ -67,9 +67,6 @@ use v6;
     ## $f = <66>;
 }
 
-
-
-
 # {
 #     my IntStr(Cool) $n;
 #     $n = 42;
