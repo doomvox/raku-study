@@ -31,7 +31,6 @@ use Scalar::Util qw( dualvar );
 #            $num = $foo + 2;                    # 12
 #            $str = $foo . " world";             # Hello world
 
-
 my $n = dualvar( 5, "five" );
 
 say "The number is $n";                # The number is five
