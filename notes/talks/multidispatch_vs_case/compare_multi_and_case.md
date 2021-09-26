@@ -1,23 +1,23 @@
-- [raku case vs multidispatch                                              f](#org11a6f63)
-  - [very roughly](#orgc0ac68f)
-    - [case](#org2462b63)
-    - [multi](#org574111e)
-  - [utility](#org394e2f8)
-    - [case](#org3959649)
-    - [multi](#org4187380)
+- [raku case vs multidispatch                                              f](#orgdb896d8)
+  - [very roughly](#org7188e6e)
+    - [case](#org565d818)
+    - [multi](#org91b4069)
+  - [utility](#orgaeed05d)
+    - [case](#org6cfe47d)
+    - [multi](#org22afca2)
 
 
-<a id="org11a6f63"></a>
+<a id="orgdb896d8"></a>
 
 # raku case vs multidispatch                                              f
 
 
-<a id="orgc0ac68f"></a>
+<a id="org7188e6e"></a>
 
 ## very roughly
 
 
-<a id="org2462b63"></a>
+<a id="org565d818"></a>
 
 ### case
 
@@ -26,7 +26,7 @@
 2.  "default" means the catch-all, the alternative if no other cases match
 
 
-<a id="org574111e"></a>
+<a id="org91b4069"></a>
 
 ### multi
 
@@ -45,19 +45,19 @@
 3.  there's an "is default" trait available to break ties in type specificity
 
 
-<a id="org394e2f8"></a>
+<a id="orgaeed05d"></a>
 
 ## utility
 
 
-<a id="org3959649"></a>
+<a id="org6cfe47d"></a>
 
 ### case
 
 1.  good for any sort of comparison, e.g. pattern matches
 
 
-<a id="org4187380"></a>
+<a id="org22afca2"></a>
 
 ### multi
 

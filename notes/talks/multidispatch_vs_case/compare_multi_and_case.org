@@ -9,7 +9,6 @@
 ****** subsets are grouped by the type they're based on
 ****** BUT they don't behave like two multis with same type
 ******* uses the order of definition for subsets based on same type 
-
 **** code that handles various types can be scattered, defined in different places
 **** there's an "is default" trait available to break ties in type specificity
 
