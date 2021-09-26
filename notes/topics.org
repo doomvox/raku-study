@@ -69,4 +69,4 @@ https://course.raku.org/
 *** frequently revisited doc pages
 **** https://docs.raku.org/language/operators
 **** https://docs.raku.org/language/pod
-**** https://docs.raku.org/type/Tes
+**** https://docs.raku.org/type/Test
