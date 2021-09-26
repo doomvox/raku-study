@@ -52,7 +52,7 @@ say $n+0;  # 0
 say "$n";  # sacred seven
 
 ## Note: no one can think of anything useful to do with this trick.
-## Maybe: months that are numbers and month names?
+## e.g. months that are numbers and month names?
 
 
 
