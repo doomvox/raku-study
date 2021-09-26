@@ -54,6 +54,13 @@ use v6;
     ## And I guess: maybe I like qqw<...> better than <<...>>;
 }
 
+{
+    my @metal_names  = < black_sabbath poison doom 666 >;
+
+
+    }
+
+
 { 
     ## Makes more sense to me:
     say "===";
