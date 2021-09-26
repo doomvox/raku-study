@@ -22,6 +22,9 @@ say $z.pop; # 10
 
 say $z.head(6).tail(1);  # (108)
 
+say chr(108);
+
+
 
 # say @array[0].^method_names;
 # (write-int8 
