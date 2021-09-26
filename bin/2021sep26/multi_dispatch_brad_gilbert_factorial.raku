@@ -4,6 +4,9 @@
 
 use v6;
 
+## I don't think I see what brad gilbert is getting at here
+## I don't see a "subset" (or a where) in this example.
+## I *think* you could resolve is with an "is default".
 
 # Doing what you want would make using subsets with multis much less useful.
 
