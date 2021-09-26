@@ -65,8 +65,8 @@ use v6;
     ## $f = IntStr.new(66, "66");
 
     ## $f = <66>;
-## my variation (not correct)
-##    $f = qis<66>;
+    ## my variation (not correct)
+    ##    $f = qis<66>;
 }
 
 # {
@@ -76,7 +76,6 @@ use v6;
 
 # # Coercion 'IntStr(Cool)' is insufficiently type-like to qualify a
 # # variable.  Did you mean 'class'?
-
 # }
 
 
