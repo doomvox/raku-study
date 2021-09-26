@@ -63,8 +63,7 @@ use v6;
     say $name;  # 666
 
     $name = "six_six_six";
-    say $name;
-
+    say $name;  # six_six_six
     }
 
 
