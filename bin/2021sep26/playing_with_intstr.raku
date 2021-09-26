@@ -46,6 +46,9 @@ use v6;
     my @items =  <a b 42>;
     dd @items[2]; # IntStr @items = IntStr.new(42, "42")
 
+    my @stuff = qw<a b 42>;
+    dd @stuff[2];
+
 }
 
 { 
