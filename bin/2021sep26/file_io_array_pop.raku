@@ -15,7 +15,7 @@ say @array.elems; # 1
 say @array[0];
 # say @array.pop(1);
 
-say @array[0].^methods;
+say @array[0].^method_names;
 
 # ===
 # Author:  doom@kzsu.stanford.edu
