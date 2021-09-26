@@ -37,6 +37,12 @@ use v6;
 }
 
 
+{
+    my IntStr(Cool) $n;
+    $n = 42;
+    dd $n;
+}
+
 
 
 
