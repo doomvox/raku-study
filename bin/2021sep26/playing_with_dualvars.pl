@@ -35,7 +35,7 @@ use Scalar::Util qw( dualvar );
 #            $num = $foo + 2;                    # 12
 #            $str = $foo . " world";             # Hello world
 
-my $n = dualvar( 5, "five" );
+my $n = dualvar( 5, "five" );  # 5 ,  "5" 
 
 say "The number is $n";                # The number is five
 say "Twice the number is: ", $n * 2;   # Twice the number is: 10
