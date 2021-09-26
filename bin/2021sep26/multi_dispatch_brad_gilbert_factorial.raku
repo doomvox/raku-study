@@ -4,6 +4,8 @@
 
 use v6;
 
+## https://mail.google.com/mail/u/0/h/1qg42auab89zp/?&th=17c1ef0df145db5f&v=c
+
 ## I don't think I see what brad gilbert is getting at here
 ## I don't see a "subset" (or a where) in this example.
 ## I *think* you could resolve is with an "is default".
