@@ -9,7 +9,7 @@ use v6;
 ## Note: I can never remember how IntStrs work:
 
 ##       They're *like* perl's "dualvars":
-##       they have two values that comes out in different contexts: a Str or an Int
+##       they have two values for different contexts: a Str or an Int
 ##       you can't use them flexibly the other way:
 ##       I always want them to be something that either an integer or an integer in string form
 
