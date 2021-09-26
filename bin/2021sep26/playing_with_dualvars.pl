@@ -44,7 +44,7 @@ say "Twice the number is: ", $n * 2;   # Twice the number is: 14
 
 $n = dualvar( undef, "sacred seven" );
 say +$n;
-day "$n";
+say "$n";
 
 
 __END__
