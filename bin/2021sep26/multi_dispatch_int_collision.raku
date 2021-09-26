@@ -4,6 +4,8 @@
 
 use v6;
 
+## Basic (inane?) demo of the "Ambiguous call" error
+
 multi sub speak (Int $i) {
     say "FIRST PLACE: The Int is $i";
 }
@@ -14,7 +16,6 @@ multi sub speak (Int $i) is default {
 }
 
 speak(3);
-
 
 # OUTPUT:
 #
