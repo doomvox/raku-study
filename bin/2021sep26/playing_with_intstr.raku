@@ -6,8 +6,10 @@ use v6;
 
 ## NOTES
 ## Note: I can never remember what IntStrs are *for* exactly.
-##       dim memory:
-##         I want them to be something that accepts integers in either string or integer form
+##       They're *like* perl's "dualvars":
+##       they have two values that comes out in different contexts: a Str or an Int
+##       you can't use them flexibly the other way:
+##       I always want them to be something that either an integer or an integer in string form
 ##         they actually "go the other way" (emit Str or Int depending on use?)
 ##         the raku version of perl's dualvars?
 
