@@ -24,7 +24,7 @@ say $z.head(6).tail(1);  # (108)
 say chr(108); # l
 
 for ( 0 .. 24 --> $i ) { 
-    say chr( $z.head($i).tail(1).[0] );
+    say chr( $z.head($i).tail(1) );
 }
 
 
