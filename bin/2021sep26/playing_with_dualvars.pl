@@ -42,9 +42,22 @@ say "The number is $n";                # The number is 7
 say "Twice the number is: ", $n * 2;   # Twice the number is: 14
 
 
-$n = dualvar( undef, "sacred seven" );
+$n = dualvar( 7, "sacred seven" );
 say +$n;
 say "$n";
+
+
+$n = dualvar( undef, "sacred seven" );
+# Use of uninitialized value in subroutine entry at /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/playing_with_dualvars.pl line 45.
+
+say +$n;
+say "$n";
+
+# sacred seven
+# sacred seven
+
+
+
 
 
 __END__
