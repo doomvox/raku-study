@@ -41,14 +41,6 @@
 
 
 
-    ( A . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/Qualify.rakumod" )
-    ( B . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/Dualmap.rakumod" )
-    ( C . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/lib/Data/Dualmap/Internal.rakumod" )
-    ( D . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/01-qualify_dyad.t")
-    ( E . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/02-dualmap.t" )
-    ( F . "/home/doom/End/Cave/DataMathRaku/Wall/Data-MapDual/t/03-dualmap_codeblocks.t" )
-    ( G . "/home/doom/End/Cave/DataMathRaku/bin/perl_sort_demo.pl" )
-    ( H . "/home/doom/End/Cave/DataMathRaku/Notes/raku_bits_from_dualmap.org" )
 
     ( z . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/talks/multidispatch_vs_case/slide_definitions.el" )
 
