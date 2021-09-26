@@ -5,7 +5,8 @@
 use v6;
 
 ## NOTES
-## Note: I can never remember what IntStrs are *for* exactly.
+
+## Note: I can never remember how IntStrs work:
 
 ##       They're *like* perl's "dualvars":
 ##       they have two values that comes out in different contexts: a Str or an Int
