@@ -53,7 +53,7 @@ say "$n";  # sacred seven
 
 ## Note: no one can think of anything useful to do with this trick.
 ## e.g. months that are numbers and month names?
-
+## better to translate them explicitly (lookup array or hash)
 
 
 
