@@ -7,7 +7,6 @@ playing_with_dualvars.pl
 
 =head1 SYNOPSIS
 
-
 =head1 DESCRIPTION
 
 Stub documentation for playing_with_dualvars.pl,
