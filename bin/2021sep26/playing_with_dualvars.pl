@@ -41,7 +41,6 @@ $n = 7;
 say "The number is $n";                # The number is 7
 say "Twice the number is: ", $n * 2;   # Twice the number is: 14
 
-
 $n = dualvar( 8, "ate" );
 say $n+0;                              # 8
 say "$n";                              # ate
