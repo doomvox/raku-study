@@ -67,9 +67,10 @@
 **** doing accounting using just plain text
 **** jeff hint
 
-*** ddrescue, dd_rescue
-**** copying data from dying media
+*** jeff issues with data recovery exploration
+**** ddrescue, dd_rescue
+***** copying data from dying media
 
-*** kryoflux
+**** kryoflux
 https://kryoflux.com/ 
 Floppy disk archival tool 
