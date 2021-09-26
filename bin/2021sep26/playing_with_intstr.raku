@@ -17,8 +17,14 @@ use v6;
 ## https://docs.raku.org/type/Allomorph
 
 ## What is this notation?  A list of one element?
+dd <42>;
+my $a = <42>;
+dd $a;
+
 my $int-str = <42>;
-## 
+
+
+
 
 ## Better:
 # my $f = IntStr.new(42, "forty two");
