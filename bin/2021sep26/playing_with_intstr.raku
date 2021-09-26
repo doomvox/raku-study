@@ -16,12 +16,13 @@ use v6;
 ## https://docs.raku.org/type/IntStr
 ## https://docs.raku.org/type/Allomorph
 
-## What is this notation?  A list of one element?
+## What is this notation?  A list of one element?  No:
 dd <42>;
 ## IntStr.new(42, "42")
 my $a = <42>;
 ## IntStr $a = IntStr.new(42, "42")
 dd $a;
+# IntStr $int-str = IntStr.new(42, "42")
 
 my $int-str = <42>;
 dd $int-str;
