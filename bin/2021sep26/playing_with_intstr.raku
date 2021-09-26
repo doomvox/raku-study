@@ -31,6 +31,14 @@ use v6;
     ## See:
     ## https://docs.raku.org/language/quoting#Word_quoting:_%3C_%3E
 
+    ## This is a perfectly deranged feature of word quoting I've never stumbled over
+    ## (if I had, I'd be pretty annoyed):
+
+    #     say <a b c> eqv ('a', 'b', 'c');   # OUTPUT: «True␤»
+    #     say <a b 42> eqv ('a', 'b', '42'); # OUTPUT: «False␤», the 42 became an IntStr allomorph
+    #     say < 42 > ~~ Int; # OUTPUT: «True␤»
+    #     say < 42 > ~~ Str; # OUTPUT: «True␤»
+
 
 
 }
