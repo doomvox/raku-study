@@ -30,7 +30,11 @@ my IntStr $intstr = 9;
 ##         the raku version of perl's dualvars?
 
 ## https://docs.raku.org/type/IntStr
+##
+## Inherit from Allomorph
 
+## my $int-str = <42>;
+## (Huh?)
 
 
 mission( $intstr );
