@@ -10,7 +10,7 @@ use v6;
 use Text::CSV;
 
 my $csv=Text::CSV.new;
-for $csv.getline_all( open($*ARGFILES, :r, :!chomp) ) {
+for $csv.getline_all( open( $*ARGFILES, :r, :!chomp ) ) {
     .perl.put 
 }
 
