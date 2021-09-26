@@ -34,7 +34,12 @@ my IntStr $intstr = 9;
 ## Inherit from Allomorph
 
 ## my $int-str = <42>;
-## (Huh?)
+## Huh?
+
+## Better:
+my $f = IntStr.new(42, "forty two");
+say +$f; # OUTPUT: «42␤» 
+say ~$f; # OUTPUT: «"forty two"␤»
 
 
 mission( $intstr );
