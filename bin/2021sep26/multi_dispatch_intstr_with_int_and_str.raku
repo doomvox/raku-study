@@ -9,7 +9,7 @@ use v6;
 # same level of type for a given input. For example Str and Int
 # for an IntStr.
 
-multi sub mission (Str $p) {
+multi sub mission (Str $p) is default {
     say "sub mission recieved a Str: $p";
 }
 
