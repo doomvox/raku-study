@@ -62,3 +62,7 @@
 **** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
 ** next meeting
 *** next meeting: Oct 10, 2021
+
+*** plain text accounting site
+**** doing accounting using just plain text
+**** jeff hint
