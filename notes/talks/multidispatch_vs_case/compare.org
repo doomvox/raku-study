@@ -1,17 +1,26 @@
 * raku case vs multidispatch
-** case
-*** uses lexical sequence to order comparisons
-** multidispatch
-*** uses specificity to order comparisons (mostly)
-**** in the case of subsets, uses order of definition
-***** subsets are essentially grouped by the type they're based on
-***** BUT they don't behave like two multis with same type
-****** uses the order of definition for subsets based on same type 
-
-** would've like to say:
-
+** very roughly
 *** case
-**** running a gauntlet, an obvious lexically determined order of comparisons 
+**** an obvious lexical sequence of comparisons (running a gauntlet)
 *** multi
 **** orders types by "specificity", not lexically (not entirely true)
+***** in the case of subsets, uses order of definition
+****** subsets are essentially grouped by the type they're based on
+****** BUT they don't behave like two multis with same type
+******* uses the order of definition for subsets based on same type 
+
 **** code that handles various types can be scattered, defined in different places
+
+
+** utility
+*** case 
+**** good for any sort of comparison, e.g. pattern matches
+*** multi
+**** best for 
+***** checking types
+***** particular fixed values
+**** you can do other things with them but
+***** won't perform as well
+***** are essentially second-class citizens
+****** e.g. in the case of subsets actual behavior is undocumented
+

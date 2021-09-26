@@ -1,62 +1,72 @@
-- [raku case vs multidispatch](#orgf71cef6)
-  - [case](#orgd8a7dcb)
-    - [uses lexical sequence to order comparisons](#org14b7214)
-  - [multidispatch](#org4ecf9e7)
-    - [uses specificity to order comparisons (mostly)](#org3def24c)
-  - [would've like to say:](#orge834e6a)
-    - [case](#org2004e1c)
-    - [multi](#orgbda8f41)
+- [raku case vs multidispatch](#orge471ef8)
+  - [very roughly](#orgdc79a11)
+    - [case](#org9370da8)
+    - [multi](#orgcfbc2a8)
+  - [utility](#orgd3dbd1e)
+    - [case](#orgf02d876)
+    - [multi](#orgd92b487)
 
 
-<a id="orgf71cef6"></a>
+<a id="orge471ef8"></a>
 
 # raku case vs multidispatch
 
 
-<a id="orgd8a7dcb"></a>
+<a id="orgdc79a11"></a>
 
-## case
-
-
-<a id="org14b7214"></a>
-
-### uses lexical sequence to order comparisons
+## very roughly
 
 
-<a id="org4ecf9e7"></a>
-
-## multidispatch
-
-
-<a id="org3def24c"></a>
-
-### uses specificity to order comparisons (mostly)
-
-1.  in the case of subsets, uses order of definition
-
-    1.  subsets are essentially grouped by the type they're based on
-    
-    2.  BUT they don't behave like two multis with same type
-    
-        1.  uses the order of definition for subsets based on same type
-
-
-<a id="orge834e6a"></a>
-
-## would've like to say:
-
-
-<a id="org2004e1c"></a>
+<a id="org9370da8"></a>
 
 ### case
 
-1.  running a gauntlet, an obvious lexically determined order of comparisons
+1.  an obvious lexical sequence of comparisons (running a gauntlet)
 
 
-<a id="orgbda8f41"></a>
+<a id="orgcfbc2a8"></a>
 
 ### multi
 
 1.  orders types by "specificity", not lexically (not entirely true)
 
+    1.  in the case of subsets, uses order of definition
+    
+        1.  subsets are essentially grouped by the type they're based on
+        
+        2.  BUT they don't behave like two multis with same type
+        
+            1.  uses the order of definition for subsets based on same type
+
 2.  code that handles various types can be scattered, defined in different places
+
+
+<a id="orgd3dbd1e"></a>
+
+## utility
+
+
+<a id="orgf02d876"></a>
+
+### case
+
+1.  good for any sort of comparison, e.g. pattern matches
+
+
+<a id="orgd92b487"></a>
+
+### multi
+
+1.  best for
+
+    1.  checking types
+    
+    2.  particular fixed values
+
+2.  you can do other things with them but
+
+    1.  won't perform as well
+    
+    2.  are essentially second-class citizens
+    
+        1.  e.g. in the case of subsets actual behavior is undocumented
