@@ -9,8 +9,13 @@ use v6;
 # same level of type for a given input. For example Str and Int
 # for an IntStr.
 
+multi sub mission (Str $p) {
+    say "sub mission recieved a Str: $p";
+}
 
-
+multi sub mission (Int $p) {
+    say "sub mission recieved an Int: $p";
+}
 
 
 
