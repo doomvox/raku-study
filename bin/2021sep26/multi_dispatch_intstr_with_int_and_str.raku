@@ -27,7 +27,6 @@ mission(3);    # sub mission recieved an Int: 3
 my $intstr = IntStr.new(42, "forty two");
 
 say $intstr.Int;
-$intstr.Int = 5;
 
 say $intstr;
 
