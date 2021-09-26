@@ -68,7 +68,6 @@ use v6;
 
     @metal_names[3] = 'six_six_six';
 
-
     }
 
 { 
