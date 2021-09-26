@@ -35,6 +35,10 @@ mission( $intstr );
 #   (Int $p)
 
 
+## with the "is default" above:
+# sub mission recieved a Str: forty two
+
+
 
 ##====
 ## NOTES
