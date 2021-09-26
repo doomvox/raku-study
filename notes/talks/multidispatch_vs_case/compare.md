@@ -1,36 +1,36 @@
-- [raku case vs multidispatch](#org90a80b3)
-  - [very roughly](#org83c4500)
-    - [case](#orgcfa8f63)
-    - [multi](#orge8f9d67)
-  - [utility](#org2cd086e)
-    - [case](#org7110d09)
-    - [multi](#org1cf3dcf)
+- [raku case vs multidispatch](#org30e4b6c)
+  - [very roughly](#org0b5d5b6)
+    - [case](#org4a5b722)
+    - [multi](#orge0e29a4)
+  - [utility](#org1e7a4c1)
+    - [case](#org16be405)
+    - [multi](#orgbae6cdc)
 
 
-<a id="org90a80b3"></a>
+<a id="org30e4b6c"></a>
 
 # raku case vs multidispatch
 
 
-<a id="org83c4500"></a>
+<a id="org0b5d5b6"></a>
 
 ## very roughly
 
 
-<a id="orgcfa8f63"></a>
+<a id="org4a5b722"></a>
 
 ### case
 
 1.  an obvious lexical sequence of comparisons (running a gauntlet)
 
 
-<a id="orge8f9d67"></a>
+<a id="orge0e29a4"></a>
 
 ### multi
 
 1.  orders cases ~by "specificity", not lexically
 
-    1.  in the case of subsets, uses order of definition
+    1.  in the case of subsets, falls back to order of definition
     
         1.  subsets are essentially grouped by the type they're based on
         
@@ -41,19 +41,19 @@
 2.  code that handles various types can be scattered, defined in different places
 
 
-<a id="org2cd086e"></a>
+<a id="org1e7a4c1"></a>
 
 ## utility
 
 
-<a id="org7110d09"></a>
+<a id="org16be405"></a>
 
 ### case
 
 1.  good for any sort of comparison, e.g. pattern matches
 
 
-<a id="org1cf3dcf"></a>
+<a id="orgbae6cdc"></a>
 
 ### multi
 
