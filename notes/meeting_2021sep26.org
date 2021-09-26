@@ -15,9 +15,12 @@
 ****** multi-dispatch has OOP flexibility
 ****** benchmark: with repetition argument running with "time"
 ******* results vary tremendously, no clear winner
-****** multi with overlapping subsets supposed to need 'is default' to break tie
+****** multi with overlapping subsets: 
 ******* https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/multi_dispatch_with_overlapping_subset_types.raku
-******* note: "default" means something different in the two approaches
+******* tie breaking:
+******** I figured you'd need "is default"-- instead it goes by order-of-definition (NOT DOCUMENTED)
+******** "is default" actually only works for two alternatives, with three you'd be SOL
+******** brad gilbert argues it has to be this way for performance reasons
 *** data-handling in raku
 **** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527
 ***** William Michaels objects to the word "Row" for a data-record in my solution
