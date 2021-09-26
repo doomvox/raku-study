@@ -17,6 +17,74 @@ say @array[0];
 
 say @array[0].^method_names;
 
+(write-int8 
+write-int16 
+write-int32 
+write-int64 
+write-int128 
+write-uint8 
+write-uint16 
+write-uint32 
+write-uint64 
+write-uint128 
+write-num32 
+write-num64 
+write-bits 
+write-ubits 
+pop 
+shift 
+reallocate 
+splice 
+push 
+append 
+unshift 
+prepend 
+subbuf-rw 
+STORE 
+allocate 
+read-int8 
+read-int16 
+read-int32 
+read-int64 
+read-int128 
+read-uint8 
+read-uint16 
+read-uint32 
+read-uint64 
+read-uint128 
+read-num32 
+read-num64 
+read-bits 
+read-ubits 
+Capture 
+Numeric 
+Int 
+bytes 
+chars 
+decode 
+subbuf 
+reverse 
+COMPARE 
+SAME 
+join 
+unpack 
+contents 
+encoding 
+of 
+WHICH 
+AT-POS 
+ASSIGN-POS 
+list 
+new 
+EXISTS-POS 
+Bool 
+elems 
+Str 
+Stringy 
+gist 
+raku 
+ACCEPTS)
+
 # ===
 # Author:  doom@kzsu.stanford.edu
 
