@@ -19,8 +19,9 @@ my %translate = (
 
 my $new;
 for $text.comb -> $c {
+    my $n = $c;
     if %translate{ $c } {
-          $c = %translate{ $c };
+          $n = %translate{ $c };
      };
     $new ~= $c;
 }
