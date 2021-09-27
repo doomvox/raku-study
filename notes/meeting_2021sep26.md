@@ -1,67 +1,67 @@
-- [meeting notes September 16, 2021                                      a](#org6f0a6ab)
-  - [the usual links:](#org99e0505)
-    - [meeting notes](#org369597d)
-    - [code examples:](#orge00d37b)
-  - [battle plan](#org212e0fc)
-    - [bin pre-loaded with small ammo](#orgcb36d82)
-    - [nano-lightning talk: given-when vs multi-dispatch](#org5e91c6d)
-    - [data-handling in raku](#org6cb58a5)
-    - [intermixed types and resulting types](#org62bc070)
-    - [Data::Reshapers](#orgc3b9f5e)
-    - [secure json-ification, vadim belman](#org2885954)
-    - [lispyness of raku](#orgb2e1a47)
-    - [pairs of separators from a string](#org21b476b)
-    - [bioinformatics on rosettacode](#org6b0d6aa)
-    - [lca (old topic)](#org0e17708)
-    - [once around the net](#org88617b8)
-    - [the ephemeral miniconf: nov 18 2021](#orgeac2a30)
-  - [next meeting](#org65096f5)
-    - [next meeting: Oct 10, 2021](#org7905385)
-  - [misc notes](#org5513760)
-    - [plain text accounting site](#org768dc61)
-    - [jeff issues with data recovery exploration](#orgd01f218)
-    - [video political history of X](#org398ed78)
-  - [once over the zoom chat window](#org642e2fd)
-    - [definition of "twigil"](#org8c7be4d)
+- [meeting notes September 16, 2021                                      a](#org638481a)
+  - [the usual links:](#orga0a7111)
+    - [meeting notes](#orgd313a62)
+    - [code examples:](#orgef15c90)
+  - [battle plan](#org0a786f9)
+    - [bin pre-loaded with small ammo](#orgd043faa)
+    - [nano-lightning talk: given-when vs multi-dispatch](#orgd9967e4)
+    - [data-handling in raku](#orgdbd3225)
+    - [intermixed types and resulting types](#org27af5c1)
+    - [Data::Reshapers](#orgef050c7)
+    - [secure json-ification, vadim belman](#org399af3b)
+    - [lispyness of raku](#orgfd5f4d6)
+    - [pairs of separators from a string](#org3e6009c)
+    - [bioinformatics on rosettacode](#orgcc8b6f4)
+    - [lca (old topic)](#orgf6f9d76)
+    - [once around the net](#org48768fb)
+    - [the ephemeral miniconf: nov 18 2021](#org4711305)
+  - [next meeting](#org56d1a4b)
+    - [next meeting: Oct 10, 2021](#org3a41a0f)
+  - [misc notes](#org641fd61)
+    - [plain text accounting site](#org9b781d4)
+    - [jeff issues with data recovery exploration](#orgc20763c)
+    - [video political history of X](#org4357250)
+  - [once over the zoom chat window](#org3843817)
+    - [definition of "twigil"](#org23a7627)
 
 
-<a id="org6f0a6ab"></a>
+<a id="org638481a"></a>
 
 # meeting notes September 16, 2021                                      a
 
 
-<a id="org99e0505"></a>
+<a id="orga0a7111"></a>
 
 ## the usual links:
 
 
-<a id="org369597d"></a>
+<a id="orgd313a62"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="orge00d37b"></a>
+<a id="orgef15c90"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="org212e0fc"></a>
+<a id="org0a786f9"></a>
 
 ## battle plan
 
 
-<a id="orgcb36d82"></a>
+<a id="orgd043faa"></a>
 
 ### bin pre-loaded with small ammo
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="org5e91c6d"></a>
+<a id="orgd9967e4"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -131,7 +131,7 @@
                 2.  Hero/Monster classes
 
 
-<a id="org6cb58a5"></a>
+<a id="orgdbd3225"></a>
 
 ### data-handling in raku
 
@@ -144,7 +144,7 @@
     1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/>
 
 
-<a id="org62bc070"></a>
+<a id="org27af5c1"></a>
 
 ### intermixed types and resulting types
 
@@ -155,14 +155,14 @@
     1.  TODO a few weeks old&#x2013; I still want to respond to it
 
 
-<a id="orgc3b9f5e"></a>
+<a id="orgef050c7"></a>
 
 ### Data::Reshapers
 
 1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
 
 
-<a id="org2885954"></a>
+<a id="org399af3b"></a>
 
 ### secure json-ification, vadim belman
 
@@ -173,7 +173,7 @@
 3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="orgb2e1a47"></a>
+<a id="orgfd5f4d6"></a>
 
 ### lispyness of raku
 
@@ -182,7 +182,7 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="org21b476b"></a>
+<a id="org3e6009c"></a>
 
 ### pairs of separators from a string
 
@@ -191,7 +191,7 @@
 2.  a discussion yary was involved in, which indicates there's something interesting
 
 
-<a id="org6b0d6aa"></a>
+<a id="orgcc8b6f4"></a>
 
 ### bioinformatics on rosettacode
 
@@ -200,7 +200,7 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org0e17708"></a>
+<a id="orgf6f9d76"></a>
 
 ### lca (old topic)
 
@@ -211,7 +211,7 @@
 3.  write it up as an answer of it's own.
 
 
-<a id="org88617b8"></a>
+<a id="org48768fb"></a>
 
 ### once around the net
 
@@ -226,29 +226,29 @@
 4.  rosettacode
 
 
-<a id="orgeac2a30"></a>
+<a id="org4711305"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org65096f5"></a>
+<a id="org56d1a4b"></a>
 
 ## next meeting
 
 
-<a id="org7905385"></a>
+<a id="org3a41a0f"></a>
 
 ### next meeting: Oct 10, 2021
 
 
-<a id="org5513760"></a>
+<a id="org641fd61"></a>
 
 ## misc notes
 
 
-<a id="org768dc61"></a>
+<a id="org9b781d4"></a>
 
 ### plain text accounting site
 
@@ -259,7 +259,7 @@
 3.  jeff hint
 
 
-<a id="orgd01f218"></a>
+<a id="orgc20763c"></a>
 
 ### jeff issues with data recovery exploration
 
@@ -278,19 +278,19 @@
     1.  can work on SSDs
 
 
-<a id="org398ed78"></a>
+<a id="org4357250"></a>
 
 ### video political history of X
 
 1.  <https://www.youtube.com/watch?v=cj02_UeUnGQ>
 
 
-<a id="org642e2fd"></a>
+<a id="org3843817"></a>
 
 ## once over the zoom chat window
 
 
-<a id="org8c7be4d"></a>
+<a id="org23a7627"></a>
 
 ### definition of "twigil"
 
@@ -355,6 +355,8 @@
     1.  <https://xkcd.com/710/>
     
     2.  <http://rosettacode.org/wiki/Hailstone_sequence>
+    
+    3.  <https://en.wikipedia.org/wiki/Collatz_conjecture#Visualizations>
 
 11. jeff question about opening files in bin mode
 
@@ -369,3 +371,41 @@
         # Tail of array: modifying (.push, .pop), not-modifying (.tail );
         # also: [0], .[1], .[*-1], .[*-3..*-3], etc
         ```
+
+12. william michels activity on stackexchange, etc
+
+    1.  <https://unix.stackexchange.com/questions/670307/how-can-i-transliterate-some-characters-1-to-1-leave-some-unchanged-and-replac/670628#670628>
+    
+    2.  <https://unix.stackexchange.com/questions/511276/unix-file-with-newlines-within-quotes/670358#670358>
+    
+    3.  <https://unix.stackexchange.com/questions/670104/removing-new-line-character-from-a-column-in-a-csv-file/670344#670344>
+    
+    4.  <https://unix.stackexchange.com/questions/670184/how-can-i-count-number-of-a-specific-character-in-a-column-for-each-line-and-add/670258#670258>
+    
+    5.  <https://unix.stackexchange.com/questions/670163/how-to-split-a-line-of-text-separated-by-into-a-file-containing-one-string-p/670254#670254>
+    
+    6.  <https://unix.stackexchange.com/questions/669943/how-to-only-print-first-two-words-of-a-certain-column-with-awk/670078#670078>
+    
+    7.  <https://unix.stackexchange.com/questions/617680/insert-zero-before-and-after-a-data-point/669635#669635>
+    
+    8.  <https://unix.stackexchange.com/questions/582059/awk-to-replace-character-for-lines-not-starting-with/669627#669627>
+    
+    9.  <https://unix.stackexchange.com/questions/145597/format-the-content-of-the-file-using-perl/669308#669308>
+    
+    10. <https://unix.stackexchange.com/questions/669077/add-single-value-content-of-one-file-as-additional-column-to-another-file/669205#669205>
+    
+    11. <https://unix.stackexchange.com/questions/668922/how-to-extract-a-portion-of-an-xml-tag-value-in-a-bash-script/669047#669047>
+    
+    12. <https://unix.stackexchange.com/questions/658485/how-can-i-use-quantifiers-in-a-sed-substitution-expression/669031#669031>
+    
+    13. <https://unix.stackexchange.com/questions/668793/sed-have-a-range-finishing-with-the-last-occurrence-of-a-pattern-greedy-range/669020#669020>
+    
+    14. <https://unix.stackexchange.com/questions/24140/return-only-the-portion-of-a-line-after-a-matching-pattern/668893#668893>
+    
+    15. <https://unix.stackexchange.com/questions/593993/convert-multi-lines-to-single-line-with-spaces-and-quotes/668846#668846>
+    
+    16. <https://www.ietf.org/rfc/rfc4180.txt>
+    
+    17. 
+    
+    18.

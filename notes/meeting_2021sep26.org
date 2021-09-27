@@ -149,6 +149,7 @@ https://docs.raku.org/language/glossary#index-entry-Allomorph
 **** hailstone sequence
 ***** https://xkcd.com/710/
 ***** http://rosettacode.org/wiki/Hailstone_sequence
+***** https://en.wikipedia.org/wiki/Collatz_conjecture#Visualizations
 
 **** jeff question about opening files in bin mode 
 ***** reading file contents byte-at-time
@@ -160,3 +161,26 @@ my $z = $file.IO.slurp(:bin); say $z.pop; say $z.pop;
 # Tail of array: modifying (.push, .pop), not-modifying (.tail );
 # also: [0], .[1], .[*-1], .[*-3..*-3], etc
 #+END_SRC
+
+**** william michels activity on stackexchange, etc
+***** https://unix.stackexchange.com/questions/670307/how-can-i-transliterate-some-characters-1-to-1-leave-some-unchanged-and-replac/670628#670628
+***** https://unix.stackexchange.com/questions/511276/unix-file-with-newlines-within-quotes/670358#670358
+***** https://unix.stackexchange.com/questions/670104/removing-new-line-character-from-a-column-in-a-csv-file/670344#670344
+***** https://unix.stackexchange.com/questions/670184/how-can-i-count-number-of-a-specific-character-in-a-column-for-each-line-and-add/670258#670258
+***** https://unix.stackexchange.com/questions/670163/how-to-split-a-line-of-text-separated-by-into-a-file-containing-one-string-p/670254#670254
+***** https://unix.stackexchange.com/questions/669943/how-to-only-print-first-two-words-of-a-certain-column-with-awk/670078#670078
+***** https://unix.stackexchange.com/questions/617680/insert-zero-before-and-after-a-data-point/669635#669635
+***** https://unix.stackexchange.com/questions/582059/awk-to-replace-character-for-lines-not-starting-with/669627#669627
+***** https://unix.stackexchange.com/questions/145597/format-the-content-of-the-file-using-perl/669308#669308
+***** https://unix.stackexchange.com/questions/669077/add-single-value-content-of-one-file-as-additional-column-to-another-file/669205#669205
+***** https://unix.stackexchange.com/questions/668922/how-to-extract-a-portion-of-an-xml-tag-value-in-a-bash-script/669047#669047
+***** https://unix.stackexchange.com/questions/658485/how-can-i-use-quantifiers-in-a-sed-substitution-expression/669031#669031
+***** https://unix.stackexchange.com/questions/668793/sed-have-a-range-finishing-with-the-last-occurrence-of-a-pattern-greedy-range/669020#669020
+***** https://unix.stackexchange.com/questions/24140/return-only-the-portion-of-a-line-after-a-matching-pattern/668893#668893
+***** https://unix.stackexchange.com/questions/593993/convert-multi-lines-to-single-line-with-spaces-and-quotes/668846#668846
+
+
+
+***** https://www.ietf.org/rfc/rfc4180.txt
+***** 
+***** 
