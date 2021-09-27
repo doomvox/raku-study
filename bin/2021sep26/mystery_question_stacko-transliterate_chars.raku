@@ -30,7 +30,7 @@ for $text.comb -> $c {
 
 say $new;
 # THE TIFFUIZF OF THE FKZYIOE IS THE OIY UHI FIOF "THE HOWHEFT DYIUPEFWE OF TI DYIU THIT UE IZE FKZZIKYFEF GH OHFTEZH
-
+# THE tiFFuIzf OF THE FkzyioE IS THE oiy uHI FiOf "THE HOwHEFT dyIupEfwE OF TI dyIu THiT uE izE FkzzIkyfEf gh ohFTEzh
 
 
 ## (Any other letter) = _
