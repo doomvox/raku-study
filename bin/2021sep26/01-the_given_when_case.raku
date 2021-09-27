@@ -18,13 +18,13 @@ sub MAIN( $interations = 1 ) {
 sub whats_my_type ($item) {
     my $ret = 
     do  given $item  {
-        when Int     {  "This is an Int"                              }
-        when Rat     {  "Caught a Rat"                                } 
-        when Numeric {  "This is a Numeric (but not an Int or a Rat)" } 
+        when Int     {  "   This is an Int"                              }
+        when Rat     {  "   Caught a Rat"                                } 
+        when Numeric {  "   This is a Numeric (but not an Int or a Rat)" } 
         #       when 'whun'  {  "Count 'whun!' "                           } # this whun *can* fire if uncommented
-        when Str     {  "This is a Str"                               }
-        when 'whun'  {  "This whun never fires"                       } # this whun is intercepted by the Str case
-        default      {  "Huh?  I guess this is a: " ~ .^name          }
+        when Str     {  "   This is a Str"                               }
+        when 'whun'  {  "   This whun never fires"                       } # this whun is intercepted by the Str case
+        default      {  "   I guess this is a: " ~ .^name          }
     }
     return $ret;
 }    
@@ -32,17 +32,17 @@ sub whats_my_type ($item) {
 
 # raku /home/doom/End/Cave/Perl6/bin/01-the_given_when_case.raku
 # Checking: 666
-# This is an Int
+#    This is an Int
 # Checking: 2.71
-# Caught a Rat
+#    Caught a Rat
 # Checking: 2.718281828459045
-# This is a Numeric (but not an Int or a Rat)
+#    This is a Numeric (but not an Int or a Rat)
 # Checking: 01
-# This is a Str
+#    This is a Str
 # Checking: whun
-# This is a Str
+#    This is a Str
 # Checking: b a c
-# Huh?  I guess this is a: Set
+#    I guess this is a: Set
 
 
 
