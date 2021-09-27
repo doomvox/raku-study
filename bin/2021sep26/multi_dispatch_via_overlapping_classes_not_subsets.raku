@@ -39,6 +39,7 @@ for @names -> $n {
     $spk.speak( $n );
 }
 
+
 # [beowulf bernie bluebeetle gammera ghidora godzilla golem maynard_g_krebs mothera wormface]
 # The hero, beowulf shouts!
 # The hero, bernie shouts!
@@ -52,11 +53,6 @@ for @names -> $n {
 # The monster, wormface roars!        ## mothera treated as Monster
 
 
-## NOTES
-
-# Instead of the any junction, could use: 
-# 
-# ∈  element of
 
 
 # ===
