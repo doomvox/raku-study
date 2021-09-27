@@ -1,6 +1,6 @@
 #!/usr/bin/env perl6
-#                                                                         d
-# 02-the_multi_dispatch_case.raku                20 Sep 2021 
+#                                                                         m
+# 03-the_multi_dispatch_case_class_not_subset.raku     27 Sep 2021 
 
 use v6;
 
