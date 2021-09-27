@@ -1,65 +1,65 @@
-- [meeting notes September 16, 2021                                      a](#orgb836160)
-  - [the usual links:](#org39b3615)
-    - [meeting notes](#org69584e4)
-    - [code examples:](#orga79a7e5)
-  - [battle plan](#orge73bd4f)
-    - [bin pre-loaded with small ammo](#orgca0d659)
-    - [nano-lightning talk: given-when vs multi-dispatch](#orge7faa5a)
-    - [data-handling in raku](#orgec1de48)
-    - [intermixed types and resulting types](#org95ae938)
-    - [Data::Reshapers](#org48788ba)
-    - [secure json-ification, vadim belman](#org41f9f40)
-    - [lispyness of raku](#orga05a847)
-    - [pairs of separators from a string](#orgdd44c93)
-    - [bioinformatics on rosettacode](#org6506196)
-    - [lca (old topic)](#orgd54db04)
-    - [once around the net](#org0074a4a)
-    - [the ephemeral miniconf: nov 18 2021](#org6d34f2d)
-  - [next meeting](#orgf2d9a4d)
-    - [next meeting: Oct 10, 2021](#orga75421d)
-  - [misc notes](#orga2e3715)
-    - [plain text accounting site](#org8b12e94)
-    - [jeff issues with data recovery exploration](#org7a89919)
-    - [video political history of X](#org719c0c2)
+- [meeting notes September 16, 2021                                      a](#orgf361ebc)
+  - [the usual links:](#orgbeb4d12)
+    - [meeting notes](#orgd470f64)
+    - [code examples:](#orgf9b008c)
+  - [battle plan](#org43742b5)
+    - [bin pre-loaded with small ammo](#orgf5fae28)
+    - [nano-lightning talk: given-when vs multi-dispatch](#org098450c)
+    - [data-handling in raku](#org031b61c)
+    - [intermixed types and resulting types](#org8f870e7)
+    - [Data::Reshapers](#orge0481fb)
+    - [secure json-ification, vadim belman](#org9080280)
+    - [lispyness of raku](#orgb0dfdbc)
+    - [pairs of separators from a string](#org2f92aea)
+    - [bioinformatics on rosettacode](#org23d96d6)
+    - [lca (old topic)](#org4b14656)
+    - [once around the net](#org9dcde9a)
+    - [the ephemeral miniconf: nov 18 2021](#org19e9677)
+  - [next meeting](#org40830c7)
+    - [next meeting: Oct 10, 2021](#org7a87c2f)
+  - [misc notes](#org59ac4ae)
+    - [plain text accounting site](#org214b114)
+    - [jeff issues with data recovery exploration](#orgc0b5092)
+    - [video political history of X](#org15e6db2)
 
 
-<a id="orgb836160"></a>
+<a id="orgf361ebc"></a>
 
 # meeting notes September 16, 2021                                      a
 
 
-<a id="org39b3615"></a>
+<a id="orgbeb4d12"></a>
 
 ## the usual links:
 
 
-<a id="org69584e4"></a>
+<a id="orgd470f64"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="orga79a7e5"></a>
+<a id="orgf9b008c"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="orge73bd4f"></a>
+<a id="org43742b5"></a>
 
 ## battle plan
 
 
-<a id="orgca0d659"></a>
+<a id="orgf5fae28"></a>
 
 ### bin pre-loaded with small ammo
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="orge7faa5a"></a>
+<a id="org098450c"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -81,16 +81,22 @@
         
             1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/multi_dispatch_with_overlapping_subset_types.raku>
             
-            2.  tie breaking:
-            
-                1.  I figured you'd need "is default"&#x2013; instead it goes by order-of-definition (NOT DOCUMENTED)
+                1.  tie breaking:
                 
-                2.  "is default" actually only works for two alternatives, with three you'd be SOL
+                    1.  I figured you'd need "is default"&#x2013; instead it goes by order-of-definition (NOT DOCUMENTED)
+                    
+                    2.  "is default" actually only works for two alternatives, with three you'd be SOL
+                    
+                    3.  brad gilbert argues it has to be this way for performance reasons
                 
-                3.  brad gilbert argues it has to be this way for performance reasons
+                2.  bruce gray tried some variants&#x2026; suspects raku could do better
+                
+                    1.  variables of type Hero/Monster
+                    
+                    2.  Hero/Monster classes
 
 
-<a id="orgec1de48"></a>
+<a id="org031b61c"></a>
 
 ### data-handling in raku
 
@@ -103,7 +109,7 @@
     1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/>
 
 
-<a id="org95ae938"></a>
+<a id="org8f870e7"></a>
 
 ### intermixed types and resulting types
 
@@ -114,14 +120,14 @@
     1.  TODO a few weeks old&#x2013; I still want to respond to it
 
 
-<a id="org48788ba"></a>
+<a id="orge0481fb"></a>
 
 ### Data::Reshapers
 
 1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
 
 
-<a id="org41f9f40"></a>
+<a id="org9080280"></a>
 
 ### secure json-ification, vadim belman
 
@@ -132,7 +138,7 @@
 3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="orga05a847"></a>
+<a id="orgb0dfdbc"></a>
 
 ### lispyness of raku
 
@@ -141,7 +147,7 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="orgdd44c93"></a>
+<a id="org2f92aea"></a>
 
 ### pairs of separators from a string
 
@@ -150,7 +156,7 @@
 2.  a discussion yary was involved in, which indicates there's something interesting
 
 
-<a id="org6506196"></a>
+<a id="org23d96d6"></a>
 
 ### bioinformatics on rosettacode
 
@@ -159,7 +165,7 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="orgd54db04"></a>
+<a id="org4b14656"></a>
 
 ### lca (old topic)
 
@@ -170,7 +176,7 @@
 3.  write it up as an answer of it's own.
 
 
-<a id="org0074a4a"></a>
+<a id="org9dcde9a"></a>
 
 ### once around the net
 
@@ -185,29 +191,29 @@
 4.  rosettacode
 
 
-<a id="org6d34f2d"></a>
+<a id="org19e9677"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="orgf2d9a4d"></a>
+<a id="org40830c7"></a>
 
 ## next meeting
 
 
-<a id="orga75421d"></a>
+<a id="org7a87c2f"></a>
 
 ### next meeting: Oct 10, 2021
 
 
-<a id="orga2e3715"></a>
+<a id="org59ac4ae"></a>
 
 ## misc notes
 
 
-<a id="org8b12e94"></a>
+<a id="org214b114"></a>
 
 ### plain text accounting site
 
@@ -216,7 +222,7 @@
 2.  jeff hint
 
 
-<a id="org7a89919"></a>
+<a id="orgc0b5092"></a>
 
 ### jeff issues with data recovery exploration
 
@@ -235,7 +241,7 @@
     1.  can work on SSDs
 
 
-<a id="org719c0c2"></a>
+<a id="org15e6db2"></a>
 
 ### video political history of X
 
