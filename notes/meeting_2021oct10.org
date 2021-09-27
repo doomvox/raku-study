@@ -11,12 +11,12 @@
 **** arrays-of-objects
 ***** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/
 
-*** leftover bits
-**** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku
-
 *** bioinformatics on rosettacode 
 **** there's a half dozen entries, here's a simple one:
 ***** http://rosettacode.org/wiki/Bioinformatics/base_count
+
+*** leftover bits
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku
 
 *** lightning talk in-progress: given-when vs multi-dispatch
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/01-the_given_when_case.raku
