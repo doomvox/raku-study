@@ -24,7 +24,7 @@ multi sub speak (Hero $h) {
 
 speak('ghidora');  # The monster, ghidora roars!
 speak('beowulf');  # The hero, beowulf shouts!
-speak('mothera');  # The monster, mothera roars!
+speak('mothera');  # The monster, mothera roars!  ## mothera is treated as a monster
 
 say @monsters.elems, ' ', @heroes.elems;  # 6 6
 
