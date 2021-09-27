@@ -1,8 +1,11 @@
 #!/usr/bin/env perl6
 #                                                                          e
-# multi_dispatch_via_overlapping_classes_not_subsets.raku      27 Sep 2021 
+# multi_dispatch_via_overlapping_subsets_and_multi_methods.raku      27 Sep 2021 
 
 use v6;
+
+## Same behavior with multi methods and subsets that I've seen with multi subs
+
 
 my @monsters = < godzilla mothera ghidora gammera golem wormface >;
 my @heroes   = < beowulf maynard_g_krebs bluebeetle bernie mothera godzilla >;
