@@ -5,7 +5,6 @@
 use v6;
 
 sub MAIN( $interations = 1 ) {
-
     my @items = ( 666, 2.71, 𝑒, "01", "whun", ('a', 'b', 'c').Set );  ## transcendtals
 
     for 1 .. $interations -> $i {
