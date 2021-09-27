@@ -1,0 +1,89 @@
+* meeting notes October 10, 2021                                      a
+** the usual links:
+*** meeting notes
+**** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct10.md
+*** code examples:
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021oct10
+** battle plan
+*** bin pre-loaded with small ammo
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku
+*** nano-lightning talk: given-when vs multi-dispatch
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/01-the_given_when_case.raku
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/02-the_multi_dispatch_case.raku
+***** notice: order matters with given-when, with multidispatch it's specificity
+****** given-when is straight-forward to think about
+****** multi-dispatch has OOP flexibility
+****** benchmark: with repetition argument running with "time"
+******* results vary tremendously, no clear winner
+****** multi with overlapping subsets: 
+******* https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/multi_dispatch_with_overlapping_subset_types.raku
+******** tie breaking:
+********* I figured you'd need "is default"-- instead it goes by order-of-definition (NOT DOCUMENTED)
+********* "is default" actually only works for two alternatives, with three you'd be SOL
+********* brad gilbert argues it has to be this way for performance reasons
+******** bruce gray tried some variants... 
+********* variables of type Hero/Monster
+********* Hero/Monster classes
+
+*** data-handling in raku
+**** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527
+***** William Michaels objects to the word "Row" for a data-record in my solution
+**** arrays-of-objects
+***** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/
+
+*** intermixed types and resulting types
+**** https://www.nntp.perl.org/group/perl.perl6.users/2021/08/msg10102.html
+**** https://www.nntp.perl.org/group/perl.perl6.users/2021/08/msg10114.html
+***** TODO a few weeks old-- I still want to respond to it
+*** Data::Reshapers
+**** https://raku.land/cpan:ANTONOV/Data::Reshapers
+*** secure json-ification, vadim belman
+**** https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100
+**** https://vrurg.github.io/2021/09/14/Secure-JSONification
+**** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/
+
+*** lispyness of raku
+**** https://www.codesections.com/blog/raku-lisp-impression/
+**** https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/
+*** pairs of separators from a string
+**** https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html
+**** a discussion yary was involved in, which indicates there's something interesting
+*** bioinformatics on rosettacode 
+**** there's a half dozen entries, here's a simple one:
+***** http://rosettacode.org/wiki/Bioinformatics/base_count
+*** lca (old topic)
+**** https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor
+**** i think I like raiph's solution (new version of ^parents that uses graph theory definition)
+**** write it up as an answer of it's own.
+
+*** once around the net
+**** stackoverflow
+**** perl6-users
+**** Raku weekly
+***** https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/
+**** rosettacode
+*** the ephemeral miniconf: nov 18 2021
+**** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
+** next meeting
+*** next meeting: Oct 10, 2021
+
+** misc notes
+
+*** plain text accounting site
+**** doing accounting using just plain text
+**** jeff hint
+
+*** jeff issues with data recovery exploration
+**** ddrescue, dd_rescue
+***** copying data from dying media
+
+**** kryoflux
+***** https://kryoflux.com/ 
+***** Floppy disk archival tool
+
+**** harddrive in the freezer trick
+***** can work on SSDs
+
+*** video political history of X
+**** https://www.youtube.com/watch?v=cj02_UeUnGQ 
+
