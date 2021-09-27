@@ -15,8 +15,10 @@ use v6;
 # brad gilbert:
 #   Doing what you want ((?)) would make using subsets with multis much less useful. 
 
-{     multi factorial ( 0 --> 1 ){}
-
+{     multi turn_0_to_1 ( 0 --> 1 ){}
+      say turn_0_to_1(0);
+      say turn_0_to_1(1);
+      say turn_0_to_1(2);
 }
 
 {
