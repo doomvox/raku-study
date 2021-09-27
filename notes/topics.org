@@ -69,6 +69,7 @@ https://course.raku.org/
 **** stackoverflow
 **** perl6-users
 **** Raku weekly
+***** https://rakudoweekly.blog
 **** rosettacode
 
 **** frequently revisited doc pages
