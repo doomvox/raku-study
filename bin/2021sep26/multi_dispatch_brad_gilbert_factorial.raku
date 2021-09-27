@@ -24,7 +24,6 @@ use v6;
     # ERROR: both UInt and 1 subsets match.
 
     # But I see no such error.
-
     say factorial( 4 );  # 24
 
 }
