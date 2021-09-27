@@ -43,7 +43,7 @@ say "===";
 }
 
 ## Brad Gilbert, further:  
-
+# 
 # You could modify the general case, but that is tedious and error prone.
 # 
 #     multi factorial ( Int \n where {$_ >= 0 && $_ != 0 && $_ != 1} ){ factorial(n - 1) * n }
