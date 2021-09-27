@@ -35,7 +35,7 @@ multi factorial ( UInt \n ){ factorial(n - 1) * n }
 say factorial( 1 );
 # ERROR: both UInt and 1 subsets match.
 #+END_SRC
-********* Signature matches on single value 0, and restricts return to single value 1
+********* Here, a signature that matches on single value 0, and restricts return to single value 1
 #+BEGIN_SRC perl6
 multi factorial ( 0 --> 1 ){}
 #+END_SRC
