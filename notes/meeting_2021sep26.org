@@ -104,4 +104,13 @@
 ***** not many web hits
 ***** one dictionary site refers to perl
 ****** "Twigil meaning (computing, programming, Perl language) A character prepended to a variable name to indicate its scope."
-
+******* (not actually a good definition)
+**** my sense: twigil "tweaks" the meaning of the sigil
+**** william michels associates "twigil" with "twin", indicating "two"
+**** https://docs.raku.org/language/variables
+**** https://design.raku.org/S02.html#Twigils
+***** "Oddly scoped variables include a secondary sigil (a twigil) that indicates what kind of strange scoping the variable is subject to... ."
+***** my reading: secondary sigil == a twigil
+**** https://raku.org/archive/doc/design/apo/A02.html
+***** RFC 133
+***** larry wall: "[Update: Nowadays we call those funny characters sigils. And for weirdly scoped variables there's a second character called a twigil.]"
