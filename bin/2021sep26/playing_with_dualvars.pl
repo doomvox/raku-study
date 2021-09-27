@@ -39,7 +39,7 @@ use Scalar::Util qw( dualvar );
 
 ## perl being perl, it let's you hi-jack the normally hidden "dualvar" cache
 ## and assign custom values to the numeric and string slots
-my $n = dualvar( 5, "five" );  # 5 ,  "5" 
+my $n = dualvar( 5, "five" );  # 5 , "five", normally it's 5 and "5"
 
 say "The number is $n";                # The number is five
 say "Twice the number is: ", $n * 2;   # Twice the number is: 10
