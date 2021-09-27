@@ -89,4 +89,14 @@
 
 ** once over the zoom chat window
 
-*** Willaim Michels
+*** definition of "twigil"  
+**** the second char, or the two char pair
+***** survey says "second char"
+****** textual support in early writing
+
+**** Willaim Michels discussion
+**** background
+***** https://github.com/Raku/doc/pull/3965#issuecomment-924405557
+***** https://github.com/Raku/doc/pull/3965#issue-1003135309
+***** https://github.com/Raku/doc/issues/3966
+***** https://design.raku.org/S02.html#Twigils
