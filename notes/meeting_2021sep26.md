@@ -1,67 +1,67 @@
-- [meeting notes September 16, 2021                                      a](#org4b9d2ec)
-  - [the usual links:](#orge28fbd0)
-    - [meeting notes](#orgb066c24)
-    - [code examples:](#org729f721)
-  - [battle plan](#org3680721)
-    - [bin pre-loaded with small ammo](#org1b89526)
-    - [nano-lightning talk: given-when vs multi-dispatch](#org809d2ca)
-    - [data-handling in raku](#org6add27b)
-    - [intermixed types and resulting types](#org7a35447)
-    - [Data::Reshapers](#org7ad2889)
-    - [secure json-ification, vadim belman](#orgbc8badb)
-    - [lispyness of raku](#org4cd1353)
-    - [pairs of separators from a string](#org8ae7850)
-    - [bioinformatics on rosettacode](#org777f117)
-    - [lca (old topic)](#orgb072fb2)
-    - [once around the net](#org494ef8e)
-    - [the ephemeral miniconf: nov 18 2021](#org73d9f0b)
-  - [next meeting](#org7980fa3)
-    - [next meeting: Oct 10, 2021](#orgf4903a1)
-  - [misc notes](#org05c5f08)
-    - [plain text accounting site](#orgf357779)
-    - [jeff issues with data recovery exploration](#orgc9f4f61)
-    - [video political history of X](#orgb742ca5)
-  - [once over the zoom chat window](#org9c2ab09)
-    - [definition of "twigil"](#orgf9d3355)
+- [meeting notes September 16, 2021                                      a](#org46243cf)
+  - [the usual links:](#orge93b573)
+    - [meeting notes](#orgd9f749c)
+    - [code examples:](#orgfe6a2a8)
+  - [battle plan](#org4111ab9)
+    - [bin pre-loaded with small ammo](#org300bc52)
+    - [nano-lightning talk: given-when vs multi-dispatch](#org8842eeb)
+    - [data-handling in raku](#org625b0a9)
+    - [intermixed types and resulting types](#org1ffd412)
+    - [Data::Reshapers](#org2190004)
+    - [secure json-ification, vadim belman](#org591f969)
+    - [lispyness of raku](#org5e467b4)
+    - [pairs of separators from a string](#org64532d2)
+    - [bioinformatics on rosettacode](#org940c1d9)
+    - [lca (old topic)](#orgc69af02)
+    - [once around the net](#org376277f)
+    - [the ephemeral miniconf: nov 18 2021](#orga21f012)
+  - [next meeting](#org6f4f28a)
+    - [next meeting: Oct 10, 2021](#org5b4b6f9)
+  - [misc notes](#org7a1493d)
+    - [plain text accounting site](#org42e928f)
+    - [jeff issues with data recovery exploration](#org06f55c7)
+    - [video political history of X](#org4afb951)
+  - [once over the zoom chat window](#org333b211)
+    - [definition of "twigil"](#org1824a2f)
 
 
-<a id="org4b9d2ec"></a>
+<a id="org46243cf"></a>
 
 # meeting notes September 16, 2021                                      a
 
 
-<a id="orge28fbd0"></a>
+<a id="orge93b573"></a>
 
 ## the usual links:
 
 
-<a id="orgb066c24"></a>
+<a id="orgd9f749c"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="org729f721"></a>
+<a id="orgfe6a2a8"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="org3680721"></a>
+<a id="org4111ab9"></a>
 
 ## battle plan
 
 
-<a id="org1b89526"></a>
+<a id="org300bc52"></a>
 
 ### bin pre-loaded with small ammo
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="org809d2ca"></a>
+<a id="org8842eeb"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -98,7 +98,7 @@
                     2.  Hero/Monster classes
 
 
-<a id="org6add27b"></a>
+<a id="org625b0a9"></a>
 
 ### data-handling in raku
 
@@ -111,7 +111,7 @@
     1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/>
 
 
-<a id="org7a35447"></a>
+<a id="org1ffd412"></a>
 
 ### intermixed types and resulting types
 
@@ -122,14 +122,14 @@
     1.  TODO a few weeks old&#x2013; I still want to respond to it
 
 
-<a id="org7ad2889"></a>
+<a id="org2190004"></a>
 
 ### Data::Reshapers
 
 1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
 
 
-<a id="orgbc8badb"></a>
+<a id="org591f969"></a>
 
 ### secure json-ification, vadim belman
 
@@ -140,7 +140,7 @@
 3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="org4cd1353"></a>
+<a id="org5e467b4"></a>
 
 ### lispyness of raku
 
@@ -149,7 +149,7 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="org8ae7850"></a>
+<a id="org64532d2"></a>
 
 ### pairs of separators from a string
 
@@ -158,7 +158,7 @@
 2.  a discussion yary was involved in, which indicates there's something interesting
 
 
-<a id="org777f117"></a>
+<a id="org940c1d9"></a>
 
 ### bioinformatics on rosettacode
 
@@ -167,7 +167,7 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="orgb072fb2"></a>
+<a id="orgc69af02"></a>
 
 ### lca (old topic)
 
@@ -178,7 +178,7 @@
 3.  write it up as an answer of it's own.
 
 
-<a id="org494ef8e"></a>
+<a id="org376277f"></a>
 
 ### once around the net
 
@@ -193,29 +193,29 @@
 4.  rosettacode
 
 
-<a id="org73d9f0b"></a>
+<a id="orga21f012"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org7980fa3"></a>
+<a id="org6f4f28a"></a>
 
 ## next meeting
 
 
-<a id="orgf4903a1"></a>
+<a id="org5b4b6f9"></a>
 
 ### next meeting: Oct 10, 2021
 
 
-<a id="org05c5f08"></a>
+<a id="org7a1493d"></a>
 
 ## misc notes
 
 
-<a id="orgf357779"></a>
+<a id="org42e928f"></a>
 
 ### plain text accounting site
 
@@ -224,7 +224,7 @@
 2.  jeff hint
 
 
-<a id="orgc9f4f61"></a>
+<a id="org06f55c7"></a>
 
 ### jeff issues with data recovery exploration
 
@@ -243,19 +243,19 @@
     1.  can work on SSDs
 
 
-<a id="orgb742ca5"></a>
+<a id="org4afb951"></a>
 
 ### video political history of X
 
 1.  <https://www.youtube.com/watch?v=cj02_UeUnGQ>
 
 
-<a id="org9c2ab09"></a>
+<a id="org333b211"></a>
 
 ## once over the zoom chat window
 
 
-<a id="orgf9d3355"></a>
+<a id="org1824a2f"></a>
 
 ### definition of "twigil"
 
@@ -263,7 +263,7 @@
 
     1.  survey says "second char"
     
-        1.  textual support in early writing
+        1.  textual support in early writings of the larry
         
         2.  William Michels took the minority side,
         
