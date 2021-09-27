@@ -15,17 +15,18 @@ use v6;
 # brad gilbert:
 #   Doing what you want ((?)) would make using subsets with multis much less useful. 
 
-{     multi turn_0_to_1 ( 0 --> 1 ){}
-      say turn_0_to_1(0);   # 1
-      say turn_0_to_1(1);   # Cannot resolve caller turn_0_to_1(Int:D); none of these signatures match:
+{
+    multi turn_0_to_1 ( 0 --> 1 ){}
+    say turn_0_to_1(0);   # 1
+    say turn_0_to_1(1);   # Cannot resolve caller turn_0_to_1(Int:D); none of these signatures match:
 }
 
-
-{     multi transform ( 0 --> 1 ){}
-      multi transform ( 1 --> 2 ){}
-      say transform(0);   # 1
-      say transform(1);   # 
-      say transform(2);   # 
+{ say "---";
+  multi transform ( 0 --> 1 ){}
+  multi transform ( 1 --> 2 ){}
+  say transform(0);   # 1
+  say transform(1);   # 
+  say transform(2);   # 
 }
 
 
