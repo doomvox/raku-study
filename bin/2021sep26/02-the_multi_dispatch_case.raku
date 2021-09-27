@@ -17,11 +17,11 @@ sub MAIN( $interations = 1 ) {
 }
 
 multi sub whats_my_type (Int $item) {
-        return "This is an Int";
+    return "This is an Int";
 }
 
 multi sub whats_my_type (Rat $item) {
-        return "   Caught a Rat";
+    return "   Caught a Rat";
 }
 
 multi sub whats_my_type (Numeric $item) {
@@ -29,11 +29,11 @@ multi sub whats_my_type (Numeric $item) {
 }
 
 multi sub whats_my_type (Str $item) {
-        return "   This is a Str";
+    return "   This is a Str";
 }
 
 multi sub whats_my_type ('whun' ) {
-        return "   Detected special value 'whun'"; 
+    return "   Detected special value 'whun'"; 
 }
 
 multi sub whats_my_type ($item) {  # Behaves like the "default" for given/when.
