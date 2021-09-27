@@ -31,18 +31,8 @@ say $new;
 # THE tiFFuIzf OF THE FkzyioE IS THE oiy uHI FiOf "THE HOwHEFT dyIupEfwE OF TI dyIu THiT uE izE FkzzIkyfEf gh ohFTEzh
 
 
-## (Any other letter) = _
-## (Anything else) = (itself)
 
-## I have the fixed characters covered with:
 
-## tr MALCREX THEOFIS < file.txt
-
-## Or:
-
-## sed 'y/MALCREX/THEOFIS/' < file.txt
-
-## But how could I enforce the last two rules I mentioned?
 
 
 
