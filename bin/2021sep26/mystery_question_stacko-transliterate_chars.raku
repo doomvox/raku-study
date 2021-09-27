@@ -34,9 +34,9 @@ say $new;
 
 say %count;
 
-for $new.comb -> $c {
+# for $new.comb -> $c {
 
-}
+# }
 
 
 
