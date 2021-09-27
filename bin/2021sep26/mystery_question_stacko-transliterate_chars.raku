@@ -32,6 +32,8 @@ for $text.comb -> $c {
 say $new;
 # THE tiFFuIzf OF THE FkzyioE IS THE oiy uHI FiOf "THE HOwHEFT dyIupEfwE OF TI dyIu THiT uE izE FkzzIkyfEf gh ohFTEzh
 
+say %count;
+
 for $new.comb -> $c {
 
 }
