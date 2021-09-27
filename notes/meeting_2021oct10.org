@@ -5,6 +5,15 @@
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021oct10
 ** stuff it all in to the great stuffiness
+*** data-handling in raku (this time for sure)
+**** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527
+***** William Michaels objects to the word "Row" for a data-record in my solution
+**** arrays-of-objects
+***** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/
+
+
+
+
 *** leftover bits
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku
 
@@ -31,11 +40,6 @@
 ********* variables of type Hero/Monster
 ********* Hero/Monster classes
 
-*** data-handling in raku
-**** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527
-***** William Michaels objects to the word "Row" for a data-record in my solution
-**** arrays-of-objects
-***** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/
 
 *** Data::Reshapers
 **** https://raku.land/cpan:ANTONOV/Data::Reshapers
