@@ -1,5 +1,5 @@
 * raku case vs multidispatch                                              f
-** very roughly
+** rough comparison
 *** case
 **** clear flow of execution: sequence of comparisons all in one place (running a gauntlet)
 **** "default" means the catch-all, the alternative if no other cases match
