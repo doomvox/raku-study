@@ -21,6 +21,12 @@ use v6;
 
     say factorial( 1 );
     # ERROR: both UInt and 1 subsets match.
+
+# Cannot resolve caller transform(Int:D); none of these signatures match:
+#     (0 --> 1)
+#     (1 --> 2)
+
+
 }
 
 
