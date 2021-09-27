@@ -41,6 +41,7 @@ multi factorial ( 0 --> 1 ){}
 #+END_SRC
 ********** Alternately, the "returns" keyword
 *********** https://docs.raku.org/routine/returns
+*********** https://docs.raku.org/language/functions#Return_type_constraints
 
 ******* bruce gray tried some variants:
 ******** variables of type Hero/Monster
