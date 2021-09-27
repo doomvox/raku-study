@@ -4,9 +4,11 @@
 **** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct10.md
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021oct10
-** battle plan
+** stuff it all in to the great stuffiness
 *** bin pre-loaded with small ammo
+*** 
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku
+
 *** nano-lightning talk: given-when vs multi-dispatch
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/01-the_given_when_case.raku
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/02-the_multi_dispatch_case.raku

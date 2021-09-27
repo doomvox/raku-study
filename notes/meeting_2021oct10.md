@@ -1,65 +1,71 @@
-- [meeting notes October 10, 2021                                      a](#orgbd08c0e)
-  - [the usual links:](#org0031f15)
-    - [meeting notes](#orgf8384a5)
-    - [code examples:](#orgf7c5a9f)
-  - [battle plan](#org53ec29a)
-    - [bin pre-loaded with small ammo](#orgea801d9)
-    - [nano-lightning talk: given-when vs multi-dispatch](#orgf983d64)
-    - [data-handling in raku](#org9bc1da5)
-    - [intermixed types and resulting types](#org71ead35)
-    - [Data::Reshapers](#orgf8333e3)
-    - [secure json-ification, vadim belman](#orgb8ee504)
-    - [lispyness of raku](#org982a3cf)
-    - [pairs of separators from a string](#orgfe41448)
-    - [bioinformatics on rosettacode](#org7037daf)
-    - [lca (old topic)](#org331db4b)
-    - [once around the net](#orgb48d141)
-    - [the ephemeral miniconf: nov 18 2021](#org4f772ed)
-  - [next meeting](#org8579dd6)
-    - [next meeting: Oct 10, 2021](#org6d6649d)
-  - [misc notes](#orgca2d279)
-    - [plain text accounting site](#org7d465b3)
-    - [jeff issues with data recovery exploration](#org9f951ee)
-    - [video political history of X](#org8e7ee50)
+- [meeting notes October 10, 2021                                      a](#org8eb20fa)
+  - [the usual links:](#org04677f2)
+    - [meeting notes](#org8660cf5)
+    - [code examples:](#org95cf25b)
+  - [stuff it all in to the great stuffiness](#org4f23312)
+    - [bin pre-loaded with small ammo](#org3252b17)
+    - [](#org66b7309)
+    - [nano-lightning talk: given-when vs multi-dispatch](#org1c6f28a)
+    - [data-handling in raku](#orgbd151fc)
+    - [intermixed types and resulting types](#org18b5f61)
+    - [Data::Reshapers](#org61b6497)
+    - [secure json-ification, vadim belman](#org80e0c7d)
+    - [lispyness of raku](#orgc6f45a8)
+    - [pairs of separators from a string](#orgcc13e79)
+    - [bioinformatics on rosettacode](#org45ee3d1)
+    - [lca (old topic)](#org4a4dde1)
+    - [once around the net](#orgafe8197)
+    - [the ephemeral miniconf: nov 18 2021](#org29d4a6d)
+  - [next meeting](#org0ce0d64)
+    - [next meeting: Oct 10, 2021](#org7c83271)
+  - [misc notes](#orgfca88f3)
+    - [plain text accounting site](#org5b52730)
+    - [jeff issues with data recovery exploration](#org6cdca4c)
+    - [video political history of X](#org3836438)
 
 
-<a id="orgbd08c0e"></a>
+<a id="org8eb20fa"></a>
 
 # meeting notes October 10, 2021                                      a
 
 
-<a id="org0031f15"></a>
+<a id="org04677f2"></a>
 
 ## the usual links:
 
 
-<a id="orgf8384a5"></a>
+<a id="org8660cf5"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct10.md>
 
 
-<a id="orgf7c5a9f"></a>
+<a id="org95cf25b"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct10>
 
 
-<a id="org53ec29a"></a>
+<a id="org4f23312"></a>
 
-## battle plan
+## stuff it all in to the great stuffiness
 
 
-<a id="orgea801d9"></a>
+<a id="org3252b17"></a>
 
 ### bin pre-loaded with small ammo
+
+
+<a id="org66b7309"></a>
+
+### 
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="orgf983d64"></a>
+<a id="org1c6f28a"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -96,7 +102,7 @@
                     2.  Hero/Monster classes
 
 
-<a id="org9bc1da5"></a>
+<a id="orgbd151fc"></a>
 
 ### data-handling in raku
 
@@ -109,7 +115,7 @@
     1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/>
 
 
-<a id="org71ead35"></a>
+<a id="org18b5f61"></a>
 
 ### intermixed types and resulting types
 
@@ -120,14 +126,14 @@
     1.  TODO a few weeks old&#x2013; I still want to respond to it
 
 
-<a id="orgf8333e3"></a>
+<a id="org61b6497"></a>
 
 ### Data::Reshapers
 
 1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
 
 
-<a id="orgb8ee504"></a>
+<a id="org80e0c7d"></a>
 
 ### secure json-ification, vadim belman
 
@@ -138,7 +144,7 @@
 3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="org982a3cf"></a>
+<a id="orgc6f45a8"></a>
 
 ### lispyness of raku
 
@@ -147,7 +153,7 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="orgfe41448"></a>
+<a id="orgcc13e79"></a>
 
 ### pairs of separators from a string
 
@@ -156,7 +162,7 @@
 2.  a discussion yary was involved in, which indicates there's something interesting
 
 
-<a id="org7037daf"></a>
+<a id="org45ee3d1"></a>
 
 ### bioinformatics on rosettacode
 
@@ -165,7 +171,7 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org331db4b"></a>
+<a id="org4a4dde1"></a>
 
 ### lca (old topic)
 
@@ -176,7 +182,7 @@
 3.  write it up as an answer of it's own.
 
 
-<a id="orgb48d141"></a>
+<a id="orgafe8197"></a>
 
 ### once around the net
 
@@ -191,29 +197,29 @@
 4.  rosettacode
 
 
-<a id="org4f772ed"></a>
+<a id="org29d4a6d"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org8579dd6"></a>
+<a id="org0ce0d64"></a>
 
 ## next meeting
 
 
-<a id="org6d6649d"></a>
+<a id="org7c83271"></a>
 
 ### next meeting: Oct 10, 2021
 
 
-<a id="orgca2d279"></a>
+<a id="orgfca88f3"></a>
 
 ## misc notes
 
 
-<a id="org7d465b3"></a>
+<a id="org5b52730"></a>
 
 ### plain text accounting site
 
@@ -222,7 +228,7 @@
 2.  jeff hint
 
 
-<a id="org9f951ee"></a>
+<a id="org6cdca4c"></a>
 
 ### jeff issues with data recovery exploration
 
@@ -241,7 +247,7 @@
     1.  can work on SSDs
 
 
-<a id="org8e7ee50"></a>
+<a id="org3836438"></a>
 
 ### video political history of X
 
