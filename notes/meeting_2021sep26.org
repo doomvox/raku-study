@@ -95,6 +95,10 @@
 ****** textual support in early writing
 ****** William Michels took the minority side,
 ******* has a reading of his own of some of the material
+****** JJ offers a bit of limited support:
+"TBH, I understood the same as @jubilatious1. ";
+"Obviously, we have to stick to the published definition."
+
 **** background
 ***** https://github.com/Raku/doc/pull/3965#issuecomment-924405557
 ***** https://github.com/Raku/doc/pull/3965#issue-1003135309
@@ -114,3 +118,4 @@
 **** https://raku.org/archive/doc/design/apo/A02.html
 ***** RFC 133
 ***** larry wall: "[Update: Nowadays we call those funny characters sigils. And for weirdly scoped variables there's a second character called a twigil.]"
+
