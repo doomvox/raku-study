@@ -52,10 +52,6 @@
 *** bioinformatics on rosettacode 
 **** there's a half dozen entries, here's a simple one:
 ***** http://rosettacode.org/wiki/Bioinformatics/base_count
-*** lca (old topic)
-**** https://stackoverflow.com/questions/68869354/given-two-objects-can-you-find-the-nearest-common-ancestor
-**** i think I like raiph's solution (new version of ^parents that uses graph theory definition)
-**** write it up as an answer of it's own.
 
 *** once around the net
 **** stackoverflow
@@ -63,28 +59,9 @@
 **** Raku weekly
 ***** https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/
 **** rosettacode
+
 *** the ephemeral miniconf: nov 18 2021
 **** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
 ** next meeting
 *** next meeting: Oct 26, 2021
-
-** misc notes
-
-*** plain text accounting site
-**** doing accounting using just plain text
-**** jeff hint
-
-*** jeff issues with data recovery exploration
-**** ddrescue, dd_rescue
-***** copying data from dying media
-
-**** kryoflux
-***** https://kryoflux.com/ 
-***** Floppy disk archival tool
-
-**** harddrive in the freezer trick
-***** can work on SSDs
-
-*** video political history of X
-**** https://www.youtube.com/watch?v=cj02_UeUnGQ 
 
