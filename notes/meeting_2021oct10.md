@@ -1,47 +1,46 @@
-- [meeting notes October 10, 2021                                      a](#org4bdf9de)
-  - [the usual links:](#org64d50b0)
-    - [meeting notes](#org0e4f9cd)
-    - [code examples:](#org2485e32)
-  - [stuff it all in to the great stuffiness](#org1374283)
-    - [data-handling in raku (this time for sure)](#org53d89e7)
-    - [bioinformatics on rosettacode](#org42ac3a4)
-    - [other leftover bits](#org10ae08f)
-    - [once around the net](#orgd6f0077)
-    - [the ephemeral miniconf: nov 18 2021](#org52fec2a)
-  - [next meeting](#org5441503)
-    - [next meeting: Oct 24, 2021](#orga9d7eb3)
+- [meeting notes October 10, 2021                                      a](#org394fd20)
+  - [the usual links:](#org4e252c0)
+    - [meeting notes](#org3356613)
+    - [code examples:](#org999fc3a)
+  - [stuff it all in to the great stuffiness](#orgd34ff0f)
+    - [data-handling in raku (this time for sure)](#org227a641)
+    - [bioinformatics on rosettacode](#orgc4a4fb7)
+    - [other leftover bits](#org821f88b)
+    - [the ephemeral miniconf: nov 18 2021](#org1d3d73e)
+  - [next meeting](#org8c952e0)
+    - [next meeting: Oct 24, 2021](#org91906f8)
 
 
-<a id="org4bdf9de"></a>
+<a id="org394fd20"></a>
 
 # meeting notes October 10, 2021                                      a
 
 
-<a id="org64d50b0"></a>
+<a id="org4e252c0"></a>
 
 ## the usual links:
 
 
-<a id="org0e4f9cd"></a>
+<a id="org3356613"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct10.md>
 
 
-<a id="org2485e32"></a>
+<a id="org999fc3a"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct10>
 
 
-<a id="org1374283"></a>
+<a id="orgd34ff0f"></a>
 
 ## stuff it all in to the great stuffiness
 
 
-<a id="org53d89e7"></a>
+<a id="org227a641"></a>
 
 ### data-handling in raku (this time for sure)
 
@@ -54,7 +53,7 @@
     1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/>
 
 
-<a id="org42ac3a4"></a>
+<a id="orgc4a4fb7"></a>
 
 ### bioinformatics on rosettacode
 
@@ -63,7 +62,7 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org10ae08f"></a>
+<a id="org821f88b"></a>
 
 ### other leftover bits
 
@@ -98,31 +97,18 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="orgd6f0077"></a>
-
-### once around the net
-
-1.  stackoverflow
-
-2.  perl6-users
-
-3.  Raku weekly
-
-4.  rosettacode
-
-
-<a id="org52fec2a"></a>
+<a id="org1d3d73e"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org5441503"></a>
+<a id="org8c952e0"></a>
 
 ## next meeting
 
 
-<a id="orga9d7eb3"></a>
+<a id="org91906f8"></a>
 
 ### next meeting: Oct 24, 2021
