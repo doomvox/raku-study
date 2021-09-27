@@ -35,11 +35,13 @@
 ***** https://www.codesections.com/blog/raku-lisp-impression/
 ***** https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/
 
+**** old raku weekly
+***** https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/
+
 *** once around the net
 **** stackoverflow
 **** perl6-users
 **** Raku weekly
-***** https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/
 **** rosettacode
 
 *** the ephemeral miniconf: nov 18 2021
