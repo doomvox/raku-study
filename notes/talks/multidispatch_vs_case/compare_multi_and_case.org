@@ -1,7 +1,7 @@
 * raku case vs multidispatch                                              f
 ** very roughly
 *** case
-**** an obvious lexical sequence of comparisons (running a gauntlet)
+**** clear flow of execution: sequence of comparisons all in one place (running a gauntlet)
 **** "default" means the catch-all, the alternative if no other cases match
 *** multi
 **** orders cases ~by "specificity", not lexically 
@@ -9,7 +9,7 @@
 ****** subsets are grouped by the type they're based on
 ****** BUT they don't behave like two multis with same type
 ******* uses the order of definition for subsets based on same type 
-**** code that handles various types can be scattered, defined in different places
+**** code that handles various types can be scattered, defined in different places (common with OOP)
 **** there's an "is default" trait available to break ties in type specificity
 
 ** utility
