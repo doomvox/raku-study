@@ -41,8 +41,10 @@
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/08/msg10102.html
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/08/msg10114.html
 ***** TODO a few weeks old-- I still want to respond to it
+
 *** Data::Reshapers
 **** https://raku.land/cpan:ANTONOV/Data::Reshapers
+
 *** secure json-ification, vadim belman
 **** https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100
 **** https://vrurg.github.io/2021/09/14/Secure-JSONification
@@ -51,6 +53,7 @@
 *** lispyness of raku
 **** https://www.codesections.com/blog/raku-lisp-impression/
 **** https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/
+
 *** pairs of separators from a string
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html
 **** a discussion yary was involved in, which indicates there's something interesting
