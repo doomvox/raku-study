@@ -18,7 +18,7 @@ use v6;
 {
     multi turn_0_to_1 ( 0 --> 1 ){}
     say turn_0_to_1(0);   # 1
-    say turn_0_to_1(1);   # Cannot resolve caller turn_0_to_1(Int:D); none of these signatures match:
+##    say turn_0_to_1(1);   # Cannot resolve caller turn_0_to_1(Int:D); none of these signatures match:
 }
 
 { say "---";
