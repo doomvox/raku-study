@@ -8,6 +8,11 @@
 *** leftover bits
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku
 
+*** bioinformatics on rosettacode 
+**** there's a half dozen entries, here's a simple one:
+***** http://rosettacode.org/wiki/Bioinformatics/base_count
+
+
 *** lightning talk in-progress: given-when vs multi-dispatch
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/01-the_given_when_case.raku
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/02-the_multi_dispatch_case.raku
@@ -49,9 +54,7 @@
 *** pairs of separators from a string
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html
 **** a discussion yary was involved in, which indicates there's something interesting
-*** bioinformatics on rosettacode 
-**** there's a half dozen entries, here's a simple one:
-***** http://rosettacode.org/wiki/Bioinformatics/base_count
+
 
 *** once around the net
 **** stackoverflow
