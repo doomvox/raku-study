@@ -50,11 +50,12 @@ multi sub whats_my_type ($item) {  # Behaves like the "default" for given/when.
 # Checking: 01
 #    This is a Str
 # Checking: whun
-#    Detected special value 'whun'
+#    Detected special value 'whun'  
 # Checking: a b c
 #    I guess this is a: Set
 
-## Similar behavior to the given/when version, but not identical
+## Similar behavior to the given/when version, but not identical:
+##   specific case "whun" is detected even though it's defined after Str 
 
 
 
