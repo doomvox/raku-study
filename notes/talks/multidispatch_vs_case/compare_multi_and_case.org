@@ -5,6 +5,10 @@
 **** "default" means the catch-all, the alternative if no other cases match
 **** flexible: good for any sort of comparison, e.g. pattern matches
 *** multi
+**** best for 
+***** checking types
+***** particular fixed values
+
 **** orders cases ~by "specificity", not lexically 
 ***** in the case of subsets, falls back to order of definition
 ****** subsets are grouped by the type they're based on
@@ -14,15 +18,7 @@
 **** there's an "is default" trait available to break ties in type specificity
 ***** not quite the same as the given/when "default"
 
-** utility
-*** case 
 
-*** multi
-**** best for 
-***** checking types
-***** particular fixed values
-**** you can do other things with them but
-***** won't perform as well
-***** are essentially second-class citizens
-****** e.g. in the case of subsets actual behavior is undocumented
+
+
 
