@@ -33,7 +33,7 @@ say $new;
 # THE tiFFuIzf OF THE FkzyioE IS THE oiy uHI FiOf "THE HOwHEFT dyIupEfwE OF TI dyIu THiT uE izE FkzzIkyfEf gh ohFTEzh
 
 say %count;
-%count.sort( .values )
+%count.sort( .values ).map({ .keys });
 
 # for $new.comb -> $c {
 
