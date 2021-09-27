@@ -20,7 +20,7 @@ my %translate = (
 my $new;
 for $text.comb -> $c {
     if %translate{ $c } {
-          $c = %translate( $c );
+          $c = %translate{ $c };
      };
     $new ~= $c;
 }
