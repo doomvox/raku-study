@@ -11,6 +11,7 @@
 ******* uses the order of definition for subsets based on same type 
 **** code that handles various types can be scattered, defined in different places (common with OOP)
 **** there's an "is default" trait available to break ties in type specificity
+***** this "is default" isn't quite the same as the given/when "default"
 
 ** utility
 *** case 
