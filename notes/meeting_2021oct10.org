@@ -5,8 +5,7 @@
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021oct10
 ** stuff it all in to the great stuffiness
-*** bin pre-loaded with small ammo
-*** 
+*** leftover bits
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku
 
 *** nano-lightning talk: given-when vs multi-dispatch
