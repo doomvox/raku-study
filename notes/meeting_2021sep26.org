@@ -182,7 +182,6 @@ my $z = $file.IO.slurp(:bin); say $z.pop; say $z.pop;
 **** weird one, hit and run cryptography puzzle, sort of
 https://unix.stackexchange.com/questions/670307/how-can-i-transliterate-some-characters-1-to-1-leave-some-unchanged-and-replac/670628#670628
 
-
 **** csv standard, from 2005 (after it was in use for over a decade...)
 ***** https://www.ietf.org/rfc/rfc4180.txt
 
