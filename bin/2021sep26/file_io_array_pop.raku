@@ -27,7 +27,7 @@ my @n = 0 .. 25;
 for @n -> $i { 
     say $z.head($i).tail(1).chr );
 }
-## incredible amounts of flailing here...
+## incredible amounts of flailing around on my part here... 
 
 
 
