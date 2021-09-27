@@ -1,5 +1,5 @@
 #!/usr/bin/env perl6
-# 
+#                                                                          j
 # playing_with_intstr.raku            26 Sep 2021 
 
 use v6;
