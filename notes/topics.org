@@ -42,9 +42,6 @@
 *** andrew shitov's raku course on-line:
 https://course.raku.org/
 
-*** perl weekly challenge: 
-**** https://perlweeklychallenge.org/
-
 *** promises and threads
 **** https://www.reddit.com/r/rakulang/comments/lthpxe/are_promises_multithreaded/
 **** Jonathan Worthington
@@ -66,9 +63,17 @@ https://course.raku.org/
 *** immutability 
 **** https://stackoverflow.com/questions/63294853/how-to-enforce-immutability-with-the-raku-typesystem?rq=1
 
-*** frequently revisited doc pages
-**** https://docs.raku.org/language/operators
-**** https://docs.raku.org/language/pod
-**** https://docs.raku.org/type/Test
-**** https://docs.raku.org/language/variables
-**** 
+*** places to find topics
+**** perl weekly challenge: 
+***** https://perlweeklychallenge.org/
+**** stackoverflow
+**** perl6-users
+**** Raku weekly
+**** rosettacode
+
+**** frequently revisited doc pages
+***** https://docs.raku.org/language/operators
+***** https://docs.raku.org/language/pod
+***** https://docs.raku.org/type/Test
+***** https://docs.raku.org/language/variables
+***** 
