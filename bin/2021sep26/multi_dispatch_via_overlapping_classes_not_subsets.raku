@@ -36,7 +36,7 @@ say "---";
 my @names = (@monsters ∪ @heroes).keys.sort;
 say @names;
 for @names -> $n {
-    speak( $n );
+    $spk.speak( $n );
 }
 
 # [beowulf bernie bluebeetle gammera ghidora godzilla golem maynard_g_krebs mothera wormface]
