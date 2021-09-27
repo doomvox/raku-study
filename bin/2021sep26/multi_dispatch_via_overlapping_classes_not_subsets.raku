@@ -4,14 +4,14 @@
 
 use v6;
 
-
-class Monster {
-    my @monsters = < godzilla mothera ghidora gammera golem wormface >;
-    my @heroes   = < beowulf maynard_g_krebs bluebeetle bernie mothera godzilla >;
-    # but note the overlapping cases: godzilla and mothera are both monsters and heroes
+my @monsters = < godzilla mothera ghidora gammera golem wormface >;
+my @heroes   = < beowulf maynard_g_krebs bluebeetle bernie mothera godzilla >;
+# but note the overlapping cases: godzilla and mothera are both monsters and heroes
 
 subset Monster of Str where { $_ eq any( @monsters ) };
 subset Hero    of Str where { $_ eq any( @heroes ) };
+
+class Monster {
 
 ## Monster is favored over Hero because of the order of definition of these multi subs
 multi sub speak (Monster $m) {
