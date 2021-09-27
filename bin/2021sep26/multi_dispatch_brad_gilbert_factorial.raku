@@ -10,10 +10,6 @@ use v6;
 ## I don't see a "subset" (or a where) in this example.
 ## (Could be he's making a point very obliquely?)
 
-## I *think* you could resolve is with an "is default".
-
-
-
 # brad gilbert:
 #   Doing what you want ((?)) would make using subsets with multis much less useful. 
 {
