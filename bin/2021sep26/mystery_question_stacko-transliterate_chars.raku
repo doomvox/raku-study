@@ -17,6 +17,8 @@ my %translate = (
     'X' => 'S',
 );
 
+my $scratch = $text;
+
 for $text.comb -> $c {
      say $c;
 
