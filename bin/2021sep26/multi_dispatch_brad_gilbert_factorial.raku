@@ -41,7 +41,7 @@ use v6;
   multi transform ( 1 --> 2 ){}
   say transform(0);   # 1
   say transform(1);   # 2
-  say transform(2);   # Cannot resolve caller transform(Int:D); none of these signatures match:
+##   say transform(2);   # Cannot resolve caller transform(Int:D); none of these signatures match:
 }
 
 
