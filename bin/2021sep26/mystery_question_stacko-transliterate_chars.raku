@@ -22,7 +22,9 @@ for $text.comb -> $c {
     my $n = $c;
     if %translate{ $c } {
           $n = %translate{ $c };
-     };
+    } else {
+
+    };
     $new ~= $n;
 }
 
