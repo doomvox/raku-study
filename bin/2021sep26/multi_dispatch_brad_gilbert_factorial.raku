@@ -19,8 +19,13 @@ use v6;
     multi factorial ( 1 --> 1 ){}
     multi factorial ( UInt \n ) { factorial( n - 1 ) * n }
 
-    say factorial( 1 );
+    say factorial( 1 );  # 1
+    # Brad Gilbert remarks:
     # ERROR: both UInt and 1 subsets match.
+
+    # But I see no such error.
+
+    say factorial( 8 );  # 1
 
 }
 
