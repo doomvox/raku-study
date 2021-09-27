@@ -1,51 +1,47 @@
-- [meeting notes October 10, 2021                                      a](#org2bf1985)
-  - [the usual links:](#org40039d6)
-    - [meeting notes](#orgeb339fe)
-    - [code examples:](#org94d055e)
-  - [stuff it all in to the great stuffiness](#org4e4456d)
-    - [data-handling in raku (this time for sure)](#orgbdd3fac)
-    - [bioinformatics on rosettacode](#orgf10a7f6)
-    - [other leftover bits](#org6c48be8)
-    - [Data::Reshapers](#orge20e154)
-    - [secure json-ification, vadim belman](#orgd7c2405)
-    - [lispyness of raku](#org628ecdd)
-    - [pairs of separators from a string](#orgce5bbaf)
-    - [once around the net](#org0244a16)
-    - [the ephemeral miniconf: nov 18 2021](#org609a455)
-  - [next meeting](#orgcd1b891)
-    - [next meeting: Oct 26, 2021](#org9e4c3be)
+- [meeting notes October 10, 2021                                      a](#org52f0ccd)
+  - [the usual links:](#org610cd3b)
+    - [meeting notes](#org5705c40)
+    - [code examples:](#org09006f0)
+  - [stuff it all in to the great stuffiness](#orgb424700)
+    - [data-handling in raku (this time for sure)](#org60ee0b3)
+    - [bioinformatics on rosettacode](#org6bbdd0b)
+    - [other leftover bits](#orgf2f1f83)
+    - [once around the net](#orgbd31017)
+    - [the ephemeral miniconf: nov 18 2021](#org4ea7a9f)
+  - [next meeting](#orgbf15d05)
+    - [next meeting: Oct 26, 2021](#org5aa0510)
 
 
-<a id="org2bf1985"></a>
+<a id="org52f0ccd"></a>
 
 # meeting notes October 10, 2021                                      a
 
 
-<a id="org40039d6"></a>
+<a id="org610cd3b"></a>
 
 ## the usual links:
 
 
-<a id="orgeb339fe"></a>
+<a id="org5705c40"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct10.md>
 
 
-<a id="org94d055e"></a>
+<a id="org09006f0"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct10>
 
 
-<a id="org4e4456d"></a>
+<a id="orgb424700"></a>
 
 ## stuff it all in to the great stuffiness
 
 
-<a id="orgbdd3fac"></a>
+<a id="org60ee0b3"></a>
 
 ### data-handling in raku (this time for sure)
 
@@ -58,7 +54,7 @@
     1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/>
 
 
-<a id="orgf10a7f6"></a>
+<a id="org6bbdd0b"></a>
 
 ### bioinformatics on rosettacode
 
@@ -67,50 +63,38 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org6c48be8"></a>
+<a id="orgf2f1f83"></a>
 
 ### other leftover bits
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
+2.  pairs of separators from a string
 
-<a id="orge20e154"></a>
+    1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html>
+    
+    2.  a discussion yary was involved in, which indicates there's something interesting
 
-### Data::Reshapers
+3.  Data::Reshapers
 
-1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
+    1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
 
+4.  secure json-ification, vadim belman
 
-<a id="orgd7c2405"></a>
+    1.  <https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100>
+    
+    2.  <https://vrurg.github.io/2021/09/14/Secure-JSONification>
+    
+    3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
-### secure json-ification, vadim belman
+5.  lispyness of raku
 
-1.  <https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100>
-
-2.  <https://vrurg.github.io/2021/09/14/Secure-JSONification>
-
-3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
-
-
-<a id="org628ecdd"></a>
-
-### lispyness of raku
-
-1.  <https://www.codesections.com/blog/raku-lisp-impression/>
-
-2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
+    1.  <https://www.codesections.com/blog/raku-lisp-impression/>
+    
+    2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="orgce5bbaf"></a>
-
-### pairs of separators from a string
-
-1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html>
-
-2.  a discussion yary was involved in, which indicates there's something interesting
-
-
-<a id="org0244a16"></a>
+<a id="orgbd31017"></a>
 
 ### once around the net
 
@@ -125,18 +109,18 @@
 4.  rosettacode
 
 
-<a id="org609a455"></a>
+<a id="org4ea7a9f"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="orgcd1b891"></a>
+<a id="orgbf15d05"></a>
 
 ## next meeting
 
 
-<a id="org9e4c3be"></a>
+<a id="org5aa0510"></a>
 
 ### next meeting: Oct 26, 2021
