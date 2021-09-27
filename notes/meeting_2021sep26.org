@@ -43,6 +43,11 @@ multi factorial ( 0 --> 1 ){}
 ********** Alternately, the "returns" keyword
 *********** https://docs.raku.org/routine/returns
 *********** https://docs.raku.org/language/functions#Return_type_constraints
+********* 
+#+BEGIN_SRC perl6
+    multi factorial ( UInt \n ) { factorial( n - 1 ) * n }
+#+END_SRC
+
 
 ******* bruce gray tried some variants:
 ******** variables of type Hero/Monster
