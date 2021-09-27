@@ -11,6 +11,9 @@
 ***** William Michaels objects to the word "Row" for a data-record in my solution
 **** arrays-of-objects
 ***** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/
+**** Data::Reshapers
+***** https://raku.land/cpan:ANTONOV/Data::Reshapers
+
 
 *** bioinformatics on rosettacode 
 **** there's a half dozen entries, here's a simple one:
@@ -24,8 +27,6 @@
 ***** a discussion yary was involved in, which indicates there's something interesting
 
 
-**** Data::Reshapers
-***** https://raku.land/cpan:ANTONOV/Data::Reshapers
 
 **** secure json-ification, vadim belman
 ***** https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100
