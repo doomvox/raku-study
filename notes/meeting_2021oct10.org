@@ -58,7 +58,6 @@
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html
 **** a discussion yary was involved in, which indicates there's something interesting
 
-
 *** once around the net
 **** stackoverflow
 **** perl6-users
