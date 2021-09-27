@@ -16,9 +16,9 @@ use v6;
 #   Doing what you want ((?)) would make using subsets with multis much less useful. 
 
 {     multi turn_0_to_1 ( 0 --> 1 ){}
-      say turn_0_to_1(0);
-      say turn_0_to_1(1);
-      say turn_0_to_1(2);
+      say turn_0_to_1(0);   # 1
+      say turn_0_to_1(1);   # Cannot resolve caller turn_0_to_1(Int:D); none of these signatures match:
+
 }
 
 say "===";
