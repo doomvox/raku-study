@@ -21,7 +21,7 @@
 ********* I figured you'd need "is default"-- instead it goes by order-of-definition (NOT DOCUMENTED)
 ********* "is default" actually only works for two alternatives, with three you'd be SOL
 ********* brad gilbert argues it has to be this way for performance reasons
-******** bruce gray tried some variants... suspects raku could do better
+******** bruce gray tried some variants... 
 ********* variables of type Hero/Monster
 ********* Hero/Monster classes
 
