@@ -180,7 +180,7 @@ my $z = $file.IO.slurp(:bin); say $z.pop; say $z.pop;
 ***** https://unix.stackexchange.com/questions/593993/convert-multi-lines-to-single-line-with-spaces-and-quotes/668846#668846
 
 
-
+**** csv standard, from 2005 (after it was in use for over a decade...)
 ***** https://www.ietf.org/rfc/rfc4180.txt
-***** 
-***** 
+
+
