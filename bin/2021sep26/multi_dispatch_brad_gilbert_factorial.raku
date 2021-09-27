@@ -8,6 +8,8 @@ use v6;
 
 ## I don't think I see what brad gilbert is getting at here
 ## I don't see a "subset" (or a where) in this example.
+## Could it be that individual value matches count as "subsets"?
+
 ## (Could be he's making a point very obliquely?)
 
 # brad gilbert:
