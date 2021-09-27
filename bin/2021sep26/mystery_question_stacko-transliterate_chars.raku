@@ -19,10 +19,10 @@ my %translate = (
 
 say $text.split;
 
-# for $text.split -> $c {
-#     say $c;
+for $text.split("") -> $c {
+     say $c;
 
-# }
+}
 
 
 
