@@ -21,23 +21,23 @@ multi sub whats_my_type (Int $item) {
 }
 
 multi sub whats_my_type (Rat $item) {
-        return "Caught a Rat";
+        return "   Caught a Rat";
 }
 
 multi sub whats_my_type (Numeric $item) {
-    return "This is a Numeric (but not an Int or a Rat)";
+    return "   This is a Numeric (but not an Int or a Rat)";
 }
 
 multi sub whats_my_type (Str $item) {
-        return "This is a Str";
+        return "   This is a Str";
 }
 
 multi sub whats_my_type ('whun' ) {
-        return "Detected special value 'whun'"; 
+        return "   Detected special value 'whun'"; 
 }
 
 multi sub whats_my_type ($item) {  # Behaves like the "default" for given/when.
-    return "Huh?  I guess this is a: " ~ $item.^name;
+    return "   I guess this is a: " ~ $item.^name;
 }
 
 
