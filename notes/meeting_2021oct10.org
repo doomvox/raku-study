@@ -48,5 +48,5 @@
 *** the ephemeral miniconf: nov 18 2021
 **** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
 ** next meeting
-*** next meeting: Oct 26, 2021
+*** next meeting: Oct 24, 2021
 
