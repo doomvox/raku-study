@@ -68,7 +68,6 @@ multi factorial ( 0 --> 1 ){}
 **** https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100
 **** https://vrurg.github.io/2021/09/14/Secure-JSONification
 **** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/
-
 *** lispyness of raku
 **** https://www.codesections.com/blog/raku-lisp-impression/
 **** https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/
