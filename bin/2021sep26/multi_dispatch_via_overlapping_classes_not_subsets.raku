@@ -11,7 +11,7 @@ my @heroes   = < beowulf maynard_g_krebs bluebeetle bernie mothera godzilla >;
 subset Monster of Str where { $_ eq any( @monsters ) };
 subset Hero    of Str where { $_ eq any( @heroes ) };
 
-class Monster {
+class Speaker {
     ## Monster is favored over Hero because of the order of definition of these multi subs
     multi method speak (Monster $m) {
         say "The monster, $m roars!";
@@ -21,10 +21,11 @@ class Monster {
     }
 }
 
+my $spk = Speaker.new();
 
-speak('ghidora');  # The monster, ghidora roars!
-speak('beowulf');  # The hero, beowulf shouts!
-speak('mothera');  # The monster, mothera roars!  ## mothera is treated as a monster
+$spk.speak('ghidora');  # The monster, ghidora roars!
+$spk.speak('beowulf');  # The hero, beowulf shouts!
+$spk.speak('mothera');  # The monster, mothera roars!  ## mothera is treated as a monster
 
 
 ## There's nothing about this in the documentation:
