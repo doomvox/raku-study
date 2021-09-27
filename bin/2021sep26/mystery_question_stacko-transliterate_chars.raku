@@ -17,8 +17,6 @@ my %translate = (
     'X' => 'S',
 );
 
-# say $text.split;
-
 for $text.comb -> $c {
      say $c;
 
