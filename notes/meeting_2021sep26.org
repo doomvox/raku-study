@@ -23,6 +23,25 @@
 ******** I figured you'd need "is default"-- instead it goes by order-of-definition (NOT DOCUMENTED)
 ******** "is default" actually only works for two alternatives, with three you'd be SOL
 ******** brad gilbert argues it has to be this way for performance reasons
+******** most recent brad gilbert post (factorial) example is puzzling
+******** https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10149.html
+********* doesn't seem to address the issue at hand
+********* some idioms in use are interesting:
+#+BEGIN_SRC perl6
+multi factorial ( 0 --> 1 ){}
+multi factorial ( 1 --> 1 ){}
+multi factorial ( UInt \n ){ factorial(n - 1) * n }
+
+say factorial( 1 );
+# ERROR: both UInt and 1 subsets match.
+#+END_SRC
+********* Signature matches on single value 0, and restricts return to single value 1
+#+BEGIN_SRC perl6
+multi factorial ( 0 --> 1 ){}
+#+END_SRC
+
+
+
 ******* bruce gray tried some variants... 
 ******** variables of type Hero/Monster
 ******** Hero/Monster classes
