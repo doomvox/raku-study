@@ -18,7 +18,6 @@
 **** there's a half dozen entries, here's a simple one:
 ***** http://rosettacode.org/wiki/Bioinformatics/base_count
 
-
 *** lightning talk in-progress: given-when vs multi-dispatch
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/01-the_given_when_case.raku
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/02-the_multi_dispatch_case.raku
