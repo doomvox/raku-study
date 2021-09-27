@@ -27,7 +27,7 @@
 
 *** data-handling in raku
 **** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527
-***** William Michaels objects to the word "Row" for a data-record in my solution
+***** William Michels objects to the word "Row" for a data-record in my solution
 **** arrays-of-objects
 ***** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/
 
@@ -85,5 +85,8 @@
 ***** can work on SSDs
 
 *** video political history of X
-**** https://www.youtube.com/watch?v=cj02_UeUnGQ 
+**** https://www.youtube.com/watch?v=cj02_UeUnGQ
 
+** once over the zoom chat window
+
+*** Willaim Michels
