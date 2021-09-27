@@ -5,9 +5,9 @@
                                                                             
                                                       September 27, 2021 
                     
-                    Comparison of                         
-                    Raku case statements (given/when)     
-                    and Multi-dispatch                    
+
+                    Case statements (given/when)      
+                    vs. multi-dispatch in raku            
                                                          
                     
                     
