@@ -8,7 +8,7 @@
 
 
                     Case statements (given/when)      
-                    vs. multi-dispatch in raku            
+                    vs. Multi-dispatch in Raku            
                                                          
                     
                     
