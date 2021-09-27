@@ -21,7 +21,6 @@
 
 *** other leftover bits
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku
-
 **** pairs of separators from a string
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html
 ***** a discussion yary was involved in, which indicates there's something interesting
