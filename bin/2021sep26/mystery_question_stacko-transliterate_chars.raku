@@ -20,7 +20,9 @@ my %translate = (
 my $scratch = $text;
 
 for $text.comb -> $c {
-     say $c;
+    if %translate{ $c } {
+          $c = %translate( $c );
+     };
 
 }
 
