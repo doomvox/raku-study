@@ -1,67 +1,67 @@
-- [meeting notes September 16, 2021                                      a](#org3c44030)
-  - [the usual links:](#org9fd1a68)
-    - [meeting notes](#org1f13f61)
-    - [code examples:](#org55cf2bd)
-  - [battle plan](#org98b6983)
-    - [bin pre-loaded with small ammo](#orgf541b80)
-    - [nano-lightning talk: given-when vs multi-dispatch](#org8a60e80)
-    - [data-handling in raku](#org5afd7cf)
-    - [intermixed types and resulting types](#orgb1f90eb)
-    - [Data::Reshapers](#org48ee7c0)
-    - [secure json-ification, vadim belman](#org983d48d)
-    - [lispyness of raku](#org49af91c)
-    - [pairs of separators from a string](#org1351278)
-    - [bioinformatics on rosettacode](#orge23db1a)
-    - [lca (old topic)](#org4bcbf77)
-    - [once around the net](#org9e4037f)
-    - [the ephemeral miniconf: nov 18 2021](#orgb4c9204)
-  - [next meeting](#org865562a)
-    - [next meeting: Oct 10, 2021](#orge126cbc)
-  - [misc notes](#org853b655)
-    - [plain text accounting site](#org5e93ee9)
-    - [jeff issues with data recovery exploration](#org971e5ed)
-    - [video political history of X](#org1838595)
-  - [once over the zoom chat window](#org6843b3a)
-    - [definition of "twigil"](#org0801c38)
+- [meeting notes September 16, 2021                                      a](#org1ac999c)
+  - [the usual links:](#org12943c8)
+    - [meeting notes](#orgbf004b4)
+    - [code examples:](#orgd9f3dcd)
+  - [battle plan](#org89ae5f9)
+    - [bin pre-loaded with small ammo](#org1a01566)
+    - [nano-lightning talk: given-when vs multi-dispatch](#orge022cbe)
+    - [data-handling in raku](#org6a44e7f)
+    - [intermixed types and resulting types](#org2798591)
+    - [Data::Reshapers](#org24adb2f)
+    - [secure json-ification, vadim belman](#org01cec8f)
+    - [lispyness of raku](#org75119e5)
+    - [pairs of separators from a string](#orga2fb6ea)
+    - [bioinformatics on rosettacode](#orga59f0fe)
+    - [lca (old topic)](#orgad3ffdc)
+    - [once around the net](#org02999e9)
+    - [the ephemeral miniconf: nov 18 2021](#org0257e63)
+  - [next meeting](#org96dff99)
+    - [next meeting: Oct 10, 2021](#org8047d0c)
+  - [misc notes](#org51ff10a)
+    - [plain text accounting site](#orgf171b81)
+    - [jeff issues with data recovery exploration](#orgb95b5d2)
+    - [video political history of X](#org8ca74d8)
+  - [once over the zoom chat window](#orgd336d09)
+    - [definition of "twigil"](#org5170ff6)
 
 
-<a id="org3c44030"></a>
+<a id="org1ac999c"></a>
 
 # meeting notes September 16, 2021                                      a
 
 
-<a id="org9fd1a68"></a>
+<a id="org12943c8"></a>
 
 ## the usual links:
 
 
-<a id="org1f13f61"></a>
+<a id="orgbf004b4"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021sep26.md>
 
 
-<a id="org55cf2bd"></a>
+<a id="orgd9f3dcd"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26>
 
 
-<a id="org98b6983"></a>
+<a id="org89ae5f9"></a>
 
 ## battle plan
 
 
-<a id="orgf541b80"></a>
+<a id="org1a01566"></a>
 
 ### bin pre-loaded with small ammo
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="org8a60e80"></a>
+<a id="orge022cbe"></a>
 
 ### nano-lightning talk: given-when vs multi-dispatch
 
@@ -131,7 +131,7 @@
                 2.  Hero/Monster classes
 
 
-<a id="org5afd7cf"></a>
+<a id="org6a44e7f"></a>
 
 ### data-handling in raku
 
@@ -144,7 +144,7 @@
     1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/>
 
 
-<a id="orgb1f90eb"></a>
+<a id="org2798591"></a>
 
 ### intermixed types and resulting types
 
@@ -155,14 +155,14 @@
     1.  TODO a few weeks old&#x2013; I still want to respond to it
 
 
-<a id="org48ee7c0"></a>
+<a id="org24adb2f"></a>
 
 ### Data::Reshapers
 
 1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
 
 
-<a id="org983d48d"></a>
+<a id="org01cec8f"></a>
 
 ### secure json-ification, vadim belman
 
@@ -173,7 +173,7 @@
 3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="org49af91c"></a>
+<a id="org75119e5"></a>
 
 ### lispyness of raku
 
@@ -182,7 +182,7 @@
 2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
 
-<a id="org1351278"></a>
+<a id="orga2fb6ea"></a>
 
 ### pairs of separators from a string
 
@@ -191,7 +191,7 @@
 2.  a discussion yary was involved in, which indicates there's something interesting
 
 
-<a id="orge23db1a"></a>
+<a id="orga59f0fe"></a>
 
 ### bioinformatics on rosettacode
 
@@ -200,7 +200,7 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org4bcbf77"></a>
+<a id="orgad3ffdc"></a>
 
 ### lca (old topic)
 
@@ -211,7 +211,7 @@
 3.  write it up as an answer of it's own.
 
 
-<a id="org9e4037f"></a>
+<a id="org02999e9"></a>
 
 ### once around the net
 
@@ -226,29 +226,29 @@
 4.  rosettacode
 
 
-<a id="orgb4c9204"></a>
+<a id="org0257e63"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org865562a"></a>
+<a id="org96dff99"></a>
 
 ## next meeting
 
 
-<a id="orge126cbc"></a>
+<a id="org8047d0c"></a>
 
 ### next meeting: Oct 10, 2021
 
 
-<a id="org853b655"></a>
+<a id="org51ff10a"></a>
 
 ## misc notes
 
 
-<a id="org5e93ee9"></a>
+<a id="orgf171b81"></a>
 
 ### plain text accounting site
 
@@ -257,7 +257,7 @@
 2.  jeff hint
 
 
-<a id="org971e5ed"></a>
+<a id="orgb95b5d2"></a>
 
 ### jeff issues with data recovery exploration
 
@@ -276,19 +276,19 @@
     1.  can work on SSDs
 
 
-<a id="org1838595"></a>
+<a id="org8ca74d8"></a>
 
 ### video political history of X
 
 1.  <https://www.youtube.com/watch?v=cj02_UeUnGQ>
 
 
-<a id="org6843b3a"></a>
+<a id="orgd336d09"></a>
 
 ## once over the zoom chat window
 
 
-<a id="org0801c38"></a>
+<a id="org5170ff6"></a>
 
 ### definition of "twigil"
 
@@ -343,3 +343,13 @@
     1.  RFC 133
     
     2.  larry wall: "[Update: Nowadays we call those funny characters sigils. And for weirdly scoped variables there's a second character called a twigil.]"
+
+9.  side issue: IntStr and Allomorph
+
+    <https://docs.raku.org/language/numerics#Allomorphs> <https://docs.raku.org/language/glossary#index-entry-Allomorph>
+
+10. hailstone sequence
+
+    1.  <https://xkcd.com/710/>
+    
+    2.  <http://rosettacode.org/wiki/Hailstone_sequence>

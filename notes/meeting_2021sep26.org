@@ -140,3 +140,11 @@ multi factorial ( 0 --> 1 ){}
 ***** RFC 133
 ***** larry wall: "[Update: Nowadays we call those funny characters sigils. And for weirdly scoped variables there's a second character called a twigil.]"
 
+
+**** side issue: IntStr and Allomorph
+https://docs.raku.org/language/numerics#Allomorphs
+https://docs.raku.org/language/glossary#index-entry-Allomorph
+
+**** hailstone sequence
+***** https://xkcd.com/710/
+***** http://rosettacode.org/wiki/Hailstone_sequence
