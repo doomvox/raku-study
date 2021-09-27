@@ -34,13 +34,18 @@ use Scalar::Util qw( dualvar );
 
 #            $foo = dualvar 10, "Hello";
 #            $num = $foo + 2;                    # 12
+
 #            $str = $foo . " world";             # Hello world
 
+## perl being perl, it let's you hi-jack the normally hidden "dualvar" cache
+## and assign custom values to the numeric and string slots
 my $n = dualvar( 5, "five" );  # 5 ,  "5" 
 
 say "The number is $n";                # The number is five
 say "Twice the number is: ", $n * 2;   # Twice the number is: 10
 
+# perl being perl, you can assign something else to this variable at it 
+# does what it can with it (gives you normal behavior).
 $n = 7;   # 5, "7" 
 say "The number is $n";                # The number is 7
 say "Twice the number is: ", $n * 2;   # Twice the number is: 14
