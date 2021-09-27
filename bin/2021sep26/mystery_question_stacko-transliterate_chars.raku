@@ -17,13 +17,15 @@ my %translate = (
     'X' => 'S',
 );
 
+my $new;
 for $text.comb -> $c {
     if %translate{ $c } {
           $c = %translate( $c );
      };
-
+    $new ~= $c;
 }
 
+say $new;
 
 
 ## (Any other letter) = _
