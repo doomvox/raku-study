@@ -179,8 +179,18 @@ my $z = $file.IO.slurp(:bin); say $z.pop; say $z.pop;
 ***** https://unix.stackexchange.com/questions/24140/return-only-the-portion-of-a-line-after-a-matching-pattern/668893#668893
 ***** https://unix.stackexchange.com/questions/593993/convert-multi-lines-to-single-line-with-spaces-and-quotes/668846#668846
 
+**** weird one, hit and run cryptography puzzle, sort of
+https://unix.stackexchange.com/questions/670307/how-can-i-transliterate-some-characters-1-to-1-leave-some-unchanged-and-replac/670628#670628
+
 
 **** csv standard, from 2005 (after it was in use for over a decade...)
 ***** https://www.ietf.org/rfc/rfc4180.txt
+
+**** misc 
+
+16:21:35	 From Jeff : https://www.youtube.com/watch?v=q8stPrG1rDo&t=12s
+16:21:42	 From Jeff : https://www.youtube.com/watch?v=q8stPrG1rDo
+16:24:52	 From Jeff : https://dev.to
+16:24:57	 From Bruce Gray : https://dev.to/simongreennet/weekly-challenge-127-4k6j
 
 
