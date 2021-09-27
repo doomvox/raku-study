@@ -8,7 +8,6 @@
 **** best for 
 ***** checking types
 ***** particular fixed values
-
 **** orders cases ~by "specificity", not lexically 
 ***** in the case of subsets, falls back to order of definition
 ****** subsets are grouped by the type they're based on

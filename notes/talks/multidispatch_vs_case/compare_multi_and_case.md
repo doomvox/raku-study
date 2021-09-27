@@ -1,20 +1,20 @@
-- [raku case vs multidispatch                                              f](#org2b1cfc6)
-  - [rough comparison](#org131c386)
-    - [case](#orgf824a67)
-    - [multi](#org24b252f)
+- [raku case vs multidispatch                                              f](#orgf0d8575)
+  - [rough comparison](#org3973130)
+    - [case](#orge96df6a)
+    - [multi](#orgaf8c3cb)
 
 
-<a id="org2b1cfc6"></a>
+<a id="orgf0d8575"></a>
 
 # raku case vs multidispatch                                              f
 
 
-<a id="org131c386"></a>
+<a id="org3973130"></a>
 
 ## rough comparison
 
 
-<a id="orgf824a67"></a>
+<a id="orge96df6a"></a>
 
 ### case
 
@@ -25,7 +25,7 @@
 3.  flexible: good for any sort of comparison, e.g. pattern matches
 
 
-<a id="org24b252f"></a>
+<a id="orgaf8c3cb"></a>
 
 ### multi
 
