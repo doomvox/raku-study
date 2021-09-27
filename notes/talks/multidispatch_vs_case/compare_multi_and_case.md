@@ -1,23 +1,23 @@
-- [raku case vs multidispatch                                              f](#org2767b95)
-  - [rough comparison](#org65ea27b)
-    - [case](#org1e320ce)
-    - [multi](#orgc84e618)
-  - [utility](#org219b2f5)
-    - [case](#org5452bee)
-    - [multi](#org550bc5e)
+- [raku case vs multidispatch                                              f](#org927e5a8)
+  - [rough comparison](#org03b762c)
+    - [case](#org4201ad2)
+    - [multi](#org7b72582)
+  - [utility](#org60b44d5)
+    - [case](#orge183769)
+    - [multi](#org22e9e28)
 
 
-<a id="org2767b95"></a>
+<a id="org927e5a8"></a>
 
 # raku case vs multidispatch                                              f
 
 
-<a id="org65ea27b"></a>
+<a id="org03b762c"></a>
 
 ## rough comparison
 
 
-<a id="org1e320ce"></a>
+<a id="org4201ad2"></a>
 
 ### case
 
@@ -25,8 +25,10 @@
 
 2.  "default" means the catch-all, the alternative if no other cases match
 
+3.  flexible: good for any sort of comparison, e.g. pattern matches
 
-<a id="orgc84e618"></a>
+
+<a id="org7b72582"></a>
 
 ### multi
 
@@ -47,19 +49,17 @@
     1.  this "is default" isn't quite the same as the given/when "default"
 
 
-<a id="org219b2f5"></a>
+<a id="org60b44d5"></a>
 
 ## utility
 
 
-<a id="org5452bee"></a>
+<a id="orge183769"></a>
 
 ### case
 
-1.  good for any sort of comparison, e.g. pattern matches
 
-
-<a id="org550bc5e"></a>
+<a id="org22e9e28"></a>
 
 ### multi
 

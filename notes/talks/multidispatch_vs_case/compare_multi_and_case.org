@@ -3,6 +3,7 @@
 *** case
 **** clear flow of execution: sequence of comparisons all in one place (running a gauntlet)
 **** "default" means the catch-all, the alternative if no other cases match
+**** flexible: good for any sort of comparison, e.g. pattern matches
 *** multi
 **** orders cases ~by "specificity", not lexically 
 ***** in the case of subsets, falls back to order of definition
@@ -15,7 +16,7 @@
 
 ** utility
 *** case 
-**** good for any sort of comparison, e.g. pattern matches
+
 *** multi
 **** best for 
 ***** checking types
