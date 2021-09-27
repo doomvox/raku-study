@@ -1,20 +1,20 @@
-- [raku case vs multidispatch                                              f](#orgf0d8575)
-  - [rough comparison](#org3973130)
-    - [case](#orge96df6a)
-    - [multi](#orgaf8c3cb)
+- [raku case vs multidispatch                                              f](#org1247306)
+  - [rough comparison](#orgc06f5ff)
+    - [case](#org3762381)
+    - [multi](#org9b576d1)
 
 
-<a id="orgf0d8575"></a>
+<a id="org1247306"></a>
 
 # raku case vs multidispatch                                              f
 
 
-<a id="org3973130"></a>
+<a id="orgc06f5ff"></a>
 
 ## rough comparison
 
 
-<a id="orge96df6a"></a>
+<a id="org3762381"></a>
 
 ### case
 
@@ -25,7 +25,7 @@
 3.  flexible: good for any sort of comparison, e.g. pattern matches
 
 
-<a id="orgaf8c3cb"></a>
+<a id="org9b576d1"></a>
 
 ### multi
 
@@ -50,3 +50,7 @@
 4.  there's an "is default" trait available to break ties in type specificity
 
     1.  not quite the same as the given/when "default"
+
+5.  has other features: e.g. airity
+
+    1.  need to review what named arguments do
