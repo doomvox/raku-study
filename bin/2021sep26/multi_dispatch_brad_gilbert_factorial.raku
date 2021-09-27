@@ -14,6 +14,15 @@ use v6;
 
 # brad gilbert:
 #   Doing what you want ((?)) would make using subsets with multis much less useful. 
+{
+    multi factorial ( 0 --> 1 ){}
+    multi factorial ( 1 --> 1 ){}
+    multi factorial ( UInt \n ){ factorial(n - 1) * n }
+
+    say factorial( 1 );
+    # ERROR: both UInt and 1 subsets match.
+}
+
 
 {
     multi turn_0_to_1 ( 0 --> 1 ){}
