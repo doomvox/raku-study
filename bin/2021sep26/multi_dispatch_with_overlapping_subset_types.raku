@@ -27,15 +27,17 @@ speak('beowulf');  # The hero, beowulf shouts!
 speak('mothera');  # The monster, mothera roars!  ## mothera is treated as a monster
 
 
+## There's nothing about this in the documentation:
+
 # https://docs.raku.org/language/glossary#index-entry-Multi-Dispatch
 
-# Multi-dispatch§
-
-# The process of picking a candidate for calling of a set of
-# methods or subs that come by the same name but with different
-# arguments. The most narrow candidate wins. In case of an
-# ambiguity, a routine with is default trait will be chosen if
-# one exists, otherwise an exception is thrown.
+#   Multi-dispatch
+# 
+#   The process of picking a candidate for calling of a set of
+#   methods or subs that come by the same name but with different
+#   arguments. The most narrow candidate wins. In case of an
+#   ambiguity, a routine with is default trait will be chosen if
+#   one exists, otherwise an exception is thrown.
 
 
 say "---";
