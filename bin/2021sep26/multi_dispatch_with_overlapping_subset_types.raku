@@ -8,7 +8,9 @@ my @monsters = < godzilla mothera ghidora gammera golem wormface >;
 my @heroes   = < beowulf maynard_g_krebs bluebeetle bernie mothera godzilla >;
 # but note the overlapping cases: godzilla and mothera are both monsters and heroes
 
-# subtype
+# "subset" should've been called "subtype":
+#   it narrows down a type definition to a new custom type
+#   (and it has nothing to do with Sets)
 subset Monster of Str where { $_ eq any( @monsters ) };
 subset Hero    of Str where { $_ eq any( @heroes ) };
 
