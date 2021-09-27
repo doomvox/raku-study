@@ -40,7 +40,7 @@ say factorial( 1 );
 multi factorial ( 0 --> 1 ){}
 #+END_SRC
 ********** Alternately, the "returns" keyword
-
+*********** https://docs.raku.org/routine/returns
 
 ******* bruce gray tried some variants... 
 ******** variables of type Hero/Monster
