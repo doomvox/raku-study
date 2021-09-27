@@ -17,6 +17,7 @@ my %translate = (
     'X' => 'S',
 );
 
+my %count;
 my $new;
 for $text.comb -> $c {
     my $n = $c;
@@ -26,11 +27,14 @@ for $text.comb -> $c {
         $n = $c.lc;
     };
     $new ~= $n;
+    %count{$n}++;
 }
 say $new;
 # THE tiFFuIzf OF THE FkzyioE IS THE oiy uHI FiOf "THE HOwHEFT dyIupEfwE OF TI dyIu THiT uE izE FkzzIkyfEf gh ohFTEzh
 
+for $new.comb -> $c {
 
+}
 
 
 
