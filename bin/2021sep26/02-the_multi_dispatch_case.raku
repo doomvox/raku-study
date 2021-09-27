@@ -42,17 +42,17 @@ multi sub whats_my_type ($item) {  # Behaves like the "default" for given/when.
 
 
 # Checking: 666
-# This is an Int
+#    This is an Int
 # Checking: 2.71
-# Caught a Rat
+#    Caught a Rat
 # Checking: 2.718281828459045
-# This is a Numeric (but not an Int or a Rat)
+#    This is a Numeric (but not an Int or a Rat)
 # Checking: 01
-# This is a Str
+#    This is a Str
 # Checking: whun
-# Detected special value 'whun'
+#    Detected special value 'whun'
 # Checking: a b c
-# Huh?  I guess this is a: Set
+#    I guess this is a: Set
 
 ## Similar behavior to the given/when version, but not identical
 
