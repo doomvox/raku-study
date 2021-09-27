@@ -23,7 +23,6 @@ for $text.comb -> $c {
     if %translate{ $c } {
           $c = %translate( $c );
      };
-
 }
 
 
