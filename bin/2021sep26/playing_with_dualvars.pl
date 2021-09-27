@@ -46,7 +46,7 @@ say "Twice the number is: ", $n * 2;   # Twice the number is: 10
 
 # perl being perl, you can assign something else to this variable at it 
 # does what it can with it (gives you normal behavior).
-$n = 7;   # 5, "7" 
+$n = 7;   # now this is like:  7, "7" 
 say "The number is $n";                # The number is 7
 say "Twice the number is: ", $n * 2;   # Twice the number is: 14
 
