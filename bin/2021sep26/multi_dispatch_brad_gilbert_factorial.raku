@@ -25,7 +25,7 @@ use v6;
 
     # But I see no such error.
 
-    say factorial( 8 );  # 1
+    say factorial( 4 );  # 1
 
 }
 
