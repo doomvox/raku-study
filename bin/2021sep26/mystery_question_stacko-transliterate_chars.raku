@@ -17,12 +17,11 @@ my %translate = (
     'X' => 'S',
 );
 
-my $scratch = $text;
-
 for $text.comb -> $c {
     if %translate{ $c } {
           $c = %translate( $c );
      };
+
 }
 
 
