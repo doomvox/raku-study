@@ -25,8 +25,6 @@
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html
 ***** a discussion yary was involved in, which indicates there's something interesting
 
-
-
 **** secure json-ification, vadim belman
 ***** https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100
 ***** https://vrurg.github.io/2021/09/14/Secure-JSONification
