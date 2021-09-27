@@ -15,27 +15,8 @@
 **** there's a half dozen entries, here's a simple one:
 ***** http://rosettacode.org/wiki/Bioinformatics/base_count
 
-*** leftover bits
+*** other leftover bits
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku
-
-*** lightning talk in-progress: given-when vs multi-dispatch
-**** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/01-the_given_when_case.raku
-**** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/02-the_multi_dispatch_case.raku
-***** notice: order matters with given-when, with multidispatch it's specificity
-****** given-when is straight-forward to think about
-****** multi-dispatch has OOP flexibility
-****** benchmark: with repetition argument running with "time"
-******* results vary tremendously, no clear winner
-****** multi with overlapping subsets: 
-******* https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/multi_dispatch_with_overlapping_subset_types.raku
-******** tie breaking:
-********* I figured you'd need "is default"-- instead it goes by order-of-definition (NOT DOCUMENTED)
-********* "is default" actually only works for two alternatives, with three you'd be SOL
-********* brad gilbert argues it has to be this way for performance reasons
-******** bruce gray tried some variants... 
-********* variables of type Hero/Monster
-********* Hero/Monster classes
-
 
 *** Data::Reshapers
 **** https://raku.land/cpan:ANTONOV/Data::Reshapers
