@@ -92,6 +92,7 @@ multi factorial ( 0 --> 1 ){}
 
 *** plain text accounting site
 **** doing accounting using just plain text
+**** https://plaintextaccounting.org/
 **** jeff hint
 
 *** jeff issues with data recovery exploration
