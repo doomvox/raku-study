@@ -1,8 +1,6 @@
 #!/usr/bin/env perl6
 #                                                                        h
 # multi_dispatch_with_positionals.raku                             23 Sep 2021 
-# mutated from:
-# multi_dispatch_with_overlapping_subset_types.raku
 
 use v6;
 
