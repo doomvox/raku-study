@@ -37,11 +37,6 @@
 **** arrays-of-objects
 ***** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/
 
-*** intermixed types and resulting types
-**** https://www.nntp.perl.org/group/perl.perl6.users/2021/08/msg10102.html
-**** https://www.nntp.perl.org/group/perl.perl6.users/2021/08/msg10114.html
-***** TODO a few weeks old-- I still want to respond to it
-
 *** Data::Reshapers
 **** https://raku.land/cpan:ANTONOV/Data::Reshapers
 
