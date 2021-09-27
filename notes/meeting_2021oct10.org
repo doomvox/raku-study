@@ -35,7 +35,6 @@
 ***** https://www.codesections.com/blog/raku-lisp-impression/
 ***** https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/
 
-
 *** once around the net
 **** stackoverflow
 **** perl6-users
