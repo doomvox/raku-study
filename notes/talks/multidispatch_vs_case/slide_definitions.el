@@ -55,6 +55,8 @@
 
     ( l . "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/multi_dispatch_brad_gilbert_factorial.raku")
 
+( m . "/home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021sep26/03-the_multi_dispatch_case_class_not_subset.raku")
+
 
     ( z . "/home/doom/End/Cave/Perl6/Wall/raku-study/notes/talks/multidispatch_vs_case/slide_definitions.el" )
    ))
