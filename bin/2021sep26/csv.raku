@@ -4,7 +4,7 @@
 
 use v6;
 
-
+# William Michals one-liner
 # raku -MText::CSV -e 'my $csv=Text::CSV.new;  .perl.put for $csv.getline_all(open($*ARGFILES, :r, :!chomp));'
 
 use Text::CSV;
