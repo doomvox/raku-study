@@ -42,7 +42,7 @@ multi factorial ( 0 --> 1 ){}
 ********** Alternately, the "returns" keyword
 *********** https://docs.raku.org/routine/returns
 
-******* bruce gray tried some variants... 
+******* bruce gray tried some variants:
 ******** variables of type Hero/Monster
 ******** Hero/Monster classes
 
