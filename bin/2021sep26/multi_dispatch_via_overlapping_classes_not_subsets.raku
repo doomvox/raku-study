@@ -12,14 +12,15 @@ subset Monster of Str where { $_ eq any( @monsters ) };
 subset Hero    of Str where { $_ eq any( @heroes ) };
 
 class Monster {
+    ## Monster is favored over Hero because of the order of definition of these multi subs
+    multi method speak (Monster $m) {
+        say "The monster, $m roars!";
+    }
+    multi method speak (Hero $h) {
+        say "The hero, $h shouts!";
+    }
+}
 
-## Monster is favored over Hero because of the order of definition of these multi subs
-multi sub speak (Monster $m) {
-    say "The monster, $m roars!";
-}
-multi sub speak (Hero $h) {
-    say "The hero, $h shouts!";
-}
 
 speak('ghidora');  # The monster, ghidora roars!
 speak('beowulf');  # The hero, beowulf shouts!
