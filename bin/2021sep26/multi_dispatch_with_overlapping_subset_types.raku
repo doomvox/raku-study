@@ -41,10 +41,9 @@ speak('mothera');  # The monster, mothera roars!  ## mothera is treated as a mon
 
 
 say "---";
-
+## Sweep through all of the monsters and heroes, checking each case
 my @names = (@monsters ∪ @heroes).keys.sort;
 say @names;
-
 for @names -> $n {
     speak( $n );
 }
@@ -55,11 +54,11 @@ for @names -> $n {
 # The hero, bluebeetle shouts!
 # The monster, gammera roars!
 # The monster, ghidora roars!
-# The monster, godzilla roars!
+# The monster, godzilla roars!        ## godilla treated as Monster
 # The monster, golem roars!
 # The hero, maynard_g_krebs shouts!
 # The monster, mothera roars!
-# The monster, wormface roars!
+# The monster, wormface roars!        ## mothera treated as Monster
 
 
 ## NOTES
