@@ -27,7 +27,6 @@ for $text.comb -> $c {
     };
     $new ~= $n;
 }
-
 say $new;
 # THE tiFFuIzf OF THE FkzyioE IS THE oiy uHI FiOf "THE HOwHEFT dyIupEfwE OF TI dyIu THiT uE izE FkzzIkyfEf gh ohFTEzh
 
