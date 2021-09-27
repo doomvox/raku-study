@@ -16,7 +16,7 @@
 **** code that handles various types can be scattered, defined in different places (common with OOP)
 **** there's an "is default" trait available to break ties in type specificity
 ***** not quite the same as the given/when "default"
-**** has other features: e.g. airity
+**** has other features: e.g. distinction by arity
 ***** need to review what named arguments do
 
 

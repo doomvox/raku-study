@@ -1,20 +1,20 @@
-- [raku case vs multidispatch                                              f](#org1247306)
-  - [rough comparison](#orgc06f5ff)
-    - [case](#org3762381)
-    - [multi](#org9b576d1)
+- [raku case vs multidispatch                                              f](#orgad114d2)
+  - [rough comparison](#orgf0ccb48)
+    - [case](#org58dcabf)
+    - [multi](#org77ab552)
 
 
-<a id="org1247306"></a>
+<a id="orgad114d2"></a>
 
 # raku case vs multidispatch                                              f
 
 
-<a id="orgc06f5ff"></a>
+<a id="orgf0ccb48"></a>
 
 ## rough comparison
 
 
-<a id="org3762381"></a>
+<a id="org58dcabf"></a>
 
 ### case
 
@@ -25,7 +25,7 @@
 3.  flexible: good for any sort of comparison, e.g. pattern matches
 
 
-<a id="org9b576d1"></a>
+<a id="org77ab552"></a>
 
 ### multi
 
@@ -51,6 +51,6 @@
 
     1.  not quite the same as the given/when "default"
 
-5.  has other features: e.g. airity
+5.  has other features: e.g. distinction by arity
 
     1.  need to review what named arguments do
