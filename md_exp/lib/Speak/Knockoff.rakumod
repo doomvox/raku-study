@@ -1,7 +1,7 @@
 #                                doom@kzsu.stanford.edu
 #                                29 Sep 2021
 module Speak::Knockoff  {
-    my @knockoffs = < gammera   inframan  rocky >;
+    my @knockoffs = < gammera   inframan  thorndike >;
     subset Knockoff   of Str where { $_ eq any( @knockoffs ) };  
 
     multi sub speak (Knockoff $name)  is export {
