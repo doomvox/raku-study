@@ -4,6 +4,7 @@
 module Speak::Hero {
     my @heroes    = < godzilla  beowulf   ultraman  inframan >;
     subset Hero of Str where { $_ eq any( @heroes ) };
+
     multi sub speak (Hero $name) is export {
         say "The hero, $name shouts!";
     }
