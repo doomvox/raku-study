@@ -3,6 +3,7 @@
 module Speak::Knockoff  {
     my @knockoffs = < gammera   inframan  rocky >;
     subset Knockoff   of Str where { $_ eq any( @knockoffs ) };  
+
     multi sub speak (Knockoff $name)  is export {
         say "The knockoff, $name slinks away...";
     }
