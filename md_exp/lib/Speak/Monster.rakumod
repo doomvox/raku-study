@@ -3,6 +3,7 @@
 module Speak::Monster {
     my @monsters  = < godzilla  gammera   ghidora   golem    >;
     subset Monster of Str where { $_ eq any( @monsters ) };
+
     multi sub speak (Monster $name) is export {
         say "The monster, $name roars!";
     }
