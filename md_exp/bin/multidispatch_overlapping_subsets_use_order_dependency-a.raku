@@ -10,7 +10,6 @@
 use v6;
 
 use lib $*PROGRAM.parent(2).add("lib");
-
 { 
   say "a: Hero Monster trial run";
   use Speak::Hero;
