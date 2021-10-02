@@ -13,6 +13,9 @@
 ***** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/
 **** Data::Reshapers
 ***** https://raku.land/cpan:ANTONOV/Data::Reshapers
+**** "format data into a table"
+https://unix.stackexchange.com/questions/649799/format-data-into-a-table/655944#655944
+
 
 **** secure json-ification, vadim belman
 ***** https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100

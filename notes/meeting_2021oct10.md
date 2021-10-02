@@ -1,46 +1,46 @@
-- [meeting notes October 10, 2021                                      a](#orgb983668)
-  - [the usual links:](#org8fbd592)
-    - [meeting notes](#org5f0764b)
-    - [code examples:](#orgf39038b)
-  - [stuff it all in to the great stuffiness](#org6c6cdf6)
-    - [data-handling in raku (this time for sure)](#orgbd6e095)
-    - [bioinformatics on rosettacode](#org306484a)
-    - [other leftover bits](#org2d67a52)
-    - [the ephemeral miniconf: nov 18 2021](#orga2633c1)
-  - [next meeting](#org9ed1058)
-    - [next meeting: Oct 24, 2021](#org02ec3d4)
+- [meeting notes October 10, 2021                                      a](#org2f60318)
+  - [the usual links:](#orgd7da6a8)
+    - [meeting notes](#org403461c)
+    - [code examples:](#org221597a)
+  - [stuff it all in to the great stuffiness](#orga2d9ca6)
+    - [data-handling in raku (this time for sure)](#orge0cf2ff)
+    - [bioinformatics on rosettacode](#org623da12)
+    - [other leftover bits](#orga3bcb20)
+    - [the ephemeral miniconf: nov 18 2021](#org5b6848f)
+  - [next meeting](#org63a7b7d)
+    - [next meeting: Oct 24, 2021](#orgf1e2940)
 
 
-<a id="orgb983668"></a>
+<a id="org2f60318"></a>
 
 # meeting notes October 10, 2021                                      a
 
 
-<a id="org8fbd592"></a>
+<a id="orgd7da6a8"></a>
 
 ## the usual links:
 
 
-<a id="org5f0764b"></a>
+<a id="org403461c"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct10.md>
 
 
-<a id="orgf39038b"></a>
+<a id="org221597a"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct10>
 
 
-<a id="org6c6cdf6"></a>
+<a id="orga2d9ca6"></a>
 
 ## stuff it all in to the great stuffiness
 
 
-<a id="orgbd6e095"></a>
+<a id="orge0cf2ff"></a>
 
 ### data-handling in raku (this time for sure)
 
@@ -56,7 +56,11 @@
 
     1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
 
-4.  secure json-ification, vadim belman
+4.  "format data into a table"
+
+    <https://unix.stackexchange.com/questions/649799/format-data-into-a-table/655944#655944>
+
+5.  secure json-ification, vadim belman
 
     1.  <https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100>
     
@@ -65,7 +69,7 @@
     3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="org306484a"></a>
+<a id="org623da12"></a>
 
 ### bioinformatics on rosettacode
 
@@ -74,7 +78,7 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org2d67a52"></a>
+<a id="orga3bcb20"></a>
 
 ### other leftover bits
 
@@ -99,18 +103,18 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="orga2633c1"></a>
+<a id="org5b6848f"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org9ed1058"></a>
+<a id="org63a7b7d"></a>
 
 ## next meeting
 
 
-<a id="org02ec3d4"></a>
+<a id="orgf1e2940"></a>
 
 ### next meeting: Oct 24, 2021
