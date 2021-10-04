@@ -14,11 +14,12 @@ module Speak::Monster {
 
 =head1 NAME
 
-Speak::Monster - TODO add short description
+Speak::Monster -- exports speak routine for type Monster
 
 =head1 SYNOPSIS
 
    use Speak::Monster; 
+   speak('gozilla');
 
    # TODO fill in
 
