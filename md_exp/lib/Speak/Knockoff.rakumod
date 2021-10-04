@@ -24,7 +24,10 @@ Speak::Knockoff -- exports speak routine for type Knockoff
 =head1 DESCRIPTION
 
 Part of a demo of the way multidispatch based on subset types
-with overlapping cases
+with overlapping cases can produce varying behavior depending on
+the order in which raku first encounters module's "use" invocations.
+
+when raku first encounters the multi definitions.
 
 
 
