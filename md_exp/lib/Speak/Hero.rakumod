@@ -15,7 +15,7 @@ module Speak::Hero {
 
 =head1 NAME
 
-Speak::Hero - TODO add short description
+Speak::Hero - exports speak routine for type Hero
 
 =head1 SYNOPSIS
 
