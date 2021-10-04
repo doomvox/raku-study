@@ -21,9 +21,6 @@ Speak::Monster -- exports speak routine for type Monster
    use Speak::Monster; 
    speak('gozilla');
 
-   # TODO fill in
-
-
 =head1 DESCRIPTION
 
 =head1 MOTIVATION
