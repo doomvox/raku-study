@@ -20,6 +20,14 @@ Speak::Hero - exports speak routine for type Hero
 =head1 SYNOPSIS
 
    use Speak::Hero; 
+   speak('ultraman');
+
+=head1 DESCRIPTION
+
+Part of a demo of the way multidispatch based on subset types
+with overlapping cases can produce varying behavior depending on
+the order in which raku first sees a module used.
+   
 
    # TODO fill in
 
