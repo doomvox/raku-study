@@ -8,7 +8,7 @@ we've been generating, I created this github project.
 The SF Perl Raku study group began life as an in-person meeting
 (usually over at the Oakland Museum's Cafe), but recently we've
 moved to an on-line format (typically via zoom), attracting some 
-attendees from around the world in the process.                    
+attendees from around the world in the process.                  
 
 If you're interested in the Raku Study Group:
 
