@@ -27,16 +27,6 @@ Speak::Hero - exports speak routine for type Hero
 Part of a demo of the way multidispatch based on subset types
 with overlapping cases can produce varying behavior depending on
 the order in which raku first sees a module used.
-   
-
-   # TODO fill in
-
-
-=head1 DESCRIPTION
-
-=head1 MOTIVATION
-
-=head1 NOTES
 
 =head1 AUTHOR
 
