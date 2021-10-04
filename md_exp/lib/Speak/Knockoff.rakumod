@@ -23,6 +23,11 @@ Speak::Knockoff -- exports speak routine for type Knockoff
 
 =head1 DESCRIPTION
 
+Part of a demo of the way multidispatch based on subset types
+with overlapping cases
+
+
+
 =head1 MOTIVATION
 
 =head1 NOTES
