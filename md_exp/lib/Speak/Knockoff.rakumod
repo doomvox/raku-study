@@ -14,13 +14,12 @@ module Speak::Knockoff  {
 
 =head1 NAME
 
-Speak::Rakumod - TODO add short description
+Speak::Knockoff -- exports speak routine for type Knockoff
 
 =head1 SYNOPSIS
 
    use Speak::Rakumod; 
-
-   # TODO fill in
+   speak('inframan');
 
 
 =head1 DESCRIPTION
