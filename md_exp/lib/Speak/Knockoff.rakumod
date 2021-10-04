@@ -21,7 +21,6 @@ Speak::Knockoff -- exports speak routine for type Knockoff
    use Speak::Rakumod; 
    speak('inframan');
 
-
 =head1 DESCRIPTION
 
 =head1 MOTIVATION
