@@ -43,6 +43,8 @@ https://unix.stackexchange.com/questions/649799/format-data-into-a-table/655944#
 **** old raku weekly
 ***** https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/
 
+
+** announcements
 *** the ephemeral miniconf: nov 18 2021
 **** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
 ** next meeting
