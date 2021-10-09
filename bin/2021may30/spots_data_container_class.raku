@@ -63,36 +63,4 @@ class Spots {
     }
 }
 
-## CRUFT 
-
-
-## test data set, five islands and associated areas
-my @island_names = "Africa", "Antarctica", "Asia", "Australia", "Axel Heiberg";
-my @island_areas = 11506, 5500, 16988, 2968, 16;
-
-
-# {
-#     say '----';
-#     my @rows = gather 
-#     for  @island_names Z @island_areas -> ($name, $area)  {
-#         take Spot.new( island => $name, area => $area );
-#     }
-#     say @rows;
-# }
-
-
-{
-#     say "---";
-
-    my @raw = @island_names Z @island_areas;
-    say @raw;
-
-
-    my $row = $table.find_island('Africa');
-    say $row;   # Spot.new(island => "Africa", area => 11506)
-    say ~$row;  # Africa
-    say +$row;  # 11506
-
-}
-
 
