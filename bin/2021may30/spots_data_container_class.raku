@@ -57,6 +57,8 @@ class Spots {
     }
 }
 
+## CRUFT 
+
 
 ## test data set, five islands and associated areas
 my @island_names = "Africa", "Antarctica", "Asia", "Australia", "Axel Heiberg";
