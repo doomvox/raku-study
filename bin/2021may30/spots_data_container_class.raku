@@ -11,6 +11,12 @@
 ##  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021may02/mixing_named_args_and_positional_ones.raku
 ##  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr18/bg_example_redefining_new_for_class.raku
 
+## SYNOPSIS (?)
+#     my $table = Spots.new( data => @raw );
+#     say $table;
+
+
+
 use v6;
 
 class Spot {
@@ -81,8 +87,6 @@ my @island_areas = 11506, 5500, 16988, 2968, 16;
     my @raw = @island_names Z @island_areas;
     say @raw;
 
-    my $table = Spots.new( data => @raw );
-    say $table;
 
     my $row = $table.find_island('Africa');
     say $row;   # Spot.new(island => "Africa", area => 11506)
