@@ -44,6 +44,9 @@ for @monsters, @heros -> $s {
 # $["ultraman", "inframan", "larrywall"]
 
 
+for %hash.sort(*.key)>>.kv -> ($key, $value) {
+    say "'$key' => '$value'";
+}
 
 
 
