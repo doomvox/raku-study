@@ -22,7 +22,7 @@ put pretty($dna, 80);
 
 my @result = $dna.comb.Bag.pairs; 
 
-for @result-> $r { 
+for @result -> $r { 
     for ('A', 'C', 'G', 'T') -> $k {
         say $r{ $k }
     }
