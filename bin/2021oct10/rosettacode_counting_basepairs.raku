@@ -29,6 +29,23 @@ my @result = $dna.comb.Bag.pairs;
 
 
 
+foreach my $item (@items) {
+## ...
+}
+
+
+loop  $i=0, $i<10, $i++  { 
+   say @items[$i];
+}
+
+
+for @items -> $item {
+    say $item;
+}
+
+
+
+
 
 
 # put "\nTotal bases: ", +my $bases = $dna.comb.Bag;
