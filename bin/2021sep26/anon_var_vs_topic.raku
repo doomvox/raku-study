@@ -18,7 +18,8 @@ use v6;
 # 17
 # 19
 
-for 1 .. 100 {
+# for 1 .. 100 {
+for 101 .. 200 {
     last if $++ > 20;
     say $_ if .is-prime;
 }
