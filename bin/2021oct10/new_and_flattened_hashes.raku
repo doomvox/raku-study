@@ -18,7 +18,7 @@ class Monster {
                    authentic => True,
                  );
 
-# my $m = Monster.new: !%record;
+my $m = Monster.new: !%record;
 ## Default constructor for 'Monster' only takes named arguments
 
 # my $m = Monster.new( %record.map{ $_.keys, $_.values } );
