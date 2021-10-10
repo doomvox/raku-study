@@ -19,7 +19,11 @@ my $dna = join '', lines q:to/END/;
     END
  
 put pretty($dna, 80);
-put "\nTotal bases: ", +my $bases = $dna.comb.Bag;
+# put "\nTotal bases: ", +my $bases = $dna.comb.Bag;
+put "\nTotal bases: ",
+my $bases = $dna.comb.Bag;
+say $bases;
+
 put $bases.sort(~*.key).join: "\n";
  
 sub pretty ($string, $wrap = 50) {
