@@ -60,9 +60,13 @@ for %hash.sort(*.key).kv -> $key, $value {
 # '1' => 'three	3'
 # '2' => 'two	2'
 
+say "---";
 for %hash.sort().kv -> $key, $value {
     say "'$key' => '$value'";
 }
+# '0' => 'one	1'
+# '1' => 'three	3'
+# '2' => 'two	2'
 
 
 
