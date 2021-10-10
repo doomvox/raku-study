@@ -20,7 +20,16 @@ my $dna = join '', lines q:to/END/;
  
 put pretty($dna, 80);
 
-say $dna.comb.Bag.pairs;
+my @result = $dna.comb.Bag.pairs; 
+
+for @result-> $r { 
+    for ('A', 'C', 'G', 'T') -> $k {
+        say $r{ $k }
+    }
+    say "---";
+}
+
+
 
 # put "\nTotal bases: ", +my $bases = $dna.comb.Bag;
 put "\nTotal bases: ",
