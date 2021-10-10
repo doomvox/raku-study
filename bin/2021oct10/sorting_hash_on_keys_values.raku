@@ -28,6 +28,7 @@ for %hash.kv -> $key, $value {
 
 
 my @monsters = <godzilla golem blob>;
+my @heros  =   <ultraman inframan larrywall>;
 for @monsters -> $s {
     say $s;
 }
