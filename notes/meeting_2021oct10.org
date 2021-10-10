@@ -21,9 +21,9 @@ https://unix.stackexchange.com/questions/649799/format-data-into-a-table/655944#
 ***** https://vrurg.github.io/2021/09/14/Secure-JSONification
 ***** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/
 
-** codesections on "patternmatching" 
-*** https://www.codesections.com/blog/try-some-pattern-matching/
-*** https://www.codesections.com/blog/pattern-matching-2/
+*** codesections on "patternmatching" 
+**** https://www.codesections.com/blog/try-some-pattern-matching/
+**** https://www.codesections.com/blog/pattern-matching-2/
 
 *** bioinformatics on rosettacode 
 **** there's a half dozen entries, here's a simple one:
