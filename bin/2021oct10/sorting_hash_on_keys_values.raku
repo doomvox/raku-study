@@ -12,6 +12,14 @@ my %hash =
 ;
 
 
+for %hash.kv -> ($key, $value) {
+
+    say "$key:   $value";
+
+}
+
+
+
 # ===
 # Author:  doom@kzsu.stanford.edu
 
