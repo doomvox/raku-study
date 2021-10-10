@@ -106,7 +106,7 @@ dd $_;  # Any $_ = Any
 
 say @stuff.map({ $_[0] }); # (one three two)
 
-@stuff.map({ say "$_[0], $_[1]\n" });
+@stuff.map({ say "'$_[0]' => '$_[1]'" });
 
 
 
