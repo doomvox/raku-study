@@ -71,6 +71,14 @@ for %hash.sort().kv -> $key, $value {
 for %hash.kv -> $key, $value {
     say "'$key' => '$value'";
 }
+# 'two' => '2'
+# 'one' => '1'
+# 'three' => '3'
+
+for %hash.sort -> $p {
+    say "'$p{key}' => '$p{value}'";
+}
+
 
 
 
