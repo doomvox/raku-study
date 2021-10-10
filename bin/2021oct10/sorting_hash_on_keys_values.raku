@@ -76,7 +76,7 @@ for %hash.kv -> $key, $value {
 # 'three' => '3'
 
 for %hash.sort -> $p {
-    say "'$p{key}' => '$p{value}'";
+    say "'$p{keys}' => '$p{value}'";
 }
 
 
