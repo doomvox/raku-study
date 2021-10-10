@@ -33,6 +33,11 @@ foreach my $item (@items) {
 ## ...
 }
 
+
+
+
+
+
 # put "\nTotal bases: ", +my $bases = $dna.comb.Bag;
 put "\nTotal bases: ",
 my $bases = $dna.comb.Bag;
