@@ -31,7 +31,9 @@ my @monsters = <godzilla golem blob>;
 for @monsters -> $s {
     say $s;
 }
-
+# godzilla
+# golem
+# blob
 
 
 
