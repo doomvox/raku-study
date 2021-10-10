@@ -36,6 +36,7 @@ my $o = Monster.new( name      => 'ghidora',
                    );
 dd $o;
 # Monster $o = Monster.new(name => "ghidora", threat => 10, authentic => Bool::True)
+
 ## say $o; # This type cannot unbox to a native string: P6opaque, Slip
 
 my $m = Monster.new: |%record;
