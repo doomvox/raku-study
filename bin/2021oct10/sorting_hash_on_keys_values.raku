@@ -13,10 +13,10 @@ my %hash =
    );
 
 
-for %hash.kv -> ($key, $value) {
-    say "$key:   $value";
+# for %hash.kv -> ($key, $value) {
+#     say "$key:   $value";
 
-}
+# }
 
 
 
