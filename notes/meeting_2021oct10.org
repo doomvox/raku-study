@@ -29,7 +29,7 @@ https://unix.stackexchange.com/questions/649799/format-data-into-a-table/655944#
 ***** http://rosettacode.org/wiki/Bioinformatics/base_count
 
 *** other leftover bits
-**** a buglet or I'm crazy (smart money is on...)
+**** a buglet or I'm crazy (smart money is on...)  (yup, crazy)
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku
 
 **** pairs of separators from a string
