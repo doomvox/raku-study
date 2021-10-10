@@ -54,7 +54,7 @@ for %hash.sort(*.key)>>.kv -> ($key, $value) {
 # 'two' => '2'
 
 
-for %hash.sort(*.key).kv -> ($key, $value) {
+for %hash.sort(*.key).kv -> $key, $value {
     say "'$key' => '$value'";
 }
 
