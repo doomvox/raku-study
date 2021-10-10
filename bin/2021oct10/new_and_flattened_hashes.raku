@@ -16,8 +16,11 @@ class Monster {
     my %record = ( name      => 'godzilla',
                    threat    => 9,
                    authentic => True,
-                   );
+                 );
 
+my $m = Monster.new: !%record;
+
+say $m;
 
 
 
