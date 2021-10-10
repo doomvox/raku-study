@@ -18,7 +18,7 @@ class Monster {
                    authentic => True,
                  );
 
-dd %record;
+    # dd %record;  # Hash %record = {:authentic(Bool::True), :name("godzilla"), :threat(9)}
 
 # my $o = Monster.new(
 
