@@ -101,8 +101,10 @@ dd %hash.sort({.key})>>.kv;
 # (("one", 1).Seq, ("three", 3).Seq, ("two", 2).Seq)
 
 my @stuff = %hash.sort({.key})>>.kv;
-dd $_;
-# say @stuff.map{ dd $_ };
+
+dd $_;  # Any $_ = Any
+
+say @stuff.map({ $_ });
 
 # .map{ "$_[0], $_[1]" }.say for %hash.sort({.key})>>.kv;
 
