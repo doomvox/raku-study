@@ -2,6 +2,8 @@
 # 
 # anon_var_vs_topic.raku            13 Sep 2021 
 
+## I thought I was seeing weird behavior here, but don't know what I was thinking now.
+
 use v6;
 
 # RAKU
