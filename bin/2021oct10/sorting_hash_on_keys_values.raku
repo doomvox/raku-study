@@ -87,7 +87,7 @@ for %hash.sort(*.key)>>.kv -> ($key, $value) {
 # 'three' => '3'
 # 'two' => '2'
 
-
+say "---";
 
 for %hash.sort(*.key)>>.kv -> ($key, $value) {
     say "'$key' => '$value'";
