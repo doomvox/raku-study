@@ -29,7 +29,7 @@ dd $o;
 ## say $o; # This type cannot unbox to a native string: P6opaque, Slip
 
 my $m = Monster.new: |%record;
-## This type cannot unbox to a native string: P6opaque, Slip
+
 say $m;
 
 
