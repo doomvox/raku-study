@@ -13,24 +13,24 @@ class Monster {
 }
 
 
-    my %record = ( name      => 'godzilla',
-                   threat    => 9,
-                   authentic => True,
-                 );
+my %record = ( name      => 'godzilla',
+               threat    => 9,
+               authentic => True,
+             );
 
-    # dd %record;  # Hash %record = {:authentic(Bool::True), :name("godzilla"), :threat(9)}
+# dd %record;  # Hash %record = {:authentic(Bool::True), :name("godzilla"), :threat(9)}
 
-    my $o = Monster.new( name      => 'ghidora',
-                         threat    => 10,
-                         authentic => True,
-                         );
-    dd $o;
-    # Monster $o = Monster.new(name => "ghidora", threat => 10, authentic => Bool::True)
-    say $o; # This type cannot unbox to a native string: P6opaque, Slip
+my $o = Monster.new( name      => 'ghidora',
+                     threat    => 10,
+                     authentic => True,
+                   );
+dd $o;
+# Monster $o = Monster.new(name => "ghidora", threat => 10, authentic => Bool::True)
+say $o; # This type cannot unbox to a native string: P6opaque, Slip
 
-    my $m = Monster.new: !%record;
-    ## Default constructor for 'Monster' only takes named arguments
-    say $m;
+my $m = Monster.new: !%record;
+## Default constructor for 'Monster' only takes named arguments
+say $m;
 
 
 
