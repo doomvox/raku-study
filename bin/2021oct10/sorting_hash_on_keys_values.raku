@@ -102,7 +102,7 @@ dd %hash.sort({.key})>>.kv;
 
 my @stuff = %hash.sort({.key})>>.kv;
 dd $_;
-say @stuff.map{ dd $_ };
+# say @stuff.map{ dd $_ };
 
 # .map{ "$_[0], $_[1]" }.say for %hash.sort({.key})>>.kv;
 
