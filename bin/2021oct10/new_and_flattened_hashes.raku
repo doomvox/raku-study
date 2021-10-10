@@ -24,6 +24,7 @@ class Monster {
                          threat    => 10,
                          authentic => True,
                          );
+    dd $o;
 
 
 my $m = Monster.new: !%record;
