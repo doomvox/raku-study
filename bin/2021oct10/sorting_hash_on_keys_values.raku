@@ -14,7 +14,8 @@ my %hash =
 
 dd %hash;  # Hash %hash = {:one(1), :three(3), :two(2)}
 
-say %hash.kv;
+say %hash.kv;  # (two 2 three 3 one 1)
+say %hash.keys;
 
 for %hash.kv -> ($key, $value) {
      say "$key:   $value";
