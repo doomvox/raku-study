@@ -23,6 +23,7 @@ put pretty($dna, 80);
 put "\nTotal bases: ",
 my $bases = $dna.comb.Bag;
 say $bases;
+say +$bases;
 
 put $bases.sort(~*.key).join: "\n";
  
