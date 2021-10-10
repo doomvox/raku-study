@@ -22,7 +22,6 @@ for %hash.kv -> $key, $value {
      say $key, ' ', $value;  
 }
 
-
 # three 3
 # two 2
 # one 1
