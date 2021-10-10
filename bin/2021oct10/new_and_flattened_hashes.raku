@@ -20,7 +20,10 @@ class Monster {
 
     # dd %record;  # Hash %record = {:authentic(Bool::True), :name("godzilla"), :threat(9)}
 
-# my $o = Monster.new(
+    my $o = Monster.new( name      => 'ghidora',
+                         threat    => 10,
+                         authentic => True,
+                         );
 
 
 my $m = Monster.new: !%record;
