@@ -40,6 +40,9 @@ for @monsters -> $s {
 for @monsters, @heros -> $s {
     dd $s;
 }
+# $["godzilla", "golem", "blob"]
+# $["ultraman", "inframan", "larrywall"]
+
 
 
 
