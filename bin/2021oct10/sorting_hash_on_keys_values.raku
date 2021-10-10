@@ -12,6 +12,7 @@ my %hash =
      one   => 1,
    );
 
+dd %hash;
 
 # for %hash.kv -> ($key, $value) {
 #     say "$key:   $value";
