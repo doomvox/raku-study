@@ -12,12 +12,11 @@ my %hash =
      one   => 1,
    );
 
-dd %hash;
+dd %hash;  # Hash %hash = {:one(1), :three(3), :two(2)}
 
-# for %hash.kv -> ($key, $value) {
-#     say "$key:   $value";
-
-# }
+for %hash.kv -> ($key, $value) {
+     say "$key:   $value";
+}
 
 
 
