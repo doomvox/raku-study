@@ -113,6 +113,7 @@ say @stuff.map({ $_[0] }); # (one three two)
 
 
 
+
 # .map{ "$_[0], $_[1]" }.say for %hash.sort({.key})>>.kv;
 
 # ===
