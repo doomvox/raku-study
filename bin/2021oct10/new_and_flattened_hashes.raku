@@ -33,7 +33,7 @@ my $m = Monster.new: |%record;
 dd $m;
 ## Monster $m = Monster.new(name => "godzilla", threat => 9, authentic => Bool::True)
 
-
+say $m;
 # ===
 # Author:  doom@kzsu.stanford.edu
 
