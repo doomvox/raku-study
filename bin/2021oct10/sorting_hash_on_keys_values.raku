@@ -98,6 +98,7 @@ say "---";
 # (two 2)
 
 dd %hash.sort({.key})>>.kv;
+# (("one", 1).Seq, ("three", 3).Seq, ("two", 2).Seq)
 
 # .map{ "$_[0], $_[1]" }.say for %hash.sort({.key})>>.kv;
 
