@@ -99,7 +99,7 @@ say "---";
 
 dd %hash.sort({.key})>>.kv;
 
-.map{ "$_[0], $_[1]" }.say for %hash.sort({.key})>>.kv;
+# .map{ "$_[0], $_[1]" }.say for %hash.sort({.key})>>.kv;
 
 # ===
 # Author:  doom@kzsu.stanford.edu
