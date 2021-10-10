@@ -100,7 +100,8 @@ say "---";
 dd %hash.sort({.key})>>.kv;
 # (("one", 1).Seq, ("three", 3).Seq, ("two", 2).Seq)
 
-say %hash.sort({.key})>>.kv.map{ $_[0] };
+my @stuff = %hash.sort({.key})>>.kv;
+say @stuff.map{ $_[0] };
 
 # .map{ "$_[0], $_[1]" }.say for %hash.sort({.key})>>.kv;
 
