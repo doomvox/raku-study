@@ -13,7 +13,7 @@ class Monster {
 #    method gist { "name: $.name, threat level: $.threat "; }
     method gist { my $mess = "name: $.name, threat level: $.threat ";
                   if $.authentic { $mess ~= " (really a knockoff)"; };
-                  return $mess;
+                  return $mess;  
                 }
 
 }
@@ -39,6 +39,7 @@ dd $m;
 ## Monster $m = Monster.new(name => "godzilla", threat => 9, authentic => Bool::True)
 
 say $m;  # name: godzilla, threat level: 9 
+## name: godzilla, threat level: 9  (really a knockoff)
 
 # ===
 # Author:  doom@kzsu.stanford.edu
