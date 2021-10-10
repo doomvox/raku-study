@@ -80,6 +80,7 @@ for %hash.kv -> $key, $value {
 # }
 
 
+%hash.sort({.key})>>.kv;
 
 
 # ===
