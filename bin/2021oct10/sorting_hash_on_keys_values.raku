@@ -79,6 +79,12 @@ for %hash.kv -> $key, $value {
 #     say "'$p.keys' => '$p.values'";
 # }
 
+say "===";
+for %hash.sort(*.key)>>.kv -> ($key, $value) {
+    say "'$key' => '$value'";
+
+}
+
 
 %hash.sort({.key})>>.kv;
 
