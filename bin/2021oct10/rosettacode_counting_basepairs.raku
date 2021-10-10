@@ -18,7 +18,7 @@ my $dna = join '', lines q:to/END/;
     GACCGGGGACTTGCATGATGGGAGCAGCTTTGTTAAACTACGAACGTAAT
     END
  
-put pretty($dna, 80);
+put pretty($dna, 20);
 put "\nTotal bases: ", +my $bases = $dna.comb.Bag;
 put $bases.sort(~*.key).join: "\n";
  
