@@ -104,7 +104,7 @@ my @stuff = %hash.sort({.key})>>.kv;
 
 dd $_;  # Any $_ = Any
 
-say @stuff.map({ $_ });
+say @stuff.map({ $_[0] });
 
 # .map{ "$_[0], $_[1]" }.say for %hash.sort({.key})>>.kv;
 
