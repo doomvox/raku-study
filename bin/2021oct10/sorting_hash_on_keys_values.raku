@@ -44,40 +44,40 @@ for @monsters, @heros -> $s {
 # $["ultraman", "inframan", "larrywall"]
 
 
-## from so
-for %hash.sort(*.key)>>.kv -> ($key, $value) {
-    say "'$key' => '$value'";
-}
-
-# 'one' => '1'
-# 'three' => '3'
-# 'two' => '2'
-
-for %hash.sort(*.key).kv -> $key, $value {
-    say "'$key' => '$value'";
-}
-# '0' => 'one	1'
-# '1' => 'three	3'
-# '2' => 'two	2'
-
-say "XXX---";
-for %hash.sort(*.keys)>>.kv -> $key, $value {
-    say "'$key' => '$value'";
-}
-# '0' => 'one	1'
-# '1' => 'three	3'
-# '2' => 'two	2'
-
-for %hash.kv -> $key, $value {
-    say "'$key' => '$value'";
-}
-# 'two' => '2'
-# 'one' => '1'
-# 'three' => '3'
-
-# for %hash.sort -> $p {
-#     say "'$p.keys' => '$p.values'";
+# ## from so
+# for %hash.sort(*.key)>>.kv -> ($key, $value) {
+#     say "'$key' => '$value'";
 # }
+
+# # 'one' => '1'
+# # 'three' => '3'
+# # 'two' => '2'
+
+# for %hash.sort(*.key).kv -> $key, $value {
+#     say "'$key' => '$value'";
+# }
+# # '0' => 'one	1'
+# # '1' => 'three	3'
+# # '2' => 'two	2'
+
+# say "XXX---";
+# for %hash.sort(*.keys)>>.kv -> $key, $value {
+#     say "'$key' => '$value'";
+# }
+# # '0' => 'one	1'
+# # '1' => 'three	3'
+# # '2' => 'two	2'
+
+# for %hash.kv -> $key, $value {
+#     say "'$key' => '$value'";
+# }
+# # 'two' => '2'
+# # 'one' => '1'
+# # 'three' => '3'
+
+# # for %hash.sort -> $p {
+# #     say "'$p.keys' => '$p.values'";
+# # }
 
 say "===";
 for %hash.sort(*.key)>>.kv -> ($key, $value) {
