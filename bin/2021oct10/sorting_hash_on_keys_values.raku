@@ -37,6 +37,10 @@ for @monsters -> $s {
 # golem
 # blob
 
+for @monsters, @heros -> $s {
+    dd $s;
+}
+
 
 
 # ===
