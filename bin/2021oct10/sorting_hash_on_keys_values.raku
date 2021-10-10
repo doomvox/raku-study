@@ -19,9 +19,14 @@ say %hash.keys; # (two three one)
 
 for %hash.kv -> $key, $value {
 #     say "$key:   $value";
-     say $key, ' ', $value;
-
+     say $key, ' ', $value;  
 }
+
+
+# three 3
+# two 2
+# one 1
+
 
 
 
