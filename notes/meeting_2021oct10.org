@@ -50,3 +50,4 @@ https://unix.stackexchange.com/questions/649799/format-data-into-a-table/655944#
 ** next meeting
 *** next meeting: Oct 24, 2021
 
+
