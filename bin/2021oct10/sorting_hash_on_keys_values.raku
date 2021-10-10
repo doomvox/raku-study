@@ -68,6 +68,10 @@ for %hash.sort().kv -> $key, $value {
 # '1' => 'three	3'
 # '2' => 'two	2'
 
+for %hash.kv -> $key, $value {
+    say "'$key' => '$value'";
+}
+
 
 
 # ===
