@@ -6,10 +6,11 @@ use v6;
 
 
 my %hash =
+(
     two   => 2,
     three => 3,
     one   => 1,
-;
+);
 
 
 for %hash.kv -> ($key, $value) {
