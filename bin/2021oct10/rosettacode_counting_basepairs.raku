@@ -19,6 +19,9 @@ my $dna = join '', lines q:to/END/;
     END
  
 put pretty($dna, 80);
+
+say $dna.comb.Bag.pairs;
+
 # put "\nTotal bases: ", +my $bases = $dna.comb.Bag;
 put "\nTotal bases: ",
 my $bases = $dna.comb.Bag;
