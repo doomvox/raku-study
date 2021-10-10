@@ -27,6 +27,12 @@ for %hash.kv -> $key, $value {
 # one 1
 
 
+my @monsters = <godzilla golem blob>;
+for @monsters -> $s {
+    say $s;
+}
+
+
 
 
 # ===
