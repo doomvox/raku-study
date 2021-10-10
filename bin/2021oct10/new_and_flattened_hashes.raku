@@ -9,8 +9,7 @@ class Monster {
     has Str   $.name;
     has Int   $.threat;
     has Bool  $.authentic;
-    method gist { "name: $.name, threat level: $.threat " ~ " (really a knockoff)" unless $.authentic;
-                };
+    method gist { "name: $.name, threat level: $.threat " ~ " (really a knockoff)" unless $.authentic; };
 }
 
 
