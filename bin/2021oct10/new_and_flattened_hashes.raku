@@ -10,10 +10,11 @@ class Monster {
     has Int   $.threat;
     has Bool  $.authentic;
 #    method gist { "name: $.name, threat level: $.threat "; }
-    method gist { my $mess = "name: $.name, threat level: $.threat ";
-                  unless $.authentic { $mess ~= " (really a knockoff)"; };
-                  return $mess;  
-                }
+
+#     method gist { my $mess = "name: $.name, threat level: $.threat ";
+#                   unless $.authentic { $mess ~= " (really a knockoff)"; };
+#                   return $mess;  
+#                 }
 
 
     method gist {
