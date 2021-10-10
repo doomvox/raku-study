@@ -22,7 +22,7 @@ put pretty($dna, 80);
 put "\nTotal bases: ", +my $bases = $dna.comb.Bag;
 put $bases.sort(~*.key).join: "\n";
  
-sub pretty ($string, $wrap = 30) {
+sub pretty ($string, $wrap = 10) {
     $string.comb($wrap).map( { sprintf "%8d: %s", $++ * $wrap, $_ } ).join: "\n"
 }
 
