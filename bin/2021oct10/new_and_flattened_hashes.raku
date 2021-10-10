@@ -12,7 +12,8 @@ class Monster {
 #     method gist { "name: $.name, threat level: $.threat " ~ " (really a knockoff)" unless $.authentic; };
 #    method gist { "name: $.name, threat level: $.threat "; }
     method gist { my $mess = "name: $.name, threat level: $.threat ";
-                  if $.authentic { $mess ~= " (really a knockoff)"; return $mess };
+                  if $.authentic { $mess ~= " (really a knockoff)"; };
+                  return $mess;
                 }
 
 }
