@@ -2,6 +2,9 @@
 # 
 # md_subsets_limit_values_bad_value_methods_vs_subs.raku            06 Oct 2021 
 
+## Seriously saw some buggy behavior with this one, but it's gone away now.
+## Current behavior seems more like I'd expect, so who knows.
+
 use v6;
 
 subset Monster    of Str where { $_ eq any(<godzilla gammera ghidora>) };
