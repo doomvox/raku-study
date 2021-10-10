@@ -91,6 +91,9 @@ say "---";
 say %hash.sort({.key})>>.kv;
 # ((one 1) (three 3) (two 2))
 
+say "---";
+.say for %hash.sort({.key})>>.kv;
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
