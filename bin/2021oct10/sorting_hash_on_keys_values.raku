@@ -83,6 +83,10 @@ say "===";
 for %hash.sort(*.key)>>.kv -> ($key, $value) {
     say "'$key' => '$value'";
 }
+# 'one' => '1'
+# 'three' => '3'
+# 'two' => '2'
+
 
 
 for %hash.sort(*.key)>>.kv -> ($key, $value) {
