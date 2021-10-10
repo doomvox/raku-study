@@ -106,7 +106,7 @@ dd $_;  # Any $_ = Any
 
 say @stuff.map({ $_[0] }); # (one three two)
 
-say @stuff.map({ "$_[0], $_[1]" }); 
+say @stuff.map({ "$_[0], $_[1]\n" });
 
 
 # .map{ "$_[0], $_[1]" }.say for %hash.sort({.key})>>.kv;
