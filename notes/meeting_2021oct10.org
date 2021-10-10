@@ -45,6 +45,7 @@ https://unix.stackexchange.com/questions/649799/format-data-into-a-table/655944#
 
 *** general notes
 Herbert Simon, "Sciences of the Artificial", an Alan pick
+https://mitpress.mit.edu/books/sciences-artificial 
 
 ** announcements
 *** the ephemeral miniconf: nov 18 2021
