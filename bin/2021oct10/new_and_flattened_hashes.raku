@@ -27,9 +27,8 @@ class Monster {
     dd $o;
     # Monster $o = Monster.new(name => "ghidora", threat => 10, authentic => Bool::True)
 
-my $m = Monster.new: !%record;
-## Default constructor for 'Monster' only takes named arguments
-
+    my $m = Monster.new: !%record;
+    ## Default constructor for 'Monster' only takes named arguments
 
 say $m;
 
