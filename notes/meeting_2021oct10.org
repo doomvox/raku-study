@@ -28,6 +28,10 @@
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku
 
 
+*** William Michels stackoverflow one-liner adventures
+
+ https://unix.stackexchange.com/a/672602/227738
+
 
 
 *** general notes
