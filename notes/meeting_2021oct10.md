@@ -1,69 +1,73 @@
-- [meeting notes October 10, 2021                                      a](#orgc1f0d54)
-  - [the usual links:](#org66b5200)
-    - [meeting notes](#org232e4af)
-    - [code examples:](#orgf0674d3)
-  - [stuff it all in to the great stuffiness](#org523820d)
-    - [data-handling in raku (this time for sure)](#org0b3e4ac)
-    - [codesections on "patternmatching"](#org7c693b5)
-    - [bioinformatics on rosettacode](#orgfd50536)
-    - [other leftover bits](#org35e4e53)
-    - [general notes](#orgaea80d5)
-  - [announcements](#org2e497ee)
-    - [the ephemeral miniconf: nov 18 2021](#orgb8f70e6)
-  - [next meeting](#org6f10ea9)
-    - [next meeting: Oct 24, 2021](#org83a2ea9)
+- [meeting notes October 10, 2021                                      a](#org567e900)
+  - [the usual links:](#orgb1c9577)
+    - [meeting notes](#orgdad6038)
+    - [code examples:](#org397172a)
+  - [stuff it all in to the great stuffiness](#org0fffe82)
+    - [data-handling in raku](#org7279196)
+    - [codesections on "patternmatching"](#orgd1ed616)
+    - [bioinformatics on rosettacode](#org68e9654)
+    - [other leftover bits](#org67ae219)
+    - [general notes](#org55dd17e)
+  - [announcements](#orgf877349)
+    - [the ephemeral miniconf: nov 18 2021](#orgfa7c52d)
+  - [next meeting](#org5bb3047)
+    - [next meeting: Oct 24, 2021](#org3a524ed)
 
 
-<a id="orgc1f0d54"></a>
+<a id="org567e900"></a>
 
 # meeting notes October 10, 2021                                      a
 
 
-<a id="org66b5200"></a>
+<a id="orgb1c9577"></a>
 
 ## the usual links:
 
 
-<a id="org232e4af"></a>
+<a id="orgdad6038"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct10.md>
 
 
-<a id="orgf0674d3"></a>
+<a id="org397172a"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct10>
 
 
-<a id="org523820d"></a>
+<a id="org0fffe82"></a>
 
 ## stuff it all in to the great stuffiness
 
 
-<a id="org0b3e4ac"></a>
+<a id="org7279196"></a>
 
-### data-handling in raku (this time for sure)
+### data-handling in raku
 
-1.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527>
+1.  bruce gray demoed some techniques
+
+    1.  custom new that accepts arrays of records
+
+2.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527>
 
     1.  William Michaels objects to the word "Row" for a data-record in my solution
 
-2.  arrays-of-objects
+3.  arrays-of-objects
 
     1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/>
 
-3.  Data::Reshapers
+4.  Data::Reshapers
 
     1.  <https://raku.land/cpan:ANTONOV/Data::Reshapers>
 
-4.  "format data into a table"
+5.  "format data into a table"
 
     <https://unix.stackexchange.com/questions/649799/format-data-into-a-table/655944#655944>
 
-5.  secure json-ification, vadim belman
+6.  secure json-ification, vadim belman
 
     1.  <https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100>
     
@@ -72,7 +76,7 @@
     3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="org7c693b5"></a>
+<a id="orgd1ed616"></a>
 
 ### codesections on "patternmatching"
 
@@ -81,7 +85,7 @@
 2.  <https://www.codesections.com/blog/pattern-matching-2/>
 
 
-<a id="orgfd50536"></a>
+<a id="org68e9654"></a>
 
 ### bioinformatics on rosettacode
 
@@ -90,7 +94,7 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org35e4e53"></a>
+<a id="org67ae219"></a>
 
 ### other leftover bits
 
@@ -115,7 +119,7 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="orgaea80d5"></a>
+<a id="org55dd17e"></a>
 
 ### general notes
 
@@ -124,23 +128,23 @@
     1.  <https://mitpress.mit.edu/books/sciences-artificial>
 
 
-<a id="org2e497ee"></a>
+<a id="orgf877349"></a>
 
 ## announcements
 
 
-<a id="orgb8f70e6"></a>
+<a id="orgfa7c52d"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org6f10ea9"></a>
+<a id="org5bb3047"></a>
 
 ## next meeting
 
 
-<a id="org83a2ea9"></a>
+<a id="org3a524ed"></a>
 
 ### next meeting: Oct 24, 2021
