@@ -1,49 +1,49 @@
-- [meeting notes October 10, 2021                                      a](#org6bde18e)
-  - [the usual links:](#orga1bd5a0)
-    - [meeting notes](#orgc221520)
-    - [code examples:](#org9aa345c)
-  - [stuff it all in to the great stuffiness](#org087e10e)
-    - [data-handling in raku](#org70c3ce3)
-    - [bioinformatics on rosettacode](#org9a6f169)
-    - [bugnuts](#orgee9234a)
-    - [William Michels stackoverflow one-liner adventures](#orga115652)
-    - [general notes](#org27950a0)
-  - [announcements](#org4a5f22e)
-    - [the ephemeral miniconf: nov 18 2021](#org7f106dc)
-  - [next meeting](#org85b1a38)
-    - [next meeting: Oct 24, 2021](#org709e6eb)
+- [meeting notes October 10, 2021                                      a](#org1a925f7)
+  - [the usual links:](#org94e6bf2)
+    - [meeting notes](#orgae01cea)
+    - [code examples:](#orgdc0e499)
+  - [stuff it all in to the great stuffiness](#org1c7a2e3)
+    - [data-handling in raku](#org9ff71c5)
+    - [bioinformatics on rosettacode](#org50729b1)
+    - [bugnuts](#org6d91432)
+    - [William Michels stackoverflow one-liner adventures](#org2702cdd)
+    - [general notes](#org1c26d17)
+  - [announcements](#orgee78dc9)
+    - [the ephemeral miniconf: nov 18 2021](#org667e06a)
+  - [next meeting](#org7a4c567)
+    - [next meeting: Oct 24, 2021](#org6a5ed67)
 
 
-<a id="org6bde18e"></a>
+<a id="org1a925f7"></a>
 
 # meeting notes October 10, 2021                                      a
 
 
-<a id="orga1bd5a0"></a>
+<a id="org94e6bf2"></a>
 
 ## the usual links:
 
 
-<a id="orgc221520"></a>
+<a id="orgae01cea"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct10.md>
 
 
-<a id="org9aa345c"></a>
+<a id="orgdc0e499"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct10>
 
 
-<a id="org087e10e"></a>
+<a id="org1c7a2e3"></a>
 
 ## stuff it all in to the great stuffiness
 
 
-<a id="org70c3ce3"></a>
+<a id="org9ff71c5"></a>
 
 ### data-handling in raku
 
@@ -68,7 +68,7 @@
     2.  custom new method
 
 
-<a id="org9a6f169"></a>
+<a id="org50729b1"></a>
 
 ### bioinformatics on rosettacode
 
@@ -77,7 +77,7 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="orgee9234a"></a>
+<a id="org6d91432"></a>
 
 ### bugnuts
 
@@ -86,7 +86,7 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="orga115652"></a>
+<a id="org2702cdd"></a>
 
 ### William Michels stackoverflow one-liner adventures
 
@@ -100,10 +100,10 @@
 
 3.  raku and the absence of globbing in windows command.exe
 
-    <https://stackoverflow.com/questions/69384754/how-do-i-use-raku-e-and-n-with-multiple-file-glob/69400187> <https://superuser.com/questions/460598/is-there-any-way-to-get-the-windows-cmd-shell-to-expand-wildcard-paths> <https://stackoverflow.com/questions/23908299/ruby-windows-command-line-globbing> <https://stackoverflow.com/questions/3954750/parsing-command-line-arguments-as-wildcards>
+    <https://stackoverflow.com/questions/69384754/how-do-i-use-raku-e-and-n-with-multiple-file-glob/69400187> <https://superuser.com/questions/460598/is-there-any-way-to-get-the-windows-cmd-shell-to-expand-wildcard-paths> <https://stackoverflow.com/questions/23908299/ruby-windows-command-line-globbing> <https://stackoverflow.com/questions/3954750/parsing-command-line-arguments-as-wildcards> <https://www.ruby-forum.com/t/ruby-wildcard-command-line-argument-auto-expansion/106378/3>
 
 
-<a id="org27950a0"></a>
+<a id="org1c26d17"></a>
 
 ### general notes
 
@@ -112,23 +112,23 @@
     1.  <https://mitpress.mit.edu/books/sciences-artificial>
 
 
-<a id="org4a5f22e"></a>
+<a id="orgee78dc9"></a>
 
 ## announcements
 
 
-<a id="org7f106dc"></a>
+<a id="org667e06a"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org85b1a38"></a>
+<a id="org7a4c567"></a>
 
 ## next meeting
 
 
-<a id="org709e6eb"></a>
+<a id="org6a5ed67"></a>
 
 ### next meeting: Oct 24, 2021
