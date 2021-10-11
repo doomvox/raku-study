@@ -12,9 +12,7 @@
 ***** rlang-style: columns of data, aggregate methods appropriate for type
 
 **** note: i'm agnostic on strong typing
-
 ***** some type checking good, large amounts may just be redundant
-
 ***** testing can stubstitute for strong-types, but not vice-versa
 
 **** bruce gray demoed some techniques
