@@ -1,55 +1,53 @@
-- [meeting notes October 10, 2021                                      a](#org567e900)
-  - [the usual links:](#orgb1c9577)
-    - [meeting notes](#orgdad6038)
-    - [code examples:](#org397172a)
-  - [stuff it all in to the great stuffiness](#org0fffe82)
-    - [data-handling in raku](#org7279196)
-    - [codesections on "patternmatching"](#orgd1ed616)
-    - [bioinformatics on rosettacode](#org68e9654)
-    - [other leftover bits](#org67ae219)
-    - [general notes](#org55dd17e)
-  - [announcements](#orgf877349)
-    - [the ephemeral miniconf: nov 18 2021](#orgfa7c52d)
-  - [next meeting](#org5bb3047)
-    - [next meeting: Oct 24, 2021](#org3a524ed)
+- [meeting notes October 10, 2021                                      a](#org167a529)
+  - [the usual links:](#orgd7281e3)
+    - [meeting notes](#org5b1da6f)
+    - [code examples:](#orgb6927ff)
+  - [stuff it all in to the great stuffiness](#org2345c3a)
+    - [data-handling in raku](#org53e7c38)
+    - [codesections on "patternmatching"](#org9cc2d9f)
+    - [bioinformatics on rosettacode](#orgede12fa)
+    - [other leftover bits](#orgef89040)
+    - [general notes](#org33c76af)
+  - [announcements](#org6963a8b)
+    - [the ephemeral miniconf: nov 18 2021](#orgabeba84)
+  - [next meeting](#org0b098f7)
+    - [next meeting: Oct 24, 2021](#orgc566df6)
 
 
-<a id="org567e900"></a>
+<a id="org167a529"></a>
 
 # meeting notes October 10, 2021                                      a
 
 
-<a id="orgb1c9577"></a>
+<a id="orgd7281e3"></a>
 
 ## the usual links:
 
 
-<a id="orgdad6038"></a>
+<a id="org5b1da6f"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct10.md>
 
 
-<a id="org397172a"></a>
+<a id="orgb6927ff"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct10>
 
 
-<a id="org0fffe82"></a>
+<a id="org2345c3a"></a>
 
 ## stuff it all in to the great stuffiness
 
 
-<a id="org7279196"></a>
+<a id="org53e7c38"></a>
 
 ### data-handling in raku
 
 1.  bruce gray demoed some techniques
-
-    1.  custom new that accepts arrays of records
 
 2.  <https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527>
 
@@ -76,7 +74,7 @@
     3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="orgd1ed616"></a>
+<a id="org9cc2d9f"></a>
 
 ### codesections on "patternmatching"
 
@@ -85,7 +83,7 @@
 2.  <https://www.codesections.com/blog/pattern-matching-2/>
 
 
-<a id="org68e9654"></a>
+<a id="orgede12fa"></a>
 
 ### bioinformatics on rosettacode
 
@@ -94,7 +92,7 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org67ae219"></a>
+<a id="orgef89040"></a>
 
 ### other leftover bits
 
@@ -119,7 +117,7 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="org55dd17e"></a>
+<a id="org33c76af"></a>
 
 ### general notes
 
@@ -128,23 +126,23 @@
     1.  <https://mitpress.mit.edu/books/sciences-artificial>
 
 
-<a id="orgf877349"></a>
+<a id="org6963a8b"></a>
 
 ## announcements
 
 
-<a id="orgfa7c52d"></a>
+<a id="orgabeba84"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org5bb3047"></a>
+<a id="org0b098f7"></a>
 
 ## next meeting
 
 
-<a id="org3a524ed"></a>
+<a id="orgc566df6"></a>
 
 ### next meeting: Oct 24, 2021
