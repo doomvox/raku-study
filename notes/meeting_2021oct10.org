@@ -30,16 +30,16 @@
 
 *** William Michels stackoverflow one-liner adventures
 **** the flip-flop operator
- https://unix.stackexchange.com/a/672602/227738
+*****  https://unix.stackexchange.com/a/672602/227738
 **** 
-https://stackoverflow.com/a/69489459/7270649
+***** https://stackoverflow.com/a/69489459/7270649
 
 **** raku and the absence of globbing in windows command.exe 
-https://stackoverflow.com/questions/69384754/how-do-i-use-raku-e-and-n-with-multiple-file-glob/69400187
-https://superuser.com/questions/460598/is-there-any-way-to-get-the-windows-cmd-shell-to-expand-wildcard-paths
-https://stackoverflow.com/questions/23908299/ruby-windows-command-line-globbing
-https://stackoverflow.com/questions/3954750/parsing-command-line-arguments-as-wildcards
-https://www.ruby-forum.com/t/ruby-wildcard-command-line-argument-auto-expansion/106378/3
+***** https://stackoverflow.com/questions/69384754/how-do-i-use-raku-e-and-n-with-multiple-file-glob/69400187
+***** https://superuser.com/questions/460598/is-there-any-way-to-get-the-windows-cmd-shell-to-expand-wildcard-paths
+***** https://stackoverflow.com/questions/23908299/ruby-windows-command-line-globbing
+***** https://stackoverflow.com/questions/3954750/parsing-command-line-arguments-as-wildcards
+***** https://www.ruby-forum.com/t/ruby-wildcard-command-line-argument-auto-expansion/106378/3
 
 ***** 
 ****** From William Michels : raku -e '.lines.say for dir(test => / \.txt $ /);'
