@@ -1,49 +1,49 @@
-- [meeting notes October 10, 2021                                      a](#org1594b52)
-  - [the usual links:](#org6ba13bb)
-    - [meeting notes](#orgb31a375)
-    - [code examples:](#orgaecd3b3)
-  - [stuff it all in to the great stuffiness](#org48133d5)
-    - [data-handling in raku](#org13e3545)
-    - [bioinformatics on rosettacode](#orgaf006b2)
-    - [bugnuts](#org41d3cf2)
-    - [William Michels stackoverflow one-liner adventures](#org51c1685)
-    - [general notes](#org01d66b0)
-  - [announcements](#org2c5a843)
-    - [the ephemeral miniconf: nov 18 2021](#org9954d81)
-  - [next meeting](#org8084818)
-    - [next meeting: Oct 24, 2021](#orgf0dc689)
+- [meeting notes October 10, 2021                                      a](#orgdbef917)
+  - [the usual links:](#orgd560efd)
+    - [meeting notes](#orgda3ae34)
+    - [code examples:](#org71483ba)
+  - [stuff it all in to the great stuffiness](#org78479cd)
+    - [data-handling in raku](#org086333b)
+    - [bioinformatics on rosettacode](#org57050fe)
+    - [bugnuts](#org5af9eb4)
+    - [William Michels stackoverflow one-liner adventures](#org527281a)
+    - [general notes](#org0bb520e)
+  - [announcements](#orga96eebd)
+    - [the ephemeral miniconf: nov 18 2021](#orgb1e6539)
+  - [next meeting](#orgcc4d090)
+    - [next meeting: Oct 24, 2021](#orgac54cc9)
 
 
-<a id="org1594b52"></a>
+<a id="orgdbef917"></a>
 
 # meeting notes October 10, 2021                                      a
 
 
-<a id="org6ba13bb"></a>
+<a id="orgd560efd"></a>
 
 ## the usual links:
 
 
-<a id="orgb31a375"></a>
+<a id="orgda3ae34"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct10.md>
 
 
-<a id="orgaecd3b3"></a>
+<a id="org71483ba"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct10>
 
 
-<a id="org48133d5"></a>
+<a id="org78479cd"></a>
 
 ## stuff it all in to the great stuffiness
 
 
-<a id="org13e3545"></a>
+<a id="org086333b"></a>
 
 ### data-handling in raku
 
@@ -71,8 +71,12 @@
     
         1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-132/#TASK2>
 
+4.  some links on concurrency, asyncrony, parallelism issues
 
-<a id="orgaf006b2"></a>
+    <https://www.slideshare.net/lembark/hypers-and-gathers-and-takes-oh-my> <https://www.youtube.com/watch?v=rgCk5w2o-GY>
+
+
+<a id="org57050fe"></a>
 
 ### bioinformatics on rosettacode
 
@@ -81,7 +85,7 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org41d3cf2"></a>
+<a id="org5af9eb4"></a>
 
 ### bugnuts
 
@@ -90,7 +94,7 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="org51c1685"></a>
+<a id="org527281a"></a>
 
 ### William Michels stackoverflow one-liner adventures
 
@@ -121,7 +125,7 @@
         2.  From Bruce Gray : raku -pe ‘;’ \*.txt
 
 
-<a id="org01d66b0"></a>
+<a id="org0bb520e"></a>
 
 ### general notes
 
@@ -130,23 +134,23 @@
     1.  <https://mitpress.mit.edu/books/sciences-artificial>
 
 
-<a id="org2c5a843"></a>
+<a id="orga96eebd"></a>
 
 ## announcements
 
 
-<a id="org9954d81"></a>
+<a id="orgb1e6539"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org8084818"></a>
+<a id="orgcc4d090"></a>
 
 ## next meeting
 
 
-<a id="orgf0dc689"></a>
+<a id="orgac54cc9"></a>
 
 ### next meeting: Oct 24, 2021
