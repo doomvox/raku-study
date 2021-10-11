@@ -18,6 +18,9 @@
 **** bruce gray demoed some techniques 
 ***** micro-objects as data records
 ***** custom new method
+***** data-join example:
+****** https://theweeklychallenge.org/blog/perl-weekly-challenge-132/#TASK2
+
 
 *** bioinformatics on rosettacode 
 **** there's a half dozen entries, here's a simple one:
