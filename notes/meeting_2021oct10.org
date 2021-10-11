@@ -31,8 +31,8 @@
 *** William Michels stackoverflow one-liner adventures
 **** the flip-flop operator
  https://unix.stackexchange.com/a/672602/227738
-
-
+**** 
+https://stackoverflow.com/a/69489459/7270649
 
 *** general notes
 **** Herbert Simon, "Sciences of the Artificial", an Alan pick
