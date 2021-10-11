@@ -19,7 +19,6 @@
 ***** micro-objects as data records
 ***** custom new method
 
-
 *** bioinformatics on rosettacode 
 **** there's a half dozen entries, here's a simple one:
 ***** http://rosettacode.org/wiki/Bioinformatics/base_count
@@ -27,6 +26,9 @@
 *** bugnuts
 **** a buglet or I'm crazy (smart money is on...)  (yup, crazy)
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku
+
+
+
 
 *** general notes
 **** Herbert Simon, "Sciences of the Artificial", an Alan pick
