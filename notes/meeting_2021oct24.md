@@ -1,46 +1,46 @@
-- [meeting notes October 24, 2021](#org4ffe40b)
-  - [the usual links:](#org2314fd6)
-    - [meeting notes](#org31b3571)
-    - [code examples:](#org4c00664)
-  - [leftovers that I swear I will not leave here in this file](#org4f58a6c)
-    - [more on data-handling in raku](#org239bdbf)
-    - [codesections on "patternmatching"](#org4b27c48)
-  - [announcements](#org9bfefd9)
-    - [the ephemeral miniconf: nov 18 2021](#org676bc14)
-  - [next meeting](#org0fd2c15)
-    - [next meeting: Oct 24, 2021](#org144ba1f)
+- [meeting notes October 24, 2021](#org50d6c13)
+  - [the usual links:](#orga545f39)
+    - [meeting notes](#org1e4e545)
+    - [code examples:](#org88e5d6a)
+  - [leftovers that I swear I will not leave here in this file](#org1ee3b03)
+    - [more on data-handling in raku](#org134242e)
+    - [codesections on "patternmatching"](#orge63799f)
+  - [announcements](#orgbbee3fc)
+    - [the ephemeral miniconf: nov 18 2021](#orgdf8638e)
+  - [next meeting](#orge0b214a)
+    - [next meeting: Nov 07, 2021](#org1594b34)
 
 
-<a id="org4ffe40b"></a>
+<a id="org50d6c13"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="org2314fd6"></a>
+<a id="orga545f39"></a>
 
 ## the usual links:
 
 
-<a id="org31b3571"></a>
+<a id="org1e4e545"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="org4c00664"></a>
+<a id="org88e5d6a"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="org4f58a6c"></a>
+<a id="org1ee3b03"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="org239bdbf"></a>
+<a id="org134242e"></a>
 
 ### more on data-handling in raku
 
@@ -69,7 +69,7 @@
     3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="org4b27c48"></a>
+<a id="orge63799f"></a>
 
 ### codesections on "patternmatching"
 
@@ -94,23 +94,23 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="org9bfefd9"></a>
+<a id="orgbbee3fc"></a>
 
 ## announcements
 
 
-<a id="org676bc14"></a>
+<a id="orgdf8638e"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org0fd2c15"></a>
+<a id="orge0b214a"></a>
 
 ## next meeting
 
 
-<a id="org144ba1f"></a>
+<a id="org1594b34"></a>
 
-### next meeting: Oct 24, 2021
+### next meeting: Nov 07, 2021
