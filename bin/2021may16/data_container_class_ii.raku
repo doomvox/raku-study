@@ -47,7 +47,7 @@ class MyTable {
         for @!data -> ( $state, $area ) {
             @!rows.push( MyRow.new( :$state, :$area ) );
         }
-    }
+     }
 }
 
 {
