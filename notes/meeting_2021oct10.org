@@ -6,7 +6,20 @@
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021oct10
 ** stuff it all in to the great stuffiness
 *** data-handling in raku 
+**** talked about three rough approaches
+***** perl-style: arrays of hashes, hashes as records
+***** raku: data container objects more practical
+***** rlang-style: columns of data, aggregate methods appropriate for type
+
+**** note: i'm agnostic on strong typing
+
+***** some type checking good, large amounts may just be redundant
+
+***** testing can stubstitute for strong-types, but not vice-versa
+
 **** bruce gray demoed some techniques
+
+
 
 **** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527
 ***** William Michaels objects to the word "Row" for a data-record in my solution
