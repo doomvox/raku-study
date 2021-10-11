@@ -1,1 +1,6 @@
 * meeting notes October 24, 2021                                      
+** the usual links:
+*** meeting notes
+**** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md
+*** code examples:
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021oct24
