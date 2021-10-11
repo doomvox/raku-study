@@ -45,7 +45,7 @@ class Testoidal does Positional
     }
 }
 
-my $trial = Testoidal.new;
+ my $trial = Testoidal.new;
 die unless $trial[2] == 24;
 die unless $trial[5] == 12;
 
