@@ -29,7 +29,7 @@
 
 
 *** William Michels stackoverflow one-liner adventures
-
+**** the flip-flop operator
  https://unix.stackexchange.com/a/672602/227738
 
 
