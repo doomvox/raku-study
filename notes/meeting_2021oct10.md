@@ -1,49 +1,49 @@
-- [meeting notes October 10, 2021                                      a](#org1a925f7)
-  - [the usual links:](#org94e6bf2)
-    - [meeting notes](#orgae01cea)
-    - [code examples:](#orgdc0e499)
-  - [stuff it all in to the great stuffiness](#org1c7a2e3)
-    - [data-handling in raku](#org9ff71c5)
-    - [bioinformatics on rosettacode](#org50729b1)
-    - [bugnuts](#org6d91432)
-    - [William Michels stackoverflow one-liner adventures](#org2702cdd)
-    - [general notes](#org1c26d17)
-  - [announcements](#orgee78dc9)
-    - [the ephemeral miniconf: nov 18 2021](#org667e06a)
-  - [next meeting](#org7a4c567)
-    - [next meeting: Oct 24, 2021](#org6a5ed67)
+- [meeting notes October 10, 2021                                      a](#org8d6b678)
+  - [the usual links:](#orge3833c5)
+    - [meeting notes](#org760a956)
+    - [code examples:](#org5159bff)
+  - [stuff it all in to the great stuffiness](#orgadbc536)
+    - [data-handling in raku](#org3072515)
+    - [bioinformatics on rosettacode](#orgf427d2a)
+    - [bugnuts](#orgaca3726)
+    - [William Michels stackoverflow one-liner adventures](#orge09ea09)
+    - [general notes](#org2a36e5a)
+  - [announcements](#org1d32df3)
+    - [the ephemeral miniconf: nov 18 2021](#org7ba5365)
+  - [next meeting](#org1724855)
+    - [next meeting: Oct 24, 2021](#org0d89e67)
 
 
-<a id="org1a925f7"></a>
+<a id="org8d6b678"></a>
 
 # meeting notes October 10, 2021                                      a
 
 
-<a id="org94e6bf2"></a>
+<a id="orge3833c5"></a>
 
 ## the usual links:
 
 
-<a id="orgae01cea"></a>
+<a id="org760a956"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct10.md>
 
 
-<a id="orgdc0e499"></a>
+<a id="org5159bff"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct10>
 
 
-<a id="org1c7a2e3"></a>
+<a id="orgadbc536"></a>
 
 ## stuff it all in to the great stuffiness
 
 
-<a id="org9ff71c5"></a>
+<a id="org3072515"></a>
 
 ### data-handling in raku
 
@@ -68,7 +68,7 @@
     2.  custom new method
 
 
-<a id="org50729b1"></a>
+<a id="orgf427d2a"></a>
 
 ### bioinformatics on rosettacode
 
@@ -77,7 +77,7 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org6d91432"></a>
+<a id="orgaca3726"></a>
 
 ### bugnuts
 
@@ -86,7 +86,7 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="org2702cdd"></a>
+<a id="orge09ea09"></a>
 
 ### William Michels stackoverflow one-liner adventures
 
@@ -101,9 +101,15 @@
 3.  raku and the absence of globbing in windows command.exe
 
     <https://stackoverflow.com/questions/69384754/how-do-i-use-raku-e-and-n-with-multiple-file-glob/69400187> <https://superuser.com/questions/460598/is-there-any-way-to-get-the-windows-cmd-shell-to-expand-wildcard-paths> <https://stackoverflow.com/questions/23908299/ruby-windows-command-line-globbing> <https://stackoverflow.com/questions/3954750/parsing-command-line-arguments-as-wildcards> <https://www.ruby-forum.com/t/ruby-wildcard-command-line-argument-auto-expansion/106378/3>
+    
+    1.  
+    
+        1.  From William Michels : raku -e '.lines.say for dir(test => / \\.txt $ /);'
+        
+        2.  From Bruce Gray : raku -pe ‘;’ \*.txt
 
 
-<a id="org1c26d17"></a>
+<a id="org2a36e5a"></a>
 
 ### general notes
 
@@ -112,23 +118,23 @@
     1.  <https://mitpress.mit.edu/books/sciences-artificial>
 
 
-<a id="orgee78dc9"></a>
+<a id="org1d32df3"></a>
 
 ## announcements
 
 
-<a id="org667e06a"></a>
+<a id="org7ba5365"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org7a4c567"></a>
+<a id="org1724855"></a>
 
 ## next meeting
 
 
-<a id="org6a5ed67"></a>
+<a id="org0d89e67"></a>
 
 ### next meeting: Oct 24, 2021

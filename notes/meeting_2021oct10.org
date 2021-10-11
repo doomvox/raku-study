@@ -41,6 +41,10 @@ https://stackoverflow.com/questions/23908299/ruby-windows-command-line-globbing
 https://stackoverflow.com/questions/3954750/parsing-command-line-arguments-as-wildcards
 https://www.ruby-forum.com/t/ruby-wildcard-command-line-argument-auto-expansion/106378/3
 
+***** 
+****** From William Michels : raku -e '.lines.say for dir(test => / \.txt $ /);'
+****** From Bruce Gray : raku -pe ‘;’ *.txt
+
 
 *** general notes
 **** Herbert Simon, "Sciences of the Artificial", an Alan pick
