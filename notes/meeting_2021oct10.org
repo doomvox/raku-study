@@ -15,7 +15,9 @@
 ***** some type checking good, large amounts may just be redundant
 ***** testing can stubstitute for strong-types, but not vice-versa
 
-**** bruce gray demoed some techniques
+**** bruce gray demoed some techniques 
+***** micro-objects as data records
+***** custom new method
 
 **** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527
 ***** William Michaels objects to the word "Row" for a data-record in my solution
