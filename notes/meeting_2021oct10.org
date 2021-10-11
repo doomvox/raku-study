@@ -34,7 +34,8 @@
 **** 
 https://stackoverflow.com/a/69489459/7270649
 
-
+**** raku and the absence of globbing in windows command.exe 
+https://stackoverflow.com/questions/69384754/how-do-i-use-raku-e-and-n-with-multiple-file-glob/69400187
 
 *** general notes
 **** Herbert Simon, "Sciences of the Artificial", an Alan pick
