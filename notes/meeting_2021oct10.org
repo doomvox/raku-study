@@ -37,6 +37,7 @@ https://stackoverflow.com/a/69489459/7270649
 **** raku and the absence of globbing in windows command.exe 
 https://stackoverflow.com/questions/69384754/how-do-i-use-raku-e-and-n-with-multiple-file-glob/69400187
 https://superuser.com/questions/460598/is-there-any-way-to-get-the-windows-cmd-shell-to-expand-wildcard-paths
+https://stackoverflow.com/questions/23908299/ruby-windows-command-line-globbing
 
 
 *** general notes

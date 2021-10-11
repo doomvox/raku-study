@@ -1,49 +1,49 @@
-- [meeting notes October 10, 2021                                      a](#org9d95f20)
-  - [the usual links:](#org7052850)
-    - [meeting notes](#org1075de8)
-    - [code examples:](#org6e9f37a)
-  - [stuff it all in to the great stuffiness](#org3db2a88)
-    - [data-handling in raku](#org7b3f8b5)
-    - [bioinformatics on rosettacode](#org6ddf82b)
-    - [bugnuts](#org6e06591)
-    - [William Michels stackoverflow one-liner adventures](#org89d124b)
-    - [general notes](#orgdab98ad)
-  - [announcements](#org27a62d0)
-    - [the ephemeral miniconf: nov 18 2021](#orgc6be4da)
-  - [next meeting](#org981fe41)
-    - [next meeting: Oct 24, 2021](#org970ebb9)
+- [meeting notes October 10, 2021                                      a](#org1c1bd7c)
+  - [the usual links:](#orgce93fdc)
+    - [meeting notes](#org62777b6)
+    - [code examples:](#org3a86c48)
+  - [stuff it all in to the great stuffiness](#org2caf5e5)
+    - [data-handling in raku](#org6b5f478)
+    - [bioinformatics on rosettacode](#org0ffeda0)
+    - [bugnuts](#org4d39b25)
+    - [William Michels stackoverflow one-liner adventures](#orgdcdf840)
+    - [general notes](#orgd1974a5)
+  - [announcements](#org42b8193)
+    - [the ephemeral miniconf: nov 18 2021](#org4e5ff34)
+  - [next meeting](#orgac78d14)
+    - [next meeting: Oct 24, 2021](#orgd532e15)
 
 
-<a id="org9d95f20"></a>
+<a id="org1c1bd7c"></a>
 
 # meeting notes October 10, 2021                                      a
 
 
-<a id="org7052850"></a>
+<a id="orgce93fdc"></a>
 
 ## the usual links:
 
 
-<a id="org1075de8"></a>
+<a id="org62777b6"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct10.md>
 
 
-<a id="org6e9f37a"></a>
+<a id="org3a86c48"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct10>
 
 
-<a id="org3db2a88"></a>
+<a id="org2caf5e5"></a>
 
 ## stuff it all in to the great stuffiness
 
 
-<a id="org7b3f8b5"></a>
+<a id="org6b5f478"></a>
 
 ### data-handling in raku
 
@@ -68,7 +68,7 @@
     2.  custom new method
 
 
-<a id="org6ddf82b"></a>
+<a id="org0ffeda0"></a>
 
 ### bioinformatics on rosettacode
 
@@ -77,7 +77,7 @@
     1.  <http://rosettacode.org/wiki/Bioinformatics/base_count>
 
 
-<a id="org6e06591"></a>
+<a id="org4d39b25"></a>
 
 ### bugnuts
 
@@ -86,7 +86,7 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/anon_var_vs_topic.raku>
 
 
-<a id="org89d124b"></a>
+<a id="orgdcdf840"></a>
 
 ### William Michels stackoverflow one-liner adventures
 
@@ -100,10 +100,10 @@
 
 3.  raku and the absence of globbing in windows command.exe
 
-    <https://stackoverflow.com/questions/69384754/how-do-i-use-raku-e-and-n-with-multiple-file-glob/69400187> <https://superuser.com/questions/460598/is-there-any-way-to-get-the-windows-cmd-shell-to-expand-wildcard-paths>
+    <https://stackoverflow.com/questions/69384754/how-do-i-use-raku-e-and-n-with-multiple-file-glob/69400187> <https://superuser.com/questions/460598/is-there-any-way-to-get-the-windows-cmd-shell-to-expand-wildcard-paths> <https://stackoverflow.com/questions/23908299/ruby-windows-command-line-globbing>
 
 
-<a id="orgdab98ad"></a>
+<a id="orgd1974a5"></a>
 
 ### general notes
 
@@ -112,23 +112,23 @@
     1.  <https://mitpress.mit.edu/books/sciences-artificial>
 
 
-<a id="org27a62d0"></a>
+<a id="org42b8193"></a>
 
 ## announcements
 
 
-<a id="orgc6be4da"></a>
+<a id="org4e5ff34"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org981fe41"></a>
+<a id="orgac78d14"></a>
 
 ## next meeting
 
 
-<a id="org970ebb9"></a>
+<a id="orgd532e15"></a>
 
 ### next meeting: Oct 24, 2021
