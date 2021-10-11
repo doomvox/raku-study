@@ -1,42 +1,46 @@
-- [meeting notes October 24, 2021](#orgf28495c)
-  - [the usual links:](#orgf53098e)
-    - [meeting notes](#org140d099)
-    - [code examples:](#orgf4dd3fd)
-  - [leftovers that I swear I will not leave here in this file](#org8f4f5c4)
-    - [more on data-handling in raku](#org6397a51)
-    - [codesections on "patternmatching"](#org85af390)
+- [meeting notes October 24, 2021](#org4ffe40b)
+  - [the usual links:](#org2314fd6)
+    - [meeting notes](#org31b3571)
+    - [code examples:](#org4c00664)
+  - [leftovers that I swear I will not leave here in this file](#org4f58a6c)
+    - [more on data-handling in raku](#org239bdbf)
+    - [codesections on "patternmatching"](#org4b27c48)
+  - [announcements](#org9bfefd9)
+    - [the ephemeral miniconf: nov 18 2021](#org676bc14)
+  - [next meeting](#org0fd2c15)
+    - [next meeting: Oct 24, 2021](#org144ba1f)
 
 
-<a id="orgf28495c"></a>
+<a id="org4ffe40b"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="orgf53098e"></a>
+<a id="org2314fd6"></a>
 
 ## the usual links:
 
 
-<a id="org140d099"></a>
+<a id="org31b3571"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="orgf4dd3fd"></a>
+<a id="org4c00664"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="org8f4f5c4"></a>
+<a id="org4f58a6c"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="org6397a51"></a>
+<a id="org239bdbf"></a>
 
 ### more on data-handling in raku
 
@@ -65,7 +69,7 @@
     3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="org85af390"></a>
+<a id="org4b27c48"></a>
 
 ### codesections on "patternmatching"
 
@@ -88,3 +92,25 @@
 5.  old raku weekly
 
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
+
+
+<a id="org9bfefd9"></a>
+
+## announcements
+
+
+<a id="org676bc14"></a>
+
+### the ephemeral miniconf: nov 18 2021
+
+1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
+
+
+<a id="org0fd2c15"></a>
+
+## next meeting
+
+
+<a id="org144ba1f"></a>
+
+### next meeting: Oct 24, 2021
