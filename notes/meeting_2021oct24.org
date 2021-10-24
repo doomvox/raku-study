@@ -58,7 +58,13 @@ cd roast
 git branch <branch_name>; git checkout <branch_name>
 #+END_SRC
 
-******** write some good shit
+******** write code
+
+******** commit and push changes out
+#+BEGIN_SRC sh
+git commit -a -m'... (Fixes #36)'  # can't hurt to include issue number
+git push -u origin <branch_name>
+#+END_SRC
 
 
 
