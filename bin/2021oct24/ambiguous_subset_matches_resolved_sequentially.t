@@ -19,29 +19,16 @@ group-of 6 => 'ambiguous subset matches resolved sequentially' => {
   subset Hero       of Str where { $_ eq any( @heroes ) };
 
   group-of 12 => 'subset' => {
-        $wanted = Nil;
-
-        my subset PosSubset where &pos-match;
-        my subset NegSubset where &neg-match;
-        ok  42 ~~ PosSubset,   'pos';
-        is-deeply $wanted, 42, 'pos arg';
-        nok 73 ~~ NegSubset,   'neg';
-        is-deeply $wanted, 73, 'neg arg';
-
-        my subset PosSubsetB where &pos-match-block;
-        my subset NegSubsetB where &neg-match-block;
-        ok  42 ~~ PosSubsetB,  'pos block';
-        is-deeply $wanted, 42, 'pos arg block';
-        nok 73 ~~ NegSubsetB,  'neg block';
-        is-deeply $wanted, 73, 'neg arg block';
-
-        my subset PosSubsetW where &pos-match-wat;
-        my subset NegSubsetW where &neg-match-wat;
-        ok  42 ~~ PosSubsetW,  'pos Whatever';
-        is-deeply $wanted, 42, 'pos arg Whatever';
-        nok 73 ~~ NegSubsetW,  'neg Whatever';
-        is-deeply $wanted, 73, 'neg arg Whatever';
+    multi sub speech (Monster $name) {
+        say "The monster, $name roars!";
     }
+    multi sub speech (Hero $name) {
+        say "The hero, $name shouts!";
+    }
+    speech('ghidora');      # OUTPUT: The monster, ghidora roars!
+    speech('godzilla');     # OUTPUT: The monster, godzilla roars!
+
+   }
 
     group-of 12 => 'my' => {
         $wanted = Nil;
