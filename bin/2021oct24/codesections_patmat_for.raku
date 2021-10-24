@@ -19,6 +19,12 @@ for (:foo(1, 5), :bar(9, 8), :baz(7, 7)) {
         say "{.value[0]} + {.value[1]} is {sum .value}" }
 }
 
+
+
+
+
+
+
 # 1 + 5 is 6
 
 for (:foo(1, 5), :bar(9, 8), :baz(7, 7)) {
