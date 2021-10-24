@@ -18,7 +18,6 @@ my $arg = "rhodan";
 
 my $default = 'godzilla';
 
-my $s;
 my $ret = ((try toho_alone($arg)) // $default);
 say $ret;
 
