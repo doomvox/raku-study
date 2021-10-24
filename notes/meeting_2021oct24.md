@@ -1,71 +1,77 @@
-- [meeting notes October 24, 2021](#orgaf77d02)
-  - [the usual links:](#org07922ab)
-    - [meeting notes](#org071eecf)
-    - [code examples:](#org473f237)
-  - [codesections on multis vs smartmatch, etc](#org368fcc8)
-    - [<https://www.codesections.com/blog/try-some-pattern-matching/>](#orgde46ced)
-    - [<https://www.codesections.com/blog/pattern-matching-2/>](#org5cee6e0)
-    - [<https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/>](#org987df62)
-    - [<https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku>](#org5262987)
-    - [docs](#orgb20fd89)
-  - [leftovers that I swear I will not leave here in this file](#org7044112)
-    - [more on data-handling in raku](#org62581fa)
-  - [announcements](#org91775e3)
-    - [the ephemeral miniconf: nov 18 2021](#org11b38b3)
-  - [next meeting](#org49935d2)
-    - [next meeting: Nov 07, 2021](#orge2adf19)
+- [meeting notes October 24, 2021](#org4f7969c)
+  - [the usual links:](#orgd6ff073)
+    - [meeting notes](#org0f31f5a)
+    - [code examples:](#org2cbb311)
+  - [codesections on multis vs smartmatch, etc](#org1dbe902)
+    - [<https://www.codesections.com/blog/try-some-pattern-matching/>](#org8bf4b99)
+    - [<https://www.codesections.com/blog/pattern-matching-2/>](#orga2546c5)
+    - [<https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/>](#org3fa8d24)
+    - [<https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/>](#orgce863d1)
+    - [<https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku>](#org64cf12b)
+    - [docs](#org362e9c7)
+  - [leftovers that I swear I will not leave here in this file](#org219d94b)
+    - [more on data-handling in raku](#orgf5a10b7)
+  - [announcements](#orgee22888)
+    - [the ephemeral miniconf: nov 18 2021](#orgda7a286)
+  - [next meeting](#org6c8e441)
+    - [next meeting: Nov 07, 2021](#org0275394)
 
 
-<a id="orgaf77d02"></a>
+<a id="org4f7969c"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="org07922ab"></a>
+<a id="orgd6ff073"></a>
 
 ## the usual links:
 
 
-<a id="org071eecf"></a>
+<a id="org0f31f5a"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="org473f237"></a>
+<a id="org2cbb311"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="org368fcc8"></a>
+<a id="org1dbe902"></a>
 
 ## codesections on multis vs smartmatch, etc
 
 
-<a id="orgde46ced"></a>
+<a id="org8bf4b99"></a>
 
 ### <https://www.codesections.com/blog/try-some-pattern-matching/>
 
 
-<a id="org5cee6e0"></a>
+<a id="orga2546c5"></a>
 
 ### <https://www.codesections.com/blog/pattern-matching-2/>
 
 
-<a id="org987df62"></a>
+<a id="org3fa8d24"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/>
 
 
-<a id="org5262987"></a>
+<a id="orgce863d1"></a>
+
+### <https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/>
+
+
+<a id="org64cf12b"></a>
 
 ### <https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku>
 
 
-<a id="orgb20fd89"></a>
+<a id="org362e9c7"></a>
 
 ### docs
 
@@ -76,12 +82,12 @@
 |          |                                                        |
 
 
-<a id="org7044112"></a>
+<a id="org219d94b"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="org62581fa"></a>
+<a id="orgf5a10b7"></a>
 
 ### more on data-handling in raku
 
@@ -126,23 +132,23 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="org91775e3"></a>
+<a id="orgee22888"></a>
 
 ## announcements
 
 
-<a id="org11b38b3"></a>
+<a id="orgda7a286"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org49935d2"></a>
+<a id="org6c8e441"></a>
 
 ## next meeting
 
 
-<a id="orge2adf19"></a>
+<a id="org0275394"></a>
 
 ### next meeting: Nov 07, 2021

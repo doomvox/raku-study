@@ -9,7 +9,7 @@
 *** https://www.codesections.com/blog/try-some-pattern-matching/
 *** https://www.codesections.com/blog/pattern-matching-2/
 *** https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/
-
+*** https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/
 
 *** https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku
 
