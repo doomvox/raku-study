@@ -11,9 +11,6 @@ sub toho_alone( $input = prompt ) {
     return $input;
 }
 
-# my $arg = "rhodan";
-# $arg = "gammera";
-
 my $default = 'godzilla';
 
 my $ret = ((try toho_alone()) // $default);
