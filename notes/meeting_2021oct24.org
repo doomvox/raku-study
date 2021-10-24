@@ -6,7 +6,8 @@
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021oct24
 
 ** codesections on multis vs smartmatch, etc
-https://www.codesections.com/blog/try-some-pattern-matching/
+*** https://www.codesections.com/blog/try-some-pattern-matching/
+*** https://www.codesections.com/blog/pattern-matching-2/
 
 
 ** leftovers that I swear I will not leave here in this file
