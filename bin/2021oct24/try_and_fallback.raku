@@ -1,6 +1,6 @@
 #!/usr/bin/env perl6
 # 
-# try_an_fallback.raku            24 Oct 2021 
+# try_and_fallback.raku            24 Oct 2021 
 
 use v6;
 
