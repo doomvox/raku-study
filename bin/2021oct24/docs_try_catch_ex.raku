@@ -19,7 +19,7 @@ try {
         }
     }
 }
-say $error-code;  # back to the beginning, I think: 111
+say $error-code;  # back to the beginning, I think: 333
 
 
 # OUTPUT: «Error 111 X::AdHoc: Something bad happened␤» 
