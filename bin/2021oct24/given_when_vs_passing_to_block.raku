@@ -15,8 +15,11 @@ given 42 { .say; .Numeric; }  # 42
 { .say; .Numeric; }(42);       # 42
 
 
-sub stuffy($_) { .say; .Numeric; };
-say stuffy(42);
+sub stuffy($_){
+    .say;
+    .Numeric;
+};
+say stuffy(42);  # 42
 
 
 
