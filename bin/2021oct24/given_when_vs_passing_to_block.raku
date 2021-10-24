@@ -23,8 +23,6 @@ sub stuffy($_){
 
 say stuffy(42);  # 42
 
-
-
  { .say; .Numeric; }(42);
  { say "$a + $b is {$a+$b}" }(|$_) 
 
