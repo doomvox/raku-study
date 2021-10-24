@@ -19,6 +19,10 @@ for (:add(1, 5), :sub(9, 8), :mult(7, 7)) {
 }
 # 1 + 5 is 6
 
+for (:add(1, 5), :sub(9, 8), :mult(7, 7)) {
+    try -> :$add ($a, $b) { say "$a + $b is {$a+$b}" }(|$_)
+}
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
