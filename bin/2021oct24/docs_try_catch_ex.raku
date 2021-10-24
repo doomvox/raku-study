@@ -21,6 +21,7 @@ try {
 }
 say $error-code;  # back to the beginning, I think: 111
 
+
 # OUTPUT: «Error 111 X::AdHoc: Something bad happened␤» 
 # ===
 # Author:  doom@kzsu.stanford.edu
