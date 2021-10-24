@@ -11,7 +11,7 @@ sub bar {
     ....
 }
 
-my $thingie = foo() + bar():  
+my $thingie = foo + bar;
 
 ## 
 
