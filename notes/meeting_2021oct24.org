@@ -31,6 +31,7 @@
 | cando    | https://docs.raku.org/routine/cando                                        |   |
 |          |                                                                            |   |
 *** roast tests
+**** https://github.com/rakudo/rakudo/issues/4547
 **** https://github.com/Raku/roast
 ***** "the spec is the tests"
 ****** a brief opinionated editorial that might possibly be controversial
