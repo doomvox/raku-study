@@ -18,7 +18,7 @@ group-of 6 => 'ambiguous subset matches resolved sequentially' => {
   subset Monster    of Str where { $_ eq any( @monsters ) };
   subset Hero       of Str where { $_ eq any( @heroes ) };
 
-    group-of 12 => 'subset' => {
+  group-of 12 => 'subset' => {
         $wanted = Nil;
 
         my subset PosSubset where &pos-match;
