@@ -10,7 +10,7 @@ plan 91;
 
 
 # https://github.com/Raku/roast/issues/650
-group-of 6 => '`&`- sigiled variable be used in where' => {
+group-of 6 => 'ambiguous subset matches resolved sequentially' => {
     my $wanted;
     sub pos-match               { $wanted = $^got; True  }
     sub neg-match               { $wanted = $^got; False }
