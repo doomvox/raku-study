@@ -7,7 +7,8 @@ use v6;
 
 
 sub toho_alone(@_) {
-    if ( $_ eq 'gammera' ) {
+    my $input = @_[0];
+    if ( $input eq 'gammera' ) {
         die "wrong production company";
     }
     return $_;
@@ -19,7 +20,7 @@ my $arg = "rhodan";
 my $default = 'godzilla';
 
 my $s;
-my $ret = ((try my $s = toho_alone($arg); $s) // $default);
+my $ret = ((try toho_alone($arg)) // $default);
 say $ret;
 
 
