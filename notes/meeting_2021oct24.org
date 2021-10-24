@@ -32,6 +32,14 @@
 |          |                                                                            |   |
 *** roast tests
 **** https://github.com/Raku/roast
+***** "the spec is the tests"
+****** a brief opinionated editorial that might possibly be controversial
+***** writing a new roast test
+****** go to repo (in chromium): https://github.com/Raku/roast
+****** github.org -> upper right -> Forks -> new fork -> put in doomvox
+******* still haven't learned to do this via a command-line tool
+******** gh: the standard (?) github command-line tool
+********* a brief opinionated editorial that might possibly be controversial
 
 *** some third thing because I'm one of those guys
 **** database table -> custom data objects
