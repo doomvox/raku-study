@@ -4,7 +4,7 @@
 
 use v6;
 
-sub toho_alone( $input ) {
+sub toho_alone( $input = prompt ) {
     if ( $input eq 'gammera' ) {
         die "wrong production company";
     }
