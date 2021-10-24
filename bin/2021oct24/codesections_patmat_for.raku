@@ -10,7 +10,7 @@ for (:add(1, 5), :sub(9, 8), :mult(7, 7)) {
         say "{.value[0]} + {.value[1]} is {sum .value}" }
 }
 
-
+# 1 + 5 is 6
 
 
 # ===
