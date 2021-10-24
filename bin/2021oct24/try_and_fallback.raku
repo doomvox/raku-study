@@ -4,8 +4,7 @@
 
 use v6;
 
-sub toho_alone(@_) {
-    my $input = @_[0];
+sub toho_alone( $input ) {
     say "input: $input";
     if ( $input eq 'gammera' ) {
         die "wrong production company";
