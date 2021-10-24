@@ -14,7 +14,6 @@
 *** https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku
 
 *** docs
-|          |                                                                            |   |
 | key      | url                                                                        |   |
 |----------+----------------------------------------------------------------------------+---|
 | for      | https://docs.raku.org/syntax/for                                           |   |

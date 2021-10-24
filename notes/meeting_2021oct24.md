@@ -1,82 +1,82 @@
-- [meeting notes October 24, 2021](#org00575ea)
-  - [the usual links:](#orge52c4ff)
-    - [meeting notes](#org9fd6af4)
-    - [code examples:](#org2b2eca1)
-  - [codesections on multis vs smartmatch, etc](#org168be4c)
-    - [<https://www.codesections.com/blog/try-some-pattern-matching/>](#org7be2876)
-    - [<https://www.codesections.com/blog/pattern-matching-2/>](#org21db999)
-    - [<https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/>](#org0af9444)
-    - [<https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/>](#orgcfe5d02)
-    - [<https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku>](#orge3a51f0)
-    - [docs](#orgdb11516)
-  - [leftovers that I swear I will not leave here in this file](#orgfad1750)
-    - [more on data-handling in raku](#org3090cff)
-  - [announcements](#org0aa5fa3)
-    - [the ephemeral miniconf: nov 18 2021](#org1dbe058)
-  - [next meeting](#org3a599f2)
-    - [next meeting: Nov 07, 2021](#orgf8bd1ed)
+- [meeting notes October 24, 2021](#orgeefbc01)
+  - [the usual links:](#org6e6fef2)
+    - [meeting notes](#orgb754bce)
+    - [code examples:](#orgab4f3ef)
+  - [codesections on multis vs smartmatch, etc](#org86717ae)
+    - [<https://www.codesections.com/blog/try-some-pattern-matching/>](#orgdd21a55)
+    - [<https://www.codesections.com/blog/pattern-matching-2/>](#org1383654)
+    - [<https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/>](#org3e1cb32)
+    - [<https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/>](#org0b73a54)
+    - [<https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku>](#org8f094f6)
+    - [docs](#org1195879)
+  - [leftovers that I swear I will not leave here in this file](#org21c73e3)
+    - [more on data-handling in raku](#orgca195b7)
+  - [announcements](#org49a4d11)
+    - [the ephemeral miniconf: nov 18 2021](#org37cc5a8)
+  - [next meeting](#org2b49fff)
+    - [next meeting: Nov 07, 2021](#org805b3c6)
 
 
-<a id="org00575ea"></a>
+<a id="orgeefbc01"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="orge52c4ff"></a>
+<a id="org6e6fef2"></a>
 
 ## the usual links:
 
 
-<a id="org9fd6af4"></a>
+<a id="orgb754bce"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="org2b2eca1"></a>
+<a id="orgab4f3ef"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="org168be4c"></a>
+<a id="org86717ae"></a>
 
 ## codesections on multis vs smartmatch, etc
 
 
-<a id="org7be2876"></a>
+<a id="orgdd21a55"></a>
 
 ### <https://www.codesections.com/blog/try-some-pattern-matching/>
 
 
-<a id="org21db999"></a>
+<a id="org1383654"></a>
 
 ### <https://www.codesections.com/blog/pattern-matching-2/>
 
 
-<a id="org0af9444"></a>
+<a id="org3e1cb32"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/>
 
 
-<a id="orgcfe5d02"></a>
+<a id="org0b73a54"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/>
 
 
-<a id="orge3a51f0"></a>
+<a id="org8f094f6"></a>
 
 ### <https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku>
 
 
-<a id="orgdb11516"></a>
+<a id="org1195879"></a>
 
 ### docs
 
-|          |                                                                              |  |
 | key      | url                                                                          |  |
+|-------- |---------------------------------------------------------------------------- |--- |
 | for      | <https://docs.raku.org/syntax/for>                                           |  |
 | try      | <https://docs.raku.org/language/exceptions#try_blocks>                       |  |
 | sum      | <https://docs.raku.org/routine/sum>                                          |  |
@@ -86,12 +86,12 @@
 |          |                                                                              |  |
 
 
-<a id="orgfad1750"></a>
+<a id="org21c73e3"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="org3090cff"></a>
+<a id="orgca195b7"></a>
 
 ### more on data-handling in raku
 
@@ -136,23 +136,23 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="org0aa5fa3"></a>
+<a id="org49a4d11"></a>
 
 ## announcements
 
 
-<a id="org1dbe058"></a>
+<a id="org37cc5a8"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org3a599f2"></a>
+<a id="org2b49fff"></a>
 
 ## next meeting
 
 
-<a id="orgf8bd1ed"></a>
+<a id="org805b3c6"></a>
 
 ### next meeting: Nov 07, 2021
