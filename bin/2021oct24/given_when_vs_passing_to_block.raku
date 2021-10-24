@@ -32,6 +32,8 @@ sub mah_stuff($_) {
     say "$a + $b is {$a+$b}" };
 }
 
+mah_stuff( 42 );
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
