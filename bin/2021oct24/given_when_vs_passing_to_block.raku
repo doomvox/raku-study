@@ -19,6 +19,7 @@ sub stuffy($_){
     .say;
     .Numeric;
 };
+
 say stuffy(42);  # 42
 
 
