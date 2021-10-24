@@ -49,7 +49,6 @@ gh repo fork doomvox/doomvox --clone=false
 ******** git clone of repository to a local working directory
 #+BEGIN_SRC sh
 cd /home/doom/End/Cave/Raku/Wall # location for dev trees
-cd Wall
 gh repo clone doomvox/<repo_name>  # use gnome-terminal, not emacs shell
 cd <repo_name>
 #+END_SRC
