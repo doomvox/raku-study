@@ -10,7 +10,7 @@ sub toho_alone {
     if ( $_ eq 'gammera' ) {
         die "wrong production company";
     }
-
+    return $_;
 }
 
 my $default = 'godzilla';
