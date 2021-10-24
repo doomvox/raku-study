@@ -22,6 +22,10 @@ my $single = \'a';         # a single argument Capture
 my $plural = \('a', 42);   # a two argument Capture 
 my &block = { say $^a };   # a Block object, that is a subclass of Code, taking one argument 
 say &block.cando($single); # OUTPUT: «(-> $a { #`(Block|94212856419136) ... })␤» 
+
+## Right, that's what I see:
+## (-> $a { #`(Block|64751728) ... })
+
 say &block.cando($plural); # OUTPUT: «()␤»
 
 
