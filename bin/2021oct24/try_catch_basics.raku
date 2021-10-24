@@ -8,7 +8,8 @@ use v6;
     my $not_really_sensible = 1/0;  
     say $not_really_sensible;
 
-    CATCH { say "just forget about that problem"; };
+    CATCH { say "just forget about that problem"; .resume };
+#   CATCH { default { say "CAUGHT: ", .Str; .resume } }
 }
 
 
