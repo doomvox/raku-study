@@ -16,7 +16,7 @@ try {
  
     CATCH {
         default {
-            say "Error $error-code ", .^name, ': ',.Str
+            say "Error $error-code ", .^name, ': ',.Str;
         .resume;
         }
     }
