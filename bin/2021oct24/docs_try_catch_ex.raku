@@ -17,7 +17,7 @@ try {
         default {
             say "Error $error-code ", .^name, ': ',.Str
         }
-        .resume;
+#        .resume;
     }
 }
 say $error-code;  # back to the beginning, I think: 333
