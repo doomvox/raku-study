@@ -11,7 +11,7 @@ sub bad-sub {  # always throws an error
 try {
     my $error-code = "111";
     bad-sub;
-    my $error-code = "666"; # we won't see this change
+    $error-code = "666"; # we won't see this change
  
     CATCH {
         default {
