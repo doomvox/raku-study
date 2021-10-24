@@ -1,4 +1,6 @@
 * meeting notes October 24, 2021                                      
+** the raku study group
+*** Rock-rock-rock rakudo High Scool
 ** the usual links:
 *** meeting notes
 **** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md
@@ -29,6 +31,8 @@
 | cando    | https://docs.raku.org/routine/cando                                        |   |
 |          |                                                                            |   |
 *** roast tests
+**** https://github.com/Raku/roast
+
 *** some third thing because I'm one of those guys
 
 
