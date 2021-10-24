@@ -63,7 +63,7 @@ git branch <branch_name>; git checkout <branch_name>
 
 ******** commit and push changes out
 #+BEGIN_SRC sh
-git commit -a -m'... (See issue #666666)'  # can't hurt to include issue number
+git commit -a -m'... (See issue #4547)'  # can't hurt to include issue number
 git push -u origin <branch_name>
 #+END_SRC
 
@@ -72,14 +72,14 @@ git push -u origin <branch_name>
 ******** github generate pullrequest
 ********* using gh (gnome-terminal, not emacs shell):
 #+BEGIN_SRC sh
-gh pr create --title "new test of multi-dispatch with where clauses" --body "Fixes #666666"
+gh pr create --title "new test of multi-dispatch with where clauses" --body "Fixes #4547"
 #+END_SRC
 ********* makes you answer questions
 ********** first choose the parent repo
 *********** Raku/roast 
 ********** second choose the forked repo
 *********** doomvox/roast
-********** message must refer to the issue: "Fixes #666666" 
+********** message must refer to the issue: "Fixes #4547" 
 
 *** some third thing because I'm one of those guys
 **** database table -> custom data objects
