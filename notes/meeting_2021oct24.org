@@ -53,6 +53,13 @@ gh repo clone doomvox/roast      # use gnome-terminal, not emacs shell
 cd roast
 #+END_SRC
 
+******** create dev branch and switch to it
+#+BEGIN_SRC sh
+git branch <branch_name>; git checkout <branch_name>
+#+END_SRC
+
+********* create-and-then-use-it: an even briefer editorial
+
 
 
 *** some third thing because I'm one of those guys
