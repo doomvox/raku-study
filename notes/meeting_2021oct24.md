@@ -1,52 +1,52 @@
-- [meeting notes October 24, 2021](#org7b79a99)
-  - [the usual links:](#org6b5661d)
-    - [meeting notes](#org25216b1)
-    - [code examples:](#org3f619f3)
-  - [in](#orgc4a80cd)
-    - [codesections on multis vs smartmatch, etc](#org20f58fd)
-    - [roast tests](#org3c57169)
-    - [some third thing because I'm one of those guys](#org5717fb3)
-  - [out](#org35c5f8c)
-  - [leftovers that I swear I will not leave here in this file](#org125351e)
-    - [more on data-handling in raku](#org74bb578)
-  - [announcements](#org4f4a3e2)
-    - [the ephemeral miniconf: nov 18 2021](#org84a3419)
-  - [next meeting](#org806543b)
-    - [next meeting: Nov 07, 2021](#org412d024)
+- [meeting notes October 24, 2021](#orgbd16d75)
+  - [the usual links:](#org15d8de9)
+    - [meeting notes](#orgd7b28ee)
+    - [code examples:](#org4a39d91)
+  - [in](#orgc81db66)
+    - [codesections on alternative idioms to multis and smartmatch](#orgb0eee88)
+    - [roast tests](#orgc316a8c)
+    - [some third thing because I'm one of those guys](#orgf268a9d)
+  - [out](#org85e9baa)
+  - [leftovers that I swear I will not leave here in this file](#org45315cc)
+    - [more on data-handling in raku](#org9d36e91)
+  - [announcements](#org07f824c)
+    - [the ephemeral miniconf: nov 18 2021](#orgdd04127)
+  - [next meeting](#org919422a)
+    - [next meeting: Nov 07, 2021](#orgce06717)
 
 
-<a id="org7b79a99"></a>
+<a id="orgbd16d75"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="org6b5661d"></a>
+<a id="org15d8de9"></a>
 
 ## the usual links:
 
 
-<a id="org25216b1"></a>
+<a id="orgd7b28ee"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="org3f619f3"></a>
+<a id="org4a39d91"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="orgc4a80cd"></a>
+<a id="orgc81db66"></a>
 
 ## in
 
 
-<a id="org20f58fd"></a>
+<a id="orgb0eee88"></a>
 
-### codesections on multis vs smartmatch, etc
+### codesections on alternative idioms to multis and smartmatch
 
 1.  <https://www.codesections.com/blog/try-some-pattern-matching/>
 
@@ -71,27 +71,27 @@
     |          |                                                                              |  |
 
 
-<a id="org3c57169"></a>
+<a id="orgc316a8c"></a>
 
 ### roast tests
 
 
-<a id="org5717fb3"></a>
+<a id="orgf268a9d"></a>
 
 ### some third thing because I'm one of those guys
 
 
-<a id="org35c5f8c"></a>
+<a id="org85e9baa"></a>
 
 ## out
 
 
-<a id="org125351e"></a>
+<a id="org45315cc"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="org74bb578"></a>
+<a id="org9d36e91"></a>
 
 ### more on data-handling in raku
 
@@ -136,23 +136,23 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="org4f4a3e2"></a>
+<a id="org07f824c"></a>
 
 ## announcements
 
 
-<a id="org84a3419"></a>
+<a id="orgdd04127"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org806543b"></a>
+<a id="org919422a"></a>
 
 ## next meeting
 
 
-<a id="org412d024"></a>
+<a id="orgce06717"></a>
 
 ### next meeting: Nov 07, 2021
