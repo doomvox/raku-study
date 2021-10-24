@@ -6,6 +6,7 @@
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021oct24
 ** in
 *** codesections on alternative idioms to multis and smartmatch
+**** codesections = Daniel Sockwell
 **** https://www.codesections.com/blog/try-some-pattern-matching/
 ***** A good bit
 #+BEGIN_SRC perl6

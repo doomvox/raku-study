@@ -1,54 +1,56 @@
-- [meeting notes October 24, 2021](#org90d7c70)
-  - [the usual links:](#orgc48b9a6)
-    - [meeting notes](#org232c67b)
-    - [code examples:](#org05aa20e)
-  - [in](#org49c3449)
-    - [codesections on alternative idioms to multis and smartmatch](#orgfd83d35)
-    - [roast tests](#orga17d56b)
-    - [some third thing because I'm one of those guys](#org5c7154f)
-  - [out](#org78a6bd1)
-  - [leftovers that I swear I will not leave here in this file](#org45c2676)
-    - [more on data-handling in raku](#org8ea97c5)
-  - [announcements](#org5d4c143)
-    - [the ephemeral miniconf: nov 18 2021](#orgc83472c)
-  - [next meeting](#org63bc823)
-    - [next meeting: Nov 07, 2021](#org5d544bd)
+- [meeting notes October 24, 2021](#org3f9bb66)
+  - [the usual links:](#org3fbad56)
+    - [meeting notes](#orge9148fa)
+    - [code examples:](#org14c7335)
+  - [in](#org2cfe23c)
+    - [codesections on alternative idioms to multis and smartmatch](#org03c28ce)
+    - [roast tests](#org44eb7b0)
+    - [some third thing because I'm one of those guys](#org50d1072)
+  - [out](#orgf87f983)
+  - [leftovers that I swear I will not leave here in this file](#org190e98f)
+    - [more on data-handling in raku](#org789227b)
+  - [announcements](#org136f161)
+    - [the ephemeral miniconf: nov 18 2021](#orgb56fd2e)
+  - [next meeting](#org19e6070)
+    - [next meeting: Nov 07, 2021](#orgb168eea)
 
 
-<a id="org90d7c70"></a>
+<a id="org3f9bb66"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="orgc48b9a6"></a>
+<a id="org3fbad56"></a>
 
 ## the usual links:
 
 
-<a id="org232c67b"></a>
+<a id="orge9148fa"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="org05aa20e"></a>
+<a id="org14c7335"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="org49c3449"></a>
+<a id="org2cfe23c"></a>
 
 ## in
 
 
-<a id="orgfd83d35"></a>
+<a id="org03c28ce"></a>
 
 ### codesections on alternative idioms to multis and smartmatch
 
-1.  <https://www.codesections.com/blog/try-some-pattern-matching/>
+1.  codesections = Daniel Sockwell
+
+2.  <https://www.codesections.com/blog/try-some-pattern-matching/>
 
     1.  A good bit
     
@@ -56,15 +58,15 @@
         ((try some-fn) // $default)
         ```
 
-2.  <https://www.codesections.com/blog/pattern-matching-2/>
+3.  <https://www.codesections.com/blog/pattern-matching-2/>
 
-3.  <https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/>
+4.  <https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/>
 
-4.  <https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/>
+5.  <https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/>
 
-5.  <https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku>
+6.  <https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku>
 
-6.  docs
+7.  docs
 
     | key      | url                                                                          |  |
     |-------- |---------------------------------------------------------------------------- |--- |
@@ -77,27 +79,27 @@
     |          |                                                                              |  |
 
 
-<a id="orga17d56b"></a>
+<a id="org44eb7b0"></a>
 
 ### roast tests
 
 
-<a id="org5c7154f"></a>
+<a id="org50d1072"></a>
 
 ### some third thing because I'm one of those guys
 
 
-<a id="org78a6bd1"></a>
+<a id="orgf87f983"></a>
 
 ## out
 
 
-<a id="org45c2676"></a>
+<a id="org190e98f"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="org8ea97c5"></a>
+<a id="org789227b"></a>
 
 ### more on data-handling in raku
 
@@ -142,23 +144,23 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="org5d4c143"></a>
+<a id="org136f161"></a>
 
 ## announcements
 
 
-<a id="orgc83472c"></a>
+<a id="orgb56fd2e"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org63bc823"></a>
+<a id="org19e6070"></a>
 
 ## next meeting
 
 
-<a id="org5d544bd"></a>
+<a id="orgb168eea"></a>
 
 ### next meeting: Nov 07, 2021
