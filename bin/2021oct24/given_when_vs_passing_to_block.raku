@@ -15,7 +15,8 @@ given 42 { .say; .Numeric; }  # 42
 { .say; .Numeric; }(42)       # 42
 
 
-
+sub stuffy{ .say; .Numeric; };
+stuffy(42);
 
 
 # ===
