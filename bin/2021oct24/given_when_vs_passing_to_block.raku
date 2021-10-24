@@ -11,7 +11,9 @@ use v6;
 given 42 { .say; .Numeric; }  # 42
 
 # This is a lot more understandable than:
-{ .say; .Numeric; }(42);       # 42
+{ .say;
+  .Numeric;
+}(42);       # 42
 
 
 sub stuffy($_){
