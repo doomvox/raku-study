@@ -35,7 +35,7 @@ sub mah_stuff {
 mah_stuff( 42, 23 );   # 42 + 23 is 65
 
 
-sub moes_stuff( $a, $b) {
+sub moes_stuff( $a, $b ) {
     say "$a + $b is {$a+$b}" ;
 }
 moes_stuff( 42, 23 );   # 42 + 23 is 65
