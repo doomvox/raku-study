@@ -14,12 +14,14 @@
 *** https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku
 
 *** docs
-|          |                                                      |
-| key      | url                                                  |
-|----------+------------------------------------------------------|
-| try      | https://docs.raku.org/language/exceptions#try_blocks |
-| whenever |                                                      |
-|          |                                                      |
+|          |                                                                 |   |
+| key      | url                                                             |   |
+|----------+-----------------------------------------------------------------+---|
+| for      | https://docs.raku.org/syntax/for                                |   |
+| try      | https://docs.raku.org/language/exceptions#try_blocks            |   |
+| sum      | https://docs.raku.org/routine/sum                               |   |
+| whenever | https://docs.raku.org/language/concurrency#index-entry-whenever |   |
+| when     |                                                                 |   |
 
 ** leftovers that I swear I will not leave here in this file
 *** more on data-handling in raku
