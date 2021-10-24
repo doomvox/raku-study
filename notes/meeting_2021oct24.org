@@ -38,6 +38,7 @@
 ****** go to repo (in chromium): https://github.com/Raku/roast
 ****** github.org -> upper right -> Forks -> new fork -> put in doomvox
 ******* still haven't learned to do this via a command-line tool
+******** https://cli.github.com/manual/gh_repo_fork
 ******** gh: the standard (?) github command-line tool
 ********* a brief opinionated editorial that might possibly be controversial
 
