@@ -37,7 +37,7 @@ sub moes_stuff( $a, $b ) {
 }
 moes_stuff( 42, 23 );   # 42 + 23 is 65
 
-given !$_ { say $a, $b };
+# given !$_ { say $a, $b };
 
 
 
