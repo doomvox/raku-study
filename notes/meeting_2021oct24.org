@@ -9,6 +9,8 @@
 *** https://www.codesections.com/blog/try-some-pattern-matching/
 *** https://www.codesections.com/blog/pattern-matching-2/
 
+*** https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku
+
 
 ** leftovers that I swear I will not leave here in this file
 *** more on data-handling in raku
