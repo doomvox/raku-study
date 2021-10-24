@@ -20,10 +20,6 @@ my $ret = ((try toho_alone()) // $default);
 say $ret;
 
 
-{
-    my $not_really_sensible = 1/0;
-    CATCH { say "just forget about that problem"; };
-    }
 
 
 
