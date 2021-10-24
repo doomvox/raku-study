@@ -9,6 +9,8 @@ use v6;
 # .signature.say for "foo".^can("comb")[0].cando: \(Cool, "o");
 
 
+say .cando{( \(Cool, "o") )};
+
 # ===
 # Author:  doom@kzsu.stanford.edu
 
