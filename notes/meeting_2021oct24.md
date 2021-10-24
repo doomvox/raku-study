@@ -1,62 +1,62 @@
-- [meeting notes October 24, 2021](#org18dbb01)
-  - [the raku study group](#org4417d76)
-    - [Rock-rock-rock rakudo High Scool](#orgd0a3c94)
-  - [the usual links:](#org12393ad)
-    - [meeting notes](#org010afe3)
-    - [code examples:](#org765f455)
-  - [in](#org1e6af13)
-    - [codesections on alternative idioms to multis and smartmatch](#org452abe3)
-    - [roast tests](#org289e846)
-    - [some third thing because I'm one of those guys](#orgd623eba)
-  - [out](#orga5116b9)
-  - [leftovers that I swear I will not leave here in this file](#orgee204bf)
-    - [more on data-handling in raku](#org39c53d8)
-  - [announcements](#org63f2545)
-    - [the ephemeral miniconf: nov 18 2021](#org4ece0bc)
-  - [next meeting](#orgeaba9ae)
-    - [next meeting: Nov 07, 2021](#org34272d0)
+- [meeting notes October 24, 2021](#org4eedc33)
+  - [the raku study group](#orgeb9c114)
+    - [Rock-rock-rock rakudo High Scool](#org21f1085)
+  - [the usual links:](#orge7d61f0)
+    - [meeting notes](#org8360336)
+    - [code examples:](#org3d1fb8a)
+  - [in](#orgb086c71)
+    - [codesections on alternative idioms to multis and smartmatch](#orgb76820e)
+    - [roast tests](#orgf034c92)
+    - [some third thing because I'm one of those guys](#orgd661b4e)
+  - [out](#orge306e82)
+  - [leftovers that I swear I will not leave here in this file](#org3aa4fa0)
+    - [more on data-handling in raku](#orgaf70e8e)
+  - [announcements](#org73b10a1)
+    - [the ephemeral miniconf: nov 18 2021](#org8808679)
+  - [next meeting](#org5257a2c)
+    - [next meeting: Nov 07, 2021](#org647d57d)
 
 
-<a id="org18dbb01"></a>
+<a id="org4eedc33"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="org4417d76"></a>
+<a id="orgeb9c114"></a>
 
 ## the raku study group
 
 
-<a id="orgd0a3c94"></a>
+<a id="org21f1085"></a>
 
 ### Rock-rock-rock rakudo High Scool
 
 
-<a id="org12393ad"></a>
+<a id="orge7d61f0"></a>
 
 ## the usual links:
 
 
-<a id="org010afe3"></a>
+<a id="org8360336"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="org765f455"></a>
+<a id="org3d1fb8a"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="org1e6af13"></a>
+<a id="orgb086c71"></a>
 
 ## in
 
 
-<a id="org452abe3"></a>
+<a id="orgb76820e"></a>
 
 ### codesections on alternative idioms to multis and smartmatch
 
@@ -91,7 +91,7 @@
     |          |                                                                              |  |
 
 
-<a id="org289e846"></a>
+<a id="orgf034c92"></a>
 
 ### roast tests
 
@@ -120,26 +120,35 @@
                 3.  gh: the standard (?) github command-line tool
                 
                     1.  a brief opinionated editorial that might possibly be controversial
+                
+                4.  git clone of repository to a local working directory
+                
+                    ```sh
+                    cd /home/doom/End/Cave/Raku/Wall # location for dev trees
+                    cd Wall
+                    gh repo clone doomvox/<repo_name>  # use gnome-terminal, not emacs shell
+                    cd <repo_name>
+                    ```
 
 
-<a id="orgd623eba"></a>
+<a id="orgd661b4e"></a>
 
 ### some third thing because I'm one of those guys
 
 1.  database table -> custom data objects
 
 
-<a id="orga5116b9"></a>
+<a id="orge306e82"></a>
 
 ## out
 
 
-<a id="orgee204bf"></a>
+<a id="org3aa4fa0"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="org39c53d8"></a>
+<a id="orgaf70e8e"></a>
 
 ### more on data-handling in raku
 
@@ -184,23 +193,23 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="org63f2545"></a>
+<a id="org73b10a1"></a>
 
 ## announcements
 
 
-<a id="org4ece0bc"></a>
+<a id="org8808679"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="orgeaba9ae"></a>
+<a id="org5257a2c"></a>
 
 ## next meeting
 
 
-<a id="org34272d0"></a>
+<a id="org647d57d"></a>
 
 ### next meeting: Nov 07, 2021

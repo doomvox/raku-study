@@ -46,6 +46,16 @@ gh repo fork doomvox/doomvox --clone=false
 ******** gh: the standard (?) github command-line tool
 ********* a brief opinionated editorial that might possibly be controversial
 
+******** git clone of repository to a local working directory
+#+BEGIN_SRC sh
+cd /home/doom/End/Cave/Raku/Wall # location for dev trees
+cd Wall
+gh repo clone doomvox/<repo_name>  # use gnome-terminal, not emacs shell
+cd <repo_name>
+#+END_SRC
+
+
+
 *** some third thing because I'm one of those guys
 **** database table -> custom data objects
 
