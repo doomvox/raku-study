@@ -11,7 +11,7 @@ sub toho_alone(@_) {
     if ( $input eq 'gammera' ) {
         die "wrong production company";
     }
-    return $_;
+    return $input;
 }
 
 my $arg = "rhodan";
