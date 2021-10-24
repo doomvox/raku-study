@@ -62,7 +62,7 @@ git branch <branch_name>; git checkout <branch_name>
 
 ******** commit and push changes out
 #+BEGIN_SRC sh
-git commit -a -m'... (Fixes #36)'  # can't hurt to include issue number
+git commit -a -m'... (See issue #666666)'  # can't hurt to include issue number
 git push -u origin <branch_name>
 #+END_SRC
 
