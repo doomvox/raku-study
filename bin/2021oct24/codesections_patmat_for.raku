@@ -5,8 +5,10 @@
 use v6;
 
 my @n = 7, 8, 9;
-say @n.sum;
-say sum @n;
+say @n.sum;  # 24   # right name: "method"
+say sum @n;  # 24   # right name: "sub"
+
+# generic name for either: "routine"
 
 
 # exit;
