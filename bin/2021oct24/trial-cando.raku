@@ -27,7 +27,8 @@ say &block.cando($single); # OUTPUT: «(-> $a { #`(Block|94212856419136) ... })�
 ## (-> $a { #`(Block|64751728) ... })
 
 say &block.cando($plural); # OUTPUT: «()␤»
-
+## RIght, that's what I see:
+## ()
 
 # ===
 # Author:  doom@kzsu.stanford.edu
