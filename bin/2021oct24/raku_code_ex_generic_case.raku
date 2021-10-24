@@ -34,7 +34,8 @@ sub my_retry_routine {
     ....
 }
 
-my $thingie = my_check_routine + my_retry_routine:  
+my $thingie = my_check_routine + my_retry_routine;
+
 
     
 
