@@ -13,7 +13,7 @@ sub bar {
 
 my $thingie = foo() + bar():  
 
-
+## 
 
 sub check {
   ...
@@ -22,9 +22,21 @@ sub retry {
     ....
 }
 
-my $thingie = check() + retry():  
+my $thingie = check + retry:  
 
 
+==
+
+sub my_check_routine {
+  ...
+}
+sub my_retry_routine {
+    ....
+}
+
+my $thingie = my_check_routine + my_retry_routine:  
+
+    
 
 
 
