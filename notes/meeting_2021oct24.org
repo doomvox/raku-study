@@ -9,7 +9,7 @@
 **** https://www.codesections.com/blog/try-some-pattern-matching/
 ***** 
 #+BEGIN_SRC perl6
- (try some-fn) // $default)
+((try some-fn) // $default)
 #+END_SRC
 **** https://www.codesections.com/blog/pattern-matching-2/
 **** https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/

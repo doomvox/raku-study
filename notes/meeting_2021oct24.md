@@ -1,50 +1,50 @@
-- [meeting notes October 24, 2021](#orgdf772e0)
-  - [the usual links:](#orgcf309a8)
-    - [meeting notes](#org15a675c)
-    - [code examples:](#orgf1cf91f)
-  - [in](#orgb7d9ded)
-    - [codesections on alternative idioms to multis and smartmatch](#orga750dc0)
-    - [roast tests](#orgb433ef1)
-    - [some third thing because I'm one of those guys](#orgc8abb0d)
-  - [out](#orgcf4915d)
-  - [leftovers that I swear I will not leave here in this file](#org6990ec7)
-    - [more on data-handling in raku](#orga2a17f9)
-  - [announcements](#org482b320)
-    - [the ephemeral miniconf: nov 18 2021](#org4b686e5)
-  - [next meeting](#org3699b18)
-    - [next meeting: Nov 07, 2021](#org07e024e)
+- [meeting notes October 24, 2021](#orgf7e836a)
+  - [the usual links:](#org9ddcc13)
+    - [meeting notes](#orgbcaabfd)
+    - [code examples:](#orgf712402)
+  - [in](#orgcc943c6)
+    - [codesections on alternative idioms to multis and smartmatch](#org733c138)
+    - [roast tests](#orgbd5d07a)
+    - [some third thing because I'm one of those guys](#org5807105)
+  - [out](#org873498a)
+  - [leftovers that I swear I will not leave here in this file](#orgb274fa8)
+    - [more on data-handling in raku](#orge32f906)
+  - [announcements](#org7c845d3)
+    - [the ephemeral miniconf: nov 18 2021](#org936b059)
+  - [next meeting](#org0ed8daa)
+    - [next meeting: Nov 07, 2021](#org49f8b98)
 
 
-<a id="orgdf772e0"></a>
+<a id="orgf7e836a"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="orgcf309a8"></a>
+<a id="org9ddcc13"></a>
 
 ## the usual links:
 
 
-<a id="org15a675c"></a>
+<a id="orgbcaabfd"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="orgf1cf91f"></a>
+<a id="orgf712402"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="orgb7d9ded"></a>
+<a id="orgcc943c6"></a>
 
 ## in
 
 
-<a id="orga750dc0"></a>
+<a id="org733c138"></a>
 
 ### codesections on alternative idioms to multis and smartmatch
 
@@ -53,7 +53,7 @@
     1.  
     
         ```perl6
-        (try some-fn) // $default)
+        ((try some-fn) // $default)
         ```
 
 2.  <https://www.codesections.com/blog/pattern-matching-2/>
@@ -77,27 +77,27 @@
     |          |                                                                              |  |
 
 
-<a id="orgb433ef1"></a>
+<a id="orgbd5d07a"></a>
 
 ### roast tests
 
 
-<a id="orgc8abb0d"></a>
+<a id="org5807105"></a>
 
 ### some third thing because I'm one of those guys
 
 
-<a id="orgcf4915d"></a>
+<a id="org873498a"></a>
 
 ## out
 
 
-<a id="org6990ec7"></a>
+<a id="orgb274fa8"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="orga2a17f9"></a>
+<a id="orge32f906"></a>
 
 ### more on data-handling in raku
 
@@ -142,23 +142,23 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="org482b320"></a>
+<a id="org7c845d3"></a>
 
 ## announcements
 
 
-<a id="org4b686e5"></a>
+<a id="org936b059"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org3699b18"></a>
+<a id="org0ed8daa"></a>
 
 ## next meeting
 
 
-<a id="org07e024e"></a>
+<a id="org49f8b98"></a>
 
 ### next meeting: Nov 07, 2021
