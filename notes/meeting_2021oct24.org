@@ -7,7 +7,7 @@
 ** in
 *** codesections on alternative idioms to multis and smartmatch
 **** https://www.codesections.com/blog/try-some-pattern-matching/
-***** 
+***** A good bit
 #+BEGIN_SRC perl6
 ((try some-fn) // $default)
 #+END_SRC
