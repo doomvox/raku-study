@@ -11,6 +11,11 @@ plan 91;
 
 # https://github.com/Raku/roast/issues/650
 group-of 6 => 'ambiguous subset matches resolved sequentially' => {
+
+my @monsters  = < godzilla  gammera   ghidora   golem    >;
+my @heroes    = < godzilla  beowulf   ultraman  inframan >;
+
+
     my $wanted;
     sub pos-match               { $wanted = $^got; True  }
     sub neg-match               { $wanted = $^got; False }
