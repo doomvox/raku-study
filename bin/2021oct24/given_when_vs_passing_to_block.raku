@@ -29,8 +29,8 @@ say stuffy(42);  # 42
 
 ## { say "$a + $b is {$a+$b}" }(|$_) 
 
-sub mah_stuff($a,$b) {
-    say "$a + $b is {$a+$b}" };
+sub mah_stuff {
+    say "$^a + $^b is {$a+$b}" };
 }
 mah_stuff( 42, 23 );
 
