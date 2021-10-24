@@ -4,6 +4,11 @@
 **** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021oct24
+
+** codesections on multis vs smartmatch, etc
+https://www.codesections.com/blog/try-some-pattern-matching/
+
+
 ** leftovers that I swear I will not leave here in this file
 *** more on data-handling in raku
 

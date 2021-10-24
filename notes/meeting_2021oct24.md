@@ -1,46 +1,54 @@
-- [meeting notes October 24, 2021](#org50d6c13)
-  - [the usual links:](#orga545f39)
-    - [meeting notes](#org1e4e545)
-    - [code examples:](#org88e5d6a)
-  - [leftovers that I swear I will not leave here in this file](#org1ee3b03)
-    - [more on data-handling in raku](#org134242e)
-    - [codesections on "patternmatching"](#orge63799f)
-  - [announcements](#orgbbee3fc)
-    - [the ephemeral miniconf: nov 18 2021](#orgdf8638e)
-  - [next meeting](#orge0b214a)
-    - [next meeting: Nov 07, 2021](#org1594b34)
+- [meeting notes October 24, 2021](#org2ea88b3)
+  - [the usual links:](#org02452e8)
+    - [meeting notes](#org9cea6a6)
+    - [code examples:](#org0262a41)
+  - [codesections on multis vs smartmatch, etc](#org5d2cb6d)
+  - [leftovers that I swear I will not leave here in this file](#orga801968)
+    - [more on data-handling in raku](#org296e8b3)
+    - [codesections on "patternmatching"](#orgb0c4753)
+  - [announcements](#org34edf9e)
+    - [the ephemeral miniconf: nov 18 2021](#org9047a7b)
+  - [next meeting](#org92e51ba)
+    - [next meeting: Nov 07, 2021](#org4d25ce8)
 
 
-<a id="org50d6c13"></a>
+<a id="org2ea88b3"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="orga545f39"></a>
+<a id="org02452e8"></a>
 
 ## the usual links:
 
 
-<a id="org1e4e545"></a>
+<a id="org9cea6a6"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="org88e5d6a"></a>
+<a id="org0262a41"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="org1ee3b03"></a>
+<a id="org5d2cb6d"></a>
+
+## codesections on multis vs smartmatch, etc
+
+<https://www.codesections.com/blog/try-some-pattern-matching/>
+
+
+<a id="orga801968"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="org134242e"></a>
+<a id="org296e8b3"></a>
 
 ### more on data-handling in raku
 
@@ -69,7 +77,7 @@
     3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
 
-<a id="orge63799f"></a>
+<a id="orgb0c4753"></a>
 
 ### codesections on "patternmatching"
 
@@ -94,23 +102,23 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="orgbbee3fc"></a>
+<a id="org34edf9e"></a>
 
 ## announcements
 
 
-<a id="orgdf8638e"></a>
+<a id="org9047a7b"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="orge0b214a"></a>
+<a id="org92e51ba"></a>
 
 ## next meeting
 
 
-<a id="org1594b34"></a>
+<a id="org4d25ce8"></a>
 
 ### next meeting: Nov 07, 2021
