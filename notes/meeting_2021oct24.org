@@ -73,12 +73,10 @@ git push -u origin <branch_name>
 #+BEGIN_SRC sh
 gh pr create --title "Allow junctions with name and exclude" --body "Fixes #666666: test of multi-dispatch with where clauses."
 #+END_SRC
-********* makes you answer questions (?!)
+********* makes you answer questions
 ********** first choose the parent repo 
 ********** second choose the forked repo
-********** message refers to the issue: "Fixes #666666" 
-
-
+********** message must refer to the issue: "Fixes #666666" 
 
 *** some third thing because I'm one of those guys
 **** database table -> custom data objects
