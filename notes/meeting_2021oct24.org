@@ -63,13 +63,12 @@ cd roast
 ********** https://github.com/Raku/roast/blob/master/S12-subset/multi-dispatch.t
 /home/doom/End/Cave/Raku/Wall/roast/S12-subset/multi-dispatch.t
 
-
-Some Test features I've never seen before:
-group-of
-
-Implmeneted in 
-
+********** some Test features I've never seen before:
+*********** group-of
+************ Thats from a Test::Util module
+************* https://github.com/Raku/roast/blob/master/packages/Test-Helpers/lib/Test/Util.pm6
 /home/doom/End/Cave/Raku/Wall/roast/packages/Test-Helpers/lib/Test/Util.pm6
+************* has decent pod
 
 
 
