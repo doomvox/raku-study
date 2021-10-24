@@ -14,7 +14,7 @@ sub toho_alone(@_) {
 }
 
 my $arg = "rhodan";
-$arg = "gammera";
+# $arg = "gammera";
 
 my $default = 'godzilla';
 
