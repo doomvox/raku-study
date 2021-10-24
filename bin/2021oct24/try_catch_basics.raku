@@ -9,7 +9,6 @@ use v6;
     CATCH { say "just forget about that problem"; };
     }
 
-
 }
 
 
