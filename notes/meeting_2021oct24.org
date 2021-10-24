@@ -40,8 +40,7 @@
 ******* still haven't learned to do this via a command-line tool
 ******** https://cli.github.com/manual/gh_repo_fork
 ******** maybe:
-
-#+BEGIN_SRC perl6
+#+BEGIN_SRC sh
 gh repo fork doomvox/doomvox --clone=false
 #+END_SRC
 ******** gh: the standard (?) github command-line tool
