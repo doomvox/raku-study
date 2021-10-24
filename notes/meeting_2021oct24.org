@@ -50,7 +50,7 @@ gh repo fork doomvox/doomvox --clone=false
 #+BEGIN_SRC sh
 cd /home/doom/End/Cave/Raku/Wall # location for dev trees
 gh repo clone doomvox/roast      # use gnome-terminal, not emacs shell 
-cd <repo_name>
+cd roast
 #+END_SRC
 
 
