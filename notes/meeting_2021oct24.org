@@ -66,6 +66,13 @@ git commit -a -m'... (See issue #666666)'  # can't hurt to include issue number
 git push -u origin <branch_name>
 #+END_SRC
 
+******** github create issue (if you haven't already)
+********* need the issue number for next step
+******** github generate pullrequest
+********* using gh:
+#+BEGIN_SRC sh
+gh pr create --title "Allow junctions with name and exclude" --body "Fixes #666666: test of multi-dispatch with where clauses."
+#+END_SRC
 
 
 
