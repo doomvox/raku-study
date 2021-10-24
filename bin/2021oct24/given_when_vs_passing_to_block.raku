@@ -11,7 +11,6 @@ use v6;
 given 42 { .say; .Numeric; }  # 42
 
 # This is a lot more understandable than:
-
 { .say; .Numeric; }(42);       # 42
 
 
@@ -24,8 +23,8 @@ say stuffy(42);  # 42
 
 
 
-## { .say; .Numeric; }(42);
-## { say "$a + $b is {$a+$b}" }(|$_) 
+ { .say; .Numeric; }(42);
+ { say "$a + $b is {$a+$b}" }(|$_) 
 
 sub mah_stuff {
     say "$^a + $^b is {$a+$b}" ;
