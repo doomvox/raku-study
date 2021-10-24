@@ -57,11 +57,22 @@ gh repo clone doomvox/roast      # use gnome-terminal, not emacs shell
 cd roast
 #+END_SRC
 
-********* existing tests
+********* existing tests: double-check is there anything in here
 ********** https://github.com/Raku/roast/blob/master/S12-subset/subtypes.t
 /home/doom/End/Cave/Raku/Wall/roast/S12-subset/subtypes.t
 ********** https://github.com/Raku/roast/blob/master/S12-subset/multi-dispatch.t
 /home/doom/End/Cave/Raku/Wall/roast/S12-subset/multi-dispatch.t
+
+
+Some Test features I've never seen before:
+group-of
+
+Implmeneted in 
+
+/home/doom/End/Cave/Raku/Wall/roast/packages/Test-Helpers/lib/Test/Util.pm6
+
+
+
 
 
 ******** create dev branch and switch to it
