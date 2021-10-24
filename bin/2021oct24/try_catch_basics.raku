@@ -12,7 +12,7 @@ use v6;
 }
 
 
-say "won't get here";
+say "won't get here"; ## doesn't happen
 
 
 
