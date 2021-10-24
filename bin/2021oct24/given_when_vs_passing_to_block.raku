@@ -32,7 +32,14 @@ say stuffy(42);  # 42
 sub mah_stuff {
     say "$^a + $^b is {$a+$b}" ;
 }
-mah_stuff( 42, 23 );
+mah_stuff( 42, 23 );   # 42 + 23 is 65
+
+
+sub moes_stuff( $a, $b) {
+    say "$a + $b is {$a+$b}" ;
+}
+moes_stuff( 42, 23 );   # 42 + 23 is 65
+
 
 
 # ===
