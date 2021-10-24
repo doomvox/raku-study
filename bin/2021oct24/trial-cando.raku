@@ -11,8 +11,10 @@ use v6;
 # say .cando: \(Cool, "o");
 
 .signature.say for "foo".^can("comb")[0].cando: \(Cool, "o");
-
 ## OUTPUT: «(Cool $: Str $matcher, $limit = Inf, *%_)␤»
+
+## I actually see no output from this code example... 
+## doc bug?  
 
 
 # ===
