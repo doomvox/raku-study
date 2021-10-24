@@ -76,7 +76,7 @@ gh pr create --title "Allow junctions with name and exclude" --body "Fixes #6666
 ********* makes you answer questions (?!)
 ********** first choose the parent repo 
 ********** second choose the forked repo
-********** message refers to the issue: "Fixes #666" 
+********** message refers to the issue: "Fixes #666666" 
 
 
 
