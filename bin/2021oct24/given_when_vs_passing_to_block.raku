@@ -8,11 +8,11 @@ use v6;
 
 # The given statement is often used alone:
 
-given 42 { .say; .Numeric; }
+given 42 { .say; .Numeric; }  # 42
 
 # This is a lot more understandable than:
 
-{ .say; .Numeric; }(42)
+{ .say; .Numeric; }(42)       # 42
 
 
 
