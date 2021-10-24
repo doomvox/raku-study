@@ -47,7 +47,7 @@
 #+BEGIN_SRC sh
 gh repo fork doomvox/doomvox --clone=false
 #+END_SRC
-******** gh: the standard (?) github command-line tool
+******** gh is now the standard (?) github command-line tool
 ********* a brief opinionated editorial that might possibly be controversial
 
 ******** git clone of repository to a local working directory
@@ -56,6 +56,13 @@ cd /home/doom/End/Cave/Raku/Wall # location for dev trees
 gh repo clone doomvox/roast      # use gnome-terminal, not emacs shell 
 cd roast
 #+END_SRC
+
+********* existing tests
+
+********** https://github.com/Raku/roast/blob/master/S12-subset/subtypes.t
+/home/doom/End/Cave/Raku/Wall/roast/S12-subset/subtypes.t
+********** https://github.com/Raku/roast/blob/master/S12-subset/multi-dispatch.t
+
 
 ******** create dev branch and switch to it
 #+BEGIN_SRC sh
