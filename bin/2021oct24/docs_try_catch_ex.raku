@@ -5,7 +5,7 @@
 use v6;
 
 my $error-code = "333";
-sub bad-sub {
+sub bad-sub {  # always throws an error
     die "Something bad happened";
 }
 try {
