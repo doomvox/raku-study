@@ -1,0 +1,22 @@
+#!/usr/bin/env perl6
+# 
+# given_when_vs_passing_to_block.raku            24 Oct 2021 
+
+use v6;
+
+## Example in the docs:
+
+# The given statement is often used alone:
+
+given 42 { .say; .Numeric; }
+
+# This is a lot more understandable than:
+
+{ .say; .Numeric; }(42)
+
+
+
+
+# ===
+# Author:  doom@kzsu.stanford.edu
+
