@@ -12,17 +12,11 @@ plan 91;
 # https://github.com/Raku/roast/issues/650
 group-of 6 => 'ambiguous subset matches resolved sequentially' => {
 
-my @monsters  = < godzilla  gammera   ghidora   golem    >;
-my @heroes    = < godzilla  beowulf   ultraman  inframan >;
+  my @monsters  = < godzilla  gammera   ghidora   golem    >;
+  my @heroes    = < godzilla  beowulf   ultraman  inframan >;
 
-
-    my $wanted;
-    sub pos-match               { $wanted = $^got; True  }
-    sub neg-match               { $wanted = $^got; False }
-    my &pos-match-block =       { $wanted = $^got; True  }
-    my &neg-match-block =       { $wanted = $^got; False }
-    my &pos-match-wat   = *.map({ $wanted = $^got; True  }).head;
-    my &neg-match-wat   = *.map({ $wanted = $^got; False }).head;
+  subset Monster    of Str where { $_ eq any( @monsters ) };
+  subset Hero       of Str where { $_ eq any( @heroes ) };
 
     group-of 12 => 'subset' => {
         $wanted = Nil;
