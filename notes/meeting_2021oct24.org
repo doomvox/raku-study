@@ -24,7 +24,8 @@
 | cando    | https://docs.raku.org/routine/cando                                        |   |
 |          |                                                                            |   |
 
-** 
+** out
+
 
 ** leftovers that I swear I will not leave here in this file
 *** more on data-handling in raku

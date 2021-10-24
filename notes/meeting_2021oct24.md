@@ -1,48 +1,48 @@
-- [meeting notes October 24, 2021](#orgbe69d7b)
-  - [the usual links:](#orgbb8567b)
-    - [meeting notes](#org2d3b62f)
-    - [code examples:](#org3a3d986)
-  - [in](#orgead591a)
-    - [codesections on multis vs smartmatch, etc](#org6c469fa)
-  - [](#org8016201)
-  - [leftovers that I swear I will not leave here in this file](#orgc1bb6d7)
-    - [more on data-handling in raku](#org0c5f26b)
-  - [announcements](#orgf1f54f8)
-    - [the ephemeral miniconf: nov 18 2021](#orgc58ce5c)
-  - [next meeting](#orgee0c7c4)
-    - [next meeting: Nov 07, 2021](#orgae4169d)
+- [meeting notes October 24, 2021](#orgba99c4b)
+  - [the usual links:](#orgf08c258)
+    - [meeting notes](#org724763d)
+    - [code examples:](#orgc220882)
+  - [in](#org053fe42)
+    - [codesections on multis vs smartmatch, etc](#orge2aa658)
+  - [out](#org3c30fa6)
+  - [leftovers that I swear I will not leave here in this file](#org02b8414)
+    - [more on data-handling in raku](#org49d0290)
+  - [announcements](#org33f53e8)
+    - [the ephemeral miniconf: nov 18 2021](#orgfd08775)
+  - [next meeting](#orgd81056d)
+    - [next meeting: Nov 07, 2021](#org29e8f84)
 
 
-<a id="orgbe69d7b"></a>
+<a id="orgba99c4b"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="orgbb8567b"></a>
+<a id="orgf08c258"></a>
 
 ## the usual links:
 
 
-<a id="org2d3b62f"></a>
+<a id="org724763d"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="org3a3d986"></a>
+<a id="orgc220882"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="orgead591a"></a>
+<a id="org053fe42"></a>
 
 ## in
 
 
-<a id="org6c469fa"></a>
+<a id="orge2aa658"></a>
 
 ### codesections on multis vs smartmatch, etc
 
@@ -69,17 +69,17 @@
     |          |                                                                              |  |
 
 
-<a id="org8016201"></a>
+<a id="org3c30fa6"></a>
 
-## 
+## out
 
 
-<a id="orgc1bb6d7"></a>
+<a id="org02b8414"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="org0c5f26b"></a>
+<a id="org49d0290"></a>
 
 ### more on data-handling in raku
 
@@ -124,23 +124,23 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="orgf1f54f8"></a>
+<a id="org33f53e8"></a>
 
 ## announcements
 
 
-<a id="orgc58ce5c"></a>
+<a id="orgfd08775"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="orgee0c7c4"></a>
+<a id="orgd81056d"></a>
 
 ## next meeting
 
 
-<a id="orgae4169d"></a>
+<a id="org29e8f84"></a>
 
 ### next meeting: Nov 07, 2021
