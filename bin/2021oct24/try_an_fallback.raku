@@ -13,6 +13,8 @@ sub toho_alone {
     return $_;
 }
 
+my $arg = "rhodan";
+
 my $default = 'godzilla';
 
 my $ret = ((try toho_alone) // $default);
