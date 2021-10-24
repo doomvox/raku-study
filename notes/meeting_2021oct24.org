@@ -34,7 +34,8 @@
 *** roast tests
 **** https://github.com/rakudo/rakudo/issues/4547
 ***** but that's under rakudo/rakudo
-***** pretty sure I need an issue number for Raku/roast
+***** probably need an issue number for Raku/roast?
+****** https://github.com/Raku/roast/issues
 **** https://github.com/Raku/roast
 ***** "the spec is the tests"
 ****** a brief opinionated editorial that might possibly be controversial
