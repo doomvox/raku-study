@@ -9,7 +9,7 @@ sub bad-sub {  # always throws an error
     die "Something bad happened";
 }
 try {
-    my $error-code = "111";
+    $error-code = "111";
     bad-sub;
     $error-code = "666"; # we won't see this change
  
