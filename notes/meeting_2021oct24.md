@@ -1,62 +1,62 @@
-- [meeting notes October 24, 2021](#org6bc9a55)
-  - [the raku study group](#org86a2f60)
-    - [Rock-rock-rock rakudo High Scool](#org2ccbb39)
-  - [the usual links:](#org78044b2)
-    - [meeting notes](#orgf58bd45)
-    - [code examples:](#org0949288)
-  - [in](#org795b26b)
-    - [codesections on alternative idioms to multis and smartmatch](#org5eabddd)
-    - [roast tests](#orgfeb4bc6)
-    - [some third thing because I'm one of those guys](#org9f628d0)
-  - [out](#org3de0699)
-  - [leftovers that I swear I will not leave here in this file](#org1f91416)
-    - [more on data-handling in raku](#org9ce8585)
-  - [announcements](#org8d557bd)
-    - [the ephemeral miniconf: nov 18 2021](#orgeab8d7b)
-  - [next meeting](#org99328b9)
-    - [next meeting: Nov 07, 2021](#org1037aed)
+- [meeting notes October 24, 2021](#org4d5d6a0)
+  - [the raku study group](#org3a30009)
+    - [Rock-rock-rock rakudo High Scool](#org918bca1)
+  - [the usual links:](#org7d55a9c)
+    - [meeting notes](#orgaa6975b)
+    - [code examples:](#orgf6ac35c)
+  - [in](#org2dc7512)
+    - [codesections on alternative idioms to multis and smartmatch](#org28ab11a)
+    - [roast tests](#orgb8b1c61)
+    - [some third thing because I'm one of those guys](#org739fba3)
+  - [out](#org1e8894f)
+  - [leftovers that I swear I will not leave here in this file](#org896efda)
+    - [more on data-handling in raku](#org86ff9f0)
+  - [announcements](#org74a72c1)
+    - [the ephemeral miniconf: nov 18 2021](#org101ad1e)
+  - [next meeting](#orgda071d4)
+    - [next meeting: Nov 07, 2021](#orgd0eac19)
 
 
-<a id="org6bc9a55"></a>
+<a id="org4d5d6a0"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="org86a2f60"></a>
+<a id="org3a30009"></a>
 
 ## the raku study group
 
 
-<a id="org2ccbb39"></a>
+<a id="org918bca1"></a>
 
 ### Rock-rock-rock rakudo High Scool
 
 
-<a id="org78044b2"></a>
+<a id="org7d55a9c"></a>
 
 ## the usual links:
 
 
-<a id="orgf58bd45"></a>
+<a id="orgaa6975b"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="org0949288"></a>
+<a id="orgf6ac35c"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="org795b26b"></a>
+<a id="org2dc7512"></a>
 
 ## in
 
 
-<a id="org5eabddd"></a>
+<a id="org28ab11a"></a>
 
 ### codesections on alternative idioms to multis and smartmatch
 
@@ -91,7 +91,7 @@
     |          |                                                                              |  |
 
 
-<a id="orgfeb4bc6"></a>
+<a id="orgb8b1c61"></a>
 
 ### roast tests
 
@@ -142,6 +142,8 @@
                             /home/doom/End/Cave/Raku/Wall/roast/S12-subset/subtypes.t
                         
                         2.  <https://github.com/Raku/roast/blob/master/S12-subset/multi-dispatch.t>
+                        
+                            /home/doom/End/Cave/Raku/Wall/roast/S12-subset/multi-dispatch.t
                 
                 5.  create dev branch and switch to it
                 
@@ -183,24 +185,24 @@
                         3.  message must refer to the issue: "Fixes #765"
 
 
-<a id="org9f628d0"></a>
+<a id="org739fba3"></a>
 
 ### some third thing because I'm one of those guys
 
 1.  database table -> custom data objects
 
 
-<a id="org3de0699"></a>
+<a id="org1e8894f"></a>
 
 ## out
 
 
-<a id="org1f91416"></a>
+<a id="org896efda"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="org9ce8585"></a>
+<a id="org86ff9f0"></a>
 
 ### more on data-handling in raku
 
@@ -245,23 +247,23 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="org8d557bd"></a>
+<a id="org74a72c1"></a>
 
 ## announcements
 
 
-<a id="orgeab8d7b"></a>
+<a id="org101ad1e"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org99328b9"></a>
+<a id="orgda071d4"></a>
 
 ## next meeting
 
 
-<a id="org1037aed"></a>
+<a id="orgd0eac19"></a>
 
 ### next meeting: Nov 07, 2021

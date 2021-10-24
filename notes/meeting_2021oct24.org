@@ -62,6 +62,7 @@ cd roast
 ********** https://github.com/Raku/roast/blob/master/S12-subset/subtypes.t
 /home/doom/End/Cave/Raku/Wall/roast/S12-subset/subtypes.t
 ********** https://github.com/Raku/roast/blob/master/S12-subset/multi-dispatch.t
+/home/doom/End/Cave/Raku/Wall/roast/S12-subset/multi-dispatch.t
 
 
 ******** create dev branch and switch to it
