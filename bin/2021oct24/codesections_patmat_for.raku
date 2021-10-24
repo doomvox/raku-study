@@ -10,7 +10,9 @@ say  @actions_and_arguments;  # [add => (1 5) sub => (9 8) mult => (7 7)]
 # say %hash;  # {add => (1 5), mult => (7 7), sub => (9 8)}
 # say %hash{'mult'}; # (7 7)
 
+
 for (:add(1, 5), :sub(9, 8), :mult(7, 7)) {
+    say "key", .key, "values", .values;
     when .key eq 'add' { 
         say "{.value[0]} + {.value[1]} is {sum .value}" }
 }
