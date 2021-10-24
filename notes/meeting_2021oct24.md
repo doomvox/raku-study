@@ -1,64 +1,63 @@
-- [meeting notes October 24, 2021](#orge5e01b1)
-  - [the usual links:](#org30330bc)
-    - [meeting notes](#org87f26fa)
-    - [code examples:](#orga0fbea5)
-  - [codesections on multis vs smartmatch, etc](#orgac4c433)
-    - [<https://www.codesections.com/blog/try-some-pattern-matching/>](#org080e6bc)
-    - [<https://www.codesections.com/blog/pattern-matching-2/>](#org06fc67c)
-  - [leftovers that I swear I will not leave here in this file](#orgb9ca081)
-    - [more on data-handling in raku](#org1cd81b2)
-    - [codesections on "patternmatching"](#org3adf7b2)
-  - [announcements](#orgef04b24)
-    - [the ephemeral miniconf: nov 18 2021](#org8949d30)
-  - [next meeting](#org80c4bef)
-    - [next meeting: Nov 07, 2021](#orgc1ab1b9)
+- [meeting notes October 24, 2021](#org9e3069f)
+  - [the usual links:](#orgffd847e)
+    - [meeting notes](#orgf2241c7)
+    - [code examples:](#orgbdeb7c3)
+  - [codesections on multis vs smartmatch, etc](#org9450755)
+    - [<https://www.codesections.com/blog/try-some-pattern-matching/>](#orgb81fefe)
+    - [<https://www.codesections.com/blog/pattern-matching-2/>](#orgd4008ed)
+  - [leftovers that I swear I will not leave here in this file](#org2960918)
+    - [more on data-handling in raku](#orgb00d7da)
+  - [announcements](#org1f1bcc4)
+    - [the ephemeral miniconf: nov 18 2021](#org35f7e5d)
+  - [next meeting](#org5625f15)
+    - [next meeting: Nov 07, 2021](#orgdfef6f7)
 
 
-<a id="orge5e01b1"></a>
+<a id="org9e3069f"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="org30330bc"></a>
+<a id="orgffd847e"></a>
 
 ## the usual links:
 
 
-<a id="org87f26fa"></a>
+<a id="orgf2241c7"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="orga0fbea5"></a>
+<a id="orgbdeb7c3"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="orgac4c433"></a>
+<a id="org9450755"></a>
 
 ## codesections on multis vs smartmatch, etc
 
 
-<a id="org080e6bc"></a>
+<a id="orgb81fefe"></a>
 
 ### <https://www.codesections.com/blog/try-some-pattern-matching/>
 
 
-<a id="org06fc67c"></a>
+<a id="orgd4008ed"></a>
 
 ### <https://www.codesections.com/blog/pattern-matching-2/>
 
 
-<a id="orgb9ca081"></a>
+<a id="org2960918"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="org1cd81b2"></a>
+<a id="orgb00d7da"></a>
 
 ### more on data-handling in raku
 
@@ -86,49 +85,40 @@
     
     3.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/>
 
-
-<a id="org3adf7b2"></a>
-
-### codesections on "patternmatching"
-
-1.  <https://www.codesections.com/blog/try-some-pattern-matching/>
-
-2.  <https://www.codesections.com/blog/pattern-matching-2/>
-
-3.  pairs of separators from a string
+6.  pairs of separators from a string
 
     1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html>
     
     2.  a discussion yary was involved in, which indicates there's something interesting
 
-4.  lispyness of raku
+7.  lispyness of raku
 
     1.  <https://www.codesections.com/blog/raku-lisp-impression/>
     
     2.  <https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/>
 
-5.  old raku weekly
+8.  old raku weekly
 
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="orgef04b24"></a>
+<a id="org1f1bcc4"></a>
 
 ## announcements
 
 
-<a id="org8949d30"></a>
+<a id="org35f7e5d"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org80c4bef"></a>
+<a id="org5625f15"></a>
 
 ## next meeting
 
 
-<a id="orgc1ab1b9"></a>
+<a id="orgdfef6f7"></a>
 
 ### next meeting: Nov 07, 2021
