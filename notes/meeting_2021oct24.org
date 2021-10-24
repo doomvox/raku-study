@@ -4,7 +4,7 @@
 **** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021oct24
-** stuff
+** in
 *** codesections on multis vs smartmatch, etc
 **** https://www.codesections.com/blog/try-some-pattern-matching/
 **** https://www.codesections.com/blog/pattern-matching-2/
