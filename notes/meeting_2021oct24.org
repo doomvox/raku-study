@@ -69,7 +69,7 @@ git push -u origin <branch_name>
 ******** github create issue (if you haven't already)
 ********* need the issue number for next step
 ******** github generate pullrequest
-********* using gh:
+********* using gh (gnome-terminal, not emacs shell):
 #+BEGIN_SRC sh
 gh pr create --title "Allow junctions with name and exclude" --body "Fixes #666666: test of multi-dispatch with where clauses."
 #+END_SRC
