@@ -13,6 +13,9 @@ sub bar {
 
 my $thingie = foo + bar;
 
+my $thingie = first_val + second_val;
+
+
 ## 
 
 sub check {
