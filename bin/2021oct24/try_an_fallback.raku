@@ -5,8 +5,7 @@
 use v6;
 
 sub some-fn {
-   
-
+   ...
 }
 
 my $default = 'godzilla';
