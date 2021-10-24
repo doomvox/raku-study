@@ -4,8 +4,6 @@
 
 use v6;
 
-
-
 sub toho_alone(@_) {
     my $input = @_[0];
     if ( $input eq 'gammera' ) {
