@@ -4,7 +4,7 @@
 
 use v6;
 
-{
+try {
     my $not_really_sensible = 1/0;  
     say $not_really_sensible;
 
