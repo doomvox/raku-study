@@ -30,6 +30,7 @@
 | when     | https://docs.raku.org/language/control#index-entry-control_flow__when-when |   |
 | cando    | https://docs.raku.org/routine/cando                                        |   |
 |          |                                                                            |   |
+
 *** roast tests
 **** https://github.com/rakudo/rakudo/issues/4547
 ***** but that's under rakudo/rakudo
