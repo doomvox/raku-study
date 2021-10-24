@@ -43,7 +43,7 @@
 ****** github.org -> upper right -> Forks -> new fork -> put in doomvox
 ******* still haven't learned to do this via a command-line tool
 ******** https://cli.github.com/manual/gh_repo_fork
-******** maybe:
+******** maybe this would work:
 #+BEGIN_SRC sh
 gh repo fork doomvox/doomvox --clone=false
 #+END_SRC
