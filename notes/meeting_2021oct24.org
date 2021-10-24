@@ -71,7 +71,7 @@ git push -u origin <branch_name>
 ******** github generate pullrequest
 ********* using gh (gnome-terminal, not emacs shell):
 #+BEGIN_SRC sh
-gh pr create --title "Allow junctions with name and exclude" --body "Fixes #666666: test of multi-dispatch with where clauses."
+gh pr create --title "new test of multi-dispatch with where clauses" --body "Fixes #666666"
 #+END_SRC
 ********* makes you answer questions
 ********** first choose the parent repo 
