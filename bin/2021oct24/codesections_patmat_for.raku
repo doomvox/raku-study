@@ -4,7 +4,12 @@
 
 use v6;
 
+my @n = 7, 8, 9;
+say @n.sum;
+say sum @n;
 
+
+exit;
 
 my @actions_and_arguments = :foo(1, 5), :bar(9, 8), :baz(7, 7);
 say  @actions_and_arguments;  # [foo => (1 5) bar => (9 8) baz => (7 7)]
