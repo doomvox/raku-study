@@ -58,7 +58,7 @@ cd roast
 git branch <branch_name>; git checkout <branch_name>
 #+END_SRC
 
-********* create-and-then-use-it: an even briefer editorial
+********* the create-and-then-use-it idiom: an even briefer editorial
 
 
 
