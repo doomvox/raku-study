@@ -11,6 +11,9 @@
 
 *** https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku
 
+*** docs
+**** https://docs.raku.org/language/exceptions#try_blocks
+
 
 ** leftovers that I swear I will not leave here in this file
 *** more on data-handling in raku
