@@ -14,7 +14,7 @@ use v6;
 ## OUTPUT: «(Cool $: Str $matcher, $limit = Inf, *%_)␤»
 
 ## I actually see no output from this code example... 
-## doc bug?  
+## doc bug?   TODO
 
 
 # ===
