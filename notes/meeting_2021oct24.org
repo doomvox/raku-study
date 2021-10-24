@@ -70,10 +70,6 @@ cd roast
 /home/doom/End/Cave/Raku/Wall/roast/packages/Test-Helpers/lib/Test/Util.pm6
 ************* has decent pod
 
-
-
-
-
 ******** create dev branch and switch to it
 #+BEGIN_SRC sh
 git branch <branch_name>; git checkout <branch_name>
