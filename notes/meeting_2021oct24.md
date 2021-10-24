@@ -1,62 +1,62 @@
-- [meeting notes October 24, 2021](#org5c52ae7)
-  - [the raku study group](#org474f99f)
-    - [Rock-rock-rock rakudo High Scool](#org2c753cb)
-  - [the usual links:](#org1e7e265)
-    - [meeting notes](#orgcca1c14)
-    - [code examples:](#org07b10dd)
-  - [in](#org65c47ee)
-    - [codesections on alternative idioms to multis and smartmatch](#org502b1f0)
-    - [roast tests](#orgba396bf)
-    - [some third thing because I'm one of those guys](#org7012eae)
-  - [out](#orgeb1350a)
-  - [leftovers that I swear I will not leave here in this file](#org409221d)
-    - [more on data-handling in raku](#orgb8ddecf)
-  - [announcements](#orgd65bdc6)
-    - [the ephemeral miniconf: nov 18 2021](#org8c5bedb)
-  - [next meeting](#org7628d15)
-    - [next meeting: Nov 07, 2021](#org852df14)
+- [meeting notes October 24, 2021](#orgb62de26)
+  - [the raku study group](#orgca69e9a)
+    - [Rock-rock-rock rakudo High Scool](#orgdb33fff)
+  - [the usual links:](#orgece83cb)
+    - [meeting notes](#org26060f4)
+    - [code examples:](#org1542961)
+  - [in](#org43a25a7)
+    - [codesections on alternative idioms to multis and smartmatch](#orge7ed4a2)
+    - [roast tests](#orgf648573)
+    - [some third thing because I'm one of those guys](#orgaffd6b6)
+  - [out](#org0c8fe12)
+  - [leftovers that I swear I will not leave here in this file](#org17e3b6f)
+    - [more on data-handling in raku](#org97682af)
+  - [announcements](#org407f333)
+    - [the ephemeral miniconf: nov 18 2021](#org9107fc7)
+  - [next meeting](#org03f6df1)
+    - [next meeting: Nov 07, 2021](#org149ee02)
 
 
-<a id="org5c52ae7"></a>
+<a id="orgb62de26"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="org474f99f"></a>
+<a id="orgca69e9a"></a>
 
 ## the raku study group
 
 
-<a id="org2c753cb"></a>
+<a id="orgdb33fff"></a>
 
 ### Rock-rock-rock rakudo High Scool
 
 
-<a id="org1e7e265"></a>
+<a id="orgece83cb"></a>
 
 ## the usual links:
 
 
-<a id="orgcca1c14"></a>
+<a id="org26060f4"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="org07b10dd"></a>
+<a id="org1542961"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="org65c47ee"></a>
+<a id="org43a25a7"></a>
 
 ## in
 
 
-<a id="org502b1f0"></a>
+<a id="orge7ed4a2"></a>
 
 ### codesections on alternative idioms to multis and smartmatch
 
@@ -91,7 +91,7 @@
     |          |                                                                              |  |
 
 
-<a id="orgba396bf"></a>
+<a id="orgf648573"></a>
 
 ### roast tests
 
@@ -177,24 +177,24 @@
                         3.  message must refer to the issue: "Fixes #4547"
 
 
-<a id="org7012eae"></a>
+<a id="orgaffd6b6"></a>
 
 ### some third thing because I'm one of those guys
 
 1.  database table -> custom data objects
 
 
-<a id="orgeb1350a"></a>
+<a id="org0c8fe12"></a>
 
 ## out
 
 
-<a id="org409221d"></a>
+<a id="org17e3b6f"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="orgb8ddecf"></a>
+<a id="org97682af"></a>
 
 ### more on data-handling in raku
 
@@ -239,23 +239,23 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="orgd65bdc6"></a>
+<a id="org407f333"></a>
 
 ## announcements
 
 
-<a id="org8c5bedb"></a>
+<a id="org9107fc7"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org7628d15"></a>
+<a id="org03f6df1"></a>
 
 ## next meeting
 
 
-<a id="org852df14"></a>
+<a id="org149ee02"></a>
 
 ### next meeting: Nov 07, 2021
