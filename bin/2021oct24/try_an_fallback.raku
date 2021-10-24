@@ -6,7 +6,7 @@ use v6;
 
 
 
-sub toho_alone {
+sub toho_alone(@_) {
     if ( $_ eq 'gammera' ) {
         die "wrong production company";
     }
