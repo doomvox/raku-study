@@ -17,7 +17,7 @@ my $arg = "rhodan";
 
 my $default = 'godzilla';
 
-my $ret = ((try toho_alone) // $default);
+my $ret = ((try toho_alone($arg)) // $default);
 say $ret;
 
 # ===
