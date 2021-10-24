@@ -74,8 +74,10 @@ git push -u origin <branch_name>
 gh pr create --title "new test of multi-dispatch with where clauses" --body "Fixes #666666"
 #+END_SRC
 ********* makes you answer questions
-********** first choose the parent repo 
+********** first choose the parent repo
+*********** Raku/roast 
 ********** second choose the forked repo
+*********** doomvox/roast
 ********** message must refer to the issue: "Fixes #666666" 
 
 *** some third thing because I'm one of those guys
