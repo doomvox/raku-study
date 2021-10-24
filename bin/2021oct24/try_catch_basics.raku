@@ -7,9 +7,9 @@ use v6;
 {
     my $not_really_sensible = 1/0;
     CATCH { say "just forget about that problem"; };
-    }
-
 }
+
+
 
 
 
