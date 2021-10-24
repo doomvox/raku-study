@@ -4,14 +4,18 @@
 
 use v6;
 
-sub some-fn {
-   ...
+
+
+sub toho_alone {
+    if ( $_ eq 'gammera' ) {
+        die "wrong production company";
+    }
 
 }
 
 my $default = 'godzilla';
 
-my $ret = ((try some-fn) // $default);
+my $ret = ((try toho_alone) // $default);
 say $ret;
 
 # ===
