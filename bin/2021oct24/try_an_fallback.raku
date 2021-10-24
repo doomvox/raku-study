@@ -9,7 +9,7 @@ sub some-fn {
 
 my $default = 'godzilla';
 
-((try some-fn) // $default)
+my $ret = ((try some-fn) // $default)
 
 
 
