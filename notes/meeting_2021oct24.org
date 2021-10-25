@@ -115,9 +115,8 @@ git commit -a -m'... (See issue #765)'  # can't hurt to include issue number
 git push -u origin <branch_name>
 #+END_SRC
 
-******* github create issue (if you haven't already)
-******** need the issue number for next step
 ******* github generate pullrequest
+******** have issue number already: #765
 ******** using gh (gnome-terminal, not emacs shell):
 #+BEGIN_SRC sh
 gh pr create --title "new test of multi-dispatch with where clauses" --body "Fixes #765"
@@ -127,7 +126,7 @@ gh pr create --title "new test of multi-dispatch with where clauses" --body "Fix
 ********** Raku/roast 
 ********* second choose the forked repo
 ********** doomvox/roast
-********* message must refer to the issue: "Fixes #765" 
+********* message must refer to the issue: "Fixes #765"
 
 ** Bruce Gray, perl weekly challenge:
 **** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-135/challenge-135/bruce-gray/raku
