@@ -9,6 +9,11 @@
 ** in
 *** codesections on alternative idioms to multis and smartmatch
 **** codesections = Daniel Sockwell
+***** formatting of his blog is strange: chops code examples, mismatch dark/light backgrounds
+****** https://github.com/codesections-personal/codesections
+****** https://www.getgutenberg.io
+
+
 **** https://www.codesections.com/blog/try-some-pattern-matching/
 ***** A good bit
 #+BEGIN_SRC perl6
@@ -119,6 +124,8 @@ gh pr create --title "new test of multi-dispatch with where clauses" --body "Fix
 **** https://unix.stackexchange.com/questions/659282/remove-lines-that-contain-two-string-matches/672705#672705
 **** https://unix.stackexchange.com/questions/99431/print-lines-between-and-including-two-patterns/672602#672602
 **** https://unix.stackexchange.com/search?q=Raku+XML
+
+
 
 
 

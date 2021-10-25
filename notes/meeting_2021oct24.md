@@ -1,67 +1,73 @@
-- [meeting notes October 24, 2021](#org856f62f)
-  - [the raku study group](#org6eef19f)
-    - [Rock-rock-rock rakudo High Scool](#orgc1ed61c)
-  - [the usual links:](#org9162ee1)
-    - [meeting notes](#org049b30c)
-    - [code examples:](#orgf116db1)
-  - [in](#orgd6367d5)
-    - [codesections on alternative idioms to multis and smartmatch](#orge422631)
-    - [roast tests](#org5f6a819)
-    - [some third thing because I'm one of those guys](#org8e0d7a1)
-  - [out](#org6b61ca8)
-    - [William Michels on stackexchange](#orgae240a8)
-  - [leftovers that I swear I will not leave here in this file](#org4b4811c)
-    - [more on data-handling in raku](#orgc694a70)
-  - [announcements](#orgf45886d)
-    - [the ephemeral miniconf: nov 18 2021](#orgee5fc91)
-  - [next meeting](#org0539777)
-    - [next meeting: Nov 07, 2021](#orgc6a55c4)
+- [meeting notes October 24, 2021](#orgbb8e43e)
+  - [the raku study group](#org85bccd9)
+    - [Rock-rock-rock rakudo High Scool](#org2ec7e36)
+  - [the usual links:](#org6ea24f9)
+    - [meeting notes](#org694e686)
+    - [code examples:](#org002b074)
+  - [in](#org81513de)
+    - [codesections on alternative idioms to multis and smartmatch](#org02ce44a)
+    - [roast tests](#org7c19e28)
+    - [some third thing because I'm one of those guys](#org8ca2036)
+  - [out](#orgaf6f3de)
+    - [William Michels on stackexchange](#org1cb5b49)
+  - [leftovers that I swear I will not leave here in this file](#org8a3ada2)
+    - [more on data-handling in raku](#org1845d1e)
+  - [announcements](#org70b5af1)
+    - [the ephemeral miniconf: nov 18 2021](#org2f6de5b)
+  - [next meeting](#org486ee31)
+    - [next meeting: Nov 07, 2021](#org5ad6f95)
 
 
-<a id="org856f62f"></a>
+<a id="orgbb8e43e"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="org6eef19f"></a>
+<a id="org85bccd9"></a>
 
 ## the raku study group
 
 
-<a id="orgc1ed61c"></a>
+<a id="org2ec7e36"></a>
 
 ### Rock-rock-rock rakudo High Scool
 
 
-<a id="org9162ee1"></a>
+<a id="org6ea24f9"></a>
 
 ## the usual links:
 
 
-<a id="org049b30c"></a>
+<a id="org694e686"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="orgf116db1"></a>
+<a id="org002b074"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="orgd6367d5"></a>
+<a id="org81513de"></a>
 
 ## in
 
 
-<a id="orge422631"></a>
+<a id="org02ce44a"></a>
 
 ### codesections on alternative idioms to multis and smartmatch
 
 1.  codesections = Daniel Sockwell
+
+    1.  formatting of his blog is strange: chops code examples, mismatch dark/light backgrounds
+    
+        1.  <https://github.com/codesections-personal/codesections>
+        
+        2.  <https://www.getgutenberg.io>
 
 2.  <https://www.codesections.com/blog/try-some-pattern-matching/>
 
@@ -92,7 +98,7 @@
     |          |                                                                              |  |
 
 
-<a id="org5f6a819"></a>
+<a id="org7c19e28"></a>
 
 ### roast tests
 
@@ -198,19 +204,19 @@
                         3.  message must refer to the issue: "Fixes #765"
 
 
-<a id="org8e0d7a1"></a>
+<a id="org8ca2036"></a>
 
 ### some third thing because I'm one of those guys
 
 1.  database table -> custom data objects
 
 
-<a id="org6b61ca8"></a>
+<a id="orgaf6f3de"></a>
 
 ## out
 
 
-<a id="orgae240a8"></a>
+<a id="org1cb5b49"></a>
 
 ### William Michels on stackexchange
 
@@ -247,12 +253,12 @@
 16. <https://unix.stackexchange.com/search?q=Raku+XML>
 
 
-<a id="org4b4811c"></a>
+<a id="org8a3ada2"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="orgc694a70"></a>
+<a id="org1845d1e"></a>
 
 ### more on data-handling in raku
 
@@ -297,23 +303,23 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="orgf45886d"></a>
+<a id="org70b5af1"></a>
 
 ## announcements
 
 
-<a id="orgee5fc91"></a>
+<a id="org2f6de5b"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org0539777"></a>
+<a id="org486ee31"></a>
 
 ## next meeting
 
 
-<a id="orgc6a55c4"></a>
+<a id="org5ad6f95"></a>
 
 ### next meeting: Nov 07, 2021
