@@ -12,6 +12,7 @@ plan 91;
 
 # https://github.com/Raku/roast/issues/650
 group-of 4 => 'ambiguous subset matches resolved sequentially' => {
+  # note: godzilla is both a monster and a hero
   my @monsters  = < godzilla  gammera   ghidra    golem    >;
   my @heroes    = < godzilla  beowulf   ultraman  inframan >;
   subset Monster    of Str where { $_ eq any( @monsters ) };
