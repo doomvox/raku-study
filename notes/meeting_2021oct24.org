@@ -97,7 +97,6 @@ gh pr create --title "new test of multi-dispatch with where clauses" --body "Fix
 *********** doomvox/roast
 ********** message must refer to the issue: "Fixes #765" 
 
-
 *** some third thing because I'm one of those guys
 **** database table -> custom data objects
 
