@@ -47,7 +47,6 @@ group-of 4 => 'ambiguous subset matches resolved sequentially' => {
     is( $classsification2, "godzilla is a hero",
         "Testing ambiguous case runs first multi that matches.");
    }
-
 }
 
 
