@@ -70,7 +70,7 @@ gh repo fork doomvox/doomvox --clone=false
 ******** a brief opinionated editorial that might possibly be controversial
 ********* git, for all it's problems, has a traditional command-line style
 ********** distinguishes between "plumbing and porcelain"
-********** you can write slick gui tools using it, but aren't supposed to need them
+*********** you can write slick gui tools using it, but aren't supposed to need them
 ********* gh:
 ********** likes to bug the user with questions
 ********** presents the user with *drop-down menus*
