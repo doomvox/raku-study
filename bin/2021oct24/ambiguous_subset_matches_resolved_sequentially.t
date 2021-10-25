@@ -44,7 +44,7 @@ group-of 6 => 'ambiguous subset matches resolved sequentially' => {
     my $classification2 = classify('godzilla');     # 
     is( $classsification1, "ultraman is a hero",
         "Testing that the multi with the only subset match runs.");
-    is( $classsification2, "godzilla is a monster",
+    is( $classsification2, "godzilla is a hero",
         "Testing ambiguous case runs first multi that matches.");
    }
 
