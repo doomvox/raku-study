@@ -25,8 +25,8 @@ group-of 6 => 'ambiguous subset matches resolved sequentially' => {
     multi sub classify (Hero $name) {
         return "$name is a hero";
     }
-    my $classify_1 = classify('ghidora');      # OUTPUT: The monster, ghidora roars!
-    my $classify_1 = classify('godzilla');     # OUTPUT: The monster, godzilla roars!
+    my $classification1 = classify('ghidora');      # 
+    my $classification1 = classify('godzilla');     # 
 
    }
 
