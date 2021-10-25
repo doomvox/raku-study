@@ -19,14 +19,14 @@ group-of 6 => 'ambiguous subset matches resolved sequentially' => {
   subset Hero       of Str where { $_ eq any( @heroes ) };
 
   group-of 12 => 'subset' => {
-    multi sub speech (Monster $name) {
-        return "The monster, $name roars!";
+    multi sub classify (Monster $name) {
+        return "$name is a monster";
     }
-    multi sub speech (Hero $name) {
-        return "The hero, $name shouts!";
+    multi sub classify (Hero $name) {
+        return "$name is a hero";
     }
-    my $speech_1 = speech('ghidora');      # OUTPUT: The monster, ghidora roars!
-    my $speech_1 = speech('godzilla');     # OUTPUT: The monster, godzilla roars!
+    my $classify_1 = classify('ghidora');      # OUTPUT: The monster, ghidora roars!
+    my $classify_1 = classify('godzilla');     # OUTPUT: The monster, godzilla roars!
 
    }
 
