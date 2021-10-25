@@ -45,7 +45,6 @@
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2021oct24/try_catch_basics.raku
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021oct24/try_catch_basics.raku
 
-
 ** roast tests
 *** https://github.com/rakudo/rakudo/issues/4547
 **** but probably need an issue number for Raku/roast:
