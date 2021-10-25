@@ -68,6 +68,15 @@ gh repo fork doomvox/doomvox --clone=false
 #+END_SRC
 ******* gh is now the standard (?) github command-line tool
 ******** a brief opinionated editorial that might possibly be controversial
+********* git, for all it's problems, has a traditional command-line style
+********** distinguishes between "plumbing and porcelain"
+********** you can write slick gui tools using it, but aren't supposed to need them
+********* gh:
+********** likes to bug the user with questions
+********** presents the user with *drop-down menus*
+********** can't work with all shells (emacs sub-shells are no good)
+********** looks like it MIGHT have command-line options to silence questions
+*********** documentation exists, but explanations are sketchy and examples of this usage are weak
 
 ******* git clone of repository to a local working directory
 #+BEGIN_SRC sh
