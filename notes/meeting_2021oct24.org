@@ -52,6 +52,11 @@
 *** https://github.com/Raku/roast
 **** "the spec is the tests"
 ***** a brief opinionated editorial that might possibly be controversial
+****** roast tests still have gaps:
+******* if anyone took us up on the claim that they're the "spec" we would have incompatible Rakus around.
+******* suspect the in-crowd don't think the gaps are very important
+******** coverage is good for *their* preferred working style
+
 **** writing a new roast test
 ***** go to repo (in chromium): https://github.com/Raku/roast
 ***** github.org -> upper right -> Forks -> new fork -> put in doomvox
