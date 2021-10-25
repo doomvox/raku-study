@@ -27,7 +27,8 @@ group-of 6 => 'ambiguous subset matches resolved sequentially' => {
         return "$name is a hero";
     }
     my $classification1 = classify('ghidra');       # 
-    my $classification1 = classify('godzilla');     # 
+    my $classification2 = classify('godzilla');     # 
+    
 
    }
 
