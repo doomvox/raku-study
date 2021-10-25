@@ -64,7 +64,7 @@
 ******* https://cli.github.com/manual/gh_repo_fork
 ******* maybe this would work:
 #+BEGIN_SRC sh
-gh repo fork doomvox/doomvox --clone=false
+gh repo fork doomvox/doomvox --clone=false  ## NOT TESTED
 #+END_SRC
 ******* gh is now the standard (?) github command-line tool
 ******** a brief opinionated editorial that might possibly be controversial
