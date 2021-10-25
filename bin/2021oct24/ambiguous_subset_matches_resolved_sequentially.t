@@ -17,7 +17,7 @@ group-of 4 => 'ambiguous subset matches resolved sequentially' => {
   subset Monster    of Str where { $_ eq any( @monsters ) };
   subset Hero       of Str where { $_ eq any( @heroes ) };
 
-  group-of 2 => 'subset' => {
+  group-of 2 => 'two multis' => {
     multi sub classify (Monster $name) {
         return "$name is a monster";
     }
@@ -31,7 +31,7 @@ group-of 4 => 'ambiguous subset matches resolved sequentially' => {
     is( $classsification2, "godzilla is a monster",
         "Testing ambiguous case runs first multi that matches.");
    }
-  group-of 2 => 'subset' => { 
+  group-of 2 => 'two multis reversed' => { 
     # here the same multis are defined in a different order
     multi sub classify (Hero $name) {
         return "$name is a hero";
