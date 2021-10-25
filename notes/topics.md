@@ -1,51 +1,50 @@
-- [topics](#org3bbc646)
-  - [raku study group topics](#org39467ae)
-    - [collected from previous meeting notes](#org20b1d03)
-    - [delete these once they're covered](#org5dc6027)
-  - [techid: create a database of topic ideas](#orgef7ed3c)
-    - [features](#orgcafd4cf)
-  - [subjects](#org2f9e278)
-    - [nested map idioms](#org1991587)
-    - [quoted string regexes](#org058f211)
-    - [a stupid mistake that isn't: naming a method with a leading ^](#orgb63f50d)
-    - [Steven Lembark](#org43d296b)
-    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#orgdb8499a)
-    - [andrew shitov "Perl 6 at a Glance"](#orgd2ce208)
-    - [andrew shitov's raku course on-line:](#org700454e)
-    - [promises and threads](#org2965bf0)
-    - [other files to go through](#orgb97a43e)
-    - [immutability](#org1053a7d)
-  - [leftovers that I swear I will not leave here in this file](#org03aaa6f)
-    - [more on data-handling in raku](#org53ee040)
-    - [places to find topics](#org4fd285b)
+- [topics](#org5115855)
+  - [raku study group topics](#org1cb39d4)
+    - [collected from previous meeting notes](#orgcc79592)
+    - [delete these once they're covered](#org15cd40d)
+  - [techid: create a database of topic ideas](#orga6066eb)
+    - [features](#org455afa4)
+  - [subjects](#org4440e31)
+    - [nested map idioms](#org38587d1)
+    - [quoted string regexes](#orgf873482)
+    - [a stupid mistake that isn't: naming a method with a leading ^](#orgceb0bf5)
+    - [Steven Lembark](#org43c3313)
+    - [adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)](#org315c894)
+    - [andrew shitov "Perl 6 at a Glance"](#org052f0c0)
+    - [andrew shitov's raku course on-line:](#org40d245b)
+    - [promises and threads](#org8956b66)
+    - [other files to go through](#orgf547fa1)
+    - [immutability](#org810a46e)
+    - [more on data-handling in raku](#org21b8439)
+    - [places to find topics](#org8441ae0)
 
 
-<a id="org3bbc646"></a>
+<a id="org5115855"></a>
 
 # topics
 
 
-<a id="org39467ae"></a>
+<a id="org1cb39d4"></a>
 
 ## raku study group topics
 
 
-<a id="org20b1d03"></a>
+<a id="orgcc79592"></a>
 
 ### collected from previous meeting notes
 
 
-<a id="org5dc6027"></a>
+<a id="org15cd40d"></a>
 
 ### delete these once they're covered
 
 
-<a id="orgef7ed3c"></a>
+<a id="orga6066eb"></a>
 
 ## techid: create a database of topic ideas
 
 
-<a id="orgcafd4cf"></a>
+<a id="org455afa4"></a>
 
 ### features
 
@@ -54,12 +53,12 @@
 2.  links to meeting notes
 
 
-<a id="org2f9e278"></a>
+<a id="org4440e31"></a>
 
 ## subjects
 
 
-<a id="org1991587"></a>
+<a id="org38587d1"></a>
 
 ### nested map idioms
 
@@ -72,7 +71,7 @@
     1.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/nested<sub>map.raku</sub>
 
 
-<a id="org058f211"></a>
+<a id="orgf873482"></a>
 
 ### quoted string regexes
 
@@ -95,7 +94,7 @@
             2.  /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021mar21/parsing<sub>quoted</sub><sub>strings</sub><sub>backslash.raku</sub>
 
 
-<a id="orgb63f50d"></a>
+<a id="orgceb0bf5"></a>
 
 ### a stupid mistake that isn't: naming a method with a leading ^
 
@@ -104,7 +103,7 @@
     1.  should this generate a warning/error?
 
 
-<a id="org43d296b"></a>
+<a id="org43c3313"></a>
 
 ### Steven Lembark
 
@@ -115,14 +114,14 @@
 2.  <https://www.slideshare.net/lembark/generating-querying-calendar-tables-in-posgresql>
 
 
-<a id="orgdb8499a"></a>
+<a id="org315c894"></a>
 
 ### adverbs that control returns, e.g. :p for pairs (a feature Bruce Gray likes)
 
 1.  <https://docs.raku.org/language/subscripts#index-entry-:p_(subscript_adverb)>
 
 
-<a id="orgd2ce208"></a>
+<a id="org052f0c0"></a>
 
 ### andrew shitov "Perl 6 at a Glance"
 
@@ -131,14 +130,14 @@
 2.  <https://andrewshitov.com/wp-content/uploads/2020/01/Perl-6-at-a-Glance.pdf>
 
 
-<a id="org700454e"></a>
+<a id="org40d245b"></a>
 
 ### andrew shitov's raku course on-line:
 
 <https://course.raku.org/>
 
 
-<a id="org2965bf0"></a>
+<a id="org8956b66"></a>
 
 ### promises and threads
 
@@ -151,26 +150,21 @@
     2.  <https://github.com/Raku/CCR/blob/main/Remaster/Jonathan%20Worthington/A-unified-and-improved-Supply-concurrency-model.md>
 
 
-<a id="orgb97a43e"></a>
+<a id="orgf547fa1"></a>
 
 ### other files to go through
 
 -rw-r&#x2013;r&#x2013; 1 doom doom 1888 Feb 14 17:07 meeting<sub>2020dec20.org</sub> -rw-r&#x2013;r&#x2013; 1 doom doom 3606 Feb 13 22:15 meeting<sub>2021feb07.org</sub> -rw-r&#x2013;r&#x2013; 1 doom doom 3803 Feb 7 14:02 meeting<sub>2021jan31.org</sub> -rw-r&#x2013;r&#x2013; 1 doom doom 2519 Jan 24 20:45 meeting<sub>2021jan24.org</sub> -rw-r&#x2013;r&#x2013; 1 doom doom 1940 Jan 18 13:17 meeting<sub>2020jan17.org</sub> -rw-r&#x2013;r&#x2013; 1 doom doom 1505 Jan 12 11:52 meeting<sub>2020jan10.org</sub> -rw-r&#x2013;r&#x2013; 1 doom doom 2158 Dec 19 17:17 meeting<sub>2020dec13.org</sub> -rw-r&#x2013;r&#x2013; 1 doom doom 2146 Dec 7 13:23 meeting<sub>2020dec06.org</sub>
 
 
-<a id="org1053a7d"></a>
+<a id="org810a46e"></a>
 
 ### immutability
 
 1.  <https://stackoverflow.com/questions/63294853/how-to-enforce-immutability-with-the-raku-typesystem?rq=1>
 
 
-<a id="org03aaa6f"></a>
-
-## leftovers that I swear I will not leave here in this file
-
-
-<a id="org53ee040"></a>
+<a id="org21b8439"></a>
 
 ### more on data-handling in raku
 
@@ -215,7 +209,7 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="org4fd285b"></a>
+<a id="org8441ae0"></a>
 
 ### places to find topics
 
