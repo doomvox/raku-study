@@ -135,9 +135,6 @@ gh pr create --title "new test of multi-dispatch with where clauses" --body "Fix
 ****** https://unix.stackexchange.com/questions/673939/sed-and-regex-for-exif-renaming/674519#674519
 ******* https://docs.raku.org/routine/subst#Adverbs
 
-
-
-
 ** announcements
 *** the ephemeral miniconf: nov 18 2021
 **** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
