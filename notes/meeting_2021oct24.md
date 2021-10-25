@@ -1,61 +1,61 @@
-- [meeting notes October 24, 2021](#orge59bc53)
-  - [the raku study group](#orgf96a74f)
-    - [Rock-rock-rock rakudo High Scool](#org03914ca)
-  - [the usual links:](#org995a4bf)
-    - [meeting notes](#orgf3b3d51)
-    - [code examples:](#orgc068327)
-  - [in](#orgbdda8fd)
-    - [codesections on alternative idioms to multis and smartmatch](#orgfb4d7e4)
-    - [roast tests](#org393ac09)
-    - [some third thing because I'm one of those guys](#orgba24bc3)
-  - [Bruce Gray, perl weekly challenge:](#orgb2eb294)
-    - [William Michels on stackexchange](#orgb787e86)
-  - [announcements](#orgb9680e7)
-    - [the ephemeral miniconf: nov 18 2021](#org9f25d43)
-  - [next meeting](#orgd20a959)
-    - [next meeting: Nov 07, 2021](#org132fd7b)
+- [meeting notes October 24, 2021](#org9c76019)
+  - [the raku study group](#orgaa6edda)
+    - [Rock-rock-rock rakudo High Scool](#org5cc0d41)
+  - [the usual links:](#org90a639a)
+    - [meeting notes](#orga3ecc53)
+    - [code examples:](#org9cd86af)
+  - [in](#org994154e)
+    - [codesections on alternative idioms to multis and smartmatch](#org6ab4c4d)
+    - [roast tests](#org1a662ef)
+    - [some third thing because I'm one of those guys](#org7ca2c8f)
+  - [Bruce Gray, perl weekly challenge:](#org23ac454)
+    - [William Michels on stackexchange](#org9f8b06a)
+  - [announcements](#org22e5223)
+    - [the ephemeral miniconf: nov 18 2021](#orga0114fe)
+  - [next meeting](#org8ef5e09)
+    - [next meeting: Nov 07, 2021](#org8217066)
 
 
-<a id="orge59bc53"></a>
+<a id="org9c76019"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="orgf96a74f"></a>
+<a id="orgaa6edda"></a>
 
 ## the raku study group
 
 
-<a id="org03914ca"></a>
+<a id="org5cc0d41"></a>
 
 ### Rock-rock-rock rakudo High Scool
 
 
-<a id="org995a4bf"></a>
+<a id="org90a639a"></a>
 
 ## the usual links:
 
 
-<a id="orgf3b3d51"></a>
+<a id="orga3ecc53"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="orgc068327"></a>
+<a id="org9cd86af"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="orgbdda8fd"></a>
+<a id="org994154e"></a>
 
 ## in
 
 
-<a id="orgfb4d7e4"></a>
+<a id="org6ab4c4d"></a>
 
 ### codesections on alternative idioms to multis and smartmatch
 
@@ -98,7 +98,7 @@
     1.  <https://docs.raku.org/type/Signature#Capture_parameters>
 
 
-<a id="org393ac09"></a>
+<a id="org1a662ef"></a>
 
 ### roast tests
 
@@ -204,14 +204,14 @@
                         3.  message must refer to the issue: "Fixes #765"
 
 
-<a id="orgba24bc3"></a>
+<a id="org7ca2c8f"></a>
 
 ### some third thing because I'm one of those guys
 
 1.  database table -> custom data objects
 
 
-<a id="orgb2eb294"></a>
+<a id="org23ac454"></a>
 
 ## Bruce Gray, perl weekly challenge:
 
@@ -220,7 +220,7 @@
 2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-135/#TASK1>
 
 
-<a id="orgb787e86"></a>
+<a id="org9f8b06a"></a>
 
 ### William Michels on stackexchange
 
@@ -263,23 +263,23 @@
             1.  <https://docs.raku.org/routine/subst#Adverbs>
 
 
-<a id="orgb9680e7"></a>
+<a id="org22e5223"></a>
 
 ## announcements
 
 
-<a id="org9f25d43"></a>
+<a id="orga0114fe"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="orgd20a959"></a>
+<a id="org8ef5e09"></a>
 
 ## next meeting
 
 
-<a id="org132fd7b"></a>
+<a id="org8217066"></a>
 
 ### next meeting: Nov 07, 2021

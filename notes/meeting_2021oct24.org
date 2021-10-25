@@ -110,10 +110,6 @@ gh pr create --title "new test of multi-dispatch with where clauses" --body "Fix
 **** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-135/challenge-135/bruce-gray/raku
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-135/#TASK1
 
-
-
-
-
 *** William Michels on stackexchange
 **** https://unix.stackexchange.com/questions/674338/delete-last-n-characters-from-lines-within-file/674571#674571
 **** https://unix.stackexchange.com/questions/673836/combine-multiple-greps-with-regex/674566#674566
