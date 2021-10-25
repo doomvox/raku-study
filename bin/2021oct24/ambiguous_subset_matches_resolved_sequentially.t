@@ -4,7 +4,7 @@ use lib $?FILE.IO.parent(2).add("packages/Test-Helpers"); # finds Test::Util whe
 use lib "/home/doom/End/Cave/Raku/Wall/roast/packages/Test-Helpers"; # hack
 use Test::Util;
 
-plan 91;
+plan 4;
 
 ## Imitating the style in:
 ##   /home/doom/End/Cave/Raku/Wall/roast/S12-subset/subtypes.t
