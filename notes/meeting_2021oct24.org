@@ -13,7 +13,6 @@
 ****** https://github.com/codesections-personal/codesections
 ****** https://www.getgutenberg.io
 
-
 **** https://www.codesections.com/blog/try-some-pattern-matching/
 ***** A good bit
 #+BEGIN_SRC perl6
