@@ -37,6 +37,8 @@
 
 **** https://docs.raku.org/type/Signature#Capture_parameters
 
+**** TODO cando docs problems
+
 ** roast tests
 *** https://github.com/rakudo/rakudo/issues/4547
 **** but probably need an issue number for Raku/roast:
