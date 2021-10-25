@@ -36,6 +36,7 @@
 |          |                                                                            |   |
 
 ***** https://docs.raku.org/type/Signature#Capture_parameters
+
 *** roast tests
 **** https://github.com/rakudo/rakudo/issues/4547
 ***** but probably need an issue number for Raku/roast:
@@ -105,7 +106,13 @@ gh pr create --title "new test of multi-dispatch with where clauses" --body "Fix
 *** some third thing because I'm one of those guys
 **** database table -> custom data objects
 
-** out
+** Bruce Gray, perl weekly challenge:
+**** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-135/challenge-135/bruce-gray/raku
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-135/#TASK1
+
+
+
+
 
 *** William Michels on stackexchange
 **** https://unix.stackexchange.com/questions/674338/delete-last-n-characters-from-lines-within-file/674571#674571
@@ -124,8 +131,8 @@ gh pr create --title "new test of multi-dispatch with where clauses" --body "Fix
 **** https://unix.stackexchange.com/questions/659282/remove-lines-that-contain-two-string-matches/672705#672705
 **** https://unix.stackexchange.com/questions/99431/print-lines-between-and-including-two-patterns/672602#672602
 **** https://unix.stackexchange.com/search?q=Raku+XML
-
-
+***** featured
+****** https://unix.stackexchange.com/questions/673939/sed-and-regex-for-exif-renaming/674519#674519
 
 
 
