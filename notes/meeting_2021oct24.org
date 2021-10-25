@@ -131,7 +131,7 @@ gh pr create --title "new test of multi-dispatch with where clauses" --body "Fix
 **** https://unix.stackexchange.com/questions/659282/remove-lines-that-contain-two-string-matches/672705#672705
 **** https://unix.stackexchange.com/questions/99431/print-lines-between-and-including-two-patterns/672602#672602
 **** https://unix.stackexchange.com/search?q=Raku+XML
-***** featured: munging exif data from jpegs
+***** featured: munging jpeg exif data
 ****** https://unix.stackexchange.com/questions/673939/sed-and-regex-for-exif-renaming/674519#674519
 ******* https://docs.raku.org/routine/subst#Adverbs
 
