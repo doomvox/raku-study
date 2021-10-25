@@ -77,6 +77,7 @@ gh repo fork doomvox/doomvox --clone=false
 ********** can't work with all shells (emacs sub-shells are no good)
 ********** looks like it MIGHT have command-line options to silence questions
 *********** documentation exists, but explanations are sketchy and examples of this usage are weak
+********** not clear to me how scriptable it is
 
 ******* git clone of repository to a local working directory
 #+BEGIN_SRC sh
