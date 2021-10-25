@@ -40,8 +40,8 @@ group-of 4 => 'ambiguous subset matches resolved sequentially' => {
     multi sub classify (Monster $name) {
         return "$name is a monster";
     }
-    my $classification1 = classify('ultraman');       # 
-    my $classification2 = classify('godzilla');     # 
+    my $classification1 = classify('ultraman');       
+    my $classification2 = classify('godzilla');     
     is( $classsification1, "ultraman is a hero",
         "Testing that the multi with the only subset match runs.");
     is( $classsification2, "godzilla is a hero",
