@@ -25,8 +25,8 @@ group-of 6 => 'ambiguous subset matches resolved sequentially' => {
     multi sub speech (Hero $name) {
         return "The hero, $name shouts!";
     }
-    my $speech1 = speech('ghidora');      # OUTPUT: The monster, ghidora roars!
-    my $speech1 = speech('godzilla');     # OUTPUT: The monster, godzilla roars!
+    my $speech_1 = speech('ghidora');      # OUTPUT: The monster, ghidora roars!
+    my $speech_1 = speech('godzilla');     # OUTPUT: The monster, godzilla roars!
 
    }
 
