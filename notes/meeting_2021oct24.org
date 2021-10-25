@@ -102,6 +102,25 @@ gh pr create --title "new test of multi-dispatch with where clauses" --body "Fix
 
 ** out
 
+*** William Michels on stackexchange
+**** https://unix.stackexchange.com/questions/674338/delete-last-n-characters-from-lines-within-file/674571#674571
+**** https://unix.stackexchange.com/questions/673836/combine-multiple-greps-with-regex/674566#674566
+**** https://unix.stackexchange.com/questions/673939/sed-and-regex-for-exif-renaming/674519#674519
+**** https://unix.stackexchange.com/questions/674207/explanation-of-a-sed-command/674335#674335
+**** https://unix.stackexchange.com/questions/674283/print-lines-where-every-word-of-the-line-with-capital-letters-starts-with-a-diff/674317#674317
+**** https://unix.stackexchange.com/questions/672871/is-there-a-method-to-indicate-the-last-iteration-in-a-loop-over-lines-of-an-inpu/673944#673944
+**** https://unix.stackexchange.com/questions/673798/how-to-remove-text-between-two-keywords-in-a-textfile/673821#673821
+**** https://unix.stackexchange.com/questions/171115/use-sed-to-print-from-the-very-first-line-until-the-line-containing-the-last-occ/673757#673757
+**** https://unix.stackexchange.com/questions/673515/add-suffix-to-certain-text-lines-if-and-only-if-the-suffix-is-not-present/673636#673636
+**** https://unix.stackexchange.com/questions/673366/remove-lines-starting-with-pattern-a-or-b-except-when-they-contain-pattern-c-or/673631#673631
+**** https://unix.stackexchange.com/questions/672890/shift-of-dates-in-a-csv-file-via-bash-script/673243#673243
+**** https://unix.stackexchange.com/questions/336460/reverse-the-order-of-pairs-of-lines-of-a-text-file/672966#672966
+**** https://unix.stackexchange.com/questions/672915/if-there-is-a-white-space-remove-it-if-none-ignore/672964#672964
+**** https://unix.stackexchange.com/questions/659282/remove-lines-that-contain-two-string-matches/672705#672705
+**** https://unix.stackexchange.com/questions/99431/print-lines-between-and-including-two-patterns/672602#672602
+**** https://unix.stackexchange.com/search?q=Raku+XML
+
+
 
 ** leftovers that I swear I will not leave here in this file
 *** more on data-handling in raku

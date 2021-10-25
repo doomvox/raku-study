@@ -1,62 +1,63 @@
-- [meeting notes October 24, 2021](#orge4e2462)
-  - [the raku study group](#org80c5da7)
-    - [Rock-rock-rock rakudo High Scool](#orgab34722)
-  - [the usual links:](#org931f26d)
-    - [meeting notes](#orge069106)
-    - [code examples:](#orgac68bdd)
-  - [in](#org257bee4)
-    - [codesections on alternative idioms to multis and smartmatch](#org8dbabd7)
-    - [roast tests](#org0f91d2c)
-    - [some third thing because I'm one of those guys](#org36c249f)
-  - [out](#org0d71c7d)
-  - [leftovers that I swear I will not leave here in this file](#org7c72fb7)
-    - [more on data-handling in raku](#org5528652)
-  - [announcements](#org2172195)
-    - [the ephemeral miniconf: nov 18 2021](#orgcaecaac)
-  - [next meeting](#org1068fa9)
-    - [next meeting: Nov 07, 2021](#org5c069db)
+- [meeting notes October 24, 2021](#org856f62f)
+  - [the raku study group](#org6eef19f)
+    - [Rock-rock-rock rakudo High Scool](#orgc1ed61c)
+  - [the usual links:](#org9162ee1)
+    - [meeting notes](#org049b30c)
+    - [code examples:](#orgf116db1)
+  - [in](#orgd6367d5)
+    - [codesections on alternative idioms to multis and smartmatch](#orge422631)
+    - [roast tests](#org5f6a819)
+    - [some third thing because I'm one of those guys](#org8e0d7a1)
+  - [out](#org6b61ca8)
+    - [William Michels on stackexchange](#orgae240a8)
+  - [leftovers that I swear I will not leave here in this file](#org4b4811c)
+    - [more on data-handling in raku](#orgc694a70)
+  - [announcements](#orgf45886d)
+    - [the ephemeral miniconf: nov 18 2021](#orgee5fc91)
+  - [next meeting](#org0539777)
+    - [next meeting: Nov 07, 2021](#orgc6a55c4)
 
 
-<a id="orge4e2462"></a>
+<a id="org856f62f"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="org80c5da7"></a>
+<a id="org6eef19f"></a>
 
 ## the raku study group
 
 
-<a id="orgab34722"></a>
+<a id="orgc1ed61c"></a>
 
 ### Rock-rock-rock rakudo High Scool
 
 
-<a id="org931f26d"></a>
+<a id="org9162ee1"></a>
 
 ## the usual links:
 
 
-<a id="orge069106"></a>
+<a id="org049b30c"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="orgac68bdd"></a>
+<a id="orgf116db1"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="org257bee4"></a>
+<a id="orgd6367d5"></a>
 
 ## in
 
 
-<a id="org8dbabd7"></a>
+<a id="orge422631"></a>
 
 ### codesections on alternative idioms to multis and smartmatch
 
@@ -91,7 +92,7 @@
     |          |                                                                              |  |
 
 
-<a id="org0f91d2c"></a>
+<a id="org5f6a819"></a>
 
 ### roast tests
 
@@ -197,24 +198,61 @@
                         3.  message must refer to the issue: "Fixes #765"
 
 
-<a id="org36c249f"></a>
+<a id="org8e0d7a1"></a>
 
 ### some third thing because I'm one of those guys
 
 1.  database table -> custom data objects
 
 
-<a id="org0d71c7d"></a>
+<a id="org6b61ca8"></a>
 
 ## out
 
 
-<a id="org7c72fb7"></a>
+<a id="orgae240a8"></a>
+
+### William Michels on stackexchange
+
+1.  <https://unix.stackexchange.com/questions/674338/delete-last-n-characters-from-lines-within-file/674571#674571>
+
+2.  <https://unix.stackexchange.com/questions/673836/combine-multiple-greps-with-regex/674566#674566>
+
+3.  <https://unix.stackexchange.com/questions/673939/sed-and-regex-for-exif-renaming/674519#674519>
+
+4.  <https://unix.stackexchange.com/questions/674207/explanation-of-a-sed-command/674335#674335>
+
+5.  <https://unix.stackexchange.com/questions/674283/print-lines-where-every-word-of-the-line-with-capital-letters-starts-with-a-diff/674317#674317>
+
+6.  <https://unix.stackexchange.com/questions/672871/is-there-a-method-to-indicate-the-last-iteration-in-a-loop-over-lines-of-an-inpu/673944#673944>
+
+7.  <https://unix.stackexchange.com/questions/673798/how-to-remove-text-between-two-keywords-in-a-textfile/673821#673821>
+
+8.  <https://unix.stackexchange.com/questions/171115/use-sed-to-print-from-the-very-first-line-until-the-line-containing-the-last-occ/673757#673757>
+
+9.  <https://unix.stackexchange.com/questions/673515/add-suffix-to-certain-text-lines-if-and-only-if-the-suffix-is-not-present/673636#673636>
+
+10. <https://unix.stackexchange.com/questions/673366/remove-lines-starting-with-pattern-a-or-b-except-when-they-contain-pattern-c-or/673631#673631>
+
+11. <https://unix.stackexchange.com/questions/672890/shift-of-dates-in-a-csv-file-via-bash-script/673243#673243>
+
+12. <https://unix.stackexchange.com/questions/336460/reverse-the-order-of-pairs-of-lines-of-a-text-file/672966#672966>
+
+13. <https://unix.stackexchange.com/questions/672915/if-there-is-a-white-space-remove-it-if-none-ignore/672964#672964>
+
+14. <https://unix.stackexchange.com/questions/659282/remove-lines-that-contain-two-string-matches/672705#672705>
+
+15. <https://unix.stackexchange.com/questions/99431/print-lines-between-and-including-two-patterns/672602#672602>
+
+16. <https://unix.stackexchange.com/search?q=Raku+XML>
+
+
+<a id="org4b4811c"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="org5528652"></a>
+<a id="orgc694a70"></a>
 
 ### more on data-handling in raku
 
@@ -259,23 +297,23 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="org2172195"></a>
+<a id="orgf45886d"></a>
 
 ## announcements
 
 
-<a id="orgcaecaac"></a>
+<a id="orgee5fc91"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org1068fa9"></a>
+<a id="org0539777"></a>
 
 ## next meeting
 
 
-<a id="org5c069db"></a>
+<a id="orgc6a55c4"></a>
 
 ### next meeting: Nov 07, 2021
