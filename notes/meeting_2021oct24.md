@@ -1,68 +1,68 @@
-- [meeting notes October 24, 2021](#orge37e6aa)
-  - [the raku study group](#orgc76dd3a)
-    - [Rock-rock-rock rakudo High Scool](#org4b5d2bd)
-  - [the usual links:](#orgfad5b1c)
-    - [meeting notes](#org0c1e4d4)
-    - [code examples:](#org9f916c8)
-  - [codesections on alternative idioms to multis and smartmatch](#org9175c54)
-    - [codesections = Daniel Sockwell](#orgc83fbd0)
-    - [<https://www.codesections.com/blog/try-some-pattern-matching/>](#orgd259e22)
-    - [<https://www.codesections.com/blog/pattern-matching-2/>](#org5bd8325)
-    - [<https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/>](#orga2ea4d9)
-    - [<https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/>](#orgcfb4034)
-    - [<https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku>](#orgb52d7e8)
-    - [docs](#orgd9f063c)
-  - [roast tests](#orgd7f3c0e)
-    - [<https://github.com/rakudo/rakudo/issues/4547>](#org7aea53f)
-    - [<https://github.com/Raku/roast>](#org315d163)
-  - [Bruce Gray, perl weekly challenge:](#orga94aca0)
-    - [William Michels on stackexchange](#org9028762)
-  - [announcements](#org42cdd92)
-    - [the ephemeral miniconf: nov 18 2021](#org119fce7)
-  - [next meeting](#org4eab274)
-    - [next meeting: Nov 07, 2021](#orgb8b6408)
+- [meeting notes October 24, 2021](#orgede8b29)
+  - [the raku study group](#org8154a36)
+    - [Rock-rock-rock rakudo High Scool](#org4926cda)
+  - [the usual links:](#orge9c910c)
+    - [meeting notes](#orgd49d0d6)
+    - [code examples:](#org1a4fbb3)
+  - [codesections on alternative idioms to multis and smartmatch](#org29d9b57)
+    - [codesections = Daniel Sockwell](#org1660ca6)
+    - [<https://www.codesections.com/blog/try-some-pattern-matching/>](#org6c9ef2e)
+    - [<https://www.codesections.com/blog/pattern-matching-2/>](#orgb98c2ce)
+    - [<https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/>](#orgf35609b)
+    - [<https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/>](#org3d118e8)
+    - [<https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku>](#org39d37e1)
+    - [docs](#org8422c7d)
+  - [roast tests](#org0d0e7f4)
+    - [<https://github.com/rakudo/rakudo/issues/4547>](#org400335e)
+    - [<https://github.com/Raku/roast>](#org4f6ee8c)
+  - [Bruce Gray, perl weekly challenge:](#org773c0df)
+    - [William Michels on stackexchange](#org9eaaefe)
+  - [announcements](#org137cc8a)
+    - [the ephemeral miniconf: nov 18 2021](#orgab63c3a)
+  - [next meeting](#org11dcc32)
+    - [next meeting: Nov 07, 2021](#org3b01b1f)
 
 
-<a id="orge37e6aa"></a>
+<a id="orgede8b29"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="orgc76dd3a"></a>
+<a id="org8154a36"></a>
 
 ## the raku study group
 
 
-<a id="org4b5d2bd"></a>
+<a id="org4926cda"></a>
 
 ### Rock-rock-rock rakudo High Scool
 
 
-<a id="orgfad5b1c"></a>
+<a id="orge9c910c"></a>
 
 ## the usual links:
 
 
-<a id="org0c1e4d4"></a>
+<a id="orgd49d0d6"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="org9f916c8"></a>
+<a id="org1a4fbb3"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="org9175c54"></a>
+<a id="org29d9b57"></a>
 
 ## codesections on alternative idioms to multis and smartmatch
 
 
-<a id="orgc83fbd0"></a>
+<a id="org1660ca6"></a>
 
 ### codesections = Daniel Sockwell
 
@@ -73,7 +73,7 @@
     2.  <https://www.getgutenberg.io>
 
 
-<a id="orgd259e22"></a>
+<a id="org6c9ef2e"></a>
 
 ### <https://www.codesections.com/blog/try-some-pattern-matching/>
 
@@ -84,27 +84,27 @@
     ```
 
 
-<a id="org5bd8325"></a>
+<a id="orgb98c2ce"></a>
 
 ### <https://www.codesections.com/blog/pattern-matching-2/>
 
 
-<a id="orga2ea4d9"></a>
+<a id="orgf35609b"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/>
 
 
-<a id="orgcfb4034"></a>
+<a id="org3d118e8"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/>
 
 
-<a id="orgb52d7e8"></a>
+<a id="org39d37e1"></a>
 
 ### <https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku>
 
 
-<a id="orgd9f063c"></a>
+<a id="org8422c7d"></a>
 
 ### docs
 
@@ -133,12 +133,12 @@
     2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021oct24/try<sub>catch</sub><sub>basics.raku</sub>
 
 
-<a id="orgd7f3c0e"></a>
+<a id="org0d0e7f4"></a>
 
 ## roast tests
 
 
-<a id="org7aea53f"></a>
+<a id="org400335e"></a>
 
 ### <https://github.com/rakudo/rakudo/issues/4547>
 
@@ -147,7 +147,7 @@
     1.  <https://github.com/Raku/roast/issues/765>
 
 
-<a id="org315d163"></a>
+<a id="org4f6ee8c"></a>
 
 ### <https://github.com/Raku/roast>
 
@@ -191,7 +191,7 @@
                     
                     2.  gh:
                     
-                        1.  likes to bug the user with questions (caveat, git does **some** of that)
+                        1.  likes to bug the user with questions
                         
                         2.  presents the user with **drop-down menus**
                         
@@ -273,7 +273,7 @@
                     3.  message must refer to the issue: "Fixes #765"
 
 
-<a id="orga94aca0"></a>
+<a id="org773c0df"></a>
 
 ## Bruce Gray, perl weekly challenge:
 
@@ -282,7 +282,7 @@
 2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-135/#TASK1>
 
 
-<a id="org9028762"></a>
+<a id="org9eaaefe"></a>
 
 ### William Michels on stackexchange
 
@@ -325,23 +325,23 @@
             1.  <https://docs.raku.org/routine/subst#Adverbs>
 
 
-<a id="org42cdd92"></a>
+<a id="org137cc8a"></a>
 
 ## announcements
 
 
-<a id="org119fce7"></a>
+<a id="orgab63c3a"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org4eab274"></a>
+<a id="org11dcc32"></a>
 
 ## next meeting
 
 
-<a id="orgb8b6408"></a>
+<a id="org3b01b1f"></a>
 
 ### next meeting: Nov 07, 2021
