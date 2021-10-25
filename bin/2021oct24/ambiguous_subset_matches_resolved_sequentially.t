@@ -24,11 +24,11 @@ group-of 4 => 'ambiguous subset matches resolved sequentially' => {
     multi sub classify (Hero $name) {
         return "$name is a hero";
     }
-    my $classification1 = classify('ultraman');       
-    my $classification2 = classify('godzilla');     
-    is( $classsification1, "ultraman is a hero",
+    my $c1 = classify('ultraman');       
+    my $c2 = classify('godzilla');     
+    is( $c1, "ultraman is a hero",
         "Testing that the multi with the only subset match runs.");
-    is( $classsification2, "godzilla is a monster",
+    is( $c2, "godzilla is a monster",
         "Testing ambiguous case runs first multi that matches.");
    }
   group-of 2 => 'two multis reversed' => { 
@@ -39,11 +39,11 @@ group-of 4 => 'ambiguous subset matches resolved sequentially' => {
     multi sub classify (Monster $name) {
         return "$name is a monster";
     }
-    my $classification1 = classify('ultraman');       
-    my $classification2 = classify('godzilla');     
-    is( $classsification1, "ultraman is a hero",
+    my $c1 = classify('ultraman');       
+    my $c2 = classify('godzilla');     
+    is( $c1, "ultraman is a hero",
         "Testing that the multi with the only subset match runs.");
-    is( $classsification2, "godzilla is a hero",
+    is( $c2, "godzilla is a hero",
         "Testing ambiguous case runs first multi that matches.");
    }
 }
