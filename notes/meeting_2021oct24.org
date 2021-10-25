@@ -72,7 +72,7 @@ gh repo fork doomvox/doomvox --clone=false
 ********** distinguishes between "plumbing and porcelain"
 *********** you can write slick gui tools using it, but aren't supposed to need them
 ********* gh:
-********** likes to bug the user with questions
+********** likes to bug the user with questions (caveat, git does *some* of that)
 ********** presents the user with *drop-down menus*
 ********** can't work with all shells (emacs sub-shells are no good)
 ********** looks like it MIGHT have command-line options to silence questions
