@@ -33,7 +33,8 @@ group-of 6 => 'ambiguous subset matches resolved sequentially' => {
     is( $classsification2, "godzilla is a monster",
         "Testing ambiguous case runs first multi that matches.");
    }
-  group-of 2 => 'subset' => {
+  group-of 2 => 'subset' => { 
+    # here the same multis are defined in a different order
     multi sub classify (Hero $name) {
         return "$name is a hero";
     }
