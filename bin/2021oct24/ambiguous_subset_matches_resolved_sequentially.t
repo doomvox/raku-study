@@ -14,7 +14,6 @@ plan 91;
 group-of 4 => 'ambiguous subset matches resolved sequentially' => {
   my @monsters  = < godzilla  gammera   ghidra    golem    >;
   my @heroes    = < godzilla  beowulf   ultraman  inframan >;
-
   subset Monster    of Str where { $_ eq any( @monsters ) };
   subset Hero       of Str where { $_ eq any( @heroes ) };
 
