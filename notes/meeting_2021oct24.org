@@ -6,25 +6,25 @@
 **** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021oct24
-** in
-*** codesections on alternative idioms to multis and smartmatch
-**** codesections = Daniel Sockwell
-***** formatting of his blog is strange: chops code examples, mismatch dark/light backgrounds
-****** https://github.com/codesections-personal/codesections
-****** https://www.getgutenberg.io
 
-**** https://www.codesections.com/blog/try-some-pattern-matching/
-***** A good bit
+** codesections on alternative idioms to multis and smartmatch
+*** codesections = Daniel Sockwell
+**** formatting of his blog is strange: chops code examples, mismatch dark/light backgrounds
+***** https://github.com/codesections-personal/codesections
+***** https://www.getgutenberg.io
+
+*** https://www.codesections.com/blog/try-some-pattern-matching/
+**** A good bit
 #+BEGIN_SRC perl6
 ((try some-fn) // $default)
 #+END_SRC
-**** https://www.codesections.com/blog/pattern-matching-2/
-**** https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/
-**** https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/
+*** https://www.codesections.com/blog/pattern-matching-2/
+*** https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/
+*** https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/
 
-**** https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku
+*** https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku
 
-**** docs
+*** docs
 | key      | url                                                                        |   |
 |----------+----------------------------------------------------------------------------+---|
 | for      | https://docs.raku.org/syntax/for                                           |   |
@@ -35,76 +35,73 @@
 | cando    | https://docs.raku.org/routine/cando                                        |   |
 |          |                                                                            |   |
 
-***** https://docs.raku.org/type/Signature#Capture_parameters
+**** https://docs.raku.org/type/Signature#Capture_parameters
 
-*** roast tests
-**** https://github.com/rakudo/rakudo/issues/4547
-***** but probably need an issue number for Raku/roast:
-****** https://github.com/Raku/roast/issues/765
-**** https://github.com/Raku/roast
-***** "the spec is the tests"
-****** a brief opinionated editorial that might possibly be controversial
-***** writing a new roast test
-****** go to repo (in chromium): https://github.com/Raku/roast
-****** github.org -> upper right -> Forks -> new fork -> put in doomvox
-******* still haven't learned to do this via a command-line tool
-******** https://cli.github.com/manual/gh_repo_fork
-******** maybe this would work:
+** roast tests
+*** https://github.com/rakudo/rakudo/issues/4547
+**** but probably need an issue number for Raku/roast:
+***** https://github.com/Raku/roast/issues/765
+*** https://github.com/Raku/roast
+**** "the spec is the tests"
+***** a brief opinionated editorial that might possibly be controversial
+**** writing a new roast test
+***** go to repo (in chromium): https://github.com/Raku/roast
+***** github.org -> upper right -> Forks -> new fork -> put in doomvox
+****** still haven't learned to do this via a command-line tool
+******* https://cli.github.com/manual/gh_repo_fork
+******* maybe this would work:
 #+BEGIN_SRC sh
 gh repo fork doomvox/doomvox --clone=false
 #+END_SRC
-******** gh is now the standard (?) github command-line tool
-********* a brief opinionated editorial that might possibly be controversial
+******* gh is now the standard (?) github command-line tool
+******** a brief opinionated editorial that might possibly be controversial
 
-******** git clone of repository to a local working directory
+******* git clone of repository to a local working directory
 #+BEGIN_SRC sh
 cd /home/doom/End/Cave/Raku/Wall # location for dev trees
 gh repo clone doomvox/roast      # use gnome-terminal, not emacs shell 
 cd roast
 #+END_SRC
 
-********* existing tests: double-check is there anything in here
-********** https://github.com/Raku/roast/blob/master/S12-subset/subtypes.t
+******** existing tests: double-check is there anything in here
+********* https://github.com/Raku/roast/blob/master/S12-subset/subtypes.t
 /home/doom/End/Cave/Raku/Wall/roast/S12-subset/subtypes.t
-********** https://github.com/Raku/roast/blob/master/S12-subset/multi-dispatch.t
+********* https://github.com/Raku/roast/blob/master/S12-subset/multi-dispatch.t
 /home/doom/End/Cave/Raku/Wall/roast/S12-subset/multi-dispatch.t
 
-********** some Test features I've never seen before:
-*********** group-of
-************ Thats from a Test::Util module
-************* https://github.com/Raku/roast/blob/master/packages/Test-Helpers/lib/Test/Util.pm6
+********* some Test features I've never seen before:
+********** group-of
+*********** Thats from a Test::Util module
+************ https://github.com/Raku/roast/blob/master/packages/Test-Helpers/lib/Test/Util.pm6
 /home/doom/End/Cave/Raku/Wall/roast/packages/Test-Helpers/lib/Test/Util.pm6
-************* has decent pod
+************ has decent pod
 
-******** create dev branch and switch to it
+******* create dev branch and switch to it
 #+BEGIN_SRC sh
 git branch <branch_name>; git checkout <branch_name>
 #+END_SRC
 
-******** write code
+******* write code
 
-******** commit and push changes out
+******* commit and push changes out
 #+BEGIN_SRC sh
 git commit -a -m'... (See issue #765)'  # can't hurt to include issue number
 git push -u origin <branch_name>
 #+END_SRC
 
-******** github create issue (if you haven't already)
-********* need the issue number for next step
-******** github generate pullrequest
-********* using gh (gnome-terminal, not emacs shell):
+******* github create issue (if you haven't already)
+******** need the issue number for next step
+******* github generate pullrequest
+******** using gh (gnome-terminal, not emacs shell):
 #+BEGIN_SRC sh
 gh pr create --title "new test of multi-dispatch with where clauses" --body "Fixes #765"
 #+END_SRC
-********* makes you answer questions
-********** first choose the parent repo
-*********** Raku/roast 
-********** second choose the forked repo
-*********** doomvox/roast
-********** message must refer to the issue: "Fixes #765" 
-
-*** some third thing because I'm one of those guys
-**** database table -> custom data objects
+******** makes you answer questions
+********* first choose the parent repo
+********** Raku/roast 
+********* second choose the forked repo
+********** doomvox/roast
+********* message must refer to the issue: "Fixes #765" 
 
 ** Bruce Gray, perl weekly challenge:
 **** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-135/challenge-135/bruce-gray/raku

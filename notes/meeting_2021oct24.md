@@ -1,217 +1,239 @@
-- [meeting notes October 24, 2021](#org9c76019)
-  - [the raku study group](#orgaa6edda)
-    - [Rock-rock-rock rakudo High Scool](#org5cc0d41)
-  - [the usual links:](#org90a639a)
-    - [meeting notes](#orga3ecc53)
-    - [code examples:](#org9cd86af)
-  - [in](#org994154e)
-    - [codesections on alternative idioms to multis and smartmatch](#org6ab4c4d)
-    - [roast tests](#org1a662ef)
-    - [some third thing because I'm one of those guys](#org7ca2c8f)
-  - [Bruce Gray, perl weekly challenge:](#org23ac454)
-    - [William Michels on stackexchange](#org9f8b06a)
-  - [announcements](#org22e5223)
-    - [the ephemeral miniconf: nov 18 2021](#orga0114fe)
-  - [next meeting](#org8ef5e09)
-    - [next meeting: Nov 07, 2021](#org8217066)
+- [meeting notes October 24, 2021](#org31b4a6a)
+  - [the raku study group](#orgd6a2b16)
+    - [Rock-rock-rock rakudo High Scool](#orgab4f2d0)
+  - [the usual links:](#orga7dada1)
+    - [meeting notes](#org1fd718a)
+    - [code examples:](#org87439d6)
+  - [codesections on alternative idioms to multis and smartmatch](#org3058ceb)
+    - [codesections = Daniel Sockwell](#org2e7cec9)
+    - [<https://www.codesections.com/blog/try-some-pattern-matching/>](#org804e4d0)
+    - [<https://www.codesections.com/blog/pattern-matching-2/>](#orgfac96ad)
+    - [<https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/>](#org0142daa)
+    - [<https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/>](#orgb51aacc)
+    - [<https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku>](#orga07a955)
+    - [docs](#org55c0641)
+  - [roast tests](#orge79e677)
+    - [<https://github.com/rakudo/rakudo/issues/4547>](#org7fab89c)
+    - [<https://github.com/Raku/roast>](#org173a4f1)
+  - [Bruce Gray, perl weekly challenge:](#orgf9aa34d)
+    - [William Michels on stackexchange](#org746deba)
+  - [announcements](#org197daab)
+    - [the ephemeral miniconf: nov 18 2021](#orgafe76c6)
+  - [next meeting](#org968cff1)
+    - [next meeting: Nov 07, 2021](#org9e11b2b)
 
 
-<a id="org9c76019"></a>
+<a id="org31b4a6a"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="orgaa6edda"></a>
+<a id="orgd6a2b16"></a>
 
 ## the raku study group
 
 
-<a id="org5cc0d41"></a>
+<a id="orgab4f2d0"></a>
 
 ### Rock-rock-rock rakudo High Scool
 
 
-<a id="org90a639a"></a>
+<a id="orga7dada1"></a>
 
 ## the usual links:
 
 
-<a id="orga3ecc53"></a>
+<a id="org1fd718a"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="org9cd86af"></a>
+<a id="org87439d6"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="org994154e"></a>
+<a id="org3058ceb"></a>
 
-## in
+## codesections on alternative idioms to multis and smartmatch
 
 
-<a id="org6ab4c4d"></a>
+<a id="org2e7cec9"></a>
 
-### codesections on alternative idioms to multis and smartmatch
+### codesections = Daniel Sockwell
 
-1.  codesections = Daniel Sockwell
+1.  formatting of his blog is strange: chops code examples, mismatch dark/light backgrounds
 
-    1.  formatting of his blog is strange: chops code examples, mismatch dark/light backgrounds
+    1.  <https://github.com/codesections-personal/codesections>
     
-        1.  <https://github.com/codesections-personal/codesections>
+    2.  <https://www.getgutenberg.io>
+
+
+<a id="org804e4d0"></a>
+
+### <https://www.codesections.com/blog/try-some-pattern-matching/>
+
+1.  A good bit
+
+    ```perl6
+    ((try some-fn) // $default)
+    ```
+
+
+<a id="orgfac96ad"></a>
+
+### <https://www.codesections.com/blog/pattern-matching-2/>
+
+
+<a id="org0142daa"></a>
+
+### <https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/>
+
+
+<a id="orgb51aacc"></a>
+
+### <https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/>
+
+
+<a id="orga07a955"></a>
+
+### <https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku>
+
+
+<a id="org55c0641"></a>
+
+### docs
+
+| key      | url                                                                          |  |
+|-------- |---------------------------------------------------------------------------- |--- |
+| for      | <https://docs.raku.org/syntax/for>                                           |  |
+| try      | <https://docs.raku.org/language/exceptions#try_blocks>                       |  |
+| sum      | <https://docs.raku.org/routine/sum>                                          |  |
+| whenever | <https://docs.raku.org/language/concurrency#index-entry-whenever>            |  |
+| when     | <https://docs.raku.org/language/control#index-entry-control_flow__when-when> |  |
+| cando    | <https://docs.raku.org/routine/cando>                                        |  |
+|          |                                                                              |  |
+
+1.  <https://docs.raku.org/type/Signature#Capture_parameters>
+
+
+<a id="orge79e677"></a>
+
+## roast tests
+
+
+<a id="org7fab89c"></a>
+
+### <https://github.com/rakudo/rakudo/issues/4547>
+
+1.  but probably need an issue number for Raku/roast:
+
+    1.  <https://github.com/Raku/roast/issues/765>
+
+
+<a id="org173a4f1"></a>
+
+### <https://github.com/Raku/roast>
+
+1.  "the spec is the tests"
+
+    1.  a brief opinionated editorial that might possibly be controversial
+
+2.  writing a new roast test
+
+    1.  go to repo (in chromium): <https://github.com/Raku/roast>
+    
+    2.  github.org -> upper right -> Forks -> new fork -> put in doomvox
+    
+        1.  still haven't learned to do this via a command-line tool
         
-        2.  <https://www.getgutenberg.io>
-
-2.  <https://www.codesections.com/blog/try-some-pattern-matching/>
-
-    1.  A good bit
-    
-        ```perl6
-        ((try some-fn) // $default)
-        ```
-
-3.  <https://www.codesections.com/blog/pattern-matching-2/>
-
-4.  <https://www.reddit.com/r/rakulang/comments/q3mn13/lets_try_some_pattern_matching_codesections/>
-
-5.  <https://www.reddit.com/r/rakulang/comments/q3vstb/further_thoughts_on_raku_pattern_matching/>
-
-6.  <https://stackoverflow.com/questions/66233465/haskell-like-pattern-matching-in-raku>
-
-7.  docs
-
-    | key      | url                                                                          |  |
-    |-------- |---------------------------------------------------------------------------- |--- |
-    | for      | <https://docs.raku.org/syntax/for>                                           |  |
-    | try      | <https://docs.raku.org/language/exceptions#try_blocks>                       |  |
-    | sum      | <https://docs.raku.org/routine/sum>                                          |  |
-    | whenever | <https://docs.raku.org/language/concurrency#index-entry-whenever>            |  |
-    | when     | <https://docs.raku.org/language/control#index-entry-control_flow__when-when> |  |
-    | cando    | <https://docs.raku.org/routine/cando>                                        |  |
-    |          |                                                                              |  |
-    
-    1.  <https://docs.raku.org/type/Signature#Capture_parameters>
-
-
-<a id="org1a662ef"></a>
-
-### roast tests
-
-1.  <https://github.com/rakudo/rakudo/issues/4547>
-
-    1.  but probably need an issue number for Raku/roast:
-    
-        1.  <https://github.com/Raku/roast/issues/765>
-
-2.  <https://github.com/Raku/roast>
-
-    1.  "the spec is the tests"
-    
-        1.  a brief opinionated editorial that might possibly be controversial
-    
-    2.  writing a new roast test
-    
-        1.  go to repo (in chromium): <https://github.com/Raku/roast>
-        
-        2.  github.org -> upper right -> Forks -> new fork -> put in doomvox
-        
-            1.  still haven't learned to do this via a command-line tool
+            1.  <https://cli.github.com/manual/gh_repo_fork>
             
-                1.  <https://cli.github.com/manual/gh_repo_fork>
+            2.  maybe this would work:
+            
+                ```sh
+                gh repo fork doomvox/doomvox --clone=false
+                ```
+            
+            3.  gh is now the standard (?) github command-line tool
+            
+                1.  a brief opinionated editorial that might possibly be controversial
+            
+            4.  git clone of repository to a local working directory
+            
+                ```sh
+                cd /home/doom/End/Cave/Raku/Wall # location for dev trees
+                gh repo clone doomvox/roast      # use gnome-terminal, not emacs shell 
+                cd roast
+                ```
                 
-                2.  maybe this would work:
+                1.  existing tests: double-check is there anything in here
                 
-                    ```sh
-                    gh repo fork doomvox/doomvox --clone=false
-                    ```
-                
-                3.  gh is now the standard (?) github command-line tool
-                
-                    1.  a brief opinionated editorial that might possibly be controversial
-                
-                4.  git clone of repository to a local working directory
-                
-                    ```sh
-                    cd /home/doom/End/Cave/Raku/Wall # location for dev trees
-                    gh repo clone doomvox/roast      # use gnome-terminal, not emacs shell 
-                    cd roast
-                    ```
+                    1.  <https://github.com/Raku/roast/blob/master/S12-subset/subtypes.t>
                     
-                    1.  existing tests: double-check is there anything in here
+                        /home/doom/End/Cave/Raku/Wall/roast/S12-subset/subtypes.t
                     
-                        1.  <https://github.com/Raku/roast/blob/master/S12-subset/subtypes.t>
+                    2.  <https://github.com/Raku/roast/blob/master/S12-subset/multi-dispatch.t>
+                    
+                        /home/doom/End/Cave/Raku/Wall/roast/S12-subset/multi-dispatch.t
+                    
+                    3.  some Test features I've never seen before:
+                    
+                        1.  group-of
                         
-                            /home/doom/End/Cave/Raku/Wall/roast/S12-subset/subtypes.t
-                        
-                        2.  <https://github.com/Raku/roast/blob/master/S12-subset/multi-dispatch.t>
-                        
-                            /home/doom/End/Cave/Raku/Wall/roast/S12-subset/multi-dispatch.t
-                        
-                        3.  some Test features I've never seen before:
-                        
-                            1.  group-of
+                            1.  Thats from a Test::Util module
                             
-                                1.  Thats from a Test::Util module
+                                1.  <https://github.com/Raku/roast/blob/master/packages/Test-Helpers/lib/Test/Util.pm6>
                                 
-                                    1.  <https://github.com/Raku/roast/blob/master/packages/Test-Helpers/lib/Test/Util.pm6>
-                                    
-                                        /home/doom/End/Cave/Raku/Wall/roast/packages/Test-Helpers/lib/Test/Util.pm6
-                                    
-                                    2.  has decent pod
-                
-                5.  create dev branch and switch to it
+                                    /home/doom/End/Cave/Raku/Wall/roast/packages/Test-Helpers/lib/Test/Util.pm6
+                                
+                                2.  has decent pod
+            
+            5.  create dev branch and switch to it
+            
+                ```sh
+                git branch <branch_name>; git checkout <branch_name>
+                ```
+            
+            6.  write code
+            
+            7.  commit and push changes out
+            
+                ```sh
+                git commit -a -m'... (See issue #765)'  # can't hurt to include issue number
+                git push -u origin <branch_name>
+                ```
+            
+            8.  github create issue (if you haven't already)
+            
+                1.  need the issue number for next step
+            
+            9.  github generate pullrequest
+            
+                1.  using gh (gnome-terminal, not emacs shell):
                 
                     ```sh
-                    git branch <branch_name>; git checkout <branch_name>
+                    gh pr create --title "new test of multi-dispatch with where clauses" --body "Fixes #765"
                     ```
                 
-                6.  write code
+                2.  makes you answer questions
                 
-                7.  commit and push changes out
-                
-                    ```sh
-                    git commit -a -m'... (See issue #765)'  # can't hurt to include issue number
-                    git push -u origin <branch_name>
-                    ```
-                
-                8.  github create issue (if you haven't already)
-                
-                    1.  need the issue number for next step
-                
-                9.  github generate pullrequest
-                
-                    1.  using gh (gnome-terminal, not emacs shell):
+                    1.  first choose the parent repo
                     
-                        ```sh
-                        gh pr create --title "new test of multi-dispatch with where clauses" --body "Fixes #765"
-                        ```
+                        1.  Raku/roast
                     
-                    2.  makes you answer questions
+                    2.  second choose the forked repo
                     
-                        1.  first choose the parent repo
-                        
-                            1.  Raku/roast
-                        
-                        2.  second choose the forked repo
-                        
-                            1.  doomvox/roast
-                        
-                        3.  message must refer to the issue: "Fixes #765"
+                        1.  doomvox/roast
+                    
+                    3.  message must refer to the issue: "Fixes #765"
 
 
-<a id="org7ca2c8f"></a>
-
-### some third thing because I'm one of those guys
-
-1.  database table -> custom data objects
-
-
-<a id="org23ac454"></a>
+<a id="orgf9aa34d"></a>
 
 ## Bruce Gray, perl weekly challenge:
 
@@ -220,7 +242,7 @@
 2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-135/#TASK1>
 
 
-<a id="org9f8b06a"></a>
+<a id="org746deba"></a>
 
 ### William Michels on stackexchange
 
@@ -263,23 +285,23 @@
             1.  <https://docs.raku.org/routine/subst#Adverbs>
 
 
-<a id="org22e5223"></a>
+<a id="org197daab"></a>
 
 ## announcements
 
 
-<a id="orga0114fe"></a>
+<a id="orgafe76c6"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org8ef5e09"></a>
+<a id="org968cff1"></a>
 
 ## next meeting
 
 
-<a id="org8217066"></a>
+<a id="org9e11b2b"></a>
 
 ### next meeting: Nov 07, 2021
