@@ -19,7 +19,7 @@ group-of 6 => 'ambiguous subset matches resolved sequentially' => {
   subset Monster    of Str where { $_ eq any( @monsters ) };
   subset Hero       of Str where { $_ eq any( @heroes ) };
 
-  group-of 3 => 'subset' => {
+  group-of 2 => 'subset' => {
     multi sub classify (Monster $name) {
         return "$name is a monster";
     }
@@ -32,8 +32,22 @@ group-of 6 => 'ambiguous subset matches resolved sequentially' => {
         "Testing that the multi with the only subset match runs.");
     is( $classsification2, "godzilla is a monster",
         "Testing ambiguous case runs first multi that matches.");
-
    }
+  group-of 2 => 'subset' => {
+    multi sub classify (Hero $name) {
+        return "$name is a hero";
+    }
+    multi sub classify (Monster $name) {
+        return "$name is a monster";
+    }
+    my $classification1 = classify('ultraman');       # 
+    my $classification2 = classify('godzilla');     # 
+    is( $classsification1, "ultraman is a hero",
+        "Testing that the multi with the only subset match runs.");
+    is( $classsification2, "godzilla is a monster",
+        "Testing ambiguous case runs first multi that matches.");
+   }
+
 
     group-of 12 => 'my' => {
         $wanted = Nil;
