@@ -1,63 +1,63 @@
-- [meeting notes October 24, 2021](#org7c0c959)
-  - [the raku study group](#orgab53452)
-    - [Rock-rock-rock rakudo High Scool](#org24218c4)
-  - [the usual links:](#org498eb20)
-    - [meeting notes](#org344032c)
-    - [code examples:](#org8caca34)
-  - [in](#orgf833ec2)
-    - [codesections on alternative idioms to multis and smartmatch](#orgb3822bd)
-    - [roast tests](#orged02dc3)
-    - [some third thing because I'm one of those guys](#org655fcc3)
-  - [Bruce Gray, perl weekly challenge:](#org3dbfba1)
-    - [William Michels on stackexchange](#org6189bac)
-  - [leftovers that I swear I will not leave here in this file](#orgc05129f)
-    - [more on data-handling in raku](#org3bde42e)
-  - [announcements](#org105a9f9)
-    - [the ephemeral miniconf: nov 18 2021](#orgb294663)
-  - [next meeting](#org8810391)
-    - [next meeting: Nov 07, 2021](#org9fdfea2)
+- [meeting notes October 24, 2021](#orgb4fb198)
+  - [the raku study group](#org76220ba)
+    - [Rock-rock-rock rakudo High Scool](#orge263059)
+  - [the usual links:](#org2047960)
+    - [meeting notes](#org054894f)
+    - [code examples:](#orgae474b1)
+  - [in](#org8eb0f96)
+    - [codesections on alternative idioms to multis and smartmatch](#orgf9c80bd)
+    - [roast tests](#org737a090)
+    - [some third thing because I'm one of those guys](#org04ec9dd)
+  - [Bruce Gray, perl weekly challenge:](#org6a0a078)
+    - [William Michels on stackexchange](#orge1f4aa2)
+  - [leftovers that I swear I will not leave here in this file](#org8611f8d)
+    - [more on data-handling in raku](#orgd609c74)
+  - [announcements](#orga7fcbf0)
+    - [the ephemeral miniconf: nov 18 2021](#org9cec733)
+  - [next meeting](#org9a04131)
+    - [next meeting: Nov 07, 2021](#org6a4b06a)
 
 
-<a id="org7c0c959"></a>
+<a id="orgb4fb198"></a>
 
 # meeting notes October 24, 2021
 
 
-<a id="orgab53452"></a>
+<a id="org76220ba"></a>
 
 ## the raku study group
 
 
-<a id="org24218c4"></a>
+<a id="orge263059"></a>
 
 ### Rock-rock-rock rakudo High Scool
 
 
-<a id="org498eb20"></a>
+<a id="org2047960"></a>
 
 ## the usual links:
 
 
-<a id="org344032c"></a>
+<a id="org054894f"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md>
 
 
-<a id="org8caca34"></a>
+<a id="orgae474b1"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021oct24>
 
 
-<a id="orgf833ec2"></a>
+<a id="org8eb0f96"></a>
 
 ## in
 
 
-<a id="orgb3822bd"></a>
+<a id="orgf9c80bd"></a>
 
 ### codesections on alternative idioms to multis and smartmatch
 
@@ -100,7 +100,7 @@
     1.  <https://docs.raku.org/type/Signature#Capture_parameters>
 
 
-<a id="orged02dc3"></a>
+<a id="org737a090"></a>
 
 ### roast tests
 
@@ -206,14 +206,14 @@
                         3.  message must refer to the issue: "Fixes #765"
 
 
-<a id="org655fcc3"></a>
+<a id="org04ec9dd"></a>
 
 ### some third thing because I'm one of those guys
 
 1.  database table -> custom data objects
 
 
-<a id="org3dbfba1"></a>
+<a id="org6a0a078"></a>
 
 ## Bruce Gray, perl weekly challenge:
 
@@ -222,7 +222,7 @@
 2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-135/#TASK1>
 
 
-<a id="org6189bac"></a>
+<a id="orge1f4aa2"></a>
 
 ### William Michels on stackexchange
 
@@ -261,14 +261,16 @@
     1.  featured
     
         1.  <https://unix.stackexchange.com/questions/673939/sed-and-regex-for-exif-renaming/674519#674519>
+        
+            1.  <https://docs.raku.org/routine/subst#Adverbs>
 
 
-<a id="orgc05129f"></a>
+<a id="org8611f8d"></a>
 
 ## leftovers that I swear I will not leave here in this file
 
 
-<a id="org3bde42e"></a>
+<a id="orgd609c74"></a>
 
 ### more on data-handling in raku
 
@@ -313,23 +315,23 @@
     1.  <https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/>
 
 
-<a id="org105a9f9"></a>
+<a id="orga7fcbf0"></a>
 
 ## announcements
 
 
-<a id="orgb294663"></a>
+<a id="org9cec733"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org8810391"></a>
+<a id="org9a04131"></a>
 
 ## next meeting
 
 
-<a id="org9fdfea2"></a>
+<a id="org6a4b06a"></a>
 
 ### next meeting: Nov 07, 2021

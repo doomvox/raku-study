@@ -133,7 +133,7 @@ gh pr create --title "new test of multi-dispatch with where clauses" --body "Fix
 **** https://unix.stackexchange.com/search?q=Raku+XML
 ***** featured
 ****** https://unix.stackexchange.com/questions/673939/sed-and-regex-for-exif-renaming/674519#674519
-
+******* https://docs.raku.org/routine/subst#Adverbs
 
 
 ** leftovers that I swear I will not leave here in this file
