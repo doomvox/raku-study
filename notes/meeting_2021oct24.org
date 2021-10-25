@@ -117,7 +117,7 @@ git push -u origin <branch_name>
 
 ******* github generate pullrequest
 ******** have issue number already: #765
-******** using gh (gnome-terminal, not emacs shell):
+******** using gh (in the gnome-terminal, not emacs shell):
 #+BEGIN_SRC sh
 gh pr create --title "new test of multi-dispatch with where clauses" --body "Fixes #765"
 #+END_SRC
