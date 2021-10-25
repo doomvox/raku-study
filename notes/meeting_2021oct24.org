@@ -136,33 +136,7 @@ gh pr create --title "new test of multi-dispatch with where clauses" --body "Fix
 ******* https://docs.raku.org/routine/subst#Adverbs
 
 
-** leftovers that I swear I will not leave here in this file
-*** more on data-handling in raku
 
-**** https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p/67513527?noredirect=1#comment122449810_67513527
-***** William Michaels objects to the word "Row" for a data-record in my solution
-**** arrays-of-objects
-***** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczfj2r/
-**** Data::Reshapers
-***** https://raku.land/cpan:ANTONOV/Data::Reshapers
-**** "format data into a table"
-https://unix.stackexchange.com/questions/649799/format-data-into-a-table/655944#655944
-
-**** secure json-ification, vadim belman
-***** https://colabti.org/irclogger/irclogger_log/raku?date=2021-09-14#l100
-***** https://vrurg.github.io/2021/09/14/Secure-JSONification
-***** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/
-
-**** pairs of separators from a string
-***** https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10138.html
-***** a discussion yary was involved in, which indicates there's something interesting
-
-**** lispyness of raku
-***** https://www.codesections.com/blog/raku-lisp-impression/
-***** https://www.reddit.com/r/rakulang/comments/ptm7qx/rakus_surprisingly_good_lisp_impression/
-
-**** old raku weekly
-***** https://rakudoweekly.blog/2021/09/20/2021-38-questions-ideas-feedback/
 
 ** announcements
 *** the ephemeral miniconf: nov 18 2021
