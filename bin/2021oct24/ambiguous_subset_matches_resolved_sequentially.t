@@ -10,7 +10,7 @@ plan 4;
 ##   /home/doom/End/Cave/Raku/Wall/roast/S12-subset/subtypes.t
 
 # https://github.com/Raku/roast/issues/650
-group-of 4 => 'ambiguous subset matches resolved sequentially' => {
+group-of 2 => 'ambiguous subset matches resolved sequentially' => {
   # note: godzilla is both a monster and a hero
   my @monsters  = < godzilla  gammera   ghidra    golem    >;
   my @heroes    = < godzilla  beowulf   ultraman  inframan >;
