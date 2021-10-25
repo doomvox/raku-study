@@ -1,6 +1,7 @@
 use v6;
 use Test;
-use lib $?FILE.IO.parent(2).add("packages/Test-Helpers");
+use lib $?FILE.IO.parent(2).add("packages/Test-Helpers"); # finds Test::Util when run in dev tree
+use lib "/home/doom/End/Cave/Raku/Wall/roast/packages/Test-Helpers/lib"; # hack
 use Test::Util;
 
 plan 91;
