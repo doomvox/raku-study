@@ -127,6 +127,10 @@ gh pr create --title "new test of multi-dispatch with squential resolution of am
 ********* second choose the forked repo
 ********** doomvox/roast
 ********* message must refer to the issue: "Fixes #765"
+********* not sure it resumes cleanly if you restart after interrupting
+********** looked to me like an option was missing on first question
+********** copped out and used website to generate pull-request:
+*********** default values in fields was sensible, at least.
 
 ** Bruce Gray, perl weekly challenge:
 **** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-135/challenge-135/bruce-gray/raku
