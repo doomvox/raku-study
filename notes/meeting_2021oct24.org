@@ -119,7 +119,7 @@ git push -u origin <branch_name>
 ******** have issue number already: #765
 ******** using gh (in the gnome-terminal, not emacs shell):
 #+BEGIN_SRC sh
-gh pr create --title "new test of multi-dispatch with where clauses" --body "Fixes #765"
+gh pr create --title "new test of multi-dispatch with squential resolution of ambiguous subset match" --body "Fixes #765"
 #+END_SRC
 ******** makes you answer questions
 ********* first choose the parent repo
