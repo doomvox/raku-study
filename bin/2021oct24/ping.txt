@@ -16,4 +16,4 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md
 cd /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/
 git add 2021oct24
 
- 
+  
