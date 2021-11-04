@@ -42,4 +42,7 @@ Changed: doesn't seem to have fixed behavior.
 But when I do it manually, it works... Note, didn't need to do
 any git adds, that stuff is still happening automatically. 
 
+Hm: the git push marker file didn't exist in ~/tmp.
+
+
 ===
