@@ -27,3 +27,6 @@ git push -u origin main
 
 And *now* the location is out there.   
 Q: will later additions to this file get autopushed?
+
+
+No: that feature seems to be broken now.
