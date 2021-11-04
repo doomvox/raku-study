@@ -44,5 +44,6 @@ any git adds, that stuff is still happening automatically.
 
 Hm: the git push marker file didn't exist in ~/tmp.
 
+  my $GIT_PUSH_MARKER_FILE = "$tmp_loc/" . $USER . "_last_git_push.mrk";
 
 ===
