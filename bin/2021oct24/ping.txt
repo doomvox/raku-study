@@ -16,4 +16,11 @@ https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021oct24.md
 cd /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/
 git add 2021oct24
 
-  
+git commit -a -m'last meeting location: 2021oct24'
+On branch main
+Your branch is ahead of 'origin/main' by 300 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean  
+
+git push -u origin main
+
