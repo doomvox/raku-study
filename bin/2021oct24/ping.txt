@@ -2,5 +2,8 @@ Thursday November  4, 2021  12:45 PM
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021oct24/ping.txt
 
 In theory, when I save this file, the entire location should be
-pushed to githug.
+pushed to github.
 
+In practice this is coming up empty:
+
+https://github.com/doomvox/raku-study/tree/main/bin/2021oct24
