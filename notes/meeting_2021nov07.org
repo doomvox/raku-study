@@ -1,0 +1,16 @@
+* meeting notes November 07, 2021                                      
+** the raku study group
+*** (Don't raku the boat, you)
+** the usual links:
+*** meeting notes
+**** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov07.md
+*** code examples:
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021nov07
+
+
+
+** announcements
+*** the ephemeral miniconf: nov 18 2021
+**** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
+** next meeting
+*** next meeting: Nov 14, 2021
