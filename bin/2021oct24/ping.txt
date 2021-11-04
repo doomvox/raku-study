@@ -30,3 +30,6 @@ Q: will later additions to this file get autopushed?
 
 
 No: that feature seems to be broken now.
+
+Wrote /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021oct24/ping.txt
+githacks_commit_push_all.pl: githack_push
