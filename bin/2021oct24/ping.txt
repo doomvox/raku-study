@@ -24,3 +24,5 @@ nothing to commit, working tree clean
 
 git push -u origin main
 
+
+And *now* the location is out there.   
