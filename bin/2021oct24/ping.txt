@@ -46,5 +46,6 @@ Hm: the git push marker file didn't exist in ~/tmp.
 
   my $GIT_PUSH_MARKER_FILE = "$tmp_loc/" . $USER . "_last_git_push.mrk";
 
+Created that file *manually* and now the system works again.  WTF?
  
 ===
