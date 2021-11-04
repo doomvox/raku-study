@@ -33,3 +33,7 @@ No: that feature seems to be broken now.
 
 Wrote /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021oct24/ping.txt
 githacks_commit_push_all.pl: githack_push
+
+My old elisp code was just doing a git push. 
+How about "git push -u origin main".
+
