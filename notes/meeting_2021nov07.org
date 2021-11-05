@@ -1,6 +1,6 @@
 * meeting notes November 07, 2021                                      
 ** the raku study group
-*** (Don't raku the boat, you)
+*** (Don't you raku the u-boat, you)
 ** the usual links:
 *** meeting notes
 **** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov07.md

@@ -1,66 +1,66 @@
-- [meeting notes November 07, 2021](#org8577637)
-  - [the raku study group](#org211a0bd)
-    - [(Don't raku the boat, you)](#orge5329ef)
-  - [the usual links:](#orgb7014ab)
-    - [meeting notes](#orgffc1c92)
-    - [code examples:](#org2bcad61)
-  - [announcements](#orgd602fa8)
-    - [the ephemeral miniconf: nov 18 2021](#org6b10c2a)
-  - [next meeting](#orge573718)
-    - [next meeting: Nov 14, 2021](#orgfe7e365)
+- [meeting notes November 07, 2021](#org60c90c2)
+  - [the raku study group](#orgf29fb46)
+    - [(Don't you raku the u-boat, you)](#org75e39f0)
+  - [the usual links:](#org385d561)
+    - [meeting notes](#org341f973)
+    - [code examples:](#org051bd78)
+  - [announcements](#org46a6462)
+    - [the ephemeral miniconf: nov 18 2021](#orgae8a6e2)
+  - [next meeting](#orgba8a981)
+    - [next meeting: Nov 14, 2021](#orgc95469f)
 
 
-<a id="org8577637"></a>
+<a id="org60c90c2"></a>
 
 # meeting notes November 07, 2021
 
 
-<a id="org211a0bd"></a>
+<a id="orgf29fb46"></a>
 
 ## the raku study group
 
 
-<a id="orge5329ef"></a>
+<a id="org75e39f0"></a>
 
-### (Don't raku the boat, you)
+### (Don't you raku the u-boat, you)
 
 
-<a id="orgb7014ab"></a>
+<a id="org385d561"></a>
 
 ## the usual links:
 
 
-<a id="orgffc1c92"></a>
+<a id="org341f973"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov07.md>
 
 
-<a id="org2bcad61"></a>
+<a id="org051bd78"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021nov07>
 
 
-<a id="orgd602fa8"></a>
+<a id="org46a6462"></a>
 
 ## announcements
 
 
-<a id="org6b10c2a"></a>
+<a id="orgae8a6e2"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="orge573718"></a>
+<a id="orgba8a981"></a>
 
 ## next meeting
 
 
-<a id="orgfe7e365"></a>
+<a id="orgc95469f"></a>
 
 ### next meeting: Nov 14, 2021
