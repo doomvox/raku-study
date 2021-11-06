@@ -1,90 +1,90 @@
-- [meeting notes November 07, 2021](#org14dabcb)
-  - [the raku study group](#org340faea)
-    - [(Don't you raku the u-boat, you)](#org8e8bf84)
-  - [the usual links:](#org68b2c5f)
-    - [meeting notes](#org898cffe)
-    - [code examples:](#org78374c2)
-  - [plan of attack (retreat?)](#org874e532)
-    - [open the floor to topics](#orgf94a349)
-    - [the depressing state of the left-hand junction smart match](#org9b6c4ed)
-    - [](#orga642b04)
-  - [announcements](#orgcd081f0)
-    - [the ephemeral miniconf: nov 18 2021](#org16b751e)
-  - [next meeting](#org0f65e47)
-    - [next meeting: Nov 14, 2021](#orgccdf8c9)
+- [meeting notes November 07, 2021](#org526ca17)
+  - [the raku study group](#org23c7078)
+    - [(Don't you raku the u-boat, you)](#orgae5bfe8)
+  - [the usual links:](#orgb84e109)
+    - [meeting notes](#org36ec29b)
+    - [code examples:](#org087676c)
+  - [plan of attack (retreat?)](#orgc441ffa)
+    - [open the floor to topics](#org99f12a6)
+    - [the depressing state of the left-hand junction smart match](#org681f3ec)
+    - [programming community camp](#org36f30f9)
+  - [announcements](#org41c84a1)
+    - [the ephemeral miniconf: nov 18 2021](#org49c0690)
+  - [next meeting](#org7dce41a)
+    - [next meeting: Nov 14, 2021](#orgbd234ee)
 
 
-<a id="org14dabcb"></a>
+<a id="org526ca17"></a>
 
 # meeting notes November 07, 2021
 
 
-<a id="org340faea"></a>
+<a id="org23c7078"></a>
 
 ## the raku study group
 
 
-<a id="org8e8bf84"></a>
+<a id="orgae5bfe8"></a>
 
 ### (Don't you raku the u-boat, you)
 
 
-<a id="org68b2c5f"></a>
+<a id="orgb84e109"></a>
 
 ## the usual links:
 
 
-<a id="org898cffe"></a>
+<a id="org36ec29b"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov07.md>
 
 
-<a id="org78374c2"></a>
+<a id="org087676c"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021nov07>
 
 
-<a id="org874e532"></a>
+<a id="orgc441ffa"></a>
 
 ## plan of attack (retreat?)
 
 
-<a id="orgf94a349"></a>
+<a id="org99f12a6"></a>
 
 ### open the floor to topics
 
 
-<a id="org9b6c4ed"></a>
+<a id="org681f3ec"></a>
 
 ### the depressing state of the left-hand junction smart match
 
 
-<a id="orga642b04"></a>
+<a id="org36f30f9"></a>
 
-### 
+### programming community camp
 
 
-<a id="orgcd081f0"></a>
+<a id="org41c84a1"></a>
 
 ## announcements
 
 
-<a id="org16b751e"></a>
+<a id="org49c0690"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org0f65e47"></a>
+<a id="org7dce41a"></a>
 
 ## next meeting
 
 
-<a id="orgccdf8c9"></a>
+<a id="orgbd234ee"></a>
 
 ### next meeting: Nov 14, 2021
