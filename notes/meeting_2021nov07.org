@@ -9,7 +9,8 @@
 
 ** plan of attack (retreat?)
 *** open the floor to topics
-*** the depressing state of the left-hand junction smart match
+*** the state of the left-hand junction smart match
+**** the endearing culturual quirks of the raku community
 *** programming community camp 
 
 ** announcements
