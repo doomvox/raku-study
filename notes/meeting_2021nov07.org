@@ -7,6 +7,11 @@
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021nov07
 
+** plan of attack (retreat?)
+*** open the floor to topics
+*** the depressing state of the left-hand junction smart match
+*** 
+
 ** announcements
 *** the ephemeral miniconf: nov 18 2021
 **** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
