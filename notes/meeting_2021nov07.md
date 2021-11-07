@@ -1,100 +1,104 @@
-- [meeting notes November 07, 2021](#orge071b81)
-  - [the raku study group](#orgdd83b89)
-    - [(Don't you raku the u-boat, you)](#orgee7ddd6)
-  - [the usual links:](#org1dc4d9c)
-    - [meeting notes](#org86daf76)
-    - [code examples:](#orge060dc1)
-  - [plan of attack (retreat?)](#org4983a03)
-    - [open the floor to topics](#org0c62035)
-    - [the state of the left-hand junction smart match](#org534ce3d)
-    - [roll your own associative](#orgba6eb5a)
-  - [announcements](#org51fcabc)
-    - [the ephemeral miniconf: nov 18 2021](#orga3c6af9)
-  - [next meeting](#org62d79b7)
-    - [next meeting: Nov 14, 2021](#org6a5fc70)
+- [meeting notes November 07, 2021](#org2264a04)
+  - [the raku study group](#orgac9ad0d)
+    - [(Don't you raku the u-boat, you)](#orgf9e0713)
+  - [the usual links:](#orgfef3a2c)
+    - [meeting notes](#orgdf3b7e0)
+    - [code examples:](#orgbb3ec2b)
+  - [plan of attack (retreat?)](#orgf0f8426)
+    - [open the floor to topics](#org02ad724)
+    - [the state of the left-hand junction smart match](#org0459470)
+    - [roll your own associative](#org54e0293)
+    - [start using spots as data for demos](#orgda78b69)
+  - [announcements](#org42fc683)
+    - [the ephemeral miniconf: nov 18 2021](#org3ca5c70)
+  - [next meeting](#orgd2123a6)
+    - [next meeting: Nov 14, 2021](#org80d938e)
 
 
-<a id="orge071b81"></a>
+<a id="org2264a04"></a>
 
 # meeting notes November 07, 2021
 
 
-<a id="orgdd83b89"></a>
+<a id="orgac9ad0d"></a>
 
 ## the raku study group
 
 
-<a id="orgee7ddd6"></a>
+<a id="orgf9e0713"></a>
 
 ### (Don't you raku the u-boat, you)
 
 
-<a id="org1dc4d9c"></a>
+<a id="orgfef3a2c"></a>
 
 ## the usual links:
 
 
-<a id="org86daf76"></a>
+<a id="orgdf3b7e0"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov07.md>
 
 
-<a id="orge060dc1"></a>
+<a id="orgbb3ec2b"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021nov07>
 
 
-<a id="org4983a03"></a>
+<a id="orgf0f8426"></a>
 
 ## plan of attack (retreat?)
 
 
-<a id="org0c62035"></a>
+<a id="org02ad724"></a>
 
 ### open the floor to topics
 
 
-<a id="org534ce3d"></a>
+<a id="org0459470"></a>
 
 ### the state of the left-hand junction smart match
 
 1.  the endearing cultural quirks of the raku community
 
 
-<a id="orgba6eb5a"></a>
+<a id="org54e0293"></a>
 
 ### roll your own associative
 
-1.  start using spots as data for demos
 
-    1.  /home/doom/End/Cave/Spots/Output/Nyrlathotep/spots<sub>schema.png</sub>
-    
-    2.  to replicate what I'm doing, you'd need to do this:
-    
-        1.  initialize db using: <https://github.com/doomvox/spots/blob/main/bin/spots_schema.sql>
+<a id="orgda78b69"></a>
+
+### start using spots as data for demos
+
+1.  /home/doom/End/Cave/Spots/Output/Nyrlathotep/spots<sub>schema.png</sub>
+
+2.  to replicate what I'm doing, you'd need to do this:
+
+    1.  initialize db using: <https://github.com/doomvox/spots/blob/main/bin/spots_schema.sql>
 
 
-<a id="org51fcabc"></a>
+<a id="org42fc683"></a>
 
 ## announcements
 
 
-<a id="orga3c6af9"></a>
+<a id="org3ca5c70"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org62d79b7"></a>
+<a id="orgd2123a6"></a>
 
 ## next meeting
 
 
-<a id="org6a5fc70"></a>
+<a id="org80d938e"></a>
 
 ### next meeting: Nov 14, 2021
