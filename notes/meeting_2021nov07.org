@@ -13,7 +13,9 @@
 **** the endearing cultural quirks of the raku community
 ***** programming community camp
 *** roll your own associative
-
+**** spots
+***** 
+***** /home/doom/End/Cave/Spots/Output/Nyrlathotep/spots_schema.png
 ** announcements
 *** the ephemeral miniconf: nov 18 2021
 **** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
