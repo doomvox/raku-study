@@ -20,7 +20,9 @@ say dostuff( all(3,7) );
 say so any(True, False); # True 
 say so all(True, False); # False
 
+my $COUNT;
 sub dostuff( $arg ) {
+    $COUNT++;
     if $arg <= 5 {
         return True;
     } else { 
