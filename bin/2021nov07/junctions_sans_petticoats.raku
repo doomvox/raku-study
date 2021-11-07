@@ -12,7 +12,7 @@ if $a == 3|4 {
 
 
 sub dostuff( $arg ) {
-    if $arg < 3 { True; };
+    if $arg < 3 { return True; };
 }
 
 
