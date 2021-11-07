@@ -72,7 +72,7 @@ use lib ("/home/doom/End/Cave/Perl6/Wall/raku-study/lib/CircularFile");
 use CircularFile::A qw( :all );
 sub c {
   say "Called c...";
-  my $ret = c() || 'c';
+  my $ret = a() || 'a';
   $GLOBAL++;
   if ( $GLOBAL > 4 ) {
     exit;
