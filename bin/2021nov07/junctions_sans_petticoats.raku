@@ -11,7 +11,6 @@ if $a == 3|4 {
 
 my $COUNT;
 
-
 say dostuff( any(3,7) );
 say dostuff( all(3,7) );
 
