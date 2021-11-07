@@ -1,3 +1,12 @@
 * meeting notes November 14, 2021                                      
 ** the raku study group
 *** rockin' that raku sound
+** the usual links:
+*** meeting notes
+**** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov14.md
+*** code examples:
+**** https://github.com/doomvox/raku-study/tree/main/bin/2021nov14
+
+** announcements
+*** the ephemeral miniconf is upon us: nov 18 2021
+**** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
