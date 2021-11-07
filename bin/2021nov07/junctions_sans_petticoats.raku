@@ -21,7 +21,7 @@ say so any(True, False); # True
 say so all(True, False); # False
 
 my $COUNT;
-say "COUNT: $COUNT";
+say "COUNT: $COUNT";  # COUNT: 4
 
 sub dostuff( $arg ) {
     $COUNT++;
