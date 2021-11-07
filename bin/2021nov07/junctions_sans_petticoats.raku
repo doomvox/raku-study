@@ -14,8 +14,12 @@ if $a == 3|4 {
 say dostuff( any(3,7) );
 say dostuff( all(3,7) );
 
-# any(False, False)
-# all(False, False)
+# any(True, False)
+# all(True, False)
+
+say so any(True, False);
+say so all(True, False);
+
 
 sub dostuff( $arg ) {
     if $arg <= 5 {
