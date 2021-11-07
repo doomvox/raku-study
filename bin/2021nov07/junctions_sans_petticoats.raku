@@ -23,7 +23,7 @@ say so all(True, False); # False
 my $COUNT;
 say "COUNT: $COUNT";  # COUNT: 4
 
-sub dostuff( $arg ) :beware_globals {
+sub dostuff( $arg ) {
     $COUNT++;
     if $arg <= 5 {
         return True;
