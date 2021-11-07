@@ -13,7 +13,8 @@
 **** the endearing cultural quirks of the raku community
 ***** programming community camp
 *** roll your own associative
-**** spots
+
+**** spots (data for demos)
 ***** 
 ***** /home/doom/End/Cave/Spots/Output/Nyrlathotep/spots_schema.png
 
