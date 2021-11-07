@@ -1,79 +1,82 @@
-- [meeting notes November 07, 2021](#org03e116b)
-  - [the raku study group](#orgb1e6a1c)
-    - [(Don't you raku the u-boat, you)](#orge5e7975)
-  - [the usual links:](#orgc13de97)
-    - [meeting notes](#orgee0dab0)
-    - [code examples:](#org9398f3f)
-  - [plan of attack (retreat?)](#org3824a59)
-    - [open the floor to topics](#org77b790e)
-    - [the state of the left-hand junction smart match](#orgc59e8cc)
-    - [roll your own associative](#org85f62ba)
-    - [may start using spots as data for demos](#org96fdded)
-  - [announcements](#org5f947c2)
-    - [the ephemeral miniconf: nov 18 2021](#org0b44c8c)
-  - [next meeting](#org0a67ece)
-    - [next meeting: Nov 14, 2021](#org689b303)
+- [meeting notes November 07, 2021](#orgcc5055b)
+  - [the raku study group](#org33e15a0)
+    - [(Don't you raku the u-boat, you)](#orgbcdc1e6)
+  - [the usual links:](#orgb0d2fde)
+    - [meeting notes](#orgcf5068f)
+    - [code examples:](#orgaf7dd7b)
+  - [plan of attack (retreat?)](#org7fd4a30)
+    - [open the floor to topics](#org821ac13)
+    - [the state of the left-hand junction smart match](#org6253729)
+    - [roll your own associative](#org1fcd08b)
+    - [may start using spots as data for demos](#orge70ed5f)
+    - [david christensen on using cpp with perl code to do includes](#orgfd4db8c)
+    - [bruce gray on the weekly challenge:](#orgff258e5)
+    - [Bill's oneliners:](#org79838dc)
+  - [announcements](#org32e1eb3)
+    - [the ephemeral miniconf: nov 18 2021](#orgef39b34)
+  - [next meeting](#orgcba71f3)
+    - [next meeting: Nov 14, 2021](#orgfa40b97)
 
 
-<a id="org03e116b"></a>
+<a id="orgcc5055b"></a>
 
 # meeting notes November 07, 2021
 
 
-<a id="orgb1e6a1c"></a>
+<a id="org33e15a0"></a>
 
 ## the raku study group
 
 
-<a id="orge5e7975"></a>
+<a id="orgbcdc1e6"></a>
 
 ### (Don't you raku the u-boat, you)
 
 
-<a id="orgc13de97"></a>
+<a id="orgb0d2fde"></a>
 
 ## the usual links:
 
 
-<a id="orgee0dab0"></a>
+<a id="orgcf5068f"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov07.md>
 
 
-<a id="org9398f3f"></a>
+<a id="orgaf7dd7b"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021nov07>
 
 
-<a id="org3824a59"></a>
+<a id="org7fd4a30"></a>
 
 ## plan of attack (retreat?)
 
 
-<a id="org77b790e"></a>
+<a id="org821ac13"></a>
 
 ### open the floor to topics
 
 
-<a id="orgc59e8cc"></a>
+<a id="org6253729"></a>
 
 ### the state of the left-hand junction smart match
 
 1.  the endearing cultural quirks of the raku community
 
 
-<a id="org85f62ba"></a>
+<a id="org1fcd08b"></a>
 
 ### roll your own associative
 
 1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczsrw0/?context=3>
 
 
-<a id="org96fdded"></a>
+<a id="orge70ed5f"></a>
 
 ### may start using spots as data for demos
 
@@ -84,23 +87,56 @@
     1.  initialize db using: <https://github.com/doomvox/spots/blob/main/bin/spots_schema.sql>
 
 
-<a id="org5f947c2"></a>
+<a id="orgfd4db8c"></a>
+
+### david christensen on using cpp with perl code to do includes
+
+1.  Filter::cpp
+
+
+<a id="orgff258e5"></a>
+
+### bruce gray on the weekly challenge:
+
+
+<a id="org79838dc"></a>
+
+### Bill's oneliners:
+
+1.  <https://unix.stackexchange.com/a/676476/227738>
+
+2.  <https://unix.stackexchange.com/a/676180/227738>
+
+3.  <https://unix.stackexchange.com/a/675961/227738>
+
+4.  <https://unix.stackexchange.com/a/675674/227738>
+
+5.  <https://unix.stackexchange.com/a/675581/227738>
+
+6.  <https://unix.stackexchange.com/a/675007/227738>
+
+7.  <https://unix.stackexchange.com/a/674571/227738>
+
+8.  <https://unix.stackexchange.com/a/674566/227738>
+
+
+<a id="org32e1eb3"></a>
 
 ## announcements
 
 
-<a id="org0b44c8c"></a>
+<a id="orgef39b34"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org0a67ece"></a>
+<a id="orgcba71f3"></a>
 
 ## next meeting
 
 
-<a id="org689b303"></a>
+<a id="orgfa40b97"></a>
 
 ### next meeting: Nov 14, 2021
