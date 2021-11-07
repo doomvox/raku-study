@@ -17,8 +17,8 @@ say dostuff( all(3,7) );
 # any(True, False)
 # all(True, False)
 
-say so any(True, False);
-say so all(True, False);
+say so any(True, False); # True 
+say so all(True, False); # False
 
 
 sub dostuff( $arg ) {
