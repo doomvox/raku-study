@@ -1,84 +1,84 @@
-- [meeting notes November 14, 2021](#org1aa434d)
-  - [the raku study group](#org3bac680)
-    - [rockin' that raku sound](#orgc69303f)
-  - [the usual links:](#org283288b)
-    - [meeting notes](#org25f763e)
-    - [code examples:](#orgae6430e)
-  - [whither goest?](#org8a21bfb)
-    - [what's up lately](#orgd02bf00)
-  - [announcements](#org71c78a7)
-    - [the ephemeral miniconf is upon us: nov 18 2021](#orgf23d814)
-  - [next meeting](#orgce4218c)
-    - [next meeting: damned if I know.](#org6d4e52a)
-    - [Anyone want to try Nov 28, 2021?](#org5e405a1)
+- [meeting notes November 14, 2021](#org2a315fe)
+  - [the raku study group](#org48a5a62)
+    - [rockin' that raku sound](#org1986498)
+  - [the usual links:](#org785f709)
+    - [meeting notes](#org3a9165a)
+    - [code examples:](#org1dafc2a)
+  - [whither goest?](#orgc7b3195)
+    - [what's up lately](#org5782d3f)
+  - [announcements](#org454bef8)
+    - [the ephemeral miniconf is upon us: nov 18 2021](#org66f5d93)
+  - [next meeting](#org5876ef7)
+    - [next meeting: damned if I know.](#orge3ae5bf)
+    - [Anyone want to try Nov 28, 2021?](#org208a592)
 
 
-<a id="org1aa434d"></a>
+<a id="org2a315fe"></a>
 
 # meeting notes November 14, 2021
 
 
-<a id="org3bac680"></a>
+<a id="org48a5a62"></a>
 
 ## the raku study group
 
 
-<a id="orgc69303f"></a>
+<a id="org1986498"></a>
 
 ### rockin' that raku sound
 
 
-<a id="org283288b"></a>
+<a id="org785f709"></a>
 
 ## the usual links:
 
 
-<a id="org25f763e"></a>
+<a id="org3a9165a"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov14.md>
 
 
-<a id="orgae6430e"></a>
+<a id="org1dafc2a"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021nov14>
 
 
-<a id="org8a21bfb"></a>
+<a id="orgc7b3195"></a>
 
 ## whither goest?
 
 
-<a id="orgd02bf00"></a>
+<a id="org5782d3f"></a>
 
 ### what's up lately
 
 
-<a id="org71c78a7"></a>
+<a id="org454bef8"></a>
 
 ## announcements
 
 
-<a id="orgf23d814"></a>
+<a id="org66f5d93"></a>
 
 ### the ephemeral miniconf is upon us: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="orgce4218c"></a>
+<a id="org5876ef7"></a>
 
 ## next meeting
 
 
-<a id="org6d4e52a"></a>
+<a id="orge3ae5bf"></a>
 
 ### next meeting: damned if I know.
 
 
-<a id="org5e405a1"></a>
+<a id="org208a592"></a>
 
 ### Anyone want to try Nov 28, 2021?
