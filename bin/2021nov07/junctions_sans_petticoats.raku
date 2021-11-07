@@ -13,7 +13,6 @@ if $a == 3|4 {
 
 say dostuff( any(3,4) );
 
-
 sub dostuff( $arg ) {
     if $arg < 3 {
         return True;
