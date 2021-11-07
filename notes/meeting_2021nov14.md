@@ -1,66 +1,72 @@
-- [meeting notes November 14, 2021](#org71c6109)
-  - [the raku study group](#org9dd3905)
-    - [rockin' that raku sound](#orga4039e3)
-  - [the usual links:](#org8240715)
-    - [meeting notes](#org8cced63)
-    - [code examples:](#org22fc4a8)
-  - [announcements](#org9dfddb6)
-    - [the ephemeral miniconf is upon us: nov 18 2021](#org67f920c)
-  - [next meeting](#orgd7f6272)
-    - [next meeting: damned if I know](#orgbd048e7)
+- [meeting notes November 14, 2021](#orgab149ee)
+  - [the raku study group](#org22fa768)
+    - [rockin' that raku sound](#orgb761a6a)
+  - [the usual links:](#orga06b04f)
+    - [meeting notes](#org2ac07e9)
+    - [code examples:](#org374cf62)
+  - [announcements](#orgd0d2f80)
+    - [the ephemeral miniconf is upon us: nov 18 2021](#org2fd5a41)
+  - [next meeting](#org436b327)
+    - [next meeting: damned if I know.](#org083ec6e)
+    - [Anyone want to try Nov 28, 2021?](#orga47b8da)
 
 
-<a id="org71c6109"></a>
+<a id="orgab149ee"></a>
 
 # meeting notes November 14, 2021
 
 
-<a id="org9dd3905"></a>
+<a id="org22fa768"></a>
 
 ## the raku study group
 
 
-<a id="orga4039e3"></a>
+<a id="orgb761a6a"></a>
 
 ### rockin' that raku sound
 
 
-<a id="org8240715"></a>
+<a id="orga06b04f"></a>
 
 ## the usual links:
 
 
-<a id="org8cced63"></a>
+<a id="org2ac07e9"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov14.md>
 
 
-<a id="org22fc4a8"></a>
+<a id="org374cf62"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021nov14>
 
 
-<a id="org9dfddb6"></a>
+<a id="orgd0d2f80"></a>
 
 ## announcements
 
 
-<a id="org67f920c"></a>
+<a id="org2fd5a41"></a>
 
 ### the ephemeral miniconf is upon us: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="orgd7f6272"></a>
+<a id="org436b327"></a>
 
 ## next meeting
 
 
-<a id="orgbd048e7"></a>
+<a id="org083ec6e"></a>
 
-### next meeting: damned if I know
+### next meeting: damned if I know.
+
+
+<a id="orga47b8da"></a>
+
+### Anyone want to try Nov 28, 2021?

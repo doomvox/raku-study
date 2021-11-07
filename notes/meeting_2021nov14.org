@@ -12,4 +12,5 @@
 **** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
 
 ** next meeting
-*** TODO next meeting: damned if I know
+*** TODO next meeting: damned if I know.
+*** Anyone want to try Nov 28, 2021?
