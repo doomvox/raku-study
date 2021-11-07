@@ -7,8 +7,10 @@ use v6;
 my $a = 3;
 
 if $a == 3|4 {
-
+    say "truish!";
 } 
+
+my $COUNT;
 
 
 say dostuff( any(3,7) );
@@ -20,7 +22,6 @@ say dostuff( all(3,7) );
 say so any(True, False); # True 
 say so all(True, False); # False
 
-my $COUNT;
 say "COUNT: $COUNT";  # COUNT: 4
 
 sub dostuff( $arg ) {
