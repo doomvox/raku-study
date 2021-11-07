@@ -5,9 +5,8 @@
 use v6;
 
 my $a = 3;
-
 if $a == 3|4 {
-    say "truish!";
+    say "truish!";   # truish!
 } 
 
 my $COUNT;
