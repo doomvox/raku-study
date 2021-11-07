@@ -15,7 +15,7 @@ say dostuff( any(3,4) );
 say dostuff( all(3,4) );
 
 sub dostuff( $arg ) {
-    if $arg < 2 {
+    if $arg < 1 {
         return True;
     } else { 
         return False;
