@@ -105,8 +105,8 @@ See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 #+BEGIN_SRC sh
 git branch                             # list branches
 git branch -r                          # list remote branches
-git branch new_feature_experiment
-git checkout new_feature_experiment
+git branch new_feature_experiment      # create new branch
+git checkout new_feature_experiment    # switch to a branch
 
 # when happy with state of branch
 git checkout master                    # return to original main branch

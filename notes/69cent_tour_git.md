@@ -1,23 +1,23 @@
-- [69 cent tour of git](#org1796c1c)
-  - [some stops on the tour](#org3e4464d)
-    - [first stop: using an existing git repo, e.g.](#org3dba035)
-    - [second stop: create a new git repo](#orga9613ec)
-    - [third stop: putting that new git repo on github](#org2a0df6e)
-    - [fourth stop: haven't covered the cool stuff](#orgcae4ee0)
-    - [fifth stop: things you will not do with git](#orgd114a50)
+- [69 cent tour of git](#orgb22d6b9)
+  - [some stops on the tour](#orgcf70454)
+    - [first stop: using an existing git repo, e.g.](#org09c6d03)
+    - [second stop: create a new git repo](#orged9c611)
+    - [third stop: putting that new git repo on github](#orgf3f58c7)
+    - [fourth stop: haven't covered the cool stuff](#org789d415)
+    - [fifth stop: things you will not do with git](#orgc6a807f)
 
 
-<a id="org1796c1c"></a>
+<a id="orgb22d6b9"></a>
 
 # 69 cent tour of git
 
 
-<a id="org3e4464d"></a>
+<a id="orgcf70454"></a>
 
 ## some stops on the tour
 
 
-<a id="org3dba035"></a>
+<a id="org09c6d03"></a>
 
 ### first stop: using an existing git repo, e.g.
 
@@ -126,7 +126,7 @@
     ```
 
 
-<a id="orga9613ec"></a>
+<a id="orged9c611"></a>
 
 ### second stop: create a new git repo
 
@@ -157,7 +157,7 @@
     ```
 
 
-<a id="org2a0df6e"></a>
+<a id="orgf3f58c7"></a>
 
 ### third stop: putting that new git repo on github
 
@@ -168,13 +168,13 @@
     See: /home/doom/End/Cave/Ice/Xtal/Git/github.org
 
 
-<a id="orgcae4ee0"></a>
+<a id="org789d415"></a>
 
 ### fourth stop: haven't covered the cool stuff
 
 1.  branching and merging
 
-    \#+BEGIN<sub>SRC</sub> sh git branch # list branches git branch -r # list remote branches git branch new<sub>feature</sub><sub>experiment</sub> git checkout new<sub>feature</sub><sub>experiment</sub>
+    \#+BEGIN<sub>SRC</sub> sh git branch # list branches git branch -r # list remote branches git branch new<sub>feature</sub><sub>experiment</sub> # create new branch git checkout new<sub>feature</sub><sub>experiment</sub> # switch to a branch
     
     git checkout master # return to original main branch git merge new<sub>feature</sub><sub>experiment</sub> # import work from branch \\#+END<sub>SRC</sub> sh
 
@@ -221,7 +221,7 @@
         2.  not sure it's scriptable
 
 
-<a id="orgd114a50"></a>
+<a id="orgc6a807f"></a>
 
 ### fifth stop: things you will not do with git
 
