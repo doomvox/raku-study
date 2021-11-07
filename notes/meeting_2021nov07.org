@@ -11,7 +11,7 @@
 *** open the floor to topics
 *** the state of the left-hand junction smart match
 **** the endearing cultural quirks of the raku community
-***** programming community camp
+***** (camp programming community)
 *** roll your own associative
 
 **** using spots as data for demos
