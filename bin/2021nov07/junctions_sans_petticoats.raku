@@ -18,7 +18,7 @@ say dostuff( all(3,4) );
 # all(False, False)
 
 sub dostuff( $arg ) {
-    if $arg < 3 {
+    if $arg < 5 {
         return True;
     } else { 
         return False;
