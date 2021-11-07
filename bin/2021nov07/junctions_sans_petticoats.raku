@@ -9,7 +9,7 @@ if $a == 3|4 {
     say "truish!";   # truish!
 } 
 
-my $COUNT;
+my $COUNT;  # GLOBAL
 
 say dostuff( any(3,7) );
 say dostuff( all(3,7) );
