@@ -16,6 +16,7 @@
 **** spots
 ***** 
 ***** /home/doom/End/Cave/Spots/Output/Nyrlathotep/spots_schema.png
+
 ** announcements
 *** the ephemeral miniconf: nov 18 2021
 **** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
