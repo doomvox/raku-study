@@ -73,7 +73,7 @@ use CircularFile::A qw( :all );
 sub c {
   say "Called c...";
   my $ret = a() || 'a';
-  say $GLOBAL++;
+  $GLOBAL++;
   
   if ( $GLOBAL > 4 ) {
     exit;
