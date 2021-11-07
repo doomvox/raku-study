@@ -26,6 +26,14 @@
 
 *** bruce gray on the weekly challenge:
 
+**** https://www.asciitable.com/ 
+**** https://stackoverflow.com/questions/2009526/are-comments-always-processed-before-the-preprocessor 
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-137/#TASK1
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-137/#TASK2
+**** https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-137/challenge-137/bruce-gray/raku/ch-1.raku
+**** https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-137/challenge-137/bruce-gray/raku/ch-2.raku 
+
 
 *** Bill's oneliners:
 **** https://unix.stackexchange.com/a/676476/227738
