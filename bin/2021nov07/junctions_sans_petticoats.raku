@@ -20,7 +20,6 @@ say dostuff( all(3,7) );
 say so any(True, False); # True 
 say so all(True, False); # False
 
-
 sub dostuff( $arg ) {
     if $arg <= 5 {
         return True;
