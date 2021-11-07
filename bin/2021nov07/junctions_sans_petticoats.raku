@@ -33,11 +33,13 @@ sub dostuff( $arg ) {
 }
 
 
+## 
+
 sub generate_function {
     return sub { ... };
 }
-
 my $anonymous_1 = generate_function();
+
 
 
 # ===
