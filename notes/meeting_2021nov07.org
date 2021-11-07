@@ -14,7 +14,7 @@
 
 *** roll your own associative
 
-**** using spots as data for demos
+**** start using spots as data for demos
 ***** /home/doom/End/Cave/Spots/Output/Nyrlathotep/spots_schema.png
 ***** to replicate what I'm doing, you'd need to do this:
 ****** initialize db using: https://github.com/doomvox/spots/blob/main/bin/spots_schema.sql
