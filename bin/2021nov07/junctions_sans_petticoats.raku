@@ -13,6 +13,9 @@ if $a == 3|4 {
 
 say dostuff( any(3,4) );
 say dostuff( all(3,4) );
+# any(False, False)
+# all(False, False)
+
 
 sub dostuff( $arg ) {
     if $arg < 1 {
