@@ -74,7 +74,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021jul11/round_to_nearest_1
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2021may30/spots_data_container_class.raku
 
 ** david christensen expounds on erlang compared to raku and perl
-*** larry wall talk abour raku at Erlang with Joe Armstrong
+*** larry wall talk about raku at Erlang with Joe Armstrong
 https://www.youtube.com/watch?v=SpH9BTMZKXc
 **** "representational polymorphic"
 
