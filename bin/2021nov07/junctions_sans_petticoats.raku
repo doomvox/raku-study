@@ -21,6 +21,7 @@ say so any(True, False); # True
 say so all(True, False); # False
 
 say "COUNT: $COUNT";  # COUNT: 4
+# Raku doesn't care if your function has side-effects. Conclusion: watch back.
 
 sub dostuff( $arg ) {
     $COUNT++;
