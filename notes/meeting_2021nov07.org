@@ -12,14 +12,6 @@
 *** the state of the left-hand junction smart match
 **** the endearing cultural quirks of the raku community
 
-*** roll your own associative
-**** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczsrw0/?context=3
-
-*** may start using 'spots' as data for demos
-**** /home/doom/End/Cave/Spots/Output/Nyrlathotep/spots_schema.png
-**** to replicate what I do, you'd need to do this:
-***** initialize db using: https://github.com/doomvox/spots/blob/main/bin/spots_schema.sql
-
 *** david christensen on using cpp with perl code to do includes
 **** Filter::cpp
 **** https://stackoverflow.com/questions/2009526/are-comments-always-processed-before-the-preprocessor 
