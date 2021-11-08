@@ -40,7 +40,6 @@
 **** https://unix.stackexchange.com/a/674571/227738
 **** https://unix.stackexchange.com/a/674566/227738
 
-
 ** announcements
 *** the ephemeral miniconf: nov 18 2021
 **** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j

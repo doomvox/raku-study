@@ -1,82 +1,82 @@
-- [meeting notes November 07, 2021](#orgfefd526)
-  - [the raku study group](#orgd0826ca)
-    - [(Don't you raku the u-boat, you)](#org1e93fea)
-  - [the usual links:](#org26208bd)
-    - [meeting notes](#org7f2941b)
-    - [code examples:](#org9090ace)
-  - [plan of attack (retreat?)](#org9350ffb)
-    - [open the floor to topics](#orge74deda)
-    - [the state of the left-hand junction smart match](#org8aaab78)
-    - [roll your own associative](#org56de01a)
-    - [may start using 'spots' as data for demos](#orga209f42)
-    - [david christensen on using cpp with perl code to do includes](#org5ac1262)
-    - [bruce gray on the weekly challenge:](#orgaa67964)
-    - [Bill's oneliners:](#orgb9bf470)
-  - [announcements](#org66a04ea)
-    - [the ephemeral miniconf: nov 18 2021](#org87ed1ba)
-  - [next meeting](#org2f7aca0)
-    - [next meeting: Nov 14, 2021](#orga7a78ef)
+- [meeting notes November 07, 2021](#orgb385e23)
+  - [the raku study group](#org6dd0597)
+    - [(Don't you raku the u-boat, you)](#orge2cd172)
+  - [the usual links:](#orgc483c6e)
+    - [meeting notes](#org6699d21)
+    - [code examples:](#org1b78084)
+  - [plan of attack (retreat?)](#org9e291be)
+    - [open the floor to topics](#orgf0760eb)
+    - [the state of the left-hand junction smart match](#org7e42ac4)
+    - [roll your own associative](#orge493676)
+    - [may start using 'spots' as data for demos](#org3e322b8)
+    - [david christensen on using cpp with perl code to do includes](#orge382cfa)
+    - [bruce gray on the weekly challenge:](#orge620882)
+    - [Bill's oneliners:](#org3f4280e)
+  - [announcements](#orgb9a1016)
+    - [the ephemeral miniconf: nov 18 2021](#org15d3187)
+  - [next meeting](#org851d774)
+    - [next meeting: Nov 14, 2021](#orgd46c38c)
 
 
-<a id="orgfefd526"></a>
+<a id="orgb385e23"></a>
 
 # meeting notes November 07, 2021
 
 
-<a id="orgd0826ca"></a>
+<a id="org6dd0597"></a>
 
 ## the raku study group
 
 
-<a id="org1e93fea"></a>
+<a id="orge2cd172"></a>
 
 ### (Don't you raku the u-boat, you)
 
 
-<a id="org26208bd"></a>
+<a id="orgc483c6e"></a>
 
 ## the usual links:
 
 
-<a id="org7f2941b"></a>
+<a id="org6699d21"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov07.md>
 
 
-<a id="org9090ace"></a>
+<a id="org1b78084"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021nov07>
 
 
-<a id="org9350ffb"></a>
+<a id="org9e291be"></a>
 
 ## plan of attack (retreat?)
 
 
-<a id="orge74deda"></a>
+<a id="orgf0760eb"></a>
 
 ### open the floor to topics
 
 
-<a id="org8aaab78"></a>
+<a id="org7e42ac4"></a>
 
 ### the state of the left-hand junction smart match
 
 1.  the endearing cultural quirks of the raku community
 
 
-<a id="org56de01a"></a>
+<a id="orge493676"></a>
 
 ### roll your own associative
 
 1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczsrw0/?context=3>
 
 
-<a id="orga209f42"></a>
+<a id="org3e322b8"></a>
 
 ### may start using 'spots' as data for demos
 
@@ -87,7 +87,7 @@
     1.  initialize db using: <https://github.com/doomvox/spots/blob/main/bin/spots_schema.sql>
 
 
-<a id="org5ac1262"></a>
+<a id="orge382cfa"></a>
 
 ### david christensen on using cpp with perl code to do includes
 
@@ -96,7 +96,7 @@
 2.  <https://stackoverflow.com/questions/2009526/are-comments-always-processed-before-the-preprocessor>
 
 
-<a id="orgaa67964"></a>
+<a id="orge620882"></a>
 
 ### bruce gray on the weekly challenge:
 
@@ -109,7 +109,7 @@
 4.  <https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-137/challenge-137/bruce-gray/raku/ch-2.raku>
 
 
-<a id="orgb9bf470"></a>
+<a id="org3f4280e"></a>
 
 ### Bill's oneliners:
 
@@ -130,23 +130,23 @@
 8.  <https://unix.stackexchange.com/a/674566/227738>
 
 
-<a id="org66a04ea"></a>
+<a id="orgb9a1016"></a>
 
 ## announcements
 
 
-<a id="org87ed1ba"></a>
+<a id="org15d3187"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org2f7aca0"></a>
+<a id="org851d774"></a>
 
 ## next meeting
 
 
-<a id="orga7a78ef"></a>
+<a id="orgd46c38c"></a>
 
 ### next meeting: Nov 14, 2021
