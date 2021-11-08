@@ -11,6 +11,7 @@
 *** open the floor to topics
 *** the state of the left-hand junction smart match
 **** the endearing cultural quirks of the raku community
+**** TODO is it a correctness problem, or a performance problem?  why not live with a performance hit on LH junctions?
 
 *** david christensen on using cpp with perl code to do includes
 **** Filter::cpp

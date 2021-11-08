@@ -1,73 +1,75 @@
-- [meeting notes November 07, 2021](#org091e4b6)
-  - [the raku study group](#org8a4c202)
-    - [(Don't you raku the u-boat, you)](#org2fb67fa)
-  - [the usual links:](#orgffeabc4)
-    - [meeting notes](#orgdb6d951)
-    - [code examples:](#org1d8b494)
-  - [plan of attack (retreat?)](#org17be5e5)
-    - [open the floor to topics](#org2416ee1)
-    - [the state of the left-hand junction smart match](#org5b06653)
-    - [david christensen on using cpp with perl code to do includes](#orgddd0b35)
-    - [bruce gray on the weekly challenge:](#orgfde3c91)
-    - [Bill's oneliners:](#orgdc11ded)
-  - [announcements](#org22bdb77)
-    - [the ephemeral miniconf: nov 18 2021](#org77485d1)
-  - [next meeting](#org4c9c2d3)
-    - [next meeting: Nov 14, 2021](#org2c64f89)
+- [meeting notes November 07, 2021](#org6dd3ddf)
+  - [the raku study group](#org326b611)
+    - [(Don't you raku the u-boat, you)](#org687fba5)
+  - [the usual links:](#org97cad78)
+    - [meeting notes](#org9b617fb)
+    - [code examples:](#org84e6112)
+  - [plan of attack (retreat?)](#orgdaca621)
+    - [open the floor to topics](#org39baa20)
+    - [the state of the left-hand junction smart match](#orga470531)
+    - [david christensen on using cpp with perl code to do includes](#org344e84f)
+    - [bruce gray on the weekly challenge:](#orgc8c1917)
+    - [Bill's oneliners:](#org584142a)
+  - [announcements](#org62b519c)
+    - [the ephemeral miniconf: nov 18 2021](#org40ca34d)
+  - [next meeting](#org8e5239e)
+    - [next meeting: Nov 14, 2021](#org50c55a1)
 
 
-<a id="org091e4b6"></a>
+<a id="org6dd3ddf"></a>
 
 # meeting notes November 07, 2021
 
 
-<a id="org8a4c202"></a>
+<a id="org326b611"></a>
 
 ## the raku study group
 
 
-<a id="org2fb67fa"></a>
+<a id="org687fba5"></a>
 
 ### (Don't you raku the u-boat, you)
 
 
-<a id="orgffeabc4"></a>
+<a id="org97cad78"></a>
 
 ## the usual links:
 
 
-<a id="orgdb6d951"></a>
+<a id="org9b617fb"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov07.md>
 
 
-<a id="org1d8b494"></a>
+<a id="org84e6112"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021nov07>
 
 
-<a id="org17be5e5"></a>
+<a id="orgdaca621"></a>
 
 ## plan of attack (retreat?)
 
 
-<a id="org2416ee1"></a>
+<a id="org39baa20"></a>
 
 ### open the floor to topics
 
 
-<a id="org5b06653"></a>
+<a id="orga470531"></a>
 
 ### the state of the left-hand junction smart match
 
 1.  the endearing cultural quirks of the raku community
 
+2.  TODO is it a correctness problem, or a performance problem?  why not live with a performance hit on LH junctions?
 
-<a id="orgddd0b35"></a>
+
+<a id="org344e84f"></a>
 
 ### david christensen on using cpp with perl code to do includes
 
@@ -76,7 +78,7 @@
 2.  <https://stackoverflow.com/questions/2009526/are-comments-always-processed-before-the-preprocessor>
 
 
-<a id="orgfde3c91"></a>
+<a id="orgc8c1917"></a>
 
 ### bruce gray on the weekly challenge:
 
@@ -89,7 +91,7 @@
 4.  <https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-137/challenge-137/bruce-gray/raku/ch-2.raku>
 
 
-<a id="orgdc11ded"></a>
+<a id="org584142a"></a>
 
 ### Bill's oneliners:
 
@@ -110,23 +112,23 @@
 8.  <https://unix.stackexchange.com/a/674566/227738>
 
 
-<a id="org22bdb77"></a>
+<a id="org62b519c"></a>
 
 ## announcements
 
 
-<a id="org77485d1"></a>
+<a id="org40ca34d"></a>
 
 ### the ephemeral miniconf: nov 18 2021
 
 1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
 
 
-<a id="org4c9c2d3"></a>
+<a id="org8e5239e"></a>
 
 ## next meeting
 
 
-<a id="org2c64f89"></a>
+<a id="org50c55a1"></a>
 
 ### next meeting: Nov 14, 2021
