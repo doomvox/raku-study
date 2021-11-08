@@ -31,7 +31,6 @@
 **** https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-137/challenge-137/bruce-gray/raku/ch-1.raku
 **** https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-137/challenge-137/bruce-gray/raku/ch-2.raku 
 
-
 *** Bill's oneliners:
 **** https://unix.stackexchange.com/a/676476/227738
 **** https://unix.stackexchange.com/a/676180/227738
