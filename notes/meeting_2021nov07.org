@@ -20,7 +20,6 @@
 **** to replicate what I do, you'd need to do this:
 ***** initialize db using: https://github.com/doomvox/spots/blob/main/bin/spots_schema.sql
 
-
 *** david christensen on using cpp with perl code to do includes
 **** Filter::cpp
 **** https://stackoverflow.com/questions/2009526/are-comments-always-processed-before-the-preprocessor 
