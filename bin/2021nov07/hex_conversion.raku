@@ -18,6 +18,7 @@ say :16<FFFF>;
 
 # Note: .Num would inadvertantly (silently) mess with the result:
 0x0000000000000000000000000000000000000000047546124890225541102135415377465907.Num.base(10).put;
+# 388355321549592131276271723329077324546048
 
 # ===
 # Author:  doom@kzsu.stanford.edu
