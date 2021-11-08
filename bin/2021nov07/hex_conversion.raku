@@ -5,8 +5,9 @@
 use v6;
 
 say :16<DEAD_BEEF>;
+# 3735928559
 
-
+say :16<FFFF>;
 
 # ===
 # Author:  doom@kzsu.stanford.edu
