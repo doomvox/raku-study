@@ -1,73 +1,71 @@
-- [meeting notes November 21, 2021](#org60cf86a)
-  - [the raku study group](#org30de0ac)
-    - [rockin' that raku sound](#org716a201)
-  - [the usual links:](#org4854be2)
-    - [meeting notes](#org591859a)
-    - [code examples:](#org9b45c82)
-  - [whither goest?](#org716e989)
-    - [what's up lately](#orge9ba82d)
-    - [roll your own associative](#org9aa8763)
-    - [may start using 'spots' as data for demos](#org6df0ca0)
-  - [announcements](#orga50f060)
-    - [the ephemeral miniconf is upon us: nov 18 2021](#orge791f3f)
-  - [next meeting](#org0117bea)
-    - [next meeting: damned if I know.](#org5146f41)
+- [meeting notes November 21, 2021](#org16cf65e)
+  - [the raku study group](#org6aa2657)
+    - [rockin' that raku sound](#org08ea56c)
+  - [the usual links:](#orga30e74b)
+    - [meeting notes](#orgf23f300)
+    - [code examples:](#org087f5e4)
+  - [whither goest?](#orgfbbdff0)
+    - [what's up lately](#org39eb3e5)
+    - [roll your own associative](#org787f128)
+    - [may start using 'spots' as data for demos](#org8e6b1cd)
+  - [next meeting](#org4b072d9)
+    - [next meeting: damned if I know.](#org79fed8d)
 
 
-<a id="org60cf86a"></a>
+<a id="org16cf65e"></a>
 
 # meeting notes November 21, 2021
 
 
-<a id="org30de0ac"></a>
+<a id="org6aa2657"></a>
 
 ## the raku study group
 
 
-<a id="org716a201"></a>
+<a id="org08ea56c"></a>
 
 ### rockin' that raku sound
 
 
-<a id="org4854be2"></a>
+<a id="orga30e74b"></a>
 
 ## the usual links:
 
 
-<a id="org591859a"></a>
+<a id="orgf23f300"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov14.md>
 
 
-<a id="org9b45c82"></a>
+<a id="org087f5e4"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021nov14>
 
 
-<a id="org716e989"></a>
+<a id="orgfbbdff0"></a>
 
 ## whither goest?
 
 
-<a id="orge9ba82d"></a>
+<a id="org39eb3e5"></a>
 
 ### what's up lately
 
 1.  anyone catch the ephemeral miniconf?
 
 
-<a id="org9aa8763"></a>
+<a id="org787f128"></a>
 
 ### roll your own associative
 
 1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczsrw0/?context=3>
 
 
-<a id="org6df0ca0"></a>
+<a id="org8e6b1cd"></a>
 
 ### may start using 'spots' as data for demos
 
@@ -78,23 +76,11 @@
     1.  initialize db using: <https://github.com/doomvox/spots/blob/main/bin/spots_schema.sql>
 
 
-<a id="orga50f060"></a>
-
-## announcements
-
-
-<a id="orge791f3f"></a>
-
-### the ephemeral miniconf is upon us: nov 18 2021
-
-1.  <https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j>
-
-
-<a id="org0117bea"></a>
+<a id="org4b072d9"></a>
 
 ## next meeting
 
 
-<a id="org5146f41"></a>
+<a id="org79fed8d"></a>
 
 ### next meeting: damned if I know.

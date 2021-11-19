@@ -19,11 +19,6 @@
 **** to replicate what I do, you'd need to do this:
 ***** initialize db using: https://github.com/doomvox/spots/blob/main/bin/spots_schema.sql
 
-
-** announcements
-*** the ephemeral miniconf is upon us: nov 18 2021
-**** https://dev.to/thibaultduponchelle/the-ephemeral-miniconf-292j
-
 ** next meeting
 *** TODO next meeting: damned if I know.
 
