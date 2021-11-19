@@ -1,4 +1,4 @@
-* meeting notes November 14, 2021                                      
+* meeting notes November 21, 2021                                      
 ** the raku study group
 *** rockin' that raku sound
 ** the usual links:
@@ -25,4 +25,4 @@
 
 ** next meeting
 *** TODO next meeting: damned if I know.
-*** Anyone want to try Nov 28, 2021?
+
