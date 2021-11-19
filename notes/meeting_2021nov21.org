@@ -9,6 +9,7 @@
 
 ** whither goest?
 *** what's up lately
+**** anyone catch the ephemeral miniconf?  
 
 *** roll your own associative
 **** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczsrw0/?context=3
