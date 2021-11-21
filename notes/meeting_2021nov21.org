@@ -10,7 +10,9 @@
 ** agenda 
 *** s//// vs .subst
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/11/msg10273.html
-*** 
+*** doom: being obnoxious 
+*** bruce gray challenge:
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-138/ 
 
 
 ** whither goest?
