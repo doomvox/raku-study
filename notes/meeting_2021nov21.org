@@ -11,7 +11,7 @@
 *** s//// vs .subst
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/11/msg10273.html
 
-*** doom: about static typing vs tests
+*** doomvox: about static typing vs tests
 **** https://www.reddit.com/r/programmingcirclejerk/comments/qvpasg/the_real_purpose_of_typescript_is_job_creation/hkybolj/ 
 
 *** bruce gray challenge:
