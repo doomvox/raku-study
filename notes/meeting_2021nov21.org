@@ -41,9 +41,6 @@
 **** https://unix.stackexchange.com/a/676824/227738 
 **** https://unix.stackexchange.com/a/676629/227738 
 
-**** https://www.meetup.com/Toronto-Perl-Mongers 
-**** https://www.meetup.com/ChicagoPM 
-**** https://www.meetup.com/The-New-York-Perl-Meetup-Group 
 
 
 *** roll your own associative
@@ -52,6 +49,10 @@
 ** announcements
 *** https://www.meetup.com/charlotte-pm/ 
 *** https://www.meetup.com/Toronto-Perl-Mongers 
+
+*** https://www.meetup.com/Toronto-Perl-Mongers 
+*** https://www.meetup.com/ChicagoPM 
+*** https://www.meetup.com/The-New-York-Perl-Meetup-Group 
 
 
 ** next meeting
