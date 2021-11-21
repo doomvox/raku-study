@@ -13,7 +13,6 @@
 *** doom: about static typing vs tests
 **** https://www.reddit.com/r/programmingcirclejerk/comments/qvpasg/the_real_purpose_of_typescript_is_job_creation/hkybolj/ 
 
-
 *** bruce gray challenge:
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-138/
 *** post video?

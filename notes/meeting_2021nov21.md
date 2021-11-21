@@ -1,82 +1,82 @@
-- [meeting notes November 21, 2021](#orgbf88469)
-  - [the raku study group](#org8e6e7fe)
-    - [rockin' that raku sound](#org79fbff6)
-  - [the usual links:](#org79ee82a)
-    - [meeting notes](#org4228963)
-    - [code examples:](#orgf598aab)
-  - [agenda](#orgbb4c934)
-    - [s//// vs .subst](#org78c4e1c)
-    - [doom: about static typing vs tests](#orgef4aeaa)
-    - [bruce gray challenge:](#orga58cbd6)
-    - [post video?](#orgbea98ef)
-    - [clifton working on gnome modules for raku, glib](#orgbae3d41)
-    - [Alan recommends the video "The Worst Programming Language"](#org09aaef8)
-    - [roll your own associative](#orgbad28d6)
-  - [next meeting](#orgcf11baf)
-    - [next meeting: december 5](#org4cf68b7)
+- [meeting notes November 21, 2021](#orgcf6f381)
+  - [the raku study group](#org7452f51)
+    - [rockin' that raku sound](#orgbaa4a7a)
+  - [the usual links:](#orgc7b909e)
+    - [meeting notes](#org26b653b)
+    - [code examples:](#org0802554)
+  - [agenda](#orgd5b2851)
+    - [s//// vs .subst](#org97aca8d)
+    - [doom: about static typing vs tests](#org097972d)
+    - [bruce gray challenge:](#orgb394b03)
+    - [post video?](#org63cd01a)
+    - [clifton working on gnome modules for raku, glib](#org0091c94)
+    - [Alan recommends the video "The Worst Programming Language"](#org4fef739)
+    - [roll your own associative](#orgad57c76)
+  - [next meeting](#org3df9531)
+    - [next meeting: december 5](#org6a9d1dc)
 
 
-<a id="orgbf88469"></a>
+<a id="orgcf6f381"></a>
 
 # meeting notes November 21, 2021
 
 
-<a id="org8e6e7fe"></a>
+<a id="org7452f51"></a>
 
 ## the raku study group
 
 
-<a id="org79fbff6"></a>
+<a id="orgbaa4a7a"></a>
 
 ### rockin' that raku sound
 
 
-<a id="org79ee82a"></a>
+<a id="orgc7b909e"></a>
 
 ## the usual links:
 
 
-<a id="org4228963"></a>
+<a id="org26b653b"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov14.md>
 
 
-<a id="orgf598aab"></a>
+<a id="org0802554"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021nov14>
 
 
-<a id="orgbb4c934"></a>
+<a id="orgd5b2851"></a>
 
 ## agenda
 
 
-<a id="org78c4e1c"></a>
+<a id="org97aca8d"></a>
 
 ### s//// vs .subst
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/11/msg10273.html>
 
 
-<a id="orgef4aeaa"></a>
+<a id="org097972d"></a>
 
 ### doom: about static typing vs tests
 
 1.  <https://www.reddit.com/r/programmingcirclejerk/comments/qvpasg/the_real_purpose_of_typescript_is_job_creation/hkybolj/>
 
 
-<a id="orga58cbd6"></a>
+<a id="orgb394b03"></a>
 
 ### bruce gray challenge:
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-138/>
 
 
-<a id="orgbea98ef"></a>
+<a id="org63cd01a"></a>
 
 ### post video?
 
@@ -85,7 +85,7 @@
 2.  anyone catch the ephemeral miniconf?
 
 
-<a id="orgbae3d41"></a>
+<a id="org0091c94"></a>
 
 ### clifton working on gnome modules for raku, glib
 
@@ -94,25 +94,25 @@
 2.  <https://github.com/Xliff/p6-WebkitGTK>
 
 
-<a id="org09aaef8"></a>
+<a id="org4fef739"></a>
 
 ### Alan recommends the video "The Worst Programming Language"
 
 1.  <https://www.youtube.com/watch?v=hCvHTrUh4os>
 
 
-<a id="orgbad28d6"></a>
+<a id="orgad57c76"></a>
 
 ### roll your own associative
 
 1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczsrw0/?context=3>
 
 
-<a id="orgcf11baf"></a>
+<a id="org3df9531"></a>
 
 ## next meeting
 
 
-<a id="org4cf68b7"></a>
+<a id="org6a9d1dc"></a>
 
 ### next meeting: december 5
