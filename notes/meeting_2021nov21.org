@@ -16,7 +16,7 @@
 *** post video?
 **** vote?  maybe not
 **** anyone catch the ephemeral miniconf?  
-*** clifton working on gnome modules for raku
+*** clifton working on gnome modules for raku, glib
 **** https://github.com/Xliff/p6-GLib 
 
 *** roll your own associative
