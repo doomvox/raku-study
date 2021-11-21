@@ -7,6 +7,12 @@
 *** code examples:
 **** https://github.com/doomvox/raku-study/tree/main/bin/2021nov14
 
+** agenda 
+*** s//// vs .subst
+**** https://www.nntp.perl.org/group/perl.perl6.users/2021/11/msg10273.html
+*** 
+
+
 ** whither goest?
 *** what's up lately
 **** anyone catch the ephemeral miniconf?  
