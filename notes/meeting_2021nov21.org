@@ -41,6 +41,11 @@
 **** https://unix.stackexchange.com/a/676824/227738 
 **** https://unix.stackexchange.com/a/676629/227738 
 
+**** https://www.meetup.com/Toronto-Perl-Mongers 
+**** https://www.meetup.com/ChicagoPM 
+**** https://www.meetup.com/The-New-York-Perl-Meetup-Group 
+
+
 *** roll your own associative
 **** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczsrw0/?context=3
 
