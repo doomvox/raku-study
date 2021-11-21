@@ -15,9 +15,6 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-138/
 *** post video?
 **** vote?  maybe not
-
-** whither goest?
-*** what's up lately
 **** anyone catch the ephemeral miniconf?  
 
 *** roll your own associative
