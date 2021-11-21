@@ -45,6 +45,10 @@
 *** roll your own associative
 **** https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczsrw0/?context=3
 
+** announcements
+*** https://www.meetup.com/charlotte-pm/ 
+*** https://www.meetup.com/Toronto-Perl-Mongers 
+
 
 ** next meeting
 *** TODO next meeting: december 5
