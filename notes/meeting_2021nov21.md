@@ -1,81 +1,81 @@
-- [meeting notes November 21, 2021](#org50082da)
-  - [the raku study group](#org4b34d47)
-    - [rockin' that raku sound](#org2f14555)
-  - [the usual links:](#org6c7f18a)
-    - [meeting notes](#orgfe30c51)
-    - [code examples:](#org382179c)
-  - [agenda](#org4c450ea)
-    - [s//// vs .subst](#orgefb8b9b)
-    - [doom: being obnoxious](#org1f8910e)
-    - [bruce gray challenge:](#org71861e8)
-    - [post video?](#orgeb2e741)
-    - [clifton working on gnome modules for raku, glib](#org08d15bc)
-    - [Alan recommends the video "The Worst Programming Language"](#org0a2f334)
-    - [roll your own associative](#orgbe01176)
-    - [may start using 'spots' as data for demos](#org48a0870)
-  - [next meeting](#org9a0a54b)
-    - [next meeting: december 5](#org5cd3b0d)
+- [meeting notes November 21, 2021](#org77c14d4)
+  - [the raku study group](#orgd512006)
+    - [rockin' that raku sound](#orge251eaa)
+  - [the usual links:](#org1604a97)
+    - [meeting notes](#org56e583a)
+    - [code examples:](#org50bc99f)
+  - [agenda](#org82ca99d)
+    - [s//// vs .subst](#org25da7ee)
+    - [doom: being obnoxious](#org558c10a)
+    - [bruce gray challenge:](#org21eeb56)
+    - [post video?](#org224358e)
+    - [clifton working on gnome modules for raku, glib](#orgd383223)
+    - [Alan recommends the video "The Worst Programming Language"](#org9235b94)
+    - [roll your own associative](#org39c70d6)
+    - [may start using 'spots' as data for demos](#orgd8ac4f6)
+  - [next meeting](#org6419cab)
+    - [next meeting: december 5](#orgeb9a71b)
 
 
-<a id="org50082da"></a>
+<a id="org77c14d4"></a>
 
 # meeting notes November 21, 2021
 
 
-<a id="org4b34d47"></a>
+<a id="orgd512006"></a>
 
 ## the raku study group
 
 
-<a id="org2f14555"></a>
+<a id="orge251eaa"></a>
 
 ### rockin' that raku sound
 
 
-<a id="org6c7f18a"></a>
+<a id="org1604a97"></a>
 
 ## the usual links:
 
 
-<a id="orgfe30c51"></a>
+<a id="org56e583a"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov14.md>
 
 
-<a id="org382179c"></a>
+<a id="org50bc99f"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021nov14>
 
 
-<a id="org4c450ea"></a>
+<a id="org82ca99d"></a>
 
 ## agenda
 
 
-<a id="orgefb8b9b"></a>
+<a id="org25da7ee"></a>
 
 ### s//// vs .subst
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/11/msg10273.html>
 
 
-<a id="org1f8910e"></a>
+<a id="org558c10a"></a>
 
 ### doom: being obnoxious
 
 
-<a id="org71861e8"></a>
+<a id="org21eeb56"></a>
 
 ### bruce gray challenge:
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-138/>
 
 
-<a id="orgeb2e741"></a>
+<a id="org224358e"></a>
 
 ### post video?
 
@@ -84,7 +84,7 @@
 2.  anyone catch the ephemeral miniconf?
 
 
-<a id="org08d15bc"></a>
+<a id="orgd383223"></a>
 
 ### clifton working on gnome modules for raku, glib
 
@@ -93,21 +93,21 @@
 2.  <https://github.com/Xliff/p6-WebkitGTK>
 
 
-<a id="org0a2f334"></a>
+<a id="org9235b94"></a>
 
 ### Alan recommends the video "The Worst Programming Language"
 
 1.  <https://www.youtube.com/watch?v=hCvHTrUh4os>
 
 
-<a id="orgbe01176"></a>
+<a id="org39c70d6"></a>
 
 ### roll your own associative
 
 1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczsrw0/?context=3>
 
 
-<a id="org48a0870"></a>
+<a id="orgd8ac4f6"></a>
 
 ### may start using 'spots' as data for demos
 
@@ -118,11 +118,11 @@
     1.  initialize db using: <https://github.com/doomvox/spots/blob/main/bin/spots_schema.sql>
 
 
-<a id="org9a0a54b"></a>
+<a id="org6419cab"></a>
 
 ## next meeting
 
 
-<a id="org5cd3b0d"></a>
+<a id="orgeb9a71b"></a>
 
 ### next meeting: december 5

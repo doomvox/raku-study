@@ -20,7 +20,6 @@
 **** https://github.com/Xliff/p6-GLib
 **** https://github.com/Xliff/p6-WebkitGTK 
 
-
 *** Alan recommends the video "The Worst Programming Language"
 **** https://www.youtube.com/watch?v=hCvHTrUh4os
 
