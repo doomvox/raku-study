@@ -1,80 +1,80 @@
-- [meeting notes November 21, 2021](#org2c59faf)
-  - [the raku study group](#org900de3c)
-    - [rockin' that raku sound](#orga956484)
-  - [the usual links:](#org986eaad)
-    - [meeting notes](#org49c76eb)
-    - [code examples:](#orge17f2ba)
-  - [agenda](#org802a709)
-    - [s//// vs .subst](#org00b7ecc)
-    - [doom: being obnoxious](#org6fc917b)
-    - [bruce gray challenge:](#org469ee99)
-    - [post video?](#org6d20689)
-    - [clifton working on gnome modules for raku, glib](#org7c11a7d)
-    - [roll your own associative](#orgbaca297)
-    - [may start using 'spots' as data for demos](#orge2bdc1b)
-  - [next meeting](#orgdb726c5)
-    - [next meeting: december 5](#orga03b346)
+- [meeting notes November 21, 2021](#org8f8f521)
+  - [the raku study group](#org3c57bee)
+    - [rockin' that raku sound](#org64a7613)
+  - [the usual links:](#org4fd7df3)
+    - [meeting notes](#org3df0af7)
+    - [code examples:](#org0242aab)
+  - [agenda](#org0fa52e8)
+    - [s//// vs .subst](#org21b8811)
+    - [doom: being obnoxious](#orge716752)
+    - [bruce gray challenge:](#org22ca6f5)
+    - [post video?](#org6bc01eb)
+    - [clifton working on gnome modules for raku, glib](#orgde21e22)
+    - [roll your own associative](#org7f1398d)
+    - [may start using 'spots' as data for demos](#org1fd9603)
+  - [next meeting](#orgad57a2f)
+    - [next meeting: december 5](#orgdde3a54)
 
 
-<a id="org2c59faf"></a>
+<a id="org8f8f521"></a>
 
 # meeting notes November 21, 2021
 
 
-<a id="org900de3c"></a>
+<a id="org3c57bee"></a>
 
 ## the raku study group
 
 
-<a id="orga956484"></a>
+<a id="org64a7613"></a>
 
 ### rockin' that raku sound
 
 
-<a id="org986eaad"></a>
+<a id="org4fd7df3"></a>
 
 ## the usual links:
 
 
-<a id="org49c76eb"></a>
+<a id="org3df0af7"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov14.md>
 
 
-<a id="orge17f2ba"></a>
+<a id="org0242aab"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021nov14>
 
 
-<a id="org802a709"></a>
+<a id="org0fa52e8"></a>
 
 ## agenda
 
 
-<a id="org00b7ecc"></a>
+<a id="org21b8811"></a>
 
 ### s//// vs .subst
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/11/msg10273.html>
 
 
-<a id="org6fc917b"></a>
+<a id="orge716752"></a>
 
 ### doom: being obnoxious
 
 
-<a id="org469ee99"></a>
+<a id="org22ca6f5"></a>
 
 ### bruce gray challenge:
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-138/>
 
 
-<a id="org6d20689"></a>
+<a id="org6bc01eb"></a>
 
 ### post video?
 
@@ -83,7 +83,7 @@
 2.  anyone catch the ephemeral miniconf?
 
 
-<a id="org7c11a7d"></a>
+<a id="orgde21e22"></a>
 
 ### clifton working on gnome modules for raku, glib
 
@@ -92,14 +92,14 @@
 2.  <https://github.com/Xliff/p6-WebkitGTK>
 
 
-<a id="orgbaca297"></a>
+<a id="org7f1398d"></a>
 
 ### roll your own associative
 
 1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczsrw0/?context=3>
 
 
-<a id="orge2bdc1b"></a>
+<a id="org1fd9603"></a>
 
 ### may start using 'spots' as data for demos
 
@@ -110,11 +110,11 @@
     1.  initialize db using: <https://github.com/doomvox/spots/blob/main/bin/spots_schema.sql>
 
 
-<a id="orgdb726c5"></a>
+<a id="orgad57a2f"></a>
 
 ## next meeting
 
 
-<a id="orga03b346"></a>
+<a id="orgdde3a54"></a>
 
 ### next meeting: december 5
