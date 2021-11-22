@@ -1,82 +1,82 @@
-- [meeting notes November 21, 2021](#orgfbd673f)
-  - [the raku study group](#org98f657b)
-    - [rockin' that raku sound](#orgae847c4)
-  - [the usual links:](#org0a3b8d1)
-    - [meeting notes](#org4529deb)
-    - [code examples:](#org9f93a65)
-  - [agenda](#org3f2a21f)
-    - [s//// vs .subst](#orgd8a258a)
-    - [doomvox: about static typing vs tests](#orgb6f9c27)
-    - [bruce gray challenge:](#org87ead34)
-    - [post video?](#org99df1b9)
-    - [clifton working on gnome modules for raku, glib](#org3a68efe)
-    - [Alan recommends the video "The Worst Programming Language"](#org381dd73)
-    - [William Michels, raku oneliners](#orged1114d)
-    - [roll your own associative](#org35f671a)
-  - [announcements](#orgdbb8476)
-    - [<https://www.meetup.com/charlotte-pm/>](#org5954f13)
-    - [<https://www.meetup.com/Toronto-Perl-Mongers>](#org7924bc9)
-    - [<https://www.meetup.com/Toronto-Perl-Mongers>](#orgdab304f)
-    - [<https://www.meetup.com/ChicagoPM>](#org67321f5)
-    - [<https://www.meetup.com/The-New-York-Perl-Meetup-Group>](#org2f28b36)
-  - [next meeting](#org74fbeca)
-    - [next meeting: december 5](#org6cd5b71)
+- [meeting notes November 21, 2021](#org79f1de8)
+  - [the raku study group](#orgde36e3b)
+    - [rockin' that raku sound](#orgbe9aa4c)
+  - [the usual links:](#orgb70dc45)
+    - [meeting notes](#org8df5f40)
+    - [code examples:](#orgdc78e7a)
+  - [agenda](#org16af653)
+    - [s//// vs .subst](#orgd0ecc8a)
+    - [doomvox: about static typing vs tests](#orgceef2b0)
+    - [bruce gray challenge:](#org369719e)
+    - [post video?](#org37d29d4)
+    - [clifton working on gnome modules for raku, glib](#org17c9e9b)
+    - [Alan recommends the video "The Worst Programming Language"](#orgefa7176)
+    - [William Michels, raku oneliners](#orgb6cf68f)
+    - [roll your own associative](#org34d0a4b)
+  - [announcements](#orgc30a7f6)
+    - [<https://www.meetup.com/charlotte-pm/>](#org77843a4)
+    - [<https://www.meetup.com/Toronto-Perl-Mongers>](#orgef7d685)
+    - [<https://www.meetup.com/Toronto-Perl-Mongers>](#org81d9aae)
+    - [<https://www.meetup.com/ChicagoPM>](#org06e8ae3)
+    - [<https://www.meetup.com/The-New-York-Perl-Meetup-Group>](#org149a79e)
+  - [next meeting](#orgbc44081)
+    - [next meeting: december 5](#org884cbfc)
 
 
-<a id="orgfbd673f"></a>
+<a id="org79f1de8"></a>
 
 # meeting notes November 21, 2021
 
 
-<a id="org98f657b"></a>
+<a id="orgde36e3b"></a>
 
 ## the raku study group
 
 
-<a id="orgae847c4"></a>
+<a id="orgbe9aa4c"></a>
 
 ### rockin' that raku sound
 
 
-<a id="org0a3b8d1"></a>
+<a id="orgb70dc45"></a>
 
 ## the usual links:
 
 
-<a id="org4529deb"></a>
+<a id="org8df5f40"></a>
 
 ### meeting notes
 
 1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021nov14.md>
 
 
-<a id="org9f93a65"></a>
+<a id="orgdc78e7a"></a>
 
 ### code examples:
 
 1.  <https://github.com/doomvox/raku-study/tree/main/bin/2021nov14>
 
 
-<a id="org3f2a21f"></a>
+<a id="org16af653"></a>
 
 ## agenda
 
 
-<a id="orgd8a258a"></a>
+<a id="orgd0ecc8a"></a>
 
 ### s//// vs .subst
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/11/msg10273.html>
 
 
-<a id="orgb6f9c27"></a>
+<a id="orgceef2b0"></a>
 
 ### doomvox: about static typing vs tests
 
 1.  <https://www.reddit.com/r/programmingcirclejerk/comments/qvpasg/the_real_purpose_of_typescript_is_job_creation/hkybolj/>
 
 
-<a id="org87ead34"></a>
+<a id="org369719e"></a>
 
 ### bruce gray challenge:
 
@@ -85,7 +85,7 @@
 2.  clifton:  <https://gist.github.com/Xliff/b927fe54e6957b7d19b5bd7b38b45059>
 
 
-<a id="org99df1b9"></a>
+<a id="org37d29d4"></a>
 
 ### post video?
 
@@ -94,7 +94,7 @@
 2.  anyone catch the ephemeral miniconf?
 
 
-<a id="org3a68efe"></a>
+<a id="org17c9e9b"></a>
 
 ### clifton working on gnome modules for raku, glib
 
@@ -103,14 +103,14 @@
 2.  <https://github.com/Xliff/p6-WebkitGTK>
 
 
-<a id="org381dd73"></a>
+<a id="orgefa7176"></a>
 
 ### Alan recommends the video "The Worst Programming Language"
 
 1.  <https://www.youtube.com/watch?v=hCvHTrUh4os>
 
 
-<a id="orged1114d"></a>
+<a id="orgb6cf68f"></a>
 
 ### William Michels, raku oneliners
 
@@ -135,48 +135,48 @@
 10. <https://unix.stackexchange.com/a/676629/227738>
 
 
-<a id="org35f671a"></a>
+<a id="org34d0a4b"></a>
 
 ### roll your own associative
 
 1.  <https://www.reddit.com/r/rakulang/comments/pocomd/a_post_which_came_out_from_a_provocation/hczsrw0/?context=3>
 
 
-<a id="orgdbb8476"></a>
+<a id="orgc30a7f6"></a>
 
 ## announcements
 
 
-<a id="org5954f13"></a>
+<a id="org77843a4"></a>
 
 ### <https://www.meetup.com/charlotte-pm/>
 
 
-<a id="org7924bc9"></a>
+<a id="orgef7d685"></a>
 
 ### <https://www.meetup.com/Toronto-Perl-Mongers>
 
 
-<a id="orgdab304f"></a>
+<a id="org81d9aae"></a>
 
 ### <https://www.meetup.com/Toronto-Perl-Mongers>
 
 
-<a id="org67321f5"></a>
+<a id="org06e8ae3"></a>
 
 ### <https://www.meetup.com/ChicagoPM>
 
 
-<a id="org2f28b36"></a>
+<a id="org149a79e"></a>
 
 ### <https://www.meetup.com/The-New-York-Perl-Meetup-Group>
 
 
-<a id="org74fbeca"></a>
+<a id="orgbc44081"></a>
 
 ## next meeting
 
 
-<a id="org6cd5b71"></a>
+<a id="org884cbfc"></a>
 
 ### next meeting: december 5

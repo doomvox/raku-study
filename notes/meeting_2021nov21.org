@@ -53,5 +53,5 @@
 *** https://www.meetup.com/The-New-York-Perl-Meetup-Group 
 
 ** next meeting
-*** TODO next meeting: december 5
+*** next meeting: december 5
 
