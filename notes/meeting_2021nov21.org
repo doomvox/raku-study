@@ -54,7 +54,6 @@
 *** https://www.meetup.com/ChicagoPM 
 *** https://www.meetup.com/The-New-York-Perl-Meetup-Group 
 
-
 ** next meeting
 *** TODO next meeting: december 5
 
