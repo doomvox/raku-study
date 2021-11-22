@@ -1,6 +1,9 @@
+* meeting notes December 05, 2021                                      
+** the raku study group
+*** Raku takes Knight
 
+** Ralph's remarks on the left-hand junction with smartmatch issue:
+*** https://github.com/rakudo/rakudo/issues/4615
 
-
-
-Ralph's remarks on the left-hand junction with smartmatch issue:
-  https://github.com/rakudo/rakudo/issues/4615
+** next meeting
+*** next meeting: december 19
