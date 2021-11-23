@@ -16,8 +16,7 @@
 
 *** bruce gray challenge:
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-138/
-
-**** clifton: working on gtk bindings for raku
+**** clifton: 
 *****   https://gist.github.com/Xliff/b927fe54e6957b7d19b5bd7b38b45059
 
 *** should we record meetings and post video?
@@ -27,7 +26,7 @@
 *** ephemeral miniconf
 **** video not up yet (?)
 
-*** clifton working on gnome modules for raku, glib
+*** clifton working on gnome modules for raku, glib & gtk
 **** https://github.com/Xliff/p6-GLib
 **** https://github.com/Xliff/p6-WebkitGTK 
 
