@@ -17,7 +17,8 @@
 *** bruce gray challenge:
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-138/
 
-**** clifton:  https://gist.github.com/Xliff/b927fe54e6957b7d19b5bd7b38b45059 
+**** clifton: working on gtk bindings for raku
+*****   https://gist.github.com/Xliff/b927fe54e6957b7d19b5bd7b38b45059
 
 *** post video?
 **** vote?  maybe not
