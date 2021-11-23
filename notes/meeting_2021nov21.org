@@ -27,7 +27,7 @@
 **** maybe short prepared talks presented at the meeting, and just record those
 
 *** ephemeral miniconf
-**** video not up yet (?)
+**** video: https://www.youtube.com/channel/UCoUiZ7IoTXa1us8jvCyQl6g
 
 *** clifton working on gnome modules for raku, glib & gtk
 **** https://github.com/Xliff/p6-GLib
