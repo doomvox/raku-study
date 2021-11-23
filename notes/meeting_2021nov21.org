@@ -20,9 +20,13 @@
 **** clifton: working on gtk bindings for raku
 *****   https://gist.github.com/Xliff/b927fe54e6957b7d19b5bd7b38b45059
 
-*** post video?
-**** vote?  maybe not
-**** anyone catch the ephemeral miniconf?  
+*** should we record meetings and post video?
+**** consensus seems to be probably not
+**** maybe short prepared talks presented at the meeting, and just record those
+
+*** ephemeral miniconf
+**** video not up yet (?)
+
 *** clifton working on gnome modules for raku, glib
 **** https://github.com/Xliff/p6-GLib
 **** https://github.com/Xliff/p6-WebkitGTK 
