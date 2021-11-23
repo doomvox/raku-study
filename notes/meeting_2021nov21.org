@@ -15,7 +15,7 @@
 **** https://www.reddit.com/r/programmingcirclejerk/comments/qvpasg/the_real_purpose_of_typescript_is_job_creation/hkybolj/ 
 **** steve yegge on perl vs java at amazon
 ***** https://sites.google.com/site/steveyegge2/is-weak-typing-strong-enough
-***** yegge is a perl-hater, but his he works well as perl advocacy
+***** yegge is a perl-hater, but his hate he works well as perl advocacy
 
 *** bruce gray challenge:
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-138/
