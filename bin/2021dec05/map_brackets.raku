@@ -22,6 +22,6 @@ say @bigger_doubles;  # [32]
 # Cannot map a Array using a Seq
 # Did a * (Whatever) get absorbed by a comma, range, series, or list repetition?
 
-
+say "---";
 my @mo_stuff =  grep { $_ > 30 }, map { $_*2 }, @numbers;
 say @mo_stuff; # [32]
