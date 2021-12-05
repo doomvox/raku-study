@@ -26,3 +26,5 @@ say "---";
 my @mo_stuff =  grep { $_ > 30 }, map { $_*2 }, @numbers;
 say @mo_stuff; # [32]
 
+
+my @xxx = @doubled.map: {$^a*2};
