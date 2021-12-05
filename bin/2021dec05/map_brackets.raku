@@ -38,4 +38,5 @@ say  @mo_x_and_whatever ; # [26 30 32]
 
 
 my @www_but_not_that_one = @doubled.map( * * 2 );
-say  @www_but_not_that_one;
+say  @www_but_not_that_one; # [52 60 64]
+
