@@ -9,4 +9,4 @@
 *** For the svlug on january 6th, I'll be talking about Raku
 
 ** next meeting
-*** next meeting: december 19
+*** next meeting: december 19 
