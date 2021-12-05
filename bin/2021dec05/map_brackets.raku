@@ -30,3 +30,6 @@ say @mo_stuff; # [32]
 my @xxx = @doubled.map: {$^a*2};
 say @xxx; # [52 60 64]
 
+my @yyy = @doubled.map: * * 2;
+
+say @yyy;
