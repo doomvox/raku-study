@@ -15,5 +15,7 @@ say @doubled; # [26 30 32]
 my @quad = @doubled.map: {$_*2};
 say @quad;  # [52 60 64]
 
-my @bigger_doubles = @numbers.map( {$_*2} ).grep({ $_ > 30 });;
+my @bigger_doubles = @numbers.map( {$_*2} ).grep({ $_ > 30 });
 say @bigger_doubles;  # [32]
+
+my @bigger_doubles = @numbers.map: {$_*2} .grep({ $_ > 30 });
