@@ -31,5 +31,4 @@ my @xxx = @doubled.map: {$^a*2};
 say @xxx; # [52 60 64]
 
 my @yyy = @doubled.map: * * 2;
-
-say @yyy;
+say @yyy; # [52 60 64]
