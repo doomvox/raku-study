@@ -10,4 +10,4 @@ use v6;
 
 my @numbers = 13, 15, 16;
 my @doubled = @numbers.map({ $_*2 });
-say @doubled;
+say @doubled; # [26 30 32]
