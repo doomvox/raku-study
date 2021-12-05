@@ -2,7 +2,6 @@
 ** the raku study group
 *** Raku takes Knight
 
-
 ** bg code:
 https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568
 
