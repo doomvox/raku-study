@@ -19,3 +19,5 @@ my @bigger_doubles = @numbers.map( {$_*2} ).grep({ $_ > 30 });
 say @bigger_doubles;  # [32]
 
 my @bigger_doubles = @numbers.map: {$_*2} .grep({ $_ > 30 });
+# Cannot map a Array using a Seq
+# Did a * (Whatever) get absorbed by a comma, range, series, or list repetition?
