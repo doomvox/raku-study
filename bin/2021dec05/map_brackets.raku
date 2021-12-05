@@ -9,5 +9,7 @@ use v6;
 ##  my @doubled = map { $_*2 } @numbers;
 
 my @numbers = 13, 15, 16;
+my @doubled = @numbers.map({ $_*2 }), @numbers;
+
 my @doubled = map({ $_*2 }, @numbers);
 say @doubled;
