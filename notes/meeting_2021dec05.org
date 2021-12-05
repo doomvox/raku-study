@@ -2,6 +2,10 @@
 ** the raku study group
 *** Raku takes Knight
 
+
+** bg code:
+https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568
+
 ** Ralph's remarks on the left-hand junction with smartmatch issue:
 *** https://github.com/rakudo/rakudo/issues/4615
 
@@ -10,3 +14,4 @@
 
 ** next meeting
 *** next meeting: december 19 
+

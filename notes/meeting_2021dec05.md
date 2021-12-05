@@ -1,54 +1,62 @@
-- [meeting notes December 05, 2021](#org2eb3cf6)
-  - [the raku study group](#org3cf117f)
-    - [Raku takes Knight](#orgbc10126)
-  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#org424bd0f)
-    - [<https://github.com/rakudo/rakudo/issues/4615>](#org892292a)
-  - [announcments](#org67cfabf)
-    - [For the svlug on january 6th, I'll be talking about Raku](#orgdfeec59)
-  - [next meeting](#orgfd8fa53)
-    - [next meeting: december 19](#org7a9cd34)
+- [meeting notes December 05, 2021](#orgda126af)
+  - [the raku study group](#org8cc2822)
+    - [Raku takes Knight](#org33eef45)
+  - [bg code:](#org0804bff)
+  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#org65e9df7)
+    - [<https://github.com/rakudo/rakudo/issues/4615>](#org292e7bb)
+  - [announcments](#orgd493061)
+    - [For the svlug on january 6th, I'll be talking about Raku](#org8c4dc3b)
+  - [next meeting](#org3250f4c)
+    - [next meeting: december 19](#orgbccd167)
 
 
-<a id="org2eb3cf6"></a>
+<a id="orgda126af"></a>
 
 # meeting notes December 05, 2021
 
 
-<a id="org3cf117f"></a>
+<a id="org8cc2822"></a>
 
 ## the raku study group
 
 
-<a id="orgbc10126"></a>
+<a id="org33eef45"></a>
 
 ### Raku takes Knight
 
 
-<a id="org424bd0f"></a>
+<a id="org0804bff"></a>
+
+## bg code:
+
+<https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>
+
+
+<a id="org65e9df7"></a>
 
 ## Ralph's remarks on the left-hand junction with smartmatch issue:
 
 
-<a id="org892292a"></a>
+<a id="org292e7bb"></a>
 
 ### <https://github.com/rakudo/rakudo/issues/4615>
 
 
-<a id="org67cfabf"></a>
+<a id="orgd493061"></a>
 
 ## announcments
 
 
-<a id="orgdfeec59"></a>
+<a id="org8c4dc3b"></a>
 
 ### For the svlug on january 6th, I'll be talking about Raku
 
 
-<a id="orgfd8fa53"></a>
+<a id="org3250f4c"></a>
 
 ## next meeting
 
 
-<a id="org7a9cd34"></a>
+<a id="orgbccd167"></a>
 
 ### next meeting: december 19
