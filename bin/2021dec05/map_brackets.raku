@@ -28,4 +28,5 @@ say @mo_stuff; # [32]
 
 
 my @xxx = @doubled.map: {$^a*2};
-say @xxx;
+say @xxx; # [52 60 64]
+
