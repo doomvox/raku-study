@@ -2,6 +2,10 @@
 ** the raku study group
 *** Raku takes Knight
 
+** usual links
+*** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md 
+*** https://github.com/doomvox/raku-study/bin/2021dec05
+
 ** bg code:
 https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568
 
