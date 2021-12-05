@@ -13,5 +13,5 @@ my @doubled = @numbers.map( {$_*2} );
 say @doubled; # [26 30 32]
 
 
-my @quad = @numbers.map: {$_*2};
+my @quad = @doubled.map: {$_*2};
 say @quad;
