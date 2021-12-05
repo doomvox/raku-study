@@ -35,3 +35,4 @@ say @yyy; # [52 60 64]
 
 my @mo_x_and_whatever = @numbers.map: * × 2 ;  ## unicode multiplication operator
 say  @mo_x_and_whatever ; # [26 30 32]
+
