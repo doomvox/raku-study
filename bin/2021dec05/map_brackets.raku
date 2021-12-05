@@ -23,4 +23,5 @@ say @bigger_doubles;  # [32]
 # Did a * (Whatever) get absorbed by a comma, range, series, or list repetition?
 
 
-  my @doubled =  grep { $_ > 30 } map { $_*2 } @numbers;
+my @mo_stuff =  grep { $_ > 30 }, map { $_*2 }, @numbers;
+say @mo_stuff;
