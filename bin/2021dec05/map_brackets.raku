@@ -14,4 +14,4 @@ say @doubled; # [26 30 32]
 
 
 my @quad = @doubled.map: {$_*2};
-say @quad;
+say @quad;  # [52 60 64]
