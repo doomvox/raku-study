@@ -22,18 +22,18 @@ use v6;
 
 say "===";
 # item docs:
-say item([1,2,3]).raku;              # OUTPUT: «$[1, 2, 3]␤» 
+say item([1,2,3]).raku;              
 # $[1, 2, 3]
-say item( %( apple => 10 ) ).raku;   # OUTPUT: «${:apple(10)}␤» 
+say item( %( apple => 10 ) ).raku;   
 # ${:apple(10)}
-say item("abc").raku;                # OUTPUT: «"abc"␤»
+say item("abc").raku;                
 # "abc"
 
 
 ## You can also use $ as item contextualizer.
-say $[1,2,3].raku;                   # OUTPUT: «$[1, 2, 3]␤» 
+say $[1,2,3].raku;                   
 # $[1, 2, 3]
-say $("abc").raku;                   # OUTPUT: «"abc"␤»
+say $("abc").raku;                   
 # "abc"
 
 say "===";
