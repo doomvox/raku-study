@@ -41,4 +41,4 @@ say "===";
 say (8, 76).WHAT;  # (List)
 say $(8, 76).WHAT; # (List)
 
-say item( 8, 76 ).WHAT;
+say item( 8, 76 ).WHAT; # (List)
