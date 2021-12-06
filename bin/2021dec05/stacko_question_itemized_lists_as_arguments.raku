@@ -31,7 +31,7 @@ say "---";
 say .raku for $(8, 76);  
 # $(8, 76)
 say .raku for ($(8, 76),);
-# (8 76)
+
 
 say "===";
 # item docs:
