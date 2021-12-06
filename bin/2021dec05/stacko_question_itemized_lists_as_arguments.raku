@@ -158,6 +158,7 @@ say @a.elems; # 3
 say @a.elems; # 1
 
 
+say "---";
 
 my @b = ( $(1,2), $(7,8) );
 say @b.elems;
