@@ -76,3 +76,12 @@ say $thing.raku;
 
 my $thung = (3, 2);
 say $thung.WHAT; # (List)
+
+for $thing -> $n {
+    say $n;
+}
+
+for $thung -> $n {
+    say $n;
+}
+
