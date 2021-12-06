@@ -72,3 +72,4 @@ for $(8, 76) -> $n {
 my $thing = $(3, 2);
 say $thing.WHAT;
 say $thing;
+say $thing.raku;
