@@ -48,5 +48,5 @@ for (8, 76) -> $n {
 }
 
 for $(8, 76) -> $n {
-    say $n.WHAT; # (Int)
+    say $n.WHAT; # 
 }
