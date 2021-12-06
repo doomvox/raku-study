@@ -22,13 +22,14 @@ use v6;
 
 say "---";
 
-.say for $(8, 76);
-
-
-
+.say for $(8, 76);  
+# (8 76)
 .say for ($(8, 76),);
+# (8 76)
 
-
+say .raku for $(8, 76);  
+# (8 76)
+say .rauk for ($(8, 76),);
 
 
 say "===";
