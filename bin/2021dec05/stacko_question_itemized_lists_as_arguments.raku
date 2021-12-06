@@ -51,7 +51,7 @@ say "---";
 for $(8, 76) -> $n {
     say $n.WHAT; # (List)
     say $n; # (8 76)
-    for $n -> $a {
+    for $n.values -> $a {
         say $a.WHAT;
         say $a;
     }
