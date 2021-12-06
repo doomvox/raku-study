@@ -101,6 +101,11 @@ say "wm===wm";
 
 
 for ((1,2),(7,9)) -> $a {
-    say $a.WHAT;
-    say $a;
+    say $a.WHAT; 
+    say $a; 
     }
+
+# (List)
+# (1 2)
+# (List)
+# (7 9)
