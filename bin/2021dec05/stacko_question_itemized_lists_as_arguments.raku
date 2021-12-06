@@ -85,3 +85,26 @@ for $thung -> $n {
     say $n; # (3 2)
 }
 
+
+
+## William Michels:
+> .say for flat $(8,76);
+8
+76
+> .say for $(8,76);
+(8 76)
+> .say for $(8,76).flat;
+8
+76
+> 
+> .raku.put for flat $(8,76);
+8
+76
+> .raku.put for $(8,76);
+$(8, 76)
+> .raku.put for $(8,76).raku;
+"\$(8, 76)"
+> 
+> .raku.put for $(8,76).flat;
+8
+76 
