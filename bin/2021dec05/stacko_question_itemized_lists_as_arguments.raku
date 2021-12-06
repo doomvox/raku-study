@@ -20,6 +20,17 @@ use v6;
 .say for flat ($(8, 76),);
 # (8 76)
 
+say "---";
+
+.say for $(8, 76);
+
+
+
+.say for ($(8, 76),);
+
+
+
+
 say "===";
 # item docs:
 say item([1,2,3]).raku;              
