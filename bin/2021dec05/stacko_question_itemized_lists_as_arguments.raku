@@ -87,6 +87,7 @@ for $thung -> $n {
 
 
 
+say "wm===wm";
 ## William Michels:
 .say for flat $(8,76);
 # 8
@@ -94,6 +95,7 @@ for $thung -> $n {
 
 .say for $(8,76);
 # (8 76)
+
 # > .say for $(8,76).flat;
 # 8
 # 76
