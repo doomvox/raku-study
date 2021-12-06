@@ -49,7 +49,6 @@ say $("abc").raku;
 # "abc"
 
 say "===";
-
 say (8, 76).WHAT;  # (List)
 say $(8, 76).WHAT; # (List)
 
