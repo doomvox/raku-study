@@ -123,19 +123,19 @@ for ((1,2)) -> $a {
 
 say "bg===bg"; 
 
-raku -e 'say item([1,2,3]).raku'
-$[1, 2, 3]
-raku -e 'say [1,2,3].raku'
-[1, 2, 3]
-raku -e 'say .raku for [1,2,3]'
-1
-2
-3
-raku -e 'say .raku for item([1,2,3])'
-$[1, 2, 3]
-raku -e 'say .raku for $[1,2,3]'
-$[1, 2, 3]
-raku -e 'say .raku for [1,2,3]'
-1
-2
-3 
+say item([1,2,3]).raku;
+# $[1, 2, 3]
+say [1,2,3].raku;
+# [1, 2, 3]
+say .raku for [1,2,3];
+# 1
+# 2
+# 3
+say .raku for item([1,2,3]);
+# $[1, 2, 3]
+say .raku for $[1,2,3];
+# $[1, 2, 3]
+say .raku for [1,2,3];
+# 1
+# 2
+# 3 
