@@ -160,4 +160,4 @@ say @a.elems; # 1
 
 
 my @b = ( $(1,2), $(7,8) );
-
+say @b.elems;
