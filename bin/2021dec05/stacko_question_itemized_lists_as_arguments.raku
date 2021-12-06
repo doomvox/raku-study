@@ -92,7 +92,7 @@ for $thung -> $n {
 # 8
 # 76
 
-# > .say for $(8,76);
+.say for $(8,76);
 # (8 76)
 # > .say for $(8,76).flat;
 # 8
