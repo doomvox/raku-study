@@ -144,7 +144,8 @@ say .raku for [1,2,3];
 ## ===
 say "======";
 
-# raku -e '
+## bg example using bill's .elems approach:
+
 my @a;
 
 @a = 1,2,3 ;
@@ -155,5 +156,5 @@ say @a.elems; # 3
 
 @a = $(1,2,3);
 say @a.elems; # 1
-# ' 
+
 
