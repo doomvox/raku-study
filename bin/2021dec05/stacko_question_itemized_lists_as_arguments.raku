@@ -143,3 +143,19 @@ say .raku for [1,2,3];
 
 ## ===
 say "======";
+
+# raku -e '
+my @a;
+
+@a = 1,2,3 ;
+say @a.elems;
+
+@a = (1,2,3);
+say @a.elems;
+
+@a = $(1,2,3);
+say @a.elems;
+# ' 
+3
+3
+1 
