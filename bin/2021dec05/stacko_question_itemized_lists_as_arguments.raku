@@ -158,7 +158,7 @@ say @a.elems; # 3
 say @a.elems; # 1
 
 say "---";
-## my candidate for item docs:
+## staggering toward my candidate for item docs:
 my @b = ( $(1,2), $(7,8) );
 say @b.elems;  # 2 
 
