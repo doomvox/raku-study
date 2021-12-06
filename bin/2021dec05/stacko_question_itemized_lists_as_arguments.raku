@@ -122,7 +122,6 @@ for ((1,2)) -> $a {
 # 2
 
 say "bg===bg"; 
-
 say item([1,2,3]).raku;
 # $[1, 2, 3]
 say [1,2,3].raku;
