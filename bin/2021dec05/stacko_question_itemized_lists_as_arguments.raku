@@ -99,15 +99,5 @@ say "wm===wm";
 .say for $(8,76).flat;
 # 8
 # 76
-# > 
-# > .raku.put for flat $(8,76);
-# 8
-# 76
-# > .raku.put for $(8,76);
-# $(8, 76)
-# > .raku.put for $(8,76).raku;
-# "\$(8, 76)"
-# > 
-# > .raku.put for $(8,76).flat;
-# 8
-# 76 
+
+
