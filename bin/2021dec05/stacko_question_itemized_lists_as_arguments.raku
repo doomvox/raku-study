@@ -116,3 +116,7 @@ for ((1,2)) -> $a {
     say $a.WHAT; 
     say $a; 
     }
+# (Int)
+# 1
+# (Int)
+# 2
