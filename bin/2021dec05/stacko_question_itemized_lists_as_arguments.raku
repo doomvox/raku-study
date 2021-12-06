@@ -70,6 +70,9 @@ for $(8, 76) -> $n {
 }
 
 my $thing = $(3, 2);
-say $thing.WHAT;
+say $thing.WHAT; # (List)
 say $thing;
 say $thing.raku;
+
+my $thung = (3, 2);
+say $thung.WHAT; # (List)
