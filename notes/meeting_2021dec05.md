@@ -1,59 +1,71 @@
-- [meeting notes December 05, 2021](#orgee6ad8f)
-  - [the raku study group](#org166b241)
-    - [Raku takes Knight](#org3822b8f)
-  - [usual links](#org243efac)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org0f5c448)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#org408ef56)
-  - [bg code:](#org306bad1)
-  - [extracted from meeting chat:](#org7c88821)
-  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#org3942076)
-    - [<https://github.com/rakudo/rakudo/issues/4615>](#org8c9ef11)
-  - [announcments](#org4654079)
-    - [For the svlug on january 6th, I'll be talking about Raku](#orgf3fdb2c)
-  - [next meeting](#orgba841c1)
-    - [next meeting: december 19](#org5587561)
-    - [announcment: svlug jan 6 (i think) a raku talk of some sort by me.](#orgfe3b1ed)
-  - [text of the entire chat window (until I get around to trimming it)](#org12fe119)
+- [meeting notes December 05, 2021](#org22bae00)
+  - [the raku study group](#orgc69db3b)
+    - [Raku takes Knight](#org7652344)
+  - [usual links](#org3b30bdd)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org92637cb)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#org46b8f79)
+  - [bg code, using an external library to do arbitrary precision math on any numbers](#orgf5f226f)
+    - [raku's FatRats and so are pretty good, but they do have limitations](#orgfc5d505)
+    - [<https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>](#orga937c96)
+  - [extracted from meeting chat:](#org80e407e)
+  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#orge1cfe22)
+    - [<https://github.com/rakudo/rakudo/issues/4615>](#orgd9a56ed)
+  - [announcments](#orged0cf18)
+    - [For the svlug on january 6th, I'll be talking about Raku](#orgdb96e6d)
+  - [next meeting](#orgd2506d1)
+    - [next meeting: december 19](#org1f229fd)
+    - [announcment: svlug jan 6 (i think) a raku talk of some sort by me.](#orgcbfbdac)
+  - [text of the entire chat window (until I get around to trimming it)](#orgdffc150)
 
 
-<a id="orgee6ad8f"></a>
+<a id="org22bae00"></a>
 
 # meeting notes December 05, 2021
 
 
-<a id="org166b241"></a>
+<a id="orgc69db3b"></a>
 
 ## the raku study group
 
 
-<a id="org3822b8f"></a>
+<a id="org7652344"></a>
 
 ### Raku takes Knight
 
 
-<a id="org243efac"></a>
+<a id="org3b30bdd"></a>
 
 ## usual links
 
 
-<a id="org0f5c448"></a>
+<a id="org92637cb"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>
 
 
-<a id="org408ef56"></a>
+<a id="org46b8f79"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec05>
 
-
-<a id="org306bad1"></a>
-
-## bg code:
-
-<https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>
+<https://stackoverflow.com/questions/69372414/flattening-and-itemized-lists>
 
 
-<a id="org7c88821"></a>
+<a id="orgf5f226f"></a>
+
+## bg code, using an external library to do arbitrary precision math on any numbers
+
+
+<a id="orgfc5d505"></a>
+
+### raku's FatRats and so are pretty good, but they do have limitations
+
+
+<a id="orga937c96"></a>
+
+### <https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>
+
+
+<a id="org80e407e"></a>
 
 ## extracted from meeting chat:
 
@@ -62,42 +74,42 @@
     <http://www.josetteorama.com/damian-conway-on-perl-and-its-future/>
 
 
-<a id="org3942076"></a>
+<a id="orge1cfe22"></a>
 
 ## Ralph's remarks on the left-hand junction with smartmatch issue:
 
 
-<a id="org8c9ef11"></a>
+<a id="orgd9a56ed"></a>
 
 ### <https://github.com/rakudo/rakudo/issues/4615>
 
 
-<a id="org4654079"></a>
+<a id="orged0cf18"></a>
 
 ## announcments
 
 
-<a id="orgf3fdb2c"></a>
+<a id="orgdb96e6d"></a>
 
 ### For the svlug on january 6th, I'll be talking about Raku
 
 
-<a id="orgba841c1"></a>
+<a id="orgd2506d1"></a>
 
 ## next meeting
 
 
-<a id="org5587561"></a>
+<a id="org1f229fd"></a>
 
 ### next meeting: december 19
 
 
-<a id="orgfe3b1ed"></a>
+<a id="orgcbfbdac"></a>
 
 ### announcment: svlug jan 6 (i think) a raku talk of some sort by me.
 
 
-<a id="org12fe119"></a>
+<a id="orgdffc150"></a>
 
 ## text of the entire chat window (until I get around to trimming it)
 
