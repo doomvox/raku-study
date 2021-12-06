@@ -35,3 +35,7 @@ say $[1,2,3].raku;                   # OUTPUT: «$[1, 2, 3]␤»
 # $[1, 2, 3]
 say $("abc").raku;                   # OUTPUT: «"abc"␤»
 # "abc"
+
+
+say (8, 76).WHAT;
+say $(8, 76).WHAT;
