@@ -1,58 +1,59 @@
-- [meeting notes December 05, 2021](#org0429635)
-  - [the raku study group](#org9d51c18)
-    - [Raku takes Knight](#orgde5a3ab)
-  - [usual links](#orgd762ca1)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org0c67f3f)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#org782bd6f)
-  - [bg code:](#orga59abad)
-  - [extracted from meeting chat:](#org87a6105)
-  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#org380a57a)
-    - [<https://github.com/rakudo/rakudo/issues/4615>](#orgb6b1466)
-  - [announcments](#orga269ab5)
-    - [For the svlug on january 6th, I'll be talking about Raku](#org4869680)
-  - [next meeting](#org74a2474)
-    - [next meeting: december 19](#orgadf080d)
-    - [announcment: svlug jan 6 (i think) a raku talk of some sort by me.](#org3ad40c0)
+- [meeting notes December 05, 2021](#orgfab2ed8)
+  - [the raku study group](#org89a9a22)
+    - [Raku takes Knight](#org199a221)
+  - [usual links](#orgac64aad)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org700393f)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#orgd036f86)
+  - [bg code:](#org11a1f81)
+  - [extracted from meeting chat:](#orgdd2eb7c)
+  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#org3e53bf4)
+    - [<https://github.com/rakudo/rakudo/issues/4615>](#org7bac449)
+  - [announcments](#orgf9e24f3)
+    - [For the svlug on january 6th, I'll be talking about Raku](#org592fe99)
+  - [next meeting](#org7322a2a)
+    - [next meeting: december 19](#org518a795)
+    - [announcment: svlug jan 6 (i think) a raku talk of some sort by me.](#orgdd62ac0)
+  - [text of the entire chat window (until I get around to trimming it)](#org834c315)
 
 
-<a id="org0429635"></a>
+<a id="orgfab2ed8"></a>
 
 # meeting notes December 05, 2021
 
 
-<a id="org9d51c18"></a>
+<a id="org89a9a22"></a>
 
 ## the raku study group
 
 
-<a id="orgde5a3ab"></a>
+<a id="org199a221"></a>
 
 ### Raku takes Knight
 
 
-<a id="orgd762ca1"></a>
+<a id="orgac64aad"></a>
 
 ## usual links
 
 
-<a id="org0c67f3f"></a>
+<a id="org700393f"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>
 
 
-<a id="org782bd6f"></a>
+<a id="orgd036f86"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec05>
 
 
-<a id="orga59abad"></a>
+<a id="org11a1f81"></a>
 
 ## bg code:
 
 <https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>
 
 
-<a id="org87a6105"></a>
+<a id="orgdd2eb7c"></a>
 
 ## extracted from meeting chat:
 
@@ -61,36 +62,53 @@
     <http://www.josetteorama.com/damian-conway-on-perl-and-its-future/>
 
 
-<a id="org380a57a"></a>
+<a id="org3e53bf4"></a>
 
 ## Ralph's remarks on the left-hand junction with smartmatch issue:
 
 
-<a id="orgb6b1466"></a>
+<a id="org7bac449"></a>
 
 ### <https://github.com/rakudo/rakudo/issues/4615>
 
 
-<a id="orga269ab5"></a>
+<a id="orgf9e24f3"></a>
 
 ## announcments
 
 
-<a id="org4869680"></a>
+<a id="org592fe99"></a>
 
 ### For the svlug on january 6th, I'll be talking about Raku
 
 
-<a id="org74a2474"></a>
+<a id="org7322a2a"></a>
 
 ## next meeting
 
 
-<a id="orgadf080d"></a>
+<a id="org518a795"></a>
 
 ### next meeting: december 19
 
 
-<a id="org3ad40c0"></a>
+<a id="orgdd62ac0"></a>
 
 ### announcment: svlug jan 6 (i think) a raku talk of some sort by me.
+
+
+<a id="org834c315"></a>
+
+## text of the entire chat window (until I get around to trimming it)
+
+13:41:16 From William Michels : <https://www.javascriptinstitute.org/javascript-tutorial/history-of-javascript/> 13:43:56 From William Michels : App::Browser 13:44:05 From William Michels : <https://raku.land/zef:lizmat/App::Browser> 13:44:28 From William Michels : App::Browser provides a simple generic interface to starting a browser for a given URL. It exports the browse function that takes a URL as the first parameter, and an optional browser identification as a second parameter (which defaults to the APP<sub>BROWSER</sub> environment variable..
+
+The browse function returns a Proc object, or Nil if something went wrong. Whether it makes sense to do something with that object, is unsure.
+
+It also exports a command line script browse that will take a URL and an optional browser identifier (e.g. chrome, firefox, safari). 13:44:45 From Bruce Gray : <https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568> 13:45:39 From Joseph Brenner : <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md> 13:52:49 From Bruce Gray : <https://docs.raku.org/type/SetHash> 13:52:51 From Bruce Gray : <https://docs.raku.org/type/Set> 13:55:44 From William Michels : <https://groups.google.com/g/perl.perl6.language/c/DleqoPfbNE4> 13:56:19 From Bruce Gray : <https://docs.raku.org/syntax/proto> 14:03:22 From Bruce Gray : <https://docs.raku.org/routine/yada> 14:16:11 From Bruce Gray : raku -e 'sub f { say 42; }; sub g {&#x2026;}; say .yada for &f, &g;' False True 14:20:18 From Joseph Brenner : map({&#x2026;}) 14:20:27 From Joseph Brenner : map: {&#x2026;} 14:26:57 From Bruce Gray : raku -e 'say log(64, 2);' raku -e 'say 64.log(2);' 14:34:06 From Bruce Gray : my @d = @a.grep: { some&#x2026; long&#x2026; code&#x2026; } 14:39:00 From Bruce Gray : .map: \* × 2 ; 14:48:33 From William Michels : <https://groups.google.com/g/perl.perl6.language/c/DleqoPfbNE4/m/3D5jxUAx0y8J> 14:50:11 From William Michels : Larry Wall (2005): "At our meeting there was much discussion of the relationship of hashes and sets. The resolution seems to be that sets are immutable values, and you still want to use a hash with a fixed true value to get mutable sets. It should be easy to interconvert sets and hash keys though.
+
+But anyway, if we assume sets are values rather than containers, they don't really need a sigil. (The problem with treating sets as containers is that you can't do set theory on them. When you add to a set, it is in fact a **different** set, and should have a different identity.)
+
+Larry" 14:50:33 From William Michels : <https://groups.google.com/g/perl.perl6.language/c/DleqoPfbNE4/m/D50iZZNYfTcJ> 14:54:00 From Bruce Gray : <https://www.mpfr.org> 14:54:18 From Bruce Gray : <https://www.mpfr.org/mpfr-current/mpfr.pdf> 14:54:45 From William Michels : <https://www.netlib.org/blas/> 14:55:37 From William Michels : BLAS vs LAPACK 14:55:53 From William Michels : <https://www.netlib.org/lapack/> 14:56:51 From William Michels : <https://www.r-bloggers.com/2020/03/extended-floating-point-precision-in-r-with-rmpfr/> 14:57:31 From William Michels : <https://www.johndcook.com/blog/2020/03/18/gnu-mpfrr-wrapper/> 15:23:41 From William Michels : <https://raku-advent.blog/> 15:24:12 From Bruce Gray : <http://perladvent.org/2021/> 15:24:15 From William Michels : <https://theweeklychallenge.org/> 15:25:00 From William Michels : <https://adventofcode.com/> 15:25:09 From Bruce Gray : <https://cro.services/> 15:25:57 From William Michels : <https://cro.services/> 15:26:39 From Joseph Brenner : <https://jnthn.net/papers/2021-grpw-cro.pdf> 15:27:38 From William Michels : <https://cro.services/docs/releases#0.8.7> 15:29:08 From William Michels : <https://github.com/croservices> 15:42:37 From Bruce Gray : <https://metacpan.org/pod/minicpan> 15:56:11 From Bruce Gray : <https://www.lifewire.com/change-the-default-browser-in-thunderbird-2532751> 15:59:02 From William Michels : <https://groups.google.com/g/svmug/c/wgrUHOI2qMQ> 16:00:29 From Joseph Brenner : <https://stackoverflow.com/questions/69919007/how-can-i-stop-raku-collapsing-a-list-containing-a-single-list> 16:02:23 From Joseph Brenner : <https://stackoverflow.com/questions/69372414/flattening-and-itemized-lists> 16:08:29 From William Michels : <http://www.mcgath.com/cse/GoFundMePage.pdf> 16:11:25 From William Michels : <https://www.theregister.com/2019/10/01/stack_exchange_controversy/> 16:11:29 From Joseph Brenner : <https://www.legendsofamerica.com/thunderbird-native-american/> 16:19:40 From William Michels : <https://wiki.samba.org/index.php/Configure_Samba_to_Work_Better_with_Mac_OS_X> 16:21:27 From Joseph Brenner : <https://stackoverflow.com/questions/69372414/flattening-and-itemized-lists> 16:25:19 From William Michels : > .say for flat $(8,76); 8 76 > .say for $(8,76); (8 76) > .say for $(8,76).flat; 8 76 > 16:26:26 From William Michels : > .raku.put for flat $(8,76); 8 76 > .raku.put for $(8,76); $(8, 76) > .raku.put for \((8,76).raku; "\\)(8, 76)" > 16:28:54 From William Michels : > .raku.put for $(8,76).flat; 8 76 16:35:08 From William Michels : > .elems.put for flat $(8,76); 1 1 > .elems.put for $(8,76); 2 > .elems.put for $(8,76).flat; 1 1 > .elems.put for 8,76; 1 1 > .elems.put for $(8,76) 2 > .elems.put for \((8,76), 2 > .elems.put for (\)(8,76),) 2 > 16:36:43 From Bruce Gray : raku -e 'say item([1,2,3]).raku' $[1, 2, 3] raku -e 'say [1,2,3].raku' [1, 2, 3] raku -e 'say .raku for [1,2,3]' 1 2 3 raku -e 'say .raku for item([1,2,3])' $[1, 2, 3] raku -e 'say .raku for $[1,2,3]' $[1, 2, 3] raku -e 'say .raku for [1,2,3]' 1 2 3 16:40:50 From William Michels : > $(8,76).elems.put; 2 > \((8,76).flat.elems.put; 2 > (\)(8,76),).flat.elems.put; 1 > ($(8,76),).elems.put; 1 > 16:52:39 From Bruce Gray : raku -e ' my @a; @a = 1,2,3 ; say @a.elems; @a = (1,2,3); say @a.elems; @a = $(1,2,3); say @a.elems; ' 16:52:48 From Bruce Gray : 3 3 1 16:55:58 From Bruce Gray : raku -e ' my @a; @a = 1,2,3 ; say @a.elems; @a = (1,2,3); say @a.elems; @a = $(1,2,3); say @a.elems; ' 16:56:13 From Bruce Gray : 3 3 1 16:57:00 From Joseph Brenner : my @b = ( $(1,2), $(7,8) ); say @b.elems; # 2
+
+for @b -> $s { say $s; }
