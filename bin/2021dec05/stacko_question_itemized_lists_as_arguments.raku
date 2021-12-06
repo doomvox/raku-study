@@ -42,3 +42,7 @@ say (8, 76).WHAT;  # (List)
 say $(8, 76).WHAT; # (List)
 
 say item( 8, 76 ).WHAT; # (List)
+
+for (8, 76) -> $n {
+    say $n.WHAT;
+}
