@@ -50,4 +50,5 @@ for (8, 76) -> $n {
 say "---";
 for $(8, 76) -> $n {
     say $n.WHAT; # (List)
+    say $n;
 }
