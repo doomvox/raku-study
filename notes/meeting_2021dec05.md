@@ -1,86 +1,92 @@
-- [meeting notes December 05, 2021](#orgebbbc8b)
-  - [the raku study group](#org950473d)
-    - [Raku takes Knight](#org03dec7a)
-  - [usual links](#orgedc65de)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org2917680)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#orgabd0fc3)
-  - [bg code:](#org7f06d87)
-  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#org2ee11f5)
-    - [<https://github.com/rakudo/rakudo/issues/4615>](#org8d797ad)
-  - [announcments](#orgcdadacc)
-    - [For the svlug on january 6th, I'll be talking about Raku](#org72972be)
-  - [next meeting](#org785e5fd)
-    - [next meeting: december 19](#org7acede1)
-    - [announcment: svlug jan 6 (i think) a raku talk of some sort by me.](#org1d020da)
+- [meeting notes December 05, 2021](#org9a98a40)
+  - [the raku study group](#org9934870)
+    - [Raku takes Knight](#orgf18e7b2)
+  - [usual links](#orgfaf608f)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org8669649)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#org162c6c4)
+  - [bg code:](#org687cc68)
+  - [extracted from meeting chat:](#org8526661)
+  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#org534bcc1)
+    - [<https://github.com/rakudo/rakudo/issues/4615>](#org5fc47af)
+  - [announcments](#orgfcd6f84)
+    - [For the svlug on january 6th, I'll be talking about Raku](#org3506468)
+  - [next meeting](#orgb1a4dc0)
+    - [next meeting: december 19](#org505a5b2)
+    - [announcment: svlug jan 6 (i think) a raku talk of some sort by me.](#orgf336d14)
 
 
-<a id="orgebbbc8b"></a>
+<a id="org9a98a40"></a>
 
 # meeting notes December 05, 2021
 
 
-<a id="org950473d"></a>
+<a id="org9934870"></a>
 
 ## the raku study group
 
 
-<a id="org03dec7a"></a>
+<a id="orgf18e7b2"></a>
 
 ### Raku takes Knight
 
 
-<a id="orgedc65de"></a>
+<a id="orgfaf608f"></a>
 
 ## usual links
 
 
-<a id="org2917680"></a>
+<a id="org8669649"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>
 
 
-<a id="orgabd0fc3"></a>
+<a id="org162c6c4"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec05>
 
 
-<a id="org7f06d87"></a>
+<a id="org687cc68"></a>
 
 ## bg code:
 
 <https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>
 
 
-<a id="org2ee11f5"></a>
+<a id="org8526661"></a>
+
+## extracted from meeting chat:
+
+
+<a id="org534bcc1"></a>
 
 ## Ralph's remarks on the left-hand junction with smartmatch issue:
 
 
-<a id="org8d797ad"></a>
+<a id="org5fc47af"></a>
 
 ### <https://github.com/rakudo/rakudo/issues/4615>
 
 
-<a id="orgcdadacc"></a>
+<a id="orgfcd6f84"></a>
 
 ## announcments
 
 
-<a id="org72972be"></a>
+<a id="org3506468"></a>
 
 ### For the svlug on january 6th, I'll be talking about Raku
 
 
-<a id="org785e5fd"></a>
+<a id="orgb1a4dc0"></a>
 
 ## next meeting
 
 
-<a id="org7acede1"></a>
+<a id="org505a5b2"></a>
 
 ### next meeting: december 19
 
 
-<a id="org1d020da"></a>
+<a id="orgf336d14"></a>
 
 ### announcment: svlug jan 6 (i think) a raku talk of some sort by me.
