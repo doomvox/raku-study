@@ -13,5 +13,5 @@ use v6;
 # > .say for flat ($(8, 76),)
 # (8 76)
 
-.say for flat $(8, 76)
-.say for flat ($(8, 76),)
+.say for flat $(8, 76);
+.say for flat ($(8, 76),);
