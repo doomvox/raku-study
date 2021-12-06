@@ -64,7 +64,7 @@ for (8, 76) -> $n {
 }
 
 say "---";
-for $(8, 76) -> $n {
+for $(8, 76) -> $n {  # "the single arg rule not 'strong enough' to flatten
     say $n.WHAT; # (List)
     say $n; # (8 76)
     for $n.values -> $a {
