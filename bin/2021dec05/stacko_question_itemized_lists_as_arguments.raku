@@ -49,5 +49,5 @@ for (8, 76) -> $n {
 
 say "---";
 for $(8, 76) -> $n {
-    say $n.WHAT; # 
+    say $n.WHAT; # (List)
 }
