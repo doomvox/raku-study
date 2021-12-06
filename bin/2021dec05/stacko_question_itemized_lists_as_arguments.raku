@@ -38,5 +38,6 @@ say $("abc").raku;                   # OUTPUT: «"abc"␤»
 
 say "===";
 
-say (8, 76).WHAT;
-say $(8, 76).WHAT;
+say (8, 76).WHAT;  # (List)
+say $(8, 76).WHAT; # (List)
+
