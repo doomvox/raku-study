@@ -10,7 +10,8 @@
 https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568
 
 ** extracted from meeting chat:
-
+**** damian conway interview from 2010 
+http://www.josetteorama.com/damian-conway-on-perl-and-its-future/ 
 
 
 ** Ralph's remarks on the left-hand junction with smartmatch issue:
