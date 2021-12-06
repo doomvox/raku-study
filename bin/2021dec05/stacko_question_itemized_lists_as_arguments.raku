@@ -123,7 +123,7 @@ for ((1,2)) -> $a {
 
 say "bg===bg"; 
 say item([1,2,3]).raku;
-# $[1, 2, 3]
+# $[1, 2, 3]   # the dollar tells you it's an item that can trun into a list
 say [1,2,3].raku;
 # [1, 2, 3]
 say .raku for [1,2,3];
