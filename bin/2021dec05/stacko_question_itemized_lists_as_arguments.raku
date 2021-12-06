@@ -172,7 +172,6 @@ for @b -> $s {
 
 my @c = ( (1,2), (7,8) );
 say @c.elems;  # 2 
-
 for @c -> $s {
     say $s;  
 }
