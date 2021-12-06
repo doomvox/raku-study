@@ -148,14 +148,12 @@ say "======";
 my @a;
 
 @a = 1,2,3 ;
-say @a.elems;
+say @a.elems; # 3
 
 @a = (1,2,3);
-say @a.elems;
+say @a.elems; # 3
 
 @a = $(1,2,3);
-say @a.elems;
+say @a.elems; # 1
 # ' 
-3
-3
-1 
+
