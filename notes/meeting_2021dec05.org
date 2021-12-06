@@ -8,7 +8,7 @@
 
 https://stackoverflow.com/questions/69372414/flattening-and-itemized-lists
 
-** bg code, using an external library to do arbitrary precision math on any numbers 
+** bg code, using an external library, mpfr, to do arbitrary precision math on any numbers 
 *** raku's FatRats and so are pretty good, but they do have limitations
 *** https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568
 
