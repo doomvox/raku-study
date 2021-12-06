@@ -75,4 +75,4 @@ say $thing;
 say $thing.raku;
 
 my $thung = (3, 2);
-say $thung.WHAT; # (List)
+say $thung.WHAT; # 
