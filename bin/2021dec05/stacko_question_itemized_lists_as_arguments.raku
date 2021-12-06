@@ -78,10 +78,10 @@ my $thung = (3, 2);
 say $thung.WHAT; # (List)
 
 for $thing -> $n {
-    say $n;
+    say $n; # (3 2)
 }
 
 for $thung -> $n {
-    say $n;
+    say $n; # (3 2)
 }
 
