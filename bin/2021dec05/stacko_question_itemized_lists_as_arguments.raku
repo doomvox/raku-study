@@ -27,7 +27,7 @@ say item( %( apple => 10 ) ).raku;   # OUTPUT: «${:apple(10)}␤»
 say item("abc").raku;                # OUTPUT: «"abc"␤»
 # "abc"
 
-# You can also use $ as item contextualizer.
+## You can also use $ as item contextualizer.
 say $[1,2,3].raku;                   # OUTPUT: «$[1, 2, 3]␤» 
 # $[1, 2, 3]
 say $("abc").raku;                   # OUTPUT: «"abc"␤»
