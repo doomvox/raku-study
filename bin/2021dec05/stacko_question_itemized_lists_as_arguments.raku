@@ -53,5 +53,6 @@ for $(8, 76) -> $n {
     say $n; # (8 76)
     for $n -> $a {
         say $a.WHAT;
+        say $a;
     }
 }
