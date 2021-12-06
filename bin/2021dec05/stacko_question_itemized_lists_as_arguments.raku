@@ -4,12 +4,14 @@
 
 use v6;
 
+## https://stackoverflow.com/questions/69372414/flattening-and-itemized-lists
 
-> .say for flat $(8, 76)
-8
-76
+# > .say for flat $(8, 76)
+# 8
+# 76
 
-> .say for flat ($(8, 76),)
-(8 76)
+# > .say for flat ($(8, 76),)
+# (8 76)
 
-
+.say for flat $(8, 76)
+.say for flat ($(8, 76),)
