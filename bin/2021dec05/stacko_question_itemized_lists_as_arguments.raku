@@ -58,6 +58,11 @@ for (8, 76) -> $n {
     say $n.WHAT; # (Int)
 }
 
+for (8, 76) -> $n {
+    say $n.WHAT; # (Int)
+}
+
+
 say "---";
 for $(8, 76) -> $n {
     say $n.WHAT; # (List)
