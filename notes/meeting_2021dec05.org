@@ -17,4 +17,4 @@ https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568
 
 ** next meeting
 *** next meeting: december 19 
-
+*** announcment: svlug jan 6 (i think) a raku talk of some sort by me.
