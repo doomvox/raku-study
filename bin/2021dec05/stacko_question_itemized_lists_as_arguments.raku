@@ -26,3 +26,4 @@ say item([1,2,3]).raku;              # OUTPUT: «$[1, 2, 3]␤»
 say item( %( apple => 10 ) ).raku;   # OUTPUT: «${:apple(10)}␤» 
 # ${:apple(10)}
 say item("abc").raku;                # OUTPUT: «"abc"␤»
+# "abc"
