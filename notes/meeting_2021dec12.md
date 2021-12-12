@@ -1,36 +1,30 @@
-- [meeting notes December 12, 2021](#org9994356)
-  - [the raku study group](#org7aad5b1)
-  - [](#org3ea3d92)
-  - [usual links](#org3a3517e)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec12.md>](#orga779517)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec12>](#orgc3da5d0)
+- [meeting notes December 12, 2021](#org58d737c)
+  - [the raku study group](#orgf004b7c)
+  - [usual links](#org7801455)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec12.md>](#org78349d0)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec12>](#org104c036)
 
 
-<a id="org9994356"></a>
+<a id="org58d737c"></a>
 
 # meeting notes December 12, 2021
 
 
-<a id="org7aad5b1"></a>
+<a id="orgf004b7c"></a>
 
 ## the raku study group
 
 
-<a id="org3ea3d92"></a>
-
-## 
-
-
-<a id="org3a3517e"></a>
+<a id="org7801455"></a>
 
 ## usual links
 
 
-<a id="orga779517"></a>
+<a id="org78349d0"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec12.md>
 
 
-<a id="orgc3da5d0"></a>
+<a id="org104c036"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec12>

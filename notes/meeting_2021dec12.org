@@ -1,6 +1,5 @@
 * meeting notes December 12, 2021                                      
 ** the raku study group
-** 
 ** usual links
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec12.md 
 *** https://github.com/doomvox/raku-study/bin/2021dec12
