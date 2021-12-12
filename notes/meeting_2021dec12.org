@@ -1,9 +1,11 @@
 * meeting notes December 12, 2021                                      
 ** the raku study group
+*** celebrate the hollowdaze with the Raku-ettes
 ** usual links
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec12.md 
 *** https://github.com/doomvox/raku-study/bin/2021dec12
-
-
+** topicettes
+*** new utility package
+**** https://raku-advent.blog/2021/12/11/unix_philosophy_without_leftpad_part2/
 
 
