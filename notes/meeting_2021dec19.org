@@ -12,6 +12,7 @@
 **** https://raku-advent.blog/2021/12/11/unix_philosophy_without_leftpad_part2/
 **** wants to name it "_" or "lowbar" 
 ***** because calling it "util" would be confusing
+***** very specific rules for the package without any ideas of what to put in it
 
 ** announcments 
 *** January 2nd: next meeting
