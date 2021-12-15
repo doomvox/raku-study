@@ -1,52 +1,52 @@
-- [[meeting notes December 19, 2021](#org84472af)
-  - [the raku study group](#orga4c79cc)
-    - [celebrate the hollowdaze with the Raku-ettes](#orga166043)
-  - [usual links](#orgfe476dd)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#orgdebf862)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#org19b51b1)
-  - [topicettes](#org3c91f24)
-    - [idea for a new utility package](#org6e68ac4)
-  - [announcments](#orgd9fefc8)
-    - [January 2nd: next meeting](#org1eed1d8)
-    - [January 6th: svlug: I'll be talking about Raku](#orge37836e)
+- [[meeting notes December 19, 2021](#orgfd3a63d)
+  - [the raku study group](#orgb6d30f1)
+    - [celebrate the hollowdaze with the Raku-ettes](#org86f0ea4)
+  - [usual links](#orgc253d5a)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#org239eddb)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#org5c067eb)
+  - [topicettes](#orgd1052e6)
+    - [idea for a new utility package](#orgdeb652f)
+  - [announcments](#org4c43f7b)
+    - [January 2nd: next meeting](#org5e342fe)
+    - [January 6th: svlug: I'll be talking about Raku](#orgc6640d7)
 
 
-<a id="org84472af"></a>
+<a id="orgfd3a63d"></a>
 
 # [meeting notes December 19, 2021
 
 
-<a id="orga4c79cc"></a>
+<a id="orgb6d30f1"></a>
 
 ## the raku study group
 
 
-<a id="orga166043"></a>
+<a id="org86f0ea4"></a>
 
 ### celebrate the hollowdaze with the Raku-ettes
 
 
-<a id="orgfe476dd"></a>
+<a id="orgc253d5a"></a>
 
 ## usual links
 
 
-<a id="orgdebf862"></a>
+<a id="org239eddb"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>
 
 
-<a id="org19b51b1"></a>
+<a id="org5c067eb"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec19>
 
 
-<a id="org3c91f24"></a>
+<a id="orgd1052e6"></a>
 
 ## topicettes
 
 
-<a id="org6e68ac4"></a>
+<a id="orgdeb652f"></a>
 
 ### idea for a new utility package
 
@@ -58,19 +58,19 @@
     
     2.  very specific rules for the package without any ideas of what to put in it
     
-    3.  complicated wonky thinking justifying the philosophy, based on observations of programmer behavior
+    3.  complicated thinking justifying the underlying philosophy, based on observations of programmer behavior
 
 
-<a id="orgd9fefc8"></a>
+<a id="org4c43f7b"></a>
 
 ## announcments
 
 
-<a id="org1eed1d8"></a>
+<a id="org5e342fe"></a>
 
 ### January 2nd: next meeting
 
 
-<a id="orge37836e"></a>
+<a id="orgc6640d7"></a>
 
 ### January 6th: svlug: I'll be talking about Raku

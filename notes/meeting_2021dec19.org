@@ -13,7 +13,7 @@
 **** wants to name it "_" or "lowbar" 
 ***** because calling it "util" would be confusing
 ***** very specific rules for the package without any ideas of what to put in it
-***** complicated wonky thinking justifying the philosophy, based on observations of programmer behavior 
+***** complicated thinking justifying the underlying philosophy, based on observations of programmer behavior 
 
 ** announcments 
 *** January 2nd: next meeting
