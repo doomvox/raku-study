@@ -1,107 +1,107 @@
-- [meeting notes December 05, 2021](#org47b77be)
-  - [the raku study group](#org7e6675e)
-    - [Raku takes Knight](#org74be80c)
-  - [usual links](#org3f1b71b)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org2b52cea)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#orgd34faff)
-  - [bg code, using an external library, mpfr, to do arbitrary precision math on any numbers](#org017e9e8)
-    - [raku's FatRats and so are pretty good, but they do have limitations](#orge55f163)
-    - [<https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>](#org97f2f56)
-  - [damian conway interview from 2010](#org84986c7)
-  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#orgd04a447)
-    - [<https://github.com/rakudo/rakudo/issues/4615>](#orgdd247a4)
-  - [announcments](#org49a8e2e)
-    - [For the svlug on january 6th, I'll be talking about Raku](#orge549056)
-  - [next meeting](#org84358a6)
-    - [january 2nd](#org7e2a8e3)
-  - [text of the entire chat window (until I get around to trimming it)](#orgac982b9)
+- [meeting notes December 05, 2021](#org64c9c0a)
+  - [the raku study group](#org8b02584)
+    - [Raku takes Knight](#org81352a7)
+  - [usual links](#org33d05e3)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org79f9537)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#org94582fe)
+  - [bg code, using an external library, mpfr, to do arbitrary precision math on any numbers](#org4de50c6)
+    - [raku's FatRats and so are pretty good, but they do have limitations](#org79667e7)
+    - [<https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>](#org151fccb)
+  - [damian conway interview from 2010](#orgd4147bb)
+  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#org719623e)
+    - [<https://github.com/rakudo/rakudo/issues/4615>](#org0714ee0)
+  - [announcments](#org7689504)
+    - [january 6th, svlug: I'll be talking about Raku](#orgc4415e5)
+  - [next meeting](#org30ffb23)
+    - [january 2nd](#org0c8f0e0)
+  - [text of the entire chat window (until I get around to trimming it)](#org04bdc42)
 
 
-<a id="org47b77be"></a>
+<a id="org64c9c0a"></a>
 
 # meeting notes December 05, 2021
 
 
-<a id="org7e6675e"></a>
+<a id="org8b02584"></a>
 
 ## the raku study group
 
 
-<a id="org74be80c"></a>
+<a id="org81352a7"></a>
 
 ### Raku takes Knight
 
 
-<a id="org3f1b71b"></a>
+<a id="org33d05e3"></a>
 
 ## usual links
 
 
-<a id="org2b52cea"></a>
+<a id="org79f9537"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>
 
 
-<a id="orgd34faff"></a>
+<a id="org94582fe"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec05>
 
 <https://stackoverflow.com/questions/69372414/flattening-and-itemized-lists>
 
 
-<a id="org017e9e8"></a>
+<a id="org4de50c6"></a>
 
 ## bg code, using an external library, mpfr, to do arbitrary precision math on any numbers
 
 
-<a id="orge55f163"></a>
+<a id="org79667e7"></a>
 
 ### raku's FatRats and so are pretty good, but they do have limitations
 
 
-<a id="org97f2f56"></a>
+<a id="org151fccb"></a>
 
 ### <https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>
 
 
-<a id="org84986c7"></a>
+<a id="orgd4147bb"></a>
 
 ## damian conway interview from 2010
 
 <http://www.josetteorama.com/damian-conway-on-perl-and-its-future/>
 
 
-<a id="orgd04a447"></a>
+<a id="org719623e"></a>
 
 ## Ralph's remarks on the left-hand junction with smartmatch issue:
 
 
-<a id="orgdd247a4"></a>
+<a id="org0714ee0"></a>
 
 ### <https://github.com/rakudo/rakudo/issues/4615>
 
 
-<a id="org49a8e2e"></a>
+<a id="org7689504"></a>
 
 ## announcments
 
 
-<a id="orge549056"></a>
+<a id="orgc4415e5"></a>
 
-### For the svlug on january 6th, I'll be talking about Raku
+### january 6th, svlug: I'll be talking about Raku
 
 
-<a id="org84358a6"></a>
+<a id="org30ffb23"></a>
 
 ## next meeting
 
 
-<a id="org7e2a8e3"></a>
+<a id="org0c8f0e0"></a>
 
 ### january 2nd
 
 
-<a id="orgac982b9"></a>
+<a id="org04bdc42"></a>
 
 ## text of the entire chat window (until I get around to trimming it)
 

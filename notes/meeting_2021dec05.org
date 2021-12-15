@@ -19,7 +19,8 @@ http://www.josetteorama.com/damian-conway-on-perl-and-its-future/
 *** https://github.com/rakudo/rakudo/issues/4615
 
 ** announcments 
-*** For the svlug on january 6th, I'll be talking about Raku
+
+*** january 6th, svlug: I'll be talking about Raku
 
 ** next meeting
 *** january 2nd
