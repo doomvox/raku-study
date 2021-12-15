@@ -1,107 +1,107 @@
-- [meeting notes December 05, 2021](#org64c9c0a)
-  - [the raku study group](#org8b02584)
-    - [Raku takes Knight](#org81352a7)
-  - [usual links](#org33d05e3)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org79f9537)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#org94582fe)
-  - [bg code, using an external library, mpfr, to do arbitrary precision math on any numbers](#org4de50c6)
-    - [raku's FatRats and so are pretty good, but they do have limitations](#org79667e7)
-    - [<https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>](#org151fccb)
-  - [damian conway interview from 2010](#orgd4147bb)
-  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#org719623e)
-    - [<https://github.com/rakudo/rakudo/issues/4615>](#org0714ee0)
-  - [announcments](#org7689504)
-    - [january 6th, svlug: I'll be talking about Raku](#orgc4415e5)
-  - [next meeting](#org30ffb23)
-    - [january 2nd](#org0c8f0e0)
-  - [text of the entire chat window (until I get around to trimming it)](#org04bdc42)
+- [meeting notes December 05, 2021](#org503fa83)
+  - [the raku study group](#org37a4559)
+    - [Raku takes Knight](#orgef7012c)
+  - [usual links](#org36dae02)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org802d5a5)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#org7782c23)
+  - [bg code, using an external library, mpfr, to do arbitrary precision math on any numbers](#orge60cac1)
+    - [raku's FatRats and so are pretty good, but they do have limitations](#org04ef36e)
+    - [<https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>](#org40bd89f)
+  - [damian conway interview from 2010](#orga99c334)
+  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#org8465222)
+    - [<https://github.com/rakudo/rakudo/issues/4615>](#org9f155af)
+  - [announcments](#org13f7374)
+    - [january 6th, svlug: I'll be talking about Raku](#org2ea8f7b)
+  - [next meeting](#org9a9dd34)
+    - [january 2nd](#orgc9be56c)
+  - [text of the entire chat window (until I get around to trimming it)](#orgb8f35f8)
 
 
-<a id="org64c9c0a"></a>
+<a id="org503fa83"></a>
 
 # meeting notes December 05, 2021
 
 
-<a id="org8b02584"></a>
+<a id="org37a4559"></a>
 
 ## the raku study group
 
 
-<a id="org81352a7"></a>
+<a id="orgef7012c"></a>
 
 ### Raku takes Knight
 
 
-<a id="org33d05e3"></a>
+<a id="org36dae02"></a>
 
 ## usual links
 
 
-<a id="org79f9537"></a>
+<a id="org802d5a5"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>
 
 
-<a id="org94582fe"></a>
+<a id="org7782c23"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec05>
 
 <https://stackoverflow.com/questions/69372414/flattening-and-itemized-lists>
 
 
-<a id="org4de50c6"></a>
+<a id="orge60cac1"></a>
 
 ## bg code, using an external library, mpfr, to do arbitrary precision math on any numbers
 
 
-<a id="org79667e7"></a>
+<a id="org04ef36e"></a>
 
 ### raku's FatRats and so are pretty good, but they do have limitations
 
 
-<a id="org151fccb"></a>
+<a id="org40bd89f"></a>
 
 ### <https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>
 
 
-<a id="orgd4147bb"></a>
+<a id="orga99c334"></a>
 
 ## damian conway interview from 2010
 
 <http://www.josetteorama.com/damian-conway-on-perl-and-its-future/>
 
 
-<a id="org719623e"></a>
+<a id="org8465222"></a>
 
 ## Ralph's remarks on the left-hand junction with smartmatch issue:
 
 
-<a id="org0714ee0"></a>
+<a id="org9f155af"></a>
 
 ### <https://github.com/rakudo/rakudo/issues/4615>
 
 
-<a id="org7689504"></a>
+<a id="org13f7374"></a>
 
 ## announcments
 
 
-<a id="orgc4415e5"></a>
+<a id="org2ea8f7b"></a>
 
 ### january 6th, svlug: I'll be talking about Raku
 
 
-<a id="org30ffb23"></a>
+<a id="org9a9dd34"></a>
 
 ## next meeting
 
 
-<a id="org0c8f0e0"></a>
+<a id="orgc9be56c"></a>
 
 ### january 2nd
 
 
-<a id="org04bdc42"></a>
+<a id="orgb8f35f8"></a>
 
 ## text of the entire chat window (until I get around to trimming it)
 
