@@ -17,21 +17,3 @@
 *** January 2nd: next meeting
 *** January 6th: svlug: I'll be talking about Raku
 
-### new utility package
-
-1.  <>
-
-
-<a id="org90551a9"></a>
-
-## announcements
-
-
-<a id="org0c20e2a"></a>
-
-### next meeting: january 02, 2022
-
-
-<a id="org2473361"></a>
-
-### announcment: svlug jan 6 (i think) a raku talk of some sort by me.
