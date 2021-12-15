@@ -1,52 +1,52 @@
-- [[meeting notes December 19, 2021](#org1746b91)
-  - [the raku study group](#org5c81edb)
-    - [celebrate the hollowdaze with the Raku-ettes](#org686950a)
-  - [usual links](#orgec8cb67)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#orgadd8b63)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#orgc2fa68f)
-  - [topicettes](#org8785778)
-    - [idea for a new utility package](#org206d706)
-  - [announcments](#org97d2f98)
-    - [January 2nd: next meeting](#org223de11)
-    - [January 6th: svlug: I'll be talking about Raku](#orga7155e6)
+- [[meeting notes December 19, 2021](#org84472af)
+  - [the raku study group](#orga4c79cc)
+    - [celebrate the hollowdaze with the Raku-ettes](#orga166043)
+  - [usual links](#orgfe476dd)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#orgdebf862)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#org19b51b1)
+  - [topicettes](#org3c91f24)
+    - [idea for a new utility package](#org6e68ac4)
+  - [announcments](#orgd9fefc8)
+    - [January 2nd: next meeting](#org1eed1d8)
+    - [January 6th: svlug: I'll be talking about Raku](#orge37836e)
 
 
-<a id="org1746b91"></a>
+<a id="org84472af"></a>
 
 # [meeting notes December 19, 2021
 
 
-<a id="org5c81edb"></a>
+<a id="orga4c79cc"></a>
 
 ## the raku study group
 
 
-<a id="org686950a"></a>
+<a id="orga166043"></a>
 
 ### celebrate the hollowdaze with the Raku-ettes
 
 
-<a id="orgec8cb67"></a>
+<a id="orgfe476dd"></a>
 
 ## usual links
 
 
-<a id="orgadd8b63"></a>
+<a id="orgdebf862"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>
 
 
-<a id="orgc2fa68f"></a>
+<a id="org19b51b1"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec19>
 
 
-<a id="org8785778"></a>
+<a id="org3c91f24"></a>
 
 ## topicettes
 
 
-<a id="org206d706"></a>
+<a id="org6e68ac4"></a>
 
 ### idea for a new utility package
 
@@ -57,18 +57,20 @@
     1.  because calling it "util" would be confusing
     
     2.  very specific rules for the package without any ideas of what to put in it
+    
+    3.  complicated wonky thinking justifying the philosophy, based on observations of programmer behavior
 
 
-<a id="org97d2f98"></a>
+<a id="orgd9fefc8"></a>
 
 ## announcments
 
 
-<a id="org223de11"></a>
+<a id="org1eed1d8"></a>
 
 ### January 2nd: next meeting
 
 
-<a id="orga7155e6"></a>
+<a id="orge37836e"></a>
 
 ### January 6th: svlug: I'll be talking about Raku
