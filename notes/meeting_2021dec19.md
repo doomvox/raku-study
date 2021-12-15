@@ -1,53 +1,55 @@
-- [[meeting notes December 19, 2021](#org606aef6)
-  - [the raku study group](#org812c9d9)
-    - [celebrate the hollowdaze with the Raku-ettes](#orga179fc9)
-  - [usual links](#org3237cd4)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#orgde71a7d)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#orgcdbfabe)
-  - [topicettes](#org2e1636f)
-    - [idea for a new utility package](#org6d002db)
+- [[meeting notes December 19, 2021](#org402492f)
+  - [the raku study group](#org8efa701)
+    - [celebrate the hollowdaze with the Raku-ettes](#org50a8e1a)
+  - [usual links](#orgbfc6b7e)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#org5b8cb77)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#orgb0d7b13)
+  - [topicettes](#org1f49af5)
+    - [idea for a new utility package](#org8a4bf00)
 
 
-<a id="org606aef6"></a>
+<a id="org402492f"></a>
 
 # [meeting notes December 19, 2021
 
 
-<a id="org812c9d9"></a>
+<a id="org8efa701"></a>
 
 ## the raku study group
 
 
-<a id="orga179fc9"></a>
+<a id="org50a8e1a"></a>
 
 ### celebrate the hollowdaze with the Raku-ettes
 
 
-<a id="org3237cd4"></a>
+<a id="orgbfc6b7e"></a>
 
 ## usual links
 
 
-<a id="orgde71a7d"></a>
+<a id="org5b8cb77"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>
 
 
-<a id="orgcdbfabe"></a>
+<a id="orgb0d7b13"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec19>
 
 
-<a id="org2e1636f"></a>
+<a id="org1f49af5"></a>
 
 ## topicettes
 
 
-<a id="org6d002db"></a>
+<a id="org8a4bf00"></a>
 
 ### idea for a new utility package
 
-1.  wants to name it "\_" or "lowbar"
+1.  
+
+2.  wants to name it "\_" or "lowbar"
 
     1.  because calling it "util" would be confusing
     
