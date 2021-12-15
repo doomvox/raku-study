@@ -1,4 +1,4 @@
-* meeting notes December 12, 2021                                      
+* meeting notes December 19, 2021                                      
 ** the raku study group
 *** celebrate the hollowdaze with the Raku-ettes
 ** usual links
@@ -9,3 +9,7 @@
 **** https://raku-advent.blog/2021/12/11/unix_philosophy_without_leftpad_part2/
 
 
+** announcements
+*** next meeting: january 02, 2022
+
+*** announcment: svlug jan 6 (i think) a raku talk of some sort by me.
