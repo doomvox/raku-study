@@ -9,6 +9,8 @@
 
 ** topicettes
 *** idea for a new utility package
+**** wants to name it "_" or "lowbar" 
+***** because calling it "util" would be confusing
 
   - [announcements](#org90551a9)
     - [next meeting: january 02, 2022](#org0c20e2a)
