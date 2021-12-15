@@ -22,8 +22,8 @@ http://www.josetteorama.com/damian-conway-on-perl-and-its-future/
 *** For the svlug on january 6th, I'll be talking about Raku
 
 ** next meeting
-*** next meeting: december 19 
-*** announcment: svlug jan 6 (i think) a raku talk of some sort by me.
+*** december 19 
+
 
 
 

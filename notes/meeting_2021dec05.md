@@ -1,113 +1,107 @@
-- [meeting notes December 05, 2021](#org87574b3)
-  - [the raku study group](#org23d4fb6)
-    - [Raku takes Knight](#org38cae3d)
-  - [usual links](#org0797b12)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org51c7371)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#org449cd5f)
-  - [bg code, using an external library, mpfr, to do arbitrary precision math on any numbers](#orgc383f4c)
-    - [raku's FatRats and so are pretty good, but they do have limitations](#orga374899)
-    - [<https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>](#orgae528b6)
-  - [damian conway interview from 2010](#orgdf7fd19)
-  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#org172279f)
-    - [<https://github.com/rakudo/rakudo/issues/4615>](#org679ee6a)
-  - [announcments](#org9cee1a4)
-    - [For the svlug on january 6th, I'll be talking about Raku](#orgae20193)
-  - [next meeting](#orgc859dc7)
-    - [next meeting: december 19](#orge02d0e8)
-    - [announcment: svlug jan 6 (i think) a raku talk of some sort by me.](#orgd17b4e5)
-  - [text of the entire chat window (until I get around to trimming it)](#org04d59a4)
+- [meeting notes December 05, 2021](#orgeb08e99)
+  - [the raku study group](#org7d54802)
+    - [Raku takes Knight](#org0c5e808)
+  - [usual links](#org46e381d)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#orgb60baaf)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#org46bff2e)
+  - [bg code, using an external library, mpfr, to do arbitrary precision math on any numbers](#orgd7795be)
+    - [raku's FatRats and so are pretty good, but they do have limitations](#orgacd4061)
+    - [<https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>](#orge996d9e)
+  - [damian conway interview from 2010](#org12d071e)
+  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#org5d4db6b)
+    - [<https://github.com/rakudo/rakudo/issues/4615>](#org1abc9f2)
+  - [announcments](#orgcb8d7f4)
+    - [For the svlug on january 6th, I'll be talking about Raku](#org6f7fbd7)
+  - [next meeting](#org3a7fcba)
+    - [next meeting: december 19](#org00cda45)
+  - [text of the entire chat window (until I get around to trimming it)](#org9dc4dcb)
 
 
-<a id="org87574b3"></a>
+<a id="orgeb08e99"></a>
 
 # meeting notes December 05, 2021
 
 
-<a id="org23d4fb6"></a>
+<a id="org7d54802"></a>
 
 ## the raku study group
 
 
-<a id="org38cae3d"></a>
+<a id="org0c5e808"></a>
 
 ### Raku takes Knight
 
 
-<a id="org0797b12"></a>
+<a id="org46e381d"></a>
 
 ## usual links
 
 
-<a id="org51c7371"></a>
+<a id="orgb60baaf"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>
 
 
-<a id="org449cd5f"></a>
+<a id="org46bff2e"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec05>
 
 <https://stackoverflow.com/questions/69372414/flattening-and-itemized-lists>
 
 
-<a id="orgc383f4c"></a>
+<a id="orgd7795be"></a>
 
 ## bg code, using an external library, mpfr, to do arbitrary precision math on any numbers
 
 
-<a id="orga374899"></a>
+<a id="orgacd4061"></a>
 
 ### raku's FatRats and so are pretty good, but they do have limitations
 
 
-<a id="orgae528b6"></a>
+<a id="orge996d9e"></a>
 
 ### <https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>
 
 
-<a id="orgdf7fd19"></a>
+<a id="org12d071e"></a>
 
 ## damian conway interview from 2010
 
 <http://www.josetteorama.com/damian-conway-on-perl-and-its-future/>
 
 
-<a id="org172279f"></a>
+<a id="org5d4db6b"></a>
 
 ## Ralph's remarks on the left-hand junction with smartmatch issue:
 
 
-<a id="org679ee6a"></a>
+<a id="org1abc9f2"></a>
 
 ### <https://github.com/rakudo/rakudo/issues/4615>
 
 
-<a id="org9cee1a4"></a>
+<a id="orgcb8d7f4"></a>
 
 ## announcments
 
 
-<a id="orgae20193"></a>
+<a id="org6f7fbd7"></a>
 
 ### For the svlug on january 6th, I'll be talking about Raku
 
 
-<a id="orgc859dc7"></a>
+<a id="org3a7fcba"></a>
 
 ## next meeting
 
 
-<a id="orge02d0e8"></a>
+<a id="org00cda45"></a>
 
 ### next meeting: december 19
 
 
-<a id="orgd17b4e5"></a>
-
-### announcment: svlug jan 6 (i think) a raku talk of some sort by me.
-
-
-<a id="org04d59a4"></a>
+<a id="org9dc4dcb"></a>
 
 ## text of the entire chat window (until I get around to trimming it)
 
