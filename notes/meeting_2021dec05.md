@@ -1,107 +1,107 @@
-- [meeting notes December 05, 2021](#org4ea14a3)
-  - [the raku study group](#org21eb705)
-    - [Raku takes Knight](#org4554d7a)
-  - [usual links](#org52659d9)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org76586bf)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#org64ebfa5)
-  - [bg code, using an external library, mpfr, to do arbitrary precision math on any numbers](#org3febe70)
-    - [raku's FatRats and so are pretty good, but they do have limitations](#org6978f9c)
-    - [<https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>](#org1fce231)
-  - [damian conway interview from 2010](#orgda02b79)
-  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#org3ce5835)
-    - [<https://github.com/rakudo/rakudo/issues/4615>](#org435b5a7)
-  - [announcments](#org4ab665b)
-    - [For the svlug on january 6th, I'll be talking about Raku](#orge07d2a3)
-  - [next meeting](#orge04363d)
-    - [december 19](#orgd1ecdaa)
-  - [text of the entire chat window (until I get around to trimming it)](#org12c4692)
+- [meeting notes December 05, 2021](#org47b77be)
+  - [the raku study group](#org7e6675e)
+    - [Raku takes Knight](#org74be80c)
+  - [usual links](#org3f1b71b)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org2b52cea)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#orgd34faff)
+  - [bg code, using an external library, mpfr, to do arbitrary precision math on any numbers](#org017e9e8)
+    - [raku's FatRats and so are pretty good, but they do have limitations](#orge55f163)
+    - [<https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>](#org97f2f56)
+  - [damian conway interview from 2010](#org84986c7)
+  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#orgd04a447)
+    - [<https://github.com/rakudo/rakudo/issues/4615>](#orgdd247a4)
+  - [announcments](#org49a8e2e)
+    - [For the svlug on january 6th, I'll be talking about Raku](#orge549056)
+  - [next meeting](#org84358a6)
+    - [january 2nd](#org7e2a8e3)
+  - [text of the entire chat window (until I get around to trimming it)](#orgac982b9)
 
 
-<a id="org4ea14a3"></a>
+<a id="org47b77be"></a>
 
 # meeting notes December 05, 2021
 
 
-<a id="org21eb705"></a>
+<a id="org7e6675e"></a>
 
 ## the raku study group
 
 
-<a id="org4554d7a"></a>
+<a id="org74be80c"></a>
 
 ### Raku takes Knight
 
 
-<a id="org52659d9"></a>
+<a id="org3f1b71b"></a>
 
 ## usual links
 
 
-<a id="org76586bf"></a>
+<a id="org2b52cea"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>
 
 
-<a id="org64ebfa5"></a>
+<a id="orgd34faff"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec05>
 
 <https://stackoverflow.com/questions/69372414/flattening-and-itemized-lists>
 
 
-<a id="org3febe70"></a>
+<a id="org017e9e8"></a>
 
 ## bg code, using an external library, mpfr, to do arbitrary precision math on any numbers
 
 
-<a id="org6978f9c"></a>
+<a id="orge55f163"></a>
 
 ### raku's FatRats and so are pretty good, but they do have limitations
 
 
-<a id="org1fce231"></a>
+<a id="org97f2f56"></a>
 
 ### <https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>
 
 
-<a id="orgda02b79"></a>
+<a id="org84986c7"></a>
 
 ## damian conway interview from 2010
 
 <http://www.josetteorama.com/damian-conway-on-perl-and-its-future/>
 
 
-<a id="org3ce5835"></a>
+<a id="orgd04a447"></a>
 
 ## Ralph's remarks on the left-hand junction with smartmatch issue:
 
 
-<a id="org435b5a7"></a>
+<a id="orgdd247a4"></a>
 
 ### <https://github.com/rakudo/rakudo/issues/4615>
 
 
-<a id="org4ab665b"></a>
+<a id="org49a8e2e"></a>
 
 ## announcments
 
 
-<a id="orge07d2a3"></a>
+<a id="orge549056"></a>
 
 ### For the svlug on january 6th, I'll be talking about Raku
 
 
-<a id="orge04363d"></a>
+<a id="org84358a6"></a>
 
 ## next meeting
 
 
-<a id="orgd1ecdaa"></a>
+<a id="org7e2a8e3"></a>
 
-### december 19
+### january 2nd
 
 
-<a id="org12c4692"></a>
+<a id="orgac982b9"></a>
 
 ## text of the entire chat window (until I get around to trimming it)
 
