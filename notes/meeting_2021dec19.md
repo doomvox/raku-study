@@ -1,52 +1,52 @@
-- [[meeting notes December 19, 2021](#orgfd3a63d)
-  - [the raku study group](#orgb6d30f1)
-    - [celebrate the hollowdaze with the Raku-ettes](#org86f0ea4)
-  - [usual links](#orgc253d5a)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#org239eddb)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#org5c067eb)
-  - [topicettes](#orgd1052e6)
-    - [idea for a new utility package](#orgdeb652f)
-  - [announcments](#org4c43f7b)
-    - [January 2nd: next meeting](#org5e342fe)
-    - [January 6th: svlug: I'll be talking about Raku](#orgc6640d7)
+- [meeting notes December 19, 2021](#orgcae0049)
+  - [the raku study group](#org63e5efc)
+    - [celebrate the hollowdaze with the Raku-ettes](#orgaf7311c)
+  - [usual links](#orgf38111a)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#org73e5bc6)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#orga4a8da8)
+  - [topicettes](#org792799a)
+    - [idea for a new utility package](#org2d188d5)
+  - [announcments](#orgccb4116)
+    - [January 2nd: next meeting](#orgeb350be)
+    - [January 6th: svlug: I'll be talking about Raku](#orgabc4b24)
 
 
-<a id="orgfd3a63d"></a>
+<a id="orgcae0049"></a>
 
-# [meeting notes December 19, 2021
+# meeting notes December 19, 2021
 
 
-<a id="orgb6d30f1"></a>
+<a id="org63e5efc"></a>
 
 ## the raku study group
 
 
-<a id="org86f0ea4"></a>
+<a id="orgaf7311c"></a>
 
 ### celebrate the hollowdaze with the Raku-ettes
 
 
-<a id="orgc253d5a"></a>
+<a id="orgf38111a"></a>
 
 ## usual links
 
 
-<a id="org239eddb"></a>
+<a id="org73e5bc6"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>
 
 
-<a id="org5c067eb"></a>
+<a id="orga4a8da8"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec19>
 
 
-<a id="orgd1052e6"></a>
+<a id="org792799a"></a>
 
 ## topicettes
 
 
-<a id="orgdeb652f"></a>
+<a id="org2d188d5"></a>
 
 ### idea for a new utility package
 
@@ -61,16 +61,16 @@
     3.  complicated thinking justifying the underlying philosophy, based on observations of programmer behavior
 
 
-<a id="org4c43f7b"></a>
+<a id="orgccb4116"></a>
 
 ## announcments
 
 
-<a id="org5e342fe"></a>
+<a id="orgeb350be"></a>
 
 ### January 2nd: next meeting
 
 
-<a id="orgc6640d7"></a>
+<a id="orgabc4b24"></a>
 
 ### January 6th: svlug: I'll be talking about Raku

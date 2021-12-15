@@ -1,4 +1,4 @@
-* [meeting notes December 19, 2021
+* meeting notes December 19, 2021
 ** the raku study group
 *** celebrate the hollowdaze with the Raku-ettes
 
