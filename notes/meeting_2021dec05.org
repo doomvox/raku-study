@@ -22,6 +22,7 @@ http://www.josetteorama.com/damian-conway-on-perl-and-its-future/
 *** december 19th, next meeting
 *** january 6th, svlug: I'll be talking about Raku
 
+
 ** text of the entire chat window (until I get around to trimming it)
 
 13:41:16	 From William Michels : https://www.javascriptinstitute.org/javascript-tutorial/history-of-javascript/
