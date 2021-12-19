@@ -45,6 +45,8 @@ say {alpha => 1, beta => 2, gamma => 3}.deepmap(* + 1);
 say {alpha => 1, beta => 2, gamma => 3}.deepmap({ $_ + 1 });
 # {alpha => 2, beta => 3, gamma => 4}
 
+say {alpha => 1, beta => 2, gamma => 3, detla => 'four' }.deepmap({ $_ + 1 });
+
 
 
 say "===";
