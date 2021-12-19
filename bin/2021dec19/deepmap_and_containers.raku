@@ -29,8 +29,8 @@ say @stuff;       # [1 666 3]
 
 
 my @stuffier := (1, 2, 3);
-@stuffier[1] = 666;  
-say @stuffier;
+# @stuffier[1] = 666;   # Cannot modify an immutable List ((1 2 3))
+
 
 
 say "===";
