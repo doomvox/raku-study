@@ -3,8 +3,8 @@
 # mod_div_coerce_to_int_sean_question.raku            19 Dec 2021 
 
 use v6;
-Try to make errors into warnings
-  CATCH { default { say "CAUGHT: ", .Str; .resume } }
+# Try to make errors into warnings
+CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 
 
