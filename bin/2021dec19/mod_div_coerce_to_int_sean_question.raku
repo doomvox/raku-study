@@ -23,3 +23,8 @@ my $n = $a * $b;
 dd $n;
 # Int $n = 12
 # clearly coerces string to Int silently as perl-people would expect.
+
+my $result = 25 div 5;
+dd $result;
+
+# my $nope = 25 div '5';
