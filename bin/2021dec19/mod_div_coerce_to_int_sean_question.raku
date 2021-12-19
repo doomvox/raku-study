@@ -37,8 +37,13 @@ dd $result;
 # Calling infix:<div>(Int, Str) will never work with any of these multi signatures:
 
 
-my $pi_div_5 = pi div 5;
-dd $pi_div_5;
+# my $pi_div_5 = pi div 5;
+# dd $pi_div_5;
+# ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021dec19/mod_div_coerce_to_int_sean_question.raku
+# Calling infix:<div>(Num, Int) will never work with any of these multi signatures:
+#     (Int:D $a, Int:D $b --> Int:D) 
+#     (int $a, int $b --> int)
 
+say pi.Int;
 
-
+my $hm = pi.Int div 5;
