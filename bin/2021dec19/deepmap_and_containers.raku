@@ -7,7 +7,7 @@ use v6;
 my @a = [1, [2, 3]];
 my @b = @a.deepmap: *.clone;
 
-dd @b;
+dd @b; # Array @b = [1, [2, 3]]
 
 
 # say @b[0].VAR.^name;     # Scalar, this is OK
