@@ -19,7 +19,8 @@
 **** the archived form of this discussion is mangled 
 ***** (refers to a Yary comment that isn't there)
 ****** https://www.nntp.perl.org/group/perl.perl6.users/2021/12/msg10332.html
-****** 
+****** https://github.com/Raku/problem-solving/issues/308
+
 *** stackoverflow question about deepmap
 **** https://stackoverflow.com/questions/70414736/immutable-uncontainerized-elements-in-arrays-created-by-deepmap
 
