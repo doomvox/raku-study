@@ -50,9 +50,14 @@ say {alpha => 1, beta => 2, gamma => 3}.deepmap({ $_ + 1 });
 
 say {alpha => 1, beta => 2, gamma => 3, detla => 'four' }.deepmap({ if $_.Numeric { $_ + 1 } });
 
+## bizzaro behavior in this case:
 # {alpha => 3, beta => IterationEnd, detla => 2, gamma => 4}
 
+## might expect:
 # {alpha => 2, beta => 3, gamma => 4, detla => Nil };
+
+
+say {alpha => 1, beta => 2, gamma => 3, detla => 'four' }.deepmap({ if $_.Numeric { $_ + 1 } else { Nil}  });
 
 
 say "===";
