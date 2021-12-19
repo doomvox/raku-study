@@ -59,8 +59,6 @@ say {alpha => 1, beta => 2, gamma => 3, detla => 'four' }.deepmap({ if $_.Numeri
 say {alpha => 1, beta => 2, gamma => 3, detla => 'four' }.deepmap({ if $_.Numeric { $_ + 1 } else { Nil }  });
 # {alpha => 2, beta => 3, detla => (Any), gamma => 4}
 
-
-
 say "===";
 
 # https://stackoverflow.com/questions/70414736/immutable-uncontainerized-elements-in-arrays-created-by-deepmap
