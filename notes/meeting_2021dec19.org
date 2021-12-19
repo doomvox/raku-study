@@ -31,6 +31,9 @@
 *** brad gilbert, delayed 1/0 errors
 **** https://stackoverflow.com/questions/67980761/raku-attempt-to-divide-by-zero-when-coercing-rational-to-str/67987507#67987507
 
+*** div doesn't coerce to numeric?
+**** https://www.nntp.perl.org/group/perl.perl6.users/2021/12/msg10343.html
+
 *** jonathan worthington, cro-ing
 **** https://raku-advent.blog/2021/12/19/let-it-cro/
 

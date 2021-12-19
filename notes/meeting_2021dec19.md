@@ -1,57 +1,58 @@
-- [meeting notes December 19, 2021](#org5a56377)
-  - [the raku study group](#orgca5b944)
-    - [celebrate the hollowdaze with the Raku-ettes](#org1eac3c6)
-  - [usual links](#orgca77e2a)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#org45180ad)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#org14bc9b4)
-  - [topicettes](#orgba83437)
-    - [idea for a new utility package](#org18a987f)
-    - [phasers, perl6-users discussion](#org6f58d69)
-    - [deepmap, stackoverflow question](#org13d79d6)
-    - [subdivide document into even chunks (stackoverflow)](#orgdce07d2)
-    - [brad gilbert, delayed 1/0 errors](#org048c783)
-    - [jonathan worthington, cro-ing](#org55f576d)
-  - [announcments](#org9df5691)
-    - [January 2nd: next meeting?  (actually: I'm thinking I may skip this one)](#org9c7e377)
-    - [January 6th: svlug: I'll be talking about Raku](#org18fde46)
+- [meeting notes December 19, 2021](#org63c22bd)
+  - [the raku study group](#org80b1532)
+    - [celebrate the hollowdaze with the Raku-ettes](#orga6c0419)
+  - [usual links](#org97fb6fe)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#org7002a2e)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#org62584ac)
+  - [topicettes](#orgc6e518c)
+    - [idea for a new utility package](#orgd1819fe)
+    - [phasers, perl6-users discussion](#orgbc6ea25)
+    - [deepmap, stackoverflow question](#org3b021f3)
+    - [subdivide document into even chunks (stackoverflow)](#orgdb4c95f)
+    - [brad gilbert, delayed 1/0 errors](#orga9e1afe)
+    - [div doesn't coerce to numeric?](#orgc25b4e3)
+    - [jonathan worthington, cro-ing](#orge431493)
+  - [announcments](#org3c734e3)
+    - [January 2nd: next meeting?  (actually: I'm thinking I may skip this one)](#org4302b9c)
+    - [January 6th: svlug: I'll be talking about Raku](#org1906a65)
 
 
-<a id="org5a56377"></a>
+<a id="org63c22bd"></a>
 
 # meeting notes December 19, 2021
 
 
-<a id="orgca5b944"></a>
+<a id="org80b1532"></a>
 
 ## the raku study group
 
 
-<a id="org1eac3c6"></a>
+<a id="orga6c0419"></a>
 
 ### celebrate the hollowdaze with the Raku-ettes
 
 
-<a id="orgca77e2a"></a>
+<a id="org97fb6fe"></a>
 
 ## usual links
 
 
-<a id="org45180ad"></a>
+<a id="org7002a2e"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>
 
 
-<a id="org14bc9b4"></a>
+<a id="org62584ac"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec19>
 
 
-<a id="orgba83437"></a>
+<a id="orgc6e518c"></a>
 
 ## topicettes
 
 
-<a id="org18a987f"></a>
+<a id="orgd1819fe"></a>
 
 ### idea for a new utility package
 
@@ -66,7 +67,7 @@
     3.  complicated thinking justifying the underlying philosophy, based on observations of programmer behavior
 
 
-<a id="org6f58d69"></a>
+<a id="orgbc6ea25"></a>
 
 ### phasers, perl6-users discussion
 
@@ -81,44 +82,51 @@
         2.  <https://github.com/Raku/problem-solving/issues/308>
 
 
-<a id="org13d79d6"></a>
+<a id="org3b021f3"></a>
 
 ### deepmap, stackoverflow question
 
 1.  <https://stackoverflow.com/questions/70414736/immutable-uncontainerized-elements-in-arrays-created-by-deepmap>
 
 
-<a id="orgdce07d2"></a>
+<a id="orgdb4c95f"></a>
 
 ### subdivide document into even chunks (stackoverflow)
 
 1.  <https://stackoverflow.com/questions/61875715/split-string-to-fixed-length-chunks-and-write-in-separate-line-in-raku>
 
 
-<a id="org048c783"></a>
+<a id="orga9e1afe"></a>
 
 ### brad gilbert, delayed 1/0 errors
 
 1.  <https://stackoverflow.com/questions/67980761/raku-attempt-to-divide-by-zero-when-coercing-rational-to-str/67987507#67987507>
 
 
-<a id="org55f576d"></a>
+<a id="orgc25b4e3"></a>
+
+### div doesn't coerce to numeric?
+
+1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/12/msg10343.html>
+
+
+<a id="orge431493"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="org9df5691"></a>
+<a id="org3c734e3"></a>
 
 ## announcments
 
 
-<a id="org9c7e377"></a>
+<a id="org4302b9c"></a>
 
 ### January 2nd: next meeting?  (actually: I'm thinking I may skip this one)
 
 
-<a id="org18fde46"></a>
+<a id="org1906a65"></a>
 
 ### January 6th: svlug: I'll be talking about Raku
