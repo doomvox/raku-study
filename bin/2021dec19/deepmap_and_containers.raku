@@ -31,8 +31,6 @@ say @stuff;       # [1 666 3]
 my @stuffier := (1, 2, 3);
 # @stuffier[1] = 666;   # Cannot modify an immutable List ((1 2 3))
 
-
-
 say "===";
 
 # https://stackoverflow.com/questions/70414736/immutable-uncontainerized-elements-in-arrays-created-by-deepmap
