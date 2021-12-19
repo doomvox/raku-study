@@ -4,7 +4,6 @@
 
 use v6;
 
-
 my @a = [1, [2, 3]];
 my @b = @a.deepmap: *.clone;
 say @b[0].VAR.^name;     # Scalar, this is OK
