@@ -10,7 +10,6 @@ dd $a; # Int $a = 3
 $a++;
 say $a; # 4
 
-
 my $b := 3;
 # $b++;
 # Cannot resolve caller postfix:<++>(Int:D); the following candidates
