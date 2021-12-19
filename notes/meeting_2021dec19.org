@@ -16,9 +16,7 @@
 
 *** sean mcaffee, div doesn't coerce to numeric?
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/12/msg10343.html
-
-
-
+**** maybe a feature
 
 *** idea for a new utility package
 **** https://raku-advent.blog/2021/12/11/unix_philosophy_without_leftpad_part2/
