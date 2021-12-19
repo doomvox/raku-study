@@ -4,6 +4,15 @@
 
 use v6;
 
+
+my $a = 3;
+dd $a;
+$a++;
+say $a;
+
+
+
+
 # https://stackoverflow.com/questions/70414736/immutable-uncontainerized-elements-in-arrays-created-by-deepmap
 
 my @a = [1, [2, 3]];
