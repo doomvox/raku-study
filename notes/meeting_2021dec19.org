@@ -27,6 +27,10 @@
 *** subdivide document into even chunks (stackoverflow)
 **** https://stackoverflow.com/questions/61875715/split-string-to-fixed-length-chunks-and-write-in-separate-line-in-raku
 
+*** brad gilbert, delayed 1/0 errors
+**** https://stackoverflow.com/questions/67980761/raku-attempt-to-divide-by-zero-when-coercing-rational-to-str/67987507#67987507
+
+
 
 ** announcments 
 *** January 2nd: next meeting?  (actually: I'm thinking I may skip this one)
