@@ -37,8 +37,8 @@ dd $result;
 # Calling infix:<div>(Int, Str) will never work with any of these multi signatures:
 
 
-
-
+my $pi_div_5 = pi div 5;
+dd $pi_div_5;
 
 
 
