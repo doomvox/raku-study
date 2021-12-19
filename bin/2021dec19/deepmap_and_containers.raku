@@ -6,9 +6,13 @@ use v6;
 
 
 my $a = 3;
-dd $a;
+dd $a; # Int $a = 3
 $a++;
-say $a;
+say $a; # 4
+
+
+my $b := 3;
+$b++;
 
 
 say "===";
