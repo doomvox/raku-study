@@ -23,9 +23,10 @@ $b := 5;
 say $b; # 5
 
 my @stuff = (1, 2, 3);
-say @stuff;
-@stuff[1] = 666;
-say @stuff;
+say @stuff;       # [1 2 3]
+@stuff[1] = 666;  
+say @stuff;       # [1 666 3]
+
 
 
 say "===";
