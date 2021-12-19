@@ -25,7 +25,7 @@
 **** https://stackoverflow.com/questions/70414736/immutable-uncontainerized-elements-in-arrays-created-by-deepmap
 
 *** subdivide document into even chunks (stackoverflow)
-https://stackoverflow.com/questions/61875715/split-string-to-fixed-length-chunks-and-write-in-separate-line-in-raku
+**** https://stackoverflow.com/questions/61875715/split-string-to-fixed-length-chunks-and-write-in-separate-line-in-raku
 
 
 ** announcments 
