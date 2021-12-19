@@ -34,6 +34,10 @@ my @stuffier := (1, 2, 3);
 say "---";
 
 say [[1,2,3],[[4,5],6,7]].deepmap(* + 1);
+# [[2 3 4] [[5 6] 7 8]]
+
+say {alpha => 1, beta => 2, gamma => 3}.deepmap(* + 1);
+
 
 
 say "===";
