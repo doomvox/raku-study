@@ -8,6 +8,12 @@
 
 ** topicettes
 
+*** david asks:
+**** is there a raku macro system, like c preprocessor
+***** "hygenic macros" still missing (as I remember)
+**** standalone binary raku?
+***** no clue, haven't heard
+
 *** sean mcaffee, div doesn't coerce to numeric?
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/12/msg10343.html
 
