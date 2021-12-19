@@ -1,56 +1,56 @@
-- [meeting notes December 19, 2021](#org60e45b4)
-  - [the raku study group](#org6c47e55)
-    - [celebrate the hollowdaze with the Raku-ettes](#org2208935)
-  - [usual links](#org0abacdc)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#orgf791d25)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#org33d808c)
-  - [topicettes](#org30fe27a)
-    - [idea for a new utility package](#org350aa44)
-    - [phasers, perl6-users discussion](#org41fe738)
-    - [deepmap, stackoverflow question](#org724b008)
-    - [subdivide document into even chunks (stackoverflow)](#org348313f)
-    - [brad gilbert, delayed 1/0 errors](#org4eb28fc)
-  - [announcments](#org00c7227)
-    - [January 2nd: next meeting?  (actually: I'm thinking I may skip this one)](#org62c4e60)
-    - [January 6th: svlug: I'll be talking about Raku](#org6748688)
+- [meeting notes December 19, 2021](#orga53c6c7)
+  - [the raku study group](#org002a5e3)
+    - [celebrate the hollowdaze with the Raku-ettes](#org37439b1)
+  - [usual links](#org6c633b6)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#org486f858)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#org155f047)
+  - [topicettes](#org7a1a973)
+    - [idea for a new utility package](#org70cc1d4)
+    - [phasers, perl6-users discussion](#org3ee9cb9)
+    - [deepmap, stackoverflow question](#org2694e1a)
+    - [subdivide document into even chunks (stackoverflow)](#org3aa9834)
+    - [brad gilbert, delayed 1/0 errors](#org66033db)
+  - [announcments](#orgc6846ef)
+    - [January 2nd: next meeting?  (actually: I'm thinking I may skip this one)](#org44c87a7)
+    - [January 6th: svlug: I'll be talking about Raku](#orge4b4ade)
 
 
-<a id="org60e45b4"></a>
+<a id="orga53c6c7"></a>
 
 # meeting notes December 19, 2021
 
 
-<a id="org6c47e55"></a>
+<a id="org002a5e3"></a>
 
 ## the raku study group
 
 
-<a id="org2208935"></a>
+<a id="org37439b1"></a>
 
 ### celebrate the hollowdaze with the Raku-ettes
 
 
-<a id="org0abacdc"></a>
+<a id="org6c633b6"></a>
 
 ## usual links
 
 
-<a id="orgf791d25"></a>
+<a id="org486f858"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>
 
 
-<a id="org33d808c"></a>
+<a id="org155f047"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec19>
 
 
-<a id="org30fe27a"></a>
+<a id="org7a1a973"></a>
 
 ## topicettes
 
 
-<a id="org350aa44"></a>
+<a id="org70cc1d4"></a>
 
 ### idea for a new utility package
 
@@ -65,7 +65,7 @@
     3.  complicated thinking justifying the underlying philosophy, based on observations of programmer behavior
 
 
-<a id="org41fe738"></a>
+<a id="org3ee9cb9"></a>
 
 ### phasers, perl6-users discussion
 
@@ -80,37 +80,37 @@
         2.  <https://github.com/Raku/problem-solving/issues/308>
 
 
-<a id="org724b008"></a>
+<a id="org2694e1a"></a>
 
 ### deepmap, stackoverflow question
 
 1.  <https://stackoverflow.com/questions/70414736/immutable-uncontainerized-elements-in-arrays-created-by-deepmap>
 
 
-<a id="org348313f"></a>
+<a id="org3aa9834"></a>
 
 ### subdivide document into even chunks (stackoverflow)
 
 1.  <https://stackoverflow.com/questions/61875715/split-string-to-fixed-length-chunks-and-write-in-separate-line-in-raku>
 
 
-<a id="org4eb28fc"></a>
+<a id="org66033db"></a>
 
 ### brad gilbert, delayed 1/0 errors
 
 1.  <https://stackoverflow.com/questions/67980761/raku-attempt-to-divide-by-zero-when-coercing-rational-to-str/67987507#67987507>
 
 
-<a id="org00c7227"></a>
+<a id="orgc6846ef"></a>
 
 ## announcments
 
 
-<a id="org62c4e60"></a>
+<a id="org44c87a7"></a>
 
 ### January 2nd: next meeting?  (actually: I'm thinking I may skip this one)
 
 
-<a id="org6748688"></a>
+<a id="orge4b4ade"></a>
 
 ### January 6th: svlug: I'll be talking about Raku
