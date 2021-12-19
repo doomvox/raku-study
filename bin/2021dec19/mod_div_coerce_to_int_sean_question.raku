@@ -3,6 +3,10 @@
 # mod_div_coerce_to_int_sean_question.raku            19 Dec 2021 
 
 use v6;
+Try to make errors into warnings
+  CATCH { default { say "CAUGHT: ", .Str; .resume } }
+
+
 
 # https://www.nntp.perl.org/group/perl.perl6.users/2021/12/msg10343.html
 
@@ -33,3 +37,48 @@ dd $nope;
 
 # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021dec19/mod_div_coerce_to_int_sean_question.raku
 # Calling infix:<div>(Int, Str) will never work with any of these multi signatures:
+
+
+
+
+
+
+
+
+# ====
+#  sheet of cheats
+
+# A unicode paste board:
+# «
+# »
+# π
+# 𝑒
+
+# use DBIish;
+# my $dbh = DBIish.connect("Pg", database => 'doom', :user<doom>, :port<5434>);
+
+# my $sth = $dbh.prepare(q:to/STATEMENT/);
+#     SELECT * FROM funked_up
+# STATEMENT
+
+# $sth.execute();
+# my @rows = $sth.allrows();
+
+
+
+# external commands without shell:
+# my $arg = 'Hello';
+# my $captured = run('echo', $arg, :out).out.slurp;
+# my $captured = run(«echo "$arg"», :out).out.slurp;
+
+
+# using shell:
+# my $arg = 'Hello';
+# my $captured = shell("echo $arg", :out).out.slurp;
+# my $captured = qqx{echo $arg};
+
+
+
+# ===
+# Author:  doom@kzsu.stanford.edu
+
