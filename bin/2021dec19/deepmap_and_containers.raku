@@ -40,7 +40,7 @@ say {alpha => 1, beta => 2, gamma => 3}.deepmap(* + 1);
 # {alpha => 2, beta => 3, gamma => 4}
 
 say {alpha => 1, beta => 2, gamma => 3, delta => 'four'}.deepmap(* + 1);
-
+# Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏four' (indicated by ⏏)
 
 
 say "===";
