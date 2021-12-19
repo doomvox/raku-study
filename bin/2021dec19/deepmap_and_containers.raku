@@ -13,7 +13,9 @@ dd @b; # Array @b = [1, [2, 3]]
 
 # say @b[0].VAR.^name;     # Scalar, this is OK
 # say @b[1].^name;         # Array, as expected
-# say @b[1][0].VAR.^name;  # Int, why?
+
+say @b[1][0].VAR.^name;  # Int, why?
+
 # @b[0] = 4;               # this works
 # @b[1][0] = 5;            # error: Cannot assign to an immutable value
 
