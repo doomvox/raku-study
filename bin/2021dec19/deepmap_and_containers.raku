@@ -56,9 +56,9 @@ say {alpha => 1, beta => 2, gamma => 3, detla => 'four' }.deepmap({ if $_.Numeri
 ## might expect:
 # {alpha => 2, beta => 3, gamma => 4, detla => Nil };
 
-
-say {alpha => 1, beta => 2, gamma => 3, detla => 'four' }.deepmap({ if $_.Numeric { $_ + 1 } else { Nil}  });
+say {alpha => 1, beta => 2, gamma => 3, detla => 'four' }.deepmap({ if $_.Numeric { $_ + 1 } else { Nil }  });
 # {alpha => 2, beta => 3, detla => (Any), gamma => 4}
+
 
 
 say "===";
