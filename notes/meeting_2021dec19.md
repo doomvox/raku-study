@@ -1,54 +1,54 @@
-- [meeting notes December 19, 2021](#org344c53d)
-  - [the raku study group](#orgc7c858f)
-    - [celebrate the hollowdaze with the Raku-ettes](#org9abac1f)
-  - [usual links](#org4408ef6)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#orgfd110e2)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#org4059742)
-  - [topicettes](#org1c60654)
-    - [idea for a new utility package](#orga48610b)
-    - [phasers perl6-users discussion](#org7dfd633)
-    - [stackoverflow question about deepmap](#orgf8a67ae)
-  - [announcments](#org51b0d92)
-    - [January 2nd: next meeting?  (actually: I'm thinking I may skip this one)](#orgb4083fd)
-    - [January 6th: svlug: I'll be talking about Raku](#org1badbf6)
+- [meeting notes December 19, 2021](#orgc9e6fb2)
+  - [the raku study group](#org009ffd6)
+    - [celebrate the hollowdaze with the Raku-ettes](#org0e1559d)
+  - [usual links](#orgc6f0df3)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#org8871a65)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#orgdb3feb1)
+  - [topicettes](#org9afb837)
+    - [idea for a new utility package](#org11c0a98)
+    - [phasers perl6-users discussion](#org4756da5)
+    - [deepmap, stackoverflow question](#org867bef0)
+  - [announcments](#orgea1fb14)
+    - [January 2nd: next meeting?  (actually: I'm thinking I may skip this one)](#orgaff69e7)
+    - [January 6th: svlug: I'll be talking about Raku](#orgac1ddc3)
 
 
-<a id="org344c53d"></a>
+<a id="orgc9e6fb2"></a>
 
 # meeting notes December 19, 2021
 
 
-<a id="orgc7c858f"></a>
+<a id="org009ffd6"></a>
 
 ## the raku study group
 
 
-<a id="org9abac1f"></a>
+<a id="org0e1559d"></a>
 
 ### celebrate the hollowdaze with the Raku-ettes
 
 
-<a id="org4408ef6"></a>
+<a id="orgc6f0df3"></a>
 
 ## usual links
 
 
-<a id="orgfd110e2"></a>
+<a id="org8871a65"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>
 
 
-<a id="org4059742"></a>
+<a id="orgdb3feb1"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec19>
 
 
-<a id="org1c60654"></a>
+<a id="org9afb837"></a>
 
 ## topicettes
 
 
-<a id="orga48610b"></a>
+<a id="org11c0a98"></a>
 
 ### idea for a new utility package
 
@@ -63,7 +63,7 @@
     3.  complicated thinking justifying the underlying philosophy, based on observations of programmer behavior
 
 
-<a id="org7dfd633"></a>
+<a id="org4756da5"></a>
 
 ### phasers perl6-users discussion
 
@@ -78,23 +78,23 @@
         2.  <https://github.com/Raku/problem-solving/issues/308>
 
 
-<a id="orgf8a67ae"></a>
+<a id="org867bef0"></a>
 
-### stackoverflow question about deepmap
+### deepmap, stackoverflow question
 
 1.  <https://stackoverflow.com/questions/70414736/immutable-uncontainerized-elements-in-arrays-created-by-deepmap>
 
 
-<a id="org51b0d92"></a>
+<a id="orgea1fb14"></a>
 
 ## announcments
 
 
-<a id="orgb4083fd"></a>
+<a id="orgaff69e7"></a>
 
 ### January 2nd: next meeting?  (actually: I'm thinking I may skip this one)
 
 
-<a id="org1badbf6"></a>
+<a id="orgac1ddc3"></a>
 
 ### January 6th: svlug: I'll be talking about Raku
