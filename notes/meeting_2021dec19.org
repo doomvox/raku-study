@@ -6,7 +6,6 @@
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md 
 *** https://github.com/doomvox/raku-study/bin/2021dec19
 
-
 ** topicettes
 *** idea for a new utility package
 **** https://raku-advent.blog/2021/12/11/unix_philosophy_without_leftpad_part2/
@@ -31,7 +30,7 @@
 *** brad gilbert, delayed 1/0 errors
 **** https://stackoverflow.com/questions/67980761/raku-attempt-to-divide-by-zero-when-coercing-rational-to-str/67987507#67987507
 
-*** div doesn't coerce to numeric?
+*** sean mcaffee, div doesn't coerce to numeric?
 **** https://www.nntp.perl.org/group/perl.perl6.users/2021/12/msg10343.html
 
 *** jonathan worthington, cro-ing
