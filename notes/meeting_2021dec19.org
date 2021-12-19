@@ -36,6 +36,8 @@
 *** jonathan worthington, cro-ing
 **** https://raku-advent.blog/2021/12/19/let-it-cro/
 
+*** alan recommends youtube channel "ada fruit"
+
 
 ** announcments 
 *** January 2nd: next meeting?  (actually: I'm thinking I may skip this one)
