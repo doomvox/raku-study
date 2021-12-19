@@ -4,6 +4,8 @@
 
 use v6;
 
+# https://stackoverflow.com/questions/70414736/immutable-uncontainerized-elements-in-arrays-created-by-deepmap
+
 my @a = [1, [2, 3]];
 my @b = @a.deepmap: *.clone;
 
