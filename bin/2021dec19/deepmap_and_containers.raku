@@ -21,6 +21,7 @@ my $b := 3;
 # $b = $a; # Cannot assign to an immutable value
 
 $b := 5;
+say $b;
 
 say "===";
 
