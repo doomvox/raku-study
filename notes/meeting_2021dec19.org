@@ -16,6 +16,6 @@
 ***** complicated thinking justifying the underlying philosophy, based on observations of programmer behavior 
 
 ** announcments 
-*** January 2nd: next meeting
+*** January 2nd: next meeting?  (actually: I'm thinking I may skip this one)
 *** January 6th: svlug: I'll be talking about Raku
 
