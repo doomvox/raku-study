@@ -47,3 +47,4 @@ dd $result;
 say pi.Int;
 
 my $hm = pi.Int div 5;
+dd $him;
