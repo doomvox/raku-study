@@ -26,5 +26,7 @@ dd $n;
 
 my $result = 25 div 5;
 dd $result;
+# Int $result = 5
 
-# my $nope = 25 div '5';
+my $nope = 25 div '5';
+dd $nope;
