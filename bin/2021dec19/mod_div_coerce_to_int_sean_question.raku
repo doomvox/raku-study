@@ -4,7 +4,7 @@
 
 use v6;
 # Try to make errors into warnings
-## CATCH { default { say "CAUGHT: ", .Str; .resume } }
+CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
 # https://www.nntp.perl.org/group/perl.perl6.users/2021/12/msg10343.html
 
