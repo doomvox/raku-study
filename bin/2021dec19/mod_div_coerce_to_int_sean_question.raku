@@ -16,3 +16,8 @@ use v6;
 # Is there a particular reason these two operators are so restrictive?
 
 
+my $a = 3;
+my $b = '4';
+my $n = $a * $b;
+
+dd $n;
