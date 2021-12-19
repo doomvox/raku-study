@@ -11,10 +11,12 @@ my @b = @a.deepmap: *.clone;
 
 dd @b; # Array @b = [1, [2, 3]]
 
+say @b;
+
 # say @b[0].VAR.^name;     # Scalar, this is OK
 # say @b[1].^name;         # Array, as expected
 
-dd @b[1][0];
+dd @b[1][0]; # Int
 
 say @b[1][0].VAR.^name;  # Int, why?
 
