@@ -1,60 +1,60 @@
-- [meeting notes December 19, 2021](#orgc6f1270)
-  - [the raku study group](#orgd2949c6)
-    - [celebrate the hollowdaze with the Raku-ettes](#org7a770a2)
-  - [usual links](#org8b3adb0)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#orgfdf9ff8)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#orgd38cd8f)
-  - [topicettes](#org9d2c705)
-    - [david asks:](#orgf92c644)
-    - [sean mcaffee, div doesn't coerce to numeric?](#org3746a91)
-    - [idea for a new utility package](#orgdb22ecf)
-    - [phasers, perl6-users discussion](#org72f02c0)
-    - [deepmap, stackoverflow question](#orgafeaf41)
-    - [subdivide document into even chunks (stackoverflow)](#org76bc037)
-    - [brad gilbert, delayed 1/0 errors](#orgd92e71b)
-    - [jonathan worthington, cro-ing](#orga9f55ad)
-    - [alan recommends youtube channel "ada fruit"](#orgc4214d3)
-  - [announcments](#org871d846)
-    - [January 2nd: next meeting?  (actually: I'm thinking I may skip this one)](#org740c81c)
-    - [January 6th: svlug: I'll be talking about Raku](#org1a61759)
+- [meeting notes December 19, 2021](#org246ba9c)
+  - [the raku study group](#org2a0ba8f)
+    - [celebrate the hollowdaze with the Raku-ettes](#org20b5730)
+  - [usual links](#org7155078)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>](#org0c3dd08)
+    - [<https://github.com/doomvox/raku-study/bin/2021dec19>](#org38d0958)
+  - [topicettes](#orgb8bd14a)
+    - [david asks:](#org1946784)
+    - [sean mcaffee, div doesn't coerce to numeric?](#org60cf8c1)
+    - [idea for a new utility package](#org2557164)
+    - [phasers, perl6-users discussion](#orga40e539)
+    - [deepmap, stackoverflow question](#orgfe4d58b)
+    - [subdivide document into even chunks (stackoverflow)](#org53ae741)
+    - [brad gilbert, delayed 1/0 errors](#org53af51d)
+    - [jonathan worthington, cro-ing](#org53766f4)
+    - [alan recommends youtube channel "ada fruit"](#org52ee825)
+  - [announcments](#org20ebd62)
+    - [January 2nd: next meeting?  (actually: I'm thinking I may skip this one)](#orgc58d277)
+    - [January 6th: svlug: I'll be talking about Raku](#org091a811)
 
 
-<a id="orgc6f1270"></a>
+<a id="org246ba9c"></a>
 
 # meeting notes December 19, 2021
 
 
-<a id="orgd2949c6"></a>
+<a id="org2a0ba8f"></a>
 
 ## the raku study group
 
 
-<a id="org7a770a2"></a>
+<a id="org20b5730"></a>
 
 ### celebrate the hollowdaze with the Raku-ettes
 
 
-<a id="org8b3adb0"></a>
+<a id="org7155078"></a>
 
 ## usual links
 
 
-<a id="orgfdf9ff8"></a>
+<a id="org0c3dd08"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec19.md>
 
 
-<a id="orgd38cd8f"></a>
+<a id="org38d0958"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2021dec19>
 
 
-<a id="org9d2c705"></a>
+<a id="orgb8bd14a"></a>
 
 ## topicettes
 
 
-<a id="orgf92c644"></a>
+<a id="org1946784"></a>
 
 ### david asks:
 
@@ -67,16 +67,16 @@
     1.  no clue, haven't heard
 
 
-<a id="org3746a91"></a>
+<a id="org60cf8c1"></a>
 
 ### sean mcaffee, div doesn't coerce to numeric?
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2021/12/msg10343.html>
 
-2.  maybe a feature
+2.  maybe a feature '3' => 3 is okay, but is 3.4 => 3?
 
 
-<a id="orgdb22ecf"></a>
+<a id="org2557164"></a>
 
 ### idea for a new utility package
 
@@ -91,7 +91,7 @@
     3.  complicated thinking justifying the underlying philosophy, based on observations of programmer behavior
 
 
-<a id="org72f02c0"></a>
+<a id="orga40e539"></a>
 
 ### phasers, perl6-users discussion
 
@@ -106,49 +106,49 @@
         2.  <https://github.com/Raku/problem-solving/issues/308>
 
 
-<a id="orgafeaf41"></a>
+<a id="orgfe4d58b"></a>
 
 ### deepmap, stackoverflow question
 
 1.  <https://stackoverflow.com/questions/70414736/immutable-uncontainerized-elements-in-arrays-created-by-deepmap>
 
 
-<a id="org76bc037"></a>
+<a id="org53ae741"></a>
 
 ### subdivide document into even chunks (stackoverflow)
 
 1.  <https://stackoverflow.com/questions/61875715/split-string-to-fixed-length-chunks-and-write-in-separate-line-in-raku>
 
 
-<a id="orgd92e71b"></a>
+<a id="org53af51d"></a>
 
 ### brad gilbert, delayed 1/0 errors
 
 1.  <https://stackoverflow.com/questions/67980761/raku-attempt-to-divide-by-zero-when-coercing-rational-to-str/67987507#67987507>
 
 
-<a id="orga9f55ad"></a>
+<a id="org53766f4"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="orgc4214d3"></a>
+<a id="org52ee825"></a>
 
 ### alan recommends youtube channel "ada fruit"
 
 
-<a id="org871d846"></a>
+<a id="org20ebd62"></a>
 
 ## announcments
 
 
-<a id="org740c81c"></a>
+<a id="orgc58d277"></a>
 
 ### January 2nd: next meeting?  (actually: I'm thinking I may skip this one)
 
 
-<a id="org1a61759"></a>
+<a id="org091a811"></a>
 
 ### January 6th: svlug: I'll be talking about Raku
