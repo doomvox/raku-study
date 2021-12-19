@@ -28,6 +28,10 @@ say @stuff;       # [1 2 3]
 say @stuff;       # [1 666 3]
 
 
+my @stuffier := (1, 2, 3);
+@stuffier[1] = 666;  
+say @stuffier;
+
 
 say "===";
 
