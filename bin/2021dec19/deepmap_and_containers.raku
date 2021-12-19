@@ -22,8 +22,6 @@ my $b := 3;
 $b := 5;
 say $b; # 5
 
-
-
 say "===";
 
 # https://stackoverflow.com/questions/70414736/immutable-uncontainerized-elements-in-arrays-created-by-deepmap
