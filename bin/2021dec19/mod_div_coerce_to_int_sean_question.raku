@@ -36,7 +36,7 @@ dd $result;
 # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021dec19/mod_div_coerce_to_int_sean_question.raku
 # Calling infix:<div>(Int, Str) will never work with any of these multi signatures:
 
-say "still going?";
+
 
 
 
