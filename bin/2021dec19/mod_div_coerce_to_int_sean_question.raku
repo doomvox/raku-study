@@ -21,3 +21,5 @@ my $b = '4';
 my $n = $a * $b;
 
 dd $n;
+# Int $n = 12
+# clearly coerces string to Int silently as perl-people would expect.
