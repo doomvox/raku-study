@@ -13,7 +13,16 @@
 **** wants to name it "_" or "lowbar" 
 ***** because calling it "util" would be confusing
 ***** very specific rules for the package without any ideas of what to put in it
-***** complicated thinking justifying the underlying philosophy, based on observations of programmer behavior 
+***** complicated thinking justifying the underlying philosophy, based on observations of programmer behavior
+*** phasers perl6-users discussion
+**** my access to the list is mangled, I don't get mail from it 
+**** the archived form of this discussion is mangled 
+***** (refers to a Yary comment that isn't there)
+****** https://www.nntp.perl.org/group/perl.perl6.users/2021/12/msg10332.html
+****** 
+*** stackoverflow question about deepmap
+**** https://stackoverflow.com/questions/70414736/immutable-uncontainerized-elements-in-arrays-created-by-deepmap
+
 
 ** announcments 
 *** January 2nd: next meeting?  (actually: I'm thinking I may skip this one)
