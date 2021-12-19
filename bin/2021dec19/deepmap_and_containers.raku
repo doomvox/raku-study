@@ -13,6 +13,11 @@ say $a; # 4
 
 my $b := 3;
 $b++;
+# Cannot resolve caller postfix:<++>(Int:D); the following candidates
+
+# same as 
+# 3++;
+
 
 
 say "===";
