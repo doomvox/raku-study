@@ -11,7 +11,6 @@ my @b = @a.deepmap: *.clone;
 
 dd @b; # Array @b = [1, [2, 3]]
 
-
 # say @b[0].VAR.^name;     # Scalar, this is OK
 # say @b[1].^name;         # Array, as expected
 # say @b[1][0].VAR.^name;  # Int, why?
