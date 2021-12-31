@@ -15,7 +15,7 @@
 *** jonathan worthington, cro-ing
 **** https://raku-advent.blog/2021/12/19/let-it-cro/
 
-*** alan recommends youtube channel "ada fruit"
+
 
 
 ** announcments 

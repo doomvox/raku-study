@@ -1,82 +1,76 @@
-- [meeting notes January 02, 2022](#org6bb38ae)
-  - [the raku study group](#org3d9ce42)
-    - [<Raku pun>](#org3153390)
-  - [usual links](#orgbd73ebf)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>](#orgb1f262a)
-    - [<https://github.com/doomvox/raku-study/bin/2022jan02>](#org6dc1d58)
-  - [topicettes](#orga5a563e)
-    - [new work on thread libraries for perl5](#org81b1ca3)
-    - [jonathan worthington, cro-ing](#org25b2c84)
-    - [alan recommends youtube channel "ada fruit"](#org1261ee4)
-  - [announcments](#org8f95b25)
-    - [January 6th: svlug: I'll be talking about Raku](#orgd94f046)
-    - [January 16th: next meeting](#org1d7e9ec)
+- [meeting notes January 02, 2022](#org1358eee)
+  - [the raku study group](#orgb87fbba)
+    - [<Raku pun>](#orgc009748)
+  - [usual links](#org35de11d)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>](#org3ee70ad)
+    - [<https://github.com/doomvox/raku-study/bin/2022jan02>](#orgf3e2083)
+  - [topicettes](#orgba38acc)
+    - [new work on thread libraries for perl5](#org6eaef7b)
+    - [jonathan worthington, cro-ing](#orgafa486c)
+  - [announcments](#org7ced5ef)
+    - [January 6th: svlug: I'll be talking about Raku](#org9a1e734)
+    - [January 16th: next meeting](#orgbc33dbf)
 
 
-<a id="org6bb38ae"></a>
+<a id="org1358eee"></a>
 
 # meeting notes January 02, 2022
 
 
-<a id="org3d9ce42"></a>
+<a id="orgb87fbba"></a>
 
 ## the raku study group
 
 
-<a id="org3153390"></a>
+<a id="orgc009748"></a>
 
 ### <Raku pun>
 
 
-<a id="orgbd73ebf"></a>
+<a id="org35de11d"></a>
 
 ## usual links
 
 
-<a id="orgb1f262a"></a>
+<a id="org3ee70ad"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>
 
 
-<a id="org6dc1d58"></a>
+<a id="orgf3e2083"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022jan02>
 
 
-<a id="orga5a563e"></a>
+<a id="orgba38acc"></a>
 
 ## topicettes
 
 
-<a id="org81b1ca3"></a>
+<a id="org6eaef7b"></a>
 
 ### new work on thread libraries for perl5
 
 1.  <https://metacpan.org/pod/Thread::Csp>
 
 
-<a id="org25b2c84"></a>
+<a id="orgafa486c"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="org1261ee4"></a>
-
-### alan recommends youtube channel "ada fruit"
-
-
-<a id="org8f95b25"></a>
+<a id="org7ced5ef"></a>
 
 ## announcments
 
 
-<a id="orgd94f046"></a>
+<a id="org9a1e734"></a>
 
 ### January 6th: svlug: I'll be talking about Raku
 
 
-<a id="org1d7e9ec"></a>
+<a id="orgbc33dbf"></a>
 
 ### January 16th: next meeting
