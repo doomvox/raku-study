@@ -1,53 +1,53 @@
-- [meeting notes January 02, 2022](#org3a29625)
-  - [the raku study group](#orgcc09735)
-    - [Raku your data, roll your thoughts](#org4fded9e)
-  - [usual links](#org6751294)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>](#orgc05f502)
-    - [<https://github.com/doomvox/raku-study/bin/2022jan02>](#org7c2f413)
-  - [topicettes](#org01d8b61)
-    - [new work on thread libraries for perl5](#orgd00cb9d)
-    - [jonathan worthington, cro-ing](#orgee559fa)
-  - [announcments](#org5c5d971)
-    - [January 6th: svlug: I'll be talking about Raku](#orgb655a74)
-    - [January 16th: next meeting](#orgbcc0a7d)
+- [meeting notes January 02, 2022](#org13db2b0)
+  - [the raku study group](#org11234e2)
+    - [Raku your data, roll your thoughts](#orga82b459)
+  - [usual links](#orgf59c31d)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>](#org2abf844)
+    - [<https://github.com/doomvox/raku-study/bin/2022jan02>](#org79b1ad9)
+  - [topicettes](#org87eafc9)
+    - [new work on thread libraries for perl5](#org24f140e)
+    - [jonathan worthington, cro-ing](#org3ca3b83)
+  - [announcments](#org7b2572c)
+    - [January 6th: svlug: I'll be talking about Raku](#orgbafc03f)
+    - [January 16th: next meeting](#orga6cf4c0)
 
 
-<a id="org3a29625"></a>
+<a id="org13db2b0"></a>
 
 # meeting notes January 02, 2022
 
 
-<a id="orgcc09735"></a>
+<a id="org11234e2"></a>
 
 ## the raku study group
 
 
-<a id="org4fded9e"></a>
+<a id="orga82b459"></a>
 
 ### Raku your data, roll your thoughts
 
 
-<a id="org6751294"></a>
+<a id="orgf59c31d"></a>
 
 ## usual links
 
 
-<a id="orgc05f502"></a>
+<a id="org2abf844"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>
 
 
-<a id="org7c2f413"></a>
+<a id="org79b1ad9"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022jan02>
 
 
-<a id="org01d8b61"></a>
+<a id="org87eafc9"></a>
 
 ## topicettes
 
 
-<a id="orgd00cb9d"></a>
+<a id="org24f140e"></a>
 
 ### new work on thread libraries for perl5
 
@@ -56,23 +56,23 @@
 2.  <https://www.reddit.com/r/perl/comments/rrayau/new_threading_library_for_perl/>
 
 
-<a id="orgee559fa"></a>
+<a id="org3ca3b83"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="org5c5d971"></a>
+<a id="org7b2572c"></a>
 
 ## announcments
 
 
-<a id="orgb655a74"></a>
+<a id="orgbafc03f"></a>
 
 ### January 6th: svlug: I'll be talking about Raku
 
 
-<a id="orgbcc0a7d"></a>
+<a id="orga6cf4c0"></a>
 
 ### January 16th: next meeting
