@@ -1,6 +1,6 @@
 * meeting notes January 02, 2022
 ** the raku study group
-*** <Raku pun>
+*** Raku your data, roll your thoughts
 
 ** usual links
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md 
