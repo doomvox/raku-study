@@ -8,7 +8,6 @@
 
 ** topicettes
 
-
 *** new work on thread libraries for perl5
 **** https://metacpan.org/pod/Thread::Csp
 

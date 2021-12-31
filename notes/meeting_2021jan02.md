@@ -1,76 +1,76 @@
-- [meeting notes January 02, 2022](#org1f987c2)
-  - [the raku study group](#org1c065fd)
-    - [<Raku pun>](#org3a4879f)
-  - [usual links](#org6df8f81)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>](#orge23a4fe)
-    - [<https://github.com/doomvox/raku-study/bin/2022jan02>](#org01d57d8)
-  - [topicettes](#orgdd1e152)
-    - [new work on thread libraries for perl5](#orgba0695d)
-    - [jonathan worthington, cro-ing](#org87c7cfd)
-  - [announcments](#orgb8a5b0c)
-    - [January 6th: svlug: I'll be talking about Raku](#orga6b1781)
-    - [January 16th: next meeting](#orgf565ff8)
+- [meeting notes January 02, 2022](#org543b3e1)
+  - [the raku study group](#org2353ce9)
+    - [<Raku pun>](#org979b5cc)
+  - [usual links](#orgc9dbd32)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>](#orgb24da63)
+    - [<https://github.com/doomvox/raku-study/bin/2022jan02>](#orgd7f2ebd)
+  - [topicettes](#org72b396d)
+    - [new work on thread libraries for perl5](#orgc41020e)
+    - [jonathan worthington, cro-ing](#org10571c1)
+  - [announcments](#org887a160)
+    - [January 6th: svlug: I'll be talking about Raku](#org6e233bd)
+    - [January 16th: next meeting](#org89ffa9b)
 
 
-<a id="org1f987c2"></a>
+<a id="org543b3e1"></a>
 
 # meeting notes January 02, 2022
 
 
-<a id="org1c065fd"></a>
+<a id="org2353ce9"></a>
 
 ## the raku study group
 
 
-<a id="org3a4879f"></a>
+<a id="org979b5cc"></a>
 
 ### <Raku pun>
 
 
-<a id="org6df8f81"></a>
+<a id="orgc9dbd32"></a>
 
 ## usual links
 
 
-<a id="orge23a4fe"></a>
+<a id="orgb24da63"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>
 
 
-<a id="org01d57d8"></a>
+<a id="orgd7f2ebd"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022jan02>
 
 
-<a id="orgdd1e152"></a>
+<a id="org72b396d"></a>
 
 ## topicettes
 
 
-<a id="orgba0695d"></a>
+<a id="orgc41020e"></a>
 
 ### new work on thread libraries for perl5
 
 1.  <https://metacpan.org/pod/Thread::Csp>
 
 
-<a id="org87c7cfd"></a>
+<a id="org10571c1"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="orgb8a5b0c"></a>
+<a id="org887a160"></a>
 
 ## announcments
 
 
-<a id="orga6b1781"></a>
+<a id="org6e233bd"></a>
 
 ### January 6th: svlug: I'll be talking about Raku
 
 
-<a id="orgf565ff8"></a>
+<a id="org89ffa9b"></a>
 
 ### January 16th: next meeting
