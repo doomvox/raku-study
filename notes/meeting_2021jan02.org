@@ -15,9 +15,6 @@
 *** jonathan worthington, cro-ing
 **** https://raku-advent.blog/2021/12/19/let-it-cro/
 
-
-
-
 ** announcments 
 *** January 6th: svlug: I'll be talking about Raku
 *** January 16th: next meeting
