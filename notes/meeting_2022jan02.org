@@ -13,6 +13,7 @@
 
 *** jonathan worthington, cro-ing
 **** https://raku-advent.blog/2021/12/19/let-it-cro/
+**** https://www.reddit.com/r/perl/comments/rrayau/new_threading_library_for_perl/
 
 ** announcments 
 *** January 6th: svlug: I'll be talking about Raku
