@@ -12,33 +12,6 @@
 *** new work on thread libraries for perl5
 **** https://metacpan.org/pod/Thread::Csp
 
-*** sean mcaffee, div doesn't coerce to numeric?
-**** https://www.nntp.perl.org/group/perl.perl6.users/2021/12/msg10343.html
-**** maybe a feature: '3' => 3 is okay, but is 3.4 => 3?
-
-*** idea for a new utility package
-**** https://raku-advent.blog/2021/12/11/unix_philosophy_without_leftpad_part2/
-**** wants to name it "_" or "lowbar" 
-***** because calling it "util" would be confusing
-***** very specific rules for the package without any ideas of what to put in it
-***** complicated thinking justifying the underlying philosophy, based on observations of programmer behavior
-
-*** phasers, perl6-users discussion
-**** my access to the list is mangled, I don't get mail from it 
-**** the archived form of this discussion is mangled 
-***** (refers to a Yary comment that isn't there)
-****** https://www.nntp.perl.org/group/perl.perl6.users/2021/12/msg10332.html
-****** https://github.com/Raku/problem-solving/issues/308
-
-*** deepmap, stackoverflow question
-**** https://stackoverflow.com/questions/70414736/immutable-uncontainerized-elements-in-arrays-created-by-deepmap
-
-*** subdivide document into even chunks (stackoverflow)
-**** https://stackoverflow.com/questions/61875715/split-string-to-fixed-length-chunks-and-write-in-separate-line-in-raku
-
-*** brad gilbert, delayed 1/0 errors
-**** https://stackoverflow.com/questions/67980761/raku-attempt-to-divide-by-zero-when-coercing-rational-to-str/67987507#67987507
-
 *** jonathan worthington, cro-ing
 **** https://raku-advent.blog/2021/12/19/let-it-cro/
 
