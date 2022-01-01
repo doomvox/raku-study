@@ -20,3 +20,6 @@
 ** announcments 
 *** January 6th: svlug: I'll be talking about Raku
 *** January 16th: next meeting
+
+*** FOSDEM: Raku 
+**** https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/
