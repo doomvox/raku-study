@@ -1,54 +1,54 @@
-- [meeting notes January 02, 2022](#org54a478c)
-  - [the raku study group](#orgebe69aa)
-    - [Raku your data, roll your thoughts](#orgba097fd)
-  - [usual links](#org4781d8f)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>](#orgbfee546)
-    - [<https://github.com/doomvox/raku-study/bin/2022jan02>](#orgda54dab)
-  - [topicettes](#orgc389596)
-    - [new work on thread libraries for perl5](#org1bdafc3)
-    - [jonathan worthington, cro-ing](#org780ad57)
-  - [announcments](#org70349a6)
-    - [January 6th: svlug: I'll be talking about Raku](#orgb3992e9)
-    - [January 16th: next meeting](#org8af46cf)
-    - [FOSDEM: Raku](#org2f7f978)
+- [meeting notes January 02, 2022](#org3deb130)
+  - [the raku study group](#org5a4a3ee)
+    - [Raku your data, roll your thoughts](#org3e9af1a)
+  - [usual links](#org0e0603b)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>](#orgd45fb33)
+    - [<https://github.com/doomvox/raku-study/bin/2022jan02>](#orgb502407)
+  - [topicettes](#org95943c5)
+    - [new work on thread libraries for perl5](#org4ee8325)
+    - [jonathan worthington, cro-ing](#org15dcac6)
+  - [announcments](#org8e3379c)
+    - [January 6th: svlug: I'll be talking about Raku](#org6365ed7)
+    - [January 16th: next meeting](#orge5b0d33)
+    - [February 5-6: FOSDEM Raku talks](#orga93c4d4)
 
 
-<a id="org54a478c"></a>
+<a id="org3deb130"></a>
 
 # meeting notes January 02, 2022
 
 
-<a id="orgebe69aa"></a>
+<a id="org5a4a3ee"></a>
 
 ## the raku study group
 
 
-<a id="orgba097fd"></a>
+<a id="org3e9af1a"></a>
 
 ### Raku your data, roll your thoughts
 
 
-<a id="org4781d8f"></a>
+<a id="org0e0603b"></a>
 
 ## usual links
 
 
-<a id="orgbfee546"></a>
+<a id="orgd45fb33"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>
 
 
-<a id="orgda54dab"></a>
+<a id="orgb502407"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022jan02>
 
 
-<a id="orgc389596"></a>
+<a id="org95943c5"></a>
 
 ## topicettes
 
 
-<a id="org1bdafc3"></a>
+<a id="org4ee8325"></a>
 
 ### new work on thread libraries for perl5
 
@@ -57,30 +57,30 @@
 2.  <https://www.reddit.com/r/perl/comments/rrayau/new_threading_library_for_perl/>
 
 
-<a id="org780ad57"></a>
+<a id="org15dcac6"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="org70349a6"></a>
+<a id="org8e3379c"></a>
 
 ## announcments
 
 
-<a id="orgb3992e9"></a>
+<a id="org6365ed7"></a>
 
 ### January 6th: svlug: I'll be talking about Raku
 
 
-<a id="org8af46cf"></a>
+<a id="orge5b0d33"></a>
 
 ### January 16th: next meeting
 
 
-<a id="org2f7f978"></a>
+<a id="orga93c4d4"></a>
 
-### FOSDEM: Raku
+### February 5-6: FOSDEM Raku talks
 
 1.  <https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/>
