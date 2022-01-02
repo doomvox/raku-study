@@ -30,7 +30,7 @@ class MyRow {
 } # end class MyRow
 
 
-{# exercising MyRow class
+{ # exercising MyRow class
     my $r1 = MyRow.new( state => 'ny', area => 10000 );
     my $r2 = MyRow.new( state => 'ca', area => 666.67 );
     my $r3 = MyRow.new( state => 'tn', area => '333' );
