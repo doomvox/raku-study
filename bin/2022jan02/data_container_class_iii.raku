@@ -33,7 +33,6 @@ class MyRow is Associative {
         } elsif( $key eq 'area' ) {
             $.area = $new_value;
         }
-
     }
 
 
