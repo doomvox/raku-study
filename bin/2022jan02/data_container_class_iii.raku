@@ -8,6 +8,19 @@ use v6;
 
 # class MyRow {
 
+## bruce gray hints on doing custom Associative classes:
+class Foo is Associative {
+has %.secret_storage;
+multi method ASSIGN-KEY ( ::?CLASS:D: $key, $new_value ) {
+  %.secret_storage{$key} = $new_value;
+}
+}
+my $f = Foo.new;
+$f{'abc!!!'} = 123;
+say $f; 
+https://docs.rak
+
+
 class MyRow is Associative {
     has Str      $.state is rw;
     has Numeric  $.area  is rw;
