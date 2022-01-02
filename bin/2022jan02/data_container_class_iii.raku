@@ -32,6 +32,11 @@ class MyRow is Associative {
         # has %.secret_storage;
         # %.secret_storage{$key} = $new_value;
 
+        if( $key eq 'state' ) {
+            $.state = $new_value;
+        } elsif( $key eq 'area' ) {
+            $.area = $new_value;
+        }
 
 
 
