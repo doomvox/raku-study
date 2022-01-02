@@ -9,8 +9,8 @@ use v6;
 # class MyRow {
 
 class MyRow {
-    has Str      $.state  is rw;
-    has Numeric  $.area   is rw;
+    has Str      $.state is rw;
+    has Numeric  $.area  is rw;
 
     method Str {
         $.state;
