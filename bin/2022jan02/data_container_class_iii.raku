@@ -1,7 +1,7 @@
 #!/usr/bin/env perl6
 # 
 # data_container_class_iii.raku            January  2, 2022   
-#  mutated from 12 2021 May 
+#    mutated from   data_container_class_ii of  May 12, 2021 
 
 # Cleaning up material from here:
 #   /home/doom/End/Cave/Perl6/Wall/raku-study/bin/2021apr25/data_container_class.raku
