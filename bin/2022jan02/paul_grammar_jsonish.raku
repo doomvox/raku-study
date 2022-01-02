@@ -52,7 +52,9 @@ my $data = $innie.IO.slurp();
 # say Testes.parsefile('users.txt', :enc('UTF-8')).Str.trim.subst(/\n/, ',', :g);
 # say Testes.parsefile( $innie, :enc('UTF-8'));
 
-say TestesActions.parsefile( $innie, :enc('UTF-8'));
+# say TestesActions.parsefile( $innie, :enc('UTF-8'));
+
+say Testes.parsefile( $innie, :enc('UTF-8'), actions => TestesActions );
 
 
 
