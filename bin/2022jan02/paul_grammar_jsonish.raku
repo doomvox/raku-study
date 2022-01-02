@@ -7,9 +7,9 @@ use v6.d;
 my $innie = "/home/doom/tmp/data.jsonish";
 
 my $data = $innie.slurp();
-say Test.parse($data); 
+say Testes.parse($data); 
 
-grammar Test {
+grammar Testes {
         rule TOP        { <object>                 }
         rule object     { <objectKey> <objectBody> }
         rule objectKey  { <cstr> ':'               }
@@ -28,7 +28,7 @@ grammar Test {
               token value:sym<string>   { <string> }
 }
 
-class TestActions {
+class TestesActions {
 
         method TOP($/) { make $<object>.made; }
         method object($/) { make $<objectKey>.made => $<objectBody>.made; }
