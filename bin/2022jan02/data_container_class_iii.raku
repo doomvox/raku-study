@@ -3,6 +3,7 @@
 # data_container_class_iii.raku            January  2, 2022   
 #    mutated from   data_container_class_ii of  May 12, 2021 
 
+
 use v6;
 
 class MyRow {
