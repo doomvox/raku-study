@@ -37,7 +37,8 @@ class MyRow {
        
     say join( ' ', $r1, $r2, $r3 );     # NY CA TN
     say join( ' ', +$r1, +$r2, +$r3 );  # 10000 666.67 333
-    }
+}
+
 
 class MyTable {
     has        @.data;  ## restrict to an array of arrays somehow?  drop "rw"?  and "."?
