@@ -18,6 +18,10 @@
 *** jonathan worthington, cro-ing
 **** https://raku-advent.blog/2021/12/19/let-it-cro/
 
+*** future topicettes:
+**** getting sets to DWIM
+https://donaldh.wtf/2021/01/if-sets-would-dwim/
+
 ** announcments 
 *** January 6th: svlug: I'll be talking about Raku
 **** https://www.meetup.com/SVPerl/events/xjdzdsydccbjb/
