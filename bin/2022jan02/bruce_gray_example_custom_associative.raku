@@ -13,7 +13,7 @@ class Foo is Associative {
 my $f = Foo.new;
 $f{'abc!!!'} = 123;
 say $f; 
-
+## Foo.new(secret_storage => {"abc!!!" => 123})
 
 
 
