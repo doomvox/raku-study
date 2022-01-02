@@ -38,8 +38,6 @@ class MyRow is Associative {
             $.area = $new_value;
         }
 
-
-
     }
 
 
