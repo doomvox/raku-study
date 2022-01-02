@@ -26,7 +26,6 @@ class MyRow {
     submethod TWEAK {  ## like an "after hook"
          $!state = $!state.uc;
      }
-
 } # end class MyRow
 
 
