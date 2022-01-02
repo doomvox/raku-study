@@ -6,8 +6,6 @@ use v6.d;
 
 my $innie = "/home/doom/tmp/data.jsonish";
 
-my $data = $innie.slurp();
-say Testes.parse($data); 
 
 grammar Testes {
         rule TOP        { <object>                 }
@@ -46,8 +44,12 @@ class TestesActions {
 }
 
 
+my $data = $innie.slurp();
+say Testes.parse($data); 
+
 
 
 # ===
 # Author:  doom@kzsu.stanford.edu
+
 
