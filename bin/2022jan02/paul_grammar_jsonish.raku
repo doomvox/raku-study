@@ -5,7 +5,6 @@
 use v6.d;
 
 grammar Test {
-
         rule TOP        { <object>                 }
         rule object     { <objectKey> <objectBody> }
         rule objectKey  { <cstr> ':'               }
