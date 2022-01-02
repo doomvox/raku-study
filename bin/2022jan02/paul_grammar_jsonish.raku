@@ -4,6 +4,9 @@
 
 use v6.d;
 
+my $data = slurp();
+say Test.parse($data); 
+
 grammar Test {
         rule TOP        { <object>                 }
         rule object     { <objectKey> <objectBody> }
