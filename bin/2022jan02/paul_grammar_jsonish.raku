@@ -26,6 +26,7 @@ grammar Testes {
               token value:sym<string>   { <string> }
 }
 
+## use make/made idiom to bubble up results, keep matches from remaining deeply nested
 class TestesActions {
 
         method TOP($/)         { make $<object>.made; }
