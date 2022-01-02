@@ -15,7 +15,7 @@ class MyRow {
     }
 
     method Numeric { 
-        +$.area;
+        $.area;
     }
 
     # does the Cool coercion of strings that look numeric
