@@ -55,7 +55,7 @@ my $data = $innie.IO.slurp();
 # say TestesActions.parsefile( $innie, :enc('UTF-8'));
 
 say Testes.parsefile( $innie, :enc('UTF-8'), actions => TestesActions ).made;
-
+#  objectKey => {a => 1234, anotherObjectKey => {b => "45934"}, b => 5345, newobjectKey => {a => 1534, b => "asdf"}}
 
 
 # ===
