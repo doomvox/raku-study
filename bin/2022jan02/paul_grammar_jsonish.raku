@@ -30,14 +30,14 @@ grammar Testes {
 
 class TestesActions {
 
-        method TOP($/) { make $<object>.made; }
-        method object($/) { make $<objectKey>.made => $<objectBody>.made; }
-        method objectBody($/) { make $<item>>>.made.hash.item; }
-        method pair($/) { make $<cstr>.made => $<value>.made; }
-        method objectKey($/)         { make $<cstr>.made; }
-        method cstr($/)              { make ~$/; }
-        method string($/)            { make ~$/; }
-        method number($/)            { make ~$/; }
+        method TOP($/)         { make $<object>.made; }
+        method object($/)      { make $<objectKey>.made => $<objectBody>.made; }
+        method objectBody($/)  { make $<item>>>.made.hash.item; }
+        method pair($/)        { make $<cstr>.made => $<value>.made; }
+        method objectKey($/)   { make $<cstr>.made; }
+        method cstr($/)        { make ~$/; }
+        method string($/)      { make ~$/; }
+        method number($/)      { make ~$/; }
 
         method item:sym<pair>($/)    { make $<pair>.made; }
         method item:sym<object>($/)  { make $<object>.made; }
