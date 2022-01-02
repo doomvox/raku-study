@@ -11,9 +11,6 @@ class Foo is Associative {
     ## refers to current class:
     ##   ::?CLASS:D:
 
-    
-
-
     multi method ASSIGN-KEY ( ::?CLASS:D: $key, $new_value ) {
 
         %.secret_storage{$key} = $new_value;
