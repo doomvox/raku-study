@@ -28,7 +28,16 @@ class MyRow is Associative {
      }
 
     multi method ASSIGN-KEY ( ::?CLASS:D: $key, $new_value ) {
+
+        # has %.secret_storage;
+        # %.secret_storage{$key} = $new_value;
+
+
+
+
     }
+
+
 
 
 
