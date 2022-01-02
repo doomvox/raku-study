@@ -38,10 +38,10 @@ class MyRow is Associative {
 
     $r3.state = 'GZ';
        
+    $r3{ 'AA' } = 111;
+
     say join( ' ', $r1, $r2, $r3 );     # NY CA TN
     say join( ' ', +$r1, +$r2, +$r3 );  # 10000 666.67 333
-
-    $r3{ 'AA' } = 111;
 
 }
 
