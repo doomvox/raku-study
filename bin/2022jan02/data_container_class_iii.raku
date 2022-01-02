@@ -33,6 +33,8 @@ class MyRow is rw {
     my $r1 = MyRow.new( state => 'ny', area => 10000 );
     my $r2 = MyRow.new( state => 'ca', area => 666.67 );
     my $r3 = MyRow.new( state => 'tn', area => '333' );
+
+    $r3.state = 'GZ';
        
     say join( ' ', $r1, $r2, $r3 );     # NY CA TN
     say join( ' ', +$r1, +$r2, +$r3 );  # 10000 666.67 333
