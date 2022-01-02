@@ -42,7 +42,6 @@ class MyRow is Associative {
 
     say join( ' ', $r1, $r2, $r3 );     # NY CA TN
     say join( ' ', +$r1, +$r2, +$r3 );  # 10000 666.67 333
-
 }
 
 
