@@ -50,6 +50,11 @@ my $data = $innie.IO.slurp();
 say Testes.parse($data, actions => TestesActions).made; 
 
 
+# say Testes.parsefile('users.txt', :enc('UTF-8')).Str.trim.subst(/\n/, ',', :g);
+say Testes.parsefile( $innie, :enc('UTF-8'));
+
+
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
