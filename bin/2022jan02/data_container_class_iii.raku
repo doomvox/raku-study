@@ -6,7 +6,6 @@
 
 use v6;
 
-
 # class MyRow {
 class MyRow is rw {
     has Str      $.state;
