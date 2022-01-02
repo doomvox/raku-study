@@ -6,7 +6,7 @@ use v6.d;
 
 my $innie = "/home/doom/tmp/data.jsonish";
 
-my $data = slurp();
+my $data = $innie.slurp();
 say Test.parse($data); 
 
 grammar Test {
