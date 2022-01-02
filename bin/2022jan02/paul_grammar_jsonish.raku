@@ -4,6 +4,8 @@
 
 use v6.d;
 
+my $innie = "/home/doom/tmp/data.jsonish";
+
 my $data = slurp();
 say Test.parse($data); 
 
