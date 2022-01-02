@@ -12,11 +12,11 @@ class MyRow {
 
     method Str {
         $.state;
-        }
+    }
 
     method Numeric { 
         +$.area;
-        }
+    }
 
     # does the Cool coercion of strings that look numeric
     submethod BUILD ( Numeric(Cool) :$!area, :$!state ) {
