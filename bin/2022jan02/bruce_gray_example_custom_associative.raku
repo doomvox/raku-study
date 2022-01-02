@@ -10,6 +10,7 @@ class Foo is Associative {
     ## might work fine without the multi
     ## refers to current class:
     ##   ::?CLASS:D:
+    ## need this to be able to say :D, force it to be a defined class
 
     multi method ASSIGN-KEY ( ::?CLASS:D: $key, $new_value ) {
 
