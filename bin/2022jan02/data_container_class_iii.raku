@@ -44,7 +44,7 @@ class MyRow is Associative {
 
     $r3.state = 'GZ';
        
-    $r3{'area'} = 111.222;
+    $r3{'area'} = 111;
 
     say join( ' ', $r1, $r2, $r3 );     # NY CA TN
     say join( ' ', +$r1, +$r2, +$r3 );  # 10000 666.67 333
