@@ -47,7 +47,7 @@ class TestesActions {
 my $data = $innie.IO.slurp();
 # say Testes.parse($data, 'TestesAction'); 
 
-say Testes.parse($data, actions => TestesActions).made; 
+# say Testes.parse($data, actions => TestesActions).made; 
 
 
 # say Testes.parsefile('users.txt', :enc('UTF-8')).Str.trim.subst(/\n/, ',', :g);
