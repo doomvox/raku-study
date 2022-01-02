@@ -44,7 +44,7 @@ class TestesActions {
 }
 
 
-my $data = $innie.slurp();
+my $data = $innie.IO.slurp();
 say Testes.parse($data); 
 
 
