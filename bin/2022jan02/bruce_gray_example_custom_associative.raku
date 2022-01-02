@@ -6,8 +6,18 @@ use v6;
 
 class Foo is Associative {
     has %.secret_storage;
+
+    ## might work fine without the multi
+    ## refers to current class:
+    ##   ::?CLASS:D:
+
+    
+
+
     multi method ASSIGN-KEY ( ::?CLASS:D: $key, $new_value ) {
+
         %.secret_storage{$key} = $new_value;
+
     }
 }
 my $f = Foo.new;
