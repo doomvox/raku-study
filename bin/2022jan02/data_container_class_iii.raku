@@ -11,11 +11,11 @@ class MyRow {
     has Numeric  $.area  is rw;
 
     method Str {
-        $!state;
+        $.state;
         }
 
     method Numeric { 
-        +$!area;
+        +$.area;
         }
 
     # does the Cool coercion of strings that look numeric
