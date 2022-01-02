@@ -6,7 +6,8 @@
 
 use v6;
 
-class MyRow is rw {
+# class MyRow is rw {
+class MyRow {
     has Str      $.state;
     has Numeric  $.area;
 
