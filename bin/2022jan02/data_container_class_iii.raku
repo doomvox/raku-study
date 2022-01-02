@@ -9,7 +9,7 @@ use v6;
 # class MyRow {
 
 class MyRow is rw {
-    has Str      $.state is rw ;
+    has Str      $.state is readonly ;
     has Numeric  $.area;
 
     method Str {
