@@ -54,7 +54,7 @@ my $data = $innie.IO.slurp();
 
 # say TestesActions.parsefile( $innie, :enc('UTF-8'));
 
-say Testes.parsefile( $innie, :enc('UTF-8'), actions => TestesActions );
+say Testes.parsefile( $innie, :enc('UTF-8'), actions => TestesActions ).made;
 
 
 
