@@ -9,8 +9,6 @@ my $innie = "/home/doom/tmp/data.jsonish";
 my $data = $innie.slurp();
 say Test.parse($data); 
 
-
-
 grammar Test {
         rule TOP        { <object>                 }
         rule object     { <objectKey> <objectBody> }
