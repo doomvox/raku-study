@@ -8,6 +8,10 @@
 
 ** topicettes
 
+*** custom associatives
+**** https://stackoverflow.com/questions/63050032/can-i-write-an-object-that-behaves-like-a-hash/63059286#63059286
+
+
 *** new work on thread libraries for perl5
 **** https://metacpan.org/pod/Thread::Csp
 **** https://www.reddit.com/r/perl/comments/rrayau/new_threading_library_for_perl/
