@@ -8,7 +8,7 @@ use v6;
 
 # class MyRow {
 
-class MyRow {
+class MyRow is Associative {
     has Str      $.state is rw;
     has Numeric  $.area  is rw;
 
