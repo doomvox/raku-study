@@ -20,6 +20,9 @@
 ***** https://en.wikipedia.org/wiki/Communicating_sequential_processes
 ***** https://www.cs.cmu.edu/~crary/819-f09/Hoare78.pdf
 
+*** also perl5: new release PDL 
+**** https://metacpan.org/pod/PDL
+
 *** jonathan worthington, cro-ing
 **** https://raku-advent.blog/2021/12/19/let-it-cro/
 
