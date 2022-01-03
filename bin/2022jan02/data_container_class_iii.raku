@@ -9,8 +9,8 @@ use v6;
 class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data store.
 #     has Str      $.state is rw;
 #     has Numeric  $.area  is rw;
-     has Str      $.state  = '' is rw;
-     has Numeric  $.area   = 0  is rw;
+     has Str      $.state is rw  = 'xx' ;
+     has Numeric  $.area is rw   = 0  ;
 
 
     method Str {
