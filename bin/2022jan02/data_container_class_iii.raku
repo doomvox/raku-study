@@ -34,6 +34,7 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
         if ( $key eq 'state' ) {
             $.state = $new_value;
         } elsif ( $key eq 'area' ) {
+            ## might want to have Cool conversion here
             $.area = $new_value;
         }
     }
