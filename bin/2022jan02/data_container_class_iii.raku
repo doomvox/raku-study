@@ -38,8 +38,10 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
 #             $.area = +$new_value;
 #         }
 #         ## maybe could simplify like $.$key = $new_value
+#         ## probably should have else clause with custom error message
 #     }
 
+## This works too (above more flexible?)
     multi method ASSIGN-KEY ( ::?CLASS:D: 'state', $new_value ) { $.state = $new_value }
     multi method ASSIGN-KEY ( ::?CLASS:D: 'area' , Numeric(Cool) $new_value ) { $.area = $new_value } 
 
