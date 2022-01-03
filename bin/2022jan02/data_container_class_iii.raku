@@ -30,15 +30,18 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
 
     ## without this you get message (could use hints as to which methods)
     ##   Associative indexing implementation missing from type MyRow
-    multi method ASSIGN-KEY ( ::?CLASS:D: $key, $new_value ) {
-        if ( $key eq 'state' ) {
-            $.state = $new_value;
-        } elsif ( $key eq 'area' ) {
-            ## putting a '+' here substitutes for Numeric(Cool) conversion
-            $.area = +$new_value;
-        }
-        ## maybe could simplify like $.$key = $new_value
-    }
+#     multi method ASSIGN-KEY ( ::?CLASS:D: $key, $new_value ) {
+#         if ( $key eq 'state' ) {
+#             $.state = $new_value;
+#         } elsif ( $key eq 'area' ) {
+#             ## putting a '+' here substitutes for Numeric(Cool) conversion
+#             $.area = +$new_value;
+#         }
+#         ## maybe could simplify like $.$key = $new_value
+#     }
+
+    multi method ASSIGN-KEY ( ::?CLASS:D: 'state', $new_value ) { $.state = $new_value }
+    multi method ASSIGN-KEY ( ::?CLASS:D: 'area' , Numeric(Cool) $new_value ) { $.area = $new_value } 
 
 } # end class MyRow
 
