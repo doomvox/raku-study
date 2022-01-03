@@ -50,6 +50,14 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
 
     say join( ' ', $r1, $r2, $r3 );     # NY CA TN
     say join( ' ', +$r1, +$r2, +$r3 );  # 10000 666.67 333
+
+
+    my $r4 = MyRow.new();
+
+
+
+
+
 }
 
 
