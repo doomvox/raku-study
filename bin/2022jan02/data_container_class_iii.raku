@@ -23,7 +23,7 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
 
     # does the Cool coercion of strings that look numeric
     submethod BUILD ( Numeric(Cool) :$!area, :$!state ) {
-        die "state must be a two character code" unless $!state.chars == 2;
+        die "state must be a two character code" unless $!state.chars == 2 || $!state eq '';
     }; 
 
     submethod TWEAK {  ## like an "after hook"
