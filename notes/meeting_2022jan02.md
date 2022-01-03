@@ -1,59 +1,59 @@
-- [meeting notes January 02, 2022](#org7b7ce15)
-  - [the raku study group](#org22842a4)
-    - [Raku your data, roll your thoughts](#org4bc2b54)
-  - [usual links](#orgd685edf)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>](#orgad13b43)
-    - [<https://github.com/doomvox/raku-study/bin/2022jan02>](#org1301c98)
-  - [topicettes](#orgf566208)
-    - [custom associatives](#org9f96cc6)
-    - [new work on thread libraries for perl5](#org76de692)
-    - [also perl5: new release PDL](#orgc6b1fa6)
-    - [jonathan worthington, cro-ing](#org0e3ca93)
-    - [future topicettes:](#org481393d)
-    - [bill had questions about exceptions to non-mutating operations](#org6265b0f)
-  - [announcments](#org4bea814)
-    - [January 6th: svlug: I'll be talking about Raku](#orgdd6ac24)
-    - [January 16th: next raku study group meeting](#orgaea991f)
-    - [February 5-6: FOSDEM Raku talks](#org87f8368)
-    - [June 21-25: tprc: perl/raku conference](#orgb1dc792)
+- [meeting notes January 02, 2022](#orgb1e1591)
+  - [the raku study group](#org57be4f4)
+    - [Raku your data, roll your thoughts](#orgc477cdc)
+  - [usual links](#org85297e6)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>](#org9b5acc6)
+    - [<https://github.com/doomvox/raku-study/bin/2022jan02>](#org4787a06)
+  - [topicettes](#orgda36a08)
+    - [custom associatives](#orgbbaca96)
+    - [new work on thread libraries for perl5](#orgc6ee3d5)
+    - [also perl5: new release PDL](#org3fd7b3d)
+    - [jonathan worthington, cro-ing](#orgfe5d4eb)
+    - [future topicettes:](#org3b3122d)
+    - [bill had questions about exceptions to non-mutating operations](#org5497daa)
+  - [announcments](#orgcfdaea0)
+    - [January 6th: svlug: I'll be talking about Raku](#orgd67fbc7)
+    - [January 16th: next raku study group meeting](#orgfdb6950)
+    - [February 5-6: FOSDEM Raku talks](#org0b18bd4)
+    - [June 21-25: tprc: perl/raku conference](#org6963fa7)
 
 
-<a id="org7b7ce15"></a>
+<a id="orgb1e1591"></a>
 
 # meeting notes January 02, 2022
 
 
-<a id="org22842a4"></a>
+<a id="org57be4f4"></a>
 
 ## the raku study group
 
 
-<a id="org4bc2b54"></a>
+<a id="orgc477cdc"></a>
 
 ### Raku your data, roll your thoughts
 
 
-<a id="orgd685edf"></a>
+<a id="org85297e6"></a>
 
 ## usual links
 
 
-<a id="orgad13b43"></a>
+<a id="org9b5acc6"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>
 
 
-<a id="org1301c98"></a>
+<a id="org4787a06"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022jan02>
 
 
-<a id="orgf566208"></a>
+<a id="orgda36a08"></a>
 
 ## topicettes
 
 
-<a id="org9f96cc6"></a>
+<a id="orgbbaca96"></a>
 
 ### custom associatives
 
@@ -64,7 +64,7 @@
     1.  <https://docs.raku.org/language/subscripts#Methods_to_implement_for_associative_subscripting>
 
 
-<a id="org76de692"></a>
+<a id="orgc6ee3d5"></a>
 
 ### new work on thread libraries for perl5
 
@@ -79,21 +79,21 @@
     2.  <https://www.cs.cmu.edu/~crary/819-f09/Hoare78.pdf>
 
 
-<a id="orgc6b1fa6"></a>
+<a id="org3fd7b3d"></a>
 
 ### also perl5: new release PDL
 
 1.  <https://metacpan.org/pod/PDL>
 
 
-<a id="org0e3ca93"></a>
+<a id="orgfe5d4eb"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="org481393d"></a>
+<a id="org3b3122d"></a>
 
 ### future topicettes:
 
@@ -102,38 +102,38 @@
     <https://donaldh.wtf/2021/01/if-sets-would-dwim/>
 
 
-<a id="org6265b0f"></a>
+<a id="org5497daa"></a>
 
 ### bill had questions about exceptions to non-mutating operations
 
 1.  push, pop
 
 
-<a id="org4bea814"></a>
+<a id="orgcfdaea0"></a>
 
 ## announcments
 
 
-<a id="orgdd6ac24"></a>
+<a id="orgd67fbc7"></a>
 
 ### January 6th: svlug: I'll be talking about Raku
 
 1.  <https://www.meetup.com/SVPerl/events/xjdzdsydccbjb/>
 
 
-<a id="orgaea991f"></a>
+<a id="orgfdb6950"></a>
 
 ### January 16th: next raku study group meeting
 
 
-<a id="org87f8368"></a>
+<a id="org0b18bd4"></a>
 
 ### February 5-6: FOSDEM Raku talks
 
 1.  <https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/>
 
 
-<a id="orgb1dc792"></a>
+<a id="org6963fa7"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

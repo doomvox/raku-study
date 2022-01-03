@@ -13,6 +13,8 @@
 **** secret documentation
 ***** https://docs.raku.org/language/subscripts#Methods_to_implement_for_associative_subscripting 
 
+
+
 *** new work on thread libraries for perl5
 **** https://metacpan.org/pod/Thread::Csp
 **** https://www.reddit.com/r/perl/comments/rrayau/new_threading_library_for_perl/
