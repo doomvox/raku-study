@@ -54,7 +54,7 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
 
     my $r4 = MyRow.new(state => 'aa', area => 1);
     $r4<state area> = 'zz', '2';
-    ##  Default constructor for 'MyRow' only takes named arguments
+    ##  Type check failed in assignment to $!area; expected Numeric but got Str ("2")
 
     say $r4;
 
