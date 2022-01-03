@@ -53,7 +53,7 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
     say join( ' ', +$r1, +$r2, +$r3 );  # 10000 666.67 333
 
 
-    my $r4 = MyRow.new(state => 'aa', area => 1);  
+    my $r4 = MyRow.new(state => 'aa', area => 1);   ## as written fields aren't option, *must* specify both
 #    $r4<state area> = 'zz', '2';
     ##  Type check failed in assignment to $!area; expected Numeric but got Str ("2")
     $r4<state area> = 'zz', 2;    ## brad gilbert 2020 is wrong: fixed this 
@@ -61,6 +61,8 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
     ## https://stackoverflow.com/questions/63050032/can-i-write-an-object-that-behaves-like-a-hash/63059286#63059286
 
     say $r4;
+
+    my $r5 = MyRow.new(state => 'aa', area => 1);  
 
 }
 
