@@ -8,7 +8,7 @@ use warnings;
 use strict;
 $|=1;
 use Data::Dumper;
-use List::MoreUtils qw( uniq );
+use List::MoreUtils qw( uniq );  ## These days, could do this:  use List::Util qw( uniq );
 
 {
   my (%gross, %costs, %net);
