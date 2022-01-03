@@ -80,7 +80,7 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
     say $r5;
 
     say "---";
-    ## With defaults added to BUILD subsig, can now initialize with no args
+    ## With defaults added to BUILD subsig, can now initialize without specifying values 
     my $r5 = MyRow.new();
     say $r5;
     # MyRow.new(state => "", area => 0)
