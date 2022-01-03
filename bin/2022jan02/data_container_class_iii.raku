@@ -43,7 +43,6 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
     my $r3 = MyRow.new( state => 'tn', area => '333' );
 
     $r3.state = 'GZ';
-       
     $r3{'area'} = 111.666;
 
     say join( ' ', $r1, $r2, $r3 );     # NY CA TN
