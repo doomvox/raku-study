@@ -14,7 +14,7 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
         $.state;
     }
 
-    method Numeric {  ## would be better to have Cool conversion at this stage
+    method Numeric {  
         $.area;
     }
 
