@@ -27,6 +27,9 @@
 **** getting sets to DWIM
 https://donaldh.wtf/2021/01/if-sets-would-dwim/
 
+*** bill has questions about exceptions to non-mutating functions...
+
+
 ** announcments 
 *** January 6th: svlug: I'll be talking about Raku
 **** https://www.meetup.com/SVPerl/events/xjdzdsydccbjb/
