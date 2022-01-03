@@ -37,7 +37,10 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
             ## putting a '+' here substitutes for Numeric(Cool) conversion
             $.area = +$new_value;
         }
+        ## maybe could simplify like $.$key = $new_value?
+
     }
+
 } # end class MyRow
 
 
