@@ -13,9 +13,7 @@ class Foo is Associative {
     ## need this to be able to say :D, force it to be a defined class, an instance of Foo
 
     multi method ASSIGN-KEY ( ::?CLASS:D: $key, $new_value ) {
-
         %.secret_storage{$key} = $new_value;
-
     }
 }
 my $f = Foo.new;
