@@ -10,11 +10,12 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
 #     has Str      $.state is rw;
 #     has Numeric  $.area  is rw;
 
+## This might work normally, but with explict BUILD need to put defaults on subsig
 #      has Str      $.state is rw  = '' ;
 #      has Numeric  $.area is rw   = 0  ;
 
-      has Str      $.state is rw;
-      has Numeric  $.area is rw;
+      has Str      $.state  is rw;
+      has Numeric  $.area   is rw;
 
 
     method Str {
