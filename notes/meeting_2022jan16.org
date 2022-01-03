@@ -3,14 +3,16 @@
 *** <stupid raku pun> 
 
 ** usual links
-*** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md 
-*** https://github.com/doomvox/raku-study/bin/2022jan02
+*** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md 
+*** https://github.com/doomvox/raku-study/bin/2022jan16
 
 ** topicettes
 
 *** raku vs python
 **** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
 **** um... very interrresting. 
+
+** old topics, last meeting on the jan 02 (probably just delete, maybe followup)
 
 
 *** custom associatives
