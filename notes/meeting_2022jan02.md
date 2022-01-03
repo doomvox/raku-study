@@ -1,57 +1,57 @@
-- [meeting notes January 02, 2022](#orgff9ba88)
-  - [the raku study group](#org40f9b5b)
-    - [Raku your data, roll your thoughts](#orge24c3a7)
-  - [usual links](#orgd8da6c5)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>](#org7dddfd1)
-    - [<https://github.com/doomvox/raku-study/bin/2022jan02>](#orgd1220d0)
-  - [topicettes](#orgdde12cd)
-    - [custom associatives](#org27bd473)
-    - [new work on thread libraries for perl5](#org9c2548b)
-    - [jonathan worthington, cro-ing](#orge6c425d)
-    - [future topicettes:](#orgdef89d3)
-    - [bill had questions about exceptions to non-mutating functions&#x2026;](#org1c5474e)
-  - [announcments](#org93b30b0)
-    - [January 6th: svlug: I'll be talking about Raku](#org25aca25)
-    - [January 16th: next raku study group meeting](#org0b17c11)
-    - [February 5-6: FOSDEM Raku talks](#org95013d6)
+- [meeting notes January 02, 2022](#org3dad34a)
+  - [the raku study group](#org894d106)
+    - [Raku your data, roll your thoughts](#org06bef2e)
+  - [usual links](#org0c304d4)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>](#org4852554)
+    - [<https://github.com/doomvox/raku-study/bin/2022jan02>](#org89ef896)
+  - [topicettes](#orgc6dec6a)
+    - [custom associatives](#orgf6a6852)
+    - [new work on thread libraries for perl5](#org07972a6)
+    - [jonathan worthington, cro-ing](#org9080d06)
+    - [future topicettes:](#org3678e23)
+    - [bill had questions about exceptions to non-mutating operations](#orgf033dc1)
+  - [announcments](#org2be3e50)
+    - [January 6th: svlug: I'll be talking about Raku](#orgbc50a04)
+    - [January 16th: next raku study group meeting](#orgd98f3b4)
+    - [February 5-6: FOSDEM Raku talks](#orgce9b4fb)
 
 
-<a id="orgff9ba88"></a>
+<a id="org3dad34a"></a>
 
 # meeting notes January 02, 2022
 
 
-<a id="org40f9b5b"></a>
+<a id="org894d106"></a>
 
 ## the raku study group
 
 
-<a id="orge24c3a7"></a>
+<a id="org06bef2e"></a>
 
 ### Raku your data, roll your thoughts
 
 
-<a id="orgd8da6c5"></a>
+<a id="org0c304d4"></a>
 
 ## usual links
 
 
-<a id="org7dddfd1"></a>
+<a id="org4852554"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md>
 
 
-<a id="orgd1220d0"></a>
+<a id="org89ef896"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022jan02>
 
 
-<a id="orgdde12cd"></a>
+<a id="orgc6dec6a"></a>
 
 ## topicettes
 
 
-<a id="org27bd473"></a>
+<a id="orgf6a6852"></a>
 
 ### custom associatives
 
@@ -62,7 +62,7 @@
     1.  <https://docs.raku.org/language/subscripts#Methods_to_implement_for_associative_subscripting>
 
 
-<a id="org9c2548b"></a>
+<a id="org07972a6"></a>
 
 ### new work on thread libraries for perl5
 
@@ -77,14 +77,14 @@
     2.  <https://www.cs.cmu.edu/~crary/819-f09/Hoare78.pdf>
 
 
-<a id="orge6c425d"></a>
+<a id="org9080d06"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="orgdef89d3"></a>
+<a id="org3678e23"></a>
 
 ### future topicettes:
 
@@ -93,31 +93,31 @@
     <https://donaldh.wtf/2021/01/if-sets-would-dwim/>
 
 
-<a id="org1c5474e"></a>
+<a id="orgf033dc1"></a>
 
-### bill had questions about exceptions to non-mutating functions&#x2026;
+### bill had questions about exceptions to non-mutating operations
 
 1.  push, pop
 
 
-<a id="org93b30b0"></a>
+<a id="org2be3e50"></a>
 
 ## announcments
 
 
-<a id="org25aca25"></a>
+<a id="orgbc50a04"></a>
 
 ### January 6th: svlug: I'll be talking about Raku
 
 1.  <https://www.meetup.com/SVPerl/events/xjdzdsydccbjb/>
 
 
-<a id="org0b17c11"></a>
+<a id="orgd98f3b4"></a>
 
 ### January 16th: next raku study group meeting
 
 
-<a id="org95013d6"></a>
+<a id="orgce9b4fb"></a>
 
 ### February 5-6: FOSDEM Raku talks
 

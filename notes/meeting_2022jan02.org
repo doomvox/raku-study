@@ -27,7 +27,7 @@
 **** getting sets to DWIM
 https://donaldh.wtf/2021/01/if-sets-would-dwim/
 
-*** bill had questions about exceptions to non-mutating functions...
+*** bill had questions about exceptions to non-mutating operations
 **** push, pop
 
 ** announcments 
