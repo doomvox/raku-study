@@ -1,0 +1,54 @@
+* meeting notes January 16, 2022
+** the raku study group
+*** <stupid raku pun> 
+
+** usual links
+*** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan02.md 
+*** https://github.com/doomvox/raku-study/bin/2022jan02
+
+** topicettes
+
+*** raku vs python
+**** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
+**** um... very interrresting. 
+
+
+*** custom associatives
+**** brad gilbert write-up:
+***** https://stackoverflow.com/questions/63050032/can-i-write-an-object-that-behaves-like-a-hash/63059286#63059286
+**** secret documentation
+***** https://docs.raku.org/language/subscripts#Methods_to_implement_for_associative_subscripting
+***** https://docs.raku.org/language/classtut#index-entry-BUILD
+***** https://docs.raku.org/language/objects#index-entry-TWEAK
+
+*** new work on thread libraries for perl5
+**** https://metacpan.org/pod/Thread::Csp
+**** https://www.reddit.com/r/perl/comments/rrayau/new_threading_library_for_perl/
+**** commnicating sequential processes
+***** https://en.wikipedia.org/wiki/Communicating_sequential_processes
+***** https://www.cs.cmu.edu/~crary/819-f09/Hoare78.pdf
+
+*** also perl5: new release PDL 
+**** https://metacpan.org/pod/PDL
+
+*** jonathan worthington, cro-ing
+**** https://raku-advent.blog/2021/12/19/let-it-cro/
+
+*** future topicettes:
+**** getting sets to DWIM
+https://donaldh.wtf/2021/01/if-sets-would-dwim/
+
+*** bill had questions about exceptions to non-mutating operations
+**** push, pop
+
+** announcments 
+*** January 6th: svlug: I'll be talking about Raku
+**** https://www.meetup.com/SVPerl/events/xjdzdsydccbjb/
+
+*** January 16th: next raku study group meeting
+
+***  February 5-6: FOSDEM Raku talks
+**** https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/
+
+*** June 21-25: tprc: perl/raku conference 
+**** https://perlconference.us/tprc-2022-hou/
