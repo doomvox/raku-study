@@ -9,7 +9,7 @@
 ** topicettes
 
 *** custom associatives
-**** brad gilbert steps through the issues
+**** brad gilbert write-up:
 ***** https://stackoverflow.com/questions/63050032/can-i-write-an-object-that-behaves-like-a-hash/63059286#63059286
 **** secret documentation
 ***** https://docs.raku.org/language/subscripts#Methods_to_implement_for_associative_subscripting
