@@ -55,6 +55,8 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
     my $r4 = MyRow.new();
     $r4<state area> = 'zz', '2';
 
+    say $r4;
+
 }
 
 
