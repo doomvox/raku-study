@@ -27,7 +27,6 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
          $!state = $!state.uc;
      }
 
-
     ## without this you get message (could use hints as to which methods)
     ##   Associative indexing implementation missing from type MyRow
 #     multi method ASSIGN-KEY ( ::?CLASS:D: $key, $new_value ) {
