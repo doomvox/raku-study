@@ -39,5 +39,5 @@ https://donaldh.wtf/2021/01/if-sets-would-dwim/
 ***  February 5-6: FOSDEM Raku talks
 **** https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/
 
-*** tprc: perl/raku conference is on the horizon:
+*** June 21-25: tprc: perl/raku conference 
 **** https://perlconference.us/tprc-2022-hou/
