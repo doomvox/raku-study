@@ -66,7 +66,7 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
     say join( ' ', $r1,   $r2,  $r3 );     # NY CA TN
     say join( ' ', +$r1, +$r2, +$r3 );  # 10000 666.67 333
 
-    my $r4 = MyRow.new(state => 'aa', area => 1);   ## fields not optional, *must* specify both
+    my $r4 = MyRow.new(state => 'aa', area => 1);   ## before defaults added to BUILD, fields weren't optional
 #    $r4<state area> = 'zz', '2';
     ##  Type check failed in assignment to $!area; expected Numeric but got Str ("2")
     $r4<state area> = 'zz', 2;    ## brad gilbert 2020 is wrong: fixed this 
