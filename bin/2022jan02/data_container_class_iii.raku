@@ -63,6 +63,7 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
     say $r4;
 
     my $r5 = MyRow.new(state => 'aa', area => 1);  
+    $r5<state area> = 'bl', '0.00001';
 
 }
 
