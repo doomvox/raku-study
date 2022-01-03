@@ -52,8 +52,9 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
     say join( ' ', +$r1, +$r2, +$r3 );  # 10000 666.67 333
 
 
-    my $r4 = MyRow.new('aa',1);
+    my $r4 = MyRow.new(state => 'aa', area => 1);
     $r4<state area> = 'zz', '2';
+    ##  Default constructor for 'MyRow' only takes named arguments
 
     say $r4;
 
