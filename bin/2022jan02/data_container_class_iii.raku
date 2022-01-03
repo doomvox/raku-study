@@ -52,7 +52,7 @@ class MyRow is Associative {  ## Alternate approach "is Hash"?  Just one data st
     say join( ' ', +$r1, +$r2, +$r3 );  # 10000 666.67 333
 
 
-    my $r4 = MyRow.new();
+    my $r4 = MyRow.new('aa',1);
     $r4<state area> = 'zz', '2';
 
     say $r4;
