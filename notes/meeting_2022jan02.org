@@ -9,11 +9,12 @@
 ** topicettes
 
 *** custom associatives
-**** https://stackoverflow.com/questions/63050032/can-i-write-an-object-that-behaves-like-a-hash/63059286#63059286
+**** brad gilbert steps through the issues
+***** https://stackoverflow.com/questions/63050032/can-i-write-an-object-that-behaves-like-a-hash/63059286#63059286
 **** secret documentation
-***** https://docs.raku.org/language/subscripts#Methods_to_implement_for_associative_subscripting 
-
-
+***** https://docs.raku.org/language/subscripts#Methods_to_implement_for_associative_subscripting
+***** https://docs.raku.org/language/classtut#index-entry-BUILD
+***** https://docs.raku.org/language/objects#index-entry-TWEAK
 
 *** new work on thread libraries for perl5
 **** https://metacpan.org/pod/Thread::Csp
