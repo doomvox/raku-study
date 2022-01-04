@@ -15,6 +15,4 @@ $fried{eggs} = 2;
 my %fried;
 %fried<eggs> = 2;
 #+END_SRC 
-
-
-**** you can have names sans sigils
+**** you can also have names sans sigils (not done often)

@@ -1,27 +1,27 @@
-- [raku syntax vs perl](#org7a8a783)
-  - [raku continues to have a perlish feel, but--](#org3d11daa)
-    - [object method calls via the more standard ".", not the "->"](#org8f53583)
-    - [variable names typically have sigils still: $, @, %](#org9fed7cc)
+- [raku syntax vs perl](#orgf156961)
+  - [raku continues to have a perlish feel, but--](#org01fe8b4)
+    - [object method calls via the more standard ".", not the "->"](#org537ecdc)
+    - [variable names typically have sigils still: $, @, %](#org8c0e1dc)
 
 
-<a id="org7a8a783"></a>
+<a id="orgf156961"></a>
 
 # raku syntax vs perl
 
 
-<a id="org3d11daa"></a>
+<a id="org01fe8b4"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="org8f53583"></a>
+<a id="org537ecdc"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
 1.  string concationation is now "~" not "."
 
 
-<a id="org9fed7cc"></a>
+<a id="org8c0e1dc"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -41,4 +41,4 @@
         %fried<eggs> = 2;
         ```
 
-2.  you can have names sans sigils
+2.  you can also have names sans sigils (not done often)
