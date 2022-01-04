@@ -8,4 +8,8 @@
 *** flexible pattern decomposition via grammars
 **** better than perl's interpolated qrs
 *** raku uses these grammars to parse itself: they *have* to work well
-** 
+** built-in object system
+*** makes easy things easy
+*** style similar to moose/moo
+*** raku's design uses this extensively: "objects all the way down"
+**** again: these *have* to perform well
