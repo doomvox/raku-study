@@ -26,14 +26,16 @@
 (setq slip-and-slide-alist ;; A -> H   J   L -> O
   '(
 
-    ( a . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/lib/Data/Qualify.rakumod" )
-    ( b . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/lib/Data/Dualmap.rakumod" )
-    ( c . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/lib/Data/Dualmap/Internal.rakumod" )
-    ( d . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/t/01-qualify_dyad.t")
-    ( e . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/t/02-dualmap.t" )
-    ( f . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/t/03-dualmap_codeblocks.t" )
-    ( g . "/home/doom/End/Cave/DualMap/bin/perl_sort_demo.pl" )
-    ( h . "/home/doom/End/Cave/DualMap/Notes/raku_bits_from_dualmap.org" )
+
+
+    ( m . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/lib/Data/Qualify.rakumod" )
+    ( n . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/lib/Data/Dualmap.rakumod" )
+    ( o . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/lib/Data/Dualmap/Internal.rakumod" )
+    ( p . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/t/01-qualify_dyad.t")
+    ( q . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/t/02-dualmap.t" )
+    ( r . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/t/03-dualmap_codeblocks.t" )
+    ( s . "/home/doom/End/Cave/DualMap/bin/perl_sort_demo.pl" )
+    ( t . "/home/doom/End/Cave/DualMap/Notes/raku_bits_from_dualmap.org" )
 
    ))
 
