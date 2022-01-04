@@ -1,25 +1,25 @@
-- [raku syntax vs perl](#org3f3f352)
-  - [raku continues to have a perlish feel, but--](#orgc7272a4)
-    - [object method calls via the more standard ".", not the "->"](#org72383f9)
-    - [variable names typically have sigils still: $, @, %](#org99c7916)
-    - [flattening](#org9af182d)
-    - [everything is an object](#orgffb64e1)
-    - [scalar and list context have gone away in Raku](#orgb11c95c)
-    - [a push for consistency](#org64d41ec)
-    - [one-pass parsing](#org280f160)
+- [raku syntax vs perl](#orgc9b072b)
+  - [raku continues to have a perlish feel, but--](#orgfd18cee)
+    - [object method calls via the more standard ".", not the "->"](#orgca8e370)
+    - [variable names typically have sigils still: $, @, %](#org7229d46)
+    - [flattening](#orgf67075e)
+    - [everything is an object](#orgcf38437)
+    - [scalar and list context have gone away in Raku](#org1596d16)
+    - [a push for consistency](#org033d21e)
+    - [one-pass parsing](#orgc1ca621)
 
 
-<a id="org3f3f352"></a>
+<a id="orgc9b072b"></a>
 
 # raku syntax vs perl
 
 
-<a id="orgc7272a4"></a>
+<a id="orgfd18cee"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="org72383f9"></a>
+<a id="orgca8e370"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
@@ -28,7 +28,7 @@
 2.  string concationation is now "~" not "."
 
 
-<a id="org99c7916"></a>
+<a id="org7229d46"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -78,12 +78,12 @@
         $alias++;
         ```
     
-    4.  a 'scalar' can contain any object, including an aggregate (array, hash, etc)
+    4.  a 'scalar' can contain any object, including an array, hash, etc
     
         1.  similar to perl's references: $ doesn't mean "single"
 
 
-<a id="org9af182d"></a>
+<a id="orgf67075e"></a>
 
 ### flattening
 
@@ -98,7 +98,7 @@
         my @residual | = @list (-) @exceptions; ## better to "slip" out of container
 
 
-<a id="orgffb64e1"></a>
+<a id="orgcf38437"></a>
 
 ### everything is an object
 
@@ -111,21 +111,21 @@
     1.  helps to have a type system
 
 
-<a id="orgb11c95c"></a>
+<a id="org1596d16"></a>
 
 ### scalar and list context have gone away in Raku
 
 1.  but many operators do implied type-conversion, which feels perlish
 
 
-<a id="org64d41ec"></a>
+<a id="org033d21e"></a>
 
 ### a push for consistency
 
 1.  e.g. {} almost always means a block of code
 
 
-<a id="org280f160"></a>
+<a id="orgc1ca621"></a>
 
 ### one-pass parsing
 

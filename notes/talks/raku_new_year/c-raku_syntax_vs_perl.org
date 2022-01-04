@@ -41,7 +41,8 @@ my $alias  :=  $var;
 $alias++;  
 #+END_SRC
 
-***** a 'scalar' can contain any object, including an aggregate (array, hash, etc)
+***** a 'scalar' can contain any object, including an array, hash, etc
+
 ****** similar to perl's references: $ doesn't mean "single"
 
 *** flattening
