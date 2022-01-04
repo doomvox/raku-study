@@ -30,7 +30,7 @@ say i + j:  ## 5
 #+BEGIN_SRC raku
 my $mutie   = 'black_bolt';
 
-my $immutie := 'iron man';
+my $immutie := 'iron_man';
 
 say i + j:  ## 5
 #+END_SRC
