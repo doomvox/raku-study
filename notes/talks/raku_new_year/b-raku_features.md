@@ -1,108 +1,102 @@
-- [What's good about Raku?](#org311eb40)
-  - [saner numerics built-in](#org1d9de89)
-    - [big integers](#orgeba9e38)
-    - [rational numbers](#org6a907aa)
-  - [custom parsing via grammars and regexs](#orgc9ea67c)
-    - [regexps redesigned and cleaned up](#org5a33002)
-    - [flexible pattern decomposition via grammars](#orgbbfe6a2)
-    - [raku uses these grammars to parse itself: they **have** to work well](#org5659d58)
-  - [very good object system](#orgff8cf7c)
-    - [makes easy things easy](#org039fa12)
-    - [style similar to moose/moo](#org5a7fe89)
-    - [raku's design uses this extensively: "objects all the way down"](#orgb0ea3c7)
-  - [built-in type system](#org89bbd50)
-    - [strong typing is possible (though optional)](#org3608ccf)
-    - [very useful for multidispatch](#org7164b4f)
-  - [cap (concurrency, asynchrony, parallelism)](#org22ec1ad)
-    - [very convenient: might be the easiest to use of any language](#orgb981104)
+- [What's good about Raku?](#orgc83e688)
+  - [saner numerics built-in](#org15127eb)
+    - [big integers](#orgb58e83e)
+    - [rational numbers](#org044b969)
+  - [custom parsing via grammars and regexs](#org6c63ba4)
+    - [regexps redesigned and cleaned up](#orge727786)
+    - [flexible pattern decomposition via grammars](#orgc6e0b3f)
+    - [raku uses these grammars to parse itself: they **have** to work well](#orgba60ba1)
+  - [very good object system](#orgf8e1ea0)
+    - [style similar to moose/moo](#org3df3087)
+    - [raku's design uses this extensively: "objects all the way down"](#org7d99994)
+  - [built-in type system](#org9e1e3e3)
+    - [strong typing is possible (though optional)](#org95dae75)
+    - [very useful for multidispatch](#orgde7c204)
+  - [cap (concurrency, asynchrony, parallelism)](#orga3725fd)
+    - [very convenient: might be the easiest to use of any language](#orgce8e496)
 
 
-<a id="org311eb40"></a>
+<a id="orgc83e688"></a>
 
 # What's good about Raku?
 
 
-<a id="org1d9de89"></a>
+<a id="org15127eb"></a>
 
 ## saner numerics built-in
 
 
-<a id="orgeba9e38"></a>
+<a id="orgb58e83e"></a>
 
 ### big integers
 
 
-<a id="org6a907aa"></a>
+<a id="org044b969"></a>
 
 ### rational numbers
 
 1.  reduce chances of floating-point weirdness
 
 
-<a id="orgc9ea67c"></a>
+<a id="org6c63ba4"></a>
 
 ## custom parsing via grammars and regexs
 
 
-<a id="org5a33002"></a>
+<a id="orge727786"></a>
 
 ### regexps redesigned and cleaned up
 
 
-<a id="orgbbfe6a2"></a>
+<a id="orgc6e0b3f"></a>
 
 ### flexible pattern decomposition via grammars
 
 1.  better than perl's interpolated qrs
 
 
-<a id="org5659d58"></a>
+<a id="orgba60ba1"></a>
 
 ### raku uses these grammars to parse itself: they **have** to work well
 
 
-<a id="orgff8cf7c"></a>
+<a id="orgf8e1ea0"></a>
 
 ## very good object system
 
 
-<a id="org039fa12"></a>
-
-### makes easy things easy
-
-
-<a id="org5a7fe89"></a>
+<a id="org3df3087"></a>
 
 ### style similar to moose/moo
 
 
-<a id="orgb0ea3c7"></a>
+<a id="org7d99994"></a>
 
 ### raku's design uses this extensively: "objects all the way down"
 
 1.  again: these **have** to perform well
 
 
-<a id="org89bbd50"></a>
+<a id="org9e1e3e3"></a>
 
 ## built-in type system
 
 
-<a id="org3608ccf"></a>
+<a id="org95dae75"></a>
 
 ### strong typing is possible (though optional)
 
 
-<a id="org7164b4f"></a>
+<a id="orgde7c204"></a>
 
 ### very useful for multidispatch
 
 
-<a id="org22ec1ad"></a>
+<a id="orga3725fd"></a>
 
 ## cap (concurrency, asynchrony, parallelism)
 
 
-<a id="orgb981104"></a>
+<a id="orgce8e496"></a>
 
 ### very convenient: might be the easiest to use of any language
