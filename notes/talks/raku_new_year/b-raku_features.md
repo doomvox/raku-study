@@ -1,120 +1,154 @@
-- [What's good about Raku?](#orgb273e88)
-  - [saner numerics built-in](#org73f1538)
-    - [big integers](#org1b7575d)
-    - [rational numbers](#org80da95e)
-  - [custom parsing via grammars and regexs](#orgffe4cc6)
-    - [regexps redesigned and cleaned up](#orgc95f4f8)
-    - [flexible pattern decomposition via grammars](#org1c83b45)
-    - [raku uses these grammars to parse itself: they **have** to work well](#org9119170)
-  - [very good object system](#orgc8268a9)
-    - [style similar to moose/moo](#org96611d0)
-    - [raku's design uses this extensively: "objects all the way down"](#org0693c48)
-  - [built-in type system](#orgf757fe7)
-    - [strong typing is possible (though optional)](#org14aecf4)
-    - [very useful for multidispatch](#org121d032)
-  - [cap (concurrency, asynchrony, parallelism)](#orgbe06568)
-    - [very convenient: might be the easiest to use of any language](#org1170a2b)
-  - [unicode](#org98fd759)
-    - [fully supported: defaults to treating glyphs as organic characters](#org7467d17)
-    - [speaks utf-8 by default (unlike perl)](#orge5259cb)
+- [What's good about Raku?](#org2961ed9)
+  - [saner numerics built-in](#org5c7d603)
+    - [big integers](#orgcb7007e)
+    - [rational numbers](#orgec77860)
+  - [custom parsing via grammars and regexs](#orgb02a154)
+    - [regexps redesigned and cleaned up](#org5eb99a8)
+    - [flexible pattern decomposition via grammars](#orgb7e92c8)
+    - [raku uses these grammars to parse itself: they **have** to work well](#org0684dc1)
+  - [very good object system](#org2e7a90c)
+    - [style similar to moose/moo](#orgab4a42c)
+    - [raku's design uses this extensively: "objects all the way down"](#org11e4ff2)
+  - [built-in type system](#orgefff251)
+    - [strong typing is possible (though optional)](#org39fdfd6)
+    - [very useful for multidispatch](#orgdd6f367)
+  - [cap (concurrency, asynchrony, parallelism)](#org98073a1)
+    - [very convenient: might be the easiest to use of any language](#org8a5eda6)
+  - [unicode](#orgbbf22ab)
+    - [fully supported: defaults to treating glyphs as organic characters](#orge15e220)
+    - [speaks utf-8 by default (unlike perl)](#org09ff4b7)
+- [Killer app?](#orgc66fd88)
+  - [no one "killer app" has emerged](#orge38977f)
+    - [but when perl5 was released no one expected it would be critical for](#orgd2120d8)
+  - [the design goal is to be useful for everything](#org0279bff)
+    - [contender for the "100 year language"](#org16b72fe)
 
 
-<a id="orgb273e88"></a>
+<a id="org2961ed9"></a>
 
 # What's good about Raku?
 
 
-<a id="org73f1538"></a>
+<a id="org5c7d603"></a>
 
 ## saner numerics built-in
 
 
-<a id="org1b7575d"></a>
+<a id="orgcb7007e"></a>
 
 ### big integers
 
 
-<a id="org80da95e"></a>
+<a id="orgec77860"></a>
 
 ### rational numbers
 
 1.  reduce chances of floating-point weirdness
 
 
-<a id="orgffe4cc6"></a>
+<a id="orgb02a154"></a>
 
 ## custom parsing via grammars and regexs
 
 
-<a id="orgc95f4f8"></a>
+<a id="org5eb99a8"></a>
 
 ### regexps redesigned and cleaned up
 
 
-<a id="org1c83b45"></a>
+<a id="orgb7e92c8"></a>
 
 ### flexible pattern decomposition via grammars
 
 1.  better than perl's interpolated qrs
 
 
-<a id="org9119170"></a>
+<a id="org0684dc1"></a>
 
 ### raku uses these grammars to parse itself: they **have** to work well
 
 
-<a id="orgc8268a9"></a>
+<a id="org2e7a90c"></a>
 
 ## very good object system
 
 
-<a id="org96611d0"></a>
+<a id="orgab4a42c"></a>
 
 ### style similar to moose/moo
 
 
-<a id="org0693c48"></a>
+<a id="org11e4ff2"></a>
 
 ### raku's design uses this extensively: "objects all the way down"
 
 1.  again: it **has** to perform well
 
 
-<a id="orgf757fe7"></a>
+<a id="orgefff251"></a>
 
 ## built-in type system
 
 
-<a id="org14aecf4"></a>
+<a id="org39fdfd6"></a>
 
 ### strong typing is possible (though optional)
 
 
-<a id="org121d032"></a>
+<a id="orgdd6f367"></a>
 
 ### very useful for multidispatch
 
 
-<a id="orgbe06568"></a>
+<a id="org98073a1"></a>
 
 ## cap (concurrency, asynchrony, parallelism)
 
 
-<a id="org1170a2b"></a>
+<a id="org8a5eda6"></a>
 
 ### very convenient: might be the easiest to use of any language
 
 
-<a id="org98fd759"></a>
+<a id="orgbbf22ab"></a>
 
 ## unicode
 
 
-<a id="org7467d17"></a>
+<a id="orge15e220"></a>
 
 ### fully supported: defaults to treating glyphs as organic characters
 
 
-<a id="orge5259cb"></a>
+<a id="org09ff4b7"></a>
 
 ### speaks utf-8 by default (unlike perl)
+
+
+<a id="orgc66fd88"></a>
+
+# Killer app?
+
+
+<a id="orge38977f"></a>
+
+## no one "killer app" has emerged
+
+
+<a id="orgd2120d8"></a>
+
+### but when perl5 was released no one expected it would be critical for
+
+1.  web 1.0
+
+2.  human genome project
+
+
+<a id="org0279bff"></a>
+
+## the design goal is to be useful for everything
+
+
+<a id="org16b72fe"></a>
+
+### contender for the "100 year language"
