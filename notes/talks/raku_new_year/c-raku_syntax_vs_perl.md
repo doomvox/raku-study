@@ -1,31 +1,33 @@
-- [raku syntax vs perl](#orgeb4cf56)
-  - [raku continues to have a perlish feel, but--](#org1872525)
-    - [object method calls via the more standard ".", not the "->"](#org229095e)
-    - [variable names typically have sigils still: $, @, %](#org1239573)
-    - [flattening](#org03b5cb0)
-    - [everything is an object](#org9211717)
-    - [a push for consistency](#orgb7679c5)
-    - [one-pass parsing](#org0514d72)
+- [raku syntax vs perl](#org7b2b205)
+  - [raku continues to have a perlish feel, but--](#org2b5349c)
+    - [object method calls via the more standard ".", not the "->"](#org75e4667)
+    - [variable names typically have sigils still: $, @, %](#org384b9b6)
+    - [flattening](#org3df60c4)
+    - [everything is an object](#orgdc28ce4)
+    - [a push for consistency](#orga4bac05)
+    - [one-pass parsing](#org99736eb)
 
 
-<a id="orgeb4cf56"></a>
+<a id="org7b2b205"></a>
 
 # raku syntax vs perl
 
 
-<a id="org1872525"></a>
+<a id="org2b5349c"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="org229095e"></a>
+<a id="org75e4667"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
-1.  string concationation is now "~" not "."
+1.  the default object for "." is $\_
+
+2.  string concationation is now "~" not "."
 
 
-<a id="org1239573"></a>
+<a id="org384b9b6"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -75,7 +77,7 @@
         1.  similar to perl's references: $ doesn't mean "single"
 
 
-<a id="org03b5cb0"></a>
+<a id="org3df60c4"></a>
 
 ### flattening
 
@@ -90,7 +92,7 @@
         my @residual | = @list (-) @exceptions; ## better to "slip" out of container
 
 
-<a id="org9211717"></a>
+<a id="orgdc28ce4"></a>
 
 ### everything is an object
 
@@ -99,14 +101,14 @@
 2.  though there are function forms for many methods
 
 
-<a id="orgb7679c5"></a>
+<a id="orga4bac05"></a>
 
 ### a push for consistency
 
 1.  e.g. {} almost always means a block of code
 
 
-<a id="org0514d72"></a>
+<a id="org99736eb"></a>
 
 ### one-pass parsing
 
