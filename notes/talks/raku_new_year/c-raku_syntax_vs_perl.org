@@ -29,10 +29,9 @@ say i + j:  ## 5
 ***** vars can contain immutables, bare constants without containers
 #+BEGIN_SRC raku
 my $mutie   = 'black_bolt';
-
 my $immutie := 'iron_man';
 
-say i + j:  ## 5
+
 #+END_SRC
 
 
