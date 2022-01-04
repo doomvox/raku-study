@@ -32,7 +32,6 @@ my $var           = 3;
 my $sorta_const  := 3;
 $var++;           ## Works
 $sorta_const++;   ## Error
-
 #+END_SRC
 
 

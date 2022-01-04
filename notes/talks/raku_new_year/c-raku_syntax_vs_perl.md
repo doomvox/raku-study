@@ -1,29 +1,29 @@
-- [raku syntax vs perl](#org39a8bb9)
-  - [raku continues to have a perlish feel, but--](#org23bec86)
-    - [object method calls via the more standard ".", not the "->"](#org586e63f)
-    - [variable names typically have sigils still: $, @, %](#org2793cde)
-    - [everything is an object](#org41f194e)
-    - [](#orge29b351)
+- [raku syntax vs perl](#org5fc1518)
+  - [raku continues to have a perlish feel, but--](#org232ed62)
+    - [object method calls via the more standard ".", not the "->"](#orgbc8a27c)
+    - [variable names typically have sigils still: $, @, %](#org20f8fee)
+    - [everything is an object](#org2abf130)
+    - [](#orge6b8fde)
 
 
-<a id="org39a8bb9"></a>
+<a id="org5fc1518"></a>
 
 # raku syntax vs perl
 
 
-<a id="org23bec86"></a>
+<a id="org232ed62"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="org586e63f"></a>
+<a id="orgbc8a27c"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
 1.  string concationation is now "~" not "."
 
 
-<a id="org2793cde"></a>
+<a id="org20f8fee"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -66,7 +66,7 @@
         ```
 
 
-<a id="org41f194e"></a>
+<a id="org2abf130"></a>
 
 ### everything is an object
 
@@ -75,6 +75,6 @@
 2.  though there are function forms for many methods
 
 
-<a id="orge29b351"></a>
+<a id="orge6b8fde"></a>
 
 ###
