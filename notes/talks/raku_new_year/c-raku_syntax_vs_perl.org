@@ -29,6 +29,13 @@ say i + j:  ## 5
 ***** vars can contain immutables, bare constants without containers
 
 
+my $mutie   = 'black_bolt;
+my $immutie := 'iron man';
+
+say i + j:  ## 5
+#+END_SRC
+
+
 
 *** everything is an object
 **** chains of method calls are common
