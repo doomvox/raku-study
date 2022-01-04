@@ -1,30 +1,31 @@
-- [raku syntax vs perl](#orgb91e5a2)
-  - [raku continues to have a perlish feel, but--](#org4044800)
-    - [object method calls via the more standard ".", not the "->"](#org9e69bd3)
-    - [variable names typically have sigils still: $, @, %](#orge07dc4d)
-    - [flattening](#orgd5f3b60)
-    - [everything is an object](#org895a57c)
-    - [a push for consistency](#org8bba98b)
+- [raku syntax vs perl](#orgeb4cf56)
+  - [raku continues to have a perlish feel, but--](#org1872525)
+    - [object method calls via the more standard ".", not the "->"](#org229095e)
+    - [variable names typically have sigils still: $, @, %](#org1239573)
+    - [flattening](#org03b5cb0)
+    - [everything is an object](#org9211717)
+    - [a push for consistency](#orgb7679c5)
+    - [one-pass parsing](#org0514d72)
 
 
-<a id="orgb91e5a2"></a>
+<a id="orgeb4cf56"></a>
 
 # raku syntax vs perl
 
 
-<a id="org4044800"></a>
+<a id="org1872525"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="org9e69bd3"></a>
+<a id="org229095e"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
 1.  string concationation is now "~" not "."
 
 
-<a id="orge07dc4d"></a>
+<a id="org1239573"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -74,7 +75,7 @@
         1.  similar to perl's references: $ doesn't mean "single"
 
 
-<a id="orgd5f3b60"></a>
+<a id="org03b5cb0"></a>
 
 ### flattening
 
@@ -89,7 +90,7 @@
         my @residual | = @list (-) @exceptions; ## better to "slip" out of container
 
 
-<a id="org895a57c"></a>
+<a id="org9211717"></a>
 
 ### everything is an object
 
@@ -98,6 +99,15 @@
 2.  though there are function forms for many methods
 
 
-<a id="org8bba98b"></a>
+<a id="orgb7679c5"></a>
 
 ### a push for consistency
+
+1.  e.g. {} almost always means a block of code
+
+
+<a id="org0514d72"></a>
+
+### one-pass parsing
+
+1.  unfortunate side effects e.g. if( $this ) { &#x2026; }
