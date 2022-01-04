@@ -7,3 +7,5 @@
     Joseph Brenner 
     http://obsidianrook.com/doomfiles
 
+    I run the SF Perl "Raku Study Group" (next one on January 16th)
+    https://www.meetup.com/San-Francisco-Perl/ 
