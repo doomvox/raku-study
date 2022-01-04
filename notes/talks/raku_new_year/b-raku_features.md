@@ -1,58 +1,58 @@
-- [What's good about Raku?](#orge023cc1)
-  - [saner numerics built-in](#orgd13df18)
-    - [big integers](#org1e6b7ef)
-    - [rational numbers](#org85235a1)
-  - [custom parsing via grammars and regexs](#org04321ca)
-    - [regexs redesigned and cleaned up](#orgc6b41c6)
-    - [flexible pattern decomposition via grammars](#org28b2dd0)
-    - [raku uses these grammars to parse itself: they **have** to work well](#org2684cdc)
-  - [](#org8901577)
+- [What's good about Raku?](#org420b4ef)
+  - [saner numerics built-in](#org7837d30)
+    - [big integers](#org5a1d084)
+    - [rational numbers](#org053a876)
+  - [custom parsing via grammars and regexs](#org0b3964f)
+    - [regexps redesigned and cleaned up](#org2a1839d)
+    - [flexible pattern decomposition via grammars](#org5285199)
+    - [raku uses these grammars to parse itself: they **have** to work well](#org4158c6e)
+  - [](#org93d89f2)
 
 
-<a id="orge023cc1"></a>
+<a id="org420b4ef"></a>
 
 # What's good about Raku?
 
 
-<a id="orgd13df18"></a>
+<a id="org7837d30"></a>
 
 ## saner numerics built-in
 
 
-<a id="org1e6b7ef"></a>
+<a id="org5a1d084"></a>
 
 ### big integers
 
 
-<a id="org85235a1"></a>
+<a id="org053a876"></a>
 
 ### rational numbers
 
 1.  reduce chances of floating-point weirdness
 
 
-<a id="org04321ca"></a>
+<a id="org0b3964f"></a>
 
 ## custom parsing via grammars and regexs
 
 
-<a id="orgc6b41c6"></a>
+<a id="org2a1839d"></a>
 
-### regexs redesigned and cleaned up
+### regexps redesigned and cleaned up
 
 
-<a id="org28b2dd0"></a>
+<a id="org5285199"></a>
 
 ### flexible pattern decomposition via grammars
 
 1.  better than perl's interpolated qrs
 
 
-<a id="org2684cdc"></a>
+<a id="org4158c6e"></a>
 
 ### raku uses these grammars to parse itself: they **have** to work well
 
 
-<a id="org8901577"></a>
+<a id="org93d89f2"></a>
 
 ##
