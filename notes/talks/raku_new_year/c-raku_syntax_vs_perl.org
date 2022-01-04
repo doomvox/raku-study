@@ -16,3 +16,7 @@ my %fried;
 %fried<eggs> = 2;
 #+END_SRC 
 **** you can also have names sans sigils (not done often)
+#+BEGIN_SRC raku
+my (\i, \j) = (2, 3);
+say i + j:
+#+END_SRC 
