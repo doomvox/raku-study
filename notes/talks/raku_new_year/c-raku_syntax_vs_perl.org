@@ -18,5 +18,5 @@ my %fried;
 **** you can also have names sans sigils (not done often)
 #+BEGIN_SRC raku
 my (\i, \j) = (2, 3);
-say i + j:
+say i + j:  ## 5
 #+END_SRC 
