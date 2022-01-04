@@ -1,29 +1,29 @@
-- [raku syntax vs perl](#org88f07ec)
-  - [raku continues to have a perlish feel, but--](#org5b40542)
-    - [object method calls via the more standard ".", not the "->"](#orge458985)
-    - [variable names typically have sigils still: $, @, %](#org08a28b4)
-    - [everything is an object](#orgb65aa15)
-    - [](#org598b319)
+- [raku syntax vs perl](#orged9b2db)
+  - [raku continues to have a perlish feel, but--](#org471fa82)
+    - [object method calls via the more standard ".", not the "->"](#orgcd088f6)
+    - [variable names typically have sigils still: $, @, %](#orge80b888)
+    - [everything is an object](#org2657095)
+    - [](#org3cb112e)
 
 
-<a id="org88f07ec"></a>
+<a id="orged9b2db"></a>
 
 # raku syntax vs perl
 
 
-<a id="org5b40542"></a>
+<a id="org471fa82"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="orge458985"></a>
+<a id="orgcd088f6"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
 1.  string concationation is now "~" not "."
 
 
-<a id="org08a28b4"></a>
+<a id="orge80b888"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -58,12 +58,15 @@
     
     2.  vars can contain immutables, bare constants without containers
     
-        my $mutie = 'black<sub>bolt</sub>; my $immutie := 'iron man';
+        ```raku
+        my $mutie   = 'black_bolt;
+        my $immutie := 'iron man';
         
-        say i + j: ## 5 \\#+END<sub>SRC</sub>
+        say i + j:  ## 5
+        ```
 
 
-<a id="orgb65aa15"></a>
+<a id="org2657095"></a>
 
 ### everything is an object
 
@@ -72,6 +75,6 @@
 2.  though there are function forms for many methods
 
 
-<a id="org598b319"></a>
+<a id="org3cb112e"></a>
 
 ###
