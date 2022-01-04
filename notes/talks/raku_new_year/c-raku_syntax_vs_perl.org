@@ -30,10 +30,8 @@ say i + j:  ## 5
 #+BEGIN_SRC raku
 my $var           = 3;
 my $sorta_const  := 3;
-
-
-
-
+$var++;           ## Works
+$sorta_const++;   ## Error
 
 #+END_SRC
 
