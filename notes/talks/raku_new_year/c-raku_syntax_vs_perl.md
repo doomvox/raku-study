@@ -1,42 +1,44 @@
-- [raku syntax vs perl](#orgf2d390d)
-  - [raku continues to have a perlish feel, but--](#org8a1ab32)
-    - [object method calls via the more standard ".", not the "->"](#orgd494a30)
-    - [variable names typically have sigils still: $, @, %](#org9e2eb91)
+- [raku syntax vs perl](#orgda00dfc)
+  - [raku continues to have a perlish feel, but--](#orgd828064)
+    - [object method calls via the more standard ".", not the "->"](#org652801b)
+    - [variable names typically have sigils still: $, @, %](#org642354a)
 
 
-<a id="orgf2d390d"></a>
+<a id="orgda00dfc"></a>
 
 # raku syntax vs perl
 
 
-<a id="org8a1ab32"></a>
+<a id="orgd828064"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="orgd494a30"></a>
+<a id="org652801b"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
 1.  string concationation is now "~" not "."
 
 
-<a id="org9e2eb91"></a>
+<a id="org642354a"></a>
 
 ### variable names typically have sigils still: $, @, %
 
 1.  the @ and % sigils now behave like part of the name, they're invariant:
 
-    ```perl
-    # Perl
-    my %fried;
-    $fried{eggs} = 2;
-    ```
+    1.  Perl
     
-    ```raku
-    # Raku
-    my %fried;
-    %fried<eggs> = 2;
-    ```
+        ```perl
+        my %fried;
+        $fried{eggs} = 2;
+        ```
+    
+    2.  Raku
+    
+        ```raku
+        my %fried;
+        %fried<eggs> = 2;
+        ```
 
 2.  you can have names sans sigils

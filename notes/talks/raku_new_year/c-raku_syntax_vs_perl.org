@@ -4,13 +4,13 @@
 **** string concationation is now "~" not "."
 *** variable names typically have sigils still: $, @, %
 **** the @ and % sigils now behave like part of the name, they're invariant:
+***** Perl
 #+BEGIN_SRC perl
-# Perl
 my %fried;
 $fried{eggs} = 2;
 #+END_SRC 
+***** Raku
 #+BEGIN_SRC raku
-# Raku
 my %fried;
 %fried<eggs> = 2;
 #+END_SRC 
