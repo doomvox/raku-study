@@ -19,5 +19,7 @@ my %fried;
 #+BEGIN_SRC raku
 my (\i, \j) = (2, 3);
 say i + j:  ## 5
-#+END_SRC 
-
+#+END_SRC
+*** everything is an object
+**** chains of method calls are common
+**** though there are function forms for many methods 
