@@ -1,24 +1,26 @@
-- [What's good about Raku?](#orga026788)
-  - [saner numerics built-in](#org22ea4b4)
-    - [big integers](#org0559e51)
-    - [rational numbers reduce chances of floating-point weirdness](#org250ec5b)
+- [What's good about Raku?](#orga13d80d)
+  - [saner numerics built-in](#org439996b)
+    - [big integers](#org419da8a)
+    - [rational numbers](#orge9f3cc3)
 
 
-<a id="orga026788"></a>
+<a id="orga13d80d"></a>
 
 # What's good about Raku?
 
 
-<a id="org22ea4b4"></a>
+<a id="org439996b"></a>
 
 ## saner numerics built-in
 
 
-<a id="org0559e51"></a>
+<a id="org419da8a"></a>
 
 ### big integers
 
 
-<a id="org250ec5b"></a>
+<a id="orge9f3cc3"></a>
 
-### rational numbers reduce chances of floating-point weirdness
+### rational numbers
+
+1.  reduce chances of floating-point weirdness

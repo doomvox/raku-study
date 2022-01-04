@@ -1,4 +1,5 @@
 * What's good about Raku?
 ** saner numerics built-in
 *** big integers 
-*** rational numbers reduce chances of floating-point weirdness
+*** rational numbers
+****  reduce chances of floating-point weirdness
