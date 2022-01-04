@@ -1,24 +1,24 @@
-- [raku syntax vs perl](#org7b2b205)
-  - [raku continues to have a perlish feel, but--](#org2b5349c)
-    - [object method calls via the more standard ".", not the "->"](#org75e4667)
-    - [variable names typically have sigils still: $, @, %](#org384b9b6)
-    - [flattening](#org3df60c4)
-    - [everything is an object](#orgdc28ce4)
-    - [a push for consistency](#orga4bac05)
-    - [one-pass parsing](#org99736eb)
+- [raku syntax vs perl](#orgd41072e)
+  - [raku continues to have a perlish feel, but--](#orgf332e43)
+    - [object method calls via the more standard ".", not the "->"](#org787a515)
+    - [variable names typically have sigils still: $, @, %](#orga5081c7)
+    - [flattening](#org2ef819f)
+    - [everything is an object](#org1325157)
+    - [a push for consistency](#org8aa2948)
+    - [one-pass parsing](#org2ba1cb2)
 
 
-<a id="org7b2b205"></a>
+<a id="orgd41072e"></a>
 
 # raku syntax vs perl
 
 
-<a id="org2b5349c"></a>
+<a id="orgf332e43"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="org75e4667"></a>
+<a id="org787a515"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
@@ -27,7 +27,7 @@
 2.  string concationation is now "~" not "."
 
 
-<a id="org384b9b6"></a>
+<a id="orga5081c7"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -64,6 +64,7 @@
     
         ```raku
         my $var           = 3;
+        
         my $sorta_const  := 3;
         $var++;           ## Works
         $sorta_const++;   ## Error
@@ -77,7 +78,7 @@
         1.  similar to perl's references: $ doesn't mean "single"
 
 
-<a id="org3df60c4"></a>
+<a id="org2ef819f"></a>
 
 ### flattening
 
@@ -92,7 +93,7 @@
         my @residual | = @list (-) @exceptions; ## better to "slip" out of container
 
 
-<a id="orgdc28ce4"></a>
+<a id="org1325157"></a>
 
 ### everything is an object
 
@@ -101,14 +102,14 @@
 2.  though there are function forms for many methods
 
 
-<a id="orga4bac05"></a>
+<a id="org8aa2948"></a>
 
 ### a push for consistency
 
 1.  e.g. {} almost always means a block of code
 
 
-<a id="org99736eb"></a>
+<a id="org2ba1cb2"></a>
 
 ### one-pass parsing
 

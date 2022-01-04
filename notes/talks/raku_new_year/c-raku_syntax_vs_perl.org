@@ -30,6 +30,7 @@ say i + j:  ## 5
 ***** vars can contain immutables, bare constants without containers
 #+BEGIN_SRC raku
 my $var           = 3;
+
 my $sorta_const  := 3;
 $var++;           ## Works
 $sorta_const++;   ## Error
