@@ -34,10 +34,13 @@ my $var           = 3;
 my $sorta_const  := 3;
 $var++;           ## Works
 $sorta_const++;   ## Error
-
-my $alias  :=  $var;  
-$alias++;  ## increments $var also
 #+END_SRC
+***** binding operator can create aliases: here $var is incremented too
+#+BEGIN_SRC raku
+my $alias  :=  $var;  
+$alias++;  
+#+END_SRC
+
 ***** a 'scalar' can contain any object, including an aggregate (array, hash, etc)
 ****** similar to perl's references: $ doesn't mean "single"
 
