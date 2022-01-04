@@ -3,3 +3,8 @@
 *** big integers 
 *** rational numbers
 ****  reduce chances of floating-point weirdness
+** custom parsing via grammars and regexs
+*** regexs redesigned, cleaned up
+*** flexible pattern decomposition via grammars
+**** better than perl's interpolated qrs
+*** raku uses these grammars to parse itself: they *have* to work well
