@@ -43,4 +43,5 @@ $alias++;  ## increments $var also
 *** everything is an object
 **** chains of method calls are common
 **** though there are function forms for many methods
-*** 
+
+*** a push for consistency
