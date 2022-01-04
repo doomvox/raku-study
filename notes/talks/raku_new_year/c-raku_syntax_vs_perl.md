@@ -1,25 +1,25 @@
-- [raku syntax vs perl](#org2e87b48)
-  - [raku continues to have a perlish feel, but--](#org0d29760)
-    - [object method calls via the more standard ".", not the "->"](#orgd746c0b)
-    - [variable names typically have sigils still: $, @, %](#org33b47d7)
-    - [flattening](#org5b77477)
-    - [everything is an object](#org2b305f3)
-    - [scalar and list context have gone away in Raku](#org9b0d5c6)
-    - [a push for consistency](#orge59b3b1)
-    - [one-pass parsing](#org81b1caa)
+- [raku syntax vs perl](#orgef85347)
+  - [raku continues to have a perlish feel, but--](#org6df3351)
+    - [object method calls via the more standard ".", not the "->"](#org263f25c)
+    - [variable names typically have sigils still: $, @, %](#org836b60b)
+    - [flattening](#org53e5989)
+    - [everything is an object](#orga214283)
+    - [scalar and list context have gone away in Raku](#orgd80c90f)
+    - [a push for consistency](#orgebc2a98)
+    - [one-pass parsing](#orgd29c045)
 
 
-<a id="org2e87b48"></a>
+<a id="orgef85347"></a>
 
 # raku syntax vs perl
 
 
-<a id="org0d29760"></a>
+<a id="org6df3351"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="orgd746c0b"></a>
+<a id="org263f25c"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
@@ -28,7 +28,7 @@
 2.  string concationation is now "~" not "."
 
 
-<a id="org33b47d7"></a>
+<a id="org836b60b"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -79,7 +79,7 @@
         1.  similar to perl's references: $ doesn't mean "single"
 
 
-<a id="org5b77477"></a>
+<a id="org53e5989"></a>
 
 ### flattening
 
@@ -94,7 +94,7 @@
         my @residual | = @list (-) @exceptions; ## better to "slip" out of container
 
 
-<a id="org2b305f3"></a>
+<a id="orga214283"></a>
 
 ### everything is an object
 
@@ -107,22 +107,22 @@
     1.  helps to have a type system
 
 
-<a id="org9b0d5c6"></a>
+<a id="orgd80c90f"></a>
 
 ### scalar and list context have gone away in Raku
 
 1.  but many operators do implied type-conversion, which feels perlish
 
 
-<a id="orge59b3b1"></a>
+<a id="orgebc2a98"></a>
 
 ### a push for consistency
 
 1.  e.g. {} almost always means a block of code
 
 
-<a id="org81b1caa"></a>
+<a id="orgd29c045"></a>
 
 ### one-pass parsing
 
-1.  unfortunate side effects e.g. if( $this ) { &#x2026; }
+1.  unfortunate side effects e.g. this is no good: if( $this ) { &#x2026; }

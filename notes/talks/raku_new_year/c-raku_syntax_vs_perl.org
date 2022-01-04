@@ -63,4 +63,4 @@ my @residual | = @list (-) @exceptions; ## better to "slip" out of container
 *** a push for consistency
 **** e.g. {} almost always means a block of code 
 *** one-pass parsing
-**** unfortunate side effects e.g. if( $this ) { ... }
+**** unfortunate side effects e.g. this is no good: if( $this ) { ... }
