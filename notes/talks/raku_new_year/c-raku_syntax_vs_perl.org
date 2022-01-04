@@ -22,5 +22,8 @@ say i + j:  ## 5
 #+END_SRC
 *** everything is an object
 **** chains of method calls are common
-**** though there are function forms for many methods 
 
+
+
+**** there are function forms for many methods
+*** 
