@@ -1,29 +1,29 @@
-- [raku syntax vs perl](#orgdf8934c)
-  - [raku continues to have a perlish feel, but--](#orgd2df85f)
-    - [object method calls via the more standard ".", not the "->"](#orgac4aca6)
-    - [variable names typically have sigils still: $, @, %](#org8abc342)
-    - [everything is an object](#org2f08e92)
-    - [](#orgb5f170d)
+- [raku syntax vs perl](#orge011602)
+  - [raku continues to have a perlish feel, but--](#org30afa5d)
+    - [object method calls via the more standard ".", not the "->"](#org9789de5)
+    - [variable names typically have sigils still: $, @, %](#org84a5227)
+    - [everything is an object](#org182f24f)
+    - [](#org561830b)
 
 
-<a id="orgdf8934c"></a>
+<a id="orge011602"></a>
 
 # raku syntax vs perl
 
 
-<a id="orgd2df85f"></a>
+<a id="org30afa5d"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="orgac4aca6"></a>
+<a id="org9789de5"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
 1.  string concationation is now "~" not "."
 
 
-<a id="org8abc342"></a>
+<a id="org84a5227"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -63,6 +63,9 @@
         my $sorta_const  := 3;
         $var++;           ## Works
         $sorta_const++;   ## Error
+        
+        my $alias  :=  $var;  
+        $alias++;  ## increments $var also
         ```
     
     3.  a 'scalar' can contain any object, including an aggregate (array, hash, etc)
@@ -70,7 +73,7 @@
         1.  similar to perl's references: $ doesn't mean "single"
 
 
-<a id="org2f08e92"></a>
+<a id="org182f24f"></a>
 
 ### everything is an object
 
@@ -79,6 +82,6 @@
 2.  though there are function forms for many methods
 
 
-<a id="orgb5f170d"></a>
+<a id="org561830b"></a>
 
 ###
