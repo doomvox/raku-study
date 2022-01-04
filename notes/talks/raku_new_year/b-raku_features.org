@@ -16,3 +16,5 @@
 ** built-in type system
 *** strong typing is possible (though optional)
 *** very useful for multidispatch
+** cap (concurrency, asynchrony, parallelism)
+*** very convenient: might be the easiest to use of any language
