@@ -1,29 +1,29 @@
-- [raku syntax vs perl](#org4089f4d)
-  - [raku continues to have a perlish feel, but--](#orgd2ed6df)
-    - [object method calls via the more standard ".", not the "->"](#orge0e88d8)
-    - [variable names typically have sigils still: $, @, %](#org7ffa0cb)
-    - [everything is an object](#org14e5858)
-    - [](#org4ec85e4)
+- [raku syntax vs perl](#orgae98194)
+  - [raku continues to have a perlish feel, but--](#orgce3381e)
+    - [object method calls via the more standard ".", not the "->"](#orgf26a1c8)
+    - [variable names typically have sigils still: $, @, %](#org1779110)
+    - [everything is an object](#orgfbc4ad3)
+    - [](#org0a17ec1)
 
 
-<a id="org4089f4d"></a>
+<a id="orgae98194"></a>
 
 # raku syntax vs perl
 
 
-<a id="orgd2ed6df"></a>
+<a id="orgce3381e"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="orge0e88d8"></a>
+<a id="orgf26a1c8"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
 1.  string concationation is now "~" not "."
 
 
-<a id="org7ffa0cb"></a>
+<a id="org1779110"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -52,8 +52,14 @@
     say i + j:  ## 5
     ```
 
+3.  containers
 
-<a id="org14e5858"></a>
+    1.  typical vars are mutable, and have invisible "containers"
+    
+    2.  vars can contain immutables, bare constants without containers
+
+
+<a id="orgfbc4ad3"></a>
 
 ### everything is an object
 
@@ -62,6 +68,6 @@
 2.  though there are function forms for many methods
 
 
-<a id="org4ec85e4"></a>
+<a id="org0a17ec1"></a>
 
 ###

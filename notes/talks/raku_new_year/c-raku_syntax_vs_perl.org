@@ -23,6 +23,13 @@ my %fried;
 my (\i, \j) = (2, 3);
 say i + j:  ## 5
 #+END_SRC
+
+**** containers
+***** typical vars are mutable, and have invisible "containers"
+***** vars can contain immutables, bare constants without containers
+
+
+
 *** everything is an object
 **** chains of method calls are common
 **** though there are function forms for many methods
