@@ -28,8 +28,9 @@ say i + j:  ## 5
 ***** typical vars are mutable, and have invisible "containers"
 ***** vars can contain immutables, bare constants without containers
 #+BEGIN_SRC raku
-my $mutie    = 'black_bolt';
-my $immutie := 'iron_man';
+my $var           = 3;
+my $sorta_const  := 3;
+
 
 
 
