@@ -2,4 +2,4 @@
 
                                             Januray 6, 2022
 
-    Doing Cool-- and not so Cool-- Stuff with Raku
+    Doing Cool and/or Useful Stuff with Raku
