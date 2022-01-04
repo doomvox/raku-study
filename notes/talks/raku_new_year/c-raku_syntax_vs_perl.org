@@ -1,2 +1,17 @@
 * raku syntax vs perl
-** 
+** raku continues to have a perlish feel, but--
+*** object method calls via the more standard ".", not the "->"
+**** string concationation is now "~" not "."
+*** variable names typically have sigils still: $, @, %
+**** the @ and % sigils now behave like part of the name, they're invariant:
+#+BEGIN_SRC perl
+my %fried;
+$fried{eggs} = 2;
+#+END_SRC 
+#+BEGIN_SRC raku
+my %fried;
+%fried<eggs> = 2;
+#+END_SRC 
+
+
+**** you can have names sans sigils
