@@ -13,3 +13,6 @@
 *** style similar to moose/moo
 *** raku's design uses this extensively: "objects all the way down"
 **** again: these *have* to perform well
+** built-in type system
+*** strong typing is possible (though optional)
+*** very useful for multidispatch
