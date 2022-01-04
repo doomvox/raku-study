@@ -34,9 +34,6 @@
     ( f . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/t/03-dualmap_codeblocks.t" )
     ( g . "/home/doom/End/Cave/DualMap/bin/perl_sort_demo.pl" )
     ( h . "/home/doom/End/Cave/DualMap/Notes/raku_bits_from_dualmap.org" )
-;;    ( I . "" )
-
-    ( Z . "/home/doom/Dust/Images/Superflat/" )
 
    ))
 
