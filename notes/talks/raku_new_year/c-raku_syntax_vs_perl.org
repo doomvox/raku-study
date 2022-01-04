@@ -34,7 +34,7 @@ $var++;           ## Works
 $sorta_const++;   ## Error
 #+END_SRC
 ***** a 'scalar' can contain any object, including an aggregate (array, hash, etc)
-****** similar to perl's references 
+****** similar to perl's references: $ doesn't mean "single"
 
 
 *** everything is an object
