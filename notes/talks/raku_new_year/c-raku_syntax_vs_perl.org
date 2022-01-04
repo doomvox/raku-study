@@ -5,10 +5,12 @@
 *** variable names typically have sigils still: $, @, %
 **** the @ and % sigils now behave like part of the name, they're invariant:
 #+BEGIN_SRC perl
+# Perl
 my %fried;
 $fried{eggs} = 2;
 #+END_SRC 
 #+BEGIN_SRC raku
+# Raku
 my %fried;
 %fried<eggs> = 2;
 #+END_SRC 
