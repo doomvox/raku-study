@@ -26,7 +26,7 @@
 (setq slip-and-slide-alist ;; A -> H   J   L -> O
   '(
 
-
+    ( a . "/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/raku_new_year/title_page.txt" )
 
     ( m . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/lib/Data/Qualify.rakumod" )
     ( n . "/home/doom/End/Cave/DualMap/Wall/Data-MapDual/lib/Data/Dualmap.rakumod" )
