@@ -1,25 +1,25 @@
-- [raku syntax vs perl](#org421ae3d)
-  - [raku continues to have a perlish feel, but--](#org944421b)
-    - [object method calls via the more standard ".", not the "->"](#orga443de2)
-    - [variable names typically have sigils still: $, @, %](#org6927b00)
-    - [flattening](#org29d3186)
-    - [everything is an object](#org1e34a0d)
-    - [scalar and list context have gone away in Raku](#orga6bbada)
-    - [a push for consistency](#orgf399b7f)
-    - [one-pass parsing](#org59884e9)
+- [raku syntax vs perl](#orgea2d8f0)
+  - [raku continues to have a perlish feel, but--](#org23866ee)
+    - [object method calls via the more standard ".", not the "->"](#org8e21515)
+    - [variable names typically have sigils still: $, @, %](#org5a5e867)
+    - [flattening](#org984db7a)
+    - [everything is an object](#orgecee5bf)
+    - [scalar and list context have gone away in Raku](#org47cf744)
+    - [a push for consistency](#org6788823)
+    - [one-pass parsing](#org14d9b63)
 
 
-<a id="org421ae3d"></a>
+<a id="orgea2d8f0"></a>
 
 # raku syntax vs perl
 
 
-<a id="org944421b"></a>
+<a id="org23866ee"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="orga443de2"></a>
+<a id="org8e21515"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
@@ -28,7 +28,7 @@
 2.  string concationation is now "~" not "."
 
 
-<a id="org6927b00"></a>
+<a id="org5a5e867"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -83,7 +83,7 @@
         1.  similar to perl's references: $ doesn't mean "singular"
 
 
-<a id="org29d3186"></a>
+<a id="org984db7a"></a>
 
 ### flattening
 
@@ -100,7 +100,7 @@
     2.  a few ways to flatten: ".flat", slip operator "|"
 
 
-<a id="org1e34a0d"></a>
+<a id="orgecee5bf"></a>
 
 ### everything is an object
 
@@ -113,21 +113,21 @@
     1.  helps to have a type system
 
 
-<a id="orga6bbada"></a>
+<a id="org47cf744"></a>
 
 ### scalar and list context have gone away in Raku
 
 1.  but many operators do implied type-conversion, which feels perlish
 
 
-<a id="orgf399b7f"></a>
+<a id="org6788823"></a>
 
 ### a push for consistency
 
 1.  e.g. {} almost always means a block of code
 
 
-<a id="org59884e9"></a>
+<a id="org14d9b63"></a>
 
 ### one-pass parsing
 
