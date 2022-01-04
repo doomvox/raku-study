@@ -1,30 +1,30 @@
-- [raku syntax vs perl](#org4537c1a)
-  - [raku continues to have a perlish feel, but--](#org143b672)
-    - [object method calls via the more standard ".", not the "->"](#org402a750)
-    - [variable names typically have sigils still: $, @, %](#org3645e2e)
-    - [flattening](#orgf6aeae8)
-    - [everything is an object](#orgf260afc)
-    - [a push for consistency](#org882e8ec)
+- [raku syntax vs perl](#orgb91e5a2)
+  - [raku continues to have a perlish feel, but--](#org4044800)
+    - [object method calls via the more standard ".", not the "->"](#org9e69bd3)
+    - [variable names typically have sigils still: $, @, %](#orge07dc4d)
+    - [flattening](#orgd5f3b60)
+    - [everything is an object](#org895a57c)
+    - [a push for consistency](#org8bba98b)
 
 
-<a id="org4537c1a"></a>
+<a id="orgb91e5a2"></a>
 
 # raku syntax vs perl
 
 
-<a id="org143b672"></a>
+<a id="org4044800"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="org402a750"></a>
+<a id="org9e69bd3"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
 1.  string concationation is now "~" not "."
 
 
-<a id="org3645e2e"></a>
+<a id="orge07dc4d"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -74,7 +74,7 @@
         1.  similar to perl's references: $ doesn't mean "single"
 
 
-<a id="orgf6aeae8"></a>
+<a id="orgd5f3b60"></a>
 
 ### flattening
 
@@ -82,8 +82,14 @@
 
 2.  in raku, nested structures are preserved, unless you do something
 
+    1.  
+    
+        my @residual = @list (-) @exceptions; ## weak: first element in array contains result
+        
+        my @residual | = @list (-) @exceptions; ## better to "slip" out of container
 
-<a id="orgf260afc"></a>
+
+<a id="org895a57c"></a>
 
 ### everything is an object
 
@@ -92,6 +98,6 @@
 2.  though there are function forms for many methods
 
 
-<a id="org882e8ec"></a>
+<a id="org8bba98b"></a>
 
 ### a push for consistency

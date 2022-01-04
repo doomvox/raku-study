@@ -43,6 +43,12 @@ $alias++;  ## increments $var also
 **** in perl, nested lists flatten out unless you do something
 **** in raku, nested structures are preserved, unless you do something
 
+***** 
+my @residual   = @list (-) @exceptions; ## weak: first element in array contains result
+
+my @residual | = @list (-) @exceptions; ## better to "slip" out of container
+
+
 *** everything is an object
 **** chains of method calls are common
 **** though there are function forms for many methods
