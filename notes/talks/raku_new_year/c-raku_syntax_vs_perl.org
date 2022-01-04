@@ -52,7 +52,7 @@ $alias++;
 my @residual   = @list (-) @exceptions; ## weak: first element in array contains result
 
 my @residual | = @list (-) @exceptions; ## better to "slip" out of container
-
+***** a few ways to flatten: ".flat", slip operator "|"
 
 *** everything is an object
 **** chains of method calls are common
