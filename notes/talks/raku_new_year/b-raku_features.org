@@ -17,3 +17,6 @@
 *** very useful for multidispatch
 ** cap (concurrency, asynchrony, parallelism)
 *** very convenient: might be the easiest to use of any language
+** unicode
+*** fully supported: defaults to treating glyphs as organic characters
+*** speaks utf-8 by default (unlike perl)
