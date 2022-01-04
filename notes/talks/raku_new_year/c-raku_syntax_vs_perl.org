@@ -39,7 +39,7 @@ $alias++;  ## increments $var also
 ***** a 'scalar' can contain any object, including an aggregate (array, hash, etc)
 ****** similar to perl's references: $ doesn't mean "single"
 
-*** list flattening
+*** flattening
 **** in perl, nested lists flatten out unless you do something
 **** in raku, nested structures are preserved, unless you do something
 
