@@ -1,24 +1,25 @@
-- [raku syntax vs perl](#orgd41072e)
-  - [raku continues to have a perlish feel, but--](#orgf332e43)
-    - [object method calls via the more standard ".", not the "->"](#org787a515)
-    - [variable names typically have sigils still: $, @, %](#orga5081c7)
-    - [flattening](#org2ef819f)
-    - [everything is an object](#org1325157)
-    - [a push for consistency](#org8aa2948)
-    - [one-pass parsing](#org2ba1cb2)
+- [raku syntax vs perl](#org2e87b48)
+  - [raku continues to have a perlish feel, but--](#org0d29760)
+    - [object method calls via the more standard ".", not the "->"](#orgd746c0b)
+    - [variable names typically have sigils still: $, @, %](#org33b47d7)
+    - [flattening](#org5b77477)
+    - [everything is an object](#org2b305f3)
+    - [scalar and list context have gone away in Raku](#org9b0d5c6)
+    - [a push for consistency](#orge59b3b1)
+    - [one-pass parsing](#org81b1caa)
 
 
-<a id="orgd41072e"></a>
+<a id="org2e87b48"></a>
 
 # raku syntax vs perl
 
 
-<a id="orgf332e43"></a>
+<a id="org0d29760"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="org787a515"></a>
+<a id="orgd746c0b"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
@@ -27,7 +28,7 @@
 2.  string concationation is now "~" not "."
 
 
-<a id="orga5081c7"></a>
+<a id="org33b47d7"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -78,7 +79,7 @@
         1.  similar to perl's references: $ doesn't mean "single"
 
 
-<a id="org2ef819f"></a>
+<a id="org5b77477"></a>
 
 ### flattening
 
@@ -93,7 +94,7 @@
         my @residual | = @list (-) @exceptions; ## better to "slip" out of container
 
 
-<a id="org1325157"></a>
+<a id="org2b305f3"></a>
 
 ### everything is an object
 
@@ -101,15 +102,26 @@
 
 2.  though there are function forms for many methods
 
+3.  smartmatch and given/when can work
 
-<a id="org8aa2948"></a>
+    1.  helps to have a type system
+
+
+<a id="org9b0d5c6"></a>
+
+### scalar and list context have gone away in Raku
+
+1.  but many operators do implied type-conversion, which feels perlish
+
+
+<a id="orge59b3b1"></a>
 
 ### a push for consistency
 
 1.  e.g. {} almost always means a block of code
 
 
-<a id="org2ba1cb2"></a>
+<a id="org81b1caa"></a>
 
 ### one-pass parsing
 
