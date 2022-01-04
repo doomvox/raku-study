@@ -14,7 +14,7 @@ $fried{eggs} = 2;
 #+BEGIN_SRC raku
 my %fried;
 %fried<eggs> = 2;
-# or alternately
+# alternately
 %fried{'eggs'} = 2;
 #+END_SRC 
 **** you can also have names sans sigils (not done often)
