@@ -26,7 +26,6 @@ for $file.IO.lines.grep({ ! /^END/ or last }) {
 } # kong
 
 say "===";
-
 .say for $file.IO.lines.grep({ last if /^END/; True }).grep(/^g/);
 # godzilla
 # ghidora
