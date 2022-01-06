@@ -7,6 +7,20 @@
 use v6;
 
 my $file = "/home/doom/tmp/monsters.txt";
+## monsters.txt at present:
+## 
+# godzilla
+# ghidora
+# mothera
+# gammera
+# frankenstein
+# wolfman
+# kong
+# END
+# gillman
+# tingler
+# blob
+# zuckerberg
 
 for $file.IO.lines.grep({ ! /^END/ or last }) {
     .say if /^k/;
@@ -25,20 +39,6 @@ for $file.IO.lines.grep({ !/^END/ or last }) {
 say "===";
 
 
-## monsters.txt at present:
-## 
-# godzilla
-# ghidora
-# mothera
-# gammera
-# frankenstein
-# wolfman
-# kong
-# END
-# gillman
-# tingler
-# blob
-# zuckerberg
 
 
 
