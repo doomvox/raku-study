@@ -33,8 +33,8 @@
 **** getting sets to DWIM
 https://donaldh.wtf/2021/01/if-sets-would-dwim/
 
-*** bill had questions about exceptions to non-mutating operations
-**** push, pop
+*** bill had questions about mutating operations
+**** push, pop, ++
 
 ** announcments 
 *** January 6th: svlug: I'll be talking about Raku
