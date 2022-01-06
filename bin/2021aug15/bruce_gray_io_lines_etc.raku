@@ -7,8 +7,7 @@
 use v6;
 
 my $file = "/home/doom/tmp/monsters.txt";
-## monsters.txt at present:
-## 
+## contains:
 # godzilla
 # ghidora
 # mothera
