@@ -28,7 +28,6 @@ my @expected = (
     # [{name => alpha, val => 11} {name => beta, val => 12} {name => gamma, val => 13} ]
     is-deeply( @new_data, @expected,
                "Testing that deepmap with explicit non-numeric pass-through works" );
-
 }
 
 { 
