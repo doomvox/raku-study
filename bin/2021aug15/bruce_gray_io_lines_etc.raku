@@ -33,12 +33,14 @@ say "===";
 
 
 say "===";
-
 for $file.IO.lines.grep({ !/^END/ or last }) {
     .say if /^g/;
 }
+# godzilla
+# ghidora
+# gammera
 
-say "===";
+
 
 
 
