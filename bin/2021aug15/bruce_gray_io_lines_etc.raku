@@ -3,7 +3,7 @@
 # bruce_gray_io_lines_etc.raku            15 Aug 2021 
 
 ## fixing some small bugs bugs in bruce grey's slides
-## (lightning talk "can't be this easy", find link)
+## (lightning talk: "can't be this easy", find link)
 
 use v6;
 
