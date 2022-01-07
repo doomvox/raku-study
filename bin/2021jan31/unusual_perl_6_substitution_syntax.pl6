@@ -2,7 +2,6 @@
 # 
 # unusual_perl_6_substitution_syntax.pl6            11 Aug 2019 
 
-
 use v6;
 
 ### perl 5 example:
