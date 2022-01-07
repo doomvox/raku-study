@@ -1,0 +1,19 @@
+* Raku Videos
+** Leon Timmermans, "Raku syntax I miss in other languages', Jun 8, 2021
+*** https://www.youtube.com/watch?v=elalwvfmYgk
+*** Hyperoperators, Junctions, etc
+ 
+** Elizabeth Mattjsen - "Raku - Sets without Borders", Jul 17, 2021
+*** https://www.youtube.com/watch?v=ymyFchbu_GQ
+*** set operators Just Work with arrays, hashes, etc
+
+** Jonathan Worthington on CAP ("Concurrency, Asynchrony, Parallelism")
+*** "Concurrency, Parallelism and Asynchrony: Perl 6 plotting and prototyping", Sep 10, 2013
+**** https://www.youtube.com/watch?v=xg8tAv35YFg
+*** "Parallelism, Concurrency, and Asynchrony in Perl 6", Aug 27, 2015
+**** https://www.youtube.com/watch?v=JpqnNCx7wVY
+
+** Larry Wall, Keynote: Erlang & Elixir Factory San Francisco, Mar 24, 2017
+*** https://www.youtube.com/watch?v=SpH9BTMZKXc
+
+

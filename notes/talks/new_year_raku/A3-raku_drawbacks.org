@@ -1,0 +1,16 @@
+* Drawbacks
+** start-up speed is slow
+*** but Jonathan Worthington is on it
+**** the "new AST project"
+** language is huge
+*** getting started not too bad, becoming expert can take long
+** experts vs newbies
+*** the insiders have been on this for decades
+*** many disputes, albiet minor ones: is an error message confusing, documentation sketchy?
+**** peeve: code examples that don't stay on point, always want to show all the features
+***** (but please don't expect much better from me)
+** project setup/design
+*** reservations about "the tests are the spec"
+**** opinion: the tests are the tests-- resist mission creep
+*** "OOP all the way down" => no clear boundary between internals and externals
+

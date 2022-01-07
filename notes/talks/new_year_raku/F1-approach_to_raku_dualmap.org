@@ -1,0 +1,28 @@
+* Some early thoughts on doing Data::Math in Raku
+** rummaging around in the raku toolbox
+*** introspection features are built-in
+**** perl: "ref", "reftype" 
+**** raku: .WHAT, .^name, .^mro
+*** you can loop over keys/values
+**** .keys  .values  .kv  
+*** how to do looks_like_number in raku?
+**** You can try to convert it: call .Numeric and see if it worked
+#+BEGIN_SRC perl6
+if defined '33333'.Numeric { say 'true!' } else { say 'not.' } # true!
+if defined 'three'.Numeric { say 'true!' } else { say 'not.' } # not.
+#+END_SRC
+
+**** Or just use a smartmatch
+#+BEGIN_SRC perl6
+if $n ~~ Numeric  { say "this is a number" };
+
+if $n ~~ .Numeric { say "this can become a number" };
+#+END_SRC
+***** .Numeric is same as $_.Numeric, checks whether it can be cast successfully
+
+**** Or, similarly: multi-dispatch
+***** more on this in a moment: this is what I used
+
+*** raku has some suggestive features
+***** e.g. deepmap
+

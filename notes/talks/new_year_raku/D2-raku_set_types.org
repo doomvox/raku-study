@@ -1,0 +1,35 @@
+* Sets and set-like things in Raku
+** Raku jargon: QuantHash
+** Six classes: Set, Bag, Mix, SetHash, BagHash, MixHash
+|--------------+-----------+---------+-------------|
+|              | immutable | mutable |             |
+|--------------+-----------+---------+-------------|
+| sets         | Set       | SetHash | Bool        |
+| bag/multiset | Bag       | BagHash | Int (count) |
+| mix/fuzzyset | Mix       | MixHash | Rat         |
+|--------------+-----------+---------+-------------|
+** creation
+*** explicit call to new 
+#+BEGIN_SRC raku
+my $s = Set.new('godzilla', 'blob', 'tingler'); 
+say $s;   
+## Set(blob godzilla tingler)
+#+END_SRC
+
+*** casting a list
+#+BEGIN_SRC raku
+my $t = ('mothera', 'horta', 'ganesh').SetHash;
+say $t;  ## SetHash(ganesh horta mothera)
+#+END_SRC
+
+*** casting a hash
+#+BEGIN_SRC raku
+my %threat_level   = godzilla => 9, grendel => 3, wormface => 7, blob => 4;
+my $tl_mix = %threat_level.Mix;
+say $tl_mix;  # Mix(blob(4) godzilla(9) grendel(3) wormface(7))
+
+say $tl_mix{'blob'}; # 4
+#+END_SRC
+
+** But: set operations often Just Work, implicitly creating sets
+

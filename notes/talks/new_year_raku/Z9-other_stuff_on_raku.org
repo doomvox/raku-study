@@ -1,0 +1,26 @@
+* Raku Resources
+** the documentation
+*** https://docs.raku.org
+
+** SF Perl Raku Study Group
+*** https://www.meetup.com/San-Francisco-Perl/
+*** Next one on Sunday, January 16th 
+
+** mailing lists
+*** perl6-users
+**** perl6-users-subscribe@perl.org
+**** archive:
+***** https://www.nntp.perl.org/group/perl.perl6.users/
+
+*** SF Perl mailing list
+**** sanfrancisco-pm-request@pm.org
+***** http://sf.pm.org/
+
+** reddit rakulang
+*** https://www.reddit.com/r/rakulang/
+** modules
+*** https://modules.raku.org
+** blogs
+*** https://planet.raku.org
+** irc  raku channel on freenode
+*** https://webchat.freenode.net/  

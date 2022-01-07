@@ -1,0 +1,17 @@
+* arithmetic operations on arbitrary parallel datastructures 
+** A rewrite of Data::Math for Raku
+*** Data::DualMap
+**** a work in progress, not yet published
+**** uses multidispatch heavily
+**** entry point modules export a wrapper function that calls the recursive code
+**** different entrypoints for different purposes, e.g. "dualmap-numerics"
+***** different from Data::Math where I just DWIM'd presuming you want to act on numbers
+**** handling code blocks as operations was easy to implement
+***** code example: /home/doom/End/Cave/DualMap/Wall/Data-DualMap/t/06-dualmap-numerics_with_codeblock.t
+***** code in: /home/doom/End/Cave/DualMap/Wall/Data-DualMap/lib/Data/DualMap/Recurse/Numerics.rakumod
+****** search from Block
+**** outstanding issues
+***** general cleanup (e.g. has comments like "no idea why I needed to do this")
+***** want to support set operations (probably another entry point routine...)
+***** not entirely confident in Data::Qualify and "compatible_types"
+***** still don't see a clean way to handle custom data container objects

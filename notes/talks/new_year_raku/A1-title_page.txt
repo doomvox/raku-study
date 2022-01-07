@@ -1,0 +1,23 @@
+
+                                            Januray 6, 2022
+
+
+    Some Adventures with Raku over the Last Year
+
+
+    Joseph Brenner 
+    http://obsidianrook.com/doomfiles
+
+    I'm "doom" or "doomvox" in various places (github, cpan, gmail).
+    (I was a college radio DJ: "The Voice of Doom" at KZSU.)
+
+    I run the SF Perl "Raku Study Group" (next one on January 16th)
+      https://www.meetup.com/San-Francisco-Perl/ 
+    
+    Note: the "slides" for this talk will eventually be published here:
+
+    https://github.com/doomvox/raku-study/notes/talks/new_year_raku/
+
+
+
+

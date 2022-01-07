@@ -1,0 +1,29 @@
+* What's good about Raku?
+** saner numerics built-in
+*** big integers 
+*** rational numbers
+****  reduce chances of floating-point weirdness
+** custom parsing via grammars and regexs
+*** regexps redesigned and cleaned up
+*** flexible pattern decomposition via grammars
+**** better than perl's interpolated qrs
+*** raku uses these grammars to parse itself: they *have* to work well
+** very good object system (built-in, of course)
+*** style similar to moose/moo
+*** raku's design uses this extensively: "objects all the way down"
+**** again: it *has* to perform well
+** type system (also built-in )
+*** strong typing is possible (though optional)
+*** very useful for multidispatch
+** cap (concurrency, asynchrony, parallelism)
+*** very convenient: might be the easiest to use of any language
+** unicode
+*** fully supported: characters are what you think of as characters (glyphs)
+*** speaks utf-8 by default (unlike perl)
+* Killer app?
+** no particular "killer app" has emerged
+*** but when perl5 was released no one expected it would be critical for
+**** web 1.0
+**** human genome project
+*** the design goal is to be useful for everything
+**** contender for the "100 year language"
