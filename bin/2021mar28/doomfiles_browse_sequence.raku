@@ -4,7 +4,8 @@
 
 use v6;
 
-## parsing files that look like this:
+## parsing html files that look like this:
+# ...
 # <PRE>                                <A HREF="THIN_VENEER.html">[PREV - THIN_VENEER]</A>    <A HREF="TOP.html">[TOP]</A></PRE>
 # <H1 align="left">THE_TOY_WEB</H1>
 #
