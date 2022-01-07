@@ -39,7 +39,6 @@ speak('mothera');  # The monster, mothera roars!  ## mothera is treated as a mon
 #   ambiguity, a routine with is default trait will be chosen if
 #   one exists, otherwise an exception is thrown.
 
-
 say "---";
 ## Sweep through all of the monsters and heroes, checking each case
 my @names = (@monsters ∪ @heroes).keys.sort;
