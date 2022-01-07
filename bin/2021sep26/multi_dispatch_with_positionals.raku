@@ -21,7 +21,6 @@ multi sub speak (Positional $a) {
     say "The 3rd element of a $type: $a[2]" if $a[2];
 }
 
-
 speak( @monsters );                  # The 3rd element of the Array: ghidora
 speak( <beowulf bernie mothera> );   # The 3rd element of the List: mothera
 speak( 1..3 );                       # The 3rd element of a Range: 3
