@@ -26,7 +26,6 @@ use v6;
 #     6
 #   }{Camelia}xgi;
 
-
 ## One of the Raku syntaxes:
 my $stringy = 'Actually, Perl 6 is pretty interesting.';
 $stringy ~~ s:g:i[Perl \s? 6] = 'Camelia';
