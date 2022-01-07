@@ -4,6 +4,17 @@
 
 use v6;
 
+# <PRE>                                <A HREF="THIN_VENEER.html">[PREV - THIN_VENEER]</A>    <A HREF="TOP.html">[TOP]</A></PRE>
+# <H1 align="left">THE_TOY_WEB</H1>
+#
+#
+# <PRE>
+#                                                   Sept 25, 2006
+#   ...
+# --------
+# <A HREF="ACCESS_RAMP.html">[NEXT - ACCESS_RAMP]</A>
+# </PRE>
+
 my grammar df {
     regex TOP         { '<HTML>'  <head><body> '</HTML>' \s*                                                       }
     regex head        { '<HEAD>' \s* <title> '</HEAD>' \s*                                                         }
