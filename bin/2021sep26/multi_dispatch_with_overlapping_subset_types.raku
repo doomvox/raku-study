@@ -27,7 +27,7 @@ speak('beowulf');  # The hero, beowulf shouts!
 speak('mothera');  # The monster, mothera roars!  ## mothera is treated as a monster
 
 
-## There's nothing about this in the documentation:
+## There was nothing about this in the documentation (I've added it since then)
 
 # https://docs.raku.org/language/glossary#index-entry-Multi-Dispatch
 
