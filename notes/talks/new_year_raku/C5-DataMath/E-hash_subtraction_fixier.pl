@@ -6,7 +6,6 @@
 use feature ":5.10.0";
 use warnings;
 use strict;
-$|=1;
 use Data::Dumper;
 use List::MoreUtils qw( uniq );
 
