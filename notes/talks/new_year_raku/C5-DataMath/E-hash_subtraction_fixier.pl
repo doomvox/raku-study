@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 # B7-hash_subtraction_fixier.pl                  doom@kzsu.stanford.edu
 #                                                Jun 08, 2021
-# 
 
 use feature ":5.10.0";
 use warnings;
