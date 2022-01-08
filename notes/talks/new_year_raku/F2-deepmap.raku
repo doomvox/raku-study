@@ -4,7 +4,7 @@
 
 use v6;
 
-## "simple" example on nested arrays
+## a simple example of using deepmap on nested arrays
 # https://docs.raku.org/routine/deepmap
 say [ [1,2,3], [ [4,5], 6, 7 ] ].deepmap( * + 1 );  
 ##  [[2 3 4] [[5 6] 7 8]]
