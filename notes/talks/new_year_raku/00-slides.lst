@@ -5,32 +5,32 @@
 ##
 ## /home/doom/End/Cave/RakuStudy/Notes/notes-new_year_talk
 ##
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/00-slides.lst
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/A1-title_page.txt
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/A2-raku_features.org
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/A3-raku_drawbacks.org
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/00-slides.lst
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/A1-title_page.txt
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/A2-raku_features.org
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/A3-raku_drawbacks.org
 ##
 ## TODO maybe, lead with numeric demos
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/B0-raku_syntax_vs_perl.org
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/B1-sort_in_perl.pl
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/B2-sort_in_raku.raku
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/B3-myriad_arg_passing_styles.raku
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/B4-an_issue_with_dollar_caret_placeholder_vars.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/B0-raku_syntax_vs_perl.org
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/B1-sort_in_perl.pl
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/B2-sort_in_raku.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/B3-myriad_arg_passing_styles.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/B4-an_issue_with_dollar_caret_placeholder_vars.raku
 ##
 ## material from lightning talk: section C
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/C5-DataMath/B-intro-hash_subtraction.pl
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/C5-DataMath/D-hash_subtraction_fixed.pl
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/C5-DataMath/E-hash_subtraction_fixier.pl
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/C5-DataMath/M-hash_subtraction_in_raku.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/C5-DataMath/B-intro-hash_subtraction.pl
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/C5-DataMath/D-hash_subtraction_fixed.pl
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/C5-DataMath/E-hash_subtraction_fixier.pl
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/C5-DataMath/M-hash_subtraction_in_raku.raku
 ## 
 ## section D: aside on Raku Sets
 ## TODO (maybe): issues with Sets in perl5 land
 ## Raku sets have coercion of arrays to sets
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/D2-raku_set_types.org
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/D3-set_operation_implicit_coercion.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/D2-raku_set_types.org
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/D3-set_operation_implicit_coercion.raku
 ##
 ## section E: 
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/E1-math_on_arbitrary_parallel_structures_in_perl5.org
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/E1-math_on_arbitrary_parallel_structures_in_perl5.org
 ## don't *copy* these, just link to them in the E1 slide (done)
 /home/doom/End/Cave/ChainLightning/Talks/05-DataMath/F-hash_subtraction_via_Data-Math.pl
 /home/doom/End/Cave/ChainLightning/Talks/05-DataMath/G-arbitrary_structures_with_Data-Math.pl
@@ -38,15 +38,15 @@
 /home/doom/End/Cave/DataMath/Wall/Scalar-Classify/lib/Scalar/Classify.pm
 ##
 ##
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/F1-approach_to_raku_dualmap.org
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/F2-deepmap.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/F1-approach_to_raku_dualmap.org
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/F2-deepmap.raku
 ##
 # introducing multidispatch as a variation of given/when
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021sep26/01-the_given_when_case.raku
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021sep26/02-the_multi_dispatch_case.raku
 ## 
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/F1-the_given_when_case.raku
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/F2-the_multi_dispatch_case.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/F1-the_given_when_case.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/F2-the_multi_dispatch_case.raku
 
 ## nice demo of order-dependent multidispatch, shows subsets 
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021sep26/multi_dispatch_with_overlapping_subset_types.raku
@@ -54,14 +54,14 @@
 ## type specificity and multidispatch resolution
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021sep26/multi_dispatch_with_positionals.raku
 ##
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/G1-math_on_arbitrary_parallel_structures_in_raku.org
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/G1-math_on_arbitrary_parallel_structures_in_raku.org
 ##  link to the following from G1, once this project is published
 /home/doom/End/Cave/DualMap/Wall/Data-DualMap/lib/Data/DualMap.rakumod
 /home/doom/End/Cave/DualMap/Wall/Data-DualMap/lib/Data/DualMap/Numerics.rakumod
 /home/doom/End/Cave/DualMap/Wall/Data-DualMap/lib/Data/DualMap/Recurse/Numerics.rakumod
 /home/doom/End/Cave/DualMap/Wall/Data-DualMap/lib/Data/Qualify.rakumod
 ##
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/G5-dualmap-numerics_with_codeblock.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/G5-dualmap-numerics_with_codeblock.raku
 ##
 ## some fun comments about the experience of writing Dualmap, though a bit too inside-baseball
 ## (show during talk, but don't copy to repo)
@@ -74,15 +74,15 @@
 ## file io 
 ## TODO add basic example, and link to bruce gray talk
 ## 
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/H2-bruce_gray_io_lines_etc.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/H2-bruce_gray_io_lines_etc.raku
 
 ## reading csv data 
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/H4-csv.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/H4-csv.raku
 
 ## part of H section:
 ## H: data container objects, raku oop intro ("container" is a bad word)
 ## TODO clean this up further:
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/H6-data_container_object_class.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/H6-data_container_object_class.raku
 
 ## like perl's dualvars
 ##  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021sep26/playing_with_dualvars.pl
@@ -92,11 +92,11 @@
 ## TODO flesh this out, load data via DB::Pg
 #   /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021may30/spots_data_container_class.raku
 ## db select via dbish, not Db::Pg
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/I5-dbish_trial_run.pl6
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/I5-dbish_trial_run.pl6
 ##
 ## J section
 ## good basic demo using p5 inline from raku
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/J2-trial-perl5_inline-solution_0.pl6
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/J2-trial-perl5_inline-solution_0.pl6
 
 ## 
 ## verifying run is scalar context and call is list context
@@ -110,30 +110,30 @@
 ## K section: regexps, doomfiles grammar
 ##
 ## comparison perl and raku regex
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/K2-sudoers_append_regexes.rectpara
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/K2-sudoers_append_regexes.rectpara
 ##
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/K3-unusual_perl_6_substitution_syntax.pl6
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/K3-unusual_perl_6_substitution_syntax.pl6
 
 ##
 ## More works-in-progress...
 ## TODO could use a tree of test data
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/K5-doomfiles_browse_sequence.raku
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/K6-df_grep.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/K5-doomfiles_browse_sequence.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/K6-df_grep.raku
 ##
 ## TODO also do real html parsing, compare to using grammar for parsing doomfiles
 ##
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/K8-trial-http_useragent.pl6
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/K8-trial-http_useragent.pl6
 ##
 ## Z  little things
 ## random picks, perl vs raku
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/Z2-random_perl.pl
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/Z3-random_raku.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/Z2-random_perl.pl
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/Z3-random_raku.raku
 ## 
 ## fake a method call with an ampersand
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/Z4-trial-spy_via_ampersand.pl6
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/Z4-trial-spy_via_ampersand.pl6
 ## 
 ## junctions
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/Z5-basic_junctions.pl6
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/Z5-basic_junctions.pl6
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021jun20/junctionism.raku
 ## 
 ## TODO add something on hyperoperators?
@@ -141,5 +141,5 @@
 ## TODO maybe steal this example, use as tag slide, Z7-*?
 ###  /home/doom/End/Cave/RakuStudy/bin/json_comparator_worthington.pl6
 ##
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/Z8-videos_on_raku.org
-/home/doom/End/Cave/RakuStudy/Stage/new_year_raku/Z9-other_stuff_on_raku.org
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/Z8-videos_on_raku.org
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/Z9-other_stuff_on_raku.org
