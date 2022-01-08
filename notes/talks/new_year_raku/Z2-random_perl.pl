@@ -11,7 +11,8 @@ Z2-random_perl.pl
 
 =head1 DESCRIPTION
 
-Some simple random pick/string generation examples in perl.
+Some simple examples using randomness in perl.
+(1) picking an element; (2) generation a string
 
 =cut
 
