@@ -2,7 +2,7 @@
 ** Leon Timmermans, "Raku syntax I miss in other languages', Jun 8, 2021
 *** https://www.youtube.com/watch?v=elalwvfmYgk
 *** Hyperoperators, Junctions, etc
- 
+
 ** Elizabeth Mattjsen - "Raku - Sets without Borders", Jul 17, 2021
 *** https://www.youtube.com/watch?v=ymyFchbu_GQ
 *** set operators Just Work with arrays, hashes, etc
