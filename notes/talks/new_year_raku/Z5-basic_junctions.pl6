@@ -3,7 +3,6 @@
 # basic_junctions.pl6            04 Oct 2020 
 
 ## a demo of Raku junctions.
-
 {
     # using an all junction to check if a list of values is within range    
     my $cutoff = 10;
