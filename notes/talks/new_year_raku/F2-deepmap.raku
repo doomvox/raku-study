@@ -6,8 +6,10 @@ use v6;
 
 ## a simple example of using deepmap on nested arrays
 # https://docs.raku.org/routine/deepmap
-say [ [1,2,3], [ [4,5], 6, 7 ] ].deepmap( * + 1 );  
-##  [[2 3 4] [[5 6] 7 8]]
+{
+    say [ [1,2,3], [ [4,5], 6, 7 ] ].deepmap( * + 1 );  
+    ##  [[2 3 4] [[5 6] 7 8]]
+}
 
 ## that '*' is the "whatever" star... I'm more inclined to just do this:
 say [ [1,2,3], [ [4,5], 6, 7 ] ].deepmap({ $_ + 1 });  
