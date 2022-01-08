@@ -15,25 +15,27 @@ use v6;
 }
 
 ## deepmap on an array of hashes
-## Goal: Add 10 to numeric value 'val' and preserve string lable 'l'
+## Goal: Add 10 to numeric value 'n' and preserve string lable 'l'
 my @data = (
-    { val =>   1,   l => 'ape',   },
-    { val =>   2,   l => 'bear',  },
-    { val =>   3,   l => 'goat',  },
-    { val =>  '4',  l => 'emu',   },
+    { n =>   1,   l => 'ape',   },
+    { n =>   2,   l => 'bear',  },
+    { n =>   3,   l => 'goat',  },
+    { n =>  '4',  l => 'emu',   },
 );
 { 
     # this works:
     my @new_data = @data.deepmap({$_ ~~ .Numeric ?? $_+10 !! $_ });
     say @new_data;  
-    ## [{l => alpha, val => 11} {l => beta, val => 12} {l => gamma, val => 13} {l => gamma, val => 14}]
+    ## [{l => alpha, n => 11} {l => beta, n => 12} {l => gamma, n => 13} {l => gamma, n => 14}]
     ## Note that '4' becomes '14'
 }
 {
     # but this behaves weird (have filed bug):
     my @new_data = @data.deepmap({ $_+10 if $_ ~~ Numeric });
     say @new_data;  
-    ## [{l => IterationEnd, val => 11} {l => IterationEnd, val => 12} {l => 13, val => IterationEnd} {l => IterationEnd, val => IterationEnd}]
+    ## [{l => IterationEnd, n => 11} {l => IterationEnd, n => 12} {l => 13, n => IterationEnd} {l => IterationEnd, n => IterationEnd}]
+    # you might expect it to drop the "l" fields, you might expect it to pass them through...
+    # instead it mangles everything, scrambling keys and values
 }
 
 ## moral: deepmap is cool, but for now, for *every* element specify 
