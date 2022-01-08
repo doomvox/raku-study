@@ -9,12 +9,9 @@ use strict;
 
 Z2-random_perl.pl
 
-=head1 SYNOPSIS
-
-
 =head1 DESCRIPTION
 
-A couple of simple random pick/string generation examples in perl.
+Some simple random pick/string generation examples in perl.
 
 =cut
 
