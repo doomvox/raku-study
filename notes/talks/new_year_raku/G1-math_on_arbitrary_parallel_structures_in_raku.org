@@ -1,4 +1,4 @@
-* arithmetic operations on arbitrary parallel datastructures 
+* Doing operations on arbitrary parallel datastructures in Raku
 ** A rewrite of Data::Math for Raku
 *** Data::DualMap
 **** a work in progress, not yet published
