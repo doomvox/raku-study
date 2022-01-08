@@ -28,6 +28,6 @@ speak( @monsters );                  # The 3rd element of the Array: ghidora
 speak( <beowulf bernie mothera> );   # The 3rd element of the List: mothera
 speak( 1..3 );                       # The 3rd element of a Range: 3
 
-# Ranges are positional:
+# Note: ranges are positional:
 #   https://docs.raku.org/type/Positional
 
