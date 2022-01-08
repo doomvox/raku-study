@@ -24,7 +24,7 @@
 #     6
 #   }{Camelia}xgi;
 
-## One of the Raku syntaxes:
+## Doing this with Raku
 my $stringy = 'Actually, Perl 6 is pretty interesting.';
 $stringy ~~ s:g:i[Perl \s? 6] = 'Camelia';
 say $stringy;
