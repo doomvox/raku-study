@@ -18,7 +18,7 @@ Several points:
      o   not easy to write your own code that  imitates this (there's no prototype for it)
      o   things like List::MoreUtils pairwise are sneaky/sleazy (reach up the callstack one level)
 
-  o  And by the way, the need for join is silly 
+  o  And by the way, the need to manually format arrays with spaces when printing is silly
 
 =cut
 
