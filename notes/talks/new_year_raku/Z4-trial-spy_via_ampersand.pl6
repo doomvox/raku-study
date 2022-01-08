@@ -2,7 +2,8 @@
 # 
 # trial-spy_via_ampersand.pl6            20 Sep 2020 
 
-
+## You can call any routine as though it were a method by using
+## an ampersand with the name:
 
 my @monsters =
     << godzilla blob mothera mechazilla tingler garuda gammera  >>;
