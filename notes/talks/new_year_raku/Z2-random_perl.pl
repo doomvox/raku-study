@@ -26,19 +26,3 @@ my $str = join '', map{ chr( int( rand( 26 ) ) + 65 ) } 0..2;
 say $str;
 
 
-
-__END__
-
-=head1 AUTHOR
-
-Joseph Brenner, E<lt>doom@fandango.obsidianrook.comE<gt>
-
-=head1 COPYRIGHT AND LICENSE
-
-Copyright (C) 2022 by Joseph Brenner
-
-This program is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.10.0 or,
-at your option, any later version of Perl 5 you may have available.
-
-=cut
