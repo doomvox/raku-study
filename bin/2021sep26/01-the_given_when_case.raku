@@ -2,8 +2,6 @@
 #                                                                      c
 # 01-the_given_when_case.raku            17 Sep 2021 
 
-use v6;
-
 my @items = ( 666, 2.71, 𝑒, "01", "whun", ('a', 'b', 'c').Set );  ## 𝑒 is a "transcendtal"
 for @items -> $item  {
     say "Checking: " ~ $item;
