@@ -28,7 +28,3 @@ speak( 1..3 );                       # The 3rd element of a Range: 3
 # Ranges are positional:
 #   https://docs.raku.org/type/Positional
 
-
-# ===
-# Author:  doom@kzsu.stanford.edu
-
