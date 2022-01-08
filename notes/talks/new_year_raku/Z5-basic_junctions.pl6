@@ -27,7 +27,7 @@
     my $j;
     $j = any( $a, $b );
     if ($j < $cut) {
-        say "at least one of a and b are early";
+        say "at least one of a and b before cutoff";
     }
     say $j.WHAT;  # (Junction)
 
