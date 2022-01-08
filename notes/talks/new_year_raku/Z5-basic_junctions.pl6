@@ -41,16 +41,6 @@
         say "neither a or b are early";
     } 
 
-    # $^a
-    # $^b
-
-    # sub dostuff (Junction $item1, Junction $item2) {
-    #     say "nothing much";    
-    # }
-
-    # dostuff( $j, $j );  
-    ## dostuff( $a, $j );   # Type check failed in binding to parameter '$item1'; expected Junction but got Int
-
     sub dostuff( $item1, $item2 ) {
         my $j = any( $a, $b );
         if ($j < $cut) {
