@@ -14,13 +14,3 @@ say "str: $str";
 ## Note that the "[~]" construct is 
 ## "the reduction metaoperator" with string concatenation ("~")
 
-
-
-
-
-
-
-
-# ===
-# Author:  doom@kzsu.stanford.edu
-
