@@ -2,8 +2,6 @@
 #                                                                       
 # multi_dispatch_with_positionals.raku                             23 Sep 2021 
 
-use v6;
-
 ## demo of type specificity, the List and Array versions can 
 ## take precedence over the general Positional version:
 
