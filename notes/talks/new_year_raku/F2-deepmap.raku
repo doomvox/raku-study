@@ -34,7 +34,7 @@ my @data = (
     my @new_data = @data.deepmap({ $_+10 if $_ ~~ Numeric });
     say @new_data;  
     ## [{l => IterationEnd, n => 11} {l => IterationEnd, n => 12} {l => 13, n => IterationEnd} {l => IterationEnd, n => IterationEnd}]
-    # you might expect it to drop the "l" fields, you might expect it to pass them through...
+    # might expect it to drop the "l" fields, might expect it to pass them through...
     # instead it mangles everything, scrambling keys and values
 }
 
