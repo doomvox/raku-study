@@ -11,7 +11,8 @@ say "card: $card";
 my $str =  [~] ("a".."z").roll(3);
 say "str: $str";
 
-## Note the use of the reduction metaoperator using the string concationation operator ~ ('stich') 
+## Note that the "[~]" construct is 
+## "the reduction metaoperator" with string concatenation ("~")
 
 
 
