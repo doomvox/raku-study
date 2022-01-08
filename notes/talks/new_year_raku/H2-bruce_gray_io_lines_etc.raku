@@ -37,12 +37,3 @@ for $file.IO.lines.grep({ !/^END/ or last }) {
 }
 # godzilla
 # ghidora
-# gammera
-
-
-
-
-
-
-
-
