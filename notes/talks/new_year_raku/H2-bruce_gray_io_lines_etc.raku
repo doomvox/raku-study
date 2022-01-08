@@ -10,16 +10,13 @@ use v6;
 my $file = "/home/doom/tmp/monsters.txt";
 ## contains:
 # godzilla
-# ghidora
 # mothera
 # gammera
-# frankenstein
 # wolfman
 # kong
 # END
 # gillman
 # tingler
-# blob
 # zuckerberg
 
 for $file.IO.lines.grep({ ! /^END/ or last }) {
