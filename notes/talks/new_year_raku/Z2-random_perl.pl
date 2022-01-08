@@ -12,7 +12,7 @@ Z2-random_perl.pl
 =head1 DESCRIPTION
 
 Some simple examples using randomness in perl.
-(1) picking an element; (2) generation a string
+(1) picking an element; (2) generating a string
 
 =cut
 
