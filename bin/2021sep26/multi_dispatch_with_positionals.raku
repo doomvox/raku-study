@@ -24,7 +24,6 @@ multi sub speak (Positional $a) {
 ## All three cases here are "Positional", but we have multis for
 ## the more specific Array and List cases, so only the last one
 ## calls the Positional multi:
-
 speak( @monsters );                  # The 3rd element of the Array: ghidora
 speak( <beowulf bernie mothera> );   # The 3rd element of the List: mothera
 speak( 1..3 );                       # The 3rd element of a Range: 3
