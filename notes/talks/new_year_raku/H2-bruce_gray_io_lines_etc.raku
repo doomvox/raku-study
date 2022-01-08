@@ -5,8 +5,6 @@
 ## fixing some small bugs bugs in Bruce Gray's slides
 ## (lightning talk: "can't be this easy", find link)
 
-use v6;
-
 my $file = "/home/doom/tmp/monsters.txt";
       ## contains:
         # godzilla
