@@ -24,8 +24,6 @@ sub whats_my_type ($item) {
     return $ret;
 }    
 
-
-# raku /home/doom/End/Cave/Perl6/bin/01-the_given_when_case.raku
 # Checking: 666
 #    This is an Int
 # Checking: 2.71
