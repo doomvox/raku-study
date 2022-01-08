@@ -1,5 +1,5 @@
 #!/usr/bin/env perl6
-#                                                                         d
+#                                                                         
 # 02-the_multi_dispatch_case.raku                20 Sep 2021 
 
 my @items = ( 666, 2.71, 𝑒, "01", "whun", ('a', 'b', 'c').Set );  ## 𝑒 is a "transcendtal"
