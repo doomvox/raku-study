@@ -1,4 +1,4 @@
-* can you math on *arbitrary* parallel datastructures?
+* but can you math on *arbitrary* parallel datastructures?
 ** do recursive descent of two structures, creating a third as you go
 *** perlish structures have *two* main types of aggregates: array and hashes
 *** handling "holes" in one side requires looking at the other to get type
