@@ -4,15 +4,11 @@
 
 use v6;
 
-sub MAIN( $interations = 1 ) {
-    my @items = ( 666, 2.71, 𝑒, "01", "whun", ('a', 'b', 'c').Set );  ## 𝑒 is a "transcendtal"
-    for 1 .. $interations -> $i {
-        say $i;
-        for @items -> $item  {
-            say "Checking: " ~ $item;
-            say whats_my_type( $item );
-        }
-    }
+
+my @items = ( 666, 2.71, 𝑒, "01", "whun", ('a', 'b', 'c').Set );  ## 𝑒 is a "transcendtal"
+for @items -> $item  {
+    say "Checking: " ~ $item;
+    say whats_my_type( $item );
 }
 
 sub whats_my_type ($item) {
