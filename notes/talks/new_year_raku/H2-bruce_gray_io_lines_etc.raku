@@ -8,16 +8,16 @@
 use v6;
 
 my $file = "/home/doom/tmp/monsters.txt";
-## contains:
-# godzilla
-# mothera
-# gammera
-# wolfman
-# kong
-# END
-# gillman
-# tingler
-# zuckerberg
+      ## contains:
+        # godzilla
+        # mothera
+        # gammera
+        # wolfman
+        # kong
+        # END
+        # gillman
+        # tingler
+        # zuckerberg
 
 for $file.IO.lines.grep({ ! /^END/ or last }) {
     .say if /^k/;
