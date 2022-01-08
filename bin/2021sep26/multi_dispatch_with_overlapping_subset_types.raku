@@ -2,7 +2,7 @@
 #                                                                          e
 # multi_dispatch_with_overlapping_subset_types.raku            23 Sep 2021 
 
-use v6;
+## an example where multi-dispatch is resolved in order-of-definition
 
 my @monsters = < godzilla mothera ghidora gammera golem wormface >;
 my @heroes   = < beowulf maynard_g_krebs bluebeetle bernie mothera godzilla >;
