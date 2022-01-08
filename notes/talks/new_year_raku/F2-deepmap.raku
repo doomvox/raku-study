@@ -23,14 +23,14 @@ my @data = (
     { val =>  '4',  l => 'emu',   },
 );
 { 
-    # works:
+    # this works:
     my @new_data = @data.deepmap({$_ ~~ .Numeric ?? $_+10 !! $_ });
     say @new_data;  
     ## [{l => alpha, val => 11} {l => beta, val => 12} {l => gamma, val => 13} {l => gamma, val => 14}]
     ## Note that '4' becomes '14'
 }
 {
-    # behaves very weird: have filed bug
+    # but this behaves weird (have filed bug):
     my @new_data = @data.deepmap({ $_+10 if $_ ~~ Numeric });
     say @new_data;  
     ## [{l => IterationEnd, val => 11} {l => IterationEnd, val => 12} {l => 13, val => IterationEnd} {l => IterationEnd, val => IterationEnd}]
