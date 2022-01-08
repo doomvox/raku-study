@@ -2,7 +2,7 @@
 # 
 # csv.raku            26 Sep 2021 
 
-H4-csv.raku /home/doom/tmp/mtcars_from_r.csv
+# H4-csv.raku /home/doom/tmp/mtcars_from_r.csv
 
 use v6;
 
