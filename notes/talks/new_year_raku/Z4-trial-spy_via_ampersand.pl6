@@ -2,7 +2,7 @@
 # 
 # trial-spy_via_ampersand.pl6            20 Sep 2020 
 
-use v6;
+
 
 my @monsters =
     << godzilla blob mothera mechazilla tingler garuda gammera  >>;
