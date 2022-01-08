@@ -2,9 +2,7 @@
 # 
 # basic_junctions.pl6            04 Oct 2020 
 
-## Improvising a quick demo of Raku junctions.
-
-use v6;
+## a demo of Raku junctions.
 
 {
     # using an all junction to check if a list of values is within range    
