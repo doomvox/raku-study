@@ -9,10 +9,10 @@ use v6;
 {
     say [ [1,2,3], [ [4,5], 6, 7 ] ].deepmap( * + 1 );  
     ##  [[2 3 4] [[5 6] 7 8]]
+    
+    ## Note: that '*' is the "whatever" star... I'm more inclined to just do this:
+    say [ [1,2,3], [ [4,5], 6, 7 ] ].deepmap({ $_ + 1 });  
 }
-
-## that '*' is the "whatever" star... I'm more inclined to just do this:
-say [ [1,2,3], [ [4,5], 6, 7 ] ].deepmap({ $_ + 1 });  
 
 ## deepmap on an array of hashes
 ## Goal: Add 10 to numeric value 'val' and preserve string lable 'l'
