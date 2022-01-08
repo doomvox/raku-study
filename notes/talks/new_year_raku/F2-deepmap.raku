@@ -41,6 +41,6 @@ my @data = (
 ## moral: deepmap is cool, but for now, for *every* element specify 
 ##        the behavior you want, including "passthrough unchanged"
 
-## Just acts on just one complex data-structure not two as with my perl Data::Math.
+## And this just acts on just one complex data-structure not two as with my perl Data::Math.
 ## 
-## But 'deepmap' suggested the name 'dualmap' for a Raku version of Data::Math 
+## Note: 'deepmap' suggested the name 'dualmap' for a Raku version of Data::Math 
