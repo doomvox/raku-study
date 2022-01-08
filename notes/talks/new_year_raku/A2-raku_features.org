@@ -12,7 +12,7 @@
 *** style similar to moose/moo
 *** raku's design uses this extensively: "objects all the way down"
 **** again: it *has* to perform well
-** type system (also built-in )
+** type system using the object system, also built-in
 *** strong typing is possible (though optional)
 *** very useful for multidispatch
 ** cap (concurrency, asynchrony, parallelism)
