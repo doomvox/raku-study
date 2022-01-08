@@ -50,7 +50,3 @@ multi sub whats_my_type ($item) {  # Behaves like the "default" for given/when.
 ##   specific case "whun" is detected even though it's defined after Str 
 
 
-
-# ===
-# Author:  doom@kzsu.stanford.edu
-
