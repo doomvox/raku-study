@@ -40,14 +40,6 @@
     if ($j < $cut) {
         say "neither a or b are early";
     } 
-
-    sub dostuff( $item1, $item2 ) {
-        my $j = any( $a, $b );
-        if ($j < $cut) {
-            say "at least one of a and b are early";
-        }
-    }
-    dostuff( $a, $b );
 }
 
 ##
