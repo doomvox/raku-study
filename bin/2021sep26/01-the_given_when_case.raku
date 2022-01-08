@@ -42,7 +42,3 @@ sub whats_my_type ($item) {
 ##   including the "default" which should always be at the end
 ##   checking for specific case "whun" *after* general case Str won't do anything
 
-
-# ===
-# Author:  doom@kzsu.stanford.edu
-
