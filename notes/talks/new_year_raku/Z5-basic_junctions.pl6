@@ -47,7 +47,6 @@
             say "at least one of a and b are early";
         }
     }
-
     dostuff( $a, $b );
 }
 
