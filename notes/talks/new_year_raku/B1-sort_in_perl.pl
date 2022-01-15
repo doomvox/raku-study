@@ -19,7 +19,7 @@ Several points:
      o   things like List::MoreUtils pairwise are sneaky/sleazy 
          (they reach up the callstack one level)
 
-  o  And by the way, the need to manually format arrays with spaces when printing is silly
+  o  And by the way, the need to do a join on arrays when printing is silly
 
 =cut
 
