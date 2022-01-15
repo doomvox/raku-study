@@ -51,8 +51,8 @@ my @orderly_monsters_foah = sort $comparator @monsters;
 say join " ", @orderly_monsters_foah;
 
 
-## But nothing like this is going to work
-# $comparator->("a", "b");
+## But this DOESN'T WORK:
+#   $comparator->("a", "b");
 
 
 
