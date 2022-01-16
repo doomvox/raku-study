@@ -5,6 +5,10 @@
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md 
 *** https://github.com/doomvox/raku-study/bin/2022jan16
 
+*** my talk:
+https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
+
+
 ** rob dropped by: rir 
 *** playing with 
 **** gtk on raku 
