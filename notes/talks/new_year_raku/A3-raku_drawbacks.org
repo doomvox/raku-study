@@ -4,7 +4,7 @@
 **** the "new AST project"
 ** language is huge
 *** an advantage: need fewer extenions libraries, multi-paradigm, etc
-*** getting started not too bad, becoming expert can take long
+*** BUT: getting started not too bad, becoming expert can take long
 
 ** experts vs newbies
 *** the insiders have been on this for decades
