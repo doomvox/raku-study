@@ -22,7 +22,6 @@ https://github.com/rufuspollock/awesome-crypto-critique
 **** eiffel 
 **** consistent typing system
   
-
 ** topicettes
 
 *** raku vs python
