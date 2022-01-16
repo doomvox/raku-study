@@ -38,7 +38,6 @@
 ******* https://www.youtube.com/watch?v=elalwvfmYgk
 ******* Hyperoperators, Junctions, etc
 
-
 *** raku vs python
 **** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
 **** um... very interrresting. 
