@@ -9,7 +9,10 @@
 *** playing with 
 **** gtk on raku 
 **** inclusions?
-**** like an include statement 
+***** wants something like an include statement?
+****** has looked at roles
+****** bruce recommends parameterized roles
+***** needs parents to know about children?
 
 *** sather
 **** like eiffel 
