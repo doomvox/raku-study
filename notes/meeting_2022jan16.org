@@ -34,6 +34,9 @@
 *** some recommended raku talks
 **** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/Z8-videos_on_raku.org
 **** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/Z8-videos_on_raku.org
+******* Leon Timmermans, "Raku syntax I miss in other languages', Jun 8, 2021
+******* https://www.youtube.com/watch?v=elalwvfmYgk
+******* Hyperoperators, Junctions, etc
 
 
 *** raku vs python
