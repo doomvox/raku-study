@@ -44,10 +44,8 @@ https://donaldh.wtf/2021/01/if-sets-would-dwim/
 **** push, pop
 
 ** announcments 
-*** January 6th: svlug: I'll be talking about Raku
-**** https://www.meetup.com/SVPerl/events/xjdzdsydccbjb/
 
-*** January 16th: next raku study group meeting
+*** January 30th: next raku study group meeting
 
 ***  February 5-6: FOSDEM Raku talks
 **** https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/

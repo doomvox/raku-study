@@ -1,61 +1,60 @@
-- [meeting notes January 16, 2022](#org8649032)
-  - [the raku study group](#org4e4fdea)
-    - [<stupid raku pun>](#org046f3fb)
-  - [usual links](#orgcdd3695)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md>](#org308f455)
-    - [<https://github.com/doomvox/raku-study/bin/2022jan16>](#orgc9f9d4e)
-  - [topicettes](#orga923487)
-    - [raku vs python](#orgfbdfec9)
-  - [old topics, last meeting on the jan 02 (probably just delete, maybe followup)](#orge359f64)
-    - [custom associatives](#orge1b5fef)
-    - [new work on thread libraries for perl5](#orgcdb11c9)
-    - [also perl5: new release PDL](#orgab9f9df)
-    - [jonathan worthington, cro-ing](#orgd60ce71)
-    - [future topicettes:](#org8f69a60)
-    - [bill had questions about exceptions to non-mutating operations](#orge70c205)
-  - [announcments](#org53d5be5)
-    - [January 6th: svlug: I'll be talking about Raku](#org65d93ee)
-    - [January 16th: next raku study group meeting](#org53b4329)
-    - [February 5-6: FOSDEM Raku talks](#orga80a51a)
-    - [June 21-25: tprc: perl/raku conference](#orgfcbe433)
+- [meeting notes January 16, 2022](#org884b5b8)
+  - [the raku study group](#orge6e70a5)
+    - [<stupid raku pun>](#org7045de8)
+  - [usual links](#orge845fcc)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md>](#org87c11c3)
+    - [<https://github.com/doomvox/raku-study/bin/2022jan16>](#org685ee30)
+  - [topicettes](#orgdc925d9)
+    - [raku vs python](#org6b8673f)
+  - [old topics, last meeting on the jan 02 (probably just delete, maybe followup)](#org43915d0)
+    - [custom associatives](#org0f47342)
+    - [new work on thread libraries for perl5](#org5292ce9)
+    - [also perl5: new release PDL](#orgc977b08)
+    - [jonathan worthington, cro-ing](#org85810a8)
+    - [future topicettes:](#org52282c7)
+    - [bill had questions about exceptions to non-mutating operations](#org6092c1a)
+  - [announcments](#org47d0afe)
+    - [January 30th: next raku study group meeting](#orgabfdba7)
+    - [February 5-6: FOSDEM Raku talks](#orgcb72737)
+    - [June 21-25: tprc: perl/raku conference](#org3770a09)
 
 
-<a id="org8649032"></a>
+<a id="org884b5b8"></a>
 
 # meeting notes January 16, 2022
 
 
-<a id="org4e4fdea"></a>
+<a id="orge6e70a5"></a>
 
 ## the raku study group
 
 
-<a id="org046f3fb"></a>
+<a id="org7045de8"></a>
 
 ### <stupid raku pun>
 
 
-<a id="orgcdd3695"></a>
+<a id="orge845fcc"></a>
 
 ## usual links
 
 
-<a id="org308f455"></a>
+<a id="org87c11c3"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md>
 
 
-<a id="orgc9f9d4e"></a>
+<a id="org685ee30"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022jan16>
 
 
-<a id="orga923487"></a>
+<a id="orgdc925d9"></a>
 
 ## topicettes
 
 
-<a id="orgfbdfec9"></a>
+<a id="org6b8673f"></a>
 
 ### raku vs python
 
@@ -64,12 +63,12 @@
 2.  um&#x2026; very interrresting.
 
 
-<a id="orge359f64"></a>
+<a id="org43915d0"></a>
 
 ## old topics, last meeting on the jan 02 (probably just delete, maybe followup)
 
 
-<a id="orge1b5fef"></a>
+<a id="org0f47342"></a>
 
 ### custom associatives
 
@@ -86,7 +85,7 @@
     3.  <https://docs.raku.org/language/objects#index-entry-TWEAK>
 
 
-<a id="orgcdb11c9"></a>
+<a id="org5292ce9"></a>
 
 ### new work on thread libraries for perl5
 
@@ -101,21 +100,21 @@
     2.  <https://www.cs.cmu.edu/~crary/819-f09/Hoare78.pdf>
 
 
-<a id="orgab9f9df"></a>
+<a id="orgc977b08"></a>
 
 ### also perl5: new release PDL
 
 1.  <https://metacpan.org/pod/PDL>
 
 
-<a id="orgd60ce71"></a>
+<a id="org85810a8"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="org8f69a60"></a>
+<a id="org52282c7"></a>
 
 ### future topicettes:
 
@@ -124,38 +123,31 @@
     <https://donaldh.wtf/2021/01/if-sets-would-dwim/>
 
 
-<a id="orge70c205"></a>
+<a id="org6092c1a"></a>
 
 ### bill had questions about exceptions to non-mutating operations
 
 1.  push, pop
 
 
-<a id="org53d5be5"></a>
+<a id="org47d0afe"></a>
 
 ## announcments
 
 
-<a id="org65d93ee"></a>
+<a id="orgabfdba7"></a>
 
-### January 6th: svlug: I'll be talking about Raku
-
-1.  <https://www.meetup.com/SVPerl/events/xjdzdsydccbjb/>
+### January 30th: next raku study group meeting
 
 
-<a id="org53b4329"></a>
-
-### January 16th: next raku study group meeting
-
-
-<a id="orga80a51a"></a>
+<a id="orgcb72737"></a>
 
 ### February 5-6: FOSDEM Raku talks
 
 1.  <https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/>
 
 
-<a id="orgfcbe433"></a>
+<a id="org3770a09"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
