@@ -22,7 +22,6 @@
 **** consistent typing system
   
 ** topicettes
-
 *** fun
 **** https://github.com/rufuspollock/awesome-crypto-critique
 
