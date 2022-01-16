@@ -3,7 +3,9 @@
 *** but Jonathan Worthington is on it
 **** the "new AST project"
 ** language is huge
+*** an advantage: need fewer extenions libraries, multi-paradigm, etc
 *** getting started not too bad, becoming expert can take long
+
 ** experts vs newbies
 *** the insiders have been on this for decades
 *** many disputes, albiet minor ones: is an error message confusing, documentation sketchy?
