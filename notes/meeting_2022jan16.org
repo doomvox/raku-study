@@ -31,6 +31,11 @@
 *** fun stuff: take downs of bitcoin, blockchain, web3...  
 **** https://github.com/rufuspollock/awesome-crypto-critique
 
+*** some recommended raku talks
+**** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/Z8-videos_on_raku.org
+**** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/Z8-videos_on_raku.org
+
+
 *** raku vs python
 **** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
 **** um... very interrresting. 
