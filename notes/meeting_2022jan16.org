@@ -17,7 +17,7 @@
 ***** https://www.eiffel.org/doc/eiffel/Learning_Eiffel 
 **** consistent typing system
 
-***** 
+***** about sather
 ****** https://www1.icsi.berkeley.edu/~sather/ 
 ****** https://omohundro.files.wordpress.com/2009/03/omohundro94_the_sather_programming_language.pdf 
 ****** https://www1.icsi.berkeley.edu/~sather/Publications/article.html 
