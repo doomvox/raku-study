@@ -54,6 +54,10 @@ https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
 **** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
 **** um... very interrresting. 
 
+*** regex stuff
+**** https://docs.raku.org/language/regexes#Tilde_for_nesting_structures 
+
+
 ** old topics, last meeting on the jan 02 (probably just delete, maybe followup)
 
 *** custom associatives

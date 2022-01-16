@@ -1,83 +1,84 @@
-- [meeting notes January 16, 2022](#org31a6566)
-  - [the raku study group](#org2fe5b40)
-  - [usual links](#orga7964d4)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md>](#org963e4e8)
-    - [<https://github.com/doomvox/raku-study/bin/2022jan16>](#org494418f)
-    - [my talk:](#org337d35c)
-  - [bruce gray weekly challenge](#org1e43160)
-    - [<https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-147/challenge-147/bruce-gray/raku>](#orgcfee84d)
-    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-147/#TASK1>](#orgb5ae1fa)
-  - [rob dropped by: rir](#org82ae119)
-    - [playing with](#org6b5bf04)
-    - [sather](#orgeb61869)
-    - [intro to raku ideas](#orgf3259de)
-  - [topicettes](#orge6271c4)
-    - [fun stuff: take downs of bitcoin, blockchain, web3&#x2026;](#org8daf3bc)
-    - [some recommended raku talks](#org86f0a43)
-    - [raku vs python](#orgcc7e226)
-  - [old topics, last meeting on the jan 02 (probably just delete, maybe followup)](#orga26bf70)
-    - [custom associatives](#org068699b)
-    - [future topicettes:](#orgbc80833)
-    - [jonathan worthington, cro-ing](#orge2c804a)
-  - [announcments](#org89d84ee)
-    - [January 30th: next raku study group meeting](#org5899b49)
-    - [February 5-6: FOSDEM Raku talks](#org69bc48c)
-    - [June 21-25: tprc: perl/raku conference](#orgede444e)
+- [meeting notes January 16, 2022](#org2f37833)
+  - [the raku study group](#org820f867)
+  - [usual links](#org69418c2)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md>](#org3f37ace)
+    - [<https://github.com/doomvox/raku-study/bin/2022jan16>](#org6c393f2)
+    - [my talk:](#org225aff4)
+  - [bruce gray weekly challenge](#orgbd32304)
+    - [<https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-147/challenge-147/bruce-gray/raku>](#org8ca3692)
+    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-147/#TASK1>](#org297ff83)
+  - [rob dropped by: rir](#org0afd31f)
+    - [playing with](#org619a325)
+    - [sather](#orge6f95cc)
+    - [intro to raku ideas](#org4ad8c9f)
+  - [topicettes](#org58c129d)
+    - [fun stuff: take downs of bitcoin, blockchain, web3&#x2026;](#org7a32861)
+    - [some recommended raku talks](#org9a5f001)
+    - [raku vs python](#org0684927)
+    - [regex stuff](#org380f9ff)
+  - [old topics, last meeting on the jan 02 (probably just delete, maybe followup)](#org2ab9cfb)
+    - [custom associatives](#org73cd2e6)
+    - [future topicettes:](#orgcd94bf5)
+    - [jonathan worthington, cro-ing](#orgd03807b)
+  - [announcments](#org83a210e)
+    - [January 30th: next raku study group meeting](#orgfe2379d)
+    - [February 5-6: FOSDEM Raku talks](#orgf1d1ce0)
+    - [June 21-25: tprc: perl/raku conference](#org2b0a7ea)
 
 
-<a id="org31a6566"></a>
+<a id="org2f37833"></a>
 
 # meeting notes January 16, 2022
 
 
-<a id="org2fe5b40"></a>
+<a id="org820f867"></a>
 
 ## the raku study group
 
 
-<a id="orga7964d4"></a>
+<a id="org69418c2"></a>
 
 ## usual links
 
 
-<a id="org963e4e8"></a>
+<a id="org3f37ace"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md>
 
 
-<a id="org494418f"></a>
+<a id="org6c393f2"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022jan16>
 
 
-<a id="org337d35c"></a>
+<a id="org225aff4"></a>
 
 ### my talk:
 
 <https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku>
 
 
-<a id="org1e43160"></a>
+<a id="orgbd32304"></a>
 
 ## bruce gray weekly challenge
 
 
-<a id="orgcfee84d"></a>
+<a id="org8ca3692"></a>
 
 ### <https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-147/challenge-147/bruce-gray/raku>
 
 
-<a id="orgb5ae1fa"></a>
+<a id="org297ff83"></a>
 
 ### <https://theweeklychallenge.org/blog/perl-weekly-challenge-147/#TASK1>
 
 
-<a id="org82ae119"></a>
+<a id="org0afd31f"></a>
 
 ## rob dropped by: rir
 
 
-<a id="org6b5bf04"></a>
+<a id="org619a325"></a>
 
 ### playing with
 
@@ -100,7 +101,7 @@
         2.  factory pattern or abstract factory pattern
 
 
-<a id="orgeb61869"></a>
+<a id="orge6f95cc"></a>
 
 ### sather
 
@@ -119,26 +120,26 @@
         3.  <https://www1.icsi.berkeley.edu/~sather/Publications/article.html>
 
 
-<a id="orgf3259de"></a>
+<a id="org4ad8c9f"></a>
 
 ### intro to raku ideas
 
 1.  pair input, adverb syntax
 
 
-<a id="orge6271c4"></a>
+<a id="org58c129d"></a>
 
 ## topicettes
 
 
-<a id="org8daf3bc"></a>
+<a id="org7a32861"></a>
 
 ### fun stuff: take downs of bitcoin, blockchain, web3&#x2026;
 
 1.  <https://github.com/rufuspollock/awesome-crypto-critique>
 
 
-<a id="org86f0a43"></a>
+<a id="org9a5f001"></a>
 
 ### some recommended raku talks
 
@@ -153,7 +154,7 @@
     3.  Hyperoperators, Junctions, etc
 
 
-<a id="orgcc7e226"></a>
+<a id="org0684927"></a>
 
 ### raku vs python
 
@@ -162,12 +163,19 @@
 2.  um&#x2026; very interrresting.
 
 
-<a id="orga26bf70"></a>
+<a id="org380f9ff"></a>
+
+### regex stuff
+
+1.  <https://docs.raku.org/language/regexes#Tilde_for_nesting_structures>
+
+
+<a id="org2ab9cfb"></a>
 
 ## old topics, last meeting on the jan 02 (probably just delete, maybe followup)
 
 
-<a id="org068699b"></a>
+<a id="org73cd2e6"></a>
 
 ### custom associatives
 
@@ -184,7 +192,7 @@
     3.  <https://docs.raku.org/language/objects#index-entry-TWEAK>
 
 
-<a id="orgbc80833"></a>
+<a id="orgcd94bf5"></a>
 
 ### future topicettes:
 
@@ -193,31 +201,31 @@
     <https://donaldh.wtf/2021/01/if-sets-would-dwim/>
 
 
-<a id="orge2c804a"></a>
+<a id="orgd03807b"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="org89d84ee"></a>
+<a id="org83a210e"></a>
 
 ## announcments
 
 
-<a id="org5899b49"></a>
+<a id="orgfe2379d"></a>
 
 ### January 30th: next raku study group meeting
 
 
-<a id="org69bc48c"></a>
+<a id="orgf1d1ce0"></a>
 
 ### February 5-6: FOSDEM Raku talks
 
 1.  <https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/>
 
 
-<a id="orgede444e"></a>
+<a id="org2b0a7ea"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
