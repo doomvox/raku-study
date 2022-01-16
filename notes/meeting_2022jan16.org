@@ -14,7 +14,6 @@ https://github.com/rufuspollock/awesome-crypto-critique
 ===
 ** rob dropped by: rir 
 *** playing with 
-
 **** GTK on Raku 
 **** inclusions?
 **** like an include statement 
