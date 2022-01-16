@@ -48,6 +48,7 @@ https://donaldh.wtf/2021/01/if-sets-would-dwim/
 *** jonathan worthington, cro-ing
 **** https://raku-advent.blog/2021/12/19/let-it-cro/
 
+
 ** announcments 
 
 *** January 30th: next raku study group meeting
