@@ -13,7 +13,8 @@
 **** like an include statement 
 
 *** sather
-**** eiffel 
+**** like eiffel 
+***** https://www.eiffel.org/doc/eiffel/Learning_Eiffel 
 **** consistent typing system
 
 ***** 
