@@ -16,7 +16,7 @@ say @pents.head(2400).combinations(2).first(
 
 %p{ [+] .list ] 
 say @pents.head(2400).combinations(2).first(
-    {     %p{  [+] .list }
+    {         %p{  [+] .list }
           and %p{ [R-] .list } }
 ); 
 
