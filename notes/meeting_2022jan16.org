@@ -6,6 +6,24 @@
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md 
 *** https://github.com/doomvox/raku-study/bin/2022jan16
 
+
+https://github.com/rufuspollock/awesome-crypto-critique
+
+((weirdly, found this posted on twitter.))
+
+===
+** rob dropped by: rir 
+*** playing with 
+
+**** GTK on Raku 
+**** inclusions?
+**** like an include statement 
+
+*** Sather
+**** eiffel 
+**** consistent typing system
+  
+
 ** topicettes
 
 *** raku vs python
