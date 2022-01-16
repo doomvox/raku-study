@@ -32,7 +32,6 @@ https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
 ****** https://www1.icsi.berkeley.edu/~sather/Publications/article.html 
 
 *** intro to raku ideas
-
 **** pair input, adverb syntax
 
 
