@@ -15,6 +15,7 @@
 ***** parents need to know about children?
 ****** the role needs to know about parent
 ******* the role does the exporting?
+****** factory pattern or abstract factory pattern
 
 *** sather
 **** like eiffel 
