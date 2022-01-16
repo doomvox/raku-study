@@ -7,11 +7,10 @@
 *** https://github.com/doomvox/raku-study/bin/2022jan16
 
 
-https://github.com/rufuspollock/awesome-crypto-critique
 
-((weirdly, found this posted on twitter.))
 
-===
+
+
 ** rob dropped by: rir 
 *** playing with 
 **** GTK on Raku 
@@ -23,6 +22,9 @@ https://github.com/rufuspollock/awesome-crypto-critique
 **** consistent typing system
   
 ** topicettes
+
+*** fun
+**** https://github.com/rufuspollock/awesome-crypto-critique
 
 *** raku vs python
 **** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
