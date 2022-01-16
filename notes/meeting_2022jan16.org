@@ -15,7 +15,7 @@
 *** sather
 **** like eiffel 
 ***** https://www.eiffel.org/doc/eiffel/Learning_Eiffel 
-**** consistent typing system
+**** more consistent typing system
 
 ***** about sather
 ****** https://www1.icsi.berkeley.edu/~sather/ 
