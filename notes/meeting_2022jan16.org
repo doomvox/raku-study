@@ -22,7 +22,7 @@
 ****** https://www1.icsi.berkeley.edu/~sather/Publications/article.html 
 
 ** topicettes
-*** fun stuff 
+*** fun stuff: take downs of bitcoin, blockchain, web3...  
 **** https://github.com/rufuspollock/awesome-crypto-critique
 
 *** raku vs python
