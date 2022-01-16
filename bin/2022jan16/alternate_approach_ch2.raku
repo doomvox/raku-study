@@ -4,7 +4,7 @@
 
 use v6;
 
-constant @pents = map ->\n { n *(3*n - 1) div 2 }, 1..*;
+constant @pents = map -> \n { n *( 3*n - 1 ) div 2 }, 1..*;
 
 my %p = @pents.head(2400).Set;
 
