@@ -39,25 +39,14 @@
 ***** https://docs.raku.org/language/classtut#index-entry-BUILD
 ***** https://docs.raku.org/language/objects#index-entry-TWEAK
 
-*** new work on thread libraries for perl5
-**** https://metacpan.org/pod/Thread::Csp
-**** https://www.reddit.com/r/perl/comments/rrayau/new_threading_library_for_perl/
-**** commnicating sequential processes
-***** https://en.wikipedia.org/wiki/Communicating_sequential_processes
-***** https://www.cs.cmu.edu/~crary/819-f09/Hoare78.pdf
 
-*** also perl5: new release PDL 
-**** https://metacpan.org/pod/PDL
-
-*** jonathan worthington, cro-ing
-**** https://raku-advent.blog/2021/12/19/let-it-cro/
 
 *** future topicettes:
 **** getting sets to DWIM
 https://donaldh.wtf/2021/01/if-sets-would-dwim/
 
-*** bill had questions about exceptions to non-mutating operations
-**** push, pop
+*** jonathan worthington, cro-ing
+**** https://raku-advent.blog/2021/12/19/let-it-cro/
 
 ** announcments 
 
