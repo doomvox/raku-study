@@ -1,58 +1,58 @@
-- [meeting notes January 16, 2022](#orgcdd9c48)
-  - [the raku study group](#orgf46711c)
-  - [usual links](#org06c1abd)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md>](#org8c34ccf)
-    - [<https://github.com/doomvox/raku-study/bin/2022jan16>](#org64cae44)
-  - [rob dropped by: rir](#org10e656c)
-    - [playing with](#org381d7a8)
-    - [sather](#orgfd010ea)
-  - [topicettes](#org7078327)
-    - [fun stuff: take downs of bitcoin, blockchain, web3&#x2026;](#org6207853)
-    - [raku vs python](#orgda281e8)
-  - [old topics, last meeting on the jan 02 (probably just delete, maybe followup)](#org7455d1d)
-    - [custom associatives](#org7190c29)
-    - [new work on thread libraries for perl5](#org6fea707)
-    - [also perl5: new release PDL](#orgdc16883)
-    - [jonathan worthington, cro-ing](#org25c9739)
-    - [future topicettes:](#orga27a0c9)
-    - [bill had questions about exceptions to non-mutating operations](#org70a890a)
-  - [announcments](#org80179bf)
-    - [January 30th: next raku study group meeting](#orgb43b49f)
-    - [February 5-6: FOSDEM Raku talks](#orge531648)
-    - [June 21-25: tprc: perl/raku conference](#orgdba8024)
+- [meeting notes January 16, 2022](#org057b3d4)
+  - [the raku study group](#org3e8019c)
+  - [usual links](#org52d0cff)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md>](#orgb1dca87)
+    - [<https://github.com/doomvox/raku-study/bin/2022jan16>](#org610c4fe)
+  - [rob dropped by: rir](#org5de2dce)
+    - [playing with](#org93cc06e)
+    - [sather](#orgd8952d1)
+  - [topicettes](#org8e63ad9)
+    - [fun stuff: take downs of bitcoin, blockchain, web3&#x2026;](#org9eca5e8)
+    - [raku vs python](#org960afd8)
+  - [old topics, last meeting on the jan 02 (probably just delete, maybe followup)](#org2264575)
+    - [custom associatives](#orgfc8266a)
+    - [new work on thread libraries for perl5](#org7b344ff)
+    - [also perl5: new release PDL](#orgc8a10e5)
+    - [jonathan worthington, cro-ing](#org11d74b7)
+    - [future topicettes:](#org0e3f3f2)
+    - [bill had questions about exceptions to non-mutating operations](#org1f82aa2)
+  - [announcments](#orge147253)
+    - [January 30th: next raku study group meeting](#orgc04a79e)
+    - [February 5-6: FOSDEM Raku talks](#org134b25b)
+    - [June 21-25: tprc: perl/raku conference](#org57ec777)
 
 
-<a id="orgcdd9c48"></a>
+<a id="org057b3d4"></a>
 
 # meeting notes January 16, 2022
 
 
-<a id="orgf46711c"></a>
+<a id="org3e8019c"></a>
 
 ## the raku study group
 
 
-<a id="org06c1abd"></a>
+<a id="org52d0cff"></a>
 
 ## usual links
 
 
-<a id="org8c34ccf"></a>
+<a id="orgb1dca87"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md>
 
 
-<a id="org64cae44"></a>
+<a id="org610c4fe"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022jan16>
 
 
-<a id="org10e656c"></a>
+<a id="org5de2dce"></a>
 
 ## rob dropped by: rir
 
 
-<a id="org381d7a8"></a>
+<a id="org93cc06e"></a>
 
 ### playing with
 
@@ -63,7 +63,7 @@
 3.  like an include statement
 
 
-<a id="orgfd010ea"></a>
+<a id="orgd8952d1"></a>
 
 ### sather
 
@@ -82,19 +82,19 @@
         3.  <https://www1.icsi.berkeley.edu/~sather/Publications/article.html>
 
 
-<a id="org7078327"></a>
+<a id="org8e63ad9"></a>
 
 ## topicettes
 
 
-<a id="org6207853"></a>
+<a id="org9eca5e8"></a>
 
 ### fun stuff: take downs of bitcoin, blockchain, web3&#x2026;
 
 1.  <https://github.com/rufuspollock/awesome-crypto-critique>
 
 
-<a id="orgda281e8"></a>
+<a id="org960afd8"></a>
 
 ### raku vs python
 
@@ -103,12 +103,12 @@
 2.  um&#x2026; very interrresting.
 
 
-<a id="org7455d1d"></a>
+<a id="org2264575"></a>
 
 ## old topics, last meeting on the jan 02 (probably just delete, maybe followup)
 
 
-<a id="org7190c29"></a>
+<a id="orgfc8266a"></a>
 
 ### custom associatives
 
@@ -125,7 +125,7 @@
     3.  <https://docs.raku.org/language/objects#index-entry-TWEAK>
 
 
-<a id="org6fea707"></a>
+<a id="org7b344ff"></a>
 
 ### new work on thread libraries for perl5
 
@@ -140,21 +140,21 @@
     2.  <https://www.cs.cmu.edu/~crary/819-f09/Hoare78.pdf>
 
 
-<a id="orgdc16883"></a>
+<a id="orgc8a10e5"></a>
 
 ### also perl5: new release PDL
 
 1.  <https://metacpan.org/pod/PDL>
 
 
-<a id="org25c9739"></a>
+<a id="org11d74b7"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="orga27a0c9"></a>
+<a id="org0e3f3f2"></a>
 
 ### future topicettes:
 
@@ -163,31 +163,31 @@
     <https://donaldh.wtf/2021/01/if-sets-would-dwim/>
 
 
-<a id="org70a890a"></a>
+<a id="org1f82aa2"></a>
 
 ### bill had questions about exceptions to non-mutating operations
 
 1.  push, pop
 
 
-<a id="org80179bf"></a>
+<a id="orge147253"></a>
 
 ## announcments
 
 
-<a id="orgb43b49f"></a>
+<a id="orgc04a79e"></a>
 
 ### January 30th: next raku study group meeting
 
 
-<a id="orge531648"></a>
+<a id="org134b25b"></a>
 
 ### February 5-6: FOSDEM Raku talks
 
 1.  <https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/>
 
 
-<a id="orgdba8024"></a>
+<a id="org57ec777"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
