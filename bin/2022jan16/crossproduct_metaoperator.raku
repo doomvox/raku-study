@@ -4,9 +4,10 @@
 
 use v6;
 
+my @current_gen = 2, 3, 7, 13;
 
-
-(1..9) X~ @current_gen);
+my @stuff = 
+  (1..9) X~ @current_gen;
 
 
 
