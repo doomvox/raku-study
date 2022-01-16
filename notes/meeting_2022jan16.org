@@ -8,7 +8,6 @@
 *** my talk:
 https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
 
-
 **  bruce gray weekly challenge
 *** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-147/challenge-147/bruce-gray/raku 
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-147/#TASK1 
