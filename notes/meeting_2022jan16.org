@@ -31,6 +31,12 @@ https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
 ****** https://omohundro.files.wordpress.com/2009/03/omohundro94_the_sather_programming_language.pdf 
 ****** https://www1.icsi.berkeley.edu/~sather/Publications/article.html 
 
+*** intro to raku ideas
+
+**** pair input, adverb syntax
+
+
+
 ** topicettes
 *** fun stuff: take downs of bitcoin, blockchain, web3...  
 **** https://github.com/rufuspollock/awesome-crypto-critique
