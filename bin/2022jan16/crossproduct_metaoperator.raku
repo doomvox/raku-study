@@ -25,6 +25,7 @@ say @mfiles;
 
 
 
+# hashes abused like sets
 my %hash = @array X=> 1; 
 
 ## perl5
