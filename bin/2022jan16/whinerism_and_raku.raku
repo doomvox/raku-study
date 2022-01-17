@@ -64,8 +64,8 @@ say %h1 eqv %h2;
     # ((a => 1 b => 2) (a => 1 a => 1) (b => 2 b => 2) (b => 2 a => 1))
     say %h1.List X %h2.List;
     # ((a => 1 b => 2) (a => 1 a => 1) (b => 2 b => 2) (b => 2 a => 1))
-
-    ## order is undefined, can vary
+    ## order is undefined, can vary, e.g. 
+    # ((b => 2 b => 2) (b => 2 a => 1) (a => 1 b => 2) (a => 1 a => 1))
 
     say %h1.list.sort X %h2.list.sort;
     # ((a => 1 a => 1) (a => 1 b => 2) (b => 2 a => 1) (b => 2 b => 2))}
