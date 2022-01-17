@@ -43,19 +43,21 @@ say ^16;  # ^16    ## a Sequence with gist like so...
 # Spaces in the middle of the operator aren't okay:
 #      . . . ^
 
+# These are all the same:
 say 1 ...^ 3;  # (1 2)
 say 1...^ 3;   # (1 2)
 say 1 ...^3;   # (1 2)
 say 1...^3;    # (1 2)
 
 
+## This isn't the same:
 # say 1 ... ^3;   # no warning... why exactly?
 
 say "---";
 say 3 ... 0, 1, 2;  # (3 2 1 0 1 2)
 say 3 ... ^3;       # (3 2 1 0 1 2)
 
-# Maybe LTA that there's no warning:
+# So maybe it is LTA that there's no warning:
 #   Did you mean "...^"?
 
 ## Note that you need a space on if(), but there's a warning that explains:
