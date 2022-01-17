@@ -6,7 +6,7 @@
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md 
 *** https://github.com/doomvox/raku-study/bin/2022jan30
 
-*** my talk:
+** talking about how the sv perl talk went:
 https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
 
 **  bruce gray weekly challenge
