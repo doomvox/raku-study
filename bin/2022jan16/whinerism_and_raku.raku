@@ -30,12 +30,21 @@ my %h2 = {a=>1, b=>2};
 say %h1 eqv %h2;
 # True
 
-say "===";
-my %fried1 = ( {one=>'1', two=>'2'}, {alpha=>'a', beta=>'b', extra => { something => 'or_other', whatever => 'nada' }} );
-my %fried2 = ( {one=>'1', two=>'2'}, {alpha=>'A', beta=>'B', extra => { something => 'Or_other', whatever => 'nada' }} );
-say %fried1 eqv %fried2;
-# True
+{
+    say "===";
+    my %fried1 = ( {one=>'1', two=>'2'}, {alpha=>'a', beta=>'b', extra => { something => 'or_other', whatever => 'nada' }} );
+    my %fried2 = ( {one=>'1', two=>'2'}, {alpha=>'A', beta=>'B', extra => { something => 'Or_other', whatever => 'nada' }} );
+    say %fried1 eqv %fried2;
+    # False
+}
 
+{
+    say "===";
+    my %fried1 = ( {one=>'1', two=>'2'}, {alpha=>'a', beta=>'b', extra => { something => 'or_other', whatever => 'nada' }} );
+    my %fried2 = ( {one=>'1', two=>'2'}, {alpha=>'A', beta=>'B', extra => { something => 'Or_other', whatever => 'nada' }} );
+    say %fried1 eqv %fried2;
+    # False
+}
 
 say %h1 X %h2;
 # ((b => 2 a => 1) (b => 2 b => 2) (a => 1 a => 1) (a => 1 b => 2))
