@@ -60,3 +60,6 @@ say 3 ... ^3;       # (3 2 1 0 1 2)
 
 
 if(1) { say 'nope'; }
+
+# The word 'if' is interpreted as a 'if()' function call.  Please use
+# whitespace instead of parentheses.
