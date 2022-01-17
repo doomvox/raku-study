@@ -82,7 +82,7 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
 *** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
 *** um... very interrresting. 
 
-*** my talk:
+*** my talk for sv perl
 https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
 
 **  bruce gray weekly challenge
