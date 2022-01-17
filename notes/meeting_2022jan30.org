@@ -74,6 +74,7 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
 
 
 ** topicettes, perhaps
+
 *** raku vs python
 **** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
 **** um... very interrresting. 
