@@ -7,7 +7,6 @@
 *** https://github.com/doomvox/raku-study/bin/2022jan30
 
 ** topicettes
-
 *** rob ransbottom (rir) had questions:
 **** playing with 
 ***** parents need to know about children?
