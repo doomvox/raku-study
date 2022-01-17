@@ -145,7 +145,6 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
 *** intro to raku ideas
 **** pair input, adverb syntax
 
-** topicettes
 *** fun stuff: take downs of bitcoin, blockchain, web3...  
 **** https://github.com/rufuspollock/awesome-crypto-critique
 
