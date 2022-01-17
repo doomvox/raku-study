@@ -11,7 +11,7 @@
 
 *** ideas for other things to cover:
 **** pair input, adverb syntax
-**** junctions and hyper operators 
+**** junctions and hyper operators, etc:
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021feb28/hyperism.pl6
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021feb28/hyperism_in_pairs.pl6
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021feb28/reductionism.pl6
