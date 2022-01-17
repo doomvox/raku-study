@@ -165,7 +165,6 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
 
 
 ** old topics, last meeting on the jan 02 (probably just delete, maybe followup)
-
 *** future topicettes:
 **** getting sets to DWIM
 https://donaldh.wtf/2021/01/if-sets-would-dwim/
