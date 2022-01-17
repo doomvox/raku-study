@@ -144,18 +144,6 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
 **** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
 **** um... very interrresting. 
 
-** old topics:
-
-
-*** future topicettes:
-**** getting sets to DWIM
-https://donaldh.wtf/2021/01/if-sets-would-dwim/
-
-*** jonathan worthington, cro-ing
-**** https://raku-advent.blog/2021/12/19/let-it-cro/
-
-
-
 *** getting sets to DWIM
 **** https://donaldh.wtf/2021/01/if-sets-would-dwim/
 
