@@ -74,7 +74,6 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
 *** https://dev.to/taw/languages-speedrun-episode-26-raku-perl-6-4emf
 *** https://dev.to/taw/100-languages-speedrun-episode-47-raku-perl-6-regular-expressions-4p8n
 
-
 ** fun stuff: take downs of bitcoin, blockchain, web3, etc
 *** https://github.com/rufuspollock/awesome-crypto-critique
 
