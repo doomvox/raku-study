@@ -24,4 +24,5 @@ use Test;
 is-deeply( {b=>2, a=>1}, {a=>1, b=>2} );
 # ok 1 - 
 
-
+my %h1 = {b=>2, a=>1};
+my %h2 = {a=>1, b=>2};
