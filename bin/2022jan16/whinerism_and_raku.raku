@@ -63,6 +63,8 @@ say %h1 eqv %h2;
     # ((a => 1 b => 2) (a => 1 a => 1) (b => 2 b => 2) (b => 2 a => 1))
     # Previously:
     # ((b => 2 a => 1) (b => 2 b => 2) (a => 1 a => 1) (a => 1 b => 2))
+    say %h1.List X %h2.List;
+
 
 }
 
