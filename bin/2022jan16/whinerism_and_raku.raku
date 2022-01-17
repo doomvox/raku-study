@@ -21,4 +21,4 @@ say {b=>2, a=>1}.Str;
 # b	2
 
 use Test;
-is_deeply( {b=>2, a=>1}, {a=>1, b=>2} );
+is-deeply( {b=>2, a=>1}, {a=>1, b=>2} );
