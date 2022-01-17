@@ -13,7 +13,6 @@ https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-147/#TASK1 
 
 *** alternate approach to 2:
-
 #+BEGIN_SRC sh
 time raku -e 'constant @pents = map ->\n { n *(3*n - 1) div 2 }, 1..*;
 
