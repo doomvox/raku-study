@@ -1,64 +1,64 @@
-- [meeting notes January 30, 2022](#org7fa530f)
-  - [the raku study group](#org713e26b)
-    - [Don't Raku the boat](#orgc734e50)
-  - [usual links to the meeting material](#org6e25096)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md>](#org175e59d)
-    - [<https://github.com/doomvox/raku-study/bin/2022jan30>](#org541242b)
-  - [rob ransbottom (rir) had questions:](#org4a190c7)
-    - [playing with](#orgfa378b8)
-    - [sather](#org74f99c4)
-  - [taw the whiner does shallow looks (I mean "speed runs")](#org9ab1054)
-    - [<https://dev.to/taw/languages-speedrun-episode-26-raku-perl-6-4emf>](#org7feb0e6)
-    - [<https://dev.to/taw/100-languages-speedrun-episode-47-raku-perl-6-regular-expressions-4p8n>](#orga9403e4)
-  - [topicettes, perhaps](#org9a63639)
-    - [raku vs python](#org409cbb2)
-    - [getting sets to DWIM](#org4e55e11)
-    - [jonathan worthington, cro-ing](#orgb06605d)
-  - [talking about how the sv perl talk went:](#org6c4b51e)
-    - [<https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku>](#orgbedca29)
-    - [ideas for other things to cover:](#org4f2521e)
-  - [announcments](#orgd3a51bc)
-    - [January 30th: next raku study group meeting](#org679ac9d)
-    - [February 5-6: FOSDEM Raku talks](#org1e1cb78)
-    - [June 21-25: tprc: perl/raku conference](#orgc67cddf)
+- [meeting notes January 30, 2022](#orgf9b9978)
+  - [the raku study group](#org2ae55c0)
+    - [Don't Raku the boat](#org1714b21)
+  - [usual links to the meeting material](#org6d36461)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md>](#org905e536)
+    - [<https://github.com/doomvox/raku-study/bin/2022jan30>](#org5ee6c0f)
+  - [rob ransbottom (rir) had questions:](#org98c1de7)
+    - [playing with](#org8782ce6)
+    - [sather](#orge0d0780)
+  - [taw the whiner does shallow looks (I mean "speed runs")](#org4323b35)
+    - [<https://dev.to/taw/languages-speedrun-episode-26-raku-perl-6-4emf>](#org98f77ff)
+    - [<https://dev.to/taw/100-languages-speedrun-episode-47-raku-perl-6-regular-expressions-4p8n>](#orge78765b)
+  - [topicettes, perhaps](#orgf55d81c)
+    - [raku vs python](#orgca3068e)
+    - [getting sets to DWIM](#org74e6d0e)
+    - [jonathan worthington, cro-ing](#orgff32c1c)
+  - [talking about how the sv perl talk went:](#orgbcbd62f)
+    - [<https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku>](#orgb320524)
+    - [ideas for other things to cover:](#orgea24ba2)
+  - [announcments](#orgf25c44e)
+    - [January 30th: next raku study group meeting](#org349d5b2)
+    - [February 5-6: FOSDEM Raku talks](#org9184b46)
+    - [June 21-25: tprc: perl/raku conference](#orgb6b5930)
 
 
-<a id="org7fa530f"></a>
+<a id="orgf9b9978"></a>
 
 # meeting notes January 30, 2022
 
 
-<a id="org713e26b"></a>
+<a id="org2ae55c0"></a>
 
 ## the raku study group
 
 
-<a id="orgc734e50"></a>
+<a id="org1714b21"></a>
 
 ### Don't Raku the boat
 
 
-<a id="org6e25096"></a>
+<a id="org6d36461"></a>
 
 ## usual links to the meeting material
 
 
-<a id="org175e59d"></a>
+<a id="org905e536"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md>
 
 
-<a id="org541242b"></a>
+<a id="org5ee6c0f"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022jan30>
 
 
-<a id="org4a190c7"></a>
+<a id="org98c1de7"></a>
 
 ## rob ransbottom (rir) had questions:
 
 
-<a id="orgfa378b8"></a>
+<a id="org8782ce6"></a>
 
 ### playing with
 
@@ -72,16 +72,8 @@
     
     2.  factory pattern or abstract factory pattern
 
-1.  inclusions?
 
-    1.  wants something like an include statement?
-    
-        1.  has looked at roles
-        
-        2.  bruce recommends parameterized roles
-
-
-<a id="org74f99c4"></a>
+<a id="orge0d0780"></a>
 
 ### sather
 
@@ -100,27 +92,27 @@
         3.  <https://www1.icsi.berkeley.edu/~sather/Publications/article.html>
 
 
-<a id="org9ab1054"></a>
+<a id="org4323b35"></a>
 
 ## taw the whiner does shallow looks (I mean "speed runs")
 
 
-<a id="org7feb0e6"></a>
+<a id="org98f77ff"></a>
 
 ### <https://dev.to/taw/languages-speedrun-episode-26-raku-perl-6-4emf>
 
 
-<a id="orga9403e4"></a>
+<a id="orge78765b"></a>
 
 ### <https://dev.to/taw/100-languages-speedrun-episode-47-raku-perl-6-regular-expressions-4p8n>
 
 
-<a id="org9a63639"></a>
+<a id="orgf55d81c"></a>
 
 ## topicettes, perhaps
 
 
-<a id="org409cbb2"></a>
+<a id="orgca3068e"></a>
 
 ### raku vs python
 
@@ -129,31 +121,31 @@
 2.  um&#x2026; very interrresting.
 
 
-<a id="org4e55e11"></a>
+<a id="org74e6d0e"></a>
 
 ### getting sets to DWIM
 
 1.  <https://donaldh.wtf/2021/01/if-sets-would-dwim/>
 
 
-<a id="orgb06605d"></a>
+<a id="orgff32c1c"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="org6c4b51e"></a>
+<a id="orgbcbd62f"></a>
 
 ## talking about how the sv perl talk went:
 
 
-<a id="orgbedca29"></a>
+<a id="orgb320524"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku>
 
 
-<a id="org4f2521e"></a>
+<a id="orgea24ba2"></a>
 
 ### ideas for other things to cover:
 
@@ -178,24 +170,24 @@
             2.  <https://www.youtube.com/watch?v=elalwvfmYgk>
 
 
-<a id="orgd3a51bc"></a>
+<a id="orgf25c44e"></a>
 
 ## announcments
 
 
-<a id="org679ac9d"></a>
+<a id="org349d5b2"></a>
 
 ### January 30th: next raku study group meeting
 
 
-<a id="org1e1cb78"></a>
+<a id="org9184b46"></a>
 
 ### February 5-6: FOSDEM Raku talks
 
 1.  <https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/>
 
 
-<a id="orgc67cddf"></a>
+<a id="orgb6b5930"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

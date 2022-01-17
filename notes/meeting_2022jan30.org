@@ -17,10 +17,6 @@
 ****** factory pattern or abstract factory pattern
 
 
-**** inclusions?
-***** wants something like an include statement?
-****** has looked at roles
-****** bruce recommends parameterized roles
 
 *** sather
 **** like eiffel 
