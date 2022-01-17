@@ -22,3 +22,4 @@ say "monster-" X~ @monsters;
 my @mfiles = @monsters X~ ".dat";
 say @mfiles;
 # [blob.dat tingler.dat godzilla.dat]
+
