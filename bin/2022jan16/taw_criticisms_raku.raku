@@ -1,6 +1,7 @@
 #!/usr/bin/env perl6
 # 
-# whinerism_and_raku.raku            16 Jan 2022 
+# taw_criticisms_abusing_eq_when_he_should_use_eqv.raku            16 Jan 2022 
+
 
 # taw:
 # https://dev.to/taw/languages-speedrun-episode-26-raku-perl-6-4emf
