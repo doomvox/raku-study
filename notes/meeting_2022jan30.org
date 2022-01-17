@@ -16,19 +16,6 @@
 ******* bruce gray recommends parameterized roles
 ****** factory pattern or abstract factory pattern
 
-
-
-*** sather
-**** like eiffel 
-***** https://www.eiffel.org/doc/eiffel/Learning_Eiffel 
-**** more consistent typing system
-
-***** about sather
-****** https://www1.icsi.berkeley.edu/~sather/ 
-****** https://omohundro.files.wordpress.com/2009/03/omohundro94_the_sather_programming_language.pdf 
-****** https://www1.icsi.berkeley.edu/~sather/Publications/article.html 
-
-
 ** taw the whiner does shallow looks (I mean "speed runs")
 *** https://dev.to/taw/languages-speedrun-episode-26-raku-perl-6-4emf
 *** https://dev.to/taw/100-languages-speedrun-episode-47-raku-perl-6-regular-expressions-4p8n
