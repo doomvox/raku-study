@@ -33,6 +33,7 @@ say 8 ... ^16  ;  # now I want 8 elements--get 24 instead, WAT? :  ## Q: NO WARN
 
 say ^16;  # ^16
 
-^16 for .say; # (Any)
-
 .say for ^3;
+# 0
+# 1
+# 2
