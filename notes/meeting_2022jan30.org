@@ -17,7 +17,7 @@
 ***** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/Z8-videos_on_raku.org
 ******* Leon Timmermans, "Raku syntax I miss in other languages', Jun 8, 2021
 ******* https://www.youtube.com/watch?v=elalwvfmYgk
-******* Hyperoperators, Junctions, etc
+
 
 **  bruce gray on the weekly challenge
 *** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-147/challenge-147/bruce-gray/raku 
