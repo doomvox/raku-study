@@ -1,0 +1,98 @@
+* meeting notes January 30, 2022
+** the raku study group
+*** Raku the boat ashore, you.
+
+** usual links
+*** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md 
+*** https://github.com/doomvox/raku-study/bin/2022jan30
+
+*** my talk:
+https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
+
+**  bruce gray weekly challenge
+*** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-147/challenge-147/bruce-gray/raku 
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-147/#TASK1 
+
+*** alternate approach to 2:
+#+BEGIN_SRC sh
+time raku -e 'constant @pents = map ->\n { n *(3*n - 1) div 2 }, 1..*;
+
+my %p = @pents.head(2400).Set;
+say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
+#+END_SRC
+
+**** result:
+***** (1560090 7042750)
+***** real 0m6.258s
+***** user 0m5.683s
+***** sys 0m0.157s 
+
+** rob ransbottom dropped by: rir 
+*** playing with 
+**** gtk on raku 
+**** inclusions?
+***** wants something like an include statement?
+****** has looked at roles
+****** bruce recommends parameterized roles
+***** parents need to know about children?
+****** the role needs to know about parent
+******* the role does the exporting?
+****** factory pattern or abstract factory pattern
+
+*** sather
+**** like eiffel 
+***** https://www.eiffel.org/doc/eiffel/Learning_Eiffel 
+**** more consistent typing system
+
+***** about sather
+****** https://www1.icsi.berkeley.edu/~sather/ 
+****** https://omohundro.files.wordpress.com/2009/03/omohundro94_the_sather_programming_language.pdf 
+****** https://www1.icsi.berkeley.edu/~sather/Publications/article.html 
+
+*** intro to raku ideas
+**** pair input, adverb syntax
+
+** topicettes
+*** fun stuff: take downs of bitcoin, blockchain, web3...  
+**** https://github.com/rufuspollock/awesome-crypto-critique
+
+*** some recommended raku talks
+**** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/Z8-videos_on_raku.org
+**** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/Z8-videos_on_raku.org
+******* Leon Timmermans, "Raku syntax I miss in other languages', Jun 8, 2021
+******* https://www.youtube.com/watch?v=elalwvfmYgk
+******* Hyperoperators, Junctions, etc
+
+*** raku vs python
+**** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
+**** um... very interrresting. 
+
+*** regex stuff
+**** https://docs.raku.org/language/regexes#Tilde_for_nesting_structures 
+
+
+** old topics, last meeting on the jan 02 (probably just delete, maybe followup)
+
+*** custom associatives
+**** brad gilbert write-up:
+***** https://stackoverflow.com/questions/63050032/can-i-write-an-object-that-behaves-like-a-hash/63059286#63059286
+**** secret documentation
+***** https://docs.raku.org/language/subscripts#Methods_to_implement_for_associative_subscripting
+***** https://docs.raku.org/language/classtut#index-entry-BUILD
+***** https://docs.raku.org/language/objects#index-entry-TWEAK
+
+*** future topicettes:
+**** getting sets to DWIM
+https://donaldh.wtf/2021/01/if-sets-would-dwim/
+
+*** jonathan worthington, cro-ing
+**** https://raku-advent.blog/2021/12/19/let-it-cro/
+
+** announcments 
+*** January 30th: next raku study group meeting
+
+*** February 5-6: FOSDEM Raku talks
+**** https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/
+
+*** June 21-25: tprc: perl/raku conference 
+**** https://perlconference.us/tprc-2022-hou/
