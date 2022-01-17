@@ -2,6 +2,10 @@
 # 
 # whinerism_and_raku.raku            16 Jan 2022 
 
+# taw:
+# https://dev.to/taw/languages-speedrun-episode-26-raku-perl-6-4emf
+# https://dev.to/taw/100-languages-speedrun-episode-47-raku-perl-6-regular-expressions-4p8n
+
 use v6;
 
 
