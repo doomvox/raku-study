@@ -58,6 +58,7 @@ say 3 ... ^3;       # (3 2 1 0 1 2)
 # Maybe LTA that there's no warning:
 #   Did you mean "...^"?
 
+## Note that you need a space on if(), but there's a warning that explains:
 
 if(1) { say 'nope'; }
 # The word 'if' is interpreted as a 'if()' function call.  Please use
