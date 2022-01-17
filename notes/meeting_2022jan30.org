@@ -6,7 +6,6 @@
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md 
 *** https://github.com/doomvox/raku-study/bin/2022jan30
 
-
 ** talking about how the sv perl talk went:
 *** https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
 
