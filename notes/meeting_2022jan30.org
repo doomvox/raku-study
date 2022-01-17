@@ -7,7 +7,7 @@
 *** https://github.com/doomvox/raku-study/bin/2022jan30
 
 
-** future topicettes
+** topicettes
 
 *** rob ransbottom (rir) had questions:
 **** playing with 
