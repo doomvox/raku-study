@@ -27,10 +27,8 @@
 *** jonathan worthington, cro-ing
 **** https://raku-advent.blog/2021/12/19/let-it-cro/
 
-** talking about how the sv perl talk went:
-*** https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
 
-*** ideas for other things to cover:
+*** raku subjects
 **** pair input, adverb syntax
 **** junctions and hyper operators, etc:
 ***** Some examples: https://github.com/doomvox/raku-study/bin/2021feb28
@@ -41,6 +39,11 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/Z8-videos_on_raku.org
 ******* Leon Timmermans, "Raku syntax I miss in other languages', Jun 8, 2021
 ******* https://www.youtube.com/watch?v=elalwvfmYgk
+
+
+**** maybe add slides to stash of introductory raku examples (a new project?)
+***** https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
+
 
 
 ** announcments 
