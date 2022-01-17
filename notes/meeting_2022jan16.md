@@ -1,85 +1,84 @@
-- [meeting notes January 16, 2022](#org5920483)
-  - [the raku study group](#org9c4e5c4)
-  - [usual links](#org36a5706)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md>](#org6d9323e)
-    - [<https://github.com/doomvox/raku-study/bin/2022jan16>](#org27962b5)
-  - [talking about how the sv perl talk went:](#orgb6b0261)
-    - [<https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku>](#org92704b4)
-    - [ideas for other things to cover:](#org318c413)
-  - [bruce gray on the weekly challenge](#orgad3c37e)
-    - [<https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-147/challenge-147/bruce-gray/raku>](#org6b1fce1)
-    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-147/#TASK1>](#org0b9839a)
-    - [alternate approach to 2:](#org49bd914)
-  - [rob ransbottom dropped by: rir](#orgdae693b)
-    - [playing with](#orge6d12c0)
-    - [sather](#org4ccaf78)
-  - [taw the whiner does shallow looks (I mean "speed runs")](#org64b38c7)
-    - [<https://dev.to/taw/languages-speedrun-episode-26-raku-perl-6-4emf>](#orgf86803e)
-    - [<https://dev.to/taw/100-languages-speedrun-episode-47-raku-perl-6-regular-expressions-4p8n>](#orgbe54d99)
-  - [topicettes](#org6ab25bd)
-    - [fun stuff: take downs of bitcoin, blockchain, web3, etc](#orgc55c79a)
-    - [raku vs python](#org5336baf)
-    - [regex stuff](#orgc7e4ce8)
-    - [my talk:](#org8bd7d68)
-  - [bruce gray weekly challenge](#orgdf1348b)
-    - [<https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-147/challenge-147/bruce-gray/raku>](#org9da05c8)
-    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-147/#TASK1>](#org312684a)
-    - [alternate approach to 2:](#org2d4c024)
-  - [rob ransbottom dropped by: rir](#org8ce3775)
-    - [playing with](#org582724e)
-    - [sather](#org69d957f)
-    - [intro to raku ideas](#orgb34b647)
-    - [fun stuff: take downs of bitcoin, blockchain, web3&#x2026;](#orgdbce635)
-    - [some recommended raku talks](#orgdedbb3d)
-    - [raku vs python](#orgf96e3b4)
-  - [old topics:](#org7a6512e)
-    - [custom associatives](#orgb56cfab)
-    - [future topicettes:](#org716fcd8)
-    - [jonathan worthington, cro-ing](#org5f44866)
-    - [getting sets to DWIM](#org81c9885)
-    - [jonathan worthington, cro-ing](#orgc1de05c)
-  - [announcments](#orgc1fe0e3)
-    - [January 30th: next raku study group meeting](#orgd9035ca)
-    - [February 5-6: FOSDEM Raku talks](#orgaf18b59)
-    - [June 21-25: tprc: perl/raku conference](#orgee75bef)
+- [meeting notes January 16, 2022](#org5dabcb6)
+  - [the raku study group](#orgdd4f0da)
+  - [usual links](#org0172d9d)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md>](#org37d2c16)
+    - [<https://github.com/doomvox/raku-study/bin/2022jan16>](#orgb1a1e9d)
+  - [talking about how the sv perl talk went:](#org5e0f0ee)
+    - [<https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku>](#org314bffa)
+    - [ideas for other things to cover:](#org7def6e7)
+  - [bruce gray on the weekly challenge](#orgfe86750)
+    - [<https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-147/challenge-147/bruce-gray/raku>](#orgdbfe918)
+    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-147/#TASK1>](#org1eaa64e)
+    - [alternate approach to 2:](#orgc9457a3)
+  - [rob ransbottom dropped by: rir](#org6ce94c0)
+    - [playing with](#orge275310)
+    - [sather](#orgc9007d7)
+  - [taw the whiner does shallow looks (I mean "speed runs")](#org7191183)
+    - [<https://dev.to/taw/languages-speedrun-episode-26-raku-perl-6-4emf>](#orgd019cfa)
+    - [<https://dev.to/taw/100-languages-speedrun-episode-47-raku-perl-6-regular-expressions-4p8n>](#org00fe4fc)
+  - [topicettes](#orgff56264)
+    - [fun stuff: take downs of bitcoin, blockchain, web3, etc](#orgc8e7cf9)
+    - [raku vs python](#orgeb75a34)
+    - [regex stuff](#orga9bc9e2)
+    - [my talk:](#org1cbd7fe)
+  - [bruce gray weekly challenge](#org42b7e22)
+    - [<https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-147/challenge-147/bruce-gray/raku>](#orgb36253b)
+    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-147/#TASK1>](#org8cf6a19)
+    - [alternate approach to 2:](#orga6bf145)
+  - [rob ransbottom dropped by: rir](#org9ed87c4)
+    - [playing with](#org1b0e1ed)
+    - [sather](#org09f30af)
+    - [intro to raku ideas](#orgfd3c315)
+    - [fun stuff: take downs of bitcoin, blockchain, web3&#x2026;](#orgac252b2)
+    - [some recommended raku talks](#orgcd1547e)
+    - [raku vs python](#org89a2631)
+  - [old topics:](#org16d51fb)
+    - [future topicettes:](#orgcbdf028)
+    - [jonathan worthington, cro-ing](#orgfee448a)
+    - [getting sets to DWIM](#org61c3016)
+    - [jonathan worthington, cro-ing](#org5f91a3a)
+  - [announcments](#org76156d5)
+    - [January 30th: next raku study group meeting](#org99a75ba)
+    - [February 5-6: FOSDEM Raku talks](#org2c48e43)
+    - [June 21-25: tprc: perl/raku conference](#org59e7cba)
 
 
-<a id="org5920483"></a>
+<a id="org5dabcb6"></a>
 
 # meeting notes January 16, 2022
 
 
-<a id="org9c4e5c4"></a>
+<a id="orgdd4f0da"></a>
 
 ## the raku study group
 
 
-<a id="org36a5706"></a>
+<a id="org0172d9d"></a>
 
 ## usual links
 
 
-<a id="org6d9323e"></a>
+<a id="org37d2c16"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md>
 
 
-<a id="org27962b5"></a>
+<a id="orgb1a1e9d"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022jan16>
 
 
-<a id="orgb6b0261"></a>
+<a id="org5e0f0ee"></a>
 
 ## talking about how the sv perl talk went:
 
 
-<a id="org92704b4"></a>
+<a id="org314bffa"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku>
 
 
-<a id="org318c413"></a>
+<a id="org7def6e7"></a>
 
 ### ideas for other things to cover:
 
@@ -104,22 +103,22 @@
             2.  <https://www.youtube.com/watch?v=elalwvfmYgk>
 
 
-<a id="orgad3c37e"></a>
+<a id="orgfe86750"></a>
 
 ## bruce gray on the weekly challenge
 
 
-<a id="org6b1fce1"></a>
+<a id="orgdbfe918"></a>
 
 ### <https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-147/challenge-147/bruce-gray/raku>
 
 
-<a id="org0b9839a"></a>
+<a id="org1eaa64e"></a>
 
 ### <https://theweeklychallenge.org/blog/perl-weekly-challenge-147/#TASK1>
 
 
-<a id="org49bd914"></a>
+<a id="orgc9457a3"></a>
 
 ### alternate approach to 2:
 
@@ -141,12 +140,12 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
     4.  sys 0m0.157s
 
 
-<a id="orgdae693b"></a>
+<a id="org6ce94c0"></a>
 
 ## rob ransbottom dropped by: rir
 
 
-<a id="orge6d12c0"></a>
+<a id="orge275310"></a>
 
 ### playing with
 
@@ -173,7 +172,7 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
         1.  <https://docs.raku.org/language/regexes#Tilde_for_nesting_structures>
 
 
-<a id="org4ccaf78"></a>
+<a id="orgc9007d7"></a>
 
 ### sather
 
@@ -192,34 +191,34 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
         3.  <https://www1.icsi.berkeley.edu/~sather/Publications/article.html>
 
 
-<a id="org64b38c7"></a>
+<a id="org7191183"></a>
 
 ## taw the whiner does shallow looks (I mean "speed runs")
 
 
-<a id="orgf86803e"></a>
+<a id="orgd019cfa"></a>
 
 ### <https://dev.to/taw/languages-speedrun-episode-26-raku-perl-6-4emf>
 
 
-<a id="orgbe54d99"></a>
+<a id="org00fe4fc"></a>
 
 ### <https://dev.to/taw/100-languages-speedrun-episode-47-raku-perl-6-regular-expressions-4p8n>
 
 
-<a id="org6ab25bd"></a>
+<a id="orgff56264"></a>
 
 ## topicettes
 
 
-<a id="orgc55c79a"></a>
+<a id="orgc8e7cf9"></a>
 
 ### fun stuff: take downs of bitcoin, blockchain, web3, etc
 
 1.  <https://github.com/rufuspollock/awesome-crypto-critique>
 
 
-<a id="org5336baf"></a>
+<a id="orgeb75a34"></a>
 
 ### raku vs python
 
@@ -228,36 +227,36 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
 2.  um&#x2026; very interrresting.
 
 
-<a id="orgc7e4ce8"></a>
+<a id="orga9bc9e2"></a>
 
 ### regex stuff
 
 1.  <https://docs.raku.org/language/regexes#Tilde_for_nesting_structures>
 
 
-<a id="org8bd7d68"></a>
+<a id="org1cbd7fe"></a>
 
 ### my talk:
 
 <https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku>
 
 
-<a id="orgdf1348b"></a>
+<a id="org42b7e22"></a>
 
 ## bruce gray weekly challenge
 
 
-<a id="org9da05c8"></a>
+<a id="orgb36253b"></a>
 
 ### <https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-147/challenge-147/bruce-gray/raku>
 
 
-<a id="org312684a"></a>
+<a id="org8cf6a19"></a>
 
 ### <https://theweeklychallenge.org/blog/perl-weekly-challenge-147/#TASK1>
 
 
-<a id="org2d4c024"></a>
+<a id="orga6bf145"></a>
 
 ### alternate approach to 2:
 
@@ -279,12 +278,12 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
     4.  sys 0m0.157s
 
 
-<a id="org8ce3775"></a>
+<a id="org9ed87c4"></a>
 
 ## rob ransbottom dropped by: rir
 
 
-<a id="org582724e"></a>
+<a id="org1b0e1ed"></a>
 
 ### playing with
 
@@ -307,7 +306,7 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
         2.  factory pattern or abstract factory pattern
 
 
-<a id="org69d957f"></a>
+<a id="org09f30af"></a>
 
 ### sather
 
@@ -326,21 +325,21 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
         3.  <https://www1.icsi.berkeley.edu/~sather/Publications/article.html>
 
 
-<a id="orgb34b647"></a>
+<a id="orgfd3c315"></a>
 
 ### intro to raku ideas
 
 1.  pair input, adverb syntax
 
 
-<a id="orgdbce635"></a>
+<a id="orgac252b2"></a>
 
 ### fun stuff: take downs of bitcoin, blockchain, web3&#x2026;
 
 1.  <https://github.com/rufuspollock/awesome-crypto-critique>
 
 
-<a id="orgdedbb3d"></a>
+<a id="orgcd1547e"></a>
 
 ### some recommended raku talks
 
@@ -355,7 +354,7 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
     3.  Hyperoperators, Junctions, etc
 
 
-<a id="orgf96e3b4"></a>
+<a id="org89a2631"></a>
 
 ### raku vs python
 
@@ -364,29 +363,12 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
 2.  um&#x2026; very interrresting.
 
 
-<a id="org7a6512e"></a>
+<a id="org16d51fb"></a>
 
 ## old topics:
 
 
-<a id="orgb56cfab"></a>
-
-### custom associatives
-
-1.  brad gilbert write-up:
-
-    1.  <https://stackoverflow.com/questions/63050032/can-i-write-an-object-that-behaves-like-a-hash/63059286#63059286>
-
-2.  secret documentation
-
-    1.  <https://docs.raku.org/language/subscripts#Methods_to_implement_for_associative_subscripting>
-    
-    2.  <https://docs.raku.org/language/classtut#index-entry-BUILD>
-    
-    3.  <https://docs.raku.org/language/objects#index-entry-TWEAK>
-
-
-<a id="org716fcd8"></a>
+<a id="orgcbdf028"></a>
 
 ### future topicettes:
 
@@ -395,45 +377,45 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
     <https://donaldh.wtf/2021/01/if-sets-would-dwim/>
 
 
-<a id="org5f44866"></a>
+<a id="orgfee448a"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="org81c9885"></a>
+<a id="org61c3016"></a>
 
 ### getting sets to DWIM
 
 1.  <https://donaldh.wtf/2021/01/if-sets-would-dwim/>
 
 
-<a id="orgc1de05c"></a>
+<a id="org5f91a3a"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="orgc1fe0e3"></a>
+<a id="org76156d5"></a>
 
 ## announcments
 
 
-<a id="orgd9035ca"></a>
+<a id="org99a75ba"></a>
 
 ### January 30th: next raku study group meeting
 
 
-<a id="orgaf18b59"></a>
+<a id="org2c48e43"></a>
 
 ### February 5-6: FOSDEM Raku talks
 
 1.  <https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/>
 
 
-<a id="orgee75bef"></a>
+<a id="org59e7cba"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
