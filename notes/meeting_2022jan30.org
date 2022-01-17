@@ -6,7 +6,6 @@
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md 
 *** https://github.com/doomvox/raku-study/bin/2022jan30
 
-
 ** topicettes
 
 *** rob ransbottom (rir) had questions:
