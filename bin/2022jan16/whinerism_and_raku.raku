@@ -66,6 +66,8 @@ say %h1 eqv %h2;
     # ((a => 1 b => 2) (a => 1 a => 1) (b => 2 b => 2) (b => 2 a => 1))
 
     ## order is undefined, can vary
+
+    say %h1.list.sort X %h2.list.sort;
 }
 
 
