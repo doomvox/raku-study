@@ -19,3 +19,5 @@ my @monsters = <blob tingler godzilla>;
 say "monster-" X~ @monsters;
 # (monster-blob monster-tingler monster-godzilla)
 
+my @mfiles = @monsters X~ ".dat";
+say @mfiles;
