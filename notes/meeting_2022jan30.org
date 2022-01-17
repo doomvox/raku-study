@@ -27,7 +27,6 @@
 *** jonathan worthington, cro-ing
 **** https://raku-advent.blog/2021/12/19/let-it-cro/
 
-
 *** raku subjects
 **** pair input, adverb syntax
 **** junctions and hyper operators, etc:
