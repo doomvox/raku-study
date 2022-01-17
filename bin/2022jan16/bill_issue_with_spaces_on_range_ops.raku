@@ -43,10 +43,10 @@ say ^16;  # ^16
 # spaces in the middle of the operator aren't okay:
 #  . . . ^
 
-say 1 ...^ 3; 
-say 1...^ 3; 
-say 1 ...^3; 
-say 1...^3; 
+say 1 ...^ 3;  # (1 2)
+say 1...^ 3;   # (1 2)
+say 1 ...^3;   # (1 2)
+say 1...^3;    # (1 2)
 
 
 # say 1 ... ^3; 
