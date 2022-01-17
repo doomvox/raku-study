@@ -41,10 +41,8 @@
 ******* https://www.youtube.com/watch?v=elalwvfmYgk
 
 
-**** maybe add slides to stash of introductory raku examples (a new project?)
+**** maybe add slides to stash of introductory raku examples (a new github project?)
 ***** https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
-
-
 
 ** announcments 
 *** January 30th: next raku study group meeting
