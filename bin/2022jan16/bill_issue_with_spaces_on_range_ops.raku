@@ -6,7 +6,7 @@ use v6;
 
 
 say "1:";
-8...16   # returns 9 elements, good:
+say 8...16   # returns 9 elements, good:
 # (8 9 10 11 12 13 14 15 16)
 
 # say "2:";
