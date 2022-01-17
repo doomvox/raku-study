@@ -35,4 +35,4 @@ say ^16;  # ^16
 
 ^16 for .say; # (Any)
 
-.say for ^16;
+.say for ^3;
