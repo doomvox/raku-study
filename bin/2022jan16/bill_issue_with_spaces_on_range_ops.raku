@@ -55,5 +55,5 @@ say "---";
 say 3 ... 0, 1, 2;  # (3 2 1 0 1 2)
 say 3 ... ^3;       # (3 2 1 0 1 2)
 
-# Maybe LTA,
+# Maybe LTA:
 #   Did you mean "...^"?
