@@ -22,3 +22,6 @@ say {b=>2, a=>1}.Str;
 
 use Test;
 is-deeply( {b=>2, a=>1}, {a=>1, b=>2} );
+# ok 1 - 
+
+
