@@ -23,3 +23,9 @@ my @mfiles = @monsters X~ ".dat";
 say @mfiles;
 # [blob.dat tingler.dat godzilla.dat]
 
+
+
+my %hash = @array X=> 1; 
+
+## perl5
+# my %hash = map{ $_ => 1 } @array;
