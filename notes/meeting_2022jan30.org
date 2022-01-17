@@ -7,23 +7,6 @@
 *** https://github.com/doomvox/raku-study/bin/2022jan30
 
 
-**  bruce gray on the weekly challenge
-*** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-147/challenge-147/bruce-gray/raku 
-*** https://theweeklychallenge.org/blog/perl-weekly-challenge-147/#TASK1 
-
-*** alternate approach to 2:
-#+BEGIN_SRC sh
-time raku -e 'constant @pents = map ->\n { n *(3*n - 1) div 2 }, 1..*;
-
-my %p = @pents.head(2400).Set;
-say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
-#+END_SRC
-
-**** result:
-***** (1560090 7042750)
-***** real 0m6.258s
-***** user 0m5.683s
-***** sys 0m0.157s 
 
 ** rob ransbottom dropped by: rir 
 *** playing with 
