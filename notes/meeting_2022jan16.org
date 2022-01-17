@@ -27,9 +27,7 @@ real 0m6.258s
 user 0m5.683s
 sys 0m0.157s 
 
-
-
-** rob dropped by: rir 
+** rob ransbottom dropped by: rir 
 *** playing with 
 **** gtk on raku 
 **** inclusions?
