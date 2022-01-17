@@ -68,19 +68,18 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
 *** https://dev.to/taw/100-languages-speedrun-episode-47-raku-perl-6-regular-expressions-4p8n
 
 
-*** raku vs python
-**** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
-**** um... very interrresting. 
 
 *** regex stuff
 **** https://docs.raku.org/language/regexes#Tilde_for_nesting_structures 
 
 
 ** topicettes, perhaps
+*** raku vs python
+**** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
+**** um... very interrresting. 
 
-*** future topicettes:
-**** getting sets to DWIM
-https://donaldh.wtf/2021/01/if-sets-would-dwim/
+*** getting sets to DWIM
+**** https://donaldh.wtf/2021/01/if-sets-would-dwim/
 
 *** jonathan worthington, cro-ing
 **** https://raku-advent.blog/2021/12/19/let-it-cro/
