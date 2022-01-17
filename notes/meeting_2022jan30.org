@@ -1,6 +1,6 @@
 * meeting notes January 30, 2022
 ** the raku study group
-*** Raku the boat ashore, you.
+*** Don't Raku the boat
 
 ** usual links
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md 
