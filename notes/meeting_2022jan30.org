@@ -2,7 +2,7 @@
 ** the raku study group
 *** Don't Raku the boat
 
-** usual links
+** usual links to the meeting material
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md 
 *** https://github.com/doomvox/raku-study/bin/2022jan30
 
