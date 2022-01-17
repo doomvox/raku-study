@@ -8,7 +8,6 @@
 
 use v6;
 
-
 # Looks like it works...
 say [1, 2] eq [1, 2];
 # True
