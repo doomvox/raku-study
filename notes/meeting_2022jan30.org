@@ -13,7 +13,9 @@
 ***** parents need to know about children?
 ****** the role needs to know about parent
 ******* the role does the exporting?
+******* bruce gray recommends parameterized roles
 ****** factory pattern or abstract factory pattern
+
 
 **** inclusions?
 ***** wants something like an include statement?
