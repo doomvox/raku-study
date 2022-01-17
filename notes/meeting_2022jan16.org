@@ -66,21 +66,22 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
 ****** https://omohundro.files.wordpress.com/2009/03/omohundro94_the_sather_programming_language.pdf 
 ****** https://www1.icsi.berkeley.edu/~sather/Publications/article.html 
 
+** regex stuff
+**** https://docs.raku.org/language/regexes#Tilde_for_nesting_structures 
+
 
 ** taw the whiner does shallow looks (I mean "speed runs")
 *** https://dev.to/taw/languages-speedrun-episode-26-raku-perl-6-4emf
 *** https://dev.to/taw/100-languages-speedrun-episode-47-raku-perl-6-regular-expressions-4p8n
 
-** topicettes
-*** fun stuff: take downs of bitcoin, blockchain, web3, etc
+
+** fun stuff: take downs of bitcoin, blockchain, web3, etc
 **** https://github.com/rufuspollock/awesome-crypto-critique
 
-*** raku vs python
+** raku vs python
 **** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
 **** um... very interrresting. 
 
-*** regex stuff
-**** https://docs.raku.org/language/regexes#Tilde_for_nesting_structures 
 
 
 
