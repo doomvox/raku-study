@@ -22,10 +22,10 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
 #+END_SRC
 
 **** result:
-(1560090 7042750)
-real 0m6.258s
-user 0m5.683s
-sys 0m0.157s 
+***** (1560090 7042750)
+***** real 0m6.258s
+***** user 0m5.683s
+***** sys 0m0.157s 
 
 ** rob ransbottom dropped by: rir 
 *** playing with 
