@@ -82,7 +82,6 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
 *** regex stuff
 **** https://docs.raku.org/language/regexes#Tilde_for_nesting_structures 
 
-
 ** old topics:
 
 *** custom associatives
