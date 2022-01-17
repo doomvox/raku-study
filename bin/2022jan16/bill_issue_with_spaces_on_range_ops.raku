@@ -39,8 +39,8 @@ say ^16;  # ^16    ## a Sequence with gist like so...
 # 2
 
 
-# the operator is this   ...^
-# spaces in the middle of the operator aren't okay:
+# The operator is this:   ...^
+# Spaces in the middle of the operator aren't okay:
 #      . . . ^
 
 say 1 ...^ 3;  # (1 2)
