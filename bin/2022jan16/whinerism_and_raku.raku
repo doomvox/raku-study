@@ -28,6 +28,9 @@ my %h1 = {b=>2, a=>1};
 my %h2 = {a=>1, b=>2};
 
 say %h1 eqv %h2;
+# True
+
+my %fried = ( {one=>'1', two=>'2'}, {alpha=>'a', beta=>'b', extra => { something => 'or_other', whatever => 'nada' }}};
 
 
 say %h1 X %h2;
