@@ -15,3 +15,5 @@ say [1,2].Str;
 # Raku sorts the key order (unlike Ruby) so they match
 say {b=>2, a=>1} eq {a=>1, b=>2};
 # True
+
+say {b=>2, a=>1}.Str;
