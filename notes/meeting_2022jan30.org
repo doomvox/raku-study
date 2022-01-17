@@ -40,7 +40,6 @@
 ******* Leon Timmermans, "Raku syntax I miss in other languages', Jun 8, 2021
 ******* https://www.youtube.com/watch?v=elalwvfmYgk
 
-
 **** maybe add slides to stash of introductory raku examples (a new github project?)
 ***** https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
 
