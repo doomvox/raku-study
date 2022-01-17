@@ -82,22 +82,7 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
 *** regex stuff
 **** https://docs.raku.org/language/regexes#Tilde_for_nesting_structures 
 
-** old topics:
 
-*** custom associatives
-**** brad gilbert write-up:
-***** https://stackoverflow.com/questions/63050032/can-i-write-an-object-that-behaves-like-a-hash/63059286#63059286
-**** secret documentation
-***** https://docs.raku.org/language/subscripts#Methods_to_implement_for_associative_subscripting
-***** https://docs.raku.org/language/classtut#index-entry-BUILD
-***** https://docs.raku.org/language/objects#index-entry-TWEAK
-
-*** future topicettes:
-**** getting sets to DWIM
-https://donaldh.wtf/2021/01/if-sets-would-dwim/
-
-*** jonathan worthington, cro-ing
-**** https://raku-advent.blog/2021/12/19/let-it-cro/
 
 *** my talk:
 https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku
@@ -159,8 +144,24 @@ say @pents.head(2400).combinations(2).first({ %p{.sum} and %p{ [R-] .list } });'
 **** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
 **** um... very interrresting. 
 
+** old topics:
 
-** old topics, last meeting on the jan 02 (probably just delete, maybe followup)
+*** custom associatives
+**** brad gilbert write-up:
+***** https://stackoverflow.com/questions/63050032/can-i-write-an-object-that-behaves-like-a-hash/63059286#63059286
+**** secret documentation
+***** https://docs.raku.org/language/subscripts#Methods_to_implement_for_associative_subscripting
+***** https://docs.raku.org/language/classtut#index-entry-BUILD
+***** https://docs.raku.org/language/objects#index-entry-TWEAK
+
+*** future topicettes:
+**** getting sets to DWIM
+https://donaldh.wtf/2021/01/if-sets-would-dwim/
+
+*** jonathan worthington, cro-ing
+**** https://raku-advent.blog/2021/12/19/let-it-cro/
+
+
 
 *** getting sets to DWIM
 **** https://donaldh.wtf/2021/01/if-sets-would-dwim/
