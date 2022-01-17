@@ -37,3 +37,11 @@ say ^16;  # ^16
 # 0
 # 1
 # 2
+
+
+# the operator ...^
+# spaces in the middle of the operator aren't okay:
+#  . . . ^
+
+say 8 16  ;  # now I want 8 elements--get 24 instead, WAT? :  ## Q: NO WARN?
+
