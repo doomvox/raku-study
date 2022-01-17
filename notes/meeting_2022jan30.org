@@ -8,17 +8,17 @@
 
 
 
-** rob ransbottom dropped by: rir 
+** rob ransbottom (rir) had questions:
 *** playing with 
-**** gtk on raku 
-**** inclusions?
-***** wants something like an include statement?
-****** has looked at roles
-****** bruce recommends parameterized roles
 ***** parents need to know about children?
 ****** the role needs to know about parent
 ******* the role does the exporting?
 ****** factory pattern or abstract factory pattern
+
+**** inclusions?
+***** wants something like an include statement?
+****** has looked at roles
+****** bruce recommends parameterized roles
 
 *** sather
 **** like eiffel 
