@@ -1,74 +1,72 @@
-- [meeting notes January 30, 2022](#orgc7aadd9)
-  - [the raku study group](#org1d8c143)
-    - [Don't Raku the boat](#org29fd319)
-  - [usual links to the meeting material](#orgd681f14)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md>](#orgc86d905)
-    - [<https://github.com/doomvox/raku-study/bin/2022jan30>](#orgfd72bf6)
-  - [topicettes](#org390dbe7)
-    - [rob ransbottom (rir) had questions:](#org98273be)
-    - [raku vs python](#org989ac40)
-    - [getting sets to DWIM](#org734e29c)
-    - [jonathan worthington, cro-ing](#org81b1aa3)
-    - [raku subjects](#org841ae4d)
-  - [announcments](#orge0868dc)
-    - [January 30th: next raku study group meeting](#orgfe5f0b0)
-    - [February 5-6: FOSDEM Raku talks](#org6a8fb9e)
-    - [June 21-25: tprc: perl/raku conference](#orgb429131)
+- [meeting notes January 30, 2022](#org8057a23)
+  - [the raku study group](#org2269b24)
+    - [Don't Raku the boat](#org27e2b7f)
+  - [usual links to the meeting material](#orgb554378)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md>](#orgfa82d61)
+    - [<https://github.com/doomvox/raku-study/bin/2022jan30>](#orgf32d918)
+  - [topicettes](#org4673d4c)
+    - [rob ransbottom (rir) had questions about oop structures where](#org59e13b0)
+    - [raku vs python](#org0b40df5)
+    - [getting sets to DWIM](#orga3b0ee0)
+    - [jonathan worthington, cro-ing](#org046b39d)
+    - [raku subjects](#org65e9a23)
+  - [announcments](#org20eb1f2)
+    - [January 30th: next raku study group meeting](#org38f39ec)
+    - [February 5-6: FOSDEM Raku talks](#org1339c35)
+    - [June 21-25: tprc: perl/raku conference](#org15b28fc)
 
 
-<a id="orgc7aadd9"></a>
+<a id="org8057a23"></a>
 
 # meeting notes January 30, 2022
 
 
-<a id="org1d8c143"></a>
+<a id="org2269b24"></a>
 
 ## the raku study group
 
 
-<a id="org29fd319"></a>
+<a id="org27e2b7f"></a>
 
 ### Don't Raku the boat
 
 
-<a id="orgd681f14"></a>
+<a id="orgb554378"></a>
 
 ## usual links to the meeting material
 
 
-<a id="orgc86d905"></a>
+<a id="orgfa82d61"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md>
 
 
-<a id="orgfd72bf6"></a>
+<a id="orgf32d918"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022jan30>
 
 
-<a id="org390dbe7"></a>
+<a id="org4673d4c"></a>
 
 ## topicettes
 
 
-<a id="org98273be"></a>
+<a id="org59e13b0"></a>
 
-### rob ransbottom (rir) had questions:
+### rob ransbottom (rir) had questions about oop structures where
 
-1.  playing with
+1.  parents need to know about children
 
-    1.  parents need to know about children?
+    1.  the role needs to know about parent
     
-        1.  the role needs to know about parent
+        1.  the role does the exporting?
         
-            1.  the role does the exporting?
-            
-            2.  bruce gray recommends parameterized roles
-        
-        2.  factory pattern or abstract factory pattern
+        2.  bruce gray recommends parameterized roles
+    
+    2.  factory pattern or abstract factory pattern
 
 
-<a id="org989ac40"></a>
+<a id="org0b40df5"></a>
 
 ### raku vs python
 
@@ -77,21 +75,21 @@
 2.  um&#x2026; very interrresting.
 
 
-<a id="org734e29c"></a>
+<a id="orga3b0ee0"></a>
 
 ### getting sets to DWIM
 
 1.  <https://donaldh.wtf/2021/01/if-sets-would-dwim/>
 
 
-<a id="org81b1aa3"></a>
+<a id="org046b39d"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="org841ae4d"></a>
+<a id="org65e9a23"></a>
 
 ### raku subjects
 
@@ -120,24 +118,24 @@
     1.  <https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku>
 
 
-<a id="orge0868dc"></a>
+<a id="org20eb1f2"></a>
 
 ## announcments
 
 
-<a id="orgfe5f0b0"></a>
+<a id="org38f39ec"></a>
 
 ### January 30th: next raku study group meeting
 
 
-<a id="org6a8fb9e"></a>
+<a id="org1339c35"></a>
 
 ### February 5-6: FOSDEM Raku talks
 
 1.  <https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/>
 
 
-<a id="orgb429131"></a>
+<a id="org15b28fc"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

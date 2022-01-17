@@ -7,13 +7,12 @@
 *** https://github.com/doomvox/raku-study/bin/2022jan30
 
 ** topicettes
-*** rob ransbottom (rir) had questions:
-**** playing with 
-***** parents need to know about children?
-****** the role needs to know about parent
-******* the role does the exporting?
-******* bruce gray recommends parameterized roles
-****** factory pattern or abstract factory pattern
+*** rob ransbottom (rir) had questions about oop structures where 
+**** parents need to know about children
+***** the role needs to know about parent
+****** the role does the exporting?
+****** bruce gray recommends parameterized roles
+***** factory pattern or abstract factory pattern
 
 *** raku vs python
 **** https://www.reddit.com/r/rakulang/comments/ruyo9j/raku_for_the_the_scientistprogrammer_that_is/
