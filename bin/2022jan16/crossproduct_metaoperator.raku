@@ -23,8 +23,6 @@ my @mfiles = @monsters X~ ".dat";
 say @mfiles;
 # [blob.dat tingler.dat godzilla.dat]
 
-
-
 # hashes abused like sets
 my %hash = @array X=> 1; 
 
