@@ -57,3 +57,6 @@ say 3 ... ^3;       # (3 2 1 0 1 2)
 
 # Maybe LTA:
 #   Did you mean "...^"?
+
+
+if(1) { say 'nope'; }
