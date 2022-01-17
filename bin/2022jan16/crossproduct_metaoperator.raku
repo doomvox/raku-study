@@ -17,3 +17,5 @@ say @stuff;
 my @monsters = <blob tingler godzilla>;
 
 say "monster-" X~ @monsters;
+# (monster-blob monster-tingler monster-godzilla)
+
