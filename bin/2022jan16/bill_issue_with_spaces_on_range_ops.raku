@@ -43,5 +43,10 @@ say ^16;  # ^16
 # spaces in the middle of the operator aren't okay:
 #  . . . ^
 
-say 1 ...^ 3  ;  # now I want 8 elements--get 24 instead, WAT? :  ## Q: NO WARN?
+say 1 ...^ 3; 
+say 1...^ 3; 
+say 1 ...^3; 
+say 1...^3; 
 
+
+# say 1 ... ^3; 
