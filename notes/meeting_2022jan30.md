@@ -1,57 +1,57 @@
-- [meeting notes January 30, 2022](#orgca1c31d)
-  - [the raku study group](#org53310f7)
-    - [Don't Raku the boat](#orgd1472e0)
-  - [usual links to the meeting material](#org20ffb25)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md>](#orgcb9e591)
-    - [<https://github.com/doomvox/raku-study/bin/2022jan30>](#org5a83de6)
-  - [topicettes](#orgdf906d9)
-    - [rob ransbottom (rir) had questions about oop structures where](#orgc1ab012)
-    - [raku vs python](#orge81b43f)
-    - [getting sets to DWIM](#orgbf587b9)
-    - [jonathan worthington, cro-ing](#org1856284)
-    - [misc intro raku subjects](#org4f49b1a)
-  - [announcments](#orgc31526f)
-    - [January 30th: next raku study group meeting](#orgae59bb4)
-    - [February 5-6: FOSDEM Raku talks](#orgb01368f)
-    - [June 21-25: tprc: perl/raku conference](#org546e94c)
+- [meeting notes January 30, 2022](#org039d8dd)
+  - [the raku study group](#org8827ca9)
+    - [Don't Raku the boat](#orgf60f582)
+  - [usual links to the meeting material](#org0008623)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md>](#org55ecb57)
+    - [<https://github.com/doomvox/raku-study/bin/2022jan30>](#org5480863)
+  - [topicettes](#org140ec05)
+    - [rob ransbottom (rir) had questions about oop structures where](#org0025873)
+    - [raku vs python](#org1c1956d)
+    - [getting sets to DWIM](#org06cccec)
+    - [jonathan worthington, cro-ing](#orgc48a4f6)
+    - [misc intro raku subjects for future toalks](#orga163593)
+  - [announcments](#orgdbe3998)
+    - [January 30th: next raku study group meeting](#orgb2aa585)
+    - [February 5-6: FOSDEM Raku talks](#orge98e46d)
+    - [June 21-25: tprc: perl/raku conference](#orgffd8a78)
 
 
-<a id="orgca1c31d"></a>
+<a id="org039d8dd"></a>
 
 # meeting notes January 30, 2022
 
 
-<a id="org53310f7"></a>
+<a id="org8827ca9"></a>
 
 ## the raku study group
 
 
-<a id="orgd1472e0"></a>
+<a id="orgf60f582"></a>
 
 ### Don't Raku the boat
 
 
-<a id="org20ffb25"></a>
+<a id="org0008623"></a>
 
 ## usual links to the meeting material
 
 
-<a id="orgcb9e591"></a>
+<a id="org55ecb57"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md>
 
 
-<a id="org5a83de6"></a>
+<a id="org5480863"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022jan30>
 
 
-<a id="orgdf906d9"></a>
+<a id="org140ec05"></a>
 
 ## topicettes
 
 
-<a id="orgc1ab012"></a>
+<a id="org0025873"></a>
 
 ### rob ransbottom (rir) had questions about oop structures where
 
@@ -66,7 +66,7 @@
     2.  factory pattern or abstract factory pattern
 
 
-<a id="orge81b43f"></a>
+<a id="org1c1956d"></a>
 
 ### raku vs python
 
@@ -75,23 +75,23 @@
 2.  um&#x2026; very interrresting.
 
 
-<a id="orgbf587b9"></a>
+<a id="org06cccec"></a>
 
 ### getting sets to DWIM
 
 1.  <https://donaldh.wtf/2021/01/if-sets-would-dwim/>
 
 
-<a id="org1856284"></a>
+<a id="orgc48a4f6"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="org4f49b1a"></a>
+<a id="orga163593"></a>
 
-### misc intro raku subjects
+### misc intro raku subjects for future toalks
 
 1.  pair input, adverb syntax
 
@@ -118,24 +118,24 @@
     1.  <https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku>
 
 
-<a id="orgc31526f"></a>
+<a id="orgdbe3998"></a>
 
 ## announcments
 
 
-<a id="orgae59bb4"></a>
+<a id="orgb2aa585"></a>
 
 ### January 30th: next raku study group meeting
 
 
-<a id="orgb01368f"></a>
+<a id="orge98e46d"></a>
 
 ### February 5-6: FOSDEM Raku talks
 
 1.  <https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/>
 
 
-<a id="org546e94c"></a>
+<a id="orgffd8a78"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

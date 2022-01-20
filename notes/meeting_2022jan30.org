@@ -24,7 +24,7 @@
 *** jonathan worthington, cro-ing
 **** https://raku-advent.blog/2021/12/19/let-it-cro/
 
-*** misc intro raku subjects
+*** misc intro raku subjects for future toalks
 **** pair input, adverb syntax
 **** junctions and hyper operators, etc:
 ***** Some examples: https://github.com/doomvox/raku-study/bin/2021feb28
