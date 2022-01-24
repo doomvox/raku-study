@@ -14,6 +14,9 @@
 *** stripping bracketing single-quotes
 **** https://www.nntp.perl.org/group/perl.perl6.users/2022/01/msg10421.html
 
+*** a gotcha in writing code to loop over lines from a file
+**** https://www.reddit.com/r/rakulang/comments/sb48fy/for_iolines_incredibly_slow/
+
 
 ** old topics from last meeting 
 *** rob ransbottom (rir) had questions about oop structures where 
