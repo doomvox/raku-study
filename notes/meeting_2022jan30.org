@@ -20,6 +20,9 @@
 *** sequences and for loops 
 **** https://www.reddit.com/r/rakulang/comments/sbsrjm/sequences_and_for_loops/
 
+*** raiph, in passing points out an oddity of "constant"s
+**** https://www.reddit.com/r/rakulang/comments/sd6ls3/rfc_foo_42/hucauoe/
+
 *** lots of perl5 activity 
 **** porters list
 **** leonerd
