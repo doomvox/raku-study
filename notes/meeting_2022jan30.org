@@ -9,7 +9,7 @@
 ** topics
 
 *** darkroast
-**** staging area for new roast tests, easier to add more stuff
+**** staging area for new roast tests, lower bar to add more tests than to roast
 
 *** alan "psychological issues with learning new langs"
 **** https://vickiboykis.com/2021/11/07/the-programmers-brain-in-the-lands-of-exploration-and-production/
