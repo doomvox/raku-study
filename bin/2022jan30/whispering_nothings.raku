@@ -53,6 +53,7 @@ my $nothing_much = Nil;
     say $junction.Any;
    # No such method 'Any' for invocant of type 'Str'.  Did you mean 'any'?
 
+    $junction.^methods;
 
 }
 
