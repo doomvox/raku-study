@@ -69,7 +69,7 @@ say "===";
     say @a_of_a>>.flat;
     # [[(alpha) (beta) (gamma)] [(godzilla) (mothera) (rhodan)] [(bob) (ted) (carol)]]
 
-    @a_of_a.deepmap({ $_ });
+    say @a_of_a.deepmap({ $_ });
 
 
 
