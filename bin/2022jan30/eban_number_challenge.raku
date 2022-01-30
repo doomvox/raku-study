@@ -71,17 +71,16 @@ say "===";
 
 
     say @a_of_a.deepmap({ say $_; $_; });
-   # alpha
-   # beta
-   # gamma
-   # godzilla
-   # mothera
-   # rhodan
-   # bob
-   # ted
-   # carol
-   # [[alpha beta gamma] [godzilla mothera rhodan] [bob ted carol]]
+    # alpha
+    # beta
+    # gamma
+    # godzilla
+    # mothera
+    # rhodan
+    # bob
+    # ted
+    # carol
+    # [[alpha beta gamma] [godzilla mothera rhodan] [bob ted carol]]
 
-
-
-    }
+    my @flattened; 
+    say @a_of_a.deepmap({ @flattened.push( $_ ) });
