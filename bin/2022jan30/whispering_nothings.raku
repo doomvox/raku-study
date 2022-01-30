@@ -16,6 +16,15 @@ say $var2;  # (Mu)
 say "var1: $var1, var2: $var2";
 
 
+sub jstuff ($thing) {
+    if ($thing) {
+        say "looks truish: ";
+        say $thing;
+        }
+
+
+    }
+
 
 
 
