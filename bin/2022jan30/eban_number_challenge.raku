@@ -122,4 +122,7 @@ say "===";
     # ([1 2 3] [(4 5) 6 7])
     say [[1, 2, 3], [(4, 5), 6, 7]]».List.flat; # OUTPUT: «(1 2 3 4 5 6 7)␤»
     # (1 2 3 4 5 6 7)
+
+    ## applying .List to each array decontainerizes it, making it flattenable.
+
 }
