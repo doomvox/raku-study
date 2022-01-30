@@ -142,7 +142,7 @@ say "===";
 say "===";
 {
     my %h = a => 1, b => 2, c => 3;
-    dd %h;
+    dd %h; # Hash %h = {:a(1), :b(2), :c(3)}
 
     # the "decont" operator
     say %h<>;
