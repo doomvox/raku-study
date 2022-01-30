@@ -105,7 +105,7 @@ say "===";
     ## [[[a b g] [G M R] [b t c]] [[a b g] [G M R] [b t c]] [[a b g] [G M R] [b t c]]]
 
     say @a_of_a_of_a.map(*.Slip);
-    ## ([alpha beta gamma] [godzilla mothera rhodan] [bob ted carol] [alpha beta gamma] [godzilla mothera rhodan] [bob ted carol] [alpha beta gamma] [godzilla mothera rhodan] [bob ted carol])
+    ## ([a b g] [G M R] [b t c] [a b g] [G M R] [b t c] [a b g] [G M R] [b t c])
 
 
 }
