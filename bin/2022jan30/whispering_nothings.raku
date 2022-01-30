@@ -42,7 +42,7 @@ say jstuff_b( $junction );  # True
 say "===";
 
 my $nothing_much = Nil;
-say $nothing_much.Mu;
+# say $nothing_much.Mu;  ## No such method 'Mu' for invocant of type 'Any'
 
 say $junction.Mu;
 
