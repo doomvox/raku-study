@@ -97,7 +97,8 @@ say "===";
 
     # bruce gray idea:
     say @a_of_a.map(*.Slip);
-    # (alpha beta gamma godzilla mothera rhodan bob ted carol)
+    # (a b g G M R b t c)
+    #  but that only handles the two level deep case (desireable sometimes?)
 
     my @a_of_a_of_a = ( @a_of_a, @a_of_a, @a_of_a );
     say @a_of_a_of_a;
