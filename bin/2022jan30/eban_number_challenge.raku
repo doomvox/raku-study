@@ -19,7 +19,6 @@ use v6;
     # Chose Array as rw. List for convenience
     # of entry.
     ; 
-
 }
 
 {
