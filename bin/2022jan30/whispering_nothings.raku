@@ -50,8 +50,8 @@ my $nothing_much = Nil;
 #    say $junction.Mu;  # No such method 'Mu' for invocant of type 'Str'
 #                       # because components are type Str?
 
-    say $junction.Any;
-   # No such method 'Any' for invocant of type 'Str'.  Did you mean 'any'?
+#    say $junction.Any;
+#   # No such method 'Any' for invocant of type 'Str'.  Did you mean 'any'?
 
     say $junction.^methods;
 
