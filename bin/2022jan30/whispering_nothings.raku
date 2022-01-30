@@ -13,7 +13,7 @@ say $var1;  # (Any)
 say "2: ";
 say $var2;  # (Mu)
 
-say "var1: $var1, var2: $var2";
+## say "var1: $var1, var2: $var2";
 
 
 sub jstuff_a ($thing) {
