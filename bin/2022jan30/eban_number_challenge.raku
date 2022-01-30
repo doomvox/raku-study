@@ -171,6 +171,17 @@ say "===";
         .say for @ary<>;
         # a
         # [b c [d e [f g]]]
+        
+        
+        my $result2 = @ary<>;
+        dd $result2;
+        ## Array $result2 = $["a", ["b", "c", ["d", "e", ["f", "g"]]]]
+
+        .say for @ary<>;
+        # a
+        # [b c [d e [f g]]]
+
+
 
 }
 
