@@ -84,5 +84,8 @@ say "===";
 
     my @flattened; 
     say @a_of_a.deepmap({ push( @flattened, $_ ) });
+    say @flattened;
+
+
 
 }
