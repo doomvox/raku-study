@@ -99,5 +99,7 @@ say "===";
     say @a_of_a.map(*.Slip);
     # (alpha beta gamma godzilla mothera rhodan bob ted carol)
 
+    my @a_of_a_of_a = ( @a_of_a, @a_of_a, @a_of_a );
+
 
 }
