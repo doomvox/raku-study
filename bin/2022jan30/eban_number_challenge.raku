@@ -28,9 +28,9 @@ use v6;
     [<0 >], # benny
     |(
         |(
-            [<2 4 6>], # georgeish
+            [<2 4 6>],     # georgeish
             [<3 4 5 6 0>], # alexish
-            [<2 4 6>], # woody
+            [<2 4 6>],     # woody
         ) xx 6
     )
     ; 
