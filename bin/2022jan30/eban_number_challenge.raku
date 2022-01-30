@@ -45,3 +45,19 @@ use v6;
 # say $_».Numeric.raku for @eban; 
 # or
 # .say for @eban; 
+
+
+{ # playing with slip
+
+    my @a = <<alpha beta gamma>>;
+    my @b = <<godzilla mothera rhodan>>;
+    my @c = <<bob ted carol>>;
+
+    my @a_of_a = (@a, @b, @c);
+
+    dd @a_of_a;
+
+    
+
+
+    }
