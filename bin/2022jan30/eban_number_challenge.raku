@@ -34,6 +34,7 @@ my @eban = [<2 4 6 > ], # george
 )
 ; 
 
+.say for @eban; 
 
 
 # useful for debugging 
