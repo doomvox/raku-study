@@ -44,7 +44,10 @@ say "===";
 my $nothing_much = Nil;
 # say $nothing_much.Mu;  ## No such method 'Mu' for invocant of type 'Any'
 
-say $junction.Mu;
+# say $junction.Mu;  # No such method 'Mu' for invocant of type 'Str'
+
+say $junction.Any;
+
 
 
 # ===
