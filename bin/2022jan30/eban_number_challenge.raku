@@ -98,4 +98,6 @@ say "===";
     # bruce gray idea:
     say @a_of_a.map(*.Slip);
     # (alpha beta gamma godzilla mothera rhodan bob ted carol)
+
+
 }
