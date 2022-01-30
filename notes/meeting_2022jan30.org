@@ -24,6 +24,15 @@
 **** the page to read:
 ***** https://docs.raku.org/language/containers#Flattening,_items_and_containers
 
+*** bruce gray on the weekly challenge (?)
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-149/
+**** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-149/challenge-149/bruce-gray 
+
+
+
+
+** topics we didn't quite get to
+
 *** a gotcha in writing code to loop over lines from a file
 **** https://www.reddit.com/r/rakulang/comments/sb48fy/for_iolines_incredibly_slow/
 
@@ -41,10 +50,6 @@
 **** typed pipes
 ***** https://vickiboykis.com/2021/11/07/the-programmers-brain-in-the-lands-of-exploration-and-production/
 ***** issue raised by the parrot raiser
-
-*** bruce gray on the weekly challenge (?)
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-149/
-**** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-149/challenge-149/bruce-gray 
 
 
 ** old topics from last meeting 
