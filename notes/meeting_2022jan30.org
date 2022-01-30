@@ -43,7 +43,8 @@
 ***** issue raised by the parrot raiser
 
 *** bruce gray on the weekly challenge (?)
-https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-149/challenge-149/bruce-gray 
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-149/
+**** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-149/challenge-149/bruce-gray 
 
 
 ** old topics from last meeting 
