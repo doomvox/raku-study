@@ -15,6 +15,7 @@
 
 *** distinguishing nothings
 **** /home/doom/End/Cave/RakuStudy/Notes/Topics/topic-distinguishing_nothings-subsig_feature_missing
+**** H. Meijin Brand raises an interesting, but not critical point
 
 *** stripping bracketing single-quotes
 **** https://www.nntp.perl.org/group/perl.perl6.users/2022/01/msg10421.html
