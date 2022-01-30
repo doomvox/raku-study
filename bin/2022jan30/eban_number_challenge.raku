@@ -178,6 +178,6 @@ say "===";
         # beta
         # gamma
 
-        # .say for @a<>;
+        .say for @a;
 
 }
