@@ -4,9 +4,9 @@
 
 use v6;
 
+my $var1 = Nil;
 
-
-
+my $var2 = Mu;
 
 
 
