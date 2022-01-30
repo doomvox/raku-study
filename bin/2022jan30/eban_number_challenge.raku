@@ -27,7 +27,7 @@ use v6;
     [<3 4 5 6 0 >], # alex
     [<0 >], # benny
     |(
-        |(
+        (
             [<2 4 6>], # georgeish
             [<3 4 5 6 0>], # alexish
             [<2 4 6>], # woody
