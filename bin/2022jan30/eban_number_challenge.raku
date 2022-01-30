@@ -107,5 +107,11 @@ say "===";
     say @a_of_a_of_a.map(*.Slip);
     ## ([a b g] [G M R] [b t c] [a b g] [G M R] [b t c] [a b g] [G M R] [b t c])
 
+    # deeply flattens:
+    my @flattened; 
+    say @a_of_a.deepmap({ push( @flattened, $_ ) });
+    say @flattened;
+ 
+
 
 }
