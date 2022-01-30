@@ -54,6 +54,9 @@ my $nothing_much = Nil;
 #   # No such method 'Any' for invocant of type 'Str'.  Did you mean 'any'?
 
     say $junction.^methods;
+    # (new CALL-ME sink defined Bool ACCEPTS Str iterator gist raku BUILDALL)
+
+    say 'alpha'.^methods;
 
 }
 
