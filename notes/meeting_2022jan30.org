@@ -7,12 +7,11 @@
 *** https://github.com/doomvox/raku-study/bin/2022jan30
 
 ** topics
-
 *** darkroast
 **** staging area for new roast tests, easier to add more stuff
 
-** alan "psychological issues with learning new langs"
-*** https://vickiboykis.com/2021/11/07/the-programmers-brain-in-the-lands-of-exploration-and-production/
+*** alan "psychological issues with learning new langs"
+**** https://vickiboykis.com/2021/11/07/the-programmers-brain-in-the-lands-of-exploration-and-production/
 
 *** distinguishing nothings
 **** /home/doom/End/Cave/RakuStudy/Notes/Topics/topic-distinguishing_nothings-subsig_feature_missing
