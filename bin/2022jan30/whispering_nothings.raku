@@ -8,7 +8,7 @@ my $var1 = Nil;
 
 my $var2 = Mu;
 
-
+say "var1: $var1, var2: $var2";
 
 
 # ====
