@@ -173,7 +173,7 @@ say "===";
         # [b c [d e [f g]]]
         
         
-        my $result2 = @ary<>.>>flat;
+        my $result2 = @ary<>>>.flat;
         dd $result2;  
         ## Array $result2 = $["a", ["b", "c", ["d", "e", ["f", "g"]]]]
 
