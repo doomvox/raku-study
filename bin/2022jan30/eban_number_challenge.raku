@@ -21,3 +21,19 @@ my @eban = [<2 4 6 > ], # george
 
 
 
+# bruce gray solution:
+my @eban = [<2 4 6 > ], # george
+[<3 4 5 6 0 >], # alex
+[<0 >], # benny
+|(
+|(
+[<2 4 6>], # georgeish
+[<3 4 5 6 0>], # alexish
+[<2 4 6>], # woody
+) xx 6
+)
+; 
+
+
+# useful for debugging 
+# say $_».Numeric.raku for @eban; 
