@@ -17,19 +17,20 @@ say "var1: $var1, var2: $var2";
 
 
 sub jstuff_a ($thing) {
-    if ($thing) {
+    if ($thing eq 'some') {
         say "looks truish: ";
         say $thing;
         }
     }
 
 sub jstuff_b (Mu $thing) {
-    if ($thing) {
+    if ($thing eq 'some') {
         say "looks truish: ";
         say $thing;
         }
     }
 
+my $junction = any( 'some', 'another', 'not_really' );
 
 
 # ===
