@@ -74,7 +74,7 @@ my $nothing_much = Nil;
     say 'alpha'.WHAT;
     # (Str)
 
-    say 'alpha'.^methods;
+    say $junction.WHAT;
 
 }
 
