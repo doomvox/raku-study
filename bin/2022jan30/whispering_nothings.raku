@@ -20,20 +20,20 @@ say "===";
 sub jstuff_a ($thing) {
     if ($thing eq 'some') {
         say "looks truish: ";
-        say $thing;
+        return True;
         }
     }
 
 sub jstuff_b (Mu $thing) {
     if ($thing eq 'some') {
         say "looks truish: ";
-        say $thing;
+        return True;
         }
     }
 
 my $junction = any( 'some', 'another', 'not_really' );
 
-jstuff_a( $junction );
+say jstuff_a( $junction );
 
 
 # ===
