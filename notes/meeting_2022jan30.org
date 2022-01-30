@@ -31,6 +31,8 @@
 ***** https://vickiboykis.com/2021/11/07/the-programmers-brain-in-the-lands-of-exploration-and-production/
 ***** issue raised by the parrot raiser
 
+*** bruce gray on the weekly challenge (?)
+
 ** old topics from last meeting 
 *** rob ransbottom (rir) had questions about oop structures where 
 **** parents need to know about children
