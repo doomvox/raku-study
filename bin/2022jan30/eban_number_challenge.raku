@@ -137,8 +137,4 @@ say "===";
     @ary[*;*;*].say; 
     # (a b c d e [f g])
 
-    @s.map( *.uc );
-    @s.map({ .uc });
-    @s.map: .uc ;
-
 }
