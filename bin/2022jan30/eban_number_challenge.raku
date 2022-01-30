@@ -133,7 +133,9 @@ say "===";
     @ary[*;*;*;*].say; 
     #  (a b c d e f g)
 
+    # dropping one of the four whatever stars
     @ary[*;*;*].say; 
+    # (a b c d e [f g])
 
 
 
