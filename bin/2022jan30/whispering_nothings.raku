@@ -58,6 +58,21 @@ my $nothing_much = Nil;
 
     say 'alpha'.^methods;
 
+    ## (BUILD Capture COERCE Int Num Version pred succ match
+    ## subst-mutate parse-base Date DateTime IO WHY WHICH Bool Str
+    ## Stringy DUMP ACCEPTS chomp chop starts-with ends-with substr-eq
+    ## contains indices index rindex Numeric gist raku comb subst
+    ## lines split samecase samemark samespace trim trim-leading
+    ## trim-trailing words encode wordcase trans indent substr
+    ## substr-rw codes chars uc lc tc fc tclc flip
+    ## Submethod+{is-hidden-from-backtrace}.new Method+{is-pure}.new
+    ## Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new
+    ## Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new
+    ## Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new
+    ## NFC NFD NFKC NFKD)
+
+    say 'alpha'.WHAT;
+
 }
 
 
