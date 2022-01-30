@@ -177,7 +177,7 @@ say "===";
         dd $result2;
         ## Array $result2 = $["a", ["b", "c", ["d", "e", ["f", "g"]]]]
 
-        .say for @ary<>;
+        .say for $result;
         # a
         # [b c [d e [f g]]]
 
