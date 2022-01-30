@@ -144,7 +144,10 @@ say "===";
     my %h = a => 1, b => 2, c => 3;
     dd %h; # Hash %h = {:a(1), :b(2), :c(3)}
 
+    say %h;
+
     # the "decont" operator
     say %h<>;
+    # {a => 1, b => 2, c => 3}
 
 }
