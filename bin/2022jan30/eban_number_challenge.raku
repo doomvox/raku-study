@@ -159,5 +159,15 @@ say "===";
     say %h.kv;
     # (b 2 a 1 c 3)
 
+}
+
+say "===";
+{
+        my @ary = [ 'a', [ 'b', 'c', [ 'd', 'e', [ 'f', 'g']]]];
+        my $result = @ary<>;
+
+        dd $result;
+
+        .say for @ary<>;
 
 }
