@@ -71,10 +71,10 @@ my $nothing_much = Nil;
     ## Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new
     ## NFC NFD NFKC NFKD)
 
-    say 'alpha'.WHAT;
-    # (Str)
-
+    say 'alpha'.WHAT; # (Str)
     say $junction.WHAT;  # (Junction)
+
+    ## introspection methods work on the junction itself, they're not distributed over the elements.
 
 }
 
