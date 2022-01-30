@@ -126,3 +126,10 @@ say "===";
     ## applying .List to each array decontainerizes it, making it flattenable.
 
 }
+
+say "===";
+{
+    my @ary = [ 'a', [ 'b', 'c', [ 'd', 'e', [ 'f', 'g']]]];
+    @ary[*;*;*;*].say; 
+
+}
