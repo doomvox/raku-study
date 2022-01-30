@@ -48,6 +48,7 @@ my $nothing_much = Nil;
 
     my $junction = all('alpha', 'beta', 'gamma');
     say $junction.Mu;  # No such method 'Mu' for invocant of type 'Str'
+                       # because components are type Str?
 
 #     say $junction.Any;
 #     # No such method 'Any' for invocant of type 'Str'.  Did you mean 'any'?
