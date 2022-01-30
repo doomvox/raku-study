@@ -144,6 +144,7 @@ say "===";
     my %h = a => 1, b => 2, c = 3;
     dd %h;
 
+    # the "decont" operator
     say %h<>;
 
 }
