@@ -35,6 +35,7 @@ my @eban = [<2 4 6 > ], # george
 ; 
 
 
+
 # useful for debugging 
 # say $_».Numeric.raku for @eban; 
 # or
