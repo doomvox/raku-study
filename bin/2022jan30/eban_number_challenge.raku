@@ -110,7 +110,7 @@ say "===";
     # deeply flattens:
     my @flattened; 
     say '---';
-    say @a_of_a.deepmap({ push( @flattened, $_ ) });
+    @a_of_a.deepmap({ push( @flattened, $_ ) });
     say @flattened;
  
 
