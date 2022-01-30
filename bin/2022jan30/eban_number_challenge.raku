@@ -151,6 +151,8 @@ say "===";
     say %h<>;
     # {a => 1, b => 2, c => 3}
 
+    .say for %h<>;
+
     say %h.kv;
     # (b 2 a 1 c 3)
 
