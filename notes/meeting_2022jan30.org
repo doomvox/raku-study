@@ -21,7 +21,8 @@
 **** https://www.nntp.perl.org/group/perl.perl6.users/2022/01/msg10421.html
 
 *** played around with flattening
-**** https://docs.raku.org/language/containers#Flattening,_items_and_containers
+**** the page to read:
+***** https://docs.raku.org/language/containers#Flattening,_items_and_containers
 
 *** a gotcha in writing code to loop over lines from a file
 **** https://www.reddit.com/r/rakulang/comments/sb48fy/for_iolines_incredibly_slow/
