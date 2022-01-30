@@ -47,7 +47,9 @@ use v6;
 # .say for @eban; 
 
 
+say "===";
 { # playing with slip
+
 
     my @a = <<alpha beta gamma>>;
     my @b = <<godzilla mothera rhodan>>;
