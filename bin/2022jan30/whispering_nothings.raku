@@ -18,6 +18,7 @@ say $var2;  # (Mu)
 say "===";
 
 sub jstuff_a ($thing) {
+    print ".";
     if ($thing eq 'some') {
         say "looks truish: ";
         return True;
@@ -25,6 +26,7 @@ sub jstuff_a ($thing) {
     }
 
 sub jstuff_b (Mu $thing) {
+    print ".";
     if ($thing eq 'some') {
         say "looks truish: ";
         return True;
