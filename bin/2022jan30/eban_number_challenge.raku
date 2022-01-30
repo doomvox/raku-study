@@ -85,7 +85,7 @@ say "===";
     my @flattened; 
     say @a_of_a.deepmap({ push( @flattened, $_ ) });
     say @flattened;
-
+    # [alpha beta gamma godzilla mothera rhodan bob ted carol]
 
 
 }
