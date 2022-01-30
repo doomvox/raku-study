@@ -44,11 +44,17 @@ say "===";
 my $nothing_much = Nil;
 # say $nothing_much.Mu;  ## No such method 'Mu' for invocant of type 'Any'
 
+{
+
+    my $junction = all('alpha', 'beta', 'gamma');
+
 # say $junction.Mu;  # No such method 'Mu' for invocant of type 'Str'
 
 say $junction.Any;
 # No such method 'Any' for invocant of type 'Str'.  Did you mean 'any'?
 
+
+}
 
 
 # ===
