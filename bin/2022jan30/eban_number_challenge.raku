@@ -172,6 +172,12 @@ say "===";
         # a
         # [b c [d e [f g]]]
 
+}
+
+say "===";
+{
+
+
         my @a = <<alpha beta gamma>>;
         .say for @a<>;
         # alpha
