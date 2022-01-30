@@ -113,8 +113,4 @@ say "===";
     @a_of_a.deepmap({ push( @flattened, $_ ) });
     say @flattened; # [a b g G M R b t c]
 
-
- 
-
-
 }
