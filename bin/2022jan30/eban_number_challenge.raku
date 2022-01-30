@@ -139,5 +139,6 @@ say "===";
 
     @s.map( *.uc );
     @s.map({ .uc });
+    @s.map: .uc ;
 
 }
