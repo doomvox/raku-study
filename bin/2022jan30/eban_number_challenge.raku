@@ -23,7 +23,8 @@ use v6;
 
 {
     # bruce gray approach:
-    my @eban = [<2 4 6 > ], # george
+    my @eban =
+    [<2 4 6 > ],            # george
     [<3 4 5 6 0 >],         # alex
     [<0 >],                 # benny
     |(
