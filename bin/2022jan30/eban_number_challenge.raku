@@ -178,10 +178,7 @@ say "===";
         ## Array $result2 = $[("a",).Seq, [("b",).Seq, ("c",).Seq, [("d",).Seq, ("e",).Seq, [("f",).Seq, ("g",).Seq]]]]
 
         .say for $result;
-        # a
-        # [b c [d e [f g]]]
-
-
+        # [a [b c [d e [f g]]]]
 
 }
 
