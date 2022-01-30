@@ -44,6 +44,7 @@ say "===";
 my $nothing_much = Nil;
 say $nothing_much.Mu;
 
+say $junction.Mu;
 
 
 # ===
