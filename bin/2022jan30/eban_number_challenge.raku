@@ -179,5 +179,9 @@ say "===";
         # gamma
 
         .say for @a;
+        # alpha
+        # beta
+        # gamma
+
 
 }
