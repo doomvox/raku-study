@@ -22,7 +22,6 @@ sub jstuff ($thing) {
         say $thing;
         }
 
-
     }
 
 
