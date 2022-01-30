@@ -165,8 +165,8 @@ say "===";
 {
         my @ary = [ 'a', [ 'b', 'c', [ 'd', 'e', [ 'f', 'g']]]];
         my $result = @ary<>;
-
         dd $result;
+        ## Array $result = $["a", ["b", "c", ["d", "e", ["f", "g"]]]]
 
         .say for @ary<>;
 
