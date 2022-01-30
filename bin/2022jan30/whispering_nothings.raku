@@ -9,11 +9,13 @@ my $var1 = Nil;
 my $var2 = Mu;
 
 say "1: ";
-say $var1;
+say $var1;  # (Any)
 say "2: ";
-say $var2;
+say $var2;  # (Mu)
 
 say "var1: $var1, var2: $var2";
+
+
 
 
 # ====
