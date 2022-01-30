@@ -72,6 +72,9 @@ my $nothing_much = Nil;
     ## NFC NFD NFKC NFKD)
 
     say 'alpha'.WHAT;
+    # (Str)
+
+    say 'alpha'.^methods;
 
 }
 
