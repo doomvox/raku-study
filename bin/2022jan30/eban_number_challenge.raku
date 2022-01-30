@@ -101,6 +101,7 @@ say "===";
 
     my @a_of_a_of_a = ( @a_of_a, @a_of_a, @a_of_a );
     say @a_of_a_of_a;
+    ## [[[alpha beta gamma] [godzilla mothera rhodan] [bob ted carol]] [[alpha beta gamma] [godzilla mothera rhodan] [bob ted carol]] [[alpha beta gamma] [godzilla mothera rhodan] [bob ted carol]]]
 
     say @a_of_a_of_a.map(*.Slip);
     ## ([alpha beta gamma] [godzilla mothera rhodan] [bob ted carol] [alpha beta gamma] [godzilla mothera rhodan] [bob ted carol] [alpha beta gamma] [godzilla mothera rhodan] [bob ted carol])
