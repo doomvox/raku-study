@@ -114,3 +114,11 @@ say "===";
     say @flattened; # [a b g G M R b t c]
 
 }
+
+{
+    ## Example in the docs:
+    say [[1, 2, 3], [(4, 5), 6, 7]]      .flat; # OUTPUT: «([1 2 3] [(4 5) 6 7])␤» 
+
+    say [[1, 2, 3], [(4, 5), 6, 7]]».List.flat; # OUTPUT: «(1 2 3 4 5 6 7)␤»
+
+}
