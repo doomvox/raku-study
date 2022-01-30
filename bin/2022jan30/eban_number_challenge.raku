@@ -50,7 +50,6 @@ use v6;
 say "===";
 { # playing with slip
 
-
     my @a = <<alpha beta gamma>>;
     my @b = <<godzilla mothera rhodan>>;
     my @c = <<bob ted carol>>;
