@@ -183,7 +183,6 @@ say "===";
 say "===";
 {
 
-
         my @a = <<alpha beta gamma>>;
         .say for @a<>;
         # alpha
