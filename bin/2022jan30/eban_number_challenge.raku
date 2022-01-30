@@ -84,6 +84,18 @@ say "===";
     say @a_of_a.deepmap({ push( @flattened, $_ ) });
     say @flattened;
     # [alpha beta gamma godzilla mothera rhodan bob ted carol]
+  
+}
 
+{
+
+    my @a = <<alpha beta gamma>>;
+    my @b = <<godzilla mothera rhodan>>;
+    my @c = <<bob ted carol>>;
+
+    my @a_of_a = (@a, @b, @c);
+
+    # bruce gray idea:
+    say @a_of_a.map(*.Slip);
 
 }
