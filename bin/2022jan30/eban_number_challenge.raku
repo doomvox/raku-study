@@ -6,6 +6,7 @@ use v6;
 
 # Rob Ransbottom has a side-issue playing with the Eban Numbers weekly challenge:
 
+{
 my @eban = [<2 4 6 > ], # george
 [<3 4 5 6 0 >], # alex
 # Enough already, but generalizing.
@@ -19,8 +20,9 @@ my @eban = [<2 4 6 > ], # george
 # of entry.
 ; 
 
+}
 
-
+{
 # bruce gray approach:
 my @eban = [<2 4 6 > ], # george
 [<3 4 5 6 0 >], # alex
@@ -36,6 +38,8 @@ my @eban = [<2 4 6 > ], # george
 
 .say for @eban; 
 
+
+}
 
 # useful for debugging 
 # say $_».Numeric.raku for @eban; 
