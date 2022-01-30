@@ -32,6 +32,8 @@ sub jstuff_b (Mu $thing) {
 
 my $junction = any( 'some', 'another', 'not_really' );
 
+jstuff_a( $junction );
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
