@@ -32,7 +32,6 @@ sub jstuff_b (Mu $thing) {
     }
 
 my $junction = any( 'some', 'another', 'not_really' );
-
 say jstuff_a( $junction );  # any(True, (), ())
 
 
