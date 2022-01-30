@@ -21,7 +21,6 @@ sub jstuff ($thing) {
         say "looks truish: ";
         say $thing;
         }
-
     }
 
 
