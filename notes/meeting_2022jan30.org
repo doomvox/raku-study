@@ -30,13 +30,10 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-149/
 **** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-149/challenge-149/bruce-gray 
 
-
-
-
-****  blog post (still in progress)
+**** post (still in progress)
 ***** http://blogs.perl.org/users/bruce_gray/2022/01/twc-149-limited-fibs-and-bases-of-unusual-size.html
 
-**** blog post about the last challenge
+**** post about the last challenge
 ***** http://blogs.perl.org/users/bruce_gray/2022/01/twc-148-numbrs-and-cubic-cards.html 
 
 ** topics we didn't get to
