@@ -1,83 +1,83 @@
-- [meeting notes January 30, 2022](#org7c9a4a1)
-  - [the raku study group](#orga137687)
-    - [Don't Raku the boat](#org8cb00a0)
-  - [usual links to the meeting material](#org4849d4c)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md>](#orgcc203be)
-    - [<https://github.com/doomvox/raku-study/bin/2022jan30>](#org9e1c46f)
-  - [topics](#orgc177e97)
-    - [darkroast](#org0d250a9)
-    - [alan "psychological issues with learning new langs"](#org6680327)
-    - [distinguishing nothings](#org9ede456)
-    - [stripping bracketing single-quotes](#org3781fef)
-    - [played around with flattening](#orgfb5abff)
-    - [bruce gray on the weekly challenge (?)](#orgbdfb92f)
-  - [topics we didn't get to](#org054bbb8)
-    - [a gotcha in writing code to loop over lines from a file](#orgcebb305)
-    - [sequences and for loops](#orgdea03aa)
-    - [raiph, in passing points out an oddity of "constant"s](#org57d80c9)
-    - [lots of perl5 activity](#org05e4449)
-  - [old topics from last meeting](#orgd8ca6d2)
-    - [rob ransbottom (rir) had questions about oop structures where](#org6913dd0)
-    - [raku vs python](#orgc162038)
-    - [getting sets to DWIM](#org471e3dc)
-    - [jonathan worthington, cro-ing](#org71ed6e0)
-    - [misc intro raku subjects for future toalks](#orgc133cb8)
-  - [announcments](#orgf63c6e2)
-    - [January 30th: next raku study group meeting](#orgc050e57)
-    - [February 5-6: FOSDEM Raku talks](#org7c10c1c)
-    - [June 21-25: tprc: perl/raku conference](#org26b05af)
+- [meeting notes January 30, 2022](#org935fbc3)
+  - [the raku study group](#orga0edf37)
+    - [Don't Raku the boat](#org56b8893)
+  - [usual links to the meeting material](#org471222d)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md>](#org16abe2c)
+    - [<https://github.com/doomvox/raku-study/bin/2022jan30>](#orgebbb84b)
+  - [topics](#org926e250)
+    - [darkroast](#orgd508da2)
+    - [alan "psychological issues with learning new langs"](#org17d640f)
+    - [distinguishing nothings](#org329a30b)
+    - [stripping bracketing single-quotes](#orgeedb0a6)
+    - [played around with flattening](#orgd2830b9)
+    - [bruce gray on the weekly challenge (?)](#org065b82a)
+  - [topics we didn't get to](#org1d9a0d5)
+    - [a gotcha in writing code to loop over lines from a file](#org1fdafcc)
+    - [sequences and for loops](#org3ac19e4)
+    - [raiph, in passing points out an oddity of "constant"s](#org0b8d127)
+    - [lots of perl5 activity](#orga019e0d)
+  - [old topics from last meeting](#org24b173d)
+    - [rob ransbottom (rir) had questions about oop structures where](#orga124002)
+    - [raku vs python](#org6fdbd96)
+    - [getting sets to DWIM](#org05f1615)
+    - [jonathan worthington, cro-ing](#orgf99ecc9)
+    - [misc intro raku subjects for future toalks](#org361f0cd)
+  - [announcments](#orgae5cf75)
+    - [January 30th: next raku study group meeting](#org039a733)
+    - [February 5-6: FOSDEM Raku talks](#org5678721)
+    - [June 21-25: tprc: perl/raku conference](#orgf07b802)
 
 
-<a id="org7c9a4a1"></a>
+<a id="org935fbc3"></a>
 
 # meeting notes January 30, 2022
 
 
-<a id="orga137687"></a>
+<a id="orga0edf37"></a>
 
 ## the raku study group
 
 
-<a id="org8cb00a0"></a>
+<a id="org56b8893"></a>
 
 ### Don't Raku the boat
 
 
-<a id="org4849d4c"></a>
+<a id="org471222d"></a>
 
 ## usual links to the meeting material
 
 
-<a id="orgcc203be"></a>
+<a id="org16abe2c"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md>
 
 
-<a id="org9e1c46f"></a>
+<a id="orgebbb84b"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022jan30>
 
 
-<a id="orgc177e97"></a>
+<a id="org926e250"></a>
 
 ## topics
 
 
-<a id="org0d250a9"></a>
+<a id="orgd508da2"></a>
 
 ### darkroast
 
 1.  staging area for new roast tests, lower bar to add more tests than to roast
 
 
-<a id="org6680327"></a>
+<a id="org17d640f"></a>
 
 ### alan "psychological issues with learning new langs"
 
 1.  <https://vickiboykis.com/2021/11/07/the-programmers-brain-in-the-lands-of-exploration-and-production/>
 
 
-<a id="org9ede456"></a>
+<a id="org329a30b"></a>
 
 ### distinguishing nothings
 
@@ -88,14 +88,14 @@
     1.  can you tell if a sub was passed a value that just happens to match the default?
 
 
-<a id="org3781fef"></a>
+<a id="orgeedb0a6"></a>
 
 ### stripping bracketing single-quotes
 
 1.  <https://www.nntp.perl.org/group/perl.perl6.users/2022/01/msg10421.html>
 
 
-<a id="orgfb5abff"></a>
+<a id="orgd2830b9"></a>
 
 ### played around with flattening
 
@@ -104,7 +104,7 @@
     1.  <https://docs.raku.org/language/containers#Flattening,_items_and_containers>
 
 
-<a id="orgbdfb92f"></a>
+<a id="org065b82a"></a>
 
 ### bruce gray on the weekly challenge (?)
 
@@ -127,33 +127,33 @@
     2.  bg: fusion of continuous and discrete math
 
 
-<a id="org054bbb8"></a>
+<a id="org1d9a0d5"></a>
 
 ## topics we didn't get to
 
 
-<a id="orgcebb305"></a>
+<a id="org1fdafcc"></a>
 
 ### a gotcha in writing code to loop over lines from a file
 
 1.  <https://www.reddit.com/r/rakulang/comments/sb48fy/for_iolines_incredibly_slow/>
 
 
-<a id="orgdea03aa"></a>
+<a id="org3ac19e4"></a>
 
 ### sequences and for loops
 
 1.  <https://www.reddit.com/r/rakulang/comments/sbsrjm/sequences_and_for_loops/>
 
 
-<a id="org57d80c9"></a>
+<a id="org0b8d127"></a>
 
 ### raiph, in passing points out an oddity of "constant"s
 
 1.  <https://www.reddit.com/r/rakulang/comments/sd6ls3/rfc_foo_42/hucauoe/>
 
 
-<a id="org05e4449"></a>
+<a id="orga019e0d"></a>
 
 ### lots of perl5 activity
 
@@ -170,12 +170,12 @@
     2.  issue raised by the parrot raiser
 
 
-<a id="orgd8ca6d2"></a>
+<a id="org24b173d"></a>
 
 ## old topics from last meeting
 
 
-<a id="org6913dd0"></a>
+<a id="orga124002"></a>
 
 ### rob ransbottom (rir) had questions about oop structures where
 
@@ -190,7 +190,7 @@
     2.  factory pattern or abstract factory pattern
 
 
-<a id="orgc162038"></a>
+<a id="org6fdbd96"></a>
 
 ### raku vs python
 
@@ -199,21 +199,21 @@
 2.  um&#x2026; very interrresting.
 
 
-<a id="org471e3dc"></a>
+<a id="org05f1615"></a>
 
 ### getting sets to DWIM
 
 1.  <https://donaldh.wtf/2021/01/if-sets-would-dwim/>
 
 
-<a id="org71ed6e0"></a>
+<a id="orgf99ecc9"></a>
 
 ### jonathan worthington, cro-ing
 
 1.  <https://raku-advent.blog/2021/12/19/let-it-cro/>
 
 
-<a id="orgc133cb8"></a>
+<a id="org361f0cd"></a>
 
 ### misc intro raku subjects for future toalks
 
@@ -242,24 +242,24 @@
     1.  <https://github.com/doomvox/raku-study/blob/main//notes/talks/new_year_raku>
 
 
-<a id="orgf63c6e2"></a>
+<a id="orgae5cf75"></a>
 
 ## announcments
 
 
-<a id="orgc050e57"></a>
+<a id="org039a733"></a>
 
 ### January 30th: next raku study group meeting
 
 
-<a id="org7c10c1c"></a>
+<a id="org5678721"></a>
 
 ### February 5-6: FOSDEM Raku talks
 
 1.  <https://www.reddit.com/r/rakulang/comments/rsua3p/raku_talks_at_fosdem/>
 
 
-<a id="org26b05af"></a>
+<a id="orgf07b802"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
