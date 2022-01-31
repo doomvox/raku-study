@@ -42,6 +42,9 @@
 
 ** topics we didn't get to
 
+*** first programming book discussed:
+**** https://cacm.acm.org/magazines/2011/9/122802-in-praise-of-wilkes-wheeler-and-gill/fulltext 
+
 *** a gotcha in writing code to loop over lines from a file
 **** https://www.reddit.com/r/rakulang/comments/sb48fy/for_iolines_incredibly_slow/
 
