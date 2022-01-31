@@ -36,7 +36,7 @@
 **** post about the last challenge
 ***** http://blogs.perl.org/users/bruce_gray/2022/01/twc-148-numbrs-and-cubic-cards.html 
 
-**** "concrete math" donald knuth
+**** "Concrete Math" by Donald Knuth
 ***** the math you'd need to follow art of computer programming
 
 ** topics we didn't get to
