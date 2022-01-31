@@ -38,7 +38,7 @@
 
 **** "Concrete Math" by Donald Knuth
 ***** the math you'd need to follow art of computer programming
-***** fusion of continuous and discrete math
+***** bg: fusion of continuous and discrete math 
 
 ** topics we didn't get to
 
