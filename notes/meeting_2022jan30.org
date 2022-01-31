@@ -16,7 +16,8 @@
 
 *** distinguishing nothings
 **** /home/doom/End/Cave/RakuStudy/Notes/Topics/topic-distinguishing_nothings-subsig_feature_missing
-**** H. Meijin Brand raises an interesting, but not critical point
+**** H. Meijin Brand raises an interesting, but not critical point:
+***** can you tell if a sub was passed a value that just happens to match the default?
 
 *** stripping bracketing single-quotes
 **** https://www.nntp.perl.org/group/perl.perl6.users/2022/01/msg10421.html
@@ -32,7 +33,7 @@
 
 
 
-** topics we didn't quite get to
+** topics we didn't get to
 
 *** a gotcha in writing code to loop over lines from a file
 **** https://www.reddit.com/r/rakulang/comments/sb48fy/for_iolines_incredibly_slow/
