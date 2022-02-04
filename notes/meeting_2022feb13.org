@@ -1,0 +1,6 @@
+* meeting notes February 13, 2022
+** the raku study group
+*** << raku pun >>
+** usual links to the meeting material
+*** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md 
+*** https://github.com/doomvox/raku-study/bin/2022feb13
