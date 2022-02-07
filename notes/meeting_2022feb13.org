@@ -11,6 +11,7 @@
 **** https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/
 *** darkroast
 **** staging area for new roast tests, lower bar to add more tests than to roast
+**** talk about on "problemsolving" on github?
 
 *** 
 
