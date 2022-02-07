@@ -13,3 +13,7 @@
 **** staging area for new roast tests, lower bar to add more tests than to roast
 
 *** 
+
+** announcments 
+*** February 13th: next raku study group meeting (most likely)
+*** June 21-25: tprc: perl/raku conference 
