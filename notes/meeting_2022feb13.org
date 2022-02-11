@@ -6,7 +6,12 @@
 *** https://github.com/doomvox/raku-study/bin/2022feb13
 ** topics
 *** fosdem
-**** anyone? 
+**** videos (note, webm files have sound, mp4s don't?)
+***** https://video.fosdem.org/2022/
+***** https://video.fosdem.org/2022/D.raku/
+**** *some* are on youtube (none of the Raku ones)
+
+
 *** Making a hash out of intertwined array of strings and integers
 **** https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/
 *** darkroast
