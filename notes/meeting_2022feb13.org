@@ -9,7 +9,7 @@
 **** videos (note, webm files have sound, mp4s don't?)
 ***** https://video.fosdem.org/2022/
 ***** https://video.fosdem.org/2022/D.raku/
-**** *some* are on youtube (none of the Raku ones)
+**** Some are on youtube (none of the Raku ones)
 
 
 *** Making a hash out of intertwined array of strings and integers
