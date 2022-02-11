@@ -13,6 +13,7 @@
 **** Physics::Measure
 ***** numerics with error bars and units
 ***** https://video.fosdem.org/2022/D.raku/grammar.mp4
+***** Steve Roe, aka p6steve
 
 *** Making a hash out of intertwined array of strings and integers
 **** https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/
