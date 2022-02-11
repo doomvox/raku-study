@@ -9,7 +9,7 @@
 **** videos (note, webm files have sound, mp4s don't?)
 ***** https://video.fosdem.org/2022/
 ***** https://video.fosdem.org/2022/D.raku/
-**** Some are on youtube (none of the Raku ones)
+**** Some are on youtube (but none of the Raku ones)
 **** Physics::Measure
 ***** numerics with error bars and units
 ***** https://video.fosdem.org/2022/D.raku/grammar.mp4

@@ -1,54 +1,54 @@
-- [meeting notes February 13, 2022](#org498fc26)
-  - [the raku study group](#org47d67c5)
-    - [<< raku pun >>](#org797b006)
-  - [usual links to the meeting material](#org5991c48)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>](#org333fd49)
-    - [<https://github.com/doomvox/raku-study/bin/2022feb13>](#org91bc120)
-  - [topics](#org275d862)
-    - [fosdem](#org09f633c)
-    - [Making a hash out of intertwined array of strings and integers](#orgb0aa008)
-    - [darkroast](#org5c7d1ff)
-  - [announcements](#org4465981)
-    - [February 27th: next raku study group meeting](#orgaa58396)
-    - [June 21-25: tprc: perl/raku conference](#orgebf8e0d)
+- [meeting notes February 13, 2022](#org7eedfe2)
+  - [the raku study group](#org1c0b4d3)
+    - [<< raku pun >>](#org44ca8a5)
+  - [usual links to the meeting material](#org092fe16)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>](#org51663b9)
+    - [<https://github.com/doomvox/raku-study/bin/2022feb13>](#orgfbe4255)
+  - [topics](#orgbead439)
+    - [fosdem](#org0238075)
+    - [Making a hash out of intertwined array of strings and integers](#org2120c74)
+    - [darkroast](#org4e9cf9b)
+  - [announcements](#orge4c49a5)
+    - [February 27th: next raku study group meeting](#orgb9394da)
+    - [June 21-25: tprc: perl/raku conference](#orgb753c03)
 
 
-<a id="org498fc26"></a>
+<a id="org7eedfe2"></a>
 
 # meeting notes February 13, 2022
 
 
-<a id="org47d67c5"></a>
+<a id="org1c0b4d3"></a>
 
 ## the raku study group
 
 
-<a id="org797b006"></a>
+<a id="org44ca8a5"></a>
 
 ### << raku pun >>
 
 
-<a id="org5991c48"></a>
+<a id="org092fe16"></a>
 
 ## usual links to the meeting material
 
 
-<a id="org333fd49"></a>
+<a id="org51663b9"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>
 
 
-<a id="org91bc120"></a>
+<a id="orgfbe4255"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022feb13>
 
 
-<a id="org275d862"></a>
+<a id="orgbead439"></a>
 
 ## topics
 
 
-<a id="org09f633c"></a>
+<a id="org0238075"></a>
 
 ### fosdem
 
@@ -58,7 +58,7 @@
     
     2.  <https://video.fosdem.org/2022/D.raku/>
 
-2.  Some are on youtube (none of the Raku ones)
+2.  Some are on youtube (but none of the Raku ones)
 
 3.  Physics::Measure
 
@@ -67,14 +67,14 @@
     2.  <https://video.fosdem.org/2022/D.raku/grammar.mp4>
 
 
-<a id="orgb0aa008"></a>
+<a id="org2120c74"></a>
 
 ### Making a hash out of intertwined array of strings and integers
 
 1.  <https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/>
 
 
-<a id="org5c7d1ff"></a>
+<a id="org4e9cf9b"></a>
 
 ### darkroast
 
@@ -83,16 +83,16 @@
 2.  talk about on "problemsolving" on github?
 
 
-<a id="org4465981"></a>
+<a id="orge4c49a5"></a>
 
 ## announcements
 
 
-<a id="orgaa58396"></a>
+<a id="orgb9394da"></a>
 
 ### February 27th: next raku study group meeting
 
 
-<a id="orgebf8e0d"></a>
+<a id="orgb753c03"></a>
 
 ### June 21-25: tprc: perl/raku conference
