@@ -19,11 +19,14 @@
 
 *** Making a hash out of intertwined array of strings and integers
 **** https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/
+
+*** recursive regexs
+**** stackoverflow:
+***** https://stackoverflow.com/questions/70913301/what-is-the-correct-raku-recursive-regex-syntax
+
 *** darkroast
 **** staging area for new roast tests, lower bar to add more tests than to roast
 **** talk about on "problemsolving" on github?
-
-
 
 ** announcements 
 *** February 27th: next raku study group meeting 
