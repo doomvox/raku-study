@@ -10,11 +10,11 @@
 ***** https://video.fosdem.org/2022/
 ***** https://video.fosdem.org/2022/D.raku/
 **** Some are on youtube (but none of the Raku ones)
-**** Physics::Measure
-***** numerics with error bars and units
-***** https://github.com/p6steve/raku-Physics-Measure
-***** https://video.fosdem.org/2022/D.raku/grammar.mp4
-***** Steve Roe, aka p6steve
+*** Physics::Measure
+**** numerics with error bars and units
+**** https://github.com/p6steve/raku-Physics-Measure
+**** https://video.fosdem.org/2022/D.raku/grammar.mp4
+**** Steve Roe, aka p6steve
 
 
 *** Making a hash out of intertwined array of strings and integers
