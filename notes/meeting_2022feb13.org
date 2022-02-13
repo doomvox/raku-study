@@ -14,9 +14,12 @@
 *** unix.stackexchange.com moderator has magnanimously unbanned me
 
 *** Physics::Measure
-**** numerics with error bars and units
-**** https://github.com/p6steve/raku-Physics-Measure
 **** https://video.fosdem.org/2022/D.raku/grammar.mp4
+**** numerics with error bars and units
+**** https://raku.land/github:p6steve/Physics::Measure
+**** https://github.com/p6steve/raku-Physics-Measure
+
+
 **** Steve Roe, aka p6steve
 **** questions:
 ***** mentions error bars-- don't see an example
