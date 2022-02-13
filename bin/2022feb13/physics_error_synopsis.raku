@@ -93,5 +93,7 @@ say "---";
     my $diff2  = $l2 - $l1;
     say $diff2;  # 0m ±1
 
+    say so $diff2 > $diff1;
+
 
 }
