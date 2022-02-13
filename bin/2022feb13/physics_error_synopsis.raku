@@ -91,7 +91,7 @@ say "---";
     my $d1 = ♎️ '1.15 m ±0.5';                                              #libra prefix shorthand
     my $d2 = ♎️ '1.05 m ±0.5';                                              #libra prefix shorthand
     my $diff2  = $l2 - $l1;
-
+    say $diff2;  # 0m ±1
 
 
 }
