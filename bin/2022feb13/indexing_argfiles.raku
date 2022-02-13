@@ -23,6 +23,8 @@ use v6;
 say $*ARGFILES;         # IO::Handle<IO::Special.new("<STDIN>")>(opened)
 say $*ARGFILES.^name;   # IO::Handle
 
+say @*ARGS;
+
 
 
 say '===';
