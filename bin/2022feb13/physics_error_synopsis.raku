@@ -49,7 +49,10 @@ say "---";
 #     0.05       +/- 1.0
 
 
-    say $diff.WHAT;
+#    say $diff.WHAT;
+# Cannot look up attributes in a Physics::Measure::Length type object
+
+    say $diff.^name;
 
 
 }
