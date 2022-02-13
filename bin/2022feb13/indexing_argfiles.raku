@@ -36,8 +36,6 @@ say @*ARGS[1];
 say @*ARGS[1].IO.lines;         ## gets the contents of the second file
 # (ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 
-
-
 say $*ARGFILES;         # IO::Handle<IO::Special.new("<STDIN>")>(opened)
 say $*ARGFILES.^name;   # IO::Handle
 
