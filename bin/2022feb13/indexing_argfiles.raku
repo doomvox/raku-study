@@ -33,7 +33,8 @@ say @*ARGS;
 
 say @*ARGS[1];
 # /home/doom/tmp/alphabet.txt
-say @*ARGS[1].IO.lines;
+say @*ARGS[1].IO.lines;         ## gets the contents of the second file
+# (ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 
 
 
