@@ -21,7 +21,8 @@ use v6;
  # $*ARGFILES[0].lines.join("\n").say;
 
 
-say @*ARGS;  # []
+say @*ARGS;  
+# [/home/doom/tmp/a.1 /home/doom/tmp/alphabet.txt /home/doom/tmp/arcsound.txt]
 
 say $*ARGFILES;         # IO::Handle<IO::Special.new("<STDIN>")>(opened)
 say $*ARGFILES.^name;   # IO::Handle
