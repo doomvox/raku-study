@@ -30,7 +30,7 @@
 ***** review recommended math with error bars.  rms or something?
 
 *** william michaels github issue
-**** 
+**** https://github.com/rakudo/rakudo/issues/4767 
 
 *** Making a hash out of intertwined array of strings and integers
 **** https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/
