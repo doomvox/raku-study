@@ -52,9 +52,13 @@ say "---";
 #    say $diff.WHAT;
 # Cannot look up attributes in a Physics::Measure::Length type object
 
-    say $diff.^name;
+    say $diff.^name; # Physics::Measure::Length
 
-
+# # They can be accessed directly via the .error object
+# say $x1.error.absolute;                         #1
+# say $x1.error.relative;                         #0.08
+# say $x1.error.relative.^name;                   #Rat
+# say $x1.error.percent;                          #8%
 
 
 }
