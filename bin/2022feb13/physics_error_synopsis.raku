@@ -29,4 +29,8 @@ my $l1 = ♎️ '12.5 ft ±0.5';                                              #l
 my $l2 = ♎️ '12.5 m ±0.5';                                               #libra prefix shorthand
 
 my $diff = $l2 - $l1;
-say $diff;
+say $diff;  # 8.69m ±0.65
+
+
+say "---";
+
