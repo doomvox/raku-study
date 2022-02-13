@@ -6,8 +6,9 @@ use v6;
 
 my $libra = '♎';
 say $libra, ": ", ord( $libra );
-my $what = '️'; # VS16?
-say $what, ": ", ord( $what );
+
+# my $what = '️'; # VS16?
+# say $what, ": ", ord( $what );
 
 
 
