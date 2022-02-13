@@ -8,7 +8,9 @@ use Physics::Measure :ALL;
 
 my $x1 = 12.5nm ± 1;                                                    #SI units as raku postfix operators
 my $x2 = Length.new(value => 12.5, units => 'nm', error => '4.3%');     #standard raku .new syntax
-my $x3 = ♎️ '12.5 ft ±0.5';                                              #libra prefix shorthand
+# my $x3 = ♎️ '12.5 ft ±0.5';                                              #libra prefix shorthand
+
+my $x3 = ♎ '12.5 ft ±0.5';                                              #libra prefix shorthand
 
 # Error values are included in Measures when output
 say ~$x1;                                       #12.5nm ±4% or 12.5nm ±1
@@ -18,3 +20,6 @@ say $x1.error.absolute;                         #1
 say $x1.error.relative;                         #0.08
 say $x1.error.relative.^name;                   #Rat
 say $x1.error.percent;                          #8%
+
+
+###
