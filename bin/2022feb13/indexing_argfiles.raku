@@ -19,3 +19,5 @@ use v6;
 
 $*ARGFILES.lines[0..3].join("\n").say;
 # $*ARGFILES[0].lines.join("\n").say;
+
+$*ARGFILES.say;
