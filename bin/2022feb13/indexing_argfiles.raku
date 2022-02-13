@@ -25,7 +25,7 @@ say @*ARGS;  # []
 say $*ARGFILES;         # IO::Handle<IO::Special.new("<STDIN>")>(opened)
 say $*ARGFILES.^name;   # IO::Handle
 
-say @*ARGS;  # []
+
 
 
 
