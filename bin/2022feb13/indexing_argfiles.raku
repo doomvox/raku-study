@@ -8,12 +8,16 @@ use v6;
 ## https://github.com/rakudo/rakudo/issues/4767
 
 
-~$ raku -e '$*ARGFILES[0].lines.join("\n").say;' file1.txt file2.txt
-A,info1,info2
-234,info3,info4
-CD,info5,info6
+# ~$ raku -e '$*ARGFILES[0].lines.join("\n").say;' file1.txt file2.txt
+# A,info1,info2
+# 234,info3,info4
+# CD,info5,info6
 
-~$ raku -e '$*ARGFILES[1].lines.join("\n").say;' file1.txt file2.txt
-234,ccc,bb
-CD,aaa,dd
+# ~$ raku -e '$*ARGFILES[1].lines.join("\n").say;' file1.txt file2.txt
+# 234,ccc,bb
+# CD,aaa,dd
 
+
+
+$*ARGFILES.lines.join("\n").say;
+# $*ARGFILES[0].lines.join("\n").say;
