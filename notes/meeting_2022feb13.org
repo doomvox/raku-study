@@ -3,7 +3,7 @@
 
 ** usual links to the meeting material
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md 
-*** https://github.com/doomvox/raku-study/bin/2022feb13
+*** https://github.com/doomvox/raku-study/tree/main/bin/2022feb13 
 ** topics
 *** fosdem
 **** videos (note, webm files have sound, mp4s don't?)
