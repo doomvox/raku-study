@@ -21,3 +21,8 @@ $*ARGFILES.lines[0..3].join("\n").say;
 # $*ARGFILES[0].lines.join("\n").say;
 
 $*ARGFILES.say;
+
+say '===';
+
+my $a = 15;
+say $a[0];
