@@ -26,6 +26,8 @@ say @*ARGS;
 
 say @*ARGS[1];
 
+say @*ARGS[1].IO.lines;
+
 
 say $*ARGFILES;         # IO::Handle<IO::Special.new("<STDIN>")>(opened)
 say $*ARGFILES.^name;   # IO::Handle
