@@ -44,7 +44,7 @@ say $*ARGFILES.^name;   # IO::Handle
 # @*ARGS
 # @*ARGS is an array of Str containing the arguments from the command line.
 
-say "count of files: ", @*ARGS.elems;
+say "count of files: ", @*ARGS.elems;  # count of files: 3
 my @lines = $*ARGFILES.lines;
 say "count of lines: ", @lines.elems;  # count of lines: 614
 
