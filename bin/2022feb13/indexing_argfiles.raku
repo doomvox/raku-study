@@ -34,7 +34,7 @@ say @*ARGS;
 say @*ARGS[1];
 # /home/doom/tmp/alphabet.txt
 say @*ARGS[1].IO.lines;
-physics_measure_synopsis.raku
+
 
 
 say $*ARGFILES;         # IO::Handle<IO::Special.new("<STDIN>")>(opened)
