@@ -1,10 +1,5 @@
 * meeting notes February 13, 2022
 ** the raku study group
-
-
-
-d  
-xyes
 *** << raku pun >>
 ** usual links to the meeting material
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md 
@@ -15,6 +10,9 @@ xyes
 ***** https://video.fosdem.org/2022/
 ***** https://video.fosdem.org/2022/D.raku/
 **** Some are on youtube (but none of the Raku ones)
+
+*** unix.stackexchange.com moderator has magnanimously 
+
 
 *** Physics::Measure
 **** numerics with error bars and units
