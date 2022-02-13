@@ -49,3 +49,7 @@ say '===';
 
 my $a = 15;
 say $a[0];
+
+
+my $something = "b"[0];
+say $something.^name;
