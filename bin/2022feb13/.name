@@ -26,3 +26,18 @@ Physics::Error::Error
 (Submethod+{is-hidden-from-backtrace}.new subtract-const subtract divide new rebase canonical negate clone Str value pretty gist sqrt power in TWEAK units make-same-unit add-error-abs error reciprocal norm divide-by-const add-const add-error-rel multiply-const multiply defn-extract cmp add root Real value-r Numeric Submethod+{is-hidden-from-backtrace}.new)
 relative: 
 12.5nm ±1
+1
+0.08
+Rat
+8%
+---
+8.69m ±0.65
+---
+0m ±1
+Physics::Measure::Length
+Physics::Error::Error
+1
+(Submethod+{is-hidden-from-backtrace}.new value-r TWEAK gist value multiply clone add-error-rel in Numeric multiply-const add-error-abs add make-same-unit canonical reciprocal new subtract subtract-const divide-by-const add-const Str rebase power error root units divide sqrt defn-extract norm pretty cmp negate Real Submethod+{is-hidden-from-backtrace}.new)
+0m ±1
+0m ±1
+False
