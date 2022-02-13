@@ -48,8 +48,9 @@ say "count of files: ", @*ARGS.elems;  # count of files: 3
 my @lines = $*ARGFILES.lines;
 say "count of lines: ", @lines.elems;  # count of lines: 614
 
-my @lines2;
-push(@lines2, @*ARGS>>.IO.lines);
+my @lines2.push( @*ARGS>>.IO.lines );
+
+push(@lines2, );
 say "count of lines2: ", @lines2.elems;  # count of lines: 614
 
 
