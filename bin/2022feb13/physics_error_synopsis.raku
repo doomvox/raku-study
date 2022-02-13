@@ -79,3 +79,12 @@ say "---";
 
 
 
+
+{
+    my $l1 = ♎️ '1.1  m ±0.5';                                              #libra prefix shorthand
+    my $l2 = ♎️ '1.05 m ±0.5';                                               #libra prefix shorthand
+
+    my $diff  = $l2 - $l1;
+    say $diff;  # 0m ±1
+
+}
