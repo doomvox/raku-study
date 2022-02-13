@@ -14,6 +14,7 @@
 *** unix.stackexchange.com moderator has magnanimously unbanned me
 
 *** Physics::Measure
+**** physical measurments 
 **** numerics with error bars and units
 **** Steve Roe, aka p6steve
 **** https://video.fosdem.org/2022/D.raku/grammar.mp4
