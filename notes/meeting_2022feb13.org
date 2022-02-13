@@ -11,7 +11,7 @@
 ***** https://video.fosdem.org/2022/D.raku/
 **** Some are on youtube (but none of the Raku ones)
 
-*** unix.stackexchange.com moderator has magnanimously 
+*** unix.stackexchange.com moderator has magnanimously unbanned me
 
 
 *** Physics::Measure
