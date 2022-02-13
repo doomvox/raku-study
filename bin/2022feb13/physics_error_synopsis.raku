@@ -62,10 +62,10 @@ say "---";
 
     # (Submethod+{is-hidden-from-backtrace}.new norm pretty new make-same-unit subtract-const units error multiply multiply-const value subtract clone Numeric root Real sqrt negate add-error-rel value-r canonical divide-by-const TWEAK power defn-extract rebase add-error-abs add reciprocal Str add-const divide gist in cmp Submethod+{is-hidden-from-backtrace}.new)
 
-    say "relative: ";
-    say $diff.error-rel;
-    say "absolute: ";
-    say $diff.error-abs;
+#     say "relative: ";
+#     say $diff.add-error-rel;
+#     say "absolute: ";
+#     say $diff.adderror-abs;
 
 
 # # They can be accessed directly via the .error object
