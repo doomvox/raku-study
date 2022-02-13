@@ -6,10 +6,17 @@ use v6;
 
 my $libra = '♎';
 say $libra, ": ", ord( $libra );
+# ♎: 9806
 
 # my $what = '️'; # VS16?
 # say $what, ": ", ord( $what );
 
+# Malformed initializer
+# at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022feb13/extract.raku:9
+# ------> my $what =⏏ '️'; # VS16?
+#     expecting any of:
+#         prefix
+#         term
 
 
 
