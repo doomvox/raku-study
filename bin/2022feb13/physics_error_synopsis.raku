@@ -54,6 +54,8 @@ say "---";
 
     say $diff.^name; # Physics::Measure::Length
 
+    say $diff.error.^name;
+
 # # They can be accessed directly via the .error object
 # say $x1.error.absolute;                         #1
 # say $x1.error.relative;                         #0.08
