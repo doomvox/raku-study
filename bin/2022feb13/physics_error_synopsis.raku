@@ -60,6 +60,11 @@ say "---";
 
     say $diff.^methods;
 
+    # (Submethod+{is-hidden-from-backtrace}.new norm pretty new make-same-unit subtract-const units error multiply multiply-const value subtract clone Numeric root Real sqrt negate add-error-rel value-r canonical divide-by-const TWEAK power defn-extract rebase add-error-abs add reciprocal Str add-const divide gist in cmp Submethod+{is-hidden-from-backtrace}.new)
+
+    say $diff.error-rel;
+    say $diff.error-abs;
+
 # # They can be accessed directly via the .error object
 # say $x1.error.absolute;                         #1
 # say $x1.error.relative;                         #0.08

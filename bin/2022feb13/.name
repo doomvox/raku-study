@@ -1,0 +1,13 @@
+12.5nm ±1
+1
+0.08
+Rat
+8%
+---
+8.69m ±0.65
+---
+0m ±1
+Physics::Measure::Length
+Physics::Error::Error
+1
+(Submethod+{is-hidden-from-backtrace}.new new Numeric multiply-const in add value-r Str rebase divide add-error-rel defn-extract TWEAK negate reciprocal units make-same-unit canonical gist norm subtract-const error cmp sqrt pretty subtract add-const Real multiply add-error-abs clone value root power divide-by-const Submethod+{is-hidden-from-backtrace}.new)
