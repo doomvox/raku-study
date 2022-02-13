@@ -20,7 +20,7 @@
 **** https://video.fosdem.org/2022/D.raku/grammar.mp4
 **** github
 ***** https://raku.land/github:p6steve/Physics::Measure
-
+***** https://github.com/p6steve/raku-Physics-Measure
 ***** https://github.com/p6steve/raku-Physics-Unit
 ***** https://github.com/p6steve/raku-Physics-Measure
 **** questions:
@@ -28,6 +28,9 @@
 ***** comparison operators with error bars?  
 ***** automatic unit conversion?
 ***** review recommended math with error bars.  rms or something?
+
+*** william michaels github issue
+**** 
 
 *** Making a hash out of intertwined array of strings and integers
 **** https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/
