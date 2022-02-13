@@ -1,51 +1,51 @@
-- [meeting notes February 13, 2022](#orgf1cce92)
-  - [the raku study group](#org5c165b3)
-  - [usual links to the meeting material](#org7136efd)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>](#org92f4ddf)
-    - [<https://github.com/doomvox/raku-study/bin/2022feb13>](#orgf20a6e5)
-  - [topics](#orgf098e22)
-    - [fosdem](#org3fe2149)
-    - [unix.stackexchange.com moderator has magnanimously unbanned me](#org7540cfd)
-    - [Physics::Measure](#org9225bd5)
-    - [Making a hash out of intertwined array of strings and integers](#org597e0df)
-    - [recursive regexs](#org00d7674)
-    - [darkroast](#org19b5332)
-  - [announcements](#org95d1257)
-    - [February 27th: next raku study group meeting](#org1f273ee)
-    - [June 21-25: tprc: perl/raku conference](#orgeec3f5a)
+- [meeting notes February 13, 2022](#org249cad9)
+  - [the raku study group](#org6e9fb71)
+  - [usual links to the meeting material](#orgcf8a017)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>](#orgdea52d9)
+    - [<https://github.com/doomvox/raku-study/bin/2022feb13>](#orgea5b295)
+  - [topics](#org40dcd79)
+    - [fosdem](#org8c77760)
+    - [unix.stackexchange.com moderator has magnanimously unbanned me](#orga471fae)
+    - [Physics::Measure](#org50056b3)
+    - [Making a hash out of intertwined array of strings and integers](#org76af453)
+    - [recursive regexs](#org16f0c76)
+    - [darkroast](#orge09b31a)
+  - [announcements](#org73461dc)
+    - [February 27th: next raku study group meeting](#orgf53f118)
+    - [June 21-25: tprc: perl/raku conference](#org0d7dc15)
 
 
-<a id="orgf1cce92"></a>
+<a id="org249cad9"></a>
 
 # meeting notes February 13, 2022
 
 
-<a id="org5c165b3"></a>
+<a id="org6e9fb71"></a>
 
 ## the raku study group
 
 
-<a id="org7136efd"></a>
+<a id="orgcf8a017"></a>
 
 ## usual links to the meeting material
 
 
-<a id="org92f4ddf"></a>
+<a id="orgdea52d9"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>
 
 
-<a id="orgf20a6e5"></a>
+<a id="orgea5b295"></a>
 
 ### <https://github.com/doomvox/raku-study/bin/2022feb13>
 
 
-<a id="orgf098e22"></a>
+<a id="org40dcd79"></a>
 
 ## topics
 
 
-<a id="org3fe2149"></a>
+<a id="org8c77760"></a>
 
 ### fosdem
 
@@ -58,12 +58,12 @@
 2.  Some are on youtube (but none of the Raku ones)
 
 
-<a id="org7540cfd"></a>
+<a id="orga471fae"></a>
 
 ### unix.stackexchange.com moderator has magnanimously unbanned me
 
 
-<a id="org9225bd5"></a>
+<a id="org50056b3"></a>
 
 ### Physics::Measure
 
@@ -71,13 +71,17 @@
 
 2.  numerics with error bars and units
 
-3.  <https://raku.land/github:p6steve/Physics::Measure>
+3.  github
 
-4.  <https://github.com/p6steve/raku-Physics-Measure>
+    1.  <https://raku.land/github:p6steve/Physics::Measure>
+    
+    2.  <https://github.com/p6steve/raku-Physics-Unit>
+    
+    3.  <https://github.com/p6steve/raku-Physics-Measure>
 
-5.  Steve Roe, aka p6steve
+4.  Steve Roe, aka p6steve
 
-6.  questions:
+5.  questions:
 
     1.  mentions error bars&#x2013; don't see an example
     
@@ -88,14 +92,14 @@
     4.  review recommended math with error bars.  rms or something?
 
 
-<a id="org597e0df"></a>
+<a id="org76af453"></a>
 
 ### Making a hash out of intertwined array of strings and integers
 
 1.  <https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/>
 
 
-<a id="org00d7674"></a>
+<a id="org16f0c76"></a>
 
 ### recursive regexs
 
@@ -104,7 +108,7 @@
     1.  <https://stackoverflow.com/questions/70913301/what-is-the-correct-raku-recursive-regex-syntax>
 
 
-<a id="org19b5332"></a>
+<a id="orge09b31a"></a>
 
 ### darkroast
 
@@ -113,16 +117,16 @@
 2.  talk about on "problemsolving" on github?
 
 
-<a id="org95d1257"></a>
+<a id="org73461dc"></a>
 
 ## announcements
 
 
-<a id="org1f273ee"></a>
+<a id="orgf53f118"></a>
 
 ### February 27th: next raku study group meeting
 
 
-<a id="orgeec3f5a"></a>
+<a id="org0d7dc15"></a>
 
 ### June 21-25: tprc: perl/raku conference
