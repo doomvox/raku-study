@@ -17,5 +17,5 @@ use v6;
 # 234,ccc,bb
 # CD,aaa,dd
 
-$*ARGFILES.lines.head(3).join("\n").say;
+$*ARGFILES.lines[0..3].head.join("\n").say;
 # $*ARGFILES[0].lines.join("\n").say;
