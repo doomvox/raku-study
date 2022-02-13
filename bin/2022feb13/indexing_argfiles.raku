@@ -4,7 +4,7 @@
 
 use v6;
 
-## William Michaels
+## William Michels
 ## https://github.com/rakudo/rakudo/issues/4767
 
 
