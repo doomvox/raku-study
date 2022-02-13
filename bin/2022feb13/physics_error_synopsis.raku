@@ -65,7 +65,7 @@ say "---";
 #     say "relative: ";
 #     say $diff.add-error-rel;
 #     say "absolute: ";
-#     say $diff.adderror-abs;
+#     say $diff.add-error-abs;
 
 
 # # They can be accessed directly via the .error object
