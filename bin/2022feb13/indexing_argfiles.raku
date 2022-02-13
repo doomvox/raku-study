@@ -21,8 +21,12 @@ use v6;
  # $*ARGFILES[0].lines.join("\n").say;
 
 
+## On my system right now:
+#   ls ~/tmp/a*
+#   /home/doom/tmp/a.1  /home/doom/tmp/alphabet.txt  /home/doom/tmp/arcsound.txt
+
 ## Running like this gets you three files:
-## /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022feb13/indexing_argfiles.raku ~/tmp/a*
+##  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022feb13/indexing_argfiles.raku ~/tmp/a*
 
 say @*ARGS;  
 # [/home/doom/tmp/a.1 /home/doom/tmp/alphabet.txt /home/doom/tmp/arcsound.txt]
