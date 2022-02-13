@@ -29,7 +29,7 @@
 ***** automatic unit conversion?
 ***** review recommended math with error bars.  rms or something?
 
-*** william michaels github issue
+*** william michels github issue
 **** https://github.com/rakudo/rakudo/issues/4767 
 
 *** Making a hash out of intertwined array of strings and integers
