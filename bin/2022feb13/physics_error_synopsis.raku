@@ -8,7 +8,7 @@ use Physics::Measure :ALL;
 
 my $x1 = 12.5nm ± 1;                                                    #SI units as raku postfix operators
 my $x2 = Length.new(value => 12.5, units => 'nm', error => '4.3%');     #standard raku .new syntax
-# my $x3 = ♎️ '12.5 ft ±0.5';                                              #libra prefix shorthand
+# my $x3 = ♎️ '12.5 ft ±0.5';                                            #libra prefix shorthand
 
 my $x3 = ♎️ '12.5 ft ±0.5';                                              #libra prefix shorthand
 
