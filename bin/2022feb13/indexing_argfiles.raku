@@ -20,12 +20,14 @@ use v6;
 # $*ARGFILES.lines[0..3].join("\n").say;
  # $*ARGFILES[0].lines.join("\n").say;
 
+
 say @*ARGS;  # []
 
 say $*ARGFILES;         # IO::Handle<IO::Special.new("<STDIN>")>(opened)
 say $*ARGFILES.^name;   # IO::Handle
 
-
+# @*ARGS
+# @*ARGS is an array of Str containing the arguments from the command line.
 
 
 
