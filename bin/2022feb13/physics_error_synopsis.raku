@@ -27,3 +27,6 @@ say $x1.error.percent;                          #8%
 
 my $l1 = ♎️ '12.5 ft ±0.5';                                              #libra prefix shorthand
 my $l2 = ♎️ '12.5 m ±0.5';                                               #libra prefix shorthand
+
+my $diff = $l2 - $l1;
+say $diff;
