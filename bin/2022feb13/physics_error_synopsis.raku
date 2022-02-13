@@ -52,7 +52,7 @@ say "---";
 #    say $diff.WHAT;
 # Cannot look up attributes in a Physics::Measure::Length type object
 
-    say $diff.^name; # Physics::Measure::Length
+    say $diff.^name;       # Physics::Measure::Length
 
     say $diff.error.^name; # Physics::Measure::Error
 
