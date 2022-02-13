@@ -17,10 +17,13 @@ use v6;
 # 234,ccc,bb
 # CD,aaa,dd
 
-$*ARGFILES.lines[0..3].join("\n").say;
-# $*ARGFILES[0].lines.join("\n").say;
+# $*ARGFILES.lines[0..3].join("\n").say;
+ # $*ARGFILES[0].lines.join("\n").say;
 
-$*ARGFILES.say;
+say $*ARGFILES;
+say $*ARGFILES.^name;
+
+
 
 say '===';
 
