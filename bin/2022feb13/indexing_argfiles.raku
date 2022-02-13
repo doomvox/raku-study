@@ -24,6 +24,9 @@ use v6;
 say @*ARGS;  
 # [/home/doom/tmp/a.1 /home/doom/tmp/alphabet.txt /home/doom/tmp/arcsound.txt]
 
+say @*ARGS[1];
+
+
 say $*ARGFILES;         # IO::Handle<IO::Special.new("<STDIN>")>(opened)
 say $*ARGFILES.^name;   # IO::Handle
 
