@@ -63,7 +63,7 @@ say $a[0];  # 15
 say $a[1];  # Index out of range. Is: 1, should be in 0..0
 
 my $b = <a b c d e>;
-
+say $b[1];
 
 
 # my $something = "b"[0];
