@@ -1,52 +1,52 @@
-- [meeting notes February 13, 2022](#org438355b)
-  - [the raku study group](#org53309db)
-  - [usual links to the meeting material](#org9a6382e)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>](#org8fba320)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb13>](#orgfef3281)
-  - [topics](#org3fd63d0)
-    - [fosdem](#orgc846180)
-    - [unix.stackexchange.com moderator has magnanimously unbanned me](#org5c6cb1c)
-    - [Physics::Measure](#org9da4faa)
-    - [william michels github issue](#org695767e)
-    - [Making a hash out of intertwined array of strings and integers](#org5bb4e34)
-    - [recursive regexs](#org1ff616f)
-    - [darkroast](#orgb9cf08e)
-  - [announcements](#org4c6b402)
-    - [February 27th: next raku study group meeting](#org44c535f)
-    - [June 21-25: tprc: perl/raku conference](#org2d3eabc)
+- [meeting notes February 13, 2022](#orgc38e917)
+  - [the raku study group](#org01fb467)
+  - [usual links to the meeting material](#org4889fae)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>](#org545ca33)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb13>](#orge4d4d40)
+  - [topics](#org8550a55)
+    - [fosdem](#orgc7c7027)
+    - [unix.stackexchange.com moderator has magnanimously unbanned me](#orgf0f71b7)
+    - [Physics::Measure](#orge54e8b4)
+    - [william michels github issue](#orgb95b334)
+    - [Making a hash out of intertwined array of strings and integers](#orgd5d3d94)
+    - [recursive regexs](#org29cd452)
+    - [darkroast](#orgee2578c)
+  - [announcements](#org1586d81)
+    - [February 27th: next raku study group meeting](#org2458ac2)
+    - [June 21-25: tprc: perl/raku conference](#orgba77c51)
 
 
-<a id="org438355b"></a>
+<a id="orgc38e917"></a>
 
 # meeting notes February 13, 2022
 
 
-<a id="org53309db"></a>
+<a id="org01fb467"></a>
 
 ## the raku study group
 
 
-<a id="org9a6382e"></a>
+<a id="org4889fae"></a>
 
 ## usual links to the meeting material
 
 
-<a id="org8fba320"></a>
+<a id="org545ca33"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>
 
 
-<a id="orgfef3281"></a>
+<a id="orge4d4d40"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2022feb13>
 
 
-<a id="org3fd63d0"></a>
+<a id="org8550a55"></a>
 
 ## topics
 
 
-<a id="orgc846180"></a>
+<a id="orgc7c7027"></a>
 
 ### fosdem
 
@@ -59,12 +59,12 @@
 2.  Some are on youtube (but none of the Raku ones)
 
 
-<a id="org5c6cb1c"></a>
+<a id="orgf0f71b7"></a>
 
 ### unix.stackexchange.com moderator has magnanimously unbanned me
 
 
-<a id="org9da4faa"></a>
+<a id="orge54e8b4"></a>
 
 ### Physics::Measure
 
@@ -88,16 +88,22 @@
 
 6.  questions:
 
-    1.  mentions error bars&#x2013; don't see an example (in \*::Error)
+    1.  mentions error bars&#x2013; don't see an example (in Physics::Error)
+    
+        1.  links to: <https://en.wikipedia.org/wiki/Propagation_of_uncertainty>
+        
+        2.  admits this is a complex subject, and his code is limited to the simplest approach:
+        
+            "linear".
     
     2.  comparison operators with error bars?  (works, but maybe not how you expect)
     
-    3.  automatic unit conversion?
+    3.  automatic unit conversion?  (yes!)
     
     4.  review recommended math with error bars.  rms or something?
 
 
-<a id="org695767e"></a>
+<a id="orgb95b334"></a>
 
 ### william michels github issue
 
@@ -108,14 +114,14 @@
     2.  genuinely odd behavior: indexing [0] on a non-list is not an error
 
 
-<a id="org5bb4e34"></a>
+<a id="orgd5d3d94"></a>
 
 ### Making a hash out of intertwined array of strings and integers
 
 1.  <https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/>
 
 
-<a id="org1ff616f"></a>
+<a id="org29cd452"></a>
 
 ### recursive regexs
 
@@ -124,7 +130,7 @@
     1.  <https://stackoverflow.com/questions/70913301/what-is-the-correct-raku-recursive-regex-syntax>
 
 
-<a id="orgb9cf08e"></a>
+<a id="orgee2578c"></a>
 
 ### darkroast
 
@@ -133,16 +139,16 @@
 2.  talk about on "problemsolving" on github?
 
 
-<a id="org4c6b402"></a>
+<a id="org1586d81"></a>
 
 ## announcements
 
 
-<a id="org44c535f"></a>
+<a id="org2458ac2"></a>
 
 ### February 27th: next raku study group meeting
 
 
-<a id="org2d3eabc"></a>
+<a id="orgba77c51"></a>
 
 ### June 21-25: tprc: perl/raku conference

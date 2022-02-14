@@ -24,9 +24,13 @@
 ***** https://github.com/p6steve/raku-Physics-Unit
 ***** https://github.com/p6steve/raku-Physics-Measure
 **** questions:
-***** mentions error bars-- don't see an example (in *::Error)
+***** mentions error bars-- don't see an example (in Physics::Error)
+****** links to: https://en.wikipedia.org/wiki/Propagation_of_uncertainty
+****** admits this is a complex subject, and his code is limited to the simplest approach:
+"linear".
+
 ***** comparison operators with error bars?  (works, but maybe not how you expect)
-***** automatic unit conversion?
+***** automatic unit conversion?  (yes!)
 ***** review recommended math with error bars.  rms or something?
 
 *** william michels github issue
