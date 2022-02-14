@@ -56,10 +56,10 @@ say @*ARGS[1].IO.lines;         ## gets the contents of the second file
 # # # count of lines2: 1
 
 
-# say '===';
+say '===';
 
-# my $a = 15;
-# say $a[0];
+my $a = 15;
+say $a[0];
 
 
 # my $something = "b"[0];
