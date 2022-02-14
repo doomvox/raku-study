@@ -24,8 +24,8 @@
 ***** https://github.com/p6steve/raku-Physics-Unit
 ***** https://github.com/p6steve/raku-Physics-Measure
 **** questions:
-***** mentions error bars-- don't see an example
-***** comparison operators with error bars?  
+***** mentions error bars-- don't see an example (in *::Error)
+***** comparison operators with error bars?  (works, but maybe not how you expect)
 ***** automatic unit conversion?
 ***** review recommended math with error bars.  rms or something?
 
