@@ -38,29 +38,32 @@ say @*ARGS[1].IO.lines;         ## gets the contents of the second file
 # (ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 
 
-say $*ARGFILES;         # IO::Handle<IO::Special.new("<STDIN>")>(opened)
-say $*ARGFILES.^name;   # IO::Handle
+# say $*ARGFILES;         # IO::Handle<IO::Special.new("<STDIN>")>(opened)
+# say $*ARGFILES.^name;   # IO::Handle
 
-# @*ARGS
-# @*ARGS is an array of Str containing the arguments from the command line.
+# # @*ARGS
+# # @*ARGS is an array of Str containing the arguments from the command line.
 
-say "count of files: ", @*ARGS.elems;  # count of files: 3
-my @lines = $*ARGFILES.lines;
-say "count of lines: ", @lines.elems;  # count of lines: 614
-
-
-
-# my @lines2.push( @*ARGS>>.IO.lines );
-# push(@lines2, );
-# say "count of lines2: ", @lines2.elems;  # count of lines: 614
-# # count of lines2: 1
+# say "count of files: ", @*ARGS.elems;  # count of files: 3
+# my @lines = $*ARGFILES.lines;
+# say "count of lines: ", @lines.elems;  # count of lines: 614
 
 
-say '===';
 
-my $a = 15;
-say $a[0];
+# # my @lines2.push( @*ARGS>>.IO.lines );
+# # push(@lines2, );
+# # say "count of lines2: ", @lines2.elems;  # count of lines: 614
+# # # count of lines2: 1
 
 
-my $something = "b"[0];
-say $something.^name;
+# say '===';
+
+# my $a = 15;
+# say $a[0];
+
+
+# my $something = "b"[0];
+# say $something.^name;
+
+
+
