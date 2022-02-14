@@ -59,7 +59,8 @@ say @*ARGS[1].IO.lines;         ## gets the contents of the second file
 say '===';
 
 my $a = 15;
-say $a[0];
+say $a[0];  # 15 
+say $a[1];
 
 
 # my $something = "b"[0];
