@@ -25,7 +25,7 @@
 ******** brad gilbert argues it has to be this way for performance reasons
 ******** brad gilbert post using factorial example is puzzling:
 ********* https://www.nntp.perl.org/group/perl.perl6.users/2021/09/msg10149.html
-********* https://github.com/doomvox/raku-study/bin/2021sep26/multi_dispatch_brad_gilbert_factorial.raku
+********* https://github.com/doomvox/raku-study/tree/main/bin/2021sep26/multi_dispatch_brad_gilbert_factorial.raku
 ********* doesn't seem to address the issue at hand?
 ********* some idioms in use are interesting:
 #+BEGIN_SRC perl6
