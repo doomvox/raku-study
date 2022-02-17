@@ -1,101 +1,101 @@
-- [meeting notes December 05, 2021](#org0dba34d)
-  - [the raku study group](#org6fbe931)
-    - [Raku takes Knight](#orgc2aedb4)
-  - [usual links](#org1aff768)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org0bdc97c)
-    - [<https://github.com/doomvox/raku-study/bin/2021dec05>](#orgdd1ec56)
-  - [bg code, using an external library, mpfr, to do arbitrary precision math on any numbers](#orgb3c0c3d)
-    - [raku's FatRats and so are pretty good, but they do have limitations](#orga469365)
-    - [<https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>](#org6cb254b)
-  - [damian conway interview from 2010](#org3994d8b)
-  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#orgafecd39)
-    - [<https://github.com/rakudo/rakudo/issues/4615>](#org9a16a06)
-  - [announcments](#orge6f9ba7)
-    - [december 19th, next meeting](#org902a83f)
-    - [january 6th, svlug: I'll be talking about Raku](#org00ba332)
-  - [text of the entire chat window (until I get around to trimming it)](#org6040268)
+- [meeting notes December 05, 2021](#orgc362c6c)
+  - [the raku study group](#org9256d9a)
+    - [Raku takes Knight](#orgd89c2f1)
+  - [usual links](#org23270c6)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>](#org80a24f1)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2021dec05>](#org2c6ba33)
+  - [bg code, using an external library, mpfr, to do arbitrary precision math on any numbers](#org9a31819)
+    - [raku's FatRats and so are pretty good, but they do have limitations](#orgded20da)
+    - [<https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>](#orgc8f5be7)
+  - [damian conway interview from 2010](#org0e30db5)
+  - [Ralph's remarks on the left-hand junction with smartmatch issue:](#orgb13a8ee)
+    - [<https://github.com/rakudo/rakudo/issues/4615>](#orgb1942b4)
+  - [announcments](#org82948b9)
+    - [december 19th, next meeting](#orga1618d8)
+    - [january 6th, svlug: I'll be talking about Raku](#orga5c164b)
+  - [text of the entire chat window (until I get around to trimming it)](#org0775e97)
 
 
-<a id="org0dba34d"></a>
+<a id="orgc362c6c"></a>
 
 # meeting notes December 05, 2021
 
 
-<a id="org6fbe931"></a>
+<a id="org9256d9a"></a>
 
 ## the raku study group
 
 
-<a id="orgc2aedb4"></a>
+<a id="orgd89c2f1"></a>
 
 ### Raku takes Knight
 
 
-<a id="org1aff768"></a>
+<a id="org23270c6"></a>
 
 ## usual links
 
 
-<a id="org0bdc97c"></a>
+<a id="org80a24f1"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md>
 
 
-<a id="orgdd1ec56"></a>
+<a id="org2c6ba33"></a>
 
-### <https://github.com/doomvox/raku-study/bin/2021dec05>
+### <https://github.com/doomvox/raku-study/tree/main/bin/2021dec05>
 
 <https://stackoverflow.com/questions/69372414/flattening-and-itemized-lists>
 
 
-<a id="orgb3c0c3d"></a>
+<a id="org9a31819"></a>
 
 ## bg code, using an external library, mpfr, to do arbitrary precision math on any numbers
 
 
-<a id="orga469365"></a>
+<a id="orgded20da"></a>
 
 ### raku's FatRats and so are pretty good, but they do have limitations
 
 
-<a id="org6cb254b"></a>
+<a id="orgc8f5be7"></a>
 
 ### <https://gist.github.com/Util/b23d37e9f512ec1193e0664b6df30568>
 
 
-<a id="org3994d8b"></a>
+<a id="org0e30db5"></a>
 
 ## damian conway interview from 2010
 
 <http://www.josetteorama.com/damian-conway-on-perl-and-its-future/>
 
 
-<a id="orgafecd39"></a>
+<a id="orgb13a8ee"></a>
 
 ## Ralph's remarks on the left-hand junction with smartmatch issue:
 
 
-<a id="org9a16a06"></a>
+<a id="orgb1942b4"></a>
 
 ### <https://github.com/rakudo/rakudo/issues/4615>
 
 
-<a id="orge6f9ba7"></a>
+<a id="org82948b9"></a>
 
 ## announcments
 
 
-<a id="org902a83f"></a>
+<a id="orga1618d8"></a>
 
 ### december 19th, next meeting
 
 
-<a id="org00ba332"></a>
+<a id="orga5c164b"></a>
 
 ### january 6th, svlug: I'll be talking about Raku
 
 
-<a id="org6040268"></a>
+<a id="org0775e97"></a>
 
 ## text of the entire chat window (until I get around to trimming it)
 

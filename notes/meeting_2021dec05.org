@@ -4,7 +4,7 @@
 
 ** usual links
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2021dec05.md 
-*** https://github.com/doomvox/raku-study/bin/2021dec05
+*** https://github.com/doomvox/raku-study/tree/main/bin/2021dec05
 
 https://stackoverflow.com/questions/69372414/flattening-and-itemized-lists
 
