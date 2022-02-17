@@ -38,6 +38,7 @@
 **** https://github.com/rakudo/rakudo/issues/4767 
 ***** @*ARGS to do what he wants
 ***** genuinely odd behavior: indexing [0] on a non-list is not an error
+****** So Raku coerces the single value into a list, and derefs it?
 
 *** Making a hash out of intertwined array of strings and integers
 **** https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/
