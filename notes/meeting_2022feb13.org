@@ -32,7 +32,7 @@
 ***** automatic unit conversion?  (yes!)
 ***** review recommended math with error bars.  rms or something?
 ***** how does it get units to work?  e.g. $l = 5 m; 
-****** Here, "m" is a postfix operator
+****** Here: "m" is a Raku postfix operator
 
 *** william michels github issue
 **** https://github.com/rakudo/rakudo/issues/4767 
