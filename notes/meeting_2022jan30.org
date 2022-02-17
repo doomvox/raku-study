@@ -4,7 +4,7 @@
 
 ** usual links to the meeting material
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan30.md 
-*** https://github.com/doomvox/raku-study/bin/2022jan30
+*** https://github.com/doomvox/raku-study/tree/main/bin/2022jan30
 
 ** topics
 
@@ -85,7 +85,7 @@
 *** misc intro raku subjects for future toalks
 **** pair input, adverb syntax
 **** junctions and hyper operators, etc:
-***** Some examples: https://github.com/doomvox/raku-study/bin/2021feb28
+***** Some examples: https://github.com/doomvox/raku-study/tree/main/bin/2021feb28
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021feb28/hyperism.pl6
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021feb28/hyperism_in_pairs.pl6
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021feb28/reductionism.pl6
