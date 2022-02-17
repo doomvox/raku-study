@@ -3,7 +3,7 @@
 
 ** usual links 
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan16.md 
-*** https://github.com/doomvox/raku-study/bin/2022jan16
+*** https://github.com/doomvox/raku-study/tree/main/bin/2022jan16
 
 
 ** talking about how the sv perl talk went:
@@ -12,7 +12,7 @@
 *** ideas for other things to cover:
 **** pair input, adverb syntax
 **** junctions and hyper operators, etc:
-***** Some examples: https://github.com/doomvox/raku-study/bin/2021feb28
+***** Some examples: https://github.com/doomvox/raku-study/tree/main/bin/2021feb28
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021feb28/hyperism.pl6
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021feb28/hyperism_in_pairs.pl6
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021feb28/reductionism.pl6
