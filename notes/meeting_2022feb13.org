@@ -31,6 +31,8 @@
 ***** comparison operators with error bars?  (works, but maybe not how you expect)
 ***** automatic unit conversion?  (yes!)
 ***** review recommended math with error bars.  rms or something?
+***** how does it get units to work?  e.g. $l = 5 m; 
+****** Here, "m" is a postfix operator
 
 *** william michels github issue
 **** https://github.com/rakudo/rakudo/issues/4767 
