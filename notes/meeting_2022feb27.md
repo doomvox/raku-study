@@ -1,164 +1,64 @@
-- [meeting notes February 13, 2022](#org2eea1c7)
-  - [the raku study group](#org7df3f74)
-  - [usual links to the meeting material](#org55fe618)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb27.md>](#orgb5df1d3)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb27>](#orgfc13c18)
-  - [topics](#org41286e8)
-    - [fosdem](#org54ae217)
-    - [unix.stackexchange.com moderator has magnanimously unbanned me](#orgf6569c7)
-    - [Physics::Measure](#orga353c85)
-    - [william michels github issue](#orgfe26c7f)
-    - [Making a hash out of intertwined array of strings and integers](#org167a5c1)
-  - [untopics](#org7184fad)
-    - [Alan, noting my Materials Science background asks what I think of:](#orgcc0e1ec)
-    - [William Michels was curious about:](#org7b4626b)
-  - [announcements](#orga31dbb0)
-    - [February 27th: next raku study group meeting](#org421cbeb)
-    - [June 21-25: tprc: perl/raku conference](#org4320f8d)
+- [meeting notes February 27, 2022](#org20a3d45)
+  - [the raku study group](#orgbb986c9)
+  - [usual links to the meeting material](#org33752c2)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb27.md>](#orgc959c05)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb27>](#org4bcf058)
+  - [topics](#org97e1443)
+    - [Making a hash out of intertwined array of strings and integers](#orgac3eb47)
+  - [announcements](#org631e53c)
+    - [February 27th: next raku study group meeting](#org88a6f35)
+    - [June 21-25: tprc: perl/raku conference](#org76e3e3a)
 
 
-<a id="org2eea1c7"></a>
+<a id="org20a3d45"></a>
 
-# meeting notes February 13, 2022
+# meeting notes February 27, 2022
 
 
-<a id="org7df3f74"></a>
+<a id="orgbb986c9"></a>
 
 ## the raku study group
 
 
-<a id="org55fe618"></a>
+<a id="org33752c2"></a>
 
 ## usual links to the meeting material
 
 
-<a id="orgb5df1d3"></a>
+<a id="orgc959c05"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb27.md>
 
 
-<a id="orgfc13c18"></a>
+<a id="org4bcf058"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2022feb27>
 
 
-<a id="org41286e8"></a>
+<a id="org97e1443"></a>
 
 ## topics
 
 
-<a id="org54ae217"></a>
-
-### fosdem
-
-1.  videos (note, webm files have sound, mp4s don't?)
-
-    1.  <https://video.fosdem.org/2022/>
-    
-    2.  <https://video.fosdem.org/2022/D.raku/>
-
-2.  Some are on youtube (but none of the Raku ones)
-
-
-<a id="orgf6569c7"></a>
-
-### unix.stackexchange.com moderator has magnanimously unbanned me
-
-
-<a id="orga353c85"></a>
-
-### Physics::Measure
-
-1.  really "physical measurments":
-
-    1.  numerics with error bars and units
-
-2.  Steve Roe, aka p6steve
-
-3.  <https://video.fosdem.org/2022/D.raku/grammar.mp4>
-
-4.  github
-
-    1.  <https://raku.land/github:p6steve/Physics::Measure>
-    
-    2.  <https://github.com/p6steve/raku-Physics-Measure>
-    
-    3.  <https://github.com/p6steve/raku-Physics-Unit>
-    
-    4.  <https://github.com/p6steve/raku-Physics-Error>
-
-5.  questions:
-
-    1.  mentions error bars&#x2013; don't see an example (in Physics::Error)
-    
-        1.  links to: <https://en.wikipedia.org/wiki/Propagation_of_uncertainty>
-        
-        2.  admits this is a complex subject, and his code is limited to the simplest approach: "linear".
-    
-    2.  comparison operators with error bars?  (works, but maybe not how you expect)
-    
-    3.  automatic unit conversion?  (yes!)
-    
-    4.  review recommended math with error bars.  rms or something?
-    
-    5.  how does it get units to work?  e.g. $l = 5 m;
-    
-        1.  Here: "m" is a Raku postfix operator
-
-
-<a id="orgfe26c7f"></a>
-
-### william michels github issue
-
-1.  <https://github.com/rakudo/rakudo/issues/4767>
-
-    1.  @\*ARGS to do what he wants
-    
-    2.  genuinely odd behavior: indexing [0] on a non-list is not an error
-    
-        1.  So Raku coerces the single value into a list, and derefs it?
-
-
-<a id="org167a5c1"></a>
+<a id="orgac3eb47"></a>
 
 ### Making a hash out of intertwined array of strings and integers
 
-1.  <https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/>
+1.  categorize
+
+2.  <https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/>
 
 
-<a id="org7184fad"></a>
-
-## untopics
-
-
-<a id="orgcc0e1ec"></a>
-
-### Alan, noting my Materials Science background asks what I think of:
-
-1.  <https://www.goodreads.com/book/show/230510.The_New_Science_of_Strong_Materials>
-
-2.  <https://link.springer.com/book/10.1007/978-1-4615-9074-3>
-
-
-<a id="org7b4626b"></a>
-
-### William Michels was curious about:
-
-1.  "R for Finite Element Analyses of Size-dependent Microscale Structures"
-
-2.  <https://link.springer.com/book/10.1007/978-981-13-7014-4>
-
-
-<a id="orga31dbb0"></a>
+<a id="org631e53c"></a>
 
 ## announcements
 
 
-<a id="org421cbeb"></a>
+<a id="org88a6f35"></a>
 
 ### February 27th: next raku study group meeting
 
 
-<a id="org4320f8d"></a>
+<a id="org76e3e3a"></a>
 
 ### June 21-25: tprc: perl/raku conference
