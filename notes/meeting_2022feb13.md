@@ -1,52 +1,56 @@
-- [meeting notes February 13, 2022](#org8e70959)
-  - [the raku study group](#org2c0b5b8)
-  - [usual links to the meeting material](#orgaf8e900)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>](#org115b66b)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb13>](#orgec01cc0)
-  - [topics](#orgfbcb3c2)
-    - [fosdem](#orge3b0bb5)
-    - [unix.stackexchange.com moderator has magnanimously unbanned me](#org4c112e4)
-    - [Physics::Measure](#orgca85a87)
-    - [william michels github issue](#orgb3e76b0)
-    - [Making a hash out of intertwined array of strings and integers](#org752ebab)
-    - [recursive regexs](#org88c98fc)
-    - [darkroast](#orgdf39360)
-  - [announcements](#orgb0e73ac)
-    - [February 27th: next raku study group meeting](#org5f4c9aa)
-    - [June 21-25: tprc: perl/raku conference](#org71579ac)
+- [meeting notes February 13, 2022](#orgcbdb8e6)
+  - [the raku study group](#orgc38356b)
+  - [usual links to the meeting material](#org8becfdf)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>](#org0d12b2d)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb13>](#org0c03c29)
+  - [topics](#orgd28fdea)
+    - [fosdem](#org498838b)
+    - [unix.stackexchange.com moderator has magnanimously unbanned me](#org695e5c7)
+    - [Physics::Measure](#orgb808448)
+    - [william michels github issue](#org9392e39)
+    - [Making a hash out of intertwined array of strings and integers](#org0a08ec4)
+  - [Alan, noting my Materials Science background asks what I think of:](#orgac75ab4)
+    - [<https://www.goodreads.com/book/show/230510.The_New_Science_of_Strong_Materials>](#org33af4f3)
+    - [<https://link.springer.com/book/10.1007/978-1-4615-9074-3>](#org10a1b06)
+  - [William Michels was curious about:](#org3b30d63)
+    - ["R for Finite Element Analyses of Size-dependent Microscale Structures"](#org67d40f4)
+    - [<https://link.springer.com/book/10.1007/978-981-13-7014-4>](#orgb8b545f)
+  - [announcements](#orga5cdaff)
+    - [February 27th: next raku study group meeting](#org87db9a1)
+    - [June 21-25: tprc: perl/raku conference](#org6da9f74)
 
 
-<a id="org8e70959"></a>
+<a id="orgcbdb8e6"></a>
 
 # meeting notes February 13, 2022
 
 
-<a id="org2c0b5b8"></a>
+<a id="orgc38356b"></a>
 
 ## the raku study group
 
 
-<a id="orgaf8e900"></a>
+<a id="org8becfdf"></a>
 
 ## usual links to the meeting material
 
 
-<a id="org115b66b"></a>
+<a id="org0d12b2d"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>
 
 
-<a id="orgec01cc0"></a>
+<a id="org0c03c29"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2022feb13>
 
 
-<a id="orgfbcb3c2"></a>
+<a id="orgd28fdea"></a>
 
 ## topics
 
 
-<a id="orge3b0bb5"></a>
+<a id="org498838b"></a>
 
 ### fosdem
 
@@ -59,12 +63,12 @@
 2.  Some are on youtube (but none of the Raku ones)
 
 
-<a id="org4c112e4"></a>
+<a id="org695e5c7"></a>
 
 ### unix.stackexchange.com moderator has magnanimously unbanned me
 
 
-<a id="orgca85a87"></a>
+<a id="orgb808448"></a>
 
 ### Physics::Measure
 
@@ -105,7 +109,7 @@
         1.  Here, "m" is a postfix operator
 
 
-<a id="orgb3e76b0"></a>
+<a id="org9392e39"></a>
 
 ### william michels github issue
 
@@ -116,41 +120,53 @@
     2.  genuinely odd behavior: indexing [0] on a non-list is not an error
 
 
-<a id="org752ebab"></a>
+<a id="org0a08ec4"></a>
 
 ### Making a hash out of intertwined array of strings and integers
 
 1.  <https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/>
 
 
-<a id="org88c98fc"></a>
+<a id="orgac75ab4"></a>
 
-### recursive regexs
-
-1.  stackoverflow:
-
-    1.  <https://stackoverflow.com/questions/70913301/what-is-the-correct-raku-recursive-regex-syntax>
+## Alan, noting my Materials Science background asks what I think of:
 
 
-<a id="orgdf39360"></a>
+<a id="org33af4f3"></a>
 
-### darkroast
-
-1.  staging area for new roast tests, lower bar to add more tests than to roast
-
-2.  talk about on "problemsolving" on github?
+### <https://www.goodreads.com/book/show/230510.The_New_Science_of_Strong_Materials>
 
 
-<a id="orgb0e73ac"></a>
+<a id="org10a1b06"></a>
+
+### <https://link.springer.com/book/10.1007/978-1-4615-9074-3>
+
+
+<a id="org3b30d63"></a>
+
+## William Michels was curious about:
+
+
+<a id="org67d40f4"></a>
+
+### "R for Finite Element Analyses of Size-dependent Microscale Structures"
+
+
+<a id="orgb8b545f"></a>
+
+### <https://link.springer.com/book/10.1007/978-981-13-7014-4>
+
+
+<a id="orga5cdaff"></a>
 
 ## announcements
 
 
-<a id="org5f4c9aa"></a>
+<a id="org87db9a1"></a>
 
 ### February 27th: next raku study group meeting
 
 
-<a id="org71579ac"></a>
+<a id="org6da9f74"></a>
 
 ### June 21-25: tprc: perl/raku conference
