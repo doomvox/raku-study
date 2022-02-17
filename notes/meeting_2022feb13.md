@@ -1,56 +1,53 @@
-- [meeting notes February 13, 2022](#orgcbdb8e6)
-  - [the raku study group](#orgc38356b)
-  - [usual links to the meeting material](#org8becfdf)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>](#org0d12b2d)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb13>](#org0c03c29)
-  - [topics](#orgd28fdea)
-    - [fosdem](#org498838b)
-    - [unix.stackexchange.com moderator has magnanimously unbanned me](#org695e5c7)
-    - [Physics::Measure](#orgb808448)
-    - [william michels github issue](#org9392e39)
-    - [Making a hash out of intertwined array of strings and integers](#org0a08ec4)
-  - [Alan, noting my Materials Science background asks what I think of:](#orgac75ab4)
-    - [<https://www.goodreads.com/book/show/230510.The_New_Science_of_Strong_Materials>](#org33af4f3)
-    - [<https://link.springer.com/book/10.1007/978-1-4615-9074-3>](#org10a1b06)
-  - [William Michels was curious about:](#org3b30d63)
-    - ["R for Finite Element Analyses of Size-dependent Microscale Structures"](#org67d40f4)
-    - [<https://link.springer.com/book/10.1007/978-981-13-7014-4>](#orgb8b545f)
-  - [announcements](#orga5cdaff)
-    - [February 27th: next raku study group meeting](#org87db9a1)
-    - [June 21-25: tprc: perl/raku conference](#org6da9f74)
+- [meeting notes February 13, 2022](#orgc5906fc)
+  - [the raku study group](#orgd670298)
+  - [usual links to the meeting material](#orgd9bb293)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>](#org77c39ef)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb13>](#orgfaa8ffc)
+  - [topics](#orge4650d2)
+    - [fosdem](#org14e3d62)
+    - [unix.stackexchange.com moderator has magnanimously unbanned me](#org0e80997)
+    - [Physics::Measure](#org5c6fafd)
+    - [william michels github issue](#org6241cea)
+    - [Making a hash out of intertwined array of strings and integers](#org7912a1d)
+  - [untopics](#orgc6be138)
+    - [Alan, noting my Materials Science background asks what I think of:](#org234be5e)
+    - [William Michels was curious about:](#orgfac7667)
+  - [announcements](#org5b81be8)
+    - [February 27th: next raku study group meeting](#org10948b7)
+    - [June 21-25: tprc: perl/raku conference](#org6bc76b2)
 
 
-<a id="orgcbdb8e6"></a>
+<a id="orgc5906fc"></a>
 
 # meeting notes February 13, 2022
 
 
-<a id="orgc38356b"></a>
+<a id="orgd670298"></a>
 
 ## the raku study group
 
 
-<a id="org8becfdf"></a>
+<a id="orgd9bb293"></a>
 
 ## usual links to the meeting material
 
 
-<a id="org0d12b2d"></a>
+<a id="org77c39ef"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>
 
 
-<a id="org0c03c29"></a>
+<a id="orgfaa8ffc"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2022feb13>
 
 
-<a id="orgd28fdea"></a>
+<a id="orge4650d2"></a>
 
 ## topics
 
 
-<a id="org498838b"></a>
+<a id="org14e3d62"></a>
 
 ### fosdem
 
@@ -63,12 +60,12 @@
 2.  Some are on youtube (but none of the Raku ones)
 
 
-<a id="org695e5c7"></a>
+<a id="org0e80997"></a>
 
 ### unix.stackexchange.com moderator has magnanimously unbanned me
 
 
-<a id="orgb808448"></a>
+<a id="org5c6fafd"></a>
 
 ### Physics::Measure
 
@@ -109,7 +106,7 @@
         1.  Here, "m" is a postfix operator
 
 
-<a id="org9392e39"></a>
+<a id="org6241cea"></a>
 
 ### william michels github issue
 
@@ -120,53 +117,46 @@
     2.  genuinely odd behavior: indexing [0] on a non-list is not an error
 
 
-<a id="org0a08ec4"></a>
+<a id="org7912a1d"></a>
 
 ### Making a hash out of intertwined array of strings and integers
 
 1.  <https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/>
 
 
-<a id="orgac75ab4"></a>
+<a id="orgc6be138"></a>
 
-## Alan, noting my Materials Science background asks what I think of:
-
-
-<a id="org33af4f3"></a>
-
-### <https://www.goodreads.com/book/show/230510.The_New_Science_of_Strong_Materials>
+## untopics
 
 
-<a id="org10a1b06"></a>
+<a id="org234be5e"></a>
 
-### <https://link.springer.com/book/10.1007/978-1-4615-9074-3>
+### Alan, noting my Materials Science background asks what I think of:
 
+1.  <https://www.goodreads.com/book/show/230510.The_New_Science_of_Strong_Materials>
 
-<a id="org3b30d63"></a>
-
-## William Michels was curious about:
-
-
-<a id="org67d40f4"></a>
-
-### "R for Finite Element Analyses of Size-dependent Microscale Structures"
+2.  <https://link.springer.com/book/10.1007/978-1-4615-9074-3>
 
 
-<a id="orgb8b545f"></a>
+<a id="orgfac7667"></a>
 
-### <https://link.springer.com/book/10.1007/978-981-13-7014-4>
+### William Michels was curious about:
+
+1.  "R for Finite Element Analyses of Size-dependent Microscale Structures"
+
+2.  <https://link.springer.com/book/10.1007/978-981-13-7014-4>
 
 
-<a id="orga5cdaff"></a>
+<a id="org5b81be8"></a>
 
 ## announcements
 
 
-<a id="org87db9a1"></a>
+<a id="org10948b7"></a>
 
 ### February 27th: next raku study group meeting
 
 
-<a id="org6da9f74"></a>
+<a id="org6bc76b2"></a>
 
 ### June 21-25: tprc: perl/raku conference
