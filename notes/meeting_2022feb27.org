@@ -7,7 +7,12 @@
 ** topics
 *** Making a hash out of intertwined array of strings and integers
 **** categorize
+***** https://docs.raku.org/routine/categorize
 **** https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/
+
+
+*** examples
+**** https://github.com/Raku/examples
 
 *** issue about doing a ,= with a SetHash on right-hand side
 **** https://github.com/rakudo/rakudo/issues/4678
