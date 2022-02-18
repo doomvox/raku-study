@@ -34,7 +34,6 @@ say categorize( * %% 3, 1..13)
 ## mangled english?  Put the result where?
 # The $into associative argument can be used to put the result instead of returning a new Hash
 
-
 my %leap-years;
 my @years = (2002..2009).map( { Date.new( $_~"-01-01" ) } );
 @years.categorize( *.is-leap-year , into => %leap-years );
