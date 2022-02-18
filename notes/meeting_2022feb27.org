@@ -9,6 +9,13 @@
 **** categorize
 **** https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/
 
+*** issue about doing a ,= with a SetHash on right-hand side
+**** https://github.com/rakudo/rakudo/issues/4678
+**** discussion goes through a number of oddities about Raku
+**** shades of Russell's Paradox.  
+***** lizmat proposes a solution in the direction of ZFC
+***** jonathan worthington objects it doesn't go all the way to prohibit indirect self-ref
+
 *** http://clarkema.org/lab/2022/2022-02-09-raku-multiple-grammars/
 *** https://www.reddit.com/r/rakulang/comments/ssd1lf/multiple_cooperating_grammars_in_raku_mike_clarke/
 

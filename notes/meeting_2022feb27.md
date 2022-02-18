@@ -1,50 +1,51 @@
-- [meeting notes February 27, 2022](#orge633a25)
-  - [the raku study group](#org2ca9c5b)
-  - [usual links to the meeting material](#org526521f)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb27.md>](#orgf766517)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb27>](#org8012c93)
-  - [topics](#orga7cdc41)
-    - [Making a hash out of intertwined array of strings and integers](#orgfbc7b00)
-    - [<http://clarkema.org/lab/2022/2022-02-09-raku-multiple-grammars/>](#org82f965b)
-    - [<https://www.reddit.com/r/rakulang/comments/ssd1lf/multiple_cooperating_grammars_in_raku_mike_clarke/>](#org0930f0b)
-    - [recursive regexs](#org4fb165d)
-    - [darkroast](#orge2c76d1)
-  - [announcements](#org08ccffb)
-    - [February 27th: next raku study group meeting](#org660138c)
-    - [June 21-25: tprc: perl/raku conference](#orgb6bef8b)
+- [meeting notes February 27, 2022](#orgb7435da)
+  - [the raku study group](#orga3b0cfc)
+  - [usual links to the meeting material](#orgcc99934)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb27.md>](#orga01e0ff)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb27>](#org90ae7db)
+  - [topics](#org8126a9c)
+    - [Making a hash out of intertwined array of strings and integers](#org29d1f21)
+    - [issue about doing a ,= with a SetHash on right-hand side](#orgbeab009)
+    - [<http://clarkema.org/lab/2022/2022-02-09-raku-multiple-grammars/>](#org1cb1226)
+    - [<https://www.reddit.com/r/rakulang/comments/ssd1lf/multiple_cooperating_grammars_in_raku_mike_clarke/>](#org0235877)
+    - [recursive regexs](#org6a24467)
+    - [darkroast](#orga6ed2d7)
+  - [announcements](#orgd30fb86)
+    - [February 27th: next raku study group meeting](#org15a65d2)
+    - [June 21-25: tprc: perl/raku conference](#org632a6f0)
 
 
-<a id="orge633a25"></a>
+<a id="orgb7435da"></a>
 
 # meeting notes February 27, 2022
 
 
-<a id="org2ca9c5b"></a>
+<a id="orga3b0cfc"></a>
 
 ## the raku study group
 
 
-<a id="org526521f"></a>
+<a id="orgcc99934"></a>
 
 ## usual links to the meeting material
 
 
-<a id="orgf766517"></a>
+<a id="orga01e0ff"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb27.md>
 
 
-<a id="org8012c93"></a>
+<a id="org90ae7db"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2022feb27>
 
 
-<a id="orga7cdc41"></a>
+<a id="org8126a9c"></a>
 
 ## topics
 
 
-<a id="orgfbc7b00"></a>
+<a id="org29d1f21"></a>
 
 ### Making a hash out of intertwined array of strings and integers
 
@@ -53,17 +54,32 @@
 2.  <https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/>
 
 
-<a id="org82f965b"></a>
+<a id="orgbeab009"></a>
+
+### issue about doing a ,= with a SetHash on right-hand side
+
+1.  <https://github.com/rakudo/rakudo/issues/4678>
+
+2.  discussion goes through a number of oddities about Raku
+
+3.  shades of Russell's Paradox.
+
+    1.  lizmat proposes a solution in the direction of ZFC
+    
+    2.  jonathan worthington objects it doesn't go all the way to prohibit indirect self-ref
+
+
+<a id="org1cb1226"></a>
 
 ### <http://clarkema.org/lab/2022/2022-02-09-raku-multiple-grammars/>
 
 
-<a id="org0930f0b"></a>
+<a id="org0235877"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/ssd1lf/multiple_cooperating_grammars_in_raku_mike_clarke/>
 
 
-<a id="org4fb165d"></a>
+<a id="org6a24467"></a>
 
 ### recursive regexs
 
@@ -72,7 +88,7 @@
     1.  <https://stackoverflow.com/questions/70913301/what-is-the-correct-raku-recursive-regex-syntax>
 
 
-<a id="orge2c76d1"></a>
+<a id="orga6ed2d7"></a>
 
 ### darkroast
 
@@ -81,16 +97,16 @@
 2.  talk about on "problemsolving" on github?
 
 
-<a id="org08ccffb"></a>
+<a id="orgd30fb86"></a>
 
 ## announcements
 
 
-<a id="org660138c"></a>
+<a id="org15a65d2"></a>
 
 ### February 27th: next raku study group meeting
 
 
-<a id="orgb6bef8b"></a>
+<a id="org632a6f0"></a>
 
 ### June 21-25: tprc: perl/raku conference
