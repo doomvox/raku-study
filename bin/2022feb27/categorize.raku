@@ -31,8 +31,6 @@ say categorize( * %% 3, 1..13)
 # say categorize( * %% 3, -5..5, as => &abs )
 # # OUTPUT: «{False => [5 4 2 1 1 2 4 5], True => [3 0 3]}␤» 
 
-
-
 The $into associative argument can be used to put the result instead of returning a new Hash
 
 my %leap-years;
