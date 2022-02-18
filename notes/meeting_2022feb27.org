@@ -30,6 +30,9 @@
 **** stackoverflow:
 ***** https://stackoverflow.com/questions/70913301/what-is-the-correct-raku-recursive-regex-syntax
 
+*** brian d foy was tripped up by creating a custom operator with right associativity
+**** https://stackoverflow.com/questions/48219788/why-is-perl-6s-right-associativity-not-right
+
 *** darkroast
 **** staging area for new roast tests, lower bar to add more tests than to roast
 **** talk about on "problemsolving" on github? 

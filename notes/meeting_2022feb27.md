@@ -1,52 +1,53 @@
-- [meeting notes February 27, 2022](#orgb9b2957)
-  - [the raku study group](#org3727400)
-  - [usual links to the meeting material](#orga0e099d)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb27.md>](#org25d2c69)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb27>](#org2cd0e9d)
-  - [topics](#orgb5ee87f)
-    - [Making a hash out of intertwined array of strings and integers](#org771f68d)
-    - [examples](#orge4ea2ae)
-    - [issue about doing a ,= with a SetHash on right-hand side](#org9b4f3b1)
-    - [<http://clarkema.org/lab/2022/2022-02-09-raku-multiple-grammars/>](#org7d62958)
-    - [<https://www.reddit.com/r/rakulang/comments/ssd1lf/multiple_cooperating_grammars_in_raku_mike_clarke/>](#org6391743)
-    - [recursive regexs](#org35d0b91)
-    - [darkroast](#org95f4fb9)
-  - [announcements](#orgbbbc16f)
-    - [February 27th: next raku study group meeting](#orga8393b4)
-    - [June 21-25: tprc: perl/raku conference](#orgf5f5c27)
+- [meeting notes February 27, 2022](#org1222d44)
+  - [the raku study group](#org0584286)
+  - [usual links to the meeting material](#org3a2ed7c)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb27.md>](#org4347088)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb27>](#orgd78c088)
+  - [topics](#orgbbb1edf)
+    - [Making a hash out of intertwined array of strings and integers](#org27dda11)
+    - [examples](#org9f37b1c)
+    - [issue about doing a ,= with a SetHash on right-hand side](#orgadd99f0)
+    - [<http://clarkema.org/lab/2022/2022-02-09-raku-multiple-grammars/>](#org197f21b)
+    - [<https://www.reddit.com/r/rakulang/comments/ssd1lf/multiple_cooperating_grammars_in_raku_mike_clarke/>](#org965e1e2)
+    - [recursive regexs](#org112bae4)
+    - [brian d foy was tripped up by creating a custom operator with right associativity](#orgb1b8dfa)
+    - [darkroast](#org55e055b)
+  - [announcements](#org8d7e581)
+    - [February 27th: next raku study group meeting](#org7d6c4c0)
+    - [June 21-25: tprc: perl/raku conference](#org8b89b2d)
 
 
-<a id="orgb9b2957"></a>
+<a id="org1222d44"></a>
 
 # meeting notes February 27, 2022
 
 
-<a id="org3727400"></a>
+<a id="org0584286"></a>
 
 ## the raku study group
 
 
-<a id="orga0e099d"></a>
+<a id="org3a2ed7c"></a>
 
 ## usual links to the meeting material
 
 
-<a id="org25d2c69"></a>
+<a id="org4347088"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb27.md>
 
 
-<a id="org2cd0e9d"></a>
+<a id="orgd78c088"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2022feb27>
 
 
-<a id="orgb5ee87f"></a>
+<a id="orgbbb1edf"></a>
 
 ## topics
 
 
-<a id="org771f68d"></a>
+<a id="org27dda11"></a>
 
 ### Making a hash out of intertwined array of strings and integers
 
@@ -57,14 +58,14 @@
 2.  <https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/>
 
 
-<a id="orge4ea2ae"></a>
+<a id="org9f37b1c"></a>
 
 ### examples
 
 1.  <https://github.com/Raku/examples>
 
 
-<a id="org9b4f3b1"></a>
+<a id="orgadd99f0"></a>
 
 ### issue about doing a ,= with a SetHash on right-hand side
 
@@ -83,17 +84,17 @@
         2.  jonathan worthington objects it doesn't go all the way to prohibit indirect self-ref
 
 
-<a id="org7d62958"></a>
+<a id="org197f21b"></a>
 
 ### <http://clarkema.org/lab/2022/2022-02-09-raku-multiple-grammars/>
 
 
-<a id="org6391743"></a>
+<a id="org965e1e2"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/ssd1lf/multiple_cooperating_grammars_in_raku_mike_clarke/>
 
 
-<a id="org35d0b91"></a>
+<a id="org112bae4"></a>
 
 ### recursive regexs
 
@@ -102,7 +103,14 @@
     1.  <https://stackoverflow.com/questions/70913301/what-is-the-correct-raku-recursive-regex-syntax>
 
 
-<a id="org95f4fb9"></a>
+<a id="orgb1b8dfa"></a>
+
+### brian d foy was tripped up by creating a custom operator with right associativity
+
+1.  <https://stackoverflow.com/questions/48219788/why-is-perl-6s-right-associativity-not-right>
+
+
+<a id="org55e055b"></a>
 
 ### darkroast
 
@@ -111,16 +119,16 @@
 2.  talk about on "problemsolving" on github?
 
 
-<a id="orgbbbc16f"></a>
+<a id="org8d7e581"></a>
 
 ## announcements
 
 
-<a id="orga8393b4"></a>
+<a id="org7d6c4c0"></a>
 
 ### February 27th: next raku study group meeting
 
 
-<a id="orgf5f5c27"></a>
+<a id="org8b89b2d"></a>
 
 ### June 21-25: tprc: perl/raku conference
