@@ -43,6 +43,7 @@ say %leap-years
 # => [2002-01-01 2003-01-01 2005-01-01 2006-01-01 2007-01-01 2009-01-01], 
 #    True => [2004-01-01 2008-01-01]}␤» 
 
+
 The function used to categorize can return an array indicating all possible bins their argument can be put into:
 
 sub divisible-by( Int $n --> Array(Seq) ) {
