@@ -5,13 +5,20 @@
 *** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb27.md 
 *** https://github.com/doomvox/raku-study/tree/main/bin/2022feb27 
 ** topics
-
 *** Making a hash out of intertwined array of strings and integers
 **** categorize
 **** https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/
 
+*** http://clarkema.org/lab/2022/2022-02-09-raku-multiple-grammars/
+*** https://www.reddit.com/r/rakulang/comments/ssd1lf/multiple_cooperating_grammars_in_raku_mike_clarke/
 
+*** recursive regexs
+**** stackoverflow:
+***** https://stackoverflow.com/questions/70913301/what-is-the-correct-raku-recursive-regex-syntax
 
+*** darkroast
+**** staging area for new roast tests, lower bar to add more tests than to roast
+**** talk about on "problemsolving" on github? 
 
 ** announcements 
 *** February 27th: next raku study group meeting 
