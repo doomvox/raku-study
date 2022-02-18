@@ -14,7 +14,6 @@ use v6;
 #   multi sub categorize($test, +items, :$into!, *%named )
 #   multi sub categorize($test, +items, *%named )
 
-
 {
     # In its simplest form, it uses a $test whose result will be used as a
     # key; the values of the key will be an array of the elements that
