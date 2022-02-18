@@ -66,5 +66,4 @@ use v6;
     # «{2 => [4 6 8 10 12], 3 => [3 6 9 12], 5 => [5 10], 7 => [7]}␤» 
 
     # In this case, every number in the range is classified in as many bins as it can be divided by.
-
 }
