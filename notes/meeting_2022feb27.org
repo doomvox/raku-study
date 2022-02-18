@@ -13,7 +13,7 @@
 **** https://github.com/rakudo/rakudo/issues/4678
 **** discussion goes through a number of oddities about Raku
 ***** are sets containers, or things-in-themselves?
-****** quanthashes don't flatten like hashes
+****** quanthashes don't flatten like hashes (not Iteratable)
 ***** shades of Russell's Paradox.  
 ****** lizmat proposes a solution in the direction of ZFC
 ****** jonathan worthington objects it doesn't go all the way to prohibit indirect self-ref
