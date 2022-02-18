@@ -27,8 +27,8 @@ say categorize( * %% 3, 1..13)
 ## Hm.
 # First review abs: just makes negs into pos right? 
 
-# # The :as argument will normalize before categorizing
-# say categorize( * %% 3, -5..5, as => &abs )
+# The :as argument will normalize before categorizing
+say categorize( * %% 3, -5..5, as => &abs )
 # # OUTPUT: «{False => [5 4 2 1 1 2 4 5], True => [3 0 3]}␤» 
 
 ## mangled english?  Put the result where?
@@ -43,7 +43,8 @@ say %leap-years
 # => [2002-01-01 2003-01-01 2005-01-01 2006-01-01 2007-01-01 2009-01-01], 
 #    True => [2004-01-01 2008-01-01]}␤» 
 
-The function used to categorize can return an array indicating all possible bins their argument can be put into:
+# The function used to categorize can return an array indicating all
+# possible bins their argument can be put into:
 
 sub divisible-by( Int $n --> Array(Seq) ) {
     gather {
