@@ -24,8 +24,8 @@ say (1..13).categorize( * %% 3);
 say categorize( * %% 3, 1..13)
 # OUTPUT: «{False => [1 2 4 5 7 8 10 11 13], True => [3 6 9 12]}␤» 
 
-The :as argument will normalize before categorizing
-
+## Huh?
+# The :as argument will normalize before categorizing
 say categorize( * %% 3, -5..5, as => &abs )
 # OUTPUT: «{False => [5 4 2 1 1 2 4 5], True => [3 0 3]}␤» 
 
