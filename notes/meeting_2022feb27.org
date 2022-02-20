@@ -31,6 +31,15 @@
 ***** https://stackoverflow.com/questions/70913301/what-is-the-correct-raku-recursive-regex-syntax
 
 
+*** raku grammars
+**** https://dev.to/taw/100-languages-speedrun-episode-68-raku-perl-6-grammars-9f0
+**** "parrot raiser" pick 
+
+
+
+
+
+
 *** darkroast
 **** staging area for new roast tests, lower bar to add more tests than to roast
 **** talk about on "problemsolving" on github? 
