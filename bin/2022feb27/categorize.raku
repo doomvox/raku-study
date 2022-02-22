@@ -62,9 +62,11 @@ use v6;
     }
 
 
+    say '---';
     for (3..13) -> $i {
          say &divisible-by($i); 
     }
+    say '---';
 
     say (3..13).categorize( &divisible-by );
     # OUTPUT: 
