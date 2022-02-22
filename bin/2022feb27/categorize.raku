@@ -61,7 +61,7 @@ use v6;
         }
     }
 
-    say &divisible-by;
+    say &divisible-by(3.13);
     
     say (3..13).categorize( &divisible-by );
     # OUTPUT: 
