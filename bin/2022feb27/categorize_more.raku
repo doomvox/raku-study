@@ -3,6 +3,7 @@
 # categorize_more.raku            21 Feb 2022 
 
 use v6;
+use Text::CSV;
 
 my $df = "/home/doom/tmp/mtcars.csv";
 # "","mpg","cyl","disp","hp","drat","wt","qsec","vs","am","gear","carb"
