@@ -14,3 +14,4 @@ my $df = "/home/doom/tmp/mtcars.csv";
  my @aoh = csv(in => $df,
                headers => "auto"); # as array of hashes
 
+say @aoh;
