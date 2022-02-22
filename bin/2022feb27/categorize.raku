@@ -62,7 +62,7 @@ use v6;
     }
 
 
-    for (3..13)->$i {
+    for (3..13) -> $i {
          say &divisible-by($i); 
     }
 
