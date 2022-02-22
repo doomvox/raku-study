@@ -61,8 +61,11 @@ use v6;
         }
     }
 
-    say &divisible-by(3.13);
-    
+
+    for (3..13)->$i {
+         say &divisible-by($i); 
+    }
+
     say (3..13).categorize( &divisible-by );
     # OUTPUT: 
     # «{2 => [4 6 8 10 12], 3 => [3 6 9 12], 5 => [5 10], 7 => [7]}␤» 
