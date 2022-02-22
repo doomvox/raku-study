@@ -64,6 +64,7 @@ use v6;
 
     say '---';
     for (3..13) -> $i {
+        say "$i: ";
          say &divisible-by($i); 
     }
     say '---';
