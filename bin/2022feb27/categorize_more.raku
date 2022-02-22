@@ -22,4 +22,4 @@ my $df = "/home/doom/tmp/mtcars.csv";
 # # { => Datsun 710, am => 1, carb => 1, cyl => 4, disp => 108, drat => 3.85, gear => 4, hp => 93, mpg => 22.8, qsec => 18.61, vs => 1, wt => 2.32}
 # # ...
 
-say @aoh.categorize( {$_.{cyl}>4} );
+say @aoh.categorize( {$_{'cyl'}>4} );
