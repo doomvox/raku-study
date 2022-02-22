@@ -4,6 +4,8 @@
 
 use v6;
 
+my $df = "/home/doom/tmp/mtcars.csv";
+
 # ===
 # Author:  doom@kzsu.stanford.edu
 
