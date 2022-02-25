@@ -39,7 +39,7 @@ $sorta_const++;   ## Error
 ***** binding operator can create aliases
 #+BEGIN_SRC raku
 my $alias  :=  $var;  
-$alias++;  # increments $var, too
+$alias++;  # increments $var too
 #+END_SRC
 
 ***** a 'scalar' can contain any object, including an array, hash, etc

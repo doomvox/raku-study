@@ -1,31 +1,31 @@
-- [raku syntax vs perl](#orgddd585c)
-  - [See: <https://docs.raku.org/language/5to6-nutshell>](#org4cdf446)
-  - [raku continues to have a perlish feel, but--](#orgc3191d2)
-    - [object method calls via the more standard ".", not the "->"](#org1554f72)
-    - [variable names typically have sigils still: $, @, %](#orgde19802)
-    - [flattening](#orgb6b97dc)
-    - [everything is an object](#org67302bb)
-    - [scalar and list context have gone away in Raku](#org670317d)
-    - [a push for consistency](#org649eb39)
-    - [one-pass parsing](#orgbbb8443)
+- [raku syntax vs perl](#org39d7b1d)
+  - [See: <https://docs.raku.org/language/5to6-nutshell>](#org6f22554)
+  - [raku continues to have a perlish feel, but--](#org4428427)
+    - [object method calls via the more standard ".", not the "->"](#org056f274)
+    - [variable names typically have sigils still: $, @, %](#orgb0f581a)
+    - [flattening](#orged68171)
+    - [everything is an object](#orga76d4b3)
+    - [scalar and list context have gone away in Raku](#org85322c5)
+    - [a push for consistency](#orgaf191aa)
+    - [one-pass parsing](#orgbb12f1f)
 
 
-<a id="orgddd585c"></a>
+<a id="org39d7b1d"></a>
 
 # raku syntax vs perl
 
 
-<a id="org4cdf446"></a>
+<a id="org6f22554"></a>
 
 ## See: <https://docs.raku.org/language/5to6-nutshell>
 
 
-<a id="orgc3191d2"></a>
+<a id="org4428427"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="org1554f72"></a>
+<a id="org056f274"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
@@ -34,7 +34,7 @@
 2.  string concat is now "~" not "."
 
 
-<a id="orgde19802"></a>
+<a id="orgb0f581a"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -81,7 +81,7 @@
     
         ```raku
         my $alias  :=  $var;  
-        $alias++;  # increments $var, too
+        $alias++;  # increments $var too
         ```
     
     4.  a 'scalar' can contain any object, including an array, hash, etc
@@ -89,7 +89,7 @@
         1.  similar to perl's references: $ doesn't mean "singular"
 
 
-<a id="orgb6b97dc"></a>
+<a id="orged68171"></a>
 
 ### flattening
 
@@ -106,7 +106,7 @@
     2.  a few ways to flatten: ".flat", slip operator "|"
 
 
-<a id="org67302bb"></a>
+<a id="orga76d4b3"></a>
 
 ### everything is an object
 
@@ -119,21 +119,21 @@
     1.  helps to have a type system
 
 
-<a id="org670317d"></a>
+<a id="org85322c5"></a>
 
 ### scalar and list context have gone away in Raku
 
 1.  but many operators do implied type-conversion, which feels perlish
 
 
-<a id="org649eb39"></a>
+<a id="orgaf191aa"></a>
 
 ### a push for consistency
 
 1.  e.g. {} almost always means a block of code
 
 
-<a id="orgbbb8443"></a>
+<a id="orgbb12f1f"></a>
 
 ### one-pass parsing
 
