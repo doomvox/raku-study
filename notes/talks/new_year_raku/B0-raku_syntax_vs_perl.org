@@ -70,7 +70,7 @@ my @residual | = @list (-) @exceptions; ## better to "slip" out of container
 *** one-pass parsing
 **** but that has unfortunate side effects 
 ***** this is okay in perl5
-#+BEGIN_SRC perl
+#+BEGIN_SRC cperl
 if( $this ) { ... }
 #+END_SRC
 
