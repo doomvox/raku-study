@@ -38,7 +38,7 @@ say join " ", @orderly_monsters_too;
 #  ...
 # -1	 kaido & tingler
 # 1	 tingler & oogie-boogie
-# -1	 tingler & wormfacen
+# -1	 tingler & wormface
 # blob fenacrone garuda godzilla horta kaido oogie-boogie tingler wormface
 
 ## by the way, this works also, just as with Raku:
