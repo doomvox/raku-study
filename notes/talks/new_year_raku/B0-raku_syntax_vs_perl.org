@@ -27,7 +27,7 @@ say i + j:  ## 5
 #+END_SRC
 
 **** containers
-***** vars are typically point to invisible "containers", and are mutable
+***** vars typically point to invisible "containers", and are mutable
 ***** vars can point to bare values without containers
 #+BEGIN_SRC raku
 my $var           = 3;
