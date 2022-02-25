@@ -1,60 +1,60 @@
-- [Drawbacks](#orgb1f4dc9)
-  - [start-up speed is slow](#orgb8a672f)
-    - [but Jonathan Worthington is on it](#orgd164ce6)
-  - [language is huge](#orgebcb940)
-    - [an advantage: need fewer extenions libraries; it's multi-paradigm, etc](#org62590bf)
-    - [BUT: while getting started not too bad, becoming expert can take long](#orgfb0cdad)
-  - [experts vs newbies](#org15487be)
-    - [the insiders have been on this for decades](#org1587497)
-    - [many disputes, albiet minor ones:](#org846c2f6)
-  - [project setup/design](#org47e1a44)
-    - [reservations about "the tests are the spec"](#org34fd6d6)
-    - ["OOP all the way down" => no clear boundary between internals and externals](#orgced34f0)
+- [Drawbacks](#org687f392)
+  - [start-up speed is slow](#org691e4f0)
+    - [but Jonathan Worthington is on it](#orgac48ba0)
+  - [language is huge](#org6fc5c13)
+    - [an advantage: need fewer extenions libraries; it's multi-paradigm, etc](#orgba557ed)
+    - [BUT: while getting started not too bad, becoming expert can take long](#org04a5465)
+  - [experts vs newbies](#org8eb389d)
+    - [the insiders have been on this for decades](#org88a813b)
+    - [many disputes, albiet minor ones:](#org95fc2a4)
+  - [project setup/design](#org31e96ab)
+    - [reservations about "the tests are the spec"](#org3d97059)
+    - ["OOP all the way down" => no clear boundary between internals and externals](#org3382507)
 
 
-<a id="orgb1f4dc9"></a>
+<a id="org687f392"></a>
 
 # Drawbacks
 
 
-<a id="orgb8a672f"></a>
+<a id="org691e4f0"></a>
 
 ## start-up speed is slow
 
 
-<a id="orgd164ce6"></a>
+<a id="orgac48ba0"></a>
 
 ### but Jonathan Worthington is on it
 
 1.  the "new AST project"
 
 
-<a id="orgebcb940"></a>
+<a id="org6fc5c13"></a>
 
 ## language is huge
 
 
-<a id="org62590bf"></a>
+<a id="orgba557ed"></a>
 
 ### an advantage: need fewer extenions libraries; it's multi-paradigm, etc
 
 
-<a id="orgfb0cdad"></a>
+<a id="org04a5465"></a>
 
 ### BUT: while getting started not too bad, becoming expert can take long
 
 
-<a id="org15487be"></a>
+<a id="org8eb389d"></a>
 
 ## experts vs newbies
 
 
-<a id="org1587497"></a>
+<a id="org88a813b"></a>
 
 ### the insiders have been on this for decades
 
 
-<a id="org846c2f6"></a>
+<a id="org95fc2a4"></a>
 
 ### many disputes, albiet minor ones:
 
@@ -65,18 +65,22 @@
     1.  (but please don't expect much better from me)
 
 
-<a id="org47e1a44"></a>
+<a id="org31e96ab"></a>
 
 ## project setup/design
 
 
-<a id="org34fd6d6"></a>
+<a id="org3d97059"></a>
 
 ### reservations about "the tests are the spec"
 
 1.  opinion: the tests are the tests&#x2013; resist mission creep
 
 
-<a id="orgced34f0"></a>
+<a id="org3382507"></a>
 
 ### "OOP all the way down" => no clear boundary between internals and externals
+
+1.  good in some ways: small step for an Raku expert to become a core dev
+
+2.  bad in others: few limits to what an expert needs to know
