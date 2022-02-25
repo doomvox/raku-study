@@ -26,26 +26,13 @@ say @orderly_monsters_4;
 # More	godzilla & blob
 # More	tingler & garuda
 # More	horta & fenacrone
-# More	wormface & oogie-boogie
-# Less	blob & garuda
-# More	godzilla & garuda
-# Less	godzilla & tingler
-# Less	fenacrone & oogie-boogie
-# Less	horta & oogie-boogie
-# Less	blob & fenacrone
-# More	garuda & fenacrone
-# Less	garuda & horta
-# Less	godzilla & horta
-# More	tingler & horta
-# More	tingler & oogie-boogie
-# Less	tingler & wormface
-# Less	blob & kaido
-# Less	fenacrone & kaido
-# Less	garuda & kaido
+# ...
 # Less	godzilla & kaido
 # Less	horta & kaido
 # More	oogie-boogie & kaido
 # [blob fenacrone garuda godzilla horta kaido oogie-boogie tingler wormface]
+
+say $comparator("hey", "there";
 
 
 # ===
