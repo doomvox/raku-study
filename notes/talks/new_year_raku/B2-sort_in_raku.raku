@@ -32,8 +32,12 @@ say @orderly_monsters_4;
 # More	oogie-boogie & kaido
 # [blob fenacrone garuda godzilla horta kaido oogie-boogie tingler wormface]
 
+## unlike perl, with raku passing to $^a and $^b can work with a subcall
 say "---";
 say $comparator("hey", "there");
+# Less	hey & there
+# Less
+
 
 
 # ===
