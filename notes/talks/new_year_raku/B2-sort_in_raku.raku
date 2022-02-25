@@ -9,10 +9,10 @@ my @orderly_monsters = sort {$^a cmp $^b}, @monsters;  ## two args and *definite
 say @orderly_monsters; ## no more need for a join 
 # [blob fenacrone garuda godzilla horta kaido oogie-boogie tingler wormface]
 
-my @orderly_monsters_too = @monsters.sort({$^a cmp $^b}); # method call form needs the parens, though...
+my @orderly_monsters_too = @monsters.sort({$^a cmp $^b}); # method call form needs parens around block
 say @orderly_monsters_too;
 
-my @orderly_monsters_3 = @monsters.sort: {$^a cmp $^b} ;    # colon short-cut, but only for last method call in chain
+my @orderly_monsters_3 = @monsters.sort: {$^a cmp $^b} ;  # the colon short-cut, only for last call in chain
 say @orderly_monsters_3;
 
 # As with perl5 you can do things like this: 
