@@ -47,9 +47,11 @@ my @orderly_monsters_foah = sort $comparator @monsters;
 say join " ", @orderly_monsters_foah;
 
 
-## But this DOESN'T WORK:
-#   $comparator->("a", "b");
-
+{
+  ## But this DOESN'T WORK:
+    $comparator->("a", "b");
+  ## passing to $a and $b only works with sort
+}
 
 
 __END__
