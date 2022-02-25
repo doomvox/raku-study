@@ -49,6 +49,8 @@ use v6;
 }
 
 
+## TODO a weak example because the categories and things categorized are all integers, 
+##      need to read carefully to see what this is doing.
 {
     # The function used to categorize can return an array indicating all
     # possible bins their argument can be put into:
