@@ -68,5 +68,13 @@ my @residual | = @list (-) @exceptions; ## better to "slip" out of container
 *** a push for consistency
 **** e.g. {} almost always means a block of code 
 *** one-pass parsing
-**** unfortunate side effects e.g. this is no good: if( $this ) { ... }
+**** but that has unfortunate side effects 
+***** this is okay in perl5
+#+BEGIN_SRC perl
+if( $this ) { ... }
+#+END_SRC
 
+***** space after "if" is *required* in raku
+#+BEGIN_SRC raku
+if ( $this ) { ... }
+#+END_SRC
