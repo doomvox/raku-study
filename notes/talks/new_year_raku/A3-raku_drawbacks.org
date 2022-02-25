@@ -7,7 +7,9 @@
 *** BUT: while getting started not too bad, becoming expert can take long
 ** experts vs newbies
 *** the insiders have been on this for decades
-*** many disputes, albiet minor ones: is an error message confusing, documentation sketchy?
+*** many disputes, albiet minor ones: 
+**** is an error message confusing, is that documentation sketchy?
+
 **** peeve: code examples that don't stay on point, always want to show all the features
 ***** (but please don't expect much better from me)
 ** project setup/design
