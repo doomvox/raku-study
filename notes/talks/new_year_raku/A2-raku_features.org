@@ -22,7 +22,7 @@
 *** speaks utf-8 by default (unlike perl)
 * Killer app?
 ** no particular "killer app" has emerged
-*** but when perl5 was released no one expected it would be critical for
+*** but when perl5 was released no one expected it would be critical for:
 **** web 1.0
 **** human genome project
 *** the design goal is to be useful for everything
