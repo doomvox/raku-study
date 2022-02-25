@@ -36,10 +36,10 @@ my $sorta_const  := 3;
 $var++;           ## Works
 $sorta_const++;   ## Error
 #+END_SRC
-***** binding operator can create aliases: here $var is incremented too
+***** binding operator can create aliases
 #+BEGIN_SRC raku
 my $alias  :=  $var;  
-$alias++;  
+$alias++;  # increments $var, too
 #+END_SRC
 
 ***** a 'scalar' can contain any object, including an array, hash, etc
