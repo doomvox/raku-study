@@ -35,11 +35,7 @@ say join " ", @orderly_monsters_too;
 # 1	 godzilla & blob
 # 1	 tingler & garuda
 # 1	 horta & fenacrone
-# 1	 wormface & oogie-boogie
-# 
 #  ...
-# 
-# 1	 kaido & horta
 # -1	 kaido & tingler
 # 1	 tingler & oogie-boogie
 # -1	 tingler & wormfacen
