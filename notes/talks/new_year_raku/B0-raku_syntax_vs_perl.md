@@ -1,31 +1,31 @@
-- [raku syntax vs perl](#org39d7b1d)
-  - [See: <https://docs.raku.org/language/5to6-nutshell>](#org6f22554)
-  - [raku continues to have a perlish feel, but--](#org4428427)
-    - [object method calls via the more standard ".", not the "->"](#org056f274)
-    - [variable names typically have sigils still: $, @, %](#orgb0f581a)
-    - [flattening](#orged68171)
-    - [everything is an object](#orga76d4b3)
-    - [scalar and list context have gone away in Raku](#org85322c5)
-    - [a push for consistency](#orgaf191aa)
-    - [one-pass parsing](#orgbb12f1f)
+- [raku syntax vs perl](#orgd8da70c)
+  - [See: <https://docs.raku.org/language/5to6-nutshell>](#org656fc20)
+  - [raku continues to have a perlish feel, but--](#org9aafd45)
+    - [object method calls via the more standard ".", not the "->"](#org854f55e)
+    - [variable names typically have sigils still: $, @, %](#org510d5c9)
+    - [flattening](#org59918b8)
+    - [everything is an object](#org2a4bb2a)
+    - [scalar and list context have gone away in Raku](#orga033c74)
+    - [a push for consistency](#org07af7a3)
+    - [one-pass parsing](#org22a9ae4)
 
 
-<a id="org39d7b1d"></a>
+<a id="orgd8da70c"></a>
 
 # raku syntax vs perl
 
 
-<a id="org6f22554"></a>
+<a id="org656fc20"></a>
 
 ## See: <https://docs.raku.org/language/5to6-nutshell>
 
 
-<a id="org4428427"></a>
+<a id="org9aafd45"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="org056f274"></a>
+<a id="org854f55e"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
@@ -34,7 +34,7 @@
 2.  string concat is now "~" not "."
 
 
-<a id="orgb0f581a"></a>
+<a id="org510d5c9"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -89,7 +89,7 @@
         1.  similar to perl's references: $ doesn't mean "singular"
 
 
-<a id="orged68171"></a>
+<a id="org59918b8"></a>
 
 ### flattening
 
@@ -106,34 +106,34 @@
     2.  a few ways to flatten: ".flat", slip operator "|"
 
 
-<a id="orga76d4b3"></a>
+<a id="org2a4bb2a"></a>
 
 ### everything is an object
 
 1.  chains of method calls are common
 
-2.  though there are function forms for many methods
+    1.  though there are function forms for many methods
 
-3.  smartmatch and given/when can work
+2.  smartmatch and given/when actually work
 
     1.  helps to have a type system
 
 
-<a id="org85322c5"></a>
+<a id="orga033c74"></a>
 
 ### scalar and list context have gone away in Raku
 
 1.  but many operators do implied type-conversion, which feels perlish
 
 
-<a id="orgaf191aa"></a>
+<a id="org07af7a3"></a>
 
 ### a push for consistency
 
 1.  e.g. {} almost always means a block of code
 
 
-<a id="orgbb12f1f"></a>
+<a id="org22a9ae4"></a>
 
 ### one-pass parsing
 

@@ -58,8 +58,8 @@ my @residual | = @list (-) @exceptions; ## better to "slip" out of container
 
 *** everything is an object
 **** chains of method calls are common
-**** though there are function forms for many methods
-**** smartmatch and given/when can work
+***** though there are function forms for many methods
+**** smartmatch and given/when actually work
 ***** helps to have a type system
 
 *** scalar and list context have gone away in Raku
