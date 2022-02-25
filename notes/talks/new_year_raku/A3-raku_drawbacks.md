@@ -1,60 +1,60 @@
-- [Drawbacks](#org9a2b9ea)
-  - [start-up speed is slow](#org2920c3e)
-    - [but Jonathan Worthington is on it](#org7ca04b5)
-  - [language is huge](#org1a06532)
-    - [an advantage: need fewer extenions libraries; it's multi-paradigm, etc](#org0a2552d)
-    - [BUT: while getting started not too bad, becoming expert can take long](#orgafde71b)
-  - [experts vs newbies](#orgf0318f9)
-    - [the insiders have been on this for decades](#org3b33ed7)
-    - [many disputes, albiet minor ones:](#org1cc7b02)
-  - [project setup/design](#org284f2a4)
-    - [reservations about "the tests are the spec"](#orgcae9e1e)
-    - ["OOP all the way down" => no clear boundary between internals and externals](#org0098a07)
+- [Drawbacks](#orgb1f4dc9)
+  - [start-up speed is slow](#orgb8a672f)
+    - [but Jonathan Worthington is on it](#orgd164ce6)
+  - [language is huge](#orgebcb940)
+    - [an advantage: need fewer extenions libraries; it's multi-paradigm, etc](#org62590bf)
+    - [BUT: while getting started not too bad, becoming expert can take long](#orgfb0cdad)
+  - [experts vs newbies](#org15487be)
+    - [the insiders have been on this for decades](#org1587497)
+    - [many disputes, albiet minor ones:](#org846c2f6)
+  - [project setup/design](#org47e1a44)
+    - [reservations about "the tests are the spec"](#org34fd6d6)
+    - ["OOP all the way down" => no clear boundary between internals and externals](#orgced34f0)
 
 
-<a id="org9a2b9ea"></a>
+<a id="orgb1f4dc9"></a>
 
 # Drawbacks
 
 
-<a id="org2920c3e"></a>
+<a id="orgb8a672f"></a>
 
 ## start-up speed is slow
 
 
-<a id="org7ca04b5"></a>
+<a id="orgd164ce6"></a>
 
 ### but Jonathan Worthington is on it
 
 1.  the "new AST project"
 
 
-<a id="org1a06532"></a>
+<a id="orgebcb940"></a>
 
 ## language is huge
 
 
-<a id="org0a2552d"></a>
+<a id="org62590bf"></a>
 
 ### an advantage: need fewer extenions libraries; it's multi-paradigm, etc
 
 
-<a id="orgafde71b"></a>
+<a id="orgfb0cdad"></a>
 
 ### BUT: while getting started not too bad, becoming expert can take long
 
 
-<a id="orgf0318f9"></a>
+<a id="org15487be"></a>
 
 ## experts vs newbies
 
 
-<a id="org3b33ed7"></a>
+<a id="org1587497"></a>
 
 ### the insiders have been on this for decades
 
 
-<a id="org1cc7b02"></a>
+<a id="org846c2f6"></a>
 
 ### many disputes, albiet minor ones:
 
@@ -65,18 +65,18 @@
     1.  (but please don't expect much better from me)
 
 
-<a id="org284f2a4"></a>
+<a id="org47e1a44"></a>
 
 ## project setup/design
 
 
-<a id="orgcae9e1e"></a>
+<a id="org34fd6d6"></a>
 
 ### reservations about "the tests are the spec"
 
 1.  opinion: the tests are the tests&#x2013; resist mission creep
 
 
-<a id="org0098a07"></a>
+<a id="orgced34f0"></a>
 
 ### "OOP all the way down" => no clear boundary between internals and externals
