@@ -50,8 +50,10 @@ say "===";
     {id=>2, name=>'ghidra',   level=>9},
     {id=>3, name=>'mothra',   level=>6};
 
+    say $data.WHAT;
+
     my $total;
-    for $data.values -> $row {
+    for $data -> $row {
         say $row{'name'};
         $total += $row{'level'};
     }
