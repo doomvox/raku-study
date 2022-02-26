@@ -31,7 +31,7 @@ use v6;
     {id=>3, name=>'mothra',   level=>6};
 
     my $total;
-    for @data -> $row {
+    for $data -> $row {
         say $row{'name'};
         $total += $row{'level'};
     }
