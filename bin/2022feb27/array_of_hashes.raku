@@ -70,18 +70,17 @@ say "===";
 }
 say "===";
 {
-    ## The '$' sigil, but with some extra parens gets you a *List*
-    my $data = (
+    ## The '$' sigil, but with--
+    my $data = [
         {id=>1, name=>'godzilla', level=>8},
         {id=>2, name=>'ghidra',   level=>9},
         {id=>3, name=>'mothra',   level=>6},
-    );
+    ];
 
-   say $data.WHAT; # (List)
+   say $data.WHAT; # 
 
    my $total;
-   ## Note: if you don't use .values, entire List ends up in $row
-   for $data.values -> $row {   
+   for $data -> $row {   
         say $row{'name'};
         $total += $row{'level'};
    }
