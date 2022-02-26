@@ -5,6 +5,12 @@
 use v6;
 
 my $df = "/home/doom/End/Cave/RakuStudy/Ore/nigeria_singapore_hotel.csv";
+# city    (1=Lagos, 2=Singapore)
+# hotel.ID   (within city)
+# year.EC    (annual energy consumption, MWh)
+# flr.area   (square meters)
+# employees
+
 
 
 # ===
