@@ -28,7 +28,7 @@ for @by_city -> $by_city {
     for $data -> $r {
         $sum += $r.{year.EC};
     }
-    say $cid, ': ' $sum;
+    say $cid, ': ', $sum;
 
 }
 
