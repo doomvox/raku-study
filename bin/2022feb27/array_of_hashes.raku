@@ -58,7 +58,7 @@ say "===";
     {id=>3, name=>'mothra',   level=>6},
    );
 
-   say $data.WHAT; # (Hash)
+   say $data.WHAT; # (List)
 
     my $total;
     for $data -> $row {
