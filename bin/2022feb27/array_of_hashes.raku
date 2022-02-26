@@ -10,5 +10,5 @@ my @data =
   {id=>3, name=>'mothra',   level=>6};
 
 for @data -> $row {
-    say $row.{name};
+    say $row.{'name'};
 }
