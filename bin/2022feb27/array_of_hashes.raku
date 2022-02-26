@@ -57,7 +57,8 @@ say "===";
    say $data.WHAT; # (List)
 
     my $total;
-    for $data.values -> $row {   ## if you don't use .values, entire List ends up in $row
+    ## Note: if you don't use .values, entire List ends up in $row
+    for $data.values -> $row {   
         say $row{'name'};
         $total += $row{'level'};
     }
