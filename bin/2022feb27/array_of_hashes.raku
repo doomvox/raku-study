@@ -9,6 +9,8 @@ my @data =
   {id=>2, name=>'ghidra',   level=>9},
   {id=>3, name=>'mothra',   level=>6};
 
+my $total;
 for @data -> $row {
     say $row.{'name'};
+    $total += $row.{'level'};
 }
