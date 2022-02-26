@@ -43,6 +43,8 @@ for %by_city.kv -> $cid, $data {
     say $data.WHAT;
     say $data.elems;
     my $sum = 0;
+## Note, *this* doesn't work here:
+##    for $data -> $r {
     for $data.values -> $r {
         my $v = $r.[0].{'year.EC'};
         say "v: $v";
