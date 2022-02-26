@@ -56,6 +56,7 @@ for %by_city.kv -> $cid, $data {  ## But $data behaves differently than @data
 #    for $data.values -> $r {
 #    for @data.values -> $r {
         say "row data type: ", $r.^name;
+        dd $r;
         my $v = $r.[0].{'year.EC'};
         say "v: $v";
         $sum += $v;
