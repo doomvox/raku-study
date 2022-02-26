@@ -16,6 +16,10 @@ my $df = "/home/doom/End/Cave/RakuStudy/Ore/nigeria_singapore_hotel.csv";
 
 # Read csv data as an array of hashes, field names from header
 my @aoh = csv(in => $df, headers => "auto"); 
+for @aoh -> %h {
+    say %h;
+}
+
                             
 
 
