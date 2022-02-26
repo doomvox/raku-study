@@ -19,7 +19,7 @@ my $df = "/home/doom/End/Cave/RakuStudy/Ore/nigeria_singapore_hotel.csv";
 my @aoh = csv(in => $df, headers => "auto"); 
 for @aoh -> %h {
     say %h;
-    exit if $++>3;
+    last if $++>3;
 }
 
 my $huh = @aoh.categorize( { $_{'city'} } );
