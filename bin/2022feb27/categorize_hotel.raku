@@ -15,7 +15,7 @@ my $df = "/home/doom/End/Cave/RakuStudy/Ore/nigeria_singapore_hotel.csv";
 # flr.area   (square meters)
 # employees
 
-my %city_name = ( 1 => Lagos, 2 => Singapore );
+my %city_name = ( 1 => 'Lagos', 2 => 'Singapore' );
 
 # Read csv data as an array of hashes, field names from header
 my @aoh = csv(in => $df, headers => "auto"); 
