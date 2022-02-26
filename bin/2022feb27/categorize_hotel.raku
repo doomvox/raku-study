@@ -47,7 +47,7 @@ for %by_city.kv -> $cid, @data {
     say @data.WHAT;
     say @data.elems;
     my $sum = 0;
-## Note, *this* doesn't work here:
+## Note, *this* doesn't work here, just does *one* record:
 ##    for $data -> $r {
 ## This works:
 #    for $data.values -> $r {
