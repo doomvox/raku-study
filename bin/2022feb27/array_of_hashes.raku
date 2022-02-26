@@ -92,3 +92,7 @@ say "===";
    # ave level: 7.666667
 }
 
+## There isn't a single example like this in the docs for for
+##   https://docs.raku.org/syntax/for
+## You figure out how this works on your own:
+##    for $data -> $row {
