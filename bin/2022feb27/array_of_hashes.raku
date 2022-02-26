@@ -77,10 +77,10 @@ say "===";
         {id=>3, name=>'mothra',   level=>6},
     ];
 
-   say $data.WHAT; # 
+   say $data.WHAT; # (Array)
 
    my $total;
-   for $data -> $row {   
+   for $data | -> $row {   
         say $row{'name'};
         $total += $row{'level'};
    }
