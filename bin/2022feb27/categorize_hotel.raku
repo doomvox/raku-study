@@ -22,6 +22,10 @@ for @aoh -> %h {
 }
 
 my @by_city = @aoh.categorize( { $_{'city'} } );
+for @by_city.kv -> ($cid, $data) {
+    say $cid;
+}
+
 
 
 # ===
