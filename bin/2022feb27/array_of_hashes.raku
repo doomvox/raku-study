@@ -56,15 +56,15 @@ say "===";
 
    say $data.WHAT; # (List)
 
-    my $total;
-    ## Note: if you don't use .values, entire List ends up in $row
-    for $data.values -> $row {   
+   my $total;
+   ## Note: if you don't use .values, entire List ends up in $row
+   for $data.values -> $row {   
         say $row{'name'};
         $total += $row{'level'};
-    }
-    say "ave level: ", $total/$data.elems;
-    # godzilla
-    # ghidra
-    # mothra
-    # ave level: 7.666667
+   }
+   say "ave level: ", $total/$data.elems;
+   # godzilla
+   # ghidra
+   # mothra
+   # ave level: 7.666667
 }
