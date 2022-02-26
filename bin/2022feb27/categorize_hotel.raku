@@ -3,6 +3,7 @@
 # categorize_hotel.raku            25 Feb 2022 
 
 use v6;
+use Text::Csv;
 
 # Hotel Energy Consumption for Hotels in Lagos and Singapore
 #  http://users.stat.ufl.edu/~winner/data/nigeria_singapore_hotel.csv
