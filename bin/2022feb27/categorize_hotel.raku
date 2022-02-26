@@ -23,7 +23,13 @@ for @aoh -> %h {
 }
 
 my $huh = @aoh.categorize( { $_{'city'} } );
-dd $huh;
+## Note maybe I don't like dd so much:
+## dd $huh;
+##   Hash[Any,Any] $huh = $(my Any %{Any} = "1" => $[{:city("1"), :employees("36"), "flr.area" => "1822.99", "hotel.ID" => "1", "year.EC" => "831.12"},  ...
+## Q: why is city and employees a colon-pair, but the others use fat arrows?
+## A: the dot in the names, I think.
+
+
 say "---";
 
 my %by_city = @aoh.categorize( { $_{'city'} } );
