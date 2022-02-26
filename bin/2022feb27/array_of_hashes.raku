@@ -42,7 +42,6 @@ say "===";
     }
     say "ave level: ", $total/$data.elems;
 }
-## Looping over that array of hashes just accesses the first row (?):
 # godzilla
 # ave level: 2.666667
 
