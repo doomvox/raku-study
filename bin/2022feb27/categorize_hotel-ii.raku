@@ -7,6 +7,7 @@ use Text::CSV;
 
 ## really, re-learning basics of aofh processing
 
+
 # Hotel Energy Consumption for Hotels in Lagos and Singapore
 #  http://users.stat.ufl.edu/~winner/data/nigeria_singapore_hotel.csv
 
