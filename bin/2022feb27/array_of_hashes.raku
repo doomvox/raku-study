@@ -80,7 +80,7 @@ say "===";
    say $data.WHAT; # (Array)
 
    my $total;
-   for $data | -> $row {   
+   for $data.values -> $row {   
         say $row{'name'};
         $total += $row{'level'};
    }
