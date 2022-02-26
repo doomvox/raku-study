@@ -23,6 +23,7 @@ for @aoh -> %h {
 
 my $huh = @aoh.categorize( { $_{'city'} } );
 dd $huh;
+say "---";
 
 my @by_city = | @aoh.categorize( { $_{'city'} } );
 for @by_city -> $by_city {
