@@ -57,7 +57,7 @@ say %by_city.values.[0].[0].{'employees'};  # 36
     say $cid, " city: ", %city_name{$cid}, ' sum: ', $sum, ' ave: ', $sum/@data.elems ;
 }
 
-
+## TODO better to save results and sort when output
 
 # ===
 # Author:  doom@kzsu.stanford.edu
