@@ -26,10 +26,7 @@ for @by_city -> $by_city {
     my ($cid, $data) = $by_city.kv;
     my $sum = 0;
     for $data -> $r {
-        say $r.WHAT;
-        say $r;
-        exit;
-#        $sum += $r.{'year.EC'};
+        $sum += $r.[0].{'year.EC'};
     }
     say $cid, ': ', $sum;
 
