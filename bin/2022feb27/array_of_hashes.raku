@@ -35,5 +35,5 @@ use v6;
         say $row{'name'};
         $total += $row{'level'};
     }
-    say "ave level: ", $total/@data.elems;
+    say "ave level: ", $total/$data.elems;
 }
