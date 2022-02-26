@@ -27,7 +27,6 @@ say "---";
 
 my %by_city = | @aoh.categorize( { $_{'city'} } );
 
-my @by_city = | @aoh.categorize( { $_{'city'} } );
 for @by_city -> $by_city {
     my ($cid, $data) = $by_city.kv;
     my $sum = 0;
