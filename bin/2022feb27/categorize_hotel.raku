@@ -39,7 +39,6 @@ say %by_city.values.[0].[0].{'employees'};  # 36
 # for %by_city.kv -> $cid, @data {
   for %by_city.keys.sort -> $cid {
    my @data = %by_city{$cid};
-
     say "-->";
     say "cid: $cid";
     say @data.[0].[0].{'employees'};  
