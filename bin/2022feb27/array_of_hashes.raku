@@ -70,16 +70,17 @@ say "===";
 }
 say "===";
 {
-    ## The '$' sigil, but with--
+    ## The '$' sigil, with square brackets gets you an array.
     my $data = [
         {id=>1, name=>'godzilla', level=>8},
         {id=>2, name=>'ghidra',   level=>9},
         {id=>3, name=>'mothra',   level=>6},
     ];
-
    say $data.WHAT; # (Array)
 
    my $total;
+   ## But this still doesn't work, puts entire array in $row
+   # for $data -> $row {   
    for $data.values -> $row {   
         say $row{'name'};
         $total += $row{'level'};
