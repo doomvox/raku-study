@@ -20,7 +20,7 @@ for @aoh -> %h {
     say %h;
 }
 
-                            
+say @aoh.categorize( {$_{'cyl'}>4} );                            
 
 
 # ===
