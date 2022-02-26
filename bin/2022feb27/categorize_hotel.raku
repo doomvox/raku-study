@@ -27,6 +27,8 @@ for @by_city -> $by_city {
     my $sum = 0;
     for $data -> $r {
         say $r.WHAT;
+        say $r;
+        exit;
 #        $sum += $r.{'year.EC'};
     }
     say $cid, ': ', $sum;
