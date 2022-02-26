@@ -23,6 +23,7 @@ use v6;
     # ave level: 7.666667
 }
 
+say "===";
 {
     ## If you use a '$' sigil, for loops act very different
     my $data =
