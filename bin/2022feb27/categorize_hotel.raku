@@ -38,7 +38,7 @@ say %by_city.values.[0].[0].{'employees'};  # 36
 
 # for %by_city.kv -> $cid, @data { ## works, but I want to sort on keys
   for %by_city.keys.sort -> $cid {
-   my @data = %by_city{$cid};
+   my @data = %by_city{$cid}; ## doesn't work, again getting *just one row*
     say "-->";
     say "cid: $cid";
     say @data.[0].[0].{'employees'};  
