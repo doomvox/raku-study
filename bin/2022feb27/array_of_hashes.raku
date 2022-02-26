@@ -14,3 +14,4 @@ for @data -> $row {
     say $row{'name'};
     $total += $row{'level'};
 }
+say "ave level: ", $total/@data.elems;
