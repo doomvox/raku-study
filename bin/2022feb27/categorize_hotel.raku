@@ -24,11 +24,12 @@ for @aoh -> %h {
 my @by_city = @aoh.categorize( { $_{'city'} } );
 for @by_city -> $by_city {
     my ($cid, $data) = $by_city.kv;
-    say $cid;
     my $sum = 0;
     for $data -> $r {
-        $sum += $by_city.{year.EC}
+        $sum += $r.{year.EC};
     }
+    say $cid, ': ' $sum;
+
 }
 
 
