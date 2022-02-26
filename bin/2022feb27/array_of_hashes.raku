@@ -4,7 +4,7 @@
 
 use v6;
 
-## double-checking doing basic processing of an array of hashes:
+## double-checking basic processing of an array of hashes:
 my @data =
   {id=>1, name=>'godzilla', level=>8},
   {id=>2, name=>'ghidra',   level=>9},
