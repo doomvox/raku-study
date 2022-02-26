@@ -66,4 +66,8 @@ say "===";
         $total += $row{'level'};
     }
     say "ave level: ", $total/$data.elems;
+    # godzilla
+    # ghidra
+    # mothra
+    # ave level: 7.666667
 }
