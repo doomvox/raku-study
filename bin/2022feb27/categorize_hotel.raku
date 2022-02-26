@@ -36,7 +36,8 @@ my %by_city = @aoh.categorize( { $_{'city'} } );
 say %by_city.keys;                          # (1 2)
 say %by_city.values.[0].[0].{'employees'};  # 36
 
-for %by_city.kv -> $cid, $data {
+#for %by_city.kv -> $cid, $data {
+for %by_city.kv -> $cid, @data {
     say "-->";
     say "cid: $cid";
     say $data.[0].[0].{'employees'};  
@@ -45,7 +46,9 @@ for %by_city.kv -> $cid, $data {
     my $sum = 0;
 ## Note, *this* doesn't work here:
 ##    for $data -> $r {
-    for $data.values -> $r {
+## This works:
+#    for $data.values -> $r {
+    for @data.values -> $r {
         my $v = $r.[0].{'year.EC'};
         say "v: $v";
         $sum += $v;
