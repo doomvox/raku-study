@@ -56,7 +56,7 @@ for %by_city.kv -> $cid, $data {  ## But $data behaves differently than @data
 #    for $data.values -> $r {
 #    for @data.values -> $r {
         say "row data type: ", $r.^name;
-        # dd $r;
+        # dd $r; ## array of hashes?
         # $[{:city("1"), :employees("36"), "flr.area" => "1822.99", "hotel.ID" => "1", "year.EC" => "831.12"}, ...
         my $v = $r.[0].{'year.EC'};
         say "v: $v";
