@@ -53,7 +53,7 @@ for %by_city.kv -> $cid, @data {
 #    for $data.values -> $r {
     for @data.values -> $r {
         my $v = $r.[0].{'year.EC'};
-        say "v: $v";
+#        say "v: $v";
         $sum += $v;
     }
     say "city: ", $cid, ' sum: ', $sum, ' ave: ', $sum/@data.elems ;
