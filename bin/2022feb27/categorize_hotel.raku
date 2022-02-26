@@ -54,7 +54,7 @@ say %by_city.values.[0].[0].{'employees'};  # 36
         $sum += $v;
     }
 #    say "city: ", $cid, ' sum: ', $sum, ' ave: ', $sum/@data.elems ;
-    say "city: ", %city_name{$cid}, ' sum: ', $sum, ' ave: ', $sum/@data.elems ;
+    say $cid, " city: ", %city_name{$cid}, ' sum: ', $sum, ' ave: ', $sum/@data.elems ;
 }
 
 
