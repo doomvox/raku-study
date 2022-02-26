@@ -59,7 +59,8 @@ for %by_city.kv -> $cid, $data {  ## But $data behaves differently than @data
 #        say "v: $v";
         $sum += $v;
     }
-    say "city: ", $cid, ' sum: ', $sum, ' ave: ', $sum/@data.elems ;
+#    say "city: ", $cid, ' sum: ', $sum, ' ave: ', $sum/@data.elems ;
+    say "city: ", $cid, ' sum: ', $sum, ' ave: ', $sum/$data.elems ;
 }
 
 
