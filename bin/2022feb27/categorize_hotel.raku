@@ -4,6 +4,9 @@
 
 use v6;
 
+# Hotel Energy Consumption for Hotels in Lagos and Singapore
+#  http://users.stat.ufl.edu/~winner/data/nigeria_singapore_hotel.csv
+
 my $df = "/home/doom/End/Cave/RakuStudy/Ore/nigeria_singapore_hotel.csv";
 # city    (1=Lagos, 2=Singapore)
 # hotel.ID   (within city)
