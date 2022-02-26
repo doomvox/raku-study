@@ -21,7 +21,7 @@ for @aoh -> %h {
     say %h;
 }
 
-@aoh.categorize( { $_{'city'} } ).map({ say $_[0] })
+@aoh.categorize( { $_{'city'} } ).map({ say $_[0] });
 
 
 # ===
