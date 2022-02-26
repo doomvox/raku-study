@@ -31,6 +31,7 @@ say "===";
     {id=>2, name=>'ghidra',   level=>9},
     {id=>3, name=>'mothra',   level=>6};
     say $data.WHAT; # (Hash)
+    ## {id => 1, level => 8, name => godzilla}
     say $data;
 
     my $total;
