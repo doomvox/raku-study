@@ -25,7 +25,7 @@ use v6;
 
 say "===";
 {
-    ## If you use a '$' sigil, for loops act very different
+    ## If you use a '$' sigil, can get tripped up
     my $data =
     {id=>1, name=>'godzilla', level=>8},
     {id=>2, name=>'ghidra',   level=>9},
