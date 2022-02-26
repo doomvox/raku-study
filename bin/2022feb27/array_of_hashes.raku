@@ -12,5 +12,5 @@ my @data =
 my $total;
 for @data -> $row {
     say $row{'name'};
-    $total += $row.{'level'};
+    $total += $row{'level'};
 }
