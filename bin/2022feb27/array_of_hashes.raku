@@ -47,14 +47,8 @@ say "===";
 
 say "===";
 {
-    ## If you use a '$' sigil, for loops act very different
-    my $data =
-    {id=>1, name=>'godzilla', level=>8},
-    {id=>2, name=>'ghidra',   level=>9},
-    {id=>3, name=>'mothra',   level=>6};
-    say $data.WHAT; # (Hash)
-
-    $data = (
+    ## The '$' sigil, but with some extra parens gets you a *List*
+    my $data = (
         {id=>1, name=>'godzilla', level=>8},
         {id=>2, name=>'ghidra',   level=>9},
         {id=>3, name=>'mothra',   level=>6},
