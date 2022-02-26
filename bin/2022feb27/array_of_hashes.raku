@@ -81,7 +81,7 @@ say "===";
    my $total;
    ## But this still doesn't work, puts entire array in $row
    # for $data -> $row {   
-   for $data.values -> $row {   
+   for $data.values -> $row {  ## .values again to extract hashes
         say $row{'name'};
         $total += $row{'level'};
    }
