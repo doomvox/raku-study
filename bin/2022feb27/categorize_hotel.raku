@@ -34,6 +34,7 @@ for %by_city.kv -> $cid, $data {
     say "-->";
     say "cid: $cid";
     say $data.[0].[0].{'employees'};  
+    say $data.WHAT;
     my $sum = 0;
     for $data -> $r {
         my $v = $r.[0].{'year.EC'};
