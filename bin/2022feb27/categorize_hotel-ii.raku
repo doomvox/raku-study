@@ -50,7 +50,7 @@ for %by_city.kv -> $cid, $data {  ## But $data behaves differently than @data
 #     say @data.WHAT;
 #     say @data.elems;
     my $sum = 0;
-## Note, *this* doesn't work here, just does *one* record:
+## Note, *this* doesn't work here, the entire data set ends up in $r, doesn't treat $data as array
     for $data -> $r {
 ## This works:
 #    for $data.values -> $r {
