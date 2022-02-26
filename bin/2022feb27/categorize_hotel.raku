@@ -29,7 +29,6 @@ my $huh = @aoh.categorize( { $_{'city'} } );
 ## Q: why is city and employees a colon-pair, but the others use fat arrows?
 ## A: the dot in the names, I think.
 
-
 say "---";
 
 my %by_city = @aoh.categorize( { $_{'city'} } );
