@@ -27,8 +27,8 @@ say "---";
 
 my %by_city = @aoh.categorize( { $_{'city'} } );
 
-say %by_city.keys;
-say %by_city.values.[0].[0].{'employees'};
+say %by_city.keys;                          # (1 2)
+say %by_city.values.[0].[0].{'employees'};  # 36
 exit;
 
 for %by_city.kv -> ($cid, $data) {
