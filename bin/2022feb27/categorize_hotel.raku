@@ -27,6 +27,9 @@ say "---";
 
 my %by_city = @aoh.categorize( { $_{'city'} } );
 
+say %by_city.keys;
+say %by_city.values.[0].[0].{'city'};
+
 for %by_city.kv -> ($cid, $data) {
     my $sum = 0;
     for $data -> $r {
