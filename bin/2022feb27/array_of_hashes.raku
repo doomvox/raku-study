@@ -50,7 +50,13 @@ say "===";
     {id=>2, name=>'ghidra',   level=>9},
     {id=>3, name=>'mothra',   level=>6};
 
-    say $data.WHAT;
+    say $data.WHAT; # (Hash)
+
+ $data =
+    {id=>1, name=>'godzilla', level=>8},
+    {id=>2, name=>'ghidra',   level=>9},
+    {id=>3, name=>'mothra',   level=>6};
+
 
     my $total;
     for $data -> $row {
