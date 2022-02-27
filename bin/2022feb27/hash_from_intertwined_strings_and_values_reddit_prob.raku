@@ -4,5 +4,13 @@
 
 use v6;
 
+# Given data:
+my @arr =
+ ["real", 12, -5, 77, 61, "diff", 40, 0, "wrong", 88, 8, -51] 
+
+## Desired output:
+#  {diff => [40, 0], real => [12, -5, 77, 61], wrong => [88, 8, -51]} 
 
         @arr.categorize(-> $x { state $cat = Nil; if $x ~~ Str { $cat = $x; Empty } else { $cat } })
+
+
