@@ -40,6 +40,8 @@ say "===";
         say $row{'name'};
         $total += $row{'level'};
     }
+    my $count = $data.elems;
+    say "count: $count";
     say "ave level: ", $total/$data.elems;
 }
 # godzilla
