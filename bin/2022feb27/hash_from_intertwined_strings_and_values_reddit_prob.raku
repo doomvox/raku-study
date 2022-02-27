@@ -16,3 +16,10 @@ my @arr =
 my $result =  @arr.categorize(-> $x { state $cat = Nil; if $x ~~ Str { $cat = $x; Empty } else { $cat } });
 say $result;
 # {diff => [40 0], real => [12 -5 77 61], wrong => [88 8 -51]}
+
+
+
+{ $^x ~~ Str ?? uc( $^x ) !! $^x; }
+
+{ $^x ~~ Str ?? uc( $x ) !! $x; }
+
