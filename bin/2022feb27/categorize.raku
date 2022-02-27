@@ -20,7 +20,7 @@ use v6;
     # produced that key as a result of the test.
 
     ## sort integers into categories divisible by three, and otherwise
-    say (1..13).categorize( * %% 3);
+    say (1..13).categorize( * %% 3 );
     say categorize( * %% 3, 1..13)
     # OUTPUT: «{False => [1 2 4 5 7 8 10 11 13], True => [3 6 9 12]}␤» 
 }
