@@ -10,8 +10,7 @@
 ***** https://docs.raku.org/routine/categorize
 **** https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/
 
-
-*** bruce gray wants to talk weekly challenge 
+*** bruce gray on the weekly challenge 
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-153/#TASK1
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-153/#TASK2
 ***** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-153/bruce-gray
