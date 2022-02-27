@@ -11,6 +11,7 @@ my @arr =
 ## Desired output:
 #  {diff => [40, 0], real => [12, -5, 77, 61], wrong => [88, 8, -51]} 
 
+# moon-chilled solution
         @arr.categorize(-> $x { state $cat = Nil; if $x ~~ Str { $cat = $x; Empty } else { $cat } })
 
 
