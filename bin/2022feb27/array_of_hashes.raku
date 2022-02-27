@@ -34,7 +34,7 @@ say "===";
     ## You get just the first hash:
     ## {id => 1, level => 8, name => godzilla}
     say $data;
-
+    
     my $total;
     for $data -> $row {
         say $row{'name'};
