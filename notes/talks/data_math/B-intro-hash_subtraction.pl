@@ -19,7 +19,7 @@ use Data::Dumper;
              us => 666.66,
            );
 
-   %net = %gross - %costs;                          ## DOESN'T WORK
+   %net = %gross - %costs;            ## DOESN'T WORK
 
 }
 
