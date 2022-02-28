@@ -16,7 +16,7 @@
 ***** opened an issue
 ****** https://github.com/rakudo/rakudo/issues/4805
 
-**** rob rainsbottom points out: item assignment and list assignment uses different '=' operators
+**** Rob Ransbottom points out: item assignment and list assignment uses different '=' operators
 ***** assigning to $data vs @data is presumably choosing different '=' ops with different precedence
 ***** https://docs.raku.org/routine/=%20(item%20assignment)
 ***** https://docs.raku.org/routine/=%20(list%20assignment)
