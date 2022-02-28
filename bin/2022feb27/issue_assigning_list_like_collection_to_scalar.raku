@@ -5,6 +5,7 @@
 use v6;
 
 # Assigning a bunch of hashes (or arrays) to a scalar drops information silently
+#   https://github.com/rakudo/rakudo/issues/4805
 
 {
     ## This works:
