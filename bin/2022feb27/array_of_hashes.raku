@@ -161,7 +161,7 @@ say "===";
 
 {
     say "~~~";
-    my Array $data = { A=>1 }, {B=>2}, { C=>3 }; 
+    my Array $data = ( { A=>1 }, {B=>2}, { C=>3 } ); 
     say $data;
     say $data.WHAT;
 }
