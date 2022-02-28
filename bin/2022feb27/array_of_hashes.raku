@@ -136,6 +136,7 @@ say "===";
 
 
 {
+    say "---";
     my $data = [1,2], [8,9];
     say $data.raku;
 }
