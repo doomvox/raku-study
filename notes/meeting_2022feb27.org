@@ -28,7 +28,6 @@
 **** possible objection: two-faced behavior is dangerous, almost invariably confusing
 
 ** topics for another time 
-
 *** examples
 **** https://github.com/Raku/examples
 
