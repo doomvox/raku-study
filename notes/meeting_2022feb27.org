@@ -18,7 +18,6 @@
 ***** https://docs.raku.org/routine/=%20(list%20assignment)
 ***** https://docs.raku.org/language/variables#Item_and_list_assignment
 
-
 *** bruce gray on the weekly challenge 
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-153/#TASK1
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-153/#TASK2
