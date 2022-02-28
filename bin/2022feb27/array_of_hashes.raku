@@ -123,3 +123,12 @@ say "===";
 # Useless use of constant integer 2 in sink context (lines 1, 1)
 # Useless use of constant integer 3 in sink context (lines 1, 1)
 # 1
+
+
+{
+    my $data = [1], [2], [3];
+    say $data.raku;  # 1 
+    say $data.WHAT;  # (Int)
+
+   ## yields warnings, at the *top* of the output (compile time)
+}
