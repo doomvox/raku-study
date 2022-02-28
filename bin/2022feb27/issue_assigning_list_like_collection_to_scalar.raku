@@ -43,3 +43,7 @@ use v6;
     # Useless use of constant integer 2 in sink context (lines 39, 39)
     # Useless use of constant integer 3 in sink context (lines 39, 39)
 }
+
+## I see the same behavior with the last rakudo-star release and a recent build from github:
+## Welcome to Rakudo(tm) v2021.04.
+## Welcome to Rakudo™ v2022.02-82-g8fb0a66dc.
