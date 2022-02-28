@@ -33,9 +33,11 @@ say "===";
     {id=>3, name=>'mothra',   level=>6};
     say $data.WHAT; # (Hash)
     ## You get just the first hash:
-    ## {id => 1, level => 8, name => godzilla}
     say $data;
+    ## {id => 1, level => 8, name => godzilla}
     
+    ## The other two rows are *silently* ignored: no errors or warnings.
+
     my $total;
     for $data -> $row {
         say $row{'name'};
