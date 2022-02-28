@@ -145,4 +145,9 @@ say "===";
     my $data = { A=>1, B=>2}, { c=>3 }; 
     say $data;
     say $data.WHAT;
+
+    # $[1, 2]
+    # {A => 1, B => 2}
+    # (Hash)
+
 }
