@@ -115,13 +115,13 @@ say "===";
 
 
 ## this at least warns:
-# {
-#     my $data = 1, 2, 3;
-#     say $data.raku;  # 1 
-#     say $data.WHAT;  # (Int)
+{
+    my $data = 1, 2, 3;
+    say $data.raku;  # 1 
+    say $data.WHAT;  # (Int)
 
-#    ## yields warnings, at the *top* of the output (compile time)
-# }
+   ## yields warnings, at the *top* of the output (compile time)
+}
 
 # raku -e 'my $data = 1, 2, 3; say $data.raku;'
 # WARNINGS for -e:
