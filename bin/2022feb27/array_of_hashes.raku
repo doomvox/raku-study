@@ -114,6 +114,9 @@ say "===";
     my $data = 1, 2, 3;
     say $data.raku;  # 1 
     say $data.WHAT;  # (Int)
+
+   ## yields warnings, at the *top* of the output (compile time)
+
 }
 
 # raku -e 'my $data = 1, 2, 3; say $data.raku;'
