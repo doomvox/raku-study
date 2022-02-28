@@ -124,6 +124,7 @@ say "===";
     ## (where you're likely to miss them if you've got a bunch of other output).
 }
 
+# bruce gray:
 # raku -e 'my $data = 1, 2, 3; say $data.raku;'
 # WARNINGS for -e:
 # Useless use of constant integer 2 in sink context (lines 1, 1)
