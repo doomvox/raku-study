@@ -6,6 +6,7 @@ use v6;
 
 # Assigning a list (or list-like) collection of hashes/arrays to a scalar drops information silently
 
+
     ## {id => 1, level => 8, name => godzilla}
 
 
