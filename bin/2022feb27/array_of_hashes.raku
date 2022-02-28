@@ -184,8 +184,8 @@ say "===";
 
 say "===";
 {
-   ## Following an idiom in examples here:
-   ## https://docs.raku.org/language/variables#Item_and_list_assignment
+   ## Trying an idiom in examples here:
+   ##   https://docs.raku.org/language/variables#Item_and_list_assignment
 
     my ($data) =
     {id=>1, name=>'godzilla', level=>8},
