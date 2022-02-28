@@ -49,3 +49,4 @@ use v6;
 ## Welcome to Rakudo™ v2022.02-82-g8fb0a66dc.
 
 ## Linux flamenco 5.10.0-11-amd64 #1 SMP Debian 5.10.92-1 (2022-01-18) x86_64 GNU/Linux
+
