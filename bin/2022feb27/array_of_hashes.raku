@@ -163,7 +163,7 @@ say "===";
     {id=>1, name=>'godzilla', level=>8},
     {id=>2, name=>'ghidra',   level=>9},
     {id=>3, name=>'mothra',   level=>6};
-    say $data.WHAT; # (Hash)
+    say "MEEP", $data.WHAT; # (Hash)
     ## You get just the first hash:
     ## {id => 1, level => 8, name => godzilla}
     say $data;
