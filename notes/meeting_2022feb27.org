@@ -56,7 +56,7 @@
 **** talk about on "problemsolving" on github? 
 
 ** announcements 
-*** February 27th: next raku study group meeting 
+*** March 13th: next raku study group meeting 
 *** June 21-25: tprc: perl/raku conference 
 
 
