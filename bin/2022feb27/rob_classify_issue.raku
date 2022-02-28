@@ -17,4 +17,4 @@ use v6;
 # in block <unit> at <unknown file> line 1 
 
 
-say (3, 4, 5, 6, 7, 8).classify(3);
+say (3, 4, 5, 6, 7, 8).classify({$_~~3});
