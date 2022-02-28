@@ -196,15 +196,6 @@ say "===";
     ## Again, you just get the first hash:
     ## {id => 1, level => 8, name => godzilla}
     say $data;
-    
-    my $total;
-    for $data -> $row {
-        say $row{'name'};
-        $total += $row{'level'};
-    }
-    my $count = $data.elems;
-    say "count: $count";
-    say "ave level: ", $total/$data.elems;
 }
 
 
