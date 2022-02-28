@@ -163,8 +163,9 @@ say "===";
     {id=>1, name=>'godzilla', level=>8},
     {id=>2, name=>'ghidra',   level=>9},
     {id=>3, name=>'mothra',   level=>6};
-    say "MEEP", $data.WHAT; # (Hash)
-    ## You get just the first hash:
+    say $data.WHAT; # (Hash)
+
+    ## Again, you just get the first hash:
     ## {id => 1, level => 8, name => godzilla}
     say $data;
     
@@ -176,7 +177,6 @@ say "===";
     my $count = $data.elems;
     say "count: $count";
     say "ave level: ", $total/$data.elems;
-
-    }
+}
 
 
