@@ -23,29 +23,8 @@ use v6;
 
 }
 
-say "===";
-{
-    ## But if you use a '$' sigil instead of '@'...
-    my $data =
-    {id=>1, name=>'godzilla', level=>8},
-    {id=>2, name=>'ghidra',   level=>9},
-    {id=>3, name=>'mothra',   level=>6};
-    say $data.WHAT; # (Hash)
-    ## You get just the first hash:
-    say $data;
-    ## {id => 1, level => 8, name => godzilla}
-    
-    ## The other two rows are *silently* ignored: no errors or warnings.
 
-    my $total;
-    for $data -> $row {
-        say $row{'name'};
-        $total += $row{'level'};
-    }
-    my $count = $data.elems;
-    say "count: $count";
-    say "ave level: ", $total/$data.elems;
-}
+
 
 {
     my $data = 1, 2, 3;
