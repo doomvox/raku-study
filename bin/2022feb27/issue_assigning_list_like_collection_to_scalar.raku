@@ -35,8 +35,6 @@ use v6;
     # [1 godzilla]
 }
 
-
-
 {
     ## This at least warns:
     my $data = 1, 2, 3;
