@@ -18,13 +18,15 @@ say $result;
 # {diff => [40 0], real => [12 -5 77 61], wrong => [88 8 -51]}
 
 
-my $result =  @arr.categorize( { state $cat = Nil; if $^x ~~ Str { $cat = $x; Empty } else { $cat } });
+## Asides
+
+# my $result =  @arr.categorize( { state $cat = Nil; if $^x ~~ Str { $cat = $x; Empty } else { $cat } });
 
 
 
-{ $^x ~~ Str ?? uc( $^x ) !! $^x; }
+# { $^x ~~ Str ?? uc( $^x ) !! $^x; }
 
-{ $^x ~~ Str ?? uc( $x ) !! $x; }
+# { $^x ~~ Str ?? uc( $x ) !! $x; }
 
 
-my $result =  @arr.categorize( { state $cat = Nil; if $_ ~~ Str { $cat = $_; Empty } else { $cat } });
+# my $result =  @arr.categorize( { state $cat = Nil; if $_ ~~ Str { $cat = $_; Empty } else { $cat } });
