@@ -194,8 +194,8 @@ say "===";
     say $data.WHAT; # (Hash)
 
     ## Again, you just get the first hash:
-    ## {id => 1, level => 8, name => godzilla}
     say $data;
+    ## {id => 1, level => 8, name => godzilla}
 }
 
 
