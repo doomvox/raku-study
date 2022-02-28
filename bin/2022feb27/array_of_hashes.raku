@@ -115,3 +115,9 @@ say "===";
     say $data.raku;  # 1 
     say $data.WHAT;  # (Int)
 }
+
+# raku -e 'my $data = 1, 2, 3; say $data.raku;'
+# WARNINGS for -e:
+# Useless use of constant integer 2 in sink context (lines 1, 1)
+# Useless use of constant integer 3 in sink context (lines 1, 1)
+# 1
