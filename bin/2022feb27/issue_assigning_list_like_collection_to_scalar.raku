@@ -14,13 +14,14 @@ use v6;
       {id=>1, name=>'godzilla' },
       {id=>2, name=>'ghidra'   };
     say @data;
+}
 
+{
     ## This doesn't:
     my $data =  # note '$' sigil: a scalar
       {id=>1, name=>'godzilla' },
       {id=>2, name=>'ghidra'   };
-    say @data;
-
+    say $data;
 }
 
 
