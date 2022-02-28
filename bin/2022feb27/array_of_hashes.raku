@@ -126,7 +126,7 @@ say "===";
 
 
 {
-    say "---";;
+    say "---";
     my $data = [1], [2], [3];
     say $data.raku;  # 1 
     say $data.WHAT;  # (Int)
