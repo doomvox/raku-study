@@ -14,6 +14,7 @@ use v6;
       {id=>1, name=>'godzilla' },
       {id=>2, name=>'ghidra'   };
     say @data;
+    # [{id => 1, name => godzilla} {id => 2, name => ghidra}]
 }
 
 {
