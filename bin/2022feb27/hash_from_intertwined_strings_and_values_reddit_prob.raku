@@ -20,6 +20,7 @@ say $result;
 
 ## Asides:
 
+
 # my $result =  @arr.categorize( { state $cat = Nil; if $^x ~~ Str { $cat = $x; Empty } else { $cat } });
 
 
