@@ -6,6 +6,7 @@ use v6;
 
 ## double-checking basic processing of an array of hashes:
 {
+    ## This code works:
     my @data =
     {id=>1, name=>'godzilla', level=>8},
     {id=>2, name=>'ghidra',   level=>9},
@@ -25,7 +26,7 @@ use v6;
 
 say "===";
 {
-    ## If you use a '$' sigil, can get tripped up
+    ## But if you use a '$' sigil instead of '@'...
     my $data =
     {id=>1, name=>'godzilla', level=>8},
     {id=>2, name=>'ghidra',   level=>9},
