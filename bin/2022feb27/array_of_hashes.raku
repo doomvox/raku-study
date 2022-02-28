@@ -120,7 +120,8 @@ say "===";
     say $data.raku;  # 1 
     say $data.WHAT;  # (Int)
 
-   ## yields warnings, at the *top* of the output (compile time)
+    ## yields warnings *compile time* warnings, which go at the *top* of the output
+    ## (where you're likely to miss them if you've got a bunch of other output).
 }
 
 # raku -e 'my $data = 1, 2, 3; say $data.raku;'
