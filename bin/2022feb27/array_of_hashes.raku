@@ -154,14 +154,12 @@ say "===";
     # (Hash)
 }
 
+say "===";
 {
    ## Following an idiom in examples here:
    ## https://docs.raku.org/language/variables#Item_and_list_assignment
 
-say "===";
-
-    ## But if you use a '$' sigil instead of '@'...
-    my $data =
+    my ($data) =
     {id=>1, name=>'godzilla', level=>8},
     {id=>2, name=>'ghidra',   level=>9},
     {id=>3, name=>'mothra',   level=>6};
