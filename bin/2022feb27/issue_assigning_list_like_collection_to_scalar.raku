@@ -38,4 +38,7 @@ use v6;
     # This at least warns:
     my $data = 1, 2, 3;
     say $data.raku;  # 1 
+    # Useless use of constant integer 2 in sink context (lines 39, 39)
+    # Useless use of constant integer 3 in sink context (lines 39, 39)
+    # 1
 }
