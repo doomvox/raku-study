@@ -99,3 +99,11 @@ say "===";
 ## You figure out how this works on your own:
 ##    for $data -> $row {
 
+
+{ 
+    my $data = {A=>1, B=>2}, {A=>3, B=>4};
+    say $data.raku;'
+    ${:A (1), :B(2)} 
+
+    say $data.WHAT;
+}
