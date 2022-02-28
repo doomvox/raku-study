@@ -18,12 +18,12 @@
 ***** https://docs.raku.org/routine/=%20(list%20assignment)
 ***** https://docs.raku.org/language/variables#Item_and_list_assignment
 
-*** bruce gray on the weekly challenge 
+*** bruce gray on the weekly challenge: factorions
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-153/#TASK1
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-153/#TASK2
 ***** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-153/bruce-gray
 
-*** william michaels objects to saving returns by default in the repl
+*** william michaels objects to a proposed feature, saving returns by default in the repl
 **** https://github.com/rakudo/rakudo/pull/4796#issue 
 
 *** examples
