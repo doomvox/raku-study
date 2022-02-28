@@ -32,6 +32,7 @@ use v6;
       [1,'godzilla'],
       [2, 'ghidra'];
     say $data;
+    # [1 godzilla]
 }
 
 
@@ -42,5 +43,5 @@ use v6;
     say $data.raku;  # 1 
     # Useless use of constant integer 2 in sink context (lines 39, 39)
     # Useless use of constant integer 3 in sink context (lines 39, 39)
-    # 1
+
 }
