@@ -4,7 +4,7 @@
 
 use v6;
 
-## double-checking basic processing of an array of hashes:
+## some issues with basic processing of an array of hashes:
 {
     ## This code works:
     my @data =
