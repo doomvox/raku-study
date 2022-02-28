@@ -17,15 +17,12 @@ use v6;
 }
 
 {
-    ## This doesn't:
+    ## This doesn't: drops second row silently
     my $data =  # note '$' sigil: a scalar
       {id=>1, name=>'godzilla' },
       {id=>2, name=>'ghidra'   };
     say $data;
 }
-
-
-
 
 {
     my $data = 1, 2, 3;
