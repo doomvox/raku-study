@@ -159,13 +159,27 @@ say "===";
     # (Hash)
 }
 
+# {
+#     say "~~~";
+#     my Array $data = { A=>1 }, {B=>2}, { C=>3 } ; 
+#     ## Type check failed in assignment to $data; expected Array but got Hash ({:A(1)})
+#     say $data;
+#     say $data.WHAT;
+# }
+# {
+#     say "~~~";
+#     my Array $data = ( { A=>1 }, {B=>2}, { C=>3 } ) ; 
+#     ## Type check failed in assignment to $data; expected Array but got List (({:A(1)}, {:B(2)}, {...)
+#     say $data;
+#     say $data.WHAT;
+# }
 {
     say "~~~";
-    my Array $data = ( { A=>1 }, {B=>2}, { C=>3 } ); 
+    my Array $data = ( { A=>1 }, {B=>2}, { C=>3 } ).Array ; 
+    ## Type check failed in assignment to $data; expected Array but got List (({:A(1)}, {:B(2)}, {...)
     say $data;
     say $data.WHAT;
 }
-## Type check failed in assignment to $data; expected Array but got Hash ({:A(1)})
 
 
 say "===";
