@@ -110,7 +110,7 @@ say "===";
 }
 
 
-## works, but warns:
+## this at least warns:
 # {
 #     my $data = 1, 2, 3;
 #     say $data.raku;  # 1 
