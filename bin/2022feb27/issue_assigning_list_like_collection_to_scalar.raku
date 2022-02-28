@@ -36,9 +36,10 @@ use v6;
 }
 
 {
-    ## This at least warns:
-    my $data = 1, 2, 3;
-    say $data.raku;  # 1 
+    ## This at least warns (when uncommented)
+    # my $data = 1, 2, 3;
+    # say $data.raku;  # 1 
+
     ## Compile-time warning:
     # Useless use of constant integer 2 in sink context (lines 39, 39)
     # Useless use of constant integer 3 in sink context (lines 39, 39)
@@ -48,5 +49,5 @@ use v6;
 ## Welcome to Rakudo(tm) v2021.04.
 ## Welcome to Rakudo™ v2022.02-82-g8fb0a66dc.
 
-## Linux flamenco 5.10.0-11-amd64 #1 SMP Debian 5.10.92-1 (2022-01-18) x86_64 GNU/Linux
+
 
