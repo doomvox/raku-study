@@ -18,7 +18,7 @@ say $result;
 # {diff => [40 0], real => [12 -5 77 61], wrong => [88 8 -51]}
 
 
-## Asides
+## Asides:
 
 # my $result =  @arr.categorize( { state $cat = Nil; if $^x ~~ Str { $cat = $x; Empty } else { $cat } });
 
