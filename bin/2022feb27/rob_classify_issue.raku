@@ -5,7 +5,9 @@
 use v6;
 
 
-say (3).classify( 3, 4, 5, 6, 7, 8);
+## Rob makes the point that this error message may be LTA
+
+# say (3).classify( 3, 4, 5, 6, 7, 8);
 
 # Cannot resolve caller classify(Int:D: Int:D, Int:D, Int:D, Int:D, Int:D, Int:D); none of these signatures match:
 # ($: *%_)
