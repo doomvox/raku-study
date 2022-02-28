@@ -1,55 +1,55 @@
-- [meeting notes February 27, 2022](#orga1a5899)
-  - [the raku study group](#org51ed6fe)
-  - [usual links to the meeting material](#org5aa842d)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb27.md>](#org7075bb7)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb27>](#orge3bb5e5)
-  - [topics](#orged25dae)
-    - [Making a hash out of intertwined array of strings and integers](#orgdbab481)
-    - [bruce gray on the weekly challenge](#org64f9327)
-    - [william michaels objects to saving returns by default in the repl](#org40750ed)
-    - [examples](#org3425e16)
-    - [issue about doing a ,= with a SetHash on right-hand side](#orgaeaf4c1)
-    - [<http://clarkema.org/lab/2022/2022-02-09-raku-multiple-grammars/>](#org224af68)
-    - [<https://www.reddit.com/r/rakulang/comments/ssd1lf/multiple_cooperating_grammars_in_raku_mike_clarke/>](#org97397c7)
-    - [recursive regexs](#org5019eed)
-    - [raku grammars](#org3d87e03)
-    - [darkroast](#org5a55bdd)
-  - [announcements](#orgf91775c)
-    - [February 27th: next raku study group meeting](#org14200ec)
-    - [June 21-25: tprc: perl/raku conference](#org8bb92d5)
+- [meeting notes February 27, 2022](#org88d8f37)
+  - [the raku study group](#orge0c43b4)
+  - [usual links to the meeting material](#org7506740)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb27.md>](#orgbe2a19a)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb27>](#org5cf3362)
+  - [topics](#org7bc9d0b)
+    - [Making a hash out of intertwined array of strings and integers](#orgc903812)
+    - [bruce gray on the weekly challenge](#org4641a34)
+    - [william michaels objects to saving returns by default in the repl](#orga5143b3)
+    - [examples](#org05d1f4c)
+    - [issue about doing a ,= with a SetHash on right-hand side](#orga953fed)
+    - [<http://clarkema.org/lab/2022/2022-02-09-raku-multiple-grammars/>](#org4cc5eed)
+    - [<https://www.reddit.com/r/rakulang/comments/ssd1lf/multiple_cooperating_grammars_in_raku_mike_clarke/>](#orge60aa5c)
+    - [recursive regexs](#org0fa0b30)
+    - [raku grammars](#orgd0a634c)
+    - [darkroast](#org99945ba)
+  - [announcements](#orgd486786)
+    - [February 27th: next raku study group meeting](#org6c39358)
+    - [June 21-25: tprc: perl/raku conference](#org8e62859)
 
 
-<a id="orga1a5899"></a>
+<a id="org88d8f37"></a>
 
 # meeting notes February 27, 2022
 
 
-<a id="org51ed6fe"></a>
+<a id="orge0c43b4"></a>
 
 ## the raku study group
 
 
-<a id="org5aa842d"></a>
+<a id="org7506740"></a>
 
 ## usual links to the meeting material
 
 
-<a id="org7075bb7"></a>
+<a id="orgbe2a19a"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb27.md>
 
 
-<a id="orge3bb5e5"></a>
+<a id="org5cf3362"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2022feb27>
 
 
-<a id="orged25dae"></a>
+<a id="org7bc9d0b"></a>
 
 ## topics
 
 
-<a id="orgdbab481"></a>
+<a id="orgc903812"></a>
 
 ### Making a hash out of intertwined array of strings and integers
 
@@ -61,8 +61,14 @@
 
 3.  <https://github.com/doomvox/raku-study/tree/main/bin/2022feb27/array_of_hashes.raku>
 
+4.  little known facts: item assignment and list assignment uses different '=' operators
 
-<a id="org64f9327"></a>
+    1.  assigning to $data vs @data is presumably choosing different '=' ops with different precedence
+    
+    2.  <https://docs.raku.org/language/variables#Item_and_list_assignment>
+
+
+<a id="org4641a34"></a>
 
 ### bruce gray on the weekly challenge
 
@@ -73,21 +79,21 @@
 3.  <https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-153/bruce-gray>
 
 
-<a id="org40750ed"></a>
+<a id="orga5143b3"></a>
 
 ### william michaels objects to saving returns by default in the repl
 
 1.  <https://github.com/rakudo/rakudo/pull/4796#issue>
 
 
-<a id="org3425e16"></a>
+<a id="org05d1f4c"></a>
 
 ### examples
 
 1.  <https://github.com/Raku/examples>
 
 
-<a id="orgaeaf4c1"></a>
+<a id="orga953fed"></a>
 
 ### issue about doing a ,= with a SetHash on right-hand side
 
@@ -106,17 +112,17 @@
         2.  jonathan worthington objects it doesn't go all the way to prohibit indirect self-ref
 
 
-<a id="org224af68"></a>
+<a id="org4cc5eed"></a>
 
 ### <http://clarkema.org/lab/2022/2022-02-09-raku-multiple-grammars/>
 
 
-<a id="org97397c7"></a>
+<a id="orge60aa5c"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/ssd1lf/multiple_cooperating_grammars_in_raku_mike_clarke/>
 
 
-<a id="org5019eed"></a>
+<a id="org0fa0b30"></a>
 
 ### recursive regexs
 
@@ -125,7 +131,7 @@
     1.  <https://stackoverflow.com/questions/70913301/what-is-the-correct-raku-recursive-regex-syntax>
 
 
-<a id="org3d87e03"></a>
+<a id="orgd0a634c"></a>
 
 ### raku grammars
 
@@ -134,7 +140,7 @@
 2.  "parrot raiser" pick
 
 
-<a id="org5a55bdd"></a>
+<a id="org99945ba"></a>
 
 ### darkroast
 
@@ -143,16 +149,16 @@
 2.  talk about on "problemsolving" on github?
 
 
-<a id="orgf91775c"></a>
+<a id="orgd486786"></a>
 
 ## announcements
 
 
-<a id="org14200ec"></a>
+<a id="org6c39358"></a>
 
 ### February 27th: next raku study group meeting
 
 
-<a id="org8bb92d5"></a>
+<a id="org8e62859"></a>
 
 ### June 21-25: tprc: perl/raku conference

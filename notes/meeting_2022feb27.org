@@ -12,6 +12,10 @@
 
 **** https://github.com/doomvox/raku-study/tree/main/bin/2022feb27/array_of_hashes.raku
 
+**** little known facts: item assignment and list assignment uses different '=' operators
+***** assigning to $data vs @data is presumably choosing different '=' ops with different precedence
+***** https://docs.raku.org/language/variables#Item_and_list_assignment
+
 
 *** bruce gray on the weekly challenge 
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-153/#TASK1
