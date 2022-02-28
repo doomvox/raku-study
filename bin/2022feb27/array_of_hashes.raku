@@ -154,9 +154,31 @@ say "===";
     # (Hash)
 }
 
+{
+   ## Following an idiom in examples here:
+   ## https://docs.raku.org/language/variables#Item_and_list_assignment
 
-#   =
-#   :=
+say "===";
 
-#   my $a = <scalar>;
-#   my $b = <list>;
+    ## But if you use a '$' sigil instead of '@'...
+    my $data =
+    {id=>1, name=>'godzilla', level=>8},
+    {id=>2, name=>'ghidra',   level=>9},
+    {id=>3, name=>'mothra',   level=>6};
+    say $data.WHAT; # (Hash)
+    ## You get just the first hash:
+    ## {id => 1, level => 8, name => godzilla}
+    say $data;
+    
+    my $total;
+    for $data -> $row {
+        say $row{'name'};
+        $total += $row{'level'};
+    }
+    my $count = $data.elems;
+    say "count: $count";
+    say "ave level: ", $total/$data.elems;
+
+    }
+
+
