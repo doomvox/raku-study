@@ -177,8 +177,8 @@ say "===";
     say "~~~";
     my Array $data = ( { A=>1 }, {B=>2}, { C=>3 } ).Array ; 
     ## Type check failed in assignment to $data; expected Array but got List (({:A(1)}, {:B(2)}, {...)
-    say $data;
-    say $data.WHAT;
+    say $data; ## [{A => 1} {B => 2} {C => 3}]
+    say $data.WHAT; ## (Array)
 }
 
 
