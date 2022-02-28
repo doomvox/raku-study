@@ -47,6 +47,7 @@ say "===";
 }
 # godzilla
 # ave level: 2.666667
+## that's 8/3, where 8 is the one level value, and 3 is the count of pairs in the hash
 
 say "===";
 {
