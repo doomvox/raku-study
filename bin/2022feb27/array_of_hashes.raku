@@ -149,6 +149,7 @@ say "===";
 }
 
 {
+    say "---";
     my $data = { A=>1, B=>2}, { c=>3 }; 
     say $data;
     say $data.WHAT;
@@ -157,6 +158,16 @@ say "===";
     # {A => 1, B => 2}
     # (Hash)
 }
+
+{
+    say "~~~";
+    my Array $data = { A=>1 }, {B=>2}, { C=>3 }; 
+    say $data;
+    say $data.WHAT;
+
+
+}
+
 
 say "===";
 {
