@@ -25,6 +25,16 @@ use v6;
 }
 
 {
+    ## This also doesn't work
+    my $data = 
+      [1,'godzilla'],
+      [2, 'ghidra'];
+    say $data;
+}
+
+
+
+{
     my $data = 1, 2, 3;
     say $data.raku;  # 1 
     say $data.WHAT;  # (Int)
