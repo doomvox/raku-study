@@ -25,7 +25,7 @@ use v6;
 }
 
 {
-    ## This also doesn't work
+    ## This also doesn't work, but at least warns:
     my $data = 
       [1,'godzilla'],
       [2, 'ghidra'];
