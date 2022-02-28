@@ -131,5 +131,11 @@ say "===";
     say $data.raku;  # 1 
     say $data.WHAT;  # (Int)
 
-   ## yields warnings, at the *top* of the output (compile time)
+   ## no warnings 
+}
+
+
+{
+    my $data = [1,2], [8,9];
+    say $data.raku;
 }
