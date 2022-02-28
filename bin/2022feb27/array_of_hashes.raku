@@ -108,3 +108,9 @@ say "===";
 
     say $data.WHAT;
 }
+
+
+{
+    my $data = 1, 2, 3;
+    say $data.raku;
+}
