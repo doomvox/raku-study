@@ -6,7 +6,7 @@ use v6;
 
 # Assigning a list (or list-like) collection of hashes/arrays to a scalar drops information silently
 
-# Assigning a bunch of hashes to a scalar drops information silently
+# Assigning a bunch of hashes (or arrays) to a scalar drops information silently
 
 {
     ## This works:
