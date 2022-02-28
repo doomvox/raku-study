@@ -164,9 +164,8 @@ say "===";
     my Array $data = { A=>1 }, {B=>2}, { C=>3 }; 
     say $data;
     say $data.WHAT;
-
-
 }
+## Type check failed in assignment to $data; expected Array but got Hash ({:A(1)})
 
 
 say "===";
