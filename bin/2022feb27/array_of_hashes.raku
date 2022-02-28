@@ -64,7 +64,7 @@ say "===";
 
    my $total;
    ## Note: if you don't use .values, entire List ends up in $row
-   for $data.values -> $row {   ## *.list is more idiomatic -- bruce gray
+   for $data.values -> $row {   ## bruce gray: *.list is more idiomatic
         say $row{'name'};
         $total += $row{'level'};
    }
