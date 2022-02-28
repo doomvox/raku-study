@@ -138,5 +138,11 @@ say "===";
 {
     say "---";
     my $data = [1,2], [8,9];
-    say $data.raku;
+    say $data.raku;  # $[1, 2]
+}
+
+{
+    my $data = { A=>1, B=>2}, { c=>3 }; 
+    say $data;
+    say $data.WHAT;
 }
