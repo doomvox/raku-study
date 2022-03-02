@@ -14,4 +14,5 @@ use v6;
 
    my $a3 = ( {a=>1}, {b=>2}, {c=>3} );
    say $a3;
+   say $a3.WHAT;
 }
