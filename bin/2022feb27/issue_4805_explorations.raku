@@ -21,5 +21,4 @@ use v6;
    # Note: you sometimes hear that "commas create a sequence", but here
    # (1) You only get the first item in the comma-separated series
    # (2) You see different behavior with complex items: no compiler warning 
-
 }
