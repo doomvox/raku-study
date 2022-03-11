@@ -7,7 +7,8 @@ my $full = "/home/doom/tmp/something_or_other.txt";
 
 my $base = $full.IO.basename;
 my $ext = $full.IO.extension;
-my $loc = $full.IO.path;
+my $same_as_full = $full.IO.path;
+my $same_as_full = $full.IO.directory;
 
 say "loc: $loc";
 say "base: $base";
