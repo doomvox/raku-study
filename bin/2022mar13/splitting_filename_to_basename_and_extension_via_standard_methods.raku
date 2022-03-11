@@ -27,6 +27,7 @@ my $sans_ext = $base.subst(/\. .*? $ /,''); # this works okay
 say "sans_ext: $sans_ext";
 # sans_ext: something_or_other
 
-## This doesn't work-- Q: how do you match not-a-dot?
+## This doesn't work
 # my $sans_ext = $base.subst(/\. <[-.]>*? $ /,'');  
-
+## So, question:
+##   how do you match not-a-dot?
