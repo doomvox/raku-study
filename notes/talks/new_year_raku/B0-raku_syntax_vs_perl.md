@@ -1,31 +1,31 @@
-- [raku syntax vs perl](#org63b6d19)
-  - [See: <https://docs.raku.org/language/5to6-nutshell>](#orgb67a79e)
-  - [raku continues to have a perlish feel, but--](#org803c84f)
-    - [object method calls via the more standard ".", not the "->"](#orgfd38ac8)
-    - [variable names typically have sigils still: $, @, %](#org61ef0cf)
-    - [flattening](#org0982d29)
-    - [everything is an object](#orgce6e130)
-    - [scalar and list context have gone away in Raku](#org8fc04d1)
-    - [a push for consistency](#org24da32f)
-    - [one-pass parsing](#org34cbf37)
+- [raku syntax vs perl](#org6df50e3)
+  - [See: <https://docs.raku.org/language/5to6-nutshell>](#orge329c31)
+  - [raku continues to have a perlish feel, but--](#orgccfc16e)
+    - [object method calls via the more standard ".", not the "->"](#orgb3e6928)
+    - [variable names typically have sigils still: $, @, %](#orgdb755c2)
+    - [flattening](#orge348162)
+    - [everything is an object](#org0903fe8)
+    - [scalar and list context have gone away in Raku](#orgd02b182)
+    - [a push for consistency](#org5fe528e)
+    - [one-pass parsing](#orgd146ab4)
 
 
-<a id="org63b6d19"></a>
+<a id="org6df50e3"></a>
 
 # raku syntax vs perl
 
 
-<a id="orgb67a79e"></a>
+<a id="orge329c31"></a>
 
 ## See: <https://docs.raku.org/language/5to6-nutshell>
 
 
-<a id="org803c84f"></a>
+<a id="orgccfc16e"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="orgfd38ac8"></a>
+<a id="orgb3e6928"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
@@ -34,7 +34,7 @@
 2.  string concat is now "~" not "."
 
 
-<a id="org61ef0cf"></a>
+<a id="orgdb755c2"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -89,7 +89,7 @@
         1.  similar to perl's references: $ doesn't mean "singular"
 
 
-<a id="org0982d29"></a>
+<a id="orge348162"></a>
 
 ### flattening
 
@@ -101,12 +101,12 @@
     
         my @residual = @list (-) @exceptions; ## weak: first element in array residual contains entire result array
         
-        my @residual | = @list (-) @exceptions; ## better to "slip" out of container
+        my @residual | = @list (-) @exceptions; ## better: "slips" out of container
     
     2.  a few ways to flatten: ".flat", slip operator "|"
 
 
-<a id="orgce6e130"></a>
+<a id="org0903fe8"></a>
 
 ### everything is an object
 
@@ -119,21 +119,21 @@
     1.  helps to have a type system
 
 
-<a id="org8fc04d1"></a>
+<a id="orgd02b182"></a>
 
 ### scalar and list context have gone away in Raku
 
 1.  but many operators do implied type-conversion, which feels perlish
 
 
-<a id="org24da32f"></a>
+<a id="org5fe528e"></a>
 
 ### a push for consistency
 
 1.  e.g. {} almost always means a block of code
 
 
-<a id="org34cbf37"></a>
+<a id="orgd146ab4"></a>
 
 ### one-pass parsing
 
