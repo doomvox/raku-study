@@ -70,7 +70,7 @@ my @residual = | @list (-) @exceptions;
 *** a push for consistency
 **** e.g. {} almost always means a block of code 
 *** one-pass parsing
-**** but that has unfortunate side effects 
+**** good, but that has unfortunate side effects 
 ***** this is okay in perl
 #+BEGIN_SRC perl
 if( $this ) { ... }
