@@ -53,7 +53,7 @@ $alias++;  # increments $var too
 my @residual   = @list (-) @exceptions; 
   ## weak: first element in array residual contains entire result array
 
-my @residual | = @list (-) @exceptions; 
+my @residual = | @list (-) @exceptions; 
   ## better: "slips" out of container
 
 ***** a few ways to flatten: ".flat", slip operator "|"
