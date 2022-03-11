@@ -1,5 +1,6 @@
 #!/usr/bin/env perl6
-# splitting_filename_to_basename_and_extension_via_regexp.raku   11 Mar 2022 
+# 
+# splitting_filename_to_basename_and_extension_via_regexp.raku            11 Mar 2022 
 
 use v6;
 
