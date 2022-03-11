@@ -10,7 +10,7 @@ my $ext = $full.IO.extension;
 my $same_as_full = $full.IO.path;
 my $same_as_full = $full.IO.directory;
 
-say "loc: $loc";
+say "full: $same_as_full";
 say "base: $base";
 say "ext: $ext";
 # base: something_or_other.txt
