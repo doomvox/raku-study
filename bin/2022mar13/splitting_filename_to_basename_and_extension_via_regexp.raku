@@ -12,6 +12,7 @@ my $path = $full.IO.path;     ## same as full
 my $loc = $full.IO.dirname;
 
 say "full: $path";
+say "loc: $loc";
 say "base: $base";
 say "ext: $ext";
 # base: something_or_other.txt
