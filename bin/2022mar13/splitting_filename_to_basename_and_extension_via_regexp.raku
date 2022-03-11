@@ -5,10 +5,8 @@ use v6;
 
 my $full = "/home/doom/tmp/something_or_other.txt";
 
-## I thought this might work (it doesn't):
-my ($base, $ext) = $full.match( / ^ (.*?) \. (<[-.]>*?) $ / );
+my $base = $full.IO.basename;
+my $ext = $full.IO.extension;
 
-## continue experimenting with this:
-my ($base, $ext);
-$full.match( / ^ (.*?) \. (<[-.]>*?) $ / );
-say $/;
+say "base: $base";
+say "ext: $ext";
