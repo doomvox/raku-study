@@ -76,7 +76,7 @@ my @residual = | @list (-) @exceptions;
 if( $this ) { ... }
 #+END_SRC
 
-***** space after "if" is *required* in raku
+***** a space after "if" is *required* in raku
 #+BEGIN_SRC raku
 if ( $this ) { ... }
 #+END_SRC

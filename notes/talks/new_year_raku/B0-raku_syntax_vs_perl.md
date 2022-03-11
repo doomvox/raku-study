@@ -1,31 +1,31 @@
-- [raku syntax vs perl](#org02c7fdf)
-  - [See: <https://docs.raku.org/language/5to6-nutshell>](#org52f3982)
-  - [raku continues to have a perlish feel, but--](#orga1c3526)
-    - [object method calls via the more standard ".", not the "->"](#org1d29370)
-    - [variable names typically have sigils still: $, @, %](#org7f0434d)
-    - [flattening](#orgc2f0741)
-    - [everything is an object](#orgdf20bf5)
-    - [scalar and list context have gone away in Raku](#orgc862389)
-    - [a push for consistency](#org809a256)
-    - [one-pass parsing](#orgebe1d6a)
+- [raku syntax vs perl](#orgcbe99b5)
+  - [See: <https://docs.raku.org/language/5to6-nutshell>](#org05008eb)
+  - [raku continues to have a perlish feel, but--](#orgef03586)
+    - [object method calls via the more standard ".", not the "->"](#orga7bbd89)
+    - [variable names typically have sigils still: $, @, %](#orgcf0280c)
+    - [flattening](#orga7377c3)
+    - [everything is an object](#org2dfe4fe)
+    - [scalar and list context have gone away in Raku](#orgee17c08)
+    - [a push for consistency](#orgdcd6de1)
+    - [one-pass parsing](#org87905d6)
 
 
-<a id="org02c7fdf"></a>
+<a id="orgcbe99b5"></a>
 
 # raku syntax vs perl
 
 
-<a id="org52f3982"></a>
+<a id="org05008eb"></a>
 
 ## See: <https://docs.raku.org/language/5to6-nutshell>
 
 
-<a id="orga1c3526"></a>
+<a id="orgef03586"></a>
 
 ## raku continues to have a perlish feel, but--
 
 
-<a id="org1d29370"></a>
+<a id="orga7bbd89"></a>
 
 ### object method calls via the more standard ".", not the "->"
 
@@ -34,7 +34,7 @@
 2.  string concat is now "~" not "."
 
 
-<a id="org7f0434d"></a>
+<a id="orgcf0280c"></a>
 
 ### variable names typically have sigils still: $, @, %
 
@@ -89,7 +89,7 @@
         1.  similar to perl's references: $ doesn't mean "singular"
 
 
-<a id="orgc2f0741"></a>
+<a id="orga7377c3"></a>
 
 ### flattening
 
@@ -106,7 +106,7 @@
     2.  a few ways to flatten: ".flat", slip operator "|"
 
 
-<a id="orgdf20bf5"></a>
+<a id="org2dfe4fe"></a>
 
 ### everything is an object
 
@@ -119,21 +119,21 @@
     1.  helps to have a type system
 
 
-<a id="orgc862389"></a>
+<a id="orgee17c08"></a>
 
 ### scalar and list context have gone away in Raku
 
 1.  but many operators do implied type-conversion, which feels perlish
 
 
-<a id="org809a256"></a>
+<a id="orgdcd6de1"></a>
 
 ### a push for consistency
 
 1.  e.g. {} almost always means a block of code
 
 
-<a id="orgebe1d6a"></a>
+<a id="org87905d6"></a>
 
 ### one-pass parsing
 
@@ -145,7 +145,7 @@
         if( $this ) { ... }
         ```
     
-    2.  space after "if" is **required** in raku
+    2.  a space after "if" is **required** in raku
     
         ```raku
         if ( $this ) { ... }
