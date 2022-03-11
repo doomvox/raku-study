@@ -24,6 +24,6 @@ say  $full.IO.parts;
 # IO::Path::Parts.new("","/home/doom/tmp","something_or_other.txt")
 
 # my $sans_ext = $base.subst(/\. .*? $ /,'');
-my $sans_ext = $base.subst(/\. <[-.]>*? $ /,'');
+my $sans_ext = $base.subst(/\. <[-\.]>*? $ /,'');
 say "sans_ext: $sans_ext";
 # sans_ext: something_or_other
