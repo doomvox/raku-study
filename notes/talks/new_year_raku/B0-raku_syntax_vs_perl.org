@@ -50,7 +50,8 @@ $alias++;  # increments $var too
 **** in raku, nested structures are preserved, unless you do something
 
 ***** 
-my @residual   = @list (-) @exceptions; ## weak: first element in array contains result
+my @residual   = @list (-) @exceptions; 
+  ## weak: first element in array residual contains entire result array
 
 my @residual | = @list (-) @exceptions; ## better to "slip" out of container
 
