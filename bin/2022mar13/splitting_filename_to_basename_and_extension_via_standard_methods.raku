@@ -19,6 +19,7 @@ say "ext: $ext";     # ext: txt
 ## This is not wrong exactly, but it is disappointing:
 #    base: something_or_other.txt
 
+## "parts" method doesn't help:
 say  $full.IO.parts;
 # IO::Path::Parts.new("","/home/doom/tmp","something_or_other.txt")
 
