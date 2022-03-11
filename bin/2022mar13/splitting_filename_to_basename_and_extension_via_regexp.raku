@@ -14,6 +14,9 @@ say "full: $path";   # full: /home/doom/tmp/something_or_other.txt
 say "loc:  $loc";    # loc:  /home/doom/tmp
 say "base: $base";   # base: something_or_other.txt
 say "ext: $ext";     # ext: txt
+
+## Note the basename *includes* the extention. 
+## This is not wrong, but it is disappointing:
 # base: something_or_other.txt
-# ext: txt
+
 
