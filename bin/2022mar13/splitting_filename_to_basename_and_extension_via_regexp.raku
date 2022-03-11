@@ -19,4 +19,6 @@ say "ext: $ext";     # ext: txt
 ## This is not wrong, but it is disappointing:
 # base: something_or_other.txt
 
+say  $full.IO.parts;
+
 
