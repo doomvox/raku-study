@@ -25,3 +25,4 @@ say  $full.IO.parts;
 
 my $sans_ext = $base.subst(/\. .*? $ /,'');
 say "sans_ext: $sans_ext";
+# sans_ext: something_or_other
