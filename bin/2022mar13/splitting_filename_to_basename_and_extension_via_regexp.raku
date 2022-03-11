@@ -20,5 +20,5 @@ say "ext: $ext";     # ext: txt
 # base: something_or_other.txt
 
 say  $full.IO.parts;
-
+# IO::Path::Parts.new("","/home/doom/tmp","something_or_other.txt")
 
