@@ -14,8 +14,8 @@
 
            See: https://perldoc.perl.org/perldata 
 
- 
-        But whatever the number of keys, the difference is a single value:
+
+        This doesn't help us much, though.
 
              3 - 3 = 0
 
