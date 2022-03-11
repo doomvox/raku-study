@@ -8,13 +8,12 @@ my $full = "/home/doom/tmp/something_or_other.txt";
 my $base = $full.IO.basename;
 my $ext = $full.IO.extension;
 my $path = $full.IO.path;     ## same as full
-# my $loc = $full.IO.directory;
-my $loc = $full.IO.dirname;
+my $loc = $full.IO.dirname;  ## had to look this up: my guess was "directory"
 
-say "full: $path";
-say "loc:  $loc";
-say "base: $base";
-say "ext: $ext";
+say "full: $path";   # full: /home/doom/tmp/something_or_other.txt
+say "loc:  $loc";    # loc:  /home/doom/tmp
+say "base: $base";   # base: something_or_other.txt
+say "ext: $ext";     # ext: txt
 # base: something_or_other.txt
 # ext: txt
 
