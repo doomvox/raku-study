@@ -29,7 +29,7 @@ $p = rx/<-[.]>/;  # matches anything not a dot
 say so '.' ~~ $p;  # False
 say so 'a' ~~ $p ; # True
 
-$p = rx/<-[\.]>/; 
+$p = rx/<-[\.]>/; # also matches anything not a dot
 say so '.' ~~ $p;  # False
 say so 'a' ~~ $p ; # True
 
