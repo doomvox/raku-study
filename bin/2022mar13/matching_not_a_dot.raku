@@ -6,3 +6,6 @@ use v6;
 
 my $str1 = '.';
 my $str2 = 'a';
+
+
+my $pat1 = rx/  <[-a]>  /;
