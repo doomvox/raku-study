@@ -48,3 +48,8 @@ use v6;
     say '\\'.elems;     # 1
 
 }
+
+{
+    my $full = "/home/doom/tmp/stuff.fur.txt";
+
+    }
