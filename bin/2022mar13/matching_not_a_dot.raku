@@ -8,7 +8,7 @@ use v6;
     my $str1 = '.';
     my $str2 = 'a';
 
-    my $pat1 = rx/  <[-\.]>  /;
+    my $pat1 = rx/  <-[\.]>  /;
     say so $str1 ~~ $pat1;  # True
     say so $str2 ~~ $pat1;  # False
 
