@@ -9,4 +9,5 @@ my $str2 = 'a';
 
 
 my $pat1 = rx/  <[-a]>  /;
+say $str1 ~~ $pat1;
 say $str2 ~~ $pat1;
