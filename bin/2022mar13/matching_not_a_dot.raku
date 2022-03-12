@@ -33,6 +33,7 @@ $p = rx/<-[\.]>/; # also matches anything not a dot
 say so '.' ~~ $p;  # False
 say so 'a' ~~ $p ; # True
 
+## double-checking it's not also not-a-backwhack
 say so '\\' ~~ $p;  # True
 say '\\'.elems;     # 1
 
