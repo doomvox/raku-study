@@ -25,11 +25,11 @@ $p = rx/<-[a]>/;
 say so '.' ~~ $p;  # True
 say so 'a' ~~ $p ; # False
 
-$p = rx/<-[.]>/;  # matches anything not a dot
+$p = rx/<-[.]>/;  # matches anything not-a-dot
 say so '.' ~~ $p;  # False
 say so 'a' ~~ $p ; # True
 
-$p = rx/<-[\.]>/; # also matches anything not a dot
+$p = rx/<-[\.]>/; # also matches anything not-a-dot
 say so '.' ~~ $p;  # False
 say so 'a' ~~ $p ; # True
 
