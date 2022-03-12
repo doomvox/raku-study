@@ -24,3 +24,7 @@ say so 'a' ~~ $p ; # True
 $p = rx/<-[a]>/;
 say so '.' ~~ $p;  # True
 say so 'a' ~~ $p ; # False
+
+$p = rx/<-[.]>/;
+say so '.' ~~ $p;  # True
+say so 'a' ~~ $p ; # False
