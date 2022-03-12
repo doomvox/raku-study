@@ -21,6 +21,6 @@ say so '.' ~~ $p;  # False
 say so 'a' ~~ $p ; # True
 
 
-$p = rx/^<[-a]>$/;
+$p = rx/^<-[a]>$/;
 say so '.' ~~ $p;  # False
 say so 'a' ~~ $p ; # True
