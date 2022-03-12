@@ -26,5 +26,5 @@ say so '.' ~~ $p;  # True
 say so 'a' ~~ $p ; # False
 
 $p = rx/<-[.]>/;
-say so '.' ~~ $p;  # True
-say so 'a' ~~ $p ; # False
+say so '.' ~~ $p;  # False
+say so 'a' ~~ $p ; # True
