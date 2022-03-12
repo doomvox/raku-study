@@ -11,3 +11,6 @@ my $str2 = 'a';
 my $pat1 = rx/  <[-\.]>  /;
 say so $str1 ~~ $pat1;
 say so $str2 ~~ $pat1;
+
+say so rx/\./ ~~ '.';
+say so rx/\./ ~~ 'a';
