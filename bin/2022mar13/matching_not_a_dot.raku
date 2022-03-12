@@ -19,3 +19,8 @@ say so 'a' ~~ $p ; # False
 $p = rx/a/;
 say so '.' ~~ $p;  # False
 say so 'a' ~~ $p ; # True
+
+
+$p = rx/<[-a]>/;
+say so '.' ~~ $p;  # False
+say so 'a' ~~ $p ; # True
