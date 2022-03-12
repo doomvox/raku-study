@@ -28,3 +28,7 @@ say so 'a' ~~ $p ; # False
 $p = rx/<-[.]>/;
 say so '.' ~~ $p;  # False
 say so 'a' ~~ $p ; # True
+
+$p = rx/<-[\.]>/;
+say so '.' ~~ $p;  # False
+say so 'a' ~~ $p ; # True
