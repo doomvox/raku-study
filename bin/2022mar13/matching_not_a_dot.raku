@@ -33,5 +33,5 @@ $p = rx/<-[\.]>/;
 say so '.' ~~ $p;  # False
 say so 'a' ~~ $p ; # True
 
-say so '\\' ~~ $p;  #
-say '\\'.elems;
+say so '\\' ~~ $p;  # True
+say '\\'.elems;     # 1
