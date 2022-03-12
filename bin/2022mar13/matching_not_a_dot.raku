@@ -13,5 +13,5 @@ say so $str1 ~~ $pat1;
 say so $str2 ~~ $pat1;
 
 my $p = rx/\./;
-say so '.' ~~ $p;
-say so 'a' ~~ $p ;
+say so '.' ~~ $p;  # True
+say so 'a' ~~ $p ; # False
