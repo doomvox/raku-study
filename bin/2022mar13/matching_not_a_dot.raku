@@ -9,8 +9,8 @@ use v6;
     my $str2 = 'a';
 
     my $pat1 = rx/  <[-\.]>  /;
-    say so $str1 ~~ $pat1;
-    say so $str2 ~~ $pat1;
+    say so $str1 ~~ $pat1;  # True
+    say so $str2 ~~ $pat1;  # False
 
     my $p = rx/\./;
     say so '.' ~~ $p;  # True
