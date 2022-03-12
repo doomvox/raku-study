@@ -32,4 +32,5 @@ say so 'a' ~~ $p ; # True
 $p = rx/<-[\.]>/; 
 say so '.' ~~ $p;  # False
 say so 'a' ~~ $p ; # True
-say so '\' ~~ $p;  # False
+
+say so '\' ~~ $p;  #
