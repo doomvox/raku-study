@@ -35,3 +35,4 @@ say so 'a' ~~ $p ; # True
 
 say so '\\' ~~ $p;  # True
 say '\\'.elems;     # 1
+
