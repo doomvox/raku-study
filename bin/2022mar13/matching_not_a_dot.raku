@@ -5,6 +5,16 @@
 use v6;
 
 {
+   
+    # This pattern works, matches anything but a dot
+    my $not_a_dot = rx/  < -[\.] >  /;
+
+    # I kept thinking this would work for that:
+    my $dash_and_dot = rx/  < [-\.] >  /;
+
+}
+
+
     my $str1 = '.';
     my $str2 = 'a';
 
