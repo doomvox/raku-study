@@ -4,6 +4,5 @@
 
 use v6;
 
-# ===
-# Author:  doom@kzsu.stanford.edu
-
+my $str1 = '.';
+my $str2 = 'a';
