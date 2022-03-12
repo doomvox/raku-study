@@ -4,36 +4,37 @@
 
 use v6;
 
-my $str1 = '.';
-my $str2 = 'a';
+{
+    my $str1 = '.';
+    my $str2 = 'a';
+
+    my $pat1 = rx/  <[-\.]>  /;
+    say so $str1 ~~ $pat1;
+    say so $str2 ~~ $pat1;
+
+    my $p = rx/\./;
+    say so '.' ~~ $p;  # True
+    say so 'a' ~~ $p ; # False
+
+    $p = rx/a/;
+    say so '.' ~~ $p;  # False
+    say so 'a' ~~ $p ; # True
 
 
-my $pat1 = rx/  <[-\.]>  /;
-say so $str1 ~~ $pat1;
-say so $str2 ~~ $pat1;
+    $p = rx/<-[a]>/;
+    say so '.' ~~ $p;  # True
+    say so 'a' ~~ $p ; # False
 
-my $p = rx/\./;
-say so '.' ~~ $p;  # True
-say so 'a' ~~ $p ; # False
+    $p = rx/<-[.]>/;  # matches anything not-a-dot
+    say so '.' ~~ $p;  # False
+    say so 'a' ~~ $p ; # True
 
-$p = rx/a/;
-say so '.' ~~ $p;  # False
-say so 'a' ~~ $p ; # True
+    $p = rx/<-[\.]>/; # also matches anything not-a-dot
+    say so '.' ~~ $p;  # False
+    say so 'a' ~~ $p ; # True
 
+    ## double-checking it's not also not-a-backwhack
+    say so '\\' ~~ $p;  # True
+    say '\\'.elems;     # 1
 
-$p = rx/<-[a]>/;
-say so '.' ~~ $p;  # True
-say so 'a' ~~ $p ; # False
-
-$p = rx/<-[.]>/;  # matches anything not-a-dot
-say so '.' ~~ $p;  # False
-say so 'a' ~~ $p ; # True
-
-$p = rx/<-[\.]>/; # also matches anything not-a-dot
-say so '.' ~~ $p;  # False
-say so 'a' ~~ $p ; # True
-
-## double-checking it's not also not-a-backwhack
-say so '\\' ~~ $p;  # True
-say '\\'.elems;     # 1
-
+}
