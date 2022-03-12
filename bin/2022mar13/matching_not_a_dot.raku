@@ -8,6 +8,6 @@ my $str1 = '.';
 my $str2 = 'a';
 
 
-my $pat1 = rx/  <[-a]>  /;
+my $pat1 = rx/  <[-.]>  /;
 say so $str1 ~~ $pat1;
 say so $str2 ~~ $pat1;
