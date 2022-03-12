@@ -15,3 +15,7 @@ say so $str2 ~~ $pat1;
 my $p = rx/\./;
 say so '.' ~~ $p;  # True
 say so 'a' ~~ $p ; # False
+
+$p = rx/a/;
+say so '.' ~~ $p;  # True
+say so 'a' ~~ $p ; # False
