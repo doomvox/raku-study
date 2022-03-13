@@ -49,7 +49,12 @@ use v6;
 
 }
 
+my $full = "/home/doom/tmp/stuff.fur.txt";
 {
-    my $full = "/home/doom/tmp/stuff.fur.txt";
+    my $sans_ext = $base.subst(/\. .*? $ /,''); 
 
     }
+
+{
+    my $sans_ext = $base.subst(/\. <[-.]>*? $ /,'');  
+}
