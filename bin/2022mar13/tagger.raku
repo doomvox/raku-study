@@ -28,7 +28,6 @@ sub MAIN( $lst_file, $tag ) {
        # remove the original  ## TODO safer to move to a Bak dir
        unlink( $line ); ## probably right
        $line.IO.unlink();  ## probable alternate
-
        say "$new_file";
     }
 }
