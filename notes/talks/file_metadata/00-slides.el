@@ -26,6 +26,7 @@
 (setq slip-and-slide-alist 
   '(
     ( a . "/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2022jan02.org" )
+
 ;;     ( b . "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jan02" )
 ;;     ( c . "/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2021nov21.org" )
 ;;     ( d . "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021nov21" )
