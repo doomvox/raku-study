@@ -16,7 +16,7 @@
 
 ** bruce gray
 *** perl/raku conference in houston extends deadline to May-- need raku talks
-*** 
+*** weekly challenge (1) find missing permutation; (2) palindor primes
 
 ** rob ransbottom
 *** github.com/0rir/touch/blob/master/lib/Touch.rakumod
