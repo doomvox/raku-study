@@ -10,7 +10,7 @@ Needed a simple script for something, reached for raku this time:
 
 
    |-------------path-----------------------------------------|
-                or location or directory 
+                or location or directory    dirname
 
    /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13/tagger.raku
 
@@ -38,3 +38,10 @@ Needed a simple script for something, reached for raku this time:
 
 
 #   blah.tgz   blah.tar.gz 
+
+
+
+my $dir   = '/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13';
+my $file  = 'tagger.raku';
+
+my $full  = "$dir/$file";
