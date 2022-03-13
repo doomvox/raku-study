@@ -10,8 +10,9 @@
 *** https://github.com/doomvox/raku-study/blob/main/talks/file_metadata
 
 ** dpchrist:
-*** A possible agenda item  
-*** https://www.nntp.perl.org/group/perl.module-authors/2022/03/msg11231.html
+*** circular dependencies with Exporter-based perl modules
+**** https://www.nntp.perl.org/group/perl.module-authors/2022/03/msg11231.html
+**** An improvement:  require MyCode; MyCode->import;
 
 ** bruce gray
 
