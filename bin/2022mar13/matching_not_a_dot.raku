@@ -55,8 +55,8 @@ my $base = $full.IO.basename;
 my $ext = $full.IO.extension;
 say "ext: $ext";
 {
-    my $result = $base.subst(/\. .*? $ /,''); 
-    say $result;  #  stuff
+    my $result = $base.subst(/\. .*? $ /,'');  ## fooled by a second dot in base
+    say $result;  #  stuff    should be: "stuff.fur"
 
     }
 
