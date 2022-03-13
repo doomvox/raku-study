@@ -18,8 +18,7 @@ sub MAIN( $lst_file, $tag ) {
        ## skip blank lines and comments
        next if $file ~~ m/^\#/;
        next if $file ~~ m/^\s*?$/;
-       my $file = $line
-       my $file_io = $file.IO;
+       my $file_io = $line.IO;
        next if not $file_io ~~ :f;
        my ($loc, $base, $ext) = ( $file_io.dirname, $file_io.basename, $file_io.extension );
        # strip the file extension
