@@ -20,6 +20,10 @@ sub MAIN( $lst_file, $tag ) {
         next if not $file_io ~~ :f;
         my ($loc, $base, $ext) = ( $file_io.dirname, $file_io.basename, $file_io.extension );
         my $shortbase = $base.subst(/\. .*? $ /,''); # strip the extension
+
+        # strip the file extension
+        my $shortbase = $base.subst(/\. <-[.]>*? $ /,'');  
+
         my $new_file = "$loc/$shortbase-$tag.$ext";
         $file_io.rename( $new_file );
         say "$new_file";
