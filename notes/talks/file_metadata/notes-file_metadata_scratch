@@ -20,10 +20,10 @@ Needed a simple script for something, reached for raku this time:
                                                                    filename
                                                                    basename
 
-               another definition of path
+
    |-----------------filename--------------------------------------------|
             prefer: full filename or full name   $full
- 
+                   some call *this* path
 
                                                                |-----|----|
                                                              basename  extension
