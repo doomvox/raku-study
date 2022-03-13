@@ -10,8 +10,6 @@
 
 ;;; Commentary:
 
-;; 
-
 ;;   (require 'slip_and_slide)
 ;;   (slip-and-slide-initialize)
 ;;   (slip-and-slide-define-standard-keymapping "\M-o")
