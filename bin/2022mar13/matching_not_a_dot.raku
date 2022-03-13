@@ -63,3 +63,5 @@ say "ext: $ext";
     my $result = $base.subst(/\. <-[.]>*? $ /,'');  
     say $result; # stuff.fur
 }
+
+## Next: is there another raku way?  Adjust greediness, match from end, etc?
