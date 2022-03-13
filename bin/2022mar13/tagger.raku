@@ -23,6 +23,10 @@ sub MAIN( $lst_file, $tag ) {
        my ($loc, $base, $ext) = ( $file_io.dirname, $file_io.basename, $file_io.extension );
        # strip the file extension
        my $shortbase = $base.subst(/\. <-[.]>*? $ /,'');  
+
+       # Should also work:
+       # my $shortbase = $base.chop( $ext.elems + 1 );
+
        my $new_file = "$loc/$shortbase-$tag.$ext";
        $file_io.rename( $new_file );
        # remove the original  ## TODO safer to move to a Bak dir
