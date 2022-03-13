@@ -26,7 +26,9 @@ sub MAIN( $lst_file, $tag ) {
        my $new_file = "$loc/$shortbase-$tag.$ext";
        $file_io.rename( $new_file );
        # remove the original  ## TODO safer to move to a Bak dir
-       $file_io.unlink( $line );
+       unlink( $line ); ## probably right
+       $line.IO.unlink();  ## probable alternate
+
        say "$new_file";
     }
 }
