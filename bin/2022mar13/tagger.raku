@@ -25,7 +25,7 @@ sub MAIN( $lst_file, $tag ) {
        my $shortbase = $base.subst(/\. <-[.]>*? $ /,'');  
        my $new_file = "$loc/$shortbase-$tag.$ext";
        $file_io.rename( $new_file );
-       # remove the original 
+       # remove the original  ## TODO safer to move to a Bak dir
        $file_io.unlink( $line );
        say "$new_file";
     }
