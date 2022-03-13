@@ -19,8 +19,7 @@ sub MAIN( $lst_file, $tag ) {
         my $file_io = $file.IO;
         next if not $file_io ~~ :f;
         my ($loc, $base, $ext) = ( $file_io.dirname, $file_io.basename, $file_io.extension );
-        my $shortbase = $base.subst(/\. .*? $ /,''); # strip the extension
-
+        # my $shortbase = $base.subst(/\. .*? $ /,''); # strip the extension
         # strip the file extension
         my $shortbase = $base.subst(/\. <-[.]>*? $ /,'');  
 
