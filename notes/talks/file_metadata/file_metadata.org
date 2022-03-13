@@ -1,0 +1,16 @@
+* File Metadata
+** a rant in progress
+** problems with the standard file system model
+*** 
+
+
+
+*** raku .parts and friends disappointing
+*** perl cpan module File::Basename
+
+           If @suffixes are given each element is a pattern (either a string
+           or a "qr//") matched against the end of the $filename.  The
+           matching portion is removed and becomes the $suffix.
+
+                # On Unix returns ("baz", "/foo/bar/", ".txt")
+                fileparse("/foo/bar/baz.txt", qr/\.[^.]*/);
