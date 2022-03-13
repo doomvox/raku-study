@@ -1,37 +1,43 @@
-- [File Metadata](#org83ff6a8)
-  - [a rant in progress](#org788f982)
-  - [problems with the standard file system model](#org50209da)
-    - [](#orgdcd8696)
-    - [raku .parts and friends disappointing](#org2d62b0f)
-    - [perl cpan module <:Basename>](#org143d3b7)
+- [File Metadata](#org44d656e)
+  - [a rant in progress](#org5c56164)
+  - [problems with the standard file system model](#org6603f88)
+    - [](#orgbe70d48)
+  - [naming components](#org0d0c198)
+    - [raku .parts and friends disappointing](#org530755d)
+    - [perl cpan module <:Basename>](#orgd38200f)
 
 
-<a id="org83ff6a8"></a>
+<a id="org44d656e"></a>
 
 # File Metadata
 
 
-<a id="org788f982"></a>
+<a id="org5c56164"></a>
 
 ## a rant in progress
 
 
-<a id="org50209da"></a>
+<a id="org6603f88"></a>
 
 ## problems with the standard file system model
 
 
-<a id="orgdcd8696"></a>
+<a id="orgbe70d48"></a>
 
 ### 
 
 
-<a id="org2d62b0f"></a>
+<a id="org0d0c198"></a>
+
+## naming components
+
+
+<a id="org530755d"></a>
 
 ### raku .parts and friends disappointing
 
 
-<a id="org143d3b7"></a>
+<a id="orgd38200f"></a>
 
 ### perl cpan module <:Basename>
 
