@@ -12,14 +12,11 @@
 
 ;; 
 
-;; Put this file into your load-path and the following into your ~/.emacs:
-
 ;;   (require 'slip_and_slide)
 ;;   (slip-and-slide-initialize)
 ;;   (slip-and-slide-define-standard-keymapping "\M-o")
 
-;;   (require '00-slides)
-
+;;   (load-file "/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/file_metadata/00-slides.el")
 
 
 ;;; Code:
