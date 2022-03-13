@@ -52,9 +52,11 @@ use v6;
 say "---";
 my $full = "/home/doom/tmp/stuff.fur.txt";
 my $base = $full.IO.basename;
+my $ext = $full.IO.extension;
+say "ext: $ext";
 {
     my $result = $base.subst(/\. .*? $ /,''); 
-    say $result;
+    say $result;  #  stuff
 
     }
 
