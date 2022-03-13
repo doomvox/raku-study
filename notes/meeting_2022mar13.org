@@ -5,11 +5,13 @@
 *** https://github.com/doomvox/raku-study/blob/main/notes/meetingmar13.md 
 *** https://github.com/doomvox/raku-study/tree/main/bin/2022mar13
 
-
 ** raku script to append filename suffixes
 *** https://github.com/doomvox/raku-study/tree/main/bin/2022mar13/tagger.taku
 *** https://github.com/doomvox/raku-study/blob/main/talks/file_metadata
 
+** bruce gray
+
+** rob ransbottom
 
 ** announcements 
 *** March 27th: next raku study group meeting 
