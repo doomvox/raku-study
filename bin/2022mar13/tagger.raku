@@ -14,10 +14,11 @@ use v6;
 
 sub MAIN( $lst_file, $tag ) {
 #    say "lst_file: $lst_file";
-   for $lst_file.IO.lines -> $file {
+   for $lst_file.IO.lines -> $line {
+       ## skip blank lines and comments
        next if $file ~~ m/^\#/;
        next if $file ~~ m/^\s*?$/;
-        ## TODO next if blank or begins with a #
+       my $file = $line
         my $file_io = $file.IO;
         next if not $file_io ~~ :f;
         my ($loc, $base, $ext) = ( $file_io.dirname, $file_io.basename, $file_io.extension );
