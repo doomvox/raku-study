@@ -1,66 +1,66 @@
-- [meeting notes March 13, 2022](#org9676d37)
-  - [the raku study group](#org9017673)
-  - [usual links to the meeting material](#org02d3d01)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meetingmar13.md>](#org61bf306)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022mar13>](#org135c246)
-  - [raku script to append filename suffixes](#org3a2cc37)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022mar13/tagger.taku>](#orgfcb7984)
-    - [<https://github.com/doomvox/raku-study/blob/main/talks/file_metadata>](#orga3c1ead)
-  - [announcements](#org281b38b)
-    - [March 27th: next raku study group meeting](#org2903829)
-    - [June 21-25: tprc: perl/raku conference](#orgc8b48d4)
+- [meeting notes March 13, 2022](#orgd44d677)
+  - [the raku study group](#orgfea0574)
+  - [usual links to the meeting material](#org6fce478)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meetingmar13.md>](#org11bb291)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022mar13>](#org24f8be2)
+  - [raku script to append filename suffixes](#org286b90e)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022mar13/tagger.taku>](#org70dc829)
+    - [<https://github.com/doomvox/raku-study/blob/main/talks/file_metadata>](#orgf375da5)
+  - [announcements](#org7073d43)
+    - [March 27th: next raku study group meeting](#org5b5a374)
+    - [June 21-25: tprc: perl/raku conference](#org6795f40)
 
 
-<a id="org9676d37"></a>
+<a id="orgd44d677"></a>
 
 # meeting notes March 13, 2022
 
 
-<a id="org9017673"></a>
+<a id="orgfea0574"></a>
 
 ## the raku study group
 
 
-<a id="org02d3d01"></a>
+<a id="org6fce478"></a>
 
 ## usual links to the meeting material
 
 
-<a id="org61bf306"></a>
+<a id="org11bb291"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meetingmar13.md>
 
 
-<a id="org135c246"></a>
+<a id="org24f8be2"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2022mar13>
 
 
-<a id="org3a2cc37"></a>
+<a id="org286b90e"></a>
 
 ## raku script to append filename suffixes
 
 
-<a id="orgfcb7984"></a>
+<a id="org70dc829"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2022mar13/tagger.taku>
 
 
-<a id="orga3c1ead"></a>
+<a id="orgf375da5"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/talks/file_metadata>
 
 
-<a id="org281b38b"></a>
+<a id="org7073d43"></a>
 
 ## announcements
 
 
-<a id="org2903829"></a>
+<a id="org5b5a374"></a>
 
 ### March 27th: next raku study group meeting
 
 
-<a id="orgc8b48d4"></a>
+<a id="org6795f40"></a>
 
 ### June 21-25: tprc: perl/raku conference
