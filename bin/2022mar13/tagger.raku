@@ -19,14 +19,14 @@ sub MAIN( $lst_file, $tag ) {
        next if $file ~~ m/^\#/;
        next if $file ~~ m/^\s*?$/;
        my $file = $line
-        my $file_io = $file.IO;
-        next if not $file_io ~~ :f;
-        my ($loc, $base, $ext) = ( $file_io.dirname, $file_io.basename, $file_io.extension );
-        # strip the file extension
-        my $shortbase = $base.subst(/\. <-[.]>*? $ /,'');  
-        my $new_file = "$loc/$shortbase-$tag.$ext";
-        $file_io.rename( $new_file );
-        say "$new_file";
+       my $file_io = $file.IO;
+       next if not $file_io ~~ :f;
+       my ($loc, $base, $ext) = ( $file_io.dirname, $file_io.basename, $file_io.extension );
+       # strip the file extension
+       my $shortbase = $base.subst(/\. <-[.]>*? $ /,'');  
+       my $new_file = "$loc/$shortbase-$tag.$ext";
+       $file_io.rename( $new_file );
+       say "$new_file";
     }
 }
 
