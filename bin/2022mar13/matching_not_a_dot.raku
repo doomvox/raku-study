@@ -61,5 +61,5 @@ say "ext: $ext";
 
 {
     my $result = $base.subst(/\. <-[.]>*? $ /,'');  
-    say $result;
+    say $result; # stuff.fur
 }
