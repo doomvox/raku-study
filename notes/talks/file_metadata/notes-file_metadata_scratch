@@ -24,7 +24,7 @@ Needed a simple script for something, reached for raku this time:
    |-----------------filename--------------------------------------------|
             prefer: full filename or full name   $full
                    some call *this* path
-                                                               |-----|----|
+                                                              |-----|----|
                                                              basename  extension
                                                              $base     $ext
 
