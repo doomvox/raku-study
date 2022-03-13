@@ -59,5 +59,6 @@ my $base = $full.IO.basename;
     }
 
 {
-    my $result_ext = $base.subst(/\. <[-.]>*? $ /,'');  
+    my $result = $base.subst(/\. <[-.]>*? $ /,'');  
+    say $result;
 }
