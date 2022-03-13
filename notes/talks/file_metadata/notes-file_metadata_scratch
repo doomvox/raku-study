@@ -43,5 +43,4 @@ Needed a simple script for something, reached for raku this time:
 
 my $dir   = '/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13';
 my $file  = 'tagger.raku';
-
 my $full  = "$dir/$file";
