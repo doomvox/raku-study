@@ -31,3 +31,4 @@ say "sans_ext: $sans_ext";
 
 
 say 'one.two.three.txt'.subst(/\. <-[.]>*? $ /,'');  
+# one.two.three
