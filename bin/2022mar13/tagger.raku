@@ -26,6 +26,7 @@ sub MAIN( $lst_file, $tag ) {
        my $new_file = "$loc/$shortbase-$tag.$ext";
        $file_io.rename( $new_file );
        ## TODO remove the original 
+       $file_io.unlink( $line );
        say "$new_file";
     }
 }
