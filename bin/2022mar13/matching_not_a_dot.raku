@@ -49,6 +49,7 @@ use v6;
 
 }
 
+say "---";
 my $full = "/home/doom/tmp/stuff.fur.txt";
 my $base = $full.IO.basename;
 {
