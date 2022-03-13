@@ -57,7 +57,7 @@ say "ext: $ext";
 {
     my $result = $base.subst(/\. .*? $ /,'');  ## fooled by a second dot in base
     say $result;  #  stuff    should be: "stuff.fur"
-    }
+}
 
 {
     my $result = $base.subst(/\. <-[.]>*? $ /,'');  
