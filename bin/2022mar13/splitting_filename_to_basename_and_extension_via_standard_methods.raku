@@ -29,7 +29,5 @@ my $sans_ext = $base.subst(/\. <-[.]>*? $ /,'');
 say "sans_ext: $sans_ext";
 # sans_ext: something_or_other
 
-## This doesn't work
-# 
-## So, question:
-##   how do you match not-a-dot?
+
+say 'one.two.three.txt'.subst(/\. <-[.]>*? $ /,'');  
