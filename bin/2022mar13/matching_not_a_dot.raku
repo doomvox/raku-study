@@ -50,11 +50,13 @@ use v6;
 }
 
 my $full = "/home/doom/tmp/stuff.fur.txt";
+my $base = $full.IO.basename;
 {
-    my $sans_ext = $base.subst(/\. .*? $ /,''); 
+    my $result = $base.subst(/\. .*? $ /,''); 
+    say $result;
 
     }
 
 {
-    my $sans_ext = $base.subst(/\. <[-.]>*? $ /,'');  
+    my $result_ext = $base.subst(/\. <[-.]>*? $ /,'');  
 }
