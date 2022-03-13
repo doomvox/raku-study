@@ -14,7 +14,6 @@ use v6;
 
 sub MAIN( $lst_file, $tag ) {
 #    say "lst_file: $lst_file";
-   for $lst_file.IO.lines -> $line {
        ## skip blank lines and comments
        next if $line ~~ m/^\#/;
        next if $line ~~ m/^\s*?$/;
