@@ -13,7 +13,7 @@
 use v6;
 
 sub MAIN( $lst_file, $tag ) {
-    
+    for $lst_file.IO.lines -> $line { 
        ## skip blank lines and comments (and emacs backups)
        next if $line ~~ m/^\#/;
        next if $line ~~ m/^\s*?$/;
