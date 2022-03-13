@@ -65,3 +65,4 @@ say "ext: $ext";
 }
 
 ## Next: is there another raku way?  Adjust greediness, match from end, etc?
+## Could use length of $ext to do a substr operation (or equiv)
