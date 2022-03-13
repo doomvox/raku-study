@@ -18,6 +18,7 @@ sub MAIN( $lst_file, $tag ) {
        ## skip blank lines and comments
        next if $line ~~ m/^\#/;
        next if $line ~~ m/^\s*?$/;
+       next if $line ~~ m/~$/;
        my $file_io = $line.IO;
        next if not $file_io ~~ :f;
        my ($loc, $base, $ext) = ( $file_io.dirname, $file_io.basename, $file_io.extension );
