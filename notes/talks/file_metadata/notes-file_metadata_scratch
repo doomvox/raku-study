@@ -8,3 +8,16 @@ Needed a simple script for something, reached for raku this time:
   /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13/tagger.raku
 
 
+
+   |-------------path-----------------------------------------|
+                or location or directory 
+
+   /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13/tagger.raku
+
+                                                               |---------|
+
+                                                                   name 
+                                                                   filename
+
+   |-----------------filename--------------------------------------------|
+            prefer: full filename or full name   $full
