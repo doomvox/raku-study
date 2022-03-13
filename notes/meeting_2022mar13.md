@@ -1,66 +1,69 @@
-- [meeting notes March 13, 2022](#orga13f257)
-  - [the raku study group](#orga8ad86e)
-  - [usual links to the meeting material](#org7c5f63c)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meetingmar13.md>](#orgf946162)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022mar13>](#orge21f7e5)
-  - [raku script to append filename suffixes](#orgef0da6e)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022mar13/tagger.taku>](#org29de5d4)
-    - [<https://github.com/doomvox/raku-study/blob/main/talks/file_metadata>](#org2b3b05b)
-  - [dpchrist:](#orgbaef1b9)
-    - [circular dependencies with Exporter-based perl modules](#orgab02c40)
-  - [bruce gray](#org0064050)
-  - [rob ransbottom](#org705e2c9)
-  - [announcements](#org0867e8e)
-    - [March 27th: next raku study group meeting](#orgd9ff76b)
-    - [June 21-25: tprc: perl/raku conference](#org6ba7d75)
+- [meeting notes March 13, 2022](#org2def5fe)
+  - [the raku study group](#org339a0b3)
+  - [usual links to the meeting material](#orgf4b9efc)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meetingmar13.md>](#org39333aa)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022mar13>](#org4d51724)
+  - [raku script to append filename suffixes](#org0b1d035)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022mar13/tagger.taku>](#orgf62efe5)
+    - [<https://github.com/doomvox/raku-study/blob/main/talks/file_metadata>](#orgd45be58)
+  - [dpchrist:](#orgc29d730)
+    - [circular dependencies with Exporter-based perl modules](#org49dfca9)
+  - [bruce gray](#orgfb664a4)
+    - [perl/raku conference in houston extends deadline to May&#x2013; need raku talks](#org67ef04a)
+  - [rob ransbottom](#org230daa1)
+    - [github.com/Orir/touch/blob/master/lib/Touch.rakumod](#orge89526c)
+    - [Orir or 0rir?](#orgefd99c0)
+  - [announcements](#orgcab9e6a)
+    - [March 27th: next raku study group meeting](#org589d4ed)
+    - [June 21-25: tprc: perl/raku conference](#org65736b3)
 
 
-<a id="orga13f257"></a>
+<a id="org2def5fe"></a>
 
 # meeting notes March 13, 2022
 
 
-<a id="orga8ad86e"></a>
+<a id="org339a0b3"></a>
 
 ## the raku study group
 
 
-<a id="org7c5f63c"></a>
+<a id="orgf4b9efc"></a>
 
 ## usual links to the meeting material
 
 
-<a id="orgf946162"></a>
+<a id="org39333aa"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meetingmar13.md>
 
 
-<a id="orge21f7e5"></a>
+<a id="org4d51724"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2022mar13>
 
 
-<a id="orgef0da6e"></a>
+<a id="org0b1d035"></a>
 
 ## raku script to append filename suffixes
 
 
-<a id="org29de5d4"></a>
+<a id="orgf62efe5"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2022mar13/tagger.taku>
 
 
-<a id="org2b3b05b"></a>
+<a id="orgd45be58"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/talks/file_metadata>
 
 
-<a id="orgbaef1b9"></a>
+<a id="orgc29d730"></a>
 
 ## dpchrist:
 
 
-<a id="orgab02c40"></a>
+<a id="org49dfca9"></a>
 
 ### circular dependencies with Exporter-based perl modules
 
@@ -69,26 +72,41 @@
 2.  An improvement:  require MyCode; MyCode->import;
 
 
-<a id="org0064050"></a>
+<a id="orgfb664a4"></a>
 
 ## bruce gray
 
 
-<a id="org705e2c9"></a>
+<a id="org67ef04a"></a>
+
+### perl/raku conference in houston extends deadline to May&#x2013; need raku talks
+
+
+<a id="org230daa1"></a>
 
 ## rob ransbottom
 
 
-<a id="org0867e8e"></a>
+<a id="orge89526c"></a>
+
+### github.com/Orir/touch/blob/master/lib/Touch.rakumod
+
+
+<a id="orgefd99c0"></a>
+
+### Orir or 0rir?
+
+
+<a id="orgcab9e6a"></a>
 
 ## announcements
 
 
-<a id="orgd9ff76b"></a>
+<a id="org589d4ed"></a>
 
 ### March 27th: next raku study group meeting
 
 
-<a id="org6ba7d75"></a>
+<a id="org65736b3"></a>
 
 ### June 21-25: tprc: perl/raku conference

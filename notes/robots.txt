@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Speaker Deck - Share Presentations without the Mess</title>
+    <link rel="stylesheet" media="screen" href="https://d1eu30co0ohy4w.cloudfront.net/assets/application-41164afd3ea75ac9f1783e23a44cffd820f9b4c6afd65978bad9c3836f6a4fc3.css" />
+<script src="https://d1eu30co0ohy4w.cloudfront.net/assets/application-31c60953c0456e04b4b0.js"></script>
+
+<link rel="icon" type="image/png" href="https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-c0fe5475f88a65b817c8cc7c0fedc01b7acc17fe27628fa13ca3f96e56e16977.png" />
+<link rel="apple-touch-icon" type="image/png" href="https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-c0fe5475f88a65b817c8cc7c0fedc01b7acc17fe27628fa13ca3f96e56e16977.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="3VVvWnj1YJGe62qJOKW/yZg7bxq8aM9q40v3wq/DTdT762D/tz4RvPyqSiv9oBQkPo8mS/Uqkj+grwzZ2hjI5Q==" />
+
+
+    
+    
+  </head>
+  <body class="sd-app">
+    
+    <div class="sd-menu">
+  <div class="container sd-menu-fixed-container">
+    <div class="sd-brand">
+      <a class="sd-brand-logo" href="https://speakerdeck.com/">
+        <img alt="Speaker Deck" src="https://d1eu30co0ohy4w.cloudfront.net/assets/mark-f4be6df1e05965cac9f98e664a6c35f5ffdd0207385d07464a9214d6cdf76082.svg" /> <span class="d-none d-md-inline">Speaker Deck</span>
+</a>    </div>
+
+      <nav class="sd-fixed-nav">
+        <div class="sd-nav-main js-toggle-container">
+          <ul class="sd-nav-fixed-group nav toggle-flex-when-off">
+            <li class="sd-nav-item d-md-block d-none">
+              <form action="https://www.google.com/cse" id="cse-search-box" class="form-inline ml-5 ml-md-3">
+                <input type="hidden" name="cx" value="010150859881542981030:hqhxyxpwtc4">
+                <input type="hidden" name="ie" value="UTF-8">
+                <input type="text" name="q" id="q" value="" placeholder="Search..." class="form-control search-input mr-2">
+                <input type="submit" name="sa" value="Search" class="btn btn-outline-primary d-inline-block d-md-none d-lg-inline-block">
+              </form>
+            </li>
+            <li class="sd-nav-item nav-item">
+                <a class="sd-nav-link nav-link" href="https://speakerdeck.com/pro">
+                  <span class="d-none d-md-inline">Speaker Deck</span>
+                  <div class="badge badge-pro-prominent">PRO</div>
+</a>            </li>
+            <li class="sd-nav-item nav-item">
+              <a class="sd-nav-link nav-link" href="https://speakerdeck.com/signin">
+                Sign in
+</a>            </li>
+            <li class="sd-nav-item nav-item">
+              <a class="btn btn-primary" href="https://speakerdeck.com/signup">
+                Sign up <span class="d-none d-md-inline">for free</span>
+</a>            </li>
+            <li class="sd-nav-item d-block d-md-none">
+              <button class="btn btn-link mr-2 js-toggle-trigger" aria-label="Toggle Search">
+                <svg class="icon icon-search "><use xlink:href="/icons/icons.svg#icon-search"></use></svg>
+              </button>
+            </li>
+          </ul>
+          <ul class="sd-nav-fixed-group nav toggle-flex-when-on">
+            <li class="sd-nav-item">
+              <form action="https://www.google.com/cse" id="cse-search-box-main" class="form-inline ml-5 ml-md-3">
+                <input type="hidden" name="cx" value="010150859881542981030:hqhxyxpwtc4">
+                <input type="hidden" name="ie" value="UTF-8">
+                <div class="row">
+                  <div class="col col-auto pr-0">
+                    <input type="text" name="q" id="q-main" value="" placeholder="Search..." class="form-control search-input mr-2">
+                  </div>
+                  <div class="col col-auto">
+                    <input type="submit" name="sa" value="Search" class="btn btn-outline-primary d-inline-block d-md-none d-lg-inline-block">
+                  </div>
+                </div>
+              </form>
+            </li>
+            <li class="sd-nav-item pr-2">
+              <button class="btn btn-link js-toggle-trigger">
+                <svg class="icon icon-x "><use xlink:href="/icons/icons.svg#icon-x"></use></svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </div>
+</div>
+
+    
+    
+    <div class="sd-main">
+      User-agent: *
+Disallow: /*signin?*
+Disallow: /*kolkata*
+Disallow: /*call-0821*
+Disallow: /*return_to=*
+Disallow: /*share.php?*
+Disallow: /*.atom*
+Allow: /p/all.atom?page=10
+Allow: /p/all.atom?page=9
+Allow: /p/all.atom?page=8
+Allow: /p/all.atom?page=7
+Allow: /p/all.atom?page=6
+Allow: /p/all.atom?page=5
+Allow: /p/all.atom?page=4
+Allow: /p/all.atom?page=3
+Allow: /p/all.atom?page=2
+Allow: /p/all.atom?page=1
+Allow: /p/all.atom
+Allow: /c/how-to-diy.atom
+Allow: /c/technology.atom
+Allow: /c/science.atom
+Allow: /c/research.atom
+Allow: /c/programming.atom
+Allow: /c/design.atom
+Allow: /c/business.atom
+Allow: /p/featured.atom
+Allow: /c/education.atom
+
+    </div>
+
+    <footer class="d-block border-top">
+  <div class="container py-3 py-md-5 text-muted">
+    <div class="row text-center text-md-left">
+      <div class="col-12 col-md-auto mr-auto mb-3 mb-md-0">
+        <div class="copyright-text mb-3 mb-md-0">Copyright &copy; 2021 Speaker Deck, LLC.</div>
+        <div>All slide content and descriptions are owned by their&nbsp;creators.</div>
+      </div>
+      <div class="col-12 col-md-auto">
+        <a href="https://speakerdeck.com/faq">F.A.Q.</a> &nbsp;
+        <a href="https://speakerdeck.com/tos">Terms</a> &nbsp;
+        <a href="https://speakerdeck.com/privacy">Privacy</a> &nbsp;
+        <a href="https://speakerdeck.com/dmca">DMCA</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      <script src="https://d1eu30co0ohy4w.cloudfront.net/assets/stats-772c383bdaab2f02f33d.js"></script>
+  <script data-turbolinks-eval="false">
+    Stats.host = 'speakerdeck.com';
+  </script>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-19290517-1']);
+      _gaq.push(['_setDomainName', '.speakerdeck.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+
+    <script>
+      !function(f,b,e,v,n,t,s) {
+        if(f.fbq) return;
+        n=f.fbq=function() { n.callMethod? n.callMethod.apply(n,arguments) : n.queue.push(arguments) };
+        if(!f._fbq) f._fbq=n; n.push=n; n.loaded=!0; n.version='2.0'; n.queue=[];
+        t=b.createElement(e); t.async=!0; t.src=v;
+        s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+      fbq('init', '2893765844191276');
+      fbq('track', 'PageView');
+
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2893765844191276&ev=PageView&noscript=1" />
+    </noscript>
+
+    <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+<script>
+Array.from(document.querySelectorAll('.facebook-share')).forEach((element) => {
+  element.addEventListener('click', function(e){
+    e.preventDefault()
+    let title = encodeURIComponent(document.title)
+    let url = encodeURIComponent(document.location.href)
+    window.open('https://www.facebook.com/dialog/share?app_id=1428152667543587&display=popup&href=' + url + '&title=' + title, "_blank", "toolbar=no,menubar=no,location=yes,resizable=yes,scrollbars=yes,status=yes,width=600,height=400,modal=yes,alwaysRaised=yes");
+  }, false)
+})
+</script>
+
+  </body>
+</html>

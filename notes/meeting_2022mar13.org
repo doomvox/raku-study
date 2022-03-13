@@ -15,8 +15,11 @@
 **** An improvement:  require MyCode; MyCode->import;
 
 ** bruce gray
+*** perl/raku conference in houston extends deadline to May-- need raku talks
 
 ** rob ransbottom
+*** github.com/Orir/touch/blob/master/lib/Touch.rakumod
+*** Orir or 0rir?
 
 ** announcements 
 *** March 27th: next raku study group meeting 
