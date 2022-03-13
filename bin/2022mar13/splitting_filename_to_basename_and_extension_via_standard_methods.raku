@@ -23,11 +23,13 @@ say "ext: $ext";     # ext: txt
 say  $full.IO.parts;
 # IO::Path::Parts.new("","/home/doom/tmp","something_or_other.txt")
 
-my $sans_ext = $base.subst(/\. .*? $ /,''); # this works okay
+# my $sans_ext = $base.subst(/\. .*? $ /,''); # okay, but can be fooled by multiple dots
+## better
+my $sans_ext = $base.subst(/\. <-[.]>*? $ /,'');  
 say "sans_ext: $sans_ext";
 # sans_ext: something_or_other
 
 ## This doesn't work
-# my $sans_ext = $base.subst(/\. <[-.]>*? $ /,'');  
+# 
 ## So, question:
 ##   how do you match not-a-dot?
