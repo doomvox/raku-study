@@ -23,7 +23,22 @@
 (require 'cl-lib)
 
 
+(setq slip-and-slide-alist 
+  '(
+    ( a . "/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2022jan02.org" )
+;;     ( b . "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jan02" )
+;;     ( c . "/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2021nov21.org" )
+;;     ( d . "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021nov21" )
 
+;;     ( e . "/home/doom/End/Cave/DualMap/Wall/Data-DualMap/lib/Data" )
+;;     ( f . "/home/doom/End/Cave/DualMap/Notes/notes-dualmap" ) 
+;;     ( g . "/home/doom/End/Cave/DataMath" )  
+
+;;     ( h . "/home/doom/End/Cave/Ice/Xtal/Perl6" )
+;;     ( i . "/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/topics.org" )
+;;     ( j . "/home/doom/Dust/Attic/Perl6" )
+;;     ( z . "/home/doom/lib/emacs/slip-and-slide.el" )
+   ))
 
 
 
