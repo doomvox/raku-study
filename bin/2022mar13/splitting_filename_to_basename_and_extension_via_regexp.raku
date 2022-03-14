@@ -43,7 +43,7 @@ my $full = "/home/doom/tmp/something_or_other.txt";
 }
 
 {
-   ## idiom:  positional captures to vars
+    ## idiom:  positional captures to vars
     my $pat = rx/ ^ (.*?) \. (<-[.]>*?) $ /;
     my ($base, $ext) = $full.match( $pat ).list>>.Str;
     say "base: $base  ", "ext: $ext"; # base: /home/doom/tmp/something_or_other  ext: txt
