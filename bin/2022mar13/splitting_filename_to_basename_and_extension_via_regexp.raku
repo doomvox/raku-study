@@ -8,7 +8,8 @@ my $full = "/home/doom/tmp/something_or_other.txt";
 
 {
     # Looking for a one-line syntax that extracts multiple matches from match object
-    my ($base, $ext) = ( $full.match( / ^ (.*?) \/ (<-[.]>*?) $ / ) );  ## tried appending:  .list  >>.Str   
+#    my ($base, $ext) = ( $full.match( / ^ (.*?) \/ (<-[.]>*?) $ / ) );  ## tried appending:  .list  >>.Str   
+    my ($base, $ext) = ( $full.match( / ^ (.*?) \/ (<-[.]>*?) $ / ) ).list>>.Str; 
     say "base: $base  ", "ext: $ext";
 }
 
@@ -17,8 +18,8 @@ my $full = "/home/doom/tmp/something_or_other.txt";
     my ($base, $ext);
     $full.match( / ^ (.*?) \. (<-[.]>*?) $ / );
     say $/;
-# 0 => ｢/home/doom/tmp/something_or_other｣
-# 1 => ｢txt｣
+    # 0 => ｢/home/doom/tmp/something_or_other｣
+    # 1 => ｢txt｣
 
     say $/.list>>.Str;
     # (/home/doom/tmp/something_or_other txt)
