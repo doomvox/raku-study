@@ -7,8 +7,6 @@ use v6;
 my $full = "/home/doom/tmp/something_or_other.txt";
 
 {
-    ## I thought this might work (mangled syntax):
-    # my ($base, $ext) = $full.match( / ^ (.*?) \/ (<[-.]>*?) $ / );
     my ($base, $ext) = $full.match( / ^ (.*?) \/ (<-[.]>*?) $ / );
     say "base: $base  ", "ext: $ext";
 }
