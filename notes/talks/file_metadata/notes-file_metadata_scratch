@@ -8,6 +8,8 @@ Needed a simple script for something, reached for raku this time:
   /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13/tagger.raku
 
 
+The naming of file system path components:
+
 
    |-------------path-----------------------------------------|
                 or location or directory    dirname
