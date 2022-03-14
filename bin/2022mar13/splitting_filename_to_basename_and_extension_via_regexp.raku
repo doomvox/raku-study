@@ -14,7 +14,8 @@ my $full = "/home/doom/tmp/something_or_other.txt";
     my $ret = ( $full.match( / ^ (.*?) \/ (<-[.]>*?) $ / ) ).list>>.Str; 
     say $ret.WHAT;
 
-#    say "base: $base  ", "ext: $ext";
+   my ($base, $ext) = $ret.list;
+   say "base: $base  ", "ext: $ext";
 }
 
 {
