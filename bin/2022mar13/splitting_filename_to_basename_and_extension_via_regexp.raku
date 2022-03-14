@@ -36,3 +36,10 @@ my $full = "/home/doom/tmp/something_or_other.txt";
     say "base: $base  ", "ext: $ext";
     # base: /home/doom/tmp/something_or_other  ext: txt
 }
+{
+
+    my $r = ;
+
+    ($base, $ext) = $full.match( / ^ (.*?) \. (<-[.]>*?) $ / ).list>>.Str;
+
+}
