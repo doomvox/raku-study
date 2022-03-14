@@ -25,4 +25,5 @@ my $full = "/home/doom/tmp/something_or_other.txt";
 
     ($base, $ext) = $/.list>>.Str;
     say "base: $base  ", "ext: $ext";
+    # base: /home/doom/tmp/something_or_other  ext: txt
 }
