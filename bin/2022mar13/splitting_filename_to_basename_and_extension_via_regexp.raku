@@ -37,6 +37,7 @@ my $full = "/home/doom/tmp/something_or_other.txt";
     # base: /home/doom/tmp/something_or_other  ext: txt
 }
 {
-    my ($base, $ext) = $full.match( / ^ (.*?) \. (<-[.]>*?) $ / ).list>>.Str;
+    my $pat = rx/ ^ (.*?) \. (<-[.]>*?) $ /;
+    my ($base, $ext) = $full.match( $pat ).list>>.Str;
     say "base: $base  ", "ext: $ext"; # base: /home/doom/tmp/something_or_other  ext: txt
 }
