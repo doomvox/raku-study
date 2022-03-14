@@ -13,8 +13,11 @@ my $full = "/home/doom/tmp/something_or_other.txt";
 }
 
 {
-    ## continue experimenting with this:
+    ## back to basics
     my ($base, $ext);
     $full.match( / ^ (.*?) \. (<-[.]>*?) $ / );
     say $/;
+# 0 => ｢/home/doom/tmp/something_or_other｣
+# 1 => ｢txt｣
+
 }
