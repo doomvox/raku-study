@@ -10,7 +10,9 @@ my $full = "/home/doom/tmp/something_or_other.txt";
 # my ($base, $ext) = $full.match( / ^ (.*?) \. (<[-.]>*?) $ / );
 my ($base, $ext) = $full.match( / ^ (.*?) \. (<-[.]>*?) $ / );
 
+
+
 ## continue experimenting with this:
 my ($base, $ext);
-$full.match( / ^ (.*?) \. (<[-.]>*?) $ / );
+$full.match( / ^ (.*?) \. (<-[.]>*?) $ / );
 say $/;
