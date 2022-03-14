@@ -7,7 +7,8 @@ use v6;
 my $full = "/home/doom/tmp/something_or_other.txt";
 
 {
-    my ($base, $ext) = ( $full.match( / ^ (.*?) \/ (<-[.]>*?) $ / ) )>>.Str;
+    # Looking for a one-line syntax that extracts multiple matches from match object
+    my ($base, $ext) = ( $full.match( / ^ (.*?) \/ (<-[.]>*?) $ / ) );  ## tried appending:  .list  >>.Str   
     say "base: $base  ", "ext: $ext";
 }
 
