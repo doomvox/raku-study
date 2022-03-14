@@ -1,69 +1,69 @@
-- [meeting notes March 13, 2022](#org3ff5dee)
-  - [the raku study group](#orgd884895)
-  - [usual links to the meeting material](#org2e81a37)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meetingmar13.md>](#orgada420f)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022mar13>](#org274235a)
-  - [raku script to append filename suffixes](#org807893d)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022mar13/tagger.taku>](#org81e70b4)
-    - [<https://github.com/doomvox/raku-study/blob/main/talks/file_metadata>](#orgb42834d)
-  - [dpchrist:](#org1265688)
-    - [circular dependencies with Exporter-based perl modules](#org134b5ff)
-  - [bruce gray](#orgd36a2c0)
-    - [perl/raku conference in houston extends deadline to May&#x2013; need raku talks](#orgbd3ba87)
-    - [weekly challenge (1) find missing permutation; (2) padovan primes](#orgf977013)
-  - [rob ransbottom](#org1364c5f)
-    - [github.com/0rir/touch/blob/master/lib/Touch.rakumod](#org15fc9b6)
-  - [announcements](#org034c15b)
-    - [March 27th: next raku study group meeting](#org4e7a117)
-    - [June 21-25: tprc: perl/raku conference](#org9e2154b)
+- [meeting notes March 13, 2022](#orgbd0f925)
+  - [the raku study group](#org55d0cf2)
+  - [usual links to the meeting material](#org593296a)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meetingmar13.md>](#org3601d1c)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022mar13>](#orge732ad4)
+  - [raku script to append filename suffixes](#org01e7ae3)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022mar13/tagger.taku>](#org8595e97)
+    - [<https://github.com/doomvox/raku-study/blob/main/talks/file_metadata>](#org1f34a5e)
+  - [dpchrist:](#org25fcbe7)
+    - [circular dependencies with Exporter-based perl modules](#orgfeb8be1)
+  - [bruce gray](#org0415a73)
+    - [perl/raku conference in houston extends deadline to May&#x2013; need raku talks](#org3389339)
+    - [weekly challenge (1) find missing permutation; (2) padovan primes](#orgf4addf6)
+  - [rob ransbottom](#orgc51a65d)
+    - [<https://github.com/0rir/touch/blob/master/lib/Touch.rakumod>](#org1a6c59e)
+  - [announcements](#org04876c9)
+    - [March 27th: next raku study group meeting](#org78cd0b8)
+    - [June 21-25: tprc: perl/raku conference](#orgdb1de8e)
 
 
-<a id="org3ff5dee"></a>
+<a id="orgbd0f925"></a>
 
 # meeting notes March 13, 2022
 
 
-<a id="orgd884895"></a>
+<a id="org55d0cf2"></a>
 
 ## the raku study group
 
 
-<a id="org2e81a37"></a>
+<a id="org593296a"></a>
 
 ## usual links to the meeting material
 
 
-<a id="orgada420f"></a>
+<a id="org3601d1c"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meetingmar13.md>
 
 
-<a id="org274235a"></a>
+<a id="orge732ad4"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2022mar13>
 
 
-<a id="org807893d"></a>
+<a id="org01e7ae3"></a>
 
 ## raku script to append filename suffixes
 
 
-<a id="org81e70b4"></a>
+<a id="org8595e97"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2022mar13/tagger.taku>
 
 
-<a id="orgb42834d"></a>
+<a id="org1f34a5e"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/talks/file_metadata>
 
 
-<a id="org1265688"></a>
+<a id="org25fcbe7"></a>
 
 ## dpchrist:
 
 
-<a id="org134b5ff"></a>
+<a id="orgfeb8be1"></a>
 
 ### circular dependencies with Exporter-based perl modules
 
@@ -72,41 +72,41 @@
 2.  An improvement:  require MyCode; MyCode->import;
 
 
-<a id="orgd36a2c0"></a>
+<a id="org0415a73"></a>
 
 ## bruce gray
 
 
-<a id="orgbd3ba87"></a>
+<a id="org3389339"></a>
 
 ### perl/raku conference in houston extends deadline to May&#x2013; need raku talks
 
 
-<a id="orgf977013"></a>
+<a id="orgf4addf6"></a>
 
 ### weekly challenge (1) find missing permutation; (2) padovan primes
 
 
-<a id="org1364c5f"></a>
+<a id="orgc51a65d"></a>
 
 ## rob ransbottom
 
 
-<a id="org15fc9b6"></a>
+<a id="org1a6c59e"></a>
 
-### github.com/0rir/touch/blob/master/lib/Touch.rakumod
+### <https://github.com/0rir/touch/blob/master/lib/Touch.rakumod>
 
 
-<a id="org034c15b"></a>
+<a id="org04876c9"></a>
 
 ## announcements
 
 
-<a id="org4e7a117"></a>
+<a id="org78cd0b8"></a>
 
 ### March 27th: next raku study group meeting
 
 
-<a id="org9e2154b"></a>
+<a id="orgdb1de8e"></a>
 
 ### June 21-25: tprc: perl/raku conference

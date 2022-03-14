@@ -19,7 +19,7 @@
 *** weekly challenge (1) find missing permutation; (2) padovan primes
 
 ** rob ransbottom
-*** github.com/0rir/touch/blob/master/lib/Touch.rakumod
+*** https://github.com/0rir/touch/blob/master/lib/Touch.rakumod
 
 ** announcements 
 *** March 27th: next raku study group meeting 
