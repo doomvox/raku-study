@@ -20,4 +20,6 @@ my $full = "/home/doom/tmp/something_or_other.txt";
 # 0 => ｢/home/doom/tmp/something_or_other｣
 # 1 => ｢txt｣
 
+    say $/.list>>.Str;
+
 }
