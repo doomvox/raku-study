@@ -32,3 +32,12 @@ say "sans_ext: $sans_ext";
 
 say 'one.two.three.txt'.subst(/\. <-[.]>*? $ /,'');  
 # one.two.three
+
+
+
+# There's another corner case though:
+##  stuff.tar.gz
+# My code would just remove ".gz" as the extension.
+# You can't in principle distguish between multi-dots in the name,
+# and multi-dots in the extension.
+
