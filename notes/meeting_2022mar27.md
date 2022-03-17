@@ -1,48 +1,50 @@
-- [meeting notes March 27, 2022](#orgf08b7cb)
-  - [the raku study group](#orgf12a75f)
-  - ["Raku, Rust and Tidyverse"](#orgd21cb72)
-    - [Docker image to use raku with rstudio](#orgc57b6bd)
-    - [<https://github.com/sumanstats/rakurstudio>](#org6bd1636)
-  - [announcements](#orgc2dd94d)
-    - [April 10th: next raku study group meeting](#org028f32a)
-    - [June 21-25: tprc: perl/raku conference](#org1b69e04)
+- [meeting notes March 27, 2022](#orgcd2947c)
+  - [the raku study group](#org42290e9)
+  - ["Raku, Rust and Tidyverse"](#org03ca93c)
+    - [Docker image to use raku with rstudio](#org4d5574f)
+    - [<https://github.com/sumanstats/rakurstudio>](#org254d6fe)
+  - [announcements](#org129fd71)
+    - [April 10th: next raku study group meeting](#org608da35)
+    - [June 21-25: tprc: perl/raku conference](#org9386e4e)
 
 
-<a id="orgf08b7cb"></a>
+<a id="orgcd2947c"></a>
 
 # meeting notes March 27, 2022
 
 
-<a id="orgf12a75f"></a>
+<a id="org42290e9"></a>
 
 ## the raku study group
 
 
-<a id="orgd21cb72"></a>
+<a id="org03ca93c"></a>
 
 ## "Raku, Rust and Tidyverse"
 
 
-<a id="orgc57b6bd"></a>
+<a id="org4d5574f"></a>
 
 ### Docker image to use raku with rstudio
 
 
-<a id="org6bd1636"></a>
+<a id="org254d6fe"></a>
 
 ### <https://github.com/sumanstats/rakurstudio>
 
 
-<a id="orgc2dd94d"></a>
+<a id="org129fd71"></a>
 
 ## announcements
 
 
-<a id="org028f32a"></a>
+<a id="org608da35"></a>
 
 ### April 10th: next raku study group meeting
 
+1.  the week **before** easter
 
-<a id="org1b69e04"></a>
+
+<a id="org9386e4e"></a>
 
 ### June 21-25: tprc: perl/raku conference
