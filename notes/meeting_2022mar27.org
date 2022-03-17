@@ -1,8 +1,9 @@
 * meeting notes March 27, 2022
 ** the raku study group
 
-** 
-https://github.com/sumanstats/rakurstudio
+** "Raku, Rust and Tidyverse"
+*** Docker image to use raku with rstudio
+*** https://github.com/sumanstats/rakurstudio
 
 ** announcements 
 *** April 10th: next raku study group meeting 
