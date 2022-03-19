@@ -5,6 +5,10 @@
 *** Docker image to use raku with rstudio
 *** https://github.com/sumanstats/rakurstudio
 
+** an issue with "p6c" ecosystem
+https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/
+https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/i0m7yah/
+
 ** announcements 
 *** April 10th: next raku study group meeting 
 **** the week *before* easter
