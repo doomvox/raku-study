@@ -9,8 +9,9 @@ my @hendrix;
 for (1 .. 1000) {
     if ( m/<[36]>/ ) {
         my $orig = $_;
-        $_ = .subst( :g, '3', '6');
-        $_ =         .subst( :g, '6', '3');
+        my $new  = $_;
+        $new = .subst( :g, '3', '6');
+        $new = .subst( :g, '6', '3');
         if ( $_ == $orig ) {
             @hendrix.push( $orig );
         } else {
