@@ -10,6 +10,9 @@ for (1 .. 1000) {
     if ( m/<[36]>/ ) {
         my $orig = $_;
         my $new  = $_.Str;
+
+        # $new.comb
+
         $new = $new.subst( :g, '3', '6');
         $new = $new.subst( :g, '6', '3');
         if ( $_ == $orig ) {
