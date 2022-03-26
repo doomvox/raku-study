@@ -19,7 +19,8 @@ for (1 .. 1000) {
     }
 }
 
-
+say @trivial.elems;
+say @hendrix.elems;
 
 
 # ===
