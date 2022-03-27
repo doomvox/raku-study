@@ -14,8 +14,8 @@ for (1 .. 1000) {
         # $new.comb ## loop over each character
         
         for $new.comb -> $c {
-        $new = $c.subst( :g, '3', '6');
-        $new = $c.subst( :g, '6', '3');
+        $new_c = $c.subst( :g, '3', '6');
+        $new_c = $c.subst( :g, '6', '3');
         if ( $_ == $orig ) {
             @hendrix.push( $orig );
         } else {
