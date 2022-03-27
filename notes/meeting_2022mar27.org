@@ -9,6 +9,9 @@
 *** https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/
 *** https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/i0m7yah/
 
+** parrot raiser asks "how many lines of raku?"
+*** https://www.theregister.com/2022/02/02/bash_wordle/
+
 ** announcements 
 *** April 10th: next raku study group meeting 
 **** the week *before* easter
