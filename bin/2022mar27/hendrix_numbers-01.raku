@@ -12,9 +12,10 @@ for (1 .. 1000) {
         my $new  = $_.Str;
 
         # $new.comb ## loop over each character
-
-        $new = $new.subst( :g, '3', '6');
-        $new = $new.subst( :g, '6', '3');
+        
+        for $new.comb -> $c {
+        $new = $c.subst( :g, '3', '6');
+        $new = $c.subst( :g, '6', '3');
         if ( $_ == $orig ) {
             @hendrix.push( $orig );
         } else {
