@@ -6,10 +6,10 @@ use v6;
 
 my $captured = run('/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar27/phasehunt_fullmoon.pl', :out).out.slurp.split("\n");
 
-say $captured;
-
-
-
+# say $captured;
+say $captured[0];
+say $captured[1];
+say $captured[2];
 
 
 # external commands without shell:
