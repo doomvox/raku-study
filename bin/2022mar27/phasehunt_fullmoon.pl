@@ -29,7 +29,9 @@ use Astro::MoonPhase;
 my @phases = phasehunt();
 #print "New Moon      = ", scalar(localtime($phases[0])), "\n";
 #print "First quarter = ", scalar(localtime($phases[1])), "\n";
-print "Full moon     = ", scalar(localtime( $phases[2]) ), "\n";
+my $fm_secs = $phases[2];
+
+print "Full moon     = ", scalar(localtime( $fm_secs ) ), "\n";
 #print "Last quarter  = ", scalar(localtime($phases[3])), "\n";
 # print "New Moon      = ", scalar(localtime( $phases[4]) ), "\n";
 
