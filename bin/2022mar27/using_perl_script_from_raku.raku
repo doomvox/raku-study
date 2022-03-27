@@ -11,6 +11,10 @@ say $captured[0];
 say $captured[1];
 say $captured[2];
 
+for $captured -> $n {
+    say $n if $n.is-prime;
+}
+
 
 # external commands without shell:
 # my $arg = 'Hello';
