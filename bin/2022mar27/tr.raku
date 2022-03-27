@@ -4,8 +4,18 @@
 
 use v6;
 
-my $n = "123456";
+{
+    my $n = "123456";
+    $n ~~ tr/36/63/;
+    say $n; # 126453
+}
 
-$n ~~ tr/36/63/;
 
-say $n; # 126453
+{
+    my $n = "123456";
+    if ( $n ~~ tr/36/63/ ) {
+        say "changed to: $n";
+    } else {
+        say "unchanged: $n";
+    }
+}
