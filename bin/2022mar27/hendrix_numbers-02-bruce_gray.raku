@@ -4,4 +4,6 @@
 
 use v6;
 
-say .key, " ", .value.elems for classify { !/<[69]>/ ?? "trivial" !! $_ eq .trans(<6 9> => <9 6>) ?? "hendrix" !! "none" }, 1..1000; 
+say .key, " ", .value.elems
+      for classify { !/<[69]>/ ?? "trivial" !! $_ eq .trans(<6 9> => <9 6>) ?? "hendrix" !! "none" },
+      1..1000; 
