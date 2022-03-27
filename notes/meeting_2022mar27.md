@@ -1,92 +1,96 @@
-- [meeting notes March 27, 2022](#org5c60743)
-  - [the raku study group](#org50bb7b2)
-  - ["Raku, Rust and Tidyverse"](#org67302c4)
-    - [Docker image to use raku with rstudio](#org711ac59)
-    - [<https://github.com/sumanstats/rakurstudio>](#org4a8774e)
-  - [an issue with "p6c" ecosystem](#org54b4ec8)
-    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/>](#org24cf22e)
-    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/i0m7yah/>](#org84c4314)
-  - [parrot raiser asks "how many lines of raku?"](#orgc261206)
-    - [<https://www.theregister.com/2022/02/02/bash_wordle/>](#orge1fabe2)
-  - [later:](#orgbf1aaa1)
-    - [.trans allows regexs: how do ambiguous cases resolve?](#org3f42e53)
-  - [announcements](#org0c0e56e)
-    - [April 10th: next raku study group meeting](#orge9059a5)
-    - [June 21-25: tprc: perl/raku conference](#org8f362f4)
+- [meeting notes March 27, 2022](#org6a6f589)
+  - [the raku study group](#org314145b)
+  - ["Raku, Rust and Tidyverse"](#org25d7c71)
+    - [Docker image to use raku with rstudio](#org0567467)
+    - [<https://github.com/sumanstats/rakurstudio>](#org8233ff0)
+  - [an issue with "p6c" ecosystem](#orgf1c4f8f)
+    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/>](#orgba8053d)
+    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/i0m7yah/>](#org40c382c)
+  - [parrot raiser asks "how many lines of raku?"](#orgb0bafd0)
+    - [<https://www.theregister.com/2022/02/02/bash_wordle/>](#org09c54a0)
+  - [later:](#org84c7c15)
+    - [.trans allows regexs: how do ambiguous cases resolve?](#org2e83be5)
+  - [announcements](#org99364e0)
+    - [April 10th: next raku study group meeting](#org00b2692)
+    - [June 21-25: tprc: perl/raku conference](#org7a4c20b)
 
 
-<a id="org5c60743"></a>
+<a id="org6a6f589"></a>
 
 # meeting notes March 27, 2022
 
 
-<a id="org50bb7b2"></a>
+<a id="org314145b"></a>
 
 ## the raku study group
 
 
-<a id="org67302c4"></a>
+<a id="org25d7c71"></a>
 
 ## "Raku, Rust and Tidyverse"
 
 
-<a id="org711ac59"></a>
+<a id="org0567467"></a>
 
 ### Docker image to use raku with rstudio
 
 
-<a id="org4a8774e"></a>
+<a id="org8233ff0"></a>
 
 ### <https://github.com/sumanstats/rakurstudio>
 
 
-<a id="org54b4ec8"></a>
+<a id="orgf1c4f8f"></a>
 
 ## an issue with "p6c" ecosystem
 
 
-<a id="org24cf22e"></a>
+<a id="orgba8053d"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/>
 
 
-<a id="org84c4314"></a>
+<a id="org40c382c"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/i0m7yah/>
 
 
-<a id="orgc261206"></a>
+<a id="orgb0bafd0"></a>
 
 ## parrot raiser asks "how many lines of raku?"
 
 
-<a id="orge1fabe2"></a>
+<a id="org09c54a0"></a>
 
 ### <https://www.theregister.com/2022/02/02/bash_wordle/>
 
 
-<a id="orgbf1aaa1"></a>
+<a id="org84c7c15"></a>
 
 ## later:
 
 
-<a id="org3f42e53"></a>
+<a id="org2e83be5"></a>
 
 ### .trans allows regexs: how do ambiguous cases resolve?
 
+S05 trans.t
 
-<a id="org0c0e56e"></a>
+is('ababab'.trans([/ab/, 'aba', 'bab', /baba/] => ['1', '2', '3', '4' ]), '23', 'longest token still holds, even between constant strings and regexes');
+
+
+<a id="org99364e0"></a>
 
 ## announcements
 
 
-<a id="orge9059a5"></a>
+<a id="org00b2692"></a>
 
 ### April 10th: next raku study group meeting
 
 1.  the week **before** easter
 
 
-<a id="org8f362f4"></a>
+<a id="org7a4c20b"></a>
 
 ### June 21-25: tprc: perl/raku conference

@@ -15,6 +15,16 @@
 ** later:
 *** .trans allows regexs: how do ambiguous cases resolve?
 
+S05
+trans.t
+
+is('ababab'.trans([/ab/, 'aba', 'bab', /baba/] =>
+                   ['1',  '2',   '3',   '4'   ]),
+   '23',
+   'longest token still holds, even between constant strings and regexes');
+
+
+
 ** announcements 
 *** April 10th: next raku study group meeting 
 **** the week *before* easter
