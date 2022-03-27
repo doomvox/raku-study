@@ -27,7 +27,6 @@ is('ababab'.trans([/ab/, 'aba', 'bab', /baba/] =>
 **** bruce gray suggests:
 http://irclogs.raku.org/perl6/2016-12-06.html#18:51
 
-
 ** announcements 
 *** April 10th: next raku study group meeting 
 **** the week *before* easter
