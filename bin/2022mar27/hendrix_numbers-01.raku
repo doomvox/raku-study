@@ -11,8 +11,6 @@
 # Distinguish between Trivial and True in your answer,
 # where Trivial Hendrix Numbers have no 6s or 9s.
 
-
-
 use v6;
 
 my @trivial;
