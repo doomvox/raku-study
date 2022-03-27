@@ -17,3 +17,7 @@ my @ww = @p.grep: { my $z = ($_ - $fm) % 29.53; $z < 1 or $z > 28.53 };
 say @ww.head(5);
 # (2023-02-05 2023-09-30 2023-12-27 2027-01-22 2027-04-20)
 # https://www.moongiant.com/phase/04/20/2027/
+
+
+## bruce results, tighting up the time range
+# (2023-02-05 2023-12-27 2027-01-22 2029-01-29 2031-03-08) 
