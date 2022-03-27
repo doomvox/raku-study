@@ -11,8 +11,6 @@ for 1 .. 1000 -> $n {
         my $orig = $n;
         my $new;
 
-        # $new.comb ## loop over each character
-        
         gather $new 
         for $orig.comb() -> $c {
             $new_c = $c.subst( :g, '3', '6');
