@@ -33,3 +33,4 @@ for $n.comb -> $d {
 # 7
 
 say so $n ~~ m/<[6]>/;
+# True
