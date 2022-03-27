@@ -4,4 +4,8 @@
 
 use v6;
 
-say "abc".comb;
+say "abc".comb; # (a b c)
+
+for "abc".comb -> $c {
+    say "$a";
+}
