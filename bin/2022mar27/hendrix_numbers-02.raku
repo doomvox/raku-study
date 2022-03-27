@@ -5,5 +5,7 @@
 use v6;
 
 my $n = 699;
-    if ( $new ~~ tr/69/96/ ) {
+my $new = $n;
+if ( $new ~~ tr/69/96/ ) {
+    say "$new";
 }
