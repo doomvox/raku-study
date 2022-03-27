@@ -22,6 +22,8 @@
 *** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-2.jl 
 *** some discussion of juilia
 
+** rob asks about "deprecate"
+
 ** later:
 *** .trans allows regexs: how do ambiguous cases resolve?
 **** longest token matching (tests for .trans are very good):
