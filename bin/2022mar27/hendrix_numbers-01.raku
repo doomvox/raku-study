@@ -22,9 +22,10 @@ for (1 .. 1000) {
         
         if ( $new == $orig ) {
             @hendrix.push( $orig );
-        } else {
-            @trivial.push( $orig );
         }
+    } else {
+        @trivial.push( $orig );
+    }
     }
 }
 
