@@ -1,113 +1,125 @@
-- [meeting notes March 27, 2022](#org897ca64)
-  - [the raku study group](#org0e5767f)
-  - ["Raku, Rust and Tidyverse"](#org9f3e032)
-    - [Docker image to use raku with rstudio](#org2efa1fd)
-    - [<https://github.com/sumanstats/rakurstudio>](#orgf6aaa79)
-  - [an issue with "p6c" ecosystem](#orgd2c8925)
-    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/>](#orgab4e042)
-    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/i0m7yah/>](#org954f383)
-  - [parrot raiser asks "how many lines of raku?"](#org69b4bb7)
-    - [<https://www.theregister.com/2022/02/02/bash_wordle/>](#org18eebca)
-  - [bruce gray, weekly challenge](#orgfb65d00)
-    - [fortunate numbers](#org5519c32)
-    - [pisano<sub>period</sub>](#orgfc0fd00)
-    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-155/>](#orgf7b5b3a)
-    - [<https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/raku/ch-1.raku>](#org891425e)
-    - [<https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-1.jl>](#orgda65764)
-  - [later:](#org0c7f8ea)
-    - [.trans allows regexs: how do ambiguous cases resolve?](#org4c19efc)
-    - [dead-link in roast tests: revise (pull request)](#org84ce913)
-  - [announcements](#org063131c)
-    - [April 10th: next raku study group meeting](#orge16f44b)
-    - [June 21-25: tprc: perl/raku conference](#orgbbf3d69)
+- [meeting notes March 27, 2022](#org1c32f58)
+  - [the raku study group](#org7f1a101)
+  - ["Raku, Rust and Tidyverse"](#orge8de6f7)
+    - [Docker image to use raku with rstudio](#orgdaa19fc)
+    - [<https://github.com/sumanstats/rakurstudio>](#orgc443f20)
+  - [an issue with "p6c" ecosystem](#orga1f3c9f)
+    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/>](#orgdea986a)
+    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/i0m7yah/>](#orgba70bdc)
+  - [parrot raiser asks "how many lines of raku?"](#org5122373)
+    - [<https://www.theregister.com/2022/02/02/bash_wordle/>](#org3c2d4eb)
+  - [bruce gray, weekly challenge](#orgb0782d1)
+    - [fortunate numbers](#org36480c7)
+    - [pisano<sub>period</sub>](#orgaafca93)
+    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-155/>](#org406f4de)
+    - [<https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/raku/ch-1.raku>](#orgbb37060)
+    - [<https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-1.jl>](#orgba6fe40)
+    - [<https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-2.jl>](#org4831b20)
+    - [<https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-1.jl>](#org3f0a7db)
+  - [later:](#org3c4fe97)
+    - [.trans allows regexs: how do ambiguous cases resolve?](#org35b1d93)
+    - [dead-link in roast tests: revise (pull request)](#orgb5e081d)
+  - [announcements](#org6953d26)
+    - [April 10th: next raku study group meeting](#org14b0cee)
+    - [June 21-25: tprc: perl/raku conference](#orge91fd2b)
 
 
-<a id="org897ca64"></a>
+<a id="org1c32f58"></a>
 
 # meeting notes March 27, 2022
 
 
-<a id="org0e5767f"></a>
+<a id="org7f1a101"></a>
 
 ## the raku study group
 
 
-<a id="org9f3e032"></a>
+<a id="orge8de6f7"></a>
 
 ## "Raku, Rust and Tidyverse"
 
 
-<a id="org2efa1fd"></a>
+<a id="orgdaa19fc"></a>
 
 ### Docker image to use raku with rstudio
 
 
-<a id="orgf6aaa79"></a>
+<a id="orgc443f20"></a>
 
 ### <https://github.com/sumanstats/rakurstudio>
 
 
-<a id="orgd2c8925"></a>
+<a id="orga1f3c9f"></a>
 
 ## an issue with "p6c" ecosystem
 
 
-<a id="orgab4e042"></a>
+<a id="orgdea986a"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/>
 
 
-<a id="org954f383"></a>
+<a id="orgba70bdc"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/i0m7yah/>
 
 
-<a id="org69b4bb7"></a>
+<a id="org5122373"></a>
 
 ## parrot raiser asks "how many lines of raku?"
 
 
-<a id="org18eebca"></a>
+<a id="org3c2d4eb"></a>
 
 ### <https://www.theregister.com/2022/02/02/bash_wordle/>
 
 
-<a id="orgfb65d00"></a>
+<a id="orgb0782d1"></a>
 
 ## bruce gray, weekly challenge
 
 
-<a id="org5519c32"></a>
+<a id="org36480c7"></a>
 
 ### fortunate numbers
 
 
-<a id="orgfc0fd00"></a>
+<a id="orgaafca93"></a>
 
 ### pisano<sub>period</sub>
 
 
-<a id="orgf7b5b3a"></a>
+<a id="org406f4de"></a>
 
 ### <https://theweeklychallenge.org/blog/perl-weekly-challenge-155/>
 
 
-<a id="org891425e"></a>
+<a id="orgbb37060"></a>
 
 ### <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/raku/ch-1.raku>
 
 
-<a id="orgda65764"></a>
+<a id="orgba6fe40"></a>
 
 ### <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-1.jl>
 
 
-<a id="org0c7f8ea"></a>
+<a id="org4831b20"></a>
+
+### <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-2.jl>
+
+
+<a id="org3f0a7db"></a>
+
+### <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-1.jl>
+
+
+<a id="org3c4fe97"></a>
 
 ## later:
 
 
-<a id="org4c19efc"></a>
+<a id="org35b1d93"></a>
 
 ### .trans allows regexs: how do ambiguous cases resolve?
 
@@ -118,7 +130,7 @@
     is('ababab'.trans([/ab/, 'aba', 'bab', /baba/] => ['1', '2', '3', '4' ]), '23', 'longest token still holds, even between constant strings and regexes');
 
 
-<a id="org84ce913"></a>
+<a id="orgb5e081d"></a>
 
 ### dead-link in roast tests: revise (pull request)
 
@@ -129,18 +141,18 @@
     <http://irclogs.raku.org/perl6/2016-12-06.html#18:51>
 
 
-<a id="org063131c"></a>
+<a id="org6953d26"></a>
 
 ## announcements
 
 
-<a id="orge16f44b"></a>
+<a id="org14b0cee"></a>
 
 ### April 10th: next raku study group meeting
 
 1.  the week **before** easter
 
 
-<a id="orgbbf3d69"></a>
+<a id="orge91fd2b"></a>
 
 ### June 21-25: tprc: perl/raku conference

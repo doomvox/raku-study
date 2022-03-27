@@ -19,6 +19,10 @@
 *** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/raku/ch-1.raku
 *** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-1.jl
 
+*** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-2.jl 
+*** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-1.jl 
+
+
 ** later:
 *** .trans allows regexs: how do ambiguous cases resolve?
 **** longest token matching (tests for .trans are very good):
