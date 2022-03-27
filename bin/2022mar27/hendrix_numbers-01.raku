@@ -6,8 +6,8 @@ use v6;
 
 my @trivial;
 my @hendrix;
-for (1 .. 1000) {
-    if ( m/<[36]>/ ) {
+for 1 .. 1000 -> $n {
+    if ( $n ~~ m/<[36]>/ ) {
         my $orig = $_;
         my $new  = $_.Str;
 
