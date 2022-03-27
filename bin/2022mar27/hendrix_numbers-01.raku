@@ -12,6 +12,11 @@ for 1 .. 1000 -> $n {
         my $new = gather {
             my $new_c;
             for $orig.comb -> $c {
+                if ( $c ~~ s/3/6/ ) {
+                } elsif ( $c ~~ s/6/3/ ) {
+
+                ) {
+
                 $new_c = $c.subst( :g, '3', '6');
                 $new_c = $c.subst( :g, '6', '3');
                 take $new_c;
