@@ -45,6 +45,7 @@ while (1) {
   last LOOP if $i++ > 1000;
 }
 
+## Serviceable, perl5y date hacking to work with full moon dates...
 
 
 
