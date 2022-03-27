@@ -4,7 +4,8 @@
 
 use v6;
 
-my $captured = run('/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar27/phasehunt_fullmoon.pl', :out).out.slurp.split("\n");
+my $prog = '/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar27/phasehunt_fullmoon.pl';
+my $captured = run($prog, :out).out.slurp.split("\n").sort;
 
 # say $captured;
 say $captured[0];
