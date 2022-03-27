@@ -13,7 +13,7 @@
 *** https://www.theregister.com/2022/02/02/bash_wordle/
 
 ** later:
-*** .trans allows regexs: how do ambiguous cases resolve
+*** .trans allows regexs: how do ambiguous cases resolve?
 
 
 ** announcements 
