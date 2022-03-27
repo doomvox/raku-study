@@ -24,6 +24,8 @@ is('ababab'.trans([/ab/, 'aba', 'bab', /baba/] =>
 
 *** dead-link in roast tests: revise
 **** https://irclog.perlgeek.de/perl6/2016-12-06#i_13692293
+**** bruce gray suggests:
+http://irclogs.raku.org/perl6/2016-12-06.html#18:51
 
 
 ** announcements 
