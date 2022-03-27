@@ -7,11 +7,6 @@ use v6;
 my $prog = '/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar27/phasehunt_fullmoon.pl';
 my $captured = run($prog, :out).out.slurp.split("\n").sort;
 
-# say $captured;
-say $captured[0];
-say $captured[1];
-say $captured[2];
-
 for $captured.list -> $n {
     # say "checking n: $n";
     say $n if $n.is-prime;
