@@ -11,7 +11,7 @@ say $fm; # 2022-01-17
 # prime dates in american format
 my @p = grep *.Str.split("-")[1,2,0].join.is-prime, Date.today .. *;
 
-
+# 29.53 is lunar cycle, allows for plus/minus 1 day
 my @ww = @p.grep: { my $z = ($_ - $fm) % 29.53; $z < 1 or $z > 28.53 };
 
 say @ww.head(5);
