@@ -10,6 +10,7 @@ for 1 .. 1000 -> $n {
     if ( $n ~~ m/<[36]>/ ) {
         my $orig = $n;
         my $new = gather {
+            my $new_c;
             for $orig.comb -> $c {
                 $new_c = $c.subst( :g, '3', '6');
                 $new_c = $c.subst( :g, '6', '3');
