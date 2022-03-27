@@ -6,7 +6,7 @@ use v6;
 
 my $captured = run('/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar27/phasehunt_fullmoon.pl', :out).out.slurp;
 
-say $captured;
+say $captured.WHAT;
 
 
 
