@@ -13,3 +13,5 @@ for "abc".comb -> $c {
 # b
 # c
 say "---";
+
+say 333.comb;
