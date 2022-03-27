@@ -17,7 +17,6 @@ for 1 .. 1000 -> $n {
                 take $c;
             }
         }
-        
         if ( $new == $orig ) {
             @hendrix.push( $n );
         }
