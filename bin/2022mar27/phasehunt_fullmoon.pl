@@ -36,6 +36,7 @@ while (1) {
 
   my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) =
       localtime( $fm_secs );
+  $year += 1900;
   # mday  day-of-month
   # mon is 0..==
 
