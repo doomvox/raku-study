@@ -11,8 +11,10 @@ for $captured.list -> $n {
     say $n if $n.is-prime;
 }
 
-my $werewolf_primes = run($prog, :out).out.slurp.split("\n").sort.grep( .is-prime );
-
+my @werewolf_primes = run($prog, :out).out.slurp.split("\n").sort.grep( .is-prime );
+say @werewolf_primes[0];
+say @werewolf_primes[1];
+say @werewolf_primes[2];
 
 # external commands without shell:
 # my $arg = 'Hello';
