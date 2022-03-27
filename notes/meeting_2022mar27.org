@@ -20,8 +20,7 @@
 
 *** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-1.jl 
 *** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-2.jl 
-
-
+*** some discussion of juilia
 
 ** later:
 *** .trans allows regexs: how do ambiguous cases resolve?
