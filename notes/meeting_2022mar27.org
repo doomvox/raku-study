@@ -13,7 +13,7 @@
 *** https://www.theregister.com/2022/02/02/bash_wordle/
 
 ** bruce gray, weekly challenge
-*** 
+*** fortunate numbers
 *** pisano_period
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-155/
 *** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/raku/ch-1.raku
