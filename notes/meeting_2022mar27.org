@@ -15,7 +15,7 @@
 ** bruce gray, weekly challenge
 *** 
 *** pisano_period
-
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-155/
 *** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/raku/ch-1.raku
 *** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-1.jl
 
