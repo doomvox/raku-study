@@ -8,8 +8,8 @@ my @trivial;
 my @hendrix;
 for 1 .. 1000 -> $n {
     if ( $n ~~ m/<[36]>/ ) {
-        my $orig = $_;
-        my $new  = $_.Str;
+        my $orig = $n;
+        my $new;
 
         # $new.comb ## loop over each character
         
