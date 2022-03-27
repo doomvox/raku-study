@@ -19,8 +19,8 @@ for 1 .. 1000 -> $n {
 }
 
 
-say @trivial;
-say @hendrix;
+say "trival: ", @trivial.elems;
+say "hendrix: ", @hendrix.elems;
 
 
 # ===
