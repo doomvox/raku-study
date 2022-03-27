@@ -2,7 +2,7 @@
 # 
 # hendrix_numbers-01.raku            25 Mar 2022 
 
-# Programming challenges 1 
+# Programming challenges #1 
 
 # How many Hendrix Numbers are there between 1 and 1000?
 # A Hendrix Number is an integer which is invariant when
