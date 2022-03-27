@@ -21,3 +21,4 @@ say @ww.head(5);
 
 ## bruce results, tighting up the time range
 # (2023-02-05 2023-12-27 2027-01-22 2029-01-29 2031-03-08) 
+#                        2027-01-22
