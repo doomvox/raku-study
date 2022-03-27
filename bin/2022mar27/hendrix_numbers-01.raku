@@ -18,7 +18,7 @@ my @hendrix;
 for 1 .. 1000 -> $n {
     my $orig = $n;
     my $new  = $n.Str;
-    if ( $new ~~ tr/69/96/ ) { 
+    if ( $new ~~ tr/69/96/ ) {             
         if ( $new.Int == $orig ) {
             @hendrix.push( $n );
         }
