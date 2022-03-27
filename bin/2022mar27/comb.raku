@@ -9,3 +9,7 @@ say "abc".comb; # (a b c)
 for "abc".comb -> $c {
     say "$c";
 }
+# a
+# b
+# c
+say "---";
