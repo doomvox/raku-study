@@ -37,7 +37,6 @@ say so $n ~~ m/<[6]>/;
 # True
 say $n.WHAT; # (Int)
 say "---";
-my $n = 637;
 for $n.comb -> $d {
     say $d;
 }
