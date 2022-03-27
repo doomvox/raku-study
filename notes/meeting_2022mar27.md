@@ -1,77 +1,77 @@
-- [meeting notes March 27, 2022](#orgf7001d9)
-  - [the raku study group](#org1f5343a)
-  - ["Raku, Rust and Tidyverse"](#org776f187)
-    - [Docker image to use raku with rstudio](#org904085e)
-    - [<https://github.com/sumanstats/rakurstudio>](#org9fdeb73)
-  - [an issue with "p6c" ecosystem](#org4b15575)
-    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/>](#org44828f2)
-    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/i0m7yah/>](#org4722426)
-  - [parrot raiser asks "how many lines of raku?"](#org4505157)
-    - [<https://www.theregister.com/2022/02/02/bash_wordle/>](#org06a648a)
-  - [later:](#org9454d91)
-    - [.trans allows regexs: how do ambiguous cases resolve?](#org616687a)
-    - [dead-link in roast tests: revise](#org9228af3)
-  - [announcements](#orgd73b72b)
-    - [April 10th: next raku study group meeting](#org367043a)
-    - [June 21-25: tprc: perl/raku conference](#orgc9d3232)
+- [meeting notes March 27, 2022](#orgebadaf7)
+  - [the raku study group](#org5e1a027)
+  - ["Raku, Rust and Tidyverse"](#orgfb4178f)
+    - [Docker image to use raku with rstudio](#orgb044c18)
+    - [<https://github.com/sumanstats/rakurstudio>](#orgc38cc49)
+  - [an issue with "p6c" ecosystem](#orgf990e0d)
+    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/>](#orgfeb57c4)
+    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/i0m7yah/>](#org871fe7c)
+  - [parrot raiser asks "how many lines of raku?"](#orgf012cbb)
+    - [<https://www.theregister.com/2022/02/02/bash_wordle/>](#org7189047)
+  - [later:](#org8c45e12)
+    - [.trans allows regexs: how do ambiguous cases resolve?](#orgc2a4b0d)
+    - [dead-link in roast tests: revise (pull request)](#org25db93d)
+  - [announcements](#orgc706c45)
+    - [April 10th: next raku study group meeting](#org1ae39d9)
+    - [June 21-25: tprc: perl/raku conference](#orgf81c5f5)
 
 
-<a id="orgf7001d9"></a>
+<a id="orgebadaf7"></a>
 
 # meeting notes March 27, 2022
 
 
-<a id="org1f5343a"></a>
+<a id="org5e1a027"></a>
 
 ## the raku study group
 
 
-<a id="org776f187"></a>
+<a id="orgfb4178f"></a>
 
 ## "Raku, Rust and Tidyverse"
 
 
-<a id="org904085e"></a>
+<a id="orgb044c18"></a>
 
 ### Docker image to use raku with rstudio
 
 
-<a id="org9fdeb73"></a>
+<a id="orgc38cc49"></a>
 
 ### <https://github.com/sumanstats/rakurstudio>
 
 
-<a id="org4b15575"></a>
+<a id="orgf990e0d"></a>
 
 ## an issue with "p6c" ecosystem
 
 
-<a id="org44828f2"></a>
+<a id="orgfeb57c4"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/>
 
 
-<a id="org4722426"></a>
+<a id="org871fe7c"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/i0m7yah/>
 
 
-<a id="org4505157"></a>
+<a id="orgf012cbb"></a>
 
 ## parrot raiser asks "how many lines of raku?"
 
 
-<a id="org06a648a"></a>
+<a id="org7189047"></a>
 
 ### <https://www.theregister.com/2022/02/02/bash_wordle/>
 
 
-<a id="org9454d91"></a>
+<a id="org8c45e12"></a>
 
 ## later:
 
 
-<a id="org616687a"></a>
+<a id="orgc2a4b0d"></a>
 
 ### .trans allows regexs: how do ambiguous cases resolve?
 
@@ -82,9 +82,9 @@
     is('ababab'.trans([/ab/, 'aba', 'bab', /baba/] => ['1', '2', '3', '4' ]), '23', 'longest token still holds, even between constant strings and regexes');
 
 
-<a id="org9228af3"></a>
+<a id="org25db93d"></a>
 
-### dead-link in roast tests: revise
+### dead-link in roast tests: revise (pull request)
 
 1.  <https://irclog.perlgeek.de/perl6/2016-12-06#i_13692293>
 
@@ -93,18 +93,18 @@
     <http://irclogs.raku.org/perl6/2016-12-06.html#18:51>
 
 
-<a id="orgd73b72b"></a>
+<a id="orgc706c45"></a>
 
 ## announcements
 
 
-<a id="org367043a"></a>
+<a id="org1ae39d9"></a>
 
 ### April 10th: next raku study group meeting
 
 1.  the week **before** easter
 
 
-<a id="orgc9d3232"></a>
+<a id="orgf81c5f5"></a>
 
 ### June 21-25: tprc: perl/raku conference

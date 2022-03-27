@@ -22,7 +22,7 @@ is('ababab'.trans([/ab/, 'aba', 'bab', /baba/] =>
    '23',
    'longest token still holds, even between constant strings and regexes');
 
-*** dead-link in roast tests: revise
+*** dead-link in roast tests: revise (pull request)
 **** https://irclog.perlgeek.de/perl6/2016-12-06#i_13692293
 **** bruce gray suggests:
 http://irclogs.raku.org/perl6/2016-12-06.html#18:51
