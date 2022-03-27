@@ -30,7 +30,7 @@ my $i;
 
 my $start = time();
 LOOP:
-while (1) { 
+do {{
   my @phases = phasehunt( $start );
   my $fm_secs = $phases[2];
 
@@ -52,8 +52,8 @@ while (1) {
 
   print "Full moon     = ", scalar( localtime( $fm_secs ) ), "\n";
   $start = $fm_secs + 24 * 60 * 60 * 28;
-  last LOOP if $i++ > 1000;
-}
+}} until $i++ > 1000;
+
 
 ## Serviceable, perl5y date hacking to work with full moon dates...
 
