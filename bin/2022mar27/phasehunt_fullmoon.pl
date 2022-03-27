@@ -34,7 +34,7 @@ while (1) {
   my $fm_secs = $phases[2];
   print "Full moon     = ", scalar(localtime( $fm_secs ) ), "\n";
 
-
+  $start += 24 * 60 * 60;
   last LOOP if $i++ > 1000;
 }
 
