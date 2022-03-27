@@ -17,7 +17,6 @@
 **** longest token matching (tests for .trans are very good):
 ./S05-transliteration/trans.t
 
-
 is('ababab'.trans([/ab/, 'aba', 'bab', /baba/] =>
                    ['1',  '2',   '3',   '4'   ]),
    '23',
