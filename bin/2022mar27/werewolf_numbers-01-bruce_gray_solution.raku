@@ -21,4 +21,13 @@ say @ww.head(5);
 
 ## bruce results, tighting up the time range
 # (2023-02-05 2023-12-27 2027-01-22 2029-01-29 2031-03-08) 
-#                        2027-01-22
+#                        2027-01-22 2029-01-29 2031-03-08
+
+
+#12272023
+
+## some funkiness in how I'm getting full moon dates vs bruces:
+# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar27/phasehunt_fullmoon.pl | egrep 2023
+# 01062023
+# 02052023
+# 03072023
