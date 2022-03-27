@@ -27,10 +27,13 @@ use Data::Dumper;
 use Astro::MoonPhase;
 
 my $i;
+
+my $start = time();
 while (1) { 
-  my @phases = phasehunt();
+  my @phases = phasehunt( $start );
   my $fm_secs = $phases[2];
   print "Full moon     = ", scalar(localtime( $fm_secs ) ), "\n";
+
 
   last LOOP if $i++ > 1000;
 }
