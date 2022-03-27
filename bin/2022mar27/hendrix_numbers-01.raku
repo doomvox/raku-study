@@ -19,10 +19,10 @@ for 1 .. 1000 -> $n {
         }
         
         if ( $new == $orig ) {
-            @hendrix.push( $orig );
+            @hendrix.push( $n );
         }
     } else {
-        @trivial.push( $orig );
+        @trivial.push( $n );
     }
 }
 
