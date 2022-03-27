@@ -15,6 +15,7 @@ use v6;
     my $n = "123456";
     if ( $n ~~ tr/36/63/ ) {
         say "changed to: $n";
+        # changed to: 126453
     } else {
         say "unchanged: $n";
     }
