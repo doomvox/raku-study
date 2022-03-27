@@ -29,6 +29,7 @@ use Astro::MoonPhase;
 my $i;
 
 my $start = time();
+LOOP:
 while (1) { 
   my @phases = phasehunt( $start );
   my $fm_secs = $phases[2];
