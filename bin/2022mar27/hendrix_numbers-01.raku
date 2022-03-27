@@ -20,7 +20,7 @@ for (1 .. 1000) {
             take $new_c;
         }
         
-        if ( $_ == $orig ) {
+        if ( $new == $orig ) {
             @hendrix.push( $orig );
         } else {
             @trivial.push( $orig );
