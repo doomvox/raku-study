@@ -32,5 +32,7 @@ for $n.comb -> $d {
 # 3
 # 7
 
+say $n.WHAT;
 say so $n ~~ m/<[6]>/;
 # True
+say $n.WHAT;
