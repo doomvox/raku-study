@@ -36,7 +36,8 @@ while (1) {
 
   my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) =
       localtime( $fm_secs );
-
+  # mday  day-of-month
+  # mon is 0..==
 
   print "Full moon     = ", scalar( localtime( $fm_secs ) ), "\n";
   $start = $fm_secs + 24 * 60 * 60 * 28;
