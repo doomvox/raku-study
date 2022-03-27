@@ -7,12 +7,9 @@ use v6;
 my @trivial;
 my @hendrix;
 for 1 .. 1000 -> $n {
-    if ( $n ~~ m/<[36]>/ ) {
-        my $orig = $n;
-        my $new  = $n;
-        if ( $new ~~ tr/69/96/ ) {
-
-        }
+    my $orig = $n;
+    my $new  = $n;
+    if ( $new ~~ tr/69/96/ ) {
         if ( $new == $orig ) {
             @hendrix.push( $n );
         }
