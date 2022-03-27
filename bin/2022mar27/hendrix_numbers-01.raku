@@ -12,7 +12,7 @@ for 1 .. 1000 -> $n {
         my $new;
 
         gather $new 
-        for $orig.comb() -> $c {
+        for $orig.comb -> $c {
             $new_c = $c.subst( :g, '3', '6');
             $new_c = $c.subst( :g, '6', '3');
             take $new_c;
