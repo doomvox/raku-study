@@ -12,7 +12,7 @@ for 1 .. 1000 -> $n {
         my $new = gather {
             for $orig.comb -> $c {
                 if ( $c ~~ tr/69/96/ ) {
-                take $c;
+                    take $c;
                 }
             }
         }
