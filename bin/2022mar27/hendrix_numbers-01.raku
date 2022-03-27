@@ -9,12 +9,9 @@ my @hendrix;
 for 1 .. 1000 -> $n {
     if ( $n ~~ m/<[36]>/ ) {
         my $orig = $n;
-        my $new = gather {
-            for $orig.comb -> $c {
-                if ( $c ~~ tr/69/96/ ) {
-                    take $c;
-                }
-            }
+        my $new  = $n;
+        if ( $new ~~ tr/69/96/ ) {
+
         }
         if ( $new == $orig ) {
             @hendrix.push( $n );
