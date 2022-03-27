@@ -12,6 +12,7 @@ say $captured[1];
 say $captured[2];
 
 for $captured -> $n {
+    say "checking n: $n";
     say $n if $n.is-prime;
 }
 
