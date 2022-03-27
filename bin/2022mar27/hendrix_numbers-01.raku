@@ -10,7 +10,6 @@ for 1 .. 1000 -> $n {
     if ( $n ~~ m/<[36]>/ ) {
         my $orig = $n;
         my $new = gather {
-            my $new_c;
             for $orig.comb -> $c {
                 if ( $c ~~ s/3/6/ ) {
                 } elsif ( $c ~~ s/6/3/ ) {
