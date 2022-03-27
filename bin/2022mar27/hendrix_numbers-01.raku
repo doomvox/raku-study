@@ -14,7 +14,7 @@ for 1 .. 1000 -> $n {
             for $orig.comb -> $c {
                 if ( $c ~~ s/3/6/ ) {
                 } elsif ( $c ~~ s/6/3/ ) {
-                ) 
+                }
                 take $c;
             }
         }
