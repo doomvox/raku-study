@@ -5,7 +5,7 @@
 use v6;
 
 my $n = 699;
-my $new = $n;
+my $new = $n.Str;
 if ( $new ~~ tr/69/96/ ) {
     say "$new";
 }
