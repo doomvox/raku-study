@@ -26,7 +26,7 @@ use Data::Dumper;
 
 use Astro::MoonPhase;
 
-@phases = phasehunt();
+my @phases = phasehunt();
 #print "New Moon      = ", scalar(localtime($phases[0])), "\n";
 #print "First quarter = ", scalar(localtime($phases[1])), "\n";
 print "Full moon     = ", scalar(localtime($phases[2])), "\n";
