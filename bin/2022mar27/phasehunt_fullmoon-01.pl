@@ -43,9 +43,9 @@ do {{
   my $mday_str = sprintf("%02d", $mday);
   my $mon_str = sprintf("%02d", $mon);
 
-#   say $mon_str;
-#   say $mday_str;
-#   say $year;
+  say $mon_str;
+  say $mday_str;
+  say $year;
 
   my $mmddyyyy = $mon_str . $mday_str . $year;
   say $mmddyyyy;
