@@ -41,7 +41,7 @@ do {{
   $mon  += 1;
   $year += 1900;
   my $mday_str = sprintf("%02d", $mday);
-  my $mon_str = sprintf("%02d", $mon);
+  my $mon_str  = sprintf("%02d", $mon);
 
 #   say $mon_str;
 #   say $mday_str;
