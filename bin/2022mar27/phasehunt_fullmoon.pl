@@ -40,9 +40,13 @@ while (1) {
   # mon is 0..11
   $mon  += 1;
   $year += 1900;
-  say $mon;
-  say $mday;
+  my $mday_str = sprintf("%02d", $mday);
+  my $mon_str = sprintf("%02d", $mon);
+
+  say $mon_str;
+  say $mday_str;
   say $year;
+
 
   print "Full moon     = ", scalar( localtime( $fm_secs ) ), "\n";
   $start = $fm_secs + 24 * 60 * 60 * 28;
