@@ -11,7 +11,7 @@ say $captured[0];
 say $captured[1];
 say $captured[2];
 
-for $captured -> $n {
+for $captured.list -> $n {
     say "checking n: $n";
     say $n if $n.is-prime;
 }
