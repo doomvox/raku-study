@@ -11,10 +11,9 @@ for 1 .. 1000 -> $n {
         my $orig = $n;
         my $new = gather {
             for $orig.comb -> $c {
-                if ( $c ~~ s/3/6/ ) {
-                } elsif ( $c ~~ s/6/3/ ) {
-                }
+                if ( $c ~~ tr/69/96/ ) {
                 take $c;
+                }
             }
         }
         if ( $new == $orig ) {
