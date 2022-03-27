@@ -26,8 +26,8 @@ for (1 .. 1000) {
     } else {
         @trivial.push( $orig );
     }
-    }
 }
+
 
 say @trivial;
 say @hendrix;
