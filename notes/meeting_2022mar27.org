@@ -12,6 +12,10 @@
 ** parrot raiser asks "how many lines of raku?"
 *** https://www.theregister.com/2022/02/02/bash_wordle/
 
+** later:
+*** .trans allows regexs: how do ambiguous cases resolve
+
+
 ** announcements 
 *** April 10th: next raku study group meeting 
 **** the week *before* easter
