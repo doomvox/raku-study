@@ -33,6 +33,11 @@ LOOP:
 while (1) { 
   my @phases = phasehunt( $start );
   my $fm_secs = $phases[2];
+
+  my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) =
+      localtime( $fm_secs );
+
+
   print "Full moon     = ", scalar( localtime( $fm_secs ) ), "\n";
   $start = $fm_secs + 24 * 60 * 60 * 28;
   last LOOP if $i++ > 1000;
