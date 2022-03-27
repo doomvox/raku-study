@@ -23,6 +23,7 @@ for 123.comb -> $d {
 # 2
 # 3
 
+say "---";
 my $n = 637;
 for $n.comb -> $d {
     say $d;
