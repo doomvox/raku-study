@@ -11,8 +11,17 @@ for $captured.list -> $n {
     say $n if $n.is-prime;
 }
 
+
+# 01112047
+# 01152071
+# 01202057
+# 01222027
+# 01292029
+#  ... 
+
 # my @werewolf_primes = run($prog, :out).out.slurp.split("\n").sort.grep( .Numeric.is-prime );
 # say @werewolf_primes[0];
 # say @werewolf_primes[1];
 # say @werewolf_primes[2];
+
 
