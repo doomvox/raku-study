@@ -1,136 +1,136 @@
-- [meeting notes March 27, 2022](#orgecb4be1)
-  - [the raku study group](#org78160c3)
-  - ["Raku, Rust and Tidyverse"](#orgf9f75db)
-    - [Docker image to use raku with rstudio](#org70ebe2f)
-    - [<https://github.com/sumanstats/rakurstudio>](#orga4d3396)
-  - [an issue with "p6c" ecosystem](#org32fa52c)
-    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/>](#org0c76ebf)
-    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/i0m7yah/>](#org9b2fb76)
-  - [parrot raiser asks "how many lines of raku?"](#orge076992)
-    - [<https://www.theregister.com/2022/02/02/bash_wordle/>](#org51df63f)
-  - [bruce gray, weekly challenge](#orge953292)
-    - [fortunate numbers](#org67ab9bb)
-    - [pisano<sub>period</sub>](#org4e7b109)
-    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-155/>](#org543df32)
-    - [<https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/raku/ch-1.raku>](#org06d7248)
-    - [<https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-1.jl>](#orgad65fa3)
-    - [<https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-2.jl>](#org8966296)
-    - [some discussion of juilia](#orgcf2eced)
-  - [.trans allows regexs: how do ambiguous cases resolve?](#org2dae967)
-    - [longest token matching&#x2013; the tests for .trans are very good:](#org0740dd0)
-    - [dead-link in roast tests: revise (pull request)](#orgd71de1b)
-  - [rob asks about "DEPRECATED"](#org0d5ee44)
-    - [postponed to next meeting](#orgdefb3fa)
-  - [announcements](#org4ce475d)
-    - [April 10th: next raku study group meeting](#orgfd8c621)
-    - [June 21-25: tprc: perl/raku conference](#org1c4edf5)
+- [meeting notes March 27, 2022](#orgcf00810)
+  - [the raku study group](#orgddc5eea)
+  - ["Raku, Rust and Tidyverse"](#org71a2e28)
+    - [Docker image to use raku with rstudio](#org5f799d3)
+    - [<https://github.com/sumanstats/rakurstudio>](#org42ac37f)
+  - [an issue with "p6c" ecosystem](#org325577b)
+    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/>](#org9e7953f)
+    - [<https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/i0m7yah/>](#org976a25c)
+  - [parrot raiser asks "how many lines of raku?"](#orge299753)
+    - [<https://www.theregister.com/2022/02/02/bash_wordle/>](#orge5a6b9b)
+  - [bruce gray, weekly challenge](#org791bbc7)
+    - [fortunate numbers](#orgc1ded7c)
+    - [pisano<sub>period</sub>](#orgfad15a3)
+    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-155/>](#org67dc51e)
+    - [<https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/raku/ch-1.raku>](#org0abc7e3)
+    - [<https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-1.jl>](#orgf4d3ad2)
+    - [<https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-2.jl>](#orgd291b4e)
+    - [some discussion of juilia](#org470b66c)
+  - [.trans allows regexs: how do ambiguous cases resolve?](#org6d5b9ae)
+    - [longest token matching&#x2013; the tests for .trans are very good:](#orgecad531)
+    - [dead-link in roast tests: revise (pull request)](#org806db7d)
+  - [rob asks about "DEPRECATED"](#org84a039f)
+    - [postponed to next meeting](#orgcac2bea)
+  - [announcements](#org32cbc9e)
+    - [April 10th: next raku study group meeting](#org41c4d38)
+    - [June 21-25: tprc: perl/raku conference](#orge0efeb0)
 
 
-<a id="orgecb4be1"></a>
+<a id="orgcf00810"></a>
 
 # meeting notes March 27, 2022
 
 
-<a id="org78160c3"></a>
+<a id="orgddc5eea"></a>
 
 ## the raku study group
 
 
-<a id="orgf9f75db"></a>
+<a id="org71a2e28"></a>
 
 ## "Raku, Rust and Tidyverse"
 
 
-<a id="org70ebe2f"></a>
+<a id="org5f799d3"></a>
 
 ### Docker image to use raku with rstudio
 
 
-<a id="orga4d3396"></a>
+<a id="org42ac37f"></a>
 
 ### <https://github.com/sumanstats/rakurstudio>
 
 
-<a id="org32fa52c"></a>
+<a id="org325577b"></a>
 
 ## an issue with "p6c" ecosystem
 
 
-<a id="org0c76ebf"></a>
+<a id="org9e7953f"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/>
 
 
-<a id="org9b2fb76"></a>
+<a id="org976a25c"></a>
 
 ### <https://www.reddit.com/r/rakulang/comments/tdui4t/support_arbitrary_git_urls_as_raku_module/i0m7yah/>
 
 
-<a id="orge076992"></a>
+<a id="orge299753"></a>
 
 ## parrot raiser asks "how many lines of raku?"
 
 
-<a id="org51df63f"></a>
+<a id="orge5a6b9b"></a>
 
 ### <https://www.theregister.com/2022/02/02/bash_wordle/>
 
 
-<a id="orge953292"></a>
+<a id="org791bbc7"></a>
 
 ## bruce gray, weekly challenge
 
 
-<a id="org67ab9bb"></a>
+<a id="orgc1ded7c"></a>
 
 ### fortunate numbers
 
 
-<a id="org4e7b109"></a>
+<a id="orgfad15a3"></a>
 
 ### pisano<sub>period</sub>
 
 
-<a id="org543df32"></a>
+<a id="org67dc51e"></a>
 
 ### <https://theweeklychallenge.org/blog/perl-weekly-challenge-155/>
 
 
-<a id="org06d7248"></a>
+<a id="org0abc7e3"></a>
 
 ### <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/raku/ch-1.raku>
 
 
-<a id="orgad65fa3"></a>
+<a id="orgf4d3ad2"></a>
 
 ### <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-1.jl>
 
 
-<a id="org8966296"></a>
+<a id="orgd291b4e"></a>
 
 ### <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-155/bruce-gray/julia/ch-2.jl>
 
 
-<a id="orgcf2eced"></a>
+<a id="org470b66c"></a>
 
 ### some discussion of juilia
 
 
-<a id="org2dae967"></a>
+<a id="org6d5b9ae"></a>
 
 ## .trans allows regexs: how do ambiguous cases resolve?
 
 
-<a id="org0740dd0"></a>
+<a id="orgecad531"></a>
 
 ### longest token matching&#x2013; the tests for .trans are very good:
 
-1.  ./S05-transliteration/trans.t
+1.  roast/S05-transliteration/trans.t
 
     is('ababab'.trans([/ab/, 'aba', 'bab', /baba/] => ['1', '2', '3', '4' ]), '23', 'longest token still holds, even between constant strings and regexes');
 
 
-<a id="orgd71de1b"></a>
+<a id="org806db7d"></a>
 
 ### TODO dead-link in roast tests: revise (pull request)
 
@@ -141,28 +141,28 @@
     <http://irclogs.raku.org/perl6/2016-12-06.html#18:51>
 
 
-<a id="org0d5ee44"></a>
+<a id="org84a039f"></a>
 
 ## rob asks about "DEPRECATED"
 
 
-<a id="orgdefb3fa"></a>
+<a id="orgcac2bea"></a>
 
 ### postponed to next meeting
 
 
-<a id="org4ce475d"></a>
+<a id="org32cbc9e"></a>
 
 ## announcements
 
 
-<a id="orgfd8c621"></a>
+<a id="org41c4d38"></a>
 
 ### April 10th: next raku study group meeting
 
 1.  the week **before** easter
 
 
-<a id="org1c4edf5"></a>
+<a id="orge0efeb0"></a>
 
 ### June 21-25: tprc: perl/raku conference

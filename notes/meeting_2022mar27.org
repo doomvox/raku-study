@@ -24,7 +24,7 @@
 
 ** .trans allows regexs: how do ambiguous cases resolve?
 *** longest token matching-- the tests for .trans are very good:
-**** ./S05-transliteration/trans.t
+**** roast/S05-transliteration/trans.t
 
 is('ababab'.trans([/ab/, 'aba', 'bab', /baba/] =>
                    ['1',  '2',   '3',   '4'   ]),
