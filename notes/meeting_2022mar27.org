@@ -23,7 +23,7 @@
 *** some discussion of juilia
 
 ** .trans allows regexs: how do ambiguous cases resolve?
-*** longest token matching (tests for .trans are very good):
+*** longest token matching-- the tests for .trans are very good:
 ./S05-transliteration/trans.t
 
 is('ababab'.trans([/ab/, 'aba', 'bab', /baba/] =>
