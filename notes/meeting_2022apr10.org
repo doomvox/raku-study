@@ -3,10 +3,11 @@
 ** an answer to what's Raku for:
 *** https://www.codesections.com/blog/raku-manifesto/
 
-** rob asks about "DEPRECATED"
-*** postponed from last meeting
+** postponed from previous meetings
 
-** from a few meetings back, one of bills unix.stackexchange posts got skipped over
+*** rob asks about "DEPRECATED"
+
+*** bills unix.stackexchange post
 
 ** announcements 
 *** April 24th: next raku study group meeting 
