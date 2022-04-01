@@ -3,3 +3,7 @@
 ** an answer to what's Raku for:
 *** https://www.codesections.com/blog/raku-manifesto/
 
+** rob asks about "DEPRECATED"
+*** postponed to next meeting
+
+** from a few meetings back, one of bills unix.stackexchange posts got skipped over
