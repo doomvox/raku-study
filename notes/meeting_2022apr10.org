@@ -1,4 +1,5 @@
 * meeting notes April 10, 2022
 ** the raku study group
+** an answer to what's Raku for:
+*** https://www.codesections.com/blog/raku-manifesto/
 
-https://www.codesections.com/blog/raku-manifesto/
