@@ -7,7 +7,7 @@
 
 *** rob asks about "DEPRECATED"
 
-*** bills unix.stackexchange post
+*** bill's unix.stackexchange post
 
 ** announcements 
 *** April 24th: next raku study group meeting 
