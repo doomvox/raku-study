@@ -4,7 +4,7 @@
 *** https://www.codesections.com/blog/raku-manifesto/
 
 ** rob asks about "DEPRECATED"
-*** postponed to next meeting
+*** postponed from last meeting
 
 ** from a few meetings back, one of bills unix.stackexchange posts got skipped over
 
