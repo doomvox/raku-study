@@ -1,0 +1,4 @@
+* meeting notes April 10, 2022
+** the raku study group
+
+https://www.codesections.com/blog/raku-manifesto/
