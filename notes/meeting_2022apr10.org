@@ -10,9 +10,9 @@
 *** https://www.codesections.com/blog/raku-manifesto/
  
 ** postponed from previous meetings
-*** rob asks about "DEPRECATED"
 *** bill's unix.stackexchange post
 **** https://unix.stackexchange.com/questions/696495/find-duplicate-1st-field-and-concat-its-values-in-single-line/698487#698487 
+*** rob asks about "DEPRECATED"
 
 ** recent topics
 *** worthington prime number calculations
