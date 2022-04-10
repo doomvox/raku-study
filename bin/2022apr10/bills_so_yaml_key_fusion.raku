@@ -16,7 +16,6 @@ my $datfile = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr10/dat/s
     };
     .say for %h;
 } 
-
 {
     say "===";
 
