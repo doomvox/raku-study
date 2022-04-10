@@ -9,13 +9,16 @@
 
 
 ** recent topics
-*** David Emanuel da Costa Santiago (demanual)
-**** "Help with promises, supplies and channels"
+*** Buggy behavior with mixed promises, supplies and channels -- demanual 
+**** David Emanuel da Costa Santiago on users mailing list
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2022/04/msg10474.html
 **** Mixing supplies, channels and promises makes the code hang or throwing exceptions
 ***** https://github.com/rakudo/rakudo/issues/4853
 **** lizmat fix to master branch: "Fix race condition in Rakudo::Supply::BlockState" 
 ***** https://github.com/rakudo/rakudo/commit/5658f4da07b44d492a3d35d57fa76939822d2c66
+
+
+
 
 ** announcements 
 *** April 24th: next raku study group meeting 

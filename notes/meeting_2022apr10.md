@@ -1,62 +1,62 @@
-- [meeting notes April 10, 2022](#org88699e4)
-  - [the raku study group](#org814e4a6)
-  - [an answer to what's Raku for:](#org759beb7)
-    - [<https://www.codesections.com/blog/raku-manifesto/>](#orgdbedf98)
-  - [postponed from previous meetings](#orgfdd986c)
-    - [rob asks about "DEPRECATED"](#org697ad50)
-    - [bill's unix.stackexchange post](#org7e045c8)
-  - [recent topics](#org39d8c64)
-    - [David Emanuel da Costa Santiago (demanual)](#orgb5037a4)
-  - [announcements](#orge7005fc)
-    - [April 24th: next raku study group meeting](#org76309f3)
-    - [June 21-25: tprc: perl/raku conference](#orgbcfbf91)
+- [meeting notes April 10, 2022](#org6a7234a)
+  - [the raku study group](#org1f7fd79)
+  - [an answer to what's Raku for:](#org666698e)
+    - [<https://www.codesections.com/blog/raku-manifesto/>](#orgf0e8da8)
+  - [postponed from previous meetings](#org0f19ce8)
+    - [rob asks about "DEPRECATED"](#orga97ae7a)
+    - [bill's unix.stackexchange post](#org06c31e5)
+  - [recent topics](#org859b821)
+    - [Buggy behavior with mixed promises, supplies and channels &#x2013; demanual](#orgd5c2ace)
+  - [announcements](#org16cd94f)
+    - [April 24th: next raku study group meeting](#org2b09435)
+    - [June 21-25: tprc: perl/raku conference](#orga3f851c)
 
 
-<a id="org88699e4"></a>
+<a id="org6a7234a"></a>
 
 # meeting notes April 10, 2022
 
 
-<a id="org814e4a6"></a>
+<a id="org1f7fd79"></a>
 
 ## the raku study group
 
 
-<a id="org759beb7"></a>
+<a id="org666698e"></a>
 
 ## an answer to what's Raku for:
 
 
-<a id="orgdbedf98"></a>
+<a id="orgf0e8da8"></a>
 
 ### <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="orgfdd986c"></a>
+<a id="org0f19ce8"></a>
 
 ## postponed from previous meetings
 
 
-<a id="org697ad50"></a>
+<a id="orga97ae7a"></a>
 
 ### rob asks about "DEPRECATED"
 
 
-<a id="org7e045c8"></a>
+<a id="org06c31e5"></a>
 
 ### bill's unix.stackexchange post
 
 
-<a id="org39d8c64"></a>
+<a id="org859b821"></a>
 
 ## recent topics
 
 
-<a id="orgb5037a4"></a>
+<a id="orgd5c2ace"></a>
 
-### David Emanuel da Costa Santiago (demanual)
+### Buggy behavior with mixed promises, supplies and channels &#x2013; demanual
 
-1.  "Help with promises, supplies and channels"
+1.  David Emanuel da Costa Santiago on users mailing list
 
     1.  <https://www.nntp.perl.org/group/perl.perl6.users/2022/04/msg10474.html>
 
@@ -69,16 +69,16 @@
     1.  <https://github.com/rakudo/rakudo/commit/5658f4da07b44d492a3d35d57fa76939822d2c66>
 
 
-<a id="orge7005fc"></a>
+<a id="org16cd94f"></a>
 
 ## announcements
 
 
-<a id="org76309f3"></a>
+<a id="org2b09435"></a>
 
 ### April 24th: next raku study group meeting
 
 
-<a id="orgbcfbf91"></a>
+<a id="orga3f851c"></a>
 
 ### June 21-25: tprc: perl/raku conference
