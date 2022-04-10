@@ -7,8 +7,6 @@
 use v6;
 INIT $*RAT-OVERFLOW = FatRat;
 
-
-
 unit sub MAIN(Int $decimals = 1_000);
 
 sub atan_repr(Int $n, Int :$decimals)
