@@ -23,5 +23,5 @@ say "\n===\n";
 }
 
 {
-    raku -e '.say for sort lines().map(*.split(":",2)).classify({.[0]}, :as{.[1]} );' 
+    .say for sort $datfile.IO.lines().map(*.split(":",2)).classify({.[0]}, :as{.[1]} );
 }
