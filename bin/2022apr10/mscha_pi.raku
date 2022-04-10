@@ -2,6 +2,8 @@
 # 
 # mscha_pi.raku            10 Apr 2022 
 
+# https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
+
 use v6;
 
 unit sub MAIN(Int $decimals = 1_000);
