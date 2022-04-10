@@ -49,6 +49,9 @@
 ** untopic
 *** alan kay at 2020 "goto;"
 
+
+
+
 ** announcements 
 *** April 24th: next raku study group meeting 
 *** June 21-25: tprc: perl/raku conference 
