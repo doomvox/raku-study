@@ -20,6 +20,7 @@ sub atan_repr(Int $n, Int :$decimals)
         $x ×= $n2;
         $sign ×= -1;
         $result += FatRat.new($sign, $i × $x);
+        $result += $sign / ( $i × $x );
         last if $x ≥ $limit;
     }
 
