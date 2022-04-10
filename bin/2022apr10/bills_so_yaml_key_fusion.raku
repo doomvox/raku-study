@@ -16,8 +16,8 @@ my $datfile = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr10/dat/s
     };
     .say for %h;
 } 
+say "\n===\n";
 {
-    say "\n===\n";
     my %h .= append: .split(":").map(*.trim).hash for $datfile.IO.lines; 
     .say for %h;
 }
