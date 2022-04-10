@@ -32,6 +32,9 @@
 **** https://stackoverflow.com/questions/71650967/how-do-i-create-a-subclass-of-str
 **** https://stackoverflow.com/questions/71653350/working-around-for-the-cannot-modify-an-immutable-in-my-subclass-of-str
 
+** untopic
+*** alan kay at 2020 "goto;"
+
 ** announcements 
 *** April 24th: next raku study group meeting 
 *** June 21-25: tprc: perl/raku conference 
