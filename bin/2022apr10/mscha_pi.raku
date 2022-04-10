@@ -5,12 +5,12 @@
 # https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
 
 use v6;
-INIT $*RAT-OVERFLOW = FatRat;  ## needs a recent raku
 
 unit sub MAIN(Int $decimals = 1_000);
 
 sub atan_repr(Int $n, Int :$decimals)
 {
+    my $*RAT-OVERFLOW = FatRat;  ## needs a recent raku
     my $x = $n;
     my $n2 = $n²;
     my $sign = 1;
