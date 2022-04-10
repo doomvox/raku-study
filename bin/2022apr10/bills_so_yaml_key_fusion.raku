@@ -8,8 +8,6 @@
 
 use v6;
 
-
-
 ## kinda sorta yaml
 my $datfile = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr10/dat/so.dat";
 
