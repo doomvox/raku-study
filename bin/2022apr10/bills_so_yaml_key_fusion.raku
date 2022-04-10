@@ -22,6 +22,7 @@ say "\n===\n";
     .say for %h.sort;
 }
 
+say "\n===\n";
 {
     .say for sort $datfile.IO.lines().map(*.split(":",2)).classify({.[0]}, :as{.[1]} );
 }
