@@ -7,27 +7,27 @@
 use v6;
 
 ## kinda sorta yaml
-my $datfile = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr10/dat/so.dat";
+my $df = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr10/dat/so.dat";
 
 {
     my %h;
-    for $datfile.IO.lines() {
+    for $df.IO.lines() {
         %h .= append: .split(":").map( *.trim ).hash
     };
     .say for %h.sort;
 } 
 say "\n===\n";
 {
-    my %h .= append: .split(":").map(*.trim).hash for $datfile.IO.lines; 
+    my %h .= append: .split(":").map(*.trim).hash for $df.IO.lines; 
     .say for %h.sort;
 }
 
 say "\n===\n";
 {
-    .say for sort $datfile.IO.lines().map( *.split(":",2)).classify({.[0]}, :as{.[1]} );
+    .say for sort $df.IO.lines().map( *.split(":",2)).classify({.[0]}, :as{.[1]} );
 }
 
 say "\n===\n";
 {
-.say for sort $datfile.IO.lines().map({ /^(\S+)\:\s*\x27(.+?)\x27$/ or die; ~$0, ~$1 }).classify({.[0]}, :as{.[1]} );
+.say for sort $df.IO.lines().map({ /^(\S+)\:\s*\x27(.+?)\x27$/ or die; ~$0, ~$1 }).classify({.[0]}, :as{.[1]} );
 }
