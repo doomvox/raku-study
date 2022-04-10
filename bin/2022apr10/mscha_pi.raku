@@ -5,6 +5,9 @@
 # https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
 
 use v6;
+INIT $*RAT-OVERFLOW = FatRat;
+
+
 
 unit sub MAIN(Int $decimals = 1_000);
 
