@@ -23,7 +23,7 @@
 
 *** gui toolkits
 **** gtk3
-***** marcel zimmerman on raku
+***** marcel kimmerman on raku
 
 **** iup
 ***** https://en.wikipedia.org/wiki/IUP_(software)
