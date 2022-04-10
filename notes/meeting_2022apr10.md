@@ -1,60 +1,72 @@
-- [meeting notes April 10, 2022](#orgaa5512a)
-  - [the raku study group](#org7b78b9a)
-  - [an answer to what's Raku for:](#orgcfc7e43)
-    - [<https://www.codesections.com/blog/raku-manifesto/>](#orgdd8da30)
-  - [postponed from previous meetings](#org8e83323)
-    - [rob asks about "DEPRECATED"](#org0ab9d4f)
-    - [bill's unix.stackexchange post](#org6b42b78)
-  - [announcements](#org74337e6)
-    - [April 24th: next raku study group meeting](#orga2f0217)
-    - [June 21-25: tprc: perl/raku conference](#org07eb0fc)
+- [meeting notes April 10, 2022](#org4b34b59)
+  - [the raku study group](#org0631366)
+  - [an answer to what's Raku for:](#orgeeb90a8)
+    - [<https://www.codesections.com/blog/raku-manifesto/>](#org7a7c7de)
+  - [postponed from previous meetings](#orgad4dd57)
+    - [rob asks about "DEPRECATED"](#org0c0eefa)
+    - [bill's unix.stackexchange post](#orgb680705)
+  - [recent topics](#org368822d)
+    - [](#orgdca4046)
+  - [announcements](#orgb462bd0)
+    - [April 24th: next raku study group meeting](#orgdbeb166)
+    - [June 21-25: tprc: perl/raku conference](#org24b0353)
 
 
-<a id="orgaa5512a"></a>
+<a id="org4b34b59"></a>
 
 # meeting notes April 10, 2022
 
 
-<a id="org7b78b9a"></a>
+<a id="org0631366"></a>
 
 ## the raku study group
 
 
-<a id="orgcfc7e43"></a>
+<a id="orgeeb90a8"></a>
 
 ## an answer to what's Raku for:
 
 
-<a id="orgdd8da30"></a>
+<a id="org7a7c7de"></a>
 
 ### <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="org8e83323"></a>
+<a id="orgad4dd57"></a>
 
 ## postponed from previous meetings
 
 
-<a id="org0ab9d4f"></a>
+<a id="org0c0eefa"></a>
 
 ### rob asks about "DEPRECATED"
 
 
-<a id="org6b42b78"></a>
+<a id="orgb680705"></a>
 
 ### bill's unix.stackexchange post
 
 
-<a id="org74337e6"></a>
+<a id="org368822d"></a>
+
+## recent topics
+
+
+<a id="orgdca4046"></a>
+
+### 
+
+
+<a id="orgb462bd0"></a>
 
 ## announcements
 
 
-<a id="orga2f0217"></a>
+<a id="orgdbeb166"></a>
 
 ### April 24th: next raku study group meeting
 
 
-<a id="org07eb0fc"></a>
+<a id="org24b0353"></a>
 
 ### June 21-25: tprc: perl/raku conference

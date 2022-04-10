@@ -4,10 +4,12 @@
 *** https://www.codesections.com/blog/raku-manifesto/
 
 ** postponed from previous meetings
-
 *** rob asks about "DEPRECATED"
-
 *** bill's unix.stackexchange post
+
+
+** recent topics
+*** 
 
 ** announcements 
 *** April 24th: next raku study group meeting 
