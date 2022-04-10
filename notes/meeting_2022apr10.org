@@ -16,6 +16,8 @@
 ***** raku -e 'my %h; for lines() {%h.=append: .split(":").map(*.trim).hash}; .say for %h;' 
 
 *** rob asks about "DEPRECATED"
+**** https://github.com/rakudo/rakudo/blob/master/docs/articles/2016-02%20Proposed%20Perl%206%20Versioning%20And%20Compatibility%20Guidelines.md
+
 
 ** recent topics
 *** worthington prime number calculations
@@ -33,6 +35,8 @@
 ***** https://raku.land/github:hankache/IUP
 
 **** wish based tk 
+
+**** https://github.com/MARTIMM/gnome-gtk3/issues/28#issue-1199187148 
 
 *** Buggy behavior with mixed promises, supplies and channels -- demanual 
 **** David Emanuel da Costa Santiago on users mailing list
