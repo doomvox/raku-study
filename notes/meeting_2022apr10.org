@@ -26,6 +26,11 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-158/#TASK1
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-159/#TASK1 
 
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-158/0rir/raku
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-159/0rir/raku
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-158/bruce-gray
+**** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-159/challenge-159/bruce-gray/raku
+
 *** gui toolkits
 **** gtk3
 ***** marcel timmerman on raku
