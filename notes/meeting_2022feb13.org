@@ -6,7 +6,7 @@
 *** https://github.com/doomvox/raku-study/tree/main/bin/2022feb13 
 ** topics
 *** fosdem
-**** videos (note, webm files have sound, mp4s don't?)
+**** videos (note, the webm files have sound, but the mp4s don't)
 ***** https://video.fosdem.org/2022/
 ***** https://video.fosdem.org/2022/D.raku/
 **** Some are on youtube (but none of the Raku ones)
