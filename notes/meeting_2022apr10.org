@@ -9,7 +9,14 @@
 
 
 ** recent topics
-*** 
+*** demanual
+Mixing supplies, channels and promises makes the code hang or throwing exceptions
+https://github.com/rakudo/rakudo/issues/4853
+
+lizmat fix to master branch
+https://github.com/rakudo/rakudo/commit/5658f4da07b44d492a3d35d57fa76939822d2c66
+
+
 
 ** announcements 
 *** April 24th: next raku study group meeting 

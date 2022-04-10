@@ -1,72 +1,76 @@
-- [meeting notes April 10, 2022](#org4b34b59)
-  - [the raku study group](#org0631366)
-  - [an answer to what's Raku for:](#orgeeb90a8)
-    - [<https://www.codesections.com/blog/raku-manifesto/>](#org7a7c7de)
-  - [postponed from previous meetings](#orgad4dd57)
-    - [rob asks about "DEPRECATED"](#org0c0eefa)
-    - [bill's unix.stackexchange post](#orgb680705)
-  - [recent topics](#org368822d)
-    - [](#orgdca4046)
-  - [announcements](#orgb462bd0)
-    - [April 24th: next raku study group meeting](#orgdbeb166)
-    - [June 21-25: tprc: perl/raku conference](#org24b0353)
+- [meeting notes April 10, 2022](#org9527704)
+  - [the raku study group](#org199bdb0)
+  - [an answer to what's Raku for:](#orgc1c66db)
+    - [<https://www.codesections.com/blog/raku-manifesto/>](#orgd6c2994)
+  - [postponed from previous meetings](#org06533d1)
+    - [rob asks about "DEPRECATED"](#org6501da2)
+    - [bill's unix.stackexchange post](#org284e948)
+  - [recent topics](#org6e48b3e)
+    - [demanual](#org8d229d5)
+  - [announcements](#org2f51944)
+    - [April 24th: next raku study group meeting](#orgabbc416)
+    - [June 21-25: tprc: perl/raku conference](#org105f3a6)
 
 
-<a id="org4b34b59"></a>
+<a id="org9527704"></a>
 
 # meeting notes April 10, 2022
 
 
-<a id="org0631366"></a>
+<a id="org199bdb0"></a>
 
 ## the raku study group
 
 
-<a id="orgeeb90a8"></a>
+<a id="orgc1c66db"></a>
 
 ## an answer to what's Raku for:
 
 
-<a id="org7a7c7de"></a>
+<a id="orgd6c2994"></a>
 
 ### <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="orgad4dd57"></a>
+<a id="org06533d1"></a>
 
 ## postponed from previous meetings
 
 
-<a id="org0c0eefa"></a>
+<a id="org6501da2"></a>
 
 ### rob asks about "DEPRECATED"
 
 
-<a id="orgb680705"></a>
+<a id="org284e948"></a>
 
 ### bill's unix.stackexchange post
 
 
-<a id="org368822d"></a>
+<a id="org6e48b3e"></a>
 
 ## recent topics
 
 
-<a id="orgdca4046"></a>
+<a id="org8d229d5"></a>
 
-### 
+### demanual
+
+Mixing supplies, channels and promises makes the code hang or throwing exceptions <https://github.com/rakudo/rakudo/issues/4853>
+
+lizmat fix to master branch <https://github.com/rakudo/rakudo/commit/5658f4da07b44d492a3d35d57fa76939822d2c66>
 
 
-<a id="orgb462bd0"></a>
+<a id="org2f51944"></a>
 
 ## announcements
 
 
-<a id="orgdbeb166"></a>
+<a id="orgabbc416"></a>
 
 ### April 24th: next raku study group meeting
 
 
-<a id="org24b0353"></a>
+<a id="org105f3a6"></a>
 
 ### June 21-25: tprc: perl/raku conference
