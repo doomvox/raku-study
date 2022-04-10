@@ -14,13 +14,13 @@ sub atan_repr(Int $n, Int :$decimals)
     my $n2 = $n²;
     my $sign = 1;
     my $limit = 10**($decimals+2);
-    my $result = FatRat.new(1, $x);
-#    my $result = 1/$x;
+#    my $result = FatRat.new(1, $x);
+    my $result = 1/$x;
     for 3,5...* -> $i {
         $x ×= $n2;
         $sign ×= -1;
-        $result += FatRat.new($sign, $i × $x);
-#        $result += $sign / ( $i × $x );
+#        $result += FatRat.new($sign, $i × $x);
+        $result += $sign / ( $i × $x );
         last if $x ≥ $limit;
     }
 
