@@ -1,58 +1,59 @@
-- [meeting notes April 10, 2022](#org6a7234a)
-  - [the raku study group](#org1f7fd79)
-  - [an answer to what's Raku for:](#org666698e)
-    - [<https://www.codesections.com/blog/raku-manifesto/>](#orgf0e8da8)
-  - [postponed from previous meetings](#org0f19ce8)
-    - [rob asks about "DEPRECATED"](#orga97ae7a)
-    - [bill's unix.stackexchange post](#org06c31e5)
-  - [recent topics](#org859b821)
-    - [Buggy behavior with mixed promises, supplies and channels &#x2013; demanual](#orgd5c2ace)
-  - [announcements](#org16cd94f)
-    - [April 24th: next raku study group meeting](#org2b09435)
-    - [June 21-25: tprc: perl/raku conference](#orga3f851c)
+- [meeting notes April 10, 2022](#org29cb7fc)
+  - [the raku study group](#org4cdf80e)
+  - [an answer to what's Raku for:](#org780faf3)
+    - [<https://www.codesections.com/blog/raku-manifesto/>](#org13b0202)
+  - [postponed from previous meetings](#orgf093ca8)
+    - [rob asks about "DEPRECATED"](#orge3202af)
+    - [bill's unix.stackexchange post](#org4660896)
+  - [recent topics](#orgcb1fd43)
+    - [Buggy behavior with mixed promises, supplies and channels &#x2013; demanual](#org3a0b26b)
+    - [simple but puzzling behavior, converting scientific notation to Rat](#org3a4df59)
+  - [announcements](#org1f89e8b)
+    - [April 24th: next raku study group meeting](#orgdfe0efe)
+    - [June 21-25: tprc: perl/raku conference](#orgf1110e8)
 
 
-<a id="org6a7234a"></a>
+<a id="org29cb7fc"></a>
 
 # meeting notes April 10, 2022
 
 
-<a id="org1f7fd79"></a>
+<a id="org4cdf80e"></a>
 
 ## the raku study group
 
 
-<a id="org666698e"></a>
+<a id="org780faf3"></a>
 
 ## an answer to what's Raku for:
 
 
-<a id="orgf0e8da8"></a>
+<a id="org13b0202"></a>
 
 ### <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="org0f19ce8"></a>
+<a id="orgf093ca8"></a>
 
 ## postponed from previous meetings
 
 
-<a id="orga97ae7a"></a>
+<a id="orge3202af"></a>
 
 ### rob asks about "DEPRECATED"
 
 
-<a id="org06c31e5"></a>
+<a id="org4660896"></a>
 
 ### bill's unix.stackexchange post
 
 
-<a id="org859b821"></a>
+<a id="orgcb1fd43"></a>
 
 ## recent topics
 
 
-<a id="orgd5c2ace"></a>
+<a id="org3a0b26b"></a>
 
 ### Buggy behavior with mixed promises, supplies and channels &#x2013; demanual
 
@@ -69,16 +70,23 @@
     1.  <https://github.com/rakudo/rakudo/commit/5658f4da07b44d492a3d35d57fa76939822d2c66>
 
 
-<a id="org16cd94f"></a>
+<a id="org3a4df59"></a>
+
+### simple but puzzling behavior, converting scientific notation to Rat
+
+1.  <https://www.reddit.com/r/rakulang/comments/u0fsg6/converting_num_to_rational_bug_of_feature/>
+
+
+<a id="org1f89e8b"></a>
 
 ## announcements
 
 
-<a id="org2b09435"></a>
+<a id="orgdfe0efe"></a>
 
 ### April 24th: next raku study group meeting
 
 
-<a id="orga3f851c"></a>
+<a id="orgf1110e8"></a>
 
 ### June 21-25: tprc: perl/raku conference
