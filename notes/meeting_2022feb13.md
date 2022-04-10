@@ -1,53 +1,53 @@
-- [meeting notes February 13, 2022](#org873732b)
-  - [the raku study group](#org308fc4c)
-  - [usual links to the meeting material](#orgd640b98)
-    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>](#org0f26881)
-    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb13>](#orge47cbe4)
-  - [topics](#org99b8349)
-    - [fosdem](#org3ed0417)
-    - [unix.stackexchange.com moderator has magnanimously unbanned me](#org2bd2429)
-    - [Physics::Measure](#org83024ec)
-    - [william michels github issue](#orga761fb2)
-    - [Making a hash out of intertwined array of strings and integers](#org3032be6)
-  - [untopics](#org60a44cc)
-    - [Alan, noting my Materials Science background asks what I think of:](#org5519253)
-    - [William Michels was curious about:](#org36f975a)
-  - [announcements](#org4843798)
-    - [February 27th: next raku study group meeting](#org07b15b8)
-    - [June 21-25: tprc: perl/raku conference](#org41eb873)
+- [meeting notes February 13, 2022](#orga8f18c0)
+  - [the raku study group](#org9cb541a)
+  - [usual links to the meeting material](#org944a709)
+    - [<https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>](#org636a4c2)
+    - [<https://github.com/doomvox/raku-study/tree/main/bin/2022feb13>](#orgad96335)
+  - [topics](#orge89cd48)
+    - [fosdem](#org319f648)
+    - [unix.stackexchange.com moderator has magnanimously unbanned me](#org5f4a030)
+    - [Physics::Measure](#org8960e25)
+    - [william michels github issue](#orgeb3902e)
+    - [Making a hash out of intertwined array of strings and integers](#org58f0742)
+  - [untopics](#orgc01ac5b)
+    - [Alan, noting my Materials Science background asks what I think of:](#org60e98db)
+    - [William Michels was curious about:](#org7094f80)
+  - [announcements](#org5c92e17)
+    - [February 27th: next raku study group meeting](#org93ac8df)
+    - [June 21-25: tprc: perl/raku conference](#orge7bc891)
 
 
-<a id="org873732b"></a>
+<a id="orga8f18c0"></a>
 
 # meeting notes February 13, 2022
 
 
-<a id="org308fc4c"></a>
+<a id="org9cb541a"></a>
 
 ## the raku study group
 
 
-<a id="orgd640b98"></a>
+<a id="org944a709"></a>
 
 ## usual links to the meeting material
 
 
-<a id="org0f26881"></a>
+<a id="org636a4c2"></a>
 
 ### <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb13.md>
 
 
-<a id="orge47cbe4"></a>
+<a id="orgad96335"></a>
 
 ### <https://github.com/doomvox/raku-study/tree/main/bin/2022feb13>
 
 
-<a id="org99b8349"></a>
+<a id="orge89cd48"></a>
 
 ## topics
 
 
-<a id="org3ed0417"></a>
+<a id="org319f648"></a>
 
 ### fosdem
 
@@ -60,12 +60,12 @@
 2.  Some are on youtube (but none of the Raku ones)
 
 
-<a id="org2bd2429"></a>
+<a id="org5f4a030"></a>
 
 ### unix.stackexchange.com moderator has magnanimously unbanned me
 
 
-<a id="org83024ec"></a>
+<a id="org8960e25"></a>
 
 ### Physics::Measure
 
@@ -106,7 +106,7 @@
         1.  Here: "m" is a Raku postfix operator
 
 
-<a id="orga761fb2"></a>
+<a id="orgeb3902e"></a>
 
 ### william michels github issue
 
@@ -119,19 +119,19 @@
         1.  So Raku coerces the single value into a list, and derefs it?
 
 
-<a id="org3032be6"></a>
+<a id="org58f0742"></a>
 
 ### Making a hash out of intertwined array of strings and integers
 
 1.  <https://www.reddit.com/r/rakulang/comments/skc52i/making_a_hash_out_of_intertwined_array_of_strings/>
 
 
-<a id="org60a44cc"></a>
+<a id="orgc01ac5b"></a>
 
 ## untopics
 
 
-<a id="org5519253"></a>
+<a id="org60e98db"></a>
 
 ### Alan, noting my Materials Science background asks what I think of:
 
@@ -140,7 +140,7 @@
 2.  <https://link.springer.com/book/10.1007/978-1-4615-9074-3>
 
 
-<a id="org36f975a"></a>
+<a id="org7094f80"></a>
 
 ### William Michels was curious about:
 
@@ -149,16 +149,16 @@
 2.  <https://link.springer.com/book/10.1007/978-981-13-7014-4>
 
 
-<a id="org4843798"></a>
+<a id="org5c92e17"></a>
 
 ## announcements
 
 
-<a id="org07b15b8"></a>
+<a id="org93ac8df"></a>
 
 ### February 27th: next raku study group meeting
 
 
-<a id="org41eb873"></a>
+<a id="orge7bc891"></a>
 
 ### June 21-25: tprc: perl/raku conference
