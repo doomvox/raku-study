@@ -9,7 +9,9 @@
 
 
 ** recent topics
-*** demanual
+*** David Emanuel da Costa Santiago (demanual)
+Help with promises, supplies and channels.
+https://www.nntp.perl.org/group/perl.perl6.users/2022/04/msg10474.html
 Mixing supplies, channels and promises makes the code hang or throwing exceptions
 https://github.com/rakudo/rakudo/issues/4853
 
