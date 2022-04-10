@@ -6,6 +6,10 @@ use v6;
 
 my $datfile = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr10/dat/so.yaml";
 
-my %h; for lines() {%h.=append: .split(":").map(*.trim).hash}; .say for %h;
+my %h;
+for $datfile.IO.lines() {
+    %h .= append: .split(":").map(*.trim).hash
+};
+.say for %h;
 
 
