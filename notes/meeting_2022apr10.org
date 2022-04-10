@@ -20,6 +20,15 @@
 *** weekly challenges
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-158/#TASK1
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-159/#TASK1 
+
+*** gui toolkits
+**** gtk3
+**** iup
+***** https://en.wikipedia.org/wiki/IUP_(software)
+***** https://raku.land/github:hankache/IUP
+
+**** wish based tk 
+
 *** Buggy behavior with mixed promises, supplies and channels -- demanual 
 **** David Emanuel da Costa Santiago on users mailing list
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2022/04/msg10474.html
