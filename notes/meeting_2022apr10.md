@@ -1,33 +1,33 @@
-- [meeting notes April 10, 2022](#orga019576)
-  - [the raku study group](#orgffa8a2b)
-    - [usual links](#orgd55f812)
-  - [an answer to what's Raku for:](#org1ea4878)
-    - [<https://www.codesections.com/blog/raku-manifesto/>](#org8d4d7d0)
-  - [postponed from previous meetings](#org5308787)
-    - [rob asks about "DEPRECATED"](#org8c65d37)
-    - [bill's unix.stackexchange post](#org03f33be)
-  - [recent topics](#orgc503c9a)
-    - [worthington prime number calculations](#org8bcc84a)
-    - [Buggy behavior with mixed promises, supplies and channels &#x2013; demanual](#orgdb312c1)
-    - [simple but puzzling behavior, converting scientific notation to Rat](#orgecc7c69)
-    - [undocumented custom feature: get Rats to upgrade to FatRats](#org2ec997b)
-    - [subclassing Str class](#org82cb20d)
-  - [announcements](#org8c92927)
-    - [April 24th: next raku study group meeting](#orgcc15c27)
-    - [June 21-25: tprc: perl/raku conference](#orgb104d72)
+- [meeting notes April 10, 2022](#orgb13b6f6)
+  - [the raku study group](#org66520e0)
+    - [usual links](#orgb52e1c1)
+  - [an answer to what's Raku for:](#org80406ab)
+    - [<https://www.codesections.com/blog/raku-manifesto/>](#org8e6f830)
+  - [postponed from previous meetings](#orgf44d7ed)
+    - [rob asks about "DEPRECATED"](#orgc7c0597)
+    - [bill's unix.stackexchange post](#org9119634)
+  - [recent topics](#org43133fc)
+    - [worthington prime number calculations](#org83b1367)
+    - [Buggy behavior with mixed promises, supplies and channels &#x2013; demanual](#orgc236cd5)
+    - [simple but puzzling behavior, converting scientific notation to Rat](#org3adc621)
+    - [undocumented custom feature: get Rats to upgrade to FatRats](#orgad947d8)
+    - [subclassing Str class](#org0ccd1cd)
+  - [announcements](#org954a519)
+    - [April 24th: next raku study group meeting](#orgee85c25)
+    - [June 21-25: tprc: perl/raku conference](#org93b0ed1)
 
 
-<a id="orga019576"></a>
+<a id="orgb13b6f6"></a>
 
 # meeting notes April 10, 2022
 
 
-<a id="orgffa8a2b"></a>
+<a id="org66520e0"></a>
 
 ## the raku study group
 
 
-<a id="orgd55f812"></a>
+<a id="orgb52e1c1"></a>
 
 ### usual links
 
@@ -40,46 +40,46 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022apr10>
 
 
-<a id="org1ea4878"></a>
+<a id="org80406ab"></a>
 
 ## an answer to what's Raku for:
 
 
-<a id="org8d4d7d0"></a>
+<a id="org8e6f830"></a>
 
 ### <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="org5308787"></a>
+<a id="orgf44d7ed"></a>
 
 ## postponed from previous meetings
 
 
-<a id="org8c65d37"></a>
+<a id="orgc7c0597"></a>
 
 ### rob asks about "DEPRECATED"
 
 
-<a id="org03f33be"></a>
+<a id="org9119634"></a>
 
 ### bill's unix.stackexchange post
 
 1.  <https://unix.stackexchange.com/questions/696495/find-duplicate-1st-field-and-concat-its-values-in-single-line/698487#698487>
 
 
-<a id="orgc503c9a"></a>
+<a id="org43133fc"></a>
 
 ## recent topics
 
 
-<a id="org8bcc84a"></a>
+<a id="org83b1367"></a>
 
 ### worthington prime number calculations
 
 1.  <https://stackoverflow.com/questions/58841508/questions-on-the-prime-number-calculating-code-in-raku>
 
 
-<a id="orgdb312c1"></a>
+<a id="orgc236cd5"></a>
 
 ### Buggy behavior with mixed promises, supplies and channels &#x2013; demanual
 
@@ -96,21 +96,21 @@
     1.  <https://github.com/rakudo/rakudo/commit/5658f4da07b44d492a3d35d57fa76939822d2c66>
 
 
-<a id="orgecc7c69"></a>
+<a id="org3adc621"></a>
 
 ### simple but puzzling behavior, converting scientific notation to Rat
 
 1.  <https://www.reddit.com/r/rakulang/comments/u0fsg6/converting_num_to_rational_bug_of_feature/>
 
 
-<a id="org2ec997b"></a>
+<a id="orgad947d8"></a>
 
 ### undocumented custom feature: get Rats to upgrade to FatRats
 
 1.  <https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku>
 
 
-<a id="org82cb20d"></a>
+<a id="org0ccd1cd"></a>
 
 ### subclassing Str class
 
@@ -119,16 +119,16 @@
 2.  <https://stackoverflow.com/questions/71653350/working-around-for-the-cannot-modify-an-immutable-in-my-subclass-of-str>
 
 
-<a id="org8c92927"></a>
+<a id="org954a519"></a>
 
 ## announcements
 
 
-<a id="orgcc15c27"></a>
+<a id="orgee85c25"></a>
 
 ### April 24th: next raku study group meeting
 
 
-<a id="orgb104d72"></a>
+<a id="org93b0ed1"></a>
 
 ### June 21-25: tprc: perl/raku conference
