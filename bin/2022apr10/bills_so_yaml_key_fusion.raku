@@ -12,6 +12,6 @@ for $datfile.IO.lines() {
 };
 .say for %h;
 
+say "===";
 
-
-my %h.=append: .split(":").map(*.trim).hash for lines; .say for %h;
+my %h .= append: .split(":").map(*.trim).hash for lines; .say for %h;
