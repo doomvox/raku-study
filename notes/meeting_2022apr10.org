@@ -31,6 +31,8 @@
 **** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-158/bruce-gray
 **** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-159/challenge-159/bruce-gray/raku
 
+**** https://en.wikipedia.org/wiki/Farey_sequence
+
 *** gui toolkits
 **** gtk3
 ***** marcel timmerman on raku
