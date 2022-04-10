@@ -1,5 +1,9 @@
 * meeting notes April 10, 2022
 ** the raku study group
+*** usual links
+**** code examples
+https://github.com/doomvox/raku-study/tree/main/bin/2022apr10
+
 
 ** an answer to what's Raku for:
 *** https://www.codesections.com/blog/raku-manifesto/
