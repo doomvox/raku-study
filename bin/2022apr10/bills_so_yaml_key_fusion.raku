@@ -9,12 +9,17 @@ use v6;
 ## kinda sorta yaml
 my $datfile = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr10/dat/so.dat";
 
-my %h;
-for $datfile.IO.lines() {
-    %h .= append: .split(":").map( *.trim ).hash
-};
-.say for %h;
+{
+    my %h;
+    for $datfile.IO.lines() {
+        %h .= append: .split(":").map( *.trim ).hash
+    };
+    .say for %h;
+} 
 
-say "===";
+{
+    say "===";
 
-my %h .= append: .split(":").map(*.trim).hash for $datfile.IO.lines; .say for %h;
+    my %h .= append: .split(":").map(*.trim).hash for $datfile.IO.lines; .say for %h;
+    .say for %h;
+}
