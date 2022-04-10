@@ -38,9 +38,7 @@
 **** iup
 ***** https://en.wikipedia.org/wiki/IUP_(software)
 ***** https://raku.land/github:hankache/IUP
-
 **** wish based tk 
-
 **** https://github.com/MARTIMM/gnome-gtk3/issues/28#issue-1199187148 
 
 *** Buggy behavior with mixed promises, supplies and channels -- demanual 
