@@ -20,6 +20,9 @@
 **** https://www.reddit.com/r/rakulang/comments/u0fsg6/converting_num_to_rational_bug_of_feature/
 *** undocumented custom feature: get Rats to upgrade to FatRats
 **** https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
+*** subclassing Str class
+**** https://stackoverflow.com/questions/71650967/how-do-i-create-a-subclass-of-str
+**** https://stackoverflow.com/questions/71653350/working-around-for-the-cannot-modify-an-immutable-in-my-subclass-of-str
 
 ** announcements 
 *** April 24th: next raku study group meeting 

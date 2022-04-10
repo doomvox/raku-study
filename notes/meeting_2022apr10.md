@@ -1,60 +1,61 @@
-- [meeting notes April 10, 2022](#orgdd5fc0d)
-  - [the raku study group](#orgf607651)
-  - [an answer to what's Raku for:](#org7586b40)
-    - [<https://www.codesections.com/blog/raku-manifesto/>](#org261787b)
-  - [postponed from previous meetings](#org75caab9)
-    - [rob asks about "DEPRECATED"](#org8ac5f55)
-    - [bill's unix.stackexchange post](#orgf3fcde2)
-  - [recent topics](#orge02d7a4)
-    - [Buggy behavior with mixed promises, supplies and channels &#x2013; demanual](#orgafda81a)
-    - [simple but puzzling behavior, converting scientific notation to Rat](#orga954494)
-    - [undocumented custom feature: get Rats to upgrade to FatRats](#org5160031)
-  - [announcements](#org8bce73f)
-    - [April 24th: next raku study group meeting](#org9b811d6)
-    - [June 21-25: tprc: perl/raku conference](#orge6bca98)
+- [meeting notes April 10, 2022](#org31a33f1)
+  - [the raku study group](#orge762c4d)
+  - [an answer to what's Raku for:](#org501a83b)
+    - [<https://www.codesections.com/blog/raku-manifesto/>](#org50643fd)
+  - [postponed from previous meetings](#orga8c61bc)
+    - [rob asks about "DEPRECATED"](#orga9bf7aa)
+    - [bill's unix.stackexchange post](#org63c1b39)
+  - [recent topics](#org0683712)
+    - [Buggy behavior with mixed promises, supplies and channels &#x2013; demanual](#org9513ea5)
+    - [simple but puzzling behavior, converting scientific notation to Rat](#org3f1a1cd)
+    - [undocumented custom feature: get Rats to upgrade to FatRats](#org0077cd3)
+    - [subclassing Str class](#org3033138)
+  - [announcements](#orga266c98)
+    - [April 24th: next raku study group meeting](#orgd94b7cf)
+    - [June 21-25: tprc: perl/raku conference](#orgcf0f9b4)
 
 
-<a id="orgdd5fc0d"></a>
+<a id="org31a33f1"></a>
 
 # meeting notes April 10, 2022
 
 
-<a id="orgf607651"></a>
+<a id="orge762c4d"></a>
 
 ## the raku study group
 
 
-<a id="org7586b40"></a>
+<a id="org501a83b"></a>
 
 ## an answer to what's Raku for:
 
 
-<a id="org261787b"></a>
+<a id="org50643fd"></a>
 
 ### <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="org75caab9"></a>
+<a id="orga8c61bc"></a>
 
 ## postponed from previous meetings
 
 
-<a id="org8ac5f55"></a>
+<a id="orga9bf7aa"></a>
 
 ### rob asks about "DEPRECATED"
 
 
-<a id="orgf3fcde2"></a>
+<a id="org63c1b39"></a>
 
 ### bill's unix.stackexchange post
 
 
-<a id="orge02d7a4"></a>
+<a id="org0683712"></a>
 
 ## recent topics
 
 
-<a id="orgafda81a"></a>
+<a id="org9513ea5"></a>
 
 ### Buggy behavior with mixed promises, supplies and channels &#x2013; demanual
 
@@ -71,30 +72,39 @@
     1.  <https://github.com/rakudo/rakudo/commit/5658f4da07b44d492a3d35d57fa76939822d2c66>
 
 
-<a id="orga954494"></a>
+<a id="org3f1a1cd"></a>
 
 ### simple but puzzling behavior, converting scientific notation to Rat
 
 1.  <https://www.reddit.com/r/rakulang/comments/u0fsg6/converting_num_to_rational_bug_of_feature/>
 
 
-<a id="org5160031"></a>
+<a id="org0077cd3"></a>
 
 ### undocumented custom feature: get Rats to upgrade to FatRats
 
 1.  <https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku>
 
 
-<a id="org8bce73f"></a>
+<a id="org3033138"></a>
+
+### subclassing Str class
+
+1.  <https://stackoverflow.com/questions/71650967/how-do-i-create-a-subclass-of-str>
+
+2.  <https://stackoverflow.com/questions/71653350/working-around-for-the-cannot-modify-an-immutable-in-my-subclass-of-str>
+
+
+<a id="orga266c98"></a>
 
 ## announcements
 
 
-<a id="org9b811d6"></a>
+<a id="orgd94b7cf"></a>
 
 ### April 24th: next raku study group meeting
 
 
-<a id="orge6bca98"></a>
+<a id="orgcf0f9b4"></a>
 
 ### June 21-25: tprc: perl/raku conference
