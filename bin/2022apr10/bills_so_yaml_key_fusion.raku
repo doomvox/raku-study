@@ -21,3 +21,7 @@ say "\n===\n";
     my %h .= append: .split(":").map(*.trim).hash for $datfile.IO.lines; 
     .say for %h.sort;
 }
+
+{
+    raku -e '.say for sort lines().map(*.split(":",2)).classify({.[0]}, :as{.[1]} );' 
+}
