@@ -4,7 +4,7 @@
 
 use v6;
 
-my $datfile = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr10/dat/so.yaml";
+my $datfile = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr10/dat/so.dat";
 
 my %h;
 for $datfile.IO.lines() {
