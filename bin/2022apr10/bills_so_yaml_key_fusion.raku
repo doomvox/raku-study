@@ -14,10 +14,10 @@ my $datfile = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr10/dat/s
     for $datfile.IO.lines() {
         %h .= append: .split(":").map( *.trim ).hash
     };
-    .say for %h;
+    .say for %h.sort;
 } 
 say "\n===\n";
 {
     my %h .= append: .split(":").map(*.trim).hash for $datfile.IO.lines; 
-    .say for %h;
+    .say for %h.sort;
 }
