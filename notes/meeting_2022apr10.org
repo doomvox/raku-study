@@ -32,6 +32,7 @@
 **** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-159/challenge-159/bruce-gray/raku
 
 **** https://en.wikipedia.org/wiki/Farey_sequence
+**** https://en.wikipedia.org/wiki/M%C3%B6bius_function
 
 *** gui toolkits
 **** gtk3
