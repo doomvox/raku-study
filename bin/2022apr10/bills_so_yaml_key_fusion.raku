@@ -8,8 +8,10 @@ my $datfile = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr10/dat/s
 
 my %h;
 for $datfile.IO.lines() {
-    %h .= append: .split(":").map(*.trim).hash
+    %h .= append: .split(":").map( *.trim ).hash
 };
 .say for %h;
 
 
+
+my %h.=append: .split(":").map(*.trim).hash for lines; .say for %h;
