@@ -1,37 +1,37 @@
-- [meeting notes April 10, 2022](#org62eb782)
-  - [the raku study group](#org79e0d2c)
-    - [usual links](#orgf774b70)
-  - [an answer to what's Raku for:](#orgde36b4e)
-    - [<https://www.codesections.com/blog/raku-manifesto/>](#org76cc86d)
-  - [postponed from previous meetings](#org1f0397e)
-    - [bill's unix.stackexchange post](#orge30325d)
-    - [rob asks about "DEPRECATED"](#org02678d1)
-  - [recent topics](#org71989cd)
-    - [worthington prime number calculations](#org2d65d84)
-    - [weekly challenges](#org3918bc3)
-    - [gui toolkits](#org92ac874)
-    - [Buggy behavior with mixed promises, supplies and channels &#x2013; demanual](#orgc83763e)
-    - [simple but puzzling behavior, converting scientific notation to Rat](#org4bba655)
-    - [undocumented custom feature: get Rats to upgrade to FatRats](#orgeb8cf35)
-    - [subclassing Str class](#org4bca9e5)
-  - [untopic](#orga79abc5)
-    - [alan kay at 2020 "goto;"](#org078c99f)
-  - [announcements](#org7265a20)
-    - [April 24th: next raku study group meeting](#org942e0bf)
-    - [June 21-25: tprc: perl/raku conference](#org081b763)
+- [meeting notes April 10, 2022](#orgc2ee7ea)
+  - [the raku study group](#orgbf44a8b)
+    - [usual links](#orgd378d2c)
+  - [an answer to what's Raku for:](#org595cc2b)
+    - [<https://www.codesections.com/blog/raku-manifesto/>](#org927d655)
+  - [postponed from previous meetings](#org927e63e)
+    - [bill's unix.stackexchange post](#org64e01c8)
+    - [rob asks about "DEPRECATED"](#orgb4ff875)
+  - [recent topics](#orgd774c27)
+    - [worthington prime number calculations](#org8a567a0)
+    - [weekly challenges](#org2928c2e)
+    - [gui toolkits](#orgeba9797)
+    - [Buggy behavior with mixed promises, supplies and channels &#x2013; demanual](#orgce56806)
+    - [simple but puzzling behavior, converting scientific notation to Rat](#org1c404a1)
+    - [undocumented custom feature: get Rats to upgrade to FatRats](#orgf99084d)
+    - [subclassing Str class](#orge8092e5)
+  - [untopic](#org01ba3c2)
+    - [alan kay at 2020 "goto;"](#org34064f4)
+  - [announcements](#org9fed2f7)
+    - [April 24th: next raku study group meeting](#org099b852)
+    - [June 21-25: tprc: perl/raku conference](#org63aba27)
 
 
-<a id="org62eb782"></a>
+<a id="orgc2ee7ea"></a>
 
 # meeting notes April 10, 2022
 
 
-<a id="org79e0d2c"></a>
+<a id="orgbf44a8b"></a>
 
 ## the raku study group
 
 
-<a id="orgf774b70"></a>
+<a id="orgd378d2c"></a>
 
 ### usual links
 
@@ -44,46 +44,46 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022apr10>
 
 
-<a id="orgde36b4e"></a>
+<a id="org595cc2b"></a>
 
 ## an answer to what's Raku for:
 
 
-<a id="org76cc86d"></a>
+<a id="org927d655"></a>
 
 ### <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="org1f0397e"></a>
+<a id="org927e63e"></a>
 
 ## postponed from previous meetings
 
 
-<a id="orge30325d"></a>
+<a id="org64e01c8"></a>
 
 ### bill's unix.stackexchange post
 
 1.  <https://unix.stackexchange.com/questions/696495/find-duplicate-1st-field-and-concat-its-values-in-single-line/698487#698487>
 
 
-<a id="org02678d1"></a>
+<a id="orgb4ff875"></a>
 
 ### rob asks about "DEPRECATED"
 
 
-<a id="org71989cd"></a>
+<a id="orgd774c27"></a>
 
 ## recent topics
 
 
-<a id="org2d65d84"></a>
+<a id="org8a567a0"></a>
 
 ### worthington prime number calculations
 
 1.  <https://stackoverflow.com/questions/58841508/questions-on-the-prime-number-calculating-code-in-raku>
 
 
-<a id="org3918bc3"></a>
+<a id="org2928c2e"></a>
 
 ### weekly challenges
 
@@ -92,13 +92,15 @@
 2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-159/#TASK1>
 
 
-<a id="org92ac874"></a>
+<a id="orgeba9797"></a>
 
 ### gui toolkits
 
 1.  gtk3
 
     1.  marcel timmerman on raku
+    
+    2.  <https://modules.raku.org/dist/Gnome::Gtk3>
 
 2.  iup
 
@@ -109,7 +111,7 @@
 3.  wish based tk
 
 
-<a id="orgc83763e"></a>
+<a id="orgce56806"></a>
 
 ### Buggy behavior with mixed promises, supplies and channels &#x2013; demanual
 
@@ -126,21 +128,21 @@
     1.  <https://github.com/rakudo/rakudo/commit/5658f4da07b44d492a3d35d57fa76939822d2c66>
 
 
-<a id="org4bba655"></a>
+<a id="org1c404a1"></a>
 
 ### simple but puzzling behavior, converting scientific notation to Rat
 
 1.  <https://www.reddit.com/r/rakulang/comments/u0fsg6/converting_num_to_rational_bug_of_feature/>
 
 
-<a id="orgeb8cf35"></a>
+<a id="orgf99084d"></a>
 
 ### undocumented custom feature: get Rats to upgrade to FatRats
 
 1.  <https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku>
 
 
-<a id="org4bca9e5"></a>
+<a id="orge8092e5"></a>
 
 ### subclassing Str class
 
@@ -149,26 +151,26 @@
 2.  <https://stackoverflow.com/questions/71653350/working-around-for-the-cannot-modify-an-immutable-in-my-subclass-of-str>
 
 
-<a id="orga79abc5"></a>
+<a id="org01ba3c2"></a>
 
 ## untopic
 
 
-<a id="org078c99f"></a>
+<a id="org34064f4"></a>
 
 ### alan kay at 2020 "goto;"
 
 
-<a id="org7265a20"></a>
+<a id="org9fed2f7"></a>
 
 ## announcements
 
 
-<a id="org942e0bf"></a>
+<a id="org099b852"></a>
 
 ### April 24th: next raku study group meeting
 
 
-<a id="org081b763"></a>
+<a id="org63aba27"></a>
 
 ### June 21-25: tprc: perl/raku conference
