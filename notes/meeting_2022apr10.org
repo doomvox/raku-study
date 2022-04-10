@@ -8,7 +8,7 @@
 
 ** an answer to what's Raku for:
 *** https://www.codesections.com/blog/raku-manifesto/
-
+ 
 ** postponed from previous meetings
 *** rob asks about "DEPRECATED"
 *** bill's unix.stackexchange post
