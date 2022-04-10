@@ -60,7 +60,7 @@
 **** https://stackoverflow.com/questions/71653350/working-around-for-the-cannot-modify-an-immutable-in-my-subclass-of-str
 
 ** untopic
-*** alan kay at 2020 "goto;"
+*** Alan Kay at 2020 "goto;"
 **** https://www.youtube.com/watch?v=D43PlUr1x_E?vq=hd1080
 
 *** international call signs
