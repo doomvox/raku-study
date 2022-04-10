@@ -29,5 +29,5 @@ say "\n===\n";
 
 say "\n===\n";
 {
-.say for sort $df.IO.lines().map({ /^(\S+)\:\s*\x27(.+?)\x27$/ or die; ~$0, ~$1 }).classify({.[0]}, :as{.[1]} );
+  .say for sort $df.IO.lines().map( { /^(\S+)\:\s*\x27(.+?)\x27$/ or die; ~$0, ~$1 } ).classify( {.[0]}, :as{.[1]} );
 }
