@@ -51,7 +51,7 @@
 ***** https://github.com/rakudo/rakudo/issues/4853
 **** lizmat fix to master branch: "Fix race condition in Rakudo::Supply::BlockState" 
 ***** https://github.com/rakudo/rakudo/commit/5658f4da07b44d492a3d35d57fa76939822d2c66
-*** simple but puzzling behavior, converting scientific notation to Rat 
+*** simple but puzzling behavior: converting scientific notation to Rat 
 **** https://www.reddit.com/r/rakulang/comments/u0fsg6/converting_num_to_rational_bug_of_feature/
 *** undocumented custom feature: get Rats to upgrade to FatRats
 **** https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
