@@ -13,7 +13,12 @@ $n = 6;
 say $n;
 
 say "===";
+$n_ish = "6";
+say $n_ish;
+$n = "6";
+say $n;
 
+say "===";
 $n_ish = "6";
 say $n_ish;
 $n = "6";
