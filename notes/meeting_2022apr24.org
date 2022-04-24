@@ -50,7 +50,7 @@ storage device. It also works with directories, while move does not.
 *** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-160/bruce-gray/raku
 *** http://blogs.perl.org/users/bruce_gray/2022/04/twc-160-mysticmath-balance.html
 
-** equilbirum index
+** equilibirum index
 http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution
 
 ** postponed from previous meetings
