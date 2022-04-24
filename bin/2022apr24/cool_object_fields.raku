@@ -21,7 +21,7 @@ say $r2.area; # 123
 
 say $r2.area.WHAT; # (Int)
 
-dd $r2;
+dd $r2; # MyRow $r2 = MyRow.new(area => 123)
 
 # ===
 # Author:  doom@kzsu.stanford.edu
