@@ -52,7 +52,7 @@ storage device. It also works with directories, while move does not.
 
 ** equilibirum index
 *** http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution
-*** TODO revisit this next time
+*** TODO revisit this next time (Rob solution?)
 
 ** postponed from previous meetings
 *** an answer to what's Raku for:
