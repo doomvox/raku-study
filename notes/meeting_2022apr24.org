@@ -43,6 +43,9 @@ storage device. It also works with directories, while move does not.
 ****** Seriously?
 
 
+** earlier weekly challenge, bruce gray
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-160/
+
 ** postponed from previous meetings
 *** an answer to what's Raku for:
 **** https://www.codesections.com/blog/raku-manifesto/
