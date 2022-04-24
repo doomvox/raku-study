@@ -12,8 +12,8 @@ subset Numesque of Any where { defined .Numeric };
 
 class MyRow {
     has Str      $.state is rw;
-#     has Numeric  $.area  is rw;
-    has Numeric(Cool)  $.area  is rw;
+    has Numeric  $.area  is rw;
+#    has Numeric(Cool)  $.area  is rw;  ## TODO does this work now?  Sunday April 24, 2022   1:50 PM
 
 #    has Num $.area  is rw;
 #    has NumStr $.area  is rw;
