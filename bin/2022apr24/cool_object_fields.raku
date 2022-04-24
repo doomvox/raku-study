@@ -16,6 +16,8 @@ say $r2.area; # 6
 $r2.area = 7;
 say $r2.area; # 7
 
+$r2.area = '123';
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
