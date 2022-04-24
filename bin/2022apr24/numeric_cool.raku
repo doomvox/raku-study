@@ -27,7 +27,7 @@ say "===";
 
 my Cool $anything;
 $anything = "six";
-# say $n_ish;
+say $n_ish;
 
 
 
