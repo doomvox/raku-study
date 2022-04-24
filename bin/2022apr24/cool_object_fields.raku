@@ -9,7 +9,8 @@ class MyRow {
     has Numeric  $.area  is rw;
 }
 
-my $r1 = MyRow.new( area => 10000 );
+my $r1 = MyRow.new( area => 6 );
+my $r2 = MyRow.new( area => '6' );
 
 
 # ====
