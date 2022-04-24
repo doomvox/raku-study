@@ -13,7 +13,8 @@ my $r2 = MyRow.new( area => '6' );
 
 say $r2.area; # 6
 
-
+$r2.area(7);
+say $r2.area; # 
 
 
 # ===
