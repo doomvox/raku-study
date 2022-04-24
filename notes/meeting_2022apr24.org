@@ -34,7 +34,6 @@ raku -e 'for dir(test => / .+ \.txt $ /) { copy $_, "../dest/$_", createonly => 
 ls ../dest
 persons.txt time.txt
 
-
 ***** https://docs.raku.org/routine/move
 
 To avoid copying, you can use rename, if the files are on the same

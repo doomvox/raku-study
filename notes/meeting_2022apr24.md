@@ -1,37 +1,37 @@
-- [meeting notes April 24, 2022](#org134fff9)
-  - [the raku study group](#orgfd8bc58)
-    - [usual links](#orgb723337)
-  - [the new "darkroast" project](#orgbd04100)
-    - [<https://github.com/doomvox/darkroast>](#orge701846)
-  - [rob ransbottom](#org7515f1b)
-    - [<https://theweeklychallenge.org/>](#orgbffcf7c)
-  - [bill michaels](#org0327c91)
-    - [<https://unix.stackexchange.com/a/699417/227738>](#orge3ee606)
-    - [<https://stackoverflow.com/a/71973303/7270649>](#org2fdb13b)
-    - [<https://stackoverflow.com/a/71989016/7270649>](#org369ea7c)
-    - [<https://unix.stackexchange.com/a/699338/227738>](#orgf7a7027)
-    - [<https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>](#orgd7d46db)
-  - [postponed from previous meetings](#org0c90107)
-    - [an answer to what's Raku for:](#org7e87e82)
-  - [earlier topics, follow-up some time:](#org7188d77)
-    - [gui toolkits](#orgd0df8f6)
-  - [untopics](#orgf67f2c2)
-  - [announcements](#org96ea885)
-    - [May 8th: next raku study group meeting](#org92157ca)
-    - [June 21-25: tprc: perl/raku conference](#org1a6aeb5)
+- [meeting notes April 24, 2022](#org89ef285)
+  - [the raku study group](#org6ba6c3b)
+    - [usual links](#org79cb588)
+  - [the new "darkroast" project](#orgc26c6bc)
+    - [<https://github.com/doomvox/darkroast>](#org6bdddc1)
+  - [rob ransbottom](#org15cb539)
+    - [<https://theweeklychallenge.org/>](#orgd496161)
+  - [bill michaels](#org2011c45)
+    - [<https://unix.stackexchange.com/a/699417/227738>](#org9af1e83)
+    - [<https://stackoverflow.com/a/71973303/7270649>](#org5b2a080)
+    - [<https://stackoverflow.com/a/71989016/7270649>](#org25982cf)
+    - [<https://unix.stackexchange.com/a/699338/227738>](#org3e714e8)
+    - [<https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>](#org81621e9)
+  - [postponed from previous meetings](#orgf0484a4)
+    - [an answer to what's Raku for:](#orgd084967)
+  - [earlier topics, follow-up some time:](#orgcbed75e)
+    - [gui toolkits](#org6aa6e30)
+  - [untopics](#org1d3d408)
+  - [announcements](#orga9ced67)
+    - [May 8th: next raku study group meeting](#orgd0e1476)
+    - [June 21-25: tprc: perl/raku conference](#org9da1157)
 
 
-<a id="org134fff9"></a>
+<a id="org89ef285"></a>
 
 # meeting notes April 24, 2022
 
 
-<a id="orgfd8bc58"></a>
+<a id="org6ba6c3b"></a>
 
 ## the raku study group
 
 
-<a id="orgb723337"></a>
+<a id="org79cb588"></a>
 
 ### usual links
 
@@ -44,52 +44,52 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022apr24>
 
 
-<a id="orgbd04100"></a>
+<a id="orgc26c6bc"></a>
 
 ## the new "darkroast" project
 
 
-<a id="orge701846"></a>
+<a id="org6bdddc1"></a>
 
 ### <https://github.com/doomvox/darkroast>
 
 
-<a id="org7515f1b"></a>
+<a id="org15cb539"></a>
 
 ## rob ransbottom
 
 
-<a id="orgbffcf7c"></a>
+<a id="orgd496161"></a>
 
 ### <https://theweeklychallenge.org/>
 
 
-<a id="org0327c91"></a>
+<a id="org2011c45"></a>
 
 ## bill michaels
 
 
-<a id="orge3ee606"></a>
+<a id="org9af1e83"></a>
 
 ### <https://unix.stackexchange.com/a/699417/227738>
 
 
-<a id="org2fdb13b"></a>
+<a id="org5b2a080"></a>
 
 ### <https://stackoverflow.com/a/71973303/7270649>
 
 
-<a id="org369ea7c"></a>
+<a id="org25982cf"></a>
 
 ### <https://stackoverflow.com/a/71989016/7270649>
 
 
-<a id="orgf7a7027"></a>
+<a id="org3e714e8"></a>
 
 ### <https://unix.stackexchange.com/a/699338/227738>
 
 
-<a id="orgd7d46db"></a>
+<a id="org81621e9"></a>
 
 ### <https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>
 
@@ -112,24 +112,24 @@
         1.  Seriously?
 
 
-<a id="org0c90107"></a>
+<a id="orgf0484a4"></a>
 
 ## postponed from previous meetings
 
 
-<a id="org7e87e82"></a>
+<a id="orgd084967"></a>
 
 ### an answer to what's Raku for:
 
 1.  <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="org7188d77"></a>
+<a id="orgcbed75e"></a>
 
 ## earlier topics, follow-up some time:
 
 
-<a id="orgd0df8f6"></a>
+<a id="org6aa6e30"></a>
 
 ### gui toolkits
 
@@ -150,21 +150,21 @@
 3.  wish based tk
 
 
-<a id="orgf67f2c2"></a>
+<a id="org1d3d408"></a>
 
 ## untopics
 
 
-<a id="org96ea885"></a>
+<a id="orga9ced67"></a>
 
 ## announcements
 
 
-<a id="org92157ca"></a>
+<a id="orgd0e1476"></a>
 
 ### May 8th: next raku study group meeting
 
 
-<a id="org1a6aeb5"></a>
+<a id="org9da1157"></a>
 
 ### June 21-25: tprc: perl/raku conference
