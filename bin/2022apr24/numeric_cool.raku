@@ -19,10 +19,9 @@ $n = "6";
 say $n;
 
 say "===";
-$n_ish = "6";
+$n_ish = "six";
 say $n_ish;
-$n = "6";
-say $n;
+
 
 
 # ====
