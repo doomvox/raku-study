@@ -24,8 +24,8 @@ say $r2.area.WHAT; # (Int)
 dd $r2; # MyRow $r2 = MyRow.new(area => 123)
 
 $r1.area = 6.67;
-say $r1.area; 
-
+say $r1.area; # 6.67
+say $r1.WHAT;
 
 
 
