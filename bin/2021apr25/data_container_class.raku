@@ -12,7 +12,9 @@ subset Numesque of Any where { defined .Numeric };
 
 class MyRow {
     has Str      $.state is rw;
-    has Numeric  $.area  is rw;
+#     has Numeric  $.area  is rw;
+    has Numeric(Cool)  $.area  is rw;
+
 #    has Num $.area  is rw;
 #    has NumStr $.area  is rw;
 #    has Numeric(Str) $.area  is rw;
