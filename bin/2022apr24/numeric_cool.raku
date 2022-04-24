@@ -20,7 +20,6 @@ say $n;
 # Type check failed in assignment to $n; expected Numeric but got Str ("6")
 #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr24/numeric_cool.raku line 18
 
-
 say "===";
 $n_ish = "six";
 say $n_ish;
