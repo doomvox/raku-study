@@ -27,7 +27,7 @@ $r1.area = 6.67;
 say $r1.area; # 6.67
 say $r1.area.WHAT; # (Rat)
 
-say $r1.area.nude;
+say $r1.area.nude; # (667 100)
 
 
 
