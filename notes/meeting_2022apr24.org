@@ -41,8 +41,8 @@
 
 To avoid copying, you can use rename, if the files are on the same
 storage device. It also works with directories, while move does not.
+(( Seriously? ))
 
-****** Seriously?
 
 
 ** earlier weekly challenge: "four is magic", bruce gray
