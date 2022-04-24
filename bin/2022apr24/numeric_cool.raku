@@ -15,10 +15,10 @@ say $n;
 say "===";
 $n_ish = "6";
 say $n_ish;
-$n = "6";
-say $n;
-# Type check failed in assignment to $n; expected Numeric but got Str ("6")
-#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr24/numeric_cool.raku line 18
+# $n = "6";
+# say $n;
+# # Type check failed in assignment to $n; expected Numeric but got Str ("6")
+# #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr24/numeric_cool.raku line 18
 
 say "===";
 $n_ish = "six";
