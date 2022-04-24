@@ -10,19 +10,6 @@
 **** https://www.codesections.com/blog/raku-manifesto/
 
 ** recent topics
-*** worthington prime number calculations
-**** https://stackoverflow.com/questions/58841508/questions-on-the-prime-number-calculating-code-in-raku 
-*** weekly challenges
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-158/#TASK1
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-159/#TASK1 
-
-**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-158/0rir/raku
-**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-159/0rir/raku
-**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-158/bruce-gray
-**** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-159/challenge-159/bruce-gray/raku
-
-**** https://en.wikipedia.org/wiki/Farey_sequence
-**** https://en.wikipedia.org/wiki/M%C3%B6bius_function
 
 *** gui toolkits
 **** gtk3
@@ -34,20 +21,6 @@
 ***** https://raku.land/github:hankache/IUP
 **** wish based tk 
 
-*** Buggy behavior with mixed promises, supplies and channels -- demanual 
-**** David Emanuel da Costa Santiago on users mailing list
-***** https://www.nntp.perl.org/group/perl.perl6.users/2022/04/msg10474.html
-**** Mixing supplies, channels and promises makes the code hang or throwing exceptions
-***** https://github.com/rakudo/rakudo/issues/4853
-**** lizmat fix to master branch: "Fix race condition in Rakudo::Supply::BlockState" 
-***** https://github.com/rakudo/rakudo/commit/5658f4da07b44d492a3d35d57fa76939822d2c66
-*** simple but puzzling behavior: converting scientific notation to Rat 
-**** https://www.reddit.com/r/rakulang/comments/u0fsg6/converting_num_to_rational_bug_of_feature/
-*** undocumented customization feature: get Rats to upgrade to FatRats
-**** https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
-*** TODO subclassing Str class (maybe later)
-**** https://stackoverflow.com/questions/71650967/how-do-i-create-a-subclass-of-str
-**** https://stackoverflow.com/questions/71653350/working-around-for-the-cannot-modify-an-immutable-in-my-subclass-of-str
 
 ** untopic
 *** Alan Kay at 2020 "goto;"
