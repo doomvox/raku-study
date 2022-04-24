@@ -1,37 +1,37 @@
-- [meeting notes April 24, 2022](#orge4c11a4)
-  - [the raku study group](#orgf93789a)
-    - [usual links](#orgb4c5cf7)
-  - [the new "darkroast" project](#orgf6b52e7)
-    - [<https://github.com/doomvox/darkroast>](#org10d44dc)
-  - [rob ransbottom](#org57c0ea3)
-    - [<https://theweeklychallenge.org/>](#orgbb934bf)
-  - [bill michaels](#org13571e4)
-    - [<https://unix.stackexchange.com/a/699417/227738>](#orgad69606)
-    - [<https://stackoverflow.com/a/71973303/7270649>](#org1cab7bf)
-    - [<https://stackoverflow.com/a/71989016/7270649>](#orgd0f58dc)
-    - [<https://unix.stackexchange.com/a/699338/227738>](#org8b45945)
-    - [<https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>](#orgab7858f)
-  - [postponed from previous meetings](#orge86ef11)
-    - [an answer to what's Raku for:](#org682f765)
-  - [earlier topics, follow-up some time:](#orge620996)
-    - [gui toolkits](#org56bbc6a)
-  - [untopics](#org08fd9b7)
-  - [announcements](#org5a3cfcf)
-    - [May 8th: next raku study group meeting](#orgc7c4849)
-    - [June 21-25: tprc: perl/raku conference](#org736d847)
+- [meeting notes April 24, 2022](#org134fff9)
+  - [the raku study group](#orgfd8bc58)
+    - [usual links](#orgb723337)
+  - [the new "darkroast" project](#orgbd04100)
+    - [<https://github.com/doomvox/darkroast>](#orge701846)
+  - [rob ransbottom](#org7515f1b)
+    - [<https://theweeklychallenge.org/>](#orgbffcf7c)
+  - [bill michaels](#org0327c91)
+    - [<https://unix.stackexchange.com/a/699417/227738>](#orge3ee606)
+    - [<https://stackoverflow.com/a/71973303/7270649>](#org2fdb13b)
+    - [<https://stackoverflow.com/a/71989016/7270649>](#org369ea7c)
+    - [<https://unix.stackexchange.com/a/699338/227738>](#orgf7a7027)
+    - [<https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>](#orgd7d46db)
+  - [postponed from previous meetings](#org0c90107)
+    - [an answer to what's Raku for:](#org7e87e82)
+  - [earlier topics, follow-up some time:](#org7188d77)
+    - [gui toolkits](#orgd0df8f6)
+  - [untopics](#orgf67f2c2)
+  - [announcements](#org96ea885)
+    - [May 8th: next raku study group meeting](#org92157ca)
+    - [June 21-25: tprc: perl/raku conference](#org1a6aeb5)
 
 
-<a id="orge4c11a4"></a>
+<a id="org134fff9"></a>
 
 # meeting notes April 24, 2022
 
 
-<a id="orgf93789a"></a>
+<a id="orgfd8bc58"></a>
 
 ## the raku study group
 
 
-<a id="orgb4c5cf7"></a>
+<a id="orgb723337"></a>
 
 ### usual links
 
@@ -44,52 +44,52 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022apr24>
 
 
-<a id="orgf6b52e7"></a>
+<a id="orgbd04100"></a>
 
 ## the new "darkroast" project
 
 
-<a id="org10d44dc"></a>
+<a id="orge701846"></a>
 
 ### <https://github.com/doomvox/darkroast>
 
 
-<a id="org57c0ea3"></a>
+<a id="org7515f1b"></a>
 
 ## rob ransbottom
 
 
-<a id="orgbb934bf"></a>
+<a id="orgbffcf7c"></a>
 
 ### <https://theweeklychallenge.org/>
 
 
-<a id="org13571e4"></a>
+<a id="org0327c91"></a>
 
 ## bill michaels
 
 
-<a id="orgad69606"></a>
+<a id="orge3ee606"></a>
 
 ### <https://unix.stackexchange.com/a/699417/227738>
 
 
-<a id="org1cab7bf"></a>
+<a id="org2fdb13b"></a>
 
 ### <https://stackoverflow.com/a/71973303/7270649>
 
 
-<a id="orgd0f58dc"></a>
+<a id="org369ea7c"></a>
 
 ### <https://stackoverflow.com/a/71989016/7270649>
 
 
-<a id="org8b45945"></a>
+<a id="orgf7a7027"></a>
 
 ### <https://unix.stackexchange.com/a/699338/227738>
 
 
-<a id="orgab7858f"></a>
+<a id="orgd7d46db"></a>
 
 ### <https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>
 
@@ -97,7 +97,13 @@
 
     1.  <https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303>
     
-        ~parent/source$ raku -e 'for dir(test => / .+ \\.txt /) {.say};' "persons.txt".IO "time.txt".IO ~/parent/source$ raku -e 'mkdir IO::Path.new("../dest");' ~/parent/source$ raku -e 'for dir(test => / .+ \\.txt $ /) { copy $\_, "../dest/\(_", createonly => True};' ~/parent/source\) ls ../dest persons.txt time.txt
+        raku -e 'for dir(test => / .+ \\.txt /) {.say};' "persons.txt".IO "time.txt".IO
+        
+        raku -e 'mkdir IO::Path.new("../dest");'
+        
+        raku -e 'for dir(test => / .+ \\.txt $ /) { copy $\_, "../dest/$\_", createonly => True};'
+        
+        ls ../dest persons.txt time.txt
     
     2.  <https://docs.raku.org/routine/move>
     
@@ -106,24 +112,24 @@
         1.  Seriously?
 
 
-<a id="orge86ef11"></a>
+<a id="org0c90107"></a>
 
 ## postponed from previous meetings
 
 
-<a id="org682f765"></a>
+<a id="org7e87e82"></a>
 
 ### an answer to what's Raku for:
 
 1.  <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="orge620996"></a>
+<a id="org7188d77"></a>
 
 ## earlier topics, follow-up some time:
 
 
-<a id="org56bbc6a"></a>
+<a id="orgd0df8f6"></a>
 
 ### gui toolkits
 
@@ -144,21 +150,21 @@
 3.  wish based tk
 
 
-<a id="org08fd9b7"></a>
+<a id="orgf67f2c2"></a>
 
 ## untopics
 
 
-<a id="org5a3cfcf"></a>
+<a id="org96ea885"></a>
 
 ## announcements
 
 
-<a id="orgc7c4849"></a>
+<a id="org92157ca"></a>
 
 ### May 8th: next raku study group meeting
 
 
-<a id="org736d847"></a>
+<a id="org1a6aeb5"></a>
 
 ### June 21-25: tprc: perl/raku conference

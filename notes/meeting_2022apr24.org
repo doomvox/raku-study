@@ -23,12 +23,15 @@
 **** move/copy command in Raku doesn't work with directory as second arg
 ***** https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303
 
-~parent/source$ raku -e 'for dir(test => / .+ \.txt /) {.say};'
+raku -e 'for dir(test => / .+ \.txt /) {.say};'
 "persons.txt".IO
 "time.txt".IO
-~/parent/source$ raku -e 'mkdir IO::Path.new("../dest");'
-~/parent/source$ raku -e 'for dir(test => / .+ \.txt $ /) { copy $_, "../dest/$_", createonly => True};'
-~/parent/source$ ls ../dest
+
+raku -e 'mkdir IO::Path.new("../dest");'
+
+raku -e 'for dir(test => / .+ \.txt $ /) { copy $_, "../dest/$_", createonly => True};'
+
+ls ../dest
 persons.txt time.txt
 
 
