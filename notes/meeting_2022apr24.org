@@ -9,6 +9,13 @@
 ** the new "darkroast" project
 *** https://github.com/doomvox/darkroast
 
+** https://theweeklychallenge.org/
+
+"Some of my favorite words are: this, that, the other, dog, rabies,
+moths, butterflies, ... "
+
+
+
 ** postponed from previous meetings
 *** an answer to what's Raku for:
 **** https://www.codesections.com/blog/raku-manifesto/
