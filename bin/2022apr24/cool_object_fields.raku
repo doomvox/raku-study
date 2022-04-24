@@ -6,7 +6,7 @@ use v6;
 
 
 class MyRow {
-    has Numeric  $.area  is rw;
+    has Numeric(Cool)  $.area  is rw;
 }
 
 my $r1 = MyRow.new( area => 6 );
