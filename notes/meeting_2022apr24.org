@@ -18,7 +18,6 @@
 *** https://stackoverflow.com/a/71989016/7270649  
 *** https://unix.stackexchange.com/a/699338/227738 
 
-
 ** postponed from previous meetings
 *** an answer to what's Raku for:
 **** https://www.codesections.com/blog/raku-manifesto/

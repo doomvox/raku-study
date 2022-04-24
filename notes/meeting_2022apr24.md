@@ -1,36 +1,36 @@
-- [meeting notes April 24, 2022](#orgf7260b6)
-  - [the raku study group](#orge670195)
-    - [usual links](#org880316a)
-  - [the new "darkroast" project](#org1d86110)
-    - [<https://github.com/doomvox/darkroast>](#org2380047)
-  - [rob ransbottom](#orgb92653b)
-    - [<https://theweeklychallenge.org/>](#org9e7669b)
-  - [bill michaels](#org5bd5ccb)
-    - [<https://unix.stackexchange.com/a/699417/227738>](#orgf54cef9)
-    - [<https://stackoverflow.com/a/71973303/7270649>](#org62c8631)
-    - [<https://stackoverflow.com/a/71989016/7270649>](#org6c3d082)
-    - [<https://unix.stackexchange.com/a/699338/227738>](#orge8ecd7c)
-  - [postponed from previous meetings](#org67ba770)
-    - [an answer to what's Raku for:](#org0a4c104)
-  - [earlier topics, follow-up some time:](#orgc6727ca)
-    - [gui toolkits](#org5e4fabc)
-  - [untopics](#orgd37412c)
-  - [announcements](#org0e59ad8)
-    - [May 8th: next raku study group meeting](#org2ccef2f)
-    - [June 21-25: tprc: perl/raku conference](#org10f593c)
+- [meeting notes April 24, 2022](#org3162215)
+  - [the raku study group](#orge784865)
+    - [usual links](#org0670d74)
+  - [the new "darkroast" project](#org3c0842e)
+    - [<https://github.com/doomvox/darkroast>](#org195a636)
+  - [rob ransbottom](#org19cd432)
+    - [<https://theweeklychallenge.org/>](#org463b769)
+  - [bill michaels](#orge81879e)
+    - [<https://unix.stackexchange.com/a/699417/227738>](#org741b437)
+    - [<https://stackoverflow.com/a/71973303/7270649>](#orgfdcd9cb)
+    - [<https://stackoverflow.com/a/71989016/7270649>](#org388aef0)
+    - [<https://unix.stackexchange.com/a/699338/227738>](#orgcd0d2a7)
+  - [postponed from previous meetings](#org0b331de)
+    - [an answer to what's Raku for:](#org25609f8)
+  - [earlier topics, follow-up some time:](#org04c2d11)
+    - [gui toolkits](#orgc703581)
+  - [untopics](#orga370143)
+  - [announcements](#org4030d5c)
+    - [May 8th: next raku study group meeting](#orgc7e8eaa)
+    - [June 21-25: tprc: perl/raku conference](#org946c881)
 
 
-<a id="orgf7260b6"></a>
+<a id="org3162215"></a>
 
 # meeting notes April 24, 2022
 
 
-<a id="orge670195"></a>
+<a id="orge784865"></a>
 
 ## the raku study group
 
 
-<a id="org880316a"></a>
+<a id="org0670d74"></a>
 
 ### usual links
 
@@ -43,69 +43,69 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022apr24>
 
 
-<a id="org1d86110"></a>
+<a id="org3c0842e"></a>
 
 ## the new "darkroast" project
 
 
-<a id="org2380047"></a>
+<a id="org195a636"></a>
 
 ### <https://github.com/doomvox/darkroast>
 
 
-<a id="orgb92653b"></a>
+<a id="org19cd432"></a>
 
 ## rob ransbottom
 
 
-<a id="org9e7669b"></a>
+<a id="org463b769"></a>
 
 ### <https://theweeklychallenge.org/>
 
 
-<a id="org5bd5ccb"></a>
+<a id="orge81879e"></a>
 
 ## bill michaels
 
 
-<a id="orgf54cef9"></a>
+<a id="org741b437"></a>
 
 ### <https://unix.stackexchange.com/a/699417/227738>
 
 
-<a id="org62c8631"></a>
+<a id="orgfdcd9cb"></a>
 
 ### <https://stackoverflow.com/a/71973303/7270649>
 
 
-<a id="org6c3d082"></a>
+<a id="org388aef0"></a>
 
 ### <https://stackoverflow.com/a/71989016/7270649>
 
 
-<a id="orge8ecd7c"></a>
+<a id="orgcd0d2a7"></a>
 
 ### <https://unix.stackexchange.com/a/699338/227738>
 
 
-<a id="org67ba770"></a>
+<a id="org0b331de"></a>
 
 ## postponed from previous meetings
 
 
-<a id="org0a4c104"></a>
+<a id="org25609f8"></a>
 
 ### an answer to what's Raku for:
 
 1.  <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="orgc6727ca"></a>
+<a id="org04c2d11"></a>
 
 ## earlier topics, follow-up some time:
 
 
-<a id="org5e4fabc"></a>
+<a id="orgc703581"></a>
 
 ### gui toolkits
 
@@ -126,21 +126,21 @@
 3.  wish based tk
 
 
-<a id="orgd37412c"></a>
+<a id="orga370143"></a>
 
 ## untopics
 
 
-<a id="org0e59ad8"></a>
+<a id="org4030d5c"></a>
 
 ## announcements
 
 
-<a id="org2ccef2f"></a>
+<a id="orgc7e8eaa"></a>
 
 ### May 8th: next raku study group meeting
 
 
-<a id="org10f593c"></a>
+<a id="org946c881"></a>
 
 ### June 21-25: tprc: perl/raku conference
