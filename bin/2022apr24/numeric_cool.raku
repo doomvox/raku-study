@@ -27,9 +27,10 @@ say "===";
 
 my Cool $anything;
 $anything = "six";
-say $anything;
+say $anything;  #  six
 
 
+## Cool  => Numeric(Cool) => Numeric  => Int
 
 
 # ====
