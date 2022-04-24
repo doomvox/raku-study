@@ -9,6 +9,7 @@
 *** an answer to what's Raku for:
 **** https://www.codesections.com/blog/raku-manifesto/
 
+
 ** earlier topics, follow-up some time:
 *** gui toolkits
 **** gtk3
