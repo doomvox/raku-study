@@ -1,41 +1,41 @@
-- [meeting notes April 24, 2022](#org6b2c4ef)
-  - [the raku study group](#org66d3c77)
-    - [usual links](#orge65a338)
-  - [the new "darkroast" project](#org2f0dcb1)
-    - [<https://github.com/doomvox/darkroast>](#org4c447e2)
-  - [rob ransbottom](#org0987da4)
-    - [<https://theweeklychallenge.org/>](#orge056547)
-  - [bill michaels](#org5e89122)
-    - [<https://unix.stackexchange.com/a/699417/227738>](#org7b76c22)
-    - [<https://stackoverflow.com/a/71973303/7270649>](#org729dfb0)
-    - [<https://stackoverflow.com/a/71989016/7270649>](#org72557af)
-    - [<https://unix.stackexchange.com/a/699338/227738>](#orgae38036)
-    - [<https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>](#orgec4a5f5)
-  - [earlier weekly challenge, bruce gray](#org1c3ee06)
-    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-160/>](#org729cb09)
-    - [<https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-160/bruce-gray/raku>](#org6c2d3d3)
-    - [<http://blogs.perl.org/users/bruce_gray/2022/04/twc-160-mysticmath-balance.html>](#org98ef881)
-  - [postponed from previous meetings](#org4325bd2)
-    - [an answer to what's Raku for:](#orgab61da0)
-  - [earlier topics, follow-up some time:](#org3cb07a9)
-    - [gui toolkits](#orga0bd20c)
-  - [untopics](#org268eb27)
-  - [announcements](#orgf399550)
-    - [May 8th: next raku study group meeting](#orga84ce71)
-    - [June 21-25: tprc: perl/raku conference](#org6a25faa)
+- [meeting notes April 24, 2022](#orga354732)
+  - [the raku study group](#org1b13fba)
+    - [usual links](#orgd0fd6a6)
+  - [the new "darkroast" project](#orge05df72)
+    - [<https://github.com/doomvox/darkroast>](#orgbd21f83)
+  - [rob ransbottom](#orgde3baff)
+    - [<https://theweeklychallenge.org/>](#org1a20f26)
+  - [bill michaels](#org9f7f31e)
+    - [<https://unix.stackexchange.com/a/699417/227738>](#org3b5a11d)
+    - [<https://stackoverflow.com/a/71973303/7270649>](#org1c75344)
+    - [<https://stackoverflow.com/a/71989016/7270649>](#orgd38c7db)
+    - [<https://unix.stackexchange.com/a/699338/227738>](#orgc22aff9)
+    - [<https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>](#org7c915b3)
+  - [earlier weekly challenge "four is magic", bruce gray](#org74db2e2)
+    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-160/>](#orgd281775)
+    - [<https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-160/bruce-gray/raku>](#org3bdd6e3)
+    - [<http://blogs.perl.org/users/bruce_gray/2022/04/twc-160-mysticmath-balance.html>](#orgf5a1d22)
+  - [postponed from previous meetings](#orgf93f14b)
+    - [an answer to what's Raku for:](#orgf0b209c)
+  - [earlier topics, follow-up some time:](#org0756351)
+    - [gui toolkits](#orgb0d6ec4)
+  - [untopics](#org11cb22e)
+  - [announcements](#org620fd11)
+    - [May 8th: next raku study group meeting](#org3b03e9a)
+    - [June 21-25: tprc: perl/raku conference](#orge1be3a6)
 
 
-<a id="org6b2c4ef"></a>
+<a id="orga354732"></a>
 
 # meeting notes April 24, 2022
 
 
-<a id="org66d3c77"></a>
+<a id="org1b13fba"></a>
 
 ## the raku study group
 
 
-<a id="orge65a338"></a>
+<a id="orgd0fd6a6"></a>
 
 ### usual links
 
@@ -48,52 +48,52 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022apr24>
 
 
-<a id="org2f0dcb1"></a>
+<a id="orge05df72"></a>
 
 ## the new "darkroast" project
 
 
-<a id="org4c447e2"></a>
+<a id="orgbd21f83"></a>
 
 ### <https://github.com/doomvox/darkroast>
 
 
-<a id="org0987da4"></a>
+<a id="orgde3baff"></a>
 
 ## rob ransbottom
 
 
-<a id="orge056547"></a>
+<a id="org1a20f26"></a>
 
 ### <https://theweeklychallenge.org/>
 
 
-<a id="org5e89122"></a>
+<a id="org9f7f31e"></a>
 
 ## bill michaels
 
 
-<a id="org7b76c22"></a>
+<a id="org3b5a11d"></a>
 
 ### <https://unix.stackexchange.com/a/699417/227738>
 
 
-<a id="org729dfb0"></a>
+<a id="org1c75344"></a>
 
 ### <https://stackoverflow.com/a/71973303/7270649>
 
 
-<a id="org72557af"></a>
+<a id="orgd38c7db"></a>
 
 ### <https://stackoverflow.com/a/71989016/7270649>
 
 
-<a id="orgae38036"></a>
+<a id="orgc22aff9"></a>
 
 ### <https://unix.stackexchange.com/a/699338/227738>
 
 
-<a id="orgec4a5f5"></a>
+<a id="org7c915b3"></a>
 
 ### <https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>
 
@@ -116,44 +116,44 @@
         1.  Seriously?
 
 
-<a id="org1c3ee06"></a>
+<a id="org74db2e2"></a>
 
-## earlier weekly challenge, bruce gray
+## earlier weekly challenge "four is magic", bruce gray
 
 
-<a id="org729cb09"></a>
+<a id="orgd281775"></a>
 
 ### <https://theweeklychallenge.org/blog/perl-weekly-challenge-160/>
 
 
-<a id="org6c2d3d3"></a>
+<a id="org3bdd6e3"></a>
 
 ### <https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-160/bruce-gray/raku>
 
 
-<a id="org98ef881"></a>
+<a id="orgf5a1d22"></a>
 
 ### <http://blogs.perl.org/users/bruce_gray/2022/04/twc-160-mysticmath-balance.html>
 
 
-<a id="org4325bd2"></a>
+<a id="orgf93f14b"></a>
 
 ## postponed from previous meetings
 
 
-<a id="orgab61da0"></a>
+<a id="orgf0b209c"></a>
 
 ### an answer to what's Raku for:
 
 1.  <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="org3cb07a9"></a>
+<a id="org0756351"></a>
 
 ## earlier topics, follow-up some time:
 
 
-<a id="orga0bd20c"></a>
+<a id="orgb0d6ec4"></a>
 
 ### gui toolkits
 
@@ -174,21 +174,21 @@
 3.  wish based tk
 
 
-<a id="org268eb27"></a>
+<a id="org11cb22e"></a>
 
 ## untopics
 
 
-<a id="orgf399550"></a>
+<a id="org620fd11"></a>
 
 ## announcements
 
 
-<a id="orga84ce71"></a>
+<a id="org3b03e9a"></a>
 
 ### May 8th: next raku study group meeting
 
 
-<a id="org6a25faa"></a>
+<a id="orge1be3a6"></a>
 
 ### June 21-25: tprc: perl/raku conference
