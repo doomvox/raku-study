@@ -11,6 +11,8 @@ class MyRow {
 
 my $r1 = MyRow.new( area => 6 );
 my $r2 = MyRow.new( area => '6' );
+
+
 # ===
 # Author:  doom@kzsu.stanford.edu
 
