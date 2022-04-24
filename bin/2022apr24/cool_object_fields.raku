@@ -19,7 +19,7 @@ say $r2.area; # 7
 $r2.area = '123';
 say $r2.area; # 123
 
-
+say $r2.area.WHAT;
 
 # ===
 # Author:  doom@kzsu.stanford.edu
