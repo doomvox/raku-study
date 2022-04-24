@@ -21,8 +21,9 @@ say $n_ish;
 # #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022apr24/numeric_cool.raku line 18
 
 say "===";
-$n_ish = "six";
-say $n_ish;
+# $n_ish = "six";
+# say $n_ish;
+# # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏six' (indicated by ⏏)
 
 
 
