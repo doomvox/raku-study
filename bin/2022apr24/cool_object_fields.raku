@@ -31,6 +31,13 @@ say $r1.area.nude; # (667 100)
 
 
 
+$r1.area = 6.0
+say $r1.area; 
+say $r1.area.WHAT; 
+
+
+
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
