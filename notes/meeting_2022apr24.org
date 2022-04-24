@@ -8,9 +8,9 @@
 
  
 ** postponed from previous meetings
-
 *** an answer to what's Raku for:
 **** https://www.codesections.com/blog/raku-manifesto/
+
 ** recent topics
 *** worthington prime number calculations
 **** https://stackoverflow.com/questions/58841508/questions-on-the-prime-number-calculating-code-in-raku 
