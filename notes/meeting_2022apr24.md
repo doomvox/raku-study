@@ -1,27 +1,29 @@
-- [meeting notes April 24, 2022](#org8b983ae)
-  - [the raku study group](#orgbb42ab4)
-    - [usual links](#org4a17389)
-  - [postponed from previous meetings](#org992737c)
-    - [an answer to what's Raku for:](#orgf295958)
-  - [earlier topics, follow-up some time:](#orgc7ecab8)
-    - [gui toolkits](#orgc2f652d)
-  - [untopics](#orgd686eea)
-  - [announcements](#org55977c6)
-    - [May 8th: next raku study group meeting](#orgc3d4fbe)
-    - [June 21-25: tprc: perl/raku conference](#orgbfd64ef)
+- [meeting notes April 24, 2022](#orgbcd7296)
+  - [the raku study group](#org0c4d717)
+    - [usual links](#orgd3288f7)
+  - [the new "darkroast" project](#org7f51bf5)
+  - [](#org4c72dc4)
+  - [postponed from previous meetings](#org1a99359)
+    - [an answer to what's Raku for:](#orgc82ab7e)
+  - [earlier topics, follow-up some time:](#orgbea6376)
+    - [gui toolkits](#org93e2a0c)
+  - [untopics](#orge9a70d9)
+  - [announcements](#org0c67835)
+    - [May 8th: next raku study group meeting](#orge5152ad)
+    - [June 21-25: tprc: perl/raku conference](#org4f92269)
 
 
-<a id="org8b983ae"></a>
+<a id="orgbcd7296"></a>
 
 # meeting notes April 24, 2022
 
 
-<a id="orgbb42ab4"></a>
+<a id="org0c4d717"></a>
 
 ## the raku study group
 
 
-<a id="org4a17389"></a>
+<a id="orgd3288f7"></a>
 
 ### usual links
 
@@ -34,24 +36,34 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022apr24>
 
 
-<a id="org992737c"></a>
+<a id="org7f51bf5"></a>
+
+## the new "darkroast" project
+
+
+<a id="org4c72dc4"></a>
+
+## 
+
+
+<a id="org1a99359"></a>
 
 ## postponed from previous meetings
 
 
-<a id="orgf295958"></a>
+<a id="orgc82ab7e"></a>
 
 ### an answer to what's Raku for:
 
 1.  <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="orgc7ecab8"></a>
+<a id="orgbea6376"></a>
 
 ## earlier topics, follow-up some time:
 
 
-<a id="orgc2f652d"></a>
+<a id="org93e2a0c"></a>
 
 ### gui toolkits
 
@@ -72,21 +84,21 @@
 3.  wish based tk
 
 
-<a id="orgd686eea"></a>
+<a id="orge9a70d9"></a>
 
 ## untopics
 
 
-<a id="org55977c6"></a>
+<a id="org0c67835"></a>
 
 ## announcements
 
 
-<a id="orgc3d4fbe"></a>
+<a id="orge5152ad"></a>
 
 ### May 8th: next raku study group meeting
 
 
-<a id="orgbfd64ef"></a>
+<a id="org4f92269"></a>
 
 ### June 21-25: tprc: perl/raku conference
