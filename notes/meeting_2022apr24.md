@@ -1,27 +1,27 @@
-- [meeting notes April 24, 2022](#org4e3e014)
-  - [the raku study group](#org467c521)
-    - [usual links](#orgae94db8)
-  - [postponed from previous meetings](#org0a4a70a)
-    - [an answer to what's Raku for:](#org9652abb)
-  - [recent topics](#org1aa08d7)
-    - [gui toolkits](#org88ec60d)
-  - [untopics](#org13acc8d)
-  - [announcements](#org3571bd8)
-    - [May 8th: next raku study group meeting](#orgd631e1b)
-    - [June 21-25: tprc: perl/raku conference](#orgae6d12c)
+- [meeting notes April 24, 2022](#org4d837bf)
+  - [the raku study group](#orgbf89f26)
+    - [usual links](#orgfcb64ed)
+  - [postponed from previous meetings](#org22fc8a5)
+    - [an answer to what's Raku for:](#org6c4c294)
+  - [recent topics](#org94435de)
+    - [gui toolkits](#org10c6fbb)
+  - [untopics](#org3930e71)
+  - [announcements](#orgf1f689b)
+    - [May 8th: next raku study group meeting](#org83d25e8)
+    - [June 21-25: tprc: perl/raku conference](#orgd4cfeb7)
 
 
-<a id="org4e3e014"></a>
+<a id="org4d837bf"></a>
 
 # meeting notes April 24, 2022
 
 
-<a id="org467c521"></a>
+<a id="orgbf89f26"></a>
 
 ## the raku study group
 
 
-<a id="orgae94db8"></a>
+<a id="orgfcb64ed"></a>
 
 ### usual links
 
@@ -34,24 +34,24 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022apr24>
 
 
-<a id="org0a4a70a"></a>
+<a id="org22fc8a5"></a>
 
 ## postponed from previous meetings
 
 
-<a id="org9652abb"></a>
+<a id="org6c4c294"></a>
 
 ### an answer to what's Raku for:
 
 1.  <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="org1aa08d7"></a>
+<a id="org94435de"></a>
 
 ## recent topics
 
 
-<a id="org88ec60d"></a>
+<a id="org10c6fbb"></a>
 
 ### gui toolkits
 
@@ -72,21 +72,21 @@
 3.  wish based tk
 
 
-<a id="org13acc8d"></a>
+<a id="org3930e71"></a>
 
 ## untopics
 
 
-<a id="org3571bd8"></a>
+<a id="orgf1f689b"></a>
 
 ## announcements
 
 
-<a id="orgd631e1b"></a>
+<a id="org83d25e8"></a>
 
 ### May 8th: next raku study group meeting
 
 
-<a id="orgae6d12c"></a>
+<a id="orgd4cfeb7"></a>
 
 ### June 21-25: tprc: perl/raku conference
