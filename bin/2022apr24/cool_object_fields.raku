@@ -33,7 +33,7 @@ say $r1.area.nude; # (667 100)
 
 $r1.area = cos(45);
 say $r1.area; 
-say $r1.area.WHAT; 
+say $r1.area.WHAT; # (Num)
 
 
 
