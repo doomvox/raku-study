@@ -17,6 +17,8 @@
 *** https://stackoverflow.com/a/71973303/7270649 
 *** https://stackoverflow.com/a/71989016/7270649  
 *** https://unix.stackexchange.com/a/699338/227738 
+*** https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html 
+
 
 ** postponed from previous meetings
 *** an answer to what's Raku for:
