@@ -25,6 +25,11 @@ say "===";
 # say $n_ish;
 # # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏six' (indicated by ⏏)
 
+my Cool $anything;
+$anything = "six";
+# say $n_ish;
+
+
 
 
 # ====
