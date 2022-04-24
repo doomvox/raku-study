@@ -1,29 +1,27 @@
-- [meeting notes April 24, 2022](#org04c9f82)
-  - [the raku study group](#org5cf4b1e)
-    - [usual links](#org77c54b0)
-  - [postponed from previous meetings](#orgcc3e5d0)
-    - [an answer to what's Raku for:](#orgb2d15c6)
-  - [recent topics](#org61c45ce)
-    - [gui toolkits](#org25b24b6)
-  - [untopic](#org9b978fa)
-    - [Alan Kay at 2020 "goto;"](#org0cb1898)
-    - [international call signs](#org1cec3fd)
-  - [announcements](#org70c6e78)
-    - [April 24th: next raku study group meeting](#orgc81b137)
-    - [June 21-25: tprc: perl/raku conference](#org03cb8c1)
+- [meeting notes April 24, 2022](#org4e3e014)
+  - [the raku study group](#org467c521)
+    - [usual links](#orgae94db8)
+  - [postponed from previous meetings](#org0a4a70a)
+    - [an answer to what's Raku for:](#org9652abb)
+  - [recent topics](#org1aa08d7)
+    - [gui toolkits](#org88ec60d)
+  - [untopics](#org13acc8d)
+  - [announcements](#org3571bd8)
+    - [May 8th: next raku study group meeting](#orgd631e1b)
+    - [June 21-25: tprc: perl/raku conference](#orgae6d12c)
 
 
-<a id="org04c9f82"></a>
+<a id="org4e3e014"></a>
 
 # meeting notes April 24, 2022
 
 
-<a id="org5cf4b1e"></a>
+<a id="org467c521"></a>
 
 ## the raku study group
 
 
-<a id="org77c54b0"></a>
+<a id="orgae94db8"></a>
 
 ### usual links
 
@@ -36,24 +34,24 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022apr24>
 
 
-<a id="orgcc3e5d0"></a>
+<a id="org0a4a70a"></a>
 
 ## postponed from previous meetings
 
 
-<a id="orgb2d15c6"></a>
+<a id="org9652abb"></a>
 
 ### an answer to what's Raku for:
 
 1.  <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="org61c45ce"></a>
+<a id="org1aa08d7"></a>
 
 ## recent topics
 
 
-<a id="org25b24b6"></a>
+<a id="org88ec60d"></a>
 
 ### gui toolkits
 
@@ -74,37 +72,21 @@
 3.  wish based tk
 
 
-<a id="org9b978fa"></a>
+<a id="org13acc8d"></a>
 
-## untopic
-
-
-<a id="org0cb1898"></a>
-
-### Alan Kay at 2020 "goto;"
-
-1.  <https://www.youtube.com/watch?v=D43PlUr1x_E?vq=hd1080>
+## untopics
 
 
-<a id="org1cec3fd"></a>
-
-### international call signs
-
-1.  <https://en.wikipedia.org/wiki/NATO_phonetic_alphabet>
-
-2.  <https://www.reddit.com/r/disney/comments/urhqe/til_that_disney_uses_their_own_phonetic_alphabet/>
-
-
-<a id="org70c6e78"></a>
+<a id="org3571bd8"></a>
 
 ## announcements
 
 
-<a id="orgc81b137"></a>
+<a id="orgd631e1b"></a>
 
-### April 24th: next raku study group meeting
+### May 8th: next raku study group meeting
 
 
-<a id="org03cb8c1"></a>
+<a id="orgae6d12c"></a>
 
 ### June 21-25: tprc: perl/raku conference

@@ -22,14 +22,11 @@
 **** wish based tk 
 
 
-** untopic
-*** Alan Kay at 2020 "goto;"
-**** https://www.youtube.com/watch?v=D43PlUr1x_E?vq=hd1080
+** untopics
 
-*** international call signs
-**** https://en.wikipedia.org/wiki/NATO_phonetic_alphabet
-**** https://www.reddit.com/r/disney/comments/urhqe/til_that_disney_uses_their_own_phonetic_alphabet/
+
+
 
 ** announcements 
-*** April 24th: next raku study group meeting 
+*** May 8th: next raku study group meeting 
 *** June 21-25: tprc: perl/raku conference 
