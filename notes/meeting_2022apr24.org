@@ -20,6 +20,16 @@
 *** https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html 
 
 
+~parent/source$ raku -e 'for dir(test => / .+ \.txt /) {.say};'
+"persons.txt".IO
+"time.txt".IO
+~/parent/source$ raku -e 'mkdir IO::Path.new("../dest");'
+~/parent/source$ raku -e 'for dir(test => / .+ \.txt $ /) { copy $_, "../dest/$_", createonly => True};'
+~/parent/source$ ls ../dest
+persons.txt time.txt
+
+
+
 ** postponed from previous meetings
 *** an answer to what's Raku for:
 **** https://www.codesections.com/blog/raku-manifesto/
