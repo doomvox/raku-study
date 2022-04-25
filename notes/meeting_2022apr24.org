@@ -55,7 +55,6 @@
 
 ** TODO Rob's interested in discussing missing basic tools
 
-
 ** earlier topics, follow-up some time:
 *** gui toolkits
 **** gtk3
