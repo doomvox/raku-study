@@ -19,7 +19,6 @@
 *** https://unix.stackexchange.com/a/699338/227738 
 *** https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html 
 
-
 **** move/copy command in Raku doesn't work with directory as second arg
 ***** https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303
 
