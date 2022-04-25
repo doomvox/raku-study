@@ -40,8 +40,6 @@
 ****** To avoid copying, you can use rename, if the files are on the same storage device. It also works with directories, while move does not.
 ******* TODO (( Seriously? ))
 
-
-
 ** earlier weekly challenge: "four is magic", bruce gray
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-160/
 *** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-160/bruce-gray/raku
