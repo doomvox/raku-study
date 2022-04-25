@@ -1,44 +1,44 @@
-- [meeting notes April 24, 2022](#org9b16941)
-  - [the raku study group](#org07e4468)
-    - [usual links](#orgdb81b39)
-  - [the new "darkroast" project](#orgeda9df0)
-    - [<https://github.com/doomvox/darkroast>](#orgca78451)
-  - [weekly challenge this week, rob ransbottom](#orgf8e52ce)
-    - [<https://theweeklychallenge.org/>](#orgd956e80)
-  - [bill michaels](#orgc0a5628)
-    - [<https://unix.stackexchange.com/a/699417/227738>](#org6616a80)
-    - [<https://stackoverflow.com/a/71973303/7270649>](#org1f52ebd)
-    - [<https://stackoverflow.com/a/71989016/7270649>](#orgac59378)
-    - [<https://unix.stackexchange.com/a/699338/227738>](#org95e1a29)
-    - [<https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>](#orgf40e162)
-  - [earlier weekly challenge: "four is magic", bruce gray](#orgcf097f7)
-    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-160/>](#orga4fa3f3)
-    - [<https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-160/bruce-gray/raku>](#org3413753)
-    - [<http://blogs.perl.org/users/bruce_gray/2022/04/twc-160-mysticmath-balance.html>](#orgaa0165b)
-  - [equilibirum index](#org6a783b3)
-    - [<http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution>](#org39f06ac)
-    - [revisit this next time (Rob solution?)](#org20a1d78)
-  - [postponed from previous meetings](#org00d187a)
-    - [an answer to what's Raku for:](#org2c9df71)
-  - [Rob's interested in discussing missing basic tools](#org4956796)
-  - [earlier topics, follow-up some time:](#org41a36fa)
-    - [gui toolkits](#org6c1c28c)
-  - [announcements](#org5875486)
-    - [May 8th: next raku study group meeting](#orgf85217c)
-    - [June 21-25: tprc: perl/raku conference](#org7576f2d)
+- [meeting notes April 24, 2022](#orgc8bb273)
+  - [the raku study group](#org7714922)
+    - [usual links](#org186ee83)
+  - [the new "darkroast" project](#orgf436559)
+    - [<https://github.com/doomvox/darkroast>](#org1ed6b18)
+  - [weekly challenge this week, rob ransbottom](#orgdf13e00)
+    - [<https://theweeklychallenge.org/>](#orgbee727c)
+  - [bill michaels](#org51ca255)
+    - [<https://unix.stackexchange.com/a/699417/227738>](#orgc157dbe)
+    - [<https://stackoverflow.com/a/71973303/7270649>](#orgf9454c0)
+    - [<https://stackoverflow.com/a/71989016/7270649>](#org3e9d2f5)
+    - [<https://unix.stackexchange.com/a/699338/227738>](#org3c3d777)
+    - [<https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>](#org2f51409)
+  - [earlier weekly challenge: "four is magic", bruce gray](#org8748f16)
+    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-160/>](#org31840be)
+    - [<https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-160/bruce-gray/raku>](#orgeaa1fc7)
+    - [<http://blogs.perl.org/users/bruce_gray/2022/04/twc-160-mysticmath-balance.html>](#org4dd2582)
+  - [equilibirum index](#org265bad7)
+    - [<http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution>](#org15fb09d)
+    - [revisit this next time (Rob solution?)](#org4da79c6)
+  - [postponed from previous meetings](#orgc59d600)
+    - [an answer to what's Raku for:](#org1633d63)
+  - [Rob's interested in discussing missing basic tools](#orge6ef5ce)
+  - [earlier topics, follow-up some time:](#org5d664e7)
+    - [gui toolkits](#orga495c55)
+  - [announcements](#orgcc568ca)
+    - [May 8th: next raku study group meeting](#org5d1bb48)
+    - [June 21-25: tprc: perl/raku conference](#org67ad9a8)
 
 
-<a id="org9b16941"></a>
+<a id="orgc8bb273"></a>
 
 # meeting notes April 24, 2022
 
 
-<a id="org07e4468"></a>
+<a id="org7714922"></a>
 
 ## the raku study group
 
 
-<a id="orgdb81b39"></a>
+<a id="org186ee83"></a>
 
 ### usual links
 
@@ -51,52 +51,52 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022apr24>
 
 
-<a id="orgeda9df0"></a>
+<a id="orgf436559"></a>
 
 ## the new "darkroast" project
 
 
-<a id="orgca78451"></a>
+<a id="org1ed6b18"></a>
 
 ### <https://github.com/doomvox/darkroast>
 
 
-<a id="orgf8e52ce"></a>
+<a id="orgdf13e00"></a>
 
 ## weekly challenge this week, rob ransbottom
 
 
-<a id="orgd956e80"></a>
+<a id="orgbee727c"></a>
 
 ### <https://theweeklychallenge.org/>
 
 
-<a id="orgc0a5628"></a>
+<a id="org51ca255"></a>
 
 ## bill michaels
 
 
-<a id="org6616a80"></a>
+<a id="orgc157dbe"></a>
 
 ### <https://unix.stackexchange.com/a/699417/227738>
 
 
-<a id="org1f52ebd"></a>
+<a id="orgf9454c0"></a>
 
 ### <https://stackoverflow.com/a/71973303/7270649>
 
 
-<a id="orgac59378"></a>
+<a id="org3e9d2f5"></a>
 
 ### <https://stackoverflow.com/a/71989016/7270649>
 
 
-<a id="org95e1a29"></a>
+<a id="org3c3d777"></a>
 
 ### <https://unix.stackexchange.com/a/699338/227738>
 
 
-<a id="orgf40e162"></a>
+<a id="org2f51409"></a>
 
 ### <https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>
 
@@ -125,64 +125,64 @@
             1.  TODO (( Seriously? ))
 
 
-<a id="orgcf097f7"></a>
+<a id="org8748f16"></a>
 
 ## earlier weekly challenge: "four is magic", bruce gray
 
 
-<a id="orga4fa3f3"></a>
+<a id="org31840be"></a>
 
 ### <https://theweeklychallenge.org/blog/perl-weekly-challenge-160/>
 
 
-<a id="org3413753"></a>
+<a id="orgeaa1fc7"></a>
 
 ### <https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-160/bruce-gray/raku>
 
 
-<a id="orgaa0165b"></a>
+<a id="org4dd2582"></a>
 
 ### <http://blogs.perl.org/users/bruce_gray/2022/04/twc-160-mysticmath-balance.html>
 
 
-<a id="org6a783b3"></a>
+<a id="org265bad7"></a>
 
 ## equilibirum index
 
 
-<a id="org39f06ac"></a>
+<a id="org15fb09d"></a>
 
 ### <http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution>
 
 
-<a id="org20a1d78"></a>
+<a id="org4da79c6"></a>
 
 ### TODO revisit this next time (Rob solution?)
 
 
-<a id="org00d187a"></a>
+<a id="orgc59d600"></a>
 
 ## postponed from previous meetings
 
 
-<a id="org2c9df71"></a>
+<a id="org1633d63"></a>
 
 ### an answer to what's Raku for:
 
 1.  <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="org4956796"></a>
+<a id="orge6ef5ce"></a>
 
 ## TODO Rob's interested in discussing missing basic tools
 
 
-<a id="org41a36fa"></a>
+<a id="org5d664e7"></a>
 
 ## earlier topics, follow-up some time:
 
 
-<a id="org6c1c28c"></a>
+<a id="orga495c55"></a>
 
 ### gui toolkits
 
@@ -203,16 +203,16 @@
 3.  wish based tk
 
 
-<a id="org5875486"></a>
+<a id="orgcc568ca"></a>
 
 ## announcements
 
 
-<a id="orgf85217c"></a>
+<a id="org5d1bb48"></a>
 
 ### May 8th: next raku study group meeting
 
 
-<a id="org7576f2d"></a>
+<a id="org67ad9a8"></a>
 
 ### June 21-25: tprc: perl/raku conference

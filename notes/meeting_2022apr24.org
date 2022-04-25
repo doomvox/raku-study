@@ -9,7 +9,7 @@
 ** the new "darkroast" project
 *** https://github.com/doomvox/darkroast
 
-** weekly challenge this week, rob ransbottom
+** weekly challenge this week, rob ransbottom 
 *** https://theweeklychallenge.org/
 
 ** bill michaels
