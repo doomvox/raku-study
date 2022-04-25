@@ -36,8 +36,7 @@
 ***** persons.txt time.txt
 
 ***** https://docs.raku.org/routine/move
-
-****** To avoid copying, you can use rename, if the files are on the same storage device. It also works with directories, while move does not.
+****** "To avoid copying, you can use rename, if the files are on the same storage device. It also works with directories, while move does not."
 ******* TODO (( Seriously? ))
 
 ** earlier weekly challenge: "four is magic", bruce gray
