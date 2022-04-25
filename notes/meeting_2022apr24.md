@@ -1,44 +1,44 @@
-- [meeting notes April 24, 2022](#org7f63a87)
-  - [the raku study group](#org6875436)
-    - [usual links](#org3eb771d)
-  - [the new "darkroast" project](#org1c9de8f)
-    - [<https://github.com/doomvox/darkroast>](#org82ebc14)
-  - [weekly challenge this week, rob ransbottom](#org96b56a4)
-    - [<https://theweeklychallenge.org/>](#orgb4b3405)
-  - [bill michaels](#org43feb08)
-    - [<https://unix.stackexchange.com/a/699417/227738>](#orgca06553)
-    - [<https://stackoverflow.com/a/71973303/7270649>](#orga38453f)
-    - [<https://stackoverflow.com/a/71989016/7270649>](#org32904b4)
-    - [<https://unix.stackexchange.com/a/699338/227738>](#org6267706)
-    - [<https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>](#orgbac75c5)
-  - [earlier weekly challenge: "four is magic", bruce gray](#orgb46c713)
-    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-160/>](#orgaf43d14)
-    - [<https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-160/bruce-gray/raku>](#org9c9f739)
-    - [<http://blogs.perl.org/users/bruce_gray/2022/04/twc-160-mysticmath-balance.html>](#org7443ab6)
-  - [equilibirum index](#org16634b0)
-    - [<http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution>](#orge3287a8)
-    - [revisit this next time (Rob solution?)](#org0b37008)
-  - [postponed from previous meetings](#org8e9c605)
-    - [an answer to what's Raku for:](#orgdb2e11a)
-  - [earlier topics, follow-up some time:](#orge09b84d)
-    - [gui toolkits](#orgbb3f0aa)
-  - [untopics](#org51f1d82)
-  - [announcements](#org1cd212a)
-    - [May 8th: next raku study group meeting](#org1d9b18e)
-    - [June 21-25: tprc: perl/raku conference](#orge85c20c)
+- [meeting notes April 24, 2022](#org0bc10c8)
+  - [the raku study group](#org5c6c807)
+    - [usual links](#org2e97036)
+  - [the new "darkroast" project](#org78e68ad)
+    - [<https://github.com/doomvox/darkroast>](#orgdba55a1)
+  - [weekly challenge this week, rob ransbottom](#org3f79daf)
+    - [<https://theweeklychallenge.org/>](#org440b654)
+  - [bill michaels](#orge7ff3f3)
+    - [<https://unix.stackexchange.com/a/699417/227738>](#org40e3f11)
+    - [<https://stackoverflow.com/a/71973303/7270649>](#orgdde72af)
+    - [<https://stackoverflow.com/a/71989016/7270649>](#org1ea855e)
+    - [<https://unix.stackexchange.com/a/699338/227738>](#org02a2624)
+    - [<https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>](#org0bdfe38)
+  - [earlier weekly challenge: "four is magic", bruce gray](#org8b95f21)
+    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-160/>](#org1cfe060)
+    - [<https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-160/bruce-gray/raku>](#orgca586bb)
+    - [<http://blogs.perl.org/users/bruce_gray/2022/04/twc-160-mysticmath-balance.html>](#org7321042)
+  - [equilibirum index](#orga271a53)
+    - [<http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution>](#org058a6a3)
+    - [revisit this next time (Rob solution?)](#org6289f95)
+  - [postponed from previous meetings](#org3d26bf6)
+    - [an answer to what's Raku for:](#orgd2b9d14)
+  - [earlier topics, follow-up some time:](#org8f729dc)
+    - [gui toolkits](#org3de13ca)
+  - [untopics](#org0e60ad8)
+  - [announcements](#orgceba100)
+    - [May 8th: next raku study group meeting](#org3a85d32)
+    - [June 21-25: tprc: perl/raku conference](#orgc6d59ac)
 
 
-<a id="org7f63a87"></a>
+<a id="org0bc10c8"></a>
 
 # meeting notes April 24, 2022
 
 
-<a id="org6875436"></a>
+<a id="org5c6c807"></a>
 
 ## the raku study group
 
 
-<a id="org3eb771d"></a>
+<a id="org2e97036"></a>
 
 ### usual links
 
@@ -51,52 +51,52 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022apr24>
 
 
-<a id="org1c9de8f"></a>
+<a id="org78e68ad"></a>
 
 ## the new "darkroast" project
 
 
-<a id="org82ebc14"></a>
+<a id="orgdba55a1"></a>
 
 ### <https://github.com/doomvox/darkroast>
 
 
-<a id="org96b56a4"></a>
+<a id="org3f79daf"></a>
 
 ## weekly challenge this week, rob ransbottom
 
 
-<a id="orgb4b3405"></a>
+<a id="org440b654"></a>
 
 ### <https://theweeklychallenge.org/>
 
 
-<a id="org43feb08"></a>
+<a id="orge7ff3f3"></a>
 
 ## bill michaels
 
 
-<a id="orgca06553"></a>
+<a id="org40e3f11"></a>
 
 ### <https://unix.stackexchange.com/a/699417/227738>
 
 
-<a id="orga38453f"></a>
+<a id="orgdde72af"></a>
 
 ### <https://stackoverflow.com/a/71973303/7270649>
 
 
-<a id="org32904b4"></a>
+<a id="org1ea855e"></a>
 
 ### <https://stackoverflow.com/a/71989016/7270649>
 
 
-<a id="org6267706"></a>
+<a id="org02a2624"></a>
 
 ### <https://unix.stackexchange.com/a/699338/227738>
 
 
-<a id="orgbac75c5"></a>
+<a id="org0bdfe38"></a>
 
 ### <https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>
 
@@ -120,62 +120,64 @@
     
     8.  <https://docs.raku.org/routine/move>
     
-        To avoid copying, you can use rename, if the files are on the same storage device. It also works with directories, while move does not. (( Seriously? ))
+        1.  To avoid copying, you can use rename, if the files are on the same storage device. It also works with directories, while move does not.
+        
+            1.  TODO (( Seriously? ))
 
 
-<a id="orgb46c713"></a>
+<a id="org8b95f21"></a>
 
 ## earlier weekly challenge: "four is magic", bruce gray
 
 
-<a id="orgaf43d14"></a>
+<a id="org1cfe060"></a>
 
 ### <https://theweeklychallenge.org/blog/perl-weekly-challenge-160/>
 
 
-<a id="org9c9f739"></a>
+<a id="orgca586bb"></a>
 
 ### <https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-160/bruce-gray/raku>
 
 
-<a id="org7443ab6"></a>
+<a id="org7321042"></a>
 
 ### <http://blogs.perl.org/users/bruce_gray/2022/04/twc-160-mysticmath-balance.html>
 
 
-<a id="org16634b0"></a>
+<a id="orga271a53"></a>
 
 ## equilibirum index
 
 
-<a id="orge3287a8"></a>
+<a id="org058a6a3"></a>
 
 ### <http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution>
 
 
-<a id="org0b37008"></a>
+<a id="org6289f95"></a>
 
 ### TODO revisit this next time (Rob solution?)
 
 
-<a id="org8e9c605"></a>
+<a id="org3d26bf6"></a>
 
 ## postponed from previous meetings
 
 
-<a id="orgdb2e11a"></a>
+<a id="orgd2b9d14"></a>
 
 ### an answer to what's Raku for:
 
 1.  <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="orge09b84d"></a>
+<a id="org8f729dc"></a>
 
 ## earlier topics, follow-up some time:
 
 
-<a id="orgbb3f0aa"></a>
+<a id="org3de13ca"></a>
 
 ### gui toolkits
 
@@ -196,21 +198,21 @@
 3.  wish based tk
 
 
-<a id="org51f1d82"></a>
+<a id="org0e60ad8"></a>
 
 ## untopics
 
 
-<a id="org1cd212a"></a>
+<a id="orgceba100"></a>
 
 ## announcements
 
 
-<a id="org1d9b18e"></a>
+<a id="org3a85d32"></a>
 
 ### May 8th: next raku study group meeting
 
 
-<a id="orge85c20c"></a>
+<a id="orgc6d59ac"></a>
 
 ### June 21-25: tprc: perl/raku conference
