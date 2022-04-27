@@ -12,6 +12,12 @@
 *** 
 
 
+** raku's "move" considered screwed-up
+*** https://docs.raku.org/routine/move
+*** "To avoid copying, you can use rename, if the files are on the same storage device. It also works with directories, while move does not."
+*** discussed last meeting:
+***** https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303
+
 ** bill michaels
 *** https://unix.stackexchange.com/a/699417/227738 
 *** https://stackoverflow.com/a/71973303/7270649 
@@ -35,9 +41,6 @@
 
 ***** persons.txt time.txt
 
-***** https://docs.raku.org/routine/move
-****** "To avoid copying, you can use rename, if the files are on the same storage device. It also works with directories, while move does not."
-******* TODO (( Seriously? ))
 
 
 ** equilibirum index
