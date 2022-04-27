@@ -3,9 +3,9 @@
 *** "Raku Saki Robots" (?)
 *** usual links
 **** these notes
-***** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022apr24.md
+***** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022may08.md
 **** code examples
-***** https://github.com/doomvox/raku-study/tree/main/bin/2022apr24
+***** https://github.com/doomvox/raku-study/tree/main/bin/2022may08
 
 ** the new "darkroast" project
 *** https://github.com/doomvox/darkroast
