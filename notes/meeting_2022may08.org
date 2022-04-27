@@ -48,11 +48,10 @@
 
 ** TODO Rob's interested in discussing missing basic tools
 
-** postponed from previous meetings
+** from previous meetings
 *** an answer to what's Raku for:
 **** https://www.codesections.com/blog/raku-manifesto/
 
-** earlier topics, follow-up some time:
 *** gui toolkits
 **** gtk3
 ***** marcel timmerman on raku
