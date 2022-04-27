@@ -23,11 +23,13 @@
 *** https://stackoverflow.com/a/71973303/7270649 
 *** https://stackoverflow.com/a/71989016/7270649  
 *** https://unix.stackexchange.com/a/699338/227738 
+
 *** https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html 
 **** bill michaels brought up this piece from 2009
 ***** true enough: "There are many wonderful modules in CPAN, but learning about them, learning to use them, finding out about their hidden corner-cases and unexpected behaviors takes even more time"
 ***** eh: "People hate Perl for the same reason we love it-- because it makes us feel clever."
 ***** links to steve yegge: https://sites.google.com/site/steveyegge2/ancient-languages-perl
+
 
 **** move/copy command in Raku doesn't work with directory as second arg
 ***** https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303
