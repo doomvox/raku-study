@@ -11,8 +11,6 @@
 *** https://github.com/doomvox/darkroast
 *** 
 
-** weekly challenge this week, rob ransbottom 
-*** https://theweeklychallenge.org/
 
 ** bill michaels
 *** https://unix.stackexchange.com/a/699417/227738 
@@ -47,6 +45,10 @@
 *** TODO revisit this next time (Rob solution?)
 
 ** TODO Rob's interested in discussing missing basic tools
+
+** weekly challenge this week
+*** https://theweeklychallenge.org/
+
 
 ** from previous meetings
 *** an answer to what's Raku for:
