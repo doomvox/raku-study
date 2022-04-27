@@ -49,7 +49,6 @@
 ** weekly challenge this week
 *** https://theweeklychallenge.org/
 
-
 ** from previous meetings
 *** an answer to what's Raku for:
 **** https://www.codesections.com/blog/raku-manifesto/
