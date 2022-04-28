@@ -31,10 +31,10 @@
 **** true enough: "There are many wonderful modules in CPAN, but learning about them, learning to use them, finding out about their hidden corner-cases and unexpected behaviors takes even more time"
 **** eh: "People hate Perl for the same reason we love it-- because it makes us feel clever."
 **** links to steve yegge: https://sites.google.com/site/steveyegge2/ancient-languages-perl
-**** http://obsidianrook.com/doomfiles/CASE_STUDY_2.html
 **** http://obsidianrook.com/doomfiles/GENTLE_ART_OF_PROGRAMMING.html
 **** http://obsidianrook.com/doomfiles/SIGILS_OF_POWER.html
 **** http://obsidianrook.com/doomfiles/THE_PERL_AFFAIR.html
+**** http://obsidianrook.com/doomfiles/CASE_STUDY_2.html
 
 **** move/copy command in Raku doesn't work with directory as second arg
 ***** https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303
