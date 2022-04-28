@@ -7,8 +7,8 @@
 **** code examples
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2022may08
 
-** the new "darkroast" project
-*** https://github.com/doomvox/darkroast
+** finished to test to examine ^methods issues 
+*** new "darkroast" project: https://github.com/doomvox/darkroast
 *** expanded the first test there
 **** https://github.com/doomvox/darkroast/tree/main/S12-introspection/method_object_gists.t
 **** miscelanious things could be said about the code (search for STUDYGROUP)
