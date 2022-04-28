@@ -10,8 +10,8 @@
 ** the new "darkroast" project
 *** https://github.com/doomvox/darkroast
 *** expanded the first test there
-**** https://github.com/doomvox/darkroast/tree/main/S12-introspection
-**** miscelanious things could be said about the code
+**** https://github.com/doomvox/darkroast/tree/main/S12-introspection/method_object_gists.t
+**** miscelanious things could be said about the code (search for STUDYGROUP)
 ***** /home/doom/End/Cave/Raku/Notes/notes-darkroast-caret_methods_method
 
 ** raku's "move" considered screwed-up
