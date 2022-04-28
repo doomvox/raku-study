@@ -1,50 +1,50 @@
-- [meeting notes May 08, 2022](#orge4754d8)
-  - [the raku study group](#org8e5ef9b)
-    - ["Raku Saki Robots" (?)](#org00f08c8)
-    - [usual links](#orge431b3e)
-  - [the new "darkroast" project](#org901c838)
-    - [<https://github.com/doomvox/darkroast>](#orgf06c9cd)
-    - [expanded the first test there](#orgbbc8d98)
-  - [raku's "move" considered screwed-up](#org2803e3b)
-    - [<https://docs.raku.org/routine/move>](#org73cca2f)
-    - ["To avoid copying, you can use rename, if the files are on the same storage device. It also works with directories, while move does not."](#org152916e)
-    - [discussed last meeting:](#org68789ec)
-  - [bill michaels](#org4601861)
-    - [<https://unix.stackexchange.com/a/699417/227738>](#orgf3f5638)
-    - [<https://stackoverflow.com/a/71973303/7270649>](#orga99b111)
-    - [<https://stackoverflow.com/a/71989016/7270649>](#orgbcb0b29)
-    - [<https://unix.stackexchange.com/a/699338/227738>](#org1cf1b32)
-    - [<https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>](#orgf19b207)
-  - [equilibirum index](#org4d7a48f)
-    - [<http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution>](#orgdaab8f2)
-    - [revisit this next time (Rob solution?)](#org4e0964b)
-  - [Rob's interested in discussing missing basic tools](#orgd972c50)
-  - [weekly challenge this week](#org1e53659)
-    - [<https://theweeklychallenge.org/>](#org2e98c4d)
-  - [from previous meetings](#orgf13250f)
-    - [an answer to what's Raku for:](#org6577d5f)
-    - [gui toolkits](#org8464015)
-  - [announcements](#orgd0d1e0d)
-    - [May 8th: next raku study group meeting](#org54410fa)
-    - [June 21-25: tprc: perl/raku conference](#orgd4c8ce0)
+- [meeting notes May 08, 2022](#orga15ba50)
+  - [the raku study group](#orgcfd119d)
+    - ["Raku Saki Robots" (?)](#org6705125)
+    - [usual links](#org9ad089f)
+  - [the new "darkroast" project](#orgb9454fb)
+    - [<https://github.com/doomvox/darkroast>](#org5bf4f80)
+    - [expanded the first test there](#org89d4e40)
+  - [raku's "move" considered screwed-up](#org154b82d)
+    - [<https://docs.raku.org/routine/move>](#org3cf2f1d)
+    - ["To avoid copying, you can use rename, if the files are on the same storage device. It also works with directories, while move does not."](#orgf8eef4f)
+    - [discussed last meeting:](#orgee02676)
+  - [bill michaels](#org916b172)
+    - [<https://unix.stackexchange.com/a/699417/227738>](#org8679d7e)
+    - [<https://stackoverflow.com/a/71973303/7270649>](#org7f48c4d)
+    - [<https://stackoverflow.com/a/71989016/7270649>](#org7c16c2a)
+    - [<https://unix.stackexchange.com/a/699338/227738>](#org8aec9f7)
+    - [<https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>](#org12d9b76)
+  - [equilibirum index](#org925df56)
+    - [<http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution>](#org9041238)
+    - [revisit this next time (Rob solution?)](#org96425b6)
+  - [Rob's interested in discussing missing basic tools](#org4b26afc)
+  - [weekly challenge this week](#orgb47218b)
+    - [<https://theweeklychallenge.org/>](#orgccd1c1b)
+  - [from previous meetings](#orgc1f6aec)
+    - [an answer to what's Raku for:](#org0e79753)
+    - [gui toolkits](#org0b6243c)
+  - [announcements](#org0203cf1)
+    - [May 8th: next raku study group meeting](#org22b2e48)
+    - [June 21-25: tprc: perl/raku conference](#org70673d6)
 
 
-<a id="orge4754d8"></a>
+<a id="orga15ba50"></a>
 
 # meeting notes May 08, 2022
 
 
-<a id="org8e5ef9b"></a>
+<a id="orgcfd119d"></a>
 
 ## the raku study group
 
 
-<a id="org00f08c8"></a>
+<a id="org6705125"></a>
 
 ### "Raku Saki Robots" (?)
 
 
-<a id="orge431b3e"></a>
+<a id="org9ad089f"></a>
 
 ### usual links
 
@@ -57,17 +57,17 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may08>
 
 
-<a id="org901c838"></a>
+<a id="orgb9454fb"></a>
 
 ## the new "darkroast" project
 
 
-<a id="orgf06c9cd"></a>
+<a id="org5bf4f80"></a>
 
 ### <https://github.com/doomvox/darkroast>
 
 
-<a id="orgbbc8d98"></a>
+<a id="org89d4e40"></a>
 
 ### expanded the first test there
 
@@ -78,54 +78,54 @@
     1.  /home/doom/End/Cave/Raku/Notes/notes-darkroast-caret<sub>methods</sub><sub>method</sub>
 
 
-<a id="org2803e3b"></a>
+<a id="org154b82d"></a>
 
 ## raku's "move" considered screwed-up
 
 
-<a id="org73cca2f"></a>
+<a id="org3cf2f1d"></a>
 
 ### <https://docs.raku.org/routine/move>
 
 
-<a id="org152916e"></a>
+<a id="orgf8eef4f"></a>
 
 ### "To avoid copying, you can use rename, if the files are on the same storage device. It also works with directories, while move does not."
 
 
-<a id="org68789ec"></a>
+<a id="orgee02676"></a>
 
 ### discussed last meeting:
 
 1.  <https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303>
 
 
-<a id="org4601861"></a>
+<a id="org916b172"></a>
 
 ## bill michaels
 
 
-<a id="orgf3f5638"></a>
+<a id="org8679d7e"></a>
 
 ### <https://unix.stackexchange.com/a/699417/227738>
 
 
-<a id="orga99b111"></a>
+<a id="org7f48c4d"></a>
 
 ### <https://stackoverflow.com/a/71973303/7270649>
 
 
-<a id="orgbcb0b29"></a>
+<a id="org7c16c2a"></a>
 
 ### <https://stackoverflow.com/a/71989016/7270649>
 
 
-<a id="org1cf1b32"></a>
+<a id="org8aec9f7"></a>
 
 ### <https://unix.stackexchange.com/a/699338/227738>
 
 
-<a id="orgf19b207"></a>
+<a id="org12d9b76"></a>
 
 ### <https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>
 
@@ -141,7 +141,9 @@
 
 6.  <http://obsidianrook.com/doomfiles/GENTLE_ART_OF_PROGRAMMING.html>
 
-7.  move/copy command in Raku doesn't work with directory as second arg
+7.  <http://obsidianrook.com/doomfiles/SIGILS_OF_POWER.html>
+
+8.  move/copy command in Raku doesn't work with directory as second arg
 
     1.  <https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303>
     
@@ -160,49 +162,49 @@
     7.  persons.txt time.txt
 
 
-<a id="org4d7a48f"></a>
+<a id="org925df56"></a>
 
 ## equilibirum index
 
 
-<a id="orgdaab8f2"></a>
+<a id="org9041238"></a>
 
 ### <http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution>
 
 
-<a id="org4e0964b"></a>
+<a id="org96425b6"></a>
 
 ### TODO revisit this next time (Rob solution?)
 
 
-<a id="orgd972c50"></a>
+<a id="org4b26afc"></a>
 
 ## TODO Rob's interested in discussing missing basic tools
 
 
-<a id="org1e53659"></a>
+<a id="orgb47218b"></a>
 
 ## weekly challenge this week
 
 
-<a id="org2e98c4d"></a>
+<a id="orgccd1c1b"></a>
 
 ### <https://theweeklychallenge.org/>
 
 
-<a id="orgf13250f"></a>
+<a id="orgc1f6aec"></a>
 
 ## from previous meetings
 
 
-<a id="org6577d5f"></a>
+<a id="org0e79753"></a>
 
 ### an answer to what's Raku for:
 
 1.  <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="org8464015"></a>
+<a id="org0b6243c"></a>
 
 ### gui toolkits
 
@@ -223,16 +225,16 @@
 3.  wish based tk
 
 
-<a id="orgd0d1e0d"></a>
+<a id="org0203cf1"></a>
 
 ## announcements
 
 
-<a id="org54410fa"></a>
+<a id="org22b2e48"></a>
 
 ### May 8th: next raku study group meeting
 
 
-<a id="orgd4c8ce0"></a>
+<a id="org70673d6"></a>
 
 ### June 21-25: tprc: perl/raku conference

@@ -33,6 +33,7 @@
 **** links to steve yegge: https://sites.google.com/site/steveyegge2/ancient-languages-perl
 **** http://obsidianrook.com/doomfiles/CASE_STUDY_2.html
 **** http://obsidianrook.com/doomfiles/GENTLE_ART_OF_PROGRAMMING.html
+**** http://obsidianrook.com/doomfiles/SIGILS_OF_POWER.html
 
 **** move/copy command in Raku doesn't work with directory as second arg
 ***** https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303
