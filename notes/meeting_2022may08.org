@@ -1,6 +1,6 @@
 * meeting notes May 08, 2022
 ** the raku study group
-*** "Raku Saki Robots" (?)
+*** "Raku Saki Robots" 
 *** usual links
 **** these notes
 ***** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022may08.md
