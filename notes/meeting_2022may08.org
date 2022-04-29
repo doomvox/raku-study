@@ -14,8 +14,26 @@
 ** raku's "move" considered screwed-up
 *** https://docs.raku.org/routine/move
 *** "To avoid copying, you can use rename, if the files are on the same storage device. It also works with directories, while move does not."
+*** move/copy command in Raku doesn't work with directory as second arg
 *** discussed last meeting:
 ***** https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303
+
+
+
+***** raku -e 'for dir(test => / .+ \.txt /) {.say};'
+
+***** "persons.txt".IO
+"time.txt".IO
+
+***** raku -e 'mkdir IO::Path.new("../dest");'
+
+***** raku -e 'for dir(test => / .+ \.txt $ /) { copy $_, "../dest/$_", createonly => True};'
+
+***** ls ../dest
+
+***** persons.txt time.txt
+
+
 
 ** sniping at perl, circa 2009
 
@@ -31,21 +49,6 @@
 ***** http://obsidianrook.com/doomfiles/CASE_STUDY_2.html
 ***** http://obsidianrook.com/doomfiles/THE_PERL_AFFAIR.html
 
-**** move/copy command in Raku doesn't work with directory as second arg
-***** https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303
-
-***** raku -e 'for dir(test => / .+ \.txt /) {.say};'
-
-***** "persons.txt".IO
-"time.txt".IO
-
-***** raku -e 'mkdir IO::Path.new("../dest");'
-
-***** raku -e 'for dir(test => / .+ \.txt $ /) { copy $_, "../dest/$_", createonly => True};'
-
-***** ls ../dest
-
-***** persons.txt time.txt
 
 
 
