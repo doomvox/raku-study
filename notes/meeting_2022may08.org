@@ -6,7 +6,7 @@
 **** code examples
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2022may08
 
-** finished to test to examine ^methods issues 
+** finished test to examine ^methods issues 
 **** https://github.com/doomvox/darkroast/tree/main/S12-introspection/method_object_gists.t
 **** misc things could be said about the code (search for STUDYGROUP)
 ***** /home/doom/End/Cave/Raku/Notes/notes-darkroast-caret_methods_method
@@ -23,6 +23,7 @@
 **** bill michaels brought up this piece from 2009
 **** true enough: "There are many wonderful modules in CPAN, but learning about them, learning to use them, finding out about their hidden corner-cases and unexpected behaviors takes even more time"
 **** eh: "People hate Perl for the same reason we love it-- because it makes us feel clever."
+***** And people attacked perl so they could pose as enlightened insiders. 
 **** links to Steve Yegge: https://sites.google.com/site/steveyegge2/ancient-languages-perl
 **** my old commentary about Steve Yegge
 ***** http://obsidianrook.com/doomfiles/GENTLE_ART_OF_PROGRAMMING.html
