@@ -9,7 +9,8 @@
 ** finished test to examine ^methods issues 
 **** https://github.com/doomvox/darkroast/tree/main/S12-introspection/method_object_gists.t
 **** misc things could be said about the code (search for STUDYGROUP)
-***** /home/doom/End/Cave/Raku/Notes/notes-darkroast-caret_methods_method
+***** /home/doom/End/Cave/Raku/Notes/notes-darkroast-c
+***** aret_methods_method
 
 ** raku's "move" considered screwed-up
 *** https://docs.raku.org/routine/move
