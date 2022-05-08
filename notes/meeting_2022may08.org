@@ -34,6 +34,9 @@ https://www.reddit.com/r/rakulang/comments/tspr5a/a_much_more_dwimmy_where_all_t
 *** checking a program is on system
 **** https://stackoverflow.com/questions/71894048/how-to-check-if-a-program-is-present-in-the-system-with-raku
 
+*** parsing wiki syntax, regex vs grammars
+**** https://stackoverflow.com/questions/71812642/should-raku-grammars-or-regexes-be-used-for-parsing-wiki-markup
+
 
 ** sniping at perl, circa 2009
 
