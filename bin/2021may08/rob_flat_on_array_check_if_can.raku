@@ -15,7 +15,6 @@ use v6;
     # [(a b) (c d)]
  
     @dyad = @dyad.flat[*;*];
-    @dyad = @dyad.flat;
     say @dyad;
     # [a b c d]
 }
