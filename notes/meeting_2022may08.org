@@ -28,6 +28,11 @@ raku -e 'say .value.HOW.^name, "\t", .key for (|CORE::, |UNIT::, |OUTERS::, |MY:
 **** joe's
 /home/doom/End/Cave/IntrospectP6/Wall/Symbol-Scan/lib/Symbol/Scan.pm6
 
+*** more mysteries: 
+**** can you get the ^methdods of a submethod?
+**** can you look up the signature for a method object?
+
+
 ** raku's "move" considered ungood
 *** move/copy command in Raku doesn't work with directory as second arg
 *** https://docs.raku.org/routine/move
