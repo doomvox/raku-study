@@ -32,3 +32,4 @@ say @e.are;			 #(Date)
 say "===";
 my @z = ( Mu, Any, True );
 say @z.are;
+# No such method 'are' for invocant of type 'Array'
