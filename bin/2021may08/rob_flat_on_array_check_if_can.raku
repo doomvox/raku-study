@@ -13,6 +13,7 @@ use v6;
     @dyad = @dyad.flat;
     say @dyad;
     # [a b c d]
+    # [(a b) (c d)]
 
     say @dyad.can('flat');
     # (flat flat flat)    ## ?
