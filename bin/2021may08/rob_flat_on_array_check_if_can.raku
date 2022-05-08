@@ -25,6 +25,15 @@ use v6;
 }
 
 {
+    my @dyad = <a b>, <c d>; # [(a b) (c d)]
+    @dyad = @dyad».List.flat; # OUTPUT: «(1 2 3 4 5 6 7)␤» 
+    say @dyad;
+    # [a b c d]
+}
+
+
+
+{
     my @dyad = <a b>, <c d>;
     # [(a b) (c d)]
     @dyad = @dyad.flat;
