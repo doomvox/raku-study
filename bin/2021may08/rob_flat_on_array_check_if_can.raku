@@ -21,7 +21,6 @@ use v6;
     # [(a b) (c d)]
     @dyad = @dyad.flat;
     say @dyad;
-    # [a b c d]
     # [(a b) (c d)]
 
     say @dyad.can('flat');
