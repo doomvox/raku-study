@@ -16,7 +16,6 @@
 ***** /home/doom/End/Cave/Raku/Notes/notes-darkroast-c
 ***** aret_methods_method
 
-
 ** TODO review introspection features
 *** find all classes
 *** can you know what traits were used
