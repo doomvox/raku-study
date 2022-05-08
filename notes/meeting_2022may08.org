@@ -29,7 +29,7 @@
 ** rob ransbottom
 *** topics in mind, which are
 
-*** bruce gray
+**** bruce gray
 system install 
 
 
