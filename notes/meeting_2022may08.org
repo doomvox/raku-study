@@ -30,7 +30,7 @@ raku -e 'say .value.HOW.^name, "\t", .key for (|CORE::, |UNIT::, |OUTERS::, |MY:
 
 *** more mysteries: 
 **** can you get the ^methdods of a submethod?
-"implementation detail and has no serviceable parts inside The 'ForeignCode' class is a Rakudo-specific"
+***** "implementation detail and has no serviceable parts inside The 'ForeignCode' class is a Rakudo-specific"
 **** can you look up the signature for a method object?
 ***** bruce gray:
 raku -e 'my $n = 42; say .signature for $n.can("log")'
