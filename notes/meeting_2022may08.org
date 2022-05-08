@@ -31,6 +31,9 @@
 *** more dwimmy .all ~~ Type
 https://www.reddit.com/r/rakulang/comments/tspr5a/a_much_more_dwimmy_where_all_type/
 
+*** checking a program is on system
+**** https://stackoverflow.com/questions/71894048/how-to-check-if-a-program-is-present-in-the-system-with-raku
+
 
 ** sniping at perl, circa 2009
 
