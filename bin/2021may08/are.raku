@@ -5,25 +5,25 @@
 use v6;
 
 my @a = 1,3.2,'a',2e2;   #[1 3.2 a 200]
-@a.are;                  #(Cool)
+say @a.are;                  #(Cool)
 
 my @b = 1,3.2,2e2;	 #[1 3.2 200]
-@b.are;			 #(Real)
+say @b.are;			 #(Real)
 
 my @c = <<1>>, 1, 3;	 #[1 1 3]
-@c[0].^name;		 #IntStr
-@c.are;			 #(Int)
+say @c[0].^name;		 #IntStr
+say @c.are;			 #(Int)
 
 my @d = <a b c>;	 #[a b c]
-@d.are;			 #(Str)
+say @d.are;			 #(Str)
 
 @d.push: <<1>>;		 #[a b c 1]
-@d[3].^name;		 #IntStr
-@d.are;		 	 #(Str)
+say @d[3].^name;		 #IntStr
+say @d.are;		 	 #(Str)
 
 my $d = "2022-01-03".Date; #2022-01-03
-@d.push: $d;		 #[a b c 1 2022-01-03]
-@d.are;			 #(Any)
+say @d.push: $d;		 #[a b c 1 2022-01-03]
+say @d.are;			 #(Any)
 
 my @e = $d xx 4;	 #[2022-01-03 2022-01-03 2022-01-03 2022-01-03]
-@e.are;			 #(Date)
+say @e.are;			 #(Date)
