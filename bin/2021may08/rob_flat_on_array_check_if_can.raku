@@ -47,6 +47,13 @@ use v6;
     # Unable to parse expression in bracketed infix; couldn't find final ']' (corresponding starter was at line 12)
 }
 
+{
+    my @dyad = <a b>, <c d>;
+    @dyad.=flat[*;*];
+
+}
+
+
 
 ## many side issues:
 ## why doesn't "flat" method work with ".="?
