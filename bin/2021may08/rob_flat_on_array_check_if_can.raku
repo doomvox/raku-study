@@ -50,6 +50,7 @@ use v6;
 {
     my @dyad = <a b>, <c d>;
     @dyad.=flat[*;*];
+    say @dyad;
 
 }
 
