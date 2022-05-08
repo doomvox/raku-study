@@ -9,8 +9,6 @@
 ** editorial: perl5-porters are in good shape, and backwards compatibility is a priority again
 *** https://news.ycombinator.com/item?id=31259332
 
-
-
 ** finished tests to examine ^methods issues 
 **** https://github.com/doomvox/darkroast/tree/main/S12-introspection/method_object_gists.t
 **** misc things could be said about the code (search for STUDYGROUP)
