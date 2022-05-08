@@ -4,6 +4,11 @@
 
 use v6;
 
+{
+    my @dyad = <a b>, <c d>;
+    say @dyad.can('flat');
+    # (flat flat flat)    ## ?
+}
 
 {
     my @dyad = <a b>, <c d>;
@@ -23,10 +28,7 @@ use v6;
     say @dyad;
     # [(a b) (c d)]
 
-    say @dyad.can('flat');
-    # (flat flat flat)    ## ?
 }
-
 {
     my @dyad = <a b>, <c d>;
 #    @dyad .= flat[*;*];
