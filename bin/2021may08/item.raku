@@ -6,8 +6,6 @@ use v6;
 
 ## https://docs.raku.org/routine/item
 
-
-
 # Forces given object to be evaluated in item context and returns the value of it.
 
 say item([1,2,3]).raku;              # $[1, 2, 3]
