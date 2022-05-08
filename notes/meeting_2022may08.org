@@ -96,9 +96,6 @@ https://www.reddit.com/r/rakulang/comments/tspr5a/a_much_more_dwimmy_where_all_t
 ***** http://obsidianrook.com/doomfiles/CASE_STUDY_2.html
 ***** http://obsidianrook.com/doomfiles/THE_PERL_AFFAIR.html
 
-
-
-
 ** equilibirum index
 *** http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution
 *** TODO revisit this next time (Rob solution?)
