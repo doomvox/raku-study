@@ -28,6 +28,10 @@
 *** rakudo weekly news
 **** https://rakudoweekly.blog/2022/05/02/2022-18-period/
 
+*** more dwimmy .all ~~ Type
+https://www.reddit.com/r/rakulang/comments/tspr5a/a_much_more_dwimmy_where_all_type/
+
+
 ** sniping at perl, circa 2009
 
 *** https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html 
