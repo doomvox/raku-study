@@ -17,8 +17,9 @@
 ***** aret_methods_method
 
 
-** review introspection
-
+** review introspection features
+*** find all classes
+*** can you know what traits were used
 
 ** raku's "move" considered ungood
 *** move/copy command in Raku doesn't work with directory as second arg
