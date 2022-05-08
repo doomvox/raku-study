@@ -19,6 +19,6 @@ say @dyad.can('flat');
 
 {
     my @dyad = <a b>, <c d>;
-    @dyad .= flat[*;*];
+#    @dyad .= flat[*;*];
     # Unable to parse expression in bracketed infix; couldn't find final ']' (corresponding starter was at line 12)
 }
