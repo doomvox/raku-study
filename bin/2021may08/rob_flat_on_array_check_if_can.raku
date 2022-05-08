@@ -8,7 +8,6 @@ use v6;
     my @dyad = <a b>, <c d>;
     say @dyad.can('flat');
     # (flat flat flat)    ## ?   List of objects
-    
 }
 
 {
