@@ -30,7 +30,7 @@ say @e.are;			 #(Date)
 
 
 say "===";
-my @z = ( Mu.new, Any.new, True.new );
+my @z = ( Mu.new, Any.new );
 say @z.are;
   # (Mu)
 
