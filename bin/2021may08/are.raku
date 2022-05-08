@@ -27,3 +27,8 @@ say @d.are;			 #(Any)
 
 my @e = $d xx 4;	 #[2022-01-03 2022-01-03 2022-01-03 2022-01-03]
 say @e.are;			 #(Date)
+
+
+say "===";
+my @z = Mu, Fail, True;
+say @z.are
