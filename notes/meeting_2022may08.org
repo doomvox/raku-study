@@ -66,8 +66,6 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-163/#TASK1
 **** bruce gray
 system install perl vs custom, history
 
-
-
 ** recent raku topics
 *** web scraping:
 **** https://www.reddit.com/r/rakulang/comments/u6bixq/web_scraping_with_raku/
@@ -88,7 +86,6 @@ https://www.reddit.com/r/rakulang/comments/tspr5a/a_much_more_dwimmy_where_all_t
 
 
 ** sniping at perl, circa 2009
-
 *** https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html 
 **** William Michaels brought up this piece from 2009
 **** true: "There are many wonderful modules in CPAN, but learning about them, learning to use them ... takes even more time"
