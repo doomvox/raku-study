@@ -73,5 +73,5 @@
 
 
 ** announcements 
-*** May 8th: next raku study group meeting 
+*** May 22nd: next raku study group meeting 
 *** June 21-25: tprc: perl/raku conference 
