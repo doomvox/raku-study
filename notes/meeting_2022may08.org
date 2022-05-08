@@ -17,9 +17,16 @@
 ***** aret_methods_method
 
 
-** review introspection features
+** TODO review introspection features
 *** find all classes
 *** can you know what traits were used
+**** rob's;
+raku -e '.say for (|CORE::, |UNIT::, |OUTERS::, |MY::).grep({ .key eq .value.^name }).grep({ .value.HOW.^name eq "Perl6::Metamodel::ClassHOW" }).map(*.key).unique' | sort | less
+} 
+**** bruce's:
+raku -e 'say .value.HOW.^name, "\t", .key for (|CORE::, |UNIT::, |OUTERS::, |MY::).grep({ .key eq .value.^name })' | sort | less 
+
+
 
 ** raku's "move" considered ungood
 *** move/copy command in Raku doesn't work with directory as second arg
