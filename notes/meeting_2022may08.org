@@ -31,6 +31,10 @@ raku -e 'say .value.HOW.^name, "\t", .key for (|CORE::, |UNIT::, |OUTERS::, |MY:
 *** more mysteries: 
 **** can you get the ^methdods of a submethod?
 **** can you look up the signature for a method object?
+***** bruce gray:
+raku -e 'my $n = 42; say .signature for $n.can("log")'
+# (Int: |)
+# (Cool: |) 
 
 
 ** raku's "move" considered ungood
