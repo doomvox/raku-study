@@ -132,3 +132,4 @@ https://www.reddit.com/r/rakulang/comments/tspr5a/a_much_more_dwimmy_where_all_t
 ** announcements 
 *** May 22nd: next raku study group meeting 
 *** June 21-25: tprc: perl/raku conference 
+**** 4 hours of Bruce Gray: talk + 3hr tutorial
