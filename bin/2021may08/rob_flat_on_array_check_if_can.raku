@@ -13,3 +13,4 @@ say @dyad;
 # [a b c d]
 
 say @dyad.can('flat');
+# (flat flat flat)    ## ?
