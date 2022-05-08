@@ -17,6 +17,9 @@
 ***** aret_methods_method
 
 
+** review introspection
+
+
 ** raku's "move" considered ungood
 *** move/copy command in Raku doesn't work with directory as second arg
 *** https://docs.raku.org/routine/move
