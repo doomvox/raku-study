@@ -10,9 +10,9 @@ use v6;
 
 # Forces given object to be evaluated in item context and returns the value of it.
 
-say item([1,2,3]).raku;              # OUTPUT: «$[1, 2, 3]␤» 
-say item( %( apple => 10 ) ).raku;   # OUTPUT: «${:apple(10)}␤» 
-say item("abc").raku;                # OUTPUT: «"abc"␤»
+say item([1,2,3]).raku;              # $[1, 2, 3]
+say item( %( apple => 10 ) ).raku;   # ${:apple(10)}
+say item("abc").raku;                # "abc"
 
 # You can also use $ as item contextualizer.
 
