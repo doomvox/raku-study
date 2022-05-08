@@ -6,7 +6,7 @@
 **** code examples
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2022may08
 
-** finished test to examine ^methods issues 
+** finished tests to examine ^methods issues 
 **** https://github.com/doomvox/darkroast/tree/main/S12-introspection/method_object_gists.t
 **** misc things could be said about the code (search for STUDYGROUP)
 ***** /home/doom/End/Cave/Raku/Notes/notes-darkroast-c
