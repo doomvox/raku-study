@@ -126,7 +126,6 @@ https://www.reddit.com/r/rakulang/comments/tspr5a/a_much_more_dwimmy_where_all_t
 *** https://stackoverflow.com/a/71989016/7270649  
 *** https://unix.stackexchange.com/a/699338/227738 
 
-
 ** announcements 
 *** May 22nd: next raku study group meeting 
 *** June 21-25: tprc: perl/raku conference 
