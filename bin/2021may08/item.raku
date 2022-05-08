@@ -19,3 +19,6 @@ say item("abc").raku;                # "abc"
 say $[1,2,3].raku;                   # $[1, 2, 3]
 say $("abc").raku;                   # "abc"
 
+
+# https://docs.raku.org/type/Any#index-entry-$_(item_contextualizer)
+
