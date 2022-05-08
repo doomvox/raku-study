@@ -30,7 +30,7 @@
 *** topics in mind, which are
 
 **** bruce gray
-system install perl vs custom
+system install perl vs custom, history
 
 
 
