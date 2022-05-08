@@ -5,16 +5,20 @@
 use v6;
 
 
+{
 my @dyad = <a b>, <c d>;
 # [(a b) (c d)]
  
 # @dyad = @dyad.flat[*;*];
-@dyad .= flat[*;*];
-# Unable to parse expression in bracketed infix; couldn't find final ']' (corresponding starter was at line 12)
 say @dyad;
 # [a b c d]
 
 say @dyad.can('flat');
 # (flat flat flat)    ## ?
+}
 
-
+{
+    my @dyad = <a b>, <c d>;
+    @dyad .= flat[*;*];
+    # Unable to parse expression in bracketed infix; couldn't find final ']' (corresponding starter was at line 12)
+}
