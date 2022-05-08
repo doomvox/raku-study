@@ -19,7 +19,6 @@ use v6;
     say @dyad;
     # [a b c d]
 }
-{
 
 {
     my @dyad = <a b>, <c d>;
