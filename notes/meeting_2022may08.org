@@ -25,7 +25,6 @@
 ***** rename fails if there are more than two arguments
 **** Q: should raku emulate unix
 ***** unix-heads were target audience for perl, maybe not-so for raku
-***** 
 
 ** recent raku topics
 *** web scraping:
