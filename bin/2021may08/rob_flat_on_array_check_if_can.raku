@@ -49,9 +49,14 @@ use v6;
 
 {
     my @dyad = <a b>, <c d>;
-    @dyad.=[*;*];
+#    @dyad.=[*;*];  # Cannot use .= on a non-identifier method call
     say @dyad;
+}
 
+{
+    my @dyad = <a b>, <c d>;
+#    @dyad.=[*;*];  # Cannot use .= on a non-identifier method call
+    say @dyad;
 }
 
 
