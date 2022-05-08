@@ -20,11 +20,13 @@
 ***** https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303
 
 ** recent raku topics
-*** https://www.reddit.com/r/rakulang/comments/u6bixq/web_scraping_with_raku/
-*** https://www.reddit.com/r/rakulang/comments/ueixic/new_are_method_rocks/
+*** web scraping:
+**** https://www.reddit.com/r/rakulang/comments/u6bixq/web_scraping_with_raku/
+*** a new "are" method (what are these?)
+**** https://www.reddit.com/r/rakulang/comments/ueixic/new_are_method_rocks/
 
-*** https://rakudoweekly.blog/2022/05/02/2022-18-period/
-
+*** rakudo weekly news
+**** https://rakudoweekly.blog/2022/05/02/2022-18-period/
 
 ** sniping at perl, circa 2009
 
