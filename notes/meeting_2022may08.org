@@ -26,7 +26,8 @@ raku -e '.say for (|CORE::, |UNIT::, |OUTERS::, |MY::).grep({ .key eq .value.^na
 **** bruce's:
 raku -e 'say .value.HOW.^name, "\t", .key for (|CORE::, |UNIT::, |OUTERS::, |MY::).grep({ .key eq .value.^name })' | sort | less 
 
-
+**** joe's
+/home/doom/End/Cave/IntrospectP6/Wall/Symbol-Scan/lib/Symbol/Scan.pm6
 
 ** raku's "move" considered ungood
 *** move/copy command in Raku doesn't work with directory as second arg
