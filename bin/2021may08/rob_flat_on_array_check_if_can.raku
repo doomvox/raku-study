@@ -50,7 +50,7 @@ use v6;
 {
     my @dyad = <a b>, <c d>;
 #    @dyad.=[*;*];  # Cannot use .= on a non-identifier method call
-#    say @dyad; # 
+#    say @dyad; 
 }
 
 {
