@@ -26,6 +26,9 @@
 **** Q: should raku emulate unix
 ***** unix-heads were target audience for perl, maybe not-so for raku
 
+** rob ransbottom
+*** topics in mind, which are
+
 ** recent raku topics
 *** web scraping:
 **** https://www.reddit.com/r/rakulang/comments/u6bixq/web_scraping_with_raku/
