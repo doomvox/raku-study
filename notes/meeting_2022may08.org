@@ -12,12 +12,20 @@
 ***** /home/doom/End/Cave/Raku/Notes/notes-darkroast-c
 ***** aret_methods_method
 
-** raku's "move" considered screwed-up
-*** https://docs.raku.org/routine/move
-*** "To avoid copying, you can use rename, if the files are on the same storage device. It also works with directories, while move does not."
+** raku's "move" considered ungood
 *** move/copy command in Raku doesn't work with directory as second arg
+*** https://docs.raku.org/routine/move
+**** "To avoid copying, you can use rename, if the files are on the same storage device. It also works with directories, while move does not."
+**** Uh: WTF?
 *** we've discussed this one already:
 ***** https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303
+*** an issue: the unix "mv" can do a rename or a refile
+**** unix mv: 
+***** refile happens if last argument is a directory
+***** rename fails if there are more than two arguments
+**** Q: should raku emulate unix
+
+
 
 ** recent raku topics
 *** web scraping:
