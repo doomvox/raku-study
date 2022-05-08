@@ -17,8 +17,8 @@
 ***** aret_methods_method
 
 ** TODO review introspection features
-*** find all classes
 *** can you know what traits were used
+*** find all classes
 **** rob's;
 raku -e '.say for (|CORE::, |UNIT::, |OUTERS::, |MY::).grep({ .key eq .value.^name }).grep({ .value.HOW.^name eq "Perl6::Metamodel::ClassHOW" }).map(*.key).unique' | sort | less
 } 
