@@ -6,12 +6,13 @@ use v6;
 
 
 {
-my @dyad = <a b>, <c d>;
-# [(a b) (c d)]
+    my @dyad = <a b>, <c d>;
+    # [(a b) (c d)]
  
-# @dyad = @dyad.flat[*;*];
-say @dyad;
-# [a b c d]
+    # @dyad = @dyad.flat[*;*];
+    @dyad = @dyad.flat;
+    say @dyad;
+    # [a b c d]
 
 say @dyad.can('flat');
 # (flat flat flat)    ## ?
