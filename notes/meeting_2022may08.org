@@ -42,7 +42,8 @@ raku -e 'my $n = 42; say .signature for $n.can("log")'
 ** raku's "move" considered ungood
 *** move/copy command in Raku doesn't work with directory as second arg
 *** https://docs.raku.org/routine/move
-**** "To avoid copying, you can use rename, if the files are on the same storage device. It also works with directories, while move does not."
+**** "To avoid copying, you can use rename, if the files are on 
+the same storage device. It also works with directories, while move does not."
 **** Uh: WTF?
 *** we've discussed this one already:
 ***** https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303
