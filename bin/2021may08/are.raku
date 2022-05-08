@@ -31,4 +31,4 @@ say @e.are;			 #(Date)
 
 say "===";
 my @z = Mu, True;
-say @z.are
+say @z.are;
