@@ -31,7 +31,6 @@
 *** tried using "rename" here, found it did a *copy*, needed to manually unlink original
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13/tagger.raku
 
-
 ** rob ransbottom
 *** topics in mind, which are
 
