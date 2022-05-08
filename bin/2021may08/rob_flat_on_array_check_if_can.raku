@@ -14,8 +14,8 @@ use v6;
     say @dyad;
     # [a b c d]
 
-say @dyad.can('flat');
-# (flat flat flat)    ## ?
+    say @dyad.can('flat');
+    # (flat flat flat)    ## ?
 }
 
 {
