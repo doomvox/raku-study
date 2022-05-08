@@ -57,6 +57,9 @@ raku -e 'my $n = 42; say .signature for $n.can("log")'
 *** tried using "rename" here, found it did a *copy*, needed to manually unlink original
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13/tagger.raku
 
+** bruce on the weekly challenge
+https://theweeklychallenge.org/blog/perl-weekly-challenge-163/#TASK1
+
 ** rob ransbottom
 *** topics in mind, which are
 
