@@ -35,6 +35,9 @@ raku -e 'my $n = 42; say .signature for $n.can("log")'
 # (Int: |)
 # (Cool: |) 
 
+** Rob's interested in discussing missing basic tools
+*** e.g. counting lines of code: colc
+*** coverage
 
 ** raku's "move" considered ungood
 *** move/copy command in Raku doesn't work with directory as second arg
@@ -97,8 +100,6 @@ https://www.reddit.com/r/rakulang/comments/tspr5a/a_much_more_dwimmy_where_all_t
 ** equilibirum index
 *** http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution
 *** TODO revisit this next time (Rob solution?)
-
-** TODO Rob's interested in discussing missing basic tools
 
 ** weekly challenge this week
 *** https://theweeklychallenge.org/
