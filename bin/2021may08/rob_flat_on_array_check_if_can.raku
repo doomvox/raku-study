@@ -23,6 +23,16 @@ use v6;
 {
     my @dyad = <a b>, <c d>;
     # [(a b) (c d)]
+ 
+    @dyad = @dyad.[*;*];
+    say @dyad;
+    # [a b c d]
+}
+
+
+{
+    my @dyad = <a b>, <c d>;
+    # [(a b) (c d)]
     @dyad = @dyad.flat;
     say @dyad;
     # [(a b) (c d)]
@@ -33,3 +43,8 @@ use v6;
 #    @dyad .= flat[*;*];
     # Unable to parse expression in bracketed infix; couldn't find final ']' (corresponding starter was at line 12)
 }
+
+
+## many side issues:
+## why doesn't "flat" method work with ".="?
+
