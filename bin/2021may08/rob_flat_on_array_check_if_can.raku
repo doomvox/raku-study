@@ -10,6 +10,7 @@ use v6;
     # (flat flat flat)    ## ?   List of objects
 
     my @flat_methods = @dyad.can;
+    say @flat_methods;
 
 
 }
