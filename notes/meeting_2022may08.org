@@ -54,7 +54,7 @@ the same storage device. It also works with directories, while move does not."
 ***** https://stackoverflow.com/a/71973303/7270649
 *** an issue: the unix "mv" can do a rename or a refile
 **** unix mv: 
-***** handles two separate functions, refile and rename
+***** handles two separate functions: refile and rename
 ****** refile happens if last argument is a directory
 ****** rename fails if there are more than two arguments
 **** Q: should raku emulate unix
