@@ -63,7 +63,7 @@ the same storage device. It also works with directories, while move does not."
 *** "rename" seems to do a *copy*, I needed to manually unlink original
 **** https://github.com/doomvox/raku-study/bin/2022mar13/tagger.raku
 
-** bruce on the weekly challenge
+** the weekly challenge
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-163/#TASK1
 **** task1: sum bitwise operator
 **** task2: summations
