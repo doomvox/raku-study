@@ -22,4 +22,8 @@ say $("abc").raku;                   # "abc"
 
 # https://docs.raku.org/type/Any#index-entry-$_(item_contextualizer)
 
-Since Raku intentionally confuses items and single-element lists, most methods in Any are also present on class List, and coerce to List or a list-like type.
+# Since Raku intentionally confuses items and single-element lists,
+# most methods in Any are also present on class List, and coerce to
+# List or a list-like type.
+
+
