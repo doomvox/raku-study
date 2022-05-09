@@ -60,7 +60,7 @@ the same storage device. It also works with directories, while move does not."
 ***** unix-heads were target audience for perl, maybe not-so for raku
 
 *** "rename" seems to do a *copy*, I needed to manually unlink original
-/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13/tagger.raku
+https://github.com/doomvox/raku-study/bin/2022mar13/tagger.raku
 
 ** bruce on the weekly challenge
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-163/#TASK1
