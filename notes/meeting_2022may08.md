@@ -1,64 +1,64 @@
-- [meeting notes May 08, 2022](#org0af7add)
-  - [the raku study group](#org171176f)
-    - [usual links](#orgc1ac7ba)
-  - [editorial: perl5-porters are in good shape, and backwards compatibility is a priority again](#org67144fc)
-    - [<https://news.ycombinator.com/item?id=31259332>](#org8c62ff6)
-  - [finished tests to examine ^methods issues](#orgf74e6cf)
-  - [review introspection features](#orgfcdc43d)
-    - [can you know what traits were used](#org0097448)
-    - [find all classes](#orgae95ea1)
-    - [more mysteries:](#org9213ca8)
-  - [Rob's interested in discussing missing basic tools](#org6e8b65f)
-    - [e.g. counting lines of code: colc](#org4a07cd0)
-    - [coverage](#org7e4071a)
-  - [raku's "move" considered ungood](#org1d0c76c)
-    - [move/copy command in Raku doesn't work with directory as second arg](#org24da976)
-    - [<https://docs.raku.org/routine/move>](#org9691248)
-    - [we've discussed this one already:](#org6bfcd6d)
-    - [an issue: the unix "mv" can do a rename or a refile](#orge3e83b8)
-    - [tried using "rename" here, found it did a **copy**, needed to manually unlink original](#orgca5318f)
-  - [bruce on the weekly challenge](#orgb125a7f)
-    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-163/#TASK1>](#org8d88a05)
-  - [rob ransbottom](#org2e22a81)
-    - [topics in mind, which are](#orgd61d37a)
-  - [recent raku topics](#org3a3aebe)
-    - [rakudo weekly news](#orge3d0f9b)
-    - [web scraping:](#orge8ceb8c)
-    - [a new "are" method (what are these?)](#orgcf1500e)
-    - [more dwimmy .all ~~ Type](#org405aba1)
-    - [checking a program is on system](#org2495c42)
-    - [parsing wiki syntax, regex vs grammars](#orgc889189)
-  - [sniping at perl, circa 2009](#org9a27706)
-    - [<https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>](#org6997ee9)
-  - [equilibirum index](#orgbe3a9df)
-    - [<http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution>](#orgaa17e5f)
-    - [revisit this next time (Rob solution?)](#orga47200c)
-  - [weekly challenge this week](#org30392c8)
-    - [<https://theweeklychallenge.org/>](#org917a5c2)
-  - [from previous meetings](#org8608063)
-    - [an answer to what's Raku for:](#orgd3e006b)
-    - [gui toolkits](#org8654414)
-  - [bill michels](#org8102db6)
-    - [<https://unix.stackexchange.com/a/699417/227738>](#orga2cd699)
-    - [<https://stackoverflow.com/a/71973303/7270649>](#orgfeabd44)
-    - [<https://stackoverflow.com/a/71989016/7270649>](#org27d27c2)
-    - [<https://unix.stackexchange.com/a/699338/227738>](#org94db72b)
-  - [announcements](#org119535a)
-    - [May 22nd: next raku study group meeting](#org205de7b)
-    - [June 21-25: tprc: perl/raku conference](#org60572df)
+- [meeting notes May 08, 2022](#orgf06dcac)
+  - [the raku study group](#org5eaf524)
+    - [usual links](#org4133eae)
+  - [editorial: perl5-porters are in good shape, and backwards compatibility is a priority again](#orgb9526a5)
+    - [<https://news.ycombinator.com/item?id=31259332>](#org7ecb022)
+  - [finished tests to examine ^methods issues](#org2c5fa1a)
+  - [review introspection features](#org9b193c4)
+    - [can you know what traits were used](#org12d95ee)
+    - [find all classes](#orgea770c2)
+    - [more mysteries:](#org6d446fe)
+  - [Rob's interested in discussing missing basic tools](#org879bd7d)
+    - [e.g. counting lines of code: colc](#org957561d)
+    - [coverage](#orge9100a3)
+  - [raku's "move" considered ungood](#orga217efb)
+    - [move/copy command in Raku doesn't work with directory as second arg](#orgcdf8300)
+    - [<https://docs.raku.org/routine/move>](#orgde8e533)
+    - [we've discussed this one already:](#orgb7755dc)
+    - [an issue: the unix "mv" can do a rename or a refile](#org3eb43a2)
+    - [tried using "rename" here, found it did a **copy**, needed to manually unlink original](#orgc8d62ed)
+  - [bruce on the weekly challenge](#orgecd87c9)
+    - [<https://theweeklychallenge.org/blog/perl-weekly-challenge-163/#TASK1>](#org2e41222)
+  - [rob ransbottom](#orgbfde6d0)
+    - [had some topics in mind, which are](#org4e44d4a)
+  - [recent raku topics](#org49e0499)
+    - [rakudo weekly news](#orge85d22d)
+    - [web scraping:](#org87fda06)
+    - [a new "are" method (what are these?)](#orgad23f42)
+    - [more dwimmy .all ~~ Type](#org2105cbb)
+    - [checking a program is on system](#org1b956fa)
+    - [parsing wiki syntax, regex vs grammars](#org555c819)
+  - [sniping at perl, circa 2009](#org9de38aa)
+    - [<https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>](#org91f09a0)
+  - [equilibirum index](#org3a9c452)
+    - [<http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution>](#orge0c918f)
+    - [revisit this next time (Rob solution?)](#org8327a99)
+  - [weekly challenge this week](#orgda690a3)
+    - [<https://theweeklychallenge.org/>](#org940090f)
+  - [from previous meetings](#orgcd8f1e9)
+    - [an answer to what's Raku for:](#org83c5395)
+    - [gui toolkits](#orgb3bc177)
+  - [bill michels](#org13e7d34)
+    - [<https://unix.stackexchange.com/a/699417/227738>](#orgf9d1e8c)
+    - [<https://stackoverflow.com/a/71973303/7270649>](#org51ba5b8)
+    - [<https://stackoverflow.com/a/71989016/7270649>](#org77bdc0b)
+    - [<https://unix.stackexchange.com/a/699338/227738>](#orgdbd584b)
+  - [announcements](#org24eaa53)
+    - [May 22nd: next raku study group meeting](#org014e30b)
+    - [June 21-25: tprc: perl/raku conference](#org7e0b701)
 
 
-<a id="org0af7add"></a>
+<a id="orgf06dcac"></a>
 
 # meeting notes May 08, 2022
 
 
-<a id="org171176f"></a>
+<a id="org5eaf524"></a>
 
 ## the raku study group
 
 
-<a id="orgc1ac7ba"></a>
+<a id="org4133eae"></a>
 
 ### usual links
 
@@ -71,17 +71,17 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may08>
 
 
-<a id="org67144fc"></a>
+<a id="orgb9526a5"></a>
 
 ## editorial: perl5-porters are in good shape, and backwards compatibility is a priority again
 
 
-<a id="org8c62ff6"></a>
+<a id="org7ecb022"></a>
 
 ### <https://news.ycombinator.com/item?id=31259332>
 
 
-<a id="orgf74e6cf"></a>
+<a id="org2c5fa1a"></a>
 
 ## finished tests to examine ^methods issues
 
@@ -94,17 +94,17 @@
     2.  yary suggests: grep for failure cases, and test whether that list is empty
 
 
-<a id="orgfcdc43d"></a>
+<a id="org9b193c4"></a>
 
 ## TODO review introspection features
 
 
-<a id="org0097448"></a>
+<a id="org12d95ee"></a>
 
 ### can you know what traits were used
 
 
-<a id="orgae95ea1"></a>
+<a id="orgea770c2"></a>
 
 ### find all classes
 
@@ -121,7 +121,7 @@
     /home/doom/End/Cave/IntrospectP6/Wall/Symbol-Scan/lib/Symbol/Scan.pm6
 
 
-<a id="org9213ca8"></a>
+<a id="org6d446fe"></a>
 
 ### more mysteries:
 
@@ -136,32 +136,32 @@
         raku -e 'my $n = 42; say .signature for $n.can("log")'
 
 
-<a id="org6e8b65f"></a>
+<a id="org879bd7d"></a>
 
 ## Rob's interested in discussing missing basic tools
 
 
-<a id="org4a07cd0"></a>
+<a id="org957561d"></a>
 
 ### e.g. counting lines of code: colc
 
 
-<a id="org7e4071a"></a>
+<a id="orge9100a3"></a>
 
 ### coverage
 
 
-<a id="org1d0c76c"></a>
+<a id="orga217efb"></a>
 
 ## raku's "move" considered ungood
 
 
-<a id="org24da976"></a>
+<a id="orgcdf8300"></a>
 
 ### move/copy command in Raku doesn't work with directory as second arg
 
 
-<a id="org9691248"></a>
+<a id="orgde8e533"></a>
 
 ### <https://docs.raku.org/routine/move>
 
@@ -172,7 +172,7 @@
 2.  Uh: WTF?
 
 
-<a id="org6bfcd6d"></a>
+<a id="orgb7755dc"></a>
 
 ### we've discussed this one already:
 
@@ -181,7 +181,7 @@
 2.  <https://stackoverflow.com/a/71973303/7270649>
 
 
-<a id="orge3e83b8"></a>
+<a id="org3eb43a2"></a>
 
 ### an issue: the unix "mv" can do a rename or a refile
 
@@ -196,19 +196,19 @@
     1.  unix-heads were target audience for perl, maybe not-so for raku
 
 
-<a id="orgca5318f"></a>
+<a id="orgc8d62ed"></a>
 
 ### tried using "rename" here, found it did a **copy**, needed to manually unlink original
 
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13/tagger.raku
 
 
-<a id="orgb125a7f"></a>
+<a id="orgecd87c9"></a>
 
 ## bruce on the weekly challenge
 
 
-<a id="org8d88a05"></a>
+<a id="org2e41222"></a>
 
 ### <https://theweeklychallenge.org/blog/perl-weekly-challenge-163/#TASK1>
 
@@ -217,73 +217,73 @@
 2.  task2: summations
 
 
-<a id="org2e22a81"></a>
+<a id="orgbfde6d0"></a>
 
 ## rob ransbottom
 
 
-<a id="orgd61d37a"></a>
+<a id="org4e44d4a"></a>
 
-### topics in mind, which are
+### had some topics in mind, which are
 
 1.  bruce gray
 
     system install perl vs custom, history
 
 
-<a id="org3a3aebe"></a>
+<a id="org49e0499"></a>
 
 ## recent raku topics
 
 
-<a id="orge3d0f9b"></a>
+<a id="orge85d22d"></a>
 
 ### rakudo weekly news
 
 1.  <https://rakudoweekly.blog/2022/05/02/2022-18-period/>
 
 
-<a id="orge8ceb8c"></a>
+<a id="org87fda06"></a>
 
 ### web scraping:
 
 1.  <https://www.reddit.com/r/rakulang/comments/u6bixq/web_scraping_with_raku/>
 
 
-<a id="orgcf1500e"></a>
+<a id="orgad23f42"></a>
 
 ### a new "are" method (what are these?)
 
 1.  <https://www.reddit.com/r/rakulang/comments/ueixic/new_are_method_rocks/>
 
 
-<a id="org405aba1"></a>
+<a id="org2105cbb"></a>
 
 ### more dwimmy .all ~~ Type
 
 <https://www.reddit.com/r/rakulang/comments/tspr5a/a_much_more_dwimmy_where_all_type/>
 
 
-<a id="org2495c42"></a>
+<a id="org1b956fa"></a>
 
 ### checking a program is on system
 
 1.  <https://stackoverflow.com/questions/71894048/how-to-check-if-a-program-is-present-in-the-system-with-raku>
 
 
-<a id="orgc889189"></a>
+<a id="org555c819"></a>
 
 ### parsing wiki syntax, regex vs grammars
 
 1.  <https://stackoverflow.com/questions/71812642/should-raku-grammars-or-regexes-be-used-for-parsing-wiki-markup>
 
 
-<a id="org9a27706"></a>
+<a id="org9de38aa"></a>
 
 ## sniping at perl, circa 2009
 
 
-<a id="org6997ee9"></a>
+<a id="org91f09a0"></a>
 
 ### <https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html>
 
@@ -308,44 +308,44 @@
     4.  <http://obsidianrook.com/doomfiles/THE_PERL_AFFAIR.html>
 
 
-<a id="orgbe3a9df"></a>
+<a id="org3a9c452"></a>
 
 ## equilibirum index
 
 
-<a id="orgaa17e5f"></a>
+<a id="orge0c918f"></a>
 
 ### <http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution>
 
 
-<a id="orga47200c"></a>
+<a id="org8327a99"></a>
 
 ### TODO revisit this next time (Rob solution?)
 
 
-<a id="org30392c8"></a>
+<a id="orgda690a3"></a>
 
 ## weekly challenge this week
 
 
-<a id="org917a5c2"></a>
+<a id="org940090f"></a>
 
 ### <https://theweeklychallenge.org/>
 
 
-<a id="org8608063"></a>
+<a id="orgcd8f1e9"></a>
 
 ## from previous meetings
 
 
-<a id="orgd3e006b"></a>
+<a id="org83c5395"></a>
 
 ### an answer to what's Raku for:
 
 1.  <https://www.codesections.com/blog/raku-manifesto/>
 
 
-<a id="org8654414"></a>
+<a id="orgb3bc177"></a>
 
 ### gui toolkits
 
@@ -366,42 +366,42 @@
 3.  wish based tk
 
 
-<a id="org8102db6"></a>
+<a id="org13e7d34"></a>
 
 ## bill michels
 
 
-<a id="orga2cd699"></a>
+<a id="orgf9d1e8c"></a>
 
 ### <https://unix.stackexchange.com/a/699417/227738>
 
 
-<a id="orgfeabd44"></a>
+<a id="org51ba5b8"></a>
 
 ### <https://stackoverflow.com/a/71973303/7270649>
 
 
-<a id="org27d27c2"></a>
+<a id="org77bdc0b"></a>
 
 ### <https://stackoverflow.com/a/71989016/7270649>
 
 
-<a id="org94db72b"></a>
+<a id="orgdbd584b"></a>
 
 ### <https://unix.stackexchange.com/a/699338/227738>
 
 
-<a id="org119535a"></a>
+<a id="org24eaa53"></a>
 
 ## announcements
 
 
-<a id="org205de7b"></a>
+<a id="org014e30b"></a>
 
 ### May 22nd: next raku study group meeting
 
 
-<a id="org60572df"></a>
+<a id="org7e0b701"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

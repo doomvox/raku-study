@@ -64,7 +64,7 @@ the same storage device. It also works with directories, while move does not."
 **** task2: summations
 
 ** rob ransbottom
-*** topics in mind, which are
+*** had some topics in mind, which are
 
 **** bruce gray
 system install perl vs custom, history
