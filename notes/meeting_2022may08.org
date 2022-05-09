@@ -24,7 +24,10 @@ raku -e '.say for (|CORE::, |UNIT::, |OUTERS::, |MY::).grep({ .key eq .value.^na
 **** bruce's:
 raku -e 'say .value.HOW.^name, "\t", .key for (|CORE::, |UNIT::, |OUTERS::, |MY::).grep({ .key eq .value.^name })' | sort | less 
 **** joe's
-/home/doom/End/Cave/IntrospectP6/Wall/Symbol-Scan/lib/Symbol/Scan.pm6
+***** https://github.com/doomvox/perl6-symbol-scan
+***** /home/doom/End/Cave/IntrospectP6/Wall/Symbol-Scan/lib/Symbol/Scan.pm6
+***** https://docs.raku.org/type.html
+
 
 *** more mysteries: 
 **** can you get the ^methdods of a submethod?
@@ -62,6 +65,8 @@ the same storage device. It also works with directories, while move does not."
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-163/#TASK1
 **** task1: sum bitwise operator
 **** task2: summations
+
+*** https://raku-musings.com/sum-sum.html
 
 ** rob ransbottom
 *** had some topics in mind, which are
