@@ -41,6 +41,7 @@ raku -e 'my $n = 42; say .signature for $n.can("log")'
 ** Rob's interested in basic tools (some missing?)
 *** e.g. counting lines of code: colc
 *** coverage
+**** bruce gray talked about system perl vs custom installs
 
 ** raku's "move" considered ungood
 *** move/copy command in Raku doesn't work with directory as second arg
@@ -60,7 +61,7 @@ the same storage device. It also works with directories, while move does not."
 ***** unix-heads were target audience for perl, maybe not-so for raku
 
 *** "rename" seems to do a *copy*, I needed to manually unlink original
-https://github.com/doomvox/raku-study/bin/2022mar13/tagger.raku
+**** https://github.com/doomvox/raku-study/bin/2022mar13/tagger.raku
 
 ** bruce on the weekly challenge
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-163/#TASK1
@@ -68,12 +69,6 @@ https://github.com/doomvox/raku-study/bin/2022mar13/tagger.raku
 **** task2: summations
 
 *** https://raku-musings.com/sum-sum.html
-
-** rob ransbottom
-*** had some topics in mind, which are
-
-**** bruce gray
-system install perl vs custom, history
 
 ** recent raku topics
 *** rakudo weekly news
