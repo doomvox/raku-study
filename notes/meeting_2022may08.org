@@ -38,7 +38,7 @@ raku -e 'my $n = 42; say .signature for $n.can("log")'
 # (Int: |)
 # (Cool: |) 
 
-** Rob's interested in discussing missing basic tools
+** Rob's interested in basic tools (some missing?)
 *** e.g. counting lines of code: colc
 *** coverage
 
