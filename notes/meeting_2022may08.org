@@ -59,7 +59,6 @@ the same storage device. It also works with directories, while move does not."
 ****** rename fails if there are more than two arguments
 **** Q: should raku emulate unix
 ***** unix-heads were target audience for perl, maybe not-so for raku
-
 *** "rename" seems to do a *copy*, I needed to manually unlink original
 **** https://github.com/doomvox/raku-study/bin/2022mar13/tagger.raku
 
