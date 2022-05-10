@@ -67,7 +67,7 @@ the same storage device. It also works with directories, while move does not."
 **** task1: sum bitwise operator
 **** task2: summations
 
-*** https://raku-musings.com/sum-sum.html
+*** dshttps://raku-musings.com/sum-sum.html
 
 ** recent raku topics
 *** rakudo weekly news
