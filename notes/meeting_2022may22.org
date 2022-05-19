@@ -1,0 +1,139 @@
+* meeting notes May 22, 2022
+** the raku study group
+*** usual links
+**** these notes
+***** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022may22.md
+**** code examples
+***** https://github.com/doomvox/raku-study/tree/main/bin/2022may22
+
+** editorial: perl5-porters are in good shape, and backwards compatibility is a priority again
+*** https://news.ycombinator.com/item?id=31259332
+
+** finished tests to examine ^methods issues 
+**** https://github.com/doomvox/darkroast/tree/main/S12-introspection/method_object_gists.t
+**** misc things could be said about the code (search for STUDYGROUP)
+***** /home/doom/End/Cave/Raku/Notes/notes-darkroast-caret_methods_method
+***** yary suggests: grep for failure cases, and test whether that list is empty
+
+** TODO review introspection features
+*** can you know what traits were used
+*** find all classes
+**** rob's;
+raku -e '.say for (|CORE::, |UNIT::, |OUTERS::, |MY::).grep({ .key eq .value.^name }).grep({ .value.HOW.^name eq "Perl6::Metamodel::ClassHOW" }).map(*.key).unique' | sort | less
+} 
+**** bruce's:
+raku -e 'say .value.HOW.^name, "\t", .key for (|CORE::, |UNIT::, |OUTERS::, |MY::).grep({ .key eq .value.^name })' | sort | less 
+**** joe's
+***** https://github.com/doomvox/perl6-symbol-scan
+***** /home/doom/End/Cave/IntrospectP6/Wall/Symbol-Scan/lib/Symbol/Scan.pm6
+***** https://docs.raku.org/type.html
+
+
+*** more mysteries: 
+**** can you get the ^methdods of a submethod?
+***** "implementation detail and has no serviceable parts inside The 'ForeignCode' class is a Rakudo-specific"
+**** can you look up the signature for a method object?
+***** bruce gray:
+raku -e 'my $n = 42; say .signature for $n.can("log")'
+# (Int: |)
+# (Cool: |) 
+
+** Rob's interested in basic tools (some missing?)
+*** e.g. counting lines of code: colc
+*** coverage
+**** bruce gray talked about system perl vs custom installs
+
+** raku's "move" considered ungood
+*** move/copy command in Raku doesn't work with directory as second arg
+*** https://docs.raku.org/routine/move
+**** "To avoid copying, you can use rename, if the files are on 
+the same storage device. It also works with directories, while move does not."
+**** Uh: WTF?
+*** we've discussed this one already:
+***** https://stackoverflow.com/questions/71909580/move-function-does-not-work-in-raku-in-windows/71973303#71973303
+***** https://stackoverflow.com/a/71973303/7270649
+*** an issue: the unix "mv" can do a rename or a refile
+**** unix mv: 
+***** handles two separate functions: refile and rename
+****** refile happens if last argument is a directory
+****** rename fails if there are more than two arguments
+**** Q: should raku emulate unix
+***** unix-heads were target audience for perl, maybe not-so for raku
+*** "rename" seems to do a *copy*, I needed to manually unlink original
+**** https://github.com/doomvox/raku-study/bin/2022mar13/tagger.raku
+
+** the weekly challenge
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-163/#TASK1
+**** task1: sum bitwise operator
+**** task2: summations
+
+*** https://raku-musings.com/sum-sum.html
+
+** recent raku topics
+*** rakudo weekly news
+**** https://rakudoweekly.blog/2022/05/02/2022-18-period/
+
+
+*** web scraping:
+**** https://www.reddit.com/r/rakulang/comments/u6bixq/web_scraping_with_raku/
+*** a new "are" method (what are these?)
+**** https://www.reddit.com/r/rakulang/comments/ueixic/new_are_method_rocks/
+
+*** more dwimmy .all ~~ Type
+https://www.reddit.com/r/rakulang/comments/tspr5a/a_much_more_dwimmy_where_all_type/
+
+*** checking a program is on system
+**** https://stackoverflow.com/questions/71894048/how-to-check-if-a-program-is-present-in-the-system-with-raku
+
+*** parsing wiki syntax, regex vs grammars
+**** https://stackoverflow.com/questions/71812642/should-raku-grammars-or-regexes-be-used-for-parsing-wiki-markup
+
+
+** sniping at perl, circa 2009
+*** https://corky.net/dotan/log/2009/06/heres-why-people-hate-perl-folks.html 
+**** William Michaels brought up this piece from 2009
+**** true: "There are many wonderful modules in CPAN, but learning about them, learning to use them ... takes even more time"
+**** eh: "People hate Perl for the same reason we love it-- because it makes us feel clever."
+***** And people attacked perl so they could feel clever-- or at least pose as enlightened insiders. 
+**** links to Steve Yegge: https://sites.google.com/site/steveyegge2/ancient-languages-perl
+**** my old commentary about Steve Yegge
+***** http://obsidianrook.com/doomfiles/GENTLE_ART_OF_PROGRAMMING.html
+***** http://obsidianrook.com/doomfiles/SIGILS_OF_POWER.html
+***** http://obsidianrook.com/doomfiles/CASE_STUDY_2.html
+***** http://obsidianrook.com/doomfiles/THE_PERL_AFFAIR.html
+
+** equilibirum index
+*** http://rosettacode.org/wiki/Equilibrium_index#Single-pass_solution
+*** TODO revisit this next time (Rob solution?)
+
+** weekly challenge this week
+*** https://theweeklychallenge.org/
+
+** from previous meetings
+*** an answer to what's Raku for:
+**** https://www.codesections.com/blog/raku-manifesto/
+
+*** gui toolkits
+**** gtk3
+***** marcel timmerman on raku
+***** https://modules.raku.org/dist/Gnome::Gtk3
+***** https://github.com/MARTIMM/gnome-gtk3/issues/28#issue-1199187148 
+**** iup
+***** https://en.wikipedia.org/wiki/IUP_(software)
+***** https://raku.land/github:hankache/IUP
+**** wish based tk 
+
+** bill michels
+*** https://unix.stackexchange.com/a/699417/227738 
+*** https://stackoverflow.com/a/71973303/7270649 
+*** https://stackoverflow.com/a/71989016/7270649  
+*** https://unix.stackexchange.com/a/699338/227738 
+
+** announcements 
+*** May 22nd: next raku study group meeting 
+*** June 21-25: tprc: perl/raku conference 
+**** 4 hours of Bruce Gray: talk + 3hr tutorial
+***** https://tprc2022.sched.com/event/ylEK/command-line-filters-time-to-shine
+***** https://tprc2022.sched.com/overview/type/Raku+Track
+
+
