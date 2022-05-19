@@ -1,24 +1,24 @@
-- [meeting notes May 22, 2022](#org9c017ef)
-  - [the raku study group](#org6ff9c05)
-    - [usual links](#orga1bea0e)
-  - [topics](#org31bd9dc)
-    - [add new stuff and raid last meeting for ideas](#orgd1ee7da)
-  - [announcements](#org4cc7418)
-    - [June 5th: next raku study group meeting](#org477c49f)
-    - [June 21-25: tprc: perl/raku conference](#orgddfb466)
+- [meeting notes May 22, 2022](#org46220bb)
+  - [the raku study group](#orga13b619)
+    - [usual links](#orgc7c87d2)
+  - [topics](#org9723fa7)
+    - [add new stuff and raid last meeting for ideas](#org869b1fc)
+  - [announcements](#orgcc16d99)
+    - [June 5th: next raku study group meeting](#orgb50b6c3)
+    - [June 21-25: tprc: perl/raku conference](#org1c1593d)
 
 
-<a id="org9c017ef"></a>
+<a id="org46220bb"></a>
 
 # meeting notes May 22, 2022
 
 
-<a id="org6ff9c05"></a>
+<a id="orga13b619"></a>
 
 ## the raku study group
 
 
-<a id="orga1bea0e"></a>
+<a id="orgc7c87d2"></a>
 
 ### usual links
 
@@ -31,27 +31,27 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org31bd9dc"></a>
+<a id="org9723fa7"></a>
 
 ## topics
 
 
-<a id="orgd1ee7da"></a>
+<a id="org869b1fc"></a>
 
 ### TODO add new stuff and raid last meeting for ideas
 
 
-<a id="org4cc7418"></a>
+<a id="orgcc16d99"></a>
 
 ## announcements
 
 
-<a id="org477c49f"></a>
+<a id="orgb50b6c3"></a>
 
 ### June 5th: next raku study group meeting
 
 
-<a id="orgddfb466"></a>
+<a id="org1c1593d"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

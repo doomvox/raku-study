@@ -8,6 +8,8 @@
 ** topics
 *** TODO add new stuff and raid last meeting for ideas
 
+
+
 ** announcements 
 *** June 5th: next raku study group meeting 
 *** June 21-25: tprc: perl/raku conference 
