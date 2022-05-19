@@ -6,7 +6,7 @@
 **** code examples
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2022may22
 ** topics
-*** TODO add new stuff, raid list below (copied from last meeting) for ideas
+*** TODO add new stuff and raid last meeting for ideas
 
 ** announcements 
 *** June 5th: next raku study group meeting 
