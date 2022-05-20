@@ -8,6 +8,7 @@
 ** topics
 *** TODO add new stuff and raid last meeting for ideas
 *** define a sigma operator for summation
+**** https://docs.raku.org/language/optut
 
 ** announcements 
 *** June 5th: next raku study group meeting 
