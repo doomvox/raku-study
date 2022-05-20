@@ -7,8 +7,7 @@
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2022may22
 ** topics
 *** TODO add new stuff and raid last meeting for ideas
-
-
+*** define a sigma operator for summation
 
 ** announcements 
 *** June 5th: next raku study group meeting 

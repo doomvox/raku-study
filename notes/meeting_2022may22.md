@@ -1,24 +1,25 @@
-- [meeting notes May 22, 2022](#org46220bb)
-  - [the raku study group](#orga13b619)
-    - [usual links](#orgc7c87d2)
-  - [topics](#org9723fa7)
-    - [add new stuff and raid last meeting for ideas](#org869b1fc)
-  - [announcements](#orgcc16d99)
-    - [June 5th: next raku study group meeting](#orgb50b6c3)
-    - [June 21-25: tprc: perl/raku conference](#org1c1593d)
+- [meeting notes May 22, 2022](#orga6fe92c)
+  - [the raku study group](#org2504cd8)
+    - [usual links](#org2e7a1eb)
+  - [topics](#org3d4679c)
+    - [add new stuff and raid last meeting for ideas](#orgeecbb92)
+    - [define a sigma operator for summation](#orga3a5949)
+  - [announcements](#org0425cd8)
+    - [June 5th: next raku study group meeting](#org853a6b2)
+    - [June 21-25: tprc: perl/raku conference](#org87acf84)
 
 
-<a id="org46220bb"></a>
+<a id="orga6fe92c"></a>
 
 # meeting notes May 22, 2022
 
 
-<a id="orga13b619"></a>
+<a id="org2504cd8"></a>
 
 ## the raku study group
 
 
-<a id="orgc7c87d2"></a>
+<a id="org2e7a1eb"></a>
 
 ### usual links
 
@@ -31,27 +32,32 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org9723fa7"></a>
+<a id="org3d4679c"></a>
 
 ## topics
 
 
-<a id="org869b1fc"></a>
+<a id="orgeecbb92"></a>
 
 ### TODO add new stuff and raid last meeting for ideas
 
 
-<a id="orgcc16d99"></a>
+<a id="orga3a5949"></a>
+
+### define a sigma operator for summation
+
+
+<a id="org0425cd8"></a>
 
 ## announcements
 
 
-<a id="orgb50b6c3"></a>
+<a id="org853a6b2"></a>
 
 ### June 5th: next raku study group meeting
 
 
-<a id="org1c1593d"></a>
+<a id="org87acf84"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
