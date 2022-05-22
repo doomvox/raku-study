@@ -39,6 +39,7 @@ use v6;
 }
 
 
+say "===";
 {
     # general operator to sum n numbers 
     sub prefix:<Σ>( *@number-list ) {
