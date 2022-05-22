@@ -15,6 +15,10 @@ use v6;
 #    i=L (lower bound, integer)
 
 # https://docs.raku.org/language/control#index-entry-control_flow__loop-loop
+##  loop (my $i = $L; $i <= $U; $i++) {    
+
+{ 
+sub summation
 loop (my $i = 0; $i <= 3; $i++) {    
     say $i;
     # 0
