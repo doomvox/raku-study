@@ -53,7 +53,7 @@ say $obj.WHAT;  # (Int)
 # Need to override "succ" in the class to fix this.
 
 ## consider case:
-##  my $something = $int + $splint;
+##   my $something = $int + $splint;
 ## custom operators, parallel universe of "splint" operations?
 
 
