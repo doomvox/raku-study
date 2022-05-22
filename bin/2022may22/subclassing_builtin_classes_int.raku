@@ -68,7 +68,7 @@ my $s = Splint.new;
 say $s;
 say $s.incrementoid; # 1
 
-## https://github.com/rakudo/rakudo/blob/master/src/core.c/Int.pm6 
+##  https://github.com/rakudo/rakudo/blob/master/src/core.c/Int.pm6 
 
 # ===
 # Author:  doom@kzsu.stanford.edu
