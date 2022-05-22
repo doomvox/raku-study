@@ -42,10 +42,10 @@ use v6;
         return $^i * 2;
     }
 
-    sub summation ($L, $U) {
+    sub summation ($L, $U, $term) {
         my $sum = 0;
         loop (my $i = $L; $i <= $U; $i++) {    
-            $sum += term($i);
+            $sum += $term($i);
         }
         return $sum;    
     }
