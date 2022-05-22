@@ -106,7 +106,7 @@ use v6;
     say Σ  0, 3, {$^i} ; #    $^i is okay,  $^1 is definitely not.
     # 6 = 0 + 1 + 2 + 3
 
-    say Σ  0, 3, {$^i/3} ; #
+    say Σ  0, 7, {$^i/3} ;  # 2
 
 }
 
