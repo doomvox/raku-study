@@ -18,7 +18,6 @@
 ****** there's no link to this from here:
 ******* https://docs.raku.org/language/optut
 
-
 **** bruce gray says you can define operator precedence relative to other existing operators
 
 *** TODO add new stuff and raid last meeting for ideas
