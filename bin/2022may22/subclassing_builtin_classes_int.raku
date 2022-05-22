@@ -15,7 +15,9 @@ class Splint is Int {
 my $obj = Splint.new( 7 );
 
 say $obj;
+say $obj.WHAT;
 say ++$obj;
+say $obj.WHAT;
 
 $obj.heythere;
 
