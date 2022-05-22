@@ -60,9 +60,14 @@ use v6;
     say Σ  0, 7,  &[-];  # 28
     # effectively runs over "$i minus 0"
 
+    # 28
+    # L: 0, U: 7, term: &infix:<->
+
+    ## using "infix" here is weird, of course...
+
 }
 
-exit;
+
 
 
 ## bruce gray:
