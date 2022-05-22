@@ -25,10 +25,14 @@ say Σ 13, 16, 1; # OUTPUT: 13161
     say [+] (2, 7); # OUTPUT: 9
 
   # Q: maybe happens before passing
-  # A: yes!
   say 13, 16, 1; # OUTPUT: 13161
 
   my $n = 13, 16, 1;
   say $n;  # OUTPUT: 13
+  # Now *that's the kind of breakage I expect, albiet with warnings:
+    # WARNINGS for /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022may22/sigma_operator_example.raku:
+    # Useless use of constant integer 1 in sink context (lines 31, 31)
+    # Useless use of constant integer 16 in sink context (lines 31, 31)
+
 
 }
