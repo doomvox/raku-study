@@ -6,7 +6,12 @@ use v6;
 
 # https://docs.raku.org/language/optut
 
-
+# general operator to sum n numbers 
+sub prefix:<Σ>( *@number-list ) {
+    [+] @number-list
+}
+ 
+say Σ (13, 16, 1); # OUTPUT: «30␤» 
 
 
 # ===
