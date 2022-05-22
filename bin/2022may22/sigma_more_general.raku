@@ -27,6 +27,7 @@ use v6;
     }
 
     sub term ($i) {
+        say $i, ": ", $i * 2;
         return $i * 2;
     }
 
