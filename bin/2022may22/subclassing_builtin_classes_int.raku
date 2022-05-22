@@ -41,6 +41,8 @@ say $obj.WHAT;  # (Int)
 ## custom operators, parallel universe of "splint" operations?
 
 
+say Int.new;
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
