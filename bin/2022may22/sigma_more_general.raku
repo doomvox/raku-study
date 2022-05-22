@@ -18,7 +18,7 @@ use v6;
 ##  loop (my $i = $L; $i <= $U; $i++) {    
 
 { 
-    sub summation ($L, $U, *@nums) {
+    sub summation ($L, $U) {
         my $sum = 0;
         loop (my $i = $L; $i <= $U; $i++) {    
             $sum += funky_func($i);
@@ -30,7 +30,8 @@ use v6;
     sub funky_func ($i) {
         return $i * 2;
     }
-    say $sum;
+
+    say summation( 0, 
 }
  
 
