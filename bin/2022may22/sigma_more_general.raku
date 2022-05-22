@@ -14,7 +14,11 @@ use v6;
 
 #    i=L (lower bound, integer)
 
-
+# https://docs.raku.org/language/control#index-entry-control_flow__loop-loop
+loop (my $i = 0; $i < 7; $i++) {       # A typical loop 
+    say $i;
+}
+ 
 
 
 
