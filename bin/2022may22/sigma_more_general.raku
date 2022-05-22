@@ -50,6 +50,7 @@ use v6;
         return $sum;    
     }
 
+
     say summation(0, 3, $term); # 12 
 
     say summation(3,7, {$^i/3}); # 8.333333
@@ -62,7 +63,21 @@ use v6;
  
 # say Σ (13, 16, 1); # OUTPUT: 30
 
+{
 
+    sub prefix:<Σ>( $L, $U, $term ) {
+
+    sub summation ($L, $U, $term) {
+        my $sum = 0;
+        loop (my $i = $L; $i <= $U; $i++) {    
+            $sum += $term($i);
+        }
+        return $sum;    
+    }
+
+
+
+    }
 
 
 
