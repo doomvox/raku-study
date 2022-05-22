@@ -9,7 +9,7 @@
 *** move/copy etc, larry wall, apocaylpse, etc.  more to come.
 *** defined sigma operator experiments
 **** got interested in this for silly reasons
-
+***** 
 **** controlling precedence of custom operators
 **** broken link in here: https://docs.raku.org/language/operators
 ***** https://docs.raku.org/language/language/functions#Precedence
