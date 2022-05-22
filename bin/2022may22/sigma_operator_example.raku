@@ -25,6 +25,8 @@ say Σ 13, 16, 1; # OUTPUT: 13161
     say [+] (2, 7); # 9
 
   # Q: maybe happens before passing
+  # A: yes!
   say 13, 16, 1; # OUTPUT: 13161
+
 
 }
