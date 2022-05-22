@@ -18,5 +18,6 @@ say Σ (13, 16, 1); # OUTPUT: 30
 # A: yes, but the behavior without them is weird:  string concat?
 say Σ 13, 16, 1; # OUTPUT: 13161
 
-
-say [+] ("a" "b");
+{
+  say [+] ("a" "b");
+}
