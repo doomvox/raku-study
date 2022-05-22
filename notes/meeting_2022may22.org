@@ -7,6 +7,11 @@
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2022may22
 ** topics
 *** move/copy etc, larry wall, apocaylpse, etc.  more to come.
+*** defined sigma operator experiments
+**** controlling precedence of custom operators
+**** broken link in here: https://docs.raku.org/language/operators
+
+
 *** TODO add new stuff and raid last meeting for ideas
 *** define a sigma operator for summation
 **** https://docs.raku.org/language/optut
