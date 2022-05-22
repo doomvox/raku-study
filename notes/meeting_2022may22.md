@@ -1,26 +1,26 @@
-- [meeting notes May 22, 2022](#org9673153)
-  - [the raku study group](#org834fab3)
-    - [usual links](#orga150f67)
-  - [topics](#orgc2c3e01)
-    - [move/copy etc, larry wall, apocaylpse](#org2c3399d)
-    - [add new stuff and raid last meeting for ideas](#org8b21398)
-    - [define a sigma operator for summation](#orgd216e7b)
-  - [announcements](#org0f9830d)
-    - [June 5th: next raku study group meeting](#orga767633)
-    - [June 21-25: tprc: perl/raku conference](#org089e155)
+- [meeting notes May 22, 2022](#org71d721f)
+  - [the raku study group](#orgc0b7727)
+    - [usual links](#org69ea7df)
+  - [topics](#org64c585d)
+    - [move/copy etc, larry wall, apocaylpse, etc.  more to come.](#org5564cb1)
+    - [add new stuff and raid last meeting for ideas](#org04afd0f)
+    - [define a sigma operator for summation](#org72e7a58)
+  - [announcements](#orgf3940f3)
+    - [June 5th: next raku study group meeting](#orgc65d168)
+    - [June 21-25: tprc: perl/raku conference](#org3be7b88)
 
 
-<a id="org9673153"></a>
+<a id="org71d721f"></a>
 
 # meeting notes May 22, 2022
 
 
-<a id="org834fab3"></a>
+<a id="orgc0b7727"></a>
 
 ## the raku study group
 
 
-<a id="orga150f67"></a>
+<a id="org69ea7df"></a>
 
 ### usual links
 
@@ -33,39 +33,39 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="orgc2c3e01"></a>
+<a id="org64c585d"></a>
 
 ## topics
 
 
-<a id="org2c3399d"></a>
+<a id="org5564cb1"></a>
 
-### move/copy etc, larry wall, apocaylpse
+### move/copy etc, larry wall, apocaylpse, etc.  more to come.
 
 
-<a id="org8b21398"></a>
+<a id="org04afd0f"></a>
 
 ### TODO add new stuff and raid last meeting for ideas
 
 
-<a id="orgd216e7b"></a>
+<a id="org72e7a58"></a>
 
 ### define a sigma operator for summation
 
 1.  <https://docs.raku.org/language/optut>
 
 
-<a id="org0f9830d"></a>
+<a id="orgf3940f3"></a>
 
 ## announcements
 
 
-<a id="orga767633"></a>
+<a id="orgc65d168"></a>
 
 ### June 5th: next raku study group meeting
 
 
-<a id="org089e155"></a>
+<a id="org3be7b88"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
