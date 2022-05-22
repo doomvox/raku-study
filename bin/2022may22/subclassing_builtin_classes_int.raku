@@ -11,6 +11,7 @@ class Splint is Int {
         say "hey there";
     }
 
+    # bruce gray theory was this could improve behavior of ++$obj
     method  succ ( --> Splint ) {
         say "meep!";
 
