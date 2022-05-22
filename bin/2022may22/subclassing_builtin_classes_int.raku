@@ -10,6 +10,9 @@ class Splint is Int {
     sub Int {
         .value;
     }
+    ## Vauge problem I've got here: 
+    ##   if you're working with a variant of Int, want to be able 
+    ##   to access that value in your Splint methods, and possibly change it 
 
     method heythere {
         say "hey there";
