@@ -8,7 +8,7 @@ class Splint is Int {
 
     has Int $.value is rw = 1;
     sub Int {
-        self.value;
+        .value;
     }
 
     method heythere {
