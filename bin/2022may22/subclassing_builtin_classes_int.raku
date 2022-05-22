@@ -14,6 +14,11 @@ class Splint is Int {
     ##   if you're working with a variant of Int, want to be able 
     ##   to access that value in your Splint methods, and possibly change it 
 
+    method incrementoid {
+        self++;
+    }
+
+
     method heythere {
         say "hey there";
     }
