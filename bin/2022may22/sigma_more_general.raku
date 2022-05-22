@@ -59,7 +59,7 @@ use v6;
         return summation( $L, $U, $term );
     }
 
-    say Σ ( 0, 3, {$^1} ); # OUTPUT: 30    
+    say Σ (0, 3, {$^1}); # OUTPUT: 30    
 
 
 
