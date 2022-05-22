@@ -103,7 +103,7 @@ use v6;
         return $sum;    
     }
 
-    say Σ  0, 3, {$^i} ; #
+    say Σ  0, 3, {$^i} ; #    $^i is okay,  $^1 is definitely not.
 
 
 }
