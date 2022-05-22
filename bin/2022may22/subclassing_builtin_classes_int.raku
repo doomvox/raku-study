@@ -11,7 +11,7 @@ class Splint is Int {
         say "hey there";
     }
 
-    method succ {
+    method Splint succ {
     # runs doesn't fix anything
     #       my $newself = Splint.new;
     #       return 1 + self;
