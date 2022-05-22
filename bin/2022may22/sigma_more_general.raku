@@ -27,7 +27,7 @@ use v6;
     }
 
     sub term ($i) {
-        say $i, ": ", $i * 2;
+        # say $i, ": ", $i * 2;
         return $i * 2;
     }
 
@@ -35,6 +35,23 @@ use v6;
 }
  
 
+{ 
+
+    my $term =  {
+        # say $^i, ": ", $^i * 2;
+        return $^i * 2;
+    }
+
+    sub summation ($L, $U) {
+        my $sum = 0;
+        loop (my $i = $L; $i <= $U; $i++) {    
+            $sum += term($i);
+        }
+        return $sum;    
+    }
+
+    say summation(0, 3); # 12 
+}
 
 
 
