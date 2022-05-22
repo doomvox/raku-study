@@ -14,3 +14,5 @@ sub prefix:<Σ>( *@number-list ) {
 say Σ (13, 16, 1); # OUTPUT: 30
 
 
+# Q: are the parens necessary?
+say Σ 13, 16, 1; # OUTPUT: 30
