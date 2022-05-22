@@ -55,14 +55,10 @@ use v6;
 
     say summation(3,7, {$^i/3}); # 8.333333
 
-#     sub prefix:<Σ>( $L, $U, $term ) {
-#         return summation( $L, $U, $term );
-#     }
 
-    sub prefix:<Σ>( *@stuff ) {
-        return summation( @stuff[0], @stuff[1], @stuff[2] );
+    sub prefix:<Σ>( $L, $U, $term ) {
+        return summation( $L, $U, $term );
     }
-
 
     say Σ ( 0, 3, {$^1} ); #
 
@@ -70,6 +66,9 @@ use v6;
 #   in sub prefix:<Σ> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022may22/sigma_more_general.raku line 58
 #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022may22/sigma_more_general.raku line 62
 
+
+
+## Maybe:
 
 
 
