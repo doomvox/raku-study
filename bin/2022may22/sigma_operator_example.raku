@@ -20,7 +20,7 @@ use v6;
     # A: yes, but the behavior without them is weird:  string concat?
     say Σ 13, 16, 1; # OUTPUT: 13161
 
-    # what's happening: sigma sucks up the 13, returns 13,  but 16, 1 gets seen by say
+    # what's happening here: sigma sucks up the 13 then returns 13 and then "16, 1" gets seen by say.
 }
 
 {
