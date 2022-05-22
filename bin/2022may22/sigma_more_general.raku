@@ -17,6 +17,9 @@ use v6;
 # https://docs.raku.org/language/control#index-entry-control_flow__loop-loop
 loop (my $i = 0; $i < 3; $i++) {       # A typical loop 
     say $i;
+    # 0
+    # 1
+    # 2
 }
  
 
