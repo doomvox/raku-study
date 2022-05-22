@@ -55,8 +55,12 @@ use v6;
 
     say summation(3,7, {$^i/3}); # 8.333333
 
-    sub prefix:<Σ>( $L, $U, $term ) {
-        return summation( $L, $U, $term );
+#     sub prefix:<Σ>( $L, $U, $term ) {
+#         return summation( $L, $U, $term );
+#     }
+
+    sub prefix:<Σ>( *@stuff ) {
+        return summation( @stuff[0], @stuff[1], @stuff[2] );
     }
 
 
