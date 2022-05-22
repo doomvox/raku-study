@@ -4,19 +4,21 @@
 
 use v6;
 
+
 # https://docs.raku.org/language/optut
 
-# general operator to sum n numbers 
-sub prefix:<Σ>( *@number-list ) {
-    [+] @number-list
+{
+    # general operator to sum n numbers 
+    sub prefix:<Σ>( *@number-list ) {
+        [+] @number-list
+    }
+    
+    say Σ (13, 16, 1); # OUTPUT: 30
+
+    # Q: are the parens necessary?
+    # A: yes, but the behavior without them is weird:  string concat?
+    say Σ 13, 16, 1; # OUTPUT: 13161
 }
- 
-say Σ (13, 16, 1); # OUTPUT: 30
-
-# Q: are the parens necessary?
-# A: yes, but the behavior without them is weird:  string concat?
-say Σ 13, 16, 1; # OUTPUT: 13161
-
 
 {
   # Q: could it be the [+] construct?  A: no
