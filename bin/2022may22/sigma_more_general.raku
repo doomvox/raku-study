@@ -62,9 +62,9 @@ use v6;
         return summation( $L, $U, $term );
     }
 
-#    say Σ  0, 3, {$^1} ; #
-
-## one(one(one(one(0, 1), one(1, 2)), one(one(1, 2), one(2, 3))), one(one(one(1, 2), one(2, 3)), one(one(2, 3), one(3, 4))))
+##    say Σ  0, 3, {$^1} ; #
+## yaddah, yaddah: 
+##  one(one(one(one(0, 1), one(1, 2)), one(one(1, 2), one(2, 3))), one(one(one(1, 2), one(2, 3)), one(one(2, 3), one(3, 4))))
 
 
 # Too few positionals passed; expected 3 arguments but got 1
