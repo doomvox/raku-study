@@ -56,7 +56,7 @@ use v6;
     say summation(3,7, {$^i/3}); # 8.333333
 
     # prefix:
-    sub <Σ>(  $L, $U, $term  ) {
+    sub Σ (  $L, $U, $term  ) {
         return summation( $L, $U, $term );
     }
 
