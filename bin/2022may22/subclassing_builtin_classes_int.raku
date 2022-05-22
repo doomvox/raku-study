@@ -46,6 +46,8 @@ say $obj.WHAT;  # (Int)
 
 say Int.new; # 0
 
+say Splint.new;
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
