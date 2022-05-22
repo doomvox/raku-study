@@ -71,9 +71,7 @@ use v6;
 #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022may22/sigma_more_general.raku line 62
 
 
-    sub prefix:<Σ>( *@stuff ) {
-        return summation( @stuff[0], @stuff[1], @stuff[2] );
-    }
+
 
 
 
