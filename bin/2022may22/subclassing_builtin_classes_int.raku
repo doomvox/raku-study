@@ -12,9 +12,12 @@ class Splint is Int {
     }
 
     method  succ ( --> Splint ) {
+        say "meep!";
+
     # runs doesn't fix anything
     #       my  $newself = Splint.new;
     #       return 1 + self;
+
 
        # runs doesn't fix anything
       return Splint.new( 1 + self ); 
@@ -32,6 +35,8 @@ say ++$obj;
 say $obj.WHAT;  # (Int)
 
 # Need to override "succ" in the class to fix this.
+
+
 
 
 
