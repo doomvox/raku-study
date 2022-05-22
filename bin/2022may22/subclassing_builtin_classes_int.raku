@@ -6,7 +6,7 @@ use v6;
 
 class Splint is Int {
 
-    has Int $.value = 1;
+    has Int $.value is rw = 1  ;
 
     method heythere {
         say "hey there";
