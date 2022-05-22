@@ -13,7 +13,7 @@ class Splint is Int {
 
     method succ {
       my $newself = Splint.new;
-      return 1 + $newself;
+      return 1 + self;
       # eturn Splint.new( 1 + self ); 
     }
 
