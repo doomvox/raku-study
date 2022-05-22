@@ -17,10 +17,12 @@ my $obj = Splint.new( 7 );
 say $obj;
 say $obj.WHAT;  # (Splint)
 
+$obj.heythere;
+
 say ++$obj;
 say $obj.WHAT;  # (Int)
 
-$obj.heythere;
+
 
 
 
