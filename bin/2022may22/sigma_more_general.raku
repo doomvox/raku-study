@@ -21,16 +21,15 @@ use v6;
     sub summation ($L, $U, *@nums) {
         my $sum = 0;
         loop (my $i = $L; $i <= $U; $i++) {    
-            say $i;
-            # 0
-            # 1
-            # 2
             $sum += identity($i);
 
         }
         return $sum;    
     }
 
+
+
+    say 
 
 }
  
