@@ -19,6 +19,8 @@ use v6;
     # Q: are the parens necessary?
     # A: yes, but the behavior without them is weird:  string concat?
     say Σ 13, 16, 1; # OUTPUT: 13161
+
+    # what's happening: sigma sucks up the 13, returns 13,  but 16, 1 gets seen by say
 }
 
 {
