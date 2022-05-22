@@ -39,7 +39,8 @@ use v6;
 
     my $term =  {
         # say $^i, ": ", $^i * 2;
-        return $^i * 2;
+        # return $^i * 2;
+        $^i * 2;
     }
 
     sub summation ($L, $U, $term) {
