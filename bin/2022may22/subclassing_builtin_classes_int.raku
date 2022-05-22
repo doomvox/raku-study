@@ -7,6 +7,9 @@ use v6;
 class Splint is Int {
 
     has Int $.value is rw = 1;
+    sub Int {
+        self.value;
+    }
 
     method heythere {
         say "hey there";
