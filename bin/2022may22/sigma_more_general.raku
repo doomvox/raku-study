@@ -15,7 +15,7 @@ use v6;
 #    i=L (lower bound, integer)
 
 # https://docs.raku.org/language/control#index-entry-control_flow__loop-loop
-loop (my $i = 0; $i < 3; $i++) {       # A typical loop 
+loop (my $i = 0; $i <= 3; $i++) {    
     say $i;
     # 0
     # 1
