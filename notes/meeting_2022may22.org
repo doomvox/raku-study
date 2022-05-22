@@ -17,8 +17,11 @@
 ****** https://docs.raku.org/language/functions#Precedence
 ****** there's no link to this from here:
 ******* https://docs.raku.org/language/optut
-
 **** bruce gray says you can define operator precedence relative to other existing operators
+****** https://docs.raku.org/language/functions#Precedence
+sub infix:<!!>($a, $b) is tighter(&infix:<+>) {
+    2 * ($a + $b)
+}
 
 *** TODO add new stuff and raid last meeting for ideas
 *** define a sigma operator for summation
