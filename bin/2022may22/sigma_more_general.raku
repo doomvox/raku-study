@@ -77,8 +77,8 @@ say "===";
         }
     }
 
-#     sub Σ ($L, $U, &term) { sum map &term(), $L .. $U } 
-#     say Σ  0, 7, {$^i/3} ;  # 8.333333
+    sub Σ ($L, $U, &term) { sum map &term, $L .. $U } 
+    say Σ  0, 7, {$^i/3} ;  # 8.333333
 
 }
 {
