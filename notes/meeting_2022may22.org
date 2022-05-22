@@ -13,6 +13,9 @@
 ***** https://docs.raku.org/language/language/functions#Precedence
 ***** "precedence of custom operators"
 ***** TODO BUG in docs
+***** but this works, coming at it in other ways, WTF?
+****** https://docs.raku.org/language/functions#Precedence
+
 **** bruce gray says you can define operator precedence relative to other existing operators
 
 *** TODO add new stuff and raid last meeting for ideas
