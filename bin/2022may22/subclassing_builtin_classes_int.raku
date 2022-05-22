@@ -16,7 +16,7 @@ class Splint is Int {
 #       my $newself = Splint.new;
 #       return 1 + self;
 
-      # return Splint.new( 1 + self ); 
+      return Splint.new( 1 + self ); 
     }
 
 }
