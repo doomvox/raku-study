@@ -22,7 +22,6 @@ use v6;
         my $sum = 0;
         loop (my $i = $L; $i <= $U; $i++) {    
             $sum += funky_func($i);
-
         }
         return $sum;    
     }
