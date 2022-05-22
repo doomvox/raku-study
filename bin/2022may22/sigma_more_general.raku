@@ -58,7 +58,7 @@ use v6;
 #     say Σ  0, 7, Σ 1, 7, {$^i/3}, {$^j*3} ;  # 9.333333
 
     say Σ  0, 7,  &[-];  # 28
-
+    # effectively runs over "$i minus 0"
 
 }
 
