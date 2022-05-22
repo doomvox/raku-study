@@ -6,6 +6,8 @@ use v6;
 
 class Splint is Int {
 
+    has value = self+0;
+
     method heythere {
         say "hey there";
     }
@@ -46,7 +48,7 @@ say $obj.WHAT;  # (Int)
 
 say Int.new; # 0
 
-say Splint.new;
+say Splint.new; # 0
 
 
 # ===
