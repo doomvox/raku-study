@@ -36,6 +36,29 @@ use v6;
  
 
 { 
+   ## Can get something working by dropping the "prefix:"
+
+    sub  Σ ($L, $U, $term) {
+        say "L: $L, U: $U, term: ", $term.gist;  # 
+        #  L: 0, U: 3, term: -> ;; $_? is raw = OUTER::<$_> { #`(Block|94700811330360) ... }
+
+        my $sum = 0;
+        loop (my $i = $L; $i <= $U; $i++) {    
+            $sum += $term($i);
+        }
+        return $sum;    
+    }
+
+    say Σ  0, 3, {$^i} ; #    $^i is okay,  $^1 is definitely not.
+    # 6 = 0 + 1 + 2 + 3
+
+    say Σ  0, 7, {$^i/3} ;  # 9.333333
+
+}
+
+
+
+{ 
     my $term =  {
         # say $^i, ": ", $^i * 2;
         # return $^i * 2;  ## Attempt to return outside of any Routine  (?)
@@ -89,24 +112,4 @@ use v6;
 
 
 
-{ 
-
-
-    sub  Σ ($L, $U, $term) {
-        say "L: $L, U: $U, term: ", $term.gist;  # 
-        #  L: 0, U: 3, term: -> ;; $_? is raw = OUTER::<$_> { #`(Block|94700811330360) ... }
-
-        my $sum = 0;
-        loop (my $i = $L; $i <= $U; $i++) {    
-            $sum += $term($i);
-        }
-        return $sum;    
-    }
-
-    say Σ  0, 3, {$^i} ; #    $^i is okay,  $^1 is definitely not.
-    # 6 = 0 + 1 + 2 + 3
-
-    say Σ  0, 7, {$^i/3} ;  # 9.333333
-
-}
 
