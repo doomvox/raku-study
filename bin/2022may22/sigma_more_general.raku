@@ -55,11 +55,11 @@ use v6;
 
     say summation(3,7, {$^i/3}); # 8.333333
 
-    sub prefix:<Σ>( ( $L, $U, $term ) ) {
+    sub prefix:<Σ>(  $L, $U, $term  ) {
         return summation( $L, $U, $term );
     }
 
-    say Σ ( 0, 3, {$^1} ); #
+    say Σ  0, 3, {$^1} ; #
 
 # Too few positionals passed; expected 3 arguments but got 1
 #   in sub prefix:<Σ> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022may22/sigma_more_general.raku line 58
