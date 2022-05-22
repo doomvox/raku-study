@@ -93,6 +93,8 @@ use v6;
 
 
     sub  Σ ($L, $U, $term) {
+        say "L: $L, U: $U, term: $term";
+
         my $sum = 0;
         loop (my $i = $L; $i <= $U; $i++) {    
             $sum += $term($i);
