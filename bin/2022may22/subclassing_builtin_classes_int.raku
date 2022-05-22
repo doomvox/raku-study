@@ -7,9 +7,14 @@ use v6;
 class Splint is Int {
   # nothing yet
 
-    method heythere{
+    method heythere {
         say "hey there";
     }
+
+    method succ {
+      ## ?
+    }
+
 }
 
 my $obj = Splint.new( 7 );
