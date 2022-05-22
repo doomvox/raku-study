@@ -12,6 +12,7 @@
 **** broken link in here: https://docs.raku.org/language/operators
 ***** https://docs.raku.org/language/language/functions#Precedence
 ***** "precedence of custom operators"
+***** BUG in docs
 **** bruce gray says you can define operator precedence relative to other existing operators
 
 *** TODO add new stuff and raid last meeting for ideas
