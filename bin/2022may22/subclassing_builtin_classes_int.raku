@@ -56,7 +56,6 @@ say $obj.WHAT;  # (Int)
 ##   my $something = $int + $splint;
 ## custom operators, parallel universe of "splint" operations?
 
-
 # bruce suggests an alternate approach:
 #   https://docs.raku.org/language/objects#index-entry-delegation_(trait_handles) 
 
