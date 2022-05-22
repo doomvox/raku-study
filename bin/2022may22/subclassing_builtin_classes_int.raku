@@ -8,7 +8,7 @@ class Splint is Int {
   # nothing yet
 
     method heythere{
-        return "hey there";
+        say "hey there";
     }
 }
 
