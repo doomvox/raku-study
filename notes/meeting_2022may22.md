@@ -1,26 +1,27 @@
-- [meeting notes May 22, 2022](#orgde39b90)
-  - [the raku study group](#orgd4c7fe1)
-    - [usual links](#orgb44f5f2)
-  - [topics](#orgeef3bd5)
-    - [move/copy etc, larry wall, apocaylpse, etc.  more to come.](#orgcb85b97)
-    - [defined sigma operator experiments](#org8f5eb81)
-    - [add new stuff and raid last meeting for ideas](#org3e5a0d1)
-  - [announcements](#orgd386760)
-    - [June 5th: next raku study group meeting](#orga106288)
-    - [June 21-25: tprc: perl/raku conference](#org24a7b83)
+- [meeting notes May 22, 2022](#org801e831)
+  - [the raku study group](#orgcddd066)
+    - [usual links](#org94cb653)
+  - [topics](#orgaa0683b)
+    - [move/copy etc, larry wall, apocaylpse, etc.  more to come.](#orgfc2aa1e)
+    - [defined sigma operator experiments](#org5611963)
+    - [inheriting from basic types, like an Int (Rob Ransbottom)](#org3ac34e0)
+    - [add new stuff and raid last meeting for ideas](#org2f7b1a4)
+  - [announcements](#orgfae8608)
+    - [June 5th: next raku study group meeting](#orgf363139)
+    - [June 21-25: tprc: perl/raku conference](#orga058845)
 
 
-<a id="orgde39b90"></a>
+<a id="org801e831"></a>
 
 # meeting notes May 22, 2022
 
 
-<a id="orgd4c7fe1"></a>
+<a id="orgcddd066"></a>
 
 ## the raku study group
 
 
-<a id="orgb44f5f2"></a>
+<a id="org94cb653"></a>
 
 ### usual links
 
@@ -33,17 +34,17 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="orgeef3bd5"></a>
+<a id="orgaa0683b"></a>
 
 ## topics
 
 
-<a id="orgcb85b97"></a>
+<a id="orgfc2aa1e"></a>
 
 ### move/copy etc, larry wall, apocaylpse, etc.  more to come.
 
 
-<a id="org8f5eb81"></a>
+<a id="org5611963"></a>
 
 ### defined sigma operator experiments
 
@@ -80,22 +81,27 @@
         ```
 
 
-<a id="org3e5a0d1"></a>
+<a id="org3ac34e0"></a>
+
+### inheriting from basic types, like an Int (Rob Ransbottom)
+
+
+<a id="org2f7b1a4"></a>
 
 ### TODO add new stuff and raid last meeting for ideas
 
 
-<a id="orgd386760"></a>
+<a id="orgfae8608"></a>
 
 ## announcements
 
 
-<a id="orga106288"></a>
+<a id="orgf363139"></a>
 
 ### June 5th: next raku study group meeting
 
 
-<a id="org24a7b83"></a>
+<a id="orga058845"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

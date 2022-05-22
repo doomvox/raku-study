@@ -26,6 +26,8 @@ sub infix:<!!>($a, $b) is tighter(&infix:<+>) {
     2 * ($a + $b)
 }
 #+END_SRC
+*** inheriting from basic types, like an Int (Rob Ransbottom)
+
 
 *** TODO add new stuff and raid last meeting for ideas
 
