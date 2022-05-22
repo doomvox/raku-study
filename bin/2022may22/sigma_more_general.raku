@@ -39,7 +39,7 @@ use v6;
 
     my $term =  {
         # say $^i, ": ", $^i * 2;
-        # return $^i * 2;
+        # return $^i * 2;  ## Attempt to return outside of any Routine  (?)
         $^i * 2;
     }
 
