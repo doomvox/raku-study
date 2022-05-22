@@ -8,6 +8,8 @@
 ** topics
 *** move/copy etc, larry wall, apocaylpse, etc.  more to come.
 *** defined sigma operator experiments
+**** got interested in this for silly reasons
+
 **** controlling precedence of custom operators
 **** broken link in here: https://docs.raku.org/language/operators
 ***** https://docs.raku.org/language/language/functions#Precedence
@@ -26,8 +28,6 @@ sub infix:<!!>($a, $b) is tighter(&infix:<+>) {
 #+END_SRC
 
 *** TODO add new stuff and raid last meeting for ideas
-*** define a sigma operator for summation
-**** https://docs.raku.org/language/optut
 
 ** announcements 
 *** June 5th: next raku study group meeting 
