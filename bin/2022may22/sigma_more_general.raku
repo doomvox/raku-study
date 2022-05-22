@@ -80,6 +80,8 @@ say "===";
     # sub Σ ($L, $U, &term) { sum map &term, $L .. $U } 
     sub Σ ($L, $U, &term) { sum map &term, $L .. $U } 
     say Σ  0, 7, {$^i/3} ;  # 8.333333
+    # Uh... now this is right: 9.333333
+    # I could swear it was "8.333333" before.
 
 }
 {
