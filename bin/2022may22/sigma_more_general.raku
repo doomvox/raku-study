@@ -90,7 +90,7 @@ say "===";
 
     my $result2 = map( $func, @nums );
     say "result2: $result2";
-
+    # result2: 2 3 4 5 6 7 8
 
 
 # map({}, @stuff);
