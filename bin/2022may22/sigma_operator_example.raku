@@ -7,7 +7,7 @@ use v6;
 # https://docs.raku.org/language/optut
 
 # general operator to sum n numbers 
-sub prefix:<Σ>( *@number-list[Int] ) {
+sub prefix:<Σ>( *@number-list ) {
     [+] @number-list
 }
  
