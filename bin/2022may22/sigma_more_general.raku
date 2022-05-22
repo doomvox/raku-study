@@ -92,7 +92,7 @@ say "===";
     say "result2: $result2";
     # result2: 2 3 4 5 6 7 8
 
-    my $result3 = map $func, @nums ;
+    my $result3 = map $func, @nums;
     say "result3: $result3";
 
 
