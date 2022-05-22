@@ -88,7 +88,7 @@ say "===";
 
     my $func = { $^a + 1 };
 
-    my $result2 = map( { $_*2 }, @nums );
+    my $result2 = map( $func, @nums );
     say "result2: $result2";
 
 
