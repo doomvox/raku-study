@@ -50,7 +50,7 @@ use v6;
         return $sum;    
     }
 
-    say summation(0, 3); # 12 
+    say summation(0, 3, $term); # 12 
 }
 
 
