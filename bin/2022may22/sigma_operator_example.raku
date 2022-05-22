@@ -34,5 +34,4 @@ say Σ 13, 16, 1; # OUTPUT: 13161
     # Useless use of constant integer 1 in sink context (lines 31, 31)
     # Useless use of constant integer 16 in sink context (lines 31, 31)
 
-
 }
