@@ -1,27 +1,27 @@
-- [meeting notes May 22, 2022](#orga4694db)
-  - [the raku study group](#org782f88b)
-    - [usual links](#orgb1fc578)
-  - [topics](#orgebabcb7)
-    - [move/copy etc, larry wall, apocaylpse, etc.  more to come.](#org3724d87)
-    - [defined sigma operator experiments](#org536b7f1)
-    - [add new stuff and raid last meeting for ideas](#org726edb9)
-    - [define a sigma operator for summation](#org4db6fa9)
-  - [announcements](#org9755c96)
-    - [June 5th: next raku study group meeting](#org64f1973)
-    - [June 21-25: tprc: perl/raku conference](#orgdb99d34)
+- [meeting notes May 22, 2022](#orga560c6f)
+  - [the raku study group](#org5a74c31)
+    - [usual links](#org0724d29)
+  - [topics](#org4eec563)
+    - [move/copy etc, larry wall, apocaylpse, etc.  more to come.](#orgb50afce)
+    - [defined sigma operator experiments](#org1db5cb3)
+    - [add new stuff and raid last meeting for ideas](#org35241d6)
+    - [define a sigma operator for summation](#org72601a0)
+  - [announcements](#orgf084416)
+    - [June 5th: next raku study group meeting](#orgb6e0195)
+    - [June 21-25: tprc: perl/raku conference](#org1d11434)
 
 
-<a id="orga4694db"></a>
+<a id="orga560c6f"></a>
 
 # meeting notes May 22, 2022
 
 
-<a id="org782f88b"></a>
+<a id="org5a74c31"></a>
 
 ## the raku study group
 
 
-<a id="orgb1fc578"></a>
+<a id="org0724d29"></a>
 
 ### usual links
 
@@ -34,17 +34,17 @@
     1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="orgebabcb7"></a>
+<a id="org4eec563"></a>
 
 ## topics
 
 
-<a id="org3724d87"></a>
+<a id="orgb50afce"></a>
 
 ### move/copy etc, larry wall, apocaylpse, etc.  more to come.
 
 
-<a id="org536b7f1"></a>
+<a id="org1db5cb3"></a>
 
 ### defined sigma operator experiments
 
@@ -61,33 +61,37 @@
     4.  but this works, coming at it in other ways, WTF?
     
         1.  <https://docs.raku.org/language/functions#Precedence>
+        
+        2.  there's no link to this from here:
+        
+            1.  <https://docs.raku.org/language/optut>
 
 3.  bruce gray says you can define operator precedence relative to other existing operators
 
 
-<a id="org726edb9"></a>
+<a id="org35241d6"></a>
 
 ### TODO add new stuff and raid last meeting for ideas
 
 
-<a id="org4db6fa9"></a>
+<a id="org72601a0"></a>
 
 ### define a sigma operator for summation
 
 1.  <https://docs.raku.org/language/optut>
 
 
-<a id="org9755c96"></a>
+<a id="orgf084416"></a>
 
 ## announcements
 
 
-<a id="org64f1973"></a>
+<a id="orgb6e0195"></a>
 
 ### June 5th: next raku study group meeting
 
 
-<a id="orgdb99d34"></a>
+<a id="org1d11434"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
