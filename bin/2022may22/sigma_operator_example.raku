@@ -28,5 +28,7 @@ say Σ 13, 16, 1; # OUTPUT: 13161
   # A: yes!
   say 13, 16, 1; # OUTPUT: 13161
 
+  my $n = 13, 16, 1;
+  say $n;
 
 }
