@@ -31,7 +31,7 @@ use v6;
         return $i * 2;
     }
 
-    say summation( 0, 
+    say summation( 0, 3);
 }
  
 
