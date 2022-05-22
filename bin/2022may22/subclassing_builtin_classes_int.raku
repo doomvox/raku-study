@@ -17,6 +17,8 @@ my $obj = Splint.new( 7 );
 say $obj;
 say ++$obj;
 
+$obj.heythere;
+
 
 
 # ===
