@@ -22,13 +22,13 @@ say Σ 13, 16, 1; # OUTPUT: 13161
   # Q: could it be the [+] construct?  A: no
   # say [+] ("a", "b");
   # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏a' (indicated by ⏏)
-    say [+] (2, 7); # 9
+    say [+] (2, 7); # OUTPUT: 9
 
   # Q: maybe happens before passing
   # A: yes!
   say 13, 16, 1; # OUTPUT: 13161
 
   my $n = 13, 16, 1;
-  say $n;
+  say $n;  # OUTPUT: 13
 
 }
