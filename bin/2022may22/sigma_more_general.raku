@@ -21,16 +21,16 @@ use v6;
     sub summation ($L, $U, *@nums) {
         my $sum = 0;
         loop (my $i = $L; $i <= $U; $i++) {    
-            $sum += identity($i);
+            $sum += funky_func($i);
 
         }
         return $sum;    
     }
 
-
-
-    say 
-
+    sub funky_func ($i) {
+        return $i * 2;
+    }
+    say $sum;
 }
  
 
