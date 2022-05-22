@@ -68,15 +68,16 @@ use v6;
 }
 
 
+{
+    ## bruce gray:
+    sub summation ($L, $U, $term) {
+        return sum gather loop ( my $i = $L ; $i <= $U ; $i++ ) {
+            take $term($i);
+        }
+    }
+    sub Σ ($L, $U, &term) { sum map &term, $L .. $U } 
+}
 
-
-## bruce gray:
-# sub summation ($L, $U, $term) {
-# return sum gather loop ( my $i = $L ; $i <= $U ; $i++ ) {
-# take $term($i);
-# }
-# }
-# sub Σ ($L, $U, &term) { sum map &term, $L .. $U } 
 
 
 
