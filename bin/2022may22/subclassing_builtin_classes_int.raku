@@ -65,8 +65,6 @@ my $s = Splint.new;
 say $s;
 say $s.incrementoid;
 
-
-
 # ===
 # Author:  doom@kzsu.stanford.edu
 
