@@ -61,6 +61,10 @@ say Int.new; # 0
 
 say Splint.new; # 0
 
+my $s = Splint.new;
+say $s;
+say $s.incrementoid;
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
