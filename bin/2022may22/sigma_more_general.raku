@@ -59,6 +59,8 @@ use v6;
 
 }
 
+exit;
+
 
 ## bruce gray:
 # sub summation ($L, $U, $term) {
