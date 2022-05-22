@@ -12,9 +12,11 @@ class Splint is Int {
     }
 
     method succ {
-      my $newself = Splint.new;
-      return 1 + self;
-      # eturn Splint.new( 1 + self ); 
+# runs doesn't fix anything
+#       my $newself = Splint.new;
+#       return 1 + self;
+
+      # return Splint.new( 1 + self ); 
     }
 
 }
