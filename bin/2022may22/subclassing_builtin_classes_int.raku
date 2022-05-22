@@ -17,12 +17,12 @@ my $obj = Splint.new( 7 );
 say $obj;
 say $obj.WHAT;  # (Splint)
 
-$obj.heythere;
+$obj.heythere; # hey there
 
 say ++$obj;
 say $obj.WHAT;  # (Int)
 
-
+# Need to override "succ" in the class to fix this.
 
 
 
