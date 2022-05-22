@@ -31,7 +31,7 @@ use v6;
         return $i * 2;
     }
 
-    say summation( 0, 3);
+    say summation(0, 3); # 12 = 0*2+1*2+3*2
 }
  
 
