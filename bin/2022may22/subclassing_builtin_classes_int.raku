@@ -17,7 +17,7 @@ class Splint is Int {
     #       return 1 + self;
 
        # runs doesn't fix anything
-      return Splint.new( 1 + self ); 
+      return Splint Splint.new( 1 + self ); 
     }
 
 }
