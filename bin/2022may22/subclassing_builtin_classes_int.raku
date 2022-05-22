@@ -41,7 +41,9 @@ say $obj.WHAT;  # (Int)
 ## custom operators, parallel universe of "splint" operations?
 
 
-say Int.new;
+# https://docs.raku.org/language/objects#index-entry-delegation_(trait_handles) 
+
+say Int.new; # 0
 
 
 # ===
