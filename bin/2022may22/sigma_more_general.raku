@@ -60,13 +60,19 @@ use v6;
     }
 
 
-#    say Σ ( 0, 3, {$^1} ); #
+    say Σ ( 0, 3, {$^1} ); #
 
 # Too few positionals passed; expected 3 arguments but got 1
 #   in sub prefix:<Σ> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022may22/sigma_more_general.raku line 58
 #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022may22/sigma_more_general.raku line 62
 
-    say Σ  0, 3, {$^1} ; 
+
+    sub prefix:<Σ>( *@stuff ) {
+        return summation( @stuff[0], @stuff[1], @stuff[2] );
+    }
+
+
+
 
 
 }
