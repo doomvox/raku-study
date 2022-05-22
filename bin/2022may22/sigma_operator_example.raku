@@ -15,6 +15,8 @@ say Σ (13, 16, 1); # OUTPUT: 30
 
 
 # Q: are the parens necessary?
-# A: yes, but the behavior without them is *weird*
+# A: yes, but the behavior without them is weird:  string concat?
 say Σ 13, 16, 1; # OUTPUT: 13161
 
+
+say [+] ("a" "b");
