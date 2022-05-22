@@ -4,7 +4,15 @@
 
 use v6;
 
+class Splint is Int {
+  # nothing yet
+}
 
+
+my $obj = Splint.new( 7 );
+
+say $obj;
+say $obj++;
 
 
 
