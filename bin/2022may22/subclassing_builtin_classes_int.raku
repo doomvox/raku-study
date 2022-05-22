@@ -16,6 +16,8 @@ class Splint is Int {
 
     method incrementoid {
         my $val = self.Int;
+        ## but how would you assign to that int "slot" in the self?
+
         return $val + 1;
     }
 
