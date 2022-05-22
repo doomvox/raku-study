@@ -90,6 +90,8 @@ use v6;
 
 
 { 
+
+
     sub  Σ ($L, $U, $term) {
         my $sum = 0;
         loop (my $i = $L; $i <= $U; $i++) {    
@@ -98,6 +100,8 @@ use v6;
         return $sum;    
     }
 
-    say summation(3,7, {$^i/3}); # 8.333333
+    say Σ  0, 3, {$^1} ; #
+
 
 }
+
