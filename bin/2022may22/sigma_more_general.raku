@@ -52,7 +52,7 @@ use v6;
 
     say summation(0, 3, $term); # 12 
 
-    say summation(3,6, {$^i/3}); # 14
+    say summation(3,7, {$^i/3}); # 14
 
 }
 
