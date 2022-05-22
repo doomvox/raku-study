@@ -37,6 +37,7 @@ say $obj.WHAT;  # (Int)
 
 # Need to override "succ" in the class to fix this.
 
+my $something = $int + $splint;
 
 
 
