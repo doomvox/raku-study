@@ -10,6 +10,7 @@ use v6;
 {
     # general operator to sum n numbers 
     sub prefix:<Σ>( *@number-list ) {
+        say '>>>: ', @number-list.raku;
         [+] @number-list
     }
     
