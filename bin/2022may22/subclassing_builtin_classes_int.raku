@@ -6,6 +6,10 @@ use v6;
 
 class Splint is Int {
   # nothing yet
+
+    method heythere{
+        return "hey there";
+    }
 }
 
 my $obj = Splint.new( 7 );
