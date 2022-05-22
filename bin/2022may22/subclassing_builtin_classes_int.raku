@@ -6,7 +6,7 @@ use v6;
 
 class Splint is Int {
 
-    has value = self.Numeric;
+    has Int $.value = self.Numeric;
 
     method heythere {
         say "hey there";
