@@ -94,7 +94,7 @@ use v6;
 
     sub  Σ ($L, $U, $term) {
         say "L: $L, U: $U, term: ", $term.gist;  # 
-        # L: 0, U: 3, term: -> ;; $_? is raw = OUTER::<$_> { #`(Block|94700811330360) ... }
+        #  L: 0, U: 3, term: -> ;; $_? is raw = OUTER::<$_> { #`(Block|94700811330360) ... }
 
         my $sum = 0;
         loop (my $i = $L; $i <= $U; $i++) {    
@@ -103,7 +103,7 @@ use v6;
         return $sum;    
     }
 
-    say Σ  0, 3, {$^1} ; #
+    say Σ  0, 3, {$^i} ; #
 
 
 }
