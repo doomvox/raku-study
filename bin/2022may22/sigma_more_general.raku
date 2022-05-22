@@ -86,6 +86,12 @@ say "===";
     my $result = map( { $_*2 }, @nums );
     say "result: $result";
 
+    my $func = { $^a + 1 };
+
+    my $result2 = map( { $_*2 }, @nums );
+    say "result2: $result2";
+
+
 
 # map({}, @stuff);
 }
