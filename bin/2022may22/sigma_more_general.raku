@@ -83,7 +83,7 @@ say "===";
 }
 
 {
-    my @nums = (1, 2, 3, 4, 5, 6 7);
+    my @nums = (1, 2, 3, 4, 5, 6, 7);
     my $result = map( { $_*2 }, @nums );
     say "result: $result";
 
