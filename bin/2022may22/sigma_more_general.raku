@@ -77,11 +77,10 @@ say "===";
         }
     }
 
-    sub Σ ($L, $U, &term) { sum map &term(), $L .. $U } 
-    say Σ  0, 7, {$^i/3} ;  # 8.333333
+#     sub Σ ($L, $U, &term) { sum map &term(), $L .. $U } 
+#     say Σ  0, 7, {$^i/3} ;  # 8.333333
 
 }
-
 {
     my @nums = (1, 2, 3, 4, 5, 6, 7);
     my $result = map( { $_*2 }, @nums );
