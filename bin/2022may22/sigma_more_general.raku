@@ -69,6 +69,10 @@ use v6;
 
 
 ## Maybe:
+    sub prefix:<Σ>( *@stuff ) {
+        return summation( @stuff[0], @stuff[1], @stuff[2] );
+    }
+
 
 
 
