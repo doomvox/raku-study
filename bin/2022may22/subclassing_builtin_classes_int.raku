@@ -15,7 +15,8 @@ class Splint is Int {
     ##   to access that value in your Splint methods, and possibly change it 
 
     method incrementoid {
-        self++;  ## Hm.
+        my $val = self.Int;
+        return $val + 1;
     }
 
 
