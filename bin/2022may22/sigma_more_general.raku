@@ -9,8 +9,8 @@ use v6;
 
 #   U (upper bound, integer)
 #   ___
-#   \        x        -- sum term, a function of i
-#   /__       i   
+#   \        x            
+#   /__       i    x-sub-i is a "sum term", a function of i
 
 #   i=L (lower bound, integer)
 
