@@ -57,7 +57,7 @@ use v6;
 # summations of summations (some day maybe)
 #     say Σ  0, 7, Σ 1, 7, {$^i/3}, {$^j*3} ;  # 9.333333
 
-    say Σ  0, 7,  &[-];  # 9.333333
+    say Σ  0, 7,  &[-];  # 28
 
 
 }
