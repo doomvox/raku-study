@@ -55,12 +55,14 @@ use v6;
 
     say summation(3,7, {$^i/3}); # 8.333333
 
+
+
     # dropping prefix:
     sub Σ (  $L, $U, $term  ) {
         return summation( $L, $U, $term );
     }
 
-    say Σ  0, 3, {$^1} ; #
+#    say Σ  0, 3, {$^1} ; #
 
 ## one(one(one(one(0, 1), one(1, 2)), one(one(1, 2), one(2, 3))), one(one(one(1, 2), one(2, 3)), one(one(2, 3), one(3, 4))))
 
@@ -85,3 +87,17 @@ use v6;
  
 # say Σ (13, 16, 1); # OUTPUT: 30
 
+
+
+{ 
+    sub  Σ ($L, $U, $term) {
+        my $sum = 0;
+        loop (my $i = $L; $i <= $U; $i++) {    
+            $sum += $term($i);
+        }
+        return $sum;    
+    }
+
+    say summation(3,7, {$^i/3}); # 8.333333
+
+}
