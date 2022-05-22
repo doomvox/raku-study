@@ -22,4 +22,5 @@ say Σ 13, 16, 1; # OUTPUT: 13161
 # Q: could it be the [+] construct?  A: no
   # say [+] ("a", "b");
   # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏a' (indicated by ⏏)
+    say [+] (2, 7);
 }
