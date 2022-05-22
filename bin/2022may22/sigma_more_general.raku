@@ -55,6 +55,11 @@ use v6;
 
     say summation(3,7, {$^i/3}); # 8.333333
 
+    sub prefix:<Σ>( $L, $U, $term ) {
+        return summation( $L, $U, $term );
+    }
+
+
 }
 
 # sub prefix:<Σ>( *@number-list ) {
@@ -62,25 +67,4 @@ use v6;
 # }
  
 # say Σ (13, 16, 1); # OUTPUT: 30
-
-{
-
-    sub prefix:<Σ>( $L, $U, $term ) {
-
-    sub summation ($L, $U, $term) {
-        my $sum = 0;
-        loop (my $i = $L; $i <= $U; $i++) {    
-            $sum += $term($i);
-        }
-        return $sum;    
-    }
-
-
-
-    }
-
-
-
-# ===
-# Author:  doom@kzsu.stanford.edu
 
