@@ -99,7 +99,11 @@ say "===";
     say "result3: $result3";
     # result3: 2 3 4 5 6 7 8
 
-    my $result4 = map: $func, @nums;  # compile problem
+#    my $result4 = map: $func, @nums;  # compile problem
+#    say "result4: $result4";
+    # result4: 2 3 4 5 6 7 8
+
+    my $result5 = map: $func, @nums;  # compile problem
     say "result4: $result4";
     # result4: 2 3 4 5 6 7 8
 
