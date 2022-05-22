@@ -5,7 +5,6 @@
 use v6;
 
 class Splint is Int {
-  # nothing yet
 
     method heythere {
         say "hey there";
