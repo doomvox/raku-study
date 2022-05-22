@@ -10,7 +10,9 @@
 *** defined sigma operator experiments
 **** controlling precedence of custom operators
 **** broken link in here: https://docs.raku.org/language/operators
-
+***** https://docs.raku.org/language/language/functions#Precedence
+***** "precedence of custom operators"
+**** bruce gray says you can define operator precedence relative to other existing operators
 
 *** TODO add new stuff and raid last meeting for ideas
 *** define a sigma operator for summation
