@@ -104,7 +104,7 @@ say "===";
     # result4: 2 3 4 5 6 7 8
 
     my $result5 = @nums.map: $func;  
-    say "result4: $result4";
+    say "result5: $result5";
     # result4: 2 3 4 5 6 7 8
 
 
