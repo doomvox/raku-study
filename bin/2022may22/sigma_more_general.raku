@@ -21,12 +21,12 @@ use v6;
     sub summation ($L, $U) {
         my $sum = 0;
         loop (my $i = $L; $i <= $U; $i++) {    
-            $sum += funky_func($i);
+            $sum += term($i);
         }
         return $sum;    
     }
 
-    sub funky_func ($i) {
+    sub term ($i) {
         return $i * 2;
     }
 
