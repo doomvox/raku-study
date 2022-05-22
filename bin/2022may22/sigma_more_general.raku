@@ -5,7 +5,7 @@
 use v6;
 
 # The mathematical sigma *is* a summation notation, but not the same as "sum".
-
+# The raku equivalent is more like looping over an integer range.
 
 
 
