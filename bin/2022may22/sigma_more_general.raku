@@ -55,12 +55,15 @@ use v6;
 
     say summation(3,7, {$^i/3}); # 8.333333
 
-    # prefix:
+    # dropping prefix:
     sub Σ (  $L, $U, $term  ) {
         return summation( $L, $U, $term );
     }
 
     say Σ  0, 3, {$^1} ; #
+
+## one(one(one(one(0, 1), one(1, 2)), one(one(1, 2), one(2, 3))), one(one(one(1, 2), one(2, 3)), one(one(2, 3), one(3, 4))))
+
 
 # Too few positionals passed; expected 3 arguments but got 1
 #   in sub prefix:<Σ> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022may22/sigma_more_general.raku line 58
