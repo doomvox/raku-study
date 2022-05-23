@@ -29,7 +29,7 @@ sub infix:<!!>($a, $b) is tighter(&infix:<+>) {
 *** inheriting from basic types, like an Int (Rob Ransbottom)
 
 
-*** TODO add new stuff and raid last meeting for ideas
+*** TODO raid previous meetings for ideas, do follow-up
 
 ** announcements 
 *** June 5th: next raku study group meeting 
