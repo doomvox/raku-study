@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#orgbc4a9e3)
-  - [the raku study group](#orgc0bfc4b)
-    - [topics](#org5d7a3ae)
-  - [announcements](#org8c39a6a)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgcfd1786)
-    - [June 21-25: tprc: perl/raku conference](#org05fccda)
+- [meeting notes June 05, 2022](#orge829809)
+  - [the raku study group](#org29fa243)
+    - [topics](#orgd578f19)
+  - [announcements](#orge52e126)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgf155ba9)
+    - [June 21-25: tprc: perl/raku conference](#orgc350751)
 
 
-<a id="orgbc4a9e3"></a>
+<a id="orge829809"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgc0bfc4b"></a>
+<a id="org29fa243"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org5d7a3ae"></a>
+<a id="orgd578f19"></a>
 
 ### topics
 
@@ -87,6 +87,8 @@
     4.  operators
     
         1.  operators are functions
+        
+        2.  can you easily define a recursive operator
 
 5.  recent weekly challenges that weren't number theory trivia for once
 
@@ -115,17 +117,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org8c39a6a"></a>
+<a id="orge52e126"></a>
 
 ## announcements
 
 
-<a id="orgcfd1786"></a>
+<a id="orgf155ba9"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org05fccda"></a>
+<a id="orgc350751"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
