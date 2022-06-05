@@ -19,13 +19,13 @@ say so $tmp.IO.d;       # True
 # WTF?
 
 
-## Has the system temporary directory?  Cool.
+## Thid has the system temporary directory?  Cool.
 say $*TMPDIR; # "/tmp".IO
 
 ## This tells you ".", which is true but thoroughly uninteresting
 say $*SPEC.curdir; # .
 
-say $*CWD;
+say $*CWD; # "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun05".IO
 
 
 
