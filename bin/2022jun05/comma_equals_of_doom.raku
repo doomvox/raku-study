@@ -17,5 +17,6 @@ my %exp   =  a => 0, b => 1, c => 1, d => 0;
 
 {  my %target = %model;
    %target ,= | %hoh<key>;
+   say %target;
 }
 ## Odd number of elements found where hash initializer expected:
