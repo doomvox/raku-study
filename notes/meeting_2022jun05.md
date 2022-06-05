@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#org1688711)
-  - [the raku study group](#orgaa7b599)
-    - [topics](#org03905d8)
-  - [announcements](#orgdea01ef)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org3ede9be)
-    - [June 21-25: tprc: perl/raku conference](#org682991e)
+- [meeting notes June 05, 2022](#org898dfd5)
+  - [the raku study group](#org9634410)
+    - [topics](#org06d71ce)
+  - [announcements](#org2aba20c)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org3cb059b)
+    - [June 21-25: tprc: perl/raku conference](#orgd1199f5)
 
 
-<a id="org1688711"></a>
+<a id="org898dfd5"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgaa7b599"></a>
+<a id="org9634410"></a>
 
 ## the raku study group
 
@@ -26,21 +26,27 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org03905d8"></a>
+<a id="org06d71ce"></a>
 
 ### topics
 
-1.  perl 5.36 is out, showing some nice progress
+1.  perl
 
-    1.  e.g. has basic sub sigs, no longer "experimental"
+    1.  perl 5.36 is out, showing some nice progress
     
-    2.  the psc has clarified they're committed to backwards compatibility (within reason)
-    
-    3.  no published criteria for when they'll declare "Perl 7"
-    
-        1.  I'm pretty sure it's waiting on Corina
+        1.  features:
         
-        2.  (ovid's guess is that could be a few years)
+            1.  basic sub sigs, no longer "experimental"
+            
+            2.  more flexible for loops, getting raku-ish
+        
+        2.  the psc has clarified they're committed to backwards compatibility (within reason)
+        
+        3.  no published criteria for when they'll declare "Perl 7"
+        
+            1.  I'm pretty sure it's waiting on Corina
+            
+            2.  (ovid's guess is that could be a few years)
 
 2.  continuing adventures with move/copy/rename
 
@@ -89,17 +95,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgdea01ef"></a>
+<a id="org2aba20c"></a>
 
 ## announcements
 
 
-<a id="org3ede9be"></a>
+<a id="org3cb059b"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org682991e"></a>
+<a id="orgd1199f5"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
