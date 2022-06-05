@@ -37,8 +37,9 @@
 ****** https://github.com/doomvox/raku-study/bin/2022jun05/rob_ransbottom-comma_equals_hash_assignment.raku
 ****** https://github.com/doomvox/raku-study/bin/2022jun05/comma_equals_of_doom.raku
 
-***** has testing exceptions code
+****** testing exceptions in code
 https://docs.raku.org/language/testing
+****** can use a try block to convert die to warn
 
 ***** equivalent of perl's optional export/imports
 ****** gtk3
