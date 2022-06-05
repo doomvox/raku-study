@@ -4,6 +4,8 @@
 
 use v6;
 
+use Env;
+
 my $tmp = "$HOME/tmp";
 say so $tmp.IO.d;
 
