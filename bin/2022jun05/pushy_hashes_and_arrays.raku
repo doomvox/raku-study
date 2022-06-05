@@ -93,10 +93,20 @@ use v6;
 # raku -e 'say .raku for |<< (4,7,8,(32,57,88))'
 
 {
-    my @c =  [X Y Z [d e f [a b c]]];
+    my @a = <a b c>;
+    my @b = <d e f>;
+    my @c = <X Y Z>;
+
+    @b.push: @a;
+    @c.push: @b;
+
     say @c;
 
 #    say |<< @c;
     
 
     }
+
+
+.raku
+.gist
