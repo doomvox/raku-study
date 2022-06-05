@@ -34,6 +34,8 @@
 
 **** rob ransbottom topics
 ***** possible bug in raku
+****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun05/rob_ransbottom-comma_equals_hash_assignment.raku
+****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun05/comma_equals_of_doom.raku
 
 ***** has testing exceptions code
 https://docs.raku.org/language/testing

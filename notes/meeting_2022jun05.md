@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#orgc7b4ac4)
-  - [the raku study group](#orgb84b0a1)
-    - [topics](#org990a95d)
-  - [announcements](#orgace0ac5)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org30ee6ce)
-    - [June 21-25: tprc: perl/raku conference](#orgaad75a6)
+- [meeting notes June 05, 2022](#orgc8ad339)
+  - [the raku study group](#org453d9ad)
+    - [topics](#org708699e)
+  - [announcements](#org7eb80bf)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orga42a7a6)
+    - [June 21-25: tprc: perl/raku conference](#org53b5293)
 
 
-<a id="orgc7b4ac4"></a>
+<a id="orgc8ad339"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgb84b0a1"></a>
+<a id="org453d9ad"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org990a95d"></a>
+<a id="org708699e"></a>
 
 ### topics
 
@@ -76,6 +76,10 @@
 
     1.  possible bug in raku
     
+        1.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun05/rob<sub>ransbottom</sub>-comma<sub>equals</sub><sub>hash</sub><sub>assignment.raku</sub>
+        
+        2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun05/comma<sub>equals</sub><sub>of</sub><sub>doom.raku</sub>
+    
     2.  has testing exceptions code
     
         <https://docs.raku.org/language/testing>
@@ -121,17 +125,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgace0ac5"></a>
+<a id="org7eb80bf"></a>
 
 ## announcements
 
 
-<a id="org30ee6ce"></a>
+<a id="orga42a7a6"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="orgaad75a6"></a>
+<a id="org53b5293"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
