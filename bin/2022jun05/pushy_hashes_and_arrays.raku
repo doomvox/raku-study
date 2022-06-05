@@ -61,7 +61,6 @@ use v6;
     @b.push: @a;
     @c.push: @b;
     say @c;
-
     my @d = <whatever>;
 
     @d.append: @c;
