@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#org1f44d24)
-  - [the raku study group](#org98c7935)
-    - [topics](#orgd98ee8b)
-  - [announcements](#orgfcbbbfe)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org42a5dcc)
-    - [June 21-25: tprc: perl/raku conference](#org8cff8b9)
+- [meeting notes June 05, 2022](#orgde5a4d9)
+  - [the raku study group](#orgd6fa46b)
+    - [topics](#org56791a3)
+  - [announcements](#org5e42216)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org24a9ba1)
+    - [June 21-25: tprc: perl/raku conference](#org7dcbba3)
 
 
-<a id="org1f44d24"></a>
+<a id="orgde5a4d9"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org98c7935"></a>
+<a id="orgd6fa46b"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="orgd98ee8b"></a>
+<a id="org56791a3"></a>
 
 ### topics
 
@@ -34,18 +34,22 @@
 
 2.  a recent weekly challenge (not number theory trivia for once)
 
+    1.  arne sommers
+    
+        1.  <https://raku-musings.com/hexa-diff.html>
 
-<a id="orgfcbbbfe"></a>
+
+<a id="org5e42216"></a>
 
 ## announcements
 
 
-<a id="org42a5dcc"></a>
+<a id="org24a9ba1"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org8cff8b9"></a>
+<a id="org7dcbba3"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
