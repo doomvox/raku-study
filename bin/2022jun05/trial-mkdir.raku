@@ -25,6 +25,7 @@ say $*TMPDIR; # "/tmp".IO
 ## This tells you ".", which is true but thoroughly uninteresting
 say $*SPEC.curdir; # .
 
+say $*CWD;
 
 
 
