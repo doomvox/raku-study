@@ -68,7 +68,6 @@ use v6;
     @a.push: @d;
     say @a;
 
-
     @d.append: @c;
     say @d; # [whatever X Y Z [d e f [a b c]]]
 
