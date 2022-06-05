@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#org45b1608)
-  - [the raku study group](#orgab38044)
-    - [topics](#org9664339)
-  - [announcements](#org3b164b7)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgd3d0716)
-    - [June 21-25: tprc: perl/raku conference](#org982b72a)
+- [meeting notes June 05, 2022](#org1f44d24)
+  - [the raku study group](#org98c7935)
+    - [topics](#orgd98ee8b)
+  - [announcements](#orgfcbbbfe)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org42a5dcc)
+    - [June 21-25: tprc: perl/raku conference](#org8cff8b9)
 
 
-<a id="org45b1608"></a>
+<a id="org1f44d24"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgab38044"></a>
+<a id="org98c7935"></a>
 
 ## the raku study group
 
@@ -26,26 +26,26 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org9664339"></a>
+<a id="orgd98ee8b"></a>
 
 ### topics
 
 1.  continuing adventures with move/copy/rename
 
-2.  a recent weekly challenge that is not number theory trivia
+2.  a recent weekly challenge (not number theory trivia for once)
 
 
-<a id="org3b164b7"></a>
+<a id="orgfcbbbfe"></a>
 
 ## announcements
 
 
-<a id="orgd3d0716"></a>
+<a id="org42a5dcc"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org982b72a"></a>
+<a id="org8cff8b9"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
