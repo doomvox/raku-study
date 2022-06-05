@@ -32,3 +32,4 @@ my %exp   =  a => 0, b => 1, c => 1, d => 0;
    say %target; # {a => 0, b => 1, c => 1, d => 0}
 }
 
+## Survey says: deserves to be reported.
