@@ -157,6 +157,7 @@ use v6;
     $m.push('a');
     $m.push('b');
     $m.push('c');
+    say $m;
 
 
 
