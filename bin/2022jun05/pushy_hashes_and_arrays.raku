@@ -123,3 +123,9 @@ use v6;
 }
 
 ## Note: none of us remember how to do recursive flatten all the way down.
+
+{
+    # from docs:
+    # https://docs.raku.org/routine/flat
+    say ($('a', 'b'), 'c')>>.List.flat.elems;  
+}
