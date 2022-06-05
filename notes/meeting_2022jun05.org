@@ -11,7 +11,7 @@
 ***** perl 5.36 is out, showing some nice progress
 ****** features:
 ******* basic sub sigs, no longer "experimental" 
-******* more flexible for loops, getting raku-ish
+******* more flexible for loops, more raku-ish
 
 ****** the psc has clarified they're committed to backwards compatibility (within reason)
 ****** no published criteria for when they'll declare "Perl 7"
