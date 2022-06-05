@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#orgde5a4d9)
-  - [the raku study group](#orgd6fa46b)
-    - [topics](#org56791a3)
-  - [announcements](#org5e42216)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org24a9ba1)
-    - [June 21-25: tprc: perl/raku conference](#org7dcbba3)
+- [meeting notes June 05, 2022](#orgd90d9a8)
+  - [the raku study group](#org493a068)
+    - [topics](#orga5adb01)
+  - [announcements](#orgf5f3b98)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgbcb9acf)
+    - [June 21-25: tprc: perl/raku conference](#org147d452)
 
 
-<a id="orgde5a4d9"></a>
+<a id="orgd90d9a8"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgd6fa46b"></a>
+<a id="org493a068"></a>
 
 ## the raku study group
 
@@ -26,30 +26,42 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org56791a3"></a>
+<a id="orga5adb01"></a>
 
 ### topics
 
 1.  continuing adventures with move/copy/rename
 
-2.  a recent weekly challenge (not number theory trivia for once)
+2.  recent weekly challenges that weren't number theory trivia for once
 
-    1.  arne sommers
+    1.  Task 1: Hexadecimal Words; Task 2: K-Directory Diff
     
-        1.  <https://raku-musings.com/hexa-diff.html>
+        1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-166/>
+        
+        2.  arne sommers
+        
+            1.  <https://raku-musings.com/hexa-diff.html>
+    
+    2.  Task 1: Scalable Vector Graphics (SVG); Task 2: Line of Best Fit
+    
+        1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-165/>
+        
+        2.  arne sommers
+        
+            1.  <https://raku-musings.com/doubly-scalable.html>
 
 
-<a id="org5e42216"></a>
+<a id="orgf5f3b98"></a>
 
 ## announcements
 
 
-<a id="org24a9ba1"></a>
+<a id="orgbcb9acf"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org7dcbba3"></a>
+<a id="org147d452"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

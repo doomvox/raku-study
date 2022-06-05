@@ -8,11 +8,15 @@
 
 *** topics
 **** continuing adventures with move/copy/rename
-**** a recent weekly challenge (not number theory trivia for once)
-
-***** arne sommers
-****** https://raku-musings.com/hexa-diff.html
-
+**** recent weekly challenges that weren't number theory trivia for once
+***** Task 1: Hexadecimal Words; Task 2: K-Directory Diff
+****** https://theweeklychallenge.org/blog/perl-weekly-challenge-166/
+****** arne sommers
+******* https://raku-musings.com/hexa-diff.html
+***** Task 1: Scalable Vector Graphics (SVG); Task 2: Line of Best Fit
+****** https://theweeklychallenge.org/blog/perl-weekly-challenge-165/
+****** arne sommers
+******* https://raku-musings.com/doubly-scalable.html
 
 ** announcements 
 *** June 19th: next raku study group meeting (just a few days before...)
