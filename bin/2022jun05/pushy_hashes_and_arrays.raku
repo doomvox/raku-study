@@ -83,8 +83,8 @@ use v6;
     @c.push: @b;
     say @c;             # [X Y Z [d e f [a b c]]]
 
-    say @c.flat;
-
+    say @c.flat;        # (X Y Z [d e f [a b c]])
+    say @c.flat.WHAT;
 
     }
 
