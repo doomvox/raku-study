@@ -4,10 +4,10 @@
 
 use v6;
 
-my $HOME = %*ENV{'HOME'};
+my $HOME = %*ENV{'HOME'};   # Q: is there a "use Env" that imports these?
 
 my $tmp = "$HOME/tmp";  # I always have one of these
-say so $tmp.IO.d;
+say so $tmp.IO.d;       # True
 
 # chdir();
 
