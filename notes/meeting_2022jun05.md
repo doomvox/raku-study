@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#org2b6454a)
-  - [the raku study group](#org2847825)
-    - [topics](#orge84b02e)
-  - [announcements](#orgeb1d550)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org780f65e)
-    - [June 21-25: tprc: perl/raku conference](#org03bde1a)
+- [meeting notes June 05, 2022](#orgd42e3c9)
+  - [the raku study group](#org67621e3)
+    - [topics](#org12fe80a)
+  - [announcements](#orge3293f2)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org9463c86)
+    - [June 21-25: tprc: perl/raku conference](#org81cc500)
 
 
-<a id="org2b6454a"></a>
+<a id="orgd42e3c9"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org2847825"></a>
+<a id="org67621e3"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="orge84b02e"></a>
+<a id="org12fe80a"></a>
 
 ### topics
 
@@ -74,7 +74,7 @@
 
 4.  rob ransbottom topics
 
-    1.  possible bug in raku
+    1.  possible bug in raku: appending to a hash with ,= op with slice from another hash
     
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/rob_ransbottom-comma_equals_hash_assignment.raku>
         
@@ -125,17 +125,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgeb1d550"></a>
+<a id="orge3293f2"></a>
 
 ## announcements
 
 
-<a id="org780f65e"></a>
+<a id="org9463c86"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org03bde1a"></a>
+<a id="org81cc500"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

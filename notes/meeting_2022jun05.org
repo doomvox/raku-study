@@ -33,7 +33,7 @@
 **** my intro to raku spiels need work: hyperoperators, junctions, etc.
 
 **** rob ransbottom topics
-***** possible bug in raku
+***** possible bug in raku: appending to a hash with ,= op with slice from another hash  
 ****** https://github.com/doomvox/raku-study/bin/2022jun05/rob_ransbottom-comma_equals_hash_assignment.raku
 ****** https://github.com/doomvox/raku-study/bin/2022jun05/comma_equals_of_doom.raku
 
