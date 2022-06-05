@@ -101,7 +101,9 @@ use v6;
     @b.push: @a;
     @c.push: @b;
 
-    say @c;
+    say @c;  # [X Y Z [d e f [a b c]]]  implies .gist
+
+    put @c.raku;
 
 #    say |<< @c;
     
