@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#orgb8f44eb)
-  - [the raku study group](#org127b53d)
-    - [topics](#orgf7b0017)
-  - [announcements](#orgbb83ada)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org3e44be1)
-    - [June 21-25: tprc: perl/raku conference](#orgabe292e)
+- [meeting notes June 05, 2022](#org70024bf)
+  - [the raku study group](#orgac25238)
+    - [topics](#org5e465b8)
+  - [announcements](#orgc391137)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org73fdd87)
+    - [June 21-25: tprc: perl/raku conference](#org5d4c599)
 
 
-<a id="orgb8f44eb"></a>
+<a id="org70024bf"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org127b53d"></a>
+<a id="orgac25238"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="orgf7b0017"></a>
+<a id="org5e465b8"></a>
 
 ### topics
 
@@ -49,8 +49,8 @@
     2.  I found I needed to unlink the old after a rename
     
         1.  <https://github.com/doomvox/raku-study/bin/2022mar13/tagger.raku>
-        
-        2.  
+    
+    3.  how can you resolve that contradiction?
 
 3.  recent weekly challenges that weren't number theory trivia for once
 
@@ -79,17 +79,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgbb83ada"></a>
+<a id="orgc391137"></a>
 
 ## announcements
 
 
-<a id="org3e44be1"></a>
+<a id="org73fdd87"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="orgabe292e"></a>
+<a id="org5d4c599"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

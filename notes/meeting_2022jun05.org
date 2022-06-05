@@ -19,7 +19,7 @@
 ****** roast/S32-io/rename.t
 ***** I found I needed to unlink the old after a rename
 ****** https://github.com/doomvox/raku-study/bin/2022mar13/tagger.raku
-****** 
+***** how can you resolve that contradiction?
 
 **** recent weekly challenges that weren't number theory trivia for once
 ***** Task 1: Hexadecimal Words; Task 2: K-Directory Diff
