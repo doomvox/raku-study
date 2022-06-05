@@ -31,7 +31,7 @@ use v6;
     my @a = <a b c>;
     my @b = <d e f>;
     @a.push: | <Z X W>;
-    say @a; # [a b c (Z X W)]
+    say @a; # [a b c Z X W]
 }
 
 
