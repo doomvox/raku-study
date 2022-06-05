@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#org2114137)
-  - [the raku study group](#org268db82)
-    - [topics](#orgee5f176)
-  - [announcements](#org9cab6ee)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgada2cda)
-    - [June 21-25: tprc: perl/raku conference](#org346c3fc)
+- [meeting notes June 05, 2022](#org7e77f0c)
+  - [the raku study group](#org4339c0c)
+    - [topics](#orge2ba133)
+  - [announcements](#org51609cd)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org21b5d61)
+    - [June 21-25: tprc: perl/raku conference](#orgf5c26fd)
 
 
-<a id="org2114137"></a>
+<a id="org7e77f0c"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org268db82"></a>
+<a id="org4339c0c"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="orgee5f176"></a>
+<a id="orge2ba133"></a>
 
 ### topics
 
@@ -54,18 +54,22 @@
 
     1.  <https://stackoverflow.com/questions/72180995/understanding-cro-request-response-cycle-and-memory-use>
 
+4.  jonathan worthington on operator precedence, = vs ,
 
-<a id="org9cab6ee"></a>
+    1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
+
+
+<a id="org51609cd"></a>
 
 ## announcements
 
 
-<a id="orgada2cda"></a>
+<a id="org21b5d61"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org346c3fc"></a>
+<a id="orgf5c26fd"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

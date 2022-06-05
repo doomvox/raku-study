@@ -19,6 +19,8 @@
 ******* https://raku-musings.com/doubly-scalable.html
 **** jonathan worthington on cro memory usage
 ***** https://stackoverflow.com/questions/72180995/understanding-cro-request-response-cycle-and-memory-use
+**** jonathan worthington on operator precedence, = vs ,
+***** https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence
 
 ** announcements 
 *** June 19th: next raku study group meeting (just a few days before...)
