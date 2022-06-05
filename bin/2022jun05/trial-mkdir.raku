@@ -32,7 +32,6 @@ my $dir = "ticks";  # path relative to current directory
 $dir.IO.mkdir;
 say so $dir.IO.d; # True
 
-
 ## This has the system temporary directory?  Cool.
 say $*TMPDIR; # "/tmp".IO
 
