@@ -27,6 +27,13 @@ use v6;
     say @a; # [a b c (Z X W)]
 }
 
+{
+    my @a = <a b c>;
+    my @b = <d e f>;
+    @a.push: | <Z X W>;
+    say @a; # [a b c (Z X W)]
+}
+
 
 
 
