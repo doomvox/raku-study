@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#orgc2971a6)
-  - [the raku study group](#org7e186d2)
-    - [topics](#org8df265c)
-  - [announcements](#org5fffcf0)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgfb5447c)
-    - [June 21-25: tprc: perl/raku conference](#orgdccf688)
+- [meeting notes June 05, 2022](#orgb8f44eb)
+  - [the raku study group](#org127b53d)
+    - [topics](#orgf7b0017)
+  - [announcements](#orgbb83ada)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org3e44be1)
+    - [June 21-25: tprc: perl/raku conference](#orgabe292e)
 
 
-<a id="orgc2971a6"></a>
+<a id="orgb8f44eb"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org7e186d2"></a>
+<a id="org127b53d"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org8df265c"></a>
+<a id="orgf7b0017"></a>
 
 ### topics
 
@@ -41,6 +41,16 @@
         2.  (ovid's guess is that could be a few years)
 
 2.  continuing adventures with move/copy/rename
+
+    1.  roast test checks whether the old file name is gone after rename
+    
+        1.  roast/S32-io/rename.t
+    
+    2.  I found I needed to unlink the old after a rename
+    
+        1.  <https://github.com/doomvox/raku-study/bin/2022mar13/tagger.raku>
+        
+        2.  
 
 3.  recent weekly challenges that weren't number theory trivia for once
 
@@ -69,17 +79,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org5fffcf0"></a>
+<a id="orgbb83ada"></a>
 
 ## announcements
 
 
-<a id="orgfb5447c"></a>
+<a id="org3e44be1"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="orgdccf688"></a>
+<a id="orgabe292e"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
