@@ -36,7 +36,7 @@ use v6;
  
 
 { 
-   ## Can get something working by dropping the "prefix:"
+   ## Can get something working by dropping the "prefix:", now it's just a sub
     sub  Σ ($L, $U, $term) {
         say "L: $L, U: $U, term: ", $term.gist;  # 
         #  L: 0, U: 3, term: -> ;; $_? is raw = OUTER::<$_> { #`(Block|94700811330360) ... }
