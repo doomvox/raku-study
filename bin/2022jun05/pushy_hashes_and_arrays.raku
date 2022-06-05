@@ -51,6 +51,7 @@ use v6;
 
     @b.push: @a;
     @c.push: @b;
+    say @c;
 
 
     @a.append: <Z X W>;    # append is like push, but does a flatten...
