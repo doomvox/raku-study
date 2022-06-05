@@ -16,6 +16,11 @@ say so $tmp.IO.d;       # True
 #  directories, but merely concatenates the given $path to the
 #  invocant and returns the resultant IO::Path.
 
+# WTF?
+
+
+say $*TMPDIR;
+
 
 
 
