@@ -135,6 +135,6 @@ use v6;
     say ('c')>>.List.flat;           # (c)
     say ('c')>>.List.flat.WHAT;      # (Seq)
     say ('c',)>>.List.flat;          # (c)
-    say ('c',)>>.List.flat.WHAT;     # (c)
+    say ('c',)>>.List.flat.WHAT;     # (Seq)
 
 }
