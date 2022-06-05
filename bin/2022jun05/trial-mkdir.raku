@@ -17,6 +17,7 @@ say so $tmp.IO.d;       # True
 #    invocant and returns the resultant IO::Path.
 #
 #  Uh... WTF?
+#  bg: read down further, the function form works
 
 ## This tells you ".", which is true but thoroughly uninteresting
 say $*SPEC.curdir; # .
