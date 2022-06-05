@@ -122,4 +122,4 @@ use v6;
 
 }
 
-
+## Note: none of us remember how to do recursive flatten all the way down.
