@@ -22,7 +22,10 @@ say so $tmp.IO.d;       # True
 ## Has the system temporary directory?  Cool.
 say $*TMPDIR; # "/tmp".IO
 
-say $*SPEC.curdir;
+## This tells you ".", which is true but thoroughly uninteresting
+say $*SPEC.curdir; # .
+
+
 
 
 # chdir();
