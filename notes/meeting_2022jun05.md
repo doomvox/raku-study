@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#orgb755936)
-  - [the raku study group](#org41d6d3b)
-    - [topics](#org344268c)
-  - [announcements](#orgbf308ad)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgc6d109c)
-    - [June 21-25: tprc: perl/raku conference](#org2beb436)
+- [meeting notes June 05, 2022](#orgfa07ed2)
+  - [the raku study group](#org8ee954c)
+    - [topics](#orgda7c6d4)
+  - [announcements](#org42e2aad)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org71844a2)
+    - [June 21-25: tprc: perl/raku conference](#org5bd4aa5)
 
 
-<a id="orgb755936"></a>
+<a id="orgfa07ed2"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org41d6d3b"></a>
+<a id="org8ee954c"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org344268c"></a>
+<a id="orgda7c6d4"></a>
 
 ### topics
 
@@ -127,17 +127,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgbf308ad"></a>
+<a id="org42e2aad"></a>
 
 ## announcements
 
 
-<a id="orgc6d109c"></a>
+<a id="org71844a2"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org2beb436"></a>
+<a id="org5bd4aa5"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
