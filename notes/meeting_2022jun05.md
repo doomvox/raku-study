@@ -1,52 +1,20 @@
-- [meeting notes June 05, 2022](#orgccf802e)
-  - [the raku study group](#orgef2b251)
-  - [announcements](#org5b210cf)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org27aa27c)
-    - [June 21-25: tprc: perl/raku conference](#org3d6aec5)
-  - [some excerpts from the last meeting notes May 22, 2022](#org9bf5c76)
-    - [the raku study group](#orgd9f9568)
-    - [topics](#org83889c6)
+- [meeting notes June 05, 2022](#org60399de)
+  - [the raku study group](#orgbf91743)
+  - [announcements](#orgd7b4a49)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org51b5b83)
+    - [June 21-25: tprc: perl/raku conference](#orged554ac)
+  - [some excerpts from the last meeting notes May 22, 2022](#orgbae1ebc)
+    - [topics](#orga4a7c20)
 
 
-<a id="orgccf802e"></a>
+<a id="org60399de"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgef2b251"></a>
+<a id="orgbf91743"></a>
 
 ## the raku study group
-
-
-<a id="org5b210cf"></a>
-
-## announcements
-
-
-<a id="org27aa27c"></a>
-
-### June 19th: next raku study group meeting (just a few days before&#x2026;)
-
-
-<a id="org3d6aec5"></a>
-
-### June 21-25: tprc: perl/raku conference
-
-1.  4 hours of Bruce Gray: talk + 3hr tutorial
-
-    1.  <https://tprc2022.sched.com/event/ylEK/command-line-filters-time-to-shine>
-    
-    2.  <https://tprc2022.sched.com/overview/type/Raku+Track>
-
-
-<a id="org9bf5c76"></a>
-
-## some excerpts from the last meeting notes May 22, 2022
-
-
-<a id="orgd9f9568"></a>
-
-### the raku study group
 
 1.  usual links
 
@@ -59,7 +27,33 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org83889c6"></a>
+<a id="orgd7b4a49"></a>
+
+## announcements
+
+
+<a id="org51b5b83"></a>
+
+### June 19th: next raku study group meeting (just a few days before&#x2026;)
+
+
+<a id="orged554ac"></a>
+
+### June 21-25: tprc: perl/raku conference
+
+1.  4 hours of Bruce Gray: talk + 3hr tutorial
+
+    1.  <https://tprc2022.sched.com/event/ylEK/command-line-filters-time-to-shine>
+    
+    2.  <https://tprc2022.sched.com/overview/type/Raku+Track>
+
+
+<a id="orgbae1ebc"></a>
+
+## some excerpts from the last meeting notes May 22, 2022
+
+
+<a id="orga4a7c20"></a>
 
 ### topics
 

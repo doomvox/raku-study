@@ -1,5 +1,10 @@
 * meeting notes June 05, 2022
 ** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022may22.md
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2022may22
 
 ** announcements 
 *** June 19th: next raku study group meeting (just a few days before...)
@@ -9,12 +14,7 @@
 ***** https://tprc2022.sched.com/overview/type/Raku+Track
 
 ** some excerpts from the last meeting notes May 22, 2022
-*** the raku study group
-**** usual links
-***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022may22.md
-***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2022may22
+
 *** topics
 **** move/copy etc, larry wall, apocaylpse, etc.  more to come.
 **** defined sigma operator experiments
