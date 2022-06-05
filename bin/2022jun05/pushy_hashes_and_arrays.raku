@@ -150,6 +150,8 @@ use v6;
     }
 
 
+    my $l = Less.new('a', 'b', 'c');
+
 
 
 
