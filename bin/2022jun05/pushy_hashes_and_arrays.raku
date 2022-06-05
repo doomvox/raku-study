@@ -94,6 +94,9 @@ use v6;
 
 {
     my @c =  [X Y Z [d e f [a b c]]];
+    say @c;
+
+    
     
 
     }
