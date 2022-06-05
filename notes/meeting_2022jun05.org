@@ -35,6 +35,7 @@
 **** rob ransbottom topics
 ***** possible bug in raku
 ***** equivalent of perl's optional export/imports
+****** gtk3
 ***** .list and .List
 ****** if you write your own .List does .list see it?
 
