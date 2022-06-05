@@ -127,5 +127,9 @@ use v6;
 {
     # from docs:
     # https://docs.raku.org/routine/flat
-    say ($('a', 'b'), 'c')>>.List.flat.elems;  
+    say ($('a', 'b'), 'c')>>.List.flat;
+
+    say ( (4,7,8,(32,57,88)) )>>.List.flat;
+
+
 }
