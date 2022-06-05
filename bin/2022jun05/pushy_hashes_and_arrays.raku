@@ -143,10 +143,13 @@ use v6;
 
 {
 
-    class Less {
+    class Less isa List {
         method List {
             "forgetit";
         }
     }
+
+
+
 
 }
