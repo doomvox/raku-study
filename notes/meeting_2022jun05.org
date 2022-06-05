@@ -35,6 +35,8 @@
 **** rob ransbottom topics
 ***** bug in raku?
 ***** equivalent of perl's optional export/imports
+***** .list and .List
+****** if you write your own .List does .list see it?
 
 **** recent weekly challenges that weren't number theory trivia for once
 ***** Task 1: Hexadecimal Words; Task 2: K-Directory Diff
