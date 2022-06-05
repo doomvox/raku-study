@@ -16,7 +16,7 @@ use Test;
 
     raku -v output at tail.
 =end comment
-
+ 
 my %model =  a => 0, b => 0, c => 0, d => 0;
 my %h     =          b => 1, c => 1;
 my %hoh   = key => { b => 1, c => 1 };
