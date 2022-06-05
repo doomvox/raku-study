@@ -20,7 +20,9 @@
 ****** https://github.com/doomvox/raku-study/bin/2022mar13/tagger.raku
 ***** how can you resolve that contradiction? 
 ****** try this: roast test uses temp files in current directory
-***** 
+***** some basics
+****** https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku
+
 
 **** my intro to raku spiels need work: hyperoperators, junctions...
 

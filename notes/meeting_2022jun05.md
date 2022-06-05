@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#orgd5bbc48)
-  - [the raku study group](#orgbe025df)
-    - [topics](#org13ff897)
-  - [announcements](#orgb7575bd)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgf9f10d3)
-    - [June 21-25: tprc: perl/raku conference](#org7605b3b)
+- [meeting notes June 05, 2022](#orgf821e6b)
+  - [the raku study group](#org77f8dec)
+    - [topics](#org31ed6d4)
+  - [announcements](#org0358466)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgb11de86)
+    - [June 21-25: tprc: perl/raku conference](#org8ff8b3a)
 
 
-<a id="orgd5bbc48"></a>
+<a id="orgf821e6b"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgbe025df"></a>
+<a id="org77f8dec"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org13ff897"></a>
+<a id="org31ed6d4"></a>
 
 ### topics
 
@@ -54,7 +54,9 @@
     
         1.  try this: roast test uses temp files in current directory
     
-    4.  
+    4.  some basics
+    
+        1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 3.  my intro to raku spiels need work: hyperoperators, junctions&#x2026;
 
@@ -85,17 +87,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgb7575bd"></a>
+<a id="org0358466"></a>
 
 ## announcements
 
 
-<a id="orgf9f10d3"></a>
+<a id="orgb11de86"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org7605b3b"></a>
+<a id="org8ff8b3a"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
