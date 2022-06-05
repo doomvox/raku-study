@@ -52,11 +52,16 @@ use v6;
     @b.push: @a;
     @c.push: @b;
     say @c;
-
-
-    @a.append: <Z X W>;    # append is like push, but does a flatten...
-    say @a; # [a b c Z X W]
 }
+# {
+#     my @a = <a b c>;
+#     my @b = <d e f>;
+#     my @c = <X Y Z>;
+
+
+#     @a.append: <Z X W>;    # append is like push, but does a flatten...
+#     say @a; # [a b c Z X W]
+# }
 
 
 
