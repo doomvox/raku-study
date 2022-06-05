@@ -136,4 +136,6 @@ use v6;
     say ('c',)>>.List.flat;          # (c)
     say ('c',)>>.List.flat.WHAT;     # (Seq)
 
+    say ( (4,7,8,(32,57,88)) )>>.list.flat;  # (4 7 8 32 57 88)
+
 }
