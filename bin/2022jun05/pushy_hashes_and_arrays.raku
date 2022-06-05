@@ -64,12 +64,13 @@ use v6;
     say @c;             # [X Y Z [d e f [a b c]]]
     my @d = <whatever>;
 
+    @d.append: @c;
+    say @d; # [whatever X Y Z [d e f [a b c]]]
+
     # aside:
     @a.push: @d;
     say @a;
 
-    @d.append: @c;
-    say @d; # [a b c Z X W]
 }
 
 
