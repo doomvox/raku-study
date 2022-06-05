@@ -73,6 +73,18 @@ use v6;
 
 }
 
+{
+    say "===";
+    my @a = <a b c>;
+    my @b = <d e f>;
+    my @c = <X Y Z>;
 
+    @b.push: @a;
+    @c.push: @b;
+    say @c;             # [X Y Z [d e f [a b c]]]
+
+
+
+    }
 
 
