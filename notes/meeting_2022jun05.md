@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#org44dd04c)
-  - [the raku study group](#org13c5aa9)
-    - [topics](#org85fb822)
-  - [announcements](#org296ac6e)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgc945f6b)
-    - [June 21-25: tprc: perl/raku conference](#org2b010c8)
+- [meeting notes June 05, 2022](#org87df426)
+  - [the raku study group](#orgf20f053)
+    - [topics](#orgb132727)
+  - [announcements](#org23e6d2b)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgddfa1b4)
+    - [June 21-25: tprc: perl/raku conference](#org1c02155)
 
 
-<a id="org44dd04c"></a>
+<a id="org87df426"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org13c5aa9"></a>
+<a id="orgf20f053"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org85fb822"></a>
+<a id="orgb132727"></a>
 
 ### topics
 
@@ -38,7 +38,7 @@
         
             1.  basic sub sigs, no longer "experimental"
             
-            2.  more flexible for loops, more raku-ish
+            2.  more flexible for loops, getting more raku-ish
         
         2.  the psc has clarified they're committed to backwards compatibility (within reason)
         
@@ -95,17 +95,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org296ac6e"></a>
+<a id="org23e6d2b"></a>
 
 ## announcements
 
 
-<a id="orgc945f6b"></a>
+<a id="orgddfa1b4"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org2b010c8"></a>
+<a id="org1c02155"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
