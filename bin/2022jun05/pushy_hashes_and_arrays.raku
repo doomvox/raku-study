@@ -154,9 +154,7 @@ use v6;
     say $l;  # (a b c)
 
     my Less $m;
-    $m.push('a');
-    $m.push('b');
-    $m.push('c');
+    $m = ('a', 'b', 'c');
     say $m;
 
 
