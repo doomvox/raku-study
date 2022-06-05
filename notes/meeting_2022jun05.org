@@ -20,7 +20,7 @@
 ***** I found I needed to unlink the old after a rename
 ****** https://github.com/doomvox/raku-study/bin/2022mar13/tagger.raku
 ***** how can you resolve that contradiction? 
-****** try this: roast test creates temp files in current directory
+****** try this: roast test uses temp files in current directory
 
 
 **** recent weekly challenges that weren't number theory trivia for once

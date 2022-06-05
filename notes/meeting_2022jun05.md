@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#org18864de)
-  - [the raku study group](#org5c0fcbc)
-    - [topics](#org7637767)
-  - [announcements](#orgc4c90ac)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org2b16f25)
-    - [June 21-25: tprc: perl/raku conference](#orgb1c7a3e)
+- [meeting notes June 05, 2022](#orga099f2f)
+  - [the raku study group](#orga040345)
+    - [topics](#org96a0e8f)
+  - [announcements](#org89904c1)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org105a9f3)
+    - [June 21-25: tprc: perl/raku conference](#org4377cd5)
 
 
-<a id="org18864de"></a>
+<a id="orga099f2f"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org5c0fcbc"></a>
+<a id="orga040345"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org7637767"></a>
+<a id="org96a0e8f"></a>
 
 ### topics
 
@@ -52,7 +52,7 @@
     
     3.  how can you resolve that contradiction?
     
-        1.  try this: roast test creates temp files in current directory
+        1.  try this: roast test uses temp files in current directory
 
 3.  recent weekly challenges that weren't number theory trivia for once
 
@@ -81,17 +81,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgc4c90ac"></a>
+<a id="org89904c1"></a>
 
 ## announcements
 
 
-<a id="org2b16f25"></a>
+<a id="org105a9f3"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="orgb1c7a3e"></a>
+<a id="org4377cd5"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
