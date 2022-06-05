@@ -132,6 +132,6 @@ use v6;
     say ( (4,7,8,(32,57,88)) )>>.List.flat;  # (4 7 8 32 57 88)
 
 
-    say ('c')>>.List.flat;      # (a b c)
+    say ('c')>>.List.flat;      #
 
 }
