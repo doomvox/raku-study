@@ -20,6 +20,15 @@ use v6;
     say @a; # [a b c d e f]
 }
 
+{
+    my @a = <a b c>;
+    my @b = <d e f>;
+    @a.push: <Z X W>;
+    say @a; # [a b c d e f]
+}
+
+
+
 
 # say @a.elems;               # OUTPUT: «4␤» 
 # say @a[3].join;             # OUTPUT: «def␤»
