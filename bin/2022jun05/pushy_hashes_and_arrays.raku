@@ -51,7 +51,7 @@ use v6;
 
     @b.push: @a;
     @c.push: @b;
-    say @c;
+    say @c;        # [X Y Z [d e f [a b c]]]
 }
 # {
 #     my @a = <a b c>;
