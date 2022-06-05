@@ -66,7 +66,7 @@ use v6;
 
     # aside:
     @a.push: @d;
-    say @a;
+    say @a;      # [a b c [whatever]]
 
     @d.append: @c;
     say @d; # [whatever X Y Z [d e f [a b c]]]
