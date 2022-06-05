@@ -30,8 +30,9 @@ say $*CWD; # "/home/doom/tmp".IO
 # chdir();
 
 my $dir = "ticks";
+$dir.IO.mkdir;
+say so $dir.IO.d;
 
-# $dir.IO.mkdir;
 
 ## This has the system temporary directory?  Cool.
 say $*TMPDIR; # "/tmp".IO
