@@ -142,7 +142,6 @@ use v6;
 }
 
 {
-
     class Less is List {
         method List {
             "forgetit";
