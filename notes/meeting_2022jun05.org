@@ -45,6 +45,7 @@ https://docs.raku.org/language/testing
 
 ***** .list and .List
 ****** if you write your own .List does .list see it? A: no, .list still works as always
+
 ***** operators
 ****** operators are functions
 ****** can you easily define a recursive operator
