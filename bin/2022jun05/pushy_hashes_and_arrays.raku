@@ -152,5 +152,5 @@ use v6;
     say $l;  # (a b c)
 
     say $l.List; # forgetit
-    say $l.list; # (a b c)
+    say $l.list; # (a b c)    
 }
