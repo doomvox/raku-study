@@ -41,7 +41,6 @@ https://docs.raku.org/language/testing
 ****** can use a try block to convert die to warn
 
 ***** equivalent of perl's optional export/imports
-****** gtk3
 ****** some people actually create individual tags for every item they want to export
 
 ***** .list and .List
