@@ -151,6 +151,6 @@ use v6;
     my $l = Less.new('a', 'b', 'c');
     say $l;  # (a b c)
 
-    say $l.List; # forgetit
+    say $l.List; # forgetit   (broken as designed)
     say $l.list; # (a b c)    
 }
