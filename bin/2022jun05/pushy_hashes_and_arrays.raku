@@ -153,9 +153,6 @@ use v6;
     my $l = Less.new('a', 'b', 'c');
     say $l;  # (a b c)
 
-    my Less $m;
-    $m = ('a', 'b', 'c').list;
-    say $m;
 
 
 
