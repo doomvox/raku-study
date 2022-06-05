@@ -71,7 +71,6 @@ use v6;
     @d.append: @c;
     say @d; # [whatever X Y Z [d e f [a b c]]]
 
-
 }
 
 
