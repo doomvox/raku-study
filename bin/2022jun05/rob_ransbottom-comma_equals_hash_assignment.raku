@@ -4,6 +4,7 @@ use v6.d;
 use Test;
 
 =begin comment
+
     ,= with hashes does the %h<key> = %hh<key> assignment en masse.
 
     Hash.append and hash.push have more preservative semantics.
@@ -15,6 +16,7 @@ use Test;
     The docs and the error message are LTA.
 
     raku -v output at tail.
+
 =end comment
  
 my %model =  a => 0, b => 0, c => 0, d => 0;
