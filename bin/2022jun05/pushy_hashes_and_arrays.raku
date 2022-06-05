@@ -59,7 +59,10 @@ use v6;
     my @c = <X Y Z>;
 
     @b.push: @a;
-    say @b;
+    @c.push: @b;
+    say @c;
+
+    my @d = <whatever>;
 
     @a.append: @b;
     say @a; # [a b c Z X W]
