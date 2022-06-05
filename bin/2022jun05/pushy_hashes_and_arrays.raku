@@ -155,5 +155,4 @@ use v6;
 
     say $l.List; # forgetit
     say $l.list; # (a b c)
-
 }
