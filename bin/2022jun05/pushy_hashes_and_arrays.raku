@@ -87,7 +87,6 @@ use v6;
 
     say @c.flat;        # (X Y Z [d e f [a b c]])
     say @c.flat.WHAT;   # (Seq)
-
     }
 
 
