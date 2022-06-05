@@ -90,7 +90,8 @@ use v6;
     }
 
 
-# raku -e 'say .raku for |<< (4,7,8,(32,57,88))'
+# bruce gray idea, why can't you hyper the slip to do it recursively?
+  # raku -e 'say .raku for |<< (4,7,8,(32,57,88))'
 
 {
     say "===";
