@@ -12,6 +12,13 @@ say so $tmp.IO.d;       # True
 # Hm, how do I change the current directory?
 # https://docs.raku.org/routine/chdir
 
+#  Contrary to the name, the .chdir method does not change any
+#  directories, but merely concatenates the given $path to the
+#  invocant and returns the resultant IO::Path.
+
+
+
+
 # chdir();
 
 
