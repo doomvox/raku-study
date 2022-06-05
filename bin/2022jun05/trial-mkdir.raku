@@ -18,15 +18,12 @@ say so $tmp.IO.d;       # True
 #
 #  Uh... WTF?
 
-## Thid has the system temporary directory?  Cool.
-say $*TMPDIR; # "/tmp".IO
-
 ## This tells you ".", which is true but thoroughly uninteresting
 say $*SPEC.curdir; # .
 
 say $*CWD; # "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun05".IO
 $*CWD = $tmp.IO;
-say $*CWD; # "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun05".IO
+say $*CWD; # "/home/doom/tmp".IO
 
 # chdir();
 
