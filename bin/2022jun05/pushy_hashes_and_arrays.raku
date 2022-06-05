@@ -103,9 +103,11 @@ use v6;
 
     say @c;  # [X Y Z [d e f [a b c]]]  implies .gist
 
-    put @c.raku;
+    put @c.raku;  # ["X", "Y", "Z", ["d", "e", "f", ["a", "b", "c"]]]
 
-#    say |<< @c;
+    my @c = ["X", "Y", "Z", ["d", "e", "f", ["a", "b", "c"]]];
+    
+
     
 
     }
