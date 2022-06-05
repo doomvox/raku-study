@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#orge7b93c7)
-  - [the raku study group](#org9209c0b)
-    - [topics](#orgc610052)
-  - [announcements](#org72c529c)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org517275e)
-    - [June 21-25: tprc: perl/raku conference](#orgaaabde2)
+- [meeting notes June 05, 2022](#orgbc4a9e3)
+  - [the raku study group](#orgc0bfc4b)
+    - [topics](#org5d7a3ae)
+  - [announcements](#org8c39a6a)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgcfd1786)
+    - [June 21-25: tprc: perl/raku conference](#org05fccda)
 
 
-<a id="orge7b93c7"></a>
+<a id="orgbc4a9e3"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org9209c0b"></a>
+<a id="orgc0bfc4b"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="orgc610052"></a>
+<a id="org5d7a3ae"></a>
 
 ### topics
 
@@ -83,6 +83,10 @@
     3.  .list and .List
     
         1.  if you write your own .List does .list see it?
+    
+    4.  operators
+    
+        1.  operators are functions
 
 5.  recent weekly challenges that weren't number theory trivia for once
 
@@ -111,17 +115,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org72c529c"></a>
+<a id="org8c39a6a"></a>
 
 ## announcements
 
 
-<a id="org517275e"></a>
+<a id="orgcfd1786"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="orgaaabde2"></a>
+<a id="org05fccda"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

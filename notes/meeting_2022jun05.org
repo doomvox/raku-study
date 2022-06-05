@@ -38,6 +38,8 @@
 ****** gtk3
 ***** .list and .List
 ****** if you write your own .List does .list see it?
+***** operators
+****** operators are functions
 
 **** recent weekly challenges that weren't number theory trivia for once
 ***** Task 1: Hexadecimal Words; Task 2: K-Directory Diff
