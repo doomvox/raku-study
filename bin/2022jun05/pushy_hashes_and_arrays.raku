@@ -54,6 +54,7 @@ use v6;
     say @c;        # [X Y Z [d e f [a b c]]]
 }
 {
+    say "===";
     my @a = <a b c>;
     my @b = <d e f>;
     my @c = <X Y Z>;
