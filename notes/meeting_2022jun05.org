@@ -8,6 +8,7 @@
 
 *** topics
 **** perl 5.36 is out, showing some nice progress
+***** e.g. has basic sub sigs, no longer "experimental" 
 ***** the psc has clarified they're committed to backwards compatibility (within reason)
 ***** no published criteria for when they'll declare "Perl 7"
 ****** I'm pretty sure it's waiting on Corina

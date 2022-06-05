@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#orgc93e0ea)
-  - [the raku study group](#org4e4d18e)
-    - [topics](#org3b80810)
-  - [announcements](#org1ff12ce)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org15160b5)
-    - [June 21-25: tprc: perl/raku conference](#orgf838603)
+- [meeting notes June 05, 2022](#org1688711)
+  - [the raku study group](#orgaa7b599)
+    - [topics](#org03905d8)
+  - [announcements](#orgdea01ef)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org3ede9be)
+    - [June 21-25: tprc: perl/raku conference](#org682991e)
 
 
-<a id="orgc93e0ea"></a>
+<a id="org1688711"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org4e4d18e"></a>
+<a id="orgaa7b599"></a>
 
 ## the raku study group
 
@@ -26,15 +26,17 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org3b80810"></a>
+<a id="org03905d8"></a>
 
 ### topics
 
 1.  perl 5.36 is out, showing some nice progress
 
-    1.  the psc has clarified they're committed to backwards compatibility (within reason)
+    1.  e.g. has basic sub sigs, no longer "experimental"
     
-    2.  no published criteria for when they'll declare "Perl 7"
+    2.  the psc has clarified they're committed to backwards compatibility (within reason)
+    
+    3.  no published criteria for when they'll declare "Perl 7"
     
         1.  I'm pretty sure it's waiting on Corina
         
@@ -87,17 +89,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org1ff12ce"></a>
+<a id="orgdea01ef"></a>
 
 ## announcements
 
 
-<a id="org15160b5"></a>
+<a id="org3ede9be"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="orgf838603"></a>
+<a id="org682991e"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
