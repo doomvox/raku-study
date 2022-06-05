@@ -7,11 +7,11 @@ use v6;
 my $tmp = "$HOME/tmp";
 say so $tmp.IO.d;
 
-chdir();
+# chdir();
 
-my $dir = "head";
+# my $dir = "head";
 
-$dir.IO.mkdir;
+# $dir.IO.mkdir;
 
 
 # ===
