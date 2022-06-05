@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#orgd90d9a8)
-  - [the raku study group](#org493a068)
-    - [topics](#orga5adb01)
-  - [announcements](#orgf5f3b98)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgbcb9acf)
-    - [June 21-25: tprc: perl/raku conference](#org147d452)
+- [meeting notes June 05, 2022](#org2114137)
+  - [the raku study group](#org268db82)
+    - [topics](#orgee5f176)
+  - [announcements](#org9cab6ee)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgada2cda)
+    - [June 21-25: tprc: perl/raku conference](#org346c3fc)
 
 
-<a id="orgd90d9a8"></a>
+<a id="org2114137"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org493a068"></a>
+<a id="org268db82"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="orga5adb01"></a>
+<a id="orgee5f176"></a>
 
 ### topics
 
@@ -50,18 +50,22 @@
         
             1.  <https://raku-musings.com/doubly-scalable.html>
 
+3.  jonathan worthington on cro memory usage
 
-<a id="orgf5f3b98"></a>
+    1.  <https://stackoverflow.com/questions/72180995/understanding-cro-request-response-cycle-and-memory-use>
+
+
+<a id="org9cab6ee"></a>
 
 ## announcements
 
 
-<a id="orgbcb9acf"></a>
+<a id="orgada2cda"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org147d452"></a>
+<a id="org346c3fc"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
