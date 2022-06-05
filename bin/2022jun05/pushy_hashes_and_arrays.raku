@@ -12,6 +12,6 @@ my @b = <d e f>;
 
 say @a;
 
-say @a.elems;               # OUTPUT: «4␤» 
-say @a[3].join;             # OUTPUT: «def␤»
+# say @a.elems;               # OUTPUT: «4␤» 
+# say @a[3].join;             # OUTPUT: «def␤»
 
