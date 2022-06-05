@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#org7b8936b)
-  - [the raku study group](#org883893c)
-    - [topics](#org52d5667)
-  - [announcements](#orgde47b69)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org91b6dca)
-    - [June 21-25: tprc: perl/raku conference](#org8c58124)
+- [meeting notes June 05, 2022](#org6f4e8d1)
+  - [the raku study group](#org5762672)
+    - [topics](#orgc7f2480)
+  - [announcements](#org3053776)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org3230326)
+    - [June 21-25: tprc: perl/raku conference](#orgbf1ad7d)
 
 
-<a id="org7b8936b"></a>
+<a id="org6f4e8d1"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org883893c"></a>
+<a id="org5762672"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org52d5667"></a>
+<a id="orgc7f2480"></a>
 
 ### topics
 
@@ -92,7 +92,7 @@
     
     3.  .list and .List
     
-        1.  if you write your own .List does .list see it? A: no, list still works as always
+        1.  if you write your own .List does .list see it? A: no, .list still works as always
     
     4.  operators
     
@@ -127,17 +127,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgde47b69"></a>
+<a id="org3053776"></a>
 
 ## announcements
 
 
-<a id="org91b6dca"></a>
+<a id="org3230326"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org8c58124"></a>
+<a id="orgbf1ad7d"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

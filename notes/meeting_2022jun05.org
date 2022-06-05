@@ -43,7 +43,7 @@ https://docs.raku.org/language/testing
 ***** equivalent of perl's optional export/imports
 ****** gtk3
 ***** .list and .List
-****** if you write your own .List does .list see it? A: no, list still works as always
+****** if you write your own .List does .list see it? A: no, .list still works as always
 ***** operators
 ****** operators are functions
 ****** can you easily define a recursive operator
