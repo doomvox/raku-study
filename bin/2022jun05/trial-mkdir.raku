@@ -27,8 +27,6 @@ say $*CWD; # "/home/doom/tmp".IO
 
 # chdir();
 
-
-
 # my $dir = "head";
 
 # $dir.IO.mkdir;
