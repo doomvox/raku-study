@@ -154,7 +154,7 @@ use v6;
     say $l;  # (a b c)
 
     my Less $m;
-    $m = ('a', 'b', 'c');
+    $m = ('a', 'b', 'c').Less;
     say $m;
 
 
