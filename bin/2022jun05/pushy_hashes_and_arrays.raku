@@ -44,6 +44,5 @@ use v6;
 
 
 
-# say @a.elems;               # OUTPUT: «4␤» 
-# say @a[3].join;             # OUTPUT: «def␤»
+
 
