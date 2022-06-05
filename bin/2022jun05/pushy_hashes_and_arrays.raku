@@ -5,6 +5,7 @@
 use v6;
 
 
+## Starting with an example in the docs:
 my @a = <a b c>;
 my @b = <d e f>;
 @a.push: @b;
