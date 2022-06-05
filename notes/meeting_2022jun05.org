@@ -7,6 +7,12 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2022may22
 
 *** topics
+**** perl 5.36 is out, showing some nice progress
+***** the psc has clarified they're committed to backwards compatibility (within reason)
+***** no published criteria for when they'll declare "Perl 7"
+****** I'm pretty sure it's waiting on Corina
+****** (ovid's guess is that could be a few years)
+
 **** continuing adventures with move/copy/rename
 **** recent weekly challenges that weren't number theory trivia for once
 ***** Task 1: Hexadecimal Words; Task 2: K-Directory Diff
@@ -21,6 +27,8 @@
 ***** https://stackoverflow.com/questions/72180995/understanding-cro-request-response-cycle-and-memory-use
 **** jonathan worthington on operator precedence, = vs ,
 ***** https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence
+
+
 
 ** announcements 
 *** June 19th: next raku study group meeting (just a few days before...)
