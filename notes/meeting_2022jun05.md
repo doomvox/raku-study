@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#org678daa6)
-  - [the raku study group](#org710b609)
-    - [topics](#org83863c4)
-  - [announcements](#org58ecce2)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org23a782c)
-    - [June 21-25: tprc: perl/raku conference](#orgbf65ec3)
+- [meeting notes June 05, 2022](#org9bea7fe)
+  - [the raku study group](#orgda2c7b9)
+    - [topics](#org45d737b)
+  - [announcements](#org4d5a53c)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org85ae9bc)
+    - [June 21-25: tprc: perl/raku conference](#org181e224)
 
 
-<a id="org678daa6"></a>
+<a id="org9bea7fe"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org710b609"></a>
+<a id="orgda2c7b9"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org83863c4"></a>
+<a id="org45d737b"></a>
 
 ### topics
 
@@ -72,7 +72,13 @@
 
 3.  my intro to raku spiels need work: hyperoperators, junctions, etc.
 
-4.  recent weekly challenges that weren't number theory trivia for once
+4.  rob ransbottom topics
+
+    1.  bug in raku?
+    
+    2.  equivalent of perl's optional export/imports
+
+5.  recent weekly challenges that weren't number theory trivia for once
 
     1.  Task 1: Hexadecimal Words; Task 2: K-Directory Diff
     
@@ -90,26 +96,26 @@
         
             1.  <https://raku-musings.com/doubly-scalable.html>
 
-5.  jonathan worthington on cro memory usage
+6.  jonathan worthington on cro memory usage
 
     1.  <https://stackoverflow.com/questions/72180995/understanding-cro-request-response-cycle-and-memory-use>
 
-6.  jonathan worthington on operator precedence, = vs ,
+7.  jonathan worthington on operator precedence, = vs ,
 
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org58ecce2"></a>
+<a id="org4d5a53c"></a>
 
 ## announcements
 
 
-<a id="org23a782c"></a>
+<a id="org85ae9bc"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="orgbf65ec3"></a>
+<a id="org181e224"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
