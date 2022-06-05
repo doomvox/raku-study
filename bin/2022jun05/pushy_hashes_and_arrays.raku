@@ -65,7 +65,7 @@ use v6;
     my @d = <whatever>;
 
     @d.append: @c;
-    say @a; # [a b c Z X W]
+    say @d; # [a b c Z X W]
 }
 
 
