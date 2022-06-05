@@ -27,9 +27,9 @@ say $*CWD; # "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun05".IO
 $*CWD = $tmp.IO;
 say $*CWD; # "/home/doom/tmp".IO
 
-my $dir = "ticks";
+my $dir = "ticks";  # path relative to current directory
 $dir.IO.mkdir;
-say so $dir.IO.d;
+say so $dir.IO.d; # True
 
 
 ## This has the system temporary directory?  Cool.
