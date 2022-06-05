@@ -34,6 +34,11 @@ say $*CWD; # "/home/doom/tmp".IO
 # $dir.IO.mkdir;
 
 
+## This has the system temporary directory?  Cool.
+say $*TMPDIR; # "/tmp".IO
+
+
+
 # ===
 # Author:  doom@kzsu.stanford.edu
 
