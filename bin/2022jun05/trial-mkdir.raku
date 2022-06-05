@@ -4,9 +4,16 @@
 
 use v6;
 
-chdir("$HOME/tmp");
+my $tmp = "$HOME/tmp";
+say so $tmp.IO.d;
+
+chdir();
 
 my $dir = "head";
+
+$dir.IO.mkdir;
+
+
 # ===
 # Author:  doom@kzsu.stanford.edu
 
