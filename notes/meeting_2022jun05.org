@@ -23,7 +23,7 @@
 ***** some basics
 ****** https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku
 
-**** my intro to raku spiels need work: hyperoperators, junctions...
+**** my intro to raku spiels need work: hyperoperators, junctions, etc.
 
 **** recent weekly challenges that weren't number theory trivia for once
 ***** Task 1: Hexadecimal Words; Task 2: K-Directory Diff

@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#orgd96ca9a)
-  - [the raku study group](#orgd94a703)
-    - [topics](#org90f2712)
-  - [announcements](#orgdc29c7e)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org107ca9c)
-    - [June 21-25: tprc: perl/raku conference](#orgca353aa)
+- [meeting notes June 05, 2022](#orgc93e0ea)
+  - [the raku study group](#org4e4d18e)
+    - [topics](#org3b80810)
+  - [announcements](#org1ff12ce)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org15160b5)
+    - [June 21-25: tprc: perl/raku conference](#orgf838603)
 
 
-<a id="orgd96ca9a"></a>
+<a id="orgc93e0ea"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgd94a703"></a>
+<a id="org4e4d18e"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org90f2712"></a>
+<a id="org3b80810"></a>
 
 ### topics
 
@@ -58,7 +58,7 @@
     
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
-3.  my intro to raku spiels need work: hyperoperators, junctions&#x2026;
+3.  my intro to raku spiels need work: hyperoperators, junctions, etc.
 
 4.  recent weekly challenges that weren't number theory trivia for once
 
@@ -87,17 +87,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgdc29c7e"></a>
+<a id="org1ff12ce"></a>
 
 ## announcements
 
 
-<a id="org107ca9c"></a>
+<a id="org15160b5"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="orgca353aa"></a>
+<a id="orgf838603"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
