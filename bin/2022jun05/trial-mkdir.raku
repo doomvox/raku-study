@@ -6,7 +6,7 @@ use v6;
 
 my $HOME = %*ENV{'HOME'};
 
-my $tmp = "$HOME/tmp";
+my $tmp = "$HOME/tmp";  # I always have one of these
 say so $tmp.IO.d;
 
 # chdir();
