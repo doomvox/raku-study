@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#org87df426)
-  - [the raku study group](#orgf20f053)
-    - [topics](#orgb132727)
-  - [announcements](#org23e6d2b)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgddfa1b4)
-    - [June 21-25: tprc: perl/raku conference](#org1c02155)
+- [meeting notes June 05, 2022](#org678daa6)
+  - [the raku study group](#org710b609)
+    - [topics](#org83863c4)
+  - [announcements](#org58ecce2)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org23a782c)
+    - [June 21-25: tprc: perl/raku conference](#orgbf65ec3)
 
 
-<a id="org87df426"></a>
+<a id="org678daa6"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgf20f053"></a>
+<a id="org710b609"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="orgb132727"></a>
+<a id="org83863c4"></a>
 
 ### topics
 
@@ -61,6 +61,10 @@
     3.  how can you resolve that contradiction?
     
         1.  try this: roast test uses temp files in current directory
+        
+            1.  /home/doom/End/Cave/Raku/Wall/darkroast/S32-io/rename.t
+            
+            2.  eventually: <https://github.com/doomvox/darkroast>
     
     4.  some basics
     
@@ -95,17 +99,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org23e6d2b"></a>
+<a id="org58ecce2"></a>
 
 ## announcements
 
 
-<a id="orgddfa1b4"></a>
+<a id="org23a782c"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org1c02155"></a>
+<a id="orgbf65ec3"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
