@@ -110,7 +110,7 @@ use v6;
      say @c;  #  [X Y Z [d e f [a b c]]]
 
      for |<< (4,7,8,(32,57,88)) {
-         say $_.raku;
+         say $_.raku;   # $(32, 57, 88)
      }
 
 
