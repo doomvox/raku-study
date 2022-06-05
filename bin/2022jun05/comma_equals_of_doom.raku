@@ -20,11 +20,14 @@ my %exp   =  a => 0, b => 1, c => 1, d => 0;
 }
 
 
+## Without | you get this error:
+##   Odd number of elements found where hash initializer expected:
+
 {  my %target = %model;
-   say %hoh<key>.WHAT; # (Hash)
-   say %hoh<key>.elems; 
+   say %hoh<key>.WHAT;  # (Hash)
+   say %hoh<key>.elems; # 2
 
    %target ,= | %hoh<key>;
    say %target; # {a => 0, b => 1, c => 1, d => 0}
 }
-## Odd number of elements found where hash initializer expected:
+
