@@ -61,8 +61,12 @@ use v6;
 
     @b.push: @a;
     @c.push: @b;
-    say @c;
+    say @c;             # [X Y Z [d e f [a b c]]]
     my @d = <whatever>;
+
+    # aside:
+    @a.push: @d;
+    say @a;
 
     @d.append: @c;
     say @d; # [a b c Z X W]
