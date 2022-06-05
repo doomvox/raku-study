@@ -53,15 +53,15 @@ use v6;
     @c.push: @b;
     say @c;        # [X Y Z [d e f [a b c]]]
 }
-# {
-#     my @a = <a b c>;
-#     my @b = <d e f>;
-#     my @c = <X Y Z>;
+{
+    my @a = <a b c>;
+    my @b = <d e f>;
+    my @c = <X Y Z>;
 
 
-#     @a.append: <Z X W>;    # append is like push, but does a flatten...
-#     say @a; # [a b c Z X W]
-# }
+    @a.append: <Z X W>;    # append is like push, but does a flatten...
+    say @a; # [a b c Z X W]
+}
 
 
 
