@@ -13,7 +13,7 @@ my %exp   =  a => 0, b => 1, c => 1, d => 0;
 
 {   my %target = %model;
 
-    say ${:b(1), :c(1)}.WHAT;
+    say ${:b(1), :c(1)}.WHAT; # (Hash)
 
     %target ,= ${:b(1), :c(1)}.Hash;
     say %target; # {a => 0, b => 1, c => 1, d => 0}
@@ -21,6 +21,8 @@ my %exp   =  a => 0, b => 1, c => 1, d => 0;
 
 
 {  my %target = %model;
+   say %hoh<key>.WHAT;
+
    %target ,= | %hoh<key>;
    say %target; # {a => 0, b => 1, c => 1, d => 0}
 }
