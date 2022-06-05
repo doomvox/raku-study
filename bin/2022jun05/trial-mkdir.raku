@@ -25,9 +25,11 @@ say $*CWD; # "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun05".IO
 $*CWD = $tmp.IO;
 say $*CWD; # "/home/doom/tmp".IO
 
+
+
 # chdir();
 
-# my $dir = "head";
+my $dir = "ticks";
 
 # $dir.IO.mkdir;
 
