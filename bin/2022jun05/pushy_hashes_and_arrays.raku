@@ -153,8 +153,8 @@ use v6;
     my $l = Less.new('a', 'b', 'c');
     say $l;  # (a b c)
 
-    say $l.List;
+    say $l.List; # forgetit
 
-
+    say $l.list; # 
 
 }
