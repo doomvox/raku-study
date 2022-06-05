@@ -22,7 +22,7 @@ say so $tmp.IO.d;       # True
 ## Has the system temporary directory?  Cool.
 say $*TMPDIR; # "/tmp".IO
 
-
+say $*SPEC.curdir;
 
 
 # chdir();
