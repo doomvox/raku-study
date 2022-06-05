@@ -42,6 +42,7 @@ https://docs.raku.org/language/testing
 
 ***** equivalent of perl's optional export/imports
 ****** gtk3
+****** some people actually create individual tags for every item they want to export
 
 ***** .list and .List
 ****** if you write your own .List does .list see it? A: no, .list still works as always

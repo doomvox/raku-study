@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#org65d0e93)
-  - [the raku study group](#orgc76a264)
-    - [topics](#orgf2f41d3)
-  - [announcements](#org6fab081)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orge053579)
-    - [June 21-25: tprc: perl/raku conference](#orgb85500f)
+- [meeting notes June 05, 2022](#org79466cf)
+  - [the raku study group](#orge7ce7b3)
+    - [topics](#org5faaf5b)
+  - [announcements](#org2b0f1db)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgc692ce0)
+    - [June 21-25: tprc: perl/raku conference](#orgc5fe669)
 
 
-<a id="org65d0e93"></a>
+<a id="org79466cf"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgc76a264"></a>
+<a id="orge7ce7b3"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="orgf2f41d3"></a>
+<a id="org5faaf5b"></a>
 
 ### topics
 
@@ -89,6 +89,8 @@
     2.  equivalent of perl's optional export/imports
     
         1.  gtk3
+        
+        2.  some people actually create individual tags for every item they want to export
     
     3.  .list and .List
     
@@ -127,17 +129,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org6fab081"></a>
+<a id="org2b0f1db"></a>
 
 ## announcements
 
 
-<a id="orge053579"></a>
+<a id="orgc692ce0"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="orgb85500f"></a>
+<a id="orgc5fe669"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
