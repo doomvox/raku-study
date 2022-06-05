@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#orge829809)
-  - [the raku study group](#org29fa243)
-    - [topics](#orgd578f19)
-  - [announcements](#orge52e126)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgf155ba9)
-    - [June 21-25: tprc: perl/raku conference](#orgc350751)
+- [meeting notes June 05, 2022](#orgf41faaf)
+  - [the raku study group](#orgf4c3eef)
+    - [topics](#orgefae1ba)
+  - [announcements](#org9914ff6)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgf50f097)
+    - [June 21-25: tprc: perl/raku conference](#orgc6743f7)
 
 
-<a id="orge829809"></a>
+<a id="orgf41faaf"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org29fa243"></a>
+<a id="orgf4c3eef"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="orgd578f19"></a>
+<a id="orgefae1ba"></a>
 
 ### topics
 
@@ -76,15 +76,19 @@
 
     1.  possible bug in raku
     
-    2.  equivalent of perl's optional export/imports
+    2.  has testing exceptions code
+    
+        <https://docs.raku.org/language/testing>
+    
+    3.  equivalent of perl's optional export/imports
     
         1.  gtk3
     
-    3.  .list and .List
+    4.  .list and .List
     
         1.  if you write your own .List does .list see it?
     
-    4.  operators
+    5.  operators
     
         1.  operators are functions
         
@@ -117,17 +121,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orge52e126"></a>
+<a id="org9914ff6"></a>
 
 ## announcements
 
 
-<a id="orgf155ba9"></a>
+<a id="orgf50f097"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="orgc350751"></a>
+<a id="orgc6743f7"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

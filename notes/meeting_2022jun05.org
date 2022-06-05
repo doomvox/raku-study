@@ -34,6 +34,11 @@
 
 **** rob ransbottom topics
 ***** possible bug in raku
+
+
+***** has testing exceptions code
+https://docs.raku.org/language/testing
+
 ***** equivalent of perl's optional export/imports
 ****** gtk3
 ***** .list and .List
