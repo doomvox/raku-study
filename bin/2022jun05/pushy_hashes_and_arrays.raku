@@ -49,7 +49,8 @@ use v6;
     my @b = <d e f>;
     my @c = <X Y Z>;
 
-    @a.push: @b;
+    @b.push: @a;
+    @c.push: @b;
 
 
     @a.append: <Z X W>;    # append is like push, but does a flatten...
