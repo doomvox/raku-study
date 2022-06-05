@@ -22,6 +22,8 @@ say so $tmp.IO.d;       # True
 say $*SPEC.curdir; # .
 
 say $*CWD; # "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun05".IO
+
+# Ah: you can change directories by assigning to $*CWD?
 $*CWD = $tmp.IO;
 say $*CWD; # "/home/doom/tmp".IO
 
