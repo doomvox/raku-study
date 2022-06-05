@@ -26,6 +26,7 @@ my %exp   =  a => 0, b => 1, c => 1, d => 0;
 {  my %target = %model;
    say %hoh<key>.WHAT;  # (Hash)
    say %hoh<key>.elems; # 2
+   %hoh<key>.kv.say;
 
    %target ,= | %hoh<key>;
    say %target; # {a => 0, b => 1, c => 1, d => 0}
