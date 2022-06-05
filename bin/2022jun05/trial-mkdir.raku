@@ -18,7 +18,6 @@ say so $tmp.IO.d;       # True
 
 # WTF?
 
-
 ## Thid has the system temporary directory?  Cool.
 say $*TMPDIR; # "/tmp".IO
 
