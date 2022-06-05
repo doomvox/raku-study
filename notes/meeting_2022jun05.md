@@ -1,34 +1,34 @@
-- [meeting notes June 05, 2022](#orgfec12ed)
-  - [the raku study group](#orgd0655c4)
-  - [announcements](#org2383d86)
-    - [June 5th: next raku study group meeting](#orge813957)
-    - [June 21-25: tprc: perl/raku conference](#orge2f48e4)
-  - [some excerpts from the last meeting notes May 22, 2022](#org19c9171)
-    - [the raku study group](#org46c4b2c)
-    - [topics](#org7e19d9e)
+- [meeting notes June 05, 2022](#orgccf802e)
+  - [the raku study group](#orgef2b251)
+  - [announcements](#org5b210cf)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org27aa27c)
+    - [June 21-25: tprc: perl/raku conference](#org3d6aec5)
+  - [some excerpts from the last meeting notes May 22, 2022](#org9bf5c76)
+    - [the raku study group](#orgd9f9568)
+    - [topics](#org83889c6)
 
 
-<a id="orgfec12ed"></a>
+<a id="orgccf802e"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgd0655c4"></a>
+<a id="orgef2b251"></a>
 
 ## the raku study group
 
 
-<a id="org2383d86"></a>
+<a id="org5b210cf"></a>
 
 ## announcements
 
 
-<a id="orge813957"></a>
+<a id="org27aa27c"></a>
 
-### June 5th: next raku study group meeting
+### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="orge2f48e4"></a>
+<a id="org3d6aec5"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
@@ -39,12 +39,12 @@
     2.  <https://tprc2022.sched.com/overview/type/Raku+Track>
 
 
-<a id="org19c9171"></a>
+<a id="org9bf5c76"></a>
 
 ## some excerpts from the last meeting notes May 22, 2022
 
 
-<a id="org46c4b2c"></a>
+<a id="orgd9f9568"></a>
 
 ### the raku study group
 
@@ -59,7 +59,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org7e19d9e"></a>
+<a id="org83889c6"></a>
 
 ### topics
 
