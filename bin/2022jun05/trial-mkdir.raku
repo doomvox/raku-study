@@ -4,6 +4,8 @@
 
 use v6;
 
+chdir("$HOME/tmp");
+
 my $dir = "head";
 
 
