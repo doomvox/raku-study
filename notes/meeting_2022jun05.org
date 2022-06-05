@@ -33,7 +33,7 @@
 **** my intro to raku spiels need work: hyperoperators, junctions, etc.
 
 **** rob ransbottom topics
-***** bug in raku?
+***** possible bug in raku
 ***** equivalent of perl's optional export/imports
 ***** .list and .List
 ****** if you write your own .List does .list see it?

@@ -1,17 +1,17 @@
-- [meeting notes June 05, 2022](#org5f4bbf1)
-  - [the raku study group](#orgb57d27a)
-    - [topics](#org4aa0c8f)
-  - [announcements](#orgdc5c49f)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgc8f2411)
-    - [June 21-25: tprc: perl/raku conference](#org2ca6521)
+- [meeting notes June 05, 2022](#orgf1776a7)
+  - [the raku study group](#org1bd4d54)
+    - [topics](#org8763943)
+  - [announcements](#orgf84e8c9)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org33b1cb8)
+    - [June 21-25: tprc: perl/raku conference](#org3393939)
 
 
-<a id="org5f4bbf1"></a>
+<a id="orgf1776a7"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgb57d27a"></a>
+<a id="org1bd4d54"></a>
 
 ## the raku study group
 
@@ -26,7 +26,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org4aa0c8f"></a>
+<a id="org8763943"></a>
 
 ### topics
 
@@ -74,7 +74,7 @@
 
 4.  rob ransbottom topics
 
-    1.  bug in raku?
+    1.  possible bug in raku
     
     2.  equivalent of perl's optional export/imports
     
@@ -109,17 +109,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgdc5c49f"></a>
+<a id="orgf84e8c9"></a>
 
 ## announcements
 
 
-<a id="orgc8f2411"></a>
+<a id="org33b1cb8"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org2ca6521"></a>
+<a id="org3393939"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
