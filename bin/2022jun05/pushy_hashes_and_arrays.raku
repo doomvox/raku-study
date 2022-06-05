@@ -10,6 +10,7 @@ my @a = <a b c>;
 my @b = <d e f>;
 @a.push: @b;
 
+say @a;
 
 say @a.elems;               # OUTPUT: «4␤» 
 say @a[3].join;             # OUTPUT: «def␤»
