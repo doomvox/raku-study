@@ -20,7 +20,6 @@ to handling modules with circular dependencies in perl5
 
 =cut
 
-currently uses:
      6  package Dpchrist::Lib5::Test;
      7 
      8 
