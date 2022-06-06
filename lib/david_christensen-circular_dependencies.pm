@@ -38,19 +38,25 @@ to handling modules with circular dependencies in perl5
 
 The key points are:
 
-o Put the Exporter-related statements (lines 14-25) near the top of the module, before other code.
+=over
 
-o Statement ordering is important:
+=item Put the Exporter-related statements (lines 14-25) near the top of the module, before other code.
 
-  o First -- declare @EXPORT_OK, but do not define/ initialize it (line 14).
+=item Statement ordering is important:
 
-  o Next -- define/ initialize @EXPORT_OK in a BEGIN block (lines 16-20).
+=over
 
-  o Finally -- 'use parent' to inherit from Exporter (lines 22, 23, and 25).
+  =item First -- declare @EXPORT_OK, but do not define/ initialize it (line 14).
 
-o The above module also happens to inherit from Test::Builder::Module. My other modules do not need or have line 24.
+  =item Next -- define/ initialize @EXPORT_OK in a BEGIN block (lines 16-20).
 
-o As I develop code and introduce bugs, I frequently see warnings to the effect "subroutine redefined" when there is a circular loop between modules.  Once I fix the bugs, those warnings go away.
+  =item Finally -- 'use parent' to inherit from Exporter (lines 22, 23, and 25).
+
+=back
+
+=item The above module also happens to inherit from Test::Builder::Module. My other modules do not need or have line 24.
+
+=item As I develop code and introduce bugs, I frequently see warnings to the effect "subroutine redefined" when there is a circular loop between modules.  Once I fix the bugs, those warnings go away.
 
 ******** Without understanding the "how" and "why" of perl(1), Exporter, "compile time", "run time", "require", "use", "parent", "import", etc. -- of the several solutions myself and others have tried over time, this one seems to work the best for me.
 
