@@ -14,29 +14,32 @@ to handling modules with circular dependencies in perl5
 
 =cut
 
-     6  package Dpchrist::Lib5::Test;
-     7 
-     8 
-     9  use strict;
-    10  use warnings;
-    11  use threads;
-    12  use threads::shared;
-    13 
-    14  our @EXPORT_OK;
-    15 
-    16  BEGIN {
-    17      @EXPORT_OK =        qw(
-    18                              is_poly
-    19                          );
-    20  }
-    21 
-    22  use parent              qw(
-    23                              Exporter
-    24                              Test::Builder::Module
-    25                          );
+package Dpchrist::Lib5::Test;              #      6  
+#     7 
+#     8 
+use strict;              #      9  
+use warnings;              #     10  
+use threads;              #     11  
+use threads::shared;              #     12  
+# 13 
 
+our @EXPORT_OK;              #     14  
+    
+#    15 
+BEGIN {              #     16  
+EXPORT_OK =        qw(              #     17      
+                       is_poly              #     18                  
+                    );              #     19                          
+}             # 20
+# 21    
+ use parent              qw(              #     22
+                             Exporter              #     23                              
+                             Test::Builder::Module              #     24                              
+                          ); #     25
 
-=head2 commentary
+=head2 commentary              
+
+=
 
 The key points are:
 
