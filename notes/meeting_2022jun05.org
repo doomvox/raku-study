@@ -78,22 +78,21 @@ https://docs.raku.org/language/testing
 
 The key points are:
 
-* Put the Exporter-related statements (lines 14-25) near the top of the module, before other code.
+o Put the Exporter-related statements (lines 14-25) near the top of the module, before other code.
 
-* Statement ordering is important:
+o Statement ordering is important:
 
-  * First -- declare @EXPORT_OK, but do not define/ initialize it (line 14).
+  o First -- declare @EXPORT_OK, but do not define/ initialize it (line 14).
 
-  * Next -- define/ initialize @EXPORT_OK in a BEGIN block (lines 16-20).
+  o Next -- define/ initialize @EXPORT_OK in a BEGIN block (lines 16-20).
 
-  * Finally -- 'use parent' to inherit from Exporter (lines 22, 23, and 25).
+  o Finally -- 'use parent' to inherit from Exporter (lines 22, 23, and 25).
 
-* The above module also happens to inherit from Test::Builder::Module. My other modules do not need or have line 24.
+o The above module also happens to inherit from Test::Builder::Module. My other modules do not need or have line 24.
 
-* As I develop code and introduce bugs, I frequently see warnings to the effect "subroutine redefined" when there is a circular loop between modules.  Once I fix the bugs, those warnings go away.
+o As I develop code and introduce bugs, I frequently see warnings to the effect "subroutine redefined" when there is a circular loop between modules.  Once I fix the bugs, those warnings go away.
 
-
-Without understanding the "how" and "why" of perl(1), Exporter, "compile time", "run time", "require", "use", "parent", "import", etc. -- of the several solutions myself and others have tried over time, this one seems to work the best for me.
+****** Without understanding the "how" and "why" of perl(1), Exporter, "compile time", "run time", "require", "use", "parent", "import", etc. -- of the several solutions myself and others have tried over time, this one seems to work the best for me.
 
 
 *** save for next time
