@@ -36,7 +36,7 @@ to handling modules with circular dependencies in perl5
     25                          );
 
 
-=pod
+=head2 commentary
 
 The key points are:
 
