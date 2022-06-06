@@ -50,6 +50,9 @@ https://docs.raku.org/language/testing
 ****** operators are functions
 ****** can you easily define a recursive operator
 
+
+*** save for next time
+
 **** recent weekly challenges that weren't number theory trivia for once
 ***** Task 1: Hexadecimal Words; Task 2: K-Directory Diff
 ****** https://theweeklychallenge.org/blog/perl-weekly-challenge-166/
