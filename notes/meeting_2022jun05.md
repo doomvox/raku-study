@@ -1,18 +1,18 @@
-- [meeting notes June 05, 2022](#org317563d)
-  - [the raku study group](#org9ef11f6)
-    - [topics](#orgb19c863)
-    - [save for next time](#org890929a)
-  - [announcements](#org66aea07)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org9ed88af)
-    - [June 21-25: tprc: perl/raku conference](#org82702db)
+- [meeting notes June 05, 2022](#org78d9795)
+  - [the raku study group](#org5c5b37f)
+    - [topics](#orgfe0187b)
+    - [save for next time](#org659f573)
+  - [announcements](#org739e882)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orge4916bb)
+    - [June 21-25: tprc: perl/raku conference](#orgcc2f988)
 
 
-<a id="org317563d"></a>
+<a id="org78d9795"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org9ef11f6"></a>
+<a id="org5c5b37f"></a>
 
 ## the raku study group
 
@@ -27,7 +27,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="orgb19c863"></a>
+<a id="orgfe0187b"></a>
 
 ### topics
 
@@ -103,30 +103,12 @@
     
     5.  David Christensen on perl5 modules with circular dependencies
     
-        1.  currently uses:
+        1.  <https://github.com/doomvox/raku-study/tree/main/lib/david_christensen-circular_dependencies.pm>
         
-            6 package Dpchrist::Lib5::Test; 7 8 9 use strict; 10 use warnings; 11 use threads; 12 use threads::shared; 13 14 our @EXPORT<sub>OK</sub>; 15 16 BEGIN { 17 @EXPORT<sub>OK</sub> = qw( 18 is<sub>poly</sub> 19 ); 20 } 21 22 use parent qw( 23 Exporter 24 Test::Builder::Module 25 );
-            
-            The key points are:
-            
-            o Put the Exporter-related statements (lines 14-25) near the top of the module, before other code.
-            
-            o Statement ordering is important:
-            
-            o First &#x2013; declare @EXPORT<sub>OK</sub>, but do not define/ initialize it (line 14).
-            
-            o Next &#x2013; define/ initialize @EXPORT<sub>OK</sub> in a BEGIN block (lines 16-20).
-            
-            o Finally &#x2013; 'use parent' to inherit from Exporter (lines 22, 23, and 25).
-            
-            o The above module also happens to inherit from Test::Builder::Module. My other modules do not need or have line 24.
-            
-            o As I develop code and introduce bugs, I frequently see warnings to the effect "subroutine redefined" when there is a circular loop between modules. Once I fix the bugs, those warnings go away.
-            
-            1.  Without understanding the "how" and "why" of perl(1), Exporter, "compile time", "run time", "require", "use", "parent", "import", etc. &#x2013; of the several solutions myself and others have tried over time, this one seems to work the best for me.
+        2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/lib/david<sub>christensen</sub>-circular<sub>dependencies.pm</sub>
 
 
-<a id="org890929a"></a>
+<a id="org659f573"></a>
 
 ### save for next time
 
@@ -157,17 +139,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org66aea07"></a>
+<a id="org739e882"></a>
 
 ## announcements
 
 
-<a id="org9ed88af"></a>
+<a id="orge4916bb"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org82702db"></a>
+<a id="orgcc2f988"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

@@ -52,48 +52,8 @@ https://docs.raku.org/language/testing
 
 
 ***** David Christensen on perl5 modules with circular dependencies
-
-****** currently uses:
-     6  package Dpchrist::Lib5::Test;
-     7 
-     8 
-     9  use strict;
-    10  use warnings;
-    11  use threads;
-    12  use threads::shared;
-    13 
-    14  our @EXPORT_OK;
-    15 
-    16  BEGIN {
-    17      @EXPORT_OK =        qw(
-    18                              is_poly
-    19                          );
-    20  }
-    21 
-    22  use parent              qw(
-    23                              Exporter
-    24                              Test::Builder::Module
-    25                          );
-
-
-The key points are:
-
-o Put the Exporter-related statements (lines 14-25) near the top of the module, before other code.
-
-o Statement ordering is important:
-
-  o First -- declare @EXPORT_OK, but do not define/ initialize it (line 14).
-
-  o Next -- define/ initialize @EXPORT_OK in a BEGIN block (lines 16-20).
-
-  o Finally -- 'use parent' to inherit from Exporter (lines 22, 23, and 25).
-
-o The above module also happens to inherit from Test::Builder::Module. My other modules do not need or have line 24.
-
-o As I develop code and introduce bugs, I frequently see warnings to the effect "subroutine redefined" when there is a circular loop between modules.  Once I fix the bugs, those warnings go away.
-
-******** Without understanding the "how" and "why" of perl(1), Exporter, "compile time", "run time", "require", "use", "parent", "import", etc. -- of the several solutions myself and others have tried over time, this one seems to work the best for me.
-
+****** https://github.com/doomvox/raku-study/tree/main/lib/david_christensen-circular_dependencies.pm
+****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/lib/david_christensen-circular_dependencies.pm
 
 *** save for next time
 
