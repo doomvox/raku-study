@@ -75,14 +75,3 @@ https://docs.raku.org/language/testing
 **** 4 hours of Bruce Gray: talk + 3hr tutorial
 ***** https://tprc2022.sched.com/event/ylEK/command-line-filters-time-to-shine
 ***** https://tprc2022.sched.com/overview/type/Raku+Track
-
-
-
-
-
-
-
-
-
-
-
