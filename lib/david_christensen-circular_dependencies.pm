@@ -14,28 +14,28 @@ to handling modules with circular dependencies in perl5
 
 =cut
 
-package Dpchrist::Lib5::Test;              #      6  
-#     7 
-#     8 
-use strict;              #      9  
-use warnings;              #     10  
-use threads;              #     11  
-use threads::shared;              #     12  
-# 13 
+package Dpchrist::Lib5::Test;                     #      6  
+                                                  #     7 
+                                                  #     8 
+use strict;                                       #      9  
+use warnings;                                     #     10  
+use threads;                                      #     11  
+use threads::shared;                              #     12  
+                                                  # 13 
 
-our @EXPORT_OK;              #     14  
+our @EXPORT_OK;                                   #     14  
     
-#    15 
-BEGIN {              #     16  
-EXPORT_OK =        qw(              #     17      
-                       is_poly              #     18                  
-                    );              #     19                          
-}             # 20
-# 21    
- use parent              qw(              #     22
-                             Exporter              #     23                              
-                             Test::Builder::Module              #     24                              
-                          ); #     25
+                                                  #    15 
+BEGIN {                                           #     16  
+  EXPORT_OK =        qw(                          #     17      
+                         is_poly                  #     18                  
+                      );                          #     19                          
+}                                                 # 20
+                                                  # 21    
+use parent              qw(                       #     22
+                            Exporter              #     23                              
+                            Test::Builder::Module #     24                              
+                         );                       #     25
 
 
 =head2 commentary              
