@@ -12,12 +12,6 @@ david_christensen-circular_dependencies - TODO Perl extension for blah blah blah
 Sketching out David Christensen's current approach 
 to handling modules with circular dependencies in perl5
 
-
-
-
-
-=over
-
 =cut
 
      6  package Dpchrist::Lib5::Test;
