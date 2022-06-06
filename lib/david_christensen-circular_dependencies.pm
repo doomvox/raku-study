@@ -42,9 +42,13 @@ The key points are:
 
 =over
 
-=item Put the Exporter-related statements (lines 14-25) near the top of the module, before other code.
+=item * 
 
-=item Statement ordering is important:
+Put the Exporter-related statements (lines 14-25) near the top of the module, before other code.
+
+=item * 
+
+Statement ordering is important:
 
 =over
 
