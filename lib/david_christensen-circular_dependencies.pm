@@ -1,7 +1,4 @@
 package david_christensen-circular_dependencies;
-#                                doom@kzsu.stanford.edu
-#                                06 Jun 2022
-
 
 =head1 NAME
 
