@@ -1,18 +1,22 @@
-- [meeting notes June 05, 2022](#orgb30a0bb)
-  - [the raku study group](#org975b653)
-    - [topics](#org19e5f04)
-    - [save for next time](#org682c6ce)
-  - [announcements](#org1cdeff4)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org85ac13a)
-    - [June 21-25: tprc: perl/raku conference](#orgae22098)
+- [meeting notes June 05, 2022](#org9eb1723)
+  - [the raku study group](#org208c301)
+    - [topics](#orga31cb7f)
+- [Put the Exporter-related statements (lines 14-25) near the top of the module, before other code.](#org0688d93)
+- [Statement ordering is important:](#orgc6955c7)
+- [The above module also happens to inherit from Test::Builder::Module. My other modules do not need or have line 24.](#org9c32a30)
+- [As I develop code and introduce bugs, I frequently see warnings to the effect "subroutine redefined" when there is a circular loop between modules.  Once I fix the bugs, those warnings go away.](#orgd082add)
+    - [save for next time](#org81fc683)
+  - [announcements](#orgc88513c)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org82754a5)
+    - [June 21-25: tprc: perl/raku conference](#orgd8b39be)
 
 
-<a id="orgb30a0bb"></a>
+<a id="org9eb1723"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org975b653"></a>
+<a id="org208c301"></a>
 
 ## the raku study group
 
@@ -27,7 +31,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org19e5f04"></a>
+<a id="orga31cb7f"></a>
 
 ### topics
 
@@ -100,9 +104,45 @@
         1.  operators are functions
         
         2.  can you easily define a recursive operator
+    
+    5.  david christensen on perl5 modules with circular dependencies
+    
+        1.  currently uses:
+        
+            6 package Dpchrist::Lib5::Test; 7 8 9 use strict; 10 use warnings; 11 use threads; 12 use threads::shared; 13 14 our @EXPORT<sub>OK</sub>; 15 16 BEGIN { 17 @EXPORT<sub>OK</sub> = qw( 18 is<sub>poly</sub> 19 ); 20 } 21 22 use parent qw( 23 Exporter 24 Test::Builder::Module 25 );
+            
+            The key points are:
 
 
-<a id="org682c6ce"></a>
+<a id="org0688d93"></a>
+
+# Put the Exporter-related statements (lines 14-25) near the top of the module, before other code.
+
+
+<a id="orgc6955c7"></a>
+
+# Statement ordering is important:
+
+-   First &#x2013; declare @EXPORT<sub>OK</sub>, but do not define/ initialize it (line 14).
+
+-   Next &#x2013; define/ initialize @EXPORT<sub>OK</sub> in a BEGIN block (lines 16-20).
+
+-   Finally &#x2013; 'use parent' to inherit from Exporter (lines 22, 23, and 25).
+
+
+<a id="org9c32a30"></a>
+
+# The above module also happens to inherit from Test::Builder::Module. My other modules do not need or have line 24.
+
+
+<a id="orgd082add"></a>
+
+# As I develop code and introduce bugs, I frequently see warnings to the effect "subroutine redefined" when there is a circular loop between modules.  Once I fix the bugs, those warnings go away.
+
+Without understanding the "how" and "why" of perl(1), Exporter, "compile time", "run time", "require", "use", "parent", "import", etc. &#x2013; of the several solutions myself and others have tried over time, this one seems to work the best for me.
+
+
+<a id="org81fc683"></a>
 
 ### save for next time
 
@@ -133,17 +173,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org1cdeff4"></a>
+<a id="orgc88513c"></a>
 
 ## announcements
 
 
-<a id="org85ac13a"></a>
+<a id="org82754a5"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="orgae22098"></a>
+<a id="orgd8b39be"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
