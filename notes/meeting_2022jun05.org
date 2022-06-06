@@ -51,7 +51,7 @@ https://docs.raku.org/language/testing
 ****** can you easily define a recursive operator
 
 
-***** david christensen on perl5 modules with circular dependencies
+***** David Christensen on perl5 modules with circular dependencies
 
 ****** currently uses:
      6  package Dpchrist::Lib5::Test;

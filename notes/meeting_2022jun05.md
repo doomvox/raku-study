@@ -1,18 +1,18 @@
-- [meeting notes June 05, 2022](#orgaa01c24)
-  - [the raku study group](#org5d3fabf)
-    - [topics](#org0981bf8)
-    - [save for next time](#org965680f)
-  - [announcements](#orgb48dc88)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orgb1dec55)
-    - [June 21-25: tprc: perl/raku conference](#org97bd74b)
+- [meeting notes June 05, 2022](#org317563d)
+  - [the raku study group](#org9ef11f6)
+    - [topics](#orgb19c863)
+    - [save for next time](#org890929a)
+  - [announcements](#org66aea07)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org9ed88af)
+    - [June 21-25: tprc: perl/raku conference](#org82702db)
 
 
-<a id="orgaa01c24"></a>
+<a id="org317563d"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="org5d3fabf"></a>
+<a id="org9ef11f6"></a>
 
 ## the raku study group
 
@@ -27,7 +27,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org0981bf8"></a>
+<a id="orgb19c863"></a>
 
 ### topics
 
@@ -101,7 +101,7 @@
         
         2.  can you easily define a recursive operator
     
-    5.  david christensen on perl5 modules with circular dependencies
+    5.  David Christensen on perl5 modules with circular dependencies
     
         1.  currently uses:
         
@@ -126,7 +126,7 @@
             1.  Without understanding the "how" and "why" of perl(1), Exporter, "compile time", "run time", "require", "use", "parent", "import", etc. &#x2013; of the several solutions myself and others have tried over time, this one seems to work the best for me.
 
 
-<a id="org965680f"></a>
+<a id="org890929a"></a>
 
 ### save for next time
 
@@ -157,17 +157,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgb48dc88"></a>
+<a id="org66aea07"></a>
 
 ## announcements
 
 
-<a id="orgb1dec55"></a>
+<a id="org9ed88af"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org97bd74b"></a>
+<a id="org82702db"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
