@@ -26,7 +26,7 @@
 ***** how can you resolve that contradiction? 
 ****** try this: roast test uses temp files in current directory
 ******* /home/doom/End/Cave/Raku/Wall/darkroast/S32-io/rename.t
-******* eventually: https://github.com/doomvox/darkroast
+******* eventually this will bt out: https://github.com/doomvox/darkroast
 ***** some basics
 ****** https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku
 

@@ -1,18 +1,18 @@
-- [meeting notes June 05, 2022](#org6c55246)
-  - [the raku study group](#orgf628c35)
-    - [topics](#org233f855)
-    - [save for next time](#org11b6ae0)
-  - [announcements](#org802a9b0)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#orge36d3ac)
-    - [June 21-25: tprc: perl/raku conference](#org91529a4)
+- [meeting notes June 05, 2022](#orgea8938f)
+  - [the raku study group](#orgcb135e8)
+    - [topics](#orgbbab7be)
+    - [save for next time](#orgd41b347)
+  - [announcements](#orga651187)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org337b541)
+    - [June 21-25: tprc: perl/raku conference](#org9bcb94b)
 
 
-<a id="org6c55246"></a>
+<a id="orgea8938f"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgf628c35"></a>
+<a id="orgcb135e8"></a>
 
 ## the raku study group
 
@@ -27,7 +27,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="org233f855"></a>
+<a id="orgbbab7be"></a>
 
 ### topics
 
@@ -65,7 +65,7 @@
         
             1.  /home/doom/End/Cave/Raku/Wall/darkroast/S32-io/rename.t
             
-            2.  eventually: <https://github.com/doomvox/darkroast>
+            2.  eventually this will bt out: <https://github.com/doomvox/darkroast>
     
     4.  some basics
     
@@ -102,7 +102,7 @@
         2.  can you easily define a recursive operator
 
 
-<a id="org11b6ae0"></a>
+<a id="orgd41b347"></a>
 
 ### save for next time
 
@@ -133,17 +133,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org802a9b0"></a>
+<a id="orga651187"></a>
 
 ## announcements
 
 
-<a id="orge36d3ac"></a>
+<a id="org337b541"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org91529a4"></a>
+<a id="org9bcb94b"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
