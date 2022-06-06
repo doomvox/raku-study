@@ -1,18 +1,18 @@
-- [meeting notes June 05, 2022](#orgea8938f)
-  - [the raku study group](#orgcb135e8)
-    - [topics](#orgbbab7be)
-    - [save for next time](#orgd41b347)
-  - [announcements](#orga651187)
-    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org337b541)
-    - [June 21-25: tprc: perl/raku conference](#org9bcb94b)
+- [meeting notes June 05, 2022](#orgb30a0bb)
+  - [the raku study group](#org975b653)
+    - [topics](#org19e5f04)
+    - [save for next time](#org682c6ce)
+  - [announcements](#org1cdeff4)
+    - [June 19th: next raku study group meeting (just a few days before&#x2026;)](#org85ac13a)
+    - [June 21-25: tprc: perl/raku conference](#orgae22098)
 
 
-<a id="orgea8938f"></a>
+<a id="orgb30a0bb"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgcb135e8"></a>
+<a id="org975b653"></a>
 
 ## the raku study group
 
@@ -27,7 +27,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022may22>
 
 
-<a id="orgbbab7be"></a>
+<a id="org19e5f04"></a>
 
 ### topics
 
@@ -102,7 +102,7 @@
         2.  can you easily define a recursive operator
 
 
-<a id="orgd41b347"></a>
+<a id="org682c6ce"></a>
 
 ### save for next time
 
@@ -133,17 +133,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orga651187"></a>
+<a id="org1cdeff4"></a>
 
 ## announcements
 
 
-<a id="org337b541"></a>
+<a id="org85ac13a"></a>
 
 ### June 19th: next raku study group meeting (just a few days before&#x2026;)
 
 
-<a id="org9bcb94b"></a>
+<a id="orgae22098"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
