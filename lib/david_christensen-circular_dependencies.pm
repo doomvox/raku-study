@@ -49,11 +49,16 @@ The key points are:
 =over
 
 =item *
-          First -- declare @EXPORT_OK, but do not define/ initialize it (line 14).
-=item * 
-          Next -- define/ initialize @EXPORT_OK in a BEGIN block (lines 16-20).
 
-=item *  Finally -- 'use parent' to inherit from Exporter (lines 22, 23, and 25).
+First -- declare @EXPORT_OK, but do not define/ initialize it (line 14).
+
+=item * 
+
+Next -- define/ initialize @EXPORT_OK in a BEGIN block (lines 16-20).
+
+=item *  
+
+Finally -- 'use parent' to inherit from Exporter (lines 22, 23, and 25).
 
 =back
 
