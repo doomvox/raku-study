@@ -56,9 +56,13 @@ The key points are:
 
 =back
 
-=item The above module also happens to inherit from Test::Builder::Module. My other modules do not need or have line 24.
+=item * 
 
-=item As I develop code and introduce bugs, I frequently see warnings to the effect "subroutine redefined" when there is a circular loop between modules.  Once I fix the bugs, those warnings go away.
+The above module also happens to inherit from Test::Builder::Module. My other modules do not need or have line 24.
+
+=item * 
+
+ As I develop code and introduce bugs, I frequently see warnings to the effect "subroutine redefined" when there is a circular loop between modules.  Once I fix the bugs, those warnings go away.
 
 =back
 
