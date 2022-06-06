@@ -5,7 +5,7 @@ package david_christensen-circular_dependencies;
 
 =head1 NAME
 
-david_christensen-circular_dependencies - TODO Perl extension for blah blah blah
+david_christensen-circular_dependencies - dpchrist's approach to handling cicular dependencies in perl
 
 =head1 DESCRIPTION
 
