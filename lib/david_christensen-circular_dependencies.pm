@@ -9,12 +9,12 @@ david_christensen-circular_dependencies - TODO Perl extension for blah blah blah
 
 =head1 DESCRIPTION
 
-An example, sketching out David Christensen's current approach 
+Sketching out David Christensen's current approach 
 to handling modules with circular dependencies in perl5
 
-=head2 EXPORT
 
-None by default.  Optionally:
+
+
 
 =over
 
