@@ -1,5 +1,3 @@
-#!/usr/bin/env perl
-#                                      2022/06/06 07:02:14
 
 =head1 NAME
 
@@ -18,15 +16,6 @@ enough to leave the stub unedited.
 
 =cut
 
-use 5.10.0;
-use warnings;
-use strict;
-$|=1;
-use Data::Dumper;
-
-
-
-****** currently uses:
      6  package Dpchrist::Lib5::Test;
      7 
      8 
