@@ -7,19 +7,10 @@ package david_christensen-circular_dependencies;
 
 david_christensen-circular_dependencies - TODO Perl extension for blah blah blah
 
-=head1 SYNOPSIS
-
-   use david_christensen-circular_dependencies ':all';
-
-   TODO
-
 =head1 DESCRIPTION
 
-TODO  Stub documentation for david_christensen-circular_dependencies,
-created by perlnow.el using template.el.
-
-It looks like the author of the extension was negligent
-enough to leave the stub unedited.
+An example, sketching out David Christensen's current approach 
+to handling modules with circular dependencies in perl5
 
 =head2 EXPORT
 
@@ -28,44 +19,6 @@ None by default.  Optionally:
 =over
 
 =cut
-
-use 5.10.0;
-use strict;
-use warnings;
-use Carp;
-use Data::Dumper;
-use File::Path      qw( mkpath );
-use File::Basename  qw( fileparse basename dirname );
-use File::Copy      qw( copy move );
-use autodie         qw( :all mkpath copy move ); # system/exec along with open, close, etc
-use Cwd             qw( cwd abs_path );
-use Env             qw( HOME USER );
-use List::Util      qw( first max maxstr min minstr reduce shuffle sum any );
-use List::MoreUtils qw( zip uniq );
-use String::ShellQuote qw( shell_quote );
-use POSIX qw( ceil floor );
-
-our (@ISA, @EXPORT_OK, %EXPORT_TAGS, @EXPORT);
-BEGIN {
- require Exporter;
- @ISA = qw(Exporter);
- %EXPORT_TAGS = ( 'all' => [
- # TODO Add names of items to export here.
- qw(
-
-    ) ] );
-  # The above allows declaration	use david_christensen-circular_dependencies ':all';
-
-  @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
-  @EXPORT = qw(  ); # items to export into callers namespace by default (avoid this!)
-  { no warnings 'once'; $DB::single = 1; }
-}
-
-our $VERSION = '0.01';
-my $DEBUG = 1;
-
-# Preloaded methods go here.
-
 
 currently uses:
      6  package Dpchrist::Lib5::Test;
