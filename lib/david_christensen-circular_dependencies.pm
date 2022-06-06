@@ -36,6 +36,8 @@ to handling modules with circular dependencies in perl5
     25                          );
 
 
+=pod
+
 The key points are:
 
 =over
@@ -58,38 +60,8 @@ The key points are:
 
 =item As I develop code and introduce bugs, I frequently see warnings to the effect "subroutine redefined" when there is a circular loop between modules.  Once I fix the bugs, those warnings go away.
 
-******** Without understanding the "how" and "why" of perl(1), Exporter, "compile time", "run time", "require", "use", "parent", "import", etc. -- of the several solutions myself and others have tried over time, this one seems to work the best for me.
-
-
-
-1;
-
 =back
 
-=head1 SEE ALSO
-
-TODO Mention other useful documentation:
-
-  o  related modules:  L<Module::Name>
-  o  operating system documentation (such as man pages in UNIX)
-  o  any relevant external documentation such as RFCs or standards
-  o  discussion forum set up for your module (if you have it)
-  o  web site set up for your module (if you have it)
-
-=head1 AUTHOR
-
-Joseph Brenner, E<lt>doom@kzsu.stanford.eduE<gt>
-
-=head1 COPYRIGHT AND LICENSE
-
-Copyright (C) 2022 by Joseph Brenner
-
-This program is free software; you can redistribute it and/or modify it
-under the terms of either: the GNU General Public License as published
-by the Free Software Foundation; or the Artistic License.
-
-No warranty is provided with this code.
-
-See http://dev.perl.org/licenses/ for more information.
+Without understanding the "how" and "why" of perl(1), Exporter, "compile time", "run time", "require", "use", "parent", "import", etc. -- of the several solutions myself and others have tried over time, this one seems to work the best for me.
 
 =cut
