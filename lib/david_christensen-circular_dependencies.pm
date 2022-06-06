@@ -39,8 +39,6 @@ EXPORT_OK =        qw(              #     17
 
 =head2 commentary              
 
-=
-
 The key points are:
 
 =over
