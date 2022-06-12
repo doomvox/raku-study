@@ -13,7 +13,21 @@ use warnings;
 use strict;
 $|=1;
 use Data::Dumper;
-use Env qw( HOME );
+$|=1;
+my $DEBUG = 1;
+use Carp;
+use Data::Dumper;
+use File::Path      qw( mkpath );
+use File::Basename  qw( fileparse basename dirname );
+use File::Copy      qw( copy move );
+use autodie         qw( :all mkpath copy move ); # system/exec along with open, close, etc
+use Cwd             qw( cwd abs_path );
+use Env             qw( HOME USER );
+use List::Util      qw( first max maxstr min minstr reduce shuffle sum any );
+use List::MoreUtils qw( zip uniq );
+use String::ShellQuote qw( shell_quote );
+use POSIX qw( ceil floor );
+
 
 ok(1, "If we made it this far, we're ok. All modules are loaded.");
 
