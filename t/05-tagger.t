@@ -13,6 +13,7 @@ use warnings;
 use strict;
 $|=1;
 use Data::Dumper;
+use Env qw( HOME );
 
 ok(1, "If we made it this far, we're ok. All modules are loaded.");
 
