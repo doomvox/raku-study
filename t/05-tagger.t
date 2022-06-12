@@ -26,6 +26,8 @@ use List::MoreUtils qw( zip uniq );
 use String::ShellQuote qw( shell_quote );
 use POSIX qw( ceil floor );
 
+use FindBin qw( $Bin );
+
 my $script_name = '(>>>PERL_SCRIPT_NAME<<<)';
 my $script_basename = basename( $script_name );
 
