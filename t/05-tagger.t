@@ -18,10 +18,11 @@ use Env qw( HOME );
 ok(1, "If we made it this far, we're ok. All modules are loaded.");
 
 my $lst = "file_list.lst";
+my $new_lst = "new_file_list.lst";
 my $find_cmd = "find `pwd` -type f > $lst";
 
 my $pgm = "$HOME/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13/tagger.raku";
 # tagger.raku  files_to_rename.lst  tag_string > files_after_renaming.lst
-my $cmd = "raku $prm $lst xyz > 
+my $cmd = "raku $prm $lst xyz > $new_lst";
 
 done_testing();
