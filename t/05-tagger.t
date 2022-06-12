@@ -12,7 +12,6 @@ use 5.10.0;
 use warnings;
 use strict;
 $|=1;
-use Data::Dumper;
 $|=1;
 my $DEBUG = 1;
 use Carp;
