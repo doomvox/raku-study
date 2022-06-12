@@ -21,7 +21,8 @@ ok(1, "If we made it this far, we're ok. All modules are loaded.");
 # Insert your test code below, the Test::More module is used here so read
 # its man page ( perldoc Test::More ) for help writing this test script.
 
-my $cmd = "raku /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13/tagger.raku";
+my $pgm = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13/tagger.raku";
 # tagger.raku  files_to_rename.lst  tag_string > files_after_renaming.lst
+
 
 done_testing();
