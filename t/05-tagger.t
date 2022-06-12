@@ -26,8 +26,14 @@ use List::MoreUtils qw( zip uniq );
 use String::ShellQuote qw( shell_quote );
 use POSIX qw( ceil floor );
 
+my $script_name = '(>>>PERL_SCRIPT_NAME<<<)';
+my $script_basename = basename( $script_name );
 
 ok(1, "If we made it this far, we're ok. All modules are loaded.");
+
+{
+  my $test_name = "Testing script $script_basename";
+
 
 my $lst = "file_list.lst";
 my $new_lst = "new_file_list.lst";
