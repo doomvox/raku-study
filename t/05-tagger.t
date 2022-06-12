@@ -43,4 +43,9 @@ my $pgm = "$HOME/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13/tagger.raku";
 # tagger.raku  files_to_rename.lst  tag_string > files_after_renaming.lst
 my $cmd = "raku $prm $lst xyz > $new_lst";
 
+  my $result = qx{ $script_name };
+  is( $result, $expected, "$test_name" )
+}
+
+
 done_testing();
