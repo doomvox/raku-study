@@ -41,9 +41,9 @@ ok(1, "If we made it this far, we're ok. All modules are loaded.");
   my $test_name = "Testing script $script_basename";
 
 
-  my $lst = "file_list.lst";
+  my $file_lst = "file_list.lst";
   my $new_lst = "new_file_list.lst";
-  my $find_cmd = "find `pwd` -type f > $lst";
+  my $find_cmd = "find `pwd` -type f > $file_lst";
 
   # tagger.raku  files_to_rename.lst  tag_string > files_after_renaming.lst
   my $cmd = "raku $script $lst xyz > $new_lst";
