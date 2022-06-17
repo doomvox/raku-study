@@ -1,12 +1,12 @@
 #!/usr/bin/env perl6
 # 
-# 05-tagger-raku.t.raku            15 Jun 2022 
+# 05-tagger-raku.t            15 Jun 2022 
 
 use v6;
 
 
-    my $dat_loc = $*PROGRAM.parent.add('dat');
-    chdir( $dat_loc );
+my $dat_loc = $*PROGRAM.parent.add('dat');
+chdir( $dat_loc );
 
 
 
