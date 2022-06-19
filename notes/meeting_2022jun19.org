@@ -11,6 +11,11 @@
 ***** from an old question in my notes:
 ****** Q: what's the Raku equivalent for p5's \K?
 
+**** unix.stackexchange
+
+**** rob ramsbottom
+***** relating to the community
+
 *** from the last meeting notes
 **** continuing adventures with move/copy/rename
 ***** roast test checks whether the old file name is gone after rename

@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#orgbcbe7a7)
-  - [the raku study group](#org2fba6dc)
-    - [topics](#orgca4e9ce)
-    - [from the last meeting notes](#orga7066f5)
-    - [for future meetings](#orgd6eb0b6)
-  - [announcements](#org4aaf055)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgdaa03d5)
-    - [June 21-25: tprc: perl/raku conference](#org2394335)
+- [meeting notes June 19, 2022](#orgf28b028)
+  - [the raku study group](#org13e034b)
+    - [topics](#org1b1097e)
+    - [from the last meeting notes](#orga9bb4c1)
+    - [for future meetings](#org159d33a)
+  - [announcements](#orga68e8f8)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org9b75dc0)
+    - [June 21-25: tprc: perl/raku conference](#orgf66120f)
 
 
-<a id="orgbcbe7a7"></a>
+<a id="orgf28b028"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="org2fba6dc"></a>
+<a id="org13e034b"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="orgca4e9ce"></a>
+<a id="org1b1097e"></a>
 
 ### topics
 
@@ -38,8 +38,14 @@
     
         1.  Q: what's the Raku equivalent for p5's \K?
 
+2.  unix.stackexchange
 
-<a id="orga7066f5"></a>
+3.  rob ramsbottom
+
+    1.  relating to the community
+
+
+<a id="orga9bb4c1"></a>
 
 ### from the last meeting notes
 
@@ -66,7 +72,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="orgd6eb0b6"></a>
+<a id="org159d33a"></a>
 
 ### for future meetings
 
@@ -97,17 +103,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org4aaf055"></a>
+<a id="orga68e8f8"></a>
 
 ## announcements
 
 
-<a id="orgdaa03d5"></a>
+<a id="org9b75dc0"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org2394335"></a>
+<a id="orgf66120f"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
