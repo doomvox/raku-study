@@ -1,20 +1,19 @@
-- [meeting notes June 19, 2022](#org0a7d9e7)
-  - [the raku study group](#org019656c)
-    - [topics](#org710acba)
-  - [Q: what's the Raku equivalent for p5's \K?](#org545451d)
-    - [from the last meeting notes](#org6d99d4c)
-    - [for future meetings](#orgc8a4cfe)
-  - [announcements](#orgc98ab4e)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org19ff464)
-    - [June 21-25: tprc: perl/raku conference](#orgd3cdf57)
+- [meeting notes June 19, 2022](#orgbff58a3)
+  - [the raku study group](#org021d7c9)
+    - [topics](#org9cade96)
+    - [from the last meeting notes](#org1817f41)
+    - [for future meetings](#org58497bd)
+  - [announcements](#org9cc00d1)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org5116f02)
+    - [June 21-25: tprc: perl/raku conference](#org8c58670)
 
 
-<a id="org0a7d9e7"></a>
+<a id="orgbff58a3"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="org019656c"></a>
+<a id="org021d7c9"></a>
 
 ## the raku study group
 
@@ -29,19 +28,18 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="org710acba"></a>
+<a id="org9cade96"></a>
 
 ### topics
 
 1.  regex feature: control what's captured with <( &#x2026; )>
 
+    1.  an old question in my notes:
+    
+        1.  Q: what's the Raku equivalent for p5's \K?
 
-<a id="org545451d"></a>
 
-## Q: what's the Raku equivalent for p5's \K?
-
-
-<a id="org6d99d4c"></a>
+<a id="org1817f41"></a>
 
 ### from the last meeting notes
 
@@ -68,7 +66,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="orgc8a4cfe"></a>
+<a id="org58497bd"></a>
 
 ### for future meetings
 
@@ -99,17 +97,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgc98ab4e"></a>
+<a id="org9cc00d1"></a>
 
 ## announcements
 
 
-<a id="org19ff464"></a>
+<a id="org5116f02"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="orgd3cdf57"></a>
+<a id="org8c58670"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

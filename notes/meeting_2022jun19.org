@@ -9,7 +9,8 @@
 *** topics
 **** regex feature: control what's captured with <( ... )>
 
-** Q: what's the Raku equivalent for p5's \K?
+***** an old question in my notes:
+****** Q: what's the Raku equivalent for p5's \K?
 
 *** from the last meeting notes
 **** continuing adventures with move/copy/rename
