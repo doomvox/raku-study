@@ -35,7 +35,8 @@ use v6;
     say $str;
 
     # change the quoted string, but leave quotes alone (or so I thought...)
-    $str.subst('<quoted>', 'refrain');
+    # $str.subst('<quoted>', 'refrain');
+    $str.subst(/<quoted>/, 'refrain');
 
     say $str; # The refrain in Spain sprains the brain.
     # Note: refrain is *not* quoted.  Is this a BUG?
