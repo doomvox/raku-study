@@ -6,11 +6,14 @@ use v6;
 
 
 my $dat_loc = $*PROGRAM.parent.add('dat');
-chdir( $dat_loc );
 
+my $tree = "$dat_loc/tree1";
 
+## if tree1 exists, cut it
 
+my $tar = "$dat_loc/tree1_original.tar.gz";
 
+chdir( $tree );
 
 # ====
 #  sheet of cheats
