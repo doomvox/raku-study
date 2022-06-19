@@ -26,3 +26,5 @@ say $str; # The refrain in Spain sprains the brain.
 # \K is like <(,  )> has no perl equivalent
 
 
+
+say 'abc' ~~ / a <( b )> c/;            # OUTPUT: «｢b｣␤» 
