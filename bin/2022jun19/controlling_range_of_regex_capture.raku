@@ -8,12 +8,12 @@ use v6;
 # raku's '<(' and ')>' control the range of the default capture
 
 # # zoffix example, 2018 talk
-# my regex quoted { \" <( <-["]>+ )> \" } ; #]
+my regex quoted { \" <( <-["]>+ )> \" } ; # []
 
-
+my $str 
 
 # # change the quoted string, but leave quotes alone
-# $str ~~ s/<quoted>/that/; ## untested  TODO
+$str ~~ s/<quoted>/that/;
 
 
 # perl5's \K is to "keep" the part in front and substitute the remainder
