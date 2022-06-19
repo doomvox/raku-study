@@ -28,9 +28,9 @@ use v6;
 }
 
 
-# Simple example from the docs, works as advertised: 
-say 'abc' ~~ / a <( b )> c/;            # ｢b｣
+{ # Simple example from the docs, works as advertised: 
+  say 'abc' ~~ / a <( b )> c/;            # ｢b｣
 
-# As does this rather weirdzo example:
-say 'abc' ~~ / <(a <( b )> c)>/;        # ｢bc｣
-
+  # As does this rather weirdzo example:
+  say 'abc' ~~ / <(a <( b )> c)>/;        # ｢bc｣
+}
