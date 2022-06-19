@@ -22,27 +22,6 @@
 ***** some basics
 ****** https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku
 
-**** rob ransbottom topics
-***** possible bug in raku: appending to a hash with ,= op with slice from another hash  
-****** https://github.com/doomvox/raku-study/bin/2022jun05/rob_ransbottom-comma_equals_hash_assignment.raku
-****** https://github.com/doomvox/raku-study/bin/2022jun05/comma_equals_of_doom.raku
-****** testing exceptions in code
-https://docs.raku.org/language/testing
-****** can use a try block to convert die to warn
-
-***** equivalent of perl's optional export/imports
-****** some people actually create individual tags for every item they want to export
-
-***** .list and .List
-****** if you write your own .List does .list see it? A: no, .list still works as always
-
-***** operators
-****** operators are functions
-****** can you easily define a recursive operator
-
-***** David Christensen on perl5 modules with circular dependencies
-****** https://github.com/doomvox/raku-study/tree/main/lib/david_christensen-circular_dependencies.pm
-****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/lib/david_christensen-circular_dependencies.pm
 
 *** save for next time
 

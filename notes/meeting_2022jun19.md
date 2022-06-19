@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#orgdd3ad07)
-  - [the raku study group](#org0810ba3)
-    - [topics](#org46f987e)
-    - [from the last meeting notes](#org8536ae3)
-    - [save for next time](#org6e6bf80)
-  - [announcements](#orgec0af07)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgefb6ec0)
-    - [June 21-25: tprc: perl/raku conference](#org8a8dc41)
+- [meeting notes June 19, 2022](#orgf5a90c0)
+  - [the raku study group](#org9a349e8)
+    - [topics](#orgff8d69b)
+    - [from the last meeting notes](#orgbb0764a)
+    - [save for next time](#orgc633275)
+  - [announcements](#org8818898)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org234a125)
+    - [June 21-25: tprc: perl/raku conference](#org05a47a3)
 
 
-<a id="orgdd3ad07"></a>
+<a id="orgf5a90c0"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="org0810ba3"></a>
+<a id="org9a349e8"></a>
 
 ## the raku study group
 
@@ -28,12 +28,12 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="org46f987e"></a>
+<a id="orgff8d69b"></a>
 
 ### topics
 
 
-<a id="org8536ae3"></a>
+<a id="orgbb0764a"></a>
 
 ### from the last meeting notes
 
@@ -59,42 +59,8 @@
     
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
-2.  rob ransbottom topics
 
-    1.  possible bug in raku: appending to a hash with ,= op with slice from another hash
-    
-        1.  <https://github.com/doomvox/raku-study/bin/2022jun05/rob_ransbottom-comma_equals_hash_assignment.raku>
-        
-        2.  <https://github.com/doomvox/raku-study/bin/2022jun05/comma_equals_of_doom.raku>
-        
-        3.  testing exceptions in code
-        
-            <https://docs.raku.org/language/testing>
-        
-        4.  can use a try block to convert die to warn
-    
-    2.  equivalent of perl's optional export/imports
-    
-        1.  some people actually create individual tags for every item they want to export
-    
-    3.  .list and .List
-    
-        1.  if you write your own .List does .list see it? A: no, .list still works as always
-    
-    4.  operators
-    
-        1.  operators are functions
-        
-        2.  can you easily define a recursive operator
-    
-    5.  David Christensen on perl5 modules with circular dependencies
-    
-        1.  <https://github.com/doomvox/raku-study/tree/main/lib/david_christensen-circular_dependencies.pm>
-        
-        2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/lib/david<sub>christensen</sub>-circular<sub>dependencies.pm</sub>
-
-
-<a id="org6e6bf80"></a>
+<a id="orgc633275"></a>
 
 ### save for next time
 
@@ -125,17 +91,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgec0af07"></a>
+<a id="org8818898"></a>
 
 ## announcements
 
 
-<a id="orgefb6ec0"></a>
+<a id="org234a125"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org8a8dc41"></a>
+<a id="org05a47a3"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
