@@ -45,7 +45,7 @@ use v6;
     my $new_str = $str.subst(/<quoted>/, 'refrain');
     say $new_str;
     # The refrain in Spain sprains the brain.
-    # Same behavior.
+    # So, still got bug.
 }
 
 
