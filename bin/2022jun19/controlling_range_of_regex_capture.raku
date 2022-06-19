@@ -18,10 +18,17 @@ use v6;
 
     my $str = q{The "rain" in Spain sprains the brain.};
     say $str;
+    # The "rain" in Spain sprains the brain.
 
     # change the quoted string, but leave quotes alone (or so I thought...)
     say 
         $str ~~ s/<quoted>/refrain/;
+
+
+    # ｢"rain"｣
+    #   quoted => ｢rain｣
+
+
 
     say $str; # The refrain in Spain sprains the brain.
     # Note: refrain is *not* quoted.  Is this a BUG?
