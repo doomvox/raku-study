@@ -7,6 +7,11 @@ use v6;
 
 # raku's '<(' and ')>' control the range of the default capture
 
+# perl5's \K is to "keep" the part in front and substitute the remainder
+# $str =~ s{ $prefix_pat \K this }{that}xms;
+# \K is like <(,  )> has no perl equivalent
+
+
 {
     ## zoffix example, 2018 talk
     my regex quoted { \" <( <-["]>+ )> \" }  
@@ -19,14 +24,8 @@ use v6;
 
     say $str; # The refrain in Spain sprains the brain.
     # Note: refrain is *not* quoted.  Is this a BUG?
+
 }
-
-
-# I thought:
-# perl5's \K is to "keep" the part in front and substitute the remainder
-# $str =~ s{ $prefix_pat \K this }{that}xms;
-# \K is like <(,  )> has no perl equivalent
-
 
 
 # Simple example from the docs, works as advertised: 
