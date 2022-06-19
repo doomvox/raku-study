@@ -21,7 +21,10 @@ my $dat_file = "$dat_loc/data_by_dates.txt";
 
 my @lines = $dat_file.IO.lines;
 
+my @result = gather
 for @lines {
     my $ts = .subst(/ ^ (\d**2) \/ (\d**2) \/ (\d**4) /, {"$2-$1-$0"}).Date;
-    say $ts if Date.new("2020-03-01") < $ts < Date.new("2021-03-01");
+    if Date.new("2020-03-01") < $ts < Date.new("2021-03-01") {
+        take $ts;
+    }
 }
