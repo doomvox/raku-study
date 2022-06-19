@@ -16,8 +16,10 @@ use v6;
 
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun19/dat/data_by_dates.txt
 
+my $dat_loc = $*PROGRAM.parent.add('dat');
+my $dat_file = "$dat_loc/data_by_dates.txt";
 
-my $dat_file = '/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun19/dat/data_by_dates.txt';
+
 
 my $ts = .subst(/ ^ (\d**2) \/ (\d**2) \/ (\d**4) /, {"$2-$1-$0"}).Date;
 say $ts if Date.new("2020-03-01") < $ts < Date.new("2021-03-01");
