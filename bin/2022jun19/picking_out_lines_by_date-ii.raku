@@ -22,19 +22,17 @@ my $dat_file = "$dat_loc/data_by_dates.txt";
 my @lines = $dat_file.IO.lines;
 
 my @result = gather
-
-.say 
-
 for @lines {
 #     my $ts = .subst(/ ^ (\d**2) \/ (\d**2) \/ (\d**4) /, {"$2-$1-$0"}).Date;
 #    if Date.new("2020-03-01") < $ts < Date.new("2021-03-01") {  
     if ( Date.new("2020-03-01")
-      < 
-      S/ ^ (\d**2) \/ (\d**2) \/ (\d**4) /{"$2-$1-$0"}/.Date 
-      < 
-      Date.new("2021-03-01") ) {
-        take $ts;
-    }
+          < 
+           S/ ^ (\d**2) \/ (\d**2) \/ (\d**4) /{"$2-$1-$0"}/.Date 
+          < 
+           Date.new("2021-03-01") 
+       ) {
+            take $ts;
+         }
 }
 
 for @result -> $r {
