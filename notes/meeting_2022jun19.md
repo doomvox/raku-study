@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#org9009f66)
-  - [the raku study group](#org5383a9e)
-    - [topics](#orge693c0b)
-    - [from the last meeting notes](#orgb0282e5)
-    - [for future meetings](#orgcd80dc1)
-  - [announcements](#org231125a)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org2e3ba5f)
-    - [June 21-25: tprc: perl/raku conference](#org3c83fb3)
+- [meeting notes June 19, 2022](#org2150fda)
+  - [the raku study group](#orgbb927a2)
+    - [topics](#orgc3ac06a)
+    - [from the last meeting notes](#orgc537c9d)
+    - [for future meetings](#org6d26f12)
+  - [announcements](#orgca08d74)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org33bb070)
+    - [June 21-25: tprc: perl/raku conference](#org546d621)
 
 
-<a id="org9009f66"></a>
+<a id="org2150fda"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="org5383a9e"></a>
+<a id="orgbb927a2"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="orge693c0b"></a>
+<a id="orgc3ac06a"></a>
 
 ### topics
 
@@ -51,6 +51,8 @@
         2.  rob opened a github issue, no action:
         
             1.  <https://github.com/rakudo/rakudo/issues/4945>
+            
+            2.  TODO add some comments
 
 3.  the great file manipulation issue like does rename reanme
 
@@ -61,7 +63,7 @@
 5.  the toddandmargo show on perl6-users
 
 
-<a id="orgb0282e5"></a>
+<a id="orgc537c9d"></a>
 
 ### from the last meeting notes
 
@@ -88,7 +90,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="orgcd80dc1"></a>
+<a id="org6d26f12"></a>
 
 ### for future meetings
 
@@ -119,17 +121,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org231125a"></a>
+<a id="orgca08d74"></a>
 
 ## announcements
 
 
-<a id="org2e3ba5f"></a>
+<a id="org33bb070"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org3c83fb3"></a>
+<a id="org546d621"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
