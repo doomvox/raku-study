@@ -18,8 +18,6 @@ chdir( $tree );
 # ====
 #  sheet of cheats
 
-
-
 # external commands without shell:
 # my $arg = 'Hello';
 # my $captured = run('echo', $arg, :out).out.slurp;
