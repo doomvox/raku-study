@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#orgbff58a3)
-  - [the raku study group](#org021d7c9)
-    - [topics](#org9cade96)
-    - [from the last meeting notes](#org1817f41)
-    - [for future meetings](#org58497bd)
-  - [announcements](#org9cc00d1)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org5116f02)
-    - [June 21-25: tprc: perl/raku conference](#org8c58670)
+- [meeting notes June 19, 2022](#orgbcbe7a7)
+  - [the raku study group](#org2fba6dc)
+    - [topics](#orgca4e9ce)
+    - [from the last meeting notes](#orga7066f5)
+    - [for future meetings](#orgd6eb0b6)
+  - [announcements](#org4aaf055)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgdaa03d5)
+    - [June 21-25: tprc: perl/raku conference](#org2394335)
 
 
-<a id="orgbff58a3"></a>
+<a id="orgbcbe7a7"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="org021d7c9"></a>
+<a id="org2fba6dc"></a>
 
 ## the raku study group
 
@@ -28,18 +28,18 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="org9cade96"></a>
+<a id="orgca4e9ce"></a>
 
 ### topics
 
 1.  regex feature: control what's captured with <( &#x2026; )>
 
-    1.  an old question in my notes:
+    1.  from an old question in my notes:
     
         1.  Q: what's the Raku equivalent for p5's \K?
 
 
-<a id="org1817f41"></a>
+<a id="orga7066f5"></a>
 
 ### from the last meeting notes
 
@@ -66,7 +66,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org58497bd"></a>
+<a id="orgd6eb0b6"></a>
 
 ### for future meetings
 
@@ -97,17 +97,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org9cc00d1"></a>
+<a id="org4aaf055"></a>
 
 ## announcements
 
 
-<a id="org5116f02"></a>
+<a id="orgdaa03d5"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org8c58670"></a>
+<a id="org2394335"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
