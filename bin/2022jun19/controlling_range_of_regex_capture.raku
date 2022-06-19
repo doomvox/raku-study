@@ -10,7 +10,7 @@ use v6;
 # # zoffix example, 2018 talk
 my regex quoted { \" <( <-["]>+ )> \" }  
 
-my $str 
+my $str = q{The "rain" in Spain sprains the brain.};
 
 # # change the quoted string, but leave quotes alone
 $str ~~ s/<quoted>/that/;
