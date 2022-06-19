@@ -12,6 +12,7 @@
 ****** Q: what's the Raku equivalent for p5's \K?
 
 **** unix.stackexchange
+***** william michels
 
 **** rob ramsbottom
 ***** relating to the community
