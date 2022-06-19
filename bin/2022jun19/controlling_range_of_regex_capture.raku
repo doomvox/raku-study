@@ -7,6 +7,21 @@ use v6;
 
 # raku's '<(' and ')>' control the range of the default capture
 
+{ # Simple example from the docs, works as advertised: 
+  say 'abc' ~~ / a <( b )> c/;            # ｢b｣
+
+  # As does this rather weirdzo example:
+  say 'abc' ~~ / <(a <( b )> c)>/;        # ｢bc｣
+
+  #  ... they are actually independent of each other, the inner-most
+  #  start point wins (the one attached to b) and the outer-most end
+  #  wins (the one attached to c).
+
+  # Okaaay.  (Why doesn't it try to match on a literal ")>"?)
+  # 
+  # Anyway: only one set of these braces makes sense, don't try to nest them.
+}
+
 # perl5's \K is to "keep" the part in front and substitute the remainder
 # $str =~ s{ $prefix_pat \K this }{that}xms;
 # \K is like <(,  )> has no perl equivalent
@@ -60,17 +75,4 @@ use v6;
 }
 
 
-{ # Simple example from the docs, works as advertised: 
-  say 'abc' ~~ / a <( b )> c/;            # ｢b｣
 
-  # As does this rather weirdzo example:
-  say 'abc' ~~ / <(a <( b )> c)>/;        # ｢bc｣
-
-  #  ... they are actually independent of each other, the inner-most
-  #  start point wins (the one attached to b) and the outer-most end
-  #  wins (the one attached to c).
-
-  # Okaaay.  (Why doesn't it try to match on a literal ")>"?)
-  # 
-  # Anyway: only one set of these braces makes sense, don't try to nest them.
-}
