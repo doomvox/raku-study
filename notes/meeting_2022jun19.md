@@ -1,18 +1,18 @@
-- [meeting notes June 19, 2022](#orgaa3edee)
-  - [the raku study group](#orgb9af79d)
-    - [topics](#org8ef6351)
-    - [save for next time](#org847de80)
-  - [announcements](#org1a5034c)
-    - [July 10th: next raku study group meeting (skipping the weekend of the 4th)](#org1c10bf7)
-    - [June 21-25: tprc: perl/raku conference](#orgd581a98)
+- [meeting notes June 19, 2022](#org3173c00)
+  - [the raku study group](#org9761dd4)
+    - [topics](#org9419fd3)
+    - [save for next time](#orga59d623)
+  - [announcements](#orgb13730d)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgd8229c1)
+    - [June 21-25: tprc: perl/raku conference](#orge8f2005)
 
 
-<a id="orgaa3edee"></a>
+<a id="org3173c00"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="orgb9af79d"></a>
+<a id="org9761dd4"></a>
 
 ## the raku study group
 
@@ -27,7 +27,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="org8ef6351"></a>
+<a id="org9419fd3"></a>
 
 ### topics
 
@@ -108,7 +108,7 @@
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/lib/david<sub>christensen</sub>-circular<sub>dependencies.pm</sub>
 
 
-<a id="org847de80"></a>
+<a id="orga59d623"></a>
 
 ### save for next time
 
@@ -139,17 +139,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org1a5034c"></a>
+<a id="orgb13730d"></a>
 
 ## announcements
 
 
-<a id="org1c10bf7"></a>
+<a id="orgd8229c1"></a>
 
-### July 10th: next raku study group meeting (skipping the weekend of the 4th)
+### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="orgd581a98"></a>
+<a id="orge8f2005"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

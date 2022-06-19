@@ -73,7 +73,7 @@ https://docs.raku.org/language/testing
 
 
 ** announcements 
-*** July 10th: next raku study group meeting (skipping the weekend of the 4th)
+*** July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 *** June 21-25: tprc: perl/raku conference 
 **** 4 hours of Bruce Gray: talk + 3hr tutorial
 ***** https://tprc2022.sched.com/event/ylEK/command-line-filters-time-to-shine
