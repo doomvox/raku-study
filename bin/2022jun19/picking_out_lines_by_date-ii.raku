@@ -31,7 +31,7 @@ for @lines {
           < 
            Date.new("2021-03-01") 
        ) {
-            take $ts;
+            take $_;
          }
 }
 
