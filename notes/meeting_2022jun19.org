@@ -23,9 +23,9 @@
 ****** https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku
 
 
-*** save for next time
+*** for future meetings (?)
 
-**** recent weekly challenges that weren't number theory trivia for once
+**** some relatively recent weekly challenges that weren't number theory trivia for once
 ***** Task 1: Hexadecimal Words; Task 2: K-Directory Diff
 ****** https://theweeklychallenge.org/blog/perl-weekly-challenge-166/
 ****** arne sommers
@@ -34,6 +34,7 @@
 ****** https://theweeklychallenge.org/blog/perl-weekly-challenge-165/
 ****** arne sommers
 ******* https://raku-musings.com/doubly-scalable.html
+
 **** jonathan worthington on cro memory usage
 ***** https://stackoverflow.com/questions/72180995/understanding-cro-request-response-cycle-and-memory-use
 **** jonathan worthington on operator precedence, = vs ,
