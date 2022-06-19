@@ -24,10 +24,11 @@ use v6;
     # ｢"rain"｣
     #   quoted => ｢rain｣
 
-    # OH: starting to see what's going on... 
 
-    say $str; # The refrain in Spain sprains the brain.
-    # Note: refrain is *not* quoted.  Bug, or just weird?
+
+    say $str; 
+    # The "refrain" in Spain sprains the brain.
+
 
     say "===";
 }
