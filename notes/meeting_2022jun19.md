@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#org56a948d)
-  - [the raku study group](#orgff422d9)
-    - [topics](#orga504e42)
-    - [from the last meeting notes](#org72625cc)
-    - [for future meetings](#org4a21b13)
-  - [announcements](#org5b5d109)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgab0045b)
-    - [June 21-25: tprc: perl/raku conference](#org363e88f)
+- [meeting notes June 19, 2022](#orgf8d8f20)
+  - [the raku study group](#org8cbce29)
+    - [topics](#org6911b8f)
+    - [from the last meeting notes](#orgdf450e6)
+    - [for future meetings](#org4498353)
+  - [announcements](#org72691ca)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org7868d79)
+    - [June 21-25: tprc: perl/raku conference](#org9d6af98)
 
 
-<a id="org56a948d"></a>
+<a id="orgf8d8f20"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="orgff422d9"></a>
+<a id="org8cbce29"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="orga504e42"></a>
+<a id="org6911b8f"></a>
 
 ### topics
 
@@ -50,10 +50,10 @@
 
     1.  relating to the community
     
-    2.  initiating pull requests and so on
+        1.  initiating pull requests and so on
 
 
-<a id="org72625cc"></a>
+<a id="orgdf450e6"></a>
 
 ### from the last meeting notes
 
@@ -80,7 +80,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org4a21b13"></a>
+<a id="org4498353"></a>
 
 ### for future meetings
 
@@ -111,17 +111,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org5b5d109"></a>
+<a id="org72691ca"></a>
 
 ## announcements
 
 
-<a id="orgab0045b"></a>
+<a id="org7868d79"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org363e88f"></a>
+<a id="org9d6af98"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
