@@ -20,6 +20,8 @@ use v6;
     say $str;
     # The "rain" in Spain sprains the brain.
 
+    say $str ~~ m/<quoted>/;
+
     # change the quoted string, but leave quotes alone (or so I thought...)
     say 
         $str ~~ s/<quoted>/refrain/;
