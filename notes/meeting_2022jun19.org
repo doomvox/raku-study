@@ -13,7 +13,6 @@
 ***** <( isn't really equivalent to <(
 ***** can do it with zero-width after/before matches
 
-
 **** the great file manipulation issue like does rename reanme 
 
 **** unix.stackexchange
