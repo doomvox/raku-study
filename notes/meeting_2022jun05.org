@@ -50,7 +50,7 @@ https://docs.raku.org/language/testing
 ****** operators are functions
 ****** can you easily define a recursive operator
 
-***** David Christensen on perl5 modules with circular dependencies
+**** David Christensen on perl5 modules with circular dependencies
 ****** https://github.com/doomvox/raku-study/tree/main/lib/david_christensen-circular_dependencies.pm
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/lib/david_christensen-circular_dependencies.pm
 

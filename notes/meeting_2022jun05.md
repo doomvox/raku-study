@@ -1,18 +1,18 @@
-- [meeting notes June 05, 2022](#orgcf549a8)
-  - [the raku study group](#orgcac29a9)
-    - [topics](#org9ada88b)
-    - [save for next time](#orgd916dec)
-  - [announcements](#org5eb3c34)
-    - [June 19th: next raku study group meeting](#orgcf15992)
-    - [June 21-25: tprc: perl/raku conference](#org8d0d1ec)
+- [meeting notes June 05, 2022](#org49228f4)
+  - [the raku study group](#org28b6132)
+    - [topics](#org7087e71)
+    - [save for next time](#orga3a26c7)
+  - [announcements](#org3e8d47f)
+    - [June 19th: next raku study group meeting](#org0d1d5de)
+    - [June 21-25: tprc: perl/raku conference](#org99d5c1a)
 
 
-<a id="orgcf549a8"></a>
+<a id="org49228f4"></a>
 
 # meeting notes June 05, 2022
 
 
-<a id="orgcac29a9"></a>
+<a id="org28b6132"></a>
 
 ## the raku study group
 
@@ -27,7 +27,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun05>
 
 
-<a id="org9ada88b"></a>
+<a id="org7087e71"></a>
 
 ### topics
 
@@ -100,15 +100,15 @@
         1.  operators are functions
         
         2.  can you easily define a recursive operator
+
+5.  David Christensen on perl5 modules with circular dependencies
+
+    1.  <https://github.com/doomvox/raku-study/tree/main/lib/david_christensen-circular_dependencies.pm>
     
-    5.  David Christensen on perl5 modules with circular dependencies
-    
-        1.  <https://github.com/doomvox/raku-study/tree/main/lib/david_christensen-circular_dependencies.pm>
-        
-        2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/lib/david<sub>christensen</sub>-circular<sub>dependencies.pm</sub>
+    2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/lib/david<sub>christensen</sub>-circular<sub>dependencies.pm</sub>
 
 
-<a id="orgd916dec"></a>
+<a id="orga3a26c7"></a>
 
 ### save for next time
 
@@ -139,17 +139,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org5eb3c34"></a>
+<a id="org3e8d47f"></a>
 
 ## announcements
 
 
-<a id="orgcf15992"></a>
+<a id="org0d1d5de"></a>
 
 ### June 19th: next raku study group meeting
 
 
-<a id="org8d0d1ec"></a>
+<a id="org99d5c1a"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
