@@ -7,17 +7,9 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2022jun19
 
 *** topics
-**** perl
-***** perl 5.36 is out, showing some nice progress
-****** features:
-******* basic sub sigs, no longer "experimental" 
-******* more flexible for loops, getting more raku-ish
 
-****** the psc has clarified they're committed to backwards compatibility (within reason)
-****** no published criteria for when they'll declare "Perl 7"
-******* I'm pretty sure it's waiting on Corina
-******* (ovid's guess is that could be a few years)
 
+*** from the last meeting notes
 **** continuing adventures with move/copy/rename
 ***** roast test checks whether the old file name is gone after rename
 ****** roast/S32-io/rename.t
