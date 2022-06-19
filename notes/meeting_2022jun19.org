@@ -2,9 +2,9 @@
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jun05.md
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022may22.md
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2022jun05
+****** https://github.com/doomvox/raku-study/tree/main/bin/2022may22
 
 *** topics
 **** perl
