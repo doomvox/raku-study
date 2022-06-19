@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#org6edf272)
-  - [the raku study group](#orgf2fcc3a)
-    - [topics](#org0ddf6a7)
-    - [from the last meeting notes](#org41f248c)
-    - [for future meetings](#org067655f)
-  - [announcements](#org3cb455b)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgdf7f600)
-    - [June 21-25: tprc: perl/raku conference](#orgf7396d5)
+- [meeting notes June 19, 2022](#org2415605)
+  - [the raku study group](#org44b370c)
+    - [topics](#org0e2ca3c)
+    - [from the last meeting notes](#orgf4bb96b)
+    - [for future meetings](#org33ee4fa)
+  - [announcements](#org2cff335)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org4bdffd1)
+    - [June 21-25: tprc: perl/raku conference](#org90fba40)
 
 
-<a id="org6edf272"></a>
+<a id="org2415605"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="orgf2fcc3a"></a>
+<a id="org44b370c"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="org0ddf6a7"></a>
+<a id="org0e2ca3c"></a>
 
 ### topics
 
@@ -61,11 +61,15 @@
 4.  unix.stackexchange
 
     1.  william michels
+    
+        1.  <https://unix.stackexchange.com/questions/706744/write-a-regular-expression-whose-output-will-only-be-rows-in-a-range-01-03-2021/706773#706773>
+        
+            raku -ne 'my $ts = .subst(/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) /, {"$2-$1-$0"}).Date; say $ts if Date.new("2020-03-01") < $ts < Date.new ("2021-03-01");'
 
 5.  the toddandmargo show on perl6-users
 
 
-<a id="org41f248c"></a>
+<a id="orgf4bb96b"></a>
 
 ### from the last meeting notes
 
@@ -92,7 +96,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org067655f"></a>
+<a id="org33ee4fa"></a>
 
 ### for future meetings
 
@@ -123,17 +127,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org3cb455b"></a>
+<a id="org2cff335"></a>
 
 ## announcements
 
 
-<a id="orgdf7f600"></a>
+<a id="org4bdffd1"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="orgf7396d5"></a>
+<a id="org90fba40"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
