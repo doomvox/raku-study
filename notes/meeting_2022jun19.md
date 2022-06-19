@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#org8b77318)
-  - [the raku study group](#org6bdeb2a)
-    - [topics](#org97baea4)
-    - [from the last meeting notes](#orga0637e7)
-    - [for future meetings](#org58c5860)
-  - [announcements](#org2494e11)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgeba4375)
-    - [June 21-25: tprc: perl/raku conference](#org8311676)
+- [meeting notes June 19, 2022](#org8330a1b)
+  - [the raku study group](#org43d1b83)
+    - [topics](#org8febdc0)
+    - [from the last meeting notes](#orge1713d3)
+    - [for future meetings](#org86fb1cb)
+  - [announcements](#org39aa047)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgafa97d0)
+    - [June 21-25: tprc: perl/raku conference](#org54212bc)
 
 
-<a id="org8b77318"></a>
+<a id="org8330a1b"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="org6bdeb2a"></a>
+<a id="org43d1b83"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="org97baea4"></a>
+<a id="org8febdc0"></a>
 
 ### topics
 
@@ -64,16 +64,16 @@
     
         1.  <https://unix.stackexchange.com/questions/706744/write-a-regular-expression-whose-output-will-only-be-rows-in-a-range-01-03-2021/706773#706773>
         
-            raku -ne 'my $ts = .subst(/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) /, {"$2-$1-$0"}).Date; say $ts if Date.new("2020-03-01") < $ts < Date.new ("2021-03-01");'
+            1.  I have a file that got dates from 01/01/2020 to 04/04/2021 I want to get only the dates between 01/03/2020 to 01/03/2021 by using egrep. I tried to do
             
-            raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file 13/03/2020
-            
-            I have a file that got dates from 01/01/2020 to 04/04/2021 I want to get only the dates between 01/03/2020 to 01/03/2021 by using egrep. I tried to do
+                raku -ne 'my $ts = .subst(/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) /, {"$2-$1-$0"}).Date; say $ts if Date.new("2020-03-01") < $ts < Date.new ("2021-03-01");'
+                
+                raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file 13/03/2020
 
 5.  the toddandmargo show on perl6-users
 
 
-<a id="orga0637e7"></a>
+<a id="orge1713d3"></a>
 
 ### from the last meeting notes
 
@@ -100,7 +100,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org58c5860"></a>
+<a id="org86fb1cb"></a>
 
 ### for future meetings
 
@@ -131,17 +131,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org2494e11"></a>
+<a id="org39aa047"></a>
 
 ## announcements
 
 
-<a id="orgeba4375"></a>
+<a id="orgafa97d0"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org8311676"></a>
+<a id="org54212bc"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
