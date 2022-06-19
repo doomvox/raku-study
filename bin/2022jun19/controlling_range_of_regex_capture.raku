@@ -85,7 +85,6 @@ use v6;
 
 {
     say "===";
-    ## zoffix example, 2018 talk,  at 14:50
     my regex quoted { <( \" <-["]>+ \" )> }  
 
     my $str = q{The "rain" in Spain sprains the brain.};
