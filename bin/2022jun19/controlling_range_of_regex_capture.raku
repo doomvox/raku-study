@@ -31,6 +31,5 @@ say $str; # The refrain in Spain sprains the brain.
 # Simple example from the docs, works as advertised: 
 say 'abc' ~~ / a <( b )> c/;            # ｢b｣
 
-
-
-say 'abc' ~~ / <(a <( b )> c)>/;        # OUTPUT: «｢bc｣␤»
+# As does this rather weirdzo example:
+say 'abc' ~~ / <(a <( b )> c)>/;        # ｢bc｣
