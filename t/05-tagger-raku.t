@@ -11,7 +11,12 @@ my $tree = "$dat_loc/tree1";
 
 ## if tree1 exists, cut it
 
-my $tar = "$dat_loc/tree1_original.tar.gz";
+my $tar_file = "$dat_loc/tree1_original.tar.gz";
+
+
+my $captured = shell("tar -xczf $tar_file", :out).out.slurp;
+my $captured = qqx{echo $arg};
+
 
 chdir( $tree );
 
