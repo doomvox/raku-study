@@ -19,6 +19,7 @@ use v6;
 
 
 
+
     # change the quoted string, but leave quotes alone (or so I thought...)
     say 
         $str ~~ s/<quoted>/refrain/;
