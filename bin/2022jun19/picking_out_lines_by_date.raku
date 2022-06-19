@@ -16,7 +16,7 @@ use v6;
 
 # 13/03/2020
 
-
+# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun19/dat/data_by_dates.txt
 
 
 
