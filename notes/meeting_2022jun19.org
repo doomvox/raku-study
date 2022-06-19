@@ -20,6 +20,7 @@
 
 **** rob ramsbottom
 ***** relating to the community
+***** initiating pull requests and so on 
 
 *** from the last meeting notes
 **** continuing adventures with move/copy/rename
