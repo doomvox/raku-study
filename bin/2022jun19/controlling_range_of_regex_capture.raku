@@ -7,8 +7,9 @@ use v6;
 
 # raku's '<(' and ')>' control the range of the default capture
 
-# # zoffix example, 2018 talk
-my regex quoted { \" <( <-["]>+ )> \" }  
+{
+    ## zoffix example, 2018 talk
+    my regex quoted { \" <( <-["]>+ )> \" }  
 
 my $str = q{The "rain" in Spain sprains the brain.};
 say $str;
@@ -19,6 +20,7 @@ $str ~~ s/<quoted>/refrain/;
 say $str; # The refrain in Spain sprains the brain.
 
 # But: refrain is *not* quoted.  Is this a bug?
+}
 
 
 # I thought:
@@ -33,3 +35,4 @@ say 'abc' ~~ / a <( b )> c/;            # ｢b｣
 
 # As does this rather weirdzo example:
 say 'abc' ~~ / <(a <( b )> c)>/;        # ｢bc｣
+
