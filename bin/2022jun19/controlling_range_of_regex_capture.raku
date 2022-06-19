@@ -33,7 +33,7 @@ use v6;
     # OH: starting to see what's going on... 
 
     say $str; # The refrain in Spain sprains the brain.
-    # Note: refrain is *not* quoted.  Is this a BUG?
+    # Note: refrain is *not* quoted.  Bug, or just weird?
 
     say "===";
 }
@@ -56,7 +56,7 @@ use v6;
     my $new_str = $str.subst(/<quoted>/, 'refrain');
     say $new_str;
     # The refrain in Spain sprains the brain.
-    # So, still got bug.
+    # So, still got weird.
 }
 
 
