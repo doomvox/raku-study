@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#org8330a1b)
-  - [the raku study group](#org43d1b83)
-    - [topics](#org8febdc0)
-    - [from the last meeting notes](#orge1713d3)
-    - [for future meetings](#org86fb1cb)
-  - [announcements](#org39aa047)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgafa97d0)
-    - [June 21-25: tprc: perl/raku conference](#org54212bc)
+- [meeting notes June 19, 2022](#org6a86b6b)
+  - [the raku study group](#org9ebe067)
+    - [topics](#org7aed05c)
+    - [from the last meeting notes](#org7b33271)
+    - [for future meetings](#org0e9911b)
+  - [announcements](#org5da2376)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org5273450)
+    - [June 21-25: tprc: perl/raku conference](#org28fff2e)
 
 
-<a id="org8330a1b"></a>
+<a id="org6a86b6b"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="org43d1b83"></a>
+<a id="org9ebe067"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="org8febdc0"></a>
+<a id="org7aed05c"></a>
 
 ### topics
 
@@ -66,14 +66,14 @@
         
             1.  I have a file that got dates from 01/01/2020 to 04/04/2021 I want to get only the dates between 01/03/2020 to 01/03/2021 by using egrep. I tried to do
             
-                raku -ne 'my $ts = .subst(/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) /, {"$2-$1-$0"}).Date; say $ts if Date.new("2020-03-01") < $ts < Date.new ("2021-03-01");'
+                1.  raku -ne 'my $ts = .subst(/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) /, {"$2-$1-$0"}).Date; say $ts if Date.new("2020-03-01") < $ts < Date.new("2021-03-01");' file
                 
-                raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file 13/03/2020
+                2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 5.  the toddandmargo show on perl6-users
 
 
-<a id="orge1713d3"></a>
+<a id="org7b33271"></a>
 
 ### from the last meeting notes
 
@@ -100,7 +100,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org86fb1cb"></a>
+<a id="org0e9911b"></a>
 
 ### for future meetings
 
@@ -131,17 +131,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org39aa047"></a>
+<a id="org5da2376"></a>
 
 ## announcements
 
 
-<a id="orgafa97d0"></a>
+<a id="org5273450"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org54212bc"></a>
+<a id="org28fff2e"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
