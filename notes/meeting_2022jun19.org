@@ -30,6 +30,9 @@
 raku -ne 'my $ts = .subst(/ ^ (\d**2) \/ (\d**2) \/ (\d**4) /, {"$2-$1-$0"}).Date; say $ts if Date.new("2020-03-01") < $ts < Date.new
 ("2021-03-01");' 
 
+raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d**2) \/ (\d**2) \/ (\d**4) /{"$2-$1-$0"}/.Date < Date.new("2021-03-01");' file
+13/03/2020
+
 
 **** the toddandmargo show on perl6-users
 
