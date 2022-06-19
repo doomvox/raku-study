@@ -17,6 +17,10 @@ use v6;
     # ｢rain｣
     #  quoted => ｢rain｣
 
+    $<quoted>
+    $/<quoted>
+
+    $/
 
     # change the quoted string, but leave quotes alone (or so I thought...)
     say 
