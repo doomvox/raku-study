@@ -92,6 +92,8 @@ use v6;
     # The "rain" in Spain sprains the brain.
 
     say $str ~~ m/<quoted>/;
+
+    # What we used to get:
     # ｢"rain"｣
     #   quoted => ｢rain｣
 
