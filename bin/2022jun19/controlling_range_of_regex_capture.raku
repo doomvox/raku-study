@@ -8,7 +8,7 @@ use v6;
 # raku's '<(' and ')>' control the range of the default capture
 
 # # zoffix example, 2018 talk
-my regex quoted { \" <( <-["]>+ )> \" }  # ]
+my regex quoted { \" <( <-["]>+ )> \" }  # ])
 
 my $str 
 
