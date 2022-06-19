@@ -28,4 +28,6 @@ say $str; # The refrain in Spain sprains the brain.
 
 
 
-say 'abc' ~~ / a <( b )> c/;            # OUTPUT: «｢b｣␤» 
+# Simple example from the docs, works as advertised: 
+say 'abc' ~~ / a <( b )> c/;            # ｢b｣
+
