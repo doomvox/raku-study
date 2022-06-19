@@ -85,7 +85,7 @@ use v6;
 
 {
     say "===";
-    my regex quoted { <( \" <-["]>+ \" )> }  
+    my regex quoted { <( \" <-["]>+ \" )> }  # putting capture markers around whole pattern
 
     my $str = q{The "rain" in Spain sprains the brain.};
     say $str;
