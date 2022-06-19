@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#orgee0bc9b)
-  - [the raku study group](#orga4f85b8)
-    - [topics](#org87c4713)
-    - [from the last meeting notes](#org7ab93ec)
-    - [for future meetings](#orgfe1e9e3)
-  - [announcements](#org9136be0)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgcd96e46)
-    - [June 21-25: tprc: perl/raku conference](#org0f3165a)
+- [meeting notes June 19, 2022](#org8b77318)
+  - [the raku study group](#org6bdeb2a)
+    - [topics](#org97baea4)
+    - [from the last meeting notes](#orga0637e7)
+    - [for future meetings](#org58c5860)
+  - [announcements](#org2494e11)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgeba4375)
+    - [June 21-25: tprc: perl/raku conference](#org8311676)
 
 
-<a id="orgee0bc9b"></a>
+<a id="org8b77318"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="orga4f85b8"></a>
+<a id="org6bdeb2a"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="org87c4713"></a>
+<a id="org97baea4"></a>
 
 ### topics
 
@@ -67,11 +67,13 @@
             raku -ne 'my $ts = .subst(/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) /, {"$2-$1-$0"}).Date; say $ts if Date.new("2020-03-01") < $ts < Date.new ("2021-03-01");'
             
             raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file 13/03/2020
+            
+            I have a file that got dates from 01/01/2020 to 04/04/2021 I want to get only the dates between 01/03/2020 to 01/03/2021 by using egrep. I tried to do
 
 5.  the toddandmargo show on perl6-users
 
 
-<a id="org7ab93ec"></a>
+<a id="orga0637e7"></a>
 
 ### from the last meeting notes
 
@@ -98,7 +100,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="orgfe1e9e3"></a>
+<a id="org58c5860"></a>
 
 ### for future meetings
 
@@ -129,17 +131,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org9136be0"></a>
+<a id="org2494e11"></a>
 
 ## announcements
 
 
-<a id="orgcd96e46"></a>
+<a id="orgeba4375"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org0f3165a"></a>
+<a id="org8311676"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
