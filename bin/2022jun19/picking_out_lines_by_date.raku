@@ -29,4 +29,4 @@ for @lines {
     }
 }
 
-say @result;
+say @result.for;
