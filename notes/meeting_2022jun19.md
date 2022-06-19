@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#org2150fda)
-  - [the raku study group](#orgbb927a2)
-    - [topics](#orgc3ac06a)
-    - [from the last meeting notes](#orgc537c9d)
-    - [for future meetings](#org6d26f12)
-  - [announcements](#orgca08d74)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org33bb070)
-    - [June 21-25: tprc: perl/raku conference](#org546d621)
+- [meeting notes June 19, 2022](#org6edf272)
+  - [the raku study group](#orgf2fcc3a)
+    - [topics](#org0ddf6a7)
+    - [from the last meeting notes](#org41f248c)
+    - [for future meetings](#org067655f)
+  - [announcements](#org3cb455b)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgdf7f600)
+    - [June 21-25: tprc: perl/raku conference](#orgf7396d5)
 
 
-<a id="org2150fda"></a>
+<a id="org6edf272"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="orgbb927a2"></a>
+<a id="orgf2fcc3a"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="orgc3ac06a"></a>
+<a id="org0ddf6a7"></a>
 
 ### topics
 
@@ -56,6 +56,8 @@
 
 3.  the great file manipulation issue like does rename reanme
 
+    1.  verbal status report
+
 4.  unix.stackexchange
 
     1.  william michels
@@ -63,7 +65,7 @@
 5.  the toddandmargo show on perl6-users
 
 
-<a id="orgc537c9d"></a>
+<a id="org41f248c"></a>
 
 ### from the last meeting notes
 
@@ -90,7 +92,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org6d26f12"></a>
+<a id="org067655f"></a>
 
 ### for future meetings
 
@@ -121,17 +123,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgca08d74"></a>
+<a id="org3cb455b"></a>
 
 ## announcements
 
 
-<a id="org33bb070"></a>
+<a id="orgdf7f600"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org546d621"></a>
+<a id="orgf7396d5"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

@@ -21,6 +21,7 @@
 ******* TODO add some comments
 
 **** the great file manipulation issue like does rename reanme 
+***** verbal status report
 
 **** unix.stackexchange
 ***** william michels
