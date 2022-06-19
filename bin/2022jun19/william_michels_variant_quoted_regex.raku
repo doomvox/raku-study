@@ -17,6 +17,8 @@ use v6;
     # ｢"rain"｣
     #   quoted => ｢rain｣
 
+
+
     # change the quoted string, but leave quotes alone (or so I thought...)
     say 
         $str ~~ s/<quoted>/refrain/;
