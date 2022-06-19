@@ -7,7 +7,9 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2022jun19
 
 *** topics
+**** regex feature: control what's captured with <( ... )>
 
+** Q: what's the Raku equivalent for p5's \K?
 
 *** from the last meeting notes
 **** continuing adventures with move/copy/rename
@@ -21,6 +23,7 @@
 ******* eventually this will bt out: https://github.com/doomvox/darkroast
 ***** some basics
 ****** https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku
+
 
 
 *** for future meetings 
