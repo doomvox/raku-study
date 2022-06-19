@@ -41,7 +41,7 @@ use v6;
     say $str; # The "rain" in Spain sprains the brain.
     # So that doesn't match at all?  
 
-
+    # Oh:
     my $new_str = $str.subst(/<quoted>/, 'refrain');
 
 
