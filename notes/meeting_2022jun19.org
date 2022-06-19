@@ -13,7 +13,6 @@
 
 **** the great file manipulation issue like does rename reanme 
 
-
 **** unix.stackexchange
 ***** william michels
 
