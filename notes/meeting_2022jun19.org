@@ -1,10 +1,10 @@
-* meeting notes June 05, 2022
+* meeting notes June 19, 2022
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022may22.md
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jun19.md
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2022may22
+****** https://github.com/doomvox/raku-study/tree/main/bin/2022jun19
 
 *** topics
 **** perl
