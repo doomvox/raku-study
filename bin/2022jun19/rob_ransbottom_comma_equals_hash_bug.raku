@@ -2,8 +2,6 @@
 # 
 # rob_ransbottom_comma_equals_hash_bug.raku            19 Jun 2022 
 
-use v6;
-
 # Reported:
 #  https://github.com/rakudo/rakudo/issues/4945
 
