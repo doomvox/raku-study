@@ -15,6 +15,7 @@ my $str = q{The "rain" in Spain sprains the brain.};
 # # change the quoted string, but leave quotes alone
 $str ~~ s/<quoted>/refrain/;
 
+say $str;
 
 # perl5's \K is to "keep" the part in front and substitute the remainder
 # $str =~ s{ $prefix_pat \K this }{that}xms;
