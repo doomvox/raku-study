@@ -32,7 +32,9 @@ use v6;
     my regex quoted { \" <( <-["]>+ )> \" }  
 
     my $str = q{The "rain" in Spain sprains the brain.};
-    say $str;
+    say $str;  # The refrain in Spain sprains the brain.
+    # Note: refrain is *not* quoted.  Is this a BUG?
+
 
     # change the quoted string, but leave quotes alone (or so I thought...)
     # $str.subst('<quoted>', 'refrain');
@@ -40,11 +42,11 @@ use v6;
     say $str; # The "rain" in Spain sprains the brain.
     # So that doesn't match at all?  
 
-    $str.subst(/<quoted>/, 'refrain');
 
 
 
-    # Note: refrain is *not* quoted.  Is this a BUG?
+
+
 
 }
 
