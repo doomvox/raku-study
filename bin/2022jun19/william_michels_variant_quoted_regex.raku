@@ -14,7 +14,9 @@ use v6;
     # The "rain" in Spain sprains the brain.
 
     say $str ~~ m/<quoted>/;
-    #  False
+    # ｢rain｣
+    #  quoted => ｢rain｣
+
 
 
     # change the quoted string, but leave quotes alone (or so I thought...)
