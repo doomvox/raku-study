@@ -32,6 +32,7 @@ use v6;
     say $str; # The refrain in Spain sprains the brain.
     # Note: refrain is *not* quoted.  Is this a BUG?
 
+    say "===";
 }
 
 {
