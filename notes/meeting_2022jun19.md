@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#orgd5b5b83)
-  - [the raku study group](#org2718434)
-    - [topics](#org7e56605)
-    - [from the last meeting notes](#org88e13cb)
-    - [save for next time](#org20737a3)
-  - [announcements](#org145be00)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgc89bf74)
-    - [June 21-25: tprc: perl/raku conference](#org1c262c7)
+- [meeting notes June 19, 2022](#orgdd3ad07)
+  - [the raku study group](#org0810ba3)
+    - [topics](#org46f987e)
+    - [from the last meeting notes](#org8536ae3)
+    - [save for next time](#org6e6bf80)
+  - [announcements](#orgec0af07)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgefb6ec0)
+    - [June 21-25: tprc: perl/raku conference](#org8a8dc41)
 
 
-<a id="orgd5b5b83"></a>
+<a id="orgdd3ad07"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="org2718434"></a>
+<a id="org0810ba3"></a>
 
 ## the raku study group
 
@@ -28,12 +28,12 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="org7e56605"></a>
+<a id="org46f987e"></a>
 
 ### topics
 
 
-<a id="org88e13cb"></a>
+<a id="org8536ae3"></a>
 
 ### from the last meeting notes
 
@@ -59,9 +59,7 @@
     
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
-2.  my intro to raku spiels need work: hyperoperators, junctions, etc.
-
-3.  rob ransbottom topics
+2.  rob ransbottom topics
 
     1.  possible bug in raku: appending to a hash with ,= op with slice from another hash
     
@@ -96,7 +94,7 @@
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/lib/david<sub>christensen</sub>-circular<sub>dependencies.pm</sub>
 
 
-<a id="org20737a3"></a>
+<a id="org6e6bf80"></a>
 
 ### save for next time
 
@@ -127,17 +125,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org145be00"></a>
+<a id="orgec0af07"></a>
 
 ## announcements
 
 
-<a id="orgc89bf74"></a>
+<a id="orgefb6ec0"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org1c262c7"></a>
+<a id="org8a8dc41"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
