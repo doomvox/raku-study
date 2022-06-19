@@ -20,7 +20,6 @@ say $str;
 
 # perl5's \K is to "keep" the part in front and substitute the remainder
 # $str =~ s{ $prefix_pat \K this }{that}xms;
-
 # \K is like <(,  )> has no perl equivalent
 
 
