@@ -24,8 +24,6 @@ use v6;
     # ｢"rain"｣
     #   quoted => ｢rain｣
 
-
-
     say $str; 
     # The "refrain" in Spain sprains the brain.
 
