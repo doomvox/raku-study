@@ -29,4 +29,7 @@ for @lines {
     }
 }
 
-say @result>>.for;
+for @result -> $r {
+    say $r;
+}
+
