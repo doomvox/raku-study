@@ -76,4 +76,6 @@ use v6;
 
 
 
-
+# Note: Can get at named capture like so: "$<quoted>"
+#       But can't get at surrounding material without making it a capture.
+#       So I'm not seeing the point of these <(...)>.
