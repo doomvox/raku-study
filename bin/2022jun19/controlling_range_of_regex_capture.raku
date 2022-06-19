@@ -9,7 +9,6 @@ use v6;
 
 # # zoffix example, 2018 talk
 my regex quoted { \" <( <-["]>+ )> \" }  
-")"
 
 my $str 
 
