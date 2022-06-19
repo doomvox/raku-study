@@ -29,6 +29,8 @@ use v6;
     say $str; 
     # The "refrain" in Spain sprains the brain.
 
+    # The Michels solution works.
+
 
     say "===";
 }
