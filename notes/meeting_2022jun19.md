@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#org7adc827)
-  - [the raku study group](#org27bc886)
-    - [topics](#org29820bd)
-    - [from the last meeting notes](#org0d79bdf)
-    - [for future meetings](#org4274d17)
-  - [announcements](#org3e62b1b)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org8479d0e)
-    - [June 21-25: tprc: perl/raku conference](#orgcb2071e)
+- [meeting notes June 19, 2022](#org9009f66)
+  - [the raku study group](#org5383a9e)
+    - [topics](#orge693c0b)
+    - [from the last meeting notes](#orgb0282e5)
+    - [for future meetings](#orgcd80dc1)
+  - [announcements](#org231125a)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org2e3ba5f)
+    - [June 21-25: tprc: perl/raku conference](#org3c83fb3)
 
 
-<a id="org7adc827"></a>
+<a id="org9009f66"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="org27bc886"></a>
+<a id="org5383a9e"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="org29820bd"></a>
+<a id="orge693c0b"></a>
 
 ### topics
 
@@ -42,15 +42,7 @@
     
     3.  can do it with zero-width after/before matches
 
-2.  the great file manipulation issue like does rename reanme
-
-3.  unix.stackexchange
-
-    1.  william michels
-
-4.  the toddandmargo show on perl6-users
-
-5.  rob ramsbottom
+2.  rob ramsbottom
 
     1.  relating to the community
     
@@ -60,8 +52,16 @@
         
             1.  <https://github.com/rakudo/rakudo/issues/4945>
 
+3.  the great file manipulation issue like does rename reanme
 
-<a id="org0d79bdf"></a>
+4.  unix.stackexchange
+
+    1.  william michels
+
+5.  the toddandmargo show on perl6-users
+
+
+<a id="orgb0282e5"></a>
 
 ### from the last meeting notes
 
@@ -88,7 +88,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org4274d17"></a>
+<a id="orgcd80dc1"></a>
 
 ### for future meetings
 
@@ -119,17 +119,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org3e62b1b"></a>
+<a id="org231125a"></a>
 
 ## announcements
 
 
-<a id="org8479d0e"></a>
+<a id="org2e3ba5f"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="orgcb2071e"></a>
+<a id="org3c83fb3"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

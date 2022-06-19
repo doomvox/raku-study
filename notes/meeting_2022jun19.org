@@ -13,18 +13,19 @@
 ***** <( isn't really equivalent to <(
 ***** can do it with zero-width after/before matches
 
+**** rob ramsbottom
+***** relating to the community
+****** initiating pull requests and so on 
+****** rob opened a github issue, no action:
+******* https://github.com/rakudo/rakudo/issues/4945
+
+
 **** the great file manipulation issue like does rename reanme 
 
 **** unix.stackexchange
 ***** william michels
 
 **** the toddandmargo show on perl6-users
-
-**** rob ramsbottom
-***** relating to the community
-****** initiating pull requests and so on 
-****** rob opened a github issue, no action:
-******* https://github.com/rakudo/rakudo/issues/4945
 
 *** from the last meeting notes
 **** continuing adventures with move/copy/rename
