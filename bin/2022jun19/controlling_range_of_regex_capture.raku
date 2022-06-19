@@ -24,7 +24,6 @@ use v6;
     say 
         $str ~~ s/<quoted>/refrain/;
 
-
     # ｢"rain"｣
     #   quoted => ｢rain｣
 
