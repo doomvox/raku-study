@@ -7,16 +7,14 @@ use v6;
 
 
 {
-    my regex quoted { <?before \"> <-["]>+ <?after \"> }
+    my regex quoted { <?after \"> <-["]>+ <?before \"> }
 
     my $str = q{The "rain" in Spain sprains the brain.};
     say $str;
     # The "rain" in Spain sprains the brain.
 
     say $str ~~ m/<quoted>/;
-    # ｢"rain"｣
-    #   quoted => ｢rain｣
-
+    #  False
 
 
     # change the quoted string, but leave quotes alone (or so I thought...)
