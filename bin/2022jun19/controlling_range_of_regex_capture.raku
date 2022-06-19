@@ -41,5 +41,4 @@ use v6;
   # Okaaay.  (Why doesn't it try to match on a literal ")>"?)
   # 
   # Anyway: only one set of these braces makes sense, don't try to nest them.
-
 }
