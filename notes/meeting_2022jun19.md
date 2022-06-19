@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#org1e0bc07)
-  - [the raku study group](#orgcdafe8f)
-    - [topics](#org385b20b)
-    - [from the last meeting notes](#org67dee4d)
-    - [for future meetings](#org437f615)
-  - [announcements](#orgdf0e8ef)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orga357e84)
-    - [June 21-25: tprc: perl/raku conference](#org729aef7)
+- [meeting notes June 19, 2022](#orgd5ca75e)
+  - [the raku study group](#org10fdf11)
+    - [topics](#org650d4a4)
+    - [from the last meeting notes](#orgaba39a1)
+    - [for future meetings](#org038de67)
+  - [announcements](#org9adf7c3)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgca6b6a1)
+    - [June 21-25: tprc: perl/raku conference](#org0ab870b)
 
 
-<a id="org1e0bc07"></a>
+<a id="orgd5ca75e"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="orgcdafe8f"></a>
+<a id="org10fdf11"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="org385b20b"></a>
+<a id="org650d4a4"></a>
 
 ### topics
 
@@ -44,12 +44,14 @@
 
     1.  william michels
 
-4.  rob ramsbottom
+4.  the toddandmargo show on perl6-users
+
+5.  rob ramsbottom
 
     1.  relating to the community
 
 
-<a id="org67dee4d"></a>
+<a id="orgaba39a1"></a>
 
 ### from the last meeting notes
 
@@ -76,7 +78,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org437f615"></a>
+<a id="org038de67"></a>
 
 ### for future meetings
 
@@ -107,17 +109,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgdf0e8ef"></a>
+<a id="org9adf7c3"></a>
 
 ## announcements
 
 
-<a id="orga357e84"></a>
+<a id="orgca6b6a1"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org729aef7"></a>
+<a id="org0ab870b"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

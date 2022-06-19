@@ -17,6 +17,8 @@
 **** unix.stackexchange
 ***** william michels
 
+**** the toddandmargo show on perl6-users
+
 **** rob ramsbottom
 ***** relating to the community
 
