@@ -11,8 +11,8 @@ my $tree = "$dat_loc/tree1";
 
 ## if tree1 exists, cut it
 
+## expand tar archive to restore tree1 to its original state
 my $tar_file = "$dat_loc/tree1_original.tar.gz";
-
 chdir( $dat_loc );
 my $captured = shell("tar -xczf $tar_file", :out).out.slurp;
 
