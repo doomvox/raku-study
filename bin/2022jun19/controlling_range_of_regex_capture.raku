@@ -76,7 +76,7 @@ use v6;
 
 
 
-# Note: Can get at named capture like so: "$<quoted>" or "$\<quotes>"
+# Note: Can get at named capture like so: "$<quoted>" or "$\<quoted>"
 #       But can't get at surrounding material without making it a capture.
 #       So I'm not seeing the point of these <(...)>.
 #       They're not the equiv of \K.
