@@ -33,4 +33,11 @@ use v6;
 
   # As does this rather weirdzo example:
   say 'abc' ~~ / <(a <( b )> c)>/;        # ｢bc｣
+
+  #  ... they are actually independent of each other, the inner-most
+  #  start point wins (the one attached to b) and the outer-most end
+  #  wins (the one attached to c).
+
+  # Okaaay.  (Why doesn't it try to match on a literal ")>"?)
+
 }
