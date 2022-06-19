@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#orgeb4a36b)
-  - [the raku study group](#org8cfa7da)
-    - [topics](#orgb1ee6f8)
-    - [from the last meeting notes](#orgc460c09)
-    - [for future meetings](#org3342376)
-  - [announcements](#org095233b)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgccd693e)
-    - [June 21-25: tprc: perl/raku conference](#orgf5f3e42)
+- [meeting notes June 19, 2022](#orgb5ca188)
+  - [the raku study group](#org81d73ad)
+    - [topics](#org6b29415)
+    - [from the last meeting notes](#org71cdc4c)
+    - [for future meetings](#orgc6bd376)
+  - [announcements](#org33404f5)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org641c43f)
+    - [June 21-25: tprc: perl/raku conference](#org95753a9)
 
 
-<a id="orgeb4a36b"></a>
+<a id="orgb5ca188"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="org8cfa7da"></a>
+<a id="org81d73ad"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="orgb1ee6f8"></a>
+<a id="org6b29415"></a>
 
 ### topics
 
@@ -37,6 +37,10 @@
     1.  from an old question in my notes:
     
         1.  Q: what's the Raku equivalent for p5's \K?
+    
+    2.  <( isn't really equivalent to <(
+    
+    3.  can do it with zero-width after/before matches
 
 2.  the great file manipulation issue like does rename reanme
 
@@ -57,7 +61,7 @@
             1.  <https://github.com/rakudo/rakudo/issues/4945>
 
 
-<a id="orgc460c09"></a>
+<a id="org71cdc4c"></a>
 
 ### from the last meeting notes
 
@@ -84,7 +88,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org3342376"></a>
+<a id="orgc6bd376"></a>
 
 ### for future meetings
 
@@ -115,17 +119,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org095233b"></a>
+<a id="org33404f5"></a>
 
 ## announcements
 
 
-<a id="orgccd693e"></a>
+<a id="org641c43f"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="orgf5f3e42"></a>
+<a id="org95753a9"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

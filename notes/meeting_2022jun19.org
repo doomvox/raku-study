@@ -10,6 +10,9 @@
 **** regex feature: control what's captured with <( ... )>
 ***** from an old question in my notes:
 ****** Q: what's the Raku equivalent for p5's \K?
+***** <( isn't really equivalent to <(
+***** can do it with zero-width after/before matches
+
 
 **** the great file manipulation issue like does rename reanme 
 
