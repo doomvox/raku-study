@@ -42,6 +42,7 @@ use v6;
     # So that doesn't match at all?  
 
 
+    my $new_str = $str.subst(/<quoted>/, 'refrain');
 
 
 
