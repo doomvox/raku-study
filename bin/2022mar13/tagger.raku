@@ -30,7 +30,7 @@ sub MAIN( $lst_file, $tag ) {
        my $new_file = "$loc/$shortbase-$tag.$ext";
        $file_io.rename( $new_file ); # does a copy not a rename?  weird.  BUG.
 
-       unlink( $line ); ## TODO why did I need to do this?
+#       unlink( $line ); ## TODO why did I need to do this?
        say "$new_file";
     }
 }
