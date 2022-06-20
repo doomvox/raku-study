@@ -12,6 +12,7 @@
 ****** Q: what's the Raku equivalent for p5's \K?
 ***** <( isn't really equivalent to <(
 ***** can do it with zero-width after/before matches
+***** or by having multiple ordered captures, etc.
 
 **** rob ramsbottom
 ***** relating to the community
