@@ -13,6 +13,7 @@
 ***** <( isn't really equivalent to <(
 ***** can do it with zero-width after/before matches
 ***** or by having multiple ordered captures, etc.
+****** TODO try a variant without a named pattern ala quoted: what if it's embedded?
 
 **** rob ramsbottom
 ***** relating to the community

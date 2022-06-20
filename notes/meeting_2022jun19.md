@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#org402c80d)
-  - [the raku study group](#orga3f7428)
-    - [topics](#org8b57db4)
-    - [from the last meeting notes](#org87bb728)
-    - [for future meetings](#org0e67237)
-  - [announcements](#org1da1e9f)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org034a1e3)
-    - [June 21-25: tprc: perl/raku conference](#orgb930051)
+- [meeting notes June 19, 2022](#org46ea5d0)
+  - [the raku study group](#orge66a9cd)
+    - [topics](#org555764f)
+    - [from the last meeting notes](#org9dcc8bf)
+    - [for future meetings](#org751463d)
+  - [announcements](#org8cbcc32)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org1ca151a)
+    - [June 21-25: tprc: perl/raku conference](#org4a910be)
 
 
-<a id="org402c80d"></a>
+<a id="org46ea5d0"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="orga3f7428"></a>
+<a id="orge66a9cd"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="org8b57db4"></a>
+<a id="org555764f"></a>
 
 ### topics
 
@@ -43,6 +43,8 @@
     3.  can do it with zero-width after/before matches
     
     4.  or by having multiple ordered captures, etc.
+    
+        1.  TODO try a variant without a named pattern ala quoted: what if it's embedded?
 
 2.  rob ramsbottom
 
@@ -79,7 +81,7 @@
     1.  diy amateur encyrption&#x2026; uh.
 
 
-<a id="org87bb728"></a>
+<a id="org9dcc8bf"></a>
 
 ### from the last meeting notes
 
@@ -106,7 +108,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org0e67237"></a>
+<a id="org751463d"></a>
 
 ### for future meetings
 
@@ -137,17 +139,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org1da1e9f"></a>
+<a id="org8cbcc32"></a>
 
 ## announcements
 
 
-<a id="org034a1e3"></a>
+<a id="org1ca151a"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="orgb930051"></a>
+<a id="org4a910be"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
