@@ -28,9 +28,10 @@ sub MAIN( $lst_file, $tag ) {
        # my $shortbase = $base.chop( $ext.elems + 1 );
 
        my $new_file = "$loc/$shortbase-$tag.$ext";
-       $file_io.rename( $new_file ); # does a copy not a rename?  weird.  BUG.
+       $file_io.rename( $new_file );
 
 #       unlink( $line ); ## TODO why did I need to do this?
+#                        ## .rename was doing a copy not a rename
 #                        ## can't reproduce the problem now-- 2022jun19
 
        say "$new_file";
