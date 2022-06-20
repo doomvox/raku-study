@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#orgc7a49c0)
-  - [the raku study group](#org048e851)
-    - [topics](#org05a6d0e)
-    - [from the last meeting notes](#orgc32a704)
-    - [for future meetings](#org4560e62)
-  - [announcements](#org41d72ea)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgda94b58)
-    - [June 21-25: tprc: perl/raku conference](#orge91e48a)
+- [meeting notes June 19, 2022](#org082baf5)
+  - [the raku study group](#org494fcd9)
+    - [topics](#orgcfe4a00)
+    - [from the last meeting notes](#orga24fadf)
+    - [for future meetings](#org43199e5)
+  - [announcements](#orgb9870e3)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org674b09b)
+    - [June 21-25: tprc: perl/raku conference](#org91ba200)
 
 
-<a id="orgc7a49c0"></a>
+<a id="org082baf5"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="org048e851"></a>
+<a id="org494fcd9"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="org05a6d0e"></a>
+<a id="orgcfe4a00"></a>
 
 ### topics
 
@@ -81,7 +81,7 @@
     1.  diy amateur encyrption&#x2026; uh.
 
 
-<a id="orgc32a704"></a>
+<a id="orga24fadf"></a>
 
 ### from the last meeting notes
 
@@ -101,14 +101,14 @@
         
             1.  /home/doom/End/Cave/Raku/Wall/darkroast/S32-io/rename.t
             
-            2.  eventually will be out: <https://github.com/doomvox/darkroast>
+            2.  eventually will be here: <https://github.com/doomvox/darkroast>
     
     4.  some basics
     
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org4560e62"></a>
+<a id="org43199e5"></a>
 
 ### for future meetings
 
@@ -139,17 +139,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org41d72ea"></a>
+<a id="orgb9870e3"></a>
 
 ## announcements
 
 
-<a id="orgda94b58"></a>
+<a id="org674b09b"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="orge91e48a"></a>
+<a id="org91ba200"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
