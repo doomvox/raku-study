@@ -31,6 +31,7 @@ sub MAIN( $lst_file, $tag ) {
        $file_io.rename( $new_file ); # does a copy not a rename?  weird.  BUG.
 
 #       unlink( $line ); ## TODO why did I need to do this?
+#                        ## can't reproduce the problem now-- 2022jun19
        say "$new_file";
     }
 }
