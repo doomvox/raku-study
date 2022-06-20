@@ -1,19 +1,19 @@
-- [meeting notes June 19, 2022](#org082baf5)
-  - [the raku study group](#org494fcd9)
-    - [topics](#orgcfe4a00)
-    - [from the last meeting notes](#orga24fadf)
-    - [for future meetings](#org43199e5)
-  - [announcements](#orgb9870e3)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org674b09b)
-    - [June 21-25: tprc: perl/raku conference](#org91ba200)
+- [meeting notes June 19, 2022](#org4c03b18)
+  - [the raku study group](#org4ccbbb1)
+    - [topics](#orgda24bdc)
+    - [from the last meeting notes](#org91ee0bc)
+    - [for future meetings](#org640d2f0)
+  - [announcements](#orgf0a73f4)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org418a0d4)
+    - [June 21-25: tprc: perl/raku conference](#org5d735f7)
 
 
-<a id="org082baf5"></a>
+<a id="org4c03b18"></a>
 
 # meeting notes June 19, 2022
 
 
-<a id="org494fcd9"></a>
+<a id="org4ccbbb1"></a>
 
 ## the raku study group
 
@@ -28,11 +28,17 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jun19>
 
 
-<a id="orgcfe4a00"></a>
+<a id="orgda24bdc"></a>
 
 ### topics
 
-1.  regex feature: control what's captured with <( &#x2026; )>
+1.  the double-asterix non-flattening slurpy array signature
+
+    1.  so the single asterix is flattening?
+    
+    2.  TODO investigate further, for next time
+
+2.  regex feature: control what's captured with <( &#x2026; )>
 
     1.  from an old question in my notes:
     
@@ -46,7 +52,7 @@
     
         1.  TODO try a variant without a named pattern ala quoted: what if it's embedded?
 
-2.  rob ramsbottom
+3.  rob ramsbottom
 
     1.  relating to the community
     
@@ -58,13 +64,13 @@
             
             2.  TODO add some comments, at the very least confirm the behavior.
 
-3.  the great file manipulation issue like does rename reanme
+4.  the great file manipulation issue like does rename reanme
 
     1.  verbal status report
     
     2.  poked around in docs
 
-4.  unix.stackexchange
+5.  unix.stackexchange
 
     1.  william michels
     
@@ -76,12 +82,12 @@
                 
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
-5.  the toddandmargo show on perl6-users
+6.  the toddandmargo show on perl6-users
 
     1.  diy amateur encyrption&#x2026; uh.
 
 
-<a id="orga24fadf"></a>
+<a id="org91ee0bc"></a>
 
 ### from the last meeting notes
 
@@ -108,7 +114,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org43199e5"></a>
+<a id="org640d2f0"></a>
 
 ### for future meetings
 
@@ -139,17 +145,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgb9870e3"></a>
+<a id="orgf0a73f4"></a>
 
 ## announcements
 
 
-<a id="org674b09b"></a>
+<a id="org418a0d4"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org91ba200"></a>
+<a id="org5d735f7"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

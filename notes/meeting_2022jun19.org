@@ -7,6 +7,10 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2022jun19
 
 *** topics
+**** the double-asterix non-flattening slurpy array signature
+***** so the single asterix is flattening?
+***** TODO investigate further, for next time
+
 **** regex feature: control what's captured with <( ... )>
 ***** from an old question in my notes:
 ****** Q: what's the Raku equivalent for p5's \K?
