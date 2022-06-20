@@ -32,6 +32,7 @@ sub MAIN( $lst_file, $tag ) {
 
 #       unlink( $line ); ## TODO why did I need to do this?
 #                        ## can't reproduce the problem now-- 2022jun19
+
        say "$new_file";
     }
 }
