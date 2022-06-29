@@ -25,8 +25,8 @@
 ****** TODO add some comments, at the very least confirm the behavior.
 
 **** the great file manipulation issue like does rename reanme 
-***** verbal status report
-***** poked around in docs
+***** verbal status report: difficulty reproducing the problem
+
 
 **** unix.stackexchange
 ***** william michels
