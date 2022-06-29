@@ -1,19 +1,19 @@
-- [meeting notes July 10, 2022](#org79ca4db)
-  - [the raku study group](#org8f6fe91)
-    - [topics](#orgbda0c64)
-    - [from the last meeting notes](#orgce0613a)
-    - [for future meetings](#org7210ba1)
-  - [announcements](#orgad7cbce)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org9d98b39)
-    - [June 21-25: tprc: perl/raku conference](#org5ba26fc)
+- [meeting notes July 10, 2022](#org92767a7)
+  - [the raku study group](#org27a32e4)
+    - [topics from last meeting (June 19th)](#org72b395e)
+    - [from the last meeting notes](#orgc9bd6af)
+    - [for future meetings](#org180dcb6)
+  - [announcements](#org8f5bd06)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgd2a4881)
+    - [June 21-25: tprc: perl/raku conference](#org3545ac4)
 
 
-<a id="org79ca4db"></a>
+<a id="org92767a7"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org8f6fe91"></a>
+<a id="org27a32e4"></a>
 
 ## the raku study group
 
@@ -28,9 +28,9 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orgbda0c64"></a>
+<a id="org72b395e"></a>
 
-### topics
+### topics from last meeting (June 19th)
 
 1.  the double-asterix non-flattening slurpy array signature
 
@@ -87,7 +87,7 @@
     1.  diy amateur encyrption&#x2026; uh.
 
 
-<a id="orgce0613a"></a>
+<a id="orgc9bd6af"></a>
 
 ### from the last meeting notes
 
@@ -114,7 +114,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org7210ba1"></a>
+<a id="org180dcb6"></a>
 
 ### for future meetings
 
@@ -145,17 +145,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgad7cbce"></a>
+<a id="org8f5bd06"></a>
 
 ## announcements
 
 
-<a id="org9d98b39"></a>
+<a id="orgd2a4881"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org5ba26fc"></a>
+<a id="org3545ac4"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
