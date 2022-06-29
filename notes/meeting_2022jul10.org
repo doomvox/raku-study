@@ -25,7 +25,7 @@
 ****** TODO add some comments, at the very least confirm the behavior.
 
 **** rename, move, copy
-***** verbal status report: difficulty reproducing the problem
+***** difficulty reproducing the problem
 ****** current theory: rename was "failing" after the copy, and silently skipping the ulink, even though the copies were being made
 
 **** unix.stackexchange
