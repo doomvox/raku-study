@@ -30,6 +30,9 @@ use v6;
 }
 
 
+my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
+
+
 
 # ====
 #  sheet of cheats
