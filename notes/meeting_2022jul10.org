@@ -38,9 +38,6 @@
 
 ******** raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d**2) \/ (\d**2) \/ (\d**4) /{"$2-$1-$0"}/.Date < Date.new("2021-03-01");' file
 
-**** the toddandmargo show on perl6-users
-***** diy amateur encyrption... uh.
-
 *** from the last meeting notes
 **** continuing adventures with move/copy/rename
 ***** roast test checks whether the old file name is gone after rename
