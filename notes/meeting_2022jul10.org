@@ -27,7 +27,6 @@
 **** the great file manipulation issue like does rename reanme 
 ***** verbal status report: difficulty reproducing the problem
 
-
 **** unix.stackexchange
 ***** william michels
 ****** https://unix.stackexchange.com/questions/706744/write-a-regular-expression-whose-output-will-only-be-rows-in-a-range-01-03-2021/706773#706773

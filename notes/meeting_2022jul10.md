@@ -1,19 +1,19 @@
-- [meeting notes July 10, 2022](#org9f5069e)
-  - [the raku study group](#orgb498d81)
-    - [topics from last meeting (June 19th)](#orgb959e52)
-    - [from the last meeting notes](#orgbcc001c)
-    - [for future meetings](#org59d86af)
-  - [announcements](#org944751f)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org7b01d75)
-    - [June 21-25: tprc: perl/raku conference](#orge640d35)
+- [meeting notes July 10, 2022](#org8a8cdf2)
+  - [the raku study group](#org7e11775)
+    - [topics from last meeting (June 19th)](#org8097d8b)
+    - [from the last meeting notes](#org6a604f1)
+    - [for future meetings](#org8fda9e4)
+  - [announcements](#orgeccee85)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgae14d26)
+    - [June 21-25: tprc: perl/raku conference](#orga1ace08)
 
 
-<a id="org9f5069e"></a>
+<a id="org8a8cdf2"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="orgb498d81"></a>
+<a id="org7e11775"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orgb959e52"></a>
+<a id="org8097d8b"></a>
 
 ### topics from last meeting (June 19th)
 
@@ -81,7 +81,7 @@
     1.  diy amateur encyrption&#x2026; uh.
 
 
-<a id="orgbcc001c"></a>
+<a id="org6a604f1"></a>
 
 ### from the last meeting notes
 
@@ -108,7 +108,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org59d86af"></a>
+<a id="org8fda9e4"></a>
 
 ### for future meetings
 
@@ -139,17 +139,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org944751f"></a>
+<a id="orgeccee85"></a>
 
 ## announcements
 
 
-<a id="org7b01d75"></a>
+<a id="orgae14d26"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="orge640d35"></a>
+<a id="orga1ace08"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
