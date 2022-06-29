@@ -38,21 +38,6 @@
 
 ******** raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d**2) \/ (\d**2) \/ (\d**4) /{"$2-$1-$0"}/.Date < Date.new("2021-03-01");' file
 
-*** from the last meeting notes
-**** continuing adventures with move/copy/rename
-***** roast test checks whether the old file name is gone after rename
-****** roast/S32-io/rename.t
-***** I found I needed to unlink the old after a rename
-****** https://github.com/doomvox/raku-study/bin/2022mar13/tagger.raku
-***** how can you resolve that contradiction? 
-****** try this: roast test uses temp files in current directory
-******* /home/doom/End/Cave/Raku/Wall/darkroast/S32-io/rename.t
-******* eventually will be here: https://github.com/doomvox/darkroast
-***** some basics
-****** https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku
-
-
-
 *** for future meetings 
 
 **** some relatively recent weekly challenges that weren't number theory trivia for once

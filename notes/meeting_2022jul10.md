@@ -1,19 +1,18 @@
-- [meeting notes July 10, 2022](#org0d405da)
-  - [the raku study group](#org9c86e0b)
-    - [topics from last meeting (June 19th)](#org78c2549)
-    - [from the last meeting notes](#orgeb756ce)
-    - [for future meetings](#org6f82c35)
-  - [announcements](#org2d57d06)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org69d5ed1)
-    - [June 21-25: tprc: perl/raku conference](#org9365237)
+- [meeting notes July 10, 2022](#org84d4008)
+  - [the raku study group](#orgcf72901)
+    - [topics from last meeting (June 19th)](#org1319da9)
+    - [for future meetings](#org229b950)
+  - [announcements](#orgfc239b5)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org3a81b75)
+    - [June 21-25: tprc: perl/raku conference](#org2fa0f9e)
 
 
-<a id="org0d405da"></a>
+<a id="org84d4008"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org9c86e0b"></a>
+<a id="orgcf72901"></a>
 
 ## the raku study group
 
@@ -28,7 +27,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org78c2549"></a>
+<a id="org1319da9"></a>
 
 ### topics from last meeting (June 19th)
 
@@ -79,34 +78,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="orgeb756ce"></a>
-
-### from the last meeting notes
-
-1.  continuing adventures with move/copy/rename
-
-    1.  roast test checks whether the old file name is gone after rename
-    
-        1.  roast/S32-io/rename.t
-    
-    2.  I found I needed to unlink the old after a rename
-    
-        1.  <https://github.com/doomvox/raku-study/bin/2022mar13/tagger.raku>
-    
-    3.  how can you resolve that contradiction?
-    
-        1.  try this: roast test uses temp files in current directory
-        
-            1.  /home/doom/End/Cave/Raku/Wall/darkroast/S32-io/rename.t
-            
-            2.  eventually will be here: <https://github.com/doomvox/darkroast>
-    
-    4.  some basics
-    
-        1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
-
-
-<a id="org6f82c35"></a>
+<a id="org229b950"></a>
 
 ### for future meetings
 
@@ -137,17 +109,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org2d57d06"></a>
+<a id="orgfc239b5"></a>
 
 ## announcements
 
 
-<a id="org69d5ed1"></a>
+<a id="org3a81b75"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org9365237"></a>
+<a id="org2fa0f9e"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
