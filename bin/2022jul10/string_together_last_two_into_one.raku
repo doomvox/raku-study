@@ -6,9 +6,10 @@ use v6;
 
 ## An example used in the slides for the Bruce Gray tutorial at tprc
 
-my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
-@disney.push( @disney.pop ~ @disney.pop );
-
+{
+ my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
+ @disney.push( @disney.pop ~ @disney.pop );
+}
 
 
 
