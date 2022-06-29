@@ -20,11 +20,9 @@
 ****** TODO try a variant without a named pattern ala quoted: what if it's embedded?
 
 **** rob ramsbottom
-***** relating to the community
-****** initiating pull requests and so on 
-****** rob opened a github issue, no action:
-******* https://github.com/rakudo/rakudo/issues/4945
-******* TODO add some comments, at the very least confirm the behavior.
+***** rob opened a github issue, no action:
+****** https://github.com/rakudo/rakudo/issues/4945
+****** TODO add some comments, at the very least confirm the behavior.
 
 **** the great file manipulation issue like does rename reanme 
 ***** verbal status report

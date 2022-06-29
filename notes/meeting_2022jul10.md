@@ -1,19 +1,19 @@
-- [meeting notes July 10, 2022](#org92767a7)
-  - [the raku study group](#org27a32e4)
-    - [topics from last meeting (June 19th)](#org72b395e)
-    - [from the last meeting notes](#orgc9bd6af)
-    - [for future meetings](#org180dcb6)
-  - [announcements](#org8f5bd06)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgd2a4881)
-    - [June 21-25: tprc: perl/raku conference](#org3545ac4)
+- [meeting notes July 10, 2022](#orgfc44799)
+  - [the raku study group](#org60790d8)
+    - [topics from last meeting (June 19th)](#org3e497d2)
+    - [from the last meeting notes](#orgdff2c44)
+    - [for future meetings](#org830d95e)
+  - [announcements](#orgd314543)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgcfd5a0f)
+    - [June 21-25: tprc: perl/raku conference](#orge0d4ccf)
 
 
-<a id="org92767a7"></a>
+<a id="orgfc44799"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org27a32e4"></a>
+<a id="org60790d8"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org72b395e"></a>
+<a id="org3e497d2"></a>
 
 ### topics from last meeting (June 19th)
 
@@ -54,15 +54,11 @@
 
 3.  rob ramsbottom
 
-    1.  relating to the community
+    1.  rob opened a github issue, no action:
     
-        1.  initiating pull requests and so on
+        1.  <https://github.com/rakudo/rakudo/issues/4945>
         
-        2.  rob opened a github issue, no action:
-        
-            1.  <https://github.com/rakudo/rakudo/issues/4945>
-            
-            2.  TODO add some comments, at the very least confirm the behavior.
+        2.  TODO add some comments, at the very least confirm the behavior.
 
 4.  the great file manipulation issue like does rename reanme
 
@@ -87,7 +83,7 @@
     1.  diy amateur encyrption&#x2026; uh.
 
 
-<a id="orgc9bd6af"></a>
+<a id="orgdff2c44"></a>
 
 ### from the last meeting notes
 
@@ -114,7 +110,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org180dcb6"></a>
+<a id="org830d95e"></a>
 
 ### for future meetings
 
@@ -145,17 +141,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org8f5bd06"></a>
+<a id="orgd314543"></a>
 
 ## announcements
 
 
-<a id="orgd2a4881"></a>
+<a id="orgcfd5a0f"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org3545ac4"></a>
+<a id="orge0d4ccf"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
