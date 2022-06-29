@@ -1,19 +1,18 @@
-- [meeting notes July 10, 2022](#org3addadb)
-  - [the raku study group](#org4f58a71)
-    - [a problem-ette](#orgb3084a3)
-    - [topics from last meeting (June 19th)](#orgde5f0c6)
-    - [for future meetings](#orgcb81efc)
-  - [announcements](#orgaf24778)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org6749686)
-    - [June 21-25: tprc: perl/raku conference](#org6527dbd)
+- [meeting notes July 10, 2022](#orge55f7b6)
+  - [the raku study group](#org20cc90d)
+    - [a problem-ette](#org4a5fe18)
+    - [topics from last meeting (June 19th)](#org8c118ef)
+    - [for future meetings](#org11936f8)
+  - [announcements](#orgfef32a4)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org7b2a11f)
 
 
-<a id="org3addadb"></a>
+<a id="orge55f7b6"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org4f58a71"></a>
+<a id="org20cc90d"></a>
 
 ## the raku study group
 
@@ -28,7 +27,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orgb3084a3"></a>
+<a id="org4a5fe18"></a>
 
 ### a problem-ette
 
@@ -37,7 +36,7 @@
     1.  but preserve the order
 
 
-<a id="orgde5f0c6"></a>
+<a id="org8c118ef"></a>
 
 ### topics from last meeting (June 19th)
 
@@ -88,7 +87,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="orgcb81efc"></a>
+<a id="org11936f8"></a>
 
 ### for future meetings
 
@@ -119,22 +118,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgaf24778"></a>
+<a id="orgfef32a4"></a>
 
 ## announcements
 
 
-<a id="org6749686"></a>
+<a id="org7b2a11f"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))
-
-
-<a id="org6527dbd"></a>
-
-### June 21-25: tprc: perl/raku conference
-
-1.  4 hours of Bruce Gray: talk + 3hr tutorial
-
-    1.  <https://tprc2022.sched.com/event/ylEK/command-line-filters-time-to-shine>
-    
-    2.  <https://tprc2022.sched.com/overview/type/Raku+Track>
