@@ -1,18 +1,19 @@
-- [meeting notes July 10, 2022](#orgfab714b)
-  - [the raku study group](#org9016078)
-    - [topics from last meeting (June 19th)](#org1ff16c4)
-    - [for future meetings](#orgdc53316)
-  - [announcements](#org6f0da2a)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org41b72ec)
-    - [June 21-25: tprc: perl/raku conference](#org10df329)
+- [meeting notes July 10, 2022](#org3addadb)
+  - [the raku study group](#org4f58a71)
+    - [a problem-ette](#orgb3084a3)
+    - [topics from last meeting (June 19th)](#orgde5f0c6)
+    - [for future meetings](#orgcb81efc)
+  - [announcements](#orgaf24778)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org6749686)
+    - [June 21-25: tprc: perl/raku conference](#org6527dbd)
 
 
-<a id="orgfab714b"></a>
+<a id="org3addadb"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org9016078"></a>
+<a id="org4f58a71"></a>
 
 ## the raku study group
 
@@ -27,7 +28,16 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org1ff16c4"></a>
+<a id="orgb3084a3"></a>
+
+### a problem-ette
+
+1.  remove last two elements of an array, add a new element with them strung together
+
+    1.  but preserve the order
+
+
+<a id="orgde5f0c6"></a>
 
 ### topics from last meeting (June 19th)
 
@@ -78,7 +88,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="orgdc53316"></a>
+<a id="orgcb81efc"></a>
 
 ### for future meetings
 
@@ -109,17 +119,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org6f0da2a"></a>
+<a id="orgaf24778"></a>
 
 ## announcements
 
 
-<a id="org41b72ec"></a>
+<a id="org6749686"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))
 
 
-<a id="org10df329"></a>
+<a id="org6527dbd"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
