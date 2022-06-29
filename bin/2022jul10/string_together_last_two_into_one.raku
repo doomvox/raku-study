@@ -16,7 +16,7 @@ use v6;
 
 {
  my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
- @disney.push( { my $b = @disney.pop;  return @disney.pop ~ $b } );
+ @disney.push( { my $b = @disney.pop; my $a = @disney.pop; $a ~ $b } );
 
  say @disney; # [Ariel Belle Cinderella EeyoreDumbo]
 }
