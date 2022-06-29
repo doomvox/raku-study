@@ -55,8 +55,6 @@
 **** jonathan worthington on operator precedence, = vs ,
 ***** https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence
 
-
-
 ** announcements 
 *** July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 *** June 21-25: tprc: perl/raku conference 

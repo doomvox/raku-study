@@ -1,18 +1,18 @@
-- [meeting notes July 10, 2022](#org84d4008)
-  - [the raku study group](#orgcf72901)
-    - [topics from last meeting (June 19th)](#org1319da9)
-    - [for future meetings](#org229b950)
-  - [announcements](#orgfc239b5)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org3a81b75)
-    - [June 21-25: tprc: perl/raku conference](#org2fa0f9e)
+- [meeting notes July 10, 2022](#orgb45f804)
+  - [the raku study group](#org3311799)
+    - [topics from last meeting (June 19th)](#org56ff8cd)
+    - [for future meetings](#org224a17a)
+  - [announcements](#org2c702c1)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org99bb895)
+    - [June 21-25: tprc: perl/raku conference](#orgacb5574)
 
 
-<a id="org84d4008"></a>
+<a id="orgb45f804"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="orgcf72901"></a>
+<a id="org3311799"></a>
 
 ## the raku study group
 
@@ -27,7 +27,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org1319da9"></a>
+<a id="org56ff8cd"></a>
 
 ### topics from last meeting (June 19th)
 
@@ -78,7 +78,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="org229b950"></a>
+<a id="org224a17a"></a>
 
 ### for future meetings
 
@@ -109,17 +109,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgfc239b5"></a>
+<a id="org2c702c1"></a>
 
 ## announcements
 
 
-<a id="org3a81b75"></a>
+<a id="org99bb895"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="org2fa0f9e"></a>
+<a id="orgacb5574"></a>
 
 ### June 21-25: tprc: perl/raku conference
 
