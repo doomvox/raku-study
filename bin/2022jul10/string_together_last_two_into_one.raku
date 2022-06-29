@@ -9,6 +9,8 @@ use v6;
 {
  my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
  @disney.push( @disney.pop ~ @disney.pop );
+
+ say @disney;
 }
 
 
