@@ -22,6 +22,14 @@ use v6;
 }
 
 
+{
+ my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
+ @disney.push(  @disney[ @disney.splice( *-2, 1) ~ @disney.pop } );
+
+ say @disney; # [Ariel Belle Cinderella DumboEeyore]
+}
+
+
 
 # ====
 #  sheet of cheats
