@@ -1,19 +1,19 @@
-- [meeting notes July 10, 2022](#org8a8cdf2)
-  - [the raku study group](#org7e11775)
-    - [topics from last meeting (June 19th)](#org8097d8b)
-    - [from the last meeting notes](#org6a604f1)
-    - [for future meetings](#org8fda9e4)
-  - [announcements](#orgeccee85)
-    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#orgae14d26)
-    - [June 21-25: tprc: perl/raku conference](#orga1ace08)
+- [meeting notes July 10, 2022](#org76d026d)
+  - [the raku study group](#org4f9e305)
+    - [topics from last meeting (June 19th)](#org56df37d)
+    - [from the last meeting notes](#orgd37ea7e)
+    - [for future meetings](#org8cad63e)
+  - [announcements](#orgef70a09)
+    - [July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)](#org8b8aa0b)
+    - [June 21-25: tprc: perl/raku conference](#org27357b3)
 
 
-<a id="org8a8cdf2"></a>
+<a id="org76d026d"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org7e11775"></a>
+<a id="org4f9e305"></a>
 
 ## the raku study group
 
@@ -28,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org8097d8b"></a>
+<a id="org56df37d"></a>
 
 ### topics from last meeting (June 19th)
 
@@ -63,6 +63,8 @@
 4.  the great file manipulation issue like does rename reanme
 
     1.  verbal status report: difficulty reproducing the problem
+    
+        1.  current theory: rename was "failing" after the copy, and silently skipping the ulink, even though the copies were being made
 
 5.  unix.stackexchange
 
@@ -81,7 +83,7 @@
     1.  diy amateur encyrption&#x2026; uh.
 
 
-<a id="org6a604f1"></a>
+<a id="orgd37ea7e"></a>
 
 ### from the last meeting notes
 
@@ -108,7 +110,7 @@
         1.  <https://github.com/doomvox/raku-study/bin/2022jun05/trial-mkdir.raku>
 
 
-<a id="org8fda9e4"></a>
+<a id="org8cad63e"></a>
 
 ### for future meetings
 
@@ -139,17 +141,17 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgeccee85"></a>
+<a id="orgef70a09"></a>
 
 ## announcements
 
 
-<a id="orgae14d26"></a>
+<a id="org8b8aa0b"></a>
 
 ### July 10th: next raku study group meeting (in 3 weeks: skipping the weekend of the 4th)
 
 
-<a id="orga1ace08"></a>
+<a id="org27357b3"></a>
 
 ### June 21-25: tprc: perl/raku conference
 

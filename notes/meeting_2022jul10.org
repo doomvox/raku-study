@@ -26,6 +26,7 @@
 
 **** the great file manipulation issue like does rename reanme 
 ***** verbal status report: difficulty reproducing the problem
+****** current theory: rename was "failing" after the copy, and silently skipping the ulink, even though the copies were being made
 
 **** unix.stackexchange
 ***** william michels
