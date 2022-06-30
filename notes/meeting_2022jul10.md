@@ -1,18 +1,18 @@
-- [meeting notes July 10, 2022](#orge55f7b6)
-  - [the raku study group](#org20cc90d)
-    - [a problem-ette](#org4a5fe18)
-    - [topics from last meeting (June 19th)](#org8c118ef)
-    - [for future meetings](#org11936f8)
-  - [announcements](#orgfef32a4)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org7b2a11f)
+- [meeting notes July 10, 2022](#org55077ca)
+  - [the raku study group](#orgec4ae46)
+    - [a problem-ette](#org05ffe00)
+    - [topics from last meeting (June 19th)](#org5d2d1f8)
+    - [for future meetings](#orgd6820b6)
+  - [announcements](#org01bc484)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgccf0cf3)
 
 
-<a id="orge55f7b6"></a>
+<a id="org55077ca"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org20cc90d"></a>
+<a id="orgec4ae46"></a>
 
 ## the raku study group
 
@@ -27,16 +27,20 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org4a5fe18"></a>
+<a id="org05ffe00"></a>
 
 ### a problem-ette
 
 1.  remove last two elements of an array, add a new element with them strung together
 
     1.  but preserve the order
+    
+        1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10/string_together_last_two_into_one.raku>
+        
+        2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string<sub>together</sub><sub>last</sub><sub>two</sub><sub>into</sub><sub>one.raku</sub>
 
 
-<a id="org8c118ef"></a>
+<a id="org5d2d1f8"></a>
 
 ### topics from last meeting (June 19th)
 
@@ -87,7 +91,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="org11936f8"></a>
+<a id="orgd6820b6"></a>
 
 ### for future meetings
 
@@ -118,11 +122,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgfef32a4"></a>
+<a id="org01bc484"></a>
 
 ## announcements
 
 
-<a id="org7b2a11f"></a>
+<a id="orgccf0cf3"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))
