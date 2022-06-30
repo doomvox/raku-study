@@ -29,3 +29,5 @@ say %level{$m1};    # 9
 say %level<<$m2>>;  # 10
 
 
+my $m3 = 'gAMMeRa';
+say $level{ $m3 };
