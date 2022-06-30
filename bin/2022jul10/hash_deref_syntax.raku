@@ -30,4 +30,4 @@ say %level<<$m2>>;  # 10
 
 
 my $m3 = 'gAMMeRa';
-say $level{ $m3 };
+say %level{ $m3 };
