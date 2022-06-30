@@ -19,3 +19,7 @@ my $m1 = 'godzilla';
 my $m2 = 'ghidora';
 
 say %level<< $m1 $m2 >>;    # (9 10)
+
+%level{'doris day'} = 2;
+
+say %level<< 'doris day' golem >>;
