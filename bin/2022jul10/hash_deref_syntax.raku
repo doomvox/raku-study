@@ -37,3 +37,6 @@ say %level<< $m3.lc >>;  # ((Any) (Any))
 
 ## Hm: treats that as two keys?
 
+
+
+say %level{ godzilla }:exists;
