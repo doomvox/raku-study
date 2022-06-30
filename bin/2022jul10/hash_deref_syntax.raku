@@ -35,3 +35,5 @@ say %level{ $m3.lc };  # 5
 
 say %level<< $m3.lc >>;  # ((Any) (Any))
 
+## Hm: treats that as two keys?
+
