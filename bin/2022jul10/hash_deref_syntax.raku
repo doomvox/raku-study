@@ -22,4 +22,4 @@ say %level<< $m1 $m2 >>;    # (9 10)
 
 %level{'doris day'} = 2;
 
-say %level<< 'doris day' golem >>;
+say %level<< 'doris day' golem >>;  # (2 4)
