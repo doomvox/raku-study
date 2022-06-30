@@ -13,3 +13,9 @@ my %level =
   rhodan   => 6;
 
 say %level<<mothera rhodan>>;
+
+
+my $m1 = 'godzilla';
+my $m2 = 'ghidora';
+
+say %level<< $m1 $m2 >>;
