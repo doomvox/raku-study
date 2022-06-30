@@ -12,10 +12,10 @@ my %level =
   golem    => 4,
   rhodan   => 6;
 
-say %level<<mothera rhodan>>;
+say %level<<mothera rhodan>>;  # (6 6)
 
 
 my $m1 = 'godzilla';
 my $m2 = 'ghidora';
 
-say %level<< $m1 $m2 >>;
+say %level<< $m1 $m2 >>;    # (9 10)
