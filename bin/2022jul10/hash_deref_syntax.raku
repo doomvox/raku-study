@@ -30,5 +30,7 @@ say %level<<$m2>>;  # 10
 
 
 my $m3 = 'gAMMeRa';
-say %level{ $m3 };  # (Any)
-say %level{ $m3.lc };
+say %level{ $m3 };     # (Any)
+say %level{ $m3.lc };  # 5
+
+say %level<< $m3.lc >>;  # 5
