@@ -12,3 +12,4 @@ my %level =
   golem    => 4,
   rhodan   => 6;
 
+say %level<<mothera rhodan>>;
