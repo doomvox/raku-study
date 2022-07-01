@@ -1,18 +1,19 @@
-- [meeting notes July 10, 2022](#org55077ca)
-  - [the raku study group](#orgec4ae46)
-    - [a problem-ette](#org05ffe00)
-    - [topics from last meeting (June 19th)](#org5d2d1f8)
-    - [for future meetings](#orgd6820b6)
-  - [announcements](#org01bc484)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgccf0cf3)
+- [meeting notes July 10, 2022](#orgf9b7131)
+  - [the raku study group](#org8af4594)
+    - [The TPRC 2022 in Houston happened.  Video links are on youtube:](#orga70805e)
+    - [a problem-ette](#orgb613e39)
+    - [topics from last meeting (June 19th)](#orge63d821)
+    - [for future meetings](#org4b1eaf1)
+  - [announcements](#org544101b)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org7c8b375)
 
 
-<a id="org55077ca"></a>
+<a id="orgf9b7131"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="orgec4ae46"></a>
+<a id="org8af4594"></a>
 
 ## the raku study group
 
@@ -27,7 +28,14 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org05ffe00"></a>
+<a id="orga70805e"></a>
+
+### The TPRC 2022 in Houston happened.  Video links are on youtube:
+
+1.  <https://www.youtube.com/playlist?list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE>
+
+
+<a id="orgb613e39"></a>
 
 ### a problem-ette
 
@@ -40,7 +48,7 @@
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string<sub>together</sub><sub>last</sub><sub>two</sub><sub>into</sub><sub>one.raku</sub>
 
 
-<a id="org5d2d1f8"></a>
+<a id="orge63d821"></a>
 
 ### topics from last meeting (June 19th)
 
@@ -91,7 +99,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="orgd6820b6"></a>
+<a id="org4b1eaf1"></a>
 
 ### for future meetings
 
@@ -122,11 +130,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org01bc484"></a>
+<a id="org544101b"></a>
 
 ## announcements
 
 
-<a id="orgccf0cf3"></a>
+<a id="org7c8b375"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))
