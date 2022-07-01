@@ -7,7 +7,7 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2022jul10
 
 
-*** The TPRC 2022 in Houston happened.  Video links are on youtube:
+*** Videos are out for the TPRC 2022 in Houston:
 **** https://www.youtube.com/playlist?list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE
 
 

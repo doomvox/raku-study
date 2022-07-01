@@ -1,19 +1,19 @@
-- [meeting notes July 10, 2022](#orgf9b7131)
-  - [the raku study group](#org8af4594)
-    - [The TPRC 2022 in Houston happened.  Video links are on youtube:](#orga70805e)
-    - [a problem-ette](#orgb613e39)
-    - [topics from last meeting (June 19th)](#orge63d821)
-    - [for future meetings](#org4b1eaf1)
-  - [announcements](#org544101b)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org7c8b375)
+- [meeting notes July 10, 2022](#org23336cd)
+  - [the raku study group](#orgbe21bb8)
+    - [Videos are out for the TPRC 2022 in Houston:](#orgaf5b040)
+    - [a problem-ette](#org61cc198)
+    - [topics from last meeting (June 19th)](#org4550f88)
+    - [for future meetings](#org7c9caa3)
+  - [announcements](#org726774e)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org9a4583d)
 
 
-<a id="orgf9b7131"></a>
+<a id="org23336cd"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org8af4594"></a>
+<a id="orgbe21bb8"></a>
 
 ## the raku study group
 
@@ -28,14 +28,14 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orga70805e"></a>
+<a id="orgaf5b040"></a>
 
-### The TPRC 2022 in Houston happened.  Video links are on youtube:
+### Videos are out for the TPRC 2022 in Houston:
 
 1.  <https://www.youtube.com/playlist?list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE>
 
 
-<a id="orgb613e39"></a>
+<a id="org61cc198"></a>
 
 ### a problem-ette
 
@@ -48,7 +48,7 @@
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string<sub>together</sub><sub>last</sub><sub>two</sub><sub>into</sub><sub>one.raku</sub>
 
 
-<a id="orge63d821"></a>
+<a id="org4550f88"></a>
 
 ### topics from last meeting (June 19th)
 
@@ -99,7 +99,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="org4b1eaf1"></a>
+<a id="org7c9caa3"></a>
 
 ### for future meetings
 
@@ -130,11 +130,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org544101b"></a>
+<a id="org726774e"></a>
 
 ## announcements
 
 
-<a id="org7c8b375"></a>
+<a id="org9a4583d"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))
