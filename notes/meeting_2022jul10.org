@@ -10,6 +10,10 @@
 *** Videos are out for the TPRC 2022 in Houston:
 **** https://www.youtube.com/playlist?list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE
 
+***** Bruce Gray
+
+***** Brett Estrade
+
 
 *** a problem-ette
 **** remove last two elements of an array, add a new element with them strung together

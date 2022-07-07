@@ -1,20 +1,20 @@
-- [meeting notes July 10, 2022](#org51e4162)
-  - [the raku study group](#org42fe6b5)
-    - [Videos are out for the TPRC 2022 in Houston:](#org8707216)
-    - [a problem-ette](#org109f720)
-    - [topics from last meeting (June 19th)](#orge636410)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orgba81383)
-    - [for future meetings](#org5041461)
-  - [announcements](#orgacd188e)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org9f22495)
+- [meeting notes July 10, 2022](#org2d261e7)
+  - [the raku study group](#org89abea5)
+    - [Videos are out for the TPRC 2022 in Houston:](#org96cb94f)
+    - [a problem-ette](#org6491076)
+    - [topics from last meeting (June 19th)](#org6e63cce)
+    - [regex feature: control what's captured with <( &#x2026; )>](#orgb72774d)
+    - [for future meetings](#org2f86f72)
+  - [announcements](#org12f69e9)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org440a166)
 
 
-<a id="org51e4162"></a>
+<a id="org2d261e7"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org42fe6b5"></a>
+<a id="org89abea5"></a>
 
 ## the raku study group
 
@@ -29,14 +29,18 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org8707216"></a>
+<a id="org96cb94f"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
 1.  <https://www.youtube.com/playlist?list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE>
 
+    1.  Bruce Gray
+    
+    2.  Brett Estrade
 
-<a id="org109f720"></a>
+
+<a id="org6491076"></a>
 
 ### a problem-ette
 
@@ -49,12 +53,12 @@
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string<sub>together</sub><sub>last</sub><sub>two</sub><sub>into</sub><sub>one.raku</sub>
 
 
-<a id="orge636410"></a>
+<a id="org6e63cce"></a>
 
 ### topics from last meeting (June 19th)
 
 
-<a id="orgba81383"></a>
+<a id="orgb72774d"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -103,7 +107,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="org5041461"></a>
+<a id="org2f86f72"></a>
 
 ### for future meetings
 
@@ -134,11 +138,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgacd188e"></a>
+<a id="org12f69e9"></a>
 
 ## announcements
 
 
-<a id="org9f22495"></a>
+<a id="org440a166"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))
