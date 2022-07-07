@@ -12,7 +12,7 @@
 
 ***** Bruce Gray
 
-***** Brett Estrade
+***** Brett Estrade, thread support in perl using the gcc OpenMP feature
 
 
 *** a problem-ette
