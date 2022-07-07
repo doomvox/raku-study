@@ -12,7 +12,6 @@
 
 
 *** a problem-ette
-
 **** remove last two elements of an array, add a new element with them strung together
 ***** but preserve the order
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2022jul10/string_together_last_two_into_one.raku
