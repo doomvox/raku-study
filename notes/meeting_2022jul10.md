@@ -1,20 +1,20 @@
-- [meeting notes July 10, 2022](#org687d996)
-  - [the raku study group](#org75efe2f)
-    - [Videos are out for the TPRC 2022 in Houston:](#orgef9b7d3)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org8ded9c7)
-    - [a problem-ette](#org37b5003)
-    - [topics from last meeting (June 19th)](#orgb7545ac)
-    - [for future meetings](#org965f79a)
-  - [announcements](#orgad9f9b2)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgbb64d73)
+- [meeting notes July 10, 2022](#org6634a14)
+  - [the raku study group](#org0079bf7)
+    - [Videos are out for the TPRC 2022 in Houston:](#org677fc31)
+    - [a problem-ette](#org6bc38b3)
+    - [topics from last meeting (June 19th)](#org41aa478)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org1050cd2)
+    - [for future meetings](#org58cc6e7)
+  - [announcements](#org5eca1c8)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgd3c9cbb)
 
 
-<a id="org687d996"></a>
+<a id="org6634a14"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org75efe2f"></a>
+<a id="org0079bf7"></a>
 
 ## the raku study group
 
@@ -29,14 +29,32 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orgef9b7d3"></a>
+<a id="org677fc31"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
 1.  <https://www.youtube.com/playlist?list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE>
 
 
-<a id="org8ded9c7"></a>
+<a id="org6bc38b3"></a>
+
+### a problem-ette
+
+1.  remove last two elements of an array, add a new element with them strung together
+
+    1.  but preserve the order
+    
+        1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10/string_together_last_two_into_one.raku>
+        
+        2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string<sub>together</sub><sub>last</sub><sub>two</sub><sub>into</sub><sub>one.raku</sub>
+
+
+<a id="org41aa478"></a>
+
+### topics from last meeting (June 19th)
+
+
+<a id="org1050cd2"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -51,24 +69,6 @@
 4.  or by having multiple ordered captures, etc.
 
     1.  TODO try a variant without a named pattern ala quoted: what if it's embedded?
-
-
-<a id="org37b5003"></a>
-
-### a problem-ette
-
-1.  remove last two elements of an array, add a new element with them strung together
-
-    1.  but preserve the order
-    
-        1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10/string_together_last_two_into_one.raku>
-        
-        2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string<sub>together</sub><sub>last</sub><sub>two</sub><sub>into</sub><sub>one.raku</sub>
-
-
-<a id="orgb7545ac"></a>
-
-### topics from last meeting (June 19th)
 
 1.  the double-asterix non-flattening slurpy array signature
 
@@ -103,7 +103,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="org965f79a"></a>
+<a id="org58cc6e7"></a>
 
 ### for future meetings
 
@@ -134,11 +134,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgad9f9b2"></a>
+<a id="org5eca1c8"></a>
 
 ## announcements
 
 
-<a id="orgbb64d73"></a>
+<a id="orgd3c9cbb"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))
