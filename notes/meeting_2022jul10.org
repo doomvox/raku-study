@@ -10,7 +10,7 @@
 *** Videos are out for the TPRC 2022 in Houston:
 **** https://www.youtube.com/playlist?list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE
 
-***** Bruce Gray
+***** Bruce Gray, gray-raku_for_beginners
 
 ***** Brett Estrade, thread support in perl using the gcc OpenMP feature
 
