@@ -1,19 +1,20 @@
-- [meeting notes July 10, 2022](#orgaa70c62)
-  - [the raku study group](#org20a12a3)
-    - [Videos are out for the TPRC 2022 in Houston:](#org9459a46)
-    - [a problem-ette](#org81892df)
-    - [topics from last meeting (June 19th)](#org6f1d305)
-    - [for future meetings](#org05a6076)
-  - [announcements](#orgb63b10d)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orged74daa)
+- [meeting notes July 10, 2022](#org687d996)
+  - [the raku study group](#org75efe2f)
+    - [Videos are out for the TPRC 2022 in Houston:](#orgef9b7d3)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org8ded9c7)
+    - [a problem-ette](#org37b5003)
+    - [topics from last meeting (June 19th)](#orgb7545ac)
+    - [for future meetings](#org965f79a)
+  - [announcements](#orgad9f9b2)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgbb64d73)
 
 
-<a id="orgaa70c62"></a>
+<a id="org687d996"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org20a12a3"></a>
+<a id="org75efe2f"></a>
 
 ## the raku study group
 
@@ -28,14 +29,31 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org9459a46"></a>
+<a id="orgef9b7d3"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
 1.  <https://www.youtube.com/playlist?list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE>
 
 
-<a id="org81892df"></a>
+<a id="org8ded9c7"></a>
+
+### regex feature: control what's captured with <( &#x2026; )>
+
+1.  from an old question in my notes:
+
+    1.  Q: what's the Raku equivalent for p5's \K?
+
+2.  <( isn't really equivalent to <(
+
+3.  can do it with zero-width after/before matches
+
+4.  or by having multiple ordered captures, etc.
+
+    1.  TODO try a variant without a named pattern ala quoted: what if it's embedded?
+
+
+<a id="org37b5003"></a>
 
 ### a problem-ette
 
@@ -48,7 +66,7 @@
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string<sub>together</sub><sub>last</sub><sub>two</sub><sub>into</sub><sub>one.raku</sub>
 
 
-<a id="org6f1d305"></a>
+<a id="orgb7545ac"></a>
 
 ### topics from last meeting (June 19th)
 
@@ -58,21 +76,7 @@
     
     2.  TODO investigate further, for next time
 
-2.  regex feature: control what's captured with <( &#x2026; )>
-
-    1.  from an old question in my notes:
-    
-        1.  Q: what's the Raku equivalent for p5's \K?
-    
-    2.  <( isn't really equivalent to <(
-    
-    3.  can do it with zero-width after/before matches
-    
-    4.  or by having multiple ordered captures, etc.
-    
-        1.  TODO try a variant without a named pattern ala quoted: what if it's embedded?
-
-3.  rob ramsbottom
+2.  rob ramsbottom
 
     1.  rob opened a github issue, no action:
     
@@ -80,13 +84,13 @@
         
         2.  TODO add some comments, at the very least confirm the behavior.
 
-4.  rename, move, copy
+3.  rename, move, copy
 
     1.  difficulty reproducing the problem
     
         1.  current theory: rename was "failing" after the copy, and silently skipping the ulink, even though the copies were being made
 
-5.  unix.stackexchange
+4.  unix.stackexchange
 
     1.  william michels
     
@@ -99,7 +103,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="org05a6076"></a>
+<a id="org965f79a"></a>
 
 ### for future meetings
 
@@ -130,11 +134,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgb63b10d"></a>
+<a id="orgad9f9b2"></a>
 
 ## announcements
 
 
-<a id="orged74daa"></a>
+<a id="orgbb64d73"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))
