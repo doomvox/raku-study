@@ -1,20 +1,20 @@
-- [meeting notes July 10, 2022](#org943c987)
-  - [the raku study group](#orga922157)
-    - [Videos are out for the TPRC 2022 in Houston:](#org03bfeaa)
-    - [a problem-ette](#org5681933)
-    - [topics from last meeting (June 19th)](#orgd454490)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org0393006)
-    - [for future meetings](#orge9b19ee)
-  - [announcements](#org15b2291)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orge31bf39)
+- [meeting notes July 10, 2022](#org3512c3d)
+  - [the raku study group](#org6a69693)
+    - [Videos are out for the TPRC 2022 in Houston:](#orga50d716)
+    - [a problem-ette](#orge2591c9)
+    - [topics from last meeting (June 19th)](#org16322df)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org1437315)
+    - [for future meetings](#org0ddfbe5)
+  - [announcements](#orge27357e)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgbf5b4a2)
 
 
-<a id="org943c987"></a>
+<a id="org3512c3d"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="orga922157"></a>
+<a id="org6a69693"></a>
 
 ## the raku study group
 
@@ -29,7 +29,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org03bfeaa"></a>
+<a id="orga50d716"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -67,7 +67,7 @@
     2.  Brett Estrade, thread support in perl using the gcc OpenMP feature
 
 
-<a id="org5681933"></a>
+<a id="orge2591c9"></a>
 
 ### a problem-ette
 
@@ -80,12 +80,12 @@
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string<sub>together</sub><sub>last</sub><sub>two</sub><sub>into</sub><sub>one.raku</sub>
 
 
-<a id="orgd454490"></a>
+<a id="org16322df"></a>
 
 ### topics from last meeting (June 19th)
 
 
-<a id="org0393006"></a>
+<a id="org1437315"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -134,7 +134,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="orge9b19ee"></a>
+<a id="org0ddfbe5"></a>
 
 ### for future meetings
 
@@ -165,11 +165,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org15b2291"></a>
+<a id="orge27357e"></a>
 
 ## announcements
 
 
-<a id="orge31bf39"></a>
+<a id="orgbf5b4a2"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))
