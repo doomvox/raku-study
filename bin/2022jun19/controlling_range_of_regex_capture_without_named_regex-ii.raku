@@ -55,7 +55,8 @@ use v6;
     put $ret.perl;
     say "---";
     dd $ret;
-
+    say "---";
+    say $\.perl;
 
 
     # try to change the quoted string, but leave quotes alone (NG)
