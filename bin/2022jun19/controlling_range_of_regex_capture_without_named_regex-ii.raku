@@ -28,6 +28,27 @@ use v6;
     say $str; # The refrain in Spain sprains the brain.
     # Note: no quotes around refrain
 
+    # is it different without a named capture?
+    # try to change the quoted string, but leave quotes alone (NG)
+    $str ~~ s/ \┆ <( <-[┆┇]>+ )> \┇ /refrain/;
+    say $str; # The refrain in Spain sprains the brain.
+
+    say "===";
+}
+
+{
+    my regex quoted { \┆ <( <-[┆┇]>+ )> \┇ }  
+
+    my $str = q{The ┆rain┇ in Spain sprains the brain.};
+    say $str ~~ m/<quoted>/;
+    # ｢"rain"｣
+    #   quoted => ｢rain｣
+
+    # try to change the quoted string, but leave quotes alone (NG)
+    $str ~~ s/<quoted>/refrain/;
+    say $str; # The refrain in Spain sprains the brain.
+    # Note: no quotes around refrain
+
     # try to change the quoted string, but leave quotes alone (NG)
     $str ~~ s/ \┆ <( <-[┆┇]>+ )> \┇ /refrain/;
     say $str; # The refrain in Spain sprains the brain.
