@@ -30,7 +30,7 @@ use v6;
     # Note: no quotes around refrain
 
     # try to change the quoted string, but leave quotes alone (NG)
-    $str ~~ s/ \" <( <-["]>+ )> \" /refrain/;
+    $str ~~ s/ \┆ <( <-[┆┇]>+ )> \┇ /refrain/;
     say $str; # The refrain in Spain sprains the brain.
 
 
