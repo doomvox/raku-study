@@ -17,14 +17,12 @@ use v6;
     #   quoted => ｢rain｣
 
     # try to change the quoted string, but leave quotes alone (NG)
-    say 
-        $str ~~ s/<quoted>/refrain/;
+    $str ~~ s/<quoted>/refrain/;
     say $str; # The refrain in Spain sprains the brain.
     # Note: no quotes around refrain
 
     # try to change the quoted string, but leave quotes alone (NG)
-    say 
-        $str ~~ s/ \" <( <-["]>+ )> \" /refrain/;
+    $str ~~ s/ \" <( <-["]>+ )> \" /refrain/;
     say $str; # The refrain in Spain sprains the brain.
 
 
