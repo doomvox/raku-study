@@ -4,6 +4,7 @@
 
 use v6;
 
+# Goal:
 # Change a pattern only when quoted, but leave the quotes in place
 
 {
