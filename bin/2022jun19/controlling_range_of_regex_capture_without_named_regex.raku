@@ -12,7 +12,6 @@ use v6;
     my regex quoted { \" <( <-["]>+ )> \" }  
 
     my $str = q{The "rain" in Spain sprains the brain.};
-
     say $str ~~ m/<quoted>/;
     # ｢"rain"｣
     #   quoted => ｢rain｣
