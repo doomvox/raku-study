@@ -19,12 +19,11 @@ use v6;
     # try to change the quoted string, but leave quotes alone (NG)
     say 
         $str ~~ s/<quoted>/refrain/;
-    # ｢"rain"｣
-    #   quoted => ｢rain｣
-
-    # OH: starting to see what's going on... 
-
     say $str; # The refrain in Spain sprains the brain.
+
+
+
+
     # Note: refrain is *not* quoted.  Bug, or just weird?
 
     say "===";
