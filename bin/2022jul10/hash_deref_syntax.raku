@@ -14,7 +14,6 @@ my %level =
 
 say %level<<mothera rhodan>>;  # (6 6)
 
-
 my $m1 = 'godzilla';
 my $m2 = 'ghidora';
 
