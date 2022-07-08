@@ -24,11 +24,12 @@ say %level<< $m1 $m2 >>;    # (9 10)
 
 say %level<< 'doris day' golem >>;  # (2 4)
 
-
+## either curlies or double-angles does varible interpolation:
 say %level{$m1};    # 9
 say %level<<$m2>>;  # 10
 
 
+## ... but curlies allows any expression
 my $m3 = 'gAMMeRa';
 say %level{ $m3 };     # (Any)
 say %level{ $m3.lc };  # 5
