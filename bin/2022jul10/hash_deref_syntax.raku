@@ -12,6 +12,7 @@ my %level =
   golem    => 4,
   rhodan   => 6;
 
+## reviewing the basics 
 say %level<<mothera rhodan>>;  # (6 6)
 
 my $m1 = 'godzilla';
