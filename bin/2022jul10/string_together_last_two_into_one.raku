@@ -13,6 +13,7 @@ use v6;
  say @disney; # [Ariel Belle Cinderella EeyoreDumbo]
 }
 
+## Note: it doesn't just glue together the last two into one, it flips the order
 
 ## Q: what if you don't want the order of the last two flipped?
 
