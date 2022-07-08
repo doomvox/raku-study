@@ -16,7 +16,6 @@ use v6;
 # Change a match only between markers, but leave the markers in place
 
 {
-
     my regex quoted { \┆ <( <-[┆┇]>+ )> \┇ }  
 
     my $str = q{The ┆rain┇ in Spain sprains the brain.};
