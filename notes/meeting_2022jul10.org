@@ -17,6 +17,8 @@
 ****** gluing together last two array elements into one
 ******* https://github.com/doomvox/raku-study/tree/main/bin/2022jul10/string_together_last_two_into_one.raku
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string_together_last_two_into_one.raku
+****** small point:
+******* perl pulled ahead on unicode *because* it was late in adopting it: utf-8 era vs utf-16
 
 ***** Brett Estrade, thread support in perl using the gcc OpenMP feature
 
