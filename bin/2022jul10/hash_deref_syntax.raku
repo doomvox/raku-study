@@ -23,7 +23,7 @@ say %level<< $m1 $m2 >>;    # (9 10)
 
 say %level<< 'doris day' golem >>;  # (2 4)
 
-## either curlies or double-angles does varible interpolation:
+## either curlies or double-angles does variable interpolation:
 say %level{$m1};    # 9
 say %level<<$m2>>;  # 10
 
