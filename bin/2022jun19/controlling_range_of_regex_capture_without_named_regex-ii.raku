@@ -32,9 +32,6 @@ use v6;
     $str ~~ s/ \┆ <( <-[┆┇]>+ )> \┇ /refrain/;
     say $str; # The refrain in Spain sprains the brain.
 
-
-
-
     say "===";
 }
 
