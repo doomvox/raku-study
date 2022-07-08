@@ -37,10 +37,6 @@ use v6;
  say @disney; # [Ariel Belle Cinderella DumboEeyore]
 }
 
-# Is there a Z~ trick?
-
-
-
 # ===
 # Author:  doom@kzsu.stanford.edu
 
