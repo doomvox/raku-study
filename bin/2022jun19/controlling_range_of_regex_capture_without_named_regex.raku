@@ -24,7 +24,7 @@ use v6;
 
 
 
-    # Note: refrain is *not* quoted.  Bug, or just weird?
+
 
     say "===";
 }
