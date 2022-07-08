@@ -26,7 +26,11 @@
 my $i = sqrt( -1 );       ## DOESN'T WORK.
 my $i = sqrt( -1 + 0i );  ## works
 #+END_SRC
-******* 
+******* nice lazy list examples
+#+BEGIN_SRC raku
+  my @lines = $filename.IO.lines();
+  my @primes = grep &is-prime, 0..Inf;
+#+END_SRC
 
 ***** Brett Estrade, thread support in perl using the gcc OpenMP feature
 
