@@ -21,9 +21,9 @@ use v6;
 # Change a match only between markers, but leave the markers in place
 
 {
-    my regex quoted { \༼ <( <-[༼༽]>+ )> \༽ }  
+    my regex quoted { \𝄕 <( <-[𝄕𝄔]>+ )> \𝄔 }  
 
-    my $str = q{The ༼rain༽ in Spain sprains the brain.};
+    my $str = q{The 𝄕rain𝄔 in Spain sprains the brain.};
     say $str ~~ m/<quoted>/;
     # ｢"rain"｣
     #   quoted => ｢rain｣
@@ -35,17 +35,17 @@ use v6;
 
     # is it different without a named capture?
     # try to change the quoted string, but leave quotes alone (NG)
-    $str ~~ s/ \༼ <( <-[༼༽]>+ )> \༽ /refrain/;
+    $str ~~ s/ \𝄕 <( <-[𝄕𝄔]>+ )> \𝄔 /refrain/;
     say $str; # The refrain in Spain sprains the brain.
 
     say "===";
 }
 
 {
-#    my regex quoted { \༼ <( <-[༼༽]>+ )> \༽ }  
-    my regex quoted { \༼ <( <-[༼༽]>+ )> {make $1} \༽ }   ## doesn't change anything
+#    my regex quoted { \𝄕 <( <-[𝄕𝄔]>+ )> \𝄔 }  
+    my regex quoted { \𝄕 <( <-[𝄕𝄔]>+ )> {make $1} \𝄔 }   ## doesn't change anything
 
-    my $str = q{The ༼rain༽ in Spain sprains the brain.};
+    my $str = q{The 𝄕rain𝄔 in Spain sprains the brain.};
     say $str ~~ m/<quoted>/;
     # ｢"rain"｣
     #   quoted => ｢rain｣
