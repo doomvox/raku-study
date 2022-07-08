@@ -8,7 +8,7 @@ use v6;
 # Change a match only when quoted, but leave the quotes in place
 
 {
-    ## zoffix example, 2018 talk,  at 14:50
+
     my regex quoted { \" <( <-["]>+ )> \" }  
 
     my $str = q{The "rain" in Spain sprains the brain.};
