@@ -1,20 +1,20 @@
-- [meeting notes July 10, 2022](#org79c6dbc)
-  - [the raku study group](#org16696bb)
-    - [Videos are out for the TPRC 2022 in Houston:](#orgaf0713c)
-    - [a problem-ette](#orgc920671)
-    - [topics from last meeting (June 19th)](#orgfd7e222)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org8a61440)
-    - [for future meetings](#org6f1874c)
-  - [announcements](#org0858e4c)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org8421151)
+- [meeting notes July 10, 2022](#org13afb64)
+  - [the raku study group](#org0a82ced)
+    - [Videos are out for the TPRC 2022 in Houston:](#org87878d6)
+    - [a problem-ette](#org4fa2d8f)
+    - [topics from last meeting (June 19th)](#org0e23c11)
+    - [regex feature: control what's captured with <( &#x2026; )>](#orgcdaf746)
+    - [for future meetings](#orgee37dd4)
+  - [announcements](#org97f706f)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orga949a67)
 
 
-<a id="org79c6dbc"></a>
+<a id="org13afb64"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org16696bb"></a>
+<a id="org0a82ced"></a>
 
 ## the raku study group
 
@@ -29,7 +29,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orgaf0713c"></a>
+<a id="org87878d6"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -43,7 +43,7 @@
             
             2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/hash<sub>deref</sub><sub>syntax.raku</sub>
         
-        2.  
+        2.  gluing together last two array elements into one
         
             1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10/string_together_last_two_into_one.raku>
             
@@ -52,7 +52,7 @@
     2.  Brett Estrade, thread support in perl using the gcc OpenMP feature
 
 
-<a id="orgc920671"></a>
+<a id="org4fa2d8f"></a>
 
 ### a problem-ette
 
@@ -65,12 +65,12 @@
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string<sub>together</sub><sub>last</sub><sub>two</sub><sub>into</sub><sub>one.raku</sub>
 
 
-<a id="orgfd7e222"></a>
+<a id="org0e23c11"></a>
 
 ### topics from last meeting (June 19th)
 
 
-<a id="org8a61440"></a>
+<a id="orgcdaf746"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -119,7 +119,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="org6f1874c"></a>
+<a id="orgee37dd4"></a>
 
 ### for future meetings
 
@@ -150,11 +150,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org0858e4c"></a>
+<a id="org97f706f"></a>
 
 ## announcements
 
 
-<a id="org8421151"></a>
+<a id="orga949a67"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))
