@@ -40,10 +40,6 @@ use v6;
     my regex quoted { \┆ <( <-[┆┇]>+ )> \┇ }  
 #    my regex quoted { \┆ <( <-[┆┇]>+ )> {make $1} \┇ }   ## doesn't change anything
 
-    say $str ~~ m/<quoted>/;
-    # ｢"rain"｣
-    #   quoted => ｢rain｣
-
     my $str = q{The ┆rain┇ in Spain sprains the brain.};
     say $str ~~ m/<quoted>/;
     # ｢"rain"｣
