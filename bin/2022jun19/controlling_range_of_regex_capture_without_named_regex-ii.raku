@@ -6,12 +6,6 @@ use v6;
 
 # picking markers that won't confuse the pathetic syntax highlighting
 
-# 0F3C;TIBETAN MARK ANG KHANG GYON;Ps;0;ON;;;;;Y;TIBETAN LEFT BRACE;;;;
-# 0F3D;TIBETAN MARK ANG KHANG GYAS;Pe;0;ON;;;;;Y;TIBETAN RIGHT BRACE;;;;
-
-# ༼
-# ༽
-
 # 1D115;MUSICAL SYMBOL BRACKET;So;0;L;;;;;N;;;;;
 # 𝄕
 # 1D114;MUSICAL SYMBOL BRACE;So;0;L;;;;;N;;;;;
