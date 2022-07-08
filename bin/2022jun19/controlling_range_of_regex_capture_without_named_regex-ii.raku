@@ -37,8 +37,8 @@ use v6;
 }
 
 {
-    my regex quoted { \┆ <( <-[┆┇]>+ )> \┇ }  
-#    my regex quoted { \┆ <( <-[┆┇]>+ )> {make $1} \┇ }   ## doesn't change anything
+#    my regex quoted { \┆ <( <-[┆┇]>+ )> \┇ }  
+    my regex quoted { \┆ <( <-[┆┇]>+ )> {make $1} \┇ }   ## doesn't change anything
 
     my $str = q{The ┆rain┇ in Spain sprains the brain.};
     say $str ~~ m/<quoted>/;
