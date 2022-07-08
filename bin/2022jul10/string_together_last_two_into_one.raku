@@ -16,7 +16,6 @@ use v6;
 ## Note: it doesn't just glue together the last two into one, it flips the order
 
 ## Q: what if you don't want the order of the last two flipped?
-
 {
  my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
  @disney.push( do { my $b = @disney.pop; my $a = @disney.pop; $a ~ $b } );
