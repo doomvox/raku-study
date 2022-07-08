@@ -44,11 +44,18 @@ use v6;
 {
 #    my regex quoted { \𝄕 <( <-[𝄕𝄔]>+ )> \𝄔 }  
     my regex quoted { \𝄕 <( <-[𝄕𝄔]>+ )> {make $1} \𝄔 }   ## doesn't change anything
+#    my regex quoted { \𝄕 <( <-[𝄕𝄔]>+ )> {make $1} \𝄔 }   ## doesn't change anything
 
     my $str = q{The 𝄕rain𝄔 in Spain sprains the brain.};
-    say $str ~~ m/<quoted>/;
+    my $ret = 
+      $str ~~ m/<quoted>/;
+    say $ret;
     # ｢"rain"｣
     #   quoted => ｢rain｣
+    put $ret;
+    dd $ret;
+
+
 
     # try to change the quoted string, but leave quotes alone (NG)
     $str ~~ s/<quoted>/refrain/;
