@@ -38,9 +38,12 @@ say %level<< $m3.lc >>;  # ((Any) (Any))
 ## Hm: treats that as two keys?
 
 
+
 ##---
 ## :exists adverb, instead of returning value, checks whether key exists
 ##
 say %level{'godzilla'}:exists;   # True
+
+
 
 
