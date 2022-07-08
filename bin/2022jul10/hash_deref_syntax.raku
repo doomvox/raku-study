@@ -27,7 +27,6 @@ say %level<< 'doris day' golem >>;  # (2 4)
 say %level{$m1};    # 9
 say %level<<$m2>>;  # 10
 
-
 ## ... but curlies allows any expression
 my $m3 = 'gAMMeRa';
 say %level{ $m3 };     # (Any)
