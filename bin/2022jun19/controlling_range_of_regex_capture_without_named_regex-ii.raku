@@ -56,7 +56,7 @@ use v6;
     say "---";
     dd $ret;
     say "---";
-    put $\.WHAT;
+    put $\.^WHAT;
 
 
     # try to change the quoted string, but leave quotes alone (NG)
