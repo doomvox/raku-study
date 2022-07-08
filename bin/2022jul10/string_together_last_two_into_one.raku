@@ -23,6 +23,13 @@ use v6;
  say @disney; # [Ariel Belle Cinderella DumboEeyore]
 }
 
+## Side-issue:
+## This works:
+# @disney.push( do { my $b = @disney.pop; my $a = @disney.pop; $a ~ $b } );
+## This doesn't:
+# @disney.push( { my $b = @disney.pop; my $a = @disney.pop; $a ~ $b } );
+## Neither does this:
+# @disney.push( { my $b = @disney.pop; my $a = @disney.pop; return $a ~ $b } );
 
 {
  my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
