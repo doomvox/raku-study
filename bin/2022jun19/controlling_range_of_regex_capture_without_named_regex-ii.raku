@@ -52,7 +52,7 @@ use v6;
     say $ret;
     # ｢"rain"｣
     #   quoted => ｢rain｣
-    put $ret;
+    put $ret.perl;
     say "---";
     dd $ret;
 
