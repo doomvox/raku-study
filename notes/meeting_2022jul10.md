@@ -1,20 +1,20 @@
-- [meeting notes July 10, 2022](#org3512c3d)
-  - [the raku study group](#org6a69693)
-    - [Videos are out for the TPRC 2022 in Houston:](#orga50d716)
-    - [a problem-ette](#orge2591c9)
-    - [topics from last meeting (June 19th)](#org16322df)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org1437315)
-    - [for future meetings](#org0ddfbe5)
-  - [announcements](#orge27357e)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgbf5b4a2)
+- [meeting notes July 10, 2022](#orgfafe93f)
+  - [the raku study group](#org430cdee)
+    - [Videos are out for the TPRC 2022 in Houston:](#org75bf580)
+    - [a problem-ette](#orgdb2b3d0)
+    - [topics from last meeting (June 19th)](#orga6ffda0)
+    - [regex feature: control what's captured with <( &#x2026; )>](#orgb436333)
+    - [for future meetings](#orgfbc4fe0)
+  - [announcements](#org3964c68)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgeefc40d)
 
 
-<a id="org3512c3d"></a>
+<a id="orgfafe93f"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org6a69693"></a>
+<a id="org430cdee"></a>
 
 ## the raku study group
 
@@ -29,7 +29,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orga50d716"></a>
+<a id="org75bf580"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -53,7 +53,7 @@
         
             1.  perl pulled ahead on unicode **because** it was late in adopting it: utf-8 era vs utf-16
         
-        4.  good bits:
+        4.  some good bits:
         
             1.  raku lets you define operators like the built-in ones, **except** for ternaries
             
@@ -63,11 +63,13 @@
                 my $i = sqrt( -1 );       ## DOESN'T WORK.
                 my $i = sqrt( -1 + 0i );  ## works
                 ```
+            
+            3.  
     
     2.  Brett Estrade, thread support in perl using the gcc OpenMP feature
 
 
-<a id="orge2591c9"></a>
+<a id="orgdb2b3d0"></a>
 
 ### a problem-ette
 
@@ -80,12 +82,12 @@
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string<sub>together</sub><sub>last</sub><sub>two</sub><sub>into</sub><sub>one.raku</sub>
 
 
-<a id="org16322df"></a>
+<a id="orga6ffda0"></a>
 
 ### topics from last meeting (June 19th)
 
 
-<a id="org1437315"></a>
+<a id="orgb436333"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -134,7 +136,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="org0ddfbe5"></a>
+<a id="orgfbc4fe0"></a>
 
 ### for future meetings
 
@@ -165,11 +167,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orge27357e"></a>
+<a id="org3964c68"></a>
 
 ## announcements
 
 
-<a id="orgbf5b4a2"></a>
+<a id="orgeefc40d"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))

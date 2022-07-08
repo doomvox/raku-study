@@ -19,13 +19,14 @@
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string_together_last_two_into_one.raku
 ****** small point:
 ******* perl pulled ahead on unicode *because* it was late in adopting it: utf-8 era vs utf-16
-****** good bits:
+****** some good bits:
 ******* raku lets you define operators like the built-in ones, *except* for ternaries
 ******* complex math requires complex arguments to "turn it on"
 #+BEGIN_SRC raku
 my $i = sqrt( -1 );       ## DOESN'T WORK.
 my $i = sqrt( -1 + 0i );  ## works
 #+END_SRC
+******* 
 
 ***** Brett Estrade, thread support in perl using the gcc OpenMP feature
 
