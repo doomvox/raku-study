@@ -5,7 +5,7 @@
 use v6;
 
 ## An example used in the slides for the Bruce Gray tutorial at tprc
-
+## Works.  Does it do what you expect?
 {
  my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
  @disney.push( @disney.pop ~ @disney.pop );
