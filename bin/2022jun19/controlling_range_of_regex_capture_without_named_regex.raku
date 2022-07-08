@@ -5,7 +5,7 @@
 use v6;
 
 # Goal:
-# Change a pattern only when quoted, but leave the quotes in place
+# Change a match only when quoted, but leave the quotes in place
 
 {
     ## zoffix example, 2018 talk,  at 14:50
