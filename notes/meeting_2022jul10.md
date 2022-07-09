@@ -1,20 +1,20 @@
-- [meeting notes July 10, 2022](#org01b6f30)
-  - [the raku study group](#orgd3fdfbe)
-    - [Videos are out for the TPRC 2022 in Houston:](#orgdf83c7e)
-    - [a problem-ette](#org9db8cf6)
-    - [topics from last meeting (June 19th)](#org4ba68a1)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org880b244)
-    - [for future meetings](#org26b3915)
-  - [announcements](#org5778171)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org90091fb)
+- [meeting notes July 10, 2022](#orgd9065c2)
+  - [the raku study group](#orgf170a04)
+    - [Videos are out for the TPRC 2022 in Houston:](#org8ce4840)
+    - [a problem-ette](#org3e6a082)
+    - [topics from last meeting (June 19th)](#org825e7fa)
+    - [regex feature: control what's captured with <( &#x2026; )>](#orged35f26)
+    - [for future meetings](#orgcea8140)
+  - [announcements](#org5db9308)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgcb5f18a)
 
 
-<a id="org01b6f30"></a>
+<a id="orgd9065c2"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="orgd3fdfbe"></a>
+<a id="orgf170a04"></a>
 
 ## the raku study group
 
@@ -29,7 +29,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orgdf83c7e"></a>
+<a id="org8ce4840"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -74,7 +74,7 @@
     2.  Brett Estrade, thread support in perl using the gcc OpenMP feature
 
 
-<a id="org9db8cf6"></a>
+<a id="org3e6a082"></a>
 
 ### a problem-ette
 
@@ -87,24 +87,20 @@
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string<sub>together</sub><sub>last</sub><sub>two</sub><sub>into</sub><sub>one.raku</sub>
 
 
-<a id="org4ba68a1"></a>
+<a id="org825e7fa"></a>
 
 ### topics from last meeting (June 19th)
 
 
-<a id="org880b244"></a>
+<a id="orged35f26"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
-1.  from an old question in my notes:
+1.  <( isn't really equivalent to \K in a substitution
 
-    1.  Q: what's the Raku equivalent for p5's \K?
+2.  can do it with zero-width after/before matches
 
-2.  <( isn't really equivalent to <(
-
-3.  can do it with zero-width after/before matches
-
-4.  or by having multiple ordered captures, etc.
+3.  or by having multiple ordered captures, etc.
 
     1.  TODO try a variant without a named pattern ala quoted: what if it's embedded?
 
@@ -141,7 +137,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="org26b3915"></a>
+<a id="orgcea8140"></a>
 
 ### for future meetings
 
@@ -172,11 +168,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org5778171"></a>
+<a id="org5db9308"></a>
 
 ## announcements
 
 
-<a id="org90091fb"></a>
+<a id="orgcb5f18a"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))

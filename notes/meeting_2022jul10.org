@@ -43,9 +43,7 @@ my $i = sqrt( -1 + 0i );  ## works
 
 *** topics from last meeting (June 19th)
 *** regex feature: control what's captured with <( ... )>
-***** from an old question in my notes:
-****** Q: what's the Raku equivalent for p5's \K?
-***** <( isn't really equivalent to <(
+***** <( isn't really equivalent to \K in a substitution
 ***** can do it with zero-width after/before matches
 ***** or by having multiple ordered captures, etc.
 ****** TODO try a variant without a named pattern ala quoted: what if it's embedded?
