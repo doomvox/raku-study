@@ -1,20 +1,19 @@
-- [meeting notes July 10, 2022](#orgcbe04da)
-  - [the raku study group](#orge03e1b9)
-    - [Videos are out for the TPRC 2022 in Houston:](#org9fe8dd7)
-    - [a problem-ette](#org544d91e)
-    - [topics from last meeting (June 19th)](#orgba86619)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orgaa24943)
-    - [for future meetings](#orgad30d3a)
-  - [announcements](#org42e483d)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orga5d5c83)
+- [meeting notes July 10, 2022](#orga1dbe4a)
+  - [the raku study group](#orgba17ec9)
+    - [Videos are out for the TPRC 2022 in Houston:](#org74f74df)
+    - [topics from last meeting (June 19th)](#orgc2837c9)
+    - [regex feature: control what's captured with <( &#x2026; )>](#orgb929088)
+    - [for future meetings](#org3c26644)
+  - [announcements](#org27455d5)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org8562db1)
 
 
-<a id="orgcbe04da"></a>
+<a id="orga1dbe4a"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="orge03e1b9"></a>
+<a id="orgba17ec9"></a>
 
 ## the raku study group
 
@@ -29,7 +28,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org9fe8dd7"></a>
+<a id="org74f74df"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -76,25 +75,12 @@
     3.  Ovid, state of Corinna project
 
 
-<a id="org544d91e"></a>
-
-### a problem-ette
-
-1.  remove last two elements of an array, add a new element with them strung together
-
-    1.  but preserve the order
-    
-        1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10/string_together_last_two_into_one.raku>
-        
-        2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string<sub>together</sub><sub>last</sub><sub>two</sub><sub>into</sub><sub>one.raku</sub>
-
-
-<a id="orgba86619"></a>
+<a id="orgc2837c9"></a>
 
 ### topics from last meeting (June 19th)
 
 
-<a id="orgaa24943"></a>
+<a id="orgb929088"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -137,7 +123,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="orgad30d3a"></a>
+<a id="org3c26644"></a>
 
 ### for future meetings
 
@@ -168,11 +154,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org42e483d"></a>
+<a id="org27455d5"></a>
 
 ## announcements
 
 
-<a id="orga5d5c83"></a>
+<a id="org8562db1"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))

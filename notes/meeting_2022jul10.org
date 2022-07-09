@@ -36,11 +36,6 @@ my $i = sqrt( -1 + 0i );  ## works
 
 ***** Ovid, state of Corinna project
 
-*** a problem-ette
-**** remove last two elements of an array, add a new element with them strung together
-***** but preserve the order
-****** https://github.com/doomvox/raku-study/tree/main/bin/2022jul10/string_together_last_two_into_one.raku
-****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string_together_last_two_into_one.raku
 
 *** topics from last meeting (June 19th)
 *** regex feature: control what's captured with <( ... )>
