@@ -34,6 +34,7 @@ my $i = sqrt( -1 + 0i );  ## works
 
 ***** Brett Estrade, thread support in perl using the gcc OpenMP feature
 
+***** Ovid, state of Corinna
 
 *** a problem-ette
 **** remove last two elements of an array, add a new element with them strung together
