@@ -1,20 +1,20 @@
-- [meeting notes July 10, 2022](#orgd9065c2)
-  - [the raku study group](#orgf170a04)
-    - [Videos are out for the TPRC 2022 in Houston:](#org8ce4840)
-    - [a problem-ette](#org3e6a082)
-    - [topics from last meeting (June 19th)](#org825e7fa)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orged35f26)
-    - [for future meetings](#orgcea8140)
-  - [announcements](#org5db9308)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgcb5f18a)
+- [meeting notes July 10, 2022](#org8170feb)
+  - [the raku study group](#orge74da52)
+    - [Videos are out for the TPRC 2022 in Houston:](#org48d2e2c)
+    - [a problem-ette](#org0ee63ee)
+    - [topics from last meeting (June 19th)](#org810908e)
+    - [regex feature: control what's captured with <( &#x2026; )>](#orga217c82)
+    - [for future meetings](#orgfa0988b)
+  - [announcements](#orge40c65d)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgb2c110e)
 
 
-<a id="orgd9065c2"></a>
+<a id="org8170feb"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="orgf170a04"></a>
+<a id="orge74da52"></a>
 
 ## the raku study group
 
@@ -29,7 +29,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org8ce4840"></a>
+<a id="org48d2e2c"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -74,7 +74,7 @@
     2.  Brett Estrade, thread support in perl using the gcc OpenMP feature
 
 
-<a id="org3e6a082"></a>
+<a id="org0ee63ee"></a>
 
 ### a problem-ette
 
@@ -87,12 +87,12 @@
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string<sub>together</sub><sub>last</sub><sub>two</sub><sub>into</sub><sub>one.raku</sub>
 
 
-<a id="org825e7fa"></a>
+<a id="org810908e"></a>
 
 ### topics from last meeting (June 19th)
 
 
-<a id="orged35f26"></a>
+<a id="orga217c82"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -101,8 +101,6 @@
 2.  can do it with zero-width after/before matches
 
 3.  or by having multiple ordered captures, etc.
-
-    1.  TODO try a variant without a named pattern ala quoted: what if it's embedded?
 
 1.  the double-asterix non-flattening slurpy array signature
 
@@ -137,7 +135,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="orgcea8140"></a>
+<a id="orgfa0988b"></a>
 
 ### for future meetings
 
@@ -168,11 +166,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org5db9308"></a>
+<a id="orge40c65d"></a>
 
 ## announcements
 
 
-<a id="orgcb5f18a"></a>
+<a id="orgb2c110e"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))
