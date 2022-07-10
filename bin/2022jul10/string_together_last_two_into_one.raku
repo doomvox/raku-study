@@ -38,12 +38,21 @@ use v6;
 }
 
 
-{
+{ # william michels
  my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
  @disney.rotate(2);
  @disney.push( @disney.splice(*-2, 2).join );
  say @disney;  # [Ariel Belle Cinderella DumboEeyore]
 }
+
+{ # bruce gray
+ my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
+ @disney.rotate(2);
+ @disney.push( @disney.splice(*-2, 2).join );
+ say @disney;  # [Ariel Belle Cinderella DumboEeyore]
+}
+
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
