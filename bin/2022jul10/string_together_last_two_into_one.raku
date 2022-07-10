@@ -55,7 +55,6 @@ use v6;
   my @a = < a b c d e > ; (@a[* -2], @a[*-1]) = @a[*-1], @a[*-2];  
   @a.push( @disney.pop ~ @disney.pop );
   say @a;
-
 }
 
 
