@@ -21,3 +21,8 @@ for @L.rotor(3 => -2) {
     next unless abs(@d[0] - @d[2]) <= 1;
     say join "\t", (@do, @ip, @us)».[0];
 }
+
+
+# Mon, 22 Aug 2016 13:15:39 +0200	178.57.66.225	fxsciaqulmlk
+# Mon, 22 Aug 2016 13:15:59 +0200	178.57.66.205	erdsfsdfsdf
+# Mon, 22 Aug 2016 13:19:19 +0200	178.56.66.225	fxsciaqulmla
