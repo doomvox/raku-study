@@ -53,7 +53,7 @@ my $i = sqrt( -1 + 0i );  ## works
 
 
 
-****** david's stuff:
+****** david christensen issues;
 ******* book review 
 ******* perl 
 ******** weakened refs
