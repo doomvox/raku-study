@@ -21,3 +21,11 @@ use v6;
 }
 
 
+sub say_num ($str) {
+    say "$++: $str";
+    }
+
+
+say_num();
+say_num();
+say_num();
