@@ -25,7 +25,7 @@ sub say_num ( $str ) {
 #     my $n = $++;
 #     say "$n: $str";
 
-    say $++, " $str";
+    say $++, ": $str";
 }
 
 
