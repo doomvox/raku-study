@@ -15,6 +15,10 @@ my regex chop_point { ^ chop };    # not allowed to use '=' here
 
 my (@first, @second) = span( /<chop_point>/, @monsters );
 
+say @first;
+say @second;
+
+
 sub span (Regex $pat, @items) {
     my $idx = @items.first: $pat, :k;
     say "idx: $idx";
