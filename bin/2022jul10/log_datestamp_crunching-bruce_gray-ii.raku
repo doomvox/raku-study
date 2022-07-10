@@ -8,7 +8,7 @@ use v6;
 my $data_file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/dat/somedata.log";
 
 use DateTime::Parse;
-my %c = "%*ENV<HOME>/T/d20220710/j22.txt".IO.lines().map({
+my %c = $data_file.IO.lines().map({
     my ($d, @a) = .split('|');
     DateTime::Parse.new($d.subst("+0200", "GMT")).posix, |@a;
 }).classify(*.[0]);
