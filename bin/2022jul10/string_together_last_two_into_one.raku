@@ -41,7 +41,7 @@ use v6;
 {
  my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
  @disney.rotate(2);
- @disney.push({ @disney.splice(*-2, 2).join });
+ @disney.push( @disney.splice(*-2, 2).join );
  say @disney;
  # [Ariel Belle Cinderella Dumbo Eeyore -> ;; $_? is raw = OUTER::<$_> { #`(Block|94082339312424) ... }]
 }
