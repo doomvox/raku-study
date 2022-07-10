@@ -67,11 +67,11 @@ use v6;
 
 {  say "~~~";    
    my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
-   @disney.push( [R~] @disney.pop, @disney.pop; );
+   @disney.push( | [R~] @disney.pop, @disney.pop; );
    say @disney;
    say "~~~";    
-   # [Ariel Belle Cinderella [DumboEeyore]]
-   # [Ariel Belle Cinderella (DumboEeyore) ()]
+   # NOT:  [Ariel Belle Cinderella [DumboEeyore]]
+   # THIS: [Ariel Belle Cinderella (DumboEeyore) ()]
 }
 
 { # rob 
