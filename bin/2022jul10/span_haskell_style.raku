@@ -15,12 +15,12 @@ my regex chop_point { ^ chop };                # not allowed to use '=' here; do
 
 my $ret = span( /<chop_point>/, @monsters );   # won't let you use the bare word 'chop_point'
 
-# my (@first, @second) = $ret[0 .. 1];
-
 my @first  = $ret[0];
 my @second = $ret[1];
 say @first;
 say @second;
+
+# Weird: prob with returning two lists and assigning to two arrays
 
 sub span (Regex $pat, @items) {
     my $idx =  @items.first: $pat, :k;
