@@ -26,3 +26,6 @@ for %c.sort -> $i {
    $i.raku.put if $i.values.contains( "user logged in" & "user changed password" & "user logged off" ) && ( $i.value.elems == 9 )
 }
 
+# "1471871739" => $["178.57.66.225", "fxsciaqulmlk", "user logged in", "178.57.66.225", "fxsciaqulmlk", "user changed password", "178.57.66.225", "fxsciaqulmlk", "user logged off"]
+# "1471871759" => $["178.57.66.205", "erdsfsdfsdf", "user logged in", "178.57.66.205", "erdsfsdfsdf", "user changed password", "178.57.66.205", "erdsfsdfsdf", "user logged off"]
+# "1471871959" => $["178.56.66.225", "fxsciaqulmla", "user logged in", "178.56.66.225", "fxsciaqulmla", "user changed password", "178.56.66.225", "fxsciaqulmla", "user logged off"]
