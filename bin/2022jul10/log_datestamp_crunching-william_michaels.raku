@@ -39,8 +39,10 @@ my @b; for $data_file.IO.lines() {
 };
 my %c.=append( [Z=>] @b, @a>>.[1..*-1] );  
 for %c.sort -> $i {
+#   wm code:
 #   $i.raku.put if $i.values.contains( "user logged in" & "user changed password" & "user logged off" ) && ( $i.value.elems == 9 )
-   $i.raku.put if $i.value.join.contains( "user logged in" & "user changed password" & "user logged off" ) && ( $i.value.elems == 9 )
+#   bg revision: 
+    $i.raku.put if $i.value.join.contains( "user logged in" & "user changed password" & "user logged off" ) && ( $i.value.elems == 9 )
 }
 
 # "1471871739" => $["178.57.66.225", "fxsciaqulmlk", "user logged in", "178.57.66.225", "fxsciaqulmlk", "user changed password", "178.57.66.225", "fxsciaqulmlk", "user logged off"]
