@@ -1,21 +1,17 @@
-- [meeting notes July 10, 2022](#org3fffffd)
-  - [the raku study group](#org36edbe6)
-    - [haskell's span](#orgbe73889)
-    - [Videos are out for the TPRC 2022 in Houston:](#orgbd0f3ed)
-    - [why is perl still relevant:](#org76cf6e3)
-    - [topics from last meeting (June 19th)](#orgd738693)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orgbcfbe64)
-    - [for future meetings](#orgab43f7d)
-  - [announcements](#org586c218)
-    - [July 24th: next raku study group meeting](#org3dc8707)
+- [meeting notes July 10, 2022](#org9871230)
+  - [the raku study group](#org070c999)
+    - [haskell's span](#orgbfce8b4)
+    - [Videos are out for the TPRC 2022 in Houston:](#orgfaf94ca)
+  - [announcements](#org03ebf70)
+    - [July 24th: next raku study group meeting](#org1cc693e)
 
 
-<a id="org3fffffd"></a>
+<a id="org9871230"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org36edbe6"></a>
+<a id="org070c999"></a>
 
 ## the raku study group
 
@@ -30,14 +26,14 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orgbe73889"></a>
+<a id="orgbfce8b4"></a>
 
 ### haskell's span
 
 1.  <https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function>
 
 
-<a id="orgbd0f3ed"></a>
+<a id="orgfaf94ca"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -94,111 +90,111 @@
                 my @lines = $filename.IO.lines();
                 my @primes = grep &is-prime, 0..Inf;
                 ```
-    
-    3.  Ovid, state of the Corinna project
-    
-        1.  <https://www.youtube.com/watch?v=5lSdBSCkFGs&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=14>
-    
-    4.  Ruth Holloway, DbiX::Class and Dancer2 (perl5 web/database work)
-    
-        1.  <https://www.youtube.com/watch?v=FAHP4IN5wiQ&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=20>
-
-
-<a id="org76cf6e3"></a>
-
-### why is perl still relevant:
-
-1.  <https://www.google.com/url?q=https%3A%2F%2Fstackoverflow.blog%2F2022%2F07%2F06%2Fwhy-perl-is-still-relevant-in-2022%2F&sa=D&sntz=1&usg=AOvVaw3aI-NUWmi9G4Fg8w95CYio>
-
-
-<a id="orgd738693"></a>
-
-### topics from last meeting (June 19th)
-
-
-<a id="orgbcfbe64"></a>
-
-### regex feature: control what's captured with <( &#x2026; )>
-
-1.  <( isn't really equivalent to \K in a substitution
-
-2.  can do it with zero-width after/before matches
-
-3.  or by having multiple ordered captures, etc.
-
-4.  william michels turned up this on the subject:
-
-    <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
-
-1.  the double-asterix non-flattening slurpy array signature
-
-    1.  so the single asterix is flattening?
-    
-    2.  TODO investigate further, for next time
-
-2.  rob ramsbottom
-
-    1.  rob opened a github issue, no action:
-    
-        1.  <https://github.com/rakudo/rakudo/issues/4945>
         
-        2.  TODO add some comments, at the very least confirm the behavior.
-
-3.  rename, move, copy
-
-    1.  difficulty reproducing the problem
-    
-        1.  current theory: rename was "failing" after the copy, and silently skipping the ulink, even though the copies were being made
-
-4.  unix.stackexchange
-
-    1.  william michels
-    
-        1.  <https://unix.stackexchange.com/questions/706744/write-a-regular-expression-whose-output-will-only-be-rows-in-a-range-01-03-2021/706773#706773>
+        6.  Ovid, state of the Corinna project
         
-            1.  I have a file that got dates from 01/01/2020 to 04/04/2021 I want to get only the dates between 01/03/2020 to 01/03/2021 by using egrep. I tried to do
+            1.  <https://www.youtube.com/watch?v=5lSdBSCkFGs&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=14>
+        
+        7.  Ruth Holloway, DbiX::Class and Dancer2 (perl5 web/database work)
+        
+            1.  <https://www.youtube.com/watch?v=FAHP4IN5wiQ&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=20>
+        
+        8.  david's stuff:
+        
+            1.  book review
             
-                1.  raku -ne 'my $ts = .subst(/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) /, {"$2-$1-$0"}).Date; say $ts if Date.new("2020-03-01") < $ts < Date.new("2021-03-01");' file
+            2.  perl
+            
+                1.  weakened refs
                 
-                2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
-
-
-<a id="orgab43f7d"></a>
-
-### for future meetings
-
-1.  some relatively recent weekly challenges that weren't number theory trivia for once
-
-    1.  Task 1: Hexadecimal Words; Task 2: K-Directory Diff
-    
-        1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-166/>
+                2.  arguments with weakened refs
+            
+            3.  crawling recursive structures with loops (technique from erlang)
         
-        2.  arne sommers
+        9.  why is perl still relevant:
         
-            1.  <https://raku-musings.com/hexa-diff.html>
-    
-    2.  Task 1: Scalable Vector Graphics (SVG); Task 2: Line of Best Fit
-    
-        1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-165/>
+            1.  <https://www.google.com/url?q=https%3A%2F%2Fstackoverflow.blog%2F2022%2F07%2F06%2Fwhy-perl-is-still-relevant-in-2022%2F&sa=D&sntz=1&usg=AOvVaw3aI-NUWmi9G4Fg8w95CYio>
         
-        2.  arne sommers
+        10. topics from last meeting (June 19th)
         
-            1.  <https://raku-musings.com/doubly-scalable.html>
+            1.  regex feature: control what's captured with <( &#x2026; )>
+            
+                1.  <( isn't really equivalent to \K in a substitution
+                
+                2.  can do it with zero-width after/before matches
+                
+                3.  or by having multiple ordered captures, etc.
+                
+                4.  william michels turned up this on the subject:
+                
+                    <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
+                
+                1.  the double-asterix non-flattening slurpy array signature
+                
+                    1.  so the single asterix is flattening?
+                    
+                    2.  TODO investigate further, for next time
+                
+                2.  rob ramsbottom
+                
+                    1.  rob opened a github issue, no action:
+                    
+                        1.  <https://github.com/rakudo/rakudo/issues/4945>
+                        
+                        2.  TODO add some comments, at the very least confirm the behavior.
+                
+                3.  rename, move, copy
+                
+                    1.  difficulty reproducing the problem
+                    
+                        1.  current theory: rename was "failing" after the copy, and silently skipping the ulink, even though the copies were being made
+                
+                4.  unix.stackexchange
+                
+                    1.  william michels
+                    
+                        1.  <https://unix.stackexchange.com/questions/706744/write-a-regular-expression-whose-output-will-only-be-rows-in-a-range-01-03-2021/706773#706773>
+                        
+                            1.  I have a file that got dates from 01/01/2020 to 04/04/2021 I want to get only the dates between 01/03/2020 to 01/03/2021 by using egrep. I tried to do
+                            
+                                1.  raku -ne 'my $ts = .subst(/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) /, {"$2-$1-$0"}).Date; say $ts if Date.new("2020-03-01") < $ts < Date.new("2021-03-01");' file
+                                
+                                2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
+            
+            2.  for future meetings
+            
+                1.  some relatively recent weekly challenges that weren't number theory trivia for once
+                
+                    1.  Task 1: Hexadecimal Words; Task 2: K-Directory Diff
+                    
+                        1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-166/>
+                        
+                        2.  arne sommers
+                        
+                            1.  <https://raku-musings.com/hexa-diff.html>
+                    
+                    2.  Task 1: Scalable Vector Graphics (SVG); Task 2: Line of Best Fit
+                    
+                        1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-165/>
+                        
+                        2.  arne sommers
+                        
+                            1.  <https://raku-musings.com/doubly-scalable.html>
+                
+                2.  jonathan worthington on cro memory usage
+                
+                    1.  <https://stackoverflow.com/questions/72180995/understanding-cro-request-response-cycle-and-memory-use>
+                
+                3.  jonathan worthington on operator precedence, = vs ,
+                
+                    1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
-2.  jonathan worthington on cro memory usage
 
-    1.  <https://stackoverflow.com/questions/72180995/understanding-cro-request-response-cycle-and-memory-use>
-
-3.  jonathan worthington on operator precedence, = vs ,
-
-    1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
-
-
-<a id="org586c218"></a>
+<a id="org03ebf70"></a>
 
 ## announcements
 
 
-<a id="org3dc8707"></a>
+<a id="org1cc693e"></a>
 
 ### July 24th: next raku study group meeting
