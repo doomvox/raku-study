@@ -13,10 +13,10 @@ my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslav
 
 my regex chop_point { ^ chop };    # not allowed to use '=' here
 
-my (@first, @second) = | span( /<chop_point>/, @monsters );
+my $ret = span( /<chop_point>/, @monsters );
 
-say @first;
-say @second;
+say @first = $ret[0];
+say @second = $ret[1];
 
 
 sub span (Regex $pat, @items) {
