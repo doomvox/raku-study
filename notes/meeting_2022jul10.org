@@ -36,7 +36,7 @@
 my $i = sqrt( -1 );       ## DOESN'T WORK.
 my $i = sqrt( -1 + 0i );  ## works
 
-# Another way of getting a comple -1
+# Another way of getting a complex -1
 (-1).Complex
 
 #+END_SRC
