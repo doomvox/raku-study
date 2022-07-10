@@ -15,7 +15,7 @@ my regex chop_point { ^ chop };    # not allowed to use '=' here
 
 my $ret = span( /<chop_point>/, @monsters );
 
-my (@first, @second) = | $ret;
+my (@first, @second) = slip $ret;
 
 # my @first = $ret[0];
 # my @second = $ret[1];
