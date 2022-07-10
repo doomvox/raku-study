@@ -34,3 +34,5 @@ sub span (Regex $pat, @items) {
 # Actual assignment is supposed to reverse the condition,
 # include everything in first list up to the point that the condition fails
 # look for first not match
+
+# should work for arbitrary code block, not just a pattern match
