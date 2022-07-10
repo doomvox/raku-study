@@ -39,6 +39,13 @@ say %level<< $m3.lc >>;  # ((Any) (Any))
 
 say << $m3.lc >>.raku;  # ("gAMMeRa", ".lc")
 
+# I would've expected:   "gAMMeRa.lc"
+
+
+say << hey.there.you >>.raku;
+
+
+
 ## Hm: treats that as two keys?
 
 say "---";
