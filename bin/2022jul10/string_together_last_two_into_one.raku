@@ -37,6 +37,12 @@ use v6;
  say @disney; # [Ariel Belle Cinderella DumboEeyore]
 }
 
+
+{
+ my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
+ @disney.rotate 2; @disney.push( do{ @disney.shift 2 ~ @disney.push } );
+}
+
 # ===
 # Author:  doom@kzsu.stanford.edu
 
