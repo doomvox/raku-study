@@ -13,6 +13,8 @@ my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslav
 
 my regex $chop = { ^ chop };
 
+my (@first, @second) = span( $chop, @monsters);
+
 sub span (@items) {
     my $idx = @items.first: $chop, :p;
 
