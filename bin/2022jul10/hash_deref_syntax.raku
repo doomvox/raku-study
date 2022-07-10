@@ -78,4 +78,4 @@ say %level{'godzilla'}:exists;   # True
 
 say "===";
 
-
+my @stuff = << 'one thing' another >>;
