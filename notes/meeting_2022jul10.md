@@ -1,20 +1,21 @@
-- [meeting notes July 10, 2022](#org7b2c8b5)
-  - [the raku study group](#org388d96d)
-    - [Videos are out for the TPRC 2022 in Houston:](#orge7a4739)
-    - [why is perl still relevant:](#orgcf5587c)
-    - [topics from last meeting (June 19th)](#orgcc6f741)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org17b40aa)
-    - [for future meetings](#orga9307b2)
-  - [announcements](#org86938ba)
-    - [July 24th: next raku study group meeting](#org3639396)
+- [meeting notes July 10, 2022](#org456be4a)
+  - [the raku study group](#org10de34f)
+    - [haskell's span](#org8a03393)
+    - [Videos are out for the TPRC 2022 in Houston:](#orga135c48)
+    - [why is perl still relevant:](#orgd758dc5)
+    - [topics from last meeting (June 19th)](#org49ef64c)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org4e6ac67)
+    - [for future meetings](#orgd2afc2d)
+  - [announcements](#orgc3f81ec)
+    - [July 24th: next raku study group meeting](#orgd5ed226)
 
 
-<a id="org7b2c8b5"></a>
+<a id="org456be4a"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org388d96d"></a>
+<a id="org10de34f"></a>
 
 ## the raku study group
 
@@ -29,7 +30,14 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orge7a4739"></a>
+<a id="org8a03393"></a>
+
+### haskell's span
+
+1.  <https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function>
+
+
+<a id="orga135c48"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -92,19 +100,19 @@
         1.  <https://www.youtube.com/watch?v=FAHP4IN5wiQ&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=20>
 
 
-<a id="orgcf5587c"></a>
+<a id="orgd758dc5"></a>
 
 ### why is perl still relevant:
 
 1.  <https://www.google.com/url?q=https%3A%2F%2Fstackoverflow.blog%2F2022%2F07%2F06%2Fwhy-perl-is-still-relevant-in-2022%2F&sa=D&sntz=1&usg=AOvVaw3aI-NUWmi9G4Fg8w95CYio>
 
 
-<a id="orgcc6f741"></a>
+<a id="org49ef64c"></a>
 
 ### topics from last meeting (June 19th)
 
 
-<a id="org17b40aa"></a>
+<a id="org4e6ac67"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -151,7 +159,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="orga9307b2"></a>
+<a id="orgd2afc2d"></a>
 
 ### for future meetings
 
@@ -182,11 +190,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org86938ba"></a>
+<a id="orgc3f81ec"></a>
 
 ## announcements
 
 
-<a id="org3639396"></a>
+<a id="orgd5ed226"></a>
 
 ### July 24th: next raku study group meeting
