@@ -57,6 +57,12 @@ use v6;
   say @a.raku;  #  ["a", "b", "c", "de"]
 }
 
+{ # rob 
+  my @a = < a b c d e > ; (@a[* -2], @a[*-1]) = @a[*-1], @a[*-2];  
+  @a.push( @a.pop ~ @a.pop );
+  say @a.raku;  #  ["a", "b", "c", "de"]
+}
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
