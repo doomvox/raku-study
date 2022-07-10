@@ -49,6 +49,8 @@ use v6;
  say "===";    
  my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
  @disney.push( do { my $a = @disney.pop; say "1: $a"; $a } R~ do { my $a = @disney.pop; say "2: $a"; $a } );
+ # 2: Eeyore
+ # 1: Dumbo
  say @disney;  # [Ariel Belle Cinderella EeyoreDumbo]  #
  say "===";    
 }
@@ -57,6 +59,8 @@ use v6;
  say "===";    
  my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
  @disney.push( do { my $a = @disney.pop; say "1: $a"; $a } ~ do { my $a = @disney.pop; say "2: $a"; $a } );
+ # 1: Eeyore
+ # 2: Dumbo
  say @disney;  # [Ariel Belle Cinderella EeyoreDumbo]  #
  say "===";    
 }
