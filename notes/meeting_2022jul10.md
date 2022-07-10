@@ -1,19 +1,20 @@
-- [meeting notes July 10, 2022](#org78fb861)
-  - [the raku study group](#orgadb4f77)
-    - [Videos are out for the TPRC 2022 in Houston:](#orgb284a8c)
-    - [topics from last meeting (June 19th)](#orgbea84ad)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orgfdea5ae)
-    - [for future meetings](#orgebca0c7)
-  - [announcements](#org5082f55)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org1bd0c63)
+- [meeting notes July 10, 2022](#org2ed75ee)
+  - [the raku study group](#org4963529)
+    - [Videos are out for the TPRC 2022 in Houston:](#orgace4279)
+    - [haskell's span](#orge62e6ee)
+    - [topics from last meeting (June 19th)](#orge7ec5fe)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org1036494)
+    - [for future meetings](#org0b83428)
+  - [announcements](#org4260dca)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org0f0dbbb)
 
 
-<a id="org78fb861"></a>
+<a id="org2ed75ee"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="orgadb4f77"></a>
+<a id="org4963529"></a>
 
 ## the raku study group
 
@@ -28,7 +29,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orgb284a8c"></a>
+<a id="orgace4279"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -75,12 +76,19 @@
     3.  Ovid, state of the Corinna project
 
 
-<a id="orgbea84ad"></a>
+<a id="orge62e6ee"></a>
+
+### haskell's span
+
+1.  <https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function>
+
+
+<a id="orge7ec5fe"></a>
 
 ### topics from last meeting (June 19th)
 
 
-<a id="orgfdea5ae"></a>
+<a id="org1036494"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -123,7 +131,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="orgebca0c7"></a>
+<a id="org0b83428"></a>
 
 ### for future meetings
 
@@ -154,11 +162,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org5082f55"></a>
+<a id="org4260dca"></a>
 
 ## announcements
 
 
-<a id="org1bd0c63"></a>
+<a id="org0f0dbbb"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))

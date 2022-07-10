@@ -36,6 +36,9 @@ my $i = sqrt( -1 + 0i );  ## works
 
 ***** Ovid, state of the Corinna project
 
+*** haskell's span
+**** https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function
+
 
 *** topics from last meeting (June 19th)
 *** regex feature: control what's captured with <( ... )>
