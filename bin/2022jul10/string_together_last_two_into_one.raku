@@ -40,7 +40,7 @@ use v6;
 
 {
  my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
- @disney.rotate: 2; @disney.push( do{ @disney.shift: 2 ~ @disney.push } );
+ @disney.rotate: 2; @disney.push( do { @disney.shift: 2 ~ @disney.push } );
  say @disney;
 }
 
