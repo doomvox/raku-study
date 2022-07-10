@@ -25,7 +25,8 @@ use v6;
 # Perl or Python (with minimum usage of external libs) 
 
 # Some debate on whether he's literally interested in "within same second" or events "within one second".
-# 11:59::59 and 12:00:00 are 1 second apart
+# bruce gray:
+#   11:59::59 and 12:00:00 are 1 second apart
 
 use DateTime::Parse;
 
