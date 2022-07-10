@@ -19,10 +19,6 @@
 ****** State of using OpenMP from Perl for multithreaded
 ******* https://www.youtube.com/watch?v=lMRjdpygVFM&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=23
 
-
-
-
-
 ***** Bruce Gray, raku for beginners
 ****** https://www.youtube.com/watch?v=rSP_GgcHQ0Q&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=16
 ****** comparing hash deref via curlies and double-angle
