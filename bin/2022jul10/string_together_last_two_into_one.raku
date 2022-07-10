@@ -70,8 +70,7 @@ use v6;
    @disney.push( [R~] @disney.pop, @disney.pop );
    say @disney;
    say "~~~";    
-   # NOT:  [Ariel Belle Cinderella [DumboEeyore]]
-   # THIS: [Ariel Belle Cinderella (DumboEeyore) ()]
+   # [Ariel Belle Cinderella [DumboEeyore]]
 }
 
 { # rob 
