@@ -11,9 +11,9 @@ use v6;
 
 my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
 
-my regex chop_point { ^ chop };    # not allowed to use '=' here
+my regex $chop_point { ^ chop };    # not allowed to use '=' here
 
-my (@first, @second) = span( chop_point, @monsters );
+my (@first, @second) = span( $chop_point, @monsters );
 
 sub span (regex $pat, @items) {
     my $idx = @items.first: $pat, :p;
