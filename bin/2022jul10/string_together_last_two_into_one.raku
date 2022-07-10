@@ -53,7 +53,7 @@ use v6;
 
 { # rob 
   my @a = < a b c d e > ; (@a[* -2], @a[*-1]) = @a[*-1], @a[*-2];  
-  @a.push( @disney.pop ~ @disney.pop );
+  @a.push( @a.pop ~ @a.pop );
   say @a;
 }
 
