@@ -13,6 +13,7 @@ my %c = $data_file.IO.lines().map({
     DateTime::Parse.new($d.subst("+0200", "GMT")).posix, |@a;
 }).classify(*.[0]);
 
-for %c.sort(+*) {
+# for %c.sort( +* ) {
+for %c.sort {
     put .raku if .value».[4] eqv ("user logged in", "user changed password", "user logged off");
 }
