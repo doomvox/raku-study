@@ -54,7 +54,7 @@ use v6;
 { # rob 
   my @a = < a b c d e > ; (@a[* -2], @a[*-1]) = @a[*-1], @a[*-2];  
   @a.push( @a.pop ~ @a.pop );
-  say @a;
+  say @a.raku;
 }
 
 
