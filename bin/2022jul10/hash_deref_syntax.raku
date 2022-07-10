@@ -49,7 +49,9 @@ say "$m3.lc()";   # gammera
 
 say "M3.lc()";    #  M3.lc()
 
-say "$m3.uc()$m1";  
+say "$m3.uc()$m1";  # GAMMERAgodzilla
+
+## Pretty weird code intep, eh?
 
 
 ##---
