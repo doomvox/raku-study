@@ -68,7 +68,8 @@ use v6;
 {  say "~~~";    
    my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
    my @new = [R~] @disney.pop, @disney.pop;
-   say @new;
+   @disney.push( @new );
+   say @disney;
    say "~~~";    
 }
 
