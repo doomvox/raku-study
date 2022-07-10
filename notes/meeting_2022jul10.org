@@ -9,7 +9,6 @@
 *** haskell's span
 **** https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function
 
-
 *** Videos are out for the TPRC 2022 in Houston:
 
 **** https://www.youtube.com/playlist?list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE
