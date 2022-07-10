@@ -1,20 +1,20 @@
-- [meeting notes July 10, 2022](#org8a86eff)
-  - [the raku study group](#org846fbdd)
-    - [Videos are out for the TPRC 2022 in Houston:](#org40be9a3)
-    - [haskell's span](#org9df1e7c)
-    - [topics from last meeting (June 19th)](#orgb0e6eba)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org5cf1bd3)
-    - [for future meetings](#org2665fe9)
-  - [announcements](#org69de588)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgd01d283)
+- [meeting notes July 10, 2022](#org83589a3)
+  - [the raku study group](#org42bede3)
+    - [Videos are out for the TPRC 2022 in Houston:](#orgb9db069)
+    - [haskell's span](#org82d3277)
+    - [topics from last meeting (June 19th)](#org60507c0)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org2dba343)
+    - [for future meetings](#orge240981)
+  - [announcements](#org6ce7934)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgd4896e6)
 
 
-<a id="org8a86eff"></a>
+<a id="org83589a3"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org846fbdd"></a>
+<a id="org42bede3"></a>
 
 ## the raku study group
 
@@ -29,7 +29,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org40be9a3"></a>
+<a id="orgb9db069"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -37,23 +37,25 @@
 
     1.  Bruce Gray, raku for beginners
     
-        1.  comparing hash deref via curlies and double-angle
+        1.  <https://www.youtube.com/watch?v=rSP_GgcHQ0Q&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=16>
+        
+        2.  comparing hash deref via curlies and double-angle
         
             1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10/hash_deref_syntax.raku>
             
             2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/hash<sub>deref</sub><sub>syntax.raku</sub>
         
-        2.  gluing together last two array elements into one
+        3.  gluing together last two array elements into one
         
             1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10/string_together_last_two_into_one.raku>
             
             2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string<sub>together</sub><sub>last</sub><sub>two</sub><sub>into</sub><sub>one.raku</sub>
         
-        3.  small point:
+        4.  small point:
         
             1.  perl pulled ahead on unicode **because** it was late in adopting it: utf-8 era vs utf-16
         
-        4.  some good bits:
+        5.  some good bits:
         
             1.  raku lets you define operators like the built-in ones, **except** for ternaries
             
@@ -82,19 +84,19 @@
         1.  
 
 
-<a id="org9df1e7c"></a>
+<a id="org82d3277"></a>
 
 ### haskell's span
 
 1.  <https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function>
 
 
-<a id="orgb0e6eba"></a>
+<a id="org60507c0"></a>
 
 ### topics from last meeting (June 19th)
 
 
-<a id="org5cf1bd3"></a>
+<a id="org2dba343"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -137,7 +139,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="org2665fe9"></a>
+<a id="orge240981"></a>
 
 ### for future meetings
 
@@ -168,11 +170,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org69de588"></a>
+<a id="org6ce7934"></a>
 
 ## announcements
 
 
-<a id="orgd01d283"></a>
+<a id="orgd4896e6"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))
