@@ -20,7 +20,7 @@ say @second;
 
 
 sub span (Regex $pat, @items) {
-    my $idx = @items.first: $pat, :k;
+    my $idx = | @items.first: $pat, :k;
     say "idx: $idx";
 
     my @a1 = @items[ 0 ..^ $idx ];
