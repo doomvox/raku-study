@@ -53,6 +53,15 @@ use v6;
  say "===";    
 }
 
+{ # sans R
+ say "===";    
+ my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
+ @disney.push( do { my $a = @disney.pop; say "1: $a"; $a } ~ do { my $a = @disney.pop; say "2: $a"; $a } );
+ say @disney;  # [Ariel Belle Cinderella EeyoreDumbo]  #
+ say "===";    
+}
+
+
 { # rob 
   my @a = < a b c d e > ; (@a[* -2], @a[*-1]) = @a[*-1], @a[*-2];  
   @a.push( @a.pop ~ @a.pop );
