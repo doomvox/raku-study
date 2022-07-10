@@ -48,7 +48,7 @@ my $i = sqrt( -1 + 0i );  ## works
 *** haskell's span
 **** https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function
 
-*** why is perl still relevent:
+*** why is perl still relevant:
 https://mail.google.com/mail/u/0/h/uvq2shknaf55/?&th=181e025210eb9c93&v=c
 
 *** topics from last meeting (June 19th)
