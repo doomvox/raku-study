@@ -37,7 +37,7 @@ say %level<< $m3.lc >>;  # ((Any) (Any))
 
 # gAMMeRa .lc
 
-say << $m3.lc >>.raku;
+say << $m3.lc >>.raku;  # ("gAMMeRa", ".lc")
 
 ## Hm: treats that as two keys?
 
