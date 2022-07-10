@@ -15,7 +15,7 @@
 
 ***** Brett Estrade, thread support in perl using the gcc OpenMP feature
 ****** Intro OpenMP for perl programmers
-******* Https://www.youtube.com/watch?v=4SRR2-uGg40&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=22
+******* https://www.youtube.com/watch?v=4SRR2-uGg40&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=22
 ****** State of using OpenMP from Perl for multithreaded
 ******* https://www.youtube.com/watch?v=lMRjdpygVFM&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=23
 
