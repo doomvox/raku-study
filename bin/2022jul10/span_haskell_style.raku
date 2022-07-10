@@ -15,7 +15,7 @@ my regex chop { ^ chop };    # not allowed to use '=' here
 
 my (@first, @second) = span( chop, @monsters );
 
-sub span (rege $pat, @items) {
+sub span (regex $pat, @items) {
     my $idx = @items.first: $pat, :p;
 
     my @a1 = @items[ 0 ..^ $idx ];
