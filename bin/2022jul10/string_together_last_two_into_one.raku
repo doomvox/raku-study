@@ -65,6 +65,11 @@ use v6;
  say "===";    
 }
 
+{  say "===";    
+   my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
+   my @new = [R~] @disney.pop, @disney.pop;
+   say @new;
+}
 
 { # rob 
   my @a = < a b c d e > ; (@a[* -2], @a[*-1]) = @a[*-1], @a[*-2];  
