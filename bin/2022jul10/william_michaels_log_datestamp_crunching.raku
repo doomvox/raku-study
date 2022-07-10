@@ -5,6 +5,7 @@
 use v6;
 
 
+## William Michaels "one-liner" answer:
 #  raku -MDateTime::Parse -e 'my @a; my @b; for lines() {   \
 #          @a.push($_.subst("+0200", "GMT", :global).split(/ "|" | \s "-" \s? /, :skip-empty));  \
 #          @b.push(DateTime::Parse.new(@a.[*-1][0]).posix)}; my %c.=append([Z=>] @b, @a>>.[1..*-1]);  \
@@ -12,6 +13,7 @@ use v6;
 #          && ($i.value.elems == 9)}'  file
 
 
+#  https://unix.stackexchange.com/questions/705842/rewriting-log-parsing-script-in-perl-or-python-get-rid-of-awk/709253#709253
 
 # I need accomplish a task of filtering activity of bots in the log file.
 
@@ -20,7 +22,7 @@ use v6;
 #     user logged in, user changed password, user logged off within same second (all 3 actions have to be done within 1 second);
 #     those actions (log in, change password, log off) happened one after another with no other entries in between.
 
-
+# Perl or Python (with minimum usage of external libs) 
 
 
 use DateTime::Parse;
