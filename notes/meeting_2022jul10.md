@@ -1,17 +1,17 @@
-- [meeting notes July 10, 2022](#org9871230)
-  - [the raku study group](#org070c999)
-    - [haskell's span](#orgbfce8b4)
-    - [Videos are out for the TPRC 2022 in Houston:](#orgfaf94ca)
-  - [announcements](#org03ebf70)
-    - [July 24th: next raku study group meeting](#org1cc693e)
+- [meeting notes July 10, 2022](#org9157f63)
+  - [the raku study group](#org16ccbfb)
+    - [haskell's span](#org1c9bdba)
+    - [Videos are out for the TPRC 2022 in Houston:](#org4c4f42f)
+  - [announcements](#org1ee4612)
+    - [July 24th: next raku study group meeting](#org3274d39)
 
 
-<a id="org9871230"></a>
+<a id="org9157f63"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org070c999"></a>
+<a id="org16ccbfb"></a>
 
 ## the raku study group
 
@@ -26,14 +26,14 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orgbfce8b4"></a>
+<a id="org1c9bdba"></a>
 
 ### haskell's span
 
 1.  <https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function>
 
 
-<a id="orgfaf94ca"></a>
+<a id="org4c4f42f"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -190,11 +190,11 @@
                     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org03ebf70"></a>
+<a id="org1ee4612"></a>
 
 ## announcements
 
 
-<a id="org1cc693e"></a>
+<a id="org3274d39"></a>
 
 ### July 24th: next raku study group meeting
