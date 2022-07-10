@@ -65,10 +65,11 @@ use v6;
  say "===";    
 }
 
-{  say "===";    
+{  say "~~~";    
    my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
    my @new = [R~] @disney.pop, @disney.pop;
    say @new;
+ say "~~~";    
 }
 
 { # rob 
