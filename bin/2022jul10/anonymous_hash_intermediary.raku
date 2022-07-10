@@ -21,7 +21,7 @@ use v6;
 }
 
 
-sub say_num ($str) {
+sub say_num ( $str ) {
     my $n = $++;
     say "$n: $str";
 }
