@@ -14,7 +14,7 @@ use v6;
 
 use DateTime::Parse;
 
-my $data_file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/dat/somedata.log"
+my $data_file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/dat/somedata.log";
 
 my @a;
 my @b; for $data_file.IO.lines() {   
@@ -23,6 +23,6 @@ my @b; for $data_file.IO.lines() {
 };
 my %c.=append( [Z=>] @b, @a>>.[1..*-1] );  
 for %c.sort -> $i {
-  $i.raku.put if $i.values.contains("user logged in" & "user changed password" & "user logged off") && ($i.value.elems == 9)
+   $i.raku.put if $i.values.contains( "user logged in" & "user changed password" & "user logged off" ) && ( $i.value.elems == 9 )
 }
 
