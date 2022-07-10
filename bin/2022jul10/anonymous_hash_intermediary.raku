@@ -5,5 +5,8 @@
 use v6;
 
 
-say my %h = % = %(:a(1));       # OUTPUT: «{a => 1}␤»
+say my %h = % = %(:a(1)); 
+# {a => 1}
 
+
+say my %h =%= %(:a(1)); 
