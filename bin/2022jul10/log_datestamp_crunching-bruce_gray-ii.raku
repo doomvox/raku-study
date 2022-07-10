@@ -17,3 +17,7 @@ my %c = $data_file.IO.lines().map({
 for %c.sort( +*.key ) {
     put .raku if .value».[4] eqv ("user logged in", "user changed password", "user logged off");
 }
+
+# "1471871739" => $[(1471871739, "178.57.66.225", "fxsciaqulmlk", " - ", "user logged in", " -"), (1471871739, "178.57.66.225", "fxsciaqulmlk", " - ", "user changed password", " -"), (1471871739, "178.57.66.225", "fxsciaqulmlk", " - ", "user logged off", " -")]
+# "1471871759" => $[(1471871759, "178.57.66.205", "erdsfsdfsdf", " - ", "user logged in", " -"), (1471871759, "178.57.66.205", "erdsfsdfsdf", " - ", "user changed password", " -"), (1471871759, "178.57.66.205", "erdsfsdfsdf", " - ", "user logged off", " -")]
+# "1471871959" => $[(1471871959, "178.56.66.225", "fxsciaqulmla", " - ", "user logged in", " -"), (1471871959, "178.56.66.225", "fxsciaqulmla", " - ", "user changed password", " -"), (1471871959, "178.56.66.225", "fxsciaqulmla", " - ", "user logged off", " -")]
