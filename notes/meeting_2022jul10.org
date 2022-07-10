@@ -97,6 +97,6 @@ my $i = sqrt( -1 + 0i );  ## works
 ***** https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence
 
 ** announcements 
-*** July 24th: next raku study group meeting (( or should it be the 17th? ))
+*** July 24th: next raku study group meeting
 
 

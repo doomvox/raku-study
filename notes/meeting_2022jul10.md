@@ -1,20 +1,20 @@
-- [meeting notes July 10, 2022](#orgfe8b54f)
-  - [the raku study group](#org835d270)
-    - [Videos are out for the TPRC 2022 in Houston:](#orgbe22534)
-    - [haskell's span](#org9b0d4d4)
-    - [topics from last meeting (June 19th)](#orgb14a0c6)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orgd3ae466)
-    - [for future meetings](#org1bfcda6)
-  - [announcements](#org09cb1d7)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgd55c120)
+- [meeting notes July 10, 2022](#orgada910c)
+  - [the raku study group](#org679cdc8)
+    - [Videos are out for the TPRC 2022 in Houston:](#org02c1a11)
+    - [haskell's span](#org0211fb5)
+    - [topics from last meeting (June 19th)](#orgb49456a)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org04c3b81)
+    - [for future meetings](#org86b92d0)
+  - [announcements](#orgf990275)
+    - [July 24th: next raku study group meeting](#orgcf52a51)
 
 
-<a id="orgfe8b54f"></a>
+<a id="orgada910c"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org835d270"></a>
+<a id="org679cdc8"></a>
 
 ## the raku study group
 
@@ -29,7 +29,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orgbe22534"></a>
+<a id="org02c1a11"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -92,19 +92,19 @@
         1.  <https://www.youtube.com/watch?v=FAHP4IN5wiQ&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=20>
 
 
-<a id="org9b0d4d4"></a>
+<a id="org0211fb5"></a>
 
 ### haskell's span
 
 1.  <https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function>
 
 
-<a id="orgb14a0c6"></a>
+<a id="orgb49456a"></a>
 
 ### topics from last meeting (June 19th)
 
 
-<a id="orgd3ae466"></a>
+<a id="org04c3b81"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -147,7 +147,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="org1bfcda6"></a>
+<a id="org86b92d0"></a>
 
 ### for future meetings
 
@@ -178,11 +178,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org09cb1d7"></a>
+<a id="orgf990275"></a>
 
 ## announcements
 
 
-<a id="orgd55c120"></a>
+<a id="orgcf52a51"></a>
 
-### July 24th: next raku study group meeting (( or should it be the 17th? ))
+### July 24th: next raku study group meeting
