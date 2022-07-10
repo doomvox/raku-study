@@ -5,7 +5,8 @@
 use v6;
 
 # my $data_file = "/T/d20220710/j22.txt";
-my $data_file = "%*ENV<HOME>/2022jul10/dat/somedata.log";
+## TODO clean up path for portablity
+my $data_file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/dat/somedata.log";
 
 use DateTime::Parse;
 my @L = $data_file.IO.lines.map: {
