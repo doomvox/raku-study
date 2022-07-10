@@ -60,7 +60,9 @@ my $i = sqrt( -1 + 0i );  ## works
 
 ***** david christensen issues;
 ****** book review 
-******* 
+******* bill hails, "exploring programming language architecture in perl"
+http://www.billhails.net/Book/
+
 ****** perl 
 ******* weakened refs
 ******* arguments with weakened refs

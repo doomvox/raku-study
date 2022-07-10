@@ -1,17 +1,17 @@
-- [meeting notes July 10, 2022](#org2e16249)
-  - [the raku study group](#org688fe7d)
-    - [haskell's span](#org07d0817)
-    - [Videos are out for the TPRC 2022 in Houston:](#org36748f6)
-  - [announcements](#org573bb96)
-    - [July 24th: next raku study group meeting](#org78c7a8a)
+- [meeting notes July 10, 2022](#org41222cc)
+  - [the raku study group](#org3b7c44e)
+    - [haskell's span](#orgeba8719)
+    - [Videos are out for the TPRC 2022 in Houston:](#org4c741cc)
+  - [announcements](#orga255c01)
+    - [July 24th: next raku study group meeting](#orgad6e852)
 
 
-<a id="org2e16249"></a>
+<a id="org41222cc"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org688fe7d"></a>
+<a id="org3b7c44e"></a>
 
 ## the raku study group
 
@@ -26,14 +26,14 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org07d0817"></a>
+<a id="orgeba8719"></a>
 
 ### haskell's span
 
 1.  <https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function>
 
 
-<a id="org36748f6"></a>
+<a id="org4c741cc"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -107,7 +107,9 @@
     
         1.  book review
         
-            1.  
+            1.  bill hails, "exploring programming language architecture in perl"
+            
+                <http://www.billhails.net/Book/>
         
         2.  perl
         
@@ -192,11 +194,11 @@
                 1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org573bb96"></a>
+<a id="orga255c01"></a>
 
 ## announcements
 
 
-<a id="org78c7a8a"></a>
+<a id="orgad6e852"></a>
 
 ### July 24th: next raku study group meeting
