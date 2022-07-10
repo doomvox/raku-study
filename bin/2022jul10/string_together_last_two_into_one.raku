@@ -71,6 +71,7 @@ use v6;
    @disney.push( @new );
    say @disney;
    say "~~~";    
+   # [Ariel Belle Cinderella [DumboEeyore]]
 }
 
 { # rob 
