@@ -71,6 +71,7 @@ use v6;
    say @disney;
    say "~~~";    
    # [Ariel Belle Cinderella [DumboEeyore]]
+   # [Ariel Belle Cinderella (DumboEeyore) ()]
 }
 
 { # rob 
