@@ -64,7 +64,6 @@ use v6;
 
   my $x = 42; my $y = 99; ($x, $y) .= reverse; say (:$x, :$y).raku;
  (:x(99), :y(42)) 
-
 }
 
 
