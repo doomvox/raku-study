@@ -11,7 +11,7 @@ use v6;
 
 my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
 
-my regex chop_point { ^ chop };    # not allowed to use '=' here; doesn't like a sigil, $chop_point
+my regex chop_point { ^ chop };                # not allowed to use '=' here; doesn't like a sigil, $chop_point
 
 my $ret = span( /<chop_point>/, @monsters );   # won't let you use the bare word 'chop_point'
 
