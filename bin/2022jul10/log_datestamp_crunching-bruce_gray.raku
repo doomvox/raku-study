@@ -4,7 +4,7 @@
 
 use v6;
 
-my $data_file = "/T/d20220710/j22.txt";
+# my $data_file = "/T/d20220710/j22.txt";
 my $data_file = "%*ENV<HOME>/2022jul10/dat/somedata.log";
 
 use DateTime::Parse;
