@@ -27,6 +27,6 @@ sub say_num ( $str ) {
 }
 
 
-say_num();
-say_num();
-say_num();
+say_num("hey");
+say_num("there");
+say_num("you guys");
