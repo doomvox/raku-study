@@ -39,9 +39,9 @@ my @b; for $data_file.IO.lines() {
 };
 my %c.=append( [Z=>] @b, @a>>.[1..*-1] );  
 for %c.sort -> $i {
-#   wm code:
-#   $i.raku.put if $i.values.contains( "user logged in" & "user changed password" & "user logged off" ) && ( $i.value.elems == 9 )
-#   bg revision (above works, but is doing indirect conniptions to get there): 
+  #   wm code:
+  #    $i.raku.put if $i.values.contains( "user logged in" & "user changed password" & "user logged off" ) && ( $i.value.elems == 9 )
+  #   bg revision (above works, but is doing indirect conniptions to get there): 
     $i.raku.put if $i.value.join.contains( "user logged in" & "user changed password" & "user logged off" ) && ( $i.value.elems == 9 )
 }
 
