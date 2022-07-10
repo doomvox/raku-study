@@ -38,7 +38,7 @@ my $i = sqrt( -1 + 0i );  ## works
 ****** 
 
 ***** Ovid, state of the Corinna project
-****** 
+****** https://www.youtube.com/watch?v=5lSdBSCkFGs&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=14
 
 
 *** haskell's span
