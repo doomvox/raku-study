@@ -47,8 +47,7 @@ use v6;
 
 { # bruce gray
  my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
- @disney.rotate(2);
- @disney.push( @disney.splice(*-2, 2).join );
+ @disney.push( @disney.pop R~ @disney.pop );
  say @disney;  # [Ariel Belle Cinderella DumboEeyore]
 }
 
