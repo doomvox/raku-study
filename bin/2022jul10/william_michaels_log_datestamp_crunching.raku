@@ -12,6 +12,17 @@ use v6;
 #          && ($i.value.elems == 9)}'  file
 
 
+
+# I need accomplish a task of filtering activity of bots in the log file.
+
+# Solution should only show records meeting following criteria
+
+#     user logged in, user changed password, user logged off within same second (all 3 actions have to be done within 1 second);
+#     those actions (log in, change password, log off) happened one after another with no other entries in between.
+
+
+
+
 use DateTime::Parse;
 
 my $data_file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/dat/somedata.log";
