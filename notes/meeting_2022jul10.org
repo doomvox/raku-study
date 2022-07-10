@@ -34,7 +34,7 @@ my $i = sqrt( -1 + 0i );  ## works
 
 ***** Brett Estrade, thread support in perl using the gcc OpenMP feature
 
-***** Ovid, state of Corinna project
+***** Ovid, state of the Corinna project
 
 
 *** topics from last meeting (June 19th)
