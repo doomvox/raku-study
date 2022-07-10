@@ -1,17 +1,17 @@
-- [meeting notes July 10, 2022](#org794b1b5)
-  - [the raku study group](#orgf0ef28d)
-    - [haskell's span](#org8b3c32a)
-    - [Videos are out for the TPRC 2022 in Houston:](#org270adcc)
-  - [announcements](#orgab679e9)
-    - [July 24th: next raku study group meeting](#org7763b2a)
+- [meeting notes July 10, 2022](#org7ebd67b)
+  - [the raku study group](#org34e32c3)
+    - [haskell's span](#orgd6cee6d)
+    - [Videos are out for the TPRC 2022 in Houston:](#orgbb879ec)
+  - [announcements](#orga72046a)
+    - [July 24th: next raku study group meeting](#orgc24a59e)
 
 
-<a id="org794b1b5"></a>
+<a id="org7ebd67b"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="orgf0ef28d"></a>
+<a id="org34e32c3"></a>
 
 ## the raku study group
 
@@ -26,14 +26,14 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org8b3c32a"></a>
+<a id="orgd6cee6d"></a>
 
 ### haskell's span
 
 1.  <https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function>
 
 
-<a id="org270adcc"></a>
+<a id="orgbb879ec"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -98,24 +98,24 @@
         7.  Ruth Holloway, DbiX::Class and Dancer2 (perl5 web/database work)
         
             1.  <https://www.youtube.com/watch?v=FAHP4IN5wiQ&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=20>
+    
+    3.  why is perl still relevant:
+    
+        1.  <https://www.google.com/url?q=https%3A%2F%2Fstackoverflow.blog%2F2022%2F07%2F06%2Fwhy-perl-is-still-relevant-in-2022%2F&sa=D&sntz=1&usg=AOvVaw3aI-NUWmi9G4Fg8w95CYio>
+    
+    4.  david christensen issues;
+    
+        1.  book review
         
-        8.  david christensen issues;
+        2.  perl
         
-            1.  book review
+            1.  weakened refs
             
-            2.  perl
-            
-                1.  weakened refs
-                
-                2.  arguments with weakened refs
-            
-            3.  crawling recursive structures with loops (technique from erlang)
+            2.  arguments with weakened refs
         
-        9.  why is perl still relevant:
+        3.  crawling recursive structures with loops (technique from erlang)
         
-            1.  <https://www.google.com/url?q=https%3A%2F%2Fstackoverflow.blog%2F2022%2F07%2F06%2Fwhy-perl-is-still-relevant-in-2022%2F&sa=D&sntz=1&usg=AOvVaw3aI-NUWmi9G4Fg8w95CYio>
-        
-        10. topics from last meeting (June 19th)
+        4.  topics from last meeting (June 19th)
         
             1.  regex feature: control what's captured with <( &#x2026; )>
             
@@ -190,11 +190,11 @@
                     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgab679e9"></a>
+<a id="orga72046a"></a>
 
 ## announcements
 
 
-<a id="org7763b2a"></a>
+<a id="orgc24a59e"></a>
 
 ### July 24th: next raku study group meeting
