@@ -17,6 +17,7 @@ my (@first, @second) = span( /<chop_point>/, @monsters );
 
 sub span (Regex $pat, @items) {
     my $idx = @items.first: $pat, :p;
+    say "idx: $idx";
 
     my @a1 = @items[ 0 ..^ $idx ];
     my @a2 = @items[ $idx .. @items.elems ];
