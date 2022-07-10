@@ -48,7 +48,7 @@ use v6;
 { # bruce gray
  my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
  @disney.push( @disney.pop R~ @disney.pop );
- say @disney;  # [Ariel Belle Cinderella DumboEeyore]
+ say @disney;  # [Ariel Belle Cinderella EeyoreDumbo]
 }
 
 
