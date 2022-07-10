@@ -41,7 +41,7 @@ use v6;
 {
  my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
  @disney.rotate(2);
- @disney.push( @disney.shift(2).join );
+ @disney.push({ @disney.shift(2).join });
  say @disney;
 }
 
