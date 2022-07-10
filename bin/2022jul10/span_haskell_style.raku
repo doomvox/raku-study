@@ -11,4 +11,5 @@ use v6;
 
 my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
 
-my regex $chop = rx/^ chop /;
+my regex $chop = { ^ chop };
+
