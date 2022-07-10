@@ -49,6 +49,9 @@ say "$m3.lc()";   # gammera
 
 say "M3.lc()";    #  M3.lc()
 
+say "ALPHA.lc()BETA";
+
+
 ##---
 ## :exists adverb, instead of returning value, checks whether key exists
 ##
