@@ -41,9 +41,8 @@ say "---";
 say %level<< $m3.lc() >>;  # 5
 say "---";
 
-say $m3.lc;
-say $m3.lc();
-
+say $m3.lc;     # gammera
+say $m3.lc();   # gammera
 
 ##---
 ## :exists adverb, instead of returning value, checks whether key exists
