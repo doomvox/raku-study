@@ -33,7 +33,12 @@ my $m3 = 'gAMMeRa';
 say %level{ $m3 };     # (Any)
 say %level{ $m3.lc };  # 5
 
-say %level<< $m3.lc >>;  # ((Any) (Any))
+say %level<< $m3.lc >>;  # ((Any) (Any))     
+
+# gAMMeRa .lc
+
+say << $m3.lc >>.raku;
+
 
 ## Hm: treats that as two keys?
 
