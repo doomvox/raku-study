@@ -25,7 +25,7 @@ sub span (Regex $pat, @items) {
 #    say "idx: $idx";
 
     my @a1 = @items[ 0 ..^ $idx ];
-    my @a2 = @items[ $idx .. @items.elems ];
+    my @a2 = @items[ $idx .. *-1 ];
 
     return  @a1,  @a2;
 }
