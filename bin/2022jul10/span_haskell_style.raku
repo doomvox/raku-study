@@ -19,6 +19,5 @@ sub span (@items) {
     my @a1 = @items[ 0 ..^ $idx ];
     my @a2 = @items[ $idx .. @items.elems ];
 
-
-
+    return (@a1, @a2);
 }
