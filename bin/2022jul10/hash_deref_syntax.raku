@@ -44,7 +44,7 @@ say << $m3.lc >>.raku;  # ("gAMMeRa", ".lc")
 
 say << hey.there.you >>.raku;  # "hey.there.you"
 
-say << $m1.$m2.$m3 >>.raku;  # "hey.there.you"
+say << $m1.$m2.$m3 >>.raku;    # ("godzilla", ".", "ghidora", ".", "gAMMeRa")
 
 
 ## Hm: treats that as two keys?
