@@ -4,6 +4,10 @@
 
 use v6;
 
+## Note: really a lot of the mysteries here are quoting issues,
+## no so much hash deref issues.
+
+
 my %level =
   godzilla => 9,
   mothera  => 6,
