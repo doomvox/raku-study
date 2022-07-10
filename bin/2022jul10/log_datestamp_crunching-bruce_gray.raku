@@ -4,8 +4,10 @@
 
 use v6;
 
+my $data_file = "%*ENV<HOME>/T/d20220710/j22.txt";
+
 use DateTime::Parse;
-my @L = "%*ENV<HOME>/T/d20220710/j22.txt".IO.lines.map: {
+my @L = $data_file.IO.lines.map: {
     my ( $do, @f ) = .split('|');
     DateTime::Parse.new( $do.subst('+0200', 'GMT') ).posix, $do, |@f[0,1,3];
 }
