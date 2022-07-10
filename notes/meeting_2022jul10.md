@@ -1,21 +1,21 @@
-- [meeting notes July 10, 2022](#org3002d4b)
-  - [the raku study group](#org46292a7)
-    - [Videos are out for the TPRC 2022 in Houston:](#orga8e2463)
-    - [haskell's span](#org67a1e39)
-    - [why is perl still relevant:](#org2660f4c)
-    - [topics from last meeting (June 19th)](#orgcbda1cd)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orgf6abb80)
-    - [for future meetings](#org676f120)
-  - [announcements](#org75ed661)
-    - [July 24th: next raku study group meeting](#org63b42c8)
+- [meeting notes July 10, 2022](#org9674a56)
+  - [the raku study group](#orgc3ca298)
+    - [Videos are out for the TPRC 2022 in Houston:](#orge698d70)
+    - [haskell's span](#orgd1dea6c)
+    - [why is perl still relevant:](#orgc016425)
+    - [topics from last meeting (June 19th)](#orgbe65de9)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org0140c08)
+    - [for future meetings](#org9226e93)
+  - [announcements](#org308c083)
+    - [July 24th: next raku study group meeting](#org3cec5f2)
 
 
-<a id="org3002d4b"></a>
+<a id="org9674a56"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org46292a7"></a>
+<a id="orgc3ca298"></a>
 
 ## the raku study group
 
@@ -30,23 +30,23 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orga8e2463"></a>
+<a id="orge698d70"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
-1.  Brett Estrade, thread support in perl using the gcc OpenMP feature
-
-    1.  Intro OpenMP for perl programmers
-    
-        1.  <//www.youtube.com/watch?v=4SRR2-uGg40&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=22>
-    
-    2.  State of using OpenMP from Perl for multithreaded
-    
-        1.  <https://www.youtube.com/watch?v=lMRjdpygVFM&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=23>
-
 1.  <https://www.youtube.com/playlist?list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE>
 
-    1.  Bruce Gray, raku for beginners
+    1.  Brett Estrade, thread support in perl using the gcc OpenMP feature
+    
+        1.  Intro OpenMP for perl programmers
+        
+            1.  <//www.youtube.com/watch?v=4SRR2-uGg40&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=22>
+        
+        2.  State of using OpenMP from Perl for multithreaded
+        
+            1.  <https://www.youtube.com/watch?v=lMRjdpygVFM&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=23>
+    
+    2.  Bruce Gray, raku for beginners
     
         1.  <https://www.youtube.com/watch?v=rSP_GgcHQ0Q&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=16>
         
@@ -84,35 +84,35 @@
                 my @primes = grep &is-prime, 0..Inf;
                 ```
     
-    2.  Ovid, state of the Corinna project
+    3.  Ovid, state of the Corinna project
     
         1.  <https://www.youtube.com/watch?v=5lSdBSCkFGs&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=14>
     
-    3.  Ruth Holloway, DbiX::Class and Dancer2 (perl5 web/database work)
+    4.  Ruth Holloway, DbiX::Class and Dancer2 (perl5 web/database work)
     
         1.  <https://www.youtube.com/watch?v=FAHP4IN5wiQ&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=20>
 
 
-<a id="org67a1e39"></a>
+<a id="orgd1dea6c"></a>
 
 ### haskell's span
 
 1.  <https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function>
 
 
-<a id="org2660f4c"></a>
+<a id="orgc016425"></a>
 
 ### why is perl still relevant:
 
 1.  <https://www.google.com/url?q=https%3A%2F%2Fstackoverflow.blog%2F2022%2F07%2F06%2Fwhy-perl-is-still-relevant-in-2022%2F&sa=D&sntz=1&usg=AOvVaw3aI-NUWmi9G4Fg8w95CYio>
 
 
-<a id="orgcbda1cd"></a>
+<a id="orgbe65de9"></a>
 
 ### topics from last meeting (June 19th)
 
 
-<a id="orgf6abb80"></a>
+<a id="org0140c08"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -159,7 +159,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="org676f120"></a>
+<a id="org9226e93"></a>
 
 ### for future meetings
 
@@ -190,11 +190,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org75ed661"></a>
+<a id="org308c083"></a>
 
 ## announcements
 
 
-<a id="org63b42c8"></a>
+<a id="org3cec5f2"></a>
 
 ### July 24th: next raku study group meeting
