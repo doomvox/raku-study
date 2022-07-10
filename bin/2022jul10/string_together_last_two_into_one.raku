@@ -46,9 +46,11 @@ use v6;
 }
 
 { # bruce gray
+ say "===";    
  my @disney = <Ariel Belle Cinderella Dumbo Eeyore>;
  @disney.push( @disney.pop R~ @disney.pop );
- say @disney;  # [Ariel Belle Cinderella EeyoreDumbo]
+ say @disney;  # [Ariel Belle Cinderella EeyoreDumbo]  #
+ say "===";    
 }
 
 { # rob 
