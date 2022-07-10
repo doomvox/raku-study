@@ -51,6 +51,10 @@ use v6;
  say @disney;  # [Ariel Belle Cinderella EeyoreDumbo]
 }
 
+{ # rob 
+    @a = < a b c d e > ; (@a[* -2], @a[*-1]) = @a[*-1], @a[*-2]; say @a 
+
+}
 
 
 # ===
