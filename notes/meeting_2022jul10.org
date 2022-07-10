@@ -57,6 +57,9 @@ my $i = sqrt( -1 + 0i );  ## works
 ***** can do it with zero-width after/before matches
 ***** or by having multiple ordered captures, etc.
 
+***** william michels turned up this on the subject:
+https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up
+
 **** the double-asterix non-flattening slurpy array signature
 ***** so the single asterix is flattening?
 ***** TODO investigate further, for next time
