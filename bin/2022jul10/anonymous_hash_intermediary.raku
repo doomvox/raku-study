@@ -22,9 +22,9 @@ use v6;
 
 
 sub say_num ($str) {
-    $n = $++;
+    my $n = $++;
     say "$n: $str";
-    }
+}
 
 
 say_num();
