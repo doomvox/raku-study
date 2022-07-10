@@ -43,6 +43,7 @@ use v6;
  @disney.rotate(2);
  @disney.push({ @disney.shift(2).join });
  say @disney;
+ # [Ariel Belle Cinderella Dumbo Eeyore -> ;; $_? is raw = OUTER::<$_> { #`(Block|94082339312424) ... }]
 }
 
 # ===
