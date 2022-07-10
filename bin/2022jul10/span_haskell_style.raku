@@ -11,12 +11,12 @@ use v6;
 
 my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
 
-my regex $chop = { ^ chop };
+my regex chop = { ^ chop };
 
 my (@first, @second) = span( $chop, @monsters );
 
-sub span (@items) {
-    my $idx = @items.first: $chop, :p;
+sub span ($pat, @items) {
+    my $idx = @items.first: $pat, :p;
 
     my @a1 = @items[ 0 ..^ $idx ];
     my @a2 = @items[ $idx .. @items.elems ];
