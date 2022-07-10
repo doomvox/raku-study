@@ -1,20 +1,20 @@
-- [meeting notes July 10, 2022](#org2ed75ee)
-  - [the raku study group](#org4963529)
-    - [Videos are out for the TPRC 2022 in Houston:](#orgace4279)
-    - [haskell's span](#orge62e6ee)
-    - [topics from last meeting (June 19th)](#orge7ec5fe)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org1036494)
-    - [for future meetings](#org0b83428)
-  - [announcements](#org4260dca)
-    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#org0f0dbbb)
+- [meeting notes July 10, 2022](#org0622139)
+  - [the raku study group](#org9ed5d83)
+    - [Videos are out for the TPRC 2022 in Houston:](#orgddfabe7)
+    - [haskell's span](#org82b7878)
+    - [topics from last meeting (June 19th)](#orgcdfc2d4)
+    - [regex feature: control what's captured with <( &#x2026; )>](#orgaf7ded2)
+    - [for future meetings](#orgaac904b)
+  - [announcements](#orgc1f507f)
+    - [July 24th: next raku study group meeting (( or should it be the 17th? ))](#orgb7319b8)
 
 
-<a id="org2ed75ee"></a>
+<a id="org0622139"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org4963529"></a>
+<a id="org9ed5d83"></a>
 
 ## the raku study group
 
@@ -29,7 +29,7 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="orgace4279"></a>
+<a id="orgddfabe7"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -73,22 +73,26 @@
     
     2.  Brett Estrade, thread support in perl using the gcc OpenMP feature
     
+        1.  
+        
+        2.  
+    
     3.  Ovid, state of the Corinna project
 
 
-<a id="orge62e6ee"></a>
+<a id="org82b7878"></a>
 
 ### haskell's span
 
 1.  <https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function>
 
 
-<a id="orge7ec5fe"></a>
+<a id="orgcdfc2d4"></a>
 
 ### topics from last meeting (June 19th)
 
 
-<a id="org1036494"></a>
+<a id="orgaf7ded2"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -131,7 +135,7 @@
                 2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
 
 
-<a id="org0b83428"></a>
+<a id="orgaac904b"></a>
 
 ### for future meetings
 
@@ -162,11 +166,11 @@
     1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org4260dca"></a>
+<a id="orgc1f507f"></a>
 
 ## announcements
 
 
-<a id="org0f0dbbb"></a>
+<a id="orgb7319b8"></a>
 
 ### July 24th: next raku study group meeting (( or should it be the 17th? ))
