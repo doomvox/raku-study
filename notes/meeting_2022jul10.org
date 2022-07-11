@@ -123,6 +123,7 @@ https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-l
 *** check bruce gray email on an alternate to augment
 *** make sure dpchrist ideas roll forward
 *** work out how to make sure announcments go out early
+*** yary wants to see a synopsis of the log processing issue from stackexchange
 
 ** announcements 
 *** July 24th: next raku study group meeting

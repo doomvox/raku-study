@@ -1,21 +1,22 @@
-- [meeting notes July 10, 2022](#orga026e80)
-  - [the raku study group](#org124506c)
-    - [haskell's span](#org29a7312)
-    - [Videos are out for the TPRC 2022 in Houston:](#orgc29862e)
-  - [wrap up and prep](#orgdaa71ac)
-    - [check bruce gray email on an alternate to augment](#org0d0d9f4)
-    - [make sure dpchrist ideas roll forward](#org5fe81d2)
-    - [work out how to make sure announcments go out early](#org65e9550)
-  - [announcements](#org60aa887)
-    - [July 24th: next raku study group meeting](#org0a88500)
+- [meeting notes July 10, 2022](#org1b6a9ef)
+  - [the raku study group](#orgd389595)
+    - [haskell's span](#org996c7d2)
+    - [Videos are out for the TPRC 2022 in Houston:](#org6a22490)
+  - [wrap up and prep](#org4341159)
+    - [check bruce gray email on an alternate to augment](#org9c423ee)
+    - [make sure dpchrist ideas roll forward](#orgad026ec)
+    - [work out how to make sure announcments go out early](#orgf5ccf5e)
+    - [yary wants to see a synopsis of the log processing issue from stackexchange](#org8fb65d8)
+  - [announcements](#org241b753)
+    - [July 24th: next raku study group meeting](#org8d0a221)
 
 
-<a id="orga026e80"></a>
+<a id="org1b6a9ef"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="org124506c"></a>
+<a id="orgd389595"></a>
 
 ## the raku study group
 
@@ -30,14 +31,14 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org29a7312"></a>
+<a id="org996c7d2"></a>
 
 ### haskell's span
 
 1.  <https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function>
 
 
-<a id="orgc29862e"></a>
+<a id="org6a22490"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -198,31 +199,36 @@
                 1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="orgdaa71ac"></a>
+<a id="org4341159"></a>
 
 ## TODO wrap up and prep
 
 
-<a id="org0d0d9f4"></a>
+<a id="org9c423ee"></a>
 
 ### check bruce gray email on an alternate to augment
 
 
-<a id="org5fe81d2"></a>
+<a id="orgad026ec"></a>
 
 ### make sure dpchrist ideas roll forward
 
 
-<a id="org65e9550"></a>
+<a id="orgf5ccf5e"></a>
 
 ### work out how to make sure announcments go out early
 
 
-<a id="org60aa887"></a>
+<a id="org8fb65d8"></a>
+
+### yary wants to see a synopsis of the log processing issue from stackexchange
+
+
+<a id="org241b753"></a>
 
 ## announcements
 
 
-<a id="org0a88500"></a>
+<a id="org8d0a221"></a>
 
 ### July 24th: next raku study group meeting
