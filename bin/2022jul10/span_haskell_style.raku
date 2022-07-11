@@ -25,7 +25,7 @@ say @second;
 sub span (Regex $pat, @items) {
     my $idx =  @items.first: $pat, :k;
 
-    my @a1 = @items[ 0 ..^ $idx ];
+    my @a1 = @items[ 0 ..^ $idx ];  # TODO or: head/tail
     my @a2 = @items[ $idx .. *-1 ];
 
     return  @a1,  @a2;
