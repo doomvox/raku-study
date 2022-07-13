@@ -32,8 +32,8 @@ sub span (Regex $pat, @items) {
     return  @a1,  @a2;
 }
 
-# Actual assignment is supposed to reverse the condition,
+# TODO Note that the actual assignment is supposed to reverse the condition,
 # include everything in first list up to the point that the condition fails
-# look for first not match
+# look for first not match.  First arg should be Code, not Regex.
 
 # should work for arbitrary code block, not just a pattern match
