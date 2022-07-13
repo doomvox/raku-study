@@ -21,6 +21,7 @@ say @first;
 say @second;
 
 # Weird: prob with returning two lists and assigning to two arrays
+# BG comments it's actually hard to do in raku (issue with two assign ops).
 
 sub span (Regex $pat, @items) {
     my $idx =  @items.first: $pat, :k;
