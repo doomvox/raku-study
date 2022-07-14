@@ -1,22 +1,22 @@
-- [meeting notes July 10, 2022](#org1b6a9ef)
-  - [the raku study group](#orgd389595)
-    - [haskell's span](#org996c7d2)
-    - [Videos are out for the TPRC 2022 in Houston:](#org6a22490)
-  - [wrap up and prep](#org4341159)
-    - [check bruce gray email on an alternate to augment](#org9c423ee)
-    - [make sure dpchrist ideas roll forward](#orgad026ec)
-    - [work out how to make sure announcments go out early](#orgf5ccf5e)
-    - [yary wants to see a synopsis of the log processing issue from stackexchange](#org8fb65d8)
-  - [announcements](#org241b753)
-    - [July 24th: next raku study group meeting](#org8d0a221)
+- [meeting notes July 10, 2022](#org20101e9)
+  - [the raku study group](#org2ae8f8c)
+    - [haskell's span](#orgfbd25ac)
+    - [Videos are out for the TPRC 2022 in Houston:](#orgeadd760)
+  - [wrap up and prep](#orgd218026)
+    - [check bruce gray email on an alternate to augment](#org38634ee)
+    - [make sure dpchrist ideas roll forward](#org3dda1d2)
+    - [work out how to make sure announcments go out early](#org4f56b01)
+    - [yary wants to see a synopsis of the log processing issue from stackexchange](#orgc4f307d)
+  - [announcements](#org633b10c)
+    - [July 24th: next raku study group meeting](#org091304a)
 
 
-<a id="org1b6a9ef"></a>
+<a id="org20101e9"></a>
 
 # meeting notes July 10, 2022
 
 
-<a id="orgd389595"></a>
+<a id="org2ae8f8c"></a>
 
 ## the raku study group
 
@@ -31,14 +31,14 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul10>
 
 
-<a id="org996c7d2"></a>
+<a id="orgfbd25ac"></a>
 
 ### haskell's span
 
 1.  <https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function>
 
 
-<a id="org6a22490"></a>
+<a id="orgeadd760"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -91,7 +91,7 @@
             
             3.  nice lazy list examples
             
-                ```raku
+                ```perl6
                 my @lines = $filename.IO.lines();
                 my @primes = grep &is-prime, 0..Inf;
                 ```
@@ -199,36 +199,36 @@
                 1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org4341159"></a>
+<a id="orgd218026"></a>
 
 ## TODO wrap up and prep
 
 
-<a id="org9c423ee"></a>
+<a id="org38634ee"></a>
 
 ### check bruce gray email on an alternate to augment
 
 
-<a id="orgad026ec"></a>
+<a id="org3dda1d2"></a>
 
 ### make sure dpchrist ideas roll forward
 
 
-<a id="orgf5ccf5e"></a>
+<a id="org4f56b01"></a>
 
 ### work out how to make sure announcments go out early
 
 
-<a id="org8fb65d8"></a>
+<a id="orgc4f307d"></a>
 
 ### yary wants to see a synopsis of the log processing issue from stackexchange
 
 
-<a id="org241b753"></a>
+<a id="org633b10c"></a>
 
 ## announcements
 
 
-<a id="org8d0a221"></a>
+<a id="org091304a"></a>
 
 ### July 24th: next raku study group meeting
