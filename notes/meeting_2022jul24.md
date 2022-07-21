@@ -1,23 +1,18 @@
-- [meeting notes July 24, 2022](#org5111b8f)
-  - [the raku study group](#org904d810)
-    - [haskell's span](#orga2e475d)
-    - [Videos are out for the TPRC 2022 in Houston:](#orga1d984c)
-  - [wrap up and prep](#org7009599)
-    - [check bruce gray email on an alternate to augment](#orgb01b376)
-    - [make sure dpchrist ideas roll forward](#orgbb101d5)
-    - [work out how to make sure announcments go out early](#org9a9ac02)
-    - [yary wants to see a synopsis of the log processing issue from stackexchange](#org4ff2d02)
-  - [announcements](#org9a7c3f1)
-    - [August 7th: next raku study group meeting](#orgfa7e037)
-    - [online conference next sunday, I think&#x2026;](#org3ec4218)
+- [meeting notes July 24, 2022](#org29e17bb)
+  - [the raku study group](#orgad47e52)
+    - [haskell's span](#org42ecd2d)
+    - [Videos are out for the TPRC 2022 in Houston:](#orge61e50c)
+  - [announcements](#orgfa4e6e8)
+    - [August 7th: next raku study group meeting](#orgf44a811)
+    - [online conference next sunday, I think&#x2026;](#orgb4f35dc)
 
 
-<a id="org5111b8f"></a>
+<a id="org29e17bb"></a>
 
 # meeting notes July 24, 2022
 
 
-<a id="org904d810"></a>
+<a id="orgad47e52"></a>
 
 ## the raku study group
 
@@ -32,14 +27,14 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul24>
 
 
-<a id="orga2e475d"></a>
+<a id="org42ecd2d"></a>
 
 ### haskell's span
 
 1.  <https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function>
 
 
-<a id="orga1d984c"></a>
+<a id="orge61e50c"></a>
 
 ### Videos are out for the TPRC 2022 in Houston:
 
@@ -116,16 +111,8 @@
             1.  bill hails, "exploring programming language architecture in perl"
             
                 <http://www.billhails.net/Book/>
-        
-        2.  perl
-        
-            1.  weakened refs
-            
-            2.  arguments with weakened refs
-        
-        3.  crawling recursive structures with loops (technique from erlang)
     
-    5.  topics from last meeting (June 19th)
+    5.  earlier topics
     
         1.  regex feature: control what's captured with <( &#x2026; )>
         
@@ -152,89 +139,18 @@
                     1.  <https://github.com/rakudo/rakudo/issues/4945>
                     
                     2.  TODO add some comments, at the very least confirm the behavior.
-            
-            3.  rename, move, copy
-            
-                1.  difficulty reproducing the problem
-                
-                    1.  current theory: rename was "failing" after the copy, and silently skipping the ulink, even though the copies were being made
-            
-            4.  unix.stackexchange
-            
-                1.  william michels
-                
-                    1.  <https://unix.stackexchange.com/questions/706744/write-a-regular-expression-whose-output-will-only-be-rows-in-a-range-01-03-2021/706773#706773>
-                    
-                        1.  I have a file that got dates from 01/01/2020 to 04/04/2021 I want to get only the dates between 01/03/2020 to 01/03/2021 by using egrep. I tried to do
-                        
-                            1.  raku -ne 'my $ts = .subst(/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) /, {"$2-$1-$0"}).Date; say $ts if Date.new("2020-03-01") < $ts < Date.new("2021-03-01");' file
-                            
-                            2.  raku -ne '.say if Date.new("2020-03-01") < S/ ^ (\d*\*2) \\/ (\d*\*2) \\/ (\d*\*4) *{"$2-$1-$0"}*.Date < Date.new("2021-03-01");' file
-        
-        2.  for future meetings
-        
-            1.  some relatively recent weekly challenges that weren't number theory trivia for once
-            
-                1.  Task 1: Hexadecimal Words; Task 2: K-Directory Diff
-                
-                    1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-166/>
-                    
-                    2.  arne sommers
-                    
-                        1.  <https://raku-musings.com/hexa-diff.html>
-                
-                2.  Task 1: Scalable Vector Graphics (SVG); Task 2: Line of Best Fit
-                
-                    1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-165/>
-                    
-                    2.  arne sommers
-                    
-                        1.  <https://raku-musings.com/doubly-scalable.html>
-            
-            2.  jonathan worthington on cro memory usage
-            
-                1.  <https://stackoverflow.com/questions/72180995/understanding-cro-request-response-cycle-and-memory-use>
-            
-            3.  jonathan worthington on operator precedence, = vs ,
-            
-                1.  <https://stackoverflow.com/questions/72081593/assignment-destructuring-and-operator-precedence>
 
 
-<a id="org7009599"></a>
-
-## TODO wrap up and prep
-
-
-<a id="orgb01b376"></a>
-
-### check bruce gray email on an alternate to augment
-
-
-<a id="orgbb101d5"></a>
-
-### make sure dpchrist ideas roll forward
-
-
-<a id="org9a9ac02"></a>
-
-### work out how to make sure announcments go out early
-
-
-<a id="org4ff2d02"></a>
-
-### yary wants to see a synopsis of the log processing issue from stackexchange
-
-
-<a id="org9a7c3f1"></a>
+<a id="orgfa4e6e8"></a>
 
 ## announcements
 
 
-<a id="orgfa7e037"></a>
+<a id="orgf44a811"></a>
 
 ### August 7th: next raku study group meeting
 
 
-<a id="org3ec4218"></a>
+<a id="orgb4f35dc"></a>
 
 ### online conference next sunday, I think&#x2026;
