@@ -127,5 +127,5 @@ https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-l
 
 ** announcements 
 *** August 7th: next raku study group meeting
-*** 
+*** online conference next sunday, I think...
 
