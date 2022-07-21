@@ -6,81 +6,29 @@
 ***** code examples
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2022jul24
 
-*** haskell's span
-**** https://stackoverflow.com/questions/72809469/in-raku-how-does-one-write-the-equivalent-of-haskells-span-function
 
-*** Videos are out for the TPRC 2022 in Houston:
-**** https://www.youtube.com/playlist?list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE
-
-***** Brett Estrade, thread support in perl using the gcc OpenMP feature
-****** Intro OpenMP for perl programmers
-******* https://www.youtube.com/watch?v=4SRR2-uGg40&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=22
-****** State of using OpenMP from Perl for multithreaded
-******* https://www.youtube.com/watch?v=lMRjdpygVFM&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=23
-
-***** Bruce Gray, raku for beginners
-****** https://www.youtube.com/watch?v=rSP_GgcHQ0Q&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=16
-****** comparing hash deref via curlies and double-angle
-******* https://github.com/doomvox/raku-study/tree/main/bin/2022jul10/hash_deref_syntax.raku
-******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/hash_deref_syntax.raku
-****** gluing together last two array elements into one
-******* https://github.com/doomvox/raku-study/tree/main/bin/2022jul10/string_together_last_two_into_one.raku
-******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul10/string_together_last_two_into_one.raku
-****** small point:
-******* perl pulled ahead on unicode *because* it was late in adopting it: utf-8 era vs utf-16
-****** some good bits:
-******* raku lets you define operators like the built-in ones, *except* for ternaries
-******* complex math requires complex arguments to "turn it on"
-#+BEGIN_SRC raku
-my $i = sqrt( -1 );       ## DOESN'T WORK.
-my $i = sqrt( -1 + 0i );  ## works
-
-# Another way of getting a complex -1
-(-1).Complex
-
-#+END_SRC
-******* nice lazy list examples
-#+BEGIN_SRC perl6
-  my @lines = $filename.IO.lines();
-  my @primes = grep &is-prime, 0..Inf;
-#+END_SRC
-
-****** Ovid, state of the Corinna project
-******* https://www.youtube.com/watch?v=5lSdBSCkFGs&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=14
-
-****** Ruth Holloway, DbiX::Class and Dancer2 (perl5 web/database work)
-******* https://www.youtube.com/watch?v=FAHP4IN5wiQ&list=PLA9_Hq3zhoFyOpb-U3DMU7OT93dPUdtpE&index=20
+** current topics
 
 
 
-***** why is perl still relevant:
-****** https://www.google.com/url?q=https%3A%2F%2Fstackoverflow.blog%2F2022%2F07%2F06%2Fwhy-perl-is-still-relevant-in-2022%2F&sa=D&sntz=1&usg=AOvVaw3aI-NUWmi9G4Fg8w95CYio
+** earlier topics
+*** regex feature: control what's captured with <( ... )>
+***** <( isn't really equivalent to \K in a substitution
+***** can do it with zero-width after/before matches
+***** or by having multiple ordered captures, etc.
 
-
-
-***** david christensen issues;
-****** book review 
-******* bill hails, "exploring programming language architecture in perl"
-http://www.billhails.net/Book/
-
-***** earlier topics
-****** regex feature: control what's captured with <( ... )>
-******** <( isn't really equivalent to \K in a substitution
-******** can do it with zero-width after/before matches
-******** or by having multiple ordered captures, etc.
-
-******** william michels turned up this on the subject:
+***** william michels turned up this on the subject:
 https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up
 
-******* the double-asterix non-flattening slurpy array signature
-******** so the single asterix is flattening?
-******** TODO investigate further, for next time
+**** the double-asterix non-flattening slurpy array signature
+***** so the single asterix is flattening?
+***** TODO investigate further, for next time
 
 
-******* rob ramsbottom
-******** rob opened a github issue, no action:
-********* https://github.com/rakudo/rakudo/issues/4945
-********* TODO add some comments, at the very least confirm the behavior.
+**** rob ramsbottom
+***** rob opened a github issue, no action:
+****** https://github.com/rakudo/rakudo/issues/4945
+****** TODO add some comments, at the very least confirm the behavior.
 
 
 
