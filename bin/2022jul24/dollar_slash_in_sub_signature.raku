@@ -82,7 +82,6 @@ END
     $/ = Match.new();
     say $/.WHAT; # (Match)
     say $/;      # ｢｣
-
     }
 
 # Q; can you change the value of $/ in the outer scope?  Not by default:
