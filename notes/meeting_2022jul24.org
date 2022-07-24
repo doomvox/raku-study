@@ -23,7 +23,8 @@
 **** https://unix.stackexchange.com/a/710624/227738
 **** https://unix.stackexchange.com/a/710604/227738
 **** https://unix.stackexchange.com/a/710345/227738
-
+**** https://unix.stackexchange.com/a/709981/227738
+***** min and max
 *** bruce gray weekly challenge
 
 
