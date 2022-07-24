@@ -42,8 +42,8 @@ END
         dd $/;
     }
 
-    # perl brain says $/ is a global, and should be visible in the sub
-    # raku says no.
+    # perl brain says the outer $/ should be visible in the sub
+    # raku says nope
 }
 
 {
