@@ -34,7 +34,7 @@ use v6;
 }
 
 say "===";
-{
+{ # bill's first stab
     use v6.d;
 
     class Foo {
