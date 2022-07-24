@@ -5,7 +5,7 @@
 use v6;
 
 my %h = gather { take "foo" => 1; take "bar" => 2};
-
+say %h;
 
 # rob ransbottom is interested in an issue with gather
 
