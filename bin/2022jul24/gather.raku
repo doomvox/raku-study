@@ -15,9 +15,11 @@ for @monsters -> $m {
 
 my @a =
     gather
-    for @monsters -> $m {
-       take $m if $m.chars > 6;
-    };
+     { 
+        for @monsters -> $m {
+          take $m if $m.chars > 6;
+        }
+     };
 
 say @a; # [araxxor borrokar delrith]
 
