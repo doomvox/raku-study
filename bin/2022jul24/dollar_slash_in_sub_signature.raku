@@ -22,7 +22,7 @@ END
         say $/; # ｢Power｣
     };   
 
-    echo_match
+    echo_match();
     sub echo_match {
         say "---";
         say $/;
