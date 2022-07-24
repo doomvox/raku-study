@@ -30,3 +30,4 @@ for $data.lines().map(*.words).rotor(2 => -1) -> $t {
                   { ([-] $t».[$_])²
                    }
     ).sum.sqrt };
+
