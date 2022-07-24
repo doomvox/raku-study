@@ -24,6 +24,7 @@ my $b = Bar.new;
 say $b;
 
 ## Attribute $!name not declared in class Bar
+##  https://stackoverflow.com/questions/73045142/how-to-initialize-attributes-inherited-in-a-sub-class
 
 
 class Bar is Foo {
