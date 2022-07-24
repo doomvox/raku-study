@@ -28,6 +28,7 @@ use v6;
 
     # the make/made "payload" *is* attached to the match object, right?
     say $/.made; # Erin Human
+    dd $/;
     $/ = Match.new();
     say $/.made; # Nil
 }
