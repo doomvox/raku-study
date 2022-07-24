@@ -16,6 +16,19 @@ my $str = q:to/END/;
 END
 
 {
+    my $word = "Bird";
+    sub speak_to_me {
+        say "What is the word?";
+        if ($word) {
+            say "$word is the word";
+        }
+        
+    }
+
+
+    }
+
+{
     if ( $str ~~ /P.*?»/ ) {
         say $/; # ｢Power｣
     };   
