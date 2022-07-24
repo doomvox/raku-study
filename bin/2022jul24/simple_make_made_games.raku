@@ -22,6 +22,7 @@ use v6;
     say $/;      # ｢b｣
     say $/.made; # Ms. Take
 
+    make("Erin Human");
 
 
     }
