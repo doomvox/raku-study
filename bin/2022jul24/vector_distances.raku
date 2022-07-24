@@ -64,9 +64,8 @@ for $data.lines().map(*.words).rotor(2 => -1) -> ([\x1,\y1,\z1], [\x2,\y2,\z2]) 
 }
 
 
-say "==="
+say "===";
 
 my @bunnies  = < bugs peter easter gloria haruhi >;
-
 
 say @bunnies[0..3];
