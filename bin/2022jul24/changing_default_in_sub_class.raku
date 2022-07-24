@@ -16,9 +16,10 @@ say $f;
 # OUTPUT: Foo.new(name => "John")
 
 # That works as expected. When I add:
-
 class Bar is Foo {
     submethod BUILD (:$!name = 'Jane') {};
 }
 my $b = Bar.new;
 say $b;
+
+## Attribute $!name not declared in class Bar
