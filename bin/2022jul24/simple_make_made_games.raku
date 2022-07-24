@@ -28,5 +28,6 @@ use v6;
 
     say $/.made; # Erin Human
     $/ = Match.new();
+    say $/.made;
 
     }
