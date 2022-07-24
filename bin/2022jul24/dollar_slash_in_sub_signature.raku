@@ -44,7 +44,10 @@ END
     # Nil $/ = Nil
 
     # perl brain says the outer $/ should be visible in the sub
-    # raku says nope
+    # the raku docs say otherwise:
+    #   $/ is the match variable. A fresh one is created in every routine. 
+    # https://docs.raku.org/syntax/$$SOLIDUS
+
 }
 
 {
