@@ -26,8 +26,9 @@ use v6;
     say $/.made; # Erin Human
     # A second make overwrites the value of the first
 
+    # the make/made "payload" *is* attached to the match object, right?
     say $/.made; # Erin Human
     $/ = Match.new();
-    say $/.made;
+    say $/.made; # Nil
 
     }
