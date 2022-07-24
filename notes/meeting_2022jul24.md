@@ -1,20 +1,20 @@
-- [meeting notes July 24, 2022](#org209fe17)
-  - [the raku study group](#org19defd0)
-  - [current topics](#orgbd8f832)
-    - [make/made](#org54af009)
-  - [earlier topics](#org244e1c2)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org9cfbc3b)
-  - [announcements](#org79a8e55)
-    - [August 7th: next raku study group meeting](#org9bd9408)
-    - [August 13th & 14th: online raku conference](#org892f790)
+- [meeting notes July 24, 2022](#orgb4bb3bb)
+  - [the raku study group](#orgc0b6592)
+  - [current topics](#orgf7ee518)
+    - [make/made](#orgc20aec7)
+  - [earlier topics](#org80d31ac)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org8e8d7f0)
+  - [announcements](#org50d5315)
+    - [August 7th: next raku study group meeting](#orgb9f013d)
+    - [August 13th & 14th: online raku conference](#org363ea06)
 
 
-<a id="org209fe17"></a>
+<a id="orgb4bb3bb"></a>
 
 # meeting notes July 24, 2022
 
 
-<a id="org19defd0"></a>
+<a id="orgc0b6592"></a>
 
 ## the raku study group
 
@@ -29,22 +29,24 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul24>
 
 
-<a id="orgbd8f832"></a>
+<a id="orgf7ee518"></a>
 
 ## current topics
 
 
-<a id="org54af009"></a>
+<a id="orgc20aec7"></a>
 
 ### make/made
 
+1.  grammars again
 
-<a id="org244e1c2"></a>
+
+<a id="org80d31ac"></a>
 
 ## earlier topics
 
 
-<a id="org9cfbc3b"></a>
+<a id="org8e8d7f0"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -73,17 +75,17 @@
         2.  TODO add some comments, at the very least confirm the behavior.
 
 
-<a id="org79a8e55"></a>
+<a id="org50d5315"></a>
 
 ## announcements
 
 
-<a id="org9bd9408"></a>
+<a id="orgb9f013d"></a>
 
 ### August 7th: next raku study group meeting
 
 
-<a id="org892f790"></a>
+<a id="org363ea06"></a>
 
 ### August 13th & 14th: online raku conference
 
