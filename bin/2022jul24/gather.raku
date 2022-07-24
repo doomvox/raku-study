@@ -13,3 +13,4 @@ my @a =
     for @monsters -> $m {
        take $m if $m.chars > 6;
     };
+
