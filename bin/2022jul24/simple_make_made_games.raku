@@ -33,7 +33,12 @@ use v6;
     $/ = Match.new();
     say $/.made; # Nil
 
-    make("alpha", "beta", "gamma");
+    # make("alpha", "beta", "gamma");
+    ## Calling make(Str, Str, Str) will never work with declared signature (Mu \made)
+
+    make( ("alpha", "beta", "gamma") );
+
+
     say $/.made;
 
 
