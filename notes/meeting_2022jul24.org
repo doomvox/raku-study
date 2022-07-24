@@ -14,6 +14,8 @@
 
 *** gather/take
 ****  for is a block like the for block, gather do
+
+*** jonathan worthington: } as a statement terminator sans semicolon
 **** https://github.com/rakudo/rakudo/issues/4998
 
 *** william michels stackexchange responses
@@ -32,7 +34,9 @@
 **** https://unix.stackexchange.com/a/710604/227738
 **** https://unix.stackexchange.com/a/710345/227738
 
-*** bruce gray weekly challenge
+*** perl weekly challenge (bruce gray, robs ransbottom)
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-174/#TASK1
+
 
 *** initialize attributes in subclass
 **** https://stackoverflow.com/questions/73045142/how-to-initialize-attributes-inherited-in-a-sub-class
