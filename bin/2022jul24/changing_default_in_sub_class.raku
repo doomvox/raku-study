@@ -157,9 +157,10 @@ say "===";
     my class Foo { has $.name; }
     my class Bar is Foo {
         method zzz () {
-            # return self.name;
-            # return $.name;
-            return $!name;
+            # return self.name;   # Works
+            # return $.name;      # Works 
+            return $!name;        # Bombs
+                                  #   You inherit the accesors, not the field definition
         }
     }
     my $b = Bar.new( name => "zzz" );
