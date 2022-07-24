@@ -13,9 +13,9 @@ use v6;
 my Regex $hit = /[
        | single
        | double
-       | triple
        | :s home run   # Buggy, space in home run
 #       | 'home run'
+       | triple
      ]/;
 
 # say "triple" ~~ $hit;
