@@ -19,7 +19,7 @@ my regex $hit =
 #       | 'home run'
      ]/;
 say
- "triple" ~~ 
+ "triple" ~~ $hit;
 
 ;
 
