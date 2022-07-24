@@ -116,3 +116,13 @@ END
     }
     say $/; # ｢Show｣
 }
+
+
+## This example in the docs does not use "is rw":
+##   https://docs.raku.org/type/Match#routine_make
+#
+# method my-action ($/) {
+#     make "foo: $/";
+# }
+
+# Q: then, setting the "payload" via make does not count as modifying $/ 
