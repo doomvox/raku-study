@@ -10,8 +10,8 @@ use v6;
 
 
 grammar Calculator {
-    token TOP { [ <add> | <sub> ] }
-#    token TOP { <ws> [ <add> | <sub> ] <ws>}
+#    token TOP { [ <add> | <sub> ] }
+    token TOP { <ws> [ <add> | <sub> ] <ws>}   ## allows spaces around the expression
     rule  add { <num> '+' <num> }
     rule  sub { <num> '-' <num> }
     token num { \d+ }
