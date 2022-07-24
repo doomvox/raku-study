@@ -80,7 +80,7 @@ say "===";
     }
 
     my $b = Bar.new;
-#    $b.custom-name = 'Jane';  ## BUT shouldn't need to do this
+    #    $b.custom-name = 'Jane';  ## BUT shouldn't need to do this
     say $b;
     put "This is class Bar with {$b.custom-name} as name.";
-    }
+}
