@@ -17,7 +17,10 @@ use v6;
        END
 
     say $str;
-    $str ~~ /P.*?»/;   
+       if ( $str ~~ /P.*?»/ ) {
+           say "A hit!";
+           say $/;
+           };   
 
     sub echo_match {
         dd $/;
