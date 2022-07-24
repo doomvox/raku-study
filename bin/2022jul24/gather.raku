@@ -14,4 +14,5 @@ my @a =
        take $m if $m.chars > 6;
     };
 
-say @a;
+say @a; # [araxxor borrokar delrith]
+
