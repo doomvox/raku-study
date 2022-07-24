@@ -23,7 +23,6 @@ use v6;
          };   
 
     sub echo_match {
-        say "---";
         say $/;
         dd $/;
     }
