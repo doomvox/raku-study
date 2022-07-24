@@ -57,7 +57,7 @@ for $data.lines().map(*.words).rotor(2 => -1) -> $t {
 }
 
 say "===";
-say "The BG compromise:: ";
+say "The BG compromise: ";
 
 for $data.lines().map(*.words).rotor(2 => -1) -> ([\x1,\y1,\z1], [\x2,\y2,\z2]) {
     say sqrt ( (x1 - x2)² + (y1 - y2)² + (z1 - z2)² );
