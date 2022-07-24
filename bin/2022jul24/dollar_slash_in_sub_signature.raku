@@ -17,6 +17,7 @@ END
 
 {
     my $word = "Bird";
+    speak_to_me();
     sub speak_to_me {
         say "What is the word?";
         if ($word) {
