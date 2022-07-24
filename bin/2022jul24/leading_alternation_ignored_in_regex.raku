@@ -18,7 +18,8 @@ my Regex $hit = /[
 #       | 'home run'
      ]/;
 
-say "triple" ~~ /<$hit>/;
+say "triple" ~~ $hit;
+# say "triple" ~~ /<$hit>/;
 # ｢triple｣
 
 
