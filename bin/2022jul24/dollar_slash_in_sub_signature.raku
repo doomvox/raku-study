@@ -33,3 +33,22 @@ END
     }
 
 }
+
+{
+    say $str;
+    if ( $str ~~ /P.*?»/ ) {
+        say "A hit!";
+        say $/; # ｢Power｣
+        say "...";
+    };   
+
+    echo_match();
+    # Nil
+    # Nil $/ = Nil
+
+    sub echo_match($/) {
+        say $/;
+        dd $/;
+    }
+
+}
