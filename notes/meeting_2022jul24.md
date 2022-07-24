@@ -1,24 +1,24 @@
-- [meeting notes July 24, 2022](#org4ea2331)
-  - [the raku study group](#org9340127)
-  - [current topics](#org4a0b47b)
-    - [make/made](#orgc6b4bf7)
-    - [gather for is a block like the for block, gather do](#orgc679b5e)
-    - [william michels stackexchange responses](#orgf17fdbd)
-    - [bruce gray weekly challenge](#org6fe9464)
-    - [initialize attributes in subclass](#orga585793)
-  - [earlier topics](#orga2d652f)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org00582a9)
-  - [announcements](#org2908286)
-    - [August 7th: next raku study group meeting](#orgab44ed1)
-    - [August 13th & 14th: online raku conference](#org445efa6)
+- [meeting notes July 24, 2022](#org607b384)
+  - [the raku study group](#org677519b)
+  - [current topics](#org41b6c4c)
+    - [make/made](#org3ff1d3f)
+    - [gather for is a block like the for block, gather do](#orgc93e034)
+    - [william michels stackexchange responses](#orge27eeb0)
+    - [bruce gray weekly challenge](#orgc55bd26)
+    - [initialize attributes in subclass](#org3cca02b)
+  - [earlier topics](#org8c87578)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org7741ab6)
+  - [announcements](#org3d289b8)
+    - [August 7th: next raku study group meeting](#org0346f35)
+    - [August 13th & 14th: online raku conference](#orgf1226d9)
 
 
-<a id="org4ea2331"></a>
+<a id="org607b384"></a>
 
 # meeting notes July 24, 2022
 
 
-<a id="org9340127"></a>
+<a id="org677519b"></a>
 
 ## the raku study group
 
@@ -33,26 +33,28 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul24>
 
 
-<a id="org4a0b47b"></a>
+<a id="org41b6c4c"></a>
 
 ## current topics
 
 
-<a id="orgc6b4bf7"></a>
+<a id="org3ff1d3f"></a>
 
 ### make/made
 
 1.  grammars again
 
+2.  rob ransbottom example: recursive matching limited to zero-or-one times per level
 
-<a id="orgc679b5e"></a>
+
+<a id="orgc93e034"></a>
 
 ### gather for is a block like the for block, gather do
 
 1.  <https://github.com/rakudo/rakudo/issues/4998>
 
 
-<a id="orgf17fdbd"></a>
+<a id="orge27eeb0"></a>
 
 ### william michels stackexchange responses
 
@@ -83,24 +85,24 @@
 11. <https://unix.stackexchange.com/a/710345/227738>
 
 
-<a id="org6fe9464"></a>
+<a id="orgc55bd26"></a>
 
 ### bruce gray weekly challenge
 
 
-<a id="orga585793"></a>
+<a id="org3cca02b"></a>
 
 ### initialize attributes in subclass
 
 1.  <https://stackoverflow.com/questions/73045142/how-to-initialize-attributes-inherited-in-a-sub-class>
 
 
-<a id="orga2d652f"></a>
+<a id="org8c87578"></a>
 
 ## earlier topics
 
 
-<a id="org00582a9"></a>
+<a id="org7741ab6"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -129,17 +131,17 @@
         2.  TODO add some comments, at the very least confirm the behavior.
 
 
-<a id="org2908286"></a>
+<a id="org3d289b8"></a>
 
 ## announcements
 
 
-<a id="orgab44ed1"></a>
+<a id="org0346f35"></a>
 
 ### August 7th: next raku study group meeting
 
 
-<a id="org445efa6"></a>
+<a id="orgf1226d9"></a>
 
 ### August 13th & 14th: online raku conference
 
