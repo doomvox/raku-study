@@ -84,7 +84,7 @@ END
 
     }
 
-# Q; can you change the value of $/ in the outer scope?
+# Q; can you change the value of $/ in the outer scope?  Not by default:
 # {
 #     say "---";
 #     if ( $str ~~ /P.*?»/ ) {
@@ -101,6 +101,7 @@ END
 # }
 
 
+# the sub can only change $/ if it's explicitly "is rw"
 {
     say "---";
     if ( $str ~~ /P.*?»/ ) {
