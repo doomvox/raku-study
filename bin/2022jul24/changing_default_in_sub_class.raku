@@ -96,12 +96,12 @@ say "===";
 say "===";
 { # revised
     my class Foo {
-        has $!default-name = 'John';
-        has $.custom-name  is rw;
+#        has $!default-name = 'John';
+        has $.custom-name  is rw = 'John';
 
-        submethod TWEAK (:$custom-name) {
-            self.custom-name = $custom-name // $!default-name;
-        };
+#         submethod TWEAK (:$custom-name) {
+#             self.custom-name = $custom-name // $!default-name;
+#         };
     }
 
     my $f = Foo.new;
