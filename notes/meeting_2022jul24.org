@@ -65,8 +65,6 @@ https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-l
 ****** https://github.com/rakudo/rakudo/issues/4945
 ****** TODO add some comments, at the very least confirm the behavior.
 
-
-
 ** announcements 
 *** August 7th: next raku study group meeting
 *** August 13th & 14th: online raku conference
