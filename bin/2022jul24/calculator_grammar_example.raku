@@ -4,6 +4,11 @@
 
 use v6;
 
+
+# An example form the documentation
+# https://docs.raku.org/language/grammars
+
+
 grammar Calculator {
     token TOP { [ <add> | <sub> ] }
     rule  add { <num> '+' <num> }
