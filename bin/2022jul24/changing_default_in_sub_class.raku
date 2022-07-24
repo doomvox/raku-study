@@ -60,7 +60,6 @@ say "===";
 
 say "===";
 { # revised
-
     class Foo {
         has $!default-name = 'John';
         has $.custom-name  is rw;
