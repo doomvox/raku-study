@@ -59,7 +59,7 @@ say "===";
     }
 
 say "===";
-{ # bill's first stab
+{ # revised
 
     class Foo {
         has $!default-name = 'John';
