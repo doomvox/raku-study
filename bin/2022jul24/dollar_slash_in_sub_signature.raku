@@ -81,6 +81,7 @@ END
 
     $/ = Match.new();
     say $/.WHAT; # (Match)
+    say $/;
 
     }
 
