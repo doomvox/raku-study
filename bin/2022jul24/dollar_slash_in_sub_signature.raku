@@ -17,7 +17,7 @@ use v6;
        END
 
     say $str;
-    $str ~~ /P.*\b/;   
+    $str ~~ /P.*»/;   
 
     sub echo_match {
         dd $\;
