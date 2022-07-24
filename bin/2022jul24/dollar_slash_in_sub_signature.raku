@@ -10,12 +10,14 @@ use v6;
 
 {
 
-    my $str = 
-       "With the Power of your Ancestor
-        Grant the prayer of your followers, 
-        Arise and Show Your Power"
+    my $str = q:to/END/;
+       With the Power of your Ancestor
+       Grant the prayer of your followers, 
+       Arise and Show Your Power
+       END
 
-
+    say $str;
+    $str ~~ /P.*\b/;   
 
     sub echo_match {
         dd $\;
