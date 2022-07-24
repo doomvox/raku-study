@@ -9,7 +9,7 @@ use v6;
 my @monsters = < ankou araxxor borrokar damis delrith elvarg kalrag yuri >; ## www.runehq.com
 
 my @a =
-    gather do
+    do gather
     for @monsters -> $m {
        take $m if $m.chars > 6;
     };
