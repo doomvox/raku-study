@@ -24,11 +24,10 @@ class Calculations {
 }
  
 say Calculator.parse('2 + 3', actions => Calculations).made;
- 
-# OUTPUT: 5
+## OUTPUT: 5
 
 say Calculator.parse(' 2 + 3 ', actions => Calculations).made;
-# Nil
+## Nil
 
 
 ## Note: immediately after this example is another improving it with "proto"
