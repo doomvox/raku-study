@@ -75,14 +75,9 @@ say "===";
 
 
     class Bar is Foo {
-        has $!default-name = 'Jane';
-
         submethod TWEAK (:$custom-name) {
-            self.custom-name = $custom-name // $!default-name;
+            self.custom-name = $custom-name // 'Jane';
         };
-
-
-
     }
 
     my $b = Bar.new;
