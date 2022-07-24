@@ -11,6 +11,10 @@ use v6;
     say $/;      # Nil
     say $/.WHAT; # Nil
 
+    "abcd" ~~ /b/;
+
+    say $/;      # Nil
+    say $/.WHAT; # Nil
 
 
 
