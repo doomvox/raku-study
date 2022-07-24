@@ -17,6 +17,7 @@ my Regex $hit = rx/[
        | home run
 #       | 'home run'
      ]/;
+
 say "triple" ~~ /<$hit>/;
 
 ;
