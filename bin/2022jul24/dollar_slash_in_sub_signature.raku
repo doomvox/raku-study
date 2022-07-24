@@ -23,6 +23,9 @@ END
     };   
 
     echo_match();
+    # Nil
+    # Nil $/ = Nil
+
     sub echo_match {
         say "---";
         say $/;
