@@ -83,6 +83,9 @@ say "===";
     #    $b.custom-name = 'Jane';  ## BUT shouldn't need to do this
     say $b;
     put "This is class Bar with {$b.custom-name} as name.";
+
+    $b.custom-name = 'Janezilla'; 
+    put "This is class Bar with {$b.custom-name} as name.";
 }
 
 # Foo.new(custom-name => "John")
@@ -90,4 +93,4 @@ say "===";
 # Bar.new(custom-name => "Jane")
 # This is class Bar with Jane as name.
 
-$b.custom-name = 'Janezilla'; 
+
