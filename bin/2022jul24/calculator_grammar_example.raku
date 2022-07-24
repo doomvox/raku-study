@@ -26,6 +26,9 @@ say Calculator.parse('2 + 3', actions => Calculations).made;
  
 # OUTPUT: 5
 
+say Calculator.parse(' 2 + 3 ', actions => Calculations).made;
+# Nil
+
 
 ## Note: immediately after this example is another improving it with "proto"
 ##       What does this do for you exactly?
