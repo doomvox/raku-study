@@ -19,8 +19,8 @@ use v6;
     # (Match)
 
     make("Ms. Take");
-    say $/;  # ｢b｣
-    say $/.made;
+    say $/;      # ｢b｣
+    say $/.made; # Ms. Take
 
 
 
