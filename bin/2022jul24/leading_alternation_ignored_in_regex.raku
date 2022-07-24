@@ -19,7 +19,6 @@ my Regex $hit = rx/[
      ]/;
 
 say "triple" ~~ /<$hit>/;
-
 # ｢triple｣
 
 
