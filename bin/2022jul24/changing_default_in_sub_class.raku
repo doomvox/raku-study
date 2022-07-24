@@ -60,7 +60,7 @@ use v6;
 
 say "===";
 { # revised
-    class Foo {
+    my class Foo {
         has $!default-name = 'John';
         has $.custom-name  is rw;
 
@@ -84,3 +84,8 @@ say "===";
     say $b;
     put "This is class Bar with {$b.custom-name} as name.";
 }
+
+# Foo.new(custom-name => "John")
+# This is class Foo with John as name.
+# Bar.new(custom-name => "Jane")
+# This is class Bar with Jane as name.
