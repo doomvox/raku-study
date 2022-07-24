@@ -89,3 +89,6 @@ say "===";
 # This is class Foo with John as name.
 # Bar.new(custom-name => "Jane")
 # This is class Bar with Jane as name.
+
+
+ $b.custom-name = 'Janezilla'; 
