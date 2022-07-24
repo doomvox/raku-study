@@ -6,6 +6,12 @@ use v6;
 
 # I sometimes see this in code examples:
 #   sub dostuff ($/) { ... }
+# What does that do exactly?
 
+{
 
+    sub echo_match {
+        dd $\;
+    }
 
+}
