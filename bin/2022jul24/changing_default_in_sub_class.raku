@@ -90,5 +90,4 @@ say "===";
 # Bar.new(custom-name => "Jane")
 # This is class Bar with Jane as name.
 
-
- $b.custom-name = 'Janezilla'; 
+$b.custom-name = 'Janezilla'; 
