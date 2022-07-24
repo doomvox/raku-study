@@ -6,6 +6,7 @@ use v6;
 
  
 {
-    say $/;
+    say $/; # Nil
+    say $/.WHAT;
 
     }
