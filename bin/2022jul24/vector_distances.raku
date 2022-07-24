@@ -55,3 +55,4 @@ say "Another Bruce Gray version: ";
 for $data.lines().map(*.words).rotor(2 => -1) -> $t {
     say sqrt sum map { ([-] $t».[$_])² }, ^3
 }
+
