@@ -14,7 +14,7 @@ my Regex $hit = /[
        | single
        | double
        | triple
-       | home run   # Buggy, space in home run
+       | :s home run   # Buggy, space in home run
 #       | 'home run'
      ]/;
 
