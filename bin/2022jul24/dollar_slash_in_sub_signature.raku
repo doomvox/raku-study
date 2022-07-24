@@ -25,6 +25,8 @@ END
             say "$word is the word";
         }
     }
+  # What is the word?
+  # Bird is the word
 }
 
 
