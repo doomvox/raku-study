@@ -10,7 +10,8 @@ use v6;
 
 
 grammar Calculator {
-    token TOP { <ws> [ <add> | <sub> ] <ws>}
+    token TOP {  [ <add> | <sub> ] }
+#    token TOP { <ws> [ <add> | <sub> ] <ws>}
     rule  add { <num> '+' <num> }
     rule  sub { <num> '-' <num> }
     token num { \d+ }
