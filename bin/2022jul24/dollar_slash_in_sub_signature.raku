@@ -76,7 +76,7 @@ END
     my $ye_olde_match = $/;
     say $/.WHAT; # (Match)
     $/ = Nil;
-    say $/;      # Nil (hm)
+    say $/;      # Nil 
     say $/.WHAT; # Nil
 
     $/ = Match.new();
