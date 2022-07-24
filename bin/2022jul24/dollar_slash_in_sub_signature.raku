@@ -42,7 +42,7 @@ END
         say "...";
     };   
 
-    echo_match();
+    echo_match($/);
     # Nil
     # Nil $/ = Nil
 
