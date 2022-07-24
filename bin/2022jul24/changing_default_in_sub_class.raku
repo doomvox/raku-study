@@ -158,8 +158,8 @@ say "===";
     my class Bar is Foo {
         method zzz () {
             # return self.name;
-            return $.name;
-            # return $!name;
+            # return $.name;
+            return $!name;
         }
     }
     my $b = Bar.new( name => "zzz" );
