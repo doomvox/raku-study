@@ -13,7 +13,6 @@ my $str = q:to/END/;
   Grant the prayer of your followers, 
   Arise and Show Your Power
 END
-# say $str;
 
 {
     if ( $str ~~ /P.*?»/ ) {
