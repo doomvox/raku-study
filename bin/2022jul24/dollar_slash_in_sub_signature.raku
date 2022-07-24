@@ -74,10 +74,12 @@ END
     };   
     say $/;  # ｢Power｣
     my $ye_olde_match = $/;
-    say $/.WHAT;
+    say $/.WHAT; # (Match)
     $/ = Nil;
-    say $/; # Nil (hm)
-    say $/.WHAT;
+    say $/;      # Nil (hm)
+    say $/.WHAT; # Nil
+
+    $/ = Match.new();
 
 
 
