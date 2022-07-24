@@ -34,7 +34,7 @@ use v6;
     say $/.made; # Nil
 
     make("alpha", "beta", "gamma");
-    say made;
+    say $/.made;
 
 
 }
