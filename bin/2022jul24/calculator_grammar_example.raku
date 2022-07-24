@@ -19,4 +19,6 @@ class Calculations {
  
 say Calculator.parse('2 + 3', actions => Calculations).made;
  
-# OUTPUT: «5␤»
+# OUTPUT: 5
+
+
