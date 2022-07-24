@@ -5,7 +5,7 @@
 use v6;
 
 # https://raku.org/archive/doc/design/apo/A05.html
-# RFC 071: Variable-length lookbheind
+#   RFC 071: Variable-length lookbheind
 
 # Update: $() now represents the entire matched string, but the match
 # object is now $/, and a list of all beginnings is returned by the
