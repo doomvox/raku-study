@@ -22,11 +22,9 @@ END
         if ($word) {
             say "$word is the word";
         }
-        
     }
+}
 
-
-    }
 
 {
     if ( $str ~~ /P.*?»/ ) {
