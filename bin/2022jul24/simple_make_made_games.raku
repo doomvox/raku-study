@@ -23,6 +23,6 @@ use v6;
     say $/.made; # Ms. Take
 
     make("Erin Human");
-
+    say $/.made;
 
     }
