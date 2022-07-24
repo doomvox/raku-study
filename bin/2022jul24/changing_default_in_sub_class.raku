@@ -157,8 +157,8 @@ say "===";
     my class Foo { has $.name; }
     my class Bar is Foo {
         method zzz () {
-            return self.name;
-            # return $.name;
+            # return self.name;
+            return $.name;
             # return $!name;
         }
     }
