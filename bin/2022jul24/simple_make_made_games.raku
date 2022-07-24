@@ -6,7 +6,12 @@ use v6;
 
  
 {
-    say $/; # Nil
-    say $/.WHAT;
+    # in this new scope, there's a new $/
+    # it is not yet a Match object
+    say $/;      # Nil
+    say $/.WHAT; # Nil
+
+
+
 
     }
