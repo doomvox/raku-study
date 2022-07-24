@@ -6,7 +6,8 @@ use v6;
 
 # I sometimes see this in code examples:
 #   sub dostuff ($/) { ... }
-# What does that do exactly?
+# 
+# This lets you pass in the $/ from the outer scope 
 
 my $str = q:to/END/;
   With the Power of your Ancestor
@@ -27,7 +28,6 @@ END
         say $/;
         dd $/;
     }
-
 }
 
 {
