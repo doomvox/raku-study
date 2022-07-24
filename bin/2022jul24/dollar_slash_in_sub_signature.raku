@@ -113,5 +113,5 @@ END
             say $/; # ｢Show｣
         };   
     }
-    say $/;
+    say $/; # ｢Show｣
 }
