@@ -14,8 +14,8 @@ my Regex $hit = /[
        | single
        | double
        | triple
-#       | home run
-       | 'home run'
+       | home run
+#       | 'home run'
      ]/;
 
 # say "triple" ~~ $hit;
