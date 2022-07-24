@@ -6,7 +6,7 @@ use v6;
 
 # https://unix.stackexchange.com/questions/710834/how-to-compute-the-distance-between-two-adjacent-coordinates/710954#710954
 
-my @data = lines q:to/END/;
+my @data = slurp q:to/END/;
 1  2  3 
 4  5  6
 7  8  9
