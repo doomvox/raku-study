@@ -16,7 +16,7 @@ END
 # say $str;
 
 {
-    if ( $str ~~ /P.*?»/ ) {
+    if ( $str ~~ :g /P.*?»/ ) {
         say "A hit!";
         say $/; # ｢Power｣
         say "...";
