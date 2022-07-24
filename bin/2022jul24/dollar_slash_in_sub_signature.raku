@@ -10,6 +10,13 @@ use v6;
 
 {
 
+    my $str = 
+       "With the Power of your Ancestor
+        Grant the prayer of your followers, 
+        Arise and Show Your Power"
+
+
+
     sub echo_match {
         dd $\;
     }
