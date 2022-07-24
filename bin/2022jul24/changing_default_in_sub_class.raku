@@ -28,7 +28,5 @@ say $f;
 class Bar is Foo {
     submethod TWEAK (:$!name = 'Jane') {};
 }
-
-
 my $b = Bar.new;
 say $b;
