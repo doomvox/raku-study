@@ -8,6 +8,7 @@ use v6;
 # Compare this to Moritz Lenz in "Fundamentals"
 
 # https://docs.raku.org/syntax/regex
+## This is the "more complete code"
 
 my regex header { \s* '[' (\w+) ']' \h* \n+ }
 my regex identifier  { \w+ }
