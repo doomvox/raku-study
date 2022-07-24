@@ -26,6 +26,7 @@ use v6;
     say $/.made; # Erin Human
     # A second make overwrites the value of the first
 
-    say $/.made;
+    say $/.made; # Erin Human
+    $/ = Match.new();
 
     }
