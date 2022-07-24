@@ -1,20 +1,21 @@
-- [meeting notes July 24, 2022](#orgb4bb3bb)
-  - [the raku study group](#orgc0b6592)
-  - [current topics](#orgf7ee518)
-    - [make/made](#orgc20aec7)
-  - [earlier topics](#org80d31ac)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org8e8d7f0)
-  - [announcements](#org50d5315)
-    - [August 7th: next raku study group meeting](#orgb9f013d)
-    - [August 13th & 14th: online raku conference](#org363ea06)
+- [meeting notes July 24, 2022](#org0e9eb7e)
+  - [the raku study group](#orgacc4e4d)
+  - [current topics](#org325d7fc)
+    - [make/made](#orgdac465b)
+    - [gather for is a block like the for block, gather do](#org3f991ea)
+  - [earlier topics](#org6c321ab)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org52dbba2)
+  - [announcements](#org1e33ed9)
+    - [August 7th: next raku study group meeting](#org08ab0c7)
+    - [August 13th & 14th: online raku conference](#orgb8800a5)
 
 
-<a id="orgb4bb3bb"></a>
+<a id="org0e9eb7e"></a>
 
 # meeting notes July 24, 2022
 
 
-<a id="orgc0b6592"></a>
+<a id="orgacc4e4d"></a>
 
 ## the raku study group
 
@@ -29,24 +30,29 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul24>
 
 
-<a id="orgf7ee518"></a>
+<a id="org325d7fc"></a>
 
 ## current topics
 
 
-<a id="orgc20aec7"></a>
+<a id="orgdac465b"></a>
 
 ### make/made
 
 1.  grammars again
 
 
-<a id="org80d31ac"></a>
+<a id="org3f991ea"></a>
+
+### gather for is a block like the for block, gather do
+
+
+<a id="org6c321ab"></a>
 
 ## earlier topics
 
 
-<a id="org8e8d7f0"></a>
+<a id="org52dbba2"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -75,17 +81,17 @@
         2.  TODO add some comments, at the very least confirm the behavior.
 
 
-<a id="org50d5315"></a>
+<a id="org1e33ed9"></a>
 
 ## announcements
 
 
-<a id="orgb9f013d"></a>
+<a id="org08ab0c7"></a>
 
 ### August 7th: next raku study group meeting
 
 
-<a id="org363ea06"></a>
+<a id="orgb8800a5"></a>
 
 ### August 13th & 14th: online raku conference
 

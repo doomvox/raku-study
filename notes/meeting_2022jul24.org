@@ -10,6 +10,7 @@
 ** current topics
 *** make/made
 **** grammars again
+*** gather for is a block like the for block, gather do
 
 ** earlier topics
 *** regex feature: control what's captured with <( ... )>
