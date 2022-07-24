@@ -14,6 +14,16 @@
 **** https://github.com/rakudo/rakudo/issues/4998
 
 *** william michels stackexchange responses
+**** https://unix.stackexchange.com/a/711073/227738
+**** https://unix.stackexchange.com/a/711047/227738
+**** https://unix.stackexchange.com/a/711023/227738
+**** https://unix.stackexchange.com/a/710771/227738
+**** https://unix.stackexchange.com/a/710771/227738
+**** https://unix.stackexchange.com/a/710724/227738
+**** https://unix.stackexchange.com/a/710624/227738
+**** https://unix.stackexchange.com/a/710604/227738
+**** https://unix.stackexchange.com/a/710345/227738
+
 *** bruce gray weekly challenge
 
 

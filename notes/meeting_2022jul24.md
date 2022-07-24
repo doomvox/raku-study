@@ -1,23 +1,23 @@
-- [meeting notes July 24, 2022](#org013ee36)
-  - [the raku study group](#orgafd9a3b)
-  - [current topics](#orgf6ff23e)
-    - [make/made](#orgb6f0f42)
-    - [gather for is a block like the for block, gather do](#orgdf9c05b)
-    - [william michels stackexchange responses](#orgf1af179)
-    - [bruce gray weekly challenge](#org505b4c3)
-  - [earlier topics](#org6f46be8)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org38b18a9)
-  - [announcements](#orge7c8b93)
-    - [August 7th: next raku study group meeting](#org00fe5a2)
-    - [August 13th & 14th: online raku conference](#orgebf88b0)
+- [meeting notes July 24, 2022](#org2a2543d)
+  - [the raku study group](#org8b2ce12)
+  - [current topics](#org52ae4b6)
+    - [make/made](#orgc178f97)
+    - [gather for is a block like the for block, gather do](#orgb58c377)
+    - [william michels stackexchange responses](#org3f80586)
+    - [bruce gray weekly challenge](#orgcda4185)
+  - [earlier topics](#org285ff87)
+    - [regex feature: control what's captured with <( &#x2026; )>](#orgeae1baa)
+  - [announcements](#orge925504)
+    - [August 7th: next raku study group meeting](#orgb5cdbd6)
+    - [August 13th & 14th: online raku conference](#org2d8f383)
 
 
-<a id="org013ee36"></a>
+<a id="org2a2543d"></a>
 
 # meeting notes July 24, 2022
 
 
-<a id="orgafd9a3b"></a>
+<a id="org8b2ce12"></a>
 
 ## the raku study group
 
@@ -32,41 +32,59 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul24>
 
 
-<a id="orgf6ff23e"></a>
+<a id="org52ae4b6"></a>
 
 ## current topics
 
 
-<a id="orgb6f0f42"></a>
+<a id="orgc178f97"></a>
 
 ### make/made
 
 1.  grammars again
 
 
-<a id="orgdf9c05b"></a>
+<a id="orgb58c377"></a>
 
 ### gather for is a block like the for block, gather do
 
 1.  <https://github.com/rakudo/rakudo/issues/4998>
 
 
-<a id="orgf1af179"></a>
+<a id="org3f80586"></a>
 
 ### william michels stackexchange responses
 
+1.  <https://unix.stackexchange.com/a/711073/227738>
 
-<a id="org505b4c3"></a>
+2.  <https://unix.stackexchange.com/a/711047/227738>
+
+3.  <https://unix.stackexchange.com/a/711023/227738>
+
+4.  <https://unix.stackexchange.com/a/710771/227738>
+
+5.  <https://unix.stackexchange.com/a/710771/227738>
+
+6.  <https://unix.stackexchange.com/a/710724/227738>
+
+7.  <https://unix.stackexchange.com/a/710624/227738>
+
+8.  <https://unix.stackexchange.com/a/710604/227738>
+
+9.  <https://unix.stackexchange.com/a/710345/227738>
+
+
+<a id="orgcda4185"></a>
 
 ### bruce gray weekly challenge
 
 
-<a id="org6f46be8"></a>
+<a id="org285ff87"></a>
 
 ## earlier topics
 
 
-<a id="org38b18a9"></a>
+<a id="orgeae1baa"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -95,17 +113,17 @@
         2.  TODO add some comments, at the very least confirm the behavior.
 
 
-<a id="orge7c8b93"></a>
+<a id="orge925504"></a>
 
 ## announcements
 
 
-<a id="org00fe5a2"></a>
+<a id="orgb5cdbd6"></a>
 
 ### August 7th: next raku study group meeting
 
 
-<a id="orgebf88b0"></a>
+<a id="org2d8f383"></a>
 
 ### August 13th & 14th: online raku conference
 
