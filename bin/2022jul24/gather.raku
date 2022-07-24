@@ -8,6 +8,11 @@ use v6;
 
 my @monsters = < ankou araxxor borrokar damis delrith elvarg kalrag yuri >; ## www.runehq.com
 
+    for @monsters -> $m {
+        say "monster: $m";
+    };
+
+
 my @a =
     gather
     for @monsters -> $m {
