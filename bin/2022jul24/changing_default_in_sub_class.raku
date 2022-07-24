@@ -17,7 +17,7 @@ say $f;
 
 # That works as expected. When I add:
 class Bar is Foo {
-    submethod BUILD (:$!name = 'Jane') {};
+    submethod BUILD (:$.name = 'Jane') {};
 }
 my $b = Bar.new;
 say $b;
