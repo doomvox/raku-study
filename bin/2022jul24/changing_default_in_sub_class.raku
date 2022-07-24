@@ -6,27 +6,33 @@
 
 use v6;
 
-class Foo {
-    has $.name;
+{ # original problem
+    class Foo {
+        has $.name;
 
-    submethod BUILD (:$!name = 'John') {};
+        submethod BUILD (:$!name = 'John') {};
+    }
+    my $f = Foo.new;
+    say $f;
+    # OUTPUT: Foo.new(name => "John")
+
+    # # That works as expected. When I add:
+    # class Bar is Foo {
+    #     submethod BUILD  (:$!name = 'Jane') {};
+    # }
+
+
+    ## Error
+    ## Attribute $!name not declared in class Bar
+
+
+    class Bar is Foo {
+        submethod TWEAK (:$!name = 'Jane') {};
+    }
+    my $b = Bar.new;
+    say $b;
 }
-my $f = Foo.new;
-say $f;
-# OUTPUT: Foo.new(name => "John")
 
-# # That works as expected. When I add:
-# class Bar is Foo {
-#     submethod BUILD  (:$!name = 'Jane') {};
-# }
-
-
-## Error
-## Attribute $!name not declared in class Bar
-
-
-class Bar is Foo {
-    submethod TWEAK (:$!name = 'Jane') {};
-}
-my $b = Bar.new;
-say $b;
+say "===";
+{
+    }
