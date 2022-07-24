@@ -96,7 +96,7 @@ END
     # ｢Power｣
     # Match.new(:orig("  With the Power of your Ancestor\n  Grant the prayer of your followers, \n  Arise and Show Your Power\n"), :from(11), :pos(16))
 
-    sub red_match($/) {
+    sub re_match($/) {
         if ( $str ~~ /S.*?»/ ) {
             say $/; # ｢Show｣
         };   
