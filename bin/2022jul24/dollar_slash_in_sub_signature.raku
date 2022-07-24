@@ -31,7 +31,7 @@ END
 
 
 {
-    if ( $str ~~ /P.*?»/ ) {
+    if ( $str ~~ /P.*?»/ ) { # looking for a word beginning with "P"
         say $/; # ｢Power｣
     };   
 
