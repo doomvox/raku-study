@@ -37,8 +37,7 @@ use v6;
     ## Calling make(Str, Str, Str) will never work with declared signature (Mu \made)
 
     make( ("alpha", "beta", "gamma") );
-
-    say $/.made;
+    say $/.made;  # (alpha beta gamma)
 
 
 }
