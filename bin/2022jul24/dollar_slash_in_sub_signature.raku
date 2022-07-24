@@ -72,6 +72,7 @@ END
     if ( $str ~~ /S.*?»/ ) { 
         say $/; # ｢Power｣
     };   
+    say $/;
 
 
 
