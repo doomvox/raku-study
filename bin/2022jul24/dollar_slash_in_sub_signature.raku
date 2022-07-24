@@ -17,7 +17,6 @@ END
 {
     if ( $str ~~ /P.*?»/ ) {
         say $/; # ｢Power｣
-        say "...";
     };   
 
     echo_match();
