@@ -19,10 +19,11 @@ use v6;
     say $str;
        if ( $str ~~ /P.*?»/ ) {
            say "A hit!";
-           say $/;
-           };   
+           say $/; # ｢Power｣
+         };   
 
     sub echo_match {
+        say "---";
         say $/;
         dd $/;
     }
