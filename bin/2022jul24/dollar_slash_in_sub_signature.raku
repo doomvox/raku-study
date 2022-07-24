@@ -9,9 +9,9 @@ use v6;
 # What does that do exactly?
 
 my $str = q:to/END/;
-With the Power of your Ancestor
-Grant the prayer of your followers, 
-Arise and Show Your Power
+  With the Power of your Ancestor
+  Grant the prayer of your followers, 
+  Arise and Show Your Power
 END
 
 
