@@ -11,7 +11,9 @@
 *** make/made
 **** grammars again
 **** rob ransbottom example: recursive matching limited to zero-or-one times per level
-*** gather for is a block like the for block, gather do
+
+*** gather/take
+****  for is a block like the for block, gather do
 **** https://github.com/rakudo/rakudo/issues/4998
 
 *** william michels stackexchange responses

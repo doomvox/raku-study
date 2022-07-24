@@ -1,24 +1,24 @@
-- [meeting notes July 24, 2022](#org607b384)
-  - [the raku study group](#org677519b)
-  - [current topics](#org41b6c4c)
-    - [make/made](#org3ff1d3f)
-    - [gather for is a block like the for block, gather do](#orgc93e034)
-    - [william michels stackexchange responses](#orge27eeb0)
-    - [bruce gray weekly challenge](#orgc55bd26)
-    - [initialize attributes in subclass](#org3cca02b)
-  - [earlier topics](#org8c87578)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org7741ab6)
-  - [announcements](#org3d289b8)
-    - [August 7th: next raku study group meeting](#org0346f35)
-    - [August 13th & 14th: online raku conference](#orgf1226d9)
+- [meeting notes July 24, 2022](#org73b82aa)
+  - [the raku study group](#org0c46af8)
+  - [current topics](#org5de6a0e)
+    - [make/made](#org383458a)
+    - [gather/take](#org852e647)
+    - [william michels stackexchange responses](#org218f5b8)
+    - [bruce gray weekly challenge](#org6a9f927)
+    - [initialize attributes in subclass](#orga1cb0f0)
+  - [earlier topics](#org193ada1)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org61203d8)
+  - [announcements](#orgbf90eb7)
+    - [August 7th: next raku study group meeting](#org4b83fb3)
+    - [August 13th & 14th: online raku conference](#org80c3787)
 
 
-<a id="org607b384"></a>
+<a id="org73b82aa"></a>
 
 # meeting notes July 24, 2022
 
 
-<a id="org677519b"></a>
+<a id="org0c46af8"></a>
 
 ## the raku study group
 
@@ -33,12 +33,12 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul24>
 
 
-<a id="org41b6c4c"></a>
+<a id="org5de6a0e"></a>
 
 ## current topics
 
 
-<a id="org3ff1d3f"></a>
+<a id="org383458a"></a>
 
 ### make/made
 
@@ -47,14 +47,16 @@
 2.  rob ransbottom example: recursive matching limited to zero-or-one times per level
 
 
-<a id="orgc93e034"></a>
+<a id="org852e647"></a>
 
-### gather for is a block like the for block, gather do
+### gather/take
 
-1.  <https://github.com/rakudo/rakudo/issues/4998>
+1.  for is a block like the for block, gather do
+
+2.  <https://github.com/rakudo/rakudo/issues/4998>
 
 
-<a id="orge27eeb0"></a>
+<a id="org218f5b8"></a>
 
 ### william michels stackexchange responses
 
@@ -85,24 +87,24 @@
 11. <https://unix.stackexchange.com/a/710345/227738>
 
 
-<a id="orgc55bd26"></a>
+<a id="org6a9f927"></a>
 
 ### bruce gray weekly challenge
 
 
-<a id="org3cca02b"></a>
+<a id="orga1cb0f0"></a>
 
 ### initialize attributes in subclass
 
 1.  <https://stackoverflow.com/questions/73045142/how-to-initialize-attributes-inherited-in-a-sub-class>
 
 
-<a id="org8c87578"></a>
+<a id="org193ada1"></a>
 
 ## earlier topics
 
 
-<a id="org7741ab6"></a>
+<a id="org61203d8"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -131,17 +133,17 @@
         2.  TODO add some comments, at the very least confirm the behavior.
 
 
-<a id="org3d289b8"></a>
+<a id="orgbf90eb7"></a>
 
 ## announcements
 
 
-<a id="org0346f35"></a>
+<a id="org4b83fb3"></a>
 
 ### August 7th: next raku study group meeting
 
 
-<a id="orgf1226d9"></a>
+<a id="org80c3787"></a>
 
 ### August 13th & 14th: online raku conference
 
