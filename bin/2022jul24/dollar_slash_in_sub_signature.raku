@@ -20,7 +20,7 @@ use v6;
     $str ~~ /P.*»/;   
 
     sub echo_match {
-        dd $\;
+        dd $/;
     }
 
 }
