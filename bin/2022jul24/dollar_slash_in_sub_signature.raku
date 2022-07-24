@@ -47,7 +47,6 @@ END
     # the raku docs say otherwise:
     #   $/ is the match variable. A fresh one is created in every routine. 
     # https://docs.raku.org/syntax/$$SOLIDUS
-
 }
 
 {
