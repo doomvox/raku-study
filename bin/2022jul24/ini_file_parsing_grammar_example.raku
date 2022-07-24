@@ -7,3 +7,5 @@ use v6;
 # This is from the docs, but the *regex* page, not the grammars.
 # Compare this to Moritz Lenz in "Fundamentals"
 
+# https://docs.raku.org/syntax/regex
+
