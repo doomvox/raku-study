@@ -73,7 +73,6 @@ say "===";
     say $f; 
     put "This is class Foo with {$f.custom-name} as name.";
 
-
     class Bar is Foo {
         submethod TWEAK (:$custom-name) {
             self.custom-name = $custom-name // 'Jane';
