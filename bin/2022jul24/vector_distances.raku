@@ -68,6 +68,6 @@ say "===";
 
 my @bunnies  = < bugs peter easter gloria haruhi >;
 
-say @bunnies[0..2];
-say @bunnies[^2];
-say @bunnies.head(2);
+say @bunnies[0..2];      #  (bugs peter easter)
+say @bunnies[^2];        #  (bugs peter)
+say @bunnies.head(2);    #  (bugs peter)
