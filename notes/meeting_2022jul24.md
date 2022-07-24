@@ -1,23 +1,23 @@
-- [meeting notes July 24, 2022](#org3544e71)
-  - [the raku study group](#org3f48dd8)
-  - [current topics](#orgf736bb0)
-    - [make/made](#org614917e)
-    - [gather for is a block like the for block, gather do](#orgc04ceb6)
-    - [william michels stackexchange responses](#orgd31141d)
-    - [bruce gray weekly challenge](#orgf6412f0)
-  - [earlier topics](#orgfe90135)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orgc906933)
-  - [announcements](#orga3ca23e)
-    - [August 7th: next raku study group meeting](#org338c957)
-    - [August 13th & 14th: online raku conference](#orgba9ccd4)
+- [meeting notes July 24, 2022](#org0bc9437)
+  - [the raku study group](#orgec30cdf)
+  - [current topics](#org83c5a6b)
+    - [make/made](#orga691643)
+    - [gather for is a block like the for block, gather do](#org16547bb)
+    - [william michels stackexchange responses](#orgad90283)
+    - [bruce gray weekly challenge](#org1b82e1e)
+  - [earlier topics](#orgcf7e6e8)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org780f903)
+  - [announcements](#orgfef54d9)
+    - [August 7th: next raku study group meeting](#org7c72e59)
+    - [August 13th & 14th: online raku conference](#org4e4706a)
 
 
-<a id="org3544e71"></a>
+<a id="org0bc9437"></a>
 
 # meeting notes July 24, 2022
 
 
-<a id="org3f48dd8"></a>
+<a id="orgec30cdf"></a>
 
 ## the raku study group
 
@@ -32,26 +32,26 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul24>
 
 
-<a id="orgf736bb0"></a>
+<a id="org83c5a6b"></a>
 
 ## current topics
 
 
-<a id="org614917e"></a>
+<a id="orga691643"></a>
 
 ### make/made
 
 1.  grammars again
 
 
-<a id="orgc04ceb6"></a>
+<a id="org16547bb"></a>
 
 ### gather for is a block like the for block, gather do
 
 1.  <https://github.com/rakudo/rakudo/issues/4998>
 
 
-<a id="orgd31141d"></a>
+<a id="orgad90283"></a>
 
 ### william michels stackexchange responses
 
@@ -82,17 +82,17 @@
 11. <https://unix.stackexchange.com/a/710345/227738>
 
 
-<a id="orgf6412f0"></a>
+<a id="org1b82e1e"></a>
 
 ### bruce gray weekly challenge
 
 
-<a id="orgfe90135"></a>
+<a id="orgcf7e6e8"></a>
 
 ## earlier topics
 
 
-<a id="orgc906933"></a>
+<a id="org780f903"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -121,17 +121,17 @@
         2.  TODO add some comments, at the very least confirm the behavior.
 
 
-<a id="orga3ca23e"></a>
+<a id="orgfef54d9"></a>
 
 ## announcements
 
 
-<a id="org338c957"></a>
+<a id="org7c72e59"></a>
 
 ### August 7th: next raku study group meeting
 
 
-<a id="orgba9ccd4"></a>
+<a id="org4e4706a"></a>
 
 ### August 13th & 14th: online raku conference
 
