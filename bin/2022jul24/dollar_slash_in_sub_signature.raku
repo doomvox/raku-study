@@ -86,3 +86,19 @@ END
 
 # Q; can you change the value of $/ in the outer scope?
 
+{
+    say "---";
+    if ( $str ~~ /P.*?»/ ) {
+        say $/; # ｢Power｣
+    };   
+
+    echo_match($/);
+    # ｢Power｣
+    # Match.new(:orig("  With the Power of your Ancestor\n  Grant the prayer of your followers, \n  Arise and Show Your Power\n"), :from(11), :pos(16))
+
+    sub echo_match($/) {
+        say $/;
+        dd $/;
+    }
+
+}
