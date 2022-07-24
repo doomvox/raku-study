@@ -67,12 +67,12 @@ END
 }
 
 
-# Q; can you change the value of $/ in the outer scope?
+# Messing around with assigning to $/;
 {
     if ( $str ~~ /S.*?»/ ) { 
         say $/; # ｢Show｣
     };   
-    say $/;  # ｢Power｣
+    say $/;  # ｢Show｣
     my $ye_olde_match = $/;
     say $/.WHAT; # (Match)
     $/ = Nil;
@@ -83,3 +83,6 @@ END
     say $/.WHAT; # (Match)
 
     }
+
+# Q; can you change the value of $/ in the outer scope?
+
