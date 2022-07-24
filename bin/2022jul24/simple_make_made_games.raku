@@ -29,7 +29,12 @@ use v6;
     # the make/made "payload" *is* attached to the match object, right?
     say $/.made; # Erin Human
     dd $/;
+    # Match $/ = Match.new(:orig("abcd"), :from(1), :pos(2), :made("Erin Human"))
     $/ = Match.new();
     say $/.made; # Nil
+
+    $/.made("hey");
+    say made;
+
 }
 
