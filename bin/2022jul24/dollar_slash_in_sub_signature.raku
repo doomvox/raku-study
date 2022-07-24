@@ -65,3 +65,14 @@ END
     }
 
 }
+
+
+# Q; can you change the value of $/ in the outer scope?
+{
+    if ( $str ~~ /S.*?»/ ) { 
+        say $/; # ｢Power｣
+    };   
+
+
+
+    }
