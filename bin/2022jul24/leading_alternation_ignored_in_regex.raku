@@ -16,7 +16,7 @@ say
      | single
      | double
      | triple
-     | home run
+     | 'home run'
      ]/;
 
 # ｢triple｣
