@@ -4,6 +4,9 @@
 
 use v6;
 
+my %h = gather { take "foo" => 1; take "bar" => 2};
+
+
 # rob ransbottom is interested in an issue with gather
 
 my @monsters = < ankou araxxor borrokar damis delrith elvarg kalrag yuri >; ## www.runehq.com
