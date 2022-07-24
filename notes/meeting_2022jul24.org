@@ -11,18 +11,10 @@
 *** make/made
 **** grammars again
 *** gather for is a block like the for block, gather do
+**** https://github.com/rakudo/rakudo/issues/4998
 
-
-
-
-
-
-
-
-
-
-
-
+*** william michels stackexchange responses
+*** bruce gray weekly challenge
 
 
 ** earlier topics

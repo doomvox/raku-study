@@ -1,21 +1,23 @@
-- [meeting notes July 24, 2022](#orga8431f6)
-  - [the raku study group](#org11001af)
-  - [current topics](#orge3ca9a4)
-    - [make/made](#org2b1ac5d)
-    - [gather for is a block like the for block, gather do](#org7b53eb8)
-  - [earlier topics](#org0c4804f)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org4e3a38a)
-  - [announcements](#org7b92cbb)
-    - [August 7th: next raku study group meeting](#org08cd34c)
-    - [August 13th & 14th: online raku conference](#orge51695e)
+- [meeting notes July 24, 2022](#org013ee36)
+  - [the raku study group](#orgafd9a3b)
+  - [current topics](#orgf6ff23e)
+    - [make/made](#orgb6f0f42)
+    - [gather for is a block like the for block, gather do](#orgdf9c05b)
+    - [william michels stackexchange responses](#orgf1af179)
+    - [bruce gray weekly challenge](#org505b4c3)
+  - [earlier topics](#org6f46be8)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org38b18a9)
+  - [announcements](#orge7c8b93)
+    - [August 7th: next raku study group meeting](#org00fe5a2)
+    - [August 13th & 14th: online raku conference](#orgebf88b0)
 
 
-<a id="orga8431f6"></a>
+<a id="org013ee36"></a>
 
 # meeting notes July 24, 2022
 
 
-<a id="org11001af"></a>
+<a id="orgafd9a3b"></a>
 
 ## the raku study group
 
@@ -30,29 +32,41 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul24>
 
 
-<a id="orge3ca9a4"></a>
+<a id="orgf6ff23e"></a>
 
 ## current topics
 
 
-<a id="org2b1ac5d"></a>
+<a id="orgb6f0f42"></a>
 
 ### make/made
 
 1.  grammars again
 
 
-<a id="org7b53eb8"></a>
+<a id="orgdf9c05b"></a>
 
 ### gather for is a block like the for block, gather do
 
+1.  <https://github.com/rakudo/rakudo/issues/4998>
 
-<a id="org0c4804f"></a>
+
+<a id="orgf1af179"></a>
+
+### william michels stackexchange responses
+
+
+<a id="org505b4c3"></a>
+
+### bruce gray weekly challenge
+
+
+<a id="org6f46be8"></a>
 
 ## earlier topics
 
 
-<a id="org4e3a38a"></a>
+<a id="org38b18a9"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -81,17 +95,17 @@
         2.  TODO add some comments, at the very least confirm the behavior.
 
 
-<a id="org7b92cbb"></a>
+<a id="orge7c8b93"></a>
 
 ## announcements
 
 
-<a id="org08cd34c"></a>
+<a id="org00fe5a2"></a>
 
 ### August 7th: next raku study group meeting
 
 
-<a id="orge51695e"></a>
+<a id="orgebf88b0"></a>
 
 ### August 13th & 14th: online raku conference
 
