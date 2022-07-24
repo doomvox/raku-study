@@ -76,6 +76,7 @@ END
     my $ye_olde_match = $/;
     $/ = Nil;
     say $/; # Nil (hm)
+    say $/.WHAT;
 
 
 
