@@ -93,5 +93,39 @@ say "===";
     # This is class Bar with Janezilla as name.
 }
 
+say "===";
+{ # revised
+    my class Foo {
+        has $!default-name = 'John';
+        has $.custom-name  is rw;
+
+        submethod TWEAK (:$custom-name) {
+            self.custom-name = $custom-name // $!default-name;
+        };
+    }
+
+    my $f = Foo.new;
+    say $f; 
+    put "This is class Foo with {$f.custom-name} as name.";
+
+    class Bar is Foo {
+        submethod TWEAK (:$custom-name) {
+            self.custom-name = $custom-name // 'Jane';
+        };
+    }
+
+    my $b = Bar.new;
+    #    $b.custom-name = 'Jane';  ## BUT shouldn't need to do this
+    say $b;
+    put "This is class Bar with {$b.custom-name} as name.";
+    # Foo.new(custom-name => "John")
+    # This is class Foo with John as name.
+    # Bar.new(custom-name => "Jane")
+    # This is class Bar with Jane as name.
+
+    $b.custom-name = 'Janezilla'; 
+    put "This is class Bar with {$b.custom-name} as name.";
+    # This is class Bar with Janezilla as name.
+}
 
 
