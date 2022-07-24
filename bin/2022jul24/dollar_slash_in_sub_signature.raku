@@ -85,21 +85,20 @@ END
     }
 
 # Q; can you change the value of $/ in the outer scope?
+# {
+#     say "---";
+#     if ( $str ~~ /P.*?»/ ) {
+#         say $/; # ｢Power｣
+#     };   
 
-{
-    say "---";
-    if ( $str ~~ /P.*?»/ ) {
-        say $/; # ｢Power｣
-    };   
-
-    re_match($/);
-    sub re_match($/) {
-        if ( $str ~~ /S.*?»/ ) { # Cannot assign to a readonly variable or a value
-            say $/; # ｢Show｣
-        };   
-    }
-    say $/;
-}
+#     re_match($/);
+#     sub re_match($/) {
+#         if ( $str ~~ /S.*?»/ ) { # Cannot assign to a readonly variable or a value
+#             say $/; # ｢Show｣
+#         };   
+#     }
+#     say $/;
+# }
 
 
 {
