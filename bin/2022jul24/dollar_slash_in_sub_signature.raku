@@ -28,10 +28,8 @@ END
     # Nil $/ = Nil
 
     sub echo_match {
-        say "---";
         say $/;
         dd $/;
-        say "---";
     }
 
 }
