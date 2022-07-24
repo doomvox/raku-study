@@ -2,6 +2,8 @@
 # 
 # changing_default_in_sub_class.raku            24 Jul 2022 
 
+# https://stackoverflow.com/questions/73045142/how-to-initialize-attributes-inherited-in-a-sub-class
+
 use v6;
 
 class Foo {
