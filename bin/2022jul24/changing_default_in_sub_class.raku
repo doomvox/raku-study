@@ -26,6 +26,7 @@ say $f;
 
 
 class Bar is Foo {
+    has $name;
     submethod TWEAK (:$!name = 'Jane') {};
 }
 
