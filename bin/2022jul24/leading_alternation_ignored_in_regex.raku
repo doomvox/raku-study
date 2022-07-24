@@ -10,7 +10,7 @@ use v6;
 
 # [Update: now we just ignore the first | if there's nothing before it so that you can say
 
-my regexp $hit = rx/[
+my Regex $hit = rx/[
        | single
        | double
        | triple
