@@ -1,21 +1,21 @@
-- [meeting notes July 24, 2022](#org0e9eb7e)
-  - [the raku study group](#orgacc4e4d)
-  - [current topics](#org325d7fc)
-    - [make/made](#orgdac465b)
-    - [gather for is a block like the for block, gather do](#org3f991ea)
-  - [earlier topics](#org6c321ab)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org52dbba2)
-  - [announcements](#org1e33ed9)
-    - [August 7th: next raku study group meeting](#org08ab0c7)
-    - [August 13th & 14th: online raku conference](#orgb8800a5)
+- [meeting notes July 24, 2022](#orga8431f6)
+  - [the raku study group](#org11001af)
+  - [current topics](#orge3ca9a4)
+    - [make/made](#org2b1ac5d)
+    - [gather for is a block like the for block, gather do](#org7b53eb8)
+  - [earlier topics](#org0c4804f)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org4e3a38a)
+  - [announcements](#org7b92cbb)
+    - [August 7th: next raku study group meeting](#org08cd34c)
+    - [August 13th & 14th: online raku conference](#orge51695e)
 
 
-<a id="org0e9eb7e"></a>
+<a id="orga8431f6"></a>
 
 # meeting notes July 24, 2022
 
 
-<a id="orgacc4e4d"></a>
+<a id="org11001af"></a>
 
 ## the raku study group
 
@@ -30,29 +30,29 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022jul24>
 
 
-<a id="org325d7fc"></a>
+<a id="orge3ca9a4"></a>
 
 ## current topics
 
 
-<a id="orgdac465b"></a>
+<a id="org2b1ac5d"></a>
 
 ### make/made
 
 1.  grammars again
 
 
-<a id="org3f991ea"></a>
+<a id="org7b53eb8"></a>
 
 ### gather for is a block like the for block, gather do
 
 
-<a id="org6c321ab"></a>
+<a id="org0c4804f"></a>
 
 ## earlier topics
 
 
-<a id="org52dbba2"></a>
+<a id="org4e3a38a"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -81,17 +81,17 @@
         2.  TODO add some comments, at the very least confirm the behavior.
 
 
-<a id="org1e33ed9"></a>
+<a id="org7b92cbb"></a>
 
 ## announcements
 
 
-<a id="org08ab0c7"></a>
+<a id="org08cd34c"></a>
 
 ### August 7th: next raku study group meeting
 
 
-<a id="orgb8800a5"></a>
+<a id="orge51695e"></a>
 
 ### August 13th & 14th: online raku conference
 
