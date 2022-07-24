@@ -8,13 +8,15 @@ use v6;
 #   sub dostuff ($/) { ... }
 # What does that do exactly?
 
+my $str = q:to/END/;
+With the Power of your Ancestor
+Grant the prayer of your followers, 
+Arise and Show Your Power
+END
+
+
 {
 
-    my $str = q:to/END/;
-       With the Power of your Ancestor
-       Grant the prayer of your followers, 
-       Arise and Show Your Power
-       END
 
     say $str;
        if ( $str ~~ /P.*?»/ ) {
@@ -22,9 +24,12 @@ use v6;
            say $/; # ｢Power｣
          };   
 
+       echo_match
     sub echo_match {
+        say "---";
         say $/;
         dd $/;
+        say "---";
     }
 
 }
