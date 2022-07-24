@@ -16,15 +16,13 @@ END
 
 
 {
-
-
     say $str;
-       if ( $str ~~ /P.*?»/ ) {
-           say "A hit!";
-           say $/; # ｢Power｣
-         };   
+    if ( $str ~~ /P.*?»/ ) {
+        say "A hit!";
+        say $/; # ｢Power｣
+    };   
 
-       echo_match
+    echo_match
     sub echo_match {
         say "---";
         say $/;
