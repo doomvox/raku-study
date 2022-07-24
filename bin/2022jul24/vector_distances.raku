@@ -32,13 +32,13 @@ for $data.lines().map(*.words).rotor(2 => -1) -> $t {
     ).sum.sqrt };
 
 
-say "===";
-say "Mangled Bruce Gray version: ";
-for $data.lines().map(*.words) -> $t {
-    say (0..2).map(
-                  { ([-] $t».[$_])²
-                   }
-    ).sum.sqrt };
+# say "===";
+# say "Mangled Bruce Gray version: ";
+# for $data.lines().map(*.words) -> $t {
+#     say (0..2).map(
+#                   { ([-] $t».[$_])²
+#                    }
+#     ).sum.sqrt };
 
 # The iterator of this Seq is already in use/consumed by another Seq
 # (you might solve this by adding .cache on usages of the Seq, or
@@ -47,3 +47,11 @@ for $data.lines().map(*.words) -> $t {
 #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jul24/vector_distances.raku line 37
 
 # Messaging here can be confusing
+
+
+say "===";
+say "Another Bruce Gray version: ";
+
+for $data.lines().map(*.words).rotor(2 => -1) -> $t {
+    say sqrt sum map { ([-] $t».[$_])² }, ^3
+}
