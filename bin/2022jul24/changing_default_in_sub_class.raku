@@ -134,10 +134,8 @@ say "===";
     put "This is class Foo with {$f.custom-name} as name.";
 
     my class Bar is Foo {
-        submethod TWEAK (:$custom-name) {
-            self.custom-name = $custom-name // 'Jane';
-        };
-    }
+       $.custom-name =  'Jane';
+   }
 
     my $b = Bar.new;
     #    $b.custom-name = 'Jane';  ## BUT shouldn't need to do this
