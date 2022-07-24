@@ -16,6 +16,7 @@ my $str = q:to/END/;
 END
 
 {
+    # double checking: variable defined in outer scope is visible in inner
     my $word = "Bird";
     speak_to_me();
     sub speak_to_me {
