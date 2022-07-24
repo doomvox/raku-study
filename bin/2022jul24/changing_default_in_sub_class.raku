@@ -135,7 +135,7 @@ say "===";
 
     my class Bar is Foo {
        $.custom-name =  'Jane';
-   }
+    }
 
     my $b = Bar.new;
     #    $b.custom-name = 'Jane';  ## BUT shouldn't need to do this
