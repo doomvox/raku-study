@@ -80,6 +80,7 @@ END
     say $/.WHAT; # Nil
 
     $/ = Match.new();
+    say $/.WHAT;
 
 
 
