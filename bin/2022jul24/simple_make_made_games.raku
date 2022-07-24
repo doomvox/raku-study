@@ -33,7 +33,5 @@ use v6;
     $/ = Match.new();
     say $/.made; # Nil
 
-
-
 }
 
