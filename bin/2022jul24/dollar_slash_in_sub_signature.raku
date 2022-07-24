@@ -20,6 +20,7 @@ END
     if ( $str ~~ /P.*?»/ ) {
         say "A hit!";
         say $/; # ｢Power｣
+        say "...";
     };   
 
     echo_match();
