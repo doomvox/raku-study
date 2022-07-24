@@ -73,6 +73,9 @@ END
         say $/; # ｢Show｣
     };   
     say $/;  # ｢Power｣
+    my $ye_olde_match = $/;
+    $/ = Nil;
+    say $/;
 
 
 
