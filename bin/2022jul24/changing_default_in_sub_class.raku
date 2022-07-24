@@ -150,3 +150,19 @@ say "===";
     put "This is class Bar with {$b.custom-name} as name.";
     # This is class Bar with Janezilla as name.
 }
+
+say "===";
+# some bg code
+{
+    my class Foo { has $.name; }
+    my class Bar is Foo {
+        method zzz () {
+            # return self.name;
+            # return $.name;
+            # return $!name;
+        }
+    }
+    my $b = Bar.new( name => "zzz" );
+    say $b;
+    say $b.zzz;
+}
