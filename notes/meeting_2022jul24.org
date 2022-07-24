@@ -70,3 +70,21 @@ https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-l
 *** August 13th & 14th: online raku conference
 **** https://conf.raku.org/
 *** looking ahead: need to skip August 24th, will be August 31st
+
+
+
+
+
+my $obj = Classy.new();
+$obj;   # hashref
+
+keys $obj; 
+say $obj->{$key1};  
+
+$obj->{$key1} = 'somethingnew';  
+ 
+say $obj->key1;  
+
+  
+say Dumper( $obj );  
+
