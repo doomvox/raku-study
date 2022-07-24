@@ -75,16 +75,4 @@ https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-l
 
 
 
-my $obj = Classy.new();
-$obj;   # hashref
-
-keys $obj; 
-say $obj->{$key1};  
-
-$obj->{$key1} = 'somethingnew';  
- 
-say $obj->key1;  
-
-  
-say Dumper( $obj );  
 
