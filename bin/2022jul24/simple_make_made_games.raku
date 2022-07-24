@@ -38,7 +38,6 @@ use v6;
 
     make( ("alpha", "beta", "gamma") );
 
-
     say $/.made;
 
 
