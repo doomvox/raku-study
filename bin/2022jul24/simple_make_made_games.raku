@@ -15,6 +15,8 @@ use v6;
 
     say $/;      # Nil
     say $/.WHAT; # Nil
+    # ｢b｣
+    # (Match)
 
 
 
