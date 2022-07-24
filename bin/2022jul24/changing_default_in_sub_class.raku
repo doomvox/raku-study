@@ -166,4 +166,11 @@ say "===";
     my $b = Bar.new( name => "zzz" );
     say $b;
     say $b.zzz;
+
+    # The problem comes in because he doesn't want a mutable name field,
+    # and then wants to change it.
+
+    # When you make something read-only, when do you get to write to it?
+
+
 }
