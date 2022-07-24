@@ -74,6 +74,7 @@ END
     };   
     say $/;  # ｢Power｣
     my $ye_olde_match = $/;
+    say $/.WHAT;
     $/ = Nil;
     say $/; # Nil (hm)
     say $/.WHAT;
