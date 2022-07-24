@@ -134,7 +134,7 @@ say "===";
     put "This is class Foo with {$f.custom-name} as name.";
 
     my class Bar is Foo {
-       $.custom-name =  'Jane';
+       has $.custom-name =  'Jane';
     }
 
     my $b = Bar.new;
