@@ -25,5 +25,6 @@ use v6;
     make("Erin Human");
     say $/.made; # Erin Human
 
+    # A second make overwrites the value of the first
 
     }
