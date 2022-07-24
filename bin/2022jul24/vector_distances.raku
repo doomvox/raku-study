@@ -23,4 +23,6 @@ for @a -> \x1,\y1,\z1,\x2,\y2,\z2 {say sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - 
 # 5.196152422706632
 # 5.196152422706632
 
-for $data.lines().map(*.words).rotor(2 => -1) -> $t { say (0..2).map({ ([-] $t».[$_])² }).sum.sqrt };
+for $data.lines().map(*.words).rotor(2 => -1) -> $t {
+    say (0..2).map({ ([-] $t».[$_])²
+                   }).sum.sqrt };
