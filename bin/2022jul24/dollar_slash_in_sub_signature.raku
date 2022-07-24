@@ -36,13 +36,13 @@ END
     };   
 
     echo_match();
-    # Nil
-    # Nil $/ = Nil
-
     sub echo_match {
         say $/;
         dd $/;
     }
+
+    # Nil
+    # Nil $/ = Nil
 
     # perl brain says the outer $/ should be visible in the sub
     # raku says nope
