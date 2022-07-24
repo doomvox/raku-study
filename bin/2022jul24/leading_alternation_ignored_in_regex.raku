@@ -13,11 +13,11 @@ use v6;
 say
  "triple" ~~ 
      /[
-     | single
-     | double
-     | triple
-     | home run
-#     | 'home run'
+       | single
+       | double
+       | triple
+       | home run
+#       | 'home run'
      ]/;
 
 # ｢triple｣
