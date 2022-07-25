@@ -159,8 +159,8 @@ say "===";
         method zzz () {
             # return self.name;   # Works
             # return $.name;      # Works 
-            return $!name;        # Bombs:  Attribute $!name not declared in class Bar
-                                  #   You inherit the accesors, not the field definition
+#            return $!name;        # Bombs:  Attribute $!name not declared in class Bar
+#                                  #   You inherit the accesors, not the field definition
         }
     }
     my $b = Bar.new( name => "zzz" );
