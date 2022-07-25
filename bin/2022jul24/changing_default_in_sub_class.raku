@@ -181,17 +181,17 @@ say "===";
     }
 
     my $f = Foo.new;
-    say $f; 
+    say $f;   # Foo.new(name => "John")
 
     my class Bar is Foo {
        has $.name  is rw =  'Jane';
     }
 
     my $b = Bar.new;
-    say $b;
-    # Foo.new(name => "John")
+    say $b;  # Bar.new(name => "Jane")
+    
 
-    # Bar.new(name => "Jane")
+    
 
 
     $b.name = 'Janezilla'; 
