@@ -23,6 +23,7 @@ say "triple" ~~ /<$hit>/;
 # ｢triple｣
 
 say "home run" ~~ /<$hit>/;
+｢home run｣
 
 # But, there's a bug in this example
 
