@@ -11,12 +11,12 @@ use v6;
     say $/;      # Nil
     say $/.WHAT; # Nil
 
+    # after you do a match, $/ contains the match object
     "abcd" ~~ /b/;
+    say $/;           # ｢b｣
+    say $/.WHAT;      # (Match)
 
-    say $/;      
-    say $/.WHAT; 
-    # ｢b｣
-    # (Match)
+    
 
     make("Ms. Take");
     say $/;      # ｢b｣
