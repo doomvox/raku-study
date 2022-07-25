@@ -189,6 +189,6 @@ say "===";
     say $b;  # Bar.new(name => "Jane")
     
     $b.name = 'Janezilla'; 
-    put "This is class Bar with {$b.name} as name.";
-    # This is class Bar with Janezilla as name.
+    say $b;  # Bar.new(name => "Janezilla")
+
 }
