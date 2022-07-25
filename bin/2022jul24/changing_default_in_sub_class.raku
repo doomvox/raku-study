@@ -195,4 +195,11 @@ say "~~~";
     $b.name = 'Janezilla'; 
     say $b;  # Bar.new(name => "Janezilla")
 
+
+    
+    my $c = Bar.new( name => 'Fred' );
+    say $c;  # Bar.new(name => "Jane")
+    
+
+
 }
