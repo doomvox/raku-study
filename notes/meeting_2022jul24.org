@@ -13,7 +13,7 @@
 **** rob ransbottom example: recursive matching limited to zero-or-one times per level
 
 *** gather/take
-****  for is a block like the for block, gather do
+****  gather for idioms, any "do" is ignored
 
 *** jonathan worthington: } as a statement terminator sans semicolon
 **** https://github.com/rakudo/rakudo/issues/4998
