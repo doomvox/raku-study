@@ -174,7 +174,7 @@ say "===";
     # When you make something read-only, when do you get to write to it?
 }
 
-say "===";
+say "~~~";
 { 
     class Foo {
         has $.name  is rw = 'John';
