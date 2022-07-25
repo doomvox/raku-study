@@ -198,7 +198,7 @@ say "~~~";
 
     
     my $c = Bar.new( name => 'Fred' );
-    say $c;  # Bar.new(name => "Jane")
+    say $c;
     
 
 
