@@ -20,11 +20,9 @@ my Regex $hit = /[
        | triple
      ]/;
 
-# Note: the sigspace rules (:s) are interesting,
+# Note: the sigspace rules (:s) are interesting:
 #   multiple spaces are treated as one (?),
 #   trailing spaces in front of the "#" comment are ignored.
-
-
 
 # say "triple" ~~ $hit;
 say "triple" ~~ /<$hit>/;
