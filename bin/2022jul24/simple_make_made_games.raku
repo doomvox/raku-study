@@ -34,6 +34,11 @@ use v6;
     # (Note: I think this was originally called "ast", now it's "made")
     # BUT doing a "make" on a $/ works even when it's not writeable, which is interesting.
 
+
+
+
+    # You can send complex data structures through the make/made channel,
+    # but the obvious way of doing a "make" on a list doesn't work:
     # make("alpha", "beta", "gamma");
     ## Calling make(Str, Str, Str) will never work with declared signature (Mu \made)
 
