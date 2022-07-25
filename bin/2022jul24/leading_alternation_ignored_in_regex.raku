@@ -22,6 +22,8 @@ my Regex $hit = /[
 say "triple" ~~ /<$hit>/;
 # ｢triple｣
 
+say "home run" ~~ /<$hit>/;
+
 # But, there's a bug in this example
 
 # Potential difficulties:
