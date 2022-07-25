@@ -108,7 +108,7 @@ END
     };   
 
     re_match($/);
-    sub re_match($/ is rw) {
+    sub re_match($/ is rw) { # or "is copy"
         if ( $str ~~ /S.*?»/ ) { # Cannot assign to a readonly variable or a value
             say $/; # ｢Show｣
         };   
