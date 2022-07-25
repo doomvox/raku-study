@@ -27,6 +27,8 @@ say "home run" ~~ /<$hit>/;
 
 
 # But, there's a bug in the given example
+# The space in home run needs quoting or :s or something
+#  | home run 
 
 # Potential difficulties:
 #     Space is not significant here; please use quotes or :s
