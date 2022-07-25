@@ -33,8 +33,7 @@ use v6;
     # Yes: the channel the make/made info travels trough is that "made" field in $/
     # (Note: I think this was originally called "ast", now it's "made")
     # BUT doing a "make" on a $/ works even when it's not writeable, which is interesting.
-
-
+    # See:   dollar_slash_in_sub_signature.raku
 
 
     # You can send complex data structures through the make/made channel,
