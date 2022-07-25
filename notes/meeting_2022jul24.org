@@ -38,12 +38,8 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-174/#TASK1
 **** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-174/bruce-gray/raku
 
-
 *** initialize attributes in subclass
 **** https://stackoverflow.com/questions/73045142/how-to-initialize-attributes-inherited-in-a-sub-class
-
-
-
 
 ** earlier topics
 *** regex feature: control what's captured with <( ... )>
