@@ -13,8 +13,8 @@ use v6;
 
     "abcd" ~~ /b/;
 
-    say $/;      # Nil
-    say $/.WHAT; # Nil
+    say $/;      
+    say $/.WHAT; 
     # ｢b｣
     # (Match)
 
