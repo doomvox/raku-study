@@ -30,6 +30,9 @@ use v6;
     # Match $/ = Match.new(:orig("abcd"), :from(1), :pos(2), :made("Erin Human"))
     $/ = Match.new();
     say $/.made; # Nil
+    # Yes: the channel the make/made info travels trough is that "made" field in $/
+    # (Note: I think this was originally called "ast", now it's "made")
+    # BUT doing a "make" on a $/ works even when it's not writeable, which is interesting.
 
     # make("alpha", "beta", "gamma");
     ## Calling make(Str, Str, Str) will never work with declared signature (Mu \made)
