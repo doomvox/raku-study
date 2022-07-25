@@ -13,7 +13,7 @@ use v6;
 my Regex $hit = /[
        | single
        | double
-       | :s home   run   # Buggy, space in home run
+       | :s home   run   
 #       | 'home run'
        | triple
      ]/;
