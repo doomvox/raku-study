@@ -183,7 +183,7 @@ say "~~~";
     }
     class Bar is Foo {
         submethod TWEAK (:$name) {
-            $self.name = $name // 'Jane';
+            self.name = $name // 'Jane';
         };
     }
 
