@@ -42,7 +42,8 @@ use v6;
     # make("alpha", "beta", "gamma");
     ## Calling make(Str, Str, Str) will never work with declared signature (Mu \made)
 
-    make( ("alpha", "beta", "gamma") );
+    # This works (note doubled parens)
+    make(("alpha", "beta", "gamma"));
     say $/.made;  # (alpha beta gamma)
 
 }
