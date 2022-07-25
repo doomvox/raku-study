@@ -180,8 +180,6 @@ say "~~~";
         has $.name  is rw = 'John';
     }
     class Bar is Foo {
-#       has $.name  is rw =  'Jane';
-
         submethod TWEAK (:$name) {
             self.name = $name // 'Jane';
         };
