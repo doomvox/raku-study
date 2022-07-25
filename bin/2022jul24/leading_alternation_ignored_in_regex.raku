@@ -25,7 +25,8 @@ say "triple" ~~ /<$hit>/;
 say "home run" ~~ /<$hit>/;
 ｢home run｣
 
-# But, there's a bug in this example
+
+# But, there's a bug in the given example
 
 # Potential difficulties:
 #     Space is not significant here; please use quotes or :s
