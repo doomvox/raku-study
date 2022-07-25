@@ -7,8 +7,8 @@ use v6;
 ## Department of "I didn't know *that*":
 
 # https://raku.org/archive/doc/design/apo/A05.html
-
-# [Update: now we just ignore the first | if there's nothing before it so that you can say
+#
+#   "[Update: now we just ignore the first | if there's nothing before it so that you can say"
 
 my Regex $hit = /[
        | single
