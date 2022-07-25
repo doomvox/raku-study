@@ -198,8 +198,8 @@ say "~~~";
 
 
     # You can still set a new name at creation time:
-    my $c = Bar.new( name => 'Fred' );
-    say $c; # Bar.new(name => "Fred")
+    my $b2 = Bar.new( name => 'Fred' );
+    say $b2; # Bar.new(name => "Fred")
     
 
 
