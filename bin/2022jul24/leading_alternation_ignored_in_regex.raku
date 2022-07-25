@@ -13,12 +13,16 @@ use v6;
 my Regex $hit = /[
        | single
        | double
-#       | home run  # buggy: need to handle the embedded space
-       | :s home   run   
-#       | 'home run'
-#       | home\ run
+#       | home run    # buggy: need to handle the embedded space
+#       | 'home run'  # works
+#       | home\ run   # works 
+       | :s home   run   # works
        | triple
      ]/;
+
+# Note: the sigspace rules (:s) are interesting,
+#   multiple spaces are treated as one (?),
+#   trailing spaces in front of the "#" comment are ignored.
 
 
 
