@@ -22,7 +22,7 @@ use v6;
 
     make("Erin Human");
     say $/.made; # Erin Human
-    # A second make overwrites the value of the first
+    # So: a second make overwrites the value of the first
 
     # the make/made "payload" *is* attached to the match object, right?
     say $/.made; # Erin Human
