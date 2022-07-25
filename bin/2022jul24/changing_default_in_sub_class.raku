@@ -141,6 +141,7 @@ say "===";
     #    $b.name = 'Jane';  ## BUT shouldn't need to do this
     say $b;
     put "This is class Bar with {$b.name} as name.";
+ 
     # Foo.new(name => "John")
     # This is class Foo with John as name.
     # Bar.new(name => "Jane")
@@ -171,4 +172,32 @@ say "===";
     # and then wants to change it.
 
     # When you make something read-only, when do you get to write to it?
+}
+
+say "===";
+{ # revised
+    my class Foo {
+        has $.name  is rw = 'John';
+    }
+
+    my $f = Foo.new;
+    say $f; 
+    put "This is class Foo with {$f.name} as name.";
+
+    my class Bar is Foo {
+       has $.name  is rw =  'Jane';
+    }
+
+    my $b = Bar.new;
+    #    $b.name = 'Jane';  ## BUT shouldn't need to do this
+    say $b;
+ 
+    # Foo.new(name => "John")
+    # This is class Foo with John as name.
+    # Bar.new(name => "Jane")
+    # This is class Bar with Jane as name.
+
+    $b.name = 'Janezilla'; 
+    put "This is class Bar with {$b.name} as name.";
+    # This is class Bar with Janezilla as name.
 }
