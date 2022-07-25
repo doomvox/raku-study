@@ -177,7 +177,7 @@ say "===";
 say "~~~";
 { 
     class Foo {
-        has $.name  is rw = 'John';
+        has $.name  is rw = 'John';  # easy way to specify a default
     }
     class Bar is Foo {
         submethod TWEAK (:$name) {
