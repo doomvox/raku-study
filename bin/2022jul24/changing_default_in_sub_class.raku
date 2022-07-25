@@ -126,28 +126,28 @@ say "===";
 say "===";
 { # revised
     my class Foo {
-        has $.custom-name  is rw = 'John';
+        has $.name  is rw = 'John';
     }
 
     my $f = Foo.new;
     say $f; 
-    put "This is class Foo with {$f.custom-name} as name.";
+    put "This is class Foo with {$f.name} as name.";
 
     my class Bar is Foo {
-       has $.custom-name  is rw =  'Jane';
+       has $.name  is rw =  'Jane';
     }
 
     my $b = Bar.new;
-    #    $b.custom-name = 'Jane';  ## BUT shouldn't need to do this
+    #    $b.name = 'Jane';  ## BUT shouldn't need to do this
     say $b;
-    put "This is class Bar with {$b.custom-name} as name.";
-    # Foo.new(custom-name => "John")
+    put "This is class Bar with {$b.name} as name.";
+    # Foo.new(name => "John")
     # This is class Foo with John as name.
-    # Bar.new(custom-name => "Jane")
+    # Bar.new(name => "Jane")
     # This is class Bar with Jane as name.
 
-    $b.custom-name = 'Janezilla'; 
-    put "This is class Bar with {$b.custom-name} as name.";
+    $b.name = 'Janezilla'; 
+    put "This is class Bar with {$b.name} as name.";
     # This is class Bar with Janezilla as name.
 }
 
