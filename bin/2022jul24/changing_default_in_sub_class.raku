@@ -175,15 +175,15 @@ say "===";
 }
 
 say "===";
-{ # revised
-    my class Foo {
+{ 
+    class Foo {
         has $.name  is rw = 'John';
     }
 
     my $f = Foo.new;
     say $f;   # Foo.new(name => "John")
 
-    my class Bar is Foo {
+    class Bar is Foo {
        has $.name  is rw =  'Jane';
     }
 
