@@ -15,9 +15,7 @@ use v6;
     "abcd" ~~ /b/;
     say $/;           # ｢b｣
     say $/.WHAT;      # (Match)
-
     
-
     make("Ms. Take");
     say $/;      # ｢b｣
     say $/.made; # Ms. Take
