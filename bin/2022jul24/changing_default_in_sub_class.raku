@@ -181,6 +181,10 @@ say "~~~";
     }
     class Bar is Foo {
        has $.name  is rw =  'Jane';
+
+        submethod TWEAK (:$name) {
+            self.name = $name // 'Jane';
+        };
     }
 
     my $f = Foo.new;
