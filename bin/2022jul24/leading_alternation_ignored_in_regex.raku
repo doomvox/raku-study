@@ -13,11 +13,14 @@ use v6;
 my Regex $hit = /[
        | single
        | double
+#       | home run  # buggy: need to handle the embedded space
        | :s home   run   
 #       | 'home run'
 #       | home\ run
        | triple
      ]/;
+
+
 
 # say "triple" ~~ $hit;
 say "triple" ~~ /<$hit>/;
