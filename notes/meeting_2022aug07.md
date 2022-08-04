@@ -1,25 +1,25 @@
-- [meeting notes August 07, 2022](#org111722a)
-  - [the raku study group](#org0c9027d)
-  - [current topics](#org357b790)
-    - [make/made](#org9c9f977)
-    - [gather/take](#org9b37811)
-    - [jonathan worthington: } as a statement terminator sans semicolon](#org33c23fe)
-    - [william michels stackexchange responses](#org9b464ac)
-    - [perl weekly challenge (bruce gray, robs ransbottom)](#org2efb967)
-    - [initialize attributes in subclass](#orgdc3421d)
-  - [earlier topics](#org673f977)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org35fae9f)
-  - [announcements](#orgc9aa36b)
-    - [August 7th: next raku study group meeting](#org0fabdc5)
-    - [August 13th & 14th: online raku conference](#orgf688a49)
+- [meeting notes August 07, 2022](#org32eb655)
+  - [the raku study group](#orgd49efdb)
+  - [current topics](#org5726a28)
+    - [make/made](#org781d7ed)
+    - [gather/take](#orgc1f1e41)
+    - [jonathan worthington: } as a statement terminator sans semicolon](#org7282952)
+    - [william michels stackexchange responses](#org4fa8f4e)
+    - [perl weekly challenge (bruce gray, robs ransbottom)](#org9a14e32)
+    - [initialize attributes in subclass](#org457eddb)
+  - [earlier topics](#org159fe26)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org0cb5553)
+  - [announcements](#orgb7a2cc0)
+    - [August 7th: next raku study group meeting](#orgf7ee84a)
+    - [August 13th & 14th: online raku conference](#org89eafdc)
 
 
-<a id="org111722a"></a>
+<a id="org32eb655"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="org0c9027d"></a>
+<a id="orgd49efdb"></a>
 
 ## the raku study group
 
@@ -34,12 +34,12 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug07>
 
 
-<a id="org357b790"></a>
+<a id="org5726a28"></a>
 
 ## current topics
 
 
-<a id="org9c9f977"></a>
+<a id="org781d7ed"></a>
 
 ### make/made
 
@@ -48,21 +48,21 @@
 2.  rob ransbottom example: recursive matching limited to zero-or-one times per level
 
 
-<a id="org9b37811"></a>
+<a id="orgc1f1e41"></a>
 
 ### gather/take
 
 1.  gather for idioms, any "do" is ignored
 
 
-<a id="org33c23fe"></a>
+<a id="org7282952"></a>
 
 ### jonathan worthington: } as a statement terminator sans semicolon
 
 1.  <https://github.com/rakudo/rakudo/issues/4998>
 
 
-<a id="org9b464ac"></a>
+<a id="org4fa8f4e"></a>
 
 ### william michels stackexchange responses
 
@@ -93,7 +93,7 @@
 11. <https://unix.stackexchange.com/a/710345/227738>
 
 
-<a id="org2efb967"></a>
+<a id="org9a14e32"></a>
 
 ### perl weekly challenge (bruce gray, robs ransbottom)
 
@@ -102,19 +102,19 @@
 2.  <https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-174/bruce-gray/raku>
 
 
-<a id="orgdc3421d"></a>
+<a id="org457eddb"></a>
 
 ### initialize attributes in subclass
 
 1.  <https://stackoverflow.com/questions/73045142/how-to-initialize-attributes-inherited-in-a-sub-class>
 
 
-<a id="org673f977"></a>
+<a id="org159fe26"></a>
 
 ## earlier topics
 
 
-<a id="org35fae9f"></a>
+<a id="org0cb5553"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -143,17 +143,17 @@
         2.  TODO add some comments, at the very least confirm the behavior.
 
 
-<a id="orgc9aa36b"></a>
+<a id="orgb7a2cc0"></a>
 
 ## announcements
 
 
-<a id="org0fabdc5"></a>
+<a id="orgf7ee84a"></a>
 
 ### August 7th: next raku study group meeting
 
 
-<a id="orgf688a49"></a>
+<a id="org89eafdc"></a>
 
 ### August 13th & 14th: online raku conference
 
