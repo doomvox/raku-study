@@ -19,7 +19,6 @@ https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-l
 
 
 ** announcements 
-
 *** August 13th & 14th: online raku conference
 **** https://conf.raku.org/
 
