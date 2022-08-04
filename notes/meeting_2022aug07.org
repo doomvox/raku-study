@@ -7,38 +7,6 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2022aug07
 
 ** current topics
-*** make/made
-**** grammars again
-**** rob ransbottom example: recursive matching limited to zero-or-one times per level
-
-*** gather/take
-****  gather for idioms, any "do" is ignored
-
-*** jonathan worthington: } as a statement terminator sans semicolon
-**** https://github.com/rakudo/rakudo/issues/4998
-
-*** william michels stackexchange responses
-**** https://unix.stackexchange.com/a/710954/227738
-***** matrix math
-
-**** https://unix.stackexchange.com/a/709981/227738
-***** min and max
-**** https://unix.stackexchange.com/a/711073/227738
-**** https://unix.stackexchange.com/a/711047/227738
-**** https://unix.stackexchange.com/a/711023/227738
-**** https://unix.stackexchange.com/a/710771/227738
-**** https://unix.stackexchange.com/a/710771/227738
-**** https://unix.stackexchange.com/a/710724/227738
-**** https://unix.stackexchange.com/a/710624/227738
-**** https://unix.stackexchange.com/a/710604/227738
-**** https://unix.stackexchange.com/a/710345/227738
-
-*** perl weekly challenge (bruce gray, robs ransbottom)
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-174/#TASK1
-**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-174/bruce-gray/raku
-
-*** initialize attributes in subclass
-**** https://stackoverflow.com/questions/73045142/how-to-initialize-attributes-inherited-in-a-sub-class
 
 ** earlier topics
 *** regex feature: control what's captured with <( ... )>
@@ -49,18 +17,10 @@
 ***** william michels turned up this on the subject:
 https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up
 
-**** the double-asterix non-flattening slurpy array signature
-***** so the single asterix is flattening?
-***** TODO investigate further, for next time
-
-
-**** rob ramsbottom
-***** rob opened a github issue, no action:
-****** https://github.com/rakudo/rakudo/issues/4945
-****** TODO add some comments, at the very least confirm the behavior.
 
 ** announcements 
-*** August 7th: next raku study group meeting
+
 *** August 13th & 14th: online raku conference
 **** https://conf.raku.org/
 
+*** August 21st: the next raku study group meeting... but I might not make it.
