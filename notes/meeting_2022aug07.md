@@ -1,19 +1,19 @@
-- [meeting notes August 07, 2022](#orgadd84d3)
-  - [the raku study group](#org7dc4766)
-  - [current topics](#org2f9a3c5)
-  - [earlier topics](#org68a3d6a)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orgeb71a65)
-  - [announcements](#org65a12ce)
-    - [August 13th & 14th: online raku conference](#orge686eef)
-    - [August 21st: the next raku study group meeting&#x2026; but I might not make it.](#org5a8f6cd)
+- [meeting notes August 07, 2022](#orgf64ee1c)
+  - [the raku study group](#org3dd4a69)
+  - [current topics](#orgcc8d3a9)
+  - [earlier topics](#org8cbb9a7)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org5b3f597)
+  - [announcements](#orga47e295)
+    - [August 13th & 14th: online raku conference](#orgc4da8c5)
+    - [August 21st: the next raku study group meeting&#x2026; but I might not make it.](#org3220257)
 
 
-<a id="orgadd84d3"></a>
+<a id="orgf64ee1c"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="org7dc4766"></a>
+<a id="org3dd4a69"></a>
 
 ## the raku study group
 
@@ -28,17 +28,17 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug07>
 
 
-<a id="org2f9a3c5"></a>
+<a id="orgcc8d3a9"></a>
 
 ## current topics
 
 
-<a id="org68a3d6a"></a>
+<a id="org8cbb9a7"></a>
 
 ## earlier topics
 
 
-<a id="orgeb71a65"></a>
+<a id="org5b3f597"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -53,12 +53,12 @@
     <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
 
 
-<a id="org65a12ce"></a>
+<a id="orga47e295"></a>
 
 ## announcements
 
 
-<a id="orge686eef"></a>
+<a id="orgc4da8c5"></a>
 
 ### August 13th & 14th: online raku conference
 
@@ -66,7 +66,11 @@
 
 2.  <https://conf.raku.org/2022/schedule>
 
+3.  Red, an ORM for Raku
 
-<a id="org5a8f6cd"></a>
+    1.  <https://conf.raku.org/talk/181>
+
+
+<a id="org3220257"></a>
 
 ### August 21st: the next raku study group meeting&#x2026; but I might not make it.
