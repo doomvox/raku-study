@@ -64,5 +64,6 @@ say "$?FILE: $?LINE"; # OUTPUT: "hello.p6: 23"
 # 15:56 < lizmat> $? is an optional positional in which we're not interested, also without name 
 
 
+say "===";
 
-
+say :infix:<=:=>;
