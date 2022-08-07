@@ -14,6 +14,7 @@
 *** rob ransbottom:
 **** little things
 **** and why did they do this?
+*** weekly challenge
 
 ** earlier topics
 *** regex feature: control what's captured with <( ... )>
