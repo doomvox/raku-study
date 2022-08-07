@@ -4,3 +4,18 @@
 
 use v6;
 
+sub topic( $c --> Int ) {
+    $_ = $c;
+    $_ += .flip;
+}
+
+sub named( $c --> Int ) {
+    my $d = $c;
+#    $d += .flip;
+    $d += $d.flip;
+}
+
+for 32 {
+    say .&topic;
+    say .&named;
+} 
