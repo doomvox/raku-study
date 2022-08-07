@@ -15,7 +15,7 @@ given 32 {
 #     say $_;
 #     }
 
-given 32 is copy {
+given 32 is raw {
     $_ = 23;  
     say $_;
     }
