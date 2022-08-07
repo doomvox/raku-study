@@ -26,7 +26,7 @@ sub named( $c --> Int ) {
 
 
 sub simpler( $c --> Int ) {
-    my $c += $c.flip;
+    $c += $c.flip;
     say $c;
 }
 
