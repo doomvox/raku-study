@@ -69,7 +69,12 @@ say "\U$a\Lho";  # HEYho
 $a = '';
 say "\U$a\Lho";  # ho
 
-{ #  sharp s , unicode 00DF
+{
+
+# 1e9e
+  my $SS = "ẞ";
+
+  #  sharp s , unicode 00DF
   my $ss = "ß";
 
   say $ss;
