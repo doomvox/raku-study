@@ -5,9 +5,7 @@
 use v6;
 
 # say infix:<=:=> (Mu);
-
 # my $a = 1;
-
 # say infix:<=:=> $a;
 
 say infix:<=:=>(42);    # True
