@@ -14,7 +14,7 @@ say infix:<=:=>(False); # True
 say (Mu) =:= (Mu); # True
 
 my $a = 23;
-say $a =:= (Mu);
+say $a =:= (Mu);   # False
 
 
 say infix:<=:=>(Mu); # True
