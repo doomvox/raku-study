@@ -7,7 +7,7 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2022aug07
 
 ** current topics
-*** perl-porters: \U\L interpolation contructs don't work well together
+*** perl5: perl-porters: \U\L interpolation contructs don't work well together
 
 ** earlier topics
 *** regex feature: control what's captured with <( ... )>
