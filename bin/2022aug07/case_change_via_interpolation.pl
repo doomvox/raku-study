@@ -69,7 +69,8 @@ say "\U$a\Lho";  # HEYho
 $a = '';
 say "\U$a\Lho";  # ho
 
-00DF
+{
+
 my $ss = "ß";
 
 say $ss;
