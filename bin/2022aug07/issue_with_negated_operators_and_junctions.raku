@@ -8,4 +8,7 @@ use v6;
 # Marton Polgar 
 
 say so
-  (1, 2, 3, 5, 14, 98).all < 100;
+  (1, 2, 3, 5, 14, 98).all < 100;  # True
+
+say so
+  (1, 2, 3, 5, 14, 98).all !> 100;  # True
