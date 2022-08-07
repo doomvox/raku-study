@@ -59,7 +59,8 @@ say "\Uhey";  # HEY
 
 say "\Uhey\Lho"; # HEYho
 
-say "\U\Lho"; # 
+say "\U\Lho"; 
+# syntax error at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/case_change_via_interpolation.pl line 62, near "\U\L"
 
 
 ### end main, into the subs
