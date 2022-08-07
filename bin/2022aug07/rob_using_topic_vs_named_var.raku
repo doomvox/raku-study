@@ -26,7 +26,7 @@ sub named( $c --> Int ) {
 
 
 sub simpler( $c --> Int ) {
-    my $result += $c.flip
+    my $result += $c.flip;
     say $result;
 }
 
