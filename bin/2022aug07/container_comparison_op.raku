@@ -49,9 +49,12 @@ say "$?FILE: $?LINE"; # OUTPUT: "hello.p6: 23"
 
 # Parameters with a '?' twigil, like '$?a', are not allowed in signatures.
 
-sub weirdzo ($?LINE) {
-    say "hi, from weirdzo on: $?LINE"  # should be 53
-}
+# sub weirdzo ($?LINE) {
+#     say "hi, from weirdzo on: $?LINE"  # should be 53
+# }
+# Parameters with a '?' twigil, like '$?LINE', are not allowed in
+# signatures.
+
 
 
 weirdzo($?LINE);
