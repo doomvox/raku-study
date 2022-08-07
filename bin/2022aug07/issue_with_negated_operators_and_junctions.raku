@@ -7,4 +7,5 @@ use v6;
 
 # Marton Polgar 
 
-(1, 2, 3, 5, 14, 98).all < 100;
+say so
+  (1, 2, 3, 5, 14, 98).all < 100;
