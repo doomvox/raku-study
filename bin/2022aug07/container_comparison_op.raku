@@ -16,7 +16,8 @@ say (Mu) =:= (Mu); # True
 my $a = 23;
 say $a =:= (Mu);   # False
 
-say $a =:= 23;
+# containerized 23 is not same as uncontainerized as far as =:=  is concerned.
+say $a =:= 23;     # False   
 
 
 say  infix:<=:=>(Mu); # True
