@@ -1,19 +1,20 @@
-- [meeting notes August 07, 2022](#orgf64ee1c)
-  - [the raku study group](#org3dd4a69)
-  - [current topics](#orgcc8d3a9)
-  - [earlier topics](#org8cbb9a7)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org5b3f597)
-  - [announcements](#orga47e295)
-    - [August 13th & 14th: online raku conference](#orgc4da8c5)
-    - [August 21st: the next raku study group meeting&#x2026; but I might not make it.](#org3220257)
+- [meeting notes August 07, 2022](#org5063547)
+  - [the raku study group](#orge07820a)
+  - [current topics](#orgdbf9314)
+    - [perl-porters: \U\L interpolation contructs don't work well together](#org76e254e)
+  - [earlier topics](#org61992f4)
+    - [regex feature: control what's captured with <( &#x2026; )>](#orgf3832e9)
+  - [announcements](#orgbb800af)
+    - [August 13th & 14th: online raku conference](#org736728d)
+    - [August 21st: the next raku study group meeting&#x2026; but I might not make it.](#orgbeeff5f)
 
 
-<a id="orgf64ee1c"></a>
+<a id="org5063547"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="org3dd4a69"></a>
+<a id="orge07820a"></a>
 
 ## the raku study group
 
@@ -28,17 +29,22 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug07>
 
 
-<a id="orgcc8d3a9"></a>
+<a id="orgdbf9314"></a>
 
 ## current topics
 
 
-<a id="org8cbb9a7"></a>
+<a id="org76e254e"></a>
+
+### perl-porters: \U\L interpolation contructs don't work well together
+
+
+<a id="org61992f4"></a>
 
 ## earlier topics
 
 
-<a id="org5b3f597"></a>
+<a id="orgf3832e9"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -53,12 +59,12 @@
     <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
 
 
-<a id="orga47e295"></a>
+<a id="orgbb800af"></a>
 
 ## announcements
 
 
-<a id="orgc4da8c5"></a>
+<a id="org736728d"></a>
 
 ### August 13th & 14th: online raku conference
 
@@ -71,6 +77,6 @@
     1.  <https://conf.raku.org/talk/181>
 
 
-<a id="org3220257"></a>
+<a id="orgbeeff5f"></a>
 
 ### August 21st: the next raku study group meeting&#x2026; but I might not make it.
