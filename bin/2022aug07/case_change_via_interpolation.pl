@@ -69,15 +69,15 @@ say "\U$a\Lho";  # HEYho
 $a = '';
 say "\U$a\Lho";  # ho
 
-{
+{ #  sharp s , unicode 00DF
+  my $ss = "ß";
 
-my $ss = "ß";
+  say $ss;
+  say uc($ss);
+  say ucfirst($ss);
+  say lc($ss);
 
-say $ss;
-say uc($ss);
-say ucfirst($ss);
-say lc($ss);
-
+}
 
 
 
@@ -128,3 +128,4 @@ No warranty is provided with this code.
 See http://dev.perl.org/licenses/ for more information.
 
 =cut
+  
