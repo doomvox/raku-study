@@ -17,7 +17,7 @@ my $a = 23;
 say $a =:= (Mu);   # False
 
 
-say so infix:<=:=>(Mu); # True
+say  infix:<=:=>(Mu); # True
 # Cannot resolve caller infix:<=:=>(Mu:U); none of these signatures match:
 #     ($?)
 #     (Mu \a, Mu \b)
