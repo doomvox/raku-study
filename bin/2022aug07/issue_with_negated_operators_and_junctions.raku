@@ -15,3 +15,7 @@ say so
 
 say so
   (1, 2, 3, 5, 14, 98).all >= 65;  # False
+
+say so
+  (1, 2, 3, 5, 14, 98).all >= 0;  # True
+
