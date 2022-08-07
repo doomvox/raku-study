@@ -83,8 +83,6 @@ say "\U$a\Lho";  # ho
   say ucfirst($ss);
   say lc($ss);
 
-
-
 }
 
 
