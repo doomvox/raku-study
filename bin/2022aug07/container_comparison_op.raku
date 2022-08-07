@@ -32,8 +32,11 @@ say "$?FILE: $?LINE"; # OUTPUT: "hello.p6: 23"
 
   #  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/container_comparison_op.raku: 29
 
+
+
 sub weirdzo ($?) {
-    say "hi, from weirdzo on: $?"
+    # say "hi, from weirdzo on: $?"
+    ## Unsupported use of $? variable; in Raku please use $! for handling child errors also
 }
 
 weirdzo($?LINE);
