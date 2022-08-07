@@ -20,6 +20,8 @@
 *** negation with junctions goes outside the junction
 **** .none %% 2 vs  .all  !%% 2 
 
+
+
 ** earlier topics
 *** regex feature: control what's captured with <( ... )>
 ***** <( isn't really equivalent to \K in a substitution
