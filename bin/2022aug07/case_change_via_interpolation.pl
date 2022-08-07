@@ -59,7 +59,7 @@ say "\Uhey";  # HEY
 
 say "\Uhey\Lho"; # HEYho
 
-say "\U\Lho"; # HEYho
+say "\U\Lho"; # 
 
 
 ### end main, into the subs
