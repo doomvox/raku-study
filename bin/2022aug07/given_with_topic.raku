@@ -26,8 +26,6 @@ given 32 -> $_ is copy  {
     say $_;  # 23
 }
 
-
-
     # Bruce Gray cases: 
     # raku -e 'my @a = 1, 2; for @a { $_ += 40 }; say @a'
     # [41 42]
