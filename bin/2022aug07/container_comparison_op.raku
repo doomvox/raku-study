@@ -13,3 +13,6 @@ say infix:<=:=>(False); # True
 
 
 say infix:<=:=>(Mu); # True
+# Cannot resolve caller infix:<=:=>(Mu:U); none of these signatures match:
+#     ($?)
+#     (Mu \a, Mu \b)
