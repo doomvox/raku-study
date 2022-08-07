@@ -40,4 +40,4 @@ say so
 say "===";
 
 say 
-  4 != any 1, 2, 3, 4;
+  4 != any 1, 2, 3, 4;  # False
