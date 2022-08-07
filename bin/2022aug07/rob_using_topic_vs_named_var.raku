@@ -30,7 +30,7 @@ sub simpler( $c --> Int ) {
 #     say $c;
       return $c + $c.flip;
 }
-say simpler( 910 );
+say simpler( 910 ); # 929
 
 
 for 32 {  ## given better than for
