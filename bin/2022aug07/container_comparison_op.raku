@@ -13,6 +13,9 @@ say infix:<=:=>(False); # True
 
 say (Mu) =:= (Mu); # True
 
+my $a = 23;
+say $a =:= (Mu);
+
 
 say infix:<=:=>(Mu); # True
 # Cannot resolve caller infix:<=:=>(Mu:U); none of these signatures match:
