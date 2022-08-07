@@ -29,3 +29,9 @@ say "===";
 say "$?FILE: $?LINE"; # OUTPUT: "hello.p6: 23" 
                       # if this is the line 23 of a 
                       # file named "hello.p6"
+
+  #  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/container_comparison_op.raku: 29
+
+sub weirdzo ($?) {
+    say "hi, from weirdzo on: $?"
+}
