@@ -30,6 +30,7 @@ sub simpler( $c --> Int ) {
     say $c;
 }
 
+say simpler( 910 )
 
 
 for 32 {  ## given better than for
