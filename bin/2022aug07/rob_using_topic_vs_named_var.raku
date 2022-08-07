@@ -4,8 +4,8 @@
 
 use v6;
 
-say topic("hello");
-say named("hello");
+say topic("123");
+say named("123");
 
 sub topic( $c --> Int ) {
     $_ = $c;
