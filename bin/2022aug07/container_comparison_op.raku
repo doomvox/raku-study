@@ -25,8 +25,6 @@ say  infix:<=:=>(Mu); # True
 #     ($?)
 #     (Mu \a, Mu \b)
 
-
-
 say "$?FILE: $?LINE"; # OUTPUT: "hello.p6: 23" 
                       # if this is the line 23 of a 
                       # file named "hello.p6"
