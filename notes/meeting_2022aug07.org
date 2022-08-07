@@ -19,7 +19,9 @@
 
 *** negation with junctions goes outside the junction
 **** .none %% 2 vs  .all  !%% 2 
+**** an issue marton cares about: gave us links to discussions
 
+*** https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180
 
 
 ** earlier topics
