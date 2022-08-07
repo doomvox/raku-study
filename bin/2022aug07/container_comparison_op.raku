@@ -12,5 +12,5 @@ use v6;
 
 
 
-say infix:<=:=>(42);    # OUTPUT: «True␤» 
-say infix:<=:=>(False); # OUTPUT: «True␤» 
+say infix:<=:=>(42);    # True
+say infix:<=:=>(False); # True
