@@ -12,3 +12,4 @@ say infix:<=:=>(42);    # True
 say infix:<=:=>(False); # True
 
 
+say infix:<=:=>(Mu); # True
