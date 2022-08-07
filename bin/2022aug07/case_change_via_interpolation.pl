@@ -72,10 +72,12 @@ say "\U$a\Lho";  # ho
 {
 
 # 1e9e
-  my $SS = "ẞ";
 
-  #  sharp s , unicode 00DF
-  my $ss = "ß";
+#   #  sharp s , unicode 00DF  lowercase
+#   my $ss = "ß";
+
+
+  my $ss = "ẞ";
 
   say $ss;
   say uc($ss);
