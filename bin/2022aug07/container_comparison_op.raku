@@ -66,4 +66,7 @@ say "$?FILE: $?LINE"; # OUTPUT: "hello.p6: 23"
 
 say "===";
 
-say infix:<=:=>;
+say infix:<=:=>;  # True
+
+
+say infix:<=:=> ();  # True
