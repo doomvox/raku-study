@@ -42,7 +42,7 @@ given 32 -> $_ is copy  {
 
 {
     my @a = 1, 2;
-    for @a -> $a { $a += 40 };
+    for @a -> $a { $a += 40 };  # Cannot assign to a readonly variable or a value
     say @a
 
 }
