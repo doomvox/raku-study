@@ -10,7 +10,7 @@ say 123.flip;    # 321
 say topic("123");    
 say named("123");
 
-say 123 + 321
+say 123 + 321;
 
 
 sub topic( $c --> Int ) {
