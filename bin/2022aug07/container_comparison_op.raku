@@ -34,9 +34,14 @@ say "$?FILE: $?LINE"; # OUTPUT: "hello.p6: 23"
 
 
 
-sub weirdzo ($?) {
-    # say "hi, from weirdzo on: $?"
+# sub weirdzo ($?) {
+#     # say "hi, from weirdzo on: $?"
+# }
     ## Unsupported use of $? variable; in Raku please use $! for handling child errors also
+
+sub weirdzo ($?a) {
+    # say "hi, from weirdzo on: $?a"
 }
+
 
 weirdzo($?LINE);
