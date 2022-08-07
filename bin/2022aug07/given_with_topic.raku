@@ -6,12 +6,16 @@ use v6;
 
 
 given 32 {
-    say $_;
+    say $_;  # 32
     }
 
 
-given 32 {
-    $_ = 23;
+# given 32 {
+#     $_ = 23;  # Cannot assign to an immutable value
+#     say $_;
+#     }
+
+given 32 is copy {
+    $_ = 23;  # Cannot assign to an immutable value
     say $_;
     }
-
