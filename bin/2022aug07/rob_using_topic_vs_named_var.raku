@@ -26,12 +26,13 @@ sub named( $c --> Int ) {
 
 
 sub simpler( $c --> Int ) {
+    
 
 }
 
 
 
-for 32 {
+for 32 {  ## given better than for
     say .&topic;  # 55 
     say .&named;  # 55
 } 
