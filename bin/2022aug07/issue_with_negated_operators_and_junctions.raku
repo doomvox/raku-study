@@ -5,3 +5,6 @@
 use v6;
 
 
+# Marton Polgar 
+
+(1, 2, 3, 5, 14, 98).all < 1;
