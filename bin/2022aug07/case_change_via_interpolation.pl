@@ -76,7 +76,6 @@ say "\U$a\Lho";  # ho
   say uc($ss);
   say ucfirst($ss);
   say lc($ss);
-
 }
 
 
