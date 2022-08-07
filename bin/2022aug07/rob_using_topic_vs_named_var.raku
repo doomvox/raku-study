@@ -26,10 +26,10 @@ sub named( $c --> Int ) {
 
 
 sub simpler( $c --> Int ) {
-    $c += $c.flip;
-    say $c;
+#     $c += $c.flip;  #  Cannot assign to a readonly variable or a value
+#     say $c;
+      return $c + $c.flip;
 }
-
 say simpler( 910 );
 
 
