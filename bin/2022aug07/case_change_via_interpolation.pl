@@ -67,7 +67,7 @@ say $a = "hey";
 say "\U$a\Lho";  # HEYho 
 
 $a = '';
-say "\U$a\Lho";  # HEYho 
+say "\U$a\Lho";  # 
 
 
 ### end main, into the subs
