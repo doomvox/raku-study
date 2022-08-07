@@ -1,20 +1,21 @@
-- [meeting notes August 07, 2022](#orgd7fd1cc)
-  - [the raku study group](#org46a2160)
-  - [current topics](#orgd081d91)
-    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#orgee74005)
-  - [earlier topics](#orgd17198a)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orgb6a1696)
-  - [announcements](#org6a18ff9)
-    - [August 13th & 14th: online raku conference](#org2a6ee11)
-    - [August 21st: the next raku study group meeting&#x2026; but I might not make it.](#org1665e7e)
+- [meeting notes August 07, 2022](#org034c6b0)
+  - [the raku study group](#orga70f84e)
+  - [current topics](#org6513c57)
+    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#org3445df2)
+    - [](#org204bd0f)
+  - [earlier topics](#orgaceaeff)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org7f9c1d6)
+  - [announcements](#orgf98fdb8)
+    - [August 13th & 14th: online raku conference](#orgc8dd22c)
+    - [August 21st: the next raku study group meeting&#x2026; but I might not make it.](#org37f848b)
 
 
-<a id="orgd7fd1cc"></a>
+<a id="org034c6b0"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="org46a2160"></a>
+<a id="orga70f84e"></a>
 
 ## the raku study group
 
@@ -29,22 +30,27 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug07>
 
 
-<a id="orgd081d91"></a>
+<a id="org6513c57"></a>
 
 ## current topics
 
 
-<a id="orgee74005"></a>
+<a id="org3445df2"></a>
 
 ### perl5 perl-porters: \U\L interpolation contructs don't work well together
 
 
-<a id="orgd17198a"></a>
+<a id="org204bd0f"></a>
+
+### 
+
+
+<a id="orgaceaeff"></a>
 
 ## earlier topics
 
 
-<a id="orgb6a1696"></a>
+<a id="org7f9c1d6"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -59,12 +65,12 @@
     <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
 
 
-<a id="org6a18ff9"></a>
+<a id="orgf98fdb8"></a>
 
 ## announcements
 
 
-<a id="org2a6ee11"></a>
+<a id="orgc8dd22c"></a>
 
 ### August 13th & 14th: online raku conference
 
@@ -77,6 +83,6 @@
     1.  <https://conf.raku.org/talk/181>
 
 
-<a id="org1665e7e"></a>
+<a id="org37f848b"></a>
 
 ### August 21st: the next raku study group meeting&#x2026; but I might not make it.
