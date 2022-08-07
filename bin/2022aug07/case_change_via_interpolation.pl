@@ -57,9 +57,9 @@ GetOptions ("d|debug"    => \$DEBUG,
 
 say "\Uhey";  # HEY
 
-say "\Uhey\Lho";
+say "\Uhey\Lho"; # HEYho
 
-
+say "\U\Lho"; # HEYho
 
 
 ### end main, into the subs
