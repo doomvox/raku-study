@@ -12,6 +12,9 @@
 **** gradual types for gradually cleaning up data
 **** https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/
 
+
+
+
 ** earlier topics
 *** regex feature: control what's captured with <( ... )>
 ***** <( isn't really equivalent to \K in a substitution
