@@ -18,4 +18,4 @@ given 32 {
 for 32 -> $_ is copy  {
     $_ = 23;  
     say $_;
-    }
+}
