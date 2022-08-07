@@ -7,10 +7,10 @@ use v6;
 say "abc".flip;  # cba
 say 123.flip;    # 321
 
-say topic("123");    
-say named("123");
+say topic("123");  # 444
+say named("123");  # 444
 
-say 123 + 321;
+say 123 + 321;  # 444
 
 
 sub topic( $c --> Int ) {
@@ -25,6 +25,6 @@ sub named( $c --> Int ) {
 }
 
 for 32 {
-    say .&topic;
-    say .&named;
+    say .&topic;  # 55 
+    say .&named;  # 55
 } 
