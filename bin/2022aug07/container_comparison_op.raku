@@ -20,10 +20,10 @@ say $a =:= (Mu);   # False
 say $a =:= 23;     # False   
 
 
-say  infix:<=:=>(Mu); # True
-# Cannot resolve caller infix:<=:=>(Mu:U); none of these signatures match:
-#     ($?)
-#     (Mu \a, Mu \b)
+# say  infix:<=:=>(Mu); # True
+# # Cannot resolve caller infix:<=:=>(Mu:U); none of these signatures match:
+# #     ($?)
+# #     (Mu \a, Mu \b)
 
 say "$?FILE: $?LINE"; # OUTPUT: "hello.p6: 23" 
                       # if this is the line 23 of a 
