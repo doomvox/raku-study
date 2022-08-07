@@ -4,6 +4,10 @@
 
 use v6;
 
+say "abc".flip;
+say 123.flip;
+
+
 say topic("123");
 say named("123");
 
