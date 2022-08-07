@@ -76,7 +76,6 @@ say "\U$a\Lho";  # ho
 #   #  sharp s , unicode 00DF  lowercase
 #   my $ss = "ß";
 
-
   my $ss = "ẞ";
 
   say $ss;
