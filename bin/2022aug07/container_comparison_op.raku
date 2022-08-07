@@ -11,6 +11,8 @@ use v6;
 say infix:<=:=>(42);    # True
 say infix:<=:=>(False); # True
 
+say (Mu) =:= (Mu); # True
+
 
 say infix:<=:=>(Mu); # True
 # Cannot resolve caller infix:<=:=>(Mu:U); none of these signatures match:
@@ -18,4 +20,4 @@ say infix:<=:=>(Mu); # True
 #     (Mu \a, Mu \b)
 
 
-(Mu) =:= (Mu); # True
+
