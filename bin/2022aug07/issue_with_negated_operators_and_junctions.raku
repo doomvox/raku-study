@@ -27,3 +27,7 @@ say so
 ## equiv to
 say so
   !( (1, 2, 3, 5, 14, 98).all == 3 );  # we *hope* this is False, but: True
+
+
+say so
+   (1, 2, 3, 5, 14, 98).all +< 100 );  # 
