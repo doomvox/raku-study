@@ -24,6 +24,13 @@ sub named( $c --> Int ) {
     $d += $d.flip;
 }
 
+
+sub simpler( $c --> Int ) {
+
+}
+
+
+
 for 32 {
     say .&topic;  # 55 
     say .&named;  # 55
