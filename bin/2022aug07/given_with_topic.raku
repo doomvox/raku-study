@@ -16,6 +16,6 @@ given 32 {
 #     }
 
 given 32 is copy {
-    $_ = 23;  # Cannot assign to an immutable value
+    $_ = 23;  
     say $_;
     }
