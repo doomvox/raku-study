@@ -4,7 +4,7 @@
 
 use v6;
 
-say infix:<=:=> (Mu)
+say infix:<=:=> (Mu);
 
 my $a = 1;
 
