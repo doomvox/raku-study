@@ -15,6 +15,7 @@
 **** little things
 **** and why did they do this?
 *** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
 
 ** earlier topics
 *** regex feature: control what's captured with <( ... )>

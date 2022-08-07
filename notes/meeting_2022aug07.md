@@ -1,23 +1,23 @@
-- [meeting notes August 07, 2022](#orge1ba566)
-  - [the raku study group](#orgda1b088)
-  - [current topics](#org3cf46ae)
-    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#orgae0d3bd)
-    - [raku for data science](#orgc0a81a8)
-    - [rob ransbottom:](#org8ac4106)
-    - [weekly challenge](#org0175d02)
-  - [earlier topics](#orga52e5a0)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orgbb94bfc)
-  - [announcements](#org49d101c)
-    - [August 13th & 14th: online raku conference](#org080e4e9)
-    - [August 21st: the next raku study group meeting&#x2026; but I might not make it.](#org6c153dd)
+- [meeting notes August 07, 2022](#orge9d2483)
+  - [the raku study group](#orge49c757)
+  - [current topics](#org0c04001)
+    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#org1c544b3)
+    - [raku for data science](#orga7c3a32)
+    - [rob ransbottom:](#orgc14eaa5)
+    - [weekly challenge](#org45b430d)
+  - [earlier topics](#org8b49404)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org274bb0f)
+  - [announcements](#orge60b0d1)
+    - [August 13th & 14th: online raku conference](#org183185a)
+    - [August 21st: the next raku study group meeting&#x2026; but I might not make it.](#orgacdfb20)
 
 
-<a id="orge1ba566"></a>
+<a id="orge9d2483"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="orgda1b088"></a>
+<a id="orge49c757"></a>
 
 ## the raku study group
 
@@ -32,17 +32,17 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug07>
 
 
-<a id="org3cf46ae"></a>
+<a id="org0c04001"></a>
 
 ## current topics
 
 
-<a id="orgae0d3bd"></a>
+<a id="org1c544b3"></a>
 
 ### perl5 perl-porters: \U\L interpolation contructs don't work well together
 
 
-<a id="orgc0a81a8"></a>
+<a id="orga7c3a32"></a>
 
 ### raku for data science
 
@@ -51,7 +51,7 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="org8ac4106"></a>
+<a id="orgc14eaa5"></a>
 
 ### rob ransbottom:
 
@@ -60,17 +60,19 @@
 2.  and why did they do this?
 
 
-<a id="org0175d02"></a>
+<a id="org45b430d"></a>
 
 ### weekly challenge
 
+1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1>
 
-<a id="orga52e5a0"></a>
+
+<a id="org8b49404"></a>
 
 ## earlier topics
 
 
-<a id="orgbb94bfc"></a>
+<a id="org274bb0f"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -85,12 +87,12 @@
     <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
 
 
-<a id="org49d101c"></a>
+<a id="orge60b0d1"></a>
 
 ## announcements
 
 
-<a id="org080e4e9"></a>
+<a id="org183185a"></a>
 
 ### August 13th & 14th: online raku conference
 
@@ -103,6 +105,6 @@
     1.  <https://conf.raku.org/talk/181>
 
 
-<a id="org6c153dd"></a>
+<a id="orgacdfb20"></a>
 
 ### August 21st: the next raku study group meeting&#x2026; but I might not make it.
