@@ -63,6 +63,10 @@ say "\U\Lho";
 # syntax error at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/case_change_via_interpolation.pl line 62, near "\U\L"
 
 
+say $a = "hey";
+say "\U$a\Lho"; 
+
+
 ### end main, into the subs
 
 sub say_usage {
