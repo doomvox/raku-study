@@ -8,7 +8,7 @@
 
 ** current topics
 *** perl5 perl-porters: \U\L interpolation contructs don't work well together
-*** raku for data science  (one for next time)
+*** TODO raku for data science  (one for next time)
 **** gradual types for gradually cleaning up data
 **** https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/
 *** rob ransbottom:
@@ -21,7 +21,7 @@
 **** .none %% 2 vs  .all  !%% 2 
 **** an issue marton cares about: gave us links to discussions
 
-*** william michels, corrupt json handling (maybe next week)
+*** TODO william michels, corrupt json handling (maybe next week)
 **** https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180
 
 ** earlier topics
