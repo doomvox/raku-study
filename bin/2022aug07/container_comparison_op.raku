@@ -10,8 +10,6 @@ use v6;
 
 # say infix:<=:=> $a;
 
-
-
 say infix:<=:=>(42);    # True
 say infix:<=:=>(False); # True
 
