@@ -4,8 +4,8 @@
 
 use v6;
 
-say "abc".flip;
-say 123.flip;
+say "abc".flip;  # cba
+say 123.flip;    # 321
 
 
 say topic("123");
