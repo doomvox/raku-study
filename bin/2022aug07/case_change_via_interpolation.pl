@@ -55,8 +55,9 @@ GetOptions ("d|debug"    => \$DEBUG,
 { no warnings 'once'; $DB::single = 1; }
 
 
-say "\Uhey";
+say "\Uhey";  # HEY
 
+say "\Uhey\Lho";
 
 
 
