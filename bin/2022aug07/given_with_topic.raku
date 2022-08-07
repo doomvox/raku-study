@@ -27,13 +27,18 @@ given 32 -> $_ is copy  {
 }
 
 
-# Bruce Gray cases: 
-# raku -e 'my @a = 1, 2; for @a { $_ += 40 }; say @a'
-# [41 42]
-# raku -e 'my @a = 1, 2; for @a -> $a { $a += 40 }; say @a'
-# Cannot assign to a readonly variable or a value 
+{
+    # Bruce Gray cases: 
+    # raku -e 'my @a = 1, 2; for @a { $_ += 40 }; say @a'
+    # [41 42]
+    # raku -e 'my @a = 1, 2; for @a -> $a { $a += 40 }; say @a'
+    # Cannot assign to a readonly variable or a value 
 
 
-my @a = 1, 2;
-for @a { $_ += 40 };
-say @a;
+    my @a = 1, 2;
+    for @a { $_ += 40 };
+    say @a;  # [41 42]
+
+    my @a = 1, 2; for @a -> $a { $a += 40 }; say @a
+
+}
