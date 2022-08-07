@@ -21,8 +21,8 @@
 **** .none %% 2 vs  .all  !%% 2 
 **** an issue marton cares about: gave us links to discussions
 
-*** https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180
-
+*** william michels, corrupt json handling
+https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180
 
 ** earlier topics
 *** regex feature: control what's captured with <( ... )>
