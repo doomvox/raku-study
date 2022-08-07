@@ -35,3 +35,5 @@ say "$?FILE: $?LINE"; # OUTPUT: "hello.p6: 23"
 sub weirdzo ($?) {
     say "hi, from weirdzo on: $?"
 }
+
+weirdzo($?LINE);
