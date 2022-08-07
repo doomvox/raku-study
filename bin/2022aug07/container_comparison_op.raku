@@ -55,6 +55,14 @@ say "$?FILE: $?LINE"; # OUTPUT: "hello.p6: 23"
 # Parameters with a '?' twigil, like '$?LINE', are not allowed in
 # signatures.
 
+## Used here:
+## https://github.com/rakudo/rakudo/blob/master/src/core.c/hash_slice.pm6 
+
+# /home/doom/End/Cave/Raku/Wall/rakudo/gen/moar/Grammar.nqp
+
+# 15:56 < lizmat> $ means a required positional in which we're not interested, so we didn't bother to give it a name
+# 15:56 < lizmat> $? is an optional positional in which we're not interested, also without name 
+
 
 
 weirdzo($?LINE);
