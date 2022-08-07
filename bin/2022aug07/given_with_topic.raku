@@ -17,5 +17,11 @@ given 32 {
 
 for 32 -> $_ is copy  {
     $_ = 23;  
-    say $_;
+    say $_;  # 23
+}
+
+
+given 32 -> $_ is copy  {
+    $_ = 23;  
+    say $_;  # 23
 }
