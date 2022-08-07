@@ -4,8 +4,13 @@
 
 use v6;
 
-say infix:<=:=> (Mu);
+# say infix:<=:=> (Mu);
 
-my $a = 1;
+# my $a = 1;
 
-say infix:<=:=> $a;
+# say infix:<=:=> $a;
+
+
+
+say infix:<=:=>(42);    # OUTPUT: «True␤» 
+say infix:<=:=>(False); # OUTPUT: «True␤» 
