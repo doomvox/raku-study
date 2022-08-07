@@ -4,6 +4,9 @@
 
 use v6;
 
+say topic("hello");
+say named("hello");
+
 sub topic( $c --> Int ) {
     $_ = $c;
     $_ += .flip;
