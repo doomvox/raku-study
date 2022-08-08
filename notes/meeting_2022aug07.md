@@ -1,27 +1,27 @@
-- [meeting notes August 07, 2022](#org0579d9e)
-  - [the raku study group](#org9cdd7d1)
-  - [current topics](#org5eb8a17)
-    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#org1d33d22)
-    - [rob ransbottom:](#org4009f67)
-    - [weekly challenge](#org5c067f6)
-    - [substr-rw](#org1fbfee8)
-    - [Grammar.nqp](#orgb2664fd)
-  - [topics for next time](#orge17c36e)
-    - [raku for data science  (one for next time)](#org9ede474)
-    - [william michels, corrupt json handling (maybe next week)](#orgf33935d)
-  - [earlier topics](#orgdcaaa6d)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orge6068c6)
-  - [announcements](#org0b3b017)
-    - [August 13th & 14th: online raku conference](#org5699546)
-    - [August 21st: the next raku study group meeting](#org77ec488)
+- [meeting notes August 07, 2022](#orgfce1887)
+  - [the raku study group](#org8dda494)
+  - [current topics](#org3bcc08c)
+    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#org90a504c)
+    - [rob ransbottom:](#orgc5c79c7)
+    - [weekly challenge](#orgbb953c2)
+    - [substr-rw](#org1e00293)
+    - [Grammar.nqp](#org3a46b8c)
+  - [topics for next time](#orgc58a3b0)
+    - [raku for data science  (one for next time)](#org96693b4)
+    - [william michels, corrupt json handling (maybe next week)](#org902689b)
+  - [earlier topics](#org57d5b2c)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org9624504)
+  - [announcements](#orgdd1b223)
+    - [August 13th & 14th: online raku conference](#org3d4fe2e)
+    - [August 21st: the next raku study group meeting](#orgc703eed)
 
 
-<a id="org0579d9e"></a>
+<a id="orgfce1887"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="org9cdd7d1"></a>
+<a id="org8dda494"></a>
 
 ## the raku study group
 
@@ -36,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug07>
 
 
-<a id="org5eb8a17"></a>
+<a id="org3bcc08c"></a>
 
 ## current topics
 
 
-<a id="org1d33d22"></a>
+<a id="org90a504c"></a>
 
 ### perl5 perl-porters: \U\L interpolation contructs don't work well together
 
@@ -52,7 +52,7 @@
         1.  <https://medium.com/@typefacts/the-german-capital-letter-eszett-e0936c1388f8>
 
 
-<a id="org4009f67"></a>
+<a id="orgc5c79c7"></a>
 
 ### rob ransbottom:
 
@@ -114,7 +114,7 @@
             ```
 
 
-<a id="org5c067f6"></a>
+<a id="orgbb953c2"></a>
 
 ### weekly challenge
 
@@ -123,7 +123,7 @@
 2.  <https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-176/challenge-176/bruce-gray>
 
 
-<a id="org1fbfee8"></a>
+<a id="org1e00293"></a>
 
 ### substr-rw
 
@@ -131,8 +131,12 @@
 
     1.  as with perl's dual usage "substr"
 
+2.  not to be confused with the deprecated
 
-<a id="orgb2664fd"></a>
+    1.  <https://docs.raku.org/routine/subst-mutate>
+
+
+<a id="org3a46b8c"></a>
 
 ### Grammar.nqp
 
@@ -151,12 +155,12 @@
     2.  <https://vrurg.github.io/arfb-publication/03-containers-and-symbols/>
 
 
-<a id="orge17c36e"></a>
+<a id="orgc58a3b0"></a>
 
 ## topics for next time
 
 
-<a id="org9ede474"></a>
+<a id="org96693b4"></a>
 
 ### TODO raku for data science  (one for next time)
 
@@ -165,19 +169,19 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="orgf33935d"></a>
+<a id="org902689b"></a>
 
 ### TODO william michels, corrupt json handling (maybe next week)
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="orgdcaaa6d"></a>
+<a id="org57d5b2c"></a>
 
 ## earlier topics
 
 
-<a id="orge6068c6"></a>
+<a id="org9624504"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -192,12 +196,12 @@
     <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
 
 
-<a id="org0b3b017"></a>
+<a id="orgdd1b223"></a>
 
 ## announcements
 
 
-<a id="org5699546"></a>
+<a id="org3d4fe2e"></a>
 
 ### August 13th & 14th: online raku conference
 
@@ -210,7 +214,7 @@
     1.  <https://conf.raku.org/talk/181>
 
 
-<a id="org77ec488"></a>
+<a id="orgc703eed"></a>
 
 ### August 21st: the next raku study group meeting
 
