@@ -1,26 +1,26 @@
-- [meeting notes August 07, 2022](#org471be2e)
-  - [the raku study group](#orgf683a75)
-  - [current topics](#orgda103ff)
-    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#org383a1c4)
-    - [rob ransbottom:](#org8edff29)
-    - [weekly challenge](#orgbb1a308)
-    - [Grammar.nqp](#org1d36e55)
-  - [topics for next time](#orgd5af946)
-    - [raku for data science  (one for next time)](#org9c403bc)
-    - [william michels, corrupt json handling (maybe next week)](#org716a494)
-  - [earlier topics](#org70b2c48)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org66603ce)
-  - [announcements](#org4adad6a)
-    - [August 13th & 14th: online raku conference](#org66f7912)
-    - [August 21st: the next raku study group meeting](#org8ccff3a)
+- [meeting notes August 07, 2022](#org975adf2)
+  - [the raku study group](#org12e7017)
+  - [current topics](#orga3fbfb6)
+    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#org08f19c3)
+    - [rob ransbottom:](#org209d846)
+    - [weekly challenge](#org1324678)
+    - [Grammar.nqp](#org704b4f3)
+  - [topics for next time](#org375f14e)
+    - [raku for data science  (one for next time)](#org69c9816)
+    - [william michels, corrupt json handling (maybe next week)](#org8bbfdc4)
+  - [earlier topics](#org8d13e49)
+    - [regex feature: control what's captured with <( &#x2026; )>](#orgf373fe9)
+  - [announcements](#org0a9d2f0)
+    - [August 13th & 14th: online raku conference](#org9551873)
+    - [August 21st: the next raku study group meeting](#org10cebb5)
 
 
-<a id="org471be2e"></a>
+<a id="org975adf2"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="orgf683a75"></a>
+<a id="org12e7017"></a>
 
 ## the raku study group
 
@@ -35,19 +35,23 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug07>
 
 
-<a id="orgda103ff"></a>
+<a id="orga3fbfb6"></a>
 
 ## current topics
 
 
-<a id="org383a1c4"></a>
+<a id="org08f19c3"></a>
 
 ### perl5 perl-porters: \U\L interpolation contructs don't work well together
 
 1.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/case<sub>change</sub><sub>via</sub><sub>interpolation.pl</sub>
 
+    1.  tried to play with the "sharp s"
+    
+        1.  <https://medium.com/@typefacts/the-german-capital-letter-eszett-e0936c1388f8>
 
-<a id="org8edff29"></a>
+
+<a id="org209d846"></a>
 
 ### rob ransbottom:
 
@@ -109,14 +113,14 @@
             ```
 
 
-<a id="orgbb1a308"></a>
+<a id="org1324678"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1>
 
 
-<a id="org1d36e55"></a>
+<a id="org704b4f3"></a>
 
 ### Grammar.nqp
 
@@ -135,12 +139,12 @@
     2.  <https://vrurg.github.io/arfb-publication/03-containers-and-symbols/>
 
 
-<a id="orgd5af946"></a>
+<a id="org375f14e"></a>
 
 ## topics for next time
 
 
-<a id="org9c403bc"></a>
+<a id="org69c9816"></a>
 
 ### TODO raku for data science  (one for next time)
 
@@ -149,19 +153,19 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="org716a494"></a>
+<a id="org8bbfdc4"></a>
 
 ### TODO william michels, corrupt json handling (maybe next week)
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="org70b2c48"></a>
+<a id="org8d13e49"></a>
 
 ## earlier topics
 
 
-<a id="org66603ce"></a>
+<a id="orgf373fe9"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -176,12 +180,12 @@
     <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
 
 
-<a id="org4adad6a"></a>
+<a id="org0a9d2f0"></a>
 
 ## announcements
 
 
-<a id="org66f7912"></a>
+<a id="org9551873"></a>
 
 ### August 13th & 14th: online raku conference
 
@@ -194,7 +198,7 @@
     1.  <https://conf.raku.org/talk/181>
 
 
-<a id="org8ccff3a"></a>
+<a id="org10cebb5"></a>
 
 ### August 21st: the next raku study group meeting
 
