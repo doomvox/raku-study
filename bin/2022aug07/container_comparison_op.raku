@@ -20,7 +20,7 @@ say $a =:= (Mu);   # False
 say $a =:= 23;     # False   
 
 
-# say  infix:<=:=>(Mu); # True
+# say  infix:<=:=>(Mu); 
 # # Cannot resolve caller infix:<=:=>(Mu:U); none of these signatures match:
 # #     ($?)
 # #     (Mu \a, Mu \b)
