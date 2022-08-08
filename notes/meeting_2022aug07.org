@@ -53,6 +53,11 @@ say  infix:<=:=>(Mu);
 #+BEGIN_SRC raku
 .all  !%% 2 
 #+END_SRC
+****** archived irc discussion, larry wall on "english" understanding:
+******* https://colabti.org/irclogger/irclogger_log/perl6?date=2016-08-21#l51
+****** github issue:
+******* https://github.com/rakudo/rakudo/issues/3748
+
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
