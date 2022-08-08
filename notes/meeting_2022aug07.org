@@ -35,8 +35,6 @@ say  infix:<=:=>(Mu);
 ***** but there are cases where the ? *is* a twigil (nasty source of confusion)
 ****** https://docs.raku.org/language/variables#Compile-time_variables
 
-
-
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
 
