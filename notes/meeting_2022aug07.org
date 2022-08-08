@@ -31,6 +31,9 @@ say  infix:<=:=>(Mu);
 
 ***** lizmat explains the ? isn't a twigil, it indicates it's *optional*
 ****** one example: https://github.com/rakudo/rakudo/blob/master/src/core.c/hash_slice.pm6
+******* "$ means a required positional in which we're not interested, so we didn't bother to give it a name'
+******* "$? is an optional positional in which we're not interested, also without name"
+
 
 ***** but there are cases where the ? *is* a twigil (nasty source of confusion)
 ****** https://docs.raku.org/language/variables#Compile-time_variables
