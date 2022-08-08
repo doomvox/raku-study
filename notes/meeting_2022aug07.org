@@ -53,10 +53,10 @@ say  infix:<=:=>(Mu);
 **** https://github.com/rakudo/rakudo/blob/master/src/Perl6/Grammar.nqp
 ***** locally: /home/doom/End/Cave/Raku/Wall/rakudo/gen/moar/Grammar.nqp
 **** has some features I'm unfamiliar with, e.g. ":my $blah" inside a grammar
-**** had trouble 
-
-
-https://vrurg.github.io/arfb-publication/03-containers-and-symbols/
+**** had trouble seeing what "token comp_unit" does, exactly
+**** TODO tbr:
+***** https://vrurg.github.io/arfb.html
+***** https://vrurg.github.io/arfb-publication/03-containers-and-symbols/
 
 
 ** topics for next time
