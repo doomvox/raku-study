@@ -15,9 +15,9 @@
 *** rob ransbottom:
 **** a little thing: inadvertantly calling a method on $_, forgot the variable 
 ***** a raku drawback: that can't be a bug, because there's always a $_
-***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/rob_using_topic_vs_named_var.raku
+***** https://github.com/doomvox/raku-study/tree/main/bin/2022aug07rob_using_topic_vs_named_var.raku
 **** and why did they do this: you can use container comparison with a single argument
-***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/container_comparison_op.raku
+***** https://github.com/doomvox/raku-study/tree/main/bin/2022aug07container_comparison_op.raku
 ***** using notation infix:< ... >
 
 #+BEGIN_SRC raku
@@ -37,7 +37,7 @@ say  infix:<=:=>(Mu);
 ****** https://docs.raku.org/language/variables#Compile-time_variables
 
 ***** Márton Polgár: junctions and negated operators (a bad raku trap)
-****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/issue_with_negated_operators_and_junctions.raku
+****** https://github.com/doomvox/raku-study/tree/main/bin/2022aug07/issue_with_negated_operators_and_junctions.raku
 ****** really should be docummented on the traps page
 
 *** weekly challenge
