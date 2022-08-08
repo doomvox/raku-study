@@ -23,7 +23,7 @@
 say infix:<=:=>(42);    # True
 #+END_SRC
 
-**** 
+**** some error messages refer to a signature: ($?)
 
 #+BEGIN_SRC raku
 say  infix:<=:=>(Mu); 
