@@ -40,5 +40,6 @@ https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-l
 **** Red, an ORM for Raku
 ***** https://conf.raku.org/talk/181
 
-*** August 21st: the next raku study group meeting... but I might not make it.
+*** August 21st: the next raku study group meeting... 
+**** If I can't make it, feel free to show up and do what you like with the meeting...
 
