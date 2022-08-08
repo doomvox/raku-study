@@ -38,6 +38,7 @@ say  infix:<=:=>(Mu);
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
 
+
 *** negation with junctions goes outside the junction
 **** .none %% 2 vs  .all  !%% 2 
 **** an issue marton cares about: gave us links to discussions
