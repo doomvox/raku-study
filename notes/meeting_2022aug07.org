@@ -24,13 +24,18 @@ say infix:<=:=>(42);    # True
 #+END_SRC
 
 **** some error messages refer to a signature: ($?)
-
 #+BEGIN_SRC raku
 say  infix:<=:=>(Mu); 
  # Cannot resolve caller infix:<=:=>(Mu:U); none of these signatures match:
  #     ($?)
  #     (Mu \a, Mu \b)
 #+END_SRC
+
+***** lizmat explains the ? isn't a twigil, it indicates it's *optional*
+***** but there are cases where the ? *is* a twigil (nasty source of confusion)
+****** https://docs.raku.org/language/variables#Compile-time_variables
+
+
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
