@@ -21,6 +21,11 @@
 #+BEGIN_SRC raku
 say infix:<=:=>(42);    # True
 #+END_SRC
+**** 
+
+#+BEGIN_SRC raku
+
+#+END_SRC
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
