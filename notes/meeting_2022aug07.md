@@ -1,26 +1,27 @@
-- [meeting notes August 07, 2022](#orgd98515d)
-  - [the raku study group](#orgc2cd7f4)
-  - [current topics](#org4970734)
-    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#orgc201bc6)
-    - [rob ransbottom:](#org5bee7f0)
-    - [weekly challenge](#org51d93c2)
-    - [Grammar.nqp](#org3c60843)
-  - [topics for next time](#orgf9474ef)
-    - [raku for data science  (one for next time)](#org6b5cdaa)
-    - [william michels, corrupt json handling (maybe next week)](#orgd591330)
-  - [earlier topics](#orgebb7269)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org4e128d3)
-  - [announcements](#org83f2db1)
-    - [August 13th & 14th: online raku conference](#org02f8775)
-    - [August 21st: the next raku study group meeting](#org32ade53)
+- [meeting notes August 07, 2022](#orgaf6e446)
+  - [the raku study group](#org658b7b4)
+  - [current topics](#org9ee9492)
+    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#org6f8c584)
+    - [rob ransbottom:](#org4d59ec1)
+    - [weekly challenge](#org00017fe)
+    - [substr-rw](#orgc424f07)
+    - [Grammar.nqp](#org6e86437)
+  - [topics for next time](#org2848653)
+    - [raku for data science  (one for next time)](#org35141d8)
+    - [william michels, corrupt json handling (maybe next week)](#org26a1cca)
+  - [earlier topics](#org0291021)
+    - [regex feature: control what's captured with <( &#x2026; )>](#orgb1f13c9)
+  - [announcements](#orgdd51bf5)
+    - [August 13th & 14th: online raku conference](#org3fefaf2)
+    - [August 21st: the next raku study group meeting](#orga6ba665)
 
 
-<a id="orgd98515d"></a>
+<a id="orgaf6e446"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="orgc2cd7f4"></a>
+<a id="org658b7b4"></a>
 
 ## the raku study group
 
@@ -35,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug07>
 
 
-<a id="org4970734"></a>
+<a id="org9ee9492"></a>
 
 ## current topics
 
 
-<a id="orgc201bc6"></a>
+<a id="org6f8c584"></a>
 
 ### perl5 perl-porters: \U\L interpolation contructs don't work well together
 
@@ -51,7 +52,7 @@
         1.  <https://medium.com/@typefacts/the-german-capital-letter-eszett-e0936c1388f8>
 
 
-<a id="org5bee7f0"></a>
+<a id="org4d59ec1"></a>
 
 ### rob ransbottom:
 
@@ -113,7 +114,7 @@
             ```
 
 
-<a id="org51d93c2"></a>
+<a id="org00017fe"></a>
 
 ### weekly challenge
 
@@ -122,7 +123,16 @@
 2.  <https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-176/challenge-176/bruce-gray>
 
 
-<a id="org3c60843"></a>
+<a id="orgc424f07"></a>
+
+### substr-rw
+
+1.  like substr but you can use it on the left-hand side
+
+    1.  as in perl's two-faced "substr"
+
+
+<a id="org6e86437"></a>
 
 ### Grammar.nqp
 
@@ -141,12 +151,12 @@
     2.  <https://vrurg.github.io/arfb-publication/03-containers-and-symbols/>
 
 
-<a id="orgf9474ef"></a>
+<a id="org2848653"></a>
 
 ## topics for next time
 
 
-<a id="org6b5cdaa"></a>
+<a id="org35141d8"></a>
 
 ### TODO raku for data science  (one for next time)
 
@@ -155,19 +165,19 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="orgd591330"></a>
+<a id="org26a1cca"></a>
 
 ### TODO william michels, corrupt json handling (maybe next week)
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="orgebb7269"></a>
+<a id="org0291021"></a>
 
 ## earlier topics
 
 
-<a id="org4e128d3"></a>
+<a id="orgb1f13c9"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -182,12 +192,12 @@
     <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
 
 
-<a id="org83f2db1"></a>
+<a id="orgdd51bf5"></a>
 
 ## announcements
 
 
-<a id="org02f8775"></a>
+<a id="org3fefaf2"></a>
 
 ### August 13th & 14th: online raku conference
 
@@ -200,7 +210,7 @@
     1.  <https://conf.raku.org/talk/181>
 
 
-<a id="org32ade53"></a>
+<a id="orga6ba665"></a>
 
 ### August 21st: the next raku study group meeting
 

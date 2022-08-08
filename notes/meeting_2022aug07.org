@@ -58,6 +58,11 @@ say  infix:<=:=>(Mu);
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
 **** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-176/challenge-176/bruce-gray
 
+
+*** substr-rw
+**** like substr but you can use it on the left-hand side 
+***** as in perl's two-faced "substr"
+
 *** Grammar.nqp
 **** https://github.com/rakudo/rakudo/blob/master/src/Perl6/Grammar.nqp
 ***** locally: /home/doom/End/Cave/Raku/Wall/rakudo/gen/moar/Grammar.nqp
