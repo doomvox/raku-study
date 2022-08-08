@@ -38,6 +38,7 @@ say  infix:<=:=>(Mu);
 
 ***** Márton Polgár: junctions and negated operators (a bad raku trap)
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/issue_with_negated_operators_and_junctions.raku
+****** really should be docummented on the traps page
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
