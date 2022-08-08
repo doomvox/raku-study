@@ -18,9 +18,11 @@
 **** and why did they do this: you can use container comparison with a single argument
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/container_comparison_op.raku
 ***** using notation infix:< ... >
+
 #+BEGIN_SRC raku
 say infix:<=:=>(42);    # True
 #+END_SRC
+
 **** 
 
 #+BEGIN_SRC raku
