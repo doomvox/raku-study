@@ -49,13 +49,8 @@ say  infix:<=:=>(Mu);
 .all  !%% 2 
 #+END_SRC
 
-
-
-
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
-
-**** an issue marton cares about: gave us links to discussions
 
 *** TODO william michels, corrupt json handling (maybe next week)
 **** https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180
