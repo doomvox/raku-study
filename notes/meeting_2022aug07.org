@@ -58,7 +58,6 @@ say  infix:<=:=>(Mu);
 ****** github issue:
 ******* https://github.com/rakudo/rakudo/issues/3748
 
-
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
 **** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-176/challenge-176/bruce-gray
