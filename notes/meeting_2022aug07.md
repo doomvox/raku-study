@@ -1,25 +1,25 @@
-- [meeting notes August 07, 2022](#org621228c)
-  - [the raku study group](#orgd1c6e5d)
-  - [current topics](#org1f9a8a2)
-    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#orge81fc8c)
-    - [raku for data science  (one for next time)](#orgc05f7d9)
-    - [rob ransbottom:](#org7c5e1bf)
-    - [weekly challenge](#org597760c)
-    - [negation with junctions goes outside the junction](#org97368f4)
-    - [william michels, corrupt json handling (maybe next week)](#org2ff8dc3)
-  - [earlier topics](#org142c61c)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orga3254c5)
-  - [announcements](#org2c67c92)
-    - [August 13th & 14th: online raku conference](#orgb9775a3)
-    - [August 21st: the next raku study group meeting&#x2026;](#org32ccc24)
+- [meeting notes August 07, 2022](#orgdf81289)
+  - [the raku study group](#orgda8a0d2)
+  - [current topics](#orgde8063e)
+    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#orgb5f772a)
+    - [raku for data science  (one for next time)](#orgf6e4b47)
+    - [rob ransbottom:](#org4c08372)
+    - [weekly challenge](#org45ccadb)
+    - [negation with junctions goes outside the junction](#orgb0260ff)
+    - [william michels, corrupt json handling (maybe next week)](#orgf1bece0)
+  - [earlier topics](#org72d3f41)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org2036766)
+  - [announcements](#org8721166)
+    - [August 13th & 14th: online raku conference](#org380a86e)
+    - [August 21st: the next raku study group meeting&#x2026;](#org0b9b5b1)
 
 
-<a id="org621228c"></a>
+<a id="orgdf81289"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="orgd1c6e5d"></a>
+<a id="orgda8a0d2"></a>
 
 ## the raku study group
 
@@ -34,17 +34,19 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug07>
 
 
-<a id="org1f9a8a2"></a>
+<a id="orgde8063e"></a>
 
 ## current topics
 
 
-<a id="orge81fc8c"></a>
+<a id="orgb5f772a"></a>
 
 ### perl5 perl-porters: \U\L interpolation contructs don't work well together
 
+1.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/case<sub>change</sub><sub>via</sub><sub>interpolation.pl</sub>
 
-<a id="orgc05f7d9"></a>
+
+<a id="orgf6e4b47"></a>
 
 ### TODO raku for data science  (one for next time)
 
@@ -53,7 +55,7 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="org7c5e1bf"></a>
+<a id="org4c08372"></a>
 
 ### rob ransbottom:
 
@@ -89,14 +91,14 @@
         1.  <https://docs.raku.org/language/variables#Compile-time_variables>
 
 
-<a id="org597760c"></a>
+<a id="org45ccadb"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1>
 
 
-<a id="org97368f4"></a>
+<a id="orgb0260ff"></a>
 
 ### negation with junctions goes outside the junction
 
@@ -105,19 +107,19 @@
 2.  an issue marton cares about: gave us links to discussions
 
 
-<a id="org2ff8dc3"></a>
+<a id="orgf1bece0"></a>
 
 ### TODO william michels, corrupt json handling (maybe next week)
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="org142c61c"></a>
+<a id="org72d3f41"></a>
 
 ## earlier topics
 
 
-<a id="orga3254c5"></a>
+<a id="org2036766"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -132,12 +134,12 @@
     <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
 
 
-<a id="org2c67c92"></a>
+<a id="org8721166"></a>
 
 ## announcements
 
 
-<a id="orgb9775a3"></a>
+<a id="org380a86e"></a>
 
 ### August 13th & 14th: online raku conference
 
@@ -150,7 +152,7 @@
     1.  <https://conf.raku.org/talk/181>
 
 
-<a id="org32ccc24"></a>
+<a id="org0b9b5b1"></a>
 
 ### August 21st: the next raku study group meeting&#x2026;
 

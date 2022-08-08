@@ -8,6 +8,7 @@
 
 ** current topics
 *** perl5 perl-porters: \U\L interpolation contructs don't work well together
+**** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/case_change_via_interpolation.pl
 *** TODO raku for data science  (one for next time)
 **** gradual types for gradually cleaning up data
 **** https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/
