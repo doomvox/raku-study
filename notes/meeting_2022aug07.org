@@ -19,6 +19,7 @@
 #+BEGIN_SRC raku
 say infix:<=:=>(42);    # True
 #+END_SRC
+****** https://docs.raku.org/language/operators#infix_=:=
 
 **** some error messages refer to a signature: ($?)
 #+BEGIN_SRC raku
