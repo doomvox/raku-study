@@ -30,8 +30,7 @@ say  infix:<=:=>(Mu);
 #+END_SRC
 
 ***** lizmat explains the ? isn't a twigil, it indicates it's *optional*
-****** one example:
-https://github.com/rakudo/rakudo/blob/master/src/core.c/hash_slice.pm6
+****** one example: https://github.com/rakudo/rakudo/blob/master/src/core.c/hash_slice.pm6
 
 ***** but there are cases where the ? *is* a twigil (nasty source of confusion)
 ****** https://docs.raku.org/language/variables#Compile-time_variables
