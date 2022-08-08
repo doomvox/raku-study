@@ -48,6 +48,17 @@ say  infix:<=:=>(Mu);
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
 
+
+*** Grammar.nqp
+**** https://github.com/rakudo/rakudo/blob/master/src/Perl6/Grammar.nqp
+***** /home/doom/End/Cave/Raku/Wall/rakudo/gen/moar/Grammar.nqp
+**** has some features I'm unfamiliar with, e.g. ":my $blah" inside a grammar
+**** had trouble 
+
+
+https://vrurg.github.io/arfb-publication/03-containers-and-symbols/
+
+
 ** topics for next time
 *** TODO raku for data science  (one for next time)
 **** gradual types for gradually cleaning up data
