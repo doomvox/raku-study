@@ -37,14 +37,24 @@ say  infix:<=:=>(Mu);
 ****** https://docs.raku.org/language/variables#Compile-time_variables
 
 ***** Márton Polgár: junctions and negated operators (a bad raku trap)
+****** negation with junctions goes outside the junction
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2022aug07/issue_with_negated_operators_and_junctions.raku
 ****** really should be docummented on the traps page
+****** these aren't equivalent
+#+BEGIN_SRC raku
+.none %% 2 
+#+END_SRC
+
+#+BEGIN_SRC raku
+.all  !%% 2 
+#+END_SRC
+
+
+
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
 
-*** negation with junctions goes outside the junction
-**** .none %% 2 vs  .all  !%% 2 
 **** an issue marton cares about: gave us links to discussions
 
 *** TODO william michels, corrupt json handling (maybe next week)
