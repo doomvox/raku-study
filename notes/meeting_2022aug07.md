@@ -1,25 +1,25 @@
-- [meeting notes August 07, 2022](#org9400f2a)
-  - [the raku study group](#orgdaa2066)
-  - [current topics](#org59de4cd)
-    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#org7cd34e4)
-    - [raku for data science  (one for next time)](#org2b1551d)
-    - [rob ransbottom:](#orge029732)
-    - [weekly challenge](#org18848b3)
-    - [negation with junctions goes outside the junction](#org2dfccde)
-    - [william michels, corrupt json handling (maybe next week)](#orgbd3d634)
-  - [earlier topics](#org5af34f6)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orgc8bafa4)
-  - [announcements](#orge3e26a4)
-    - [August 13th & 14th: online raku conference](#org27d3851)
-    - [August 21st: the next raku study group meeting&#x2026;](#orge8bb6b2)
+- [meeting notes August 07, 2022](#orga0bdb3b)
+  - [the raku study group](#orgd797b10)
+  - [current topics](#orgfdd899b)
+    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#orgf4bc701)
+    - [raku for data science  (one for next time)](#orgc9d9dd8)
+    - [rob ransbottom:](#orgd9d6e6d)
+    - [weekly challenge](#org3d36c90)
+    - [negation with junctions goes outside the junction](#org450b088)
+    - [william michels, corrupt json handling (maybe next week)](#org042ff84)
+  - [earlier topics](#org02899a3)
+    - [regex feature: control what's captured with <( &#x2026; )>](#orgb1b2465)
+  - [announcements](#org293d617)
+    - [August 13th & 14th: online raku conference](#org1c3b486)
+    - [August 21st: the next raku study group meeting&#x2026;](#org291ba47)
 
 
-<a id="org9400f2a"></a>
+<a id="orga0bdb3b"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="orgdaa2066"></a>
+<a id="orgd797b10"></a>
 
 ## the raku study group
 
@@ -34,19 +34,19 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug07>
 
 
-<a id="org59de4cd"></a>
+<a id="orgfdd899b"></a>
 
 ## current topics
 
 
-<a id="org7cd34e4"></a>
+<a id="orgf4bc701"></a>
 
 ### perl5 perl-porters: \U\L interpolation contructs don't work well together
 
 1.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/case<sub>change</sub><sub>via</sub><sub>interpolation.pl</sub>
 
 
-<a id="org2b1551d"></a>
+<a id="orgc9d9dd8"></a>
 
 ### TODO raku for data science  (one for next time)
 
@@ -55,7 +55,7 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="orge029732"></a>
+<a id="orgd9d6e6d"></a>
 
 ### rob ransbottom:
 
@@ -90,19 +90,19 @@
     
         1.  <https://docs.raku.org/language/variables#Compile-time_variables>
     
-    3.  Márton Polgár on an raku gotcha with junctions and negated operators
+    3.  Márton Polgár: a raku gotcha with junctions and negated operators
     
         1.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/issue<sub>with</sub><sub>negated</sub><sub>operators</sub><sub>and</sub><sub>junctions.raku</sub>
 
 
-<a id="org18848b3"></a>
+<a id="org3d36c90"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1>
 
 
-<a id="org2dfccde"></a>
+<a id="org450b088"></a>
 
 ### negation with junctions goes outside the junction
 
@@ -111,19 +111,19 @@
 2.  an issue marton cares about: gave us links to discussions
 
 
-<a id="orgbd3d634"></a>
+<a id="org042ff84"></a>
 
 ### TODO william michels, corrupt json handling (maybe next week)
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="org5af34f6"></a>
+<a id="org02899a3"></a>
 
 ## earlier topics
 
 
-<a id="orgc8bafa4"></a>
+<a id="orgb1b2465"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -138,12 +138,12 @@
     <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
 
 
-<a id="orge3e26a4"></a>
+<a id="org293d617"></a>
 
 ## announcements
 
 
-<a id="org27d3851"></a>
+<a id="org1c3b486"></a>
 
 ### August 13th & 14th: online raku conference
 
@@ -156,7 +156,7 @@
     1.  <https://conf.raku.org/talk/181>
 
 
-<a id="orge8bb6b2"></a>
+<a id="org291ba47"></a>
 
 ### August 21st: the next raku study group meeting&#x2026;
 
