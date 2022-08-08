@@ -1,24 +1,25 @@
-- [meeting notes August 07, 2022](#org2bb1f90)
-  - [the raku study group](#org41bbc95)
-  - [current topics](#org319a837)
-    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#orgb31fb9f)
-    - [raku for data science  (one for next time)](#orge1564ee)
-    - [rob ransbottom:](#org54939ac)
-    - [weekly challenge](#orgeb11493)
-    - [william michels, corrupt json handling (maybe next week)](#orgf1dcdc2)
-  - [earlier topics](#org6e8ef29)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orgd6e21c5)
-  - [announcements](#org00d5d17)
-    - [August 13th & 14th: online raku conference](#org42fa108)
-    - [August 21st: the next raku study group meeting&#x2026;](#orgcbcadb3)
+- [meeting notes August 07, 2022](#org8144dea)
+  - [the raku study group](#org9ea8380)
+  - [current topics](#org4d21893)
+    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#orgc3f02ca)
+    - [rob ransbottom:](#org6bdad32)
+    - [weekly challenge](#orgf2677b0)
+  - [topics for next time](#orgd7d15e9)
+    - [raku for data science  (one for next time)](#orgb85083b)
+    - [william michels, corrupt json handling (maybe next week)](#org154efe5)
+  - [earlier topics](#org6962cff)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org88e30c6)
+  - [announcements](#org388fafa)
+    - [August 13th & 14th: online raku conference](#orgddaa111)
+    - [August 21st: the next raku study group meeting&#x2026;](#orgb10c195)
 
 
-<a id="org2bb1f90"></a>
+<a id="org8144dea"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="org41bbc95"></a>
+<a id="org9ea8380"></a>
 
 ## the raku study group
 
@@ -33,28 +34,19 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug07>
 
 
-<a id="org319a837"></a>
+<a id="org4d21893"></a>
 
 ## current topics
 
 
-<a id="orgb31fb9f"></a>
+<a id="orgc3f02ca"></a>
 
 ### perl5 perl-porters: \U\L interpolation contructs don't work well together
 
 1.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/case<sub>change</sub><sub>via</sub><sub>interpolation.pl</sub>
 
 
-<a id="orge1564ee"></a>
-
-### TODO raku for data science  (one for next time)
-
-1.  gradual types for gradually cleaning up data
-
-2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
-
-
-<a id="org54939ac"></a>
+<a id="org6bdad32"></a>
 
 ### rob ransbottom:
 
@@ -108,26 +100,40 @@
             ```
 
 
-<a id="orgeb11493"></a>
+<a id="orgf2677b0"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1>
 
 
-<a id="orgf1dcdc2"></a>
+<a id="orgd7d15e9"></a>
+
+## topics for next time
+
+
+<a id="orgb85083b"></a>
+
+### TODO raku for data science  (one for next time)
+
+1.  gradual types for gradually cleaning up data
+
+2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
+
+
+<a id="org154efe5"></a>
 
 ### TODO william michels, corrupt json handling (maybe next week)
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="org6e8ef29"></a>
+<a id="org6962cff"></a>
 
 ## earlier topics
 
 
-<a id="orgd6e21c5"></a>
+<a id="org88e30c6"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -142,12 +148,12 @@
     <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
 
 
-<a id="org00d5d17"></a>
+<a id="org388fafa"></a>
 
 ## announcements
 
 
-<a id="org42fa108"></a>
+<a id="orgddaa111"></a>
 
 ### August 13th & 14th: online raku conference
 
@@ -160,7 +166,7 @@
     1.  <https://conf.raku.org/talk/181>
 
 
-<a id="orgcbcadb3"></a>
+<a id="orgb10c195"></a>
 
 ### August 21st: the next raku study group meeting&#x2026;
 

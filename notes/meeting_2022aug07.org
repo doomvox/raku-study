@@ -9,9 +9,6 @@
 ** current topics
 *** perl5 perl-porters: \U\L interpolation contructs don't work well together
 **** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/case_change_via_interpolation.pl
-*** TODO raku for data science  (one for next time)
-**** gradual types for gradually cleaning up data
-**** https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/
 *** rob ransbottom:
 **** a little thing: inadvertantly calling a method on $_, forgot the variable 
 ***** a raku drawback: that can't be a bug, because there's always a $_
@@ -51,6 +48,12 @@ say  infix:<=:=>(Mu);
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
+
+** topics for next time
+
+*** TODO raku for data science  (one for next time)
+**** gradual types for gradually cleaning up data
+**** https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/
 
 *** TODO william michels, corrupt json handling (maybe next week)
 **** https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180
