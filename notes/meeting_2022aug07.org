@@ -36,6 +36,10 @@ say  infix:<=:=>(Mu);
 ***** but there are cases where the ? *is* a twigil (nasty source of confusion)
 ****** https://docs.raku.org/language/variables#Compile-time_variables
 
+***** Márton Polgár on an raku gotcha with junctions and negated operators
+****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/issue_with_negated_operators_and_junctions.raku
+
+
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
 
