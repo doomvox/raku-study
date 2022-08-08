@@ -56,7 +56,7 @@ say  infix:<=:=>(Mu);
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
-
+**** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-176/challenge-176/bruce-gray
 
 *** Grammar.nqp
 **** https://github.com/rakudo/rakudo/blob/master/src/Perl6/Grammar.nqp
