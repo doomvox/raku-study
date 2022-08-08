@@ -24,7 +24,10 @@ say infix:<=:=>(42);    # True
 **** 
 
 #+BEGIN_SRC raku
-
+say  infix:<=:=>(Mu); 
+ # Cannot resolve caller infix:<=:=>(Mu:U); none of these signatures match:
+ #     ($?)
+ #     (Mu \a, Mu \b)
 #+END_SRC
 
 *** weekly challenge
