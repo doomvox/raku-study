@@ -61,7 +61,7 @@ say  infix:<=:=>(Mu);
 
 *** substr-rw
 **** like substr but you can use it on the left-hand side 
-***** as in perl's two-faced "substr"
+***** as in perl's dual usage "substr"
 
 *** Grammar.nqp
 **** https://github.com/rakudo/rakudo/blob/master/src/Perl6/Grammar.nqp
