@@ -32,8 +32,6 @@ use Data::Dumper;
       FLAGGED: usage "baby"
      };
 
-index
-
   my $skip1 = index $str, 'FLAGGED:'; 
   $str =~ m{FLAGGED:*?\z}ms;
   my $skip2 = pos;
