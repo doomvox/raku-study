@@ -96,10 +96,10 @@ sub de_sweeten {
   my $lafter = length($str) - $skip2;
   say "   skip2: $skip2, lafter: $lafter";
   say "   ", substr( $str, $skip2, $lafter );
-  substr( $str, $skip2, $lafter )  =~ s{honey}{respected colleague}g;
+  substr( $str, $skip2, $lafter )  =~ s{honey}{$fix}g;
 
   ## modify region before skipped region
-  substr( $str, 0, $skip1 )                         =~ s{honey}{respected colleague}g;
+  substr( $str, 0, $skip1 )                         =~ s{honey}{$fix}g;
 
   return $str;
 }
