@@ -5,7 +5,7 @@
 use v6;
 
 {
-  # Note, I thought Márton Polgár
+  # Note, I thought Márton Polgár said this didn't work in Raku
   my ($a, $b) = (3, 7);
   say "a: $a,  b: $b";    # a: 3,  b: 7
   ($b, $a) = ($a, $b);
