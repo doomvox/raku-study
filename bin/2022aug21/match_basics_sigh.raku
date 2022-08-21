@@ -45,5 +45,7 @@ q{alpha
 
   my $mo = $str.match(/$$/, :pos(7));
   dd $mo;
+  ## Any $mo = Any
+
 
 }
