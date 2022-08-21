@@ -18,10 +18,9 @@ my $DEBUG = 0;
 
 =head1 DESCRIPTION
 
-10-modify_substr_via_subst.pl is a perl script 
-that demos using a substr of a string as the target 
-of a substitution command:  this is one method of 
-restricting the range of a substitution command.
+10-modify_substr_via_subst.pl is a perl script that demos using a
+substr of a string as the target of a substitution command: this is
+one method of restricting the range of a substitution.
 
 Inadvertantly, this also demos a number of perl's accumulated oddities, 
 as well as a number of traps lurking in even the simplest programming 
