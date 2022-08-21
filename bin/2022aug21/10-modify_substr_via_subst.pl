@@ -115,7 +115,7 @@ FLAGGED: usage "honey"
 ENDSTR
 
   my $new_str = 
-    de_sweeten( $str );
+    de_sweeten( $str, 'respected colleague' );
 
  say "---";
   say $new_str;
@@ -132,7 +132,8 @@ FLAGGED: "Ain't" ain't no good, honey
 ENDSTR
 
   my $new_str = 
-    de_sweeten( $str );
+    de_sweeten( $str, 'respected colleague' );
+
 
  say "---";
   say $new_str;
