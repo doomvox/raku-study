@@ -11,8 +11,7 @@ say "properly".match('perl');                     # perl
 say "properly".match(/p.../);                     # prop
 say "1 2 3".match([1,2,3]);                       # 1 2 3
 say "a1xa2".match(/a./, :continue(2));            # a2
-say "abracadabra".match(/ a .* a /, :exhaustive);
-# ｢abracadabra｣ ｢abracada｣ ｢abraca｣ ｢abra｣ ｢acadabra｣ ｢acada｣ ｢aca｣ ｢adabra｣ ｢ada｣ ｢abra｣
+
 say 'several words here'.match(/\w+/,:global);    # ｢several｣ ｢words｣ ｢here｣
 say 'abcdef'.match(/.*/, :pos(2));                # cdef
 say "foo[bar][baz]".match(/../, :1st);            # fo
