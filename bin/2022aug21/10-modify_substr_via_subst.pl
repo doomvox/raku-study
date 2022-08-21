@@ -101,6 +101,7 @@ sub de_sweeten {
 
 
 {
+  # the above code is general enough it doesn't care where the FLAGGED line is
   say "===";
   my $str =<<'ENDSTR';
 Look out honey, cause I'm using technology
