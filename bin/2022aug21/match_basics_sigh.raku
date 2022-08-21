@@ -68,7 +68,7 @@ q{alpha
   beta
   gamma};
 
-  my $mo = $str.match(/$$/, :pos(7));
+  my $mo = $str.match(/$$/, :pos(6));
   dd $mo;
   ## Any $mo = Any
 }
