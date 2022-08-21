@@ -45,7 +45,7 @@ Some notes:
   o  (3) and (4) are done in the reverse order of what you might expect so 
      that the locations of things don't change due to the previous s/// 
 
-  o  Everytime I reach for substr (which isn't often) I expect that both 
+  o  Every time I reach for substr (which isn't often) I expect that both 
      numeric arguments are *positions*, really the first is a position, the 
      second is a length
 
