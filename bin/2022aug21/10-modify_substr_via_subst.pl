@@ -116,6 +116,23 @@ ENDSTR
   say $new_str;
 }
 
+{
+  # the above code is lame enough it only handles the case of a single FLAGGED line
+  say "===";
+  my $str =<<'ENDSTR';
+Look out honey, cause I'm using technology
+FLAGGED: usage "honey"
+Ain't got time to make no apology.
+FLAGGED: "Ain't" ain't no good, honey
+ENDSTR
+
+  my $new_str = 
+    de_sweeten( $str );
+
+ say "---";
+  say $new_str;
+}
+
 
 
 
