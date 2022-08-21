@@ -32,8 +32,9 @@ sub de_sweeten( $str is rw, $fix ) {
 #  my $mo = $str.match(/$$/, :pos( $skip1 ));
   say "str again: $str";
   my $mo = $str.match(/ho/, :continue($skip1));
+  dd $mo;
   dd $/;
-  my $skip2 = $/.to;
+  my $skip2 = $/.from;
   ($DEBUG) && say "skip2: $skip2";
 
   ## modify region *after* skipped region first
