@@ -17,12 +17,6 @@ use v6;
   say "a: $a,  b: $b";    # a: 3,  b: 7
   ($b, $a) = $a, $b;
 
-  # Warns:
-  # Useless use of private variable in void context at 01-twiddle_vars.pl line 37.
-
-  $a = " " unless defined $a;
-  $b = " " unless defined $b;
-
   say "a: $a,  b: $b";   # a:  ,  b: 3
 }
 
