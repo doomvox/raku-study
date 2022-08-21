@@ -42,11 +42,6 @@
 
 
 
-*** weekly challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1
-**** https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-176/challenge-176/bruce-gray
-
-
 *** substr-rw
 **** like substr but you can use it on the left-hand side 
 ***** as with perl's dual usage "substr"

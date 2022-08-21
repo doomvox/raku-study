@@ -1,27 +1,26 @@
-- [meeting notes August 07, 2022](#org6c78b5b)
-  - [the raku study group](#orgdb61b77)
-  - [current topics](#orge66865b)
-    - [one-line twiddle](#orgfa568e6)
-    - [the revenge of the son of the return of junction gotchas](#org9a0cde8)
-    - [weekly challenge](#orgef8840b)
-    - [substr-rw](#orgee5b47a)
-    - [Grammar.nqp](#org8c5f940)
-  - [topics for next time](#org1992968)
-    - [raku for data science  (one for next time)](#org63278b1)
-    - [william michels, corrupt json handling (maybe next week)](#orgd6f6ffb)
-  - [earlier topics](#orgcc795e4)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org49f8e4f)
-  - [announcements](#orgd98fa5d)
-    - [August 13th & 14th: online raku conference](#org2a32bd5)
-    - [August 21st: the next raku study group meeting](#orge9f7bd3)
+- [meeting notes August 07, 2022](#org9ba31df)
+  - [the raku study group](#orgf436440)
+  - [current topics](#org2b0512f)
+    - [one-line twiddle](#orgad01826)
+    - [the revenge of the son of the return of junction gotchas](#org1105b5c)
+    - [substr-rw](#org56a2104)
+    - [Grammar.nqp](#org43d00e1)
+  - [topics for next time](#org20a7bae)
+    - [raku for data science  (one for next time)](#orge1088fe)
+    - [william michels, corrupt json handling (maybe next week)](#org8178aa8)
+  - [earlier topics](#org7c476f3)
+    - [regex feature: control what's captured with <( &#x2026; )>](#orge6a19b5)
+  - [announcements](#orga1ff477)
+    - [August 13th & 14th: online raku conference](#org6856bad)
+    - [August 21st: the next raku study group meeting](#org9046b0d)
 
 
-<a id="org6c78b5b"></a>
+<a id="org9ba31df"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="orgdb61b77"></a>
+<a id="orgf436440"></a>
 
 ## the raku study group
 
@@ -36,12 +35,12 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug21>
 
 
-<a id="orge66865b"></a>
+<a id="org2b0512f"></a>
 
 ## current topics
 
 
-<a id="orgfa568e6"></a>
+<a id="orgad01826"></a>
 
 ### one-line twiddle
 
@@ -62,7 +61,7 @@
     2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/02-twiddle<sub>vars.raku</sub>
 
 
-<a id="org9a0cde8"></a>
+<a id="org1105b5c"></a>
 
 ### the revenge of the son of the return of junction gotchas
 
@@ -95,16 +94,7 @@
             1.  <https://github.com/rakudo/rakudo/issues/3748>
 
 
-<a id="orgef8840b"></a>
-
-### weekly challenge
-
-1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1>
-
-2.  <https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-176/challenge-176/bruce-gray>
-
-
-<a id="orgee5b47a"></a>
+<a id="org56a2104"></a>
 
 ### substr-rw
 
@@ -117,7 +107,7 @@
     1.  <https://docs.raku.org/routine/subst-mutate>
 
 
-<a id="org8c5f940"></a>
+<a id="org43d00e1"></a>
 
 ### Grammar.nqp
 
@@ -136,12 +126,12 @@
     2.  <https://vrurg.github.io/arfb-publication/03-containers-and-symbols/>
 
 
-<a id="org1992968"></a>
+<a id="org20a7bae"></a>
 
 ## topics for next time
 
 
-<a id="org63278b1"></a>
+<a id="orge1088fe"></a>
 
 ### TODO raku for data science  (one for next time)
 
@@ -150,19 +140,19 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="orgd6f6ffb"></a>
+<a id="org8178aa8"></a>
 
 ### TODO william michels, corrupt json handling (maybe next week)
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="orgcc795e4"></a>
+<a id="org7c476f3"></a>
 
 ## earlier topics
 
 
-<a id="org49f8e4f"></a>
+<a id="orge6a19b5"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -177,12 +167,12 @@
     <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
 
 
-<a id="orgd98fa5d"></a>
+<a id="orga1ff477"></a>
 
 ## announcements
 
 
-<a id="org2a32bd5"></a>
+<a id="org6856bad"></a>
 
 ### August 13th & 14th: online raku conference
 
@@ -195,7 +185,7 @@
     1.  <https://conf.raku.org/talk/181>
 
 
-<a id="orge9f7bd3"></a>
+<a id="org9046b0d"></a>
 
 ### August 21st: the next raku study group meeting
 
