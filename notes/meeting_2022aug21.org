@@ -9,6 +9,8 @@
 ** current topics
 *** perl question
 **** https://interglacial.com/tpj/13b/
+
+*** anyone seen Raku conference?
 *** one-line twiddle
 #+BEGIN_SRC cperl
 ($b, $a) = ($a, $b);
