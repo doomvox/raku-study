@@ -100,6 +100,22 @@ sub de_sweeten {
 }
 
 
+{
+  my $str =<<'ENDSTR';
+Look out honey, cause I'm using technology
+Ain't got time to make no apology.
+FLAGGED: usage "honey"
+ENDSTR
+
+  my $new_str = 
+    de_sweeten( $str );
+
+ say "---";
+  say $new_str;
+}
+
+
+
 
 __END__
 
