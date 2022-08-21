@@ -62,7 +62,7 @@ Some notes:
 
   o  go after a cleaner solution if you're so inclined:
      I think a line-oriented solution would be much neater:
-     split on lines, try to change each one, but skipp any 
+     split on lines, try to change each one, but skip any 
      FLAGGED lines.
 
 =cut
