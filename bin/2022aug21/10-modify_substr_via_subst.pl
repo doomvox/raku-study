@@ -32,6 +32,12 @@ use Data::Dumper;
       FLAGGED: usage "baby"
      };
 
+index
+
+  my $skip1 = index $str, 'FLAGGED:'; 
+  $str =~ m{FLAGGED:*?\z}ms;
+
+
   my $a = 25;
   my $off = 19;
   my $b = $a + $off;
