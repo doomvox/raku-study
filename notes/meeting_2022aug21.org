@@ -149,8 +149,6 @@ https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-l
 *** August 13th & 14th: online raku conference
 **** https://conf.raku.org/
 **** https://conf.raku.org/2022/schedule
-**** Red, an ORM for Raku
-***** https://conf.raku.org/talk/181
 
 *** September 11th: the next raku study group meeting
 **** skipping labor day weekend
