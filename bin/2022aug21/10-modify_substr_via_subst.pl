@@ -63,13 +63,19 @@ Look out honey, cause I'm using technology
 FLAGGED: usage "honey"
 Ain't got time to make no apology.
 ENDSTR
+
+  de_sweeten( $str );
+
+}
+
+sub de_sweeten {
   say length( $str );
 
   ## Find where FLAGGED line begins
   my $skip1 = index $str, 'FLAGGED:'; 
   ## Find where FLAGGED line ends
   my $skip2;
-  if( $str =~ m{FLAGGED:.*?$}msg ) {
+  if ( $str =~ m{FLAGGED:.*?$}msg ) {
     say "   successful search for end of flagged line";
     $skip2 = pos($str);
   }
@@ -88,10 +94,8 @@ ENDSTR
 
   say "---";
   say $str;
+
 }
-
-
-
 
 
 
