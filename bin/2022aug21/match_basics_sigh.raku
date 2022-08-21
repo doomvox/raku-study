@@ -107,5 +107,7 @@ q{alpha
   my $mo = $str.match(/ane/);
   dd $mo;
   # Match $mo = Match.new(:orig("The reign insane is about to wane."), :from(13), :pos(16))
+
+  say $mo.from;
 }
 
