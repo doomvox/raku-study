@@ -66,6 +66,16 @@
 ******* https://github.com/rakudo/rakudo/issues/3748
 
 
+****** examples of messing with junctions (local links for now, github left as an exercise):
+
+******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/basic_junctions.pl6
+
+******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021feb21/simon_proctor_range_setops.pl6
+
+******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021may16/file_find.raku
+
+******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021may30/file_find_with_junction_as_exclude.raku
+
 *** review of some suggested reading
 **** https://vrurg.github.io/arfb.html
 **** https://vrurg.github.io/arfb-publication/03-containers-and-symbols/
