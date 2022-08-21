@@ -64,11 +64,16 @@ FLAGGED: usage "honey"
 Ain't got time to make no apology.
 ENDSTR
 
-  de_sweeten( $str );
+  my $new_str = 
+    de_sweeten( $str );
+
+ say "---";
+  say $new_str;
 
 }
 
 sub de_sweeten {
+  my $str = shift;
   say length( $str );
 
   ## Find where FLAGGED line begins
@@ -92,9 +97,7 @@ sub de_sweeten {
   ## modify region before skipped region
   substr( $str, 0, $skip1 )                         =~ s{honey}{respected colleague}g;
 
-  say "---";
-  say $str;
-
+  return $str;
 }
 
 
