@@ -63,6 +63,7 @@ q{alpha
 
 {
   # so, why is a match on /$$/ failing?
+  # if you're right on the line boundary, it does match
   my $str =
 q{alpha
   beta
@@ -70,5 +71,5 @@ q{alpha
 
   my $mo = $str.match(/$$/, :pos(5));
   dd $mo;
-  ## Any $mo = Any
+  ## Match $mo = Match.new(:orig("alpha\n  beta\n  gamma"), :from(5), :pos(5))
 }
