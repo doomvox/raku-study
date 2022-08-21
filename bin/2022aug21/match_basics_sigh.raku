@@ -26,5 +26,7 @@ say "foo[bar][baz]bada".match('ba', :x(2));       # ｢ba｣ ｢ba｣
 
 say "===";
 
-say 'abcdef'.match(/.*/, :pos(0));                # cdef
-say 'abcdef'.match(/.*/, :pos(1));                # cdef
+say 'abcdef'.match(/.*/, :pos(0));                # abcdef
+say 'abcdef'.match(/.*/, :pos(1));                # bcdef
+
+
