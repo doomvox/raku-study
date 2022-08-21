@@ -93,6 +93,11 @@
 
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jan30/whispering_nothings.raku
 
+****** Ralph's remarks on the left-hand junction with smartmatch issue:
+******* https://github.com/rakudo/rakudo/issues/4615
+
+
+
 *** review of some suggested reading
 **** https://vrurg.github.io/arfb.html
 **** https://vrurg.github.io/arfb-publication/03-containers-and-symbols/
