@@ -31,6 +31,7 @@ Look out honey, cause I'm using technology
 FLAGGED: usage "honey"
 Ain't got time to make no apology.
 ENDSTR
+  say length( $str );
 
   my $skip1 = index $str, 'FLAGGED:'; 
   my $skip2;
