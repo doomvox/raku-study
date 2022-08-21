@@ -26,7 +26,7 @@ ENDSTR
 
 sub de_sweeten( $str is rw, $fix ) {
   ## Find where FLAGGED line begins
-  $str.index('FLAGGED:');
+  my $skip1 = $str.index('FLAGGED:');
 
   ## Find where FLAGGED line ends
   ## modify region *after* skipped region first
