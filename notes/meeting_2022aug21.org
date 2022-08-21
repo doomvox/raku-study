@@ -21,6 +21,7 @@
 
 
 *** the revenge of the son of the return of junction gotchas
+**** our story thus far:
 
 ***** Márton Polgár: junctions and negated operators (a bad raku trap)
 ****** negation with junctions goes outside the junction
@@ -38,6 +39,8 @@
 ******* https://colabti.org/irclogger/irclogger_log/perl6?date=2016-08-21#l51
 ****** github issue:
 ******* https://github.com/rakudo/rakudo/issues/3748
+
+
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-176/#TASK1

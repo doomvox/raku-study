@@ -1,27 +1,27 @@
-- [meeting notes August 07, 2022](#org1ff2a75)
-  - [the raku study group](#orgcce0528)
-  - [current topics](#org9c70f84)
-    - [one-line twiddle](#orga2cab79)
-    - [the revenge of the son of the return of junction gotchas](#org30cd186)
-    - [weekly challenge](#org83d01c7)
-    - [substr-rw](#org167959f)
-    - [Grammar.nqp](#orga24101b)
-  - [topics for next time](#org47edbe0)
-    - [raku for data science  (one for next time)](#org5ce56df)
-    - [william michels, corrupt json handling (maybe next week)](#org94c85ad)
-  - [earlier topics](#orgb6da06c)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orgaa4663e)
-  - [announcements](#org8add8da)
-    - [August 13th & 14th: online raku conference](#org684457c)
-    - [August 21st: the next raku study group meeting](#org13e89f1)
+- [meeting notes August 07, 2022](#org6c78b5b)
+  - [the raku study group](#orgdb61b77)
+  - [current topics](#orge66865b)
+    - [one-line twiddle](#orgfa568e6)
+    - [the revenge of the son of the return of junction gotchas](#org9a0cde8)
+    - [weekly challenge](#orgef8840b)
+    - [substr-rw](#orgee5b47a)
+    - [Grammar.nqp](#org8c5f940)
+  - [topics for next time](#org1992968)
+    - [raku for data science  (one for next time)](#org63278b1)
+    - [william michels, corrupt json handling (maybe next week)](#orgd6f6ffb)
+  - [earlier topics](#orgcc795e4)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org49f8e4f)
+  - [announcements](#orgd98fa5d)
+    - [August 13th & 14th: online raku conference](#org2a32bd5)
+    - [August 21st: the next raku study group meeting](#orge9f7bd3)
 
 
-<a id="org1ff2a75"></a>
+<a id="org6c78b5b"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="orgcce0528"></a>
+<a id="orgdb61b77"></a>
 
 ## the raku study group
 
@@ -36,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug21>
 
 
-<a id="org9c70f84"></a>
+<a id="orge66865b"></a>
 
 ## current topics
 
 
-<a id="orga2cab79"></a>
+<a id="orgfa568e6"></a>
 
 ### one-line twiddle
 
@@ -62,38 +62,40 @@
     2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/02-twiddle<sub>vars.raku</sub>
 
 
-<a id="org30cd186"></a>
+<a id="org9a0cde8"></a>
 
 ### the revenge of the son of the return of junction gotchas
 
-1.  Márton Polgár: junctions and negated operators (a bad raku trap)
+1.  our story thus far:
 
-    1.  negation with junctions goes outside the junction
+    1.  Márton Polgár: junctions and negated operators (a bad raku trap)
     
-    2.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug07/issue_with_negated_operators_and_junctions.raku>
-    
-    3.  really should be docummented on the traps page
-    
-    4.  these aren't equivalent:
-    
-        ```raku
-        .none %% 2 
-        ```
+        1.  negation with junctions goes outside the junction
         
-        ```raku
-        .all  !%% 2 
-        ```
-    
-    5.  archived irc discussion, larry wall on "english" understanding:
-    
-        1.  <https://colabti.org/irclogger/irclogger_log/perl6?date=2016-08-21#l51>
-    
-    6.  github issue:
-    
-        1.  <https://github.com/rakudo/rakudo/issues/3748>
+        2.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug07/issue_with_negated_operators_and_junctions.raku>
+        
+        3.  really should be docummented on the traps page
+        
+        4.  these aren't equivalent:
+        
+            ```raku
+            .none %% 2 
+            ```
+            
+            ```raku
+            .all  !%% 2 
+            ```
+        
+        5.  archived irc discussion, larry wall on "english" understanding:
+        
+            1.  <https://colabti.org/irclogger/irclogger_log/perl6?date=2016-08-21#l51>
+        
+        6.  github issue:
+        
+            1.  <https://github.com/rakudo/rakudo/issues/3748>
 
 
-<a id="org83d01c7"></a>
+<a id="orgef8840b"></a>
 
 ### weekly challenge
 
@@ -102,7 +104,7 @@
 2.  <https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-176/challenge-176/bruce-gray>
 
 
-<a id="org167959f"></a>
+<a id="orgee5b47a"></a>
 
 ### substr-rw
 
@@ -115,7 +117,7 @@
     1.  <https://docs.raku.org/routine/subst-mutate>
 
 
-<a id="orga24101b"></a>
+<a id="org8c5f940"></a>
 
 ### Grammar.nqp
 
@@ -134,12 +136,12 @@
     2.  <https://vrurg.github.io/arfb-publication/03-containers-and-symbols/>
 
 
-<a id="org47edbe0"></a>
+<a id="org1992968"></a>
 
 ## topics for next time
 
 
-<a id="org5ce56df"></a>
+<a id="org63278b1"></a>
 
 ### TODO raku for data science  (one for next time)
 
@@ -148,19 +150,19 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="org94c85ad"></a>
+<a id="orgd6f6ffb"></a>
 
 ### TODO william michels, corrupt json handling (maybe next week)
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="orgb6da06c"></a>
+<a id="orgcc795e4"></a>
 
 ## earlier topics
 
 
-<a id="orgaa4663e"></a>
+<a id="org49f8e4f"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -175,12 +177,12 @@
     <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
 
 
-<a id="org8add8da"></a>
+<a id="orgd98fa5d"></a>
 
 ## announcements
 
 
-<a id="org684457c"></a>
+<a id="org2a32bd5"></a>
 
 ### August 13th & 14th: online raku conference
 
@@ -193,7 +195,7 @@
     1.  <https://conf.raku.org/talk/181>
 
 
-<a id="org13e89f1"></a>
+<a id="orge9f7bd3"></a>
 
 ### August 21st: the next raku study group meeting
 
