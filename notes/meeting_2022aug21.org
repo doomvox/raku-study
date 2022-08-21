@@ -68,6 +68,7 @@
 
 ****** examples of messing with junctions (local links for now, github left as an exercise):
 
+
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/issue_with_negated_operators_and_junctions.raku
 
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/basic_junctions.pl6
@@ -91,6 +92,8 @@
 
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jan30/whispering_nothings.raku
 
+****** Hint: 
+******* /home/doom/End/Cave/RakuStudy/Wall/raku-study
 
 
 *** review of some suggested reading
