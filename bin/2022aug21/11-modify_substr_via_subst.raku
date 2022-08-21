@@ -12,16 +12,20 @@ FLAGGED: usage "honey"
 Ain't got time to make no apology.
 ENDSTR
 
-  my $new_str = 
-    de_sweeten( $str, 'respected colleague' );
+
+ de_sweeten( $str, 'respected colleague' );
 
  ($DEBUG) && say "---";
-  say $new_str;
+  say $str;
 
 # Look out respected colleague, cause I'm using technology
 # Ain't got time to make no apology.
 # FLAGGED: usage "honey"
 }
 
-sub de_sweeten( $str, $fix ) {
-
+sub de_sweeten( $str is rw, $fix ) {
+  ## Find where FLAGGED line begins
+  ## Find where FLAGGED line ends
+  ## modify region *after* skipped region first
+  ## modify region before skipped region
+}
