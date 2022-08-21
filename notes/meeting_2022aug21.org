@@ -54,9 +54,10 @@
 ****** as with perl's dual usage "substr"
 
 
-**** TODO tbr:
-***** https://vrurg.github.io/arfb.html
-***** https://vrurg.github.io/arfb-publication/03-containers-and-symbols/
+
+*** review of some suggested reading
+**** https://vrurg.github.io/arfb.html
+**** https://vrurg.github.io/arfb-publication/03-containers-and-symbols/
 
 ** topics for next time
 *** TODO raku for data science  
