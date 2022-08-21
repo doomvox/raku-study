@@ -87,17 +87,17 @@ sub de_sweeten {
   ## Find where FLAGGED line ends
   my $skip2;
   if ( $str =~ m{FLAGGED:.*?$}msg ) {
-    say "   successful search for end of flagged line";
+    ($DEBUG) && say "   successful search for end of flagged line";
     $skip2 = pos($str);
   }
-  say "   will skip from: $skip1 to $skip2";
+  ($DEBUG) && say "   will skip from: $skip1 to $skip2";
   my $lskp = $skip2 - $skip1;
-  say "   >>", substr( $str, $skip1, $lskp ), "<<"; # 
+  ($DEBUG) && say "   >>", substr( $str, $skip1, $lskp ), "<<"; # 
 
   ## modify region *after* skipped region first
   my $lafter = length($str) - $skip2;
-  say "   skip2: $skip2, lafter: $lafter";
-  say "   ", substr( $str, $skip2, $lafter );
+  ($DEBUG) && say "   skip2: $skip2, lafter: $lafter";
+  ($DEBUG) && say "   ", substr( $str, $skip2, $lafter );
   substr( $str, $skip2, $lafter )  =~ s{honey}{$fix}g;
 
   ## modify region before skipped region
