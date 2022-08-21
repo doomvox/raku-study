@@ -1,6 +1,12 @@
 #!/usr/bin/env perl
 #                                      2022/08/21 11:14:20
 
+use 5.10.0;
+use warnings;
+use strict;
+$|=1;
+use Data::Dumper;
+
 =head1 NAME
 
 10-modify_substr_via_subst.pl
@@ -18,11 +24,6 @@ enough to leave the stub unedited.
 
 =cut
 
-use 5.10.0;
-use warnings;
-use strict;
-$|=1;
-use Data::Dumper;
 
 
 {
