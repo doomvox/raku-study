@@ -101,6 +101,7 @@ sub de_sweeten {
 
 
 {
+  say "===";
   my $str =<<'ENDSTR';
 Look out honey, cause I'm using technology
 Ain't got time to make no apology.
