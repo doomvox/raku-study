@@ -23,8 +23,7 @@ substr of a string as the target of a substitution command: this is
 one method of restricting the range of a substitution.
 
 Inadvertantly, this script also demos a number of perl's accumulated
-oddities, as well as a number of traps lurking in even the simplest
-programming task.
+oddities, plus some traps lurking in what seems like a simple problem.
 
 The task is that starting with the quote-of-the-week, replace the
 condescending term "honey" with a phrase more likely to be accepted
