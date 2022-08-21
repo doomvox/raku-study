@@ -69,7 +69,7 @@ ENDSTR
   my $new_str = 
     de_sweeten( $str, 'respected colleague' );
 
- say "---";
+ ($DEBUG) && say "---";
   say $new_str;
 
 # Look out respected colleague, cause I'm using technology
@@ -119,7 +119,7 @@ ENDSTR
   my $new_str = 
     de_sweeten( $str, 'respected colleague' );
 
- say "---";
+ ($DEBUG) && say "---";
   say $new_str;
 }
 
@@ -137,7 +137,7 @@ ENDSTR
     de_sweeten( $str, 'respected colleague' );
 
 
- say "---";
+ ($DEBUG) && say "---";
   say $new_str;
 }
 
