@@ -26,7 +26,7 @@ as well as a number of traps lurking in even the simplest programming
 task.
 
 The task is that starting with the quote-of-the-week, replace the
-condescending use of "honey" with a phrase more likely to be accepted
+condescending term "honey" with a phrase more likely to be accepted
 in our new era of modern englightenment.  
 
 
