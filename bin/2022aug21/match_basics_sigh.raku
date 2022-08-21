@@ -16,7 +16,7 @@ say "abracadabra".match(/ a .* a /, :exhaustive);
 say 'several words here'.match(/\w+/,:global);    # ｢several｣ ｢words｣ ｢here｣
 say 'abcdef'.match(/.*/, :pos(2));                # cdef
 say "foo[bar][baz]".match(/../, :1st);            # fo
-say "foo[bar][baz]".match(/../, :2nd);            # OUTPUT: «｢o[｣␤» 
+say "foo[bar][baz]".match(/../, :2nd);            # o[
 say "foo[bar][baz]".match(/../, :3rd);            # OUTPUT: «｢ba｣␤» 
 say "foo[bar][baz]".match(/../, :4th);            # OUTPUT: «｢r]｣␤» 
 say "foo[bar][baz]bada".match('ba', :x(2));       # OUTPUT: «(｢ba｣ ｢ba｣)␤» 
