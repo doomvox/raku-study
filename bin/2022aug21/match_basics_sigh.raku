@@ -7,6 +7,8 @@ use v6;
 ## Having some trouble with .match.
 ## Starting again with the examples in the docs:
 
+## https://docs.raku.org/routine/match
+
 say "properly".match('perl');                     # perl
 say "properly".match(/p.../);                     # prop
 say "1 2 3".match([1,2,3]);                       # 1 2 3
