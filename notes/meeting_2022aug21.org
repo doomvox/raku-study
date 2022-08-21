@@ -87,6 +87,10 @@
 
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021nov07/junctions_sans_petticoats.raku
 
+******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jan30/whispering_nothings.raku
+
+
+
 *** review of some suggested reading
 **** https://vrurg.github.io/arfb.html
 **** https://vrurg.github.io/arfb-publication/03-containers-and-symbols/
