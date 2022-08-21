@@ -38,8 +38,6 @@ use Data::Dumper;
 
   say "skip from: $skip1 to $skip2";
 
-  say substr( $str, $a, $off ); # can be so expressed
-
   substr( $str, 0, $skip1 )            =~ s{baby}{respected colleague}g;
   substr( $str, $skip2, length($str) ) =~ s{baby}{respected colleague}g;
 
