@@ -37,7 +37,7 @@ dd $mo; # Match $mo = Match.new(:orig("abcdef"), :from(1), :pos(6))
 say $mo.pos; # 6
 
 {
-
+  ## if the match fails using :pos you don't get a match object
   my $str =
 q{alpha
   beta
@@ -50,6 +50,7 @@ q{alpha
 
 
 {
+  ## continue is similar to pos, but you get a match object if it fails
   my $str =
 q{alpha
   beta
@@ -57,5 +58,5 @@ q{alpha
 
   my $mo = $str.match(/$$/, :continue(7));
   dd $mo;
-  ## Any $mo = Any
+  ## Match $mo = Match.new(:orig("alpha\n  beta\n  gamma"), :from(12), :pos(12))
 }
