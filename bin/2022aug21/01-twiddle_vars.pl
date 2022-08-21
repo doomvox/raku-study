@@ -36,8 +36,8 @@ use Data::Dumper;
   say "a: $a,  b: $b";    # a: 3,  b: 7
   ($b, $a) = $a, $b;
 
-  $a = "UNDEF" unless defined $a;
-  $b = "UNDEF" unless defined $b;
+  $a = " " unless defined $a;
+  $b = " " unless defined $b;
 
   say "a: $a,  b: $b";
 }
