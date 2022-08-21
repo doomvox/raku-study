@@ -53,8 +53,6 @@
 ***** like substr but you can use it on the left-hand side 
 ****** as with perl's dual usage "substr"
 
-
-
 *** review of some suggested reading
 **** https://vrurg.github.io/arfb.html
 **** https://vrurg.github.io/arfb-publication/03-containers-and-symbols/
