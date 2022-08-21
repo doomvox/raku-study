@@ -19,7 +19,7 @@ say "foo[bar][baz]".match(/../, :1st);            # fo
 say "foo[bar][baz]".match(/../, :2nd);            # o[
 say "foo[bar][baz]".match(/../, :3rd);            # ba
 say "foo[bar][baz]".match(/../, :4th);            # r]
-say "foo[bar][baz]bada".match('ba', :x(2));       # OUTPUT: «(｢ba｣ ｢ba｣)␤» 
+say "foo[bar][baz]bada".match('ba', :x(2));       # ｢ba｣ ｢ba｣
 
 
 
