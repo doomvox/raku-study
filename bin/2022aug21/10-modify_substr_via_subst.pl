@@ -73,7 +73,6 @@ ENDSTR
 # Look out respected colleague, cause I'm using technology
 # Ain't got time to make no apology.
 # FLAGGED: usage "honey"
-
 }
 
 
