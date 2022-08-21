@@ -23,8 +23,8 @@ ENDSTR
   say $str;
 
 # Look out respected colleague, cause I'm using technology
-# Ain't got time to make no apology.
 # FLAGGED: usage "honey"
+# Ain't got time to make no apology.
 }
 
 sub de_sweeten( $str is rw, $fix ) {
