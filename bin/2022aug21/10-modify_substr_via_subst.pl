@@ -78,10 +78,10 @@ ENDSTR
   say "   >>", substr( $str, $skip1, $lskp ), "<<"; # 
 
   ## modify region *after* skipped region first
-  my $lrest = length($str) - $skip2;
-  say "   skip2: $skip2, lrest: $lrest";
-  say "   ", substr( $str, $skip2, $lrest );
-  substr( $str, $skip2, $lrest )  =~ s{honey}{respected colleague}g;
+  my $lafter = length($str) - $skip2;
+  say "   skip2: $skip2, lafter: $lafter";
+  say "   ", substr( $str, $skip2, $lafter );
+  substr( $str, $skip2, $lafter )  =~ s{honey}{respected colleague}g;
 
   ## modify region before skipped region
   substr( $str, 0, $skip1 )                         =~ s{honey}{respected colleague}g;
