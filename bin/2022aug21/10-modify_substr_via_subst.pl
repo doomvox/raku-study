@@ -35,10 +35,10 @@ ENDSTR
   my $skip1 = index $str, 'FLAGGED:'; 
   my $skip2;
   if( $str =~ m{FLAGGED:.*?$}msg ) {
-    say "successful search for end of flagged line";
+    say "   successful search for end of flagged line";
     $skip2 = pos($str);
   }
-  say "will skip from: $skip1 to $skip2";
+  say "   will skip from: $skip1 to $skip2";
   my $l = $skip2 - $skip1;
   say ">>", substr( $str, $skip1, $l ), "<<"; # 
 
