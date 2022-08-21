@@ -46,6 +46,7 @@ ENDSTR
   substr( $str, 0, $skip1 )                         =~ s{honey}{respected colleague}g;
   my $l2 = length($str) - $skip2;
   say "skip2: $skip2, l2: $l2";
+  say "   ", substr( $str, $skip2, $l2 );
 #  substr( $str, $skip2, $l2 )  =~ s{honey}{respected colleague}g;
 
   say "---";
