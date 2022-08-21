@@ -21,9 +21,17 @@ that demos using a substr of a string as the target
 of a substitution command:  this is one method of 
 restricting the range of a substitution command.
 
+Inadvertantly, this also demos a number of perl's accumulated oddities, 
+as well as a number of traps lurking in even the simplest programming 
+task.
 
-It looks like the author of this script was negligent
-enough to leave the stub unedited.
+The task, is starting with the quote-of-the-week, replace the
+condescending use of "honey" with a phrase more likely to be accepted
+in our new era of modern englightenment.  
+
+
+
+
 
 =cut
 
