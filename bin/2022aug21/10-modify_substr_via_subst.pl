@@ -65,7 +65,7 @@ Ain't got time to make no apology.
 ENDSTR
 
   my $new_str = 
-    de_sweeten( $str );
+    de_sweeten( $str, 'respected colleague' );
 
  say "---";
   say $new_str;
@@ -77,6 +77,7 @@ ENDSTR
 
 sub de_sweeten {
   my $str = shift;
+  my $fix = shift;
   say length( $str );
 
   ## Find where FLAGGED line begins
