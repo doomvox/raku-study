@@ -40,7 +40,7 @@ ENDSTR
   }
   say "   will skip from: $skip1 to $skip2";
   my $l = $skip2 - $skip1;
-  say ">>", substr( $str, $skip1, $l ), "<<"; # 
+  say "   >>", substr( $str, $skip1, $l ), "<<"; # 
 
   substr( $str, 0, $skip1 )            =~ s{baby}{respected colleague}g;
   substr( $str, $skip2, length($str) - $skip2 ) =~ s{baby}{respected colleague}g;
