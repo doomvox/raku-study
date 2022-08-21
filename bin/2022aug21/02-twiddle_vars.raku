@@ -29,4 +29,9 @@ use v6;
   $b, $a = $a, $b;
 
   say "a: $a,  b: $b";    # a: 3,  b: 7
+
+# WARNINGS for /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/02-twiddle_vars.raku:
+# Useless use of $b in sink context (lines 29, 29)
+
+
 }
