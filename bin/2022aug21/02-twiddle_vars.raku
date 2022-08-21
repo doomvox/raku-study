@@ -33,5 +33,4 @@ use v6;
 # WARNINGS for /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/02-twiddle_vars.raku:
 # Useless use of $b in sink context (lines 29, 29)
 
-
 }
