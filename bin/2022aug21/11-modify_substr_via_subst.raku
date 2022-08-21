@@ -4,10 +4,13 @@
 
 use v6;
 
+## Note: implemented much like the perl version (i.e. stupidly),
+## with an extra added copout hack because I don't know how
+## to find the position of the end of a line (?)
+
 my $DEBUG = 1;
 
 {
-
  my $str = q:to/ENDSTR/;
 Look out honey, cause I'm using technology
 FLAGGED: usage "honey"
