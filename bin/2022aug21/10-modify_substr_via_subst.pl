@@ -75,9 +75,6 @@ ENDSTR
 # FLAGGED: usage "honey"
 }
 
-
-
-
 sub de_sweeten {
   my $str = shift;
   say length( $str );
