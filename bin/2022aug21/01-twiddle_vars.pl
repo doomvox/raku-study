@@ -25,9 +25,9 @@ $|=1;
 use Data::Dumper;
 {
   my ($a, $b) = (3, 7);
-  say "a: $a,  b: $b";
+  say "a: $a,  b: $b";    # a: 3,  b: 7
   ($b, $a) = ($a, $b);
-  say "a: $a,  b: $b";
+  say "a: $a,  b: $b";    # a: 7,  b: 3
 }
 
 
