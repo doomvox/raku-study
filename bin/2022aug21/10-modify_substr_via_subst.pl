@@ -34,9 +34,9 @@ use Data::Dumper;
 
   my $skip1 = index $str, 'FLAGGED:'; 
   my $skip2;
-  if( $str =~ m{FLAGGED:.*?\Z}ms ) {
+  if( $str =~ m{FLAGGED:.*?\Z}msg ) {
     say "successful search for end of flagged line";
-    $skip2 = pos;
+    $skip2 = pos($str);
   }
   say "will skip from: $skip1 to $skip2";
   say substr( $str, $skip1, $skip2 ); # 
