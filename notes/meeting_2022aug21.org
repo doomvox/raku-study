@@ -66,7 +66,11 @@
 ******* https://github.com/rakudo/rakudo/issues/3748
 
 
+
 ****** examples of messing with junctions (local links for now, github left as an exercise):
+******* Hint, these are equivalent: 
+******** /home/doom/End/Cave/RakuStudy/Wall/raku-study
+******** https://github.com/doomvox/raku-study/
 
 
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/issue_with_negated_operators_and_junctions.raku
@@ -91,10 +95,6 @@
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021nov07/junctions_sans_petticoats.raku
 
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jan30/whispering_nothings.raku
-
-****** Hint: 
-******* /home/doom/End/Cave/RakuStudy/Wall/raku-study
-
 
 *** review of some suggested reading
 **** https://vrurg.github.io/arfb.html
