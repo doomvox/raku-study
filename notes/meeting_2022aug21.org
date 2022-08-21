@@ -72,7 +72,6 @@
 ******** /home/doom/End/Cave/RakuStudy/Wall/raku-study
 ******** https://github.com/doomvox/raku-study/
 
-
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug07/issue_with_negated_operators_and_junctions.raku
 
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/basic_junctions.pl6
