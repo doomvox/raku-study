@@ -56,6 +56,12 @@ Some notes:
      o   'g' lets us access the position after the match via pos
 
 
+  o  in perl's favor: you can use substr to simply extract a substring, 
+     or to refer to a range in the string you want to act on.
+
+     o  internally these are very different cases, but to the user, 
+        this makes intuitive sense, so perl hides the differences.
+
 
 =cut
 
