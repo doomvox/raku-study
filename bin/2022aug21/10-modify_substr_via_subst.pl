@@ -101,7 +101,7 @@ sub de_sweeten {
   substr( $str, $skip2, $lafter )  =~ s{honey}{$fix}g;
 
   ## modify region before skipped region
-  substr( $str, 0, $skip1 )                         =~ s{honey}{$fix}g;
+  substr( $str, 0, $skip1 )        =~ s{honey}{$fix}g;
 
   return $str;
 }
