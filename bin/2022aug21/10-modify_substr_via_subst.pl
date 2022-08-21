@@ -60,9 +60,9 @@ Some notes:
      o  internally these are very different cases, but to the user, 
         this makes intuitive sense, so perl hides the differences.
 
-  o  go after a cleaner solution if you're so inclined:
-     I think a line-oriented solution would be much neater:
-     split on lines, try to change each one, but skip any 
+  o  go after a cleaner solution if you're so inclined: I think a
+     line-oriented solution would be much neater: split on lines and
+     loop over them, trying to change each one, but skipping any
      FLAGGED lines.
 
 =cut
