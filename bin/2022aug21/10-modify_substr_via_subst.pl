@@ -26,11 +26,11 @@ use Data::Dumper;
 
 
 {
-  my $str =
-    q{Look out baby, cause I'm using technology
-      FLAGGED: usage "baby"
-      Ain't got time to make no apology.
-     };
+  my $str =<<'ENDSTR';
+Look out baby, cause I'm using technology
+FLAGGED: usage "baby"
+Ain't got time to make no apology.
+ENDSTR
 
   my $skip1 = index $str, 'FLAGGED:'; 
   my $skip2;
