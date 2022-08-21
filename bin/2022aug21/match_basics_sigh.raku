@@ -9,7 +9,7 @@ use v6;
 
 say "properly".match('perl');                     # perl
 say "properly".match(/p.../);                     # prop
-say "1 2 3".match([1,2,3]);                       # OUTPUT: «｢1 2 3｣␤» 
+say "1 2 3".match([1,2,3]);                       # 1 2 3
 say "a1xa2".match(/a./, :continue(2));            # OUTPUT: «｢a2｣␤» 
 say "abracadabra".match(/ a .* a /, :exhaustive);
 # OUTPUT: «(｢abracadabra｣ ｢abracada｣ ｢abraca｣ ｢abra｣ ｢acadabra｣ ｢acada｣ ｢aca｣ ｢adabra｣ ｢ada｣ ｢abra｣)␤» 
