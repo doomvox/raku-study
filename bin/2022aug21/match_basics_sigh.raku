@@ -102,7 +102,6 @@ q{alpha
 
 {
   # Checking the basics, .match sweeps forward from start even without :c
-
   my $str = q{The reign insane is about to wane.};
 
   my $mo = $str.match(/ane/);
