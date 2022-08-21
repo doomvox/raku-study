@@ -60,3 +60,15 @@ q{alpha
   dd $mo;
   ## Match $mo = Match.new(:orig("alpha\n  beta\n  gamma"), :from(12), :pos(12))
 }
+
+{
+  # so, why is a match on /$$/ failing?
+  my $str =
+q{alpha
+  beta
+  gamma};
+
+  my $mo = $str.match(/$$/, :pos(7));
+  dd $mo;
+  ## Any $mo = Any
+}
