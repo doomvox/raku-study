@@ -100,4 +100,11 @@ q{alpha
 
 
 
+{
+  my $str = q{The reign insane is about to wane.};
+
+  my $mo = $str.match(/ane/);
+  dd $mo;
+
+}
 
