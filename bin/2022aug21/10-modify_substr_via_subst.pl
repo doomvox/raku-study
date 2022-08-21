@@ -65,7 +65,9 @@ Ain't got time to make no apology.
 ENDSTR
   say length( $str );
 
+  ## Find where FLAGGED line begins
   my $skip1 = index $str, 'FLAGGED:'; 
+  ## Find where FLAGGED line ends
   my $skip2;
   if( $str =~ m{FLAGGED:.*?$}msg ) {
     say "   successful search for end of flagged line";
