@@ -112,7 +112,7 @@ https://github.com/tadzik/File-Find
 
 
 ****** junctions
-******* basics (we've talked about them before)
+******* basics
 ******** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
 ******** https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html
 
