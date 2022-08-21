@@ -18,10 +18,6 @@
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2022aug2102-twiddle_vars.raku
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/02-twiddle_vars.raku
 
-*** perl5 perl-porters: \U\L interpolation contructs don't work well together
-**** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/case_change_via_interpolation.pl
-***** tried to play with the "sharp s"
-****** https://medium.com/@typefacts/the-german-capital-letter-eszett-e0936c1388f8
 
 *** rob ransbottom:
 **** a little thing: inadvertantly calling a method on $_, forgot the variable 
