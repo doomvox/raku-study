@@ -28,8 +28,8 @@ use Data::Dumper;
 {
   my $str =
     q{Look out baby, cause I'm using technology
-      Ain't got time to make no apology.
       FLAGGED: usage "baby"
+      Ain't got time to make no apology.
      };
 
   my $skip1 = index $str, 'FLAGGED:'; 
