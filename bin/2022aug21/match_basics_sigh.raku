@@ -36,3 +36,8 @@ dd $mo; # Match $mo = Match.new(:orig("abcdef"), :from(1), :pos(6))
 
 say $mo.pos; # 6
 
+my $str =
+q{alpha
+  beta
+  gamma};
+
