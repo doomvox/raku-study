@@ -80,7 +80,7 @@ ENDSTR
 sub de_sweeten {
   my $str = shift;
   my $fix = shift || 'xx';
-  say length( $str );
+  ($DEBUG) && say "length of str: ", length( $str );
 
   ## Find where FLAGGED line begins
   my $skip1 = index $str, 'FLAGGED:'; 
