@@ -40,14 +40,17 @@ ENDSTR
     $skip2 = pos($str);
   }
   say "   will skip from: $skip1 to $skip2";
-  my $l = $skip2 - $skip1;
-  say "   >>", substr( $str, $skip1, $l ), "<<"; # 
+  my $lskp = $skip2 - $skip1;
+  say "   >>", substr( $str, $skip1, $lskp ), "<<"; # 
 
+  ## modify region *after* skipped region first
+  my $lrest = length($str) - $skip2;
+  say "   skip2: $skip2, lrest: $lrest";
+  say "   ", substr( $str, $skip2, $lrest );
+  substr( $str, $skip2, $lrest )  =~ s{honey}{respected colleague}g;
+
+  ## modify region before skipped region
   substr( $str, 0, $skip1 )                         =~ s{honey}{respected colleague}g;
-  my $l2 = length($str) - $skip2;
-  say "skip2: $skip2, l2: $l2";
-  say "   ", substr( $str, $skip2, $l2 );
-#  substr( $str, $skip2, $l2 )  =~ s{honey}{respected colleague}g;
 
   say "---";
   say $str;
