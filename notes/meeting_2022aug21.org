@@ -65,8 +65,6 @@
 ****** github issue:
 ******* https://github.com/rakudo/rakudo/issues/3748
 
-
-
 ****** examples of messing with junctions (local links for now, github left as an exercise):
 ******* Hint, these are equivalent: 
 ******** /home/doom/End/Cave/RakuStudy/Wall/raku-study
