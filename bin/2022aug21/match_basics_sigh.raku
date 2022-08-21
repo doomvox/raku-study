@@ -32,4 +32,4 @@ say 'abcdef'.match(/.*/, :pos(1));                # bcdef
 
 my $mo = 'abcdef'.match(/.*/, :pos(1));                
 
-dd $mo;
+dd $mo; # Match $mo = Match.new(:orig("abcdef"), :from(1), :pos(6))
