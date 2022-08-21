@@ -38,10 +38,7 @@ index
   $str =~ m{FLAGGED:*?\z}ms;
   my $skip2 = pos;
 
-
-  my $a = 25;
-  my $off = 19;
-  my $b = $a + $off;
+  say "skip from: $skip1 to $skip2";
 
   say substr( $str, $a, $off ); # can be so expressed
 
