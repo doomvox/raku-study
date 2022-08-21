@@ -39,7 +39,7 @@ use Data::Dumper;
   $a = " " unless defined $a;
   $b = " " unless defined $b;
 
-  say "a: $a,  b: $b";
+  say "a: $a,  b: $b";   # a:  ,  b: 3
 }
 
 
