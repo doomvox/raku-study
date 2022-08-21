@@ -38,7 +38,7 @@ say $mo.pos; # 6
 
 {
 
-my $str =
+  my $str =
 q{alpha
   beta
   gamma};
@@ -46,6 +46,16 @@ q{alpha
   my $mo = $str.match(/$$/, :pos(7));
   dd $mo;
   ## Any $mo = Any
+}
 
 
+{
+  my $str =
+q{alpha
+  beta
+  gamma};
+
+  my $mo = $str.match(/$$/, :continue(7));
+  dd $mo;
+  ## Any $mo = Any
 }
