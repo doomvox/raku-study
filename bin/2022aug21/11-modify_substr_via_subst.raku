@@ -5,3 +5,23 @@
 use v6;
 
 
+{
+  my $str =<<'ENDSTR';
+Look out honey, cause I'm using technology
+FLAGGED: usage "honey"
+Ain't got time to make no apology.
+ENDSTR
+
+  my $new_str = 
+    de_sweeten( $str, 'respected colleague' );
+
+ ($DEBUG) && say "---";
+  say $new_str;
+
+# Look out respected colleague, cause I'm using technology
+# Ain't got time to make no apology.
+# FLAGGED: usage "honey"
+}
+
+sub de_sweeten( $str, $fix ) {
+
