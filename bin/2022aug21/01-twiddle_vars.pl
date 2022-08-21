@@ -35,6 +35,10 @@ use Data::Dumper;
   my ($a, $b) = (3, 7);
   say "a: $a,  b: $b";    # a: 3,  b: 7
   ($b, $a) = $a, $b;
+
+  $a = "UNDEF" unless defined $a;
+  $b = "UNDEF" unless defined $b;
+
   say "a: $a,  b: $b";
 }
 
