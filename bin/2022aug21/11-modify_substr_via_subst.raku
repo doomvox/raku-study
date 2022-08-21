@@ -41,11 +41,12 @@ sub de_sweeten( $str is rw, $fix ) {
 
   ## HACK
   $skip2 = 65;
+
+  ## modify region *after* skipped region first
   my $lafter = $str.chars - $skip2;
   substr-rw( $str, $skip2, $lafter )  ~~ s/honey/$fix/;
 
 
-  ## modify region *after* skipped region first
   ## modify region before skipped region
 }
 
