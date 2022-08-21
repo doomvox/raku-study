@@ -146,10 +146,6 @@ https://github.com/tadzik/File-Find
 https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up
 
 ** announcements 
-*** August 13th & 14th: online raku conference
-**** https://conf.raku.org/
-**** https://conf.raku.org/2022/schedule
-
 *** September 11th: the next raku study group meeting
 **** skipping labor day weekend
 
