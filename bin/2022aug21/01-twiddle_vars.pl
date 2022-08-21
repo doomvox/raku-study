@@ -55,7 +55,6 @@ use Data::Dumper;
   $b = $a;
   $a = $tmp;
 
-  ($b, $a) = ($a, $b);
   say "a: $a,  b: $b";    # a: 7,  b: 3
 }
 
