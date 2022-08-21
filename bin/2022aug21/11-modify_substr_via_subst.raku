@@ -14,7 +14,6 @@ FLAGGED: usage "honey"
 Ain't got time to make no apology.
 ENDSTR
 
-
  de_sweeten( $str, 'respected colleague' );
 
  ($DEBUG) && say "---";
