@@ -24,7 +24,7 @@ use strict;
 $|=1;
 use Data::Dumper;
 {
-  my ($a, $b) = (3, 17);
+  my ($a, $b) = (3, 7);
   say "a: $a,  b: $b";
   ($b, $a) = ($a, $b);
   say "a: $a,  b: $b";
