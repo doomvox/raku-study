@@ -65,7 +65,7 @@ Ain't got time to make no apology.
 ENDSTR
 
   my $new_str = 
-    de_sweeten( $str, 'respected colleague' );
+    de_sweeten( $str, 'Respected Colleague' );
 
  say "---";
   say $new_str;
