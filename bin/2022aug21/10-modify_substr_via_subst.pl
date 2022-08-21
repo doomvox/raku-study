@@ -16,8 +16,11 @@ use Data::Dumper;
 
 =head1 DESCRIPTION
 
-Stub documentation for 10-modify_substr_via_subst.pl,
-created by template.el.
+10-modify_substr_via_subst.pl is a perl script 
+that demos using a substr of a string as the target 
+of a substitution command:  this is one method of 
+restricting the range of a substitution command.
+
 
 It looks like the author of this script was negligent
 enough to leave the stub unedited.
