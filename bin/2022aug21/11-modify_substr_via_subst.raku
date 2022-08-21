@@ -29,7 +29,7 @@ sub de_sweeten( $str is rw, $fix ) {
   my $skip1 = $str.index('FLAGGED:');
   ($DEBUG) && say "skip1: $skip1";
   ## Find where FLAGGED line ends
-  my $skip2 = $str.match(/$/, :pos( $skip1 ));
+  my $skip2 = $str.match('$', :pos( $skip1 ));
   ($DEBUG) && say "skip2: $skip2";
 
   ## modify region *after* skipped region first
