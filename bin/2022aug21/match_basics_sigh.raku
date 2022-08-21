@@ -108,6 +108,6 @@ q{alpha
   dd $mo;
   # Match $mo = Match.new(:orig("The reign insane is about to wane."), :from(13), :pos(16))
 
-  say $mo.from;
+  say $mo.from; # 13
 }
 
