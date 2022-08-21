@@ -43,7 +43,8 @@ ENDSTR
   say "   >>", substr( $str, $skip1, $l ), "<<"; # 
 
   substr( $str, 0, $skip1 )                         =~ s{honey}{respected colleague}g;
-  substr( $str, $skip2, ( length($str) - $skip2 ) ) =~ s{honey}{respected colleague}g;
+  my $l2 = length($str) - $skip2;
+  substr( $str, $skip2, $l2 )  =~ s{honey}{respected colleague}g;
 
   say "---";
   say $str;
