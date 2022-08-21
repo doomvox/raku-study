@@ -77,7 +77,7 @@ ENDSTR
 
 sub de_sweeten {
   my $str = shift;
-  my $fix = shift;
+  my $fix = shift || 'xx';
   say length( $str );
 
   ## Find where FLAGGED line begins
