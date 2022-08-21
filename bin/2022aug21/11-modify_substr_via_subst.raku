@@ -44,7 +44,7 @@ sub de_sweeten( $str is rw, $fix ) {
   ## NOTE this location makes *no* sense to me, it's several characters short of where it should be.
 
   ## HACK
-  $skip2 = 65;
+  # $skip2 = 65;
 
   ## modify region *after* skipped region first
   my $lafter = $str.chars - $skip2;
