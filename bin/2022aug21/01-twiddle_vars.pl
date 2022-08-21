@@ -56,6 +56,11 @@ use Data::Dumper;
   $a = $tmp;
 
   say "a: $a,  b: $b";    # a: 7,  b: 3
+
+  # A little less readable and arguably error-prone,
+  # e.g. this would be silently wrong:
+  #   my $tmp = $a;
+
 }
 
 
