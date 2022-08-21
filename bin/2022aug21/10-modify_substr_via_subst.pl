@@ -49,7 +49,9 @@ Some notes:
      numeric arguments are *positions*, really the first is a position, the 
      second is a length
 
-
+  o  to search for the end of the FLAGGED line we use the 'msg' modifiers.
+     o   we want '$' to match end-of-line not end-of-string
+     o   'g' lets us access the position after the match via pos
 
 
 =cut
