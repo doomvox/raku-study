@@ -7,6 +7,8 @@ use strict;
 $|=1;
 use Data::Dumper;
 
+my $DEBUG = 0;
+
 =head1 NAME
 
 10-modify_substr_via_subst.pl
