@@ -1,28 +1,28 @@
-- [meeting notes August 07, 2022](#orgf6324a4)
-  - [the raku study group](#org5bb270d)
-  - [current topics](#org0034ccc)
-    - [one-line twiddle](#orgde50483)
-    - [strings modifications](#orgf832feb)
-    - [aside: issues with .match](#org4bab307)
-    - [the revenge of the son of the return of junction gotchas](#org12c5de9)
-    - [review of some suggested reading](#orgc052ba7)
-  - [topics for next time](#orga08228d)
-    - [raku for data science](#org8b50cb3)
-    - [william michels, corrupt json handling](#orgffc4af8)
-  - [earlier topics](#org33b4b61)
-    - [Grammar.nqp](#org48a79ce)
-    - [regex feature: control what's captured with <( &#x2026; )>](#orgad28aa5)
-  - [announcements](#org946dd5a)
-    - [August 13th & 14th: online raku conference](#org7e83ea5)
-    - [August 21st: the next raku study group meeting](#org7882406)
+- [meeting notes August 07, 2022](#orgcac0894)
+  - [the raku study group](#org3a3ec96)
+  - [current topics](#orgafdd1b6)
+    - [one-line twiddle](#orgaba1314)
+    - [strings modifications](#orgffcaad4)
+    - [aside: issues with .match](#orgac07f8a)
+    - [the revenge of the son of the return of junction gotchas](#orgc5ab335)
+    - [review of some suggested reading](#orgb2928f2)
+  - [topics for next time](#org3bd563b)
+    - [raku for data science](#org1088451)
+    - [william michels, corrupt json handling](#orgb33c93b)
+  - [earlier topics](#orgeeb671a)
+    - [Grammar.nqp](#orgffd4d20)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org159117b)
+  - [announcements](#orgb8437fd)
+    - [August 13th & 14th: online raku conference](#org03d58a0)
+    - [August 21st: the next raku study group meeting](#org5bc0823)
 
 
-<a id="orgf6324a4"></a>
+<a id="orgcac0894"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="org5bb270d"></a>
+<a id="org3a3ec96"></a>
 
 ## the raku study group
 
@@ -37,12 +37,12 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug21>
 
 
-<a id="org0034ccc"></a>
+<a id="orgafdd1b6"></a>
 
 ## current topics
 
 
-<a id="orgde50483"></a>
+<a id="orgaba1314"></a>
 
 ### one-line twiddle
 
@@ -63,7 +63,7 @@
     2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/02-twiddle<sub>vars.raku</sub>
 
 
-<a id="orgf832feb"></a>
+<a id="orgffcaad4"></a>
 
 ### strings modifications
 
@@ -100,7 +100,7 @@
     2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/11-modify<sub>substr</sub><sub>via</sub><sub>subst.raku</sub>
 
 
-<a id="org4bab307"></a>
+<a id="orgac07f8a"></a>
 
 ### aside: issues with .match
 
@@ -113,7 +113,7 @@
 4.  But see HACK in "11-modify<sub>substr</sub><sub>via</sub><sub>subst.raku</sub>" linked to above
 
 
-<a id="org12c5de9"></a>
+<a id="orgc5ab335"></a>
 
 ### the revenge of the son of the return of junction gotchas
 
@@ -166,9 +166,11 @@
             9.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021jun20/junctionism.raku
             
             10. /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021sep26/multi<sub>dispatch</sub><sub>with</sub><sub>overlapping</sub><sub>subset</sub><sub>types.raku</sub>
+            
+            11. /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021nov07/junctions<sub>sans</sub><sub>petticoats.raku</sub>
 
 
-<a id="orgc052ba7"></a>
+<a id="orgb2928f2"></a>
 
 ### review of some suggested reading
 
@@ -177,12 +179,12 @@
 2.  <https://vrurg.github.io/arfb-publication/03-containers-and-symbols/>
 
 
-<a id="orga08228d"></a>
+<a id="org3bd563b"></a>
 
 ## topics for next time
 
 
-<a id="org8b50cb3"></a>
+<a id="org1088451"></a>
 
 ### TODO raku for data science
 
@@ -191,19 +193,19 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="orgffc4af8"></a>
+<a id="orgb33c93b"></a>
 
 ### TODO william michels, corrupt json handling
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="org33b4b61"></a>
+<a id="orgeeb671a"></a>
 
 ## earlier topics
 
 
-<a id="org48a79ce"></a>
+<a id="orgffd4d20"></a>
 
 ### Grammar.nqp
 
@@ -216,7 +218,7 @@
 3.  had trouble seeing what "token comp<sub>unit</sub>" does, exactly
 
 
-<a id="orgad28aa5"></a>
+<a id="org159117b"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -231,12 +233,12 @@
     <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
 
 
-<a id="org946dd5a"></a>
+<a id="orgb8437fd"></a>
 
 ## announcements
 
 
-<a id="org7e83ea5"></a>
+<a id="org03d58a0"></a>
 
 ### August 13th & 14th: online raku conference
 
@@ -249,7 +251,7 @@
     1.  <https://conf.raku.org/talk/181>
 
 
-<a id="org7882406"></a>
+<a id="org5bc0823"></a>
 
 ### August 21st: the next raku study group meeting
 
