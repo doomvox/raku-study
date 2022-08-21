@@ -25,10 +25,6 @@ say "foo[bar][baz]".match(/../, :3rd);            # ba
 say "foo[bar][baz]".match(/../, :4th);            # r
 say "foo[bar][baz]bada".match('ba', :x(2));       # ｢ba｣ ｢ba｣
 
-
-
-
-
 say "===";
 
 say 'abcdef'.match(/.*/, :pos(0));                # abcdef
@@ -55,7 +51,7 @@ q{alpha
 
 
 {
-  ## continue is similar to pos, but you get a match object if it fails
+  ## continue gives you a match object if it fails
   my $str =
 q{alpha
   beta
