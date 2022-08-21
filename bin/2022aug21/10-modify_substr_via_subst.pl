@@ -25,11 +25,11 @@ one method of restricting the range of a substitution.
 Inadvertantly, this script also demos a number of perl's accumulated
 oddities, plus some traps lurking in what seems like a simple problem.
 
-The task is that starting with the quote-of-the-week, replace the
-condescending term "honey" with a phrase more likely to be accepted
-in our new era of modern englightenment.  There's also a line 
-beginning with the key phrase "FLAGGED:" that we want to exclude 
-from this change.  The task is done by 
+The task: starting with the quote-of-the-week, replace the
+condescending term "honey" with a phrase more likely to be accepted in
+our new era of modern englightenment.  There's also a line beginning
+with the key phrase "FLAGGED:" that we want to exclude from this
+change.  The task is done by
 
    (1) locating where the FLAGGED line begins
 
