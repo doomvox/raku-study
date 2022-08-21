@@ -32,3 +32,4 @@ say 'abcdef'.match(/.*/, :pos(1));                # bcdef
 
 my $mo = 'abcdef'.match(/.*/, :pos(1));                
 
+dd $mo;
