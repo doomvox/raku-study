@@ -29,7 +29,7 @@ The task: starting with the quote-of-the-week, replace the
 condescending term "honey" with a phrase more likely to be accepted in
 our new era of modern englightenment.  There's also a line beginning
 with the key phrase "FLAGGED:" that we want to exclude from this
-change.  The task is done by
+change.  The job is done by
 
    (1) locating where the FLAGGED line begins
 
@@ -59,6 +59,12 @@ Some notes:
 
      o  internally these are very different cases, but to the user, 
         this makes intuitive sense, so perl hides the differences.
+
+  o  go after a cleaner solution if you're so inclined:
+     I think a line-oriented solution would be much neater:
+     split on lines, try to change each one, but skipp any 
+     FLAGGED lines.
+
 
 
 =cut
