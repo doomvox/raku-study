@@ -32,7 +32,8 @@ sub de_sweeten( $str is rw, $fix ) {
   my $skip1 = $str.index('FLAGGED:');
   ($DEBUG) && say "skip1: $skip1";
   ## Find where FLAGGED line ends
-  my $mo = $str.match(/$$/, :pos( $skip1 ));
+#  my $mo = $str.match(/$$/, :pos( $skip1 ));
+  my $mo = $str.match(/$$/, :continue( $skip1 ));
   say "str again: $str";
 #  my $mo = $str.match(/ho/, :continue($skip1));
   dd $mo;
