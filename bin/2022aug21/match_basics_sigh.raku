@@ -94,5 +94,6 @@ q{alpha
 
   my $mo = $str.match(/$$/, :continue(6));
   dd $mo;
-  ## Match $mo = Match.new(:orig("alpha\n  beta\n  gamma"), :from(5), :pos(5))
+  ## Match $mo = Match.new(:orig("alpha\n  beta\n  gamma"), :from(12), :pos(12))
 }
+
