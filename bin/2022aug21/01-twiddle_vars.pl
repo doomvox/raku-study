@@ -43,7 +43,13 @@ use Data::Dumper;
   $b = " " unless defined $b;
 
   say "a: $a,  b: $b";   # a:  ,  b: 3
+
+#  my $z = 666;  # scalar context
+#   $z;           # void context
+
 }
+
+
 
 
 {
