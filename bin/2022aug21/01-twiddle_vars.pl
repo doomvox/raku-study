@@ -49,9 +49,6 @@ use Data::Dumper;
 
 }
 
-
-
-
 {
   # Consider what the code would like like if you couldn't do a one-line twiddle:
   my ($a, $b) = (3, 7);
