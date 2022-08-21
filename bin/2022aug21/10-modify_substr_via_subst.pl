@@ -69,7 +69,6 @@ ENDSTR
 
  say "---";
   say $new_str;
-
 }
 
 sub de_sweeten {
