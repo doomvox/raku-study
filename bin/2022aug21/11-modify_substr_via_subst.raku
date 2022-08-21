@@ -32,19 +32,11 @@ sub de_sweeten( $str is rw, $fix ) {
   my $skip1 = $str.index('FLAGGED:');
   ($DEBUG) && say "skip1: $skip1";
   ## Find where FLAGGED line ends
-#  my $mo = $str.match(/$$/, :pos( $skip1 ));
   my $mo = $str.match(/$$/, :continue( $skip1 ));
   say "str again: $str";
-#  my $mo = $str.match(/ho/, :continue($skip1));
   dd $mo;
   my $skip2 = $mo.from;
   ($DEBUG) && say "skip2: $skip2";
-  # Match $mo = Match.new(:orig("Look out honey, cause I'm using technology\nFLAGGED: usage \"honey\"\nAin't got time to make no apology.\n"), :from(59), :pos(61))
-  # skip2: 59
-  ## NOTE this location makes *no* sense to me, it's several characters short of where it should be.
-
-  ## HACK
-  # $skip2 = 65;
 
   ## modify region *after* skipped region first
   my $lafter = $str.chars - $skip2;
