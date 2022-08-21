@@ -36,6 +36,7 @@ index
 
   my $skip1 = index $str, 'FLAGGED:'; 
   $str =~ m{FLAGGED:*?\z}ms;
+  my $skip2 = pos;
 
 
   my $a = 25;
@@ -44,7 +45,8 @@ index
 
   say substr( $str, $a, $off ); # can be so expressed
 
-  substr( $str, $a, $off ) =~ s{be}{BE}g;
+  substr( $str, 0, $skip1 )            =~ s{baby}{respected colleague}g;
+  substr( $str, $skip2, length($str) ) =~ s{baby}{respected colleague}g;
 
   say "---";
   say $str;
