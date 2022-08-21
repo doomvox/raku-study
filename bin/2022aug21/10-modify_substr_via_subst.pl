@@ -33,7 +33,7 @@ use Data::Dumper;
      };
 
   my $skip1 = index $str, 'FLAGGED:'; 
-  $str =~ m{FLAGGED:*?\z}ms;
+  $str =~ m{FLAGGED:*?\z}msg;
   my $skip2 = pos;
 
   say "skip from: $skip1 to $skip2";
