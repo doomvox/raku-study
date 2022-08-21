@@ -35,8 +35,8 @@
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2022aug21/10-modify_substr_via_subst.pl
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/10-modify_substr_via_subst.pl
 **** raku
-***** https://github.com/doomvox/raku-study/tree/main/bin/2022aug21/
-***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/
+***** https://github.com/doomvox/raku-study/tree/main/bin/2022aug21/11-modify_substr_via_subst.raku
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/11-modify_substr_via_subst.raku
 
 
 
