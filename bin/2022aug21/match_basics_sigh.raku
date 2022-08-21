@@ -65,6 +65,7 @@ q{alpha
   # so, why is a match on /$$/ failing?
   # if you're right on the line boundary, it does match
   # I *thought* it would sweep forward from given pos
+  # but not if match fails *at* pos
   my $str =
 q{alpha
   beta
