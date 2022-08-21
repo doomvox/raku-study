@@ -24,8 +24,6 @@ enough to leave the stub unedited.
 
 =cut
 
-
-
 {
   my $str =<<'ENDSTR';
 Look out honey, cause I'm using technology
