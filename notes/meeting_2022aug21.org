@@ -81,6 +81,8 @@
 
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021jun20/passing_junctions_to_subs.raku
 
+******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021jun20/junctionism.raku
+
 
 
 *** review of some suggested reading
