@@ -7,6 +7,8 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2022aug21
 
 ** current topics
+*** perl question
+**** https://interglacial.com/tpj/13b/
 *** one-line twiddle
 #+BEGIN_SRC cperl
 ($b, $a) = ($a, $b);
