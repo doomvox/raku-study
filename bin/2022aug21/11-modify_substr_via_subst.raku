@@ -4,6 +4,7 @@
 
 use v6;
 
+my $DEBUG = 1;
 
 {
 
