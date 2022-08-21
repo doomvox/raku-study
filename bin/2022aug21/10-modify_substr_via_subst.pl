@@ -27,8 +27,8 @@ use Data::Dumper;
 
 {
   my $str =<<'ENDSTR';
-Look out baby, cause I'm using technology
-FLAGGED: usage "baby"
+Look out honey, cause I'm using technology
+FLAGGED: usage "honey"
 Ain't got time to make no apology.
 ENDSTR
 
@@ -42,8 +42,8 @@ ENDSTR
   my $l = $skip2 - $skip1;
   say "   >>", substr( $str, $skip1, $l ), "<<"; # 
 
-  substr( $str, 0, $skip1 )            =~ s{baby}{respected colleague}g;
-  substr( $str, $skip2, ( length($str) - $skip2 ) ) =~ s{baby}{respected colleague}g;
+  substr( $str, 0, $skip1 )            =~ s{honey}{respected colleague}g;
+  substr( $str, $skip2, ( length($str) - $skip2 ) ) =~ s{honey}{respected colleague}g;
 
   say "---";
   say $str;
