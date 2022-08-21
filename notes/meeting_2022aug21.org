@@ -19,31 +19,6 @@
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/02-twiddle_vars.raku
 
 
-*** rob ransbottom:
-**** a little thing: inadvertantly calling a method on $_, forgot the variable 
-***** a raku drawback: that can't be a bug, because there's always a $_
-***** https://github.com/doomvox/raku-study/tree/main/bin/2022aug07/rob_using_topic_vs_named_var.raku
-**** and why did they do this: you can use container comparison with a single argument
-***** https://github.com/doomvox/raku-study/tree/main/bin/2022aug07/container_comparison_op.raku
-***** using notation infix:< ... >
-#+BEGIN_SRC raku
-say infix:<=:=>(42);    # True
-#+END_SRC
-****** https://docs.raku.org/language/operators#infix_=:=
-
-**** some error messages refer to a signature: ($?)
-#+BEGIN_SRC raku
-say  infix:<=:=>(Mu); 
- # Cannot resolve caller infix:<=:=>(Mu:U); none of these signatures match:
- #     ($?)
- #     (Mu \a, Mu \b)
-#+END_SRC
-
-***** lizmat explains the ? isn't a twigil, it indicates it's *optional*
-****** one example: https://github.com/rakudo/rakudo/blob/master/src/core.c/hash_slice.pm6
-******* "$ means a required positional in which we're not interested, so we didn't bother to give it a name'
-******* "$? is an optional positional in which we're not interested, also without name"
-
 
 ***** but there are cases where the ? *is* a twigil (nasty source of confusion)
 ****** https://docs.raku.org/language/variables#Compile-time_variables
