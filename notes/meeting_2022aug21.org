@@ -75,6 +75,7 @@
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021may16/file_find.raku
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021may30/file_find_with_junction_as_exclude.raku
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021may30/file_find_with_junction_as_exclude-bills_attempt.raku
+******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021may30/question_about_if_vs_ternary.raku
 
 
 
