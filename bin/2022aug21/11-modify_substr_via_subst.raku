@@ -33,10 +33,9 @@ sub de_sweeten( $str is rw, $fix ) {
   say "str again: $str";
   my $mo = $str.match(/ho/, :continue($skip1));
   dd $mo;
-  dd $/;
-  my $skip2 = $/.from;
+  my $skip2 = $mo.from;
   ($DEBUG) && say "skip2: $skip2";
-  # Match $/ = Match.new(:orig("Look out honey, cause I'm using technology\nFLAGGED: usage \"honey\"\nAin't got time to make no apology.\n"), :from(59), :pos(61))
+  # Match $mo = Match.new(:orig("Look out honey, cause I'm using technology\nFLAGGED: usage \"honey\"\nAin't got time to make no apology.\n"), :from(59), :pos(61))
   # skip2: 59
   ## NOTE this location makes *no* sense to me, it's several characters short of where it should be.
 
