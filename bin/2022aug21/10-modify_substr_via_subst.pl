@@ -28,7 +28,7 @@ use Data::Dumper;
 {
   my $str =<<'ENDSTR';
 Look out baby, cause I'm using technology
-FLAGGED: usage "baby"
+xxxFLAGGED: usage "baby"
 Ain't got time to make no apology.
 ENDSTR
 
