@@ -50,7 +50,6 @@ index
 
   say "---";
   say $str;
-
 }
 
 
