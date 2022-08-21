@@ -14,7 +14,7 @@ say "a1xa2".match(/a./, :continue(2));            # a2
 say "abracadabra".match(/ a .* a /, :exhaustive);
 # ｢abracadabra｣ ｢abracada｣ ｢abraca｣ ｢abra｣ ｢acadabra｣ ｢acada｣ ｢aca｣ ｢adabra｣ ｢ada｣ ｢abra｣
 say 'several words here'.match(/\w+/,:global);    # ｢several｣ ｢words｣ ｢here｣
-say 'abcdef'.match(/.*/, :pos(2));                # OUTPUT: «｢cdef｣␤» 
+say 'abcdef'.match(/.*/, :pos(2));                # cdef
 say "foo[bar][baz]".match(/../, :1st);            # OUTPUT: «｢fo｣␤» 
 say "foo[bar][baz]".match(/../, :2nd);            # OUTPUT: «｢o[｣␤» 
 say "foo[bar][baz]".match(/../, :3rd);            # OUTPUT: «｢ba｣␤» 
