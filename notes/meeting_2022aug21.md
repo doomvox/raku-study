@@ -1,28 +1,28 @@
-- [meeting notes August 07, 2022](#orgd9db838)
-  - [the raku study group](#orge539ec4)
-  - [current topics](#orgadc58f6)
-    - [one-line twiddle](#org64587ec)
-    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#orgee424bc)
-    - [rob ransbottom:](#org31f6fa1)
-    - [weekly challenge](#org251f16d)
-    - [substr-rw](#orgafa0863)
-    - [Grammar.nqp](#org1b0993c)
-  - [topics for next time](#orgedd3de5)
-    - [raku for data science  (one for next time)](#org8b5e771)
-    - [william michels, corrupt json handling (maybe next week)](#org54d5000)
-  - [earlier topics](#org43e0b8c)
-    - [regex feature: control what's captured with <( &#x2026; )>](#org2473643)
-  - [announcements](#org9ff7e6c)
-    - [August 13th & 14th: online raku conference](#org815d1a8)
-    - [August 21st: the next raku study group meeting](#org66ae36e)
+- [meeting notes August 07, 2022](#orgf1a4b73)
+  - [the raku study group](#org01c05c2)
+  - [current topics](#org34a8c5f)
+    - [one-line twiddle](#orgb29b09a)
+    - [perl5 perl-porters: \U\L interpolation contructs don't work well together](#org11f61cf)
+    - [rob ransbottom:](#org67900fd)
+    - [weekly challenge](#orgb7c0392)
+    - [substr-rw](#org49281a0)
+    - [Grammar.nqp](#org01d3eb5)
+  - [topics for next time](#orgfbd5a16)
+    - [raku for data science  (one for next time)](#org55fe37a)
+    - [william michels, corrupt json handling (maybe next week)](#org8327883)
+  - [earlier topics](#org86a6e97)
+    - [regex feature: control what's captured with <( &#x2026; )>](#org0af44b4)
+  - [announcements](#org5d1fba4)
+    - [August 13th & 14th: online raku conference](#orgd5137bf)
+    - [August 21st: the next raku study group meeting](#org22c1cc3)
 
 
-<a id="orgd9db838"></a>
+<a id="orgf1a4b73"></a>
 
 # meeting notes August 07, 2022
 
 
-<a id="orge539ec4"></a>
+<a id="org01c05c2"></a>
 
 ## the raku study group
 
@@ -37,12 +37,12 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug21>
 
 
-<a id="orgadc58f6"></a>
+<a id="org34a8c5f"></a>
 
 ## current topics
 
 
-<a id="org64587ec"></a>
+<a id="orgb29b09a"></a>
 
 ### one-line twiddle
 
@@ -50,8 +50,20 @@
 ($b, $a) = ($a, $b);
 ```
 
+1.  perl
 
-<a id="orgee424bc"></a>
+    1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug2101-twiddle_vars.pl>
+    
+    2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/01-twiddle<sub>vars.pl</sub>
+
+2.  raku
+
+    1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022aug2102-twiddle_vars.raku>
+    
+    2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/02-twiddle<sub>vars.raku</sub>
+
+
+<a id="org11f61cf"></a>
 
 ### perl5 perl-porters: \U\L interpolation contructs don't work well together
 
@@ -62,7 +74,7 @@
         1.  <https://medium.com/@typefacts/the-german-capital-letter-eszett-e0936c1388f8>
 
 
-<a id="org31f6fa1"></a>
+<a id="org67900fd"></a>
 
 ### rob ransbottom:
 
@@ -132,7 +144,7 @@
             1.  <https://github.com/rakudo/rakudo/issues/3748>
 
 
-<a id="org251f16d"></a>
+<a id="orgb7c0392"></a>
 
 ### weekly challenge
 
@@ -141,7 +153,7 @@
 2.  <https://github.com/Util/perlweeklychallenge-club/tree/branch-for-challenge-176/challenge-176/bruce-gray>
 
 
-<a id="orgafa0863"></a>
+<a id="org49281a0"></a>
 
 ### substr-rw
 
@@ -154,7 +166,7 @@
     1.  <https://docs.raku.org/routine/subst-mutate>
 
 
-<a id="org1b0993c"></a>
+<a id="org01d3eb5"></a>
 
 ### Grammar.nqp
 
@@ -173,12 +185,12 @@
     2.  <https://vrurg.github.io/arfb-publication/03-containers-and-symbols/>
 
 
-<a id="orgedd3de5"></a>
+<a id="orgfbd5a16"></a>
 
 ## topics for next time
 
 
-<a id="org8b5e771"></a>
+<a id="org55fe37a"></a>
 
 ### TODO raku for data science  (one for next time)
 
@@ -187,19 +199,19 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="org54d5000"></a>
+<a id="org8327883"></a>
 
 ### TODO william michels, corrupt json handling (maybe next week)
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="org43e0b8c"></a>
+<a id="org86a6e97"></a>
 
 ## earlier topics
 
 
-<a id="org2473643"></a>
+<a id="org0af44b4"></a>
 
 ### regex feature: control what's captured with <( &#x2026; )>
 
@@ -214,12 +226,12 @@
     <https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-lost-higher-up>
 
 
-<a id="org9ff7e6c"></a>
+<a id="org5d1fba4"></a>
 
 ## announcements
 
 
-<a id="org815d1a8"></a>
+<a id="orgd5137bf"></a>
 
 ### August 13th & 14th: online raku conference
 
@@ -232,7 +244,7 @@
     1.  <https://conf.raku.org/talk/181>
 
 
-<a id="org66ae36e"></a>
+<a id="org22c1cc3"></a>
 
 ### August 21st: the next raku study group meeting
 
