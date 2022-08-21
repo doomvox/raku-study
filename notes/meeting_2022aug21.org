@@ -20,8 +20,7 @@
 
 
 
-***** but there are cases where the ? *is* a twigil (nasty source of confusion)
-****** https://docs.raku.org/language/variables#Compile-time_variables
+*** the revenge of the son of the return of junction gotchas
 
 ***** Márton Polgár: junctions and negated operators (a bad raku trap)
 ****** negation with junctions goes outside the junction
