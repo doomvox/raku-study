@@ -69,7 +69,15 @@ ENDSTR
 
  say "---";
   say $new_str;
+
+# Look out respected colleague, cause I'm using technology
+# Ain't got time to make no apology.
+# FLAGGED: usage "honey"
+
 }
+
+
+
 
 sub de_sweeten {
   my $str = shift;
