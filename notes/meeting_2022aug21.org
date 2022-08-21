@@ -53,11 +53,7 @@
 ***** like substr but you can use it on the left-hand side 
 ****** as with perl's dual usage "substr"
 
-*** Grammar.nqp
-**** https://github.com/rakudo/rakudo/blob/master/src/Perl6/Grammar.nqp
-***** locally: /home/doom/End/Cave/Raku/Wall/rakudo/gen/moar/Grammar.nqp
-**** has some features I'm unfamiliar with, e.g. ":my $blah" inside a grammar
-**** had trouble seeing what "token comp_unit" does, exactly
+
 **** TODO tbr:
 ***** https://vrurg.github.io/arfb.html
 ***** https://vrurg.github.io/arfb-publication/03-containers-and-symbols/
@@ -78,12 +74,6 @@
 ***** locally: /home/doom/End/Cave/Raku/Wall/rakudo/gen/moar/Grammar.nqp
 **** has some features I'm unfamiliar with, e.g. ":my $blah" inside a grammar
 **** had trouble seeing what "token comp_unit" does, exactly
-**** TODO tbr:
-***** https://vrurg.github.io/arfb.html
-***** https://vrurg.github.io/arfb-publication/03-containers-and-symbols/
-
-
-
 
 *** regex feature: control what's captured with <( ... )>
 ***** <( isn't really equivalent to \K in a substitution
