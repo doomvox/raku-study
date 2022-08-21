@@ -46,6 +46,18 @@ use Data::Dumper;
 }
 
 
+{
+  # Consider what the code would like like if you couldn't do a one-line twiddle:
+  my ($a, $b) = (3, 7);
+  say "a: $a,  b: $b";    # a: 3,  b: 7
+
+  my $tmp = $b;
+  $b = $a;
+  $a = $tmp;
+
+  ($b, $a) = ($a, $b);
+  say "a: $a,  b: $b";    # a: 7,  b: 3
+}
 
 
 
