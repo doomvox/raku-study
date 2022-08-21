@@ -79,6 +79,10 @@
 
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021may30/smartmatches_and_junctions.raku
 
+******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021jun20/passing_junctions_to_subs.raku
+
+
+
 *** review of some suggested reading
 **** https://vrurg.github.io/arfb.html
 **** https://vrurg.github.io/arfb-publication/03-containers-and-symbols/
