@@ -40,13 +40,19 @@
 ****** github issue:
 ******* https://github.com/rakudo/rakudo/issues/3748
 
+*** strings modifications 
+**** can be based on 
+***** locations
+****** substr
+***** contents (what the string is)
+****** s///
+***** combinations of the two 
 
+**** last time we discussed:
+**** substr-rw
+***** like substr but you can use it on the left-hand side 
+****** as with perl's dual usage "substr"
 
-*** substr-rw
-**** like substr but you can use it on the left-hand side 
-***** as with perl's dual usage "substr"
-**** not to be confused with the deprecated
-***** https://docs.raku.org/routine/subst-mutate
 
 *** Grammar.nqp
 **** https://github.com/rakudo/rakudo/blob/master/src/Perl6/Grammar.nqp
