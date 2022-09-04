@@ -27,7 +27,7 @@
 **** can be based on 
 ***** locations
 ****** substr
-***** contents (what the string is)
+***** contents (what's in the string)
 ****** s///
 ***** combinations of the two 
 
