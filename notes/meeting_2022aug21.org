@@ -25,7 +25,7 @@
 
 *** strings modifications 
 **** can be based on 
-***** locations
+***** locations (places in the string)
 ****** substr
 ***** contents (what's in the string)
 ****** s///
