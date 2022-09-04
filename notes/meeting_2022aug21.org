@@ -147,5 +147,5 @@ https://stackoverflow.com/questions/63426361/raku-effect-of-capture-markers-is-l
 
 ** announcements 
 *** September 11th: the next raku study group meeting
-**** skipping labor day weekend
+**** note: we're skipping labor day weekend
 
