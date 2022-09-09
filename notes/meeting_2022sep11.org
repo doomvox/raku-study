@@ -10,43 +10,6 @@
 
 *** Raku conference vids, e.g. jonathan worthington
 
-*** one-line twiddle
-#+BEGIN_SRC cperl
-($b, $a) = ($a, $b);
-#+END_SRC 
-**** perl
-***** https://github.com/doomvox/raku-study/tree/main/bin/2022aug2101-twiddle_vars.pl
-***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/01-twiddle_vars.pl
-**** raku
-***** https://github.com/doomvox/raku-study/tree/main/bin/2022aug2102-twiddle_vars.raku
-***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/02-twiddle_vars.raku
-
-*** strings modifications 
-**** can be based on 
-***** locations (places in the string)
-****** substr
-***** contents (what's in the string)
-****** s///
-***** combinations of the two 
-
-**** substr-rw
-***** like substr but you can use it on the left-hand side 
-****** as with perl's dual usage "substr"
-
-**** perl
-***** https://github.com/doomvox/raku-study/tree/main/bin/2022aug21/10-modify_substr_via_subst.pl
-***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/10-modify_substr_via_subst.pl
-**** raku
-***** https://github.com/doomvox/raku-study/tree/main/bin/2022aug21/11-modify_substr_via_subst.raku
-***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/11-modify_substr_via_subst.raku
-
-*** aside: issues with .match
-***** https://github.com/doomvox/raku-study/tree/main/bin/2022aug21/match_basics_sigh.raku
-***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022aug21/match_basics_sigh.raku
-***** https://docs.raku.org/routine/match
-***** But see HACK in "11-modify_substr_via_subst.raku" linked to above
-
-
 *** the revenge of the son of the return of junction gotchas
 **** our story thus far:
 
