@@ -1,13 +1,13 @@
-- [junctions](#orgc692b34)
-    - [the revenge of the son of the return of junction gotchas](#org44976cd)
+- [junctions](#org4cf40b4)
+    - [the revenge of the son of the return of junction gotchas](#org5aec57d)
 
 
-<a id="orgc692b34"></a>
+<a id="org4cf40b4"></a>
 
 # junctions
 
 
-<a id="org44976cd"></a>
+<a id="org5aec57d"></a>
 
 ### the revenge of the son of the return of junction gotchas
 
