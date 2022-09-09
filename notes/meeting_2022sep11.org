@@ -2,15 +2,13 @@
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022aug21.md
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2022aug21
+****** https://github.com/doomvox/raku-study/tree/main/bin/sep11
 
 ** current topics
-*** perl question
-**** https://interglacial.com/tpj/13b/
 
-*** anyone seen Raku conference?
+*** Raku conference vids, e.g. jonathan worthington
 
 *** one-line twiddle
 #+BEGIN_SRC cperl
