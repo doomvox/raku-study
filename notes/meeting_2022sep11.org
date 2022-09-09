@@ -73,16 +73,10 @@
 https://github.com/tadzik/File-Find
 ********* DONE open issue / submit pull request to Mu the name and exclude arguments
 
-
-
 ****** junctions
 ******* basics
 ******** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
 ******** https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html
-
-*** review of some suggested reading
-**** https://vrurg.github.io/arfb.html
-**** https://vrurg.github.io/arfb-publication/03-containers-and-symbols/
 
 ** topics for next time
 *** TODO raku for data science  
