@@ -78,7 +78,8 @@ https://github.com/tadzik/File-Find
 ******** /home/doom/End/Cave/Perl6/Wall/raku-study/notes/junctions
 ******** https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html
 
-** topics for next time
+
+** additional topics, sometday
 *** TODO raku for data science  
 **** gradual types for gradually cleaning up data
 **** https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/
