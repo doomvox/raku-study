@@ -97,6 +97,4 @@ https://github.com/tadzik/File-Find
 **** had trouble seeing what "token comp_unit" does, exactly
 
 ** announcements 
-*** September 11th: the next raku study group meeting
-**** note: we're skipping labor day weekend
-
+*** September 24th: the next raku study group meeting

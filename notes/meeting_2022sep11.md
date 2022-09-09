@@ -1,24 +1,24 @@
-- [meeting notes September 11, 2022](#org5e6db9a)
-  - [the raku study group](#org2f7cf0e)
-  - [current topics](#org5d2ff6e)
-    - [Raku conference vids, e.g. jonathan worthington](#org722cd29)
-  - [topics to revisit, from last meeting](#orga3787d7)
-    - [the revenge of the son of the return of junction gotchas](#orgeaaed0c)
-  - [additional topics, for someday](#org7d85d49)
-    - [raku for data science](#org7394fa6)
-    - [william michels, corrupt json handling](#orgdbbc329)
-  - [earlier topics](#orgf4d93ac)
-    - [Grammar.nqp](#org29e0dcb)
-  - [announcements](#org325dfe0)
-    - [September 11th: the next raku study group meeting](#org22a1024)
+- [meeting notes September 11, 2022](#orgb42d8e3)
+  - [the raku study group](#orgcc565e4)
+  - [current topics](#orgce57616)
+    - [Raku conference vids, e.g. jonathan worthington](#org68b5197)
+  - [topics to revisit, from last meeting](#orge381057)
+    - [the revenge of the son of the return of junction gotchas](#orgaabb7cd)
+  - [additional topics, for someday](#org7f8da7b)
+    - [raku for data science](#orgde9d255)
+    - [william michels, corrupt json handling](#orgbf4ce5a)
+  - [earlier topics](#org7b4e0a0)
+    - [Grammar.nqp](#org0e6b596)
+  - [announcements](#org8f6f893)
+    - [September 24th: the next raku study group meeting](#orgb6d14a8)
 
 
-<a id="org5e6db9a"></a>
+<a id="orgb42d8e3"></a>
 
 # meeting notes September 11, 2022
 
 
-<a id="org2f7cf0e"></a>
+<a id="orgcc565e4"></a>
 
 ## the raku study group
 
@@ -33,22 +33,22 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/sep11>
 
 
-<a id="org5d2ff6e"></a>
+<a id="orgce57616"></a>
 
 ## current topics
 
 
-<a id="org722cd29"></a>
+<a id="org68b5197"></a>
 
 ### Raku conference vids, e.g. jonathan worthington
 
 
-<a id="orga3787d7"></a>
+<a id="orge381057"></a>
 
 ## topics to revisit, from last meeting
 
 
-<a id="orgeaaed0c"></a>
+<a id="orgaabb7cd"></a>
 
 ### the revenge of the son of the return of junction gotchas
 
@@ -141,12 +141,12 @@
                 2.  <https://www.nntp.perl.org/group/perl.perl6.users/2020/06/msg8870.html>
 
 
-<a id="org7d85d49"></a>
+<a id="org7f8da7b"></a>
 
 ## additional topics, for someday
 
 
-<a id="org7394fa6"></a>
+<a id="orgde9d255"></a>
 
 ### TODO raku for data science
 
@@ -155,19 +155,19 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="orgdbbc329"></a>
+<a id="orgbf4ce5a"></a>
 
 ### TODO william michels, corrupt json handling
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="orgf4d93ac"></a>
+<a id="org7b4e0a0"></a>
 
 ## earlier topics
 
 
-<a id="org29e0dcb"></a>
+<a id="org0e6b596"></a>
 
 ### Grammar.nqp
 
@@ -180,13 +180,11 @@
 3.  had trouble seeing what "token comp<sub>unit</sub>" does, exactly
 
 
-<a id="org325dfe0"></a>
+<a id="org8f6f893"></a>
 
 ## announcements
 
 
-<a id="org22a1024"></a>
+<a id="orgb6d14a8"></a>
 
-### September 11th: the next raku study group meeting
-
-1.  note: we're skipping labor day weekend
+### September 24th: the next raku study group meeting
