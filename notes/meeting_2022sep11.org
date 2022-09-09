@@ -10,6 +10,9 @@
 
 *** Raku conference vids, e.g. jonathan worthington
 
+
+** revisit topic from last meeting 
+
 *** the revenge of the son of the return of junction gotchas
 **** our story thus far:
 
