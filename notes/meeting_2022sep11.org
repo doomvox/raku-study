@@ -28,7 +28,6 @@
 
 *** Checking lists of numbers (in arrays) for equality
 **** 
-
 #+BEGIN_SRC raku
 die unless ( @a »==« @b ).all.so
 #+END_SRC
