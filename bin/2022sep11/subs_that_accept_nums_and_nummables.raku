@@ -41,7 +41,10 @@ say $twoface + 1;  # 4
 $twoface = '3';
 say $twoface + 2;  # 5
 
-$twoface = 'threesies';
-say $twoface;
-# Type check failed in assignment to $twoface; expected Numesque but got Str ("threesies")
-#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022sep11/subs_that_accept_nums_and_nummables.raku line 44
+# $twoface = 'threesies';
+# say $twoface;
+# # Type check failed in assignment to $twoface; expected Numesque but got Str ("threesies")
+# #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022sep11/subs_that_accept_nums_and_nummables.raku line 44
+
+
+say $twoface.WHAT;
