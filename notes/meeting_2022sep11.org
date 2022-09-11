@@ -22,7 +22,7 @@
 **** subset Numesque of Any where { defined .Numeric };
 **** things typed as IntStr won't accept Int or Str
 **** IntStr(Cool) does weird things (LTA errors)
-
+**** I defend the use: "strong" typing for perl-damaged brains
 
 ** additional topics, for someday
 *** TODO raku for data science  
