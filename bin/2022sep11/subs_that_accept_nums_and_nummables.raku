@@ -24,3 +24,4 @@ my IntStr $thing;
 # $thing = 6;
 # Type check failed in assignment to $thing; expected IntStr but got Int (6)
 $thing = 'hey';
+# Type check failed in assignment to $thing; expected IntStr but got Str ("hey")
