@@ -52,6 +52,6 @@ sub accept_numesque( Numesque $arg ) {
     say $arg, ' ', $arg.WHAT;
 }
 
-accept_numesque( 666 );
+accept_numesque( 666 );  # 666 (Int)
 
-accept_numesque( '77' );
+accept_numesque( '77' ); # 77 (Str)
