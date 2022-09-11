@@ -37,7 +37,6 @@ find . -print0 | raku -ne 'BEGIN $*IN.nl-in = "\0"; .say;'
 ****** https://vrurg.github.io/2020/11/30/Report-On-New-Coercions-Part-2
 ****** https://vrurg.github.io/2020/12/26/Coercion-Return-Values
 
-
 *** Checking lists of numbers (in arrays) for equality
 **** 
 #+BEGIN_SRC raku
