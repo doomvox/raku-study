@@ -72,7 +72,9 @@ say @stringies;
 # Too few positionals passed; expected 3 arguments but got 2
 
 my IntStr $is = <666>;
+say $is;      # 666
+say $is.WHAT; # (IntStr)
 
+@stringies[3] = $is;
 
-say $is;
-say $is.WHAT;
+say @stringies;
