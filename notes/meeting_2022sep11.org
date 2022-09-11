@@ -7,10 +7,8 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/sep11
 
 ** current topics
-
 *** stale perl code and the programmers who can't let go
 **** my image publication stopgap measures
-
 
 *** many unix utils have some form of -0
 **** 
