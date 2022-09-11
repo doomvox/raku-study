@@ -54,8 +54,6 @@ die "Failed" unless @pcp.head(20).join(',') eq @exp.join(',');
 ****** https://github.com/doomvox/raku-study/notes/bg-01-use_of_repeated.png
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/bg-01-use_of_repeated.png
 
-
-
 ** additional topics, for someday
 *** TODO raku for data science  
 **** gradual types for gradually cleaning up data

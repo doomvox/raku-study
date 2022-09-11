@@ -1,28 +1,28 @@
-- [meeting notes September 11, 2022](#orgc8de294)
-  - [the raku study group](#org5cac258)
-  - [current topics](#org6d31f54)
-    - [stale perl code and the programmers who can't let go](#org717ea4a)
-    - [many unix utils have some form of -0](#org764b7a1)
-    - [IntStr vs my Numesque subset](#org11c862e)
-    - [Checking lists of numbers (in arrays) for equality](#orgd0ce946)
-    - [repeated](#orgf22ec2b)
-  - [additional topics, for someday](#orgc88d991)
-    - [raku for data science](#orgd121dd1)
-    - [william michels, corrupt json handling](#org00cc07e)
-    - [Raku conference vids, e.g. jonathan worthington](#org39b151b)
-  - [earlier topics](#org5efc127)
-    - [Grammar.nqp](#orgd16e63a)
-  - [announcements](#org9c6a252)
-    - [September 24th: the next raku study group meeting](#org25e0e87)
-    - [Some of my Bali vacation pics:](#org89ce5e0)
+- [meeting notes September 11, 2022](#org29e00d7)
+  - [the raku study group](#orgf07d3e9)
+  - [current topics](#org9dbcc64)
+    - [stale perl code and the programmers who can't let go](#org6fcee41)
+    - [many unix utils have some form of -0](#org7a9beb3)
+    - [IntStr vs my Numesque subset](#org08e43bb)
+    - [Checking lists of numbers (in arrays) for equality](#org75b259f)
+    - [repeated](#org765fbe4)
+  - [additional topics, for someday](#org0b6a45b)
+    - [raku for data science](#org32512e5)
+    - [william michels, corrupt json handling](#org95f7325)
+    - [Raku conference vids, e.g. jonathan worthington](#org612fc64)
+  - [earlier topics](#orgeba9bdb)
+    - [Grammar.nqp](#org5c9b751)
+  - [announcements](#orga35aee2)
+    - [September 24th: the next raku study group meeting](#org1f97ea8)
+    - [Some of my Bali vacation pics:](#org99f28c9)
 
 
-<a id="orgc8de294"></a>
+<a id="org29e00d7"></a>
 
 # meeting notes September 11, 2022
 
 
-<a id="org5cac258"></a>
+<a id="orgf07d3e9"></a>
 
 ## the raku study group
 
@@ -37,19 +37,19 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/sep11>
 
 
-<a id="org6d31f54"></a>
+<a id="org9dbcc64"></a>
 
 ## current topics
 
 
-<a id="org717ea4a"></a>
+<a id="org6fcee41"></a>
 
 ### stale perl code and the programmers who can't let go
 
 1.  my image publication stopgap measures
 
 
-<a id="org764b7a1"></a>
+<a id="org7a9beb3"></a>
 
 ### many unix utils have some form of -0
 
@@ -68,7 +68,7 @@
         ```
 
 
-<a id="org11c862e"></a>
+<a id="org08e43bb"></a>
 
 ### IntStr vs my Numesque subset
 
@@ -93,7 +93,7 @@
         3.  <https://vrurg.github.io/2020/12/26/Coercion-Return-Values>
 
 
-<a id="orgd0ce946"></a>
+<a id="org75b259f"></a>
 
 ### Checking lists of numbers (in arrays) for equality
 
@@ -110,7 +110,7 @@
     ```
 
 
-<a id="orgf22ec2b"></a>
+<a id="org765fbe4"></a>
 
 ### repeated
 
@@ -125,12 +125,12 @@
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/bg-01-use<sub>of</sub><sub>repeated.png</sub>
 
 
-<a id="orgc88d991"></a>
+<a id="org0b6a45b"></a>
 
 ## additional topics, for someday
 
 
-<a id="orgd121dd1"></a>
+<a id="org32512e5"></a>
 
 ### TODO raku for data science
 
@@ -139,26 +139,26 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="org00cc07e"></a>
+<a id="org95f7325"></a>
 
 ### TODO william michels, corrupt json handling
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="org39b151b"></a>
+<a id="org612fc64"></a>
 
 ### Raku conference vids, e.g. jonathan worthington
 
 1.  database migrations in raku
 
 
-<a id="org5efc127"></a>
+<a id="orgeba9bdb"></a>
 
 ## earlier topics
 
 
-<a id="orgd16e63a"></a>
+<a id="org5c9b751"></a>
 
 ### Grammar.nqp
 
@@ -171,17 +171,17 @@
 3.  had trouble seeing what "token comp<sub>unit</sub>" does, exactly
 
 
-<a id="org9c6a252"></a>
+<a id="orga35aee2"></a>
 
 ## announcements
 
 
-<a id="org25e0e87"></a>
+<a id="org1f97ea8"></a>
 
 ### September 24th: the next raku study group meeting
 
 
-<a id="org89ce5e0"></a>
+<a id="org99f28c9"></a>
 
 ### Some of my Bali vacation pics:
 
