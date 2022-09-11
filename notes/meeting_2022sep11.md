@@ -1,23 +1,23 @@
-- [meeting notes September 11, 2022](#org78ef730)
-  - [the raku study group](#org07ed989)
-  - [current topics](#org966d27c)
-    - [Raku conference vids, e.g. jonathan worthington](#org0ff40f6)
-  - [additional topics, for someday](#orge8c7759)
-    - [raku for data science](#orgcd99400)
-    - [william michels, corrupt json handling](#orgb070339)
-  - [earlier topics](#org2651af8)
-    - [Grammar.nqp](#org770046c)
-  - [announcements](#org9474b9a)
-    - [September 24th: the next raku study group meeting](#org349972a)
-    - [Pushed out some of the Bali vacation pics:](#orgcd7c0ad)
+- [meeting notes September 11, 2022](#org8cacdc1)
+  - [the raku study group](#orga286098)
+  - [current topics](#org7368b0f)
+    - [Raku conference vids, e.g. jonathan worthington](#org7a37445)
+  - [additional topics, for someday](#org166ee09)
+    - [raku for data science](#org70590bc)
+    - [william michels, corrupt json handling](#org44955d2)
+  - [earlier topics](#org71b96be)
+    - [Grammar.nqp](#orgaadfe19)
+  - [announcements](#org3aaf8b0)
+    - [September 24th: the next raku study group meeting](#org0787607)
+    - [Pushed out some of the Bali vacation pics:](#orgb82f4b4)
 
 
-<a id="org78ef730"></a>
+<a id="org8cacdc1"></a>
 
 # meeting notes September 11, 2022
 
 
-<a id="org07ed989"></a>
+<a id="orga286098"></a>
 
 ## the raku study group
 
@@ -32,22 +32,22 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/sep11>
 
 
-<a id="org966d27c"></a>
+<a id="org7368b0f"></a>
 
 ## current topics
 
 
-<a id="org0ff40f6"></a>
+<a id="org7a37445"></a>
 
 ### Raku conference vids, e.g. jonathan worthington
 
 
-<a id="orge8c7759"></a>
+<a id="org166ee09"></a>
 
 ## additional topics, for someday
 
 
-<a id="orgcd99400"></a>
+<a id="org70590bc"></a>
 
 ### TODO raku for data science
 
@@ -56,19 +56,19 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="orgb070339"></a>
+<a id="org44955d2"></a>
 
 ### TODO william michels, corrupt json handling
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="org2651af8"></a>
+<a id="org71b96be"></a>
 
 ## earlier topics
 
 
-<a id="org770046c"></a>
+<a id="orgaadfe19"></a>
 
 ### Grammar.nqp
 
@@ -81,17 +81,17 @@
 3.  had trouble seeing what "token comp<sub>unit</sub>" does, exactly
 
 
-<a id="org9474b9a"></a>
+<a id="org3aaf8b0"></a>
 
 ## announcements
 
 
-<a id="org349972a"></a>
+<a id="org0787607"></a>
 
 ### September 24th: the next raku study group meeting
 
 
-<a id="orgcd7c0ad"></a>
+<a id="orgb82f4b4"></a>
 
 ### Pushed out some of the Bali vacation pics:
 
