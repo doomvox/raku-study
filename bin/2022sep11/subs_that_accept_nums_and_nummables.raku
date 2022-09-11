@@ -84,5 +84,6 @@ say @stringies.map({ .WHAT });
 # ((Str) (Str) (Str) (IntStr))
 
 
-@stringies[4] = 'doomed attempt';
+@stringies[4] = 'workies';
 say @stringies;
+# [godzilla rhodan mothera 666 doomed attempt]
