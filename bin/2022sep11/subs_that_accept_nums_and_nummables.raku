@@ -63,7 +63,9 @@ accept_numesque( '77' ); # 77  (Str)
 my Str @stringies = 'godzilla', 'rhodan', 'mothera';
 say @stringies;
 
-my IntStr $is = '666'.IntStr;
+# my IntStr $is = '666'.IntStr;
+
+my IntStr $is = '666';
 
 say $is;
 say $is.WHAT;
