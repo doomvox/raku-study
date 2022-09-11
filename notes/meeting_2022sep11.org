@@ -18,7 +18,7 @@
 find TreeAlpha -type f -print0 | xargs -0 egrep godzilla
 #+END_SRC
 
-**** Does Raku/rakudo have a -0?  Is it needed? bruce gray solution
+**** Does Raku/rakudo have a -0?  Is it needed? Bruce gray solution:
 ***** 
 #+BEGIN_SRC sh
 find . -print0 | raku -ne 'BEGIN $*IN.nl-in = "\0"; .say;'
