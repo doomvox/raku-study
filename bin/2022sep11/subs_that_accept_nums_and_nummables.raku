@@ -86,3 +86,6 @@ say @stringies.map({ .WHAT });
 @stringies[4] = 'workies';
 say @stringies;
 # [godzilla rhodan mothera 666 workies]
+
+
+@stringies[5] = 0;
