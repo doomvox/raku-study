@@ -82,3 +82,6 @@ say .WHAT for @stringies;  # (IntStr)
 
 say @stringies.map({ .WHAT });
 # ((Str) (Str) (Str) (IntStr))
+
+
+@stringies[4] = 'doomed attempt';
