@@ -19,7 +19,7 @@ sub do_stuffy_stuff ( IntStr(Any) $item ) {  # 16
 # do_stuffy_stuff(3);       # This type cannot unbox to a native string: P6opaque, Int
 do_stuffy_stuff('foah');    # Too few positionals passed; expected 3 arguments but got 1  (line 20)
 
-## bruce concurs the error is LTA (at the very least)
+## bruce concurs the error is LTA 
 
 exit;
 
