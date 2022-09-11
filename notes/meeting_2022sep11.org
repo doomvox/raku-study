@@ -24,8 +24,6 @@ find TreeAlpha -type f -print0 | xargs -0 egrep godzilla
 find . -print0 | raku -ne 'BEGIN $*IN.nl-in = "\0"; .say;'
 #+END_SRC
 
-
-
 *** IntStr vs my Numesque subset
 **** subset Numesque of Any where { defined .Numeric };
 **** things typed as IntStr won't accept Int or Str
