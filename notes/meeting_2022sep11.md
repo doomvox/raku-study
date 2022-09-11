@@ -1,27 +1,27 @@
-- [meeting notes September 11, 2022](#org999e3b5)
-  - [the raku study group](#orgbe9c9e9)
-  - [current topics](#org40e25f1)
-    - [stale perl code and the programmers who can't let go](#org617f3b4)
-    - [many unix utils have some form of -0](#orga724951)
-    - [IntStr vs my Numesque subset](#org75c40ef)
-    - [Checking lists of numbers (in arrays) for equality](#orgc2baf8c)
-  - [additional topics, for someday](#orgdfcb777)
-    - [raku for data science](#org6318a1b)
-    - [william michels, corrupt json handling](#org4330894)
-    - [Raku conference vids, e.g. jonathan worthington](#org11d72d9)
-  - [earlier topics](#org4271888)
-    - [Grammar.nqp](#org5c7b896)
-  - [announcements](#org0eebc9e)
-    - [September 24th: the next raku study group meeting](#orge1e7d7f)
-    - [Some of my Bali vacation pics:](#org27904d2)
+- [meeting notes September 11, 2022](#orge1a332d)
+  - [the raku study group](#orga432f1b)
+  - [current topics](#org7575713)
+    - [stale perl code and the programmers who can't let go](#org35e57de)
+    - [many unix utils have some form of -0](#orgc969a21)
+    - [IntStr vs my Numesque subset](#orgb64d50d)
+    - [Checking lists of numbers (in arrays) for equality](#org4572ee1)
+  - [additional topics, for someday](#orgc852aa6)
+    - [raku for data science](#org8675ecd)
+    - [william michels, corrupt json handling](#orgbf6c3db)
+    - [Raku conference vids, e.g. jonathan worthington](#orga078d0c)
+  - [earlier topics](#org7f057fc)
+    - [Grammar.nqp](#orgc1dc55a)
+  - [announcements](#org3188b41)
+    - [September 24th: the next raku study group meeting](#orgf98375f)
+    - [Some of my Bali vacation pics:](#orgd39b98f)
 
 
-<a id="org999e3b5"></a>
+<a id="orge1a332d"></a>
 
 # meeting notes September 11, 2022
 
 
-<a id="orgbe9c9e9"></a>
+<a id="orga432f1b"></a>
 
 ## the raku study group
 
@@ -36,19 +36,19 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/sep11>
 
 
-<a id="org40e25f1"></a>
+<a id="org7575713"></a>
 
 ## current topics
 
 
-<a id="org617f3b4"></a>
+<a id="org35e57de"></a>
 
 ### stale perl code and the programmers who can't let go
 
 1.  my image publication stopgap measures
 
 
-<a id="orga724951"></a>
+<a id="orgc969a21"></a>
 
 ### many unix utils have some form of -0
 
@@ -67,7 +67,7 @@
         ```
 
 
-<a id="org75c40ef"></a>
+<a id="orgb64d50d"></a>
 
 ### IntStr vs my Numesque subset
 
@@ -84,9 +84,15 @@
     1.  <https://www.youtube.com/watch?v=1-KV8oiOSZA&t=2s>
     
     2.  Playing nice with others using the new COERCE protocol - Matthew Stuckwisch
+    
+        1.  <https://vrurg.github.io/2020/11/16/Report-On-New-Coercions>
+        
+        2.  <https://vrurg.github.io/2020/11/30/Report-On-New-Coercions-Part-2>
+        
+        3.  <https://vrurg.github.io/2020/12/26/Coercion-Return-Values>
 
 
-<a id="orgc2baf8c"></a>
+<a id="org4572ee1"></a>
 
 ### Checking lists of numbers (in arrays) for equality
 
@@ -103,12 +109,12 @@
     ```
 
 
-<a id="orgdfcb777"></a>
+<a id="orgc852aa6"></a>
 
 ## additional topics, for someday
 
 
-<a id="org6318a1b"></a>
+<a id="org8675ecd"></a>
 
 ### TODO raku for data science
 
@@ -117,26 +123,26 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="org4330894"></a>
+<a id="orgbf6c3db"></a>
 
 ### TODO william michels, corrupt json handling
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="org11d72d9"></a>
+<a id="orga078d0c"></a>
 
 ### Raku conference vids, e.g. jonathan worthington
 
 1.  database migrations in raku
 
 
-<a id="org4271888"></a>
+<a id="org7f057fc"></a>
 
 ## earlier topics
 
 
-<a id="org5c7b896"></a>
+<a id="orgc1dc55a"></a>
 
 ### Grammar.nqp
 
@@ -149,17 +155,17 @@
 3.  had trouble seeing what "token comp<sub>unit</sub>" does, exactly
 
 
-<a id="org0eebc9e"></a>
+<a id="org3188b41"></a>
 
 ## announcements
 
 
-<a id="orge1e7d7f"></a>
+<a id="orgf98375f"></a>
 
 ### September 24th: the next raku study group meeting
 
 
-<a id="org27904d2"></a>
+<a id="orgd39b98f"></a>
 
 ### Some of my Bali vacation pics:
 
