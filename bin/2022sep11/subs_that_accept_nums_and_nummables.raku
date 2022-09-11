@@ -50,3 +50,6 @@ say $twoface.WHAT; # (Str)
 
 
 
+sub accept_numesque( Numesque $arg ) {
+    say $arg, $arg.WHAT;
+}
