@@ -12,7 +12,7 @@ sub do_other_stuff ( IntStr $item ) {
 # do_other_stuff(3);         # Type check failed in binding to parameter '$item'; expected IntStr but got Int (3)
 # do_other_stuff('foah');    # Type check failed in binding to parameter '$item'; expected IntStr but got Str ("foah")
 
-
+## The idea here is you might want a routine that accepts 3 or '3' 
 sub do_stuffy_stuff ( IntStr(Any) $item ) {  # 16
     say $item.WHAT;
 }
