@@ -1,26 +1,26 @@
-- [meeting notes September 11, 2022](#org8e68033)
-  - [the raku study group](#orgc9fe5dd)
-  - [current topics](#org04316a7)
-    - [stale perl code and the programmers who can't let go](#org748d8ce)
-    - [Raku conference vids, e.g. jonathan worthington](#org5032931)
-    - [Where's -0?  Is it needed?](#org09faea4)
-    - [IntStr vs my Numesque subset](#org48849f4)
-  - [additional topics, for someday](#orgc4ea963)
-    - [raku for data science](#org2e3ee11)
-    - [william michels, corrupt json handling](#org7978928)
-  - [earlier topics](#orgb1f1d2e)
-    - [Grammar.nqp](#org9ada496)
-  - [announcements](#org260fee1)
-    - [September 24th: the next raku study group meeting](#org40725cd)
-    - [Some of my Bali vacation pics:](#org2e438b9)
+- [meeting notes September 11, 2022](#orge56bc20)
+  - [the raku study group](#org99159bf)
+  - [current topics](#orgab6b128)
+    - [stale perl code and the programmers who can't let go](#org089efbc)
+    - [Raku conference vids, e.g. jonathan worthington](#orgd122467)
+    - [Where's -0?  Is it needed?](#orgedb1718)
+    - [IntStr vs my Numesque subset](#org15e9ff0)
+  - [additional topics, for someday](#orga3ed6d9)
+    - [raku for data science](#org78ce07e)
+    - [william michels, corrupt json handling](#org4a96262)
+  - [earlier topics](#org8b133e8)
+    - [Grammar.nqp](#org71b670c)
+  - [announcements](#orgbca05f8)
+    - [September 24th: the next raku study group meeting](#orga3fdd28)
+    - [Some of my Bali vacation pics:](#org969155d)
 
 
-<a id="org8e68033"></a>
+<a id="orge56bc20"></a>
 
 # meeting notes September 11, 2022
 
 
-<a id="orgc9fe5dd"></a>
+<a id="org99159bf"></a>
 
 ## the raku study group
 
@@ -35,26 +35,26 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/sep11>
 
 
-<a id="org04316a7"></a>
+<a id="orgab6b128"></a>
 
 ## current topics
 
 
-<a id="org748d8ce"></a>
+<a id="org089efbc"></a>
 
 ### stale perl code and the programmers who can't let go
 
 1.  my image publication stopgap measures
 
 
-<a id="org5032931"></a>
+<a id="orgd122467"></a>
 
 ### Raku conference vids, e.g. jonathan worthington
 
 1.  still watching this one
 
 
-<a id="org09faea4"></a>
+<a id="orgedb1718"></a>
 
 ### Where's -0?  Is it needed?
 
@@ -63,19 +63,23 @@
     1.  find . -print0 | raku -ne 'BEGIN $\*IN.nl-in = "\\0"; .say;'
 
 
-<a id="org48849f4"></a>
+<a id="org15e9ff0"></a>
 
 ### IntStr vs my Numesque subset
 
 1.  subset Numesque of Any where { defined .Numeric };
 
+2.  things typed as IntStr won't accept Int or Str
 
-<a id="orgc4ea963"></a>
+3.  IntStr(Cool) does weird things (LTA errors)
+
+
+<a id="orga3ed6d9"></a>
 
 ## additional topics, for someday
 
 
-<a id="org2e3ee11"></a>
+<a id="org78ce07e"></a>
 
 ### TODO raku for data science
 
@@ -84,19 +88,19 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="org7978928"></a>
+<a id="org4a96262"></a>
 
 ### TODO william michels, corrupt json handling
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="orgb1f1d2e"></a>
+<a id="org8b133e8"></a>
 
 ## earlier topics
 
 
-<a id="org9ada496"></a>
+<a id="org71b670c"></a>
 
 ### Grammar.nqp
 
@@ -109,17 +113,17 @@
 3.  had trouble seeing what "token comp<sub>unit</sub>" does, exactly
 
 
-<a id="org260fee1"></a>
+<a id="orgbca05f8"></a>
 
 ## announcements
 
 
-<a id="org40725cd"></a>
+<a id="orga3fdd28"></a>
 
 ### September 24th: the next raku study group meeting
 
 
-<a id="org2e438b9"></a>
+<a id="org969155d"></a>
 
 ### Some of my Bali vacation pics:
 

@@ -18,9 +18,10 @@
 **** bruce gray solution
 ***** find . -print0 | raku -ne 'BEGIN $*IN.nl-in = "\0"; .say;'
 
-
 *** IntStr vs my Numesque subset
 **** subset Numesque of Any where { defined .Numeric };
+**** things typed as IntStr won't accept Int or Str
+**** IntStr(Cool) does weird things (LTA errors)
 
 ** additional topics, for someday
 *** TODO raku for data science  
