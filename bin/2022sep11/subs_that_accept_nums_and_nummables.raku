@@ -60,6 +60,6 @@ accept_numesque( '77' ); # 77  (Str)
 # accept_numesque( 'no_way' ); 
 # ## Constraint type check failed in binding to parameter '$arg'; expected Numesque but got Str ("no_way")
 
-my Array[Str] @stringies = 'godzilla', 'rhodan', 'mothera';
+my @stringies = 'godzilla', 'rhodan', 'mothera';
 
 say @stringies;
