@@ -77,4 +77,4 @@ say $is.WHAT; # (IntStr)
 
 @stringies[3] = $is;
 
-say @stringies;
+say @stringies;  # [godzilla rhodan mothera 666]
