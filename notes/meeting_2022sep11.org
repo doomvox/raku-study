@@ -11,9 +11,6 @@
 *** stale perl code and the programmers who can't let go
 **** my image publication stopgap measures
 
-*** Raku conference vids, e.g. jonathan worthington
-**** still watching this one
-
 *** Where's -0?  Is it needed?
 **** bruce gray solution
 ***** find . -print0 | raku -ne 'BEGIN $*IN.nl-in = "\0"; .say;'
