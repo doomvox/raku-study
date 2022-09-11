@@ -18,3 +18,4 @@ sub do_stuffy_stuff ( IntStr(Cool) $item ) {
 }
 # do_stuffy_stuff(3);     # This type cannot unbox to a native string: P6opaque, Int
 do_stuffy_stuff('foah');  # Too few positionals passed; expected 3 arguments but got 1
+
