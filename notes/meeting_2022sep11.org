@@ -18,6 +18,10 @@
 **** bruce gray solution
 ***** find . -print0 | raku -ne 'BEGIN $*IN.nl-in = "\0"; .say;'
 
+
+*** IntStr vs my Numesque subset
+**** 
+
 ** additional topics, for someday
 *** TODO raku for data science  
 **** gradual types for gradually cleaning up data
