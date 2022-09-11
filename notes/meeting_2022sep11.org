@@ -28,9 +28,14 @@
 
 *** Checking lists of numbers (in arrays) for equality
 **** 
+
+#+BEGIN_SRC raku
 die unless ( @a »==« @b ).all.so
+#+END_SRC
 **** 
-die "Failed" unless @pcp.head(20) eqv @exp».Str.Seq;
+#+BEGIN_SRC raku
+die "Failed" unless @pcp.head(20).join(',') eq @exp.join(',');
+#+END_SRC
 
 ** additional topics, for someday
 *** TODO raku for data science  
