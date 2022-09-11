@@ -54,7 +54,6 @@ sub accept_numesque( Numesque $arg ) {
 }
 
 accept_numesque( 666 );  # 666 (Int)
-
 accept_numesque( '77' ); # 77  (Str)
 
 # accept_numesque( 'no_way' ); 
