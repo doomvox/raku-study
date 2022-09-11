@@ -23,6 +23,7 @@
 **** things typed as IntStr won't accept Int or Str
 **** IntStr(Cool) does weird things (LTA errors)
 
+
 ** additional topics, for someday
 *** TODO raku for data science  
 **** gradual types for gradually cleaning up data
