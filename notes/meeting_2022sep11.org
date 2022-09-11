@@ -35,8 +35,6 @@
 **** has some features I'm unfamiliar with, e.g. ":my $blah" inside a grammar
 **** had trouble seeing what "token comp_unit" does, exactly
 
-
-
 ** announcements 
 *** September 24th: the next raku study group meeting
 *** Some of my Bali vacation pics:
