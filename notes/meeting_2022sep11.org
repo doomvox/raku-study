@@ -30,7 +30,7 @@ find . -print0 | raku -ne 'BEGIN $*IN.nl-in = "\0"; .say;'
 **** IntStr(Cool) does weird things (LTA errors)
 **** I defend the use: "strong" typing for perl-damaged brains
 
-**** related subject
+**** related subject:
 ***** https://www.youtube.com/watch?v=1-KV8oiOSZA&t=2s
 ***** Playing nice with others using the new COERCE protocol - Matthew Stuckwisch
 
