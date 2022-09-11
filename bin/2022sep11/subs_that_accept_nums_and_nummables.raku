@@ -85,3 +85,4 @@ say @stringies.map({ .WHAT });
 
 
 @stringies[4] = 'doomed attempt';
+say @stringies;
