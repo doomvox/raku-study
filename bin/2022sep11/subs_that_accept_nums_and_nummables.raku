@@ -48,10 +48,8 @@ say $twoface.WHAT; # (Str)
 # # Type check failed in assignment to $twoface; expected Numesque but got Str ("threesies")
 # #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022sep11/subs_that_accept_nums_and_nummables.raku line 44
 
-
-
 sub accept_numesque( Numesque $arg ) {
-    say $arg, $arg.WHAT;
+    say $arg, ' ', $arg.WHAT;
 }
 
 accept_numesque( 666 );
