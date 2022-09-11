@@ -21,8 +21,6 @@ do_stuffy_stuff('foah');    # Too few positionals passed; expected 3 arguments b
 
 ## bruce concurs the error is LTA 
 
-exit;
-
 my IntStr $thing;
 # $thing = 6;
 # Type check failed in assignment to $thing; expected IntStr but got Int (6)
