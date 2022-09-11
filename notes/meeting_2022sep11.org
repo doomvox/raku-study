@@ -27,5 +27,10 @@
 **** has some features I'm unfamiliar with, e.g. ":my $blah" inside a grammar
 **** had trouble seeing what "token comp_unit" does, exactly
 
+
+
 ** announcements 
 *** September 24th: the next raku study group meeting
+*** published some of the Bali vacation pics:
+**** http://obsidianrook.com/pics/bali_2022
+**** (still a little rough)
