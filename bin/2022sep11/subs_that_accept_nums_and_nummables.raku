@@ -41,6 +41,7 @@ say $twoface.WHAT; # (Int)
 
 $twoface = '3';
 say $twoface + 2;  # 5
+say $twoface.WHAT; # (Str)
 
 # $twoface = 'threesies';
 # say $twoface;
@@ -48,4 +49,4 @@ say $twoface + 2;  # 5
 # #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022sep11/subs_that_accept_nums_and_nummables.raku line 44
 
 
-say $twoface.WHAT; # (Str)
+
