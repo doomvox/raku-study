@@ -9,7 +9,7 @@
 ** current topics
 
 *** stale perl code and the programmers who can't let go
-**** my image pub stopgap measures
+**** my image publication stopgap measures
 
 *** Raku conference vids, e.g. jonathan worthington
 
