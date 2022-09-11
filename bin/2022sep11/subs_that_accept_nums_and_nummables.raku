@@ -27,5 +27,5 @@ my IntStr $thing;
 # Type check failed in assignment to $thing; expected IntStr but got Str ("hey")
 
 say $thing.WHAT;
-say $thing ~ Numeric;
-say $thing ~ String;
+# say $thing ~ Numeric;
+# say $thing ~ String;
