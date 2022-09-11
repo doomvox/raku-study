@@ -10,4 +10,4 @@ sub do_other_stuff ( IntStr $item ) {
     say $item.WHAT;
 }
 do_other_stuff(3);         # Type check failed in binding to parameter '$item'; expected IntStr but got Int (3)
-do_other_stuff('foah');    # Type check failed in binding to parameter '$item'; expected IntStr but got Str ("foah")
+# do_other_stuff('foah');    # Type check failed in binding to parameter '$item'; expected IntStr but got Str ("foah")
