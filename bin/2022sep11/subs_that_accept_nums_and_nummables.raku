@@ -89,3 +89,4 @@ say @stringies;
 
 
 @stringies[5] = 0;
+say @stringies;
