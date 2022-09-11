@@ -31,6 +31,6 @@
 
 ** announcements 
 *** September 24th: the next raku study group meeting
-*** published some of the Bali vacation pics:
+*** Pushed out some of the Bali vacation pics:
 **** http://obsidianrook.com/pics/bali_2022
 **** (still a little rough)
