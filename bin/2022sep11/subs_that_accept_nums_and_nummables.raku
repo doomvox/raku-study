@@ -29,3 +29,5 @@ my IntStr $thing;
 say $thing.WHAT;
 # say $thing ~ Numeric;
 # say $thing ~ String;
+
+
