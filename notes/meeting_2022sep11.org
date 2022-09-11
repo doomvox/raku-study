@@ -26,6 +26,12 @@
 **** IntStr(Cool) does weird things (LTA errors)
 **** I defend the use: "strong" typing for perl-damaged brains
 
+*** Checking lists of numbers (in arrays) for equality
+**** 
+die unless ( @a »==« @b ).all.so
+**** 
+die "Failed" unless @pcp.head(20) eqv @exp».Str.Seq;
+
 ** additional topics, for someday
 *** TODO raku for data science  
 **** gradual types for gradually cleaning up data
