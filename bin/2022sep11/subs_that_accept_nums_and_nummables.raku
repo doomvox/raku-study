@@ -31,3 +31,9 @@ say $thing.WHAT;
 # say $thing ~ String;
 
 
+## special num type that takes a string that looks like a num (potentially useful?)
+subset Numesque of Any where { defined .Numeric };
+
+my Numesque $twoface;
+$twoface = 3;
+$twoface = '3';
