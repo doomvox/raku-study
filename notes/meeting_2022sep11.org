@@ -42,7 +42,7 @@ die "Failed" unless @pcp.head(20).join(',') eq @exp.join(',');
 **** https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180
 
 *** Raku conference vids, e.g. jonathan worthington
-**** still watching this one
+**** database migrations in raku
 
 
 ** earlier topics
