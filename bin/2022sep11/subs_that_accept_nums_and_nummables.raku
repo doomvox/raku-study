@@ -37,8 +37,7 @@ subset Numesque of Any where { defined .Numeric };
 my Numesque $twoface;
 $twoface = 3;
 say $twoface + 1;  # 4 
-
-say $twoface.WHAT; # (Str)
+say $twoface.WHAT; # (Int)
 
 $twoface = '3';
 say $twoface + 2;  # 5
