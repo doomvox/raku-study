@@ -12,6 +12,9 @@
 **** my image publication stopgap measures
 
 *** Raku conference vids, e.g. jonathan worthington
+**** still watching this one
+
+*** Where's -0?  Is it needed?
 
 ** additional topics, for someday
 *** TODO raku for data science  
