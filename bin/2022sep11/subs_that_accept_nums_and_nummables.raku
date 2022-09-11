@@ -78,4 +78,6 @@ say $is.WHAT; # (IntStr)
 @stringies[3] = $is;
 say @stringies;  # [godzilla rhodan mothera 666]
 
-say .WHAT for @stringies;
+say .WHAT for @stringies;  # (IntStr)
+
+say @stringies.map({ .WHAT });
