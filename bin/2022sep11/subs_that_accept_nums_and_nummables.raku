@@ -68,7 +68,8 @@ say @stringies;
 # my IntStr $is = '666';
 # Type check failed in assignment to $is; expected IntStr but got Str ("666")
 
-my IntStr $is = IntStr.new('666');
+my $is = IntStr.new('666');
+# Too few positionals passed; expected 3 arguments but got 2
 
 say $is;
 say $is.WHAT;
