@@ -30,6 +30,10 @@ find . -print0 | raku -ne 'BEGIN $*IN.nl-in = "\0"; .say;'
 **** IntStr(Cool) does weird things (LTA errors)
 **** I defend the use: "strong" typing for perl-damaged brains
 
+**** related subject
+***** https://www.youtube.com/watch?v=1-KV8oiOSZA&t=2s
+***** Playing nice with others using the new COERCE protocol - Matthew Stuckwisch
+
 *** Checking lists of numbers (in arrays) for equality
 **** 
 #+BEGIN_SRC raku
@@ -39,6 +43,8 @@ die unless ( @a »==« @b ).all.so
 #+BEGIN_SRC raku
 die "Failed" unless @pcp.head(20).join(',') eq @exp.join(',');
 #+END_SRC
+
+
 
 ** additional topics, for someday
 *** TODO raku for data science  
