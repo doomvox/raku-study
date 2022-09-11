@@ -15,8 +15,8 @@
 **** still watching this one
 
 *** Where's -0?  Is it needed?
-
-*** 
+**** bruce gray solution
+***** find . -print0 | raku -ne 'BEGIN $*IN.nl-in = "\0"; .say;'
 
 ** additional topics, for someday
 *** TODO raku for data science  
