@@ -20,7 +20,7 @@
 
 
 *** IntStr vs my Numesque subset
-**** 
+**** subset Numesque of Any where { defined .Numeric };
 
 ** additional topics, for someday
 *** TODO raku for data science  
