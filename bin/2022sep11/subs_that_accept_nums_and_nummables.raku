@@ -65,7 +65,10 @@ say @stringies;
 
 # my IntStr $is = '666'.IntStr;
 
-my IntStr $is = '666';
+# my IntStr $is = '666';
+# Type check failed in assignment to $is; expected IntStr but got Str ("666")
+
+my IntStr $is = IntStr.new('666');
 
 say $is;
 say $is.WHAT;
