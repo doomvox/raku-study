@@ -36,10 +36,12 @@ subset Numesque of Any where { defined .Numeric };
 
 my Numesque $twoface;
 $twoface = 3;
-say $twoface;
+say $twoface + 1;
 
 $twoface = '3';
-say $twoface;
+say $twoface + 2;
 
 $twoface = 'threesies';
 say $twoface;
+# Type check failed in assignment to $twoface; expected Numesque but got Str ("threesies")
+#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022sep11/subs_that_accept_nums_and_nummables.raku line 44
