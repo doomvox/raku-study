@@ -11,18 +11,20 @@
 *** stale perl code and the programmers who can't let go
 **** my image publication stopgap measures
 
-*** Where's -0?  Is it needed?
-**** bruce gray solution
-***** 
-#+BEGIN_SRC sh
-find . -print0 | raku -ne 'BEGIN $*IN.nl-in = "\0"; .say;'
-#+END_SRC
 
 *** many unix utils have some form of -0
 **** 
 #+BEGIN_SRC sh
 find TreeAlpha -type f -print0 | xargs -0 egrep godzilla
 #+END_SRC
+
+**** Does Raku/rakudo have a -0?  Is it needed? bruce gray solution
+***** 
+#+BEGIN_SRC sh
+find . -print0 | raku -ne 'BEGIN $*IN.nl-in = "\0"; .say;'
+#+END_SRC
+
+
 
 *** IntStr vs my Numesque subset
 **** subset Numesque of Any where { defined .Numeric };
