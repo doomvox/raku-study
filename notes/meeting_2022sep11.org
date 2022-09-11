@@ -33,7 +33,6 @@ find . -print0 | raku -ne 'BEGIN $*IN.nl-in = "\0"; .say;'
 **** related subject:
 ***** https://www.youtube.com/watch?v=1-KV8oiOSZA&t=2s
 ***** Playing nice with others using the new COERCE protocol - Matthew Stuckwisch
-
 ****** https://vrurg.github.io/2020/11/16/Report-On-New-Coercions
 ****** https://vrurg.github.io/2020/11/30/Report-On-New-Coercions-Part-2
 ****** https://vrurg.github.io/2020/12/26/Coercion-Return-Values
