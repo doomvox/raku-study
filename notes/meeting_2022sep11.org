@@ -47,6 +47,13 @@ die unless ( @a »==« @b ).all.so
 die "Failed" unless @pcp.head(20).join(',') eq @exp.join(',');
 #+END_SRC
 
+*** repeated
+**** https://docs.raku.org/language/independent-routines#routine_repeated
+**** https://docs.raku.org/routine/repeated
+***** bruce gray usage:
+****** https://github.com/doomvox/raku-study/notes/bg-01-use_of_repeated.png
+****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/bg-01-use_of_repeated.png
+
 
 
 ** additional topics, for someday
