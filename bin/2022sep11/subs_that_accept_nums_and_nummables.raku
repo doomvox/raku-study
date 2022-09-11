@@ -38,6 +38,8 @@ my Numesque $twoface;
 $twoface = 3;
 say $twoface + 1;  # 4 
 
+say $twoface.WHAT; # (Str)
+
 $twoface = '3';
 say $twoface + 2;  # 5
 
@@ -47,4 +49,4 @@ say $twoface + 2;  # 5
 # #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022sep11/subs_that_accept_nums_and_nummables.raku line 44
 
 
-say $twoface.WHAT;
+say $twoface.WHAT; # (Str)
