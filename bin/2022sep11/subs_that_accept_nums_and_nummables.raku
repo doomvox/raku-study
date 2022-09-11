@@ -36,4 +36,10 @@ subset Numesque of Any where { defined .Numeric };
 
 my Numesque $twoface;
 $twoface = 3;
+say $twoface;
+
 $twoface = '3';
+say $twoface;
+
+$twoface = 'threesies';
+say $twoface;
