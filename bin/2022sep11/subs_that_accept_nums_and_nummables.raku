@@ -53,3 +53,7 @@ say $twoface.WHAT; # (Str)
 sub accept_numesque( Numesque $arg ) {
     say $arg, $arg.WHAT;
 }
+
+accept_numesque( 666 );
+
+accept_numesque( '77' );
