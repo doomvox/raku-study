@@ -16,6 +16,8 @@
 
 *** Where's -0?  Is it needed?
 
+*** 
+
 ** additional topics, for someday
 *** TODO raku for data science  
 **** gradual types for gradually cleaning up data
