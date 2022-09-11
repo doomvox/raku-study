@@ -77,3 +77,5 @@ say $is.WHAT; # (IntStr)
 
 @stringies[3] = $is;
 say @stringies;  # [godzilla rhodan mothera 666]
+
+say .WHAT for @stringies;
