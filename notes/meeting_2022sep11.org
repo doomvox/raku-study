@@ -57,7 +57,7 @@ sub first_unique_character_index ( Str $_ --> UInt ) {
   my @c = .lc.comb;
   my %h = @c.repeated.Set;
   return @c.first: :k, * !~~ %h;
-
+}
 #+END_SRC
 
 
