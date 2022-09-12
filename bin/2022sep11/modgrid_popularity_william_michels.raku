@@ -1,0 +1,19 @@
+#!/usr/bin/env perl6
+# 
+# modgrid_popularity_william_michels.raku            12 Sep 2022 
+
+use v6;
+
+# perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2 => -1); my @c; do for @b -> $b { @c.push($b) if $b.
+# [0].keys.words[0..*-4] eq $b.[1].keys.words[0..*-4] }; say ($_ => (.[0].value - 100) + .[1].value).antipairs for @c.sort( { (.[0].value
+# - 100) + .[1].value});'
+
+
+my @a = lines.antipairs; 
+my @b = @a.sort(*.keys.words[0..*-3]).rotor(2 => -1); 
+
+my @c; do for @b -> $b { @c.push($b) if $b.
+[0].keys.words[0..*-4] eq $b.[1].keys.words[0..*-4] }; 
+say ($_ => (.[0].value - 100) + .[1].value).antipairs for @c.sort( { (.[0].value - 100) + .[1].value});
+
+
