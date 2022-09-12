@@ -1,29 +1,29 @@
-- [meeting notes September 11, 2022](#org61fb37f)
-  - [the raku study group](#org6adf2d1)
-  - [current topics](#org4cb99be)
-    - [stale perl code and the programmers who can't let go](#org7905a0f)
-    - [many unix utils have some form of -0](#org4b6925e)
-    - [IntStr vs my Numesque subset](#org8917257)
-    - [Checking lists of numbers (in arrays) for equality](#org687befe)
-    - [repeated](#org456d511)
-    - ["eurorack": william michels interested in synthesized music](#org4684722)
-  - [additional topics, for someday](#org89cd172)
-    - [raku for data science](#org80dfbe5)
-    - [william michels, corrupt json handling](#org52e44bb)
-    - [Raku conference vids, e.g. jonathan worthington](#org7d854a8)
-  - [earlier topics](#org764ccf0)
-    - [Grammar.nqp](#org4cb9820)
-  - [announcements](#org4861d29)
-    - [September 24th: the next raku study group meeting](#org205e626)
-    - [Some of my Bali vacation pics:](#org5cfe90c)
+- [meeting notes September 11, 2022](#orgd244c62)
+  - [the raku study group](#org7c5ca51)
+  - [current topics](#orgfc2edfa)
+    - [stale perl code and the programmers who can't let go](#orgca0cece)
+    - [many unix utils have some form of -0](#orga1fc51e)
+    - [IntStr vs my Numesque subset](#org2aa508a)
+    - [Checking lists of numbers (in arrays) for equality](#org156cd26)
+    - [repeated](#orgcf641f2)
+    - ["eurorack": william michels interested in synthesized music](#orgef6cd7b)
+  - [additional topics, for someday](#org237b92a)
+    - [raku for data science](#orge5c3f23)
+    - [william michels, corrupt json handling](#org1b423a1)
+    - [Raku conference vids, e.g. jonathan worthington](#orga418e17)
+  - [earlier topics](#org83c1d0d)
+    - [Grammar.nqp](#orgb69ff13)
+  - [announcements](#orgc882739)
+    - [September 24th: the next raku study group meeting](#org9683725)
+    - [Some of my Bali vacation pics:](#orgf909902)
 
 
-<a id="org61fb37f"></a>
+<a id="orgd244c62"></a>
 
 # meeting notes September 11, 2022
 
 
-<a id="org6adf2d1"></a>
+<a id="org7c5ca51"></a>
 
 ## the raku study group
 
@@ -38,19 +38,19 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/sep11>
 
 
-<a id="org4cb99be"></a>
+<a id="orgfc2edfa"></a>
 
 ## current topics
 
 
-<a id="org7905a0f"></a>
+<a id="orgca0cece"></a>
 
 ### stale perl code and the programmers who can't let go
 
 1.  my image publication stopgap measures
 
 
-<a id="org4b6925e"></a>
+<a id="orga1fc51e"></a>
 
 ### many unix utils have some form of -0
 
@@ -69,7 +69,7 @@
         ```
 
 
-<a id="org8917257"></a>
+<a id="org2aa508a"></a>
 
 ### IntStr vs my Numesque subset
 
@@ -94,7 +94,7 @@
         3.  <https://vrurg.github.io/2020/12/26/Coercion-Return-Values>
 
 
-<a id="org687befe"></a>
+<a id="org156cd26"></a>
 
 ### Checking lists of numbers (in arrays) for equality
 
@@ -111,7 +111,7 @@
     ```
 
 
-<a id="org456d511"></a>
+<a id="orgcf641f2"></a>
 
 ### repeated
 
@@ -126,7 +126,7 @@
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/bg-01-use<sub>of</sub><sub>repeated.png</sub>
 
 
-<a id="org4684722"></a>
+<a id="orgef6cd7b"></a>
 
 ### "eurorack": william michels interested in synthesized music
 
@@ -134,13 +134,21 @@
 
 2.  q: doing popularity stats and such
 
+3.  
 
-<a id="org89cd172"></a>
+    ```sh
+    perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2 => -1); my @c; do for @b -> $b { @c.push($b) if $b.
+    [0].keys.words[0..*-4] eq $b.[1].keys.words[0..*-4] }; say ($_ => (.[0].value - 100) + .[1].value).antipairs for @c.sort( { (.[0].value
+    - 100) + .[1].value});'
+    ```
+
+
+<a id="org237b92a"></a>
 
 ## additional topics, for someday
 
 
-<a id="org80dfbe5"></a>
+<a id="orge5c3f23"></a>
 
 ### TODO raku for data science
 
@@ -149,26 +157,26 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="org52e44bb"></a>
+<a id="org1b423a1"></a>
 
 ### TODO william michels, corrupt json handling
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="org7d854a8"></a>
+<a id="orga418e17"></a>
 
 ### Raku conference vids, e.g. jonathan worthington
 
 1.  database migrations in raku
 
 
-<a id="org764ccf0"></a>
+<a id="org83c1d0d"></a>
 
 ## earlier topics
 
 
-<a id="org4cb9820"></a>
+<a id="orgb69ff13"></a>
 
 ### Grammar.nqp
 
@@ -181,17 +189,17 @@
 3.  had trouble seeing what "token comp<sub>unit</sub>" does, exactly
 
 
-<a id="org4861d29"></a>
+<a id="orgc882739"></a>
 
 ## announcements
 
 
-<a id="org205e626"></a>
+<a id="org9683725"></a>
 
 ### September 24th: the next raku study group meeting
 
 
-<a id="org5cfe90c"></a>
+<a id="orgf909902"></a>
 
 ### Some of my Bali vacation pics:
 
