@@ -9,8 +9,8 @@ use v6;
 # - 100) + .[1].value});'
 
 
-## doing popularity counts of the joint string key at the beginning, chopping off fields counting from the right
-
+## doing popularity counts of the joint string key at the beginning, 
+## chopping off fields counting from the right
 
 my @a = lines.antipairs; 
 my @b = @a.sort(*.keys.words[0..*-3]).rotor(2 => -1); 
