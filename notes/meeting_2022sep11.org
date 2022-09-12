@@ -62,7 +62,7 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 - 100) + .[1].value});'
 #+END_SRC
 **** 
-**** TODO talk about this more next time?
+**** TODO talk about this more next time?  Bruce has some ideas.
 
 ** additional topics, for someday
 *** TODO raku for data science  

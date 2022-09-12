@@ -1,29 +1,29 @@
-- [meeting notes September 11, 2022](#org676afa9)
-  - [the raku study group](#org8a3e284)
-  - [current topics](#orga6c6a81)
-    - [stale perl code and the programmers who can't let go](#orgdb4da0e)
-    - [many unix utils have some form of -0](#orgcee5b61)
-    - [IntStr vs my Numesque subset](#org61f83af)
-    - [Checking lists of numbers (in arrays) for equality](#orgf292d6d)
-    - [repeated](#org4ff5d51)
-    - ["eurorack": william michels interested in synthesized music](#orgf188627)
-  - [additional topics, for someday](#org13c71ac)
-    - [raku for data science](#orgae8d7a5)
-    - [william michels, corrupt json handling](#org8bd1c2f)
-    - [Raku conference vids, e.g. jonathan worthington](#orgfcbd1d0)
-  - [earlier topics](#org546addf)
-    - [Grammar.nqp](#orgdda992b)
-  - [announcements](#org2932583)
-    - [September 24th: the next raku study group meeting](#org42726d5)
-    - [Some of my Bali vacation pics:](#orgc54f424)
+- [meeting notes September 11, 2022](#org1d9904b)
+  - [the raku study group](#org734eb7d)
+  - [current topics](#org94b1189)
+    - [stale perl code and the programmers who can't let go](#org40c7f30)
+    - [many unix utils have some form of -0](#orgaa2393a)
+    - [IntStr vs my Numesque subset](#orgaba107f)
+    - [Checking lists of numbers (in arrays) for equality](#orgf23417c)
+    - [repeated](#orge7287cf)
+    - ["eurorack": william michels interested in synthesized music](#orgd157bff)
+  - [additional topics, for someday](#org874ab1f)
+    - [raku for data science](#org123967e)
+    - [william michels, corrupt json handling](#org6661f7c)
+    - [Raku conference vids, e.g. jonathan worthington](#orgc9c0b73)
+  - [earlier topics](#org50dab4a)
+    - [Grammar.nqp](#orgeb7f489)
+  - [announcements](#orgebf7651)
+    - [September 24th: the next raku study group meeting](#org7265bdb)
+    - [Some of my Bali vacation pics:](#org9ade420)
 
 
-<a id="org676afa9"></a>
+<a id="org1d9904b"></a>
 
 # meeting notes September 11, 2022
 
 
-<a id="org8a3e284"></a>
+<a id="org734eb7d"></a>
 
 ## the raku study group
 
@@ -38,19 +38,19 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/sep11>
 
 
-<a id="orga6c6a81"></a>
+<a id="org94b1189"></a>
 
 ## current topics
 
 
-<a id="orgdb4da0e"></a>
+<a id="org40c7f30"></a>
 
 ### stale perl code and the programmers who can't let go
 
 1.  my image publication stopgap measures
 
 
-<a id="orgcee5b61"></a>
+<a id="orgaa2393a"></a>
 
 ### many unix utils have some form of -0
 
@@ -69,7 +69,7 @@
         ```
 
 
-<a id="org61f83af"></a>
+<a id="orgaba107f"></a>
 
 ### IntStr vs my Numesque subset
 
@@ -94,7 +94,7 @@
         3.  <https://vrurg.github.io/2020/12/26/Coercion-Return-Values>
 
 
-<a id="orgf292d6d"></a>
+<a id="orgf23417c"></a>
 
 ### Checking lists of numbers (in arrays) for equality
 
@@ -111,7 +111,7 @@
     ```
 
 
-<a id="org4ff5d51"></a>
+<a id="orge7287cf"></a>
 
 ### repeated
 
@@ -126,7 +126,7 @@
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/bg-01-use<sub>of</sub><sub>repeated.png</sub>
 
 
-<a id="orgf188627"></a>
+<a id="orgd157bff"></a>
 
 ### "eurorack": william michels interested in synthesized music
 
@@ -144,15 +144,15 @@
 
 4.  
 
-5.  TODO talk about this more next time?
+5.  TODO talk about this more next time?  Bruce has some ideas.
 
 
-<a id="org13c71ac"></a>
+<a id="org874ab1f"></a>
 
 ## additional topics, for someday
 
 
-<a id="orgae8d7a5"></a>
+<a id="org123967e"></a>
 
 ### TODO raku for data science
 
@@ -161,26 +161,26 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="org8bd1c2f"></a>
+<a id="org6661f7c"></a>
 
 ### TODO william michels, corrupt json handling
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="orgfcbd1d0"></a>
+<a id="orgc9c0b73"></a>
 
 ### Raku conference vids, e.g. jonathan worthington
 
 1.  database migrations in raku
 
 
-<a id="org546addf"></a>
+<a id="org50dab4a"></a>
 
 ## earlier topics
 
 
-<a id="orgdda992b"></a>
+<a id="orgeb7f489"></a>
 
 ### Grammar.nqp
 
@@ -193,17 +193,17 @@
 3.  had trouble seeing what "token comp<sub>unit</sub>" does, exactly
 
 
-<a id="org2932583"></a>
+<a id="orgebf7651"></a>
 
 ## announcements
 
 
-<a id="org42726d5"></a>
+<a id="org7265bdb"></a>
 
 ### September 24th: the next raku study group meeting
 
 
-<a id="orgc54f424"></a>
+<a id="org9ade420"></a>
 
 ### Some of my Bali vacation pics:
 
