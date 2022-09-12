@@ -51,6 +51,15 @@ die "Failed" unless @pcp.head(20).join(',') eq @exp.join(',');
 ***** bruce gray usage:
 ****** https://github.com/doomvox/raku-study/notes/bg-01-use_of_repeated.png
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/bg-01-use_of_repeated.png
+****** 
+#+BEGIN_SRC raku
+sub first_unique_character_index ( Str $_ --> UInt ) { 
+  my @c = .lc.comb;
+  my %h = @c.repeated.Set;
+  return @c.first: :k, * !~~ %h;
+
+#+END_SRC
+
 
 *** "eurorack": william michels interested in synthesized music 
 **** https://www.modulargrid.net/e/modules/evaluationlists

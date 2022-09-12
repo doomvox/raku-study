@@ -1,29 +1,29 @@
-- [meeting notes September 11, 2022](#org976938f)
-  - [the raku study group](#org32a5911)
-  - [current topics](#org9ee3e60)
-    - [stale perl code and the programmers who can't let go](#org61d5ead)
-    - [many unix utils have some form of -0](#org52fdbde)
-    - [IntStr vs my Numesque subset](#org059edc7)
-    - [Checking lists of numbers (in arrays) for equality](#org1b54d59)
-    - [repeated](#org518be30)
-    - ["eurorack": william michels interested in synthesized music](#org133beef)
-  - [additional topics, for someday](#orgd7aaa58)
-    - [raku for data science](#orgd0a2275)
-    - [william michels, corrupt json handling](#orgce0f83b)
-    - [Raku conference vids, e.g. jonathan worthington](#org4a99ca5)
-  - [earlier topics](#orgba07e6b)
-    - [Grammar.nqp](#orgc3ba905)
-  - [announcements](#org2a91bab)
-    - [September 24th: the next raku study group meeting](#org2f49d2b)
-    - [Some of my Bali vacation pics:](#orgf1c02ab)
+- [meeting notes September 11, 2022](#orgb2a4b4b)
+  - [the raku study group](#org369729f)
+  - [current topics](#orgd9062cf)
+    - [stale perl code and the programmers who can't let go](#orgb508fed)
+    - [many unix utils have some form of -0](#org62e4d8a)
+    - [IntStr vs my Numesque subset](#orgea00a1d)
+    - [Checking lists of numbers (in arrays) for equality](#orga48c8ee)
+    - [repeated](#org8d17b2f)
+    - ["eurorack": william michels interested in synthesized music](#orgd0bb7c0)
+  - [additional topics, for someday](#org002e678)
+    - [raku for data science](#org21a824e)
+    - [william michels, corrupt json handling](#org9421d70)
+    - [Raku conference vids, e.g. jonathan worthington](#orgee1330b)
+  - [earlier topics](#orgd225e5c)
+    - [Grammar.nqp](#org8ecb3ce)
+  - [announcements](#org570648a)
+    - [September 24th: the next raku study group meeting](#org82cff2b)
+    - [Some of my Bali vacation pics:](#org8791745)
 
 
-<a id="org976938f"></a>
+<a id="orgb2a4b4b"></a>
 
 # meeting notes September 11, 2022
 
 
-<a id="org32a5911"></a>
+<a id="org369729f"></a>
 
 ## the raku study group
 
@@ -38,19 +38,19 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/sep11>
 
 
-<a id="org9ee3e60"></a>
+<a id="orgd9062cf"></a>
 
 ## current topics
 
 
-<a id="org61d5ead"></a>
+<a id="orgb508fed"></a>
 
 ### stale perl code and the programmers who can't let go
 
 1.  my image publication stopgap measures
 
 
-<a id="org52fdbde"></a>
+<a id="org62e4d8a"></a>
 
 ### many unix utils have some form of -0
 
@@ -69,7 +69,7 @@
         ```
 
 
-<a id="org059edc7"></a>
+<a id="orgea00a1d"></a>
 
 ### IntStr vs my Numesque subset
 
@@ -94,7 +94,7 @@
         3.  <https://vrurg.github.io/2020/12/26/Coercion-Return-Values>
 
 
-<a id="org1b54d59"></a>
+<a id="orga48c8ee"></a>
 
 ### Checking lists of numbers (in arrays) for equality
 
@@ -111,7 +111,7 @@
     ```
 
 
-<a id="org518be30"></a>
+<a id="org8d17b2f"></a>
 
 ### repeated
 
@@ -124,9 +124,19 @@
         1.  ![img](https://github.com/doomvox/raku-study/notes/bg-01-use_of_repeated.png)
         
         2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/bg-01-use<sub>of</sub><sub>repeated.png</sub>
+        
+        3.  
+        
+            ```raku
+            sub first_unique_character_index ( Str $_ --> UInt ) { 
+              my @c = .lc.comb;
+              my %h = @c.repeated.Set;
+              return @c.first: :k, * !~~ %h;
+            
+            ```
 
 
-<a id="org133beef"></a>
+<a id="orgd0bb7c0"></a>
 
 ### "eurorack": william michels interested in synthesized music
 
@@ -145,12 +155,12 @@
 4.  TODO talk about this more next time?  Bruce has some ideas.
 
 
-<a id="orgd7aaa58"></a>
+<a id="org002e678"></a>
 
 ## additional topics, for someday
 
 
-<a id="orgd0a2275"></a>
+<a id="org21a824e"></a>
 
 ### TODO raku for data science
 
@@ -159,26 +169,26 @@
 2.  <https://p6steve.wordpress.com/2022/07/24/is-raku-dan-rubbersonic/>
 
 
-<a id="orgce0f83b"></a>
+<a id="org9421d70"></a>
 
 ### TODO william michels, corrupt json handling
 
 1.  <https://unix.stackexchange.com/questions/706732/deleting-all-text-after-a-specific-string-for-multiple-text-files-in-a-directory/707180#707180>
 
 
-<a id="org4a99ca5"></a>
+<a id="orgee1330b"></a>
 
 ### Raku conference vids, e.g. jonathan worthington
 
 1.  database migrations in raku
 
 
-<a id="orgba07e6b"></a>
+<a id="orgd225e5c"></a>
 
 ## earlier topics
 
 
-<a id="orgc3ba905"></a>
+<a id="org8ecb3ce"></a>
 
 ### Grammar.nqp
 
@@ -191,17 +201,17 @@
 3.  had trouble seeing what "token comp<sub>unit</sub>" does, exactly
 
 
-<a id="org2a91bab"></a>
+<a id="org570648a"></a>
 
 ## announcements
 
 
-<a id="org2f49d2b"></a>
+<a id="org82cff2b"></a>
 
 ### September 24th: the next raku study group meeting
 
 
-<a id="orgf1c02ab"></a>
+<a id="org8791745"></a>
 
 ### Some of my Bali vacation pics:
 
