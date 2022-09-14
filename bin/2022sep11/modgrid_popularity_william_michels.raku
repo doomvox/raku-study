@@ -23,9 +23,18 @@ do for @b -> $b {
 say
 (                                                        ## Q: where's the closing paren. Did this work?
     $_ => (.[0].value - 100) + .[1].value).antipairs
-      for @c.sort(
-                  { (.[0].value - 100) + .[1].value }
-                  );
+                for @c.sort(
+                    { (.[0].value - 100) + .[1].value }
+                 );
 
 
+Note enough variable names: can't tell what I'm looking at.
+
+code style feels inside-out, end-weight is strange
+
+chopping trailing fields to get a joint sort key needs to be done 
+because initial fields are variable width and not delimited well
+
+use of antipairs all over feels weird... 
+could key/values have been flipped to start with?
 
