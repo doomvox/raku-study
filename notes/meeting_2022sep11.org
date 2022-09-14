@@ -30,7 +30,7 @@ subset Numesque of Any where { defined .Numeric };
 
 **** things typed as IntStr won't accept Int or Str
 **** IntStr(Cool) does weird things (LTA errors)
-**** I defend Numesque: "strong" typing for perl-damaged brains
+**** I defend Numesque: strongish typing for perl-damaged brains
 
 **** related subject:
 ***** https://www.youtube.com/watch?v=1-KV8oiOSZA&t=2s
