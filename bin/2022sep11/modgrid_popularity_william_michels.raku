@@ -20,7 +20,11 @@ do for @b -> $b {
     @c.push($b) if $b.[0].keys.words[0..*-4] eq $b.[1].keys.words[0..*-4]
 }; 
 
-say ($_ => (.[0].value - 100) + .[1].value).antipairs
-      for @c.sort( { (.[0].value - 100) + .[1].value});
+say
+(
+    $_ => (.[0].value - 100) + .[1].value).antipairs
+      for @c.sort(
+        { (.[0].value - 100) + .[1].value}
+      );
 
 
