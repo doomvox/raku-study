@@ -9,7 +9,7 @@ use v6;
 # - 100) + .[1].value});'
 
 
-## doing popularity counts of the joint string key at the beginning, 
+## doing stats (popularity counts?) of the joint string key at the beginning, 
 ## chopping off fields counting from the right
 
 my @a = lines.antipairs; 
