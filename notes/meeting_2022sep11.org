@@ -23,7 +23,7 @@ find . -print0 | raku -ne 'BEGIN $*IN.nl-in = "\0"; .say;'
 #+END_SRC
 
 *** IntStr vs my Numesque subset
-**** 
+**** Accepts things that can be treated like numerics:
 #+BEGIN_SRC raku
 subset Numesque of Any where { defined .Numeric };
 #+END_SRC
