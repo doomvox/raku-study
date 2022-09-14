@@ -23,7 +23,11 @@ find . -print0 | raku -ne 'BEGIN $*IN.nl-in = "\0"; .say;'
 #+END_SRC
 
 *** IntStr vs my Numesque subset
-**** subset Numesque of Any where { defined .Numeric };
+**** 
+#+BEGIN_SRC raku
+subset Numesque of Any where { defined .Numeric };
+#+END_SRC
+
 **** things typed as IntStr won't accept Int or Str
 **** IntStr(Cool) does weird things (LTA errors)
 **** I defend the use: "strong" typing for perl-damaged brains
