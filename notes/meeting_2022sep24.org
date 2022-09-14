@@ -5,7 +5,8 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep24.md
 ***** code examples
 ****** https://github.com/doomvox/raku-study/tree/main/bin/sep24
-
-
-
+** topics 
+*** substr uses first_position and length
+**** I always want ranges: first_position, second_position
+**** how would you raku that?
 
