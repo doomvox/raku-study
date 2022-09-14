@@ -21,10 +21,11 @@ do for @b -> $b {
 }; 
 
 say
-(
+(                                                        ## Q: where's the closing paren. Did this work?
     $_ => (.[0].value - 100) + .[1].value).antipairs
       for @c.sort(
-        { (.[0].value - 100) + .[1].value}
-      );
+                  { (.[0].value - 100) + .[1].value }
+                  );
+
 
 
