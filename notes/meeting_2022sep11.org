@@ -94,7 +94,7 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 **** had trouble seeing what "token comp_unit" does, exactly
 
 ** announcements 
-*** September 24th: the next raku study group meeting
+*** October 9th: the next raku study group meeting
 *** Some of my Bali vacation pics:
 **** http://obsidianrook.com/pics/bali2022
 **** (still a little rough)
