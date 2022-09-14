@@ -1,18 +1,18 @@
-- [meeting notes September 25, 2022](#org0223672)
-  - [the raku study group](#org110fb54)
-  - [topics](#org31b30de)
-    - [substr uses first<sub>position</sub> and length](#org6a4e939)
-  - [announcements](#orgfe2ef53)
-    - [October 9th: the next raku study group meeting](#org053fdf1)
-    - [My Bali vacation pics, cleaned up further:](#orgc3aa7ef)
+- [meeting notes September 25, 2022](#org39668b1)
+  - [the raku study group](#orge3b6db4)
+  - [topics](#orgce6da5e)
+    - [substr uses first<sub>position</sub> and length](#org8d33bdf)
+  - [announcements](#org0032652)
+    - [October 9th: the next raku study group meeting](#org8283316)
+    - [My Bali vacation pics, cleaned up further:](#orgd6f4232)
 
 
-<a id="org0223672"></a>
+<a id="org39668b1"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="org110fb54"></a>
+<a id="orge3b6db4"></a>
 
 ## the raku study group
 
@@ -27,12 +27,12 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/sep25>
 
 
-<a id="org31b30de"></a>
+<a id="orgce6da5e"></a>
 
 ## topics
 
 
-<a id="org6a4e939"></a>
+<a id="org8d33bdf"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -41,17 +41,17 @@
 2.  how would you raku that?
 
 
-<a id="orgfe2ef53"></a>
+<a id="org0032652"></a>
 
 ## announcements
 
 
-<a id="org053fdf1"></a>
+<a id="org8283316"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="orgc3aa7ef"></a>
+<a id="orgd6f4232"></a>
 
 ### My Bali vacation pics, cleaned up further:
 
