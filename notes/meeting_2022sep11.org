@@ -95,8 +95,8 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 
 ** announcements 
 *** October 9th: the next raku study group meeting
-*** Some of my Bali vacation pics:
+*** My Bali vacation pics, cleaned up further:
 **** http://obsidianrook.com/pics/bali2022
-**** (still a little rough)
+
 
 
