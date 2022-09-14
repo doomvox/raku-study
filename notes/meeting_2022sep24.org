@@ -10,3 +10,7 @@
 **** but I always want ranges: first_position, second_position
 **** how would you raku that?
 
+** announcements 
+*** October 9th: the next raku study group meeting
+*** My Bali vacation pics, cleaned up further:
+**** http://obsidianrook.com/pics/bali2022
