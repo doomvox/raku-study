@@ -91,7 +91,7 @@ say @stringies;
 # Type check failed in assignment to @stringies; expected Str but got Int (0)
 
 ## Tuesday September 20, 2022   9:02 AM
-
+##  But what about Numeric(Cool)
 
 sub accept_numeric_cool( Numeric(Cool) $arg ) {
     say $arg, ' ', $arg.WHAT;
