@@ -92,6 +92,7 @@ say @stringies;
 
 ## Tuesday September 20, 2022   9:02 AM
 ##  But what about Numeric(Cool)
+
 sub accept_numeric_cool( Numeric(Cool) $arg ) {
     say $arg, ' ', $arg.WHAT;
 }
