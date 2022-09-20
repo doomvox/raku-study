@@ -86,7 +86,7 @@ say @stringies.map({ .WHAT });
 say @stringies;
 # [godzilla rhodan mothera 666 workies]
 
-@stringies[5] = 0;
+# @stringies[5] = 0;
 say @stringies;
 # Type check failed in assignment to @stringies; expected Str but got Int (0)
 
