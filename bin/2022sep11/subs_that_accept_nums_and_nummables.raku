@@ -98,7 +98,7 @@ sub accept_numeric_cool( Numeric(Cool) $arg ) {
 }
 
 accept_numeric_cool( 666 );  # 666 (Int)
-accept_numeric_cool( '77' ); # 77 (Int)
+accept_numeric_cool( '77' ); # 77 (Int)    Note: "Numesque" would have left this as Str
 
 # accept_numeric_cool( 'no_way' ); 
 # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏no_way' (indicated by ⏏)
