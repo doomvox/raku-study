@@ -92,6 +92,12 @@ say @stringies;
 
 ## Tuesday September 20, 2022   9:02 AM
 
+
 sub accept_numeric_cool( Numeric(Cool) $arg ) {
     say $arg, ' ', $arg.WHAT;
 }
+
+accept_numeric_cool( 666 );  # 666 (Int)
+accept_numeric_cool( '77' ); # 77  (Str)
+
+# accept_numeric_cool( 'no_way' ); 
