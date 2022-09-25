@@ -5,7 +5,6 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep25.md
 ***** code examples
 ****** https://github.com/doomvox/raku-study/tree/main/bin/sep25
-
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md
 
