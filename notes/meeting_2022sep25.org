@@ -40,6 +40,8 @@ Write a script to find the difference between the given dates in terms on years 
 *** another weekly challenge
 **** longest common prefix in directory names
 **** rob's code treats as strings, then ensures it stops at a '/'
+**** the lcp code on rosettacode has problems: old style 2015
+***** bruce gray makes point it doesn't stop when it's found divergence
 
 *** revisit: "eurorack": william michels interested in synthesized music 
 **** https://www.modulargrid.net/e/modules/evaluationlists
