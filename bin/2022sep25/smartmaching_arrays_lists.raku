@@ -18,5 +18,6 @@ my @a = < alpha beta gamma >;
 my @c = < whun tew thuree >;
 my @b = < godzilla mothera rhodan >;
 
-
+my $d = [ 'perl', 'raku', ]; 
+say $d;
 
