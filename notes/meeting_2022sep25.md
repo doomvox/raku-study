@@ -1,21 +1,21 @@
-- [meeting notes September 25, 2022](#org2bbd813)
-  - [the raku study group](#orgab87231)
-  - [topics](#org896c29c)
-    - [weekly challenge](#orgfaf32b8)
-    - [substr uses first<sub>position</sub> and length](#org6249977)
-    - [revisit: "eurorack": william michels interested in synthesized music](#org15038a6)
-    - [refactoring an old perl5 project](#org8c7446c)
-  - [announcements](#org8bd8568)
-    - [October 9th: the next raku study group meeting](#org7e5ca36)
-    - [My Bali vacation pics, cleaned up still further:](#org2a2e71b)
+- [meeting notes September 25, 2022](#org24aeae6)
+  - [the raku study group](#orgb8e3258)
+  - [topics](#org6c46d37)
+    - [weekly challenge](#org86e9270)
+    - [substr uses first<sub>position</sub> and length](#org2cb1a09)
+    - [revisit: "eurorack": william michels interested in synthesized music](#orgd23e5e8)
+    - [refactoring an old perl5 project](#org4e87fb2)
+  - [announcements](#orgf66c6b3)
+    - [October 9th: the next raku study group meeting](#org5983664)
+    - [My Bali vacation pics, cleaned up still further:](#orgbc8bf58)
 
 
-<a id="org2bbd813"></a>
+<a id="org24aeae6"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="orgab87231"></a>
+<a id="orgb8e3258"></a>
 
 ## the raku study group
 
@@ -34,12 +34,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="org896c29c"></a>
+<a id="org6c46d37"></a>
 
 ## topics
 
 
-<a id="orgfaf32b8"></a>
+<a id="org86e9270"></a>
 
 ### weekly challenge
 
@@ -47,8 +47,14 @@
 
 2.  "arrayref"
 
+3.  text:
 
-<a id="org6249977"></a>
+    TASK #1: Unique Array You are given list of arrayrefs. Write a script to remove the duplicate arrayrefs from the given list.
+    
+    TASK #2: Date Difference You are given two dates, $date1 and $date2 in the format YYYY-MM-DD. Write a script to find the difference between the given dates in terms on years and days only.
+
+
+<a id="org2cb1a09"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -57,14 +63,14 @@
 2.  how would you raku that?
 
 
-<a id="org15038a6"></a>
+<a id="orgd23e5e8"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="org8c7446c"></a>
+<a id="org4e87fb2"></a>
 
 ### refactoring an old perl5 project
 
@@ -115,17 +121,17 @@
     9.  weird bitrot affecting jpeg orientations
 
 
-<a id="org8bd8568"></a>
+<a id="orgf66c6b3"></a>
 
 ## announcements
 
 
-<a id="org7e5ca36"></a>
+<a id="org5983664"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="org2a2e71b"></a>
+<a id="orgbc8bf58"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
