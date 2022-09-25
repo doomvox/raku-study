@@ -104,7 +104,6 @@ $str.substr-rw(3,6) = '66666666';
 say $str; # god66666666
 #+END_SRC
 
-
 ** announcements 
 *** October 9th: the next raku study group meeting
 *** My Bali vacation pics, cleaned up still further:
