@@ -26,12 +26,13 @@
 ***** refactor subs so they stop shelling out so much, call the subs directly
 ****** exposes some odd bugs: scope of "memory" changes
 
-***** code is getting gradually less ugly, *but*.
+***** code is getting gradually less ugly, *but*. harder to hack than it should be.
+****** real templates
 
 ***** delaying the real fixes, adding additional hacks to reduce the need
 ****** e.g. codes embedded in file names that get turned to punctuation later
 
-***** 
+
 
 ***** central problem: I want to roll my own, but no good reason to release
 ****** a thought: keep re-writing this in different ways, use it as a demo/test case
