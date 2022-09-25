@@ -23,6 +23,7 @@
 ***** https://www.theregister.com/2021/05/26/freenode_irc_takeover/ 
 
 *** weekly challenge
+**** current:
 **** https://theweeklychallenge.org/
 **** "arrayref"
 **** text: 
@@ -36,6 +37,7 @@ TASK #2: Date Difference
 You are given two dates, $date1 and $date2 in the format YYYY-MM-DD. 
 Write a script to find the difference between the given dates in terms on years and days only.
 #+END_SRC
+
 
 *** substr uses first_position and length
 **** but I always want ranges: first_position, second_position

@@ -1,22 +1,22 @@
-- [meeting notes September 25, 2022](#orgee917a1)
-  - [the raku study group](#org547f298)
-  - [topics](#orgbf1cc48)
-    - [long discussion about community management etc](#org47c0943)
-    - [weekly challenge](#org791e683)
-    - [substr uses first<sub>position</sub> and length](#orgea562bb)
-    - [revisit: "eurorack": william michels interested in synthesized music](#orge8f8662)
-    - [refactoring an old perl5 project](#orgb589258)
-  - [announcements](#org0adf44b)
-    - [October 9th: the next raku study group meeting](#org27c5769)
-    - [My Bali vacation pics, cleaned up still further:](#orga54549b)
+- [meeting notes September 25, 2022](#org1a5ccac)
+  - [the raku study group](#org5e242de)
+  - [topics](#org7906018)
+    - [long discussion about community management etc](#org2ecdb89)
+    - [weekly challenge](#org6e90fa7)
+    - [substr uses first<sub>position</sub> and length](#orgb4be4aa)
+    - [revisit: "eurorack": william michels interested in synthesized music](#orgdaf6746)
+    - [refactoring an old perl5 project](#orgb5ee5a2)
+  - [announcements](#org06c0141)
+    - [October 9th: the next raku study group meeting](#org7f325a9)
+    - [My Bali vacation pics, cleaned up still further:](#orgc185388)
 
 
-<a id="orgee917a1"></a>
+<a id="org1a5ccac"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="org547f298"></a>
+<a id="org5e242de"></a>
 
 ## the raku study group
 
@@ -35,12 +35,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="orgbf1cc48"></a>
+<a id="org7906018"></a>
 
 ## topics
 
 
-<a id="org47c0943"></a>
+<a id="org2ecdb89"></a>
 
 ### long discussion about community management etc
 
@@ -65,15 +65,17 @@
     1.  <https://www.theregister.com/2021/05/26/freenode_irc_takeover/>
 
 
-<a id="org791e683"></a>
+<a id="org6e90fa7"></a>
 
 ### weekly challenge
 
-1.  <https://theweeklychallenge.org/>
+1.  current:
 
-2.  "arrayref"
+2.  <https://theweeklychallenge.org/>
 
-3.  text:
+3.  "arrayref"
+
+4.  text:
 
     ```text
     TASK #1: Unique Array
@@ -87,7 +89,7 @@
     ```
 
 
-<a id="orgea562bb"></a>
+<a id="orgb4be4aa"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -96,14 +98,14 @@
 2.  how would you raku that?
 
 
-<a id="orge8f8662"></a>
+<a id="orgdaf6746"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="orgb589258"></a>
+<a id="orgb5ee5a2"></a>
 
 ### refactoring an old perl5 project
 
@@ -154,17 +156,17 @@
     9.  weird bitrot affecting jpeg orientations
 
 
-<a id="org0adf44b"></a>
+<a id="org06c0141"></a>
 
 ## announcements
 
 
-<a id="org27c5769"></a>
+<a id="org7f325a9"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="orga54549b"></a>
+<a id="orgc185388"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
