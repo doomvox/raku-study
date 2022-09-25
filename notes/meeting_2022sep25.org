@@ -19,7 +19,7 @@
 
 *** refactoring an old perl5 project
 **** web photo gallery, static web page generation
-***** write simple tests (single photoseries case covered)
+***** write simple tests (only single photoseries case covered)
 ***** script code broken down into subs (done long ago)
 ***** move subs into library
 ****** exporter-based 
