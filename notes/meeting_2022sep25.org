@@ -9,7 +9,7 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md
 
 ** topics 
-*** long discussion about 
+*** long discussion about community management etc
 **** marton polgar
 ***** need an actual manager?
 ****** not so welcoming to new work
