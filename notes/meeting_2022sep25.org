@@ -17,6 +17,8 @@
 **** https://www.modulargrid.net/e/modules/evaluationlists
 
 
+*** refactoring an old perl5 project: 
+**** web photo gallery, static web page generation
 
 ** announcements 
 *** October 9th: the next raku study group meeting

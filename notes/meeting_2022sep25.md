@@ -1,19 +1,20 @@
-- [meeting notes September 25, 2022](#org5e50819)
-  - [the raku study group](#orgf9dee49)
-  - [topics](#orgc12fc33)
-    - [substr uses first<sub>position</sub> and length](#orga3ca901)
-    - [revisit: "eurorack": william michels interested in synthesized music](#org729139f)
-  - [announcements](#orgde6d8cc)
-    - [October 9th: the next raku study group meeting](#orgd99e3c6)
-    - [My Bali vacation pics, cleaned up still further:](#org63b07ff)
+- [meeting notes September 25, 2022](#org6ccebbf)
+  - [the raku study group](#orgb35b784)
+  - [topics](#org8e2c092)
+    - [substr uses first<sub>position</sub> and length](#orge7504d7)
+    - [revisit: "eurorack": william michels interested in synthesized music](#orge8b0ae4)
+    - [refactoring an old perl5 project:](#org5eef2f1)
+  - [announcements](#org1cf0a9b)
+    - [October 9th: the next raku study group meeting](#org0ba7c6e)
+    - [My Bali vacation pics, cleaned up still further:](#org517ea19)
 
 
-<a id="org5e50819"></a>
+<a id="org6ccebbf"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="orgf9dee49"></a>
+<a id="orgb35b784"></a>
 
 ## the raku study group
 
@@ -32,12 +33,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="orgc12fc33"></a>
+<a id="org8e2c092"></a>
 
 ## topics
 
 
-<a id="orga3ca901"></a>
+<a id="orge7504d7"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -46,24 +47,31 @@
 2.  how would you raku that?
 
 
-<a id="org729139f"></a>
+<a id="orge8b0ae4"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="orgde6d8cc"></a>
+<a id="org5eef2f1"></a>
+
+### refactoring an old perl5 project:
+
+1.  web photo gallery, static web page generation
+
+
+<a id="org1cf0a9b"></a>
 
 ## announcements
 
 
-<a id="orgd99e3c6"></a>
+<a id="org0ba7c6e"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="org63b07ff"></a>
+<a id="org517ea19"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
