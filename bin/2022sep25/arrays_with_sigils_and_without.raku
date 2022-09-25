@@ -30,5 +30,5 @@ use v6;
     my $b = <a b c>;
     ($a, $b) .= reverse;
     .say for $a, $b;
-    # (\Array_94107183402072 = [[] Array_94107183402072])
+
 }
