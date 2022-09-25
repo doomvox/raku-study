@@ -28,6 +28,9 @@
 
 ***** code is getting gradually less ugly 
 
+***** delaying real fixes, adding additional hacks to reduce needs
+****** codes embedded in file names that get turned to punctuation later
+
 ***** central problem: I want to roll my own, but no good reason to release
 ***** weird bitrot affecting jpeg orientations
 
