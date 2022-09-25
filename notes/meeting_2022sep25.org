@@ -97,7 +97,7 @@ my $status = // $result;
 ***** duh, use a range
 ***** https://docs.raku.org/routine/substr
 ***** say substr("Long string", 3..6);     # OUTPUT: «g st␤» 
-
+***** 
 #+BEGIN_SRC raku
 my $str = 'godzilla';
 $str.substr-rw(3,6) = '66666666';
