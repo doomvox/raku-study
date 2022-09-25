@@ -38,7 +38,6 @@ use String::ShellQuote qw( shell_quote );
 use Config::Std;
 use Getopt::Long    qw( :config no_ignore_case bundling );
 use List::Util      qw( first max maxstr min minstr reduce shuffle sum any );
-use List::MoreUtils qw( zip uniq );
 use POSIX qw( ceil floor );
 
 our $VERSION = 0.01;
@@ -69,9 +68,13 @@ my $c = \@c;
 # defining an array reference directly
 my $d = [ 'perl'. 'raku', ];
 
+# an array of arefs with duplicate arefs
 my @array_of_arefs = ( $a, $b, $c, $d, $a, $b );
 
 
+use List::MoreUtils qw( zip uniq );
+my @uniques = uniq @array_of_arefs;
+say Dumper( \@uniques );
 
 
 
