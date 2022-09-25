@@ -87,6 +87,9 @@ Write a script to find the difference between the given dates in terms on years 
 *** william michels  double slash, front of the line? 
 **** https://github.com/rakudo/rakudo/pull/5040
 **** if leon likes it, sokay with me
+#+BEGIN_SRC raku
+my $status = // $result;
+#+END_SRC
 
 *** substr uses first_position and length
 **** but I always want ranges: first_position, second_position
