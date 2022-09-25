@@ -11,7 +11,7 @@
 ** topics 
 *** long discussion about community management etc
 **** marton polgar
-***** need an actual manager?
+***** raku needs an actual manager?
 ****** not so welcoming to new work
 ***** good raku people lost to rust? 
 ***** how public is the study group
