@@ -17,6 +17,7 @@
 **** https://www.modulargrid.net/e/modules/evaluationlists
 
 
+
 *** refactoring an old perl5 project
 **** web photo gallery, static web page generation
 ***** write simple tests (only single photoseries case covered)
