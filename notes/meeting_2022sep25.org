@@ -26,8 +26,12 @@
 ***** refactor subs so they stop shelling out so much, call the subs directly
 ****** exposes some odd bugs: scope of "memory" changes
 
-***** code is getting gradually less ugly, *but*. harder to hack than it should be.
-****** real templates
+***** code is getting gradually less ugly, *but*. 
+****** harder to hack than it should be.
+****** needs
+******* real templates
+******* database to track metadata
+
 
 ***** delaying the real fixes, adding additional hacks to reduce the need
 ****** e.g. codes embedded in file names that get turned to punctuation later
@@ -37,7 +41,16 @@
 ***** central problem: I want to roll my own, but no good reason to release
 ****** a thought: keep re-writing this in different ways, use it as a demo/test case
 
+***** data modeling mistakes: 
+****** attributing multiple photographers
+****** photos of a subject from multiple sessions
+****** untitled photos need html filenames too
+******* you can have a series inside a series
+******** e.g. three shots getting gradually closer
+
 ***** weird bitrot affecting jpeg orientations
+
+
 
 ** announcements 
 *** October 9th: the next raku study group meeting
