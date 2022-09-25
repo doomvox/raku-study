@@ -8,10 +8,14 @@ use v6;
 
 my @a = 1,2,3;
 my @b = <a b c>;
-(@a, @b) .= reverse;
-.say for @a, @b;
-# (\Array_94107183402072 = [[] Array_94107183402072])
+{
+    (@a, @b) .= reverse;
+    .say for @a, @b;
+    # (\Array_94107183402072 = [[] Array_94107183402072])
+}
 
+{
+    ($@a, $@b) .= reverse;
+    .say for @a, @b;
 
-($@a, $@b) .= reverse;
-.say for @a, @b;
+}
