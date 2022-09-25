@@ -6,9 +6,9 @@ use v6;
 
 ## Bruce gray:
 
-my @a = 1,2,3;
-my @b = <a b c>;
 {
+    my @a = 1,2,3;
+    my @b = <a b c>;
     (@a, @b) .= reverse;
     .say for @a, @b;
     # (\Array_94107183402072 = [[] Array_94107183402072])
