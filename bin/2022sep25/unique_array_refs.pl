@@ -57,7 +57,7 @@ GetOptions ("d|debug"    => \$DEBUG,
 # You are given list of arrayrefs. Write a script to remove the duplicate arrayrefs from the given list.
 
 
-# my @my_array = ('ape', 'gorilla', 'chimp');
+my @my_array = ('ape', 'gorilla', 'chimp');
 
 my @a = qw( alpha beta gamma );
 my @c = qw( whun tew thuree );
@@ -67,8 +67,6 @@ my @b = qw( godzilla mothera rhodan );
 my $a = \@a;
 my $b = \@b;
 my $c = \@c;
-
-
 
 # defining an array reference directly
 my $d = [ 'perl'. 'raku', ];  ## oops, wanted a comma not a dot
