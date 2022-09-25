@@ -21,3 +21,4 @@ my @b = < godzilla mothera rhodan >;
 my $d = [ 'perl', 'raku', ]; 
 say $d;
 
+my @array_of_arefs = ( @a, @b, @c, $d, @a, @b );
