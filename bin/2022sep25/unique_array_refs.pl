@@ -55,6 +55,7 @@ GetOptions ("d|debug"    => \$DEBUG,
 { no warnings 'once'; $DB::single = 1; }
 
 
+# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022sep25/modgrid
 
 
 
