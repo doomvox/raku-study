@@ -61,10 +61,12 @@ my @a = qw( alpha beta gamma );
 my @c = qw( whun tew thuree );
 my @b = qw( godzilla mothera rhodan );
 
+# getting array references from arrays
 my $a = \@a;
 my $b = \@b;
 my $c = \@c;
 
+# defining an array reference directly
 my $d = [ 'perl'. 'raku', ];
 
 my @array_of_arefs = ( $a, $b, $c, $d );
