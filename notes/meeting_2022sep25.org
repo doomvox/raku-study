@@ -5,6 +5,7 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep25.md
 ***** code examples
 ****** https://github.com/doomvox/raku-study/tree/main/bin/sep25
+
 ** topics 
 *** substr uses first_position and length
 **** but I always want ranges: first_position, second_position
@@ -17,5 +18,5 @@
 
 ** announcements 
 *** October 9th: the next raku study group meeting
-*** My Bali vacation pics, cleaned up further:
+*** My Bali vacation pics, cleaned up still further:
 **** http://obsidianrook.com/pics/bali2022

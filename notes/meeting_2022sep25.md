@@ -1,19 +1,19 @@
-- [meeting notes September 25, 2022](#orgba18757)
-  - [the raku study group](#orge3d564e)
-  - [topics](#org4446cab)
-    - [substr uses first<sub>position</sub> and length](#org1c25e19)
-    - [revisit: "eurorack": william michels interested in synthesized music](#orge469181)
-  - [announcements](#orgb0ce9f2)
-    - [October 9th: the next raku study group meeting](#org8b5e2cb)
-    - [My Bali vacation pics, cleaned up further:](#orgd0c3123)
+- [meeting notes September 25, 2022](#org9d02d8f)
+  - [the raku study group](#orga966bb0)
+  - [topics](#org8c95f8e)
+    - [substr uses first<sub>position</sub> and length](#org472b28c)
+    - [revisit: "eurorack": william michels interested in synthesized music](#org1f70df3)
+  - [announcements](#org0c6f715)
+    - [October 9th: the next raku study group meeting](#org62609e2)
+    - [My Bali vacation pics, cleaned up still further:](#orgad264e1)
 
 
-<a id="orgba18757"></a>
+<a id="org9d02d8f"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="orge3d564e"></a>
+<a id="orga966bb0"></a>
 
 ## the raku study group
 
@@ -28,12 +28,12 @@
         1.  <https://github.com/doomvox/raku-study/tree/main/bin/sep25>
 
 
-<a id="org4446cab"></a>
+<a id="org8c95f8e"></a>
 
 ## topics
 
 
-<a id="org1c25e19"></a>
+<a id="org472b28c"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -42,25 +42,25 @@
 2.  how would you raku that?
 
 
-<a id="orge469181"></a>
+<a id="org1f70df3"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="orgb0ce9f2"></a>
+<a id="org0c6f715"></a>
 
 ## announcements
 
 
-<a id="org8b5e2cb"></a>
+<a id="org62609e2"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="orgd0c3123"></a>
+<a id="orgad264e1"></a>
 
-### My Bali vacation pics, cleaned up further:
+### My Bali vacation pics, cleaned up still further:
 
 1.  <http://obsidianrook.com/pics/bali2022>
