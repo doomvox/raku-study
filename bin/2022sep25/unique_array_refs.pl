@@ -57,8 +57,8 @@ GetOptions ("d|debug"    => \$DEBUG,
 # You are given list of arrayrefs. Write a script to remove the duplicate arrayrefs from the given list.
 # they want:
 #  remove reference to arrays that are identical
-#    Test::More  is_deeply
-#    Scalar::Util refaddr
+#    Test::More    is_deeply
+#    Scalar::Util  refaddr
 
 my @my_array = ('ape', 'gorilla', 'chimp');
 
