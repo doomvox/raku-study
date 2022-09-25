@@ -1,21 +1,21 @@
-- [meeting notes September 25, 2022](#org5666b7d)
-  - [the raku study group](#org5e11624)
-  - [topics](#orgf05c4cd)
-    - [weekly challenge](#orge79c19b)
-    - [substr uses first<sub>position</sub> and length](#org5710f46)
-    - [revisit: "eurorack": william michels interested in synthesized music](#org5fcf912)
-    - [refactoring an old perl5 project](#orgc68d83c)
-  - [announcements](#org0b4d58c)
-    - [October 9th: the next raku study group meeting](#org22ca3f5)
-    - [My Bali vacation pics, cleaned up still further:](#orgcf33d2f)
+- [meeting notes September 25, 2022](#org01aa044)
+  - [the raku study group](#org87367c7)
+  - [topics](#orgd33ac9d)
+    - [weekly challenge](#org320d53d)
+    - [substr uses first<sub>position</sub> and length](#orgadd6dc1)
+    - [revisit: "eurorack": william michels interested in synthesized music](#org0cef26f)
+    - [refactoring an old perl5 project](#orgd450a26)
+  - [announcements](#org4d2903e)
+    - [October 9th: the next raku study group meeting](#org4d16f19)
+    - [My Bali vacation pics, cleaned up still further:](#org442c868)
 
 
-<a id="org5666b7d"></a>
+<a id="org01aa044"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="org5e11624"></a>
+<a id="org87367c7"></a>
 
 ## the raku study group
 
@@ -34,12 +34,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="orgf05c4cd"></a>
+<a id="orgd33ac9d"></a>
 
 ## topics
 
 
-<a id="orge79c19b"></a>
+<a id="org320d53d"></a>
 
 ### weekly challenge
 
@@ -63,7 +63,7 @@
     ```
 
 
-<a id="org5710f46"></a>
+<a id="orgadd6dc1"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -72,14 +72,14 @@
 2.  how would you raku that?
 
 
-<a id="org5fcf912"></a>
+<a id="org0cef26f"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="orgc68d83c"></a>
+<a id="orgd450a26"></a>
 
 ### refactoring an old perl5 project
 
@@ -130,17 +130,17 @@
     9.  weird bitrot affecting jpeg orientations
 
 
-<a id="org0b4d58c"></a>
+<a id="org4d2903e"></a>
 
 ## announcements
 
 
-<a id="org22ca3f5"></a>
+<a id="org4d16f19"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="orgcf33d2f"></a>
+<a id="org442c868"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
