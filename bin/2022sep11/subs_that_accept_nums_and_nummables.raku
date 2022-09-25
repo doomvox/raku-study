@@ -31,7 +31,6 @@ say $thing.WHAT;
 # say $thing ~ Numeric;
 # say $thing ~ String;
 
-
 ## special num type that takes a string that looks like a num (potentially useful?)
 subset Numesque of Any where { defined .Numeric };
 
