@@ -42,6 +42,11 @@ Write a script to find the difference between the given dates in terms on years 
 **** rob's code treats as strings, then ensures it stops at a '/'
 **** the lcp code on rosettacode has problems: old style 2015
 ***** bruce gray makes point it doesn't stop when it's found divergence
+****** instead of ords should use cars
+****** no need for vertbar
+****** should use eq not eqv
+****** coming out of [\and] you'll see T, T, F, F, ...
+****** use first to bail out when F found?
 
 *** revisit: "eurorack": william michels interested in synthesized music 
 **** https://www.modulargrid.net/e/modules/evaluationlists

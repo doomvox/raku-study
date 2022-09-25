@@ -1,23 +1,23 @@
-- [meeting notes September 25, 2022](#org61a1604)
-  - [the raku study group](#org7c45228)
-  - [topics](#org6d3544e)
-    - [long discussion about community management etc](#org220713f)
-    - [weekly challenge, current](#org41c979f)
-    - [another weekly challenge](#org81e8c2d)
-    - [revisit: "eurorack": william michels interested in synthesized music](#orge7fd780)
-    - [refactoring an old perl5 project](#orgd9bfe4e)
-    - [substr uses first<sub>position</sub> and length](#org5bcc8f6)
-  - [announcements](#org10b668f)
-    - [October 9th: the next raku study group meeting](#org230b1a1)
-    - [My Bali vacation pics, cleaned up still further:](#org5d56bbf)
+- [meeting notes September 25, 2022](#org5d1ba71)
+  - [the raku study group](#org4bf9c51)
+  - [topics](#orgab62533)
+    - [long discussion about community management etc](#orga5b7d27)
+    - [weekly challenge, current](#orgf6a933d)
+    - [another weekly challenge](#orge18d29e)
+    - [revisit: "eurorack": william michels interested in synthesized music](#org6a470ff)
+    - [refactoring an old perl5 project](#org08ea30c)
+    - [substr uses first<sub>position</sub> and length](#org9627b8a)
+  - [announcements](#org1239daa)
+    - [October 9th: the next raku study group meeting](#orge63769e)
+    - [My Bali vacation pics, cleaned up still further:](#orgdc6502a)
 
 
-<a id="org61a1604"></a>
+<a id="org5d1ba71"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="org7c45228"></a>
+<a id="org4bf9c51"></a>
 
 ## the raku study group
 
@@ -36,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="org6d3544e"></a>
+<a id="orgab62533"></a>
 
 ## topics
 
 
-<a id="org220713f"></a>
+<a id="orga5b7d27"></a>
 
 ### long discussion about community management etc
 
@@ -66,7 +66,7 @@
     1.  <https://www.theregister.com/2021/05/26/freenode_irc_takeover/>
 
 
-<a id="org41c979f"></a>
+<a id="orgf6a933d"></a>
 
 ### weekly challenge, current
 
@@ -88,7 +88,7 @@
     ```
 
 
-<a id="org81e8c2d"></a>
+<a id="orge18d29e"></a>
 
 ### another weekly challenge
 
@@ -99,16 +99,26 @@
 3.  the lcp code on rosettacode has problems: old style 2015
 
     1.  bruce gray makes point it doesn't stop when it's found divergence
+    
+        1.  instead of ords should use cars
+        
+        2.  no need for vertbar
+        
+        3.  should use eq not eqv
+        
+        4.  coming out of [\and] you'll see T, T, F, F, &#x2026;
+        
+        5.  use first to bail out when F found?
 
 
-<a id="orge7fd780"></a>
+<a id="org6a470ff"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="orgd9bfe4e"></a>
+<a id="org08ea30c"></a>
 
 ### refactoring an old perl5 project
 
@@ -159,7 +169,7 @@
     9.  weird bitrot affecting jpeg orientations
 
 
-<a id="org5bcc8f6"></a>
+<a id="org9627b8a"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -168,17 +178,17 @@
 2.  how would you raku that?
 
 
-<a id="org10b668f"></a>
+<a id="org1239daa"></a>
 
 ## announcements
 
 
-<a id="org230b1a1"></a>
+<a id="orge63769e"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="org5d56bbf"></a>
+<a id="orgdc6502a"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
