@@ -6,3 +6,5 @@ use v6;
 
 my @a = 1, 2, 3;
 say @a;
+
+say so @a eqv (1, 2, 3);
