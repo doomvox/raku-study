@@ -69,7 +69,7 @@ my $c = \@c;
 # defining an array reference directly
 my $d = [ 'perl'. 'raku', ];
 
-my @array_of_arefs = ( $a, $b, $c, $d );
+my @array_of_arefs = ( $a, $b, $c, $d, $a, $b );
 
 
 
