@@ -71,7 +71,7 @@ my $c = \@c;
 # defining an array reference directly
 my $d = [ 'perl', 'raku', ]; 
 
-my $e = [ 'perl'. 'raku', ];  ## oops, wanted a comma not a dot
+# my $e = [ 'perl'. 'raku', ];  ## oops, wanted a comma not a dot  'perlraku'
 
 # an array of arefs with duplicate arefs
 my @array_of_arefs = ( $a, $b, $c, $d, $a, $b );
