@@ -26,7 +26,7 @@
 ***** refactor subs so they stop shelling out so much, call routines directly
 ****** exposes some odd bugs: code has more memory now
 
-***** code is getting gradually less ugly 
+***** code is getting gradually less ugly, *but*.
 
 ***** delaying real fixes, adding additional hacks to reduce the need
 ****** e.g. codes embedded in file names that get turned to punctuation later
