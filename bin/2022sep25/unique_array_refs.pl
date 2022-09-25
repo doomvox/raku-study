@@ -66,7 +66,7 @@ my $b = \@b;
 my $c = \@c;
 
 # defining an array reference directly
-my $d = [ 'perl'. 'raku', ];
+my $d = [ 'perl'. 'raku', ];  ## oops, wanted a comma not a dot
 
 # an array of arefs with duplicate arefs
 my @array_of_arefs = ( $a, $b, $c, $d, $a, $b );
@@ -75,6 +75,9 @@ my @array_of_arefs = ( $a, $b, $c, $d, $a, $b );
 use List::MoreUtils qw( zip uniq );
 my @uniques = uniq @array_of_arefs;
 say Dumper( \@uniques );
+
+
+
 
 
 
