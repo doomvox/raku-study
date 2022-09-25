@@ -66,6 +66,8 @@ Write a script to find the difference between the given dates in terms on years 
 ****** needs
 ******* real templates
 ******* database to track metadata
+******** avoid editing image filenames to change labels
+******** I do a lot of rerunning from scratch-- redunant image rescales
 
 ***** delaying the real fixes, adding additional hacks to reduce the need
 ****** e.g. codes embedded in file names that get turned to punctuation later
