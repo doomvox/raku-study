@@ -26,9 +26,13 @@ use v6;
 
 
 {
-    my $a = (1,2,3);
+    ## Swapping with scalars is easier
+    my $a = (1,2,3);   # but note the need for parens now.
     my $b = <a b c>;
     ($a, $b) .= reverse;
     .say for $a, $b;
+
+# (a b c)
+# (1 2 3)
 
 }
