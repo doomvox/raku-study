@@ -1,22 +1,22 @@
-- [meeting notes September 25, 2022](#org5c1643c)
-  - [the raku study group](#orgfa9df86)
-  - [topics](#org0b515a0)
-    - [long discussion about community management etc](#orgc80184c)
-    - [weekly challenge](#org60ccfb3)
-    - [substr uses first<sub>position</sub> and length](#orgb1526b2)
-    - [revisit: "eurorack": william michels interested in synthesized music](#org38de1b1)
-    - [refactoring an old perl5 project](#org0c074ab)
-  - [announcements](#org68874fd)
-    - [October 9th: the next raku study group meeting](#org4d18890)
-    - [My Bali vacation pics, cleaned up still further:](#orgbc363b3)
+- [meeting notes September 25, 2022](#org1df78e5)
+  - [the raku study group](#org8a7770e)
+  - [topics](#org106cc25)
+    - [long discussion about community management etc](#orgf43a478)
+    - [weekly challenge](#org632d806)
+    - [substr uses first<sub>position</sub> and length](#org5353d7e)
+    - [revisit: "eurorack": william michels interested in synthesized music](#org3aebf22)
+    - [refactoring an old perl5 project](#org22b5a12)
+  - [announcements](#org0be5320)
+    - [October 9th: the next raku study group meeting](#orgb308d60)
+    - [My Bali vacation pics, cleaned up still further:](#org07c63a5)
 
 
-<a id="org5c1643c"></a>
+<a id="org1df78e5"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="orgfa9df86"></a>
+<a id="org8a7770e"></a>
 
 ## the raku study group
 
@@ -35,12 +35,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="org0b515a0"></a>
+<a id="org106cc25"></a>
 
 ## topics
 
 
-<a id="orgc80184c"></a>
+<a id="orgf43a478"></a>
 
 ### long discussion about community management etc
 
@@ -65,7 +65,7 @@
     1.  <https://www.theregister.com/2021/05/26/freenode_irc_takeover/>
 
 
-<a id="org60ccfb3"></a>
+<a id="org632d806"></a>
 
 ### weekly challenge
 
@@ -76,7 +76,6 @@
 3.  text:
 
     ```text
-    
     TASK #1: Unique Array
     
     You are given list of arrayrefs. Write a script to remove the duplicate arrayrefs from the given list.
@@ -85,11 +84,10 @@
     
     You are given two dates, $date1 and $date2 in the format YYYY-MM-DD. 
     Write a script to find the difference between the given dates in terms on years and days only.
-    
     ```
 
 
-<a id="orgb1526b2"></a>
+<a id="org5353d7e"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -98,14 +96,14 @@
 2.  how would you raku that?
 
 
-<a id="org38de1b1"></a>
+<a id="org3aebf22"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="org0c074ab"></a>
+<a id="org22b5a12"></a>
 
 ### refactoring an old perl5 project
 
@@ -156,17 +154,17 @@
     9.  weird bitrot affecting jpeg orientations
 
 
-<a id="org68874fd"></a>
+<a id="org0be5320"></a>
 
 ## announcements
 
 
-<a id="org4d18890"></a>
+<a id="orgb308d60"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="orgbc363b3"></a>
+<a id="org07c63a5"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 

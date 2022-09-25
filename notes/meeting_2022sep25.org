@@ -28,7 +28,6 @@
 **** text: 
 
 #+BEGIN_SRC text
-
 TASK #1: Unique Array
 
 You are given list of arrayrefs. Write a script to remove the duplicate arrayrefs from the given list.
@@ -37,7 +36,6 @@ TASK #2: Date Difference
 
 You are given two dates, $date1 and $date2 in the format YYYY-MM-DD. 
 Write a script to find the difference between the given dates in terms on years and days only.
-
 #+END_SRC
 
 *** substr uses first_position and length
