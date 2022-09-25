@@ -97,8 +97,6 @@ say Dumper( \@result );
 use Test::More qw( is_deeply );
 is_deeply( \@test, \@result, "Testing if the result is different from input");
 
-
-
 # $VAR1 = [
 #           [
 #             1,
