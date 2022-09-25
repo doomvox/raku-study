@@ -1,22 +1,22 @@
-- [meeting notes September 25, 2022](#orgac00f60)
-  - [the raku study group](#org20ca4ca)
-  - [topics](#orgb7612e8)
-    - [long discussion about community management etc](#org78b212d)
-    - [weekly challenge](#org1060376)
-    - [substr uses first<sub>position</sub> and length](#org3ef92a5)
-    - [revisit: "eurorack": william michels interested in synthesized music](#org36b3915)
-    - [refactoring an old perl5 project](#org888ed25)
-  - [announcements](#orgbe96c1f)
-    - [October 9th: the next raku study group meeting](#orgdb66fbd)
-    - [My Bali vacation pics, cleaned up still further:](#org48bcf5a)
+- [meeting notes September 25, 2022](#orgfd2f320)
+  - [the raku study group](#org5c4f83e)
+  - [topics](#orge055541)
+    - [long discussion about community management etc](#orgee54f20)
+    - [weekly challenge](#orgbc14686)
+    - [substr uses first<sub>position</sub> and length](#orgeb620ea)
+    - [revisit: "eurorack": william michels interested in synthesized music](#org2a0dc47)
+    - [refactoring an old perl5 project](#orgc2ded9a)
+  - [announcements](#orgc532c30)
+    - [October 9th: the next raku study group meeting](#org79310e8)
+    - [My Bali vacation pics, cleaned up still further:](#org2cb2ff5)
 
 
-<a id="orgac00f60"></a>
+<a id="orgfd2f320"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="org20ca4ca"></a>
+<a id="org5c4f83e"></a>
 
 ## the raku study group
 
@@ -35,12 +35,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="orgb7612e8"></a>
+<a id="orge055541"></a>
 
 ## topics
 
 
-<a id="org78b212d"></a>
+<a id="orgee54f20"></a>
 
 ### long discussion about community management etc
 
@@ -48,7 +48,7 @@
 
     1.  raku needs an actual manager?
     
-        1.  not so welcoming to new work
+        1.  not so welcoming to new work?
     
     2.  good raku people lost to rust?
     
@@ -59,7 +59,7 @@
         2.  get lizmat to include
 
 
-<a id="org1060376"></a>
+<a id="orgbc14686"></a>
 
 ### weekly challenge
 
@@ -83,7 +83,7 @@
     ```
 
 
-<a id="org3ef92a5"></a>
+<a id="orgeb620ea"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -92,14 +92,14 @@
 2.  how would you raku that?
 
 
-<a id="org36b3915"></a>
+<a id="org2a0dc47"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="org888ed25"></a>
+<a id="orgc2ded9a"></a>
 
 ### refactoring an old perl5 project
 
@@ -150,17 +150,17 @@
     9.  weird bitrot affecting jpeg orientations
 
 
-<a id="orgbe96c1f"></a>
+<a id="orgc532c30"></a>
 
 ## announcements
 
 
-<a id="orgdb66fbd"></a>
+<a id="org79310e8"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="org48bcf5a"></a>
+<a id="org2cb2ff5"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
