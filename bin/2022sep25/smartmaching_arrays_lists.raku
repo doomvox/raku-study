@@ -31,3 +31,7 @@ my @result =
   @array_of_arefs.unique(with => &[eqv]);
 
 say @result;
+# [[alpha beta gamma] [godzilla mothera rhodan] [whun tew thuree] [perl raku]]
+
+## So, eqv does the job in raku...
+## though: what's an "arrayref"?
