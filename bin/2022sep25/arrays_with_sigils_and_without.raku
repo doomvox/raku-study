@@ -14,7 +14,7 @@ my @b = <a b c>;
     # (\Array_94107183402072 = [[] Array_94107183402072])
 }
 
-# Rob suggests $@ 
+# Rob suggests $@ but...
 # {
 #     ($@a, $@b) .= reverse;
 #     .say for @a, @b;
