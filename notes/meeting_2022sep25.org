@@ -19,6 +19,9 @@
 
 *** refactoring an old perl5 project
 **** web photo gallery, static web page generation
+***** write simple tests (some written long ago)
+***** script code broken down into subs (done long ago)
+***** 
 
 ** announcements 
 *** October 9th: the next raku study group meeting
