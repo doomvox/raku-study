@@ -17,5 +17,4 @@ my @b = <a b c>;
 {
     ($@a, $@b) .= reverse;
     .say for @a, @b;
-
 }
