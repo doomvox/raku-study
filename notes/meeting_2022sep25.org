@@ -9,6 +9,9 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md
 
 ** topics 
+*** weekly challenge
+**** 
+
 *** substr uses first_position and length
 **** but I always want ranges: first_position, second_position
 **** how would you raku that?
@@ -47,6 +50,8 @@
 ******** e.g. three shots getting gradually closer
 
 ***** weird bitrot affecting jpeg orientations
+
+
 
 ** announcements 
 *** October 9th: the next raku study group meeting
