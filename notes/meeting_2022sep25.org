@@ -41,6 +41,7 @@ Write a script to find the difference between the given dates in terms on years 
 **** longest common prefix in directory names
 **** rob's code treats as strings, then ensures it stops at a '/'
 
+
 *** substr uses first_position and length
 **** but I always want ranges: first_position, second_position
 **** how would you raku that?
