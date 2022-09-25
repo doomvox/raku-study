@@ -11,3 +11,10 @@ say so @a eqv (1, 2, 3);
 # False
 
 say so @a ~~ (1, 2, 3);
+# True
+
+
+my @a = < alpha beta gamma >;
+my @c = < whun tew thuree >;
+my @b = < godzilla mothera rhodan >;
+
