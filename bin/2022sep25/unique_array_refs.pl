@@ -57,6 +57,12 @@ GetOptions ("d|debug"    => \$DEBUG,
 
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022sep25/modgrid
 
+my @a = qw( alpha beta gamma );
+my @c = qw( whun tew thuree );
+my @b = qw( godzilla mothera rhodan );
+
+
+
 
 
 
