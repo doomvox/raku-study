@@ -76,7 +76,6 @@ my $d = [ 'perl', 'raku', ];
 # an array of arefs with duplicate arefs
 my @array_of_arefs = ( $a, $b, $c, $d, $a, $b );
 
-
 use List::MoreUtils qw( zip uniq );
 my @uniques = uniq @array_of_arefs;
 say Dumper( \@uniques );
