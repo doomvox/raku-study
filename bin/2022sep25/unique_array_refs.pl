@@ -67,6 +67,9 @@ my $c = \@c;
 
 my $d = [ 'perl'. 'raku', ];
 
+my @array_of_arefs = ( $a, $b, $c, $d );
+
+
 
 
 ### end main, into the subs
