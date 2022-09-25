@@ -85,6 +85,7 @@ Write a script to find the difference between the given dates in terms on years 
 ***** weird bitrot affecting jpeg orientations
 
 *** william michels  double slash, front of the line? 
+**** https://github.com/rakudo/rakudo/pull/5040
 
 *** substr uses first_position and length
 **** but I always want ranges: first_position, second_position
