@@ -10,7 +10,10 @@
 
 ** topics 
 *** weekly challenge
+**** https://theweeklychallenge.org/
+
 **** "arrayref"
+
 
 *** substr uses first_position and length
 **** but I always want ranges: first_position, second_position
