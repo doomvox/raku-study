@@ -1,23 +1,23 @@
-- [meeting notes September 25, 2022](#org1bb3c2f)
-  - [the raku study group](#orgd0a66ba)
-  - [topics](#org16a09b6)
-    - [long discussion about community management etc](#orgf80ca54)
-    - [weekly challenge, current](#org58cf87f)
-    - [weekly challenge, older:](#org425a0c5)
-    - [substr uses first<sub>position</sub> and length](#org65311de)
-    - [revisit: "eurorack": william michels interested in synthesized music](#org1461a42)
-    - [refactoring an old perl5 project](#orgfeb1b58)
-  - [announcements](#orge4850af)
-    - [October 9th: the next raku study group meeting](#orgb43b4f7)
-    - [My Bali vacation pics, cleaned up still further:](#org173a127)
+- [meeting notes September 25, 2022](#org48101db)
+  - [the raku study group](#orgef303a3)
+  - [topics](#org57b98c6)
+    - [long discussion about community management etc](#org0f6b03e)
+    - [weekly challenge, current](#orgc5327a7)
+    - [weekly challenge, older:](#orgdd8462f)
+    - [substr uses first<sub>position</sub> and length](#org02a3a43)
+    - [revisit: "eurorack": william michels interested in synthesized music](#org4108eee)
+    - [refactoring an old perl5 project](#orgd2c9dcc)
+  - [announcements](#org085dbe7)
+    - [October 9th: the next raku study group meeting](#org173bd62)
+    - [My Bali vacation pics, cleaned up still further:](#org1ea0613)
 
 
-<a id="org1bb3c2f"></a>
+<a id="org48101db"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="orgd0a66ba"></a>
+<a id="orgef303a3"></a>
 
 ## the raku study group
 
@@ -36,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="org16a09b6"></a>
+<a id="org57b98c6"></a>
 
 ## topics
 
 
-<a id="orgf80ca54"></a>
+<a id="org0f6b03e"></a>
 
 ### long discussion about community management etc
 
@@ -66,13 +66,13 @@
     1.  <https://www.theregister.com/2021/05/26/freenode_irc_takeover/>
 
 
-<a id="org58cf87f"></a>
+<a id="orgc5327a7"></a>
 
 ### weekly challenge, current
 
 1.  <https://theweeklychallenge.org/>
 
-2.  "arrayref"
+2.  what's an "arrayref"? (A perlism, without obvious raku equivalent)
 
 3.  text:
 
@@ -88,12 +88,12 @@
     ```
 
 
-<a id="org425a0c5"></a>
+<a id="orgdd8462f"></a>
 
 ### weekly challenge, older:
 
 
-<a id="org65311de"></a>
+<a id="org02a3a43"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -102,14 +102,14 @@
 2.  how would you raku that?
 
 
-<a id="org1461a42"></a>
+<a id="org4108eee"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="orgfeb1b58"></a>
+<a id="orgd2c9dcc"></a>
 
 ### refactoring an old perl5 project
 
@@ -160,17 +160,17 @@
     9.  weird bitrot affecting jpeg orientations
 
 
-<a id="orge4850af"></a>
+<a id="org085dbe7"></a>
 
 ## announcements
 
 
-<a id="orgb43b4f7"></a>
+<a id="org173bd62"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="org173a127"></a>
+<a id="org1ea0613"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 

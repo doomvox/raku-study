@@ -24,7 +24,7 @@
 
 *** weekly challenge, current
 **** https://theweeklychallenge.org/
-**** "arrayref"
+**** what's an "arrayref"? (A perlism, without obvious raku equivalent)
 **** text: 
 #+BEGIN_SRC text
 TASK #1: Unique Array
