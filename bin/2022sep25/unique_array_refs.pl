@@ -82,9 +82,10 @@ say Dumper( \@uniques );
 
 my @strings = map{ scalar($_) } @array_of_arefs;
 say join ' ', @strings;
+# ARRAY(0x55f2d59f0810) ARRAY(0x55f2d5b7eeb8) ARRAY(0x55f2d5bc93c0) ARRAY(0x55f2d588f298) ARRAY(0x55f2d59f0810) ARRAY(0x55f2d5b7eeb8)
 
 say "@array_of_arefs";
-
+# ARRAY(0x55f2d59f0810) ARRAY(0x55f2d5b7eeb8) ARRAY(0x55f2d5bc93c0) ARRAY(0x55f2d588f298) ARRAY(0x55f2d59f0810) ARRAY(0x55f2d5b7eeb8)
 
 my @test = ( [1,2], [3,4], [5,6], [1,2] );
 my @result = uniq @test;
