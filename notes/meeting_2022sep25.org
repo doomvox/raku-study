@@ -94,8 +94,10 @@ my $status = // $result;
 *** substr uses first_position and length
 **** but I always want ranges: first_position, second_position
 **** how would you raku that?
+***** duh, use a range
 
-
+***** https://docs.raku.org/routine/substr
+***** say substr("Long string", 3..6);     # OUTPUT: «g st␤» 
 
 ** announcements 
 *** October 9th: the next raku study group meeting
