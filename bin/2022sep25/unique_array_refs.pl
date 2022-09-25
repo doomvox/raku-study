@@ -82,7 +82,7 @@ my @uniques = uniq @array_of_arefs;
 say Dumper( \@uniques );
 
 my @strings = map{ scalar($_) } @array_of_arefs;
-say @strings;
+say join ' ', @strings;
 
 
 ### end main, into the subs
