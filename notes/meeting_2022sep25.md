@@ -1,20 +1,20 @@
-- [meeting notes September 25, 2022](#org7e1b7c9)
-  - [the raku study group](#org1edaed2)
-  - [topics](#orgd01e6b3)
-    - [substr uses first<sub>position</sub> and length](#orge215da7)
-    - [revisit: "eurorack": william michels interested in synthesized music](#orgd7fb7b1)
-    - [refactoring an old perl5 project](#orgcb2a227)
-  - [announcements](#org2412f92)
-    - [October 9th: the next raku study group meeting](#org25bb3b9)
-    - [My Bali vacation pics, cleaned up still further:](#org2c4bd8f)
+- [meeting notes September 25, 2022](#orgf171fe0)
+  - [the raku study group](#org3fee694)
+  - [topics](#org154bf88)
+    - [substr uses first<sub>position</sub> and length](#orgbd5f691)
+    - [revisit: "eurorack": william michels interested in synthesized music](#org273f104)
+    - [refactoring an old perl5 project](#org6562812)
+  - [announcements](#orgfd4e5fb)
+    - [October 9th: the next raku study group meeting](#org856cdde)
+    - [My Bali vacation pics, cleaned up still further:](#org9043b27)
 
 
-<a id="org7e1b7c9"></a>
+<a id="orgf171fe0"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="org1edaed2"></a>
+<a id="org3fee694"></a>
 
 ## the raku study group
 
@@ -33,12 +33,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="orgd01e6b3"></a>
+<a id="org154bf88"></a>
 
 ## topics
 
 
-<a id="orge215da7"></a>
+<a id="orgbd5f691"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -47,14 +47,14 @@
 2.  how would you raku that?
 
 
-<a id="orgd7fb7b1"></a>
+<a id="org273f104"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="orgcb2a227"></a>
+<a id="org6562812"></a>
 
 ### refactoring an old perl5 project
 
@@ -74,26 +74,30 @@
     
     5.  code is getting gradually less ugly, **but**.
     
-    6.  delaying real fixes, adding additional hacks to reduce the need
+    6.  delaying the real fixes, adding additional hacks to reduce the need
     
         1.  e.g. codes embedded in file names that get turned to punctuation later
     
-    7.  central problem: I want to roll my own, but no good reason to release
+    7.  
     
-    8.  weird bitrot affecting jpeg orientations
+    8.  central problem: I want to roll my own, but no good reason to release
+    
+        1.  a thought: keep re-writing this in different ways, use it as a demo/test case
+    
+    9.  weird bitrot affecting jpeg orientations
 
 
-<a id="org2412f92"></a>
+<a id="orgfd4e5fb"></a>
 
 ## announcements
 
 
-<a id="org25bb3b9"></a>
+<a id="org856cdde"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="org2c4bd8f"></a>
+<a id="org9043b27"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 

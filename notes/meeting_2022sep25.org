@@ -28,10 +28,14 @@
 
 ***** code is getting gradually less ugly, *but*.
 
-***** delaying real fixes, adding additional hacks to reduce the need
+***** delaying the real fixes, adding additional hacks to reduce the need
 ****** e.g. codes embedded in file names that get turned to punctuation later
 
+***** 
+
 ***** central problem: I want to roll my own, but no good reason to release
+****** a thought: keep re-writing this in different ways, use it as a demo/test case
+
 ***** weird bitrot affecting jpeg orientations
 
 ** announcements 
