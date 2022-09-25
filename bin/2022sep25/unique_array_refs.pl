@@ -81,7 +81,7 @@ use List::MoreUtils qw( zip uniq );
 my @uniques = uniq @array_of_arefs;
 say Dumper( \@uniques );
 
-my @strings = map{ scalar } @array_of_arefs;
+my @strings = map{ scalar($_) } @array_of_arefs;
 say @strings;
 
 
