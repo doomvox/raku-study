@@ -1,21 +1,21 @@
-- [meeting notes September 25, 2022](#org24aeae6)
-  - [the raku study group](#orgb8e3258)
-  - [topics](#org6c46d37)
-    - [weekly challenge](#org86e9270)
-    - [substr uses first<sub>position</sub> and length](#org2cb1a09)
-    - [revisit: "eurorack": william michels interested in synthesized music](#orgd23e5e8)
-    - [refactoring an old perl5 project](#org4e87fb2)
-  - [announcements](#orgf66c6b3)
-    - [October 9th: the next raku study group meeting](#org5983664)
-    - [My Bali vacation pics, cleaned up still further:](#orgbc8bf58)
+- [meeting notes September 25, 2022](#org027f7c5)
+  - [the raku study group](#org8ff2607)
+  - [topics](#orgdff0057)
+    - [weekly challenge](#orgba188b5)
+    - [substr uses first<sub>position</sub> and length](#orgb4f1888)
+    - [revisit: "eurorack": william michels interested in synthesized music](#org24f216c)
+    - [refactoring an old perl5 project](#org9463b72)
+  - [announcements](#orgf6704d7)
+    - [October 9th: the next raku study group meeting](#orgf43df8a)
+    - [My Bali vacation pics, cleaned up still further:](#org6d3a79b)
 
 
-<a id="org24aeae6"></a>
+<a id="org027f7c5"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="orgb8e3258"></a>
+<a id="org8ff2607"></a>
 
 ## the raku study group
 
@@ -34,12 +34,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="org6c46d37"></a>
+<a id="orgdff0057"></a>
 
 ## topics
 
 
-<a id="org86e9270"></a>
+<a id="orgba188b5"></a>
 
 ### weekly challenge
 
@@ -49,12 +49,17 @@
 
 3.  text:
 
-    TASK #1: Unique Array You are given list of arrayrefs. Write a script to remove the duplicate arrayrefs from the given list.
+    ```text
     
-    TASK #2: Date Difference You are given two dates, $date1 and $date2 in the format YYYY-MM-DD. Write a script to find the difference between the given dates in terms on years and days only.
+    TASK #1: Unique Array
+    You are given list of arrayrefs. Write a script to remove the duplicate arrayrefs from the given list.
+    
+    TASK #2: Date Difference
+    You are given two dates, $date1 and $date2 in the format YYYY-MM-DD. Write a script to find the difference between the given dates in terms on years and days only.
+    ```
 
 
-<a id="org2cb1a09"></a>
+<a id="orgb4f1888"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -63,14 +68,14 @@
 2.  how would you raku that?
 
 
-<a id="orgd23e5e8"></a>
+<a id="org24f216c"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="org4e87fb2"></a>
+<a id="org9463b72"></a>
 
 ### refactoring an old perl5 project
 
@@ -121,17 +126,17 @@
     9.  weird bitrot affecting jpeg orientations
 
 
-<a id="orgf66c6b3"></a>
+<a id="orgf6704d7"></a>
 
 ## announcements
 
 
-<a id="org5983664"></a>
+<a id="orgf43df8a"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="orgbc8bf58"></a>
+<a id="org6d3a79b"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
