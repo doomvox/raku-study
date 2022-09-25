@@ -19,7 +19,7 @@
 ****** get lizmat to include 
 ***** idea for a "raku hermit" blog: unofficial but technically useful info
 
-**** william michels raises point:
+**** william michels raises old issue:
 ***** https://www.theregister.com/2021/05/26/freenode_irc_takeover/ 
 
 *** weekly challenge
