@@ -19,7 +19,8 @@ my @c = < whun tew thuree >;
 my @b = < godzilla mothera rhodan >;
 
 my $d = [ 'perl', 'raku', ]; 
-say $d;
+say $d.WHAT;
+say $d; # [perl raku]
 
 my @array_of_arefs = ( @a, @b, @c, $d, @a, @b );
 
