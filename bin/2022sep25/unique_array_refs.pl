@@ -82,7 +82,7 @@ my @uniques = uniq @array_of_arefs;
 say Dumper( \@uniques );
 
 my @strings = map{ scalar } @array_of_arefs;
-
+say @strings;
 
 
 ### end main, into the subs
