@@ -22,6 +22,9 @@
 ***** write simple tests (some written long ago)
 ***** script code broken down into subs (done long ago)
 ***** 
+***** central problem: I want to roll my own, but no good reason to release
+
+***** weird bitrot affecting jpeg orientations
 
 ** announcements 
 *** October 9th: the next raku study group meeting

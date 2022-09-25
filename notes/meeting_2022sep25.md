@@ -1,20 +1,20 @@
-- [meeting notes September 25, 2022](#orgbe87d3d)
-  - [the raku study group](#org20e034b)
-  - [topics](#orgfc91afa)
-    - [substr uses first<sub>position</sub> and length](#orgab4b90f)
-    - [revisit: "eurorack": william michels interested in synthesized music](#org8721f2b)
-    - [refactoring an old perl5 project](#org0263c4b)
-  - [announcements](#org619b762)
-    - [October 9th: the next raku study group meeting](#org9de856f)
-    - [My Bali vacation pics, cleaned up still further:](#org9eb82e9)
+- [meeting notes September 25, 2022](#orgdee1040)
+  - [the raku study group](#orgd4fc015)
+  - [topics](#orgd9067d5)
+    - [substr uses first<sub>position</sub> and length](#org1a15a9c)
+    - [revisit: "eurorack": william michels interested in synthesized music](#org5c1a55c)
+    - [refactoring an old perl5 project](#orge2a6bdf)
+  - [announcements](#orgbef3957)
+    - [October 9th: the next raku study group meeting](#org9b5f445)
+    - [My Bali vacation pics, cleaned up still further:](#org220006d)
 
 
-<a id="orgbe87d3d"></a>
+<a id="orgdee1040"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="org20e034b"></a>
+<a id="orgd4fc015"></a>
 
 ## the raku study group
 
@@ -33,12 +33,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="orgfc91afa"></a>
+<a id="orgd9067d5"></a>
 
 ## topics
 
 
-<a id="orgab4b90f"></a>
+<a id="org1a15a9c"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -47,14 +47,14 @@
 2.  how would you raku that?
 
 
-<a id="org8721f2b"></a>
+<a id="org5c1a55c"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="org0263c4b"></a>
+<a id="orge2a6bdf"></a>
 
 ### refactoring an old perl5 project
 
@@ -65,19 +65,23 @@
     2.  script code broken down into subs (done long ago)
     
     3.  
+    
+    4.  central problem: I want to roll my own, but no good reason to release
+    
+    5.  weird bitrot affecting jpeg orientations
 
 
-<a id="org619b762"></a>
+<a id="orgbef3957"></a>
 
 ## announcements
 
 
-<a id="org9de856f"></a>
+<a id="org9b5f445"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="org9eb82e9"></a>
+<a id="org220006d"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
