@@ -37,8 +37,9 @@ You are given two dates, $date1 and $date2 in the format YYYY-MM-DD.
 Write a script to find the difference between the given dates in terms on years and days only.
 #+END_SRC
 
-*** weekly challenge, older:
+*** another weekly challenge
 **** longest common prefix in directory names
+**** rob's code treats as strings, then ensures it stops at a '/'
 
 *** substr uses first_position and length
 **** but I always want ranges: first_position, second_position
