@@ -27,5 +27,7 @@ my @array_of_arefs = ( @a, @b, @c, $d, @a, @b );
 say @array_of_arefs;
 # [[alpha beta gamma] [godzilla mothera rhodan] [whun tew thuree] [perl raku] [alpha beta gamma] [godzilla mothera rhodan]]
 
-@array_of_arefs.unique(with => &[eqv])
+my @result = 
+  @array_of_arefs.unique(with => &[eqv]);
 
+say @result;
