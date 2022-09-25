@@ -17,6 +17,7 @@
 ***** how public is the study group
 ****** mention on community page
 ****** get lizmat to include 
+***** idea for a "raku hermit" blog, unofficial but technically useful
 
 *** weekly challenge
 **** https://theweeklychallenge.org/
