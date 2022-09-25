@@ -94,6 +94,9 @@ my @test = ( [1,2], [3,4], [5,6], [1,2] );
 my @result = uniq @test;
 say Dumper( \@result );
 
+use Test::More qw( is_deeply );
+
+
 # $VAR1 = [
 #           [
 #             1,
