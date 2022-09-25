@@ -84,6 +84,10 @@ my @strings = map{ scalar($_) } @array_of_arefs;
 say join ' ', @strings;
 
 
+my @test = ( [1,2], [3,4], [5,6], [1,2] );
+
+
+
 ### end main, into the subs
 
 sub say_usage {
