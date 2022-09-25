@@ -32,7 +32,6 @@ use v6;
     ($a, $b) .= reverse;
     .say for $a, $b;
 
-# (a b c)
-# (1 2 3)
-
+    # (a b c)
+    # (1 2 3)
 }
