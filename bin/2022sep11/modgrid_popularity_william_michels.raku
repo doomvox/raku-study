@@ -23,7 +23,7 @@ do for @b -> $b {
 say
 ( $_ => (.[0].value - 100) + .[1].value ).antipairs
                 for @c.sort(
-                    { (.[0].value - 100) + .[1].value }
+                    { ( .[0].value - 100 ) + .[1].value }
                  );
 
 
