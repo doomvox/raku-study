@@ -1,20 +1,20 @@
-- [meeting notes September 25, 2022](#org7f19015)
-  - [the raku study group](#org9f33350)
-  - [topics](#org227c2b1)
-    - [substr uses first<sub>position</sub> and length](#org99e3723)
-    - [revisit: "eurorack": william michels interested in synthesized music](#orgd705d2c)
-    - [refactoring an old perl5 project](#orge12b421)
-  - [announcements](#org3de6641)
-    - [October 9th: the next raku study group meeting](#orgb867b77)
-    - [My Bali vacation pics, cleaned up still further:](#org8624c93)
+- [meeting notes September 25, 2022](#orga5e83ce)
+  - [the raku study group](#org1083a6e)
+  - [topics](#org97470cd)
+    - [substr uses first<sub>position</sub> and length](#org8510ff9)
+    - [revisit: "eurorack": william michels interested in synthesized music](#org404aac6)
+    - [refactoring an old perl5 project](#org060f149)
+  - [announcements](#orgcb5eb8a)
+    - [October 9th: the next raku study group meeting](#orgb304265)
+    - [My Bali vacation pics, cleaned up still further:](#org4d70fc9)
 
 
-<a id="org7f19015"></a>
+<a id="orga5e83ce"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="org9f33350"></a>
+<a id="org1083a6e"></a>
 
 ## the raku study group
 
@@ -33,12 +33,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="org227c2b1"></a>
+<a id="org97470cd"></a>
 
 ## topics
 
 
-<a id="org99e3723"></a>
+<a id="org8510ff9"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -47,14 +47,14 @@
 2.  how would you raku that?
 
 
-<a id="orgd705d2c"></a>
+<a id="org404aac6"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="orge12b421"></a>
+<a id="org060f149"></a>
 
 ### refactoring an old perl5 project
 
@@ -64,28 +64,30 @@
     
     2.  script code broken down into subs (done long ago)
     
-    3.  move subs into library
+    3.  move subs into library, rewrite scripts to use library code
     
         1.  exporter-based
     
-    4.  refactor subs to stop
+    4.  refactor subs so they stop shelling out so much, call routines directly
+    
+        1.  exposes some odd bugs: code has more memory now
     
     5.  central problem: I want to roll my own, but no good reason to release
     
     6.  weird bitrot affecting jpeg orientations
 
 
-<a id="org3de6641"></a>
+<a id="orgcb5eb8a"></a>
 
 ## announcements
 
 
-<a id="orgb867b77"></a>
+<a id="orgb304265"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="org8624c93"></a>
+<a id="org4d70fc9"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
