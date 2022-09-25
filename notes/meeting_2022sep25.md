@@ -1,20 +1,20 @@
-- [meeting notes September 25, 2022](#org13a2824)
-  - [the raku study group](#org0b645da)
-  - [topics](#org561af0e)
-    - [substr uses first<sub>position</sub> and length](#orga0f2b4b)
-    - [revisit: "eurorack": william michels interested in synthesized music](#org25c934b)
-    - [refactoring an old perl5 project](#org62b5986)
-  - [announcements](#org243f0e3)
-    - [October 9th: the next raku study group meeting](#org091260d)
-    - [My Bali vacation pics, cleaned up still further:](#org6174fb9)
+- [meeting notes September 25, 2022](#org81cc866)
+  - [the raku study group](#orgc25785d)
+  - [topics](#org95e76fb)
+    - [substr uses first<sub>position</sub> and length](#org6a1a925)
+    - [revisit: "eurorack": william michels interested in synthesized music](#orge19ccfb)
+    - [refactoring an old perl5 project](#org26bbb55)
+  - [announcements](#org73e031a)
+    - [October 9th: the next raku study group meeting](#org26152cb)
+    - [My Bali vacation pics, cleaned up still further:](#orge65c095)
 
 
-<a id="org13a2824"></a>
+<a id="org81cc866"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="org0b645da"></a>
+<a id="orgc25785d"></a>
 
 ## the raku study group
 
@@ -33,12 +33,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="org561af0e"></a>
+<a id="org95e76fb"></a>
 
 ## topics
 
 
-<a id="orga0f2b4b"></a>
+<a id="org6a1a925"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -47,14 +47,14 @@
 2.  how would you raku that?
 
 
-<a id="org25c934b"></a>
+<a id="orge19ccfb"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="org62b5986"></a>
+<a id="org26bbb55"></a>
 
 ### refactoring an old perl5 project
 
@@ -68,7 +68,7 @@
     
         1.  exporter-based
     
-    4.  refactor subs so they stop shelling out so much, call routines directly
+    4.  refactor subs so they stop shelling out so much, call the subs directly
     
         1.  exposes some odd bugs: scope of "memory" changes
     
@@ -87,17 +87,17 @@
     9.  weird bitrot affecting jpeg orientations
 
 
-<a id="org243f0e3"></a>
+<a id="org73e031a"></a>
 
 ## announcements
 
 
-<a id="org091260d"></a>
+<a id="org26152cb"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="org6174fb9"></a>
+<a id="orge65c095"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 

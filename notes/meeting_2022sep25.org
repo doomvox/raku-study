@@ -23,7 +23,7 @@
 ***** script code broken down into subs (done long ago)
 ***** move subs into library, rewrite scripts to use library code
 ****** exporter-based 
-***** refactor subs so they stop shelling out so much, call routines directly
+***** refactor subs so they stop shelling out so much, call the subs directly
 ****** exposes some odd bugs: scope of "memory" changes
 
 ***** code is getting gradually less ugly, *but*.
