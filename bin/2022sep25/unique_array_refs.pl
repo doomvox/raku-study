@@ -54,6 +54,8 @@ GetOptions ("d|debug"    => \$DEBUG,
 
 { no warnings 'once'; $DB::single = 1; }
 
+# Weekly challenge #1
+# You are given list of arrayrefs. Write a script to remove the duplicate arrayrefs from the given list.
 
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022sep25/modgrid
 
@@ -70,6 +72,8 @@ my $c = \@c;
 my $d = [ 'perl'. 'raku', ];
 
 my @array_of_arefs = ( $a, $b, $c, $d );
+
+
 
 
 
