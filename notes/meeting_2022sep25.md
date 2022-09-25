@@ -1,21 +1,21 @@
-- [meeting notes September 25, 2022](#org027f7c5)
-  - [the raku study group](#org8ff2607)
-  - [topics](#orgdff0057)
-    - [weekly challenge](#orgba188b5)
-    - [substr uses first<sub>position</sub> and length](#orgb4f1888)
-    - [revisit: "eurorack": william michels interested in synthesized music](#org24f216c)
-    - [refactoring an old perl5 project](#org9463b72)
-  - [announcements](#orgf6704d7)
-    - [October 9th: the next raku study group meeting](#orgf43df8a)
-    - [My Bali vacation pics, cleaned up still further:](#org6d3a79b)
+- [meeting notes September 25, 2022](#orgcc4bdf7)
+  - [the raku study group](#org3d90c4c)
+  - [topics](#org65e877c)
+    - [weekly challenge](#orga9c24cc)
+    - [substr uses first<sub>position</sub> and length](#org94acfab)
+    - [revisit: "eurorack": william michels interested in synthesized music](#orgee552a7)
+    - [refactoring an old perl5 project](#org374ea5b)
+  - [announcements](#orgf7ee90d)
+    - [October 9th: the next raku study group meeting](#orgf792075)
+    - [My Bali vacation pics, cleaned up still further:](#orgd703452)
 
 
-<a id="org027f7c5"></a>
+<a id="orgcc4bdf7"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="org8ff2607"></a>
+<a id="org3d90c4c"></a>
 
 ## the raku study group
 
@@ -34,12 +34,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="orgdff0057"></a>
+<a id="org65e877c"></a>
 
 ## topics
 
 
-<a id="orgba188b5"></a>
+<a id="orga9c24cc"></a>
 
 ### weekly challenge
 
@@ -52,14 +52,18 @@
     ```text
     
     TASK #1: Unique Array
+    
     You are given list of arrayrefs. Write a script to remove the duplicate arrayrefs from the given list.
     
     TASK #2: Date Difference
-    You are given two dates, $date1 and $date2 in the format YYYY-MM-DD. Write a script to find the difference between the given dates in terms on years and days only.
+    
+    You are given two dates, $date1 and $date2 in the format YYYY-MM-DD. 
+    Write a script to find the difference between the given dates in terms on years and days only.
+    
     ```
 
 
-<a id="orgb4f1888"></a>
+<a id="org94acfab"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -68,14 +72,14 @@
 2.  how would you raku that?
 
 
-<a id="org24f216c"></a>
+<a id="orgee552a7"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="org9463b72"></a>
+<a id="org374ea5b"></a>
 
 ### refactoring an old perl5 project
 
@@ -126,17 +130,17 @@
     9.  weird bitrot affecting jpeg orientations
 
 
-<a id="orgf6704d7"></a>
+<a id="orgf7ee90d"></a>
 
 ## announcements
 
 
-<a id="orgf43df8a"></a>
+<a id="orgf792075"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="org6d3a79b"></a>
+<a id="orgd703452"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
