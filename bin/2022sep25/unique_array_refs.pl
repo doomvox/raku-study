@@ -57,8 +57,6 @@ GetOptions ("d|debug"    => \$DEBUG,
 # Weekly challenge #1
 # You are given list of arrayrefs. Write a script to remove the duplicate arrayrefs from the given list.
 
-# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022sep25/modgrid
-
 my @a = qw( alpha beta gamma );
 my @c = qw( whun tew thuree );
 my @b = qw( godzilla mothera rhodan );
