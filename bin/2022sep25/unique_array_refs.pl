@@ -88,6 +88,26 @@ my @test = ( [1,2], [3,4], [5,6], [1,2] );
 my @result = uniq @test;
 say Dumper( \@result );
 
+# $VAR1 = [
+#           [
+#             1,
+#             2
+#           ],
+#           [
+#             3,
+#             4
+#           ],
+#           [
+#             5,
+#             6
+#           ],
+#           [
+#             1,
+#             2
+#           ]
+#         ];
+
+
 
 ### end main, into the subs
 
