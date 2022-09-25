@@ -60,7 +60,7 @@ my @a = qw( alpha beta gamma );
 my @c = qw( whun tew thuree );
 my @b = qw( godzilla mothera rhodan );
 
-# getting array references from arrays
+# getting array references from arrays ('arefs', 'arrayrefs')
 my $a = \@a;
 my $b = \@b;
 my $c = \@c;
@@ -78,7 +78,11 @@ say Dumper( \@uniques );
 
 
 
+sub stuff {
+   my @args = @_;
 
+
+}
 
 
 
