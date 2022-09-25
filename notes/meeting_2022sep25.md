@@ -1,20 +1,20 @@
-- [meeting notes September 25, 2022](#org164427c)
-  - [the raku study group](#org6b145de)
-  - [topics](#org73aab49)
-    - [substr uses first<sub>position</sub> and length](#org590df94)
-    - [revisit: "eurorack": william michels interested in synthesized music](#orga239d1c)
-    - [refactoring an old perl5 project](#org4429223)
-  - [announcements](#orge2b89d6)
-    - [October 9th: the next raku study group meeting](#org35d51a5)
-    - [My Bali vacation pics, cleaned up still further:](#org84fbdd3)
+- [meeting notes September 25, 2022](#org1305a29)
+  - [the raku study group](#orga802836)
+  - [topics](#orge50e8a2)
+    - [substr uses first<sub>position</sub> and length](#orge78d41f)
+    - [revisit: "eurorack": william michels interested in synthesized music](#orgb337b5e)
+    - [refactoring an old perl5 project](#org6b4121e)
+  - [announcements](#org1c19e75)
+    - [October 9th: the next raku study group meeting](#orgf3fc58c)
+    - [My Bali vacation pics, cleaned up still further:](#org1206318)
 
 
-<a id="org164427c"></a>
+<a id="org1305a29"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="org6b145de"></a>
+<a id="orga802836"></a>
 
 ## the raku study group
 
@@ -33,12 +33,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="org73aab49"></a>
+<a id="orge50e8a2"></a>
 
 ## topics
 
 
-<a id="org590df94"></a>
+<a id="orge78d41f"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -47,14 +47,14 @@
 2.  how would you raku that?
 
 
-<a id="orga239d1c"></a>
+<a id="orgb337b5e"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="org4429223"></a>
+<a id="org6b4121e"></a>
 
 ### refactoring an old perl5 project
 
@@ -105,17 +105,17 @@
     9.  weird bitrot affecting jpeg orientations
 
 
-<a id="orge2b89d6"></a>
+<a id="org1c19e75"></a>
 
 ## announcements
 
 
-<a id="org35d51a5"></a>
+<a id="orgf3fc58c"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="org84fbdd3"></a>
+<a id="org1206318"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
