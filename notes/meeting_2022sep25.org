@@ -98,6 +98,13 @@ my $status = // $result;
 ***** https://docs.raku.org/routine/substr
 ***** say substr("Long string", 3..6);     # OUTPUT: «g st␤» 
 
+#+BEGIN_SRC raku
+my $str = 'godzilla';
+$str.substr-rw(3,6) = '66666666';
+say $str; # god66666666
+#+END_SRC
+
+
 ** announcements 
 *** October 9th: the next raku study group meeting
 *** My Bali vacation pics, cleaned up still further:
