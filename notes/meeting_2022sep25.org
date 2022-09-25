@@ -103,7 +103,7 @@ my $str = 'godzilla';
 $str.substr-rw(3,6) = '66666666';
 say $str; # god66666666
 #+END_SRC
-***** bruce gray will report docs bug subtr-rw
+***** bruce gray will report docs bug substr-rw
 
 ** announcements 
 *** October 9th: the next raku study group meeting
