@@ -61,8 +61,11 @@ my @a = qw( alpha beta gamma );
 my @c = qw( whun tew thuree );
 my @b = qw( godzilla mothera rhodan );
 
+my $a = \@a;
+my $b = \@b;
+my $c = \@c;
 
-
+my $d = [ 'perl'. 'raku', ];
 
 
 
