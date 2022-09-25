@@ -1,22 +1,22 @@
-- [meeting notes September 25, 2022](#org1df78e5)
-  - [the raku study group](#org8a7770e)
-  - [topics](#org106cc25)
-    - [long discussion about community management etc](#orgf43a478)
-    - [weekly challenge](#org632d806)
-    - [substr uses first<sub>position</sub> and length](#org5353d7e)
-    - [revisit: "eurorack": william michels interested in synthesized music](#org3aebf22)
-    - [refactoring an old perl5 project](#org22b5a12)
-  - [announcements](#org0be5320)
-    - [October 9th: the next raku study group meeting](#orgb308d60)
-    - [My Bali vacation pics, cleaned up still further:](#org07c63a5)
+- [meeting notes September 25, 2022](#orgcddb3b1)
+  - [the raku study group](#org0bde3a6)
+  - [topics](#org8b9b29c)
+    - [long discussion about community management etc](#orgbe84c40)
+    - [weekly challenge](#org7a19172)
+    - [substr uses first<sub>position</sub> and length](#org1cbc186)
+    - [revisit: "eurorack": william michels interested in synthesized music](#org0d06398)
+    - [refactoring an old perl5 project](#org69027e4)
+  - [announcements](#org1da477b)
+    - [October 9th: the next raku study group meeting](#org030c3f1)
+    - [My Bali vacation pics, cleaned up still further:](#org71d260f)
 
 
-<a id="org1df78e5"></a>
+<a id="orgcddb3b1"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="org8a7770e"></a>
+<a id="org0bde3a6"></a>
 
 ## the raku study group
 
@@ -35,12 +35,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="org106cc25"></a>
+<a id="org8b9b29c"></a>
 
 ## topics
 
 
-<a id="orgf43a478"></a>
+<a id="orgbe84c40"></a>
 
 ### long discussion about community management etc
 
@@ -65,7 +65,7 @@
     1.  <https://www.theregister.com/2021/05/26/freenode_irc_takeover/>
 
 
-<a id="org632d806"></a>
+<a id="org7a19172"></a>
 
 ### weekly challenge
 
@@ -87,7 +87,7 @@
     ```
 
 
-<a id="org5353d7e"></a>
+<a id="org1cbc186"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -96,14 +96,14 @@
 2.  how would you raku that?
 
 
-<a id="org3aebf22"></a>
+<a id="org0d06398"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="org22b5a12"></a>
+<a id="org69027e4"></a>
 
 ### refactoring an old perl5 project
 
@@ -154,17 +154,17 @@
     9.  weird bitrot affecting jpeg orientations
 
 
-<a id="org0be5320"></a>
+<a id="org1da477b"></a>
 
 ## announcements
 
 
-<a id="orgb308d60"></a>
+<a id="org030c3f1"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="org07c63a5"></a>
+<a id="org71d260f"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
