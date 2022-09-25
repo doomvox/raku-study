@@ -41,11 +41,6 @@ Write a script to find the difference between the given dates in terms on years 
 **** longest common prefix in directory names
 **** rob's code treats as strings, then ensures it stops at a '/'
 
-
-*** substr uses first_position and length
-**** but I always want ranges: first_position, second_position
-**** how would you raku that?
-
 *** revisit: "eurorack": william michels interested in synthesized music 
 **** https://www.modulargrid.net/e/modules/evaluationlists
 
@@ -78,6 +73,10 @@ Write a script to find the difference between the given dates in terms on years 
 ******** e.g. three shots getting gradually closer
 
 ***** weird bitrot affecting jpeg orientations
+
+*** substr uses first_position and length
+**** but I always want ranges: first_position, second_position
+**** how would you raku that?
 
 
 
