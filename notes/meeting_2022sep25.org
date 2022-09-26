@@ -52,37 +52,6 @@ Write a script to find the difference between the given dates in terms on years 
 **** https://www.modulargrid.net/e/modules/evaluationlists
 
 
-*** refactoring an old perl5 project
-**** web photo gallery, static web page generation
-***** write simple tests (only single photoseries case covered)
-***** script code broken down into subs (done long ago)
-***** move subs into library, rewrite scripts to use library code
-****** exporter-based 
-***** refactor subs so they stop shelling out so much, call the subs directly
-****** exposes some odd bugs: scope of "memory" changes
-
-***** code is getting gradually less ugly, *but*. 
-****** harder to hack than it should be.
-****** needs
-******* real templates
-******* database to track metadata
-******** avoid editing image filenames to change labels
-******** I do a lot of rerunning from scratch-- redunant image rescales
-
-***** delaying the real fixes, adding additional hacks to reduce the need
-****** e.g. codes embedded in file names that get turned to punctuation later
-
-***** central problem: I want to roll my own, but no good reason to release
-****** a thought: keep re-writing this in different ways, use it as a demo/test case
-
-***** data modeling mistakes: 
-****** attributing multiple photographers
-****** photos of a subject from multiple sessions
-****** untitled photos need html filenames too
-******* you can have a series inside a series
-******** e.g. three shots getting gradually closer
-
-***** weird bitrot affecting jpeg orientations
 
 *** william michels  // prefix as definedness operator, going in 6.e
 **** https://github.com/rakudo/rakudo/pull/5040

@@ -1,24 +1,23 @@
-- [meeting notes September 25, 2022](#org91aaf4e)
-  - [the raku study group](#org82daf8f)
-  - [topics](#orgef49992)
-    - [long discussion about community management etc](#orgc1e58f5)
-    - [weekly challenge, current](#org718b27a)
-    - [another weekly challenge](#org049026a)
-    - [revisit: "eurorack": william michels interested in synthesized music](#org59710cd)
-    - [refactoring an old perl5 project](#org33eabcb)
-    - [william michels  // prefix as definedness operator, going in 6.e](#orgb2304d7)
-    - [substr uses first<sub>position</sub> and length](#orgce5cb4f)
-  - [announcements](#orgd0c3227)
-    - [October 9th: the next raku study group meeting](#org79526eb)
-    - [My Bali vacation pics, cleaned up still further:](#orgc50ce93)
+- [meeting notes September 25, 2022](#orgdd84c6d)
+  - [the raku study group](#org6d96697)
+  - [topics](#org0417c0c)
+    - [long discussion about community management etc](#orgb72df9b)
+    - [weekly challenge, current](#org56f4b7a)
+    - [another weekly challenge](#org4ea7a65)
+    - [revisit: "eurorack": william michels interested in synthesized music](#orgdc32454)
+    - [william michels  // prefix as definedness operator, going in 6.e](#org4c6d46a)
+    - [substr uses first<sub>position</sub> and length](#org209b4ee)
+  - [announcements](#orgf792c30)
+    - [October 9th: the next raku study group meeting](#orgde9100b)
+    - [My Bali vacation pics, cleaned up still further:](#org9bebb4e)
 
 
-<a id="org91aaf4e"></a>
+<a id="orgdd84c6d"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="org82daf8f"></a>
+<a id="org6d96697"></a>
 
 ## the raku study group
 
@@ -37,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="orgef49992"></a>
+<a id="org0417c0c"></a>
 
 ## topics
 
 
-<a id="orgc1e58f5"></a>
+<a id="orgb72df9b"></a>
 
 ### long discussion about community management etc
 
@@ -67,7 +66,7 @@
     1.  <https://www.theregister.com/2021/05/26/freenode_irc_takeover/>
 
 
-<a id="org718b27a"></a>
+<a id="org56f4b7a"></a>
 
 ### weekly challenge, current
 
@@ -89,7 +88,7 @@
     ```
 
 
-<a id="org049026a"></a>
+<a id="org4ea7a65"></a>
 
 ### another weekly challenge
 
@@ -112,69 +111,14 @@
         5.  use first to bail out when F found?
 
 
-<a id="org59710cd"></a>
+<a id="orgdc32454"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="org33eabcb"></a>
-
-### refactoring an old perl5 project
-
-1.  web photo gallery, static web page generation
-
-    1.  write simple tests (only single photoseries case covered)
-    
-    2.  script code broken down into subs (done long ago)
-    
-    3.  move subs into library, rewrite scripts to use library code
-    
-        1.  exporter-based
-    
-    4.  refactor subs so they stop shelling out so much, call the subs directly
-    
-        1.  exposes some odd bugs: scope of "memory" changes
-    
-    5.  code is getting gradually less ugly, **but**.
-    
-        1.  harder to hack than it should be.
-        
-        2.  needs
-        
-            1.  real templates
-            
-            2.  database to track metadata
-            
-                1.  avoid editing image filenames to change labels
-                
-                2.  I do a lot of rerunning from scratch&#x2013; redunant image rescales
-    
-    6.  delaying the real fixes, adding additional hacks to reduce the need
-    
-        1.  e.g. codes embedded in file names that get turned to punctuation later
-    
-    7.  central problem: I want to roll my own, but no good reason to release
-    
-        1.  a thought: keep re-writing this in different ways, use it as a demo/test case
-    
-    8.  data modeling mistakes:
-    
-        1.  attributing multiple photographers
-        
-        2.  photos of a subject from multiple sessions
-        
-        3.  untitled photos need html filenames too
-        
-            1.  you can have a series inside a series
-            
-                1.  e.g. three shots getting gradually closer
-    
-    9.  weird bitrot affecting jpeg orientations
-
-
-<a id="orgb2304d7"></a>
+<a id="org4c6d46a"></a>
 
 ### william michels  // prefix as definedness operator, going in 6.e
 
@@ -187,7 +131,7 @@
     ```
 
 
-<a id="orgce5cb4f"></a>
+<a id="org209b4ee"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -212,17 +156,17 @@
     5.  bruce gray will report docs bug substr-rw
 
 
-<a id="orgd0c3227"></a>
+<a id="orgf792c30"></a>
 
 ## announcements
 
 
-<a id="org79526eb"></a>
+<a id="orgde9100b"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="orgc50ce93"></a>
+<a id="org9bebb4e"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
