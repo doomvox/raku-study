@@ -8,12 +8,16 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md
 
-** topics 
+** saved for next time
 
 *** revisit: "eurorack": william michels interested in synthesized music 
 **** https://www.modulargrid.net/e/modules/evaluationlists
 *** classify
 **** https://docs.raku.org/routine/classify
+
+
+** topics 
+
 
 *** long discussion about community management etc
 **** marton polgar
