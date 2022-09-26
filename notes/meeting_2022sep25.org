@@ -9,6 +9,12 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md
 
 ** topics 
+*** revisit: "eurorack": william michels interested in synthesized music 
+**** https://www.modulargrid.net/e/modules/evaluationlists
+
+
+
+
 *** long discussion about community management etc
 **** marton polgar
 ***** raku needs an actual manager?
@@ -25,7 +31,8 @@
 *** weekly challenge, current
 **** https://theweeklychallenge.org/
 **** what's an "arrayref"? (A perlism, without obvious raku equivalent)
-**** text: 
+**** summary
+***** 
 #+BEGIN_SRC text
 TASK #1: Unique Array
 
@@ -47,9 +54,6 @@ Write a script to find the difference between the given dates in terms on years 
 ****** should use eq not eqv
 ****** coming out of [\and] you'll see T, T, F, F, ...
 ****** use first to bail out when F found?
-
-*** revisit: "eurorack": william michels interested in synthesized music 
-**** https://www.modulargrid.net/e/modules/evaluationlists
 
 
 

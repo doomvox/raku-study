@@ -1,23 +1,23 @@
-- [meeting notes September 25, 2022](#orgdd84c6d)
-  - [the raku study group](#org6d96697)
-  - [topics](#org0417c0c)
-    - [long discussion about community management etc](#orgb72df9b)
-    - [weekly challenge, current](#org56f4b7a)
-    - [another weekly challenge](#org4ea7a65)
-    - [revisit: "eurorack": william michels interested in synthesized music](#orgdc32454)
-    - [william michels  // prefix as definedness operator, going in 6.e](#org4c6d46a)
-    - [substr uses first<sub>position</sub> and length](#org209b4ee)
-  - [announcements](#orgf792c30)
-    - [October 9th: the next raku study group meeting](#orgde9100b)
-    - [My Bali vacation pics, cleaned up still further:](#org9bebb4e)
+- [meeting notes September 25, 2022](#org6aa5472)
+  - [the raku study group](#org1e7e62d)
+  - [topics](#orgdb142fc)
+    - [revisit: "eurorack": william michels interested in synthesized music](#org0a91ebd)
+    - [long discussion about community management etc](#org52b480b)
+    - [weekly challenge, current](#org8a10cc0)
+    - [another weekly challenge](#org9f0390d)
+    - [william michels  // prefix as definedness operator, going in 6.e](#orge752cae)
+    - [substr uses first<sub>position</sub> and length](#org669c12b)
+  - [announcements](#org29bcedd)
+    - [October 9th: the next raku study group meeting](#orgdf94243)
+    - [My Bali vacation pics, cleaned up still further:](#org1f3b83e)
 
 
-<a id="orgdd84c6d"></a>
+<a id="org6aa5472"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="org6d96697"></a>
+<a id="org1e7e62d"></a>
 
 ## the raku study group
 
@@ -36,12 +36,19 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="org0417c0c"></a>
+<a id="orgdb142fc"></a>
 
 ## topics
 
 
-<a id="orgb72df9b"></a>
+<a id="org0a91ebd"></a>
+
+### revisit: "eurorack": william michels interested in synthesized music
+
+1.  <https://www.modulargrid.net/e/modules/evaluationlists>
+
+
+<a id="org52b480b"></a>
 
 ### long discussion about community management etc
 
@@ -66,7 +73,7 @@
     1.  <https://www.theregister.com/2021/05/26/freenode_irc_takeover/>
 
 
-<a id="org56f4b7a"></a>
+<a id="org8a10cc0"></a>
 
 ### weekly challenge, current
 
@@ -74,21 +81,23 @@
 
 2.  what's an "arrayref"? (A perlism, without obvious raku equivalent)
 
-3.  text:
+3.  summary
 
-    ```text
-    TASK #1: Unique Array
+    1.  
     
-    You are given list of arrayrefs. Write a script to remove the duplicate arrayrefs from the given list.
-    
-    TASK #2: Date Difference
-    
-    You are given two dates, $date1 and $date2 in the format YYYY-MM-DD. 
-    Write a script to find the difference between the given dates in terms on years and days only.
-    ```
+        ```text
+        TASK #1: Unique Array
+        
+        You are given list of arrayrefs. Write a script to remove the duplicate arrayrefs from the given list.
+        
+        TASK #2: Date Difference
+        
+        You are given two dates, $date1 and $date2 in the format YYYY-MM-DD. 
+        Write a script to find the difference between the given dates in terms on years and days only.
+        ```
 
 
-<a id="org4ea7a65"></a>
+<a id="org9f0390d"></a>
 
 ### another weekly challenge
 
@@ -111,14 +120,7 @@
         5.  use first to bail out when F found?
 
 
-<a id="orgdc32454"></a>
-
-### revisit: "eurorack": william michels interested in synthesized music
-
-1.  <https://www.modulargrid.net/e/modules/evaluationlists>
-
-
-<a id="org4c6d46a"></a>
+<a id="orge752cae"></a>
 
 ### william michels  // prefix as definedness operator, going in 6.e
 
@@ -131,7 +133,7 @@
     ```
 
 
-<a id="org209b4ee"></a>
+<a id="org669c12b"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -156,17 +158,17 @@
     5.  bruce gray will report docs bug substr-rw
 
 
-<a id="orgf792c30"></a>
+<a id="org29bcedd"></a>
 
 ## announcements
 
 
-<a id="orgde9100b"></a>
+<a id="orgdf94243"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="org9bebb4e"></a>
+<a id="org1f3b83e"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
