@@ -58,8 +58,6 @@ Write a script to find the difference between the given dates in terms on years 
 ****** coming out of [\and] you'll see T, T, F, F, ...
 ****** use first to bail out when F found?
 
-
-
 *** william michels  // prefix as definedness operator, going in 6.e
 **** https://github.com/rakudo/rakudo/pull/5040
 **** if leon likes it, sokay with me
