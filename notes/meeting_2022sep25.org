@@ -88,7 +88,7 @@ Write a script to find the difference between the given dates in terms on years 
 **** https://github.com/rakudo/rakudo/pull/5040
 **** if leon likes it, sokay with me
 #+BEGIN_SRC raku
-my $status = // $result;
+my $success = // $result;
 #+END_SRC
 
 *** substr uses first_position and length
