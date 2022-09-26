@@ -84,7 +84,7 @@ Write a script to find the difference between the given dates in terms on years 
 
 ***** weird bitrot affecting jpeg orientations
 
-*** william michels  double slash, front of the line? 
+*** william michels  // prefix as definedness operator, going in 6.e
 **** https://github.com/rakudo/rakudo/pull/5040
 **** if leon likes it, sokay with me
 #+BEGIN_SRC raku

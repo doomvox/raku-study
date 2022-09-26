@@ -1,24 +1,24 @@
-- [meeting notes September 25, 2022](#orgdcda4ce)
-  - [the raku study group](#orga853ce4)
-  - [topics](#orgc17de95)
-    - [long discussion about community management etc](#orgcd89963)
-    - [weekly challenge, current](#org1787ed3)
-    - [another weekly challenge](#org6b4ccb5)
-    - [revisit: "eurorack": william michels interested in synthesized music](#org15448af)
-    - [refactoring an old perl5 project](#org0a7169e)
-    - [william michels  double slash, front of the line?](#org6f86ae6)
-    - [substr uses first<sub>position</sub> and length](#org7f79023)
-  - [announcements](#org2b85096)
-    - [October 9th: the next raku study group meeting](#org8582672)
-    - [My Bali vacation pics, cleaned up still further:](#org45212bb)
+- [meeting notes September 25, 2022](#org49d30cb)
+  - [the raku study group](#org264ce2d)
+  - [topics](#orgfa41f5e)
+    - [long discussion about community management etc](#org8d02209)
+    - [weekly challenge, current](#orge96ff23)
+    - [another weekly challenge](#orgfca442f)
+    - [revisit: "eurorack": william michels interested in synthesized music](#org1639d21)
+    - [refactoring an old perl5 project](#org1223961)
+    - [william michels  // prefix as definedness operator, going in 6.e](#org9fac1be)
+    - [substr uses first<sub>position</sub> and length](#org5d8f85d)
+  - [announcements](#org906bc2c)
+    - [October 9th: the next raku study group meeting](#orgb719346)
+    - [My Bali vacation pics, cleaned up still further:](#org2c6c273)
 
 
-<a id="orgdcda4ce"></a>
+<a id="org49d30cb"></a>
 
 # meeting notes September 25, 2022
 
 
-<a id="orga853ce4"></a>
+<a id="org264ce2d"></a>
 
 ## the raku study group
 
@@ -37,12 +37,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep11.md>
 
 
-<a id="orgc17de95"></a>
+<a id="orgfa41f5e"></a>
 
 ## topics
 
 
-<a id="orgcd89963"></a>
+<a id="org8d02209"></a>
 
 ### long discussion about community management etc
 
@@ -67,7 +67,7 @@
     1.  <https://www.theregister.com/2021/05/26/freenode_irc_takeover/>
 
 
-<a id="org1787ed3"></a>
+<a id="orge96ff23"></a>
 
 ### weekly challenge, current
 
@@ -89,7 +89,7 @@
     ```
 
 
-<a id="org6b4ccb5"></a>
+<a id="orgfca442f"></a>
 
 ### another weekly challenge
 
@@ -112,14 +112,14 @@
         5.  use first to bail out when F found?
 
 
-<a id="org15448af"></a>
+<a id="org1639d21"></a>
 
 ### revisit: "eurorack": william michels interested in synthesized music
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="org0a7169e"></a>
+<a id="org1223961"></a>
 
 ### refactoring an old perl5 project
 
@@ -174,9 +174,9 @@
     9.  weird bitrot affecting jpeg orientations
 
 
-<a id="org6f86ae6"></a>
+<a id="org9fac1be"></a>
 
-### william michels  double slash, front of the line?
+### william michels  // prefix as definedness operator, going in 6.e
 
 1.  <https://github.com/rakudo/rakudo/pull/5040>
 
@@ -187,7 +187,7 @@
     ```
 
 
-<a id="org7f79023"></a>
+<a id="org5d8f85d"></a>
 
 ### substr uses first<sub>position</sub> and length
 
@@ -212,17 +212,17 @@
     5.  bruce gray will report docs bug substr-rw
 
 
-<a id="org2b85096"></a>
+<a id="org906bc2c"></a>
 
 ## announcements
 
 
-<a id="org8582672"></a>
+<a id="orgb719346"></a>
 
 ### October 9th: the next raku study group meeting
 
 
-<a id="org45212bb"></a>
+<a id="org2c6c273"></a>
 
 ### My Bali vacation pics, cleaned up still further:
 
