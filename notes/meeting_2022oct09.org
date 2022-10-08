@@ -1,1 +1,10 @@
 * meeting notes October 25, 2022
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct09.md
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/oct09
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep25.md
+
