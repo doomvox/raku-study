@@ -20,4 +20,5 @@
 | scarlett o'hara                  | drapes                   |        8 |        14 |     2 |       |
 | jonathan worthington             | raku                     |        8 |        16 |     0 |       |
 | steve jobs                       | mouse, reality warp      |        8 |        16 |     8 |       |
-| ganesah                          | mouse                    |       18 |         6 |     2 |       |
+| ganesha                          | mouse                    |       18 |         6 |     2 |       |
+| draymond green                   | orange ball              |       10 |        14 |     0 |       |
