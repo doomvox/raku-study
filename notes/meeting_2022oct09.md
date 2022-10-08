@@ -1,17 +1,19 @@
-- [meeting notes October 25, 2022](#org4caafc4)
-  - [the raku study group](#org776f15b)
-  - [topics](#orgf609f4f)
-    - [the modgrid/eurorack problem](#org289c5d5)
-    - [classify](#orgebce16e)
-    - [weekly challenge](#org07ae64f)
+- [meeting notes October 25, 2022](#orga8eee22)
+  - [the raku study group](#orgc13fdbb)
+  - [topics](#org3e77f28)
+    - [the modgrid/eurorack problem](#org19e440d)
+    - [classify](#org8fbed20)
+    - [weekly challenge](#orgbcd1eaa)
+  - [announcements](#org904047e)
+    - [October 9th: the next raku study group meeting](#org418644d)
 
 
-<a id="org4caafc4"></a>
+<a id="orga8eee22"></a>
 
 # meeting notes October 25, 2022
 
 
-<a id="org776f15b"></a>
+<a id="orgc13fdbb"></a>
 
 ## the raku study group
 
@@ -30,27 +32,37 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep25.md>
 
 
-<a id="orgf609f4f"></a>
+<a id="org3e77f28"></a>
 
 ## topics
 
 
-<a id="org289c5d5"></a>
+<a id="org19e440d"></a>
 
 ### the modgrid/eurorack problem
 
 1.  <https://www.modulargrid.net/e/modules/evaluationlists>
 
 
-<a id="orgebce16e"></a>
+<a id="org8fbed20"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="org07ae64f"></a>
+<a id="orgbcd1eaa"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/>
+
+
+<a id="org904047e"></a>
+
+## announcements
+
+
+<a id="org418644d"></a>
+
+### October 9th: the next raku study group meeting

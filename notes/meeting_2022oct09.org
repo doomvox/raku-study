@@ -16,3 +16,7 @@
 
 *** weekly challenge
 **** https://theweeklychallenge.org/
+
+** announcements 
+*** October 9th: the next raku study group meeting
+
