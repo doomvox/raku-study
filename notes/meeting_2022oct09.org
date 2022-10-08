@@ -13,3 +13,6 @@
 
 *** classify
 **** https://docs.raku.org/routine/classify
+
+*** weekly challenge
+**** https://theweeklychallenge.org/
