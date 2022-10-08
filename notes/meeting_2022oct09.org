@@ -7,4 +7,9 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/oct09
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep25.md
+** topics
+*** the modgrid/eurorack problem 
+**** https://www.modulargrid.net/e/modules/evaluationlists
 
+*** classify
+**** https://docs.raku.org/routine/classify
