@@ -7,6 +7,12 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/oct09
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep25.md
+
+** promotion
+*** Saturday morning: get on raku irce
+*** email liz, suggest a mention in raku weekly news?
+*** post note to reddit/r/rakulang
+
 ** topics
 *** the modgrid/eurorack problem 
 **** https://www.modulargrid.net/e/modules/evaluationlists

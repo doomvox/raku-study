@@ -1,19 +1,23 @@
-- [meeting notes October 25, 2022](#orgef9e14c)
-  - [the raku study group](#org8cb44d2)
-  - [topics](#org851d4c8)
-    - [the modgrid/eurorack problem](#orge6ef086)
-    - [classify](#orgfac9a9a)
-    - [weekly challenge](#orge354048)
-  - [announcements](#orgb53343b)
-    - [October 23rd: the next raku study group meeting](#orgf1d0436)
+- [meeting notes October 25, 2022](#org3278de0)
+  - [the raku study group](#org61526f9)
+  - [promotion](#org6c1b9f3)
+    - [Saturday morning: get on raku irce](#org9e44199)
+    - [email liz, suggest a mention in raku weekly news?](#org1f33233)
+    - [post note to reddit/r/rakulang](#org2980dcb)
+  - [topics](#org4ad716c)
+    - [the modgrid/eurorack problem](#org328b971)
+    - [classify](#org3eb4dcc)
+    - [weekly challenge](#orgcda3bea)
+  - [announcements](#org7eedb6c)
+    - [October 23rd: the next raku study group meeting](#org8818cbd)
 
 
-<a id="orgef9e14c"></a>
+<a id="org3278de0"></a>
 
 # meeting notes October 25, 2022
 
 
-<a id="org8cb44d2"></a>
+<a id="org61526f9"></a>
 
 ## the raku study group
 
@@ -32,12 +36,32 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep25.md>
 
 
-<a id="org851d4c8"></a>
+<a id="org6c1b9f3"></a>
+
+## promotion
+
+
+<a id="org9e44199"></a>
+
+### Saturday morning: get on raku irce
+
+
+<a id="org1f33233"></a>
+
+### email liz, suggest a mention in raku weekly news?
+
+
+<a id="org2980dcb"></a>
+
+### post note to reddit/r/rakulang
+
+
+<a id="org4ad716c"></a>
 
 ## topics
 
 
-<a id="orge6ef086"></a>
+<a id="org328b971"></a>
 
 ### the modgrid/eurorack problem
 
@@ -70,25 +94,25 @@
         1.  reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
 
 
-<a id="orgfac9a9a"></a>
+<a id="org3eb4dcc"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="orge354048"></a>
+<a id="orgcda3bea"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/>
 
 
-<a id="orgb53343b"></a>
+<a id="org7eedb6c"></a>
 
 ## announcements
 
 
-<a id="orgf1d0436"></a>
+<a id="org8818cbd"></a>
 
 ### October 23rd: the next raku study group meeting
