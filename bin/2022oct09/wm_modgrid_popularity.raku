@@ -1,6 +1,9 @@
 #!/usr/bin/env perl6
 # 
-# modgrid_popularity_william_michels.raku            12 Sep 2022 
+# wm_modgrid_popularity.raku                               12 Sep 2022 
+# formerly:
+# modgrid_popularity_william_michels.raku            
+
 
 use v6;
 
