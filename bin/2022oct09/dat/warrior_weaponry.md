@@ -3,9 +3,13 @@
 | wimpy the burdensome | heavy axe           | 20       | 4         | 6     |       |
 | gandalf the gray     | staff               | 10       | 14        | 0     |       |
 | obiwan kenobi        | light saber         |          |           |       |       |
+|                      |                     |          |           |       |       |
+| george lucas         | jack kirby          |          |           |       |       |
+| stan lee             | jack kirby          | 10       | 14        | 0     |       |
 | carl sagan           | billions            | 12       | 12        | 4     |       |
+|                      |                     |          |           |       |       |
 | hendrix              | guitar              | 10       | 14        | 0     |       |
 | bay wolf             | glow sticks         | 6        | 18        | 0     |       |
-| worthington          | raku                | 8        | 16        | 0     |       |
-| jobs                 | mouse, reality warp | 8        | 16        | 8     |       |
+| jonathan worthington | raku                | 8        | 16        | 0     |       |
+| steve jobs           | mouse, reality warp | 8        | 16        | 8     |       |
 | ganesah              | mouse               | 18       | 6         | 2     |       |
