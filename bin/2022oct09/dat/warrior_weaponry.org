@@ -1,6 +1,7 @@
 | name                 | weapons             | strength | dexterity | armor | kills |
 |----------------------+---------------------+----------+-----------+-------+-------|
 | wimpy the burdensome | heavy axe           |       20 |         4 |     6 |       |
+|                      |                     |          |           |       |       |
 | hendrix              | guitar              |       10 |        14 |     0 |       |
 | bay wolf             | glow sticks         |        6 |        18 |     0 |       |
 | worthington          | raku                |        8 |        16 |     0 |       |
