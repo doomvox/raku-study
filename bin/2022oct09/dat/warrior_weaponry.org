@@ -18,8 +18,8 @@
 | burner bro                       | cowboy hat, sarong       |       14 |        10 |     0 |       |
 |                                  |                          |          |           |       |       |
 | marlene dietrich                 | lipstick                 |       10 |        12 |     0 |       |
-| captain scarlet                  |                          |       14 |        10 |    66 |       |
-| scarlet o'hara                   | drapes                   |        8 |        14 |     2 |       |
+| captain scarlet                  | electron gun             |       14 |        10 |    66 |       |
+| scarlett o'hara                  | drapes                   |        8 |        14 |     2 |       |
 | jonathan worthington             | raku                     |        8 |        16 |     0 |       |
 | steve jobs                       | mouse, reality warp      |        8 |        16 |     8 |       |
 | ganesah                          | mouse                    |       18 |         6 |     2 |       |
