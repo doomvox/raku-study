@@ -21,5 +21,6 @@
 | jonathan worthington             | raku                       | 8        | 16        | 0     |       |
 | steve jobs                       | mouse, reality warp        | 8        | 16        | 8     |       |
 | ganesha                          | mouse                      | 18       | 6         | 2     |       |
+| anne bonny                       | cannon, pistol, sword      | 8        | 14        | 0     |       |
 | marlon brando                    | leather jacket, motorcycle | 12       | 12        | 4     |       |
 | draymond green                   | orange ball                | 10       | 14        | 0     |       |
