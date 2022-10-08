@@ -1,6 +1,8 @@
 | name                 | weapons             | strength | dexterity | armor | kills |
 |-------------------- |------------------- |-------- |--------- |----- |----- |
 | wimpy the burdensome | heavy axe           | 20       | 4         | 6     |       |
+| gandalf the gray     | staff               | 10       | 14        | 0     |       |
+| obiwan kenobi        | light saber         |          |           |       |       |
 | carl sagan           | billions            | 12       | 12        | 4     |       |
 | hendrix              | guitar              | 10       | 14        | 0     |       |
 | bay wolf             | glow sticks         | 6        | 18        | 0     |       |
