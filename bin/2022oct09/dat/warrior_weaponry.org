@@ -7,7 +7,6 @@
 | gandalf the gray                 | staff                    |       10 |        14 |     0 |       |
 | obiwan kenobi                    | light saber              |          |           |       |       |
 | george lucas                     | jack kirby               |          |           |       |       |
-|                                  |                          |          |           |       |       |
 | stan lee                         | jack kirby               |       10 |        14 |     0 |       |
 | carl sagan                       | billions                 |       12 |        12 |     4 |       |
 | lancelot the brave               | sword                    |          |           |       |       |
