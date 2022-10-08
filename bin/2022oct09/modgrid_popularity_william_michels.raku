@@ -27,7 +27,7 @@ say
                  );
 
 
-# Note enough variable names: can't tell what I'm looking at.
+# Not enough variable names: can't tell what I'm looking at.
 
 # code style feels inside-out, end-weight is strange
 
