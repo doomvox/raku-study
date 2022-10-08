@@ -1,19 +1,19 @@
-- [meeting notes October 25, 2022](#org1f0cca0)
-  - [the raku study group](#orge2447e9)
-  - [topics](#org712ac3d)
-    - [the modgrid/eurorack problem](#orgc80ac93)
-    - [classify](#orgcc8d3ac)
-    - [weekly challenge](#orgba51cb1)
-  - [announcements](#orgb87f509)
-    - [October 23rd: the next raku study group meeting](#org65407f9)
+- [meeting notes October 25, 2022](#orgef9e14c)
+  - [the raku study group](#org8cb44d2)
+  - [topics](#org851d4c8)
+    - [the modgrid/eurorack problem](#orge6ef086)
+    - [classify](#orgfac9a9a)
+    - [weekly challenge](#orge354048)
+  - [announcements](#orgb53343b)
+    - [October 23rd: the next raku study group meeting](#orgf1d0436)
 
 
-<a id="org1f0cca0"></a>
+<a id="orgef9e14c"></a>
 
 # meeting notes October 25, 2022
 
 
-<a id="orge2447e9"></a>
+<a id="org8cb44d2"></a>
 
 ## the raku study group
 
@@ -32,12 +32,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep25.md>
 
 
-<a id="org712ac3d"></a>
+<a id="org851d4c8"></a>
 
 ## topics
 
 
-<a id="orgc80ac93"></a>
+<a id="orge6ef086"></a>
 
 ### the modgrid/eurorack problem
 
@@ -70,25 +70,25 @@
         1.  reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
 
 
-<a id="orgcc8d3ac"></a>
+<a id="orgfac9a9a"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="orgba51cb1"></a>
+<a id="orge354048"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/>
 
 
-<a id="orgb87f509"></a>
+<a id="orgb53343b"></a>
 
 ## announcements
 
 
-<a id="org65407f9"></a>
+<a id="orgf1d0436"></a>
 
 ### October 23rd: the next raku study group meeting
