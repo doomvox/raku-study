@@ -1,19 +1,19 @@
-- [meeting notes October 25, 2022](#org619cb8a)
-  - [the raku study group](#org66ea58c)
-  - [topics](#orgd167358)
-    - [the modgrid/eurorack problem](#org4875e84)
-    - [classify](#orgb1f59b5)
-    - [weekly challenge](#org60aa672)
-  - [announcements](#org6fbc734)
-    - [October 23rd: the next raku study group meeting](#org32f61be)
+- [meeting notes October 25, 2022](#org6ca8cef)
+  - [the raku study group](#org3b4f38a)
+  - [topics](#org23be188)
+    - [the modgrid/eurorack problem](#orgee79146)
+    - [classify](#org92c56ce)
+    - [weekly challenge](#orgd084162)
+  - [announcements](#orge6e6bc4)
+    - [October 23rd: the next raku study group meeting](#org6ffa9ca)
 
 
-<a id="org619cb8a"></a>
+<a id="org6ca8cef"></a>
 
 # meeting notes October 25, 2022
 
 
-<a id="org66ea58c"></a>
+<a id="org3b4f38a"></a>
 
 ## the raku study group
 
@@ -32,12 +32,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep25.md>
 
 
-<a id="orgd167358"></a>
+<a id="org23be188"></a>
 
 ## topics
 
 
-<a id="org4875e84"></a>
+<a id="orgee79146"></a>
 
 ### the modgrid/eurorack problem
 
@@ -52,33 +52,37 @@
     [0].keys.words[0..*-4] eq $b.[1].keys.words[0..*-4] }; say ($_ => (.[0].value - 100) + .[1].value).antipairs for @c.sort( { (.[0].value
     - 100) + .[1].value});'
     ```
+    
+    1.  <https://github.com/doomvox/raku-study/tree/main/bin/oct09/modgrid_popularity_william_michels.raku>
+    
+    2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022oct09/modgrid<sub>popularity</sub><sub>william</sub><sub>michels.raku</sub>
 
 4.  bruce gray
 
-    1.  <https://github.com/doomvox/raku-study/tree/main/bin/oct09>
+    1.  <https://github.com/doomvox/raku-study/tree/main/bin/oct09/modgrid>
     
     2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022oct09/modgrid
 
 
-<a id="orgb1f59b5"></a>
+<a id="org92c56ce"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="org60aa672"></a>
+<a id="orgd084162"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/>
 
 
-<a id="org6fbc734"></a>
+<a id="orge6e6bc4"></a>
 
 ## announcements
 
 
-<a id="org32f61be"></a>
+<a id="org6ffa9ca"></a>
 
 ### October 23rd: the next raku study group meeting
