@@ -1,19 +1,19 @@
-- [meeting notes October 25, 2022](#org6ca8cef)
-  - [the raku study group](#org3b4f38a)
-  - [topics](#org23be188)
-    - [the modgrid/eurorack problem](#orgee79146)
-    - [classify](#org92c56ce)
-    - [weekly challenge](#orgd084162)
-  - [announcements](#orge6e6bc4)
-    - [October 23rd: the next raku study group meeting](#org6ffa9ca)
+- [meeting notes October 25, 2022](#org1f0cca0)
+  - [the raku study group](#orge2447e9)
+  - [topics](#org712ac3d)
+    - [the modgrid/eurorack problem](#orgc80ac93)
+    - [classify](#orgcc8d3ac)
+    - [weekly challenge](#orgba51cb1)
+  - [announcements](#orgb87f509)
+    - [October 23rd: the next raku study group meeting](#org65407f9)
 
 
-<a id="org6ca8cef"></a>
+<a id="org1f0cca0"></a>
 
 # meeting notes October 25, 2022
 
 
-<a id="org3b4f38a"></a>
+<a id="orge2447e9"></a>
 
 ## the raku study group
 
@@ -32,12 +32,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep25.md>
 
 
-<a id="org23be188"></a>
+<a id="org712ac3d"></a>
 
 ## topics
 
 
-<a id="orgee79146"></a>
+<a id="orgc80ac93"></a>
 
 ### the modgrid/eurorack problem
 
@@ -63,26 +63,32 @@
     
     2.  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022oct09/modgrid
 
+5.  my thought:
 
-<a id="org92c56ce"></a>
+    1.  convert to tsv: reverse-split-join-reverse
+    
+        1.  reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
+
+
+<a id="orgcc8d3ac"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="orgd084162"></a>
+<a id="orgba51cb1"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/>
 
 
-<a id="orge6e6bc4"></a>
+<a id="orgb87f509"></a>
 
 ## announcements
 
 
-<a id="org6ffa9ca"></a>
+<a id="org65407f9"></a>
 
 ### October 23rd: the next raku study group meeting
