@@ -35,4 +35,5 @@ use v6;
     my $classified = 
       classify { $_ ∈ $toho_set ?? 'toho' !! 'non_toho' }, @monsters;
     say $classified;
+    # {non_toho => [mothera ghidora gammera golem rhodan], toho => [godzilla]}
     }
