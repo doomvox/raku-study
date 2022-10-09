@@ -6,7 +6,7 @@ use v6;
 
 if 1 {
     say "fine"; # fine
-    }
+}
 ## no need for semi-c after a code block
 
 ## if the brace isn't a code block, you need the semi-c
