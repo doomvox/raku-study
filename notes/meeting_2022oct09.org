@@ -45,6 +45,18 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 **** some code: 
 ***** https://github.com/JJ/perl6-recipes-apress/blob/09a3465726ce96549946401970ae282baa4ba60d/Chapter-2/get-image-size.rk
 
+**** libexif, jpeg metadata
+***** william michels:
+
+****** the Perl5 executable "ExifTool":
+
+******* https://unix.stackexchange.com/a/676180/227738
+******* https://exiftool.org/forum/index.php?topic=9224.msg47655#msg47655
+******* https://exiftool.org/forum/index.php?topic=6330.msg31354#msg31354
+******* https://exiftool.org/exiftool_pod.html
+******* https://exiftool.org/
+
+
 
 ** announcements 
 *** October 23rd: the next raku study group meeting
