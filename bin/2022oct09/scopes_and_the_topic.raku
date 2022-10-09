@@ -16,4 +16,4 @@ my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 # Calling map() will never work with signature of the proto ($, |)
 my @N = map({ .uc }), @numbers;
 say @N;
-
+# [() [wuhn tew thuree foah fahv sex sevhun]]
