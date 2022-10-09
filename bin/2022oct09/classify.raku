@@ -33,8 +33,6 @@ use v6;
 
     $toho_set = @toho.Set;
     my $classified = 
-      @monsters.classify { $_ ∈ $toho_set }
-
-
-
+      classify { $_ ∈ $toho_set ?? 'toho' !! 'non_toho' }, @monsters;
+    say $classified;
     }
