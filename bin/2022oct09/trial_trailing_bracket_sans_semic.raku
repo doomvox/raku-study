@@ -4,7 +4,7 @@
 
 use v6;
 
-warn qq{"hey"}
+warn qq{"hey"};
 
 say "===";
 
