@@ -14,8 +14,6 @@ warn qq{"hey"};
 
 say "===";
 
-# Block object coerced to string (please use .gist or .raku to do that)
-#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022oct09/trial_trailing_bracket_sans_semic.raku line 7
-# Warning: something's wrong
-#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022oct09/trial_trailing_bracket_sans_semic.raku line 7
+#  in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022oct09/trial_trailing_bracket_sans_semic.raku line 13
+
 # ===
