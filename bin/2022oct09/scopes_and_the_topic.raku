@@ -44,6 +44,6 @@ sub sideways {
     $_ = "a message for the ages";
     say @N;
     # [hm hm hm hm hm hm hm]
-    say $_;
+    say $_; # a message for the ages
 }
 
