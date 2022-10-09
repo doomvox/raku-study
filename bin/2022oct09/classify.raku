@@ -6,5 +6,6 @@ use v6;
 
 ## playing with classify
 
+## an example from the docs:
 say classify { $_ %% 2 ?? 'even' !! 'odd' }, (1, 7, 6, 3, 2);
 # OUTPUT: «{even => [6 2], odd => [1 7 3]}␤» 
