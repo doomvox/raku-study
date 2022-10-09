@@ -1,4 +1,4 @@
-* meeting notes October 25, 2022
+* meeting notes October 09, 2022
 ** the raku study group
 **** usual links
 ***** these notes
