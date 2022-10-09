@@ -37,3 +37,10 @@ sub sideways {
     $_ = uc($_);
     return $mess;
 }
+
+
+{
+    my @N = @numbers.map({ sideways($_) });
+    say @N;
+    # [WUHN TEW THUREE FOAH FAHV SEX SEVHUN]
+}
