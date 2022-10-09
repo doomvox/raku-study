@@ -54,8 +54,6 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 ******* https://exiftool.org/exiftool_pod.html
 ******* https://exiftool.org/
 
-
-
 ** announcements 
 *** October 23rd: the next raku study group meeting
 
