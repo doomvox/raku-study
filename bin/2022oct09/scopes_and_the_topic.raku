@@ -35,5 +35,5 @@ my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 sub sideways {
     my $mess = "hm";
     $_ = uc($_);
-    
+    return $mess;
 }
