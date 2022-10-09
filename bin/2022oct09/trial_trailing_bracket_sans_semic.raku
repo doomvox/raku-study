@@ -5,3 +5,5 @@
 use v6;
 
 warn {"hey"}
+
+say "===";
