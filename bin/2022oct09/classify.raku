@@ -18,7 +18,8 @@ use v6;
     my @numbs  = (1, 7, 6, 3, 2);
     for @numbs -> $n {
         if $n %% 2 {
-            %classified{ 'even' }.push($n);
+#            %classified{ 'even' }.push($n);
+            push %classified{ 'even' }, $n;
         }
         else {
             %classified{ 'odd' }.push($n);
