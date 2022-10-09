@@ -4,6 +4,10 @@
 
 use v6;
 
+if 1 {
+    say "fine";
+    }
+
 warn qq{"hey"};
 
 say "===";
