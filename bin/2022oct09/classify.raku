@@ -24,5 +24,5 @@ use v6;
             %classified{ 'odd' }.push($n);
         }
     }
-    say %classified;
+    say %classified; # {even => [6 2], odd => [1 7 3]}
 }
