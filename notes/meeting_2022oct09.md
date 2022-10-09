@@ -1,23 +1,24 @@
-- [meeting notes October 25, 2022](#org3278de0)
-  - [the raku study group](#org61526f9)
-  - [promotion](#org6c1b9f3)
-    - [Saturday morning: get on raku irce](#org9e44199)
-    - [email liz, suggest a mention in raku weekly news?](#org1f33233)
-    - [post note to reddit/r/rakulang](#org2980dcb)
-  - [topics](#org4ad716c)
-    - [the modgrid/eurorack problem](#org328b971)
-    - [classify](#org3eb4dcc)
-    - [weekly challenge](#orgcda3bea)
-  - [announcements](#org7eedb6c)
-    - [October 23rd: the next raku study group meeting](#org8818cbd)
+- [meeting notes October 25, 2022](#orged1b787)
+  - [the raku study group](#org22c5ef1)
+  - [promotion](#orge161325)
+    - [Saturday morning: get on raku irce](#org7e5cf14)
+    - [email liz, suggest a mention in raku weekly news?](#org4120f3a)
+    - [post note to reddit/r/rakulang](#orga4a02c9)
+  - [topics](#orgb3c5453)
+    - [the modgrid/eurorack problem](#orgd87d498)
+    - [classify](#orgcd01059)
+    - [weekly challenge](#orgac7aba6)
+    - [JJ Merelo, "Raku Recipies", Apress](#org81a411f)
+  - [announcements](#orgaf73808)
+    - [October 23rd: the next raku study group meeting](#org0b51d61)
 
 
-<a id="org3278de0"></a>
+<a id="orged1b787"></a>
 
 # meeting notes October 25, 2022
 
 
-<a id="org61526f9"></a>
+<a id="org22c5ef1"></a>
 
 ## the raku study group
 
@@ -36,32 +37,32 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep25.md>
 
 
-<a id="org6c1b9f3"></a>
+<a id="orge161325"></a>
 
 ## promotion
 
 
-<a id="org9e44199"></a>
+<a id="org7e5cf14"></a>
 
 ### Saturday morning: get on raku irce
 
 
-<a id="org1f33233"></a>
+<a id="org4120f3a"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="org2980dcb"></a>
+<a id="orga4a02c9"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="org4ad716c"></a>
+<a id="orgb3c5453"></a>
 
 ## topics
 
 
-<a id="org328b971"></a>
+<a id="orgd87d498"></a>
 
 ### the modgrid/eurorack problem
 
@@ -94,25 +95,34 @@
         1.  reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
 
 
-<a id="org3eb4dcc"></a>
+<a id="orgcd01059"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="orgcda3bea"></a>
+<a id="orgac7aba6"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/>
 
 
-<a id="org7eedb6c"></a>
+<a id="org81a411f"></a>
+
+### JJ Merelo, "Raku Recipies", Apress
+
+code available places like this:
+
+<https://github.com/JJ/perl6-recipes-apress/blob/09a3465726ce96549946401970ae282baa4ba60d/Chapter-2/get-image-size.rk>
+
+
+<a id="orgaf73808"></a>
 
 ## announcements
 
 
-<a id="org8818cbd"></a>
+<a id="org0b51d61"></a>
 
 ### October 23rd: the next raku study group meeting
