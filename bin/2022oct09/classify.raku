@@ -25,3 +25,4 @@ for @numbs -> $n {
     }
 }
 say %classified;
+}
