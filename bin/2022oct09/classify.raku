@@ -31,7 +31,7 @@ use v6;
     my @toho =     <godzilla rodan mothra ghidorah anguirus moguera maguma dogora baragon>;
     my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
 
-    $toho_set = @toho.Set;
+    my $toho_set = @toho.Set;
     my $classified = 
       classify { $_ ∈ $toho_set ?? 'toho' !! 'non_toho' }, @monsters;
     say $classified;
