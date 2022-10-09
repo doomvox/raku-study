@@ -15,6 +15,7 @@
 
 ** topics
 *** rob: some issues with topic variables
+
 *** the modgrid/eurorack problem 
 **** https://www.modulargrid.net/e/modules/evaluationlists
 **** q: doing popularity stats and such
