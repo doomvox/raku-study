@@ -1,25 +1,25 @@
-- [meeting notes October 25, 2022](#org50fbe86)
-  - [the raku study group](#org645a30a)
-  - [promotion](#org5de5de3)
-    - [Saturday morning: get on raku irc](#org128ef27)
-    - [email liz, suggest a mention in raku weekly news?](#org8ee0a11)
-    - [post note to reddit/r/rakulang](#org5584256)
-  - [topics](#org0017d4e)
-    - [rob: some issues with topic variables](#orgbc0d402)
-    - [the modgrid/eurorack problem](#org96bbe76)
-    - [classify](#org88fec75)
-    - [weekly challenge](#org3983510)
-    - [JJ Merelo, "Raku Recipes", Apress (aka "Springer Nature", ugh)](#org0d3d529)
-  - [announcements](#org5709a6e)
-    - [October 23rd: the next raku study group meeting](#orgd498291)
+- [meeting notes October 25, 2022](#org1ff06e0)
+  - [the raku study group](#org226fd7c)
+  - [promotion](#org5f9dbe3)
+    - [get on raku irc](#orgeeace03)
+    - [email liz, suggest a mention in raku weekly news?](#orgb768eec)
+    - [post note to reddit/r/rakulang](#org732d1d0)
+  - [topics](#org6e04713)
+    - [rob: some issues with topic variables](#org379c3d5)
+    - [the modgrid/eurorack problem](#orgb65cbf6)
+    - [classify](#org9545773)
+    - [weekly challenge](#org773ed6f)
+    - [JJ Merelo, "Raku Recipes", Apress (aka "Springer Nature", ugh)](#org7d8773a)
+  - [announcements](#org06ec6cb)
+    - [October 23rd: the next raku study group meeting](#orgcf68be6)
 
 
-<a id="org50fbe86"></a>
+<a id="org1ff06e0"></a>
 
 # meeting notes October 25, 2022
 
 
-<a id="org645a30a"></a>
+<a id="org226fd7c"></a>
 
 ## the raku study group
 
@@ -38,37 +38,37 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022sep25.md>
 
 
-<a id="org5de5de3"></a>
+<a id="org5f9dbe3"></a>
 
 ## promotion
 
 
-<a id="org128ef27"></a>
+<a id="orgeeace03"></a>
 
-### Saturday morning: get on raku irc
+### get on raku irc
 
 
-<a id="org8ee0a11"></a>
+<a id="orgb768eec"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="org5584256"></a>
+<a id="org732d1d0"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="org0017d4e"></a>
+<a id="org6e04713"></a>
 
 ## topics
 
 
-<a id="orgbc0d402"></a>
+<a id="org379c3d5"></a>
 
 ### rob: some issues with topic variables
 
 
-<a id="org96bbe76"></a>
+<a id="orgb65cbf6"></a>
 
 ### the modgrid/eurorack problem
 
@@ -101,21 +101,21 @@
         1.  reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
 
 
-<a id="org88fec75"></a>
+<a id="org9545773"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="org3983510"></a>
+<a id="org773ed6f"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/>
 
 
-<a id="org0d3d529"></a>
+<a id="org7d8773a"></a>
 
 ### JJ Merelo, "Raku Recipes", Apress (aka "Springer Nature", ugh)
 
@@ -144,11 +144,11 @@
             5.  <https://exiftool.org/>
 
 
-<a id="org5709a6e"></a>
+<a id="org06ec6cb"></a>
 
 ## announcements
 
 
-<a id="orgd498291"></a>
+<a id="orgcf68be6"></a>
 
 ### October 23rd: the next raku study group meeting
