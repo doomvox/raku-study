@@ -31,6 +31,7 @@ sub sideways {
     return $mess;
 }
 
+my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 {
     my @N = map({ sideways }), @numbers;
            # Calling sideways(Mu) will never work with declared signature ()
