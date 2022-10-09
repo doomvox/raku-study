@@ -1,5 +1,5 @@
 | name                             | weapons                    | strength | dexterity | armor | kills |
-|-------------------------------- |-------------------------- |-------- |--------- |----- |----- |
+|----------------------------------|----------------------------|----------|-----------|-------|-------|
 | modesty blaise                   | kongo, mab brevete         | 10       | 14        | 0     | 486   |
 | willie garvin                    | throwing knives            | 14       | 10        | 0     | 306   |
 | ben                              | rifle, molotov cocktails   | 14       | 10        | 0     | 354   |
@@ -25,3 +25,5 @@
 | anne bonny                       | cannon, pistol, sword      | 8        | 14        | 0     | 607   |
 | marlon brando                    | leather jacket, motorcycle | 12       | 12        | 4     | 385   |
 | draymond green                   | big orange ball            | 10       | 14        | 0     | 320   |
+
+
