@@ -28,6 +28,7 @@ use Data::Dumper;
 sub sideways {
     my $mess = "hm";
     $_ |= '';
+    $_ = 'abc';
     return $mess;
 }
 
