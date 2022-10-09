@@ -4,4 +4,4 @@
 
 use v6;
 
-die {"hey"}
+warn {"hey"}
