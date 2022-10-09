@@ -41,7 +41,9 @@ sub sideways {
 {
     my @N = @numbers.map({ sideways });
            # Calling sideways(Mu) will never work with declared signature ()
+    $_ = "a message for the ages";
     say @N;
-    # [WUHN TEW THUREE FOAH FAHV SEX SEVHUN]
+    # [hm hm hm hm hm hm hm]
+    say $_;
 }
 
