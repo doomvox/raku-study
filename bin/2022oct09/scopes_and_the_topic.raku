@@ -9,5 +9,4 @@ sub stuff ($_) {  # need $_ in signature
     say uc($_);
     }
 
-
 stuff('hey');  # HEY
