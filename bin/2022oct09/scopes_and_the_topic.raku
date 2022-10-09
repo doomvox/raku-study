@@ -39,8 +39,9 @@ sub sideways {
 }
 
 {
-    my @N = @numbers.map({ sideways($_) });
+    my @N = @numbers.map({ sideways });
            # Calling sideways(Mu) will never work with declared signature ()
     say @N;
     # [WUHN TEW THUREE FOAH FAHV SEX SEVHUN]
 }
+
