@@ -37,7 +37,7 @@ my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
            # Calling sideways(Mu) will never work with declared signature ()
     $_ = "a message for the ages";
     say @N;
-    # [hm hm hm hm hm hm hm]
+    # hmhmhmhmhmhmhm
     say $_; # a message for the ages
 }
 
