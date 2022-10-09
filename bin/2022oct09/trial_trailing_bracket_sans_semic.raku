@@ -12,7 +12,7 @@ if 1 {
 ## if the brace isn't a code block, you need the semi-c
 warn qq{"hey"};
 
-say "===";
+say "===";  
 
 #  in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022oct09/trial_trailing_bracket_sans_semic.raku line 13
 
