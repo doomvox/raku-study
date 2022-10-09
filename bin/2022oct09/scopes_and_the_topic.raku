@@ -5,6 +5,9 @@
 use v6;
 
 
-sub stuff {
+sub stuff ($_) {
     say uc($_);
     }
+
+
+stuff('hey');
