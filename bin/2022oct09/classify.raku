@@ -18,7 +18,7 @@ use v6;
     my @numbs  = (1, 7, 6, 3, 2);
     for @numbs -> $n {
         if $n %% 2 {
-            %classified{ 'even' }.push($n);  # more perl5ish would be: push %classified{ 'even' }, $n;
+            %classified{ 'even' }.push($n);  # more perl5ish would be:  push %classified{ 'even' }, $n;
         }
         else {
             %classified{ 'odd' }.push($n);
@@ -26,3 +26,15 @@ use v6;
     }
     say %classified; # {even => [6 2], odd => [1 7 3]}
 }
+
+{
+    my @toho =     <godzilla rodan mothra ghidorah anguirus moguera maguma dogora baragon>;
+    my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
+
+    $toho_set = @toho.Set;
+    my $classified = 
+      @monsters.classify { $_ ∈ $toho_set }
+
+
+
+    }
