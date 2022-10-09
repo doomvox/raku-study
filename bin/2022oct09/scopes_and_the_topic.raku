@@ -4,7 +4,6 @@
 
 use v6;
 
-
 sub stuff ($_) {  # need $_ in signature
     return uc($_);
 }
