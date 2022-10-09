@@ -3,6 +3,7 @@
 | modesty blaise                   | kongo, mab brevete         | 10       | 14        | 0     | 486   |
 | willie garvin                    | throwing knives            | 14       | 10        | 0     | 306   |
 | ben                              | rifle, molotov cocktails   | 14       | 10        | 0     | 354   |
+| paladin                          | colt, derringer            | 10       | 14        | 0     | 546   |
 | wimpy the burdensome             | heavy axe                  | 20       | 4         | 6     | 528   |
 | gandalf the gray                 | staff                      | 10       | 14        | 0     | 162   |
 | obiwan kenobi                    | light saber                | 8        | 16        | 0     | 228   |
