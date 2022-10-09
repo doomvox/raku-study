@@ -9,7 +9,7 @@ for $file.IO.lines -> $line {
     my @words  = $line.split(/\s+/).reverse;
     my $data   = @words[ 0 .. 5   ].reverse.join("\t");
     my $string = @words[ 6 .. *-1 ].reverse.join(" ");
-    my $output = $string, "\t", $data;
+    my $output = $string ~ "\t" ~ $data;
     say $output;
 }
 
