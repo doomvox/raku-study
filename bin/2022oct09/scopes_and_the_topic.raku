@@ -5,9 +5,9 @@
 use v6;
 
 
-sub stuff ($_) {
+sub stuff ($_) {  # need $_ in signature
     say uc($_);
     }
 
 
-stuff('hey');
+stuff('hey');  # HEY
