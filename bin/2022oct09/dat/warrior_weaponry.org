@@ -1,7 +1,7 @@
 | name                             | weapons                    | strength | dexterity | armor | kills |
 |----------------------------------+----------------------------+----------+-----------+-------+-------|
-| modesty blaise                   | kongo, mab brevete         |          |           |       |       |
-| willie garvin                    | throwing knives            |          |           |       |       |
+| modesty blaise                   | kongo, mab brevete         |       10 |        14 |     0 |       |
+| willie garvin                    | throwing knives            |       14 |        10 |     0 |       |
 | ben                              | rifle, molotov cocktails   |       14 |        10 |     0 |       |
 | wimpy the burdensome             | heavy axe                  |       20 |         4 |     6 |       |
 | gandalf the gray                 | staff                      |       10 |        14 |     0 |       |
