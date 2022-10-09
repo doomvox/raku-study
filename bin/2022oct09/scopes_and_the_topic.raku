@@ -6,7 +6,8 @@ use v6;
 
 
 sub stuff ($_) {  # need $_ in signature
-    say uc($_);
-    }
+    return uc($_);
+}
 
-stuff('hey');  # HEY
+say stuff('hey');  # HEY
+
