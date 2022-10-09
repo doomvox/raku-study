@@ -27,7 +27,7 @@ my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 }
 
 {
-    my @N = @numbers.map({ .uc });
+    my @N = @numbers.map({ stuff($_) });
     say @N;
     # [WUHN TEW THUREE FOAH FAHV SEX SEVHUN]
 }
