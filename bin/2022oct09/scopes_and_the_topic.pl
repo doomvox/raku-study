@@ -66,7 +66,8 @@ sub straightahead {
     straightahead('hm');
     say $_; 
     # a message for the ages
-    ## Assignment to $_ inside of the sub call effects $_ in outer scope
+
+    ## Here, assignment to $_ inside of the sub call effects $_ in outer scope
 }
 
 
