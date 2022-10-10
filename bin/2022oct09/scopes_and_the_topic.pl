@@ -33,7 +33,7 @@ sub sideways {
 
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 {
-    my @N = map { sideways } @numbers;
+    my @N = map { sideways() } @numbers;
     $_ = "a message for the ages";
     say @N;
     # hmhmhmhmhmhmhm
