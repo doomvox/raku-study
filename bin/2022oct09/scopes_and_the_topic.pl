@@ -35,7 +35,7 @@ my @numbers  = < wuhn tew thuree >;
 {
     my @N = map { sideways } @numbers;
     $_ = "a message for the ages";
-    say @N; # n: wuhn n: tew n: thuree n: foah n: fahv n: sex n: sevhun 
+    say @N; # n: wuhn n: tew n: thuree
     say $_; # a message for the ages
 
 }
