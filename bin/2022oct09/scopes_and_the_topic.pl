@@ -52,7 +52,7 @@ say "===";
 say "===";
 sub straightahead {
     my $mess = "n: $_ ";
-    $_ = 'straightahead assignment';
+    $_ = 'sideways assignment';
     return $mess;
 }
 
