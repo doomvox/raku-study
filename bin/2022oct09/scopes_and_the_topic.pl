@@ -34,7 +34,6 @@ sub sideways {
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 {
     my @N = map { sideways } @numbers;
-           # Calling sideways(Mu) will never work with declared signature ()
     $_ = "a message for the ages";
     say @N;
     # hmhmhmhmhmhmhm
