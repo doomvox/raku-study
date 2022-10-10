@@ -34,6 +34,7 @@ sub sideways {
 my @numbers  = < wuhn tew thuree >;
 {
     $_ = "a message for the ages";
+    sideways;
     my @N = map { sideways } @numbers;
     say @N; # n: wuhn n: tew n: thuree
     say $_; # a message for the ages
