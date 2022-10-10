@@ -38,9 +38,6 @@ my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
     say @N; # n: wuhn n: tew n: thuree n: foah n: fahv n: sex n: sevhun 
     say $_; # a message for the ages
 
-
-
-
 }
 
 
