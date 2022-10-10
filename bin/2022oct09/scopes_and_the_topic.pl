@@ -71,7 +71,7 @@ sub straightahead {
 
 sub simple_code {
    $_ = @_[0];
-   s/.../.../g; 
+   s/(\w)$1+/$1/g;  # collapse repeated chars to one
    ## etc.
 }
 
