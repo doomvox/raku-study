@@ -2,6 +2,7 @@
 use v6.d;
 
 ## rir experiments with scoping of the topic variable ($_)
+## see pod comments below.
 
 constant N = '\N';
 
