@@ -57,6 +57,13 @@ sub straightahead {
 }
 
 
+{
+    $_ = "a message for the ages";
+    sideways('hm');
+    say $_; # sideways assignment
+    ## Assignment to $_ inside of the sub call effects $_ in outer scope
+}
+
 
 
 __END__
