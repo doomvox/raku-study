@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 use v6.d;
 
+## rir experiments with scoping of the topic variable ($_)
 
 constant N = '\N';
 
