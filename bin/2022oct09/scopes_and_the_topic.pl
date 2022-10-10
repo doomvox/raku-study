@@ -45,7 +45,7 @@ my @numbers  = < wuhn tew thuree >;
 say "===";
 {
     $_ = "a message for the ages";
-    sideways('hm');
+    sideways('hm');  # argument 'hm' is thrown away, does nothing
     say $_; # sideways assignment
     ## Assignment to $_ inside of the sub call effects $_ in outer scope
 }
@@ -63,7 +63,7 @@ sub straightahead {
 
 {
     $_ = "a message for the ages";
-    straightahead('hm');
+    straightahead('hm'); # argument 'hm' is thrown away, does nothing
     say $_; 
     # a message for the ages
 }
