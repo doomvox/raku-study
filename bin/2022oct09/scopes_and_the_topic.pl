@@ -28,7 +28,7 @@ use Data::Dumper;
 sub sideways {
     # gets the $_ from the outer scope
     my $mess = "n: $_ ";
-    $_ = 'sideways assignment';
+    $_ = 'sideways assignment';  # also effects value in $_ in outer scope
     return $mess;
 }
 
