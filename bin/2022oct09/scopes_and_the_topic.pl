@@ -69,7 +69,11 @@ sub straightahead {
 }
 
 
-
+sub simple_code {
+   $_ = @_[0];
+   s/.../.../g; 
+   ## etc.
+}
 
 
 
