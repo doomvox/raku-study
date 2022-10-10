@@ -44,7 +44,7 @@ my @numbers  = < wuhn tew thuree >;
 {
     $_ = "a message for the ages";
     sideways;
-    say $_; # a message for the ages
+    say $_; # sideways assignment
 }
 
 
