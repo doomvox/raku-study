@@ -27,6 +27,7 @@ use Data::Dumper;
 
 sub sideways {
     my $mess = "hm";
+    say "$_ ";
     $_ = 'sideways assignment';
     return $mess;
 }
