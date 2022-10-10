@@ -31,7 +31,7 @@ sub sideways {
     return $mess;
 }
 
-my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
+my @numbers  = < wuhn tew thuree >;
 {
     my @N = map { sideways } @numbers;
     $_ = "a message for the ages";
