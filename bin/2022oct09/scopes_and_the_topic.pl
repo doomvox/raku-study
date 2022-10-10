@@ -55,7 +55,7 @@ say "===";
 sub straightahead {
     # gets the $_ from the outer scope
     my $mess = "n: $_ ";
-    # 
+    # local protects value of $_ in outer scope
     local $_ = 'sideways assignment';
     return $mess;
 }
