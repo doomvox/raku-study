@@ -76,9 +76,12 @@ sub simple_code {
 }
 
 {
-  my $str = 
-  
+  $_ = "some value";
+  my $str = "aardvark aaas";
+  say "check under: $_";
   my $new = simple_code( $str );
+  say $new;
+  say "check under: $_";
 
 }
 
