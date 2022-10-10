@@ -1,22 +1,6 @@
 #!/usr/bin/env raku
 use v6.d;
 
-=begin comment
-
-From "language/variables#The_$__variable"
-
-The $_ variable
-$_ is the topic variable. A fresh one is created in every block.
-
-The first two sentences are LTA.
-
-$_ is the general _default_variable_; as such, it is often used
-as a _topic_variable_.  $_ is available at every _scope_. It is
-either cloned from the containing scope or created as another
-_lexical_ variable, which makes the outer scope's instance
-unaccessable.
-
-=end comment
 
 constant N = '\N';
 
@@ -99,3 +83,20 @@ anon-arg( (616).Real );
 my Str $_;
 $_.WHAT;
 
+
+=begin comment
+
+From "language/variables#The_$__variable"
+
+The $_ variable
+$_ is the topic variable. A fresh one is created in every block.
+
+The first two sentences are LTA.
+
+$_ is the general _default_variable_; as such, it is often used
+as a _topic_variable_.  $_ is available at every _scope_. It is
+either cloned from the containing scope or created as another
+_lexical_ variable, which makes the outer scope's instance
+unaccessable.
+
+=end comment
