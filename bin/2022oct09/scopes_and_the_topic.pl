@@ -43,7 +43,7 @@ my @numbers  = < wuhn tew thuree >;
 say "===";
 {
     $_ = "a message for the ages";
-    sideways;
+    sideways('hm');
     say $_; # sideways assignment
 }
 
