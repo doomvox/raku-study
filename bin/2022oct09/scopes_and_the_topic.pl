@@ -26,6 +26,7 @@ use Data::Dumper;
 
 
 sub sideways {
+    # displays the $_ from the outer scope
     my $mess = "n: $_ ";
     $_ = 'sideways assignment';
     return $mess;
