@@ -26,7 +26,7 @@ use Data::Dumper;
 
 
 sub sideways {
-    # displays the $_ from the outer scope
+    # gets the $_ from the outer scope
     my $mess = "n: $_ ";
     $_ = 'sideways assignment';
     return $mess;
@@ -53,7 +53,9 @@ say "===";
 say "===";
 
 sub straightahead {
+    # gets the $_ from the outer scope
     my $mess = "n: $_ ";
+    # 
     $_ = 'sideways assignment';
     return $mess;
 }
