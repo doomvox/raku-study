@@ -56,7 +56,7 @@ sub straightahead {
     # gets the $_ from the outer scope
     my $mess = "n: $_ ";
     # 
-    $_ = 'sideways assignment';
+    local $_ = 'sideways assignment';
     return $mess;
 }
 
