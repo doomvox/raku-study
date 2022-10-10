@@ -38,6 +38,7 @@ my @numbers  = < wuhn tew thuree >;
     say @N; # n: wuhn n: tew n: thuree
     say $_; # a message for the ages
 
+    ## Evidently, map blocks localize $_
 }
 
 say "===";
@@ -45,9 +46,15 @@ say "===";
     $_ = "a message for the ages";
     sideways('hm');
     say $_; # sideways assignment
+    ## Assignment to $_ inside of the sub call effects $_ in outer scope
 }
 
-
+say "===";
+sub straightahead {
+    my $mess = "n: $_ ";
+    $_ = 'straightahead assignment';
+    return $mess;
+}
 
 
 
