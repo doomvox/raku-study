@@ -1,24 +1,23 @@
-- [meeting notes October 23, 2022](#orga805da2)
-  - [the raku study group](#orgda6c86c)
-  - [promotion](#orga601e76)
-    - [get on raku irc](#orge62cd87)
-    - [email liz, suggest a mention in raku weekly news?](#org0a41c6b)
-    - [post note to reddit/r/rakulang](#orgf668492)
-  - [topics](#org28b4a6d)
-    - [the modgrid/eurorack problem](#orgc6a9442)
-    - [classify](#org3aa3b21)
-    - [weekly challenge](#org9225224)
-    - [JJ Merelo, "Raku Recipes", Apress (aka "Springer Nature", ugh)](#orgfa36fe1)
-  - [announcements](#org0603549)
-    - [November 6th: the next raku study group meeting](#orgb46f4cd)
+- [meeting notes October 23, 2022](#org04b5e79)
+  - [the raku study group](#org55541da)
+  - [promotion](#org6672b2b)
+    - [get on raku irc](#org6701095)
+    - [email liz, suggest a mention in raku weekly news?](#orge4dbda5)
+    - [post note to reddit/r/rakulang](#orgc51e2e5)
+  - [topics](#orgb80997f)
+    - [the modgrid/eurorack problem](#org30a79a9)
+    - [classify](#orge7aac66)
+    - [weekly challenge](#org5bc503f)
+  - [announcements](#org0226854)
+    - [November 6th: the next raku study group meeting](#orgc6161ad)
 
 
-<a id="orga805da2"></a>
+<a id="org04b5e79"></a>
 
 # meeting notes October 23, 2022
 
 
-<a id="orgda6c86c"></a>
+<a id="org55541da"></a>
 
 ## the raku study group
 
@@ -37,32 +36,32 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct09.md>
 
 
-<a id="orga601e76"></a>
+<a id="org6672b2b"></a>
 
 ## promotion
 
 
-<a id="orge62cd87"></a>
+<a id="org6701095"></a>
 
 ### get on raku irc
 
 
-<a id="org0a41c6b"></a>
+<a id="orge4dbda5"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="orgf668492"></a>
+<a id="orgc51e2e5"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="org28b4a6d"></a>
+<a id="orgb80997f"></a>
 
 ## topics
 
 
-<a id="orgc6a9442"></a>
+<a id="org30a79a9"></a>
 
 ### the modgrid/eurorack problem
 
@@ -95,33 +94,20 @@
         1.  reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
 
 
-<a id="org3aa3b21"></a>
+<a id="orge7aac66"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="org9225224"></a>
+<a id="org5bc503f"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/>
 
-
-<a id="orgfa36fe1"></a>
-
-### JJ Merelo, "Raku Recipes", Apress (aka "Springer Nature", ugh)
-
-1.  <https://link.springer.com/book/10.1007/978-1-4842-6258-0>
-
-2.  code examples:
-
-    1.  <https://github.com/Apress/raku-recipes>
-    
-    2.  <https://github.com/JJ/perl6-recipes-apress/blob/09a3465726ce96549946401970ae282baa4ba60d/Chapter-2/get-image-size.rk>
-
-3.  libexif, jpeg metadata
+2.  libexif, jpeg metadata
 
     1.  william michels:
     
@@ -138,11 +124,11 @@
             5.  <https://exiftool.org/>
 
 
-<a id="org0603549"></a>
+<a id="org0226854"></a>
 
 ## announcements
 
 
-<a id="orgb46f4cd"></a>
+<a id="orgc6161ad"></a>
 
 ### November 6th: the next raku study group meeting
