@@ -1,0 +1,64 @@
+* meeting notes October 23, 2022
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct23.md
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/oct23
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct09.md
+
+** promotion
+*** get on raku irc
+*** email liz, suggest a mention in raku weekly news?
+*** post note to reddit/r/rakulang
+
+** topics
+*** rob: some issues with topic variables
+
+*** the modgrid/eurorack problem 
+**** https://www.modulargrid.net/e/modules/evaluationlists
+**** q: doing popularity stats and such
+**** william michels soultion
+#+BEGIN_SRC sh
+perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2 => -1); my @c; do for @b -> $b { @c.push($b) if $b.
+[0].keys.words[0..*-4] eq $b.[1].keys.words[0..*-4] }; say ($_ => (.[0].value - 100) + .[1].value).antipairs for @c.sort( { (.[0].value
+- 100) + .[1].value});'
+#+END_SRC
+
+***** https://github.com/doomvox/raku-study/tree/main/bin/oct09/modgrid_popularity_william_michels.raku
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022oct09/modgrid_popularity_william_michels.raku
+
+**** bruce gray 
+***** https://github.com/doomvox/raku-study/tree/main/bin/oct09/modgrid
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022oct09/modgrid
+
+**** my thought:
+***** convert to tsv: flip-split-join-flip
+****** reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
+
+*** classify
+**** https://docs.raku.org/routine/classify
+
+*** weekly challenge
+**** https://theweeklychallenge.org/
+
+*** JJ Merelo, "Raku Recipes", Apress (aka "Springer Nature", ugh)
+**** https://link.springer.com/book/10.1007/978-1-4842-6258-0
+**** code examples:
+***** https://github.com/Apress/raku-recipes
+***** https://github.com/JJ/perl6-recipes-apress/blob/09a3465726ce96549946401970ae282baa4ba60d/Chapter-2/get-image-size.rk
+
+
+**** libexif, jpeg metadata
+***** william michels:
+****** the Perl5 executable "ExifTool":
+******* https://unix.stackexchange.com/a/676180/227738
+******* https://exiftool.org/forum/index.php?topic=9224.msg47655#msg47655
+******* https://exiftool.org/forum/index.php?topic=6330.msg31354#msg31354
+******* https://exiftool.org/exiftool_pod.html
+******* https://exiftool.org/
+
+** announcements 
+*** November 6th: the next raku study group meeting
+
