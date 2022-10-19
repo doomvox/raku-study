@@ -14,7 +14,6 @@
 *** post note to reddit/r/rakulang
 
 ** topics
-*** rob: some issues with topic variables
 
 *** the modgrid/eurorack problem 
 **** https://www.modulargrid.net/e/modules/evaluationlists
