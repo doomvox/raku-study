@@ -1,23 +1,24 @@
-- [meeting notes October 23, 2022](#org04b5e79)
-  - [the raku study group](#org55541da)
-  - [promotion](#org6672b2b)
-    - [get on raku irc](#org6701095)
-    - [email liz, suggest a mention in raku weekly news?](#orge4dbda5)
-    - [post note to reddit/r/rakulang](#orgc51e2e5)
-  - [topics](#orgb80997f)
-    - [the modgrid/eurorack problem](#org30a79a9)
-    - [classify](#orge7aac66)
-    - [weekly challenge](#org5bc503f)
-  - [announcements](#org0226854)
-    - [November 6th: the next raku study group meeting](#orgc6161ad)
+- [meeting notes October 23, 2022](#org11b0579)
+  - [the raku study group](#org1a0c39f)
+  - [promotion](#org1ab2b7a)
+    - [get on raku irc](#orgaf20680)
+    - [email liz, suggest a mention in raku weekly news?](#orgd5bd503)
+    - [post note to reddit/r/rakulang](#org1fd21b9)
+  - [topics](#org24b34a5)
+    - [the modgrid/eurorack problem](#org6871cc5)
+    - [classify](#org231c8c8)
+    - [weekly challenge](#org303d536)
+  - [announcements](#org283706a)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgccf92bb)
+    - [November 6th: the next raku study group meeting](#org5334066)
 
 
-<a id="org04b5e79"></a>
+<a id="org11b0579"></a>
 
 # meeting notes October 23, 2022
 
 
-<a id="org55541da"></a>
+<a id="org1a0c39f"></a>
 
 ## the raku study group
 
@@ -36,32 +37,32 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct09.md>
 
 
-<a id="org6672b2b"></a>
+<a id="org1ab2b7a"></a>
 
 ## promotion
 
 
-<a id="org6701095"></a>
+<a id="orgaf20680"></a>
 
 ### get on raku irc
 
 
-<a id="orge4dbda5"></a>
+<a id="orgd5bd503"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="orgc51e2e5"></a>
+<a id="org1fd21b9"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="orgb80997f"></a>
+<a id="org24b34a5"></a>
 
 ## topics
 
 
-<a id="org30a79a9"></a>
+<a id="org6871cc5"></a>
 
 ### the modgrid/eurorack problem
 
@@ -94,41 +95,30 @@
         1.  reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
 
 
-<a id="orge7aac66"></a>
+<a id="org231c8c8"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="org5bc503f"></a>
+<a id="org303d536"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/>
 
-2.  libexif, jpeg metadata
 
-    1.  william michels:
-    
-        1.  the Perl5 executable "ExifTool":
-        
-            1.  <https://unix.stackexchange.com/a/676180/227738>
-            
-            2.  <https://exiftool.org/forum/index.php?topic=9224.msg47655#msg47655>
-            
-            3.  <https://exiftool.org/forum/index.php?topic=6330.msg31354#msg31354>
-            
-            4.  <https://exiftool.org/exiftool_pod.html>
-            
-            5.  <https://exiftool.org/>
-
-
-<a id="org0226854"></a>
+<a id="org283706a"></a>
 
 ## announcements
 
 
-<a id="orgc6161ad"></a>
+<a id="orgccf92bb"></a>
+
+### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
+
+
+<a id="org5334066"></a>
 
 ### November 6th: the next raku study group meeting

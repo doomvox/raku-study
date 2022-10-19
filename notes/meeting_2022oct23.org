@@ -42,15 +42,9 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 *** weekly challenge
 **** https://theweeklychallenge.org/
 
-**** libexif, jpeg metadata
-***** william michels:
-****** the Perl5 executable "ExifTool":
-******* https://unix.stackexchange.com/a/676180/227738
-******* https://exiftool.org/forum/index.php?topic=9224.msg47655#msg47655
-******* https://exiftool.org/forum/index.php?topic=6330.msg31354#msg31354
-******* https://exiftool.org/exiftool_pod.html
-******* https://exiftool.org/
 
 ** announcements 
+*** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
+
 *** November 6th: the next raku study group meeting
 
