@@ -1,24 +1,24 @@
-- [meeting notes October 23, 2022](#org11b0579)
-  - [the raku study group](#org1a0c39f)
-  - [promotion](#org1ab2b7a)
-    - [get on raku irc](#orgaf20680)
-    - [email liz, suggest a mention in raku weekly news?](#orgd5bd503)
-    - [post note to reddit/r/rakulang](#org1fd21b9)
-  - [topics](#org24b34a5)
-    - [the modgrid/eurorack problem](#org6871cc5)
-    - [classify](#org231c8c8)
-    - [weekly challenge](#org303d536)
-  - [announcements](#org283706a)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgccf92bb)
-    - [November 6th: the next raku study group meeting](#org5334066)
+- [meeting notes October 23, 2022](#org4058da7)
+  - [the raku study group](#orgf4b56a5)
+  - [promotion](#orga18660a)
+    - [get on raku irc](#orga4ba590)
+    - [email liz, suggest a mention in raku weekly news?](#org7a5ffd9)
+    - [post note to reddit/r/rakulang](#org1f72b5a)
+  - [topics](#org2db9900)
+    - [the modgrid/eurorack problem](#org916e07d)
+    - [classify](#org66cb47b)
+    - [weekly challenge](#org5807607)
+  - [announcements](#org5cda189)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org050e2d0)
+    - [November 6th: the next raku study group meeting](#org83b0966)
 
 
-<a id="org11b0579"></a>
+<a id="org4058da7"></a>
 
 # meeting notes October 23, 2022
 
 
-<a id="org1a0c39f"></a>
+<a id="orgf4b56a5"></a>
 
 ## the raku study group
 
@@ -37,32 +37,32 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct09.md>
 
 
-<a id="org1ab2b7a"></a>
+<a id="orga18660a"></a>
 
 ## promotion
 
 
-<a id="orgaf20680"></a>
+<a id="orga4ba590"></a>
 
 ### get on raku irc
 
 
-<a id="orgd5bd503"></a>
+<a id="org7a5ffd9"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="org1fd21b9"></a>
+<a id="org1f72b5a"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="org24b34a5"></a>
+<a id="org2db9900"></a>
 
 ## topics
 
 
-<a id="org6871cc5"></a>
+<a id="org916e07d"></a>
 
 ### the modgrid/eurorack problem
 
@@ -95,30 +95,30 @@
         1.  reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
 
 
-<a id="org231c8c8"></a>
+<a id="org66cb47b"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="org303d536"></a>
+<a id="org5807607"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/>
 
 
-<a id="org283706a"></a>
+<a id="org5cda189"></a>
 
 ## announcements
 
 
-<a id="orgccf92bb"></a>
+<a id="org050e2d0"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org5334066"></a>
+<a id="org83b0966"></a>
 
 ### November 6th: the next raku study group meeting
