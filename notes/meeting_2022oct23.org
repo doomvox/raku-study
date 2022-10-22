@@ -36,11 +36,16 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 ***** convert to tsv: flip-split-join-flip
 ****** reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
 
+*** lizmat on smartmatch assymetry 
+**** https://dev.to/lizmat/dont-fear-the-grepper-2-4ki5
+
 *** classify
 **** https://docs.raku.org/routine/classify
 
 *** weekly challenge
 **** https://theweeklychallenge.org/
+
+
 
 
 ** announcements 
