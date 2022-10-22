@@ -102,6 +102,10 @@
 
 1.  <https://dev.to/lizmat/dont-fear-the-grepper-2-4ki5>
 
+### Rob's issue with ,= and nested Hashes
+
+1. https://github.com/rakudo/rakudo/issues/4945
+
 
 <a id="org00d6c79"></a>
 
