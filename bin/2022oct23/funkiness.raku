@@ -9,7 +9,7 @@ sub hm {
 }
 
 
-sub hm {
-  use constant $++;
-}
+# sub hm {
+#   use constant $++;
+# }
 
