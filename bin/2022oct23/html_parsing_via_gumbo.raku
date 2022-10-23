@@ -28,3 +28,9 @@ say $xml.lookfor(:TAG<title>); # Google;
 # OUTPUT:
 # [<title>Google</title>]
 
+# https://www.modulargrid.net/e/modules/evaluationlists
+
+
+my $eurorack_xml = parse-html(
+    LWP::Simple.get("https://www.google.com")
+);
