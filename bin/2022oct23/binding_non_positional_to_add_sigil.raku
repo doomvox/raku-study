@@ -65,8 +65,8 @@ use v6;
 }
 
 {
-    multi sub mutable(@ is rw) { say "at rw!"; True }
-    multi sub mutable(@) { say "AT"; False }
+    multi sub mutable(@p is rw) { say "at_pee rw!"; True }
+    multi sub mutable(@p)       { say "at_pee"; False }
 
 }
 
