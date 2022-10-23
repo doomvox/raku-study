@@ -4,6 +4,9 @@
 
 use v6;
 
+my $dat_loc = $*PROGRAM.parent.add('dat');
+chdir( $dat_loc );
+
 my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022oct23/modgrid/dat/warrior_weaponry.txt";
 for $file.IO.lines -> $line {
     my @words  = $line.split(/\s+/).reverse;
