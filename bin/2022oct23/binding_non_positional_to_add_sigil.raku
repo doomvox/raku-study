@@ -45,7 +45,7 @@ use v6;
     multi sub mutable($ is rw) { True }
     multi sub mutable($) { False }
 
-    say mutable( @monsters_c );
-    say mutable( @monsters_nc );
+    say mutable( @monsters_c );   # False
+    say mutable( @monsters_nc );  # False;
 
 }
