@@ -35,9 +35,6 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 *** classify
 **** https://docs.raku.org/routine/classify
 
-*** lizmat on smartmatch asymmetry 
-**** https://dev.to/lizmat/dont-fear-the-grepper-2-4ki5
-
 *** Rob's issue with ,= and nested Hashes
 **** https://github.com/rakudo/rakudo/issues/4945
 
@@ -52,6 +49,9 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 **** but the *.md files are automatically generated from the *.org source.
 **** Q: Any better policy? Should I be checking in generated files? 
 **** I'm also fine with putting people on the contributor list
+
+*** lizmat on smartmatch asymmetry 
+**** https://dev.to/lizmat/dont-fear-the-grepper-2-4ki5
 
 ** announcements 
 *** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
