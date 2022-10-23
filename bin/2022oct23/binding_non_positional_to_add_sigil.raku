@@ -44,14 +44,14 @@ use v6;
     multi sub mutable($ is rw) { True }
     multi sub mutable($) { False }
 
-    say mutable( @monsters_c );   # False
-    say mutable( @monsters_nc );  # False;
-
     dd( @monsters_c );
     # Array @monsters_c = ["basilisk", "minotaur", "behemoth", "leviathan", "ziz", "chimera", "manticore"]
 
     multi sub mutable(@ is rw) { True }
     multi sub mutable(@) { False }
+
+    say mutable( @monsters_c );   # False
+    say mutable( @monsters_nc );  # False;
 
 
 }
