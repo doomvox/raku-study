@@ -5,8 +5,12 @@
 use v6;
 
 sub hm {
+  constant $++;
+}
+# Could not evaluate arguments
+# ------>   use constant $++⏏;
+
+sub hm {
   use constant $++;
 }
-
-
 
