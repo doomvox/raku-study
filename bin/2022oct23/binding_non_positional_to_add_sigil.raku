@@ -50,9 +50,9 @@ use v6;
     multi sub mutable(@ is rw) { say "at rw!"; True }
     multi sub mutable(@) { say "AT"; False }
 
-    say mutable( @monsters_c );   # False
-    say mutable( @monsters_nc );  # False;
+    say mutable( @monsters_c );   # AT  False
+    say mutable( @monsters_nc );  # AT  False;
 
-    say mutable( "hm" );
+    say mutable( "hm" ); # dollah!  False
 
 }
