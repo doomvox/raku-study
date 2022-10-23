@@ -28,14 +28,3 @@ say $xml.lookfor(:TAG<title>); # Google;
 # OUTPUT:
 # [<title>Google</title>]
 
-
-## Didn't work:
-#    LWP::Simple.get("www.google.com")
-## 400 URL must be absolute <URL:www.google.com>
-
-
-## Tried: 
-#    LWP::Simple.get("https://www.google.com")
-
-## Cannot locate native library 'libssl.so': libssl.so: cannot open shared object file: No such file or directory
-
