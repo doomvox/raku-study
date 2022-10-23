@@ -8,10 +8,6 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct09.md
 
-** promotion
-*** get on raku irc
-*** email liz, suggest a mention in raku weekly news?
-*** post note to reddit/r/rakulang
 
 ** topics
 
