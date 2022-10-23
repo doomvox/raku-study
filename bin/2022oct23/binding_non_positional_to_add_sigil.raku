@@ -12,4 +12,6 @@ my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
 
 my %hash = whun => 1, tew => 2, thuree => 3;
 
+my @weird := %hash;
+
 say @weird;
