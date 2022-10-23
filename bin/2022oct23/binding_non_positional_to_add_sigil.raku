@@ -37,6 +37,7 @@ use v6;
 
 
 {
+    say "---";
     my @monsters_c   = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
     my @monsters_nc := < basilisk minotaur behemoth leviathan ziz chimera manticore >;
 
