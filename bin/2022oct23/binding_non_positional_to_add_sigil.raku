@@ -19,3 +19,4 @@ my @weird :=  (1, 2, 3);
 say @weird;
 say @weird.WHAT;  # (List)
 
+
