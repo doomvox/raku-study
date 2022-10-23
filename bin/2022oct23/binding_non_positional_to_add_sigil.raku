@@ -55,4 +55,6 @@ use v6;
 
     say mutable( "hm" ); # dollah!  False
 
+    say mutable( 1, 2, 3);
+
 }
