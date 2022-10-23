@@ -1,23 +1,23 @@
-- [meeting notes October 23, 2022](#orgfa730fa)
-  - [the raku study group](#orgc68ed8a)
-  - [topics](#org1ebbac9)
-    - [the modgrid/eurorack problem](#org3c029fd)
-    - [classify](#org2944a30)
-    - [lizmat on smartmatch asymmetry](#org67bc982)
-    - [Rob's issue with ,= and nested Hashes](#org73bcc4e)
-    - [weekly challenge](#org44a521d)
-    - [using a pull request to add notes here is an excellent thing to do](#orgc6f612b)
-  - [announcements](#orgeb821f7)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orge59e0ff)
-    - [November 6th: the next raku study group meeting](#org4b6a251)
+- [meeting notes October 23, 2022](#org575ea22)
+  - [the raku study group](#org81aaf29)
+  - [topics](#org0e97d1d)
+    - [the modgrid/eurorack problem](#orged07f03)
+    - [classify](#orgdea2872)
+    - [lizmat on smartmatch asymmetry](#orgccd4bfe)
+    - [Rob's issue with ,= and nested Hashes](#org780f46c)
+    - [weekly challenge](#org823573e)
+    - [using a pull request to add notes here is an excellent thing to do](#orga251e47)
+  - [announcements](#org118a14f)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgb194f79)
+    - [November 6th: the next raku study group meeting](#org75cf7bd)
 
 
-<a id="orgfa730fa"></a>
+<a id="org575ea22"></a>
 
 # meeting notes October 23, 2022
 
 
-<a id="orgc68ed8a"></a>
+<a id="org81aaf29"></a>
 
 ## the raku study group
 
@@ -36,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct09.md>
 
 
-<a id="org1ebbac9"></a>
+<a id="org0e97d1d"></a>
 
 ## topics
 
 
-<a id="org3c029fd"></a>
+<a id="orged07f03"></a>
 
 ### the modgrid/eurorack problem
 
@@ -74,21 +74,21 @@
         1.  reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
 
 
-<a id="org2944a30"></a>
+<a id="orgdea2872"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="org67bc982"></a>
+<a id="orgccd4bfe"></a>
 
 ### lizmat on smartmatch asymmetry
 
 1.  <https://dev.to/lizmat/dont-fear-the-grepper-2-4ki5>
 
 
-<a id="org73bcc4e"></a>
+<a id="org780f46c"></a>
 
 ### Rob's issue with ,= and nested Hashes
 
@@ -97,7 +97,7 @@
 2.  detecting containers: <https://stackoverflow.com/questions/68734064/is-there-a-way-to-detect-whether-something-is-immutable>
 
 
-<a id="org44a521d"></a>
+<a id="org823573e"></a>
 
 ### weekly challenge
 
@@ -108,7 +108,7 @@
     1.  magic triplets (really: find numbers from a list that form triangles)
 
 
-<a id="orgc6f612b"></a>
+<a id="orga251e47"></a>
 
 ### using a pull request to add notes here is an excellent thing to do
 
@@ -119,16 +119,16 @@
 3.  I'm also fine with putting people on the contributor list
 
 
-<a id="orgeb821f7"></a>
+<a id="org118a14f"></a>
 
 ## announcements
 
 
-<a id="orge59e0ff"></a>
+<a id="orgb194f79"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org4b6a251"></a>
+<a id="org75cf7bd"></a>
 
 ### November 6th: the next raku study group meeting
