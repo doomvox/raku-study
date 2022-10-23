@@ -8,7 +8,7 @@ use v6;
 ##   /home/doom/End/Cave/RakuStudy/Notes/Topics/topic-gumbo_html_parser_with_p6_lib
 
 # gumbo is a c-library for html5 parsing.
-# installation on Debian:
+# installation on Debian linux:
 #   sudo apt-get install libgumbo1 libhtml-gumbo-perl
 #   zef install Gumbo
 
