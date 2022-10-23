@@ -32,5 +32,5 @@ say $xml.lookfor(:TAG<title>); # Google;
 
 
 my $eurorack_xml = parse-html(
-    LWP::Simple.get("https://www.google.com")
+    LWP::Simple.get("https://www.modulargrid.net/e/modules/evaluationlists")
 );
