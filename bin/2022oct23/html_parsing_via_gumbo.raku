@@ -12,6 +12,8 @@ use v6;
 #   sudo apt-get install libgumbo1 libhtml-gumbo-perl
 #   zef install Gumbo
 
+## Q: needed?
+#   zef install LWP::Simple
 
 ## https://github.com/Skarsnik/perl6-gumbo
 
