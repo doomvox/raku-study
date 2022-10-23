@@ -70,7 +70,6 @@ use v6;
     ## Can only use 'is rw' on a scalar ('$' sigil) parameter, not '@p'
 
     multi sub mutable(@p)       { say "at_pee"; False }
-
 }
 
 #
