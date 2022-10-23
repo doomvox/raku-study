@@ -25,6 +25,9 @@ my $xml = parse-html(
 );
 say $xml.lookfor(:TAG<title>); # Google;
 
+# OUTPUT:
+# [<title>Google</title>]
+
 
 ## Didn't work:
 #    LWP::Simple.get("www.google.com")
