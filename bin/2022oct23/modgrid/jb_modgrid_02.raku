@@ -4,7 +4,7 @@
 
 use v6;
 
-my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022oct09/dat/warrior_weaponry.txt";
+my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022oct23/modgrid/dat/warrior_weaponry.txt";
 for $file.IO.lines -> $line {
     my @words  = $line.split(/\s+/).reverse;
     my $data   = @words[ 0 .. 4   ].reverse.join("\t");
