@@ -64,6 +64,14 @@ use v6;
 
 }
 
+{
+    multi sub mutable(@ is rw) { say "at rw!"; True }
+    multi sub mutable(@) { say "AT"; False }
+
+}
+
+#
+
 # {
 #     sub dostuff( 
 #     say 
