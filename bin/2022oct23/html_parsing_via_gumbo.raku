@@ -35,8 +35,10 @@ my $eurorack_xml = parse-html(
     LWP::Simple.get("https://www.modulargrid.net/e/modules/evaluationlists")
 );
 
-say $eurorack_xml.WHAT;
+say $eurorack_xml.WHAT;  # (Document)
 
 # say $eurorack_xml;
 
 ## bg makes the point it's better not to hit the web resource each time while developing
+
+## program name: via dom.raku  sept 24th
