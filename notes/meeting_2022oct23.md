@@ -1,24 +1,24 @@
-- [meeting notes October 23, 2022](#org01c0da5)
-  - [the raku study group](#org5de397c)
-  - [topics](#org25c8601)
-    - [the modgrid/eurorack problem](#org001e841)
-    - [classify](#org78e806e)
-    - [Rob's issue with ,= and nested Hashes](#org577278a)
-    - [weekly challenge](#org7839cf8)
-    - [using a pull request to add notes here is an excellent thing to do](#org3e9e31e)
-    - [lizmat on smartmatch asymmetry](#org9bba47c)
-    - [](#orgfed461f)
-  - [announcements](#org8e3f383)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgafb9142)
-    - [November 6th: the next raku study group meeting](#orgc147eaa)
+- [meeting notes October 23, 2022](#orgb9c399e)
+  - [the raku study group](#orgf634fb3)
+  - [topics](#orgea357c3)
+    - [the modgrid/eurorack problem](#orgdd802a3)
+    - [classify](#org90b9a62)
+    - [Rob's issue with ,= and nested Hashes](#orgf3e97d5)
+    - [weekly challenge](#org5df5310)
+    - [using a pull request to add notes here is an excellent thing to do](#org4591d61)
+    - [lizmat on smartmatch asymmetry](#orgc3993ba)
+    - [](#org64f756b)
+  - [announcements](#org535a86b)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org50f9ab0)
+    - [November 6th: the next raku study group meeting](#orga49af3b)
 
 
-<a id="org01c0da5"></a>
+<a id="orgb9c399e"></a>
 
 # meeting notes October 23, 2022
 
 
-<a id="org5de397c"></a>
+<a id="orgf634fb3"></a>
 
 ## the raku study group
 
@@ -37,12 +37,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct09.md>
 
 
-<a id="org25c8601"></a>
+<a id="orgea357c3"></a>
 
 ## topics
 
 
-<a id="org001e841"></a>
+<a id="orgdd802a3"></a>
 
 ### the modgrid/eurorack problem
 
@@ -75,14 +75,14 @@
         1.  reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
 
 
-<a id="org78e806e"></a>
+<a id="org90b9a62"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="org577278a"></a>
+<a id="orgf3e97d5"></a>
 
 ### Rob's issue with ,= and nested Hashes
 
@@ -91,7 +91,7 @@
 2.  detecting containers: <https://stackoverflow.com/questions/68734064/is-there-a-way-to-detect-whether-something-is-immutable>
 
 
-<a id="org7839cf8"></a>
+<a id="org5df5310"></a>
 
 ### weekly challenge
 
@@ -102,7 +102,7 @@
     1.  magic triplets (really: find numbers from a list that form triangles)
 
 
-<a id="org3e9e31e"></a>
+<a id="org4591d61"></a>
 
 ### using a pull request to add notes here is an excellent thing to do
 
@@ -113,14 +113,14 @@
 3.  I'm also fine with putting people on the contributor list
 
 
-<a id="org9bba47c"></a>
+<a id="orgc3993ba"></a>
 
 ### lizmat on smartmatch asymmetry
 
 1.  <https://dev.to/lizmat/dont-fear-the-grepper-2-4ki5>
 
 
-<a id="orgfed461f"></a>
+<a id="org64f756b"></a>
 
 ### 
 
@@ -132,21 +132,19 @@
 
     \#+BEGIN<sub>SRC</sub> sh raku -MXML -e 'my $xml = open-xml($\*ARGFILES.Str); \\ .say for $xml.getElementsByTagName("entry").grep(/ TSPAN6 | TNMD /).pairs;' file.xml
     
-    \#OR
-    
     raku -MXML -e 'my @xml = open-xml($\*ARGFILES.Str).getElementsByTagName("entry"); \\ my @names = <TSPAN6 TNMD>; .say for @xml.grep(*@names*).pairs;' file.xml \#+END<sub>SRC</sub> sh
 
 
-<a id="org8e3f383"></a>
+<a id="org535a86b"></a>
 
 ## announcements
 
 
-<a id="orgafb9142"></a>
+<a id="org50f9ab0"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="orgc147eaa"></a>
+<a id="orga49af3b"></a>
 
 ### November 6th: the next raku study group meeting

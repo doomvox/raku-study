@@ -63,7 +63,7 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 raku -MXML -e 'my $xml = open-xml($*ARGFILES.Str);  \
                   .say for $xml.getElementsByTagName("entry").grep(/ TSPAN6 | TNMD /).pairs;'  file.xml
 
-#OR
+# OR
 
 raku -MXML -e 'my @xml = open-xml($*ARGFILES.Str).getElementsByTagName("entry");  \
                   my @names = <TSPAN6 TNMD>; .say for @xml.grep(/@names/).pairs;' file.xml
