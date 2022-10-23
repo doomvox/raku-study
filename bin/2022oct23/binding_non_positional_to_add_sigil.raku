@@ -16,3 +16,5 @@ say @weird;
 
 my @weird :=  (1, 2, 3).List;
 
+say @weird;
+say @weird.WHAT;
