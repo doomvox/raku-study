@@ -12,7 +12,6 @@ my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
 my %hash = whun => 1, tew => 2, thuree => 3;
 # my @weird := %hash;
 # Type check failed in binding; expected Positional but got Hash ({:tew(2), :thuree(3)...)
-say @weird;
 
 my @weird :=  (1, 2, 3).List;
 
