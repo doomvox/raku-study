@@ -12,7 +12,7 @@ use v6;
 #   sudo apt-get install libgumbo1 libhtml-gumbo-perl
 #   zef install Gumbo
 
-## Q: needed?
+## Didn't need to do this (part of rakudo-star?):
 #   zef install LWP::Simple
 
 ## https://github.com/Skarsnik/perl6-gumbo
@@ -24,3 +24,14 @@ my $xml = parse-html(
     LWP::Simple.get("https://www.google.com")
 );
 say $xml.lookfor(:TAG<title>); # Google;
+
+
+## Didn't work:
+#    LWP::Simple.get("www.google.com")
+## 400 URL must be absolute <URL:www.google.com>
+
+
+## Tried: 
+#    LWP::Simple.get("https://www.google.com")
+
+## Cannot locate native library 'libssl.so': libssl.so: cannot open shared object file: No such file or directory
