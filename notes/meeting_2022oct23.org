@@ -57,7 +57,7 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 *** grepping records in an xml document 
 **** records ("blocks") are actually "entry"s
 #+BEGIN_SRC sgml
- <entry ...> ... </entry>
+  <entry ...> ... </entry>
 #+END_SRC sh
 
 **** https://unix.stackexchange.com/questions/721770/identify-strings-between-patterns-and-print-entire-region-between-pattern-if-str/721818#721818
