@@ -66,6 +66,9 @@ use v6;
 
 {
     multi sub mutable(@p is rw) { say "at_pee rw!"; True }
+    ## For parameter '@p', '@' sigil containers don't need 'is rw' to be writable
+    ## Can only use 'is rw' on a scalar ('$' sigil) parameter, not '@p'
+
     multi sub mutable(@p)       { say "at_pee"; False }
 
 }
