@@ -8,6 +8,12 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct23.md
 
+** promotion
+*** get on raku irc
+*** email liz, suggest a mention in raku weekly news?
+*** post note to reddit/r/rakulang
+
+
 ** announcements 
 *** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
