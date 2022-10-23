@@ -6,6 +6,7 @@ use v6;
 
 sub hm {
   constant $++;
+  # Missing initializer on constant declaration
 }
 
 
