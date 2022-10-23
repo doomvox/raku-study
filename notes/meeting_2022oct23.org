@@ -58,8 +58,10 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 **** https://unix.stackexchange.com/questions/721770/identify-strings-between-patterns-and-print-entire-region-between-pattern-if-str/721818#721818
 **** https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ms762271(v=vs.85)
 
-**** 
+**** William Michels solution
+
 #+BEGIN_SRC sh
+
 raku -MXML -e 'my $xml = open-xml($*ARGFILES.Str);  \
                   .say for $xml.getElementsByTagName("entry").grep(/ TSPAN6 | TNMD /).pairs;'  file.xml
 
