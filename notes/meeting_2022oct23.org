@@ -38,6 +38,8 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 *** Rob's issue with ,= and nested Hashes
 **** https://github.com/rakudo/rakudo/issues/4945
 
+**** detecting containers: https://stackoverflow.com/questions/68734064/is-there-a-way-to-detect-whether-something-is-immutable
+
 *** classify
 **** https://docs.raku.org/routine/classify
 
