@@ -15,7 +15,7 @@ use v6;
 
 ## https://github.com/Skarsnik/perl6-gumbo
 
-use Gumbo
+use Gumbo;
 use LWP::Simple;
 
 my $xml = parse-html(
