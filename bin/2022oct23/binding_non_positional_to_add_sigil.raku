@@ -47,4 +47,7 @@ use v6;
     say mutable( @monsters_c );   # False
     say mutable( @monsters_nc );  # False;
 
+
+    dd( @monsters_c );
+
 }
