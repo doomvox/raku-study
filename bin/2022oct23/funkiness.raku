@@ -10,6 +10,9 @@ sub hm {
 }
 
 
+constant  1, * * $++ .. 3;
+
+
 # sub hm {
 #   use constant $++;
 # }
