@@ -21,6 +21,6 @@ use Gumbo;
 use LWP::Simple;
 
 my $xml = parse-html(
-    LWP::Simple.get("www.google.com")
+    LWP::Simple.get("https://www.google.com")
 );
 say $xml.lookfor(:TAG<title>); # Google;
