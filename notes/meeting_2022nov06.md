@@ -1,18 +1,18 @@
-- [announcements](#orgf9e39f4)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgbba5475)
-    - [November 6th: the next raku study group meeting](#org7906bcf)
+- [announcements](#org9d0dd16)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgf067eb6)
+    - [November 20th: the next raku study group meeting](#orga63dfb9)
 
 
-<a id="orgf9e39f4"></a>
+<a id="org9d0dd16"></a>
 
 # announcements
 
 
-<a id="orgbba5475"></a>
+<a id="orgf067eb6"></a>
 
 ## lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org7906bcf"></a>
+<a id="orga63dfb9"></a>
 
-## November 6th: the next raku study group meeting
+## November 20th: the next raku study group meeting
