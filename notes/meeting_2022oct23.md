@@ -1,25 +1,26 @@
-- [meeting notes October 23, 2022](#org1210b94)
-  - [the raku study group](#org4ff2481)
-  - [promotion](#org4efafcd)
-    - [get on raku irc](#org377c1f7)
-    - [email liz, suggest a mention in raku weekly news?](#orgb6d4873)
-    - [post note to reddit/r/rakulang](#org2a71835)
-  - [topics](#org44f4ff6)
-    - [the modgrid/eurorack problem](#org106ec2e)
-    - [lizmat on smartmatch asymmetry](#orgc8cdaa6)
-    - [classify](#orgbf144d0)
-    - [weekly challenge](#org5c5dc77)
-  - [announcements](#org9225068)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org5787ac1)
-    - [November 6th: the next raku study group meeting](#org1091d5d)
+- [meeting notes October 23, 2022](#orgd03abfc)
+  - [the raku study group](#org72fd561)
+  - [promotion](#org6da17d4)
+    - [get on raku irc](#org80580b9)
+    - [email liz, suggest a mention in raku weekly news?](#orgb87144c)
+    - [post note to reddit/r/rakulang](#org8e9476f)
+  - [topics](#org1bfca45)
+    - [the modgrid/eurorack problem](#orgdaa1665)
+    - [lizmat on smartmatch asymmetry](#org6cdc289)
+    - [Rob Ransbottom issue](#org7c97bf9)
+    - [classify](#org466750b)
+    - [weekly challenge](#org1a161f4)
+  - [announcements](#org979d335)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org1fb0058)
+    - [November 6th: the next raku study group meeting](#orgda0bea8)
 
 
-<a id="org1210b94"></a>
+<a id="orgd03abfc"></a>
 
 # meeting notes October 23, 2022
 
 
-<a id="org4ff2481"></a>
+<a id="org72fd561"></a>
 
 ## the raku study group
 
@@ -38,32 +39,32 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct09.md>
 
 
-<a id="org4efafcd"></a>
+<a id="org6da17d4"></a>
 
 ## promotion
 
 
-<a id="org377c1f7"></a>
+<a id="org80580b9"></a>
 
 ### get on raku irc
 
 
-<a id="orgb6d4873"></a>
+<a id="orgb87144c"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="org2a71835"></a>
+<a id="org8e9476f"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="org44f4ff6"></a>
+<a id="org1bfca45"></a>
 
 ## topics
 
 
-<a id="org106ec2e"></a>
+<a id="orgdaa1665"></a>
 
 ### the modgrid/eurorack problem
 
@@ -96,37 +97,50 @@
         1.  reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
 
 
-<a id="orgc8cdaa6"></a>
+<a id="org6cdc289"></a>
 
 ### lizmat on smartmatch asymmetry
 
 1.  <https://dev.to/lizmat/dont-fear-the-grepper-2-4ki5>
 
 
-<a id="orgbf144d0"></a>
+<a id="org7c97bf9"></a>
+
+### Rob Ransbottom issue
+
+1.  Marton Polgar has commentary
+
+    1.  <https://github.com/doomvox/raku-study/pull/1>
+    
+        1.  Commit Summary 24916ee Adding note of an issue from Rob that I checked out
+        
+            <https://github.com/doomvox/raku-study/pull/1.patch> <https://github.com/doomvox/raku-study/pull/1.diff>
+
+
+<a id="org466750b"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="org5c5dc77"></a>
+<a id="org1a161f4"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/>
 
 
-<a id="org9225068"></a>
+<a id="org979d335"></a>
 
 ## announcements
 
 
-<a id="org5787ac1"></a>
+<a id="org1fb0058"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org1091d5d"></a>
+<a id="orgda0bea8"></a>
 
 ### November 6th: the next raku study group meeting
