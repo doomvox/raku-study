@@ -63,3 +63,10 @@ use v6;
 #    say mutable: 1, 2, 3;
 
 }
+
+# {
+#     sub dostuff( 
+#     say 
+#     my $sig2 = :($a, *@b); # at least one argument, @b slurps up any beyond that
+
+# }
