@@ -36,3 +36,5 @@ my $eurorack_xml = parse-html(
 );
 
 say $eurorack_xml;
+
+## bg makes the point it's better not to hit the web resource each time while developing
