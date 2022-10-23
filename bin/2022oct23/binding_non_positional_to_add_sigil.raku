@@ -8,3 +8,4 @@ my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
 
 my @weird := 666;
 
+say @weird;
