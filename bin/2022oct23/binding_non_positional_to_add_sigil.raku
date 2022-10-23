@@ -47,8 +47,8 @@ use v6;
     dd( @monsters_c );
     # Array @monsters_c = ["basilisk", "minotaur", "behemoth", "leviathan", "ziz", "chimera", "manticore"]
 
-    multi sub mutable(@ is rw) { True }
-    multi sub mutable(@) { False }
+    multi sub mutable(@ is rw) { say "at rw!"; True }
+    multi sub mutable(@) { say "AT"; False }
 
     say mutable( @monsters_c );   # False
     say mutable( @monsters_nc );  # False;
