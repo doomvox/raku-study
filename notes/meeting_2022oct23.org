@@ -45,6 +45,7 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 
 *** weekly challenge
 **** https://theweeklychallenge.org/
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-187/
 
 *** using a pull request to add notes here is an excellent thing to do
 **** but the *.md files are automatically generated from the *.org source.
