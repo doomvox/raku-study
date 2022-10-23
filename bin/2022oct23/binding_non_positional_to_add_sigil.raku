@@ -13,7 +13,8 @@ my %hash = whun => 1, tew => 2, thuree => 3;
 # my @weird := %hash;
 # Type check failed in binding; expected Positional but got Hash ({:tew(2), :thuree(3)...)
 
-my @weird :=  (1, 2, 3).List;
+# my @weird :=  (1, 2, 3).List;
+my @weird :=  (1, 2, 3);
 
 say @weird;
-say @weird.WHAT;
+say @weird.WHAT;  # (List)
