@@ -13,3 +13,10 @@ use v6;
 #   zef install Gumbo
 
 
+use Gumbo
+use LWP::Simple;
+
+my $xml = parse-html(
+    LWP::Simple.get("www.google.com")
+);
+say $xml.lookfor(:TAG<title>); # Google;
