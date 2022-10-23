@@ -1,26 +1,27 @@
-- [meeting notes October 23, 2022](#orgf4fb9a4)
-  - [the raku study group](#orge648586)
-  - [promotion](#orgc1a22c8)
-    - [get on raku irc](#orgacdd2dd)
-    - [email liz, suggest a mention in raku weekly news?](#org042216b)
-    - [post note to reddit/r/rakulang](#org3ff8f25)
-  - [topics](#org869faa3)
-    - [the modgrid/eurorack problem](#orgcdd60d3)
-    - [lizmat on smartmatch asymmetry](#orgbab34fa)
-    - [Rob's issue with ,= and nested Hashes](#orgfd9b871)
-    - [classify](#org7420b55)
-    - [weekly challenge](#org7af6e93)
-  - [announcements](#org0cd53f3)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgacb44bf)
-    - [November 6th: the next raku study group meeting](#org1e1c58c)
+- [meeting notes October 23, 2022](#orgacbb0b6)
+  - [the raku study group](#org8a8985c)
+  - [promotion](#orgc9109d0)
+    - [get on raku irc](#orgf4787e2)
+    - [email liz, suggest a mention in raku weekly news?](#org3ac4b52)
+    - [post note to reddit/r/rakulang](#org4b201a0)
+  - [topics](#org12fbf5e)
+    - [the modgrid/eurorack problem](#org7c44527)
+    - [lizmat on smartmatch asymmetry](#org426e85f)
+    - [Rob's issue with ,= and nested Hashes](#org0434417)
+    - [classify](#org7cd3f2b)
+    - [weekly challenge](#orga1cb8cd)
+    - [using a pull request to add notes here is an excellent thing to do](#org70170a7)
+  - [announcements](#orgbd148ca)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org1ba8adf)
+    - [November 6th: the next raku study group meeting](#org7738d70)
 
 
-<a id="orgf4fb9a4"></a>
+<a id="orgacbb0b6"></a>
 
 # meeting notes October 23, 2022
 
 
-<a id="orge648586"></a>
+<a id="org8a8985c"></a>
 
 ## the raku study group
 
@@ -39,32 +40,32 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct09.md>
 
 
-<a id="orgc1a22c8"></a>
+<a id="orgc9109d0"></a>
 
 ## promotion
 
 
-<a id="orgacdd2dd"></a>
+<a id="orgf4787e2"></a>
 
 ### get on raku irc
 
 
-<a id="org042216b"></a>
+<a id="org3ac4b52"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="org3ff8f25"></a>
+<a id="org4b201a0"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="org869faa3"></a>
+<a id="org12fbf5e"></a>
 
 ## topics
 
 
-<a id="orgcdd60d3"></a>
+<a id="org7c44527"></a>
 
 ### the modgrid/eurorack problem
 
@@ -97,44 +98,55 @@
         1.  reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
 
 
-<a id="orgbab34fa"></a>
+<a id="org426e85f"></a>
 
 ### lizmat on smartmatch asymmetry
 
 1.  <https://dev.to/lizmat/dont-fear-the-grepper-2-4ki5>
 
 
-<a id="orgfd9b871"></a>
+<a id="org0434417"></a>
 
 ### Rob's issue with ,= and nested Hashes
 
 1.  <https://github.com/rakudo/rakudo/issues/4945>
 
 
-<a id="org7420b55"></a>
+<a id="org7cd3f2b"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="org7af6e93"></a>
+<a id="orga1cb8cd"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/>
 
 
-<a id="org0cd53f3"></a>
+<a id="org70170a7"></a>
+
+### using a pull request to add notes here is an excellent thing to do
+
+1.  but the \*.md files are automatically generated from the \*.org source.
+
+2.  Q: Any better policy? Should I be checking in generated files?
+
+3.  I'm also fine with putting people on the contributor list
+
+
+<a id="orgbd148ca"></a>
 
 ## announcements
 
 
-<a id="orgacb44bf"></a>
+<a id="org1ba8adf"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org1e1c58c"></a>
+<a id="org7738d70"></a>
 
 ### November 6th: the next raku study group meeting
