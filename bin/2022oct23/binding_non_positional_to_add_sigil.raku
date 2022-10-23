@@ -41,8 +41,8 @@ use v6;
     my @monsters_c   = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
     my @monsters_nc := < basilisk minotaur behemoth leviathan ziz chimera manticore >;
 
-    multi sub mutable($ is rw) { True }
-    multi sub mutable($) { False }
+    multi sub mutable($ is rw) { say "dollah rw"; True }
+    multi sub mutable($) { say "dollah!"; False }
 
     dd( @monsters_c );
     # Array @monsters_c = ["basilisk", "minotaur", "behemoth", "leviathan", "ziz", "chimera", "manticore"]
