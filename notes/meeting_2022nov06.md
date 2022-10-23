@@ -1,16 +1,16 @@
-- [meeting notes November 6, 2022](#orgf6ce074)
-  - [the raku study group](#orgd0329c4)
-  - [announcements](#orgdbcf492)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org55ad74d)
-    - [November 20th: the next raku study group meeting](#org6928c50)
+- [meeting notes November 6, 2022](#org615ade2)
+  - [the raku study group](#org764aac4)
+  - [announcements](#orgfdb9be1)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org1365970)
+    - [November 20th: the next raku study group meeting](#org8609e7f)
 
 
-<a id="orgf6ce074"></a>
+<a id="org615ade2"></a>
 
 # meeting notes November 6, 2022
 
 
-<a id="orgd0329c4"></a>
+<a id="org764aac4"></a>
 
 ## the raku study group
 
@@ -18,27 +18,27 @@
 
     1.  these notes
     
-        1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct23.md>
+        1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov06.md>
     
     2.  code examples
     
-        1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022oct23>
+        1.  <https://github.com/doomvox/raku-study/tree/main/bin/2022nov06>
     
     3.  last meeting notes
     
-        1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct09.md>
+        1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct23.md>
 
 
-<a id="orgdbcf492"></a>
+<a id="orgfdb9be1"></a>
 
 ## announcements
 
 
-<a id="org55ad74d"></a>
+<a id="org1365970"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org6928c50"></a>
+<a id="org8609e7f"></a>
 
 ### November 20th: the next raku study group meeting
