@@ -1,24 +1,24 @@
-- [meeting notes October 23, 2022](#orgbb818b0)
-  - [the raku study group](#org2a383cd)
-  - [topics](#org748b7b4)
-    - [the modgrid/eurorack problem](#org86ff0e2)
-    - [classify](#orge607395)
-    - [Rob's issue with ,= and nested Hashes](#orgdddec88)
-    - [weekly challenge](#org5019409)
-    - [using a pull request to add notes here is an excellent thing to do](#org50e281e)
-    - [lizmat on smartmatch asymmetry](#orga4b300d)
-    - [](#org3ce1328)
-  - [announcements](#org5ad3452)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgebbcd22)
-    - [November 6th: the next raku study group meeting](#orgd18b759)
+- [meeting notes October 23, 2022](#orga597e61)
+  - [the raku study group](#orgbe2c40e)
+  - [topics](#org051138e)
+    - [the modgrid/eurorack problem](#org640ef39)
+    - [classify](#org735a26d)
+    - [Rob's issue with ,= and nested Hashes](#org36b0399)
+    - [weekly challenge](#orge8ff155)
+    - [using a pull request to add notes here is an excellent thing to do](#org709844a)
+    - [lizmat on smartmatch asymmetry](#orgc536ed5)
+    - [grepping records in an xml document](#org3e48202)
+  - [announcements](#org66c670c)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org22044a2)
+    - [November 6th: the next raku study group meeting](#org08a65fc)
 
 
-<a id="orgbb818b0"></a>
+<a id="orga597e61"></a>
 
 # meeting notes October 23, 2022
 
 
-<a id="org2a383cd"></a>
+<a id="orgbe2c40e"></a>
 
 ## the raku study group
 
@@ -37,12 +37,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct09.md>
 
 
-<a id="org748b7b4"></a>
+<a id="org051138e"></a>
 
 ## topics
 
 
-<a id="org86ff0e2"></a>
+<a id="org640ef39"></a>
 
 ### the modgrid/eurorack problem
 
@@ -75,14 +75,14 @@
         1.  reverse the lines, split on whitespace (up to a limit), join on tabs, reverse again
 
 
-<a id="orge607395"></a>
+<a id="org735a26d"></a>
 
 ### classify
 
 1.  <https://docs.raku.org/routine/classify>
 
 
-<a id="orgdddec88"></a>
+<a id="org36b0399"></a>
 
 ### Rob's issue with ,= and nested Hashes
 
@@ -91,7 +91,7 @@
 2.  detecting containers: <https://stackoverflow.com/questions/68734064/is-there-a-way-to-detect-whether-something-is-immutable>
 
 
-<a id="org5019409"></a>
+<a id="orge8ff155"></a>
 
 ### weekly challenge
 
@@ -102,7 +102,7 @@
     1.  magic triplets (really: find numbers from a list that form triangles)
 
 
-<a id="org50e281e"></a>
+<a id="org709844a"></a>
 
 ### using a pull request to add notes here is an excellent thing to do
 
@@ -113,22 +113,26 @@
 3.  I'm also fine with putting people on the contributor list
 
 
-<a id="orga4b300d"></a>
+<a id="orgc536ed5"></a>
 
 ### lizmat on smartmatch asymmetry
 
 1.  <https://dev.to/lizmat/dont-fear-the-grepper-2-4ki5>
 
 
-<a id="org3ce1328"></a>
+<a id="org3e48202"></a>
 
-### 
+### grepping records in an xml document
 
-1.  <https://unix.stackexchange.com/questions/721770/identify-strings-between-patterns-and-print-entire-region-between-pattern-if-str/721818#721818>
+1.  records ("blocks") are actually "entry"s
 
-2.  <https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ms762271>(v=vs.85)
+    \#+BEGIN<sub>SRC</sub> sgml <entry &#x2026;> &#x2026; </entry> \#+END<sub>SRC</sub> sh
 
-3.  William Michels solution
+2.  <https://unix.stackexchange.com/questions/721770/identify-strings-between-patterns-and-print-entire-region-between-pattern-if-str/721818#721818>
+
+3.  <https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ms762271>(v=vs.85)
+
+4.  William Michels solution
 
     \#+BEGIN<sub>SRC</sub> sh
     
@@ -137,16 +141,16 @@
     raku -MXML -e 'my @xml = open-xml($\*ARGFILES.Str).getElementsByTagName("entry"); \\ my @names = <TSPAN6 TNMD>; .say for @xml.grep(*@names*).pairs;' file.xml \#+END<sub>SRC</sub> sh
 
 
-<a id="org5ad3452"></a>
+<a id="org66c670c"></a>
 
 ## announcements
 
 
-<a id="orgebbcd22"></a>
+<a id="org22044a2"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="orgd18b759"></a>
+<a id="org08a65fc"></a>
 
 ### November 6th: the next raku study group meeting
