@@ -39,18 +39,6 @@ perl6 -e 'my @a = lines.antipairs; my @b = @a.sort(*.keys.words[0..*-3]).rotor(2
 *** lizmat on smartmatch asymmetry 
 **** https://dev.to/lizmat/dont-fear-the-grepper-2-4ki5
 
-
-*** Rob Ransbottom issue
-**** Marton Polgar has commentary
-
-*****   https://github.com/doomvox/raku-study/pull/1
-****** Commit Summary 24916ee Adding note of an issue from Rob that I checked out
-
-    https://github.com/doomvox/raku-study/pull/1.patch
-    https://github.com/doomvox/raku-study/pull/1.diff
-
-
-
 *** classify
 **** https://docs.raku.org/routine/classify
 
