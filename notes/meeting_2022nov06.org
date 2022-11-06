@@ -31,5 +31,5 @@
 
 *** November 20th: the next raku study group meeting
 
-*** by the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?
+*** By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?
 
