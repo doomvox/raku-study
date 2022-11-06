@@ -1,21 +1,22 @@
-- [meeting notes November 6, 2022](#org201add0)
-  - [the raku study group](#org94005d4)
-  - [promotion](#org8a35383)
-    - [get on raku irc](#org3992ff1)
-    - [email liz, suggest a mention in raku weekly news?](#orgcc90705)
-    - [post note to reddit/r/rakulang](#orgacde980)
-  - [topics](#orgf13cbdf)
-  - [announcements](#orgfcef075)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgcc46b55)
-    - [November 20th: the next raku study group meeting](#org2188b3f)
+- [meeting notes November 6, 2022](#org6574669)
+  - [the raku study group](#orgdeaaafb)
+  - [promotion](#orga6649cc)
+    - [get on raku irc](#org8bb406d)
+    - [email liz, suggest a mention in raku weekly news?](#org756b34b)
+    - [post note to reddit/r/rakulang](#org4b5fffa)
+  - [topics](#org477ea7d)
+    - [revisiting the issue:](#org3a63218)
+  - [announcements](#org3ce2237)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgcf434b3)
+    - [November 20th: the next raku study group meeting](#org7d6e54a)
 
 
-<a id="org201add0"></a>
+<a id="org6574669"></a>
 
 # meeting notes November 6, 2022
 
 
-<a id="org94005d4"></a>
+<a id="orgdeaaafb"></a>
 
 ## the raku study group
 
@@ -34,41 +35,50 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct23.md>
 
 
-<a id="org8a35383"></a>
+<a id="orga6649cc"></a>
 
 ## promotion
 
 
-<a id="org3992ff1"></a>
+<a id="org8bb406d"></a>
 
 ### get on raku irc
 
 
-<a id="orgcc90705"></a>
+<a id="org756b34b"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="orgacde980"></a>
+<a id="org4b5fffa"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="orgf13cbdf"></a>
+<a id="org477ea7d"></a>
 
 ## topics
 
 
-<a id="orgfcef075"></a>
+<a id="org3a63218"></a>
+
+### revisiting the issue:
+
+1.  <https://github.com/rakudo/rakudo/issues/4945>
+
+2.  Rob likes Marton's explanation, but suggests an error message would be good
+
+
+<a id="org3ce2237"></a>
 
 ## announcements
 
 
-<a id="orgcc46b55"></a>
+<a id="orgcf434b3"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org2188b3f"></a>
+<a id="org7d6e54a"></a>
 
 ### November 20th: the next raku study group meeting
