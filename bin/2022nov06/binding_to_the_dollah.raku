@@ -9,8 +9,7 @@ for 0..10 {
 
 
     say "loop index: ", $_;
-    $++;
-    say "the dollah: ", $;
+    say "the dollah: ", $++;
 
     $r := $;
 
