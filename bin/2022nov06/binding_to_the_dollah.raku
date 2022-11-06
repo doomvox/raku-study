@@ -18,7 +18,7 @@ sub munge_things ( $r is rw ) {
 }
 
 
-## Maron adds the $ vars aren't thread safe.
+## Marton adds the $ vars aren't thread safe.
 ## Q: are any state vars thread safe?
 ##    docs say they're shared through all threads, 
 ##    not thread safe, "results can be unexpected"
