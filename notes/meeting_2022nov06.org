@@ -24,6 +24,9 @@
 
 *** marton polgar has buggy things to talk about
 
+
+*** weekly challenge
+
 ** announcements 
 *** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
