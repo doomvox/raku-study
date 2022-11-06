@@ -19,3 +19,8 @@ sub munge_things ( $r is rw ) {
 
 
 ## Maron adds the $ vars aren't thread safe.
+
+
+## Bruce mentions this originally for:
+##   my ($, $x, $, $y) = $foo.list;
+##   sub replacement_for_bar($, $x, $, $y) {...}
