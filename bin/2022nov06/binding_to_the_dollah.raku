@@ -7,15 +7,12 @@ use v6;
 my $r;
 for 0..10 {
     say "loop index: ", $_;
-    say "the dollah: ", $++;
+    say "the dollah: ", ($r := $)++;
 
-    $r := $;
-
-    munge_things( $r );   ## can't use a simple binding to a $ to munge it non-locally.  QED
+    munge_things( $r );   ## we *can* use binding to do non-local munging of a $
     }
 
 
-sub munge_things ( $r ) {
-    $r = 23;  ## Cannot assign to a readonly variable or a value
+sub munge_things ( $r is rw ) {
+    $r = 23; 
 }
-
