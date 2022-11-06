@@ -1,23 +1,23 @@
-- [meeting notes November 6, 2022](#org06c0bf8)
-  - [the raku study group](#org94ef60b)
-  - [promotion](#org100fcc6)
-    - [get on raku irc](#orga3af514)
-    - [email liz, suggest a mention in raku weekly news?](#org35d1d00)
-    - [post note to reddit/r/rakulang](#orgac9891f)
-  - [topics](#orgd4c23cb)
-    - [revisiting this issue:](#org00ee54e)
-    - [anonymous scalar variable](#orgd5d134b)
-  - [announcements](#org1b53d30)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgde8916e)
-    - [November 20th: the next raku study group meeting](#orga9827f4)
+- [meeting notes November 6, 2022](#orgf305cf9)
+  - [the raku study group](#org99f4577)
+  - [promotion](#org7ff3cef)
+    - [get on raku irc](#org7033bf2)
+    - [email liz, suggest a mention in raku weekly news?](#org68c9ad8)
+    - [post note to reddit/r/rakulang](#org9356697)
+  - [topics](#org66ff0c1)
+    - [revisiting this issue:](#org16dedb7)
+    - [anonymous scalar variable (the plain $)](#org972327b)
+  - [announcements](#orgee445b1)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org3662d1b)
+    - [November 20th: the next raku study group meeting](#org81a9ead)
 
 
-<a id="org06c0bf8"></a>
+<a id="orgf305cf9"></a>
 
 # meeting notes November 6, 2022
 
 
-<a id="org94ef60b"></a>
+<a id="org99f4577"></a>
 
 ## the raku study group
 
@@ -36,32 +36,32 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct23.md>
 
 
-<a id="org100fcc6"></a>
+<a id="org7ff3cef"></a>
 
 ## promotion
 
 
-<a id="orga3af514"></a>
+<a id="org7033bf2"></a>
 
 ### get on raku irc
 
 
-<a id="org35d1d00"></a>
+<a id="org68c9ad8"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="orgac9891f"></a>
+<a id="org9356697"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="orgd4c23cb"></a>
+<a id="org66ff0c1"></a>
 
 ## topics
 
 
-<a id="org00ee54e"></a>
+<a id="org16dedb7"></a>
 
 ### revisiting this issue:
 
@@ -70,21 +70,21 @@
 2.  Rob likes Marton's explanation, but suggests an error message would be good
 
 
-<a id="orgd5d134b"></a>
+<a id="org972327b"></a>
 
-### anonymous scalar variable
+### anonymous scalar variable (the plain $)
 
 
-<a id="org1b53d30"></a>
+<a id="orgee445b1"></a>
 
 ## announcements
 
 
-<a id="orgde8916e"></a>
+<a id="org3662d1b"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="orga9827f4"></a>
+<a id="org81a9ead"></a>
 
 ### November 20th: the next raku study group meeting
