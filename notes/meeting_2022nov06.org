@@ -26,8 +26,6 @@
 
 *** weekly challenge
 
-
-
 ** announcements 
 *** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
