@@ -11,7 +11,7 @@ for 0..10 {
 
     $r := $;
 
-    ## munge_things( $r );
+    munge_things( $r );
 
 
     }
