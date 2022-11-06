@@ -1,21 +1,21 @@
-- [meeting notes November 6, 2022](#org215b4ad)
-  - [the raku study group](#org3be7dff)
-  - [promotion](#org77bd08b)
-    - [get on raku irc](#orgb6c591c)
-    - [email liz, suggest a mention in raku weekly news?](#org96deca5)
-    - [post note to reddit/r/rakulang](#orgb474073)
-  - [topics](#org07e0eed)
-  - [announcements](#org63925b2)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org693177c)
-    - [November 20th: the next raku study group meeting](#org7755658)
+- [meeting notes November 6, 2022](#org201add0)
+  - [the raku study group](#org94005d4)
+  - [promotion](#org8a35383)
+    - [get on raku irc](#org3992ff1)
+    - [email liz, suggest a mention in raku weekly news?](#orgcc90705)
+    - [post note to reddit/r/rakulang](#orgacde980)
+  - [topics](#orgf13cbdf)
+  - [announcements](#orgfcef075)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgcc46b55)
+    - [November 20th: the next raku study group meeting](#org2188b3f)
 
 
-<a id="org215b4ad"></a>
+<a id="org201add0"></a>
 
 # meeting notes November 6, 2022
 
 
-<a id="org3be7dff"></a>
+<a id="org94005d4"></a>
 
 ## the raku study group
 
@@ -34,41 +34,41 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct23.md>
 
 
-<a id="org77bd08b"></a>
+<a id="org8a35383"></a>
 
 ## promotion
 
 
-<a id="orgb6c591c"></a>
+<a id="org3992ff1"></a>
 
 ### get on raku irc
 
 
-<a id="org96deca5"></a>
+<a id="orgcc90705"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="orgb474073"></a>
+<a id="orgacde980"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="org07e0eed"></a>
+<a id="orgf13cbdf"></a>
 
 ## topics
 
 
-<a id="org63925b2"></a>
+<a id="orgfcef075"></a>
 
 ## announcements
 
 
-<a id="org693177c"></a>
+<a id="orgcc46b55"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org7755658"></a>
+<a id="org2188b3f"></a>
 
 ### November 20th: the next raku study group meeting
