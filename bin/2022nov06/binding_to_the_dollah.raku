@@ -19,6 +19,7 @@ sub munge_things ( $r is rw ) {
 
 
 ## Maron adds the $ vars aren't thread safe.
+## Q: are any state vars thread safe?
 
 
 ## Bruce mentions this originally for:
