@@ -17,6 +17,16 @@ sub munge_things ( $r is rw ) {
     $r = 23; 
 }
 
+## 
+## Actually, this case is covered by the docs already:
+
+##  https://docs.raku.org/language/variables#index-entry-$_(variable)
+#
+#   "That is why, if you need to reference the same $ variable (or, for
+#   that matter, any of the other anon state variables @ and %) more
+#   than once, a possible solution is to bind another variable to it,
+#   ..."
+
 
 ## Marton adds the $ vars aren't thread safe.
 ## Q: are any state vars thread safe?
@@ -30,3 +40,4 @@ sub munge_things ( $r is rw ) {
 ## Bruce mentions this originally for:
 ##   my ($, $x, $, $y) = $foo.list;
 ##   sub replacement_for_bar($, $x, $, $y) {...}
+
