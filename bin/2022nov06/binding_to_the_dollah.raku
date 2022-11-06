@@ -7,9 +7,10 @@ use v6;
 my $r;
 for 0..10 {
 
-    say $_;
+
+    say "loop index: ", $_;
     $++;
-    say $;
+    say "the dollah:", $;
 
     $r := $;
 
