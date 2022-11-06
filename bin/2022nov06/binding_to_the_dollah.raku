@@ -13,5 +13,14 @@ for 0..10 {
 
     $r := $;
 
+    munge_things( $r );
+
 
     }
+
+
+sub munge_things ( $r ) {
+
+    $r = 23;
+
+}
