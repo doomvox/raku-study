@@ -6,8 +6,6 @@ use v6;
 
 my $r;
 for 0..10 {
-
-
     say "loop index: ", $_;
     say "the dollah: ", $++;
 
