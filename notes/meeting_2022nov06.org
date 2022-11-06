@@ -15,13 +15,14 @@
 
 
 ** topics
-
 *** revisiting this issue:
 **** https://github.com/rakudo/rakudo/issues/4945
 **** Rob likes Marton's explanation, but suggests an error message would be good
 
 *** anonymous scalar variable (the plain $)
 **** but what if you use a Capture object?
+
+*** 
 
 ** announcements 
 *** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
