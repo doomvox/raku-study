@@ -12,8 +12,6 @@ for 0..10 {
     $r := $;
 
     munge_things( $r );   ## can't use a simple binding to a $ to munge it non-locally.  QED
-
-
     }
 
 
