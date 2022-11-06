@@ -25,7 +25,7 @@ sub munge_things ( $r is rw ) {
 
 ##     state $this;
 
-## Bruce suggests you can use Sequences instead of state, can let you access the last vaule  
+## Bruce suggests you can use Sequences instead of state, can let you access the last value
 
 ## Bruce mentions this originally for:
 ##   my ($, $x, $, $y) = $foo.list;
