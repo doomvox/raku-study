@@ -14,7 +14,7 @@ for 0..10 {
     }
 
 
-sub munge_things ( $r ) {
+sub munge_things ( $r is rw ) {
     $r = 23;  ## Cannot assign to a readonly variable or a value
 }
 
