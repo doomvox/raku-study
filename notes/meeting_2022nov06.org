@@ -16,9 +16,11 @@
 
 ** topics
 
-*** revisiting the issue:
+*** revisiting this issue:
 **** https://github.com/rakudo/rakudo/issues/4945
 **** Rob likes Marton's explanation, but suggests an error message would be good
+
+*** anonymous scalar variable 
 
 ** announcements 
 *** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
