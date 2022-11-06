@@ -10,7 +10,7 @@ for 0..10 {
     say "loop index: ", $_;
     say "the dollah: ", $++;
 
-    $r = \$;
+    $r := $;
 
     munge_things( $r );   ## can't use a simple binding to a $ to munge it non-locally.  QED
     }
