@@ -16,3 +16,6 @@ for 0..10 {
 sub munge_things ( $r is rw ) {
     $r = 23; 
 }
+
+
+## Maron adds the $ vars aren't thread safe.
