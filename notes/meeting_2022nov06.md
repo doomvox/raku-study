@@ -1,24 +1,24 @@
-- [meeting notes November 6, 2022](#orga8cba1b)
-  - [the raku study group](#org0002304)
-  - [promotion](#orgdb5f88f)
-    - [get on raku irc](#org5cf4779)
-    - [email liz, suggest a mention in raku weekly news?](#org9c730c6)
-    - [post note to reddit/r/rakulang](#org0efdc22)
-  - [topics](#orgbc07d21)
-    - [revisiting this issue:](#orgcd348e8)
-    - [anonymous scalar variable (the plain $)](#org1dbc6a4)
-    - [marton polgar](#org03dbeb8)
-  - [announcements](#org0b9f867)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org9d7f18e)
-    - [November 20th: the next raku study group meeting](#org68090e0)
+- [meeting notes November 6, 2022](#org38647eb)
+  - [the raku study group](#orge839f3b)
+  - [promotion](#orgf008b5a)
+    - [get on raku irc](#org4c36e92)
+    - [email liz, suggest a mention in raku weekly news?](#org45cdc56)
+    - [post note to reddit/r/rakulang](#org739811e)
+  - [topics](#org1846c60)
+    - [revisiting this issue:](#org60a2443)
+    - [anonymous scalar variable (the plain $)](#orge517484)
+    - [marton polgar has buggy things to talk about](#org68d1add)
+  - [announcements](#org2516fb6)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org463086f)
+    - [November 20th: the next raku study group meeting](#org6ce993c)
 
 
-<a id="orga8cba1b"></a>
+<a id="org38647eb"></a>
 
 # meeting notes November 6, 2022
 
 
-<a id="org0002304"></a>
+<a id="orge839f3b"></a>
 
 ## the raku study group
 
@@ -37,32 +37,32 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct23.md>
 
 
-<a id="orgdb5f88f"></a>
+<a id="orgf008b5a"></a>
 
 ## promotion
 
 
-<a id="org5cf4779"></a>
+<a id="org4c36e92"></a>
 
 ### get on raku irc
 
 
-<a id="org9c730c6"></a>
+<a id="org45cdc56"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="org0efdc22"></a>
+<a id="org739811e"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="orgbc07d21"></a>
+<a id="org1846c60"></a>
 
 ## topics
 
 
-<a id="orgcd348e8"></a>
+<a id="org60a2443"></a>
 
 ### revisiting this issue:
 
@@ -71,28 +71,28 @@
 2.  Rob likes Marton's explanation, but suggests an error message would be good
 
 
-<a id="org1dbc6a4"></a>
+<a id="orge517484"></a>
 
 ### anonymous scalar variable (the plain $)
 
 1.  but what if you use a Capture object?
 
 
-<a id="org03dbeb8"></a>
+<a id="org68d1add"></a>
 
-### marton polgar
+### marton polgar has buggy things to talk about
 
 
-<a id="org0b9f867"></a>
+<a id="org2516fb6"></a>
 
 ## announcements
 
 
-<a id="org9d7f18e"></a>
+<a id="org463086f"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org68090e0"></a>
+<a id="org6ce993c"></a>
 
 ### November 20th: the next raku study group meeting

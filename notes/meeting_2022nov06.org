@@ -22,7 +22,7 @@
 *** anonymous scalar variable (the plain $)
 **** but what if you use a Capture object?
 
-*** marton polgar
+*** marton polgar has buggy things to talk about
 
 ** announcements 
 *** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
