@@ -23,6 +23,8 @@ sub munge_things ( $r is rw ) {
 ##    docs say they're shared through all threads, 
 ##    not thread safe, "results can be unexpected"
 
+##     state $this;
+
 ## Bruce mentions this originally for:
 ##   my ($, $x, $, $y) = $foo.list;
 ##   sub replacement_for_bar($, $x, $, $y) {...}
