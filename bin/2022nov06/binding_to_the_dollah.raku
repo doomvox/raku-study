@@ -21,6 +21,6 @@ for 0..10 {
 
 sub munge_things ( $r ) {
 
-    $r = 23;
+    $r = 23;  ## Cannot assign to a readonly variable or a value
 
 }
