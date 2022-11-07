@@ -23,6 +23,10 @@
 **** but what if you use a Capture object?
 
 *** marton polgar has buggy things to talk about
+**** smarmatches against match/substitution expressions behave strangely
+**** smartmatch sometimes acts like a given, loads $_ when you don't expect.
+**** https://github.com/Raku/problem-solving/issues/250
+**** https://github.com/Raku/problem-solving/issues/346
 
 *** weekly challenge-- much activity
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-189/
