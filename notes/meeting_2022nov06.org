@@ -37,7 +37,7 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-189/
 
 
-** personal notes on follow-up
+** personal notes: follow-up
 *** find links to weekly challenge code presented
 *** write some demo scripts exploring some details
 *** look at marton's code examples, explore the oddities of smartmaches 
