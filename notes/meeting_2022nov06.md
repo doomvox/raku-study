@@ -1,26 +1,30 @@
-- [meeting notes November 6, 2022](#orgb4f0279)
-  - [the raku study group](#org6a768b1)
-  - [promotion](#orgf9da556)
-    - [get on raku irc](#orgdd5dc6d)
-    - [email liz, suggest a mention in raku weekly news?](#org870f43c)
-    - [post note to reddit/r/rakulang](#org22319f0)
-  - [topics](#orgf5480cf)
-    - [revisiting this issue:](#orga8af9c0)
-    - [anonymous scalar variable (the plain $)](#orgc92b3ae)
-    - [marton polgar has buggy things to talk about](#orgc344f07)
-    - [weekly challenge&#x2013; much activity](#org45d018f)
-  - [announcements](#orgfefb67b)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgaa45fbc)
-    - [November 20th: the next raku study group meeting](#orga8457ab)
-    - [By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?](#orgc6f69a1)
+- [meeting notes November 6, 2022](#org3b94871)
+  - [the raku study group](#org264a077)
+  - [promotion](#orgd65c414)
+    - [get on raku irc](#org60317ca)
+    - [email liz, suggest a mention in raku weekly news?](#orga4fafb4)
+    - [post note to reddit/r/rakulang](#org5dc0cb6)
+  - [topics](#org21561ea)
+    - [revisiting this issue:](#org64bfc13)
+    - [anonymous scalar variable (the plain $)](#org7ee752e)
+    - [marton polgar has buggy things to talk about](#org218fdb2)
+    - [weekly challenge&#x2013; much activity](#org84ae4c0)
+  - [personal notes on follow-up](#org794ef74)
+    - [find links to weekly challenge code presented](#orga3993f9)
+    - [write some demo scripts exploring some details](#orgb095b7c)
+    - [look at marton's code examples, explore the oddities of smartmaches](#org47cffb7)
+  - [announcements](#orgf62af5a)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org6b20fe8)
+    - [November 20th: the next raku study group meeting](#org4b290a2)
+    - [By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?](#org560ddd2)
 
 
-<a id="orgb4f0279"></a>
+<a id="org3b94871"></a>
 
 # meeting notes November 6, 2022
 
 
-<a id="org6a768b1"></a>
+<a id="org264a077"></a>
 
 ## the raku study group
 
@@ -39,32 +43,32 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct23.md>
 
 
-<a id="orgf9da556"></a>
+<a id="orgd65c414"></a>
 
 ## promotion
 
 
-<a id="orgdd5dc6d"></a>
+<a id="org60317ca"></a>
 
 ### get on raku irc
 
 
-<a id="org870f43c"></a>
+<a id="orga4fafb4"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="org22319f0"></a>
+<a id="org5dc0cb6"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="orgf5480cf"></a>
+<a id="org21561ea"></a>
 
 ## topics
 
 
-<a id="orga8af9c0"></a>
+<a id="org64bfc13"></a>
 
 ### revisiting this issue:
 
@@ -73,14 +77,14 @@
 2.  Rob likes Marton's explanation, but suggests an error message would be good
 
 
-<a id="orgc92b3ae"></a>
+<a id="org7ee752e"></a>
 
 ### anonymous scalar variable (the plain $)
 
 1.  but what if you use a Capture object?
 
 
-<a id="orgc344f07"></a>
+<a id="org218fdb2"></a>
 
 ### marton polgar has buggy things to talk about
 
@@ -99,29 +103,49 @@
 6.  marton likes "bisectable" feature on irc
 
 
-<a id="org45d018f"></a>
+<a id="org84ae4c0"></a>
 
 ### weekly challenge&#x2013; much activity
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-189/>
 
 
-<a id="orgfefb67b"></a>
+<a id="org794ef74"></a>
+
+## personal notes on follow-up
+
+
+<a id="orga3993f9"></a>
+
+### find links to weekly challenge code presented
+
+
+<a id="orgb095b7c"></a>
+
+### write some demo scripts exploring some details
+
+
+<a id="org47cffb7"></a>
+
+### look at marton's code examples, explore the oddities of smartmaches
+
+
+<a id="orgf62af5a"></a>
 
 ## announcements
 
 
-<a id="orgaa45fbc"></a>
+<a id="org6b20fe8"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="orga8457ab"></a>
+<a id="org4b290a2"></a>
 
 ### November 20th: the next raku study group meeting
 
 
-<a id="orgc6f69a1"></a>
+<a id="org560ddd2"></a>
 
 ### By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?
 
