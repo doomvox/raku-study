@@ -28,6 +28,10 @@
 **** https://github.com/Raku/problem-solving/issues/250
 **** https://github.com/Raku/problem-solving/issues/346
 
+
+**** bruce gray aside:
+***** docker run -v c:/Users/bruce:/mnt/me --rm -it jjmerelo/alpine-raku:2020.01    /mnt/me/bb02_c6.raku
+
 *** weekly challenge-- much activity
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-189/
 

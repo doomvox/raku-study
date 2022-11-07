@@ -1,26 +1,26 @@
-- [meeting notes November 6, 2022](#org02dff49)
-  - [the raku study group](#orgea5cf43)
-  - [promotion](#orga5f466a)
-    - [get on raku irc](#orge2370ad)
-    - [email liz, suggest a mention in raku weekly news?](#org6b78e8b)
-    - [post note to reddit/r/rakulang](#org0d1dd9a)
-  - [topics](#org764474f)
-    - [revisiting this issue:](#org9fcfd3d)
-    - [anonymous scalar variable (the plain $)](#orgde721a5)
-    - [marton polgar has buggy things to talk about](#org61fe2ce)
-    - [weekly challenge&#x2013; much activity](#org36a189c)
-  - [announcements](#org67b2fa1)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org75e6277)
-    - [November 20th: the next raku study group meeting](#org1b7807a)
-    - [By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?](#org1d185ba)
+- [meeting notes November 6, 2022](#org1703d7c)
+  - [the raku study group](#orga9a36a7)
+  - [promotion](#org94bc94e)
+    - [get on raku irc](#org2f572f1)
+    - [email liz, suggest a mention in raku weekly news?](#org78770b7)
+    - [post note to reddit/r/rakulang](#org0eb803f)
+  - [topics](#orgde372ef)
+    - [revisiting this issue:](#org0d17441)
+    - [anonymous scalar variable (the plain $)](#orged44210)
+    - [marton polgar has buggy things to talk about](#org963c50c)
+    - [weekly challenge&#x2013; much activity](#org920e9ac)
+  - [announcements](#orgdda19a3)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgd435adb)
+    - [November 20th: the next raku study group meeting](#org62d920c)
+    - [By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?](#orgb9b8c5b)
 
 
-<a id="org02dff49"></a>
+<a id="org1703d7c"></a>
 
 # meeting notes November 6, 2022
 
 
-<a id="orgea5cf43"></a>
+<a id="orga9a36a7"></a>
 
 ## the raku study group
 
@@ -39,32 +39,32 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022oct23.md>
 
 
-<a id="orga5f466a"></a>
+<a id="org94bc94e"></a>
 
 ## promotion
 
 
-<a id="orge2370ad"></a>
+<a id="org2f572f1"></a>
 
 ### get on raku irc
 
 
-<a id="org6b78e8b"></a>
+<a id="org78770b7"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="org0d1dd9a"></a>
+<a id="org0eb803f"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="org764474f"></a>
+<a id="orgde372ef"></a>
 
 ## topics
 
 
-<a id="org9fcfd3d"></a>
+<a id="org0d17441"></a>
 
 ### revisiting this issue:
 
@@ -73,14 +73,14 @@
 2.  Rob likes Marton's explanation, but suggests an error message would be good
 
 
-<a id="orgde721a5"></a>
+<a id="orged44210"></a>
 
 ### anonymous scalar variable (the plain $)
 
 1.  but what if you use a Capture object?
 
 
-<a id="org61fe2ce"></a>
+<a id="org963c50c"></a>
 
 ### marton polgar has buggy things to talk about
 
@@ -92,29 +92,33 @@
 
 4.  <https://github.com/Raku/problem-solving/issues/346>
 
+5.  bruce gray aside:
 
-<a id="org36a189c"></a>
+    1.  docker run -v c:/Users/bruce:/mnt/me &#x2013;rm -it jjmerelo/alpine-raku:2020.01    /mnt/me/bb02<sub>c6.raku</sub>
+
+
+<a id="org920e9ac"></a>
 
 ### weekly challenge&#x2013; much activity
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-189/>
 
 
-<a id="org67b2fa1"></a>
+<a id="orgdda19a3"></a>
 
 ## announcements
 
 
-<a id="org75e6277"></a>
+<a id="orgd435adb"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org1b7807a"></a>
+<a id="org62d920c"></a>
 
 ### November 20th: the next raku study group meeting
 
 
-<a id="org1d185ba"></a>
+<a id="orgb9b8c5b"></a>
 
 ### By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?
