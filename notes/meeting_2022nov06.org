@@ -41,6 +41,7 @@
 *** find links to weekly challenge code presented
 *** write some demo scripts exploring some details
 *** look at marton's code examples, explore the oddities of smartmaches 
+*** report docs bug: is there no precedence list *in order of precedence*
 
 ** announcements 
 *** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
