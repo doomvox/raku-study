@@ -43,3 +43,5 @@
 
 *** By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?
 
+**** at&t 500: seeing 560Mbs download *and* upload 
+
