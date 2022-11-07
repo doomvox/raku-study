@@ -93,7 +93,7 @@
 
 2.  smartmatch sometimes acts like a given, loads $\_ when you don't expect.
 
-3.  <https://github.com/Raku/problem-solving/issues/250>
+3.  <https://github.com/Raku/problem-solving/issues/350>
 
 4.  <https://github.com/Raku/problem-solving/issues/346>
 
