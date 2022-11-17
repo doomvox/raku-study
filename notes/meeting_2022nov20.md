@@ -1,35 +1,35 @@
-- [meeting notes November 20, 2022](#orgfe55d6e)
-  - [the raku study group](#orgd6713b3)
-  - [promotion](#orgf493d9e)
-    - [get on raku irc](#orgdfb1214)
-    - [email liz, suggest a mention in raku weekly news?](#orgf0b0c68)
-    - [post note to reddit/r/rakulang](#orgae9773e)
-  - [topics](#org71c0d2b)
-    - [next meeting in 3 weeks, December 4th (skip thanksgiving weekend)](#org50fe421)
-    - [Q: how would people feel about a new years day meeting, Jan 1st, 2023?](#orgb1b712d)
-    - [jj merelo, "Raku Recipies"](#org1f5f71a)
-  - [topics from last meeting (needs edit)](#orge1197d4)
-    - [revisiting this issue:](#org5dd7069)
-    - [anonymous scalar variable (the plain $)](#org1db661a)
-    - [marton polgar has buggy things to talk about](#orgdc0be40)
-    - [weekly challenge&#x2013; much activity](#org9fc4a8a)
-  - [personal notes: follow-up](#orgdac67b3)
-    - [find links to weekly challenge code presented](#org22bd886)
-    - [write some demo scripts exploring some details](#orgfc9d776)
-    - [look at marton's code examples, explore the oddities of smartmaches](#org68fc1e2)
-    - [report docs bug: is there no precedence list **in order of precedence**](#org267b6b9)
-  - [announcements](#orgcfb21d1)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org5fee440)
-    - [November 4th: the next raku study group meeting](#org7d7b869)
-    - [By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?](#org7bd7edc)
+- [meeting notes November 20, 2022](#org22bf189)
+  - [the raku study group](#orge8cf944)
+  - [promotion](#orgc587f50)
+    - [get on raku irc](#org19a7efa)
+    - [email liz, suggest a mention in raku weekly news?](#org3143c88)
+    - [post note to reddit/r/rakulang](#org1e7458a)
+  - [topics](#org0816c45)
+    - [next meeting in 3 weeks, December 4th (skip thanksgiving weekend)](#org589742f)
+    - [Q: how would people feel about a new years day meeting, Jan 1st, 2023?](#orgddbaa9f)
+    - [jj merelo, "Raku Recipies"](#orgf35968b)
+  - [topics from last meeting (needs edit)](#org850631e)
+    - [revisiting this issue:](#orgfce6a6f)
+    - [anonymous scalar variable (the plain $)](#org3bbaecb)
+    - [marton polgar has buggy things to talk about](#org10e3cab)
+    - [weekly challenge&#x2013; much activity](#org6215345)
+  - [personal notes: follow-up](#org3f20ab1)
+    - [find links to weekly challenge code presented](#orgbd43608)
+    - [write some demo scripts exploring some details](#org607348c)
+    - [look at marton's code examples, explore the oddities of smartmaches](#org9d6442e)
+    - [report docs bug: is there no precedence list **in order of precedence**](#org4e05d99)
+  - [announcements](#org8eef371)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org60242a3)
+    - [November 4th: the next raku study group meeting](#orgd32c458)
+    - [By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?](#orgaf8cc96)
 
 
-<a id="orgfe55d6e"></a>
+<a id="org22bf189"></a>
 
 # meeting notes November 20, 2022
 
 
-<a id="orgd6713b3"></a>
+<a id="orge8cf944"></a>
 
 ## the raku study group
 
@@ -52,42 +52,42 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov06.md>
 
 
-<a id="orgf493d9e"></a>
+<a id="orgc587f50"></a>
 
 ## promotion
 
 
-<a id="orgdfb1214"></a>
+<a id="org19a7efa"></a>
 
 ### get on raku irc
 
 
-<a id="orgf0b0c68"></a>
+<a id="org3143c88"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="orgae9773e"></a>
+<a id="org1e7458a"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="org71c0d2b"></a>
+<a id="org0816c45"></a>
 
 ## topics
 
 
-<a id="org50fe421"></a>
+<a id="org589742f"></a>
 
 ### next meeting in 3 weeks, December 4th (skip thanksgiving weekend)
 
 
-<a id="orgb1b712d"></a>
+<a id="orgddbaa9f"></a>
 
 ### Q: how would people feel about a new years day meeting, Jan 1st, 2023?
 
 
-<a id="org1f5f71a"></a>
+<a id="orgf35968b"></a>
 
 ### jj merelo, "Raku Recipies"
 
@@ -99,17 +99,17 @@
 
 4.  theory: check the page a lot and seem like a hesitant buyer
 
-5.  similar behavior with this R 4 tutorial
+5.  similar behavior with this R 4 tutorial book
 
     1.  <https://link.springer.com/book/10.1007/978-1-4842-6053-1>
 
 
-<a id="orge1197d4"></a>
+<a id="org850631e"></a>
 
 ## topics from last meeting (needs edit)
 
 
-<a id="org5dd7069"></a>
+<a id="orgfce6a6f"></a>
 
 ### revisiting this issue:
 
@@ -118,14 +118,14 @@
 2.  Rob likes Marton's explanation, but suggests an error message would be good
 
 
-<a id="org1db661a"></a>
+<a id="org3bbaecb"></a>
 
 ### anonymous scalar variable (the plain $)
 
 1.  but what if you use a Capture object?
 
 
-<a id="orgdc0be40"></a>
+<a id="org10e3cab"></a>
 
 ### marton polgar has buggy things to talk about
 
@@ -144,54 +144,54 @@
 6.  marton likes "bisectable" feature on irc
 
 
-<a id="org9fc4a8a"></a>
+<a id="org6215345"></a>
 
 ### weekly challenge&#x2013; much activity
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-189/>
 
 
-<a id="orgdac67b3"></a>
+<a id="org3f20ab1"></a>
 
 ## personal notes: follow-up
 
 
-<a id="org22bd886"></a>
+<a id="orgbd43608"></a>
 
 ### find links to weekly challenge code presented
 
 
-<a id="orgfc9d776"></a>
+<a id="org607348c"></a>
 
 ### write some demo scripts exploring some details
 
 
-<a id="org68fc1e2"></a>
+<a id="org9d6442e"></a>
 
 ### look at marton's code examples, explore the oddities of smartmaches
 
 
-<a id="org267b6b9"></a>
+<a id="org4e05d99"></a>
 
 ### report docs bug: is there no precedence list **in order of precedence**
 
 
-<a id="orgcfb21d1"></a>
+<a id="org8eef371"></a>
 
 ## announcements
 
 
-<a id="org5fee440"></a>
+<a id="org60242a3"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org7d7b869"></a>
+<a id="orgd32c458"></a>
 
 ### November 4th: the next raku study group meeting
 
 
-<a id="org7bd7edc"></a>
+<a id="orgaf8cc96"></a>
 
 ### By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?
 
