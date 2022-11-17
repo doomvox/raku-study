@@ -15,8 +15,9 @@
 *** email liz, suggest a mention in raku weekly news?
 *** post note to reddit/r/rakulang
 
-
 ** topics
+
+** topics from last meeting
 *** revisiting this issue:
 **** https://github.com/rakudo/rakudo/issues/4945
 **** Rob likes Marton's explanation, but suggests an error message would be good
