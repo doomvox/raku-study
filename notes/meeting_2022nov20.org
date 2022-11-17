@@ -17,7 +17,7 @@
 
 ** topics
 *** next meeting in 3 weeks, December 4th (skip thanksgiving weekend)
-*** q: how would people feel about a new years day meeting?
+*** q: how would people feel about a new years day meeting, Jan 1st, 2023?
 *** jj merelo, "Raku Recipies"
 **** https://link.springer.com/book/10.1007/978-1-4842-6109-5
 **** normally, $40 ebook, $50 softcover
