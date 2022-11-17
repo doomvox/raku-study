@@ -17,7 +17,7 @@
 
 ** topics
 
-** topics from last meeting
+** topics from last meeting (needs edit)
 *** revisiting this issue:
 **** https://github.com/rakudo/rakudo/issues/4945
 **** Rob likes Marton's explanation, but suggests an error message would be good
