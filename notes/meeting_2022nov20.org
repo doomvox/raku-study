@@ -24,6 +24,9 @@
 **** randomly, I got offered the softcover for $10 ($11 with tax)
 **** theory: check the page a lot and seem like a hesitant buyer
 
+**** similar behavior with this R 4 tutorial
+***** https://link.springer.com/book/10.1007/978-1-4842-6053-1
+
 ** topics from last meeting (needs edit)
 *** revisiting this issue:
 **** https://github.com/rakudo/rakudo/issues/4945
