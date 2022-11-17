@@ -55,7 +55,7 @@
 ** announcements 
 *** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
-*** November 20th: the next raku study group meeting
+*** November 4th: the next raku study group meeting
 
 *** By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?
 
