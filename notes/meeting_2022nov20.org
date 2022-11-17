@@ -24,8 +24,10 @@
 **** randomly, I got offered the softcover for $10 ($11 with tax)
 **** theory: check the page a lot and seem like a hesitant buyer
 
-**** similar behavior with this R 4 tutorial book
+**** saw similar things with this R 4 tutorial book
 ***** https://link.springer.com/book/10.1007/978-1-4842-6053-1
+***** by the way, R 4.0 is out
+****** https://analyticsindiamag.com/r-4-0-released-whats-in-it-for-data-scientists/
 
 ** topics from last meeting (needs edit)
 *** revisiting this issue:

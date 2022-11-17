@@ -1,35 +1,35 @@
-- [meeting notes November 20, 2022](#org22bf189)
-  - [the raku study group](#orge8cf944)
-  - [promotion](#orgc587f50)
-    - [get on raku irc](#org19a7efa)
-    - [email liz, suggest a mention in raku weekly news?](#org3143c88)
-    - [post note to reddit/r/rakulang](#org1e7458a)
-  - [topics](#org0816c45)
-    - [next meeting in 3 weeks, December 4th (skip thanksgiving weekend)](#org589742f)
-    - [Q: how would people feel about a new years day meeting, Jan 1st, 2023?](#orgddbaa9f)
-    - [jj merelo, "Raku Recipies"](#orgf35968b)
-  - [topics from last meeting (needs edit)](#org850631e)
-    - [revisiting this issue:](#orgfce6a6f)
-    - [anonymous scalar variable (the plain $)](#org3bbaecb)
-    - [marton polgar has buggy things to talk about](#org10e3cab)
-    - [weekly challenge&#x2013; much activity](#org6215345)
-  - [personal notes: follow-up](#org3f20ab1)
-    - [find links to weekly challenge code presented](#orgbd43608)
-    - [write some demo scripts exploring some details](#org607348c)
-    - [look at marton's code examples, explore the oddities of smartmaches](#org9d6442e)
-    - [report docs bug: is there no precedence list **in order of precedence**](#org4e05d99)
-  - [announcements](#org8eef371)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org60242a3)
-    - [November 4th: the next raku study group meeting](#orgd32c458)
-    - [By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?](#orgaf8cc96)
+- [meeting notes November 20, 2022](#org832beb9)
+  - [the raku study group](#orga139a48)
+  - [promotion](#orgd5e4a4b)
+    - [get on raku irc](#orgacaa02f)
+    - [email liz, suggest a mention in raku weekly news?](#org811f246)
+    - [post note to reddit/r/rakulang](#orgf1c271c)
+  - [topics](#org91d3dda)
+    - [next meeting in 3 weeks, December 4th (skip thanksgiving weekend)](#orgea93a72)
+    - [Q: how would people feel about a new years day meeting, Jan 1st, 2023?](#orgbea5cc4)
+    - [jj merelo, "Raku Recipies"](#org6ca0999)
+  - [topics from last meeting (needs edit)](#org8ba860e)
+    - [revisiting this issue:](#org06e4613)
+    - [anonymous scalar variable (the plain $)](#orgcbb1303)
+    - [marton polgar has buggy things to talk about](#orgb7628fc)
+    - [weekly challenge&#x2013; much activity](#org3e9cf6f)
+  - [personal notes: follow-up](#org61b664d)
+    - [find links to weekly challenge code presented](#org13cd7d0)
+    - [write some demo scripts exploring some details](#org5af5201)
+    - [look at marton's code examples, explore the oddities of smartmaches](#org391fdb3)
+    - [report docs bug: is there no precedence list **in order of precedence**](#org44916d8)
+  - [announcements](#orgb16fbae)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org64e2f7e)
+    - [November 4th: the next raku study group meeting](#org217b108)
+    - [By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?](#org0dd20a0)
 
 
-<a id="org22bf189"></a>
+<a id="org832beb9"></a>
 
 # meeting notes November 20, 2022
 
 
-<a id="orge8cf944"></a>
+<a id="orga139a48"></a>
 
 ## the raku study group
 
@@ -52,42 +52,42 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov06.md>
 
 
-<a id="orgc587f50"></a>
+<a id="orgd5e4a4b"></a>
 
 ## promotion
 
 
-<a id="org19a7efa"></a>
+<a id="orgacaa02f"></a>
 
 ### get on raku irc
 
 
-<a id="org3143c88"></a>
+<a id="org811f246"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="org1e7458a"></a>
+<a id="orgf1c271c"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="org0816c45"></a>
+<a id="org91d3dda"></a>
 
 ## topics
 
 
-<a id="org589742f"></a>
+<a id="orgea93a72"></a>
 
 ### next meeting in 3 weeks, December 4th (skip thanksgiving weekend)
 
 
-<a id="orgddbaa9f"></a>
+<a id="orgbea5cc4"></a>
 
 ### Q: how would people feel about a new years day meeting, Jan 1st, 2023?
 
 
-<a id="orgf35968b"></a>
+<a id="org6ca0999"></a>
 
 ### jj merelo, "Raku Recipies"
 
@@ -99,17 +99,21 @@
 
 4.  theory: check the page a lot and seem like a hesitant buyer
 
-5.  similar behavior with this R 4 tutorial book
+5.  saw similar things with this R 4 tutorial book
 
     1.  <https://link.springer.com/book/10.1007/978-1-4842-6053-1>
+    
+    2.  by the way, R 4.0 is out
+    
+        1.  <https://analyticsindiamag.com/r-4-0-released-whats-in-it-for-data-scientists/>
 
 
-<a id="org850631e"></a>
+<a id="org8ba860e"></a>
 
 ## topics from last meeting (needs edit)
 
 
-<a id="orgfce6a6f"></a>
+<a id="org06e4613"></a>
 
 ### revisiting this issue:
 
@@ -118,14 +122,14 @@
 2.  Rob likes Marton's explanation, but suggests an error message would be good
 
 
-<a id="org3bbaecb"></a>
+<a id="orgcbb1303"></a>
 
 ### anonymous scalar variable (the plain $)
 
 1.  but what if you use a Capture object?
 
 
-<a id="org10e3cab"></a>
+<a id="orgb7628fc"></a>
 
 ### marton polgar has buggy things to talk about
 
@@ -144,54 +148,54 @@
 6.  marton likes "bisectable" feature on irc
 
 
-<a id="org6215345"></a>
+<a id="org3e9cf6f"></a>
 
 ### weekly challenge&#x2013; much activity
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-189/>
 
 
-<a id="org3f20ab1"></a>
+<a id="org61b664d"></a>
 
 ## personal notes: follow-up
 
 
-<a id="orgbd43608"></a>
+<a id="org13cd7d0"></a>
 
 ### find links to weekly challenge code presented
 
 
-<a id="org607348c"></a>
+<a id="org5af5201"></a>
 
 ### write some demo scripts exploring some details
 
 
-<a id="org9d6442e"></a>
+<a id="org391fdb3"></a>
 
 ### look at marton's code examples, explore the oddities of smartmaches
 
 
-<a id="org4e05d99"></a>
+<a id="org44916d8"></a>
 
 ### report docs bug: is there no precedence list **in order of precedence**
 
 
-<a id="org8eef371"></a>
+<a id="orgb16fbae"></a>
 
 ## announcements
 
 
-<a id="org60242a3"></a>
+<a id="org64e2f7e"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="orgd32c458"></a>
+<a id="org217b108"></a>
 
 ### November 4th: the next raku study group meeting
 
 
-<a id="orgaf8cc96"></a>
+<a id="org0dd20a0"></a>
 
 ### By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?
 
