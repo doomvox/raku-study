@@ -1,0 +1,56 @@
+* meeting notes November 20, 2022
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md
+****** source file (for corrections, etc)
+******* https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2022nov20
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov06.md
+
+** promotion
+*** get on raku irc
+*** email liz, suggest a mention in raku weekly news?
+*** post note to reddit/r/rakulang
+
+
+** topics
+*** revisiting this issue:
+**** https://github.com/rakudo/rakudo/issues/4945
+**** Rob likes Marton's explanation, but suggests an error message would be good
+
+*** anonymous scalar variable (the plain $)
+**** but what if you use a Capture object?
+
+*** marton polgar has buggy things to talk about
+**** smarmatches against match/substitution expressions behave strangely
+**** smartmatch sometimes acts like a given, loads $_ when you don't expect.
+**** https://github.com/Raku/problem-solving/issues/250
+**** https://github.com/Raku/problem-solving/issues/346
+
+**** bruce gray aside:
+***** docker run -v c:/Users/bruce:/mnt/me --rm -it jjmerelo/alpine-raku:2020.01    /mnt/me/bb02_c6.raku
+
+**** marton likes "bisectable" feature on irc
+
+*** weekly challenge-- much activity
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-189/
+
+
+** personal notes: follow-up
+*** find links to weekly challenge code presented
+*** write some demo scripts exploring some details
+*** look at marton's code examples, explore the oddities of smartmaches 
+*** report docs bug: is there no precedence list *in order of precedence*
+
+** announcements 
+*** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
+
+*** November 20th: the next raku study group meeting
+
+*** By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?
+
+**** at&t 500: seeing 560Mbs download *and* upload 
+
