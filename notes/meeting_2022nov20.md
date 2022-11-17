@@ -1,31 +1,31 @@
-- [meeting notes November 20, 2022](#orgda22f1e)
-  - [the raku study group](#org9336f8b)
-  - [promotion](#org8c818ab)
-    - [get on raku irc](#org1112b05)
-    - [email liz, suggest a mention in raku weekly news?](#org28c6ea3)
-    - [post note to reddit/r/rakulang](#org11e4465)
-  - [topics](#org917daf2)
-    - [revisiting this issue:](#org19ad7df)
-    - [anonymous scalar variable (the plain $)](#orgd4cc3e4)
-    - [marton polgar has buggy things to talk about](#org40874c4)
-    - [weekly challenge&#x2013; much activity](#org3e10efe)
-  - [personal notes: follow-up](#org03ed0ba)
-    - [find links to weekly challenge code presented](#orgbfa2e9a)
-    - [write some demo scripts exploring some details](#org846c425)
-    - [look at marton's code examples, explore the oddities of smartmaches](#org31c42eb)
-    - [report docs bug: is there no precedence list **in order of precedence**](#org7ee0795)
-  - [announcements](#org4d7cfc2)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgb14ac14)
-    - [November 20th: the next raku study group meeting](#org9b1da40)
-    - [By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?](#orgd5c4b78)
+- [meeting notes November 20, 2022](#org397facb)
+  - [the raku study group](#org0a07961)
+  - [promotion](#orgaadb620)
+    - [get on raku irc](#org1ca793f)
+    - [email liz, suggest a mention in raku weekly news?](#org23740e6)
+    - [post note to reddit/r/rakulang](#org6b80c09)
+  - [topics](#org61b86b7)
+    - [revisiting this issue:](#org4251b8b)
+    - [anonymous scalar variable (the plain $)](#orgd3691ee)
+    - [marton polgar has buggy things to talk about](#org5c86143)
+    - [weekly challenge&#x2013; much activity](#org5b71399)
+  - [personal notes: follow-up](#orgc5f0771)
+    - [find links to weekly challenge code presented](#org37cb7e3)
+    - [write some demo scripts exploring some details](#orga79dae6)
+    - [look at marton's code examples, explore the oddities of smartmaches](#org9519997)
+    - [report docs bug: is there no precedence list **in order of precedence**](#org00f6385)
+  - [announcements](#orgad896ba)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org83c1ee3)
+    - [November 20th: the next raku study group meeting](#orged01444)
+    - [By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?](#orgacd3f57)
 
 
-<a id="orgda22f1e"></a>
+<a id="org397facb"></a>
 
 # meeting notes November 20, 2022
 
 
-<a id="org9336f8b"></a>
+<a id="org0a07961"></a>
 
 ## the raku study group
 
@@ -37,7 +37,7 @@
         
         2.  source file (for corrections, etc)
         
-            1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md>
+            1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.org>
     
     2.  code examples
     
@@ -48,32 +48,32 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov06.md>
 
 
-<a id="org8c818ab"></a>
+<a id="orgaadb620"></a>
 
 ## promotion
 
 
-<a id="org1112b05"></a>
+<a id="org1ca793f"></a>
 
 ### get on raku irc
 
 
-<a id="org28c6ea3"></a>
+<a id="org23740e6"></a>
 
 ### email liz, suggest a mention in raku weekly news?
 
 
-<a id="org11e4465"></a>
+<a id="org6b80c09"></a>
 
 ### post note to reddit/r/rakulang
 
 
-<a id="org917daf2"></a>
+<a id="org61b86b7"></a>
 
 ## topics
 
 
-<a id="org19ad7df"></a>
+<a id="org4251b8b"></a>
 
 ### revisiting this issue:
 
@@ -82,14 +82,14 @@
 2.  Rob likes Marton's explanation, but suggests an error message would be good
 
 
-<a id="orgd4cc3e4"></a>
+<a id="orgd3691ee"></a>
 
 ### anonymous scalar variable (the plain $)
 
 1.  but what if you use a Capture object?
 
 
-<a id="org40874c4"></a>
+<a id="org5c86143"></a>
 
 ### marton polgar has buggy things to talk about
 
@@ -108,54 +108,54 @@
 6.  marton likes "bisectable" feature on irc
 
 
-<a id="org3e10efe"></a>
+<a id="org5b71399"></a>
 
 ### weekly challenge&#x2013; much activity
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-189/>
 
 
-<a id="org03ed0ba"></a>
+<a id="orgc5f0771"></a>
 
 ## personal notes: follow-up
 
 
-<a id="orgbfa2e9a"></a>
+<a id="org37cb7e3"></a>
 
 ### find links to weekly challenge code presented
 
 
-<a id="org846c425"></a>
+<a id="orga79dae6"></a>
 
 ### write some demo scripts exploring some details
 
 
-<a id="org31c42eb"></a>
+<a id="org9519997"></a>
 
 ### look at marton's code examples, explore the oddities of smartmaches
 
 
-<a id="org7ee0795"></a>
+<a id="org00f6385"></a>
 
 ### report docs bug: is there no precedence list **in order of precedence**
 
 
-<a id="org4d7cfc2"></a>
+<a id="orgad896ba"></a>
 
 ## announcements
 
 
-<a id="orgb14ac14"></a>
+<a id="org83c1ee3"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org9b1da40"></a>
+<a id="orged01444"></a>
 
 ### November 20th: the next raku study group meeting
 
 
-<a id="orgd5c4b78"></a>
+<a id="orgacd3f57"></a>
 
 ### By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?
 
