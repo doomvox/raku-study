@@ -23,6 +23,8 @@
 **** normally, $40 ebook, $50 softcover
 **** randomly, I got offered the softcover for $10 ($11 with tax)
 **** theory: check the page a lot and seem like a hesitant buyer
+**** notes: code examples up at github
+***** TODO go through some in advance of having the text?
 
 **** saw similar things with this R 4 tutorial book
 ***** https://link.springer.com/book/10.1007/978-1-4842-6053-1
