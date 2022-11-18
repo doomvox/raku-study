@@ -32,6 +32,7 @@
 ******* uses reference counting on objects
 ******* getting rid of braindead strings-as-factors behavior
 
+
 ** topics from last meeting (needs edit)
 *** revisiting this issue:
 **** https://github.com/rakudo/rakudo/issues/4945
