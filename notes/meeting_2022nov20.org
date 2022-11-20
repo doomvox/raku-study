@@ -40,9 +40,13 @@
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2022nov20/rest_api_demo.pl
 ***** local: /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022nov20/rest_api_demo.pl
 
-
 **** weekly challenge
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-190/
+
+**** rob presents a table exploring whats going on with containers
+
+***** marton mentions an issue with using lists as set values: doesn't work by default
+****** there's a list value module though, which covers the issue
 
 ** announcements 
 *** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
