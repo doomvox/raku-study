@@ -7,7 +7,7 @@ use v6;
 
 my $str1 := "garuda";
 
-my $str2 = $str=;
+my $str2 = $str1;
 
 $str2.subst('garuda', 'godzilla');
 
