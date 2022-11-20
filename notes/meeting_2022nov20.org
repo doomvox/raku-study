@@ -42,6 +42,10 @@
 
 **** weekly challenge
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-190/
+****** https://theweeklychallenge.org/blog/perl-weekly-challenge-190/#TASK1
+****** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/0rir/raku/ch-1.raku
+****** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/2colours/raku/ch-1.raku
+****** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/bruce-gray/raku/ch-1.raku
 
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-191/
 ****** https://github.com/PerlMonk-Athanasius/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/athanasius/raku/ch-1.raku#L119
