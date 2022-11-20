@@ -37,7 +37,6 @@ my $captured2 = run(«echo "$arg"», :out).out.slurp;
 
 dd( $captured1 ); # Str $captured1 = "ls\n"
 
-
 my $proc_1 = run('echo', $arg, :out);
 dd( $proc_1 );
 ## Proc $proc_1 = (my \Proc_94905311123208 = Proc.new(in => IO::Pipe, out => IO::Pipe.new(proc => Proc_94905311123208, path => IO::Path, chomp => Bool::True, nl-in => "\n", nl-out => "\n", encoding => "utf8"), err => IO::Pipe, exitcode => Nil, signal => Any, pid => 151130, command => ("echo", "hey there")))
