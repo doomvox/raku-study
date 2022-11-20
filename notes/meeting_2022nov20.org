@@ -12,8 +12,9 @@
 
 ** promotion
 *** get on raku irc
-*** email liz, suggest a mention in raku weekly news?
-*** post note to reddit/r/rakulang
+*** other 
+**** email liz, suggest a mention in raku weekly news?
+**** post note to reddit/r/rakulang
 
 ** topics
 *** next meeting in 3 weeks, December 4th (skip thanksgiving weekend)
