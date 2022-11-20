@@ -42,6 +42,7 @@
 
 
 **** weekly challenge
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-190/
 
 ** announcements 
 *** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
