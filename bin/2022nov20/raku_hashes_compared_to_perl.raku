@@ -9,3 +9,4 @@ my %response = ( success => 1,
                  stuff   => 'whateva',
                  );
 
+say %response{'success'};
