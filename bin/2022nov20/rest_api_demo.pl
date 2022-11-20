@@ -25,6 +25,35 @@ $|=1;
 use Data::Dumper;
 
 
+use strict;
+use warnings;
+ 
+use HTTP::Tiny;
+ 
+my $http = HTTP::Tiny->new();
+ 
+my $server = 'https://rest.ensembl.org';
+my $ext = '/archive/id';
+my $response = $http->request('POST', $server.$ext, {
+  headers => {
+      'Content-type' => 'application/json',
+      'Accept' => 'application/json'
+  },
+  content => '{ "id" : ["ENSG00000157764", "ENSG00000248378"] }'
+});
+ 
+die "Failed!\n" unless $response->{success};
+ 
+ 
+use JSON;
+use Data::Dumper;
+if(length $response->{content}) {
+  my $hash = decode_json($response->{content});
+  local $Data::Dumper::Terse = 1;
+  local $Data::Dumper::Indent = 1;
+  print Dumper $hash;
+  print "\n";
+}
 
 
 
