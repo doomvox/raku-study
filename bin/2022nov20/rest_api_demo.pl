@@ -43,8 +43,7 @@ my $response = $http->request('POST', $server.$ext, {
 });
  
 die "Failed!\n" unless $response->{success};
- 
- 
+
 use JSON;
 use Data::Dumper;
 if(length $response->{content}) {
