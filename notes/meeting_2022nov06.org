@@ -25,7 +25,7 @@
 *** marton polgar has buggy things to talk about
 **** smarmatches against match/substitution expressions behave strangely
 **** smartmatch sometimes acts like a given, loads $_ when you don't expect.
-**** https://github.com/Raku/problem-solving/issues/250
+**** https://github.com/Raku/problem-solving/issues/350
 **** https://github.com/Raku/problem-solving/issues/346
 
 **** bruce gray aside:
