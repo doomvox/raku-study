@@ -35,6 +35,8 @@ my $arg = 'ls';
 my $captured1 = run('echo', $arg, :out).out.slurp;
 my $captured2 = run(«echo "$arg"», :out).out.slurp;
 
+dd( $captured1 );
+
 
 # # using shell:
 # my $arg = 'Hello';
