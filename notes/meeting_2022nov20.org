@@ -56,6 +56,15 @@
 
 
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-191/
+
+****** PWC 191.1:
+******* https://theweeklychallenge.org/blog/perl-weekly-challenge-191/#TASK1
+******* https://github.com/0rir/perlweeklychallenge-club/blob/191/challenge-191/0rir/raku/ch-1.raku
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-191/2colours/raku/ch-1.raku
+******* https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/bruce-gray/raku/ch-1.raku
+
+
+
 ****** https://github.com/PerlMonk-Athanasius/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/athanasius/raku/ch-1.raku#L119
 
 **** rob presents a table exploring whats going on with containers
