@@ -44,6 +44,7 @@
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-190/
 
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-191/
+****** https://github.com/PerlMonk-Athanasius/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/athanasius/raku/ch-1.raku#L119
 
 **** rob presents a table exploring whats going on with containers
 ***** marton mentions an issue with using lists as bag values: doesn't work by default
