@@ -35,7 +35,8 @@
 ******* getting rid of braindead strings-as-factors behavior
 
 **** Perl5: William Michels question about a perl rest-api demo
-
+***** https://github.com/doomvox/raku-study/tree/main/bin/2022nov20/rest_api_demo.pl
+***** local: /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022nov20/rest_api_demo.pl
 
 ** topics from last meeting (needs edit)
 *** revisiting this issue:
