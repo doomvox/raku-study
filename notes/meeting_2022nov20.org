@@ -54,7 +54,6 @@
 ******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/2colours/raku/ch-2.raku
 ******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/bruce-gray/raku/ch-2.raku
 
-
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-191/
 
 ****** PWC 191.1:
