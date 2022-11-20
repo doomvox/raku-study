@@ -10,6 +10,8 @@ rest_api_demo.pl
 
 =head1 DESCRIPTION
 
+William Michels<wjm1@caa.columbia.edu>
+
 I'm trying to get the example Perl5 code from the bottom of this REST-API page to work:
 
 https://rest.ensembl.org/documentation/info/archive_id_post
