@@ -14,13 +14,14 @@ William Michels<wjm1@caa.columbia.edu>
 
 I'm trying to get the example Perl5 code from the bottom of this REST-API page to work:
 
-https://rest.ensembl.org/documentation/info/archive_id_post
+  https://rest.ensembl.org/documentation/info/archive_id_post
 
 I can get the example curl, wget, and R code to work from the same
 page, so I know the server (https://rest.ensembl.org) is up and
 running. Below is the code, cut-and-pasted. I had to install the JSON
 module. All I get back is the string "Failed!" while curl, wget, and R
 all return actual data
+
 
 =cut
 
