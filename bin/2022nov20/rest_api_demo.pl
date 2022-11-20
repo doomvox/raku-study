@@ -38,7 +38,7 @@ my $ext = '/archive/id';
 my $response = $http->request('POST', $server.$ext, {
   headers => {
       'Content-type' => 'application/json',
-      'Accept' => 'application/json'
+      'Accept'       => 'application/json'
   },
   content => '{ "id" : ["ENSG00000157764", "ENSG00000248378"] }'
 });
@@ -47,7 +47,7 @@ die "Failed!\n" unless $response->{success};
 
 if(length $response->{content}) {
   my $hash = decode_json($response->{content});
-  local $Data::Dumper::Terse = 1;
+  local $Data::Dumper::Terse  = 1;
   local $Data::Dumper::Indent = 1;
   print Dumper $hash;
   print "\n";
