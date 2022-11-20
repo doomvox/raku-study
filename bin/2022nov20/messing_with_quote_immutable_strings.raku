@@ -13,3 +13,6 @@ my $str2 = $str1;
 $str2 = 'rhodan';
 say $str2; # rhodan
 
+
+my $a = 1;
+say $a.WHAT;
