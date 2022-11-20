@@ -7,7 +7,7 @@ use v6;
 my %bh = ( $(1,2), $(2,3), $(4,5) ).BagHash;
 say %bh; # {1 => 1, 2 => 2, 3 => 1, 4 => 1, 5 => 1}
 
-say %bh.^methods;
+# say %bh.^methods;
 
 %bh.append( (1,2) );
 
