@@ -32,8 +32,8 @@ use v6;
 
 # external commands without shell:
 my $arg = 'ls';
-my $captured = run('echo', $arg, :out).out.slurp;
-my $captured = run(«echo "$arg"», :out).out.slurp;
+my $captured1 = run('echo', $arg, :out).out.slurp;
+my $captured2 = run(«echo "$arg"», :out).out.slurp;
 
 
 # # using shell:
