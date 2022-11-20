@@ -11,5 +11,4 @@ my $str2 = $str1;
 
 # $str2 =  $str2.subst('garuda', 'rhodan');
 $str2 = 'rhodan';
-
 say $str2; # rhodan
