@@ -31,15 +31,15 @@ use v6;
 
 
 # external commands without shell:
-my $arg = 'Hello';
+my $arg = 'ls';
 my $captured = run('echo', $arg, :out).out.slurp;
 my $captured = run(«echo "$arg"», :out).out.slurp;
 
 
-# using shell:
-my $arg = 'Hello';
-my $captured = shell("echo $arg", :out).out.slurp;
-my $captured = qqx{echo $arg};
+# # using shell:
+# my $arg = 'Hello';
+# my $captured = shell("echo $arg", :out).out.slurp;
+# my $captured = qqx{echo $arg};
 
 
 ## Try to make errors into warnings
