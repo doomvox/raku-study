@@ -40,6 +40,9 @@
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2022nov20/rest_api_demo.pl
 ***** local: /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022nov20/rest_api_demo.pl
 
+
+**** weekly challenge
+
 ** announcements 
 *** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
