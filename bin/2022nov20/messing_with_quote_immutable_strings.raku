@@ -15,5 +15,5 @@ say $str2; # rhodan
 
 
 my $a = 1;
-say $a.WHAT; # (Int)
-say $a.VAR.WHAT; # (Int)
+say $a.WHAT;     # (Int)
+say $a.VAR.WHAT; # (Scalar)
