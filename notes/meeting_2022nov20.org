@@ -18,7 +18,7 @@
 
 ** topics
 *** next meeting in 2 weeks, December 4th
-**** Q: how would people feel about a new years day meeting, Jan 1st, 2023?
+**** Q: how would people feel about a new years day meeting, Jan 1st, 2023? A: Yeah, maybe
 *** messing with libera.chat, raku irc
 *** jj merelo, "Raku Recipies"
 **** https://link.springer.com/book/10.1007/978-1-4842-6109-5
