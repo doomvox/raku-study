@@ -19,3 +19,5 @@ say $a.WHAT;     # (Int)
 say $a.VAR.WHAT; # (Scalar)
 
 my $b = (1, 2);
+say $b.WHAT;
+say $b.VAR.WHAT;
