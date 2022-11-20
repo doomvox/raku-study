@@ -9,6 +9,6 @@ my $str1 := "garuda";
 
 my $str2 = $str1;
 
-$str2.subst('garuda', 'godzilla');
+$str2 =  $str2.subst('garuda', 'godzilla');
 
-say $str2;
+say $str2; # garuda
