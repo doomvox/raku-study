@@ -44,7 +44,6 @@
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-190/
 
 **** rob presents a table exploring whats going on with containers
-
 ***** marton mentions an issue with using lists as bag values: doesn't work by default
 ****** there's a list value module though, which covers the issue
 
