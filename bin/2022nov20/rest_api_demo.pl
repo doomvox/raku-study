@@ -64,4 +64,35 @@ __END__
 
 https://rest.ensembl.org/documentation/info/archive_id_post
 
+=head1 OUTPUT
+
+perl /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022nov20/rest_api_demo.pl
+[
+  {
+    'possible_replacement' => [],
+    'assembly' => 'GRCh38',
+    'latest' => 'ENSG00000157764.14',
+    'id' => 'ENSG00000157764',
+    'release' => '108',
+    'type' => 'Gene',
+    'is_current' => '1',
+    'version' => 14,
+    'peptide' => undef
+  },
+  {
+    'assembly' => 'GRCh38',
+    'possible_replacement' => [],
+    'release' => '108',
+    'latest' => 'ENSG00000248378.1',
+    'id' => 'ENSG00000248378',
+    'version' => 1,
+    'peptide' => undef,
+    'type' => 'Gene',
+    'is_current' => '1'
+  }
+]
+
+
+
+
 =cut
