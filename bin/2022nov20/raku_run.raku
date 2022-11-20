@@ -42,7 +42,7 @@ my $proc_1 = run('echo', $arg, :out);
 dd( $proc_1 );
 
 if ( $proc_1 ) {
-    say "hey";
+    say "hey";  # hey
 }    
 
 
