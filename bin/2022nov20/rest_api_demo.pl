@@ -44,8 +44,9 @@ my $response = $http->request('POST', $server.$ext, {
 });
  
 die "Failed!\n" unless $response->{success};
+## in english:  die if not a success
 
-if(length $response->{content}) {
+if( length $response->{content} ) {
   my $hash = decode_json($response->{content});
   local $Data::Dumper::Terse  = 1;
   local $Data::Dumper::Indent = 1;
