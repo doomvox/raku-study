@@ -17,8 +17,9 @@ say $str2; # rhodan
 my $a = 1;
 say $a.WHAT;     # (Int)
 say $a.VAR.WHAT; # (Scalar)
-say $a.VAR;
+say $a.VAR;      # 1
 
 my $b = (1, 2);
 say $b.WHAT;      # (List)
 say $b.VAR.WHAT;  # (Scalar)
+say $b.VAR;  #
