@@ -31,11 +31,11 @@ use v6;
 
 
 # external commands without shell:
-my $arg = 'ls';
+my $arg = 'hey there';
 my $captured1 = run('echo', $arg, :out).out.slurp;
 my $captured2 = run(«echo "$arg"», :out).out.slurp;
 
-dd( $captured1 );
+dd( $captured1 ); # Str $captured1 = "ls\n"
 
 
 # # using shell:
