@@ -31,7 +31,6 @@ use HTTP::Tiny;
 use JSON;
 use Data::Dumper;
 
- 
 my $http = HTTP::Tiny->new();
  
 my $server = 'https://rest.ensembl.org';
