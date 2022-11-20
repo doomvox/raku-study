@@ -60,9 +60,9 @@ if(length $response->{content}) {
 
 __END__
 
-=head1 AUTHOR
+=head1 SOURCE
 
-Joseph Brenner, E<lt>doom@debian-BULLSEYE-live-builder-AMD64E<gt>
+https://rest.ensembl.org/documentation/info/archive_id_post
 
 =head1 COPYRIGHT AND LICENSE
 
