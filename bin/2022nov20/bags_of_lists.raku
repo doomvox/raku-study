@@ -21,7 +21,6 @@ say %bh.^methods;
  BIND-KEY
  Bool
  BUILDALL
- BUILDALL)
  Capture
  categorize-list
  classify-list
