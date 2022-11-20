@@ -92,7 +92,4 @@ perl /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022nov20/rest_api_demo.p
   }
 ]
 
-
-
-
 =cut
