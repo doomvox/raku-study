@@ -34,6 +34,9 @@
 ******* uses reference counting on objects
 ******* getting rid of braindead strings-as-factors behavior
 
+**** Perl5: William Michels question about a perl rest-api demo
+
+
 ** topics from last meeting (needs edit)
 *** revisiting this issue:
 **** https://github.com/rakudo/rakudo/issues/4945
