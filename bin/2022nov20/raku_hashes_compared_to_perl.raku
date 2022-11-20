@@ -12,6 +12,8 @@ my %response = ( success => 1,
 say %response{'success'};
 ## 1
 
+## say %response<success>;
+
 say %response{ success() };
 # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022nov20/raku_hashes_compared_to_perl.raku
 # Undeclared routine:
