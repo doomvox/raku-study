@@ -11,4 +11,4 @@ my $str2 = $str1;
 
 $str2 =  $str2.subst('garuda', 'godzilla');
 
-say $str2; # garuda
+say $str2; # godzilla
