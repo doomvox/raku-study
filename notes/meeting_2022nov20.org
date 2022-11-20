@@ -17,7 +17,7 @@
 **** post note to reddit/r/rakulang
 
 ** topics
-*** next meeting in 3 weeks, December 4th (skip thanksgiving weekend)
+*** next meeting in 2 weeks, December 4th
 *** messing with libera.chat, raku irc
 *** Q: how would people feel about a new years day meeting, Jan 1st, 2023?
 *** jj merelo, "Raku Recipies"
