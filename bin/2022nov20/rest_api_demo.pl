@@ -27,8 +27,10 @@ all return actual data
 
 use strict;
 use warnings;
- 
 use HTTP::Tiny;
+use JSON;
+use Data::Dumper;
+
  
 my $http = HTTP::Tiny->new();
  
@@ -44,8 +46,6 @@ my $response = $http->request('POST', $server.$ext, {
  
 die "Failed!\n" unless $response->{success};
 
-use JSON;
-use Data::Dumper;
 if(length $response->{content}) {
   my $hash = decode_json($response->{content});
   local $Data::Dumper::Terse = 1;
