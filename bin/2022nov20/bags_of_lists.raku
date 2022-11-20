@@ -20,8 +20,7 @@ say %bh;
 
 say %bh{ $(1.2) }; # (Any)  
 
-%bh.push( $(1,2) );
-
-say %bh;
+# %bh.push( $(1,2) );
+# # Trailing item in Hash.push
 
 
