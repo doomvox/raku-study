@@ -38,6 +38,10 @@ my $captured2 = run(«echo "$arg"», :out).out.slurp;
 dd( $captured1 ); # Str $captured1 = "ls\n"
 
 
+my $proc_1 = run('echo', $arg, :out);
+dd( $proc_1 );
+
+
 # # using shell:
 # my $arg = 'Hello';
 # my $captured = shell("echo $arg", :out).out.slurp;
