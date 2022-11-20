@@ -17,3 +17,5 @@ say $str2; # rhodan
 my $a = 1;
 say $a.WHAT;     # (Int)
 say $a.VAR.WHAT; # (Scalar)
+
+my $b = (1, 2);
