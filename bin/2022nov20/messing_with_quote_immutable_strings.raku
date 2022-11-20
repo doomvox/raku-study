@@ -22,4 +22,4 @@ say $a.VAR;      # 1
 my $b = (1, 2);
 say $b.WHAT;      # (List)
 say $b.VAR.WHAT;  # (Scalar)
-say $b.VAR;  #
+say $b.VAR;       # $(1, 2)
