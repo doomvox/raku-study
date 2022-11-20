@@ -41,6 +41,10 @@ dd( $captured1 ); # Str $captured1 = "ls\n"
 my $proc_1 = run('echo', $arg, :out);
 dd( $proc_1 );
 
+if ( $proc_1 ) {
+    say "hey";
+}    
+
 
 # # using shell:
 # my $arg = 'Hello';
