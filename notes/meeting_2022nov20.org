@@ -74,7 +74,7 @@
 ****** there's a list value module though, which covers the issue
 ***** marton opened the issue:
 ****** "Improve the documentation of infix =:= #4133"
-****** https://github.com/Raku/doc/issues/4133
+******* https://github.com/Raku/doc/issues/4133
 
 ** announcements 
 *** lambert lum is looking for raku speakers for svperl on Jan 5, 2023

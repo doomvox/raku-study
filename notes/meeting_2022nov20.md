@@ -1,24 +1,24 @@
-- [meeting notes November 20, 2022](#orge18433c)
-  - [the raku study group](#orgb924817)
-  - [promotion](#org553acac)
-    - [get on raku irc](#org979de3e)
-    - [other](#orgb3d1af1)
-  - [topics](#org64e9069)
-    - [next meeting in 2 weeks, December 4th](#orgee494ca)
-    - [messing with libera.chat, raku irc](#org72eb725)
-    - [jj merelo, "Raku Recipies"](#org3043db9)
-  - [announcements](#orgc088468)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org54c5971)
-    - [December 4th: the next raku study group meeting](#orgd51186e)
-    - [By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?](#org7f581b7)
+- [meeting notes November 20, 2022](#org9ba8f51)
+  - [the raku study group](#org40e202e)
+  - [promotion](#org09e9589)
+    - [get on raku irc](#org0c3be38)
+    - [other](#orgae168fc)
+  - [topics](#orgb43368e)
+    - [next meeting in 2 weeks, December 4th](#org7436713)
+    - [messing with libera.chat, raku irc](#org52f1de5)
+    - [jj merelo, "Raku Recipies"](#org77aeb32)
+  - [announcements](#org231f381)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org35bcbce)
+    - [December 4th: the next raku study group meeting](#orgd7daa08)
+    - [By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?](#orgbf94b47)
 
 
-<a id="orge18433c"></a>
+<a id="org9ba8f51"></a>
 
 # meeting notes November 20, 2022
 
 
-<a id="orgb924817"></a>
+<a id="org40e202e"></a>
 
 ## the raku study group
 
@@ -41,17 +41,17 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov06.md>
 
 
-<a id="org553acac"></a>
+<a id="org09e9589"></a>
 
 ## promotion
 
 
-<a id="org979de3e"></a>
+<a id="org0c3be38"></a>
 
 ### get on raku irc
 
 
-<a id="orgb3d1af1"></a>
+<a id="orgae168fc"></a>
 
 ### other
 
@@ -60,24 +60,24 @@
 2.  post note to reddit/r/rakulang
 
 
-<a id="org64e9069"></a>
+<a id="orgb43368e"></a>
 
 ## topics
 
 
-<a id="orgee494ca"></a>
+<a id="org7436713"></a>
 
 ### next meeting in 2 weeks, December 4th
 
 1.  Q: how would people feel about a new years day meeting, Jan 1st, 2023? A: Yeah, maybe
 
 
-<a id="org72eb725"></a>
+<a id="org52f1de5"></a>
 
 ### messing with libera.chat, raku irc
 
 
-<a id="org3043db9"></a>
+<a id="org77aeb32"></a>
 
 ### jj merelo, "Raku Recipies"
 
@@ -171,25 +171,25 @@
     
         1.  "Improve the documentation of infix `:` #4133"
         
-        2.  <https://github.com/Raku/doc/issues/4133>
+            1.  <https://github.com/Raku/doc/issues/4133>
 
 
-<a id="orgc088468"></a>
+<a id="org231f381"></a>
 
 ## announcements
 
 
-<a id="org54c5971"></a>
+<a id="org35bcbce"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="orgd51186e"></a>
+<a id="orgd7daa08"></a>
 
 ### December 4th: the next raku study group meeting
 
 
-<a id="org7f581b7"></a>
+<a id="orgbf94b47"></a>
 
 ### By the way: I've upgraded my internet to at&t fiber.  Anyone see any freezes, etc?
 
