@@ -72,7 +72,7 @@
 **** rob presents a table exploring whats going on with containers
 ***** marton mentions an issue with using lists as bag values: doesn't work by default
 ****** there's a list value module though, which covers the issue
-***** marton polgar points at issue:
+***** marton opened the issue:
 ****** Improve the documentation of infix =:= #4133 
 ****** https://github.com/Raku/doc/issues/4133
 
