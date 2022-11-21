@@ -1,23 +1,23 @@
-- [meeting notes November 20, 2022](#org5128d61)
-  - [the raku study group](#orgd6955d1)
-  - [promotion](#orgefe74e3)
-    - [get on raku irc](#org3824326)
-    - [other](#orga93bdb2)
-  - [topics](#orgee3e10f)
-    - [next meeting in 2 weeks, December 4th](#org8acb6db)
-    - [messing with libera.chat, raku irc](#org22d0dc2)
-    - [jj merelo, "Raku Recipies"](#org788e7eb)
-  - [announcements](#org14c28f9)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#orgb061592)
-    - [December 4th: the next raku study group meeting, in **2** weeks as usual](#org8742500)
+- [meeting notes November 20, 2022](#orgca5b676)
+  - [the raku study group](#org0f435cb)
+  - [promotion](#org4fbd4b8)
+    - [get on raku irc](#org169b8d1)
+    - [other](#orge5f7f3a)
+  - [topics](#org71b1877)
+    - [next meeting in 2 weeks, December 4th](#org6ca407c)
+    - [messing with libera.chat, raku irc](#org6b38749)
+    - [jj merelo, "Raku Recipies"](#orga6ddf32)
+  - [announcements](#orgf71362d)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org33f243d)
+    - [December 4th: the next raku study group meeting, in **2** weeks as usual](#orgfaf64ef)
 
 
-<a id="org5128d61"></a>
+<a id="orgca5b676"></a>
 
 # meeting notes November 20, 2022
 
 
-<a id="orgd6955d1"></a>
+<a id="org0f435cb"></a>
 
 ## the raku study group
 
@@ -40,17 +40,17 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov06.md>
 
 
-<a id="orgefe74e3"></a>
+<a id="org4fbd4b8"></a>
 
 ## promotion
 
 
-<a id="org3824326"></a>
+<a id="org169b8d1"></a>
 
 ### get on raku irc
 
 
-<a id="orga93bdb2"></a>
+<a id="orge5f7f3a"></a>
 
 ### other
 
@@ -59,24 +59,24 @@
 2.  post note to reddit/r/rakulang
 
 
-<a id="orgee3e10f"></a>
+<a id="org71b1877"></a>
 
 ## topics
 
 
-<a id="org8acb6db"></a>
+<a id="org6ca407c"></a>
 
 ### next meeting in 2 weeks, December 4th
 
 1.  Q: how would people feel about a new years day meeting, Jan 1st, 2023? A: Yeah, maybe
 
 
-<a id="org22d0dc2"></a>
+<a id="org6b38749"></a>
 
 ### messing with libera.chat, raku irc
 
 
-<a id="org788e7eb"></a>
+<a id="orga6ddf32"></a>
 
 ### jj merelo, "Raku Recipies"
 
@@ -159,6 +159,8 @@
             4.  <https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/bruce-gray/raku/ch-2.raku>
             
             5.  <https://github.com/PerlMonk-Athanasius/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/athanasius/raku/ch-1.raku#L119>
+            
+            6.  TODO Note: still need to cover Bruce Gray's solution.  Next time.
 
 9.  rob presents a table exploring whats going on with containers
 
@@ -173,16 +175,16 @@
             1.  <https://github.com/Raku/doc/issues/4133>
 
 
-<a id="org14c28f9"></a>
+<a id="orgf71362d"></a>
 
 ## announcements
 
 
-<a id="orgb061592"></a>
+<a id="org33f243d"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org8742500"></a>
+<a id="orgfaf64ef"></a>
 
 ### December 4th: the next raku study group meeting, in **2** weeks as usual
