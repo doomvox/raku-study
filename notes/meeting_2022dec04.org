@@ -13,3 +13,5 @@
 
 ** topics
 
+*** https://github.com/PerlMonk-Athanasius/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/athanasius/raku/ch-1.raku#L119
+**** still need to cover Bruce Gray's solution.  Next time.
