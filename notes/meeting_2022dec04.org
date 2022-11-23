@@ -1,0 +1,12 @@
+* meeting notes December 05, 2022
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec04.md
+****** source file (for corrections, etc)
+******* https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec04.org
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2022dec04
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md
+
