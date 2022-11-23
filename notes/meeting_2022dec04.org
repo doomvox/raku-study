@@ -10,3 +10,6 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md
 
+
+** topics
+

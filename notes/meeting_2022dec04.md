@@ -1,13 +1,14 @@
-- [meeting notes December 05, 2022](#orgeace1f0)
-  - [the raku study group](#org29818ca)
+- [meeting notes December 05, 2022](#org7ae727d)
+  - [the raku study group](#orgab03c18)
+  - [topics](#orgbc78ddc)
 
 
-<a id="orgeace1f0"></a>
+<a id="org7ae727d"></a>
 
 # meeting notes December 05, 2022
 
 
-<a id="org29818ca"></a>
+<a id="orgab03c18"></a>
 
 ## the raku study group
 
@@ -28,3 +29,8 @@
     3.  last meeting notes
     
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md>
+
+
+<a id="orgbc78ddc"></a>
+
+## topics
