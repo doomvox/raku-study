@@ -1,23 +1,23 @@
-- [meeting notes November 20, 2022](#org5b82615)
-  - [the raku study group](#org918f90b)
-  - [promotion](#orga1a461d)
-    - [get on raku irc](#orgd5b9b2e)
-    - [other](#org94566d6)
-  - [topics](#org374d4bc)
-    - [next meeting in 2 weeks, December 4th](#org6bc3987)
-    - [messing with libera.chat, raku irc](#orga689569)
-    - [jj merelo, "Raku Recipies"](#org6738c5a)
-  - [announcements](#org4b21915)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org372e419)
-    - [December 4th: the next raku study group meeting, in **2** weeks as usual](#org2f88e6d)
+- [meeting notes November 20, 2022](#orgc8262e9)
+  - [the raku study group](#org14df5fe)
+  - [promotion](#orga2e4730)
+    - [get on raku irc](#org59038c6)
+    - [other](#orgadc4975)
+  - [topics](#orgc479e4b)
+    - [next meeting in 2 weeks, December 4th](#org891c846)
+    - [messing with libera.chat, raku irc](#orgb5b716a)
+    - [jj merelo, "Raku Recipies"](#org9943915)
+  - [announcements](#org903d46b)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org5b67d7d)
+    - [December 4th: the next raku study group meeting, in **2** weeks as usual](#org94a8ddf)
 
 
-<a id="org5b82615"></a>
+<a id="orgc8262e9"></a>
 
 # meeting notes November 20, 2022
 
 
-<a id="org918f90b"></a>
+<a id="org14df5fe"></a>
 
 ## the raku study group
 
@@ -40,17 +40,17 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov06.md>
 
 
-<a id="orga1a461d"></a>
+<a id="orga2e4730"></a>
 
 ## promotion
 
 
-<a id="orgd5b9b2e"></a>
+<a id="org59038c6"></a>
 
 ### get on raku irc
 
 
-<a id="org94566d6"></a>
+<a id="orgadc4975"></a>
 
 ### other
 
@@ -59,24 +59,24 @@
 2.  post note to reddit/r/rakulang
 
 
-<a id="org374d4bc"></a>
+<a id="orgc479e4b"></a>
 
 ## topics
 
 
-<a id="org6bc3987"></a>
+<a id="org891c846"></a>
 
 ### next meeting in 2 weeks, December 4th
 
 1.  Q: how would people feel about a new years day meeting, Jan 1st, 2023? A: Yeah, maybe
 
 
-<a id="orga689569"></a>
+<a id="orgb5b716a"></a>
 
 ### messing with libera.chat, raku irc
 
 
-<a id="org6738c5a"></a>
+<a id="org9943915"></a>
 
 ### jj merelo, "Raku Recipies"
 
@@ -164,27 +164,31 @@
 
 9.  rob presents a table exploring whats going on with containers
 
-    1.  marton mentions an issue with using lists as bag values: doesn't work by default
+    1.  ![img](https://github.com/doomvox/raku-study/tree/main/bin/2022nov20//robs_decontainerizng_table.png)
+    
+    2.  local: /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022nov20/robs<sub>decontainerizng</sub><sub>table.png</sub>
+    
+    3.  marton mentions an issue with using lists as bag values: doesn't work by default
     
         1.  there's a list value module though, which covers the issue
     
-    2.  marton opened the issue:
+    4.  marton opened the issue:
     
         1.  "Improve the documentation of infix `:` #4133"
         
             1.  <https://github.com/Raku/doc/issues/4133>
 
 
-<a id="org4b21915"></a>
+<a id="org903d46b"></a>
 
 ## announcements
 
 
-<a id="org372e419"></a>
+<a id="org5b67d7d"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org2f88e6d"></a>
+<a id="org94a8ddf"></a>
 
 ### December 4th: the next raku study group meeting, in **2** weeks as usual
