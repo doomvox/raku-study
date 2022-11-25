@@ -48,9 +48,9 @@ if ( $proc_1 ) {
 
 
 # # using shell:
-# my $arg = 'Hello';
-# my $captured = shell("echo $arg", :out).out.slurp;
-# my $captured = qqx{echo $arg};
+my $arg = 'Hello';
+my $captured = shell("echo $arg", :out).out.slurp;
+my $captured = qqx{echo $arg};
 
 
 ## Try to make errors into warnings
