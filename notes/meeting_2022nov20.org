@@ -84,7 +84,6 @@
 ** announcements 
 *** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
-*** December 4th: the next raku study group meeting, in *2* weeks as usual
-
-
+*** December 4th: the next raku study group meeting.
+**** Um... wouldja believe December 18th?  Have to cancel the December 4th one.
 

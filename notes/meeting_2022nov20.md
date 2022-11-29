@@ -1,23 +1,23 @@
-- [meeting notes November 20, 2022](#orgc8262e9)
-  - [the raku study group](#org14df5fe)
-  - [promotion](#orga2e4730)
-    - [get on raku irc](#org59038c6)
-    - [other](#orgadc4975)
-  - [topics](#orgc479e4b)
-    - [next meeting in 2 weeks, December 4th](#org891c846)
-    - [messing with libera.chat, raku irc](#orgb5b716a)
-    - [jj merelo, "Raku Recipies"](#org9943915)
-  - [announcements](#org903d46b)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org5b67d7d)
-    - [December 4th: the next raku study group meeting, in **2** weeks as usual](#org94a8ddf)
+- [meeting notes November 20, 2022](#org4166e7b)
+  - [the raku study group](#orgf0589c2)
+  - [promotion](#orgfd7b582)
+    - [get on raku irc](#orgc017e82)
+    - [other](#orgb37bfff)
+  - [topics](#org6e26ddf)
+    - [next meeting in 2 weeks, December 4th](#org5287715)
+    - [messing with libera.chat, raku irc](#org009dc02)
+    - [jj merelo, "Raku Recipies"](#orgab39ed4)
+  - [announcements](#org93894a3)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org327d664)
+    - [December 4th: the next raku study group meeting.](#org2e78c15)
 
 
-<a id="orgc8262e9"></a>
+<a id="org4166e7b"></a>
 
 # meeting notes November 20, 2022
 
 
-<a id="org14df5fe"></a>
+<a id="orgf0589c2"></a>
 
 ## the raku study group
 
@@ -40,17 +40,17 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov06.md>
 
 
-<a id="orga2e4730"></a>
+<a id="orgfd7b582"></a>
 
 ## promotion
 
 
-<a id="org59038c6"></a>
+<a id="orgc017e82"></a>
 
 ### get on raku irc
 
 
-<a id="orgadc4975"></a>
+<a id="orgb37bfff"></a>
 
 ### other
 
@@ -59,24 +59,24 @@
 2.  post note to reddit/r/rakulang
 
 
-<a id="orgc479e4b"></a>
+<a id="org6e26ddf"></a>
 
 ## topics
 
 
-<a id="org891c846"></a>
+<a id="org5287715"></a>
 
 ### next meeting in 2 weeks, December 4th
 
 1.  Q: how would people feel about a new years day meeting, Jan 1st, 2023? A: Yeah, maybe
 
 
-<a id="orgb5b716a"></a>
+<a id="org009dc02"></a>
 
 ### messing with libera.chat, raku irc
 
 
-<a id="org9943915"></a>
+<a id="orgab39ed4"></a>
 
 ### jj merelo, "Raku Recipies"
 
@@ -179,16 +179,18 @@
             1.  <https://github.com/Raku/doc/issues/4133>
 
 
-<a id="org903d46b"></a>
+<a id="org93894a3"></a>
 
 ## announcements
 
 
-<a id="org5b67d7d"></a>
+<a id="org327d664"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org94a8ddf"></a>
+<a id="org2e78c15"></a>
 
-### December 4th: the next raku study group meeting, in **2** weeks as usual
+### December 4th: the next raku study group meeting.
+
+1.  Um&#x2026; wouldja believe December 18th?  Have to cancel the December 4th one.
