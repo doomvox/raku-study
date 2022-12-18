@@ -15,3 +15,5 @@ say $var;
 
 say $var.^mro;
 # ((IntStr) (Allomorph) (Str) (Int) (Cool) (Any) (Mu))
+
+say $var.^parents;
