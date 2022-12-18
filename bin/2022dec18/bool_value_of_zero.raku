@@ -21,4 +21,4 @@ say $s.Bool;  # True
 # raku -e 'say map *.so, <5>, <0>, 0;'
 # (True False False)
 
-say map *.so, <5>, <0>, 0;
+say map *.so, <5>, <0>, 0;  # (True False False)
