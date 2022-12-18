@@ -17,7 +17,7 @@ for @things -> $item {
     }
 
 say "===";
-for @things[0] -> $item {
+for @things[0] -> $item {  
     say $item.WHAT;
     say $item;
     }
@@ -33,3 +33,11 @@ for @things[0].list -> $item {
     say $item.WHAT;
     say $item;
     }
+
+say "===";
+for @things[0].list -> $array {
+    for $array -> $item { 
+        say $item.WHAT;
+        say $item;
+    }
+}
