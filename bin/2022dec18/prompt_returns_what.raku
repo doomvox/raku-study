@@ -18,6 +18,8 @@ say $var.^mro;
 say $var.^parents;
 # ((Allomorph) (Str) (Int))
 
+say "parents tree: ";
 say $var.^parents( :tree );
 
+say "parents all: ";
 say $var.^parents( :all );
