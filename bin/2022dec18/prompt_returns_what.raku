@@ -15,7 +15,9 @@ say $var;
 
 say $var.^mro;
 # ((IntStr) (Allomorph) (Str) (Int) (Cool) (Any) (Mu))
-
 say $var.^parents;
 # ((Allomorph) (Str) (Int))
 
+say $var.^parents( :tree );
+
+say $var.^parents( :all );
