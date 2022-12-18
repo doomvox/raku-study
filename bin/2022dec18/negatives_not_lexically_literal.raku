@@ -38,6 +38,6 @@ say "===";
 }
 
 {
-    sub foo ( Int --> (-1) ) {};
+    sub foo ( Int --> <-1> ) {};
     say foo(5); # -1
 }
