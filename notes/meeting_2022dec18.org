@@ -11,10 +11,6 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md
 
 ** promotion
-*** get on raku irc
-*** other 
-**** email liz, suggest a mention in raku weekly news?
-**** post note to reddit/r/rakulang
 
 ** topics
 *** next meeting in 2 weeks, December 4th
