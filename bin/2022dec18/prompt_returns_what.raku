@@ -8,3 +8,5 @@ my Int $var;
 
 $var = prompt("gimme an int: ");
 
+say $var.WHAT;
+say $var;
