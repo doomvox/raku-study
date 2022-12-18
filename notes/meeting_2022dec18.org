@@ -15,37 +15,13 @@
 
 *** jj merelo, "Raku Recipies"
 
-**** weekly challenge
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-190/
-****** PWC 190.1:
-******* https://theweeklychallenge.org/blog/perl-weekly-challenge-190/#TASK1
-******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/0rir/raku/ch-1.raku
-******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/2colours/raku/ch-1.raku
-******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/bruce-gray/raku/ch-1.raku
-
-****** PWC 190.2:
-******* https://theweeklychallenge.org/blog/perl-weekly-challenge-190/#TASK2
-******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/0rir/raku/ch-2.raku
-******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/2colours/raku/ch-2.raku
-******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/bruce-gray/raku/ch-2.raku
-
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-191/
-
-****** PWC 191.1:
-******* https://theweeklychallenge.org/blog/perl-weekly-challenge-191/#TASK1
-******* https://github.com/0rir/perlweeklychallenge-club/blob/191/challenge-191/0rir/raku/ch-1.raku
-******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-191/2colours/raku/ch-1.raku
-******* https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/bruce-gray/raku/ch-1.raku
-****** PWC 191.2:
-******* https://theweeklychallenge.org/blog/perl-weekly-challenge-191/#TASK2
-******* https://github.com/0rir/perlweeklychallenge-club/blob/191/challenge-191/0rir/raku/ch-2.raku
-******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-191/2colours/raku/ch-2.raku
-******* https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/bruce-gray/raku/ch-2.raku
-
-******* https://github.com/PerlMonk-Athanasius/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/athanasius/raku/ch-1.raku#L119
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-191/#TASK2
+***** skipped bruce gray's solution last time
+****** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/bruce-gray/raku/ch-2.raku
 
 
-******* TODO Note still need to cover Bruce Gray's solution.  Next time.
+**** most recent: https://theweeklychallenge.org/blog/perl-weekly-challenge-195/
 
 
 ** announcements 

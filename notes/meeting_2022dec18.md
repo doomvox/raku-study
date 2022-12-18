@@ -1,19 +1,20 @@
-- [meeting notes December 18, 2022](#org177e0fd)
-  - [the raku study group](#orgbf62431)
-  - [topics](#org1605cfc)
-    - [meeting schedule: back to every-other, with one on new years day](#orga2e3c2f)
-    - [jj merelo, "Raku Recipies"](#orgd4c340b)
-  - [announcements](#org816d8d4)
-    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org18a53bf)
-    - [next meeting: January 1st, the day after amateur night](#org8688f55)
+- [meeting notes December 18, 2022](#org0b5001b)
+  - [the raku study group](#orgab2931e)
+  - [topics](#orgcb895a7)
+    - [meeting schedule: back to every-other, with one on new years day](#org869f22b)
+    - [jj merelo, "Raku Recipies"](#org66290fc)
+    - [weekly challenge](#org3675928)
+  - [announcements](#orgf1717e9)
+    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org96e1b66)
+    - [next meeting: January 1st, the day after amateur night](#org634ea5f)
 
 
-<a id="org177e0fd"></a>
+<a id="org0b5001b"></a>
 
 # meeting notes December 18, 2022
 
 
-<a id="orgbf62431"></a>
+<a id="orgab2931e"></a>
 
 ## the raku study group
 
@@ -36,81 +37,44 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md>
 
 
-<a id="org1605cfc"></a>
+<a id="orgcb895a7"></a>
 
 ## topics
 
 
-<a id="orga2e3c2f"></a>
+<a id="org869f22b"></a>
 
 ### meeting schedule: back to every-other, with one on new years day
 
 
-<a id="orgd4c340b"></a>
+<a id="org66290fc"></a>
 
 ### jj merelo, "Raku Recipies"
 
-1.  weekly challenge
 
-    1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-190/>
+<a id="org3675928"></a>
+
+### weekly challenge
+
+1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-191/#TASK2>
+
+    1.  skipped bruce gray's solution last time
     
-        1.  PWC 190.1:
-        
-            1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-190/#TASK1>
-            
-            2.  <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/0rir/raku/ch-1.raku>
-            
-            3.  <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/2colours/raku/ch-1.raku>
-            
-            4.  <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/bruce-gray/raku/ch-1.raku>
-        
-        2.  PWC 190.2:
-        
-            1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-190/#TASK2>
-            
-            2.  <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/0rir/raku/ch-2.raku>
-            
-            3.  <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/2colours/raku/ch-2.raku>
-            
-            4.  <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/bruce-gray/raku/ch-2.raku>
-    
-    2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-191/>
-    
-        1.  PWC 191.1:
-        
-            1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-191/#TASK1>
-            
-            2.  <https://github.com/0rir/perlweeklychallenge-club/blob/191/challenge-191/0rir/raku/ch-1.raku>
-            
-            3.  <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-191/2colours/raku/ch-1.raku>
-            
-            4.  <https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/bruce-gray/raku/ch-1.raku>
-        
-        2.  PWC 191.2:
-        
-            1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-191/#TASK2>
-            
-            2.  <https://github.com/0rir/perlweeklychallenge-club/blob/191/challenge-191/0rir/raku/ch-2.raku>
-            
-            3.  <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-191/2colours/raku/ch-2.raku>
-            
-            4.  <https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/bruce-gray/raku/ch-2.raku>
-            
-            5.  <https://github.com/PerlMonk-Athanasius/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/athanasius/raku/ch-1.raku#L119>
-            
-            6.  TODO Note still need to cover Bruce Gray's solution.  Next time.
+        1.  <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/bruce-gray/raku/ch-2.raku>
+
+2.  most recent: <https://theweeklychallenge.org/blog/perl-weekly-challenge-195/>
 
 
-<a id="org816d8d4"></a>
+<a id="orgf1717e9"></a>
 
 ## announcements
 
 
-<a id="org18a53bf"></a>
+<a id="org96e1b66"></a>
 
 ### need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org8688f55"></a>
+<a id="org634ea5f"></a>
 
 ### next meeting: January 1st, the day after amateur night
