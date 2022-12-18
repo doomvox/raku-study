@@ -9,3 +9,6 @@ my $s = '0';
 
 say $i.Bool;  # False
 say $s.Bool;  # True
+
+my $any = prompt('gimme a 0:');
+say so $any;
