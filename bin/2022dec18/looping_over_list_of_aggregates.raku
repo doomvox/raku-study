@@ -8,7 +8,7 @@ my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslav
 my @bunnies  = < bugs peter easter gloria haruhi >;
 my @nothing  = < nada nope bupkes >;
 
-my @things = @monsters, @bunnies, @nothing.
+my @things = @monsters, @bunnies, @nothing;
 say @things.elems;
 
 for @things -> $item {
