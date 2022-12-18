@@ -22,3 +22,5 @@ say -1.succ;
 # -2
 
 say (-1).succ;
+# 0
+
