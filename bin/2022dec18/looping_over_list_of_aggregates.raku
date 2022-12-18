@@ -26,8 +26,6 @@ for @things[0] -> $item {
 # (Array)
 # [nada nope bupkes]
 
-
-
 say "===";
 for | @things[0] -> $item {
     say $item.WHAT;
