@@ -19,3 +19,5 @@ say (- 1)²;
 
 # marton:
 say -1.succ;
+# -2
+
