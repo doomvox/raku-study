@@ -16,3 +16,7 @@ for @things -> $item {
     say $item;
     }
 
+for @things[0] -> $item {
+    say $item.WHAT;
+    say $item;
+    }
