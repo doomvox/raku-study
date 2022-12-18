@@ -12,5 +12,6 @@ say $s.Bool;  # True
 
 while 1 { 
   my $any = prompt('gimme a 0:');
+  say $any.elems;
   say so $any;
 }
