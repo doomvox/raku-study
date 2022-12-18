@@ -1,19 +1,19 @@
-- [meeting notes December 18, 2022](#orge15625e)
-  - [the raku study group](#org0e7feb1)
-  - [topics](#org8284274)
-    - [meeting schedule: back to every-other, with one on new years day](#orgbf6d066)
-    - [jj merelo, "Raku Recipies"](#orgc648c17)
-  - [announcements](#orgb159d16)
-    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org77f0d47)
-    - [January 1st, the day after amateur night](#org01e424c)
+- [meeting notes December 18, 2022](#org177e0fd)
+  - [the raku study group](#orgbf62431)
+  - [topics](#org1605cfc)
+    - [meeting schedule: back to every-other, with one on new years day](#orga2e3c2f)
+    - [jj merelo, "Raku Recipies"](#orgd4c340b)
+  - [announcements](#org816d8d4)
+    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org18a53bf)
+    - [next meeting: January 1st, the day after amateur night](#org8688f55)
 
 
-<a id="orge15625e"></a>
+<a id="org177e0fd"></a>
 
 # meeting notes December 18, 2022
 
 
-<a id="org0e7feb1"></a>
+<a id="orgbf62431"></a>
 
 ## the raku study group
 
@@ -36,17 +36,17 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md>
 
 
-<a id="org8284274"></a>
+<a id="org1605cfc"></a>
 
 ## topics
 
 
-<a id="orgbf6d066"></a>
+<a id="orga2e3c2f"></a>
 
 ### meeting schedule: back to every-other, with one on new years day
 
 
-<a id="orgc648c17"></a>
+<a id="orgd4c340b"></a>
 
 ### jj merelo, "Raku Recipies"
 
@@ -101,16 +101,16 @@
             6.  TODO Note still need to cover Bruce Gray's solution.  Next time.
 
 
-<a id="orgb159d16"></a>
+<a id="org816d8d4"></a>
 
 ## announcements
 
 
-<a id="org77f0d47"></a>
+<a id="org18a53bf"></a>
 
 ### need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org01e424c"></a>
+<a id="org8688f55"></a>
 
-### January 1st, the day after amateur night
+### next meeting: January 1st, the day after amateur night

@@ -51,6 +51,6 @@
 ** announcements 
 *** need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023
 
-*** January 1st, the day after amateur night
+*** next meeting: January 1st, the day after amateur night
 
 
