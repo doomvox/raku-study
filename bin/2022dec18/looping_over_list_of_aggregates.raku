@@ -3,7 +3,7 @@
 # looping_over_list_of_aggregates.raku            18 Dec 2022 
 
 use v6;
-# A point Marton Polgar brought up
+# A point Marton Polgar brought up...
 
 my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
 my @bunnies  = < bugs peter easter gloria haruhi >;
