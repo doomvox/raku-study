@@ -25,3 +25,5 @@ say $var.^parents( :tree );
 
 say "parents all: ";
 say $var.^parents( :all );
+# parents all: 
+# ((Allomorph) (Str) (Int) (Cool) (Any) (Mu))
