@@ -6,4 +6,5 @@ use v6;
 
 my Int $var;
 
-$var = prompt("gimme an int");
+$var = prompt("gimme an int: ");
+
