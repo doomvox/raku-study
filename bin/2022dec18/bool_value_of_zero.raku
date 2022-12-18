@@ -10,8 +10,12 @@ my $s = '0';
 say $i.Bool;  # False
 say $s.Bool;  # True
 
-while 1 { 
-  my $any = prompt('gimme a 0:');
-  say $any.chars;
-  say so $any;
-}
+# while 1 { 
+#   my $any = prompt('gimme a 0:');
+#   say $any.chars;
+#   say so $any;
+# }
+
+
+raku -e 'say map *.so, <5>, <0>, 0;'
+(True False False)
