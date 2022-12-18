@@ -7,6 +7,5 @@ use v6;
 my $i = 0;
 my $s = '0';
 
-say $i.Bool;
-
-say $s.Bool;
+say $i.Bool;  # False
+say $s.Bool;  # True
