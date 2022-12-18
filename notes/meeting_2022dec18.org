@@ -11,8 +11,8 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md
 
 ** topics
-*** next meeting in 2 weeks, December 4th
-**** Q: how would people feel about a new years day meeting, Jan 1st, 2023? A: Yeah, maybe
+*** meeting schedule: back to every-other, with one on new years day
+
 *** messing with libera.chat, raku irc
 *** jj merelo, "Raku Recipies"
 **** https://link.springer.com/book/10.1007/978-1-4842-6109-5

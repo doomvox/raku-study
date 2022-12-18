@@ -1,20 +1,20 @@
-- [meeting notes December 18, 2022](#org39dd6e4)
-  - [the raku study group](#org5726420)
-  - [topics](#orgee644a5)
-    - [next meeting in 2 weeks, December 4th](#org4592b0d)
-    - [messing with libera.chat, raku irc](#org84f437c)
-    - [jj merelo, "Raku Recipies"](#org96fb1b5)
-  - [announcements](#orga47eb28)
-    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org4230fa0)
-    - [December 4th: the next raku study group meeting.](#orgbaff4e6)
+- [meeting notes December 18, 2022](#orgd6a58a8)
+  - [the raku study group](#org9fbff22)
+  - [topics](#org9d7a970)
+    - [meeting schedule: back to every-other, with one on new years day](#orgaaeb6ed)
+    - [messing with libera.chat, raku irc](#org30d3c26)
+    - [jj merelo, "Raku Recipies"](#org9509e92)
+  - [announcements](#org589785e)
+    - [lambert lum is looking for raku speakers for svperl on Jan 5, 2023](#org82d5589)
+    - [December 4th: the next raku study group meeting.](#org6abcc62)
 
 
-<a id="org39dd6e4"></a>
+<a id="orgd6a58a8"></a>
 
 # meeting notes December 18, 2022
 
 
-<a id="org5726420"></a>
+<a id="org9fbff22"></a>
 
 ## the raku study group
 
@@ -37,24 +37,22 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md>
 
 
-<a id="orgee644a5"></a>
+<a id="org9d7a970"></a>
 
 ## topics
 
 
-<a id="org4592b0d"></a>
+<a id="orgaaeb6ed"></a>
 
-### next meeting in 2 weeks, December 4th
-
-1.  Q: how would people feel about a new years day meeting, Jan 1st, 2023? A: Yeah, maybe
+### meeting schedule: back to every-other, with one on new years day
 
 
-<a id="org84f437c"></a>
+<a id="org30d3c26"></a>
 
 ### messing with libera.chat, raku irc
 
 
-<a id="org96fb1b5"></a>
+<a id="org9509e92"></a>
 
 ### jj merelo, "Raku Recipies"
 
@@ -157,17 +155,17 @@
             1.  <https://github.com/Raku/doc/issues/4133>
 
 
-<a id="orga47eb28"></a>
+<a id="org589785e"></a>
 
 ## announcements
 
 
-<a id="org4230fa0"></a>
+<a id="org82d5589"></a>
 
 ### lambert lum is looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="orgbaff4e6"></a>
+<a id="org6abcc62"></a>
 
 ### December 4th: the next raku study group meeting.
 
