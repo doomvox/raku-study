@@ -17,10 +17,15 @@ for @things -> $item {
     }
 
 say "===";
+# This is the weird one, we don't iterate over the 3 items in the array
 for @things[0] -> $item {  
     say $item.WHAT;
     say $item;
     }
+# (Array)
+# [nada nope bupkes]
+
+
 
 say "===";
 for | @things[0] -> $item {
