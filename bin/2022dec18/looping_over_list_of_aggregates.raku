@@ -23,7 +23,7 @@ for @things[0] -> $item {
     }
 
 say "===";
-for @things[0].slip -> $item {
+for | @things[0] -> $item {
     say $item.WHAT;
     say $item;
     }
