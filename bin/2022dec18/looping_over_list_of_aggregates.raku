@@ -11,6 +11,10 @@ my @nothing  = < nada nope bupkes >;
 my @things = @monsters, @bunnies, @nothing.
 say @things.elems;
 
+for @things -> $item {
+    say $item.WHAT;
+    say $item;
+    }
 
 
 
