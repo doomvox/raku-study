@@ -27,3 +27,6 @@ say "parents all: ";
 say $var.^parents( :all );
 # parents all: 
 # ((Allomorph) (Str) (Int) (Cool) (Any) (Mu))
+
+my Str $var2;
+$var2 = prompt("gimme an int: ");  ## Manually type  6 <return>
