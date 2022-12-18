@@ -4,7 +4,7 @@
 
 use v6;
 
-my Int $var;
+my Int $var;  ## must be Int *or any subclass*
 
 $var = prompt("gimme an int: ");  ## Manually type  6 <return>
 
