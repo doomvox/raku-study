@@ -20,6 +20,8 @@ say $var.^parents;
 
 say "parents tree: ";
 say $var.^parents( :tree );
+# parents tree: 
+# ([(Allomorph) [(Str) [(Cool) [(Any) [(Mu)]]]]] [(Int) [(Cool) [(Any) [(Mu)]]]])
 
 say "parents all: ";
 say $var.^parents( :all );
