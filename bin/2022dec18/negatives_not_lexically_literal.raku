@@ -9,3 +9,6 @@ use v6;
 ## raku -e 'say -1²'
 
 say -1²;
+# -1
+
+say - 1 ²;
