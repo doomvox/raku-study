@@ -6,7 +6,7 @@ use v6;
 
 my Int $var;
 
-$var = prompt("gimme an int: ");  ## Manually type in a 6
+$var = prompt("gimme an int: ");  ## Manually type  6 <return>
 
 say $var.WHAT;
 say $var;
