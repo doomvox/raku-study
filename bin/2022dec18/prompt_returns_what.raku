@@ -12,3 +12,5 @@ say $var.WHAT;
 say $var;
 # (IntStr)
 # 6
+
+say $var.^mro;
