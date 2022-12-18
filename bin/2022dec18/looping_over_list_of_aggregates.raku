@@ -27,3 +27,9 @@ for | @things[0] -> $item {
     say $item.WHAT;
     say $item;
     }
+
+say "===";
+for @things[0].list -> $item {
+    say $item.WHAT;
+    say $item;
+    }
