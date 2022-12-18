@@ -14,3 +14,4 @@ say $var;
 # 6
 
 say $var.^mro;
+# ((IntStr) (Allomorph) (Str) (Int) (Cool) (Any) (Mu))
