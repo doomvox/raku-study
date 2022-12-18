@@ -31,7 +31,7 @@ say (-1).succ;
 ## bruce 
 # raku -e 'sub foo ( Int --> <-1/1> ) {}; say foo(5);'
 
-say "===":
+say "===";
 {
     sub foo ( Int --> <-1/1> ) {};
     say foo(5);
