@@ -1,20 +1,20 @@
-- [meeting notes December 18, 2022](#org9b4ffe7)
-  - [the raku study group](#org6df7973)
-  - [topics](#orgf21d8db)
-    - [meeting schedule: back to every-other, with one on new years day](#orge917254)
-    - [jj merelo, "Raku Recipies"](#orgfd202e7)
-    - [weekly challenge](#org00499e1)
-  - [announcements](#org0d559a4)
-    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org65f0848)
-    - [next meeting: January 1st, the day after amateur night](#org18ba740)
+- [meeting notes December 18, 2022](#org72a79eb)
+  - [the raku study group](#orge0184ff)
+  - [topics](#org0059133)
+    - [meeting schedule: back to every-other, with one on new years day](#org3b4d8eb)
+    - [jj merelo, "Raku Recipies"](#orgcabda97)
+    - [weekly challenge](#orgad0ae3f)
+  - [announcements](#orga982ead)
+    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org1c93a81)
+    - [next meeting: January 1st, the day after amateur night](#orgac2f5c0)
 
 
-<a id="org9b4ffe7"></a>
+<a id="org72a79eb"></a>
 
 # meeting notes December 18, 2022
 
 
-<a id="org6df7973"></a>
+<a id="orge0184ff"></a>
 
 ## the raku study group
 
@@ -37,22 +37,22 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md>
 
 
-<a id="orgf21d8db"></a>
+<a id="org0059133"></a>
 
 ## topics
 
 
-<a id="orge917254"></a>
+<a id="org3b4d8eb"></a>
 
 ### meeting schedule: back to every-other, with one on new years day
 
 
-<a id="orgfd202e7"></a>
+<a id="orgcabda97"></a>
 
 ### jj merelo, "Raku Recipies"
 
 
-<a id="org00499e1"></a>
+<a id="orgad0ae3f"></a>
 
 ### weekly challenge
 
@@ -74,7 +74,7 @@
     
     2.  Task 2: Frequency Equalizer
     
-        1.  <https://blogs.perl.org/users/bruce_gray/2022/12/twc-194-bag-time.html> nice
+        1.  <https://blogs.perl.org/users/bruce_gray/2022/12/twc-194-bag-time.html>
 
 4.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-193/#TASK1>
 
@@ -89,16 +89,16 @@
     2.  Task 2: Equal Distribution
 
 
-<a id="org0d559a4"></a>
+<a id="orga982ead"></a>
 
 ## announcements
 
 
-<a id="org65f0848"></a>
+<a id="org1c93a81"></a>
 
 ### need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org18ba740"></a>
+<a id="orgac2f5c0"></a>
 
 ### next meeting: January 1st, the day after amateur night
