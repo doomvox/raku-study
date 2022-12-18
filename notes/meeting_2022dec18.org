@@ -29,6 +29,10 @@
 ***** Task 1: Digital Clock
 ***** Task 2: Frequency Equalizer
 
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-193/#TASK1
+
+
+
 ** announcements 
 *** need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023
 
