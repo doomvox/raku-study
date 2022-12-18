@@ -22,7 +22,16 @@ say -1.succ;
 # -2
 
 say - 1.succ;
+# -2
 
 say (-1).succ;
 # 0
 
+
+## bruce 
+# raku -e 'sub foo ( Int --> <-1/1> ) {}; say foo(5);'
+
+{
+    sub foo ( Int --> <-1/1> ) {};
+    say foo(5);'
+}
