@@ -33,5 +33,5 @@ say (-1).succ;
 
 {
     sub foo ( Int --> <-1/1> ) {};
-    say foo(5);'
+    say foo(5);
 }
