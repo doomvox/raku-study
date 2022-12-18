@@ -30,3 +30,5 @@ say $var.^parents( :all );
 
 my Str $var2;
 $var2 = prompt("gimme an int: ");  ## Manually type  6 <return>
+say $var2.WHAT;
+say $var2;
