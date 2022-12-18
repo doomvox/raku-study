@@ -13,26 +13,7 @@
 ** topics
 *** meeting schedule: back to every-other, with one on new years day
 
-*** messing with libera.chat, raku irc
 *** jj merelo, "Raku Recipies"
-**** https://link.springer.com/book/10.1007/978-1-4842-6109-5
-**** normally, $40 ebook, $50 softcover
-**** randomly, I got offered the softcover for $10 ($11 with tax)
-**** theory: check the page a lot and seem like a hesitant buyer
-**** notes: code examples up at github
-***** TODO go through some in advance of having the text?
-
-**** saw similar things with this R 4 tutorial book
-***** https://link.springer.com/book/10.1007/978-1-4842-6053-1
-***** by the way, R 4.0 came out in 2020
-****** https://analyticsindiamag.com/r-4-0-released-whats-in-it-for-data-scientists/
-******* the regexs use the PCRE2 library now
-******* uses reference counting on objects
-******* getting rid of braindead strings-as-factors behavior
-
-**** Perl5: William Michels question about a perl rest-api demo
-***** https://github.com/doomvox/raku-study/tree/main/bin/2022nov20/rest_api_demo.pl
-***** local: /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022nov20/rest_api_demo.pl
 
 **** weekly challenge
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-190/
@@ -66,18 +47,10 @@
 
 ******* TODO Note still need to cover Bruce Gray's solution.  Next time.
 
-**** rob presents a table exploring whats going on with containers
-***** https://github.com/doomvox/raku-study/tree/main/bin/2022nov20//robs_decontainerizng_table.png
-***** local: /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022nov20/robs_decontainerizng_table.png
-***** marton mentions an issue with using lists as bag values: doesn't work by default
-****** there's a list value module though, which covers the issue
-***** marton opened the issue:
-****** "Improve the documentation of infix =:= #4133"
-******* https://github.com/Raku/doc/issues/4133
 
 ** announcements 
-*** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
+*** need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023
 
-*** December 4th: the next raku study group meeting.
-**** Um... wouldja believe December 18th?  Have to cancel the December 4th one.
+*** January 1st, the day after amateur night
+
 
