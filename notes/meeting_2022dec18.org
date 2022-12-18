@@ -1,0 +1,89 @@
+* meeting notes December 18, 2022
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.md
+****** source file (for corrections, etc)
+******* https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.org
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2022dec18
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md
+
+** promotion
+*** get on raku irc
+*** other 
+**** email liz, suggest a mention in raku weekly news?
+**** post note to reddit/r/rakulang
+
+** topics
+*** next meeting in 2 weeks, December 4th
+**** Q: how would people feel about a new years day meeting, Jan 1st, 2023? A: Yeah, maybe
+*** messing with libera.chat, raku irc
+*** jj merelo, "Raku Recipies"
+**** https://link.springer.com/book/10.1007/978-1-4842-6109-5
+**** normally, $40 ebook, $50 softcover
+**** randomly, I got offered the softcover for $10 ($11 with tax)
+**** theory: check the page a lot and seem like a hesitant buyer
+**** notes: code examples up at github
+***** TODO go through some in advance of having the text?
+
+**** saw similar things with this R 4 tutorial book
+***** https://link.springer.com/book/10.1007/978-1-4842-6053-1
+***** by the way, R 4.0 came out in 2020
+****** https://analyticsindiamag.com/r-4-0-released-whats-in-it-for-data-scientists/
+******* the regexs use the PCRE2 library now
+******* uses reference counting on objects
+******* getting rid of braindead strings-as-factors behavior
+
+**** Perl5: William Michels question about a perl rest-api demo
+***** https://github.com/doomvox/raku-study/tree/main/bin/2022nov20/rest_api_demo.pl
+***** local: /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022nov20/rest_api_demo.pl
+
+**** weekly challenge
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-190/
+****** PWC 190.1:
+******* https://theweeklychallenge.org/blog/perl-weekly-challenge-190/#TASK1
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/0rir/raku/ch-1.raku
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/2colours/raku/ch-1.raku
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/bruce-gray/raku/ch-1.raku
+
+****** PWC 190.2:
+******* https://theweeklychallenge.org/blog/perl-weekly-challenge-190/#TASK2
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/0rir/raku/ch-2.raku
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/2colours/raku/ch-2.raku
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-190/bruce-gray/raku/ch-2.raku
+
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-191/
+
+****** PWC 191.1:
+******* https://theweeklychallenge.org/blog/perl-weekly-challenge-191/#TASK1
+******* https://github.com/0rir/perlweeklychallenge-club/blob/191/challenge-191/0rir/raku/ch-1.raku
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-191/2colours/raku/ch-1.raku
+******* https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/bruce-gray/raku/ch-1.raku
+****** PWC 191.2:
+******* https://theweeklychallenge.org/blog/perl-weekly-challenge-191/#TASK2
+******* https://github.com/0rir/perlweeklychallenge-club/blob/191/challenge-191/0rir/raku/ch-2.raku
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-191/2colours/raku/ch-2.raku
+******* https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/bruce-gray/raku/ch-2.raku
+
+******* https://github.com/PerlMonk-Athanasius/perlweeklychallenge-club/blob/branch-for-challenge-191/challenge-191/athanasius/raku/ch-1.raku#L119
+
+
+******* TODO Note still need to cover Bruce Gray's solution.  Next time.
+
+**** rob presents a table exploring whats going on with containers
+***** https://github.com/doomvox/raku-study/tree/main/bin/2022nov20//robs_decontainerizng_table.png
+***** local: /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022nov20/robs_decontainerizng_table.png
+***** marton mentions an issue with using lists as bag values: doesn't work by default
+****** there's a list value module though, which covers the issue
+***** marton opened the issue:
+****** "Improve the documentation of infix =:= #4133"
+******* https://github.com/Raku/doc/issues/4133
+
+** announcements 
+*** lambert lum is looking for raku speakers for svperl on Jan 5, 2023
+
+*** December 4th: the next raku study group meeting.
+**** Um... wouldja believe December 18th?  Have to cancel the December 4th one.
+
