@@ -22,6 +22,8 @@
 
 
 **** most recent: https://theweeklychallenge.org/blog/perl-weekly-challenge-195/
+***** Task 1: Special Integers
+***** Task 2: Most Frequent Even
 
 
 ** announcements 
