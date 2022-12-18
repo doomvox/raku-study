@@ -23,4 +23,4 @@ say $s.Bool;  # True
 
 say map *.so, <5>, <0>, 0;  # (True False False)
 
-say so '0';
+say so '0'; # True
