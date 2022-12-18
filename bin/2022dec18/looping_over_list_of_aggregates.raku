@@ -15,6 +15,7 @@ for @things -> $item {
     say $item.WHAT;
     say $item;
     }
+
 say "===";
 for @things[0] -> $item {
     say $item.WHAT;
