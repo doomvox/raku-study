@@ -38,6 +38,6 @@ say "===";
 }
 
 {
-    sub foo ( Int --> <-1> ) {};
+    sub foo ( Int --> <-1> ) {};  ## Malformed return value  ((???))
     say foo(5); # -1
 }
