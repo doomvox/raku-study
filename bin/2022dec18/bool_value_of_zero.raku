@@ -17,5 +17,6 @@ say $s.Bool;  # True
 # }
 
 
+## bruce gray
 raku -e 'say map *.so, <5>, <0>, 0;'
 (True False False)
