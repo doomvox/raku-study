@@ -25,6 +25,9 @@
 ***** Task 1: Special Integers
 ***** Task 2: Most Frequent Even
 
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-194/#TASK1
+***** Task 1: Digital Clock
+***** Task 2: Frequency Equalizer
 
 ** announcements 
 *** need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023
