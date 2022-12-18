@@ -33,6 +33,10 @@
 ***** Task 1: Binary String
 ***** Task 2: Odd String
 
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-192/#TASK1
+***** Task 1: Binary Flip
+***** Task 2: Equal Distribution
+
 ** announcements 
 *** need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023
 
