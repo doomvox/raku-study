@@ -27,6 +27,8 @@
 ******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-195/2colours/raku/ch-1.raku
 ****** bruce gray suggests an alternate when you know you're calling exactly the same routine 
 ******* &?ROUTINE
+****** W. Luis Mochán. blog.
+******* https://wlmb.github.io/2022/12/12/PWC195/
 
 ***** Task 2: Most Frequent Even
 
