@@ -1,20 +1,20 @@
-- [meeting notes December 18, 2022](#org5b77294)
-  - [the raku study group](#org77ae5e1)
-  - [topics](#org93d4e8b)
-    - [meeting schedule: back to every-other, with one on new years day](#orgfb1cfc1)
-    - [jj merelo, "Raku Recipies"](#org71509bf)
-    - [weekly challenge](#orgac97f6b)
-  - [announcements](#org57695ad)
-    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org57ef98f)
-    - [next meeting: January 1st, the day after amateur night](#org977cf41)
+- [meeting notes December 18, 2022](#org5cf5fe3)
+  - [the raku study group](#org297f19b)
+  - [topics](#org2289e98)
+    - [meeting schedule: back to every-other, with one on new years day](#org7c01ae4)
+    - [jj merelo, "Raku Recipies"](#org68f813a)
+    - [weekly challenge](#orgea1c7c3)
+  - [announcements](#org1cf3efc)
+    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org39b3aba)
+    - [next meeting: January 1st, the day after amateur night](#org9438610)
 
 
-<a id="org5b77294"></a>
+<a id="org5cf5fe3"></a>
 
 # meeting notes December 18, 2022
 
 
-<a id="org77ae5e1"></a>
+<a id="org297f19b"></a>
 
 ## the raku study group
 
@@ -37,22 +37,22 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md>
 
 
-<a id="org93d4e8b"></a>
+<a id="org2289e98"></a>
 
 ## topics
 
 
-<a id="orgfb1cfc1"></a>
+<a id="org7c01ae4"></a>
 
 ### meeting schedule: back to every-other, with one on new years day
 
 
-<a id="org71509bf"></a>
+<a id="org68f813a"></a>
 
 ### jj merelo, "Raku Recipies"
 
 
-<a id="orgac97f6b"></a>
+<a id="orgea1c7c3"></a>
 
 ### weekly challenge
 
@@ -65,6 +65,12 @@
 2.  most recent: <https://theweeklychallenge.org/blog/perl-weekly-challenge-195/>
 
     1.  Task 1: Special Integers
+    
+        1.  marton polgar showed a recursive solution using samewith and multidispatch
+        
+        2.  bruce gray suggests an alternate when you know you're calling exactly the same routine
+        
+            1.  &?ROUTINE
     
     2.  Task 2: Most Frequent Even
 
@@ -89,16 +95,16 @@
     2.  Task 2: Equal Distribution
 
 
-<a id="org57695ad"></a>
+<a id="org1cf3efc"></a>
 
 ## announcements
 
 
-<a id="org57ef98f"></a>
+<a id="org39b3aba"></a>
 
 ### need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org977cf41"></a>
+<a id="org9438610"></a>
 
 ### next meeting: January 1st, the day after amateur night
