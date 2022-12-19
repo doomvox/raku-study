@@ -24,6 +24,7 @@
 **** most recent: https://theweeklychallenge.org/blog/perl-weekly-challenge-195/
 ***** Task 1: Special Integers
 ****** marton polgar showed a recursive solution using samewith and multidispatch
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-195/2colours/raku/ch-1.raku
 ****** bruce gray suggests an alternate when you know you're calling exactly the same routine 
 ******* &?ROUTINE
 

@@ -1,20 +1,20 @@
-- [meeting notes December 18, 2022](#org5cf5fe3)
-  - [the raku study group](#org297f19b)
-  - [topics](#org2289e98)
-    - [meeting schedule: back to every-other, with one on new years day](#org7c01ae4)
-    - [jj merelo, "Raku Recipies"](#org68f813a)
-    - [weekly challenge](#orgea1c7c3)
-  - [announcements](#org1cf3efc)
-    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org39b3aba)
-    - [next meeting: January 1st, the day after amateur night](#org9438610)
+- [meeting notes December 18, 2022](#org595ef70)
+  - [the raku study group](#org9ce7f4a)
+  - [topics](#orgc882162)
+    - [meeting schedule: back to every-other, with one on new years day](#org46c5deb)
+    - [jj merelo, "Raku Recipies"](#org096f671)
+    - [weekly challenge](#org47da1ed)
+  - [announcements](#org42eb25f)
+    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org160350c)
+    - [next meeting: January 1st, the day after amateur night](#orga13a2b3)
 
 
-<a id="org5cf5fe3"></a>
+<a id="org595ef70"></a>
 
 # meeting notes December 18, 2022
 
 
-<a id="org297f19b"></a>
+<a id="org9ce7f4a"></a>
 
 ## the raku study group
 
@@ -37,22 +37,22 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md>
 
 
-<a id="org2289e98"></a>
+<a id="orgc882162"></a>
 
 ## topics
 
 
-<a id="org7c01ae4"></a>
+<a id="org46c5deb"></a>
 
 ### meeting schedule: back to every-other, with one on new years day
 
 
-<a id="org68f813a"></a>
+<a id="org096f671"></a>
 
 ### jj merelo, "Raku Recipies"
 
 
-<a id="orgea1c7c3"></a>
+<a id="org47da1ed"></a>
 
 ### weekly challenge
 
@@ -67,6 +67,8 @@
     1.  Task 1: Special Integers
     
         1.  marton polgar showed a recursive solution using samewith and multidispatch
+        
+            1.  <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-195/2colours/raku/ch-1.raku>
         
         2.  bruce gray suggests an alternate when you know you're calling exactly the same routine
         
@@ -95,16 +97,16 @@
     2.  Task 2: Equal Distribution
 
 
-<a id="org1cf3efc"></a>
+<a id="org42eb25f"></a>
 
 ## announcements
 
 
-<a id="org39b3aba"></a>
+<a id="org160350c"></a>
 
 ### need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org9438610"></a>
+<a id="orga13a2b3"></a>
 
 ### next meeting: January 1st, the day after amateur night
