@@ -51,4 +51,5 @@
 
 *** next meeting: January 1st, the day after amateur night
 
-
+dpchrist: "I have a discussion question-- what business model works
+best independent Perl authors?"

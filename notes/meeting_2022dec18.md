@@ -1,20 +1,20 @@
-- [meeting notes December 18, 2022](#org5dd5e2e)
-  - [the raku study group](#org3d9cde8)
-  - [topics](#org0307397)
-    - [meeting schedule: back to every-other, with one on new years day](#orge4d872a)
-    - [jj merelo, "Raku Recipies"](#org74d0c69)
-    - [weekly challenge](#org20fc226)
-  - [announcements](#orge9b433a)
-    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org37bce0b)
-    - [next meeting: January 1st, the day after amateur night](#org063b1e6)
+- [meeting notes December 18, 2022](#org0d0a05a)
+  - [the raku study group](#orgdb9e39b)
+  - [topics](#org8020177)
+    - [meeting schedule: back to every-other, with one on new years day](#org6d55d7b)
+    - [jj merelo, "Raku Recipies"](#org169b05b)
+    - [weekly challenge](#org0ef33a7)
+  - [announcements](#orgcc7063a)
+    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org04ba4de)
+    - [next meeting: January 1st, the day after amateur night](#orgb99759b)
 
 
-<a id="org5dd5e2e"></a>
+<a id="org0d0a05a"></a>
 
 # meeting notes December 18, 2022
 
 
-<a id="org3d9cde8"></a>
+<a id="orgdb9e39b"></a>
 
 ## the raku study group
 
@@ -37,22 +37,22 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md>
 
 
-<a id="org0307397"></a>
+<a id="org8020177"></a>
 
 ## topics
 
 
-<a id="orge4d872a"></a>
+<a id="org6d55d7b"></a>
 
 ### meeting schedule: back to every-other, with one on new years day
 
 
-<a id="org74d0c69"></a>
+<a id="org169b05b"></a>
 
 ### jj merelo, "Raku Recipies"
 
 
-<a id="org20fc226"></a>
+<a id="org0ef33a7"></a>
 
 ### weekly challenge
 
@@ -101,16 +101,18 @@
     2.  Task 2: Equal Distribution
 
 
-<a id="orge9b433a"></a>
+<a id="orgcc7063a"></a>
 
 ## announcements
 
 
-<a id="org37bce0b"></a>
+<a id="org04ba4de"></a>
 
 ### need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org063b1e6"></a>
+<a id="orgb99759b"></a>
 
 ### next meeting: January 1st, the day after amateur night
+
+dpchrist: "I have a discussion question&#x2013; what business model works best independent Perl authors?"
