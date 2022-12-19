@@ -1,20 +1,20 @@
-- [meeting notes December 18, 2022](#org1b86974)
-  - [the raku study group](#org29f82b5)
-  - [topics](#orgefe52a5)
-    - [meeting schedule: back to every-other, with one on new years day](#org8288ddf)
-    - [jj merelo, "Raku Recipies"](#orgde00228)
-    - [weekly challenge](#org2cc2b73)
-  - [announcements](#orge340908)
-    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org3411b08)
-    - [next meeting: January 1st, the day after amateur night](#org43f3b7a)
+- [meeting notes December 18, 2022](#org285ac9d)
+  - [the raku study group](#org68d1f03)
+  - [topics](#org2ed3d7c)
+    - [meeting schedule: back to every-other, with one on new years day](#org90c48ec)
+    - [jj merelo, "Raku Recipies"](#org59a12be)
+    - [weekly challenge](#orgd3ce237)
+  - [announcements](#org149c32c)
+    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org9f30960)
+    - [next meeting: January 1st, the day after amateur night](#org077302a)
 
 
-<a id="org1b86974"></a>
+<a id="org285ac9d"></a>
 
 # meeting notes December 18, 2022
 
 
-<a id="org29f82b5"></a>
+<a id="org68d1f03"></a>
 
 ## the raku study group
 
@@ -37,22 +37,22 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md>
 
 
-<a id="orgefe52a5"></a>
+<a id="org2ed3d7c"></a>
 
 ## topics
 
 
-<a id="org8288ddf"></a>
+<a id="org90c48ec"></a>
 
 ### meeting schedule: back to every-other, with one on new years day
 
 
-<a id="orgde00228"></a>
+<a id="org59a12be"></a>
 
 ### jj merelo, "Raku Recipies"
 
 
-<a id="org2cc2b73"></a>
+<a id="orgd3ce237"></a>
 
 ### weekly challenge
 
@@ -103,17 +103,17 @@
     2.  Task 2: Equal Distribution
 
 
-<a id="orge340908"></a>
+<a id="org149c32c"></a>
 
 ## announcements
 
 
-<a id="org3411b08"></a>
+<a id="org9f30960"></a>
 
 ### need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="org43f3b7a"></a>
+<a id="org077302a"></a>
 
 ### next meeting: January 1st, the day after amateur night
 

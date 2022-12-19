@@ -33,7 +33,6 @@
 
 ***** Task 2: Most Frequent Even
 
-
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-194/#TASK1
 ***** Task 1: Digital Clock
 ***** Task 2: Frequency Equalizer
