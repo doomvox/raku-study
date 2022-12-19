@@ -29,6 +29,7 @@
 ******* &?ROUTINE
 ****** W. Luis Mochán. blog.
 ******* https://wlmb.github.io/2022/12/12/PWC195/
+******* knuth: falling powers, programmer friendly approach to combinatorics
 
 ***** Task 2: Most Frequent Even
 

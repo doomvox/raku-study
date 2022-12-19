@@ -1,20 +1,20 @@
-- [meeting notes December 18, 2022](#org0d0a05a)
-  - [the raku study group](#orgdb9e39b)
-  - [topics](#org8020177)
-    - [meeting schedule: back to every-other, with one on new years day](#org6d55d7b)
-    - [jj merelo, "Raku Recipies"](#org169b05b)
-    - [weekly challenge](#org0ef33a7)
-  - [announcements](#orgcc7063a)
-    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org04ba4de)
-    - [next meeting: January 1st, the day after amateur night](#orgb99759b)
+- [meeting notes December 18, 2022](#org1b86974)
+  - [the raku study group](#org29f82b5)
+  - [topics](#orgefe52a5)
+    - [meeting schedule: back to every-other, with one on new years day](#org8288ddf)
+    - [jj merelo, "Raku Recipies"](#orgde00228)
+    - [weekly challenge](#org2cc2b73)
+  - [announcements](#orge340908)
+    - [need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023](#org3411b08)
+    - [next meeting: January 1st, the day after amateur night](#org43f3b7a)
 
 
-<a id="org0d0a05a"></a>
+<a id="org1b86974"></a>
 
 # meeting notes December 18, 2022
 
 
-<a id="orgdb9e39b"></a>
+<a id="org29f82b5"></a>
 
 ## the raku study group
 
@@ -37,22 +37,22 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022nov20.md>
 
 
-<a id="org8020177"></a>
+<a id="orgefe52a5"></a>
 
 ## topics
 
 
-<a id="org6d55d7b"></a>
+<a id="org8288ddf"></a>
 
 ### meeting schedule: back to every-other, with one on new years day
 
 
-<a id="org169b05b"></a>
+<a id="orgde00228"></a>
 
 ### jj merelo, "Raku Recipies"
 
 
-<a id="org0ef33a7"></a>
+<a id="org2cc2b73"></a>
 
 ### weekly challenge
 
@@ -77,6 +77,8 @@
         3.  W. Luis Mochán. blog.
         
             1.  <https://wlmb.github.io/2022/12/12/PWC195/>
+            
+            2.  knuth: falling powers, programmer friendly approach to combinatorics
     
     2.  Task 2: Most Frequent Even
 
@@ -101,17 +103,17 @@
     2.  Task 2: Equal Distribution
 
 
-<a id="orgcc7063a"></a>
+<a id="orge340908"></a>
 
 ## announcements
 
 
-<a id="org04ba4de"></a>
+<a id="org3411b08"></a>
 
 ### need to check in with lambert lum, who was looking for raku speakers for svperl on Jan 5, 2023
 
 
-<a id="orgb99759b"></a>
+<a id="org43f3b7a"></a>
 
 ### next meeting: January 1st, the day after amateur night
 
