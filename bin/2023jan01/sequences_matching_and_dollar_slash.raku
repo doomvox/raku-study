@@ -51,3 +51,13 @@ use v6;
 #     say 1 ... /9/;  # (1 2 3 4 5 6 7 8 9)
 #     say $/;         # Nil
 # }
+
+
+
+## I was confused about $/ being visible across blocks, it's specific to routines, bg example:
+
+# raku -e '{my $foo = "abcd"; $foo ~~ /b.d/;}; say $/;'
+# ｢bcd｣
+# raku -e 'sub foo ($s) {$s ~~ /b.d/; say $/;}; foo("abcd"); say $/;'
+# ｢bcd｣
+# Nil 
