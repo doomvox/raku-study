@@ -47,7 +47,7 @@ juststuffit();
 
 say "===";
 for 1..3 {
-    once {say 42};
+    once { say 42 };
 }
 # 1
 # 42
