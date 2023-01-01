@@ -1,0 +1,14 @@
+* meeting notes January 01, 2023
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023jan01.md
+****** source file (for corrections, etc)
+******* https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023jan01.org
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2023jan01
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.md
+
+** topics
+*** So, how well does a New Year's Day meeting work, any way?
