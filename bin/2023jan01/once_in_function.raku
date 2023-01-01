@@ -25,6 +25,6 @@ dostuff(); # 3
 
 
 sub otherstuff {
-     once "We are doing stuff (again).";
+     once "We are doing OTHER stuff (again).";
      say 3; 
 }
