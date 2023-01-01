@@ -22,7 +22,7 @@ use v6;
 {
    my $seq = 1 ... 3;
    $seq ~~ /2/;
-   say $/;
+   say $/; # Nil
 }
 
 
