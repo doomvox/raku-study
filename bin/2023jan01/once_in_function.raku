@@ -45,4 +45,9 @@ sub juststuffit {
 juststuffit();
 
 
-# raku -e 'for 1..3 { say $_; once {say 42};}'
+say "===";
+
+for 1..3 {
+    say $_;
+    once {say 42};
+}
