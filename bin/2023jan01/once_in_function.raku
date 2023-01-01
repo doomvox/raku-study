@@ -21,3 +21,10 @@ sub dostuff {
 
 dostuff(); # 3
 dostuff(); # 3
+
+
+
+sub otherstuff {
+     once "We are doing stuff (again).";
+     say 3; 
+}
