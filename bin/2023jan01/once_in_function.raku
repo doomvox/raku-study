@@ -60,5 +60,6 @@ sub do_one {
     once { say 42 };
 }
 for 1..3 {
+    say $_;
     do_one;
 }
