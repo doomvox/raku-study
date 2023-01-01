@@ -11,7 +11,7 @@ loop {
     once { put 'Once!' };  # Once!
     print 'many'           
 } 
-
+say "\n";
 
 # dostuff();
 # sub dostuff {
