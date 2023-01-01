@@ -11,13 +11,14 @@ loop {
     once { put 'Once!' };  # Once!
     print 'many'           
 } 
-# manymanymany
 say "\n";
+# manymanymany
 
-# dostuff();
-# sub dostuff {
-#     once "We are doing stuff (again).";
-#     say 3;
-#  }
+
+dostuff();
+sub dostuff {
+     once "We are doing stuff (again).";
+     say 3;
+ }
 
 
