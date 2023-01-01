@@ -26,6 +26,8 @@
 **** dpchrist: "I have a discussion question-- what business model works best independent Perl [developer]?"
 ***** my thought: what would cPanel do?
 
+
+
 *** rob question about reorg of docs
 **** 
 https://github.com/Raku/doc/pull/4174
