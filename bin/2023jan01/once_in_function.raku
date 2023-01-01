@@ -19,6 +19,6 @@ dostuff();
 sub dostuff {
      once "We are doing stuff (again).";
      say 3;
- }
+}
 
 
