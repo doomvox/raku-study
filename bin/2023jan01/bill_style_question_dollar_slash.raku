@@ -19,6 +19,11 @@ $_ = 'gracefully'
 put "The root of $_ is $/." if / .+ <?before ly> /;
 # The root of gracefully is graceful.
 
+
+
+
+
+
 # [1b] > put "The root of $_ is $<>." if / .+ <?before ly> /;
 # The root of gracefully is graceful.
 # [1c] > print "The root of $_ is " andthen put $/ ~ '.' if / .+ <?before ly>
