@@ -20,3 +20,4 @@ sub dostuff {
 }
 
 dostuff(); # 3
+dostuff(); # 3
