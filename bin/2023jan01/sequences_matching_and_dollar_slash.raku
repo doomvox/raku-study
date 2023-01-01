@@ -7,7 +7,7 @@ use v6;
 {
   my $obj = "8903" ~~ /9/;
   say $/;    # ｢9｣
-  say $obj;
+  say $obj;  # ｢9｣
 }
 
 {
