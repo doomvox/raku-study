@@ -20,6 +20,7 @@ use v6;
 }
 
 {
+   say /2/.WHAT; 
    my $seq = 1 ... 3;
    if $seq ~~ /2/ {
        say "we have found a 2 in the seq";
