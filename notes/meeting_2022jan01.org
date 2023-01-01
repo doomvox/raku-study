@@ -62,5 +62,5 @@ find . -type f -name "*.pm6" | xargs egrep deepmap
 ** announcements 
 *** next meeting: January 15th
 
-*** vaddim doing a class: 
+*** vadim is doing a zoom class, Jan 7, 2023 (I presume): 
 https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10896.html
