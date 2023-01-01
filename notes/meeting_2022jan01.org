@@ -39,5 +39,26 @@ https://github.com/Raku/doc/pull/4174
 **** https://github.com/rakudo/rakudo/issues/4435
 **** simple question: where is deepmap defined?
 
+find . -type f -name "*.pm6" | xargs egrep deepmap
+./src/core.c/Slip.pm6:    multi method deepmap(Slip:D: &) {
+./src/core.c/metaops.pm6:    nqp::can(&op,"nodal") ?? *.nodemap(&op) !! *.deepmap(&op)
+./src/core.c/metaops.pm6:    nqp::can(&op,"nodal") ?? obj.nodemap(&op) !! obj.deepmap(&op)
+./src/core.c/metaops.pm6:      !! obj.deepmap(-> \o { op(o, @args) })
+./src/core.c/metaops.pm6:      !! obj.deepmap( -> \o { op(o,|args) })
+./src/core.c/metaops.pm6:    nqp::can(&op,"nodal") ?? *.nodemap(&op) !! *.deepmap(&op)
+./src/core.c/metaops.pm6:    list.deepmap(-> &code { code(|args) })
+./src/core.c/Hyper.pm6:          !! object.deepmap($!operator)
+./src/core.c/Any-iterable-methods.pm6:    proto method deepmap(|) is nodal {*}
+./src/core.c/Any-iterable-methods.pm6:    multi method deepmap(Associative:D: &op) {
+./src/core.c/Any-iterable-methods.pm6:        self.new.STORE: self.keys, self.values.deepmap(&op), :INITIALIZE
+./src/core.c/Any-iterable-methods.pm6:    multi method deepmap(&op) {
+./src/core.c/Any-iterable-methods.pm6:        sub deep(\value) is raw { my $ = value.deepmap(&op) }
+./src/core.c/Any-iterable-methods.pm6:proto sub deepmap($, $, *%) {*}
+./src/core.c/Any-iterable-methods.pm6:multi sub deepmap(&op, \obj) { obj.deepmap(&op) }
+./src/core.c/Baggy.pm6:    multi method deepmap(Baggy:D: &mapper) {
+./src/core.c/Mixy.pm6:    multi method deepmap(Mixy:D: &mapper) {
+./src/core.c/Setty.pm6:    multi method deepmap(Setty:D: &mapper) {
+
+
 ** announcements 
 *** next meeting: January 15th
