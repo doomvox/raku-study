@@ -12,7 +12,7 @@ use v6;
 
 {
     say $/;  # ｢9｣
-    say $obj;
+    # say $obj;  # error, not declared
 }
 
 {
