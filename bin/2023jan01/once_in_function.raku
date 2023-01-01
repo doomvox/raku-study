@@ -18,3 +18,4 @@ sub dostuff {
     say 3;
  }
 
+dostuff();
