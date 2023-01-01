@@ -63,3 +63,11 @@ for 1..3 {
     say $_;
     do_one;
 }
+
+# ===
+# 1
+# 42
+# 2
+# 3
+
+# That's worked the way I'd want it to... bg saw something else?
