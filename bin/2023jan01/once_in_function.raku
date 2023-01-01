@@ -11,6 +11,7 @@ loop {
     once { put 'Once!' };  # Once!
     print 'many'           
 } 
+# manymanymany
 say "\n";
 
 # dostuff();
