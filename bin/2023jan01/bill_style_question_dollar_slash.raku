@@ -75,6 +75,6 @@ my $thang;
 doingstuff( $thing );
 
 sub doingstuff {
-    my $item = shift;
+    local $_ = shift;
 
     }
