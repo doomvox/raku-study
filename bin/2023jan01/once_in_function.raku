@@ -8,7 +8,7 @@ use v6;
 my $guard = 3;
 loop {
     last if $guard-- <= 0;
-    once { put 'once' };
+    once { put 'Once!' };
     print 'many'
 } #
 
