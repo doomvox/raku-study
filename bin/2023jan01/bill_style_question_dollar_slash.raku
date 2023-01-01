@@ -118,6 +118,6 @@ put "Or is the root of $_ $/?" if / .+ <?before full> /;
 {
     say "---";
     $_ = 'gracefully';
-    say "The topic is $/." if  m/ <( .+ )> ly /;
+    say "The topic is $/." if  m/ <( .+ )> ly /;   # The angles make the sub-match be the *entire* match
     # The topic is graceful.
 }
