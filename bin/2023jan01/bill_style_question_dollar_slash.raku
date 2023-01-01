@@ -78,3 +78,8 @@ sub doingstuff {
     local $_ = shift;
 
     }
+
+
+
+doingstuff( $thang );
+
