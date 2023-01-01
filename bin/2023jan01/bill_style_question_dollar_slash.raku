@@ -23,6 +23,7 @@ put "The root of $_ is $/." if / .+ <?before ly> /;
 
 
 {
+    # The root of gracefully is graceful.
     $_ = 'gracefully';
     if / .+ <?before ly> / { 
         put "The root of $_ is $/." ;
