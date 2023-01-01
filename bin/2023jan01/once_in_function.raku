@@ -48,6 +48,7 @@ juststuffit();
 say "===";
 for 1..3 {
     once { say 42 };
+    say $_;
 }
 # 1
 # 42
@@ -57,7 +58,6 @@ for 1..3 {
 say "===";
 sub do_one {
     once { say 42 };
-    say $_;
 }
 for 1..3 {
     do_one;
