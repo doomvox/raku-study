@@ -11,6 +11,8 @@ use v6;
 # [#] > #REPL (line numbers altered to differentiate)
 # Nil
 # [0] > $_ = 'gracefully'
+
+
 $_ = 'gracefully';
 
 # gracefully
@@ -20,11 +22,12 @@ put "The root of $_ is $/." if / .+ <?before ly> /;
 # The root of gracefully is graceful.
 
 
-$_ = 'gracefully';
-if / .+ <?before ly> / { 
-    put "The root of $_ is $/." ;
+{
+    $_ = 'gracefully';
+    if / .+ <?before ly> / { 
+        put "The root of $_ is $/." ;
+    }
 }
-
 
 
 # [1b] > put "The root of $_ is $<>." if / .+ <?before ly> /;
