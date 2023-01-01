@@ -4,6 +4,7 @@
 
 use v6;
 
+## https://docs.raku.org/syntax/once
 my $guard = 3;
 loop {
     last if $guard-- <= 0;
