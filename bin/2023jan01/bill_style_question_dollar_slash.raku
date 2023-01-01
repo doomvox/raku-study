@@ -58,7 +58,6 @@ put "Or is the root of $_ $/?" if / .+ <?before full> /;
 # Or is the root of gracefully grace?
 # [#] >
 
-
 {
     $_ = 'gracefully';
 
