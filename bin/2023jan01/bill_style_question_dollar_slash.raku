@@ -61,7 +61,6 @@ put "Or is the root of $_ $/?" if / .+ <?before full> /;
 
 {
     # bill was saying he's not sure why this works?
-
     $_ = 'gracefully';
     print "The root of $_ is " andthen put $/ ~ '.' if / .+ <?before ly>;
 }
