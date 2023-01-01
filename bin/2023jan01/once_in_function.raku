@@ -46,8 +46,6 @@ juststuffit();
 
 
 say "===";
-
 for 1..3 {
-    say $_;
     once {say 42};
 }
