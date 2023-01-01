@@ -14,11 +14,9 @@ loop {
 say "\n";
 # manymanymany
 
-
-dostuff();
 sub dostuff {
      once "We are doing stuff (again).";
-     say 3;
+     say 3; 
 }
 
-
+dostuff(); # 3
