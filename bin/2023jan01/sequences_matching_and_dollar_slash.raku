@@ -18,12 +18,13 @@ use v6;
 }
 
 {
-   say "---";
-   say 1 ... /3/;
-   say $/;  # Nil
+   say "---";  
+   say 1 ... /3/;   # (1 2 3)
+   say $/;  # Nil   # ｢9｣
 }
 
 {
+    say "---";
     my @s = 1, 2, 3;
     say @s ~~ 2  # False;
     ## smartmatch doesn't work as an "in"
