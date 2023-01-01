@@ -30,3 +30,4 @@ sub otherstuff {
     }
     say 3; 
 }
+otherstuff();
