@@ -23,6 +23,7 @@ use v6;
    my $seq = 1 ... 3;
    my $ret = $seq ~~ /2/;
    say $/; # Nil
+   say $ret;
 }
 
 
