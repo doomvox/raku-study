@@ -21,7 +21,7 @@ use v6;
 
 {
    my $seq = 1 ... 3;
-   $seq ~~ /2/;
+   my $ret = $seq ~~ /2/;
    say $/; # Nil
 }
 
