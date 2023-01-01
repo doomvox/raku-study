@@ -17,6 +17,10 @@
 *** william michels style question
 **** https://www.nntp.perl.org/group/perl.perl6.users/2023/01/msg10904.html
 **** https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10891.html
+**** https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10890.html 
+
+***** https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two
+
 
 *** discussion topic: business models for independent programmers
 **** dpchrist: "I have a discussion question-- what business model works best independent Perl authors?"

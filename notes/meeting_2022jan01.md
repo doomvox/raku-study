@@ -1,21 +1,21 @@
-- [meeting notes January 01, 2023](#org5eb7fbf)
-  - [the raku study group](#org44ea7c2)
-  - [topics](#org62da4b4)
-    - [happy 2023 and all](#org1ba34ec)
-    - [william michels style question](#orga5356ab)
-    - [discussion topic: business models for independent programmers](#org1643b9f)
-    - [weekly challenge?](#org7328dee)
-    - [deepmap bug](#orgba7b4e6)
-  - [announcements](#org7c6938d)
-    - [next meeting: January 15th](#orgdc83459)
+- [meeting notes January 01, 2023](#orgb881ad5)
+  - [the raku study group](#orgc4cdb77)
+  - [topics](#org1a1f06d)
+    - [happy 2023 and all](#orgda05f34)
+    - [william michels style question](#org3c204e1)
+    - [discussion topic: business models for independent programmers](#org871b914)
+    - [weekly challenge?](#orge66d7f9)
+    - [deepmap bug](#org410df03)
+  - [announcements](#orgd975ccb)
+    - [next meeting: January 15th](#org7350c55)
 
 
-<a id="org5eb7fbf"></a>
+<a id="orgb881ad5"></a>
 
 # meeting notes January 01, 2023
 
 
-<a id="org44ea7c2"></a>
+<a id="orgc4cdb77"></a>
 
 ## the raku study group
 
@@ -38,19 +38,19 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.md>
 
 
-<a id="org62da4b4"></a>
+<a id="org1a1f06d"></a>
 
 ## topics
 
 
-<a id="org1ba34ec"></a>
+<a id="orgda05f34"></a>
 
 ### happy 2023 and all
 
 1.  so, how well does a New Year's Day meeting work, any way?
 
 
-<a id="orga5356ab"></a>
+<a id="org3c204e1"></a>
 
 ### william michels style question
 
@@ -58,8 +58,12 @@
 
 2.  <https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10891.html>
 
+3.  <https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10890.html>
 
-<a id="org1643b9f"></a>
+    1.  <https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two>
+
+
+<a id="org871b914"></a>
 
 ### discussion topic: business models for independent programmers
 
@@ -68,21 +72,21 @@
     1.  my thought: what would cPanel do?
 
 
-<a id="org7328dee"></a>
+<a id="orge66d7f9"></a>
 
 ### weekly challenge?
 
 
-<a id="orgba7b4e6"></a>
+<a id="org410df03"></a>
 
 ### deepmap bug
 
 
-<a id="org7c6938d"></a>
+<a id="orgd975ccb"></a>
 
 ## announcements
 
 
-<a id="orgdc83459"></a>
+<a id="org7350c55"></a>
 
 ### next meeting: January 15th
