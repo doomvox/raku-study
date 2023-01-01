@@ -11,4 +11,11 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.md
 
 ** topics
+*** discussion topic: business models for independent programmers
+dpchrist: "I have a discussion question-- what business model works
+best independent Perl authors?"
+
+
 *** So, how well does a New Year's Day meeting work, any way?
+
+*** weekly challenge?
