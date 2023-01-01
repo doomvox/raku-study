@@ -68,18 +68,3 @@ put "Or is the root of $_ $/?" if / .+ <?before full> /;
 
 
 
-use threads::shared;
-my $thing :shared; 
-my $thang;
-
-doingstuff( $thing );
-
-sub doingstuff {
-    local $_ = shift;
-
-    }
-
-
-
-doingstuff( $thang );
-
