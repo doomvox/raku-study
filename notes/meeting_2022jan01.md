@@ -1,21 +1,21 @@
-- [meeting notes January 01, 2023](#orge967cb7)
-  - [the raku study group](#orgc5fce46)
-  - [topics](#org253b560)
-    - [happy 2023 and all](#orge998f40)
-    - [william michels](#orgb838a0d)
-    - [discussion topic: business models for independent programmers](#orgcf135be)
-    - [weekly challenge?](#orgc398708)
-    - [deepmap bug](#orgd55f7d5)
-  - [announcements](#org3a2b2cc)
-    - [next meeting: January 15th](#orgb5895ad)
+- [meeting notes January 01, 2023](#orga76365f)
+  - [the raku study group](#orgff6fba5)
+  - [topics](#orgc7f86ee)
+    - [happy 2023 and all](#org855afb7)
+    - [william michels style question](#orgfa3b561)
+    - [discussion topic: business models for independent programmers](#org7b5ed57)
+    - [weekly challenge?](#orged48588)
+    - [deepmap bug](#org8d2cc2c)
+  - [announcements](#org0f53da0)
+    - [next meeting: January 15th](#orgb479260)
 
 
-<a id="orge967cb7"></a>
+<a id="orga76365f"></a>
 
 # meeting notes January 01, 2023
 
 
-<a id="orgc5fce46"></a>
+<a id="orgff6fba5"></a>
 
 ## the raku study group
 
@@ -38,24 +38,26 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.md>
 
 
-<a id="org253b560"></a>
+<a id="orgc7f86ee"></a>
 
 ## topics
 
 
-<a id="orge998f40"></a>
+<a id="org855afb7"></a>
 
 ### happy 2023 and all
 
 1.  so, how well does a New Year's Day meeting work, any way?
 
 
-<a id="orgb838a0d"></a>
+<a id="orgfa3b561"></a>
 
-### william michels
+### william michels style question
+
+<https://www.nntp.perl.org/group/perl.perl6.users/2023/01/msg10904.html>
 
 
-<a id="orgcf135be"></a>
+<a id="org7b5ed57"></a>
 
 ### discussion topic: business models for independent programmers
 
@@ -64,21 +66,21 @@
     1.  my thought: what would cPanel do?
 
 
-<a id="orgc398708"></a>
+<a id="orged48588"></a>
 
 ### weekly challenge?
 
 
-<a id="orgd55f7d5"></a>
+<a id="org8d2cc2c"></a>
 
 ### deepmap bug
 
 
-<a id="org3a2b2cc"></a>
+<a id="org0f53da0"></a>
 
 ## announcements
 
 
-<a id="orgb5895ad"></a>
+<a id="orgb479260"></a>
 
 ### next meeting: January 15th
