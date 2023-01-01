@@ -11,10 +11,13 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.md
 
 ** topics
+*** happy 2023 and all
+**** so, how well does a New Year's Day meeting work, any way?
+
 *** discussion topic: business models for independent programmers
 **** dpchrist: "I have a discussion question-- what business model works best independent Perl authors?"
 ***** my thought: what would cPanel do?
 
-*** So, how well does a New Year's Day meeting work, any way?
+
 
 *** weekly challenge?
