@@ -21,8 +21,7 @@ use v6;
 
 {
     my @s = 1, 2, 3;
-    say @s ~~ 2
-
+    say @s ~~ 2  # False;
 }
 
 {
