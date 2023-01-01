@@ -84,5 +84,14 @@ put "Or is the root of $_ $/?" if / .+ <?before full> /;
     say "---";
     $_ = 'gracefully';
     say "The topic is {$_.gist} ." with  $_ ~~ / .+ <before ly> /;
-    # The topic is / .+ <before ly> / .
+    # The topic is ｢graceful｣
+    #  before => ｢｣ .
+}
+
+
+{
+    say "---";
+    $_ = 'gracefully';
+    say "The topic is {$_.gist} ." with  m/ .+ <before ly> /;
+
 }
