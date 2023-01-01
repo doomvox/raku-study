@@ -1,21 +1,21 @@
-- [meeting notes January 01, 2023](#org52281af)
-  - [the raku study group](#orgaee7adf)
-  - [topics](#orge2573ff)
-    - [happy 2023 and all](#orgdb901b1)
-    - [william michels style question](#orgac9b69d)
-    - [discussion topic: business models for independent programmers](#org2fa695f)
-    - [weekly challenge?](#orgd37df76)
-    - [deepmap bug](#org267ec77)
-  - [announcements](#org3ad7e61)
-    - [next meeting: January 15th](#orgf912d76)
+- [meeting notes January 01, 2023](#orgab2512f)
+  - [the raku study group](#org7bc61ab)
+  - [topics](#org5abdcbb)
+    - [happy 2023 and all](#org7a7862f)
+    - [william michels style question](#org4a42b17)
+    - [discussion topic: business models for independent programmers](#org3920b29)
+    - [weekly challenge](#org1e55964)
+    - [deepmap bug](#orgd57190a)
+  - [announcements](#orga44ad47)
+    - [next meeting: January 15th](#org7928f07)
 
 
-<a id="org52281af"></a>
+<a id="orgab2512f"></a>
 
 # meeting notes January 01, 2023
 
 
-<a id="orgaee7adf"></a>
+<a id="org7bc61ab"></a>
 
 ## the raku study group
 
@@ -38,19 +38,19 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.md>
 
 
-<a id="orge2573ff"></a>
+<a id="org5abdcbb"></a>
 
 ## topics
 
 
-<a id="orgdb901b1"></a>
+<a id="org7a7862f"></a>
 
 ### happy 2023 and all
 
 1.  so, how well does a New Year's Day meeting work, any way?
 
 
-<a id="orgac9b69d"></a>
+<a id="org4a42b17"></a>
 
 ### william michels style question
 
@@ -63,7 +63,7 @@
     1.  <https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two>
 
 
-<a id="org2fa695f"></a>
+<a id="org3920b29"></a>
 
 ### discussion topic: business models for independent programmers
 
@@ -72,21 +72,21 @@
     1.  my thought: what would cPanel do?
 
 
-<a id="orgd37df76"></a>
+<a id="org1e55964"></a>
 
-### weekly challenge?
+### weekly challenge
 
 
-<a id="org267ec77"></a>
+<a id="orgd57190a"></a>
 
 ### deepmap bug
 
 
-<a id="org3ad7e61"></a>
+<a id="orga44ad47"></a>
 
 ## announcements
 
 
-<a id="orgf912d76"></a>
+<a id="org7928f07"></a>
 
 ### next meeting: January 15th

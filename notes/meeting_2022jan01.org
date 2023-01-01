@@ -26,7 +26,7 @@
 **** dpchrist: "I have a discussion question-- what business model works best independent Perl [developer]?"
 ***** my thought: what would cPanel do?
 
-*** weekly challenge?
+*** weekly challenge
 
 *** deepmap bug
 
