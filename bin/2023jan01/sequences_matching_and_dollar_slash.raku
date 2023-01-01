@@ -21,7 +21,9 @@ use v6;
 
 {
    my $seq = 1 ... 3;
-   my $ret = $seq ~~ /2/;
+   if $seq ~~ /2/ {
+       say "we have found a 2 in the seq";
+   }
    say $/; # Nil
    say $ret;
 }
