@@ -32,3 +32,14 @@ sub otherstuff {
 }
 otherstuff(); # 777
 otherstuff(); # 777
+
+
+
+sub juststuffit {
+    while 1 {
+     once "We are doing OTHER stuff (again).";
+    }
+    say 777; 
+}
+juststuffit();
+
