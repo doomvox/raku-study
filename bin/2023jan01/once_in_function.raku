@@ -71,3 +71,13 @@ for 1..3 {
 # 3
 
 # That's worked the way I'd want it to... bg saw something else?
+
+
+say "===";
+for 1..3 {
+    say $_;
+    do_only_once;
+}
+sub do_only_once {
+    once { say 42 };
+}
