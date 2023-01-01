@@ -8,12 +8,15 @@ use v6;
 my $guard = 3;
 loop {
     last if $guard-- <= 0;
-    once { put 'Once!' };
-    print 'many'
-} #
+    once { put 'Once!' };  # Once!
+    print 'many'           
+} 
 
 
-
+sub dostuff {
+    once "We are doing stuff (again).";
+    say 3;
+ }
 
 
 
