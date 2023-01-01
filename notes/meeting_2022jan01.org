@@ -15,7 +15,7 @@
 **** so, how well does a New Year's Day meeting work, any way?
 
 *** william michels style question
-https://www.nntp.perl.org/group/perl.perl6.users/2023/01/msg10904.html
+**** https://www.nntp.perl.org/group/perl.perl6.users/2023/01/msg10904.html
 
 *** discussion topic: business models for independent programmers
 **** dpchrist: "I have a discussion question-- what business model works best independent Perl authors?"
