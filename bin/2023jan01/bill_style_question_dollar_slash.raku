@@ -111,6 +111,13 @@ put "Or is the root of $_ $/?" if / .+ <?before full> /;
 {
     say "---";
     $_ = 'gracefully';
-    say "The topic is $0." if  m/ <( .+ )> ly /;
+    say "The topic is $0." if  m/ ( .+ ) ly /;
+    # The topic is graceful.
+}
+
+{
+    say "---";
+    $_ = 'gracefully';
+    say "The topic is $/." if  m/ <( .+ )> ly /;
     # The topic is graceful.
 }
