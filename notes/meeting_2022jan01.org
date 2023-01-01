@@ -18,6 +18,4 @@
 **** dpchrist: "I have a discussion question-- what business model works best independent Perl authors?"
 ***** my thought: what would cPanel do?
 
-
-
 *** weekly challenge?

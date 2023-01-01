@@ -1,17 +1,17 @@
-- [meeting notes January 01, 2023](#org358e77f)
-  - [the raku study group](#org70651db)
-  - [topics](#orgdde22ec)
-    - [happy 2023 and all](#org9db4f85)
-    - [discussion topic: business models for independent programmers](#org43b3043)
-    - [weekly challenge?](#org032b6fd)
+- [meeting notes January 01, 2023](#orgb4abdb6)
+  - [the raku study group](#org2054658)
+  - [topics](#org17440af)
+    - [happy 2023 and all](#org5dc4fa8)
+    - [discussion topic: business models for independent programmers](#org1d2a0b5)
+    - [weekly challenge?](#orgc117717)
 
 
-<a id="org358e77f"></a>
+<a id="orgb4abdb6"></a>
 
 # meeting notes January 01, 2023
 
 
-<a id="org70651db"></a>
+<a id="org2054658"></a>
 
 ## the raku study group
 
@@ -34,19 +34,19 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.md>
 
 
-<a id="orgdde22ec"></a>
+<a id="org17440af"></a>
 
 ## topics
 
 
-<a id="org9db4f85"></a>
+<a id="org5dc4fa8"></a>
 
 ### happy 2023 and all
 
 1.  so, how well does a New Year's Day meeting work, any way?
 
 
-<a id="org43b3043"></a>
+<a id="org1d2a0b5"></a>
 
 ### discussion topic: business models for independent programmers
 
@@ -55,6 +55,6 @@
     1.  my thought: what would cPanel do?
 
 
-<a id="org032b6fd"></a>
+<a id="orgc117717"></a>
 
 ### weekly challenge?
