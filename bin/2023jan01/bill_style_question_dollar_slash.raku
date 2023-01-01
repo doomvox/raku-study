@@ -78,6 +78,5 @@ put "Or is the root of $_ $/?" if / .+ <?before full> /;
     $_ = 'gracefully';
     say "The topic is {$_.gist} ." with / .+ <before ly> /;
     # The topic is / .+ <before ly> / .
-
 }
 
