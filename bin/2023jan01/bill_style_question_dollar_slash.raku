@@ -65,3 +65,15 @@ put "Or is the root of $_ $/?" if / .+ <?before full> /;
     print "The root of $_ is " andthen put $/ ~ '.' if / .+ <?before ly>
 
 }
+
+
+
+my $thing :shared; 
+my $thang;
+
+doingstuff( $thing );
+
+sub doingstuff {
+    my $item = shift;
+
+    }
