@@ -1,21 +1,22 @@
-- [meeting notes January 01, 2023](#org924858b)
-  - [the raku study group](#org5986ae4)
-  - [topics](#org43662ee)
-    - [happy 2023 and all](#org8f5e02b)
-    - [william michels style question](#orge11c074)
-    - [discussion topic: business models for independent programmers](#orga2c5196)
-    - [weekly challenge](#orga4550d0)
-    - [deepmap bug](#org76fc115)
-  - [announcements](#orgc4a5f6d)
-    - [next meeting: January 15th](#org32766ea)
+- [meeting notes January 01, 2023](#orgc04d32e)
+  - [the raku study group](#org5b82c35)
+  - [topics](#org0737fe8)
+    - [happy 2023 and all](#orgf77f6c2)
+    - [william michels style question](#orgd35be21)
+    - [discussion topic: business models for independent programmers](#orgb5e282c)
+    - [rob question about reorg of docs](#org52b49f6)
+    - [weekly challenge](#orgf11d8ca)
+    - [deepmap bug](#org23152d3)
+  - [announcements](#org5efeb3d)
+    - [next meeting: January 15th](#org6f471c8)
 
 
-<a id="org924858b"></a>
+<a id="orgc04d32e"></a>
 
 # meeting notes January 01, 2023
 
 
-<a id="org5986ae4"></a>
+<a id="org5b82c35"></a>
 
 ## the raku study group
 
@@ -38,19 +39,19 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.md>
 
 
-<a id="org43662ee"></a>
+<a id="org0737fe8"></a>
 
 ## topics
 
 
-<a id="org8f5e02b"></a>
+<a id="orgf77f6c2"></a>
 
 ### happy 2023 and all
 
 1.  so, how well does a New Year's Day meeting work, any way?
 
 
-<a id="orge11c074"></a>
+<a id="orgd35be21"></a>
 
 ### william michels style question
 
@@ -63,7 +64,7 @@
     1.  <https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two>
 
 
-<a id="orga2c5196"></a>
+<a id="orgb5e282c"></a>
 
 ### discussion topic: business models for independent programmers
 
@@ -72,23 +73,38 @@
     1.  my thought: what would cPanel do?
 
 
-<a id="orga4550d0"></a>
+<a id="org52b49f6"></a>
+
+### rob question about reorg of docs
+
+1.  
+
+    <https://github.com/Raku/doc/pull/4174>
+
+
+<a id="orgf11d8ca"></a>
 
 ### weekly challenge
 
+1.  196, 197
 
-<a id="org76fc115"></a>
+    1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-196>
+    
+    2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-197>
+
+
+<a id="org23152d3"></a>
 
 ### deepmap bug
 
 <https://github.com/rakudo/rakudo/issues/4435>
 
 
-<a id="orgc4a5f6d"></a>
+<a id="org5efeb3d"></a>
 
 ## announcements
 
 
-<a id="org32766ea"></a>
+<a id="org6f471c8"></a>
 
 ### next meeting: January 15th
