@@ -59,6 +59,5 @@ find . -type f -name "*.pm6" | xargs egrep deepmap
 ./src/core.c/Mixy.pm6:    multi method deepmap(Mixy:D: &mapper) {
 ./src/core.c/Setty.pm6:    multi method deepmap(Setty:D: &mapper) {
 
-
 ** announcements 
 *** next meeting: January 15th
