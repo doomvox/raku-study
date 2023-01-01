@@ -1,17 +1,17 @@
-- [meeting notes January 01, 2023](#orgfa8827e)
-  - [the raku study group](#org5a1c61a)
-  - [topics](#org2070487)
-    - [discussion topic: business models for independent programmers](#orgb8ea080)
-    - [So, how well does a New Year's Day meeting work, any way?](#org0716a13)
-    - [weekly challenge?](#org73bc495)
+- [meeting notes January 01, 2023](#org7863a4e)
+  - [the raku study group](#orgbb00c74)
+  - [topics](#org95b88c8)
+    - [discussion topic: business models for independent programmers](#org75b8b9d)
+    - [So, how well does a New Year's Day meeting work, any way?](#org800ebcd)
+    - [weekly challenge?](#org0c97f82)
 
 
-<a id="orgfa8827e"></a>
+<a id="org7863a4e"></a>
 
 # meeting notes January 01, 2023
 
 
-<a id="org5a1c61a"></a>
+<a id="orgbb00c74"></a>
 
 ## the raku study group
 
@@ -34,23 +34,23 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.md>
 
 
-<a id="org2070487"></a>
+<a id="org95b88c8"></a>
 
 ## topics
 
 
-<a id="orgb8ea080"></a>
+<a id="org75b8b9d"></a>
 
 ### discussion topic: business models for independent programmers
 
-dpchrist: "I have a discussion question&#x2013; what business model works best independent Perl authors?"
+1.  dpchrist: "I have a discussion question&#x2013; what business model works best independent Perl authors?"
 
 
-<a id="org0716a13"></a>
+<a id="org800ebcd"></a>
 
 ### So, how well does a New Year's Day meeting work, any way?
 
 
-<a id="org73bc495"></a>
+<a id="org0c97f82"></a>
 
 ### weekly challenge?
