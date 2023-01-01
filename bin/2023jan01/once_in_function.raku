@@ -81,3 +81,8 @@ for 1..3 {
 sub do_only_once {
     once { say 42 };
 }
+# ===
+# 1
+# 42
+# 2
+# 3
