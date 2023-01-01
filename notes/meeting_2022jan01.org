@@ -13,7 +13,7 @@
 ** topics
 *** discussion topic: business models for independent programmers
 **** dpchrist: "I have a discussion question-- what business model works best independent Perl authors?"
-
+***** my thought: what would cPanel do?
 
 *** So, how well does a New Year's Day meeting work, any way?
 
