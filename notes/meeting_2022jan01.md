@@ -1,23 +1,23 @@
-- [meeting notes January 01, 2023](#org59e18dd)
-  - [the raku study group](#org7e68c54)
-  - [topics](#org00496c8)
-    - [happy 2023 and all](#orgfe80161)
-    - [william michels style question](#org1d679fe)
-    - [discussion topic: business models for independent programmers](#org85333bc)
-    - [rob question about reorg of docs](#org865f03c)
-    - [weekly challenge](#orgd39c988)
-    - [deepmap bug](#org0b42118)
-  - [announcements](#org47147d4)
-    - [next meeting: January 15th](#org1889093)
-    - [vadim is doing a zoom class, Jan 7, 2023 (I presume it's in 2023):](#org5ae3cc1)
+- [meeting notes January 01, 2023](#orgf13a5ca)
+  - [the raku study group](#org45cf87f)
+  - [topics](#org27020c7)
+    - [happy 2023 and all](#orgb7c2bda)
+    - [william michels style question](#orga8e63d9)
+    - [discussion topic: business models for independent programmers](#org767081c)
+    - [rob question about reorg of docs](#org786d657)
+    - [weekly challenge](#org60940cf)
+    - [deepmap bug](#orge2cbd40)
+  - [announcements](#org34e6acb)
+    - [next meeting: January 15th](#orgab6e201)
+    - [vadim is doing a zoom class, Jan 7, 2023 (I presume it's in 2023):](#org13d8002)
 
 
-<a id="org59e18dd"></a>
+<a id="orgf13a5ca"></a>
 
 # meeting notes January 01, 2023
 
 
-<a id="org7e68c54"></a>
+<a id="org45cf87f"></a>
 
 ## the raku study group
 
@@ -40,19 +40,19 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.md>
 
 
-<a id="org00496c8"></a>
+<a id="org27020c7"></a>
 
 ## topics
 
 
-<a id="orgfe80161"></a>
+<a id="orgb7c2bda"></a>
 
 ### happy 2023 and all
 
 1.  so, how well does a New Year's Day meeting work, any way?
 
 
-<a id="org1d679fe"></a>
+<a id="orga8e63d9"></a>
 
 ### william michels style question
 
@@ -65,7 +65,7 @@
     1.  <https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two>
 
 
-<a id="org85333bc"></a>
+<a id="org767081c"></a>
 
 ### discussion topic: business models for independent programmers
 
@@ -73,8 +73,10 @@
 
     1.  my thought: what would cPanel do?
 
+2.  debian
 
-<a id="org865f03c"></a>
+
+<a id="org786d657"></a>
 
 ### rob question about reorg of docs
 
@@ -83,7 +85,7 @@
     <https://github.com/Raku/doc/pull/4174>
 
 
-<a id="orgd39c988"></a>
+<a id="org60940cf"></a>
 
 ### weekly challenge
 
@@ -94,7 +96,7 @@
     2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-197>
 
 
-<a id="org0b42118"></a>
+<a id="orge2cbd40"></a>
 
 ### deepmap bug
 
@@ -105,17 +107,17 @@
     find . -type f -name "\*.pm6" | xargs egrep deepmap ./src/core.c/Slip.pm6: multi method deepmap(Slip:D: &) { ./src/core.c/metaops.pm6: nqp::can(&op,"nodal") ?? \*.nodemap(&op) !! \*.deepmap(&op) ./src/core.c/metaops.pm6: nqp::can(&op,"nodal") ?? obj.nodemap(&op) !! obj.deepmap(&op) ./src/core.c/metaops.pm6: !! obj.deepmap(-> \o { op(o, @args) }) ./src/core.c/metaops.pm6: !! obj.deepmap( -> \o { op(o,|args) }) ./src/core.c/metaops.pm6: nqp::can(&op,"nodal") ?? \*.nodemap(&op) !! \*.deepmap(&op) ./src/core.c/metaops.pm6: list.deepmap(-> &code { code(|args) }) ./src/core.c/Hyper.pm6: !! object.deepmap($!operator) ./src/core.c/Any-iterable-methods.pm6: proto method deepmap(|) is nodal {\*} ./src/core.c/Any-iterable-methods.pm6: multi method deepmap(Associative:D: &op) { ./src/core.c/Any-iterable-methods.pm6: self.new.STORE: self.keys, self.values.deepmap(&op), :INITIALIZE ./src/core.c/Any-iterable-methods.pm6: multi method deepmap(&op) { ./src/core.c/Any-iterable-methods.pm6: sub deep(\value) is raw { my $ = value.deepmap(&op) } ./src/core.c/Any-iterable-methods.pm6:proto sub deepmap($, $, **%) {**} ./src/core.c/Any-iterable-methods.pm6:multi sub deepmap(&op, \obj) { obj.deepmap(&op) } ./src/core.c/Baggy.pm6: multi method deepmap(Baggy:D: &mapper) { ./src/core.c/Mixy.pm6: multi method deepmap(Mixy:D: &mapper) { ./src/core.c/Setty.pm6: multi method deepmap(Setty:D: &mapper) {
 
 
-<a id="org47147d4"></a>
+<a id="org34e6acb"></a>
 
 ## announcements
 
 
-<a id="org1889093"></a>
+<a id="orgab6e201"></a>
 
 ### next meeting: January 15th
 
 
-<a id="org5ae3cc1"></a>
+<a id="org13d8002"></a>
 
 ### vadim is doing a zoom class, Jan 7, 2023 (I presume it's in 2023):
 
