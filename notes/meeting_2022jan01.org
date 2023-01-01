@@ -36,7 +36,8 @@ https://github.com/Raku/doc/pull/4174
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-197
 
 *** deepmap bug
-https://github.com/rakudo/rakudo/issues/4435
+**** https://github.com/rakudo/rakudo/issues/4435
+**** simple question: where is deepmap defined?
 
 ** announcements 
 *** next meeting: January 15th

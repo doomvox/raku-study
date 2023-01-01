@@ -1,22 +1,22 @@
-- [meeting notes January 01, 2023](#orgc04d32e)
-  - [the raku study group](#org5b82c35)
-  - [topics](#org0737fe8)
-    - [happy 2023 and all](#orgf77f6c2)
-    - [william michels style question](#orgd35be21)
-    - [discussion topic: business models for independent programmers](#orgb5e282c)
-    - [rob question about reorg of docs](#org52b49f6)
-    - [weekly challenge](#orgf11d8ca)
-    - [deepmap bug](#org23152d3)
-  - [announcements](#org5efeb3d)
-    - [next meeting: January 15th](#org6f471c8)
+- [meeting notes January 01, 2023](#org7927e1d)
+  - [the raku study group](#org0ff8b31)
+  - [topics](#org58b5fe4)
+    - [happy 2023 and all](#org23ce6c8)
+    - [william michels style question](#orgac16c33)
+    - [discussion topic: business models for independent programmers](#org1aa4f7b)
+    - [rob question about reorg of docs](#orgfcbc345)
+    - [weekly challenge](#org418a230)
+    - [deepmap bug](#org8b5cc79)
+  - [announcements](#orgb026d64)
+    - [next meeting: January 15th](#org28ca43a)
 
 
-<a id="orgc04d32e"></a>
+<a id="org7927e1d"></a>
 
 # meeting notes January 01, 2023
 
 
-<a id="org5b82c35"></a>
+<a id="org0ff8b31"></a>
 
 ## the raku study group
 
@@ -39,19 +39,19 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.md>
 
 
-<a id="org0737fe8"></a>
+<a id="org58b5fe4"></a>
 
 ## topics
 
 
-<a id="orgf77f6c2"></a>
+<a id="org23ce6c8"></a>
 
 ### happy 2023 and all
 
 1.  so, how well does a New Year's Day meeting work, any way?
 
 
-<a id="orgd35be21"></a>
+<a id="orgac16c33"></a>
 
 ### william michels style question
 
@@ -64,7 +64,7 @@
     1.  <https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two>
 
 
-<a id="orgb5e282c"></a>
+<a id="org1aa4f7b"></a>
 
 ### discussion topic: business models for independent programmers
 
@@ -73,7 +73,7 @@
     1.  my thought: what would cPanel do?
 
 
-<a id="org52b49f6"></a>
+<a id="orgfcbc345"></a>
 
 ### rob question about reorg of docs
 
@@ -82,7 +82,7 @@
     <https://github.com/Raku/doc/pull/4174>
 
 
-<a id="orgf11d8ca"></a>
+<a id="org418a230"></a>
 
 ### weekly challenge
 
@@ -93,18 +93,20 @@
     2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-197>
 
 
-<a id="org23152d3"></a>
+<a id="org8b5cc79"></a>
 
 ### deepmap bug
 
-<https://github.com/rakudo/rakudo/issues/4435>
+1.  <https://github.com/rakudo/rakudo/issues/4435>
+
+2.  simple question: where is deepmap defined?
 
 
-<a id="org5efeb3d"></a>
+<a id="orgb026d64"></a>
 
 ## announcements
 
 
-<a id="org6f471c8"></a>
+<a id="org28ca43a"></a>
 
 ### next meeting: January 15th
