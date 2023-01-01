@@ -25,7 +25,6 @@ use v6;
        say "we have found a 2 in the seq";
    }
    say $/; # Nil
-   say $ret;
 }
 
 
