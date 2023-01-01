@@ -20,6 +20,12 @@ use v6;
 }
 
 {
+    my @s = 1, 2, 3;
+    say @s ~~ 2
+
+}
+
+{
    say /2/.WHAT; 
 
    my $seq = 1 ... 3;
