@@ -24,6 +24,8 @@ use strict;
 $|=1;
 use Data::Dumper;
 
+## dpchrist likes $_ because it's "sharedness" is preserved in threaded code.
+
 use threads::shared;
 my $thing :shared; 
 my $thang;
