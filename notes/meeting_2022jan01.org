@@ -25,7 +25,7 @@
 *** discussion topic: business models for independent programmers
 **** dpchrist: "I have a discussion question-- what business model works best independent Perl [developer]?"
 ***** my thought: what would cPanel do?
-**** debian
+**** debian packages for rakudo (?)
 
 *** rob question about reorg of docs
 **** 
