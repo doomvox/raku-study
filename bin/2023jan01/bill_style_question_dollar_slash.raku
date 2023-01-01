@@ -72,3 +72,11 @@ put "Or is the root of $_ $/?" if / .+ <?before full> /;
 
 
 
+{
+    say "---";
+    # bill was saying he's not sure why this works?
+    $_ = 'gracefully';
+    say "The topic is $_ ." with / .+ <before ly> /;
+
+}
+
