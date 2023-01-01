@@ -29,6 +29,7 @@
 *** weekly challenge
 
 *** deepmap bug
+https://github.com/rakudo/rakudo/issues/4435
 
 ** announcements 
 *** next meeting: January 15th
