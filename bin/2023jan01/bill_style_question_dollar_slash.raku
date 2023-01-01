@@ -13,14 +13,15 @@ use v6;
 # [0] > $_ = 'gracefully'
 
 
-$_ = 'gracefully';
+{
+  $_ = 'gracefully';
 
-# gracefully
-# [1a] > put "The root of $_ is $/." if / .+ <?before ly> /;
+  # gracefully
+  # [1a] > put "The root of $_ is $/." if / .+ <?before ly> /;
 
-put "The root of $_ is $/." if / .+ <?before ly> /;
-# The root of gracefully is graceful.
-
+  put "The root of $_ is $/." if / .+ <?before ly> /;
+  # The root of gracefully is graceful.
+}
 
 {
     $_ = 'gracefully';
