@@ -30,4 +30,5 @@ sub otherstuff {
     }
     say 777; 
 }
-otherstuff();
+otherstuff(); # 777
+otherstuff(); # 777
