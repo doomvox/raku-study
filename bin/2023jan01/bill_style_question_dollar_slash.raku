@@ -103,6 +103,6 @@ put "Or is the root of $_ $/?" if / .+ <?before full> /;
 {
     say "---";
     $_ = 'gracefully';
-    say "The topic is $/." if  m/ .+ <before ly> /;
-    # The topic is graceful.
+    say "The topic is $_." if  m/ .+ <before ly> /;
+    # The topic is gracefully.
 }
