@@ -26,7 +26,7 @@ use v6;
 {
     $_ = 'gracefully';
     if / .+ <?before ly> / {
-        put "The root of $_ is $/." ;
+        put "The root of $_ is $/.";
     }
     # The root of gracefully is graceful.
 }
