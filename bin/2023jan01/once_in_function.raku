@@ -38,6 +38,7 @@ otherstuff(); # 777
 sub juststuffit {
     while 1 {
      once "We are doing OTHER stuff (again).";
+     last;
     }
     say 777; 
 }
