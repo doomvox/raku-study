@@ -31,6 +31,9 @@
 **** 
 https://github.com/Raku/doc/pull/4174
 
+*** marton polgar brings up an example of forums/events
+**** https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md
+
 *** weekly challenge
 **** 196, 197
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-196
