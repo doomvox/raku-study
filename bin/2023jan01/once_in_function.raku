@@ -13,10 +13,10 @@ loop {
 } 
 
 
-dostuff();
-sub dostuff {
-    once "We are doing stuff (again).";
-    say 3;
- }
+# dostuff();
+# sub dostuff {
+#     once "We are doing stuff (again).";
+#     say 3;
+#  }
 
 
