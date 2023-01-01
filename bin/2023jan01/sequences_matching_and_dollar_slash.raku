@@ -12,6 +12,7 @@ use v6;
 {
     say 1 .. 3;  # 1..3
     say 1 ... 3; # (1 2 3)
+    say 1 ... { * == "7" }
     }
 
 {
@@ -22,6 +23,7 @@ use v6;
 {
     my @s = 1, 2, 3;
     say @s ~~ 2  # False;
+    ## smartmatch doesn't work as an "in"
 }
 
 {
