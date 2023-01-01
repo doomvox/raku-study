@@ -20,5 +20,7 @@
 
 *** weekly challenge?
 
+*** deepmap bug
+
 ** announcements 
 *** next meeting: January 15th
