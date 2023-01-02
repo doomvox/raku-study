@@ -78,6 +78,10 @@ find . -type f -name "*.pm6" | xargs egrep deepmap
 ./src/core.c/Mixy.pm6:    multi method deepmap(Mixy:D: &mapper) {
 ./src/core.c/Setty.pm6:    multi method deepmap(Setty:D: &mapper) {
 
+**** start here, I think:
+***** ./src/core.c/Any-iterable-methods.pm6
+***** /home/doom/End/Cave/Raku/Wall/rakudo/src/core.c/Any-iterable-methods.pm6
+
 ** announcements 
 *** next meeting: January 15th
 
