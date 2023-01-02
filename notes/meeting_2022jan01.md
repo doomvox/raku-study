@@ -1,25 +1,25 @@
-- [meeting notes January 01, 2023](#orgf5d2a4b)
-  - [the raku study group](#org8076864)
-  - [topics](#org25492ef)
-    - [happy 2023 and all](#org5c8a02c)
-    - [william michels style question](#org14ff7da)
-    - [discussion topic: business models for independent programmers](#org9f6507b)
-    - [rob question about reorg of docs](#org346d848)
-    - [marton polgar brings up an example of forums/events](#orgf1673f4)
-    - [web site to play with raku snippets interactively](#orgc53eaa8)
-    - [weekly challenge](#org7283cc0)
-    - [deepmap bug](#org5cf03ea)
-  - [announcements](#org59fba90)
-    - [next meeting: January 15th](#org30be67f)
-    - [vadim is doing a zoom class, Jan 7, 2023 (I presume it's in 2023):](#org5485c03)
+- [meeting notes January 01, 2023](#org6100c95)
+  - [the raku study group](#orgdee196c)
+  - [topics](#org86fef6d)
+    - [happy 2023 and all](#org11054da)
+    - [william michels style question](#org0da2194)
+    - [discussion topic: business models for independent programmers](#org74c0aa5)
+    - [rob question about reorg of docs](#org26549ce)
+    - [marton polgar brings up an example of forums/events](#orgcde2f96)
+    - [web site to play with raku snippets interactively](#org7ff01cf)
+    - [weekly challenge](#org86693dc)
+    - [deepmap bug](#orgd3db754)
+  - [announcements](#org59a2d49)
+    - [next meeting: January 15th](#org4c1b007)
+    - [vadim is doing a zoom class, Jan 7, 2023 (I presume it's in 2023):](#orgb90da03)
 
 
-<a id="orgf5d2a4b"></a>
+<a id="org6100c95"></a>
 
 # meeting notes January 01, 2023
 
 
-<a id="org8076864"></a>
+<a id="orgdee196c"></a>
 
 ## the raku study group
 
@@ -42,19 +42,19 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.md>
 
 
-<a id="org25492ef"></a>
+<a id="org86fef6d"></a>
 
 ## topics
 
 
-<a id="org5c8a02c"></a>
+<a id="org11054da"></a>
 
 ### happy 2023 and all
 
 1.  so, how well does a New Year's Day meeting work, any way?
 
 
-<a id="org14ff7da"></a>
+<a id="org0da2194"></a>
 
 ### william michels style question
 
@@ -67,7 +67,7 @@
     1.  <https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two>
 
 
-<a id="org9f6507b"></a>
+<a id="org74c0aa5"></a>
 
 ### discussion topic: business models for independent programmers
 
@@ -86,7 +86,7 @@
         1.  <https://rakudo.org/star>
 
 
-<a id="org346d848"></a>
+<a id="org26549ce"></a>
 
 ### rob question about reorg of docs
 
@@ -95,7 +95,7 @@
     <https://github.com/Raku/doc/pull/4174>
 
 
-<a id="orgf1673f4"></a>
+<a id="orgcde2f96"></a>
 
 ### marton polgar brings up an example of forums/events
 
@@ -104,14 +104,14 @@
 2.  irclogs.raku.org/
 
 
-<a id="orgc53eaa8"></a>
+<a id="org7ff01cf"></a>
 
 ### web site to play with raku snippets interactively
 
 1.  <https://glot.io/new/raku>
 
 
-<a id="org7283cc0"></a>
+<a id="org86693dc"></a>
 
 ### weekly challenge
 
@@ -120,9 +120,11 @@
     1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-196>
     
     2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-197>
+    
+        <https://theweeklychallenge.org/blog/perl-weekly-challenge-197/> <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-197/0rir/raku/ch-1.raku> <https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-197/challenge-197/bruce-gray/raku/ch-1.raku> <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-197/0rir/raku/ch-2.raku> <https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-197/challenge-197/bruce-gray/raku/ch-2.raku>
 
 
-<a id="org5cf03ea"></a>
+<a id="orgd3db754"></a>
 
 ### deepmap bug
 
@@ -133,17 +135,17 @@
     find . -type f -name "\*.pm6" | xargs egrep deepmap ./src/core.c/Slip.pm6: multi method deepmap(Slip:D: &) { ./src/core.c/metaops.pm6: nqp::can(&op,"nodal") ?? \*.nodemap(&op) !! \*.deepmap(&op) ./src/core.c/metaops.pm6: nqp::can(&op,"nodal") ?? obj.nodemap(&op) !! obj.deepmap(&op) ./src/core.c/metaops.pm6: !! obj.deepmap(-> \o { op(o, @args) }) ./src/core.c/metaops.pm6: !! obj.deepmap( -> \o { op(o,|args) }) ./src/core.c/metaops.pm6: nqp::can(&op,"nodal") ?? \*.nodemap(&op) !! \*.deepmap(&op) ./src/core.c/metaops.pm6: list.deepmap(-> &code { code(|args) }) ./src/core.c/Hyper.pm6: !! object.deepmap($!operator) ./src/core.c/Any-iterable-methods.pm6: proto method deepmap(|) is nodal {\*} ./src/core.c/Any-iterable-methods.pm6: multi method deepmap(Associative:D: &op) { ./src/core.c/Any-iterable-methods.pm6: self.new.STORE: self.keys, self.values.deepmap(&op), :INITIALIZE ./src/core.c/Any-iterable-methods.pm6: multi method deepmap(&op) { ./src/core.c/Any-iterable-methods.pm6: sub deep(\value) is raw { my $ = value.deepmap(&op) } ./src/core.c/Any-iterable-methods.pm6:proto sub deepmap($, $, **%) {**} ./src/core.c/Any-iterable-methods.pm6:multi sub deepmap(&op, \obj) { obj.deepmap(&op) } ./src/core.c/Baggy.pm6: multi method deepmap(Baggy:D: &mapper) { ./src/core.c/Mixy.pm6: multi method deepmap(Mixy:D: &mapper) { ./src/core.c/Setty.pm6: multi method deepmap(Setty:D: &mapper) {
 
 
-<a id="org59fba90"></a>
+<a id="org59a2d49"></a>
 
 ## announcements
 
 
-<a id="org30be67f"></a>
+<a id="org4c1b007"></a>
 
 ### next meeting: January 15th
 
 
-<a id="org5485c03"></a>
+<a id="orgb90da03"></a>
 
 ### vadim is doing a zoom class, Jan 7, 2023 (I presume it's in 2023):
 
