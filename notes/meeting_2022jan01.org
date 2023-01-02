@@ -44,8 +44,6 @@ https://github.com/Raku/doc/pull/4174
 *** web site to play with raku snippets interactively
 **** https://glot.io/new/raku
 
-
-
 *** weekly challenge
 **** 196, 197
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-196
