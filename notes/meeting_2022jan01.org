@@ -24,7 +24,7 @@
 
 *** discussion topic: business models for independent programmers
 **** dpchrist: "I have a discussion question-- what business model works best independent Perl [developer]?"
-***** my thought: what would cPanel do?
+***** my thought: what did cPanel do? 
 **** debian packages for rakudo (?)
 
 *** rob question about reorg of docs
@@ -34,8 +34,12 @@ https://github.com/Raku/doc/pull/4174
 *** marton polgar brings up an example of forums/events
 **** https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md
 
+**** irclogs.raku.org/
+
 *** web site to play with raku snippets interactively
 **** https://glot.io/new/raku
+
+
 
 *** weekly challenge
 **** 196, 197
