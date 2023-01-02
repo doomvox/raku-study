@@ -28,8 +28,9 @@
 ***** bg: contract work, company does custom websites focused on company's business model
 ****** multiclient business, clients don't care about internals
 
-
 **** debian packages for rakudo (?)
+***** they're okay, I'd suggest starting with rakudo star:
+****** https://rakudo.org/star
 
 *** rob question about reorg of docs
 **** 
