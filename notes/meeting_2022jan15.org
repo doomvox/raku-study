@@ -50,6 +50,8 @@ find . -type f -name "*.pm6" | xargs egrep deepmap
 ***** ./src/core.c/Any-iterable-methods.pm6
 ***** /home/doom/End/Cave/Raku/Wall/rakudo/src/core.c/Any-iterable-methods.pm6
 
+**** marton: Codehackers::Sourcery for looking up definitions in core code.
+
 ** announcements 
 *** next meeting: January 29th
 
