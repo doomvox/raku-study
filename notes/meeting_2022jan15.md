@@ -1,18 +1,19 @@
-- [meeting notes January 15, 2023](#org4a053fb)
-  - [the raku study group](#org50b820d)
-  - [topics](#org27833ed)
-    - [vadim zoom class: Jan 7, 2023 (I presume it's in 2023):](#org729ec17)
-    - [deepmap bug](#orge006929)
-  - [announcements](#orgd24ba84)
-    - [next meeting: January 29th](#orgc5c0279)
+- [meeting notes January 15, 2023](#org44dc759)
+  - [the raku study group](#orga04295d)
+  - [topics](#org4b135ea)
+    - [dpchrist: bug with perl on debian](#org67db8c2)
+    - [vadim zoom class: Jan 7, 2023 (I presume it's in 2023):](#org00f051c)
+    - [deepmap bug](#orgb5b5bd3)
+  - [announcements](#orgdd753e1)
+    - [next meeting: January 29th](#orgdfab861)
 
 
-<a id="org4a053fb"></a>
+<a id="org44dc759"></a>
 
 # meeting notes January 15, 2023
 
 
-<a id="org50b820d"></a>
+<a id="orga04295d"></a>
 
 ## the raku study group
 
@@ -35,19 +36,24 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan01.md>
 
 
-<a id="org27833ed"></a>
+<a id="org4b135ea"></a>
 
 ## topics
 
 
-<a id="org729ec17"></a>
+<a id="org67db8c2"></a>
+
+### dpchrist: bug with perl on debian
+
+
+<a id="org00f051c"></a>
 
 ### vadim zoom class: Jan 7, 2023 (I presume it's in 2023):
 
 <https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10896.html>
 
 
-<a id="orge006929"></a>
+<a id="orgb5b5bd3"></a>
 
 ### deepmap bug
 
@@ -64,11 +70,11 @@
     2.  /home/doom/End/Cave/Raku/Wall/rakudo/src/core.c/Any-iterable-methods.pm6
 
 
-<a id="orgd24ba84"></a>
+<a id="orgdd753e1"></a>
 
 ## announcements
 
 
-<a id="orgc5c0279"></a>
+<a id="orgdfab861"></a>
 
 ### next meeting: January 29th
