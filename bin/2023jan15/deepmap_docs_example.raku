@@ -21,3 +21,5 @@ say $p.WHAT; # (Pair)
 
 # A Pair is not Cool  Daddio.
 
+
+say $p.Str.flip;  
