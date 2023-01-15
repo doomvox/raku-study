@@ -12,6 +12,12 @@
 
 ** topics
 
+
+
+*** vadim zoom class: Jan 7, 2023 (I presume it's in 2023): 
+https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10896.html
+
+
 *** deepmap bug
 **** https://github.com/rakudo/rakudo/issues/4435
 **** simple question: where is deepmap defined?
@@ -43,5 +49,3 @@ find . -type f -name "*.pm6" | xargs egrep deepmap
 ** announcements 
 *** next meeting: January 29th
 
-*** vadim is doing a zoom class, Jan 7, 2023 (I presume it's in 2023): 
-https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10896.html
