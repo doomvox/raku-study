@@ -54,3 +54,4 @@ say $var;
 
 my $vole := Nil;
 say $vole;
+# Nil
