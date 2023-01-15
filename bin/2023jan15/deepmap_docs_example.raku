@@ -42,3 +42,9 @@ my %stuff = ( 'thing' => ('godzilla', 'mothera', 'rhodan'),
 
 
 
+my %data = ( stuff => %stuff;
+             more  => { a => 'A',
+                        b => 'B',
+                        c => 'C',
+                      },
+           );
