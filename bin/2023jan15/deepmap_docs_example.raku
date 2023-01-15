@@ -25,3 +25,9 @@ say $p.WHAT; # (Pair)
 say $p.Str.flip;  
 # eulav	yek
 
+
+my %stuff( 'thing' => ('godzilla', 'mothera', 'rhodan'),
+           'thang' => ('what?'),
+           'thong' => ('miley'),
+           );
+
