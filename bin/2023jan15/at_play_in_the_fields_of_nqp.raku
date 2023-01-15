@@ -48,3 +48,5 @@ my $var;
 dd $var;
 # Any $var = Any
 
+$var = Nil;
+say $var;
