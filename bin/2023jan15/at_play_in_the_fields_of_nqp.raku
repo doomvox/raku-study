@@ -19,3 +19,5 @@ my $result1 := nqp::add_I( $i, 7, Int );
 say $result0;  # 4
 say $result1;  # 10
 
+my $other := $result1;
+
