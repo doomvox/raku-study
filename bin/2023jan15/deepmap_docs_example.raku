@@ -11,4 +11,6 @@ use v6;
 # {a => (laer tsil), this => gniht, what => si}
 
 
-say "godzilla".flip;
+say "godzilla".flip; # allizdog
+
+my $p = ('key', 'value').new;
