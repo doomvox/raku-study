@@ -13,6 +13,7 @@
 ** topics
 
 *** dpchrist: bug with perl on debian
+**** https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1028275
 
 *** rob: $/ in nqp 
 
