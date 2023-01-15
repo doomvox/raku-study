@@ -24,4 +24,7 @@ $other := 88;
 say $other;
 
 
+nqp::stmts
+
+
 
