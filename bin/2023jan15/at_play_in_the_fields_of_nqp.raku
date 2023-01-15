@@ -28,13 +28,15 @@ my $a := 7;
 my $b := 9;
 
 my $r := $a + $b;
+my $s;
 
-nqp::stmts( 
- $ := nqp::add_I( $i, $j, Int );
-my $result1 := nqp::add_I( $i, 7, Int );
+my $result :=
+  nqp::stmts( 
+    $r :=  nqp::add_I( $a, $b, Int );
+    $s :=  nqp::add_I( $r,  2,  Int);
+  );
 
-
-
+say "result: $result";
 
 
 
