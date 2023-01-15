@@ -13,6 +13,8 @@ my $j := 1;
 # add_n(num $l, num $r --> num)
 
 my $result := nqp::add_I( $i, $j, Int );
+my $result := nqp::add_I( $i, 7, Int );
+
 
 say $result;  # 4
 
