@@ -28,9 +28,17 @@ say $p.Str.flip;
 say "===";
 
 my %stuff = ( 'thing' => ('godzilla', 'mothera', 'rhodan'),
-           'thang' => ('what?'),
-           'thong' => ('miley'),
+              'thang' => ('what?'),
+              'thong' => ('miley'),
             );
 
 %stuff.deepmap( *.say );
+
+# miley
+# godzilla
+# mothera
+# rhodan
+# what?
+
+
 
