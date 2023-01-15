@@ -27,9 +27,12 @@ say $other;
 my $a := 7;
 my $b := 9;
 
-my $result :=
+my $result := $a + $b;
 
 nqp::stmts(
+
+
+
 
 
 
