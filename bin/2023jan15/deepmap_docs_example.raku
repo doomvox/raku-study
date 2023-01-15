@@ -32,3 +32,4 @@ my %stuff( 'thing' => ('godzilla', 'mothera', 'rhodan'),
            );
 
 %stuff.deepmap( *.say );
+
