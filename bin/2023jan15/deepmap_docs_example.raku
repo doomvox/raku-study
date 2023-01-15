@@ -10,3 +10,5 @@ use v6;
 ## works as docs says
 # {a => (laer tsil), this => gniht, what => si}
 
+
+say "godzilla".flip;
