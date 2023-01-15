@@ -40,6 +40,6 @@ say "s: $s";
 # s: 18
 
 dd $result; # ()
-say $result.WHAT;
+say $result.WHAT; # (List)
 
 
