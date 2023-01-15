@@ -23,3 +23,5 @@ say $p.WHAT; # (Pair)
 
 
 say $p.Str.flip;  
+# eulav	yek
+
