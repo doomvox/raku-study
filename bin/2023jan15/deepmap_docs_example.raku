@@ -48,3 +48,5 @@ my %data = ( stuff => %stuff;
                         c => 'C',
                       },
            );
+
+%data.deepmap( *.say );
