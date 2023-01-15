@@ -23,6 +23,12 @@
 
 *** rob: weekly challenge
 
+*** weekly challenge
+**** 196, 197
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-196
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-197
+
+
 *** vadim zoom class: Jan 7, 2023 (I presume it's in 2023): 
 https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10896.html
 

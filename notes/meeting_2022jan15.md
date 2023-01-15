@@ -1,21 +1,22 @@
-- [meeting notes January 15, 2023](#org19ba363)
-  - [the raku study group](#org09a0ddb)
-  - [topics](#org6a01cfa)
-    - [dpchrist: bug with perl on debian](#org4c7c3c2)
-    - [rob: $/ in nqp](#orgec19f15)
-    - [rob: weekly challenge](#orgcff8f05)
-    - [vadim zoom class: Jan 7, 2023 (I presume it's in 2023):](#org4a695f8)
-    - [deepmap bug](#org58017e5)
-  - [announcements](#org998e4ee)
-    - [next meeting: January 29th](#org0b24ce2)
+- [meeting notes January 15, 2023](#orga05bc94)
+  - [the raku study group](#org7c81a79)
+  - [topics](#org45d5243)
+    - [dpchrist: bug with perl on debian](#org61e6e57)
+    - [rob: $/ in nqp](#orgd5be9d6)
+    - [rob: weekly challenge](#org2b10d09)
+    - [weekly challenge](#org5dec2aa)
+    - [vadim zoom class: Jan 7, 2023 (I presume it's in 2023):](#org46715f6)
+    - [deepmap bug](#orge88abba)
+  - [announcements](#orgdeb434e)
+    - [next meeting: January 29th](#org3ab8bd3)
 
 
-<a id="org19ba363"></a>
+<a id="orga05bc94"></a>
 
 # meeting notes January 15, 2023
 
 
-<a id="org09a0ddb"></a>
+<a id="org7c81a79"></a>
 
 ## the raku study group
 
@@ -38,12 +39,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan01.md>
 
 
-<a id="org6a01cfa"></a>
+<a id="org45d5243"></a>
 
 ## topics
 
 
-<a id="org4c7c3c2"></a>
+<a id="org61e6e57"></a>
 
 ### dpchrist: bug with perl on debian
 
@@ -60,24 +61,35 @@
     2.  <https://en.wikipedia.org/wiki/Almquist_shell>
 
 
-<a id="orgec19f15"></a>
+<a id="orgd5be9d6"></a>
 
 ### rob: $/ in nqp
 
 
-<a id="orgcff8f05"></a>
+<a id="org2b10d09"></a>
 
 ### rob: weekly challenge
 
 
-<a id="org4a695f8"></a>
+<a id="org5dec2aa"></a>
+
+### weekly challenge
+
+1.  196, 197
+
+    1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-196>
+    
+    2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-197>
+
+
+<a id="org46715f6"></a>
 
 ### vadim zoom class: Jan 7, 2023 (I presume it's in 2023):
 
 <https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10896.html>
 
 
-<a id="org58017e5"></a>
+<a id="orge88abba"></a>
 
 ### deepmap bug
 
@@ -96,11 +108,11 @@
 4.  Marton: CoreHackers::Sourcery for looking up definitions in core code.
 
 
-<a id="org998e4ee"></a>
+<a id="orgdeb434e"></a>
 
 ## announcements
 
 
-<a id="org0b24ce2"></a>
+<a id="org3ab8bd3"></a>
 
 ### next meeting: January 29th
