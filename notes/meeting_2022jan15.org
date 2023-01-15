@@ -17,6 +17,7 @@
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2023jan15/dpchrist-perls_system_has_problems_on_dash_machines_like_debian.t
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jan15/dpchrist-perls_system_has_problems_on_dash_machines_like_debian.t
 **** debian based systems have sh aliased to dash
+**** https://wiki.archlinux.org/title/Dash
 
 *** rob: $/ in nqp 
 

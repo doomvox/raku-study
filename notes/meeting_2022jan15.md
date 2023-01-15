@@ -1,21 +1,21 @@
-- [meeting notes January 15, 2023](#orgd81224e)
-  - [the raku study group](#org4a0a667)
-  - [topics](#org89adbde)
-    - [dpchrist: bug with perl on debian](#org8e5d4e4)
-    - [rob: $/ in nqp](#org1e3c49a)
-    - [rob: weekly challenge](#org4826bee)
-    - [vadim zoom class: Jan 7, 2023 (I presume it's in 2023):](#org513a9b2)
-    - [deepmap bug](#orgdfeed67)
-  - [announcements](#org74902f8)
-    - [next meeting: January 29th](#org44c74e6)
+- [meeting notes January 15, 2023](#orgf346e5f)
+  - [the raku study group](#org4a87937)
+  - [topics](#org034f9b1)
+    - [dpchrist: bug with perl on debian](#orgbb2e922)
+    - [rob: $/ in nqp](#org0d54187)
+    - [rob: weekly challenge](#orgca5b62d)
+    - [vadim zoom class: Jan 7, 2023 (I presume it's in 2023):](#org8397776)
+    - [deepmap bug](#org6274c1d)
+  - [announcements](#orgfd21d48)
+    - [next meeting: January 29th](#org7d0ed82)
 
 
-<a id="orgd81224e"></a>
+<a id="orgf346e5f"></a>
 
 # meeting notes January 15, 2023
 
 
-<a id="org4a0a667"></a>
+<a id="org4a87937"></a>
 
 ## the raku study group
 
@@ -38,12 +38,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan01.md>
 
 
-<a id="org89adbde"></a>
+<a id="org034f9b1"></a>
 
 ## topics
 
 
-<a id="org8e5d4e4"></a>
+<a id="orgbb2e922"></a>
 
 ### dpchrist: bug with perl on debian
 
@@ -55,25 +55,27 @@
 
 2.  debian based systems have sh aliased to dash
 
+3.  <https://wiki.archlinux.org/title/Dash>
 
-<a id="org1e3c49a"></a>
+
+<a id="org0d54187"></a>
 
 ### rob: $/ in nqp
 
 
-<a id="org4826bee"></a>
+<a id="orgca5b62d"></a>
 
 ### rob: weekly challenge
 
 
-<a id="org513a9b2"></a>
+<a id="org8397776"></a>
 
 ### vadim zoom class: Jan 7, 2023 (I presume it's in 2023):
 
 <https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10896.html>
 
 
-<a id="orgdfeed67"></a>
+<a id="org6274c1d"></a>
 
 ### deepmap bug
 
@@ -92,11 +94,11 @@
 4.  Marton: CoreHackers::Sourcery for looking up definitions in core code.
 
 
-<a id="org74902f8"></a>
+<a id="orgfd21d48"></a>
 
 ## announcements
 
 
-<a id="org44c74e6"></a>
+<a id="org7d0ed82"></a>
 
 ### next meeting: January 29th
