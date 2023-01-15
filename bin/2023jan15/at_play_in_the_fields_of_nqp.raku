@@ -27,9 +27,11 @@ say $other;
 my $a := 7;
 my $b := 9;
 
-my $result := $a + $b;
+my $r := $a + $b;
 
-nqp::stmts(
+nqp::stmts( 
+ $ := nqp::add_I( $i, $j, Int );
+my $result1 := nqp::add_I( $i, 7, Int );
 
 
 
