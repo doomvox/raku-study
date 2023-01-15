@@ -37,10 +37,9 @@ my $result :=
   );
 
 say "s: $s";
+# s: 18
 
-
-
-dd "result: $result";
+dd $result;
 
 
 
