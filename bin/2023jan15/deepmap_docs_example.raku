@@ -4,7 +4,7 @@
 
 use v6;
 
-{ what => "is", this => "thing", a => <real list> }.deepmap( *.flip ).say
+{ what => "is", this => "thing", a => <real list> }.deepmap( *.flip ).say;
 # {a => (laer tsil), this => gniht, what => si}
 
 ## works as docs says
