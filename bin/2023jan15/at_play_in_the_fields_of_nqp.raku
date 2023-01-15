@@ -38,7 +38,9 @@ my $result :=
 
 say "s: $s";
 
-say "result: $result";
-#  result: 
+
+
+dd "result: $result";
+
 
 
