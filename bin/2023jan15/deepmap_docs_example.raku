@@ -16,4 +16,8 @@ say "godzilla".flip; # allizdog
 my $p = Pair.new('key', 'value');
 say $p.WHAT; # (Pair)
 
-say $p.flip;
+# say $p.flip;  
+#  these: 'flat', 'skip', 'Slip'?
+
+# A Pair is not Cool  Daddio.
+
