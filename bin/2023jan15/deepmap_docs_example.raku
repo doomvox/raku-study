@@ -14,5 +14,4 @@ use v6;
 say "godzilla".flip; # allizdog
 
 my $p = Pair.new('key', 'value');
-
-say $p.WHAT;
+say $p.WHAT; # (Pair)
