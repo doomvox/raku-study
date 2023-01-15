@@ -52,5 +52,5 @@ $var = Nil;
 say $var;
 # (Any)
 
-$vole := Nil;
+my $vole := Nil;
 say $vole;
