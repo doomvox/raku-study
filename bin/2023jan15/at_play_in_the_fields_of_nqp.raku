@@ -24,7 +24,10 @@ $other := 88;
 say $other;
 
 
-nqp::stmts
+my $a = 7;
+my $b = 9;
+
+nqp::stmts(
 
 
 
