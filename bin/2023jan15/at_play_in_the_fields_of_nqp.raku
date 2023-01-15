@@ -16,7 +16,7 @@ my $result0 := nqp::add_I( $i, $j, Int );
 my $result1 := nqp::add_I( $i, 7, Int );
 
 say $result0;  # 4
-say $result1;  # 10
+say $result1;  # 10   =  3 + 7;
 
 my $other := $result1;
 say $other;
