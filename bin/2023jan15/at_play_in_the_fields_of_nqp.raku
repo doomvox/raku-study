@@ -12,9 +12,10 @@ my $j := 1;
 # add_i(int $l, int $r --> int)
 # add_n(num $l, num $r --> num)
 
-my $result := nqp::add_I( $i, $j, Int );
-my $result := nqp::add_I( $i, 7, Int );
+my $result0 := nqp::add_I( $i, $j, Int );
+my $result1 := nqp::add_I( $i, 7, Int );
 
 
-say $result;  # 4
+say $result0;  # 4
+say $result1;  # 4
 
