@@ -1,25 +1,18 @@
-- [meeting notes January 15, 2023](#orgcd53185)
-  - [the raku study group](#org6fb70ce)
-  - [topics](#orgde92534)
-    - [happy 2023 and all](#org67083fa)
-    - [william michels style question](#org9acca1b)
-    - [discussion topic: business models for independent programmers](#org4784e29)
-    - [rob question about reorg of docs](#orge305684)
-    - [marton polgar brings up an example of forums/events](#orgb1fc951)
-    - [web site to play with raku snippets interactively](#orgd4d8b8e)
-    - [weekly challenge](#org7ab955c)
-    - [deepmap bug](#orga9576e6)
-  - [announcements](#org84cf7f0)
-    - [next meeting: January 15th](#org66f42ea)
-    - [vadim is doing a zoom class, Jan 7, 2023 (I presume it's in 2023):](#orgb170a16)
+- [meeting notes January 15, 2023](#orgd3d5d65)
+  - [the raku study group](#org0b20351)
+  - [topics](#org12e3bb2)
+    - [deepmap bug](#org0262a68)
+  - [announcements](#org04d24e0)
+    - [next meeting: January 29th](#orgfa1d0fd)
+    - [vadim is doing a zoom class, Jan 7, 2023 (I presume it's in 2023):](#org11d31d7)
 
 
-<a id="orgcd53185"></a>
+<a id="orgd3d5d65"></a>
 
 # meeting notes January 15, 2023
 
 
-<a id="org6fb70ce"></a>
+<a id="org0b20351"></a>
 
 ## the raku study group
 
@@ -42,95 +35,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan01.md>
 
 
-<a id="orgde92534"></a>
+<a id="org12e3bb2"></a>
 
 ## topics
 
 
-<a id="org67083fa"></a>
-
-### happy 2023 and all
-
-1.  so, how well does a New Year's Day meeting work, any way?
-
-
-<a id="org9acca1b"></a>
-
-### william michels style question
-
-1.  <https://www.nntp.perl.org/group/perl.perl6.users/2023/01/msg10904.html>
-
-2.  <https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10891.html>
-
-3.  <https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10890.html>
-
-    1.  <https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two>
-
-
-<a id="org4784e29"></a>
-
-### discussion topic: business models for independent programmers
-
-1.  dpchrist: "I have a discussion question&#x2013; what business model works best independent Perl [developer]?"
-
-    1.  my thought: what did cPanel do?
-    
-    2.  bg: contract work, company does custom websites focused on company's business model
-    
-        1.  multiclient business, clients don't care about internals
-
-2.  debian packages for rakudo, okay versions?
-
-    1.  they're okay, I'd suggest starting with rakudo star:
-    
-        1.  <https://rakudo.org/star>
-
-
-<a id="orge305684"></a>
-
-### rob question about reorg of docs
-
-1.  
-
-    <https://github.com/Raku/doc/pull/4174>
-
-
-<a id="orgb1fc951"></a>
-
-### marton polgar brings up an example of forums/events
-
-1.  <https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md>
-
-2.  irclogs.raku.org/
-
-
-<a id="orgd4d8b8e"></a>
-
-### web site to play with raku snippets interactively
-
-1.  <https://glot.io/new/raku>
-
-
-<a id="org7ab955c"></a>
-
-### weekly challenge
-
-1.  196, 197
-
-    1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-196>
-    
-    2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-197>
-    
-        1.  <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-197/0rir/raku/ch-1.raku>
-        
-        2.  <https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-197/challenge-197/bruce-gray/raku/ch-1.raku>
-        
-        3.  <https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-197/0rir/raku/ch-2.raku>
-        
-        4.  <https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-197/challenge-197/bruce-gray/raku/ch-2.raku>
-
-
-<a id="orga9576e6"></a>
+<a id="org0262a68"></a>
 
 ### deepmap bug
 
@@ -147,17 +57,17 @@
     2.  /home/doom/End/Cave/Raku/Wall/rakudo/src/core.c/Any-iterable-methods.pm6
 
 
-<a id="org84cf7f0"></a>
+<a id="org04d24e0"></a>
 
 ## announcements
 
 
-<a id="org66f42ea"></a>
+<a id="orgfa1d0fd"></a>
 
-### next meeting: January 15th
+### next meeting: January 29th
 
 
-<a id="orgb170a16"></a>
+<a id="org11d31d7"></a>
 
 ### vadim is doing a zoom class, Jan 7, 2023 (I presume it's in 2023):
 
