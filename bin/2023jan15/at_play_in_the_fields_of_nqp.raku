@@ -53,6 +53,7 @@ say $var;
 # (Any)
 
 unless $var { say 'var not set'; };
+# var not set
 
 my $vole := Nil;
 say $vole;
