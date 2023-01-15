@@ -50,3 +50,5 @@ dd $var;
 
 $var = Nil;
 say $var;
+# (Any)
+
