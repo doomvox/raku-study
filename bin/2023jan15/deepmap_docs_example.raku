@@ -15,3 +15,5 @@ say "godzilla".flip; # allizdog
 
 my $p = Pair.new('key', 'value');
 say $p.WHAT; # (Pair)
+
+say $p.flip;
