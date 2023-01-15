@@ -42,7 +42,7 @@ my %stuff = ( 'thing' => ('godzilla', 'mothera', 'rhodan'),
 
 
 say "===";
-my %data = ( stuff => %stuff;
+my %data = ( stuff => %stuff,
              more  => { a => 'A',
                         b => 'B',
                         c => 'C',
