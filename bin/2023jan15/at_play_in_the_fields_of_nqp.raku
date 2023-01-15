@@ -14,5 +14,5 @@ my $j := 1;
 
 my $result := nqp::add_I( $i, $j, Int );
 
-say $result;
+say $result;  # 4
 
