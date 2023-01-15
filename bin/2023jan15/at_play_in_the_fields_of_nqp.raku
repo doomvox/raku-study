@@ -36,6 +36,8 @@ my $result :=
     $s :=  nqp::add_I( $r,  2,  Int);
   );
 
+say "s: $s";
+
 say "result: $result";
 #  result: 
 
