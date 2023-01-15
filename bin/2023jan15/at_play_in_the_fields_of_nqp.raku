@@ -46,3 +46,5 @@ say $result.WHAT; # (List)
 say "===";
 my $var;
 dd $var;
+# Any $var = Any
+
