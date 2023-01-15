@@ -39,7 +39,7 @@ my $result :=
 say "s: $s";
 # s: 18
 
-dd $result;
-
+dd $result; # ()
+say $result.WHAT;
 
 
