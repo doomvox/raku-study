@@ -25,6 +25,7 @@ say $p.WHAT; # (Pair)
 say $p.Str.flip;  
 # eulav	yek
 
+say "===";
 
 my %stuff = ( 'thing' => ('godzilla', 'mothera', 'rhodan'),
            'thang' => ('what?'),
