@@ -1,21 +1,21 @@
-- [meeting notes January 15, 2023](#orgdd128bb)
-  - [the raku study group](#org1bed970)
-  - [topics](#org8f91950)
-    - [dpchrist: bug with perl on debian](#org0dc32fb)
-    - [rob: $/ in nqp](#org46c709f)
-    - [rob: weekly challenge](#orgd567791)
-    - [vadim zoom class: Jan 7, 2023 (I presume it's in 2023):](#org8b3c5f2)
-    - [deepmap bug](#org6fe714c)
-  - [announcements](#orgac0ca3b)
-    - [next meeting: January 29th](#orge4ba706)
+- [meeting notes January 15, 2023](#orga64dc5f)
+  - [the raku study group](#org77a6fd1)
+  - [topics](#org0fd158d)
+    - [dpchrist: bug with perl on debian](#org8f842a4)
+    - [rob: $/ in nqp](#org3802e7e)
+    - [rob: weekly challenge](#orgd453e1b)
+    - [vadim zoom class: Jan 7, 2023 (I presume it's in 2023):](#org5460e87)
+    - [deepmap bug](#orgc4e93f4)
+  - [announcements](#org72dc886)
+    - [next meeting: January 29th](#orgfcd956d)
 
 
-<a id="orgdd128bb"></a>
+<a id="orga64dc5f"></a>
 
 # meeting notes January 15, 2023
 
 
-<a id="org1bed970"></a>
+<a id="org77a6fd1"></a>
 
 ## the raku study group
 
@@ -38,34 +38,34 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan01.md>
 
 
-<a id="org8f91950"></a>
+<a id="org0fd158d"></a>
 
 ## topics
 
 
-<a id="org0dc32fb"></a>
+<a id="org8f842a4"></a>
 
 ### dpchrist: bug with perl on debian
 
 
-<a id="org46c709f"></a>
+<a id="org3802e7e"></a>
 
 ### rob: $/ in nqp
 
 
-<a id="orgd567791"></a>
+<a id="orgd453e1b"></a>
 
 ### rob: weekly challenge
 
 
-<a id="org8b3c5f2"></a>
+<a id="org5460e87"></a>
 
 ### vadim zoom class: Jan 7, 2023 (I presume it's in 2023):
 
 <https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10896.html>
 
 
-<a id="org6fe714c"></a>
+<a id="orgc4e93f4"></a>
 
 ### deepmap bug
 
@@ -82,11 +82,11 @@
     2.  /home/doom/End/Cave/Raku/Wall/rakudo/src/core.c/Any-iterable-methods.pm6
 
 
-<a id="orgac0ca3b"></a>
+<a id="org72dc886"></a>
 
 ## announcements
 
 
-<a id="orge4ba706"></a>
+<a id="orgfcd956d"></a>
 
 ### next meeting: January 29th

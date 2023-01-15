@@ -16,7 +16,6 @@
 
 *** rob: $/ in nqp 
 
-
 *** rob: weekly challenge
 
 *** vadim zoom class: Jan 7, 2023 (I presume it's in 2023): 
