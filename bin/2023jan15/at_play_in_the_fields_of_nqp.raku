@@ -11,7 +11,7 @@ my $i = 3;
 # add_i(int $l, int $r --> int)
 # add_n(num $l, num $r --> num)
 
-my $result = add_I( $i, 3, Int );
+my $result = nqp::add_I( $i, 3, Int );
 
 say $result;
 
