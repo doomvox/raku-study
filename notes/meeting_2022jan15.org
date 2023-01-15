@@ -1,0 +1,89 @@
+* meeting notes January 15, 2023
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023jan15.md
+****** source file (for corrections, etc)
+******* https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023jan15.org
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2023jan15
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan01.md
+
+** topics
+*** happy 2023 and all
+**** so, how well does a New Year's Day meeting work, any way?
+
+*** william michels style question
+**** https://www.nntp.perl.org/group/perl.perl6.users/2023/01/msg10904.html
+**** https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10891.html
+**** https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10890.html 
+
+***** https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two
+
+
+*** discussion topic: business models for independent programmers
+**** dpchrist: "I have a discussion question-- what business model works best independent Perl [developer]?"
+***** my thought: what did cPanel do?
+***** bg: contract work, company does custom websites focused on company's business model
+****** multiclient business, clients don't care about internals
+
+**** debian packages for rakudo, okay versions?
+***** they're okay, I'd suggest starting with rakudo star:
+****** https://rakudo.org/star
+
+*** rob question about reorg of docs
+**** 
+https://github.com/Raku/doc/pull/4174
+
+*** marton polgar brings up an example of forums/events
+**** https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md
+
+**** irclogs.raku.org/
+
+*** web site to play with raku snippets interactively
+**** https://glot.io/new/raku
+
+*** weekly challenge
+**** 196, 197
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-196
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-197
+
+****** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-197/0rir/raku/ch-1.raku
+****** https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-197/challenge-197/bruce-gray/raku/ch-1.raku
+****** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-197/0rir/raku/ch-2.raku
+****** https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-197/challenge-197/bruce-gray/raku/ch-2.raku
+
+*** deepmap bug
+**** https://github.com/rakudo/rakudo/issues/4435
+**** simple question: where is deepmap defined?
+
+find . -type f -name "*.pm6" | xargs egrep deepmap
+./src/core.c/Slip.pm6:    multi method deepmap(Slip:D: &) {
+./src/core.c/metaops.pm6:    nqp::can(&op,"nodal") ?? *.nodemap(&op) !! *.deepmap(&op)
+./src/core.c/metaops.pm6:    nqp::can(&op,"nodal") ?? obj.nodemap(&op) !! obj.deepmap(&op)
+./src/core.c/metaops.pm6:      !! obj.deepmap(-> \o { op(o, @args) })
+./src/core.c/metaops.pm6:      !! obj.deepmap( -> \o { op(o,|args) })
+./src/core.c/metaops.pm6:    nqp::can(&op,"nodal") ?? *.nodemap(&op) !! *.deepmap(&op)
+./src/core.c/metaops.pm6:    list.deepmap(-> &code { code(|args) })
+./src/core.c/Hyper.pm6:          !! object.deepmap($!operator)
+./src/core.c/Any-iterable-methods.pm6:    proto method deepmap(|) is nodal {*}
+./src/core.c/Any-iterable-methods.pm6:    multi method deepmap(Associative:D: &op) {
+./src/core.c/Any-iterable-methods.pm6:        self.new.STORE: self.keys, self.values.deepmap(&op), :INITIALIZE
+./src/core.c/Any-iterable-methods.pm6:    multi method deepmap(&op) {
+./src/core.c/Any-iterable-methods.pm6:        sub deep(\value) is raw { my $ = value.deepmap(&op) }
+./src/core.c/Any-iterable-methods.pm6:proto sub deepmap($, $, *%) {*}
+./src/core.c/Any-iterable-methods.pm6:multi sub deepmap(&op, \obj) { obj.deepmap(&op) }
+./src/core.c/Baggy.pm6:    multi method deepmap(Baggy:D: &mapper) {
+./src/core.c/Mixy.pm6:    multi method deepmap(Mixy:D: &mapper) {
+./src/core.c/Setty.pm6:    multi method deepmap(Setty:D: &mapper) {
+
+**** start here, I think:
+***** ./src/core.c/Any-iterable-methods.pm6
+***** /home/doom/End/Cave/Raku/Wall/rakudo/src/core.c/Any-iterable-methods.pm6
+
+** announcements 
+*** next meeting: January 15th
+
+*** vadim is doing a zoom class, Jan 7, 2023 (I presume it's in 2023): 
+https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10896.html
