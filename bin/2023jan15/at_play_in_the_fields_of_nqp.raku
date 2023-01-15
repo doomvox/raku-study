@@ -6,8 +6,8 @@ use v6;
 
 use nqp;
 
-my $i = 3;
-my $j = 1;
+my $i := 3;
+my $j := 1;
 
 # add_i(int $l, int $r --> int)
 # add_n(num $l, num $r --> num)
