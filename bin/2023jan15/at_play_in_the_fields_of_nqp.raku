@@ -52,7 +52,7 @@ $var = Nil;
 say $var;
 # (Any)
 
-unless $var { say 'var not set' };
+unless $var { say 'var not set'; };
 
 my $vole := Nil;
 say $vole;
