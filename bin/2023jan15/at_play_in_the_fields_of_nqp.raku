@@ -24,8 +24,10 @@ $other := 88;
 say $other;
 
 
-my $a = 7;
-my $b = 9;
+my $a := 7;
+my $b := 9;
+
+my $result :=
 
 nqp::stmts(
 
