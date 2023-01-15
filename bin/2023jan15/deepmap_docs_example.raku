@@ -13,4 +13,6 @@ use v6;
 
 say "godzilla".flip; # allizdog
 
-my $p = ('key', 'value').new;
+my $p = ('key', 'value').Pair;
+
+say $p.WHAT;
