@@ -63,3 +63,5 @@ find . -type f -name "*.pm6" | xargs egrep deepmap
 ** announcements 
 *** next meeting: January 29th
 
+*** look for vaddim's class on Saturday the 28th 
+
