@@ -1,23 +1,23 @@
-- [meeting notes January 15, 2023](#org6e522b5)
-  - [the raku study group](#org3ce28df)
-  - [topics](#org1f93f0a)
-    - [dpchrist: bug with perl on debian](#org03e5947)
-    - [rob: $/ in nqp](#org416aaea)
-    - [rob: weekly challenge](#orgd774dd5)
-    - [weekly challenge](#org0b9b9d7)
-    - [vadim zoom class: Jan 7, 2023 (I presume it's in 2023):](#org08846a6)
-    - [deepmap bug](#org45f9940)
-  - [announcements](#org019fced)
-    - [next meeting: January 29th](#orgb891d27)
-    - [look for vaddim's class on Saturday the 28th](#orga082253)
+- [meeting notes January 15, 2023](#orgaa221bb)
+  - [the raku study group](#org6a92ab5)
+  - [topics](#org47696fc)
+    - [dpchrist: bug with perl on debian](#orgb19051c)
+    - [rob: $/ in nqp](#org30728bf)
+    - [rob: weekly challenge](#orge424f64)
+    - [weekly challenge](#orgbd95be7)
+    - [vadim zoom class: Jan 7, 2023 (I presume it's in 2023):](#orgdca47f8)
+    - [deepmap bug](#org54356b3)
+  - [announcements](#orgd81d2c7)
+    - [next meeting: January 29th](#orgefc55d5)
+    - [look for vaddim's class on Saturday the 28th](#org039129f)
 
 
-<a id="org6e522b5"></a>
+<a id="orgaa221bb"></a>
 
 # meeting notes January 15, 2023
 
 
-<a id="org3ce28df"></a>
+<a id="org6a92ab5"></a>
 
 ## the raku study group
 
@@ -40,12 +40,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan01.md>
 
 
-<a id="org1f93f0a"></a>
+<a id="org47696fc"></a>
 
 ## topics
 
 
-<a id="org03e5947"></a>
+<a id="orgb19051c"></a>
 
 ### dpchrist: bug with perl on debian
 
@@ -62,17 +62,17 @@
     2.  <https://en.wikipedia.org/wiki/Almquist_shell>
 
 
-<a id="org416aaea"></a>
+<a id="org30728bf"></a>
 
 ### rob: $/ in nqp
 
 
-<a id="orgd774dd5"></a>
+<a id="orge424f64"></a>
 
 ### rob: weekly challenge
 
 
-<a id="org0b9b9d7"></a>
+<a id="orgbd95be7"></a>
 
 ### weekly challenge
 
@@ -81,14 +81,14 @@
 2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-198/>
 
 
-<a id="org08846a6"></a>
+<a id="orgdca47f8"></a>
 
 ### vadim zoom class: Jan 7, 2023 (I presume it's in 2023):
 
 <https://www.nntp.perl.org/group/perl.perl6.users/2022/12/msg10896.html>
 
 
-<a id="org45f9940"></a>
+<a id="org54356b3"></a>
 
 ### deepmap bug
 
@@ -106,17 +106,21 @@
 
 4.  Marton: CoreHackers::Sourcery for looking up definitions in core code.
 
+5.  playing with the new ast
 
-<a id="org019fced"></a>
+    RAKUDO<sub>RAKUAST</sub>=1 raku &#x2013;target=ast -e 'Bool(False)'
+
+
+<a id="orgd81d2c7"></a>
 
 ## announcements
 
 
-<a id="orgb891d27"></a>
+<a id="orgefc55d5"></a>
 
 ### next meeting: January 29th
 
 
-<a id="orga082253"></a>
+<a id="org039129f"></a>
 
 ### look for vaddim's class on Saturday the 28th
