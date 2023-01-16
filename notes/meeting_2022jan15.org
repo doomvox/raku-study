@@ -62,7 +62,7 @@ find . -type f -name "*.pm6" | xargs egrep deepmap
 
 
 **** playing with the new ast
-RAKUDO_RAKUAST=1  raku --target=ast -e 'Bool(False)'
+***** RAKUDO_RAKUAST=1  raku --target=ast -e 'Bool(False)'
 
 
 ** announcements 
