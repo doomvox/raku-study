@@ -19,6 +19,9 @@
 **** 
 ***** https://github.com/raku/doc-website
 
+**** rawleyfowler did dark themes
+***** looks identical to "Dark Reader" firefox extension
+
 *** weekly challenge
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-201/
 ****** 1: Missing Numbers (integers?)

@@ -1,18 +1,18 @@
-- [meeting notes January 29, 2023](#org646b4c3)
-  - [the raku study group](#orgd7e2e81)
-  - [topics](#orgcf758e5)
-    - [richard hainsworth](#orgbc0510b)
-    - [weekly challenge](#orgf5fc960)
-  - [announcements](#org3b745fa)
-    - [next meeting: February 12th](#org2f560bc)
+- [meeting notes January 29, 2023](#orgf7cbca3)
+  - [the raku study group](#org5e4c159)
+  - [topics](#org244292f)
+    - [richard hainsworth](#orgc4eea24)
+    - [weekly challenge](#orgc15c4cd)
+  - [announcements](#orgef07c4b)
+    - [next meeting: February 12th](#org338eb05)
 
 
-<a id="org646b4c3"></a>
+<a id="orgf7cbca3"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="orgd7e2e81"></a>
+<a id="org5e4c159"></a>
 
 ## the raku study group
 
@@ -35,12 +35,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan15.md>
 
 
-<a id="orgcf758e5"></a>
+<a id="org244292f"></a>
 
 ## topics
 
 
-<a id="orgbc0510b"></a>
+<a id="orgc4eea24"></a>
 
 ### richard hainsworth
 
@@ -54,8 +54,12 @@
 
     1.  <https://github.com/raku/doc-website>
 
+4.  rawleyfowler did dark themes
 
-<a id="orgf5fc960"></a>
+    1.  looks identical to "Dark Reader" firefox extension
+
+
+<a id="orgc15c4cd"></a>
 
 ### weekly challenge
 
@@ -66,11 +70,11 @@
     2.  2: Penny Piles
 
 
-<a id="org3b745fa"></a>
+<a id="orgef07c4b"></a>
 
 ## announcements
 
 
-<a id="org2f560bc"></a>
+<a id="org338eb05"></a>
 
 ### next meeting: February 12th
