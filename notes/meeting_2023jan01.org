@@ -53,7 +53,7 @@ https://github.com/Raku/doc/pull/4174
 ****** https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-197/challenge-197/bruce-gray/raku/ch-1.raku
 ****** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-197/0rir/raku/ch-2.raku
 ****** https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-197/challenge-197/bruce-gray/raku/ch-2.raku
-
+ 
 *** deepmap bug
 **** https://github.com/rakudo/rakudo/issues/4435
 **** simple question: where is deepmap defined?
