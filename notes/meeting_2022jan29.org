@@ -18,7 +18,5 @@
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-199/
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-198/
 
-
-
 ** announcements 
 *** next meeting: February 12th
