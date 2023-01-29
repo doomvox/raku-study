@@ -1,19 +1,18 @@
-- [meeting notes January 29, 2023](#orgc04df67)
-  - [the raku study group](#orgd5b53ce)
-  - [topics](#org7e2a9f9)
-    - [richard hainsworth](#org250e1fc)
-    - [weekly challenge](#org02a12de)
-  - [announcements](#org6d05854)
-    - [next meeting: February 12th](#org32abb96)
-    - [look for vaddim's class on Saturday the 28th](#orgb9b1922)
+- [meeting notes January 29, 2023](#org59ed394)
+  - [the raku study group](#orga1f11de)
+  - [topics](#org6dbaf51)
+    - [richard hainsworth](#orga6790a6)
+    - [weekly challenge](#org08eb13b)
+  - [announcements](#orgca260f4)
+    - [next meeting: February 12th](#orgef4ebad)
 
 
-<a id="orgc04df67"></a>
+<a id="org59ed394"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="orgd5b53ce"></a>
+<a id="orga1f11de"></a>
 
 ## the raku study group
 
@@ -36,19 +35,19 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan15.md>
 
 
-<a id="org7e2a9f9"></a>
+<a id="org6dbaf51"></a>
 
 ## topics
 
 
-<a id="org250e1fc"></a>
+<a id="orga6790a6"></a>
 
 ### richard hainsworth
 
 1.  new doc site efforts
 
 
-<a id="org02a12de"></a>
+<a id="org08eb13b"></a>
 
 ### weekly challenge
 
@@ -57,16 +56,11 @@
 2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-198/>
 
 
-<a id="org6d05854"></a>
+<a id="orgca260f4"></a>
 
 ## announcements
 
 
-<a id="org32abb96"></a>
+<a id="orgef4ebad"></a>
 
 ### next meeting: February 12th
-
-
-<a id="orgb9b1922"></a>
-
-### look for vaddim's class on Saturday the 28th
