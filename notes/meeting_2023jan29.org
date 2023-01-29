@@ -20,8 +20,8 @@
 ***** https://github.com/raku/doc-website
 
 *** weekly challenge
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-199/
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-198/
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-201/
+
 
 ** announcements 
 *** next meeting: February 12th
