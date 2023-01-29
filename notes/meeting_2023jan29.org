@@ -13,6 +13,8 @@
 ** topics
 *** richard hainsworth 
 **** new doc site efforts
+**** css framework:
+***** https://bulma.io/
 
 *** weekly challenge
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-199/
