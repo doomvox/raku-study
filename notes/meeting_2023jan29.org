@@ -21,7 +21,8 @@
 
 *** weekly challenge
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-201/
-
+****** Missing Numbers (integers?)
+****** Penny Piles
 
 ** announcements 
 *** next meeting: February 12th

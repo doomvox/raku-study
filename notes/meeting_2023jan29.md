@@ -1,18 +1,18 @@
-- [meeting notes January 29, 2023](#orgad23a90)
-  - [the raku study group](#org3ea6e2f)
-  - [topics](#orgc75b522)
-    - [richard hainsworth](#org4c5673c)
-    - [weekly challenge](#orgb079517)
-  - [announcements](#orgc144e3e)
-    - [next meeting: February 12th](#org78f89d5)
+- [meeting notes January 29, 2023](#org8169b1d)
+  - [the raku study group](#org08b72e6)
+  - [topics](#orga95390b)
+    - [richard hainsworth](#org2b16619)
+    - [weekly challenge](#orgbdabed0)
+  - [announcements](#org570bf1e)
+    - [next meeting: February 12th](#org5caf805)
 
 
-<a id="orgad23a90"></a>
+<a id="org8169b1d"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="org3ea6e2f"></a>
+<a id="org08b72e6"></a>
 
 ## the raku study group
 
@@ -35,12 +35,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan15.md>
 
 
-<a id="orgc75b522"></a>
+<a id="orga95390b"></a>
 
 ## topics
 
 
-<a id="org4c5673c"></a>
+<a id="org2b16619"></a>
 
 ### richard hainsworth
 
@@ -55,18 +55,22 @@
     1.  <https://github.com/raku/doc-website>
 
 
-<a id="orgb079517"></a>
+<a id="orgbdabed0"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-201/>
 
+    1.  Missing Numbers (integers?)
+    
+    2.  Penny Piles
 
-<a id="orgc144e3e"></a>
+
+<a id="org570bf1e"></a>
 
 ## announcements
 
 
-<a id="org78f89d5"></a>
+<a id="org5caf805"></a>
 
 ### next meeting: February 12th
