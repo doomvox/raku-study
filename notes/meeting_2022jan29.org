@@ -8,7 +8,7 @@
 ***** code examples
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2023jan29
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan01.md
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan15.md
 
 ** topics
 *** dpchrist: bug with perl on debian
