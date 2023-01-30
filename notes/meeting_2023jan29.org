@@ -31,6 +31,8 @@
 
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-200/
 ****** 1: Arithmetic Slices
+******* any standard definition?
+
 ****** 2: 
 
 *** discussion of lazy infinite lists 
