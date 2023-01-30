@@ -29,6 +29,8 @@
 ****** 1: Missing Numbers (integers?)
 ****** 2: Penny Piles
 
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-200/
+
 *** discussion of lazy infinite lists 
 **** how can they work as well as they do?
 
