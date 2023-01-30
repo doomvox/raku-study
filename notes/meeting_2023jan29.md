@@ -1,19 +1,19 @@
-- [meeting notes January 29, 2023](#org6b9b123)
-  - [the raku study group](#orgfd97a79)
-  - [topics](#org2e940e7)
-    - [richard hainsworth](#org7914998)
-    - [weekly challenge](#org4da4a11)
-    - [discussion of lazy infinite lists](#org5cdb673)
-  - [announcements](#org42d27eb)
-    - [next meeting: February 12th](#orgade30ac)
+- [meeting notes January 29, 2023](#org7e39251)
+  - [the raku study group](#org20a67bb)
+  - [topics](#org37d5159)
+    - [richard hainsworth](#orgaa2b013)
+    - [weekly challenge](#org77d5f41)
+    - [discussion of lazy infinite lists](#org57cafb1)
+  - [announcements](#org6e40eb1)
+    - [next meeting: February 12th](#org2a23eeb)
 
 
-<a id="org6b9b123"></a>
+<a id="org7e39251"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="orgfd97a79"></a>
+<a id="org20a67bb"></a>
 
 ## the raku study group
 
@@ -36,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan15.md>
 
 
-<a id="org2e940e7"></a>
+<a id="org37d5159"></a>
 
 ## topics
 
 
-<a id="org7914998"></a>
+<a id="orgaa2b013"></a>
 
 ### richard hainsworth
 
@@ -57,12 +57,12 @@
 
     1.  <https://github.com/raku/doc-website>
 
-4.  rawleyfowler did dark themes
+4.  rawleyfowler did dark theme feature
 
     1.  looks identical to "Dark Reader" firefox extension
 
 
-<a id="org4da4a11"></a>
+<a id="org77d5f41"></a>
 
 ### weekly challenge
 
@@ -73,18 +73,18 @@
     2.  2: Penny Piles
 
 
-<a id="org5cdb673"></a>
+<a id="org57cafb1"></a>
 
 ### discussion of lazy infinite lists
 
 1.  how can they work as well as they do?
 
 
-<a id="org42d27eb"></a>
+<a id="org6e40eb1"></a>
 
 ## announcements
 
 
-<a id="orgade30ac"></a>
+<a id="org2a23eeb"></a>
 
 ### next meeting: February 12th

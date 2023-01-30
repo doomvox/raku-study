@@ -21,7 +21,7 @@
 **** code
 ***** https://github.com/raku/doc-website
 
-**** rawleyfowler did dark themes
+**** rawleyfowler did dark theme feature
 ***** looks identical to "Dark Reader" firefox extension
 
 *** weekly challenge
