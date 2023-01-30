@@ -1,19 +1,19 @@
-- [meeting notes January 29, 2023](#org7987d5a)
-  - [the raku study group](#org0ebee73)
-  - [topics](#orgc24abb2)
-    - [richard hainsworth](#org634f3ee)
-    - [weekly challenge](#orgce6d334)
-    - [discussion of lazy infinite lists](#orgc322aea)
-  - [announcements](#org602ec6a)
-    - [next meeting: February 12th](#org0b9f05b)
+- [meeting notes January 29, 2023](#orgd5173af)
+  - [the raku study group](#org45fb2c7)
+  - [topics](#org6fcc226)
+    - [richard hainsworth](#org5c9caa4)
+    - [weekly challenge](#orgea84174)
+    - [discussion of lazy infinite lists](#orge0e4cb8)
+  - [announcements](#org23d449d)
+    - [next meeting: February 12th](#org562dae8)
 
 
-<a id="org7987d5a"></a>
+<a id="orgd5173af"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="org0ebee73"></a>
+<a id="org45fb2c7"></a>
 
 ## the raku study group
 
@@ -36,18 +36,20 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan15.md>
 
 
-<a id="orgc24abb2"></a>
+<a id="org6fcc226"></a>
 
 ## topics
 
 
-<a id="org634f3ee"></a>
+<a id="org5c9caa4"></a>
 
 ### richard hainsworth
 
 1.  new doc site efforts
 
-2.  css framework:
+    1.  <https://new-raku.finanalyst.org>
+
+2.  uses css framework:
 
     1.  <https://bulma.io/>
 
@@ -60,7 +62,7 @@
     1.  looks identical to "Dark Reader" firefox extension
 
 
-<a id="orgce6d334"></a>
+<a id="orgea84174"></a>
 
 ### weekly challenge
 
@@ -71,18 +73,18 @@
     2.  2: Penny Piles
 
 
-<a id="orgc322aea"></a>
+<a id="orge0e4cb8"></a>
 
 ### discussion of lazy infinite lists
 
 1.  how can they work as well as they do?
 
 
-<a id="org602ec6a"></a>
+<a id="org23d449d"></a>
 
 ## announcements
 
 
-<a id="org0b9f05b"></a>
+<a id="org562dae8"></a>
 
 ### next meeting: February 12th
