@@ -27,5 +27,8 @@
 ****** 1: Missing Numbers (integers?)
 ****** 2: Penny Piles
 
+*** question about lazy infinite lists 
+**** how can they work as well as they do?
+
 ** announcements 
 *** next meeting: February 12th

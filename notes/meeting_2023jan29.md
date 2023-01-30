@@ -1,18 +1,19 @@
-- [meeting notes January 29, 2023](#orgf7cbca3)
-  - [the raku study group](#org5e4c159)
-  - [topics](#org244292f)
-    - [richard hainsworth](#orgc4eea24)
-    - [weekly challenge](#orgc15c4cd)
-  - [announcements](#orgef07c4b)
-    - [next meeting: February 12th](#org338eb05)
+- [meeting notes January 29, 2023](#org78f0ad1)
+  - [the raku study group](#org854c855)
+  - [topics](#org6110ae0)
+    - [richard hainsworth](#org7ec284d)
+    - [weekly challenge](#org5df7116)
+    - [question about lazy infinite lists](#org3ab196d)
+  - [announcements](#org7deb8ef)
+    - [next meeting: February 12th](#orgf88ca87)
 
 
-<a id="orgf7cbca3"></a>
+<a id="org78f0ad1"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="org5e4c159"></a>
+<a id="org854c855"></a>
 
 ## the raku study group
 
@@ -35,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan15.md>
 
 
-<a id="org244292f"></a>
+<a id="org6110ae0"></a>
 
 ## topics
 
 
-<a id="orgc4eea24"></a>
+<a id="org7ec284d"></a>
 
 ### richard hainsworth
 
@@ -59,7 +60,7 @@
     1.  looks identical to "Dark Reader" firefox extension
 
 
-<a id="orgc15c4cd"></a>
+<a id="org5df7116"></a>
 
 ### weekly challenge
 
@@ -70,11 +71,18 @@
     2.  2: Penny Piles
 
 
-<a id="orgef07c4b"></a>
+<a id="org3ab196d"></a>
+
+### question about lazy infinite lists
+
+1.  how can they work as well as they do?
+
+
+<a id="org7deb8ef"></a>
 
 ## announcements
 
 
-<a id="org338eb05"></a>
+<a id="orgf88ca87"></a>
 
 ### next meeting: February 12th
