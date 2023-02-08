@@ -39,7 +39,7 @@ say @k; # [(name quant) (quant name) (quant name) (name quant)]
     my @quant = @data.map({ $_<quant> });
     say @quant; # [1 2 3 4]
     my @name = @data.map({ $_<name> });
-    say @name;
+    say @name; # [alpha beta gamma delta]
 
 
     say "===";
