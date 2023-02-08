@@ -48,7 +48,7 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 
 *** jj merelo raku recipies code examples
 
-https://github.com/Apress/raku-recipes
+**** https://github.com/Apress/raku-recipes
 
 
 ** announcements 
