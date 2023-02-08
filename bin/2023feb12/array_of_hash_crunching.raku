@@ -21,7 +21,7 @@ for @data -> $d {
 # {name => delta, quant => 4}
 
 for @data -> $d {
-    say $d.keys;
+    say $d.key;
 }
 # (name quant)
 # (name quant)
