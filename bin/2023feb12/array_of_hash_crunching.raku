@@ -4,9 +4,14 @@
 
 use v6;
 
+## basic crunching of arrays of hashes:
 
-my @expected1 = ( { quant => 11, name => 'alpha', },
-                  { quant => 12, name => 'beta',  },
-                  { quant => 13, name => 'gamma', },
-                  { quant => 14, name => 'delta', }, );
+my @data = ( { quant => 1, name => 'alpha', },
+             { quant => 2, name => 'beta',  },
+             { quant => 3, name => 'gamma', },
+             { quant => 4, name => 'delta', }, );
 
+
+for @data -> $d {
+    say $d;
+}
