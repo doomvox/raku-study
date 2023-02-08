@@ -20,3 +20,5 @@
 
 *** Issue 4435: "deepmap can mangle hash structures rather than just modify values"
 **** https://github.com/rakudo/rakudo/issues/4435
+**** Existing roast test for deepmap:
+/home/doom/End/Cave/Raku/Wall/roast/S32-list/deepmap.t
