@@ -42,5 +42,6 @@ say @k; # [(name quant) (quant name) (quant name) (name quant)]
     say @name; # [alpha beta gamma delta]
 
     say  all( @quant>>.Numeric ) ~~ Numeric;  # True
+    say  all( @name>>.Numeric ) ~~ Numeric;  # True
 
 }
