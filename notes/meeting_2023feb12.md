@@ -1,20 +1,20 @@
-- [meeting notes January 29, 2023](#org22c6c2b)
-  - [the raku study group](#org25cd624)
-  - [topics](#orgad2bf28)
-    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org116d682)
-    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#orgf2f2688)
-    - [weekly challenge](#org1a17476)
-    - [raku citizenship](#org449ef77)
-  - [announcements](#org88a7406)
-    - [next meeting: February 26th](#org57ceb46)
+- [meeting notes January 29, 2023](#orgb40521a)
+  - [the raku study group](#org58986c5)
+  - [topics](#orged81a72)
+    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org96e484f)
+    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#orgc2bbbd2)
+    - [weekly challenge](#org02548b8)
+    - [raku citizenship](#org75e9a0f)
+  - [announcements](#orgbf9a711)
+    - [next meeting: February 26th](#orge0d01c8)
 
 
-<a id="org22c6c2b"></a>
+<a id="orgb40521a"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="org25cd624"></a>
+<a id="org58986c5"></a>
 
 ## the raku study group
 
@@ -37,12 +37,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md>
 
 
-<a id="orgad2bf28"></a>
+<a id="orged81a72"></a>
 
 ## topics
 
 
-<a id="org116d682"></a>
+<a id="org96e484f"></a>
 
 ### Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"
 
@@ -55,7 +55,7 @@
     1.  <https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t>
 
 
-<a id="orgf2f2688"></a>
+<a id="orgc2bbbd2"></a>
 
 ### Issue 4435: "deepmap can mangle hash structures rather than just modify values"
 
@@ -84,31 +84,33 @@
     2.  <https://github.com/doomvox/darkroast/blob/main/S32-list/deepmap_array_of_hashes.t>
 
 
-<a id="org1a17476"></a>
+<a id="org02548b8"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-201/>
 
 
-<a id="org449ef77"></a>
+<a id="org75e9a0f"></a>
 
 ### raku citizenship
 
-1.  vadim class
+1.  irc
 
-2.  marton on docs
+2.  vadim class
+
+3.  marton on docs
 
     1.  squashathon
     
         1.  <https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md>
 
 
-<a id="org88a7406"></a>
+<a id="orgbf9a711"></a>
 
 ## announcements
 
 
-<a id="org57ceb46"></a>
+<a id="orge0d01c8"></a>
 
 ### next meeting: February 26th
