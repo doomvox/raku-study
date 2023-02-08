@@ -40,4 +40,7 @@ say @k; # [(name quant) (quant name) (quant name) (name quant)]
     say @quant; # [1 2 3 4]
     my @name = @data.map({ $_<name> });
     say @name; # [alpha beta gamma delta]
+
+    say @quant ~~ Numeric;
+
 }
