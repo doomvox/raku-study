@@ -25,10 +25,11 @@
 ***** https://github.com/Raku/roast/blob/master/S32-list/deepmap.t
 ***** locally: /home/doom/End/Cave/Raku/Wall/roast/S32-list/deepmap.t
 
+#+BEGIN_SRC raku
 # regression spotted by gfldex++
 is <a b c>.deepmap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
-
+#+END_SRC
 
 *** weekly challenge
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-201/

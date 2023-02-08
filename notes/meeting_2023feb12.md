@@ -1,19 +1,19 @@
-- [meeting notes January 29, 2023](#org4f8082c)
-  - [the raku study group](#org268ce65)
-  - [topics](#org9296753)
-    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#orge8590cd)
-    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#orge335884)
-    - [weekly challenge](#org747adfd)
-  - [announcements](#org65c4d96)
-    - [next meeting: February 26th](#org67ad27d)
+- [meeting notes January 29, 2023](#org5440777)
+  - [the raku study group](#org611dcf6)
+  - [topics](#orgebd776c)
+    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#orgfc91e89)
+    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#org3b1c29e)
+    - [weekly challenge](#org5d42e8b)
+  - [announcements](#orgc2c25d7)
+    - [next meeting: February 26th](#org7851fe3)
 
 
-<a id="org4f8082c"></a>
+<a id="org5440777"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="org268ce65"></a>
+<a id="org611dcf6"></a>
 
 ## the raku study group
 
@@ -36,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md>
 
 
-<a id="org9296753"></a>
+<a id="orgebd776c"></a>
 
 ## topics
 
 
-<a id="orge8590cd"></a>
+<a id="orgfc91e89"></a>
 
 ### Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"
 
@@ -54,7 +54,7 @@
     1.  <https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t>
 
 
-<a id="orge335884"></a>
+<a id="org3b1c29e"></a>
 
 ### Issue 4435: "deepmap can mangle hash structures rather than just modify values"
 
@@ -68,21 +68,25 @@
     
     2.  locally: /home/doom/End/Cave/Raku/Wall/roast/S32-list/deepmap.t
     
-        is <a b c>.deepmap({ next if $\_ eq "b"; $\_ }), "a c", 'did next work'; is <a b c>.nodemap({ next if $\_ eq "b"; $\_ }), "a c", 'did next work';
+        ```raku
+        # regression spotted by gfldex++
+        is <a b c>.deepmap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
+        is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
+        ```
 
 
-<a id="org747adfd"></a>
+<a id="org5d42e8b"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-201/>
 
 
-<a id="org65c4d96"></a>
+<a id="orgc2c25d7"></a>
 
 ## announcements
 
 
-<a id="org67ad27d"></a>
+<a id="org7851fe3"></a>
 
 ### next meeting: February 26th
