@@ -39,6 +39,7 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-201/
 
 *** raku citizenship
+**** events calendar?
 **** irc
 **** vadim class
 **** marton on docs
