@@ -38,7 +38,8 @@ say @k; # [(name quant) (quant name) (quant name) (name quant)]
     say "---";
     my @quant = @data.map({ $_<quant> });
     say @quant; # [1 2 3 4]
-    my @quant = @data.map({ $_<name> });
+    my @name = @data.map({ $_<name> });
+    say @name;
 
 
     say "===";
