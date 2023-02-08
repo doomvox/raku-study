@@ -1,19 +1,19 @@
-- [meeting notes January 29, 2023](#org5440777)
-  - [the raku study group](#org611dcf6)
-  - [topics](#orgebd776c)
-    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#orgfc91e89)
-    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#org3b1c29e)
-    - [weekly challenge](#org5d42e8b)
-  - [announcements](#orgc2c25d7)
-    - [next meeting: February 26th](#org7851fe3)
+- [meeting notes January 29, 2023](#org5a8d4e9)
+  - [the raku study group](#org6c453e1)
+  - [topics](#org7bfa252)
+    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org313f2e5)
+    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#org89d6677)
+    - [weekly challenge](#orgb4c78c1)
+  - [announcements](#orge89f044)
+    - [next meeting: February 26th](#org90bb2ea)
 
 
-<a id="org5440777"></a>
+<a id="org5a8d4e9"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="org611dcf6"></a>
+<a id="org6c453e1"></a>
 
 ## the raku study group
 
@@ -36,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md>
 
 
-<a id="orgebd776c"></a>
+<a id="org7bfa252"></a>
 
 ## topics
 
 
-<a id="orgfc91e89"></a>
+<a id="org313f2e5"></a>
 
 ### Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"
 
@@ -54,7 +54,7 @@
     1.  <https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t>
 
 
-<a id="org3b1c29e"></a>
+<a id="org89d6677"></a>
 
 ### Issue 4435: "deepmap can mangle hash structures rather than just modify values"
 
@@ -68,25 +68,27 @@
     
     2.  locally: /home/doom/End/Cave/Raku/Wall/roast/S32-list/deepmap.t
     
-        ```raku
-        # regression spotted by gfldex++
-        is <a b c>.deepmap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
-        is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
-        ```
+        1.  interesting bit
+        
+            ```raku
+            # regression spotted by gfldex++
+            is <a b c>.deepmap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
+            is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
+            ```
 
 
-<a id="org5d42e8b"></a>
+<a id="orgb4c78c1"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-201/>
 
 
-<a id="orgc2c25d7"></a>
+<a id="orge89f044"></a>
 
 ## announcements
 
 
-<a id="org7851fe3"></a>
+<a id="org90bb2ea"></a>
 
 ### next meeting: February 26th
