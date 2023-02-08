@@ -1,20 +1,20 @@
-- [meeting notes January 29, 2023](#org6bbb21b)
-  - [the raku study group](#orgb53d786)
-  - [topics](#org4151d2e)
-    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#orgf6d8ffb)
-    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#org2962797)
-    - [weekly challenge](#org97fec13)
-    - [raku citizenship](#org55efbc3)
-  - [announcements](#org6c5ced0)
-    - [next meeting: February 26th](#org4802da0)
+- [meeting notes January 29, 2023](#org22c6c2b)
+  - [the raku study group](#org25cd624)
+  - [topics](#orgad2bf28)
+    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org116d682)
+    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#orgf2f2688)
+    - [weekly challenge](#org1a17476)
+    - [raku citizenship](#org449ef77)
+  - [announcements](#org88a7406)
+    - [next meeting: February 26th](#org57ceb46)
 
 
-<a id="org6bbb21b"></a>
+<a id="org22c6c2b"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="orgb53d786"></a>
+<a id="org25cd624"></a>
 
 ## the raku study group
 
@@ -37,12 +37,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md>
 
 
-<a id="org4151d2e"></a>
+<a id="orgad2bf28"></a>
 
 ## topics
 
 
-<a id="orgf6d8ffb"></a>
+<a id="org116d682"></a>
 
 ### Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"
 
@@ -55,7 +55,7 @@
     1.  <https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t>
 
 
-<a id="org2962797"></a>
+<a id="orgf2f2688"></a>
 
 ### Issue 4435: "deepmap can mangle hash structures rather than just modify values"
 
@@ -84,14 +84,14 @@
     2.  <https://github.com/doomvox/darkroast/blob/main/S32-list/deepmap_array_of_hashes.t>
 
 
-<a id="org97fec13"></a>
+<a id="org1a17476"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-201/>
 
 
-<a id="org55efbc3"></a>
+<a id="org449ef77"></a>
 
 ### raku citizenship
 
@@ -104,11 +104,11 @@
         1.  <https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md>
 
 
-<a id="org6c5ced0"></a>
+<a id="org88a7406"></a>
 
 ## announcements
 
 
-<a id="org4802da0"></a>
+<a id="org57ceb46"></a>
 
 ### next meeting: February 26th
