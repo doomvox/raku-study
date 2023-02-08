@@ -1,15 +1,16 @@
-- [meeting notes January 29, 2023](#org373ac4c)
-  - [the raku study group](#org8016a62)
-  - [topics](#org6a4ef31)
-    - [Issue 4207: closed](#org91980ad)
+- [meeting notes January 29, 2023](#orgd31f9b7)
+  - [the raku study group](#org33e0700)
+  - [topics](#org19957c2)
+    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#orgd2fe93f)
+    - [](#org75bb613)
 
 
-<a id="org373ac4c"></a>
+<a id="orgd31f9b7"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="org8016a62"></a>
+<a id="org33e0700"></a>
 
 ## the raku study group
 
@@ -32,21 +33,26 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md>
 
 
-<a id="org6a4ef31"></a>
+<a id="org19957c2"></a>
 
 ## topics
 
 
-<a id="org91980ad"></a>
+<a id="orgd2fe93f"></a>
 
-### Issue 4207: closed
+### Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"
 
-1.  "'say $obj.<sup>methods</sup>' does not list all methods"
+1.  <https://github.com/rakudo/rakudo/issues/4207>
 
-2.  <https://github.com/rakudo/rakudo/issues/4207>
+2.  This has been working for a while with recent builds.  About time I closed it.
 
-3.  This has been working for a while with recent builds.  About time I closed it.
-
-4.  Used my "darkroast" repository to add a test file for this:
+3.  Used my "darkroast" repository to add a test file for this:
 
     1.  <https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t>
+
+
+<a id="org75bb613"></a>
+
+### 
+
+<https://github.com/rakudo/rakudo/issues/4435>

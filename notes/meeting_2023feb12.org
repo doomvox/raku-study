@@ -12,9 +12,11 @@
 
 
 ** topics
-*** Issue 4207: closed 
-**** "'say $obj.^methods' does not list all methods"
+*** Issue 4207: "'say $obj.^methods' does not list all methods"
 **** https://github.com/rakudo/rakudo/issues/4207
 **** This has been working for a while with recent builds.  About time I closed it.
 **** Used my "darkroast" repository to add a test file for this:
 ***** https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t
+
+*** 
+https://github.com/rakudo/rakudo/issues/4435
