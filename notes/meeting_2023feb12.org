@@ -19,4 +19,4 @@
 ***** https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t
 
 *** Issue 4435: "deepmap can mangle hash structures rather than just modify values"
-https://github.com/rakudo/rakudo/issues/4435
+**** https://github.com/rakudo/rakudo/issues/4435
