@@ -1,18 +1,18 @@
-- [meeting notes January 29, 2023](#org54b959d)
-  - [the raku study group](#orgd8781d2)
-  - [topics](#org943a467)
-    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org14a05d4)
-    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#org92e6bba)
-  - [announcements](#org6e8d7cb)
-    - [next meeting: February 26th](#org24b19ab)
+- [meeting notes January 29, 2023](#org06a9d27)
+  - [the raku study group](#org8db29fb)
+  - [topics](#org1a4245a)
+    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org0f22bdf)
+    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#org44da834)
+  - [announcements](#org47b216c)
+    - [next meeting: February 26th](#orga082b45)
 
 
-<a id="org54b959d"></a>
+<a id="org06a9d27"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="orgd8781d2"></a>
+<a id="org8db29fb"></a>
 
 ## the raku study group
 
@@ -35,12 +35,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md>
 
 
-<a id="org943a467"></a>
+<a id="org1a4245a"></a>
 
 ## topics
 
 
-<a id="org14a05d4"></a>
+<a id="org0f22bdf"></a>
 
 ### Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"
 
@@ -53,7 +53,7 @@
     1.  <https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t>
 
 
-<a id="org92e6bba"></a>
+<a id="org44da834"></a>
 
 ### Issue 4435: "deepmap can mangle hash structures rather than just modify values"
 
@@ -70,11 +70,11 @@
         is <a b c>.deepmap({ next if $\_ eq "b"; $\_ }), "a c", 'did next work'; is <a b c>.nodemap({ next if $\_ eq "b"; $\_ }), "a c", 'did next work';
 
 
-<a id="org6e8d7cb"></a>
+<a id="org47b216c"></a>
 
 ## announcements
 
 
-<a id="org24b19ab"></a>
+<a id="orga082b45"></a>
 
 ### next meeting: February 26th
