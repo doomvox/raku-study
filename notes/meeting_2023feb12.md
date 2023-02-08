@@ -1,18 +1,19 @@
-- [meeting notes January 29, 2023](#org06a9d27)
-  - [the raku study group](#org8db29fb)
-  - [topics](#org1a4245a)
-    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org0f22bdf)
-    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#org44da834)
-  - [announcements](#org47b216c)
-    - [next meeting: February 26th](#orga082b45)
+- [meeting notes January 29, 2023](#org4f8082c)
+  - [the raku study group](#org268ce65)
+  - [topics](#org9296753)
+    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#orge8590cd)
+    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#orge335884)
+    - [weekly challenge](#org747adfd)
+  - [announcements](#org65c4d96)
+    - [next meeting: February 26th](#org67ad27d)
 
 
-<a id="org06a9d27"></a>
+<a id="org4f8082c"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="org8db29fb"></a>
+<a id="org268ce65"></a>
 
 ## the raku study group
 
@@ -35,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md>
 
 
-<a id="org1a4245a"></a>
+<a id="org9296753"></a>
 
 ## topics
 
 
-<a id="org0f22bdf"></a>
+<a id="orge8590cd"></a>
 
 ### Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"
 
@@ -53,7 +54,7 @@
     1.  <https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t>
 
 
-<a id="org44da834"></a>
+<a id="orge335884"></a>
 
 ### Issue 4435: "deepmap can mangle hash structures rather than just modify values"
 
@@ -70,11 +71,18 @@
         is <a b c>.deepmap({ next if $\_ eq "b"; $\_ }), "a c", 'did next work'; is <a b c>.nodemap({ next if $\_ eq "b"; $\_ }), "a c", 'did next work';
 
 
-<a id="org47b216c"></a>
+<a id="org747adfd"></a>
+
+### weekly challenge
+
+1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-201/>
+
+
+<a id="org65c4d96"></a>
 
 ## announcements
 
 
-<a id="orga082b45"></a>
+<a id="org67ad27d"></a>
 
 ### next meeting: February 26th
