@@ -15,3 +15,12 @@ my @data = ( { quant => 1, name => 'alpha', },
 for @data -> $d {
     say $d;
 }
+# {name => alpha, quant => 1}
+# {name => beta, quant => 2}
+# {name => gamma, quant => 3}
+# {name => delta, quant => 4}
+
+
+for @data -> $d {
+    say $d.keys;
+}
