@@ -1,13 +1,15 @@
-- [meeting notes January 29, 2023](#org2afb995)
-  - [the raku study group](#orgd382fd3)
+- [meeting notes January 29, 2023](#orgdfc8261)
+  - [the raku study group](#org036bf01)
+  - [topics](#orgfb1dfc7)
+    - [Issue 4207: closed](#orgba17071)
 
 
-<a id="org2afb995"></a>
+<a id="orgdfc8261"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="orgd382fd3"></a>
+<a id="org036bf01"></a>
 
 ## the raku study group
 
@@ -28,5 +30,19 @@
     3.  last meeting notes
     
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md>
-        
-            <https://github.com/rakudo/rakudo/issues/4207>
+
+
+<a id="orgfb1dfc7"></a>
+
+## topics
+
+
+<a id="orgba17071"></a>
+
+### Issue 4207: closed
+
+1.  "'say $obj.<sup>methods</sup>' does not list all methods"
+
+2.  <https://github.com/rakudo/rakudo/issues/4207>
+
+3.

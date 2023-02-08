@@ -11,5 +11,9 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md
 
 
+** topics
+*** Issue 4207: closed 
+**** "'say $obj.^methods' does not list all methods"
+**** https://github.com/rakudo/rakudo/issues/4207
 
-https://github.com/rakudo/rakudo/issues/4207
+**** 
