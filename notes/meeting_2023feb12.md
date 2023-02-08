@@ -1,19 +1,19 @@
-- [meeting notes January 29, 2023](#org05b3f8f)
-  - [the raku study group](#org995ed48)
-  - [topics](#orgbafb33a)
-    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#orga0ae3e6)
-    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#orge117177)
-    - [weekly challenge](#org7f5d78e)
-  - [announcements](#org6ea25d2)
-    - [next meeting: February 26th](#org71208d7)
+- [meeting notes January 29, 2023](#orgb756e36)
+  - [the raku study group](#org41f8cb0)
+  - [topics](#org81ba2bd)
+    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org0fdc139)
+    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#orgd234b60)
+    - [weekly challenge](#orge4cf519)
+  - [announcements](#org49638cb)
+    - [next meeting: February 26th](#orga3c46ca)
 
 
-<a id="org05b3f8f"></a>
+<a id="orgb756e36"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="org995ed48"></a>
+<a id="org41f8cb0"></a>
 
 ## the raku study group
 
@@ -36,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md>
 
 
-<a id="orgbafb33a"></a>
+<a id="org81ba2bd"></a>
 
 ## topics
 
 
-<a id="orga0ae3e6"></a>
+<a id="org0fdc139"></a>
 
 ### Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"
 
@@ -54,7 +54,7 @@
     1.  <https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t>
 
 
-<a id="orge117177"></a>
+<a id="orgd234b60"></a>
 
 ### Issue 4435: "deepmap can mangle hash structures rather than just modify values"
 
@@ -76,19 +76,25 @@
             is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
             ```
 
+3.  Adding some darkroast tests:
 
-<a id="org7f5d78e"></a>
+    1.  locally: /home/doom/End/Cave/Raku/Wall/darkroast/S32-list/deepmap<sub>array</sub><sub>of</sub><sub>hashes.t</sub>
+    
+    2.  <https://github.com/doomvox/darkroast/blob/main/S32-list/deepmap_array_of_hashes.t>
+
+
+<a id="orge4cf519"></a>
 
 ### weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-201/>
 
 
-<a id="org6ea25d2"></a>
+<a id="org49638cb"></a>
 
 ## announcements
 
 
-<a id="org71208d7"></a>
+<a id="orga3c46ca"></a>
 
 ### next meeting: February 26th

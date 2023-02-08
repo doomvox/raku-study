@@ -30,6 +30,9 @@
 is <a b c>.deepmap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 #+END_SRC
+**** Adding some darkroast tests:
+***** locally: /home/doom/End/Cave/Raku/Wall/darkroast/S32-list/deepmap_array_of_hashes.t
+***** https://github.com/doomvox/darkroast/blob/main/S32-list/deepmap_array_of_hashes.t
 
 
 *** weekly challenge
