@@ -33,3 +33,5 @@ say @k; # [(name quant) (quant name) (quant name) (name quant)]
 
 my @quant = @data.map({ $_.values if $_.keys eq 'quant'  });
 say @quant; # []   ???
+
+my @quant = @data.grep({ $_.keys eq 'quant' }).values;
