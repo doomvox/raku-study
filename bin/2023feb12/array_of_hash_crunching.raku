@@ -33,7 +33,9 @@ say @k; # [(name quant) (quant name) (quant name) (name quant)]
 
 {
 
+    say "---";
     @data.map({ say $_.values; say $_.keys });
+    say "---";
 
     my @quant = @data.map({ $_.values if $_.keys eq 'quant'  });
     say @quant; # []   ???
