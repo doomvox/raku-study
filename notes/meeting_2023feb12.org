@@ -31,4 +31,4 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 
 
 ** announcements 
-*** next meeting: February 12th
+*** next meeting: February 26th
