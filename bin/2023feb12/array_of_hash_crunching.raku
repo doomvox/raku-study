@@ -40,18 +40,4 @@ say @k; # [(name quant) (quant name) (quant name) (name quant)]
     say @quant; # [1 2 3 4]
     my @name = @data.map({ $_<name> });
     say @name; # [alpha beta gamma delta]
-
-
-    say "===";
-    @data.map({ say $_.values; say $_.keys });
-    say "---";
-
-    my @quant = @data.map({ $_.values if $_.keys eq 'quant'  });
-    say @quant; # []   ???
-}
-
-{
-    say @data;
-    my @quant = @data.grep({ $_.keys eq 'quant' }).values;
-    say @quant; # []
 }
