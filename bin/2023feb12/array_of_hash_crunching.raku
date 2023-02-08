@@ -36,7 +36,7 @@ say @k; # [(name quant) (quant name) (quant name) (name quant)]
     say "---";
     @data.map({ say $_; });
     say "---";
-    my @quant = @data.map({ $_{quant} });
+    my @quant = @data.map({ $_<quant> });
     say @quant;
 
 
