@@ -1,0 +1,15 @@
+* meeting notes January 29, 2023
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023feb12.md
+****** source file (for corrections, etc)
+******* https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023feb12.org
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2023feb12
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md
+
+
+
+https://github.com/rakudo/rakudo/issues/4207
