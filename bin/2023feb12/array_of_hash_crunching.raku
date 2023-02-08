@@ -37,6 +37,7 @@ say @k; # [(name quant) (quant name) (quant name) (name quant)]
 }
 
 {
+    say @data;
     my @quant = @data.grep({ $_.keys eq 'quant' }).values;
-    say @quant;
+    say @quant; # []
 }
