@@ -46,6 +46,9 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 ***** squashathon
 ****** https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md
 
+*** jj merelo raku recipies code examples
+
+https://github.com/Apress/raku-recipes
 
 
 ** announcements 
