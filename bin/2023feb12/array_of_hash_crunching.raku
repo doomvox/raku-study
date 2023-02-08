@@ -27,3 +27,5 @@ for @data -> $d {
 # (name quant)
 # (quant name)
 # (quant name)
+
+my @k = @data>>.keys;
