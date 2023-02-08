@@ -20,7 +20,10 @@ for @data -> $d {
 # {name => gamma, quant => 3}
 # {name => delta, quant => 4}
 
-
 for @data -> $d {
     say $d.keys;
 }
+# (name quant)
+# (name quant)
+# (quant name)
+# (quant name)
