@@ -30,3 +30,5 @@ for @data -> $d {
 
 my @k = @data>>.keys;
 say @k; # [(name quant) (quant name) (quant name) (name quant)]
+
+my @quant = @data.map({ $_.values if $_.keys eq 'quant'  });
