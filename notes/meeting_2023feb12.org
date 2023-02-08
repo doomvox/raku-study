@@ -22,3 +22,12 @@
 **** https://github.com/rakudo/rakudo/issues/4435
 **** Existing roast test for deepmap:
 /home/doom/End/Cave/Raku/Wall/roast/S32-list/deepmap.t
+***** https://github.com/Raku/roast/blob/master/S32-list/deepmap.t
+***** locally: /home/doom/End/Cave/Raku/Wall/roast/S32-list/deepmap.t
+
+https://github.com/doomvox/darkroast/blob/main/S32-list/deepmap.t
+
+
+# regression spotted by gfldex++
+is <a b c>.deepmap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
+is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';

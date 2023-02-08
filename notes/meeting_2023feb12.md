@@ -1,16 +1,16 @@
-- [meeting notes January 29, 2023](#orgb0ebc1f)
-  - [the raku study group](#org4232c8c)
-  - [topics](#org0dc46e8)
-    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org829485f)
-    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#org1ebf193)
+- [meeting notes January 29, 2023](#org61625ed)
+  - [the raku study group](#org2f133ac)
+  - [topics](#org20d782a)
+    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org661b626)
+    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#orgd4d5acd)
 
 
-<a id="orgb0ebc1f"></a>
+<a id="org61625ed"></a>
 
 # meeting notes January 29, 2023
 
 
-<a id="org4232c8c"></a>
+<a id="org2f133ac"></a>
 
 ## the raku study group
 
@@ -33,12 +33,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md>
 
 
-<a id="org0dc46e8"></a>
+<a id="org20d782a"></a>
 
 ## topics
 
 
-<a id="org829485f"></a>
+<a id="org661b626"></a>
 
 ### Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"
 
@@ -51,7 +51,7 @@
     1.  <https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t>
 
 
-<a id="org1ebf193"></a>
+<a id="orgd4d5acd"></a>
 
 ### Issue 4435: "deepmap can mangle hash structures rather than just modify values"
 
@@ -60,3 +60,11 @@
 2.  Existing roast test for deepmap:
 
     /home/doom/End/Cave/Raku/Wall/roast/S32-list/deepmap.t
+    
+    1.  <https://github.com/Raku/roast/blob/master/S32-list/deepmap.t>
+    
+    2.  locally: /home/doom/End/Cave/Raku/Wall/roast/S32-list/deepmap.t
+    
+        <https://github.com/doomvox/darkroast/blob/main/S32-list/deepmap.t>
+        
+        is <a b c>.deepmap({ next if $\_ eq "b"; $\_ }), "a c", 'did next work'; is <a b c>.nodemap({ next if $\_ eq "b"; $\_ }), "a c", 'did next work';
