@@ -41,7 +41,5 @@ say @k; # [(name quant) (quant name) (quant name) (name quant)]
     my @name = @data.map({ $_<name> });
     say @name; # [alpha beta gamma delta]
 
-    say  all( @quant>>.Numeric ) ~~ Numeric;  # True
-    say  all( @name>>.Numeric ) ~~ Numeric;  # True
 
 }
