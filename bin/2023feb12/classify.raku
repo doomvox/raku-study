@@ -48,7 +48,6 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
     say %result<name>;    # [alpha beta gamma delta]
     say %result<quant>;   # [1 2 3 4]
 
-
 }
 
 
