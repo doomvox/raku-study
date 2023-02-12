@@ -38,9 +38,9 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 
 {
 
-    @initial-data>>.pairs.flat.classify(*.key, as => *.value)
+    @initial-data>>.pairs.flat.classify(*.key, as => *.value);
 
-    }
+}
 
 
 
