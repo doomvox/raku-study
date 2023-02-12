@@ -58,6 +58,11 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
         push @name , $name;
     }
     say ( :@quant, :@name );
+    # (quant => [1 2 3 4] name => [alpha beta gamma delta])
+}
+
+{
+    my ( $quants, $names ) = [Z] @initial_data».<quant name>;
 }
 
 
