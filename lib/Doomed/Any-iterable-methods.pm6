@@ -74,11 +74,6 @@ augment class Any {
         )
     }
 
-
-
-
-
-
 }
 BEGIN Attribute.^compose;
 
