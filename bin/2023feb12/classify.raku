@@ -38,6 +38,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 # #           True => [2004-01-01 2008-01-01]}␤» 
 
 
+
 ## categorize, docs:
 # sub mapper(Int $i) returns List {
 #     $i %% 2 ?? 'even' !! 'odd',
