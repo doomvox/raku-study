@@ -37,6 +37,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 
 
 {
+    say "===";
     say @initial_data;
     say @inital_data.pairs;
 
