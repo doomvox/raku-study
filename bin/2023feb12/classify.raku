@@ -37,6 +37,13 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 # # OUTPUT: «{False => [2003-01-01 2005-01-01 2006-01-01 2007-01-01], 
 # #           True => [2004-01-01 2008-01-01]}␤» 
 
+{
+  my %classification;
+  for @initial_data -> $dyad {  
+
+  }
+
+}
 
 
 
