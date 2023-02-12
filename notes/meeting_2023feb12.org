@@ -49,6 +49,7 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 
 **** work on a bug
 **** raku ast
+***** raku ast envar?
 
 *** the ever popular weekly challenge
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-201/
