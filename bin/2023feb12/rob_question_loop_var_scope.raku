@@ -11,9 +11,10 @@ my $m;
 
 for @monsters -> $m {
     last if $m ~~ /^z/;
+    LAST { $OUTER::m = $m };
 }
 
-say $m;
+say $m; # (Any)
 
 
 
