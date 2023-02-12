@@ -1,7 +1,5 @@
 #                                doom@kzsu.stanford.edu
 #                                12 Feb 2023
-class Doomed::Any-iterable-methods {
-
 
 # Now that Iterable is defined, we add extra methods into Any for the list
 # operations. (They can't go into Any right away since we need Attribute to
