@@ -29,5 +29,5 @@ my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslav
     for @monsters -> $*m { 
         last if $*m ~~ /^z/;
     }
-    say $m; # zoma
+    say $*m; # zoma
 }
