@@ -5,15 +5,13 @@
 use v6;
 
 my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
+{
+    my $m;
 
+    for @monsters -> $m {
+        last if $m ~~ /^z/;
+        LAST { $OUTER::OUTER::m = $m };   ## A single OUTER just refers to the alias, the inner $m, which is readonly
+    }
 
-my $m;
-
-for @monsters -> $m {
-    last if $m ~~ /^z/;
-    LAST { $OUTER::OUTER::m = $m };   ## A single OUTER just refers to the alias, the inner $m, which is readonly
+    say $m; # zoma
 }
-
-say $m; # zoma
-
-
