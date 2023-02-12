@@ -81,6 +81,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
     # bg one-line version
     my ( $quants, $names ) = @initial_data».pairs.flat.classify(*.key, as => *.value)<quant name>;
     say "quants: $quants   names: $names";    
+    # quants: 1 2 3 4   names: alpha beta gamma delta
 }
 
 
