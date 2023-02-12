@@ -23,7 +23,7 @@
 **** Existing roast test for deepmap:
 ***** https://github.com/Raku/roast/blob/master/S32-list/deepmap.t
 ***** locally: /home/doom/End/Cave/Raku/Wall/roast/S32-list/deepmap.t
-****** interesting bit (is "gfldex++" someone's handle?)
+****** interesting bit ("gfldex++" is someone's handle)
 #+BEGIN_SRC raku
 # regression spotted by gfldex++
 is <a b c>.deepmap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
