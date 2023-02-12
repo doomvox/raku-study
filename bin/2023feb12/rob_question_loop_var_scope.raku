@@ -11,7 +11,7 @@ my $m;
 
 for @monsters -> $m {
     last if $m ~~ /^z/;
-    LAST { $OUTER::m = $m };
+    LAST { $OUTER::OUTER::m = $m };
 }
 
 say $m; # (Any)
