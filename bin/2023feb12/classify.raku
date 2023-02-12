@@ -17,6 +17,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 
 
 ## bruce gray suggests a different style of initializing:
+
 # my @initial_data2 = map { Hash.new( <quant name> Z=> .list ) },
 #     < 1 alpha >,
 #     < 2 beta  >,
