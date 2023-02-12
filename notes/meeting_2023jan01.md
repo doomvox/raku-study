@@ -1,25 +1,25 @@
-- [meeting notes January 01, 2023](#orgd2a052f)
-  - [the raku study group](#org4b38565)
-  - [topics](#org1863e60)
-    - [happy 2023 and all](#org3f1c83b)
-    - [william michels style question](#org11f8d3b)
-    - [discussion topic: business models for independent programmers](#org13baf3b)
-    - [rob question about reorg of docs](#org8bcbd3b)
-    - [marton polgar brings up an example of forums/events](#org81c2264)
-    - [web site to play with raku snippets interactively](#orgc82825f)
-    - [weekly challenge](#orga4f6f9a)
-    - [deepmap bug](#org3bedf6d)
-  - [announcements](#orgdbef20b)
-    - [next meeting: January 15th](#orga564e39)
-    - [vadim is doing a zoom class, Jan 7, 2023 (I presume it's in 2023):](#org759f172)
+- [meeting notes January 01, 2023](#orgae127e8)
+  - [the raku study group](#orga097218)
+  - [topics](#orgeabbe39)
+    - [happy 2023 and all](#org2b8777b)
+    - [william michels style question](#org7491372)
+    - [discussion topic: business models for independent programmers](#org6d4da65)
+    - [rob question about reorg of docs](#org7db6081)
+    - [marton polgar brings up an example of forums/events](#org3f73d0e)
+    - [web site to play with raku snippets interactively](#org5406be2)
+    - [weekly challenge](#org9e649a9)
+    - [deepmap bug](#orgabfe712)
+  - [announcements](#org6268438)
+    - [next meeting: January 15th](#org4e0f7d8)
+    - [vadim is doing a zoom class, Jan 7, 2023 (I presume it's in 2023):](#org8c28581)
 
 
-<a id="orgd2a052f"></a>
+<a id="orgae127e8"></a>
 
 # meeting notes January 01, 2023
 
 
-<a id="org4b38565"></a>
+<a id="orga097218"></a>
 
 ## the raku study group
 
@@ -42,19 +42,19 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022dec18.md>
 
 
-<a id="org1863e60"></a>
+<a id="orgeabbe39"></a>
 
 ## topics
 
 
-<a id="org3f1c83b"></a>
+<a id="org2b8777b"></a>
 
 ### happy 2023 and all
 
 1.  so, how well does a New Year's Day meeting work, any way?
 
 
-<a id="org11f8d3b"></a>
+<a id="org7491372"></a>
 
 ### william michels style question
 
@@ -67,7 +67,7 @@
     1.  <https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two>
 
 
-<a id="org13baf3b"></a>
+<a id="org6d4da65"></a>
 
 ### discussion topic: business models for independent programmers
 
@@ -86,7 +86,7 @@
         1.  <https://rakudo.org/star>
 
 
-<a id="org8bcbd3b"></a>
+<a id="org7db6081"></a>
 
 ### rob question about reorg of docs
 
@@ -95,7 +95,7 @@
     <https://github.com/Raku/doc/pull/4174>
 
 
-<a id="org81c2264"></a>
+<a id="org3f73d0e"></a>
 
 ### marton polgar brings up an example of forums/events
 
@@ -104,14 +104,14 @@
 2.  irclogs.raku.org/
 
 
-<a id="orgc82825f"></a>
+<a id="org5406be2"></a>
 
 ### web site to play with raku snippets interactively
 
 1.  <https://glot.io/new/raku>
 
 
-<a id="orga4f6f9a"></a>
+<a id="org9e649a9"></a>
 
 ### weekly challenge
 
@@ -130,7 +130,7 @@
         4.  <https://github.com/Util/perlweeklychallenge-club/blob/branch-for-challenge-197/challenge-197/bruce-gray/raku/ch-2.raku>
 
 
-<a id="org3bedf6d"></a>
+<a id="orgabfe712"></a>
 
 ### deepmap bug
 
@@ -144,20 +144,20 @@
 
     1.  ./src/core.c/Any-iterable-methods.pm6
     
-    2.  /home/doom/End/Cave/Raku/Wall/rakudo/src/core.c/Any-iterable-methods.pm6
+    2.  Locally: /home/doom/End/Cave/Raku/Wall/rakudo/src/core.c/Any-iterable-methods.pm6
 
 
-<a id="orgdbef20b"></a>
+<a id="org6268438"></a>
 
 ## announcements
 
 
-<a id="orga564e39"></a>
+<a id="org4e0f7d8"></a>
 
 ### next meeting: January 15th
 
 
-<a id="org759f172"></a>
+<a id="org8c28581"></a>
 
 ### vadim is doing a zoom class, Jan 7, 2023 (I presume it's in 2023):
 
