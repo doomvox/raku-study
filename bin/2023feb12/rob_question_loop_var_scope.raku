@@ -45,3 +45,5 @@ my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslav
     }
     say $found; # (zoma)
 }
+
+
