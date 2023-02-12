@@ -16,6 +16,15 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 # @name  = [alpha beta gamma delta];
 
 
+## bruce gray suggests a different style of initializing:
+# my @initial_data2 = map { Hash.new( <quant name> Z=> .list ) },
+#     < 1 alpha >,
+#     < 2 beta  >,
+#     < 3 gamma >,
+#     < 4 delta >,
+# ;
+
+
 {
     my (@quant, @name);
     @initial_data.map( { @quant.push($_<quant>), @name.push($_<name>) });
