@@ -33,5 +33,5 @@ my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslav
 }
 
 {
-    @monsters.first({/^z/});
+    say @monsters.first({/^z/});
     }
