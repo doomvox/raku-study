@@ -39,7 +39,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 
 {
   my %classification;
-  for @initial_data -> $dyad {  
+  @initial_data.classify( );
 
   }
 
