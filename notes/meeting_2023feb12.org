@@ -44,6 +44,9 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 **** https://rosettacode.org/wiki/SEND_%2B_MORE_%3D_MONEY#Raku
 
 *** marton: some rakudo dev thoughts
+**** .EVAL always works, no MONKEY needed
+***** bug?  
+
 **** work on a bug
 **** raku ast
 
@@ -57,7 +60,7 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 **** irc 
 **** vadim class
 **** marton meetings on docs
-***** first one was *yesterday*
+***** first one was yesterday
 ***** squashathon
 ****** https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md
 
