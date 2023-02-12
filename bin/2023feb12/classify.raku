@@ -39,10 +39,10 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 
 {
   my %classification;
-  @initial_data.classify( $dyad, into => %classification );
-
+  @initial_data.classify( $dyad<*>, into => %classification );
   }
 
+   say 'quant:', @quant, ' name: ', @name;
 }
 
 
