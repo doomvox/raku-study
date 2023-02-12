@@ -19,6 +19,20 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 }
 
 
+{
+    my (@quant, @name);
+    my $i = 0;
+    for @initial_data -> $dyad {
+
+        $i++;
+    }
+
+
+    say 'quant:', @quant, ' name: ', @name;
+}
+
+
+
 
 # ====
 #  sheet of cheats
