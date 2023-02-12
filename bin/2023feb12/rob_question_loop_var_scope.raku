@@ -19,7 +19,7 @@ my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslav
 {
     my $m;
 
-    for @monsters -> $OUTER::m {
+    for @monsters -> OUTER::<$m> {
         last if $m ~~ /^z/;
     }
 
