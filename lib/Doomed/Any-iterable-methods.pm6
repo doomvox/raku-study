@@ -2,8 +2,8 @@
 #                                12 Feb 2023
 
 ## Copying some code from here, to mutate deepmap and play with it:
-
-## /home/doom/End/Cave/Raku/Wall/rakudo/src/core.c/Any-iterable-methods.pm6
+##   /home/doom/End/Cave/Raku/Wall/rakudo/src/core.c/Any-iterable-methods.pm6
+## First step: s/deepmap/doomedmap/;
 
 # Now that Iterable is defined, we add extra methods into Any for the list
 # operations. (They can't go into Any right away since we need Attribute to
@@ -15,16 +15,16 @@
 use MONKEY-TYPING;
 augment class Any {
   
-    proto method deepmap(|) is nodal {*}
-    multi method deepmap(Associative:D: &op) {
-        self.new.STORE: self.keys, self.values.deepmap(&op), :INITIALIZE
+    proto method doomedmpa(|) is nodal {*}
+    multi method doomedmpa(Associative:D: &op) {
+        self.new.STORE: self.keys, self.values.doomedmpa(&op), :INITIALIZE
     }
-    multi method deepmap(&op) {
+    multi method doomedmpa(&op) {
         my $source := self.iterator;
         my \buffer := nqp::create(IterationBuffer);
         my $pulled := $source.pull-one;
 
-        sub deep(\value) is raw { my $ = value.deepmap(&op) }
+        sub deep(\value) is raw { my $ = value.doomedmpa(&op) }
 
         nqp::until(
           nqp::eqaddr($pulled,IterationEnd),
