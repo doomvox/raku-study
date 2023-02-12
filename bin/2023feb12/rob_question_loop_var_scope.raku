@@ -14,7 +14,7 @@ for @monsters -> $m {
     LAST { $OUTER::OUTER::m = $m };
 }
 
-say $m; # (Any)
+say $m; # zoma
 
 
 
