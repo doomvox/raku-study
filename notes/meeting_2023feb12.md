@@ -1,24 +1,24 @@
-- [meeting notes February 12, 2023](#org1de223e)
-  - [the raku study group](#org7c5e979)
-  - [topics](#org0daf784)
-    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org20fc2de)
-    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#orgb4cbd27)
-    - [bruce gray issue from rosetta code](#org27187d0)
-    - [topic variables question](#org05ffc20)
-    - [marton: some rakudo dev thoughts](#org19d4cf3)
-    - [the ever popular weekly challenge](#org45374a9)
-    - [being a better raku citizen](#org2eeda2b)
-    - [jj merelo raku recipies code examples](#orgf4e73c1)
-  - [announcements](#orgfcb7d6d)
-    - [next meeting: February 26th](#orgda14eb4)
+- [meeting notes February 12, 2023](#org72bb5bd)
+  - [the raku study group](#orga41bc1d)
+  - [topics](#orga90694f)
+    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org2830ab1)
+    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#org16bfdc8)
+    - [bruce gray issue from rosetta code](#org7a8beed)
+    - [topic variables question](#orgc46cf82)
+    - [marton: some rakudo dev thoughts](#org2828ab9)
+    - [the ever popular weekly challenge](#org8593845)
+    - [being a better raku citizen](#orgefe8037)
+    - [jj merelo raku recipies code examples](#org599b5d7)
+  - [announcements](#orgdebd8c2)
+    - [next meeting: February 26th](#org02502e6)
 
 
-<a id="org1de223e"></a>
+<a id="org72bb5bd"></a>
 
 # meeting notes February 12, 2023
 
 
-<a id="org7c5e979"></a>
+<a id="orga41bc1d"></a>
 
 ## the raku study group
 
@@ -41,12 +41,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md>
 
 
-<a id="org0daf784"></a>
+<a id="orga90694f"></a>
 
 ## topics
 
 
-<a id="org20fc2de"></a>
+<a id="org2830ab1"></a>
 
 ### Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"
 
@@ -57,9 +57,11 @@
 3.  Used my "darkroast" repository to add a test file for this:
 
     1.  <https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t>
+    
+    2.  bruce gray suggests looking into adding tests to roast
 
 
-<a id="orgb4cbd27"></a>
+<a id="org16bfdc8"></a>
 
 ### Issue 4435: "deepmap can mangle hash structures rather than just modify values"
 
@@ -90,17 +92,17 @@
     2.  locally: /home/doom/End/Cave/Raku/Wall/darkroast/S32-list/deepmap<sub>array</sub><sub>of</sub><sub>hashes.t</sub>
 
 
-<a id="org27187d0"></a>
+<a id="org7a8beed"></a>
 
 ### bruce gray issue from rosetta code
 
 
-<a id="org05ffc20"></a>
+<a id="orgc46cf82"></a>
 
 ### topic variables question
 
 
-<a id="org19d4cf3"></a>
+<a id="org2828ab9"></a>
 
 ### marton: some rakudo dev thoughts
 
@@ -109,7 +111,7 @@
 2.  raku ast
 
 
-<a id="org45374a9"></a>
+<a id="org8593845"></a>
 
 ### the ever popular weekly challenge
 
@@ -118,7 +120,7 @@
 2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-202/>
 
 
-<a id="org2eeda2b"></a>
+<a id="orgefe8037"></a>
 
 ### being a better raku citizen
 
@@ -139,18 +141,18 @@
         1.  <https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md>
 
 
-<a id="orgf4e73c1"></a>
+<a id="org599b5d7"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="orgfcb7d6d"></a>
+<a id="orgdebd8c2"></a>
 
 ## announcements
 
 
-<a id="orgda14eb4"></a>
+<a id="org02502e6"></a>
 
 ### next meeting: February 26th

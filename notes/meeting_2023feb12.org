@@ -17,6 +17,7 @@
 **** This has been working for a while with recent builds.  About time I closed it.
 **** Used my "darkroast" repository to add a test file for this:
 ***** https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t
+***** bruce gray suggests looking into adding tests to roast
 
 *** Issue 4435: "deepmap can mangle hash structures rather than just modify values"
 **** https://github.com/rakudo/rakudo/issues/4435
