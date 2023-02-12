@@ -39,8 +39,9 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 
 *** topic variables question
 
-*** bruce gray issue from rosetta code
+*** bruce gray on SEND + MORE = MONEY
 **** https://mindyourdecisions.com/blog/2018/09/06/send-more-money-a-great-puzzle/
+**** https://rosettacode.org/wiki/SEND_%2B_MORE_%3D_MONEY#Raku
 
 *** marton: some rakudo dev thoughts
 **** work on a bug
