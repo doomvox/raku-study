@@ -40,9 +40,9 @@ my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslav
 
 {
     my $found = gather 
-    for @monsters -> $m { 
+      for @monsters -> $m { 
         take $m  if $m ~~ /^z/;
-    }
+      }
     say $found; # (zoma)
 }
 
