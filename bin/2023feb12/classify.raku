@@ -39,7 +39,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 
 {
 #  my %c;
-  @initial_data.classify( $*.keys, into => my %c );
+  @initial_data.classify( *.keys, into => my %c );
   }
 
   say %c;
