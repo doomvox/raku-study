@@ -19,7 +19,7 @@ my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslav
 {
     my $m;
 
-    for @monsters -> OUTER::<$m> {
+    for @monsters -> OUTER::<$m> {  # Could not locate compile-time value for symbol OUTER
         last if $m ~~ /^z/;
     }
 
