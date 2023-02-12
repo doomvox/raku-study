@@ -39,6 +39,8 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 *** bruce gray issue from rosetta code
 *** topic variables question
 *** marton: some rakudo dev thoughts
+**** work on a bug
+**** raku ast
 
 *** the ever popular weekly challenge
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-201/
