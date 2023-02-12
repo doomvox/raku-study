@@ -30,6 +30,13 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 }
 
 
+## classify, docs:
+# my @years = (2003..2008).map( { Date.new( $_~"-01-01" ) } );
+# @years.classify( *.is-leap-year , into => my %leap-years );
+# say %leap-years;
+# # OUTPUT: «{False => [2003-01-01 2005-01-01 2006-01-01 2007-01-01], 
+# #           True => [2004-01-01 2008-01-01]}␤» 
+
 
 ## categorize, docs:
 # sub mapper(Int $i) returns List {
