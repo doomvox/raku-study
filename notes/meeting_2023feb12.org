@@ -40,6 +40,7 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 *** topic variables question
 
 *** bruce gray issue from rosetta code
+**** https://mindyourdecisions.com/blog/2018/09/06/send-more-money-a-great-puzzle/
 
 *** marton: some rakudo dev thoughts
 **** work on a bug
