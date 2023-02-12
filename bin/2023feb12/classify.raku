@@ -50,6 +50,15 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 
 }
 
+{
+
+    my (@quant, @name);
+    for @initial_data -> ( :$quant, :$name ) {
+        push @quant, $quant;
+        push @name , $name;
+    }
+    say ( :@quant, :@name );
+}
 
 
 ## classify, docs:
