@@ -1,21 +1,21 @@
-- [meeting notes February 12, 2023](#orgde4b470)
-  - [the raku study group](#orge40501e)
-  - [topics](#org85deff2)
-    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org12c36a4)
-    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#orgbf508a7)
-    - [weekly challenge](#orgb67391c)
-    - [raku citizenship](#org41a42da)
-    - [jj merelo raku recipies code examples](#org9ccb83e)
-  - [announcements](#org74ccc76)
-    - [next meeting: February 26th](#org821ea6c)
+- [meeting notes February 12, 2023](#org42282da)
+  - [the raku study group](#org7199734)
+  - [topics](#org749f02f)
+    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org71bbf78)
+    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#orge358285)
+    - [the ever popular weekly challenge](#orgf27221c)
+    - [raku citizenship](#org62ccb43)
+    - [jj merelo raku recipies code examples](#org5ee10ab)
+  - [announcements](#org8d2374d)
+    - [next meeting: February 26th](#org1c2233d)
 
 
-<a id="orgde4b470"></a>
+<a id="org42282da"></a>
 
 # meeting notes February 12, 2023
 
 
-<a id="orge40501e"></a>
+<a id="org7199734"></a>
 
 ## the raku study group
 
@@ -38,12 +38,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md>
 
 
-<a id="org85deff2"></a>
+<a id="org749f02f"></a>
 
 ## topics
 
 
-<a id="org12c36a4"></a>
+<a id="org71bbf78"></a>
 
 ### Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"
 
@@ -56,7 +56,7 @@
     1.  <https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t>
 
 
-<a id="orgbf508a7"></a>
+<a id="orge358285"></a>
 
 ### Issue 4435: "deepmap can mangle hash structures rather than just modify values"
 
@@ -85,14 +85,14 @@
     2.  <https://github.com/doomvox/darkroast/blob/main/S32-list/deepmap_array_of_hashes.t>
 
 
-<a id="orgb67391c"></a>
+<a id="orgf27221c"></a>
 
-### weekly challenge
+### the ever popular weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-201/>
 
 
-<a id="org41a42da"></a>
+<a id="org62ccb43"></a>
 
 ### raku citizenship
 
@@ -109,18 +109,18 @@
         1.  <https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md>
 
 
-<a id="org9ccb83e"></a>
+<a id="org5ee10ab"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org74ccc76"></a>
+<a id="org8d2374d"></a>
 
 ## announcements
 
 
-<a id="org821ea6c"></a>
+<a id="org1c2233d"></a>
 
 ### next meeting: February 26th
