@@ -85,7 +85,6 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 }
 
 {  # marton
-    
     my :( :$quant, :$name ) := |@initial-data».pairs.flat.classify(*.key, as => *.value);
     say "quants: $quants   names: $names";    
 
