@@ -1,21 +1,21 @@
-- [meeting notes February 12, 2023](#org8ff6e45)
-  - [the raku study group](#org0b15fb9)
-  - [topics](#orgfa1d6c8)
-    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org3e41d61)
-    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#orga303b42)
-    - [the ever popular weekly challenge](#org6cd2942)
-    - [being a better raku citizen](#org0853ef6)
-    - [jj merelo raku recipies code examples](#orgd408cc7)
-  - [announcements](#org4025833)
-    - [next meeting: February 26th](#org19e3e0b)
+- [meeting notes February 12, 2023](#orgb22e18b)
+  - [the raku study group](#orgd07ba45)
+  - [topics](#org1af0886)
+    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org1307270)
+    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#org8064827)
+    - [the ever popular weekly challenge](#orga976e82)
+    - [being a better raku citizen](#orgcf502c7)
+    - [jj merelo raku recipies code examples](#org0eacb5f)
+  - [announcements](#orga8378d7)
+    - [next meeting: February 26th](#orge40e3e0)
 
 
-<a id="org8ff6e45"></a>
+<a id="orgb22e18b"></a>
 
 # meeting notes February 12, 2023
 
 
-<a id="org0b15fb9"></a>
+<a id="orgd07ba45"></a>
 
 ## the raku study group
 
@@ -38,12 +38,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md>
 
 
-<a id="orgfa1d6c8"></a>
+<a id="org1af0886"></a>
 
 ## topics
 
 
-<a id="org3e41d61"></a>
+<a id="org1307270"></a>
 
 ### Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"
 
@@ -56,7 +56,7 @@
     1.  <https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t>
 
 
-<a id="orga303b42"></a>
+<a id="org8064827"></a>
 
 ### Issue 4435: "deepmap can mangle hash structures rather than just modify values"
 
@@ -77,6 +77,8 @@
             ```
         
         2.  Note: explicitly passes through "$\_".
+        
+            1.  if this is understood to be a requirement, the docs should say so
 
 3.  Adding some darkroast tests (needs work):
 
@@ -85,14 +87,14 @@
     2.  locally: /home/doom/End/Cave/Raku/Wall/darkroast/S32-list/deepmap<sub>array</sub><sub>of</sub><sub>hashes.t</sub>
 
 
-<a id="org6cd2942"></a>
+<a id="orga976e82"></a>
 
 ### the ever popular weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-201/>
 
 
-<a id="org0853ef6"></a>
+<a id="orgcf502c7"></a>
 
 ### being a better raku citizen
 
@@ -113,18 +115,18 @@
         1.  <https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md>
 
 
-<a id="orgd408cc7"></a>
+<a id="org0eacb5f"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org4025833"></a>
+<a id="orga8378d7"></a>
 
 ## announcements
 
 
-<a id="org19e3e0b"></a>
+<a id="orge40e3e0"></a>
 
 ### next meeting: February 26th
