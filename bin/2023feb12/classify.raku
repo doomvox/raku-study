@@ -92,7 +92,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 
 
 {  # marton  this syntax might work with new compiler (?)
-    my ( :$quant, :$name ) := |@initial-data».pairs.flat.classify(*.key, as => *.value);
+    my ( :$quant, :$name ) := |@initial_data».pairs.flat.classify(*.key, as => *.value);
     say "quants: $quants   names: $names";    
 
     }
