@@ -40,7 +40,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
     say "===";
     say @initial_data;
     say @initial_data.pairs;
-
+    say @initial_data.pairs.flat;
 
     # @initial_data>>.pairs.flat.classify(*.key, as => *.value, my %h);
 
