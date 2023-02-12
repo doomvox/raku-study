@@ -37,7 +37,7 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 ***** locally: /home/doom/End/Cave/Raku/Wall/darkroast/S32-list/deepmap_array_of_hashes.t
 
 *** bruce gray issue from rosetta code
-*** topic variables quesion
+*** topic variables question
 
 
 *** the ever popular weekly challenge
