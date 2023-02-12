@@ -38,8 +38,8 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 # #           True => [2004-01-01 2008-01-01]}␤» 
 
 {
-  my %classification;
-  @initial_data.classify( $*.keys, into => %classification );
+  my %c;
+  @initial_data.classify( $*.keys, into => %c );
   }
 
   say %classification;
