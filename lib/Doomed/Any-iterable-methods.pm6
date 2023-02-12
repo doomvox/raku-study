@@ -1,6 +1,10 @@
 #                                doom@kzsu.stanford.edu
 #                                12 Feb 2023
 
+## Copying some code from here, to mutate deepmap and play with it:
+
+## /home/doom/End/Cave/Raku/Wall/rakudo/src/core.c/Any-iterable-methods.pm6
+
 # Now that Iterable is defined, we add extra methods into Any for the list
 # operations. (They can't go into Any right away since we need Attribute to
 # define the various roles, and Attribute inherits from Any. We will do a
