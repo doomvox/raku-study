@@ -15,16 +15,16 @@
 use MONKEY-TYPING;
 augment class Any {
   
-    proto method doomedmpa(|) is nodal {*}
-    multi method doomedmpa(Associative:D: &op) {
-        self.new.STORE: self.keys, self.values.doomedmpa(&op), :INITIALIZE
+    proto method doomedmap(|) is nodal {*}
+    multi method doomedmap(Associative:D: &op) {
+        self.new.STORE: self.keys, self.values.doomedmap(&op), :INITIALIZE
     }
-    multi method doomedmpa(&op) {
+    multi method doomedmap(&op) {
         my $source := self.iterator;
         my \buffer := nqp::create(IterationBuffer);
         my $pulled := $source.pull-one;
 
-        sub deep(\value) is raw { my $ = value.doomedmpa(&op) }
+        sub deep(\value) is raw { my $ = value.doomedmap(&op) }
 
         nqp::until(
           nqp::eqaddr($pulled,IterationEnd),
