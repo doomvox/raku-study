@@ -30,3 +30,11 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 }
 
 
+
+## categorize, docs:
+# sub mapper(Int $i) returns List {
+#     $i %% 2 ?? 'even' !! 'odd',
+#     $i.is-prime ?? 'prime' !! 'not prime'
+# }
+# say categorize &mapper, (1, 7, 6, 3, 2);
+# # OUTPUT: «{even => [6 2], not prime => [1 6], odd => [1 7 3], prime => [7 3 2]}␤»
