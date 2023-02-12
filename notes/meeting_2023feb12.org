@@ -37,8 +37,10 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 ***** https://github.com/doomvox/darkroast/blob/main/S32-list/deepmap_array_of_hashes.t
 ***** locally: /home/doom/End/Cave/Raku/Wall/darkroast/S32-list/deepmap_array_of_hashes.t
 
-*** bruce gray issue from rosetta code
 *** topic variables question
+
+*** bruce gray issue from rosetta code
+
 *** marton: some rakudo dev thoughts
 **** work on a bug
 **** raku ast
