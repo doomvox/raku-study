@@ -15,7 +15,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 {
     my (@quant, @name);
     @initial_data.map( { @quant.push($_<quant>), @name.push($_<name>) });
-    say 'quant:', @quant, 'name: ', @name;
+    say 'quant:', @quant, ' name: ', @name;
 
 }
 
