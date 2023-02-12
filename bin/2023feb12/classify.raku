@@ -11,6 +11,10 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
                      { quant => 3, name => 'gamma', },
                      { quant => 4, name => 'delta', }, );
 
+# Goal:
+# @quant = [1 2 3 4];
+# @name  = [alpha beta gamma delta];
+
 
 {
     my (@quant, @name);
