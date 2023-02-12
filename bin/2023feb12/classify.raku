@@ -24,10 +24,8 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
     my $i = 0;
     for @initial_data -> $dyad {
         (@quant[$i], @name[$i]) = $dyad{'quant','name'};
-
         $i++;
     }
-
 
     say 'quant:', @quant, ' name: ', @name;
 }
