@@ -36,3 +36,12 @@ my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslav
     say @monsters.first({/^z/}); # zoma
     say @monsters.first( /^z/ ); # zoma
 }
+
+
+{
+    my $found = gather 
+    for @monsters -> $m { 
+        take $m  if $m ~~ /^z/;
+    }
+    say $found;
+}
