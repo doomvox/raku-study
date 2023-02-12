@@ -45,6 +45,8 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
     # {name => [alpha beta gamma delta], quant => [1 2 3 4]}
 
     my %result = @initial_data>>.pairs.flat.classify(*.key, as => *.value);
+    say %result<name>;
+    say %result<quant>;
 
 
 }
