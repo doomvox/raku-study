@@ -43,5 +43,5 @@ my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslav
     for @monsters -> $m { 
         take $m  if $m ~~ /^z/;
     }
-    say $found;
+    say $found; # (zoma)
 }
