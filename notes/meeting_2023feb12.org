@@ -27,7 +27,7 @@
 ****** interesting bit ("gfldex++" is someone's handle)
 #+BEGIN_SRC raku
 # regression spotted by gfldex++
-is <a b c>.deepmap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
+`is <a b c>.deepmap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 #+END_SRC
 ****** Note: explicitly passes through "$_".
