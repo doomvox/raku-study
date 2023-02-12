@@ -39,6 +39,8 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 
 
 
+
+
 ## categorize, docs:
 # sub mapper(Int $i) returns List {
 #     $i %% 2 ?? 'even' !! 'odd',
