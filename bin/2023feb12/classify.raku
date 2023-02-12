@@ -64,6 +64,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 {
     my ( $quants, $names ) = [Z] @initial_data».<quant name>;
     say "quants: $quants   names: $names";
+    # quants: 1 2 3 4   names: alpha beta gamma delta
 }
 
 
