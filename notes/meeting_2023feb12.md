@@ -1,21 +1,21 @@
-- [meeting notes February 12, 2023](#orgb22e18b)
-  - [the raku study group](#orgd07ba45)
-  - [topics](#org1af0886)
-    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org1307270)
-    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#org8064827)
-    - [the ever popular weekly challenge](#orga976e82)
-    - [being a better raku citizen](#orgcf502c7)
-    - [jj merelo raku recipies code examples](#org0eacb5f)
-  - [announcements](#orga8378d7)
-    - [next meeting: February 26th](#orge40e3e0)
+- [meeting notes February 12, 2023](#orgb0b8b4e)
+  - [the raku study group](#orgc7ca6fe)
+  - [topics](#orgbaaf05e)
+    - [Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"](#org00af65a)
+    - [Issue 4435: "deepmap can mangle hash structures rather than just modify values"](#orgea19a6a)
+    - [the ever popular weekly challenge](#org58ee76d)
+    - [being a better raku citizen](#orgf91595d)
+    - [jj merelo raku recipies code examples](#org757c50a)
+  - [announcements](#org1bb8d77)
+    - [next meeting: February 26th](#org4648c46)
 
 
-<a id="orgb22e18b"></a>
+<a id="orgb0b8b4e"></a>
 
 # meeting notes February 12, 2023
 
 
-<a id="orgd07ba45"></a>
+<a id="orgc7ca6fe"></a>
 
 ## the raku study group
 
@@ -38,12 +38,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022jan29.md>
 
 
-<a id="org1af0886"></a>
+<a id="orgbaaf05e"></a>
 
 ## topics
 
 
-<a id="org1307270"></a>
+<a id="org00af65a"></a>
 
 ### Issue 4207: "'say $obj.<sup>methods</sup>' does not list all methods"
 
@@ -56,7 +56,7 @@
     1.  <https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t>
 
 
-<a id="org8064827"></a>
+<a id="orgea19a6a"></a>
 
 ### Issue 4435: "deepmap can mangle hash structures rather than just modify values"
 
@@ -68,7 +68,7 @@
     
     2.  locally: /home/doom/End/Cave/Raku/Wall/roast/S32-list/deepmap.t
     
-        1.  interesting bit (is "gfldex" someone's handle?)
+        1.  interesting bit (is "gfldex++" someone's handle?)
         
             ```raku
             # regression spotted by gfldex++
@@ -87,14 +87,14 @@
     2.  locally: /home/doom/End/Cave/Raku/Wall/darkroast/S32-list/deepmap<sub>array</sub><sub>of</sub><sub>hashes.t</sub>
 
 
-<a id="orga976e82"></a>
+<a id="org58ee76d"></a>
 
 ### the ever popular weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-201/>
 
 
-<a id="orgcf502c7"></a>
+<a id="orgf91595d"></a>
 
 ### being a better raku citizen
 
@@ -115,18 +115,18 @@
         1.  <https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md>
 
 
-<a id="org0eacb5f"></a>
+<a id="org757c50a"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="orga8378d7"></a>
+<a id="org1bb8d77"></a>
 
 ## announcements
 
 
-<a id="orge40e3e0"></a>
+<a id="org4648c46"></a>
 
 ### next meeting: February 26th
