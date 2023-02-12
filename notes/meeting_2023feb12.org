@@ -43,8 +43,8 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 **** do we need a joint events calendar?
 **** irc 
 **** vadim class
-**** marton meeting on docs-- first one was *yesterday*
-**** marton on docs
+**** marton meetings on docs
+***** first one was *yesterday*
 ***** squashathon
 ****** https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md
 
