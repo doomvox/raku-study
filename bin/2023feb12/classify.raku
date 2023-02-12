@@ -26,7 +26,6 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
         (@quant[$i], @name[$i]) = $dyad{'quant','name'};
         $i++;
     }
-
     say 'quant:', @quant, ' name: ', @name;
 }
 
