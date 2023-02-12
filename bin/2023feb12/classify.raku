@@ -42,7 +42,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
   @initial_data.classify( $*.keys, into => %c );
   }
 
-  say %classification;
+  say %c;
 }
 
 
