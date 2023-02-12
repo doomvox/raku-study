@@ -84,6 +84,14 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
     # quants: 1 2 3 4   names: alpha beta gamma delta
 }
 
+{  # marton
+    
+    my :( :$quant, :$name ) := |@initial-data».pairs.flat.classify(*.key, as => *.value);
+    say "quants: $quants   names: $names";    
+
+    }
+
+
 
 ## classify, docs:
 # my @years = (2003..2008).map( { Date.new( $_~"-01-01" ) } );
