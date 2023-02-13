@@ -6,7 +6,7 @@ use v6;
 
 ## simple task: copy values into arrays @quant, @name
 
-my @initial_data = ( { quant => 1, name => 'alpha', },
+my @data = ( { quant => 1, name => 'alpha', },
                      { quant => 2, name => 'beta',  },
                      { quant => 3, name => 'gamma', },
                      { quant => 4, name => 'delta', }, );
@@ -18,7 +18,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 
 ## bruce gray suggests a different style of initializing:
 
-# my @initial_data2 = map { Hash.new( <quant name> Z=> .list ) },
+# my @data2 = map { Hash.new( <quant name> Z=> .list ) },
 #     < 1 alpha >,
 #     < 2 beta  >,
 #     < 3 gamma >,
@@ -28,7 +28,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 
 {
     my (@quant, @name);
-    @initial_data.map( { @quant.push($_<quant>), @name.push($_<name>) });
+    @data.map( { @quant.push($_<quant>), @name.push($_<name>) });
     say 'quant:', @quant, ' name: ', @name;
     # quant:[1 2 3 4] name: [alpha beta gamma delta]
 }
@@ -37,7 +37,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 {
     my (@quant, @name);
     my $i = 0;
-    for @initial_data -> $dyad {
+    for @data -> $dyad {
         (@quant[$i], @name[$i]) = $dyad{'quant','name'};
         $i++;
     }
@@ -48,13 +48,13 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 
 {
     say "===";
-    say @initial_data;
-    say @initial_data.pairs;
-    say @initial_data.pairs.flat;
-    say @initial_data>>.pairs.flat.classify(*.key, as => *.value);
+    say @data;
+    say @data.pairs;
+    say @data.pairs.flat;
+    say @data>>.pairs.flat.classify(*.key, as => *.value);
     # {name => [alpha beta gamma delta], quant => [1 2 3 4]}
 
-    my %result = @initial_data>>.pairs.flat.classify(*.key, as => *.value);
+    my %result = @data>>.pairs.flat.classify(*.key, as => *.value);
     say %result<name>;    # [alpha beta gamma delta]
     say %result<quant>;   # [1 2 3 4]
 
@@ -63,7 +63,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 {
 
     my (@quant, @name);
-    for @initial_data -> ( :$quant, :$name ) {
+    for @data -> ( :$quant, :$name ) {
         push @quant, $quant;
         push @name , $name;
     }
@@ -72,14 +72,14 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 }
 
 {
-    my ( $quants, $names ) = [Z] @initial_data».<quant name>;
+    my ( $quants, $names ) = [Z] @data».<quant name>;
     say "quants: $quants   names: $names";
     # quants: 1 2 3 4   names: alpha beta gamma delta
 }
 
 {
     # bg one-line version
-    my ( $quants, $names ) = @initial_data».pairs.flat.classify(*.key, as => *.value)<quant name>;
+    my ( $quants, $names ) = @data».pairs.flat.classify(*.key, as => *.value)<quant name>;
     say "quants: $quants   names: $names";    
     # quants: 1 2 3 4   names: alpha beta gamma delta
 }
@@ -92,7 +92,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 
 
 {  # marton  
-    my ( :$quant, :$name ) := @initial_data».pairs.flat.classify(*.key, as => *.value);
+    my ( :$quant, :$name ) := @data».pairs.flat.classify(*.key, as => *.value);
     say "quant: $quant   name: $name";    
     # quant: 1 2 3 4   name: alpha beta gamma delta
     }
@@ -108,7 +108,7 @@ my @initial_data = ( { quant => 1, name => 'alpha', },
 
 # {
 # #  my %c;
-#   @initial_data.classify( *.keys, into => my %c );
+#   @data.classify( *.keys, into => my %c );
 #   }
 
 #   say %c;
