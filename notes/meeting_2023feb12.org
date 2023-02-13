@@ -49,7 +49,7 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 
 **** work on a bug
 **** raku ast
-***** raku ast envar?
+***** RAKUDO_RAKUAST = 1
 
 *** the ever popular weekly challenge
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-201/
@@ -71,3 +71,4 @@ is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
 
 ** announcements 
 *** next meeting: February 26th
+*** doc meeting:  jit.sy issues?  
