@@ -128,7 +128,7 @@ my @data = ( { quant => 1, name => 'alpha', },
 
 
 
-## categorize, docs:
+## docs for categorize:
 # sub mapper(Int $i) returns List {
 #     $i %% 2 ?? 'even' !! 'odd',
 #     $i.is-prime ?? 'prime' !! 'not prime'
