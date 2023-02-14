@@ -63,7 +63,9 @@ my @data = ( { quant => 1, name => 'alpha', },
     # marton polgar approach, doesn't require knowledge of key names
      say "===";
      say @data;
+     # [{name => alpha, quant => 1} {name => beta, quant => 2} {name => gamma, quant => 3} {name => delta, quant => 4}]
      say @data.pairs;
+     # (0 => {name => alpha, quant => 1} 1 => {name => beta, quant => 2} 2 => {name => gamma, quant => 3} 3 => {name => delta, quant => 4})
      say @data.pairs.flat;
      say @data>>.pairs.flat.classify(*.key, as => *.value);
      # {name => [alpha beta gamma delta], quant => [1 2 3 4]}
