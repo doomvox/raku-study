@@ -62,6 +62,7 @@ my @data = ( { quant => 1, name => 'alpha', },
 {
     # marton polgar approach, doesn't require knowledge of key names
      say "===";
+
      say @data;
      # [{name => alpha, quant => 1} {name => beta, quant => 2} {name => gamma, quant => 3} {name => delta, quant => 4}]
      say @data.pairs;
