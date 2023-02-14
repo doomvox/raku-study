@@ -70,7 +70,6 @@ my @data = ( { quant => 1, name => 'alpha', },
      # (0 => {name => alpha, quant => 1} 1 => {name => beta, quant => 2} 2 => {name => gamma, quant => 3} 3 => {name => delta, quant => 4})
      say @data>>.pairs.flat.classify(*.key, as => *.value);
      # {name => [alpha beta gamma delta], quant => [1 2 3 4]}
-     # {name => [alpha beta gamma delta], quant => [1 2 3 4]}
 
     my %result = @data>>.pairs.flat.classify(*.key, as => *.value);
     say %result<name>;    # [alpha beta gamma delta]
