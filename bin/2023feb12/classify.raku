@@ -7,9 +7,9 @@ use v6;
 ## simple task: copy values into arrays @quant, @name
 
 my @data = ( { quant => 1, name => 'alpha', },
-                     { quant => 2, name => 'beta',  },
-                     { quant => 3, name => 'gamma', },
-                     { quant => 4, name => 'delta', }, );
+             { quant => 2, name => 'beta',  },
+             { quant => 3, name => 'gamma', },
+             { quant => 4, name => 'delta', }, );
 
 # Goal:
 # @quant = [1 2 3 4];
