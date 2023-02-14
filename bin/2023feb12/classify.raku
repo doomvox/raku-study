@@ -47,6 +47,19 @@ my @data = ( { quant => 1, name => 'alpha', },
 
 
 {
+   # bruce gray's cleaned up version of the above, skips need for "$dyad" var   
+    my (@quant, @name);
+    for @data -> ( :$quant, :$name ) {
+        push @quant, $quant;
+        push @name , $name;
+    }
+    say ( :@quant, :@name );
+    # (quant => [1 2 3 4] name => [alpha beta gamma delta])
+}
+
+
+
+{
     # marton polgar approach, doesn't require knowledge of key names
     say "===";
     say @data;
@@ -61,16 +74,6 @@ my @data = ( { quant => 1, name => 'alpha', },
 
 }
 
-{
-
-    my (@quant, @name);
-    for @data -> ( :$quant, :$name ) {
-        push @quant, $quant;
-        push @name , $name;
-    }
-    say ( :@quant, :@name );
-    # (quant => [1 2 3 4] name => [alpha beta gamma delta])
-}
 
 {
     my ( $quants, $names ) = [Z] @data».<quant name>;
