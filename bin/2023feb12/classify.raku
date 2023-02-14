@@ -110,7 +110,7 @@ my @data = ( { quant => 1, name => 'alpha', },
 
 
 
-## classify, docs:
+## docs for classify:
 # my @years = (2003..2008).map( { Date.new( $_~"-01-01" ) } );
 # @years.classify( *.is-leap-year , into => my %leap-years );
 # say %leap-years;
