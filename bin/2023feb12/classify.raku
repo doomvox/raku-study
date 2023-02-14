@@ -47,6 +47,7 @@ my @data = ( { quant => 1, name => 'alpha', },
 
 
 {
+    # marton polgar approach, doesn't require knowledge of key names
     say "===";
     say @data;
     say @data.pairs;
