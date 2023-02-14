@@ -74,6 +74,13 @@ my @data = ( { quant => 1, name => 'alpha', },
 
 }
 
+{  # marton  
+    my ( :$quant, :$name ) := @data».pairs.flat.classify(*.key, as => *.value);
+    say "quant: $quant   name: $name";    
+    # quant: 1 2 3 4   name: alpha beta gamma delta
+    }
+
+
 
 {
     # neat solution from bruce gray:
@@ -96,11 +103,6 @@ my @data = ( { quant => 1, name => 'alpha', },
 #     }
 
 
-{  # marton  
-    my ( :$quant, :$name ) := @data».pairs.flat.classify(*.key, as => *.value);
-    say "quant: $quant   name: $name";    
-    # quant: 1 2 3 4   name: alpha beta gamma delta
-    }
 
 
 
