@@ -15,6 +15,6 @@
 *** reservations about "the tests are the spec"
 **** opinion: the tests are the tests-- resist mission creep
 *** "OOP all the way down" => no clear boundary between internals and externals
-**** good in some ways: small step for an Raku expert to become a core dev
+**** good in some ways: small step for a Raku expert to become a core dev
 **** bad in others: few limits to what an expert needs to know
 
