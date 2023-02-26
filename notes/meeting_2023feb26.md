@@ -1,20 +1,20 @@
-- [meeting notes February 26, 2023](#orgb0ad4b8)
-  - [the raku study group](#org8d12758)
-  - [topics](#org2671664)
-    - [the ever popular weekly challenge](#org98dc859)
-    - [being a better raku citizen](#org64d5429)
-    - [jj merelo raku recipies code examples](#org30a2b12)
-  - [announcements](#org50c156c)
-    - [next meeting: February 26th](#orga616b27)
-    - [doc meeting:  jit.sy issues?](#org849e632)
+- [meeting notes February 26, 2023](#orgce3c2c8)
+  - [the raku study group](#orgaf71c56)
+  - [topics](#orgc561164)
+    - [the ever popular weekly challenge](#org85fdede)
+    - [being a better raku citizen](#org5c5e166)
+    - [jj merelo raku recipies code examples](#org0651481)
+  - [announcements](#org74749cc)
+    - [next meeting: February 26th](#orgd072135)
+    - [doc meeting:  jit.sy issues?](#org8fd8a35)
 
 
-<a id="orgb0ad4b8"></a>
+<a id="orgce3c2c8"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="org8d12758"></a>
+<a id="orgaf71c56"></a>
 
 ## the raku study group
 
@@ -37,12 +37,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="org2671664"></a>
+<a id="orgc561164"></a>
 
 ## topics
 
 
-<a id="org98dc859"></a>
+<a id="org85fdede"></a>
 
 ### the ever popular weekly challenge
 
@@ -66,10 +66,10 @@
     
         1.  You are given a matrix (m x n) and two integers (r) and (c).
         
-            Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
+        2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="org64d5429"></a>
+<a id="org5c5e166"></a>
 
 ### being a better raku citizen
 
@@ -90,23 +90,23 @@
         1.  <https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md>
 
 
-<a id="org30a2b12"></a>
+<a id="org0651481"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org50c156c"></a>
+<a id="org74749cc"></a>
 
 ## announcements
 
 
-<a id="orga616b27"></a>
+<a id="orgd072135"></a>
 
 ### next meeting: February 26th
 
 
-<a id="org849e632"></a>
+<a id="org8fd8a35"></a>
 
 ### doc meeting:  jit.sy issues?
