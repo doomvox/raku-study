@@ -21,7 +21,8 @@
 *** IUP (rob) 
 **** mrhdias
 **** like simple gtk
-**** on top of gtk3, a c-library
+**** on top of gtk3, a c-library, lua
+**** similar to perl5k
 
 *** the ever popular weekly challenge
 
