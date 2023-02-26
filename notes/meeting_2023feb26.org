@@ -18,6 +18,8 @@
 
 *** the ever popular weekly challenge
 
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-203/
+
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-205/
 ****** TASK #1: Third Highest
 ******* You are given an array of integers. Write a script to find out the Third Highest if found otherwise return the maximum.
