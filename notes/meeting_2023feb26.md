@@ -1,22 +1,22 @@
-- [meeting notes February 26, 2023](#org775ea5e)
-  - [the raku study group](#orge7ad4a6)
-  - [topics](#org95eed01)
-    - [IPC (david)](#org849c707)
-    - [pod6](#org3659c46)
-    - [IUP (rob)](#org020eab9)
-    - [the ever popular weekly challenge](#org90facb4)
-    - [jj merelo raku recipies code examples](#org88755b4)
-  - [announcements](#org48fa50a)
-    - [next meeting: March 5th](#org0bbede0)
-    - [the meeting after the next: March 26th](#orgd8c8381)
+- [meeting notes February 26, 2023](#org271f60e)
+  - [the raku study group](#orgd7b6fae)
+  - [topics](#org311a9d8)
+    - [IPC (david)](#orgfde626c)
+    - [pod6](#orgf0f0023)
+    - [IUP (rob)](#org9f1d9e8)
+    - [the ever popular weekly challenge](#org2557642)
+    - [jj merelo raku recipies code examples](#orgc5164df)
+  - [announcements](#orga13d1d7)
+    - [next meeting: March 5th](#orgd3fbd62)
+    - [the meeting after the next: March 26th](#orgf9572f1)
 
 
-<a id="org775ea5e"></a>
+<a id="org271f60e"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="orge7ad4a6"></a>
+<a id="orgd7b6fae"></a>
 
 ## the raku study group
 
@@ -39,24 +39,24 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="org95eed01"></a>
+<a id="org311a9d8"></a>
 
 ## topics
 
 
-<a id="org849c707"></a>
+<a id="orgfde626c"></a>
 
 ### IPC (david)
 
 1.  stdout/stderr/stdin
 
 
-<a id="org3659c46"></a>
+<a id="orgf0f0023"></a>
 
 ### pod6
 
 
-<a id="org020eab9"></a>
+<a id="org9f1d9e8"></a>
 
 ### IUP (rob)
 
@@ -77,7 +77,7 @@
 5.  lacks test framework
 
 
-<a id="org90facb4"></a>
+<a id="org2557642"></a>
 
 ### the ever popular weekly challenge
 
@@ -92,6 +92,8 @@
     2.  TASK #2: Maximum XOR
     
         1.  You are given an array of integers. Write a script to find the highest value obtained by XORing any two distinct members of the array.
+    
+    3.  bruce
 
 3.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-204/>
 
@@ -106,19 +108,19 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="org88755b4"></a>
+<a id="orgc5164df"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org48fa50a"></a>
+<a id="orga13d1d7"></a>
 
 ## announcements
 
 
-<a id="org0bbede0"></a>
+<a id="orgd3fbd62"></a>
 
 ### next meeting: March 5th
 
@@ -127,6 +129,6 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="orgd8c8381"></a>
+<a id="orgf9572f1"></a>
 
 ### the meeting after the next: March 26th
