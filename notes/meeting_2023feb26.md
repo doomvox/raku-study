@@ -1,22 +1,22 @@
-- [meeting notes February 26, 2023](#org7f7af8c)
-  - [the raku study group](#org83159e6)
-  - [topics](#orgdbd6762)
-    - [IPC (david)](#org7ca1020)
-    - [pod6](#org49c8d9b)
-    - [IUP (rob)](#org2c2b13b)
-    - [the ever popular weekly challenge](#orgdb5eb86)
-    - [jj merelo raku recipies code examples](#org046ef42)
-  - [announcements](#org9b84ba2)
-    - [next meeting: March 5th](#orgd171d4a)
-    - [the meeting after the next: March 26th](#orgf1082d3)
+- [meeting notes February 26, 2023](#org8bad35e)
+  - [the raku study group](#org83b1406)
+  - [topics](#orge7a869d)
+    - [IPC (david)](#orgbf91915)
+    - [pod6](#org4328a55)
+    - [IUP (rob)](#orgfcc23bc)
+    - [the ever popular weekly challenge](#orgce259e9)
+    - [jj merelo raku recipies code examples](#org46ac183)
+  - [announcements](#orge79672f)
+    - [next meeting: March 5th](#org8cf07b8)
+    - [the meeting after the next: March 26th](#org9fc794a)
 
 
-<a id="org7f7af8c"></a>
+<a id="org8bad35e"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="org83159e6"></a>
+<a id="org83b1406"></a>
 
 ## the raku study group
 
@@ -39,24 +39,24 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="orgdbd6762"></a>
+<a id="orge7a869d"></a>
 
 ## topics
 
 
-<a id="org7ca1020"></a>
+<a id="orgbf91915"></a>
 
 ### IPC (david)
 
 1.  stdout/stderr/stdin
 
 
-<a id="org49c8d9b"></a>
+<a id="org4328a55"></a>
 
 ### pod6
 
 
-<a id="org2c2b13b"></a>
+<a id="orgfcc23bc"></a>
 
 ### IUP (rob)
 
@@ -70,8 +70,14 @@
 
 5.  lacks test framework
 
+    1.  <https://en.wikipedia.org/wiki/IUP_(software)>
+    
+    2.  <https://iup.sourceforge.net/>
+    
+    3.  <https://raku.land/github:hankache/IUP>
 
-<a id="orgdb5eb86"></a>
+
+<a id="orgce259e9"></a>
 
 ### the ever popular weekly challenge
 
@@ -100,19 +106,19 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="org046ef42"></a>
+<a id="org46ac183"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org9b84ba2"></a>
+<a id="orge79672f"></a>
 
 ## announcements
 
 
-<a id="orgd171d4a"></a>
+<a id="org8cf07b8"></a>
 
 ### next meeting: March 5th
 
@@ -121,6 +127,6 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="orgf1082d3"></a>
+<a id="org9fc794a"></a>
 
 ### the meeting after the next: March 26th

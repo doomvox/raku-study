@@ -25,6 +25,11 @@
 **** similar to perltk
 **** lacks test framework
 
+***** https://en.wikipedia.org/wiki/IUP_(software)
+***** https://iup.sourceforge.net/
+***** https://raku.land/github:hankache/IUP
+
+
 *** the ever popular weekly challenge
 
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-203/
