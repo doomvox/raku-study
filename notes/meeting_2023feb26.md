@@ -1,24 +1,24 @@
-- [meeting notes February 26, 2023](#org6adffd2)
-  - [the raku study group](#org8c5487d)
-  - [topics](#org1e789f9)
-    - [IPC (david)](#orgd4a13c0)
-    - [pod6](#org580659f)
-    - [IUP (rob)](#org275dc9e)
-    - [the ever popular weekly challenge](#org56307af)
-    - [jj merelo raku recipies code examples](#orgf67dccd)
-    - [new version of docs live:](#org378f303)
-    - [<https://github.com/Raku/doc-website/issues/124>](#org99876e6)
-  - [announcements](#org4c0d1b6)
-    - [next meeting: March 5th](#org6d94570)
-    - [the meeting after the next: March 26th](#org1f293e0)
+- [meeting notes February 26, 2023](#org1888faa)
+  - [the raku study group](#org8e06a61)
+  - [topics](#org29e018a)
+    - [IPC (david)](#orgb61737a)
+    - [pod6](#orgf1e5f39)
+    - [IUP (rob)](#org1ee7bc3)
+    - [the ever popular weekly challenge](#orgc026bee)
+    - [jj merelo raku recipies code examples](#org77ac6df)
+    - [new version of docs live:](#orgdb52855)
+    - [<https://github.com/Raku/doc-website/issues/124>](#orgb50086e)
+  - [announcements](#org5accba3)
+    - [next meeting: March 5th](#org2f7d880)
+    - [the meeting after the next: March 26th](#orgf1426f2)
 
 
-<a id="org6adffd2"></a>
+<a id="org1888faa"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="org8c5487d"></a>
+<a id="org8e06a61"></a>
 
 ## the raku study group
 
@@ -41,12 +41,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="org1e789f9"></a>
+<a id="org29e018a"></a>
 
 ## topics
 
 
-<a id="orgd4a13c0"></a>
+<a id="orgb61737a"></a>
 
 ### IPC (david)
 
@@ -63,12 +63,12 @@
         1.  <https://www.youtube.com/watch?v=JpqnNCx7wVY>
 
 
-<a id="org580659f"></a>
+<a id="orgf1e5f39"></a>
 
 ### pod6
 
 
-<a id="org275dc9e"></a>
+<a id="org1ee7bc3"></a>
 
 ### IUP (rob)
 
@@ -89,7 +89,7 @@
 5.  lacks test framework
 
 
-<a id="org56307af"></a>
+<a id="orgc026bee"></a>
 
 ### the ever popular weekly challenge
 
@@ -120,14 +120,14 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="orgf67dccd"></a>
+<a id="org77ac6df"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org378f303"></a>
+<a id="orgdb52855"></a>
 
 ### new version of docs live:
 
@@ -136,17 +136,17 @@
 2.  <https://github.com/Raku/doc-website/discussions/138>\*
 
 
-<a id="org99876e6"></a>
+<a id="orgb50086e"></a>
 
 ### <https://github.com/Raku/doc-website/issues/124>
 
 
-<a id="org4c0d1b6"></a>
+<a id="org5accba3"></a>
 
 ## announcements
 
 
-<a id="org6d94570"></a>
+<a id="org2f7d880"></a>
 
 ### next meeting: March 5th
 
@@ -155,6 +155,6 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="org1f293e0"></a>
+<a id="orgf1426f2"></a>
 
 ### the meeting after the next: March 26th
