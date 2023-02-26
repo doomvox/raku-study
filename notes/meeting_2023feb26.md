@@ -1,22 +1,22 @@
-- [meeting notes February 26, 2023](#org796fd60)
-  - [the raku study group](#org964d04f)
-  - [topics](#org95d333b)
-    - [IPC (david)](#org901e9a2)
-    - [pod6](#org0d6466d)
-    - [IUP (rob)](#org291f1b4)
-    - [the ever popular weekly challenge](#org956db1a)
-    - [jj merelo raku recipies code examples](#org85cf52e)
-  - [announcements](#org844194c)
-    - [next meeting: March 5th](#org1017333)
-    - [the meeting after the next: March 26th](#org2d0ece5)
+- [meeting notes February 26, 2023](#orga049176)
+  - [the raku study group](#org97cb58a)
+  - [topics](#orgf9fd314)
+    - [IPC (david)](#org290d332)
+    - [pod6](#org51a2194)
+    - [IUP (rob)](#org3603351)
+    - [the ever popular weekly challenge](#orgccbba67)
+    - [jj merelo raku recipies code examples](#orgafd0ca6)
+  - [announcements](#orgc6760d1)
+    - [next meeting: March 5th](#org78109d1)
+    - [the meeting after the next: March 26th](#org3fad085)
 
 
-<a id="org796fd60"></a>
+<a id="orga049176"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="org964d04f"></a>
+<a id="org97cb58a"></a>
 
 ## the raku study group
 
@@ -39,31 +39,31 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="org95d333b"></a>
+<a id="orgf9fd314"></a>
 
 ## topics
 
 
-<a id="org901e9a2"></a>
+<a id="org290d332"></a>
 
 ### IPC (david)
 
 1.  stdout/stderr/stdin
 
 
-<a id="org0d6466d"></a>
+<a id="org51a2194"></a>
 
 ### pod6
 
 
-<a id="org291f1b4"></a>
+<a id="org3603351"></a>
 
 ### IUP (rob)
 
-1.  mrhdiaz
+1.  mrhdias
 
 
-<a id="org956db1a"></a>
+<a id="orgccbba67"></a>
 
 ### the ever popular weekly challenge
 
@@ -92,19 +92,19 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="org85cf52e"></a>
+<a id="orgafd0ca6"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org844194c"></a>
+<a id="orgc6760d1"></a>
 
 ## announcements
 
 
-<a id="org1017333"></a>
+<a id="org78109d1"></a>
 
 ### next meeting: March 5th
 
@@ -113,6 +113,6 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="org2d0ece5"></a>
+<a id="org3fad085"></a>
 
 ### the meeting after the next: March 26th
