@@ -12,44 +12,6 @@
 
 
 ** topics
-*** Issue 4207: "'say $obj.^methods' does not list all methods"
-**** https://github.com/rakudo/rakudo/issues/4207
-**** This has been working for a while with recent builds.  About time I closed it.
-**** Used my "darkroast" repository to add a test file for this:
-***** https://github.com/doomvox/darkroast/blob/main/S12-introspection/method_object_gists.t
-***** bruce gray suggests looking into adding tests to roast
-
-*** Issue 4435: "deepmap can mangle hash structures rather than just modify values"
-**** https://github.com/rakudo/rakudo/issues/4435
-**** Existing roast test for deepmap:
-***** https://github.com/Raku/roast/blob/master/S32-list/deepmap.t
-***** locally: /home/doom/End/Cave/Raku/Wall/roast/S32-list/deepmap.t
-****** interesting bit ("gfldex++" is someone's handle)
-#+BEGIN_SRC raku
-# regression spotted by gfldex++
-`is <a b c>.deepmap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
-is <a b c>.nodemap({ next if $_ eq "b"; $_ }), "a c", 'did next work';
-#+END_SRC
-****** Note: explicitly passes through "$_".
-******* if this is understood to be a requirement, the docs should say so
-
-**** Adding some darkroast tests (needs work):
-***** https://github.com/doomvox/darkroast/blob/main/S32-list/deepmap_array_of_hashes.t
-***** locally: /home/doom/End/Cave/Raku/Wall/darkroast/S32-list/deepmap_array_of_hashes.t
-
-*** topic variables question
-
-*** bruce gray on SEND + MORE = MONEY
-**** https://mindyourdecisions.com/blog/2018/09/06/send-more-money-a-great-puzzle/
-**** https://rosettacode.org/wiki/SEND_%2B_MORE_%3D_MONEY#Raku
-
-*** marton: some rakudo dev thoughts
-**** .EVAL always works, no MONKEY needed
-***** bug?  
-
-**** work on a bug
-**** raku ast
-***** RAKUDO_RAKUAST = 1
 
 *** the ever popular weekly challenge
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-201/
