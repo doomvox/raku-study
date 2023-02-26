@@ -1,20 +1,20 @@
-- [meeting notes February 26, 2023](#org04058f1)
-  - [the raku study group](#orgbf8a01a)
-  - [topics](#orgd52ee24)
-    - [the ever popular weekly challenge](#org24c147b)
-    - [being a better raku citizen](#org7265984)
-    - [jj merelo raku recipies code examples](#org1341615)
-  - [announcements](#orge5bc5fe)
-    - [next meeting: February 26th](#orgdd6adcc)
-    - [doc meeting:  jit.sy issues?](#org6e43b38)
+- [meeting notes February 26, 2023](#org46511e5)
+  - [the raku study group](#org520eddf)
+  - [topics](#org2c06dbc)
+    - [the ever popular weekly challenge](#org95ac353)
+    - [being a better raku citizen](#org612c5e6)
+    - [jj merelo raku recipies code examples](#orga7ab98e)
+  - [announcements](#org1384323)
+    - [next meeting: February 26th](#orgd17c68d)
+    - [doc meeting:  jit.sy issues?](#org96e763c)
 
 
-<a id="org04058f1"></a>
+<a id="org46511e5"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="orgbf8a01a"></a>
+<a id="org520eddf"></a>
 
 ## the raku study group
 
@@ -37,12 +37,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="orgd52ee24"></a>
+<a id="org2c06dbc"></a>
 
 ## topics
 
 
-<a id="org24c147b"></a>
+<a id="org95ac353"></a>
 
 ### the ever popular weekly challenge
 
@@ -59,9 +59,11 @@
     TASK #2: Maximum XOR
     
     You are given an array of integers. Write a script to find the highest value obtained by XORing any two distinct members of the array.
+    
+    <https://theweeklychallenge.org/blog/perl-weekly-challenge-204/>
 
 
-<a id="org7265984"></a>
+<a id="org612c5e6"></a>
 
 ### being a better raku citizen
 
@@ -82,23 +84,23 @@
         1.  <https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md>
 
 
-<a id="org1341615"></a>
+<a id="orga7ab98e"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="orge5bc5fe"></a>
+<a id="org1384323"></a>
 
 ## announcements
 
 
-<a id="orgdd6adcc"></a>
+<a id="orgd17c68d"></a>
 
 ### next meeting: February 26th
 
 
-<a id="org6e43b38"></a>
+<a id="org96e763c"></a>
 
 ### doc meeting:  jit.sy issues?

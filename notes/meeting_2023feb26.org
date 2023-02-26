@@ -28,6 +28,8 @@ TASK #2: Maximum XOR
 
 You are given an array of integers. Write a script to find the highest value obtained by XORing any two distinct members of the array.
 
+https://theweeklychallenge.org/blog/perl-weekly-challenge-204/
+
 
 *** being a better raku citizen
 **** lizmat reminds she needs advance notice of meeting schedule for 
