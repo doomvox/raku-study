@@ -19,15 +19,16 @@
 *** pod6
 
 *** IUP (rob) 
+***** https://en.wikipedia.org/wiki/IUP_(software)
+***** https://iup.sourceforge.net/
+***** https://raku.land/github:hankache/IUP
+
 **** mrhdias
 **** like simple gtk
 **** on top of gtk3, a c-library, lua
 **** similar to perltk
 **** lacks test framework
 
-***** https://en.wikipedia.org/wiki/IUP_(software)
-***** https://iup.sourceforge.net/
-***** https://raku.land/github:hankache/IUP
 
 
 *** the ever popular weekly challenge

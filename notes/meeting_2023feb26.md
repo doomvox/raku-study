@@ -1,22 +1,22 @@
-- [meeting notes February 26, 2023](#org8bad35e)
-  - [the raku study group](#org83b1406)
-  - [topics](#orge7a869d)
-    - [IPC (david)](#orgbf91915)
-    - [pod6](#org4328a55)
-    - [IUP (rob)](#orgfcc23bc)
-    - [the ever popular weekly challenge](#orgce259e9)
-    - [jj merelo raku recipies code examples](#org46ac183)
-  - [announcements](#orge79672f)
-    - [next meeting: March 5th](#org8cf07b8)
-    - [the meeting after the next: March 26th](#org9fc794a)
+- [meeting notes February 26, 2023](#org7bb7768)
+  - [the raku study group](#orgf67aa6c)
+  - [topics](#org50f5675)
+    - [IPC (david)](#org9119a39)
+    - [pod6](#org92e6748)
+    - [IUP (rob)](#orge1a8703)
+    - [the ever popular weekly challenge](#orgc618f55)
+    - [jj merelo raku recipies code examples](#orga651b0c)
+  - [announcements](#org7a7bdf9)
+    - [next meeting: March 5th](#org18353cb)
+    - [the meeting after the next: March 26th](#org880d521)
 
 
-<a id="org8bad35e"></a>
+<a id="org7bb7768"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="org83b1406"></a>
+<a id="orgf67aa6c"></a>
 
 ## the raku study group
 
@@ -39,26 +39,32 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="orge7a869d"></a>
+<a id="org50f5675"></a>
 
 ## topics
 
 
-<a id="orgbf91915"></a>
+<a id="org9119a39"></a>
 
 ### IPC (david)
 
 1.  stdout/stderr/stdin
 
 
-<a id="org4328a55"></a>
+<a id="org92e6748"></a>
 
 ### pod6
 
 
-<a id="orgfcc23bc"></a>
+<a id="orge1a8703"></a>
 
 ### IUP (rob)
+
+1.  <https://en.wikipedia.org/wiki/IUP_(software)>
+
+2.  <https://iup.sourceforge.net/>
+
+3.  <https://raku.land/github:hankache/IUP>
 
 1.  mrhdias
 
@@ -70,14 +76,8 @@
 
 5.  lacks test framework
 
-    1.  <https://en.wikipedia.org/wiki/IUP_(software)>
-    
-    2.  <https://iup.sourceforge.net/>
-    
-    3.  <https://raku.land/github:hankache/IUP>
 
-
-<a id="orgce259e9"></a>
+<a id="orgc618f55"></a>
 
 ### the ever popular weekly challenge
 
@@ -106,19 +106,19 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="org46ac183"></a>
+<a id="orga651b0c"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="orge79672f"></a>
+<a id="org7a7bdf9"></a>
 
 ## announcements
 
 
-<a id="org8cf07b8"></a>
+<a id="org18353cb"></a>
 
 ### next meeting: March 5th
 
@@ -127,6 +127,6 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="org9fc794a"></a>
+<a id="org880d521"></a>
 
 ### the meeting after the next: March 26th
