@@ -16,3 +16,4 @@ my $code_ref = $p5.run: q:to/END/;
    \&p5_data;
 END
 say $code_ref.(); # Expect to see: godzilla blob tingler kong dorisday
+                  # returns the *list*
