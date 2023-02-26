@@ -30,6 +30,19 @@ You are given an array of integers. Write a script to find the highest value obt
 
 https://theweeklychallenge.org/blog/perl-weekly-challenge-204/
 
+Task 1: Monotonic Array
+Submitted by: Mohammad S Anwar
+You are given an array of integers.
+
+Write a script to find out if the given array is Monotonic. Print 1 if it is otherwise 0.
+
+Task 2: Reshape Matrix
+Submitted by: Mohammad S Anwar
+
+You are given a matrix (m x n) and two integers (r) and (c).
+
+Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
+
 
 *** being a better raku citizen
 **** lizmat reminds she needs advance notice of meeting schedule for 

@@ -1,20 +1,20 @@
-- [meeting notes February 26, 2023](#org46511e5)
-  - [the raku study group](#org520eddf)
-  - [topics](#org2c06dbc)
-    - [the ever popular weekly challenge](#org95ac353)
-    - [being a better raku citizen](#org612c5e6)
-    - [jj merelo raku recipies code examples](#orga7ab98e)
-  - [announcements](#org1384323)
-    - [next meeting: February 26th](#orgd17c68d)
-    - [doc meeting:  jit.sy issues?](#org96e763c)
+- [meeting notes February 26, 2023](#org85e90fd)
+  - [the raku study group](#org2dd4577)
+  - [topics](#org7922c0f)
+    - [the ever popular weekly challenge](#org2a615c5)
+    - [being a better raku citizen](#org36cdf2c)
+    - [jj merelo raku recipies code examples](#org5a47e9d)
+  - [announcements](#org33df728)
+    - [next meeting: February 26th](#org09615d4)
+    - [doc meeting:  jit.sy issues?](#orge8c0196)
 
 
-<a id="org46511e5"></a>
+<a id="org85e90fd"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="org520eddf"></a>
+<a id="org2dd4577"></a>
 
 ## the raku study group
 
@@ -37,12 +37,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="org2c06dbc"></a>
+<a id="org7922c0f"></a>
 
 ## topics
 
 
-<a id="org95ac353"></a>
+<a id="org2a615c5"></a>
 
 ### the ever popular weekly challenge
 
@@ -61,9 +61,19 @@
     You are given an array of integers. Write a script to find the highest value obtained by XORing any two distinct members of the array.
     
     <https://theweeklychallenge.org/blog/perl-weekly-challenge-204/>
+    
+    Task 1: Monotonic Array Submitted by: Mohammad S Anwar You are given an array of integers.
+    
+    Write a script to find out if the given array is Monotonic. Print 1 if it is otherwise 0.
+    
+    Task 2: Reshape Matrix Submitted by: Mohammad S Anwar
+    
+    You are given a matrix (m x n) and two integers (r) and (c).
+    
+    Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="org612c5e6"></a>
+<a id="org36cdf2c"></a>
 
 ### being a better raku citizen
 
@@ -84,23 +94,23 @@
         1.  <https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md>
 
 
-<a id="orga7ab98e"></a>
+<a id="org5a47e9d"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org1384323"></a>
+<a id="org33df728"></a>
 
 ## announcements
 
 
-<a id="orgd17c68d"></a>
+<a id="org09615d4"></a>
 
 ### next meeting: February 26th
 
 
-<a id="org96e763c"></a>
+<a id="orge8c0196"></a>
 
 ### doc meeting:  jit.sy issues?
