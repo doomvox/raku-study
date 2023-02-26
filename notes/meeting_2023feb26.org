@@ -16,6 +16,10 @@
 *** IPC (david)
 **** stdout/stderr/stdin
 
+*** pod6
+
+*** IUP (rob) 
+
 *** the ever popular weekly challenge
 
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-203/

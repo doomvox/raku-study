@@ -1,20 +1,22 @@
-- [meeting notes February 26, 2023](#orgf3050fb)
-  - [the raku study group](#orgc8e07f8)
-  - [topics](#org2716e1c)
-    - [IPC (david)](#org9065a46)
-    - [the ever popular weekly challenge](#org0cc1b35)
-    - [jj merelo raku recipies code examples](#orgde66291)
-  - [announcements](#org64a0c31)
-    - [next meeting: March 5th](#org3b4e9c9)
-    - [the meeting after the next: March 26th](#org636e745)
+- [meeting notes February 26, 2023](#orgd142d9e)
+  - [the raku study group](#orgcb45105)
+  - [topics](#org0694a3c)
+    - [IPC (david)](#orgf2f0fd2)
+    - [pod6](#org5ed3131)
+    - [IUP (rob)](#orgc5126ab)
+    - [the ever popular weekly challenge](#org03b6d17)
+    - [jj merelo raku recipies code examples](#org363d4a6)
+  - [announcements](#org64502d8)
+    - [next meeting: March 5th](#org3ae3de0)
+    - [the meeting after the next: March 26th](#org5f7736e)
 
 
-<a id="orgf3050fb"></a>
+<a id="orgd142d9e"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="orgc8e07f8"></a>
+<a id="orgcb45105"></a>
 
 ## the raku study group
 
@@ -37,19 +39,29 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="org2716e1c"></a>
+<a id="org0694a3c"></a>
 
 ## topics
 
 
-<a id="org9065a46"></a>
+<a id="orgf2f0fd2"></a>
 
 ### IPC (david)
 
 1.  stdout/stderr/stdin
 
 
-<a id="org0cc1b35"></a>
+<a id="org5ed3131"></a>
+
+### pod6
+
+
+<a id="orgc5126ab"></a>
+
+### IUP (rob)
+
+
+<a id="org03b6d17"></a>
 
 ### the ever popular weekly challenge
 
@@ -78,19 +90,19 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="orgde66291"></a>
+<a id="org363d4a6"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org64a0c31"></a>
+<a id="org64502d8"></a>
 
 ## announcements
 
 
-<a id="org3b4e9c9"></a>
+<a id="org3ae3de0"></a>
 
 ### next meeting: March 5th
 
@@ -99,6 +111,6 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="org636e745"></a>
+<a id="org5f7736e"></a>
 
 ### the meeting after the next: March 26th
