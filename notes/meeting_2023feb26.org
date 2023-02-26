@@ -52,6 +52,9 @@
 **** https://github.com/Apress/raku-recipes
 
 
+*** new version of docs live:
+**** https://docs-dev.raku.org/
+
 ** announcements 
 *** next meeting: March 5th  
 **** that's an early one, only a week from now
