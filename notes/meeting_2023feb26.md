@@ -1,20 +1,20 @@
-- [meeting notes February 26, 2023](#orgce3c2c8)
-  - [the raku study group](#orgaf71c56)
-  - [topics](#orgc561164)
-    - [the ever popular weekly challenge](#org85fdede)
-    - [being a better raku citizen](#org5c5e166)
-    - [jj merelo raku recipies code examples](#org0651481)
-  - [announcements](#org74749cc)
-    - [next meeting: February 26th](#orgd072135)
-    - [doc meeting:  jit.sy issues?](#org8fd8a35)
+- [meeting notes February 26, 2023](#orgf1ce383)
+  - [the raku study group](#orgdc9e96a)
+  - [topics](#org053d711)
+    - [the ever popular weekly challenge](#orgd4da49d)
+    - [being a better raku citizen](#orgfc5d7cd)
+    - [jj merelo raku recipies code examples](#orgf7d4ddf)
+  - [announcements](#org8ac0f84)
+    - [next meeting: February 26th](#org968112f)
+    - [doc meeting:  jit.sy issues?](#org4bb5d6c)
 
 
-<a id="orgce3c2c8"></a>
+<a id="orgf1ce383"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="orgaf71c56"></a>
+<a id="orgdc9e96a"></a>
 
 ## the raku study group
 
@@ -37,12 +37,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="orgc561164"></a>
+<a id="org053d711"></a>
 
 ## topics
 
 
-<a id="org85fdede"></a>
+<a id="orgd4da49d"></a>
 
 ### the ever popular weekly challenge
 
@@ -69,7 +69,7 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="org5c5e166"></a>
+<a id="orgfc5d7cd"></a>
 
 ### being a better raku citizen
 
@@ -90,23 +90,23 @@
         1.  <https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md>
 
 
-<a id="org0651481"></a>
+<a id="orgf7d4ddf"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org74749cc"></a>
+<a id="org8ac0f84"></a>
 
 ## announcements
 
 
-<a id="orgd072135"></a>
+<a id="org968112f"></a>
 
 ### next meeting: February 26th
 
 
-<a id="org8fd8a35"></a>
+<a id="org4bb5d6c"></a>
 
 ### doc meeting:  jit.sy issues?
