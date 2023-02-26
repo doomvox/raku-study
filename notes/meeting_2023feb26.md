@@ -1,20 +1,20 @@
-- [meeting notes February 26, 2023](#org85e90fd)
-  - [the raku study group](#org2dd4577)
-  - [topics](#org7922c0f)
-    - [the ever popular weekly challenge](#org2a615c5)
-    - [being a better raku citizen](#org36cdf2c)
-    - [jj merelo raku recipies code examples](#org5a47e9d)
-  - [announcements](#org33df728)
-    - [next meeting: February 26th](#org09615d4)
-    - [doc meeting:  jit.sy issues?](#orge8c0196)
+- [meeting notes February 26, 2023](#orgb0ad4b8)
+  - [the raku study group](#org8d12758)
+  - [topics](#org2671664)
+    - [the ever popular weekly challenge](#org98dc859)
+    - [being a better raku citizen](#org64d5429)
+    - [jj merelo raku recipies code examples](#org30a2b12)
+  - [announcements](#org50c156c)
+    - [next meeting: February 26th](#orga616b27)
+    - [doc meeting:  jit.sy issues?](#org849e632)
 
 
-<a id="org85e90fd"></a>
+<a id="orgb0ad4b8"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="org2dd4577"></a>
+<a id="org8d12758"></a>
 
 ## the raku study group
 
@@ -37,43 +37,39 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="org7922c0f"></a>
+<a id="org2671664"></a>
 
 ## topics
 
 
-<a id="org2a615c5"></a>
+<a id="org98dc859"></a>
 
 ### the ever popular weekly challenge
 
-1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-201/>
+1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-205/>
 
-2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-202/>
+    1.  TASK #1: Third Highest
+    
+        1.  You are given an array of integers. Write a script to find out the Third Highest if found otherwise return the maximum.
+    
+    2.  TASK #2: Maximum XOR
+    
+        1.  You are given an array of integers. Write a script to find the highest value obtained by XORing any two distinct members of the array.
 
-    <https://theweeklychallenge.org/blog/perl-weekly-challenge-205/>
+2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-204/>
+
+    1.  Task 1: Monotonic Array
     
-    TASK #1: Third Highest
+        1.  You are given an array of integers. Write a script to find out if the given array is Monotonic. Print 1 if it is otherwise 0.
     
-    You are given an array of integers. Write a script to find out the Third Highest if found otherwise return the maximum.
+    2.  Task 2: Reshape Matrix
     
-    TASK #2: Maximum XOR
-    
-    You are given an array of integers. Write a script to find the highest value obtained by XORing any two distinct members of the array.
-    
-    <https://theweeklychallenge.org/blog/perl-weekly-challenge-204/>
-    
-    Task 1: Monotonic Array Submitted by: Mohammad S Anwar You are given an array of integers.
-    
-    Write a script to find out if the given array is Monotonic. Print 1 if it is otherwise 0.
-    
-    Task 2: Reshape Matrix Submitted by: Mohammad S Anwar
-    
-    You are given a matrix (m x n) and two integers (r) and (c).
-    
-    Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
+        1.  You are given a matrix (m x n) and two integers (r) and (c).
+        
+            Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="org36cdf2c"></a>
+<a id="org64d5429"></a>
 
 ### being a better raku citizen
 
@@ -94,23 +90,23 @@
         1.  <https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md>
 
 
-<a id="org5a47e9d"></a>
+<a id="org30a2b12"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org33df728"></a>
+<a id="org50c156c"></a>
 
 ## announcements
 
 
-<a id="org09615d4"></a>
+<a id="orga616b27"></a>
 
 ### next meeting: February 26th
 
 
-<a id="orge8c0196"></a>
+<a id="org849e632"></a>
 
 ### doc meeting:  jit.sy issues?
