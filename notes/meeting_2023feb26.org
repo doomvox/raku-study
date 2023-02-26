@@ -20,7 +20,8 @@
 
 *** IUP (rob) 
 **** mrhdias
-**** like gtk
+**** like simple gtk
+**** on top of gtk3, a c-library
 
 *** the ever popular weekly challenge
 
