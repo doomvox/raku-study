@@ -28,10 +28,14 @@
 ******* You are given a matrix (m x n) and two integers (r) and (c).
 ******* Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
+
 *** jj merelo raku recipies code examples
 **** https://github.com/Apress/raku-recipes
 
 
 ** announcements 
-*** next meeting: February 26th
-*** doc meeting:  jit.sy issues?  
+*** next meeting: March 5th  
+**** that's an early one, only a week from now
+**** I'm going to be out-of-town for March 12 & 19
+*** the meeting after the next: March 26th
+

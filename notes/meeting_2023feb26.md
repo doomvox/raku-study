@@ -1,19 +1,19 @@
-- [meeting notes February 26, 2023](#org2947893)
-  - [the raku study group](#orgddbb6de)
-  - [topics](#orgcb164e9)
-    - [the ever popular weekly challenge](#orgeee4cff)
-    - [jj merelo raku recipies code examples](#orgb46f1fa)
-  - [announcements](#org4a2ed59)
-    - [next meeting: February 26th](#orgb712335)
-    - [doc meeting:  jit.sy issues?](#orgcb08c27)
+- [meeting notes February 26, 2023](#org516d611)
+  - [the raku study group](#org6fd5d46)
+  - [topics](#org8e39b31)
+    - [the ever popular weekly challenge](#orgc6ec8d3)
+    - [jj merelo raku recipies code examples](#org37dc0d3)
+  - [announcements](#org8b2873d)
+    - [next meeting: March 5th](#org71b9628)
+    - [the meeting after the next: March 26th](#org81f3912)
 
 
-<a id="org2947893"></a>
+<a id="org516d611"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="orgddbb6de"></a>
+<a id="org6fd5d46"></a>
 
 ## the raku study group
 
@@ -36,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="orgcb164e9"></a>
+<a id="org8e39b31"></a>
 
 ## topics
 
 
-<a id="orgeee4cff"></a>
+<a id="orgc6ec8d3"></a>
 
 ### the ever popular weekly challenge
 
@@ -68,23 +68,27 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="orgb46f1fa"></a>
+<a id="org37dc0d3"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org4a2ed59"></a>
+<a id="org8b2873d"></a>
 
 ## announcements
 
 
-<a id="orgb712335"></a>
+<a id="org71b9628"></a>
 
-### next meeting: February 26th
+### next meeting: March 5th
+
+1.  that's an early one, only a week from now
+
+2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="orgcb08c27"></a>
+<a id="org81f3912"></a>
 
-### doc meeting:  jit.sy issues?
+### the meeting after the next: March 26th
