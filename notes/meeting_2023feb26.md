@@ -1,20 +1,20 @@
-- [meeting notes February 26, 2023](#org4c00eb5)
-  - [the raku study group](#org3c9c38d)
-  - [topics](#org4d919aa)
-    - [the ever popular weekly challenge](#org400b9be)
-    - [being a better raku citizen](#org6dae411)
-    - [jj merelo raku recipies code examples](#org7f1a68c)
-  - [announcements](#orgc46b256)
-    - [next meeting: February 26th](#org1cdadb5)
-    - [doc meeting:  jit.sy issues?](#org428f28b)
+- [meeting notes February 26, 2023](#org04058f1)
+  - [the raku study group](#orgbf8a01a)
+  - [topics](#orgd52ee24)
+    - [the ever popular weekly challenge](#org24c147b)
+    - [being a better raku citizen](#org7265984)
+    - [jj merelo raku recipies code examples](#org1341615)
+  - [announcements](#orge5bc5fe)
+    - [next meeting: February 26th](#orgdd6adcc)
+    - [doc meeting:  jit.sy issues?](#org6e43b38)
 
 
-<a id="org4c00eb5"></a>
+<a id="org04058f1"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="org3c9c38d"></a>
+<a id="orgbf8a01a"></a>
 
 ## the raku study group
 
@@ -37,12 +37,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="org4d919aa"></a>
+<a id="orgd52ee24"></a>
 
 ## topics
 
 
-<a id="org400b9be"></a>
+<a id="org24c147b"></a>
 
 ### the ever popular weekly challenge
 
@@ -50,8 +50,18 @@
 
 2.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-202/>
 
+    <https://theweeklychallenge.org/blog/perl-weekly-challenge-205/>
+    
+    TASK #1: Third Highest
+    
+    You are given an array of integers. Write a script to find out the Third Highest if found otherwise return the maximum.
+    
+    TASK #2: Maximum XOR
+    
+    You are given an array of integers. Write a script to find the highest value obtained by XORing any two distinct members of the array.
 
-<a id="org6dae411"></a>
+
+<a id="org7265984"></a>
 
 ### being a better raku citizen
 
@@ -72,23 +82,23 @@
         1.  <https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md>
 
 
-<a id="org7f1a68c"></a>
+<a id="org1341615"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="orgc46b256"></a>
+<a id="orge5bc5fe"></a>
 
 ## announcements
 
 
-<a id="org1cdadb5"></a>
+<a id="orgdd6adcc"></a>
 
 ### next meeting: February 26th
 
 
-<a id="org428f28b"></a>
+<a id="org6e43b38"></a>
 
 ### doc meeting:  jit.sy issues?

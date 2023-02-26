@@ -17,6 +17,18 @@
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-201/
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-202/
 
+
+https://theweeklychallenge.org/blog/perl-weekly-challenge-205/
+
+ TASK #1: Third Highest
+
+You are given an array of integers. Write a script to find out the Third Highest if found otherwise return the maximum.
+
+TASK #2: Maximum XOR
+
+You are given an array of integers. Write a script to find the highest value obtained by XORing any two distinct members of the array.
+
+
 *** being a better raku citizen
 **** lizmat reminds she needs advance notice of meeting schedule for 
 **** do we need a joint events calendar?
