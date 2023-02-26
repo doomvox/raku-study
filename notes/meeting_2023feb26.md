@@ -1,23 +1,23 @@
-- [meeting notes February 26, 2023](#org9db89b9)
-  - [the raku study group](#org5ff33db)
-  - [topics](#org53cbca4)
-    - [IPC (david)](#org91bf2e3)
-    - [pod6](#orgbb3bb35)
-    - [IUP (rob)](#org2727b6e)
-    - [the ever popular weekly challenge](#org7890711)
-    - [jj merelo raku recipies code examples](#orgf7797ca)
-    - [new version of docs live:](#orgba31bb2)
-  - [announcements](#org3950807)
-    - [next meeting: March 5th](#org19d8a76)
-    - [the meeting after the next: March 26th](#org0127e25)
+- [meeting notes February 26, 2023](#orgf4afca0)
+  - [the raku study group](#org4fbf944)
+  - [topics](#orgfbb044c)
+    - [IPC (david)](#org8f3cbc4)
+    - [pod6](#orgfac118a)
+    - [IUP (rob)](#org124a8bd)
+    - [the ever popular weekly challenge](#orgf24adc4)
+    - [jj merelo raku recipies code examples](#orgb5669a5)
+    - [new version of docs live:](#org7fd144e)
+  - [announcements](#org6285a27)
+    - [next meeting: March 5th](#orge6f227f)
+    - [the meeting after the next: March 26th](#org86662ef)
 
 
-<a id="org9db89b9"></a>
+<a id="orgf4afca0"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="org5ff33db"></a>
+<a id="org4fbf944"></a>
 
 ## the raku study group
 
@@ -40,24 +40,24 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="org53cbca4"></a>
+<a id="orgfbb044c"></a>
 
 ## topics
 
 
-<a id="org91bf2e3"></a>
+<a id="org8f3cbc4"></a>
 
 ### IPC (david)
 
 1.  stdout/stderr/stdin
 
 
-<a id="orgbb3bb35"></a>
+<a id="orgfac118a"></a>
 
 ### pod6
 
 
-<a id="org2727b6e"></a>
+<a id="org124a8bd"></a>
 
 ### IUP (rob)
 
@@ -78,7 +78,7 @@
 5.  lacks test framework
 
 
-<a id="org7890711"></a>
+<a id="orgf24adc4"></a>
 
 ### the ever popular weekly challenge
 
@@ -109,14 +109,14 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="orgf7797ca"></a>
+<a id="orgb5669a5"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="orgba31bb2"></a>
+<a id="org7fd144e"></a>
 
 ### new version of docs live:
 
@@ -124,13 +124,15 @@
 
 2.  <https://github.com/Raku/doc-website/discussions/138>
 
+3.  <https://github.com/Raku/doc-website/issues/124>
 
-<a id="org3950807"></a>
+
+<a id="org6285a27"></a>
 
 ## announcements
 
 
-<a id="org19d8a76"></a>
+<a id="orge6f227f"></a>
 
 ### next meeting: March 5th
 
@@ -139,6 +141,6 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="org0127e25"></a>
+<a id="org86662ef"></a>
 
 ### the meeting after the next: March 26th
