@@ -5,3 +5,17 @@
 use v6;
 
 
+use Inline::Perl5;                                             
+my $p5 = Inline::Perl5.new;                                    
+                                                               
+my $perl5_code = q:to/END/;                                    
+   sub p5_data {                                               
+      my @monsters = qw( godzilla blob tingler kong dorisday );
+      return @monsters;                                        
+   }                                                           
+                                                               
+   p5_data();                                                  
+END                                                            
+                                                               
+my @stuff = $p5.run: $perl5_code;                              
+say @stuff; # [5]      
