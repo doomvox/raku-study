@@ -17,5 +17,12 @@ my $perl5_code = q:to/END/;
    p5_data();                                                  
 END                                                            
                                                                
-my @stuff = $p5.run: $perl5_code;                              
-say @stuff; # [5]      
+{
+    my @stuff = $p5.run: $perl5_code;                              
+    say @stuff; # [5]      
+}
+
+{
+    my @stuff = $p5.call: $perl5_code;                              
+    say @stuff; # 
+}
