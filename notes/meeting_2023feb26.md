@@ -1,22 +1,22 @@
-- [meeting notes February 26, 2023](#orge80da43)
-  - [the raku study group](#orgc2b7c35)
-  - [topics](#orgc83da00)
-    - [IPC (david)](#org8bea3e8)
-    - [pod6](#org4aaf7f2)
-    - [IUP (rob)](#org863cda4)
-    - [the ever popular weekly challenge](#orgfba242a)
-    - [jj merelo raku recipies code examples](#orgb39277f)
-  - [announcements](#org037966d)
-    - [next meeting: March 5th](#org6a59344)
-    - [the meeting after the next: March 26th](#org39da12a)
+- [meeting notes February 26, 2023](#org7f7af8c)
+  - [the raku study group](#org83159e6)
+  - [topics](#orgdbd6762)
+    - [IPC (david)](#org7ca1020)
+    - [pod6](#org49c8d9b)
+    - [IUP (rob)](#org2c2b13b)
+    - [the ever popular weekly challenge](#orgdb5eb86)
+    - [jj merelo raku recipies code examples](#org046ef42)
+  - [announcements](#org9b84ba2)
+    - [next meeting: March 5th](#orgd171d4a)
+    - [the meeting after the next: March 26th](#orgf1082d3)
 
 
-<a id="orge80da43"></a>
+<a id="org7f7af8c"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="orgc2b7c35"></a>
+<a id="org83159e6"></a>
 
 ## the raku study group
 
@@ -39,24 +39,24 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="orgc83da00"></a>
+<a id="orgdbd6762"></a>
 
 ## topics
 
 
-<a id="org8bea3e8"></a>
+<a id="org7ca1020"></a>
 
 ### IPC (david)
 
 1.  stdout/stderr/stdin
 
 
-<a id="org4aaf7f2"></a>
+<a id="org49c8d9b"></a>
 
 ### pod6
 
 
-<a id="org863cda4"></a>
+<a id="org2c2b13b"></a>
 
 ### IUP (rob)
 
@@ -68,8 +68,10 @@
 
 4.  similar to perltk
 
+5.  lacks test framework
 
-<a id="orgfba242a"></a>
+
+<a id="orgdb5eb86"></a>
 
 ### the ever popular weekly challenge
 
@@ -98,19 +100,19 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="orgb39277f"></a>
+<a id="org046ef42"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org037966d"></a>
+<a id="org9b84ba2"></a>
 
 ## announcements
 
 
-<a id="org6a59344"></a>
+<a id="orgd171d4a"></a>
 
 ### next meeting: March 5th
 
@@ -119,6 +121,6 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="org39da12a"></a>
+<a id="orgf1082d3"></a>
 
 ### the meeting after the next: March 26th

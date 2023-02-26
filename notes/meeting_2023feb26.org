@@ -23,6 +23,7 @@
 **** like simple gtk
 **** on top of gtk3, a c-library, lua
 **** similar to perltk
+**** lacks test framework
 
 *** the ever popular weekly challenge
 
