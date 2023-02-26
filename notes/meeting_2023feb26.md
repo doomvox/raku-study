@@ -1,19 +1,20 @@
-- [meeting notes February 26, 2023](#org516d611)
-  - [the raku study group](#org6fd5d46)
-  - [topics](#org8e39b31)
-    - [the ever popular weekly challenge](#orgc6ec8d3)
-    - [jj merelo raku recipies code examples](#org37dc0d3)
-  - [announcements](#org8b2873d)
-    - [next meeting: March 5th](#org71b9628)
-    - [the meeting after the next: March 26th](#org81f3912)
+- [meeting notes February 26, 2023](#orgfa69d42)
+  - [the raku study group](#orge825b90)
+  - [topics](#orgba5a3d0)
+    - [IPC (david)](#org55ff05d)
+    - [the ever popular weekly challenge](#org5d22bdb)
+    - [jj merelo raku recipies code examples](#org84f4b51)
+  - [announcements](#orgf10c443)
+    - [next meeting: March 5th](#org5b1a4eb)
+    - [the meeting after the next: March 26th](#orgce22794)
 
 
-<a id="org516d611"></a>
+<a id="orgfa69d42"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="org6fd5d46"></a>
+<a id="orge825b90"></a>
 
 ## the raku study group
 
@@ -36,12 +37,19 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="org8e39b31"></a>
+<a id="orgba5a3d0"></a>
 
 ## topics
 
 
-<a id="orgc6ec8d3"></a>
+<a id="org55ff05d"></a>
+
+### IPC (david)
+
+1.  stdout/stderr/stdin
+
+
+<a id="org5d22bdb"></a>
 
 ### the ever popular weekly challenge
 
@@ -68,19 +76,19 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="org37dc0d3"></a>
+<a id="org84f4b51"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org8b2873d"></a>
+<a id="orgf10c443"></a>
 
 ## announcements
 
 
-<a id="org71b9628"></a>
+<a id="org5b1a4eb"></a>
 
 ### next meeting: March 5th
 
@@ -89,6 +97,6 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="org81f3912"></a>
+<a id="orgce22794"></a>
 
 ### the meeting after the next: March 26th
