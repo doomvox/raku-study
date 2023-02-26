@@ -1,20 +1,19 @@
-- [meeting notes February 26, 2023](#orgf1ce383)
-  - [the raku study group](#orgdc9e96a)
-  - [topics](#org053d711)
-    - [the ever popular weekly challenge](#orgd4da49d)
-    - [being a better raku citizen](#orgfc5d7cd)
-    - [jj merelo raku recipies code examples](#orgf7d4ddf)
-  - [announcements](#org8ac0f84)
-    - [next meeting: February 26th](#org968112f)
-    - [doc meeting:  jit.sy issues?](#org4bb5d6c)
+- [meeting notes February 26, 2023](#org2947893)
+  - [the raku study group](#orgddbb6de)
+  - [topics](#orgcb164e9)
+    - [the ever popular weekly challenge](#orgeee4cff)
+    - [jj merelo raku recipies code examples](#orgb46f1fa)
+  - [announcements](#org4a2ed59)
+    - [next meeting: February 26th](#orgb712335)
+    - [doc meeting:  jit.sy issues?](#orgcb08c27)
 
 
-<a id="orgf1ce383"></a>
+<a id="org2947893"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="orgdc9e96a"></a>
+<a id="orgddbb6de"></a>
 
 ## the raku study group
 
@@ -37,12 +36,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="org053d711"></a>
+<a id="orgcb164e9"></a>
 
 ## topics
 
 
-<a id="orgd4da49d"></a>
+<a id="orgeee4cff"></a>
 
 ### the ever popular weekly challenge
 
@@ -69,44 +68,23 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="orgfc5d7cd"></a>
-
-### being a better raku citizen
-
-1.  lizmat reminds she needs advance notice of meeting schedule for
-
-2.  do we need a joint events calendar?
-
-3.  irc
-
-4.  vadim class
-
-5.  marton meetings on docs
-
-    1.  first one was yesterday
-    
-    2.  squashathon
-    
-        1.  <https://github.com/2colours/Raku-ideas/blob/main/Squashathon%20reborn.md>
-
-
-<a id="orgf7d4ddf"></a>
+<a id="orgb46f1fa"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org8ac0f84"></a>
+<a id="org4a2ed59"></a>
 
 ## announcements
 
 
-<a id="org968112f"></a>
+<a id="orgb712335"></a>
 
 ### next meeting: February 26th
 
 
-<a id="org4bb5d6c"></a>
+<a id="orgcb08c27"></a>
 
 ### doc meeting:  jit.sy issues?
