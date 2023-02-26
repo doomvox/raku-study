@@ -16,7 +16,7 @@
 *** IPC (david)
 **** stdout/stderr/stdin
 
-**** CAP vids
+**** CAP vids from Jonathan Worthington
 ***** 8 ways to do concurrency and parallelism in Perl 6
 ****** https://www.youtube.com/watch?v=l2fSbOPeSQs
 

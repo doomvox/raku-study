@@ -1,24 +1,24 @@
-- [meeting notes February 26, 2023](#org1888faa)
-  - [the raku study group](#org8e06a61)
-  - [topics](#org29e018a)
-    - [IPC (david)](#orgb61737a)
-    - [pod6](#orgf1e5f39)
-    - [IUP (rob)](#org1ee7bc3)
-    - [the ever popular weekly challenge](#orgc026bee)
-    - [jj merelo raku recipies code examples](#org77ac6df)
-    - [new version of docs live:](#orgdb52855)
-    - [<https://github.com/Raku/doc-website/issues/124>](#orgb50086e)
-  - [announcements](#org5accba3)
-    - [next meeting: March 5th](#org2f7d880)
-    - [the meeting after the next: March 26th](#orgf1426f2)
+- [meeting notes February 26, 2023](#org0df5047)
+  - [the raku study group](#org3e86591)
+  - [topics](#orgaf5843f)
+    - [IPC (david)](#org193b2e3)
+    - [pod6](#orgf1fe9a2)
+    - [IUP (rob)](#orgfb1105f)
+    - [the ever popular weekly challenge](#orgabe6ce7)
+    - [jj merelo raku recipies code examples](#orgc84943f)
+    - [new version of docs live:](#org23b6b3b)
+    - [<https://github.com/Raku/doc-website/issues/124>](#org44ac4bf)
+  - [announcements](#orge3d4c8b)
+    - [next meeting: March 5th](#org7bf2e53)
+    - [the meeting after the next: March 26th](#orge5660f6)
 
 
-<a id="org1888faa"></a>
+<a id="org0df5047"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="org8e06a61"></a>
+<a id="org3e86591"></a>
 
 ## the raku study group
 
@@ -41,18 +41,18 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="org29e018a"></a>
+<a id="orgaf5843f"></a>
 
 ## topics
 
 
-<a id="orgb61737a"></a>
+<a id="org193b2e3"></a>
 
 ### IPC (david)
 
 1.  stdout/stderr/stdin
 
-2.  CAP vids
+2.  CAP vids from Jonathan Worthington
 
     1.  8 ways to do concurrency and parallelism in Perl 6
     
@@ -63,12 +63,12 @@
         1.  <https://www.youtube.com/watch?v=JpqnNCx7wVY>
 
 
-<a id="orgf1e5f39"></a>
+<a id="orgf1fe9a2"></a>
 
 ### pod6
 
 
-<a id="org1ee7bc3"></a>
+<a id="orgfb1105f"></a>
 
 ### IUP (rob)
 
@@ -89,7 +89,7 @@
 5.  lacks test framework
 
 
-<a id="orgc026bee"></a>
+<a id="orgabe6ce7"></a>
 
 ### the ever popular weekly challenge
 
@@ -120,14 +120,14 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="org77ac6df"></a>
+<a id="orgc84943f"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="orgdb52855"></a>
+<a id="org23b6b3b"></a>
 
 ### new version of docs live:
 
@@ -136,17 +136,17 @@
 2.  <https://github.com/Raku/doc-website/discussions/138>\*
 
 
-<a id="orgb50086e"></a>
+<a id="org44ac4bf"></a>
 
 ### <https://github.com/Raku/doc-website/issues/124>
 
 
-<a id="org5accba3"></a>
+<a id="orge3d4c8b"></a>
 
 ## announcements
 
 
-<a id="org2f7d880"></a>
+<a id="org7bf2e53"></a>
 
 ### next meeting: March 5th
 
@@ -155,6 +155,6 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="orgf1426f2"></a>
+<a id="orge5660f6"></a>
 
 ### the meeting after the next: March 26th
