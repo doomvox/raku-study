@@ -22,7 +22,7 @@
 **** mrhdias
 **** like simple gtk
 **** on top of gtk3, a c-library, lua
-**** similar to perl5k
+**** similar to perltk
 
 *** the ever popular weekly challenge
 
