@@ -71,10 +71,10 @@ my $rc = system("zfs whatever 2>&1 | tee $tempfile");`
 **** https://github.com/Apress/raku-recipes
 
 
-*** new version of docs live:
-**** https://docs-dev.raku.org/
+*** new version of docs going live:
+**** was: https://docs-dev.raku.org/
 **** https://github.com/Raku/doc-website/discussions/138*
-*** https://github.com/Raku/doc-website/issues/124
+**** https://github.com/Raku/doc-website/issues/124
 
 ** announcements 
 *** next meeting: March 5th  
