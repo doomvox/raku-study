@@ -28,7 +28,7 @@
 **** https://raku.land/cpan:NINE/Inline::Perl5
 
 **** #+BEGIN_SRC cperl
-print "hello";
+my $rc = system("zfs whatever 2>&1 | tee $tempfile");`
 **** #+END_SRC
 
 *** pod6
