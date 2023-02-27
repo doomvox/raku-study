@@ -25,6 +25,7 @@
 
 **** https://perldoc.perl.org/perlipc
 **** https://new-raku.finanalyst.org/language/ipc.html
+**** https://raku.land/cpan:NINE/Inline::Perl5
 
 *** pod6
 

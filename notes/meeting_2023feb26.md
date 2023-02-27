@@ -1,25 +1,25 @@
-- [meeting notes February 26, 2023](#orgef1250e)
-  - [the raku study group](#org4a2aa54)
-  - [topics](#org911807d)
-    - [IPC (david)](#org74c31d4)
-    - [pod6](#org52bdeee)
-    - [IUP (rob)](#orgd988172)
-    - [the ever popular weekly challenge](#orgf8bec64)
-    - [jj merelo raku recipies code examples](#org626b570)
-    - [new version of docs live:](#org456cf63)
-    - [<https://github.com/Raku/doc-website/issues/124>](#org6f5b2bf)
-  - [announcements](#org9241b52)
-    - [next meeting: March 5th](#orgf1c3f65)
-    - [the meeting after the next: March 26th](#orgc346780)
-    - [perl & raku conference (formerly yapc) in toronto&#x2013; july 11th-13th](#org8e7694f)
+- [meeting notes February 26, 2023](#org25e0ac6)
+  - [the raku study group](#orgb4e4010)
+  - [topics](#orgcce9ca5)
+    - [IPC (david)](#org29dcefe)
+    - [pod6](#orgcb46eb8)
+    - [IUP (rob)](#orgb540f42)
+    - [the ever popular weekly challenge](#org88c6316)
+    - [jj merelo raku recipies code examples](#orgb3421a3)
+    - [new version of docs live:](#org0388c88)
+    - [<https://github.com/Raku/doc-website/issues/124>](#org2c98c2d)
+  - [announcements](#org55b7489)
+    - [next meeting: March 5th](#org54a491e)
+    - [the meeting after the next: March 26th](#org828c81c)
+    - [perl & raku conference (formerly yapc) in toronto&#x2013; july 11th-13th](#org5854375)
 
 
-<a id="orgef1250e"></a>
+<a id="org25e0ac6"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="org4a2aa54"></a>
+<a id="orgb4e4010"></a>
 
 ## the raku study group
 
@@ -42,12 +42,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="org911807d"></a>
+<a id="orgcce9ca5"></a>
 
 ## topics
 
 
-<a id="org74c31d4"></a>
+<a id="org29dcefe"></a>
 
 ### IPC (david)
 
@@ -67,13 +67,15 @@
 
 4.  <https://new-raku.finanalyst.org/language/ipc.html>
 
+5.  <https://raku.land/cpan:NINE/Inline::Perl5>
 
-<a id="org52bdeee"></a>
+
+<a id="orgcb46eb8"></a>
 
 ### pod6
 
 
-<a id="orgd988172"></a>
+<a id="orgb540f42"></a>
 
 ### IUP (rob)
 
@@ -104,7 +106,7 @@
             2.  Currently GNOME and GTK+ applications are supported, as well as KDE and QT applications.
 
 
-<a id="orgf8bec64"></a>
+<a id="org88c6316"></a>
 
 ### the ever popular weekly challenge
 
@@ -135,14 +137,14 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="org626b570"></a>
+<a id="orgb3421a3"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org456cf63"></a>
+<a id="org0388c88"></a>
 
 ### new version of docs live:
 
@@ -151,17 +153,17 @@
 2.  <https://github.com/Raku/doc-website/discussions/138>\*
 
 
-<a id="org6f5b2bf"></a>
+<a id="org2c98c2d"></a>
 
 ### <https://github.com/Raku/doc-website/issues/124>
 
 
-<a id="org9241b52"></a>
+<a id="org55b7489"></a>
 
 ## announcements
 
 
-<a id="orgf1c3f65"></a>
+<a id="org54a491e"></a>
 
 ### next meeting: March 5th
 
@@ -170,12 +172,12 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="orgc346780"></a>
+<a id="org828c81c"></a>
 
 ### the meeting after the next: March 26th
 
 
-<a id="org8e7694f"></a>
+<a id="org5854375"></a>
 
 ### perl & raku conference (formerly yapc) in toronto&#x2013; july 11th-13th
 
