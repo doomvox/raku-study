@@ -23,7 +23,6 @@
 ***** Parallelism, Concurrency, and Asynchrony in Perl 6
 ****** https://www.youtube.com/watch?v=JpqnNCx7wVY
 
-
 *** pod6
 
 *** IUP (rob) 
