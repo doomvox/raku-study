@@ -27,6 +27,10 @@
 **** https://new-raku.finanalyst.org/language/ipc.html
 **** https://raku.land/cpan:NINE/Inline::Perl5
 
+**** #+BEGIN_SRC cperl
+print "hello";
+**** #+END_SRC
+
 *** pod6
 
 *** IUP (rob) 
