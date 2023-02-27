@@ -34,6 +34,11 @@
 **** on top of gtk3, a c-library, lua
 **** similar to perltk
 **** lacks test framework
+***** dogtail for gui testing
+****** https://gitlab.com/dogtail/dogtail/
+****** Bruce Gray:
+******* dogtail is a GUI test tool and automation framework written in Python. It uses Accessibility (a11y) technologies to communicate with desktop applications. dogtail scripts are written in Python and executed like any other Python program.
+******* Currently GNOME and GTK+ applications are supported, as well as KDE and QT applications.
 
 *** the ever popular weekly challenge
 

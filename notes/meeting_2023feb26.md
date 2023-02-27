@@ -1,25 +1,25 @@
-- [meeting notes February 26, 2023](#org500f1e3)
-  - [the raku study group](#org3e32236)
-  - [topics](#orgfed2afe)
-    - [IPC (david)](#orgdefed27)
-    - [pod6](#orgaab2ea7)
-    - [IUP (rob)](#orgaa64a80)
-    - [the ever popular weekly challenge](#orgd8ccd09)
-    - [jj merelo raku recipies code examples](#org3cdf390)
-    - [new version of docs live:](#orgb322384)
-    - [<https://github.com/Raku/doc-website/issues/124>](#org79f3cca)
-  - [announcements](#org924eace)
-    - [next meeting: March 5th](#org6ba09fc)
-    - [the meeting after the next: March 26th](#orge3e7c07)
-    - [perl & raku conference (formerly yapc) in toronto&#x2013; july 11th-13th](#org81ed864)
+- [meeting notes February 26, 2023](#orgd464934)
+  - [the raku study group](#orged503c9)
+  - [topics](#org6e049e7)
+    - [IPC (david)](#org097c4e9)
+    - [pod6](#org8d7cd9b)
+    - [IUP (rob)](#org4048dd9)
+    - [the ever popular weekly challenge](#org4cb7db8)
+    - [jj merelo raku recipies code examples](#org5e541ee)
+    - [new version of docs live:](#orgb1afd25)
+    - [<https://github.com/Raku/doc-website/issues/124>](#org4397bef)
+  - [announcements](#org94e9f41)
+    - [next meeting: March 5th](#org6c506cd)
+    - [the meeting after the next: March 26th](#org23794c7)
+    - [perl & raku conference (formerly yapc) in toronto&#x2013; july 11th-13th](#org373e99d)
 
 
-<a id="org500f1e3"></a>
+<a id="orgd464934"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="org3e32236"></a>
+<a id="orged503c9"></a>
 
 ## the raku study group
 
@@ -42,12 +42,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="orgfed2afe"></a>
+<a id="org6e049e7"></a>
 
 ## topics
 
 
-<a id="orgdefed27"></a>
+<a id="org097c4e9"></a>
 
 ### IPC (david)
 
@@ -64,12 +64,12 @@
         1.  <https://www.youtube.com/watch?v=JpqnNCx7wVY>
 
 
-<a id="orgaab2ea7"></a>
+<a id="org8d7cd9b"></a>
 
 ### pod6
 
 
-<a id="orgaa64a80"></a>
+<a id="org4048dd9"></a>
 
 ### IUP (rob)
 
@@ -89,8 +89,18 @@
 
 5.  lacks test framework
 
+    1.  dogtail for gui testing
+    
+        1.  <https://gitlab.com/dogtail/dogtail/>
+        
+        2.  Bruce Gray:
+        
+            1.  dogtail is a GUI test tool and automation framework written in Python. It uses Accessibility (a11y) technologies to communicate with desktop applications. dogtail scripts are written in Python and executed like any other Python program.
+            
+            2.  Currently GNOME and GTK+ applications are supported, as well as KDE and QT applications.
 
-<a id="orgd8ccd09"></a>
+
+<a id="org4cb7db8"></a>
 
 ### the ever popular weekly challenge
 
@@ -121,14 +131,14 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="org3cdf390"></a>
+<a id="org5e541ee"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="orgb322384"></a>
+<a id="orgb1afd25"></a>
 
 ### new version of docs live:
 
@@ -137,17 +147,17 @@
 2.  <https://github.com/Raku/doc-website/discussions/138>\*
 
 
-<a id="org79f3cca"></a>
+<a id="org4397bef"></a>
 
 ### <https://github.com/Raku/doc-website/issues/124>
 
 
-<a id="org924eace"></a>
+<a id="org94e9f41"></a>
 
 ## announcements
 
 
-<a id="org6ba09fc"></a>
+<a id="org6c506cd"></a>
 
 ### next meeting: March 5th
 
@@ -156,12 +166,12 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="orge3e7c07"></a>
+<a id="org23794c7"></a>
 
 ### the meeting after the next: March 26th
 
 
-<a id="org81ed864"></a>
+<a id="org373e99d"></a>
 
 ### perl & raku conference (formerly yapc) in toronto&#x2013; july 11th-13th
 
