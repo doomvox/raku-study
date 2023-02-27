@@ -1,25 +1,25 @@
-- [meeting notes February 26, 2023](#org4fd3800)
-  - [the raku study group](#org3a03d5e)
-  - [topics](#org87c3159)
-    - [IPC (david)](#orgefb1bf9)
-    - [pod6](#orgd7e0070)
-    - [IUP (rob)](#orge793439)
-    - [the ever popular weekly challenge](#org0bccdfd)
-    - [jj merelo raku recipies code examples](#orgc03ccdd)
-    - [new version of docs live:](#org66a07f7)
-    - [<https://github.com/Raku/doc-website/issues/124>](#orgb10990a)
-  - [announcements](#org869a9fc)
-    - [next meeting: March 5th](#org62f0d86)
-    - [the meeting after the next: March 26th](#orgb5fa146)
-    - [conference in toronto&#x2013; july 11th-13th](#org3850f82)
+- [meeting notes February 26, 2023](#orgc69a3de)
+  - [the raku study group](#orgd11c655)
+  - [topics](#org287b1f4)
+    - [IPC (david)](#org9ab69be)
+    - [pod6](#org75c5d9e)
+    - [IUP (rob)](#orgcba468a)
+    - [the ever popular weekly challenge](#org4b79ebf)
+    - [jj merelo raku recipies code examples](#org155e7e6)
+    - [new version of docs live:](#orgd793cba)
+    - [<https://github.com/Raku/doc-website/issues/124>](#orgb38ed6e)
+  - [announcements](#org0ef6699)
+    - [next meeting: March 5th](#orgab49b72)
+    - [the meeting after the next: March 26th](#orgd0c8d3d)
+    - [conference in toronto&#x2013; july 11th-13th](#org3226612)
 
 
-<a id="org4fd3800"></a>
+<a id="orgc69a3de"></a>
 
 # meeting notes February 26, 2023
 
 
-<a id="org3a03d5e"></a>
+<a id="orgd11c655"></a>
 
 ## the raku study group
 
@@ -42,12 +42,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb12.md>
 
 
-<a id="org87c3159"></a>
+<a id="org287b1f4"></a>
 
 ## topics
 
 
-<a id="orgefb1bf9"></a>
+<a id="org9ab69be"></a>
 
 ### IPC (david)
 
@@ -64,12 +64,12 @@
         1.  <https://www.youtube.com/watch?v=JpqnNCx7wVY>
 
 
-<a id="orgd7e0070"></a>
+<a id="org75c5d9e"></a>
 
 ### pod6
 
 
-<a id="orge793439"></a>
+<a id="orgcba468a"></a>
 
 ### IUP (rob)
 
@@ -90,7 +90,7 @@
 5.  lacks test framework
 
 
-<a id="org0bccdfd"></a>
+<a id="org4b79ebf"></a>
 
 ### the ever popular weekly challenge
 
@@ -121,14 +121,14 @@
         2.  Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
 
 
-<a id="orgc03ccdd"></a>
+<a id="org155e7e6"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org66a07f7"></a>
+<a id="orgd793cba"></a>
 
 ### new version of docs live:
 
@@ -137,17 +137,17 @@
 2.  <https://github.com/Raku/doc-website/discussions/138>\*
 
 
-<a id="orgb10990a"></a>
+<a id="orgb38ed6e"></a>
 
 ### <https://github.com/Raku/doc-website/issues/124>
 
 
-<a id="org869a9fc"></a>
+<a id="org0ef6699"></a>
 
 ## announcements
 
 
-<a id="org62f0d86"></a>
+<a id="orgab49b72"></a>
 
 ### next meeting: March 5th
 
@@ -156,13 +156,13 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="orgb5fa146"></a>
+<a id="orgd0c8d3d"></a>
 
 ### the meeting after the next: March 26th
 
 
-<a id="org3850f82"></a>
+<a id="org3226612"></a>
 
 ### conference in toronto&#x2013; july 11th-13th
 
-1.  airport downtown
+1.  airport downtown, "porter" flies in
