@@ -23,6 +23,9 @@
 ***** Parallelism, Concurrency, and Asynchrony in Perl 6
 ****** https://www.youtube.com/watch?v=JpqnNCx7wVY
 
+**** https://perldoc.perl.org/perlipc
+**** https://new-raku.finanalyst.org/language/ipc.html
+
 *** pod6
 
 *** IUP (rob) 
