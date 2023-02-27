@@ -68,6 +68,6 @@
 **** that's an early one, only a week from now
 **** I'm going to be out-of-town for March 12 & 19
 *** the meeting after the next: March 26th
-*** conference in toronto-- july 11th-13th
-**** airport downtown, "porter" flies in
+*** perl & raku conference (formerly yapc) in toronto-- july 11th-13th
+**** airport downtown, "porter" flies in (alan is 3km away).
 
