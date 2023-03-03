@@ -35,8 +35,6 @@
 *** jj merelo raku recipies code examples
 **** https://github.com/Apress/raku-recipes
 
-
-
 ** announcements 
 *** next meeting: March 26th
 **** skipping two weeks this time

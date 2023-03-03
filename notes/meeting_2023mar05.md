@@ -1,21 +1,21 @@
-- [meeting notes March 5, 2023](#org51ddf4e)
-  - [the raku study group](#org19c4052)
-  - [topics](#org2b06c97)
-    - [IPC (david)](#org7245fe6)
-    - [pod6](#org03c943f)
-    - [the ever popular weekly challenge](#orgcd8e695)
-    - [jj merelo raku recipies code examples](#orgf19c94c)
-  - [announcements](#org7c24d04)
-    - [next meeting: March 26th](#orgdde1c57)
-    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#org61c433e)
+- [meeting notes March 5, 2023](#orgbbbc33b)
+  - [the raku study group](#org4f95235)
+  - [topics](#orgb551713)
+    - [IPC (david)](#orge9e9af8)
+    - [pod6](#org7319759)
+    - [the ever popular weekly challenge](#org51a7c82)
+    - [jj merelo raku recipies code examples](#orgff7b796)
+  - [announcements](#org0d37c7d)
+    - [next meeting: March 26th](#orgdf800e8)
+    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#org26324fc)
 
 
-<a id="org51ddf4e"></a>
+<a id="orgbbbc33b"></a>
 
 # meeting notes March 5, 2023
 
 
-<a id="org19c4052"></a>
+<a id="org4f95235"></a>
 
 ## the raku study group
 
@@ -38,12 +38,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb26.md>
 
 
-<a id="org2b06c97"></a>
+<a id="orgb551713"></a>
 
 ## topics
 
 
-<a id="org7245fe6"></a>
+<a id="orge9e9af8"></a>
 
 ### IPC (david)
 
@@ -60,31 +60,31 @@
         1.  <https://www.youtube.com/watch?v=JpqnNCx7wVY>
 
 
-<a id="org03c943f"></a>
+<a id="org7319759"></a>
 
 ### pod6
 
 
-<a id="orgcd8e695"></a>
+<a id="org51a7c82"></a>
 
 ### the ever popular weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-206/>
 
 
-<a id="orgf19c94c"></a>
+<a id="orgff7b796"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org7c24d04"></a>
+<a id="org0d37c7d"></a>
 
 ## announcements
 
 
-<a id="orgdde1c57"></a>
+<a id="orgdf800e8"></a>
 
 ### next meeting: March 26th
 
@@ -93,6 +93,6 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="org61c433e"></a>
+<a id="org26324fc"></a>
 
 ### perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
