@@ -42,6 +42,6 @@
 **** skipping two weeks this time
 **** I'm going to be out-of-town for March 12 & 19
 
-*** perl & raku conference (formerly yapc) in toronto-- july 11th-13th
+*** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
 **** airport downtown, "porter" flies in (alan is 3km away).
 
