@@ -26,54 +26,22 @@
 
 *** pod6
 
-*** IUP (rob) 
-***** https://en.wikipedia.org/wiki/IUP_(software)
-***** https://iup.sourceforge.net/
-***** https://raku.land/github:hankache/IUP
-**** mrhdias
-**** like simple gtk
-**** on top of gtk3, a c-library, lua
-**** similar to perltk
-**** lacks test framework
-***** dogtail for gui testing
-****** https://gitlab.com/dogtail/dogtail/
-****** Bruce Gray:
-******* dogtail is a GUI test tool and automation framework written in Python. It uses Accessibility (a11y) technologies to communicate with desktop applications. dogtail scripts are written in Python and executed like any other Python program.
-******* Currently GNOME and GTK+ applications are supported, as well as KDE and QT applications.
 
 *** the ever popular weekly challenge
 
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-203/
-
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-205/
-****** TASK #1: Third Highest
-******* You are given an array of integers. Write a script to find out the Third Highest if found otherwise return the maximum.
-****** TASK #2: Maximum XOR
-******* You are given an array of integers. Write a script to find the highest value obtained by XORing any two distinct members of the array.
-****** bruce
-
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-204/
-****** Task 1: Monotonic Array
-******* You are given an array of integers. Write a script to find out if the given array is Monotonic. Print 1 if it is otherwise 0.
-****** Task 2: Reshape Matrix
-******* You are given a matrix (m x n) and two integers (r) and (c).
-******* Write a script to reshape the given matrix in form (r x c) with the original value in the given matrix. If you can’t reshape print 0.
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-206/
 
 
 *** jj merelo raku recipies code examples
 **** https://github.com/Apress/raku-recipes
 
 
-*** new version of docs going live:
-**** was: https://docs-dev.raku.org/
-**** https://github.com/Raku/doc-website/discussions/138*
-**** https://github.com/Raku/doc-website/issues/124
 
 ** announcements 
-*** next meeting: March 5th  
-**** that's an early one, only a week from now
+*** next meeting: March 26th
+**** skipping two weeks this time
 **** I'm going to be out-of-town for March 12 & 19
-*** the meeting after the next: March 26th
+
 *** perl & raku conference (formerly yapc) in toronto-- july 11th-13th
 **** airport downtown, "porter" flies in (alan is 3km away).
 
