@@ -23,16 +23,6 @@
 ***** Parallelism, Concurrency, and Asynchrony in Perl 6
 ****** https://www.youtube.com/watch?v=JpqnNCx7wVY
 
-**** https://perldoc.perl.org/perlipc
-**** https://new-raku.finanalyst.org/language/ipc.html
-**** https://raku.land/cpan:NINE/Inline::Perl5
-
-**** #+BEGIN_SRC cperl
-my $rc = system("zfs whatever 2>&1 | tee $tempfile");`
-**** #+END_SRC
-*** raku installation on MacOS
-**** https://ports.macports.org/port/rakudo/details/
-**** https://rakubrew.org/?platform=macos
 
 *** pod6
 
