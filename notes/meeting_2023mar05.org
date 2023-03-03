@@ -26,7 +26,6 @@
 
 *** pod6
 
-
 *** the ever popular weekly challenge
 
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-206/
