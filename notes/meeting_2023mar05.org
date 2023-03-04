@@ -34,6 +34,11 @@
 *** jj merelo raku recipies code examples
 **** https://github.com/Apress/raku-recipes
 
+*** modules.raku.org refurbishment (Márton)
+**** purely a personal idea
+**** mostly written in Mojolicious - nobody is interested in maintenance
+**** switching to something with Raku would be great
+
 ** announcements 
 *** next meeting: March 26th
 **** skipping two weeks this time
