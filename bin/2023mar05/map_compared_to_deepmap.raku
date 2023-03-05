@@ -14,6 +14,14 @@ my @data = (
 
 # If you want to add 10 to the numeric value and preserve the string name, 
 
-my @new_data = @data.map({$_ ~~ Numeric ?? $_+10 !! $_ });
+{
+    my @new_data = @data.map({$_ ~~ Numeric ?? $_+10 !! $_ });
+    say @new_data;
+    # [{name => alpha, val => 1} {name => beta, val => 2} {name => gamma, val => 3} {name => delta, val => 4}]
+}
 
-say @new_data;
+{
+    my @new_data = @data.map({$_.keys ~~ Numeric ?? $_+10 !! $_ });
+    say @new_data;
+
+}
