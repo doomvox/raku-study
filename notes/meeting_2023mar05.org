@@ -13,15 +13,17 @@
 
 ** topics
 
-*** IPC (david)
-**** stdout/stderr/stdin
-
+*** CAP
 **** CAP vids from Jonathan Worthington
 ***** 8 ways to do concurrency and parallelism in Perl 6
 ****** https://www.youtube.com/watch?v=l2fSbOPeSQs
 
 ***** Parallelism, Concurrency, and Asynchrony in Perl 6
 ****** https://www.youtube.com/watch?v=JpqnNCx7wVY
+
+**** david pick, erlang video on concurrency
+***** https://www.youtube.com/playlist?list=PLR812eVbehlwq4qbqswOWH7NLKjodnTIn
+
 
 
 *** pod6
