@@ -80,6 +80,11 @@
 
 1.  <https://github.com/Apress/raku-recipes>
 
+### modules.raku.org refurbishment (Márton)
+1. purely a personal idea
+2. mostly written in Mojolicious - nobody is interested in maintenance
+3. switching to something with Raku would be great
+
 
 <a id="orgfc6127d"></a>
 
