@@ -1,40 +1,40 @@
-- [meeting notes March 16, 2023](#org5aa0dae)
-    - [jj merelo raku recipies code examples](#org88ca640)
-    - [the ever popular weekly challenge](#org8402f35)
-  - [announcements](#org300316c)
-    - [next meeting: March 26th](#org56715d7)
-    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#orgebf19ac)
+- [meeting notes March 26, 2023](#org5a5917d)
+    - [jj merelo raku recipies code examples](#orgc479399)
+    - [the ever popular weekly challenge](#orge5a43f1)
+  - [announcements](#org920e39b)
+    - [next meeting: March 26th](#org6da04d6)
+    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#org3ca1ef5)
 
 
-<a id="org5aa0dae"></a>
+<a id="org5a5917d"></a>
 
-# meeting notes March 16, 2023
+# meeting notes March 26, 2023
 
 
-<a id="org88ca640"></a>
+<a id="orgc479399"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="org8402f35"></a>
+<a id="orge5a43f1"></a>
 
 ### the ever popular weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-206/>
 
 
-<a id="org300316c"></a>
+<a id="org920e39b"></a>
 
 ## announcements
 
 
-<a id="org56715d7"></a>
+<a id="org6da04d6"></a>
 
 ### next meeting: March 26th
 
 
-<a id="orgebf19ac"></a>
+<a id="org3ca1ef5"></a>
 
 ### perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
