@@ -44,7 +44,7 @@
 
 *** modules.raku.org refurbishment (Márton)
 **** purely a personal idea
-**** mostly written in Mojolicious - nobody is interested in maintenance
+**** mostly written in Mojolicious-- nobody is interested in maintenance
 **** switching to something with Raku would be great
 
 
