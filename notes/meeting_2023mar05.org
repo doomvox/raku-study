@@ -39,8 +39,6 @@
 
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-206/
 
-*** jj merelo raku recipies code examples
-**** https://github.com/Apress/raku-recipes
 
 *** modules.raku.org refurbishment (Márton)
 **** purely a personal idea
