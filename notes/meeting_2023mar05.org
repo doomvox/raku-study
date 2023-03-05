@@ -47,11 +47,12 @@
 **** mostly written in Mojolicious - nobody is interested in maintenance
 **** switching to something with Raku would be great
 
+
 *** bruce gray: 
-https://en.wikipedia.org/wiki/Binary_heap#Heap_implementation
-https://blogs.perl.org/users/bruce_gray/2023/02/twc-205-exclusive-third-or-first.html
-https://metacpan.org/pod/Algorithm::Heapify::XS
-https://fastapi.metacpan.org/source/YVES/Algorithm-Heapify-XS-0.04/XS.xs
+**** https://en.wikipedia.org/wiki/Binary_heap#Heap_implementation
+**** https://blogs.perl.org/users/bruce_gray/2023/02/twc-205-exclusive-third-or-first.html
+**** https://metacpan.org/pod/Algorithm::Heapify::XS
+**** https://fastapi.metacpan.org/source/YVES/Algorithm-Heapify-XS-0.04/XS.xs
 
 ** announcements 
 *** next meeting: March 26th
