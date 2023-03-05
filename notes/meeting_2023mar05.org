@@ -17,6 +17,7 @@
 ***** proto
 ***** only
 ***** https://docs.raku.org/syntax/proto.html
+https://new-raku.finanalyst.org/syntax/proto.html
 
 *** CAP: concurrency, asynchrony, parallelism
 **** CAP vids from Jonathan Worthington
