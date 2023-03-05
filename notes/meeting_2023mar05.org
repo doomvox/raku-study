@@ -12,6 +12,11 @@
 
 ** topics
 
+*** new site doc system issues
+**** cases:
+***** proto
+***** only
+
 *** CAP: concurrency, asynchrony, parallelism
 **** CAP vids from Jonathan Worthington
 ***** 8 ways to do concurrency and parallelism in Perl 6

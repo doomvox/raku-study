@@ -1,21 +1,22 @@
-- [meeting notes March 5, 2023](#org53542b6)
-  - [the raku study group](#org3216883)
-  - [topics](#org472c00c)
-    - [CAP: concurrency, asynchrony, parallelism](#orgb8b215b)
-    - [the ever popular weekly challenge](#orgc5619eb)
-    - [jj merelo raku recipies code examples](#orgb185d2a)
-    - [modules.raku.org refurbishment (Márton)](#orge5910c9)
-  - [announcements](#orgc04087c)
-    - [next meeting: March 26th](#org5b0c2e1)
-    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#org9c660cb)
+- [meeting notes March 5, 2023](#org9eacb46)
+  - [the raku study group](#orge4f4278)
+  - [topics](#org19fd67c)
+    - [new site doc system issues](#orgeab015d)
+    - [CAP: concurrency, asynchrony, parallelism](#org3ec488a)
+    - [the ever popular weekly challenge](#org64fff71)
+    - [jj merelo raku recipies code examples](#orgd2f130b)
+    - [modules.raku.org refurbishment (Márton)](#orgcc33fac)
+  - [announcements](#orga12ff1c)
+    - [next meeting: March 26th](#orga71fa39)
+    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#org4ee6d4c)
 
 
-<a id="org53542b6"></a>
+<a id="org9eacb46"></a>
 
 # meeting notes March 5, 2023
 
 
-<a id="org3216883"></a>
+<a id="orge4f4278"></a>
 
 ## the raku study group
 
@@ -34,12 +35,23 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb26.md>
 
 
-<a id="org472c00c"></a>
+<a id="org19fd67c"></a>
 
 ## topics
 
 
-<a id="orgb8b215b"></a>
+<a id="orgeab015d"></a>
+
+### new site doc system issues
+
+1.  cases:
+
+    1.  proto
+    
+    2.  only
+
+
+<a id="org3ec488a"></a>
 
 ### CAP: concurrency, asynchrony, parallelism
 
@@ -58,21 +70,21 @@
     1.  <https://www.youtube.com/playlist?list=PLR812eVbehlwq4qbqswOWH7NLKjodnTIn>
 
 
-<a id="orgc5619eb"></a>
+<a id="org64fff71"></a>
 
 ### the ever popular weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-206/>
 
 
-<a id="orgb185d2a"></a>
+<a id="orgd2f130b"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="orge5910c9"></a>
+<a id="orgcc33fac"></a>
 
 ### modules.raku.org refurbishment (Márton)
 
@@ -83,12 +95,12 @@
 3.  switching to something with Raku would be great
 
 
-<a id="orgc04087c"></a>
+<a id="orga12ff1c"></a>
 
 ## announcements
 
 
-<a id="org5b0c2e1"></a>
+<a id="orga71fa39"></a>
 
 ### next meeting: March 26th
 
@@ -97,6 +109,6 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="org9c660cb"></a>
+<a id="org4ee6d4c"></a>
 
 ### perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
