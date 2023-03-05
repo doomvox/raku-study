@@ -21,7 +21,7 @@ my @data = (
 }
 
 {
-    my @new_data = @data.map({$_.keys ~~ Numeric ?? $_+10 !! $_ });
+    my @new_data = @data.map({$_.values ~~ Numeric ?? $_+10 !! $_ });
     say @new_data;
 
 }
