@@ -24,10 +24,6 @@
 **** david pick, erlang video on concurrency
 ***** https://www.youtube.com/playlist?list=PLR812eVbehlwq4qbqswOWH7NLKjodnTIn
 
-
-
-*** pod6
-
 *** the ever popular weekly challenge
 
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-206/
