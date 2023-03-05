@@ -39,7 +39,6 @@
 ***** joe armstrong, "the mess we're in"
 ****** https://www.youtube.com/watch?v=lKXe3HUG2l4
 
-
 *** the ever popular weekly challenge
 
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-206/
