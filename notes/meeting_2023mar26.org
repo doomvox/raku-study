@@ -1,3 +1,5 @@
+* meeting notes March 16, 2023
+
 
 
 *** jj merelo raku recipies code examples
@@ -6,3 +8,7 @@
 
 *** the ever popular weekly challenge
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-206/
+
+** announcements 
+*** next meeting: March 26th
+*** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
