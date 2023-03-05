@@ -58,5 +58,7 @@
 **** I'm going to be out-of-town for March 12 & 19
 
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
-**** 
+**** https://tprc.to/tprc-2023-tor/
+**** https://github.com/perlconference/tprc-2023-tor/wiki/Topics-we-want
+***** request talks on a given topic, even if you're not attending
 
