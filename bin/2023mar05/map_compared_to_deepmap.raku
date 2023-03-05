@@ -35,5 +35,5 @@ my @d = ( 'alpha', 1, 'beta', 2, 'gamma', 3 );
 
 {
     my @new_data = @d.map({$_+10 if $_ ~~ Numeric; });
-    say @new_data;  # [alpha 11 beta 12 gamma 13]
+    say @new_data;  # [11 12 13]
 }
