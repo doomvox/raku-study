@@ -1,20 +1,21 @@
-- [meeting notes March 5, 2023](#orgdd9ff13)
-  - [the raku study group](#org125d19c)
-  - [topics](#orgeef1b9c)
-    - [CAP: concurrency, asynchrony, parallelism](#orgb279c54)
-    - [the ever popular weekly challenge](#org280cb9d)
-    - [jj merelo raku recipies code examples](#org4a2ffea)
-  - [announcements](#orgce1eafd)
-    - [next meeting: March 26th](#org0f0b62c)
-    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#orgd9ebac0)
+- [meeting notes March 5, 2023](#orgb1c8175)
+  - [the raku study group](#org945e087)
+  - [topics](#org9c66dd0)
+    - [CAP: concurrency, asynchrony, parallelism](#orgb1af5fa)
+    - [the ever popular weekly challenge](#org221e948)
+    - [jj merelo raku recipies code examples](#orgf2db1c2)
+    - [modules.raku.org refurbishment (Márton)](#org2c4dc49)
+  - [announcements](#orgf2f85ec)
+    - [next meeting: March 26th](#org99272b2)
+    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#org77ce551)
 
 
-<a id="orgdd9ff13"></a>
+<a id="orgb1c8175"></a>
 
 # meeting notes March 5, 2023
 
 
-<a id="org125d19c"></a>
+<a id="org945e087"></a>
 
 ## the raku study group
 
@@ -37,12 +38,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb26.md>
 
 
-<a id="orgeef1b9c"></a>
+<a id="org9c66dd0"></a>
 
 ## topics
 
 
-<a id="orgb279c54"></a>
+<a id="orgb1af5fa"></a>
 
 ### CAP: concurrency, asynchrony, parallelism
 
@@ -61,26 +62,37 @@
     1.  <https://www.youtube.com/playlist?list=PLR812eVbehlwq4qbqswOWH7NLKjodnTIn>
 
 
-<a id="org280cb9d"></a>
+<a id="org221e948"></a>
 
 ### the ever popular weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-206/>
 
 
-<a id="org4a2ffea"></a>
+<a id="orgf2db1c2"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="orgce1eafd"></a>
+<a id="org2c4dc49"></a>
+
+### modules.raku.org refurbishment (Márton)
+
+1.  purely a personal idea
+
+2.  mostly written in Mojolicious - nobody is interested in maintenance
+
+3.  switching to something with Raku would be great
+
+
+<a id="orgf2f85ec"></a>
 
 ## announcements
 
 
-<a id="org0f0b62c"></a>
+<a id="org99272b2"></a>
 
 ### next meeting: March 26th
 
@@ -89,6 +101,6 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="orgd9ebac0"></a>
+<a id="org77ce551"></a>
 
 ### perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
