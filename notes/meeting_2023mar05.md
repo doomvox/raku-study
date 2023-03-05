@@ -1,22 +1,22 @@
-- [meeting notes March 5, 2023](#orgcbdc674)
-  - [the raku study group](#org3d87e40)
-  - [topics](#org746df2c)
-    - [new site doc system issues](#org3f2317e)
-    - [CAP: concurrency, asynchrony, parallelism](#orgf6504bd)
-    - [the ever popular weekly challenge](#org25b7de7)
-    - [jj merelo raku recipies code examples](#org944b9eb)
-    - [modules.raku.org refurbishment (Márton)](#orga434d10)
-  - [announcements](#org9a33ec1)
-    - [next meeting: March 26th](#orgf2186e1)
-    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#org5047021)
+- [meeting notes March 5, 2023](#org7141047)
+  - [the raku study group](#org1a4d356)
+  - [topics](#org92e75dd)
+    - [new site doc system issues](#org4693df4)
+    - [CAP: concurrency, asynchrony, parallelism](#org8653360)
+    - [the ever popular weekly challenge](#org6a8ff38)
+    - [jj merelo raku recipies code examples](#orgbfd681a)
+    - [modules.raku.org refurbishment (Márton)](#orga7e6942)
+  - [announcements](#orgc9dfb9a)
+    - [next meeting: March 26th](#org06a8ff1)
+    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#orgcb319f5)
 
 
-<a id="orgcbdc674"></a>
+<a id="org7141047"></a>
 
 # meeting notes March 5, 2023
 
 
-<a id="org3d87e40"></a>
+<a id="org1a4d356"></a>
 
 ## the raku study group
 
@@ -35,12 +35,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb26.md>
 
 
-<a id="org746df2c"></a>
+<a id="org92e75dd"></a>
 
 ## topics
 
 
-<a id="org3f2317e"></a>
+<a id="org4693df4"></a>
 
 ### new site doc system issues
 
@@ -52,10 +52,12 @@
     
     3.  <https://docs.raku.org/syntax/proto.html>
     
-        <https://new-raku.finanalyst.org/syntax/proto.html>
+        1.  <https://new-raku.finanalyst.org/syntax/proto.html>
+    
+    4.  <https://docs.raku.org/language/syntax.html#Number_literals>
 
 
-<a id="orgf6504bd"></a>
+<a id="org8653360"></a>
 
 ### CAP: concurrency, asynchrony, parallelism
 
@@ -74,21 +76,21 @@
     1.  <https://www.youtube.com/playlist?list=PLR812eVbehlwq4qbqswOWH7NLKjodnTIn>
 
 
-<a id="org25b7de7"></a>
+<a id="org6a8ff38"></a>
 
 ### the ever popular weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-206/>
 
 
-<a id="org944b9eb"></a>
+<a id="orgbfd681a"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="orga434d10"></a>
+<a id="orga7e6942"></a>
 
 ### modules.raku.org refurbishment (Márton)
 
@@ -99,12 +101,12 @@
 3.  switching to something with Raku would be great
 
 
-<a id="org9a33ec1"></a>
+<a id="orgc9dfb9a"></a>
 
 ## announcements
 
 
-<a id="orgf2186e1"></a>
+<a id="org06a8ff1"></a>
 
 ### next meeting: March 26th
 
@@ -113,6 +115,6 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="org5047021"></a>
+<a id="orgcb319f5"></a>
 
 ### perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
