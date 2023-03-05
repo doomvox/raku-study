@@ -59,6 +59,8 @@
 
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
 **** https://tprc.to/tprc-2023-tor/
+***** end of this month is deadline for talk submissions.
+
 **** https://github.com/perlconference/tprc-2023-tor/wiki/Topics-we-want
 ***** request talks on a given topic, even if you're not attending
 
