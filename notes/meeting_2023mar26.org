@@ -1,5 +1,17 @@
 * meeting notes March 26, 2023
 
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023mar26.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2023mar26
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022mar05.md
+
+
+
 *** jj merelo raku recipies code examples
 **** https://github.com/Apress/raku-recipes
 

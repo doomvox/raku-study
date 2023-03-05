@@ -1,40 +1,60 @@
-- [meeting notes March 26, 2023](#org5a5917d)
-    - [jj merelo raku recipies code examples](#orgc479399)
-    - [the ever popular weekly challenge](#orge5a43f1)
-  - [announcements](#org920e39b)
-    - [next meeting: March 26th](#org6da04d6)
-    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#org3ca1ef5)
+- [meeting notes March 26, 2023](#orgdc22683)
+  - [the raku study group](#org00c3c70)
+    - [jj merelo raku recipies code examples](#org3c2e227)
+    - [the ever popular weekly challenge](#orgb03dcb8)
+  - [announcements](#org47c5771)
+    - [next meeting: March 26th](#orgd1b6481)
+    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#org0ca3a04)
 
 
-<a id="org5a5917d"></a>
+<a id="orgdc22683"></a>
 
 # meeting notes March 26, 2023
 
 
-<a id="orgc479399"></a>
+<a id="org00c3c70"></a>
+
+## the raku study group
+
+1.  usual links
+
+    1.  these notes
+    
+        1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023mar26.org>
+    
+    2.  code examples
+    
+        1.  <https://github.com/doomvox/raku-study/tree/main/bin/2023mar26>
+    
+    3.  last meeting notes
+    
+        1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022mar05.md>
+
+
+<a id="org3c2e227"></a>
 
 ### jj merelo raku recipies code examples
 
 1.  <https://github.com/Apress/raku-recipes>
 
 
-<a id="orge5a43f1"></a>
+<a id="orgb03dcb8"></a>
 
 ### the ever popular weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-206/>
 
 
-<a id="org920e39b"></a>
+<a id="org47c5771"></a>
 
 ## announcements
 
 
-<a id="org6da04d6"></a>
+<a id="orgd1b6481"></a>
 
 ### next meeting: March 26th
 
 
-<a id="org3ca1ef5"></a>
+<a id="org0ca3a04"></a>
 
 ### perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
