@@ -20,6 +20,10 @@
 ****** https://new-raku.finanalyst.org/syntax/proto.html
 ***** https://docs.raku.org/language/syntax.html#Number_literals
 
+**** two github repos now:
+***** https://github.com/Raku/doc/issues
+***** https://github.com/Raku/doc-website/issues
+
 *** CAP: concurrency, asynchrony, parallelism
 **** CAP vids from Jonathan Worthington
 ***** 8 ways to do concurrency and parallelism in Perl 6
