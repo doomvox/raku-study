@@ -25,3 +25,10 @@ my @data = (
     say @new_data;  # [11 12 13 14]
 
 }
+
+my @d = ( 'alpha', 1, 'beta', 2, 'gamma', 3 );
+
+{
+    my @new_data = @d.map({$_ ~~ Numeric ?? $_+10 !! $_ });
+    say @new_data;  # [11 12 13 14]
+}
