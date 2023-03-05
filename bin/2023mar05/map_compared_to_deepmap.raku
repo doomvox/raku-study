@@ -12,8 +12,7 @@ my @data = (
    { val => 4, name => 'delta', },
 );
 
-If you want to add 10 to the numeric value and preserve the
-string name, this works:
+# If you want to add 10 to the numeric value and preserve the string name, this works:
 
 my @new_data = @data.map({$_ ~~ Numeric ?? $_+10 !! $_ });
 
