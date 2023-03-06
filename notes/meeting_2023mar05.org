@@ -39,7 +39,7 @@
 ***** joe armstrong, "the mess we're in"
 ****** https://www.youtube.com/watch?v=lKXe3HUG2l4
 
-***** "How to Think about Parallel Programming: Not!" - Guy L. Steele Jr. (Strange Loop 2010)
+***** "How to Think about Parallel Programming: Not!" -- Guy L. Steele Jr. (Strange Loop 2010)
 ****** https://www.youtube.com/watch?v=dPK6t7echuA 
 
 ***** perl cpan modules
