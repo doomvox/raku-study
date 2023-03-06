@@ -1,22 +1,22 @@
-- [meeting notes March 5, 2023](#org76337ac)
-  - [the raku study group](#org16bd2d6)
-  - [topics](#org6caf90a)
-    - [new site doc system issues](#orga31fa1e)
-    - [CAP: concurrency, asynchrony, parallelism](#org107f955)
-    - [the ever popular weekly challenge](#org2b45e27)
-    - [modules.raku.org refurbishment (Márton)](#org9f27a5f)
-    - [bruce gray:](#org545d520)
-  - [announcements](#org45c21c2)
-    - [next meeting: March 26th](#orgba382f5)
-    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#orgfdd387e)
+- [meeting notes March 5, 2023](#org2d5ba70)
+  - [the raku study group](#org0129263)
+  - [topics](#org6fbf75b)
+    - [new site doc system issues](#orgde2e438)
+    - [CAP: concurrency, asynchrony, parallelism](#org7104bdb)
+    - [the ever popular weekly challenge](#org6285613)
+    - [modules.raku.org refurbishment (Márton)](#org553a37c)
+    - [bruce gray:](#orgd02c577)
+  - [announcements](#org4aebf5b)
+    - [next meeting: March 26th](#orgdb6675b)
+    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#org0dbf84e)
 
 
-<a id="org76337ac"></a>
+<a id="org2d5ba70"></a>
 
 # meeting notes March 5, 2023
 
 
-<a id="org16bd2d6"></a>
+<a id="org0129263"></a>
 
 ## the raku study group
 
@@ -35,12 +35,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb26.md>
 
 
-<a id="org6caf90a"></a>
+<a id="org6fbf75b"></a>
 
 ## topics
 
 
-<a id="orga31fa1e"></a>
+<a id="orgde2e438"></a>
 
 ### new site doc system issues
 
@@ -63,7 +63,7 @@
     2.  <https://github.com/Raku/doc-website/issues>
 
 
-<a id="org107f955"></a>
+<a id="org7104bdb"></a>
 
 ### CAP: concurrency, asynchrony, parallelism
 
@@ -91,21 +91,21 @@
     
         1.  <https://www.youtube.com/watch?v=dPK6t7echuA>
     
-    4.  
+    4.  cpan modules (perl)
     
         1.  <https://metacpan.org/pod/Parallel::Loops>
         
         2.  <https://metacpan.org/pod/Parallel::ForkManager>
 
 
-<a id="org2b45e27"></a>
+<a id="org6285613"></a>
 
 ### the ever popular weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-206/>
 
 
-<a id="org9f27a5f"></a>
+<a id="org553a37c"></a>
 
 ### modules.raku.org refurbishment (Márton)
 
@@ -116,7 +116,7 @@
 3.  switching to something with Raku would be great
 
 
-<a id="org545d520"></a>
+<a id="orgd02c577"></a>
 
 ### bruce gray:
 
@@ -129,12 +129,12 @@
 4.  <https://fastapi.metacpan.org/source/YVES/Algorithm-Heapify-XS-0.04/XS.xs>
 
 
-<a id="org45c21c2"></a>
+<a id="org4aebf5b"></a>
 
 ## announcements
 
 
-<a id="orgba382f5"></a>
+<a id="orgdb6675b"></a>
 
 ### next meeting: March 26th
 
@@ -143,7 +143,7 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="orgfdd387e"></a>
+<a id="org0dbf84e"></a>
 
 ### perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
 
