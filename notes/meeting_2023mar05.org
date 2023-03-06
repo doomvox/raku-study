@@ -32,12 +32,16 @@
 ***** Parallelism, Concurrency, and Asynchrony in Perl 6
 ****** https://www.youtube.com/watch?v=JpqnNCx7wVY
 
-**** david picks:
+**** others
 ***** erlang video on concurrency
 ****** https://www.youtube.com/playlist?list=PLR812eVbehlwq4qbqswOWH7NLKjodnTIn
 
 ***** joe armstrong, "the mess we're in"
 ****** https://www.youtube.com/watch?v=lKXe3HUG2l4
+
+***** "How to Think about Parallel Programming: Not!" - Guy L. Steele Jr. (Strange Loop 2010)
+****** https://www.youtube.com/watch?v=dPK6t7echuA 
+
 
 *** the ever popular weekly challenge
 

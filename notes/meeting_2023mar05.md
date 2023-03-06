@@ -1,22 +1,22 @@
-- [meeting notes March 5, 2023](#orgd038cff)
-  - [the raku study group](#org4a62aef)
-  - [topics](#org77f4661)
-    - [new site doc system issues](#orge22e649)
-    - [CAP: concurrency, asynchrony, parallelism](#orge6b1ac8)
-    - [the ever popular weekly challenge](#orgadaf00e)
-    - [modules.raku.org refurbishment (Márton)](#orgaef73b3)
-    - [bruce gray:](#orgeb02eee)
-  - [announcements](#org32e2f9e)
-    - [next meeting: March 26th](#org96b6c2d)
-    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#org343b16d)
+- [meeting notes March 5, 2023](#org2064ab9)
+  - [the raku study group](#orga05c136)
+  - [topics](#org52856ce)
+    - [new site doc system issues](#orgde28d2b)
+    - [CAP: concurrency, asynchrony, parallelism](#org6ad2669)
+    - [the ever popular weekly challenge](#org1f07f88)
+    - [modules.raku.org refurbishment (Márton)](#org7e0c76b)
+    - [bruce gray:](#org899186d)
+  - [announcements](#orgef713e0)
+    - [next meeting: March 26th](#orgce3708f)
+    - [perl & raku conference (formerly yapc) will be in toronto on july 11th-13th](#orgabc18ba)
 
 
-<a id="orgd038cff"></a>
+<a id="org2064ab9"></a>
 
 # meeting notes March 5, 2023
 
 
-<a id="org4a62aef"></a>
+<a id="orga05c136"></a>
 
 ## the raku study group
 
@@ -35,12 +35,12 @@
         1.  <https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022feb26.md>
 
 
-<a id="org77f4661"></a>
+<a id="org52856ce"></a>
 
 ## topics
 
 
-<a id="orge22e649"></a>
+<a id="orgde28d2b"></a>
 
 ### new site doc system issues
 
@@ -63,7 +63,7 @@
     2.  <https://github.com/Raku/doc-website/issues>
 
 
-<a id="orge6b1ac8"></a>
+<a id="org6ad2669"></a>
 
 ### CAP: concurrency, asynchrony, parallelism
 
@@ -77,7 +77,7 @@
     
         1.  <https://www.youtube.com/watch?v=JpqnNCx7wVY>
 
-2.  david picks:
+2.  others
 
     1.  erlang video on concurrency
     
@@ -86,16 +86,20 @@
     2.  joe armstrong, "the mess we're in"
     
         1.  <https://www.youtube.com/watch?v=lKXe3HUG2l4>
+    
+    3.  "How to Think about Parallel Programming: Not!" - Guy L. Steele Jr. (Strange Loop 2010)
+    
+        1.  <https://www.youtube.com/watch?v=dPK6t7echuA>
 
 
-<a id="orgadaf00e"></a>
+<a id="org1f07f88"></a>
 
 ### the ever popular weekly challenge
 
 1.  <https://theweeklychallenge.org/blog/perl-weekly-challenge-206/>
 
 
-<a id="orgaef73b3"></a>
+<a id="org7e0c76b"></a>
 
 ### modules.raku.org refurbishment (Márton)
 
@@ -106,7 +110,7 @@
 3.  switching to something with Raku would be great
 
 
-<a id="orgeb02eee"></a>
+<a id="org899186d"></a>
 
 ### bruce gray:
 
@@ -119,12 +123,12 @@
 4.  <https://fastapi.metacpan.org/source/YVES/Algorithm-Heapify-XS-0.04/XS.xs>
 
 
-<a id="org32e2f9e"></a>
+<a id="orgef713e0"></a>
 
 ## announcements
 
 
-<a id="org96b6c2d"></a>
+<a id="orgce3708f"></a>
 
 ### next meeting: March 26th
 
@@ -133,7 +137,7 @@
 2.  I'm going to be out-of-town for March 12 & 19
 
 
-<a id="org343b16d"></a>
+<a id="orgabc18ba"></a>
 
 ### perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
 
