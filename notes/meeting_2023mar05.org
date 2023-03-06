@@ -42,7 +42,7 @@
 ***** "How to Think about Parallel Programming: Not!" - Guy L. Steele Jr. (Strange Loop 2010)
 ****** https://www.youtube.com/watch?v=dPK6t7echuA 
 
-***** cpan modules (perl)
+***** perl cpan modules
 ****** https://metacpan.org/pod/Parallel::Loops
 ****** https://metacpan.org/pod/Parallel::ForkManager
 
