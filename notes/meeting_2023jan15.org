@@ -60,7 +60,6 @@ find . -type f -name "*.pm6" | xargs egrep deepmap
 
 **** Marton: CoreHackers::Sourcery for looking up definitions in core code.
 
-
 **** playing with the new ast
 ***** RAKUDO_RAKUAST=1  raku --target=ast -e 'Bool(False)'
 
