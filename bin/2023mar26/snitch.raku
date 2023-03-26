@@ -14,3 +14,13 @@ use v6.e.PREVIEW;
 # Implementing the Raku® Programming Language v6.d.
 
 # Evidently a 6.e thing.
+
+
+sub spy ($arg) { 
+    say $arg;
+    return $arg;
+}
+
+my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
+
+my @results = @monsters.map({uc}).grep(/^R/);
