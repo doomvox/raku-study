@@ -40,3 +40,11 @@ if ( say "hey there" ) {
     say "good i said something";
 
 }
+
+
+## rakudo/src/core.e/Any-iterable-methods.pm6
+
+#     method snitch(\SELF: &snitch-on = &note) is raw {
+#         snitch-on SELF;
+#         SELF
+#     }
