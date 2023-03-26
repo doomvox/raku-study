@@ -33,6 +33,8 @@ raku -MCoreHackers::Sourcery  -e 'use v6.e.PREVIEW; say &snitch.sourcery'
 **** boolean truth/false
 ***** added to perl5 at 5.36
 
+*** 
+
 ** announcements 
 *** next meeting: April 16th
 **** skipping April 9th (easter)
