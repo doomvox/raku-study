@@ -18,8 +18,9 @@
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-206/
 
 
-*** bruce gray tells me
+*** spy on its way
 
+**** 
 
 *** fixed my issue with zef install Inline::Perl5
 **** libperl.so vs libperl.a
