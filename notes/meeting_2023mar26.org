@@ -21,7 +21,7 @@
 *** spy on its way
 
 **** snitch
-***** https://www.google.com/url?q=https%3A%2F%2Fdocs.raku.org%2Froutine%2Fsnitch.html&sa=D&sntz=1&usg=AOvVaw2n5I8YsntSayrgLH0mgLOV
+***** https://docs.raku.org/routine/snitch/
 
 *** fixed my issue with zef install Inline::Perl5
 **** libperl.so vs libperl.a
