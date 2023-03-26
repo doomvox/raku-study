@@ -19,7 +19,6 @@
 
 
 *** spy on its way
-
 **** snitch
 ***** https://docs.raku.org/routine/snitch.html
 
