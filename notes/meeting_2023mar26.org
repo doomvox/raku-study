@@ -17,7 +17,6 @@
 *** the ever popular weekly challenge
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-206/
 
-
 *** spy on its way
 **** snitch
 ***** https://docs.raku.org/routine/snitch.html
