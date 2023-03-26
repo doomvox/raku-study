@@ -21,3 +21,4 @@ use v6;
 
 ## SELECT value, count(*) FROM data GROUP BY value; 
 
+
