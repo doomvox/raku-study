@@ -17,3 +17,6 @@ use v6;
 # [2] > Nil === Nil
 # True
 # [3] > exit
+
+
+SELECT value, count(*) FROM data GROUP BY value; 
