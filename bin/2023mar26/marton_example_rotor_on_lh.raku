@@ -17,7 +17,7 @@ use v6;
 
 }
 
-{
-    < godzilla mothera rhodan tingler wolfman dracula horta blob elon_musk >.rotor(3)[1;1] = 'GRENDEL'
-    # Cannot modify an immutable List ((tingler wolfman dra...)
-}
+# {
+#     < godzilla mothera rhodan tingler wolfman dracula horta blob elon_musk >.rotor(3)[1;1] = 'GRENDEL'
+#     # Cannot modify an immutable List ((tingler wolfman dra...)
+# }
