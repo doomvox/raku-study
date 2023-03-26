@@ -29,8 +29,6 @@ raku -MCoreHackers::Sourcery  -e 'use v6.e.PREVIEW; say &snitch.sourcery'
 ***** should've web searched the error message sooner
 ****** self-reliance fail
 
-
-
 ** announcements 
 *** next meeting: April 16th
 **** skipping April 9th (easter)
