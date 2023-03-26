@@ -30,6 +30,7 @@ raku -MCoreHackers::Sourcery  -e 'use v6.e.PREVIEW; say &snitch.sourcery'
 ****** self-reliance fail
 
 
+
 ** announcements 
 *** next meeting: April 16th
 **** skipping April 9th (easter)
