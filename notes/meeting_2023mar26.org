@@ -38,7 +38,7 @@ raku -MCoreHackers::Sourcery  -e 'use v6.e.PREVIEW; say &snitch.sourcery'
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
 **** deadline to submit talks is the end of March
 
-*** The confrerence in Riga, Latvia has an inexpensive ticket price now, less than $100
+*** The conference in Riga, Latvia has an inexpensive ticket price now, less than $100
 **** https://rakudoweekly.blog/2023/03/20/2023-12-priced-2/
 
 
