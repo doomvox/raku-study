@@ -25,7 +25,7 @@ $|=1;
 use Data::Dumper;
 
 
-my @array = (1, 2, Nil, 4);
+my @array = (1, 2, undef, 4);
 say Dumper( \@array );
 
 
