@@ -21,3 +21,6 @@
 *** next meeting: April 16th
 **** skipping April 9th (easter)
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
+*** The confrerence in Riga, Latvia has an inexpensive ticket price now, less than $100
+**** https://rakudoweekly.blog/2023/03/20/2023-12-priced-2/
+
