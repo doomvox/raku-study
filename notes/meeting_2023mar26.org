@@ -18,6 +18,9 @@
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-206/
 
 
+*** bruce gray tells me
+
+
 *** fixed my issue with zef install Inline::Perl5
 **** libperl.so vs libperl.a
 ***** a small difference in the ld man page and what Everyone Knows
