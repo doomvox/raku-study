@@ -23,4 +23,8 @@ use v6;
 
 
 ===
+
 ## value identity
+##    ===
+## container identity  (( is that a screwy name? ))
+##    =:=
