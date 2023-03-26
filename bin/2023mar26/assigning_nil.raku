@@ -10,5 +10,5 @@ use v6;
     say @array;  ##  [1 2 (Any) 4]
 
     my Int @ints = 1, 2, Nil, 4;
-    say @ints;
+    say @ints;   ##  [1 2 (Int) 4]
 }
