@@ -29,8 +29,9 @@ raku -MCoreHackers::Sourcery  -e 'use v6.e.PREVIEW; say &snitch.sourcery'
 ***** should've web searched the error message sooner
 ****** self-reliance fail
 
-*** boolean truth/false
-**** added to perl5 at 5.36
+*** endless nihility
+**** boolean truth/false
+***** added to perl5 at 5.36
 
 ** announcements 
 *** next meeting: April 16th
