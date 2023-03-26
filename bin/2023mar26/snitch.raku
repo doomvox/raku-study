@@ -12,3 +12,5 @@ use v6;
 # raku --version
 # Welcome to Rakudo™ v2023.02.
 # Implementing the Raku® Programming Language v6.d.
+
+# Evidently a 6.e thing.
