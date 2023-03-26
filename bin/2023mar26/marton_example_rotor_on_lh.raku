@@ -32,6 +32,6 @@ use v6;
     @monsters.rotor(3)[1] = < one two three >;
 
     say @monsters;
-    # [godzilla mothera rhodan tingler BOSON dracula horta blob elon_musk]
+    # [godzilla mothera rhodan one two three horta blob elon_musk]
 
 }
