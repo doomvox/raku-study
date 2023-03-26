@@ -12,3 +12,4 @@ say @monsters.rotor(3);
 @monsters.rotor(3)[1;1] = 'BOSON';
 
 say @monsters;
+# [godzilla mothera rhodan tingler BOSON dracula horta blob elon_musk]
