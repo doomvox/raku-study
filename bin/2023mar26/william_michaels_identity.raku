@@ -19,4 +19,5 @@ use v6;
 # [3] > exit
 
 
-SELECT value, count(*) FROM data GROUP BY value; 
+## SELECT value, count(*) FROM data GROUP BY value; 
+
