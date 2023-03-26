@@ -13,3 +13,4 @@ say @monsters.rotor(3);
 
 say @monsters;
 # [godzilla mothera rhodan tingler BOSON dracula horta blob elon_musk]
+
