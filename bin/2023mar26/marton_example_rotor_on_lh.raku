@@ -4,13 +4,20 @@
 
 use v6;
 
-my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob elon_musk >;
+{
+    my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob elon_musk >;
 
-say @monsters.rotor(3);
-# ((godzilla mothera rhodan) (tingler wolfman dracula) (horta blob elon_musk))
+    say @monsters.rotor(3);
+    # ((godzilla mothera rhodan) (tingler wolfman dracula) (horta blob elon_musk))
 
-@monsters.rotor(3)[1;1] = 'BOSON';
+    @monsters.rotor(3)[1;1] = 'BOSON';
 
-say @monsters;
-# [godzilla mothera rhodan tingler BOSON dracula horta blob elon_musk]
+    say @monsters;
+    # [godzilla mothera rhodan tingler BOSON dracula horta blob elon_musk]
 
+}
+
+{
+    < godzilla mothera rhodan tingler wolfman dracula horta blob elon_musk >.rotor(3)[1;1] = 'GRENDEL'
+
+    }
