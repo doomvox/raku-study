@@ -37,6 +37,6 @@ say @results;  # [RHODAN]
 my @results = @monsters.map({.uc}).say.grep(/^R/);
 
 
-if( say "hey there" ) {
+if ( say "hey there" ) {
     say "good i said something";
 }
