@@ -27,5 +27,6 @@ my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
 my @results = @monsters.map({.uc}).&spy.grep(/^R/);
 say @results;  # [RHODAN]
 
+say "---";
 
 my @results = @monsters.map({.uc}).snitch.grep(/^R/);
