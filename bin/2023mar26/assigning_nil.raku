@@ -5,3 +5,8 @@
 use v6;
 
 
+{
+    my @array = 1, 2, Nil, 4;
+    say @array;
+
+}
