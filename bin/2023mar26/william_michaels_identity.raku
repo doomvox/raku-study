@@ -21,9 +21,6 @@ use v6;
 
 ## SELECT value, count(*) FROM data GROUP BY value; 
 
-
-===
-
 ## value identity
 ##    ===
 ## container identity  (( is that a screwy name? ))
