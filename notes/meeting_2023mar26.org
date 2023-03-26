@@ -18,5 +18,6 @@
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-206/
 
 ** announcements 
-*** next meeting: March 26th
+*** next meeting: April 16th
+**** skipping April 9th (easter)
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
