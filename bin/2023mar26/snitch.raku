@@ -15,6 +15,7 @@ use v6.e.PREVIEW;
 
 # Evidently a 6.e thing.
 
+say "===";
 
 sub spy ($arg) { 
     say $arg;
