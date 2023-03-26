@@ -9,3 +9,6 @@ my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob elon
 say @monsters.rotor(3);
 # ((godzilla mothera rhodan) (tingler wolfman dracula) (horta blob elon_musk))
 
+@monsters.rotor(3)[2,1] = 'BOSON';
+
+say @monsters;
