@@ -33,3 +33,10 @@ my @results = @monsters.map({.uc}).snitch.grep(/^R/);
 say @results;  # [RHODAN]
 
 
+## 
+my @results = @monsters.map({.uc}).say.grep(/^R/);
+
+
+if( say "hey there" ) {
+    say "good i said something";
+}
