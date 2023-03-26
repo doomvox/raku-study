@@ -28,6 +28,12 @@ use Data::Dumper;
 my @array = (1, 2, undef, 4);
 say Dumper( \@array );
 
+# $VAR1 = [
+#           1,
+#           2,
+#           undef,
+#           4
+#         ];
 
 
 
