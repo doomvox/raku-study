@@ -23,7 +23,6 @@
 **** snitch
 ***** https://docs.raku.org/routine/snitch.html
 
-
 raku -MCoreHackers::Sourcery  -e 'use v6.e.PREVIEW; say &snitch.sourcery'
 (src/core.e/Any-iterable-methods.pm6:39 https://github.com/rakudo/rakudo/blob/2023.02/src/core.e/Any-iterable-methods.pm6#L39)
 
