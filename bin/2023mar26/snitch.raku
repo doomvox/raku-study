@@ -23,5 +23,5 @@ sub spy ($arg) {
 
 my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
 
-my @results = @monsters.map({uc}).grep(/^R/);
+my @results = @monsters.map({.uc}).grep(/^R/);
 say @results;
