@@ -31,7 +31,6 @@ raku -MCoreHackers::Sourcery  -e 'use v6.e.PREVIEW; say &snitch.sourcery'
 
 
 *** boolean truth/false
-
 **** 5.36 added to perl5
 
 ** announcements 
