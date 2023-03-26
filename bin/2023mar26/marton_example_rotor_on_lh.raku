@@ -5,3 +5,5 @@
 use v6;
 
 my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
+
+say @monsters.rotor(3);
