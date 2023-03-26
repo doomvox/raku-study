@@ -32,6 +32,8 @@ raku -MCoreHackers::Sourcery  -e 'use v6.e.PREVIEW; say &snitch.sourcery'
 *** endless nihility
 **** boolean truth/false
 ***** added to perl5 at 5.36
+**** raku Nil considered (mildly?) weird
+**** mailing list discussion
 
 ** announcements 
 *** next meeting: April 16th
