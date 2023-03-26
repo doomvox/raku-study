@@ -13,7 +13,7 @@ use v6;
     say @ints;   ##  [1 2 (Int) 4]
 
 
-    class Idiot { };
+    class Idiot is Any { };
     
     my Idiot @idiots = 1, 2, Nil, 4;
     say @idiots;
