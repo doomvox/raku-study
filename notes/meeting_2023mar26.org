@@ -10,8 +10,6 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022mar05.org
 
-
-
 *** jj merelo raku recipies code examples
 **** https://github.com/Apress/raku-recipes
 
