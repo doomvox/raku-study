@@ -30,3 +30,4 @@ say @results;  # [RHODAN]
 say "---";
 
 my @results = @monsters.map({.uc}).snitch.grep(/^R/);
+say @results;  # [RHODAN]
