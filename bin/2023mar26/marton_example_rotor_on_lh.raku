@@ -4,6 +4,7 @@
 
 use v6;
 
-my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob >;
+my @monsters = < godzilla mothera rhodan tingler wolfman dracula horta blob elon_musk >;
 
 say @monsters.rotor(3);
+# ((godzilla mothera rhodan) (tingler wolfman dracula))
