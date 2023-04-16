@@ -14,9 +14,11 @@ use v6;
     my %h{Int} = (9,9,10,10).Bag; say %h.keys.min; # 9
 }
 
-
-
 {
     my %h = (9,9,10,10).Bag; say %h.keys.map(*.Int).min;  # 9
 }
 
+{
+    my @array;
+    say @array.^methods;
+}
