@@ -4,8 +4,6 @@
 
 use v6;
 
-
-raku -ne '
 for lines {
     .say and next if .contains: "DEG =";
     next if /«\d\.\d\d\d\-\d\d\d»/;
