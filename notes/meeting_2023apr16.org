@@ -11,5 +11,5 @@
 
 ** announcements 
 *** next meeting: April 30th
-**** skipping April 9th (easter)
+**** note: after this, we'll need to skip May 14 (mother's day)
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
