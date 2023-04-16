@@ -12,4 +12,4 @@ say "@a[]"; # 1 2 3
 
 say "@[]"; # @[]
 
-say "@[].phoo3y"; 
+say "@[].phooey"; # @[].phoo3y
