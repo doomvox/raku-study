@@ -16,3 +16,6 @@ say "@[].phooey"; # @[].phooey
 
 
 ## So, the '@.' is somekinda twigily thing to the parser?
+
+## an oddity, not *too* bad as a LTA error-- gets you to the problem.
+
