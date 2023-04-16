@@ -19,6 +19,11 @@
 
 *** marton interested in a group to look into tooling-- editors, etc
 
+
+*** weekly challenge 212
+
+**** bruce gray worked over the solutions, with interesting asides...
+
 ** announcements 
 *** next meeting: April 30th
 **** note: after this, we'll need to skip May 14 (mother's day)
