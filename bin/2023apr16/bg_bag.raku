@@ -18,6 +18,10 @@ use v6;
     my %h = (9,9,10,10).Bag; say %h.keys.map(*.Int).min;  # 9
 }
 
+{
+    my %h = (9,9,10,10).Bag; say %h.keys.>>.Int.min;  # 9
+}
+
 
 exit;
 {
