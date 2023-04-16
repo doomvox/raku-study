@@ -17,6 +17,6 @@ use v6;
 
 
 {
-    my %h = (9,9,10,10).Bag; say %h.keys.Numeric.min; # 9
+    my %h = (9,9,10,10).Bag; say %h.keys.Int.min; #
 }
 
