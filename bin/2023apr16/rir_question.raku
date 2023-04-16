@@ -12,4 +12,7 @@ say "@a[]"; # 1 2 3
 
 say "@[]"; # @[]
 
-say "@[].phooey"; # @[].phoo3y
+say "@[].phooey"; # @[].phooey
+
+
+## So, the '@.' is somekinda twigily thing to the parser?
