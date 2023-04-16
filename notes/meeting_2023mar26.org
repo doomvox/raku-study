@@ -38,6 +38,9 @@ raku -MCoreHackers::Sourcery  -e 'use v6.e.PREVIEW; say &snitch.sourcery'
 *** weekly challenge
 **** bg regexp solution -- gets longest match automatically, etc.
 
+
+
+
 ** announcements 
 *** next meeting: April 16th
 **** skipping April 9th (easter)
