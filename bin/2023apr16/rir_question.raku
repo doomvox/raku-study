@@ -8,5 +8,5 @@ use v6;
 # Variable @.phooey used where no 'self' is available
 
 my @a = [1,2,3];
-say "@a[]"; # @a[]
+say "@a[]"; # 1 2 3
 
