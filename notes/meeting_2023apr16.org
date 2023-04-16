@@ -8,3 +8,8 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2023apr16
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022mar16.org
+
+** announcements 
+*** next meeting: April 30th
+**** skipping April 9th (easter)
+*** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
