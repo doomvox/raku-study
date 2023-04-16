@@ -27,6 +27,11 @@ use v6;
 }
 
 
+{
+    # marton
+    my %h is Bag = (9,9,10,10); say %h.keys.min(+*);         # 9
+}
+
 
 
 exit;
