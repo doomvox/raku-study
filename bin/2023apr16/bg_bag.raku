@@ -20,5 +20,8 @@ use v6;
 
 {
     my @array;
-    for @array.^methods -> $a { say "$a.name()"; };
+    for @array.^methods(:all) -> $a { say "$a.name()"; };
+
+    say @array.sin;
+
 }
