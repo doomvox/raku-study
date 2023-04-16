@@ -25,6 +25,7 @@ use v6;
 
 exit;
 {
+    # the central weirdness about getting too many numeric methods
     my @array;
     for @array.^methods(:all) -> $a { say "$a.name()"; };
 
