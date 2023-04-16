@@ -29,17 +29,17 @@ exit;
     my @array;
     for @array.^methods(:all) -> $a { say "$a.name()"; };
 
-# raku bg_bag.raku | egrep tan
-# atanh
-# tan
-# acotanh
-# atan
-# cotan
-# cotanh
-# atan2
-# tanh
-# acotan
+    # raku bg_bag.raku | egrep tan
+    # atanh
+    # tan
+    # acotanh
+    # atan
+    # cotan
+    # cotanh
+    # atan2
+    # tanh
+    # acotan
 
-## what for?
+    ## what for?
 
 }
