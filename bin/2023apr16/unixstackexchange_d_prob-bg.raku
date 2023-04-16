@@ -12,7 +12,7 @@ use v6;
 # ' so_1.dat
 
 
-for lines {
+for lines() {
     .say and next if .contains: "DEG =";
     next if /«\d\.\d\d\d\-\d\d\d»/;
     say "     ", .words[0,4]».subst("D","E").join("    ");
