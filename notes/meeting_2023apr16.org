@@ -1,0 +1,10 @@
+* meeting notes April 16, 2023
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023apr16.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2023apr16
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022mar16.org
