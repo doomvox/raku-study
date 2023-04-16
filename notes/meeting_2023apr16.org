@@ -17,10 +17,12 @@
 *** rir: a 4 line whats-it-do-program challenge.  It beat me.
 **** to-be-entered 
 
-*** marton's place
-**** tooling-- editors, etc
+*** marton interested in a group to look into tooling-- editors, etc
 
 ** announcements 
 *** next meeting: April 30th
 **** note: after this, we'll need to skip May 14 (mother's day)
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
+**** alan has been volunteered. 
+**** check the hotel anyway
+
