@@ -22,7 +22,8 @@
 **** atom-language plug-in
 ***** https://github.com/Raku/atom-language
 
-
+*** william michaels 
+**** https://unix.stackexchange.com/a/742940/227738
 
 *** weekly challenge 212
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-212/
