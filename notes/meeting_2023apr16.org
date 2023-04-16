@@ -19,6 +19,7 @@
 
 *** marton interested in a group to look into tooling-- editors, etc
 **** atom-language plug-in
+***** https://github.com/Raku/atom-language
 
 *** weekly challenge 212
 **** bruce gray worked over the solutions, with interesting asides...
