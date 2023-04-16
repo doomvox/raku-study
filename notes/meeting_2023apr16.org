@@ -15,7 +15,6 @@
 ***** A concern with debugging instead of testing got me to that, but same same.
 
 *** rir: a 4 line whats-it-do-program challenge.  It beat me.
-
 **** to-be-entered 
 
 *** marton's place
