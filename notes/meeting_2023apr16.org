@@ -18,8 +18,11 @@
 **** to-be-entered 
 
 *** marton interested in a group to look into tooling-- editors, etc
+**** https://github.com/2colours/Raku-ideas/blob/main/Raku%20Editor%20and%20Tooling%20workgroup.md
 **** atom-language plug-in
 ***** https://github.com/Raku/atom-language
+
+
 
 *** weekly challenge 212
 **** bruce gray worked over the solutions, with interesting asides...
