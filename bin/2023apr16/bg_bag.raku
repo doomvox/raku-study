@@ -4,5 +4,13 @@
 
 use v6;
 
-my %h = (9,9,10,10).Bag; say %h.keys.min; # 10?
+{
+    my %h = (9,9,10,10).Bag; say %h.keys.min; # 10?
 
+    ## 9 and 10 are *stringified*, and "1" preceeds "9"
+}
+
+{
+    my %h{Int} = (9,9,10,10).Bag; say %h.keys.min; # 10?
+
+}
