@@ -23,7 +23,7 @@ use v6;
 }
 
 {
-    my %h = (9,9,10,10).Bag; say %h.keys.min(+*);         
+    my %h = (9,9,10,10).Bag; say %h.keys.min(+*);         # 9
 }
 
 
