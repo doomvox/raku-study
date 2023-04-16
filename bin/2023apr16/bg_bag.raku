@@ -20,5 +20,5 @@ use v6;
 
 {
     my @array;
-    say @array.^methods;
+    for @array.^methods -> $a { say "$a"; };
 }
