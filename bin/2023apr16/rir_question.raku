@@ -6,3 +6,6 @@ use v6;
 
 say "@.phooey";
 
+# Variable @.phooey used where no 'self' is available
+
+my @a = [1,2,3];
