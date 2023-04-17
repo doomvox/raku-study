@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 # 
 #     16 Apr 2023 
+# https://unix.stackexchange.com/a/742940/227738
 
 use v6;
 
