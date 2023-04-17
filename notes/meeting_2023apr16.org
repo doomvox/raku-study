@@ -15,7 +15,7 @@
 ***** A concern with debugging instead of testing got me to that, but same same.
 
 *** rir: a 4 line whats-it-do-program challenge.  It beat me.
-**** to-be-entered 
+**** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023apr16/rir_question_array_interpolation_in_quoted_strings.raku
 
 *** marton interested in a group to look into tooling-- editors, etc
 **** https://github.com/2colours/Raku-ideas/blob/main/Raku%20Editor%20and%20Tooling%20workgroup.md
@@ -25,6 +25,7 @@
 *** william michaels 
 **** https://unix.stackexchange.com/a/742940/227738
 **** convert and filter data in fortran "D" format to standard scientific "E" notation
+**** unixstackexchange_fortran_d_to_scientific_e_and_filter
 
 *** weekly challenge 212
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-212/
