@@ -2,6 +2,8 @@
 # 
 # unixstackexchange_d_prob-iii.raku            16 Apr 2023 
 
+## another william michaels solution
+
 use v6;
 
 my @a;
