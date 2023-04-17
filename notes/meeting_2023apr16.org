@@ -25,8 +25,8 @@
 *** william michaels 
 **** https://unix.stackexchange.com/a/742940/227738
 **** convert and filter data in fortran "D" format to standard scientific "E" notation
-unixstackexchange_fortran_d_to_scientific_e_and_filter.raku
-unixstackexchange_fortran_d_to_scientific_e_and_filter-bg.raku
+***** unixstackexchange_fortran_d_to_scientific_e_and_filter.raku
+***** unixstackexchange_fortran_d_to_scientific_e_and_filter-bg.raku
 
 *** weekly challenge 212
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-212/
