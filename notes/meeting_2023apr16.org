@@ -44,3 +44,4 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021apr11
 
 ** and the word is bird
 
+
