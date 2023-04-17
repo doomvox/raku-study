@@ -2,7 +2,7 @@
 # 
 #     16 Apr 2023 
 
-# william michaels raku oneliner
+# william michaels raku oneliner (his first try)
 # https://unix.stackexchange.com/a/742940/227738
 
 use v6;
