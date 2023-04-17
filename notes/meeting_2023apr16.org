@@ -42,6 +42,6 @@ https://github.com/doomvox/raku-study/tree/main/bin/2021apr11
 **** alan has been volunteered. 
 **** check the hotel anyway
 
-** and the word is bird
+
 
 
