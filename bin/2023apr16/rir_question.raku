@@ -2,6 +2,8 @@
 # 
 # rir_question.raku            16 Apr 2023 
 
+# Rob raised a question about interpolation into quoted strings
+
 use v6;
 
 # say "@.phooey";
