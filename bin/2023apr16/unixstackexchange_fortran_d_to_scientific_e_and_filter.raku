@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 # 
-# unixstackexchange_d_prob-ii.raku            16 Apr 2023 
+#  16 Apr 2023 
 
 use v6;
 
