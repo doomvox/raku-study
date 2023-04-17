@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 # 
-# rir_question.raku            16 Apr 2023 
+# rir_question_array_interpolation_in_quoted_strings.raku            16 Apr 2023 
 
 # Rob raised a question about interpolation into quoted strings
 
