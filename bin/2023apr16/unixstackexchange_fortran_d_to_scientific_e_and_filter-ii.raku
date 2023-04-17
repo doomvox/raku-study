@@ -4,6 +4,7 @@
 
 use v6;
 
+## william michaels code reformatted slightly
 my @a;
 
 for lines.join("\n").split(/ \n <?before DEG> /) {
