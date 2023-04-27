@@ -45,3 +45,10 @@ The naming of file system path components:
 my $dir   =  '/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022mar13';
 my $file  =  'tagger.raku';
 my $full  =  "$dir/$file";
+
+
+
+
+
+
+
