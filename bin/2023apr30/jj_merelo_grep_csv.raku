@@ -8,7 +8,7 @@ use v6;
 ##  https://www.nal.usda.gov/human-nutrition-and-food-safety/nutrient-lists-standard-reference-legacy-2018
 
 ## my $data_file = "/home/doom/Dust/Data/all_downloads_apr_2023/nutrient.csv";
-
+my $data_file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023apr30/data/nutrients_merelo.csv";
 
 .say for $data_file.IO.lines.grep: {
     my @data = $_.split('","');
