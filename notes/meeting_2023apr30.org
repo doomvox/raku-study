@@ -14,16 +14,7 @@
 *** joe "erlang" armstrong, "the mess we're in"
 **** https://www.youtube.com/watch?v=lKXe3HUG2l4
 
-*** https://www.codesections.com/blog/raku-unit-testing-with-conditional-compilation/
-***** A concern with debugging instead of testing got me to that, but same same.
 
-*** rir: a 4 line whats-it-do-program challenge.  It beat me.
-**** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023apr16/rir_question_array_interpolation_in_quoted_strings.raku
-
-*** marton interested in a group to look into tooling-- editors, etc
-**** https://github.com/2colours/Raku-ideas/blob/main/Raku%20Editor%20and%20Tooling%20workgroup.md
-**** atom-language plug-in
-***** https://github.com/Raku/atom-language
 
 *** william michaels 
 **** https://unix.stackexchange.com/a/742940/227738
