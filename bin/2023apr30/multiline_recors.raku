@@ -4,5 +4,5 @@
 
 use v6;
 
-.say for "data/addresses.txt".IO.lines;
+"data/addresses.txt".IO.lines.say;
 
