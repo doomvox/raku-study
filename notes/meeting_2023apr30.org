@@ -14,12 +14,6 @@
 *** joe "erlang" armstrong, "the mess we're in"
 **** https://www.youtube.com/watch?v=lKXe3HUG2l4
 
-*** william michaels 
-**** https://unix.stackexchange.com/a/742940/227738
-**** convert and filter data in fortran "D" format to standard scientific "E" notation
-***** https://github.com/doomvox/raku-study/tree/main/bin/2023apr16/unixstackexchange_fortran_d_to_scientific_e_and_filter.raku
-***** https://github.com/doomvox/raku-study/tree/main/bin/2023apr16/unixstackexchange_fortran_d_to_scientific_e_and_filter-bg.raku
-
 *** weekly challenge 212
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-212/
 **** bruce gray worked over the solutions, with interesting asides...
