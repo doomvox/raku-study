@@ -4,5 +4,6 @@
 
 use v6;
 
-"data/addresses.txt".IO.lines;
+my $data_file = "data/addresses.txt";
+.say for $data_file.IO.lines.grep: {
 
