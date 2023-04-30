@@ -19,6 +19,7 @@
 **** bruce gray worked over the solutions, with interesting asides...
 **** more later TODO
 
+
 ** announcements 
 *** next meeting: April 30th
 **** note: after this, we'll need to skip May 14 (mother's day)
