@@ -13,6 +13,5 @@ my $data_file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023apr30/dat
 
 .say for $data_file.IO.lines.grep: {
     my @data = $_.split('","');
-
     $_ if @data[2] eq "Protein" and @data[4] > 70 and @data[5] ~~ /^g/
 }
