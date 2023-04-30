@@ -1,0 +1,47 @@
+* meeting notes April 30, 2023
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023apr16.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2023apr16
+https://github.com/doomvox/raku-study/tree/main/bin/2021apr11
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022mar16.org
+
+
+** topics
+*** https://www.codesections.com/blog/raku-unit-testing-with-conditional-compilation/
+***** A concern with debugging instead of testing got me to that, but same same.
+
+*** rir: a 4 line whats-it-do-program challenge.  It beat me.
+**** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023apr16/rir_question_array_interpolation_in_quoted_strings.raku
+
+*** marton interested in a group to look into tooling-- editors, etc
+**** https://github.com/2colours/Raku-ideas/blob/main/Raku%20Editor%20and%20Tooling%20workgroup.md
+**** atom-language plug-in
+***** https://github.com/Raku/atom-language
+
+*** william michaels 
+**** https://unix.stackexchange.com/a/742940/227738
+**** convert and filter data in fortran "D" format to standard scientific "E" notation
+***** https://github.com/doomvox/raku-study/tree/main/bin/2023apr16/unixstackexchange_fortran_d_to_scientific_e_and_filter.raku
+***** https://github.com/doomvox/raku-study/tree/main/bin/2023apr16/unixstackexchange_fortran_d_to_scientific_e_and_filter-bg.raku
+
+*** weekly challenge 212
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-212/
+**** bruce gray worked over the solutions, with interesting asides...
+**** more later TODO
+
+** announcements 
+*** next meeting: April 30th
+**** note: after this, we'll need to skip May 14 (mother's day)
+*** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
+**** alan has been volunteered. 
+**** check the hotel anyway
+
+
+
+
