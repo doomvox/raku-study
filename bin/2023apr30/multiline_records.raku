@@ -4,7 +4,7 @@
 
 use v6;
 
-my $data_file = "data/addresses.txt";
+my $data_file = "./data/addresses.txt";
 .say for $data_file.IO.lines.grep: {
     $_
 }
