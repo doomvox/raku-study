@@ -4,6 +4,6 @@
 
 use v6;
 
-for "data/addresses.txt".IO.lines -> $rec {
-    say $rec";
-    }
+for "data/addresses.txt".IO.lines -> $line {
+    say $line";
+}
