@@ -14,8 +14,6 @@
 *** joe "erlang" armstrong, "the mess we're in"
 **** https://www.youtube.com/watch?v=lKXe3HUG2l4
 
-
-
 *** william michaels 
 **** https://unix.stackexchange.com/a/742940/227738
 **** convert and filter data in fortran "D" format to standard scientific "E" notation
