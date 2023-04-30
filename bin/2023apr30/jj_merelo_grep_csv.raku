@@ -7,7 +7,8 @@ use v6;
 ## From JJ Mereleo's Raku Cookbook (Chapter 3)
 ##  https://www.nal.usda.gov/human-nutrition-and-food-safety/nutrient-lists-standard-reference-legacy-2018
 
-my $data_file = "/home/doom/Dust/Data/all_downloads_apr_2023/nutrient.csv";
+## my $data_file = "/home/doom/Dust/Data/all_downloads_apr_2023/nutrient.csv";
+
 
 .say for $data_file.IO.lines.grep: {
     my @data = $_.split('","');
