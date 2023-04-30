@@ -2,7 +2,7 @@
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023apr16.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023apr30.org
 
 ***** code examples
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2023apr16
