@@ -4,6 +4,5 @@
 
 use v6;
 
-for "data/addresses.txt".IO.lines -> $line {
-    say $line";
-}
+.say for "data/addresses.txt".IO.lines;
+
