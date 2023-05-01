@@ -25,6 +25,10 @@
 
 *** german sharp s and unicode
 **** https://stackoverflow.com/questions/76138999/german-ß-unicode-name-sharp-s-eszett-language-with-foldcase-conversion-be
+**** bruce gray:
+#+BEGIN_SRC sh
+raku -e 'for <straße STRASSE STRAẞE>.rotor(2 => -1) { say .[0].fc eq .[1].fc }'
+#+END_SRC
 
 ** announcements 
 *** next meeting: May 21st
