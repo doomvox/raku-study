@@ -20,7 +20,7 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-213/
 
 ** announcements 
-*** next meeting: April 30th
+*** next meeting: May 21st
 **** note: after this, we'll need to skip May 14 (mother's day)
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
 **** alan has been volunteered. 
