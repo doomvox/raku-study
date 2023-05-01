@@ -29,6 +29,7 @@
 #+BEGIN_SRC sh
 raku -e 'for <straße STRASSE STRAẞE>.rotor(2 => -1) { say .[0].fc eq .[1].fc }'
 #+END_SRC
+**** "The common example for such a case was IN MASZEN (in Maßen "in moderate amounts") vs. IN MASSEN (in Massen "in massive amounts"), "
 
 ** announcements 
 *** next meeting: May 21st
