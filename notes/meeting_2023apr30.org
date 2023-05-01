@@ -14,10 +14,12 @@
 *** joe "erlang" armstrong, "the mess we're in"
 **** https://www.youtube.com/watch?v=lKXe3HUG2l4
 
-*** weekly challenge 212
+*** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-212/
 
 
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-213/
 
 ** announcements 
 *** next meeting: April 30th
