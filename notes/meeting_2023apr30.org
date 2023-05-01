@@ -19,6 +19,13 @@
 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-213/
 
+*** smith-waterman
+**** https://en.wikipedia.org/wiki/Smith–Waterman_algorithm
+**** https://cs.stanford.edu/people/eroberts/courses/soco/projects/computers-and-the-hgp/smith_waterman.html
+
+*** german sharp s and unicode
+**** https://stackoverflow.com/questions/76138999/german-ß-unicode-name-sharp-s-eszett-language-with-foldcase-conversion-be
+
 ** announcements 
 *** next meeting: May 21st
 **** note: after this, we'll need to skip May 14 (mother's day)
