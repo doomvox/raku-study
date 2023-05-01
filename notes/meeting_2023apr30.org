@@ -17,8 +17,6 @@
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-212/
 
-
-
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-213/
 
 ** announcements 
