@@ -27,3 +27,16 @@ use v6;
     $code.(); # ho
 }
 
+{
+    sub a( $a is raw ) {...}
+}
+{
+    sub a( $a is copy ) {...}    
+}
+{
+    sub a( $a ) {...}    
+}
+{
+    sub a( $a is rw ) {...}    
+}   
+}
