@@ -15,6 +15,9 @@
 
 *** rob questions 
 
+*** marton: language design
+**** strong-typing / weak-typing debate, etc
+
 *** MAIN topic
 
 **** documentation is pretty good
