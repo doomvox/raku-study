@@ -15,9 +15,6 @@
 
 *** rob questions 
 
-*** marton: language design
-**** strong-typing / weak-typing debate, etc
-
 *** MAIN topic
 **** documentation is pretty good
 ***** https://new-raku.finanalyst.org/routine/MAIN
@@ -33,6 +30,10 @@
 
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-214
+
+*** marton: language design
+**** strong-typing / weak-typing debate, etc
+
 
 ** csv hacks
 **** jjmerelo's weak cookbook example: roll-your own csv parsing
