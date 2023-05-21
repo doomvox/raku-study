@@ -12,7 +12,7 @@
 
 ** topics
 
-** 
+*** MAIN topic
 
 ** topics from last meeting (anything else?)
 *** joe "erlang" armstrong, "the mess we're in"
