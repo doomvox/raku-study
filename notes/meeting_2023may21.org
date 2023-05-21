@@ -27,6 +27,9 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-217
 **** bruce gray on sorting
 
+*** marton: language design
+**** strong-typing / weak-typing debate, etc
+
 *** MAIN topic
 **** documentation is pretty good
 ***** https://new-raku.finanalyst.org/routine/MAIN
@@ -39,9 +42,6 @@
 *** alludes to Supply/Tap for data difficult to chunk as "lines"
 **** write/find code example
 ***** data: US mail addresses in simple text file
-
-*** marton: language design
-**** strong-typing / weak-typing debate, etc
 
 
 ** csv hacks
