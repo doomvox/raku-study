@@ -58,7 +58,8 @@ GetOptions ("d|debug"    => \$DEBUG,
 my $r1 = 1 .. 5;  # 1 <= $x <= 5 
 my $r2 = 1^.. 5;  # 1 <  $x <= 5 
 
-
+say $r1.bounds;
+say $r2.bounds;
 
 
 
