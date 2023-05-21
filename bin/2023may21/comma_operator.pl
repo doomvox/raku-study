@@ -80,6 +80,13 @@ say Dumper(\@array);
 ## Useless use of a constant (2) in void context at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023may21/comma_operator.pl line 74.
 
 
+my @all_of_em = (1, 2, 3, 4);
+say Dumper(\@all_of_em);
+
+
+
+
+
 
 
 ### end main, into the subs
@@ -109,7 +116,7 @@ sub say_version {
 
 
 __END__
-
+p
 =head1 AUTHOR
 
 Joseph Brenner, E<lt>doom@kzsu.stanford.eduE<gt>
@@ -127,3 +134,4 @@ No warranty is provided with this code.
 See http://dev.perl.org/licenses/ for more information.
 
 =cut
+
