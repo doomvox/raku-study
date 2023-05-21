@@ -14,6 +14,21 @@
 
 *** MAIN topic
 
+**** documentation is pretty good
+***** https://new-raku.finanalyst.org/routine/MAIN
+
+**** jjmerelo 5-2, p.80: using MAIN for command-line args
+***** relies on earlier data, example from ch3
+***** elaborate ("real"?) example, but talks about everything but MAIN
+***** "autodocumenting", but shows no doc strings
+
+** csv hacks
+**** jjmerelo's weak cookbook example: roll-your own csv parsing
+***** improve 
+****** line-at-a-time Text::CSV processing
+****** pre-scan to confirm no complex elements
+
+
 ** topics from last meeting (anything else?)
 *** joe "erlang" armstrong, "the mess we're in"
 **** https://www.youtube.com/watch?v=lKXe3HUG2l4
