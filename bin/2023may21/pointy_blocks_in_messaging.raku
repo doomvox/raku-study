@@ -5,7 +5,7 @@
 use v6;
 
 my $code = { .say };
-
+say $code;
 
 
 
