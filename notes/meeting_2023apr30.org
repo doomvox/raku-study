@@ -8,7 +8,7 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2023apr30
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022apr16.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023apr16.org
 
 ** topics
 *** joe "erlang" armstrong, "the mess we're in"
