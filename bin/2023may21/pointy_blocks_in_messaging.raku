@@ -28,15 +28,15 @@ use v6;
 }
 
 {
-    sub a( $a is raw ) {...}
+    sub a( $a is raw ) { .say }
 }
 {
-    sub a( $a is copy ) {...}    
+    sub a( $a is copy ) { .say }    
 }
 {
-    sub a( $a ) {...}    
+    sub a( $a ) { .say }    
 }
 {
-    sub a( $a is rw ) {...}    
+    sub a( $a is rw ) { .say }    
 }   
 }
