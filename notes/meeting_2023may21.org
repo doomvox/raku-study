@@ -16,6 +16,7 @@
 *** rob questions 
 **** perl5: do commas create a list
 **** raku:  Range type has a .bounds, and a .int (.Int?)
+***** raku-study/bin/2023may21/range_bounds_method.raku
 
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-217
