@@ -96,6 +96,9 @@ say Dumper(\@all_of_em);
 # 1
 
 
+if( 'what am i' ) {
+  say "those parens weren't a list";
+}
 
 
 
