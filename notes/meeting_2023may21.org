@@ -18,7 +18,7 @@
 **** raku:  Range type has a .bounds, and a .int (.Int?)
 ***** raku-study/bin/2023may21/range_bounds_method.raku
 **** pointy block, a "regular meaning"
-**** operators-- something about "not real" operators?  Hm?
+**** operators;  Something about "not real" operators?  Hm?
 
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-217
