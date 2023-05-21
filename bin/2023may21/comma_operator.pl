@@ -82,7 +82,13 @@ say Dumper(\@array);
 
 my @all_of_em = (1, 2, 3, 4);
 say Dumper(\@all_of_em);
-
+# $VAR1 = [
+#           1,
+#           2,
+#           3,
+#           4
+#         ];
+ 
 
 
 
