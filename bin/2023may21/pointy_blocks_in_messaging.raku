@@ -14,7 +14,7 @@ use v6;
 
 
 
-    my $code2 = { .say };
+    my $code2 = { .say};
     say $code2;
 }
 
