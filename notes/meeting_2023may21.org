@@ -11,6 +11,7 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023apr30.org
 
 ** topics
+*** first topic: any more topics?
 
 *** MAIN topic
 
@@ -25,6 +26,8 @@
 **** write/find code example
 ***** data: US mail addresses in simple text file
 
+
+
 ** csv hacks
 **** jjmerelo's weak cookbook example: roll-your own csv parsing
 ***** improve 
@@ -32,9 +35,7 @@
 ****** pre-scan to confirm no complex elements
 
 
-** topics from last meeting (anything else?)
-*** joe "erlang" armstrong, "the mess we're in"
-**** https://www.youtube.com/watch?v=lKXe3HUG2l4
+** topics from last meeting
 
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-212/
