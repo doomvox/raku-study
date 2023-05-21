@@ -14,7 +14,7 @@
 *** first topic: any more topics?
 
 *** rob questions 
-**** 
+**** perl5 do commas create a list
 **** 
 
 *** weekly challenge 
