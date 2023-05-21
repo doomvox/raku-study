@@ -55,6 +55,9 @@ GetOptions ("d|debug"    => \$DEBUG,
 { no warnings 'once'; $DB::single = 1; }
 
 
+my $r1 = 1 .. 5;  # 1 <= $x <= 5 
+my $r2 = 1^.. 5;  # 1 <  $x <= 5 
+
 
 
 
