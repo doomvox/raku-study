@@ -28,7 +28,8 @@
 **** write/find code example
 ***** data: US mail addresses in simple text file
 
-
+*** weekly challenge 
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-214
 
 ** csv hacks
 **** jjmerelo's weak cookbook example: roll-your own csv parsing
