@@ -36,6 +36,8 @@ use v6;
 #   in block <unit> at -e line 1
 # So, arity of $a is 1, but is reported as 0. Bug, IMHO.
 
+say "===";
+
 {
     sub a( $a is raw ) { .say }
     a(5);
