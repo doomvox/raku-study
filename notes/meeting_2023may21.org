@@ -14,8 +14,8 @@
 *** first topic: any more topics?
 
 *** rob questions 
-**** perl5 do commas create a list
-**** 
+**** perl5: do commas create a list
+**** raku:  Range type has a .bounds, and a .int (.Int?)
 
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-217
