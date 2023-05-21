@@ -9,7 +9,8 @@ my $r2 = 1^.. 5;  # 1 <  $x <= 5
 
 say $r1.bounds;
 say $r2.bounds;
-
+# (1 5)
+# (1 5)
 
 
 
