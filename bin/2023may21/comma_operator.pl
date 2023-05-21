@@ -73,8 +73,11 @@ say Dumper(\@b);
 
 my @array = 1, 2, 3, 4;
 say Dumper(\@array);
+# $VAR1 = [
+#           1
+#         ];
 
-
+## Useless use of a constant (2) in void context at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023may21/comma_operator.pl line 74.
 
 
 
