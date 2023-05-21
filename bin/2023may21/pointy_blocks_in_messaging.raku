@@ -39,20 +39,20 @@ use v6;
 say "===";
 
 {
-    sub a( $a is raw ) { .say }
+    sub a( $a is raw ) { .say $a }
     a(5);
 }
 {
-    sub a( $a is copy ) { .say }    
+    sub a( $a is copy ) { .say $a }    
     a(5);
     a(5);
 }
 {
-    sub a( $a ) { .say }    
+    sub a( $a ) { .say $a }    
     a(5);
 }
 {
-    sub a( $a is rw ) { .say }    
+    sub a( $a is rw ) { .say $a }    
     a(5);
 }   
 
