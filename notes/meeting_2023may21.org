@@ -42,5 +42,5 @@ raku -e 'for <straße STRASSE STRAẞE>.rotor(2 => -1) { say .[0].fc eq .[1].fc 
 
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
 **** Bruce Gray will be speaking
-**** note: Alan is local
+**** note: Alan lives in Toronto
 
