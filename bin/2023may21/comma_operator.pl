@@ -89,7 +89,11 @@ say Dumper(\@all_of_em);
 #           4
 #         ];
  
-
+## bruce gray
+# perl -wE 'my @z = (1) x 5; say 0+@z;'
+# 5
+# perl -wE 'my @z =  1  x 5; say 0+@z;' 
+# 1
 
 
 
