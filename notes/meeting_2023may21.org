@@ -8,7 +8,7 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2023may21
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022apr30.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023apr30.org
 
 ** topics
 
