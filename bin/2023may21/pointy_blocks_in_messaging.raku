@@ -16,7 +16,7 @@ use v6;
 
 }
 {
-    my $code = -> { .say };
+    my $code = -> { .say};
     say $code;
     ## ->  { #`(Block|4213498768920) ... }
     $code.("hey"); # hey
