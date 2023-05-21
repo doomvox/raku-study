@@ -59,7 +59,8 @@ my @a = ('whun');
 
 my @b = 'whun';
 
-
+say Dumper(@a);
+say Dumper(@b);
 
 
 
