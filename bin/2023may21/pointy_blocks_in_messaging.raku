@@ -27,6 +27,15 @@ use v6;
     $code.(); # ho
 }
 
+## bruce gray:
+# raku -e 'my $a = {.say}; my $b = -> { .say }; say .arity for $a,$b; $a.(5); $b.(6);'
+# 0
+# 0
+# 5
+# Too many positionals passed; expected 0 arguments but got 1
+#   in block <unit> at -e line 1
+# So, arity of $a is 1, but is reported as 0. Bug, IMHO.
+
 {
     sub a( $a is raw ) { .say }
     &a
