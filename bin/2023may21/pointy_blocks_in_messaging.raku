@@ -11,10 +11,10 @@ use v6;
 
     ## hm, double semi-colons?
     # https://stackoverflow.com/questions/75710748/why-use-double-semicolon-in-raku-function-signature
-}
 
-{
-    my $code = { .say };
-    say $code;
+
+
+    my $code2 = { .say };
+    say $code2;
 }
 
