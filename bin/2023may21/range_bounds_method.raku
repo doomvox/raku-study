@@ -14,9 +14,8 @@ say $r2.bounds;
 
 # bruce gray points out that the Range is *continuous*, not discrete (integers):
 
-# raku -e 'my Range $r = 1 ^..^ 5; say $_ ~~ $r for 1, 5, 6'
-
-# raku -e 'my Range $r = 1 ^..^ 5; say $_ ~~ $r for 1, 1.5, 4.5, 5, 6'
+#   raku -e 'my Range $r = 1 ^..^ 5; say $_ ~~ $r for 1, 5, 6'
+#   raku -e 'my Range $r = 1 ^..^ 5; say $_ ~~ $r for 1, 1.5, 4.5, 5, 6'
 
 
 
