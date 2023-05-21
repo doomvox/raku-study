@@ -40,7 +40,6 @@
 **** write/find code example
 ***** data: US mail addresses in simple text file
 
-
 *** marton: language design
 **** strong-typing / weak-typing debate, etc
 
