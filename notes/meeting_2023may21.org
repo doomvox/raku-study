@@ -17,7 +17,6 @@
 
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-217
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-214
 **** bruce gray on sorting
 
 *** MAIN topic
