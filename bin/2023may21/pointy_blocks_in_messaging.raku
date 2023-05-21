@@ -40,19 +40,18 @@ say "===";
 
 {
     sub a( $a is raw ) { say $a }
-    a(5);
+    a(1);
 }
 {
     sub a( $a is copy ) { say $a }    
-    a(5);
-    a(5);
+    a(2);
 }
 {
     sub a( $a ) { say $a }    
-    a(5);
+    a(3);
 }
 {
     sub a( $a is rw ) { say $a }    
-    a(5);
+    a(4);
 }   
 
