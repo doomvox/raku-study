@@ -36,7 +36,6 @@ multi MAIN(
     name :$profile,    #= Write profile information to a file 
     port :$debug-port, #= Listen for debugger connections on the specified port 
     Bool :v($verbose), #= Display verbose output 
- 
 ) {}
 multi MAIN("--process-files", *@images) {}
 
