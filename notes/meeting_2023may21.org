@@ -15,6 +15,10 @@
 
 *** rob questions 
 
+*** weekly challenge 
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-214
+**** bruce gray on sorting
+
 *** MAIN topic
 **** documentation is pretty good
 ***** https://new-raku.finanalyst.org/routine/MAIN
@@ -28,8 +32,6 @@
 **** write/find code example
 ***** data: US mail addresses in simple text file
 
-*** weekly challenge 
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-214
 
 *** marton: language design
 **** strong-typing / weak-typing debate, etc
