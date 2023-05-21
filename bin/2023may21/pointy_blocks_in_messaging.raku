@@ -29,6 +29,7 @@ use v6;
 
 {
     sub a( $a is raw ) { .say }
+    &a
 }
 {
     sub a( $a is copy ) { .say }    
