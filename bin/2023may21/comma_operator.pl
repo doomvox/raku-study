@@ -56,11 +56,25 @@ GetOptions ("d|debug"    => \$DEBUG,
 
 
 my @a = ('whun');
-
 my @b = 'whun';
 
 say Dumper(\@a);
 say Dumper(\@b);
+
+# $VAR1 = [
+#           'whun'
+#         ];
+
+# $VAR1 = [
+#           'whun'
+#         ];
+
+
+
+my @array = 1, 2, 3, 4;
+say Dumper(\@array);
+
+
 
 
 
