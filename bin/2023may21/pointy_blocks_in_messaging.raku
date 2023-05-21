@@ -38,15 +38,19 @@ use v6;
 
 {
     sub a( $a is raw ) { .say }
-    &a
+    a(5);
 }
 {
     sub a( $a is copy ) { .say }    
+    a(5);
+    a(5);
 }
 {
     sub a( $a ) { .say }    
+    a(5);
 }
 {
     sub a( $a is rw ) { .say }    
+    a(5);
 }   
-}
+
