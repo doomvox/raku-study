@@ -55,6 +55,11 @@ GetOptions ("d|debug"    => \$DEBUG,
 { no warnings 'once'; $DB::single = 1; }
 
 
+my @a = ('whun');
+
+my @b = 'whun';
+
+
 
 
 
