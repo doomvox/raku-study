@@ -17,8 +17,10 @@ say $r2.bounds;
 #   raku -e 'my Range $r = 1 ^..^ 5; say $_ ~~ $r for 1, 5, 6'
 #   raku -e 'my Range $r = 1 ^..^ 5; say $_ ~~ $r for 1, 1.5, 4.5, 5, 6'
 
-say $r1.int-bounds;
-say $r2.int-bounds;
+say $r1.int-bounds; # (1 5)
+say $r2.int-bounds; # (2 5)
+
+
 
 
 
