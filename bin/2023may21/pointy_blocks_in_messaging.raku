@@ -63,7 +63,7 @@ say "===";
 {
     my $n = 5;
     sub a( $a is rw ) { say $a }    
-    a($n);
+    a($n); # 5
 
 # Parameter '$a' expects a writable container (variable) as an argument,
 # but got '4' (Int) as a value without a container.
