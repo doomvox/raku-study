@@ -21,5 +21,5 @@ say $r1.int-bounds; # (1 5)
 say $r2.int-bounds; # (2 5)
 
 
-say $r1.min, $r1.max;
-say $r2.min, $r2.max;
+say $r1.min, $r1.max;  # 15
+say $r2.min, $r2.max;  # 15
