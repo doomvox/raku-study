@@ -1,0 +1,46 @@
+* meeting notes May 21, 2023
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023may21.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2023may21
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2022apr16.org
+
+** topics
+*** joe "erlang" armstrong, "the mess we're in"
+**** https://www.youtube.com/watch?v=lKXe3HUG2l4
+
+*** weekly challenge 
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-212/
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-213/
+
+*** smith-waterman
+**** https://en.wikipedia.org/wiki/Smith–Waterman_algorithm
+**** https://cs.stanford.edu/people/eroberts/courses/soco/projects/computers-and-the-hgp/smith_waterman.html
+
+*** german sharp s and unicode
+**** https://stackoverflow.com/questions/76138999/german-ß-unicode-name-sharp-s-eszett-language-with-foldcase-conversion-be
+**** bruce gray:
+#+BEGIN_SRC sh
+raku -e 'for <straße STRASSE STRAẞE>.rotor(2 => -1) { say .[0].fc eq .[1].fc }'
+#+END_SRC
+**** "The common example for such a case was IN MASZEN (in Maßen "in moderate amounts") vs. IN MASSEN (in Massen "in massive amounts"), "
+
+*** leap seconds
+**** https://www.nature.com/articles/d41586-022-03783-5
+
+** announcements 
+*** next meeting: May 21st
+**** note: after this, we'll need to skip May 14 (mother's day)
+*** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
+**** alan has been volunteered. 
+**** check the hotel anyway
+
+
+
+
