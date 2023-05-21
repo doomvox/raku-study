@@ -26,6 +26,7 @@
 ***** relies on earlier data, example from ch3
 ***** elaborate ("real"?) example, but talks about everything but MAIN
 ***** "autodocumenting", but shows no doc strings
+
 *** alludes to Supply/Tap for data difficult to chunk as "lines"
 **** write/find code example
 ***** data: US mail addresses in simple text file
