@@ -18,7 +18,9 @@
 **** raku:  Range type has a .bounds, and a .int (.Int?)
 ***** raku-study/bin/2023may21/range_bounds_method.raku
 **** pointy block, a "regular meaning"
-**** operators;  Something about "not real" operators?  Hm?
+**** operators;  operators that aren't quite "real operators"?  
+***** decont,  << ... >>
+***** Q: can you use it with a hyper? if not it's not real?
 
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-217
