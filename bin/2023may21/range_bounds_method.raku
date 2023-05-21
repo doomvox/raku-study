@@ -1,105 +1,55 @@
-#!/usr/bin/env perl
-# range_bounds_method.raku                   doom@kzsu.stanford.edu
-#                                            21 May 2023
+#!/usr/bin/env raku
+# 
+# range_bounds_method.raku            21 May 2023 
 
-=head1 NAME
+use v6;
 
-range_bounds_method.raku - (( TODO insert brief description ))
+my $r1 = 1 .. 5;  # 1 <= $x <= 5 
+my $r2 = 1^.. 5;  # 1 <  $x <= 5 
 
-=head1 SYNOPSIS
-
-  range_bounds_method.raku -[options] [arguments]
-
-  TODO
-
-=head1 DESCRIPTION
-
-B<range_bounds_method.raku> is a script which
-
-(( TODO  insert explanation
-   This is stub documentation created by template.el.  ))
-
-=cut
-
-use feature ":5.10.0";
-use warnings;
-use strict;
-$|=1;
-use Carp;
-use Data::Dumper;
-
-use File::Path      qw( mkpath remove_tree );
-use File::Basename  qw( fileparse basename dirname );
-use File::Copy      qw( copy move );
-use autodie         qw( :all mkpath copy move ); # system, exec, open, close, etc
-use Cwd             qw( cwd abs_path );
-use Env             qw( HOME USER );
-use String::ShellQuote qw( shell_quote );
-use Config::Std;
-use Getopt::Long    qw( :config no_ignore_case bundling );
-use List::Util      qw( first max maxstr min minstr reduce shuffle sum any );
-use List::MoreUtils qw( zip uniq );
-use POSIX qw( ceil floor );
-
-our $VERSION = 0.01;
-my  $prog    = basename($0);
-
-my $DEBUG   = 1;                 # TODO set default to 0 when in production
-GetOptions ("d|debug"    => \$DEBUG,
-            "v|version"  => sub{ say_version(); },
-            "h|?|help"   => sub{ say_usage();   },
-           ) or say_usage();
-#           "length=i" => \$length,        # numeric
-#           "file=s"   => \$file,          # string
-
-{ no warnings 'once'; $DB::single = 1; }
+say $r1.bounds;
+say $r2.bounds;
 
 
 
 
 
-### end main, into the subs
+# ====
+#  sheet of cheats
 
-sub say_usage {
-  my $usage=<<"USEME";
-  $prog -[options] [arguments]
+# A unicode paste board:
+# «
+# »
+# π
+# 𝑒
 
-  Options:
-     -d          debug messages on
-     --debug     same
-     -h          help (show usage)
-     -v          show version
-     --version   show version
+# use DBIish;
+# my $dbh = DBIish.connect("Pg", database => 'doom', :user<doom>, :port<5434>);
 
-TODO add additional options
+# my $sth = $dbh.prepare(q:to/STATEMENT/);
+#     SELECT * FROM funked_up
+# STATEMENT
 
-USEME
-  print "$usage\n";
-  exit;
-}
-
-sub say_version {
-  print "Running $prog version: $VERSION\n";
-  exit 1;
-}
+# $sth.execute();
+# my @rows = $sth.allrows();
 
 
-__END__
 
-=head1 AUTHOR
+# external commands without shell:
+# my $arg = 'Hello';
+# my $captured = run('echo', $arg, :out).out.slurp;
+# my $captured = run(«echo "$arg"», :out).out.slurp;
 
-Joseph Brenner, E<lt>doom@kzsu.stanford.eduE<gt>
 
-=head1 COPYRIGHT AND LICENSE
+# using shell:
+# my $arg = 'Hello';
+# my $captured = shell("echo $arg", :out).out.slurp;
+# my $captured = qqx{echo $arg};
 
-Copyright (C) 2023 by Joseph Brenner
 
-This program is free software; you can redistribute it and/or modify it
-under the terms of either: the GNU General Public License as published
-by the Free Software Foundation; or the Artistic License.
+## Try to make errors into warnings
+#   CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
-No warranty is provided with this code.
+# ===
+# Author:  doom@kzsu.stanford.edu
 
-See http://dev.perl.org/licenses/ for more information.
-
-=cut
