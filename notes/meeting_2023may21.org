@@ -37,11 +37,12 @@ raku -e 'for <straße STRASSE STRAẞE>.rotor(2 => -1) { say .[0].fc eq .[1].fc 
 **** https://www.nature.com/articles/d41586-022-03783-5
 
 ** announcements 
-*** next meeting: May 21st
+*** next meeting: June 04
+**** in two weeks for once
 
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
-**** alan has been volunteered. 
-**** check the hotel anyway
+**** Bruce Gray will be speaking
+
 
 
 
