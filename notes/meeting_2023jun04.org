@@ -35,28 +35,10 @@
 ***** data: US mail addresses in simple text file
 
 ** csv hacks
-**** jjmerelo's weak cookbook example: roll-your own csv parsing
+**** jjmerelo 'recipie" has weak cookbook example: roll-your own csv parsing
 ***** improve 
 ****** line-at-a-time Text::CSV processing
 ****** pre-scan to confirm no complex elements
-
-
-** topics from last meeting
-
-*** weekly challenge 
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-212/
-
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-213/
-
-
-*** german sharp s and unicode
-**** https://stackoverflow.com/questions/76138999/german-ß-unicode-name-sharp-s-eszett-language-with-foldcase-conversion-be
-**** bruce gray:
-#+BEGIN_SRC sh
-raku -e 'for <straße STRASSE STRAẞE>.rotor(2 => -1) { say .[0].fc eq .[1].fc }'
-#+END_SRC
-**** "The common example for such a case was IN MASZEN (in Maßen "in moderate amounts") vs. IN MASSEN (in Massen "in massive amounts"), "
-
 
 ** announcements 
 *** next meeting: June 04
