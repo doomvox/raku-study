@@ -41,8 +41,7 @@
 ****** pre-scan to confirm no complex elements
 
 ** announcements 
-*** next meeting: June 04
-**** in two weeks for once
+*** next meeting: June 18
 
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
 **** Bruce Gray will be speaking
