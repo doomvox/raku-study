@@ -1,0 +1,83 @@
+* meeting notes June 04, 2023
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023jun04.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2023jun04
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023may21.org
+
+** topics
+*** first topic: any more topics?
+
+*** rob questions 
+**** perl5: do commas create a list
+**** raku:  Range type has a .bounds, and a .int (.Int?)
+***** raku-study/bin/2023may21/range_bounds_method.raku
+**** pointy block, a "regular meaning"
+**** operators;  operators that aren't quite "real operators"?  
+***** decont,  << ... >>
+***** can you use it with a hyper? if not it's not real?
+***** https://github.com/rakudo/rakudo/blob/fac61c28edf397925e7184fe3ad25a71a1fae0b0/src/Perl6/Actions.nqp#L8443
+
+*** weekly challenge 
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-217
+**** bruce gray on sorting
+
+*** marton: language design
+**** strong-typing / weak-typing debate, etc
+**** types determine operations (pythonic approach)
+**** alternately a "strong operators" approach, operator drives what happens, not the types
+***** deduce the type of the operation and coerce.
+**** seems like "pythonic" is always workable, raku approach maybe not.
+**** Raku limits, example .push, Any exposes Array version, but the Hash has it's own.
+
+*** MAIN topic
+**** documentation is pretty good
+***** https://new-raku.finanalyst.org/routine/MAIN
+
+**** jjmerelo 5-2, p.80: using MAIN for command-line args
+***** relies on earlier data, example from ch3
+***** elaborate ("real"?) example, but talks about everything but MAIN
+***** "autodocumenting", but shows no doc strings
+
+*** alludes to Supply/Tap for data difficult to chunk as "lines"
+**** write/find code example
+***** data: US mail addresses in simple text file
+
+
+** csv hacks
+**** jjmerelo's weak cookbook example: roll-your own csv parsing
+***** improve 
+****** line-at-a-time Text::CSV processing
+****** pre-scan to confirm no complex elements
+
+
+** topics from last meeting
+
+*** weekly challenge 
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-212/
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-213/
+
+
+*** german sharp s and unicode
+**** https://stackoverflow.com/questions/76138999/german-ß-unicode-name-sharp-s-eszett-language-with-foldcase-conversion-be
+**** bruce gray:
+#+BEGIN_SRC sh
+raku -e 'for <straße STRASSE STRAẞE>.rotor(2 => -1) { say .[0].fc eq .[1].fc }'
+#+END_SRC
+**** "The common example for such a case was IN MASZEN (in Maßen "in moderate amounts") vs. IN MASSEN (in Massen "in massive amounts"), "
+
+
+** announcements 
+*** next meeting: June 04
+**** in two weeks for once
+
+*** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
+**** Bruce Gray will be speaking
+**** note: Alan lives in Toronto
+
