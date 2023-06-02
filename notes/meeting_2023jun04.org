@@ -20,13 +20,6 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-217
 
 
-*** marton: language design
-**** strong-typing / weak-typing debate, etc
-**** types determine operations (pythonic approach)
-**** alternately a "strong operators" approach, operator drives what happens, not the types
-***** deduce the type of the operation and coerce.
-**** seems like "pythonic" is always workable, raku approach maybe not.
-**** Raku limits, example .push, Any exposes Array version, but the Hash has it's own.
 
 *** MAIN topic
 **** documentation is pretty good
