@@ -13,7 +13,7 @@
 ** topics
 *** first topic: any more topics?
 
-*** rob idea
+*** rob (rir):
 
 This one comes from an undone detail in a weekly challenge so it could
 be then.
