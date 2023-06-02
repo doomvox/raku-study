@@ -14,14 +14,7 @@
 *** first topic: any more topics?
 
 *** rob questions 
-**** perl5: do commas create a list
-**** raku:  Range type has a .bounds, and a .int (.Int?)
-***** raku-study/bin/2023may21/range_bounds_method.raku
-**** pointy block, a "regular meaning"
-**** operators;  operators that aren't quite "real operators"?  
-***** decont,  << ... >>
-***** can you use it with a hyper? if not it's not real?
-***** https://github.com/rakudo/rakudo/blob/fac61c28edf397925e7184fe3ad25a71a1fae0b0/src/Perl6/Actions.nqp#L8443
+
 
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-217
