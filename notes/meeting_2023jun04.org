@@ -30,10 +30,9 @@
 ***** elaborate ("real"?) example, but talks about everything but MAIN
 ***** "autodocumenting", but shows no doc strings
 
-*** alludes to Supply/Tap for data difficult to chunk as "lines"
-**** write/find code example
+*** Supply/Tap
+**** find code examples (I think jjmerelo "recipies" has one)
 ***** data: US mail addresses in simple text file
-
 
 ** csv hacks
 **** jjmerelo's weak cookbook example: roll-your own csv parsing
