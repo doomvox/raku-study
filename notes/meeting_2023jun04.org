@@ -13,8 +13,11 @@
 ** topics
 *** first topic: any more topics?
 
-*** rob (rir):
+*** weekly challenge 
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-219/
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-218/
 
+*** "enumerated class how-to?" by rob (rir):
 This one comes from an undone detail in a weekly challenge so it could
 be then.
 
@@ -27,8 +30,6 @@ Iterable/Iterator object.
 'Registered' here means that C__D (and maybe U) of CRUD are priveleged
 somehow -- configuration would seem a simpler approach.
 
-*** weekly challenge 
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-217
 
 
 
