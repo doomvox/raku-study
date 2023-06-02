@@ -18,7 +18,7 @@
 
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-217
-**** bruce gray on sorting
+
 
 *** marton: language design
 **** strong-typing / weak-typing debate, etc
