@@ -21,7 +21,7 @@
 
 
 
-*** MAIN topic
+*** MAIN topic (from last meeting)
 **** documentation is pretty good
 ***** https://new-raku.finanalyst.org/routine/MAIN
 
