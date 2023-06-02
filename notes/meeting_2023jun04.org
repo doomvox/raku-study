@@ -14,7 +14,17 @@
 *** first topic: any more topics?
 
 *** rob questions 
+This one comes from an undone detail in a weekly challenge so it could
+be then.
 
+It is an "enumerated class how-to?"  That is all members of
+the class are registered and indexed.
+
+'Indexed' implies that all members of the class are in an
+Iterable/Iterator object.
+
+'Registered' here means that C__D (and maybe U) of CRUD are priveleged
+somehow -- configuration would seem a simpler approach.
 
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-217
