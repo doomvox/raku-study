@@ -25,9 +25,6 @@
 ******  C__D (and maybe U) of CRUD are provided
 ******* configuration would seem a simpler approach.
 
-
-
-
 *** MAIN topic (from last meeting)
 **** documentation is pretty good
 ***** https://new-raku.finanalyst.org/routine/MAIN
