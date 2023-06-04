@@ -10,3 +10,6 @@ use v6;
 
 say &infix:<->.WHAT;
 # (Sub+{is-pure})
+
+
+say &infix:<~>.WHAT;
