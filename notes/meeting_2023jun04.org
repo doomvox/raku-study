@@ -26,8 +26,7 @@
 ***** 'Registered' 
 ******  C__D (and maybe U) of CRUD are provided
 ******* configuration would seem a simpler approach.
-
-**** a follow-on-to challenge 219, #2, "Travel Expenditure".
+**** This is a follow-on-to challenge 219, #2, "Travel Expenditure".
 
 *** MAIN topic (from last meeting)
 **** documentation is pretty good
