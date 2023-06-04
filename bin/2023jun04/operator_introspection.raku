@@ -26,3 +26,6 @@ say &infix:<~>.arity;  ## 0
 ## bg example of arity method
 # raku -e 'sub foo ( $a, $b ) {...}; say &foo.arity'
 # 2
+
+
+say (1, 2, 3)>>**2;
