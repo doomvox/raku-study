@@ -19,4 +19,4 @@ say &infix:<~>.^mro;
 # ((Sub+{is-pure}) (Sub) (Routine) (Block) (Code) (Any) (Mu))
 
 
-say &infix:<~>.ARITY;
+say &infix:<~>.arity;
