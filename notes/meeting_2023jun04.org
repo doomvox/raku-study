@@ -17,8 +17,6 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-219/
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-218/
 
-
-
 *** "enumerated class how-to" by rob (rir)
 **** That is, all members of the class are registered and indexed.
 ***** 'Indexed' 
