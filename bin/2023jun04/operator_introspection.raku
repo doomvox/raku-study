@@ -11,6 +11,8 @@ use v6;
 say &infix:<->.WHAT;
 # (Sub+{is-pure})
 
+## "is-pure": like a pure function.  depends on arguments, has no side-effects.
+
 say &infix:<~>.WHAT;
 # (Sub+{is-pure})
 
