@@ -23,7 +23,6 @@
 ******* add if/else example right after
 ******** "The first line declares two formal positional parameters, while the second declares only one (but refers to it twice). This can be especially significant with constructs such as with, for, and if that are often used without much consideration of the fact that they create blocks."
 
-
 ******* "Thus @^array, %^hash, and &^fun are all valid placeholder variables."
 ******* That could use a 
 
