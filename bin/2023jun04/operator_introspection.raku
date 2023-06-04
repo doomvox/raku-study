@@ -9,3 +9,4 @@ use v6;
 ## syntax for operator introspection
 
 say &infix:<->.WHAT;
+# (Sub+{is-pure})
