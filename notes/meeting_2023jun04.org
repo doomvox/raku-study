@@ -17,6 +17,8 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-219/
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-218/
 
+
+
 *** "enumerated class how-to" by rob (rir)
 **** That is, all members of the class are registered and indexed.
 ***** 'Indexed' 
@@ -24,6 +26,8 @@
 ***** 'Registered' 
 ******  C__D (and maybe U) of CRUD are provided
 ******* configuration would seem a simpler approach.
+
+**** a follow-on-to challenge 219, #2, "Travel Expenditure".
 
 *** MAIN topic (from last meeting)
 **** documentation is pretty good
