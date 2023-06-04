@@ -13,3 +13,6 @@ say &infix:<->.WHAT;
 
 say &infix:<~>.WHAT;
 # (Sub+{is-pure})
+
+
+say &infix:<~>.^mro;
