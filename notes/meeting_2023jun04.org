@@ -20,9 +20,9 @@
 ***** longer var names work (and I didn't remember that)
 ***** https://docs.raku.org/language/variables
 ****** still needs a few more code example
-******* add if/else example right after
+******* TODO add if/else example right after
 ******** "The first line declares two formal positional parameters, while the second declares only one (but refers to it twice). This can be especially significant with constructs such as with, for, and if that are often used without much consideration of the fact that they create blocks."
-******* add an array arg example, right after:
+******* TODO add an array arg example, right after:
 ******** "Thus @^array, %^hash, and &^fun are all valid placeholder variables."
 
 *** weekly challenge 
