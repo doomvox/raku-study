@@ -13,6 +13,17 @@
 ** topics
 *** first topic: any more topics?
 
+*** placeholder variables
+
+
+
+**** @^longname
+
+***** that works, I missed the fact
+***** https://docs.raku.org/language/variables
+****** gotten better on the subject, but needs code example, right after
+****** "The first line declares two formal positional parameters, while the second declares only one (but refers to it twice). This can be especially significant with constructs such as with, for, and if that are often used without much consideration of the fact that they create blocks."
+
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-219/
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-218/
