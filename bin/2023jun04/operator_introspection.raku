@@ -13,3 +13,4 @@ say &infix:<->.WHAT;
 
 
 say &infix:<~>.WHAT;
+# (Sub+{is-pure})
