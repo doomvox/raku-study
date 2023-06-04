@@ -20,3 +20,7 @@ say &infix:<~>.^mro;
 
 
 say &infix:<~>.arity;  ## 0
+
+## bg example of arity method
+# raku -e 'sub foo ( $a, $b ) {...}; say &foo.arity'
+# 2
