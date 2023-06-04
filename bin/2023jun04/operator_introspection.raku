@@ -29,4 +29,4 @@ say &infix:<~>.arity;  ## 0
 
 
 say [+](1, 2, 3); # 6
-say (1, 2, 3)>>.WHAT; # (List)
+say (1, 2, 3)>>.WHAT; # (List)   ??? 
