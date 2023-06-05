@@ -44,6 +44,9 @@
 ***** https://new-raku.finanalyst.org/language/pod
 
 
+**** operator introspection
+https://stackoverflow.com/questions/76309515/how-to-introspect-a-raku-operator
+
 
 **** reduction operator has to handle different data types differently:
 
