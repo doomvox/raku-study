@@ -120,7 +120,7 @@ say 135.Str(:superscript);
 
 
 ** the view from zoom chat window
-
+*** https://en.wikipedia.org/wiki/King_Canute_and_the_tide
 
 
 ** announcements 
