@@ -44,8 +44,20 @@
 ***** https://new-raku.finanalyst.org/language/pod
 
 
-**** codesections "RakuRecord" module (subhead: data handling)
-***** https://github.com/codesections/RakuRecord
+*** latest raku release
+**** https://github.com/rakudo/rakudo/releases/tag/2023.05
+**** odd feature to generate unicode superscript characters
+
+#+BEGIN_SRC raku
+say 135.Str(:superscript);
+##	¹³⁵
+#+END_SRC
+
+	https://unicode-table.com/en/sets/superscript-and-subscript-letters/
+
+
+*** codesections "RakuRecord" module (subhead: data handling)
+**** https://github.com/codesections/RakuRecord
 
 
 *** the "max=" operator:
