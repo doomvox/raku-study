@@ -53,7 +53,8 @@ say 135.Str(:superscript);
 ##	¹³⁵
 #+END_SRC
 
-	https://unicode-table.com/en/sets/superscript-and-subscript-letters/
+**** Unicode includes a limited set of such superscripts
+***** https://unicode-table.com/en/sets/superscript-and-subscript-letters/
 
 
 *** codesections "RakuRecord" module (subhead: data handling)
