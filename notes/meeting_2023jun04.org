@@ -123,6 +123,7 @@ say 135.Str(:superscript);
 *** https://cs.stanford.edu/~knuth/faq.html
 **** Ka-NOOTH
 *** https://en.wikipedia.org/wiki/King_Canute_and_the_tide
+*** https://thenewstack.io/donald-knuth-asked-chatgpt-20-questions-what-did-we-learn/
 
 ** announcements 
 *** next meeting: June 18
