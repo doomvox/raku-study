@@ -50,11 +50,11 @@
 ***** "autodocumenting", but shows no doc strings
 
 *** Supply/Tap
-**** find code examples (I think jjmerelo "recipies" has one)
+**** find code examples (I think jjmerelo "recipes" has one)
 ***** data: US mail addresses in simple text file
 
 ** csv hacks
-**** jjmerelo 'recipe" has weak cookbook example: roll-your own csv parsing
+**** jjmerelo "recipes" has weak cookbook example: roll-your own csv parsing
 ***** improve 
 ****** line-at-a-time Text::CSV processing
 ****** pre-scan to confirm no complex elements
