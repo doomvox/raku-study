@@ -45,7 +45,9 @@
 
 
 **** operator introspection
-https://stackoverflow.com/questions/76309515/how-to-introspect-a-raku-operator
+***** https://stackoverflow.com/questions/76309515/how-to-introspect-a-raku-operator
+
+***** https://github.com/doomvox/raku-study/tree/main/bin/2023jun04operator_introspection.raku
 
 
 **** reduction operator has to handle different data types differently:
