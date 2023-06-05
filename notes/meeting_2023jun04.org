@@ -44,6 +44,14 @@
 ***** https://new-raku.finanalyst.org/language/pod
 
 
+**** the "max=" operator:
+
+#+BEGIN_SRC raku
+	$best = $max if $best < $max;
+	$best max= $max;
+#+END_SRC
+
+
 **** raku gui
 ***** https://raku.land/github:hankache/IUP
 ***** https://raku.land/github:Skarsnik/App::GPTrixie
