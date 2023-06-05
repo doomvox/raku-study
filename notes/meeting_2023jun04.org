@@ -50,8 +50,8 @@
 ***** https://new-raku.finanalyst.org/language/pod
 
 
-
-https://stackoverflow.com/questions/50516409/raku-type-inference
+*** odd stackoverflow question about variables hard-typed automatically from first assignment
+**** https://stackoverflow.com/questions/50516409/raku-type-inference
 
 *** latest raku release
 **** https://github.com/rakudo/rakudo/releases/tag/2023.05
