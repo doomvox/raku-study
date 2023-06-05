@@ -44,7 +44,7 @@
 ***** https://new-raku.finanalyst.org/language/pod
 
 
-**** raku UI
+**** raku gui
 ***** https://raku.land/github:hankache/IUP
 ***** https://raku.land/github:Skarsnik/App::GPTrixie
 
