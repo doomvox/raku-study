@@ -67,6 +67,8 @@
 
 #+END_SRC
 
+***** https://github.com/rakudo/rakudo/blob/main/src/Perl6/Grammar.nqp#L3695
+
 
 ** csv hacks
 **** jjmerelo "recipes" has weak cookbook example: roll-your own csv parsing
@@ -76,7 +78,7 @@
 
 
 ** the view from zoom chat window
-*** https://github.com/rakudo/rakudo/blob/main/src/Perl6/Grammar.nqp#L3695
+
 
 
 ** announcements 
