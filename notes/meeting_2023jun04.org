@@ -118,7 +118,6 @@ say 135.Str(:superscript);
 ****** line-at-a-time Text::CSV processing
 ****** pre-scan to confirm no complex elements
 
-
 ** the view from zoom chat window
 *** https://en.wikipedia.org/wiki/King_Canute_and_the_tide
 *** https://cs.stanford.edu/~knuth/faq.html
