@@ -44,7 +44,11 @@
 ***** https://new-raku.finanalyst.org/language/pod
 
 
-**** the "max=" operator:
+**** codesections "RakuRecord" module (subhead: data handling)
+***** https://github.com/codesections/RakuRecord
+
+
+*** the "max=" operator:
 
 #+BEGIN_SRC raku
 	$best = $max if $best < $max;
@@ -52,16 +56,16 @@
 #+END_SRC
 
 
-**** raku gui
+*** raku gui
 ***** https://raku.land/github:hankache/IUP
 ***** https://raku.land/github:Skarsnik/App::GPTrixie
 
-**** operator introspection
-***** https://stackoverflow.com/questions/76309515/how-to-introspect-a-raku-operator
-***** https://github.com/doomvox/raku-study/tree/main/bin/2023jun04/operator_introspection.raku
+*** operator introspection
+**** https://stackoverflow.com/questions/76309515/how-to-introspect-a-raku-operator
+**** https://github.com/doomvox/raku-study/tree/main/bin/2023jun04/operator_introspection.raku
 
 
-**** reduction operator has to handle different data types differently:
+*** reduction operator has to handle different data types differently:
 
 #+BEGIN_SRC raku
 
@@ -83,7 +87,7 @@
 
 #+END_SRC
 
-***** https://github.com/rakudo/rakudo/blob/main/src/Perl6/Grammar.nqp#L3695
+**** https://github.com/rakudo/rakudo/blob/main/src/Perl6/Grammar.nqp#L3695
 
 
 ** csv hacks
