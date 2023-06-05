@@ -44,6 +44,14 @@
 ***** https://new-raku.finanalyst.org/language/pod
 
 
+**** .minpairs
+
+***** https://docs.raku.org/routine/minpairs
+
+#+BEGIN_SRC raku
+	my $min-k = @cur-cost.minpairs.[0].key;
+#+END_SRC
+
 *** latest raku release
 **** https://github.com/rakudo/rakudo/releases/tag/2023.05
 **** odd feature to generate unicode superscript characters
