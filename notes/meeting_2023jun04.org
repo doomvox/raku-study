@@ -37,6 +37,12 @@
 ******* configuration would seem a simpler approach.
 **** This is a follow-on-to challenge 219, #2, "Travel Expenditure".
 
+*** .minpairs
+**** https://docs.raku.org/routine/minpairs
+#+BEGIN_SRC raku
+	my $min-k = @cur-cost.minpairs.[0].key;
+#+END_SRC
+
 *** floating a lightning talk idea: p5 getopt and raku's MAIN
 **** docs
 ***** https://new-raku.finanalyst.org/routine/MAIN
@@ -44,11 +50,8 @@
 ***** https://new-raku.finanalyst.org/language/pod
 
 
-**** .minpairs
-***** https://docs.raku.org/routine/minpairs
-#+BEGIN_SRC raku
-	my $min-k = @cur-cost.minpairs.[0].key;
-#+END_SRC
+
+https://stackoverflow.com/questions/50516409/raku-type-inference
 
 *** latest raku release
 **** https://github.com/rakudo/rakudo/releases/tag/2023.05
