@@ -38,16 +38,12 @@
 ******* configuration would seem a simpler approach.
 **** This is a follow-on-to challenge 219, #2, "Travel Expenditure".
 
-*** MAIN topic (from last meeting)
-**** documentation is pretty good
+*** floating a lightning talk idea: p5 getopt and raku's MAIN
+**** docs
 ***** https://new-raku.finanalyst.org/routine/MAIN
 **** the pod connection
 ***** https://new-raku.finanalyst.org/language/pod
 
-**** jjmerelo 5-2, p.80: using MAIN for command-line args
-***** relies on earlier data, example from ch3
-***** elaborate ("real"?) example, but talks about everything but MAIN
-***** "autodocumenting", but shows no doc strings
 
 *** Supply/Tap
 **** find code examples (I think jjmerelo "recipes" has one)
