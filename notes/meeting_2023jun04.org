@@ -54,7 +54,7 @@
 ***** data: US mail addresses in simple text file
 
 ** csv hacks
-**** jjmerelo 'recipie" has weak cookbook example: roll-your own csv parsing
+**** jjmerelo 'recipe" has weak cookbook example: roll-your own csv parsing
 ***** improve 
 ****** line-at-a-time Text::CSV processing
 ****** pre-scan to confirm no complex elements
