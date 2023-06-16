@@ -1,0 +1,135 @@
+* meeting notes June 04, 2023
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023jun18.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2023jun18
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023jun04.org
+
+** topics
+
+*** placeholder variables
+**** note: finding "placeholder variables" via the doc index is difficult.
+**** @^longname
+***** the @ sigil works (I missed this somehow)
+***** longer var names work (and I didn't remember that)
+***** https://docs.raku.org/language/variables
+****** still needs a few more code example
+******* TODO add if/else example right after
+******** "This can be especially significant with constructs such as with, for, and if that are often used without much consideration of the fact that they create blocks."
+******* TODO add an array arg example, right after:
+******** "Thus @^array, %^hash, and &^fun are all valid placeholder variables."
+
+*** weekly challenge 
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-219/
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-218/
+
+*** "enumerated class how-to" by rob (rir)
+**** That is, all members of the class are registered and indexed.
+***** 'Indexed' 
+****** all members of the class are in an Iterable/Iterator object.
+***** 'Registered' 
+******  C__D (and maybe U) of CRUD are provided
+******* configuration would seem a simpler approach.
+**** This is a follow-on-to challenge 219, #2, "Travel Expenditure".
+
+*** .minpairs
+**** https://docs.raku.org/routine/minpairs
+#+BEGIN_SRC raku
+	my $min-k = @cur-cost.minpairs.[0].key;
+#+END_SRC
+
+*** floating a lightning talk idea: p5 getopt and raku's MAIN
+**** docs
+***** https://new-raku.finanalyst.org/routine/MAIN
+**** the pod connection
+***** https://new-raku.finanalyst.org/language/pod
+
+
+*** odd stackoverflow question about variables hard-typed automatically from first assignment
+**** https://stackoverflow.com/questions/50516409/raku-type-inference
+
+*** latest raku release
+**** https://github.com/rakudo/rakudo/releases/tag/2023.05
+**** odd feature to generate unicode superscript characters
+
+#+BEGIN_SRC raku
+say 135.Str(:superscript);
+##	¹³⁵
+#+END_SRC
+
+**** Unicode includes a limited set of such superscripts
+***** https://unicode-table.com/en/sets/superscript-and-subscript-letters/
+
+
+*** codesections "RakuRecord" module (subhead: data handling)
+**** https://github.com/codesections/RakuRecord
+
+
+*** the "max=" operator:
+
+#+BEGIN_SRC raku
+	$best = $max if $best < $max;
+	$best max= $max;
+#+END_SRC
+
+
+*** raku gui
+***** https://raku.land/github:hankache/IUP
+***** https://raku.land/github:Skarsnik/App::GPTrixie
+
+*** operator introspection
+**** https://stackoverflow.com/questions/76309515/how-to-introspect-a-raku-operator
+**** https://github.com/doomvox/raku-study/tree/main/bin/2023jun04/operator_introspection.raku
+
+
+*** reduction operator has to handle different data types differently:
+
+#+BEGIN_SRC raku
+
+ my @a = 1, 3, 5;
+
+# this:
+	[+] @a;
+# is the same as
+	1 + 3 + 5;
+# Or you might say:
+       ((1 + 3) + 5);
+
+# but for this:
+	[<] @a;
+# can't act like
+       (( 1 < 3 ) < 5 )
+# because this doesn't make sense
+       (True < 5)
+
+#+END_SRC
+
+**** https://github.com/rakudo/rakudo/blob/main/src/Perl6/Grammar.nqp#L3695
+
+
+** csv hacks
+**** jjmerelo "recipes" has weak cookbook example: roll-your own csv parsing
+***** improve 
+****** line-at-a-time Text::CSV processing
+****** pre-scan to confirm no complex elements
+
+** the view from zoom chat window
+*** https://en.wikipedia.org/wiki/King_Canute_and_the_tide
+*** https://cs.stanford.edu/~knuth/faq.html
+**** Ka-NOOTH
+*** https://thenewstack.io/donald-knuth-asked-chatgpt-20-questions-what-did-we-learn/
+
+** announcements 
+*** next meeting: June 18
+
+*** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
+**** Bruce Gray will be speaking
+**** note: Alan lives in Toronto
+**** deadline for hotel discount coming up soon in june
+***** the word from bruce gray: the hotel is almost certainly your best deal
+
