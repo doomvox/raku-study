@@ -49,10 +49,6 @@
 ***** https://raku.land/github:hankache/IUP
 ***** https://raku.land/github:Skarsnik/App::GPTrixie
 
-*** operator introspection
-**** https://stackoverflow.com/questions/76309515/how-to-introspect-a-raku-operator
-**** https://github.com/doomvox/raku-study/tree/main/bin/2023jun04/operator_introspection.raku
-
 
 *** reduction operator has to handle different data types differently:
 
@@ -85,11 +81,6 @@
 ****** line-at-a-time Text::CSV processing
 ****** pre-scan to confirm no complex elements
 
-** the view from zoom chat window
-*** https://en.wikipedia.org/wiki/King_Canute_and_the_tide
-*** https://cs.stanford.edu/~knuth/faq.html
-**** Ka-NOOTH
-*** https://thenewstack.io/donald-knuth-asked-chatgpt-20-questions-what-did-we-learn/
 
 ** announcements 
 *** next meeting: July 9th
