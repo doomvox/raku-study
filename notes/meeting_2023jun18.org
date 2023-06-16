@@ -36,36 +36,11 @@
 ******* TODO add an array arg example, right after:
 ******** "Thus @^array, %^hash, and &^fun are all valid placeholder variables."
 
-
-
-*** .minpairs
-**** https://docs.raku.org/routine/minpairs
-#+BEGIN_SRC raku
-	my $min-k = @cur-cost.minpairs.[0].key;
-#+END_SRC
-
 *** lightning talk idea: p5 getopt and raku's MAIN
 **** docs
 ***** https://new-raku.finanalyst.org/routine/MAIN
 **** the pod connection
 ***** https://new-raku.finanalyst.org/language/pod
-
-
-*** odd stackoverflow question about variables hard-typed automatically from first assignment
-**** https://stackoverflow.com/questions/50516409/raku-type-inference
-
-*** latest raku release
-**** https://github.com/rakudo/rakudo/releases/tag/2023.05
-**** odd feature to generate unicode superscript characters
-
-#+BEGIN_SRC raku
-say 135.Str(:superscript);
-##	¹³⁵
-#+END_SRC
-
-**** Unicode includes a limited set of such superscripts
-***** https://unicode-table.com/en/sets/superscript-and-subscript-letters/
-
 
 *** codesections "RakuRecord" module (subhead: data handling)
 **** https://github.com/codesections/RakuRecord
