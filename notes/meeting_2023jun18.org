@@ -12,6 +12,16 @@
 
 ** topics
 
+*** weekly challenge 
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-221/
+***** 1 Good Strings
+***** 2 Arithmetic Subsequences
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-220/
+
+***** 1 Common Characters
+***** 2 Squareful
+
 ** saved for follow-up
 
 *** placeholder variables
@@ -26,18 +36,7 @@
 ******* TODO add an array arg example, right after:
 ******** "Thus @^array, %^hash, and &^fun are all valid placeholder variables."
 
-*** weekly challenge 
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-219/
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-218/
 
-*** "enumerated class how-to" by rob (rir)
-**** That is, all members of the class are registered and indexed.
-***** 'Indexed' 
-****** all members of the class are in an Iterable/Iterator object.
-***** 'Registered' 
-******  C__D (and maybe U) of CRUD are provided
-******* configuration would seem a simpler approach.
-**** This is a follow-on-to challenge 219, #2, "Travel Expenditure".
 
 *** .minpairs
 **** https://docs.raku.org/routine/minpairs
@@ -45,7 +44,7 @@
 	my $min-k = @cur-cost.minpairs.[0].key;
 #+END_SRC
 
-*** floating a lightning talk idea: p5 getopt and raku's MAIN
+*** lightning talk idea: p5 getopt and raku's MAIN
 **** docs
 ***** https://new-raku.finanalyst.org/routine/MAIN
 **** the pod connection
