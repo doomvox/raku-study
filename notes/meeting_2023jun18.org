@@ -125,7 +125,8 @@ say 135.Str(:superscript);
 *** https://thenewstack.io/donald-knuth-asked-chatgpt-20-questions-what-did-we-learn/
 
 ** announcements 
-*** next meeting: June 18
+*** next meeting: July 9th
+**** skipping the weekend of the 4th
 
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
 **** Bruce Gray will be speaking
