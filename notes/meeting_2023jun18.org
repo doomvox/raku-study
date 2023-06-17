@@ -65,7 +65,7 @@
 
 # but for this:
 	[<] @a;
-# can't act like
+# it can't act like
        (( 1 < 3 ) < 5 )
 # because this doesn't make sense
        (True < 5)
