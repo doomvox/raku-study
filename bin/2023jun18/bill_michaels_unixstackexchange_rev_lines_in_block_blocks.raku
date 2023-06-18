@@ -51,8 +51,11 @@ for $input.lines {
     if (/block/ && .put) {
         for lines() {
             if /\}/  {
-            put join "\n", (@blk.pop xx @blk.elems, $_); last};  
-        @blk.push: $_ }
+            put join "\n", (@blk.pop xx @blk.elems, $_);
+            last};  
+        @blk.push:
+        $_
+    }
 } else {
     .put
 };
