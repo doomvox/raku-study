@@ -25,3 +25,6 @@ say $stuff>>.flat;
 
 say $stuff>>.list;
 # ((alpha) (beta) [nada bupkiss null] (gamma))
+
+
+say $stuff.deepmap(.flat);
