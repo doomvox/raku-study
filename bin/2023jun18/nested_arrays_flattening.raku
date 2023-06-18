@@ -75,3 +75,10 @@ say $a>>.map(|*);
 
 say "===";
 
+my %monsters = ( 'params1' => { strict => True,
+                                warnings => False,
+                              },
+                 'params2 => {  strict => False,
+                                warnings => True,
+                                } 
+                );                              
