@@ -95,7 +95,9 @@ say %monsters>>.not;
 say "===";
 
 say $a;
+# [[[1 2 3] [4 5 6]] [[7 8 9] [10 11 12]]]
 
+say $a.tree(1);
 
 my @floors = ( 'A', ('B','C', ('E','F','G')));
 # say @floors.tree(1).flat.elems; # OUTPUT: «6␤» 
