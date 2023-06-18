@@ -46,29 +46,6 @@
 ***** https://raku.land/github:hankache/IUP
 ***** https://raku.land/github:Skarsnik/App::GPTrixie
 
-
-*** reduction operator has to handle different data types differently:
-
-#+BEGIN_SRC raku
-
- my @a = 1, 3, 5;
-
-# this:
-	[+] @a;
-# is the same as
-	1 + 3 + 5;
-# Or you might say:
-       ((1 + 3) + 5);
-
-# but for this:
-	[<] @a;
-# it can't act like
-       (( 1 < 3 ) < 5 )
-# because this doesn't make sense
-       (True < 5)
-
-#+END_SRC
-
 **** https://github.com/rakudo/rakudo/blob/main/src/Perl6/Grammar.nqp#L3695
 
 
