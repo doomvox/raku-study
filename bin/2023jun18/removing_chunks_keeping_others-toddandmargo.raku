@@ -88,3 +88,8 @@ say "|$x|";
 
 # There are two captures, so they load $0 and $1, and here we're using them in the replace string:    s/.../$0 $1/
 
+
+
+# Actually, could've answered him differently, i think this would remove a bit in the middle
+# 
+#   s/ ... <( ... )>  ... //;
