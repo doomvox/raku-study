@@ -18,3 +18,6 @@ say $stuff.list;
 # [alpha beta [nada bupkiss null] gamma]
 
 say $stuff.List;
+# (alpha beta [nada bupkiss null] gamma)
+
+say $stuff>>.flat;
