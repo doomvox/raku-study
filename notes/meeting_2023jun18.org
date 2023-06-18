@@ -14,6 +14,7 @@
 
 *** sub signatures
 **** rob:  ** vs *
+**** TODO find this via search? https://new-raku.finanalyst.org/language/signatures
 
 *** toddandmargo: "delete the middle" via s///
 
