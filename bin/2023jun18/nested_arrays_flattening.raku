@@ -98,4 +98,4 @@ say $a;
 
 
 my @floors = ( 'A', ('B','C', ('E','F','G')));
-say @floors.tree(1).flat.elems; # OUTPUT: «6␤» 
+# say @floors.tree(1).flat.elems; # OUTPUT: «6␤» 
