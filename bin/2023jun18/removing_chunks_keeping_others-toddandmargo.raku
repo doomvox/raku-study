@@ -49,6 +49,6 @@ my Str $x = $input;
 
 $x ~~ s:i/ ^ (.*?) '</a>' .*?  '<a href="' (.*?) $ /$0  $1/;
 
-
-
 say "|$x|";
+# |wine-7.12-3.fc37.i686.rpm wine-7.12-3.fc37.x86_64.rpm
+#  |
