@@ -9,3 +9,6 @@ use v6;
 my $stuff = [ 'alpha', 'beta', [ 'nada', 'bupkiss', 'null' ], 'gamma' ];
 
 say $stuff;
+# [alpha beta [nada bupkiss null] gamma]
+
+say $stuff.flat;
