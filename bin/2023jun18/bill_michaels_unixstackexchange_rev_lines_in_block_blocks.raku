@@ -45,3 +45,14 @@ END
 
 say $input;
 
+
+for $input.lines -> {
+    say $_;
+    }
+
+
+ raku -ne 'BEGIN my @blk; if (/block/ && .put) { for lines() {
+             if /\}/  { put join "\n", (@blk.pop xx @blk.elems, $_); last};  
+             @blk.push: $_ }
+             } else { .put };'   file
+
