@@ -53,7 +53,7 @@ for $input.lines {
     if ( /block/ && .put ) {
         for lines() {  ## TODO eh, translation issues from one-liner
             if /\}/  {
-            put join "\n", (@blk.pop xx @blk.elems, $_);
+            put join "\n", ( @blk.pop xx @blk.elems, $_ );
             last
         };  
         @blk.push:
