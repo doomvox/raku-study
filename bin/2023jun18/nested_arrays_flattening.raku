@@ -12,3 +12,6 @@ say $stuff;
 # [alpha beta [nada bupkiss null] gamma]
 
 say $stuff.flat;
+# (alpha beta [nada bupkiss null] gamma)
+
+say $stuff.list;
