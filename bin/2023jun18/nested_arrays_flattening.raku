@@ -84,3 +84,6 @@ my %monsters = ( 'params1' => { strict => True,
                 );                              
 
 say %monsters;
+# {params1 => {strict => True, warnings => False}, params2 => {strict => False, warnings => True}}
+
+say %monsters>>.uc;
