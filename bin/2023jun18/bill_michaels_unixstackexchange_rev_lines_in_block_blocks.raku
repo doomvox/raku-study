@@ -4,10 +4,12 @@
 
 use v6;
 
-# ~$ raku -ne 'BEGIN my @blk; if (/block/ && .put) { for lines() {
-#              if /\}/  { put join "\n", (@blk.pop xx @blk.elems, $_); last};  
-#              @blk.push: $_ }
-#              } else { .put };'   file
+raku -ne 'BEGIN my @blk; if (/block/ && .put) { for lines() { if /\}/  { put join "\n", (@blk.pop xx @blk.elems, $_); last}; @blk.push: $_ } } else { .put };'   /home/doom/tmp/input.dat
+
+
+raku -ne 'BEGIN my @blk; if (/block/ && .put) { for lines() { if /\}/  { put join "\n", (@blk.pop xx @blk.elems, $_); last}; @blk.push: $_ } } else { .put };'   /home/doom/tmp/input.dat
+
+
 
 # #OR (more simply)
 
