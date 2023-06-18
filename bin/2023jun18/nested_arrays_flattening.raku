@@ -38,3 +38,7 @@ say $stuff.deepmap({ $_.Slip });
 
 say $stuff>>.Slip;
 # ((alpha) (beta) (nada bupkiss null) (gamma))
+
+for $stuff -> $item {
+    say $item;
+    }
