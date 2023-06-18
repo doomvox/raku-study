@@ -87,3 +87,7 @@ say %monsters;
 # {params1 => {strict => True, warnings => False}, params2 => {strict => False, warnings => True}}
 
 say %monsters>>.uc;
+# {params1 => {strict => TRUE, warnings => FALSE}, params2 => {strict => FALSE, warnings => TRUE}}
+
+
+say %monsters>>.not;
