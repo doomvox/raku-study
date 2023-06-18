@@ -21,6 +21,9 @@
 *** marton: didja know
 **** nested *array*, calling flat on it doesn't flatten
 
+*** alan
+
+
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-221/
 ***** 1 Good Strings
