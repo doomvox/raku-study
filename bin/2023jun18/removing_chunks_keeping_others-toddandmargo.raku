@@ -32,11 +32,6 @@ use v6;
 
 # wine-7.12-3.fc37.i686.rpm wine-7.12-3.fc37.x86_64.rpm
 
-
-my Str $x = Q[];
-
-
-
 say Q:to/END_STR/; 
 wine-7.12-3.fc37.i686.rpm</a>    23-Jul-2022 19:11  11K 
 <a href="wine-7.12-3.fc37.x86_64.rpm
