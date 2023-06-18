@@ -48,3 +48,5 @@ my STR $x = $input;
 
 
 $x ~~ s/ ( Q[</a>] )  *?  ( Q[a href="] ) / /;
+
+say "|$x|";
