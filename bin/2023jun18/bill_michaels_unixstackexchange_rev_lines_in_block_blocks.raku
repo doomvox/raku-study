@@ -42,3 +42,5 @@ block = {
       line6
 }
 END;
+
+say $input;
