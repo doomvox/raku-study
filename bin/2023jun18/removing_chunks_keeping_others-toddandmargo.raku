@@ -32,15 +32,16 @@ use v6;
 
 # wine-7.12-3.fc37.i686.rpm wine-7.12-3.fc37.x86_64.rpm
 
-my Str $x = Q:to/END_STR/; 
+my Str $input = Q:to/END_STR/; 
 wine-7.12-3.fc37.i686.rpm</a>    23-Jul-2022 19:11  11K 
 <a href="wine-7.12-3.fc37.x86_64.rpm
 END_STR
 
-say "|$x|";
+say "|$input|";
 # |wine-7.12-3.fc37.i686.rpm</a>    23-Jul-2022 19:11  11K 
 # <a href="wine-7.12-3.fc37.x86_64.rpm
 # |
 
 # Note: heredoc (:to) includes the newline at the end
 
+my STR $x = $input;
