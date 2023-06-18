@@ -22,7 +22,9 @@
 **** nested *array*, calling flat on it doesn't flatten
 
 *** alan
-**** pod6 learning
+**** pod6 learning resources?
+**** side issue: changing file extensions
+***** example to think about: changing implementation from cgi to mod_perl but preserving urls
 
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-221/
