@@ -29,7 +29,13 @@
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-221/
 ***** 1 Good Strings
+****** bg makes the point that "is a subset" works with Bags
+******* it does not coerce to Set (undocumented feature?)
+
 ***** 2 Arithmetic Subsequences
+
+
+
 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-220/
 ***** 1 Common Characters
