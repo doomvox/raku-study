@@ -17,7 +17,7 @@ use v6;
              };'  file
 
 
-my $input = Q:to(/END/);
+my $input = Q:to/END/;
 x = {
    y = {
        z = {
