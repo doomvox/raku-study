@@ -41,5 +41,5 @@ say $stuff>>.Slip;
 
 say "===";
 for $stuff -> $item {
-    say $item.flat;
+    say $item.list;
 }
