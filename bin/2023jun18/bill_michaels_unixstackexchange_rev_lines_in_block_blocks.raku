@@ -47,7 +47,7 @@ say $input;
 
 
 for $input.lines {
-    say $_;
+    say "|$_|";
     }
 
 
