@@ -122,3 +122,7 @@ say @floors.tree(1).flat.elems; # 6
 say @floors.tree(2).flat.elems; # 2
 say @floors.tree( *.join("-"),*.join("—"),*.join("|")); # A-B—C—E|F|G
 
+
+# Marton points to the code for tree:
+#  https://github.com/rakudo/rakudo/blob/704a05b934ba10f3240e8764827bbfd7fe089cdf/src/core.c/Any.pm6#L181
+# (Docs don't really say what it's for very well.)
