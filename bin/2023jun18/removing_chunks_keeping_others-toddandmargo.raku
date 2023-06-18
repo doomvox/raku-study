@@ -38,4 +38,9 @@ wine-7.12-3.fc37.i686.rpm</a>    23-Jul-2022 19:11  11K
 END_STR
 
 say "|$x|";
+# |wine-7.12-3.fc37.i686.rpm</a>    23-Jul-2022 19:11  11K 
+# <a href="wine-7.12-3.fc37.x86_64.rpm
+# |
+
+# Note: heredoc (:to) includes the newline at the end
 
