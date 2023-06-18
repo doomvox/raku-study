@@ -59,8 +59,3 @@ for $input.lines {
 } else {
     .put
 };
-
-
-
-#  raku -ne ''   file
-
