@@ -109,4 +109,4 @@ say "===";
 my @floors = ( 'A', ('B','C', ('E','F','G')));
 say @floors.tree(1).flat.elems; # 6
 say @floors.tree(2).flat.elems; # 2
-say @floors.tree( *.join("-"),*.join("—"),*.join("|"));# OUTPUT: «A-B—C—E|F|G␤» 
+say @floors.tree( *.join("-"),*.join("—"),*.join("|")); # A-B—C—E|F|G
