@@ -15,6 +15,8 @@
 *** sub signatures
 **** rob 
 
+*** toddandmargo: "delete the middle" via s///
+
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-221/
 ***** 1 Good Strings
