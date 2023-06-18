@@ -46,6 +46,7 @@ END
 say $input;
 
 say "===";
+
 for $input.lines {
     BEGIN my @blk;
     if (/block/ && .put) {
@@ -56,6 +57,7 @@ for $input.lines {
         @blk.push:
         $_
     }
-} else {
-    .put
+    else {
+        .put
+    }
 };
