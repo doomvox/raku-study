@@ -11,6 +11,7 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023jun04.org
 
 ** topics
+
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-221/
 ***** 1 Good Strings
