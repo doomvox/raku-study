@@ -1,4 +1,4 @@
-* meeting notes June 04, 2023
+* meeting notes June 18, 2023
 ** the raku study group
 **** usual links
 ***** these notes
