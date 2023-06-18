@@ -4,17 +4,17 @@
 
 use v6;
 
-~$ raku -ne 'BEGIN my @blk; if (/block/ && .put) { for lines() {
-             if /\}/  { put join "\n", (@blk.pop xx @blk.elems, $_); last};  
-             @blk.push: $_ }
-             } else { .put };'   file
+# ~$ raku -ne 'BEGIN my @blk; if (/block/ && .put) { for lines() {
+#              if /\}/  { put join "\n", (@blk.pop xx @blk.elems, $_); last};  
+#              @blk.push: $_ }
+#              } else { .put };'   file
 
-#OR (more simply)
+# #OR (more simply)
 
-~$ raku -ne 'BEGIN my @blk; if (/block/ & .put) { for lines() { 
-             if /\}/ { .put for (@blk.pop xx @blk.elems, $_).flat; last};  
-             @blk.push: $_ }
-             };'  file
+# ~$ raku -ne 'BEGIN my @blk; if (/block/ & .put) { for lines() { 
+#              if /\}/ { .put for (@blk.pop xx @blk.elems, $_).flat; last};  
+#              @blk.push: $_ }
+#              };'  file
 
 
 my $input = Q:to/END/;
@@ -44,3 +44,4 @@ block = {
 END;
 
 say $input;
+
