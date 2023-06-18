@@ -37,3 +37,4 @@ say $stuff.deepmap({ $_.Slip });
 # [alpha beta [nada bupkiss null] gamma]
 
 say $stuff>>.Slip;
+# ((alpha) (beta) (nada bupkiss null) (gamma))
