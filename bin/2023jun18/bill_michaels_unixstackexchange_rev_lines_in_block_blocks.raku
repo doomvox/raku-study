@@ -41,7 +41,7 @@ xyz
 block = {
       line6
 }
-END;
+END
 
 say $input;
 
