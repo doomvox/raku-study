@@ -47,6 +47,7 @@ say "|$input|";
 my Str $x = $input;
 
 # ToddAndMargo@zoho.com
+# perl6-users@perl.org
 
 $x ~~ s:i/ ^ (.*?) '</a>' .*?  '<a href="' (.*?) $ /$0  $1/;
 
