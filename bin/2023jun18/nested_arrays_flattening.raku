@@ -94,3 +94,7 @@ say %monsters>>.not;
 
 say "===";
 
+
+
+my @floors = ( 'A', ('B','C', ('E','F','G')));
+say @floors.tree(1).flat.elems; # OUTPUT: «6␤» 
