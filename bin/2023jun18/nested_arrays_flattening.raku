@@ -94,6 +94,7 @@ say %monsters>>.not;
 
 say "===";
 
+say $a;
 
 
 my @floors = ( 'A', ('B','C', ('E','F','G')));
