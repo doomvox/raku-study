@@ -34,9 +34,6 @@
 
 ***** 2 Arithmetic Subsequences
 
-
-
-
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-220/
 ***** 1 Common Characters
 ***** 2 Squareful
