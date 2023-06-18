@@ -38,8 +38,7 @@
 ***** 1 Common Characters
 ***** 2 Squareful
 ****** https://blogs.perl.org/users/bruce_gray/2023/06/twc-220-squared-shoulders.html
-****** 
-https://github.com/manwar/perlweeklychallenge-club/challenge-220/bruce-gray/raku/ch-2.raku
+****** https://github.com/manwar/perlweeklychallenge-club/challenge-220/bruce-gray/raku/ch-2.raku
 
 
 ** saved from last meeting for follow-up
