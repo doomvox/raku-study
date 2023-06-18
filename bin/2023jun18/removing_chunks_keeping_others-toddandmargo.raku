@@ -4,8 +4,14 @@
 
 use v6;
 
-## Looking at a Todd
+## Looking at a ToddAndMargo problem:
 ## https://www.nntp.perl.org/group/perl.perl6.users/2023/06/msg10993.html
+
+# ToddAndMargo@zoho.com
+# perl6-users@perl.org
+# Message ID:
+# d183015a-d171-3352-81f1-28a86e15e9e8@zoho.com
+
 
 
 # #!/bin/raku
@@ -46,8 +52,6 @@ say "|$input|";
 
 my Str $x = $input;
 
-# ToddAndMargo@zoho.com
-# perl6-users@perl.org
 
 $x ~~ s:i/ ^ (.*?) '</a>' .*?  '<a href="' (.*?) $ /$0  $1/;
 
