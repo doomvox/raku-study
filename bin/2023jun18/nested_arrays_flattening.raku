@@ -46,9 +46,10 @@ for $stuff -> $item {
 }
 say "===";
 
+## b.g. approach, presumes you know how many levels
+
 # raku -e 'my $a = [ [ [1,2,3], [4,5,6] ], [ [7,8,9], [10,11,12] ] ]; say $a.map(|*).map(|*);'
 # (1 2 3 4 5 6 7 8 9 10 11 12)
-
 
 my $a = [ [ [1,2,3], [4,5,6] ], [ [7,8,9], [10,11,12] ] ];
 say $a.map(|*).map(|*);
