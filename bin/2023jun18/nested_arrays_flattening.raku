@@ -42,4 +42,5 @@ say $stuff>>.Slip;
 say "===";
 for $stuff -> $item {
     say $item.list;
+    say "\n";
 }
