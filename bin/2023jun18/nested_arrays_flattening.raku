@@ -93,3 +93,4 @@ say %monsters>>.not;
 # {params1 => {strict => False, warnings => True}, params2 => {strict => True, warnings => False}}
 
 say "===";
+
