@@ -47,6 +47,6 @@ say "|$input|";
 my Str $x = $input;
 
 
-$x ~~ s/ ( '</a>' )  (*?)  ( 'a href=\"' ) /$2/;
+$x ~~ s/ ( '</a>' )  (.*?)  ( 'a href=\"' ) /$2/;
 
 say "|$x|";
