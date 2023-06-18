@@ -16,7 +16,11 @@ my @files = ("declaration.txt", "preamble.txt");
 
 for @files -> $f {
 
-    $f.IO.words.lines
+    $f.IO.words.lines.lc.comb(/<alpha>+/)
+    (|)
+    $f.IO.words.lines.lc.comb(/<alpha>+/)    
+
+  
 
 }
 
@@ -24,6 +28,7 @@ my Set $a .=
  new( .comb(/<alpha>+/)>>.lc) given "declaration.txt".IO.words; 
  my Set $b .= new(.comb(/<alpha>+/)>>.lc) given "preamble.txt".IO.words; 
            .sort>>.keys.put given $a (|) $b;
+
 
 
 ## bruce gray draft:
