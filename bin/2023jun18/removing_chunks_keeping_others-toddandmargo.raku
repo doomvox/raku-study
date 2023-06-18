@@ -10,8 +10,10 @@ use v6;
 # ToddAndMargo@zoho.com
 # perl6-users@perl.org
 # Message ID:
-# d183015a-d171-3352-81f1-28a86e15e9e8@zoho.com
+# 
 
+
+# References: <d183015a-d171-3352-81f1-28a86e15e9e8@zoho.com>
 
 
 # #!/bin/raku
