@@ -22,7 +22,6 @@
 ***** 2 Squareful
 
 ** saved from last meeting for follow-up
-
 *** placeholder variables
 **** note: finding "placeholder variables" via the doc index is difficult.
 **** @^longname
