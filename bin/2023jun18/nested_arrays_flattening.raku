@@ -105,7 +105,7 @@ my @floors = ( 'A', ('B','C', ('E','F','G')));
 say $a.tree().flat;
 # (((1 2 3) (4 5 6)) ((7 8 9) (10 11 12)))
 
-say $a.tree(0).flat.elems;
+say $a.tree(1).flat.elems;
 
 say "===";
 
