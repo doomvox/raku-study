@@ -45,3 +45,6 @@ say "|$input|";
 # Note: heredoc (:to) includes the newline at the end
 
 my STR $x = $input;
+
+
+$x ~~ s/ ( Q[</a>] )  *?  ( Q[a href="] ) / /;
