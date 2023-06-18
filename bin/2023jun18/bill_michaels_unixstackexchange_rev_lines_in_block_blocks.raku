@@ -46,7 +46,7 @@ END
 say $input;
 
 
-for $input.lines -> {
+for $input.split("\n") -> {
     say $_;
     }
 
