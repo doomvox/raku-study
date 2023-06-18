@@ -13,7 +13,7 @@
 ** topics
 
 *** sub signatures
-**** rob 
+**** rob:  ** vs *
 
 *** toddandmargo: "delete the middle" via s///
 
