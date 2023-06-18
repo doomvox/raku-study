@@ -113,6 +113,12 @@ say $a.tree(1).flat;
 # ([1 2 3] [4 5 6] [7 8 9] [10 11 12])
 
 
+
+# Marton points to the code for tree:
+#  https://github.com/rakudo/rakudo/blob/704a05b934ba10f3240e8764827bbfd7fe089cdf/src/core.c/Any.pm6#L181
+# (Docs don't really say what it's for very well.)
+
+
 say "===";
 
 # https://new-raku.finanalyst.org/routine/tree
@@ -123,6 +129,3 @@ say @floors.tree(2).flat.elems; # 2
 say @floors.tree( *.join("-"),*.join("—"),*.join("|")); # A-B—C—E|F|G
 
 
-# Marton points to the code for tree:
-#  https://github.com/rakudo/rakudo/blob/704a05b934ba10f3240e8764827bbfd7fe089cdf/src/core.c/Any.pm6#L181
-# (Docs don't really say what it's for very well.)
