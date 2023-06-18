@@ -50,11 +50,12 @@ say "===";
 my @blk;
 for $input.lines {
 #    BEGIN my @blk;
-    if (/block/ && .put) {
-        for lines() {
+    if ( /block/ && .put ) {
+        for lines() {  ## TODO eh, translation issues from one-liner
             if /\}/  {
             put join "\n", (@blk.pop xx @blk.elems, $_);
-            last};  
+            last
+        };  
         @blk.push:
         $_
     }
