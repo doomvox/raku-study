@@ -41,6 +41,16 @@
 ****** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-220/bruce-gray/raku/ch-2.raku
 
 
+*** unix.stackexchange
+
+**** 
+**** 
+**** 
+**** 
+
+**** Dijkstra on logical short-circuit operations
+***** https://www.cs.utexas.edu/users/EWD/transcriptions/EWD10xx/EWD1009.html
+
 *** developer survey
 **** https://survey.stackoverflow.co/2023/
 
