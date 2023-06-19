@@ -24,10 +24,10 @@ my $diff = @sets[0] (|) @sets[1];
 
 
 
-my Set $a .=
- new( .comb(/<alpha>+/)>>.lc) given "declaration.txt".IO.words; 
- my Set $b .= new(.comb(/<alpha>+/)>>.lc) given "preamble.txt".IO.words; 
-           .sort>>.keys.put given $a (|) $b;
+# my Set $a .=
+#  new( .comb(/<alpha>+/)>>.lc) given "declaration.txt".IO.words; 
+#  my Set $b .= new(.comb(/<alpha>+/)>>.lc) given "preamble.txt".IO.words; 
+#            .sort>>.keys.put given $a (|) $b;
 
 
 
