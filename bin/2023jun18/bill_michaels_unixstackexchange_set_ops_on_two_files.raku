@@ -14,13 +14,10 @@ use v6;
 
 my @files = ("declaration.txt", "preamble.txt");
 
+
 for @files -> $f {
 
      $f.IO.words.lines.lc.comb(/<alpha>+/).Set;
-
-
-
-  
 
 }
 
