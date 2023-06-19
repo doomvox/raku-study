@@ -46,7 +46,7 @@
 **** https://unix.stackexchange.com/questions/744991/how-to-reverse-lines-inside-repeated-blocks-in-a-text-file-using-sed-awk
 **** https://unix.stackexchange.com/questions/554901/how-to-change-any-text-to-proper-case-and-sentence-case-using-tr/745305#745305
 **** https://unix.stackexchange.com/questions/742209/how-can-i-edit-this-json-file-with-bash-script-and-jq/744961#744961
-**** https://unix.stackexchange.com/a/748300/227738
+**** https://unix.stackexchange.com/questions/11343/linux-tools-to-treat-files-as-sets-and-perform-set-operations-on-them/
 
 **** Dijkstra on logical short-circuit operations
 ***** https://www.cs.utexas.edu/users/EWD/transcriptions/EWD10xx/EWD1009.html
