@@ -44,7 +44,7 @@
 *** developer survey
 **** https://survey.stackoverflow.co/2023/
 
-*** Dijkstra
+*** Dijkstra's Basic was Dartmouth
 **** https://programmingisterrible.com/post/40132515169/dijkstra-basic
 
 ** saved from last meeting for follow-up
