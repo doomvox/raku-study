@@ -41,6 +41,10 @@
 ****** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-220/bruce-gray/raku/ch-2.raku
 
 
+*** developer survey
+**** https://survey.stackoverflow.co/2023/
+
+
 
 ** saved from last meeting for follow-up
 *** placeholder variables
