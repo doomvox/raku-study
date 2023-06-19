@@ -31,5 +31,6 @@ my $diff = @sets[0] (|) @sets[1];
 
 
 
+
 ## bruce gray draft:
 raku -e 'my ($a, $b) = @*ARGS.map({ Set.new(.IO.words>>.lc) }); .sort>>.keys.put given $a (&) $b;' declaration.txt preamble.txt
