@@ -15,11 +15,14 @@ use v6;
 my @files = ("declaration.txt", "preamble.txt");
 
 
+my @sets = gather 
 for @files -> $f {
-
-     $f.IO.words.lines.lc.comb(/<alpha>+/).Set;
-
+     take $f.IO.words.lines.lc.comb(/<alpha>+/).Set;
 }
+
+my $diff = @sets[0] (|) @sets[1];
+
+
 
 my Set $a .=
  new( .comb(/<alpha>+/)>>.lc) given "declaration.txt".IO.words; 
