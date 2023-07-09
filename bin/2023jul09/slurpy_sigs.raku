@@ -45,6 +45,6 @@ use v6;
 # grab b
 # grab c
 
-    grab(1);
+    grab("a");
 
 }
