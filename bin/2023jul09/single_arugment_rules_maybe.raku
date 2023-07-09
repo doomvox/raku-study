@@ -12,10 +12,19 @@ my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 
 for @monsters1, @monsters2 -> $thingie {
     say $thingie.WHAT;
-# (Array)
-# (Array)
 }
+# (Array)
+# (Array)
+
 
 for @monsters1 -> $thingie {
     say $thingie.WHAT;
 }
+# (Str)
+# (Str)
+# (Str)
+# (Str)
+# (Str)
+# (Str)
+# (Str)
+# (Str)
