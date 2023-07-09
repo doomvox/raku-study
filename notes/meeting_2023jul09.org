@@ -19,6 +19,9 @@
 
 *** :delete adverb on arrays
 
+*** perl 5.38 (latest stable)
+**** perl5 indirect object new disabled with 5.38
+**** new oop features: class, field keywords (experimental)
 
 ** announcements 
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
