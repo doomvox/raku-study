@@ -22,3 +22,5 @@ grab("hi");
 say "===";
 
 grab();
+
+grab('');
