@@ -31,6 +31,6 @@ for @monsters1 -> $thingie {
 
 
 say "===";
-for |@monsters1, |@monsters2 -> $thingie {
+for |@monsters1, @monsters2 -> $thingie {
     say $thingie.WHAT;
 }
