@@ -41,5 +41,10 @@ use v6;
     }
 
     grab(<<a b c>>);
+# grab a
+# grab b
+# grab c
+
+    grab(1);
 
 }
