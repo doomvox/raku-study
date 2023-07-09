@@ -10,6 +10,8 @@ my @monsters2 = < godzilla mothera ghidora gammera golem rhodan >;
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 
 
-for (@monsters1, @monsters2) -> $thingie {
+for @monsters1, @monsters2 -> $thingie {
     say $thingie.WHAT;
+# (Array)
+# (Array)
 }
