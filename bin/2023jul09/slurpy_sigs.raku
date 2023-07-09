@@ -34,7 +34,7 @@ use v6;
 }
 
 {
-
+    say "^^^vvv^^^";
     multi sub grab(**@a) { "grab $_".say for @a }
     multi sub grab(\a) {
         a ~~ Iterable and a.VAR !~~ Scalar ?? nextwith(|a) !! nextwith(a,)
