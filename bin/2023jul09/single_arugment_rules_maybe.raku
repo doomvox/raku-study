@@ -16,6 +16,7 @@ for @monsters1, @monsters2 -> $thingie {
 # (Array)
 # (Array)
 
+say "---";
 
 for @monsters2 -> $thingie {
     say $thingie.WHAT;
