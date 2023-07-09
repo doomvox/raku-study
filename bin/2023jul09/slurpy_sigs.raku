@@ -77,7 +77,8 @@ use v6;
     grab($void);
     # grab nada nope bupkes
 
-    dd $void;     # (nada nope bupkes)
+    dd $void;     
+    # List $void = $("nada", "nope", "bupkes")
     dd $void.VAR; # $("nada", "nope", "bupkes")
 
 }
