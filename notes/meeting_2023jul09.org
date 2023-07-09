@@ -18,3 +18,7 @@
 ***** What diff *@ **@ +@?
 
 *** :delete adverb on arrays
+
+
+** announcements 
+*** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
