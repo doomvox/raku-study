@@ -65,4 +65,9 @@ use v6;
 
     say "---";
     grab("d");
+
+    my @nothing  = < nada nope bupkes >;
+    grab(@nothing);
+
+
 }
