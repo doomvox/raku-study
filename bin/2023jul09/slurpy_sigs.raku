@@ -4,29 +4,40 @@
 
 use v6;
 
+{
 
-sub grab(+@a) {
-    "grab $_".say for @a
+    sub grab(+@a) {
+        "grab $_".say for @a
+    }
+
+    grab(<<a b c>>);
+
+    # grab a
+    # grab b
+    # grab c
+
+    say "===";
+
+    grab("hi");
+
+    say "===";
+
+    grab();
+
+    say "===";
+    grab('');
+
+    grab(Nil);
+    # Use of uninitialized value element of type Any in string context.
+    #   in block  at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul09/slurpy_sigs.raku line 9
+
 }
 
-grab(<<a b c>>);
+{
 
-# grab a
-# grab b
-# grab c
+    multi sub grab(**@a) { "grab $_".say for @a }
+    multi sub grab(\a) {
+        a ~~ Iterable and a.VAR !~~ Scalar ?? nextwith(|a) !! nextwith(a,)
+    }
 
-say "===";
-
-grab("hi");
-
-say "===";
-
-grab();
-
-say "===";
-grab('');
-
-grab(Nil);
-# Use of uninitialized value element of type Any in string context.
-#   in block  at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul09/slurpy_sigs.raku line 9
-
+}
