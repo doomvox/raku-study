@@ -18,4 +18,4 @@ grab(<<a b c>>);
 
 say "===";
 
-say grab("hi");
+grab("hi");
