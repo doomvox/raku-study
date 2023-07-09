@@ -19,6 +19,7 @@ use v6;
     say "===";
 
     grab("hi");
+    # grab hi
 
     say "===";
 
