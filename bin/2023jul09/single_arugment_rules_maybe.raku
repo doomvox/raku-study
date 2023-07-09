@@ -15,3 +15,7 @@ for @monsters1, @monsters2 -> $thingie {
 # (Array)
 # (Array)
 }
+
+for @monsters1 -> $thingie {
+    say $thingie.WHAT;
+}
