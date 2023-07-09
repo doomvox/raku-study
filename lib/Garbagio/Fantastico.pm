@@ -65,12 +65,23 @@ to the names of the object attributes. These attributes are:
 =cut
 
 # Example attribute:
-# has is_loop => ( is => 'rw', isa => Int, default => 0 );
+
+has mah_int => ( is => 'rw', isa => Int, default => 0 );
 
 { no warnings 'once'; $DB::single = 1; }
 
-### Fill in additional methods here
-### hint: perlnow-insert-method
+
+=item say_mah_int
+
+=cut
+
+sub say_mah_int {
+  my $self = shift;
+
+
+
+}
+
 
 
 
