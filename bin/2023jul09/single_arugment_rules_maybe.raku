@@ -48,3 +48,13 @@ for  (@monsters2) -> $thingie {
     say $thingie.WHAT;
 }
 
+# (Str)
+# (Str)
+# (Str)
+# (Str)
+# (Str)
+# (Str)
+
+for  (@monsters2,) -> $thingie {
+    say $thingie.WHAT;
+}
