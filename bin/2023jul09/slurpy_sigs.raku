@@ -87,7 +87,7 @@ use v6;
 
     my @monsters = < goategon hargon esterk >;
 
-    
+
 
 
 }
