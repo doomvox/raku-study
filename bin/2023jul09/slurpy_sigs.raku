@@ -79,7 +79,7 @@ use v6;
 
     dd $void;     
     # List $void = $("nada", "nope", "bupkes")
-    dd $void.VAR; # $("nada", "nope", "bupkes")
+    dd $void.VAR; 
     # ("nada", "nope", "bupkes")
 
 }
