@@ -55,7 +55,7 @@ use v6;
     say ">>>ooo<<<";
     multi sub grab(**@a) { "grab $_".say for @a }
     multi sub grab(\a) {
-        a ~~ Iterable and a.VAR !~~ Scalar ?? nextwith(|a) !! nextwith(a,)
+        a ~~ Iterable and a.VAR !~~ Scalar ?? nextwith(|a) !! nextwith(a)
     }
 
     grab(<<a b c>>);
