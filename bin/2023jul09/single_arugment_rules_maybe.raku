@@ -55,6 +55,7 @@ for  (@monsters2) -> $thingie {
 # (Str)
 # (Str)
 
+say "---";
 for  (@monsters2,) -> $thingie {
     say $thingie.WHAT;
 }
