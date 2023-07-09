@@ -77,6 +77,6 @@ use v6;
     grab($void);
     # grab nada nope bupkes
 
-    my $void.^WHAT;
+    say $void.VAR;
 
 }
