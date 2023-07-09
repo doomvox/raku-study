@@ -77,6 +77,7 @@ use v6;
     grab($void);
     # grab nada nope bupkes
 
-    say $void.VAR;
+    say $void;
+    say $void.VAR; # $("nada", "nope", "bupkes")
 
 }
