@@ -45,6 +45,7 @@ use v6;
 # grab b
 # grab c
 
+    say "---";
     grab("a");
 
 }
