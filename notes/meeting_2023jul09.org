@@ -28,6 +28,7 @@ use feature 'indirect';
 #+END_SRC 
 
 **** new oop features: class, field keywords (still experimental)
+***** similar to cpan module Object::Pad
 
 ** announcements 
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
