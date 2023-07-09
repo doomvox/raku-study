@@ -5,5 +5,5 @@
 use v6;
 
 sub MAIN (*@a) {
-    say "a: $a" for @a;
+    say "a: $a" for @a -> $a;
 }
