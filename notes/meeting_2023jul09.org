@@ -3,4 +3,6 @@
 
 ** topics
 *** slurpy signatures (rob)
+**** https://docs.raku.org/language/functions.html#Signatures
+
 *** :delete adverb on arrays
