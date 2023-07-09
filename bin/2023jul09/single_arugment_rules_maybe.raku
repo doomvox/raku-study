@@ -27,8 +27,6 @@ for @monsters2 -> $thingie {
 # (Str)
 # (Str)
 # (Str)
-# (Str)
-# (Str)
 
 
 say "===";
