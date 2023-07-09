@@ -76,6 +76,8 @@ to the names of the object attributes. These attributes are:
 
 has reek_level => ( is => 'rw', isa => Int, default => 0 );
 
+
+
 =back
 
 =head1 AUTHOR
