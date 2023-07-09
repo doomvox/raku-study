@@ -25,3 +25,5 @@ grab();
 
 say "===";
 grab('');
+
+grab(Nil);
