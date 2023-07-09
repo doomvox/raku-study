@@ -5,6 +5,6 @@
 *** slurpy signatures (rob)
 **** https://docs.raku.org/language/functions.html#Signatures
 ***** "functions that don't have reasonable behavior on lists of lists" ?
-***** Waht diff *@ **@ +@?
+***** What diff *@ **@ +@?
 
 *** :delete adverb on arrays
