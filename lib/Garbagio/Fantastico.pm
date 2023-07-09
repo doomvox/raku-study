@@ -78,6 +78,7 @@ has mah_int => ( is => 'rw', isa => Int, default => 0 );
 sub say_mah_int {
   my $self = shift;
 
+  say $self->mah_int;
 
 
 }
