@@ -64,5 +64,5 @@ use v6;
 # grab c
 
     say "---";
-    grab("a");
+    grab("d");
 }
