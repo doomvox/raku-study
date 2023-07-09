@@ -49,3 +49,20 @@ use v6;
     say "---";
     grab("a");
 }
+
+
+{
+    say ">>>ooo<<<";
+    multi sub grab(**@a) { "grab $_".say for @a }
+    multi sub grab(\a) {
+        a ~~ Iterable and a.VAR !~~ Scalar ?? nextwith(|a) !! nextwith(a,)
+    }
+
+    grab(<<a b c>>);
+# grab a
+# grab b
+# grab c
+
+    say "---";
+    grab("a");
+}
