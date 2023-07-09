@@ -9,7 +9,7 @@ sub grab(+@a) {
     "grab $_".say for @a
 }
 
-say grab(<<a b c>>);
+grab(<<a b c>>);
 
 # grab a
 # grab b
