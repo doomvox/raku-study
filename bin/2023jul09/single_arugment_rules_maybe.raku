@@ -11,7 +11,6 @@ my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 
 
 for @monsters1, @monsters2 -> $thingie {
-
     say $thingie.WHAT;
 
-    ]
+]
