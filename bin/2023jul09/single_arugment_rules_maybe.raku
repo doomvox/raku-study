@@ -30,6 +30,7 @@ for @monsters1 -> $thingie {
 # (Str)
 
 
+say "===";
 for |@monsters1, |@monsters2 -> $thingie {
     say $thingie.WHAT;
 }
