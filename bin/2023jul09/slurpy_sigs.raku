@@ -16,4 +16,6 @@ say grab(<<a b c>>);
 # grab c
 # Nil
 
+say "===";
+
 say grab("hi");
