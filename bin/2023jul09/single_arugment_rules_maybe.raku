@@ -28,3 +28,8 @@ for @monsters1 -> $thingie {
 # (Str)
 # (Str)
 # (Str)
+
+
+for |@monsters1, |@monsters2 -> $thingie {
+    say $thingie.WHAT;
+}
