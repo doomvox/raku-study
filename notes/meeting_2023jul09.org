@@ -1,6 +1,6 @@
 * meeting notes July 09, 2023
 ** the raku study group
-**** TODO (revise links here!) usual links
+**** usual links
 ***** these notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023jul09.org
 
