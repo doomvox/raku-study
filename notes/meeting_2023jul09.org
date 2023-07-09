@@ -31,6 +31,9 @@ use feature 'indirect';
 ***** similar to cpan module Object::Pad
 https://metacpan.org/pod/Object::Pad
 
+**** other features
+***** https://www.i-programmer.info/news/222-perl/16431-perl-5380-released-an-appeal-to-new-blood.html
+
 ** announcements 
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
 *** next meeting: July 23rd
