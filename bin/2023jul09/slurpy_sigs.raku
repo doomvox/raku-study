@@ -82,6 +82,6 @@ use v6;
     dd $void.VAR; 
     # ("nada", "nope", "bupkes")
 
-    say so $void ~~ SCALER
+    say so $void ~~ SCALER;
 
 }
