@@ -4,6 +4,6 @@
 
 use v6;
 
-sub MAIN ($a) {
+sub MAIN (*@a) {
     say "a: $a";
 }
