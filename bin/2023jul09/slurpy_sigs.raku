@@ -82,7 +82,12 @@ use v6;
     dd $void.VAR; 
     # ("nada", "nope", "bupkes")
 
-    say so $void ~~ Scalar;  # False
-    say so $void.VAR ~~ Scalar;  # False
+    say so $void ~~ Scalar;      # False
+    say so $void.VAR ~~ Scalar;  # True
+
+    my @monsters = < goategon hargon esterk >;
+
+    
+
 
 }
