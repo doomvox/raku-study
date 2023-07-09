@@ -58,3 +58,5 @@ for  (@monsters2) -> $thingie {
 for  (@monsters2,) -> $thingie {
     say $thingie.WHAT;
 }
+
+# (Array)
