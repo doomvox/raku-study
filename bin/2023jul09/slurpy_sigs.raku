@@ -78,6 +78,6 @@ use v6;
     # grab nada nope bupkes
 
     say $void;     # (nada nope bupkes)
-    say $void.VAR; # $("nada", "nope", "bupkes")
+    put $void.VAR; # $("nada", "nope", "bupkes")
 
 }
