@@ -16,4 +16,4 @@ say grab(<<a b c>>);
 # grab c
 # Nil
 
-say grap("hi");
+say grab("hi");
