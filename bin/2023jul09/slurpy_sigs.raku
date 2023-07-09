@@ -40,4 +40,6 @@ use v6;
         a ~~ Iterable and a.VAR !~~ Scalar ?? nextwith(|a) !! nextwith(a,)
     }
 
+    grab(<<a b c>>);
+
 }
