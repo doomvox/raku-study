@@ -21,7 +21,13 @@
 
 *** perl 5.38 (latest stable)
 **** perl5 indirect object new disabled with 5.38
-**** new oop features: class, field keywords (experimental)
+***** to get old behavior, now need to turn it on manually:
+
+#+BEGIN_SRC cperl
+use feature 'indirect';
+#+END_SRC 
+
+**** new oop features: class, field keywords (still experimental)
 
 ** announcements 
 *** perl & raku conference (formerly yapc) will be in toronto on july 11th-13th
