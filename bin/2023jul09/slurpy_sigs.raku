@@ -90,6 +90,4 @@ use v6;
     say so @monsters ~~ Scalar;      # False
     say so @monsters.VAR ~~ Scalar;  # False
 
-
-
 }
