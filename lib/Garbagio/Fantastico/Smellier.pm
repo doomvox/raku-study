@@ -65,7 +65,7 @@ to the names of the object attributes. These attributes are:
 =cut
 
 # Example attribute:
-# has is_loop => ( is => 'rw', isa => Int, default => 0 );
+
 
 { no warnings 'once'; $DB::single = 1; }
 
@@ -73,6 +73,8 @@ to the names of the object attributes. These attributes are:
 ### hint: perlnow-insert-method
 
 
+
+has reek_level => ( is => 'rw', isa => Int, default => 0 );
 
 =back
 
