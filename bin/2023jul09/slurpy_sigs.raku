@@ -87,6 +87,8 @@ use v6;
 
     my @monsters = < goategon hargon esterk >;
 
+    say so @monsters ~~ Scalar;      # False
+    say so @monsters.VAR ~~ Scalar;  # True
 
 
 
