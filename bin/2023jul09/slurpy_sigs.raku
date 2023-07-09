@@ -14,7 +14,6 @@ grab(<<a b c>>);
 # grab a
 # grab b
 # grab c
-# Nil
 
 say "===";
 
