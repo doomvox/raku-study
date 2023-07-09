@@ -17,7 +17,7 @@ for @monsters1, @monsters2 -> $thingie {
 # (Array)
 
 
-for @monsters1 -> $thingie {
+for @monsters2 -> $thingie {
     say $thingie.WHAT;
 }
 # (Str)
@@ -34,3 +34,12 @@ say "===";
 for |@monsters1, @monsters2 -> $thingie {
     say $thingie.WHAT;
 }
+# (Str)
+# (Str)
+# (Str)
+# (Str)
+# (Str)
+# (Str)
+# (Str)
+# (Str)
+# (Array)
