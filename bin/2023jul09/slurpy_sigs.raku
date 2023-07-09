@@ -75,6 +75,7 @@ use v6;
     say "---";
     my $void = < nada nope bupkes >;
     grab($void);
+    # grab nada nope bupkes
 
 
 }
