@@ -59,15 +59,21 @@ use v6;
     }
 
     grab(<<a b c>>);
-# grab a
-# grab b
-# grab c
+    # grab a
+    # grab b
+    # grab c
 
     say "---";
     grab("d");
 
     my @nothing  = < nada nope bupkes >;
     grab(@nothing);
+    # grab nada
+    # grab nope
+    # grab bupkes
+
+    my $void = < nada nope bupkes >;
+    grab(@void);
 
 
 }
