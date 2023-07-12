@@ -44,6 +44,7 @@
 ***** fun book
 ****** https://theanarchistlibrary.org/library/hakim-bey-pirate-utopias
 
+***** https://en.wikipedia.org/wiki/Peter_Lamborn_Wilson
 "Wilson's occasional pen name of Hakim Bey is derived from il-Hakim,
 the alchemist-king, with 'Bey' a further nod to Moorish Science."
 
