@@ -34,7 +34,7 @@ say keyster(); # beta
 say "===";
 ## now, let's try that when in a hash dereference
 my %fried;
-%fried{keyster} = 'Sans parens';
+# {alpha => Sans parens}
 say %fried;
 # {alpha => And the winner is... }
 ## once again, the unsigiled var wins
