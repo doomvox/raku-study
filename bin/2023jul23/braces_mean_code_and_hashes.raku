@@ -39,11 +39,12 @@ say %fried;
 # {alpha => And the winner is... }
 ## once again, the unsigiled var wins
 
-## but we can do the subcall with parens, right?  Right?
+## but we can do the subcall with parens, right?  
 %fried{keyster()} = 'But then... '; 
 say %fried;
+# {alpha => And the winner is... , beta => But then... }
+## Yes, it works.
 say "===";
-
 say keyster;    # alpha
 say keyster();  # beta
 
