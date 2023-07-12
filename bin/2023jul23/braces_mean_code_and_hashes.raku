@@ -10,3 +10,12 @@ use v6;
 ## next question:
 ## name spaces for subs and unsigiled vars.
 ## which wins?
+
+my \keyster = 'alpha';
+
+sub keyster {
+    return 'beta';
+}
+
+my %fried;
+%fried{keyster} = 'And the winner is... ';
