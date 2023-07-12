@@ -35,7 +35,6 @@ say "===";
 ## now, let's try that when in a hash dereference
 my %fried;
 %fried{keyster} = 'And the winner is... ';
-
 say %fried;
 # {alpha => And the winner is... }
 
