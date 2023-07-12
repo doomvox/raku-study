@@ -24,4 +24,6 @@ say %fried;
 # {alpha => And the winner is... }
 
 
-%fried{keyster()} = 'But then... ';
+%fried{keyster()} = 'But then... '; # No op.
+
+say keyster;
