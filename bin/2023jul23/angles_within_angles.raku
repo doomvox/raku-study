@@ -55,8 +55,8 @@ say "===";
 }
 
 { # ... with interpolation?
-  my $country = 'United Kingdom';
-  my @countries = << "$country" Latveria Mordor >>;
+  my $adj = 'United';
+  my @countries = << "$adj Kingdom" Latveria Mordor >>;
   say @countries[0];
   # United Kingdom
 }
