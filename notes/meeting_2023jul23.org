@@ -28,12 +28,6 @@
 
 ** from last meeting
 
-*** slurpy signatures (rob)
-**** https://docs.raku.org/language/functions.html#Signatures
-***** "functions that don't have reasonable behavior on lists of lists" ?
-***** What diff *@ **@ +@?
-
-*** :delete adverb on arrays
 
 *** perl 5.38 (latest stable)
 **** perl5 indirect object new disabled with 5.38
@@ -49,6 +43,13 @@ https://metacpan.org/pod/Object::Pad
 
 **** other features
 ***** https://www.i-programmer.info/news/222-perl/16431-perl-5380-released-an-appeal-to-new-blood.html
+
+*** slurpy signatures (rob)
+**** https://docs.raku.org/language/functions.html#Signatures
+***** "functions that don't have reasonable behavior on lists of lists" ?
+***** What diff *@ **@ +@?
+
+*** :delete adverb on arrays (rob)
 
 
 
