@@ -8,8 +8,8 @@ use v6;
 ## I think: because braces are supposed to mean code
 {
     my %threat_level = godzilla => 9,  mothera => 7, tingler => 5;
-    say %threat_level{'godzilla'}; # 9
-    say %threat_level<godzilla>;   # 9
+    say %threat_level{'godzilla'}; # 9   Need explicit quoting
+    say %threat_level<godzilla>;   # 9   
 }
 
 
