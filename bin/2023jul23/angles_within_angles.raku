@@ -81,3 +81,15 @@ say "===";
   # Mordor
 }
 
+
+{ # ... Q: single quotes inside << >> suppress interpolation, correct?
+  my $adj = 'United';
+  my @countries = << '$adj Kingdom' '$adj Snakes' Mordor >>;
+  say @countries[0];
+  # United Kingdom
+
+  @countries>>.say;
+  # United Kingdom
+  # United Snakes
+  # Mordor
+}
