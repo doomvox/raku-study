@@ -12,6 +12,9 @@
 
 
 ** topics
+
+*** 
+
 *** slurpy signatures (rob)
 **** https://docs.raku.org/language/functions.html#Signatures
 ***** "functions that don't have reasonable behavior on lists of lists" ?
@@ -33,6 +36,8 @@ https://metacpan.org/pod/Object::Pad
 
 **** other features
 ***** https://www.i-programmer.info/news/222-perl/16431-perl-5380-released-an-appeal-to-new-blood.html
+
+
 
 ** announcements 
 *** perl & raku conference (formerly yapc) will be in toronto on 
