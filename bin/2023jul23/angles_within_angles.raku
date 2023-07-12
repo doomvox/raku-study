@@ -6,7 +6,8 @@ use v6;
 
 { # lead off with basic example:
   my @countries = < UK Latveria Mordor >;
-  say @countries[0]; # UK
+  say @countries[0];
+  # UK
 }
 
 {
