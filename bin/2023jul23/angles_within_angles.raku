@@ -73,12 +73,15 @@ say "===";
   my $adj = 'United';
   my @countries = << $adj Kingdom $adj Snakes Mordor >>;
   say @countries[0];
-  # United Kingdom
+  # United
 
   @countries>>.say;
-  # United Kingdom
-  # United Snakes
+  # United
+  # Kingdom
+  # United
+  # Snakes
   # Mordor
+
 
 }
 
