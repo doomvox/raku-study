@@ -30,6 +30,7 @@ sub keyster {
 }
 say keyster;   # alpha
 say keyster(); # beta
+## ... so now, you *do* need those parens to call the sub
 
 say "===";
 my %fried;
