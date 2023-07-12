@@ -32,6 +32,7 @@ say keyster;   # alpha
 say keyster(); # beta
 ## ... so now, you *do* need those parens to call the sub
 say "===";
+## now, let's try that when in a hash dereference
 my %fried;
 %fried{keyster} = 'And the winner is... ';
 
