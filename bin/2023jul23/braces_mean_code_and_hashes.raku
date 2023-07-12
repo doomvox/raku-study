@@ -22,7 +22,6 @@ my \keyster = 'alpha';
 sub keyster {
     return 'beta';
 }
-
 say keyster;
 
 say "===";
