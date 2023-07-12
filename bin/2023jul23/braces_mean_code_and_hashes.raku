@@ -17,6 +17,7 @@ sub nada {
     return 0;
 }
 say nada;
+say nada();
 say "===";
 
 ## next question:
