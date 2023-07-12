@@ -23,6 +23,7 @@
 **** perl: "@{[]}"
 ***** example: dbi_link
 ****** https://github.com/davidfetter/DBI-Link/blob/master/dbi_link.sql
+******* postgres sql, with embedded perl (plperlu) with embedded sql with embedded perl
 
 ** from last meeting
 
