@@ -41,7 +41,7 @@ say %fried;
 
 ## but we can do the subcall with parens, right?  Right?
 %fried{keyster()} = 'But then... '; 
-
+say %fried;
 
 
 say keyster;    # alpha
