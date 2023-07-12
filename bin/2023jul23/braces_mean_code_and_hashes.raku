@@ -34,13 +34,13 @@ say keyster(); # beta
 say "===";
 ## now, let's try that when in a hash dereference
 my %fried;
-%fried{keyster} = 'And the winner is... ';
+%fried{keyster} = 'Sans parens';
 say %fried;
 # {alpha => And the winner is... }
 ## once again, the unsigiled var wins
 
 ## but we can do the subcall with parens, right?  
-%fried{keyster()} = 'But then... '; 
+%fried{keyster()} = 'With parens'; 
 say %fried;
 # {alpha => And the winner is... , beta => But then... }
 
