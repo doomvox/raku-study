@@ -4,5 +4,12 @@
 
 use v6;
 
-my %threat_level = godzilla => 9,  mothera => 7,  rhodan => 7,  tingler => 5,  wolfman => 5;
-say %threat_level;
+{
+    my %threat_level = godzilla => 9,  mothera => 7,  rhodan => 7,  tingler => 5,  wolfman => 5;
+    say %threat_level;
+}
+
+{
+    my %threat_level = godzilla => 9,  'united snakes' => 7,  horta => 0;
+    say %threat_level;
+}
