@@ -26,6 +26,9 @@
 ******* postgres sql, with embedded perl (plperlu) with embedded sql with embedded perl
 ******* postgres raku?
 
+*** bruce gray raku tutorial
+**** 
+
 ** from last meeting
 
 *** perl 5.38 (latest stable)
