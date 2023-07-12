@@ -35,5 +35,5 @@ https://metacpan.org/pod/Object::Pad
 ***** https://www.i-programmer.info/news/222-perl/16431-perl-5380-released-an-appeal-to-new-blood.html
 
 ** announcements 
-*** perl & raku conference (formerly yapc) will be in toronto on August 6
-*** next meeting: July 23rd
+*** perl & raku conference (formerly yapc) will be in toronto on 
+*** next meeting: August 6th
