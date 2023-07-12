@@ -4,4 +4,5 @@
 
 use v6;
 
-
+## why can't braces act like angles in raku
+## I think: because braces are supposed to mean code
