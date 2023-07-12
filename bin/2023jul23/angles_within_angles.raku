@@ -13,7 +13,7 @@ use v6;
   # UK
 }
 
-{
+{ # But, what if you have a space in an element?  Answer: quotes work.
   my @countries = << 'United Kingdom' Latveria Mordor >>;
   say @countries[0];
   # United Kingdom
