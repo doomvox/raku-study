@@ -37,12 +37,12 @@ my %fried;
 %fried{keyster} = 'Sans parens';
 say %fried;
 # {alpha => Sans parens}
-## once again, the unsigiled var wins
+## we hit the unsigiled var again
 
-## but we can do the subcall with parens, right?  
+## And to do the subcall, use parens:
 %fried{keyster()} = 'With parens'; 
 say %fried;
-# {alpha => And the winner is... , beta => But then... }
+
 
 ## Yes, it works.
 ## (Damn.  Thought I had a bug there for a minute.)
