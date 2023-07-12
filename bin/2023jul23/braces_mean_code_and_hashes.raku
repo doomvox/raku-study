@@ -36,7 +36,7 @@ say "===";
 my %fried;
 %fried{keyster} = 'Sans parens';
 say %fried;
-
+# {alpha => Sans parens}
 ## once again, the unsigiled var wins
 
 ## but we can do the subcall with parens, right?  
