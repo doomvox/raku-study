@@ -43,7 +43,7 @@
 use feature 'indirect';
 #+END_SRC 
 
-**** new oop features: class, field keywords (still experimental)
+**** new oop features: class, field, method keywords (still experimental)
 ***** similar to cpan module Object::Pad
 https://metacpan.org/pod/Object::Pad
 
