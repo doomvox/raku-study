@@ -22,15 +22,14 @@ say nada();  # 0
 say "===";
 
 ## next question:
-## name spaces for subs and unsigiled vars.
+## what if you have a sub of the same name as an unsigiled var?
 ## which wins?
-
 my \keyster = 'alpha';
-
 sub keyster {
     return 'beta';
 }
-say keyster; # alpha
+say keyster;   # alpha
+say keyster(); # beta
 
 say "===";
 my %fried;
