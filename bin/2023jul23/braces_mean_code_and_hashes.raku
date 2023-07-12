@@ -4,5 +4,9 @@
 
 use v6;
 
-## why can't braces act like angles in raku
+## why can't braces act like angles in raku?
 ## I think: because braces are supposed to mean code
+
+## next question:
+## name spaces for subs and unsigiled vars.
+## which wins?
