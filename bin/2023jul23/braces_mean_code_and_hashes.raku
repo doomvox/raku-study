@@ -38,7 +38,6 @@ my %fried;
 say %fried;
 # {alpha => And the winner is... }
 
-
 %fried{keyster()} = 'But then... '; # no-op.
 
 say keyster;    # alpha
