@@ -21,3 +21,4 @@ my %fried;
 %fried{keyster} = 'And the winner is... ';
 
 say %fried;
+# {alpha => And the winner is... }
