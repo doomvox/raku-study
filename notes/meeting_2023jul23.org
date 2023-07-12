@@ -42,6 +42,7 @@
 ***** to get leading zeros, need to use sprintf formatting features
 ***** doesn't work with characters, just numbers, why not "seq a z"
 ***** doesn't work with anything except decimal why not hex (though, hex via printf?)
+****** mapgame script behavior
 
 *** yary
 **** Hakim Bey
