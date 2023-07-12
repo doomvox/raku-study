@@ -12,9 +12,6 @@ use v6;
     say %threat_level<godzilla>;   # 9   
 }
 
-
-
-
 ## next question:
 ## name spaces for subs and unsigiled vars.
 ## which wins?
