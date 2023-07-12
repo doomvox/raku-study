@@ -37,8 +37,12 @@ my %fried;
 %fried{keyster} = 'And the winner is... ';
 say %fried;
 # {alpha => And the winner is... }
+## once again, the unsigiled var wins
 
-%fried{keyster()} = 'But then... '; # no-op.
+## but we can do the subcall with parens, right?  Right?
+%fried{keyster()} = 'But then... '; 
+
+
 
 say keyster;    # alpha
 say keyster();  # beta
