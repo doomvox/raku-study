@@ -12,6 +12,12 @@ use v6;
     say %threat_level<godzilla>;   # 9   
 }
 say "===";
+# side issue: remember you don't need parens on subcalls
+sub keyster {
+    return 'beta';
+}
+say keyster; # alpha
+say "===";
 
 ## next question:
 ## name spaces for subs and unsigiled vars.
@@ -22,7 +28,7 @@ my \keyster = 'alpha';
 sub keyster {
     return 'beta';
 }
-say keyster;
+say keyster; # alpha
 
 say "===";
 my %fried;
