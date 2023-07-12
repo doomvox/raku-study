@@ -33,7 +33,6 @@
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/angles_within_angles.raku
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/angles_within_angles.raku
 
-
 ** from last meeting
 
 *** perl 5.38 (latest stable)
