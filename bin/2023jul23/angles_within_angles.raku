@@ -6,7 +6,7 @@ use v6;
 
 { # lead off with basic example:
   # a popular perl5 feature is "word" quoting:
-  # my @countries = qw{ UK Latveria Mordor };
+  my @countries = qw{ UK Latveria Mordor };
 
   my @countries = < UK Latveria Mordor >;
   say @countries[0];
