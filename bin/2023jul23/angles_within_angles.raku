@@ -67,7 +67,6 @@ say "===";
 
 }
 
-
 say "===";
 { # note, without the double quotes, you get interpolation, but as a separate element
   my $adj = 'United';
