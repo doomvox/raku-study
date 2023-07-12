@@ -11,7 +11,6 @@ use v6;
     say %threat_level{'godzilla'};
     say %threat_level<godzilla>;
 
-
 }
 
 { # keys with embedded spaces:
