@@ -28,7 +28,6 @@
 
 ** from last meeting
 
-
 *** perl 5.38 (latest stable)
 **** perl5 indirect object new disabled with 5.38
 ***** to get old behavior, now need to turn it on manually:
