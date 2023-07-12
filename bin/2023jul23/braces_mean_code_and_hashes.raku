@@ -43,4 +43,6 @@ say %fried;
 %fried{keyster()} = 'But then... '; 
 say %fried;
 # {alpha => And the winner is... , beta => But then... }
+
 ## Yes, it works.
+## (Damn.  Thought I had a bug there for a minute.)
