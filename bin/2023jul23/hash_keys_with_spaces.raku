@@ -16,5 +16,8 @@ use v6;
 { # keys with embedded spaces:
     my %threat_level = godzilla => 9,  'united snakes' => 11,  horta => 1;
     say %threat_level;
+    say %threat_level{'united snakes'}; # 9
+    say %threat_level<'united snakes'>;   # 9
+
 
 }
