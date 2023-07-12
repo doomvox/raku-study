@@ -32,6 +32,7 @@
 ****** << <a b> 23 >> 
 ******* https://github.com/doomvox/raku-study/tree/main/bin/2023jul23/angles_within_angles.raku
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/angles_within_angles.raku
+***** another question: hash keys with embedded spaces
 
 ** from last meeting
 
