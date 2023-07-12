@@ -44,8 +44,3 @@ say %fried;
 say %fried;
 # {alpha => And the winner is... , beta => But then... }
 ## Yes, it works.
-say "===";
-say keyster;    # alpha
-say keyster();  # beta
-
-## So: why don't we have a 'beta' key in %fried?
