@@ -21,5 +21,4 @@ use v6;
     say %threat_level<'united snakes'>; # ((Any) (Any))
     # fix
     say %threat_level<<'united snakes'>>; # 11
-
 }
