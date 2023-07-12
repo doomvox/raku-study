@@ -27,8 +27,12 @@
 ******* postgres raku?
 
 *** bruce gray raku tutorial
-**** << 'a b' 2 3 >>
-**** << <a b> 23 >>  ## silly question of mine
+***** silly question of mine
+****** << 'a b' 2 3 >>
+****** << <a b> 23 >> 
+******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/angles_within_angles.raku
+******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/angles_within_angles.raku
+
 
 ** from last meeting
 
