@@ -21,7 +21,7 @@
 *** interpolating code in a string
 **** raku: "{}"
 **** perl: "@{[]}"
-
+***** example: dbi_link
 
 ** from last meeting
 
