@@ -13,10 +13,10 @@ use v6;
 }
 say "===";
 # side issue: remember you don't need parens on subcalls
-sub keyster {
-    return 'beta';
+sub nada {
+    return 0;
 }
-say keyster; # alpha
+say nada;
 say "===";
 
 ## next question:
