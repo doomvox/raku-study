@@ -48,6 +48,8 @@
 "Wilson's occasional pen name of Hakim Bey is derived from il-Hakim,
 the alchemist-king, with 'Bey' a further nod to Moorish Science."
 
+*** Q: greps that only check the first line (for example)?
+
 ** from last meeting
 
 *** perl 5.38 (latest stable)
