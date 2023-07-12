@@ -61,5 +61,9 @@ say "===";
   # United Kingdom
 
   @countries>>.say;
+  # United Kingdom
+  # United Snakes
+  # Mordor
+
 
 }
