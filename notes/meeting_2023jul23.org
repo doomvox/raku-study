@@ -50,7 +50,8 @@ the alchemist-king, with 'Bey' a further nod to Moorish Science."
 
 *** Q: greps that only check the first line (for example)?
 
-*** alan question about purity of grep as filter
+*** alan question about purity of grep as filter 
+**** second file of /dev/null to force grep to always behave like multifiles
 
 ** from last meeting
 
