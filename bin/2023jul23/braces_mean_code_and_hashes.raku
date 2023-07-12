@@ -19,3 +19,5 @@ sub keyster {
 
 my %fried;
 %fried{keyster} = 'And the winner is... ';
+
+say %fried;
