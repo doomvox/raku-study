@@ -13,7 +13,16 @@
 
 ** topics
 
-*** 
+*** perl and raku conference in toronto
+**** stuff
+
+*** interpolating code in a string
+
+**** raku: "{}"
+
+**** perl: "@{[]}"
+
+** from last meeting
 
 *** slurpy signatures (rob)
 **** https://docs.raku.org/language/functions.html#Signatures
