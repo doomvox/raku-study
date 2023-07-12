@@ -5,7 +5,7 @@
 use v6;
 
 ## why can't braces act like angles in raku?
-## I think: because in Raku braces are supposed to consistently mean code
+## I think: because in Raku braces are supposed to consistently mean code evaluation
 {
     my %threat_level = godzilla => 9,  mothera => 7, tingler => 5;
     say %threat_level{'godzilla'}; # 9   Need explicit quoting, unlike perl5
