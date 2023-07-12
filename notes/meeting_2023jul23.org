@@ -33,6 +33,7 @@
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/angles_within_angles.raku
 ***** another question: hash keys with embedded spaces
 
+
 ***** (I think I tend to heckle Bruce Gray's talks)
 
 *** bruce gray command line 
