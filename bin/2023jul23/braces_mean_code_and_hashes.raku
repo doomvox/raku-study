@@ -11,6 +11,7 @@ use v6;
     say %threat_level{'godzilla'}; # 9   Need explicit quoting, unlike perl5
     say %threat_level<godzilla>;   # 9   
 }
+say "===";
 
 ## next question:
 ## name spaces for subs and unsigiled vars.
@@ -24,7 +25,7 @@ sub keyster {
 
 say keyster;
 
-
+say "===";
 my %fried;
 %fried{keyster} = 'And the winner is... ';
 
