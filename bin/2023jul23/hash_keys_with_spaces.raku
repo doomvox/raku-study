@@ -10,6 +10,6 @@ use v6;
 }
 
 {
-    my %threat_level = godzilla => 9,  'united snakes' => 10,  horta => 1;
+    my %threat_level = godzilla => 9,  'united snakes' => 11,  horta => 1;
     say %threat_level;
 }
