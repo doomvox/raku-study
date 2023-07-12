@@ -42,7 +42,7 @@ say %fried;
 ## And to do the subcall, use parens:
 %fried{keyster()} = 'With parens'; 
 say %fried;
-
+# {alpha => Sans parens, beta => With parens}
 
 ## Yes, it works.
 ## (Damn.  Thought I had a bug there for a minute.)
