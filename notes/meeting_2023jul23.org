@@ -14,7 +14,6 @@
 ** topics
 
 *** perl and raku conference in toronto
-**** stuff
 **** Data::Printer better than Data::Dumper
 ***** not in Core (yet?)
 
