@@ -16,8 +16,9 @@ say "===";
 sub nada {
     return 0;
 }
-say nada;
-say nada();
+## these two are the same
+say nada;    # 0
+say nada();  # 0
 say "===";
 
 ## next question:
