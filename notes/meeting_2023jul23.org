@@ -34,7 +34,7 @@
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/angles_within_angles.raku
 ***** another question: hash keys with embedded spaces
 
-***** (i tend to heckle bruce gray's talks)
+***** (i tend to heckle Bruce Gray's talks)
 
 *** yary
 **** Hakim Bey
