@@ -47,3 +47,9 @@ use v6;
 }
 
 say "===";
+
+{ # Another topic, double quotes?
+  my @countries = << "United Kingdom" Latveria Mordor >>;
+  say @countries[0];
+  # United Kingdom
+}
