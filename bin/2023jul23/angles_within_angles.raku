@@ -45,3 +45,5 @@ use v6;
   say @countries[0];
   # United
 }
+
+say "===";
