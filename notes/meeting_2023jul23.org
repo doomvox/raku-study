@@ -17,9 +17,7 @@
 **** stuff
 
 *** interpolating code in a string
-
 **** raku: "{}"
-
 **** perl: "@{[]}"
 
 ** from last meeting
