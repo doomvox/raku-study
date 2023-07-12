@@ -45,4 +45,5 @@ say %fried;
 # {alpha => Sans parens, beta => With parens}
 
 ## So yes, that works the same way.
+
 ## (Damn.  Thought I had a bug there for a minute.)
