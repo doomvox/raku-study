@@ -27,4 +27,4 @@ say %fried;
 %fried{keyster()} = 'But then... '; # No op.
 
 say keyster; # alpha
-say keyser();
+say keyster();
