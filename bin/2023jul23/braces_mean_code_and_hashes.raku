@@ -22,6 +22,9 @@ sub keyster {
     return 'beta';
 }
 
+say keyster;
+
+
 my %fried;
 %fried{keyster} = 'And the winner is... ';
 
