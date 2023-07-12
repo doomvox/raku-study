@@ -24,7 +24,9 @@ say %fried;
 # {alpha => And the winner is... }
 
 
-%fried{keyster()} = 'But then... '; # No op.
+%fried{keyster()} = 'But then... '; # no-op.
 
-say keyster; # alpha
-say keyster();
+say keyster;    # alpha
+say keyster();  # beta
+
+## So: why don't we have a 'beta' key in %fried?
