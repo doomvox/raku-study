@@ -10,7 +10,6 @@ use v6;
     my %threat_level = godzilla => 9,  mothera => 7, tingler => 5;
     say %threat_level{'godzilla'}; # 9
     say %threat_level<godzilla>;   # 9
-
 }
 
 
