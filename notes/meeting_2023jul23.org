@@ -32,6 +32,8 @@
 ******* https://github.com/doomvox/raku-study/tree/main/bin/2023jul23/angles_within_angles.raku
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/angles_within_angles.raku
 ***** another question: hash keys with embedded spaces
+****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/hash_keys_with_spaces.raku
+
 ***** why can't %h{} do quoting like %h<>?
 ****** side issue I wondered about:
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/braces_mean_code_and_hashes.raku
