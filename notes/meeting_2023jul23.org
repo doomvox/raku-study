@@ -54,6 +54,8 @@
 ***** Atomic::Burst 
 ***** DBIx::QuickDB
 
+*** Zaki Mughai intro to PDL and TensorFLow
+**** impressively dense talks, probably best viewed in online video (text too small)
 
 *** yary
 **** Hakim Bey
