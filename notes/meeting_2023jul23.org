@@ -56,6 +56,8 @@
 
 *** Zaki Mughai intro to PDL and TensorFLow
 **** impressively dense talks, probably best viewed again in video (text too small)
+**** note: argues that PDL has advantages on R, "higher dimensionality"
+**** often uses gnuplot for visualization
 
 *** yary
 **** Hakim Bey
