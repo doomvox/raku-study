@@ -104,5 +104,4 @@ https://metacpan.org/pod/Object::Pad
 
 
 ** announcements 
-*** perl & raku conference (formerly yapc) will be in toronto on 
 *** next meeting: August 6th
