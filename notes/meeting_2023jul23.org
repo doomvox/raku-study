@@ -26,7 +26,7 @@
 ******* postgres sql, with embedded perl (plperlu) with embedded sql with embedded perl
 ******* postgres raku?
 
-*** bruce gray raku tutorial
+*** from the bruce gray raku tutorial
 ***** starting with a question of mine
 ****** << 'a b' 2 3 >>
 ****** << <a b> 23 >> 
