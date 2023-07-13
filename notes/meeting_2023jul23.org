@@ -49,12 +49,9 @@
 ***** doesn't work with anything except decimal why not hex (though, hex via printf?)
 ****** mapgame script behavior
 
-*** PERL Chad Granum presented three modules, all sound great
-
+*** PERL Chad Granum presented three modules, all sound great (check names)
 ***** Importer
-
 ***** Atomic::Burst 
-
 ***** DBIx::QuickDB
 
 *** yary
