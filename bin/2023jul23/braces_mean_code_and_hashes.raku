@@ -16,7 +16,7 @@ say "===";
 sub nada {
     return 0;
 }
-## so these two are the same
+## so these two are the same, both call the sub
 say nada;    # 0
 say nada();  # 0
 say "===";
