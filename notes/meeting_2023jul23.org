@@ -11,7 +11,6 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023jul09.org
 
 ** topics
-
 *** perl and raku conference in toronto
 **** anyone want to talk about it?
 
