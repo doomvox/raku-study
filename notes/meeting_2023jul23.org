@@ -15,7 +15,7 @@
 
 *** perl and raku conference in toronto
 **** Data::Printer better than Data::Dumper
-***** not in Core (yet?)
+***** but not in Core (yet?)
 
 *** interpolating code in a string
 **** raku: "{}"
