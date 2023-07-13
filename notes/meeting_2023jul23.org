@@ -53,7 +53,7 @@
 
 ***** Importer
 
-***** Atomic
+***** Atomic::Burst 
 
 ***** DBIx::QuickDB
 
