@@ -36,6 +36,7 @@
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/hash_keys_with_spaces.raku
 
 ***** why can't %h{} do quoting like %h<>?
+****** my answer: braces imply code evaluation
 ****** side issue I wondered about:
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/braces_mean_code_and_hashes.raku
 
