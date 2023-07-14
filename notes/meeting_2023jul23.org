@@ -85,7 +85,7 @@ the alchemist-king, with 'Bey' a further nod to Moorish Science."
 **** second file of /dev/null to force grep to always behave like multifiles
 
 *** correction
-**** Inframan is actually a chinese movie
+**** Inframan is actually a chinese movie, not a japanese one
 
 ** from last meeting
 *** perl 5.38 (latest stable)
