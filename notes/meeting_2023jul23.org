@@ -84,6 +84,9 @@ the alchemist-king, with 'Bey' a further nod to Moorish Science."
 **** two faced behavior of single file and multi file case
 **** second file of /dev/null to force grep to always behave like multifiles
 
+*** correction
+**** Inframan is actually a chinese movie
+
 ** from last meeting
 *** perl 5.38 (latest stable)
 **** perl5 indirect object new disabled with 5.38
