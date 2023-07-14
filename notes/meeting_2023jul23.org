@@ -108,7 +108,5 @@ https://metacpan.org/pod/Object::Pad
 
 *** :delete adverb on arrays (rob)
 
-
-
 ** announcements 
 *** next meeting: August 6th
