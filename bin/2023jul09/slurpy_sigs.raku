@@ -5,7 +5,6 @@
 use v6;
 
 {
-
     sub grab(+@a) {
         "grab $_".say for @a
     }
