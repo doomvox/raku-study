@@ -6,6 +6,6 @@ use v6;
 
 sub MAIN (+@a) {
     for @a -> $a {
-        say "$a";
+        say ")$a(";
     }
 }
