@@ -4,7 +4,7 @@
 
 use v6;
 
-## in hash lookups why can't braces just quote keys, the same way angles do in Raku?
+## In hash lookups why can't braces just quote keys, the same way angles do in Raku?
 ## I think: because in Raku braces are supposed to consistently mean code evaluation
 {
     my %threat_level = godzilla => 9,  mothera => 7, tingler => 5;
