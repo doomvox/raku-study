@@ -30,7 +30,6 @@ use v6;
     grab(Nil);
     # Use of uninitialized value element of type Any in string context.
     #   in block  at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul09/slurpy_sigs.raku line 9
-
 }
 
 {
