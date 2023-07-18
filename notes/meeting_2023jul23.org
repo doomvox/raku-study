@@ -42,6 +42,9 @@
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/braces_mean_code_even_with_hashes.raku
 ***** (I think I tend to heckle Bruce Gray's talks)
 
+*** bruce gray on sorting WHATEVER
+**** available on youtube already: https://www.youtube.com/watch?v=sTB-blT9UnY
+
 *** bruce gray command line 
 **** uses seq a lot: nice and tight examples
 **** editorial seq is suprisingly limited, even stupidly so
