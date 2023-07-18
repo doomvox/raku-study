@@ -47,7 +47,10 @@
 **** perl uses stable sorts
 ***** repeatable behavior on a tie
 ***** good point: e.g. testing could be complicated otherwise
-
+**** raku example is interesting (I didn't get that a list would work here)
+#+BEGIN_SRC raku
+@L .= soft: { -.IO.s, .IO.modified, $_ };
+#+END_SRC
 
 *** bruce gray command line 
 **** uses seq a lot: nice and tight examples
