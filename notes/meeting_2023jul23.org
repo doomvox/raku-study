@@ -44,6 +44,10 @@
 
 *** bruce gray on sorting WHATEVER
 **** available on youtube already: https://www.youtube.com/watch?v=sTB-blT9UnY
+**** perl uses stable sorts
+***** repeatable behavior on a tie
+***** good point: e.g. testing could be complicated otherwise
+
 
 *** bruce gray command line 
 **** uses seq a lot: nice and tight examples
