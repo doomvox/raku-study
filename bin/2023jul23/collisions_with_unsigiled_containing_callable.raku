@@ -29,5 +29,5 @@ use v6;
         return 'beta';
     }
     say keyster();   # alpha
-    say keyster(); # beta
+    say keyster();   # beta
 }
