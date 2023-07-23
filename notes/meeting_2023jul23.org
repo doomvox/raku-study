@@ -18,6 +18,10 @@
 **** issue with raku "META6" file
 ***** "the META6 file is wrong"
 ***** maybe the blank source-url?
+**** bruce gray
+***** https://github.com/Raku/doc/blob/main/doc/Language/modules.rakudoc#L861
+***** https://github.com/jonathanstowe/META6
+***** https://design.raku.org/S22.html#META6.json
 
 *** jubilatious1 (William Michels) at unix.stackexchange.com:
 ***** https://unix.stackexchange.com/users/227738/jubilatious1
