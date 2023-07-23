@@ -83,6 +83,7 @@
 
 **** editorial: I think there's something really irritating about grep's second argument
 ***** need to say "*" when you want all (maybe default should be all)
+****** mostly an emacs thing?
 ***** relate
 ****** never wrote a "greps" for some reason
 
