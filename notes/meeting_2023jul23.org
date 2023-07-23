@@ -82,7 +82,7 @@
 **** second file of /dev/null to force grep to always behave like multifiles
 
 **** editorial: I think there's something really irritating about grep's second argument
-***** need to say "*" when you want all (default should be all)
+***** need to say "*" when you want all (maybe default should be all)
 ***** relate
 ****** never wrote a "greps" for some reason
 
