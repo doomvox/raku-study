@@ -33,5 +33,5 @@ use v6;
     say keyster();   # beta
 
     say "---";
-    say &{ keyster }.();  # sub { }
+    say keyster.();  # sub { }
 }
