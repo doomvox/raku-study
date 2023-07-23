@@ -47,3 +47,11 @@ use v6;
 }
 
 
+## On second thought, I prefer abandoning .classify to avoid the side-effect:
+{
+    my (@g, %h);
+    for lines() { my @w = .words;
+                  @g.push: @w[0];
+                  %h.append: @w[0] => @w.skip};
+    put .key, " ", .value for %h{ @g.unique }:p;
+}
