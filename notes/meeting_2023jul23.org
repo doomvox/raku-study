@@ -14,6 +14,21 @@
 *** weekly challenge
 **** this week:
 
+https://theweeklychallenge.org/blog/perl-weekly-challenge-225/
+https://theweeklychallenge.org/blog/perl-weekly-challenge-226/
+https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-225/0rir/raku/ch-1.raku
+https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-225/0rir/raku/ch-2.raku
+https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-225/bruce-gray/raku/ch-1.raku
+https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-225/bruce-gray/raku/ch-2.raku
+
+
+https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-226
+https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-226/0rir/raku/ch-1.raku
+https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-226/0rir/raku/ch-2.raku
+https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-226/0rir/raku/ch-2a.raku
+https://github.com/Util/perlweeklychallenge-club/blob/c226/challenge-226/bruce-gray/raku/ch-1.raku
+https://github.com/Util/perlweeklychallenge-club/blob/c226/challenge-226/bruce-gray/raku/ch-2.raku
+
 
 
 *** rob
