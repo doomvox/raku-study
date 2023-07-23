@@ -77,6 +77,10 @@
 **** two faced behavior of single file and multi file case
 **** second file of /dev/null to force grep to always behave like multifiles
 
+**** editorial: I think there's something really irritating about grep's second argument
+***** relate
+***** never wrote a "greps" for some reason
+
 *** correction
 **** Inframan is actually a chinese movie, not a japanese one
 
