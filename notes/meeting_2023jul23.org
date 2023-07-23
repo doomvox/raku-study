@@ -19,7 +19,7 @@
 
 
 *** leonerd
-**** PERL Data::Printer better than Data::Dumper
+**** PERL5 Data::Printer better than Data::Dumper
 ***** but not in Core (yet?)
 
 *** interpolating code in a string
@@ -65,7 +65,7 @@
 ****** mapgame script behavior
 
 
-*** PERL Chad Granum presented three modules that sound great:
+*** PERL5 Chad Granum presented three modules that sound great:
 ***** Importer
 ***** Atomic::Pipe
 ***** DBIx::QuickDB
