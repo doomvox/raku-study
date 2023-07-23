@@ -40,7 +40,7 @@ use v6;
 
 {
    my $a = 2e0;
-   say $a.WHAT;
+   say $a.WHAT;  # (Num)
 
 
 }
