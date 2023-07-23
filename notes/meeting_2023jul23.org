@@ -61,7 +61,7 @@
 ****** mapgame script behavior
 
 
-*** PERL Chad Granum presented three modules, all sound great (check names)
+*** PERL Chad Granum presented three modules that sound great:
 ***** Importer
 ***** Atomic::Pipe
 ***** DBIx::QuickDB
