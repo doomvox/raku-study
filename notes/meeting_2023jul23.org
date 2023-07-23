@@ -140,6 +140,8 @@ https://metacpan.org/pod/Object::Pad
 *** next time
 **** rob's interface api review
 
+**** pod6 as a vehicle for writing technical papers in general
+***** https://github.com/Raku/problem-solving/issues/375
 
 ** announcements 
 *** next meeting: August 6th
