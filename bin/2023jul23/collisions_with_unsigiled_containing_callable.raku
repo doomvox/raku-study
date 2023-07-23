@@ -28,6 +28,6 @@ use v6;
     my sub keyster {
         return 'beta';
     }
-    say keyster();   # alpha
+    say keyster();   # beta
     say keyster();   # beta
 }
