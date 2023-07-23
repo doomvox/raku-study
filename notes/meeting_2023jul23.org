@@ -70,7 +70,7 @@
 ***** good point: e.g. testing could be complicated otherwise
 **** raku example is interesting (I didn't get that a list would work here)
 #+BEGIN_SRC raku
-@L .= soft: { -.IO.s, .IO.modified, $_ };
+@L .= sort: { -.IO.s, .IO.modified, $_ };
 #+END_SRC
 
 *** bruce gray command line 
