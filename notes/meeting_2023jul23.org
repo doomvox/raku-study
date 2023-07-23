@@ -37,6 +37,7 @@
 *** interpolating code in a string
 **** raku: "{}"
 **** perl: "@{[]}"
+## my $a = "some string  @{ [ call_name() ] } end of the string";
 ***** example: dbi_link
 ****** https://github.com/davidfetter/DBI-Link/blob/master/dbi_link.sql
 ******* postgres sql, with embedded perl (plperlu) with embedded sql with embedded perl
