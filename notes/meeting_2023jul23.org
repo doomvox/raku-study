@@ -15,8 +15,8 @@
 **** this week:
 
 *** rob
-**** issue with raku "META" file
-***** "the META file is wrong"
+**** issue with raku "META6" file
+***** "the META6 file is wrong"
 
 *** jubilatious1 (William Michels) at unix.stackexchange.com:
 ***** https://unix.stackexchange.com/users/227738/jubilatious1
