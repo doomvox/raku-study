@@ -11,6 +11,10 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023jul09.org
 
 ** topics
+
+*** jubilatious1 (William Michels) at unix.stackexchange:
+***** https://unix.stackexchange.com/users/227738/jubilatious1
+
 *** perl and raku conference in toronto
 **** anyone want to talk about it?
 
