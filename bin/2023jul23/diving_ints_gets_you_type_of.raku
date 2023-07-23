@@ -40,7 +40,7 @@ use v6;
 
 {
    my $a = 2e0;
-   say $a.WHAT;        # (Num)
+   say $a.WHAT;        # (Num), i.e. a floating point
    say $a.narrow.WHAT; # (Int)
 
 }
