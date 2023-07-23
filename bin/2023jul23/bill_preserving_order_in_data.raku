@@ -19,3 +19,13 @@ for lines() {
 };
 @h = %h.sort( *.key )>>.kv; 
 .put for @h[ %g.sort.map( *.values>>.min).pairs.sort(*.values)>>.keys.flat ];
+
+
+
+my (@g, %h);
+for lines() {
+    my @w = .words;
+    @g.push: @w[0];
+    %h.append: @w[0] => @w;
+}
+.put for %h{ @g.unique };
