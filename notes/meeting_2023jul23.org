@@ -21,10 +21,6 @@ https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-225/0ri
 https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-225/bruce-gray/raku/ch-1.raku
 https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-225/bruce-gray/raku/ch-2.raku
 
-
-
-
-
 *** rob
 **** issue with raku "META6" file
 ***** "the META6 file is wrong"
