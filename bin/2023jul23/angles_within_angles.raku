@@ -97,6 +97,7 @@ say "===";
   say @countries;
   # [Kalamazoo $adj Kingdom << United Snakes >> Mordor]
   say @countries.raku;
+  # ["Kalamazoo", "\$adj Kingdom", "<<", "United", "Snakes", ">>", "Mordor"]
   say @countries[0];
 }
 
