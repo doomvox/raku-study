@@ -12,7 +12,7 @@
 
 ** topics
 *** weekly challenge
-
+**** this week:
 
 *** jubilatious1 (William Michels) at unix.stackexchange.com:
 ***** https://unix.stackexchange.com/users/227738/jubilatious1
