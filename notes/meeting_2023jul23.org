@@ -14,6 +14,10 @@
 *** perl and raku conference in toronto
 **** anyone want to talk about it?
 
+*** correction
+**** Inframan is actually a chinese movie, not a japanese one
+
+
 *** leonerd
 **** PERL Data::Printer better than Data::Dumper
 ***** but not in Core (yet?)
@@ -81,12 +85,11 @@
 ***** relate
 ***** never wrote a "greps" for some reason
 
-*** correction
-**** Inframan is actually a chinese movie, not a japanese one
 
-** from last meeting
+
+
 *** perl 5.38 (latest stable)
-**** perl5 indirect object new disabled with 5.38
+**** perl5 indirect object "new" disabled with 5.38
 ***** to get old behavior, now need to turn it on manually:
 
 #+BEGIN_SRC cperl
