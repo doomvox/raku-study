@@ -97,7 +97,7 @@ say "===";
   say @countries;
   # [Kalamazoo $adj Kingdom << United Snakes >> Mordor]
   say @countries.raku;
-  # ["Kalamazoo", "\$adj Kingdom", "<<", "United", "Snakes", ">>", "Mordor"]
+  # ["Kalamazoo", "\$adj Kingdom", "<<", "United", "Snakes", ">>", "Mordor"]   ## a BUG?  anyone care?
   say @countries.elems;  # 7
 
   say @countries[0];
