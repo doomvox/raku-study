@@ -28,7 +28,9 @@ use v6;
     my sub keyster {
         return 'beta';
     }
-    say keyster;
+    say keyster;     # sub { }
     say keyster();   # beta
     say keyster();   # beta
+
+    say &{ keyster };
 }
