@@ -95,6 +95,7 @@ say "===";
   my $adj = 'United';
   my @countries = << Kalamazoo '$adj Kingdom' <<$adj Snakes>> Mordor >>;
   say @countries;
+  # [Kalamazoo $adj Kingdom << United Snakes >> Mordor]
   say @countries[0];
 }
 
