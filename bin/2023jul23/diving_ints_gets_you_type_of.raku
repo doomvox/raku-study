@@ -27,3 +27,12 @@ use v6;
 
     say $ratio.WHAT; # (Rat)
 }
+
+
+{
+    my $a = 6;
+    my $b = 3;
+    my $ratio = $a/$b;
+
+    say $ratio.narrow.WHAT; # (Int)
+}
