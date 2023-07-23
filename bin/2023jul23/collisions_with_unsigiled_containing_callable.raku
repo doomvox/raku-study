@@ -35,3 +35,15 @@ use v6;
     say "---";
     say keyster.();  # alpha
 }
+
+
+{
+    my sub keyster {
+        return 'beta';
+    }
+
+
+
+    say keyster;   # alpha
+    say keyster(); # beta
+}
