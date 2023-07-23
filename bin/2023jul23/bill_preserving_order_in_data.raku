@@ -35,6 +35,7 @@ use v6;
 }
 
 
+## bruce gray final version:
 {
     my @g;
     my %h = lines().map({ my @w = .words;
