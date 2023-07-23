@@ -9,7 +9,7 @@ use v6;
 ## Less obviously, even if it doesn't have to be a Rat?
 ## A: Yes, still a Rat.
 
-## Output types are determined by input types.
+## Output types are determined by input types, not input values.
 
 {
     my $a = 7;
