@@ -93,12 +93,12 @@ say "===";
 say "===";
 { 
   my $adj = 'United';
-  my @countries = << Kalamazoo '$adj Kingdom' <<$adj Snakes>> Mordor >>;
+  my @countries = << Kalamazoo '$adj Kingdom' <<adj Snakes>> Mordor >>;
   say @countries;
   # [Kalamazoo $adj Kingdom << United Snakes >> Mordor]
   say @countries.raku;
   # ["Kalamazoo", "\$adj Kingdom", "<<", "United", "Snakes", ">>", "Mordor"]
-  say @countries.elems;
+  say @countries.elems;  # 7
 
   say @countries[0];
 }
