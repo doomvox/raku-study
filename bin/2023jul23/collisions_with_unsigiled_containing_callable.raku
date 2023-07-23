@@ -32,5 +32,5 @@ use v6;
     say keyster();   # beta
     say keyster();   # beta
 
-    say &{ keyster };
+    say &{ keyster }.{};
 }
