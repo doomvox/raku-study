@@ -38,9 +38,12 @@ use v6;
 ## bruce gray final version:
 {
     my @g;
-    my %h = lines().map({ my @w = .words;
-                          push @g, @w[0];
-                          @w;
-                        }).classify( {.head}, :as{.skip} );
+    my %h = lines().map( { my @w = .words;
+                           push @g, @w[0];
+                           @w
+                         }
+                       ).classify( {.head}, :as{.skip} );
     put .key, " ", .value for %h{@g.unique}:p;
 }
+
+
