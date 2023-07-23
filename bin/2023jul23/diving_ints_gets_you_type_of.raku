@@ -7,7 +7,7 @@ use v6;
 ## Bruce Gray asks the simple question, what type do you get from dividing Ints?
 ## Obviously, a Rat.
 ## Less obviously, even if it doesn't have to be a Rat?
-## Yes, still a Rat.
+## A: Yes, still a Rat.
 
 {
     my $a = 7;
