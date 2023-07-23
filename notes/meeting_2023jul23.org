@@ -17,6 +17,7 @@
 *** rob
 **** issue with raku "META6" file
 ***** "the META6 file is wrong"
+***** maybe the blank source-url?
 
 *** jubilatious1 (William Michels) at unix.stackexchange.com:
 ***** https://unix.stackexchange.com/users/227738/jubilatious1
