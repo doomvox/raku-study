@@ -41,6 +41,6 @@ use v6;
 {
    my $a = 2e0;
    say $a.WHAT;  # (Num)
-
+   say $a.narrow.WHAT;
 
 }
