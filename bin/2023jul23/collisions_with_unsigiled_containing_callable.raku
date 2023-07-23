@@ -42,7 +42,8 @@ say "===";
         return 'beta';
     }
 
-    say keyster(); # alpha
+    say keyster(); # beta
 
-    say keyster.(); # beta
+    # say keyster.(); # beta
+    # ## No such method 'CALL-ME' for invocant of type 'Str'
 }
