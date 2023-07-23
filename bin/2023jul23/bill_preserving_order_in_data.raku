@@ -11,16 +11,18 @@ use v6;
 #            .put for @h[ %g.sort.map( *.values>>.min).pairs.sort(*.values)>>.keys.flat ];'   file
 
 
-my (%g, %h, @h);
-for lines() {
-    my @a = .split(/ \s+ /);  
-    %g.append: @a[0] => $++;          ## line order
-    %h.append: @a[0] => @a[1..*]      ## all other values keyed by first column field
-};
-@h = %h.sort( *.key )>>.kv; 
-.put for @h[ %g.sort.map( *.values>>.min).pairs.sort(*.values)>>.keys.flat ];
+{
+    my (%g, %h, @h);
+    for lines() {
+        my @a = .split(/ \s+ /);  
+        %g.append: @a[0] => $++;          ## line order
+        %h.append: @a[0] => @a[1..*]      ## all other values keyed by first column field
+    };
+    @h = %h.sort( *.key )>>.kv; 
+    .put for @h[ %g.sort.map( *.values>>.min).pairs.sort(*.values)>>.keys.flat ];
+}
 
-
+## bruce gray
 
 my (@g, %h);
 for lines() {
