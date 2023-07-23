@@ -63,7 +63,7 @@
 
 *** PERL Chad Granum presented three modules, all sound great (check names)
 ***** Importer
-***** Atomic::Burst 
+***** Atomic::Pipe
 ***** DBIx::QuickDB
 
 *** Zaki Mughai intro to PDL and TensorFLow
