@@ -24,10 +24,24 @@ use v6;
 
 ## bruce gray
 
-my (@g, %h);
-for lines() {
-    my @w = .words;
-    @g.push: @w[0];
-    %h.append: @w[0] => @w;
+{
+    my (@g, %h);
+    for lines() {
+        my @w = .words;
+        @g.push: @w[0];
+        %h.append: @w[0] => @w;
+    }
+    .put for %h{ @g.unique };
 }
-.put for %h{ @g.unique };
+
+
+{
+
+    my @g;
+    my %h = lines().map({ my @w = .words;
+                          push @g, @w[0];
+                          @w;
+                        }).classify( {.head}, :as{.skip} );
+    put .key, " ", .value for %h{@g.unique}:p;
+
+}
