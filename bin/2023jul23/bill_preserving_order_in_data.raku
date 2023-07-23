@@ -43,7 +43,7 @@ use v6;
                            @w
                          }
                        ).classify( {.head}, :as{.skip} );
-    put .key, " ", .value for %h{@g.unique}:p;
+    put .key, " ", .value for %h{ @g.unique }:p;
 }
 
 
