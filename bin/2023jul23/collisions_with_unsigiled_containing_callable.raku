@@ -36,9 +36,8 @@ use v6;
     say keyster.();  # alpha
 }
 
-
+say "===";
 {
-    say "===";
     my sub keyster {
         return 'beta';
     }
