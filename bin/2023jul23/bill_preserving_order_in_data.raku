@@ -36,7 +36,6 @@ use v6;
 
 
 {
-
     my @g;
     my %h = lines().map({ my @w = .words;
                           push @g, @w[0];
