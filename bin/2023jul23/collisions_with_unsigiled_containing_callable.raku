@@ -21,3 +21,13 @@ use v6;
     say keyster;   # alpha
     say keyster(); # beta
 }
+
+
+{
+    my \keyster = sub { 'alpha' };
+    my sub keyster {
+        return 'beta';
+    }
+    say keyster;   # alpha
+    say keyster(); # beta
+}
