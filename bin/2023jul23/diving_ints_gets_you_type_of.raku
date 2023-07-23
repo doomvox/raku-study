@@ -36,3 +36,11 @@ use v6;
 
     say $ratio.narrow.WHAT; # (Int)
 }
+
+
+{
+   my $a = 2e0;
+   say $a.What;
+
+
+}
