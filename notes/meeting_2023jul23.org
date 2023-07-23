@@ -12,7 +12,7 @@
 
 ** topics
 
-*** jubilatious1 (William Michels) at unix.stackexchange:
+*** jubilatious1 (William Michels) at unix.stackexchange.com:
 ***** https://unix.stackexchange.com/users/227738/jubilatious1
 
 *** perl and raku conference in toronto
