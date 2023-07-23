@@ -38,11 +38,12 @@ use v6;
 
 
 {
+    say "===";
     my sub keyster {
         return 'beta';
     }
 
-    say keyster(); # beta
+    say keyster(); # alpha
 
     say keyster.(); # beta
 }
