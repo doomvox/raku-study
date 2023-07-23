@@ -14,6 +14,10 @@
 *** weekly challenge
 **** this week:
 
+*** rob
+**** issue with raku "META" file
+***** "the META file is wrong"
+
 *** jubilatious1 (William Michels) at unix.stackexchange.com:
 ***** https://unix.stackexchange.com/users/227738/jubilatious1
 
