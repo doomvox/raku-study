@@ -13,136 +13,15 @@
 
 ** topics
 *** weekly challenge
-**** this week:
-
-https://theweeklychallenge.org/blog/perl-weekly-challenge-225/
-https://theweeklychallenge.org/blog/perl-weekly-challenge-226/
-https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-225/0rir/raku/ch-1.raku
-https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-225/0rir/raku/ch-2.raku
-https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-225/bruce-gray/raku/ch-1.raku
-https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-225/bruce-gray/raku/ch-2.raku
-
-*** rob
-**** issue with raku "META6" file
-***** "the META6 file is wrong"
-***** maybe the blank source-url?
-**** bruce gray
-***** https://github.com/Raku/doc/blob/main/doc/Language/modules.rakudoc#L861
-***** https://github.com/jonathanstowe/META6
-***** https://design.raku.org/S22.html#META6.json
-
-*** jubilatious1 (William Michels) at unix.stackexchange.com:
-***** https://unix.stackexchange.com/users/227738/jubilatious1
+**** 
+https://theweeklychallenge.org/blog/perl-weekly-challenge-227
+https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 
 
-*** perl and raku conference in toronto
-**** anyone want to talk about it?
+*** rob's interface api review
 
-*** correction
-**** Inframan is actually a chinese movie, not a japanese one
-
-
-*** leonerd
-**** PERL5 Data::Printer better than Data::Dumper
-***** but not in Core (yet?)
-
-*** interpolating code in a string
-**** raku: "{}"
-**** perl: "@{[]}"
-## my $a = "some string  @{ [ call_name() ] } end of the string";
-***** example: dbi_link
-****** https://github.com/davidfetter/DBI-Link/blob/master/dbi_link.sql
-******* postgres sql, with embedded perl (plperlu) with embedded sql with embedded perl
-******* postgres raku?
-
-*** from the bruce gray raku tutorial
-***** starting with a question of mine
-****** << 'a b' 2 3 >>
-****** << <a b> 23 >> 
-******* https://github.com/doomvox/raku-study/tree/main/bin/2023jul23/angles_within_angles.raku
-******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/angles_within_angles.raku
-***** another question: hash keys with embedded spaces
-****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/hash_keys_with_spaces.raku
-
-***** why can't %h{} do quoting like %h<>?
-****** my answer: braces imply code evaluation
-****** side issue I wondered about:
-******* https://github.com/doomvox/raku-study/tree/main/bin/2023jul23/braces_mean_code_even_with_hashes.raku
-******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023jul23/braces_mean_code_even_with_hashes.raku
-***** (I think I tend to heckle Bruce Gray's talks)
-
-*** bruce gray on sorting WHATEVER
-**** available on youtube already: https://www.youtube.com/watch?v=sTB-blT9UnY
-**** perl uses stable sorts
-***** repeatable behavior on a tie
-***** good point: e.g. testing could be complicated otherwise
-**** raku example is interesting (I didn't get that a list would work here)
-#+BEGIN_SRC raku
-@L .= sort: { -.IO.s, .IO.modified, $_ };
-#+END_SRC
-
-*** bruce gray command line 
-**** uses seq a lot: nice and tight examples
-**** my editorial: seq is suprisingly limited
-***** to get leading zeros, need to use sprintf formatting features
-***** doesn't work with characters, just numbers, why not "seq a z"
-***** doesn't work with anything except decimal why not hex (though, hex via printf?)
-****** mapgame script behavior
-
-
-*** PERL5 Chad Granum presented three modules that sound great:
-***** Importer
-***** Atomic::Pipe
-***** DBIx::QuickDB
-
-*** Zaki Mughai intro to PDL and TensorFLow
-**** impressively dense talks, probably best viewed again in video (text too small)
-**** note: argues that PDL has advantages on R, "higher dimensionality"
-**** often uses gnuplot for visualization
-
-*** Q: greps that only check the first line (for example)?
-
-*** alan point about purity of grep as filter
-**** two faced behavior of single file and multi file case
-**** second file of /dev/null to force grep to always behave like multifiles
-
-**** editorial: I think there's something really irritating about grep's second argument
-***** need to say "*" when you want all (maybe default should be all)
-****** mostly an emacs thing?
-***** relate
-****** never wrote a "greps" for some reason
-
-
-
-
-*** perl 5.38 (latest stable)
-**** perl5 indirect object "new" disabled with 5.38
-***** to get old behavior, now need to turn it on manually:
-
-#+BEGIN_SRC cperl
-use feature 'indirect';
-#+END_SRC 
-
-**** new oop features: class, field, method keywords (still experimental)
-***** similar to cpan module Object::Pad
-https://metacpan.org/pod/Object::Pad
-
-**** other features
-***** https://www.i-programmer.info/news/222-perl/16431-perl-5380-released-an-appeal-to-new-blood.html
-
-*** slurpy signatures (rob)
-**** https://docs.raku.org/language/functions.html#Signatures
-***** "functions that don't have reasonable behavior on lists of lists" ?
-***** What diff *@ **@ +@?
-
-*** :delete adverb on arrays (rob)
-
-
-*** next time
-**** rob's interface api review
-
-**** pod6 as a vehicle for writing technical papers in general
-***** https://github.com/Raku/problem-solving/issues/375
+*** pod6 as a vehicle for writing technical papers in general
+**** https://github.com/Raku/problem-solving/issues/375
 
 ** announcements 
 *** next meeting: August 20th
