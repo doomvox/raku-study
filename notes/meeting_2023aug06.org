@@ -17,7 +17,6 @@
 https://theweeklychallenge.org/blog/perl-weekly-challenge-227
 https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 
-
 *** rob's interface api review
 
 *** pod6 as a vehicle for writing technical papers in general
