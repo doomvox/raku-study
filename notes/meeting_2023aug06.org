@@ -10,6 +10,7 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023jul23.org
 
+
 ** topics
 *** weekly challenge
 **** this week:
@@ -144,4 +145,4 @@ https://metacpan.org/pod/Object::Pad
 ***** https://github.com/Raku/problem-solving/issues/375
 
 ** announcements 
-*** next meeting: August 6th
+*** next meeting: August 20th
