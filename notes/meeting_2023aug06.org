@@ -26,6 +26,11 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 *** pod6 as a vehicle for writing technical papers in general
 **** https://github.com/Raku/problem-solving/issues/375
 
+*** alan
+**** put vs say
+***** say .gist
+***** put .perl or .Stf
+***** 
 
 ** announcements 
 *** next meeting: August 20th
