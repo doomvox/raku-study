@@ -53,3 +53,11 @@ use v6;
 }
 
 ## Side effect of "hyper operator" interpretation?
+
+
+
+{
+    my $some_item = 'damis";
+    my $something = |<< ankou araxxor borrokar $some_item delrith elvarg kalrag yuri >>; ## www.runehq.com
+    dd $something;
+}
