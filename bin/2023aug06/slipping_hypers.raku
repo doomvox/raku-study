@@ -6,7 +6,6 @@ use v6;
 
 ## A problem Marton brings up, slipping out of a <<...>> cares about preceeding whitespace, but nothing else like it does.
 
-
 {
     my @monsters = < ankou araxxor borrokar damis delrith elvarg kalrag yuri >; ## www.runehq.com
 
