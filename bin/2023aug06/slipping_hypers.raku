@@ -57,7 +57,15 @@ use v6;
 
 
 {
+## A *different error* when you've got interpolation going on:
+
     my $some_item = 'damis';
     my $something = |<< ankou araxxor borrokar $some_item delrith elvarg kalrag yuri >>; ## www.runehq.com
     dd $something;
+# ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023aug06/slipping_hypers.raku
+# Two terms in a row
+# at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023aug06/slipping_hypers.raku:61
+# ------>  = |<< ankou araxxor borrokar $some_item⏏ delrith elvarg kalrag yuri >>; ## www.r
+
+
 }
