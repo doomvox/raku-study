@@ -5,15 +5,19 @@
 use v6;
 
 
+# {
+#     my $a = "hey";
+#     my $b = "ho";
+#     my $c = "$a $b $c";
+#     ##  Cannot use variable $c in declaration to initialize itself
+# }
+
+
 {
-    my $a = "hey";
-    my $b = "ho";
-    my $c = "$a $b $c";
-    ##  Cannot use variable $c in declaration to initialize itself
-}
-
-
-
+    my ($a, $b) = "hey", "ho";
+    my $c = "yo";
+    $c++;
+    }
 
 
 # ====
