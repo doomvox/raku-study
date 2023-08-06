@@ -87,7 +87,6 @@ use v6;
 
 {
 
-
      my $something = |<< ankou araxxor borrokar 'Da Mis' delrith elvarg kalrag yuri >>; ## www.runehq.com
      dd $something;
 
