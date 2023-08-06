@@ -30,7 +30,7 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 **** put vs say
 ***** say .gist
 ***** put .perl or .Stf
-***** 
+***** also: dd
 
 ** announcements 
 *** next meeting: August 20th
