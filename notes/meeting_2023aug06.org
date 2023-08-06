@@ -36,7 +36,7 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 *** Marton docs issue, how to talk operators
 **** https://github.com/Raku/doc/discussions/4337
 
-**** is something even an operator like {} 
+**** is something even an operator, e.g. {} 
 
 ** announcements 
 *** next meeting: August 20th
