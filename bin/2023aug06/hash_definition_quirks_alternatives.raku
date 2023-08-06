@@ -21,6 +21,6 @@ use v6;
         'red',  'FF0000',
     }
 
-    put $color-name-to-rgb.^name;  # Hash
-    say $color-name-to-rgb<red>;   # FF0000
+    put %color-name-to-rgb.^name;  # Hash
+    say %color-name-to-rgb<red>;   # FF0000
 }
