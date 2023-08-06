@@ -16,12 +16,11 @@
 **** Note: Bruce Gray has some good stuff on this, but expects to be 1-1.5hrs "late":
 **** 
 https://theweeklychallenge.org/blog/perl-weekly-challenge-227
-
 https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 
 *** rob's interface api review
 
-*** rob raku isp, competitor to gtk, perltk, etc.
+*** rob raku IUP, competitor to gtk, perltk, etc.
 **** portable user interface (out of brazil, portugeuse)
 
 *** pod6 as a vehicle for writing technical papers in general
