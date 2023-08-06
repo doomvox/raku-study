@@ -86,7 +86,8 @@ use v6;
 
 
 {
- ## A *different error* when you've got interpolation going on:
+
+
      my $something = |<< ankou araxxor borrokar 'Da Mis' delrith elvarg kalrag yuri >>; ## www.runehq.com
      dd $something;
 
