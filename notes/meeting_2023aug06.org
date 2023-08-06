@@ -33,8 +33,7 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 ***** also: dd
 
 
-*** Marton docs issue, talking about operators
-
+*** Marton docs issue, how to talk operators
 **** https://github.com/Raku/doc/discussions/4337
 
 **** is something even an operator like {} 
