@@ -27,6 +27,5 @@ use v6;
 
 }
 
-{
-    say "still running";
-    }
+
+
