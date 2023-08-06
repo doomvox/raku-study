@@ -57,7 +57,7 @@ use v6;
 
 
 {
-    my $some_item = 'damis";
+    my $some_item = 'damis';
     my $something = |<< ankou araxxor borrokar $some_item delrith elvarg kalrag yuri >>; ## www.runehq.com
     dd $something;
 }
