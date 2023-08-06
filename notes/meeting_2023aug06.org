@@ -20,6 +20,9 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 
 *** rob's interface api review
 
+*** rob raku isp 
+portable user interface (out of brazil, portugeuse)
+
 *** pod6 as a vehicle for writing technical papers in general
 **** https://github.com/Raku/problem-solving/issues/375
 
