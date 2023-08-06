@@ -7,6 +7,7 @@ use v6;
 
 my @monsters = < ankou araxxor borrokar damis delrith elvarg kalrag yuri >; ## www.runehq.com
 
-my $something = ! @monsters;
+my $something = | @monsters;
 
 dd $something;
+## Bool $something = Bool::False
