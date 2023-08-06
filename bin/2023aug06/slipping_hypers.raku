@@ -27,3 +27,10 @@ use v6;
     dd $something;
     ## Slip $something = $(slip("ankou", "araxxor", "borrokar", "damis", "delrith", "elvarg", "kalrag", "yuri"))
 }
+
+
+{
+    my $something = |<< ankou araxxor borrokar damis delrith elvarg kalrag yuri >>; ## www.runehq.com
+    dd $something;
+    ## Slip $something = $(slip("ankou", "araxxor", "borrokar", "damis", "delrith", "elvarg", "kalrag", "yuri"))
+}
