@@ -38,5 +38,6 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 
 **** is something even an operator, e.g. {} 
 
+
 ** announcements 
 *** next meeting: August 20th
