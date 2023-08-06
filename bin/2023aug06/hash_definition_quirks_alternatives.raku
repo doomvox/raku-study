@@ -17,9 +17,14 @@ use v6;
 
 
 {
-    my %color-name-to-rgb = {
+#     my %color-name-to-rgb = {
+#         'red',  'FF0000',
+#     };
+
+    my %color-name-to-rgb = (
         'red',  'FF0000',
-    };
+    );
+
 
     put %color-name-to-rgb.^name;  # Hash
     say %color-name-to-rgb<red>;   # FF0000
