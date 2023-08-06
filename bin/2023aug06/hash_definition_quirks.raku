@@ -14,7 +14,7 @@ use v6;
     };
 
     put $color-name-to-rgb.^name;  # Hash
-    say $color-name-to-rgb<red>;
+    say $color-name-to-rgb<red>;   # FF0000
 }
 
 {
@@ -22,8 +22,11 @@ use v6;
         'red', 'FF0000',
     };
     put $color-name-to-rgb.^name;  # Hash
-    say $color-name-to-rgb<red>;
+    say $color-name-to-rgb<red>;   # Type Block does not support associative indexing.
+
 
 }
 
-
+{
+    say "still running";
+    }
