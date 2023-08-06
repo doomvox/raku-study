@@ -51,3 +51,5 @@ use v6;
     my $something = |< ankou araxxor borrokar damis delrith elvarg kalrag yuri >; ## www.runehq.com
     dd $something;
 }
+
+## Side effect of "hyper operator" interpretation?
