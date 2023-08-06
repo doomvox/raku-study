@@ -9,7 +9,7 @@ use v6;
     my $a = "hey";
     my $b = "ho";
     my $c = "$a $b $c";
-
+    ##  Cannot use variable $c in declaration to initialize itself
 }
 
 
