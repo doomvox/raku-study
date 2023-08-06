@@ -32,5 +32,9 @@ use v6;
 {
     my $something = |<< ankou araxxor borrokar damis delrith elvarg kalrag yuri >>; ## www.runehq.com
     dd $something;
-    ## Slip $something = $(slip("ankou", "araxxor", "borrokar", "damis", "delrith", "elvarg", "kalrag", "yuri"))
+
+# ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023aug06/slipping_hypers.raku
+# Preceding context expects a term, but found infix > instead.
+
+
 }
