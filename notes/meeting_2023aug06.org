@@ -32,5 +32,12 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 ***** put .perl or .Stf
 ***** also: dd
 
+
+*** Marton docs issue, talking about operators
+
+**** https://github.com/Raku/doc/discussions/4337
+
+**** is something even an operator like {} 
+
 ** announcements 
 *** next meeting: August 20th
