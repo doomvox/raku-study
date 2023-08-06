@@ -13,6 +13,7 @@
 
 ** topics
 *** weekly challenge
+**** note: Bruce Gray has some good stuff on this, but expects to be 1-1.5hrs "late":
 **** 
 https://theweeklychallenge.org/blog/perl-weekly-challenge-227
 https://theweeklychallenge.org/blog/perl-weekly-challenge-228
