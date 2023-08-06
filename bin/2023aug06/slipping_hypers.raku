@@ -35,5 +35,4 @@ use v6;
 
     # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023aug06/slipping_hypers.raku
     # Preceding context expects a term, but found infix > instead.
-
 }
