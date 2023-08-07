@@ -38,13 +38,15 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 
 **** is something even an operator, e.g. {} 
 
-
-*** pod6 as a vehicle for writing technical papers in general (Rob)
-**** https://github.com/Raku/problem-solving/issues/375
-
 *** TODO mail copy of chat to Rob
 
 *** TODO Add notes from chat to these meeting notes
+
+** previous topics
+*** pod6 as a vehicle for writing technical papers in general (Rob)
+**** https://github.com/Raku/problem-solving/issues/375
+
+
 
 ** announcements 
 *** next meeting: August 20th
