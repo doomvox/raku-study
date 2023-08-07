@@ -25,7 +25,7 @@
 **** say does an implicit .gist
 **** put does an implicit .Str
 **** also: dd
-***** say is more for casual use, it has cases where it intentionally mangles (e.g. abbreviating lists of over 100 elems).
+***** say is more for casual use, it may intentionally mangle output (e.g. abbreviating lists of over 100 elems).
 ***** put is better at showing you things as they "really are"
 ****** I wonder about issues with classes that redefine behavior of .Str
 
