@@ -25,7 +25,10 @@ use v6;
     my ($a, $b) = "hey", "ho";
     my Str $c = "yo";
     $c++;
-    say $c; 
+    say $c; # yp    
+
+    $c = $c + 1;
+
     }
 
 
