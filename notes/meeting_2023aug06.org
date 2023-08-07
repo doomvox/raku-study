@@ -39,7 +39,7 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 **** is something even an operator, e.g. {} 
 
 
-*** rob issue pod6 as a vehicle for writing technical papers in general
+*** pod6 as a vehicle for writing technical papers in general (Rob)
 **** https://github.com/Raku/problem-solving/issues/375
 
 
