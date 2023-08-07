@@ -23,8 +23,6 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 *** rob working with raku's IUP module (competitor to gtk, perltk, etc.)
 **** portable user interface (out of brazil, portugeuse)
 
-*** pod6 as a vehicle for writing technical papers in general
-**** https://github.com/Raku/problem-solving/issues/375
 
 *** alan
 **** put vs say
@@ -39,6 +37,11 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 **** https://github.com/Raku/doc/discussions/4337
 
 **** is something even an operator, e.g. {} 
+
+
+*** rob issue pod6 as a vehicle for writing technical papers in general
+**** https://github.com/Raku/problem-solving/issues/375
+
 
 
 *** TODO mail copy of chat to Rob
