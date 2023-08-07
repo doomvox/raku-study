@@ -24,14 +24,14 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 **** portable user interface (out of brazil, portugeuse)
 
 
-*** alan
-**** put vs say
-***** say does an implicit .gist
-***** put does an implicit .Str
-***** also: dd
-****** say is more for casual use, it has cases where it intentionally mangles (e.g. abbreviating lists of over 100 elems).
-****** put is better at showing you things as they "really are"
-******* I wonder about issues with classes that redefine behavior of .Str
+
+*** put vs say (Alan)
+**** say does an implicit .gist
+**** put does an implicit .Str
+**** also: dd
+***** say is more for casual use, it has cases where it intentionally mangles (e.g. abbreviating lists of over 100 elems).
+***** put is better at showing you things as they "really are"
+****** I wonder about issues with classes that redefine behavior of .Str
 
 *** Martón docs issue, how to talk operators
 **** https://github.com/Raku/doc/discussions/4337
