@@ -18,9 +18,7 @@
 
 ***** TODO add links to Bruce Gray's solutions
 
-*** rob's interface api review
-
-*** rob working with raku's IUP module (competitor to gtk, perltk, etc.)
+*** rob adventures with raku's IUP module (competitor to gtk, perltk, etc.)
 **** a portable graphical user interface library (from Brazil).
 
 *** put vs say (Alan)
