@@ -17,7 +17,15 @@ use v6;
     my ($a, $b) = "hey", "ho";
     my $c = "yo";
     $c++;
-    say $c;  # yp
+    say $c;  # yp    (perlish, but arguably wrong)
+    }
+
+
+{
+    my ($a, $b) = "hey", "ho";
+    my Str $c = "yo";
+    $c++;
+    say $c; 
     }
 
 
