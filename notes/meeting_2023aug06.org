@@ -21,7 +21,7 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 *** rob's interface api review
 
 *** rob working with raku's IUP module (competitor to gtk, perltk, etc.)
-**** a portable graphical user interface library (out of brazil, portugeuse)
+**** a portable graphical user interface library (from Brazil).
 
 *** put vs say (Alan)
 **** say does an implicit .gist
