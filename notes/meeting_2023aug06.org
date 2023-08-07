@@ -23,8 +23,6 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 *** rob working with raku's IUP module (competitor to gtk, perltk, etc.)
 **** portable user interface (out of brazil, portugeuse)
 
-
-
 *** put vs say (Alan)
 **** say does an implicit .gist
 **** put does an implicit .Str
