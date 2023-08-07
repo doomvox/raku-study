@@ -33,7 +33,7 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 ***** also: dd
 
 
-*** Marton docs issue, how to talk operators
+*** Martón docs issue, how to talk operators
 **** https://github.com/Raku/doc/discussions/4337
 
 **** is something even an operator, e.g. {} 
@@ -45,3 +45,4 @@ https://theweeklychallenge.org/blog/perl-weekly-challenge-228
 
 ** announcements 
 *** next meeting: August 20th
+**** (Though for Martón, that's a national holiday)
