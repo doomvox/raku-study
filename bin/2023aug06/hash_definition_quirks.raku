@@ -21,7 +21,7 @@ use v6;
     my $color-name-to-rgb = {
         'red', 'FF0000',
     };
-    put $color-name-to-rgb.^name;  # Hash
+    put $color-name-to-rgb.^name;  # Block
     say $color-name-to-rgb<red>;   # Type Block does not support associative indexing.
 
 
