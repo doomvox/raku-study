@@ -28,6 +28,8 @@ use v6;
     say $c; # yp    
 
     $c = $c + 1;
+    ## Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏yp' (indicated by ⏏)
+
 
     }
 
