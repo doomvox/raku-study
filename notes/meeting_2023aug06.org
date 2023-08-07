@@ -34,7 +34,7 @@
 
 **** is something even an operator, e.g. {} 
 
-*** TODO mail copy of chat to Rob
+*** DONE mail copy of chat to Rob
 /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2023aug06-meeting_saved_chat.txt
 
 *** TODO Add notes from chat to these meeting notes
