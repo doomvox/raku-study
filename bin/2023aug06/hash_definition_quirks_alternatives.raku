@@ -6,6 +6,7 @@ use v6;
 
 
 {
+    ## canonical syntax 
     my $color-name-to-rgb = %(
         'red',  'FF0000',
     );
