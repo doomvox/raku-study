@@ -46,7 +46,7 @@ use v6;
 
 
 {
-
+    ## mildly surprised that this works, I expected "Odd number of elements"
     my %color-name-to-rgb = %(
         'red',  'FF0000',
     );
