@@ -6,7 +6,7 @@ use v6;
 
 
 {
-    ## canonical syntax 
+    ## canonical syntax for creating a hash from a list
     my $color-name-to-rgb = %(
         'red',  'FF0000',
     );
@@ -42,4 +42,15 @@ use v6;
 
     put %color-name-to-rgb.^name;  # Hash
     say %color-name-to-rgb<red>;   # FF0000
+}
+
+
+{
+
+    my %color-name-to-rgb = %(
+        'red',  'FF0000',
+    );
+
+    put $color-name-to-rgb.^name;  # Hash
+    say $color-name-to-rgb<red>;   # FF0000
 }
