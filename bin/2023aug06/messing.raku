@@ -4,6 +4,7 @@
 
 use v6;
 
+## Making some mistakes on purpose to see the error messages
 
 # {
 #     my $a = "hey";
