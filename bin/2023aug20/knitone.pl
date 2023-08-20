@@ -58,7 +58,11 @@ GetOptions ("d|debug"    => \$DEBUG,
 
 my @monsters = qw( godzilla mothera rhodan );
 
-
+my @a = qw(
+ whun 
+ tew
+ thuree
+);
 
 
 
