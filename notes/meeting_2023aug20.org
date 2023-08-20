@@ -62,4 +62,5 @@ https://zeromq.org
 
 ** announcements 
 *** next meeting: in 3 weeks, skipping labor day
+**** Sunday Sep 10, 2023
 
