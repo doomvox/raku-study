@@ -35,7 +35,7 @@ https://zeromq.org
 
 *** start promise
 **** if you exepct promise code may hang, you can't time it out from the outside
-**** bg case, wants to report precisely what will create a hang-up
+**** bg case: wants to report precisely what will create a hang-up
 
 *** fez questions
 **** tony o
