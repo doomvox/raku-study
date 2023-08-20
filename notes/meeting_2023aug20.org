@@ -27,6 +27,9 @@ https://zeromq.org
 
 *** Bruce: a not-a-bug.  Refactoring issue.
 
+
+
+
 ** old topics
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-227
