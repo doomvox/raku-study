@@ -13,12 +13,16 @@
 ** topics 
 
 *** MAIN Num and pi
-
-**** Maton:  Getopt::Long just works
+**** https://www.reddit.com/r/rakulang/comments/15sk5oo/converting_arguments_to_num/
+**** Maton:  Getopt::Long changes "enums" so they just work
+**** Bruce: coercing to Numeric works with NaN but not pi
+ raku -e 'say @*ARGS[0].Numeric'  NaN
 
 **** my thought: design a new type that coerces the constants 
 
-**** 
+
+
+
 
 ** old topics
 *** weekly challenge
