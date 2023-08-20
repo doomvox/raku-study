@@ -26,6 +26,11 @@
 https://zeromq.org
 
 *** Bruce: a not-a-bug.  Refactoring issue.
+#+BEGIN_SRC perl6
+.map(*.blah);
+.map(&blah);
+#+END_SRC
+The & form works only if the routine takes just one argument.
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-229
