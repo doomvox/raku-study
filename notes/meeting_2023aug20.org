@@ -12,7 +12,13 @@
 
 ** topics 
 
-*** 
+*** MAIN Num and pi
+
+**** Maton:  Getopt::Long just works
+
+**** my thought: design a new type that coerces the constants 
+
+**** 
 
 ** old topics
 *** weekly challenge
