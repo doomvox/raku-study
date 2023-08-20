@@ -49,8 +49,6 @@ https://zeromq.org
 *** pod6 as a vehicle for writing technical papers in general (Rob)
 **** https://github.com/Raku/problem-solving/issues/375
 
-
-
 ** announcements 
 *** next meeting: in 3 weeks, skipping labor day
 **** Sunday Sep 10, 2023
