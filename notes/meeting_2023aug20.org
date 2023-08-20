@@ -37,6 +37,9 @@ https://zeromq.org
 **** if you exepct promise code may hang, you can't time it out from the outside
 **** bg case, wants to report precisely what will create a hang-up
 
+*** fez questions
+**** tony o
+
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-229
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-230
