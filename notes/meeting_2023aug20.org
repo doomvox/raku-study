@@ -45,6 +45,37 @@ https://zeromq.org
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-229
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-230
 
+
+*** Bill M issue with two ranges/sequences
+#+BEGIN_SRC perl6
+~ % raku
+Welcome to Rakudo™ v2023.05.
+Implementing the Raku® Programming Language v6.d.
+Built on MoarVM version 2023.05.
+
+To exit type 'exit' or '^D'
+[0] > say grep({$_ == 1}, 0...5)
+()
+[0] > say 0...5
+(0 1 2 3 4 5)
+[0] > say 0...5,3...7
+(0 1 2 3 4 7)
+[0] > say 0...5;3...7
+(0 1 2 3 4 5)
+[0] > 0...5,3...7
+(0 1 2 3 4 7)
+[1] > (0...5,3...7)
+(0 1 2 3 4 7)
+[2] > (0...5,3...7,)
+(0 1 2 3 4 7)
+[3] > (0...5,6...7,)
+(0 1 2 3 4 5 6 7)
+[4] > (0..5,3..7,)
+(0..5 3..7)
+[5] > put (0..5,3..7,)
+0 1 2 3 4 5 3 4 5 6 7
+#+END_SRC
+
 ** previous topics
 *** pod6 as a vehicle for writing technical papers in general (Rob)
 **** https://github.com/Raku/problem-solving/issues/375
