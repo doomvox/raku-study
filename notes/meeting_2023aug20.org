@@ -21,7 +21,10 @@
 **** my thought: design a new type that coerces the constants 
 
 
+*** Anton Antonov working on org-mode execution of raku, pasting result under snippet
+**** need: "zinc",  zero-mq  
 
+*** 
 
 
 ** old topics
