@@ -39,6 +39,7 @@ https://zeromq.org
 
 *** fez questions
 **** tony o
+**** https://github.com/tony-o/raku-fez/issues
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-229
