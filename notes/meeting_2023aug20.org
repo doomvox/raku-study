@@ -31,30 +31,8 @@ https://zeromq.org
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-229
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-230
 
+
 ** old topics
-*** weekly challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-227
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-228
-
-***** TODO add links to Bruce Gray's solutions
-
-*** rob adventures with raku's IUP module (competitor to gtk, perltk, etc.)
-**** a portable graphical user interface library (from Brazil).
-
-*** put vs say (Alan)
-**** say does an implicit .gist
-**** put does an implicit .Str
-**** also: dd
-***** say is more for casual use, it may intentionally mangle output (e.g. abbreviating lists of over 100 elems).
-***** put is better at showing you things as they "really are"
-****** I wonder about issues with classes that redefine behavior of .Str
-
-*** Martón docs issue, how to talk operators
-**** https://github.com/Raku/doc/discussions/4337
-***** is something even an operator, e.g. {} 
-
-*** TODO Add notes from chat to these meeting notes
-
 ** previous topics
 *** pod6 as a vehicle for writing technical papers in general (Rob)
 **** https://github.com/Raku/problem-solving/issues/375
