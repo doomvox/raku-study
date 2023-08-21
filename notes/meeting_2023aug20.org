@@ -81,16 +81,19 @@ To exit type 'exit' or '^D'
 **** trying to strip down the examples
 
 #+BEGIN_SRC raku
-
+## seems strange:
 say 0...5,3...7;
 # (0 1 2 3 4 7)
 
+## parsing like this?
 say (0)...(5,3)...(7);
 # (0 1 2 3 4 7)
 
+## but
 say (0)...(5,3);
 # (0 1 2 3 4 5 3)
 
+## 
 say (5,3)...(7);
 # ()
 
