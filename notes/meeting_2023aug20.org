@@ -85,15 +85,15 @@ To exit type 'exit' or '^D'
 say 0...5,3...7;
 # (0 1 2 3 4 7)
 
-## parsing like this?
+## is raku parsing it like this?
 say (0)...(5,3)...(7);
 # (0 1 2 3 4 7)
 
-## but
+## so let's try that in pieces:
 say (0)...(5,3);
 # (0 1 2 3 4 5 3)
 
-## and
+## and...
 say (5,3)...(7);
 # ()
 
