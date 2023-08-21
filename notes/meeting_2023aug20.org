@@ -78,11 +78,15 @@ To exit type 'exit' or '^D'
 0 1 2 3 4 5 3 4 5 6 7
 #+END_SRC
 
+**** trying to strip down the examples
+
 #+BEGIN_SRC raku
 
 say 0...5,3...7;
+# (0 1 2 3 4 7)
 
 say (0)...(5,3)...(7);
+# (0 1 2 3 4 7)
 
 #+END_SRC
 
