@@ -97,7 +97,7 @@ say (0)...(5,3);
 say (5,3)...(7);
 # ()
 
-## Could this be LTA?
+## Here the LTA lurks.
 #+END_SRC
 
 ***** peculiar cases, but why no warnings/errors?
