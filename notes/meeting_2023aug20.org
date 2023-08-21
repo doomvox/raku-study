@@ -96,6 +96,8 @@ say (5,3)...(7);
 
 #+END_SRC
 
+**** range and sequence are confusable: '..' vs '...'
+
 
 ** previous topics
 *** pod6 as a vehicle for writing technical papers in general (Rob)
