@@ -47,7 +47,9 @@ https://zeromq.org
 
 
 *** Bill M issue with two ranges/sequences
-#+BEGIN_SRC perl6
+
+#+BEGIN_SRC raku
+
 ~ % raku
 Welcome to Rakudo™ v2023.05.
 Implementing the Raku® Programming Language v6.d.
@@ -75,6 +77,15 @@ To exit type 'exit' or '^D'
 [5] > put (0..5,3..7,)
 0 1 2 3 4 5 3 4 5 6 7
 #+END_SRC
+
+#+BEGIN_SRC raku
+
+say 0...5,3...7;
+
+say (0)...(5,3)...(7);
+
+#+END_SRC
+
 
 ** previous topics
 *** pod6 as a vehicle for writing technical papers in general (Rob)
