@@ -96,6 +96,8 @@ say (5,3)...(7);
 
 #+END_SRC
 
+***** peculiar cases, but why no warnings/errors?
+
 **** range and sequence are confusable: '..' vs '...'
 
 
