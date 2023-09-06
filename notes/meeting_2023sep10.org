@@ -1,1 +1,46 @@
+* meeting notes September 10, 2023
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023sep10.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2023sep10
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023aug20.org
+
+** topics 
+
+*** doc side ToC change (https://github.com/Raku/doc-website/issues/215)
+**** now live at docs-dev.raku.org
+**** it deprecates the original issue - feedback wanted
+
+*** Rakudo discussions with Bill on Github
+**** Adding them (Márton) because it felt like we were running circles, in case we want to clear something up
+**** https://github.com/rakudo/rakudo/issues/5239 (thunkiness of smartmatch - talked about the "happy path" last time)
+**** https://github.com/rakudo/rakudo/issues/4534 (irreparable Pairs in Captures)
+**** https://github.com/rakudo/rakudo/issues/5119 (resolving blocks in a list comprehension)
+**** https://github.com/rakudo/rakudo/issues/5116 (comparing WhateverCode instances)
+**** https://github.com/rakudo/rakudo/issues/4996 (codegenning .= for subscripts as well)
+
+*** start promise
+**** if you exepct promise code may hang, you can't time it out from the outside
+**** bg case: wants to report precisely what will create a hang-up
+
+*** fez questions
+**** tony o
+**** https://github.com/tony-o/raku-fez/issues
+
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-231
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-233
+
+
+** previous topics
+*** pod6 as a vehicle for writing technical papers in general (Rob)
+**** https://github.com/Raku/problem-solving/issues/375
+
+** announcements 
+
 
