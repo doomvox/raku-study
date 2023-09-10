@@ -20,7 +20,7 @@
 **** 
 
 *** weekly challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-229
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-231
 
 *** rosetta code 
 
