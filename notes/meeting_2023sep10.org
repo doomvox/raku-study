@@ -11,9 +11,15 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023aug20.org
 
 ** topics 
+
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-229
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-230
+
+
 ** announcements 
-*** next meeting: in 3 weeks, skipping labor day
-**** Sunday Sep 10, 2023
+*** next meeting: in 2 weeks
+**** Sunday Sep 24, 2023
 
 
 
