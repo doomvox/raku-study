@@ -22,7 +22,7 @@ https://stackoverflow.com/questions/35007291/how-to-make-n-3-the-same-as-n-3-in-
 
 *** 
 https://stackoverflow.com/questions/77066880/when-is-use-lib-path-evaluated
-**** will coleda: 
+**** Will Coleda test docs use
 use lib $*PROGRAM.parent(2).child('lib');
 
 *** Bill: stackover flow on checking string/length?
