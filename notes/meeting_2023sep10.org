@@ -36,6 +36,7 @@ use lib $*PROGRAM.parent(2).child('lib');
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-233/
+**** looking for similar words (one's with the same chars)
 
 *** rosetta code 
 
