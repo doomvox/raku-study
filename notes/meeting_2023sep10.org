@@ -22,7 +22,6 @@ https://stackoverflow.com/questions/77066880/when-is-use-lib-path-evaluated
 **** will coleda: 
 use lib $*PROGRAM.parent(2).child('lib');
 
-
 *** Bill: stackover flow on checking string/length?
 
 *** Ranges, Rob's adventures
