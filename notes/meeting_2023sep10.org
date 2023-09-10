@@ -1,4 +1,4 @@
-* meeting notes August 10, 2023
+* meeting notes September 10, 2023
 ** the raku study group
 **** usual links
 ***** these notes
@@ -11,6 +11,13 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023aug20.org
 
 ** topics 
+** announcements 
+*** next meeting: in 3 weeks, skipping labor day
+**** Sunday Sep 10, 2023
+
+
+
+** our story thus far (stuff from last time):
 
 *** MAIN Num and pi
 **** https://www.reddit.com/r/rakulang/comments/15sk5oo/converting_arguments_to_num/
