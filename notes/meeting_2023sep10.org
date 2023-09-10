@@ -32,7 +32,7 @@ use lib $*PROGRAM.parent(2).child('lib');
 *** Rob: getting a module available to fez
 
 *** live running code on docs website
-**** 
+**** Bruce and Will discussed ways of using glot.io from docs.raku.org  
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-231
