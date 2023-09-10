@@ -46,6 +46,9 @@ use lib $*PROGRAM.parent(2).child('lib');
 *** Marton issues rakudo repository
 https://github.com/rakudo/rakudo/issues/5369
 
+https://github.com/rakudo/rakudo/issues/4534
+
+
 *** BUG:  my automatic save/push keeps overwriting changes pushed from github.
 
 *** weak auto generated docs:
