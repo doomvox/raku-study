@@ -29,7 +29,8 @@ use lib $*PROGRAM.parent(2).child('lib');
 
 *** Ranges, Rob's adventures
 
-*** Rob: getting a module available to fez
+*** Rob: issues with getting a module available to fez
+**** Will Coleda comments if zef says it's okay but it isn't, it's time to raise an issue
 
 *** live running code on docs website
 **** Bruce and Will discussed ways of using glot.io from docs.raku.org  
