@@ -43,6 +43,8 @@ use lib $*PROGRAM.parent(2).child('lib');
 
 *** Bruce poses problem from rosetta code 
 
+*** BUG:  my automatic save/push keeps overwriting changes pushed from github.
+
 ** announcements 
 *** next meeting: in 2 weeks
 **** Sunday Sep 24, 2023
