@@ -45,6 +45,9 @@ use lib $*PROGRAM.parent(2).child('lib');
 
 *** BUG:  my automatic save/push keeps overwriting changes pushed from github.
 
+*** weak auto generated docs:
+https://new-raku.finanalyst.org/routine/resolve
+
 ** announcements 
 *** next meeting: in 2 weeks
 **** Sunday Sep 24, 2023
