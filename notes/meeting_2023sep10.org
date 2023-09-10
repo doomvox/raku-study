@@ -48,7 +48,6 @@ use lib $*PROGRAM.parent(2).child('lib');
 **** https://github.com/rakudo/rakudo/issues/2086 ?
 **** https://github.com/rakudo/rakudo/issues/4534
 
-
 **** https://github.com/rakudo/rakudo/issues/5119
 
 *** BUG:  my automatic save/push keeps overwriting changes pushed from github.
