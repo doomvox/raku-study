@@ -23,7 +23,7 @@
 
 
 
-** our story thus far (stuff from last time):
+** our story thus far (misc stuff from last time):
 
 *** MAIN Num and pi
 **** https://www.reddit.com/r/rakulang/comments/15sk5oo/converting_arguments_to_num/
