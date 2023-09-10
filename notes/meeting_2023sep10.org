@@ -17,6 +17,8 @@ https://stackoverflow.com/questions/35007291/how-to-make-n-3-the-same-as-n-3-in-
 
 **** zef feature --/thing, --thing
 
+*** Bill: stackover flow on checking string/length?
+
 *** Ranges, Rob's adventures
 
 *** Rob: getting a module available to fez
