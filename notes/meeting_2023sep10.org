@@ -12,6 +12,11 @@
 
 ** topics 
 
+*** MAIN -n 1 vs --n=1
+https://stackoverflow.com/questions/35007291/how-to-make-n-3-the-same-as-n-3-in-perl-6
+
+**** zef feature --/thing, --thing
+
 *** Ranges, Rob's adventures
 
 *** Rob: getting a module available to fez
