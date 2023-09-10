@@ -39,6 +39,8 @@ use lib $*PROGRAM.parent(2).child('lib');
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-233/
 **** looking for similar words (one's with the same chars)
 
+@input>>.comb>>.Set.Bag.values.map({ $^n * ($^n - 1) div 2 }).sum maybe?
+
 *** Bruce poses problem from rosetta code 
 
 ** announcements 
