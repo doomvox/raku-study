@@ -41,7 +41,9 @@ use lib $*PROGRAM.parent(2).child('lib');
 
 @input>>.comb>>.Set.Bag.values.map({ $^n * ($^n - 1) div 2 }).sum maybe?
 
-*** Bruce poses problem from rosetta code 
+*** TODO Bruce poses problem from rosetta code 
+
+*** Marton issues rakudo repository
 
 *** BUG:  my automatic save/push keeps overwriting changes pushed from github.
 
