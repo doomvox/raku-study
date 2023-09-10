@@ -27,7 +27,7 @@ use lib $*PROGRAM.parent(2).child('lib');
 
 *** Bill: stackover flow on checking string/length?
 
-*** Ranges, Rob's adventures
+*** Ranges. Rob's continuing adventures
 
 *** Rob: issues with getting a module available to fez
 **** Will Coleda comments if zef says it's okay but it isn't, it's time to raise an issue
