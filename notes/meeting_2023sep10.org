@@ -21,8 +21,8 @@
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-229
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-230
 
+*** rosetta code 
 
 ** announcements 
 *** next meeting: in 2 weeks
