@@ -17,6 +17,9 @@ https://stackoverflow.com/questions/35007291/how-to-make-n-3-the-same-as-n-3-in-
 
 **** zef feature --/thing, --thing
 
+*** 
+https://stackoverflow.com/questions/77066880/when-is-use-lib-path-evaluated
+
 *** Bill: stackover flow on checking string/length?
 
 *** Ranges, Rob's adventures
