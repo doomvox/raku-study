@@ -41,7 +41,7 @@ use lib $*PROGRAM.parent(2).child('lib');
 
 @input>>.comb>>.Set.Bag.values.map({ $^n * ($^n - 1) div 2 }).sum maybe?
 
-*** TODO Bruce poses problem from rosetta code 
+*** TODO Next time: Bruce poses problem from rosetta code 
 
 *** Marton issues rakudo repository
 **** https://github.com/rakudo/rakudo/issues/5369
@@ -56,6 +56,8 @@ use lib $*PROGRAM.parent(2).child('lib');
 
 *** weak auto generated docs:
 https://new-raku.finanalyst.org/routine/resolve
+
+**** A thought: use data from Search box and page views to programmatically estimate importance 
 
 ** followup
 *** intermittant mysterious issues with my keyboard/trackpad lash-up 
