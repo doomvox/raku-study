@@ -53,7 +53,7 @@ fixed in raku ast?
 
 **** TODO https://github.com/rakudo/rakudo/issues/2086 ?
 
-*** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pushed from github.
+*** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
 
 *** weak auto generated docs:
 https://new-raku.finanalyst.org/routine/resolve
