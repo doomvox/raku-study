@@ -65,7 +65,8 @@ https://new-raku.finanalyst.org/routine/resolve
 *** revise my auto-push-on-save feature, should merge not over-write.
 *** gather "Next time" TODOs above, enter in next meeting notes topics
 *** review the following "leftovers"
-
+*** find my old problem with $*PROGRAM and use lib
+*** the MAIN subject (vs p5 getopt morass)
 
 ** leftovers from previous meeting 
 
