@@ -46,8 +46,10 @@ use lib $*PROGRAM.parent(2).child('lib');
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-233/
 **** looking for similar words (one's with the same chars)
-
-@input>>.comb>>.Set.Bag.values.map({ $^n * ($^n - 1) div 2 }).sum maybe?
+***** Marton idea:
+#+BEGIN_SRC raku
+@input>>.comb>>.Set.Bag.values.map({ $^n * ($^n - 1) div 2 }).sum; 
+#+END_SRC
 
 *** TODO Next time: Bruce poses problem from rosetta code 
 
