@@ -52,6 +52,30 @@ use lib $*PROGRAM.parent(2).child('lib');
 
 **** TODO Next time: https://github.com/rakudo/rakudo/issues/2086 ?
 
+
+
+
+*** doc side ToC change (https://github.com/Raku/doc-website/issues/215)
+**** now live at docs-dev.raku.org
+**** it deprecates the original issue - feedback wanted
+
+*** Rakudo discussions with Bill on Github
+**** Adding them (Márton) because it felt like we were running circles, in case we want to clear something up
+**** https://github.com/rakudo/rakudo/issues/5239 (thunkiness of smartmatch - talked about the "happy path" last time)
+**** https://github.com/rakudo/rakudo/issues/4534 (irreparable Pairs in Captures)
+**** https://github.com/rakudo/rakudo/issues/5119 (resolving blocks in a list comprehension)
+**** https://github.com/rakudo/rakudo/issues/5116 (comparing WhateverCode instances)
+**** https://github.com/rakudo/rakudo/issues/4996 (codegenning .= for subscripts as well)
+
+*** start promise
+**** if you exepct promise code may hang, you can't time it out from the outside
+**** bg case: wants to report precisely what will create a hang-up
+
+
+
+
+
+
 *** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
 
 *** weak auto generated docs:
