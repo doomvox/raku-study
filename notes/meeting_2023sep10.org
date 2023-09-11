@@ -28,7 +28,7 @@
 **** https://github.com/ugexe/zef
 **** we don't have a pointer to this in docs.raku.org (Will Coleda opened an issue)
 
-*** the MAIN subject again
+*** the MAIN subject again (William Michaels)
 **** https://stackoverflow.com/questions/35007291/how-to-make-n-3-the-same-as-n-3-in-perl-6
 
 *** $*PROGRAM and "use lib":
