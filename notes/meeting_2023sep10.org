@@ -12,8 +12,9 @@
 
 ** topics 
 
-*** Marton Polgar:
-https://github.com/Raku/doc-website/issues/215
+*** Marton Polgar: we confirmed that online docs are behaving okay
+**** https://github.com/Raku/doc-website/issues/215
+**** or at least, as okay as any website does these days
 
 *** MAIN -n 1 vs --n=1
 **** https://stackoverflow.com/questions/35007291/how-to-make-n-3-the-same-as-n-3-in-perl-6
