@@ -16,9 +16,9 @@
 https://github.com/Raku/doc-website/issues/215
 
 *** MAIN -n 1 vs --n=1
-https://stackoverflow.com/questions/35007291/how-to-make-n-3-the-same-as-n-3-in-perl-6
-
-**** zef feature --/thing, --thing
+**** https://stackoverflow.com/questions/35007291/how-to-make-n-3-the-same-as-n-3-in-perl-6
+***** zef feature --/thing, --thing
+****** actually, that's standard with MAIN now
 
 *** 
 https://stackoverflow.com/questions/77066880/when-is-use-lib-path-evaluated
