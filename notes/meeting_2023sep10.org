@@ -12,7 +12,7 @@
 
 ** topics 
 
-*** Marton Polgar: we confirmed that online docs are behaving okay
+*** Marton Polgar raised this issue about online docs, we confirmed it can be closed
 **** https://github.com/Raku/doc-website/issues/215
 **** or at least, as okay as any website does these days
 
