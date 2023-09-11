@@ -57,9 +57,11 @@ use lib $*PROGRAM.parent(2).child('lib');
 *** weak auto generated docs:
 https://new-raku.finanalyst.org/routine/resolve
 
-** announcements 
-*** next meeting: in 2 weeks
-**** Sunday Sep 24, 2023
+** followup
+*** intermittant mysterious issues with my keyboard/trackpad lash-up 
+**** if you can't fix it, just replace 
+*** 
+
 
 
 
@@ -93,12 +95,8 @@ https://zeromq.org
 **** bg case: wants to report precisely what will create a hang-up
 
 *** fez questions
-**** tony o
+**** tony o is the man
 **** https://github.com/tony-o/raku-fez/issues
-
-*** weekly challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-229
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-230
 
 
 *** Bill M issue with two ranges/sequences
@@ -160,7 +158,8 @@ say (5,3)...(7);
 **** range and sequence are confusable: '..' vs '...'
 
 
-** previous topics
-*** pod6 as a vehicle for writing technical papers in general (Rob)
-**** https://github.com/Raku/problem-solving/issues/375
 
+
+** announcements 
+*** next meeting: in 2 weeks
+**** Sunday Sep 24, 2023
