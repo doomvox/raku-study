@@ -24,6 +24,10 @@
 *** stackoverflow: simplifying code that acts on the same variable (using the topic right)
 **** https://stackoverflow.com/questions/76984798/avoid-repeating-the-same-variable-in-a-chain-of-conditions/76984855
 
+*** docs for zef
+**** https://github.com/ugexe/zef
+**** we don't have a pointer to this in docs.raku.org (Will Coleda opened an issue)
+
 *** 
 https://stackoverflow.com/questions/77066880/when-is-use-lib-path-evaluated
 **** Will Coleda test docs use
