@@ -48,9 +48,9 @@ use lib $*PROGRAM.parent(2).child('lib');
 **** https://github.com/rakudo/rakudo/issues/4534
 **** https://github.com/rakudo/rakudo/issues/4996
 **** https://github.com/rakudo/rakudo/issues/5119
-fixed in raku ast?
+***** fixed in raku ast?
 
-**** TODO https://github.com/rakudo/rakudo/issues/2086 ?
+**** TODO Next time: https://github.com/rakudo/rakudo/issues/2086 ?
 
 *** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
 
