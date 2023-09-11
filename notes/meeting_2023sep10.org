@@ -77,22 +77,9 @@ https://new-raku.finanalyst.org/routine/resolve
 
 **** my thought: design a new type that coerces the constants 
 
-
 *** Anton Antonov working on org-mode execution of raku, pasting result under snippet
 **** need: "zinc",  zero-mq  (message queuing)
 https://zeromq.org
-
-*** Bruce Gray brings up a not-a-bug:
-#+BEGIN_SRC raku
-.map(*.blah);
-.map(&blah);
-#+END_SRC
-
-**** The & form works only if the routine takes just one argument.
-
-*** start promise
-**** if you exepct promise code may hang, you can't time it out from the outside
-**** bg case: wants to report precisely what will create a hang-up
 
 *** fez questions
 **** tony o is the man
