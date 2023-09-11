@@ -63,6 +63,8 @@ https://new-raku.finanalyst.org/routine/resolve
 
 
 
+
+
 ** our story thus far (misc stuff from last time):
 
 *** MAIN Num and pi
@@ -161,9 +163,4 @@ say (5,3)...(7);
 ** previous topics
 *** pod6 as a vehicle for writing technical papers in general (Rob)
 **** https://github.com/Raku/problem-solving/issues/375
-
-** announcements 
-*** next meeting: in 3 weeks, skipping labor day
-**** Sunday Sep 10, 2023
-
 
