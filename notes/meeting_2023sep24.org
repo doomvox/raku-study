@@ -20,10 +20,6 @@ https://github.com/Tux/CSV/issues/34
 
 ** old topics from last meeting
 
-*** the MAIN subject again (William Michals)
-**** https://stackoverflow.com/questions/35007291/how-to-make-n-3-the-same-as-n-3-in-perl-6
-
-
 
 
 
