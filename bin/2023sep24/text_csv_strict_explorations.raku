@@ -17,7 +17,12 @@ use Text::CSV;
 # Removed dependency on Slang::Tuxic by removing 3 spaces in Tux code
 
 my $dat_loc = $*PROGRAM.parent.add('dat');
-my $data_file = "$dat_loc/issue_34_truncated.csv";
+# my $file = "issue_34_truncated.csv";
+my $file = "issue_34_bills_truncs.csv";
+my $data_file = "$dat_loc/$file";
+
+
+
 my @a = csv(in => "$data_file", sep => ";", :auto-diag, :strict, :diag-verbose) or die Text::CSV.error_diag;
 
 @a = @a>>.map({ sprintf "%.2d", $_ });
