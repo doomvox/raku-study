@@ -15,9 +15,6 @@
 
 ** old topics from last meeting
 
-
-
-
 *** the MAIN subject again (William Michaels)
 **** https://stackoverflow.com/questions/35007291/how-to-make-n-3-the-same-as-n-3-in-perl-6
 
