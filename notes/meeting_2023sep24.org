@@ -23,7 +23,7 @@ https://github.com/Tux/CSV/issues/34
 ****** preculdes pre-compilation
 **** metadata on distribution level
 ***** not per-module
-***** can you do clean uninstalls
+***** can you do clean uninstalls?
 ***** (goal is avoiding file-system unicode issues)
 ***** authorship of components lost/hidden
 **** raku allows modules to have the same name
