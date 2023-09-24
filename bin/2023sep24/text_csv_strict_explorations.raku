@@ -21,3 +21,11 @@ my @a = csv(in => "$data_file", sep => ";", :auto-diag, :strict, :diag-verbose) 
 
 csv(in => @a, out => $*OUT, sep => ";");
 say $*VM;
+
+
+# Works with old:
+# ===> Found via /home/doom/Dust/Sys/Raku/rakudo-star-2023.02/share/perl6/core
+# ===> Found via /home/doom/Dust/Sys/Raku/rakudo-star-2023.02/share/perl6/vendor
+# ===> Found via /home/doom/Dust/Sys/Raku/rakudo-star-2023.02/share/perl6/site
+# ===> Found via /home/doom/.raku
+# Text::CSV:ver<0.010>:auth<github:Tux>
