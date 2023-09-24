@@ -25,7 +25,7 @@ https://github.com/Tux/CSV/issues/34
 **** metadata on distribution level
 ***** not per-module
 ***** can you do clean uninstalls
-***** goal is avoiding file-system unicode issues
+***** (goal is avoiding file-system unicode issues)
 
 ** old topics from last meeting
 
