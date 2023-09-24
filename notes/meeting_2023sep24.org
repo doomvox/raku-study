@@ -32,6 +32,10 @@ https://github.com/Tux/CSV/issues/34
 ***** fear this is an easy way to hi-jack
 ****** no warnings, just goes with highest version 
 
+
+*** TODO Next time: Bruce poses problem from rosetta code 
+
+
 ** pulsar, successor to atom
 
 
@@ -48,7 +52,7 @@ https://github.com/Tux/CSV/issues/34
 @input>>.comb>>.Set.Bag.values.map({ $^n * ($^n - 1) div 2 }).sum; 
 #+END_SRC
 
-*** TODO Next time: Bruce poses problem from rosetta code 
+
 
 *** Marton issues rakudo repository
 **** https://github.com/rakudo/rakudo/issues/5369
