@@ -13,7 +13,8 @@ use Text::CSV;
 # Removed the last element from line 4, which should warn under strict
 # Removed dependency on Slang::Tuxic by removing 3 spaces in Tux code
 
-my @a = csv(in => "/Users/admin/issue_34_trunc4.csv", sep => ";", :auto-diag, :strict, :diag-verbose) or die Text::CSV.error_diag;
+my $data_file = "issue_34.csv";
+my @a = csv(in => "/Users/admin/$data_file", sep => ";", :auto-diag, :strict, :diag-verbose) or die Text::CSV.error_diag;
 
 @a = @a>>.map({ sprintf "%.2d", $_ });
 
