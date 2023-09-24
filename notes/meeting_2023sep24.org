@@ -188,5 +188,6 @@ say (5,3)...(7);
 
 ** announcements 
 *** next meeting: in 2 weeks
-**** Sunday October 8, 2023
-**** Sunday October 22, 2023
+**** Sunday October   8, 2023
+**** Sunday October  22, 2023
+**** Sunday November 19, 2023
