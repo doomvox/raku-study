@@ -18,14 +18,14 @@
 https://github.com/Tux/CSV/issues/34
 
 
-*** Marton Polgar, complaints about 
+*** Marton Polgar, complaints about raku module system
 **** use lib not production ready, 
 ***** insists on loading whole location,
 ****** preculdes pre-compilation
 **** metadata on distribution level
 ***** not per-module
 ***** can you do clean uninstalls
-***** 
+***** goal is avoiding file-system unicode issues
 
 ** old topics from last meeting
 
