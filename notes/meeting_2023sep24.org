@@ -35,6 +35,9 @@ https://github.com/Tux/CSV/issues/34
 
 *** TODO Next time: Bruce poses problem from rosetta code 
 
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-234/
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-235/
 
 ** pulsar, successor to atom
 
@@ -44,13 +47,7 @@ https://github.com/Tux/CSV/issues/34
 
 
 
-*** weekly challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-233/
-**** looking for similar words (one's with the same chars)
-***** Marton idea:
-#+BEGIN_SRC raku
-@input>>.comb>>.Set.Bag.values.map({ $^n * ($^n - 1) div 2 }).sum; 
-#+END_SRC
+
 
 
 
