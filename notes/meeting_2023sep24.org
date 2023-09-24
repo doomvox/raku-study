@@ -30,7 +30,7 @@ https://github.com/Tux/CSV/issues/34
 **** raku allows modules to have the same name
 ***** way to qualify with the author, etc
 ***** fear this is an easy way to hi-jack
-****** no warnings 
+****** no warnings, just goes with highest version 
 
 ** old topics from last meeting
 
