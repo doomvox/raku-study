@@ -16,7 +16,7 @@
 **** observed weirdness with .pred, .succ when called on Rats/floats
 #+BEGIN_SRC raku
 my $n = 1.1;
-$n.Num.pred;
+$n.Num.pred; 
 $n.Num.succ;
 #+END_SRC
 
