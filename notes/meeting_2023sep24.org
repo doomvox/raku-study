@@ -24,7 +24,7 @@ https://github.com/Tux/CSV/issues/34
 **** metadata on distribution level
 ***** not per-module
 ***** can you do clean uninstalls?
-***** (goal is avoiding file-system unicode issues)
+***** (goal was avoiding file-system unicode issues)
 ***** authorship of components lost/hidden
 **** raku allows modules to have the same name
 ***** way to qualify with the author, etc
