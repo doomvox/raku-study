@@ -41,7 +41,6 @@ https://github.com/Tux/CSV/issues/34
 
 ** pulsar, successor to atom
 
-
 ** old topics from last meeting
 
 
