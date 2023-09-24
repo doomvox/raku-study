@@ -43,13 +43,6 @@ https://github.com/Tux/CSV/issues/34
 
 ** old topics from last meeting
 
-
-
-
-
-
-
-
 *** Marton issues rakudo repository
 **** https://github.com/rakudo/rakudo/issues/5369
 **** https://github.com/rakudo/rakudo/issues/4534
