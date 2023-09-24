@@ -14,7 +14,7 @@
 
 *** Ranges. Rob's continuing adventures
 
-*** william Michels
+*** William Michels' Text::CSV strict mode
 https://github.com/Tux/CSV/issues/34
 
 *** Marton Polgar, complaints about raku module system
