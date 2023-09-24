@@ -2,6 +2,9 @@
 # 
 # text_csv_strict_explorations.raku            24 Sep 2023 
 
+## William Michels
+##   https://github.com/Tux/CSV/issues/34
+
 use v6;
 #use Slang::Tuxic;
 
