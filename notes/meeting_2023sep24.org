@@ -10,7 +10,10 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023sep10.org
 
-** topics 
+** topics
+
+
+** old topics from last meeting
 
 *** Marton Polgar raised this issue about online docs, we confirmed it can be closed
 **** https://github.com/Raku/doc-website/issues/215
