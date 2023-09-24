@@ -14,11 +14,11 @@
 
 *** Ranges. Rob's continuing adventures.  
 **** observed weirdness with .pred, .succ when called on Rats/floats
-
-**** $n.Num.pred;
-
-**** $n.Num.succ;
-
+#+BEGIN_SRC raku
+my $n = 1.1;
+$n.Num.pred;
+$n.Num.succ;
+#+END_SRC
 
 
 *** William Michels' Text::CSV strict mode
