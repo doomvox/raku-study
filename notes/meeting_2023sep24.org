@@ -15,13 +15,7 @@
 
 ** old topics from last meeting
 
-*** MAIN -n 1 vs --n=1
-**** https://stackoverflow.com/questions/35007291/how-to-make-n-3-the-same-as-n-3-in-perl-6
-***** zef feature --/thing, --thing
-****** actually, that's standard with MAIN now
 
-*** stackoverflow: simplifying code that acts on the same variable (using the topic right)
-**** https://stackoverflow.com/questions/76984798/avoid-repeating-the-same-variable-in-a-chain-of-conditions/76984855
 
 *** docs for zef
 **** https://github.com/ugexe/zef
