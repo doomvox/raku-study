@@ -13,7 +13,7 @@
 ** topics
 
 *** Ranges. Rob's continuing adventures.  
-**** wierd 
+**** observed weirdness with .pred, .succ when called on Rats/floats
 
 **** $n.Num.pred;
 
