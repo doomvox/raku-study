@@ -14,20 +14,18 @@
 
 *** Ranges. Rob's continuing adventures
 
+*** william Michels
+https://github.com/Tux/CSV/issues/34
+
 
 ** old topics from last meeting
 
-*** the MAIN subject again (William Michaels)
+*** the MAIN subject again (William Michals)
 **** https://stackoverflow.com/questions/35007291/how-to-make-n-3-the-same-as-n-3-in-perl-6
 
 
 
 
-*** Rob: issues with getting a module available to fez
-**** Will Coleda comments if zef says it's okay but it isn't, it's time to raise an issue
-
-*** live running code on docs website
-**** Bruce and Will discussed ways of using glot.io from docs.raku.org  
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-233/
