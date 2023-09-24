@@ -17,7 +17,7 @@
 *** William Michels' Text::CSV strict mode
 https://github.com/Tux/CSV/issues/34
 
-*** Marton Polgar, complaints about raku module system
+*** Marton Polgar raises issues with the raku module system
 **** use lib not production ready, 
 ***** insists on loading whole location,
 ****** preculdes pre-compilation
