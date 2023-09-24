@@ -12,7 +12,14 @@
 
 ** topics
 
-*** Ranges. Rob's continuing adventures
+*** Ranges. Rob's continuing adventures.  
+**** wierd 
+
+**** $n.Num.pred;
+
+**** $n.Num.succ;
+
+
 
 *** William Michels' Text::CSV strict mode
 https://github.com/Tux/CSV/issues/34
