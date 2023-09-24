@@ -54,8 +54,6 @@ https://github.com/Tux/CSV/issues/34
 
 **** TODO Next time: https://github.com/rakudo/rakudo/issues/2086 ?
 
-
-
 *** Rakudo discussions with Bill on Github
 **** Adding them (Márton) because it felt like we were running circles, in case we want to clear something up
 **** https://github.com/rakudo/rakudo/issues/5239 (thunkiness of smartmatch - talked about the "happy path" last time)
