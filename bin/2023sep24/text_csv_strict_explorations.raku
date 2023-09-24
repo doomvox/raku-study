@@ -32,3 +32,14 @@ say $*VM;
 # ===> Found via /home/doom/Dust/Sys/Raku/rakudo-star-2023.02/share/perl6/site
 # ===> Found via /home/doom/.raku
 # Text::CSV:ver<0.010>:auth<github:Tux>
+
+
+
+# Using fresh version of Text::CSV from github:
+
+# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023sep24/text_csv_strict_explorations.raku
+# ENF - Inconsistent number of fields : error 2014 @ record 4, field 9, position 22
+# 1664;04;05;35;37;43
+# 1663;21;23;32;40;49
+# 1662;16;17;34;35;44
+# moar (2023.02)
