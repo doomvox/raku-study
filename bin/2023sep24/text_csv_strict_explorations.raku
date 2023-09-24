@@ -15,7 +15,7 @@ use Text::CSV;
 
 my $dat_loc = $*PROGRAM.parent.add('dat');
 my $data_file = "$dat_loc/issue_34.csv";
-my @a = csv(in => "/Users/admin/$data_file", sep => ";", :auto-diag, :strict, :diag-verbose) or die Text::CSV.error_diag;
+my @a = csv(in => "$data_file", sep => ";", :auto-diag, :strict, :diag-verbose) or die Text::CSV.error_diag;
 
 @a = @a>>.map({ sprintf "%.2d", $_ });
 
