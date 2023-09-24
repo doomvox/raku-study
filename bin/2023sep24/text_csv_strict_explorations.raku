@@ -4,6 +4,9 @@
 
 use v6;
 #use Slang::Tuxic;
+
+use lib "/home/doom/lib/raku/CSV/lib";
+
 use Text::CSV;
 
 # https://github.com/Tux/CSV/issues/34
