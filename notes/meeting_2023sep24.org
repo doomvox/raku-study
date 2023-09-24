@@ -28,7 +28,8 @@ https://github.com/Tux/CSV/issues/34
 ***** (goal is avoiding file-system unicode issues)
 ***** authorship of components lost/hidden
 **** raku allows modules to have the same name
-***** way to qualify with the author
+***** way to qualify with the author, etc
+***** fear this is an easy way to hi-jack
 
 ** old topics from last meeting
 
