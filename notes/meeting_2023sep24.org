@@ -39,6 +39,8 @@ https://github.com/Tux/CSV/issues/34
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-235/
 
 ** pulsar, successor to atom
+*** Marton impressed by their professionalism
+**** much better than atom 
 
 ** older topics
 
