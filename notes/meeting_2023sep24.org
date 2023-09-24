@@ -32,6 +32,9 @@ https://github.com/Tux/CSV/issues/34
 ***** fear this is an easy way to hi-jack
 ****** no warnings, just goes with highest version 
 
+** pulsar, successor to atom
+
+
 ** old topics from last meeting
 
 
