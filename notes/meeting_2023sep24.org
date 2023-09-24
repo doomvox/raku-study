@@ -31,7 +31,7 @@ https://github.com/Tux/CSV/issues/34
 ***** fear this is an easy way to hi-jack
 ****** no warnings, just goes with highest version 
 
-*** TODO Next time: Bruce poses problem from rosetta code 
+*** TODO From last time: Bruce poses problem from rosetta code 
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-234/
