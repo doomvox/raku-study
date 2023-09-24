@@ -188,4 +188,4 @@ say (5,3)...(7);
 
 ** announcements 
 *** next meeting: in 2 weeks
-**** Sunday Sep 24, 2023
+**** Sunday October 8th 2023
