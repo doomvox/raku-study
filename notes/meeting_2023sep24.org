@@ -73,7 +73,6 @@ https://new-raku.finanalyst.org/routine/resolve
 **** A thought: use data from Search box and page views to programmatically estimate importance 
 
 ** followup
-
 *** revise my auto-push-on-save feature, should merge not over-write.
 
 ** announcements 
