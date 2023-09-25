@@ -50,9 +50,9 @@ https://stackoverflow.com/a/76984855/7270649
 **** given plus .method calls avoid var name repetition
 **** issue with subtle differences in 
 #+BEGIN_SRC raku
-$_ ~~ Str
-.Str
-.isa(Str)
+$_ ~~ Str    # is there the Str class in the inheritence chain?
+.Str         # can this *convert* to a string
+.isa(Str)    # close to smartmatch, loses "does" 
 #+END_SRC
 
 ** pulsar, successor to atom
