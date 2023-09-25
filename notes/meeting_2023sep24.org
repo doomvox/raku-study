@@ -57,7 +57,7 @@ $_ ~~ Str    # is there the Str class in the inheritence chain?
 
 ** pulsar, successor to atom
 *** Marton impressed by their professionalism
-**** much better than atom 
+**** much better than atom was
 
 ** older topics
 
