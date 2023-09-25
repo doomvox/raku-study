@@ -50,7 +50,6 @@ https://stackoverflow.com/a/76984855/7270649
 **** given plus .method calls avoid var name repetition
 **** issue with subtle differences in 
 #+BEGIN_SRC raku
-
 $_ ~~ Str
 .Str
 .isa(Str)
