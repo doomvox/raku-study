@@ -70,7 +70,6 @@ $_ ~~ Str    # is there the Str class in the inheritence chain?
 
 *** weak auto generated docs:
 https://new-raku.finanalyst.org/routine/resolve
-
 **** A thought: use data from Search box and page views to programmatically estimate importance 
 
 ** followup
