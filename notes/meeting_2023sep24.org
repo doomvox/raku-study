@@ -63,7 +63,7 @@ $_ ~~ Str    # is there the Str class in the inheritence chain?
 
 *** start promise
 **** if you exepct promise code may hang, you can't time it out from the outside
-**** bg case: wants to report precisely what will create a hang-up
+**** Bruce Grey case: wants to report precisely what will create a hang-up
 
 *** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
 **** e.g. https://github.com/doomvox/raku-study/commit/193650f11613b5e2e815d02d3444e86156acee01
