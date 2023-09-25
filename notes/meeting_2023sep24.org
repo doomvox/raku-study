@@ -44,6 +44,10 @@ https://github.com/Tux/CSV/issues/34
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-234/
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-235/
 
+*** William Michels asks about .isa(Str)
+**** comment by Mustafa Aydin
+https://stackoverflow.com/a/76984855/7270649
+
 ** pulsar, successor to atom
 *** Marton impressed by their professionalism
 **** much better than atom 
