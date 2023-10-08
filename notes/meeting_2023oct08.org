@@ -18,6 +18,9 @@
 ***** by the way, don't be fooled by the false zef:
 ****** https://github.com/zefhub/zef/
 
+*** github markdown flavor-of-the-week
+**** https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
 **** Bruce see's an oddity with test failures on apple, us linux people aren't 
 **** Source code:
 ***** https://github.com/0rir/touch/blob/master/t/005-touch.rakutest
