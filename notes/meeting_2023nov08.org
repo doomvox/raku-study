@@ -12,13 +12,9 @@
 
 ** topics 
 
-
-
-
-
-
 *** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
 **** e.g. https://github.com/doomvox/raku-study/commit/193650f11613b5e2e815d02d3444e86156acee01
+
 
 ** leftovers from previous meeting 
 
