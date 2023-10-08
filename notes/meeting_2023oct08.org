@@ -15,6 +15,9 @@
 **** installation treats "v6" as a dependency?  opened issue
 ***** https://github.com/ugexe/zef/issues/529
 
+***** by the way, don't be fooled by the false zef:
+****** https://github.com/zefhub/zef/
+
 **** Bruce see's an oddity with test failures on apple, us linux people aren't 
 **** Source code:
 ***** https://github.com/0rir/touch/blob/master/t/005-touch.rakutest
