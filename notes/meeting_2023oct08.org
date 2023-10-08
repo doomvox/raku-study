@@ -41,6 +41,8 @@
 *** Weekly Challenge
 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-236/
+***** https://github.com/demerphq/perlweeklychallenge-club/tree/master/challenge-237/demerphq#readme
+
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-237
 
 
