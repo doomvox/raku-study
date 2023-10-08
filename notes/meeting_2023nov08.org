@@ -12,75 +12,6 @@
 
 ** topics 
 
-*** Marton Polgar raised this issue about online docs, we confirmed it can be closed
-**** https://github.com/Raku/doc-website/issues/215
-
-*** MAIN -n 1 vs --n=1
-**** https://stackoverflow.com/questions/35007291/how-to-make-n-3-the-same-as-n-3-in-perl-6
-***** zef feature --/thing, --thing
-****** actually, that's standard with MAIN now
-
-*** stackoverflow: simplifying code that acts on the same variable (using the topic right)
-**** https://stackoverflow.com/questions/76984798/avoid-repeating-the-same-variable-in-a-chain-of-conditions/76984855
-
-*** docs for zef
-**** https://github.com/ugexe/zef
-**** we don't have a pointer to this in docs.raku.org (Will Coleda opened an issue)
-
-*** the MAIN subject again (William Michaels)
-**** https://stackoverflow.com/questions/35007291/how-to-make-n-3-the-same-as-n-3-in-perl-6
-
-*** $*PROGRAM and "use lib":
-**** https://stackoverflow.com/questions/77066880/when-is-use-lib-path-evaluated
-***** Will Coleda says test docs use:
-use lib $*PROGRAM.parent(2).child('lib');
-
-*** TODO Next time: Ranges. Rob's continuing adventures
-
-*** Rob: issues with getting a module available to fez
-**** Will Coleda comments if zef says it's okay but it isn't, it's time to raise an issue
-
-*** live running code on docs website
-**** Bruce and Will discussed ways of using glot.io from docs.raku.org  
-
-*** weekly challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-233/
-**** looking for similar words (one's with the same chars)
-***** Marton idea:
-#+BEGIN_SRC raku
-@input>>.comb>>.Set.Bag.values.map({ $^n * ($^n - 1) div 2 }).sum; 
-#+END_SRC
-
-*** TODO Next time: Bruce poses problem from rosetta code 
-
-*** Marton issues rakudo repository
-**** https://github.com/rakudo/rakudo/issues/5369
-**** https://github.com/rakudo/rakudo/issues/4534
-**** https://github.com/rakudo/rakudo/issues/4996
-**** https://github.com/rakudo/rakudo/issues/5119
-***** fixed in raku ast?
-
-**** TODO Next time: https://github.com/rakudo/rakudo/issues/2086 ?
-
-
-
-
-*** doc side ToC change (https://github.com/Raku/doc-website/issues/215)
-**** now live at docs-dev.raku.org
-**** it deprecates the original issue - feedback wanted
-
-*** Rakudo discussions with Bill on Github
-**** Adding them (Márton) because it felt like we were running circles, in case we want to clear something up
-**** https://github.com/rakudo/rakudo/issues/5239 (thunkiness of smartmatch - talked about the "happy path" last time)
-**** https://github.com/rakudo/rakudo/issues/4534 (irreparable Pairs in Captures)
-**** https://github.com/rakudo/rakudo/issues/5119 (resolving blocks in a list comprehension)
-**** https://github.com/rakudo/rakudo/issues/5116 (comparing WhateverCode instances)
-**** https://github.com/rakudo/rakudo/issues/4996 (codegenning .= for subscripts as well)
-
-*** start promise
-**** if you exepct promise code may hang, you can't time it out from the outside
-**** bg case: wants to report precisely what will create a hang-up
-
 
 
 
@@ -88,11 +19,6 @@ use lib $*PROGRAM.parent(2).child('lib');
 
 *** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
 **** e.g. https://github.com/doomvox/raku-study/commit/193650f11613b5e2e815d02d3444e86156acee01
-
-*** weak auto generated docs:
-https://new-raku.finanalyst.org/routine/resolve
-
-**** A thought: use data from Search box and page views to programmatically estimate importance 
 
 ** followup
 *** intermittant mysterious issues with my keyboard/trackpad lash-up 
