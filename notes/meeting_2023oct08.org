@@ -11,6 +11,14 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023sep10.org
 
 ** topics 
+*** Rob's module "Touch" is out, and accessible via zef
+**** installation treats "v6" as a dependency?
+**** Bruce see's an oddity with test failures on apple, us linux people aren't 
+**** Source code:
+***** https://github.com/0rir/touch/blob/master/t/005-touch.rakutest
+***** https://github.com/0rir/touch/blob/master/t/Time-data.rakumod
+
+
 *** Sean McAfee's disappointment
 **** https://www.nntp.perl.org/group/perl.perl6.users/2023/10/msg11035.html
 
