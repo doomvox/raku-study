@@ -20,14 +20,10 @@
 *** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
 **** e.g. https://github.com/doomvox/raku-study/commit/193650f11613b5e2e815d02d3444e86156acee01
 
-** followup
+** needs followup
 *** intermittant mysterious issues with my keyboard/trackpad lash-up 
 **** if you can't fix it, just replace 
 *** revise my auto-push-on-save feature, should merge not over-write.
-*** gather "Next time" TODOs above, enter in next meeting notes topics
-*** review the following "leftovers"
-*** find my old problem with $*PROGRAM and use lib
-*** the MAIN subject (vs p5 getopt morass)
 
 ** leftovers from previous meeting 
 
