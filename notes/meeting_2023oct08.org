@@ -12,7 +12,7 @@
 
 ** topics 
 *** Rob's module "Touch" is out, and accessible via zef
-**** installation treats "v6" as a dependency?
+**** installation treats "v6" as a dependency?  opened issue
 ***** https://github.com/zefhub/zef/issues/45
 
 **** Bruce see's an oddity with test failures on apple, us linux people aren't 
