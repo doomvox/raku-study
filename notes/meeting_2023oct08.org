@@ -41,6 +41,8 @@
 *** Sean McAfee's disappointment
 **** https://www.nntp.perl.org/group/perl.perl6.users/2023/10/msg11035.html
 
+**** 2017 blog RE Ruby Unicode support:  https://www.honeybadger.io/blog/ruby-s-unicode-support/
+
 *** Weekly Challenge
 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-236/
