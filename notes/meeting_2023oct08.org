@@ -18,13 +18,16 @@
 ***** by the way, don't be fooled by the false zef:
 ****** https://github.com/zefhub/zef/
 
-*** github markdown flavor-of-the-week
-**** https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-
 **** Bruce see's an oddity with test failures on apple, us linux people aren't 
 **** Source code:
 ***** https://github.com/0rir/touch/blob/master/t/005-touch.rakutest
 ***** https://github.com/0rir/touch/blob/master/t/Time-data.rakumod
+
+*** github markdown flavor-of-the-week
+**** https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+
+
 
 *** Sean McAfee's disappointment
 **** https://www.nntp.perl.org/group/perl.perl6.users/2023/10/msg11035.html
