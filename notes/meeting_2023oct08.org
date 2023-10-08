@@ -32,7 +32,7 @@
 *** 
 
 ** followup
-*** 
+*** Rob tells me in meeting notes I've got links going to person, not to dicussion topic
 
 
 *** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
