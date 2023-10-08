@@ -50,12 +50,10 @@
 **** https://www.nntp.perl.org/group/perl.perl6.users/2023/10/msg11035.html
 
 **** 2017 blog RE Ruby Unicode support:  https://www.honeybadger.io/blog/ruby-s-unicode-support/
-
 ***** William Michels argues Raku's unicode handling is a key advantage here
 
 
 
-*** 
 
 ** followup
 *** Rob tells me in meeting notes I've got links going to a person, not to dicussion topic
