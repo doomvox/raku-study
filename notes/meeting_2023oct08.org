@@ -18,5 +18,11 @@
 **** e.g. https://github.com/doomvox/raku-study/commit/193650f11613b5e2e815d02d3444e86156acee01
 
 ** announcements 
-*** next meeting: in 2 weeks
-**** Sunday Sep 24, 2023
+*** next meetings
+**** Sunday October  22, 2023
+**** Sunday November 19, 2023
+**** Sunday December  3, 2023
+
+*** note: the next few are on the 2 week schedule, then there's a 4 week gap 
+**** anyone wants to try "hosting" one of these on Nov 5th?
+
