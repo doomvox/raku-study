@@ -49,6 +49,8 @@
 
 **** 2017 blog RE Ruby Unicode support:  https://www.honeybadger.io/blog/ruby-s-unicode-support/
 
+***** William Michels argues Raku's unicode handling is a key advantage here
+
 *** 
 
 ** followup
