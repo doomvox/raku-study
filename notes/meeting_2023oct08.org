@@ -55,13 +55,11 @@
 
 **** 2017 blog RE Ruby Unicode support:  https://www.honeybadger.io/blog/ruby-s-unicode-support/
 ***** William Michels argues Raku's unicode handling is a key advantage here
-
-
-Ruby 2.4 was the first release to support Unicode Case mappings (instead of just ASCII): https://www.ruby-lang.org/en/news/2016/12/25/ruby-2-4-0-released/
-Ruby "Issue" page, https://bugs.ruby-lang.org/issues/10085
-Related Ruby issue: https://bugs.ruby-lang.org/issues/19317
-
-https://github.com/Raku/problem-solving/issues/369#event-10044972781
+****** Ruby 2.4 was the first release to support Unicode Case mappings (instead of just ASCII): 
+****** https://www.ruby-lang.org/en/news/2016/12/25/ruby-2-4-0-released/
+****** Ruby "Issue" page, https://bugs.ruby-lang.org/issues/10085
+****** Related Ruby issue: https://bugs.ruby-lang.org/issues/19317
+****** https://github.com/Raku/problem-solving/issues/369#event-10044972781
 
 ** followup
 *** Rob tells me in meeting notes I've got links going to a person, not to dicussion topic
