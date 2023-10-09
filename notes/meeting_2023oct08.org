@@ -48,7 +48,7 @@
 
 *** Sean McAfee's disappointment
 **** https://www.nntp.perl.org/group/perl.perl6.users/2023/10/msg11035.html
-***** CODEOWNERS example
+***** CODEOWNERS examples (via Bruce Gray)
 ****** https://github.com/urllib3/urllib3/blob/ddb8c96bd93f3a00fe9eba142e6739533c2b7164/.github/CODEOWNERS
 ****** https://github.com/googleapis/google-auth-library-python/blob/b935298aaf4ea5867b5778bcbfc42408ba4ec02c/.github/CODEOWNERS
 
