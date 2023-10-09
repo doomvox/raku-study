@@ -72,6 +72,9 @@
 *** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
 **** e.g. https://github.com/doomvox/raku-study/commit/193650f11613b5e2e815d02d3444e86156acee01
 
+*** where I see an obsession with elegance or minimalism, Marton Polgar sees "'opinionated' languages"
+**** makes the point that "Go" isn't particularly elegant
+
 ** announcements 
 *** next meetings
 **** Sunday October  22, 2023
