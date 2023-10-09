@@ -34,9 +34,10 @@
 **** https://stackoverflow.com/questions/77206398/element-wise-comparison-with-certain-precision
 **** Bruce objects to using <<...>> when >>...<< makes more sense
 **** also:
+#+BEGIN_SRC raku
 .say for [Z=~=] @awk,@raku;
 .say for @awk Z=~= @raku;
-
+#+END_SRC
 
 *** Weekly Challenge
 
