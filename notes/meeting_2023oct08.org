@@ -62,6 +62,10 @@
 ****** https://github.com/Raku/problem-solving/issues/369#event-10044972781
 
 ** followup
+
+*** VIDEO William Michels pick: RubyKaigi 2016: https://www.youtube.com/watch?v=vfJp4mkf0EQ
+
+
 *** Rob tells me in meeting notes I've got links going to a person, not to dicussion topic
 
 
