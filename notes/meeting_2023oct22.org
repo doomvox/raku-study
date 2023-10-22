@@ -22,7 +22,6 @@ https://docs.raku.org/type/Str#routine_samemark
 https://github.com/Raku/doc/issues/4391
 **** Marton: Vadim developed a system so you don't need to monkey patch a class so it knows how to coerce into a new type
 
-
 *** google's copilot 
 **** https://github.com/features/copilot
 **** nudge them to cover perl and raku?
