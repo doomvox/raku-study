@@ -12,6 +12,10 @@
 
 ** topics
 
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-238
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-239
 
 ** announcements 
 *** next meetings
@@ -58,19 +62,6 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-237
 
 
-*** Sean McAfee's disappointment
-**** https://www.nntp.perl.org/group/perl.perl6.users/2023/10/msg11035.html
-***** CODEOWNERS examples (via Bruce Gray)
-****** https://github.com/urllib3/urllib3/blob/ddb8c96bd93f3a00fe9eba142e6739533c2b7164/.github/CODEOWNERS
-****** https://github.com/googleapis/google-auth-library-python/blob/b935298aaf4ea5867b5778bcbfc42408ba4ec02c/.github/CODEOWNERS
-
-**** 2017 blog RE Ruby Unicode support:  https://www.honeybadger.io/blog/ruby-s-unicode-support/
-***** William Michels argues Raku's unicode handling is a key advantage here
-****** Ruby 2.4 was the first release to support Unicode Case mappings (instead of just ASCII): 
-****** https://www.ruby-lang.org/en/news/2016/12/25/ruby-2-4-0-released/
-****** Ruby "Issue" page, https://bugs.ruby-lang.org/issues/10085
-****** Related Ruby issue: https://bugs.ruby-lang.org/issues/19317
-****** https://github.com/Raku/problem-solving/issues/369#event-10044972781
 
 ** followup
 
