@@ -36,7 +36,6 @@ https://github.com/Raku/doc/issues/4391
 *** raku conference, october 28
 https://conf.raku.org/2023/schedule
 
-
 *** next meetings
 
 **** I can't make Nov 5th-- anyone else like to run a meeting?
