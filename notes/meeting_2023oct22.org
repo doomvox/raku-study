@@ -15,6 +15,11 @@
 *** coercion docs
 https://github.com/Raku/doc/issues/4391
 
+
+*** google's copilot 
+**** https://github.com/features/copilot
+**** nudge them to cover perl and raku 
+
 *** stackoverflow
 
 *** rakulang
