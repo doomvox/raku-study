@@ -12,3 +12,7 @@ say samemark('Räku', 'a');                        # OUTPUT: «Raku␤»
 say samemark('aöä', '');                          # OUTPUT: «aöä␤»
 
 
+
+
+
+say 'åäö'.samemark('xyz');
