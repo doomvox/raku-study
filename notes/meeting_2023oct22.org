@@ -86,13 +86,4 @@
 *** where I see an obsession with elegance or minimalism, Marton Polgar sees "'opinionated' languages"
 **** e.g. "Go" isn't particularly elegant
 
-** announcements 
-*** next meetings
-**** Sunday October  22, 2023
-**** I can't make Nov 5th-- anyone else like to run one?
-**** Sunday November 19, 2023
-**** Sunday December  3, 2023
-
-*** note: the next few are on the 2 week schedule, then there's a 4 week gap 
-**** anyone wants to try "hosting" one of these on Nov 5th?
 
