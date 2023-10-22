@@ -26,10 +26,6 @@ https://github.com/Raku/doc/issues/4391
 ***** https://www.youtube.com/watch?v=iLu9XyZ55oI
 ***** Chief Decision Scientist at Google Cloud, Cassie Kozyrkov 
 
-*** stackoverflow
-
-*** rakulang
-
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-238
 
