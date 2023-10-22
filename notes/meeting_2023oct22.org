@@ -20,6 +20,9 @@ https://github.com/Raku/doc/issues/4391
 **** https://github.com/features/copilot
 **** nudge them to cover perl and raku?
 
+*** google ai vids
+**** cassie whatshername videos google
+
 *** stackoverflow
 
 *** rakulang
