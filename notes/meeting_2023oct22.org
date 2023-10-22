@@ -20,11 +20,10 @@ https://github.com/Raku/doc/issues/4391
 **** https://github.com/features/copilot
 **** nudge them to cover perl and raku?
 
-*** google ai vids
-**** cassie whatshername videos google
+*** google ai vids (Alan)
+**** Chief Decision Scientist at Google Cloud, Cassie Kozyrkov 
 ***** https://www.youtube.com/watch?v=EjBXZrQ7fTs
 ***** https://www.youtube.com/watch?v=iLu9XyZ55oI
-***** Chief Decision Scientist at Google Cloud, Cassie Kozyrkov 
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-238
