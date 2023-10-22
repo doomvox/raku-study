@@ -27,6 +27,10 @@
 
 
 
+*** raku conference, october 28
+https://conf.raku.org/2023/schedule
+
+
 ** topics from last time
 
 
