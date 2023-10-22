@@ -11,9 +11,7 @@ class MyWidget {
 }
 
 my $obj = MyWidget.new( size => 3 );
-
 dd( $obj );
-
 
 my $obj2 = MyWidget.new( size => '666' );
 dd( $obj2 );
