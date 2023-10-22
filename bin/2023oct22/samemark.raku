@@ -15,4 +15,6 @@ say samemark('aöä', '');                          # OUTPUT: «aöä␤»
 
 
 
-say 'åäö'.samemark('xyz');
+say 'åäö'.samemark('xyz'); # aao
+
+say 'xyz'.samemark('åäö'); # aao
