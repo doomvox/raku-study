@@ -35,7 +35,7 @@ https://github.com/Raku/doc/issues/4391
 ** announcements 
 *** next meetings
 
-**** I can't make Nov 5th-- anyone else like to run one?
+**** I can't make Nov 5th-- anyone else like to run a meeting?
 
 ***** created a meeting, no host as of yet:
 https://us02web.zoom.us/j/84319884387?pwd=WEVQdFZueWNsemlmbTZxZThLclczdz09
