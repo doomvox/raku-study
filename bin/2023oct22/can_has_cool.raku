@@ -22,3 +22,5 @@ dd( $obj2 );
 
 my $obj3 = MyWidget.new( size => 'five' );
 dd( $obj3 );
+
+# MyWidget $obj3 = MyWidget.new(size => Failure.new(exception => X::Str::Numeric.new(source => "five", pos => 0, reason => "base-10 number must begin with valid digits or '.'"), backtrace => Backtrace.new))
