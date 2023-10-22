@@ -15,7 +15,7 @@
 *** samemark
 https://docs.raku.org/type/Str#routine_samemark
 **** pretty weird
-
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023oct22/samemark.raku
 **** Mark A says it was used in weekly challenge 186
 
 *** coercion docs
