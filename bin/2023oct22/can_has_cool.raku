@@ -17,3 +17,8 @@ dd( $obj );
 
 my $obj2 = MyWidget.new( size => '666' );
 dd( $obj2 );
+
+
+
+my $obj2 = MyWidget.new( size => 'five' );
+dd( $obj2 );
