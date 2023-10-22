@@ -24,9 +24,6 @@
 **** Sunday November 19, 2023
 **** Sunday December  3, 2023
 
-
-
-
 *** raku conference, october 28
 https://conf.raku.org/2023/schedule
 
