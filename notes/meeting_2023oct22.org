@@ -13,7 +13,7 @@
 ** topics
 
 *** samemark
-
+https://docs.raku.org/type/Str#routine_samemark
 **** pretty weird
 
 **** Mark A says it was used in weekly challenge 186
