@@ -13,6 +13,13 @@
 ** topics
 
 
+** announcements 
+*** next meetings
+**** I can't make Nov 5th-- anyone else like to run one?
+**** Sunday November 19, 2023
+**** Sunday December  3, 2023
+
+
 
 ** topics from last time
 *** Rob's module "Touch" is out, and accessible via zef
