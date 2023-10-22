@@ -39,11 +39,18 @@ https://www.youtube.com/watch?v=EjBXZrQ7fTs
 *** next meetings
 
 **** I can't make Nov 5th-- anyone else like to run one?
+
+***** created a meeting, no host as of yet:
+https://us02web.zoom.us/j/84319884387?pwd=WEVQdFZueWNsemlmbTZxZThLclczdz09
+
 **** Sunday November 19, 2023
 **** Sunday December  3, 2023
 
 *** raku conference, october 28
 https://conf.raku.org/2023/schedule
+
+
+
 
 
 ** topics from last time
