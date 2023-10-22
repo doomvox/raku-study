@@ -4,8 +4,6 @@
 
 use v6;
 
-
-
 class MyWidget {
      has Numeric(Cool) $.size is rw;
 }
