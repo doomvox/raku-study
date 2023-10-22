@@ -16,7 +16,7 @@
 
 **** pretty weird
 
-**** mark A says it was used in weekly challenge 186
+**** Mark A says it was used in weekly challenge 186
 
 *** coercion docs
 https://github.com/Raku/doc/issues/4391
