@@ -12,6 +12,10 @@
 
 ** topics
 
+*** stackoverflow
+
+*** rakulang
+
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-238
 
