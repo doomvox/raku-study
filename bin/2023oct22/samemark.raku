@@ -11,8 +11,6 @@ say 'åäö'.samemark('a');                          # OUTPUT: «aao␤»
 say samemark('Räku', 'a');                        # OUTPUT: «Raku␤» 
 say samemark('aöä', '');                          # OUTPUT: «aöä␤»
 
-
-
 say "===";
 
 say 'åäö'.samemark('xyz'); # aao
