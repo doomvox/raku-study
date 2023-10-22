@@ -12,6 +12,9 @@
 
 ** topics
 
+*** coercion docs
+https://github.com/Raku/doc/issues/4391
+
 *** stackoverflow
 
 *** rakulang
