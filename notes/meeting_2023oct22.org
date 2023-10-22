@@ -22,6 +22,8 @@ https://github.com/Raku/doc/issues/4391
 
 *** google ai vids
 **** cassie whatshername videos google
+https://www.youtube.com/watch?v=EjBXZrQ7fTs
+***** Chief Decision Scientist at Google Cloud, Cassie Kozyrkov 
 
 *** stackoverflow
 
