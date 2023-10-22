@@ -24,7 +24,7 @@ https://github.com/Raku/doc/issues/4391
 
 *** google's copilot 
 **** https://github.com/features/copilot
-**** nudge them to cover perl and raku?
+**** TODO nudge them to cover perl and raku?
 
 *** google ai vids (Alan)
 **** Chief Decision Scientist at Google Cloud, Cassie Kozyrkov 
