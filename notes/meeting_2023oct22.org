@@ -1,0 +1,87 @@
+* meeting notes October 22, 2023
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023oct22.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2023oct22
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023oct08.org
+
+** topics 
+*** Rob's module "Touch" is out, and accessible via zef
+**** installation treats "v6" as a dependency?  opened issue
+***** https://github.com/ugexe/zef/issues/529
+
+***** by the way, don't be fooled by the false zef:
+****** https://github.com/zefhub/zef/
+
+**** Bruce see's an oddity with test failures on apple, us linux people aren't 
+**** Source code:
+***** https://github.com/0rir/touch/blob/master/t/005-touch.rakutest
+***** https://github.com/0rir/touch/blob/master/t/Time-data.rakumod
+
+*** github markdown flavor-of-the-week
+**** https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+
+
+
+
+*** Stackoverflow question on tolerances:
+**** https://stackoverflow.com/questions/77206398/element-wise-comparison-with-certain-precision
+**** Bruce objects to using <<...>> when >>...<< makes more sense
+**** also:
+#+BEGIN_SRC raku
+.say for [Z=~=] @awk,@raku;
+.say for @awk Z=~= @raku;
+#+END_SRC
+
+*** Weekly Challenge
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-236/
+***** https://github.com/demerphq/perlweeklychallenge-club/tree/master/challenge-237/demerphq#readme
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-237
+
+
+*** Sean McAfee's disappointment
+**** https://www.nntp.perl.org/group/perl.perl6.users/2023/10/msg11035.html
+***** CODEOWNERS examples (via Bruce Gray)
+****** https://github.com/urllib3/urllib3/blob/ddb8c96bd93f3a00fe9eba142e6739533c2b7164/.github/CODEOWNERS
+****** https://github.com/googleapis/google-auth-library-python/blob/b935298aaf4ea5867b5778bcbfc42408ba4ec02c/.github/CODEOWNERS
+
+**** 2017 blog RE Ruby Unicode support:  https://www.honeybadger.io/blog/ruby-s-unicode-support/
+***** William Michels argues Raku's unicode handling is a key advantage here
+****** Ruby 2.4 was the first release to support Unicode Case mappings (instead of just ASCII): 
+****** https://www.ruby-lang.org/en/news/2016/12/25/ruby-2-4-0-released/
+****** Ruby "Issue" page, https://bugs.ruby-lang.org/issues/10085
+****** Related Ruby issue: https://bugs.ruby-lang.org/issues/19317
+****** https://github.com/Raku/problem-solving/issues/369#event-10044972781
+
+** followup
+
+*** VIDEO William Michels pick: RubyKaigi 2016: https://www.youtube.com/watch?v=vfJp4mkf0EQ
+
+
+*** Rob tells me in meeting notes I've got links going to a person, not to dicussion topic
+
+
+*** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
+**** e.g. https://github.com/doomvox/raku-study/commit/193650f11613b5e2e815d02d3444e86156acee01
+
+*** where I see an obsession with elegance or minimalism, Marton Polgar sees "'opinionated' languages"
+**** e.g. "Go" isn't particularly elegant
+
+** announcements 
+*** next meetings
+**** Sunday October  22, 2023
+**** I can't make Nov 5th-- anyone else like to run one?
+**** Sunday November 19, 2023
+**** Sunday December  3, 2023
+
+*** note: the next few are on the 2 week schedule, then there's a 4 week gap 
+**** anyone wants to try "hosting" one of these on Nov 5th?
+
