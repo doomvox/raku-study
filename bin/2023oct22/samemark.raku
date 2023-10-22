@@ -13,8 +13,8 @@ say samemark('aöä', '');                          # OUTPUT: «aöä␤»
 
 
 
-
+say "===";
 
 say 'åäö'.samemark('xyz'); # aao
 
-say 'xyz'.samemark('åäö'); # aao
+say 'xyz'.samemark('åäö'); # x̊ÿz̈
