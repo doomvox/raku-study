@@ -2,11 +2,11 @@
 # 
 # samemark.raku            22 Oct 2023 
 
-say 'åäö'.samemark('aäo');                        # OUTPUT: «aäo␤» 
-say 'åäö'.samemark('a');                          # OUTPUT: «aao␤» 
+say 'åäö'.samemark('aäo');                        # aäo
+say 'åäö'.samemark('a');                          # aao
  
-say samemark('Räku', 'a');                        # OUTPUT: «Raku␤» 
-say samemark('aöä', '');                          # OUTPUT: «aöä␤»
+say samemark('Räku', 'a');                        # Raku
+say samemark('aöä', '');                          # aöä
 
 say "===";
 
