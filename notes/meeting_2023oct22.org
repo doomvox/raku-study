@@ -38,7 +38,6 @@ https://conf.raku.org/2023/schedule
 
 ** topics from last time
 
-
 *** Stackoverflow question on tolerances:
 **** https://stackoverflow.com/questions/77206398/element-wise-comparison-with-certain-precision
 **** Bruce objects to using <<...>> when >>...<< makes more sense
