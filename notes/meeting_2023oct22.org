@@ -17,6 +17,7 @@
 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-239
 
+
 ** announcements 
 *** next meetings
 **** I can't make Nov 5th-- anyone else like to run one?
@@ -25,24 +26,8 @@
 
 
 
+
 ** topics from last time
-*** Rob's module "Touch" is out, and accessible via zef
-**** installation treats "v6" as a dependency?  opened issue
-***** https://github.com/ugexe/zef/issues/529
-
-***** by the way, don't be fooled by the false zef:
-****** https://github.com/zefhub/zef/
-
-**** Bruce see's an oddity with test failures on apple, us linux people aren't 
-**** Source code:
-***** https://github.com/0rir/touch/blob/master/t/005-touch.rakutest
-***** https://github.com/0rir/touch/blob/master/t/Time-data.rakumod
-
-*** github markdown flavor-of-the-week
-**** https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-
-
-
 
 
 *** Stackoverflow question on tolerances:
@@ -53,13 +38,6 @@
 .say for [Z=~=] @awk,@raku;
 .say for @awk Z=~= @raku;
 #+END_SRC
-
-*** Weekly Challenge
-
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-236/
-***** https://github.com/demerphq/perlweeklychallenge-club/tree/master/challenge-237/demerphq#readme
-
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-237
 
 
 
