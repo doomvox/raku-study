@@ -62,7 +62,7 @@ https://us02web.zoom.us/j/84319884387?pwd=WEVQdFZueWNsemlmbTZxZThLclczdz09
 
 *** Stackoverflow question on tolerances:
 **** https://stackoverflow.com/questions/77206398/element-wise-comparison-with-certain-precision
-**** Bruce objects to using <<...>> when >>...<< makes more sense
+**** Bruce Gray: shouldn't use <<...>> when >>...<< makes more sense
 **** also:
 #+BEGIN_SRC raku
 .say for [Z=~=] @awk,@raku;
