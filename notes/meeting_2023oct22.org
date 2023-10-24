@@ -15,7 +15,8 @@
 *** samemark
 https://docs.raku.org/type/Str#routine_samemark
 **** pretty weird
-***** https://github.com/doomvox/raku-study/tree/main/bin/2023oct22/samemark.raku
+qQQQQQQQqqqqqqqqqqqqqQQ0*****
+https://github.com/doomvox/raku-study/tree/main/bin/2023oct22/samemark.raku12345678910111213141516171819202122232425262728293031323334Q
 **** Mark A says it was used in weekly challenge 186
 
 *** coercion docs
@@ -36,6 +37,12 @@ https://github.com/Raku/doc/issues/4391
 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-239
 
+
+***** Bruce Gray
+****** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-238/bruce-gray/raku/ch-1.raku
+****** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-238/bruce-gray/raku/ch-2.raku
+****** https://github.com/Util/perlweeklychallenge-club/blob/c239/challenge-239/bruce-gray/raku/ch-1.raku
+****** https://github.com/Util/perlweeklychallenge-club/blob/c239/challenge-239/bruce-gray/raku/ch-2.raku
 
 ** announcements 
 *** raku conference, october 28
@@ -68,6 +75,6 @@ https://us02web.zoom.us/j/84319884387?pwd=WEVQdFZueWNsemlmbTZxZThLclczdz09
 ** followup
 
 *** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
-**** e.g. https://github.com/doomvox/raku-study/commit/193650f11613b5e2e815d02d3444e86156acee01
+**** e.g. https://github.com/doomvox/raku-study/commit/193650f11613b5e2e815d02d3444e86156acee01QQQQQq0qq`
 
 
