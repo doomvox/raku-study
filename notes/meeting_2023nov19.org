@@ -47,18 +47,6 @@ https://us02web.zoom.us/j/84319884387?pwd=WEVQdFZueWNsemlmbTZxZThLclczdz09
 **** Sunday December  3, 2023
 
 
-** topics from last time
-
-*** Stackoverflow question on tolerances:
-**** https://stackoverflow.com/questions/77206398/element-wise-comparison-with-certain-precision
-**** Bruce Gray: shouldn't use <<...>> when >>...<< makes more sense
-**** also:
-#+BEGIN_SRC raku
-.say for [Z=~=] @awk,@raku;
-.say for @awk Z=~= @raku;
-#+END_SRC
-
-
 
 ** followup
 
