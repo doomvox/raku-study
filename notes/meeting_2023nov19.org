@@ -1,0 +1,80 @@
+* meeting notes November 19, 2023
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023nov09.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2023nov09
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023oct22.org
+
+** topics
+
+*** samemark
+https://docs.raku.org/type/Str#routine_samemark
+**** pretty weird
+qQQQQQQQqqqqqqqqqqqqqQQ0*****
+https://github.com/doomvox/raku-study/tree/main/bin/2023oct22/samemark.raku12345678910111213141516171819202122232425262728293031323334Q
+**** Mark A says it was used in weekly challenge 186
+
+*** coercion docs
+https://github.com/Raku/doc/issues/4391
+**** Marton: Vadim developed a system so you don't need to monkey patch a class so it knows how to coerce into a new type
+
+*** google's copilot 
+**** https://github.com/features/copilot
+**** TODO nudge them to cover perl and raku?
+
+*** google ai vids (Alan)
+**** Chief Decision Scientist at Google Cloud, Cassie Kozyrkov 
+***** https://www.youtube.com/watch?v=EjBXZrQ7fTs
+***** https://www.youtube.com/watch?v=iLu9XyZ55oI
+
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-238
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-239
+
+
+***** Bruce Gray
+****** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-238/bruce-gray/raku/ch-1.raku
+****** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-238/bruce-gray/raku/ch-2.raku
+****** https://github.com/Util/perlweeklychallenge-club/blob/c239/challenge-239/bruce-gray/raku/ch-1.raku
+****** https://github.com/Util/perlweeklychallenge-club/blob/c239/challenge-239/bruce-gray/raku/ch-2.raku
+
+** announcements 
+*** raku conference, october 28
+**** https://conf.raku.org/2023/schedule
+
+*** next meetings
+**** I can't make Nov 5th-- anyone else like to run a meeting?
+
+***** created a meeting, no host as of yet:
+https://us02web.zoom.us/j/84319884387?pwd=WEVQdFZueWNsemlmbTZxZThLclczdz09
+
+**** Sunday November 19, 2023
+**** Sunday December  3, 2023
+
+
+** topics from last time
+
+*** Stackoverflow question on tolerances:
+**** https://stackoverflow.com/questions/77206398/element-wise-comparison-with-certain-precision
+**** Bruce Gray: shouldn't use <<...>> when >>...<< makes more sense
+**** also:
+#+BEGIN_SRC raku
+.say for [Z=~=] @awk,@raku;
+.say for @awk Z=~= @raku;
+#+END_SRC
+
+
+
+** followup
+
+*** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
+**** e.g. https://github.com/doomvox/raku-study/commit/193650f11613b5e2e815d02d3444e86156acee01QQQQQq0qq`
+
+
+
