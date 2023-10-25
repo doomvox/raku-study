@@ -33,6 +33,9 @@ https://gfldex.wordpress.com/2023/10/24/incomplete-ranges/
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-242
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-243
 
+**** raku conference, october 28
+***** https://conf.raku.org/2023/schedule
+
 ** announcements 
 *** raku conference, october 28
 **** https://conf.raku.org/2023/schedule
