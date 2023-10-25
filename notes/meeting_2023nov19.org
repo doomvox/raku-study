@@ -35,6 +35,7 @@ https://gfldex.wordpress.com/2023/10/24/incomplete-ranges/
 
 **** raku conference, october 28
 ***** https://conf.raku.org/2023/schedule
+***** any comments?
 
 ** announcements 
 
