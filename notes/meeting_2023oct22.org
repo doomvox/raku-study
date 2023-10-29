@@ -47,7 +47,11 @@ https://github.com/Raku/doc/issues/4391
 *** raku conference, Saturday, october 28
 **** https://conf.raku.org/2023/schedule
 **** online via zoom
-**** 
+
+**** Conference tickets  free 
+***** tried to "signup" the day after:
+***** kept bugging me about hotel accomodations 
+***** then left me a loop of Next screens
 
 *** next meetings
 **** I can't make Nov 5th-- anyone else like to run a meeting?
