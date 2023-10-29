@@ -44,7 +44,7 @@ https://github.com/Raku/doc/issues/4391
 ****** https://github.com/Util/perlweeklychallenge-club/blob/c239/challenge-239/bruce-gray/raku/ch-2.raku
 
 ** announcements 
-*** raku conference, october 28
+*** raku conference, Saturday, october 28
 **** https://conf.raku.org/2023/schedule
 **** online via zoom
 **** 
