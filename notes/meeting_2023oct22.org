@@ -52,6 +52,7 @@ https://github.com/Raku/doc/issues/4391
 ***** tried to "signup" the day after:
 ***** kept bugging me about hotel accomodations 
 ***** then left me a loop of Next screens
+***** previous conferences were published on youtube
 
 *** next meetings
 **** I can't make Nov 5th-- anyone else like to run a meeting?
