@@ -46,8 +46,8 @@ https://github.com/Raku/doc/issues/4391
 ** announcements 
 *** raku conference, october 28
 **** https://conf.raku.org/2023/schedule
-**** is this not an online talk at all?
-
+**** online via zoom
+**** 
 
 *** next meetings
 **** I can't make Nov 5th-- anyone else like to run a meeting?
