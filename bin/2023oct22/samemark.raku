@@ -18,3 +18,5 @@ say "===";
 
 say 'åäö'.samemark('xyz'); # aao
 say 'xyz'.samemark('åäö'); # x̊ÿz̈
+
+
