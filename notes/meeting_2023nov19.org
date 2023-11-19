@@ -17,7 +17,8 @@
 **** TODO extract examples: /home/doom/End/Cave/RakuStudy/Notes/bill_matching_on_lines.sh
 
 *** bruce gray: js, f-sharp vs raku
-
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-241/a
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-242/
 
 *** suggestions for improving raku ranges
 https://gfldex.wordpress.com/2023/10/24/incomplete-ranges/
