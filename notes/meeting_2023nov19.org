@@ -17,7 +17,7 @@
 **** TODO extract examples: /home/doom/End/Cave/RakuStudy/Notes/bill_matching_on_lines.sh
 
 *** bruce gray: js, f-sharp vs raku
-**** 
+
 
 
 
