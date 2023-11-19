@@ -12,6 +12,8 @@
 
 ** topics
 
+*** william michels, confusion about raku
+
 *** suggestions for improving raku ranges
 https://gfldex.wordpress.com/2023/10/24/incomplete-ranges/
 
