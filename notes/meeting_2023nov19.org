@@ -13,6 +13,7 @@
 ** topics
 
 *** william michels, confusion about raku
+**** https://unix.stackexchange.com/a/761824/227738
 
 *** suggestions for improving raku ranges
 https://gfldex.wordpress.com/2023/10/24/incomplete-ranges/
