@@ -14,7 +14,7 @@
 
 
 
-*** william michels, confusion about raku
+*** william michels, confusion about raku, behavior of match objects, etc
 **** https://unix.stackexchange.com/a/761824/227738
 
 *** suggestions for improving raku ranges
