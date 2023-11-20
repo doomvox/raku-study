@@ -58,3 +58,9 @@ echo_array_godzilla( 3,7 );
 
 
 echo_array_godzilla( 'a', 'b' );
+# [a b]
+
+
+sub echo_array_mothera ( *@a(Int) ) {
+    say @a;
+}
