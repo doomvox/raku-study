@@ -10,6 +10,7 @@ sub echo_int ( Int $a ) {
 }
 
 
+echo_int( 3 );
 
 
 
