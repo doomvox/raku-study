@@ -24,3 +24,5 @@ echo_array_int_2( [3, 4] );
 
 
 echo_array_int_2( ['a', 'b'] );
+
+echo_array_int_2( 7 );
