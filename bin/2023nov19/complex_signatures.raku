@@ -56,3 +56,5 @@ echo_array_godzilla( 3 );
 echo_array_godzilla( 3,7 );
 # [3 7]
 
+
+echo_array_godzilla( 'a', 'b' );
