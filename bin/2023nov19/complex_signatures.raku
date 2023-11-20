@@ -51,3 +51,5 @@ sub echo_array_godzilla ( $a ) {
 }
 
 echo_array_godzilla( 3 );
+
+echo_array_godzilla( 3,7 );
