@@ -29,3 +29,6 @@ echo_array_int_2( 7 );
 
 # echo_array_int_2( 'c' );
 # Type check failed in binding to parameter '$a'; expected Array(Int) but got Str ("c")
+
+
+echo_array_int_2( 13, 27 );
