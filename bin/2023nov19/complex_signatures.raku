@@ -20,4 +20,4 @@ echo_array_int( (3, 4).Array );
 sub echo_array_int_2 ( Array(Int) $a ) {
     say $a;
 }
-echo_array_int_2( (3, 4).Array );
+echo_array_int_2( [3, 4] );
