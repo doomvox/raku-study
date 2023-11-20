@@ -36,8 +36,8 @@ echo_array_int_2( 7 );
 
 
 
-sub echo_array_thingie ( * $a ) {
-    say $a;
+sub echo_array_thingie ( * @a ) {
+    say @a;
 }
 
 echo_array_thingie(3);
