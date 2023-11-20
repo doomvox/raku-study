@@ -14,7 +14,7 @@ echo_int( 3 );
 sub echo_array_int ( Array(Int) $a ) {
     say $a;
 }
-echo_array_int( (3, 4) );
+echo_array_int( (3, 4).Array );
 
 
 
