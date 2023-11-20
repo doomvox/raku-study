@@ -64,3 +64,5 @@ echo_array_godzilla( 'a', 'b' );
 sub echo_array_mothera ( *@a(Int) ) {
     say @a;
 }
+
+echo_array_mothera( 3 );
