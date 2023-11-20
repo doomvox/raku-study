@@ -41,3 +41,6 @@ sub echo_array_thingie ( *$a ) {
 }
 
 echo_array_thingie(3);
+# 3
+
+echo_array_thingie(3,7);
