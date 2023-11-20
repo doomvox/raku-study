@@ -46,10 +46,11 @@ echo_array_thingie(3);
 # echo_array_thingie(3,7);
 
 
-sub echo_array_godzilla ( $a ) {
-    say $a;
+sub echo_array_godzilla ( @a ) {
+    say @a;
 }
 
 echo_array_godzilla( 3 );
 
-echo_array_godzilla( 3,7 );
+# echo_array_godzilla( 3,7 );
+# Calling echo_array_godzilla(Int, Int) will never work with declared signature ($a)
