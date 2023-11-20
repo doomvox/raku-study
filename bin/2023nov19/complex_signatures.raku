@@ -31,4 +31,11 @@ echo_array_int_2( 7 );
 # Type check failed in binding to parameter '$a'; expected Array(Int) but got Str ("c")
 
 
-echo_array_int_2( 13, 27 );
+# echo_array_int_2( 13, 27 );
+# Too many positionals passed; expected 1 argument but got 2
+
+
+
+sub echo_array_thingie ( * $a ) {
+    say $a;
+}
