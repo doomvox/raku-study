@@ -21,3 +21,6 @@ sub echo_array_int_2 ( Array(Int) $a ) {
     say $a;
 }
 echo_array_int_2( [3, 4] );
+
+
+echo_array_int_2( ['a', 'b'] );
