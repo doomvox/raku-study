@@ -36,7 +36,7 @@ echo_array_int_2( 7 );
 
 
 
-sub echo_array_thingie ( * @a ) {
+sub echo_array_thingie ( *@a ) {
     say @a;
 }
 
