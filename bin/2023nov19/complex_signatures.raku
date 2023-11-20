@@ -64,5 +64,9 @@ echo_array_godzilla( 'a', 'b' );
 sub echo_array_mothera ( *@a(Int) ) {
     say @a;
 }
+# Shape declaration with () is reserved;
+#   please use whitespace if you meant a subsignature for unpacking,
+#   or use the :() form if you meant to add signature info to the function's type
+
 
 echo_array_mothera( 3 );
