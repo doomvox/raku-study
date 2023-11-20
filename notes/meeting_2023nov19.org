@@ -20,6 +20,7 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-241/
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-242/
 **** github: 
+***** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-241/bruce-gray
 ***** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-242/bruce-gray
 
 *** suggestions for improving raku ranges
