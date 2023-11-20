@@ -49,3 +49,5 @@ echo_array_thingie(3,7);
 sub echo_array_godzilla ( $a ) {
     say $a;
 }
+
+echo_array_godzilla( 3 );
