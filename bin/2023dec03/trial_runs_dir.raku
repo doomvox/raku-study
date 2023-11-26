@@ -33,4 +33,4 @@ dir().List.map({ "'$_'" }).say;
 # ('two space name.txt' 'no_space.txt')
 
 say "===";
-say dir( test => {/^n/} )
+my @items = dir( test => {/^n/} )
