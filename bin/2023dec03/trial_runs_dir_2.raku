@@ -57,7 +57,7 @@ say "current working directory: ", $*CWD.Str;
 {
     say "===";
     # Yes, this code example is in the docs ((doesn't make much sense to me, though)):
-    for dir(test => * ,  test => {/^a/} ) -> $file {
+    for dir(test => * ,  test => {/^\./} ) -> $file {
         say $file;
     }
 
