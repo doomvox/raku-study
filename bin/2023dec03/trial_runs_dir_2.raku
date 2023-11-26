@@ -35,8 +35,10 @@ say "current working directory: ", $*CWD.Str;
 # Note: there's a "default" test block that filters out "." and ".."
 # Can you disable that somehow?  It's still in effect if you define your own "test".
 
-
-# Yes, this code example is in the docs:
-for dir(test => *) -> $file {
-     say $file;
+{
+    say "===";
+    # Yes, this code example is in the docs:
+    for dir(test => *) -> $file {
+        say $file;
+    }
 }
