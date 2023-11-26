@@ -4,6 +4,14 @@
 
 use v6;
 
+# SYNOPSIS
+#  cd /home/doom/tmp/TreeAlpha
+#  ls
+#     no_space.txt  'two space name.txt'
+#  /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/trial_runs_dir.raku
+# 
+
+
 say "current working directory: ", $*CWD.Str;
 
 say dir()>>.WHAT; # (Seq)
