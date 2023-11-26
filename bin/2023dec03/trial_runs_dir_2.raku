@@ -13,10 +13,16 @@ use v6;
 
 say "current working directory: ", $*CWD.Str;
 
-say "===";
 my @items = dir( test => {/^a/} );   # (1) this "exhausts" the Seq  (2) test filters against *name*
 for @items -> $item {
     say $item.Str;
 }
-# no_space.txt
+# a.txt
+# a.dat
+
+say "===";
+my @items = dir( test => { /^a/ }, test => { /\.dat$/ } );  
+for @items -> $item {
+    say $item.Str;
+}
 
