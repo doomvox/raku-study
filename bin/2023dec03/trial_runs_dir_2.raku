@@ -96,11 +96,14 @@ say "current working directory: ", $*CWD.Str;
 
     # ".".IO
     # "..".IO
+    # "e.txt".IO
+    # "Sub1".IO
+    # "Sub2".IO
 }
 
 
 {
-    # two negative tests don't combine as "not *this* and not *that*":
+    # two negative tests don't combine as "not *this* and not *that*"?
     say "===";
     for dir(test => * ,  test => { ! /^<[a..d]>/ },  test => { ! /^Sub/ } ) -> $file {
         say $file;
