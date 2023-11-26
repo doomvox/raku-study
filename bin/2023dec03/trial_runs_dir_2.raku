@@ -89,7 +89,7 @@ say "current working directory: ", $*CWD.Str;
 
 {
     say "===";
-    for dir(test => * ,  test => { ! /^<[a..d]>/ } ) -> $file {
+    for dir(test => * ,  test => { ! /^<[a..d]>/ }, test => { ! /^Sub/ } ) -> $file {
         say $file;
     }
 
