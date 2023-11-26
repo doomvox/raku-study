@@ -11,6 +11,10 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023dec03.org
 
 
+** topics
+*** dir
+**** https://new-raku.finanalyst.org/routine/dir
+
 ** old topics from last meeting
 
 *** william michels: question about raku, behavior of match objects, etc
