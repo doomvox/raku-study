@@ -33,7 +33,7 @@ dir().List.map({ "'$_'" }).say;
 # ('two space name.txt' 'no_space.txt')
 
 say "===";
-my @items = dir( test => {/^n/} );
+my @items = dir( test => {/^n/} );   # this "exhausts" the Seq
 for @items -> $item {
     say $item.Str;
 }
