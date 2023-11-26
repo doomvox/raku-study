@@ -30,5 +30,5 @@ dir().List.map({ dd($_) });
 
 say "===";
 dir().List.map({ "'$_'" }).say;
-# ('two space name.txt.Str' 'no_space.txt.Str')
+# ('two space name.txt' 'no_space.txt')
 
