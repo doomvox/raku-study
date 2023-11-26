@@ -131,12 +131,7 @@ say "current working directory: ", $*CWD.Str;
 
     # ".".IO
     # "..".IO
-    # "a.txt".IO
-    # "a.dat".IO
-    # "b.txt".IO
-    # "c.txt".IO
-    # "d.txt".IO
     # "e.txt".IO
-
-    ## the *second* negative test causes the first to be ignored?
+    # "Sub1".IO
+    # "Sub2".IO
 }
