@@ -33,4 +33,4 @@ say "current working directory: ", $*CWD.Str;
 }
 
 # Note: there's a "default" test block that filters out "." and ".."
-# Can you disable that somehow?
+# Can you disable that somehow?  It's still in effect if you define your own "test".
