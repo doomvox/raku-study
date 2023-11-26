@@ -123,7 +123,7 @@ say "current working directory: ", $*CWD.Str;
 
 
 {
-    # two negative tests don't combine as "not *this* and not *that*"?
+    # This *one* negative test *also* disables the default test
     say "===";
     for dir(test => { ! /^<[a..d]>/ } ) -> $file {
         say $file;
