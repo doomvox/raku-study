@@ -84,5 +84,4 @@ say "current working directory: ", $*CWD.Str;
     # "e.txt".IO
     # "Sub1".IO
     # "Sub2".IO
-
 }
