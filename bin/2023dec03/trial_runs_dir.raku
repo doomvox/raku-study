@@ -29,6 +29,6 @@ dir().List.map({ dd($_) });
 # IO::Path.new("no_space.txt", :SPEC(IO::Spec::Unix), :CWD("/home/doom/tmp/TreeAlpha"))
 
 say "===";
-dir().List.map({ "'$_.Str'" }).say;
+dir().List.map({ "'$_'" }).say;
 # ('two space name.txt.Str' 'no_space.txt.Str')
 
