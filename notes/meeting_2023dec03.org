@@ -14,6 +14,8 @@
 ** topics
 *** dir
 **** https://new-raku.finanalyst.org/routine/dir
+***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec03/trial_runs_dir.raku
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/trial_runs_dir.raku
 
 ** old topics from previous meetings
 
