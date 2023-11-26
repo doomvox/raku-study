@@ -4,7 +4,7 @@
 
 use v6;
 
-say "current working directory: ", $*CWD.name;
+say "current working directory: ", $*CWD.Str;
 
 
 
