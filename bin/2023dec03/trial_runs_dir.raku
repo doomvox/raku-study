@@ -6,7 +6,7 @@ use v6;
 
 say "current working directory: ", $*CWD.Str;
 
-
+say dir();
 
 
 
