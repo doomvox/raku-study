@@ -61,14 +61,6 @@ say "current working directory: ", $*CWD.Str;
         say $file;
     }
 
-    # ".".IO
-    # "..".IO
     # "a.txt".IO
     # "a.dat".IO
-    # "b.txt".IO
-    # "c.txt".IO
-    # "d.txt".IO
-    # "e.txt".IO
-    # "Sub1".IO
-    # "Sub2".IO
 }
