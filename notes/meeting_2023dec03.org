@@ -10,7 +10,8 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023dec03.org
 
-** topics
+
+** old topics from last meeting
 
 *** william michels: question about raku, behavior of match objects, etc
 **** https://unix.stackexchange.com/a/761824/227738
