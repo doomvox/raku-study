@@ -6,9 +6,9 @@ use v6;
 
 say "current working directory: ", $*CWD.Str;
 
-say dir()>>.WHAT;
+say dir()>>.WHAT; # (Seq)
 
-
+say dir().map({say $_});
 
 
 
