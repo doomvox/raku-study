@@ -55,12 +55,14 @@ say "current working directory: ", $*CWD.Str;
 }
 
 {
+    # you can disable the default, and define one of your own
     say "===";
     # Yes, this code example is in the docs ((doesn't make much sense to me, though)):
     for dir(test => * ,  test => {/^\./} ) -> $file {
         say $file;
     }
 
-    # "a.txt".IO
-    # "a.dat".IO
+    # ".".IO
+    # "..".IO
+
 }
