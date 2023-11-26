@@ -23,4 +23,4 @@ say dir().List>>.Str; # (two space name.txt no_space.txt)
 # Also, the elements are IO objects.
 
 say "===";
-dir().List.map({ say dd($_) });
+dir().List.map({ dd($_) });
