@@ -16,4 +16,6 @@ say dir().map({say $_.Str});
 
 ## So, dir() returns a sequence, and you've got to do something to pull the elements out of it.
 
-say dir().List;
+say dir().List; # ("two space name.txt".IO "no_space.txt".IO)
+
+say dir().List>>.Str;
