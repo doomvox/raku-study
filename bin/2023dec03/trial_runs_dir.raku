@@ -37,3 +37,4 @@ my @items = dir( test => {/^n/} );
 for @items -> $item {
     say $item;
 }
+# "no_space.txt".IO
