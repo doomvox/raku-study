@@ -18,4 +18,4 @@ say dir().map({say $_.Str});
 
 say dir().List; # ("two space name.txt".IO "no_space.txt".IO)
 
-say dir().List>>.Str;
+say dir().List>>.Str; # (two space name.txt no_space.txt)
