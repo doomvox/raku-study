@@ -32,3 +32,5 @@ say "===";
 dir().List.map({ "'$_'" }).say;
 # ('two space name.txt' 'no_space.txt')
 
+say "===";
+dir( test => {/^n/} )
