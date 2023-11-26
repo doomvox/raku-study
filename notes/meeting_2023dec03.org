@@ -54,10 +54,6 @@ https://gfldex.wordpress.com/2023/10/24/incomplete-ranges/
 ***** any comments?
 ***** previous conferences were published on youtube
 
-**** did anyone show up on nov 5th?
-***** headless meeting 
-https://us02web.zoom.us/j/84319884387?pwd=WEVQdFZueWNsemlmbTZxZThLclczdz09
-
 *** joe ("erlang") armstrong, the mess we're in 
 **** https://www.youtube.com/watch?v=lKXe3HUG2l4
 
