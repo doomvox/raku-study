@@ -120,3 +120,23 @@ say "current working directory: ", $*CWD.Str;
 
     ## the *second* negative test causes the first to be ignored?
 }
+
+
+{
+    # two negative tests don't combine as "not *this* and not *that*"?
+    say "===";
+    for dir(test => { ! /^<[a..d]>/ },  test => { ! /^Sub/ } ) -> $file {
+        say $file;
+    }
+
+    # ".".IO
+    # "..".IO
+    # "a.txt".IO
+    # "a.dat".IO
+    # "b.txt".IO
+    # "c.txt".IO
+    # "d.txt".IO
+    # "e.txt".IO
+
+    ## the *second* negative test causes the first to be ignored?
+}
