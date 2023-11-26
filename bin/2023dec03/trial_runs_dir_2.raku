@@ -68,9 +68,8 @@ say "current working directory: ", $*CWD.Str;
 
 
 {
-    # you can disable the default, and define one of your own
+    # note, if you reverse the order, you disable the one you defined also
     say "===";
-    # Yes, this code example is in the docs ((doesn't make much sense to me, though)):
     for dir( test => {/^\./}, test => * ) -> $file {
         say $file;
     }
