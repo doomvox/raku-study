@@ -1,0 +1,73 @@
+* meeting notes December 3, 2023
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023nov09.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2023nov09
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023oct22.org
+
+** topics
+
+*** william michels: question about raku, behavior of match objects, etc
+**** https://unix.stackexchange.com/a/761824/227738
+**** TODO extract examples: /home/doom/End/Cave/RakuStudy/Notes/bill_matching_on_lines.sh
+
+*** bruce gray: js, f-sharp vs raku
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-241/
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-242/
+**** github: 
+***** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-241/bruce-gray
+***** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-242/bruce-gray
+
+*** suggestions for improving raku ranges
+https://gfldex.wordpress.com/2023/10/24/incomplete-ranges/
+
+*** google ai vids (Alan)
+**** Chief Decision Scientist at Google Cloud, Cassie Kozyrkov 
+***** https://www.youtube.com/watch?v=EjBXZrQ7fTs
+***** https://www.youtube.com/watch?v=iLu9XyZ55oI
+
+*** weekly challenge
+**** oct 22
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-238
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-239
+****** Bruce Gray solutions from oct 22:
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-238/bruce-gray/raku/ch-1.raku
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-238/bruce-gray/raku/ch-2.raku
+******* https://github.com/Util/perlweeklychallenge-club/blob/c239/challenge-239/bruce-gray/raku/ch-1.raku
+******* https://github.com/Util/perlweeklychallenge-club/blob/c239/challenge-239/bruce-gray/raku/ch-2.raku
+**** current
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-242
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-243
+
+**** raku conference, october 28
+***** https://conf.raku.org/2023/schedule
+***** any comments?
+***** previous conferences were published on youtube
+
+**** did anyone show up on nov 5th?
+***** headless meeting 
+https://us02web.zoom.us/j/84319884387?pwd=WEVQdFZueWNsemlmbTZxZThLclczdz09
+
+*** joe ("erlang") armstrong, the mess we're in 
+**** https://www.youtube.com/watch?v=lKXe3HUG2l4
+
+
+
+** announcements 
+*** next meeting
+**** Sunday December  3, 2023
+
+
+
+** followup
+
+*** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
+**** e.g. https://github.com/doomvox/raku-study/commit/193650f11613b5e2e815d02d3444e86156acee01QQQQQq0qq`
+
+*** look at match objects with mixed named and positionals: hashify, listify, what wins?
+
