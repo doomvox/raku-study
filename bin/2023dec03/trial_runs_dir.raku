@@ -37,4 +37,4 @@ my @items = dir( test => {/^n/} );
 for @items -> $item {
     say $item.Str;
 }
-# "no_space.txt".IO
+# no_space.txt
