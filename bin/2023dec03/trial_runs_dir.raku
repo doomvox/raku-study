@@ -8,7 +8,7 @@ say "current working directory: ", $*CWD.Str;
 
 say dir()>>.WHAT; # (Seq)
 
-say dir().map({say $_});
+say dir().map({say $_.Str});
 
 
 
