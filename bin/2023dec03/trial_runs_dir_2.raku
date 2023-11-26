@@ -31,3 +31,6 @@ say "current working directory: ", $*CWD.Str;
     }
     # a.dat
 }
+
+# Note: there's a "default" test block that filters out "." and ".."
+# Can you disable that somehow?
