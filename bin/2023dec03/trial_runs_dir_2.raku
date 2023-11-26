@@ -28,4 +28,5 @@ say "current working directory: ", $*CWD.Str;
     for @items -> $item {
         say $item.Str;
     }
+    # a.dat
 }
