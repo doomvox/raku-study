@@ -53,3 +53,22 @@ say "current working directory: ", $*CWD.Str;
     # "Sub1".IO
     # "Sub2".IO
 }
+
+{
+    say "===";
+    # Yes, this code example is in the docs ((doesn't make much sense to me, though)):
+    for dir(test => * ,  test => {/^a/} ) -> $file {
+        say $file;
+    }
+
+    # ".".IO
+    # "..".IO
+    # "a.txt".IO
+    # "a.dat".IO
+    # "b.txt".IO
+    # "c.txt".IO
+    # "d.txt".IO
+    # "e.txt".IO
+    # "Sub1".IO
+    # "Sub2".IO
+}
