@@ -24,3 +24,6 @@ say dir().List>>.Str; # (two space name.txt no_space.txt)
 
 say "===";
 dir().List.map({ dd($_) });
+
+# IO::Path.new("two space name.txt", :SPEC(IO::Spec::Unix), :CWD("/home/doom/tmp/TreeAlpha"))
+# IO::Path.new("no_space.txt", :SPEC(IO::Spec::Unix), :CWD("/home/doom/tmp/TreeAlpha"))
