@@ -23,6 +23,7 @@ say "current working directory: ", $*CWD.Str;
 }
 
 {
+    # you can have multiple test blocks, they act in series
     say "===";
     my @items = dir( test => { /^a/ }, test => { /\.dat$/ } );  
     for @items -> $item {
