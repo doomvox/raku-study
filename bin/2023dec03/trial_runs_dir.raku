@@ -38,3 +38,4 @@ for @items -> $item {
     say $item.Str;
 }
 # no_space.txt
+
