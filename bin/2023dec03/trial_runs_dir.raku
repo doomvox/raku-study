@@ -35,6 +35,6 @@ dir().List.map({ "'$_'" }).say;
 say "===";
 my @items = dir( test => {/^n/} );
 for @items -> $item {
-    say $item;
+    say $item.Str;
 }
 # "no_space.txt".IO
