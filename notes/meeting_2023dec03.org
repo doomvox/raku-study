@@ -15,7 +15,7 @@
 *** dir
 **** https://new-raku.finanalyst.org/routine/dir
 
-** old topics from last meeting
+** old topics from previous meetings
 
 *** william michels: question about raku, behavior of match objects, etc
 **** https://unix.stackexchange.com/a/761824/227738
