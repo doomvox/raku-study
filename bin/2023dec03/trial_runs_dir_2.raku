@@ -85,3 +85,14 @@ say "current working directory: ", $*CWD.Str;
     # "Sub1".IO
     # "Sub2".IO
 }
+
+
+{
+    say "===";
+    for dir(test => * ,  test => { ! /^\{[a-e]}/ } ) -> $file {
+        say $file;
+    }
+
+    # ".".IO
+    # "..".IO
+}
