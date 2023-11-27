@@ -147,6 +147,7 @@ say "current working directory: ", $*CWD.Str;
 }
 
 {
+    # A block that just echoes $_ acts like a "*"
     say "===";
     for dir( test =>  { $_ } ) -> $file {
         say $file;
