@@ -143,4 +143,5 @@ say "current working directory: ", $*CWD.Str;
     for dir( test => {} ) -> $file {
         say $file;
     }
+    # NO OUTPUT
 }
