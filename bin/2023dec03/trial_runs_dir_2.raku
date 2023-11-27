@@ -138,15 +138,9 @@ say "current working directory: ", $*CWD.Str;
 
 
 {
-    # Is a "*" an empty code block?
+    # Is a "*" just an empty code block?
     say "===";
     for dir( test => {} ) -> $file {
         say $file;
     }
-
-    # ".".IO
-    # "..".IO
-    # "e.txt".IO
-    # "Sub1".IO
-    # "Sub2".IO
 }
