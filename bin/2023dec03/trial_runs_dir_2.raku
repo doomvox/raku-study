@@ -145,3 +145,11 @@ say "current working directory: ", $*CWD.Str;
     }
     # NO OUTPUT
 }
+
+{
+    say "===";
+    for dir( test =>  { $_ } ) -> $file {
+        say $file;
+    }
+    # NO OUTPUT
+}
