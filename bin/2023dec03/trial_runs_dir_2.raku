@@ -138,7 +138,7 @@ say "current working directory: ", $*CWD.Str;
 
 
 {
-    # Is a "*" just an empty code block?
+    # Is a "*" just an empty code block?  No, an empty block discards everything
     say "===";
     for dir( test => {} ) -> $file {
         say $file;
