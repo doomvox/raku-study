@@ -125,7 +125,7 @@ say "current working directory: ", $*CWD.Str;
 {
     # This *one* negative test *also* disables the default test
     say "===";
-    for dir(test => { ! /^<[a..d]>/ } ) -> $file {
+    for dir( test => { ! /^<[a..d]>/ } ) -> $file {
         say $file;
     }
 
@@ -135,3 +135,4 @@ say "current working directory: ", $*CWD.Str;
     # "Sub1".IO
     # "Sub2".IO
 }
+
