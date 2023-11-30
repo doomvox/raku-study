@@ -55,7 +55,7 @@ my $target_pattern = "^g";
     for $file.IO.lines -> $line {
         my $tmp = $line.lc;
         if ( m/^\s*g/ ) {
-            take $tmp 
+            take $tmp;
             last;
         }
     }
