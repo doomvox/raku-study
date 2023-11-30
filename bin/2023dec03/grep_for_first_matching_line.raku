@@ -18,7 +18,6 @@ $file.IO.spurt($dat);
 
 ## An old line in my notes that looks sub-optimal:
 
-
 ## untested example:
 # my $first_match = $file.IO.open.readlines.map{ .lc }.grep({ m/$target_pattern/ });
 
