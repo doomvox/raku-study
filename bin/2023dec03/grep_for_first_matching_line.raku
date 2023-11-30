@@ -21,7 +21,12 @@ my $target_pattern = "^g";
 ## An old line in my notes that looks sub-optimal:
 
 ## untested example:
-my $first_match = $file.IO.open.readlines.map{ .lc }.grep({ m/$target_pattern/ });
+# my $first_match = $file.IO.open.readlines.map{ .lc }.grep({ m/$target_pattern/ });
+
+# Yup, this looked wrong:
+#   No such method 'readlines' for invocant of type 'IO::Handle'
+
+my $first_match = $file.IO.open.lines.map{ .lc }.grep({ m/$target_pattern/ });
 
 say $first_match;
 
