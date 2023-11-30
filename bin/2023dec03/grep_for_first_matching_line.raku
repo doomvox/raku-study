@@ -33,16 +33,17 @@ my $target_pattern = "^g";
 
     say $first_match;
     # (  godzilla    9   ghidora    10   gammera     5   golem       3)
-
 }
 
 {
+    say "---";
     my $first_match = $file.IO.lines.map( *.lc ).first({ m/^\s*g/ });
     my $first_match = $file.IO.lines.map( *.lc ).first: { m/^\s*g/ } ;
     say $first_match;  #   godzilla    9
 }
 
 {
+    say "---";
     my $first_match = $file.IO.lines.map( *.lc ).first: { m/^\s*g/ } ;
     say $first_match;  #   godzilla    9
 }
