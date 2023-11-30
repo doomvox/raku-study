@@ -5,7 +5,7 @@
 use v6;
 
 my $tmp_dir = "/home/doom/tmp/Alpha";
-my @files = q:to/END/;
+my @files = q:to/END/.split("\n");
   able.txt
   baker.txt
   charlie.txt
