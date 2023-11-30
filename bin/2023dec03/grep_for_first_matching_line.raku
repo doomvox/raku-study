@@ -51,9 +51,9 @@ my $target_pattern = "^g";
 
 {
     say "---";
-    my @lines = $file.IO.lines;
+    my $s = $file.IO.lines;
     my $first_match = gather
-    for @lines -> $line {
+    for $s -> $line {
         my $tmp = $line.lc;
         if ( $tmp ~~ m/^\s*g/ ) {
             take $tmp;
