@@ -15,6 +15,7 @@ my @files = q:to/END/;
   sevhun.txt
   END
 
+say @files;
 
 
 
