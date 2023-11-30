@@ -49,4 +49,14 @@ my $target_pattern = "^g";
 }
 
 
+{
+    say "---";
+    my $first_match = gather
+    for $file.IO.lines -> $line {
+        my $tmp = $line.lc;
+        if ( m/^\s*g/ ) {
+            take $tmp 
+            last LOOP;
+        }
+}
 
