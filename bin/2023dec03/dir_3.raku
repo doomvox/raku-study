@@ -19,9 +19,6 @@ for @files -> $f {
     run('touch', $f);
 }
 
-
-
-
 # ====
 #  sheet of cheats
 
