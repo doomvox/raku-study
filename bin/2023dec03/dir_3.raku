@@ -3,7 +3,7 @@
 # dir_3.raku            29 Nov 2023 
 
 # backing up and double-checking: are two tests and and or an or?
-# answer, the last is an instead-of
+# answer: the last is an instead-of
 
 use v6;
 
