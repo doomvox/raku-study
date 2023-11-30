@@ -19,7 +19,7 @@
 
 *** issue with multiple triple dots
 **** https://github.com/Raku/problem-solving/issues/407
-**** see: https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023sep10.org
+**** See: https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023sep10.org
 ***** local: /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2023sep10.org
 
 ** old topics from previous meetings
