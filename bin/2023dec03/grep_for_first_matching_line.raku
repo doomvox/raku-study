@@ -6,7 +6,7 @@ use v6;
 
 ## An old line in my notes that looks sub-optimal:
 
-my $tmp_file = "/home/doom/tmp/monster.dat";
+my $file = "/home/doom/tmp/monster.dat";
 my $dat = q:to/ENDDAT/;
   godzilla    9
   mothera     7
@@ -16,7 +16,7 @@ my $dat = q:to/ENDDAT/;
   rhodan      4
 ENDDAT
 
-spurt($dat).$tmp_file.IO;
+spurt($dat).$file.IO;
 
 
 
