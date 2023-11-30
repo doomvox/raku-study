@@ -63,6 +63,7 @@ for @files>>.chomp -> $f {
     for @items -> $item {
         say $item.Str;
     }
+
    # eigenvalue.txt
    # foxtrot.txt
    ## the second test *overrides* the first
