@@ -26,7 +26,7 @@ my $target_pattern = "^g";
 # Yup, this looked wrong:
 #   No such method 'readlines' for invocant of type 'IO::Handle'
 
-my $first_match = $file.IO.open.lines.map{ .lc }.grep({ m/$target_pattern/ });
+my $first_match = $file.IO.open.lines.map({ .lc }).grep({ m/$target_pattern/ });
 
 say $first_match;
 
