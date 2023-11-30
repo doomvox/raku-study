@@ -57,16 +57,16 @@ for @files>>.chomp -> $f {
 
 
 
-{ # dir with two tests (both of those together )
+{ # dir with one test, the two merged together
     say "===";
     my @items = dir( test => { /^<[abef]>/ } );  
     for @items -> $item {
         say $item.Str;
     }
-
+   # able.txt
+   # baker.txt
    # eigenvalue.txt
    # foxtrot.txt
-   ## the second test *overrides* the first
 }
 
 
