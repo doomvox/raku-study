@@ -54,7 +54,7 @@ my $target_pattern = "^g";
     my $first_match = gather
     for $file.IO.lines -> $line {
         my $tmp = $line.lc;
-        if ( m/^\s*g/ ) {
+        if ( $tmp ~~ m/^\s*g/ ) {
             take $tmp;
             last;
         }
