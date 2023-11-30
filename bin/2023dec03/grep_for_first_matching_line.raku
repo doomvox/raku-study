@@ -56,7 +56,7 @@ my $target_pattern = "^g";
         my $tmp = $line.lc;
         if ( m/^\s*g/ ) {
             take $tmp 
-            last LOOP;
+            last;
         }
     }
     say $first_match;
