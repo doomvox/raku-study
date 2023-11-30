@@ -28,7 +28,7 @@ my $target_pattern = "^g";
 #   And map{} (no parens) looks like perl not raku
 
 # my $first_match = $file.IO.open.lines.map({ .lc }).grep({ m/$target_pattern/ });
-my $first_match = $file.IO.lines.map( *.lc ).grep({ m/^g/ });
+my $first_match = $file.lines.map( *.lc ).grep({ m/^g/ });
 
 say $first_match;
 
