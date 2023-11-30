@@ -60,5 +60,6 @@ my $target_pattern = "^g";
         }
     }
     say $first_match;
+    # (  godzilla    9)
 }
 
