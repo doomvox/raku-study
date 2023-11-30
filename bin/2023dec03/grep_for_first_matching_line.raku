@@ -37,7 +37,7 @@ my $target_pattern = "^g";
 }
 
 {
-    my $first_match = $file.IO.lines.map( *.lc ).first({ m/^\s*g/ });
+    my $first_match = $file.lines.map( *.lc ).first({ m/^\s*g/ });
     say $first_match;  #   godzilla    9
 
 }
