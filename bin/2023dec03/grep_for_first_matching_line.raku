@@ -53,7 +53,7 @@ my $target_pattern = "^g";
     say "---";
     my $first_match = gather
     for $file.IO.lines -> $line {
-        say $file.IO.^methods;
+        say $file.IO.^methods.map: "$_\n";
         my $tmp = $line.lc;
         if ( $tmp ~~ m/^\s*g/ ) {
             take $tmp;
