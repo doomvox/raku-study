@@ -21,6 +21,25 @@ for @files>>.chomp -> $f {
     run('touch', $f) if $f;
 }
 
+
+{ # dir with one "test" (filter criteria)
+    say "===";
+    my @items = dir( test => { /^a/ } );  
+    for @items -> $item {
+        say $item.Str;
+    }
+    # a.dat
+}
+
+
+
+
+
+
+
+
+
+
 # ====
 #  sheet of cheats
 
