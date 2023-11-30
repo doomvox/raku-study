@@ -16,6 +16,8 @@ my $dat = q:to/ENDDAT/;
   rhodan      4
 ENDDAT
 
+spurt($dat).$tmp_file.IO;
+
 
 
 
