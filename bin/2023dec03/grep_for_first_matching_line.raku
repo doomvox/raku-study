@@ -16,7 +16,6 @@ my $dat = q:to/ENDDAT/;
 ENDDAT
 $file.IO.spurt($dat);
 
-
 ## An old line in my notes that looks sub-optimal:
 
 
