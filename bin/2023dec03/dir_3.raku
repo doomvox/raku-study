@@ -24,7 +24,7 @@ for @files>>.chomp -> $f {
 
 { # dir with one "test" (filter criteria)
     say "===";
-    my @items = dir( test => { /^<[ab]>/ } );  
+    my @items = dir( test => { /^<[ef]>/ } );  
     for @items -> $item {
         say $item.Str;
     }
