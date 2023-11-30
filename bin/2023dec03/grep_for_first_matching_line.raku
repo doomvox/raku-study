@@ -58,5 +58,7 @@ my $target_pattern = "^g";
             take $tmp 
             last LOOP;
         }
+    }
+    say $first_match;
 }
 
