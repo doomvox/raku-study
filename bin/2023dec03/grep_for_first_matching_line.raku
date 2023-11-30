@@ -15,7 +15,6 @@ my $dat = q:to/ENDDAT/;
   golem       3
   rhodan      4
 ENDDAT
-
 $file.IO.spurt($dat);
 
 
