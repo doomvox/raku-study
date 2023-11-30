@@ -6,7 +6,7 @@ use v6;
 
 ## An old line in my notes that looks sub-optimal:
 
-
+my $tmp_file = "$*HOME/tmp/monster.dat";
 my $dat = q:to/ENDDAT/;
   godzilla    9
   mothera     7
@@ -15,6 +15,7 @@ my $dat = q:to/ENDDAT/;
   golem       3
   rhodan      4
 ENDDAT
+
 
 
 
