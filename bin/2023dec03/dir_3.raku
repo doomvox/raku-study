@@ -6,13 +6,12 @@ use v6;
 
 my $tmp_dir = "/home/doom/tmp/Alpha";
 my @files = q:to/END/;
-  wuhn.txt
-  tew.txt
-  thuree.txt
-  foah.txt
-  fahv.txt
-  sex.txt
-  sevhun.txt
+  able.txt
+  baker.txt
+  charlie.txt
+  delta.txt
+  eigenvalue.txt
+  foxtrot.txt
   END
 
 say @files;
