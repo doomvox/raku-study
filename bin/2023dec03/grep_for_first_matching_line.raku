@@ -27,7 +27,8 @@ my $target_pattern = "^g";
 #   No such method 'readlines' for invocant of type 'IO::Handle'
 #   And map{} (no parens) looks like perl not raku
 
-my $first_match = $file.IO.open.lines.map({ .lc }).grep({ m/$target_pattern/ });
+# my $first_match = $file.IO.open.lines.map({ .lc }).grep({ m/$target_pattern/ });
+my $first_match = $file.IO.open.lines.map({ .lc }).grep({ m/^g/ });
 
 say $first_match;
 
