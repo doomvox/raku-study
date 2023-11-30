@@ -23,7 +23,7 @@ spurt($dat).$file.IO;
 
 
 ## untested example:
-my $first_match = $file.IO.open.readlines.map{ .lc }.grep({ m/$target_pattern/ });
+# my $first_match = $file.IO.open.readlines.map{ .lc }.grep({ m/$target_pattern/ });
 
 
 
