@@ -8,12 +8,12 @@ use v6;
 
 
 my $dat = q:to/ENDDAT/;
-godzilla    9
-mothera     7
-ghidora    10
-gammera     5
-golem       3
-rhodan      4
+  godzilla    9
+  mothera     7
+  ghidora    10
+  gammera     5
+  golem       3
+  rhodan      4
 ENDDAT
 
 
