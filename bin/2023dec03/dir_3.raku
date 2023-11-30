@@ -52,6 +52,7 @@ for @files>>.chomp -> $f {
     }
    # eigenvalue.txt
    # foxtrot.txt
+   ## the second test *overrides* the first
 }
 
 
