@@ -16,12 +16,12 @@ my $dat = q:to/ENDDAT/;
 ENDDAT
 $file.IO.spurt($dat);
 
-my $target_pattern = "^m";
+my $target_pattern = "^g";
 
 ## An old line in my notes that looks sub-optimal:
 
 ## untested example:
 my $first_match = $file.IO.open.readlines.map{ .lc }.grep({ m/$target_pattern/ });
 
-
+say $first_match;
 
