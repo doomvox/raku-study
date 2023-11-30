@@ -44,14 +44,14 @@ for @files>>.chomp -> $f {
 }
 
 
-{ # dir with two tests (both of those togethe )2
+{ # dir with two tests (both of those together )
     say "===";
     my @items = dir( test => { /^<[ab]>/ }, test => { /^<[ef]>/ } );  
     for @items -> $item {
         say $item.Str;
     }
-  # able.txt
-  # baker.txt
+   # eigenvalue.txt
+   # foxtrot.txt
 }
 
 
