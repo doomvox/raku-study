@@ -51,14 +51,14 @@ my $target_pattern = "^g";
 
 {
     say "---";
-    my $first_match = | gather
+    my $first_match = slip gather
     for $file.IO.lines -> $line {
         my $tmp = $line.lc;
         if ( $tmp ~~ m/^\s*g/ ) {
             take $tmp;
             last;
         }
-    };
+    }
     say $first_match;
     # (  godzilla    9)
 }
