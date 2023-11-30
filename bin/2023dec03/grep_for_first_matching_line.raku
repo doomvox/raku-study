@@ -4,7 +4,7 @@
 
 use v6;
 
-## An old line in my notes that looks sub-optimal:
+# create a file of test data
 
 my $file = "/home/doom/tmp/monster.dat";
 my $dat = q:to/ENDDAT/;
@@ -18,7 +18,7 @@ ENDDAT
 $file.IO.spurt($dat);
 
 
-
+## An old line in my notes that looks sub-optimal:
 
 
 ## untested example:
