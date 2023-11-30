@@ -24,21 +24,23 @@ for @files>>.chomp -> $f {
 
 { # dir with one "test" (filter criteria)
     say "===";
-    my @items = dir( test => { /^<[ef]>/ } );  
+    my @items = dir( test => { /^<[ab]>/ } );  
     for @items -> $item {
         say $item.Str;
     }
-    # a.dat
+  # able.txt
+  # baker.txt
 }
 
 
 { # dir with a different test
     say "===";
-    my @items = dir( test => { /^<[ab]>/ } );  
+    my @items = dir( test => { /^<[ef]>/ } );  
     for @items -> $item {
         say $item.Str;
     }
-    # a.dat
+   # eigenvalue.txt
+   # foxtrot.txt
 }
 
 
