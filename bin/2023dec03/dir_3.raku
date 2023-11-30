@@ -55,17 +55,6 @@ for @files>>.chomp -> $f {
 }
 
 
-{ # dir with a different test
-    say "===";
-    my @items = dir( 
-    for @items -> $item {
-        say $item.Str;
-    }
-   # eigenvalue.txt
-   # foxtrot.txt
-}
-
-
 
 
 
