@@ -7,6 +7,16 @@ use v6;
 ## An old line in my notes that looks sub-optimal:
 
 
+my $dat = q:to/ENDDAT/;
+godzilla
+mothera
+ghidora
+gammera
+golem
+rhodan
+ENDDAT
+
+
 
 
 ## untested example:
