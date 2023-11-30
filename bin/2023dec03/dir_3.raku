@@ -17,7 +17,7 @@ my @files = q:to/END/.split("\n");
 chdir( $tmp_dir );
 say @files;
 for @files>>.chomp -> $f {
-    run('touch', $f);
+    run('touch', $f) if $f;
 }
 
 # ====
