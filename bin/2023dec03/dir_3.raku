@@ -32,6 +32,14 @@ for @files>>.chomp -> $f {
 }
 
 
+{ # dir with a different test
+    say "===";
+    my @items = dir( test => { /^<[ab]>/ } );  
+    for @items -> $item {
+        say $item.Str;
+    }
+    # a.dat
+}
 
 
 
