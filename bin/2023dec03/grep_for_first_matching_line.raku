@@ -16,6 +16,8 @@ my $dat = q:to/ENDDAT/;
 ENDDAT
 $file.IO.spurt($dat);
 
+my $target_pattern = "^m";
+
 ## An old line in my notes that looks sub-optimal:
 
 ## untested example:
