@@ -5,11 +5,15 @@
 use v6;
 
 my $tmp_dir = "/home/doom/tmp/Alpha";
-
 my @files = q:to/END/;
-
-
-END
+  wuhn.txt
+  tew.txt
+  thuree.txt
+  foah.txt
+  fahv.txt
+  sex.txt
+  sevhun.txt
+  END
 
 
 
