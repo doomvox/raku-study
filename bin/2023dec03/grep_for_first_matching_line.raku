@@ -51,7 +51,6 @@ my $target_pattern = "^g";
 
 {
     say "---";
-    my @lines = ;
     my $first_match = gather
     for $file.IO.lines -> $line {
         my $tmp = $line.lc;
