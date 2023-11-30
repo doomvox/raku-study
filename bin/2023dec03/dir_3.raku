@@ -5,6 +5,7 @@
 use v6;
 
 my $tmp_dir = "/home/doom/tmp/Alpha";
+## mkdir unless -d ?
 my @files = q:to/END/.split("\n");
   able.txt
   baker.txt
