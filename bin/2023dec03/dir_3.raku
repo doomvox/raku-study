@@ -14,6 +14,7 @@ my @files = q:to/END/;
   foxtrot.txt
   END
 
+chdir( $tmp_dir );
 say @files;
 for @files>>.chomp -> $f {
     run('touch', $f);
