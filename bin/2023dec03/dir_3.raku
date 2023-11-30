@@ -15,7 +15,7 @@ my @files = q:to/END/;
   END
 
 say @files;
-for @files -> $f {
+for @files>>.chomp -> $f {
     run('touch', $f);
 }
 
