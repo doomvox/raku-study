@@ -58,7 +58,7 @@ my $target_pattern = "^g";
             take $tmp;
             last;
         }
-    }
+    };
     say $first_match;
     # (  godzilla    9)
 }
