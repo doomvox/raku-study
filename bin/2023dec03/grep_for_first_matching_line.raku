@@ -16,7 +16,7 @@ my $dat = q:to/ENDDAT/;
   rhodan      4
 ENDDAT
 
-spurt($dat).$file.IO;
+$file.IO.spurt($dat);
 
 
 
