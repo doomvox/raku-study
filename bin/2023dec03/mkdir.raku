@@ -4,6 +4,8 @@
 
 use v6;
 
+## Checking that with Raku's "mkdir", it does not error out if the directory exists already.
+
 my $t = "/home/doom/tmp/YetAnotherDamnTestLocationToMessWith";
 {
     my $io_path_obj = mkdir( $t );
