@@ -5,7 +5,6 @@
 use v6;
 
 # create a file of test data
-
 my $file = "/home/doom/tmp/monster.dat";
 my $dat = q:to/ENDDAT/;
   godzilla    9
