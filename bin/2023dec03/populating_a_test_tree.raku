@@ -28,11 +28,14 @@ use v6;
 }
 
 { 
-    ## This has problems.
-    ## Get in the habit of using:
+    ## This has issues:
+    ## (1) don't hardcode "doom"
     my $HOME = $*ENV<HOME>;
     my $tmp_dir = "$HOME/tmp/Alpha"    
-    ## Q: what 
+    ## (2) 
+    ## Q: what difference $*CWD assignment and chdir?
+    ##    dynamic and lexical?
+
 
 
 }
