@@ -19,7 +19,7 @@ say "===";
 say "===";
 
 my $file = "/home/doom/tmp/Alpha/Widget";
-spurt( $file );  # create $file without text
+spurt( $file );  # create $file without text, like touch
 mkdir( $file );
 
 # Failed to create directory '/home/doom/tmp/Alpha/Widget' with mode '0o777': Failed to mkdir: File exists
