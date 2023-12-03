@@ -39,7 +39,8 @@ use v6;
     # $*CWD = $tmp_dir;
     ## (3) gotta be a neater way of entering a list
     ## (4) shelling out to 'touch' is cheesy    
-    
+    ## (5) should allow for subdirs
+    ##      can you open and spurt and create intervening dirs?
 
 }
 
