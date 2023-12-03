@@ -18,5 +18,10 @@ say "===";
 }
 say "===";
 
+my $file = "/home/doom/tmp/Alpha/Widget";
+spurt( $file );
+
+
+
 ## perl5
 ##  mkdir( $d ) unless -d $d;
