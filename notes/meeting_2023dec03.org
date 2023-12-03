@@ -22,6 +22,11 @@
 **** See: https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023sep10.org
 ***** local: /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2023sep10.org
 
+
+*** https://github.com/Raku/problem-solving/issues/404
+
+**** allomorph considered interface judge
+
 ** old topics from previous meetings
 
 *** william michels: question about raku, behavior of match objects, etc
