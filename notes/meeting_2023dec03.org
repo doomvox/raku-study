@@ -27,6 +27,9 @@
 
 **** allomorph considered interface judge: librasteve, Steve Rowe (sp?)
 
+*** perl5 porters should corinna methods default to private?
+**** https://www.nntp.perl.org/group/perl.perl5.porters/2023/12/msg267436.html
+
 ** old topics from previous meetings
 
 *** william michels: question about raku, behavior of match objects, etc
