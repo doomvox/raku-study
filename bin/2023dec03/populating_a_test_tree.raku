@@ -47,16 +47,14 @@ use v6;
         eigenvalue.txt
         foxtrot.txt
     »;
-    for @files -> $f {
-        say $f;
-    }
-
     ## (4) shelling out to 'touch' is cheesy    
     ## (5) should allow for subdirs
     ##     can you open and spurt and create intervening dirs?
 
-
-
+    for @files -> $f {
+        say $f;
+        spurt $f;  # As of the 2020.12 release of the Rakudo compiler
+    }
 
     ## (6) choosing a root (like 'Alpha') and dealing with
     ##     possible collisions with pre-existing locations
