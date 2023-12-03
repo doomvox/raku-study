@@ -47,7 +47,6 @@ use v6;
         eigenvalue.txt
         foxtrot.txt
     »;
-
     for @files -> $f {
         say $f;
     }
