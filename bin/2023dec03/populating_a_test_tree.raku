@@ -48,7 +48,9 @@ use v6;
         foxtrot.txt
     »;
 
-
+    for @files -> $f {
+        say $f;
+    }
 
 
     ## (4) shelling out to 'touch' is cheesy    
