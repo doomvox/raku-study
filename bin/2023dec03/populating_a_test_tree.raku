@@ -4,8 +4,8 @@
 
 use v6;
 
-## Knocked out some code like this recently:
 
+## Knocked out some code like this recently
 {
     ## automatically populating a test location (TODO needs work)
     my $tmp_dir = "/home/doom/tmp/Alpha";
