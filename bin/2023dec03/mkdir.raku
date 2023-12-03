@@ -20,7 +20,6 @@ say "===";
 
 my $file = "/home/doom/tmp/Alpha/Widget";
 spurt( $file );  # create $file without text
-
 mkdir( $file );
 
 ## $file.IO.spurt( $text );
