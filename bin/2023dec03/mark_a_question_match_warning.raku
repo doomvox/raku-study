@@ -24,3 +24,5 @@ say so "I used Photoshop"   ~~ m:i/   photo \s shop /;
 
 
 
+# Q: how do you turn off warnings you don't want?
+# A: we're not sure.
