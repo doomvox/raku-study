@@ -7,6 +7,7 @@
 
 use v6;
 
+## automatically populating a test location (TODO needs work)
 my $tmp_dir = "/home/doom/tmp/Alpha";
 ## mkdir unless -d ?
 my @files = q:to/END/.split("\n");
