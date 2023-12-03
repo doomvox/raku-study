@@ -41,4 +41,4 @@ put (1...6; 3...8);   ## semicolon beats comma
 
 say "---";
 
-put (1...(6, 3)...8);   ## semicolon beats comma
+put (1...(6, 3)...8);  
