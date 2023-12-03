@@ -23,6 +23,7 @@ spurt( $file );
 
 mkdir( $file );
 
+$file.IO.spurt( $text );
 
 
 ## perl5
