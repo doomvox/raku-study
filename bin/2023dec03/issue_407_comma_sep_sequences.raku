@@ -47,3 +47,7 @@ put (1...(6, 3)...8);
 # suggests comma precedence issue.
 
 
+## 
+## Two workarounds:  favor .. over ...
+##                   favor semicolon over comma
+##                   maybe three: mess with flats
