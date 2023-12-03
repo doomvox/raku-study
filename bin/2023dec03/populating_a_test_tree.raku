@@ -39,14 +39,14 @@ use v6;
     # $*CWD = $tmp_dir;
     ## (3) there's  neater ways of entering lists
 
-    my @files = <<
-    able.txt
-    baker.txt
-    charlie.txt
-    delta.txt
-    eigenvalue.txt
-    foxtrot.txt
-    >>;
+    my @files = «
+        able.txt
+        baker.txt
+        charlie.txt
+        delta.txt
+        eigenvalue.txt
+        foxtrot.txt
+    »;
 
 
 
