@@ -19,3 +19,6 @@ say "===";
 say "===";
 
 
+
+## perl5
+##  mkdir( $d ) unless -d $d;
