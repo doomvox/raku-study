@@ -55,7 +55,8 @@ use v6;
 
     for @files -> $f {
         say $f;
-        spurt $f;  # As of the 2020.12 release of the Rakudo compiler
+        spurt $f;  # As of the 2020.12 release of the Rakudo compiler.
+                   # Truncates (deletes contents) if any.
     }
 
     ## (6) choosing a root (like 'Alpha') and dealing with
