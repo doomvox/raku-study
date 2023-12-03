@@ -19,7 +19,7 @@ say "===";
 say "===";
 
 my $file = "/home/doom/tmp/Alpha/Widget";
-spurt( $file );
+spurt( $file );  # create $file without text
 
 mkdir( $file );
 
