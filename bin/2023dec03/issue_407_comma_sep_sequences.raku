@@ -42,3 +42,8 @@ put (1...6; 3...8);   ## semicolon beats comma
 say "---";
 
 put (1...(6, 3)...8);  
+# 1 2 3 4 5 8
+# Adding additional parens doesn't change behavior: 
+# suggests comma precedence issue.
+
+
