@@ -50,10 +50,11 @@ use v6;
     ##       o  automated tests (*.t)       
     ##       o  demos
     ##
-    ##      subcases have to do with my practice ("~/tmp")
-    ##      vs. supporting others preference (fall back
-    ##      to "/tmp" if need be?)
-    
+    ##      subcases:
+    ##        o  my practice ("~/tmp")
+    ##        o  supporting others preference 
+    ##           (fall back to "/tmp" if need be?)
+    ##        o  tests should use File::Temp    
 
 
 }
