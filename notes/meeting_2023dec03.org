@@ -25,7 +25,7 @@
 
 *** https://github.com/Raku/problem-solving/issues/404
 
-**** allomorph considered interface judge
+**** allomorph considered interface judge, librasteve, Steve Rowe (sp?)
 
 ** old topics from previous meetings
 
