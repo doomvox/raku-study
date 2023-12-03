@@ -35,7 +35,7 @@ use v6;
     ## (2) 
     ## Q: what difference $*CWD assignment and chdir?
     ##    dynamic and lexical?
-    chdir ( $tmp_dir );
+    chdir( $tmp_dir );
     # $*CWD = $tmp_dir;
     ## (3) there's  neater ways of entering lists
 
