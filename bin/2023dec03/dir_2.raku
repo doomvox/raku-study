@@ -90,7 +90,7 @@ say "current working directory: ", $*CWD.Str;
 
 {
     # Ah: essentially *any* "test" overrides the built-in default
-
+    # When you got two "test" keys, the last always wins.
     say "AAA===BBB";
     # Yes, this code example is in the docs ((doesn't make much sense to me, though)):
     for dir( test => {/^\./} ) -> $file {
