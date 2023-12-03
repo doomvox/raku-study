@@ -30,7 +30,7 @@
 
 *** weeklychallenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-245/
-
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-244/
 
 ** old topics from previous meetings
 
