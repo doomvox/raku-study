@@ -8,7 +8,7 @@ use v6;
 ## Knocked out some code like this recently
 {
     ## automatically populating a test location (TODO needs work)
-    my $tmp_dir = "/home/doom/tmp/Alpha";
+    my $tmp_dir = "/home/doom/tmp/AlphaRalphaBlvd";
     ## mkdir unless -d ?
     my @files = q:to/END/.split("\n");
     able.txt
