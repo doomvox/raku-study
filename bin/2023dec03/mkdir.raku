@@ -22,6 +22,11 @@ my $file = "/home/doom/tmp/Alpha/Widget";
 spurt( $file );  # create $file without text
 mkdir( $file );
 
+# Failed to create directory '/home/doom/tmp/Alpha/Widget' with mode '0o777': Failed to mkdir: File exists
+#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/mkdir.raku line 23
+
+
+## Usual use of "spurt":
 ## $file.IO.spurt( $text );
 
 
