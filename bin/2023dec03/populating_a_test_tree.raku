@@ -19,6 +19,7 @@ use v6;
     foxtrot.txt
     END
 
+    mkdir( $tmp_dir );  # won't complain if this exists
     chdir( $tmp_dir );
     say @files;
     for @files>>.chomp -> $f {
