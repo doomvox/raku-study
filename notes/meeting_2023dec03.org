@@ -28,6 +28,8 @@
 *** perl5 porters: should corinna methods default to private?
 **** https://www.nntp.perl.org/group/perl.perl5.porters/2023/12/msg267436.html
 
+*** weeklychallenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-245/
 
 
 ** old topics from previous meetings
