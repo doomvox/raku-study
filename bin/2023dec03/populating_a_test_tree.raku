@@ -31,7 +31,7 @@ use v6;
     ## That has issues:
     ## (1) don't hardcode "doom"
     my $HOME = $*ENV<HOME>;
-    my $tmp_dir = "$HOME/tmp/Alpha"    
+    my $tmp_dir = "$HOME/tmp/Alpha";
     ## (2) 
     ## Q: what difference $*CWD assignment and chdir?
     ##    dynamic and lexical?
