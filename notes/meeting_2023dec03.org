@@ -32,6 +32,7 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-245/
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-244/
 
+
 ** old topics from previous meetings
 
 *** william michels: question about raku, behavior of match objects, etc
