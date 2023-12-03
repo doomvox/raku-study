@@ -10,7 +10,9 @@ say "===";
 
 say so "I used Photoshop"   ~~ m:i:s/   photo shop /;
 
+say "===";
 
+say so "I used Photoshop"   ~~ m:i:s/   photo shop /;
 
 
 say so "I used Photoshop"   ~~ m:i/   photo ' ' shop /;
