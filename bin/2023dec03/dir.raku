@@ -41,7 +41,8 @@ dir().List.map({ "'$_'" }).say;
 # ('two space name.txt' 'no_space.txt')
 
 say "===";
-my @items = dir( test => {/^n/} );   # (1) this "exhausts" the Seq  (2) test filters against *name*
+# my @items = dir( test => {/^n/} );   # (1) this "exhausts" the Seq  (2) test filters against *name*
+my @items = dir( test => /^n} );   # (1) this "exhausts" the Seq  (2) test filters against *name*
 for @items -> $item {
     say $item.Str;
 }
