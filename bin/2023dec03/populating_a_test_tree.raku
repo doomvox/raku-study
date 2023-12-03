@@ -28,7 +28,7 @@ use v6;
 }
 
 { 
-    ## This has issues:
+    ## That has issues:
     ## (1) don't hardcode "doom"
     my $HOME = $*ENV<HOME>;
     my $tmp_dir = "$HOME/tmp/Alpha"    
