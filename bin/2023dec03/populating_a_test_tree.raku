@@ -42,6 +42,20 @@ use v6;
     ## (5) should allow for subdirs
     ##     can you open and spurt and create intervening dirs?
 
+    ## (6) choosing a root (like 'Alpha') and dealing with
+    ##     possible collisions with pre-existing locations
+    ##     and such has it's own issues
+    ##     There are three seperate cases (with subcases):
+    ##       o  exploratory trial runs
+    ##       o  automated tests (*.t)       
+    ##       o  demos
+    ##
+    ##      subcases have to do with my practice ("~/tmp")
+    ##      vs. supporting others preference (fall back
+    ##      to "/tmp" if need be?)
+    
+
+
 }
 
 
