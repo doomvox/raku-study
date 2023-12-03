@@ -8,6 +8,14 @@ say so "I used Photoshop"   ~~ m:i/   photoshop /;
 
 say "===";
 
-say so "I used Photoshop"   ~~ m:i/   photo shop /;
+say so "I used Photoshop"   ~~ m:i:s/   photo shop /;
 
+
+say so "I used Photoshop"   ~~ m:i/   photo ' ' shop /;
+
+say so "I used Photoshop"   ~~ m:i/   photo \s shop /;
+
+
+/photo shop/
+/photoshop/
 
