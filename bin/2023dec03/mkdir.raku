@@ -23,7 +23,7 @@ spurt( $file );  # create $file without text
 
 mkdir( $file );
 
-$file.IO.spurt( $text );
+## $file.IO.spurt( $text );
 
 
 ## perl5
