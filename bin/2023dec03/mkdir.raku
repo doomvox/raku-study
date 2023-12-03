@@ -21,6 +21,8 @@ say "===";
 my $file = "/home/doom/tmp/Alpha/Widget";
 spurt( $file );
 
+mkdir( $file );
+
 
 
 ## perl5
