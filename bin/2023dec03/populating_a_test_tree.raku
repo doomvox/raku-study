@@ -37,7 +37,20 @@ use v6;
     ##    dynamic and lexical?
     chdir ( $tmp_dir );
     # $*CWD = $tmp_dir;
-    ## (3) gotta be a neater way of entering a list
+    ## (3) there's  neater ways of entering lists
+
+    my @files = <<
+    able.txt
+    baker.txt
+    charlie.txt
+    delta.txt
+    eigenvalue.txt
+    foxtrot.txt
+    >>;
+
+
+
+
     ## (4) shelling out to 'touch' is cheesy    
     ## (5) should allow for subdirs
     ##     can you open and spurt and create intervening dirs?
