@@ -26,3 +26,6 @@ say so "I used Photoshop"   ~~ m:i/   photo \s shop /;
 
 # Q: how do you turn off warnings (technically: "worries") you don't want?
 # A: we're not sure.
+
+# a "worry" is a compile-time "warning"
+
