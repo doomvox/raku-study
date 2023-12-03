@@ -8,7 +8,8 @@ say so "I used Photoshop"   ~~ m:i/   photoshop /;
 
 say "===";
 
-say so "I used Photoshop"   ~~ m:i/   photo shop /;
+say so "I used Photoshop"   ~~ m:i/   photo shop /;  # this warns
+say so "I used Photoshop"   ~~ m:i/   photo  shop /;  # this *doesn't* warn
 
 say "===";
 
