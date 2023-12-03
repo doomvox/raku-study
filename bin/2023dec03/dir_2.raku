@@ -87,6 +87,23 @@ say "current working directory: ", $*CWD.Str;
 }
 
 
+
+{
+    # you can disable the default, and define one of your own
+    say "AAA===BBB";
+    # Yes, this code example is in the docs ((doesn't make much sense to me, though)):
+    for dir( test => {/^\./} ) -> $file {
+        say $file;
+    }
+
+    # ".".IO
+    # "..".IO
+}
+
+
+
+
+
 {
     # again, relaxing the default test, and this time adding a negative test    
     say "===";
