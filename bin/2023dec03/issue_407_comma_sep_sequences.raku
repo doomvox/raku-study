@@ -36,4 +36,9 @@ put 3...8; # 3 4 5 6 7 8
 
 say "===";
 
-put (1...6; 3...8);
+put (1...6; 3...8);   ## semicolon beats comma
+# 1 2 3 4 5 6 3 4 5 6 7 8
+
+say "---";
+
+put (1...6; 3...8);   ## semicolon beats comma
