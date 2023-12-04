@@ -59,14 +59,11 @@
 *** suggestions for improving raku ranges
 https://gfldex.wordpress.com/2023/10/24/incomplete-ranges/
 
-
 ** Videos
-
 *** google ai vids (Alan)
 **** Chief Decision Scientist at Google Cloud, Cassie Kozyrkov 
 ***** https://www.youtube.com/watch?v=EjBXZrQ7fTs
 ***** https://www.youtube.com/watch?v=iLu9XyZ55oI
-
 
 *** raku conference, october 28, 2023
 **** https://conf.raku.org/2023/schedule
