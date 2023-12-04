@@ -42,6 +42,7 @@
 ***** https://www.gnu.org/software/glpk/
 ***** https://en.wikipedia.org/wiki/GNU_Linear_Programming_Kit
 
+
 ** old topics from previous meetings
 
 *** william michels: question about raku, behavior of match objects, etc
