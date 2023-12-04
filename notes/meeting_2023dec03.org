@@ -32,6 +32,7 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-245/
 ***** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-245/bruce-gray/raku/ch-1.raku
 ***** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-245/bruce-gray/raku/ch-2.raku
+
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-244/
 
 ** old topics from previous meetings
