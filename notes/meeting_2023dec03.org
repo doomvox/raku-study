@@ -32,6 +32,10 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-245/
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-244/
 
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-245/bruce-gray/raku/ch-1.raku
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-245/bruce-gray/raku/ch-2.raku
+
+
 
 ** old topics from previous meetings
 
@@ -63,6 +67,7 @@ https://gfldex.wordpress.com/2023/10/24/incomplete-ranges/
 ******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-238/bruce-gray/raku/ch-2.raku
 ******* https://github.com/Util/perlweeklychallenge-club/blob/c239/challenge-239/bruce-gray/raku/ch-1.raku
 ******* https://github.com/Util/perlweeklychallenge-club/blob/c239/challenge-239/bruce-gray/raku/ch-2.raku
+
 **** current
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-242
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-243
