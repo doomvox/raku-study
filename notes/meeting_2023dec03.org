@@ -39,6 +39,8 @@
 
 
 
+https://www.gnu.org/software/glpk/
+
 
 ** old topics from previous meetings
 
@@ -55,6 +57,7 @@
 
 *** suggestions for improving raku ranges
 https://gfldex.wordpress.com/2023/10/24/incomplete-ranges/
+
 
 ** Videos
 
