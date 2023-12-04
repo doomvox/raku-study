@@ -38,9 +38,9 @@
 ***** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-244/bruce-gray/raku/ch-2.raku
 
 
-
-https://www.gnu.org/software/glpk/
-
+**** gnu linear programming toolkit
+***** https://www.gnu.org/software/glpk/
+***** https://en.wikipedia.org/wiki/GNU_Linear_Programming_Kit
 
 ** old topics from previous meetings
 
