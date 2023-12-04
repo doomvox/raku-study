@@ -64,8 +64,7 @@ https://gfldex.wordpress.com/2023/10/24/incomplete-ranges/
 
 **** raku conference, october 28
 ***** https://conf.raku.org/2023/schedule
-***** any comments?
-***** previous conferences were published on youtube
+***** videos on youtube
 
 *** joe ("erlang") armstrong, the mess we're in 
 **** https://www.youtube.com/watch?v=lKXe3HUG2l4
