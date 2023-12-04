@@ -61,19 +61,6 @@ https://gfldex.wordpress.com/2023/10/24/incomplete-ranges/
 ***** https://www.youtube.com/watch?v=EjBXZrQ7fTs
 ***** https://www.youtube.com/watch?v=iLu9XyZ55oI
 
-*** weekly challenge
-**** oct 22
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-238
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-239
-****** Bruce Gray solutions from oct 22:
-******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-238/bruce-gray/raku/ch-1.raku
-******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-238/bruce-gray/raku/ch-2.raku
-******* https://github.com/Util/perlweeklychallenge-club/blob/c239/challenge-239/bruce-gray/raku/ch-1.raku
-******* https://github.com/Util/perlweeklychallenge-club/blob/c239/challenge-239/bruce-gray/raku/ch-2.raku
-
-**** current
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-242
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-243
 
 **** raku conference, october 28
 ***** https://conf.raku.org/2023/schedule
