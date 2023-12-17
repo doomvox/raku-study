@@ -9,9 +9,12 @@ sub qi (*@n) {
 }
 say .WHAT for qi <1 3 0.2>;
 
+say "---";
 say .WHAT for qi <666>;
-## Type check failed in binding to parameter '@n'; expected Positional but got IntStr (IntStr.new(666, "666"))
-
+## without slurpy star, fails with just one item:
+### Type check failed in binding to parameter '@n'; expected Positional but got IntStr (IntStr.new(666, "666"))
+## with the slurpy star, works:
+# (Int)
 
 
 
