@@ -8,10 +8,14 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2023dec17
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023nov19.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023dec03.org
+
 
 
 ** topics
+
+
+
 *** dir
 **** https://new-raku.finanalyst.org/routine/dir
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec17/trial_runs_dir.raku
