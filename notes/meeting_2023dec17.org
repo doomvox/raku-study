@@ -46,13 +46,11 @@
 ***** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-244/bruce-gray/raku/ch-2.raku
 
 
-**** gnu linear programming toolkit
-***** https://www.gnu.org/software/glpk/
-***** https://en.wikipedia.org/wiki/GNU_Linear_Programming_Kit
 
 *** william michels: question about raku, behavior of match objects, etc
 **** https://unix.stackexchange.com/a/761824/227738
 **** TODO extract examples: /home/doom/End/Cave/RakuStudy/Notes/bill_matching_on_lines.sh
+
 
 *** bruce gray: js, f-sharp vs raku
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-241/
