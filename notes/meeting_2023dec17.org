@@ -15,7 +15,7 @@
 *** david 
 **** AppImage
 ***** like flatpak, snap
-***** linux only still
+***** linux-only still
 
 *** rob on quoting numbers
 **** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec17/rob_num_quotes.png
