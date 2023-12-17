@@ -46,7 +46,6 @@ say .WHAT for qi <1 3 0.2>;
 **** bruce gray running for perl foundation board
 ***** only other board members vote
 ***** can make comments in support at pfb
-
 ****** https://news.perlfoundation.org/post/ruthboardqapp
 ****** https://news.perlfoundation.org/post/bruceboardapp
 
