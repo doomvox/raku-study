@@ -14,6 +14,9 @@
 
 *** rob on quoting numbers
 
+
+** old topics from previous meetings
+
 *** dir
 **** https://new-raku.finanalyst.org/routine/dir
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec17/trial_runs_dir.raku
@@ -43,9 +46,6 @@
 **** gnu linear programming toolkit
 ***** https://www.gnu.org/software/glpk/
 ***** https://en.wikipedia.org/wiki/GNU_Linear_Programming_Kit
-
-
-** old topics from previous meetings
 
 *** william michels: question about raku, behavior of match objects, etc
 **** https://unix.stackexchange.com/a/761824/227738
@@ -79,7 +79,6 @@ https://gfldex.wordpress.com/2023/10/24/incomplete-ranges/
 
 ** announcements 
 *** next meetings
-**** Sunday December  17, 2023
 **** Sunday December  31, 2023
 **** Sunday January   21, 2024
 
