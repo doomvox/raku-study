@@ -49,6 +49,11 @@ say .WHAT for qi <1 3 0.2>;
 ****** https://news.perlfoundation.org/post/ruthboardqapp
 ****** https://news.perlfoundation.org/post/bruceboardapp
 
+*** raku's srand features only semi-functional
+**** can't use it to get a reproducible sequence out of .pick and friends
+***** https://stackoverflow.com/questions/73994411/shouldnt-the-same-srand-value-produce-the-same-random-numbers
+***** https://github.com/rakudo/rakudo/issues/5074
+
 ** old topics from previous meetings
 
 *** issue with multiple triple dots
