@@ -12,6 +12,8 @@
 
 ** topics
 
+*** rob on quoting numbers
+
 *** dir
 **** https://new-raku.finanalyst.org/routine/dir
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec17/trial_runs_dir.raku
