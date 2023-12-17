@@ -12,6 +12,8 @@ say .WHAT for qi <1 3 0.2>;
 # say .WHAT for qi <666>;
 ## Type check failed in binding to parameter '@n'; expected Positional but got IntStr (IntStr.new(666, "666"))
 
+say .WHAT for qi <6 6 6>;
+
 
 # ====
 #  sheet of cheats
