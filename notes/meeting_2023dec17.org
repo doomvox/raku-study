@@ -14,7 +14,7 @@
 
 *** david 
 **** AppImage
-***** flatpak, snap
+***** like flatpak, snap
 ***** linux only still
 
 *** rob on quoting numbers
