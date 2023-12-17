@@ -18,7 +18,9 @@
 **** https://www.nntp.perl.org/group/perl.perl6.users/2023/12/msg11072.html
 
 *** perl weekly challenge
-https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-227
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-247/
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-247
+
 
 
 ** old topics from previous meetings
