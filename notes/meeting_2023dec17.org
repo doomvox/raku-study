@@ -26,6 +26,9 @@
 **** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-246
 ***** rob: 246 part 2: linear recurrence
 
+**** simple script in process, needs improvement
+/home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
+
 
 ** old topics from previous meetings
 
