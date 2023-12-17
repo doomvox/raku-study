@@ -23,9 +23,8 @@
 
 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-246/
-
-***** rob: 246 part 2 ?
 **** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-246
+***** rob: 246 part 2 ?
 
 ** old topics from previous meetings
 *** dir
