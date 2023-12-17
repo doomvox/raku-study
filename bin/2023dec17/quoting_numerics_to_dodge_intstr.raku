@@ -9,7 +9,7 @@ sub qi (@n) {
 }
 say .WHAT for qi <1 3 0.2>;
 
-
+say .WHAT for qi <666>;
 
 
 
