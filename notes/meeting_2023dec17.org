@@ -16,13 +16,14 @@
 **** bruce points out you can get away from IntStr like so:
 ***** my @ints = +«<1 3 5 7 0.2>;
 ***** my @ints = <1 3 5 7 0.2>».Numeric;
+
 #+BEGIN_SRC raku
 sub qi (@n) { @n.map(+*) }
 say .WHAT for qi <1 3 0.2>;
-(Int)
-(Int)
-(Rat)
-#+END_SRC raku
+# (Int)
+# (Int)
+# (Rat)
+#+END_SRC
 
 *** toddandmargo question about regexs on p6u
 **** https://www.nntp.perl.org/group/perl.perl6.users/2023/12/msg11072.html
