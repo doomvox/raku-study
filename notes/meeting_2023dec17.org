@@ -34,8 +34,6 @@
 **** See: https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023sep10.org
 ***** local: /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2023sep10.org
 
-*** https://github.com/Raku/problem-solving/issues/404
-**** allomorph considered interface judge: librasteve, Steve Roe 
 
 *** perl5 porters: should corinna methods default to private?
 **** https://www.nntp.perl.org/group/perl.perl5.porters/2023/12/msg267436.html
