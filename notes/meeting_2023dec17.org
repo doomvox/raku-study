@@ -21,7 +21,6 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-247/
 **** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-247
 
-
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-246/
 **** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-246
 ***** rob: 246 part 2: linear recurrence
