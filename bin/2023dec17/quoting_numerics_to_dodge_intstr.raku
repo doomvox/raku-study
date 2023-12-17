@@ -4,7 +4,9 @@
 
 use v6;
 
-sub qi (@n) { @n.map(+*) }
+sub qi (@n) {
+    @n.map(+*)
+}
 say .WHAT for qi <1 3 0.2>;
 
 
