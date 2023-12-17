@@ -8,6 +8,9 @@ sub qi (*@n) {
     @n.map(+*)
 }
 say .WHAT for qi <1 3 0.2>;
+# (Int)
+# (Int)
+# (Rat)
 
 say "---";
 say .WHAT for qi <666>;
