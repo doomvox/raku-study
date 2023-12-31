@@ -15,8 +15,6 @@
 *** Rob
 **** continuing work on ...
 
-*** 
-
 *** reverse
 ***** https://new-raku.finanalyst.org/routine/reverse
 ***** shell's 
