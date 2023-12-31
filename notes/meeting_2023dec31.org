@@ -16,6 +16,7 @@
 **** continuing work on allomorphs
 
 
+
 *** reverse
 ***** https://new-raku.finanalyst.org/routine/reverse
 ***** shell's 
