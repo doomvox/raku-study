@@ -32,8 +32,8 @@
 **** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-249
 
 
-**** doomvox: simple script in process... needs improvement
-***** 
+*** doomvox: simple script in process... needs improvement
+**** 
 /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
 
 
