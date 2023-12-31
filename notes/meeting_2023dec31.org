@@ -14,7 +14,8 @@
 
 *** reverse
 ***** https://new-raku.finanalyst.org/routine/reverse
-***** shell's rev?
+***** shell's 
+****** tac
 
 *** perl weekly challenge: 24N, 24M
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-24N/
