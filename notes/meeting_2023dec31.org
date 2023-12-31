@@ -33,23 +33,6 @@
 **** https://unix.stackexchange.com/a/761824/227738
 **** TODO extract examples: /home/doom/End/Cave/RakuStudy/Notes/bill_matching_on_lines.sh
 
-
-** Videos
-*** google ai vids (Alan)
-**** Chief Decision Scientist at Google Cloud, Cassie Kozyrkov 
-***** https://www.youtube.com/watch?v=EjBXZrQ7fTs
-***** https://www.youtube.com/watch?v=iLu9XyZ55oI
-
-*** raku conference, october 28, 2023
-**** https://conf.raku.org/2023/schedule
-**** videos on youtube
-
-*** joe ("erlang") armstrong, the mess we're in 
-**** https://www.youtube.com/watch?v=lKXe3HUG2l4
-
-
-
-
 ** announcements 
 *** next meetings
 **** Sunday December  31, 2023
