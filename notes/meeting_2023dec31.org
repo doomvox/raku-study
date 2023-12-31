@@ -17,6 +17,8 @@
 ***** shell's 
 ****** tac
 ******* lifo
+***** rak
+****** lizmat
 
 *** perl weekly challenge: 24N, 24M
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-24N/
