@@ -19,4 +19,4 @@ say ('a' .. 'g').rotor(2, :partial);
 
 
 
-say "gojira".rotor(3);
+say "gojira".split.rotor(3);
