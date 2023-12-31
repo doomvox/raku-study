@@ -24,24 +24,8 @@
 ***** 
 /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
 
-*** side discussion, "CAS" systems, MatLab, Maple, etc.
-**** https://en.wikipedia.org/wiki/List_of_computer_algebra_systems
 
 ** old topics from previous meetings
-
-*** issue with multiple triple dots
-**** https://github.com/Raku/problem-solving/issues/407
-**** See: https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023sep10.org
-***** local: /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2023sep10.org
-
-*** weeklychallenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-245/
-***** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-245/bruce-gray/raku/ch-1.raku
-***** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-245/bruce-gray/raku/ch-2.raku
-
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-244/
-***** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-244/bruce-gray/raku/ch-1.raku
-***** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-244/bruce-gray/raku/ch-2.raku
 
 
 
@@ -49,10 +33,6 @@
 **** https://unix.stackexchange.com/a/761824/227738
 **** TODO extract examples: /home/doom/End/Cave/RakuStudy/Notes/bill_matching_on_lines.sh
 
-
-
-*** suggestions for improving raku ranges
-https://gfldex.wordpress.com/2023/10/24/incomplete-ranges/
 
 ** Videos
 *** google ai vids (Alan)
