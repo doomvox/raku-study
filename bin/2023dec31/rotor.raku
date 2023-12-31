@@ -4,7 +4,6 @@
 
 use v6;
 
-
 say ('a' .. 'f').rotor(2);
 # ((a b) (c d) (e f))
 
