@@ -18,23 +18,11 @@
 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-24M/
 **** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-24M
-***** rob: 246 part 2: linear recurrence
+
 
 **** joe: simple script in process... needs improvement
 ***** 
 /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
-
-**** bruce gray running for perl foundation board
-***** only other board members vote
-***** can make comments in support at pfb
-****** https://news.perlfoundation.org/post/ruthboardqapp
-****** https://news.perlfoundation.org/post/bruceboardapp
-
-*** raku's srand features only semi-functional
-**** can't use it to get a reproducible sequence out of .pick and friends
-***** https://stackoverflow.com/questions/73994411/shouldnt-the-same-srand-value-produce-the-same-random-numbers
-***** https://github.com/rakudo/rakudo/issues/5074
-
 
 *** side discussion, "CAS" systems, MatLab, Maple, etc.
 **** https://en.wikipedia.org/wiki/List_of_computer_algebra_systems
