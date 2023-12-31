@@ -9,3 +9,6 @@ say ('a' .. 'f').rotor(2);
 
 say ('a' .. 'g').rotor(2);
 # ((a b) (c d) (e f))
+
+
+say ('a' .. 'g').batch(2);
