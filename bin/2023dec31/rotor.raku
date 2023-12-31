@@ -14,4 +14,4 @@ say ('a' .. 'g').rotor(2);
 say ('a' .. 'g').batch(2);
 # ((a b) (c d) (e f) (g))
 
-say ('a' .. 'g').rotor(2 :partial);
+say ('a' .. 'g').rotor(2, :partial);
