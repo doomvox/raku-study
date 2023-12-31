@@ -13,8 +13,7 @@
 ** topics
 
 *** reverse
-
-
+***** https://new-raku.finanalyst.org/routine/reverse
 
 *** perl weekly challenge: 24N, 24M
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-24N/
