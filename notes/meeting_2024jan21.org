@@ -1,0 +1,59 @@
+* meeting notes January 21, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jan21.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024jan21
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023dec17.org
+
+** topics
+
+*** Rob
+**** continuing work on allomorphs
+
+*** reverse
+***** https://new-raku.finanalyst.org/routine/reverse
+***** shell's 
+****** tac
+******* lifo
+***** rak
+****** lizmat
+****** https://github.com/lizmat/App-Rak
+
+*** perl weekly challenge: 248, 24M
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-248/
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-248
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-249/
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-249
+
+
+*** doomvox: simple script in process... needs improvement
+**** 
+/home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
+
+
+** old topics from previous meetings
+
+
+
+*** william michels: question about raku, behavior of match objects, etc
+**** https://unix.stackexchange.com/a/761824/227738
+**** TODO extract examples: /home/doom/End/Cave/RakuStudy/Notes/bill_matching_on_lines.sh
+
+** announcements 
+*** next meetings
+**** Sunday January   21, 2024 
+***** skipping the 14th: MLK's birthday is the 15th.
+
+** followup
+
+*** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
+**** e.g. https://github.com/doomvox/raku-study/commit/193650f11613b5e2e815d02d3444e86156acee01QQQQQq0qq`
+
+*** look at match objects with mixed named and positionals: hashify, listify, what wins?
+
