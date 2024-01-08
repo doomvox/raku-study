@@ -10,7 +10,7 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023dec31.org
 
-** topics
+** OLD topics
 
 *** Rob
 **** continuing work on allomorphs
