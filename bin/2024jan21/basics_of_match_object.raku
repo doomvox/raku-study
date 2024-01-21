@@ -22,5 +22,11 @@ say "$mo";
 {
     $_ = $s;
     my $str = S/roses/lilacs/;
-    say $str;
+    say $str; # lilacs are red
+}
+
+{
+    $_ = $s;
+    my $str .= subst( 'roses', 'lilacs' );
+    say $str; # lilacs are red
 }
