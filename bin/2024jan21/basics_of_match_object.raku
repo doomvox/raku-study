@@ -13,3 +13,6 @@ dd $mo;
 say "$mo";
 # roses
 
+
+
+my $mo = $s ~~ S/roses/lilacs/;
