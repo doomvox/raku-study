@@ -21,7 +21,6 @@ echo 'roses are red' | raku -pe 's/roses/lilacs/ andthen s/red/blue/'
 
 
 ## 2A and 2B don't work
-
 # 2B.  Again, using `-ne` with `S///` but `;` instead of `andthen` is apparently a mistake--you don't get what you expect:
 
 echo 'roses are red' | raku -ne 'S/roses/lilacs/;  S/red/blue/.put'
