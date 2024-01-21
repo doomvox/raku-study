@@ -32,13 +32,7 @@ say "$mo";
 }
 
 {
-    $s ~~ S/roses/lilacs/;
+    $s ~~ s/roses/lilacs/;
     my $str = $<>;
-    say $str; # (Any)
-}
-
-{
-    $s ~~ S/roses/lilacs/;
-    my $str = $/<>;
     say $str; # (Any)
 }
