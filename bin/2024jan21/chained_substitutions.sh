@@ -45,7 +45,3 @@ echo "really?" | raku -pe'.=uc;'
 # (Mu)
 echo 'roses are red' | raku -pe '.= s/roses/lilacs/'
 
-
-.=
-
-$_ = 
