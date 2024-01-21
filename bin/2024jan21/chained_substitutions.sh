@@ -19,7 +19,7 @@ echo '----'
 echo '1B:'
 echo 'roses are red' | raku -pe 's/roses/lilacs/ andthen s/red/blue/'
 # lilacs are red
-## Bruce explains the $_ is localized, and changed value evaporates before it's printed
+## Bruce explains the $_ is localized, and the changed value evaporates before it's printed
 
 # 2B.  Again, using `-ne` with `S///` but `;` instead of `andthen` is apparently a mistake--you don't get what you expect:
 echo '----'
