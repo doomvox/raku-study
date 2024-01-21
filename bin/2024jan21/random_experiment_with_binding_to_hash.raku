@@ -16,4 +16,6 @@ use v6;
 
     # Died
     #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024jan21/bruce_gray.raku line 11
+
+
 }
