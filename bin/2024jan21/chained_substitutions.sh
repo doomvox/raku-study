@@ -23,3 +23,6 @@ echo 'roses are red' | raku -pe 's/roses/lilacs/ andthen s/red/blue/'
 
 echo 'roses are red' | raku -ne 'S/roses/lilacs/;  S/red/blue/.put'
 # roses are blue
+
+
+
