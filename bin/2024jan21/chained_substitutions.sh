@@ -3,7 +3,6 @@
 
 
 ## 1A and 2A work:
-
 # 1A.  If you're using `-pe` command line flags, you use `s///` and combine statements with `;` semicolon:
 echo 'roses are red' | raku -pe 's/roses/lilacs/;  s/red/blue/'
 # lilacs are blue
