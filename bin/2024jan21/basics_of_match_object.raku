@@ -22,4 +22,5 @@ say "$mo";
 {
     $_ = $s;
     my $str = S/roses/lilacs/;
+    say $str;
 }
