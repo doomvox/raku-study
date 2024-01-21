@@ -53,3 +53,4 @@ echo "really?" | raku -pe'.=uc;'
 # Preceding context expects a term, but found infix .= instead.
 
 echo 'roses are red' | raku -pe '.=~~ S/roses/lilacs/'
+# Preceding context expects a term, but found infix .= instead.
