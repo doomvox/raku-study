@@ -17,7 +17,6 @@ lilacs are blue
 
 
 ## 1B and 2B don't work
-
 # 1B.  Using `-pe` with `s///` but `andthen` instead of `;` is apparently a mistake--you don't get what you expect:
 
 ~$ echo 'roses are red' | raku -pe 's/roses/lilacs/ andthen s/red/blue/'
