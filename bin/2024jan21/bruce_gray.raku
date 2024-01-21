@@ -20,18 +20,3 @@ use v6;
 }
 
 
-## We speculate there might be some way to use immutability to approximated this
-# freeze (deprecated)  extracts value from pair and decontainerizes
-
-
-
-{
-
-    my %h;
-    %h<a> := 42;
-    # ...
-    my ($k, $v) = "a", 43;
-#     die if %h{$k}:exists and %h{$k} != $v;   ## better if this was automated
-    %h{$k} := $v;
-
-}    
