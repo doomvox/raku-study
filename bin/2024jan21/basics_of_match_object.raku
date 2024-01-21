@@ -8,3 +8,4 @@ my $s = 'roses are red';
 my $mo = $s ~~ s/roses/lilacs/;
 
 dd $mo;
+# Match $mo = Match.new(:orig("roses are red"), :from(0), :pos(5))
