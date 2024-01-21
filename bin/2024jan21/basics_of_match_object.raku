@@ -5,3 +5,4 @@
 use v6;
 
 my $s = 'roses are red';
+my $mo = $s ~~ s/roses/lilacs/;
