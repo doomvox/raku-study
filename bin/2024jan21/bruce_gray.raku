@@ -34,5 +34,4 @@ use v6;
 #     die if %h{$k}:exists and %h{$k} != $v;   ## better if this was automated
     %h{$k} := $v;
 
-
 }    
