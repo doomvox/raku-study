@@ -31,6 +31,6 @@ echo 'roses are red' | raku -ne 'S/roses/lilacs/;  S/red/blue/.put'
 # G6
 echo '----'
 echo 'G6:'
-echo 'roses are red' | raku -pe 's/roses/lilacs/ andthen S/red/blue/'
+echo 'roses are red' | raku -pe '$_ = s/roses/lilacs/ andthen s/red/blue/'
 # lilacs are red
 
