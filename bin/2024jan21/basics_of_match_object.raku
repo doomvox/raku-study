@@ -17,3 +17,6 @@ say "$mo";
 
 my $str = ($s ~~ S/roses/lilacs/);
 say $str; # True
+
+$_ = $s;
+my $str = S/roses/lilacs/;
