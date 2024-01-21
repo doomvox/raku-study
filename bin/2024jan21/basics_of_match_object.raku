@@ -33,6 +33,6 @@ say "$mo";
 
 {
     $s ~~ s/roses/lilacs/;
-    my $str = $<>;
+    my $str = $<>;  ## Bill idea... 
     say $str; # (Any)
 }
