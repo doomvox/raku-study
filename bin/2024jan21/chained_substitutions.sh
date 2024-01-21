@@ -41,6 +41,9 @@ echo "really?" | raku -pe'.=uc;'
 # 
 ## Welcome to Rakudo™ v2023.02.
 
+## Bruce argues this is *legal* and works
+echo "really?" | raku -pe'$_ .= uc;'
+
 
 # (Mu)
 # echo 'roses are red' | raku -pe '.= s/roses/lilacs/'
