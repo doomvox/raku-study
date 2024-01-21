@@ -38,6 +38,7 @@ echo 'roses are red' | raku -pe '$_ = (s/roses/lilacs/ andthen s/red/blue/)'
 ## William Michels has seen this work, and it does:
 echo "really?" | raku -pe'.=uc;'
 # REALLY?
+# 
 ## Welcome to Rakudo™ v2023.02.
 
 
