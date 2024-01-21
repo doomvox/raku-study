@@ -1,7 +1,5 @@
 #!/bin/sh -x 
 
-
-
 ## 1A and 2A work:
 # 1A.  If you're using `-pe` command line flags, you use `s///` and combine statements with `;` semicolon:
 echo '----'
