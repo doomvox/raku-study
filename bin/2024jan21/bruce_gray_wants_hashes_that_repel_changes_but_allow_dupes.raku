@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
 # 
-# bruce_gray.raku            21 Jan 2024 
+#                                                                            21 Jan 2024 
+# 
+# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024jan21/bruce_gray_wants_hashes_that_repel_changes_but_allow_dupes.raku
 
 use v6;
 
