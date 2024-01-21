@@ -71,3 +71,12 @@ echo 'roses are red' | raku -pe '$_ ~~ s/roses/lilacs/'
 
 # echo 'roses are red' | raku -pe '$_ .= S/roses/lilacs/'
 # Missing required term after infix
+
+
+
+## Bruce Gray suggests the alternate:
+echo 'roses are red' | raku -ne '.put if s/roses/lilacs/ && s/red/blue/'
+
+## Making the point that -n is for when you want to choose which lines to print
+## -p is only useful if you know you want all lines printed.
+
