@@ -11,7 +11,7 @@ use v6;
     %h<a> := 42;
     # ...
     my ($k, $v) = "a", 43;
-    die if %h{$k}:exists and %h{$k} != $v;   ## better if this was automated
+#     die if %h{$k}:exists and %h{$k} != $v;   ## better if this was automated
     %h{$k} := $v;
 
     # Died
