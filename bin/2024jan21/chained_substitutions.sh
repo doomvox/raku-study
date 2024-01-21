@@ -33,4 +33,4 @@ echo '----'
 echo 'G6:'
 echo 'roses are red' | raku -pe '$_ = s/roses/lilacs/ andthen s/red/blue/'
 # ｢roses｣
-echo 'roses are red' | raku -pe '$_ = s/roses/lilacs/ andthen s/red/blue/'
+echo 'roses are red' | raku -pe '$_ .= s/roses/lilacs/ andthen s/red/blue/'
