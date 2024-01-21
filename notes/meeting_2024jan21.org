@@ -10,6 +10,9 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023dec31.org
 
+** topics
+*** anyone?
+
 ** OLD topics
 
 *** Rob
