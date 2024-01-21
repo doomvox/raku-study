@@ -30,3 +30,9 @@ say "$mo";
     my $str = .subst( 'roses', 'lilacs' );
     say $str; # lilacs are red
 }
+
+{
+    $s ~~ S/roses/lilacs/;
+    my $str = $<>;
+    say $str; # lilacs are red
+}
