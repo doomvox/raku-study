@@ -40,15 +40,6 @@
 **** 
 /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
 
-
-** old topics from previous meetings
-
-
-
-*** william michels: question about raku, behavior of match objects, etc
-**** https://unix.stackexchange.com/a/761824/227738
-**** TODO extract examples: /home/doom/End/Cave/RakuStudy/Notes/bill_matching_on_lines.sh
-
 ** announcements 
 *** next meetings
 **** Sunday February 4, 2024
