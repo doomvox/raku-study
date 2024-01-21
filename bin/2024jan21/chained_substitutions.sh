@@ -35,7 +35,11 @@ echo 'roses are red' | raku -pe '$_ = s/roses/lilacs/ andthen s/red/blue/'
 # ｢roses｣
 echo 'roses are red' | raku -pe '$_ = (s/roses/lilacs/ andthen s/red/blue/)'
 # (Mu)
-# echo 'roses are red' | raku -pe '.= s/roses/lilacs/'
+echo 'roses are red' | raku -pe '.= s/roses/lilacs/'
 
 echo "really?" | raku -pe'.=uc;'
 # REALLY?
+
+.=
+
+$_ = 
