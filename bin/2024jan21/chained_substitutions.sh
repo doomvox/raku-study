@@ -57,3 +57,4 @@ echo "really?" | raku -pe'.=uc;'
 
 
 echo 'roses are red' | raku -pe '$_ ~~ s/roses/lilacs/'
+# lilacs are red
