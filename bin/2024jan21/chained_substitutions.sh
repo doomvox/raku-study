@@ -43,7 +43,7 @@ echo "really?" | raku -pe'.=uc;'
 
 ## Bruce argues this is *legal* and works
 echo "really?" | raku -pe'$_ .= uc;'
-
+# REALLY?
 
 # (Mu)
 # echo 'roses are red' | raku -pe '.= s/roses/lilacs/'
