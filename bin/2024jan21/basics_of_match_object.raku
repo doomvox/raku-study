@@ -11,3 +11,5 @@ dd $mo;
 # Match $mo = Match.new(:orig("roses are red"), :from(0), :pos(5))
 
 say "$mo";
+# roses
+
