@@ -28,6 +28,8 @@ echo 'roses are red' | raku -ne 'S/roses/lilacs/;  S/red/blue/.put'
 # roses are blue
 # Fixed:
 echo 'roses are red' | raku -ne 'S/roses/lilacs/;  S/red/blue/; $_.put'
+# 
+# roses are red
 
 
 ## G6
