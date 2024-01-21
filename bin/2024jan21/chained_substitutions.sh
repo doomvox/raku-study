@@ -32,5 +32,5 @@ echo 'roses are red' | raku -ne 'S/roses/lilacs/;  S/red/blue/.put'
 echo '----'
 echo 'G6:'
 echo 'roses are red' | raku -pe '$_ = s/roses/lilacs/ andthen s/red/blue/'
-# 
+# ｢roses｣
 
