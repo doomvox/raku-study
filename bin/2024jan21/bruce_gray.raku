@@ -16,3 +16,7 @@ die if %h{$k}:exists and %h{$k} != $v;   ## better if this was automated
 
 # Died
 #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024jan21/bruce_gray.raku line 11
+
+
+## We speculate there might be some way to use immutability to approximated this
+# freeze (deprecated)  extracts value from pair and decontainerizes
