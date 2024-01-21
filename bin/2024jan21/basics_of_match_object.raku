@@ -15,4 +15,5 @@ say "$mo";
 
 
 
-my $mo = $s ~~ S/roses/lilacs/;
+my $mo2 = $s ~~ S/roses/lilacs/;
+say $mo2;
