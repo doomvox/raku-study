@@ -61,4 +61,5 @@ echo 'roses are red' | raku -pe '$_ ~~ s/roses/lilacs/'
 # echo 'roses are red' | raku -pe '$_ .= s/roses/lilacs/'
 # Missing required term after infix
 
-echo 'roses are red' | raku -pe '$_ .= S/roses/lilacs/'
+# echo 'roses are red' | raku -pe '$_ .= S/roses/lilacs/'
+# Missing required term after infix
