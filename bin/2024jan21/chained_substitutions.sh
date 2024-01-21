@@ -8,7 +8,6 @@ echo 'roses are red' | raku -pe 's/roses/lilacs/;  s/red/blue/'
 # lilacs are blue
 
 # 2A.  Conversely, if you're using `-ne` command line flags, you use `S///` and combine statements with `andthen`:
-
 echo 'roses are red' | raku -ne 'S/roses/lilacs/ andthen S/red/blue/.put'
 # lilacs are blue
 
