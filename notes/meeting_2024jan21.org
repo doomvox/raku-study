@@ -13,7 +13,7 @@
 ** topics
 *** richard hainsworth idea: raku in welsh
 *** p6u discussion, chained substitutions
-*** bruce gray has a need for a variant hash behavior
+*** bruce gray has a need for a variant hash behavior: allow dupes but reject changes
 
 *** perl weekly challenge: 248, 24M
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-250/
