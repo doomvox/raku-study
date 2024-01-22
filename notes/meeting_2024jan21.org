@@ -15,19 +15,22 @@
 *** p6u discussion
 *** bruce gray has a need for a variant hash behavior
 
+*** perl weekly challenge: 248, 24M
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-250/
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-250
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-251/
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-251
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-252/
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-252
+
+
 ** OLD topics
 
 *** Rob
 **** continuing work on allomorphs
 
-*** reverse
-***** https://new-raku.finanalyst.org/routine/reverse
-***** shell's 
-****** tac
-******* lifo
-***** rak
-****** lizmat
-****** https://github.com/lizmat/App-Rak
 
 *** perl weekly challenge: 248, 24M
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-248/
