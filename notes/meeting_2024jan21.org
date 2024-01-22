@@ -23,10 +23,12 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-251/
 **** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-251
 
+** next week
+
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-252/
 **** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-252
 
-k
+
 
 
 ** old topics
