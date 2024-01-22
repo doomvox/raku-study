@@ -12,7 +12,7 @@
 
 ** topics
 *** richard hainsworth idea: raku in welsh
-*** p6u discussion
+*** p6u discussion, chained substitutions
 *** bruce gray has a need for a variant hash behavior
 
 *** perl weekly challenge: 248, 24M
