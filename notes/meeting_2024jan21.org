@@ -11,8 +11,9 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023dec31.org
 
 ** topics
-*** anyone?
-
+*** richard hainsworth idea: raku in welsh
+*** p6u discussion
+*** bruce gray has a need for a variant hash behavior
 
 ** OLD topics
 
