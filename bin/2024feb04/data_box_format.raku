@@ -16,7 +16,7 @@ for @data -> %row {
 #    say %row<name>; # godzilla  mothera  ghidora
     @fields = %row.keys;
     for @fields -> $f {
-        %row<$f>
+        say %row<$f>, %row<$f>.chars;
 
     }
 
