@@ -32,7 +32,8 @@
 
 *** formatting rows of data as fixed width fields, ala database selects
 
-
+*** checking debian version
+**** cat /etc/debian_version
 
 ** OLD topics
 *** richard hainsworth idea: raku in welsh
