@@ -26,6 +26,8 @@
 *** Rob: what's a good file-sytem 
 **** https://superuser.com/questions/228657/which-linux-filesystem-works-best-with-ssd
 
+*** edtiorial: really technical stuff only barely matters, like "which language?"
+**** http://obsidianrook.com/doomfiles/CASE_STUDY_3.html
 
 
 ** OLD topics
