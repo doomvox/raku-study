@@ -13,11 +13,11 @@ my @data = (
 say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {name => ghidora, threat => 9}]
 
 sub foo (%row) {
-    say %row;
+    say %row;  ## prints and returns True
 }
 
 for @data -> %row {
-    say ">>>", foo(%row), "<<<";
+    say ">>>", foo(%row), "<<<";  # >>>True<<<
 
 
     say %row; # {name => ghidora, threat => 9}
