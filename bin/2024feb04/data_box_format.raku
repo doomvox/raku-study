@@ -16,6 +16,8 @@ for @data -> %row {
 
     say %row; # {name => ghidora, threat => 9}
 
+    dd %row;
+
     my @fields = %row.keys;
     # first scan, get col widths
     for @fields -> $f {
