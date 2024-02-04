@@ -16,6 +16,13 @@
 **** http://kzsu.stanford.edu/dayofnoise/2024/
 **** https://www.youtube.com/watch?v=dXwL1yLXugU
 
+*** Zoom suckage overwhelms
+**** any alternates
+
+*** Rob: what's a good file-sytem 
+
+**** https://superuser.com/questions/228657/which-linux-filesystem-works-best-with-ssd
+
 ** OLD topics
 *** richard hainsworth idea: raku in welsh
 *** p6u discussion, chained substitutions
