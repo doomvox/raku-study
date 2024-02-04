@@ -13,8 +13,10 @@ my @data = (
 say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {name => ghidora, threat => 9}]
 
 sub foo {
-    say "foo";
+    say "foosky";
     }
+
+say foo
 
 for @data -> %row {
 
