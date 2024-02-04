@@ -30,7 +30,7 @@
 **** http://obsidianrook.com/doomfiles/CASE_STUDY_3.html
 
 *** challenge: formatting rows of data as fixed width fields, ala database selects
-**** 
+
 
 *** david recommends: software project survival guide, by O'cconel 
 
