@@ -5,9 +5,14 @@
 use v6;
 
 # david christiansen asks about:
+# @result = foo @list1, @list2, @list3;
+
+sub foo ( @a, @b, @c ) {
+    say @a[0], @b[0], @c[0];
+
+ }
+
 @result = foo @list1, @list2, @list3;
-
-
 
 
 
