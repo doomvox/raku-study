@@ -14,6 +14,7 @@ say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {n
 
 sub foo (%row) {
     say %row;  ## prints and returns True
+    # So this returns True;
 }
 
 for @data -> %row {
