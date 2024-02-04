@@ -51,6 +51,15 @@
 **** the code: say "f: $f", " ", %row{$f}, "char count: ", %row{$f}.Str.chars;
 **** dropped comma: say "f: $f", " "  %row{$f}, "char count: ", %row{$f}.Str.chars;
 
+Shortened for the meeting notes:
+raku -e 'my %row = A => 1; say "abc ", %row<A>';
+    abc 1
+raku -e 'my %row = A => 1; say "abc " %row<A>'; 
+    ===SORRY!=== Error while compiling -e
+    Undeclared routine:
+        row used at line 1. Did you mean 'HOW'?
+
+
 ** OLD topics
 
 *** richard hainsworth idea: raku in welsh
