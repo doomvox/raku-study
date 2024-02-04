@@ -17,7 +17,7 @@ sub foo {
     }
 
 say foo; #  fooski
-say %foo; #  fooski
+say &foo; #  fooski
 
 
 for @data -> %row {
