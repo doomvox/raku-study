@@ -16,7 +16,9 @@ sub foo {
     say "fooski";
     }
 
-say foo;
+say foo; #  fooski
+say %foo; #  fooski
+
 
 for @data -> %row {
 
