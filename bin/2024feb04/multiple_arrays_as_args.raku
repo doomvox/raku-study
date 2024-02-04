@@ -7,12 +7,12 @@ use v6;
 # david christiansen asks about:
 # @result = foo @list1, @list2, @list3;
 
-# print the first element of each of three arrays
+# return the first element of each of three arrays
 sub foo ( @a, @b, @c ) {
-    say @a[0], @b[0], @c[0];
+    return @a[0], @b[0], @c[0];
 }
-@result = foo @list1, @list2, @list3;
-
+my @result = foo @list1, @list2, @list3;
+say @result;
 
 
 
