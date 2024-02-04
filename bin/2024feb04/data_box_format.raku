@@ -13,5 +13,5 @@ my @data = (
 say @data;  # [{godzilla => 8} {mothera => 4} {ghidora => 9}]
 
 for @data -> %row {
-    say $row<godzilla>;
+    say %row<godzilla>;
 }
