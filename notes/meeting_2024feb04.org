@@ -11,6 +11,14 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023jan21.org
 
 ** topics
+
+*** Just did KZSU's Day of Noise
+**** http://kzsu.stanford.edu/dayofnoise/2024/
+**** https://www.youtube.com/watch?v=4x9DF58L23k
+
+
+
+** OLD topics
 *** richard hainsworth idea: raku in welsh
 *** p6u discussion, chained substitutions
 *** bruce gray has a need for a variant hash behavior: allow dupes but reject changes
