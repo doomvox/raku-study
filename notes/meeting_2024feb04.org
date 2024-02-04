@@ -44,7 +44,7 @@
 *** rob question:
 **** if someone's unavailable, who's the successor; this can be done on git
 **** question: is this done with, say, Raku projects?
-**** cpan unresponsive project owners
+**** cpan has system for unresponsive project owners
 
 ** OLD topics
 *** richard hainsworth idea: raku in welsh
