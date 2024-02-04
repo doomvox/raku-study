@@ -14,11 +14,16 @@ say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {n
 
 for @data -> %row {
     my @fields = %row.keys;
+    # first scan, get col widths
     for @fields -> $f {
         say "f: $f ",  %row{$f}, " char count: ", %row{$f}.chars;
 
 
 
     }
+    # output each row, padded with spaces
 
 }
+
+
+
