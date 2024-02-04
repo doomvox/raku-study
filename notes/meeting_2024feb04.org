@@ -27,6 +27,7 @@
 **** https://superuser.com/questions/228657/which-linux-filesystem-works-best-with-ssd
 
 
+
 ** OLD topics
 *** richard hainsworth idea: raku in welsh
 *** p6u discussion, chained substitutions
