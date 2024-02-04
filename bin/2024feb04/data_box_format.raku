@@ -10,4 +10,4 @@ my @data = (
     { 'ghidora'  => 9 },
 );
 
-say @data;
+say @data;  # [{godzilla => 8} {mothera => 4} {ghidora => 9}]
