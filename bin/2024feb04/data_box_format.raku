@@ -13,7 +13,6 @@ my @data = (
 say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {name => ghidora, threat => 9}]
 
 for @data -> %row {
-#    say %row<name>; # godzilla  mothera  ghidora
     my @fields = %row.keys;
     for @fields -> $f {
         say "f: $f ",  %row{$f}, " char count: ", %row{$f}.chars;
