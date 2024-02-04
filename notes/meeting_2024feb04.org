@@ -37,6 +37,8 @@
 **** cat /etc/debian_version
 **** uname -a
 
+*** weekly challenge
+
 ** OLD topics
 *** richard hainsworth idea: raku in welsh
 *** p6u discussion, chained substitutions
