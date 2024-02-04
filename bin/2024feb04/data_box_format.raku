@@ -5,13 +5,13 @@
 use v6;
 
 my @data = (
-    { 'godzilla' => 8 },
-    { 'mothera'  => 4 },
-    { 'ghidora'  => 9 },
+    { 'name' => 'godzilla', threat => 8 },
+    { 'name' => 'mothera',  threat => 4 },
+    { 'name' => 'ghidora',  threat => 9 },
 );
 
 say @data;  # [{godzilla => 8} {mothera => 4} {ghidora => 9}]
 
 for @data -> %row {
-    say %row<godzilla>;
+    say %row<godzilla>; # 8
 }
