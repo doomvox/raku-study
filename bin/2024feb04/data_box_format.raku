@@ -19,7 +19,7 @@ for @data -> %row {
         say %row; # {name => ghidora, threat => 9}
 #        say "f: $f "  %row{$f}, " char count: ", %row{$f}.Str.chars;
         my $dollah = "okay";
-        say "item: ", %row{$f};
+        say "item: " %row{$f};
 
     }
 
