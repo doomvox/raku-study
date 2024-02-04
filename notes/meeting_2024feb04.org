@@ -47,7 +47,12 @@
 **** question: is this done with, say, Raku projects?
 **** cpan has system for unresponsive project owners
 
+*** Undeclared routine "row"?
+**** the code: say "f: $f", " ", %row{$f}, "char count: ", %row{$f}.Str.chars;
+**** dropped comma: say "f: $f", " "  %row{$f}, "char count: ", %row{$f}.Str.chars;
+
 ** OLD topics
+
 *** richard hainsworth idea: raku in welsh
 *** p6u discussion, chained substitutions
 *** bruce gray has a need for a variant hash behavior: allow dupes but reject changes
