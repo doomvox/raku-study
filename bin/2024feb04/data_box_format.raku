@@ -20,7 +20,6 @@ sub foo (%row) {
 for @data -> %row {
     say ">>>", foo(%row), "<<<";  # >>>True<<<
 
-
     say %row; # {name => ghidora, threat => 9}
 
     dd %row;
