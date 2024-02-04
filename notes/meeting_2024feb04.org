@@ -41,7 +41,9 @@
 
 *** bruce mentions someone's submitted a talk on doing a ruby vm in raku
 
-*** rob question 
+*** rob question:
+**** if someone's unavailable, who's the successor; this can be done on git
+**** question: is this done with, say, Raku projects?
 
 ** OLD topics
 *** richard hainsworth idea: raku in welsh
