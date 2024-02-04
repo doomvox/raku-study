@@ -16,6 +16,7 @@ for @data -> %row {
 #    say %row<name>; # godzilla  mothera  ghidora
     my @fields = %row.keys;
     for @fields -> $f {
+        say %row;
         say "f: $f", " ", %row<$f> , "char count: ", %row<$f>.Str.chars;
 
     }
