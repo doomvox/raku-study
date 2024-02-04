@@ -15,6 +15,9 @@ say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {n
 for @data -> %row {
 #    say %row<name>; # godzilla  mothera  ghidora
     @fields = %row.keys;
+    for @fields -> $f {
+        
 
+    }
 
 }
