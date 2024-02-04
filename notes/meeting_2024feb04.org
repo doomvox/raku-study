@@ -30,6 +30,10 @@
 **** http://obsidianrook.com/doomfiles/CASE_STUDY_3.html
 
 
+*** formatting rows of data as fixed width fields, ala database selects
+
+
+
 ** OLD topics
 *** richard hainsworth idea: raku in welsh
 *** p6u discussion, chained substitutions
