@@ -13,6 +13,9 @@ my @data = (
 say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {name => ghidora, threat => 9}]
 
 for @data -> %row {
+
+    say %row; # {name => ghidora, threat => 9}
+
     my @fields = %row.keys;
     # first scan, get col widths
     for @fields -> $f {
