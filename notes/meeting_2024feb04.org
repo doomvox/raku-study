@@ -40,6 +40,7 @@
 *** weekly challenge
 
 *** bruce mentions someone's submitted a talk on doing a ruby vm in raku
+**** https://fortee.jp/yapc-hiroshima-2024/proposal/522f01e9-7af5-4c2c-9294-6a16764ad6a6
 
 *** rob question:
 **** if someone's unavailable, who's the successor; this can be done on git
