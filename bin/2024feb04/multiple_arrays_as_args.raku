@@ -11,7 +11,6 @@ use v6;
 sub foo ( @a, @b, @c ) {
     say @a[0], @b[0], @c[0];
 }
-
 @result = foo @list1, @list2, @list3;
 
 
