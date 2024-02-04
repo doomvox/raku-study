@@ -20,6 +20,7 @@
 **** any alternates?
 **** vaddim has a solution, what was it?
 
+*** marton: edumin is dropping comma and cro
 
 *** Rob: what's a good file-sytem 
 **** https://superuser.com/questions/228657/which-linux-filesystem-works-best-with-ssd
