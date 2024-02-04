@@ -32,6 +32,8 @@
 *** challenge: formatting rows of data as fixed width fields, ala database selects
 **** 
 
+** david recommends: software project survival guide, by O'conel 
+
 *** checking debian version
 **** cat /etc/debian_version
 **** uname -a
