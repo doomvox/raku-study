@@ -17,7 +17,7 @@ for @data -> %row {
     my @fields = %row.keys;
     for @fields -> $f {
         say %row; # {name => ghidora, threat => 9}
-        say "f: $f", " ", %row{$f}, "char count: ", %row{$f}.Str.chars;
+        say "f: $f", " ", %row{$f} , "char count: ", %row{$f}.Str.chars;
 
     }
 
