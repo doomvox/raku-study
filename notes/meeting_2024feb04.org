@@ -1,14 +1,14 @@
-* meeting notes January 21, 2024
+* meeting notes February 04, 2024
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jan21.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024feb04.org
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2024jan21
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024feb04
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023dec31.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023jan21.org
 
 ** topics
 *** richard hainsworth idea: raku in welsh
