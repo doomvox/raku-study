@@ -39,6 +39,9 @@
 
 *** weekly challenge
 
+*** bruce mentions someone's submitted a talk on doing a ruby vm in raku
+
+*** rob question 
 
 ** OLD topics
 *** richard hainsworth idea: raku in welsh
