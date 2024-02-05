@@ -45,6 +45,10 @@
 *** rob: github has a feature to specify a successor if the lead becomes unavailable...
 **** Question: Is something like this done with Raku projects?
 **** note: cpan has system for unresponsive project owners
+**** raku community modules:
+***** https://raku.land/github:raku-community-modules
+***** https://raku.land/zef:raku-community-modules
+
 
 *** TODO LTA error message: 
 **** the code: say "f: $f", " ", %row{$f}, "char count: ", %row{$f}.Str.chars;
