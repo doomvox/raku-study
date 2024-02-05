@@ -31,15 +31,16 @@ for @data -> %row {  ### TODO must also include the keys/labels to size columns 
         %widths{ $f } = $w if $w > %widths{ $f }; ## bg points to max=
     }
 }
-
 say %widths; # {name => 8, threat => 1}
+
+## generating 
 my $fmt = @fields.map({ '%' ~ %widths{$_} + 2 ~ 's '  }).join('|') ~ "\n";
 say $fmt;
 
 my $header = sprintf $fmt, @fields;
 
 
-## output each row, padded with spaces
+## output each row, using the fmt
 my $output = $header;
 for @data -> %row {
     my @values = @fields.map({ %row{$_} });
