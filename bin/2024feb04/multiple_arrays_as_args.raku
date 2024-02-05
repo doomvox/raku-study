@@ -37,6 +37,7 @@ use v6;
 
 { # Accept an indefinite number of arrays, using them as individual elements
     sub foo ( **@a ) {
+        say @a[0][0];
         return @a;
     }
 
