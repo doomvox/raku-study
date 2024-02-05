@@ -16,7 +16,7 @@ say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {n
 ## further, to get field widths, must consider labels, not just data
 
 ## currently: punting on the order of the keys, using an arbitrary one.
-## really, might like an array-of-arrays structure, or alternately an array of keys
+## really, might like an array-of-arrays structure, or alternately an ordering array of keys
 
 my @fields = @data[0].keys;  # note: using just the first row to get the field names
 
