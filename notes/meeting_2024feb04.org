@@ -96,7 +96,7 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
 ** announcements 
 *** next meetings
 **** Sunday February 4, 2024
-**** Sunday February 24, 2024
+**** Sunday February 25, 2024
 **** Sunday March 10, 2024
 **** Sunday March 24, 2024
 **** Sunday April 7, 2024
