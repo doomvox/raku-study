@@ -30,7 +30,7 @@ say %widths; # {name => 8, threat => 1}
 ## output each row, padded with spaces
 for @data -> %row {
 
-    my $fmt = @fields.map({ ' %' ~ %widths{$_} + 2 ~ 's '  }).join('|') ~ "\n";
+    my $fmt = @fields.map({ '%' ~ %widths{$_} + 2 ~ 's'  }).join('|') ~ "\n";
     say $fmt;
 
     my @values = @fields.map({ %row{$_} });
