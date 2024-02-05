@@ -23,7 +23,6 @@ use v6;
 
 
 { 
- 
     sub foo ( *@a ) {
         return @a;
     }
