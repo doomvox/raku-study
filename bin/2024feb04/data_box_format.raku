@@ -29,6 +29,9 @@ say %widths; # {name => 8, threat => 1}
 my $fmt = @fields.map({ '%' ~ %widths{$_} + 2 ~ 's '  }).join('|') ~ "\n";
 say $fmt;
 
+my $header = sprintf $fmt, @fields;
+
+
 ## output each row, padded with spaces
 for @data -> %row {
     my @values = @fields.map({ %row{$_} });
