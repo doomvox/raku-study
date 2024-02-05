@@ -65,28 +65,6 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-254/
 ***** rob, bruce, mark a
 
-** OLD topics
-
-*** richard hainsworth idea: raku in welsh
-*** p6u discussion, chained substitutions
-*** bruce gray has a need for a variant hash behavior: allow dupes but reject changes
-
-*** perl weekly challenge: 248, 24M
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-250/
-**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-250
-
-
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-251/
-**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-251
-
-** next week
-
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-252/
-**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-252
-
-
-
-
 ** old topics
 
 *** doomvox: simple script in process... needs improvement
