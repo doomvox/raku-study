@@ -11,7 +11,7 @@ my @list1 = << alpha beta gamma >>;
 my @list2 = << a b c >>;
 my @list3 = << wuhn tew thuree >>;
 
-say "==="
+say "===";
 { 
     # return the first element of each of three arrays
     sub foo ( @a, @b, @c ) {
@@ -22,7 +22,7 @@ say "==="
     say @result; # [alpha a wuhn]
 }
 
-say "==="
+say "===";
 { # slurp multiple arrays into one (perlish)
     sub foo ( *@a ) {
         return @a;
