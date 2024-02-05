@@ -30,7 +30,7 @@ say %widths; # {name => 8, threat => 1}
 for @data -> %row {
     my @fields = %row.keys;
 
-    my $fmt = @fields.map{ '! %' ~ %widths{$_} + 2 ~ 's; !'  };
+    my $fmt = @fields.map{ '! %' ~ %widths{$_} + 2 ~ 's !'  };
 
     for @fields -> $f {
 
