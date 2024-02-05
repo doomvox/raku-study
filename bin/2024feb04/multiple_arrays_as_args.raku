@@ -33,3 +33,17 @@ use v6;
     my @result = foo @list1, @list2, @list3;
     say @result; # [alpha beta gamma a b c wuhn tew thuree]
 }
+
+
+{ # 
+    sub foo ( **@a ) {
+        return @a;
+    }
+
+    my @list1 = << alpha beta gamma >>;
+    my @list2 = << a b c >>;
+    my @list3 = << wuhn tew thuree >>;
+
+    my @result = foo @list1, @list2, @list3;
+    say @result; # [alpha beta gamma a b c wuhn tew thuree]
+}
