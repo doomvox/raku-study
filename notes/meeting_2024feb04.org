@@ -63,8 +63,10 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
         row used at line 1. Did you mean 'HOW'?
 
 *** long discussion of argument passing, raku vs perl
-**** 
-/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024feb04/subs_and_at_under.raku
+**** @_ is available in raku, as with perl
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024feb04/subs_and_at_under.raku
+****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024feb04/subs_and_at_under.raku
+
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-254/
