@@ -13,6 +13,7 @@ use v6;
     action(1,2);  # [1 2]
 }
 
+say "===";
 ## you can do this
 {
     sub foo {
