@@ -11,6 +11,7 @@ my @list1 = << alpha beta gamma >>;
 my @list2 = << a b c >>;
 my @list3 = << wuhn tew thuree >>;
 
+say "==="
 { 
     # return the first element of each of three arrays
     sub foo ( @a, @b, @c ) {
@@ -21,6 +22,7 @@ my @list3 = << wuhn tew thuree >>;
     say @result; # [alpha a wuhn]
 }
 
+say "==="
 { # slurp multiple arrays into one (perlish)
     sub foo ( *@a ) {
         return @a;
@@ -31,6 +33,7 @@ my @list3 = << wuhn tew thuree >>;
 }
 
 
+say "==="
 { # Accept an indefinite number of arrays, using them as individual elements
     sub foo ( **@a ) {
         say @a[0][0]; # alpha, the first element of the first array
