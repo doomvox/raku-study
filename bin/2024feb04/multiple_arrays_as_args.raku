@@ -22,7 +22,8 @@ use v6;
 }
 
 
-{ 
+
+{ # slurp multiple arrays into one
     sub foo ( *@a ) {
         return @a;
     }
