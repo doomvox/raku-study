@@ -17,7 +17,7 @@ my @list2 = << a b c >>;
 my @list3 = << wuhn tew thuree >>;
 
 my @result = foo @list1, @list2, @list3;
-say @result;
+say @result; # [alpha a wuhn]
 
 
 
