@@ -24,7 +24,7 @@
 *** Marton: edument is dropping comma and cro
 **** going to be opensouce, sans company backing
 
-*** Rob: what's a good file-sytem 
+*** Rob: what's a good file-system for SSDs 
 **** https://superuser.com/questions/228657/which-linux-filesystem-works-best-with-ssd
 
 *** edtiorial: really technical stuff only barely matters, like "which language?"
