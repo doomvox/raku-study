@@ -26,7 +26,7 @@ for @data -> %row {
 
     ## first scan, get col widths
     my @fields = %row.keys;
-    my %widths;
+    my %widths;  ## Q: initialize to zero?
     for @fields -> $f {
         say "f: $f ",  %row{$f}, " char count: ", %row{$f}.chars;
 
