@@ -22,6 +22,7 @@ use v6;
     foo( 5, 7 );
 }
 
+say "---";
 ## but we almost always would do this:
 {
     sub foo ($x, $y) {
