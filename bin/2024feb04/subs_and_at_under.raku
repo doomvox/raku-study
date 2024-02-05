@@ -4,9 +4,19 @@
 
 use v6;
 
+
 ## in Raku you *can* pass a list to @_
-sub action {
-    say @_;
+{
+    sub action {
+        say @_;
     }
 
-action(1,2);  # [1 2]
+    action(1,2);  # [1 2]
+}
+
+## you 
+
+	sub foo {
+	    my ($x, $y) = @_;
+	    ...
+	}
