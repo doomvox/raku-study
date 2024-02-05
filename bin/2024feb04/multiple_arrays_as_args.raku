@@ -33,7 +33,7 @@ say "===";
 }
 
 
-say "==="
+say "===";
 { # Accept an indefinite number of arrays, using them as individual elements
     sub foo ( **@a ) {
         say @a[0][0]; # alpha, the first element of the first array
