@@ -12,7 +12,6 @@ my @data = (
 
 say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {name => ghidora, threat => 9}]
 
-
 ## first scan, get col widths
 my %widths;  ## Q: initialize to zero?
 for @data -> %row {
