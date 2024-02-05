@@ -39,7 +39,7 @@ for @data -> %row {
 
     $output ~= sprintf $fmt, @values;
 }
-
+say $output;
 
 
 # 18:30:19 From Bruce Gray To Everyone:
