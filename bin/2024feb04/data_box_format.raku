@@ -21,7 +21,6 @@ sub foo (%hashvar) {
 my %widths;  ## Q: initialize to zero?
 for @data -> %row {
     say ">>>", foo(%row), "<<<";  # >>>True<<<
-
     my @fields = %row.keys;
     for @fields -> $f {
         say "f: $f ",  %row{$f}, " char count: ", %row{$f}.chars;
