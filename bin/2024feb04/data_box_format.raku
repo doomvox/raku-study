@@ -26,13 +26,12 @@ for @data -> %row {
 }
 
 say %widths; # {name => 8, threat => 1}
+my $fmt = @fields.map({ '%' ~ %widths{$_} + 2 ~ 's '  }).join('|') ~ "\n";
+say $fmt;
+
 
 ## output each row, padded with spaces
 for @data -> %row {
-
-    my $fmt = @fields.map({ '%' ~ %widths{$_} + 2 ~ 's '  }).join('|') ~ "\n";
-    say $fmt;
-
     my @values = @fields.map({ %row{$_} });
 
     printf $fmt, @values;
