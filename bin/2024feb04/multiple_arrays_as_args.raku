@@ -34,5 +34,4 @@ use v6;
 
     my @result = foo @list1, @list2, @list3;
     say @result; # [alpha beta gamma a b c wuhn tew thuree]
-
 }
