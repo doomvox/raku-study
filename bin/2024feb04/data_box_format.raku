@@ -15,6 +15,9 @@ say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {n
 ## need a map to transform keys to label strings
 ## further, to get field widths, must consider labels, not just data
 
+## currently: punting on the order of the keys, using an arbitrary one.
+## really, might like an array-of-arrays structure
+
 my @fields = @data[0].keys;  # note: using just the first row to get the field names
 
 ## first scan, get col widths
