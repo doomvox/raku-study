@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 # 
-# subs_and_at_under.raku            04 Feb 2024 
+# subs_and_passing_to_generic_array_at_underscore.raku            04 Feb 2024 
 
 use v6;
 
