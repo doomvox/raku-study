@@ -33,7 +33,7 @@ my $header = sprintf $fmt, @fields;
 
 
 ## output each row, padded with spaces
-my $output;
+my $output = $header;
 for @data -> %row {
     my @values = @fields.map({ %row{$_} });
 
