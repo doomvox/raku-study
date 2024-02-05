@@ -17,6 +17,7 @@ sub foo (%hashvar) {
     # So this returns True;
 }
 
+## first scan, get col widths
 for @data -> %row {
     say ">>>", foo(%row), "<<<";  # >>>True<<<
 
@@ -24,18 +25,16 @@ for @data -> %row {
 
     dd %row;
 
-    ## first scan, get col widths
+
     my @fields = %row.keys;
-    my %widths;  ## Q: initialize to zero?
     for @fields -> $f {
         say "f: $f ",  %row{$f}, " char count: ", %row{$f}.chars;
 
         # save width for field if greater than previously saved one
 
     }
-    # output each row, padded with spaces
 
 }
-
+## output each row, padded with spaces
 
 
