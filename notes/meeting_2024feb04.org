@@ -68,6 +68,7 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
 **** three ways a routine could handle a series of arrays as arguments
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2024feb04/multiple_arrays_as_args.raku
 
+
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-254/
 ***** rob, bruce, mark a
