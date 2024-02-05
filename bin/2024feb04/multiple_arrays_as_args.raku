@@ -21,7 +21,7 @@ use v6;
     say @result; # [alpha a wuhn]
 }
 
-{ # slurp multiple arrays into one
+{ # slurp multiple arrays into one (perlish)
     sub foo ( *@a ) {
         return @a;
     }
