@@ -30,7 +30,7 @@ for @data -> %row {
     for @fields -> $f {
         say "f: $f ",  %row{$f}, " char count: ", %row{$f}.chars;
 
-
+        # save width for field if greater than previously saved one
 
     }
     # output each row, padded with spaces
