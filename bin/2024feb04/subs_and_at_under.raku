@@ -21,3 +21,11 @@ use v6;
     }
     foo( 5, 7 );
 }
+
+## but we almost always would do this:
+{
+    sub foo ($x, $y) {
+	say "x: $x, y: $y";
+    }
+    foo( 5, 7 );
+}
