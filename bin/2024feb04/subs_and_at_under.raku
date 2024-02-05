@@ -18,9 +18,9 @@ say "===";
 {
     sub foo {
 	my ($x, $y) = @_;
-	say "x: $x, y: $y";
+	say "x: $x, y: $y";  
     }
-    foo( 5, 7 );
+    foo( 5, 7 );   # x: 5, y: 7
 }
 
 say "---";
@@ -29,5 +29,5 @@ say "---";
     sub foo ($x, $y) {
 	say "x: $x, y: $y";
     }
-    foo( 5, 7 );
+    foo( 5, 7 );  # x: 5, y: 7
 }
