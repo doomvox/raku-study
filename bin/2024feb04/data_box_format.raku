@@ -31,6 +31,7 @@ for @data -> %row {
     my @fields = %row.keys;
 
     my $fmt = @fields.map{ ' %' ~ %widths{$_} + 2 ~ 's '  }.join('|');
+    say $fmt;
 
     for @fields -> $f {
 
