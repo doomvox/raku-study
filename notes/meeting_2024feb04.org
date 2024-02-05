@@ -63,6 +63,7 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-254/
+***** rob, bruce, mark a
 
 ** OLD topics
 
