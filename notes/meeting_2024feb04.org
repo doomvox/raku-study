@@ -64,6 +64,7 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
 
 *** long discussion of argument passing, raku vs perl
 **** 
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024feb04/subs_and_at_under.raku
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-254/
