@@ -34,3 +34,10 @@ for @data -> %row {
 ## output each row, padded with spaces
 
 
+
+
+# 18:30:19 From Bruce Gray To Everyone:
+# 	my %max_size;
+# 	for @data -> %record {
+# 	    %max_size{.key} max= .value.chars for %record;
+# 	}
