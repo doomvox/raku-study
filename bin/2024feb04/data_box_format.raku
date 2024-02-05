@@ -15,18 +15,19 @@ say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {n
 ## first scan, get col widths
 my %widths;  ## Q: initialize to zero?
 for @data -> %row {
-
     my @fields = %row.keys;
     for @fields -> $f {
         say "f: $f ",  %row{$f}, " char count: ", %row{$f}.chars;
         # save width for field if greater than previously saved one
         my $w = %row{ $f }.chars;
-        %widths{ $f } = $w if $w > %widths{ $f };
+        %widths{ $f } = $w if $w > %widths{ $f }; ## bg points to max=
     }
 
 }
 ## output each row, padded with spaces
+for @data -> %row {
 
+}
 
 
 
