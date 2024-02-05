@@ -38,8 +38,6 @@
 **** cat /etc/debian_version
 **** uname -a
 
-*** weekly challenge
-
 *** bruce: someone's submitted a talk on doing a ruby vm in raku
 **** https://fortee.jp/yapc-hiroshima-2024/proposal/522f01e9-7af5-4c2c-9294-6a16764ad6a6
 
