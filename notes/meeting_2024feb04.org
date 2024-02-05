@@ -66,6 +66,7 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
 **** @_ is available in raku, as with perl
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2024feb04/subs_and_at_under.raku
 
+
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-254/
 ***** rob, bruce, mark a
