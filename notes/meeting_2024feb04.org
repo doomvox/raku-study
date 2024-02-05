@@ -43,7 +43,7 @@
 **** https://fortee.jp/yapc-hiroshima-2024/proposal/522f01e9-7af5-4c2c-9294-6a16764ad6a6
 
 *** rob question: github has a feature to specify a successor if the lead becomes unavailable...
-**** question: is this done with, say, Raku projects?
+**** question: is something like this done with Raku projects?
 **** cpan has system for unresponsive project owners
 
 *** TODO LTA error message: 
