@@ -27,6 +27,8 @@ for @data -> %row {
         say "f: $f ",  %row{$f}, " char count: ", %row{$f}.chars;
 
         # save width for field if greater than previously saved one
+        my $w = %row{ $f }.chars;
+        %widths{ $f } = $w if $w > %widths{ $f };
 
     }
 
