@@ -32,7 +32,7 @@
 
 *** today's challenge: formatting rows of data as fixed width fields, ala database selects
 
-*** David Christensen recommends: "Software Project Survival Guide", by O'cconel 
+*** David Christensen recommends: "Software Project Survival Guide", by Occonel 
 
 *** checking debian version
 **** cat /etc/debian_version
