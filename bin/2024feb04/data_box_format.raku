@@ -24,6 +24,8 @@ for @data -> %row {
     }
 }
 
+say %widths;
+
 ## output each row, padded with spaces
 for @data -> %row {
 
