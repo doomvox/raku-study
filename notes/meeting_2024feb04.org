@@ -27,7 +27,7 @@
 *** Rob: what's a good file-system for SSDs 
 **** https://superuser.com/questions/228657/which-linux-filesystem-works-best-with-ssd
 
-*** Edtiorial: the great technical issues that are hotly debate often don't matter that much, e.g. "which language?"
+*** Edtiorial: the great hotly debated technical issues often don't matter that much, e.g. "which language?"
 **** http://obsidianrook.com/doomfiles/CASE_STUDY_3.html
 
 *** today's challenge: formatting rows of data as fixed width fields, ala database selects
