@@ -17,6 +17,7 @@ say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {n
 
 ## currently: punting on the order of the keys, using an arbitrary one.
 ## really, might like an array-of-arrays structure, or alternately an ordering array of keys
+## the "data frame" problem remains
 
 my @fields = @data[0].keys;  # note: using just the first row to get the field names
 
