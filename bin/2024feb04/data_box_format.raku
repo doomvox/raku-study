@@ -33,7 +33,7 @@ for @data -> %row {
     my $fmt = @fields.map({ ' %' ~ %widths{$_} + 2 ~ 's '  }).join('|');
     say $fmt;
 
-    my @values = @fields.map({ %row{$_} })
+    my @values = @fields.map({ %row{$_} });
 
     printf $fmt, @values;
 }
