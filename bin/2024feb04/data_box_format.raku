@@ -23,6 +23,7 @@ for @data -> %row {
         %widths{ $f } = $w if $w > %widths{ $f }; ## bg points to max=
     }
 }
+
 ## output each row, padded with spaces
 for @data -> %row {
 
