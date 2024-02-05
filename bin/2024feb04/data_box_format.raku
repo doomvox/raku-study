@@ -28,7 +28,6 @@ say %widths; # {name => 8, threat => 1}
 
 ## output each row, padded with spaces
 for @data -> %row {
-    my @fields = %row.keys;  # note: *this* @fields is not guaranteed to have the same order
 
     my $fmt = @fields.map({ ' %' ~ %widths{$_} + 2 ~ 's '  }).join('|') ~ "\n";
     say $fmt;
