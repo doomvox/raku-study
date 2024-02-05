@@ -10,8 +10,3 @@ sub action {
     }
 
 action(1,2);  # [1 2]
-
-
-
-
-
