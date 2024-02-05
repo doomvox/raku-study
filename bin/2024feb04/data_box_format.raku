@@ -9,8 +9,11 @@ my @data = (
     { 'name' => 'mothera',  threat => 4 },
     { 'name' => 'ghidora',  threat => 9 },
 );
-
 say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {name => ghidora, threat => 9}]
+
+## TODO to start with, can use keys as column labels, but that's just the default
+## need a map to transform keys to label strings
+## further, to get field widths, must consider labels, not just data
 
 my @fields = @data[0].keys;  # note: using just the first row to get the field names
 
