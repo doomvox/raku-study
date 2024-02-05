@@ -17,7 +17,6 @@ my @fields = @data[0].keys;  # note: using just the first row to get the field n
 ## first scan, get col widths
 my %widths;  ## Q: initialize to zero?
 for @data -> %row {
-    my @fields = %row.keys;
     for @fields -> $f {
         say "f: $f ",  %row{$f}, " char count: ", %row{$f}.chars;
         # save width for field if greater than previously saved one
