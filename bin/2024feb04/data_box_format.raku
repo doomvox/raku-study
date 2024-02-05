@@ -18,7 +18,7 @@ sub foo (%hashvar) {
 }
 
 ## first scan, get col widths
-    my %widths;  ## Q: initialize to zero?
+my %widths;  ## Q: initialize to zero?
 for @data -> %row {
     say ">>>", foo(%row), "<<<";  # >>>True<<<
 
