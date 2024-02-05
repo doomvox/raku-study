@@ -25,7 +25,7 @@ use v6;
 { 
  
     sub foo ( *@a ) {
-        return @a[0], @b[0], @c[0];
+        return @a;
     }
 
     my @list1 = << alpha beta gamma >>;
