@@ -36,7 +36,6 @@ for @data -> %row {
     my @values = @fields.map({ %row{$_} })
 
     for @fields -> $f {
-
         printf $fmt, @values;
     }
 }
