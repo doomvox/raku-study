@@ -59,6 +59,7 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
         row used at line 1. Did you mean 'HOW'?
 
 *** long discussion of argument passing, raku vs perl
+**** 
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-254/
