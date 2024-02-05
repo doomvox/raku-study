@@ -37,8 +37,7 @@ for @data -> %row {
 
     for @fields -> $f {
 
-
-
+        printf $fmt, @values;
     }
 }
 
