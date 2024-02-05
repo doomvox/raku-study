@@ -10,7 +10,6 @@ use v6;
     sub action {
         say @_;
     }
-
     action(1,2);  # [1 2]
 }
 
