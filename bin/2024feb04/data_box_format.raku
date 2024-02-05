@@ -33,12 +33,11 @@ for @data -> %row {  ### TODO must also include the keys/labels to size columns 
 }
 say %widths; # {name => 8, threat => 1}
 
-## generating 
+## generating the sprintf format
 my $fmt = @fields.map({ '%' ~ %widths{$_} + 2 ~ 's '  }).join('|') ~ "\n";
 say $fmt;
 
 my $header = sprintf $fmt, @fields;
-
 
 ## output each row, using the fmt
 my $output = $header;
