@@ -47,7 +47,7 @@
 **** question: is this done with, say, Raku projects?
 **** cpan has system for unresponsive project owners
 
-*** TODO LTA error message: Undeclared routine "row"? 
+*** TODO LTA error message: 
 **** the code: say "f: $f", " ", %row{$f}, "char count: ", %row{$f}.Str.chars;
 **** dropped comma: say "f: $f", " "  %row{$f}, "char count: ", %row{$f}.Str.chars;
 
