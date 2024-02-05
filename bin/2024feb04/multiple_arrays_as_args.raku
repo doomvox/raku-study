@@ -7,15 +7,15 @@ use v6;
 # david christiansen asks about:
 # @result = foo @list1, @list2, @list3;
 
+my @list1 = << alpha beta gamma >>;
+my @list2 = << a b c >>;
+my @list3 = << wuhn tew thuree >>;
+
 { 
     # return the first element of each of three arrays
     sub foo ( @a, @b, @c ) {
         return @a[0], @b[0], @c[0];
     }
-
-    my @list1 = << alpha beta gamma >>;
-    my @list2 = << a b c >>;
-    my @list3 = << wuhn tew thuree >>;
 
     my @result = foo @list1, @list2, @list3;
     say @result; # [alpha a wuhn]
