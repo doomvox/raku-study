@@ -24,8 +24,8 @@ for @data -> %row {
 
     dd %row;
 
-    my @fields = %row.keys;
     ## first scan, get col widths
+    my @fields = %row.keys;
     my %widths;
     for @fields -> $f {
         say "f: $f ",  %row{$f}, " char count: ", %row{$f}.chars;
