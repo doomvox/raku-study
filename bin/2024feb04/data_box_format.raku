@@ -24,7 +24,7 @@ for @data -> %row {
     }
 }
 
-say %widths;
+say %widths; # {name => 8, threat => 1}
 
 ## output each row, padded with spaces
 for @data -> %row {
