@@ -13,9 +13,11 @@ use v6;
     action(1,2);  # [1 2]
 }
 
-## you 
-
-	sub foo {
-	    my ($x, $y) = @_;
-	    ...
-	}
+## you can do this
+{
+    sub foo {
+	my ($x, $y) = @_;
+	say "x: $x, y: $y";
+    }
+    foo( 5, 7 );
+}
