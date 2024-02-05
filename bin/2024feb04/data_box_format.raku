@@ -19,7 +19,7 @@ say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {n
 ## really, might like an array-of-arrays structure, or alternately an ordering array of keys
 ## the "data frame" problem remains
 
-my @fields = @data[0].keys;  # note: using just the first row to get the field names
+my @fields = @data[0].keys;  # note: using just the first row to get the field names, and *not* sorting
 
 ## first scan, get col widths
 my %widths;  ## Q: initialize to zero?
