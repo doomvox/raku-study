@@ -22,11 +22,6 @@ my %widths;  ## Q: initialize to zero?
 for @data -> %row {
     say ">>>", foo(%row), "<<<";  # >>>True<<<
 
-    say %row; # {name => ghidora, threat => 9}
-
-    dd %row;
-
-
     my @fields = %row.keys;
     for @fields -> $f {
         say "f: $f ",  %row{$f}, " char count: ", %row{$f}.chars;
