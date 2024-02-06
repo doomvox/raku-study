@@ -40,7 +40,8 @@ say $fmt;
 # my $header = sprintf $fmt, @fields;
 
 ## output each row, using the fmt
-my $output = $header;
+# my $output = $header;
+my $output'
 for @data -> %row {
     my @values = @fields.map({ %row{$_} });
 
