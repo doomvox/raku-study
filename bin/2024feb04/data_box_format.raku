@@ -41,7 +41,7 @@ say $fmt;
 
 ## output each row, using the fmt
 # my $output = $header;
-my $output'
+my $output;
 for @data -> %row {
     my @values = @fields.map({ %row{$_} });
 
