@@ -22,6 +22,8 @@ say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {n
 my @fields = @data[0].keys;  # note: using just the first row to get the field names, and *not* sorting
 my @labels = @fields;
 
+my @hrow = @fields.map{ $_ => $_  };
+
 ## first scan, get col widths
 my %widths;  ## Q: initialize to zero?
 for  @data -> %row {  ### TODO must also include the keys/labels to size columns for labels
