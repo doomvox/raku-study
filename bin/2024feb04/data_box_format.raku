@@ -20,6 +20,7 @@ say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {n
 ## the "data frame" problem remains
 
 my @fields = @data[0].keys;  # note: using just the first row to get the field names, and *not* sorting
+my @labels = @fields;
 
 ## first scan, get col widths
 my %widths;  ## Q: initialize to zero?
