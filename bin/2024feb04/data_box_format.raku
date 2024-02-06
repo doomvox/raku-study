@@ -25,7 +25,7 @@ my @fields = @data[0].keys;  # note: using just the first row to get the field n
 my %widths;  ## Q: initialize to zero?
 for @data -> %row {  ### TODO must also include the keys/labels to size columns for labels
     for @fields -> $f {
-        say "f: $f ",  %row{$f}, " char count: ", %row{$f}.chars;
+        say "f: $f; ",  %row{$f}, " char count: ", %row{$f}.chars;
         # save width for field if greater than previously saved one
         my $w = %row{ $f }.chars;
         %widths{ $f } = $w if $w > %widths{ $f }; ## bg points to max=
