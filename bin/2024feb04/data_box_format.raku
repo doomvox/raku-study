@@ -23,7 +23,7 @@ my @fields = @data[0].keys;  # note: using just the first row to get the field n
 
 ## first scan, get col widths
 my %widths;  ## Q: initialize to zero?
-for  (@hrow, @data) -> %row {  ### TODO must also include the keys/labels to size columns for labels
+for  @data -> %row {  ### TODO must also include the keys/labels to size columns for labels
     for @fields -> $f {
         printf "f: %10s %10s  char count: %s  \n",  $f, %row{$f}.gist, %row{$f}.chars;
         # save width for field if greater than previously saved one
