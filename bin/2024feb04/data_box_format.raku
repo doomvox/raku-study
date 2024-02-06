@@ -14,10 +14,6 @@ my @data = (
 );
 say @data;  # [{name => godzilla, threat => 8} {name => mothera, threat => 4} {name => ghidora, threat => 9}]
 
-## TODO to start with, can use keys as column labels, but that's just the default
-## need a map to transform keys to label strings
-## further, to get field widths, must consider labels, not just data
-
 ## currently: punting on the order of the keys, using an arbitrary one.
 ## really, might like an array-of-arrays structure, or alternately an ordering array of keys
 ## (the "data frame" problem remains)
