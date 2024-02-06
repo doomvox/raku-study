@@ -37,7 +37,7 @@ my $fmt = @fields.map({ '%' ~ %widths{$_} + 2 ~ 's '  }).join('|') ~ "\n";
 say $fmt;
 
 
-# col labels are embedded in data for now
+## col labels are embedded in data for now
 # my $header = sprintf $fmt, @fields;
 
 ## output each row, using the fmt
