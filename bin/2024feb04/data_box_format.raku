@@ -36,7 +36,9 @@ say %widths; # {name => 8, threat => 1}
 my $fmt = @fields.map({ '%' ~ %widths{$_} + 2 ~ 's '  }).join('|') ~ "\n";
 say $fmt;
 
-my $header = sprintf $fmt, @fields;
+
+# col labels are embedded in data for now
+# my $header = sprintf $fmt, @fields;
 
 ## output each row, using the fmt
 my $output = $header;
