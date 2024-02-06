@@ -28,7 +28,7 @@ for @data -> %row {  ### TODO must also include the keys/labels to size columns 
         printf "f: %10s %10s  char count: %s  \n",  $f, %row{$f}.gist, %row{$f}.chars;
         # save width for field if greater than previously saved one
         my $w = %row{ $f }.chars;
-        %widths{ $f } = $w if $w > %widths{ $f }; ## bg points to max=
+        %widths{ $f } max= $w;
     }
 }
 say %widths; # {name => 8, threat => 1}
