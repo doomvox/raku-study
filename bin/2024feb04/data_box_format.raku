@@ -26,7 +26,7 @@ my @hrow = @fields.map{ $_ => $_  };
 
 ## first scan, get col widths
 my %widths;  ## Q: initialize to zero?
-for  @data -> %row {  ### TODO must also include the keys/labels to size columns for labels
+for  (@hrow, @data) -> %row {  ### TODO must also include the keys/labels to size columns for labels
     for @fields -> $f {
         printf "f: %10s %10s  char count: %s  \n",  $f, %row{$f}.gist, %row{$f}.chars;
         # save width for field if greater than previously saved one
