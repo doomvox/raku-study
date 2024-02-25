@@ -12,9 +12,6 @@
 
 ** topics
 
-*** Marton: edument is dropping comma and cro
-**** going to be opensouce, sans company backing
-
 *** Rob: what's a good file-system for SSDs 
 **** https://superuser.com/questions/228657/which-linux-filesystem-works-best-with-ssd
 ***** "Choose ext4, and use FITRIM (see below). Also use the noatime option if you fear 'SSD wear'."
