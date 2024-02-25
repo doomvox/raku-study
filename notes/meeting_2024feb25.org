@@ -18,8 +18,8 @@
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-254/
 
-*** doomvox: simple script in process... needs improvement
-**** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
+**** doomvox: simple script in process... needs improvement
+***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
 
 ** previous topics
 
