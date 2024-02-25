@@ -12,12 +12,9 @@
 
 ** topics
 
-*** edtiorial: the great hotly debated technical issues often don't matter that much, e.g. "which language?"
-**** http://obsidianrook.com/doomfiles/CASE_STUDY_3.html
+** previous topics
 
-*** today's challenge: formatting rows of data as fixed width fields, ala database selects
-
-*** David Christensen recommends: "Software Project Survival Guide", by Occonel 
+*** formatting rows of data as fixed width fields, ala database selects
 
 *** checking debian version
 **** cat /etc/debian_version
