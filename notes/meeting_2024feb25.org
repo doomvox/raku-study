@@ -69,7 +69,7 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
 **** Sunday June 30, 2024
 
 *** YAPC Las Vegas 
-**** calll for papers out
+**** call for papers out
 
 ** followup
 
