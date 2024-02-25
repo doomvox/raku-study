@@ -33,6 +33,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024feb25/fussy_unit_via_int
 
 *** dchrist likes xfce desktop
 *** doomvox: icewm
+*** marton: lxcute, kde
 
 ** previous topics
 
