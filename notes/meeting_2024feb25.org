@@ -17,17 +17,6 @@
 *** formatting rows of data as fixed width fields, ala database selects
 
 
-*** bruce: someone's submitted a talk on doing a ruby vm in raku
-**** https://fortee.jp/yapc-hiroshima-2024/proposal/522f01e9-7af5-4c2c-9294-6a16764ad6a6
-
-*** rob: github has a feature to specify a successor if the lead becomes unavailable...
-**** Question: Is something like this done with Raku projects?
-**** note: cpan has system for unresponsive project owners
-**** raku community modules:
-***** https://raku.land/github:raku-community-modules
-***** https://raku.land/zef:raku-community-modules
-
-
 *** TODO LTA error message: 
 **** the code: say "f: $f", " ", %row{$f}, "char count: ", %row{$f}.Str.chars;
 **** dropped comma: say "f: $f", " "  %row{$f}, "char count: ", %row{$f}.Str.chars;
