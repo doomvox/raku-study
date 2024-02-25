@@ -12,6 +12,8 @@
 
 ** topics
 
+*** toddandmargo needs to know about subsets, I think
+
 ** previous topics
 
 *** formatting rows of data as fixed width fields, ala database selects
