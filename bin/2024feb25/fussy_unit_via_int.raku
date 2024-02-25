@@ -27,7 +27,6 @@ use v6;
     say $x;
 }
 
-
 {
     my subset FussyUint16 of Int where 0 .. 2¹⁶;
     my FussyUint16 $x = 6;
