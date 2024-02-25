@@ -27,6 +27,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024feb25/fussy_unit_via_int
 **** openzfs (livermore) dominant implementation
 **** go installer hit race condition with openzfs 2.2.0, bug in freebsd 13/14
 **** patched in early december
+**** freebsd 13 includes bug, but makes hitting it unlikely
 
 ** previous topics
 
