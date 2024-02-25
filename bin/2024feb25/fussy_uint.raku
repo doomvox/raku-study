@@ -7,4 +7,6 @@ use v6;
 ## ToddAndMargo was surprised this doesn't error out
 ##   my uint16 $x = -1;
 
+say 2 ** 16;
+
 subset FussyUint16 of uint16 where 0 >= * < 2 ** 16;
