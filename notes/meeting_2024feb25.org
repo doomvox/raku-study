@@ -1,0 +1,111 @@
+* meeting notes February 25, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024feb25.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024feb25
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023feb04.org
+
+** topics
+
+*** Sorry the announcement went out late this week, I was busy with KZSU's Day of Noise:
+**** http://kzsu.stanford.edu/dayofnoise/2024/
+**** https://www.youtube.com/watch?v=dXwL1yLXugU
+***** at 6:30
+
+*** Zoom suckage overwhelms: forced me to upgrade, 20 minutes late for my own meeting
+**** any alternates?
+**** vaddim has a solution, what was it?
+
+*** Marton: edument is dropping comma and cro
+**** going to be opensouce, sans company backing
+
+*** Rob: what's a good file-system for SSDs 
+**** https://superuser.com/questions/228657/which-linux-filesystem-works-best-with-ssd
+***** "Choose ext4, and use FITRIM (see below). Also use the noatime option if you fear 'SSD wear'."
+
+*** edtiorial: the great hotly debated technical issues often don't matter that much, e.g. "which language?"
+**** http://obsidianrook.com/doomfiles/CASE_STUDY_3.html
+
+*** today's challenge: formatting rows of data as fixed width fields, ala database selects
+
+*** David Christensen recommends: "Software Project Survival Guide", by Occonel 
+
+*** checking debian version
+**** cat /etc/debian_version
+**** uname -a
+
+*** bruce: someone's submitted a talk on doing a ruby vm in raku
+**** https://fortee.jp/yapc-hiroshima-2024/proposal/522f01e9-7af5-4c2c-9294-6a16764ad6a6
+
+*** rob: github has a feature to specify a successor if the lead becomes unavailable...
+**** Question: Is something like this done with Raku projects?
+**** note: cpan has system for unresponsive project owners
+**** raku community modules:
+***** https://raku.land/github:raku-community-modules
+***** https://raku.land/zef:raku-community-modules
+
+
+*** TODO LTA error message: 
+**** the code: say "f: $f", " ", %row{$f}, "char count: ", %row{$f}.Str.chars;
+**** dropped comma: say "f: $f", " "  %row{$f}, "char count: ", %row{$f}.Str.chars;
+
+Shortened for the meeting notes:
+raku -e 'my %row = A => 1; say "abc ", %row<A>';
+    abc 1
+raku -e 'my %row = A => 1; say "abc " %row<A>'; 
+    ===SORRY!=== Error while compiling -e
+    Undeclared routine:
+        row used at line 1. Did you mean 'HOW'?
+
+*** long discussion of argument passing, raku vs perl
+**** @_ is available in raku, as with perl
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024feb04/subs_and_at_under.raku
+**** three ways a routine could handle a series of arrays as arguments
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024feb04/multiple_arrays_as_args.raku
+**** named arguments
+*****  Bruce Gray examples:
+#+BEGIN_SRC raku
+	say foo( 'A', 'B', :handed(left) );
+
+	say foo( 'A', 'B', { handed => 'left' } );
+
+	sub foo ($first, $snd, $:handed);
+
+	sub foo ($first, $snd, :$handed) {...}
+#+END_SRC
+
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-254/
+***** rob, bruce, mark a
+
+** old topics
+
+*** doomvox: simple script in process... needs improvement
+**** 
+/home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
+
+** announcements 
+*** next meetings
+**** Sunday February 25, 2024
+**** Sunday March 10, 2024
+**** Sunday March 24, 2024
+**** Sunday April 7, 2024
+**** Sunday April 21, 2024
+**** Sunday May 5, 2024
+**** Sunday May 19, 2024
+**** Sunday June 2, 2024
+**** Sunday June 16, 2024 (tenatative: this is father's day)
+**** Sunday June 30, 2024
+
+** followup
+
+*** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
+**** e.g. https://github.com/doomvox/raku-study/commit/193650f11613b5e2e815d02d3444e86156acee01QQQQQq0qq`
+
+*** look at match objects with mixed named and positionals: hashify, listify, what wins?
+
