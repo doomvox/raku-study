@@ -13,7 +13,8 @@
 ** topics
 
 *** toddandmargo needs to know about subsets, I think
-
+https://github.com/doomvox/raku-study/tree/main/bin/2024feb25/fussy_unit_via_int.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024feb25/fussy_unit_via_int.raku
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-255/
