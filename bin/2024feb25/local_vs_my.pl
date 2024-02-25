@@ -77,6 +77,16 @@ say $global;
 
 
 
+=item another_thing
+
+=cut
+
+sub another_thing {
+
+  $global++;
+
+}
+
 
 
 
