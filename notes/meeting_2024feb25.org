@@ -28,7 +28,6 @@
 **** a script in process
 ***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
 
-
 *** TODO LTA error message: 
 **** the code: say "f: $f", " ", %row{$f}, "char count: ", %row{$f}.Str.chars;
 **** dropped comma: say "f: $f", " "  %row{$f}, "char count: ", %row{$f}.Str.chars;
