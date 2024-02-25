@@ -16,7 +16,6 @@
 
 *** formatting rows of data as fixed width fields, ala database selects
 
-
 *** TODO LTA error message: 
 **** the code: say "f: $f", " ", %row{$f}, "char count: ", %row{$f}.Str.chars;
 **** dropped comma: say "f: $f", " "  %row{$f}, "char count: ", %row{$f}.Str.chars;
