@@ -57,6 +57,24 @@ GetOptions ("d|debug"    => \$DEBUG,
 
 
 
+=item do_something
+
+=cut
+
+sub do_something {
+
+}
+
+  
+
+
+
+
+
+
+
+
+
 
 
 ### end main, into the subs
