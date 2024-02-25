@@ -12,15 +12,6 @@
 
 ** topics
 
-*** Sorry the announcement went out late this week, I was busy with KZSU's Day of Noise:
-**** http://kzsu.stanford.edu/dayofnoise/2024/
-**** https://www.youtube.com/watch?v=dXwL1yLXugU
-***** at 6:30
-
-*** Zoom suckage overwhelms: forced me to upgrade, 20 minutes late for my own meeting
-**** any alternates?
-**** vaddim has a solution, what was it?
-
 *** Marton: edument is dropping comma and cro
 **** going to be opensouce, sans company backing
 
