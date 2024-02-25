@@ -66,6 +66,8 @@ sub do_something {
 
    local $global = 777;
 
+   another_thing;
+
    say $global;
 
 }
@@ -83,6 +85,7 @@ say $global;
 
 sub another_thing {
   $global++;
+  return $global;
 }
 
 
