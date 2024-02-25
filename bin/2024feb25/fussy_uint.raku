@@ -9,4 +9,4 @@ use v6;
 
 say 2 ** 16;
 
-subset FussyUint16 of uint16 where 0 >= * < 2 ** 16;
+# subset FussyUint16 of uint16 where 0 >= * < 2 ** 16;
