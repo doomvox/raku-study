@@ -14,6 +14,12 @@
 
 *** toddandmargo needs to know about subsets, I think
 
+
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-254/
+
+
+
 ** previous topics
 
 *** formatting rows of data as fixed width fields, ala database selects
@@ -30,10 +36,6 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
     Undeclared routine:
         row used at line 1. Did you mean 'HOW'?
 
-
-*** weekly challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-254/
-***** rob, bruce, mark a
 
 ** old topics
 
