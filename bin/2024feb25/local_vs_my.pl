@@ -82,9 +82,7 @@ say $global;
 =cut
 
 sub another_thing {
-
   $global++;
-
 }
 
 
