@@ -55,7 +55,7 @@ GetOptions ("d|debug"    => \$DEBUG,
 { no warnings 'once'; $DB::single = 1; }
 
 
-$global = 6;
+our $global = 6;
 
 =item do_something
 
