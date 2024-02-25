@@ -66,7 +66,7 @@ sub do_something {
 
    local $global = 777;
 
-   another_thing;
+   another_thing();
 
    say $global;
 
