@@ -7,4 +7,4 @@ use v6;
 ## ToddAndMargo was surprised this doesn't error out
 ##   my uint16 $x = -1;
 
-subset NonNegativeInt of Int where * >= 0;
+subset FussyUint16 of uint16 where * >= 0;
