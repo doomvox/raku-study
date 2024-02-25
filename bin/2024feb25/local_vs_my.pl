@@ -68,7 +68,6 @@ sub do_something {
    another_thing();
 
    say $global;
-
 }
 
   
