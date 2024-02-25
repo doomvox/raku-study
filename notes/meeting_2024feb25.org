@@ -22,6 +22,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024feb25/fussy_unit_via_int
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-256/
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-257/
 
+*** zfs factois
 
 
 ** previous topics
