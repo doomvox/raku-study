@@ -31,6 +31,8 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024feb25/fussy_unit_via_int
 **** workaround: do fresh install of os then immediately update the os
 ***** avoid native encryption
 
+*** dchrist likes xfce desktop
+
 ** previous topics
 
 *** formatting rows of data as fixed width fields, ala database selects
