@@ -29,7 +29,7 @@ use v6;
 
 
 {
-    subset FussyUInt16 of Int where 0 .. 2¹⁶;
+    my subset FussyUInt16 of Int where 0 .. 2¹⁶;
     my FussyUint16 $x = 6;
     $x = -1;
     ## Type check failed in assignment to $x; expected FussyUint16 but got Int (-1)
