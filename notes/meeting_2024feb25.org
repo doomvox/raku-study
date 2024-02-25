@@ -68,6 +68,9 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
 **** Sunday June 16, 2024 (tenatative: this is father's day)
 **** Sunday June 30, 2024
 
+*** YAPC Las Vegas 
+**** calll for papers out
+
 ** followup
 
 *** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
