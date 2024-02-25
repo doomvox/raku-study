@@ -64,7 +64,10 @@ our $global = 6;
 
 sub do_something {
 
-   $global = 7;
+   local $global = 777;
+
+   say $global;
+
 }
 
   
