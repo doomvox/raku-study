@@ -6,3 +6,4 @@ use v6;
 
 subset FussyUint16 of Int where 0 >= * < 2 ** 16;
 
+my FussyUint16 $x = 3;
