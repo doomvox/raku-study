@@ -23,7 +23,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024feb25/fussy_unit_via_int
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-257/
 
 *** zfs factoid
-**** freebsd vs 12: zfs out-of-the-box, gives it to you on root
+**** freebsd 12: zfs out-of-the-box, gives it to you on root
 
 ** previous topics
 
