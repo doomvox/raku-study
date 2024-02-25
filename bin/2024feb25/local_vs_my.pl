@@ -68,7 +68,9 @@ sub do_something {
 }
 
   
+do_something();
 
+say $global;
 
 
 
