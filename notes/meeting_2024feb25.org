@@ -37,10 +37,6 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
     Undeclared routine:
         row used at line 1. Did you mean 'HOW'?
 
-
-
-
-
 ** announcements 
 *** next meetings
 **** Sunday February 25, 2024
