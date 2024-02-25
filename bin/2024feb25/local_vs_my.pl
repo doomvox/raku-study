@@ -63,7 +63,6 @@ our $global = 6;
 =cut
 
 sub do_something {
-
    local $global = 777;
 
    another_thing();
