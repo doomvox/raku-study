@@ -23,9 +23,10 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024feb25/fussy_unit_via_int
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-257/
 
 *** zfs factoid
-**** freebsd 12: zfs out-of-the-box, gives it to you on root
+**** David was on freebsd 12: zfs out-of-the-box, gives it to you on root
 **** openzfs (livermore) dominant implementation
 **** go installer hit race condition with openzfs 2.2.0, bug in freebsd 13/14
+**** patched in early december
 
 ** previous topics
 
