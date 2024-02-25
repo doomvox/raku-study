@@ -24,6 +24,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024feb25/fussy_unit_via_int
 
 *** zfs factoid
 **** freebsd 12: zfs out-of-the-box, gives it to you on root
+**** openzfs (livermore) dominant implementation
 
 ** previous topics
 
