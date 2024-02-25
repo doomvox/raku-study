@@ -56,24 +56,24 @@ GetOptions ("d|debug"    => \$DEBUG,
 
 
 
-our $global = 6;
+our $var = 6;
 
 =item do_something
 
 =cut
 
 sub do_something {
-   local $global = 777;
+   local $var = 777;
 
    another_thing();
 
-   say $global;
+   say $var;  
 }
 
   
 do_something();
 
-say $global;
+say $var;
 
 
 
@@ -82,8 +82,8 @@ say $global;
 =cut
 
 sub another_thing {
-  $global++;
-  return $global;
+  $var++;
+  return $var;
 }
 
 
