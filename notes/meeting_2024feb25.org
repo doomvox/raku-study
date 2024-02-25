@@ -30,22 +30,6 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
     Undeclared routine:
         row used at line 1. Did you mean 'HOW'?
 
-*** long discussion of argument passing, raku vs perl
-**** @_ is available in raku, as with perl
-****** https://github.com/doomvox/raku-study/tree/main/bin/2024feb04/subs_and_at_under.raku
-**** three ways a routine could handle a series of arrays as arguments
-****** https://github.com/doomvox/raku-study/tree/main/bin/2024feb04/multiple_arrays_as_args.raku
-**** named arguments
-*****  Bruce Gray examples:
-#+BEGIN_SRC raku
-	say foo( 'A', 'B', :handed(left) );
-
-	say foo( 'A', 'B', { handed => 'left' } );
-
-	sub foo ($first, $snd, $:handed);
-
-	sub foo ($first, $snd, :$handed) {...}
-#+END_SRC
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-254/
