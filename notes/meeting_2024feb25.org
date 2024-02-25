@@ -21,12 +21,13 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-257/
 
 
-**** doomvox: simple script in process... needs improvement
-***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
 
 ** previous topics
 
 *** formatting rows of data as fixed width fields, ala database selects
+**** a script in process
+***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
+
 
 *** TODO LTA error message: 
 **** the code: say "f: $f", " ", %row{$f}, "char count: ", %row{$f}.Str.chars;
