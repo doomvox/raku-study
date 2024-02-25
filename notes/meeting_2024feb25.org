@@ -34,7 +34,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024feb25/fussy_unit_via_int
 *** linux interfaces
 **** dchrist likes xfce desktop
 **** doomvox: icewm
-**** marton: lxcute, kde
+**** marton: lxqt, kde
 ***** qt framework useb by kde
 
 ** previous topics
