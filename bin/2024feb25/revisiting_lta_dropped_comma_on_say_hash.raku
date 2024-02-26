@@ -5,15 +5,15 @@
 use v6;
 
 
-my %row = A => 1;
+my %h = A => 1;
 
 {
-    say "output: ", %row<A>;
+    say "output: ", %h<A>;
 }
 
 
 {
-    say "output: " %row<A>;
+    say "output: " %h<A>;
     # Undeclared routine:
-    #     row used at line 16. Did you mean 'HOW'?
+    #     h used at line 16. Did you mean 'HOW'?
 }
