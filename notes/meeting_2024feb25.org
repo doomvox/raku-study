@@ -61,6 +61,8 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
     Undeclared routine:
         row used at line 1. Did you mean 'HOW'?
 
+**** Opened issue: https://github.com/rakudo/rakudo/issues/5533
+
 ** announcements 
 *** next meetings
 **** Sunday March 10, 2024
