@@ -10,3 +10,5 @@ my @a = < A B C >;
 say "output: ", @a[1];
 
 say "output: " @a[1];
+
+# Two terms in a row
