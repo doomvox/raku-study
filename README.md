@@ -15,6 +15,8 @@ The upcoming meeting schedule:
   Sunday June 16, 2024 (tenatative: this is father's day)
   Sunday June 30, 2024
 
+We start at 1 pm Pacific time, and typically finish by 5pm.
+
 
 
 
