@@ -26,11 +26,7 @@ Perl and programming in general are fair game, along with Raku,
 
 For meeting announcments:
 
-If you're interested in the Raku Study Group:
-
   https://www.meetup.com/San-Francisco-Perl/
-
-Instructions on subscribing to the (low traffic) SF Perl mailing list:
 
   http://sf.pm.org/
 
