@@ -27,6 +27,8 @@ use v6;
     say $x;
 }
 
+# ToddAndMargo@zoho.com, perl6-users@perl.org
+
 {
     my subset FussyUint16 of Int where 0 ..^ 2¹⁶;
     my FussyUint16 $x = 6;
