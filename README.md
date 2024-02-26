@@ -3,6 +3,21 @@ Exploratory programming using the Raku language
 
 A place to share some code and meeting notes for the SF Perl Raku Study Group.
 
+The upcoming meeting schedule:
+
+  Sunday March 10, 2024
+  Sunday March 24, 2024
+  Sunday April 7, 2024
+  Sunday April 21, 2024
+  Sunday May 5, 2024
+  Sunday May 19, 2024
+  Sunday June 2, 2024
+  Sunday June 16, 2024 (tenatative: this is father's day)
+  Sunday June 30, 2024
+
+
+
+
 
 If you're interested in the Raku Study Group:
 
