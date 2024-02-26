@@ -30,7 +30,6 @@ For meeting announcments:
 
   http://sf.pm.org/
 
-You can also often find us at the perl6-users mailing list.
-Subscription info:
+You can also often find us at the perl6-users mailing list:
 
   https://raku.org/community/
