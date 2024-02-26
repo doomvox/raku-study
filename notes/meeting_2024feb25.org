@@ -59,6 +59,13 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
 **** Opened issue: https://github.com/rakudo/rakudo/issues/5533
 
 
+*** Alan (ParrotRaiser) informs he's going to be in an awkward timezone for several months:
+**** UTC+2, which means 7 hours from here and 10 from you.
+
+1PM  -> 11pm to 1am
+Noon -> 10pm to Mid
+
+
 ** previous topics
 
 *** formatting rows of data as fixed width fields, ala database selects
