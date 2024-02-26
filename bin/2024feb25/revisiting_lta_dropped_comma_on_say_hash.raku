@@ -13,5 +13,5 @@ my %row = A => 1;
 
 
 {
-    say "f: $f", " "  %row{$f}, "char count: ", %row{$f}.Str.chars;
+    say "output: " %row<A>;
 }
