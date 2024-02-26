@@ -43,11 +43,6 @@ https://stackoverflow.com/questions/77975192/which-perl-traps-have-not-been-fixe
 ***** qt framework useb by kde
 ***** https://lx1t-project.org
 
-** previous topics
-
-*** formatting rows of data as fixed width fields, ala database selects
-**** a script in process
-***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
 
 *** LTA error message: 
 **** the code: say "f: $f", " ", %row{$f}, "char count: ", %row{$f}.Str.chars;
@@ -62,6 +57,14 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
         row used at line 1. Did you mean 'HOW'?
 
 **** Opened issue: https://github.com/rakudo/rakudo/issues/5533
+
+
+** previous topics
+
+*** formatting rows of data as fixed width fields, ala database selects
+**** a script in process
+***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
+
 
 ** announcements 
 *** next meetings
