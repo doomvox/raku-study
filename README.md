@@ -18,8 +18,13 @@ The upcoming meeting schedule:
 We start at 1 pm Pacific time, and typically finish by 5pm.
 
 
+An informal meeting: drop by when you can, show us what you've got,
+ask and answer questions, or just listen and lurk.
+
+Perl and programming in general are fair game, along with Raku, 
 
 
+For meeting announcments:
 
 If you're interested in the Raku Study Group:
 
