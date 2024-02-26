@@ -61,7 +61,6 @@ raku -e 'my %row = A => 1; say "abc " %row<A>';
 
 *** Alan (ParrotRaiser) informs he's going to be in an awkward timezone for several months:
 **** UTC+2, which means 7 hours from here and 10 from you.
-
 ***** current meeting schedule: 1PM  -> 11pm to 1am
 ***** an hour earlier would be: Noon -> 10pm to Mid
 
