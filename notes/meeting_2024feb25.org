@@ -18,7 +18,6 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024feb25/fussy_unit_via_int
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024feb25/fussy_unit_via_int.raku
 
 *** William Michels:
-
 https://stackoverflow.com/questions/77975192/which-perl-traps-have-not-been-fixed-in-raku
 
 *** weekly challenge
