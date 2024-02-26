@@ -7,3 +7,4 @@ use v6;
 
 my @a = < A B C >;
 
+say "output: ", @a[1];
