@@ -14,4 +14,7 @@ my %row = A => 1;
 
 {
     say "output: " %row<A>;
+# Undeclared routine:
+#     row used at line 16. Did you mean 'HOW'?
+
 }
