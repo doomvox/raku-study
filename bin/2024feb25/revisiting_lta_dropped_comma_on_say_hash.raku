@@ -2,7 +2,8 @@
 # 
 # revisiting_lta_dropped_comma_on_say_hash.raku            25 Feb 2024 
 
-use v6.e;
+
+use v6.ePREVIEW;
 
 my %h = A => 1;
 
