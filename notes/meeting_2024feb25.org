@@ -16,6 +16,8 @@
 **** a fix:
 https://github.com/doomvox/raku-study/tree/main/bin/2024feb25/fussy_unit_via_int.raku
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024feb25/fussy_unit_via_int.raku
+**** marton polgar: vars using the native c-types (initial lowercase) like "uint16" don't have containers (?)
+
 
 *** William Michels:
 https://stackoverflow.com/questions/77975192/which-perl-traps-have-not-been-fixed-in-raku
