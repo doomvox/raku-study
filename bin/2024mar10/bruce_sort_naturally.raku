@@ -16,6 +16,6 @@ my @a = <afoo12 afoo2 abar12 abar9foo abar64foo abar64bang abar64bang4foo abar64
 
 
 
-sub naturally ( Str $s --> List ) {
+sub naturally2 ( Str $s --> List ) {
     $s.split(:v, /\d+/).map( $_ = *; +$_ // $_ ).cache
 }
