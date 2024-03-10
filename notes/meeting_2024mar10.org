@@ -16,14 +16,6 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-258
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-259
 
-*** linux interfaces
-**** dchrist likes xfce desktop
-**** doomvox: icewm
-**** marton: lxqt, kde
-***** qt framework useb by kde
-***** https://lx1t-project.org
-
-
 *** LTA error message: 
 **** the code: say "f: $f", " ", %row{$f}, "char count: ", %row{$f}.Str.chars;
 **** dropped comma: say "f: $f", " "  %row{$f}, "char count: ", %row{$f}.Str.chars;
