@@ -44,6 +44,7 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 **** https://www.youtube.com/watch?v=1-KV8oiOSZA
 **** Playing nice with others using the new COERCE protocol - Matthew Stuckwisch
 
+
 ** previous topics
 
 *** formatting rows of data as fixed width fields, ala database selects
