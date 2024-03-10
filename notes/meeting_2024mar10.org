@@ -40,6 +40,7 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 
 *** rosettacode: Greatest Prime Dividing the n-cubefree number
 
+**** the inclusion-exclusion principle
 
 *** "new" coercion protocol
 **** https://www.youtube.com/watch?v=1-KV8oiOSZA
