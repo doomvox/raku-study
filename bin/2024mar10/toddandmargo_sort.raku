@@ -8,4 +8,5 @@ use v6;
 ## most likely: sort on the text prefix, then sort in numeric order within prefix
 
 say <afoo12 afoo2>.sort(*.split(/\d+/, :kv).map({ (try .Numeric) // $_}).List);
+# (afoo2 afoo12)
 
