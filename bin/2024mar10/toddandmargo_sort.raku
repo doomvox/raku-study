@@ -21,3 +21,11 @@ say "===";
     @list .= sort: +*.match: / \d+ /;
     say @list;  #  [abc0 blob0 abc3 blob3 abc123 blob123]
 }
+
+say "===";
+{
+    my @list = <abc123 abc0 abc3>;
+    @list .= sort: +*.match: / \d+ /;
+    say @list;  #  [abc0 abc3 abc123]
+
+}
