@@ -16,4 +16,4 @@ my @a = <afoo12 afoo2 abar12 abar9foo abar64foo abar64bang abar64bang4foo abar64
 #     $s.split(:v, /\d+/).map( * andthen +$_ // $_ ).cache
 # }
 
-.say for @a.sort: &naturally2;
+# .say for @a.sort: &naturally2;
