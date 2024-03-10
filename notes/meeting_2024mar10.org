@@ -16,12 +16,6 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-258
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-259
 
-*** Alan (ParrotRaiser) informs he's going to be in an awkward timezone for several months:
-**** UTC+2, which means 7 hours from here and 10 from you.
-***** current meeting schedule: 1PM  -> 11pm to 1am
-***** an hour earlier would be: Noon -> 10pm to Mid
-
-
 ** previous topics
 
 *** formatting rows of data as fixed width fields, ala database selects
