@@ -21,5 +21,4 @@ say "===";
     @list .= sort: +*.match: / \d+ /;
     say @list;  #  [abc0 abc3 abc123]
 
-
 }
