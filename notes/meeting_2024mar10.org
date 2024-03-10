@@ -53,7 +53,6 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 **** a script in process
 ***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
 
-
 ** announcements 
 *** next meetings
 **** Sunday March 24, 2024
