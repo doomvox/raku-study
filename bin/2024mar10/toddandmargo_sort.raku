@@ -11,4 +11,6 @@ use v6;
 say <afoo12 afoo2>.sort(*.split(/\d+/, :kv).map({ (try .Numeric) // $_}).List);
 # (afoo2 afoo12)
 
+@list = <abc123 abc0 abc3>;
 
+@list .= sort: +*.match: / \d+ /;
