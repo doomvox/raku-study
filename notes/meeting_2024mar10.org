@@ -42,7 +42,6 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 **** https://rosettacode.org/wiki/Greatest_prime_dividing_the_n-th_cubefree_number
 **** the inclusion-exclusion principle
 
-
 *** "new" coercion protocol
 **** https://www.youtube.com/watch?v=1-KV8oiOSZA
 **** Playing nice with others using the new COERCE protocol - Matthew Stuckwisch
