@@ -18,6 +18,8 @@
 
 ** previous topics
 
+*** sort
+
 *** formatting rows of data as fixed width fields, ala database selects
 **** a script in process
 ***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
