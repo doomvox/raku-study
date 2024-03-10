@@ -12,10 +12,6 @@
 
 ** topics
 
-*** William Michels:
-https://stackoverflow.com/questions/77975192/which-perl-traps-have-not-been-fixed-in-raku
-**** discussion of dynamic and lexical scope (perl's local vs my)
-
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-255/
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-256/
