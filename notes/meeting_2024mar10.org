@@ -18,6 +18,8 @@
 
 ** previous topics
 
+*** rob: idea of delegation
+
 *** sort
 
 *** formatting rows of data as fixed width fields, ala database selects
