@@ -13,7 +13,7 @@ my @a = <afoo12 afoo2 abar12 abar9foo abar64foo abar64bang abar64bang4foo abar64
 .say for @a.sort: &naturally;
 
 sub naturally2 ( Str $s --> List ) {
-    $s.split(:v, /\d+/).map( $_=* andthen +$_ // $_ ).cache
+    $s.split(:v, /\d+/).map( $_= * andthen +$_ // $_ ).cache
 }
 
 .say for @a.sort: &naturally2;
