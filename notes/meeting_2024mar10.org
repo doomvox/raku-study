@@ -64,7 +64,7 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 **** Sunday June 16, 2024 (tenatative: this is father's day)
 **** Sunday June 30, 2024
 
-*** YAPC Las Vegas 
+*** YAPC Las Vegas, June 24-28
 **** call for papers out
 
 ** followup
