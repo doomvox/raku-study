@@ -13,7 +13,6 @@ say <afoo12 afoo2>.sort(*.split(/\d+/, :kv).map({ (try .Numeric) // $_}).List);
 
 say "===";
 @list = <abc123 abc0 abc3>;
-
 @list .= sort: +*.match: / \d+ /;
 
 say @list;
