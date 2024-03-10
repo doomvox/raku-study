@@ -25,7 +25,7 @@ say "===";
 say "===";
 {
     my @list = <abc123 abc0 abc3>;
-    @list .= sort: +*.match: / \d+ /;
+    @list .= sort( +*.match: / \d+ / );
     say @list;  #  [abc0 abc3 abc123]
 
 }
