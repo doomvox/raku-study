@@ -18,5 +18,8 @@ say "===";
     say @list;  #  [abc0 abc3 abc123]
 
     @list = <abc123 abc0 abc3  blob123 blob0 blob3>;
+    @list .= sort: +*.match: / \d+ /;
+    say @list;  #  [abc0 abc3 abc123]
+
 
 }
