@@ -11,3 +11,4 @@ use v6;
 say <afoo12 afoo2>.sort(*.split(/\d+/, :kv).map({ (try .Numeric) // $_}).List);
 # (afoo2 afoo12)
 
+
