@@ -2,21 +2,16 @@
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024feb25.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024mar10.org
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2024feb25
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024mar10
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023feb04.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024feb25.org
 
 ** topics
 
-*** toddandmargo needs to know about subsets, I think
-**** a fix:
-https://github.com/doomvox/raku-study/tree/main/bin/2024feb25/fussy_unit_via_int.raku
-/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024feb25/fussy_unit_via_int.raku
-**** Marton Polgar: vars using the native c-types (initial lowercase) like "uint16" don't have containers (?)
 
 *** William Michels:
 https://stackoverflow.com/questions/77975192/which-perl-traps-have-not-been-fixed-in-raku
