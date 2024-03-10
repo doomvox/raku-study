@@ -39,8 +39,8 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 
 
 *** "new" coercion protocol
-https://www.youtube.com/watch?v=1-KV8oiOSZA
-Playing nice with others using the new COERCE protocol - Matthew Stuckwisch
+**** https://www.youtube.com/watch?v=1-KV8oiOSZA
+**** Playing nice with others using the new COERCE protocol - Matthew Stuckwisch
 
 ** previous topics
 
