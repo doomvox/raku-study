@@ -1,0 +1,96 @@
+* meeting notes March 10, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024feb25.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024feb25
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2023feb04.org
+
+** topics
+
+*** toddandmargo needs to know about subsets, I think
+**** a fix:
+https://github.com/doomvox/raku-study/tree/main/bin/2024feb25/fussy_unit_via_int.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024feb25/fussy_unit_via_int.raku
+**** Marton Polgar: vars using the native c-types (initial lowercase) like "uint16" don't have containers (?)
+
+*** William Michels:
+https://stackoverflow.com/questions/77975192/which-perl-traps-have-not-been-fixed-in-raku
+**** discussion of dynamic and lexical scope (perl's local vs my)
+
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-255/
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-256/
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-257/
+
+*** zfs factoid
+**** David was on freebsd 12: zfs out-of-the-box, gives it to you on root
+**** openzfs (livermore) dominant implementation
+**** go installer hit race condition with openzfs 2.2.0, bug in freebsd 13/14
+**** patched in early december
+**** freebsd 13 includes bug, but makes hitting it unlikely
+**** workaround: do fresh install of os then immediately update the os
+***** avoid native encryption
+
+*** linux interfaces
+**** dchrist likes xfce desktop
+**** doomvox: icewm
+**** marton: lxqt, kde
+***** qt framework useb by kde
+***** https://lx1t-project.org
+
+
+*** LTA error message: 
+**** the code: say "f: $f", " ", %row{$f}, "char count: ", %row{$f}.Str.chars;
+**** dropped comma: say "f: $f", " "  %row{$f}, "char count: ", %row{$f}.Str.chars;
+
+Shortened for the meeting notes:
+raku -e 'my %row = A => 1; say "abc ", %row<A>';
+    abc 1
+raku -e 'my %row = A => 1; say "abc " %row<A>'; 
+    ===SORRY!=== Error while compiling -e
+    Undeclared routine:
+        row used at line 1. Did you mean 'HOW'?
+
+**** Opened issue: https://github.com/rakudo/rakudo/issues/5533
+
+
+*** Alan (ParrotRaiser) informs he's going to be in an awkward timezone for several months:
+**** UTC+2, which means 7 hours from here and 10 from you.
+***** current meeting schedule: 1PM  -> 11pm to 1am
+***** an hour earlier would be: Noon -> 10pm to Mid
+
+
+** previous topics
+
+*** formatting rows of data as fixed width fields, ala database selects
+**** a script in process
+***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
+
+
+** announcements 
+*** next meetings
+**** Sunday March 10, 2024
+**** Sunday March 24, 2024
+**** Sunday April 7, 2024
+**** Sunday April 21, 2024
+**** Sunday May 5, 2024
+**** Sunday May 19, 2024
+**** Sunday June 2, 2024
+**** Sunday June 16, 2024 (tenatative: this is father's day)
+**** Sunday June 30, 2024
+
+*** YAPC Las Vegas 
+**** call for papers out
+
+** followup
+
+*** TODO BUG in my setup:  my automatic save/push keeps overwriting changes pulled from github.
+**** e.g. https://github.com/doomvox/raku-study/commit/193650f11613b5e2e815d02d3444e86156acee01QQQQQq0qq`
+
+*** look at match objects with mixed named and positionals: hashify, listify, what wins?
+
