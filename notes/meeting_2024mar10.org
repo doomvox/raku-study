@@ -34,8 +34,10 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 **** idea of a tool that scans for stuff that needs to be handled (?)
 
 *** weekly challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-258
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-259
+***** pt2: bruce gray has a grammar solution
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-258
+
 
 *** "new" coercion protocol
 **** https://www.youtube.com/watch?v=1-KV8oiOSZA
