@@ -18,7 +18,7 @@
 
 ** previous topics
 
-*** rob: idea of delegation
+*** rob: idea of delegation, it would be nice to delegate whatever, not method definitions
 
 *** sort
 
