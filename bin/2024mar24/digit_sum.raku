@@ -11,5 +11,5 @@ my @a = (12, 99, 2);
 # say @a.map({ $_.Str.split });
 
 for @a -> $n {
-    say $n.Str.split;
+    say $n.Str.split('');
 }
