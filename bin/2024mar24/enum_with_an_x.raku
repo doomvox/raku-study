@@ -5,6 +5,11 @@
 use v6;
 
 # Daniel Mita mentions using an "x" in an enum as a Raku gotcha
+
+{
+    say x;
+    }
+
 {
 
    my $str = "a" x 5;
