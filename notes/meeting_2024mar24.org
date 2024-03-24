@@ -17,6 +17,7 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-261
 
 
+
 ** previous topics
 
 ***  Daniel Mita
@@ -37,6 +38,7 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 *** formatting rows of data as fixed width fields, ala database selects
 **** a script in process
 ***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
+
 
 ** announcements 
 *** next meetings
