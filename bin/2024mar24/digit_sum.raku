@@ -10,15 +10,20 @@ my @a = (12, 99, 2);
 
 # say @a.map({ $_.Str.split });
 
-my @out;
+my @dig;
 for @a -> $n {
 #    say $n.Str.split('');
-     @out.push( | $n.split('') );
+     @dig.push( | $n.split('') );
 }
-say @out;
+say @dig;
 
 ## forgot about comb
 ## digits are .Int of course
+
+for @dig->$d {
+    say $d;
+}
+
 
 # Rob: 
 
