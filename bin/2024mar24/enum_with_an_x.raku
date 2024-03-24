@@ -17,7 +17,7 @@ use v6;
 }
 
 {
-    my enum xyz <x y z>;
+    my enum xyz <w x y z>;
     my $str = "a" x 5;
     say $str; # aaaaa
 
