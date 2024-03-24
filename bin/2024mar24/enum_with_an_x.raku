@@ -9,12 +9,14 @@ use v6;
 
    my $str = "a" x 5;
    say $str; # aaaaa
-
+   
 }
 {
     enum xyz <x y z>;
     my $str = "a" x 5;
     say $str; # aaaaa
+
+    say x;
 }
 
 
