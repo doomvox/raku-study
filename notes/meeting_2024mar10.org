@@ -37,6 +37,7 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-259
 ***** pt2: bruce gray grammar solution
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-258
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master
 
 *** rosettacode: Greatest Prime Dividing the n-cubefree number
 **** https://rosettacode.org/wiki/Greatest_prime_dividing_the_n-th_cubefree_number
