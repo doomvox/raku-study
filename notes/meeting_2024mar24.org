@@ -16,6 +16,7 @@
 **** https://github.com/rakudo/rakudo/issues/5537
 
 *** enum scope
+**** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024mar24/enum_with_an_x.raku
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-260
