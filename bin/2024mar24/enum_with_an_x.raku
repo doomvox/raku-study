@@ -5,3 +5,6 @@
 use v6;
 
 # Daniel Mita mentions using an "x" in an enum as a Raku gotcha
+
+enum xyz <x y z>;
+
