@@ -9,14 +9,13 @@ use v6;
 {
     # say x;
     ## Undeclared routine:
-    }
+}
 
 {
-
    my $str = "a" x 5;
    say $str; # aaaaa
-   
 }
+
 {
     enum xyz <x y z>;
     my $str = "a" x 5;
