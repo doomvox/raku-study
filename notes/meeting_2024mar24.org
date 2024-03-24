@@ -17,11 +17,6 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-261
 
 
-*** sort
-**** https://www.nntp.perl.org/group/perl.perl6.users/2024/03/msg11178.html
-
-*** more sort
-**** https://unix.stackexchange.com/questions/52762/trying-to-sort-on-two-fields-second-then-first/769845#769845
 
 ***  Daniel Mita
 **** "Practicing Raku Grammars On Exercism"
