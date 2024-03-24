@@ -12,6 +12,11 @@
 
 ** topics
 
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-260
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-261
+
+
 *** sort
 **** https://www.nntp.perl.org/group/perl.perl6.users/2024/03/msg11178.html
 
@@ -33,10 +38,6 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 **** if you're going to delegate things you don't presume it should all be the same
 **** idea of a tool that scans for stuff that needs to be handled (?)
 
-*** weekly challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-259
-***** pt2: bruce gray grammar solution
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-258
 
 *** rosettacode: Greatest Prime Dividing the n-cubefree number
 **** https://rosettacode.org/wiki/Greatest_prime_dividing_the_n-th_cubefree_number
