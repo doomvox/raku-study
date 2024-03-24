@@ -17,6 +17,9 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-261
 
 
+** old browser tabs
+*** https://raku.land/zef:lizmat/App::Browser
+*** https://raku.land/zef:leont/SQL::Abstract
 
 ** previous topics
 
