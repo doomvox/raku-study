@@ -26,7 +26,8 @@ use v6;
 }
 
 {
-#     say x; # x
+   #     say x; # x
+  ## Undeclared routine:
 }
 
 
