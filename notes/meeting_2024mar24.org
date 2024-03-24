@@ -46,7 +46,6 @@ my Point $h .= new: 11;
 *** explicit so used to behave differently than implicit, e.g. with while
 **** https://github.com/rakudo/rakudo/issues/5490
 
-
 ** old browser tabs
 *** https://raku.land/zef:lizmat/App::Browser
 *** https://raku.land/zef:leont/SQL::Abstract
