@@ -27,3 +27,6 @@ multi digit-sum( $a -->Int) {
     - sum $a.map({ sum .abs.Str.comb>>.Int };
 }
 
+# Bruce makes the point .Str and .Int here aren't needed: implicit coercion
+
+## $a.map({ .abs.comb.sum *.sign }).sum
