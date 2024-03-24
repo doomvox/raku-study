@@ -12,6 +12,10 @@
 
 ** topics
 
+*** symbol import issues
+**** https://github.com/rakudo/rakudo/issues/5537
+
+
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-260
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-261
