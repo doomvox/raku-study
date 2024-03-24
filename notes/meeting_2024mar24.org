@@ -17,6 +17,8 @@
 
 *** enum scope
 **** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024mar24/enum_with_an_x.raku
+**** Marton: there are other issues with the capital X meta-operator
+***** enum X can shadow the X package
 
 *** Rob problem, trying to simplify: 
 #+BEGIN_SRC raku
