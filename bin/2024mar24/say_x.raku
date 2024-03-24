@@ -8,8 +8,10 @@ use v6;
     # say q;
     ## Missing block
 
-    say w;
+    # say w;
+    ## Undeclared routine:
 
+    say x;
 
     }
 
