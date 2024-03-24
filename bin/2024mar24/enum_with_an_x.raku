@@ -21,7 +21,7 @@ use v6;
 
 {
     say x; # x
-    }
+}
 
 
 #    enum Bool <False True>
