@@ -21,13 +21,12 @@ use v6;
     my $str = "a" x 5;
     say $str; # aaaaa
 
-    
     say x+0; # 1
 }
 
 {
-        say x; # x
-  ## Undeclared routine:
+    say x; # x
+    ## Undeclared routine:
 }
 
 
