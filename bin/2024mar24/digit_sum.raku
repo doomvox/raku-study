@@ -17,7 +17,7 @@ for @a -> $n {
 }
 say @dig;
 
-## forgot about comb
+## forgot about comb (again)
 ## digits are .Int of course
 
 for @dig -> $d {
