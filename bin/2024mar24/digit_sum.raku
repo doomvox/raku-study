@@ -13,7 +13,7 @@ my @a = (12, 99, 2);
 my @dig;
 for @a -> $n {
 #    say $n.Str.split('');
-     @dig.push( | $n.split('') ).Int;
+     @dig.push( | $n.split('') );
 }
 say @dig;
 
