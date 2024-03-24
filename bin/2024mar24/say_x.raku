@@ -5,7 +5,11 @@
 use v6;
 
 {
-    say q;
+    # say q;
+    ## Missing block
+
+    say w;
+
 
     }
 
