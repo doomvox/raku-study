@@ -19,3 +19,11 @@ say @out;
 
 ## forgot about comb
 ## digits are .Int
+
+
+# Rob: 
+
+multi digit-sum( $a -->Int) {
+    $a.sum
+    - sum $a.map({ sum .abs.Str.comb>>.Int };
+}
