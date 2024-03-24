@@ -31,4 +31,4 @@ multi digit-sum( $a -->Int) {
 
 ## Bruce: there's a .sign
 ## $a.map({ .abs.comb.sum *.sign }).sum
-
+# https://docs.raku.org/routine/sign
