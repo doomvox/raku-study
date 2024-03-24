@@ -23,9 +23,10 @@
 my Point $h = Point.new: 11;
 #+END_SRC
 
-**** 
-**** raku trick to avoid repeating class name:
-***** my Point $h .= new: 11;
+**** Bruce: raku trick to avoid repeating class name:
+#+BEGIN_SRC raku
+my Point $h .= new: 11;
+#+END_SRC
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-260
