@@ -47,7 +47,7 @@ my Point $h .= new: 11;
 
 *** raku .repeated method, gets list of elements repeated.
 
-*** mark anderson (andemark) video:
+*** Mark Anderson (andemark) video:
 https://www.youtube.com/watch?v=-MpL0X3AHAs
 
 
