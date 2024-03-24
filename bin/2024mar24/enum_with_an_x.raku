@@ -21,7 +21,8 @@ use v6;
     my $str = "a" x 5;
     say $str; # aaaaa
 
-    say x; # x
+    
+    say x+0; # x
 }
 
 {
