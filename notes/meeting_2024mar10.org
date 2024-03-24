@@ -41,7 +41,9 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 *** rosettacode: Greatest Prime Dividing the n-cubefree number
 **** https://rosettacode.org/wiki/Greatest_prime_dividing_the_n-th_cubefree_number
 **** the inclusion-exclusion principle
-**** TODO discussion of prime number algorithms, see chat for links
+**** discussion of prime number algorithms
+
+
 
 *** "new" coercion protocol
 **** https://www.youtube.com/watch?v=1-KV8oiOSZA
