@@ -22,7 +22,7 @@ use v6;
     say $str; # aaaaa
 
     
-    say x+0; # x
+    say x+0; # 1
 }
 
 {
