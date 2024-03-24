@@ -17,7 +17,8 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-261
 
 
-** older topics
+** previous topics
+
 
 ***  Daniel Mita
 **** "Practicing Raku Grammars On Exercism"
@@ -32,7 +33,7 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 
 
 
-** previous topics
+
 
 *** formatting rows of data as fixed width fields, ala database selects
 **** a script in process
