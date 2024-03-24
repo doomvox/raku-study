@@ -53,7 +53,6 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 **** call for papers 
 
 ** followup
-
 *** look at match objects with mixed named and positionals: hashify, listify, what wins?
 
 *** https://blogs.perl.org/users/bruce_gray/raku/
