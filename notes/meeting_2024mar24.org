@@ -42,7 +42,6 @@ my Point $h .= new: 11;
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-260
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-261
 
-
 *** explicit so used to behave differently than implicit, e.g. with while
 **** https://github.com/rakudo/rakudo/issues/5490
 
