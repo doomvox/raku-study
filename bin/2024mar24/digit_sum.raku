@@ -18,8 +18,7 @@ for @a -> $n {
 say @out;
 
 ## forgot about comb
-## digits are .Int
-
+## digits are .Int of course
 
 # Rob: 
 
@@ -27,3 +26,4 @@ multi digit-sum( $a -->Int) {
     $a.sum
     - sum $a.map({ sum .abs.Str.comb>>.Int };
 }
+
