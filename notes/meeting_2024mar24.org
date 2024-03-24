@@ -54,11 +54,7 @@ my Point $h .= new: 11;
 
 **** function composition operator
 https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
-
-
-
-
-
+***** TODO hm?
 
 *** formatting rows of data as fixed width fields, ala database selects
 **** a script in process
