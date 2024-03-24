@@ -34,9 +34,15 @@ my Point $h .= new: 11;
 ****** Marton: problems with Raku concept that class is an object of itself
 ****** Bruce: .= gets used when you want to act on what's there
 
+
+*** Rob: iup
+**** https://github.com/0rir/raku-iup
+
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-260
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-261
+
+
 
 
 ** old browser tabs
