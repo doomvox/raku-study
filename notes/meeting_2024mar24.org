@@ -1,0 +1,77 @@
+* meeting notes March 24, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024mar24.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024mar24
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024mar10.org
+
+** topics
+
+*** sort
+**** https://www.nntp.perl.org/group/perl.perl6.users/2024/03/msg11178.html
+
+*** more sort
+**** https://unix.stackexchange.com/questions/52762/trying-to-sort-on-two-fields-second-then-first/769845#769845
+
+***  Daniel Mita
+**** "Practicing Raku Grammars On Exercism"
+**** https://dev.to/dango/practicing-raku-grammars-on-exercism-36i4
+
+*** Exercism: a language agnostic weekly challenge:
+**** https://exercism.org/challenges/48in24/implementation_status
+
+**** function composition operator
+https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
+
+*** rob: idea of delegation, it would be nice to delegate whatever, not method definitions
+**** subclass of PosInt example
+**** if you're going to delegate things you don't presume it should all be the same
+**** idea of a tool that scans for stuff that needs to be handled (?)
+
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-259
+***** pt2: bruce gray grammar solution
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-258
+
+*** rosettacode: Greatest Prime Dividing the n-cubefree number
+**** https://rosettacode.org/wiki/Greatest_prime_dividing_the_n-th_cubefree_number
+**** the inclusion-exclusion principle
+**** TODO discussion of prime number algorithms, see chat for links
+
+*** "new" coercion protocol
+**** https://www.youtube.com/watch?v=1-KV8oiOSZA
+**** Playing nice with others using the new COERCE protocol - Matthew Stuckwisch
+
+
+** previous topics
+
+*** formatting rows of data as fixed width fields, ala database selects
+**** a script in process
+***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
+
+** announcements 
+*** next meetings
+**** Sunday March 24, 2024
+**** Sunday April 7, 2024
+**** Sunday April 21, 2024
+**** Sunday May 5, 2024
+**** Sunday May 19, 2024
+**** Sunday June 2, 2024
+**** Sunday June 16, 2024 (tenatative: this is father's day)
+**** Sunday June 30, 2024
+
+*** YAPC Las Vegas, June 24-28
+**** call for papers out
+
+** followup
+
+*** look at match objects with mixed named and positionals: hashify, listify, what wins?
+
+
+*** https://blogs.perl.org/users/bruce_gray/raku/
+
