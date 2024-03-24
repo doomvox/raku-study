@@ -8,3 +8,4 @@ use v6;
 
 enum xyz <x y z>;
 
+enum Bool <False True>
