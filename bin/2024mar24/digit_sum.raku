@@ -8,4 +8,4 @@ use v6;
 
 my @a = (12, 99, 2);
 
-@a>>.split;
+say @a>>.split;
