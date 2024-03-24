@@ -15,3 +15,4 @@ for @a -> $n {
 #    say $n.Str.split('');
      @out.push( $n.split('') );
 }
+say @out;
