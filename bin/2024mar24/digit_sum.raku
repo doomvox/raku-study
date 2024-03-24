@@ -16,3 +16,6 @@ for @a -> $n {
      @out.push( | $n.split('') );
 }
 say @out;
+
+## forgot about comb
+## digits are .Int
