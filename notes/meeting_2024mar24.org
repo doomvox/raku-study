@@ -51,9 +51,15 @@ my Point $h .= new: 11;
 https://www.youtube.com/watch?v=-MpL0X3AHAs
 
 
+*** Bruce call for remarks on:
+
+**** https://www.mail-archive.com/perl6-users@perl.org/msg11179.html
+
 ** old browser tabs
 *** https://raku.land/zef:lizmat/App::Browser
 *** https://raku.land/zef:leont/SQL::Abstract
+
+
 
 ** previous topics
 
@@ -71,6 +77,8 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 *** formatting rows of data as fixed width fields, ala database selects
 **** a script in process
 ***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
+
+
 
 
 ** announcements 
