@@ -15,6 +15,7 @@
 *** symbol import issues
 **** https://github.com/rakudo/rakudo/issues/5537
 
+*** enum scope
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-260
