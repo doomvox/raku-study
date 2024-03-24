@@ -30,8 +30,8 @@ my Point $h = Point.new: 11;
 my Point $h .= new: 11;
 #+END_SRC
 
-**** some question about conceputal ugliness there
-***** Marton: problems with Raku concept that class is an object of itself
+***** some question about conceputal ugliness there
+****** Marton: problems with Raku concept that class is an object of itself
 
 
 *** weekly challenge
