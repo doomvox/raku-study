@@ -16,8 +16,12 @@ use v6;
     my $str = "a" x 5;
     say $str; # aaaaa
 
-    say x;
+    say x; # x
 }
+
+{
+    say x; # x
+    }
 
 
 #    enum Bool <False True>
