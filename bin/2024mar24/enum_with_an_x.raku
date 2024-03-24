@@ -9,6 +9,8 @@ use v6;
 ## Oh, actually he referred to the upper-case X:
 ## I accidentally put 'X' in an enum once, I won't make that mistake again 😂
 
+## My naive expectation was that an enum would be lexically scoped: you need a "my" to get that behavior
+
 {
     # say x;
     ## Undeclared routine:
