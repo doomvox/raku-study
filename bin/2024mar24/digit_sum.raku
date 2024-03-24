@@ -10,7 +10,8 @@ my @a = (12, 99, 2);
 
 # say @a.map({ $_.Str.split });
 
+my @out;
 for @a -> $n {
 #    say $n.Str.split('');
-    say $n.split('').push;
+    my $out = $n.split('').push;
 }
