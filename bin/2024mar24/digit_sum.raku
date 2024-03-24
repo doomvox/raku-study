@@ -13,5 +13,5 @@ my @a = (12, 99, 2);
 my @out;
 for @a -> $n {
 #    say $n.Str.split('');
-    my $out = $n.split('').push;
+     @out = $n.split('').push;
 }
