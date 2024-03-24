@@ -20,7 +20,7 @@ say @dig;
 ## forgot about comb
 ## digits are .Int of course
 
-for @dig->$d {
+for @dig -> $d {
     say $d;
 }
 
