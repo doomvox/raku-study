@@ -12,7 +12,7 @@ use v6;
     ## Undeclared routine:
 
     say x;
-
+    ## Undeclared routine:
     }
 
 
