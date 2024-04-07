@@ -57,6 +57,11 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 
 
 ** announcements 
+
+*** Houston Perl Mongers: on-line perl study, studying book "Effective Perl"
+https://www.perlmonks.org/?node_id=11158682
+
+
 *** next meetings
 
 **** Sunday April 21, 2024
@@ -65,6 +70,9 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 **** Sunday June 2, 2024
 **** Sunday June 16, 2024 (tenatative: this is father's day)
 **** Sunday June 30, 2024
+
+
+
 
 *** YAPC Las Vegas, June 24-28
 **** call for papers 
