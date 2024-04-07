@@ -4,6 +4,8 @@
 
 use v6;
 
+# https://unix.stackexchange.com/questions/772890/subset-columns-from-the-1st-file-using-column-names-in-2nd-file/772972#772972
+
 #  raku -e 'my ($header,@a) = lines.map: *.split(/ \s+ /); 
 #             $header .= list;  my @ind = <a1 a4>; 
 #             my @col = (0...3, $header.grep( / @ind /, :k ).Slip); 
@@ -12,7 +14,9 @@ use v6;
 
 
 
- raku -e 'my ($header,@a) = lines.map: *.split(/ \s+ /); 
+
+
+my ($header,@a) = lines.map: *.split(/ \s+ /); 
             $header .= list;  my @ind = <a1 a4>; 
             my @col = (0...3, $header.grep( / @ind /, :k ).Slip); 
             put $header[@col].join("\t"); 
