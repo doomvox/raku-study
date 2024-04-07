@@ -20,6 +20,7 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-263
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-262
 
+
 *** Bruce call for remarks on:
 **** https://www.mail-archive.com/perl6-users@perl.org/msg11179.html
 
