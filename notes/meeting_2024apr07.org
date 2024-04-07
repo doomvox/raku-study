@@ -15,9 +15,10 @@
 *** Rob has a "math thing": 
 **** given a rational number, convert to decimal representation, what accuracy?
 
+
 *** weekly challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-262
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-263
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-262
 
 *** Bruce call for remarks on:
 **** https://www.mail-archive.com/perl6-users@perl.org/msg11179.html
