@@ -58,7 +58,7 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 
 ** announcements 
 
-*** Houston Perl Mongers: on-line perl study, studying book "Effective Perl"
+*** April 11, Houston Perl Mongers: on-line perl study, studying book "Effective Perl"
 **** notice with zoom link: https://www.perlmonks.org/?node_id=11158682
 **** https://en.wikipedia.org/wiki/Effective_Perl_Programming
 
