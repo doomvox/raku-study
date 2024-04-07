@@ -76,7 +76,10 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 **** Scientific track (perl *and* raku): https://science.perlcommunity.org/spj
 
 ** follow-up
-*** look at match objects with mixed named and positionals: hashify, listify, what wins?
+*** mention houston perl mongers on sf-perl list
+**** david?
 
 *** https://blogs.perl.org/users/bruce_gray/raku/
+
+*** look at match objects with mixed named and positionals: hashify, listify, what wins?
 
