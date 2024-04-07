@@ -12,6 +12,9 @@
 
 ** topics
 
+*** Rob has a "math thing": 
+**** given a rational number, convert to decimal representation, what accuracy?
+
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-262
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-263
