@@ -24,8 +24,6 @@
 *** https://raku.land/zef:lizmat/App::Browser
 *** https://raku.land/zef:leont/SQL::Abstract
 
-
-
 ** previous topics
 
 *** Mark Anderson (andemark) video:
