@@ -2,53 +2,22 @@
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024mar24.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024apr07.org
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2024mar24
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024apr07
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024mar10.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024mar24.org
 
 ** topics
 
-*** symbol import issues
-**** https://github.com/rakudo/rakudo/issues/5537
-
-*** enum scope
-**** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024mar24/enum_with_an_x.raku
-**** Marton: there are other issues with the capital X meta-operator
-***** enum X can shadow the X package
-
-*** Rob problem, trying to simplify: 
-#+BEGIN_SRC raku
-my Point $h = Point.new: 11;
-#+END_SRC
-
-**** Bruce: raku trick to avoid repeating class name:
-#+BEGIN_SRC raku
-my Point $h .= new: 11;
-#+END_SRC
-
-***** some question about conceputal ugliness there
-****** Marton: problems with Raku concept that class is an object of itself
-****** Bruce: .= gets used when you want to act on what's there
-
-
-*** Rob: iup
-**** https://github.com/0rir/raku-iup
-
 *** weekly challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-260
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-261
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-262
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-263
 
-*** explicit so used to behave differently than implicit, e.g. with while
-**** https://github.com/rakudo/rakudo/issues/5490
 
-*** raku .repeated method, gets list of elements repeated.
 
-*** Mark Anderson (andemark) video:
-https://www.youtube.com/watch?v=-MpL0X3AHAs
 
 
 *** Bruce call for remarks on:
@@ -61,6 +30,10 @@ https://www.youtube.com/watch?v=-MpL0X3AHAs
 
 
 ** previous topics
+
+*** Mark Anderson (andemark) video:
+https://www.youtube.com/watch?v=-MpL0X3AHAs
+
 
 ***  Daniel Mita
 **** "Practicing Raku Grammars On Exercism"
