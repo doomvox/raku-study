@@ -1,0 +1,100 @@
+* meeting notes April 07, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024mar24.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024mar24
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024mar10.org
+
+** topics
+
+*** symbol import issues
+**** https://github.com/rakudo/rakudo/issues/5537
+
+*** enum scope
+**** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024mar24/enum_with_an_x.raku
+**** Marton: there are other issues with the capital X meta-operator
+***** enum X can shadow the X package
+
+*** Rob problem, trying to simplify: 
+#+BEGIN_SRC raku
+my Point $h = Point.new: 11;
+#+END_SRC
+
+**** Bruce: raku trick to avoid repeating class name:
+#+BEGIN_SRC raku
+my Point $h .= new: 11;
+#+END_SRC
+
+***** some question about conceputal ugliness there
+****** Marton: problems with Raku concept that class is an object of itself
+****** Bruce: .= gets used when you want to act on what's there
+
+
+*** Rob: iup
+**** https://github.com/0rir/raku-iup
+
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-260
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-261
+
+*** explicit so used to behave differently than implicit, e.g. with while
+**** https://github.com/rakudo/rakudo/issues/5490
+
+*** raku .repeated method, gets list of elements repeated.
+
+*** Mark Anderson (andemark) video:
+https://www.youtube.com/watch?v=-MpL0X3AHAs
+
+
+*** Bruce call for remarks on:
+**** https://www.mail-archive.com/perl6-users@perl.org/msg11179.html
+
+** old browser tabs
+*** https://raku.land/zef:lizmat/App::Browser
+*** https://raku.land/zef:leont/SQL::Abstract
+
+
+
+** previous topics
+
+***  Daniel Mita
+**** "Practicing Raku Grammars On Exercism"
+**** https://dev.to/dango/practicing-raku-grammars-on-exercism-36i4
+
+*** Exercism: a language agnostic weekly challenge:
+**** https://exercism.org/challenges/48in24/implementation_status
+
+**** function composition operator
+https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
+***** TODO hm?
+
+*** formatting rows of data as fixed width fields, ala database selects
+**** a script in process
+***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
+
+
+
+
+** announcements 
+*** next meetings
+
+**** Sunday April 21, 2024
+**** Sunday May 5, 2024
+**** Sunday May 19, 2024
+**** Sunday June 2, 2024
+**** Sunday June 16, 2024 (tenatative: this is father's day)
+**** Sunday June 30, 2024
+
+*** YAPC Las Vegas, June 24-28
+**** call for papers 
+
+** followup
+*** look at match objects with mixed named and positionals: hashify, listify, what wins?
+
+*** https://blogs.perl.org/users/bruce_gray/raku/
+
