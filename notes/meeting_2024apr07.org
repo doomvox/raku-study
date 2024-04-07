@@ -16,12 +16,9 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-262
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-263
 
-
-
-
-
 *** Bruce call for remarks on:
 **** https://www.mail-archive.com/perl6-users@perl.org/msg11179.html
+
 
 ** old browser tabs
 *** https://raku.land/zef:lizmat/App::Browser
