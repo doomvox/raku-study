@@ -15,6 +15,8 @@
 *** Rob has a "math thing": 
 **** given a rational number, convert to decimal representation, what accuracy?
 
+*** javascript octonion calculator
+**** https://jwbales.us/rpnOctonion.html
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-263
