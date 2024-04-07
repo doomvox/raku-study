@@ -71,11 +71,9 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 **** Sunday June 16, 2024 (tenatative: this is father's day)
 **** Sunday June 30, 2024
 
-
-
-
 *** YAPC Las Vegas, June 24-28
 **** call for papers 
+**** Scientific track (perl *and* raku): https://science.perlcommunity.org/spj
 
 ** followup
 *** look at match objects with mixed named and positionals: hashify, listify, what wins?
