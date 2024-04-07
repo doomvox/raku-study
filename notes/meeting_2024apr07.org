@@ -17,6 +17,7 @@
 
 *** javascript octonion calculator
 **** https://jwbales.us/rpnOctonion.html
+**** in boost hyperbolic sin and cosine are buggy
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-263
