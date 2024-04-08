@@ -24,10 +24,10 @@ for $header.keys -> $i {
     my $s = Set.new( @fields );
     dd $s;
 
-    if ($colname (exists) Set.new( @fields ) ) {
-        say $i;
+#     if ($colname (exists) Set.new( @fields ) ) {
+#         say $i;
 
-    }
+#     }
 
 
 }
