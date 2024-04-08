@@ -24,3 +24,10 @@ put $header[@col].join("\t");
 say $_.join("\t") for @a.map: *.[@col];
  
 
+# chrom	pos	ref	alt	a1	a4
+# 10	12345	C	T	aa	dd
+# 10	12345	C	T	aa	dd
+# 10	12345	C	T	aa	dd
+# 10	12345	C	T	aa	dd
+# 10	12345	C	T	aa	dd
+# 10	12345	C	T	aa	dd
