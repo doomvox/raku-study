@@ -4,8 +4,12 @@
 
 use v6;
 
+my @required = <chrom   pos ref alt>;
 my @additional = <a1 a4>;
-my @fields = <chrom   pos ref alt>.push( @additional ); 
+
+my @fields = @required;
+@fields.push( @additional ); 
+
 
 say @fields;
 
