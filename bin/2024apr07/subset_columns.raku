@@ -6,7 +6,6 @@ use v6;
 
 my @required = <chrom   pos ref alt>;
 my @additional = <a1 a4>;
-
 my @fields = @required;
 @fields.push( | @additional ); 
 
