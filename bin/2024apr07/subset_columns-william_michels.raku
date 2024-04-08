@@ -14,7 +14,7 @@ use v6;
 
 
 # data.csv
-my $file = "./dat/data.csv";
+my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024apr07/dat/data.csv";
 
 
 my ($header,@a) = $file.IO.lines.map: *.split(/ \s+ /); 
