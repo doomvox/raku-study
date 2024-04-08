@@ -16,3 +16,9 @@ my ($header,@l) = $file.IO.lines;
 # dd @l;
 .say for @l;
 
+for $header.keys -> $i {
+    my $colname = $header[$i];
+    say $colname;
+
+
+}
