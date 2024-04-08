@@ -20,7 +20,7 @@ my @indicies;
 for $header.keys -> $i {
     my $colname = $header[$i];
     say $colname;
-    if $colname in @fields.Set {
+    if $colname in set @fields {
         say $i;
 
     }
