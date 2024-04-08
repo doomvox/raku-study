@@ -20,6 +20,9 @@ my @indicies;
 for $header.keys -> $i {
     my $colname = $header[$i];
     say $colname;
+
+    my $s = Set.new( @fields );
+
     if ($colname (exists) Set.new( @fields ) ) {
         say $i;
 
