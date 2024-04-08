@@ -5,7 +5,7 @@
 use v6;
 
 my @additional = <a1 a4>;
-my @fields = <chrom   pos ref alt>.append @additional; 
+my @fields = <chrom   pos ref alt>.append( @additional ); 
 
 say @fields;
 
