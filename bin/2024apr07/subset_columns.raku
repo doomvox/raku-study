@@ -12,7 +12,7 @@ my @fields = | @required, | @additional;
 
 my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024apr07/dat/data.csv";
 
-
+my ($header,@data) = $file.IO.lines;
 
 
 
