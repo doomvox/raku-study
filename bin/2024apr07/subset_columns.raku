@@ -22,12 +22,12 @@ for $header.keys -> $i {
     say $colname;
 
     my $s = Set.new( @fields );
-    dd $s;
+    dd $s; # Set $s = Set.new("alt","ref","a4","a1","pos","chrom")
 
-#     if ($colname (exists) Set.new( @fields ) ) {
-#         say $i;
+     if ($colname (exists) Set.new( @fields ) ) {
+         say $i;
 
-#     }
+     }
 
 
 }
