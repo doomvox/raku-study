@@ -14,7 +14,8 @@ use v6;
 
 
 # data.csv
-my $file = "dat/data.csv";
+my $file = "./dat/data.csv";
+
 
 my ($header,@a) = $file.IO.lines.map: *.split(/ \s+ /); 
 $header .= list;
