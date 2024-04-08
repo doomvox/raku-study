@@ -9,12 +9,7 @@ my @additional = <a1 a4>;
 my @fields = @required;
 @fields.push( | @additional ); 
 
-
-
-
-
-
-say @fields;
+# say @fields;
 
 my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024apr07/dat/data.csv";
 
