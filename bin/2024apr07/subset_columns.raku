@@ -17,7 +17,7 @@ my ($header,@l) = $file.IO.lines;
 .say for @l;
 
 my @indicies;
-for $header.keys -> $i {
+for $header.split.keys -> $i {
     say $i;
     my $colname = $header.[$i];
     say $colname;
