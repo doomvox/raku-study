@@ -24,7 +24,7 @@ for $header.keys -> $i {
     my $s = Set.new( @fields );
     dd $s; # Set $s = Set.new("alt","ref","a4","a1","pos","chrom")
 
-     if ($colname (elem) Set.new( @fields ) ) {
+     if ($colname (elem) $s ) {
          say $i;
 
      }
