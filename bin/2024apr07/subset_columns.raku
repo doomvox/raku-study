@@ -22,6 +22,7 @@ for $header.keys -> $i {
     say $colname;
 
     my $s = Set.new( @fields );
+    dd $s;
 
     if ($colname (exists) Set.new( @fields ) ) {
         say $i;
