@@ -71,9 +71,6 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 ***** https://discord.gg/gSFUMrZHQm
 ****** Open Discord invite, no password or secret handshakes.
 
-
-
-
 *** next meetings
 
 **** Sunday April 21, 2024
