@@ -66,6 +66,17 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 **** Notice with zoom link: https://www.perlmonks.org/?node_id=11158682
 **** Studying book "Effective Perl": https://en.wikipedia.org/wiki/Effective_Perl_Programming
 
+Meeting 2: April 25th, 7pm-9pm on Houston Perl Mongers' DISCORD Bunker
+
+Title: Monthly Book Perl Study - Effective Perl Programming
+When: Wed April 25th at 7:00-9:00 PM CT (+6 UTC)
+Where: (virtual, see below):
+What: Brett Estrade will continue to lead a discussion of the current book we're studying.
+
+https://discord.gg/gSFUMrZHQm
+
+Open Discord invite, no password or secret handshakes.
+
 **** CORRECTION: I had the date wrong, the effective perl discussions happen last Wednesdays via dischord.
 
 
