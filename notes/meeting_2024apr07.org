@@ -66,7 +66,6 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 **** Notice with zoom link: https://www.perlmonks.org/?node_id=11158682
 **** Studying book "Effective Perl": https://en.wikipedia.org/wiki/Effective_Perl_Programming
 **** CORRECTION: I had the date wrong, the effective perl discussions happen last Wednesdays via dischord.
-
 ***** Meeting 2: April 25th, 7pm-9pm on Houston Perl Mongers' DISCORD Bunker
 ****** 5pm Pacific Time
 ***** https://discord.gg/gSFUMrZHQm
