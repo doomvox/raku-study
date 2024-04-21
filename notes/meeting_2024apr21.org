@@ -40,6 +40,8 @@
 ****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi
 ****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi#Raku
 
+
+
 *** marton: shadowing of built-ins, possible compatibility problems with new symbols added to core
 **** https://github.com/doomvox/raku-study/blob/main/notes/notes/meeting_2024mar24.org
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024mar24.org
