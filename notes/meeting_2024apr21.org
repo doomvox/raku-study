@@ -36,9 +36,8 @@
 ****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi#Raku
 
 *** marton: shadowing of built-ins
-**** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024mar24.org
-****** https://github.com/doomvox/raku-study/blob/main/notes/notes/meeting_2024mar24.org
-
+**** https://github.com/doomvox/raku-study/blob/main/notes/notes/meeting_2024mar24.org
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024mar24.org
 
 ** announcements 
 
