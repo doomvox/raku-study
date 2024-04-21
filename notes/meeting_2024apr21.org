@@ -38,7 +38,7 @@
 *** marton: shadowing of built-ins, possible compatibility problems with new symbols added to core
 **** https://github.com/doomvox/raku-study/blob/main/notes/notes/meeting_2024mar24.org
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024mar24.org
-**** made comment, had it deleted
+**** made comment, had it deleted (ban side-effect?)
 
 ** announcements 
 
