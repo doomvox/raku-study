@@ -30,6 +30,7 @@
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-265
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-264
+***** wombash solution uses nodemap with $^x / $_
 
 *** Rob on the math thing
 **** confusion about type systems
