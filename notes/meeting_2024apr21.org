@@ -1,0 +1,94 @@
+* meeting notes April 21, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024apr21.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024apr21
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024apr07.org
+
+** topics
+
+*** Rob has a "math thing": 
+**** given a rational number, convert to decimal representation, what accuracy?
+
+**** FatRat for calculating Pi to 70 places with Rats:
+***** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi
+***** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi#Raku
+
+*** javascript octonion calculator
+**** https://jwbales.us/rpnOctonion.html
+**** in boost hyperbolic sin and cosine are buggy
+
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-263
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-262
+
+
+*** Bruce call for remarks on:
+**** https://www.mail-archive.com/perl6-users@perl.org/msg11179.html
+
+
+** old browser tabs
+*** https://raku.land/zef:lizmat/App::Browser
+*** https://raku.land/zef:leont/SQL::Abstract
+
+** previous topics
+
+*** Mark Anderson (andemark) video:
+https://www.youtube.com/watch?v=-MpL0X3AHAs
+
+
+***  Daniel Mita
+**** "Practicing Raku Grammars On Exercism"
+**** https://dev.to/dango/practicing-raku-grammars-on-exercism-36i4
+
+*** Exercism: a language agnostic weekly challenge:
+**** https://exercism.org/challenges/48in24/implementation_status
+
+**** function composition operator
+https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
+***** TODO hm?
+
+*** formatting rows of data as fixed width fields, ala database selects
+**** a script in process
+***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
+
+
+
+
+** announcements 
+
+*** April 11, Thursday, 6pm Central: Houston Perl Mongers: online perl study
+**** Notice with zoom link: https://www.perlmonks.org/?node_id=11158682
+**** Studying book "Effective Perl": https://en.wikipedia.org/wiki/Effective_Perl_Programming
+**** CORRECTION: I had the date wrong, the effective perl discussions happen last Wednesdays via dischord.
+***** Meeting 2: April 25th, 7pm-9pm on Houston Perl Mongers' DISCORD Bunker
+****** 5pm Pacific Time
+***** https://discord.gg/gSFUMrZHQm
+****** Open Discord invite, no password or secret handshakes.
+
+*** next meetings
+
+**** Sunday April 21, 2024
+**** Sunday May 5, 2024
+**** Sunday May 19, 2024
+**** Sunday June 2, 2024
+**** Sunday June 16, 2024 (tenatative: this is father's day)
+**** Sunday June 30, 2024
+
+*** YAPC Las Vegas, June 24-28
+**** call for papers 
+**** Scientific track (perl *and* raku): https://science.perlcommunity.org/spj
+
+** follow-up
+*** mention houston perl mongers on sf-perl list
+**** david?
+
+*** https://blogs.perl.org/users/bruce_gray/raku/
+
+*** look at match objects with mixed named and positionals: hashify, listify, what wins?
+
