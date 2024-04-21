@@ -40,6 +40,8 @@
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024mar24.org
 **** made comment, had it deleted (ban side-effect?)
 
+
+
 ** announcements 
 
 *** April 11, Thursday, 6pm Central: Houston Perl Mongers: online perl study
