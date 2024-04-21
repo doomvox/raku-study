@@ -29,6 +29,7 @@
 *** Rob on the math thing
 **** confusion about type sequence
 
+
 ** announcements 
 
 *** April 11, Thursday, 6pm Central: Houston Perl Mongers: online perl study
