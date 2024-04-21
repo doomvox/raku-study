@@ -28,7 +28,13 @@
 
 *** Rob on the math thing
 **** confusion about type sequence
+***** from last meeting
 
+****** given a rational number, convert to decimal representation, what accuracy?
+
+***** FatRat for calculating Pi to 70 places with Rats:
+****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi
+****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi#Raku
 
 ** announcements 
 
