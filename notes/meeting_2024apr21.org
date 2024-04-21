@@ -45,7 +45,7 @@
 **** Scientific track (perl *and* raku): https://science.perlcommunity.org/spj
 
 ** follow-up
-*** mention houston perl mongers on sf-perl list
+*** mention houston perl mongers on sf-perl list (again)
 **** david?
 
 *** https://blogs.perl.org/users/bruce_gray/raku/
