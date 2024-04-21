@@ -19,8 +19,9 @@
 **** 
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec03/issue_407_comma_sep_sequences.raku
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/issue_407_comma_sep_sequences.raku
-***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec03/mark_a_question_match_warning.raku
-****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/mark_a_question_match_warning.raku
+
+***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec03/
+****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-265
