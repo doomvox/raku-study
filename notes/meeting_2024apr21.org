@@ -78,6 +78,8 @@
 **** call for papers 
 **** Scientific track (perl *and* raku): https://science.perlcommunity.org/spj
 
+*** Raku conferences comeing up?
+
 ** follow-up
 *** mention houston perl mongers on sf-perl list (again)
 **** david?
