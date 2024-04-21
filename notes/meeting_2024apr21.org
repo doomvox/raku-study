@@ -22,6 +22,11 @@
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec03/
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/
 
+
+**** side issues: complex ranges, range inclusion checks (feature request)
+
+**** question: can you check later whether a range is inclusive or exclusive
+
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-265
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-264
