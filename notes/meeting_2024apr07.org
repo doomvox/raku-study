@@ -57,9 +57,6 @@ https://github.com/Raku/doc/edit/main/doc/Language/operators.rakudoc
 **** a script in process
 ***** /home/doom/End/Cave/ImagePubStopGap/bin/ls2org.raku
 
-
-
-
 ** announcements 
 
 *** April 11, Thursday, 6pm Central: Houston Perl Mongers: online perl study
