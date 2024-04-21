@@ -29,7 +29,6 @@
 *** Rob on the math thing
 **** confusion about type sequence
 ***** from last meeting
-
 ****** given a rational number, convert to decimal representation, what accuracy?
 
 ***** FatRat for calculating Pi to 70 places with Rats:
