@@ -24,7 +24,6 @@
 **** side issues: complex ranges, range inclusion checks (feature request)
 
 **** question: can you check later whether a range is inclusive or exclusive
-
 ***** yes:  .max and .max-excludes  etc.
 
 *** weekly challenge
