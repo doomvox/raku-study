@@ -29,10 +29,14 @@
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-265
+***** raku regexps for non-letter chars
+****** <:!L> # unicode style
+****** <-:L> # raku style 
+
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-264
 ***** wombash solution uses nodemap with $^x / $_
 
-**** mark a points out in 6.e comb has rotor features:
+**** Mark A points out in 6.e comb has rotor features:
 ***** say "abcde".comb(3 => -2);             # OUTPUT: «(abc bcd cde)␤»
 
 *** Rob on the math thing
