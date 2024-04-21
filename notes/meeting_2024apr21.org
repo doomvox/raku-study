@@ -35,6 +35,10 @@
 ****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi
 ****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi#Raku
 
+*** marton: shadowing of built-ins
+
+
+
 ** announcements 
 
 *** April 11, Thursday, 6pm Central: Houston Perl Mongers: online perl study
