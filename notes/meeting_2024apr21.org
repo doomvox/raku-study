@@ -15,6 +15,11 @@
 *** comma-separated triple-dot
 **** https://github.com/Raku/problem-solving/issues/407
 
+
+**** 
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/issue_407_comma_sep_sequences.raku
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/mark_a_question_match_warning.raku
+
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-265
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-264
@@ -48,7 +53,4 @@
 *** mention houston perl mongers on sf-perl list (again)
 **** david?
 
-*** https://blogs.perl.org/users/bruce_gray/raku/
-
-*** look at match objects with mixed named and positionals: hashify, listify, what wins?
 
