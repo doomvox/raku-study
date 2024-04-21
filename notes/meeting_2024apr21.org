@@ -32,7 +32,7 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-264
 
 *** Rob on the math thing
-**** confusion about type sequence
+**** confusion about type systems
 ***** from last meeting:
 ****** given a rational number, convert to decimal representation, what accuracy?
 
