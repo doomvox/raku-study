@@ -10,6 +10,12 @@ use v6;
 # **** https://github.com/Raku/problem-solving/issues/407
 
 
+my $scalar = (3,7);
+say $scalar;
+
+
+
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
