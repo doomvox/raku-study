@@ -38,7 +38,7 @@
 **** Mark A points out in 6.e comb has rotor features:
 ***** say "abcde".comb(3 => -2);             # OUTPUT: «(abc bcd cde)␤»
 
-*** TODO Rob on the math thing
+*** Rob on the math thing
 **** confusion about type systems
 ***** from last meeting:
 ****** given a rational number, convert to decimal representation, what accuracy?
