@@ -21,6 +21,7 @@ say $seq1; # (1..3 7..9)
 dd $seq1;  # List $seq1 = $(1..3, 7..9)
 ## A list of two ranges
 
+## chained triple dot, why no 8?
 my $seq2 = (1...3,7...9);
 say $seq2; # (1 2 3 7 9)
 dd $seq2;
