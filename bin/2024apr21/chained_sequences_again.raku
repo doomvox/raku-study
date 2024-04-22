@@ -5,7 +5,10 @@
 use v6;
 
 
-/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024apr21.org
+# /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024apr21.org
+# *** comma-separated triple-dot
+# **** https://github.com/Raku/problem-solving/issues/407
+
 
 
 # ===
