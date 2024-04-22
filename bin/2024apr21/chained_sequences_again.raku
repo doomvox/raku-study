@@ -26,6 +26,9 @@ say $seq1; # (1..3 7..9)
 dd $seq2;
 # Seq $seq2 = $((1, 2, 3, 7, 9).Seq)  # But why no 8?
 
+my $seq3 = (1...3,7...9);
+
+
 # ===
 # Author:  doom@kzsu.stanford.edu
 
