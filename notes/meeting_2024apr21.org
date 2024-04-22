@@ -53,6 +53,9 @@
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024mar24.org
 **** made comment, had it deleted (ban side-effect?)
 
+*** splice issue:
+https://github.com/Raku/problem-solving/issues/423
+
 
 ** announcements 
 
