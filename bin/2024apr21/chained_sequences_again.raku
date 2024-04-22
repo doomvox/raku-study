@@ -14,6 +14,7 @@ my $scalar = (3,7);
 say $scalar; # (3 7)
 
 my $s2 = (3,7).flat;
+say $s2;
 # (3 7)
 
 
