@@ -16,6 +16,9 @@ say $scalar; # (3 7)
 my $s2 = (3,7).flat;
 say $s2; # (3 7)
 
+my $seq1 = (1..3,7..9);
+
+
 
 # ===
 # Author:  doom@kzsu.stanford.edu
