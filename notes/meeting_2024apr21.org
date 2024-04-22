@@ -38,7 +38,7 @@
 **** Mark A points out in 6.e comb has rotor features:
 ***** say "abcde".comb(3 => -2);             # OUTPUT: «(abc bcd cde)␤»
 
-*** Rob on the math thing
+*** TODO Rob on the math thing
 **** confusion about type systems
 ***** from last meeting:
 ****** given a rational number, convert to decimal representation, what accuracy?
@@ -53,7 +53,7 @@
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024mar24.org
 **** made comment, had it deleted (ban side-effect?)
 
-*** splice issue:
+*** TODO splice issue:
 https://github.com/Raku/problem-solving/issues/423
 
 
