@@ -5,6 +5,9 @@
 use v6;
 
 
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024apr21.org
+
+
 # ===
 # Author:  doom@kzsu.stanford.edu
 
