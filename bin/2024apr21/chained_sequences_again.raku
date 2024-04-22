@@ -11,9 +11,9 @@ use v6;
 
 
 my $scalar = (3,7);
-say $scalar;
+say $scalar; # (3 7)
 
-
+my $s2 = flat (3,7);
 
 
 
