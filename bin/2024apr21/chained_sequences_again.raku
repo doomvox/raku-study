@@ -33,11 +33,12 @@ dd $seq2a;
 # ((1 2 3) (7 8 9))  # we get the 8, but with deeper structure
 # List $seq2a = $((1, 2, 3).Seq, (7, 8, 9).Seq)
 
-
-
+## more parens plus a flat gets you expected behavior -- at least what I would expect.
 my $seq2b = ((1...3),(7...9)).flat;
 say $seq2b; 
 dd $seq2b;
+# (1 2 3 7 8 9)
+# Seq $seq2b = $((1, 2, 3, 7, 8, 9).Seq)
 
 
 
