@@ -35,7 +35,7 @@ dd $seq2a;
 
 
 
-my $seq2b = ((1...3),(7...9));
+my $seq2b = ((1...3),(7...9)).flat;
 say $seq2b; 
 dd $seq2b;
 
