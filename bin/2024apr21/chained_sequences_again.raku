@@ -9,7 +9,6 @@ use v6;
 # *** comma-separated triple-dot
 # **** https://github.com/Raku/problem-solving/issues/407
 
-
 my $scalar = (3,7);
 say $scalar; # (3 7)
 
