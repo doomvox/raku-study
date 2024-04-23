@@ -29,7 +29,7 @@ dd $seq2;
 my $seq2a = (1...3,7...9);
 say $seq2a; # (1 2 3 7 9)
 dd $seq2a;
-# Seq $seq2a = $((1, 2, 3, 7, 9).Seq)  
+
 
 
 
