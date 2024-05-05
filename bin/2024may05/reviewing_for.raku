@@ -4,7 +4,7 @@
 
 use v6;
 
-my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
+my @monsters = < godzilla mothera ghidora >;
 for @monsters -> $m {
     say "m: $m";
     }
