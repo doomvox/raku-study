@@ -13,3 +13,4 @@ my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024may05/data/iss
 #              END .put for @lines;'  file
 
 my @lines = $file.IO.slurp;
+say @lines;
