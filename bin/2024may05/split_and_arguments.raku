@@ -23,4 +23,4 @@ for @dat {
     END .put for @lines;
 }
 
-say @lines;
+
