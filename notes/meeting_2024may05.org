@@ -31,13 +31,9 @@ https://github.com/Raku/problem-solving/issues/423
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec03/
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/
 
-**** side issues: complex ranges, range inclusion checks (feature request)
 
-**** question: can you check later whether a range is inclusive or exclusive
-***** yes:  .max and .max-excludes  etc.
 
-**** Mark A points out in 6.e comb has rotor features:
-***** say "abcde".comb(3 => -2);             # OUTPUT: «(abc bcd cde)␤»
+
 
 *** Rob on the math thing
 **** confusion about type systems
@@ -79,3 +75,5 @@ https://github.com/Raku/problem-solving/issues/423
 **** https://github.com/doomvox/raku-study/blob/main/notes/notes/meeting_2024mar24.org
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024mar24.org
 **** made comment, had it deleted (ban side-effect?)
+
+**** TODO feature request: complex ranges, range inclusion checks 
