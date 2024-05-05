@@ -13,4 +13,13 @@ my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024may05/data/iss
 #              END .put for @lines;'  file
 
 my @lines = $file.IO.slurp;
-say @lines;
+# say @lines;
+
+foreach @lines {
+    BEGIN my @lines; 
+                push @lines, $_; 
+                splice @lines, 0, 3 if /banana/; 
+                put shift @lines if @lines > 2; 
+    END .put for @lines;
+
+}
