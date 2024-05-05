@@ -11,12 +11,8 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024apr21.org
 
 ** topics
-
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-266
-***** raku regexps for non-letter chars
-****** <:!L> # unicode style
-****** <-:L> # raku style 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-267
 
 ** old topics
