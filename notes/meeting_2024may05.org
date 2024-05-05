@@ -15,6 +15,7 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-266
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-267
 
+
 ** old topics
 *** comma-separated triple-dot
 **** https://github.com/Raku/problem-solving/issues/407
@@ -31,11 +32,6 @@
 **** question: can you check later whether a range is inclusive or exclusive
 ***** yes:  .max and .max-excludes  etc.
 
-*** weekly challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-265
-***** raku regexps for non-letter chars
-****** <:!L> # unicode style
-****** <-:L> # raku style 
 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-264
 ***** wambash solution uses nodemap with $^x / $_
