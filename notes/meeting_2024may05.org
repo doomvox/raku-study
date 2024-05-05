@@ -17,8 +17,8 @@
 
 
 *** TODO splice issue:
-https://github.com/Raku/problem-solving/issues/423
-
+**** https://github.com/Raku/problem-solving/issues/423
+**** https://github.com/Raku/problem-solving/issues/419
 
 ** old topics
 *** comma-separated triple-dot
