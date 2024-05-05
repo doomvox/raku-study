@@ -5,6 +5,8 @@
 use v6;
 
 my @monsters = < godzilla mothera ghidora >;
+
+## All three forms are identical
 for @monsters -> $m {
     say "m: $m";
     }
