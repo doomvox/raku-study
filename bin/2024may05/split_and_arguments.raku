@@ -34,8 +34,8 @@ my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024may05/data/iss
 # Then extract the first element, but only if there's more than 2, and print
 #                put shift @lines if @lines > 2; 
 
+# At the end print each line left in @lines.
 
-                put shift @lines if @lines > 2; 
 
 
 
