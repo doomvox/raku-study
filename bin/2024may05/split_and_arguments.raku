@@ -23,3 +23,5 @@ for @lines {
     END .put for @lines;
 
 }
+
+say @lines;
