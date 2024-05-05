@@ -1,0 +1,89 @@
+* meeting notes May 5, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024may05.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024may05
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024apr21.org
+
+** topics
+*** comma-separated triple-dot
+**** https://github.com/Raku/problem-solving/issues/407
+
+**** 
+***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec03/issue_407_comma_sep_sequences.raku
+****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/issue_407_comma_sep_sequences.raku
+
+***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec03/
+****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/
+
+**** side issues: complex ranges, range inclusion checks (feature request)
+
+**** question: can you check later whether a range is inclusive or exclusive
+***** yes:  .max and .max-excludes  etc.
+
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-265
+***** raku regexps for non-letter chars
+****** <:!L> # unicode style
+****** <-:L> # raku style 
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-264
+***** wambash solution uses nodemap with $^x / $_
+
+**** Mark A points out in 6.e comb has rotor features:
+***** say "abcde".comb(3 => -2);             # OUTPUT: «(abc bcd cde)␤»
+
+*** Rob on the math thing
+**** confusion about type systems
+***** from last meeting:
+****** given a rational number, convert to decimal representation, what accuracy?
+
+***** FatRat for calculating Pi to 70 places with Rats:
+****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi
+****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi#Raku
+
+
+*** marton: shadowing of built-ins, possible compatibility problems with new symbols added to core
+**** https://github.com/doomvox/raku-study/blob/main/notes/notes/meeting_2024mar24.org
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024mar24.org
+**** made comment, had it deleted (ban side-effect?)
+
+*** TODO splice issue:
+https://github.com/Raku/problem-solving/issues/423
+
+** announcements 
+
+*** April 11, Thursday, 6pm Central: Houston Perl Mongers: online perl study
+**** Notice with zoom link: https://www.perlmonks.org/?node_id=11158682
+**** Studying book "Effective Perl": https://en.wikipedia.org/wiki/Effective_Perl_Programming
+**** CORRECTION: I had the date wrong, the effective perl discussions happen last Wednesdays via dischord.
+***** Meeting 2: April 25th, 7pm-9pm on Houston Perl Mongers' DISCORD Bunker
+****** 5pm Pacific Time
+***** https://discord.gg/gSFUMrZHQm
+****** Open Discord invite, no password or secret handshakes.
+**** Is it Wed the 24th or Thur the 25th?  Note: figure that out, send mail to sf perl
+
+*** next meetings
+
+**** Sunday May 5, 2024
+**** Sunday May 19, 2024
+**** Sunday June 2, 2024
+**** Sunday June 16, 2024 (tenatative: this is father's day)
+**** Sunday June 30, 2024
+
+*** YAPC Las Vegas, June 24-28
+**** call for papers 
+**** Scientific track (perl *and* raku): https://science.perlcommunity.org/spj
+
+*** Raku conferences coming up?
+
+** follow-up
+*** mention houston perl mongers on sf-perl list (again)
+**** david?
+
+
