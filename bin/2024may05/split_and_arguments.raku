@@ -37,6 +37,7 @@ my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024may05/data/iss
 # At the end print each line left in @lines.
 
 
+
 ## TODO having trouble going from -ne form to a single script
 
 my @dat = $file.IO.slurp;
