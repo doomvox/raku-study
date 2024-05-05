@@ -21,7 +21,6 @@ for @dat {
                 splice @lines, 0, 3 if /banana/; 
                 put shift @lines if @lines > 2; 
     END .put for @lines;
-
 }
 
-# say @lines;
+say @lines;
