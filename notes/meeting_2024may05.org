@@ -30,10 +30,6 @@ https://github.com/Raku/problem-solving/issues/423
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec03/
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/
 
-
-
-
-
 *** Rob on the math thing
 **** confusion about type systems
 ***** from last meeting:
