@@ -41,6 +41,7 @@ my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024may05/data/iss
 my @dat = $file.IO.slurp;
 my @lines;
 for @dat {
+    say $_;
     push @lines, $_; 
     say "xxx: ", @lines.elems, @lines[*-1], "\n";
     splice @lines, 0, 3 if /banana/; 
