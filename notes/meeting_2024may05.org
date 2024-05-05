@@ -69,7 +69,6 @@ https://github.com/Raku/problem-solving/issues/423
 **** Is it Wed the 24th or Thur the 25th?  Note: figure that out, send mail to sf perl
 
 *** next meetings
-
 **** Sunday May 5, 2024
 **** Sunday May 19, 2024
 **** Sunday June 2, 2024
