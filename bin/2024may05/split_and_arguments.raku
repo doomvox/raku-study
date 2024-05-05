@@ -21,6 +21,24 @@ my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024may05/data/iss
 # 11
 
 
+## TODO not really seeing the *point* of the operations.
+
+
+# Foreach line of data, we first add it to @lines
+#                push @lines, $_; 
+
+# Then, for the special case of a "banana" line
+#                splice @lines, 0, 3 if /banana/; 
+# A chunk of 3 lines at the beginning will be deleted.
+
+# Then extract the first element, but only if there's more than 2, and print
+#                put shift @lines if @lines > 2; 
+
+
+                put shift @lines if @lines > 2; 
+
+
+
 my @dat = $file.IO.slurp;
 # say @lines;
 
