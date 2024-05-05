@@ -86,9 +86,9 @@ https://github.com/Raku/problem-solving/issues/423
 *** mention houston perl mongers on sf-perl list (again)
 **** david?
 
-**** odd constructs
-****** nodemap with $^x / $_
-****** see wambash solution 
+*** odd constructs
+***** nodemap with $^x / $_
+***** see wambash solution 
 
-******* https://theweeklychallenge.org/blog/perl-weekly-challenge-264
+****** https://theweeklychallenge.org/blog/perl-weekly-challenge-264
 
