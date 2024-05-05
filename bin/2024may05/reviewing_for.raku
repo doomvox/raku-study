@@ -9,6 +9,9 @@ for @monsters -> $m {
     say "m: $m";
     }
 
+for @monsters -> $_ {
+    say "m: $_";
+    }
 
 
 
