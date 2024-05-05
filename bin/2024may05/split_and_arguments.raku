@@ -38,7 +38,7 @@ my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024may05/data/iss
 
 ## TODO having trouble going from -ne form to a script
 
-my @dat = $file.IO.slurp;
+my @dat = $file.IO.slurp.split;
 my @lines;
 for @dat -> $_ {
     say $_;
