@@ -15,7 +15,7 @@ my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024may05/data/iss
 my @lines = $file.IO.slurp;
 # say @lines;
 
-foreach @lines {
+for @lines {
     BEGIN my @lines; 
                 push @lines, $_; 
                 splice @lines, 0, 3 if /banana/; 
