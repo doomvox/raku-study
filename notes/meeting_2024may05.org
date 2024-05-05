@@ -48,13 +48,10 @@
 ****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi#Raku
 
 
-*** marton: shadowing of built-ins, possible compatibility problems with new symbols added to core
-**** https://github.com/doomvox/raku-study/blob/main/notes/notes/meeting_2024mar24.org
-***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024mar24.org
-**** made comment, had it deleted (ban side-effect?)
 
 *** TODO splice issue:
 https://github.com/Raku/problem-solving/issues/423
+
 
 ** announcements 
 
@@ -81,3 +78,8 @@ https://github.com/Raku/problem-solving/issues/423
 
 ****** https://theweeklychallenge.org/blog/perl-weekly-challenge-264
 
+
+*** marton: shadowing of built-ins, possible compatibility problems with new symbols added to core
+**** https://github.com/doomvox/raku-study/blob/main/notes/notes/meeting_2024mar24.org
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024mar24.org
+**** made comment, had it deleted (ban side-effect?)
