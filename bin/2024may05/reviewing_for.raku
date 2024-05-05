@@ -10,15 +10,15 @@ my @monsters = < godzilla mothera ghidora >;
 for @monsters -> $m {
     say "m: $m";
     }
-
+say "---";
 for @monsters -> $_ {
     say "M: $_";
     }
-
+say "---";
 for @monsters  {
     say "  M: $_";
     }
-
+say "---";
 
 
 # ====
