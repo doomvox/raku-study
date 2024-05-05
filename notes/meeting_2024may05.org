@@ -19,8 +19,6 @@
 ****** <-:L> # raku style 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-267
 
-
-
 ** old topics
 *** comma-separated triple-dot
 **** https://github.com/Raku/problem-solving/issues/407
