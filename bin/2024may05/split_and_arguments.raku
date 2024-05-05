@@ -12,6 +12,15 @@ my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024may05/data/iss
 #                put shift @lines if @lines > 2; 
 #              END .put for @lines;'  file
 
+
+# Output:
+# 1
+# 5
+# 9
+# 10
+# 11
+
+
 my @dat = $file.IO.slurp;
 # say @lines;
 
