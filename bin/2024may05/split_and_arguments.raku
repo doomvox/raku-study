@@ -17,10 +17,8 @@ my @dat = $file.IO.slurp;
 
 my @lines;
 for @dat {
-    BEGIN {  @lines; 
-                push @lines, $_; 
-                splice @lines, 0, 3 if /banana/; 
-                put shift @lines if @lines > 2; 
-          }
+    push @lines, $_; 
+    splice @lines, 0, 3 if /banana/; 
+    put shift @lines if @lines > 2; 
 }
 .put for @lines;
