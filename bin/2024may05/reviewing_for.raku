@@ -13,7 +13,7 @@ for @monsters -> $_ {
     say "M: $_";
     }
 
-for @monsters -> $_ {
+for @monsters  {
     say "  M: $_";
     }
 
