@@ -47,8 +47,6 @@
 ****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi
 ****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi#Raku
 
-
-
 *** TODO splice issue:
 https://github.com/Raku/problem-solving/issues/423
 
