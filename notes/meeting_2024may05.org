@@ -11,6 +11,9 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024apr21.org
 
 ** topics
+*** off-topic rambling
+**** today's theme
+
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-266
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-267
