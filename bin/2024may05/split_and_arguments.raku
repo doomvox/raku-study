@@ -42,7 +42,7 @@ my @dat = $file.IO.slurp;
 my @lines;
 for @dat {
     push @lines, $_; 
-    say @lines.elems, @lines[*-1];
+    say "xxx: ", @lines.elems, @lines[*-1];
     splice @lines, 0, 3 if /banana/; 
     put shift @lines if @lines > 2; 
 }
