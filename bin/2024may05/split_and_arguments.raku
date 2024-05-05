@@ -12,10 +12,10 @@ my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024may05/data/iss
 #                put shift @lines if @lines > 2; 
 #              END .put for @lines;'  file
 
-my @lines = $file.IO.slurp;
+my @dat = $file.IO.slurp;
 # say @lines;
 
-for @lines {
+for @dat {
     BEGIN my @lines; 
                 push @lines, $_; 
                 splice @lines, 0, 3 if /banana/; 
@@ -24,4 +24,4 @@ for @lines {
 
 }
 
-say @lines;
+# say @lines;
