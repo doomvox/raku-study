@@ -14,6 +14,8 @@
 *** off-topic rambling
 **** today's theme
 
+*** dicussion of two drive mirroring
+
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-266
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-267
