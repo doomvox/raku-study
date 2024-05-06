@@ -17,7 +17,7 @@
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-266
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-267
-
+***** only got through 267 task 2
 
 *** TODO splice issue:
 **** https://github.com/Raku/problem-solving/issues/423
