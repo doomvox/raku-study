@@ -55,7 +55,7 @@
 **** Sunday June 30, 2024
 
 *** YAPC Las Vegas, June 24-28
-**** call for papers 
+**** call for papers is over
 **** Scientific track (perl *and* raku): https://science.perlcommunity.org/spj
 
 *** Raku conferences coming up?
