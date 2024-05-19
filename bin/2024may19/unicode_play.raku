@@ -26,6 +26,6 @@ use v6;
 
 {
     my $s = "\x[d835]\x[dcaf]\x[d835]\x[dcae]\x[d835]\x[dca9]";
-
+    say $s;
 
 }
