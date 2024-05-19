@@ -38,7 +38,6 @@ my @l .push: .shift;
 ## .shift is called on $_, but .push acts on @l 
 #+END_SRC raku
 
-
 *** TODO splice issue:
 **** https://github.com/Raku/problem-solving/issues/423
 **** https://github.com/Raku/problem-solving/issues/419
