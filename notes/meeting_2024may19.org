@@ -18,7 +18,7 @@
 **** "I do not know what the language of the future will look like but I know we will call it FORTRAN."
 ***** attributed to Tony Hoare 1981 or 2
 ***** Rob Ransbottom:.  https://news.ycombinator.com/item?id=26978094
-***** my guess was:  Stan Kelly-Bootle
+***** my guess was Stan Kelly-Bootle
 
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-267
