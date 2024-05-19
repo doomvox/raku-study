@@ -14,6 +14,6 @@ for $str.comb -> $c {
 }
 
 
-for $str.bytes -> $c {
-    say "c: $c";
+for $str.bytes -> $b {
+    say "c: $b";
 }
