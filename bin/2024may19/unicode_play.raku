@@ -13,7 +13,6 @@ for $str.comb -> $c {
     say "c: $c";
 }
 
-
 for $str.bytes -> $b {
     say "c: $b";
 }
