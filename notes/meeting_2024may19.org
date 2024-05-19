@@ -34,6 +34,7 @@
 #+BEGIN_SRC raku
 $_ := @a;
 my @l .push: .shift;
+## @l.push is *different* than this, uses one last line
 #+END_SRC raku
 
 
