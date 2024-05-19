@@ -13,7 +13,6 @@
 ** topics
 
 *** weekly challenge
-
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-267
 ***** last time, only got through 267 task 2
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-266
