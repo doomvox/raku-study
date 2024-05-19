@@ -25,8 +25,8 @@ use v6;
 }
 
 {
-    my $s = "\x[d835]\x[dcaf]\x[d835]\x[dcae]\x[d835]\x[dca9]";
-    say $s;
+#    my $s = "\x[d835]\x[dcaf]\x[d835]\x[dcae]\x[d835]\x[dca9]";
+#    say $s;
     ## Error encoding UTF-8 string: could not encode Unicode Surrogate codepoint 55349 (0xD835)
     ##   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024may19/unicode_play.raku line 29
 
