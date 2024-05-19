@@ -13,6 +13,9 @@ for $str.comb -> $c {
     say "c: $c";
 }
 
-for $str.encode('utf8').bytes -> $b {
-    say "c: $b";
-}
+my $byte_length = $str.encode('utf8').bytes;
+say $byte_length;
+
+# for $str.encode('utf8').bytes -> $b {
+#     say "c: $b";
+# }
