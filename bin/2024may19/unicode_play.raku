@@ -13,6 +13,6 @@ for $str.comb -> $c {
     say "c: $c";
 }
 
-for $str.bytes -> $b {
+for $str.encode('utf8').bytes -> $b {
     say "c: $b";
 }
