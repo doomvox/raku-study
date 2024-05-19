@@ -29,6 +29,14 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-269
 
 
+*** Rob idiom:
+
+#+BEGIN_SRC raku
+$_ := @a;
+my @l .push: .shift;
+#+END_SRC raku
+
+
 *** TODO splice issue:
 **** https://github.com/Raku/problem-solving/issues/423
 **** https://github.com/Raku/problem-solving/issues/419
