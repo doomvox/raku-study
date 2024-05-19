@@ -11,15 +11,15 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024may05.org
 
 ** topics
-*** off-topic rambling
-**** today's theme
-
-*** dicussion of two drive mirroring
 
 *** weekly challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-266
+
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-267
-***** only got through 267 task 2
+***** last time, only got through 267 task 2
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-266
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-268
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-269
+
 
 *** TODO splice issue:
 **** https://github.com/Raku/problem-solving/issues/423
