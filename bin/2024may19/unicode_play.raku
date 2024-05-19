@@ -32,7 +32,7 @@ use v6;
 
    
     my $s = "\x[d835]\x[dcaf]\x[d835]\x[dcae]\x[d835]\x[dca9]".encode('utf16');
-    say $s;
+    say $s;  # utf16:0x<D835 DCAF D835 DCAE D835 DCA9>  ((?))
 
 
 }
