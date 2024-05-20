@@ -36,7 +36,7 @@
 
 
 
-
+*** Cog Proof Assistant: https://coq.inria.fr/
 
 *** identify that quote:
 **** "I do not know what the language of the future will look like but I know we will call it FORTRAN."
