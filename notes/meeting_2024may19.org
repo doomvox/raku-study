@@ -64,8 +64,6 @@ but I think it's silly to demand that the user has to write `my $/
 
 *** Cog Proof Assistant: https://coq.inria.fr/
 
-
-
 *** Tim Schafer
 **** https://replit.com/@srcerer/PythonSandBox
 
