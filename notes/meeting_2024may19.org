@@ -22,12 +22,17 @@
 ***** my guess was Stan Kelly-Bootle
 
 *** weekly challenge
+**** the problems 
+***** https://theweeklychallenge.org
+**** the solutions
+***** https://github.com/manwar/perlweeklychallenge-club/
+
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-267
 ***** last time, only got through 267 task 2
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-266
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-268
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-269
-
+***** and this time, only got through 269, task 2
 
 *** Rob idiom:
 
