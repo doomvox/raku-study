@@ -8,6 +8,6 @@ sub dostuff {
     say "Stuff it!";
     }
 
-my $code = %dostuff;
+my $code = &dostuff;
 
 say $code.name;
