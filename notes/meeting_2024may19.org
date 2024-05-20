@@ -138,6 +138,7 @@ my @l .push: .shift;
 ****** Bruce Gray's solution:
 
 ******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-269/bruce-gray/raku/ch-2.raku
+******* https://github.com/Util/perlweeklychallenge-club/blob/c269/challenge-269/bruce-gray/raku/ch-2.raku
 
 ******* discussed his test running boilerplate
 
