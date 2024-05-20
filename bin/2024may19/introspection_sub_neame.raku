@@ -13,4 +13,4 @@ my $code = &dostuff;
 say $code.name;
 
 
-## could simplify bruce's code runner boilerplate
+## could simplify bruce's code runner boilerplate, instead of using pairs
