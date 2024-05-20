@@ -48,7 +48,6 @@ my @l .push: .shift;
 ## .shift is called on $_, but .push acts on @l 
 #+END_SRC raku
 
-
 ******* dicussed raku's multidispatch
 ******** https://docs.raku.org/language/glossary#Multi-dispatch
 
