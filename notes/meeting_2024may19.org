@@ -69,6 +69,12 @@ but I think it's silly to demand that the user has to write `my $/
 s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"
 #+END_SRC
 
+**** Bruce Gray shows Raku pretty much just works
+#+BEGIN_SRC sh 
+	raku -e 'my $s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"; .say for $s.comb;'
+#+END_SRC
+
+
 **** https://replit.com/@srcerer/PythonSandBox
 
 **** William Michels: https://unix.stackexchange.com/questions/459521/how-to-truncate-file-to-maximum-number-of-characters-not-bytes/751267#751267
