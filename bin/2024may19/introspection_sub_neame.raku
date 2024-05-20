@@ -10,3 +10,4 @@ sub dostuff {
 
 my $code = %dostuff;
 
+say $code.name;
