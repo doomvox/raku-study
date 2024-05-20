@@ -7,3 +7,6 @@ use v6;
 sub dostuff {
     say "Stuff it!";
     }
+
+my $code = %dostuff;
+
