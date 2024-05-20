@@ -16,7 +16,7 @@
 
 *** identify that quote:
 **** "I do not know what the language of the future will look like but I know we will call it FORTRAN."
-***** attributed to Tony Hoare 1982
+***** attributed to Tony Hoare ~1982
 ***** Rob Ransbottom:.  https://news.ycombinator.com/item?id=26978094
 ****** "I don't know what the language of the year 2000 will look like, but I know it will be called Fortran." —Tony Hoare
 ***** my guess was Stan Kelly-Bootle
