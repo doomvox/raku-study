@@ -27,9 +27,13 @@
 
 
 
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/talks/new_year_raku/A2-raku_features.org
+
+/home/doom/End/Cave/RakuStudy/bin/powers_of_two
 
 
-**** https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw
+
+
 
 
 
