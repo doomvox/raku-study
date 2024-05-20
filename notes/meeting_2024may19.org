@@ -149,7 +149,7 @@ task2_basic => &task2_basic
 
 # is this (no need to repeat the name):
 :&task2_basic
-
+#+END_SRC
 
 *** TODO splice issue:
 **** https://github.com/Raku/problem-solving/issues/423
