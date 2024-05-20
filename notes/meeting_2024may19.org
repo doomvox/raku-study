@@ -124,7 +124,7 @@ $_ := @a;
 my @l .push: .shift;
 ## @l.push is *different* than this, this uses one last line 
 ## .shift is called on $_, but .push acts on @l 
-#+END_SRC raku
+#+END_SRC
 
 ******* dicussed raku's multidispatch
 ******** https://docs.raku.org/language/glossary#Multi-dispatch
@@ -142,12 +142,12 @@ my @l .push: .shift;
 ******* discussed his test running boilerplate
 
 ******** pair notation
-
-********* short hand for:
 #+BEGIN_SRC raku
-task2_basic => &task2_basic
-#+END_SRC
+# A shorter version of this:
 
+task2_basic => &task2_basic
+
+# is this (no need to repeat the name):
 :&task2_basic
 
 
