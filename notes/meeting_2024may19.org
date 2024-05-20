@@ -95,6 +95,9 @@ s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"
 **** https://rafal.io/static/papers/why_programming_is_minsky.pdf
 
 
+*** Willaim Michels: William Michels To Everyone:
+	Current "Type System" discussion on Github: https://github.com/Raku/problem-solving/issues/426
+
 *** Discussion of prospects for "AI" turning to really be AI
 
 **** 
