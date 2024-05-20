@@ -14,6 +14,9 @@
 
 *** Welcome Tim Schafer
 **** Sacramento area
+**** uses Nix
+***** https://en.wikipedia.org/wiki/Nix_(package_manager)
+
 **** Ended up here via 
 ***** meetup's "algorithm" 
 ***** heard of Raku via the "gremlins" article
