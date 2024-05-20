@@ -73,6 +73,7 @@ but I think it's silly to demand that the user has to write `my $/
 
 *** Discussion of prospects for "AI" turning to really be AI
 
+**** 
 
 *** weekly challenge
 **** the problems 
