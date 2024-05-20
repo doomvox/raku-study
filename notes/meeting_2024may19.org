@@ -155,7 +155,7 @@ task2_basic => &task2_basic
 #+BEGIN_SRC raku
 with &task2_basic {
   say .name, $_( @args);
-|
+}
 #+END_SRC
 
 *** TODO splice issue:
