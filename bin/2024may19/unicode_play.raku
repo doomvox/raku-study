@@ -41,7 +41,7 @@ use v6;
 
 {
 
-# Bruce Gray: 
+## Bruce Gray: 
 
 # 	raku -e 'my $s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"; say uniname($_) for $s.comb;'
 # 	    LATIN SMALL LETTER A
@@ -53,13 +53,13 @@ use v6;
 # 	    MEDIUM WHITE CIRCLE
 # 	    VERTICAL LINE
 # 	    MAN
-# 	Great! Problem solved, right?
+# 	# Great! Problem solved, right?
 
 # 	raku -e 'my $s = "abc|\c[MEDIUM BLACK CIRCLE]\n\c[MEDIUM WHITE CIRCLE]\c[VERTICAL LINE]\c[MAN]"; say $s.raku;'
 # 	    "abc|⚫\n⚪|👨"
 
-            # Ooh! So close.
-            # See http://blog.unicode.org/2023/01/whats-new-in-emoji-151.html
+#           # Ooh! So close.
+#           # See http://blog.unicode.org/2023/01/whats-new-in-emoji-151.html
 
 }
 
