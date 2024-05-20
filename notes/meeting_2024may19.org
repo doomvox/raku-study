@@ -65,6 +65,8 @@ but I think it's silly to demand that the user has to write `my $/
 *** Cog Proof Assistant: https://coq.inria.fr/
 
 *** Tim Schafer has issues with Unicode strings in various languages (Javascript, Python)
+**** emoji (codepoints in the astral plane)
+
 #+BEGIN_SRC sh 
 s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"
 #+END_SRC
@@ -78,6 +80,7 @@ s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"
 **** https://replit.com/@srcerer/PythonSandBox
 
 **** William Michels: https://unix.stackexchange.com/questions/459521/how-to-truncate-file-to-maximum-number-of-characters-not-bytes/751267#751267
+
 
 
 *** Discussion of prospects for "AI" turning to really be AI
