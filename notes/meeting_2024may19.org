@@ -79,8 +79,8 @@ s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"
 	var s = "\ud835\udcaf\ud835\udcae\ud835\udca9";
 #+END_SRC
 
-
-https://github.com/doomvox/raku-study/tree/main/bin/2024may19/unicode_play.raku
+***** the problem is U+d835 is in the surrogate code region, it's not really a character by itself
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024may19/unicode_play.raku
 
 ***** https://replit.com/@srcerer/PythonSandBox
 
