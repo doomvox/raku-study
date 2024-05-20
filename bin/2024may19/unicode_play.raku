@@ -65,12 +65,15 @@ use v6;
 
 {
 
-    16:33:05 From William Michels To Everyone:
-	~ % raku -e '.uniparse.say for  "\xd835\xdcaf\xd835\xdcae\xd835\xdca9".encode("utf16").decode;'
-	Unrecognized character name [𝒯𝒮𝒩]
-	  in block <unit> at -e line 1
-16:33:25 From William Michels To Everyone:
-	~ % raku -e '.uniname.say for  "\xd835\xdcaf\xd835\xdcae\xd835\xdca9".encode("utf16").decode;'
-	MATHEMATICAL SCRIPT CAPITAL T
+## William Michels:
+
+#  raku -e '.uniparse.say for  
+#             "\xd835\xdcaf\xd835\xdcae\xd835\xdca9".encode("utf16").decode;'
+
+#	Unrecognized character name [𝒯𝒮𝒩]
+#	  in block <unit> at -e line 1
+
+#  raku -e '.uniname.say for  "\xd835\xdcaf\xd835\xdcae\xd835\xdca9".encode("utf16").decode;'
+#	MATHEMATICAL SCRIPT CAPITAL T
 
 }
