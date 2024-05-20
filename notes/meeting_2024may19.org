@@ -18,7 +18,7 @@
 ***** heard of Raku via the "gremlins" article
 ****** which he looked at because of a reference from Primeagen
 ******* https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw
-****** the Gremlins article 
+****** the Gremlins article itself
 ******* https://buttondown.email/hillelwayne/archive/raku-a-language-for-gremlins/
 ******* written by Hillel Wayne
 ******* author of "Practical TLA"
