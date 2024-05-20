@@ -134,6 +134,23 @@ my @l .push: .shift;
 ****** Mark A's solution 
 ******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-269/mark-anderson/raku/ch-2.raku
 
+
+****** Bruce Gray's solution:
+
+******* 
+
+******* discussed his test running boilerplate
+
+******** pair notation
+
+********* short hand for:
+#+BEGIN_SRC raku
+task2_basic => &task2_basic
+#+END_SRC
+
+:&task2_basic
+
+
 *** TODO splice issue:
 **** https://github.com/Raku/problem-solving/issues/423
 **** https://github.com/Raku/problem-solving/issues/419
