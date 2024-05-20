@@ -87,6 +87,9 @@ s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"
 ***** William Michels: https://unix.stackexchange.com/questions/459521/how-to-truncate-file-to-maximum-number-of-characters-not-bytes/751267#751267
 
 
+*** Tim Schafer: Why Programming is Minsky"
+**** https://rafal.io/static/papers/why_programming_is_minsky.pdf
+
 
 *** Discussion of prospects for "AI" turning to really be AI
 
