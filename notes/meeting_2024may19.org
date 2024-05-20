@@ -66,12 +66,10 @@ but I think it's silly to demand that the user has to write `my $/
 
 *** Tim Schafer has issues with Unicode strings in various languages (Javascript, Python)
 **** emoji (codepoints in the astral plane)
-
 #+BEGIN_SRC sh 
 s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"
 #+END_SRC
-
-**** Bruce Gray shows Raku pretty much just works
+***** Bruce Gray shows Raku pretty much just works
 #+BEGIN_SRC sh 
 	raku -e 'my $s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"; .say for $s.comb;'
 #+END_SRC
