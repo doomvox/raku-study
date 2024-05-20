@@ -43,7 +43,11 @@
 **** https://fluca1978.github.io/2017/09/16/Perl6Timeline.html
 **** https://github.com/Raku/problem-solving/issues/133
 **** https://github.com/Raku/problem-solving/issues/378
-**** 
+
+
+*** Unclear sharing of $/ causing race conditions #406
+**** https://github.com/Raku/problem-solving/issues/406
+**** Bill fears that in 6.3 they're going to totally break current behavior of match objects ($/)
 
 *** Cog Proof Assistant: https://coq.inria.fr/
 
