@@ -88,7 +88,7 @@ s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"
 
 
 **** https://stackoverflow.com/questions/1966476/how-can-i-process-each-letter-of-text-using-javascript
-
+**** https://unix.stackexchange.com/a/743943
 
 *** Tim Schafer: Why Programming is Minsky"
 **** https://rafal.io/static/papers/why_programming_is_minsky.pdf
