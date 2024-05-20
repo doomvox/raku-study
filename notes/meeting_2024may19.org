@@ -42,6 +42,7 @@
 **** https://github.com/Raku/problem-solving/issues/406
 **** https://fluca1978.github.io/2017/09/16/Perl6Timeline.html
 **** https://github.com/Raku/problem-solving/issues/133
+**** https://github.com/Raku/problem-solving/issues/378
 **** 
 
 *** Cog Proof Assistant: https://coq.inria.fr/
