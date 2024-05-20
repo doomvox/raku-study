@@ -65,6 +65,9 @@ but I think it's silly to demand that the user has to write `my $/
 *** Cog Proof Assistant: https://coq.inria.fr/
 
 *** Tim Schafer has issues with Unicode strings in various languages (Javascript, Python)
+#+BEGIN_SRC sh 
+s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"
+#+END_SRC
 
 **** https://replit.com/@srcerer/PythonSandBox
 
