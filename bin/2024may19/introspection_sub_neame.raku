@@ -11,3 +11,6 @@ sub dostuff {
 my $code = &dostuff;
 
 say $code.name;
+
+
+## could simplify bruce's code runner boilerplate
