@@ -161,6 +161,11 @@ with &task2_basic {
 
 *** Bruce Gray: https://metacpan.org/pod/OEIS
 
+*** Bruce Gray: https://www.perl.com/pub/1999/03/pm.html/
+
+**** Perl, the first postmodern computer language
+
+**** Larry Wall, Mar 9, 1999
 
 *** TODO splice issue:
 **** https://github.com/Raku/problem-solving/issues/423
