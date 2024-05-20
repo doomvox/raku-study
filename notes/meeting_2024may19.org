@@ -79,7 +79,8 @@ s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"
 	var s = "\ud835\udcaf\ud835\udcae\ud835\udca9";
 #+END_SRC
 
-/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024may19/unicode_play.raku
+
+https://github.com/doomvox/raku-study/tree/main/bin/2024may19/unicode_play.raku
 
 ***** https://replit.com/@srcerer/PythonSandBox
 
