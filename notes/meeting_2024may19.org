@@ -159,6 +159,9 @@ with &task2_basic {
 }
 #+END_SRC
 
+*** Bruce Gray: https://metacpan.org/pod/OEIS
+
+
 *** TODO splice issue:
 **** https://github.com/Raku/problem-solving/issues/423
 **** https://github.com/Raku/problem-solving/issues/419
