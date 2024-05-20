@@ -51,6 +51,8 @@ my @l .push: .shift;
 ******* dicussed raku's multidispatch
 ******** https://docs.raku.org/language/glossary#Multi-dispatch
 
+******* TODO discuss whatever star
+
 *** TODO splice issue:
 **** https://github.com/Raku/problem-solving/issues/423
 **** https://github.com/Raku/problem-solving/issues/419
