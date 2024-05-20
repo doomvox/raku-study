@@ -1,0 +1,20 @@
+#!/opt/rakudo-star-2018.01/bin/perl6
+#
+# Sat  April 07, 2018  15:23  tango
+# ~/End/Cave/Perl6/bin/powers_of_two
+
+say "hello";
+
+# loop ( my $i = 1; $i <= 256; $i++ ) { 
+my $width = 60;
+my $fmt = "%4d: %" ~ $width ~ "d\n";
+say "fmt: $fmt";
+# for (1 .. 1024) -> $i {
+for (1024 .. 2024) -> $i {
+    my $val = 2 ** $i;
+    printf $fmt, $i, $val;
+}
+
+#   64:                                         18446744073709551616
+
+#  18,446,744,073,709,551,616
