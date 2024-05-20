@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 # 
-# introspection_sub_neame.raku            19 May 2024 
+# introspection_sub_name.raku            19 May 2024 
 
 use v6;
 
