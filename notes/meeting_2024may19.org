@@ -21,6 +21,8 @@
 ****** "I don't know what the language of the year 2000 will look like, but I know it will be called Fortran." —Tony Hoare
 ***** my guess was Stan Kelly-Bootle
 
+
+
 *** weekly challenge
 **** the problems 
 ***** https://theweeklychallenge.org
