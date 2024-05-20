@@ -38,6 +38,7 @@
 ***** and this time, only got through 269, task 2
 
 *** Rob idiom:
+**** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-269/0rir/raku/ch-2.raku
 
 #+BEGIN_SRC raku
 $_ := @a;
@@ -45,6 +46,8 @@ my @l .push: .shift;
 ## @l.push is *different* than this, this uses one last line 
 ## .shift is called on $_, but .push acts on @l 
 #+END_SRC raku
+
+
 
 *** TODO splice issue:
 **** https://github.com/Raku/problem-solving/issues/423
