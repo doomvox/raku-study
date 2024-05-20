@@ -12,7 +12,8 @@
 
 ** topics
 
-*** welcome tim schafer
+*** Welcome Tim Schafer
+**** Sacramento area
 **** Ended up here via 
 ***** meetup's "algorithm" 
 ***** heard of Raku via the "gremlins" article
@@ -29,6 +30,8 @@
 
 
 **** https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw
+
+
 
 *** identify that quote:
 **** "I do not know what the language of the future will look like but I know we will call it FORTRAN."
