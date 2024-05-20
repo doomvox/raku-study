@@ -43,17 +43,34 @@ use v6;
 
 # Bruce Gray: 
 
-	raku -e 'my $s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"; say uniname($_) for $s.comb;'
-	    LATIN SMALL LETTER A
-	    LATIN SMALL LETTER B
-	    LATIN SMALL LETTER C
-	    VERTICAL LINE
-	    MEDIUM BLACK CIRCLE
-	    <control-000A>
-	    MEDIUM WHITE CIRCLE
-	    VERTICAL LINE
-	    MAN
-	Great! Problem solved, right?
-	raku -e 'my $s = "abc|\c[MEDIUM BLACK CIRCLE]\n\c[MEDIUM WHITE CIRCLE]\c[VERTICAL LINE]\c[MAN]"; say $s.raku;'
-	    "abc|⚫\n⚪|👨"
-	Ooh! So close.  See http://blog.unicode.org/2023/01/whats-new-in-emoji-151.html
+# 	raku -e 'my $s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"; say uniname($_) for $s.comb;'
+# 	    LATIN SMALL LETTER A
+# 	    LATIN SMALL LETTER B
+# 	    LATIN SMALL LETTER C
+# 	    VERTICAL LINE
+# 	    MEDIUM BLACK CIRCLE
+# 	    <control-000A>
+# 	    MEDIUM WHITE CIRCLE
+# 	    VERTICAL LINE
+# 	    MAN
+# 	Great! Problem solved, right?
+
+# 	raku -e 'my $s = "abc|\c[MEDIUM BLACK CIRCLE]\n\c[MEDIUM WHITE CIRCLE]\c[VERTICAL LINE]\c[MAN]"; say $s.raku;'
+# 	    "abc|⚫\n⚪|👨"
+
+            # Ooh! So close.
+            # See http://blog.unicode.org/2023/01/whats-new-in-emoji-151.html
+
+}
+
+{
+
+    16:33:05 From William Michels To Everyone:
+	~ % raku -e '.uniparse.say for  "\xd835\xdcaf\xd835\xdcae\xd835\xdca9".encode("utf16").decode;'
+	Unrecognized character name [𝒯𝒮𝒩]
+	  in block <unit> at -e line 1
+16:33:25 From William Michels To Everyone:
+	~ % raku -e '.uniname.say for  "\xd835\xdcaf\xd835\xdcae\xd835\xdca9".encode("utf16").decode;'
+	MATHEMATICAL SCRIPT CAPITAL T
+
+}
