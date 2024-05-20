@@ -18,7 +18,10 @@
 ***** heard of Raku via the "gremlins" article
 ****** which he looked at because of a reference from Primeagen
 ******* https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw
-
+****** the Gremlins article 
+******* written by Hillel Wayne
+******* author of "Practical TLA"
+******** https://link.springer.com/book/10.1007/978-1-4842-3829-5
 
 **** programming languages
 
