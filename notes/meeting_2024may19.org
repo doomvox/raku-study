@@ -13,6 +13,15 @@
 ** topics
 
 *** welcome tim schafer
+**** Ended up here via 
+***** meetup's "algorithm" 
+***** heard of Raku via the "gremlins" article
+****** which he looked at because of a reference from Primeagen
+******* https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw
+
+
+**** 
+**** https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw
 
 *** identify that quote:
 **** "I do not know what the language of the future will look like but I know we will call it FORTRAN."
@@ -52,6 +61,8 @@ my @l .push: .shift;
 ******** https://docs.raku.org/language/glossary#Multi-dispatch
 
 ******* TODO discuss whatever star
+
+
 
 *** TODO splice issue:
 **** https://github.com/Raku/problem-solving/issues/423
