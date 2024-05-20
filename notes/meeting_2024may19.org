@@ -151,6 +151,13 @@ task2_basic => &task2_basic
 :&task2_basic
 #+END_SRC
 
+********* note: I think the code could be simplifed via .name
+#+BEGIN_SRC raku
+with &task2_basic {
+  say .name, $_( @args);
+|
+#+END_SRC
+
 *** TODO splice issue:
 **** https://github.com/Raku/problem-solving/issues/423
 **** https://github.com/Raku/problem-solving/issues/419
