@@ -131,7 +131,8 @@ my @l .push: .shift;
 
 ******* TODO discuss whatever star
 
-
+****** Mark A's solution 
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-269/mark-anderson/raku/ch-2.raku
 
 *** TODO splice issue:
 **** https://github.com/Raku/problem-solving/issues/423
