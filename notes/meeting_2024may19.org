@@ -98,7 +98,7 @@ s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"
 *** Willaim Michels: 	Current "Type System" discussion on github: 
 **** https://github.com/Raku/problem-solving/issues/426
 
-*** Discussion of prospects for "AI" turning to really be AI
+*** Discussion of prospects for "AI" turning into actual AI
 **** Q: are humans smart enough to understand human intelligence?
 **** Q: is human consciouness based on physical processes that can be imitated by other mechanisms?
 ***** Mark A argues AI enthusiasts take it's inevitability on faith
