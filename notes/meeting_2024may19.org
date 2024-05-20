@@ -24,7 +24,9 @@
 ******* written by Hillel Wayne
 ******* author of "Practical TLA"
 ******** https://link.springer.com/book/10.1007/978-1-4842-3829-5
-
+******** More on TLA
+********* Leslie Lamport: https://www.microsoft.com/en-us/research/uploads/prod/2016/12/The-Specification-Language-TLA.pdf
+********* 
 
 *** quick intro to Raku features
 **** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/A2-raku_features.org
