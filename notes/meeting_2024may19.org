@@ -75,8 +75,9 @@ s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"
 #+END_SRC
 
 **** unicode string given as hex (with codepoints in the surrogate pair region of BMP):
-
+#+BEGIN_SRC sh 
 	var s = "\ud835\udcaf\ud835\udcae\ud835\udca9";
+#+END_SRC
 
 ***** https://replit.com/@srcerer/PythonSandBox
 
