@@ -51,6 +51,9 @@ my @l .push: .shift;
 **** https://github.com/Raku/problem-solving/issues/419
 
 
+*** some interest in how i do automated pushes
+
+
 ** announcements 
 
 *** next meetings
