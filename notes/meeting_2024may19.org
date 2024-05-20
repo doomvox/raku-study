@@ -25,13 +25,8 @@
 ******** https://link.springer.com/book/10.1007/978-1-4842-3829-5
 
 
-**** programming languages
 
-***** many a name was dropped
-****** TLA
-******* https://learntla.com
 
-****** 
 
 **** https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw
 
