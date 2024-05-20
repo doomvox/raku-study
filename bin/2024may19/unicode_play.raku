@@ -76,4 +76,8 @@ use v6;
 #  raku -e '.uniname.say for  "\xd835\xdcaf\xd835\xdcae\xd835\xdca9".encode("utf16").decode;'
 #	MATHEMATICAL SCRIPT CAPITAL T
 
+# raku -e '.uniname.say for  "\xd835\xdcaf\xd835\xdcae\xd835\xdca9".encode("utf16").decode;'
+#	MATHEMATICAL SCRIPT CAPITAL T
+
+
 }
