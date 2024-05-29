@@ -11,7 +11,7 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024may05.org
 
 
-** Anton Anotov, exploratory data analysis 
+** Anton Anotov, Exploratory Data Analysis with Raku 
 *** https://www.youtube.com/watch?v=YCnjMVSfT8w
 *** https://rakuforprediction.wordpress.com/2024/05/25/age-at-creation-for-programming-languages-stats/
 
