@@ -13,7 +13,7 @@
 
 ** Anton Anotov, exploratory data analysis 
 *** https://www.youtube.com/watch?v=YCnjMVSfT8w
-
+*** https://rakuforprediction.wordpress.com/2024/05/25/age-at-creation-for-programming-languages-stats/
 
 ** notes from last time (to be deleted, probably) 
 
