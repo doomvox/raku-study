@@ -12,25 +12,6 @@
 
 ** notes from last time (to be deleted, probably) 
 
-*** Welcome Tim Schafer
-**** Sacramento area
-**** uses Nix
-***** https://en.wikipedia.org/wiki/Nix_(package_manager)
-
-**** Ended up here via 
-***** meetup's "algorithm" 
-***** heard of Raku via the "gremlins" article
-****** which he looked at because of a reference from Primeagen
-******* https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw
-****** the Gremlins article itself
-******* https://buttondown.email/hillelwayne/archive/raku-a-language-for-gremlins/
-******* written by Hillel Wayne
-******* author of "Practical TLA"
-******** https://link.springer.com/book/10.1007/978-1-4842-3829-5
-******** More on TLA
-********* Leslie Lamport: https://www.microsoft.com/en-us/research/uploads/prod/2016/12/The-Specification-Language-TLA.pdf
-********* https://learntla.com
-
 *** quick intro to Raku features
 **** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/A2-raku_features.org
 **** https://github.com/doomvox/raku-study/tree/main/bin/2024may19/powers_of_two
