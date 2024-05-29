@@ -11,56 +11,185 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024may05.org
 
 ** last meeting notes (to be deleted, probably) 
-*** off-topic rambling
-**** today's theme
 
-*** dicussion of two drive mirroring
+*** identify that quote:
+**** "I do not know what the language of the future will look like but I know we will call it FORTRAN."
+***** attributed to Tony Hoare ~1982
+***** Rob Ransbottom found:  https://news.ycombinator.com/item?id=26978094
+****** "I don't know what the language of the year 2000 will look like, but I know it will be called Fortran." —Tony Hoare
+***** my guess had been Stan Kelly-Bootle
+
+*** Welcome Tim Schafer
+**** Sacramento area
+**** uses Nix
+***** https://en.wikipedia.org/wiki/Nix_(package_manager)
+
+**** Ended up here via 
+***** meetup's "algorithm" 
+***** heard of Raku via the "gremlins" article
+****** which he looked at because of a reference from Primeagen
+******* https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw
+****** the Gremlins article itself
+******* https://buttondown.email/hillelwayne/archive/raku-a-language-for-gremlins/
+******* written by Hillel Wayne
+******* author of "Practical TLA"
+******** https://link.springer.com/book/10.1007/978-1-4842-3829-5
+******** More on TLA
+********* Leslie Lamport: https://www.microsoft.com/en-us/research/uploads/prod/2016/12/The-Specification-Language-TLA.pdf
+********* https://learntla.com
+
+*** quick intro to Raku features
+**** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/A2-raku_features.org
+**** https://github.com/doomvox/raku-study/tree/main/bin/2024may19/powers_of_two
+**** https://docs.raku.org/language/regexes
+
+*** William Michels:
+**** https://unix.stackexchange.com/search?q=user:227738
+**** https://github.com/Raku/problem-solving/issues/426
+**** https://github.com/Raku/problem-solving/issues/406
+**** https://fluca1978.github.io/2017/09/16/Perl6Timeline.html
+**** https://github.com/Raku/problem-solving/issues/133
+**** https://github.com/Raku/problem-solving/issues/378
+
+
+*** Unclear sharing of $/ causing race conditions #406
+**** https://github.com/Raku/problem-solving/issues/406
+**** Bill fears that in 6.3 they're going to totally break current behavior of match objects ($/)
+
+
+"I feel $/ should remain a user-accessible variable that gets set
+upon a match. I'm not opposed to a special switch that sets $/,
+but I think it's silly to demand that the user has to write `my $/
+= ...` for every gosh-darn match test."
+
+*** Cog Proof Assistant: https://coq.inria.fr/
+
+*** Tim Schafer has issues with Unicode strings in various languages (Javascript, Python)
+**** emoji (codepoints in the astral plane)
+#+BEGIN_SRC sh 
+s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"
+#+END_SRC
+***** Bruce Gray shows Raku pretty much just works
+#+BEGIN_SRC sh 
+	raku -e 'my $s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"; .say for $s.comb;'
+#+END_SRC
+
+**** unicode string given as hex (with codepoints in the surrogate pair region of BMP):
+#+BEGIN_SRC sh 
+	var s = "\ud835\udcaf\ud835\udcae\ud835\udca9";
+#+END_SRC
+
+***** the problem is U+d835 is in the surrogate code region, it's not really a character by itself
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024may19/unicode_play.raku
+
+****** Bruce Gray: http://blog.unicode.org/2023/01/whats-new-in-emoji-151.html
+
+***** https://replit.com/@srcerer/PythonSandBox
+
+***** William Michels: https://unix.stackexchange.com/questions/459521/how-to-truncate-file-to-maximum-number-of-characters-not-bytes/751267#751267
+
+**** https://stackoverflow.com/questions/1966476/how-can-i-process-each-letter-of-text-using-javascript
+**** https://unix.stackexchange.com/a/743943
+
+*** Tim Schafer: Why Programming is Minsky"
+**** https://rafal.io/static/papers/why_programming_is_minsky.pdf
+
+
+*** Willaim Michels: 	Current "Type System" discussion on github: 
+**** https://github.com/Raku/problem-solving/issues/426
+
+*** Discussion of prospects for "AI" turning into actual AI
+**** Q: are humans smart enough to understand human intelligence?
+**** Q: is human consciouness based on physical processes that can be imitated by other mechanisms?
+***** Mark A argues AI enthusiasts take it's inevitability on faith
+****** (I agree, but conversely don't think it's impossibility is established either)
 
 *** weekly challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-266
+**** the problems 
+***** https://theweeklychallenge.org
+**** the solutions
+***** https://github.com/manwar/perlweeklychallenge-club/
+
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-267
-***** only got through 267 task 2
+***** last time, only got through 267 task 2
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-266
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-268
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-269
+***** and this time, only got through 269, task 2
+
+***** Rob's solution:
+****** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-269/0rir/raku/ch-2.raku
+
+******* odd idiom
+#+BEGIN_SRC raku
+$_ := @a;
+my @l .push: .shift;
+## @l.push is *different* than this, this uses one last line 
+## .shift is called on $_, but .push acts on @l 
+#+END_SRC
+
+******* dicussed raku's multidispatch
+******** https://docs.raku.org/language/glossary#Multi-dispatch
+
+******* TODO discuss whatever star
+
+****** Mark A's solution 
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-269/mark-anderson/raku/ch-2.raku
+
+
+****** Bruce Gray's solution:
+
+******* https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-269/bruce-gray/raku/ch-2.raku
+******* https://github.com/Util/perlweeklychallenge-club/blob/c269/challenge-269/bruce-gray/raku/ch-2.raku
+
+******* discussed his test running boilerplate
+
+******** pair notation
+#+BEGIN_SRC raku
+# A shorter version of this:
+
+task2_basic => &task2_basic
+
+# is this (no need to repeat the name):
+:&task2_basic
+#+END_SRC
+
+********* note: I think the code could be simplifed via .name
+#+BEGIN_SRC raku
+with &task2_basic {
+  say .name, $_( @args);
+}
+#+END_SRC
+
+*** Bruce Gray: https://metacpan.org/pod/OEIS
+
+*** Bruce Gray: https://www.perl.com/pub/1999/03/pm.html/
+**** Perl, the first postmodern computer language
+**** Larry Wall, Mar 9, 1999
 
 *** TODO splice issue:
 **** https://github.com/Raku/problem-solving/issues/423
 **** https://github.com/Raku/problem-solving/issues/419
 
-** old topics
-*** comma-separated triple-dot
-**** https://github.com/Raku/problem-solving/issues/407
 
-***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec03/issue_407_comma_sep_sequences.raku
-****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/issue_407_comma_sep_sequences.raku
-
-***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec03/
-****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/
-
-*** Rob on the math thing
-**** confusion about type systems
-***** from last meeting:
-****** given a rational number, convert to decimal representation, what accuracy?
-
-***** FatRat for calculating Pi to 70 places with Rats:
-****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi
-****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi#Raku
+*** some interest in how i do automated pushes
 
 
 ** announcements 
 
 *** next meetings
+**** Sunday May 19, 2024
 **** Sunday June 2, 2024
 **** Sunday June 16, 2024 (tenatative: this is father's day)
 **** Sunday June 30, 2024
 
 *** YAPC Las Vegas, June 24-28
-**** call for papers is over
-**** Scientific track: https://science.perlcommunity.org/spj
+**** has a scientific track: https://science.perlcommunity.org/spj
 
 *** Raku conferences coming up?
 
 ** follow-up
-*** mention houston perl mongers on sf-perl list (again)
-**** david?
+
 
 *** odd constructs
 ***** nodemap with $^x / $_
