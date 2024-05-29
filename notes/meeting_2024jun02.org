@@ -1,0 +1,78 @@
+* meeting notes June 2, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun02.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024jun02
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024may05.org
+
+** topics
+*** off-topic rambling
+**** today's theme
+
+*** dicussion of two drive mirroring
+
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-266
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-267
+***** only got through 267 task 2
+
+*** TODO splice issue:
+**** https://github.com/Raku/problem-solving/issues/423
+**** https://github.com/Raku/problem-solving/issues/419
+
+** old topics
+*** comma-separated triple-dot
+**** https://github.com/Raku/problem-solving/issues/407
+
+***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec03/issue_407_comma_sep_sequences.raku
+****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/issue_407_comma_sep_sequences.raku
+
+***** https://github.com/doomvox/raku-study/tree/main/bin/2023dec03/
+****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/
+
+*** Rob on the math thing
+**** confusion about type systems
+***** from last meeting:
+****** given a rational number, convert to decimal representation, what accuracy?
+
+***** FatRat for calculating Pi to 70 places with Rats:
+****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi
+****** https://rosettacode.org/wiki/Almkvist-Giullera_formula_for_pi#Raku
+
+
+** announcements 
+
+*** next meetings
+**** Sunday May 19, 2024
+**** Sunday June 2, 2024
+**** Sunday June 16, 2024 (tenatative: this is father's day)
+**** Sunday June 30, 2024
+
+*** YAPC Las Vegas, June 24-28
+**** call for papers is over
+**** Scientific track (perl *and* raku): https://science.perlcommunity.org/spj
+
+*** Raku conferences coming up?
+
+** follow-up
+*** mention houston perl mongers on sf-perl list (again)
+**** david?
+
+*** odd constructs
+***** nodemap with $^x / $_
+***** see wambash solution 
+
+****** https://theweeklychallenge.org/blog/perl-weekly-challenge-264
+
+
+*** marton: shadowing of built-ins, possible compatibility problems with new symbols added to core
+**** https://github.com/doomvox/raku-study/blob/main/notes/notes/meeting_2024mar24.org
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/meeting_2024mar24.org
+**** made comment, had it deleted (ban side-effect?)
+
+**** TODO feature request: complex ranges, range inclusion checks 
