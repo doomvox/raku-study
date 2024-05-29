@@ -176,7 +176,6 @@ with &task2_basic {
 
 
 ** announcements 
-
 *** next meetings
 **** Sunday June 2, 2024
 **** Sunday June 16, 2024 (tenatative: this is father's day)
