@@ -10,6 +10,11 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024may05.org
 
+
+** Anton Anotov, exploratory data analysis 
+*** https://www.youtube.com/watch?v=YCnjMVSfT8w
+
+
 ** notes from last time (to be deleted, probably) 
 
 *** did a quick intro to Raku features (( TODO: could use better ones.  Update/borrow. ))
