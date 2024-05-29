@@ -10,7 +10,7 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024may05.org
 
-** topics
+** last meeting notes (to be deleted, probably) 
 *** off-topic rambling
 **** today's theme
 
