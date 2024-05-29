@@ -10,7 +10,7 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024may05.org
 
-** last meeting notes (to be deleted, probably) 
+** notes from last time (to be deleted, probably) 
 
 *** identify that quote:
 **** "I do not know what the language of the future will look like but I know we will call it FORTRAN."
