@@ -12,7 +12,7 @@
 
 ** notes from last time (to be deleted, probably) 
 
-*** quick intro to Raku features
+*** did a quick intro to Raku features (( TODO: could use better ones.  Update/borrow. ))
 **** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/A2-raku_features.org
 **** https://github.com/doomvox/raku-study/tree/main/bin/2024may19/powers_of_two
 **** https://docs.raku.org/language/regexes
