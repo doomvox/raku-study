@@ -51,6 +51,12 @@ but I think it's silly to demand that the user has to write `my $/
 ***** https://wlmb.github.io/2024/05/20/PWC270/#task-2-distribute-elements
 
 
+** perl version recommendations
+
+*** windows: strawberry perl
+
+*** mac: via perlbrew, install latest perl
+**** latest perl: 5.38.2
 
 ** notes from last time (TBD?)
 
