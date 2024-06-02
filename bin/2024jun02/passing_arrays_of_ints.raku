@@ -4,13 +4,13 @@
 
 use v6;
 
-{
-    my Array[Int] $mah_ints = ( 3, 7, 13, 27 );
+# {
+#     my Array[Int] $mah_ints = ( 3, 7, 13, 27 );
 
-    ## Type check failed in assignment to $mah_ints; expected Array[Int] but got List ((3, 7, 13, 27))
+#     ## Type check failed in assignment to $mah_ints; expected Array[Int] but got List ((3, 7, 13, 27))
 
-    say $mah_ints;
-}
+#     say $mah_ints;
+# }
 
 
 {
