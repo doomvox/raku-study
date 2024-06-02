@@ -38,7 +38,7 @@ but I think it's silly to demand that the user has to write `my $/
 
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-270
 **** Task2
-https://wlmb.github.io/2024/05/20/PWC270/#task-2-distribute-elements
+***** https://wlmb.github.io/2024/05/20/PWC270/#task-2-distribute-elements
 
 
 ** notes from last time (to be deleted, probably) 
