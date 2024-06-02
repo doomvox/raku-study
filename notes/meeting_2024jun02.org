@@ -179,8 +179,6 @@ with &task2_basic {
 *** Perl and Raku conference, 1-day in London
 **** http://act.yapc.eu/lpw2024/
 
-
-
 ** follow-up
 
 *** odd constructs
