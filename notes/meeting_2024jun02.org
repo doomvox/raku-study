@@ -173,6 +173,8 @@ with &task2_basic {
 
 *** YAPC Las Vegas, June 24-28
 **** has a scientific track: https://science.perlcommunity.org/spj
+**** lightning talks are open now:
+***** https://tprc.us/tprc-2024-las/
 
 *** Raku conferences coming up?
 
