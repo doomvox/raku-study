@@ -16,6 +16,12 @@ use v6;
 { my $b := 9;
   my $b := 3;
   say $b; 
+
+# Potential difficulties:
+#     Redeclaration of symbol '$b'.
+#     at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024jun02/rebindering.raku:17
+
+
 }
 
 
