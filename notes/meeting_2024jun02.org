@@ -38,7 +38,7 @@ https://github.com/Raku/problem-solving/issues/390
 
 https://github.com/Raku/problem-solving/issues/406
 
-
+https://github.com/Raku/problem-solving/issues/426
 
 
 ** weekly challenge
