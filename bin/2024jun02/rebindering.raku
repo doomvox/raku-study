@@ -8,7 +8,7 @@ use v6;
 my $a := 7;
 $a := 9;
 
-say $a;
+say $a;  ## 9
 
 
 
