@@ -181,12 +181,6 @@ with &task2_basic {
 
 ** follow-up
 
-*** odd constructs
-***** nodemap with $^x / $_
-***** see wambash solution 
-
-****** https://theweeklychallenge.org/blog/perl-weekly-challenge-264
-
 
 *** marton: shadowing of built-ins, possible compatibility problems with new symbols added to core
 **** https://github.com/doomvox/raku-study/blob/main/notes/notes/meeting_2024mar24.org
