@@ -69,9 +69,6 @@ but I think it's silly to demand that the user has to write `my $/
 **** https://github.com/Raku/problem-solving/issues/133
 **** https://github.com/Raku/problem-solving/issues/378
 
-
-
-
 *** Tim Schafer: Why Programming is Minsky"
 **** https://rafal.io/static/papers/why_programming_is_minsky.pdf
 
