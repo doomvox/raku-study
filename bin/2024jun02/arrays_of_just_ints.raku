@@ -4,6 +4,8 @@
 
 use v6;
 
+## You can have an Array limited to Ints, but *not* Lists.
+
 # Bruce Gray
 
 my Array[Int] $z = Array[Int].new(1,2,3);
