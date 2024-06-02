@@ -15,6 +15,16 @@
 *** https://www.youtube.com/watch?v=YCnjMVSfT8w
 *** https://rakuforprediction.wordpress.com/2024/05/25/age-at-creation-for-programming-languages-stats/
 
+** Discussion continues: Unclear sharing of $/ causing race conditions #406
+*** https://github.com/Raku/problem-solving/issues/406
+*** Bill fears that in 6.3 they're going to totally break current behavior of match objects ($/)
+
+"I feel $/ should remain a user-accessible variable that gets set
+upon a match. I'm not opposed to a special switch that sets $/,
+but I think it's silly to demand that the user has to write `my $/
+= ...` for every gosh-darn match test."
+
+
 
 ** notes from last time (to be deleted, probably) 
 
@@ -32,14 +42,6 @@
 **** https://github.com/Raku/problem-solving/issues/378
 
 
-*** Unclear sharing of $/ causing race conditions #406
-**** https://github.com/Raku/problem-solving/issues/406
-**** Bill fears that in 6.3 they're going to totally break current behavior of match objects ($/)
-
-"I feel $/ should remain a user-accessible variable that gets set
-upon a match. I'm not opposed to a special switch that sets $/,
-but I think it's silly to demand that the user has to write `my $/
-= ...` for every gosh-darn match test."
 
 *** Cog Proof Assistant: https://coq.inria.fr/
 
