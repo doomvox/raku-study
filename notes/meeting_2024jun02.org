@@ -26,7 +26,7 @@ but I think it's silly to demand that the user has to write `my $/
 
 
 
-** William Michels stuff (see chat)
+** William Michels stuff (see chat TODO )
 
 
 ** notes from last time (to be deleted, probably) 
