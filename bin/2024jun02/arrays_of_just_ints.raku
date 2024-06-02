@@ -20,7 +20,8 @@ my Array[Int] $z = Array[Int].new(1,2,3);
 dd $z;
 ## Array[Int $z = Array[Int].new(1, 2, 3)
 
-
+my List[Int] $z = List[Int].new(1,2,3);
+dd $z;
 
 
 
