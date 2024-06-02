@@ -5,12 +5,12 @@
 use v6;
 
 
-my Array[Int] @mah_ints = ( 3, 7, 13, 27 );
+my Array[Int] $mah_ints = ( 3, 7, 13, 27 );
 
 
+# my Int @mah_ints = ( 3, 7, 13, 27 );
 
-
-
+say $mah_ints;
 
 
 
