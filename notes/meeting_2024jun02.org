@@ -27,6 +27,8 @@ but I think it's silly to demand that the user has to write `my $/
 ** William Michels stuff (see chat TODO )
 *** https://github.com/Raku/problem-solving/issues/1966
 
+
+
 ** weekly challenge
 *** the problems 
 **** https://theweeklychallenge.org
@@ -41,12 +43,14 @@ but I think it's silly to demand that the user has to write `my $/
 ***** https://wlmb.github.io/2024/05/20/PWC270/#task-2-distribute-elements
 
 
+
 ** notes from last time (to be deleted, probably) 
 
 *** did a quick intro to Raku features (( TODO: could use better ones.  Update/borrow. ))
 **** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/A2-raku_features.org
 **** https://github.com/doomvox/raku-study/tree/main/bin/2024may19/powers_of_two
 **** https://docs.raku.org/language/regexes
+
 
 *** William Michels:
 **** https://unix.stackexchange.com/search?q=user:227738
@@ -58,38 +62,9 @@ but I think it's silly to demand that the user has to write `my $/
 
 
 
-*** Cog Proof Assistant: https://coq.inria.fr/
-
-*** Tim Schafer has issues with Unicode strings in various languages (Javascript, Python)
-**** emoji (codepoints in the astral plane)
-#+BEGIN_SRC sh 
-s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"
-#+END_SRC
-***** Bruce Gray shows Raku pretty much just works
-#+BEGIN_SRC sh 
-	raku -e 'my $s = "abc|⚫️\n⚪️|👨‍👩‍👧‍👧"; .say for $s.comb;'
-#+END_SRC
-
-**** unicode string given as hex (with codepoints in the surrogate pair region of BMP):
-#+BEGIN_SRC sh 
-	var s = "\ud835\udcaf\ud835\udcae\ud835\udca9";
-#+END_SRC
-
-***** the problem is U+d835 is in the surrogate code region, it's not really a character by itself
-****** https://github.com/doomvox/raku-study/tree/main/bin/2024may19/unicode_play.raku
-
-****** Bruce Gray: http://blog.unicode.org/2023/01/whats-new-in-emoji-151.html
-
-***** https://replit.com/@srcerer/PythonSandBox
-
-***** William Michels: https://unix.stackexchange.com/questions/459521/how-to-truncate-file-to-maximum-number-of-characters-not-bytes/751267#751267
-
-**** https://stackoverflow.com/questions/1966476/how-can-i-process-each-letter-of-text-using-javascript
-**** https://unix.stackexchange.com/a/743943
 
 *** Tim Schafer: Why Programming is Minsky"
 **** https://rafal.io/static/papers/why_programming_is_minsky.pdf
-
 
 *** Willaim Michels: 	Current "Type System" discussion on github: 
 **** https://github.com/Raku/problem-solving/issues/426
