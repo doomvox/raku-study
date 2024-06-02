@@ -24,7 +24,7 @@ upon a match. I'm not opposed to a special switch that sets $/,
 but I think it's silly to demand that the user has to write `my $/
 = ...` for every gosh-darn match test."
 
-** William Michels stuff (see chat TODO )
+** Other William Michels picks:
 
 *** https://github.com/rakudo/rakudo/issues/1966
 
@@ -68,6 +68,7 @@ but I think it's silly to demand that the user has to write `my $/
 
 **** https://github.com/Raku/problem-solving/issues/133
 **** https://github.com/Raku/problem-solving/issues/378
+
 
 *** Tim Schafer: Why Programming is Minsky"
 **** https://rafal.io/static/papers/why_programming_is_minsky.pdf
