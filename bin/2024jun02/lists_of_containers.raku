@@ -19,6 +19,7 @@ $l[0] = 666;
 say $l[0];    # 666
 
 for $l -> $item {
+    say $item;
     say $item.WHAT;
     }
 
