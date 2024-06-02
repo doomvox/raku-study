@@ -28,7 +28,11 @@ but I think it's silly to demand that the user has to write `my $/
 *** https://github.com/Raku/problem-solving/issues/1966
 
 ** weekly challenge
+*** 271
+*** 270
+**** Task2
 
+https://wlmb.github.io/2024/05/20/PWC270/#task-2-distribute-elements
 
 
 ** notes from last time (to be deleted, probably) 
