@@ -24,8 +24,6 @@ upon a match. I'm not opposed to a special switch that sets $/,
 but I think it's silly to demand that the user has to write `my $/
 = ...` for every gosh-darn match test."
 
-
-
 ** William Michels stuff (see chat TODO )
 
 
