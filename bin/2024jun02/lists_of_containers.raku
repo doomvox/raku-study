@@ -8,7 +8,6 @@ use v6;
 my $a = 3;
 my $b = 7;
 
-
 my $l = ($a, $b);
 
 say $l.WHAT;
