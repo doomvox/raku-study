@@ -42,7 +42,7 @@ but I think it's silly to demand that the user has to write `my $/
 
 
 
-** notes from last time (to be deleted, probably) 
+** notes from last time (TBD?)
 
 *** did a quick intro to Raku features (( TODO: could use better ones.  Update/borrow. ))
 **** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/A2-raku_features.org
