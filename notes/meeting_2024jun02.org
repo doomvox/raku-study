@@ -27,6 +27,7 @@ but I think it's silly to demand that the user has to write `my $/
 
 
 
+
 ** notes from last time (to be deleted, probably) 
 
 *** did a quick intro to Raku features (( TODO: could use better ones.  Update/borrow. ))
