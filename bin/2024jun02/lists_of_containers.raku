@@ -11,6 +11,7 @@ my $b = 7;
 
 my $l = ($a, $b);
 
+say $l.WHAT;
 
 
 
