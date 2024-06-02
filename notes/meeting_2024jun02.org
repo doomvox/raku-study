@@ -176,6 +176,9 @@ with &task2_basic {
 **** lightning talks are open now:
 ***** https://tprc.us/tprc-2024-las/
 
+*** Perl and Raku conference, 1-day in London
+**** http://act.yapc.eu/lpw2024/
+
 *** Raku conferences coming up?
 
 ** follow-up
