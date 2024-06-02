@@ -36,6 +36,11 @@ https://github.com/rakudo/rakudo/issues/1525
 https://github.com/Raku/problem-solving/issues/390
 
 
+https://github.com/Raku/problem-solving/issues/406
+
+
+
+
 ** weekly challenge
 *** the problems 
 **** https://theweeklychallenge.org
