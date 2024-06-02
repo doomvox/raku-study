@@ -23,6 +23,10 @@ dd $z;
 my List[Int] $z = List[Int].new(1,2,3);
 dd $z;
 
+#   ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024jun02/arrays_of_just_ints.raku
+#   List cannot be parameterized
+#   at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024jun02/arrays_of_just_ints.raku:23
+#   ------> my List[Int]⏏ $z = List[Int].new(1,2,3);
 
 
 
