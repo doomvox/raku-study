@@ -10,13 +10,13 @@ my $b = 7;
 
 my $l = ($a, $b);
 
-say $l.WHAT;
+say $l.WHAT;  # (List)
 
-say $l[0];
+say $l[0];    # 3 
 
 $l[0] = 666;
 
-say $l[0];
+say $l[0];    # 666
 
 
 
