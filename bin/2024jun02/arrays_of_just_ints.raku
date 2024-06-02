@@ -6,16 +6,6 @@ use v6;
 
 # Bruce Gray
 
-# Illustration:
-# raku -e 'my Array[Int] $z = Array[Int].new(1,2,3); dd $z;'
-#     Array[Int] $z = Array[Int].new(1, 2, 3)
-
-# raku -e 'my Array[Int] $z = Array[Int].new(1,2,3); dd $z;'
-#     ===SORRY!=== Error while compiling -e
-#     An exception X::NotParametric+{X::Comp} occurred while parameterizing List:
-#     List cannot be parameterized
-
-
 my Array[Int] $z = Array[Int].new(1,2,3);
 dd $z;
 ## Array[Int $z = Array[Int].new(1, 2, 3)
