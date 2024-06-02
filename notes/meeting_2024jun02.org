@@ -27,7 +27,7 @@ but I think it's silly to demand that the user has to write `my $/
 ** William Michels stuff (see chat TODO )
 
 
-
+** weekly challenge
 
 
 
