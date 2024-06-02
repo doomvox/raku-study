@@ -19,8 +19,8 @@ $l[0] = 666;
 say $l[0];    # 666
 
 for $l -> $item {
-    say $item;
-    say $item.WHAT;
+    say $item;       # (666 7)
+    say $item.WHAT;  # (List)
     }
 
 
