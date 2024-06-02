@@ -27,6 +27,15 @@ but I think it's silly to demand that the user has to write `my $/
 ** William Michels stuff (see chat TODO )
 *** https://github.com/Raku/problem-solving/issues/1966
 
+https://github.com/rakudo/rakudo/issues/1966
+
+https://github.com/Raku/problem-solving/issues/429
+
+https://github.com/rakudo/rakudo/issues/1525
+
+https://github.com/Raku/problem-solving/issues/390
+
+
 ** weekly challenge
 *** the problems 
 **** https://theweeklychallenge.org
