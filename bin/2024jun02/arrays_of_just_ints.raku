@@ -18,7 +18,7 @@ use v6;
 
 my Array[Int] $z = Array[Int].new(1,2,3);
 dd $z;
-
+## Array[Int $z = Array[Int].new(1, 2, 3)
 
 
 
