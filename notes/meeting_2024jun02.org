@@ -11,6 +11,10 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024may05.org
 
 
+** type system overview
+
+*** https://andrewshitov.com/2018/02/14/56-a-bit-more-on-rat-vs-fatrat-in-perl-6/
+
 ** Anton Anotov, Exploratory Data Analysis with Raku 
 *** https://www.youtube.com/watch?v=YCnjMVSfT8w
 *** https://rakuforprediction.wordpress.com/2024/05/25/age-at-creation-for-programming-languages-stats/
@@ -23,6 +27,9 @@
 upon a match. I'm not opposed to a special switch that sets $/,
 but I think it's silly to demand that the user has to write `my $/
 = ...` for every gosh-darn match test."
+
+** 
+*** https://docs.raku.org/language/variables#$*RAT-OVERFLOW
 
 ** Other William Michels picks:
 
