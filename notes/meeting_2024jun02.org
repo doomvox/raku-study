@@ -117,3 +117,6 @@ but I think it's silly to demand that the user has to write `my $/
 
 
 **** TODO feature request: complex ranges, range inclusion checks 
+
+**** Raku featurettes to review:
+***** .end
