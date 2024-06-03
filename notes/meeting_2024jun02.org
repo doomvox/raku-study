@@ -21,6 +21,10 @@
 *** Bruce Gray: For further reading on our type system: 
 **** https://www.reddit.com/r/ProgrammingLanguages/comments/ccbx17/gradual_typing_from_theory_to_practice_sigplan/
 
+*** https://docs.raku.org/language/variables#$*RAT-OVERFLOW
+
+**** INIT phasor
+
 ** Anton Anotov, Exploratory Data Analysis with Raku 
 *** https://www.youtube.com/watch?v=YCnjMVSfT8w
 *** https://rakuforprediction.wordpress.com/2024/05/25/age-at-creation-for-programming-languages-stats/
@@ -34,8 +38,6 @@ upon a match. I'm not opposed to a special switch that sets $/,
 but I think it's silly to demand that the user has to write `my $/
 = ...` for every gosh-darn match test."
 
-** 
-*** https://docs.raku.org/language/variables#$*RAT-OVERFLOW
 
 ** Other William Michels picks:
 
