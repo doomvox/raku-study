@@ -101,7 +101,6 @@ but I think it's silly to demand that the user has to write `my $/
 
 ** announcements 
 *** next meetings
-**** Sunday June 2, 2024
 **** Sunday June 16, 2024 (tenatative: this is father's day)
 **** Sunday June 30, 2024
 
