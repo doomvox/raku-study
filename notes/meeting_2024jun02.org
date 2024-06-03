@@ -15,6 +15,12 @@
 
 *** https://andrewshitov.com/2018/02/14/56-a-bit-more-on-rat-vs-fatrat-in-perl-6/
 
+*** Willaim Michels: 	Current "Type System" discussion on github: 
+**** https://github.com/Raku/problem-solving/issues/426
+
+*** Bruce Gray: For further reading on our type system: 
+**** https://www.reddit.com/r/ProgrammingLanguages/comments/ccbx17/gradual_typing_from_theory_to_practice_sigplan/
+
 ** Anton Anotov, Exploratory Data Analysis with Raku 
 *** https://www.youtube.com/watch?v=YCnjMVSfT8w
 *** https://rakuforprediction.wordpress.com/2024/05/25/age-at-creation-for-programming-languages-stats/
@@ -85,8 +91,6 @@ but I think it's silly to demand that the user has to write `my $/
 *** Tim Schafer: Why Programming is Minsky"
 **** https://rafal.io/static/papers/why_programming_is_minsky.pdf
 
-*** Willaim Michels: 	Current "Type System" discussion on github: 
-**** https://github.com/Raku/problem-solving/issues/426
 
 
 
