@@ -25,8 +25,9 @@
 ** Marton revists weekly challege 270, task 2
 
 *** tricker than it looks
-
 **** not a good idea to presume the initial maxium value is the target for all
+**** E. Choroba 
+***** https://blogs.perl.org/users/e_choroba/2024/06/equalise-an-array.html
 
 ** some notes from last last time 
 
