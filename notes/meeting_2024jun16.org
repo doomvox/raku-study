@@ -42,8 +42,7 @@
 *** weak job of changing name:
 *** now ChainableSeq
 *** Marton's theory: install SeqSplitter, skipping tess, then use ChainableSeq
-
-
+*** needs patch to fix test, maybe a few other tweaks.
 
 ** some notes from last last time 
 
