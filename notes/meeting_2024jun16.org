@@ -70,4 +70,9 @@
 **** Raku featurettes to review:
 ***** .end
 
+*** TODO extracts cool stuff from chat
+**** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2024jun16-meeting_saved_chat.txt
+
+*** gentle complaint from Rob about unsearchability of these notes.  
+**** generate an index automatically?
 
