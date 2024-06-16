@@ -105,9 +105,6 @@ but I think it's silly to demand that the user has to write `my $/
 **** https://github.com/doomvox/raku-study/tree/main/bin/2024may19/powers_of_two
 **** https://docs.raku.org/language/regexes
 
-
-
-
 **** TODO feature request: complex ranges, range inclusion checks 
 
 **** Raku featurettes to review:
