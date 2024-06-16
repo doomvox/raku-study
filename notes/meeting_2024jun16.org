@@ -11,26 +11,29 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun02.org
 
 
-** type system overview
+** some notes from last last time 
 
-*** https://andrewshitov.com/2018/02/14/56-a-bit-more-on-rat-vs-fatrat-in-perl-6/
 
-*** Willaim Michels: 	Current "Type System" discussion on github: 
-**** https://github.com/Raku/problem-solving/issues/426
+*** type system overview
 
-*** Bruce Gray: For further reading on our type system: 
-**** https://www.reddit.com/r/ProgrammingLanguages/comments/ccbx17/gradual_typing_from_theory_to_practice_sigplan/
+**** https://andrewshitov.com/2018/02/14/56-a-bit-more-on-rat-vs-fatrat-in-perl-6/
 
-*** https://docs.raku.org/language/variables#$*RAT-OVERFLOW
-**** INIT phasor
+**** Willaim Michels: 	Current "Type System" discussion on github: 
+***** https://github.com/Raku/problem-solving/issues/426
 
-** Anton Anotov, Exploratory Data Analysis with Raku 
-*** https://www.youtube.com/watch?v=YCnjMVSfT8w
-*** https://rakuforprediction.wordpress.com/2024/05/25/age-at-creation-for-programming-languages-stats/
+**** Bruce Gray: For further reading on our type system: 
+***** https://www.reddit.com/r/ProgrammingLanguages/comments/ccbx17/gradual_typing_from_theory_to_practice_sigplan/
 
-** Discussion continues: Unclear sharing of $/ causing race conditions #406
-*** https://github.com/Raku/problem-solving/issues/406
-*** Bill fears that in 6.3 they're going to totally break current behavior of match objects ($/)
+**** https://docs.raku.org/language/variables#$*RAT-OVERFLOW
+***** INIT phasor
+
+*** Anton Anotov, Exploratory Data Analysis with Raku 
+**** https://www.youtube.com/watch?v=YCnjMVSfT8w
+**** https://rakuforprediction.wordpress.com/2024/05/25/age-at-creation-for-programming-languages-stats/
+
+*** Discussion continues: Unclear sharing of $/ causing race conditions #406
+**** https://github.com/Raku/problem-solving/issues/406
+**** Bill fears that in 6.3 they're going to totally break current behavior of match objects ($/)
 
 "I feel $/ should remain a user-accessible variable that gets set
 upon a match. I'm not opposed to a special switch that sets $/,
@@ -38,17 +41,17 @@ but I think it's silly to demand that the user has to write `my $/
 = ...` for every gosh-darn match test."
 
 
-** Other William Michels picks:
+*** Other William Michels picks:
 
-*** https://github.com/rakudo/rakudo/issues/1966
+**** https://github.com/rakudo/rakudo/issues/1966
 
-*** https://github.com/Raku/problem-solving/issues/429
+**** https://github.com/Raku/problem-solving/issues/429
 
-*** https://github.com/rakudo/rakudo/issues/1525
+**** https://github.com/rakudo/rakudo/issues/1525
 
-*** https://github.com/Raku/problem-solving/issues/390
+**** https://github.com/Raku/problem-solving/issues/390
 
-*** https://github.com/Raku/problem-solving/issues/426
+**** https://github.com/Raku/problem-solving/issues/426
 
 
 ** weekly challenge
@@ -58,19 +61,14 @@ but I think it's silly to demand that the user has to write `my $/
 **** https://github.com/manwar/perlweeklychallenge-club/
 
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-271
-
-
-*** https://theweeklychallenge.org/blog/perl-weekly-challenge-270
-**** Task2
-***** https://wlmb.github.io/2024/05/20/PWC270/#task-2-distribute-elements
-
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-272
 
 ** perl version recommendations
 *** windows: strawberry perl
 *** mac: via perlbrew, install latest perl
 **** latest perl: 5.38.2
 
-** notes from last time (TBD?)
+** notes from last last time (TBD?)
 
 *** did a quick intro to Raku features (( TODO: could use better ones.  Update/borrow. ))
 **** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/A2-raku_features.org
@@ -119,3 +117,5 @@ but I think it's silly to demand that the user has to write `my $/
 
 **** Raku featurettes to review:
 ***** .end
+
+
