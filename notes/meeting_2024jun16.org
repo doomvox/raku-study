@@ -63,10 +63,6 @@ but I think it's silly to demand that the user has to write `my $/
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-271
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-272
 
-** perl version recommendations
-*** windows: strawberry perl
-*** mac: via perlbrew, install latest perl
-**** latest perl: 5.38.2
 
 ** notes from last last time (TBD?)
 
