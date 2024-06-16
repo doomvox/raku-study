@@ -38,11 +38,11 @@
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-271
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-272
 
-
 ** issues with install SeqSplitter
 *** weak job of changing name:
 *** now ChainableSeq
 *** Marton's theory: install SeqSplitter, skipping tess, then use ChainableSeq
+
 
 
 ** some notes from last last time 
@@ -107,6 +107,7 @@ but I think it's silly to demand that the user has to write `my $/
 *** next meetings
 **** Sunday June 16, 2024 (tenatative: this is father's day)
 **** Sunday June 30, 2024
+***** but bruce at grand canyon
 
 *** YAPC Las Vegas, June 24-28  (just eight days from now)
 **** lightning talks are open now:
