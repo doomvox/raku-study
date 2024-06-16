@@ -90,7 +90,7 @@ but I think it's silly to demand that the user has to write `my $/
 **** Sunday June 16, 2024 (tenatative: this is father's day)
 **** Sunday June 30, 2024
 
-*** YAPC Las Vegas, June 24-28
+*** YAPC Las Vegas, June 24-28  (just eight days from now)
 **** lightning talks are open now:
 ***** https://tprc.us/tprc-2024-las/
 **** the scientific track: https://science.perlcommunity.org/spj
