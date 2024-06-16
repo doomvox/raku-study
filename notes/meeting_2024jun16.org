@@ -29,8 +29,6 @@
 ***** https://blogs.perl.org/users/e_choroba/2024/06/equalise-an-array.html
 **** https:/github.com/2colours/perlweeklychallenge-club/blob/master/challenge-270/2colours/php/ch-2.php
 
-
-
 ** weekly challenge
 *** the problems 
 **** https://theweeklychallenge.org
