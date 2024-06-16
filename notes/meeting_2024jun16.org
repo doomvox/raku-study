@@ -53,6 +53,12 @@ but I think it's silly to demand that the user has to write `my $/
 
 **** https://github.com/Raku/problem-solving/issues/426
 
+**** older: 
+***** https://github.com/Raku/problem-solving/issues/406
+***** https://github.com/Raku/problem-solving/issues/133
+***** https://github.com/Raku/problem-solving/issues/378
+
+
 
 ** weekly challenge
 *** the problems 
@@ -75,11 +81,10 @@ but I think it's silly to demand that the user has to write `my $/
 *** William Michels:
 **** https://unix.stackexchange.com/search?q=user:227738
 **** https://github.com/Raku/problem-solving/issues/426
-**** https://github.com/Raku/problem-solving/issues/406
+
+
 **** https://fluca1978.github.io/2017/09/16/Perl6Timeline.html
 
-**** https://github.com/Raku/problem-solving/issues/133
-**** https://github.com/Raku/problem-solving/issues/378
 
 **** https://www.reddit.com/r/ProgrammingLanguages/comments/ccbx17/gradual_typing_from_theory_to_practice_sigplan/
 
