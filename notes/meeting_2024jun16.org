@@ -10,7 +10,6 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun02.org
 
-
 ** Rob Ransbottom requested Marton's banishment be rescinded soon
 *** Marton doesn't argue for this, but suggests the case against him relies too much on hearsay
 *** Richard Hainsworth speaks up in defense of the process
