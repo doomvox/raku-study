@@ -28,6 +28,7 @@
 **** not a good idea to presume the initial maxium value is the target for all
 **** E. Choroba 
 ***** https://blogs.perl.org/users/e_choroba/2024/06/equalise-an-array.html
+**** https:/github.com/2colours/perlweeklychallenge-club/blob/master/challenge-270/2colours/php/ch-2.php
 
 ** some notes from last last time 
 
