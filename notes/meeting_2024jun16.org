@@ -75,4 +75,6 @@
 
 *** gentle complaint from Rob about unsearchability of these notes.  
 **** generate an index automatically?
+**** write a monolithic summary page?
+**** ship a concatenated single file version that's text searchable...
 
