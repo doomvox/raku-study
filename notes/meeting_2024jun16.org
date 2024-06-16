@@ -43,65 +43,7 @@
 *** now ChainableSeq
 *** Marton's theory: install SeqSplitter, skipping tess, then use ChainableSeq
 *** needs patch to fix test, maybe a few other tweaks.
-
-** some notes from last last time 
-
-*** type system overview
-
-**** https://andrewshitov.com/2018/02/14/56-a-bit-more-on-rat-vs-fatrat-in-perl-6/
-
-**** Willaim Michels: 	Current "Type System" discussion on github: 
-***** https://github.com/Raku/problem-solving/issues/426
-
-**** Bruce Gray: For further reading on our type system: 
-***** https://www.reddit.com/r/ProgrammingLanguages/comments/ccbx17/gradual_typing_from_theory_to_practice_sigplan/
-
-**** https://docs.raku.org/language/variables#$*RAT-OVERFLOW
-***** INIT phasor
-
-*** Anton Anotov, Exploratory Data Analysis with Raku 
-**** https://www.youtube.com/watch?v=YCnjMVSfT8w
-**** https://rakuforprediction.wordpress.com/2024/05/25/age-at-creation-for-programming-languages-stats/
-
-*** Discussion continues: Unclear sharing of $/ causing race conditions #406
-**** https://github.com/Raku/problem-solving/issues/406
-**** Bill fears that in 6.3 they're going to totally break current behavior of match objects ($/)
-
-"I feel $/ should remain a user-accessible variable that gets set
-upon a match. I'm not opposed to a special switch that sets $/,
-but I think it's silly to demand that the user has to write `my $/
-= ...` for every gosh-darn match test."
-
-
-*** Other William Michels picks:
-
-**** https://github.com/rakudo/rakudo/issues/1966
-
-**** https://github.com/Raku/problem-solving/issues/429
-
-**** https://github.com/rakudo/rakudo/issues/1525
-
-**** https://github.com/Raku/problem-solving/issues/390
-
-**** https://github.com/Raku/problem-solving/issues/426
-
-**** older: 
-***** https://github.com/Raku/problem-solving/issues/406
-***** https://github.com/Raku/problem-solving/issues/133
-***** https://github.com/Raku/problem-solving/issues/378
-***** https://unix.stackexchange.com/search?q=user:227738
-
-
-
-** notes from last last time (TBD?)
-
-*** Tim Schafer: Why Programming is Minsky"
-**** https://rafal.io/static/papers/why_programming_is_minsky.pdf
-
-*** Bruce Gray: https://metacpan.org/pod/OEIS
  
-
-
 ** announcements 
 *** next meetings
 **** Sunday June 16, 2024 (tenatative: this is father's day)
