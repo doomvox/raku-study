@@ -72,9 +72,6 @@ but I think it's silly to demand that the user has to write `my $/
 
 ** notes from last last time (TBD?)
 
-
-
-
 *** William Michels:
 
 **** https://github.com/Raku/problem-solving/issues/426
