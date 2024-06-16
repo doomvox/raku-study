@@ -42,10 +42,11 @@
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-272
 
 
-*** issues with install SeqSplitter
-**** weak job of changing name:
-**** now ChainableSeq
-**** Marton's theory: install SeqSplitter, skipping tess, then use ChainableSeq
+** issues with install SeqSplitter
+*** weak job of changing name:
+*** now ChainableSeq
+*** Marton's theory: install SeqSplitter, skipping tess, then use ChainableSeq
+
 
 ** some notes from last last time 
 
@@ -98,14 +99,8 @@ but I think it's silly to demand that the user has to write `my $/
 
 ** notes from last last time (TBD?)
 
-
-**** 
-
 *** Tim Schafer: Why Programming is Minsky"
 **** https://rafal.io/static/papers/why_programming_is_minsky.pdf
-
-
-
 
 *** Bruce Gray: https://metacpan.org/pod/OEIS
  
