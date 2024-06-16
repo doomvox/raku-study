@@ -42,6 +42,9 @@
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-272
 
 
+zef install SeqSplitter
+zef install ChainableSplitter
+
 
 ** some notes from last last time 
 
