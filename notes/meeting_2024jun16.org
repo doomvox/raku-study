@@ -42,9 +42,13 @@
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-272
 
 
-zef install SeqSplitter
-zef install ChainableSplitter
+*** issues with install SeqSplitter
+**** weak job of changing name:
 
+zef install SeqSplitter
+zef install ChainableSeq
+**** now ChainableSeq
+**** Marton's theory: install SeqSplitter, skipping tess, then use ChainableSeq
 
 ** some notes from last last time 
 
