@@ -17,6 +17,10 @@
 **** but is willing to listen to critism: 
 ***** Rob points out that the dozen or so stated grounds for being banned that aren't referenced in the decision.
 
+** Discussion of the state of raku docs
+*** Fixes made, and others on the way
+
+** side issue, parsing postgres documentation
 
 ** some notes from last last time 
 
