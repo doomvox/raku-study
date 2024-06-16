@@ -30,8 +30,20 @@
 ***** https://blogs.perl.org/users/e_choroba/2024/06/equalise-an-array.html
 **** https:/github.com/2colours/perlweeklychallenge-club/blob/master/challenge-270/2colours/php/ch-2.php
 
-** some notes from last last time 
 
+
+** weekly challenge
+*** the problems 
+**** https://theweeklychallenge.org
+*** the solutions
+**** https://github.com/manwar/perlweeklychallenge-club/
+
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-271
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-272
+
+
+
+** some notes from last last time 
 
 *** type system overview
 
@@ -78,15 +90,6 @@ but I think it's silly to demand that the user has to write `my $/
 ***** https://github.com/Raku/problem-solving/issues/378
 ***** https://unix.stackexchange.com/search?q=user:227738
 
-
-** weekly challenge
-*** the problems 
-**** https://theweeklychallenge.org
-*** the solutions
-**** https://github.com/manwar/perlweeklychallenge-club/
-
-*** https://theweeklychallenge.org/blog/perl-weekly-challenge-271
-*** https://theweeklychallenge.org/blog/perl-weekly-challenge-272
 
 
 ** notes from last last time (TBD?)
