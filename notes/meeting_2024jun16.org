@@ -19,7 +19,9 @@
 ** Discussion of the state of raku docs
 *** Fixes made, and others on the way
 
-** side issue, parsing postgres documentation
+** side issue from Rob about parsing postgres documentation
+*** an oddity, it's not so simple to identify sections, e.g. examples and syntax
+*** Rob uses his own "custom tags" (like a two-pass parse?)
 
 ** Marton revists weekly challege 270, task 2
 
