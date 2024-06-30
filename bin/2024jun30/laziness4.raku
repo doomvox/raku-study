@@ -5,7 +5,7 @@
 use v6;
 
 sub something {
-    my Int @a = (1..100000);  ## with a value of 100000 it's 0.9 s without is lazy, faster 0.699s with is lazy
+    my Int @a = (1..100000);  ## script takes 0.7s
 }
 
 for 1..1000 {
