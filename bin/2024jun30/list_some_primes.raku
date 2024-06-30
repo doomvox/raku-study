@@ -35,7 +35,7 @@ use v6;
     my @primes = gather
       for (1..100000) {
         take $_ if .is-prime;
-        last if @primes.elems > 25;
+        last if $++ > 25;
        }
 #    say @primes.[0..24];
 #    say @primes.[0..3];
