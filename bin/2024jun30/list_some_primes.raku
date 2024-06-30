@@ -37,6 +37,7 @@ use v6;
       for (1..100000) {
         if .is-prime {
             take $_;
+            say $++;
             last LOOPY if $++ > 25;
         }
        }
