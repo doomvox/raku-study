@@ -31,7 +31,7 @@ use v6;
       for (1..100) {
         take $_ if .is-prime;
        }
-    say @primes;
+    say @primes.[0..24];
 }
 
 
