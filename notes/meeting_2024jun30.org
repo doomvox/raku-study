@@ -8,7 +8,7 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2024jun30
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun02.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun16.org
 
 ** Rob Ransbottom requested Marton's banishment be rescinded soon
 *** Marton doesn't argue for this, but suggests the case against him relies too much on hearsay
