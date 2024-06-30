@@ -67,10 +67,10 @@ use v6;
 
 {
     # Maybe
-    constant @prime2 is export = 2, 3, {$^a + 2 if $^a.is-prime} … ∞;
+    constant @prime3 is export = 2, 3, {$^a + 2 if $^a.is-prime} … ∞;
 }
  {   
     # Tim Schafer suggests:
-    constant @prime2 is export = 2, 3, ( -> $n + 2 if $n.is-prime) … ∞;
+    constant @prime4 is export = 2, 3, ( -> $n + 2 if $n.is-prime) … ∞;
 
 }
