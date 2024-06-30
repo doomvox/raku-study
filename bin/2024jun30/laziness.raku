@@ -10,7 +10,7 @@ say (1 .. Inf).is-lazy; # True
 
 
 sub something {
-    my @a = (1..1000);  ## with a value of 10000, it's 3mins, with only 100 it's 0.8mins
+    my @a = (1...1000);  ## with a value of 10000, it's 3mins, with only 100 it's 0.8mins
 }
 
 for 1..1000 {
