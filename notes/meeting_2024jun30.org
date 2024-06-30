@@ -40,6 +40,20 @@
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-271
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-272
 
+*** Bruce Gray
+
+I expect to attend the meeting in two weeks, but today I will be at the Grand Canyon so cannot join you all.
+
+My weekly challenge solutions:
+https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-274/bruce-gray/raku
+https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-275/bruce-gray/raku
+
+Or, if my 275 PR is not yet processed:
+https://github.com/Util/perlweeklychallenge-club/tree/c275/challenge-275/bruce-gray/raku
+
+
+
+
 ** issues with install SeqSplitter
 *** weak job of changing name:
 *** now ChainableSeq
