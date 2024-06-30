@@ -63,13 +63,13 @@ use v6;
 
     constant @prime2 is export = 2, 3, (* + 2 if *.is-prime) … ∞;
     ## some discussion on whether this can work... the two '*" may be two params?
-    say @prime2.head(5);
+    say @prime2.head(5); # (2 3 5 7 9)
 }
 
 {
     # Maybe
     constant @prime3 is export = 2, 3, {$^a + 2 if $^a.is-prime} … ∞;
-    say @prime3.head(5);
+    say @prime3.head(5); # (2 3 5 7 9)
 }
  {   
     # Tim Schafer suggests:
