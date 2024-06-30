@@ -6,8 +6,8 @@ use v6;
 
 
 sub something {
-    my $a = (1..1000);  ## with a value of 1000, it's 0.7s
-    say $a.WHAT;  # (Range)
+    my @a = (1..1000);  ## with a value of 1000, it's 0.7s, if this were @a
+    say @a.WHAT;  # (Range)
 }
 ## Changing to ... would take 13 secs
 
