@@ -50,6 +50,8 @@ use v6;
 }
 
 
+exit;
+
 {
     say "--";
     ## Tim solution:
