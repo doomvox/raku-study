@@ -1,0 +1,83 @@
+* meeting notes June 30, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun30.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024jun30
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun02.org
+
+** Rob Ransbottom requested Marton's banishment be rescinded soon
+*** Marton doesn't argue for this, but suggests the case against him relies too much on hearsay
+*** Richard Hainsworth speaks up in defense of the process
+**** but is willing to listen to critism: 
+***** Rob points out that the dozen or so stated grounds for being banned that aren't referenced in the decision.
+
+** Discussion of the state of raku docs
+*** Fixes made, and others on the way
+
+** side issue from Rob about parsing postgres documentation
+*** an oddity, it's not so simple to identify sections, e.g. examples and syntax
+*** Rob uses his own "custom tags" (like a two-pass parse?)
+
+** Marton revists weekly challege 270, task 2
+
+*** tricker than it looks
+**** not a good idea to presume the initial maxium value is the target for all
+**** E. Choroba 
+***** https://blogs.perl.org/users/e_choroba/2024/06/equalise-an-array.html
+**** https:/github.com/2colours/perlweeklychallenge-club/blob/master/challenge-270/2colours/php/ch-2.php
+
+** weekly challenge
+*** the problems 
+**** https://theweeklychallenge.org
+*** the solutions
+**** https://github.com/manwar/perlweeklychallenge-club/
+
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-271
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-272
+
+** issues with install SeqSplitter
+*** weak job of changing name:
+*** now ChainableSeq
+*** Marton's theory: install SeqSplitter, skipping tess, then use ChainableSeq
+*** needs patch to fix test, maybe a few other tweaks.
+ 
+** announcements 
+*** next meetings
+**** Sunday June 16, 2024 (tenatative: this is father's day)
+**** Sunday June 30, 2024
+***** but bruce at grand canyon
+**** TODO
+
+*** YAPC Las Vegas, June 24-28  (just eight days from now)
+**** lightning talks are open now:
+***** https://tprc.us/tprc-2024-las/
+**** the scientific track: https://science.perlcommunity.org/spj
+
+*** Perl and Raku conference, 1-day in London
+**** http://act.yapc.eu/lpw2024/
+
+** follow-up
+
+*** I should improve my "quick intro to Raku" presentations:
+**** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/A2-raku_features.org
+**** https://github.com/doomvox/raku-study/tree/main/bin/2024may19/powers_of_two
+**** https://docs.raku.org/language/regexes
+
+**** TODO feature request: complex ranges, range inclusion checks 
+
+**** Raku featurettes to review:
+***** .end
+
+*** TODO extracts cool stuff from chat
+**** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2024jun16-meeting_saved_chat.txt
+
+*** gentle complaint from Rob about unsearchability of these notes.  
+**** generate an index automatically?
+**** write a monolithic summary page?
+**** ship a concatenated single file version that's text searchable...
+
