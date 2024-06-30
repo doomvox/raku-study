@@ -6,7 +6,7 @@ use v6;
 
 
 sub something {
-    my @a = (1..100000);  ## with a value of 1000 it's 1.3mins
+    my @a = (1..100000);  ## with a value of 100000 it's 0.9 s
 }
 ## Changing to ... would take 13 secs
 
