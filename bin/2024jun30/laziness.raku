@@ -7,3 +7,12 @@ use v6;
 # Time Schafer raises the point
 say (1 .. 100).is-lazy; # False 
 say (1 .. Inf).is-lazy; # True
+
+
+sub something {
+    my @a = (1..100000000000000000000000000000000000000);
+}
+
+for 1..1000 {
+    something();
+}
