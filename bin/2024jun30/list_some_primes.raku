@@ -39,7 +39,7 @@ use v6;
             take $_;
 #            say $++;  ## always 0?
             state $c++;
-            last LOOPY if  > 25;
+            last LOOPY if $c > 25;
         }
        }
 #    say @primes.[0..24];
