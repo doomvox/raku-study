@@ -9,7 +9,7 @@ sub something {
 #    my $a =   (1..10000);  # script time 0m0.921s
 #    my @a =   (1..10000);  # script time 0m3.567s
     my @a :=   (1..10000);  # script time real	0m0.811s
-    @a.WHAT;
+    say @a.WHAT;
 }
 
 for 1..1000 {
