@@ -10,7 +10,7 @@ say (1 .. Inf).is-lazy; # True
 
 
 sub something {
-    my @a = (1..1000);
+    my @a = (1..100);
 }
 
 for 1..1000 {
