@@ -6,7 +6,7 @@ use v6;
 
 
 sub something {
-    my $a = (1..1000);  ## with a value of 10000, it's 3mins, with only 1000 it's 1 min
+    my $a = (1..1000);  ## with a value of 1000, it's 3mins, with only 1000 it's 1 min
     say $a.WHAT;
 }
 ## Changing to ... would take 13 secs
