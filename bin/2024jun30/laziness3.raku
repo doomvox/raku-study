@@ -6,8 +6,8 @@ use v6;
 
 
 sub something {
-#    my @a is lazy = (1..1000);  ## with a value of 100000 it's 0.9 s without is lazy, faster 0.699s with is lazy
-    lazy my @a =  (1..1000);  ## limit 1000, time of script 1m .18s
+    my @a is lazy = (1..1000);  ## with a value of 100000 it's 0.9 s without is lazy, faster 0.699s with is lazy
+#    lazy my @a =  (1..1000);  ## limit 1000, time of script 1m .18s
 }
 ## Changing to ... would take 13 secs
 
