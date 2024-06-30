@@ -29,7 +29,7 @@ use v6;
 {
     my @primes = gather
       for (1..100) {
-        take $_ if .is_prime;
+        take $_ if .is-prime;
        }
     say @primes;
 }
