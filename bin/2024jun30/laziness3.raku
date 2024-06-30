@@ -6,7 +6,9 @@ use v6;
 
 
 sub something {
-    my @a is lazy = (1..100000);  ## with a value of 100000 it's 0.9 s without is lazy, faster 0.699s with is lazy
+#    my @a is lazy = (1..100000);  ## with a value of 100000 it's 0.9 s without is lazy, faster 0.699s with is lazy
+    my @a = lazy (1..100000);  ## with a value of 100000 it's 0.9 s without is lazy, faster 0.699s with is lazy
+
 }
 ## Changing to ... would take 13 secs
 
