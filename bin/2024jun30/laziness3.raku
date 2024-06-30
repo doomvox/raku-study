@@ -14,6 +14,7 @@ sub something {
 #    my @a = lazy (1..1000);  ## limit 1000, time of script 0m0.717s
 
     my lazy @a =  (1..1000);  ## limit 1000, time of script 1m .18s
+#     ## Type 'lazy' is not declared
 
 }
 ## Changing to ... would take 13 secs
