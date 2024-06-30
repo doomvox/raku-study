@@ -53,10 +53,10 @@
 ***** but bruce at grand canyon
 **** TODO
 
-*** YAPC Las Vegas, June 24-28  (just eight days from now)
-**** lightning talks are open now:
-***** https://tprc.us/tprc-2024-las/
-**** the scientific track: https://science.perlcommunity.org/spj
+*** YAPC Las Vegas, June 24-28  
+**** TODO check for vid links
+
+ 
 
 *** Perl and Raku conference, 1-day in London
 **** http://act.yapc.eu/lpw2024/
