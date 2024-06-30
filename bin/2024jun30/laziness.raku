@@ -4,6 +4,6 @@
 
 use v6;
 
-
+# Time Schafer raises the point
 (1 .. 100).is-lazy; # False 
 (1 .. Inf).is-lazy; # True
