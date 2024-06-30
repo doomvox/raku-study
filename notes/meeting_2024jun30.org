@@ -13,7 +13,10 @@
 ** life the universe and everything
 *** databases
 **** datomic
+***** temporal data
 **** duckdb
+***** distributed, raw data files, map reduce, type inference
+
 *** technical fads
 **** mongo
 
