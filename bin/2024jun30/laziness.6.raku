@@ -5,7 +5,9 @@
 use v6;
 
 sub something {
-    my $a := (1..10000);
+#    my $a := (1..10000);  # script time  0m0.823s
+    my $a = (1..10000);  # script time  0m0.823s
+
 }
 
 for 1..1000 {
