@@ -32,7 +32,7 @@ use v6;
 
 
 {
-    say "===";
+    say "HEY THERE IDJIT ===";
     my @primes = gather
     LOOPY:
       for (1..10) {
