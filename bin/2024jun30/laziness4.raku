@@ -7,7 +7,7 @@ use v6;
 sub something {
 #    my Int @a = (1..100000);  ## script takes 0.7s
 #    my @a = (1..100000);  ## script takes 1.5m
-    my int @a = (1..100000);  ## script takes 0.7s
+    my int @a = (1..100000);  ## script takes __
 }
 
 for 1..1000 {
