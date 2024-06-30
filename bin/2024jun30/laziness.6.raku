@@ -12,7 +12,7 @@ sub something {
     say @a.WHAT;  # (Range)
     say @a[99];  # 100
 
-    @a[99] = 666;
+    # @a[99] = 666;  # Cannot modify an immutable Range (1..10000)
 }
 
 for 1..1000 {
