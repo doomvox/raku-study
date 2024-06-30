@@ -38,7 +38,8 @@ use v6;
         if .is-prime {
             take $_;
 #            say $++;  ## always 0?
-            last LOOPY if state $c > 25;
+            state $c++;
+            last LOOPY if  > 25;
         }
        }
 #    say @primes.[0..24];
