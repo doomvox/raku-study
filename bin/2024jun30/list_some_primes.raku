@@ -31,6 +31,7 @@ use v6;
       for (1..100) {
         take $_ if .is_prime;
        }
+    say @primes;
 }
 
 
