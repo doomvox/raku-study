@@ -16,6 +16,12 @@ use v6;
 }
 
 
+{
+    my @primes = (1..100).map({  .is-prime  ?? $_ !! Nil });
+    say @primes[0..24];
+    # (False (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any))
+}
+
 
 
 
