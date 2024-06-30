@@ -32,6 +32,7 @@ use v6;
 
 
 {
+    say "===";
     my @primes = gather
     LOOPY:
       for (1..10) {
