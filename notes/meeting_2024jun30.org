@@ -10,20 +10,7 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun16.org
 
-** Discussion of the state of raku docs
-*** Fixes made, and others on the way
 
-** side issue from Rob about parsing postgres documentation
-*** an oddity, it's not so simple to identify sections, e.g. examples and syntax
-*** Rob uses his own "custom tags" (like a two-pass parse?)
-
-** Marton revists weekly challege 270, task 2
-
-*** tricker than it looks
-**** not a good idea to presume the initial maxium value is the target for all
-**** E. Choroba 
-***** https://blogs.perl.org/users/e_choroba/2024/06/equalise-an-array.html
-**** https:/github.com/2colours/perlweeklychallenge-club/blob/master/challenge-270/2colours/php/ch-2.php
 
 ** weekly challenge
 *** the problems 
