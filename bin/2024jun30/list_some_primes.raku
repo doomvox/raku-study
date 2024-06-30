@@ -32,7 +32,7 @@ use v6;
         take $_ if .is-prime;
        }
 #    say @primes.[0..24];
-    say @primes.[0..3];
+#    say @primes.[0..3];
     say @primes;
     say @primes[24];
 }
