@@ -14,7 +14,8 @@
 *** databases
 **** datomic
 **** duckdb
-
+*** technical fads
+**** mongo
 
 ** weekly challenge
 *** the problems 
