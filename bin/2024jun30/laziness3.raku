@@ -10,6 +10,9 @@ sub something {
 #      ## Can't use unknown trait 'is' -> 'lazy' in  variable declaration.
 
 #    lazy my @a =  (1..1000);  ## limit 1000, time of script 1m .18s
+
+    my @a = lazy (1..1000);  ## limit 1000, time of script 1m .18s
+
 }
 ## Changing to ... would take 13 secs
 
