@@ -10,7 +10,11 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun16.org
 
+** life the universe and everything
 
+*** databases
+**** datomic
+**** duckdb
 
 ** weekly challenge
 *** the problems 
