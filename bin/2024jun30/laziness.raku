@@ -4,7 +4,7 @@
 
 use v6;
 
-# Time Schafer raises the point
+# Tim Schafer raises the point
 say (1 .. 100).is-lazy; # False 
 say (1 .. Inf).is-lazy; # True
 
