@@ -17,3 +17,4 @@ sub something {
 for 1..1000 {
     something();
 }
+
