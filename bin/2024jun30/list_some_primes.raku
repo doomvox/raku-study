@@ -36,7 +36,7 @@ use v6;
       for (1..100000) {
         if .is-prime {
             take $_;
-            last if $++ > 25;
+            last LOOPY if $++ > 25;
         }
        }
 #    say @primes.[0..24];
