@@ -64,6 +64,6 @@ use v6;
     constant @prime2 is export = 2, 3, (* + 2 if *.is-prime) … ∞
     ## some discussion on whether this can work... the two '*" may be two params?
 
-    constant @prime2 is export = 2, 3, ($^a + 2 if $^a.is-prime) … ∞
+    constant @prime2 is export = 2, 3, {$^a + 2 if $^a.is-prime} … ∞
 
 }
