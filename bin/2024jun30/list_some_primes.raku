@@ -33,6 +33,7 @@ use v6;
        }
  say @primes;
 #    say @primes.[0..24];
+  say @primes[24];
 }
 
 
