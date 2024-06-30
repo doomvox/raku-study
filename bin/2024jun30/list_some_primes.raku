@@ -49,5 +49,6 @@ use v6;
 
 
 {
+    say "--";
     say (1..*).grep(*.is-prime).head(25);
 }
