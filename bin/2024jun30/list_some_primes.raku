@@ -48,4 +48,6 @@ use v6;
 }
 
 
-
+{
+    say (1..*).grep(*.is-prime).head(25);
+}
