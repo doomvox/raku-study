@@ -5,7 +5,7 @@
 use v6;
 
 
-say (1..100).is-prime.[0-24];
+say (1..100).is-prime.[0..24];
 
 
 
