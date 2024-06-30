@@ -15,6 +15,11 @@ sub something {
     # @a[99] = 666;  # Cannot modify an immutable Range (1..10000)
 }
 
+
+$i := 3;
+$i++;
+
+
 for 1..1000 {
     something();
 }
