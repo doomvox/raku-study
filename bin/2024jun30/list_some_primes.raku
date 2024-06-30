@@ -71,8 +71,8 @@ use v6;
     say @prime3.head(5); # (2 3 5 7 9)
 }
  {   
-    # Tim Schafer suggests:
-#    constant @prime4 is export = 2, 3, ( -> $n + 2 if $n.is-prime) … ∞;
+    # Tim Schafer suggests (doesn't compile?)
+    constant @prime4 is export = 2, 3, ( -> $n + 2 if $n.is-prime) … ∞;
 
 # at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024jun30/list_some_primes.raku:74
 # ------> nstant @prime4 is export = 2, 3, ( -> $n⏏ + 2 if $n.is-prime) … ∞;
