@@ -66,7 +66,7 @@ use v6;
 }
 
 {
-    # Maybe
+    # Another approach (works also):
     constant @prime3 is export = 2, 3, {$^a + 2 if $^a.is-prime} … ∞;
     say @prime3.head(5); # (2 3 5 7 9)
 }
