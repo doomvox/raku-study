@@ -34,7 +34,7 @@ use v6;
 {
     my @primes = gather
     LOOPY:
-      for (1..100000) {
+      for (1..1000) {
         if .is-prime {
             take $_;
             say $++;
