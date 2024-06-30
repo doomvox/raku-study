@@ -20,7 +20,7 @@
 ***** distributed, raw data files, map reduce, type inference
 
 
-*** technical fads
+*** technical fads and human irrationality
 **** mongo
 
 
