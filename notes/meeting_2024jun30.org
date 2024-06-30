@@ -34,17 +34,9 @@ Or, if my 275 PR is not yet processed:
 https://github.com/Util/perlweeklychallenge-club/tree/c275/challenge-275/bruce-gray/raku
 
 
-
-
-** issues with install SeqSplitter
-*** weak job of changing name:
-*** now ChainableSeq
-*** Marton's theory: install SeqSplitter, skipping tess, then use ChainableSeq
-*** needs patch to fix test, maybe a few other tweaks.
  
 ** announcements 
 *** next meetings
-**** Sunday June 16, 2024 (tenatative: this is father's day)
 **** Sunday June 30, 2024
 ***** but bruce at grand canyon
 **** TODO
