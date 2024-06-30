@@ -11,6 +11,8 @@ sub something {
     my @a :=   (1..10000);  # script time real	0m0.811s
     say @a.WHAT;  # (Range)
     say @a[99];  # 100
+
+    @a[99] = 666;
 }
 
 for 1..1000 {
