@@ -14,8 +14,11 @@
 *** databases
 **** datomic
 ***** temporal data
+**** xtdb
+***** hybrid approach, queryable with sql
 **** duckdb
 ***** distributed, raw data files, map reduce, type inference
+
 
 *** technical fads
 **** mongo
