@@ -18,10 +18,11 @@
 *** the solutions
 **** https://github.com/manwar/perlweeklychallenge-club/
 
-*** https://theweeklychallenge.org/blog/perl-weekly-challenge-271
-*** https://theweeklychallenge.org/blog/perl-weekly-challenge-272
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-275
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-274
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-273
 
-*** Bruce Gray
+*** Bruce Gray:
 
 I expect to attend the meeting in two weeks, but today I will be at the Grand Canyon so cannot join you all.
 
