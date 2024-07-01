@@ -67,6 +67,7 @@ use v6;
             # state $c++;
             # last LOOPY if $c > 25;
 
+            ## Some prefer this for readability
             state $c;
             last LOOPY if $c++ > 25;
         }
