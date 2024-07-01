@@ -30,6 +30,8 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 
 **** side issue: benchmarking constructs with the laziness*.raku series
 ***** @a = (1..1000) is 13x faster than @a = (1...1000)
+***** @a = (1..100000) can be 100x slower than $a = (1..100000)
+****** but only with a larger array size, depends on available memory
 
 **** TODO follow up weirdness on ranges/sequences (Rob)
 **** TODO Rob: "a couple of odd things"
