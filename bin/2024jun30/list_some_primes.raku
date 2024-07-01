@@ -7,8 +7,6 @@ use v6;
 ## 5x5
 ## 1 to 100, inclusive
 
-
-
 {
     say "==1=="
     # say (1..100).is-prime.[0..24];
