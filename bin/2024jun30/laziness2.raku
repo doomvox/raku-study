@@ -13,7 +13,7 @@ sub something {
 # with $a,
 #   real	0m0.402s
 # with @a
-# 
+#   real	0m0.538s
 
 for 1..1000 {
     something();
