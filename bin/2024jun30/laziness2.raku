@@ -13,6 +13,7 @@ sub something {
 # with $a,
 #   real	0m0.402s
 # with @a
+# 
 
 for 1..1000 {
     something();
