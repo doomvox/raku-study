@@ -115,7 +115,7 @@ use v6;
     ##
     ## (Raku's touches of whitespace sensitivity can trip up anyone)
 
-    # This version works (pointy block abuse, I think, but if you like this, it's there):
+    # This version works (pointy block abuse methinks, but if you like this, it's there):
     constant @prime4 is export = 2, 3, -> $n {$n + 2 if $n.is-prime} … ∞;
 
 
