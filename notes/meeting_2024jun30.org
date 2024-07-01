@@ -22,7 +22,7 @@
 *** dynamic of technical fads 
 **** mongo
 
-*** suprising wrinkles to the bingo card problem
+*** suprising number of wrinkles to the bingo card problem
 **** DONE explain to bill what I mean
 **** follow up weirdness on ranges/sequences (Rob)
 **** Rob: couple of odd things
