@@ -19,12 +19,14 @@ sub something {
 
 # with $a,
 # with limit 1000:
-#     real	0m0.402s
+#   real	0m0.402s
 # with limit 100000:
-#     real	0m0.372s
+#   real	0m0.372s
 # with @a
 # with limit 1000:
 #   real	0m0.538s
+# with limit 100000:
+#   real	0m59.612s
 
 for 1..1000 {
     something();
