@@ -24,11 +24,17 @@
 **** mongo
 
 *** suprising wrinkles to the bingo card problem
-**** explain to bill what I mean
+**** DONE explain to bill what I mean
 **** follow up weirdness on ranges/sequences (Rob)
 **** Rob: couple of odd things
 
 *** Bill's report on the raku/perl conference in Vegas
+
+$_
+$/
+
+undef $/;
+
 
 ** weekly challenge 
 *** the problems 
