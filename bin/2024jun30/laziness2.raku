@@ -31,3 +31,9 @@ sub something {
 for 1..1000 {
     something();
 }
+
+
+## Theory: yeserday I had a big firefox instance running, which was
+## probably burning a lot of memory.
+
+## This morning I only hit the memory ceiling with bigger arrays.
