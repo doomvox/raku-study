@@ -18,7 +18,7 @@ sub something {
 }
 ## Changing to ... would take 13 secs
 
-for 1..1000 {
+for 1...1000 {
     something();
 }
 
