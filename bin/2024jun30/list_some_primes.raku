@@ -111,7 +111,6 @@ use v6;
     # Mark A suggested this version, but it doesn't compile:
     # constant @prime4 is export = 2, 3, ->$n{$n + 2 if $n.is-prime} … ∞;
     # 
-    # at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024jun30/list_some_primes.raku:74
     # ------> nstant @prime4 is export = 2, 3, ( -> $n⏏ + 2 if $n.is-prime) … ∞;
 
 
