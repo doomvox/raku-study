@@ -44,6 +44,9 @@
 ***** https://www.youtube.com/watch?v=ePnKUNW4r8c&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=19
 ***** playwright: node.js tool browser automation; using from perl tests
 
+**** Supporting Universal Dependencies in the Tree Editor TrEd - Jan Štěpánek - TPRC 2024 
+***** https://www.youtube.com/watch?v=dUGVAQ6wafE
+***** TrEd, create, modify, browse, and search treebanks - large language corpora annotated with syntactic and/or semantic structure information
 
 *** some discussion of state of corinna
 **** difficulties of multi-threading in perl
