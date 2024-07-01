@@ -40,3 +40,4 @@ for 1..1000 {
 # with limit 1000
 #   real	0m0.533s
 # with limit 100000
+#   real	1m0.567s
