@@ -10,7 +10,9 @@ say (1 .. Inf).is-lazy; # True
 
 # Marton explains that 1..Inf can't possibly *not* be lazy, so Raku defaults to it in that case
 
-## The "laziness" series all have a construct like this, a sub that does "something" 
+#===
+
+## Note: the "laziness*.raku" series all have a construct like this, a sub that does "something" 
 ## which is then run a thousand times.  
 
 #  time laziness.raku
