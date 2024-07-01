@@ -67,7 +67,15 @@
 ***** https://www.youtube.com/watch?v=dn9msFIED-8&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=10
 ***** novel application of LLMs to convert unstructured text into a structured data format, specifically the Resource Description Framework (RDF)—the lingua franca of the Semantic Web
 
+**** Demystifying Perl One-Liners - Walter C. Mankowski - TPRC 2024 
+***** https://www.youtube.com/watch?v=ZqSddysHJb0&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=11
+***** 
 
+
+**** Maximizing Performance and Cost Efficiency in the Cloud - Dimitrios Kechagias - TPRC 2024 
+***** https://www.youtube.com/watch?v=UEjMr5aUbbM&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=12
+***** from instance types and architectures, to scaling, storage, monitoring and more. 
+***** As many organizations have discovered, including our own, cloud solutions can be quite expensive
 
 **** 
 
