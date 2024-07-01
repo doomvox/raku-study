@@ -22,7 +22,7 @@
 *** dynamic of technical fads 
 **** mongo
 
-*** suprising number of wrinkles to the bingo card problem
+*** the bingo card problem
 **** problem: fill in a 5x5 bingo card with numbers from 1-100 (inclusive)
 ***** my idea: just go with prime numbers, make sure you don't list more than 25
 ***** spoiler: it turns out there are exactly 25 primes in the range 1-100
