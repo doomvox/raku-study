@@ -30,7 +30,7 @@
 
 *** Bill's report on the raku/perl conference in Vegas
 
-** weekly challenge 
+** weekly challenge  (( delayed to next time ))
 *** the problems 
 **** https://theweeklychallenge.org
 *** the solutions
