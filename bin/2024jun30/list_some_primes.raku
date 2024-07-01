@@ -96,8 +96,9 @@ use v6;
     say "==6==";
     # Rob's idea (seems to work)
     constant @prime2 is export = 2, 3, (* + 2 if *.is-prime) … ∞;
-    ## there was some discussion on whether this could work: the two '*" may be two params?
+    ## there was some discussion on whether this could work: the two '*' may be two params?
     say @prime2.head(5); # (2 3 5 7 9)
+    ## (Tim Schafer really liked the use of the unicode infinity char)
 }
 
 {
