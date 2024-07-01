@@ -112,11 +112,13 @@ use v6;
     # constant @prime4 is export = 2, 3, ->$n{$n + 2 if $n.is-prime} … ∞;
     # 
     ## ------> nstant @prime4 is export = 2, 3, ( -> $n⏏ + 2 if $n.is-prime) … ∞;
+    ##
+    ## (Raku's touches of whitespace sensitivity can trip up anyone)
 
     # But this does (pointy block abuse, I think, but if you like this, it's there):
     constant @prime4 is export = 2, 3, -> $n {$n + 2 if $n.is-prime} … ∞;
 
-    ## (Raku's touches of whitespace sensitivity can trip up anyone)
+
 
     say @prime4.head(5); # (2 3 5 7 9)
 }
