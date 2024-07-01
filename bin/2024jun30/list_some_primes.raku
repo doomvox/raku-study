@@ -118,7 +118,5 @@ use v6;
     # This version works (pointy block abuse methinks, but if you like this, it's there):
     constant @prime4 is export = 2, 3, -> $n {$n + 2 if $n.is-prime} … ∞;
 
-
-
     say @prime4.head(5); # (2 3 5 7 9)
 }
