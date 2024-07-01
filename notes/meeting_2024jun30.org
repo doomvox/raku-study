@@ -32,7 +32,8 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 ***** @a = (1..1000) is 13x faster than @a = (1...1000)
 ***** @a = (1..100000) can be 100x slower than $a = (1..100000)
 ****** but only with a larger array size, depends on available memory
-***** @a = lazy (1..100000), with that big array size is much faster than without 'lazy': over 100x
+***** @a = lazy (1..100000), is much faster than without 'lazy': over 100x
+****** again, but only with the larger array size of 100000
 
 **** TODO follow up weirdness on ranges/sequences (Rob)
 **** TODO Rob: "a couple of odd things"
