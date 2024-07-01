@@ -48,6 +48,20 @@
 ***** https://www.youtube.com/watch?v=dUGVAQ6wafE
 ***** TrEd, create, modify, browse, and search treebanks - large language corpora annotated with syntactic and/or semantic structure information
 
+**** The Test2 Ecosystem - Chad Granum - TPRC 2024
+***** https://www.youtube.com/watch?v=DdSQkIfeoqU&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=16
+***** high level view of the Test2 tools that are available
+
+**** The New Standards of Conduct and You - D Ruth Holloway - TPRC 2024 
+***** https://www.youtube.com/watch?v=g8Qu1k6IeR8&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=4
+***** The Board is implementing a new Standards of Conduct for events and spaces that are provided or supported by The Perl and Raku Foundation
+
+**** 
+***** 
+***** 
+
+
+
 *** some discussion of state of corinna
 **** difficulties of multi-threading in perl
 **** scoping of special vars in Raku, ala the match object $/
