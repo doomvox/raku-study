@@ -12,3 +12,5 @@ sub something {
 for 1..1000 {
     something();
 }
+
+## Because the Inf version is necessarily lazy it's faster than a smaller value would be
