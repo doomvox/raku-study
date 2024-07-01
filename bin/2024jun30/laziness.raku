@@ -28,7 +28,7 @@ for 1..1000 {
 
 ## Re-checking timing I see this afternoon (July  1, 2024) my machine is a lot faster
 ## and *also* I'm seeing a different result than I reported above ".." is much faster  
-## than "...".
+## than "...", ~13x faster.
 
 #  time laziness.raku
 #  real	0m0.532s   
