@@ -31,8 +31,10 @@ for 1..1000 {
 
 # This construct is a bit faster today (July 1):
 #     my @a = lazy (1..1000);  ## limit 1000, time of script 0m0.717s     THE WINNAH
-# real	0m0.389s
+# with limit 1000
+#   real	0m0.389s
 
 # without "lazy" it's only a little slower:
 #     my @a =  (1..1000);  
-# real	0m0.533s
+# with limit 1000
+#   real	0m0.533s
