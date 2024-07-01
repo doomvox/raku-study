@@ -1,0 +1,25 @@
+## capture of a raku repl session, playing quickly with a range of characters
+
+[0] > say ("a".."e").[3];
+d
+[0] > say ("a".."e")
+"a".."e"
+[0] > say ("a".."e").raku;
+WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+Index out of range. Is: 3, should be in 0..0
+  in block <unit> at <unknown file> line 1
+
+"a".."e"
+[0] > say ("a".."e")[];
+"a".."e"
+[0] > say ("a".."e").[];
+"a".."e"
+[0] > say ("a".."e").[0..Inf]
+(a b c d e)
+[0] > say ("a".."e").[*];
+(a b c d e)
+[0] > say ("a".."e").list;
+(a b c d e)
+[0] > say ("a".."e").List;
+(a b c d e)
+[0] > 
