@@ -59,7 +59,6 @@ use v6;
 
             ## want to stop working once we have 25 (premature optimization...)
 
-
             ## a raku oddity, this anon var is local to the *if* block
             #  say $++;  ## always 0?
 
