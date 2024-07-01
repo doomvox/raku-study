@@ -19,7 +19,7 @@ sub something {
 #    my @a =  (1..1000);  ## without "lazy" (see below)
 
 #    my @a =  (1..100000);  ## a bigger limit without "lazy" (see below)
-    my @a = lazy  (1..100000);  ## same bigger limit *with* "lazy" (see below)
+    my @a = lazy (1..100000);  ## same bigger limit *with* "lazy" (see below)
 
 
 }
