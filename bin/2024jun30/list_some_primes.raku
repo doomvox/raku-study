@@ -9,13 +9,15 @@ use v6;
 
 {
     say "==1==";
+    ## In which I 
+
     # say (1..100).is-prime.[0..24];
     # # Index out of range. Is: 1, should be in 0..0
 
     # say ( (1..100).is-prime ).[0..24];
     # Index out of range. Is: 1, should be in 0..0
 
-    say ( (1..100)>>.is-prime ).[0..24];
+    say  (1..100)>>.is-prime.[0..24];
     # (False True True False True False True False False False True False True False False False True False True False False False True False False)
 }
 
