@@ -35,6 +35,7 @@ for 1..1000 {
 # with limit 1000
 #   real	0m0.389s
 # with limit 100000
+#   real	0m0.377s
 
 # without "lazy" it's only a little slower:
 #     my @a =  (1..1000);  
