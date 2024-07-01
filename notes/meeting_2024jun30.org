@@ -19,7 +19,6 @@
 **** duckdb
 ***** distributed, raw data files, map reduce, type inference
 
-
 *** dynamic of technical fads 
 **** mongo
 
