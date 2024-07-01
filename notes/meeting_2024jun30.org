@@ -77,7 +77,9 @@
 ***** from instance types and architectures, to scaling, storage, monitoring and more. 
 ***** As many organizations have discovered, including our own, cloud solutions can be quite expensive
 
-**** 
+**** https://www.youtube.com/watch?v=22-7yP0inu8&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=7
+***** Party Like It's 19100+e^iπ - Curtis Poe - TPRC 2024
+***** 
 
 *** some discussion of state of corinna
 **** difficulties of multi-threading in perl
