@@ -31,7 +31,7 @@ use v6;
     say "==2==";
     my @primes = (1..100)>>.is-prime;
     say @primes[0..24];
-    # (False (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any))
+    # (False True True False True False True False False False True False True False False False True False True False False False True False False)
 }
 
 
