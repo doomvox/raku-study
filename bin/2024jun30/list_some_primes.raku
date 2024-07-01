@@ -113,7 +113,6 @@ use v6;
     # 
     ## ------> nstant @prime4 is export = 2, 3, ( -> $n⏏ + 2 if $n.is-prime) … ∞;
 
-
     # But this does (fun):
     constant @prime4 is export = 2, 3, -> $n {$n + 2 if $n.is-prime} … ∞;
 
