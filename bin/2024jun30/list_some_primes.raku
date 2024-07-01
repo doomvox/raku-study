@@ -29,7 +29,7 @@ use v6;
 
 {
     say "==2==";
-    my @primes = (1..100).>>is-prime;
+    my @primes = (1..100)>>.is-prime;
     say @primes[0..24];
     # (False (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any))
 }
