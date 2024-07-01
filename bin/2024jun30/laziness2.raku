@@ -22,6 +22,7 @@ sub something {
 # with @a
 #   real	0m0.538s
 
-for 1..1000 {
+# for 1..1000 {
+for 1..10000 {
     something();
 }
