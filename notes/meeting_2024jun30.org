@@ -74,7 +74,7 @@ https://github.com/Util/perlweeklychallenge-club/tree/c275/challenge-275/bruce-g
 
  
 
-*** Perl and Raku conference, 1-day in London
+*** Perl and Raku conference, 1-day in London (check date!)
 **** http://act.yapc.eu/lpw2024/
 
 ** follow-up
