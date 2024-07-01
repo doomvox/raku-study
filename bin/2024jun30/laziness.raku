@@ -12,10 +12,12 @@ say (1 .. Inf).is-lazy; # True
 
 #===
 
-## Note: the "laziness*.raku" series all have a construct like this, a sub that does "something" 
-## which is then run a thousand times.  
+## Note: the "laziness*.raku" series all have a construct like this, 
+## a sub that does "something" which is then run a thousand times.  
 
 #  time laziness.raku
+#  real	0m0.532s
+
 
 sub something {
     my @a = (1..1000);  ## with a value of 10000, it's 3mins, with only 1000 it's 1 min
