@@ -9,7 +9,7 @@ use v6;
 
 {
     say "==1==";
-    ## First, it took me a moment to remember to use a hyper here
+    ## First, it took me a moment to remember to use a hyper here:
 
     # say (1..100).is-prime.[0..24];
     # # Index out of range. Is: 1, should be in 0..0
@@ -19,9 +19,13 @@ use v6;
 
     say (1..100)>>.is-prime.[0..24];
     # (False True True False True False True False False False True False True False False False True False True False False False True False False)
-}
 
-exit;
+    # Next problem: I was expecting .is-prime to be more perlish,
+    # and act like a filter that passes through primes.  
+
+    # This being Raku, it returns an actual Bool.
+
+}
 
 {
     say "==2==";
