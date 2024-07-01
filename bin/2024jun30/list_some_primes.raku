@@ -71,7 +71,7 @@ use v6;
             last LOOPY if $c++ > 25;
         }
        }
-    say @primes.[0..24];
+    say @primes.[0..24]; # asking for just the first 25 (without the above 'premature optimization'
        ## The solution
        ## (2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97)
     say @primes;
