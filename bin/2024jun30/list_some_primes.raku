@@ -46,8 +46,6 @@ use v6;
 
 }
 
-
-
 {
     say "==4==";
     ## Explicit for loop with gather/take 
@@ -81,9 +79,6 @@ use v6;
                        #      Weird: for some reason I expected more.
     say @primes[24];   # 97   Yup, the last value is really the 25th one.
 }
-
-
-exit;
 
 {
     say "==5==";
