@@ -54,8 +54,7 @@ https://github.com/Util/perlweeklychallenge-club/tree/c275/challenge-275/bruce-g
 
  
 ** announcements 
-*** next meetings
-
+*** next meetings (staying with every two weeks)
 **** July 14th
 **** July 28th
 **** Aug 11th
