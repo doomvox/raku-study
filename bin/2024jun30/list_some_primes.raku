@@ -24,6 +24,7 @@ use v6;
 
 
 {
+    say "==3=="
     my @primes = (1..100).map({  .is-prime  ?? $_ !! Nil });
     say @primes[0..24];
 # (False (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any))
@@ -34,7 +35,7 @@ use v6;
 
 
 {
-    say "===";
+    say "==4=="
     my @primes = gather
     LOOPY:
       for (1..100) {
