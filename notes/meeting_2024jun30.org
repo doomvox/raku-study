@@ -29,8 +29,8 @@
 https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_some_primes.raku
 
 
-**** follow up weirdness on ranges/sequences (Rob)
-**** Rob: couple of odd things
+**** TODO follow up weirdness on ranges/sequences (Rob)
+**** TODO Rob: "a couple of odd things"
 
 *** Bill's report on the raku/perl conference in Vegas
 **** https://www.youtube.com/playlist?list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL
