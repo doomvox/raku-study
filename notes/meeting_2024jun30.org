@@ -31,7 +31,7 @@
 *** Bill's report on the raku/perl conference in Vegas
 
 $_
-$/
+$/; # perl global flag
 
 {
  undef $/; # slurp mode
