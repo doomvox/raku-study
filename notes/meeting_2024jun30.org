@@ -28,7 +28,7 @@
 ***** spoiler: it turns out there are exactly 25 primes in the range 1-100
 https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_some_primes.raku
 
-**** side issues: 
+**** side issue: benchmarking constructs with the laziness*.raku series
 ***** @a = (1..1000) is 13x faster than @a = (1...1000)
 
 **** TODO follow up weirdness on ranges/sequences (Rob)
