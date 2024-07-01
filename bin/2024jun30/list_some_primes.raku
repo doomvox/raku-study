@@ -22,7 +22,7 @@ use v6;
 
     # And that's the next problem: I was expecting .is-prime to be more perlish,
     # and act like a filter that passes through only primes, and a false value otherwise
-
+    #
     # This being Raku, it returns an actual Bool.
 
 }
