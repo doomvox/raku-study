@@ -94,7 +94,7 @@ use v6;
 
 {
     say "==6==";
-    # Rob's idea (seems to work)
+    # Rob's idea (works):
     constant @prime2 is export = 2, 3, (* + 2 if *.is-prime) … ∞;
     ## there was some discussion on whether that could work: maybe the two '*' were two different params?
     say @prime2.head(5); # (2 3 5 7 9)
