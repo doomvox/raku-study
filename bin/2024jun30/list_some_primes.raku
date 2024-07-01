@@ -13,6 +13,8 @@ use v6;
     # # Index out of range. Is: 1, should be in 0..0
 }
 
+exit;
+
 {
     say "==2=="
     my @primes = (1..100).is-prime;
