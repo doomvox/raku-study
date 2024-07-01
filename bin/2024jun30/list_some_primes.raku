@@ -50,6 +50,7 @@ use v6;
 
 {
     say "==4==";
+    ## Explicit for loop with gather/take 
     my @primes = gather
     LOOPY:
       for (1..100) {
