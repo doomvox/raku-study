@@ -69,18 +69,22 @@ exit;
 }
 
 
-{ # Rob's idea (seems to work)
+{
+    say "==6==";
+    # Rob's idea (seems to work)
     constant @prime2 is export = 2, 3, (* + 2 if *.is-prime) … ∞;
     ## some discussion on whether this can work... the two '*" may be two params?
     say @prime2.head(5); # (2 3 5 7 9)
 }
 
 {
+    say "==7==";
     # Another approach (works also):
     constant @prime3 is export = 2, 3, {$^a + 2 if $^a.is-prime} … ∞;
     say @prime3.head(5); # (2 3 5 7 9)
 }
  {   
+    say "==8==";
     # Mark A suggests (doesn't compile?)
     # constant @prime4 is export = 2, 3, ->$n{$n + 2 if $n.is-prime} … ∞;
 
