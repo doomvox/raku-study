@@ -34,6 +34,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 ****** but only with a larger array size, depends on available memory
 ***** @a = lazy (1..100000), is much faster than without 'lazy': over 100x
 ****** again, but only with the larger array size of 100000
+***** my int @a is 18x faster than either Int or the default with my @a
 
 **** TODO follow up weirdness on ranges/sequences (Rob)
 **** TODO Rob: "a couple of odd things"
