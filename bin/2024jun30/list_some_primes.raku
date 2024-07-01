@@ -110,13 +110,15 @@ use v6;
     say "==8==";
     # Mark A suggested this version, but it doesn't compile:
     # constant @prime4 is export = 2, 3, ->$n{$n + 2 if $n.is-prime} … ∞;
+    # 
+    # at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024jun30/list_some_primes.raku:74
+    # ------> nstant @prime4 is export = 2, 3, ( -> $n⏏ + 2 if $n.is-prime) … ∞;
+
 
     # But this does (fun):
     constant @prime4 is export = 2, 3, -> $n {$n + 2 if $n.is-prime} … ∞;
 
     ## (Raku's touches of whitespace sensitivity can trip up anyone)
 
-# at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024jun30/list_some_primes.raku:74
-# ------> nstant @prime4 is export = 2, 3, ( -> $n⏏ + 2 if $n.is-prime) … ∞;
     say @prime4.head(5); # (2 3 5 7 9)
 }
