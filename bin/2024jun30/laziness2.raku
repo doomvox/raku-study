@@ -10,7 +10,7 @@ sub something {
 #     my @a = (1..1000);  
 #     say @a.WHAT;  # (Array)
 
-    my $a = (1..1000);  
+    my $a = (1..100000);  
     say $a.WHAT;   # (Range)  
 }
 
