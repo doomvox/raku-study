@@ -102,7 +102,7 @@ use v6;
 
 {
     say "==7==";
-    # Another approach (works also):
+    # Another approach, if '*' placeholders make you nervous (works also):
     constant @prime3 is export = 2, 3, {$^a + 2 if $^a.is-prime} … ∞;
     say @prime3.head(5); # (2 3 5 7 9)
 }
