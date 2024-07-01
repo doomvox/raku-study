@@ -10,6 +10,7 @@ use v6;
 
 
 {
+    say "==1=="
     # say (1..100).is-prime.[0..24];
     # # Index out of range. Is: 1, should be in 0..0
 }
