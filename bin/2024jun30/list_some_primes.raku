@@ -86,6 +86,7 @@ use v6;
     say (1..*).grep(*.is-prime).head(25);
     # (2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97)
 
+    ## i've got a slight preference for using the range here, rather than .head(25):
     say (1..*).grep(*.is-prime).[0..24];
     # (2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97)
 }
