@@ -98,7 +98,6 @@ use v6;
     constant @prime2 is export = 2, 3, (* + 2 if *.is-prime) … ∞;
     ## there was some discussion on whether that could work: maybe the two '*' were two different params?
     say @prime2.head(5); # (2 3 5 7 9)
-    ## (Tim Schafer really liked the use of the unicode infinity char)
 }
 
 {
