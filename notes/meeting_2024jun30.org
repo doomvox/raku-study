@@ -33,7 +33,12 @@
 $_
 $/
 
-undef $/;
+{
+ undef $/; # slurp mode
+ my @everything = <>;
+}
+
+$/ # raku match object
 
 
 ** weekly challenge 
