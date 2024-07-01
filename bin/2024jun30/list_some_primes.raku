@@ -56,9 +56,16 @@ use v6;
       for (1..100) {
         if .is-prime {
             take $_;
-#            say $++;  ## always 0?
-#             state $c++;
-#             last LOOPY if $c > 25;
+
+            ## want to stop working once we have 25 (premature optimization...)
+
+
+            ## a raku oddity, this anon var is local to the *if* block
+            #  say $++;  ## always 0?
+
+        #   state $c++;
+        #   last LOOPY if $c > 25;
+
             state $c;
             last LOOPY if $c++ > 25;
         }
