@@ -8,11 +8,10 @@ use v6;
 sub something {
 
 #     my @a = (1..1000);  
-#     say @a.WHAT;  # (Range)   and with @a this is (Array)
+#     say @a.WHAT;  # (Array)
 
     my $a = (1..1000);  
-    say $a.WHAT;  # (Range)   and with $a this is (Array)
-
+    say $a.WHAT;   # (Range)  
 }
 
 ## Yesterday I thought I saw a big speed difference on $a vs @a:
