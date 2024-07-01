@@ -61,7 +61,6 @@ use v6;
 #             last LOOPY if $c > 25;
             state $c;
             last LOOPY if $c++ > 25;
-
         }
        }
 #    say @primes.[0..24];
