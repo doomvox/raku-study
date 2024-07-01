@@ -64,9 +64,10 @@ use v6;
         }
        }
     say @primes.[0..24];
-
+       ## The solution
+       ## (2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97)
     say @primes;
-       ## The solution:
+       ## That's *also* the solution:
        ## [2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97]
     say @primes.elems; # 25.  There are *exactly* 25 primes between 1 and 100.
                        #      Weird: for some reason I expected more.
