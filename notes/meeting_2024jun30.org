@@ -55,27 +55,24 @@ https://github.com/Util/perlweeklychallenge-club/tree/c275/challenge-275/bruce-g
  
 ** announcements 
 *** next meetings
-**** Sunday June 30, 2024
-***** but bruce at grand canyon
-**** TODO
 
-
-* July 14th
-* July 28th
-* Aug 11th
-* Aug 25th
+**** July 14th
+**** July 28th
+**** Aug 11th
+**** Aug 25th
 (labor day 9/2, dance over 9/1)
-* Sep 8th
-* Sep 22
-* Oct 6
-* Oct 20
+**** Sep 8th
+**** Sep 22
+**** Oct 6
+**** Oct 20
 
 
 
  
 
-*** Perl and Raku conference, 1-day in London (check date!)
-**** http://act.yapc.eu/lpw2024/
+**** Perl and Raku conference, 1-day in London (check date!)
+***** http://act.yapc.eu/lpw2024/
+
 
 ** follow-up
 
