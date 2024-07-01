@@ -21,7 +21,7 @@ use v6;
     # (False True True False True False True False False False True False True False False False True False True False False False True False False)
 
     # And that's the next problem: I was expecting .is-prime to be more perlish,
-    # and act like a filter that passes through primes.  
+    # and act like a filter that passes through only primes, and a false value otherwise
 
     # This being Raku, it returns an actual Bool.
 
