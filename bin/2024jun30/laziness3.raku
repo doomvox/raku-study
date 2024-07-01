@@ -14,7 +14,6 @@ sub something {
 
 #    lazy my @a =  (1..1000);  ## limit 1000, time of script 1m .18s
 
-
 #    my @a = lazy (1..1000);  ## limit 1000, time of script 0m0.717s     THE WINNAH
 #    my @a =  (1..1000);  ## without "lazy"
 
