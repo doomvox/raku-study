@@ -143,3 +143,11 @@ https://github.com/Util/perlweeklychallenge-club/tree/c275/challenge-275/bruce-g
 **** write a monolithic summary page?
 **** ship a concatenated single file version that's text searchable...
 
+
+*** Gabor Szabo calendar, Perl/Raku events:
+
+**** https://perlweekly.com/events
+
+**** get SF-Perl's Raku Meetup listed: add a pull request to this file:
+
+***** https://github.com/szabgab/perlweekly/blob/master/src/events.json
