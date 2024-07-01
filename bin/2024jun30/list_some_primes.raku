@@ -114,7 +114,7 @@ use v6;
     # But this does (fun):
     constant @prime4 is export = 2, 3, -> $n {$n + 2 if $n.is-prime} … ∞;
 
-    ## Raku's touches of whitespace sensitivity can trip up anyone
+    ## (Raku's touches of whitespace sensitivity can trip up anyone)
 
 # at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024jun30/list_some_primes.raku:74
 # ------> nstant @prime4 is export = 2, 3, ( -> $n⏏ + 2 if $n.is-prime) … ∞;
