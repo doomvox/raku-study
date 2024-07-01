@@ -20,7 +20,7 @@ use v6;
     say (1..100)>>.is-prime.[0..24];
     # (False True True False True False True False False False True False True False False False True False True False False False True False False)
 
-    # Next problem: I was expecting .is-prime to be more perlish,
+    # And that's the next problem: I was expecting .is-prime to be more perlish,
     # and act like a filter that passes through primes.  
 
     # This being Raku, it returns an actual Bool.
