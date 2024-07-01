@@ -30,6 +30,10 @@
 
 *** Bill's report on the raku/perl conference in Vegas
 
+*** some discussion of state of corinna
+**** difficulties of multi-threading in perl
+**** scoping of special vars in Raku, ala the match object $/
+
 ** weekly challenge  (( delayed to next time ))
 *** the problems 
 **** https://theweeklychallenge.org
