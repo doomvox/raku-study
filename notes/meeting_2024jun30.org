@@ -56,9 +56,15 @@
 ***** https://www.youtube.com/watch?v=g8Qu1k6IeR8&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=4
 ***** The Board is implementing a new Standards of Conduct for events and spaces that are provided or supported by The Perl and Raku Foundation
 
-**** 
+**** Reasoning About the Rigor of Perl Programs - George Baugh - TPRC 2024 
+***** https://www.youtube.com/watch?v=EgpWWt1R11U&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=5
 ***** 
-***** 
+**** YAMLScript - Scripting in YAML - Ingy döt؜؜ Net­ - TPRC 2024 
+***** https://www.youtube.com/watch?v=RFIukRdFe1o&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=20
+***** YAMLScript is focused on YAML configuration, it's a complete functional language (compiles to Clojure, lisp-on-JVM)
+
+
+
 
 
 
