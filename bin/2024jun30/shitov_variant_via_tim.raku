@@ -13,7 +13,7 @@ say @a.list; # [0 1 2 3 4 5 6 7 8 9]
 
 say "===";
 
-# Tim Schafer, working from code examples by Andrew Shitov 
+# Tim Schafer, working from code examples by Andrew Shitov:
 #  https://andrewshitov.com/2019/09/09/printing-a-list-of-prime-numbers-using-perl-6/
 
 say ((^100).grep: *.is-prime)[^27];
