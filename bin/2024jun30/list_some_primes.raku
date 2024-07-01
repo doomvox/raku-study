@@ -38,9 +38,10 @@ use v6;
 
 {
     say "==3==";
+    ## A weird side-trip (mental glitch: why didn't I reach for .grep?)
     my @primes = (1..100).map({  .is-prime  ?? $_ !! Nil });
     say @primes[0..24];
-# (False (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any) (Any))
+
 # ((Any) 2 3 (Any) 5 (Any) 7 (Any) (Any) (Any) 11 (Any) 13 (Any) (Any) (Any) 17 (Any) 19 (Any) (Any) (Any) 23 (Any) (Any))
 
 }
