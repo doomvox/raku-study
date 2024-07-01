@@ -107,7 +107,7 @@ use v6;
     constant @prime3 is export = 2, 3, {$^a + 2 if $^a.is-prime} … ∞;
     say @prime3.head(5); # (2 3 5 7 9)
 }
- {   
+{   
     say "==8==";
     # Mark A suggests this (but doesn't compile?)
     # constant @prime4 is export = 2, 3, ->$n{$n + 2 if $n.is-prime} … ∞;
