@@ -63,8 +63,9 @@ use v6;
             ## a raku oddity, this anon var is local to the *if* block
             #  say $++;  ## always 0?
 
-        #   state $c++;
-        #   last LOOPY if $c > 25;
+            ## A state var works as a loop counter
+            # state $c++;
+            # last LOOPY if $c > 25;
 
             state $c;
             last LOOPY if $c++ > 25;
