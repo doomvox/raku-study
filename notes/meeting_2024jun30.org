@@ -28,6 +28,7 @@
 **** Rob: couple of odd things
 
 *** Bill's report on the raku/perl conference in Vegas
+**** https://www.youtube.com/playlist?list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL
 
 **** Overview of a Roguelike Class System - Chris Prather - TPRC 2024 
 ***** https://www.youtube.com/watch?v=2XFYlPeCsxY&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=14
