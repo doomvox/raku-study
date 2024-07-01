@@ -29,6 +29,7 @@ use v6;
 
 {
     say "==2==";
+    ## confirming the hyper is needed when assigning to an array variable
     my @primes = (1..100)>>.is-prime;
     say @primes[0..24];
     # (False True True False True False True False False False True False True False False False True False True False False False True False False)
