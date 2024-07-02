@@ -7,11 +7,11 @@ use v6;
 
 sub something {
 
-     my @a = (1..100000);  
-     say @a.WHAT;  # (Array)
+#     my @a = (1..100000);  
+#     say @a.WHAT;  # (Array)
 
-#    my $a = (1..100000);  
-#    say $a.WHAT;   # (Range)  
+    my $a = (1..100000);  
+    say $a.WHAT;   # (Range)  
 }
 
 ## Yesterday I thought I saw a big speed difference on $a vs @a:
