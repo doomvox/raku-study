@@ -19,7 +19,9 @@
 **** duckdb
 ***** distributed, raw data files, map reduce, type inference
 
-*** dynamic of technical fads 
+*** the dynamic of technical fads 
+**** xml
+**** cloud computing
 **** mongo
 
 *** the bingo card problem
