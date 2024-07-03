@@ -73,10 +73,12 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 ******* why are E and F separate?  (Hard to write a clear summary: not a good sign?)
 ******* Down at at 'H' we're suddently looking at the methods not the arguments
 ******** no objection, but might that confuse?  What if you expected H up around C?
+******** verify it works like this in Raku
 ******* I have a long standing issue with "I"
 ******** it wasn't mentioned in the Raku docs until I added it
 ******** it's not in the original design documents
 ********* more like oral tradition: something Larry Wall said to Jonathan Worthington
+******** it's not covered by the test suite (aka 'the spec')
 
 **** Chemometrics with Perl & Pharmaceutical Applications - Andrew O'Neil, PhD - TPRC 2024
 ***** https://www.youtube.com/watch?v=BcFl4efLuuk&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=23
