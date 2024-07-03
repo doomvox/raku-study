@@ -58,7 +58,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 | A | Arity            |                                       |
 | B | Beforehandedness | :before                               |
 | C | Constraint       | Types/Classes: try most derived first |
-| D | Destructuring    |                                       |
+| D | Destructuring    | multi xxx ( Int [$i, $j] ) {...}      |
 | E |                  |                                       |
 | F |                  |                                       |
 | G |                  |                                       |
