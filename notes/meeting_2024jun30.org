@@ -65,6 +65,8 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 | H | Heredity         | For methods, most derived method wins                |                                           |
 | I | Inception        | Order of definition                                  | problematic: even as tie-breaker |
 |   |                  |                                                      |                                           |
+****** my comments:
+******* a tight explanation with clear examples: it takes a half hour 
 
 **** Chemometrics with Perl & Pharmaceutical Applications - Andrew O'Neil, PhD - TPRC 2024
 ***** https://www.youtube.com/watch?v=BcFl4efLuuk&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=23
