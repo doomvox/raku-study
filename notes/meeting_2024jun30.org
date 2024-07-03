@@ -68,6 +68,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 
 ****** my comments:
 ******* a tight explanation with clear examples, but it takes a half hour 
+******** examples are perl: steal them and rakuize them?
 ******* some principles are positive (reasons to promote), some read as negative
 
 **** Chemometrics with Perl & Pharmaceutical Applications - Andrew O'Neil, PhD - TPRC 2024
