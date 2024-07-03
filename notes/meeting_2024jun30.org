@@ -38,8 +38,8 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 ****** again, but only with the larger array size of 100000
 ***** my int @a is 18x faster than either Int or the default with my @a
 
-**** TODO follow up weirdness on ranges/sequences (Rob)
-**** TODO Rob: "a couple of odd things"
+**** TODO Rob wanted to follow up weirdness on ranges/sequences 
+***** Also, Rob said he had "a couple of odd things"
 
 *** Bill's report on the raku/perl conference in Vegas
 **** https://www.youtube.com/playlist?list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL
