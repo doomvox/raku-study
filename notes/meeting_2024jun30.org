@@ -59,7 +59,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 | B | Beforehandedness | :before                               |
 | C | Constraint       | Types/Classes: try most derived first |
 | D | Destructuring    | multi xxx ( Int [$i, $j] ) {...}      |
-| E |                  |                                       |
+| E | Essentials       | How many args are required            |
 | F |                  |                                       |
 | G |                  |                                       |
 | H |                  |                                       |
