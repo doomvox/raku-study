@@ -63,7 +63,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 | F | Facultativity    | More arguments that are optional                     |                                           |
 | G | Greed            | Slurpies are less specific, demote 'greedy' versions |                                           |
 | H | Heredity         | For methods, most derived method wins                |                                           |
-| I | Inception        | Order of definition                                  | problematic: good it's a late tie-breaker |
+| I | Inception        | Order of definition                                  | problematic: even as tie-breaker |
 |   |                  |                                                      |                                           |
 
 **** Chemometrics with Perl & Pharmaceutical Applications - Andrew O'Neil, PhD - TPRC 2024
