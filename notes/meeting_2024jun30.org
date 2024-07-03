@@ -51,7 +51,9 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 **** The Once and Future Perl - Damian Conway - TPRC 2024 
 ***** https://www.youtube.com/watch?v=0x9LD8oOmv0&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=8
 ***** Has one of the clearer descriptions of Raku-style multi-dispatch
-***** multidispatch discussion begins 30min in
+***** @30min: multidispatch discussion begins 
+***** @48:50: multidispatch call resolution
+***** @52:00: ABCDEFGHI
 
 **** Chemometrics with Perl & Pharmaceutical Applications - Andrew O'Neil, PhD - TPRC 2024
 ***** https://www.youtube.com/watch?v=BcFl4efLuuk&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=23
