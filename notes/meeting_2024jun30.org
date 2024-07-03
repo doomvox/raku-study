@@ -77,6 +77,8 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 ******** verify it works like this in Raku
 ******* technical issue with "I":
 ******** when multis are defined in different modules, the order of use statments matters
+********* example idea: handling negatives and positives where both sides want 0
+
 ******* my personal odyssey with "I"
 ******** it wasn't mentioned in the Raku docs until I added it
 ******** it's not in the original design documents
