@@ -54,16 +54,17 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 ***** @30min: multidispatch discussion begins 
 ***** @48:50: multidispatch call resolution
 ***** @52:00: ABCDEFGHI
-|---+------------------+------------------------------------------------------+---|
-| A | Arity            |                                                      |   |
-| B | Beforehandedness | :before                                              |   |
-| C | Constraint       | Types/Classes of args: try most derived first        |   |
-| D | Destructuring    | multi xxx ( Int [$i, $j] ) {...}                     |   |
-| E | Essentials       | How many args are required                           |   |
-| F | Facultativity    | More arguments that are optional                     |   |
-| G | Greed            | Slurpies are less specific, demote 'greedy' versions |   |
-| H | Heredity         | For methods, most derived method wins                |   |
-| I | Inception        | Order of definition                                  |   |
+|---+------------------+------------------------------------------------------+-------------------------------------------|
+| A | Arity            |                                                      |                                           |
+| B | Beforehandedness | :before                                              |                                           |
+| C | Constraint       | Types/Classes of args: try most derived first        |                                           |
+| D | Destructuring    | multi xxx ( Int [$i, $j] ) {...}                     |                                           |
+| E | Essentials       | How many args are required                           |                                           |
+| F | Facultativity    | More arguments that are optional                     |                                           |
+| G | Greed            | Slurpies are less specific, demote 'greedy' versions |                                           |
+| H | Heredity         | For methods, most derived method wins                |                                           |
+| I | Inception        | Order of definition                                  | problematic: good it's a late tie-breaker |
+|   |                  |                                                      |                                           |
 
 **** Chemometrics with Perl & Pharmaceutical Applications - Andrew O'Neil, PhD - TPRC 2024
 ***** https://www.youtube.com/watch?v=BcFl4efLuuk&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=23
