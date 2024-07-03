@@ -54,6 +54,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 ***** @30min: multidispatch discussion begins 
 ***** @48:50: multidispatch call resolution
 ***** @52:00: ABCDEFGHI
+****** central idea: call the 'most specific' option
 |---+------------------+------------------------------------------------------+-------------------------------------------|
 | A | Arity            |                                                      |                                           |
 | B | Beforehandedness | :before                                              |                                           |
@@ -67,6 +68,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 |   |                  |                                                      |                                           |
 ****** my comments:
 ******* a tight explanation with clear examples: it takes a half hour 
+******* some principles are positive (reasons to promote), some read as negative
 
 **** Chemometrics with Perl & Pharmaceutical Applications - Andrew O'Neil, PhD - TPRC 2024
 ***** https://www.youtube.com/watch?v=BcFl4efLuuk&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=23
