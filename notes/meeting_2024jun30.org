@@ -55,17 +55,17 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 ***** @48:50: multidispatch call resolution
 ***** @52:00: ABCDEFGHI
 ****** central idea: call the 'most specific' option
-|---+------------------+------------------------------------------------------+-------------------------------------------|
-| A | Arity            |                                                      |                                           |
-| B | Beforehandedness | :before                                              |                                           |
-| C | Constraint       | Types/Classes of args: try most derived first        |                                           |
-| D | Destructuring    | multi xxx ( Int [$i, $j] ) {...}                     |                                           |
-| E | Essentials       | How many args are required                           |                                           |
-| F | Facultativity    | More arguments that are optional                     |                                           |
-| G | Greed            | Slurpies are less specific, demote 'greedy' versions |                                           |
-| H | Heredity         | For methods, most derived method wins                |                                           |
+|---+------------------+------------------------------------------------------+----------------------------------|
+| A | Arity            |                                                      |                                  |
+| B | Beforehandedness | :before                                              |                                  |
+| C | Constraint       | Types/Classes of args: try most derived first        |                                  |
+| D | Destructuring    | multi xxx ( Int [$i, $j] ) {...}                     |                                  |
+| E | Essentials       | How many args are required                           |                                  |
+| F | Facultativity    | More arguments that are optional                     |                                  |
+| G | Greed            | Slurpies are less specific, demote 'greedy' versions |                                  |
+| H | Heredity         | For methods, most derived method wins                |                                  |
 | I | Inception        | Order of definition                                  | problematic: even as tie-breaker |
-|   |                  |                                                      |                                           |
+
 ****** my comments:
 ******* a tight explanation with clear examples: it takes a half hour 
 ******* some principles are positive (reasons to promote), some read as negative
