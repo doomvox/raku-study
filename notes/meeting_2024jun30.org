@@ -70,6 +70,9 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 ******* a tight explanation with clear examples, but it takes a half hour 
 ******** examples are perl: steal them and rakuize them?
 ******* some principles are positive (reasons to promote), some read as negative
+******* why are E and F separate?  (Hard to write a clear summary: not a good sign?)
+******* Down at at 'H' we're suddently looking at the methods not the arguments
+******** no objection, but might that confuse?  What if you expected H up around C?
 
 **** Chemometrics with Perl & Pharmaceutical Applications - Andrew O'Neil, PhD - TPRC 2024
 ***** https://www.youtube.com/watch?v=BcFl4efLuuk&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=23
