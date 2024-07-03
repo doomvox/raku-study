@@ -57,12 +57,12 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 |---+------------------+------------------------------------------------------+---|
 | A | Arity            |                                                      |   |
 | B | Beforehandedness | :before                                              |   |
-| C | Constraint       | Types/Classes: try most derived first                |   |
+| C | Constraint       | Types/Classes of args: try most derived first        |   |
 | D | Destructuring    | multi xxx ( Int [$i, $j] ) {...}                     |   |
 | E | Essentials       | How many args are required                           |   |
 | F | Facultativity    | More arguments that are optional                     |   |
 | G | Greed            | Slurpies are less specific, demote 'greedy' versions |   |
-| H |                  |                                                      |   |
+| H | Heredity         | For methods, most derived method wins                |   |
 | I | Inception        | Order of definition                                  |   |
 
 **** Chemometrics with Perl & Pharmaceutical Applications - Andrew O'Neil, PhD - TPRC 2024
