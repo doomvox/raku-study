@@ -4,7 +4,6 @@
 
 use v6;
 
-# version 1 
 multi sub happy-birthday( $name ) {
     say "Happy Birthday $name !";
 }
