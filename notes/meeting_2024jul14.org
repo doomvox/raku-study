@@ -12,6 +12,8 @@
 
 ** topical applications
 
+*** Raku mohrvm bug with IO:Path (?) -- Rob  
+
 *** ranges vs sequences benchmarking
 **** TODO Rob wanted to follow up weirdness on ranges/sequences 
 ***** Also, Rob said he had "a couple of odd things"
