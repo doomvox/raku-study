@@ -18,6 +18,10 @@
 
 *** Tim Schafer asks about operator overloading in Raku
 
+*** William Michels:
+**** Latest U&L Stackexchange post (Raku answer to  `ceiling` question): https://unix.stackexchange.com/a/780031/227738
+
+
 *** ranges vs sequences benchmarking
 **** TODO Rob wanted to follow up weirdness on ranges/sequences 
 ***** Also, Rob said he had "a couple of odd things"
