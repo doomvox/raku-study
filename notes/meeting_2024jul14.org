@@ -12,19 +12,7 @@
 
 ** topical applications
 
-** life the universe and everything
-*** databases (Tim Schafer)
-**** datomic
-***** temporal data
-**** xtdb
-***** hybrid approach, queryable with sql
-**** duckdb
-***** distributed, raw data files, map reduce, type inference
-
-*** the dynamic of technical fads 
-**** xml
-**** cloud computing
-**** mongo
+** 
 
 *** the bingo card problem
 **** problem: fill in a 5x5 bingo card with numbers from 1-100 (inclusive)
