@@ -17,8 +17,6 @@ multi sub action( :$thing ) {
     say "THREE: $thing";
 }
 
- 
-
 action( "hey" );
 
 action( thing => "ho" );
