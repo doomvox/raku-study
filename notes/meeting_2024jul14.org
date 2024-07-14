@@ -13,6 +13,9 @@
 ** topical applications
 
 *** Raku mohrvm bug with IO:Path (?) -- Rob  
+*** INSIDE_EMACS envar for repl in sub-shells
+
+*** Tim Schafer asks about operator overloading in Raku
 
 *** ranges vs sequences benchmarking
 **** TODO Rob wanted to follow up weirdness on ranges/sequences 
