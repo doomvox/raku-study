@@ -13,6 +13,9 @@ multi sub action( $thing ) {
     say "TWO: $thing";
 }
 
+
+thing => $thing
+
 multi sub action( :$thing ) {
     say "THREE: $thing";
 }
