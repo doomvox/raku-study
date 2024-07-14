@@ -4,7 +4,7 @@
 
 use v6;
 
-# Rob:
+# Rob question:
 
 my $x = Q{ hello there };
 # If you drop the semicolon there:
