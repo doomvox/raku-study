@@ -50,42 +50,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_som
 
 **** The Once and Future Perl - Damian Conway - TPRC 2024 
 ***** https://www.youtube.com/watch?v=0x9LD8oOmv0&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=8
-***** my notes (copied from below) are here: raku-study/notes/multidispatch.org
-
-***** Has one of the clearer descriptions of Raku-style multi-dispatch
-****** here the subject his the Damian perl module Multi::Dispatch
-***** @30min: multidispatch discussion begins 
-***** @48:50: multidispatch call resolution
-***** @52:00: ABCDEFGHI
-****** central idea: call the 'most specific' option
-|---+------------------+------------------------------------------------------+----------------------------------|
-| A | Arity            |                                                      |                                  |
-| B | Beforehandedness | :before                                              |                                  |
-| C | Constraint       | Types/Classes of args: try most derived first        |                                  |
-| D | Destructuring    | multi xxx ( Int [$i, $j] ) {...}                     |                                  |
-| E | Essentials       | How many args are required                           |                                  |
-| F | Facultativity    | More arguments that are optional                     |                                  |
-| G | Greed            | Slurpies are less specific, demote 'greedy' versions |                                  |
-| H | Heredity         | For methods, most derived method wins                |                                  |
-| I | Inception        | Order of definition                                  | problematic: even as tie-breaker |
-
-****** my comments:
-******* a tight explanation with clear examples, but it takes a half hour 
-******** examples are in perl: steal them and rakuize them?
-******* some principles are positive (reasons to promote), some read better as negative
-******* why are E and F separate?  (Hard to write a clear summary: not a good sign?)
-******* Down at at 'H' we're suddently looking at the methods not the arguments
-******** no objection, but might that confuse?  What if you expected H up around C?
-******** verify it works like this in Raku
-******* technical issue with "I":
-******** when multis are defined in different modules, the order of use statments matters
-********* example idea: handling negatives and positives where both sides want 0
-******* my personal odyssey with "I"
-******** it wasn't mentioned in the Raku docs until I added it
-******** it's not in the original design documents
-********* more like oral tradition: something Larry Wall said to Jonathan Worthington
-******** it's not covered by the test suite (aka 'the spec')
-********* I tried to add a test: the pull request has been ignored
+***** my notes are here: raku-study/notes/multidispatch.org
 
 **** Chemometrics with Perl & Pharmaceutical Applications - Andrew O'Neil, PhD - TPRC 2024
 ***** https://www.youtube.com/watch?v=BcFl4efLuuk&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=23
