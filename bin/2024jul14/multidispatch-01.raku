@@ -14,7 +14,12 @@ multi sub action( $thing ) {
 }
 
 
-thing => $thing
+'thing' => $thing
+
+$hash{thing} = $thing;
+
+%hash{'thing'} = $thing;
+%hash<thing> = $thing;
 
 multi sub action( :$thing ) {
     say "THREE: $thing";
