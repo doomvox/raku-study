@@ -18,3 +18,5 @@ multi sub action( :$thing ) {
 }
 
  
+
+action( "hey" );
