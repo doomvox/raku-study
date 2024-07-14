@@ -23,49 +23,6 @@
 ***** https://www.youtube.com/watch?v=0x9LD8oOmv0&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=8
 
 
-**** Chemometrics with Perl & Pharmaceutical Applications - Andrew O'Neil, PhD - TPRC 2024
-***** https://www.youtube.com/watch?v=BcFl4efLuuk&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=23
-
-**** Playwright-Perl - George S. Baugh - TPRC 2024 
-***** https://www.youtube.com/watch?v=ePnKUNW4r8c&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=19
-***** playwright: node.js tool browser automation; using from perl tests
-
-**** Supporting Universal Dependencies in the Tree Editor TrEd - Jan Štěpánek - TPRC 2024 
-***** https://www.youtube.com/watch?v=dUGVAQ6wafE
-***** TrEd, create, modify, browse, and search treebanks - large language corpora annotated with syntactic and/or semantic structure information
-
-**** The Test2 Ecosystem - Chad Granum - TPRC 2024
-***** https://www.youtube.com/watch?v=DdSQkIfeoqU&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=16
-***** high level view of the Test2 tools that are available
-
-**** The New Standards of Conduct and You - D Ruth Holloway - TPRC 2024 
-***** https://www.youtube.com/watch?v=g8Qu1k6IeR8&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=4
-***** The Board is implementing a new Standards of Conduct for events and spaces that are provided or supported by The Perl and Raku Foundation
-
-**** Reasoning About the Rigor of Perl Programs - George Baugh - TPRC 2024 
-***** https://www.youtube.com/watch?v=EgpWWt1R11U&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=5
-***** 
-**** YAMLScript - Scripting in YAML - Ingy döt؜؜ Net­ - TPRC 2024 
-***** https://www.youtube.com/watch?v=RFIukRdFe1o&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=20
-***** YAMLScript is focused on YAML configuration, it's a complete functional language (compiles to Clojure, lisp-on-JVM)
-
-**** Structure Based Structuring of Unstructured Data - Adam Russell - TPRC 2024 
-***** https://www.youtube.com/watch?v=dn9msFIED-8&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=10
-***** novel application of LLMs to convert unstructured text into a structured data format, specifically the Resource Description Framework (RDF)—the lingua franca of the Semantic Web
-
-**** Demystifying Perl One-Liners - Walter C. Mankowski - TPRC 2024 
-***** https://www.youtube.com/watch?v=ZqSddysHJb0&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=11
-***** 
-
-
-**** Maximizing Performance and Cost Efficiency in the Cloud - Dimitrios Kechagias - TPRC 2024 
-***** https://www.youtube.com/watch?v=UEjMr5aUbbM&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=12
-***** from instance types and architectures, to scaling, storage, monitoring and more. 
-***** As many organizations have discovered, including our own, cloud solutions can be quite expensive
-
-**** https://www.youtube.com/watch?v=22-7yP0inu8&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=7
-***** Party Like It's 19100+e^iπ - Curtis Poe - TPRC 2024
-***** 
 
 *** some discussion of state of corinna
 **** difficulties of multi-threading in perl
