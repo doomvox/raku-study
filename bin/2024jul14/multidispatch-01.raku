@@ -21,6 +21,9 @@ $hash{thing} = $thing;
 %hash{'thing'} = $thing;
 %hash<thing> = $thing;
 
+my $word = <word>;
+my @words = <one thing after another>;
+
 multi sub action( :$thing ) {
     say "THREE: $thing";
 }
