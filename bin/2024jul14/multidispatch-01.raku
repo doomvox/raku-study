@@ -4,7 +4,7 @@
 
 use v6;
 
-multi sub action( $thing ) {
+multi sub action( Str $thing ) {
     say "ONE: $thing!";
 }
  
