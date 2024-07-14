@@ -26,10 +26,6 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/multidispatch.org
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/multidispatch.org
 
-*** some discussion of state of corinna
-**** difficulties of multi-threading in perl
-**** scoping of special vars in Raku, ala the match object $/
-
 ** weekly challenge  (( delayed to next time ))
 *** the problems 
 **** https://theweeklychallenge.org
@@ -40,16 +36,15 @@
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-274
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-273
 
-*** Bruce Gray:
 
-I expect to attend the meeting in two weeks, but today I will be at the Grand Canyon so cannot join you all.
 
-My weekly challenge solutions:
-https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-274/bruce-gray/raku
-https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-275/bruce-gray/raku
 
-Or, if my 275 PR is not yet processed:
-https://github.com/Util/perlweeklychallenge-club/tree/c275/challenge-275/bruce-gray/raku
+*** Bruce Gray, weekly challenge solutions:
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-274/bruce-gray/raku
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-275/bruce-gray/raku
+
+**** Or, if my 275 PR is not yet processed:
+***** https://github.com/Util/perlweeklychallenge-club/tree/c275/challenge-275/bruce-gray/raku
 
 
  
