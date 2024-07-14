@@ -1,0 +1,198 @@
+* meeting notes July 14, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun30.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024jun30
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun16.org
+
+** life the universe and everything
+*** databases (Tim Schafer)
+**** datomic
+***** temporal data
+**** xtdb
+***** hybrid approach, queryable with sql
+**** duckdb
+***** distributed, raw data files, map reduce, type inference
+
+*** the dynamic of technical fads 
+**** xml
+**** cloud computing
+**** mongo
+
+*** the bingo card problem
+**** problem: fill in a 5x5 bingo card with numbers from 1-100 (inclusive)
+***** my idea: just go with prime numbers, make sure you don't list more than 25
+***** spoiler: it turns out there are exactly 25 primes in the range 1-100
+https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_some_primes.raku
+
+**** side issue: benchmarking various constructs (see bin/2024jun30/laziness*.raku)
+***** @a = (1..1000) is 13x faster than @a = (1...1000)
+***** @a = (1..100000) can be 100x slower than $a = (1..100000)
+****** but only with a larger array size, depends on available memory
+***** @a = lazy (1..100000), is much faster than without 'lazy': over 100x
+****** again, but only with the larger array size of 100000
+***** my int @a is 18x faster than either Int or the default with my @a
+
+**** TODO Rob wanted to follow up weirdness on ranges/sequences 
+***** Also, Rob said he had "a couple of odd things"
+
+*** Bill's report on the raku/perl conference in Vegas
+**** https://www.youtube.com/playlist?list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL
+
+**** Overview of a Roguelike Class System - Chris Prather - TPRC 2024 
+***** https://www.youtube.com/watch?v=2XFYlPeCsxY&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=14
+***** corinna
+
+**** The Once and Future Perl - Damian Conway - TPRC 2024 
+***** https://www.youtube.com/watch?v=0x9LD8oOmv0&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=8
+***** Has one of the clearer descriptions of Raku-style multi-dispatch
+****** here the subject his the Damian perl module Multi::Dispatch
+***** @30min: multidispatch discussion begins 
+***** @48:50: multidispatch call resolution
+***** @52:00: ABCDEFGHI
+****** central idea: call the 'most specific' option
+|---+------------------+------------------------------------------------------+----------------------------------|
+| A | Arity            |                                                      |                                  |
+| B | Beforehandedness | :before                                              |                                  |
+| C | Constraint       | Types/Classes of args: try most derived first        |                                  |
+| D | Destructuring    | multi xxx ( Int [$i, $j] ) {...}                     |                                  |
+| E | Essentials       | How many args are required                           |                                  |
+| F | Facultativity    | More arguments that are optional                     |                                  |
+| G | Greed            | Slurpies are less specific, demote 'greedy' versions |                                  |
+| H | Heredity         | For methods, most derived method wins                |                                  |
+| I | Inception        | Order of definition                                  | problematic: even as tie-breaker |
+
+****** my comments:
+******* a tight explanation with clear examples, but it takes a half hour 
+******** examples are in perl: steal them and rakuize them?
+******* some principles are positive (reasons to promote), some read better as negative
+******* why are E and F separate?  (Hard to write a clear summary: not a good sign?)
+******* Down at at 'H' we're suddently looking at the methods not the arguments
+******** no objection, but might that confuse?  What if you expected H up around C?
+******** verify it works like this in Raku
+******* technical issue with "I":
+******** when multis are defined in different modules, the order of use statments matters
+********* example idea: handling negatives and positives where both sides want 0
+******* my personal odyssey with "I"
+******** it wasn't mentioned in the Raku docs until I added it
+******** it's not in the original design documents
+********* more like oral tradition: something Larry Wall said to Jonathan Worthington
+******** it's not covered by the test suite (aka 'the spec')
+********* I tried to add a test: the pull request has been ignored
+
+**** Chemometrics with Perl & Pharmaceutical Applications - Andrew O'Neil, PhD - TPRC 2024
+***** https://www.youtube.com/watch?v=BcFl4efLuuk&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=23
+
+**** Playwright-Perl - George S. Baugh - TPRC 2024 
+***** https://www.youtube.com/watch?v=ePnKUNW4r8c&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=19
+***** playwright: node.js tool browser automation; using from perl tests
+
+**** Supporting Universal Dependencies in the Tree Editor TrEd - Jan Štěpánek - TPRC 2024 
+***** https://www.youtube.com/watch?v=dUGVAQ6wafE
+***** TrEd, create, modify, browse, and search treebanks - large language corpora annotated with syntactic and/or semantic structure information
+
+**** The Test2 Ecosystem - Chad Granum - TPRC 2024
+***** https://www.youtube.com/watch?v=DdSQkIfeoqU&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=16
+***** high level view of the Test2 tools that are available
+
+**** The New Standards of Conduct and You - D Ruth Holloway - TPRC 2024 
+***** https://www.youtube.com/watch?v=g8Qu1k6IeR8&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=4
+***** The Board is implementing a new Standards of Conduct for events and spaces that are provided or supported by The Perl and Raku Foundation
+
+**** Reasoning About the Rigor of Perl Programs - George Baugh - TPRC 2024 
+***** https://www.youtube.com/watch?v=EgpWWt1R11U&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=5
+***** 
+**** YAMLScript - Scripting in YAML - Ingy döt؜؜ Net­ - TPRC 2024 
+***** https://www.youtube.com/watch?v=RFIukRdFe1o&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=20
+***** YAMLScript is focused on YAML configuration, it's a complete functional language (compiles to Clojure, lisp-on-JVM)
+
+**** Structure Based Structuring of Unstructured Data - Adam Russell - TPRC 2024 
+***** https://www.youtube.com/watch?v=dn9msFIED-8&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=10
+***** novel application of LLMs to convert unstructured text into a structured data format, specifically the Resource Description Framework (RDF)—the lingua franca of the Semantic Web
+
+**** Demystifying Perl One-Liners - Walter C. Mankowski - TPRC 2024 
+***** https://www.youtube.com/watch?v=ZqSddysHJb0&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=11
+***** 
+
+
+**** Maximizing Performance and Cost Efficiency in the Cloud - Dimitrios Kechagias - TPRC 2024 
+***** https://www.youtube.com/watch?v=UEjMr5aUbbM&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=12
+***** from instance types and architectures, to scaling, storage, monitoring and more. 
+***** As many organizations have discovered, including our own, cloud solutions can be quite expensive
+
+**** https://www.youtube.com/watch?v=22-7yP0inu8&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=7
+***** Party Like It's 19100+e^iπ - Curtis Poe - TPRC 2024
+***** 
+
+*** some discussion of state of corinna
+**** difficulties of multi-threading in perl
+**** scoping of special vars in Raku, ala the match object $/
+
+** weekly challenge  (( delayed to next time ))
+*** the problems 
+**** https://theweeklychallenge.org
+*** the solutions
+**** https://github.com/manwar/perlweeklychallenge-club/
+
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-275
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-274
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-273
+
+*** Bruce Gray:
+
+I expect to attend the meeting in two weeks, but today I will be at the Grand Canyon so cannot join you all.
+
+My weekly challenge solutions:
+https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-274/bruce-gray/raku
+https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-275/bruce-gray/raku
+
+Or, if my 275 PR is not yet processed:
+https://github.com/Util/perlweeklychallenge-club/tree/c275/challenge-275/bruce-gray/raku
+
+
+ 
+** announcements 
+*** next meetings (no reason to deviate from 'every two weeks')
+**** July 14th
+**** July 28th
+**** Aug 11th
+**** Aug 25th
+**** Sep 8th
+**** Sep 22
+**** Oct 6
+**** Oct 20
+ 
+** Perl and Raku conference, 1-day in London (check date!)
+*** http://act.yapc.eu/lpw2024/
+
+
+** follow-up (for doomvox)
+
+*** I should improve my "quick intro to Raku" presentations:
+**** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/A2-raku_features.org
+**** https://github.com/doomvox/raku-study/tree/main/bin/2024may19/powers_of_two
+**** https://docs.raku.org/language/regexes
+
+**** TODO feature request: complex ranges, range inclusion checks 
+
+**** Raku featurettes to review:
+***** .end
+
+*** TODO extracts cool stuff from chat
+**** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2024jun16-meeting_saved_chat.txt
+
+*** gentle complaint from Rob about unsearchability of these notes.  
+**** generate an index automatically?
+**** write a monolithic summary page?
+**** ship a concatenated single file version that's text searchable...
+
+
+*** Gabor Szabo calendar, Perl/Raku events (William Michels):
+**** https://perlweekly.com/events
+**** get SF-Perl's Raku Meetup listed: add a pull request to this file:
+***** https://github.com/szabgab/perlweekly/blob/master/src/events.json
