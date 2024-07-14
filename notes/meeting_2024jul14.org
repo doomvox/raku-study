@@ -16,7 +16,8 @@
 **** TODO Rob wanted to follow up weirdness on ranges/sequences 
 ***** Also, Rob said he had "a couple of odd things"
 
-*** Any other commentary on the raku/perl conference? (heard from Bill last time)
+*** Any other commentary on the raku/perl conference? 
+**** heard from Bill last time: https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun30.org
 **** https://www.youtube.com/playlist?list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL
 
 **** The Once and Future Perl - Damian Conway - TPRC 2024 
