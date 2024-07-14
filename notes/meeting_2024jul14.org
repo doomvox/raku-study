@@ -10,6 +10,8 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun30.org
 
+** topical applications
+
 ** life the universe and everything
 *** databases (Tim Schafer)
 **** datomic
