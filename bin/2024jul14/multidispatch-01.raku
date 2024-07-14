@@ -4,17 +4,17 @@
 
 use v6;
 
-multi sub speak( $phrase ) {
-    say "$phrase!";
+multi sub action( $thing ) {
+    say "ONE: $thing!";
 }
  
 
-multi sub speak( $phrase ) {
-    say "$phrase";
+multi sub action( $thing ) {
+    say "TWO: $thing";
 }
 
-multi sub speak( :$phrase ) {
-    say "$phrase";
+multi sub action( :$thing ) {
+    say "THREE: $thing";
 }
 
  
