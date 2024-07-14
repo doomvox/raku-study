@@ -12,9 +12,9 @@ multi sub speak( $phrase ) {
 multi sub speak( $phrase ) {
     say "$phrase";
 }
- 
-# version 3 
-multi sub happy-birthday( :$name, :$age, :$title  = 'Mr' ) {
-    say "Happy {$age}th Birthday $title $name !";
+
+multi sub speak( :$phrase ) {
+    say "$phrase";
 }
+
  
