@@ -13,25 +13,6 @@ multi sub action( $thing ) {
     say "TWO: $thing";
 }
 
-
-'thing' => $thing
-
-$hash{thing} = $thing;
-
-%hash{'thing'} = $thing;
-%hash<thing> = $thing;
-
-my $word = <word>;
-my @words = <one thing after another>;
-my $one_string = 'one thing after another';
-
-my @words = q:w"one thing after another";
-
-my @words = <<one thing after another $thing>>;
-
-my @words = «one thing after another $thing»;
-
-
 multi sub action( :$thing ) {
     say "THREE: $thing";
 }
