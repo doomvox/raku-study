@@ -2,13 +2,13 @@
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun30.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jul14.org
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2024jun30
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024jul14
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun16.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun30.org
 
 ** life the universe and everything
 *** databases (Tim Schafer)
