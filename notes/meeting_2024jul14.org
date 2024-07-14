@@ -19,10 +19,6 @@
 *** Any other commentary on the raku/perl conference? (heard from Bill last time)
 **** https://www.youtube.com/playlist?list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL
 
-**** Overview of a Roguelike Class System - Chris Prather - TPRC 2024 
-***** https://www.youtube.com/watch?v=2XFYlPeCsxY&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=14
-***** corinna
-
 **** The Once and Future Perl - Damian Conway - TPRC 2024 
 ***** https://www.youtube.com/watch?v=0x9LD8oOmv0&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=8
 ***** Has one of the clearer descriptions of Raku-style multi-dispatch
