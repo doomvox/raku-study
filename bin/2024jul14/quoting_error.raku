@@ -6,7 +6,7 @@ use v6;
 
 # Rob:
 
-my $x = Q{ hello there }
+my $x = Q{ hello there };
 # Error while compiling /home/rir/q.raku
 # Strange text after block (missing semicolon or comma?)
 say $x;
