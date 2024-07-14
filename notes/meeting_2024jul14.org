@@ -14,20 +14,6 @@
 
 ** 
 
-*** the bingo card problem
-**** problem: fill in a 5x5 bingo card with numbers from 1-100 (inclusive)
-***** my idea: just go with prime numbers, make sure you don't list more than 25
-***** spoiler: it turns out there are exactly 25 primes in the range 1-100
-https://github.com/doomvox/raku-study/tree/main/bin/2024jun30/2024jun30/list_some_primes.raku
-
-**** side issue: benchmarking various constructs (see bin/2024jun30/laziness*.raku)
-***** @a = (1..1000) is 13x faster than @a = (1...1000)
-***** @a = (1..100000) can be 100x slower than $a = (1..100000)
-****** but only with a larger array size, depends on available memory
-***** @a = lazy (1..100000), is much faster than without 'lazy': over 100x
-****** again, but only with the larger array size of 100000
-***** my int @a is 18x faster than either Int or the default with my @a
-
 **** TODO Rob wanted to follow up weirdness on ranges/sequences 
 ***** Also, Rob said he had "a couple of odd things"
 
