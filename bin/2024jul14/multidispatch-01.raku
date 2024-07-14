@@ -4,13 +4,13 @@
 
 use v6;
 
-multi sub happy-birthday( $name ) {
-    say "Happy Birthday $name !";
+multi sub speak( $phrase ) {
+    say "$phrase!";
 }
  
-# version 2 
-multi sub happy-birthday( $name, $age ) {
-    say "Happy {$age}th Birthday $name !";
+
+multi sub speak( $phrase ) {
+    say "$phrase";
 }
  
 # version 3 
