@@ -64,8 +64,6 @@
 **** The London Perl & Raku Workshop (LPW) is a free one-day technical conference in Central London, United Kingdom. 
 **** WHERE: The Trampery, 239 Old Street, London EC1V 9EY 
 
-
-
 ** follow-up (for doomvox)
 
 *** I should improve my "quick intro to Raku" presentations:
