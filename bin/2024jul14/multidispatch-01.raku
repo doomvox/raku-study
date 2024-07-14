@@ -23,7 +23,7 @@ $hash{thing} = $thing;
 
 my $word = <word>;
 my @words = <one thing after another>;
-my @words = <one thing after another $thing>;
+my @words = <one thing after another $word>;
 
 multi sub action( :$thing ) {
     say "THREE: $thing";
