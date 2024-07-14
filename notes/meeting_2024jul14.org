@@ -22,8 +22,9 @@
 
 **** The Once and Future Perl - Damian Conway - TPRC 2024 
 ***** https://www.youtube.com/watch?v=0x9LD8oOmv0&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=8
-
-
+***** my notes:
+****** https://github.com/doomvox/raku-study/blob/main/notes/multidispatch.org
+******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/multidispatch.org
 
 *** some discussion of state of corinna
 **** difficulties of multi-threading in perl
