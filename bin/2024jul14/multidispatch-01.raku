@@ -18,8 +18,7 @@ multi sub action( :$thing ) {
 }
 
 action( "hey" );
+# ONE: hey!
 
 action( thing => "ho" );
-
-ONE: hey!
-THREE: ho
+# THREE: ho
