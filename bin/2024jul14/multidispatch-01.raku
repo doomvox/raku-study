@@ -20,3 +20,6 @@ multi sub action( :$thing ) {
 action( "hey" );
 
 action( thing => "ho" );
+
+ONE: hey!
+THREE: ho
