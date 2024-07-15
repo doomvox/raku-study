@@ -13,7 +13,7 @@ multi sub action( $thing ) {
     say "TWO: $thing";
 }
 
-multi sub action( :$thing ) {  ## idiomatic raku short-hand for the pair:   'thing' => $thing
+multi sub action( :$thing ) {  ## named argument via the idiomatic raku short-hand for the pair:   'thing' => $thing
     say "THREE: $thing";
 }
 
