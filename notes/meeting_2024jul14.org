@@ -13,7 +13,9 @@
 ** topical applications
 
 *** Raku mohrvm bug with IO:Path (?) -- Rob  
-*** nqp
+
+*** "what is nqp?"
+
 *** INSIDE_EMACS envar for repl in sub-shells
 
 *** Tim Schafer asks about 
