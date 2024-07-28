@@ -60,7 +60,7 @@ This desugars to:
         $obj;
     }
 
-**** the atari 800 docs explained an error code meant:  "Device NAK".
+**** The atari 800 docs explained an error code meant:  "Device NAK".
 
  
 **** automangling a joke
