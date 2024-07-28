@@ -34,6 +34,27 @@
 ***** Marton: "In theory, the real reason you aren't supposed to use NQP on your own is that it's absolutely not specced"
 
 
+**** The mystery of: p6 bind attr invres
+
+  invres
+
+  in
+   v       (value)
+   res     (result)
+
+
+I theorize there was once a competing routine which was called
+
+p6bindattr
+
+I get people complaining about the length of my names.
+
+sub do_something_vaugely_intelligent_with_form_date_input { ... }
+
+
+
+
+
 *** Add :by to .min / .max / .minmax #5607   (Bill)
 ***** https://github.com/rakudo/rakudo/pull/5607
 
