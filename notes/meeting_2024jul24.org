@@ -22,7 +22,10 @@
 ***** can you deprecate attributes
 ****** has Int $.tai is default(0);
 
-Possible Topics:
+*** Possible Topics (Bill):
+**** https://gist.github.com/0racle/134921795a6d91168f31cd554492d824
+**** https://github.com/rakudo/rakudo/pull/5607
+
 
 ** stuff from last time: 
 
