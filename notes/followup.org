@@ -1,0 +1,27 @@
+
+
+** follow-up (for doomvox)
+
+*** I should improve my "quick intro to Raku" presentations:
+**** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/A2-raku_features.org
+**** https://github.com/doomvox/raku-study/tree/main/bin/2024may19/powers_of_two
+**** https://docs.raku.org/language/regexes
+
+**** TODO feature request: complex ranges, range inclusion checks 
+
+**** Raku featurettes to review:
+***** .end
+
+*** TODO extracts cool stuff from chat
+**** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2024jun16-meeting_saved_chat.txt
+
+*** gentle complaint from Rob about unsearchability of these notes.  
+**** generate an index automatically?
+**** write a monolithic summary page?
+**** ship a concatenated single file version that's text searchable...
+
+
+*** Gabor Szabo calendar, Perl/Raku events (William Michels):
+**** https://perlweekly.com/events
+**** get SF-Perl's Raku Meetup listed: add a pull request to this file:
+***** https://github.com/szabgab/perlweekly/blob/master/src/events.json
