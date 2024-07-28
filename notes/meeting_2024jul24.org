@@ -47,7 +47,6 @@
 
 ****** p6bindattr
 
-
 **** rakudo/docs/ops.markdown
 
 ***** ## p6bindattrinvres
