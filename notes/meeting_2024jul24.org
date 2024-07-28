@@ -12,6 +12,10 @@
 
 ** topics
 
+Monatliches Raku-Monger Treffen - August 15, 2024, Im Roten Ochsen
+https://github.com/szabgab/perlweekly/blob/master/src/events.json
+
+
 
 ** stuff from last time: 
 
@@ -68,7 +72,6 @@
  
 ** announcements 
 *** next meetings (no reason to deviate from 'every two weeks')
-**** July 14th
 **** July 28th
 **** Aug 11th
 **** Aug 25th
@@ -81,6 +84,10 @@
 *** http://act.yapc.eu/lpw2024/
 **** The London Perl & Raku Workshop (LPW) is a free one-day technical conference in Central London, United Kingdom. 
 **** WHERE: The Trampery, 239 Old Street, London EC1V 9EY 
+
+
+
+** https://perlweekly.com/events
 
 ** follow-up (for doomvox)
 
