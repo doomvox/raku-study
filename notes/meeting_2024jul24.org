@@ -8,9 +8,12 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2024jul28
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun30.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jul14.org
 
-** topical applications
+** topics
+
+
+** stuff from last time: 
 
 *** Raku mohrvm bug with IO:Path (?) -- Rob  
 
