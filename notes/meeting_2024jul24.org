@@ -15,9 +15,11 @@
 *** Monatliches Raku-Monger Treffen - August 15, 2024, Im Roten Ochsen
 **** https://github.com/szabgab/perlweekly/blob/master/src/events.json
 
-*** Rob: 
+*** Rob
 **** rakudo bug: leap seconds not showing up
 ***** https://github.com/rakudo/rakudo/pull/5607
+
+
 
 ** stuff from last time: 
 
