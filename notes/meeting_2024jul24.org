@@ -47,9 +47,6 @@ I theorize there was once a competing routine which was called
 
 p6bindattr
 
-I get people complaining about the length of my names.
-
-sub do_something_vaugely_intelligent_with_form_date_input { ... }
 
 
 
