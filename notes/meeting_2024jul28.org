@@ -60,7 +60,7 @@ This desugars to:
         $obj;
     }
 
-**** The atari 800 docs explained an error code meant:  "Device NAK".
+**** The Atari 800 docs explained an error code meant:  "Device NAK".
 
  
 **** automangling a joke
@@ -73,6 +73,30 @@ This desugars to:
 
 *** "Sort Gotcha"   (Bill):
 **** https://gist.github.com/0racle/134921795a6d91168f31cd554492d824
+
+
+
+
+
+** old weekly challenge notes  (( delayed to next time ))
+*** the problems 
+**** https://theweeklychallenge.org
+*** the solutions
+**** https://github.com/manwar/perlweeklychallenge-club/
+
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-275
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-274
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-273
+
+
+
+
+*** Bruce Gray, weekly challenge solutions:
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-274/bruce-gray/raku
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-275/bruce-gray/raku
+
+**** Or, if my 275 PR is not yet processed:
+***** https://github.com/Util/perlweeklychallenge-club/tree/c275/challenge-275/bruce-gray/raku
 
 
 
@@ -107,25 +131,6 @@ This desugars to:
 ****** https://github.com/doomvox/raku-study/blob/main/notes/multidispatch.org
 ******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/multidispatch.org
 
-** weekly challenge  (( delayed to next time ))
-*** the problems 
-**** https://theweeklychallenge.org
-*** the solutions
-**** https://github.com/manwar/perlweeklychallenge-club/
-
-*** https://theweeklychallenge.org/blog/perl-weekly-challenge-275
-*** https://theweeklychallenge.org/blog/perl-weekly-challenge-274
-*** https://theweeklychallenge.org/blog/perl-weekly-challenge-273
-
-
-
-
-*** Bruce Gray, weekly challenge solutions:
-**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-274/bruce-gray/raku
-**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-275/bruce-gray/raku
-
-**** Or, if my 275 PR is not yet processed:
-***** https://github.com/Util/perlweeklychallenge-club/tree/c275/challenge-275/bruce-gray/raku
 
 
  
