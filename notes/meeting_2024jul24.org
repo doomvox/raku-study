@@ -1,0 +1,106 @@
+* meeting notes July 24, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jul14.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024jul14
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun30.org
+
+** topical applications
+
+*** Raku mohrvm bug with IO:Path (?) -- Rob  
+
+*** "what is nqp?"
+
+*** INSIDE_EMACS envar for repl in sub-shells
+
+*** Tim Schafer asks about 
+**** operator overloading in Raku
+**** multis
+***** has a complicated question about how custom grammars might be used with multi operators 
+****** look into the overlaps there?
+
+*** William Michels:
+**** Latest U&L Stackexchange post (Raku answer to  `ceiling` question): https://unix.stackexchange.com/a/780031/227738
+
+*** ranges vs sequences benchmarking
+**** TODO Rob wanted to follow up weirdness on ranges/sequences 
+***** Also, Rob said he had "a couple of odd things"
+
+*** Any other commentary on the raku/perl conference? 
+**** heard from Bill last time: https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun30.org
+**** https://www.youtube.com/playlist?list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL
+
+**** The Once and Future Perl - Damian Conway - TPRC 2024 
+***** https://www.youtube.com/watch?v=0x9LD8oOmv0&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=8
+***** my notes:
+****** https://github.com/doomvox/raku-study/blob/main/notes/multidispatch.org
+******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/multidispatch.org
+
+** weekly challenge  (( delayed to next time ))
+*** the problems 
+**** https://theweeklychallenge.org
+*** the solutions
+**** https://github.com/manwar/perlweeklychallenge-club/
+
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-275
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-274
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-273
+
+
+
+
+*** Bruce Gray, weekly challenge solutions:
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-274/bruce-gray/raku
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-275/bruce-gray/raku
+
+**** Or, if my 275 PR is not yet processed:
+***** https://github.com/Util/perlweeklychallenge-club/tree/c275/challenge-275/bruce-gray/raku
+
+
+ 
+** announcements 
+*** next meetings (no reason to deviate from 'every two weeks')
+**** July 14th
+**** July 28th
+**** Aug 11th
+**** Aug 25th
+**** Sep 8th
+**** Sep 22
+**** Oct 6
+**** Oct 20
+ 
+** Perl and Raku conference, 1-day in London, Saturday 26th October 2024:
+*** http://act.yapc.eu/lpw2024/
+**** The London Perl & Raku Workshop (LPW) is a free one-day technical conference in Central London, United Kingdom. 
+**** WHERE: The Trampery, 239 Old Street, London EC1V 9EY 
+
+** follow-up (for doomvox)
+
+*** I should improve my "quick intro to Raku" presentations:
+**** https://github.com/doomvox/raku-study/blob/main/notes/talks/new_year_raku/A2-raku_features.org
+**** https://github.com/doomvox/raku-study/tree/main/bin/2024may19/powers_of_two
+**** https://docs.raku.org/language/regexes
+
+**** TODO feature request: complex ranges, range inclusion checks 
+
+**** Raku featurettes to review:
+***** .end
+
+*** TODO extracts cool stuff from chat
+**** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2024jun16-meeting_saved_chat.txt
+
+*** gentle complaint from Rob about unsearchability of these notes.  
+**** generate an index automatically?
+**** write a monolithic summary page?
+**** ship a concatenated single file version that's text searchable...
+
+
+*** Gabor Szabo calendar, Perl/Raku events (William Michels):
+**** https://perlweekly.com/events
+**** get SF-Perl's Raku Meetup listed: add a pull request to this file:
+***** https://github.com/szabgab/perlweekly/blob/master/src/events.json
