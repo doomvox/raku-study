@@ -29,7 +29,7 @@
 ***** https://github.com/rakudo/rakudo/pull/5607
 
 
-*** possible topic (Bill):
+*** "Sort Gotcha"   (Bill):
 **** https://gist.github.com/0racle/134921795a6d91168f31cd554492d824
 
 
