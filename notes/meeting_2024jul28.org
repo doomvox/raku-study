@@ -40,7 +40,7 @@
 
   in
    v       (value)
-   res     (result)
+   res     (result)  (bruce agrees)
 
 
 ***** I theorize there was once a competing routine which was called
