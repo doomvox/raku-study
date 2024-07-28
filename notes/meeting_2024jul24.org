@@ -16,7 +16,8 @@
 **** https://github.com/szabgab/perlweekly/blob/master/src/events.json
 
 *** Rob: 
-**** rakudo bug
+**** rakudo bug: leap seconds not showing up
+***** https://github.com/rakudo/rakudo/pull/5607
 
 ** stuff from last time: 
 
