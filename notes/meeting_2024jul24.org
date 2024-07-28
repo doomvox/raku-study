@@ -17,14 +17,20 @@
 
 *** Rob
 **** rakudo bug: leap seconds not showing up
-***** https://github.com/rakudo/rakudo/pull/5607
+
+
+***** https://github.com/rakudo/rakudo/issues/5595 
 ***** hacking on a copy of Class Instant (avoid re-builds)
 ***** can you deprecate attributes
 ****** has Int $.tai is default(0);
 
-*** Possible Topics (Bill):
-**** https://gist.github.com/0racle/134921795a6d91168f31cd554492d824
-**** https://github.com/rakudo/rakudo/pull/5607
+*** Add :by to .min / .max / .minmax #5607 
+***** https://github.com/rakudo/rakudo/pull/5607
+
+
+**** Possible Topics (Bill):
+***** https://gist.github.com/0racle/134921795a6d91168f31cd554492d824
+***** https://github.com/rakudo/rakudo/pull/5607
 
 
 ** stuff from last time: 
