@@ -22,6 +22,8 @@
 ***** can you deprecate attributes
 ****** has Int $.tai is default(0);
 
+Possible Topics:
+
 ** stuff from last time: 
 
 *** Raku mohrvm bug with IO:Path (?) -- Rob  
