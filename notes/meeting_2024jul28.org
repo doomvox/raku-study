@@ -1,4 +1,4 @@
-* meeting notes July 24, 2024
+* meeting notes July 28, 2024
 ** the raku study group
 **** usual links
 ***** these notes
