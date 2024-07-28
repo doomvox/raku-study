@@ -48,7 +48,18 @@ I theorize there was once a competing routine which was called
 p6bindattr
 
 
+**** rakudo/docs/ops.markdown
 
+## p6bindattrinvres
+* p6bindattrinvres(Mu $obj, Mu $type, str $attr-name, Mu $value)
+
+Bind $value into Attribute $attr-name of object $obj of type $type and return $obj.
+This desugars to:
+
+    {
+        bindattr($obj, $type, $attr-name, $value);
+        $obj;
+    }
 
 
 
