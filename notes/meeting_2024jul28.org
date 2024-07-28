@@ -59,6 +59,9 @@ This desugars to:
         bindattr($obj, $type, $attr-name, $value);
         $obj;
     }
+
+**** the atari 800 docs explained an error code meant:  "Device NAK".
+
  
 **** automangling a joke
 ***** https://medium.com/hackernoon/the-two-hard-problems-in-computer-science-2a42ec008eee
