@@ -12,8 +12,8 @@
 
 ** topics
 
-Monatliches Raku-Monger Treffen - August 15, 2024, Im Roten Ochsen
-https://github.com/szabgab/perlweekly/blob/master/src/events.json
+*** Monatliches Raku-Monger Treffen - August 15, 2024, Im Roten Ochsen
+**** https://github.com/szabgab/perlweekly/blob/master/src/events.json
 
 
 
