@@ -43,9 +43,11 @@
    res     (result)  (bruce agrees)
 
 
-***** I theorize there was once a competing routine which was called
+***** I theorize there were competing version, and once there was a competing routine which was called
 
 ****** p6bindattr
+
+***** Bruce looked into the code history: yes that's what was going on
 
 **** rakudo/docs/ops.markdown
 
