@@ -25,13 +25,13 @@
 
 ***** https://github.com/rakudo/rakudo/blob/main/src/core.c/Rakudo/Internals.rakumod
 
-*** Add :by to .min / .max / .minmax #5607 
+*** Add :by to .min / .max / .minmax #5607   (Bill)
 ***** https://github.com/rakudo/rakudo/pull/5607
 
 
-**** Possible Topics (Bill):
-***** https://gist.github.com/0racle/134921795a6d91168f31cd554492d824
-***** https://github.com/rakudo/rakudo/pull/5607
+*** possible topic (Bill):
+**** https://gist.github.com/0racle/134921795a6d91168f31cd554492d824
+
 
 
 ** stuff from last time: 
