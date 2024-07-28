@@ -49,6 +49,7 @@
 
 ***** Bruce looked into the code history: yes that's what was going on
 
+
 **** rakudo/docs/ops.markdown
 
 ***** ## p6bindattrinvres
