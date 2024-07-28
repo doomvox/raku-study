@@ -24,6 +24,8 @@
 ****** has Int $.tai is default(0);
 
 ***** https://github.com/rakudo/rakudo/blob/main/src/core.c/Rakudo/Internals.rakumod
+****** best way to understand this seems to be it's a bunch of ad-hoc, pragmatic utilities
+****** e.g. what does "self" refer to at any point?  Bruce argues it varies.
 
 *** Add :by to .min / .max / .minmax #5607   (Bill)
 ***** https://github.com/rakudo/rakudo/pull/5607
