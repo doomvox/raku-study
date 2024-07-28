@@ -18,7 +18,7 @@
 *** Rob
 **** rakudo bug: leap seconds not showing up
 ***** https://github.com/rakudo/rakudo/pull/5607
-***** hacking on a copy of Class Instant
+***** hacking on a copy of Class Instant (avoid re-builds)
 ***** can you deprecate attributes
 ****** has Int $.tai is default(0);
 
