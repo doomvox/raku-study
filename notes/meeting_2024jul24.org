@@ -61,8 +61,6 @@ This desugars to:
         $obj;
     }
 
-
-
 *** Add :by to .min / .max / .minmax #5607   (Bill)
 ***** https://github.com/rakudo/rakudo/pull/5607
 
