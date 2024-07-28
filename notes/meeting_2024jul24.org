@@ -31,7 +31,7 @@
 ****** https://docs.raku.org/language/terms#term_now
 ****** https://github.com/gntm/t-a-i
 
-***** In theory, the real reason you aren't supposed to use NQP on your own is that it's absolutely not specced
+***** Marton: "In theory, the real reason you aren't supposed to use NQP on your own is that it's absolutely not specced"
 
 
 *** Add :by to .min / .max / .minmax #5607   (Bill)
