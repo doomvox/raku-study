@@ -85,6 +85,7 @@ This desugars to:
 
 
 *** https://theweeklychallenge.org/blog/perl-weekly-challenge-278
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-279/
 
 
 ** old weekly challenge notes  (( delayed to next time ))
