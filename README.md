@@ -7,7 +7,7 @@ The upcoming meeting schedule:
 
 * Sunday, Aug 11, 2024
 * Sunday, Aug 25, 2024
-* Sunday, Sep 8, 2024
+* Sunday, Sep 8, 2024    (tentative)
 * Sunday, Sep 22, 2024
 * Sunday, Oct 6, 2024
 * Sunday, Oct 20, 2024
