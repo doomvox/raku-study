@@ -23,6 +23,10 @@ multi happy_birthday( $name, $age ) {
 multi happy_birthday( :$name, :$age, :$title  = 'Mr' ) {
     say "Happy {$age}th Birthday $title $name !";
 }
+
+## maybe hash destructuring
+#           multi mysort ({fold=>1,  %opt}, @data) { mysort {%opt, key => \&CORE::fc}, @data }
+
  
 # calls version 1 (arity) 
 happy_birthday 'Larry';                        # Happy Birthday Larry ! 
