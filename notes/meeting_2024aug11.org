@@ -1,0 +1,168 @@
+* meeting notes August 11, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jul28.org
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024jul28
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jul14.org
+
+** topics
+
+*** Monatliches Raku-Monger Treffen - August 15, 2024, Im Roten Ochsen
+**** https://github.com/szabgab/perlweekly/blob/master/src/events.json
+
+*** Rob
+**** rakudo bug: leap seconds not showing up
+
+***** https://github.com/rakudo/rakudo/issues/5595 
+***** hacking on a copy of Class Instant (avoid re-builds)
+***** can you deprecate attributes
+****** has Int $.tai is default(0);
+
+
+
+***** https://github.com/rakudo/rakudo/blob/main/src/core.c/Rakudo/Internals.rakumod
+****** best way to understand this seems to be it's a bunch of ad-hoc, pragmatic utilities
+******* e.g. what does "self" refer to at any point?  Bruce argues it varies.
+
+***** Bruce points to a perl guy who's spent time on time
+****** https://docs.raku.org/language/terms#term_now
+****** https://github.com/gntm/t-a-i
+
+***** Marton: "In theory, the real reason you aren't supposed to use NQP on your own is that it's absolutely not specced"
+
+
+**** The mystery of: p6 bind attr invres
+
+  invres
+
+  in
+   v       (value)
+   res     (result)  (bruce agrees)
+
+***** I theorize there were competing version, and once there was a competing routine which was called
+****** p6bindattr
+
+***** Bruce looked into the code history: yes that's what was going on
+
+**** rakudo/docs/ops.markdown
+
+***** ## p6bindattrinvres
+p6bindattrinvres(Mu $obj, Mu $type, str $attr-name, Mu $value)
+
+Bind $value into Attribute $attr-name of object $obj of type $type and return $obj.
+This desugars to:
+
+    {
+        bindattr($obj, $type, $attr-name, $value);
+        $obj;
+    }
+
+**** The Atari 800 docs explained an error code meant:  "Device NAK".
+
+ 
+**** automangling a joke
+***** https://medium.com/hackernoon/the-two-hard-problems-in-computer-science-2a42ec008eee
+
+
+*** Add :by to .min / .max / .minmax #5607   (Bill)
+***** https://github.com/rakudo/rakudo/pull/5607
+
+*** "Sort Gotcha"   (Bill):
+**** https://gist.github.com/0racle/134921795a6d91168f31cd554492d824
+
+
+
+** weekly challenge notes  (( delayed to next time ))
+
+*** the problems 
+**** https://theweeklychallenge.org
+*** the solutions
+**** https://github.com/manwar/perlweeklychallenge-club/
+
+
+
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-278
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-279/
+
+*** prolog
+**** https://en.wikipedia.org/wiki/Prolog
+
+** old weekly challenge notes  (( delayed to next time ))
+*** the problems 
+**** https://theweeklychallenge.org
+*** the solutions
+**** https://github.com/manwar/perlweeklychallenge-club/
+
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-275
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-274
+*** https://theweeklychallenge.org/blog/perl-weekly-challenge-273
+
+
+
+
+*** Bruce Gray, weekly challenge solutions:
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-274/bruce-gray/raku
+**** https://github.com/manwar/perlweeklychallenge-club/tree/master/challenge-275/bruce-gray/raku
+
+**** Or, if my 275 PR is not yet processed:
+***** https://github.com/Util/perlweeklychallenge-club/tree/c275/challenge-275/bruce-gray/raku
+
+
+
+** stuff from last time: 
+
+*** Raku mohrvm bug with IO:Path (?) -- Rob  
+
+*** "what is nqp?"
+
+*** INSIDE_EMACS envar for repl in sub-shells
+
+*** Tim Schafer asks about 
+**** operator overloading in Raku
+**** multis
+***** has a complicated question about how custom grammars might be used with multi operators 
+****** look into the overlaps there?
+
+*** William Michels:
+**** Latest U&L Stackexchange post (Raku answer to  `ceiling` question): https://unix.stackexchange.com/a/780031/227738
+
+*** ranges vs sequences benchmarking
+**** TODO Rob wanted to follow up weirdness on ranges/sequences 
+***** Also, Rob said he had "a couple of odd things"
+
+*** Any other commentary on the raku/perl conference? 
+**** heard from Bill last time: https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jun30.org
+**** https://www.youtube.com/playlist?list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL
+
+**** The Once and Future Perl - Damian Conway - TPRC 2024 
+***** https://www.youtube.com/watch?v=0x9LD8oOmv0&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=8
+***** my notes:
+****** https://github.com/doomvox/raku-study/blob/main/notes/multidispatch.org
+******* /home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/multidispatch.org
+
+
+
+ 
+** announcements 
+*** next meetings (no reason to deviate from 'every two weeks')
+**** July 28th
+**** Aug 11th
+**** Aug 25th
+**** Sep 8th
+**** Sep 22
+**** Oct 6
+**** Oct 20
+ 
+** Perl and Raku conference, 1-day in London, Saturday 26th October 2024:
+*** http://act.yapc.eu/lpw2024/
+**** The London Perl & Raku Workshop (LPW) is a free one-day technical conference in Central London, United Kingdom. 
+**** WHERE: The Trampery, 239 Old Street, London EC1V 9EY 
+
+** A big list of perl/raku events:
+*** https://perlweekly.com/events
+
