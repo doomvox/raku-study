@@ -23,6 +23,9 @@
 **** stackexchange
 ***** tool to look at key/values in unix
 ***** https://unix.stackexchange.com/questions/21943/standard-key-value-datastore-for-unix
+****** dbtrees using filesystem
+******* termcap
+******* infocom
 
 ** old topics
 
