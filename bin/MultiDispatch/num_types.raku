@@ -19,4 +19,4 @@ multi ecch (Rat $n) {
     say "Rat: we've got an Rat type $n";
 }
 
-ecch( 3.3 );  
+ecch( 3.3 );   # Rat: we've got an Rat type 3.3
