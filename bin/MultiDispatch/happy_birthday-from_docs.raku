@@ -4,6 +4,8 @@
 
 use v6;
 
+## Example from
+##  https://docs.raku.org/language/functions#Multi-dispatch
 
 # version 1 
 multi happy-birthday( $name ) {
