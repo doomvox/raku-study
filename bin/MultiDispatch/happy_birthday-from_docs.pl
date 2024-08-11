@@ -2,7 +2,7 @@
 # 
 # happy_birthday-from_docs.raku            11 Aug 2024 
 
-use 5.30; 
+use v5.30.0; 
 
 use Multi::Dispatch;
 
