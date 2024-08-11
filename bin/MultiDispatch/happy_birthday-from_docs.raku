@@ -45,6 +45,8 @@ happy-birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack !
   sub happy-birthday() {
       say "Happy Birthday to ***you***!";  #  Happy Birthday to ***you***!
   }
+
+  happy-birthday();
 }
 
-happy-birthday();
+
