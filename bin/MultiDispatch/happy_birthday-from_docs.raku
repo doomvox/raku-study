@@ -44,3 +44,6 @@ happy-birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack !
 multi happy-birthday(  ) {
     say "Happy Birthday to ***you***!";
 }
+
+
+happy-birthday();
