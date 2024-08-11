@@ -14,3 +14,5 @@ multi ecch (Int $n) {
 }
 
 ecch( 3 );  #  Int: we've got an Int type 3
+
+ecch( 3.3 );  #  Int: we've got an Int type 3
