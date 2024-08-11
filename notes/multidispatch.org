@@ -40,4 +40,7 @@
 **** dependencies: PPR, Keyword::Simple, Algorithm::FastPermute
 **** my current perl version: 5.32.1 
 ***** latest: 5.40
+*** Raku docs (note searches can get you trapped in glossary)
+**** https://docs.raku.org/syntax/multi
+**** https://docs.raku.org/language/functions#Multi-dispatch
 
