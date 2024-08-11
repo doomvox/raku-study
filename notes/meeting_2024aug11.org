@@ -12,6 +12,9 @@
 
 ** this meetings topics
 *** whatever
+*** multidispatch
+**** sigs: two slurps, first wins
+**** can you do named slurps?
 
 ** old topics
 
