@@ -9,10 +9,9 @@ multi ecch (Num $n) {
     say "1: we've got a Num type $n";
 }
 
-
 multi ecch (Int $n) { 
     say "Int: we've got an Int type $n";
 }
 
 
-ecch( 3 );
+ecch( 3 );  #  Int: we've got an Int type 3
