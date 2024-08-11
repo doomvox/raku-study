@@ -40,3 +40,7 @@ happy-birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack !
 # I think this is Conways "C is for Constraint",
 # the type of the args is used to choose which of the twofers wins.
 
+
+multi happy-birthday(  ) {
+    say "Happy Birthday to ***you***!";
+}
