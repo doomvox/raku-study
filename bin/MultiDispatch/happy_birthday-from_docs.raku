@@ -40,10 +40,13 @@ happy-birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack !
 # I think this is Conways "C is for Constraint",
 # the type of the args is used to choose which of the twofers wins.
 
-
-## Need to comment out the *other* arity zero to get this to run
-sub happy-birthday() {
-     say "Happy Birthday to ***you***!";  #  Happy Birthday to ***you***!
+{
+  ## Need to comment out the *other* arity zero to get this to run
+  sub happy-birthday() {
+      say "Happy Birthday to ***you***!";  #  Happy Birthday to ***you***!
+  }
 }
+
+
 
 happy-birthday();
