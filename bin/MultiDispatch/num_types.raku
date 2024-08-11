@@ -31,3 +31,5 @@ ecch( 3e-3 );  #  1: we've got a Num type 0.003
 ecch( 0.003 ); #  Rat: we've got an Rat type 0.003
 
 my $i isa Cool;
+$i = 3e-3;
+ecch( $i );
