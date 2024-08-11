@@ -15,4 +15,13 @@ multi ecch (Int $n) {
 
 ecch( 3 );  #  Int: we've got an Int type 3
 
-ecch( 3.3 );  #  Int: we've got an Int type 3
+multi ecch (Int $n) { 
+    say "Int: we've got an Int type $n";
+}
+
+
+multi ecch (Rat $n) { 
+    say "Rat: we've got an Rat type $n";
+}
+
+ecch( 3.3 );  #  
