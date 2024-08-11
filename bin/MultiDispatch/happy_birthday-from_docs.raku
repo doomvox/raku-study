@@ -41,6 +41,7 @@ happy-birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack !
 # the type of the args is used to choose which of the twofers wins.
 
 
+## Need to comment out the *other* arity zero to get this to run
 multi happy-birthday() {
      say "Happy Birthday to ***you***!";
 }
