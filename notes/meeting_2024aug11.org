@@ -10,7 +10,10 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jul28.org
 
-** topics
+** this meetings topics
+*** whatever
+
+** old topics
 
 *** Monatliches Raku-Monger Treffen - August 15, 2024, Im Roten Ochsen
 **** https://github.com/szabgab/perlweekly/blob/master/src/events.json
