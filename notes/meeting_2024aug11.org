@@ -85,7 +85,7 @@ This desugars to:
         $obj;
     }
 
-**** The Atari 800 docs explained an error code meant:  "Device NAK".
+**** The Atari 800 docs definied error code to mean:  "Device NAK".
 
  
 **** automangling a joke
