@@ -18,9 +18,9 @@ multi happy-birthday( $name, $age ) {
 }
  
 # version 3 
-multi happy-birthday( :$name, :$age, :$title  = 'Mr' ) {  ## Bruce calls this arity 0, nothing required.
-    say "Happy {$age}th Birthday $title $name !";
-}
+# multi happy-birthday( :$name, :$age, :$title  = 'Mr' ) {  ## Bruce calls this arity 0, nothing required.
+#     say "Happy {$age}th Birthday $title $name !";
+# }
  
 # calls version 1 (arity) 
 happy-birthday 'Larry';                        # Happy Birthday Larry ! 
