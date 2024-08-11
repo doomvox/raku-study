@@ -41,9 +41,9 @@ happy-birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack !
 # the type of the args is used to choose which of the twofers wins.
 
 
-multi happy-birthday('') {
-    say "Happy Birthday to ***you***!";
-}
+# multi happy-birthday() {
+#     say "Happy Birthday to ***you***!";
+# }
 
 
 happy-birthday();
