@@ -1,8 +1,8 @@
-#!/usr/bin/env raku
+#!/usr/bin/env perl
 # 
 # happy_birthday-from_docs.raku            11 Aug 2024 
 
-use v6;
+use 5.30;
 
 ## Trying to translate a raku example into perl, from:
 ##  https://docs.raku.org/language/functions#Multi-dispatch
