@@ -28,6 +28,8 @@
 ******* infocom
 
 *** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-281/
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-280/
 
 ** old topics
 
