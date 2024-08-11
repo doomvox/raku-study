@@ -27,6 +27,7 @@
 ******* termcap
 ******* infocom
 
+*** weekly challenge
 
 ** old topics
 
