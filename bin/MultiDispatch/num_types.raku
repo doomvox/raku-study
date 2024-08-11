@@ -21,8 +21,6 @@ multi ecch (Rat $n) {
 
 ecch( 3.3 );   # Rat: we've got an Rat type 3.3
 
-
-
 multi ecch (Numeric $n) { 
     say "Numeric: we've got an Numeric type $n";
 }
