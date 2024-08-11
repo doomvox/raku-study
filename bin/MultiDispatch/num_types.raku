@@ -12,7 +12,6 @@ multi ecch (Num $n) {
 multi ecch (Int $n) { 
     say "Int: we've got an Int type $n";
 }
-
 ecch( 3 );  #  Int: we've got an Int type 3
 
 multi ecch (Rat $n) { 
