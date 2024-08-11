@@ -38,4 +38,5 @@ happy-birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack !
 # Perl would think of that as a list of 4 items, "key1, val1, key2, val2".
 
 # I think this is Conways "C is for Constraint",
-# the type of the args settles it.
+# the type of the args is used to choose which of the twofers wins.
+
