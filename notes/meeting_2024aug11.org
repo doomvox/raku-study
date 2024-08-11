@@ -85,6 +85,7 @@ This desugars to:
         $obj;
     }
 
+
 **** The Atari 800 docs definied error code to mean:  "Device NAK".
 
  
@@ -173,8 +174,6 @@ This desugars to:
  
 ** announcements 
 *** next meetings (no reason to deviate from 'every two weeks')
-**** July 28th
-**** Aug 11th
 **** Aug 25th
 **** Sep 8th
 **** Sep 22
