@@ -43,7 +43,7 @@ happy-birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack !
 
 ## Need to comment out the *other* arity zero to get this to run
 multi happy-birthday() {
-     say "Happy Birthday to ***you***!";
+     say "Happy Birthday to ***you***!";  #  Happy Birthday to ***you***!
 }
 
 happy-birthday();
