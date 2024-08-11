@@ -28,3 +28,8 @@ multi ecch (Numeric $n) {
 }
 
 ecch( 3e-3 ); # 1: we've got a Num type 0.003
+
+
+multi ecch (Real $n) { 
+    say "Real: we've got an Real type $n";
+}
