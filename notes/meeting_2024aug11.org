@@ -15,6 +15,7 @@
 *** multidispatch
 **** sigs: two slurps, first wins
 **** can you do named slurps?
+*** Rob's Heisenbug
 
 ** old topics
 
