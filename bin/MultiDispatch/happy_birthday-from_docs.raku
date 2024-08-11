@@ -42,7 +42,7 @@ happy-birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack !
 
 
 ## Need to comment out the *other* arity zero to get this to run
-multi method happy-birthday() {
+multi sub happy-birthday() {
      say "Happy Birthday to ***you***!";  #  Happy Birthday to ***you***!
 }
 
