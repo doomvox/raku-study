@@ -47,7 +47,7 @@ happy-birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack !
   }
 
   happy-birthday();
-  happy-birthday('Godzilla!');
+  # happy-birthday('Godzilla!'); # Calling happy-birthday(Str) will never work with declared signature ()
 }
 
 
