@@ -19,8 +19,9 @@
 *** Rob's Heisenbug
 **** runme modules, detect whether they're at top-level call frame
 
-
-
+*** bill
+**** stackexchange
+***** 
 
 ** old topics
 
