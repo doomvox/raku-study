@@ -18,7 +18,6 @@ ecch( 3 );  #  Int: we've got an Int type 3
 multi ecch (Rat $n) { 
     say "Rat: we've got an Rat type $n";
 }
-
 ecch( 3.3 );   # Rat: we've got an Rat type 3.3
 
 multi ecch (Numeric $n) { 
