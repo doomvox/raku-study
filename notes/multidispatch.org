@@ -20,7 +20,7 @@
 | I | Inception        | Order of definition                                  | problematic: even as tie-breaker |
 
 ****** my comments:
-******* a tight explanation with clear examples, but it takes a half hour 
+******* a tight explanation with clear examples, but it takes a half hour (of a 1.5 hr talk)
 ******** examples are in perl: steal them and rakuize them?
 ******* some principles are positive (reasons to promote), some read better as negative
 ******* why are E and F separate?  (Hard to write a clear summary: not a good sign?)
