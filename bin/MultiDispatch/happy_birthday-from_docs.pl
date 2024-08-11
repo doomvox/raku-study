@@ -2,7 +2,9 @@
 # 
 # happy_birthday-from_docs.raku            11 Aug 2024 
 
-use 5.30;
+use 5.30; 
+
+use Multi::Dispatch;
 
 ## Trying to translate a raku example into perl, from:
 ##  https://docs.raku.org/language/functions#Multi-dispatch
