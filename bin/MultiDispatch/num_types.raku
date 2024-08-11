@@ -9,7 +9,7 @@ multi ecch (Num $n) {
     say "1: we've got a Num type $n";
 }
 
-multi ecch ( Cool(Int) $n) { 
+multi ecch ( Int(Cool) $n) { 
     say "Int: we've got an Int type $n";
 }
 
