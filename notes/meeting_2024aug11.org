@@ -175,7 +175,7 @@ This desugars to:
 ** announcements 
 *** next meetings (no reason to deviate from 'every two weeks')
 **** Aug 25th
-**** Sep 8th
+**** Sep 8th   (tentative-- recruit a stand-in?)
 **** Sep 22
 **** Oct 6
 **** Oct 20
