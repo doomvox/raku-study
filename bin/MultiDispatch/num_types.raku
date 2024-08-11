@@ -5,11 +5,14 @@
 use v6;
 
 
-multi (Num $n) { 
+multi ecch (Num $n) { 
     say "1: we've got a Num type $n";
 }
 
 
-multi (Int $n) { 
+multi ecch (Int $n) { 
     say "Int: we've got an Int type $n";
 }
+
+
+
