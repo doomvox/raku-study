@@ -37,6 +37,7 @@
 ******** it's not covered by the test suite (aka 'the spec')
 ********* I tried to add a test: the pull request has been ignored
 *** DCONWAY's Multi::Dispatch
-**** Dependencies: PPR, Keyword::Simple, Algorithm::FastPermute
-**** my current perl version: 5.32.1
+**** dependencies: PPR, Keyword::Simple, Algorithm::FastPermute
+**** my current perl version: 5.32.1 
+***** latest: 5.40
 
