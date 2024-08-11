@@ -47,6 +47,4 @@ happy-birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack !
   }
 }
 
-
-
 happy-birthday();
