@@ -9,7 +9,7 @@ multi ecch (Num $n) {
     say "1: we've got a Num type $n";
 }
 
-multi ecch (Int $n) { 
+multi ecch (Cool(Int) $n) { 
     say "Int: we've got an Int type $n";
 }
 
@@ -28,4 +28,4 @@ multi ecch (Real $n) {
 ecch( 3 );     #  Int: we've got an Int type 3
 ecch( 3.3 );   #  Rat: we've got an Rat type 3.3
 ecch( 3e-3 );  #  1: we've got a Num type 0.003
-ecch( 0.003 ); #  1: we've got a Num type 0.003
+ecch( 0.003 ); #  Rat: we've got an Rat type 0.003
