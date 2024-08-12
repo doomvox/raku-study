@@ -16,7 +16,7 @@ multi happy_birthday( $name ) {
  
 # version 2 
 multi happy_birthday( $name, $age ) {
-    say "Happy {$age}th Birthday $name !";
+    say "Happy @{[$age]}th Birthday $name !";
 }
  
 # version 3 
