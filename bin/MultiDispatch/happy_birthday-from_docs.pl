@@ -23,7 +23,7 @@ multi happy_birthday( $name, $age ) {
 # multi happy_birthday( :$name, :$age, :$title  = 'Mr' ) {
 multi happy_birthday( {name=>$name, age=>$age, title=>$title  = 'Mr' } ) {
 
-    say "Happy {$age}th Birthday $title $name !";
+    say "Happy @{[$age]}th Birthday $title $name !";
 }
 
 
