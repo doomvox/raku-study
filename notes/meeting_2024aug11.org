@@ -20,6 +20,7 @@
 ***** my notes, e.g. on Conway's "The Once and Future Perl" from TPRC2024
 ****** https://github.com/doomvox/raku-study/blob/main/notes/multidispatch.org
 ***** code examples are in an unusual location:
+****** https://github.com/doomvox/raku-study/bin/MultiDispatch
 
 *** Rob's Heisenbug
 **** runme modules, detect whether they're at top-level call frame
