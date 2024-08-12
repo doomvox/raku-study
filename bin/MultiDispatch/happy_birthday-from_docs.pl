@@ -34,15 +34,9 @@ happy_birthday 'Larry';                        # Happy Birthday Larry !
 happy_birthday 'Luca', 40;                     # Happy 40th Birthday Luca ! 
 # calls version 3 
 # (named arguments win against arity) 
-happy_birthday( age => '50', name => 'John' ); # Happy 50th Birthday Mr John ! 
+happy_birthday( { age => '50', name => 'John' } ); # Happy 50th Birthday Mr John ! 
 # calls version 2 (arity) 
 happy_birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack ! 
 
 
-# The version 3 point "(named arguments win against arity)"
-# is raku-specific:  the signature asks for two *pairs* (the third is optional)
-# Perl would think of that as a list of 4 items, "key1, val1, key2, val2".
-
-# I think this is Conways "C is for Constraint",
-# the type of the args is used to choose which of the twofers wins.
-
+           multi handle( { cmd=>'delete', ID=>$ID }                    ) {...}
