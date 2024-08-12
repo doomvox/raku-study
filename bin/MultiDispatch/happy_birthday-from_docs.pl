@@ -24,7 +24,7 @@ multi happy_birthday( $name, $age ) {
 multi happy_birthday( {name=>$name, age=>$age, title=>$title  = 'Mr' } ) {
     say "Happy @{[$age]}th Birthday $title $name !";
 }
-## Note, using "hash destructuring" feature here, 
+## Note, using "hash destructuring" here, 
 ## syntax differs from Raku's named arguments
 
 # calls version 1 (arity) 
