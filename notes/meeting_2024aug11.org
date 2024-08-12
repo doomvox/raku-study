@@ -11,7 +11,6 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jul28.org
 
 ** this meetings topics
-*** whatever
 *** multidispatch
 **** sigs: two slurps, first wins
 **** can you do named slurps?
