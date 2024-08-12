@@ -29,6 +29,7 @@ multi happy_birthday( {name=>$name, age=>$age, title=>$title  = 'Mr' } ) {
 
 
 
+
 ## maybe hash destructuring
 #           multi mysort ({fold=>1,  %opt}, @data) { mysort {%opt, key => \&CORE::fc}, @data }
 
@@ -38,10 +39,12 @@ happy_birthday 'Larry';                        # Happy Birthday Larry !
 # calls version 2 (arity) 
 happy_birthday 'Luca', 40;                     # Happy 40th Birthday Luca ! 
 # calls version 3 
-# (named arguments win against arity) 
 happy_birthday( { age => '50', name => 'John' } ); # Happy 50th Birthday Mr John ! 
 # calls version 2 (arity) 
 happy_birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack ! 
 
 
-
+Happy Birthday Larry !
+Happy 40th Birthday Luca !
+Happy 50th Birthday Mr John !
+Happy 25th Birthday Jack !
