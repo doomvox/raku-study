@@ -14,7 +14,7 @@ multi ecch ( Int $n) {
 }
 
 multi ecch (Rat $n) { 
-    say "Rat: we've got an Rat type $n";
+    say "Rat: we've got a Rat type $n";
 }
 
 multi ecch (Numeric $n) { 
