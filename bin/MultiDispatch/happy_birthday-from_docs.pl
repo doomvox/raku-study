@@ -20,9 +20,16 @@ multi happy_birthday( $name, $age ) {
 }
  
 # version 3 
-multi happy_birthday( :$name, :$age, :$title  = 'Mr' ) {
+# multi happy_birthday( :$name, :$age, :$title  = 'Mr' ) {
+multi happy_birthday( {name=>$name, age=>$age, :$title  = 'Mr' ) {
+
+           multi handle( { cmd=>'delete', ID=>$ID }                    ) {...}
+
     say "Happy {$age}th Birthday $title $name !";
 }
+
+
+
 
 ## maybe hash destructuring
 #           multi mysort ({fold=>1,  %opt}, @data) { mysort {%opt, key => \&CORE::fc}, @data }
@@ -39,4 +46,4 @@ happy_birthday( { age => '50', name => 'John' } ); # Happy 50th Birthday Mr John
 happy_birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack ! 
 
 
-           multi handle( { cmd=>'delete', ID=>$ID }                    ) {...}
+
