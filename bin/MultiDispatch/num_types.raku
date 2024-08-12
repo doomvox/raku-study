@@ -18,17 +18,17 @@ multi ecch (Rat $n) {
 }
 
 multi ecch (Numeric $n) { 
-    say "Numeric: we've got an Numeric type $n";
+    say "Numeric: we've got a Numeric type $n";
 }
 
 multi ecch (Real $n) { 
-    say "Real: we've got an Real type $n";
+    say "Real: we've got a Real type $n";
 }
 
 ecch( 3 );     #  Int: we've got an Int type 3
-ecch( 3.3 );   #  Rat: we've got an Rat type 3.3
+ecch( 3.3 );   #  Rat: we've got a Rat type 3.3
 ecch( 3e-3 );  #  1: we've got a Num type 0.003
-ecch( 0.003 ); #  Rat: we've got an Rat type 0.003
+ecch( 0.003 ); #  Rat: we've got a Rat type 0.003
 
 my Cool $i;
 $i = 3e-3;
