@@ -44,7 +44,7 @@ happy_birthday( { age => '50', name => 'John' } ); # Happy 50th Birthday Mr John
 happy_birthday( 'Jack', 25 );                  # Happy 25th Birthday Jack ! 
 
 
-Happy Birthday Larry !
-Happy 40th Birthday Luca !
-Happy 50th Birthday Mr John !
-Happy 25th Birthday Jack !
+# Happy Birthday Larry !
+# Happy 40th Birthday Luca !
+# Happy 50th Birthday Mr John !
+# Happy 25th Birthday Jack !
