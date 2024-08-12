@@ -22,18 +22,11 @@ multi happy_birthday( $name, $age ) {
 # version 3 
 # multi happy_birthday( :$name, :$age, :$title  = 'Mr' ) {
 multi happy_birthday( {name=>$name, age=>$age, title=>$title  = 'Mr' } ) {
-
     say "Happy @{[$age]}th Birthday $title $name !";
 }
+## Note, using "hash destructuring" feature here, 
+## syntax differs from Raku's named arguments
 
-
-
-
-
-## maybe hash destructuring
-#           multi mysort ({fold=>1,  %opt}, @data) { mysort {%opt, key => \&CORE::fc}, @data }
-
- 
 # calls version 1 (arity) 
 happy_birthday 'Larry';                        # Happy Birthday Larry ! 
 # calls version 2 (arity) 
