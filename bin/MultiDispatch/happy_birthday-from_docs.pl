@@ -21,7 +21,7 @@ multi happy_birthday( $name, $age ) {
  
 # version 3 
 # multi happy_birthday( :$name, :$age, :$title  = 'Mr' ) {
-multi happy_birthday( {name=>$name, age=>$age, :$title  = 'Mr' ) {
+multi happy_birthday( {name=>$name, age=>$age, title=>$title  = 'Mr' ) {
 
            multi handle( { cmd=>'delete', ID=>$ID }                    ) {...}
 
