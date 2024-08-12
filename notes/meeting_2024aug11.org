@@ -19,6 +19,7 @@
 ***** https://www.youtube.com/watch?v=0x9LD8oOmv0&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=8
 ***** my notes, e.g. on Conway's "The Once and Future Perl" from TPRC2024
 ****** https://github.com/doomvox/raku-study/blob/main/notes/multidispatch.org
+***** code examples are in an unusual location:
 
 *** Rob's Heisenbug
 **** runme modules, detect whether they're at top-level call frame
