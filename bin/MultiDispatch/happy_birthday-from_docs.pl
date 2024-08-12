@@ -23,8 +23,6 @@ multi happy_birthday( $name, $age ) {
 # multi happy_birthday( :$name, :$age, :$title  = 'Mr' ) {
 multi happy_birthday( {name=>$name, age=>$age, title=>$title  = 'Mr' ) {
 
-           multi handle( { cmd=>'delete', ID=>$ID }                    ) {...}
-
     say "Happy {$age}th Birthday $title $name !";
 }
 
