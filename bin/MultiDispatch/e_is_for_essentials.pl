@@ -24,13 +24,13 @@ use strict;
 $|=1;
 use Data::Dumper;
 
-## Based on Conway's Essentials slide:
+## Based on Conways Essentials slide:
 
 use Multi::Dispatch;
 
-multi cmp ( $i, $j, $k = 0 ) { ... };
-multi cmp ( $i, $j = 0, $k = 0 ) { ... };
-multi cmp ( $i = 0, $j = 0, $k = 0 ) { ... };
+multi cmp ( $i,     $j,     $k = 0 ) { guts( "1: ", $i, $j, $k ) };
+multi cmp ( $i,     $j = 0, $k = 0 ) { guts( "2: ", $i, $j, $k ) };
+multi cmp ( $i = 0, $j = 0, $k = 0 ) { guts( "3: ", $i, $j, $k ) };
 
 
 
