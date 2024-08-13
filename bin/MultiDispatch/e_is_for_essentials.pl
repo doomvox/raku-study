@@ -25,6 +25,7 @@ $|=1;
 use Data::Dumper;
 
 use feature "signatures";
+no warnings 'experimental::signatures';
 
 ## Based on Conways Essentials slide:
 
