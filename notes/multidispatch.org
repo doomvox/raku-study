@@ -13,7 +13,7 @@
 | B | Beforehandedness | :before                                              |                                  |   |
 | C | Constraint       | Types/Classes of args: try most derived first        |                                  |   |
 | D | Destructuring    | multi xxx ( Int [$i, $j] ) {...}                     | Doesn't translate to Raku (?)    |   |
-| E | Essentials       | More required  (non-optional) args                   |                                  | + |
+| E | Essentials       | More required (non-optional) args                    |                                  | + |
 | F | Facultativity    | More additional optional arguments                   |                                  | + |
 | G | Greed            | Slurpies are less specific, demote 'greedy' versions |                                  |   |
 | H | Heredity         | For methods, most derived method wins                |                                  |   |
