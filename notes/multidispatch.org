@@ -38,7 +38,7 @@
 ********* I tried to add a test: the pull request has been ignored
 ******* not as simple as a cascade where the last is always invoked when all else fails
 ******** "Cannot resolve ... none of these signatures matches"
-******** in some cases order-of-definition does not resolve ambiguities, in others it does
+******** In some cases order-of-definition does not resolve ambiguities, in others it does
 
 *** DCONWAY's Multi::Dispatch
 **** dependencies: PPR, Keyword::Simple, Algorithm::FastPermute
