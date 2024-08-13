@@ -27,8 +27,8 @@ use Data::Dumper;
 use List::Util      qw( first max maxstr min minstr reduce shuffle sum any );
 use List::MoreUtils qw( zip uniq );
 
-# use feature "signatures";
-# no warnings 'experimental::signatures';
+use feature "signatures";
+no warnings 'experimental::signatures';
 
 ## Based on Conways Essentials slide:
 
@@ -67,6 +67,9 @@ __END__
 =head1 NOTES
 
 This machine has a slightly old perl 5.31 (current latest: 5.40).
+Without the explicit feature "signatures", get an unfortunately confusing warning:
+
+   Illegal character in prototype for main::guts :  $label, $i, $j, $k  at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/MultiDispatch/e_is_for_essentials.pl line 41.
 
 
 
