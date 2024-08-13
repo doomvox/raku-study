@@ -8,16 +8,16 @@
 ***** @48:50: multidispatch call resolution
 ***** @52:00: ABCDEFGHI
 ****** central idea: call the 'most specific' option
-|---+------------------+------------------------------------------------------+----------------------------------|
-| A | Arity            |                                                      |                                  |
-| B | Beforehandedness | :before                                              |                                  |
-| C | Constraint       | Types/Classes of args: try most derived first        |                                  |
-| D | Destructuring    | multi xxx ( Int [$i, $j] ) {...}                     | Doesn't translate to Raku (?)    |
-| E | Essentials       | How many args are required                           |                                  |
-| F | Facultativity    | More arguments that are optional                     |                                  |
-| G | Greed            | Slurpies are less specific, demote 'greedy' versions |                                  |
-| H | Heredity         | For methods, most derived method wins                |                                  |
-| I | Inception        | Order of definition                                  | problematic: even as tie-breaker |
+|---+------------------+------------------------------------------------------+----------------------------------+---|
+| A | Arity            |                                                      |                                  |   |
+| B | Beforehandedness | :before                                              |                                  |   |
+| C | Constraint       | Types/Classes of args: try most derived first        |                                  |   |
+| D | Destructuring    | multi xxx ( Int [$i, $j] ) {...}                     | Doesn't translate to Raku (?)    |   |
+| E | Essentials       | More required  (non-optional) args                   |                                  | + |
+| F | Facultativity    | More additional optional arguments                   |                                  | + |
+| G | Greed            | Slurpies are less specific, demote 'greedy' versions |                                  |   |
+| H | Heredity         | For methods, most derived method wins                |                                  |   |
+| I | Inception        | Order of definition                                  | problematic: even as tie-breaker |   |
 
 ****** my comments:
 ******* a tight explanation with clear examples, but it takes a half hour (of a 1.5 hr talk)
