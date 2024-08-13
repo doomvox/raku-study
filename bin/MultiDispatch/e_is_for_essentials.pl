@@ -49,10 +49,10 @@ sub guts ( $label, $i, $j, $k ) {
 }
 
 
-exm( 7 );
-exm( 7, 3 ); 
-exm( 2, 7, 3 ); 
-exm();
+exm( 7 );         # calls "2"
+exm( 7, 3 );      # calls "1"
+exm( 2, 7, 3 );   # calls "1"
+exm();            # calls "3"
 
 # 2:   i: 7  j: 0   k: 0
 # largest  is: 7
