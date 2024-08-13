@@ -37,9 +37,9 @@ use Multi::Dispatch;
 # exm: examine the arguments
 multi exm ( $i,     $j = 0, $k = 0 ) { guts( "1: ", $i, $j, $k ) };
 # multi exm ( $i,     $j = 0         ) { guts( "2: ", $i, $j, $k ) };  # There's no $k!
-multi exm ( $i,     $j = 0         ) { guts( "2: ", $i, $j       ) };
+multi exm ( $i,     $j = 0         ) { guts( "2: ", $i, $j, '0'  ) };
 # multi exm ( $i,                    ) { guts( "3: ", $i, $j, $k ) };
-multi exm ( $i,                    ) { guts( "3: ", $i           ) };  # Here just have $i.
+multi exm ( $i,                    ) { guts( "3: ", $i, '0', '0' ) };  # Here just have $i.
 
 # the guts of "exm"
 sub guts ( $label, $i, $j, $k ) {
