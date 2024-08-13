@@ -24,7 +24,7 @@ use strict;
 $|=1;
 use Data::Dumper;
 
-use List::Util qw( max, min );
+use List::Utils qw( max, min );
 
 use feature "signatures";
 no warnings 'experimental::signatures';
