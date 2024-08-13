@@ -12,7 +12,7 @@
 | A | Arity            |                                                      |                                  |
 | B | Beforehandedness | :before                                              |                                  |
 | C | Constraint       | Types/Classes of args: try most derived first        |                                  |
-| D | Destructuring    | multi xxx ( Int [$i, $j] ) {...}                     |                                  |
+| D | Destructuring    | multi xxx ( Int [$i, $j] ) {...}                     | Doesn't translate to Raku (?)    |
 | E | Essentials       | How many args are required                           |                                  |
 | F | Facultativity    | More arguments that are optional                     |                                  |
 | G | Greed            | Slurpies are less specific, demote 'greedy' versions |                                  |
