@@ -78,7 +78,10 @@ __END__
 
 Note: written for a machine with a slightly old perl: 5.31 (current latest: 5.40).
 
-
+Started with code from e_is_for_essentials.pl, 
+but using the one "guts" routine is complicated, no longer 
+have all three of $i, $j, $k to pass to it.  
+Using explicit '0' passing as a work-around.
 
 
 =head1 AUTHOR
