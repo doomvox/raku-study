@@ -35,8 +35,12 @@ no warnings 'experimental::signatures';  ## needed up to perl 5.36
 use Multi::Dispatch;
 
 # exm: examine the arguments
+multi exm ( $i,     $j = 0, $k = 0 ) { guts( "1: ", $i, $j, $k ) };
+multi exm ( $i,     $j = 0,        ) { guts( "2: ", $i, $j, $k ) };
+multi exm ( $i,                    ) { guts( "3: ", $i, $j, $k ) };
+
 multi exm ( $i,     $j,     $k = 0 ) { guts( "1: ", $i, $j, $k ) };
-multi exm ( $i,     $j = 0, $k = 0 ) { guts( "2: ", $i, $j, $k ) };
+
 multi exm ( $i = 0, $j = 0, $k = 0 ) { guts( "3: ", $i, $j, $k ) };
 
 # the guts of "exm"
