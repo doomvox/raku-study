@@ -27,8 +27,8 @@ use Data::Dumper;
 use List::Util      qw( first max maxstr min minstr reduce shuffle sum any );
 use List::MoreUtils qw( zip uniq );
 
-use feature "signatures";
-no warnings 'experimental::signatures';
+# use feature "signatures";
+# no warnings 'experimental::signatures';
 
 ## Based on Conways Essentials slide:
 
@@ -51,7 +51,24 @@ exm( 7, 3 );
 exm( 2, 7, 3 ); 
 
 
+# 2:   i: 7  j: 0   k: 0
+# largest  is: 7
+# smallest is: 0
+# 1:   i: 7  j: 3   k: 0
+# largest  is: 7
+# smallest is: 0
+# 1:   i: 2  j: 7   k: 3
+# largest  is: 7
+# smallest is: 2
+
+
 __END__
+
+=head1 NOTES
+
+This machine has a slightly old perl 5.31 (current latest: 5.40).
+
+
 
 =head1 AUTHOR
 
