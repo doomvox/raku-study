@@ -90,7 +90,7 @@ which can get you very wrong behavior:
   Ambiguous call resolved as CORE::cmp(), qualify as such or use & at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/MultiDispatch/e_is_for_essentials.pl line 48.
 
 
-Note: the first multi is callded for *both* the two areg case and the three arg case
+Note: the first multi is called for *both* the two areg case and the three arg case
 
 
 =head1 AUTHOR
