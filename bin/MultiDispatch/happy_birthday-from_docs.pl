@@ -21,7 +21,7 @@ multi happy_birthday( $name, $age ) {
  
 # version 3 
 # multi happy_birthday( :$name, :$age, :$title  = 'Mr' ) {
-multi happy_birthday( {name=>$name, age=>$age, title=>$title  = 'Mr' } ) {
+multi happy_birthday( { name=>$name, age=>$age, title=>$title  = 'Mr' } ) {
     say "Happy @{[$age]}th Birthday $title $name !";
 }
 ## Note, using "hash destructuring" here, 
