@@ -76,7 +76,7 @@ __END__
 
 =head1 NOTES
 
-Note: written for a machine with a slightly old perl: 5.31 (current latest: 5.40).
+Note: written for a machine with a slightly old perl: 5.32 (current latest: 5.40).
 
 Started with code from e_is_for_essentials.pl, 
 but using the one "guts" routine is difficult:
