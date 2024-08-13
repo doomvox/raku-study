@@ -35,9 +35,9 @@ no warnings 'experimental::signatures';  ## needed up to perl 5.36
 
 use Multi::Dispatch;
 
-multi exm ( Int $klref, $kl_ref, $l] ) { ... }
-multi exm ( Int [$i, $j], $kl_ref, $l] ) { ... }
-multi exm ( Int [$i, $j], [$k, $l] ) { ... }
+multi exm ( Int $klref, $kl_ref, $l] ) { ... };
+multi exm ( Int [$i, $j], $kl_ref, $l] ) { ... };
+multi exm ( Int [$i, $j], [$k, $l] ) { ... };
 
 
 
