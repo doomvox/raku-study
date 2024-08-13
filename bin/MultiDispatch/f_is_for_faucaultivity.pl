@@ -51,16 +51,16 @@ sub guts ( $label, $i, $j, $k ) {
 }
 
 
-exm( 7 );         # calls "2"
-exm( 7, 3 );      # calls "1"
+exm( 7 );         # calls "3"
+exm( 7, 3 );      # calls "2"
 exm( 2, 7, 3 );   # calls "1"
-exm();            # calls "3"
+exm();            # calls nothing
 
-# 2:   i: 7  j: 0   k: 0
+# 3:   i: 7  j: 0   k: 0
 # largest  is: 7
 # smallest is: 0
 
-# 1:   i: 7  j: 3   k: 0
+# 2:   i: 7  j: 3   k: 0
 # largest  is: 7
 # smallest is: 0
 
@@ -68,10 +68,9 @@ exm();            # calls "3"
 # largest  is: 7
 # smallest is: 2
 
-# 3:   i: 0  j: 0   k: 0
-# largest  is: 0
-# smallest is: 0
-
+# No suitable variant for call to multi exm()
+# with arguments: ()
+# at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/MultiDispatch/f_is_for_faucaultivity.pl line 57
 
 __END__
 
