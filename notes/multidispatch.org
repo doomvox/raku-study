@@ -23,7 +23,7 @@
 ******* a tight explanation with clear examples, but it takes a half hour (of a 1.5 hr talk)
 ******** examples are in perl: steal them and rakuize them?
 ******* some principles are positive (reasons to promote), some read better as negative
-******* why are E and F separate?  (Hard to write a clear summary: not a good sign?)
+******* Hard to write a clear summary of E and F, you need the code examples (not a good sign?)
 ******* Down at at 'H' we're suddently looking at the methods not the arguments
 ******** no objection, but might that confuse?  What if you expected H up around C?
 ******** verify it works like this in Raku
