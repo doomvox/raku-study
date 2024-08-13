@@ -34,4 +34,4 @@ my Cool $i;
 $i = 3e-3;
 ecch( $i );    #  1: we've got a Num type 0.003
 
-## Conway's Constraint slide, tries rules in order of specifity, so:  Int -> Num -> Str
+## Conway's Constraint slide: tries rules in order of specifity, so:  Int -> Num -> Str
