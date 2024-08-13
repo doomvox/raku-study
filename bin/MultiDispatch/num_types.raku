@@ -33,3 +33,5 @@ ecch( 0.003 ); #  Rat: we've got a Rat type 0.003
 my Cool $i;
 $i = 3e-3;
 ecch( $i );    #  1: we've got a Num type 0.003
+
+## Conway's Constraint slide has try Int -> Num -> Str
