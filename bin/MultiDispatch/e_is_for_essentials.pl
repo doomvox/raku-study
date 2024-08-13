@@ -24,7 +24,7 @@ use strict;
 $|=1;
 use Data::Dumper;
 
-use List::Util qw( max, min );
+use List::Util      qw( first max maxstr min minstr reduce shuffle sum any );
 
 use feature "signatures";
 no warnings 'experimental::signatures';
