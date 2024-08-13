@@ -57,16 +57,21 @@ exm( 2, 7, 3 );
 
 exm();
 
-
 # 2:   i: 7  j: 0   k: 0
 # largest  is: 7
 # smallest is: 0
+
 # 1:   i: 7  j: 3   k: 0
 # largest  is: 7
 # smallest is: 0
+
 # 1:   i: 2  j: 7   k: 3
 # largest  is: 7
 # smallest is: 2
+
+# 3:   i: 0  j: 0   k: 0
+# largest  is: 0
+# smallest is: 0
 
 
 __END__
