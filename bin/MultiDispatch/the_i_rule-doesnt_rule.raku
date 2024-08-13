@@ -15,6 +15,6 @@ multi sub speak (IntStr $s) {
 
 speak("3"); # 1: Str, 3
 
-# speak(7);  # Cannot resolve caller speak(Int:D); none of these signatures matches:
+speak(7);  # Cannot resolve caller speak(Int:D); none of these signatures matches:
 
-speak(7.IntStr);  # Cannot resolve caller speak(Int:D); none of these signatures matches:
+
