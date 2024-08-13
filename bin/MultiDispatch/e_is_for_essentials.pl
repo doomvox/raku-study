@@ -24,6 +24,8 @@ use strict;
 $|=1;
 use Data::Dumper;
 
+use feature "signatures";
+
 ## Based on Conways Essentials slide:
 
 use Multi::Dispatch;
