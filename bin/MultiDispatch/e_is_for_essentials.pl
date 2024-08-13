@@ -49,11 +49,11 @@ sub guts ( $label, $i, $j, $k ) {
 
 
 exm( 7 );
-say;
+
 exm( 7, 3 ); 
-say;
+
 exm( 2, 7, 3 ); 
-say;
+
 
 # 2:   i: 7  j: 0   k: 0
 # largest  is: 7
