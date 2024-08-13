@@ -24,7 +24,7 @@ use strict;
 $|=1;
 use Data::Dumper;
 
-## Based on Damien Conways Essentials slide:
+## Based on Conway's Essentials slide:
 
 use Multi::Dispatch;
 
