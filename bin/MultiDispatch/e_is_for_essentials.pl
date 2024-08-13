@@ -50,11 +50,8 @@ sub guts ( $label, $i, $j, $k ) {
 
 
 exm( 7 );
-
 exm( 7, 3 ); 
-
 exm( 2, 7, 3 ); 
-
 exm();
 
 # 2:   i: 7  j: 0   k: 0
