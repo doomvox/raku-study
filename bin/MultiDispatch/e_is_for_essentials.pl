@@ -24,8 +24,13 @@ use strict;
 $|=1;
 use Data::Dumper;
 
+## Based on Damien Conways Essentials slide:
+
 use Multi::Dispatch;
 
+multi cmp ( $i, $j, $k = 0 ) { ... };
+multi cmp ( $i, $j = 0, $k = 0 ) { ... };
+multi cmp ( $i = 0, $j = 0, $k = 0 ) { ... };
 
 
 
