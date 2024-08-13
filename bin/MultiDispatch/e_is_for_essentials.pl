@@ -75,7 +75,7 @@ __END__
 
 =head1 NOTES
 
-Note: this machine has a slightly old perl 5.31 (current latest: 5.40).
+Note: written for a machine with a slightly old perl 5.31 (current latest: 5.40).
 
 Without the explicit feature "signatures", gets LTA warning:
 
