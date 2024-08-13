@@ -37,7 +37,6 @@ sub guts ($label, $i, $j, $k) {
 
   say "largest  is: ", max( $i, $j, $k );
   say "smallest is: ", min( $i, $j, $k );
-
 }
 
 
