@@ -27,7 +27,7 @@ use Data::Dumper;
 use List::Util      qw( first max maxstr min minstr reduce shuffle sum any );
 use List::MoreUtils qw( zip uniq );
 
-# use feature "signatures";
+use feature "signatures";
 no warnings 'experimental::signatures';  ## needed up to perl 5.36
 
 ## Based on Conways Essentials slide:
