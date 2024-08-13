@@ -77,7 +77,7 @@ __END__
 
 Note: written for a machine with a slightly old perl: 5.31 (current latest: 5.40).
 
-Without the explicit feature "signatures", gets LTA warning:
+Without the explicit feature "signatures", you get this LTA warning:
 
    Illegal character in prototype for main::guts :  $label, $i, $j, $k  at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/MultiDispatch/e_is_for_essentials.pl line 41.
 
