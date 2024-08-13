@@ -88,6 +88,8 @@ which can get you very wrong behavior:
   Ambiguous call resolved as CORE::cmp(), qualify as such or use & at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/MultiDispatch/e_is_for_essentials.pl line 48.
 
 
+I thought using Multi::Dispatch would turn on the signatures feature, 
+but evidently not.
 
 =head1 AUTHOR
 
