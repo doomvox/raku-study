@@ -31,9 +31,9 @@ no warnings 'experimental::signatures';
 
 use Multi::Dispatch;
 
-multi cmp ( $i,     $j,     $k = 0 ) { guts( "1: ", $i, $j, $k ) };
-multi cmp ( $i,     $j = 0, $k = 0 ) { guts( "2: ", $i, $j, $k ) };
-multi cmp ( $i = 0, $j = 0, $k = 0 ) { guts( "3: ", $i, $j, $k ) };
+multi exm ( $i,     $j,     $k = 0 ) { guts( "1: ", $i, $j, $k ) };
+multi exm ( $i,     $j = 0, $k = 0 ) { guts( "2: ", $i, $j, $k ) };
+multi exm ( $i = 0, $j = 0, $k = 0 ) { guts( "3: ", $i, $j, $k ) };
 
 sub guts ( $label, $i, $j, $k ) {
   say "$label  i: $i  j: $j   k: $k";
@@ -43,9 +43,9 @@ sub guts ( $label, $i, $j, $k ) {
 }
 
 
-cmp( 7 );
-cmp( 7, 3 ); 
-cmp( 2, 7, 3 ); 
+exm( 7 );
+exm( 7, 3 ); 
+exm( 2, 7, 3 ); 
 
 
 __END__
