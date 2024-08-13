@@ -32,6 +32,9 @@ multi cmp ( $i,     $j,     $k = 0 ) { guts( "1: ", $i, $j, $k ) };
 multi cmp ( $i,     $j = 0, $k = 0 ) { guts( "2: ", $i, $j, $k ) };
 multi cmp ( $i = 0, $j = 0, $k = 0 ) { guts( "3: ", $i, $j, $k ) };
 
+sub guts ($label, $i, $j, $k) {
+  say "$label  i: $i  j: $j   k: $k";
+}
 
 
 
