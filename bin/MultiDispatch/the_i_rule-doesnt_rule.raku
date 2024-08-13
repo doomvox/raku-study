@@ -15,4 +15,4 @@ multi sub speak (IntStr $s) {
 
 speak("3"); # 1: Str, 3
 
-speak(3); # 1: Str, 3
+speak(7); 
