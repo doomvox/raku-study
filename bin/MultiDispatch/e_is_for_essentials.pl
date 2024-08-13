@@ -34,6 +34,10 @@ multi cmp ( $i = 0, $j = 0, $k = 0 ) { guts( "3: ", $i, $j, $k ) };
 
 sub guts ($label, $i, $j, $k) {
   say "$label  i: $i  j: $j   k: $k";
+
+  say "largest  is: ", max( $i, $j, $k );
+  say "smallest is: ", min( $i, $j, $k );
+
 }
 
 
