@@ -40,6 +40,10 @@ sub guts ($label, $i, $j, $k) {
 }
 
 
+cmp( 7 );
+cmp( 7, 3 ); 
+cmp( 2, 7, 3 ); 
+
 
 __END__
 
