@@ -75,7 +75,7 @@ __END__
 
 =head1 NOTES
 
-This machine has a slightly old perl 5.31 (current latest: 5.40).
+Note: this machine has a slightly old perl 5.31 (current latest: 5.40).
 
 Without the explicit feature "signatures", gets LTA warning:
 
@@ -89,7 +89,9 @@ which can get you very wrong behavior:
 
 
 I thought using Multi::Dispatch would turn on the signatures feature, 
-but evidently not.
+but 'tis not so.
+
+
 
 =head1 AUTHOR
 
