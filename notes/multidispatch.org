@@ -41,7 +41,7 @@
 ******** In some cases order-of-definition does not resolve ambiguities, in others it does
 ******* "Destructuring" 
 ******** specific to perl5, isn't it?
-
+******** breaking down a conglomerate into named components automatically 
 
 *** DCONWAY's Multi::Dispatch
 **** dependencies: PPR, Keyword::Simple, Algorithm::FastPermute
