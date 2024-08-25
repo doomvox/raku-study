@@ -30,3 +30,11 @@ use v6;
 
     say first( @nothing );  # nada
 }
+
+{
+    sub first([$f, $g, $h]) { $f }
+
+    my @nothing  = < nada nope bupkes dorisday >;
+
+    say first( @nothing );  # nada
+}
