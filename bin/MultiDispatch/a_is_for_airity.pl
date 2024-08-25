@@ -33,15 +33,15 @@ no warnings 'experimental::signatures';  ## needed up to perl 5.36
 use Multi::Dispatch;
 
 
-multisub talk_to_me ( $a ) {
+multi talk_to_me ( $a ) {
   say "we got ONE argument";
 }
 
-multisub talk_to_me ( $a, $b ) {
+multi talk_to_me ( $a, $b ) {
   say "we got TWO arguments";
 }
 
-multisub talk_to_me ( @args* ) {
+multi talk_to_me ( @args* ) {
   say "looks like more than two args";
 }
 
