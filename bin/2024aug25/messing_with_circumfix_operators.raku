@@ -4,9 +4,14 @@
 
 use v6;
 
-
-sub circumfix:<START END>(*@elems) {
-    "start", @elems, "end"
+{
+    sub circumfix:<START END>(*@elems) {
+        "start", @elems, "end"
+    }
+    
+    say START 'a', 'b', 'c' END;        # (start [a b c] end)
 }
- 
-say START 'a', 'b', 'c' END;        # (start [a b c] end)
+
+{
+        say START 'a', 'b', 'c' END;        # (start [a b c] end)
+}
