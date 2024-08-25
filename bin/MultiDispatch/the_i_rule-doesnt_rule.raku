@@ -14,6 +14,3 @@ multi sub speak (Str $s) {
 
 speak("yes?");
 
-
-
-## TODO Need to rethink...
