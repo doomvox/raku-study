@@ -33,10 +33,13 @@ no warnings 'experimental::signatures';  ## needed up to perl 5.36
 use Multi::Dispatch;
 
 
-multi sub talk_to_me( $a ) {
+multi sub talk_to_me ( $a ) {
   say "we got one argument";
 }
 
+multi sub talk_to_me ( $a, $b ) {
+  say "we got one argument";
+}
 
 
 
