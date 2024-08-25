@@ -32,9 +32,9 @@ use v6;
 }
 
 {
-    sub first([$f, $g, $h where *.chars>5 ] ) { $f }
+    sub first([$f, $g, $h where *.chars>15 ] ) { $f }
 
-    my @nothing  = < nada nope   >;
+    my @nothing  = < nada nope bupkes  >;
 
     say first( @nothing );  
 
