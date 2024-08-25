@@ -8,8 +8,8 @@ multi sub speak (Str $s) {
     say "1: Str, $s"; 
 }
 
-multi sub speak (Str $s) {
-    say "2: ANOTHER Str, $s"; 
+multi sub speak (IntStr $s) {
+    say "2: IntStr, $s"; 
 }
 
 
