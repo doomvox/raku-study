@@ -14,7 +14,7 @@ use v6;
 }
 
 {
-    sub first([$f] { $f }
+    sub first([$f]) { $f }
 
     my @nothing  = < nada nope bupkes >;
 
