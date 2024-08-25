@@ -10,4 +10,4 @@ say $r.WHAT;  # (Range)
 
 say $r ~~ Positional; # True
 
-say $r ~~ Range; # True
+say $r ~~ Range;      # True
