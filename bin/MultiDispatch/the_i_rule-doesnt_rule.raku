@@ -14,7 +14,6 @@ multi sub speak (Str $s) {
 
 speak("yes?");
 
-
 # Ambiguous call to 'speak(Str)'; these signatures all match:
 #   (Str $s)
 #   (Str $s)
