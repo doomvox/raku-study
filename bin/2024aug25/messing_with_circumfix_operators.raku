@@ -29,4 +29,8 @@ use v6;
     }
     
     say START 'a', 'b', 'c' END;        # (start [a b c] end)
+
+    # well, let's begin again
+    START;  # let us begin!
+
 }
