@@ -11,6 +11,11 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024aug11.org
 
 ** topics
+
+https://theweeklychallenge.org/blog/perl-weekly-challenge-282
+https://theweeklychallenge.org/blog/perl-weekly-challenge-283
+
+
 *** bruce will be in, 1.5 hrs late
 *** next meeting on Sept 8 is an odd one: really need one or more stand-ins to "run" the meeting.
 
@@ -188,5 +193,6 @@ This desugars to:
 
 **** A big list of perl/raku events:
 ***** https://perlweekly.com/events
+
 
 
