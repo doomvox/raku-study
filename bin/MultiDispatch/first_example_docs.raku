@@ -32,7 +32,7 @@ use v6;
 }
 
 {
-    sub first([$f, $g, $h where * == 1 ] ) { $f }
+    sub first([$f, $g, $h where * == 'a' ] ) { $f }
 
     my @nothing  = < nada nope bupkes jerrylewis >;
 
