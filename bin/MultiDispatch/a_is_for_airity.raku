@@ -24,6 +24,10 @@ talk_to_me( "hey", "ho" );
 talk_to_me( "hey", "ho", "let's go" );
 
 
+we got ONE argument
+we got TWO arguments
+looks like more than two args
+
 
 
 
