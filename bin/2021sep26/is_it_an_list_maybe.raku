@@ -8,4 +8,4 @@ use v6;
 my $a = 'a';
 
 
-say $a.elems;
+say $a.elems; # 1
