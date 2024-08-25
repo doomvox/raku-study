@@ -32,7 +32,7 @@ use v6;
 }
 
 {
-    sub first([$f, $g, $h where *.length>5 ] ) { $f }
+    sub first([$f, $g, $h where *.chars>5 ] ) { $f }
 
     my @nothing  = < nada nope bupkes jerrylewis >;
 
