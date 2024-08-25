@@ -9,3 +9,4 @@ my $a = 'a';
 
 
 say $a.elems; # 1
+say $a.chars; # 1
