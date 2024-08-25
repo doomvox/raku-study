@@ -19,4 +19,4 @@ say "===";
 
 my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
 
-say @monsters.^methods>>.say;
+@monsters.^methods>>.say;
