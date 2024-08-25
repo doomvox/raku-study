@@ -46,6 +46,11 @@ multi sub talk_to_me ( @args* ) {
 }
 
 
+talk_to_me( "hey" );
+talk_to_me( "hey", "ho" );
+
+
+
 
 
 __END__
