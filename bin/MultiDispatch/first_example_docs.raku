@@ -34,7 +34,7 @@ use v6;
 {
     sub first([$f, $g, $h]) { $f }
 
-    my @nothing  = < nada nope bupkes dorisday >;
+    my @nothing  = < nada nope bupkes jerrylewis >;
 
     say first( @nothing );  # nada
 }
