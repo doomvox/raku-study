@@ -13,11 +13,8 @@ multi sub speak (Str $s) {
 }
 
 
-speak("3"); # 1: Str, 3
+speak("yes?");
 
-speak(7);  # Cannot resolve caller speak(Int:D); none of these signatures matches:
-           #    (Str $s)
-           #    (IntStr $s)
 
 
 ## TODO Need to rethink...
