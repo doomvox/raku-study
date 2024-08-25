@@ -48,10 +48,6 @@ talk_to_me( "hey", "ho" );
 
 
 
-# we got ONE argument
-# we got TWO arguments
-# looks like more than two args
-
 
 
 __END__
