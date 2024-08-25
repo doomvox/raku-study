@@ -38,4 +38,6 @@ use v6;
 
     say first( @nothing );  
 
+# Constraint type check failed in binding to parameter '$h'; expected anonymous constraint to be met but got Str ("bupkes")
+
 }
