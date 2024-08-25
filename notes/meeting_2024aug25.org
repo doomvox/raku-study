@@ -14,12 +14,11 @@
 *** bruce will be in, 1.5 hrs late
 *** next meeting on Sept 8 is an odd one: really need one or more stand-ins to "run" the meeting.
 
+*** multidispatch (joe)
+**** in some cases, raku can error out in an ambiguous call
+**** in others, it uses "inception" to sort it out.
+
 *** rob stuff
-*** joe stuff-- multidispatch
-
-
-
-
 
 ** last meetings topics
 *** multidispatch
