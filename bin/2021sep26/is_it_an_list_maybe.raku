@@ -22,4 +22,4 @@ my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
 @monsters.^methods>>.say;
 
 
-say @monsters.sin;
+say @monsters.sin;  # 0.6569865987187891
