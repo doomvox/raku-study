@@ -10,4 +10,5 @@ sub first([$f, *@]) { $f }
 
 my @nothing  = < nada nope bupkes >;
 
-say first( @nothing );
+say first( @nothing );  # nada
+
