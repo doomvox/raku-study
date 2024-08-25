@@ -13,4 +13,4 @@ say $a.chars; # 3
 
 say $a.WHAT;
 
-say $a.^methods;
+ $a.^methods>>.say;
