@@ -10,3 +10,5 @@ my $a = 'aaa>';
 
 say $a.elems; # 1
 say $a.chars; # 3
+
+say $a.WHAT;
