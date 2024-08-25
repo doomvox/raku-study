@@ -44,10 +44,12 @@ multi talk_to_me ( Str $a ) {
 
 talk_to_me( "hey" );  
 talk_to_me( "ho" );
-# talk_to_me( 3 );
 
-# we got ONE argument
-# we got ONE argument
+# No suitable variant for call to multi talk_to_me()
+# with arguments: ("hey")
+# at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/MultiDispatch/the_i_rule-doesnt_rule.pl line 45
+
+
 
 
 
