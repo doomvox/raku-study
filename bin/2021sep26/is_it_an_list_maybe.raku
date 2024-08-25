@@ -21,5 +21,6 @@ my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
 
 @monsters.^methods>>.say;
 
+say "===";
 
 say @monsters.sin;  # 0.6569865987187891
