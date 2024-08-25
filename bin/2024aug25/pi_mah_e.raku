@@ -14,5 +14,5 @@ say (𝑒..π).WHAT;
 say (𝑒..π)[2]; # Nil
 
 if ( 2.8 ~~ (𝑒..π) ) {
-    say "a hit";
+    say "a hit";  # a hit
 }
