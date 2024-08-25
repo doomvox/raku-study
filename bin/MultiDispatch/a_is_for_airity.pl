@@ -18,7 +18,7 @@ enough to leave the stub unedited.
 
 =cut
 
-use 5.10.0;
+use 5.31.0;
 use warnings;
 use strict;
 $|=1;
@@ -41,9 +41,9 @@ multi talk_to_me ( $a, $b ) {
   say "we got TWO arguments";
 }
 
-multi talk_to_me ( @args ) {
-   say "looks like more than two args";
-}
+# multi talk_to_me ( @args ) {
+#    say "looks like more than two args";
+# }
 
 
 talk_to_me( "hey" );
