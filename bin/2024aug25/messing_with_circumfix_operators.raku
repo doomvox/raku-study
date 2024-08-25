@@ -69,5 +69,4 @@ use v6;
 
 # Redeclaration of routine 'circumfix:<START END>'.  Did you mean to
 # declare a multi-sub?
-
 }
