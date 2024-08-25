@@ -44,7 +44,7 @@ multi talk_to_me ( Str $a ) {
 
 talk_to_me( "hey" );  
 talk_to_me( "ho" );
-talk_to_me( 3 );
+# talk_to_me( 3 );
 
 # we got ONE argument
 # we got ONE argument
