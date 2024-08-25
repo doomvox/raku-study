@@ -1,16 +1,16 @@
 #!/usr/bin/env perl
-#                                      2024/08/25 19:56:53
+#                                      2024/08/25 19:47:18
 
 =head1 NAME
 
-broken_a_is_for_arity.pl
+broken_a_is_for_airity.pl
 
 =head1 SYNOPSIS
 
 
 =head1 DESCRIPTION
 
-Stub documentation for broken_a_is_for_arity.pl,
+Stub documentation for a_is_for_airity.pl,
 created by template.el.
 
 It looks like the author of this script was negligent
@@ -18,13 +18,43 @@ enough to leave the stub unedited.
 
 =cut
 
-use 5.10.0;
+use 5.31.0;
 use warnings;
 use strict;
 $|=1;
 use Data::Dumper;
 
+use List::Util      qw( first max maxstr min minstr reduce shuffle sum any );
+use List::MoreUtils qw( zip uniq );
 
+use feature "signatures";
+no warnings 'experimental::signatures';  ## needed up to perl 5.36
+
+use Multi::Dispatch;
+
+
+multi talk_to_me ( $a ) {
+  say "we got ONE argument";
+}
+
+multi talk_to_me ( $a, $b ) {
+  say "we got TWO arguments";
+}
+
+multi talk_to_me ( @args ) {
+   say "looks like more than two args";
+}
+
+
+talk_to_me( "hey" );  
+talk_to_me( "hey", "ho" );
+
+talk_to_me( "hey", "ho", "let's go" );
+
+
+# we got ONE argument
+# we got TWO arguments
+# looks like more than two args
 
 
 
