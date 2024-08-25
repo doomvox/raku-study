@@ -10,7 +10,11 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024aug11.org
 
-** this meetings topics
+** topics
+*** bruce will be in, 1.5 hrs late
+
+
+** last meetings topics
 *** multidispatch
 **** sigs: two slurps, first wins
 **** can you do named slurps?
@@ -155,7 +159,6 @@ This desugars to:
  
 ** announcements 
 *** next meetings (no reason to deviate from 'every two weeks')
-**** Aug 25th
 **** Sep 8th   (tentative-- recruit a stand-in?)
 **** Sep 22
 **** Oct 6
