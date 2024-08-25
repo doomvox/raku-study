@@ -22,7 +22,7 @@ use v6;
     sub START {
         say "let us begin!"
     }
-    START;
+    START;  # let us begin!
 
     sub circumfix:<START END>(*@elems) {
         "start", @elems, "end"
