@@ -13,7 +13,7 @@ multi talk_to_me ( $a, $b ) {
   say "we got TWO arguments";
 }
 
-multi talk_to_me ( @args ) {
+multi talk_to_me ( *@args ) {
    say "looks like more than two args";
 }
 
