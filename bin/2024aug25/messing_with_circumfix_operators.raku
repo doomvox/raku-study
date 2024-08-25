@@ -35,3 +35,22 @@ use v6;
     # Unable to parse expression in circumfix:sym<START END>; couldn't find final 'END' (corresponding starter was at line 34)
 
 }
+
+
+{
+    sub START {
+        say "let us begin!"
+    }
+    START;  # let us begin!
+
+    sub circumfix:<START END>(*@elems) {
+        "start", @elems, "end"
+    }
+    
+    say START 'a', 'b', 'c' END;        # (start [a b c] end)
+
+    # well, let's begin again
+    START();  
+ 
+
+}
