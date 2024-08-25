@@ -6,6 +6,8 @@ use v6;
 
 
 my $r = 1..3;
-say $r.WHAT;
+say $r.WHAT;  # (Range)
 
-say $r ~~ Positional;
+say $r ~~ Positional; # True
+
+say $r ~~ Range; # True
