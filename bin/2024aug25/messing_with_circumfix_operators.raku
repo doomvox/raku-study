@@ -33,7 +33,6 @@ use v6;
     # well, let's begin again
     START;  
     # Unable to parse expression in circumfix:sym<START END>; couldn't find final 'END' (corresponding starter was at line 34)
-
 }
 
 
