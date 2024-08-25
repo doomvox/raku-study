@@ -41,6 +41,9 @@ multi sub talk_to_me ( $a, $b ) {
   say "we got one argument";
 }
 
+multi sub talk_to_me ( @args* ) {
+  say "looks like more than two args";
+}
 
 
 
