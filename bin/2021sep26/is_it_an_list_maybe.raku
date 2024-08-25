@@ -5,8 +5,8 @@
 use v6;
 
 
-my $a = 'aaa';
+my $a = 'aaa>';
 
 
 say $a.elems; # 1
-say $a.chars; # 1
+say $a.chars; # 3
