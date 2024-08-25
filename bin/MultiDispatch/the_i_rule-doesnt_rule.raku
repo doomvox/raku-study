@@ -12,7 +12,6 @@ multi sub speak (Str $s) {
     say "2: ANOTHER Str, $s"; 
 }
 
-
 speak("yes?");
 
 
