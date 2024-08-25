@@ -9,4 +9,4 @@ say (1..3)[2];  # 3
 
 say (1..3).sum; # 6
 
-say (1..3).WHAT;
+say (1..3).WHAT; # (Range)
