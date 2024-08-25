@@ -41,7 +41,6 @@ multi talk_to_me ( Str $a ) {
   say "we got JUST ONE arg again.";
 }
 
-
 talk_to_me( "hey" );  
 talk_to_me( "ho" );
 
