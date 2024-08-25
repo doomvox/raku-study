@@ -11,3 +11,5 @@ say $r.WHAT;  # (Range)
 say $r ~~ Positional; # True
 
 say $r ~~ Range;      # True
+
+# Positional a role, so technically "Range does Positional"
