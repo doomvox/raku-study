@@ -10,7 +10,7 @@ broken_a_is_for_airity.pl
 
 =head1 DESCRIPTION
 
-Stub documentation for a_is_for_airity.pl,
+Stub documentation for broken_a_is_for_airity.pl,
 created by template.el.
 
 It looks like the author of this script was negligent
