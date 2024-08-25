@@ -64,7 +64,7 @@ use v6;
 
 
     sub circumfix:<START END>(*@elems) {
-        "BEG", @elems, "END"
+        "beg!", @elems, "end!"
     }
 
 
