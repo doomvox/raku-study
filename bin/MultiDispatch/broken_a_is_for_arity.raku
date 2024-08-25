@@ -13,9 +13,9 @@ multi talk_tof_me ( $a ) {
   say "we got JUST ONE arg again";
 }
 
-multi talk_to_me ( *@args ) {
-   say "looks like more than two args";
-}
+# multi talk_to_me ( *@args ) {
+#    say "looks like more than two args";
+# }
 
 
 talk_to_me( "hey" );  
