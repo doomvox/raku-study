@@ -12,6 +12,16 @@ use v6;
     say START 'a', 'b', 'c' END;        # (start [a b c] end)
 }
 
+# {
+#         say START 'a', 'b', 'c' END;        # (start [a b c] end)
+#         ## Two terms in a row
+# }
+
+
 {
-        say START 'a', 'b', 'c' END;        # (start [a b c] end)
+    sub circumfix:<START END>(*@elems) {
+        "start", @elems, "end"
+    }
+    
+    say START 'a', 'b', 'c' END;        # (start [a b c] end)
 }
