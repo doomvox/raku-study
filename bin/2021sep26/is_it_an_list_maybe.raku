@@ -5,7 +5,7 @@
 use v6;
 
 
-my $a = 'a';
+my $a = 'aaa';
 
 
 say $a.elems; # 1
