@@ -13,4 +13,10 @@ say $a.chars; # 3
 
 say $a.WHAT;  # (Str)
 
+say "===";
 $a.^methods>>.say;
+say "===";
+
+my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
+
+say @monsters.^methods>>.say;
