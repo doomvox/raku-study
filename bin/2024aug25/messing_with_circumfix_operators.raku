@@ -31,6 +31,7 @@ use v6;
     say START 'a', 'b', 'c' END;        # (start [a b c] end)
 
     # well, let's begin again
-    START;  # let us begin!
+    START;  
+    # Unable to parse expression in circumfix:sym<START END>; couldn't find final 'END' (corresponding starter was at line 34)
 
 }
