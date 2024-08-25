@@ -63,5 +63,9 @@ use v6;
     say START 'a', 'b', 'c' END;        # (start [a b c] end)
 
 
+    sub circumfix:<START END>(*@elems) {
+        "BEG", @elems, "END"
+    }
+
 
 }
