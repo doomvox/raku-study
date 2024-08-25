@@ -34,11 +34,11 @@ use Multi::Dispatch;
 
 
 multi sub talk_to_me ( $a ) {
-  say "we got one argument";
+  say "we got ONE argument";
 }
 
 multi sub talk_to_me ( $a, $b ) {
-  say "we got one argument";
+  say "we got TWO arguments";
 }
 
 multi sub talk_to_me ( @args* ) {
