@@ -5,10 +5,20 @@
 use v6;
 
 
-sub first([$f, *@]) { $f }
+{
+    sub first([$f, *@]) { $f }
+
+    my @nothing  = < nada nope bupkes >;
+
+    say first( @nothing );  # nada
+}
+
+{
+    sub first([$f, *@]) { $f }
 
 
-my @nothing  = < nada nope bupkes >;
+    my @nothing  = < nada nope bupkes >;
 
-say first( @nothing );  # nada
+    say first( @nothing );  # nada
 
+}
