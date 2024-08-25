@@ -18,5 +18,5 @@ use v6;
 
     my @nothing  = < nada nope bupkes >;
 
-    say first( @nothing );  # nada
+    say first( @nothing );  # 
 }
