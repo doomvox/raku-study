@@ -14,3 +14,8 @@ multi sub speak (Str $s) {
 
 speak("yes?");
 
+
+# Ambiguous call to 'speak(Str)'; these signatures all match:
+#   (Str $s)
+#   (Str $s)
+#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/MultiDispatch/the_i_rule-doesnt_rule.raku line 15
