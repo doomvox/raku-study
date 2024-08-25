@@ -33,4 +33,4 @@ say (𝑒..π);
 
 say (𝑒..π).map({ say $_ });  # (True)
 
-say (𝑒..π)>>.map({ say $_ });  # # ((True))
+say (𝑒..π)>>.map({ say $_ });  # ((True))
