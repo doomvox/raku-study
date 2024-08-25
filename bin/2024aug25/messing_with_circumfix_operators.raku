@@ -67,4 +67,8 @@ use v6;
         "beg!", @elems, "end!"
     }
 
+# Redeclaration of routine 'circumfix:<START END>'.  Did you mean to
+# declare a multi-sub?
+
+
 }
