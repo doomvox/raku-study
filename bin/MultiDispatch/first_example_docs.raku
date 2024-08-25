@@ -36,6 +36,6 @@ use v6;
 
     my @nothing  = < nada nope bupkes jerrylewis >;
 
-    say first( @nothing );  # 
-    # Too many positionals passed to 'first'; expected 3 arguments but got 4 in sub-signature
+    say first( @nothing );  
+
 }
