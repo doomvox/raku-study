@@ -34,7 +34,7 @@ use v6;
 {
     sub first([$f, $g, $h where *.chars>5 ] ) { $f }
 
-    my @nothing  = < nada nope bupkes  >;
+    my @nothing  = < nada nope   >;
 
     say first( @nothing );  
 
