@@ -33,11 +33,11 @@ no warnings 'experimental::signatures';  ## needed up to perl 5.36
 use Multi::Dispatch;
 
 
-multi talk_to_me ( $a ) {
+multi talk_to_me ( Str $a ) {
   say "we got ONE argument";
 }
 
-multi talk_to_me ( $a ) {
+multi talk_to_me ( Str $a ) {
   say "we got JUST ONE arg again.";
 }
 
