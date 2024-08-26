@@ -15,7 +15,6 @@
 https://theweeklychallenge.org/blog/perl-weekly-challenge-282
 https://theweeklychallenge.org/blog/perl-weekly-challenge-283
 
-
 *** bruce will be in, 1.5 hrs late
 *** next meeting on Sept 8 is an odd one: really need one or more stand-ins to "run" the meeting.
 
