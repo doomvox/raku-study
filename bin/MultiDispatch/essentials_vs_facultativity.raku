@@ -14,5 +14,8 @@ multi sub more ($on, $andon = ' ... ') {
 }
 
 more("over");
+## ONE: one argument and only one: over
 say "===";
 more("over", "and over");
+## TWO: first the required argument: over
+## TWO: and we go on with the second argument: and over
