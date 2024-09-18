@@ -20,6 +20,7 @@ multi sub more ($on, $andon = ' ... ') {
 ##     say "TWO-PRIME: and we go on with the second argument: $andon";
 ##   }
 ## you do *not* get an error or warning
+## why not "Ambiguous call to ..."?
 
 
 more("over");
