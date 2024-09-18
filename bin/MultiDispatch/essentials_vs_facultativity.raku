@@ -15,10 +15,11 @@ multi sub more ($on, $andon = ' ... ') {
 }
 
 ## if this TWO-PRIME version exists, the above TWO is never called
-## multi sub more ($on, $andon) {
-##   say "TWO-PRIME: first the required argument: $on";
-##   say "TWO-PRIME: and we go on with the second argument: $andon";
-## }
+##   multi sub more ($on, $andon) {
+##     say "TWO-PRIME: first the required argument: $on";
+##     say "TWO-PRIME: and we go on with the second argument: $andon";
+##   }
+## you do *not* get an error or warning
 
 
 more("over");
