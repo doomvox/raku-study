@@ -14,8 +14,8 @@ multi sub more ($on, $andon = ' ... ') {
 }
 
 multi sub more ($on, $andon) {
-  say "TWO-prime: first the required argument: $on";
-  say "TWO-prime: and we go on with the second argument: $andon";
+  say "TWO-PRIME: first the required argument: $on";
+  SAY "TWO-PRIME: and we go on with the second argument: $andon";
 }
 
 
