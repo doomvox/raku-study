@@ -20,7 +20,7 @@ multi sub more ($on, $andon = ' ... ') {
 ##     say "TWO-PRIME: and we go on with the second argument: $andon";
 ##   }
 ## you do not get an error or warning such as "Ambiguous call to ..."?
-## (the E trumps F rule in action)
+## (the E trumps F rule in action, for raku)
 
 
 more("over");
