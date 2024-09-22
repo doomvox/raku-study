@@ -11,6 +11,8 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024aug15.org
 
 ** topics
+*** rob: containerization
+
 
 *** weekly challenge
 
