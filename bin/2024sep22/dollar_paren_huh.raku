@@ -45,7 +45,7 @@ use CoreHackers::Sourcery;
 }
 
 
-{ # works:
-    my Int $a;
+{ 
+    my Int $a = 1;
     say $a(5);  # 5
 }
