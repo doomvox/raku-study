@@ -56,5 +56,5 @@ use CoreHackers::Sourcery;
 ## Marton: might be better if the other case failed also.
 
 ## For some reason, all agree that this should work:
-
+## 
 ##   say $(5);
