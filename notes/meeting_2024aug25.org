@@ -39,7 +39,6 @@ doom@flamenco:~$ raku -e 'say (1..1000000).sum'
 ****** sigs: two slurps, first wins
 ****** can you do named slurps?
 
-
 ****** 
 ******* https://www.youtube.com/watch?v=0x9LD8oOmv0&list=PLA9_Hq3zhoFw6patag2gZcDjpugDLBStL&index=8
 ******* my notes, e.g. on Conway's "The Once and Future Perl" from TPRC2024
