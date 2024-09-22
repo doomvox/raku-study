@@ -61,8 +61,6 @@ doom@flamenco:~$ raku -e 'say (1..1000000).sum'
 ****** https://theweeklychallenge.org/blog/perl-weekly-challenge-281/
 ****** https://theweeklychallenge.org/blog/perl-weekly-challenge-280/
 
-
-
 **** old topics
 
 ***** Monatliches Raku-Monger Treffen - August 15, 2024, Im Roten Ochsen
