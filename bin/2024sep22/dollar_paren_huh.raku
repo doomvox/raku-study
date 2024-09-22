@@ -24,11 +24,21 @@ use CoreHackers::Sourcery;
 
 # say %( apple => 10 ).item.raku; # OUTPUT: ${:apple(10)}
 
-{
+# {
+#     my $a;
+#     say $a(5);  # 5
+#     $a(5) = 3;
+#     # Cannot modify an immutable Int (5)
+# }
+
+## like calling Any as a type coercion on 5, gives back 5 -- bruce gray
+
+
+{ # This breaks:
     my $a = 1;
     say $a(5);  # 5
     $a(5) = 3;
     # Cannot modify an immutable Int (5)
 }
 
-## like calling Any as a type coercion on 5, gives back 5 -- bruce gray
+No such method 'CALL-ME' for invocant of type 'Int'
