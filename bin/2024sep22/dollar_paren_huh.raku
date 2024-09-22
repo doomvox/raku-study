@@ -47,5 +47,5 @@ use CoreHackers::Sourcery;
 
 { 
     my Int $a = 1;
-    say $a(5);  # 5
+    say $a(5);  # No such method 'CALL-ME' for invocant of type 'Int'
 }
