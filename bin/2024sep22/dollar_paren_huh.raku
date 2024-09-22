@@ -86,6 +86,11 @@ use CoreHackers::Sourcery;
 #  contain(5);
 #  5.contain;
 
+# mutables instead of immute:
+# [1, 2, 3]
+
+
+
 # Maron makes the point that returns are not consistent about mutability,
 # e.g. rotor vs. categorize.
 # needs documentaion?
