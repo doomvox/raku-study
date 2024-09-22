@@ -54,3 +54,7 @@ use CoreHackers::Sourcery;
 ## Martons point: if it's really an Int, don't say the problem is it's an Int, because that's not the problem...
 
 ## Marton: might be better if the other case failed also.
+
+## For some reason, all agree that this should work:
+
+##   say $(5);
