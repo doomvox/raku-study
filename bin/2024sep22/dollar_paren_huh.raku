@@ -4,7 +4,7 @@
 
 use v6;
 
-use CoreHackers::Sourery;
+use CoreHackers::Sourcery;
 
 # {
 #     say $a(5);
