@@ -23,5 +23,4 @@ use v6;
 {
     say $(5);
     $(5) = 3;
-    # Cannot modify an immutable Int (5)
 }
