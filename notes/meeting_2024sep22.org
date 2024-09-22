@@ -9,3 +9,9 @@
 
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024aug15.org
+
+** topics
+
+
+https://theweeklychallenge.org/blog/perl-weekly-challenge-284
+https://theweeklychallenge.org/blog/perl-weekly-challenge-283
