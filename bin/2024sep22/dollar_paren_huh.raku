@@ -31,4 +31,4 @@ use CoreHackers::Sourcery;
     # Cannot modify an immutable Int (5)
 }
 
-
+## like calling Any as a type coercion on 5, gives back 5 -- bruce gray
