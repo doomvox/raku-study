@@ -26,6 +26,8 @@ use CoreHackers::Sourcery;
     say $a(5);  # 5
     $a(5) = 3;
     # Cannot modify an immutable Int (5)
+
+    say sourcery(5,"item");
 }
 
 
