@@ -31,6 +31,8 @@
 ***** next meetings (no reason to deviate from 'every two weeks')
 ****** Oct 6
 ****** Oct 20
+****** Nov 3
+****** Nov 17
 
 **** A big list of perl/raku events:
 ***** https://perlweekly.com/events
