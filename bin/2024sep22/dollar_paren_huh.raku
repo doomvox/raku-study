@@ -87,8 +87,7 @@ use CoreHackers::Sourcery;
 #  5.contain;
 
 # mutables instead of immute:
-# [1, 2, 3]
-
+#  [1, 2, 3]
 
 
 # Maron makes the point that returns are not consistent about mutability,
