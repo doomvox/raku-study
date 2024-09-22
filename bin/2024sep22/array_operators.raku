@@ -4,7 +4,7 @@
 
 use v6;
 
-# use CoreHackers::Sourcery;
+use CoreHackers::Sourcery;
 #    say sourcery( @array, 'item');
 
 &circumfix:<[ ]>.sourcery( (1, 2, 3) );
