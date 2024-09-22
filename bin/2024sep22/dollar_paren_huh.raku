@@ -19,7 +19,6 @@ use v6;
 #     # Cannot modify an immutable Int (5)
 # }
 
-
 {
     my $a;
     say $a(5);  # 5
