@@ -17,6 +17,13 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-28x
 
 
+**** announcements 
+***** next meetings (no reason to deviate from 'every two weeks')
+****** Sep 22
+****** Oct 6
+****** Oct 20
+
+
 **** A big list of perl/raku events:
 ***** https://perlweekly.com/events
 
