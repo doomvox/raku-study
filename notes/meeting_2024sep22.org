@@ -12,5 +12,5 @@
 
 ** topics
 
-https://theweeklychallenge.org/blog/perl-weekly-challenge-284
-https://theweeklychallenge.org/blog/perl-weekly-challenge-283
+https://theweeklychallenge.org/blog/perl-weekly-challenge-28x
+
