@@ -22,6 +22,6 @@ use v6;
 
 {
     say $(5);
-    $a(5) = 3;
+    $(5) = 3;
     # Cannot modify an immutable Int (5)
 }
