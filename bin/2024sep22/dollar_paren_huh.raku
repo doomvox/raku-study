@@ -23,8 +23,6 @@ use CoreHackers::Sourcery;
 
 {
 
-    say sourcery(5,"item");
-
     my $a;
     say $a(5);  # 5
     $a(5) = 3;
