@@ -39,8 +39,8 @@ use CoreHackers::Sourcery;
 #     say $a(5);  # No such method 'CALL-ME' for invocant of type 'Int'
 # }
 
-{ # This breaks:
+{ # works:
     my Int $a;
-    say $a(5);  # No such method 'CALL-ME' for invocant of type 'Int'
+    say $a(5);  # 5
 }
 
