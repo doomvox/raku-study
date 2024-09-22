@@ -82,5 +82,6 @@ use CoreHackers::Sourcery;
 
 
 # Doomvox would want:
-# container(5);
-# contain(5);
+#  container(5);
+#  contain(5);
+#  5.contain;
