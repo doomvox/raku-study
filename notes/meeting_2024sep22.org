@@ -34,14 +34,13 @@
 ****** Nov 3
 ****** Nov 17
 
-**** A big list of perl/raku events:
-***** https://perlweekly.com/events
-
-
-**** bruce gray suggests:
-
 ***** Perl Science Conference (Virtual) Wednesday 2024-12-18
 ****** https://www.reddit.com/r/perl/comments/1ffbeg6/perl_community_conference_winter_2024_call_for/
 
 ***** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
 ****** https://news.perlfoundation.org/post/dates_set_tprc_2025
+
+
+**** A big list of perl/raku events:
+***** https://perlweekly.com/events
+
