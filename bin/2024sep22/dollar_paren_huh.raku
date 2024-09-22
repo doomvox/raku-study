@@ -36,4 +36,4 @@ use CoreHackers::Sourcery;
 
 
 
-say %( apple => 10 ).item.raku; # OUTPUT: «${:apple(10)}␤»
+say %( apple => 10 ).item.raku; # OUTPUT: ${:apple(10)}
