@@ -4,7 +4,8 @@
 
 use v6;
 
-
+use CoreHackers::Sourcery;
 {
-    say $.self;
+    my @array = (3, 4, 5);
+    say sourcery( @array, 'item');
 }
