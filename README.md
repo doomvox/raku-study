@@ -11,7 +11,8 @@ The upcoming meeting schedule:
 * Sunday, Sep 22, 2024
 * Sunday, Oct 6, 2024
 * Sunday, Oct 20, 2024
-
+* Sunday, Nov 3, 2024
+* Sunday, Nov 17, 2024
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
 
