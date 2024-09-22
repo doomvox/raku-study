@@ -25,3 +25,4 @@ use v6;
     $(5) = 3;
     # Cannot modify an immutable Int (5)
 }
+
