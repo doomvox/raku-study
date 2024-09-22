@@ -36,9 +36,7 @@ use CoreHackers::Sourcery;
 
 { # This breaks:
     my $a = 1;
-    say $a(5);  # 5
-    $a(5) = 3;
-    # Cannot modify an immutable Int (5)
+    say $a(5);  # No such method 'CALL-ME' for invocant of type 'Int'
 }
 
-No such method 'CALL-ME' for invocant of type 'Int'
+
