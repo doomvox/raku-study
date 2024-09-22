@@ -12,11 +12,13 @@
 
 ** topics
 *** rob: containerization
-
+**** "the default return is decontainerization which is how .self can even work"
 
 *** weekly challenge
 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-28x
+
+
 
 
 **** announcements 
