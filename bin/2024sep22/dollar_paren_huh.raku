@@ -58,3 +58,5 @@ use CoreHackers::Sourcery;
 ## For some reason, all agree that this should work:
 ## 
 ##   say $(5);
+
+## "the curse of being surprisingly consistent"
