@@ -14,7 +14,14 @@ use v6;
 
 {
     my $a;
-    say $a(5);
+    say $a(5);  # 5
+    $a(5) = 3;
+    # Cannot modify an immutable Int (5)
+}
+
+
+{
+    say $(5);
     $a(5) = 3;
     # Cannot modify an immutable Int (5)
 }
