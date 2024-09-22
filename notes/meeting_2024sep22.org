@@ -15,7 +15,10 @@
 **** "the default return is decontainerization which is how .self can even work"
 ***** how would you look it up? 
 
-**** 
+**** docs for method self
+***** hard-ish to look-up (there's a fake-out in Failure module, want Mu-- maybe)
+***** https://docs.raku.org/type/Mu#method_self
+****** sketchy: doesn't mention decontainerization?
 
 *** weekly challenge
 
