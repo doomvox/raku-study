@@ -44,3 +44,8 @@ use CoreHackers::Sourcery;
     say $a(5);  # 5
 }
 
+
+{ # works:
+    my Int $a;
+    say $a(5);  # 5
+}
