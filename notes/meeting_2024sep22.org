@@ -16,3 +16,7 @@
 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-28x
 
+
+**** A big list of perl/raku events:
+***** https://perlweekly.com/events
+
