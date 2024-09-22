@@ -52,3 +52,5 @@ use CoreHackers::Sourcery;
 
 ## okay, LTA, but seriously: what would you tell 'em is going on?
 ## Martons point: if it's really an Int, don't say the problem is it's an Int, because that's not the problem...
+
+## Marton: might be better if the other case failed also.
