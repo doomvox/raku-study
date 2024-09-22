@@ -71,4 +71,16 @@ use CoreHackers::Sourcery;
 #     If you meant to convert the argument to type `Int`, try `$a.WHAT.(5)`
 
 
+## Rob's original problem, creating a container:
 
+# $(5)
+
+# $=5
+
+# Marton:
+# Scalar.new(5);
+
+
+# Doomvox would want:
+# container(5);
+# contain(5);
