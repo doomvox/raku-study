@@ -86,7 +86,7 @@ use CoreHackers::Sourcery;
 #  contain(5);
 #  5.contain;
 
-# Maron makes the point that returns are consistent about mutability,
+# Maron makes the point that returns are not consistent about mutability,
 # e.g. rotor vs. categorize.
 # needs documentaion?
 
