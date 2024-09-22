@@ -12,12 +12,12 @@ use v6;
 # # intended to be part of a signature?
 # }
 
-{
-    my $a;
-    say $a(5);  # 5
-    $a(5) = 3;
-    # Cannot modify an immutable Int (5)
-}
+# {
+#     my $a;
+#     say $a(5);  # 5
+#     $a(5) = 3;
+#     # Cannot modify an immutable Int (5)
+# }
 
 
 {
