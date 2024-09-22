@@ -21,8 +21,10 @@ use CoreHackers::Sourcery;
 #     # Cannot modify an immutable Int (5)
 # }
 
-{
 
+# say %( apple => 10 ).item.raku; # OUTPUT: ${:apple(10)}
+
+{
     my $a;
     say $a(5);  # 5
     $a(5) = 3;
@@ -30,4 +32,4 @@ use CoreHackers::Sourcery;
 
 }
 
-# say %( apple => 10 ).item.raku; # OUTPUT: ${:apple(10)}
+
