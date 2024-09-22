@@ -13,6 +13,7 @@
 ** topics
 *** rob: containerization
 **** "the default return is decontainerization which is how .self can even work"
+***** how would you look it up? 
 
 *** weekly challenge
 
