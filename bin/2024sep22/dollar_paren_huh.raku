@@ -4,11 +4,21 @@
 
 use v6;
 
-{
-say $a(5);
-$a(5) = 3;
-}
+# {
+#     say $a(5);
+#     $a(5) = 3;
 
+# # Variable '$a' is not declared.  Perhaps you forgot a 'sub' if this was
+# # intended to be part of a signature?
+# }
+
+{
+    say $a(5);
+    $a(5) = 3;
+
+# Variable '$a' is not declared.  Perhaps you forgot a 'sub' if this was
+# intended to be part of a signature?
+}
 
 
 # ====
