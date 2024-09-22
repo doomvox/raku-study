@@ -12,6 +12,14 @@ use v6;
 # # intended to be part of a signature?
 # }
 
+
+# {
+#     say $(5); # 5
+#     $(5) = 3;
+#     # Cannot modify an immutable Int (5)
+# }
+
+
 {
     my $a;
     say $a(5);  # 5
@@ -19,10 +27,4 @@ use v6;
     # Cannot modify an immutable Int (5)
 }
 
-
-# {
-#     say $(5); # 5
-#     $(5) = 3;
-#     # Cannot modify an immutable Int (5)
-# }
 
