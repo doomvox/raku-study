@@ -7,5 +7,6 @@ use v6;
 use CoreHackers::Sourcery;
 {
     my @array = (3, 4, 5);
-#    say sourcery( @array, 'self');
+#    say sourcery( @array, 'item');
+    say sourcery( @array, 'self');
 }
