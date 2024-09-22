@@ -4,6 +4,8 @@
 
 use v6;
 
+use CoreHackers::Sourery;
+
 # {
 #     say $a(5);
 #     $a(5) = 3;
