@@ -21,7 +21,8 @@
 ****** sketchy: doesn't mention decontainerization?
 
 
-
+*** literate-ish programming
+**** https://worrydream.com/Tangle/
 
 
 *** announcements 
