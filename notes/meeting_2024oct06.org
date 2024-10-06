@@ -18,7 +18,8 @@
 
 *** Rob
 **** module on zef, raku land 
-**** IUP 
+**** raku interface for IUP 
+***** making gtk3 more like tk
 **** https://raku.land/github:0rir/IUP
 **** entry in raku.land
 **** warning up top, uploading author doesn't match
