@@ -11,8 +11,5 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024sep22.org
 
 ** topics
-
-
-From Raku Weekly:
-
-Wenzel P.P. Peppmeyer added HyperWhatever support for postcircumfix { } in 6.e.
+*** From Raku Weekly:
+**** Wenzel P.P. Peppmeyer added HyperWhatever support for postcircumfix { } in 6.e.
