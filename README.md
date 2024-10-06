@@ -11,7 +11,7 @@ The upcoming meeting schedule:
 * Sunday, Dec 8, 2024
 * Sunday, Dec 22, 2024
 * Sunday, Jan 5, 2025
-
+* Sunday, Jan 19, 2025
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
 
