@@ -23,26 +23,31 @@
 **** entry in raku.land
 **** warning up top, uploading author doesn't match
 
-**** trying to debug 
+**** trying to debug what's up with robs mods and flailing with json files, but whatever
 
-****** 
-******* support for raku.land and zef, p6c going away (?)
-
-****** From Raku Weekly:
-******* https://rakudoweekly.blog/2024/09/30/2024-40-done-25/
-******* "Wenzel P.P. Peppmeyer added HyperWhatever support for postcircumfix { } in 6.e."
+curl -o 360.json https://360.zef.pm/
+jq . < 360.json > 360_formatted.json
 
 
 
+*** 
+**** support for raku.land and zef, p6c going away (?)
+
+**** From Raku Weekly:
+***** https://rakudoweekly.blog/2024/09/30/2024-40-done-25/
+***** "Wenzel P.P. Peppmeyer added HyperWhatever support for postcircumfix { } in 6.e."
 
 
-****** hypers and junctions
+
+
+
+**** hypers and junctions
 https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junctions
 
 
 
-****** utf-c8 eats anything (via Raku Weekly)
-******* https://fosstodon.org/@VZ/113189336040180423
+**** utf-c8 eats anything (via Raku Weekly)
+***** https://fosstodon.org/@VZ/113189336040180423
 
 @VZ@fosstodon.org
 
@@ -58,13 +63,13 @@ is a pretty painless way of dealing with non-UTF-8 files.
 
 
 
-****** weekly challenge 
+**** weekly challenge 
 
-******* https://theweeklychallenge.org/blog/perl-weekly-challenge-288/
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-288/
 
-******* https://theweeklychallenge.org/blog/perl-weekly-challenge-289/
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-289/
 
 
-****** raku knowledge base
-******* https://raku-knowledge-base.podlite.org/
+**** raku knowledge base
+***** https://raku-knowledge-base.podlite.org/
 
