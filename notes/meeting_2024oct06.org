@@ -40,10 +40,11 @@ jq . < 360.json > 360_formatted.json
 **** From Raku Weekly:
 ***** https://rakudoweekly.blog/2024/09/30/2024-40-done-25/
 ***** "Wenzel P.P. Peppmeyer added HyperWhatever support for postcircumfix { } in 6.e."
-
-
-
-
+***** bruce gray 
+****** https://gist.github.com/gfldex/381b402a5356bd97fb2ff7194a25dd96  Tests for assoc-hyperwhatever
+****** https://github.com/Raku/problem-solving/issues/287  HyperWhatever in subscripts
+****** https://github.com/rakudo/rakudo/pull/4449  Add Associative HyperWhatever support
+****** https://github.com/rakudo/rakudo/pull/4469  Positional hyperwhatever
 
 **** hypers and junctions
 https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junctions
