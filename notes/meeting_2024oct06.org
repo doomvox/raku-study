@@ -33,3 +33,9 @@ writing anything back to disk, if you need to do it because forgetting
 it doesn't result in an error, unlike on input, but produces garbage
 in the output, so you do need to be careful. But other than that this
 is a pretty painless way of dealing with non-UTF-8 files.
+
+
+
+*** weekly challenge 
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-288/
