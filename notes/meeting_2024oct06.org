@@ -33,9 +33,8 @@ curl -o 360.json https://360.zef.pm/
 jq . < 360.json > 360_formatted.json
 
 **** 
-***** support for raku.land and zef, p6c going away (?)
-
-
+***** p6c "support" for raku.land and zef going away 
+****** link from lizmant in chat
 
 **** From Raku Weekly:
 ***** https://rakudoweekly.blog/2024/09/30/2024-40-done-25/
