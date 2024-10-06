@@ -13,3 +13,6 @@
 ** topics
 *** From Raku Weekly:
 **** Wenzel P.P. Peppmeyer added HyperWhatever support for postcircumfix { } in 6.e.
+
+*** hypers and junctions
+https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junctions
