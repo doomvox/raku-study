@@ -27,7 +27,10 @@
 **** support for raku.land and zef, p6c going away (?)
 
 *** From Raku Weekly:
-**** Wenzel P.P. Peppmeyer added HyperWhatever support for postcircumfix { } in 6.e.
+**** https://rakudoweekly.blog/2024/09/30/2024-40-done-25/
+**** "Wenzel P.P. Peppmeyer added HyperWhatever support for postcircumfix { } in 6.e."
+
+
 
 *** hypers and junctions
 https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junctions
