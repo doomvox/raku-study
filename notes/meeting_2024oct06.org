@@ -25,11 +25,6 @@
 
 **** trying to debug 
 
-***** /344125deed012196aba1eaa3b771e2de48004787.tar.gz","perl":"6.d","provides":{"Array::Sparse":"lib/Array/Sparse.rakumod"},"resources":[],"source-url":"https://github.com/lizmat/Array-Sparse.git","tags":["UTILS"],"test-depends":[],"version":"0.0.10"},{"api":"","auth":"zef:lizmat","authors":["Elizabeth Mattijsen"],"build-depends":[],"depends":["Hash::Agnostic:ver\u003c0.0.12\u003e:auth\u003czef:lizmat\u003e"],"description":"role for ordered Hashes","dist":"Hash::Ordered:ver\u003c0.0.4\u003e:auth\u003czef:lizmat\u003e","license":"Artistic-2.0","name":"Hash::Ordered","path":"H/AS/HASH_ORDERED/33b2851de7475c13def6e4177927b41b78bde44e.tar.gz","perl":"6.c","provides":{"Hash::Ordered":"lib/Hash/Ordered.rakumod"},"resources":[],"source-url":"https://github.com/lizmat/Hash-Ordered.git","tags":["UTILS"],"test-depends":[],"version":"0.0.4"},{"api":"","auth":"zef:lizmat","authors":["Elizabeth Mattijsen"],"build-depends":[],"depends":["Hash::Agnostic:ver\u003c0.0.12\u003e:auth\u003czef:lizmat\u003e","Array::Sorted::Util:ver\u003c0.0.9\u003e:auth\u003czef:lizmat\u003e"],"description":"customizable role for sorted Hashes","dist":"Hash::Sorted:ver\u003c0.0.6\u003e:auth\u003czef:lizmat\u003e","license":"Artistic-2.0","name":"Hash::Sorted","path":"H/AS/HASH_SORTED/93d34b347feac4e0edb1bb2f1948aae26141e281.tar.gz","perl":"6.d","provides":{"Hash::Sorted":"lib/Hash/Sorted.rakumod"},"resources":[],"source-url":"https://github.com/lizmat/Hash-Sorted.git","tags":[],"test-depends":[],"version":"0.0.6"},{"api":"","auth":"zef:lizmat","authors":["Elizabeth Mattijsen"],"build-depends":[],"depends":["Hash::Agnostic:ver\u003c0.0.12\u003e:auth\u003czef:lizmat\u003e"],"description":"be a map without knowing how","dist":"Map::Agnostic:ver\u003c0.0.8\u003e:auth\u003czef:lizmat\u003e","license":"Artistic-2.0","name":"Map::Agnostic","path":"M/AP/MAP_AGNOSTIC
-
-
-
-
 ****** 
 ******* support for raku.land and zef, p6c going away (?)
 
