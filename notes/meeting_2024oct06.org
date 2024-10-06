@@ -11,6 +11,16 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024sep22.org
 
 ** topics
+*** a brief history of important stuff (perl, raku, etc)
+**** #+BEGIN_SRC text
+13:45:22 From Joseph Brenner To Everyone:
+	"Second system done right!"
+13:45:24 From Joseph Brenner To Everyone:
+	Uh...
+13:45:50 From Márton To Everyone:
+	Poul-Henning Kamp wins
+#+END_SRC
+**** https://en.wikipedia.org/wiki/Poul-Henning_Kamp
 
 *** smartmatch, threat or menace? 
 **** "In general, the left side of ~~ should not be auto-threading" #297
@@ -92,3 +102,5 @@ is a pretty painless way of dealing with non-UTF-8 files.
 
 **** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
 ***** https://news.perlfoundation.org/post/dates_set_tprc_2025
+
+
