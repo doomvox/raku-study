@@ -11,6 +11,8 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024sep22.org
 
 ** topics
+
+
 *** From Raku Weekly:
 **** Wenzel P.P. Peppmeyer added HyperWhatever support for postcircumfix { } in 6.e.
 
@@ -39,3 +41,10 @@ is a pretty painless way of dealing with non-UTF-8 files.
 *** weekly challenge 
 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-288/
+
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-289/
+
+
+*** raku knowledge base
+**** https://raku-knowledge-base.podlite.org/
+
