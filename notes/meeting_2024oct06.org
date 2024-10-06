@@ -1,6 +1,5 @@
 * meeting notes October 6, 2024
 ** the raku study group
-
 **** usual links
 ***** these notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024oct06.org 
