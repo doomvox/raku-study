@@ -28,8 +28,6 @@
 curl -o 360.json https://360.zef.pm/
 jq . < 360.json > 360_formatted.json
 
-
-
 *** 
 **** support for raku.land and zef, p6c going away (?)
 
