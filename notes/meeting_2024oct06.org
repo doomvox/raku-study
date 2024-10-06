@@ -1,4 +1,4 @@
-* meeting notes October 6, 2024
+[#B] meeting notes October 6, 2024
 ** the raku study group
 **** usual links
 ***** these notes
