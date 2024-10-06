@@ -20,6 +20,10 @@
 **** module on zef, raku land 
 **** IUP 
 **** https://raku.land/github:0rir/IUP
+**** entry in raku.land
+**** warning up top, uploading author doesn't match
+*** 
+**** support for raku.land and zef, p6c going away (?)
 
 *** From Raku Weekly:
 **** Wenzel P.P. Peppmeyer added HyperWhatever support for postcircumfix { } in 6.e.
