@@ -78,3 +78,17 @@ is a pretty painless way of dealing with non-UTF-8 files.
 ***** raku knowledge base
 ****** https://raku-knowledge-base.podlite.org/
 
+
+*** announcements 
+**** next meetings (no reason to deviate from 'every two weeks')
+***** Oct 20
+***** Nov 3
+***** Nov 17
+***** breaking the 2 week pattern:
+****** Dec 8
+
+**** Perl Science Conference (Virtual) Wednesday 2024-12-18
+***** https://www.reddit.com/r/perl/comments/1ffbeg6/perl_community_conference_winter_2024_call_for/
+
+**** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
+***** https://news.perlfoundation.org/post/dates_set_tprc_2025
