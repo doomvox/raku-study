@@ -70,7 +70,7 @@ is a pretty painless way of dealing with non-UTF-8 files.
 
 ***** weekly challenge 
 ****** https://theweeklychallenge.org/blog/perl-weekly-challenge-288/
-******* rob worked through
+******* rob worked through the first problem, the palindrome question.
 
 ****** https://theweeklychallenge.org/blog/perl-weekly-challenge-289/
 
