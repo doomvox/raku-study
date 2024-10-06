@@ -69,8 +69,8 @@ is a pretty painless way of dealing with non-UTF-8 files.
 
 
 ***** weekly challenge 
-
 ****** https://theweeklychallenge.org/blog/perl-weekly-challenge-288/
+******* rob worked through
 
 ****** https://theweeklychallenge.org/blog/perl-weekly-challenge-289/
 
