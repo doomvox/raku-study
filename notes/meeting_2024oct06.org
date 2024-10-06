@@ -24,12 +24,17 @@
 **** warning up top, uploading author doesn't match
 
 **** trying to debug what's up with robs mods and flailing with json files, but whatever
+***** cut and pasting a chunk of json into an org mode file can conuse it tremendously
+
+*** https://360.zef.pm/
 
 curl -o 360.json https://360.zef.pm/
 jq . < 360.json > 360_formatted.json
 
-*** 
-**** support for raku.land and zef, p6c going away (?)
+**** 
+***** support for raku.land and zef, p6c going away (?)
+
+
 
 **** From Raku Weekly:
 ***** https://rakudoweekly.blog/2024/09/30/2024-40-done-25/
@@ -44,8 +49,8 @@ https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junct
 
 
 
-**** utf-c8 eats anything (via Raku Weekly)
-***** https://fosstodon.org/@VZ/113189336040180423
+***** utf-c8 eats anything (via Raku Weekly)
+****** https://fosstodon.org/@VZ/113189336040180423
 
 @VZ@fosstodon.org
 
@@ -61,13 +66,13 @@ is a pretty painless way of dealing with non-UTF-8 files.
 
 
 
-**** weekly challenge 
+***** weekly challenge 
 
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-288/
+****** https://theweeklychallenge.org/blog/perl-weekly-challenge-288/
 
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-289/
+****** https://theweeklychallenge.org/blog/perl-weekly-challenge-289/
 
 
-**** raku knowledge base
-***** https://raku-knowledge-base.podlite.org/
+***** raku knowledge base
+****** https://raku-knowledge-base.podlite.org/
 
