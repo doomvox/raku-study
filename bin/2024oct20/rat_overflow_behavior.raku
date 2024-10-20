@@ -10,7 +10,7 @@ my $c = 100;
 for ($s .. $s + $c) -> $x { 
     my $rat = Rat.new(1, $x);
     
-    if $x%10 eq 0 {
+    if $x%100 eq 0 {
         my $*RAT-OVERFLOW = FatRat;
         say $rat.WHAT;
         say "1/x where x $x: ", $rat;
