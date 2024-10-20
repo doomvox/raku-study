@@ -5,7 +5,7 @@
 use v6;
 
 
-for (1 .. 1000) -> $x { 
+for (1 .. 1000000000) -> $x { 
     my $rat = Rat.new(1, $x);
     say "1/x where x $x: ", $rat if $x%100 eq 0;
 }
