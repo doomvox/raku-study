@@ -39,7 +39,7 @@ chugging along:"
 https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_overflow_behavior.raku
 
 
-**** raku
+***** using sourcery in the raku repl:
 #+BEGIN_SRC raku
 use CoreHackers::Sourcery;
 say sourcery Rat, 'new', \(1, 264)
