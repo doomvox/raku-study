@@ -31,9 +31,6 @@ use v6;
     # [1, 2, 3]
 }
 
-
-
-
 # {
 #     sub foo( Int @a ) {
 #         dd @a;
