@@ -39,6 +39,8 @@ use v6;
         dd @a;
     }
 
-    foo [1, 2, 3];
+    my Array[Int] $a = [1, 2, 3];
+
+    foo $a;
     # [1, 2, 3]
 }
