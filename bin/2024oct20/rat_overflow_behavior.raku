@@ -10,4 +10,7 @@ my $c = 1_000;
 for ($s .. $s + $c) -> $x { 
     my $rat = Rat.new(1, $x);
     say "1/x where x $x: ", $rat if $x%100 eq 0;
+
+    say "exact?" if $rat eq 0.000000000000000000000000001
+
 }
