@@ -40,12 +40,15 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_overflow_behav
 
 
 **** raku
+#+BEGIN_SRC raku
+use CoreHackers::Sourcery;
+say sourcery Rat, 'new', \(1, 264)
+say &infix:</>.sourcery(1, 264)
+#+END_SRC
 
-**** use CoreHackers::Sourcery;
+**** 
 
-**** say sourcery Rat, 'new', \(1, 264)
-
-**** say &infix:</>.sourcery(1, 264)
+**** 
 
 *** another extensive discussion of everything
 **** praise for node vs python
