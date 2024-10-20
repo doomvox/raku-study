@@ -15,6 +15,11 @@
 *** types and arrays
 **** https://github.com/Raku/problem-solving/issues/426
 
+*** automatic FatRat upgrade behavior
+**** https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
+#+BEGIIN_SRC raku
+
+#+END_SRC
 
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-290/
