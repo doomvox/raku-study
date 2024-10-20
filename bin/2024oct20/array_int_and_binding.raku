@@ -56,7 +56,7 @@ use v6;
 # }
 
 
-{
-    my Int @n = 1, 2, 3;
-    @n.push('a');       # Type check failed for an element of @n; expected Int but got Str ("a")
-}
+# {
+#     my Int @n = 1, 2, 3;
+#     @n.push('a');       # Type check failed for an element of @n; expected Int but got Str ("a")
+# }
