@@ -61,3 +61,15 @@ use v6;
 #     my Int @n = 1, 2, 3;
 #     @n.push('a');       # Type check failed for an element of @n; expected Int but got Str ("a")
 # }
+
+
+
+{
+    my Real @r = 1.1, 2.2, 3.3;
+    my Cool @c = 4.4, 5.5, 6.6;
+
+ 
+
+
+    
+}
