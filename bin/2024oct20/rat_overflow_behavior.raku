@@ -5,3 +5,7 @@
 use v6;
 
 
+for (0 .. 1000) -> $x { 
+    my $fr = FatRat.new(1, $x);
+    say $fr;
+}
