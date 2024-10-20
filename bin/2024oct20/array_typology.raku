@@ -16,3 +16,4 @@ say @n;  # [1 2 3]
 ## #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/array_typology.raku line 13
 
 
+@n[3] = 4;
