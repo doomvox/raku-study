@@ -38,6 +38,13 @@ chugging along:"
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/rat_overflow_behavior.raku
 https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_overflow_behavior.raku
 
+
+**** raku
+
+**** use CoreHackers::Sourcery;
+
+**** say sourcery Rat, 'new', \(1, 264)
+
 *** another extensive discussion of everything
 **** praise for node vs python
 ***** dependency model is project based.
