@@ -1,0 +1,106 @@
+* meeting notes October 6, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024oct20.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024oct20
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024oct06.org
+
+** topics
+*** a brief history of important stuff (perl, raku, etc)
+**** #+BEGIN_SRC text
+13:45:22 From Joseph Brenner To Everyone:
+	"Second system done right!"
+
+13:45:50 From Márton To Everyone:
+	Poul-Henning Kamp wins
+#+END_SRC
+**** https://en.wikipedia.org/wiki/Poul-Henning_Kamp
+
+*** smartmatch, threat or menace? 
+**** "In general, the left side of ~~ should not be auto-threading" #297
+***** https://github.com/Raku/problem-solving/issues/297
+
+
+*** Rob
+**** module on zef, raku land 
+**** raku interface for IUP 
+***** making gtk3 more like tk
+**** https://raku.land/github:0rir/IUP
+**** entry in raku.land
+**** warning up top, uploading author doesn't match
+
+**** trying to debug what's up with robs mods and flailing with json files, but whatever
+***** cut and pasting a chunk of json into an org mode file can conuse it tremendously
+***** maybe needed BEGIN/END blocks around it
+
+*** https://360.zef.pm/
+
+curl -o 360.json https://360.zef.pm/
+jq . < 360.json > 360_formatted.json
+
+**** cpan to raku.land
+***** p6c "support" for raku.land and zef going away 
+****** link from lizmant in chat
+
+**** From Raku Weekly:
+***** https://rakudoweekly.blog/2024/09/30/2024-40-done-25/
+***** "Wenzel P.P. Peppmeyer added HyperWhatever support for postcircumfix { } in 6.e."
+***** bruce gray:
+****** https://gist.github.com/gfldex/381b402a5356bd97fb2ff7194a25dd96  Tests for assoc-hyperwhatever
+****** https://github.com/Raku/problem-solving/issues/287  HyperWhatever in subscripts
+****** https://github.com/rakudo/rakudo/pull/4449  Add Associative HyperWhatever support
+****** https://github.com/rakudo/rakudo/pull/4469  Positional hyperwhatever
+
+**** hypers and junctions
+https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junctions
+
+
+
+***** utf-c8 eats anything (via Raku Weekly)
+****** https://fosstodon.org/@VZ/113189336040180423
+
+@VZ@fosstodon.org
+
+TIL about #utf8-c8 encoding in #rakulang: using it allows the code to
+read non-UTF-8 files but still represent them as normal strings inside
+the program.
+
+The only gotcha is to remember to also use `enc => 'utf8-c8'` when
+writing anything back to disk, if you need to do it because forgetting
+it doesn't result in an error, unlike on input, but produces garbage
+in the output, so you do need to be careful. But other than that this
+is a pretty painless way of dealing with non-UTF-8 files.
+
+
+
+***** weekly challenge 
+****** https://theweeklychallenge.org/blog/perl-weekly-challenge-288/
+******* rob worked through the first problem, the palindrome question.
+
+****** https://theweeklychallenge.org/blog/perl-weekly-challenge-289/
+
+
+***** raku knowledge base
+****** https://raku-knowledge-base.podlite.org/
+
+
+*** announcements 
+**** next meetings (no reason to deviate from 'every two weeks')
+***** Oct 20
+***** Nov 3
+***** Nov 17
+***** breaking the 2 week pattern:
+****** Dec 8
+
+**** Perl Science Conference (Virtual) Wednesday 2024-12-18
+***** https://www.reddit.com/r/perl/comments/1ffbeg6/perl_community_conference_winter_2024_call_for/
+
+**** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
+***** https://news.perlfoundation.org/post/dates_set_tprc_2025
+
+
