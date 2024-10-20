@@ -18,3 +18,4 @@ say $fat, ' ', $fat.nude;
 
 my $rat2 = $fat.Rat;
 say $rat2, ' ', $rat2.nude;
+# Cannot convert from FatRat to Rat because denominator is too big
