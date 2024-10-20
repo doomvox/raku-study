@@ -63,20 +63,20 @@ use v6;
 # }
 
 
-{
-    sub foo( Int @a ) {
-        dd @a;
-    }
+# {
+#     sub foo( Int @a ) {
+#         dd @a;
+#     }
 
-    my Array[Int] @a = [1, 2, 3];
+#     my Array[Int] @a = [1, 2, 3];
 
-    foo @a;
+#     foo @a;
 
-    # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/remedial_typology.raku
-    # Calling foo(Positional[Array[Int]]) will never work with declared signature (Int @a)
-    # at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/remedial_typology.raku:73
-    # ------>     ⏏foo @a;
+#     # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/remedial_typology.raku
+#     # Calling foo(Positional[Array[Int]]) will never work with declared signature (Int @a)
+#     # at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/remedial_typology.raku:73
+#     # ------>     ⏏foo @a;
 
 
 
-}
+# }
