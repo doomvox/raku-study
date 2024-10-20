@@ -12,6 +12,9 @@
 
 ** topics
 
+*** types and arrays
+**** https://github.com/Raku/problem-solving/issues/426
+
 **** weekly challenge 
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-290/
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-291/
