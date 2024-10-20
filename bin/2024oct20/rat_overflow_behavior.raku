@@ -20,10 +20,9 @@ my $s = $d_limit - 3;
 my $c = 30;
 
 for ($s .. $s + $c) -> $x { 
-    my $*RAT-OVERFLOW = FatRat;
-
     my $rat = Rat.new(1, $x);
 
+    my $*RAT-OVERFLOW = FatRat;
     my $whatever = 1/$x;
     say "whatever: ", $whatever.^name;
     
