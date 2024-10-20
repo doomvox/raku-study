@@ -7,7 +7,7 @@ use v6;
 my $d = 1_000_000_000_000_000_000_000_000_000_000_000_000_000_000_000;
 
 # new syntax Rat allows overflow denominators
-my $rat = Rat.new(1, $d);
+my $rat = Rat.new(1, $d);   ## doesn't throw an error
 say $rat, ' ', $rat.nude;
 # 0.000000000000000000000000000000000000000000001 (1 1000000000000000000000000000000000000000000000)
 
