@@ -10,4 +10,6 @@ use v6;
 # foo [1, 2, 3];
 
 
-sub foo(Int @a) { dd @a; }
+sub foo(Int @a) {
+    dd @a;
+}
