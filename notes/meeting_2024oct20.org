@@ -18,7 +18,13 @@
 *** automatic FatRat upgrade behavior
 **** https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
 #+BEGIIN_SRC raku
+# So to activate this globally to upgrade to FatRat, you'd do:
 
+INIT $*RAT-OVERFLOW = FatRat;
+
+# To activate this only for a lexical scope:
+
+my $*RAT-OVERFLOW = FatRat;
 #+END_SRC
 
 *** weekly challenge 
