@@ -28,7 +28,7 @@ for ($s .. $s + $c) -> $x {
         say $rat.WHAT;
         my ($over, $under) = $rat.nude;
         say "1/x where x $x: ", $rat;
-        say "Overflow?" if $rat eq 0.000000000000000000000000001;
+#        say "Overflow?" if $rat eq 0.000000000000000000000000001;
         say "denom: ", $under;
         say "big denom" if $under > $d_limit;
         say "not seeing expected demoninator " if $x != $under;
