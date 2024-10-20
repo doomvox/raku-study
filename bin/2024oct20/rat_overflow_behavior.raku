@@ -17,7 +17,7 @@ say "===";
 
 my $s = $d_limit - 20;
 
-my $c = 1000;
+my $c = 30;
 
 for ($s .. $s + $c) -> $x { 
     my $rat = Rat.new(1, $x);
