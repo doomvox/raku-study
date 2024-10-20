@@ -27,12 +27,9 @@ my $*RAT-OVERFLOW = FatRat;
 #+END_SRC
 
 **** https://docs.raku.org/language/numerics
-***** "The last Rational type-- FatRat-- keeps all of the precision you ask of
-it, storing the numerator and denominator as two Int objects. "
+***** "The last Rational type-- FatRat-- keeps all of the precision you ask of it, storing the numerator and denominator as two Int objects. "
 
-***** "A FatRat is more infectious than a Rat, so many math operations with a
-FatRat will produce another FatRat, preserving all of the available
-precision."
+***** "A FatRat is more infectious than a Rat, so many math operations with a FatRat will produce another FatRat, preserving all of the available precision."
 
 ***** "Where a Rat degrades to aNum, math with a FatRat keeps chugging along:"
 
