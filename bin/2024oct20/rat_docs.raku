@@ -17,6 +17,6 @@ say $b.^name;             # Num
  
 my $c = Rat.new(1, 2⁶⁴);
 say $c;                   # 0.000000000000000000054 
-say $c.^name;             # Rat 
-say $c.nude;              # (1 18446744073709551616) 
+say $c.^name;             # Rat                        ## This form is a Rat?
+say $c.nude;              # (1 18446744073709551616)   ## But 
 say $c.Num;               # 5.421010862427522e-20
