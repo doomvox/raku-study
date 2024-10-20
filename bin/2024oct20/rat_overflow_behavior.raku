@@ -17,6 +17,7 @@ for ($s .. $s + $c) -> $x {
         say "1/x where x $x: ", $rat;
         say "Overflow?" if $rat eq 0.000000000000000000000000001;
         say "denom: ", $under;
+        say "not seeing expected demoninator: ", $x <> $under;
     }
 
 }
