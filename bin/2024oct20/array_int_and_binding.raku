@@ -41,8 +41,9 @@ use v6;
 
 
 
+## Nice enough, this works pretty well, interesting the error message references @n
 
-# {
+# { 
 #     my Int @n = 1, 2, 3;
 
 #     my @m = 5, 6, 7;
