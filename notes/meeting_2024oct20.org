@@ -17,6 +17,7 @@
 
 *** automatic FatRat upgrade behavior when you overflow Rat
 **** https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
+***** lizmat:
 #+BEGIIN_SRC raku
 # So to activate this globally to upgrade to FatRat, you'd do:
 INIT $*RAT-OVERFLOW = FatRat;
