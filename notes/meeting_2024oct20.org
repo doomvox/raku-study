@@ -45,7 +45,7 @@ say sourcery Rat, 'new', \(1, 264)
 say &infix:</>.sourcery(1, 264)         ## looking at the operator: /
 #+END_SRC
 
-**** elegant demo of Rat oddity
+**** simple demo of this Rat oddity
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/rat_fatrat_rat.raku
 https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_fatrat_rat.raku
 
