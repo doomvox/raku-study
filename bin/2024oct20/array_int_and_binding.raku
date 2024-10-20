@@ -84,5 +84,6 @@ say "===";
     @r := @c;
 
     say @c;  # [1.1 2.2 3.3]
+    # Type check failed in binding; expected Positional[Real] but got Array[Cool] (Array[Cool].new(4.4,...)
 
 }
