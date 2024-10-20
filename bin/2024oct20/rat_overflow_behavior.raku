@@ -21,6 +21,8 @@ my $c = 30;
 
 for ($s .. $s + $c) -> $x { 
     my $rat = Rat.new(1, $x);
+
+    my $whatever = 1/$x;
     
 #    if $x%100 eq 0 {
     if $x%1 eq 0 {
