@@ -21,12 +21,6 @@
 **** hypers and junctions
 https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junctions
 
-
-
-
-
-
-
 ***** raku knowledge base
 ****** https://raku-knowledge-base.podlite.org/
 
