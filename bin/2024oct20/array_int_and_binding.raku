@@ -50,7 +50,7 @@ use v6;
     @m := @n;
  
     say @m;  # [1 2 3]
-    @m.push('a');
+    @m.push('a');       # Type check failed for an element of @n; expected Int but got Str ("a")
     say @m;  # [1 2 3]
 
 }
