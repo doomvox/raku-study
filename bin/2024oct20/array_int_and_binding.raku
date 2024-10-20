@@ -42,15 +42,24 @@ use v6;
 
 
 
+# {
+#     my Int @n = 1, 2, 3;
+
+#     my @m = 5, 6, 7;
+
+#     @m := @n;
+ 
+#     say @m;  # [1 2 3]
+#     @m.push('a');       # Type check failed for an element of @n; expected Int but got Str ("a")
+#     say @m;  # [1 2 3]
+
+# }
+
+
 {
     my Int @n = 1, 2, 3;
 
-    my @m = 5, 6, 7;
+    @n.push('a');       # Type check failed for an element of @n; expected Int but got Str ("a")
 
-    @m := @n;
- 
-    say @m;  # [1 2 3]
-    @m.push('a');       # Type check failed for an element of @n; expected Int but got Str ("a")
-    say @m;  # [1 2 3]
 
 }
