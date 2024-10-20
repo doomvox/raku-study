@@ -12,6 +12,9 @@
 
 ** topics
 
+**** weekly challenge 
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-290/
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-291/
 
 ** old topics
 
@@ -20,28 +23,8 @@ https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junct
 
 
 
-***** utf-c8 eats anything (via Raku Weekly)
-****** https://fosstodon.org/@VZ/113189336040180423
-
-@VZ@fosstodon.org
-
-TIL about #utf8-c8 encoding in #rakulang: using it allows the code to
-read non-UTF-8 files but still represent them as normal strings inside
-the program.
-
-The only gotcha is to remember to also use `enc => 'utf8-c8'` when
-writing anything back to disk, if you need to do it because forgetting
-it doesn't result in an error, unlike on input, but produces garbage
-in the output, so you do need to be careful. But other than that this
-is a pretty painless way of dealing with non-UTF-8 files.
 
 
-
-***** weekly challenge 
-****** https://theweeklychallenge.org/blog/perl-weekly-challenge-288/
-******* rob worked through the first problem, the palindrome question.
-
-****** https://theweeklychallenge.org/blog/perl-weekly-challenge-289/
 
 
 ***** raku knowledge base
