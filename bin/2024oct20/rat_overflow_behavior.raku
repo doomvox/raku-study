@@ -22,7 +22,8 @@ my $c = 1000;
 for ($s .. $s + $c) -> $x { 
     my $rat = Rat.new(1, $x);
     
-    if $x%100 eq 0 {
+#    if $x%100 eq 0 {
+    if $x%1 eq 0 {
         # my $*RAT-OVERFLOW = FatRat;
         say $rat.WHAT;
         my ($over, $under) = $rat.nude;
