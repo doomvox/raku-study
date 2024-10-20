@@ -31,7 +31,6 @@ for ($s .. $s + $c) -> $x {
         say "denom: ", $under;
         say "big denom" if $under > $d_limit;
         say "not seeing expected demoninator " if $x != $under;
-
     }
 
 }
