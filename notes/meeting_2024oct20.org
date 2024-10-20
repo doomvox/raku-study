@@ -43,7 +43,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_overflow_behav
 #+BEGIN_SRC raku
 use CoreHackers::Sourcery;
 say sourcery Rat, 'new', \(1, 264)
-say &infix:</>.sourcery(1, 264)         ## looking at the operator /
+say &infix:</>.sourcery(1, 264)         ## looking at the operator: /
 #+END_SRC
 
 
