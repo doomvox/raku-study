@@ -16,3 +16,6 @@ sub foo(Int @a) {
 
 foo [1, 2, 3];
 
+# Type check failed in binding to parameter '@a'; expected Positional[Int] but got Array ([1, 2, 3])
+#   in sub foo at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/remedial_typology.raku line 13
+#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/remedial_typology.raku line 17
