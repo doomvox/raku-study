@@ -7,7 +7,7 @@ use v6;
 my $d = 1_000_000_000_000_000_000_000_000_000_000_000_000_000_000_000;
 
 my $badrat = 1 / $d;
-say $badrat.^name, ' ', $badrat, ' ', $badrat.nude;
+say $badrat.^name, ' ', $badrat, ' '; ## , $badrat.nude;
 
 # new syntax Rat allows overflow denominators
 my $rat = Rat.new(1, $d);   ## doesn't throw an error
