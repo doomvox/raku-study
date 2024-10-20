@@ -48,13 +48,15 @@ say &infix:</>.sourcery(1, 264)         ## looking at the operator: /
 **** weird Rat oddity
 
 ***** With $n = 1 / $biggie, if $biggie exceeds 2^64, you get a Num
-
 ****** Though, if you use lizmat's trick, you'd get a FatRat
 #+BEGIN_SRC raku
 my $*RAT-OVERFLOW = FatRat;
 #+END_SRC
 
-***** with $n = Rat.new( 1, $biggie ) 
+***** But this, rather weirdly, just works 
+#+BEGIN_SRC raku
+$n = Rat.new( 1, $biggie )
+#+END_SRC
 
 **** simple demo of this Rat oddity
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/rat_fatrat_rat.raku
