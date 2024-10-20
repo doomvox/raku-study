@@ -12,7 +12,6 @@ use v6;
 my $d_limit = 2 ** 64;
 say "Rat demoninator limit: ", $d_limit;
 say "===";
-exit;
 
 my $s = 1_000_000_000_000_000_000_000_000_000_000_000_000_000_000_000;
 my $c = 10000;
