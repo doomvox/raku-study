@@ -6,7 +6,7 @@ use v6;
 
 
 
-my Int @n = [ 1, 2, 3 ];
+my Int @n =  1, 2, 3;
 
 say @n;  # [1 2 3]
 
