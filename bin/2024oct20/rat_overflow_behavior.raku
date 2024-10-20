@@ -5,7 +5,7 @@
 use v6;
 
 
-for (0 .. 1000) -> $x { 
+for (1 .. 1000) -> $x { 
     my $rat = Rat.new(1, $x);
     say $rat;
 }
