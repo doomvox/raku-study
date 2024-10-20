@@ -16,6 +16,7 @@ for ($s .. $s + $c) -> $x {
         my ($over, $under) = $rat.nude;
         say "1/x where x $x: ", $rat;
         say "Overflow?" if $rat eq 0.000000000000000000000000001;
+        say $over, $under;
     }
 
 }
