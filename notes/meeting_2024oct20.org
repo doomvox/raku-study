@@ -46,10 +46,6 @@ say sourcery Rat, 'new', \(1, 264)
 say &infix:</>.sourcery(1, 264)         ## looking at operator /
 #+END_SRC
 
-
-
-
-
 *** another extensive discussion of everything
 **** praise for node vs python
 ***** dependency model is project based.
