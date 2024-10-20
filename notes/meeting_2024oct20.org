@@ -36,7 +36,7 @@ chugging along:"
 
 
 *** another extensive discussion of everything
-**** praise for node
+**** praise for node vs python
 ***** dependency model is project based.
 ***** can have various versions in lib directory
 
