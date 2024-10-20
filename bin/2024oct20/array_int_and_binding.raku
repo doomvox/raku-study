@@ -67,6 +67,7 @@ use v6;
 {
     my Real @r = 1.1, 2.2, 3.3;
     my Cool @c = 4.4, 5.5, 6.6;
+    say @r;
 
     @c := @r;
 
