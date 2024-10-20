@@ -13,3 +13,6 @@ use v6;
 sub foo(Int @a) {
     dd @a;
 }
+
+foo [1, 2, 3];
+
