@@ -31,7 +31,7 @@ use v6;
 {
     my Int @n = 1, 2, 3;
 
-    my Cool @m = 5, 6, 7;
+    my Cool @m = 5, 6, 7;  # Works as well as Any, Cool is up above Int in hierarchy
 
     @m := @n;
  
