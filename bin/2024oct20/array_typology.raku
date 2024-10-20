@@ -8,7 +8,7 @@ use v6;
 
 my Int @n = 1, 2, 3;
 
-say @n;
+say @n;  # [1 2 3]
 
 @n[3] = 'a';
 
