@@ -42,5 +42,5 @@ use v6;
     my Array[Int] $a = [1, 2, 3];
 
     foo $a;
-    # [1, 2, 3]
+
 }
