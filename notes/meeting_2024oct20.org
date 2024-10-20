@@ -47,6 +47,7 @@ say &infix:</>.sourcery(1, 264)         ## looking at the operator: /
 #+END_SRC
 
 
+
 *** another extensive discussion of everything
 **** praise for node vs python
 ***** dependency model is project based.
@@ -55,6 +56,9 @@ say &infix:</>.sourcery(1, 264)         ## looking at the operator: /
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-290/
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-291/
+
+*** future topic
+**** rob has been looking into nqp::bindattr 
 
 ** old topics
 
