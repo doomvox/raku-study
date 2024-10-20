@@ -13,6 +13,7 @@ for ($s .. $s + $c) -> $x {
     if $x%100 eq 0 {
         my $*RAT-OVERFLOW = FatRat;
         say $rat.WHAT;
+        my ($over, $under) = $rat.nude;
         say "1/x where x $x: ", $rat;
         say "Overflow?" if $rat eq 0.000000000000000000000000001;
     }
