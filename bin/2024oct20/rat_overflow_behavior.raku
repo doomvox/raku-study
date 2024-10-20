@@ -10,7 +10,7 @@ use v6;
 
 # say 2 ** 64; # 18446744073709551616
 my $d_limit = 2 ** 64;
-say $d_limit;
+say "Rat demoninator limit: ", $d_limit;
 say "===";
 exit;
 
