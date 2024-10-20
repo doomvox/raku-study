@@ -15,7 +15,7 @@ my $b = 1 / 2⁶⁴;
 say $b;                   # 5.421010862427522e-20 
 say $b.^name;             # Num 
  
-my $c = Rat.new(1, 2⁶⁴);                               ## Why not an error
+my $c = Rat.new(1, 2⁶⁴);                               ## Why not an error?
 say $c;                   # 0.000000000000000000054 
 say $c.^name;             # Rat                        ## This form is a Rat?
 say $c.nude;              # (1 18446744073709551616)   ## But this is too big for Rat?
