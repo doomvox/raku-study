@@ -15,7 +15,7 @@
 *** types and arrays
 **** https://github.com/Raku/problem-solving/issues/426
 
-*** automatic FatRat upgrade behavior
+*** automatic FatRat upgrade behavior when you overflow Rat
 **** https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
 #+BEGIIN_SRC raku
 # So to activate this globally to upgrade to FatRat, you'd do:
