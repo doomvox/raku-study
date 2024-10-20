@@ -11,9 +11,8 @@ for ($s .. $s + $c) -> $x {
     my $rat = Rat.new(1, $x);
 
     if $x%100 eq 0 {
-        say "1/x where x $x: ", $rat 
-
-                                 say "exact?" if $rat eq 0.000000000000000000000000001;
+        say "1/x where x $x: ", $rat;
+        say "exact?" if $rat eq 0.000000000000000000000000001;
     }
 
 }
