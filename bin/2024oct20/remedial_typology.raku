@@ -4,7 +4,7 @@
 
 use v6;
 
-https://github.com/Raku/problem-solving/issues/426
+# https://github.com/Raku/problem-solving/issues/426
 
 # sub foo(Int @a) { dd @a; }
 # foo [1, 2, 3];
