@@ -49,14 +49,16 @@ use v6;
 # }
 
 
-{
-    sub foo( Int @a ) {
-        dd @a;
-    }
+# {
+#     sub foo( Int @a ) {
+#         dd @a;
+#     }
 
-    my Array of Int $a = [1, 2, 3];
+#     my Array of Int $a = [1, 2, 3];
 
-    foo $a;
+#     foo $a;
+# # Type check failed in assignment to $a; expected Array[Int] but got Array ([1, 2, 3])
+# #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/remedial_typology.raku line 57
 
-}
+# }
 
