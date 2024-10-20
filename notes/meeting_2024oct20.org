@@ -49,9 +49,18 @@ say &infix:</>.sourcery(1, 264)         ## looking at the operator: /
 
 
 *** another extensive discussion of everything
+**** tcl/"tickle"
+***** new version came out in September
+****** 64bit
+****** unicode
+***** John Ousterhout
+****** Book: Philosophy of Software Design
+
 **** praise for node vs python
 ***** dependency model is project based.
 ***** can have various versions in lib directory
+
+
 
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-290/
