@@ -7,5 +7,5 @@ use v6;
 
 for (1 .. 1000) -> $x { 
     my $rat = Rat.new(1, $x);
-    say $rat;
+    say $rat if $x%100;
 }
