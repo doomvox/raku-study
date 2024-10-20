@@ -4,13 +4,25 @@
 
 use v6;
 
+{
+    my Int @n = 1, 2, 3;
 
-my Int @n = 1, 2, 3;
+    my @m = 5, 6, 7;
 
-my @m = 5, 6, 7;
+    @n := @m;
 
-@n := @m;
+    # Type check failed in binding; expected Positional[Int] but got Array ([5, 6, 7])
+    #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/array_int_and_binding.raku line 12
 
-# Type check failed in binding; expected Positional[Int] but got Array ([5, 6, 7])
-#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/array_int_and_binding.raku line 12
+}
 
+
+{
+    my Int @n = 1, 2, 3;
+
+    my @m = 5, 6, 7;
+
+    @m := @n;
+
+
+}
