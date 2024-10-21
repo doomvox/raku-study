@@ -18,6 +18,10 @@
 https://docs.raku.org/assets/typegraphs/Rational.svg
 https://docs.raku.org/assets/typegraphs/Array.svg
 
+*** raku signature docs on "destructuring"
+**** https://docs.raku.org/language/signatures#Destructuring_arguments
+**** I'd had the impression they were a perl5 Multi::Dispatch thing
+
 *** automatic FatRat upgrade behavior when you overflow Rat
 **** https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
 ***** lizmat:
