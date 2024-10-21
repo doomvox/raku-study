@@ -85,7 +85,6 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_fatrat_rat.rak
 ****** new version came out in September
 ******* 64bit
 ******* unicode
-
 ******* uses: 
 ******** https://en.wikipedia.org/wiki/Epoll
 ******** https://en.wikipedia.org/wiki/Kqueue
