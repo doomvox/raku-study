@@ -59,7 +59,7 @@ $n = Rat.new( 1, $biggie );
 #+END_SRC
 
 ***** Simple demo of this Rat oddity: 
-****** A toofat Rat can become a FatRat that can't become a Rat
+****** A toofat Rat can become a FatRat but it can't become a Rat again
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/rat_fatrat_rat.raku
 https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_fatrat_rat.raku
 
