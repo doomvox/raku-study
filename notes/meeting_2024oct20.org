@@ -57,6 +57,7 @@ say &infix:</>.sourcery(1, 264)         ## looking at the operator: /
 
 https://github.com/rakudo/rakudo/blob/2023.02/src/core.c/Rational.pm6#L24
 https://github.com/rakudo/rakudo/blob/2023.02/src/core.c/Rat.pm6#L245
+https://github.com/rakudo/rakudo/blob/6c2f9194f2a5510b3432949374f5d25e81a6d7a6/src/core.c/Rat.pm6
 
 
 **** weird Rat oddity: toofat Rats (that aren't FatRats)
