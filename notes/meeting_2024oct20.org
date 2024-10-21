@@ -81,8 +81,6 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_fatrat_rat.rak
 ***** dependency model is project based.
 ***** can have various versions in lib directory
 
-
-
 *** weekly challenge 
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-290/
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-291/
