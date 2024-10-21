@@ -48,12 +48,14 @@ my $*RAT-OVERFLOW = FatRat;
 https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_overflow_behavior.raku
 
 
-***** using sourcery in the raku repl:
+***** once again: using sourcery in the raku repl:
 #+BEGIN_SRC raku
 use CoreHackers::Sourcery;
 say sourcery Rat, 'new', \(1, 264)
 say &infix:</>.sourcery(1, 264)         ## looking at the operator: /
 #+END_SRC
+
+
 
 https://github.com/rakudo/rakudo/blob/2023.02/src/core.c/Rational.pm6#L24
 https://github.com/rakudo/rakudo/blob/2023.02/src/core.c/Rat.pm6#L245
