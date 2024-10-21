@@ -91,6 +91,9 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_fatrat_rat.rak
 
 ***** John Ousterhout
 ****** Book: A Philosophy of Software Design
+****** https://wiki.tcl-lang.org/page/A%20Philosophy%20of%20Software%20Design
+****** https://web.stanford.edu/~ouster/cgi-bin/book.php
+****** https://web.stanford.edu/~ouster/cgi-bin/aposd2ndEdExtract.pdf
 
 
 **** praise for node vs python (Tim Schafer)
