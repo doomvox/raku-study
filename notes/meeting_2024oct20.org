@@ -58,9 +58,12 @@ my $*RAT-OVERFLOW = FatRat;
 $n = Rat.new( 1, $biggie );
 #+END_SRC
 
-***** simple demo of this Rat oddity
+***** Simple demo of this Rat oddity: 
+****** A toofat Rat can become a FatRat that can't become a Rat
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/rat_fatrat_rat.raku
 https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_fatrat_rat.raku
+
+
 
 *** another extensive discussion of everything
 **** tcl/"tickle"
