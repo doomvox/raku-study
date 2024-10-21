@@ -53,7 +53,7 @@ say &infix:</>.sourcery(1, 264)         ## looking at the operator: /
 my $*RAT-OVERFLOW = FatRat;
 #+END_SRC
 
-***** But this, rather weirdly, just works 
+***** But this, rather weirdly, just works giving you a Rat with a denominator that exceeds limit
 #+BEGIN_SRC raku
 $n = Rat.new( 1, $biggie );
 #+END_SRC
