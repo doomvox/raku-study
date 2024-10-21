@@ -16,6 +16,7 @@
 **** https://github.com/Raku/problem-solving/issues/426
 
 https://docs.raku.org/assets/typegraphs/Rational.svg
+https://docs.raku.org/assets/typegraphs/Array.svg
 
 *** automatic FatRat upgrade behavior when you overflow Rat
 **** https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
