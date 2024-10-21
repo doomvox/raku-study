@@ -15,6 +15,8 @@
 *** types and arrays
 **** https://github.com/Raku/problem-solving/issues/426
 
+https://docs.raku.org/assets/typegraphs/Rational.svg
+
 *** automatic FatRat upgrade behavior when you overflow Rat
 **** https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
 ***** lizmat:
@@ -110,5 +112,6 @@ https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junct
 
 **** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
 ***** https://news.perlfoundation.org/post/dates_set_tprc_2025
+
 
 
