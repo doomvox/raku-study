@@ -18,6 +18,7 @@
 https://docs.raku.org/assets/typegraphs/Rational.svg
 https://docs.raku.org/assets/typegraphs/Array.svg
 https://docs.raku.org/type/Int
+https://docs.raku.org/assets/typegraphs/Rational.svg
 
 
 *** raku signature docs on "destructuring"
