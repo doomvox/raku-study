@@ -55,6 +55,9 @@ say sourcery Rat, 'new', \(1, 264)
 say &infix:</>.sourcery(1, 264)         ## looking at the operator: /
 #+END_SRC
 
+https://github.com/rakudo/rakudo/blob/2023.02/src/core.c/Rational.pm6#L24
+
+
 **** weird Rat oddity: toofat Rats (that aren't FatRats)
 
 ***** With $n = 1 / $biggie, if $biggie exceeds 2^64, you get a Num
