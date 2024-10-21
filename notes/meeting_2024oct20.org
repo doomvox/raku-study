@@ -75,7 +75,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_fatrat_rat.rak
 ****** 64bit
 ****** unicode
 ***** John Ousterhout
-****** Book: Philosophy of Software Design
+****** Book: A Philosophy of Software Design
 
 **** praise for node vs python
 ***** dependency model is project based.
