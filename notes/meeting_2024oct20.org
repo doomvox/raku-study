@@ -55,10 +55,10 @@ my $*RAT-OVERFLOW = FatRat;
 
 ***** But this, rather weirdly, just works 
 #+BEGIN_SRC raku
-$n = Rat.new( 1, $biggie )
+$n = Rat.new( 1, $biggie );
 #+END_SRC
 
-**** simple demo of this Rat oddity
+***** simple demo of this Rat oddity
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/rat_fatrat_rat.raku
 https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_fatrat_rat.raku
 
