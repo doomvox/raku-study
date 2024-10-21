@@ -81,11 +81,13 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_fatrat_rat.rak
 
 *** another extensive discussion of everything
 **** tcl/"tickle"
-***** new version came out in September
-****** 64bit
-****** unicode
+***** https://en.wikipedia.org/wiki/Tcl
+****** new version came out in September
+******* 64bit
+******* unicode
 ***** John Ousterhout
 ****** Book: A Philosophy of Software Design
+
 
 **** praise for node vs python (Tim Schafer)
 ***** dependency model is project based.
