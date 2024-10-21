@@ -77,7 +77,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_fatrat_rat.rak
 ***** John Ousterhout
 ****** Book: A Philosophy of Software Design
 
-**** praise for node vs python
+**** praise for node vs python (Tim Schafer)
 ***** dependency model is project based.
 ***** can have various versions in lib directory
 
