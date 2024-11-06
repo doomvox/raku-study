@@ -9,6 +9,19 @@ use v6;
 
 ## https://docs.raku.org/language/numerics#Rat
 
+## The most common of Rational types.
+
+## It supports rationals with denominators as large as 64 bits.
+
+## Rat objects with larger denominators can be created directly, however,
+## when Rats with such denominators are the result of mathematical operations, they degrade to a Num object.
+
+
+
+
+
+
+
 ## "The last Rational type-- FatRat-- keeps all of the precision you
 ## ask of it, storing the numerator and denominator as two Int
 ## objects."
