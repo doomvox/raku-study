@@ -44,7 +44,7 @@ use v6;
 ## https://docs.raku.org/language/numerics#Rat
 
 
-## This degrades to Num if $big > 10**64
+## This degrades to Num if $big > 2**64
 my $num = 1 / $big;
 
 ## This gives you a Rat (not a Num or a FatRat)
