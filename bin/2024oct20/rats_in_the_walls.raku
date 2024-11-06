@@ -19,6 +19,10 @@ use v6;
 
 
 
+## If a mathematical operation that produces a Rat answer would produce a Rat with denominator larger than 64 bits, that operation would instead return a Num object. 
+
+## When constructing a Rat (i.e. when it is not a result of some mathematical expression), however, a larger denominator can be used:
+
 
 
 
@@ -32,3 +36,7 @@ use v6;
 ## available precision."
 
 ## "Where a Rat degrades to a Num, math with a FatRat keeps chugging along:"
+
+
+
+## ===
