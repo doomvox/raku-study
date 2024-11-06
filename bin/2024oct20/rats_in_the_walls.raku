@@ -40,3 +40,5 @@ use v6;
 
 
 ## ===
+
+## https://docs.raku.org/language/numerics#Rat
