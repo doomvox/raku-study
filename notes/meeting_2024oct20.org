@@ -83,7 +83,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_fatrat_rat.rak
 
 **** grepping tests
 ***** nothing in rakudo that does a "Rat.new"
-***** Maron insists he seen them in roast tests
+***** Marton insists he seen them in roast tests
 ****** they're not in roast on my machine though (?)
 
 *** another extensive discussion of everything
