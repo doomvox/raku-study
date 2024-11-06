@@ -42,3 +42,10 @@ use v6;
 ## ===
 
 ## https://docs.raku.org/language/numerics#Rat
+
+
+## This degrades to Num if $big > 10**64
+my $num = 1 / $big;
+
+## This gives you a Rat (not a Num or a FatRat)
+my $rat = Rat.new(1, $big);   
