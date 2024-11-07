@@ -19,7 +19,7 @@ say $rat.nude;
 # (1 1000000000000000000000000000000000000000000000)
 
 my $fat = $rat.FatRat;
-say $fat.^name, ' ', $fat.nude;
+say $fat.^name, ': ', $fat.nude;
 # FatRat (1 1000000000000000000000000000000000000000000000)
 
 my $rat2 = $fat.Rat;
