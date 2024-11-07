@@ -6,6 +6,7 @@ use v6;
 
 my $d = 1_000_000_000_000_000_000_000_000_000_000_000_000_000_000_000;
 
+# When denominator $d is too big, instead of a Rat you get a Num (default behavior)
 my $badrat = 1 / $d;
 say $badrat.^name, ' ', $badrat, ' '; ## Num 1e-45      ## note: no .nude method on Num
 
