@@ -9,7 +9,7 @@ my $d = 1_000_000_000_000_000_000_000_000_000_000_000_000_000_000_000;
 my $badrat = 1 / $d;
 say $badrat.^name, ' ', $badrat, ' '; ## Num 1e-45      ## note: no .nude method on Num
 
-# new syntax Rat allows overflow denominators
+# Rat.new allows overflow denominators
 my $rat = Rat.new(1, $d);   ## doesn't throw an error, and gives you a Rat, not a Num
 say $rat.^name, ' ', $rat, ' ', $rat.nude;
 # Rat 0.000000000000000000000000000000000000000000001 (1 1000000000000000000000000000000000000000000000)
