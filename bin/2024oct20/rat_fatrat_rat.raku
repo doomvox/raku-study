@@ -18,10 +18,12 @@ say $rat.nude;
 # Rat: 0.000000000000000000000000000000000000000000001
 # (1 1000000000000000000000000000000000000000000000)
 
+# Can cast the overflowed Rat to a FatRat...
 my $fat = $rat.FatRat;
 say $fat.^name, ': ', $fat.nude;
 # FatRat: (1 1000000000000000000000000000000000000000000000)
 
+# Can't cast that FatRat back to a Rat
 my $rat2 = $fat.Rat;
 say $rat2.^name, ' ', $rat2.nude;
 # Cannot convert from FatRat to Rat because denominator is too big
