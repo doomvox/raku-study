@@ -27,6 +27,7 @@
 **** Perl Best Practices, Ch 7, p. 140, "Contiguity"
 ***** A bunch of assertions about his own experience, I think
 ***** https://flylib.com/books/en/2.146.1.110/1/
+****** legal?
 
 ** old topics
 
