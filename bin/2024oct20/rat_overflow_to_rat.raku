@@ -23,7 +23,7 @@ for ($s .. $s + $c) -> $x {
     my $rat = Rat.new(1, $x);  ## not fat rats but too fat to be rats and no this isn't confusing
 
 #    my $*RAT-OVERFLOW = Rat;     ## Marton Idea, try overlfowing to Rat not FatRat
-    my $*RAT-OVERFLOW = FatRat;     
+#    my $*RAT-OVERFLOW = FatRat;     
 
     my $whatever = 1/$x;
     say "whatever: ", $whatever.^name;
