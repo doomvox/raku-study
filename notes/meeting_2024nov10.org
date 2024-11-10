@@ -19,14 +19,14 @@
 **** but maybe most of the weirdness is in funny corners 
 
 
-*** Revisited: "Declarator Docs should be limited in scope"
+*** revisited: "Declarator Docs should be limited in scope"
 **** https://github.com/Raku/problem-solving/issues/438
 
 **** https://docs.raku.org/language/pod#Declarator_blocks
 
 **** Perl Best Practices, Ch 7, p. 140, "Contiguity"
-***** A bunch of assertions about his own experience
-
+***** A bunch of assertions about his own experience, I think
+***** https://flylib.com/books/en/2.146.1.110/1/
 
 ** old topics
 
