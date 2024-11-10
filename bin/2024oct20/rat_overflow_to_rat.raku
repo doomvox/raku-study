@@ -20,7 +20,7 @@ my $s = $d_limit - 3;
 my $c = 30;
 
 for ($s .. $s + $c) -> $x { 
-    my $rat = Rat.new(1, $x);
+    my $rat = Rat.new(1, $x);  ## not fat rats but too fat to be rats and no this isn't confusing
 
 #    my $*RAT-OVERFLOW = Rat;     ## Marton Idea, try overlfowing to Rat not FatRat
     my $*RAT-OVERFLOW = FatRat;     
