@@ -24,7 +24,7 @@ for ($s .. $s + $c) -> $x {
 
 #    my $*RAT-OVERFLOW = FatRat;     
 
-    my $*RAT-OVERFLOW = Rat;     ## Marton Idea, try overlfowing to Rat not FatRat
+#    my $*RAT-OVERFLOW = Rat;     ## Marton Idea, try overlfowing to Rat not FatRat
 # No such method 'UPGRADE-RAT' for invocant of type 'Rat'
 
 #    my $*RAT-OVERFLOW = Str; 
