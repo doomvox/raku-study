@@ -136,7 +136,6 @@ https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junct
 ***** Jan 5, 2025
 ***** Jan 19, 2025   
 ****** day before mlk day
-
 ***** Feb 2, 2025     groundhog day
 
 **** Perl Science Conference (Virtual) Wednesday 2024-12-18
