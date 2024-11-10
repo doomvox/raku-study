@@ -58,11 +58,6 @@ my $*RAT-OVERFLOW = FatRat;
 ******** "Where a Rat degrades to a Num, math with a FatRat keeps chugging along:"
 
 
-
-
-
-
-
 ***** revisited: "Declarator Docs should be limited in scope"
 ****** https://github.com/Raku/problem-solving/issues/438
 ******* lead: it would've been nice if .WHY worked in the repl
