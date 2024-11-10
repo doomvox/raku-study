@@ -22,7 +22,7 @@ my $c = 30;
 for ($s .. $s + $c) -> $x { 
     my $rat = Rat.new(1, $x);
 
-    my $*RAT-OVERFLOW = FatRat;     ## lizmat comments this needs to be documented
+    my $*RAT-OVERFLOW = FatRat;     ## lizmat comments this needs to be documented 
     my $whatever = 1/$x;
     say "whatever: ", $whatever.^name;
     
