@@ -2,15 +2,18 @@
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024oct20.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024nov10.org 
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2024oct20
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024nov10
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024oct06.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024oct20.org
 
 ** topics
+
+
+** old topics
 
 *** types and arrays
 **** https://github.com/Raku/problem-solving/issues/426
@@ -115,7 +118,7 @@ https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_fatrat_rat.rak
 *** future topic
 **** rob has been looking into nqp::bindattr 
 
-** old topics
+** even older topics
 
 **** hypers and junctions
 https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junctions
