@@ -39,6 +39,13 @@ raku    -e   'say .1 + .2 - .3'  # 0
 ***** obvious strategy: .nude extract numerator and denominatior, store seperately
 ***** then you re-create the Rats using .new, right?
 
+
+**** Bruce: Just occurred to me another way to look at the design:
+****** Raku provides a way to have perfect accuracy: Use FatRats explicitly, or $*RAT-OVERFLOW=FatRat.
+****** Raku provides a way to have maximum speed   : Use Nums explicitly.
+****** Raku defaults to a happy medium: Rats.
+
+
 **** rats from last meeting:
 
 ***** automatic FatRat upgrade behavior when you overflow Rat
