@@ -131,9 +131,13 @@ https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junct
 **** next meetings (slipped a week because reasons)
 ***** Nov 24
 ***** Dec 8
-***** Dec 22 (2 days before xmas eve)
-***** Jan 5
-***** Jan 19 day before mlk day
+***** Dec 22 
+****** 2 days before xmas eve
+***** Jan 5, 2025
+***** Jan 19, 2025   
+****** day before mlk day
+
+***** Feb 2, 2025     groundhog day
 
 **** Perl Science Conference (Virtual) Wednesday 2024-12-18
 ***** https://www.reddit.com/r/perl/comments/1ffbeg6/perl_community_conference_winter_2024_call_for/
