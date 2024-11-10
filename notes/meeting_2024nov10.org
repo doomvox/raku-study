@@ -32,7 +32,7 @@ raku    -e   'say .1 + .2 - .3'  # 0
 **** Played with using Rat as it's own overflow type
 
 **** I hereby promise to open an issue discussion on these issues.
-***** my take: design is peculiar, possibly for Reasons, and it *is* documented... 
+***** my take: design is peculiar, possibly for Reasons, and the behavior *is* documented... 
 ***** but the *reasons* it's peculiar are not terribly well explained or documented.
 ***** Similarly, the use of FatRat as alternate RAT-OVERFLOW is not well discussed
 
