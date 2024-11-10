@@ -15,7 +15,7 @@
 *** should we open an issue on FatRat/Rat.new behavior
 **** it's weird, but documented (mostly)
 **** on the other hand, it's so weird no one can believe it 
-***** need better docs/tutorials?
+***** maybe, need better docs and/or tutorials
 **** but maybe most of the weirdness is in funny corners 
 
 
