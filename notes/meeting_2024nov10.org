@@ -128,8 +128,8 @@ https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junct
 
 
 *** announcements 
-**** next meetings (no reason to deviate from 'every two weeks')
-***** Nov 3
+**** next meetings (slipped a week because reasons)
+***** Nov 24
 ***** Nov 17
 ***** breaking the 2 week pattern:
 ****** Dec 8
