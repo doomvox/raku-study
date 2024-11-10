@@ -76,7 +76,6 @@ my $*RAT-OVERFLOW = FatRat;
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/rat_overflow_behavior.raku
 https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_overflow_behavior.raku
 
-
 ***** once again: using sourcery in the raku repl:
 #+BEGIN_SRC raku
 use CoreHackers::Sourcery;
