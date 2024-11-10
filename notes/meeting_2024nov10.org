@@ -12,6 +12,10 @@
 
 ** topics
 
+*** should we open an issue on FatRat/Rat.new behavior
+**** it's weird, but documented (mostly)
+**** on the other hand, it's so weird no one can believe it 
+**** but maybe most of the weirdness is in funny corners 
 
 ** old topics
 
@@ -136,7 +140,7 @@ https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junct
 ***** Jan 5, 2025
 ***** Jan 19, 2025   
 ****** day before mlk day
-***** Feb 2, 2025     groundhog day
+***** Feb 2, 2025     
 
 **** Perl Science Conference (Virtual) Wednesday 2024-12-18
 ***** https://www.reddit.com/r/perl/comments/1ffbeg6/perl_community_conference_winter_2024_call_for/
