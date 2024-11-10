@@ -19,6 +19,10 @@
 **** but maybe most of the weirdness is in funny corners 
 
 
+*** Revisited: 
+https://github.com/Raku/problem-solving/issues/438
+
+https://docs.raku.org/language/pod#Declarator_blocks
 
 
 ** old topics
