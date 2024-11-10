@@ -22,6 +22,7 @@
 
 *** revisited: "Declarator Docs should be limited in scope"
 **** https://github.com/Raku/problem-solving/issues/438
+***** lead: it would've been nice if .WHY worked in the repl
 
 **** https://docs.raku.org/language/pod#Declarator_blocks
 
