@@ -1,0 +1,141 @@
+* meeting notes November 10, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024oct20.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024oct20
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024oct06.org
+
+** topics
+
+*** types and arrays
+**** https://github.com/Raku/problem-solving/issues/426
+
+https://docs.raku.org/assets/typegraphs/Rational.svg
+https://docs.raku.org/assets/typegraphs/Array.svg
+https://docs.raku.org/type/Int
+https://docs.raku.org/assets/typegraphs/Rational.svg
+
+
+*** raku signature docs on "destructuring"
+**** https://docs.raku.org/language/signatures#Destructuring_arguments
+**** I'd had the impression they were a perl5 Multi::Dispatch thing
+
+*** automatic FatRat upgrade behavior when you overflow Rat
+**** https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
+***** lizmat:
+#+BEGIIN_SRC raku
+# So to activate this globally to upgrade to FatRat, you'd do:
+INIT $*RAT-OVERFLOW = FatRat;
+
+# To activate this only for a lexical scope:
+my $*RAT-OVERFLOW = FatRat;
+#+END_SRC
+
+**** raku docs
+***** https://docs.raku.org/language/numerics
+***** https://docs.raku.org/language/numerics#Rat
+****** "The last Rational type-- FatRat-- keeps all of the precision you ask of it, storing the numerator and denominator as two Int objects."
+****** "A FatRat is more infectious than a Rat, so many math operations with a FatRat will produce another FatRat, preserving all of the available precision."
+****** "Where a Rat degrades to a Num, math with a FatRat keeps chugging along:"
+
+**** exploring Rat overflow:
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/rat_overflow_behavior.raku
+https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_overflow_behavior.raku
+
+
+***** once again: using sourcery in the raku repl:
+#+BEGIN_SRC raku
+use CoreHackers::Sourcery;
+say sourcery Rat, 'new', \(1, 264)
+say &infix:</>.sourcery(1, 264)         ## looking at the operator: /
+#+END_SRC
+
+***** relevant code:
+****** https://github.com/rakudo/rakudo/blob/2023.02/src/core.c/Rational.pm6#L24
+****** https://github.com/rakudo/rakudo/blob/2023.02/src/core.c/Rat.pm6#L245
+****** https://github.com/rakudo/rakudo/blob/6c2f9194f2a5510b3432949374f5d25e81a6d7a6/src/core.c/Rat.pm6
+****** https://github.com/Raku/doc/commit/a0048653aaf648839be2d6ce4a3fd25cd9dd47fe
+
+
+**** weird Rat oddity: toofat Rats (that aren't FatRats)
+
+***** With $n = 1 / $biggie, if $biggie exceeds 2^64, you get a Num
+****** Though, if you use lizmat's trick, you'd get a FatRat
+#+BEGIN_SRC raku
+my $*RAT-OVERFLOW = FatRat;
+#+END_SRC
+
+***** But this, rather weirdly, just works giving you a Rat with a denominator that exceeds limit
+#+BEGIN_SRC raku
+$n = Rat.new( 1, $biggie );
+#+END_SRC
+
+***** Simple demo of this Rat oddity: 
+****** A toofat Rat can become a FatRat but it can't become a Rat again
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/rat_fatrat_rat.raku
+https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_fatrat_rat.raku
+
+
+**** grepping tests
+***** nothing in rakudo that does a "Rat.new"
+***** Marton insists he seen them in roast tests
+****** they're not in roast on my machine though (?)
+
+*** another extensive discussion of everything
+**** tcl/"tickle"
+***** https://en.wikipedia.org/wiki/Tcl
+****** new version came out in September
+******* 64bit
+******* unicode
+******* uses: 
+******** https://en.wikipedia.org/wiki/Epoll
+******** https://en.wikipedia.org/wiki/Kqueue
+
+***** John Ousterhout
+****** Book: A Philosophy of Software Design
+****** https://wiki.tcl-lang.org/page/A%20Philosophy%20of%20Software%20Design
+****** https://web.stanford.edu/~ouster/cgi-bin/book.php
+****** https://web.stanford.edu/~ouster/cgi-bin/aposd2ndEdExtract.pdf
+
+
+**** praise for node vs python (Tim Schafer)
+***** dependency model is project based.
+***** can have various versions in lib directory
+
+
+*** weekly challenge 
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-290/
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-291/
+
+*** future topic
+**** rob has been looking into nqp::bindattr 
+
+** old topics
+
+**** hypers and junctions
+https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junctions
+
+***** raku knowledge base
+****** https://raku-knowledge-base.podlite.org/
+
+
+*** announcements 
+**** next meetings (no reason to deviate from 'every two weeks')
+***** Nov 3
+***** Nov 17
+***** breaking the 2 week pattern:
+****** Dec 8
+
+**** Perl Science Conference (Virtual) Wednesday 2024-12-18
+***** https://www.reddit.com/r/perl/comments/1ffbeg6/perl_community_conference_winter_2024_call_for/
+
+**** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
+***** https://news.perlfoundation.org/post/dates_set_tprc_2025
+
+
+
