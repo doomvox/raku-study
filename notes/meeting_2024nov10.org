@@ -19,23 +19,48 @@
 ***** maybe, need better docs and/or tutorials
 **** but maybe most of the weirdness is in funny corners 
 
+**** remarks from last meeting:
 
-*** revisited: "Declarator Docs should be limited in scope"
-**** https://github.com/Raku/problem-solving/issues/438
-***** lead: it would've been nice if .WHY worked in the repl
-****** &rotor.WHY
-***** but we can't, because you guys don't care about it.
-***** so changing the syntax won't help, because you still won't care.
+***** automatic FatRat upgrade behavior when you overflow Rat
+****** https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
+******* lizmat:
+#+BEGIIN_SRC raku
+# So to activate this globally to upgrade to FatRat, you'd do:
+INIT $*RAT-OVERFLOW = FatRat;
 
-**** https://docs.raku.org/language/pod#Declarator_blocks
+# To activate this only for a lexical scope:
+my $*RAT-OVERFLOW = FatRat;
+#+END_SRC
 
-**** Perl Best Practices, Ch 7, p. 140, "Contiguity"
-***** A bunch of assertions about his own experience, I think
-***** https://flylib.com/books/en/2.146.1.110/1/
-****** legal?
+****** raku docs
+******* https://docs.raku.org/language/numerics
+******* https://docs.raku.org/language/numerics#Rat
+******** "The last Rational type-- FatRat-- keeps all of the precision you ask of it, storing the numerator and denominator as two Int objects."
+******** "A FatRat is more infectious than a Rat, so many math operations with a FatRat will produce another FatRat, preserving all of the available precision."
+******** "Where a Rat degrades to a Num, math with a FatRat keeps chugging along:"
 
-**** Sather
-***** selective inheritence?
+
+
+
+
+
+
+***** revisited: "Declarator Docs should be limited in scope"
+****** https://github.com/Raku/problem-solving/issues/438
+******* lead: it would've been nice if .WHY worked in the repl
+******** &rotor.WHY
+******* but we can't, because you guys don't care about it.
+******* so changing the syntax won't help, because you still won't care.
+
+****** https://docs.raku.org/language/pod#Declarator_blocks
+
+****** Perl Best Practices, Ch 7, p. 140, "Contiguity"
+******* A bunch of assertions about his own experience, I think
+******* https://flylib.com/books/en/2.146.1.110/1/
+******** legal?
+
+****** Sather
+******* selective inheritence?
 
 
 
@@ -71,6 +96,7 @@ my $*RAT-OVERFLOW = FatRat;
 ****** "The last Rational type-- FatRat-- keeps all of the precision you ask of it, storing the numerator and denominator as two Int objects."
 ****** "A FatRat is more infectious than a Rat, so many math operations with a FatRat will produce another FatRat, preserving all of the available precision."
 ****** "Where a Rat degrades to a Num, math with a FatRat keeps chugging along:"
+
 
 **** exploring Rat overflow:
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/rat_overflow_behavior.raku
