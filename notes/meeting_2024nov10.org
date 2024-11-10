@@ -35,6 +35,10 @@ raku    -e   'say .1 + .2 - .3'  # 0
 ***** my take design is peculiar, possibly for Reasons, and it *is* documented... 
 ***** but the *reasons* it's peculiar are not terribly well explained or documented.
 
+**** Rob use case: storing Rats in a database
+***** obvious strategy: .nude extract numerator and denominatior, store seperately
+***** then you re-create the Rats using .new, right?
+
 **** rats from last meeting:
 
 ***** automatic FatRat upgrade behavior when you overflow Rat
