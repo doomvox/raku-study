@@ -8,7 +8,7 @@ my $d = 1_000_000_000_000_000_000_000_000_000_000_000_000_000_000_000;
 
 
 my $nfr = FatRat.new(1, $d);
-say $nfr.^names, ': ', $nfr.nude;
+say $nfr.^name, ': ', $nfr.nude;
 
 
 
