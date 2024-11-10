@@ -26,6 +26,8 @@
 
 **** Perl Best Practices, Ch 7, p. 140, "Contiguity"
 
+***** 
+
 ** old topics
 
 *** types and arrays
