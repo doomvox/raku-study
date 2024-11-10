@@ -44,7 +44,6 @@ raku    -e   'say .1 + .2 - .3'  # 0
 ***** Raku provides a way to have maximum speed   : Use Nums explicitly.
 ***** Raku defaults to a happy medium: Rats.
 
-
 **** rats from last meeting:
 
 ***** automatic FatRat upgrade behavior when you overflow Rat
