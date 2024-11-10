@@ -11,6 +11,9 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024oct20.org
 
 ** topics
+*** apologies for last minute scrambling of the schedule
+
+
 
 *** should we open an issue on FatRat/Rat.new behavior
 **** it's weird, but documented (mostly)
