@@ -27,3 +27,7 @@ say $fat.^name, ': ', $fat.nude;
 my $rat2 = $fat.Rat;
 say $rat2.^name, ' ', $rat2.nude;
 # Cannot convert from FatRat to Rat because denominator is too big
+
+
+my $nfr = FatRat.new(1, $d);
+say $nfr.^names, ': ', $nfr.nude;
