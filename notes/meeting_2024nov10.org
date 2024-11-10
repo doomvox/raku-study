@@ -30,6 +30,10 @@
 ***** https://flylib.com/books/en/2.146.1.110/1/
 ****** legal?
 
+
+**** Sather
+***** selective inheritence?
+
 ** old topics
 
 *** types and arrays
