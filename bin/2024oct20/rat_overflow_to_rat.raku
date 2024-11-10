@@ -28,6 +28,7 @@ for ($s .. $s + $c) -> $x {
 # No such method 'UPGRADE-RAT' for invocant of type 'Rat'
 
     my $*RAT-OVERFLOW = Str; 
+No such method 'UPGRADE-RAT' for invocant of type 'Str'
 
     my $whatever = 1/$x;
     say "whatever: ", $whatever.^name;
