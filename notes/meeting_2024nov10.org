@@ -36,6 +36,7 @@ raku    -e   'say .1 + .2 - .3'  # 0
 ****** .new constructor can create a Rat that's out-of-range, has no bounds checking
 ***** but the *reasons* it's peculiar are not terribly well explained or documented.
 ***** Similarly, the use of FatRat as alternate RAT-OVERFLOW is not well discussed
+***** (and needless to say, floats are peculiar too, and Raku is less so in a lot of ways)
 
 **** Rob use case: storing Rats in a database
 ***** obvious strategy: .nude extract numerator and denominatior, store seperately
