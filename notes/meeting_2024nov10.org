@@ -20,10 +20,11 @@
 
 
 *** Revisited: "Declarator Docs should be limited in scope"
-https://github.com/Raku/problem-solving/issues/438
+**** https://github.com/Raku/problem-solving/issues/438
 
-https://docs.raku.org/language/pod#Declarator_blocks
+**** https://docs.raku.org/language/pod#Declarator_blocks
 
+**** Perl Best Practices, Ch 7, p. 140, "Contiguity"
 
 ** old topics
 
