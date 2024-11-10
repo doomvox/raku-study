@@ -19,7 +19,7 @@
 ***** maybe, need better docs and/or tutorials
 **** but maybe most of the weirdness is in funny corners 
 
-**** remarks from last meeting:
+**** rats from last meeting:
 
 ***** automatic FatRat upgrade behavior when you overflow Rat
 ****** https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
