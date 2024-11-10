@@ -29,7 +29,7 @@ perl    -E   'say .1 + .2 - .3'  # 5.55111512312578e-17
 raku    -e   'say .1 + .2 - .3'  # 0
 #+END_SRC 
 
-**** played with using Rat as it's own overflow type
+**** Played with using Rat as it's own overflow type
 
 
 **** I hereby promise to open an issue discussion on these issues.
