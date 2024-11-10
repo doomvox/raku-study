@@ -19,6 +19,9 @@
 ***** maybe, need better docs and/or tutorials
 **** but maybe most of the weirdness is in funny corners 
 
+**** the only place rat overflow variants are documented
+***** https://docs.raku.org/language/variables#$*RAT-OVERFLOW
+
 **** rats from last meeting:
 
 ***** automatic FatRat upgrade behavior when you overflow Rat
