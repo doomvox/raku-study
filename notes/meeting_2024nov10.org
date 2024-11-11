@@ -51,6 +51,10 @@ desirable, and both can be avoided by keeping the documentation in its
 own separate, coherent section of the source file.
 
 #+END_SRC text
+**** worked out what I want to say about this
+***** it would be nice if someone messing in the repl could go &rotor.WHY
+***** we can't because the declarator docs aren't in the source
+***** there's clearly social reasons for this: Damian and Liz are both dislike embedded docstrings
 
 
 **** Knuth's "Literate Programming" always comes up
