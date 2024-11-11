@@ -105,8 +105,8 @@ my $*RAT-OVERFLOW = FatRat;
 ***** https://www.sciencedaily.com/releases/2020/03/200302103735.htm
 ****** "New research finds that a natural aptitude for learning languages is a stronger predictor of learning to program than basic math knowledge."
 
-**** an apl-ish fizzbuzz in raku:
-***** https://www.reddit.com/r/rakulang/comments/1glwt7a/an_aplish_fizzbuzz_in_raku/?share_id=VM0nE0oYt0kDsuyClIgKK
+*** An apl-ish fizzbuzz in raku:
+**** https://www.reddit.com/r/rakulang/comments/1glwt7a/an_aplish_fizzbuzz_in_raku/?share_id=VM0nE0oYt0kDsuyClIgKK
 
 *** announcements 
 **** next meetings (slipped a week because reasons)
