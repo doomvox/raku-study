@@ -94,7 +94,9 @@ my $*RAT-OVERFLOW = FatRat;
 **** MARY SHAW, Carnegie Mellon University, USA, "Myths and Mythconceptions", "What does it mean to be a programming language, anyhow?"
 ***** https://dl.acm.org/doi/pdf/10.1145/3480947
 **** https://futureofcoding.org/episodes/069.html
-
+**** Bruce refers to his talk "Y Program"
+***** "The Camel has Two Humps" affair
+***** aruges that no one can predict who can program
 
 ** old topics
 
