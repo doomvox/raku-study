@@ -5,7 +5,7 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024nov10.org 
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2024nov10
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024oct20
 
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024oct20.org
@@ -14,10 +14,11 @@
 *** apologies for last minute scrambling of the schedule
 
 *** Q: should we open an issue on FatRat/Rat.new behavior
-**** it's weird, but documented (mostly)
-**** on the other hand, it's so weird no one can believe it 
-***** maybe, need better docs and/or tutorials
-**** but maybe most of the weirdness is in funny corners 
+**** way I see it:
+***** it's weird, but documented (mostly)
+***** on the other hand, it's so weird no one can believe it 
+****** maybe, need better docs and/or tutorials
+***** but maybe most of the weirdness is in funny corners 
 
 **** the only place rat overflow variants are documented
 ***** https://docs.raku.org/language/variables#$*RAT-OVERFLOW
@@ -30,6 +31,8 @@ raku    -e   'say .1 + .2 - .3'  # 0
 #+END_SRC 
 
 **** Played with using Rat as it's own overflow type
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/rat_overflow_to_rat.raku
+
 
 **** I hereby promise to open an issue discussion on these issues.
 ***** my take: design is peculiar, possibly for Reasons, and the behavior *is* documented
