@@ -89,6 +89,12 @@ my $*RAT-OVERFLOW = FatRat;
 
 
 
+
+*** programming for the masses (?)
+**** MARY SHAW, Carnegie Mellon University, USA, "Myths and Mythconceptions", "What does it mean to be a programming language, anyhow?"
+***** https://dl.acm.org/doi/pdf/10.1145/3480947
+
+
 ** old topics
 
 *** types and arrays
