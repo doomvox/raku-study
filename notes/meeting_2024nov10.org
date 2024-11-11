@@ -35,7 +35,7 @@ raku    -e   'say .1 + .2 - .3'  # 0
 ****** No such method 'UPGRADE-RAT' for invocant of type 'Rat'
 
 **** I hereby promise to open an issue discussion on these issues.
-***** my take: design is peculiar, possibly for Reasons, and the behavior *is* documented
+***** my take: design is peculiar, though the behavior is documented, and but possibly its weird for reasons 
 ****** .new constructor can create a Rat that's out-of-range, has no bounds checking
 ***** but the *reasons* it's peculiar are not terribly well explained or documented.
 ***** Similarly, the use of FatRat as alternate RAT-OVERFLOW is not well discussed
