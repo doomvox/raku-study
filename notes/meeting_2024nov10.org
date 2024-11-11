@@ -54,8 +54,10 @@ own separate, coherent section of the source file.
 **** worked out what I want to say about this
 ***** it would be nice if someone messing in the repl could go &rotor.WHY
 ***** we can't because the declarator docs aren't in the source
-***** there's clearly social reasons for this: Damian and Liz are both dislike embedded docstrings
-
+***** there's clearly social reasons for this: Damian Liz are both dislike embedded docstrings
+****** there are other language cultures that are different, e.g. emacs lisp
+***** asking "but does anyone even use this feature?" is unfair:
+****** of course they don't use it, the core code doesn't use it, no one expects .WHY to work
 
 **** Knuth's "Literate Programming" always comes up
 ***** https://en.wikipedia.org/wiki/Literate_programming
