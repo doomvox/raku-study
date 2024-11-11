@@ -34,7 +34,7 @@ raku    -e   'say .1 + .2 - .3'  # 0
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_overflow_to_rat.raku
 ****** No such method 'UPGRADE-RAT' for invocant of type 'Rat'
 
-**** I hereby promise to open an issue discussion on these issues.
+**** I hereby promise to open an issue for discussion on these issues.
 ***** my take: design is peculiar, though the behavior is documented, and but possibly its weird for reasons 
 ****** Note: .new constructor can create a Rat that's out-of-range, has no bounds checking
 ***** but the *reasons* it's peculiar are not terribly well explained or documented.
