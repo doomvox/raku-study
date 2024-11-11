@@ -48,7 +48,7 @@ my $*RAT-OVERFLOW = FatRat;
 https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_overflow_behavior.raku
 
 
-***** once again: using sourcery in the raku repl:
+***** once again: using sourcery in the raku repl
 #+BEGIN_SRC raku
 use CoreHackers::Sourcery;
 say sourcery Rat, 'new', \(1, 264)
@@ -136,6 +136,8 @@ https://stackoverflow.com/questions/78564598/raku-using-hyper-or-race-with-junct
 
 **** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
 ***** https://news.perlfoundation.org/post/dates_set_tprc_2025
+
+
 
 
 
