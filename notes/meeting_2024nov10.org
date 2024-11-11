@@ -25,11 +25,31 @@
 
 Even though Perl allows you to interleave POD sections between chunks of source code, don't.
 
-User documentation that is fragmented into numerous small pieces distributed throughout the code is much harder to maintain in a consistent state, because you have to sift through the intervening code fragments to find it or compare it.
+User documentation that is fragmented into numerous small pieces
+distributed throughout the code is much harder to maintain in a
+consistent state, because you have to sift through the intervening
+code fragments to find it or compare it.
 
-It is sometimes argued that having documentation near the code that it documents can help maintain consistency between the two. In practice, the opposite often seems to be the case: the necessity to go elsewhere in a file in order to update documentation after a code change actually seems to make it more likely that developers will do so. When the documentation is right on hand it's somehow easier to overlook or ignore. Of course, that's not going to be the case for everyone. Many people do find documenting a subroutine easier when the documentation is immediately to hand.
+It is sometimes argued that having documentation near the code that it
+documents can help maintain consistency between the two. In practice,
+the opposite often seems to be the case: the necessity to go elsewhere
+in a file in order to update documentation after a code change
+actually seems to make it more likely that developers will do so. When
+the documentation is right on hand it's somehow easier to overlook or
+ignore. Of course, that's not going to be the case for everyone. Many
+people do find documenting a subroutine easier when the documentation
+is immediately to hand.
 
-A more important reason not to intersperse code and documentation is that doing so usually produces either contorted code or confused documentation. Keeping documentation near the code it explains will frequently force you to lay the code out in an unnatural order, so as to ensure sensible exposition in the documentation. Or else it will force you to present your documentation in an unnatural order, so as to ensure a sensible layout of the code. Neither of these outcomes is desirable, and both can be avoided by keeping the documentation in its own separate, coherent section of the source file.
+A more important reason not to intersperse code and documentation is
+that doing so usually produces either contorted code or confused
+documentation. Keeping documentation near the code it explains will
+frequently force you to lay the code out in an unnatural order, so as
+to ensure sensible exposition in the documentation. Or else it will
+force you to present your documentation in an unnatural order, so as
+to ensure a sensible layout of the code. Neither of these outcomes is
+desirable, and both can be avoided by keeping the documentation in its
+own separate, coherent section of the source file.
+
 #+END_SRC text
 
 
