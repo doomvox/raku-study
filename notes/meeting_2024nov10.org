@@ -13,7 +13,7 @@
 ** topics
 *** apologies for last minute scrambling of the schedule
 
-*** should we open an issue on FatRat/Rat.new behavior
+*** Q: should we open an issue on FatRat/Rat.new behavior
 **** it's weird, but documented (mostly)
 **** on the other hand, it's so weird no one can believe it 
 ***** maybe, need better docs and/or tutorials
