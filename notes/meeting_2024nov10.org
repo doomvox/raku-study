@@ -42,7 +42,7 @@ raku    -e   'say .1 + .2 - .3'  # 0
 ***** (and needless to say, floats are peculiar too, and Raku Rats are less so in a lot of ways)
 
 **** Rob use case: storing Rats in a database
-***** obvious strategy: .nude extract numerator and denominatior, store seperately
+***** obvious strategy: .nude extract numerator and denominator, store seperately
 ***** then you re-create the Rats using .new, right?
 
 **** Bruce: Just occurred to me another way to look at the design:
