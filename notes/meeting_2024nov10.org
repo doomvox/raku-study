@@ -31,8 +31,8 @@ raku    -e   'say .1 + .2 - .3'  # 0
 #+END_SRC 
 
 **** Played with using Rat as it's own overflow type
-/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024oct20/rat_overflow_to_rat.raku
-
+***** https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_overflow_to_rat.raku
+****** No such method 'UPGRADE-RAT' for invocant of type 'Rat'
 
 **** I hereby promise to open an issue discussion on these issues.
 ***** my take: design is peculiar, possibly for Reasons, and the behavior *is* documented
