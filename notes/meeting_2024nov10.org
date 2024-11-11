@@ -19,8 +19,6 @@
 ****** https://flylib.com/books/en/2.146.1.110/1/
 
 #+BEGIN_SRC text
-Section 7.5. Contiguity
-
 7.5. Contiguity
 
     Keep all user documentation in a single place within your source file.
