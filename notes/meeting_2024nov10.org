@@ -101,6 +101,11 @@ my $*RAT-OVERFLOW = FatRat;
 ***** argues that no one can predict who can program
 ***** "The Camel has Two Humps" affair
 
+**** one of my recent faves: 
+***** https://www.sciencedaily.com/releases/2020/03/200302103735.htm
+****** "New research finds that a natural aptitude for learning languages is a stronger predictor of learning to program than basic math knowledge."
+
+
 *** announcements 
 **** next meetings (slipped a week because reasons)
 ***** Nov 24
