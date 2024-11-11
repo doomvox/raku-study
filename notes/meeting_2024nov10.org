@@ -13,6 +13,15 @@
 ** topics
 *** apologies for last minute scrambling of the schedule
 
+*** brief re-discussion of embedded docs (aka delclarator docs/blocks)
+**** https://github.com/Raku/problem-solving/issues/438
+**** Damien Conway's "Perl Best Practices"
+****** https://flylib.com/books/en/2.146.1.110/1/
+
+
+**** Knuth's "Literate Programming" always comes up
+***** https://en.wikipedia.org/wiki/Literate_programming
+
 *** Q: should we open an issue on FatRat/Rat.new behavior
 **** way I see it:
 ***** it's weird, but documented (mostly)
