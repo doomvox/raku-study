@@ -5,10 +5,8 @@ A place to share some code and meeting notes for the SF Perl Raku Study Group.
 
 The upcoming meeting schedule:
 
-* Sunday, Oct 20, 2024
-* Sunday, Nov 3, 2024
-* Sunday, Nov 17, 2024
-* Sunday, Dec 8, 2024
+* Sunday, Nov 10, 2024
+* Sunday, Nov 24, 2024 
 * Sunday, Dec 22, 2024
 * Sunday, Jan 5, 2025
 * Sunday, Jan 19, 2025

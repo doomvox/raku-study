@@ -52,12 +52,14 @@ own separate, coherent section of the source file.
 
 #+END_SRC text
 **** worked out what I want to say about this
-***** it would be nice if someone messing in the repl could go &rotor.WHY
+***** it would be nice if someone messing in the repl could go &sum.WHY
 ***** we can't because the declarator docs aren't in the source
 ***** there's clearly social reasons for this: Damian & Liz are both dislike embedded docstrings
 ****** there are other language cultures that are different, e.g. emacs lisp
 ***** asking "but does anyone even use this feature?" is unfair:
 ****** of course they don't use it, the core code doesn't use it, no one expects .WHY to work
+***** Note: lizmat insists declarator docs aren't needed to get WHY to work
+****** I haven't seen any alternative documented
 
 **** Knuth's "Literate Programming" always comes up
 ***** https://en.wikipedia.org/wiki/Literate_programming
@@ -125,7 +127,7 @@ my $*RAT-OVERFLOW = FatRat;
 ***** revisited: "Declarator Docs should be limited in scope"
 ****** https://github.com/Raku/problem-solving/issues/438
 ******* lead: it would've been nice if .WHY worked in the repl
-******** &rotor.WHY
+******** say &sum.WHY
 ******* but we can't, because you guys don't care about it.
 ******* so changing the syntax won't help, because you still won't care.
 
