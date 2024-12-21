@@ -1,0 +1,160 @@
+* meeting notes December 22, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024dec22.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024dec22
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024dec08.org
+
+***** NOTE: Rat/FatRat code examples continue to accumulate back here:
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024oct20
+
+** topics
+
+*** emacs, vim/neovim, vscode and everything:
+**** https://www.murilopereira.com/the-values-of-emacs-the-neovim-revolution-and-the-vscode-gorilla
+**** (William Michels pick)
+
+
+
+*** Bruce's issue with binding and `raku -ne`
+**** https://github.com/doomvox/raku-study/issues/4
+**** (now the raku-study group has issues)
+**** peculiarity bruce gray turned up last meeting:
+
+#+BEGIN_SRC sh
+raku -n3 '{
+   my (\k, \d, \f, \e) = .split("|");
+   say join "|", k, d, $_, e for f.split(",");
+}' file.txt
+
+# Cannot resolve caller split(Any:U, Str:D); Routine does not have any
+# candidates.  Is only the proto defined?
+
+#+END_SRC 
+
+#+BEGIN_SRC sh
+ raku --target=ast -ne '
+    my (\k, \d, \f, \e) = .split("|");
+    say join "|", k, d, $_, e for f.split(",");
+ ' file.txt
+#+END_SRC 
+
+***** Márton Polgár, 2colours:
+****** the binding issue seems to be tied to destructuring in particular; 
+my \k = .split: "|"; will work just fine
+
+***** jubilatious1
+
+****** the error I'm getting is "cannot assign to a read-only variable or value":
+
+#+BEGIN_SRC sh
+cat ~/key_test_4_bruce.txt
+1	KEY2
+2	VAL21
+3	VAL22
+4	VAL23
+5	VAL24
+
+# Now conventional sigil (works fine):
+
+raku -ne 'my ($k, $v) = .split: "\t"; say $k => $v;'  ~/key_test_4_bruce.txt
+1 => KEY2
+2 => VAL21
+3 => VAL22
+4 => VAL23
+5 => VAL24
+
+# Now with "sigil-less" variables:
+
+raku -ne 'my (\k, \v) = .split: "\t"; say \k => \v;'  ~/key_test_4_bruce.txt
+\("k" => \("KEY2"))
+# Cannot assign to a readonly variable or a value
+#   in block <unit> at -e line 1
+
+#+END_SRC 
+
+
+
+
+
+** from last meeting 
+*** TODO trim before dec 22 meeting
+
+*** To fat to be Rats but not FatRats
+**** opened an issue: https://github.com/Raku/problem-solving/issues/454
+**** code examples back at: https://github.com/doomvox/raku-study/tree/main/bin/2024oct20
+**** TODO performance benchmarks, explore tradeoffs of Rat/Num vs FatRat
+**** TODO docs: want to rewrite "numerics" and "math"
+***** describe approaches for user cases rather than organizing by classes
+***** Bruce Gray: document that int is not faster than Int 
+***** Also:  *RAT-OVERFLOW
+****** Currently only in: https://docs.raku.org/language/variables#$*RAT-OVERFLOW
+
+
+*** case where a script vm can't perfectly port platform behavior: globbing at command-line
+
+**** bruce exposition
+#+BEGIN_SRC txt 
+Unix shell globbing expand before the command gets it:
+
+  slycmd *.mp3
+
+Windows shells pass '*.mp3' string literally
+
+perl has a pragma "autoglob" to mimic unix style.
+#+END_SRC
+
+*** marton: Advent of Code 2024
+**** https://adventofocode.com/2024
+**** solutions in raku, prolog
+
+*** william michels
+**** https://unix.stackexchange.com/questions/787302/shell-script-to-normalize-the-data/787614#787614
+**** bruce gray refactoring
+
+
+
+*** stuff for future meetings
+
+**** lizmat on [Z]
+***** https://github.com/Raku/problem-solving/issues/443
+**** junction in regex
+***** https://stackoverflow.com/questions/53992260/how-to-use-junction-inside-a-perl6-regex-interpolation/53992397#53992397
+**** junctions and !=
+***** https://github.com/Raku/problem-solving/issues/319
+
+**** bruce grey on zef
+
+**** William Michels has issues
+***** https://github.com/Raku/problem-solving/issues/447
+***** https://github.com/Raku/problem-solving/issues/319
+***** https://github.com/rakudo/rakudo/issues/4136
+
+**** A question about invalid utf8 in json (William Michels):
+***** https://unix.stackexchange.com/questions/757832/how-to-process-json-with-strings-containing-invalid-utf-8
+
+**** announcements 
+***** next meetings
+****** Dec 22 
+******* 2 days before xmas eve
+****** Jan 5, 2025
+****** Jan 19, 2025   
+******* Day before mlk day (Martin Luther King Day)
+****** Feb  2, 2025     
+****** Feb 16, 2025     
+****** Mar  2, 2025     
+****** Mar 16, 2025     
+****** Mar 30, 2025     
+****** Apr 13, 2025     
+****** Apr 27, 2025     
+
+***** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
+****** https://news.perlfoundation.org/post/dates_set_tprc_2025
+
+
+

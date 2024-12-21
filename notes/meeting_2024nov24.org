@@ -1,0 +1,154 @@
+* meeting notes November 10, 2024
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024nov24.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024nov24
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024nov10.org
+
+** topics
+
+**** bill has issues
+***** https://github.com/Raku/problem-solving/issues/447
+***** https://github.com/Raku/problem-solving/issues/319
+***** https://github.com/rakudo/rakudo/issues/4136
+
+**** bill points at question about invalid utf8 in json
+***** https://unix.stackexchange.com/questions/757832/how-to-process-json-with-strings-containing-invalid-utf-8
+
+*** pod6 and grammars  
+**** William Michels was puzzled by an old issue involving the grammars used to parse pod6
+***** https://github.com/Raku/RakuDoc-GAMMA/issues/33
+
+*** marton has a list of raku oddities
+**** addition overridden for ranges, but nothing else 
+**** inf and -inf are min max of arrays even if a type of strings, so you can get Nums 
+***** Should Inf not be a Num?  Maybe like a Nil
+
+*** more thinking about the fat .new Rat paradox
+**** code examples back at: https://github.com/doomvox/raku-study/tree/main/bin/2024oct20
+**** I think: open up a problem-solving issue to ask about .new
+***** they're going to say "stet"
+***** I'm going to respond "okay, but I wanna re-write "numerics" page
+******  q: isn't the math page nutty also?
+****** sweetener:  I could also talk about *RAT-OVERFLOW
+
+***** first:
+****** explore some behavior issues
+******* does the type assigned-to effect calculation results? (No)
+******* if the design is a performance hack, do we see that in actual benchmarks?
+
+**** Bruce Gray: int not faster than Int 
+***** needs to be documented
+
+**** Marton complaint:
+***** Int is a value of Int
+***** Int:D is a value of type Int
+****** distinction between type and type constraint
+****** but Int:D.WHAT says "Int:D" but you can't assign it to a var like that
+
+**** Messing with ranges, ranges of chars, etc.
+
+*** notes from last meeting
+**** Q: should we open an issue on FatRat/Rat.new behavior
+
+***** way I see it:
+****** it's weird, but documented (mostly)
+****** on the other hand, it's so weird no one can believe it 
+******* maybe, need better docs and/or tutorials
+****** maybe most of the weirdness is in funny corners 
+******* but the need to document it puts it back in your face
+
+***** the only place rat overflow variants are documented
+****** https://docs.raku.org/language/variables#$*RAT-OVERFLOW
+
+***** examples of floating point weirdness, Ovid via Bruce:
+#+BEGIN_SRC sh
+python3 -c 'print(.1 + .2 - .3)' # 5.551115123125783e-17
+perl    -E   'say .1 + .2 - .3'  # 5.55111512312578e-17
+raku    -e   'say .1 + .2 - .3'  # 0
+#+END_SRC 
+
+***** Played with using Rat as it's own overflow type
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024oct20/rat_overflow_to_rat.raku
+******* No such method 'UPGRADE-RAT' for invocant of type 'Rat'
+
+***** I hereby promise to open an issue for discussion on these issues.
+****** my take: design is peculiar, though the behavior is documented, and but possibly its weird for reasons 
+******* Note: .new constructor can create a Rat that's out-of-range, has no bounds checking
+****** but the *reasons* it's peculiar are not terribly well explained or documented.
+****** Similarly, the use of FatRat as alternate RAT-OVERFLOW is not well discussed
+****** (and needless to say, floats are peculiar too, and Raku Rats are less so in a lot of ways)
+
+***** Rob use case: storing Rats in a database
+****** obvious strategy: .nude extract numerator and denominator, store seperately
+****** then you re-create the Rats using .new, right?
+
+***** Bruce: another way to look at the design:
+****** Raku provides a way to have perfect accuracy: Use FatRats explicitly, or $*RAT-OVERFLOW=FatRat.
+****** Raku provides a way to have maximum speed   : Use Nums explicitly.
+****** Raku defaults to a happy medium: Rats.
+
+***** rats from last meeting:
+
+****** automatic FatRat upgrade behavior when you overflow Rat
+******* https://stackoverflow.com/questions/71764654/is-there-a-way-to-automatically-use-fatrats-in-raku
+******** lizmat:
+#+BEGIIN_SRC raku
+# So to activate this globally to upgrade to FatRat, you'd do:
+INIT $*RAT-OVERFLOW = FatRat;
+
+# To activate this only for a lexical scope:
+my $*RAT-OVERFLOW = FatRat;
+#+END_SRC
+
+******* raku docs
+******** https://docs.raku.org/language/numerics
+******** https://docs.raku.org/language/numerics#Rat
+********* "The last Rational type-- FatRat-- keeps all of the precision you ask of it, storing the numerator and denominator as two Int objects."
+
+********* "A FatRat is more infectious than a Rat, so many math operations with a FatRat will produce another FatRat, preserving all of the available precision."
+
+********* "Where a Rat degrades to a Num, math with a FatRat keeps chugging along:"
+
+
+****** revisited: "Declarator Docs should be limited in scope"
+******* https://github.com/Raku/problem-solving/issues/438
+******** lead: it would've been nice if .WHY worked in the repl
+********* say &sum.WHY
+******** but we can't, because you guys don't care about it.
+******** so changing the syntax won't help, because you still won't care.
+
+******* https://docs.raku.org/language/pod#Declarator_blocks
+
+******* Perl Best Practices, Ch 7, p. 140, "Contiguity"
+******** A bunch of assertions about his own experience, I think
+******** https://flylib.com/books/en/2.146.1.110/1/
+
+******* Sather
+******** selective inheritence?
+
+
+
+**** announcements 
+***** next meetings
+****** Dec 8
+****** Dec 22 
+******* 2 days before xmas eve
+****** Jan 5, 2025
+****** Jan 19, 2025   
+******* Day before mlk day (Martin Luther King Day)
+****** Feb 2, 2025     
+
+***** Perl Science Conference (Virtual) Wednesday 2024-12-18
+****** https://www.reddit.com/r/perl/comments/1ffbeg6/perl_community_conference_winter_2024_call_for/
+
+***** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
+****** https://news.perlfoundation.org/post/dates_set_tprc_2025
+
+
+

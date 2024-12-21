@@ -5,7 +5,7 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024nov10.org 
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2024oct20
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024nov10
 
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024oct20.org
@@ -13,7 +13,7 @@
 ** topics
 *** apologies for last minute scrambling of the schedule
 
-*** brief re-discussion of embedded docs (aka delclarator docs/blocks)
+*** brief re-discussion of embedded docs (aka declarator docs/blocks)
 **** https://github.com/Raku/problem-solving/issues/438
 **** Damien Conway's "Perl Best Practices"
 ****** https://flylib.com/books/en/2.146.1.110/1/
