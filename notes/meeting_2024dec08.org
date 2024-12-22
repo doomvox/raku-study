@@ -39,8 +39,9 @@ Windows shells pass '*.mp3' string literally
 perl has a pragma "autoglob" to mimic unix style.
 #+END_SRC
 
-**** marton: Advent of Code 2024
+**** Márton Polgár: Advent of Code 2024
 ***** https://adventofocode.com/2024
+****** https://adventofcode.com/2024/day/4
 ***** solutions in raku, prolog
 
 **** william michels

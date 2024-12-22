@@ -15,12 +15,19 @@
 
 ** topics
 
+*** light meeting? 
+
+*** richard hainsworth
+**** advent calender 22
+**** elucid8
+**** 
+
+*** 
+
 *** emacs, vim/neovim, vscode and everything:
 **** https://www.murilopereira.com/the-values-of-emacs-the-neovim-revolution-and-the-vscode-gorilla
 **** (William Michels pick)
-
-
-
+ 
 *** Bruce's issue with binding and `raku -ne`
 **** https://github.com/doomvox/raku-study/issues/4
 **** (now the raku-study group has issues)
@@ -62,7 +69,7 @@ cat ~/key_test_4_bruce.txt
 
 # Now conventional sigil (works fine):
 
-raku -ne 'my ($k, $v) = .split: "\t"; say $k => $v;'  ~/key_test_4_bruce.txt
+~$ raku -ne 'my ($k, $v) = .split: "\t"; say $k => $v;'  ~/key_test_4_bruce.txt
 1 => KEY2
 2 => VAL21
 3 => VAL22
@@ -80,10 +87,12 @@ raku -ne 'my (\k, \v) = .split: "\t"; say \k => \v;'  ~/key_test_4_bruce.txt
 
 
 
-
-
 ** from last meeting 
-*** TODO trim before dec 22 meeting
+
+*** Márton Polgár
+**** https://adventofcode.com/2024/day/4
+
+*** TODO trim the following before dec 22 meeting
 
 *** To fat to be Rats but not FatRats
 **** opened an issue: https://github.com/Raku/problem-solving/issues/454
