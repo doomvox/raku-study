@@ -10,26 +10,34 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024dec08.org
 
-***** NOTE: Rat/FatRat code examples continue to accumulate back here:
-****** https://github.com/doomvox/raku-study/tree/main/bin/2024oct20
-
 ** topics
+
+*** now announcing: "yet another damn discussion group, this one for Raku study"
+**** https://github.com/doomvox/raku-study/discussions/
 
 *** brevity first.  I mean safety.
 **** william michels doesn't like proposal to drop strict for one-liners
 **** where discussion?  (check chat TOOD)
 
-*** light meeting? 
+*** open graph viz tool
+**** The Open Graph Viz Platform
+***** visualization and exploration software for all kinds of graphs and networks
+***** https://gephi.org
 
-*** richard hainsworth
-**** advent calender 22
-**** elucid8
-***** https://github.com/elucid8-org/elucid8/tree/main
+*** advent of advents
+***** https://raku-advent.blog/
+****** Richard Hainsworth: https://raku-advent.blog/2024/12/22/day-22-wrapping-a-christmas-present/
+***** https://adventofocode.com/2024
+****** Marton: https://adventofcode.com/2024/day/4
+***** https://theweeklychallenge.org/blog/advent-calendar-2024-12-21/
+****** by Bruce Gray
 
+*** elucid8, richard hainsworth
+**** https://github.com/elucid8-org/elucid8/tree/main
 
-**** bruce gray interested in richard's problem
-***** files in a project 'docs' can get zef installed but aren't accessible later (?)
-****** bruce thinks it's not actually getting stored by zef
+*** richard hainsworth problem:
+**** files in a project 'docs' can get zef installed but aren't accessible later (?)
+***** bruce gray looked into it: files aren't actually getting stored by zef
 
 #+BEGIN_SRC sh
 zef install Raku::Pod::Render  
@@ -49,23 +57,29 @@ Could not find Raku::Pod::Render in:
 at -e:1
 #+END_SRC
 
-**** shipping a rakumod
+**** how to ship a raku module
 ***** https://docs.raku.org/language/modules#Preparing_the_module
 
-*** revising public raku docs
+*** how to revise the online raku docs
 **** stepped through proceedure to edit
 ***** clicking on pencil takes you to editable doc source on github
-***** follow your nose clicking on stuff, can submit change as pull request
-***** side issue needed to update my old fork of the docs
+***** follow the instructions to submit change as pull request
+***** side issue: needed to update my old fork of the docs
+****** big green 'update' button worked
+****** list of forks available two clicks down after whacking my face
+**** fixed layout problem with 'doing math' page, put Arithmetic above Sets
+***** https://github.com/Raku/doc/edit/main/doc/Language/math.rakudoc
+**** may some day want to re-write parts of 'numerics'
+***** https://github.com/Raku/doc/edit/main/doc/Language/numerics.rakudoc
 
 *** emacs, vim/neovim, vscode and everything:
 **** https://www.murilopereira.com/the-values-of-emacs-the-neovim-revolution-and-the-vscode-gorilla
 **** (William Michels pick)
  
-*** Bruce's issue with binding and `raku -ne`
-**** https://github.com/doomvox/raku-study/issues/4
-**** (now the raku-study group has issues)
-p**** peculiarity bruce gray turned up last meeting:
+*** splitting to unsigiled vars
+**** Marton comments: https://github.com/doomvox/raku-study/issues/4
+***** (now the raku-study group has issues)
+**** peculiarity bruce gray turned up last meeting:
 
 #+BEGIN_SRC sh
 raku -n3 '{
@@ -119,49 +133,6 @@ raku -ne 'my (\k, \v) = .split: "\t"; say \k => \v;'  ~/key_test_4_bruce.txt
 
 #+END_SRC 
 
-
-
-** from last meeting 
-
-*** Márton Polgár
-**** https://adventofcode.com/2024/day/4
-
-*** TODO trim the following before dec 22 meeting
-
-*** To fat to be Rats but not FatRats
-**** opened an issue: https://github.com/Raku/problem-solving/issues/454
-**** code examples back at: https://github.com/doomvox/raku-study/tree/main/bin/2024oct20
-**** TODO performance benchmarks, explore tradeoffs of Rat/Num vs FatRat
-**** TODO docs: want to rewrite "numerics" and "math"
-***** describe approaches for user cases rather than organizing by classes
-***** Bruce Gray: document that int is not faster than Int 
-***** Also:  *RAT-OVERFLOW
-****** Currently only in: https://docs.raku.org/language/variables#$*RAT-OVERFLOW
-
-
-*** case where a script vm can't perfectly port platform behavior: globbing at command-line
-
-**** bruce exposition
-#+BEGIN_SRC txt 
-Unix shell globbing expand before the command gets it:
-
-  slycmd *.mp3
-
-Windows shells pass '*.mp3' string literally
-
-perl has a pragma "autoglob" to mimic unix style.
-#+END_SRC
-
-*** marton: Advent of Code 2024
-**** https://adventofocode.com/2024
-**** solutions in raku, prolog
-
-*** william michels
-**** https://unix.stackexchange.com/questions/787302/shell-script-to-normalize-the-data/787614#787614
-**** bruce gray refactoring
-
-
-
 *** stuff for future meetings
 
 **** lizmat on [Z]
@@ -171,9 +142,7 @@ perl has a pragma "autoglob" to mimic unix style.
 **** junctions and !=
 ***** https://github.com/Raku/problem-solving/issues/319
 
-**** bruce grey on zef
-
-**** William Michels has issues
+**** William Michels issues
 ***** https://github.com/Raku/problem-solving/issues/447
 ***** https://github.com/Raku/problem-solving/issues/319
 ***** https://github.com/rakudo/rakudo/issues/4136
@@ -183,8 +152,6 @@ perl has a pragma "autoglob" to mimic unix style.
 
 **** announcements 
 ***** next meetings
-****** Dec 22 
-******* 2 days before xmas eve
 ****** Jan 5, 2025
 ****** Jan 19, 2025   
 ******* Day before mlk day (Martin Luther King Day)
