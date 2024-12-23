@@ -15,14 +15,48 @@
 
 ** topics
 
+*** brevity first.  I mean safety.
+**** william michels doesn't like proposal to drop strict for one-liners
+**** where discussion?  (check chat TOOD)
+
 *** light meeting? 
 
 *** richard hainsworth
 **** advent calender 22
 **** elucid8
-**** 
+***** https://github.com/elucid8-org/elucid8/tree/main
 
-*** 
+
+**** bruce gray interested in richard's problem
+***** files in a project 'docs' can get zef installed but aren't accessible later (?)
+****** bruce thinks it's not actually getting stored by zef
+
+#+BEGIN_SRC sh
+zef install Raku::Pod::Render  
+All candidates are currently installed
+No reason to proceed. Use --force-install to continue anyway
+
+% raku -e 'use Raku::Pod::Render;'
+===SORRY!=== Error while compiling -e
+Could not find Raku::Pod::Render in:
+    /Users/bruce/.raku
+    /opt/homebrew/Cellar/rakudo-star/2024.12/share/perl6/site
+    /opt/homebrew/Cellar/rakudo-star/2024.12/share/perl6/vendor
+    /opt/homebrew/Cellar/rakudo-star/2024.12/share/perl6/core
+    CompUnit::Repository::AbsolutePath<5612430233760>
+    CompUnit::Repository::NQP<5612518388360>
+    CompUnit::Repository::Perl5<5612518388400>
+at -e:1
+#+END_SRC
+
+**** shipping a rakumod
+***** https://docs.raku.org/language/modules#Preparing_the_module
+
+*** revising public raku docs
+**** stepped through proceedure to edit
+***** clicking on pencil takes you to editable doc source on github
+***** follow your nose clicking on stuff, can submit change as pull request
+***** side issue needed to update my old fork of the docs
 
 *** emacs, vim/neovim, vscode and everything:
 **** https://www.murilopereira.com/the-values-of-emacs-the-neovim-revolution-and-the-vscode-gorilla
@@ -31,7 +65,7 @@
 *** Bruce's issue with binding and `raku -ne`
 **** https://github.com/doomvox/raku-study/issues/4
 **** (now the raku-study group has issues)
-**** peculiarity bruce gray turned up last meeting:
+p**** peculiarity bruce gray turned up last meeting:
 
 #+BEGIN_SRC sh
 raku -n3 '{
