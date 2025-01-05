@@ -11,8 +11,10 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024dec22.org
 
 ** topics
-*** 
-
+*** alcohol
+*** raku-study github lash-up is bitrotting
+*** random topic to start
+*** hope someone else saves us with a programming topic
 
 ** ye olde topics
 
