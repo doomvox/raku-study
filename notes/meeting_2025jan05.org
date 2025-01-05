@@ -1,16 +1,20 @@
-* meeting notes December 22, 2024
+* meeting notes Janurary 5, 2025 
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024dec22.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jan05.org 
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2024dec22
+****** https://github.com/doomvox/raku-study/tree/main/bin/2024jan05
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024dec08.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024dec22.org
 
 ** topics
+*** 
+
+
+** ye olde topics
 
 *** now announcing: "yet another damn discussion group, this one for Raku study"
 **** https://github.com/doomvox/raku-study/discussions/
@@ -152,7 +156,6 @@ raku -ne 'my (\k, \v) = .split: "\t"; say \k => \v;'  ~/key_test_4_bruce.txt
 
 **** announcements 
 ***** next meetings
-****** Jan 5, 2025
 ****** Jan 19, 2025   
 ******* Day before mlk day (Martin Luther King Day)
 ****** Feb  2, 2025     
