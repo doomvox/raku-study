@@ -2,10 +2,10 @@
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jan05.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025jan05.org 
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2024jan05
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025jan05
 
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024dec22.org
@@ -14,7 +14,26 @@
 *** alcohol
 *** raku-study github lash-up is bitrotting
 *** random topic to start
+**** triangle operator, aka produce
+
 *** hope someone else saves us with a programming topic
+**** denied
+
+*** perl logo discussion 
+**** https://news.ycombinator.com/item?id=42495752
+
+**** TODO mine is missing from current website (sigh) 
+**** /home/doom/End/Sys/Arc/Rook-Twister2012/sfpm/logo/index.html
+**** http://obsidianrook.com/sfpm/logo
+
+
+*** someone new to perl ("hey this is kinda like php!  it has regexes!")
+**** https://blog.aschoch.ch/posts/aoc-2024
+
+
+*** https://github.com/rakudo/rakudo/issues/5737
+
+
 
 ** ye olde topics
 
@@ -156,6 +175,10 @@ raku -ne 'my (\k, \v) = .split: "\t"; say \k => \v;'  ~/key_test_4_bruce.txt
 **** A question about invalid utf8 in json (William Michels):
 ***** https://unix.stackexchange.com/questions/757832/how-to-process-json-with-strings-containing-invalid-utf-8
 
+
+
+
+
 **** announcements 
 ***** next meetings
 ****** Jan 19, 2025   
@@ -170,6 +193,6 @@ raku -ne 'my (\k, \v) = .split: "\t"; say \k => \v;'  ~/key_test_4_bruce.txt
 
 ***** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
 ****** https://news.perlfoundation.org/post/dates_set_tprc_2025
-
-
+****** https://tprc.us/
+****** Talk proposal deadline coming up: Jan 15th, 2025 16:08 UTC
 
