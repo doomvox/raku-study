@@ -12,12 +12,15 @@
 
 ** topics
 *** alcohol
+*** merkin football 
+*** doujinshi
+
 *** raku-study github lash-up is bitrotting
 *** random topic to start
 **** triangle operator, aka produce
 
-*** hope someone else saves us with a programming topic
-**** denied
+*** can someone save us with a programming topic?
+**** a hope denied
 
 *** perl logo discussion 
 **** https://news.ycombinator.com/item?id=42495752
