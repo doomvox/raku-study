@@ -63,30 +63,8 @@
 *** elucid8, richard hainsworth
 **** https://github.com/elucid8-org/elucid8/tree/main
 
-*** richard hainsworth problem:
-**** files in a project 'docs' can get zef installed but aren't accessible later (?)
-***** bruce gray looked into it: files aren't actually getting stored by zef
-
-#+BEGIN_SRC sh
-zef install Raku::Pod::Render  
-All candidates are currently installed
-No reason to proceed. Use --force-install to continue anyway
-
-% raku -e 'use Raku::Pod::Render;'
-===SORRY!=== Error while compiling -e
-Could not find Raku::Pod::Render in:
-    /Users/bruce/.raku
-    /opt/homebrew/Cellar/rakudo-star/2024.12/share/perl6/site
-    /opt/homebrew/Cellar/rakudo-star/2024.12/share/perl6/vendor
-    /opt/homebrew/Cellar/rakudo-star/2024.12/share/perl6/core
-    CompUnit::Repository::AbsolutePath<5612430233760>
-    CompUnit::Repository::NQP<5612518388360>
-    CompUnit::Repository::Perl5<5612518388400>
-at -e:1
-#+END_SRC
-
-**** how to ship a raku module
-***** https://docs.raku.org/language/modules#Preparing_the_module
+*** how to ship a raku module
+**** https://docs.raku.org/language/modules#Preparing_the_module
 
 *** how to revise the online raku docs
 **** stepped through proceedure to edit
@@ -184,8 +162,13 @@ raku -ne 'my (\k, \v) = .split: "\t"; say \k => \v;'  ~/key_test_4_bruce.txt
 
 **** announcements 
 ***** next meetings
-****** Jan 19, 2025   
+****** suprise meeting: Jan 12, 2025
+
+****** CANCELED: Jan 19, 2025  
 ******* Day before mlk day (Martin Luther King Day)
+
+***** stay tuned, the previously announced schedule may change:
+
 ****** Feb  2, 2025     
 ****** Feb 16, 2025     
 ****** Mar  2, 2025     
