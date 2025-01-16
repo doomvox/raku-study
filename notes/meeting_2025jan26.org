@@ -1,0 +1,23 @@
+* meeting notes Janurary 26, 2025 
+
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025jan26.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025jan26
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024djan12.org
+
+
+
+** topics
+*** lizmat, finding code that isn't executed
+**** https://dev.to/lizmat/finding-the-coverables-3l13
+
+** follow-up 
+*** deepmap core code
+**** TODO followup: try out my proposed fix for deepmap bug
+

@@ -1,0 +1,77 @@
+* meeting notes Janurary 11, 2025 
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025jan12.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025jan12
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024djan05.org
+
+***** TODO the last several meetings has material that should be preserved in howto notes, issue notes, etc.
+
+** topics
+
+*** deepmap core code
+**** TODO followup: try out my proposed fix for deepmap bug
+
+*** weekly challenge 305
+**** Marton stepped through his Prolog solutions
+
+*** Next meeting: getting hyper again
+**** two meetings back: triangle operator, aka produce
+
+
+***  Overzealous regex error #5737 
+**** https://github.com/rakudo/rakudo/issues/5737
+
+*** stuff for future meetings
+
+**** lizmat on [Z]
+***** https://github.com/Raku/problem-solving/issues/443
+**** junction in regex
+***** https://stackoverflow.com/questions/53992260/how-to-use-junction-inside-a-perl6-regex-interpolation/53992397#53992397
+**** junctions and !=
+***** https://github.com/Raku/problem-solving/issues/319
+
+**** William Michels issues
+***** https://github.com/Raku/problem-solving/issues/447
+***** https://github.com/Raku/problem-solving/issues/319
+***** https://github.com/rakudo/rakudo/issues/4136
+
+**** A question about invalid utf8 in json (William Michels):
+***** https://unix.stackexchange.com/questions/757832/how-to-process-json-with-strings-containing-invalid-utf-8
+
+
+
+
+
+**** announcements 
+***** next meetings
+****** suprise meeting: Jan 12, 2025
+
+****** CANCELED: Jan 19, 2025  
+******* Day before mlk day (Martin Luther King Day)
+
+****** Question: should I try to do a Jan 26 meeting? yes, I think so
+
+***** stay tuned, the previously announced schedule may change:
+
+****** Feb  2, 2025     
+
+****** Note: no Marton on the 9th
+
+****** Feb 16, 2025     
+****** Mar  2, 2025     
+****** Mar 16, 2025     
+****** Mar 30, 2025     
+****** Apr 13, 2025     
+****** Apr 27, 2025     
+
+***** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
+****** https://news.perlfoundation.org/post/dates_set_tprc_2025
+****** https://tprc.us/
+****** Talk proposal deadline coming up: Jan 15th, 2025 16:08 UTC
+
