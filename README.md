@@ -5,19 +5,9 @@ A place to share some code and meeting notes for the SF Perl Raku Study Group.
 
 The upcoming meeting schedule:
 
-A suprise, early meeting: 
-
-* Sunday, Jan 12, 2025
-
 (The originally scheduled Jan 19th meeting has been canceled.)
 
-* Sunday, Feb  2, 2025
-* Sunday, Mar  2, 2025 
-* Sunday, Mar 16, 2025 
-* Sunday, Mar 30, 2025 
-* Sunday, Apr 13, 2025 
-* Sunday, Apr 27, 2025 
-
+* Sunday, Jan 26, 2025
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
 

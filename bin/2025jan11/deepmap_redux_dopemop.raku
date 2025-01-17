@@ -72,8 +72,8 @@ use v6;
 #     }
 
 
-## Try something like this:
-
+## Try something like this (but no containers, no assignment, nqp::yaddah):
+## oh, and s/deepmap/dopemap/ everywhere, if you're going to work on a manual branch like this.
      multi method deepmap(Associative:D: &op) {
          my @keys, @values;
          for self.pairs -> $p {
@@ -82,3 +82,11 @@ use v6;
          }
          self.new.STORE: @keys, @values, :INITIALIZE
      }
+
+     ## But the trouble may not be in making sure the keys and values get
+     ## zipped together, it could be in the handling of empties.
+     ## E.g. if you can deepmap a value that turns into one of Raku's many and various Non-Values
+     ## does the Non-Value act as a placeholder?
+     ## It might be a "losing your place when nothing's there and grabbing the next" issue
+     ## (There's a lot to like about perl's 'undef'.)
+     
