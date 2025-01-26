@@ -2,6 +2,11 @@
 # 
 # mah_deepmap_crapola.raku            12 Jan 2025 
 
+## STATUS: cut-and-paste of core code that I haven't done much with.
+## 
+## From: /home/doom/End/Cave/Raku/Wall/rakudo/src/core.c/Any-iterable-methods.pm6
+
+
 use v6;
 
 
@@ -79,7 +84,7 @@ use v6;
          for self.pairs -> $p {
              @keys.push($p.keys),
              @values.push($p.values.deepmap(&op));
-         }
+          }
          self.new.STORE: @keys, @values, :INITIALIZE
      }
 
@@ -87,6 +92,6 @@ use v6;
      ## zipped together, it could be in the handling of empties.
      ## E.g. if you can deepmap a value that turns into one of Raku's many and various Non-Values
      ## does the Non-Value act as a placeholder?
-     ## It might be a "losing your place when nothing's there and grabbing the next" issue
+     ## It might be a "losing your place when nothing's there, just grabbing the next thing" issue
      ## (There's a lot to like about perl's 'undef'.)
      

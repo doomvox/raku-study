@@ -54,7 +54,7 @@ own separate, coherent section of the source file.
 **** worked out what I want to say about this
 ***** it would be nice if someone messing in the repl could go &sum.WHY
 ***** we can't because the declarator docs aren't in the source
-***** there's clearly social reasons for this: Damian & Liz are both dislike embedded docstrings
+***** there's clearly social reasons for this: Damian & Liz both dislike embedded docstrings
 ****** there are other language cultures that are different, e.g. emacs lisp
 ***** asking "but does anyone even use this feature?" is unfair:
 ****** of course they don't use it, the core code doesn't use it, no one expects .WHY to work
@@ -86,7 +86,7 @@ raku    -e   'say .1 + .2 - .3'  # 0
 ****** No such method 'UPGRADE-RAT' for invocant of type 'Rat'
 
 **** I hereby promise to open an issue for discussion on these issues.
-***** my take: design is peculiar, though the behavior is documented, and but possibly its weird for reasons 
+***** my take: design is peculiar, though the behavior is documented, and possibly its weird for reasons 
 ****** Note: .new constructor can create a Rat that's out-of-range, has no bounds checking
 ***** but the *reasons* it's peculiar are not terribly well explained or documented.
 ***** Similarly, the use of FatRat as alternate RAT-OVERFLOW is not well discussed

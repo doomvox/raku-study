@@ -14,10 +14,20 @@
 
 
 ** topics
+*** deepmap internals
+**** 
+
 *** lizmat, finding code that isn't executed
 **** https://dev.to/lizmat/finding-the-coverables-3l13
 
 ** follow-up 
 *** deepmap core code
 **** TODO followup: try out my proposed fix for deepmap bug
-
+**** announcements 
+***** next meetings
+****** Feb  9, 2025
+****** Feb 23, 2025
+****** Mar 9, 2025
+****** Mar 23, 2025
+****** Apr  6, 2025
+******* after this, the two-week pattern crashes into Easter: stay tuned

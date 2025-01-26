@@ -8,7 +8,7 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2025jan12
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024djan05.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jan05.org
 
 ***** TODO the last several meetings has material that should be preserved in howto notes, issue notes, etc.
 
