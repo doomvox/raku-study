@@ -9,7 +9,7 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2025jan26
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024djan12.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jan12.org
 
 ** topics
 *** deepmap internals
