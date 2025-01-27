@@ -11,11 +11,38 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024djan12.org
 
-
-
 ** topics
 *** deepmap internals
-**** 
+**** bruce gray examines the hash.new.STORE issue
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/t/Deepmap/hash_new_store_uneven_lists.raku
+***** Note: STORE is from Associative *conceptually*, but for odd reasons (bootstrapping) it's included in the Hash code
+
+*** Rob: some context where using an array gives you first value, not say, count, or whole array
+**** actually: case where an array just has one element, slips the element out and treats it as the one item
+
+*** bruce
+**** call for papers is being reopened Feb 1-Mar 1
+***** inclusive, they've *got* talks
+**** weekly challenge this week, side topic shows definite trap
+***** [\~]  @numbers
+***** 1, '12', '123'
+***** marton argues this is a bug
+****** ~ has a single argument version, so why not handle first element correctly?
+#+BEGIN_SRC sh
+raku -e 'say .WHAT for &infix:<~>(5)'
+(Str)
+#+END_SRC
+****** notably: reduce doesn't show this bug, just produce does
+
+*** weekly challenge 305
+**** rob question about series of three triple dot ranges
+**** bg steps through task 1, leading up to using produce/triangle
+
+*** Marton
+**** https://github.com/doomvox/raku-study/discussions/6
+
+*** TODO for next meeting:
+**** https://github.com/doomvox/raku-study/discussions/7
 
 *** lizmat, finding code that isn't executed
 **** https://dev.to/lizmat/finding-the-coverables-3l13
@@ -23,11 +50,12 @@
 ** follow-up 
 *** deepmap core code
 **** TODO followup: try out my proposed fix for deepmap bug
-**** announcements 
-***** next meetings
-****** Feb  9, 2025
-****** Feb 23, 2025
-****** Mar 9, 2025
-****** Mar 23, 2025
-****** Apr  6, 2025
-******* after this, the two-week pattern crashes into Easter: stay tuned
+
+** announcements 
+*** next meetings
+**** Feb  9, 2025
+**** Feb 23, 2025
+**** Mar  9, 2025
+**** Mar 23, 2025
+**** Apr  6, 2025
+***** after this, the two-week pattern crashes into Easter: stay tuned

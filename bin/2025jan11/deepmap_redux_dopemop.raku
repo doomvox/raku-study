@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 # 
-# mah_deepmap_crapola.raku            12 Jan 2025 
+# mah_dopemap_crapola.raku            12 Jan 2025 
 
 ## STATUS: cut-and-paste of core code that I haven't done much with.
 ## 
@@ -10,16 +10,16 @@
 use v6;
 
 
-    proto method deepmap(|) is nodal {*}
-    multi method deepmap(Associative:D: &op) {
-        self.new.STORE: self.keys, self.values.deepmap(&op), :INITIALIZE
+    proto method dopemap(|) is nodal {*}
+    multi method dopemap(Associative:D: &op) {
+        self.new.STORE: self.keys, self.values.dopemap(&op), :INITIALIZE
     }
-    multi method deepmap(&op) {
+    multi method dopemap(&op) {
         my $source := self.iterator;
         my \buffer := nqp::create(IterationBuffer);
         my $pulled := $source.pull-one;
 
-        sub deep(\value) is raw { my $ = value.deepmap(&op) }
+        sub deep(\value) is raw { my $ = value.dopemap(&op) }
 
 
         nqp::until(
@@ -72,25 +72,25 @@ use v6;
 
 # insteaf of:
 
-#     multi method deepmap(Associative:D: &op) {
-#         self.new.STORE: self.keys, self.values.deepmap(&op), :INITIALIZE
+#     multi method dopemap(Associative:D: &op) {
+#         self.new.STORE: self.keys, self.values.dopemap(&op), :INITIALIZE
 #     }
 
 
 ## Try something like this (but no containers, no assignment, nqp::yaddah):
-## oh, and s/deepmap/dopemap/ everywhere, if you're going to work on a manual branch like this.
-     multi method deepmap(Associative:D: &op) {
+## oh, and s/dopemap/dopemap/ everywhere, if you're going to work on a manual branch like this.
+     multi method dopemap(Associative:D: &op) {
          my @keys, @values;
          for self.pairs -> $p {
              @keys.push($p.keys),
-             @values.push($p.values.deepmap(&op));
+             @values.push($p.values.dopemap(&op));
           }
          self.new.STORE: @keys, @values, :INITIALIZE
      }
 
      ## But the trouble may not be in making sure the keys and values get
      ## zipped together, it could be in the handling of empties.
-     ## E.g. if you can deepmap a value that turns into one of Raku's many and various Non-Values
+     ## E.g. if you can dopemap a value that turns into one of Raku's many and various Non-Values
      ## does the Non-Value act as a placeholder?
      ## It might be a "losing your place when nothing's there, just grabbing the next thing" issue
      ## (There's a lot to like about perl's 'undef'.)
