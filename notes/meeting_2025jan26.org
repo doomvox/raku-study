@@ -20,12 +20,21 @@
 *** Rob: some context where using an array gives you first value, not say, count, or whole array
 **** actually: case where an array just has one element, slips the element out and treats it as the one item
 
-*** bruce
+*** Bruce Gray on the upcoming perl & raku conference:
 **** call for papers is being reopened Feb 1-Mar 1
 ***** inclusive, they've *got* talks
-**** weekly challenge this week, side topic shows definite trap
-***** [\~]  @numbers
-***** 1, '12', '123'
+
+*** Bruce Gray found issue with handling of first element in produce/triangle operation
+**** turned up in working the weekly challenge
+***** definitly a trap-- maybe a bug
+***** 
+#+BEGIN_SRC raku
+@numbers = 1, 2, 3;
+say [\~]  @numbers;
+## you get strings output, *except* for the first element, that stays a number:
+##   1, '12', '123'
+#+END_SRC 
+
 ***** marton argues this is a bug
 ****** ~ has a single argument version, so why not handle first element correctly?
 #+BEGIN_SRC sh
@@ -36,10 +45,12 @@ raku -e 'say .WHAT for &infix:<~>(5)'
 
 *** weekly challenge 305
 **** rob question about series of three triple dot ranges
-**** bg steps through task 1, leading up to using produce/triangle
+**** bg steps through task 1, leading up to using produce/triangle bug
 
-*** Marton
-**** https://github.com/doomvox/raku-study/discussions/6
+*** Marton: another "pair destructuring" issue was opened:
+**** https://github.com/rakudo/rakudo/issues/5718
+***** https://github.com/doomvox/raku-study/discussions/6
+**** https://github.com/rakudo/rakudo/issues/4534
 
 *** TODO for next meeting:
 **** https://github.com/doomvox/raku-study/discussions/7
