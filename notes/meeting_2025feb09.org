@@ -1,17 +1,70 @@
-* meeting notes Janurary 26, 2025 
+* meeting notes February 9, 2025
 
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025jan26.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025feb09.org 
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2025jan26
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025feb09
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2024jan12.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025jan26.org
 
 ** topics
+
+*** critique of Bruce Gray talk from june 2024
+**** Raku Next Steps: Hyperactive Metang (Z X reduce hyper etc.)
+***** https://www.youtube.com/watch?v=7XBqUN1H17Y
+
+***** Suggestions/Comments:
+****** Had trouble getting link to part 2 of raku for beginners to work, but it's out there
+******* https://www.youtube.com/watch?v=2UO-LEhOkiM
+
+****** more foreshadowing
+
+Before you get into something elaborate like the 'reduce' section, you
+might jump ahead and give a simple example to let people know where
+you're going:
+
+"In Raku code, you might see something like this:
+
+  $total = [+] @numbers;
+
+That's just a way of doing a summation over all the numbers, but
+you'll see constructs like that used in many different ways, those
+square brackets work with *any* infix operator.
+
+Let's back up and think about the general case of doing a reduce..."
+
+****** on that slide with three code examples separated by vertical bars
+
+I had trouble seeing the "stray dot" you were talking about,
+which made the remarks about it mystifying.
+
+****** zip example is well set up
+three ordered arrays is the right number to use
+to make the general case clear (and you can use
+the word "triplet" and avoid "pair"). 
+
+******* OPTIONAL side remarks about elisp stuff
+
+Z and Zop obliquely reminds me of elisp's
+   (mapconcat 'identity directory-levels "/")
+
+A closer comparison, from dash.el:
+
+  (-zip-with FN LIST1 LIST2)
+  Zip the two lists LIST1 and LIST2 using a function FN.
+
+(dash.el is a pretty funny nomenclature hack)
+
+https://github.com/magnars/dash.el#functions
+
+**** Marton has comments up at the raku-study github board
+***** https://github.com/doomvox/raku-study/discussions/7
+
+** old topics, last meeting
 *** deepmap internals
 **** bruce gray examines the hash.new.STORE issue
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/t/Deepmap/hash_new_store_uneven_lists.raku
@@ -20,10 +73,6 @@
 *** Rob: some context where using an array gives you first value, not say, count, or whole array
 **** actually: case where an array just has one element, slips the element out and treats it as the one item
 ***** TODO that sounds like "the single argument rule" in for loops
-
-*** Bruce Gray on the upcoming perl & raku conference:
-**** call for papers is being reopened Feb 1-Mar 1
-***** inclusive, they've *got* talks
 
 *** Bruce Gray found issue with handling of first element in produce/triangle operation
 **** turned up in working the weekly challenge
@@ -66,6 +115,7 @@ raku -e 'say .WHAT for &infix:<~>(5)'
 **** /home/doom/End/Cave/RakuStudy/Notes/2026jan26
 *** TODO post two week advance notice meeting annoucement
 
+
 ** announcements 
 *** next meetings
 **** Feb  9, 2025
@@ -74,3 +124,11 @@ raku -e 'say .WHAT for &infix:<~>(5)'
 **** Mar 23, 2025
 **** Apr  6, 2025
 ***** after this, the two-week pattern crashes into Easter: stay tuned
+
+*** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
+**** https://news.perlfoundation.org/post/dates_set_tprc_2025
+**** https://tprc.us/
+**** REOPENED TALK SUBMISSION 
+***** New Deadline: March 1
+
+

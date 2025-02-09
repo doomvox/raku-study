@@ -3,16 +3,20 @@ Exploratory programming using the Raku language
 
 A place to share some code and meeting notes for the SF Perl Raku Study Group.
 
-Next meeting:
+The next few meetings:
 
 * Sunday, Feb  9, 2025
   Zoom link: https://us02web.zoom.us/j/82992902436?pwd=9HTor3l74UjrnEPVpzK9VnycTEGTEp.1
 
-And the super secret code you need to get in is "4RakuRoll".
+And the super secret code you need is "4RakuRoll".
 
+* Sunday, Feb 23, 2025
+  Zoom link: https://us02web.zoom.us/j/84661895479?pwd=f2QJ1XTaquo6JDbhNwuFalAqoDpHJ8.1
+  "4RakuRoll"
 
 Tentative schedule of upcoming meetings:
 
+* Sunday, Feb  9, 2025
 * Sunday, Feb 23, 2025
 * Sunday, Mar  9, 2025
 * Sunday, Mar 23, 2025
