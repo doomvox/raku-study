@@ -11,6 +11,30 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025jan26.org
 
+** apologies
+*** I wonder how this meeting went-- I couldn't make it to it
+*** Today, as I was trying to get into the meeting, Zoom insisted I upgrade first
+*** Ten minutes later I was back in the meeting, with audio only working
+*** Everything else, including my entire desktop, got frozen by trying to use Zoom.
+*** I tried some simple things like a full reboot, but no luck
+*** I took a guess that it was time to upgrade Debian
+**** the zoom app claims it works with Debian versions 10 or greater
+**** I was on 11 (bullseye), but was aware it was stale now that 12 was out (bookworm)
+***** the full upgrade proceedure took even longer than I expected: completed after midnight.
+***** (I think I may go back to wiping the disk and doing fresh installs-- isn't it faster?)
+***** But I wasn't going to do a dist upgrade without a backup-- that burned a few hours, too
+***** Not to mention reading the release notes for bookworm and such
+***** Then I had the fun of sorting through the quasi-breakage the new Debian inflicted on me
+****** Briefly: I ended up with the gdm3 login manager (which I call the "dungeon master")
+****** This appears to *default* to wayland, which you can change only by editing a configuration file
+****** gdm3 advertises it has features to let you choose a session type, e.g. a window manager: this is now more-or-less a lie.
+****** experimented with installing different dungeon masters, eventually settingly on wdm
+******* I also screwed around "update-alternatives --config x-window-manager": doesn't seem to help at all
+******* I can now get into my favorite window manager (icewm), but it's not reading settings right
+******** neither background color or theme works (or for that matter, the background image)
+******** have to manually re-enable the Infadel2 theme to get the bright white background to go away
+****** beginning to wonder about Debian-- do they have to swill down anything gnome/Redhat shoves in their mouth?
+
 ** topics
 
 *** critique of Bruce Gray talk from june 2024
