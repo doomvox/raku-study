@@ -30,3 +30,5 @@ use v6;
     say @n.WHAT;     # (Array)
     say @n[2].WHAT;  # (FatRat)
 }
+
+## Rob suggests it would be good to have funky brackets that force a numeric type
