@@ -14,3 +14,7 @@ say $something;  #  IterationEnd
 
 my $something = $it.pull-one || 'something';
 say $something;  #  IterationEnd
+
+say "".comb ~~ Empty;
+# OUTPUT: «True␤»
+
