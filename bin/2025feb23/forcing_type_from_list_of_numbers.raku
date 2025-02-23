@@ -6,7 +6,10 @@ use v6;
 {
     my @n =  1 2 3 4 ;
     say @n;
+    say @n.WHAT;
+    say @n[2].WHAT;
 }
+
 
 
 
