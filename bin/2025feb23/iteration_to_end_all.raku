@@ -22,7 +22,6 @@ use v6;
     # OUTPUT: «True␤»
 }
 
-
 say "===";
 {
     my $empty_thing = "".comb;
