@@ -31,6 +31,16 @@ say "===";
     my $something = $empty_thing // 'something';   ## Despite being empty, the empty thing is defined...
     say $something;  # ()
 }
+say "=== slip";
+{
+    my $empty_thing = "".Slip;
+    say "empty_thing: $empty_thing";  # empty_thing: 
+    say $empty_thing =:= Empty;  ## False
+    say $empty_thing ~~ Empty;   ## True
+    say $empty_thing.WHAT;       ## (Seq)
+    my $something = $empty_thing // 'something';   ## Despite being empty, the empty thing is defined...
+    say $something;  # ()
+}
 say "===";
 {
     my $i = Nil;
