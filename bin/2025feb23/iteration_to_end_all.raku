@@ -39,7 +39,7 @@ say "=== slip";
     say $empty_thing ~~ Empty;   ## True
     say $empty_thing.WHAT;       ## (Slip)
     my $something = $empty_thing // 'something';   ## Despite being empty, the empty thing is defined...
-    say $something;  # ()
+    say $something;  # 'something'
 }
 say "===";
 {
