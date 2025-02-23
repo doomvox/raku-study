@@ -27,6 +27,7 @@ say "===";
     my $empty_thing = "".comb;
     say "empty_thing: $empty_thing";  # empty_thing: 
     say $empty_thing =:= Empty;  ## False
+    say $empty_thing ~~ Empty;
     my $something = $empty_thing // 'something';
     say $something;  # ()
 }
