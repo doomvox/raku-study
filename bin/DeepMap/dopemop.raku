@@ -97,7 +97,8 @@ augment class Any {
 ## Try something like this (but no containers, no assignment, nqp::yaddah):
 
      multi method dopemop(Associative:D: &op) {
-         my @keys; my @values;
+         my @keys;
+         my @values;
          for self.pairs -> $p {
              @keys.push($p.keys),
              @values.push($p.values.dopemop(&op));
