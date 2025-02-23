@@ -1,4 +1,4 @@
-* meeting notes February 23, 2025 (YYY)
+* meeting notes February 23, 2025 
 
 ** the raku study group
 **** usual links
