@@ -15,7 +15,7 @@
 ** topics
 *** marton's been talking over here;
 **** https://github.com/doomvox/raku-study/discussions 
-https://www.ozonehouse.com/mark/periodic/
+**** https://www.ozonehouse.com/mark/periodic/
 
 *** rob stuff
 **** conventional symbol for an alternate to assignment "="
