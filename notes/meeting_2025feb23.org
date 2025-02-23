@@ -36,7 +36,13 @@
 *** jeff
 **** interested in plain text accounting
 ****** https://plaintextaccounting.org/
-**** my Str $lines = $text.match(/ <.after FOO> .*<.before BAR>/);
+
+****** after/before patterns
+#+BEGIN_SRC raku
+my Str $lines = $text.match(/ <.after FOO> .*<.before BAR>/);
+#+END_SRC 
+
+****** alternately the flip-flop operators, ff, fff
 
 *** listmat closed out my deepmap bug
 **** Rakudo Weekly: "fixed hyper operators and .deepmap producing unexpected types / errors"
