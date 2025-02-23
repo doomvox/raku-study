@@ -6,7 +6,8 @@ use v6;
 
 my $i = Int;
 my $x = 2.5;
-$i($x);  # just like $x.Int;
+say $i($x);  # just like $x.Int;
+
 
 say $x.WHAT;
 
