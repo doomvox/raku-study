@@ -110,3 +110,16 @@ augment class Any {
      
 
 }
+
+
+my @data = (
+    { n => 1, a => 'alpha', },
+    { n => 2, a => 'beta',  },
+    { n => 3, a => 'gamma', },
+    { n => 4, a => 'delta', },
+);
+
+{
+    my @new_data = @data.deepmap({ $_+10 if $_ ~~ Numeric });
+    say @new_data;
+}
