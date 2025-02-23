@@ -101,7 +101,8 @@ augment class Any {
          my @values;
          for self.pairs -> $p {
              @keys.push($p.keys),
-             @values.push($p.values.dopemop(&op));
+#             @values.push($p.values.dopemop(&op));
+             @values.push($p.values.dopemop(&op) // '');
           }
          self.new.STORE: @keys, @values, :INITIALIZE
      }
