@@ -35,6 +35,6 @@ say "===";
 {
     my $i = Nil;
     say $i;
-    say =:= Nil;
+    say $i =:= Nil;
     say $i ~~ Nil;
 }
