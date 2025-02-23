@@ -10,7 +10,8 @@ say $i($x);    # 2
 
 say $x.WHAT;   # (Rat)
 
-
+# Marton comments
+#  Same as "my Int $i;"
 
 # ====
 #  sheet of cheats
