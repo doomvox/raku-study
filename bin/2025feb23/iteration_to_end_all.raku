@@ -49,4 +49,16 @@ say "===";
     say $i ~~ Nil;  # False
 }
 
-## https://github.com/Raku/problem-solving/issues/342
+## Marton issue with Nil and Failure:
+##   https://github.com/Raku/problem-solving/issues/342
+
+say "=== slip";
+{
+    my $empty_thing = "".comb.Slip;
+    say "empty_thing: $empty_thing";  # empty_thing: 
+    say $empty_thing =:= Empty;  ## False
+    say $empty_thing ~~ Empty;   ## True
+    say $empty_thing.WHAT;       ## (Slip)
+    my $something = $empty_thing // 'something';   ## Despite being empty, the empty thing is defined...
+    say $something;  # 'something'
+}
