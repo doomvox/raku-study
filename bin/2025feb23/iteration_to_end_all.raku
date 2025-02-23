@@ -74,3 +74,5 @@ say "=== slip";
 
 # raku -e 'my @a; my @b = <X Y>; my @c = @a || @b; say @c;'
 # [X Y]
+
+# "Bool checks to false"
