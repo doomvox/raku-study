@@ -19,6 +19,10 @@
 use v6;
 use nqp;
 
+use MONKEY-TYPING;
+augment class Any {
+
+
     proto method dopemop(|) is nodal {*}
     multi method dopemop(Associative:D: &op) {
         self.new.STORE: self.keys, self.values.dopemop(&op), :INITIALIZE
@@ -104,3 +108,5 @@ use nqp;
      ## It might be a "losing your place when nothing's there, just grabbing the next thing" issue
      ## (There's a lot to like about perl's 'undef'.)
      
+
+}
