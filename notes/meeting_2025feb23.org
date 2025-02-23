@@ -31,7 +31,6 @@
 ***** you create something as __ but what it is is something else
 
 *** jeff
-
 **** my Str $lines = $text.match(/ <.after FOO> .*<.before BAR>/);
 
 *** listmat closed out my deepmap bug
