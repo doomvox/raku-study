@@ -22,7 +22,7 @@
 ***** can't override "="
 ***** Marton suggests looking into why
 ****** assignment backed by "STORE magic method"
-******* issue with proxies
+******* story involves proxies
 
 **** 
 
