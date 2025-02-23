@@ -12,7 +12,7 @@ use v6;
     my $something = $it.pull-one // 'something';
     say $something;  #  IterationEnd
 
-    my $something = $it.pull-one || 'something';
+    $something = $it.pull-one || 'something';
     say $something;  #  IterationEnd
 }
 
