@@ -14,6 +14,7 @@
 # Variable '@values' is not declared.  Did you mean '&values'?
 # at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/DeepMap/dopemop.raku:85
 
+# Oh right: defining methods without a class, duh..
 
 use v6;
 use nqp;

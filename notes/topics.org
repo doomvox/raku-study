@@ -108,4 +108,20 @@ https://unix.stackexchange.com/questions/649799/format-data-into-a-table/655944#
 
 
 
+*** new topics
+**** bruce gray raku for beginners, part 2
+***** returns in pointy blocks return from the *surrounding* scope
+****** think: for loop that searches and bails out of routine when it finds it
+****** another good reason to not abuse pointy blocks, I'd say
+***** widget(...) is *always* a function call
+****** messes up people with perl habits:  if( $check ) { ... }
+****** you're *allowed* to have a sub if { ... }
+****** if you're trying to do a sub call, a space before parens can turn it to one list
+doit ($onesy, $twosey);
+***** raku "immutable" types are just top level immutable
+****** the stuff included in a list can change internally
 
+**** rob was trying to remember an odd gotcha case
+***** guess: he was thinking about the single argument rule
+****** hypothetically that could throw you:
+******* a list suddenly stops being a list if there's one item

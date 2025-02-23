@@ -12,8 +12,8 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025jan26.org
 
 ** apologies
-*** I wonder how this meeting went-- I couldn't make it to it
-*** Today, as I was trying to get into the meeting, Zoom insisted I upgrade first
+*** I wonder how this meeting went-- I couldn't make it 
+*** As I was trying to get into the meeting, Zoom insisted I upgrade first
 *** Ten minutes later I was back in the meeting, with audio only working
 *** Everything else, including my entire desktop, got frozen by trying to use Zoom.
 *** I tried some simple things like a full reboot, but no luck
@@ -25,68 +25,18 @@
 ***** But I wasn't going to do a dist upgrade without a backup-- that burned a few hours, too
 ***** Not to mention reading the release notes for bookworm and such
 ***** Then I had the fun of sorting through the quasi-breakage the new Debian inflicted on me
-****** Briefly: I ended up with the gdm3 login manager (which I call the "dungeon master")
+****** Briefly: I ended up with the gdm3 login manager (btw: I call the "dm" the dungeon master)
 ****** This appears to *default* to wayland, which you can change only by editing a configuration file
 ****** gdm3 advertises it has features to let you choose a session type, e.g. a window manager: this is now more-or-less a lie.
 ****** experimented with installing different dungeon masters, eventually settingly on wdm
-******* I also screwed around "update-alternatives --config x-window-manager": doesn't seem to help at all
+******* I also tried "update-alternatives --config x-window-manager": doesn't seem to help at all
 ******* I can now get into my favorite window manager (icewm), but it's not reading settings right
 ******** neither background color or theme works (or for that matter, the background image)
 ******** have to manually re-enable the Infadel2 theme to get the bright white background to go away
 ****** beginning to wonder about Debian-- do they have to swill down anything gnome/Redhat shoves in their mouth?
 
 ** topics
-
-*** critique of Bruce Gray talk from june 2024
-**** Raku Next Steps: Hyperactive Metang (Z X reduce hyper etc.)
-***** https://www.youtube.com/watch?v=7XBqUN1H17Y
-
-***** Suggestions/Comments:
-****** Had trouble getting link to part 2 of raku for beginners to work, but it's out there
-******* https://www.youtube.com/watch?v=2UO-LEhOkiM
-
-****** more foreshadowing
-
-Before you get into something elaborate like the 'reduce' section, you
-might jump ahead and give a simple example to let people know where
-you're going:
-
-"In Raku code, you might see something like this:
-
-  $total = [+] @numbers;
-
-That's just a way of doing a summation over all the numbers, but
-you'll see constructs like that used in many different ways, those
-square brackets work with *any* infix operator.
-
-Let's back up and think about the general case of doing a reduce..."
-
-****** on that slide with three code examples separated by vertical bars
-
-I had trouble seeing the "stray dot" you were talking about,
-which made the remarks about it mystifying.
-
-****** zip example is well set up
-three ordered arrays is the right number to use
-to make the general case clear (and you can use
-the word "triplet" and avoid "pair"). 
-
-******* OPTIONAL side remarks about elisp stuff
-
-Z and Zop obliquely reminds me of elisp's
-   (mapconcat 'identity directory-levels "/")
-
-A closer comparison, from dash.el:
-
-  (-zip-with FN LIST1 LIST2)
-  Zip the two lists LIST1 and LIST2 using a function FN.
-
-(dash.el is a pretty funny nomenclature hack)
-
-https://github.com/magnars/dash.el#functions
-
-**** Marton has comments up at the raku-study github board
-***** https://github.com/doomvox/raku-study/discussions/7
+*** (moved to next meeting)
 
 ** old topics, last meeting
 *** deepmap internals
