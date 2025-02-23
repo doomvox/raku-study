@@ -27,6 +27,7 @@ use v6;
 say "===";
 {
     my $empty_thing = "".comb;
+    say "empty_thing: $empty_thing";
     my $something = $empty_thing // 'something';
     say $something;  # ()
 }
