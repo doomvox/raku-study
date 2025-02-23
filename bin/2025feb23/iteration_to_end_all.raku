@@ -10,4 +10,4 @@ say $it.pull-one =:= IterationEnd; # OUTPUT: «True␤»
 
 
 my $something = $it.pull-one // 'something';
-say $something;
+say $something;  #  IterationEnd
