@@ -23,7 +23,8 @@
 ***** Marton suggests looking into why
 ****** assignment backed by "STORE magic method"
 ******* story involves proxies
-
+******** https://docs.raku.org/routine/STORE 
+******** https://docs.raku.org/type/Proxy
 **** 
 
 *** listmat closed out my deepmap bug
