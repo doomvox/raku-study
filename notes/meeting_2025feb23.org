@@ -31,6 +31,34 @@ ab09c6d
 lizmat
 
 
+commit 6e9823233991c5fd8fb9a9b24574167b1b6473f6
+Author: Elizabeth Mattijsen <liz@raku.rocks>
+Date:   Tue Feb 18 12:31:10 2025 +0100
+
+    Handle Associative.deepmap better wrt Empty
+    
+    Issue #4435 describes how .deepmap messes up on Associatives the
+    moment that some elements are skipped by returning Empty.
+    
+    This commit fixes that by special casing the direct Associative.deepmap
+    to actually check for empty returns, and then not producing those
+    keys.  At the expense of performance.
+    
+    This does *not* affect the >>op<< hyper case, as these still directly
+    call the specialized Map/Hash.STORE methods that take 2 Iterables: one
+    for keys and one for values.  Although technically these will still
+    suffer from this issue, I chose not to fix those.  The reason for not
+    changing these cases is really performance, combined with the fact that
+    using ops (instead of generic blocks) means that the "missing value"
+    case can never occur.
+    
+    Of course, if one would start using >>op<< hyper case on custom ops
+    that *could* produce Empty to indicate missing value, then they will
+    fail in unexpected ways.  However, at this point in time I'd say that's
+    a case of DIHWIDT.
+
+
+
 *** Remarks on Bruce Gray talk from june 2024
 **** Raku Next Steps: Hyperactive Metang (Z X reduce hyper etc.)
 ***** https://www.youtube.com/watch?v=7XBqUN1H17Y
