@@ -64,5 +64,4 @@ say "=== slip";
 
     ## How about the triple equals?
     say $empty_thing === Empty;  ## False
-
 }
