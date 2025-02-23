@@ -31,6 +31,7 @@
 ***** you create something as __ but what it is is something else
 **** prove6 
 ***** https://raku.land/cpan:LEONT/App::Prove6
+****** -e	--exec	Interpreter to run the tests ('' for compiled tests.)
 
 *** jeff
 **** my Str $lines = $text.match(/ <.after FOO> .*<.before BAR>/);
