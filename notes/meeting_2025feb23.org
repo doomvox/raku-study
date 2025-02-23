@@ -13,6 +13,9 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025feb09.org
 
 ** topics
+*** marton's been talking over here;
+**** https://github.com/doomvox/raku-study/discussions 
+
 *** rob stuff all saved up
 
 *** listmat closed out my deepmap bug
