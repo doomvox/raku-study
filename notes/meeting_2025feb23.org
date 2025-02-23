@@ -13,6 +13,7 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025feb09.org
 
 ** topics
+*** rob stuff all saved up
 *** listmat closed out my deepmap bug
 **** Rakudo Weekly: "fixed hyper operators and .deepmap producing unexpected types / errors"
 **** https://github.com/rakudo/rakudo/issues/4435
