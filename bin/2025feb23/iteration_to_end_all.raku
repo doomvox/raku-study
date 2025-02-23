@@ -65,3 +65,12 @@ say "=== slip";
     ## How about the triple equals?
     say $empty_thing === Empty;  ## False
 }
+
+
+## //   defined or
+
+# raku -e 'my @a; my @b = <X Y>; my @c = @a // @b; say @c;'
+# []
+
+# raku -e 'my @a; my @b = <X Y>; my @c = @a || @b; say @c;'
+# [X Y]
