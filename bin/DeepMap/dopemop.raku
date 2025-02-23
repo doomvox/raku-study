@@ -127,4 +127,8 @@ my @data = (
 {
     my @new_data = @data.deepmap({ $_+10 if $_ ~~ Numeric });
     say @new_data;
+
+    ## explicit @keys and @values didn't help
+    ## [{a => 11, n => IterationEnd} {a => 12, n => IterationEnd} {a => 13, n => IterationEnd} {a => IterationEnd, n => 14}]
+
 }
