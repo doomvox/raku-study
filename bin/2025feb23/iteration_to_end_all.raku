@@ -27,6 +27,7 @@ say "===";
     say "empty_thing: $empty_thing";  # empty_thing: 
     say $empty_thing =:= Empty;  ## False
     say $empty_thing ~~ Empty;   ## True
+    say $empty_thing.WHAT;
     my $something = $empty_thing // 'something';
     say $something;  # ()
 }
