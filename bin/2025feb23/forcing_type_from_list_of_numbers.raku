@@ -10,6 +10,12 @@ use v6;
     say @n[2].WHAT;  # (Int)
 }
 
+{
+    my @n = 1, 2, 3, 4;
+    say @n>>.Rat;
+    say @n.WHAT;     # (Array)
+    say @n[2].WHAT;  # (Int)
+}
 
 
 
