@@ -83,8 +83,6 @@ square brackets work with *any* infix operator.
 
 Now, let's back up and think about the general case of doing a reduce..."
 
-
-
 ****** on that slide with three code examples separated by vertical bars
 
 I had trouble seeing the "stray dot" you were talking about,
