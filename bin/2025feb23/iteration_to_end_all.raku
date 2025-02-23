@@ -16,7 +16,6 @@ use v6;
     say $something;  #  IterationEnd
 }
 
-
 {
     say "".comb ~~ Empty;
     # OUTPUT: «True␤»
