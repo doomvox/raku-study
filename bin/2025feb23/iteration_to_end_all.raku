@@ -33,7 +33,7 @@ say "===";
 }
 say "=== slip";
 {
-    my $empty_thing = "".Slip;
+    my $empty_thing = "".comb.Slip;
     say "empty_thing: $empty_thing";  # empty_thing: 
     say $empty_thing =:= Empty;  ## False
     say $empty_thing ~~ Empty;   ## True
