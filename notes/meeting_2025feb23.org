@@ -34,6 +34,8 @@
 ****** -e	--exec	Interpreter to run the tests ('' for compiled tests.)
 
 *** jeff
+**** interested in plain text accounting
+****** https://plaintextaccounting.org/
 **** my Str $lines = $text.match(/ <.after FOO> .*<.before BAR>/);
 
 *** listmat closed out my deepmap bug
