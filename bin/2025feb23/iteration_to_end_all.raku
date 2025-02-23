@@ -4,18 +4,27 @@
 
 use v6;
 
-my $it = (1,2).iterator;
-$it.pull-one for ^2;
-say $it.pull-one =:= IterationEnd; # OUTPUT: «True␤»
+{
+    my $it = (1,2).iterator;
+    $it.pull-one for ^2;
+    say $it.pull-one =:= IterationEnd; # OUTPUT: «True␤»
 
 
-my $something = $it.pull-one // 'something';
-say $something;  #  IterationEnd
+    my $something = $it.pull-one // 'something';
+    say $something;  #  IterationEnd
 
-my $something = $it.pull-one || 'something';
-say $something;  #  IterationEnd
+    my $something = $it.pull-one || 'something';
+    say $something;  #  IterationEnd
+}
 
 
-say "".comb ~~ Empty;
-# OUTPUT: «True␤»
+{
+    say "".comb ~~ Empty;
+    # OUTPUT: «True␤»
+}
 
+
+{
+    my $empty_thing = "".comb;
+    my $something = $empty_thing // 'something';
+}
