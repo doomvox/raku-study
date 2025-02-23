@@ -59,8 +59,6 @@ Date:   Tue Feb 18 12:31:10 2025 +0100
     fail in unexpected ways.  However, at this point in time I'd say that's
     a case of DIHWIDT.
 
-
-
 *** Remarks on Bruce Gray talk from june 2024
 **** Raku Next Steps: Hyperactive Metang (Z X reduce hyper etc.)
 ***** https://www.youtube.com/watch?v=7XBqUN1H17Y
