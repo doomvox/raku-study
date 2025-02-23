@@ -28,7 +28,7 @@ say "===";
     say $empty_thing =:= Empty;  ## False
     say $empty_thing ~~ Empty;   ## True
     say $empty_thing.WHAT;       ## (Seq)
-    my $something = $empty_thing // 'something';
+    my $something = $empty_thing // 'something';   ## Despite being empty, the empty thing is defined.
     say $something;  # ()
 }
 say "===";
