@@ -62,7 +62,7 @@ say "=== slip";
     my $something = $empty_thing // 'something';   ## Despite being empty, the empty thing is defined...
     say $something;  # 'something'
 
-
+    ## How about the triple equals?
     say $empty_thing === Empty;  ## False
 
 }
