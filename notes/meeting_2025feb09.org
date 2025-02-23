@@ -1,4 +1,4 @@
-* meeting notes February 9, 2025
+* meeting notes February 9, 2025 (ZYX)
 
 ** the raku study group
 **** usual links
