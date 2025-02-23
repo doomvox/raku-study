@@ -16,8 +16,7 @@
 *** marton's been talking over here;
 **** https://github.com/doomvox/raku-study/discussions 
 
-*** rob stuff all saved up
-
+*** rob stuff
 **** conventional symbol for an alternate to assignment "="
 ***** can't override "="
 ***** Marton suggests looking into why
