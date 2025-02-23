@@ -25,7 +25,8 @@
 ******* story involves proxies
 ******** https://docs.raku.org/routine/STORE 
 ******** https://docs.raku.org/type/Proxy
-**** 
+**** suggestion brackets that force list of numerics to a typical type
+***** bruce suggests a macro implementation
 
 *** listmat closed out my deepmap bug
 **** Rakudo Weekly: "fixed hyper operators and .deepmap producing unexpected types / errors"
