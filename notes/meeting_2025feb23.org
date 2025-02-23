@@ -19,6 +19,17 @@
 **** source code
 ***** ./src/core.c/Any-iterable-methods.pm6
 ***** /home/doom/End/Cave/Raku/Wall/rakudo/src/core.c/Any-iterable-methods.pm6
+**** the commits 
+lizmat
+added 2 commits that reference this issue on Feb 18, 2025
+
+Handle Associative.deepmap better wrt Empty
+6e98232
+
+Additional fix on Associative.deepmap
+ab09c6d
+lizmat
+
 
 *** Remarks on Bruce Gray talk from june 2024
 **** Raku Next Steps: Hyperactive Metang (Z X reduce hyper etc.)
