@@ -29,6 +29,8 @@
 ***** bruce suggests a macro implementation
 **** beginner gotcha: you can create a Numeric then if you check later it might be a Rat or whatever.
 ***** you create something as __ but what it is is something else
+**** prove6 
+***** https://raku.land/cpan:LEONT/App::Prove6
 
 *** jeff
 **** my Str $lines = $text.match(/ <.after FOO> .*<.before BAR>/);
