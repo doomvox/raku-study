@@ -48,3 +48,5 @@ say "===";
     say $i =:= Nil; # False
     say $i ~~ Nil;  # False
 }
+
+## https://github.com/Raku/problem-solving/issues/342
