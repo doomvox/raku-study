@@ -16,6 +16,8 @@
 
 # Oh right: defining methods without a class, duh..
 
+## But that compile error is different, doesn't like my lexical array in nqp code
+
 use v6;
 use nqp;
 
