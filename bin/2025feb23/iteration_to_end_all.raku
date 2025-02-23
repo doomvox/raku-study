@@ -69,6 +69,8 @@ say "=== slip";
 
 ## //   defined or
 
+## Bruce Gray examples:
+
 # raku -e 'my @a; my @b = <X Y>; my @c = @a // @b; say @c;'
 # []
 
