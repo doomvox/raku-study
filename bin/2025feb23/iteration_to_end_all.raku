@@ -8,3 +8,6 @@ my $it = (1,2).iterator;
 $it.pull-one for ^2;
 say $it.pull-one =:= IterationEnd; # OUTPUT: «True␤»
 
+
+my $something = $it.pull-one // 'something';
+say $something;
