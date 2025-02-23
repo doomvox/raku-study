@@ -28,5 +28,5 @@ say "===";
 {
     my $empty_thing = "".comb;
     my $something = $empty_thing // 'something';
-    say $something;
+    say $something;  # ()
 }
