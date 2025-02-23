@@ -6,9 +6,9 @@ use v6;
 
 my $i = Int;
 my $x = 2.5;
-say $i($x);  # 2
+say $i($x);    # 2
 
-say $x.WHAT; # (Rat)
+say $x.WHAT;   # (Rat)
 
 
 
