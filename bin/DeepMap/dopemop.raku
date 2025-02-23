@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
 # 
-# mah_dopemap_crapola.raku            12 Jan 2025 
+# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/DeepMap/dopemop.raku
+##  12 Jan 2025 
+
 
 ## STATUS: a 'manual branch' cut-and-paste of core code that I haven't done much with.
 ## 
