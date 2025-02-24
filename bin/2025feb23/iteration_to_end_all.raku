@@ -102,6 +102,5 @@ say "===";
     say $thingie[] =:= Empty;  # True
 
     say $thingie === Empty;    # True
-
 }
 
