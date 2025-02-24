@@ -147,7 +147,7 @@ https://www.ozonehouse.com/mark/periodic/
 ** follow-up 
 ** announcements 
 *** next meetings
-**** Mar  9, 2025
+**** Mar  9, 2025  (bruce is traveling)
 **** Mar 23, 2025
 **** Apr  6, 2025
 ***** after this, the two-week pattern crashes into Easter: stay tuned
@@ -157,3 +157,8 @@ https://www.ozonehouse.com/mark/periodic/
 **** call for papers is still open
 **** you can request talks on a topic
 
+The Perl and Raku Conference has re-opened the CFP, until March 15.
+https://tprc.us/tprc-2025-gsp/
+This page has ideas if you want to give a talk,
+and also is a place to express interest in a talk topic!
+https://github.com/perlconference/tprc-2025-gsp/wiki/Topics-we-want
