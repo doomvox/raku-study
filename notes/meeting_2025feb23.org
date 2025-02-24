@@ -154,5 +154,5 @@ https://www.ozonehouse.com/mark/periodic/
 
 *** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
 **** https://tprc.us/
-
+**** call for papers is still open
 
