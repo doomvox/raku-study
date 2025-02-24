@@ -80,5 +80,6 @@ say "=== slip";
 
 # "Bool checks to false"
 
-## Rob oddity:
+## Rob point:
 ##  Scalar.^parents: :all  # ((Any) (Mu))
+
