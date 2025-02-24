@@ -93,5 +93,5 @@ say "===";
     my Slip:D $thingie = Empty;
     say $thingie;
     my $something = $thingie // 'hey';
-    say $something;
+    say $something;  # hey
 }
