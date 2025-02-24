@@ -83,3 +83,6 @@ say "=== slip";
 ## Rob point:
 ##  Scalar.^parents: :all  # ((Any) (Mu))
 
+
+## Marton objects to behivor of any @var, %var
+##   concept of missing doesn't apply to them 
