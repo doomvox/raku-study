@@ -89,6 +89,6 @@ say "=== slip";
 
 {
     # Marton says this "will work"
-    my Slip :D $thigie = Empty;
+    my Slip:D $thigie = Empty;
 
 }
