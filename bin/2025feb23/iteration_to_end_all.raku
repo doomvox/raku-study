@@ -89,6 +89,6 @@ say "=== slip";
 
 {
     # Marton says this "will work"
-    my Slip :D = Empty;
+    Slip :D = Empty;
 
 }
