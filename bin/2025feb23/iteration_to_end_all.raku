@@ -107,3 +107,6 @@ say "===";
 # arrayish, smartmatch more or less a "structural comparison"
 
 ## I want a "smart empty match"
+
+
+## https://github.com/rakudo/rakudo/blob/1505faae1651223e742e4359afc34f8fa5681745/src/core.c/Slip.rakumod#L6 this is actually very simple
