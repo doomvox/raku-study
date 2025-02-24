@@ -98,7 +98,7 @@ say "===";
     say $thingie =:= Empty;  # False
     say $thingie ~~ Empty;   # True
 
-    say $thingie.[] =:= Empty;  # False
+    say $thingie[] =:= Empty;  # True
 
 }
 
