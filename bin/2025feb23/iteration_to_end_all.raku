@@ -90,6 +90,8 @@ say "=== slip";
 say "===";
 {
     # Marton says this "will work"
-    my Slip:D $thigie = Empty;
-
+    my Slip:D $thingie = Empty;
+    say $thingie;
+    my $something = $thingie // 'hey';
+    say $something;
 }
