@@ -89,7 +89,7 @@ say "=== slip";
 
 say "===";
 {
-    # Marton says this "will work"
+    # Marton says this "will work": Empty slips act like a missing value
     my Slip:D $thingie = Empty;
     say $thingie;
     my $something = $thingie // 'hey';
