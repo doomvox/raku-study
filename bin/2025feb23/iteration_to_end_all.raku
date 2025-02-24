@@ -96,6 +96,7 @@ say "===";
     say $something;  # hey
  
     say $thingie =:= Empty;  # False
-    say $thingie ~~ Empty;  # False
+    say $thingie ~~ Empty;   # True
+
 }
 
