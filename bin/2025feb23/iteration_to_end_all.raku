@@ -95,10 +95,13 @@ say "===";
     my $something = $thingie // 'hey';
     say $something;  # hey
  
-    say $thingie =:= Empty;  # False
+    say $thingie =:= Empty;  # False   (because there's a container)
     say $thingie ~~ Empty;   # True
 
     # decontainerize with empty index lookup
     say $thingie[] =:= Empty;  # True
+
+    say $thingie === Empty;  
+
 }
 
