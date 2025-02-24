@@ -105,3 +105,5 @@ say "===";
 }
 
 # arrayish, smartmatch more or less a "structural comparison"
+
+## I want a "smart empty match"
