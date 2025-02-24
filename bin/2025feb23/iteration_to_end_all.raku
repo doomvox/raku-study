@@ -104,3 +104,4 @@ say "===";
     say $thingie === Empty;    # True
 }
 
+# arrayish, smartmatch more or less a "structural comparison"
