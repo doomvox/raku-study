@@ -66,7 +66,7 @@ say "=== slip";
     say $empty_thing === Empty;  ## False
 }
 
-
+## 
 ## //   defined or
 
 
@@ -79,3 +79,6 @@ say "=== slip";
 # [X Y]
 
 # "Bool checks to false"
+
+## Rob oddity:
+##  Scalar.^parents: :all  # ((Any) (Mu))
