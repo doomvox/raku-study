@@ -100,6 +100,5 @@ say "===";
 
     # decontainerize with empty index lookup
     say $thingie[] =:= Empty;  # True
-
 }
 
