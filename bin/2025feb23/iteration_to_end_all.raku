@@ -94,4 +94,7 @@ say "===";
     say $thingie;
     my $something = $thingie // 'hey';
     say $something;  # hey
+ 
+    say $thingie =:= Empty;
 }
+
