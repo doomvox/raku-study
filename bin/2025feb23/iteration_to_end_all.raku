@@ -101,7 +101,7 @@ say "===";
     # decontainerize with empty index lookup
     say $thingie[] =:= Empty;  # True
 
-    say $thingie === Empty;  
+    say $thingie === Empty;    # True
 
 }
 
