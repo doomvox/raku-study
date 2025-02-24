@@ -87,6 +87,7 @@ say "=== slip";
 ## Marton objects to behivor of any @var, %var
 ##   concept of missing doesn't apply to them 
 
+say "===";
 {
     # Marton says this "will work"
     my Slip:D $thigie = Empty;
