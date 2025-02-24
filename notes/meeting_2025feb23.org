@@ -140,8 +140,6 @@ https://github.com/magnars/dash.el#functions
 **** Marton has comments up at the raku-study github board
 https://www.ozonehouse.com/mark/periodic/
 
-
-
 **** problem of aggregates
 ***** one thing or multiple?
 ****** "you people"
