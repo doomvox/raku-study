@@ -25,6 +25,9 @@
 *** rob: rakudo bug turned up in weekly challenge
 **** .= operator not working as "explicit assignment"
 
+rakudo/issues/5803
+
+
 *** rob: raku base 36, bank echecks 
 *** weekly challenge
 *** jeff: cro experience
