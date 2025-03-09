@@ -20,7 +20,7 @@
 *** rob: rakudo bug turned up in weekly challenge
 **** .= operator not working as "explicit assignment"
 *** weekly challenge
-*** jeff: cro experience?
+*** jeff: cro experience
 
 ** old topics from feb 23 meeting 
 *** marton's been talking over here;
