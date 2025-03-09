@@ -52,7 +52,8 @@ say ++$a.=abs;    ## this *does* work
 
 ***** TODO Traps of .= weirdness not adequate
 ****** https://docs.raku.org/language/traps
-
+******* https://docs.raku.org/language/traps#Method_calls_do_not_chain
+******* https://docs.raku.org/language/traps#Method_operator_calls_and_prefix_minus
 
 *** rob: raku base 36, bank echecks 
 *** weekly challenge
