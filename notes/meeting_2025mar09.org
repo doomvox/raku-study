@@ -16,6 +16,9 @@
 
 ** topics for Mar 9
 *** jeff issues with encodings
+**** roles?
+**** utf8-c8
+
 *** rob: raku base 36, bank echecks 
 *** rob: rakudo bug turned up in weekly challenge
 **** .= operator not working as "explicit assignment"
