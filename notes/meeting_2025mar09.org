@@ -22,6 +22,7 @@
 *** weekly challenge
 *** jeff: cro experience
 
+
 ** old topics from feb 23 meeting 
 *** marton's been talking over here;
 **** https://github.com/doomvox/raku-study/discussions 
