@@ -1,0 +1,166 @@
+* meeting notes March 09, 2025 
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025feb23.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025feb23
+****** https://github.com/doomvox/raku-study/tree/main/bin/DeepMap
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025feb09.org
+
+** topics
+*** marton's been talking over here;
+**** https://github.com/doomvox/raku-study/discussions 
+**** https://www.ozonehouse.com/mark/periodic/
+
+*** rob stuff
+**** conventional symbol for an alternate to assignment "="
+***** can't override "="
+***** Marton suggests looking into why
+****** assignment backed by "STORE magic method"
+******* story involves proxies
+******** https://docs.raku.org/routine/STORE 
+******** https://docs.raku.org/type/Proxy
+**** suggestion brackets that force list of numerics to a typical type
+***** bruce suggests a macro implementation
+**** beginner gotcha: you can create a Numeric then if you check later it might be a Rat or whatever.
+***** you create something as __ but what it is is something else
+**** prove6 
+***** https://raku.land/cpan:LEONT/App::Prove6
+****** -e	--exec	Interpreter to run the tests ('' for compiled tests.)
+
+*** jeff
+**** interested in plain text accounting
+****** https://plaintextaccounting.org/
+
+****** after/before patterns
+#+BEGIN_SRC raku
+my Str $lines = $text.match(/ <.after FOO> .*<.before BAR>/);
+#+END_SRC 
+
+****** alternately the flip-flop operators, ff, fff
+
+*** listmat closed out my deepmap bug
+**** Rakudo Weekly: "fixed hyper operators and .deepmap producing unexpected types / errors"
+**** https://github.com/rakudo/rakudo/issues/4435
+**** source code
+***** ./src/core.c/Any-iterable-methods.pm6
+***** /home/doom/End/Cave/Raku/Wall/rakudo/src/core.c/Any-iterable-methods.pm6
+**** the commits 
+lizmat
+added 2 commits that reference this issue on Feb 18, 2025
+
+Additional fix on Associative.deepmap
+ab09c6d
+lizmat
+
+Handle Associative.deepmap better wrt Empty
+6e98232
+
+
+commit 6e9823233991c5fd8fb9a9b24574167b1b6473f6
+Author: Elizabeth Mattijsen <liz@raku.rocks>
+Date:   Tue Feb 18 12:31:10 2025 +0100
+
+    Handle Associative.deepmap better wrt Empty
+    
+    Issue #4435 describes how .deepmap messes up on Associatives the
+    moment that some elements are skipped by returning Empty.
+    
+    This commit fixes that by special casing the direct Associative.deepmap
+    to actually check for empty returns, and then not producing those
+    keys.  At the expense of performance.
+    
+    This does *not* affect the >>op<< hyper case, as these still directly
+    call the specialized Map/Hash.STORE methods that take 2 Iterables: one
+    for keys and one for values.  Although technically these will still
+    suffer from this issue, I chose not to fix those.  The reason for not
+    changing these cases is really performance, combined with the fact that
+    using ops (instead of generic blocks) means that the "missing value"
+    case can never occur.
+    
+    Of course, if one would start using >>op<< hyper case on custom ops
+    that *could* produce Empty to indicate missing value, then they will
+    fail in unexpected ways.  However, at this point in time I'd say that's
+    a case of DIHWIDT.
+
+*** Remarks on Bruce Gray talk from june 2024
+**** Raku Next Steps: Hyperactive Metang (Z X reduce hyper etc.)
+***** https://www.youtube.com/watch?v=7XBqUN1H17Y
+
+***** Suggestions/Comments:
+****** Had trouble getting link to part 2 of raku for beginners to work, but it's out there
+******* https://www.youtube.com/watch?v=2UO-LEhOkiM
+
+****** use more foreshadowing 
+******* maybe just if the journey is long
+Before you get into something elaborate like the 'reduce' section, you
+might jump ahead and give a simple example to let people know where
+you're going:
+
+"In Raku code, you might see something like this:
+
+  $total = [+] @numbers;
+
+That's just one way of doing a summation over all the numbers, but
+
+you'll see constructs like that used in many different ways, those
+square brackets work with *any* infix operator.
+
+Now, let's back up and think about the general case of doing a reduce..."
+
+****** on that slide with three code examples separated by vertical bars
+
+I had trouble seeing the "stray dot" you were talking about,
+which made the remarks about it mystifying.
+
+****** zip example is well set up
+three ordered arrays is the right number to use
+to make the general case clear (and you can use
+the word "triplet" and avoid "pair"). 
+
+******* OPTIONAL side remarks about elisp stuff
+
+Z and Zop obliquely reminds me of elisp's
+   (mapconcat 'identity directory-levels "/")
+
+A closer comparison, from dash.el:
+
+  (-zip-with FN LIST1 LIST2)
+  Zip the two lists LIST1 and LIST2 using a function FN.
+
+(dash.el is a pretty funny nomenclature hack)
+
+https://github.com/magnars/dash.el#functions
+
+**** Marton has comments up at the raku-study github board
+https://www.ozonehouse.com/mark/periodic/
+
+**** problem of aggregates
+***** one thing or multiple?
+****** "you people"
+****** "the people"
+****** "a people"
+
+** old topics
+** follow-up 
+** announcements 
+*** next meetings
+**** Mar  9, 2025  (bruce is traveling)
+**** Mar 23, 2025
+**** Apr  6, 2025
+***** after this, the two-week pattern crashes into Easter: stay tuned
+
+*** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
+**** https://tprc.us/
+**** call for papers is still open: until March 15.
+**** you can *request* talks on a topic
+***** https://tprc.us/tprc-2025-gsp/
+Bruce Gray:
+This page has ideas if you want to give a talk,
+and also is a place to express interest in a talk topic!
+https://github.com/perlconference/tprc-2025-gsp/wiki/Topics-we-want
+
