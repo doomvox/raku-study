@@ -16,9 +16,8 @@
 
 ** topics for Mar 9
 *** jeff issues with encodings
-
-
-
+*** rob raku base 36, bank echecks 
+*** rob: rakudo bug turned up in weekly challenge
 
 ** old topics from feb 23 meeting 
 *** marton's been talking over here;
