@@ -46,7 +46,6 @@ say ++$a.=abs;    ## this *does* work
 # 0
 #+END_SRC raku
 
-
 ***** Marton looks up older reports:
 ****** https://github.com/rakudo/rakudo/issues/4996
 ****** https://github.com/rakudo/rakudo/issues/4863
