@@ -15,7 +15,7 @@
 ***** https://github.com/doomvox/raku-study/discussions 
 
 ** topics for Mar 9
-*** jeff interested in encodings
+*** jeff issues with encodings
 
 
 ** old stuff from feb 23 meeting topics
