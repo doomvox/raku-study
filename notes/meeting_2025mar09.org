@@ -2,10 +2,10 @@
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025feb23.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025mar09.org 
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2025feb23
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025mar09
 ****** https://github.com/doomvox/raku-study/tree/main/bin/DeepMap
 
 ***** last meeting notes
