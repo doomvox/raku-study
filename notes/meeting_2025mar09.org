@@ -95,66 +95,6 @@ Date:   Tue Feb 18 12:31:10 2025 +0100
     that *could* produce Empty to indicate missing value, then they will
     fail in unexpected ways.  However, at this point in time I'd say that's
     a case of DIHWIDT.
-
-*** Remarks on Bruce Gray talk from june 2024
-**** Raku Next Steps: Hyperactive Metang (Z X reduce hyper etc.)
-***** https://www.youtube.com/watch?v=7XBqUN1H17Y
-
-***** Suggestions/Comments:
-****** Had trouble getting link to part 2 of raku for beginners to work, but it's out there
-******* https://www.youtube.com/watch?v=2UO-LEhOkiM
-
-****** use more foreshadowing 
-******* maybe just if the journey is long
-Before you get into something elaborate like the 'reduce' section, you
-might jump ahead and give a simple example to let people know where
-you're going:
-
-"In Raku code, you might see something like this:
-
-  $total = [+] @numbers;
-
-That's just one way of doing a summation over all the numbers, but
-
-you'll see constructs like that used in many different ways, those
-square brackets work with *any* infix operator.
-
-Now, let's back up and think about the general case of doing a reduce..."
-
-****** on that slide with three code examples separated by vertical bars
-
-I had trouble seeing the "stray dot" you were talking about,
-which made the remarks about it mystifying.
-
-****** zip example is well set up
-three ordered arrays is the right number to use
-to make the general case clear (and you can use
-the word "triplet" and avoid "pair"). 
-
-******* OPTIONAL side remarks about elisp stuff
-
-Z and Zop obliquely reminds me of elisp's
-   (mapconcat 'identity directory-levels "/")
-
-A closer comparison, from dash.el:
-
-  (-zip-with FN LIST1 LIST2)
-  Zip the two lists LIST1 and LIST2 using a function FN.
-
-(dash.el is a pretty funny nomenclature hack)
-
-https://github.com/magnars/dash.el#functions
-
-**** Marton has comments up at the raku-study github board
-https://www.ozonehouse.com/mark/periodic/
-
-**** problem of aggregates
-***** one thing or multiple?
-****** "you people"
-****** "the people"
-****** "a people"
-
-** old topics
 ** follow-up 
 ** announcements 
 *** next meetings
