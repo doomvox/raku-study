@@ -46,6 +46,7 @@ say ++$a.=abs;    ## this *does* work
 0
 
 https://github.com/rakudo/rakudo/issues/4996
+https://github.com/rakudo/rakudo/issues/4863
 
 
 *** rob: raku base 36, bank echecks 
