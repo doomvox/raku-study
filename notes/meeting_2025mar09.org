@@ -42,7 +42,7 @@ say ++$a.=abs;    ## this *does* work
 1.succ
 2
 
--1 .succ
+-1 .succ  ## with the space, we start at -1 and step up 1 to 0
 0
 
 
