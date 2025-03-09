@@ -12,7 +12,6 @@
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025feb23.org
 
 ** topics for Mar 9
-
 *** jeff interested in encodings
 
 ** old stuff from feb 23 meeting topics
