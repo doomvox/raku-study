@@ -25,7 +25,7 @@
 *** rob: rakudo bug turned up in weekly challenge
 **** .= operator not working as "explicit assignment"
 **** https://github.com/rakudo/rakudo/issues/5803
-
+#+BEGIN_SRC raku
 ## Example from the docs:
 say ++$a.=abs;
 say ++$a .= abs;  ## doesn't work
@@ -33,17 +33,19 @@ say ++$a .= abs;  ## doesn't work
 #  in block <unit> at <unknown file> line 1
 
 say ++$a.=abs;    ## this *does* work
-8
+# 8
 
 ## Marton's example
 -1.succ
--2      ## the - is applied *after* the .succ increases value by 1
+# -2      ## the - is applied *after* the .succ increases value by 1
 
 1.succ
-2
+# 2
 
 -1 .succ  ## with the space, we start at -1 and step up 1 to 0
-0
+# 0
+#+END_SRC raku
+
 
 ***** Marton looks up older reports:
 ****** https://github.com/rakudo/rakudo/issues/4996
