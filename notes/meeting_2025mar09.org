@@ -18,6 +18,8 @@
 *** jeff issues with encodings
 **** roles?
 **** utf8-c8
+***** /home/doom/End/Cave/Raku/Wall/roast/S32-encoding/registry.t
+***** https://github.com/rakudo/rakudo/issues/5807
 
 *** rob: raku base 36, bank echecks 
 *** rob: rakudo bug turned up in weekly challenge
