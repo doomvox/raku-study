@@ -21,7 +21,7 @@
 **** .= operator not working as "explicit assignment"
 *** weekly challenge
 *** jeff: cro experience
-
+*** bike accident 
 
 ** old topics from feb 23 meeting 
 *** marton's been talking over here;
