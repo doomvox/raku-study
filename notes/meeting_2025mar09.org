@@ -58,8 +58,8 @@ say ++$a.=abs;    ## this *does* work
 
 *** rob: raku base 36, bank echecks 
 *** weekly challenge
-*** jeff: cro experience
 *** bike accident 
+*** jeff: cro experience
 
 ** old topics from feb 23 meeting 
 *** marton's been talking over here;
