@@ -22,9 +22,10 @@
 ***** https://github.com/rakudo/rakudo/issues/5807
 ***** TODO Add a problem-solving bug? Not clear how to do it.
 
-*** rob: raku base 36, bank echecks 
 *** rob: rakudo bug turned up in weekly challenge
 **** .= operator not working as "explicit assignment"
+
+*** rob: raku base 36, bank echecks 
 *** weekly challenge
 *** jeff: cro experience
 *** bike accident 
