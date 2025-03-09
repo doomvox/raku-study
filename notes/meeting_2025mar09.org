@@ -50,7 +50,7 @@ say ++$a.=abs;    ## this *does* work
 ****** https://github.com/rakudo/rakudo/issues/4863
 ****** https://github.com/Raku/doc/issues/3333
 
-***** Traps
+***** TODO Traps of .= weirdness not adequate
 ****** https://docs.raku.org/language/traps
 
 
