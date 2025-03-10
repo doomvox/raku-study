@@ -74,8 +74,8 @@ say ++$a.=abs;    ## this *does* work
 **** Apr  6, 2025
 ***** after this, the two-week pattern crashes into Easter: stay tuned
 
-*** Perl & Raku Conference 
-(Greenville, SC) 2025-06-27 through 29 Fri-Sun
+
+*** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
 **** https://tprc.us/
 **** call for papers is still open: until March 15.
 **** you can *request* talks on a topic
