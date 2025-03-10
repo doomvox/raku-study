@@ -15,8 +15,7 @@ We start at 1 pm Pacific time, and typically finish by 5pm.
 And the next meeting after that:
 
 * Sunday, Apr  6, 2025
-
-https://us02web.zoom.us/j/85760469780?pwd=blaqVorTdGvXoI1GaA2m2IaMtJAtpG.1
+  https://us02web.zoom.us/j/85760469780?pwd=blaqVorTdGvXoI1GaA2m2IaMtJAtpG.1
 
 An informal meeting: drop by when you can, show us what you've got,
 ask and answer questions, or just listen and lurk.
