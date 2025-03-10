@@ -3,7 +3,7 @@ Exploratory programming using the Raku language
 
 A place to share some code and meeting notes for the SF Perl Raku Study Group.
 
-The upcoming meetings:
+The upcoming meeting:
 
 * Sunday, Mar 23, 2025
 
@@ -11,6 +11,7 @@ And the super secret code you need is "4RakuRoll".
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
 
+And the next meeting after that:
 
 * Sunday, Apr  6, 2025
 
