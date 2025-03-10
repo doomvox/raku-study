@@ -66,6 +66,7 @@ say ++$a.=abs;    ## this *does* work
 ** follow-up 
 *** announce next meeting immediately
 *** check jeff's bug status
+**** added pointer to roast test
 *** doc bug traps, .= weirdness not well covered.
 
 ** announcements 
