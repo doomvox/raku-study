@@ -3,9 +3,6 @@ Exploratory programming using the Raku language
 
 A place to share some code and meeting notes for the SF Perl Raku Study Group.
 
-And the super secret code you need is "4RakuRoll".
-
-
 The upcoming meetings:
 
 * Sunday, Mar 23, 2025
