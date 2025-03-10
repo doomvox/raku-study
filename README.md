@@ -9,10 +9,10 @@ The upcoming meetings:
 
 And the super secret code you need is "4RakuRoll".
 
-* Sunday, Apr  6, 2025
-
 We start at 1 pm Pacific time, and typically finish by 5pm.
 
+
+* Sunday, Apr  6, 2025
 
 An informal meeting: drop by when you can, show us what you've got,
 ask and answer questions, or just listen and lurk.
