@@ -10,9 +10,6 @@ And the super secret code you need is "4RakuRoll".
 
 Tentative schedule of upcoming meetings:
 
-* Sunday, Feb  9, 2025
-* Sunday, Feb 23, 2025
-* Sunday, Mar  9, 2025
 * Sunday, Mar 23, 2025
 * Sunday, Apr  6, 2025
 
