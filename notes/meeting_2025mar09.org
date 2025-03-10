@@ -138,6 +138,9 @@ Date:   Tue Feb 18 12:31:10 2025 +0100
     fail in unexpected ways.  However, at this point in time I'd say that's
     a case of DIHWIDT.
 ** follow-up 
+*** announce next meeting immediately
+*** check jeff's bug status
+
 ** announcements 
 *** next meetings
 **** Mar  9, 2025  (bruce is traveling)
