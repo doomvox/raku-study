@@ -36,7 +36,7 @@ say ++$a.=abs;    ## this *does* work
 # 8
 
 ## Marton's example
--1.succ
+# -1.succ
 # -2      ## the - is applied *after* the .succ increases value by 1
 
 1.succ
