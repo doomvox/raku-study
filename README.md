@@ -7,7 +7,9 @@ The upcoming meeting:
 
 * Sunday, Mar 23, 2025
 
-And the super secret code you need is "4RakuRoll".
+  https://us02web.zoom.us/j/81750169963?pwd=SY3gIr63jZtsXVgW4PDXwbOdLavt1c.1
+
+  And the super secret code you need is "4RakuRoll".
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
 
