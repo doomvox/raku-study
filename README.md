@@ -6,6 +6,9 @@ A place to share some code and meeting notes for the SF Perl Raku Study Group.
 The upcoming meetings:
 
 * Sunday, Mar 23, 2025
+
+And the super secret code you need is "4RakuRoll".
+
 * Sunday, Apr  6, 2025
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
