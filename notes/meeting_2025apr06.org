@@ -17,6 +17,8 @@
 ** topics
 *** 
 
+
+
 ** topics from Mar 9
 *** jeff interested in how to create a new character encoding
 **** roles?
