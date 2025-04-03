@@ -14,6 +14,9 @@
 **** discussion group
 ***** https://github.com/doomvox/raku-study/discussions 
 
+** topics
+*** 
+
 ** topics for Mar 9
 *** jeff issues with encodings
 **** roles?
