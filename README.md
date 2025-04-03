@@ -11,8 +11,6 @@ Upcoming meetings:
 We start at 1 pm Pacific time, and typically finish by 5pm.
 And the super secret code you need is "4RakuRoll".
 
-
-
 An informal meeting: drop by when you can, show us what you've got,
 ask and answer questions, or just listen and lurk.
 
