@@ -74,7 +74,7 @@ say ++$a.=abs;    ## this *does* work
 **** Mar  9, 2025  (bruce is traveling)
 **** Mar 23, 2025
 **** Apr  6, 2025
-***** after this, the two-week pattern crashes into Easter: stay tuned
+***** after this, any two-week pattern crashes into Easter or Mother's Day
 
 **** Apr 13, 2025
 **** Apr 27, 2025
