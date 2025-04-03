@@ -18,7 +18,7 @@
 *** 
 
 ** topics for Mar 9
-*** jeff issues with encodings
+*** jeff interested in how to create a new character encoding
 **** roles?
 **** utf8-c8
 ***** /home/doom/End/Cave/Raku/Wall/roast/S32-encoding/registry.t
