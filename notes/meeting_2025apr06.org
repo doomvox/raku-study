@@ -17,7 +17,7 @@
 ** topics
 *** 
 
-** topics for Mar 9
+** topics from Mar 9
 *** jeff interested in how to create a new character encoding
 **** roles?
 **** utf8-c8
