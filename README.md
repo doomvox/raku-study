@@ -8,6 +8,9 @@ Upcoming meetings:
 * Sunday, Apr  6, 2025
   https://us02web.zoom.us/j/89759925908?pwd=59mwQboALSjiFQB9tdT2DDd4Xkxdi8.1
 
+* Sunday, Apr 13, 2025
+* Sunday, Apr 27, 2025
+* Sunady, May 18, 2025
 
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
