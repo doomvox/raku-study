@@ -80,8 +80,6 @@ say ++$a.=abs;    ## this *does* work
 **** Apr 27, 2025
 **** May 18, 2025
 
-
-
 **** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
 ***** https://tprc.us/
 
