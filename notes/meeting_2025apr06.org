@@ -84,7 +84,6 @@ The following are tokens:
 **** jeff: prefers finer control
 **** marton: rust is C++ with half of it removed
 
-
 *** time refers to odd string reversal challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/
 
