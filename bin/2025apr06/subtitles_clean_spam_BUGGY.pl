@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 # subtitles_clean_spam_BUGGY.pl                   doom@kzsu.stanford.edu
-#                                     17 Mar 2025
+#                                                 17 Mar 2025
 
 # STATUS:
 # worked okay, but latest version is "subtitle_spam"
