@@ -102,7 +102,7 @@ The following are tokens:
     my @reversed = $str.comb.grep({ /<alpha>/ }).reverse;
     my $index = 0;
     ($str.subst(/<alpha>/, { @reversed[$index++] }, :g)).say;
-# mark-anderson
+# mark-anderson (similar to bruce's approach)
     my @s   = $str.comb;
     my @k   = @s.grep(/:i <[a..z]>/, :k);
     @s[@k] .= reverse;
