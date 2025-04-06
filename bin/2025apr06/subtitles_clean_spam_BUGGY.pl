@@ -7,21 +7,21 @@
 
 =head1 NAME
 
-srt_clean_spam.pl - remove website spam from dramanice.cyou *.srt files 
+subtitles_clean_spam_BUGGY.pl - remove website spam from dramanice.cyou *.srt files 
 
 =head1 SYNOPSIS
 
   # default: modify file in place, rename original with *.BAK extension
-  srt_clean_spam.pl <srt_file> 
+  subtitles_clean_spam_BUGGY.pl <srt_file> 
 
   # an optional second file name can be supplied for the output, leaves original unchanged
-  srt_clean_spam.pl <srt_file> <optional_output_file>
+  subtitles_clean_spam_BUGGY.pl <srt_file> <optional_output_file>
 
   # Inside of emacs dired: position cursor on *.srt line and run this script with "&"
 
 =head1 DESCRIPTION
 
-B<srt_clean_spam.pl> is a script which replaces web spam lines in *.srt files
+B<subtitles_clean_spam_BUGGY.pl> is a script which replaces web spam lines in *.srt files
 replacing them with empty lines, leaving actual lines of dialog untouched.
 
 The *.srt files from the dramanice.cyou site have irritating spam
