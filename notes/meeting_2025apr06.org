@@ -15,7 +15,7 @@
 ***** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** 
+*** buffered io in perl and raku
 
 
 
