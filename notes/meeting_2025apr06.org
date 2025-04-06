@@ -96,7 +96,7 @@ The following are tokens:
 *** time refers to odd string reversal challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/
 
-#+BEGIN_SRC cider
+#+BEGIN_SRC lisp
 ```clj
 (let [s "_c-!h_all-en!g_e"]
   (loop [chars (vec s) letters (filter alpha? chars) result ()]
