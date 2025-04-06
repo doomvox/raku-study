@@ -28,6 +28,7 @@ my $fh = 'foo'.IO.open: :w, :0out-buffer;
 #+END_SRC 
 ***** TODO doc bug: unbuffered output not well covered in obvious places
 ****** https://docs.raku.org/language/io
+****** https://docs.raku.org/type/IO/Handle#Buffering_terminals
 
 *** neovim => lua; vim => perl
 **** lua prototypal like JS
