@@ -9,7 +9,7 @@ my @monsters1 = < godzilla mothera ghidora gammera golem rhodan >;
 my @monsters2 = < ankou araxxor borrokar damis delrith elvarg kalrag yuri >; ## www.runehq.com
 my @monsters3 = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
 
-my %entities = ( m1 => @monsters, m2 => @mosnters2, m3 => @monsters3 );
+my %entities = ( m1 => @monsters1, m2 => @mosnters2, m3 => @monsters3 );
 say %entities;
 
 my %new = %entitites.deepmap( uc(*) );
