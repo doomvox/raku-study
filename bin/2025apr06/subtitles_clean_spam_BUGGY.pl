@@ -99,7 +99,7 @@ while (my $line = <$fin>) {
 }
 
 close( $fin );
-
+close( $fout );
 if( $out_file ) {
   copy( $tmp_file, $out_file );
 } else {
