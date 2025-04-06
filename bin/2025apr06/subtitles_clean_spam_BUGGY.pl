@@ -98,7 +98,6 @@ while (my $line = <$fin>) {
   print {$fout}  $revised;
 }
 close( $fin );
-close( $fout );
 
 if( $out_file ) {
   copy( $tmp_file, $out_file );
