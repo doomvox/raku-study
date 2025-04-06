@@ -16,6 +16,7 @@
 
 ** topics
 *** buffered io in perl and raku
+**** example of processing subtitles files, *.srt
 
 *** neovim => lua; vim => perl
 **** lua prototypal like JS
