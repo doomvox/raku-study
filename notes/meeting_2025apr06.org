@@ -44,6 +44,8 @@ The following are tokens:
 
 *** jeff has yet another question he's been too shy to tell us
 
+*** raku jvm backend discussion
+
 *** rust
 **** tim: readability issues
 **** jeff: prefers finer control
