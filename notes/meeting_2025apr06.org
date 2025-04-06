@@ -25,7 +25,19 @@
 *** makefile cultures 
 *** jeff has a grammars question
 **** parsing tokens run together, not separated by whitespace
-**** 
+***** #BEGIN_SRC txt
+Tokens run together: 
+
+FOOBAR#BAR"STRINGFOO"
+
+The following are tokens:
+
+- FOO
+- BAR#
+- BAR
+- "STRINGFOO"
+
+#END_SRC 
 
 ** topics from Mar 9
 *** jeff interested in how to create a new character encoding
