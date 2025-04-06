@@ -26,7 +26,7 @@ for others, set out-buffer to zero or use :!out-buffer with open on a specific I
 #+BEGIN_SRC raku
 my $fh = 'foo'.IO.open: :w, :0out-buffer;
 #+END_SRC 
-***** TODO doc bug: unbuffered output not covered well 
+***** TODO doc bug: unbuffered output not well covered in obvious places
 ****** https://docs.raku.org/language/io
 
 *** neovim => lua; vim => perl
