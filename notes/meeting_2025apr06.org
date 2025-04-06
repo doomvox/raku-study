@@ -20,7 +20,6 @@
 **** $OUTPUT_AUTOFLUSH, $|§
 ***** No global alternative available. TTY handles are unbuffered by default, for others, set out-buffer to zero or use :!out-buffer with open on a specific IO::Handle.
 
-
 *** neovim => lua; vim => perl
 **** lua prototypal like JS
 **** lua "table" is a hash/map/dictionary, not a "data frame"
