@@ -90,6 +90,25 @@ The following are tokens:
 
 **** bruce summarizes some raku solutions
 #+BEGIN_SRC raku
+# barroff
+    my @characters = grep({ $_ ~~ m:i/ <[a..z]> / }, $str.comb);
+    map({ $_ ~~ m:i/ <[a..z]> / ?? @characters.pop !! $_ }, $str.comb).join;
+# feng-chang
+    my @s = $s.comb;
+    my @ndx = (^+@s).grep({ @s[$_] ~~ ('a'..'z')|('A'..'Z') });
+    @s[@ndx] = @s[@ndx].reverse;
+    put @s.join;
+# jaldhar-h-vyas
+    my @reversed = $str.comb.grep({ /<alpha>/ }).reverse;
+    my $index = 0;
+    ($str.subst(/<alpha>/, { @reversed[$index++] }, :g)).say;
+# mark-anderson
+    my @s   = $str.comb;
+    my @k   = @s.grep(/:i <[a..z]>/, :k);
+    @s[@k] .= reverse;
+    [~] @s
+# wambash
+    sprintf $str.trans( /<:alpha>/ => "%s"), $str.comb(/<:alpha>/).reverse
 
 #+END_SRC 
 
