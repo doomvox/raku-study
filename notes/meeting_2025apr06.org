@@ -16,8 +16,7 @@
 
 ** topics
 *** buffered io in perl and raku
-
-
+*** 
 
 ** topics from Mar 9
 *** jeff interested in how to create a new character encoding
