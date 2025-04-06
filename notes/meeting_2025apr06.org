@@ -93,9 +93,9 @@ The following are tokens:
 **** jeff: prefers finer control
 **** marton: rust is C++ with half of it removed
 
-*** time refers to odd string reversal challenge
+*** tim refers to odd string reversal challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/
-
+**** tim's solution in clojure
 #+BEGIN_SRC lisp
 ```clj
 (let [s "_c-!h_all-en!g_e"]
