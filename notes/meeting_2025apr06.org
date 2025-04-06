@@ -23,7 +23,8 @@
 *** zig community re-thought project design
 **** no more make/autoconf etc.
 *** makefile cultures 
-*** jeff has an grammars
+*** jeff has a grammars question
+*** 
 
 ** topics from Mar 9
 *** jeff interested in how to create a new character encoding
