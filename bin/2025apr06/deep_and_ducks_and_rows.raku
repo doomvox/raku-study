@@ -12,3 +12,6 @@ my @monsters3 = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
 my %entities = ( m1 => @monsters, m2 => @mosnters2, m3 => @monsters3 );
 say %entities;
 
+my %new = %entitites.deepmap( uc(*) );
+
+say %new;
