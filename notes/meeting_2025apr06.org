@@ -78,6 +78,9 @@ The following are tokens:
 *** marton raised a number of points in the group discussion
 **** https://github.com/doomvox/raku-study/discussions
 **** https://github.com/doomvox/raku-study/discussions/17
+***** 
+raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
+****** "race for" is at the very least not always faster then a bare "for"
 
 *** raku jvm backend discussion
 **** it's an interpreter on top of an interpreter 
