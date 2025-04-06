@@ -97,6 +97,7 @@ while (my $line = <$fin>) {
   }
   print {$fout}  $revised;
 }
+
 close( $fin );
 
 if( $out_file ) {
