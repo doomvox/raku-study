@@ -26,6 +26,7 @@ for others, set out-buffer to zero or use :!out-buffer with open on a specific I
 #+BEGIN_SRC raku
 my $fh = 'foo'.IO.open: :w, :0out-buffer;
 #+END_SRC 
+***** TODO arguably there's a doc bug here, unbuffered output not covered well 
 
 *** neovim => lua; vim => perl
 **** lua prototypal like JS
