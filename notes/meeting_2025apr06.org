@@ -68,6 +68,7 @@ The following are tokens:
 **** is it possible to write a compiler, to run raku on the jvm?
 ***** transpiler
 ***** marton: metamodel issues
+****** "the six model"
 
 *** rust
 **** tim: readability issues
