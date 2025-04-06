@@ -14,5 +14,5 @@ say %entities;
 # {m1 => [godzilla mothera ghidora gammera golem rhodan], m2 => [ankou araxxor borrokar damis delrith elvarg kalrag yuri], m3 => [basilisk minotaur behemoth leviathan ziz chimera manticore]}
 
 my %new = %entities.deepmap( *.uc );
-# {m1 => [GODZILLA MOTHERA GHIDORA GAMMERA GOLEM RHODAN], m2 => [ANKOU ARAXXOR BORROKAR DAMIS DELRITH ELVARG KALRAG YURI], m3 => [BASILISK MINOTAUR BEHEMOTH LEVIATHAN ZIZ CHIMERA MANTICORE]}
 say %new;
+# {m1 => [GODZILLA MOTHERA GHIDORA GAMMERA GOLEM RHODAN], m2 => [ANKOU ARAXXOR BORROKAR DAMIS DELRITH ELVARG KALRAG YURI], m3 => [BASILISK MINOTAUR BEHEMOTH LEVIATHAN ZIZ CHIMERA MANTICORE]}
