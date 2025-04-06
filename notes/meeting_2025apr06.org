@@ -109,7 +109,6 @@ The following are tokens:
     [~] @s
 # wambash
     sprintf $str.trans( /<:alpha>/ => "%s"), $str.comb(/<:alpha>/).reverse
-
 #+END_SRC 
 
 
