@@ -67,7 +67,7 @@ The following are tokens:
 **** it's an interpreter on top of an interpreter 
 **** is it possible to write a compiler, to run raku on the jvm?
 ***** transpiler
-***** marton: metamodel 
+***** marton: metamodel issues
 
 *** rust
 **** tim: readability issues
