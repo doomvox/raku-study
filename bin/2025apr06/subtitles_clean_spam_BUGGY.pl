@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-# srt_clean_spam.pl                   doom@kzsu.stanford.edu
+# subtitles_clean_spam_BUGGY.pl                   doom@kzsu.stanford.edu
 #                                     17 Mar 2025
 
 # STATUS:
