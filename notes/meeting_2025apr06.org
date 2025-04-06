@@ -43,6 +43,7 @@ The following are tokens:
 *** rust
 **** tim: readability issues
 **** jeff: prefers finer control
+**** marton: rust is C++ with half of it removed
 
 ** topics from Mar 9
 *** jeff interested in how to create a new character encoding
