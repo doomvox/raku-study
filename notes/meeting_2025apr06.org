@@ -138,7 +138,6 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 
 
 *** deepmap, duckmap. flat
-
 **** habere points out we have: .flat(:hammer)
 ***** TODO DOCBUG not documented in page for flat
 ***** https://docs.raku.org/routine/flat
