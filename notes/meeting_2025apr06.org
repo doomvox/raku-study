@@ -69,6 +69,7 @@ The following are tokens:
 **** https://github.com/doomvox/raku-study/discussions
 **** https://github.com/doomvox/raku-study/discussions/17
 
+
 *** raku jvm backend discussion
 **** it's an interpreter on top of an interpreter 
 **** is it possible to write a compiler, to run raku on the jvm?
@@ -82,6 +83,15 @@ The following are tokens:
 **** tim: readability issues
 **** jeff: prefers finer control
 **** marton: rust is C++ with half of it removed
+
+
+*** time refers to odd string reversal challenge
+https://theweeklychallenge.org/blog/perl-weekly-challenge-313/
+
+#+BEGIN_SRC raku
+
+#+END_SRC 
+
 
 ** topics from Mar 9
 *** jeff interested in how to create a new character encoding
