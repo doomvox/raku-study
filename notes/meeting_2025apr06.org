@@ -138,10 +138,15 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 
 
 *** deepmap, duckmap. flat
+**** marton's discussion of duckmap was very clear: better than the docs
+***** TODO DOCBUG need a simpler example to introduce duckmap
+
 **** habere points out we have: .flat(:hammer)
 ***** TODO DOCBUG not documented in page for flat
 ***** https://docs.raku.org/routine/flat
 ***** Also: @a[**]
+
+
 
 ** topics from Mar 9
 *** jeff interested in how to create a new character encoding
