@@ -18,7 +18,14 @@
 *** buffered io in perl and raku
 **** example of processing subtitles files, *.srt
 **** $OUTPUT_AUTOFLUSH, $|§
-***** No global alternative available. TTY handles are unbuffered by default, for others, set out-buffer to zero or use :!out-buffer with open on a specific IO::Handle.
+***** https://docs.raku.org/language/5to6-perlvar#$OUTPUT_AUTOFLUSH,_$|
+#+BEGIN_SRC txt
+No global alternative available. TTY handles are unbuffered by default, 
+for others, set out-buffer to zero or use :!out-buffer with open on a specific IO::Handle.
+#+END_SRC 
+#+BEGIN_SRC raku
+my $fh = 'foo'.IO.open: :w, :0out-buffer;
+#+END_SRC 
 
 *** neovim => lua; vim => perl
 **** lua prototypal like JS
