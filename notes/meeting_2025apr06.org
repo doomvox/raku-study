@@ -142,6 +142,7 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 **** habere points out we have: .flat(:hammer)
 ***** TODO DOCBUG not documented in page for flat
 ***** https://docs.raku.org/routine/flat
+***** Also: @a[**]
 
 ** topics from Mar 9
 *** jeff interested in how to create a new character encoding
