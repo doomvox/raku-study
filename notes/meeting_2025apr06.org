@@ -42,6 +42,8 @@ The following are tokens:
 #+END_SRC 
 ***** TODO bruce gray has a solution (see saved chat)
 
+*** jeff has yet another question he's been too shy to tell us
+
 *** rust
 **** tim: readability issues
 **** jeff: prefers finer control
