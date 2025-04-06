@@ -19,13 +19,7 @@
 *** 
 *** neovim => lua; vim => perl
 **** lua prototypal like JS
-
-
-
-
-
-
-
+**** lua "table" is a hash/map/dictionary, not a data frame
 
 ** topics from Mar 9
 *** jeff interested in how to create a new character encoding
