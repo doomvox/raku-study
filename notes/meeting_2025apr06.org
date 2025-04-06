@@ -96,6 +96,18 @@ The following are tokens:
 *** time refers to odd string reversal challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/
 
+#+BEGIN_SRC cider
+```clj
+(let [s "_c-!h_all-en!g_e"]
+  (loop [chars (vec s) letters (filter alpha? chars) result ()]
+    (if-let [ch (peek chars)]
+      (if (alpha? ch)
+        (recur (pop chars) (rest letters) (cons (first letters) result))
+        (recur (pop chars) letters (cons ch result)))
+      (str/join result))))
+```
+#+END_SRC 
+
 **** bruce summarizes some raku solutions
 #+BEGIN_SRC raku
 # barroff
