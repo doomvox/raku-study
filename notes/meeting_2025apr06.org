@@ -86,8 +86,9 @@ The following are tokens:
 
 
 *** time refers to odd string reversal challenge
-https://theweeklychallenge.org/blog/perl-weekly-challenge-313/
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/
 
+**** bruce summarizes some raku solutions
 #+BEGIN_SRC raku
 
 #+END_SRC 
