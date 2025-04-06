@@ -2,9 +2,6 @@
 # subtitles_clean_spam_BUGGY.pl                   doom@kzsu.stanford.edu
 #                                                 17 Mar 2025
 
-# STATUS:
-# worked okay, but latest version is "subtitle_spam"
-
 =head1 NAME
 
 srt_clean_spam.pl - remove website spam from dramanice.cyou *.srt files 
