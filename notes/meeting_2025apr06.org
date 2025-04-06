@@ -41,6 +41,25 @@ The following are tokens:
 
 #+END_SRC 
 ***** TODO bruce gray has a solution (see saved chat)
+#+BEGIN_SRC raku
+    grammar G {
+        regex TOP  { [ <foo> | <bar_hash> | <bar_plain> | <a_string> ]+ } # using `regex` where we would usually use `rule`
+        token foo       { 'FOO'           }
+        token bar_hash  { 'BAR#'          }
+        token bar_plain { 'BAR'           }
+        token a_string  { '"' <-["]>* '"' }
+    }
+    my $s = 'FOOBAR#BAR"STRINGFOO"';
+    my $p = G.parse($s)
+        orelse die;
+    say $p;
+  # Output:
+  #     ｢FOOBAR#BAR"STRINGFOO"｣
+  #      foo => ｢FOO｣
+  #      bar_hash => ｢BAR#｣
+  #      bar_plain => ｢BAR｣
+  #      a_string => ｢"STRINGFOO"｣
+#+END_SRC 
 
 *** jeff has yet another question he's been too shy to tell us
 
