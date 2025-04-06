@@ -64,6 +64,7 @@ The following are tokens:
 *** jeff has yet another question he's been too shy to tell us
 
 *** marton raised a number of points in the group discussion
+**** https://github.com/doomvox/raku-study/discussions
 
 *** raku jvm backend discussion
 **** it's an interpreter on top of an interpreter 
