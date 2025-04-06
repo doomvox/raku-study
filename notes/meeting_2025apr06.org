@@ -17,6 +17,7 @@
 ** topics
 *** buffered io in perl and raku
 *** 
+*** neovim => lua; vim => perl
 
 ** topics from Mar 9
 *** jeff interested in how to create a new character encoding
