@@ -25,7 +25,8 @@
 *** makefile cultures 
 *** jeff has a grammars question
 **** parsing tokens run together, not separated by whitespace
-***** #+BEGIN_SRC txt
+***** jeff:
+#+BEGIN_SRC txt
 Tokens run together: 
 
 FOOBAR#BAR"STRINGFOO"
