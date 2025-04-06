@@ -40,6 +40,9 @@ The following are tokens:
 - "STRINGFOO"
 
 #+END_SRC 
+*** rust
+**** tim: readability issues
+**** jeff: prefers finer control
 
 ** topics from Mar 9
 *** jeff interested in how to create a new character encoding
