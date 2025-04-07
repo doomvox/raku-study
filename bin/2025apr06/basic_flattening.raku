@@ -12,3 +12,5 @@ say $structure».List.flat;   # OUTPUT: (1 2 3 4 5 6 7)
 
 
 say $structure.flat(:hammer);  # OUTPUT: ([1 2 3] [(4 5) 6 7])
+
+say $structure[ ** ]
