@@ -16,4 +16,4 @@ say $structure.flat(:hammer);  # OUTPUT: ([1 2 3] [(4 5) 6 7])
 
 # say $structure[**];  # HyperWhatever in array index not yet implemented. Sorry.
 
-say $structure[*;*];  # OUTPUT: (1 2 3 (4 5) 6 7)
+say $structure[*;*];   # OUTPUT: (1 2 3 (4 5) 6 7)
