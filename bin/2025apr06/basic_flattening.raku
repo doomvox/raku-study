@@ -19,3 +19,5 @@ say $structure.flat(:hammer);  # OUTPUT: ([1 2 3] [(4 5) 6 7])
 say $structure[*;*];   # OUTPUT: (1 2 3 (4 5) 6 7)
 
 
+# Mark A: 
+# I think hammer is v6.e along with the [**]
