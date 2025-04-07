@@ -149,7 +149,7 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 ***** released 2024.07, on use 6.e.PREVIEW;
 
 
-*** unicode classes ":L" for letter vs. ":alpha"?  
+*** unicode classes ":L" for letter vs. ":alpha"
 
 
 ** topics from Mar 9
