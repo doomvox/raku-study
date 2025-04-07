@@ -145,8 +145,8 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 ***** TODO DOCBUG not documented in page for flat
 ***** https://docs.raku.org/routine/flat
 ***** Also: @a[**]
-
-
+***** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
+***** released 2024.07, on use 6.e.PREVIEW;
 
 ** topics from Mar 9
 *** jeff interested in how to create a new character encoding
