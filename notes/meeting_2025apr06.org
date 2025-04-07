@@ -153,6 +153,7 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 
 *** "I refuse to live in a docker container!" -- Tim Schafer
 
+*** container: how do you communicate with it besides through ports
 
 ** topics from Mar 9
 *** jeff interested in how to create a new character encoding
