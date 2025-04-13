@@ -22,6 +22,8 @@
 *** rob ransbottom
 **** making fixes to raku core
 ***** you can't export from internals to core code
+****** declarations of stuff gets tricky
+
 ***** method in internals called once when initialized, get the current time distance
 ****** rather than a hardcoded 37secs of leap seconds.
 
