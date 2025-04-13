@@ -32,6 +32,10 @@
 *** blew away my old build from github and started again: worked better
 **** several test failures though-- don't know if that's unusual
 
+*** ran old .flat(:hammer) test script from last meeting
+**** works with a fresh build
+**** doesn't need to be 6.e, 6.d also works
+
 *** bruce: c-code more comprehensible de bruijin
 **** https://en.wikipedia.org/wiki/De_Bruijn_sequence
 
