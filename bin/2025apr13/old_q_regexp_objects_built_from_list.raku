@@ -7,7 +7,7 @@ use v6;
 
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 
-my $stringy = "You know one of these days I'll figure that out.";
+my $stringy = "You know wuhn of these days I'll figure that out.";
 
 
 say $stringy ~~ /@numbers/;  # Nil
