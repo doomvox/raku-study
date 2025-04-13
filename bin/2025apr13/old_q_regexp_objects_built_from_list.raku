@@ -11,3 +11,4 @@ my $stringy = "You know wuhn of these days I'll figure that out.";
 
 say $stringy ~~ /@numbers/;  # ｢wuhn｣
 
+## Very simple to turn a list into an or regexp, just use it.
