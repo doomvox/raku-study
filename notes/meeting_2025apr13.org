@@ -37,7 +37,6 @@
 **** doesn't need to be 6.e, 6.d also works
 
 *** double-colons have double meanings
-
 https://github.com/rakudo/rakudo/issues/5805
 
 #+BEGIN_SRC raku
