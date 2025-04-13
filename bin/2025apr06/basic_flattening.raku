@@ -34,6 +34,7 @@ say $structure[**];  # (1 2 3 4 5 6 7) (with recent raku)
     say %h.flat(:hammer);
     # (ankou => 1 kalrag => 7 borrokar => 3 araxxor => 2 elvarg => 6 yuri => 8 delrith => 5 damis => 4)
 
-    say %h».List.flat;   # 
+    say %h».List.flat;
+    #  (araxxor => (2) damis => (4) borrokar => (3) yuri => (8) ankou => (1) delrith => (5) elvarg => (6) kalrag => (7))
 
     }
