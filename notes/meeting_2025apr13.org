@@ -16,7 +16,7 @@
 
 ** topics
 
-** topics from last meeting (delete when ready)
+** topics from last meeting (TODO trim/delete)
 
 *** buffered io in perl and raku
 **** example of processing subtitles files, *.srt
