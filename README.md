@@ -12,6 +12,7 @@ Upcoming meetings:
   *   https://us02web.zoom.us/j/85308554316?pwd=52Bc9BpWgd7Xsi6tqQT2QhSQ8eWDkM.1
 
 * Sunday, May 11, 2025
+  (Even though this is Mother's Day)
 
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
