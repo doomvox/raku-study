@@ -61,6 +61,7 @@ So then: $b has to be a Positional of the same type as $a.
 
 
 *** grabbed some topics out of my old Topics directory (dating back to 2018)
+**** pairs
 
 ** topics from last meeting (TODO trim/delete)
 
