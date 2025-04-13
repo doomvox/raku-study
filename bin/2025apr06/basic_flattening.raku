@@ -2,7 +2,7 @@
 # 
 # basic_flattening.raku            06 Apr 2025 
 
-use v6.e.PREVIEW;
+# use v6.e.PREVIEW;
 
 my $structure = [[1, 2, 3], [(4, 5), 6, 7]] ;
 
