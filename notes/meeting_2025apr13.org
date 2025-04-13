@@ -61,6 +61,7 @@ So then: $b has to be a Positional of the same type as $a.
 
 
 
+
 ** topics from last meeting (TODO trim/delete)
 
 *** buffered io in perl and raku
