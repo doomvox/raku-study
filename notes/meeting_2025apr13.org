@@ -18,6 +18,7 @@
 *** meeting scheduling issues
 **** conclusion: we stick with an even two week pattern for some time
 **** scheduling on-top of Mother's Day this time makes it work more neatly
+**** the projected schedule takes the Perl & Raku Conference into account
 
 ** topics from last meeting (TODO trim/delete)
 
