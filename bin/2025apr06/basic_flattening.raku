@@ -15,7 +15,6 @@ say "flat hammer time";
 # not documented in "flat" page, so don't know what it's supposed to do
 say $structure.flat(:hammer);  # OUTPUT: (1 2 3 4 5 6 7) with a recent raku (new build as of 2025apr)
 
-
 # say $structure[**];  # HyperWhatever in array index not yet implemented. Sorry.
 
 say $structure[*;*];   # OUTPUT: (1 2 3 (4 5) 6 7)
