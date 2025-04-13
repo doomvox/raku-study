@@ -215,7 +215,9 @@ say ++$a.=abs;    ## this *does* work
 *** next meetings
 **** Apr  6, 2025
 ***** after this, any two-week pattern crashes into Easter or Mother's Day
-**** Apr 13, 2025 (after one week)
+**** Apr 13, 2025 (after one week)  
+***** perhaps not the best idea, eh?
+
 **** Apr 27, 2025 (then two weeks)
 **** May 18, 2025 
 
