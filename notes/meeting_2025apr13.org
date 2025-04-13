@@ -29,6 +29,8 @@
 
 **** rakubrew
 ***** modules not installed errors when it looks like they are installed 
+*** blew away my old build from github and started again: worked better
+**** several test failures though-- don't know if that's unusual
 
 *** bruce: c-code more comprehensible de bruijin
 **** https://en.wikipedia.org/wiki/De_Bruijn_sequence
