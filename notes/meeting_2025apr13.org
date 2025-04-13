@@ -36,6 +36,24 @@
 **** works with a fresh build
 **** doesn't need to be 6.e, 6.d also works
 
+*** 
+
+https://github.com/rakudo/rakudo/issues/5805
+
+#+BEGIN_SRC raku
+sub foo(::T $a, Positional[T] $b) {
+    dd :$a:$b
+}
+foo 42, my Int @ = 666;
+# :a(42)
+# :b(Array[Int].new(666))
+#+END_SRC 
+
+That syntax, borrowed from C++ (??) gets the type of $a an assigns it to T
+So you then $b has to be a Positional of the same type as $a.
+
+https://github.com/rakudo/rakudo/issues/5802
+
 *** bruce: c-code more comprehensible de bruijin
 **** https://en.wikipedia.org/wiki/De_Bruijn_sequence
 
