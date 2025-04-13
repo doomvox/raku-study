@@ -32,6 +32,7 @@
 
 *** bruce: c-code things
 
+
 ** topics from last meeting (TODO trim/delete)
 
 *** buffered io in perl and raku
