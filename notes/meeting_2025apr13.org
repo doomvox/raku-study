@@ -21,7 +21,7 @@
 **** the projected schedule takes the Perl & Raku Conference into account
 *** rob ransbottome
 **** making fixes to raku core
-**** rakudobrew
+**** rakubrew
 
 ** topics from last meeting (TODO trim/delete)
 
