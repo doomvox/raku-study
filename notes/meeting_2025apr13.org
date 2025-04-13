@@ -30,8 +30,8 @@
 **** rakubrew
 ***** modules not installed errors when it looks like they are installed 
 
-*** bruce: c-code more comprehensible "debruijin"
-
+*** bruce: c-code more comprehensible de bruijin
+**** https://en.wikipedia.org/wiki/De_Bruijn_sequence
 
 ** topics from last meeting (TODO trim/delete)
 
