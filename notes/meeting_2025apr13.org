@@ -144,7 +144,7 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 ***** marton: metamodel issues
 ****** "the six model"
 
-*** rob: weirdness with whatever
+
 
 *** rust
 **** tim: readability issues
