@@ -231,7 +231,7 @@ say ++$a.=abs;    ## this *does* work
 **** Jul 27, 2025 
 **** Aug 10, 2025 
 **** Aug 24, 2025 
-**** Sep  7, 2025 (ok: labor day weekend was the week befor)
+**** Sep  7, 2025 (ok: labor day weekend was the week before)
 **** Sep 21, 2025 
 **** Oct  5, 2025
 **** Oct 19, 2025
