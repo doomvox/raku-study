@@ -17,7 +17,9 @@ say $structure.flat(:hammer);  # OUTPUT: (1 2 3 4 5 6 7) with a recent raku (new
 
 say $structure[*;*];   # OUTPUT: (1 2 3 (4 5) 6 7)
 
-say $structure[**];  # HyperWhatever in array index not yet implemented. Sorry.
-
+say $structure[**];  # (1 2 3 4 5 6 7) (with recent raku)
+# Used to say:
+  # HyperWhatever in array index not yet implemented. Sorry.
+                     
 # Mark A: 
 # I think hammer is v6.e along with the [**]
