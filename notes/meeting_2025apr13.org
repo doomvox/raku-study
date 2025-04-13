@@ -49,9 +49,10 @@ foo 42, my Int @ = 666;
 # :b(Array[Int].new(666))
 #+END_SRC 
 
-That syntax, borrowed from C++ (??) gets the type of $a an assigns it to T
+**** That syntax, borrowed from C++ (??) gets the type of $a an assigns it to T
 So you then $b has to be a Positional of the same type as $a.
-Double-colon might *look* like a namespace separator, but here it isn't.
+
+**** Double-colon might *look* like a namespace separator, but here it isn't.
 (In Perl 5, that'd be a shortcut to refer to the main package.)
 
 https://github.com/rakudo/rakudo/issues/5802
