@@ -41,5 +41,6 @@ say $structure[**];  # (1 2 3 4 5 6 7) (with recent raku)
     # (elvarg => 6 yuri => 8 damis => 4 araxxor => 2 ankou => 1 kalrag => 7 borrokar => 3 delrith => 5)
 
     say %h.map({ $_.kv.List }).flat;
+    # (damis 4 ankou 1 kalrag 7 elvarg 6 araxxor 2 borrokar 3 yuri 8 delrith 5)
 
     }
