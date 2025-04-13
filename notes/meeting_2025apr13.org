@@ -227,3 +227,5 @@ say ++$a.=abs;    ## this *does* work
 **** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
 ***** https://tprc.us/
 
+**** Jul 13, 2025 (3 week gap, to skip 4th of july weekend)
+**** Jul 27, 2025 
