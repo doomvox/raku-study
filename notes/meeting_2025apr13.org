@@ -56,8 +56,6 @@ So then: $b has to be a Positional of the same type as $a.
 
 **** Also: https://github.com/rakudo/rakudo/issues/5802
 
-
-
 *** bruce: c-code more comprehensible de bruijin
 **** https://en.wikipedia.org/wiki/De_Bruijn_sequence
 
