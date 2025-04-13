@@ -2,7 +2,8 @@
 # 
 # basic_flattening.raku            06 Apr 2025 
 
-# use v6.e.PREVIEW;
+# use v6.e.PREVIEW;  ## we though you needed to be on .e for the .flat(:hammer) to work, but no, .d is okay
+use v6.d;
 
 my $structure = [[1, 2, 3], [(4, 5), 6, 7]] ;
 
