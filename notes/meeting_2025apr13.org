@@ -21,6 +21,10 @@
 **** the projected schedule takes the Perl & Raku Conference into account
 *** rob ransbottome
 **** making fixes to raku core
+***** you can't export from core code
+***** method in internals called once when initialized, get the current time distance
+****** rather than a hardcoded 37secs of leap seconds.
+
 **** rakubrew
 
 ** topics from last meeting (TODO trim/delete)
