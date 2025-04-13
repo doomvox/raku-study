@@ -29,6 +29,7 @@ say $structure[**];  # (1 2 3 4 5 6 7) (with recent raku)
     my %h = @monsters Z=>(1..9);  
     say %h; # {ankou => 1, araxxor => 2, borrokar => 3, damis => 4, delrith => 5, elvarg => 6, kalrag => 7, yuri => 8}
 
+    say %h.flat();
 
 
     }
