@@ -33,6 +33,7 @@
 *** bruce: c-code more comprehensible de bruijin
 **** https://en.wikipedia.org/wiki/De_Bruijn_sequence
 
+
 ** topics from last meeting (TODO trim/delete)
 
 *** buffered io in perl and raku
