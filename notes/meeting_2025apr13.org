@@ -238,7 +238,7 @@ say ++$a.=abs;    ## this *does* work
 **** Apr 27, 2025 (then a two week gap, going for the weekend after Easter)
 **** May 11, 2025 (change in plans, let's just do one on Mother's Day)
 **** May 25, 2025 
-**** Jun 8, 2025 
+**** Jun  8, 2025 
 **** Jun 22, 2025 
 
 **** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
