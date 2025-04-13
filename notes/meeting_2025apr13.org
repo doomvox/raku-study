@@ -145,6 +145,7 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 ****** "the six model"
 
 
+
 *** tim refers to odd string reversal challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/
 **** tim's solution in clojure (next meeting: april 13th)
