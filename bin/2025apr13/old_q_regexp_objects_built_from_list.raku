@@ -10,5 +10,5 @@ my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 my $stringy = "You know one of these days I'll figure that out.";
 
 
-say $stringy ~ /@numbers/;
+say $stringy ~~ /@numbers/;
 
