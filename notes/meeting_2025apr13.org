@@ -21,7 +21,7 @@
 **** the projected schedule takes the Perl & Raku Conference into account
 *** rob ransbottom
 **** making fixes to raku core
-***** you can't export from core code
+***** you can't export from internals to core code
 ***** method in internals called once when initialized, get the current time distance
 ****** rather than a hardcoded 37secs of leap seconds.
 
