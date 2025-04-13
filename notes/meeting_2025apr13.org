@@ -239,3 +239,4 @@ say ++$a.=abs;    ## this *does* work
 **** Nov 16, 2025
 **** Dec 7, 2025 (three week gap, to get past thanksgiving weekend)
 **** Dec 21, 2025
+**** Jan  4, 2025
