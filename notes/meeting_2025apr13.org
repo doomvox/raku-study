@@ -65,7 +65,8 @@ So then: $b has to be a Positional of the same type as $a.
 ***** freeze?
 ****** deprecated: makes value ro as keys are
 
-** topics from last meeting (TODO trim/delete)
+
+** topics from last meeting, April 6th (TODO trim/delete)
 
 *** buffered io in perl and raku
 **** example of processing subtitles files, *.srt
