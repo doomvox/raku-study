@@ -23,3 +23,12 @@ say $structure[**];  # (1 2 3 4 5 6 7) (with recent raku)
                      
 # Mark A: 
 # I think hammer is v6.e along with the [**]
+
+{
+    my @monsters = < ankou araxxor borrokar damis delrith elvarg kalrag yuri >; ## www.runehq.com
+    my %h = @monsters Z=>(1..9);  
+
+
+
+
+    }
