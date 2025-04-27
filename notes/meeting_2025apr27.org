@@ -6,7 +6,7 @@
 
 ***** code examples
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2025apr27
-****** https://github.com/doomvox/raku-study/tree/main/bin/DeepMap
+****** https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
 
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025apr06.org 
