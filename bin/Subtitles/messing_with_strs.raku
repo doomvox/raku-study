@@ -5,8 +5,14 @@
 use v6;
 
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/Subtitles/data/short.srt 
-my $dat_loc = $*PROGRAM.add('Subtitles').add('data');
+my $data_loc = $*PROGRAM.add('Subtitles').add('data');
+my $file = "$data_loc/short.srt";
+say $file;
 
+my $fh = $file.IO.open( :r );
+my $data = $fh.slurp;
+
+say $data;
 
 ## cheat sheet
 
