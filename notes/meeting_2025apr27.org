@@ -62,6 +62,8 @@ raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.
 ***** effectively: a decade long smear campaign
 ****** pushed Python heavily despite non-existant library support
 ****** had to re-write a hell of a lot of code, but programmers *love* that kind of busy work
+***** yeah: perl5->perl6 business wasn't handled well, 
+****** this created an opportunity for the smear campaign
 
 ** old topics, last meeting
 *** meeting scheduling issues
