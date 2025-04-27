@@ -8,8 +8,10 @@ use v6;
 
 my Int $x = 42;
 dd $x;  # Int $x = 42
+$x = Int;
 
 
 my Int:D $y = 42;
-dd $y;
+dd $y;  # Int $y = 42
+
 # $y = Int;
