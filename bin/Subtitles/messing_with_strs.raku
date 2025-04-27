@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 # 
-# messing_with_strs.raku            26 Apr 2025 
+# messing_with_srts.raku            26 Apr 2025 
 
 use v6;
 
