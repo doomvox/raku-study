@@ -25,3 +25,4 @@ $y = $z;
 dd $y;  # Int $y = 23
 
 my $a = Nil;
+dd $a;
