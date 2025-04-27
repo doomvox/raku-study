@@ -19,3 +19,4 @@ my $
 ## ** from t/*.t to lib
 ## *** platform independent form
 ##   use lib $*PROGRAM.parent(2).add("lib");
+
