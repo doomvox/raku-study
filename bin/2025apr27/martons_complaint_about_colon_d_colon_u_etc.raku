@@ -32,3 +32,6 @@ dd $b;  # Nil:D $b = Nil
 
 $a = Nil;
 $b = Nil:D;
+
+dd $a;
+dd $b;
