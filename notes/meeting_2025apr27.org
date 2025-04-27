@@ -18,7 +18,7 @@
 *** doomvox@gmail is gone, now i'm 
 **** tailorpaul@proton.me
 **** tailorpaul@pm.me
-**** I am not actually "tailormoon"
+***** I am not actually "tailormoon"
 
 *** keeping this page up to date with meeting schedule
 **** https://github.com/doomvox/raku-study/tree/mainhttps://github.com/doomvox/raku-study/tree/main
