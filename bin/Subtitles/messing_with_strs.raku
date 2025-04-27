@@ -6,6 +6,7 @@ use v6;
 
 my $
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/Subtitles/data/short.srt 
+my $dat_loc = $*PROGRAM.add('Subtitles').add('data');
 
 
 ## cheat sheet
