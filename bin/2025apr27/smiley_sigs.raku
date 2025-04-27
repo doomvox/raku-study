@@ -13,4 +13,4 @@ my $p1 = &foo.signature.params[0];
 say $p1.type;         # (Int)
 say $p1.modifier;     # :D
 
-## So this thinks of the type as seperate from the modifier
+## So this thinks of the type as seperate from the modifier, the smiley
