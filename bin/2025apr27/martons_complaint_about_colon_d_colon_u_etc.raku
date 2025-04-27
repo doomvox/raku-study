@@ -21,3 +21,5 @@ dd $y;  # Int $y = 42
 ## Type check failed in assignment to $y; expected type Int:D cannot be itself (perhaps Nil was assigned to a :D which had no default?)
 
 my Int:D $z = 23;
+$y = $z;
+dd $y;
