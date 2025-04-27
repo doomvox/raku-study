@@ -46,6 +46,6 @@ say Nil:D ~~ Nil:D;  # False
 say Str ~~ Str;      # True
 say Str:D ~~ Str:D;  # False
 
-say Str:U ~~ Str:U;  # 
+say Str:U ~~ Str:U;  # True
 
 ## Okay, this stuff feels strange.
