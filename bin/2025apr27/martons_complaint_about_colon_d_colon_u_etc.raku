@@ -9,7 +9,7 @@ use v6;
 my Int $x = 42;
 dd $x;  # Int $x = 42
 $x = Int;
-
+say "okay?";
 
 my Int:D $y = 42;
 dd $y;  # Int $y = 42
