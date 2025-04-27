@@ -24,6 +24,11 @@
 **** https://github.com/doomvox/raku-study/tree/mainhttps://github.com/doomvox/raku-study/tree/main
 **** Q: pull-request for the community page in the docs?  Add this as a universal meeting link
 
+*** marton has some discussions going
+**** https://github.com/doomvox/raku-study/discussions/20
+**** https://github.com/doomvox/raku-study/discussions/18
+**** 
+
 ** old topics
 *** meeting scheduling issues
 **** conclusion: we stick with an even two week pattern for some time
