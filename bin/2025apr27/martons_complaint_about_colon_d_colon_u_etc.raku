@@ -6,3 +6,8 @@ use v6;
 
 # https://github.com/doomvox/raku-study/discussions/20
 
+my Int $x = 42;
+
+
+# my Int:D $x = 42;
+# $x = Int;
