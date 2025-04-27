@@ -54,7 +54,7 @@ raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.
 **** https://github.com/Raku/Blin
 
 
-*** perl affair
+*** the perl affair, my take (one more time)
 **** yeah strong initial successes pushed it:  bioinformatics, WWW
 **** this created an immediate panic in the computer science community
 ***** "perl is an ugly language!"
