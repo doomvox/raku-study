@@ -50,3 +50,4 @@ say Str:U ~~ Str:U;  # True
 
 ## Okay, this stuff feels strange.
 ## Marton: maybe :D is something "special", maybe Int:D should be another type
+
