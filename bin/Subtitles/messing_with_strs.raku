@@ -14,3 +14,5 @@ my $
 
 #             my $fh = $file.IO.open( :r, enc=>'utf8-c8' );
 #             for $fh.lines -> $line {
+
+## /home/doom/End/Cave/Ice/Xtal/Raku/paths_relative_to_script.org
