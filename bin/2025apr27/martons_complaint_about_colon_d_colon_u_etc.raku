@@ -16,7 +16,8 @@ dd $y;  # Int $y = 42
 # $y = Int;
 ## Type check failed in assignment to $y; expected Int:D but got Int (Int) (perhaps Nil was assigned to a :D which had no default?)
 
-$y = Int:D;
-say "okay still?";
+# $y = Int:D;
+# say "okay still?";
+## Type check failed in assignment to $y; expected type Int:D cannot be itself (perhaps Nil was assigned to a :D which had no default?)
 
 # $y = Int;
