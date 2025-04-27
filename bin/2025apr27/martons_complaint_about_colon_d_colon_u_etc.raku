@@ -28,4 +28,4 @@ my $a = Nil;
 dd $a; # Any $a = Any
 
 my $b = Nil:D;
-dd $b;
+dd $b;  # Nil:D $b = Nil
