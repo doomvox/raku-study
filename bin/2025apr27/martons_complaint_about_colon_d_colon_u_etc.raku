@@ -49,3 +49,4 @@ say Str:D ~~ Str:D;  # False
 say Str:U ~~ Str:U;  # True
 
 ## Okay, this stuff feels strange.
+## Maron: maybe :D is something "special", maybe Int:D should be another type
