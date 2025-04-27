@@ -6,6 +6,10 @@ Code to play with crunching subtitles files: *.srt
 
 ---
 
+/home/doom/End/Cave/Eye/Notes/notes-subtitle_scrub
+/home/doom/End/Cave/SubtitlePeople/Wall/Subtitle-Scrub/bin/subtitle_scrub
+
+
 Some simple p5 code:
 
 /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025apr06/subtitles_clean_spam_BUGGY.pl
