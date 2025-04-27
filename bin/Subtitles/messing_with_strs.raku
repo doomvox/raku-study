@@ -16,6 +16,22 @@ say $data;
 
 ## cheat sheet
 
+grammar srt {
+   rule TOP { <wordy> <whateva> }
+   token whateva { .* }
+   token wordy { 'doomfiles' }
+      }
+ 
+# my $match = df.parse($web_content);
+my $match = df.parse( $trial );
+say $match.what;         
+say $match.perl;
+say $match;
+# say $match.made;
+
+
+
+
 # say slurp( $file, enc => 'utf8-c8' x);
 
 #             my $fh = $file.IO.open( :r, enc=>'utf8-c8' );
