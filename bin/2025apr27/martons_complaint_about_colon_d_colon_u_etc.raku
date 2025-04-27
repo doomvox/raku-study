@@ -26,3 +26,5 @@ dd $y;  # Int $y = 23
 
 my $a = Nil;
 dd $a; # Any $a = Any
+
+my $b = Nil:D;
