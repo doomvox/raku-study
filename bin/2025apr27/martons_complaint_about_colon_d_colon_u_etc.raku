@@ -22,4 +22,4 @@ dd $y;  # Int $y = 42
 
 my Int:D $z = 23;
 $y = $z;
-dd $y;
+dd $y;  # Int $y = 23
