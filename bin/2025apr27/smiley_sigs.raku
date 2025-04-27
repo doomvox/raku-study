@@ -9,6 +9,6 @@ use v6;
 sub foo ( Int:D $n ) {...};
 
 my $p1 = &foo.signature.params[0];
-say $p1.type;
-say $p1.modifier;
+say $p1.type;         # (Int)
+say $p1.modifier;     # :D
 
