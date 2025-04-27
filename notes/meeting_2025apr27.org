@@ -30,7 +30,14 @@
 **** https://github.com/doomvox/raku-study/discussions/16
 **** 
 
-https://docs.raku.org/language/faq#What_are_those_:D_and_:U_things_in_signatures%3F
+** diving into oddities with :D and :U
+*** https://github.com/doomvox/raku-study/discussions/20
+*** https://docs.raku.org/language/faq#What_are_those_:D_and_:U_things_in_signatures%3F
+
+*** Bruce:
+raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.type; say $p1.modifier;'
+
+*** 
 
 ** old topics
 *** meeting scheduling issues
