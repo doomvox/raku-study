@@ -77,6 +77,7 @@ raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.
 ***** Often trying to address outside criticism
 
 **** perl tiobe index: 19
+***** https://www.tiobe.com/tiobe-index/
 
 ** old topics, last meeting
 *** meeting scheduling issues
