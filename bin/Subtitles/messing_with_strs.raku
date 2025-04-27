@@ -5,7 +5,7 @@
 use v6;
 
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/Subtitles/data/short.srt 
-my $data_loc = $*PROGRAM.parent.add('Subtitles').add('data');
+my $data_loc = $*PROGRAM.parent.add('data');
 my $file = "$data_loc/short.srt";
 say $file;
 
