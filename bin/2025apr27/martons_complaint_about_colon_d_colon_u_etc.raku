@@ -43,7 +43,7 @@ say $b ~~ Nil;   # True
 say $b ~~ Nil:D; # False   but we just checked with WHICH it *is* a Nil:D
 
 say Nil:D ~~ Nil:D;  # False
-say Str ~~ Str;      # True
+say Str   ~~ Str;      # True
 say Str:D ~~ Str:D;  # False
 
 say Str:U ~~ Str:U;  # True
