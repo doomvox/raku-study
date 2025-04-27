@@ -38,8 +38,8 @@ dd $b;  #  Nil:D $b = Nil
 
 say $b.WHICH;  # Nil:D|U3580019611360
 
-say $a ~~ Nil; # False
-say $b ~~ Nil; # True
-say $b ~~ Nil:D;
+say $a ~~ Nil;   # False
+say $b ~~ Nil;   # True
+say $b ~~ Nil:D; # False
 
 ## Okay, this stuff feels strange.
