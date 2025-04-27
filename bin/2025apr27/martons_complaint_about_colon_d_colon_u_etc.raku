@@ -34,4 +34,4 @@ $a = Nil;
 $b = Nil:D;
 
 dd $a;  #  Any $a = Any
-dd $b;
+dd $b;  #  Nil:D $b = Nil
