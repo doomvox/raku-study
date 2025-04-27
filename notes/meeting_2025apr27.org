@@ -64,6 +64,14 @@ raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.
 ****** had to re-write a hell of a lot of code, but programmers *love* that kind of busy work
 ***** yeah: perl5->perl6 business wasn't handled well, 
 ****** this created an opportunity for the smear campaign
+**** where does this leave Raku?
+***** plugging along in the side lines until it hits a Killer App
+***** then everyone will imitate it (whether that makes a lot of sense or not)
+***** for years whatever Microsoft did was The Right Thing
+***** then for years whatever Google did was The Right Thing
+****** there's very little about this that's *rational*
+****** Raku's not conistent enough?  Raku's philosophy isn't quite right?  
+******* Sideshows:  Not likely to be the Key Thing.
 
 ** old topics, last meeting
 *** meeting scheduling issues
