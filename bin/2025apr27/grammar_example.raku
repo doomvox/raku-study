@@ -13,7 +13,7 @@ grammar Calculator {
 
 class Calculations {
     method TOP ($/) { make $<add> ?? $<add>.made !! $<sub>.made; }
-    method add ($/) { make [+] $<num>; }
+    method add ($/) { make [+] { $<num>; say "add"; } }
     method sub ($/) { make [-] $<num>; }
 }
 
