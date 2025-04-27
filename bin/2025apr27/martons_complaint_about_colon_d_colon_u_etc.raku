@@ -36,3 +36,4 @@ $b = Nil:D;
 dd $a;  #  Any $a = Any
 dd $b;  #  Nil:D $b = Nil
 
+## Okay, this stuff feels strange.
