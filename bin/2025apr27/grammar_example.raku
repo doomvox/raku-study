@@ -5,7 +5,7 @@
 use v6;
 
 ## Marton suggestion:
-## <num> ** 2..* % '+'
+##   <num> ** 2..* % '+'
 
 grammar Calculator {
     token TOP { [ <add> || <sub> ] }
