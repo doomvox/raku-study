@@ -53,7 +53,10 @@ raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.
 **** https://raku.land/github:Raku/Blin
 **** https://github.com/Raku/Blin
 
-** old topics
+
+
+
+** old topics, last meeting
 *** meeting scheduling issues
 **** conclusion: we stick with an even two week pattern for some time
 **** scheduling on-top of Mother's Day this time makes it work more neatly
