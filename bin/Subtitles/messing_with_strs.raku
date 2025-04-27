@@ -16,3 +16,6 @@ my $
 #             for $fh.lines -> $line {
 
 ## /home/doom/End/Cave/Ice/Xtal/Raku/paths_relative_to_script.org
+## ** from t/*.t to lib
+## *** platform independent form
+##   use lib $*PROGRAM.parent(2).add("lib");
