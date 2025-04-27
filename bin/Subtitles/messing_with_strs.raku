@@ -20,3 +20,7 @@ my $
 ## *** platform independent form
 ##   use lib $*PROGRAM.parent(2).add("lib");
 
+## from t/*.t to t/dat
+
+##     my $dat_loc = $*PROGRAM.parent.add('dat');
+##     chdir( $dat_loc );
