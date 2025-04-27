@@ -8,6 +8,9 @@ my $
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/Subtitles/data/short.srt 
 
 
+## cheat sheet
 
+# say slurp( $file, enc => 'utf8-c8' x);
 
-
+#             my $fh = $file.IO.open( :r, enc=>'utf8-c8' );
+#             for $fh.lines -> $line {
