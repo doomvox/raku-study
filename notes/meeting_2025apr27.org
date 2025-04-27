@@ -1,0 +1,290 @@
+* meeting notes April 27, 2025 
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025apr13.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025apr13
+****** https://github.com/doomvox/raku-study/tree/main/bin/DeepMap
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025apr06.org 
+
+**** discussion group
+***** https://github.com/doomvox/raku-study/discussions 
+
+** topics
+*** meeting scheduling issues
+**** conclusion: we stick with an even two week pattern for some time
+**** scheduling on-top of Mother's Day this time makes it work more neatly
+**** the projected schedule takes the Perl & Raku Conference into account
+*** rob ransbottom
+**** making fixes to raku core
+***** you can't export from internals to core code
+****** declarations of stuff gets tricky
+
+***** method in internals called once when initialized, get the current time distance
+****** rather than a hardcoded 37secs of leap seconds.
+
+**** rakubrew
+***** modules not installed errors when it looks like they are installed 
+*** blew away my old build from github and started again: worked better
+**** several test failures though-- don't know if that's unusual
+
+*** ran old .flat(:hammer) test script from last meeting
+**** works with a fresh build
+**** doesn't need to be 6.e, 6.d also works
+
+*** double-colons have double meanings
+https://github.com/rakudo/rakudo/issues/5805
+
+#+BEGIN_SRC raku
+sub foo(::T $a, Positional[T] $b) {
+    dd :$a:$b
+}
+foo 42, my Int @ = 666;
+# :a(42)
+# :b(Array[Int].new(666))
+#+END_SRC 
+
+**** That syntax, borrowed from C++ (??) gets the type of $a an assigns it to T
+So then: $b has to be a Positional of the same type as $a.
+
+**** Double-colon might *look* like a namespace separator, but here it isn't.
+(In Perl 5, that'd be a shortcut to refer to the main package.)
+
+**** Also: https://github.com/rakudo/rakudo/issues/5802
+
+*** bruce: c-code project, going after a more comprehensible de bruijin
+**** https://en.wikipedia.org/wiki/De_Bruijn_sequence
+
+
+*** grabbed some topics out of my old Topics directory (dating back to 2018)
+**** methods on Pair objects
+***** freeze?
+****** deprecated: makes value ro as keys are
+
+
+** topics from last meeting, April 6th (TODO trim/delete)
+
+*** buffered io in perl and raku
+**** example of processing subtitles files, *.srt
+**** $OUTPUT_AUTOFLUSH, $|§
+***** https://docs.raku.org/language/5to6-perlvar#$OUTPUT_AUTOFLUSH,_$|
+#+BEGIN_SRC txt
+No global alternative available. TTY handles are unbuffered by default, 
+for others, set out-buffer to zero or use :!out-buffer with open on a specific IO::Handle.
+#+END_SRC 
+#+BEGIN_SRC raku
+my $fh = 'foo'.IO.open: :w, :0out-buffer;
+#+END_SRC 
+***** TODO doc bug: unbuffered output not well covered in obvious places
+****** https://docs.raku.org/language/io
+****** https://docs.raku.org/type/IO/Handle#Buffering_terminals
+
+*** neovim => lua; vim => perl
+**** lua prototypal like JS
+**** lua "table" is a hash/map/dictionary, not a "data frame"
+*** zig community re-thought project design
+**** no more make/autoconf etc.
+*** makefile cultures 
+*** jeff has a grammars question
+**** parsing tokens run together, not separated by whitespace
+***** jeff:
+#+BEGIN_SRC txt
+Tokens run together: 
+
+FOOBAR#BAR"STRINGFOO"
+
+The following are tokens:
+
+- FOO
+- BAR#
+- BAR
+- "STRINGFOO"
+
+#+END_SRC 
+***** TODO bruce gray has a solution (see saved chat)
+#+BEGIN_SRC raku
+    grammar G {
+        regex TOP  { [ <foo> | <bar_hash> | <bar_plain> | <a_string> ]+ } # using `regex` where we would usually use `rule`
+        token foo       { 'FOO'           }
+        token bar_hash  { 'BAR#'          }
+        token bar_plain { 'BAR'           }
+        token a_string  { '"' <-["]>* '"' }
+    }
+    my $s = 'FOOBAR#BAR"STRINGFOO"';
+    my $p = G.parse($s)
+        orelse die;
+    say $p;
+  # Output:
+  #     ｢FOOBAR#BAR"STRINGFOO"｣
+  #      foo => ｢FOO｣
+  #      bar_hash => ｢BAR#｣
+  #      bar_plain => ｢BAR｣
+  #      a_string => ｢"STRINGFOO"｣
+#+END_SRC 
+
+*** jeff has yet another question he's been too shy to tell us
+
+*** marton raised a number of points in the group discussion
+**** https://github.com/doomvox/raku-study/discussions
+**** https://github.com/doomvox/raku-study/discussions/17
+***** 
+raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
+****** "race for" is at the very least not always faster then a bare "for"
+****** "hyper for" is still another case
+******* bruce finds bare "for" is pretty fast
+
+*** raku jvm backend discussion
+**** it's an interpreter on top of an interpreter 
+**** is it possible to write a compiler, to run raku on the jvm?
+***** transpiler
+***** marton: metamodel issues
+****** "the six model"
+
+
+*** tim refers to odd string reversal challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/
+**** tim's solution in clojure (next meeting: april 13th)
+#+BEGIN_SRC lisp
+```clj
+(let [s "_c-!h_all-en!g_e"]
+  (loop [chars (vec s) letters (filter alpha? chars) result ()]
+    (if-let [ch (peek chars)]
+      (if (alpha? ch)
+        (recur (pop chars) (rest letters) (cons (first letters) result))
+        (recur (pop chars) letters (cons ch result)))
+      (str/join result))))
+```
+#+END_SRC 
+
+**** bruce summarizes some raku solutions
+#+BEGIN_SRC raku
+# barroff
+    my @characters = grep({ $_ ~~ m:i/ <[a..z]> / }, $str.comb);
+    map({ $_ ~~ m:i/ <[a..z]> / ?? @characters.pop !! $_ }, $str.comb).join;
+# feng-chang
+    my @s = $s.comb;
+    my @ndx = (^+@s).grep({ @s[$_] ~~ ('a'..'z')|('A'..'Z') });
+    @s[@ndx] = @s[@ndx].reverse;
+    put @s.join;
+# jaldhar-h-vyas
+    my @reversed = $str.comb.grep({ /<alpha>/ }).reverse;
+    my $index = 0;
+    ($str.subst(/<alpha>/, { @reversed[$index++] }, :g)).say;
+# mark-anderson (similar to bruce's approach)
+    my @s   = $str.comb;
+    my @k   = @s.grep(/:i <[a..z]>/, :k);
+    @s[@k] .= reverse;
+    [~] @s
+# wambash
+    sprintf $str.trans( /<:alpha>/ => "%s"), $str.comb(/<:alpha>/).reverse
+#+END_SRC 
+
+
+*** deepmap, duckmap. flat
+**** marton's discussion of duckmap was very clear: better than the docs
+***** TODO DOCBUG need a simpler example to introduce duckmap
+
+**** habere points out we have: .flat(:hammer)
+***** TODO DOCBUG not documented in page for flat
+***** https://docs.raku.org/routine/flat
+***** Also: @a[**]
+***** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
+***** released 2024.07, on use 6.e.PREVIEW;
+
+
+*** unicode classes ":L" for letter vs. ":alpha"
+[A-Za-z]
+
+*** "I refuse to live in a docker container!" -- Tim Schafer
+
+*** rob: container: how do you communicate with it besides through ports
+
+** topics from Mar 9
+*** jeff interested in how to create a new character encoding
+**** roles?
+**** utf8-c8
+***** /home/doom/End/Cave/Raku/Wall/roast/S32-encoding/registry.t
+***** https://github.com/rakudo/rakudo/issues/5807
+***** TODO Add a problem-solving bug? Not clear how to do it.
+
+*** rob: rakudo bug turned up in weekly challenge
+**** .= operator not working as "explicit assignment"
+**** https://github.com/rakudo/rakudo/issues/5803
+#+BEGIN_SRC raku
+## Example from the docs:
+say ++$a.=abs;
+say ++$a .= abs;  ## doesn't work
+# Cannot modify an immutable Int (7)
+#  in block <unit> at <unknown file> line 1
+
+say ++$a.=abs;    ## this *does* work
+# 8
+
+## Marton's example
+# -1.succ
+# -2      ## the - is applied *after* the .succ increases value by 1
+
+1.succ
+# 2
+
+-1 .succ  ## with the space, we start at -1 and step up 1 to 0
+# 0
+#+END_SRC raku
+
+***** Marton looks up older reports:
+****** https://github.com/rakudo/rakudo/issues/4996
+****** https://github.com/rakudo/rakudo/issues/4863
+****** https://github.com/Raku/doc/issues/3333
+
+***** TODO Traps of .= weirdness not adequate
+****** https://docs.raku.org/language/traps
+******* https://docs.raku.org/language/traps#Method_calls_do_not_chain
+******* https://docs.raku.org/language/traps#Method_operator_calls_and_prefix_minus
+
+*** rob: raku base 36, bank echecks 
+*** weekly challenge
+
+*** jeff: cro experience
+
+*** bike accident 
+
+** follow-up 
+*** announce next meeting immediately
+*** check jeff's bug status
+**** added pointer to roast test 
+*** doc bug traps .= weirdness not well covered.
+
+** announcements 
+*** next meetings
+**** Apr  6, 2025
+***** after this, any two-week pattern crashes into Easter or Mother's Day
+**** Apr 13, 2025 (after one week, to sneak in one more before Easter)  
+***** perhaps not the best idea, eh?
+
+**** Apr 27, 2025 (then a two week gap, going for the weekend after Easter)
+**** May 11, 2025 (change in plans, let's just do one on Mother's Day)
+**** May 25, 2025 
+**** Jun  8, 2025 
+**** Jun 22, 2025 
+
+**** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
+***** https://tprc.us/
+
+**** Jul 13, 2025 (3 week gap, to skip 4th of july weekend)
+**** Jul 27, 2025 
+**** Aug 10, 2025 
+**** Aug 24, 2025 
+**** Sep  7, 2025 (ok: labor day weekend was the week before)
+**** Sep 21, 2025 
+**** Oct  5, 2025
+**** Oct 19, 2025
+**** Nov 2, 2025
+**** Nov 16, 2025
+**** Dec 7, 2025 (three week gap, to get past thanksgiving weekend)
+**** Dec 21, 2025
+**** Jan  4, 2025
+**** Jan  18, 2025
