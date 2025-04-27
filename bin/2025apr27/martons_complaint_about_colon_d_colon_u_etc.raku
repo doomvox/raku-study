@@ -36,6 +36,6 @@ $b = Nil:D;
 dd $a;  #  Any $a = Any
 dd $b;  #  Nil:D $b = Nil
 
-say $b.WHICH;
+say $b.WHICH;  # Nil:D|U3580019611360
 
 ## Okay, this stuff feels strange.
