@@ -3,7 +3,7 @@
 #                                                 17 Mar 2025
 
 # STATUS:
-# putting a bug back in intentionally
+# putting a bug back in intentionally-- then fixed it during demo
 
 =head1 NAME
 
