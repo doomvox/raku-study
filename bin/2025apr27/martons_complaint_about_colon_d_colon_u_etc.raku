@@ -36,4 +36,6 @@ $b = Nil:D;
 dd $a;  #  Any $a = Any
 dd $b;  #  Nil:D $b = Nil
 
+say $b.WHICH;
+
 ## Okay, this stuff feels strange.
