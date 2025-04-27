@@ -48,7 +48,7 @@ raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.
 ***** /home/doom/End/Cave/Raku/Wall/roast/S06-parameters/smiley.t
 ***** /home/doom/End/Cave/Raku/Wall/roast/S12-attributes/smiley.t
 
-*** 
+*** Marton mentioned the Blin tool to install the whole ecosystem:
 **** https://raku.land/github:Raku/Blin
 **** https://github.com/Raku/Blin
 
