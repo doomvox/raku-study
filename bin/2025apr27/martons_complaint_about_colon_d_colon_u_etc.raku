@@ -13,5 +13,6 @@ say "okay?"; # okay?
 
 my Int:D $y = 42;
 dd $y;  # Int $y = 42
+$y = Int;
 
 # $y = Int;
