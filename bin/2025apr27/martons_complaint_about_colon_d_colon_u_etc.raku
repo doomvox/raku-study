@@ -13,6 +13,9 @@ say "okay?"; # okay?
 
 my Int:D $y = 42;
 dd $y;  # Int $y = 42
-$y = Int;
+# $y = Int;
+## Type check failed in assignment to $y; expected Int:D but got Int (Int) (perhaps Nil was assigned to a :D which had no default?)
+
+$y = Int:D;
 
 # $y = Int;
