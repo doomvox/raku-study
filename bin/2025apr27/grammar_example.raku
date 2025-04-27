@@ -4,7 +4,6 @@
 
 use v6;
 
-
 grammar Calculator {
     token TOP { [ <add> | <sub> ] }
     rule  add { <num> '+' <num> }
