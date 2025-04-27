@@ -5,7 +5,7 @@
 use v6;
 
 grammar Calculator {
-    token TOP { [ <sub> | <add> ] }
+    token TOP { [ <sub> || <add> ] }
     rule  add { <num> '+' <num> }
     rule  sub { <num> '-' <num> }
     token num { \d+ }
