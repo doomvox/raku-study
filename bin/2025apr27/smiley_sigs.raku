@@ -17,3 +17,6 @@ say $p1.modifier;     # :D
 
 
 sub bar ( Nil:D $n ) {...};
+my $p1 = &bar.signature.params[0];
+say $p1.type;         # (Int)
+say $p1.modifier;     # :D
