@@ -11,4 +11,5 @@ dd $x;  # Int $x = 42
 
 
 my Int:D $y = 42;
+dd $y;
 # $y = Int;
