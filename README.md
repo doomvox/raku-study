@@ -5,9 +5,6 @@ A place to share some code and meeting notes for the SF Perl Raku Study Group.
 
 Upcoming meetings:
 
-* Sunday, Apr 13, 2025
-  *   https://us02web.zoom.us/j/89366078473?pwd=Iu8rQKIeZ3vRlhDZbaalmXAW8EJRkq.1
-
 * Sunday, Apr 27, 2025
   *   https://us02web.zoom.us/j/85308554316?pwd=52Bc9BpWgd7Xsi6tqQT2QhSQ8eWDkM.1
 
