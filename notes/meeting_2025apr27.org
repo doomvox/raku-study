@@ -9,7 +9,7 @@
 ****** https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025apr06.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025apr13.org 
 
 **** discussion group
 ***** https://github.com/doomvox/raku-study/discussions 
