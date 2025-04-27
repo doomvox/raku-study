@@ -43,6 +43,11 @@ raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.
 **** roast looks at "smiley" behavior *only* for Int?
 **** no checks of Nil:D
 ***** find /home/doom/End/Cave/Raku/Wall/roast/ -type f | xargs egrep 'Nil:D'
+**** https://github.com/Raku/roast/blob/master/S06-parameters/smiley.t
+***** /home/doom/End/Cave/Raku/Wall/roast/S04-declarations/smiley.t
+***** /home/doom/End/Cave/Raku/Wall/roast/S06-parameters/smiley.t
+***** /home/doom/End/Cave/Raku/Wall/roast/S12-attributes/smiley.t
+
 
 ** old topics
 *** meeting scheduling issues
