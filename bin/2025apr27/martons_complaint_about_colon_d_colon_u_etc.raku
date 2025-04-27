@@ -40,6 +40,6 @@ say $b.WHICH;  # Nil:D|U3580019611360
 
 say $a ~~ Nil;   # False
 say $b ~~ Nil;   # True
-say $b ~~ Nil:D; # False
+say $b ~~ Nil:D; # False   but we just checked with WHICH it *is* a Nil:D
 
 ## Okay, this stuff feels strange.
