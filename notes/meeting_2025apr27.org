@@ -40,7 +40,7 @@ raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.
 *** https://docs.raku.org/type/Metamodel/DefiniteHOW
 
 *** /home/doom/End/Cave/Raku/Wall/roast/MISC/misc-6.d.t
-**** roast looks at "smiley" behavior *only* for Int?
+**** tests "smiley" behavior but *only* for Int?
 **** no checks of Nil:D
 ***** find /home/doom/End/Cave/Raku/Wall/roast/ -type f | xargs egrep 'Nil:D'
 **** https://github.com/Raku/roast/blob/master/S06-parameters/smiley.t
