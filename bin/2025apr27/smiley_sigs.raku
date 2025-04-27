@@ -15,3 +15,5 @@ say $p1.modifier;     # :D
 
 ## So this thinks of the type as seperate from the modifier, the smiley
 
+
+sub bar ( Nil:D $n ) {...};
