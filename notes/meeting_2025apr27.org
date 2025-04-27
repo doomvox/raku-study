@@ -27,6 +27,7 @@
 *** marton has some discussions going
 **** https://github.com/doomvox/raku-study/discussions/20
 **** https://github.com/doomvox/raku-study/discussions/18
+**** https://github.com/doomvox/raku-study/discussions/16
 **** 
 
 ** old topics
