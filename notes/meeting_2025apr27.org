@@ -82,18 +82,6 @@ raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.
 
 ** old topics, last meeting
 
-*** rob ransbottom
-**** making fixes to raku core
-***** you can't export from internals to core code
-****** declarations of stuff gets tricky
-
-***** method in internals called once when initialized, get the current time distance
-****** rather than a hardcoded 37secs of leap seconds.
-
-**** rakubrew
-***** modules not installed errors when it looks like they are installed 
-*** blew away my old build from github and started again: worked better
-**** several test failures though-- don't know if that's unusual
 
 *** ran old .flat(:hammer) test script from last meeting
 **** works with a fresh build
