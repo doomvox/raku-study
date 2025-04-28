@@ -72,9 +72,9 @@ raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.
 ****** there's very little about this that's *rational*
 ****** Raku's not conistent enough?  Raku's philosophy isn't quite right?  
 ******* these are sideshows: Not likely to be the Key Thing.
-**** perl community focus
-***** Not uniform
-***** Often trying to address outside criticism
+**** perl's community focus was
+***** not uniform
+***** often trying to address outside criticism
 
 **** perl tiobe index: 19
 ***** https://www.tiobe.com/tiobe-index/
