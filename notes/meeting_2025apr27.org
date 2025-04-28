@@ -201,8 +201,6 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 ***** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
 ***** released 2024.07, on use 6.e.PREVIEW;
 
-*** unicode classes ":L" for letter vs. ":alpha"
-[A-Za-z]
 
 
 ** topics from Mar 9
