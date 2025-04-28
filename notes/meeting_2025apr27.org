@@ -142,8 +142,6 @@ The following are tokens:
   #      a_string => ｢"STRINGFOO"｣
 #+END_SRC 
 
-*** jeff has yet another question he's been too shy to tell us
-
 *** marton raised a number of points in the group discussion
 **** https://github.com/doomvox/raku-study/discussions
 **** https://github.com/doomvox/raku-study/discussions/17
