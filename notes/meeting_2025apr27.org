@@ -20,7 +20,7 @@
 **** tailorpaul@pm.me
 ***** I am not actually "tailormoon"
 
-*** keeping this page up to date with meeting schedule
+*** I'm keeping the github up to date with meeting schedule
 **** https://github.com/doomvox/raku-study/tree/mainhttps://github.com/doomvox/raku-study/tree/main
 **** Q: pull-request for the community page in the docs?  Add this as a universal meeting link
 
