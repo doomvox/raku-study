@@ -17,11 +17,11 @@ say $data;
 ## cheat sheet
 
 grammar srt {
-   rule TOP { <stanzas> }
+   rule TOP { <stanza>* }
    token index { ^ \d \s* $ }   ## ^ $ to pin as one line?
    token timing { <time> --> <time> } 
    token time { \d\d : \d\d : \d\d , \d\d\d }
-   token wordy { 'doomfiles' }
+   token text { .*?  }
       }
  
 # my $match = df.parse($web_content);
