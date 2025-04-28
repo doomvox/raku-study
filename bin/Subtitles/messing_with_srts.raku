@@ -19,6 +19,7 @@ say $data;
 grammar srt {
    rule TOP { <stanzas> }
    token index { ^ \d \s* $ }   ## ^ $ to pin as one line?
+   token timing { <time> --> <time> } 
    token time { \d\d : \d\d : \d\d , \d\d\d }
    token wordy { 'doomfiles' }
       }
