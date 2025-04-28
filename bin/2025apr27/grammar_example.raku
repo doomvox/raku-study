@@ -5,6 +5,9 @@
 use v6;
 
 ## working with a grammar example from the docs
+## had questions about:
+##  (1) what order things are evaluated in
+##  (2) what modification might you use to allow a series: 1+2+7+13
 
 
 ## Marton suggestion:
