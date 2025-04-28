@@ -22,7 +22,7 @@ grammar srt {
    token index { ^^ \d \s* $$ }   
    token timing { <time> --> <time> } 
    token time { \d\d : \d\d : \d\d , \d\d\d }
-   token text { .*?  \n\n }  ## better: use "before"
+   token text { .*?  <before \n\n> } 
       }
  
 # my $match = df.parse($web_content);
