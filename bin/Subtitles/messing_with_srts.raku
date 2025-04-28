@@ -17,7 +17,8 @@ say $data;
 ## cheat sheet
 
 grammar srt {
-   rule TOP { <wordy> <whateva> }
+   rule TOP { <stanzas> }
+   token index { ^ \d $ }
    token whateva { .* }
    token wordy { 'doomfiles' }
       }
