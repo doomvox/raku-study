@@ -204,12 +204,6 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 
 
 ** topics from Mar 9
-*** jeff interested in how to create a new character encoding
-**** roles?
-**** utf8-c8
-***** /home/doom/End/Cave/Raku/Wall/roast/S32-encoding/registry.t
-***** https://github.com/rakudo/rakudo/issues/5807
-***** TODO Add a problem-solving bug? Not clear how to do it.
 
 *** rob: rakudo bug turned up in weekly challenge
 **** .= operator not working as "explicit assignment"
@@ -240,7 +234,7 @@ say ++$a.=abs;    ## this *does* work
 ****** https://github.com/rakudo/rakudo/issues/4863
 ****** https://github.com/Raku/doc/issues/3333
 
-***** TODO Traps of .= weirdness not adequate
+***** TODO doc bug (?): Traps of .= weirdness not adequate
 ****** https://docs.raku.org/language/traps
 ******* https://docs.raku.org/language/traps#Method_calls_do_not_chain
 ******* https://docs.raku.org/language/traps#Method_operator_calls_and_prefix_minus
