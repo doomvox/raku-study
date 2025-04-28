@@ -82,10 +82,6 @@ raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.
 
 ** old topics, last meeting
 
-*** ran old .flat(:hammer) test script from last meeting
-**** works with a fresh build
-**** doesn't need to be 6.e, 6.d also works
-
 *** double-colons have double meanings
 https://github.com/rakudo/rakudo/issues/5805
 
