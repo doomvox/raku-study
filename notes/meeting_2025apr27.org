@@ -248,11 +248,6 @@ say ++$a.=abs;    ## this *does* work
 
 ** announcements 
 *** next meetings
-**** Apr  6, 2025
-***** after this, any two-week pattern crashes into Easter or Mother's Day
-**** Apr 13, 2025 (after one week, to sneak in one more before Easter)  
-***** perhaps not the best idea, eh?
-
 **** Apr 27, 2025 (then a two week gap, going for the weekend after Easter)
 **** May 11, 2025 (change in plans, let's just do one on Mother's Day)
 **** May 25, 2025 
