@@ -10,7 +10,7 @@ use v6;
 ##  (2) what modification might you use to allow a series: 1+2+7+13
 
 
-## Marton suggestion:
+## Marton suggestion for add:
 ##   <num> ** 2..* % '+'
 
 grammar Calculator {
