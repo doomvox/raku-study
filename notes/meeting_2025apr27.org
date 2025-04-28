@@ -204,9 +204,6 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 *** unicode classes ":L" for letter vs. ":alpha"
 [A-Za-z]
 
-*** "I refuse to live in a docker container!" -- Tim Schafer
-
-*** rob: container: how do you communicate with it besides through ports
 
 ** topics from Mar 9
 *** jeff interested in how to create a new character encoding
