@@ -106,13 +106,7 @@ So then: $b has to be a Positional of the same type as $a.
 ** topics from last meeting, April 6th (TODO trim/delete)
 
 
-*** neovim => lua; vim => perl
-**** lua prototypal like JS
-**** lua "table" is a hash/map/dictionary, not a "data frame"
-*** zig community re-thought project design
-**** no more make/autoconf etc.
-*** makefile cultures 
-*** jeff has a grammars question
+*** jeff's grammars question
 **** parsing tokens run together, not separated by whitespace
 ***** jeff:
 #+BEGIN_SRC txt
