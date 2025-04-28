@@ -80,7 +80,7 @@ raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.
 **** perl tiobe index: 19
 ***** https://www.tiobe.com/tiobe-index/
 
-** old topics, last meeting
+** old topics, last meeting April 13th
 
 *** double-colons have double meanings
 https://github.com/rakudo/rakudo/issues/5805
