@@ -4,6 +4,9 @@
 
 use v6;
 
+## working with a grammar example from the docs
+
+
 ## Marton suggestion:
 ##   <num> ** 2..* % '+'
 
