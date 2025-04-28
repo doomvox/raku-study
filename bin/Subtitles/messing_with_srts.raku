@@ -18,7 +18,7 @@ say $data;
 
 grammar srt {
    rule TOP { <stanzas> }
-   token index { ^ \d $ }
+   token index { ^ \d \s* $ }   ## ^ $ to pin as one line?
    token whateva { .* }
    token wordy { 'doomfiles' }
       }
