@@ -106,7 +106,7 @@ So then: $b has to be a Positional of the same type as $a.
 ** topics from last meeting, April 6th (TODO trim/delete)
 
 *** buffered io in perl and raku
-**** example of processing subtitles files, *.srt
+
 **** $OUTPUT_AUTOFLUSH, $|§
 ***** https://docs.raku.org/language/5to6-perlvar#$OUTPUT_AUTOFLUSH,_$|
 #+BEGIN_SRC txt
