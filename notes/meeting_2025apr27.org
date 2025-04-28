@@ -105,20 +105,6 @@ So then: $b has to be a Positional of the same type as $a.
 
 ** topics from last meeting, April 6th (TODO trim/delete)
 
-*** buffered io in perl and raku
-
-**** $OUTPUT_AUTOFLUSH, $|§
-***** https://docs.raku.org/language/5to6-perlvar#$OUTPUT_AUTOFLUSH,_$|
-#+BEGIN_SRC txt
-No global alternative available. TTY handles are unbuffered by default, 
-for others, set out-buffer to zero or use :!out-buffer with open on a specific IO::Handle.
-#+END_SRC 
-#+BEGIN_SRC raku
-my $fh = 'foo'.IO.open: :w, :0out-buffer;
-#+END_SRC 
-***** TODO doc bug: unbuffered output not well covered in obvious places
-****** https://docs.raku.org/language/io
-****** https://docs.raku.org/type/IO/Handle#Buffering_terminals
 
 *** neovim => lua; vim => perl
 **** lua prototypal like JS
