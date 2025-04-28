@@ -192,10 +192,10 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 
 *** deepmap, duckmap. flat
 **** marton's discussion of duckmap was very clear: better than the docs
-***** TODO DOCBUG need a simpler example to introduce duckmap
+***** TODO docs bug: need a simpler example to introduce duckmap
 
 **** habere points out we have: .flat(:hammer)
-***** TODO DOCBUG not documented in page for flat
+***** TODO docs bug: not documented in page for flat
 ***** https://docs.raku.org/routine/flat
 ***** Also: @a[**]
 ***** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
