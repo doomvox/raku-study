@@ -239,12 +239,6 @@ say ++$a.=abs;    ## this *does* work
 ******* https://docs.raku.org/language/traps#Method_calls_do_not_chain
 ******* https://docs.raku.org/language/traps#Method_operator_calls_and_prefix_minus
 
-*** rob: raku base 36, bank echecks 
-*** weekly challenge
-
-*** jeff: cro experience
-
-*** bike accident 
 
 ** follow-up 
 *** announce next meeting immediately
