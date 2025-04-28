@@ -105,7 +105,6 @@ So then: $b has to be a Positional of the same type as $a.
 
 ** topics from last meeting, April 6th (TODO trim/delete)
 
-
 *** jeff's grammars question
 **** parsing tokens run together, not separated by whitespace
 ***** jeff:
