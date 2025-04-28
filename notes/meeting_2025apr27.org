@@ -102,11 +102,6 @@ So then: $b has to be a Positional of the same type as $a.
 
 **** Also: https://github.com/rakudo/rakudo/issues/5802
 
-*** grabbed some topics out of my old Topics directory (dating back to 2018)
-**** methods on Pair objects
-***** freeze?
-****** deprecated: makes value ro as keys are
-
 
 ** topics from last meeting, April 6th (TODO trim/delete)
 
