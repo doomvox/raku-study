@@ -17,7 +17,7 @@ say $data;
 ## cheat sheet
 
 grammar srt {
-   rule TOP { <stanza>* }
+   rule TOP { <stanza> * }
    token index { ^ \d \s* $ }   ## ^ $ to pin as one line?
    token timing { <time> --> <time> } 
    token time { \d\d : \d\d : \d\d , \d\d\d }
