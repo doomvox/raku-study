@@ -81,6 +81,7 @@ raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.
 ***** https://www.tiobe.com/tiobe-index/
 
 ** old topics, last meeting
+
 *** rob ransbottom
 **** making fixes to raku core
 ***** you can't export from internals to core code
