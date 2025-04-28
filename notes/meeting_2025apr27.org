@@ -142,8 +142,7 @@ The following are tokens:
   #      a_string => ｢"STRINGFOO"｣
 #+END_SRC 
 
-*** marton raised a number of points in the group discussion
-**** https://github.com/doomvox/raku-study/discussions
+*** marton:
 **** https://github.com/doomvox/raku-study/discussions/17
 ***** 
 raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
