@@ -21,7 +21,7 @@ grammar srt {
    token stanza { <index> \n <timing> \n <text> }
    token index { ^^ \d \s* $$ }   
    token timing { <time> --> <time> } 
-   token time { \d\d : \d\d : \d\d , \d\d\d }
+   token time { <hh> : <mm> : <ss> , \d\d\d }
    token hh { \d\d }
    token mm { \d\d }   
    token sec { \d\d }   
