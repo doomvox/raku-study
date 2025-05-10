@@ -7,7 +7,7 @@ Upcoming meetings:
 
 * Sunday, May 11, 2025
   *   https://us02web.zoom.us/j/84172340506?pwd=ECwpgIZpVO4WQyAQtC4ODl6PT5PHg1.1
-
+  
 *  Sunday, May 25, 2025 
 *  Sunday, June 8, 2025 
 *  Sunday June 22, 2025 
