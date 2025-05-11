@@ -48,6 +48,7 @@ my $i_line = "
 12
 ";
 
+say "index:";
 say srt.parse( $i_line, :rule('index') );   #
 
 say srt.parse( '99', :rule('hh') );   # ｢99｣
