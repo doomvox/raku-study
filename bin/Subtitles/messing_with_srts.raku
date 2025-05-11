@@ -27,7 +27,7 @@ say $data;
 grammar srt {
 #   rule TOP { ^ <stanza> + $}  # works, but do you need ^ $ bracket?  Not for this.  Maybe if used differently?
    rule TOP { <stanza> + }
-   token stanza { <index> \n <timing> \n <text> \n\n|$$ }
+   token stanza { <index> \n <timing> \n <text> (\n\n|$$) }
 #   token index { ^^ \s* \d+ \s* $$ }   
 #   token index { ^^ \h* \d+ \h* $$ }   
 #   token index { ^^ \d+ \h* $$ {say "indexhunting jack"} }   
