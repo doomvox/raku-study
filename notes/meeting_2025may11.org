@@ -63,12 +63,12 @@
 *** instrumenting a grammar
 Code lifted by Rob Ransbottom from Moritz Lenz:
 #+BEGIN_SRC raku
-           method ws() {
-               if self.pos > $*HIGHWATER {
-                   $*HIGHWATER = self.pos;
-                   $*LASTRULE = callframe(1).code.name;
-               }  callsame;
-           }   # how far did the  parse go
+  method ws() {
+      if self.pos > $*HIGHWATER {
+          $*HIGHWATER = self.pos;
+          $*LASTRULE = callframe(1).code.name;
+      }  callsame;
+  }   # how far did the  parse go
 #+END_SRC
 
 
