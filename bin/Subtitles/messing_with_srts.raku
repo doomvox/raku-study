@@ -25,7 +25,7 @@ say $data;
 grammar srt {
    rule TOP { ^ <stanza> + $}
    token stanza { <index> \n <timing> \n <text> }
-   token index { ^^ \d+ \s* $$ }   
+   token index { ^^ \s* \d+ \s* $$ }   
    token timing { <time> ' --> ' <time> } 
    token time { <hh> ':' <mm> ':' <ss>  }
    token hh { \d\d }
