@@ -48,6 +48,8 @@ my $i_line = "
 12
 ";
 
+say srt.parse( $i_line, :rule('hh') );   # ｢99｣
+
 say srt.parse( '99', :rule('hh') );   # ｢99｣
 
 say srt.parse( '00:00:39,039', :rule('time') );   # Nil
