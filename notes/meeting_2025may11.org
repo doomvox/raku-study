@@ -15,7 +15,7 @@
 ***** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-
+*** 
 
 ** older topics (last meeting)
 *** doomvox@gmail is gone, now i'm 
