@@ -47,8 +47,7 @@ say "===";
 say "index:";
 say srt.parse( '12', :rule('index') );   #
 
-my $i_line = "12
-";
+my $i_line = "12\n";
 say srt.parse( $i_line, :rule('index') );   #
 
 say "===";
