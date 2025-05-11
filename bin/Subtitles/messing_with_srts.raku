@@ -28,7 +28,7 @@ grammar srt {
    token time { <hh> ':' <mm> ':' <ss>  }
    token hh { \d\d }
    token mm { \d\d }   
-   token ss { \d\d \, \d\d\d }   
+   token ss { \d\d ',' \d\d\d }   
    token text { .*?  <before \n\n> } 
       }
 
