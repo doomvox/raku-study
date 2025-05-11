@@ -38,7 +38,7 @@ say $match.what;
 say $match.perl;
 say $match;
 
-
+say srt.parse( '99', :rule('hh') );
 
 
 
