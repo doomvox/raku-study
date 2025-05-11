@@ -34,8 +34,10 @@
 ****** method traits can check what version you need if you want to use ".are"
 ***** my idea: need cultural change, don't revise system tools to just make it prettier ('modernize')
 
-***** marton reports something buggy about dependency management
-****** sometimes need to do manual installs in just the right order
+
+
+*** marton reports something buggy about dependency management
+**** sometimes need to do manual installs in just the right order
 
 
 *** me: back to grammar school
