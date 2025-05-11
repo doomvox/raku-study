@@ -60,7 +60,8 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/#TASK2
 
-*** code lifted by Rob Ransbottom from Moritz Lenz:
+*** instrumenting a grammar
+code lifted by Rob Ransbottom from Moritz Lenz:
 #+BEGIN_SRC raku
            method ws() {
                if self.pos > $*HIGHWATER {
@@ -69,6 +70,7 @@
                }  callsame;
            }   # how far did the  parse go
 #+END_SRC
+
 
 
 *** bg hint, you can programmatically get at current state of your firefox, e.g:
