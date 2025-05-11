@@ -45,7 +45,7 @@ say $match;
 say "===";
 
 my $i_line = "
-
+12
 ";
 
 say srt.parse( '99', :rule('hh') );   # ｢99｣
