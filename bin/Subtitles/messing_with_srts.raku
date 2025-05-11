@@ -41,5 +41,5 @@ say $match;
 say "===";
 say srt.parse( '99', :rule('hh') );   # ｢99｣
 
-say srt.parse( '00:00:39,039 --> 00:00:41,017', :rule('timing') );   # ｢99｣
+say srt.parse( '00:00:39,039 --> 00:00:41,017', :rule('timing') );   # Nil
 
