@@ -31,7 +31,6 @@ grammar srt {
 #   rule TOP { ^ <stanza> + $}  # works, but do you need ^ $ bracket?  Not for this.  Maybe if used differently?
    rule TOP { <stanza> + }
    token stanza { <index> \n <timing> \n <text> \n\n }  ## BUT: flops badly if there's no blank line at eof
-
 #   rule stanza { <index> \n <timing> \n <text> \n\n|$$ }  
 
 #   token index { ^^ \s* \d+ \s* $$ }   
