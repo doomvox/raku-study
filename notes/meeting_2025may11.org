@@ -20,6 +20,7 @@
 ***** not getting all posts, let him sign-up, didn't demand adminstrative approval, etc.
 **** bruce gray argues for an indendent "schedule" page that's linked to from here:
 ***** https://github.com/doomvox/raku-study/blob/main/README.md
+**** automate muliple announcements, e.g. to mailing lists?
 
 *** remember zoom buglet: cursor not shared
 *** rob ransbottom hit a problem with mi6 installs breaking because someone casually "modernized" code
