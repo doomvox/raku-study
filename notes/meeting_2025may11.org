@@ -56,6 +56,7 @@
 ***** https://www.mycompiler.io/view/0ZfXb6AzS1n
 ***** https://www.mycompiler.io/view/GIgDMTOCBYY
 
+
 *** bg hint, you can programmatically get at current state of your firefox, e.g:
 **** /home/doom/.mozilla/firefox/vmjfk0oc.Dexter/sessionstore-backups/recovery.jsonlz4
 **** lz4 compression (check cpan, etc).
