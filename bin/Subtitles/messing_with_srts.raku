@@ -32,7 +32,7 @@ grammar srt {
    rule TOP { <stanza> + }
 #   token stanza { <index> \n <timing> \n <text> \n\n }  ## BUT: flops badly if there's no blank line at eof
 
-   rule stanza { <index> \n <timing> \n <text> (\n\n|$) }  
+   rule stanza { <index> \n <timing> \n <text> (\n\n|$$) }  
 
 #   token index { ^^ \s* \d+ \s* $$ }   
 #   token index { ^^ \h* \d+ \h* $$ }   
