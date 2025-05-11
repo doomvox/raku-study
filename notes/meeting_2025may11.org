@@ -60,6 +60,17 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/#TASK2
 
+*** code from rob ramsbottom
+#+BEGIN_SRC raku
+           method ws() {
+               if self.pos > $*HIGHWATER {
+                   $*HIGHWATER = self.pos;
+                   $*LASTRULE = callframe(1).code.name;
+               }  callsame;
+           }   # how far did the  parse go
+#+END_SRC
+
+
 *** bg hint, you can programmatically get at current state of your firefox, e.g:
 **** /home/doom/.mozilla/firefox/vmjfk0oc.Dexter/sessionstore-backups/recovery.jsonlz4
 **** lz4 compression (check cpan, etc).
