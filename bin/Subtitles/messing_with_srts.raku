@@ -27,7 +27,9 @@ grammar srt {
    rule TOP { ^ <stanza> + $}
    token stanza { <index> \n <timing> \n <text> \n\n}
    token index { ^^ \s* \d+ \s* $$ }   
-   token timing { <time> ' --> ' <time> } 
+   token timing { <start_time> ' --> ' <end_time> } 
+   token start_time { <time> }
+   token end_time { <time> }
    token time { <hh> ':' <mm> ':' <ss>  }
    token hh { \d\d }
    token mm { \d\d }   
