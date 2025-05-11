@@ -39,7 +39,7 @@ say $match;
 
 
 
-## encoding layers
+## specify encoding 
 
 # say slurp( $file, enc => 'utf8-c8' x);
 
