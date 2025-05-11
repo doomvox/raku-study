@@ -42,6 +42,9 @@
 *** marton reports something buggy about dependency management
 **** sometimes need to do manual installs in just the right order
 
+*** bruce gray argues for an indendent "schedule" page that's linked to from here:
+**** https://github.com/doomvox/raku-study/blob/main/README.md
+
 *** me: back to grammar school
 
 
