@@ -61,6 +61,7 @@
 **** /home/doom/.mozilla/firefox/vmjfk0oc.Dexter/sessionstore-backups/recovery.jsonlz4
 **** lz4 compression (check cpan, etc).
 
+
 ** older topics (last meeting)
 *** doomvox@gmail is gone, now i'm 
 **** tailorpaul@proton.me
