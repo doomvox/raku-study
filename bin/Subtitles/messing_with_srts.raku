@@ -21,7 +21,10 @@ my $data = $fh.slurp;
 
 say $data;
 
-## cheat sheet
+
+## bruce gray argues for practicalities sake you might pre-process the text,
+## *force* it to end with a blank line, so you don't have to special case to allow no blank line at eof
+
 
 ## TODO change naming: index => numeric counter, stanza => subtitle
 grammar srt {
