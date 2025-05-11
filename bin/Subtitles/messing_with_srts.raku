@@ -43,6 +43,11 @@ say $match.perl;
 say $match;
 
 say "===";
+
+my $i_line = "
+
+";
+
 say srt.parse( '99', :rule('hh') );   # ｢99｣
 
 say srt.parse( '00:00:39,039', :rule('time') );   # Nil
