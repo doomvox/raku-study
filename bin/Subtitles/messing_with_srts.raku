@@ -2,8 +2,8 @@
 # 
 # messing_with_srts.raku            26 Apr 2025 
 
-# use v6;
-use v6.e.PREVIEW;
+use v6;
+# use v6.e.PREVIEW;
 
 # use Grammar::Tracer;
  
