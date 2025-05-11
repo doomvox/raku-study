@@ -12,7 +12,7 @@ say $file;
 my $fh = $file.IO.open( :r );
 my $data = $fh.slurp;
 
-# specify encoding?
+## specify encoding?
 # my $fh = $file.IO.open( :r, enc=>'utf8-c8' );
 
 
