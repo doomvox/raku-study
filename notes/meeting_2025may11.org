@@ -61,7 +61,7 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/#TASK2
 
 *** instrumenting a grammar
-code lifted by Rob Ransbottom from Moritz Lenz:
+Code lifted by Rob Ransbottom from Moritz Lenz:
 #+BEGIN_SRC raku
            method ws() {
                if self.pos > $*HIGHWATER {
