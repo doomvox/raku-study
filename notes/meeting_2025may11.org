@@ -18,8 +18,8 @@
 *** remember zoom buglet: cursor not shared
 *** rob ransbottom 
 **** "early" features get released
-**** when cleaning up old raku installations... 
-**** can't install mi6, has to force tests
+**** turned up a prob when cleaning up old raku installations... 
+***** can't install mi6, has to force tests
 **** using a 6.e item when targeting 6.d
 ***** zef install App::Mi6
 **** broken for 4 months, no one noticed earlier
