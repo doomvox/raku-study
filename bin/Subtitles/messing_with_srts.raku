@@ -56,7 +56,7 @@ say srt.parse( '12', :rule('index') );   # ｢12｣
 my $i_line = "12\n";
 say srt.parse( $i_line, :rule('index') );   #
 
-exit;
+## exit;
 say "===";
 
 say srt.parse( '99', :rule('hh') );   # ｢99｣
