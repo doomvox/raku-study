@@ -23,7 +23,7 @@ say $data;
 ## cheat sheet
 
 grammar srt {
-   rule TOP { ^ <stanza> * $}
+   rule TOP { ^ <stanza> + $}
    token stanza { <index> \n <timing> \n <text> }
    token index { ^^ \d+ \s* $$ }   
    token timing { <time> ' --> ' <time> } 
