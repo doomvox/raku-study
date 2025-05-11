@@ -56,6 +56,8 @@
 ***** https://www.mycompiler.io/view/0ZfXb6AzS1n
 ***** https://www.mycompiler.io/view/GIgDMTOCBYY
 
+*** revisiting weekly challenge 318 task2 
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-318/
 
 *** bg hint, you can programmatically get at current state of your firefox, e.g:
 **** /home/doom/.mozilla/firefox/vmjfk0oc.Dexter/sessionstore-backups/recovery.jsonlz4
