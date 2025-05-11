@@ -52,6 +52,9 @@
 
 *** topics: tim schafer got some python code, etc.
 
+*** bg hint, you can programmatically get at current state of your firefox, e.g:
+**** /home/doom/.mozilla/firefox/vmjfk0oc.Dexter/sessionstore-backups/recovery.jsonlz4
+**** lz4 compression (check cpan, etc).
 
 ** older topics (last meeting)
 *** doomvox@gmail is gone, now i'm 
