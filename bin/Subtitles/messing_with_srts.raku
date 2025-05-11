@@ -16,8 +16,6 @@ say $file;
 my $fh = $file.IO.open( :r );
 my $data = $fh.slurp;
 
-
-
 say $data;
 
 ## cheat sheet
