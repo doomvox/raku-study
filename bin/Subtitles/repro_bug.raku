@@ -5,8 +5,8 @@
 use v6;
 
 grammar srt1 {
-   rule TOP { ^ <index> + $}
-   token index { ^^  \d+ \h* $$ }   
+   rule TOP { ^ <nummy> + $}
+   token nummy { ^^  \d+ \h* $$ }   
 }
 
 
