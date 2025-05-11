@@ -42,10 +42,3 @@ say $match;
 
 
 
-
-## specify encoding?
-
-# say slurp( $file, enc => 'utf8-c8' );
-
-#             my $fh = $file.IO.open( :r, enc=>'utf8-c8' );
-#             for $fh.lines -> $line {
