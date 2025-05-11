@@ -49,9 +49,9 @@ say srt.parse( '00:00:39,039', :rule('time') );   # Nil
 
 say srt.parse( '00:00:39,039 --> 00:00:41,017', :rule('timing') );   # Nil
 
-my $s = '16
+my $s = "16
 00:01:21,164 --> 00:01:23,709
-Come on. It won't be long.';
+Come on. It won't be long.";
 
 
 say srt.parse
