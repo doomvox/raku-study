@@ -51,7 +51,8 @@ say $match;
 say "===";
 
 say "INDEX:";
-say srt.parse( '12', :rule('index') );   # ｢12｣
+my $r = srt.parse( '12', :rule('index') );   # ｢12｣
+say $r;
 
 ## TODO multiline target currently fails
 my $i_line = "12\n";
