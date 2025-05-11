@@ -44,9 +44,7 @@ say $match;
 
 say "===";
 
-my $i_line = "
-12
-";
+my $i_line = "12";
 
 say "index:";
 say srt.parse( $i_line, :rule('index') );   #
