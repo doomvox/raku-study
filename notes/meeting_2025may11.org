@@ -31,9 +31,10 @@
 ****** someone fixed something, "modernized" something else while they were at it
 ***** installing zef is doable but weirdly linked to your version of raku (?)
 ***** idea: an "is-early" check, remove a test if needed, make it easily identifiable (?)
+****** method traits can check what version you need if you want to use ".are"
 ***** my idea: need cultural change, don't revise system tools to just make it prettier ('modernize')
 
-***** method traits can check what version you need if you want to use ".are"
+
 
 ***** marton reports something buggy about dependency management
 ****** sometimes need to do manual installs in just the right order
