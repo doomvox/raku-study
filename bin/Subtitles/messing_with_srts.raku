@@ -25,7 +25,7 @@ say $data;
 ## TODO change naming: index => numeric counter, stanza => subtitle
 grammar srt {
    rule TOP { ^ <stanza> + $}
-   token stanza { <index> \n <timing> \n <text> }
+   token stanza { <index> \n <timing> \n <text> \n\n}
    token index { ^^ \s* \d+ \s* $$ }   
    token timing { <time> ' --> ' <time> } 
    token time { <hh> ':' <mm> ':' <ss>  }
