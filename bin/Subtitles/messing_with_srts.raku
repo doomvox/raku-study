@@ -30,13 +30,9 @@ grammar srt {
  
 # my $match = df.parse($web_content);
 my $match = srt.parse( $data );
-say $match.WHAT;         
+say $match.what;         
 say $match.perl;
 say $match;
-# say $match.made;
-
-
-
 
 # say slurp( $file, enc => 'utf8-c8' x);
 
