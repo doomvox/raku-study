@@ -51,6 +51,12 @@
 *** me: back to grammar school
 
 *** topics: tim schafer got some python code, etc.
+**** changing double spaces to dash, because meetup refuses to do indentation
+***** https://www.mycompiler.io/view/D0fEE3RlGI4
+***** https://www.mycompiler.io/view/0ZfXb6AzS1n
+***** https://www.mycompiler.io/view/GIgDMTOCBYY
+
+
 
 *** bg hint, you can programmatically get at current state of your firefox, e.g:
 **** /home/doom/.mozilla/firefox/vmjfk0oc.Dexter/sessionstore-backups/recovery.jsonlz4
