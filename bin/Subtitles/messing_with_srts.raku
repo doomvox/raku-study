@@ -47,6 +47,7 @@ say "===";
 say "INDEX:";
 say srt.parse( '12', :rule('index') );   #
 
+## TODO multiline target currently fails
 my $i_line = "12\n";
 say srt.parse( $i_line, :rule('index') );   #
 
