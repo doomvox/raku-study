@@ -25,10 +25,10 @@ grammar srt {
    token stanza { <index> \n <timing> \n <text> }
    token index { ^^ \d \s* $$ }   
    token timing { <time> ' --> ' <time> } 
-   token time { <hh> ':' <mm> ':' <ss> \, \d\d\d }
+   token time { <hh> ':' <mm> ':' <ss>  }
    token hh { \d\d }
    token mm { \d\d }   
-   token ss { \d\d }   
+   token ss { \d\d \, \d\d\d }   
    token text { .*?  <before \n\n> } 
       }
 
