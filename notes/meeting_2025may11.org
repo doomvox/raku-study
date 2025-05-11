@@ -16,7 +16,10 @@
 
 ** topics
 *** remember zoom buglet: cursor not shared
-*** rob ransbottom 
+*** rob ransbottom hit a problem with mi6 installs breaking because someone casually "modernized" code
+**** my take: you need to respect backwards compatibility, particularly with system tools 
+***** maybe: avoid unconsciously assuming everyone is an expert
+
 **** "early" features get released
 **** turned up a prob when cleaning up old raku installations... 
 ***** can't install mi6, has to force tests
@@ -32,6 +35,7 @@
 
 **** marton reports something buggy about dependency management
 ***** sometimes need to do manual installs in just the right order
+
 
 *** me: back to grammar school
 
