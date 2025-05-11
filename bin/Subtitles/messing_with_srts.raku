@@ -54,7 +54,8 @@ say srt.parse( '12', :rule('index') );   # ｢12｣
 
 ## TODO multiline target currently fails
 my $i_line = "12\n";
-say srt.parse( $i_line, :rule('index') );   # TODO this *doesn't* match if there's a newline at end, and this might be a bug
+say srt.parse( $i_line, :rule('index') );   # TODO BUG this *doesn't* match if there's a newline at end, and this might be a bug
+                                            # 
 
 ## exit;
 say "===";
