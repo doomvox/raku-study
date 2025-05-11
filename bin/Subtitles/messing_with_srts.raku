@@ -47,3 +47,6 @@ say srt.parse( '00:00:39,039', :rule('time') );   # Nil
 
 say srt.parse( '00:00:39,039 --> 00:00:41,017', :rule('timing') );   # Nil
 
+say "---";
+say "well?"
+say $match;
