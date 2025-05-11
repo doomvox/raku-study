@@ -15,8 +15,13 @@
 ***** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** tim schafer informs the sfperl mailing list has been acting strange
-**** not getting all posts, let him sign-up, didn't demand adminstrative approval, etc.
+*** administrative
+**** tim schafer informs the sfperl mailing list has been acting strange
+***** not getting all posts, let him sign-up, didn't demand adminstrative approval, etc.
+**** bruce gray argues for an indendent "schedule" page that's linked to from here:
+***** https://github.com/doomvox/raku-study/blob/main/README.md
+
+
 
 *** remember zoom buglet: cursor not shared
 *** rob ransbottom hit a problem with mi6 installs breaking because someone casually "modernized" code
@@ -42,8 +47,6 @@
 *** marton reports something buggy about dependency management
 **** sometimes need to do manual installs in just the right order
 
-*** bruce gray argues for an indendent "schedule" page that's linked to from here:
-**** https://github.com/doomvox/raku-study/blob/main/README.md
 
 *** me: back to grammar school
 
