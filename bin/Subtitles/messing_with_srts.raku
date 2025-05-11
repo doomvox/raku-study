@@ -9,11 +9,13 @@ my $data_loc = $*PROGRAM.parent.add('data');
 my $file = "$data_loc/short.srt";
 say $file;
 
+## specify encoding?
+# my $fh = $file.IO.open( :r, enc=>'utf8-c8' );
+
+
 my $fh = $file.IO.open( :r );
 my $data = $fh.slurp;
 
-## specify encoding?
-# my $fh = $file.IO.open( :r, enc=>'utf8-c8' );
 
 
 say $data;
