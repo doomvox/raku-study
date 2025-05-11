@@ -54,6 +54,8 @@ my $s = "16
 Come on. It won't be long.";
 
 
+say "===";
+
 say srt.parse( $s, :rule('stanza'));
 
 
