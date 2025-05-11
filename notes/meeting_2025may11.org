@@ -21,6 +21,7 @@
 **** when cleaning up old raku installations... 
 **** can't install mi6, has to force tests
 **** using a 6.e item when targeting 6.d
+***** zef install App::Mi6
 **** broken for 4 months, no one noticed earlier
 ***** someone fixed something, "modernized" something else while they were at it
 
