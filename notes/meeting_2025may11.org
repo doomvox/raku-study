@@ -21,7 +21,7 @@
 ***** maybe: avoid unconsciously assuming everyone is an expert
 ****** 6.d is still normal.  Can't go to 6.e or use a .early feature, etc.
 
-**** rob's exposition 
+**** rob's exposition: 
 ***** "early" features get released
 ***** turned up a prob when cleaning up old raku installations... 
 ****** can't install mi6, has to force tests
