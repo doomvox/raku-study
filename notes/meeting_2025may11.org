@@ -18,6 +18,7 @@
 *** rob ransbottom 
 **** early features are released
 **** when cleaning up old raku installations... 
+**** can't install mi6, has to force tests
 
 *** me: back to grammar school
 
