@@ -21,7 +21,7 @@
 **** can't install mi6, has to force tests
 **** using a 6.e item when targeting 6.d
 **** broken for 4 months, no one noticed earlier
-***** someone fixed something, "modernized" the code
+***** someone fixed something, "modernized" something else the code
 
 *** me: back to grammar school
 
