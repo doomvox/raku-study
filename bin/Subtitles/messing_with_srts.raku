@@ -22,6 +22,7 @@ say $data;
 
 ## cheat sheet
 
+## TODO change naming: index => numeric counter, stanza => subtitle
 grammar srt {
    rule TOP { ^ <stanza> + $}
    token stanza { <index> \n <timing> \n <text> }
