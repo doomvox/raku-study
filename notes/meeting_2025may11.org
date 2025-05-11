@@ -26,6 +26,7 @@
 ***** someone fixed something, "modernized" something else while they were at it
 **** installing zef is doable but weirdly linked to your version of raku (?)
 **** maybe: an "is-early" check, remove a test if needed, make it easily identifiable (?)
+**** maybe: need cultural change, don't revise system tools to just make it prettier ('modernize')
 
 **** marton reports something buggy about dependency management
 ***** sometimes need to do manual installs in just the right order
