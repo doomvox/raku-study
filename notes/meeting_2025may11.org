@@ -19,6 +19,7 @@
 *** rob ransbottom hit a problem with mi6 installs breaking because someone casually "modernized" code
 **** my take: you need to respect backwards compatibility, particularly with system tools 
 ***** maybe: avoid unconsciously assuming everyone is an expert
+****** 6.d is still normal.  Can't go to 6.e or use a .early feature, etc.
 
 **** "early" features get released
 **** turned up a prob when cleaning up old raku installations... 
