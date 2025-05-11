@@ -60,7 +60,7 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/#TASK2
 
-*** code lifted by Rob Ramsbottom from Moritz Lenz
+*** code lifted by Rob Ramsbottom from Moritz Lenz:
 #+BEGIN_SRC raku
            method ws() {
                if self.pos > $*HIGHWATER {
