@@ -21,7 +21,7 @@
 **** bruce gray argues for an indendent "schedule" page that's linked to from here:
 ***** https://github.com/doomvox/raku-study/blob/main/README.md
 **** automate muliple announcements, e.g. to mailing lists?
-**** still need to fix issues with sfperl-- need to consult the elder gods
+**** TODO still need to fix issues with sfperl-- need to consult the elder gods
 
 *** remember zoom buglet: cursor not shared
 *** rob ransbottom hit a problem with mi6 installs breaking because someone casually "modernized" code
