@@ -33,6 +33,8 @@
 ***** idea: an "is-early" check, remove a test if needed, make it easily identifiable (?)
 ****** method traits can check what version you need if you want to use ".are"
 ***** my idea: need cultural change, don't revise system tools to just make it prettier ('modernize')
+****** not really interested in opening a problem-solving issue ("it's in the docs already")
+****** TODO maybe do it anyway?
 
 *** marton reports something buggy about dependency management
 **** sometimes need to do manual installs in just the right order
