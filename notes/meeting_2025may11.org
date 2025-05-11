@@ -24,6 +24,7 @@
 ***** zef install App::Mi6
 **** broken for 4 months, no one noticed earlier
 ***** someone fixed something, "modernized" something else while they were at it
+**** marton reports something buggy about dependency management
 
 *** me: back to grammar school
 
