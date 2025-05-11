@@ -30,8 +30,8 @@
 ***** broken for 4 months, no one noticed earlier
 ****** someone fixed something, "modernized" something else while they were at it
 ***** installing zef is doable but weirdly linked to your version of raku (?)
-***** maybe: an "is-early" check, remove a test if needed, make it easily identifiable (?)
-***** maybe: need cultural change, don't revise system tools to just make it prettier ('modernize')
+***** idea: an "is-early" check, remove a test if needed, make it easily identifiable (?)
+***** my idea: need cultural change, don't revise system tools to just make it prettier ('modernize')
 
 ***** method traits can check what version you need if you want to use ".are"
 
