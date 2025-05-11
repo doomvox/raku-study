@@ -30,8 +30,7 @@ grammar srt {
 #   token index { ^^ \s* \d+ \s* $$ }   
 #   token index { ^^ \h* \d+ \h* $$ }   
 #   token index { ^^ \d+ \h* $$ {say "indexhunting jack"} }   
-#   token index { ^^ \d+ \h* $$ }   
-   token index { ^ \d+ \h* $ }   
+   token index { ^^ \d+ \h* $$ }   
    token timing { <start_time> ' --> ' <end_time> } 
    token start_time { <time> }
    token end_time { <time> }
