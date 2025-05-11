@@ -3,6 +3,8 @@
 # messing_with_srts.raku            26 Apr 2025 
 
 use v6;
+
+use Grammar::Tracer;
  
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/Subtitles/data/short.srt 
 my $data_loc = $*PROGRAM.parent.add('data');
