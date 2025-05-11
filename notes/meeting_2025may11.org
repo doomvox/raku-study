@@ -17,7 +17,7 @@
 ** topics
 *** remember zoom buglet: cursor not shared
 *** rob ransbottom 
-**** early features are released
+**** "early" features get released
 **** when cleaning up old raku installations... 
 **** can't install mi6, has to force tests
 **** using a 6.e item when targeting 6.d
