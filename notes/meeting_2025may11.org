@@ -16,7 +16,8 @@
 
 ** topics
 *** rob ransbottom 
-**** early features
+**** early features are released
+**** when cleaning up old raku installations... 
 
 *** me: back to grammar school
 
