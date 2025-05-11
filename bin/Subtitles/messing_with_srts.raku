@@ -29,7 +29,7 @@ grammar srt {
       }
  
 # my $match = df.parse($web_content);
-my $match = $data.parse( $data );
+my $match = parse( $data );
 say $match.what;         
 say $match.perl;
 say $match;
