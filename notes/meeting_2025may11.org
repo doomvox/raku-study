@@ -15,7 +15,7 @@
 ***** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** zoom buglet: cursor not shared
+*** remember zoom buglet: cursor not shared
 *** rob ransbottom 
 **** early features are released
 **** when cleaning up old raku installations... 
