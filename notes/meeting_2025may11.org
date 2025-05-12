@@ -50,6 +50,17 @@
 
 *** me: back to grammar school
 
+**** developing a grammar to parse *.srt subtitles
+***** https://github.com/doomvox/raku-study/tree/main/bin/Subtitles/messing_with_srts.raku
+***** Rob Ransbottom suggests trying
+****** Grammar::ErrorReporting
+****** Grammar::Debugger
+
+
+****** Grammar::Tracer
+
+****** and there are more Grammar::modules on Raku.land
+
 *** topics: tim schafer got some python code, etc.
 **** changing double spaces to dash, because meetup refuses to do indentation
 ***** https://www.mycompiler.io/view/D0fEE3RlGI4
