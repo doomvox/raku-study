@@ -78,7 +78,8 @@ Code lifted by Rob Ransbottom from Moritz Lenz:
 **** lz4 compression (check cpan, etc).
 
 
-** older topics (last meeting)
+** older topics from April 27
+
 *** doomvox@gmail is gone, now i'm 
 **** tailorpaul@proton.me
 **** tailorpaul@pm.me
