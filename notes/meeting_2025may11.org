@@ -310,8 +310,6 @@ say ++$a.=abs;    ## this *does* work
 
 ** announcements 
 *** next meetings
-**** Apr 27, 2025 
-**** May 11, 2025 (change in plans, let's just do one on Mother's Day)
 **** May 25, 2025 
 **** Jun  8, 2025 
 **** Jun 22, 2025 
