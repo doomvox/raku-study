@@ -58,8 +58,8 @@
 ****** Grammar::Tracer
 ****** and there are more Grammar::modules on Raku.land
 
-*** topics: tim schafer got some python code, etc.
-**** changing double spaces to dash, because meetup refuses to do indentation
+*** tim schafer: changing double spaces to dash, because meetup refuses to do indentation
+**** various languages
 ***** https://www.mycompiler.io/view/D0fEE3RlGI4
 ***** https://www.mycompiler.io/view/0ZfXb6AzS1n
 ***** https://www.mycompiler.io/view/GIgDMTOCBYY
