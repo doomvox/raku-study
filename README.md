@@ -4,9 +4,6 @@ Exploratory programming using the Raku language
 A place to share some code and meeting notes for the SF Perl Raku Study Group.
 
 Upcoming meetings:
-
-* Sunday, May 11, 2025
-  *   https://us02web.zoom.us/j/84172340506?pwd=ECwpgIZpVO4WQyAQtC4ODl6PT5PHg1.1
   
 *  Sunday, May 25, 2025 
     *  https://us02web.zoom.us/j/89002690453?pwd=H8hXHYPbULu7HWIMwao8U70tHL4ccC.1
