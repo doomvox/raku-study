@@ -29,7 +29,7 @@ Regular meeting annoucements go to the SF Perl mailing list:
 You can also often find us at the perl6-users mailing list:
 
 *  https://raku.org/community/
-xb
+
 
 Note, the sf.pm.org site is currently down, but will return:
 
