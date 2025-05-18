@@ -14,7 +14,8 @@ my $case2 =
 
 my $pat1 = '^(.*?) [\n\n|$]'
 say "case1: ", $case1 ~~ /<$pat1>/;
-say "case2: ", $case2 ~~ /^(.*?) [\n\n|$]/;
+say "case2: ", $case2 ~~ /<$pat1>/;
+# say "case2: ", $case2 ~~ /^(.*?) [\n\n|$]/;
 
 
 # ====
