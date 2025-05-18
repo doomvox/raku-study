@@ -51,7 +51,7 @@ grammar srt {
    token text { .*?  <before \n\n> } 
 }
 
-## Need to review special chars in raku regexp?  tripped up on ':' and ','
+## Need to review special chars in raku regexp?  Tripped up on ':' and ','
  
 # my $match = df.parse($web_content);
 my $match = srt.parse( $data );
