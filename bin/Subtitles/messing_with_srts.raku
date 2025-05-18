@@ -74,7 +74,7 @@ say "===";
     # say $r;
     say $r.gist;                                            # 
     say $r.raku;                                            # 
-    ## Subtile issue:
+    ## Subtle issue:
     ##   .parse needs to match *to the end of the string* (documented)
 }
 
