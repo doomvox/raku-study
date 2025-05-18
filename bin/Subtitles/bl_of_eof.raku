@@ -4,8 +4,7 @@
 
 use v6;
 
-my $case1 = 
-q:to/E1/;
+my $case1 = q:to/E1/;
 Dummy text followed by blank lines
 
 E1
