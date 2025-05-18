@@ -32,15 +32,15 @@ say $data;
 grammar srt {
 #   rule TOP { ^ <stanza> + $}  # works, but do you need ^ $ bracket?  Not for this.  Maybe if used differently?
    rule TOP { <stanza> + }
-   token stanza { <index> \n <timing> \n <text> \n\n }  
-#   rule stanza { <index> \n <timing> \n <text> \n\n|$$ }  
+   token stanza { <count> \n <timing> \n <text> \n\n }  
+#   rule stanza { <count> \n <timing> \n <text> \n\n|$$ }  
 
 ## create a special rule to deal with "blank_line_or_eof" case
 
-#   token index { ^^ \s* \d+ \s* $$ }   
-#   token index { ^^ \h* \d+ \h* $$ }   
-#   token index { ^^ \d+ \h* $$ {say "indexhunting jack"} }   
-   token index { ^^ \d+ \h* $$ }   
+#   token count { ^^ \s* \d+ \s* $$ }   
+#   token count { ^^ \h* \d+ \h* $$ }   
+#   token count { ^^ \d+ \h* $$ {say "a hunting the count, jack"} }   
+   token count { ^^ \d+ \h* $$ }   
    token timing { <start_time> ' --> ' <end_time> } 
    token start_time { <time> }
    token end_time { <time> }
@@ -61,12 +61,12 @@ say $match;
 say "===";
 
 say "INDEX:";
-my $r = srt.parse( '12', :rule('index') );   # ｢12｣
+my $r = srt.parse( '12', :rule('count') );   # ｢12｣
 say $r;
 
 ## TODO multiline target currently fails
 my $i_line = "12\n";
-my $r = srt.parse( $i_line, :rule('index') );   # TODO BUG this *doesn't* match if there's a newline at end, and this might be a bug?
+my $r = srt.parse( $i_line, :rule('count') );   # TODO BUG this *doesn't* match if there's a newline at end, and this might be a bug?
 # say $r;
 say $r.gist;                                            # 
 say $r.raku;                                            # 
