@@ -57,6 +57,7 @@ my $match = srt.parse( $data );
 say $match.WHAT;         
 # for $match.^methods -> $m { say $m; };
 # say $match.MATCH;
+say $match.keys;
 exit;
 ## say $match.perl; ## could be huuuge
 say $match;
