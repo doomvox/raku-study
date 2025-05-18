@@ -58,6 +58,7 @@ say $match.WHAT;
 # for $match.^methods -> $m { say $m; };
 # say $match.MATCH;
 say $match.keys;
+say $match<stanza>;
 exit;
 ## say $match.perl; ## could be huuuge
 say $match;
