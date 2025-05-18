@@ -58,7 +58,7 @@ say $match.WHAT;
 # for $match.^methods -> $m { say $m; };
 # say $match.MATCH;
 say $match.keys;
-say $match<stanza>[0];
+say $match<stanza>[0]<text>;
 
 exit;
 ## say $match.perl; ## could be huuuge
