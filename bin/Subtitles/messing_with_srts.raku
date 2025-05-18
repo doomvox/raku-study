@@ -95,7 +95,6 @@ Come on. It won't be long.";
 
     say srt.parse( $s, :rule('subtitle'));
 
-
     say "---";
     say "well?";
     say $match;
