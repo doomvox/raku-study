@@ -61,9 +61,11 @@ say $match;
 
 say "===";
 
-say "INDEX:";
-my $r = srt.parse( '12', :rule('count') );   # ｢12｣
-say $r;
+{
+    say "COUNT:";
+    my $r = srt.parse( '12', :rule('count') );   # ｢12｣
+    say $r;
+}
 
 ## TODO multiline target currently fails
 my $i_line = "12\n";
