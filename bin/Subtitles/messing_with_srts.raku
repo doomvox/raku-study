@@ -56,6 +56,7 @@ grammar srt {
 my $match = srt.parse( $data );
 say $match.WHAT;         
 say $match.^methods;
+exit;
 ## say $match.perl; ## could be huuuge
 say $match;
 
