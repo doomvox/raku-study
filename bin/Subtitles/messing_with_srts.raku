@@ -21,7 +21,7 @@ my $data = $fh.slurp;
 # say $data;
 
 
-## bruce gray argues for practicalities sake you might pre-process the text,
+## bruce gray:for sake of practicality you might pre-process the text,
 ## *force* it to end with a blank line, so you don't have to special case to allow no blank line at eof
 
 
