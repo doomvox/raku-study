@@ -66,7 +66,7 @@ say "===A===";
 }
 
 {
-    ## TODO multiline target currently fails
+    ## TODO count token with multiline target currently fails when run via independently via parse
     my $count_line = "12\n";  
     my $r = srt.parse( $count_line, :rule('count') );   # TODO this *doesn't* match if there's a newline at end which may seem like a bug...
     # say $r;
