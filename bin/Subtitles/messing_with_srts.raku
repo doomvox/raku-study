@@ -67,13 +67,16 @@ say "===";
     say $r;
 }
 
-## TODO multiline target currently fails
-my $i_line = "12\n";
-my $r = srt.parse( $i_line, :rule('count') );   # TODO BUG this *doesn't* match if there's a newline at end, and this might be a bug?
-# say $r;
-say $r.gist;                                            # 
-say $r.raku;                                            # 
-## .parse needs to match *to the end of the string* (documented)
+{
+    ## TODO multiline target currently fails
+    my $i_line = "12\n";
+    my $r = srt.parse( $i_line, :rule('count') );   # TODO this *doesn't* match if there's a newline at end which may seem like a bug...
+    # say $r;
+    say $r.gist;                                            # 
+    say $r.raku;                                            # 
+    ## Subtile issue:
+    ##   .parse needs to match *to the end of the string* (documented)
+}
 
 
 ## exit;
