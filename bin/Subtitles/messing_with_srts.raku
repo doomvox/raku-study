@@ -26,7 +26,7 @@ say $data;
 ## *force* it to end with a blank line, so you don't have to special case to allow no blank line at eof
 
 
-## TODO change naming: index => numeric counter, stanza => subtitle
+## DONE change naming: index => numeric counter ('count'), stanza => subtitle
 ## TODO BUG: skips last subtitle if there's no blank line at eof
 ##           Q: is it because of the '\n\n' in the tanza token, the text token, or both?
 ##              create a special rule to deal with "blank_line_or_eof" case, see bl_or_eof
