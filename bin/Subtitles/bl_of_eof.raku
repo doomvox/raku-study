@@ -56,8 +56,9 @@ EOS1
     # case2: ｢Dummy text followed by no blank lines｣
     #  0 => ｢Dummy text followed by no blank lines｣
     # case3: ｢Dummy text followed by three blank lines
-
-# ｣
+    #
+    # 
+    # ｣
 #  0 => ｢Dummy text followed by three blank lines｣
 
     
