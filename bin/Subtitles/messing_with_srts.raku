@@ -47,7 +47,7 @@ grammar srt {
    token mm { \d\d }   
    token ss { \d\d ',' \d\d\d }   
    token text { .*?  <before \n\n> } 
-      }
+}
 
 ## Need to review special chars in raku regexp?  tripped up on ':' and \,
  
