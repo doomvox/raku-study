@@ -27,14 +27,14 @@ say $data;
 
 
 ## TODO change naming: index => numeric counter, stanza => subtitle
-## TODO BUG: skips last stanza if there's no blank line at eof
+## TODO BUG: skips last subtitle if there's no blank line at eof
 ##           Q: is it because of the '\n\n' in the tanza token, the text token, or both?
 ##              create a special rule to deal with "blank_line_or_eof" case, see bl_or_eof
 grammar srt {
-#   rule TOP { ^ <stanza> + $}  # works, but do you need ^ $ bracket?  Not for this.  Maybe if used differently?
-   rule TOP { <stanza> + }
-   token stanza { <count> \n <timing> \n <text> \n\n }  
-#   rule stanza { <count> \n <timing> \n <text> \n\n|$$ }  
+#   rule TOP { ^ <subtitle> + $}  # works, but do you need ^ $ bracket?  Not for this.  Maybe if used differently?
+   rule TOP { <subtitle> + }
+   token subtitle { <count> \n <timing> \n <text> \n\n }  
+#   rule subtitle { <count> \n <timing> \n <text> \n\n|$$ }  
 
 #   token count { ^^ \s* \d+ \s* $$ }   
 #   token count { ^^ \h* \d+ \h* $$ }   
@@ -89,7 +89,7 @@ my $s = "16
 00:01:21,164 --> 00:01:23,709
 Come on. It won't be long.";
 
-say srt.parse( $s, :rule('stanza'));
+say srt.parse( $s, :rule('subtitle'));
 
 
 say "---";
