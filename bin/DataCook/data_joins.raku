@@ -11,4 +11,3 @@ use v6;
 # my @monsters = < godzilla mothera ghidora gammera golem rhodan >;
 # my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
 
-
