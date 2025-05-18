@@ -25,7 +25,6 @@ CATCH { default { say "CAUGHT: ", .Str; .resume } }
 
     # ｢bbbaaa｣
     #  subpat => ｢bbb｣
-
 }
 
 {
