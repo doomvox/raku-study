@@ -59,7 +59,7 @@ EOS1
     #
     # 
     # ｣
-#  0 => ｢Dummy text followed by three blank lines｣
+    #  0 => ｢Dummy text followed by three blank lines｣
 
 }
 
