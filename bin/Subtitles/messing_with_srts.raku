@@ -67,7 +67,7 @@ say "===A===";
 
 {
     ## TODO multiline target currently fails
-    my $count_line = "12\n";
+    my $count_line = "12\n";  
     my $r = srt.parse( $count_line, :rule('count') );   # TODO this *doesn't* match if there's a newline at end which may seem like a bug...
     # say $r;
     say $r.gist;                                            # 
