@@ -10,6 +10,8 @@ Dummy text followed by blank lines
 
 E1
 
+my $case2 = 
+'Dummy text followed by no blank lines';
 
 
 # ====
