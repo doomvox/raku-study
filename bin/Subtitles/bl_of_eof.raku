@@ -44,9 +44,9 @@ EOS1
 
 {
     say "===";
-    say "case1: ", $case2 ~~ /^(.*?) [\n\n+|$]/;
+    say "case1: ", $case1 ~~ /^(.*?) [\n\n+|$]/;
     say "case2: ", $case2 ~~ /^(.*?) [\n\n+|$]/;
-    say "case3: ", $case2 ~~ /^(.*?) [\n\n+|$]/;
+    say "case3: ", $case3 ~~ /^(.*?) [\n\n+|$]/;
     # case1: ｢Dummy text followed by no blank lines｣
     #  0 => ｢Dummy text followed by no blank lines｣
     # case2: ｢Dummy text followed by no blank lines｣
