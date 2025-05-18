@@ -30,5 +30,5 @@ my $case2 =
    #
    # ｣
    # case2: ｢Dummy text followed by no blank lines｣
-
 }
+## TODO Q: why do these two styles differ *at all*?
