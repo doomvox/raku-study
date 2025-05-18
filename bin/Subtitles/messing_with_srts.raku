@@ -28,7 +28,7 @@ say $data;
 
 ## TODO change naming: index => numeric counter, stanza => subtitle
 ## TODO BUG: skips last stanza if there's no blank line at eof
-## Q: is it because of the '\n\n' in the tanza token, the text token, or both?
+##           Q: is it because of the '\n\n' in the tanza token, the text token, or both?
 grammar srt {
 #   rule TOP { ^ <stanza> + $}  # works, but do you need ^ $ bracket?  Not for this.  Maybe if used differently?
    rule TOP { <stanza> + }
