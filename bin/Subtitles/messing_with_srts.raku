@@ -55,6 +55,7 @@ grammar srt {
 # my $match = df.parse($web_content);
 my $match = srt.parse( $data );
 say $match.WHAT;         
+say $match.^methods;
 ## say $match.perl; ## could be huuuge
 say $match;
 
