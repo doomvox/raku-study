@@ -72,7 +72,7 @@ say "===A===";
     # say $r;
     say $r.gist;                                            # 
     say $r.raku;                                            # 
-    ## Subtle issue:
+    ## The issue:
     ##   .parse needs to match *to the end of the string* (documented)
 }
 
