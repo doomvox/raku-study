@@ -62,8 +62,8 @@ say $match<stanza>.keys;
 say $match<stanza>.[0].keys;
 say $match<stanza>[0]<text>;
 say $match<stanza>.[0].<timing>.keys;  # (end_time start_time)
-say $match<stanza>.[0].<timing>.<start_time>.<time>.keys;
-say $match<stanza>.[0].<timing>.<end_time>.<time>.keys;
+say $match<stanza>.[0].<timing>.<start_time>.<time>.keys; # (mm hh ss)
+say $match<stanza>.[0].<timing>.<end_time>.<time>.keys;   # (mm hh ss)
 
 
 exit;
