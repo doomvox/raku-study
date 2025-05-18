@@ -4,10 +4,10 @@
 
 use v6;
 
-my $case1 = q:to/E1/;
+my $case1 = q:to/EOS/;
 Dummy text followed by blank lines
 
-E1
+EOS
 
 my $case2 = 
 'Dummy text followed by no blank lines';
