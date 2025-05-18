@@ -19,8 +19,6 @@ my $case2 =
     #  0 => ｢Dummy text followed by no blank lines｣
     # case2: ｢Dummy text followed by no blank lines｣
     #  0 => ｢Dummy text followed by no blank lines｣
-
-
 }
 {
     say "===";
