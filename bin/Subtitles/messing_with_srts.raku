@@ -76,7 +76,6 @@ say "===A===";
     ##   .parse needs to match *to the end of the string* (documented)
 }
 
-
 ## exit;
 say "===B===";
 {
