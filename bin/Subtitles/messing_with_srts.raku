@@ -39,7 +39,7 @@ grammar srt {
 
 #   token count { ^^ \s* \d+ \s* $$ }   
 #   token count { ^^ \h* \d+ \h* $$ }   
-#   token count { ^^ \d+ \h* $$ {say "a-hunting the 'count', dude"} }   
+#   token count { ^^ \d+ \h* $$ {say "hunting for the 'count', dude"} }   
    token count { ^^ \d+ \h* $$ }   
    token timing { <start_time> ' --> ' <end_time> } 
    token start_time { <time> }
