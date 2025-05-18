@@ -35,7 +35,6 @@ EOS1
     my $pat1 = '^(.*?) [\n\n|$]';
     say "case1: ", $case1 ~~ /<$pat1>/;
     say "case2: ", $case2 ~~ /<$pat1>/;
-
    # case1: ｢Dummy text followed by blank lines
    #
    # ｣
