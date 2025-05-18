@@ -18,7 +18,7 @@ say $file;
 
 my $fh = $file.IO.open( :r );
 my $data = $fh.slurp;
-say $data;
+# say $data;
 
 
 ## bruce gray argues for practicalities sake you might pre-process the text,
