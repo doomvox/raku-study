@@ -12,6 +12,14 @@ EOS1
 my $case2 = 
   'Dummy text followed by no blank lines';
 
+my $case3 = q:to/EOS1/;
+Dummy text followed by three blank lines
+
+
+EOS1
+
+
+
 {
     say "case1: ", $case2 ~~ /^(.*?) [\n\n|$]/;
     say "case2: ", $case2 ~~ /^(.*?) [\n\n|$]/;
