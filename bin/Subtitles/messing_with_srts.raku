@@ -22,7 +22,7 @@ my $data = $fh.slurp;
 
 
 ## bruce gray:for sake of practicality you might pre-process the text,
-## *force* it to end with a blank line, so you don't have to special case to allow no blank line at eof
+## *Force* it to end with a blank line, so you don't have to special case to allow no blank line at eof
 
 
 ## DONE change naming: index => numeric counter ('count'), stanza => subtitle
