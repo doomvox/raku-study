@@ -35,6 +35,7 @@ my $case2 =
 ## TODO Better to match two *or more* \n: '\n\n+'
 
 {
+    say "===";
     say "case1: ", $case2 ~~ /^(.*?) [\n\n+|$]/;
     say "case2: ", $case2 ~~ /^(.*?) [\n\n+|$]/;
     # case1: ｢Dummy text followed by no blank lines｣
