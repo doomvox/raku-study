@@ -59,6 +59,7 @@ say $match.WHAT;
 # say $match.MATCH;
 say $match.keys;
 say $match<stanza>.keys;
+say $match<stanza>[0].keys;
 say $match<stanza>[0]<text>;
 
 exit;
