@@ -59,8 +59,7 @@ say $match.WHAT;
 ## say $match.perl; ## could be huuuge
 say $match;
 
-say "===";
-
+say "===A===";
 {
     say "COUNT:";
     my $r = srt.parse( '12', :rule('count') );   # ｢12｣
@@ -80,8 +79,7 @@ say "===";
 
 
 ## exit;
-say "===";
-
+say "===B===";
 {
     say srt.parse( '99', :rule('hh') );   # ｢99｣
     say srt.parse( '00:00:39,039', :rule('time') );   # Nil
