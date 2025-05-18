@@ -48,6 +48,7 @@ grammar srt {
    token mm { \d\d }   
    token ss { \d\d ',' \d\d\d }   
    token text { .*?  <before \n\n> } 
+   ## TODO try this instead of \n\n
    token bl_or_eof { [\n\n+|$] }
 }
 ## Need to review special chars in raku regexp?  Tripped up on ':' and ','
