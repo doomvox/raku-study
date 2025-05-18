@@ -61,6 +61,7 @@ say $match.keys;
 say $match<stanza>.keys;
 say $match<stanza>.[0].keys;
 say $match<stanza>[0]<text>;
+say $match<stanza>.[0].<timing>.keys;
 
 exit;
 ## say $match.perl; ## could be huuuge
