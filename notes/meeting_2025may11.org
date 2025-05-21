@@ -318,7 +318,7 @@ say ++$a.=abs;    ## this *does* work
 
 ** announcements 
 *** next meetings
-**** May 25, 2025 
+**** May 25, 2025   (argh: memorial day weekend.  oh well)
 **** Jun  8, 2025 
 **** Jun 22, 2025 
 
