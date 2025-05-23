@@ -82,7 +82,7 @@ Code lifted by Rob Ransbottom from Moritz Lenz:
 
 
 
-*** bg hint, you can programmatically get at current state of your firefox, e.g:
+*** Bruce Gray hint, you can programmatically get at current state of your firefox, e.g:
 **** /home/doom/.mozilla/firefox/vmjfk0oc.Dexter/sessionstore-backups/recovery.jsonlz4
 **** lz4 compression (check cpan, etc).
 
