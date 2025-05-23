@@ -12,6 +12,7 @@ Upcoming meetings:
     *  https://us02web.zoom.us/j/87308842211?pwd=cfl7DWKbnIJsI3CuOTBl1Kt8D3Omqk.1
 
 *  Sunday June 22, 2025 
+    *  https://us02web.zoom.us/j/87840601582?pwd=0GcvanafExeYaYQIGQVWbNix5oWBit.1
 
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
