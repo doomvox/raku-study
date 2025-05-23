@@ -14,6 +14,9 @@ Upcoming meetings:
 *  Sunday June 22, 2025 
     *  https://us02web.zoom.us/j/87840601582?pwd=0GcvanafExeYaYQIGQVWbNix5oWBit.1
 
+Then, a three week gap, skipping the Fourth of July weekend
+*  Sunday July 13, 2025
+    *
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
 And the super secret code you need is "4RakuRoll".
