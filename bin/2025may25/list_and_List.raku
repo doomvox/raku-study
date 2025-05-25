@@ -34,6 +34,4 @@ use v6;
     # Cannot modify an immutable List ((ankou araxxor borro...)
     #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025may25/list_and_List.raku line 33
 
-
-
     }
