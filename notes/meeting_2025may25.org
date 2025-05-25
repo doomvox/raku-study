@@ -20,14 +20,17 @@ Decoding Music with Tries: Recognizing Patterns and Motifs
 Structuring Rhythm and Dynamics with Heaps: A Musical Priority Queue
 Mapping Music with Hash Tables: Unlocking Patterns and Memory
 
+**** 
+
+
 **** LLM
 steve yegge and gene kim working on a book.
 ***** Yegge now at Source Graph
-
+ppp
 **** Time travel movies
 ***** Primer (Tim Schafer pick)
 ***** La Jette (my pick)
-***** Until the World (wim wenders, not time travel)
+***** Until the World (wim wenders, albiet not time travel)
 
 ** topics
 *** Rob: run, reading pipes
