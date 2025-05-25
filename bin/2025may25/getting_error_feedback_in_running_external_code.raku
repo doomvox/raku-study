@@ -19,3 +19,4 @@ say $p;
 # Proc.new(in => IO::Pipe, out => IO::Pipe, err => IO::Pipe, exitcode => 1, signal => 0, pid => Nil, command => ("nuttin",))
 
 say $p.err;
+# (Pipe)
