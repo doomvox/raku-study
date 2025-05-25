@@ -28,7 +28,6 @@ steve yegge and gene kim working on a book.
 ***** Primer (Tim Schafer pick)
 ***** La Jette (my pick)
 
-
 ** topics
 *** Rob: run, reading pipes
 **** bruce hint:
