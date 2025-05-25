@@ -6,11 +6,11 @@ use v6;
 
 my $thing = ('godzilla', 'grendel', 'wormface', 'blob');
 
-say $thing.WHAT;
+say $thing.WHAT;  # (List)
 
 my $another_thing = $thing.list;
 my $still_another_thing = $thing.List;
 
-say $another_thing.WHAT;
-say $still_another_thing.WHAT;
+say $another_thing.WHAT;          # (List)
+say $still_another_thing.WHAT;    # (List)
 
