@@ -83,7 +83,7 @@ https://perl6book.com/
 **** perl5 books
 ***** "advanced perl" vs "second edition advanced perl
 
-**** snark
+**** classic snark
 https://www.norvig.com/21-days.html
 
 ** old topics
