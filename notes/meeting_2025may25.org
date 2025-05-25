@@ -40,6 +40,8 @@ die unless $run-me.IO.e;
     A markup language for documenting Raku code. Pod6 is now known as RakuDoc V1,
     and a new RakuDoc V2 specification exists.
 ********  https://raku.github.io/rakudoc
+**** rakudoc V2 richard hainsworth talk
+***** https://www.youtube.com/watch?v=vPavXDyfnhU
 
 *** bruce gray: spinoffs from upcoming talks
 
