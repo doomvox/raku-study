@@ -22,7 +22,7 @@ Mapping Music with Hash Tables: Unlocking Patterns and Memory
 
 **** distinction .list and .List
 ***** practical difference: 
-****** .list will give you something list like (Positional)
+****** .list will give you something list-like (Positional)
 ****** .List has to give you something of type .List
 
 **** LLM
