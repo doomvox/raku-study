@@ -23,7 +23,7 @@ Mapping Music with Hash Tables: Unlocking Patterns and Memory
 **** LLM
 steve yegge and gene kim working on a book.
 
-
+***** Yegge now at Source Graph
 
 ** topics
 *** Rob: run, reading pipes
