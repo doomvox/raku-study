@@ -25,6 +25,10 @@ die unless $run-me.IO.e;
 ***** IO::Pipe has an os-error attribute for recent raku 
 ****** "Failed to spawn process nuttin: no such file or directory (error code -2)"
 
+**** Rob has trouble getting things into ecosystem still
+***** Test::Meta6
+***** seems like things go through, and it doesn't, silent rejection, no diagnostics
+
 *** bruce gray: spinoffs from upcoming talks
 *** alan: docs site, using scripts 
 **** bruce gray hint:
