@@ -81,7 +81,7 @@ https://perl6book.com/
 ***** https://kyclark.gitbooks.io/metagenomics/content/
 
 **** perl5 books
-***** "advanced perl" vs "second edittion advanced perl
+***** "advanced perl" vs "second edition advanced perl
 
 
 ** old topics
