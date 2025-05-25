@@ -9,15 +9,21 @@ use v6;
 
 # external commands without shell:
 my $arg = 'Hello';
-my $captured = run('echo', $arg, :out).out.slurp;
-my $captured = run(«echo "$arg"», :out).out.slurp;
-
+{
+    my $captured = run('echo', $arg, :out).out.slurp;
+}
+{
+    my $captured = run(«echo "$arg"», :out).out.slurp;
+}
 
 # using shell:
 my $arg = 'Hello';
-my $captured = shell("echo $arg", :out).out.slurp;
-my $captured = qqx{echo $arg};
-
+{
+    my $captured = shell("echo $arg", :out).out.slurp;
+}
+{
+    my $captured = qqx{echo $arg};
+}
 
 
 
