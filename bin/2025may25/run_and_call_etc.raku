@@ -11,9 +11,11 @@ use v6;
 my $arg = 'Hello';
 {
     my $captured = run('echo', $arg, :out).out.slurp;
+    say $captured;
 }
 {
     my $captured = run(«echo "$arg"», :out).out.slurp;
+    say $captured;
 }
 
 # using shell:
