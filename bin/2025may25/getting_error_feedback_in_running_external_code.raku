@@ -13,3 +13,4 @@ use v6;
 
 ## My output:
 # Proc.new(in => IO::Pipe, out => IO::Pipe, err => IO::Pipe, exitcode => 1, signal => 0, pid => Nil, command => ("zzzz",))
+
