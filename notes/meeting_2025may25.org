@@ -49,7 +49,7 @@ https://rakudo.org/star/source
 
 *** bruce gray: spinoffs from upcoming talks
 
-**** a problemette (challenge?):
+**** a problemette (challenge?) from "habere" (sp?):
 
 Find the one nine digit number that uses all 9 digits 1-9 once each,
 where the first two digits are multiples of two,
