@@ -21,9 +21,11 @@ my $arg = 'Hello';
 # using shell:
 {
     my $captured = shell("echo $arg", :out).out.slurp;
+    say $captured;
 }
 {
     my $captured = qqx{echo $arg};
+    say $captured;
 }
 
 
