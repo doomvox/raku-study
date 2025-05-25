@@ -6,6 +6,7 @@ use v6;
 
 
 
+
 # external commands without shell:
 my $arg = 'Hello';
 my $captured = run('echo', $arg, :out).out.slurp;
