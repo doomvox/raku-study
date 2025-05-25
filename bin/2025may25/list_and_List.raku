@@ -4,7 +4,7 @@
 
 use v6;
 
-my $thing = ('godzilla', 'grendel', 'wormface', 'blob' );
+my $thing = ('godzilla', 'grendel', 'wormface', 'blob');
 
 
 
