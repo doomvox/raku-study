@@ -24,6 +24,10 @@ Mapping Music with Hash Tables: Unlocking Patterns and Memory
 steve yegge and gene kim working on a book.
 ***** Yegge now at Source Graph
 
+**** time travel movies
+***** Primer (Tim Schafer pick)
+***** La Jette (my pick)
+
 ** topics
 *** Rob: run, reading pipes
 **** bruce hint:
