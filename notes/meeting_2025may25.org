@@ -28,7 +28,6 @@ Mapping Music with Hash Tables: Unlocking Patterns and Memory
 ******** "Subclasses of Any may choose to return any core type that does the Positional role from .list. Use .List to coerce specifically to List."
 ******** " @ as a prefix puts the initial scalar in a list context by calling .list and turning it into an Array."
 
-
 **** LLM
 steve yegge and gene kim working on a book.
 ***** Yegge now at Source Graph
