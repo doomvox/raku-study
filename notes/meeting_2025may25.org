@@ -17,6 +17,8 @@
 ** topics
 *** Rob: run, reading pipes
 *** bruce gray: spinoffs from upcoming talks
+*** docs site, using scripts 
+*** marton discussion subjects: "still cooking"
 
 ** old topics
 *** administrative
