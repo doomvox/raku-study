@@ -83,6 +83,9 @@ https://perl6book.com/
 **** perl5 books
 ***** "advanced perl" vs "second edition advanced perl
 
+**** snark
+https://www.norvig.com/21-days.html
+
 ** old topics
 *** administrative
 **** tim schafer informs the sfperl mailing list has been acting strange
