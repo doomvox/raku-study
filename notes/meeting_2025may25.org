@@ -20,6 +20,10 @@ Decoding Music with Tries: Recognizing Patterns and Motifs
 Structuring Rhythm and Dynamics with Heaps: A Musical Priority Queue
 Mapping Music with Hash Tables: Unlocking Patterns and Memory
 
+**** LLM
+steve yegge and gene kim working on a book.
+
+
 
 ** topics
 *** Rob: run, reading pipes
