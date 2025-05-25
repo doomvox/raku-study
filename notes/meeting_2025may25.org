@@ -20,6 +20,8 @@ Decoding Music with Tries: Recognizing Patterns and Motifs
 Structuring Rhythm and Dynamics with Heaps: A Musical Priority Queue
 Mapping Music with Hash Tables: Unlocking Patterns and Memory
 
+
+
 **** distinction .list and .List
 ***** practical difference: 
 ****** .list will give you something list-like (a Positional)
