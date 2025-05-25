@@ -45,7 +45,7 @@ die unless $run-me.IO.e;
 
 **** alan sees breakage on upgrade with rakudo star
 https://rakudo.org/star/source
-
+***** TODO (there's a 2025.05 linux bundle I should really install)
 
 *** bruce gray: spinoffs from upcoming talks
 
