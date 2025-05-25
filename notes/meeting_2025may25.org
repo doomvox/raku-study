@@ -75,6 +75,10 @@ and 12,345,678 isn’t a multiple of 8.
 **** flowchart for the books
 https://perl6book.com/    
 
+
+
+
+
 ** old topics
 *** administrative
 **** tim schafer informs the sfperl mailing list has been acting strange
