@@ -14,3 +14,13 @@ my $still_another_thing = $thing.List;
 say $another_thing.WHAT;          # (List)
 say $still_another_thing.WHAT;    # (List)
 
+{
+    my @monsters = < ankou araxxor borrokar damis delrith elvarg kalrag yuri >; ## www.runehq.com
+
+    my $t1 = @monsters.list;
+    my $t2 = @monsters.List;
+
+    say $t1.WHAT;
+    say $t2.WHAT;
+
+    }
