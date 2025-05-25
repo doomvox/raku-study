@@ -83,6 +83,7 @@ https://perl6book.com/
 **** perl5 books
 ***** "advanced perl" vs "second edittion advanced perl
 
+
 ** old topics
 *** administrative
 **** tim schafer informs the sfperl mailing list has been acting strange
