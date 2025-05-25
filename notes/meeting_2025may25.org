@@ -72,12 +72,13 @@ and 12,345,678 isn’t a multiple of 8.
 ***** marton discussion subjects: "still cooking"
 ****** keep an eye on raku-study github discussions, marton's on a roll there.
 
+*** resouces
 **** flowchart for the books
 https://perl6book.com/    
 
-
-
-
+**** Free: 
+***** https://greenteapress.com/wp/think-perl-6/
+***** https://kyclark.gitbooks.io/metagenomics/content/
 
 ** old topics
 *** administrative
