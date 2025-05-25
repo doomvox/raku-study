@@ -29,6 +29,10 @@ die unless $run-me.IO.e;
 ***** Test::Meta6
 ***** seems like things go through, and it doesn't, silent rejection, no diagnostics
 
+*** marton reminds
+**** https://raku.land/zef:dwarring/Pod::To::PDF/changes?v=0.1.9  
+**** always escape your user input, kids
+
 *** bruce gray: spinoffs from upcoming talks
 *** alan: docs site, using scripts 
 **** bruce gray hint:
