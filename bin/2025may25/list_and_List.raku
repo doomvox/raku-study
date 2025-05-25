@@ -19,6 +19,7 @@ use v6;
 {
     my @monsters = < ankou araxxor borrokar damis delrith elvarg kalrag yuri >; ## www.runehq.com
 
+    # These look like they're doing the same thing, but the second makes it immutable, the first doesn't
     my $t1 = @monsters.list;
     my $t2 = @monsters.List;
 
