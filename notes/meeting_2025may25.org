@@ -16,7 +16,7 @@
 
 ** topics
 *** Rob: run, reading pipes
-*** 
+*** bruce gray: spinoffs from upcoming talks
 
 ** old topics
 *** administrative
