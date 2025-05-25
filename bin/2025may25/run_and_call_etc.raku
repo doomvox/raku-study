@@ -13,9 +13,9 @@ my $captured = run(«echo "$arg"», :out).out.slurp;
 
 
 # using shell:
-# my $arg = 'Hello';
-# my $captured = shell("echo $arg", :out).out.slurp;
-# my $captured = qqx{echo $arg};
+my $arg = 'Hello';
+my $captured = shell("echo $arg", :out).out.slurp;
+my $captured = qqx{echo $arg};
 
 
 
