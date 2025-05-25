@@ -68,7 +68,7 @@ and 12,345,678 isn’t a multiple of 8.
 ***** points: needding roundrobin to handle uneven list sizes without dropping an item silently
 ***** >>%%<< a helpful idiom because it alerts about uneven list sizes
 ***** a case where XZ might've helped (but didn't)
-*****
+
 
 *** marton discussion subjects: "still cooking"
 
