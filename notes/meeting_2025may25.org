@@ -24,11 +24,8 @@ Mapping Music with Hash Tables: Unlocking Patterns and Memory
 ***** practical difference: 
 ****** .list will give you something list-like (a Positional)
 ****** .List has to give you something of type .List
-
 ******* https://docs.raku.org/routine/list
-
 ******** "Subclasses of Any may choose to return any core type that does the Positional role from .list. Use .List to coerce specifically to List."
-
 ******** " @ as a prefix puts the initial scalar in a list context by calling .list and turning it into an Array."
 
 
