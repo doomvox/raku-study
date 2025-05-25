@@ -62,6 +62,14 @@ the first four (1234) group isn’t a multiple of 4;
 1,234,567 isn’t a multiple of 7;
 and 12,345,678 isn’t a multiple of 8.
 
+***** TODO extract some notes from here: 
+****** /home/doom/End/Cave/RakuStudy/Notes/2025may25
+
+***** points: needding roundrobin to handle uneven list sizes without dropping an item silently
+***** >>%%<< a helpful idiom because it alerts about uneven list sizes
+***** a case where XZ might've helped (but didn't)
+***** 
+
 *** marton discussion subjects: "still cooking"
 
 
