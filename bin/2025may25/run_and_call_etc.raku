@@ -17,7 +17,6 @@ my $arg = 'Hello';
 }
 
 # using shell:
-my $arg = 'Hello';
 {
     my $captured = shell("echo $arg", :out).out.slurp;
 }
