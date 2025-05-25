@@ -49,6 +49,12 @@ https://rakudo.org/star/source
 
 *** bruce gray: spinoffs from upcoming talks
 
+**** a problemette (challenge?):
+
+***** Find the one nine digit number that uses all 9 digits 1-9 once each, where the first two digits are multiples of two, first three digits are a multiple of 3, first four are multiples of 4, etc until all nine are a multiple of 9.
+
+****** e.g., 123,456,789 fails because: the first four (1234) group isn’t a multiple of 4; 1,234,567 isn’t a multiple of 7; and 12,345,678 isn’t a multiple of 8.
+
 *** marton discussion subjects: "still cooking"
 
 
