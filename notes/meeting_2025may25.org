@@ -27,7 +27,7 @@ Mapping Music with Hash Tables: Unlocking Patterns and Memory
 steve yegge and gene kim working on a book.
 ***** Yegge now at Source Graph
 ppp
-**** Time travel movies
+**** movies, Time travel 
 ***** Primer (Tim Schafer pick)
 ***** La Jette (my pick)
 ***** Until the World (wim wenders, albiet not time travel)
