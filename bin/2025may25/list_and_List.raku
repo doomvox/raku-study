@@ -31,5 +31,9 @@ use v6;
 
     $t1[3] = 'the blob';
     $t2[3] = 'paul graham';
+    # Cannot modify an immutable List ((ankou araxxor borro...)
+    #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025may25/list_and_List.raku line 33
+
+
 
     }
