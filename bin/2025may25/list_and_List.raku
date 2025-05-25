@@ -25,7 +25,6 @@ use v6;
     say $t1.WHAT;  # (Array)
     say $t2.WHAT;  # (List)
 
-
     say $t1[3];  # damis
     say $t2[3];  # damis
 
