@@ -6,7 +6,7 @@ use v6;
 
 my $thing = ('godzilla', 'grendel', 'wormface', 'blob');
 
-
+say $thing.WHAT;a
 
 
 
