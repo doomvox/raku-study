@@ -25,7 +25,7 @@
     and a new RakuDoc V2 specification exists.
 ********  https://raku.github.io/rakudoc
 
-********** marton discussion subjects: "still cooking"
+*** marton discussion subjects: "still cooking"
 
 ** old topics
 *** administrative
