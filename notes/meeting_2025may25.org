@@ -21,6 +21,10 @@
 die unless $run-me.IO.e;
 #+END_SRC
 ***** https://docs.raku.org/type/IO/Path#File_test_operators
+
+***** IO::Pipe has an os-error attribute for recent raku 
+****** "Failed to spawn process nuttin: no such file or directory (error code -2)"
+
 *** bruce gray: spinoffs from upcoming talks
 *** alan: docs site, using scripts 
 **** bruce gray hint:
