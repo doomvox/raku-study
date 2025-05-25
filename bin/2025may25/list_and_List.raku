@@ -30,5 +30,6 @@ use v6;
     say $t2[3];  # damis
 
     $t1[3] = 'the blob';
+    $t2[3] = 'paul graham';
 
     }
