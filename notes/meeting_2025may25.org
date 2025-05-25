@@ -33,8 +33,6 @@ die unless $run-me.IO.e;
 **** https://raku.land/zef:dwarring/Pod::To::PDF/changes?v=0.1.9  
 **** always escape your user input, kids
 
-*** bruce gray: spinoffs from upcoming talks
-
 *** alan: docs site, using scripts 
 **** bruce gray hint:
 ***** https://docs.raku.org/language/pod says:
@@ -42,6 +40,8 @@ die unless $run-me.IO.e;
     A markup language for documenting Raku code. Pod6 is now known as RakuDoc V1,
     and a new RakuDoc V2 specification exists.
 ********  https://raku.github.io/rakudoc
+
+*** bruce gray: spinoffs from upcoming talks
 
 *** marton discussion subjects: "still cooking"
 
