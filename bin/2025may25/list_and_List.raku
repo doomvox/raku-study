@@ -27,5 +27,6 @@ use v6;
 
 
     say $t1[3];  # damis
+    say $t2[3];  # damis
 
     }
