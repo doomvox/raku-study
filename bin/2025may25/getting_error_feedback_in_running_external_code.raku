@@ -18,7 +18,6 @@ use v6;
 # Implementing the Raku® Programming Language v6.d.
 # Built on MoarVM version 2023.02.
 
-
 ## My output:
 # Proc.new(in => IO::Pipe, out => IO::Pipe, err => IO::Pipe, exitcode => 1, signal => 0, pid => Nil, command => ("zzzz",))
 
