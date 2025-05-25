@@ -33,3 +33,6 @@ say $p.err;
 ## running with "raku_gh" (build from github code):
 # Proc.new(in => IO::Pipe, out => IO::Pipe, err => IO::Pipe, os-error => "Failed to spawn process nuttin: no such file or directory (error code -2)", exitcode => -1, signal => 254, pid => Nil, command => ("nuttin",))
 # (Pipe)
+
+
+say $p.os-error;
