@@ -16,6 +16,12 @@
 
 ** topics
 *** Rob: run, reading pipes
+**** bruce hint:
+#+BEGIN_SRC raku
+die unless $run-me.IO.e;
+#+END_SRC
+
+**** https://docs.raku.org/type/IO/Path#File_test_operators
 *** bruce gray: spinoffs from upcoming talks
 *** alan: docs site, using scripts 
 **** bruce gray hint:
@@ -26,6 +32,8 @@
 ********  https://raku.github.io/rakudoc
 
 *** marton discussion subjects: "still cooking"
+
+
 
 ** old topics
 *** administrative
