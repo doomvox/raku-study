@@ -22,7 +22,7 @@ use v6;
     my $t1 = @monsters.list;
     my $t2 = @monsters.List;
 
-    say $t1.WHAT;
-    say $t2.WHAT;
+    say $t1.WHAT;  # (Array)
+    say $t2.WHAT;  # (List)
 
     }
