@@ -14,6 +14,11 @@
 **** discussion group
 ***** https://github.com/doomvox/raku-study/discussions 
 
+**** babbling about music recording techniques and standards... 
+***** https://lydiaspianostudio.com/tag/datastructures/
+Decoding Music with Tries: Recognizing Patterns and Motifs
+Structuring Rhythm and Dynamics with Heaps: A Musical Priority Queue
+Mapping Music with Hash Tables: Unlocking Patterns and Memory
 
 
 ** topics
