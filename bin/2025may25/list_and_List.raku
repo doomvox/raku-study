@@ -26,6 +26,6 @@ use v6;
     say $t2.WHAT;  # (List)
 
 
-    say $t1[3];
+    say $t1[3];  # damis
 
     }
