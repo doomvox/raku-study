@@ -136,9 +136,7 @@ https://www.norvig.com/21-days.html
 
 ** old topics
 *** administrative
-**** tim schafer informs the sfperl mailing list has been acting strange
-***** not getting all posts, let him sign-up, didn't demand adminstrative approval, etc.
-**** bruce gray argues for an indendent "schedule" page that's linked to from here:
+**** TODO bruce gray argues for an indendent "schedule" page that's linked to from here:
 ***** https://github.com/doomvox/raku-study/blob/main/README.md
 **** automate muliple announcements, e.g. to mailing lists?
 **** TODO still need to fix issues with sfperl-- need to consult the elder gods
