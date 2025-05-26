@@ -176,7 +176,7 @@ So then: $b has to be a Positional of the same type as $a.
 **** Also: https://github.com/rakudo/rakudo/issues/5802
 
 
-** topics from last meeting, April 6th
+** older topics from April 6th
 
 *** jeff's grammars question
 **** parsing tokens run together, not separated by whitespace
