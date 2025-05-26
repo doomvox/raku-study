@@ -139,6 +139,10 @@ https://www.norvig.com/21-days.html
 *** administrative
 **** TODO bruce gray argues for an indendent "schedule" page that's linked to from here:
 ***** https://github.com/doomvox/raku-study/blob/main/README.md
+**** email
+***** tailorpaul@pm.em
+***** doomvox@gmail.com
+****** working again 
 
 *** remember zoom buglet: cursor not shared
 
