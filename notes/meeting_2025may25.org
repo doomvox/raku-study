@@ -178,43 +178,6 @@ So then: $b has to be a Positional of the same type as $a.
 
 ** older topics from April 6th
 
-*** jeff's grammars question
-**** parsing tokens run together, not separated by whitespace
-***** jeff:
-#+BEGIN_SRC txt
-Tokens run together: 
-
-FOOBAR#BAR"STRINGFOO"
-
-The following are tokens:
-
-- FOO
-- BAR#
-- BAR
-- "STRINGFOO"
-
-#+END_SRC 
-***** TODO bruce gray has a solution (see saved chat)
-#+BEGIN_SRC raku
-    grammar G {
-        regex TOP  { [ <foo> | <bar_hash> | <bar_plain> | <a_string> ]+ } # using `regex` where we would usually use `rule`
-        token foo       { 'FOO'           }
-        token bar_hash  { 'BAR#'          }
-        token bar_plain { 'BAR'           }
-        token a_string  { '"' <-["]>* '"' }
-    }
-    my $s = 'FOOBAR#BAR"STRINGFOO"';
-    my $p = G.parse($s)
-        orelse die;
-    say $p;
-  # Output:
-  #     ｢FOOBAR#BAR"STRINGFOO"｣
-  #      foo => ｢FOO｣
-  #      bar_hash => ｢BAR#｣
-  #      bar_plain => ｢BAR｣
-  #      a_string => ｢"STRINGFOO"｣
-#+END_SRC 
-
 *** marton:
 **** https://github.com/doomvox/raku-study/discussions/17
 ***** 
@@ -222,46 +185,6 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 ****** "race for" is at the very least not always faster then a bare "for"
 ****** "hyper for" is still another case
 ******* bruce finds bare "for" is pretty fast
-
-
-*** tim refers to odd string reversal challenge
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-313/
-**** tim's solution in clojure (next meeting: april 13th)
-#+BEGIN_SRC lisp
-```clj
-(let [s "_c-!h_all-en!g_e"]
-  (loop [chars (vec s) letters (filter alpha? chars) result ()]
-    (if-let [ch (peek chars)]
-      (if (alpha? ch)
-        (recur (pop chars) (rest letters) (cons (first letters) result))
-        (recur (pop chars) letters (cons ch result)))
-      (str/join result))))
-```
-#+END_SRC 
-
-**** bruce summarizes some raku solutions
-#+BEGIN_SRC raku
-# barroff
-    my @characters = grep({ $_ ~~ m:i/ <[a..z]> / }, $str.comb);
-    map({ $_ ~~ m:i/ <[a..z]> / ?? @characters.pop !! $_ }, $str.comb).join;
-# feng-chang
-    my @s = $s.comb;
-    my @ndx = (^+@s).grep({ @s[$_] ~~ ('a'..'z')|('A'..'Z') });
-    @s[@ndx] = @s[@ndx].reverse;
-    put @s.join;
-# jaldhar-h-vyas
-    my @reversed = $str.comb.grep({ /<alpha>/ }).reverse;
-    my $index = 0;
-    ($str.subst(/<alpha>/, { @reversed[$index++] }, :g)).say;
-# mark-anderson (similar to bruce's approach)
-    my @s   = $str.comb;
-    my @k   = @s.grep(/:i <[a..z]>/, :k);
-    @s[@k] .= reverse;
-    [~] @s
-# wambash
-    sprintf $str.trans( /<:alpha>/ => "%s"), $str.comb(/<:alpha>/).reverse
-#+END_SRC 
-
 
 *** deepmap, duckmap. flat
 **** marton's discussion of duckmap was very clear: better than the docs
