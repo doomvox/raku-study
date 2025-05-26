@@ -31,12 +31,18 @@ Mapping Music with Hash Tables: Unlocking Patterns and Memory
 ******** " @ as a prefix puts the initial scalar in a list context by calling .list and turning it into an Array."
 
 
-https://docs.raku.org/routine/list
+****** earlier we were discussing case-sensitivity in URLs, here's an example close at hand
 
 https://docs.raku.org/type/List
   => documentation for List calss
 https://docs.raku.org/type/list
   404s
+
+Two di
+https://docs.raku.org/routine/list
+https://docs.raku.org/routine/List
+
+
 
 **** LLM
 steve yegge and gene kim working on a book.
