@@ -153,8 +153,7 @@ https://www.norvig.com/21-days.html
 **** https://github.com/doomvox/raku-study/discussions/18
 **** https://github.com/doomvox/raku-study/discussions/16
 
-
-** old topics, last meeting, April 13th
+** older topics, April 13th
 
 *** double-colons have double meanings
 https://github.com/rakudo/rakudo/issues/5805
