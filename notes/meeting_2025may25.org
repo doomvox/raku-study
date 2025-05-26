@@ -136,6 +136,8 @@ https://www.norvig.com/21-days.html
 
 
 
+
+
 ** old topics
 *** administrative
 **** tim schafer informs the sfperl mailing list has been acting strange
@@ -440,7 +442,7 @@ say ++$a.=abs;    ## this *does* work
 ** announcements 
 *** next meetings
 **** May 25, 2025   (argh: memorial day weekend.  oh well)
-**** Jun  8, 2025 
+**** Jun  8, 2025   
 **** Jun 22, 2025 
 
 **** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
