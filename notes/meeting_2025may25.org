@@ -34,7 +34,9 @@ Mapping Music with Hash Tables: Unlocking Patterns and Memory
 https://docs.raku.org/routine/list
 
 https://docs.raku.org/type/List
+  => documentation for List calss
 https://docs.raku.org/type/list
+  404s
 
 **** LLM
 steve yegge and gene kim working on a book.
