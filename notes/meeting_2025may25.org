@@ -154,56 +154,6 @@ https://www.norvig.com/21-days.html
 **** https://github.com/doomvox/raku-study/discussions/16
 
 
-** diving into oddities with :D and :U
-*** https://github.com/doomvox/raku-study/discussions/20
-*** https://docs.raku.org/language/faq#What_are_those_:D_and_:U_things_in_signatures%3F
-
-*** Bruce:
-raku -e 'sub foo ( Int:D $n ) {...}; my $p1 = &foo.signature.params[0]; say $p1.type; say $p1.modifier;'
-
-*** https://docs.raku.org/type/Metamodel/DefiniteHOW
-
-*** /home/doom/End/Cave/Raku/Wall/roast/MISC/misc-6.d.t
-**** tests "smiley" behavior but *only* for Int?
-**** no checks of Nil:D anywhere
-***** find /home/doom/End/Cave/Raku/Wall/roast/ -type f | xargs egrep 'Nil:D'
-**** More tests:
-***** /home/doom/End/Cave/Raku/Wall/roast/S04-declarations/smiley.t
-***** /home/doom/End/Cave/Raku/Wall/roast/S06-parameters/smiley.t
-****** https://github.com/Raku/roast/blob/master/S06-parameters/smiley.t
-***** /home/doom/End/Cave/Raku/Wall/roast/S12-attributes/smiley.t
-
-*** Marton mentioned the Blin tool to install the whole ecosystem:
-**** https://raku.land/github:Raku/Blin
-**** https://github.com/Raku/Blin
-
-
-*** the perl affair, my take (one more time)
-**** strong initial successes: bioinformatics, WWW
-**** this created an immediate panic in the computer science community
-***** "perl is an ugly language!"
-***** Larry Wall: weirdo outsider, not a serious member of the club
-***** then there was effectively: a decade long smear campaign
-****** pushed Python heavily despite non-existant library support
-******* needed to re-write a lot of code, but programmers *love* that kind of busy work
-***** yeah: perl5 -> perl6 business wasn't handled well, 
-****** this created an opportunity for the smear campaign
-**** where does this leave Raku?
-***** plugging along in the side lines until it hits a Killer App
-***** then everyone will imitate it (whether that makes a lot of sense or not)
-***** for years whatever Microsoft did was The Right Thing
-***** then for years whatever Google did was The Right Thing
-****** there's very little about this that's *rational*
-****** Raku's not conistent enough?  Raku's philosophy isn't quite right?  
-******* these are sideshows: Not likely to be the Key Thing.
-**** perl's community focus was
-***** not uniform
-***** often trying to address outside criticism
-****** typically in cpan development, though
-
-**** perl tiobe index: 19
-***** https://www.tiobe.com/tiobe-index/
-
 ** old topics, last meeting, April 13th
 
 *** double-colons have double meanings
