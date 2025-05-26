@@ -134,7 +134,8 @@ https://www.norvig.com/21-days.html
 ****** i'm thinking subclass of grammar, override parse method...
 
 
-** old topics
+** older topics from May 11
+
 *** administrative
 **** TODO bruce gray argues for an indendent "schedule" page that's linked to from here:
 ***** https://github.com/doomvox/raku-study/blob/main/README.md
