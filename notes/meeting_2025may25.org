@@ -190,16 +190,7 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 **** marton's discussion of duckmap was very clear: better than the docs
 ***** TODO docs bug: need a simpler example to introduce duckmap
 
-**** habere points out we have: .flat(:hammer)
-***** TODO docs bug: not documented in page for flat
-***** https://docs.raku.org/routine/flat
-***** Also: @a[**]
-***** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
-***** released 2024.07, on use 6.e.PREVIEW;
-
-
-
-** topics from Mar 9
+** older topics from Mar 9
 
 *** rob: rakudo bug turned up in weekly challenge
 **** .= operator not working as "explicit assignment"
