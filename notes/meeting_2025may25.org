@@ -142,7 +142,7 @@ https://www.norvig.com/21-days.html
 **** email
 ***** tailorpaul@pm.em
 ***** doomvox@gmail.com
-****** working again 
+****** also working again 
 
 *** remember zoom buglet: cursor not shared
 
