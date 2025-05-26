@@ -130,6 +130,7 @@ https://www.norvig.com/21-days.html
 **** i speculate we could use before/after hooks on grammars
 **** a subject for next time perhaps
 
+
 ** old topics
 *** administrative
 **** tim schafer informs the sfperl mailing list has been acting strange
