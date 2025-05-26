@@ -133,6 +133,8 @@ https://www.norvig.com/21-days.html
 
 
 
+
+
 ** old topics
 *** administrative
 **** tim schafer informs the sfperl mailing list has been acting strange
