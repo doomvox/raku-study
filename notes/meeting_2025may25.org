@@ -129,14 +129,9 @@ https://www.norvig.com/21-days.html
 *** speaking of hooks
 **** i speculate we could use before/after hooks on grammars
 **** a subject for next time perhaps
-
-
-
-
-
-
-
-
+***** rob doesn't see the point
+***** marton wonders how
+****** i'm thinking subclass of grammar, override parse method...
 
 ** old topics
 *** administrative
