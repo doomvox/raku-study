@@ -29,7 +29,6 @@
 #+END_SRC
 ***** docs for regex conjunctions have an even crazier example
 ****** https://docs.raku.org/language/regexes#Conjunction:_&&
-
 #+BEGIN_SRC raku
 say 'abc' ~~ / <?before a> && . /;    # OUTPUT: Nil
 say 'abc' ~~ / <?before a> . && . /;  # OUTPUT: a
