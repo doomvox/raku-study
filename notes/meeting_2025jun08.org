@@ -21,7 +21,6 @@
 *** regex conjunctions
 **** example uses?
 
-
 *** marton discussions
 **** https://github.com/doomvox/raku-study/discussions/21
 ***** whatever priming and smartmatch 
