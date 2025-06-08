@@ -20,6 +20,4 @@ say 's' ~~ $ret;  #  ｢godzilla｣
 # No 's' in godzilla, hard to see how by any stretch that should match
 # Marton insists it just gives you the match object back
 
-
-
-say 's' ~~ 'godzilla';  #  ｢godzilla｣
+say 's' ~~ 'godzilla';  #  False
