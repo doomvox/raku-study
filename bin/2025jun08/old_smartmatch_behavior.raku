@@ -15,3 +15,5 @@ say 0 ~~ *.Int;  # False
 
 say 0.Int;  # 0
 
+
+## Once upon a time, these returned 2 and 0
