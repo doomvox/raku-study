@@ -33,11 +33,15 @@ use v6;
         my $constraint           = find-constraint() // *;
         my $maybe-always-matcher = * ~~ $constraint;
 
-        say $maybe-always-matcher('ha!');   # False
-        say $maybe-always-matcher(7);       # False
+        say $maybe-always-matcher('ha!');   # True
+        say $maybe-always-matcher(7);       # True
         say $maybe-always-matcher(23);      # True
         say $maybe-always-matcher('23');    # True
 
     }
-
 }
+
+## So, if find-contraint() fails, then the alternative the whatever value is used,
+## and *that* always matches, so "maybe-always" is conditional on that failure...
+
+## (yet another iffy code example in the docs)
