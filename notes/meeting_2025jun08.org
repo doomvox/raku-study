@@ -22,7 +22,9 @@
 **** example uses?
 
 
+*** marton discussions
 
+**** https://github.com/doomvox/raku-study/discussions/21
 
 ** old topics (last meeting, May 25)
 
