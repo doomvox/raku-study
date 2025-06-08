@@ -46,7 +46,7 @@ say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
 ****** Bruce Gray explains with analogy to trailing commas in lists
 
 *** Bruce Gray
-**** 323 part 2
+**** weekly challeng 323 part 2
 **** sudoko generator
 
 *** marton discussions
