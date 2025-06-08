@@ -31,7 +31,7 @@ if $b1.so {
     say "is this at last okay?"; # is this at last okay?
 }
 
-
+say "===";
 my @check_results = ( True, False, False, True, Nil );
 say @check_results.grep( * ~~ True ); 
 # (True False False True (Any))
