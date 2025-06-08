@@ -28,7 +28,6 @@ if $b1.so ~~ True {
     say "yah?"; # yah?
 }
 
-
 if $b1.so {
     say "is this at last okay?"; # is this at last okay?
 }
