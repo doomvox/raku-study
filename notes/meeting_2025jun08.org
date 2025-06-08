@@ -49,17 +49,24 @@ say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
 **** weekly challeng 323 part 2
 **** sudoko generator
 
-*** marton discussions
-**** https://github.com/doomvox/raku-study/discussions/21
+
+
+
+*** whatever priming and smartmatch 
+
+
+**** Marton discussion: https://github.com/doomvox/raku-study/discussions/21
 ***** whatever priming and smartmatch 
 
 ***** clear bug in docs:
 https://docs.raku.org/language/traps#Smartmatch_and_WhateverCode
 
-**** https://github.com/doomvox/raku-study/discussions/19
-***** actionable issues (container topic)-- mostly metaoperator issues
-**** https://github.com/doomvox/raku-study/discussions/22
-***** re-blessing in different version context
+*** actionable issues (container topic)-- mostly metaoperator issues
+**** Marton discussion: https://github.com/doomvox/raku-study/discussions/19
+
+***  re-blessing in different version context
+**** Marton discussion: https://github.com/doomvox/raku-study/discussions/22
+
 
 ** old topics (last meeting, May 25)
 
