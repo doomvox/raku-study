@@ -15,7 +15,6 @@
 ***** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-
 *** Bill Atkinson 
 **** https://en.m.wikipedia.org/wiki/Bill_Atkinson
 
