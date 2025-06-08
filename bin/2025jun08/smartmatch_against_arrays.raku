@@ -8,7 +8,5 @@ use v6;
 my @monsters = << godzilla mothera javascript >>;
 say @monsters ~~ /^ \w+ $/;  # ｢godzilla｣
 
-say @monsters ~~ /^ \w+ && s $/;  
-
-my $ret = @monsters ~~ /^ \w+ && s $/;  
+my $ret = @monsters ~~ /^ \w+ $/;  
 say $ret; # (Any)
