@@ -27,7 +27,8 @@
 # but isn't that the same as just
 <[0-9]>
 #+END_SRC
-
+***** rob's use case: 
+****** named pattern, e.g. for addresses, and you tighten up the match by conjuction with "San Francisco"
 
 *** marton discussions
 **** https://github.com/doomvox/raku-study/discussions/21
