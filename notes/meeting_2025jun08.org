@@ -41,7 +41,7 @@ say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
 ****** similar to docs example
 "if you have a regex quoted that matches a quoted string, then / <quoted> && <-[x]>* /"
 
-***** matron points out this verbiage is ambiguous
+***** Marton points out this verbiage is ambiguous
 ****** "Just like with ||, empty first branches are ignored."
 ****** Bruce Gray explains with analogy to trailing commas in lists
 
