@@ -79,7 +79,7 @@ say Add5_6(9);
 
 *** rob brings up peculiar idiom using hyper whatever 
 #+BEGIN_SRC raku
-  sub task( @a where { **.are(Int) or >< * ~~ Empty } -->Int:D ) {
+  sub task( @a where { **.are(Int) or * ~~ Empty } -->Int:D ) {
     sum do for @a.combinations { sum [+^] $_ }
   }
 #+END_SRC
