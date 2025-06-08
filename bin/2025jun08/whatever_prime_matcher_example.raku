@@ -4,7 +4,7 @@
 
 use v6;
 
-sub find-contraint {
+sub find-constraint {
     return 23;
 }
 
