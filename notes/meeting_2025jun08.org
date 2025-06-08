@@ -50,7 +50,6 @@ say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
 **** sudoko generator
 
 *** whatever priming and smartmatch 
-
 **** Marton discussion: https://github.com/doomvox/raku-study/discussions/21
 
 ***** clear bug in docs:
