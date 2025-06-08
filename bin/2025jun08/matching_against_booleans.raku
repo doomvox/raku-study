@@ -56,7 +56,7 @@ say "===";
 ##    say @results.grep( *.Int ~~ 13 );   
 ##    ## Cannot use Bool as Matcher with '.grep'.  Did you mean to use $_ inside a block?
 
-   say @results.grep( { $_.Int } ~~ 13 );   
+   say @results.grep( { $_.Int ~~ 13 } );   
 
 
 }
