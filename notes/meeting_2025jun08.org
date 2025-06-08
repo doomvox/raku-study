@@ -47,6 +47,7 @@ say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
 
 *** Bruce Gray
 **** weekly challenge 323 part 2
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-323/
 **** sudoko generator
 
 *** whatever priming and smartmatch 
