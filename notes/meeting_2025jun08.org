@@ -49,9 +49,6 @@ say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
 **** weekly challeng 323 part 2
 **** sudoko generator
 
-
-
-
 *** whatever priming and smartmatch 
 
 **** Marton discussion: https://github.com/doomvox/raku-study/discussions/21
