@@ -30,6 +30,13 @@
 ***** docs for regex conjunctions have an even crazier example
 ****** https://docs.raku.org/language/regexes#Conjunction:_&&
 
+#+BEGIN_SRC raku
+say 'abc' ~~ / <?before a> && . /;    # OUTPUT: «Nil␤»
+say 'abc' ~~ / <?before a> . && . /;  # OUTPUT: «｢a｣␤»
+say 'abc' ~~ / <?before a> . /;       # OUTPUT: «｢a｣␤»
+say 'abc' ~~ / <?before a> .. /;      # OUTPUT: «｢ab｣␤»
+#+END_SRC
+
 ***** rob's use case: 
 ****** named pattern, e.g. for addresses, and you tighten up the match by conjuction with "San Francisco"
 ****** similar to docs example
