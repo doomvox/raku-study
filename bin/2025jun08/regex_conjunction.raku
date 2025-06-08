@@ -13,4 +13,6 @@ my $str2 = "bar none, fooseball before the bar is a guaranteed contempt of court
 
 say $str1 ~~ / foo & bar /;  # Nil
 say $str2 ~~ / foo & bar /;  # Nil
-say $str1 ~~ / foo & f.. /;    # Nil
+say $str1 ~~ / foo & f /;    # Nil
+say $str1 ~~ / foo & f.. /;    # ｢foo｣
+
