@@ -29,4 +29,5 @@ my $ret2 = 23 ~~ $ret;
 say $ret.WHICH;   # Match|4768021471232
 say $ret2.WHICH;  # Match|4768021471232
 
+## Marton looks up the code:
 ## https://github.com/rakudo/rakudo/blob/b43c63d328697b7d3044493d8ac6898d55bc763f/src/core.c/Match.rakumod#L329
