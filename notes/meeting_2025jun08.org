@@ -15,8 +15,21 @@
 ***** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
+
 *** Bill Atkinson 
 **** https://en.m.wikipedia.org/wiki/Bill_Atkinson
+
+*** perl & raku conference news (Bruce Gray)
+#+BEGIN_SRC text
+This coming weekend:
+https://southeastlinuxfest.org/2025/06/self-is-this-week/
+https://speakers.southeastlinuxfest.org/southeast-linux-fest-2025/schedule/
+https://speakers.southeastlinuxfest.org/southeast-linux-fest-2025/talk/WSVB8Q/
+    The Two Greatest Lost Programming Languages (Forth and APL)
+https://speakers.southeastlinuxfest.org/southeast-linux-fest-2025/talk/JCQBV3/
+    Programming Languages: The Long View - by Eric S. Raymond
+    This talk will be a wander through the garden of computer languages - their costs, tradeoffs, strengths, and weaknesses. It's aimed at helping you choose appropriately for your project and youe career.
+#+END_SRC
 
 *** regex conjunctions
 **** example uses?
