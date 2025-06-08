@@ -8,8 +8,11 @@ sub find-contraint {
     return 23;
 }
 
-my $constraint           = find-constraint() // *;
-my $maybe-always-matcher = * ~~ $constraint;
+{
+    my $constraint           = find-constraint() // *;
+    my $maybe-always-matcher = * ~~ $constraint;
+
+}
 
 
 
