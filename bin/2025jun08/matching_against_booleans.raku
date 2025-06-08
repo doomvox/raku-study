@@ -70,6 +70,8 @@ say "===";
     # Marton's point is that the LH vs RH side issue isn't it.
     #          but sometimes that can matter, e.g. with types
 
+    # older versions smartmatch didn't always return a boolean value?
+
     # smartmatch is not commutative (?)
 }
 
