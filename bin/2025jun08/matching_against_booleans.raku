@@ -53,6 +53,7 @@ say "===";
     my @results = ( 33, 23, 13, 12, 11 );
     say @results.grep( * );   # (33 23 13 12 11)
 
-    say @results.grep( *.Int ~~ 13 );   # (33 23 13 12 11)
+    say @results.grep( *.Int ~~ 13 );   
+    ## Cannot use Bool as Matcher with '.grep'.  Did you mean to use $_ inside a block?
 
 }
