@@ -14,5 +14,12 @@ say $ret.WHAT; # (Match)
 
 say $ret ~~ m/^g/;  # ｢g｣
 
+# Very peculiar case: 
 say 's' ~~ $ret;  #  ｢godzilla｣
 
+# No 's' in godzilla, hard to see how by any stretch that should match
+# Marton insists it just gives 
+
+
+
+say 's' ~~ 'godzilla';  #  ｢godzilla｣
