@@ -12,4 +12,4 @@ my $ret = @monsters ~~ /^ \w+ $/;
 say $ret; # ｢godzilla｣
 say $ret.WHAT; # (Match)
 
-say $ret ~~ m/^g/;
+say $ret ~~ m/^g/;  # ｢g｣
