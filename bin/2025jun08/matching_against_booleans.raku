@@ -20,7 +20,7 @@ if $b1 ~~ True {
 
 
 if $b1 ~~ False {
-    say "Failure right?";  # hm?
+    say "Failure right?";  
 } else {
-    say "Yes, we fail reliably";
+    say "Yes, we fail reliably";   # Yes, we fail reliably
 }
