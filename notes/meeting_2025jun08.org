@@ -41,6 +41,9 @@ say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
 ****** similar to docs example
 "if you have a regex quoted that matches a quoted string, then / <quoted> && <-[x]>* /"
 
+***** matron points out this verbiage is ambiguous
+****** "Just like with ||, empty first branches are ignored."
+
 *** marton discussions
 **** https://github.com/doomvox/raku-study/discussions/21
 ***** whatever priming and smartmatch 
