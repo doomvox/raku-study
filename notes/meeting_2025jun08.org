@@ -18,6 +18,9 @@
 *** Bill Atkinson 
 **** https://en.m.wikipedia.org/wiki/Bill_Atkinson
 
+*** regex conjunctions
+**** example uses?
+
 ** old topics (last meeting, May 25)
 
 *** distinction .list and .List
