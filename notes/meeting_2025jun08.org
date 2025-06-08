@@ -20,6 +20,11 @@
 
 *** regex conjunctions
 **** example uses?
+***** old zoffix example 2018
+#+BEGIN_SRC raku
+/Perl \s+ [ \d && <:Block('Basic Latin')> ]/
+#+END_SRC
+
 
 *** marton discussions
 **** https://github.com/doomvox/raku-study/discussions/21
