@@ -59,3 +59,8 @@ say "===";
    say @results.grep( { $_.Int ~~ 13 } );   # (13)
 
 }
+
+{
+    my @a = <1 2 3>;
+    say @a.grep( 2 ~~ *.Int );
+}
