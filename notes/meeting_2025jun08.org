@@ -55,10 +55,12 @@ say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
 *** whatever priming and smartmatch 
 
 **** Marton discussion: https://github.com/doomvox/raku-study/discussions/21
-***** whatever priming and smartmatch 
 
 ***** clear bug in docs:
 https://docs.raku.org/language/traps#Smartmatch_and_WhateverCode
+
+
+***** Bruce Gray:
 
 *** actionable issues (container topic)-- mostly metaoperator issues
 **** Marton discussion: https://github.com/doomvox/raku-study/discussions/19
