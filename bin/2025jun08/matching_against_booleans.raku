@@ -15,3 +15,4 @@ if $b1 {
 if $b1 ~~ True {
     say "hm?";  # hm?
 }
+##     Smartmatch against True always matches; if you mean to test the topic for truthiness, use :so or *.so or ?* instead
