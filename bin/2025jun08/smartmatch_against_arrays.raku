@@ -28,3 +28,5 @@ say 's' ~~ 'godzilla';  #  False
 
 my $ret2 = 23 ~~ $ret; 
 
+say $ret.WHICH;
+say $ret2.WHICH;
