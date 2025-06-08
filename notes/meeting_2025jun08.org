@@ -26,6 +26,7 @@
 ******* " @ as a prefix puts the initial scalar in a list context by calling .list and turning it into an Array."
 
 ** topics from the void, of province unsought and unknown 
+
 *** Rob: run, reading pipes
 **** bruce hint:
 #+BEGIN_SRC raku
@@ -206,7 +207,6 @@ say ++$a.=abs;    ## this *does* work
 
 ** announcements 
 *** next meetings
-**** Jun  8, 2025   
 **** Jun 22, 2025 
 
 **** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
