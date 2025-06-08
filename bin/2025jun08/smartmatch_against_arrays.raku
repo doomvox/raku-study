@@ -21,3 +21,8 @@ say 's' ~~ $ret;  #  ｢godzilla｣
 # Marton insists it just gives you the match object back whatever is on the left hand side.
 
 say 's' ~~ 'godzilla';  #  False
+
+
+
+
+say 23 ~~ $ret;  #  ｢godzilla｣
