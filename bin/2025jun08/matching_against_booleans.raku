@@ -8,11 +8,10 @@ my $b1 = True;
 my $b2 = False;
 
 if $b1 {
-    say "Of course, true is true";
+    say "Of course, true is true";  # Of course, true is true
 }
 
 
 if $b1 ~~ True {
-    say "hm?";
-    
+    say "hm?";  # hm?
 }
