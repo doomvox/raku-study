@@ -68,6 +68,7 @@ say "===";
     # Cannot use Bool as Matcher with '.grep'.  Did you mean to use $_ inside a block?
 
     # Marton's point is that the LH vs RH side issue isn't it.
+    #          but sometimes that can matter, e.g. with types
 
     # smartmatch is not commutative (?)
 }
