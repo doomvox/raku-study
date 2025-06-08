@@ -20,4 +20,5 @@ say $str1 ~~ / <?[foo]> && <?[bar]> /;  # Nil  (because the points they don't ma
 
 say $str1 ~~ / <?[foo]> || <?[bar]> /;  # ｢｣
 
-say "foo be not bar" ~~ / <?[foo]> && bar /;
+say "foo be not bar" ~~ / <?[foo]> && bar /;  # Nil
+say "foo be not bar" ~~ / foo && <?[bar]> /;  # Nil
