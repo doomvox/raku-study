@@ -11,7 +11,6 @@ if $b1 {
     say "Of course, true is true";  # Of course, true is true
 }
 
-
 if $b1 ~~ True {
     say "hm?";  # hm?
 }
