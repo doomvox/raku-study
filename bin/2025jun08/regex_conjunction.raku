@@ -20,7 +20,7 @@ say "===";
 say $str1 ~~ / <?after foo> && <?after bar> /;  # Nil  (because it's matching, but at two different places?)
 
 
-say $str1 ~~ / <?after foo> || <?after bar> /;  # ｢｣
+say $str1 ~~ / <?after foo> || <?after bar> /;  #
 
 say "foo be not bar" ~~ / <?[foo]> && bar /;  # Nil
 say "foo be not bar" ~~ / foo && <?[bar]> /;  # Nil
