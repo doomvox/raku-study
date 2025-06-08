@@ -31,10 +31,10 @@
 ****** https://docs.raku.org/language/regexes#Conjunction:_&&
 
 #+BEGIN_SRC raku
-say 'abc' ~~ / <?before a> && . /;    # OUTPUT: «Nil␤»
-say 'abc' ~~ / <?before a> . && . /;  # OUTPUT: «｢a｣␤»
-say 'abc' ~~ / <?before a> . /;       # OUTPUT: «｢a｣␤»
-say 'abc' ~~ / <?before a> .. /;      # OUTPUT: «｢ab｣␤»
+say 'abc' ~~ / <?before a> && . /;    # OUTPUT: Nil
+say 'abc' ~~ / <?before a> . && . /;  # OUTPUT: a
+say 'abc' ~~ / <?before a> . /;       # OUTPUT: a
+say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
 #+END_SRC
 
 ***** rob's use case: 
