@@ -75,6 +75,7 @@ my &Add5_6 = curry(&add3, [5, 6]);
 say Add5_6(9);
 #+END_SRC
 
+
 *** actionable issues (container topic)-- mostly metaoperator issues
 **** Marton discussion: https://github.com/doomvox/raku-study/discussions/19
 
