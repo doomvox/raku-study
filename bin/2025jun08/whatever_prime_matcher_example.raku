@@ -44,6 +44,6 @@ use v6;
 ## So, if find-contraint() fails, then the alternative the whatever value is used,
 ## and *that* always matches, so "maybe-always" is conditional on that failure...
 
-## (yet another iffy code example in the docs)
+## (yet another questionable code example in the docs)
 ## https://docs.raku.org/type/Whatever
 
