@@ -58,5 +58,4 @@ say "===";
 
    say @results.grep( { $_.Int ~~ 13 } );   # (13)
 
-
 }
