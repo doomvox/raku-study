@@ -27,7 +27,7 @@
 # but isn't that the same as just
 <[0-9]>
 #+END_SRC
-***** docs for regex conjunctions have even crazier example
+***** docs for regex conjunctions have an even crazier example
 ****** https://docs.raku.org/language/regexes#Conjunction:_&&
 
 ***** rob's use case: 
