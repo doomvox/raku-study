@@ -23,7 +23,7 @@ say $str1 ~~ / [^ .*? <?after foo> ] && [^ .*? <?after bar> ] /;  # Nil
 say "===";
 say $str1 ~~ / [^ .*? foo .*? $ ] && [^ .*? bar .*? $ ] /;  # ｢fooseball behind the bar is forbidden.｣
 
-say $str1 ~~ / [^ .*? foo .*? $ ] && [^ .*? goaway .*? $ ] /;  # ｢fooseball behind the bar is forbidden.｣
+say $str1 ~~ / [^ .*? foo .*? $ ] && [^ .*? goaway .*? $ ] /;  # Nil
 
 say $str1 ~~ / <?after foo> || <?after bar> /;  # ｢｣
 
