@@ -17,3 +17,10 @@ if $b1 ~~ True {
 }
 ## warning:
 ##     Smartmatch against True always matches; if you mean to test the topic for truthiness, use :so or *.so or ?* instead
+
+
+if $b1 ~~ False {
+    say "Failure right?";  # hm?
+} else {
+    say "Yes, we fail reliably";
+}
