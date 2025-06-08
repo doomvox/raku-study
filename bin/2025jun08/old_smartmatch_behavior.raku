@@ -13,5 +13,5 @@ say 2 ~~ *.Int;  # True
 
 say 0 ~~ *.Int;  # False
 
-
 say 0.Int;  # 0
+
