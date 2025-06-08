@@ -28,10 +28,12 @@
 <[0-9]>
 #+END_SRC
 ***** docs for regex conjunctions have even crazier example
-****** https://docs.raku.org/language/regexes#Conjunction: &&
+****** https://docs.raku.org/language/regexes#Conjunction:_&&
 
 ***** rob's use case: 
 ****** named pattern, e.g. for addresses, and you tighten up the match by conjuction with "San Francisco"
+****** similar to docs example
+"if you have a regex quoted that matches a quoted string, then / <quoted> && <-[x]>* /"
 
 *** marton discussions
 **** https://github.com/doomvox/raku-study/discussions/21
