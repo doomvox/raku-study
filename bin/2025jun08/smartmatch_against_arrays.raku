@@ -22,7 +22,4 @@ say 's' ~~ $ret;  #  ｢godzilla｣
 
 say 's' ~~ 'godzilla';  #  False
 
-
-
-
 say 23 ~~ $ret;  # ｢godzilla｣
