@@ -80,7 +80,7 @@ say Add5_6(9);
 *** rob brings up hyper whatever peculiarity
 **** uses .are, 6.e.PREVIEW feature
 #+BEGIN_SRC raku
-  sub task( @a where { **.are(Int) or >< * ~~ Empty } -->Int:D } {
+  sub task( @a where { **.are(Int) or >< * ~~ Empty } -->Int:D ) {
     sum do for @a.combinations { sum [+^] $_ }
   }
 #+END_SRC
