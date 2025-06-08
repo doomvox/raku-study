@@ -21,6 +21,9 @@
 *** regex conjunctions
 **** example uses?
 
+
+
+
 ** old topics (last meeting, May 25)
 
 *** distinction .list and .List
