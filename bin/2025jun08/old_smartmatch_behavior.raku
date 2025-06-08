@@ -11,4 +11,4 @@ say 2 ~~ *.Int;  # True
 #   2 gets fed into *
 
 
-say 0 ~~ *.Int;  # True
+say 0 ~~ *.Int;  # False
