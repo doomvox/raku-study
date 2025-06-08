@@ -59,7 +59,6 @@ say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
 ***** clear bug in docs:
 https://docs.raku.org/language/traps#Smartmatch_and_WhateverCode
 
-
 ***** Bruce Gray: reasoning behind preferring jargon "priming" to "currying"
 #+BEGIN_SRC raku
 my &AddTwo  = * + 2;                    # Whatever priming
