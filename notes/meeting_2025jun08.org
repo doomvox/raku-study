@@ -77,7 +77,7 @@ say Add5_6(9);
 #+END_SRC
 
 
-*** rob brings up hyper whatever peculiarity
+*** rob brings up peculiar idiom using hyper whatever 
 **** uses .are, 6.e.PREVIEW feature
 #+BEGIN_SRC raku
   sub task( @a where { **.are(Int) or >< * ~~ Empty } -->Int:D ) {
