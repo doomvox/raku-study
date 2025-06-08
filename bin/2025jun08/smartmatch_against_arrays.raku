@@ -10,5 +10,6 @@ say @monsters ~~ /^ \w+ $/;  # ｢godzilla｣
 
 my $ret = @monsters ~~ /^ \w+ $/;  # ｢godzilla｣
 say $ret; # 
+say $ret.WHAT;
 
 say $ret ~~ /^g/;
