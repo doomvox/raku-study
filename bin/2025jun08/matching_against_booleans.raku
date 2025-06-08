@@ -46,3 +46,10 @@ say "===";
     say @check_results.grep( *.so ~~ True ); 
     ## Cannot use Bool as Matcher with '.grep'.  Did you mean to use $_ inside a block?
 }
+
+
+{
+    my @results = ( 33, 23, 13, 12, 11 );
+    say @check_results.grep( * ); 
+    # (True False False True (Any))
+}
