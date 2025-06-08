@@ -23,3 +23,7 @@ if $b1 ~~ False {
 } else {
     say "Yes, we fail reliably";   # Yes, we fail reliably
 }
+
+if $b1.so ~~ True {
+    say "hm?";  # hm?
+}
