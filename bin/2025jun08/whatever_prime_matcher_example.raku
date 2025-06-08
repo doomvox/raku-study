@@ -45,3 +45,4 @@ use v6;
 ## and *that* always matches, so "maybe-always" is conditional on that failure...
 
 ## (yet another iffy code example in the docs)
+## https://docs.raku.org/type/Whatever
