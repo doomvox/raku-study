@@ -276,12 +276,6 @@ say ++$a.=abs;    ## this *does* work
 ******* https://docs.raku.org/language/traps#Method_calls_do_not_chain
 ******* https://docs.raku.org/language/traps#Method_operator_calls_and_prefix_minus
 
-** follow-up 
-*** announce next meeting immediately
-*** check jeff's bug status
-**** added pointer to roast test 
-*** doc bug traps .= weirdness not well covered.
-
 ** announcements 
 *** next meetings
 **** Jun 22, 2025 
