@@ -24,8 +24,6 @@ say 23 ~~ $ret;  # ｢godzilla｣
 
 say 's' ~~ 'godzilla';  #  False
 
-
-
 my $ret2 = 23 ~~ $ret; 
 
 say $ret.WHICH;   # Match|4768021471232
