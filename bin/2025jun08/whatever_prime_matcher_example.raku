@@ -13,8 +13,8 @@ sub find-constraint {
     my $maybe-always-matcher = * ~~ $constraint;
 
     say $maybe-always-matcher('ha!');   # False
-
-    say $maybe-always-matcher(7);   # False
+    say $maybe-always-matcher(7);       # False
+    say $maybe-always-matcher(23);       # False
 
 }
 
