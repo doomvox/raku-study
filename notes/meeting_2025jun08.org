@@ -54,7 +54,6 @@ say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
 
 *** whatever priming and smartmatch 
 
-
 **** Marton discussion: https://github.com/doomvox/raku-study/discussions/21
 ***** whatever priming and smartmatch 
 
