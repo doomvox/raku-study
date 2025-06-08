@@ -27,3 +27,8 @@ if $b1 ~~ False {
 if $b1.so ~~ True {
     say "yah?"; # yah?
 }
+
+
+if $b1.so {
+    say "yah?"; # yah?
+}
