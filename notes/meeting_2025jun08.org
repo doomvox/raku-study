@@ -45,6 +45,10 @@ say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
 ****** "Just like with ||, empty first branches are ignored."
 ****** Bruce Gray explains with analogy to trailing commas in lists
 
+*** Bruce Gray
+**** 323 part 2
+**** sudoko generator
+
 *** marton discussions
 **** https://github.com/doomvox/raku-study/discussions/21
 ***** whatever priming and smartmatch 
