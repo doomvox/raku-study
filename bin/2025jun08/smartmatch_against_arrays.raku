@@ -28,6 +28,6 @@ say 's' ~~ 'godzilla';  #  False
 
 my $ret2 = 23 ~~ $ret; 
 
-say $ret.WHICH;
-say $ret2.WHICH;
+say $ret.WHICH;   # Match|4768021471232
+say $ret2.WHICH;  # Match|4768021471232
 
