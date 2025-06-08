@@ -18,6 +18,6 @@ say $ret ~~ m/^g/;  # ｢g｣
 say 's' ~~ $ret;  #  ｢godzilla｣
 
 # No 's' in godzilla, hard to see how by any stretch that should match
-# Marton insists it just gives you the match object back
+# Marton insists it just gives you the match object back whatever is on the left hand side.
 
 say 's' ~~ 'godzilla';  #  False
