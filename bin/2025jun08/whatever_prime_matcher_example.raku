@@ -46,3 +46,4 @@ use v6;
 
 ## (yet another iffy code example in the docs)
 ## https://docs.raku.org/type/Whatever
+
