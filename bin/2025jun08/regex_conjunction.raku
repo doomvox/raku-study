@@ -21,7 +21,7 @@ say $str1 ~~ / <?after foo> && <?after bar> /;  # Nil  (because it's matching, b
 say $str1 ~~ / [^ .*? <?after foo> ] && [^ .*? <?after bar> ] /;  # Nil  
 
 say "===";
-say $str1 ~~ / [^ .*? foo ] && [^ .*? bar ] /;  # Nil  
+say $str1 ~~ / [^ .*? foo .*? $ ] && [^ .*? bar .*? $ ] /;  # Nil  
 
 say $str1 ~~ / <?after foo> || <?after bar> /;  # ｢｣
 
