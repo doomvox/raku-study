@@ -18,3 +18,4 @@ say $str1 ~~ / foo & f.. /;    # ｢foo｣
 
 say $str1 ~~ / <?[foo]> && <?[bar]> /;  # Nil  (because the points they don't match are different... ?)
 
+say $str1 ~~ / <?[foo]> || <?[bar]> /;  # Nil  (because the points they don't match are different... ?)
