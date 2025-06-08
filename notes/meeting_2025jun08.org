@@ -23,6 +23,10 @@
 ***** old zoffix example 2018
 #+BEGIN_SRC raku
 /Perl \s+ [ \d && <:Block('Basic Latin')> ]/
+
+# but isn't that the same as just
+<[0-9]>
+
 #+END_SRC
 
 
