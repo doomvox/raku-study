@@ -64,4 +64,7 @@ say "===";
     say "===";
     my @a = <1 2 3>;
     say @a.grep( 2 ~~ *.Int );
+    # Contrary to the docs (traps) we get the same error, the above *doesn't* work (it used to?)
+    # Cannot use Bool as Matcher with '.grep'.  Did you mean to use $_ inside a block?
+
 }
