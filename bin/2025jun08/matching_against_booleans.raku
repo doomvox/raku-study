@@ -35,7 +35,6 @@ say "===";
 my @check_results = ( True, False, False, True, Nil );
 say @check_results.grep( * ~~ True ); 
 # (True False False True (Any))
-
 ##     Smartmatch against True always matches; if you mean to test the topic for truthiness, use :so or *.so or ?* instead
 
 my @check_results = ( True, False, False, True, Nil );
