@@ -23,10 +23,12 @@
 
 
 *** marton discussions
-
 **** https://github.com/doomvox/raku-study/discussions/21
-
+***** whatever priming and smartmatch 
 **** https://github.com/doomvox/raku-study/discussions/19
+***** actionable issues (container topic)
+**** https://github.com/doomvox/raku-study/discussions/22
+***** re-blessing in different version context
 
 ** old topics (last meeting, May 25)
 
