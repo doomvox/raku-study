@@ -14,4 +14,4 @@ say $ret.WHAT; # (Match)
 
 say $ret ~~ m/^g/;  # ｢g｣
 
-say 's' ~~ $ret;  #
+say 's' ~~ $ret;  #  ｢godzilla｣
