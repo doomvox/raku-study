@@ -22,7 +22,8 @@ say 's' ~~ $ret;  #  ｢godzilla｣
 
 say 23 ~~ $ret;  # ｢godzilla｣
 
-
 say 's' ~~ 'godzilla';  #  False
 
 
+
+my $ret2 = 23 ~~ $ret; 
