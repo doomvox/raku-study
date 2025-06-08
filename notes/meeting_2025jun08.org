@@ -43,6 +43,7 @@ say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
 
 ***** matron points out this verbiage is ambiguous
 ****** "Just like with ||, empty first branches are ignored."
+****** Bruce Gray explains with analogy to trailing commas in lists
 
 *** marton discussions
 **** https://github.com/doomvox/raku-study/discussions/21
