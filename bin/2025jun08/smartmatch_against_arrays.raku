@@ -8,8 +8,8 @@ use v6;
 my @monsters = << godzilla mothera javascript >>;
 say @monsters ~~ /^ \w+ $/;  # ｢godzilla｣
 
-my $ret = @monsters ~~ /^ \w+ $/;  # ｢godzilla｣
-say $ret; # 
-say $ret.WHAT;
+my $ret = @monsters ~~ /^ \w+ $/;  
+say $ret; # ｢godzilla｣
+say $ret.WHAT; # (Match)
 
-say $ret ~~ /^g/;
+say $ret ~~ m/^g/;
