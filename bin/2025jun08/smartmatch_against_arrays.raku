@@ -8,3 +8,4 @@ use v6;
 my @monsters = << godzilla mothera javascript >>;
 say @monsters ~~ /^ \w+ $/;  # ｢godzilla｣
 
+my $ret = @monsters ~~ /^ \w+ && o $/;  # ｢godzilla｣
