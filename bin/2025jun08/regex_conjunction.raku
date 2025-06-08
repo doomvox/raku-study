@@ -17,4 +17,4 @@ say $str1 ~~ / foo & f /;    # Nil
 say $str1 ~~ / foo & f.. /;    # ｢foo｣
 
 
-say $str1 ~~ /  foo  & bar /;  # Nil
+say $str1 ~~ /  <?[foo]>  && <?[bar]> /;  # 
