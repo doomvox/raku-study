@@ -19,7 +19,7 @@ say $str1 ~~ / foo & f.. /;    # ｢foo｣
 say "===";
 say $str1 ~~ / <?after foo> && <?after bar> /;  # Nil  (because it's matching, but at two different places?)
 
-say $str1 ~~ / [^ <?after foo> ] && [^ <?after bar> ] /;  # Nil  (because it's matching, but at two different places?)
+say $str1 ~~ / [^ .*? <?after foo> ] && [^ .*? <?after bar> ] /;  # Nil  
 
 
 say $str1 ~~ / <?after foo> || <?after bar> /;  # ｢｣
