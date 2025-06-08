@@ -78,12 +78,12 @@ say Add5_6(9);
 
 
 *** rob brings up peculiar idiom using hyper whatever 
-**** uses .are, 6.e.PREVIEW feature
 #+BEGIN_SRC raku
   sub task( @a where { **.are(Int) or >< * ~~ Empty } -->Int:D ) {
     sum do for @a.combinations { sum [+^] $_ }
   }
 #+END_SRC
+**** also uses .are, 6.e.PREVIEW feature
 
 *** actionable issues (container topic)-- mostly metaoperator issues
 **** Marton discussion: https://github.com/doomvox/raku-study/discussions/19
