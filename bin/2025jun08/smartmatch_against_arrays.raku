@@ -7,6 +7,5 @@ use v6;
 
 my @monsters = << godzilla mothera javascript >>;
 
-
-say @monsters ~~ /^ \w+ $/;
+say @monsters ~~ /^ \w+ $/;  # ｢godzilla｣
 
