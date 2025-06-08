@@ -66,4 +66,11 @@ say "===";
     say @a.grep( 2 ~~ *.Int );
     # Contrary to the docs (traps) we get the same error, the above *doesn't* work (it used to?)
     # Cannot use Bool as Matcher with '.grep'.  Did you mean to use $_ inside a block?
+
+    # Marton's point is that the LH vs RH side issue isn't it.
+
+    # smartmatch is not commutative (?)
+
 }
+
+
