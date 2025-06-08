@@ -14,6 +14,8 @@
 **** discussion group
 ***** https://github.com/doomvox/raku-study/discussions 
 
+** topics
+
 
 ** old topics (last meeting, May 25)
 
