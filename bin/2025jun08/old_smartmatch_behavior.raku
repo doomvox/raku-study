@@ -8,3 +8,4 @@ use v6;
 say 2 ~~ *.Int;  # True
 
 # pop quiz, true or false?
+#   2 gets fed into *
