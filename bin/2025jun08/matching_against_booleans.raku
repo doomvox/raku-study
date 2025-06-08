@@ -13,5 +13,6 @@ if $b1 {
 
 
 if $b1 ~~ True {
+    say "hm?";
     
 }
