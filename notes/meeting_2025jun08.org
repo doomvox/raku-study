@@ -76,7 +76,6 @@ my &Add5_6 = curry(&add3, [5, 6]);
 say Add5_6(9);
 #+END_SRC
 
-
 *** rob brings up peculiar idiom using hyper whatever 
 #+BEGIN_SRC raku
   sub task( @a where { **.are(Int) or * ~~ Empty } -->Int:D ) {
