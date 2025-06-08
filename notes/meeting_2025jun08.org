@@ -26,6 +26,8 @@
 
 **** https://github.com/doomvox/raku-study/discussions/21
 
+**** https://github.com/doomvox/raku-study/discussions/19
+
 ** old topics (last meeting, May 25)
 
 *** distinction .list and .List
