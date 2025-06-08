@@ -33,14 +33,16 @@ if $b1.so {
 
 say "===";
 
-my @check_results = ( True, False, False, True, Nil );
-say @check_results.grep( * ); 
-# (True False False True (Any))
+{
+    my @check_results = ( True, False, False, True, Nil );
+    say @check_results.grep( * ); 
+    # (True False False True (Any))
 
-say @check_results.grep( * ~~ True ); 
-# (True False False True (Any))
-##     Smartmatch against True always matches; if you mean to test the topic for truthiness, use :so or *.so or ?* instead
+    say @check_results.grep( * ~~ True ); 
+    # (True False False True (Any))
+    ##     Smartmatch against True always matches; if you mean to test the topic for truthiness, use :so or *.so or ?* instead
 
-my @check_results = ( True, False, False, True, Nil );
-say @check_results.grep( *.so ~~ True ); 
-## Cannot use Bool as Matcher with '.grep'.  Did you mean to use $_ inside a block?
+    my @check_results = ( True, False, False, True, Nil );
+    say @check_results.grep( *.so ~~ True ); 
+    ## Cannot use Bool as Matcher with '.grep'.  Did you mean to use $_ inside a block?
+}
