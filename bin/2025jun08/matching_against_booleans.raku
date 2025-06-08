@@ -33,5 +33,4 @@ if $b1.so {
 
 
 my @check_results = ( True, False, False, True, Nil );
-
 say @check_results.grep( * ~~ True ); 
