@@ -40,3 +40,4 @@ say @check_results.grep( * ~~ True );
 
 my @check_results = ( True, False, False, True, Nil );
 say @check_results.grep( *.so ~~ True ); 
+## Cannot use Bool as Matcher with '.grep'.  Did you mean to use $_ inside a block?
