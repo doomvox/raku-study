@@ -8,4 +8,4 @@ my @stuff := <foo bar ber>;
 say "thefoo" ~~ /the @stuff/;  #  ｢thefoo｣
 
 say "the bozobaric" ~~ /the @stuff/;  #  Nil
-say "the bozobaric" ~~ /the .*?  @stuff/;  #  
+say "the bozobaric" ~~ /the .*?  @stuff/;  ｢the bozobar｣
