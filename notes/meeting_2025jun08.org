@@ -191,7 +191,7 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 ****** "hyper for" is still another case
 ******* bruce finds bare "for" is pretty fast
 
-** older topics from Mar 9
+** older topics from Mar 9 meeting
 
 *** rob: rakudo bug turned up in weekly challenge
 **** .= operator not working as "explicit assignment"
