@@ -101,7 +101,6 @@ say Add5_6(9);
 #+END_SRC
 **** also uses .are, a 6.e.PREVIEW feature, need a recent raku
 
-
 *** actionable issues (container topic)-- mostly metaoperator issues
 **** Marton discussion: https://github.com/doomvox/raku-study/discussions/19
 
