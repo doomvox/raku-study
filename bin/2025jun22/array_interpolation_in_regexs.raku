@@ -12,7 +12,10 @@ use v6;
     say "the bozobaric" ~~ /the .*?  @stuff/;  # ｢the bozobar｣
 
      say "the bozobaric" ~~ /the .*?  <foo bar ber>/;  # ｢the bozobar｣    
-#     ## No such method 'foo' for invocant of type 'Match'
+## Potential difficulties:
+##    Space is not significant here; please use quotes or :s (:sigspace) modifier (or, to suppress this warning, omit the space, or otherwise change the spacing)
+
+##     ## No such method 'foo' for invocant of type 'Match'
 
     say "thefoo" ~~ /< foo bar ber >/;  # ｢foo｣
     say "the bozobaric" ~~ /the .*?  < foo bar ber >/;  # ｢the bozobar｣
