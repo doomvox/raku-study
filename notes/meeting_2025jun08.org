@@ -181,7 +181,7 @@ and 12,345,678 isn’t a multiple of 8.
 ***** marton wonders how
 ****** i'm thinking subclass of grammar, override parse method...
 
-** older topics from April 6th
+** older topics from April 6th meeting
 
 *** marton:
 **** https://github.com/doomvox/raku-study/discussions/17
@@ -190,10 +190,6 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 ****** "race for" is at the very least not always faster then a bare "for"
 ****** "hyper for" is still another case
 ******* bruce finds bare "for" is pretty fast
-
-*** deepmap, duckmap. flat
-**** marton's discussion of duckmap was very clear: better than the docs
-***** TODO docs bug: need a simpler example to introduce duckmap
 
 ** older topics from Mar 9
 
