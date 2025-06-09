@@ -17,6 +17,6 @@ use v6;
     say "thefoo" ~~ /< foo bar ber >/;  # ｢foo｣
     say "the bozobaric" ~~ /the .*?  < foo bar ber >/;  # ｢the bozobar｣
 
-    ## white space issue: <foo bar ber> differes from < foo bar ber >
+    ## TODO white space issue: <foo bar ber> differes from < foo bar ber >
 
 }
