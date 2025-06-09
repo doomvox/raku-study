@@ -14,7 +14,7 @@ use v6;
      say "the bozobaric" ~~ /the .*?  <foo bar ber>/;  # ｢the bozobar｣    
 ## Potential difficulties:
 ##    Space is not significant here; please use quotes or :s (:sigspace) modifier (or, to suppress this warning, omit the space, or otherwise change the spacing)
-
+##
 ##     ## No such method 'foo' for invocant of type 'Match'
 
     say "thefoo" ~~ /< foo bar ber >/;  # ｢foo｣
