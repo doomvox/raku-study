@@ -12,6 +12,7 @@ use v6;
     say "the bozobaric" ~~ /the .*?  @stuff/;  # ｢the bozobar｣
 
     say "the bozobaric" ~~ /the .*?  <foo bar ber>/;  # ｢the bozobar｣    
+    ## No such method 'foo' for invocant of type 'Match'
 
 
 }
