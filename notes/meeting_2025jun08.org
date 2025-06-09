@@ -182,7 +182,7 @@ and 12,345,678 isn’t a multiple of 8.
 ****** i'm thinking subclass of grammar, override parse method...
 
 
-** older topics from May 11 meeting
+** topics from May 11 meeting
 
 *** administrative
 **** TODO bruce gray argues for an indendent "schedule" page that's linked to from here:
