@@ -5,7 +5,7 @@
 use v6;
 
 my @stuff := <foo bar ber>;
-say so "thefoo" ~~ /the @stuff/;  # True
+say "thefoo" ~~ /the @stuff/;  # 
 
 
 
