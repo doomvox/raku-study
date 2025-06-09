@@ -11,7 +11,7 @@ use v6;
     say "the bozobaric" ~~ /the @stuff/;  #  Nil
     say "the bozobaric" ~~ /the .*?  @stuff/;  # ｢the bozobar｣
 
-#     say "the bozobaric" ~~ /the .*?  <foo bar ber>/;  # ｢the bozobar｣    
+     say "the bozobaric" ~~ /the .*?  <foo bar ber>/;  # ｢the bozobar｣    
 #     ## No such method 'foo' for invocant of type 'Match'
 
     say "thefoo" ~~ /< foo bar ber >/;  # ｢foo｣
@@ -19,4 +19,5 @@ use v6;
 
     ## TODO white space issue: <foo bar ber> differes from < foo bar ber >
 
+    
 }
