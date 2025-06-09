@@ -34,7 +34,6 @@ use v6;
         say $maybe-always-matcher(7);       # True
         say $maybe-always-matcher(23);      # True
         say $maybe-always-matcher('23');    # True
-
     }
 }
 
