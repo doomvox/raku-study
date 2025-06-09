@@ -7,3 +7,4 @@ use v6;
 my @stuff := <foo bar ber>;
 say "thefoo" ~~ /the @stuff/;  #  ｢thefoo｣
 
+say "bozobaric" ~~ /the @stuff/;  #  ｢thefoo｣
