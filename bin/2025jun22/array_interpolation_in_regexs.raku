@@ -15,7 +15,8 @@ use v6;
 #     ## No such method 'foo' for invocant of type 'Match'
 
     say "thefoo" ~~ /< foo bar ber >/;  # ｢foo｣
-
     say "the bozobaric" ~~ /the .*?  < foo bar ber >/;  # ｢the bozobar｣
+
+    ## white space issue: <foo bar ber> differes from < foo bar ber >
 
 }
