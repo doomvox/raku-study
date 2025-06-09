@@ -8,7 +8,6 @@ use v6;
     sub find-constraint {
         return 23;
     }
-
     {
         my $constraint           = find-constraint() // *;
         my $maybe-always-matcher = * ~~ $constraint;
@@ -19,7 +18,6 @@ use v6;
         say $maybe-always-matcher('23');    # True
 
     }
-
 }
 
 
