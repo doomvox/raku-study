@@ -26,7 +26,6 @@ use v6;
     sub find-constraint {
         return Nil;
     }
-
     {
         my $constraint           = find-constraint() // *;
         my $maybe-always-matcher = * ~~ $constraint;
