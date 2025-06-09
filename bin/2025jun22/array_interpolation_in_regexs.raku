@@ -23,5 +23,6 @@ use v6;
     ## TODO white space issue: <foo bar ber> differes from < foo bar ber >
     ##      but I'm also told that "space is not significant here", so WTF?
 
+    say so "the foo" ~~ /[ foo | bar | ber ]/;
     
 }
