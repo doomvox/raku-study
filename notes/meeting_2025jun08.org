@@ -19,7 +19,7 @@
 *** Bill Atkinson 
 **** https://en.m.wikipedia.org/wiki/Bill_Atkinson
 
-*** conference news (Bruce Gray)
+*** conference news (Bruce Gray): south east linux fest
 **** can attend remotely
 #+BEGIN_SRC text
 This coming weekend, in Charlotte, North Carolina:
