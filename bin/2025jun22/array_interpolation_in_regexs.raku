@@ -16,6 +16,6 @@ use v6;
 
     say "thefoo" ~~ /< foo bar ber >/;  # ｢foo｣
 
-    say "the bozobaric" ~~ /the .*?  < foo bar ber >/;  # ｢the bozobar｣    
+    say "the bozobaric" ~~ /the .*?  < foo bar ber >/;  # ｢the bozobar｣
 
 }
