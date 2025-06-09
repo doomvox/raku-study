@@ -181,26 +181,6 @@ and 12,345,678 isn’t a multiple of 8.
 ***** marton wonders how
 ****** i'm thinking subclass of grammar, override parse method...
 
-
-** topics from May 11 meeting
-
-*** administrative
-**** TODO bruce gray argues for an indendent "schedule" page that's linked to from here:
-***** https://github.com/doomvox/raku-study/blob/main/README.md
-**** email
-***** tailorpaul@pm.em
-***** doomvox@gmail.com
-****** also working again 
-
-*** remember zoom buglet: cursor not shared
-
-** older topics from April 27
-
-*** marton has some discussions going
-**** https://github.com/doomvox/raku-study/discussions/20
-**** https://github.com/doomvox/raku-study/discussions/18
-**** https://github.com/doomvox/raku-study/discussions/16
-
 ** older topics from April 13th
 
 *** double-colons have double meanings
