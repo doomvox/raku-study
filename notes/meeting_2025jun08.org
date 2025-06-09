@@ -108,7 +108,7 @@ say Add5_6(9);
 **** Marton discussion: https://github.com/doomvox/raku-study/discussions/22
 
 
-** old topics (last meeting, May 25)
+** topics from May 25th meeting
 
 *** distinction .list and .List
 **** practical difference: 
