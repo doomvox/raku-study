@@ -191,41 +191,6 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 ****** "hyper for" is still another case
 ******* bruce finds bare "for" is pretty fast
 
-** older topics from Mar 9 meeting
-
-*** rob: rakudo bug turned up in weekly challenge
-**** .= operator not working as "explicit assignment"
-**** https://github.com/rakudo/rakudo/issues/5803
-#+BEGIN_SRC raku
-## Example from the docs:
-say ++$a.=abs;
-say ++$a .= abs;  ## doesn't work
-# Cannot modify an immutable Int (7)
-#  in block <unit> at <unknown file> line 1
-
-say ++$a.=abs;    ## this *does* work
-# 8
-
-## Marton's example
-# -1.succ
-# -2      ## the - is applied *after* the .succ increases value by 1
-
-1.succ
-# 2
-
--1 .succ  ## with the space, we start at -1 and step up 1 to 0
-# 0
-#+END_SRC raku
-
-***** Marton looks up older reports:
-****** https://github.com/rakudo/rakudo/issues/4996
-****** https://github.com/rakudo/rakudo/issues/4863
-****** https://github.com/Raku/doc/issues/3333
-
-***** TODO doc bug (?): Traps of .= weirdness not adequate
-****** https://docs.raku.org/language/traps
-******* https://docs.raku.org/language/traps#Method_calls_do_not_chain
-******* https://docs.raku.org/language/traps#Method_operator_calls_and_prefix_minus
 
 ** announcements 
 *** next meetings
