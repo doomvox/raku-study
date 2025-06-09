@@ -20,6 +20,7 @@
 **** https://en.m.wikipedia.org/wiki/Bill_Atkinson
 
 *** conference news (Bruce Gray)
+**** can attend remotely
 #+BEGIN_SRC text
 This coming weekend, in Charlotte, North Carolina:
 https://southeastlinuxfest.org/2025/06/self-is-this-week/
@@ -30,6 +31,8 @@ https://speakers.southeastlinuxfest.org/southeast-linux-fest-2025/talk/JCQBV3/
     Programming Languages: The Long View - by Eric S. Raymond
     This talk will be a wander through the garden of computer languages - their costs, tradeoffs, strengths, and weaknesses. It's aimed at helping you choose appropriately for your project and youe career.
 #+END_SRC
+
+
 
 *** regex conjunctions
 **** example uses?
