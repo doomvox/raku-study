@@ -16,3 +16,5 @@ role GDateTime is Gdate {
     regex time { $<clock>=[\d\d]**3 % ':' $<tz>=.+ }
     regex date-time { <date=.GDate::TOP> [T <time>]? }
 }
+
+## regex date-time is composed using a regex from GDate, the default TOP regex
