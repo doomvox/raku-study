@@ -4,3 +4,5 @@
 
 use v6;
 
+# zoffix 2018
+# analogy: methods and classes -> regexes and grammars
