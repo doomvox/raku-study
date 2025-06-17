@@ -21,6 +21,6 @@ role GDateTime is GDate {
 
 
 {
-    my $str = "2025-06-17 T 7:38:00";
+    my $str = "2025-06-17T7:38:00";
     say GDateTime.parse( $str );
 }
