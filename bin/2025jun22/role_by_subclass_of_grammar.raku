@@ -6,3 +6,10 @@ use v6;
 
 # zoffix 2018
 # analogy: methods and classes -> regexes and grammars
+
+grammar GDate {
+    regex TOP {
+        $<year>=\d**4 '-' $<month>=\d**2 '-' $<day>=[\d\d]
+    }
+}
+
