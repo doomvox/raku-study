@@ -20,6 +20,7 @@ role GDateTime is GDate {
 ## o  regex date-time is composed using a regex from GDate, the default TOP regex
 ## o  you can use a role as a class, so this role can be used as a grammar
 ## o  date and time has to be separated by a 'T' with no spaces
+## o  there needs to be at least one character to use as a "tz" (no other restrictions)
 
 {
 #    my $str = "2025-06-17T07:38:00 ";
