@@ -17,7 +17,8 @@ role GDateTime is GDate {
     regex date-time { <date=.GDate::TOP> [T <time>]? }
 }
 ## Note:
-## regex date-time is composed using a regex from GDate, the default TOP regex
+## o  regex date-time is composed using a regex from GDate, the default TOP regex
+## o  you can use a role as a class, so this role can be used as a grammar
 
 {
 #    my $str = "2025-06-17T07:38:00 ";
