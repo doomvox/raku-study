@@ -19,7 +19,6 @@ role GDateTime is GDate {
 ## Note:
 ## regex date-time is composed using a regex from GDate, the default TOP regex
 
-
 {
 #    my $str = "2025-06-17T07:38:00 ";
     my $str = "2025-06-17T07:38:00-08:00";
