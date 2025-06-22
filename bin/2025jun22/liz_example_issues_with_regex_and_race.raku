@@ -4,6 +4,8 @@
 
 use v6;
 
+## https://github.com/Raku/problem-solving/issues/406
+
 say ("aaa" .. "zzz").race.map({
     / \w+ /;
     $/.Str.comb.Set.keys.ords.sum
