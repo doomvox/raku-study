@@ -28,7 +28,9 @@
 **** finalizing split from yet-another society (?)
 
 *** Bill: Raku community Perl-damaged brains
-**** can't recruit from the perl camp (any more)
+**** can't recruit from the perl camp (anymore?)
+
+*** Rob: standard 
 
 ** old topics
 
