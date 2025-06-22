@@ -40,6 +40,9 @@
 **** Rob's peeve: too easy for devs to (accidently?) change behavior of 6.d
 ***** related side-issue: "tests are the spec" can fail
 
+*** debian package for rakudo
+**** Version: 2022.12-1
+
 *** Rob: standard 
 **** (anyone remember what this was about?)
 
