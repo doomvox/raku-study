@@ -39,8 +39,6 @@
 **** Rob's peeve: too easy for devs to (accidently?) change behavior of 6.d
 ***** related side-issue: "tests are the spec" can fail
 
-
-
 *** Rob: standard 
 **** (anyone remember what this was about?)
 
