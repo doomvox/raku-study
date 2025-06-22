@@ -23,6 +23,10 @@
 *** Me: zoffix 2018 grammar examples
 **** subparse?
 
+*** Marton
+**** 6.e release coming up
+**** finalizing split from yet-another society (?)
+
 ** old topics
 
 *** regex conjunctions
