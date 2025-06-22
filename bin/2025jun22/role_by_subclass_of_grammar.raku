@@ -22,6 +22,9 @@ role GDateTime is GDate {
     regex time { $<clock>=[\d\d]**3 % ':' $<tz>=.+ }
     regex date-time { <date=.GDate::TOP> [T <time>]? }
 }
+
+
+
 ## Note:
 ## o  regex date-time is composed using a regex from GDate, the default TOP regex
 ## o  you can use a role as a class, so this role can be used as a grammar
@@ -41,5 +44,9 @@ role GDateTime is GDate {
 
 ##    my $date_str = '2025-06-17';
 ##    say GDateTime.parse( $date_str, 'date' );
+
+
+    say GDateTime.parse( :rule('date-time'), $str );
+
 
 }
