@@ -6,6 +6,7 @@ use v6;
 
 # zoffix 2018
 # analogy: methods and classes -> regexes and grammars
+#   https://www.youtube.com/watch?v=TUmFAPvssrk&feature=youtu.be 
 
 grammar GDate {
     regex TOP {
