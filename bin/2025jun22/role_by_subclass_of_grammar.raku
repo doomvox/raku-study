@@ -26,7 +26,12 @@ role GDateTime is GDate {
 #    my $str = "2025-06-17T07:38:00 ";
     my $str = "2025-06-17T07:38:00-08:00";
     say GDateTime.parse( $str );  ## Nil -- why no match?
-    say GDateTime.subparse( $str );  ## Nil -- why no match?
+
+    say GDateTime.subparse( $str );  ## Matches:
+# ｢2025-06-17｣
+#  year => ｢2025｣
+#  month => ｢06｣
+#  day => ｢17｣
 
 ##    my $date_str = '2025-06-17';
 ##    say GDateTime.parse( $date_str, 'date' );
