@@ -27,7 +27,7 @@
 **** 6.e release coming up
 **** finalizing split from yet-another society (?)
 
-
+*** Bill: Raku community Perl-damaged brains?
 
 ** old topics
 
