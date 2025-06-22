@@ -18,7 +18,8 @@ grammar GDate {
         $<year>=\d**4 '-' $<month>=\d**2 '-' $<day>=[\d\d]
     }
 }
-role GDateTime is GDate {
+#role GDateTime is GDate {
+grammar GDateTime is GDate {
     regex time { $<clock>=[\d\d]**3 % ':' $<tz>=.+ }
     regex date-time { <date=.GDate::TOP> [T <time>]? }
 }
