@@ -35,4 +35,4 @@ say ("aaa" .. "zzz").race.map({
     $m.Str.comb.Set.keys.ords.sum
 } ).sum;
 
-## 6615297
+  ## 6615297
