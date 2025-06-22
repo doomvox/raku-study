@@ -22,7 +22,7 @@ say ("aaa" .. "zzz").race.map({
     $/.Str.comb.Set.keys.ords.sum
 } ).sum;
 
-## same deal with m//z
+## same deal with m//
   ## 6613585
   ## 6613441
   ## 6612950
