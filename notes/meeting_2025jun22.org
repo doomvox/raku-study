@@ -16,6 +16,7 @@
 
 ** topics
 *** any news from the southeast linux fest?
+**** https://speakers.southeastlinuxfest.org/southeast-linux-fest-2025/schedule/
 
 ** old topics
 
