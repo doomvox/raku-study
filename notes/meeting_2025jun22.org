@@ -1,0 +1,214 @@
+* meeting notes June 22, 2025
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025jun22.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025jun22
+****** https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025jun08.org 
+
+**** discussion group
+***** https://github.com/doomvox/raku-study/discussions 
+
+** topics
+
+** old topics
+
+*** conference news (Bruce Gray): south east linux fest
+**** can attend remotely
+#+BEGIN_SRC text
+This coming weekend, in Charlotte, North Carolina:
+https://southeastlinuxfest.org/2025/06/self-is-this-week/
+https://speakers.southeastlinuxfest.org/southeast-linux-fest-2025/schedule/
+https://speakers.southeastlinuxfest.org/southeast-linux-fest-2025/talk/WSVB8Q/
+    The Two Greatest Lost Programming Languages (Forth and APL)
+https://speakers.southeastlinuxfest.org/southeast-linux-fest-2025/talk/JCQBV3/
+    Programming Languages: The Long View - by Eric S. Raymond
+    This talk will be a wander through the garden of computer languages - their costs, tradeoffs, strengths, and weaknesses. It's aimed at helping you choose appropriately for your project and youe career.
+#+END_SRC
+
+
+
+*** regex conjunctions
+**** example uses?
+***** old zoffix example 2018
+#+BEGIN_SRC raku
+/Perl \s+ [ \d && <:Block('Basic Latin')> ]/
+
+# but isn't that the same as just
+<[0-9]>
+#+END_SRC
+***** docs for regex conjunctions have an even crazier example
+****** https://docs.raku.org/language/regexes#Conjunction:_&&
+#+BEGIN_SRC raku
+say 'abc' ~~ / <?before a> && . /;    # OUTPUT: Nil
+say 'abc' ~~ / <?before a> . && . /;  # OUTPUT: a
+say 'abc' ~~ / <?before a> . /;       # OUTPUT: a
+say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
+#+END_SRC
+
+***** rob's use case: 
+****** named pattern, e.g. for addresses, and you tighten up the match by conjuction with "San Francisco"
+****** similar to docs example
+"if you have a regex quoted that matches a quoted string, then / <quoted> && <-[x]>* /"
+
+***** Marton points out this verbiage in the docs is ambiguous:
+****** "Just like with ||, empty first branches are ignored."
+****** Bruce Gray explains with analogy to trailing commas in lists
+
+*** Bruce Gray
+**** weekly challenge 323 part 2
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-323/
+****** tax bracket calculations
+**** sudoko generator
+
+*** whatever priming and smartmatch 
+**** Marton discussion: https://github.com/doomvox/raku-study/discussions/21
+
+***** clear bug in docs:
+https://docs.raku.org/language/traps#Smartmatch_and_WhateverCode
+
+***** Bruce Gray: reasoning behind preferring jargon "priming" to "currying"
+#+BEGIN_SRC raku
+my &AddTwo  = * + 2;                    # Whatever priming
+my &PlusTwo = &infix:<+>.assuming(2);   # Partial application
+say AddTwo(5); say PlusTwo(9);
+
+# "Currying"
+sub make_add  ($x) { * + $x }
+sub make_plus ($x) { &infix:<+>.assuming($x) }
+my &AddThree  = make_add(3);
+my &PlusThree = make_plus(3);
+say AddThree(5); say PlusThree(9); 
+
+# Real Currying:
+sub curry ($sub, @args) { my $r = $sub; $r = $r.assuming($_) for @args; $r }
+sub add3 ( $a, $b, $c ) { $a + $b + $c }
+my &Add5_6 = curry(&add3, [5, 6]);
+say Add5_6(9);
+#+END_SRC
+
+*** rob brings up peculiar idiom using hyper whatever 
+#+BEGIN_SRC raku
+  sub task( @a where { **.are(Int) or * ~~ Empty } -->Int:D ) {
+    sum do for @a.combinations { sum [+^] $_ }
+  }
+#+END_SRC
+**** also uses .are, a 6.e.PREVIEW feature, need a recent raku
+
+*** actionable issues (container topic)-- mostly metaoperator issues
+**** Marton discussion: https://github.com/doomvox/raku-study/discussions/19
+
+***  re-blessing in different version context
+**** Marton discussion: https://github.com/doomvox/raku-study/discussions/22
+
+
+** topics from May 25th meeting
+
+*** distinction .list and .List
+**** practical difference: 
+***** .list will give you something list-like (a Positional)
+***** .List has to give you something of type .List
+****** https://docs.raku.org/routine/list
+******* "Subclasses of Any may choose to return any core type that does the Positional role from .list. Use .List to coerce specifically to List."
+******* " @ as a prefix puts the initial scalar in a list context by calling .list and turning it into an Array."
+
+** topics from the void, of province unsought and unknown 
+
+*** Rob: run, reading pipes
+**** bruce hint:
+#+BEGIN_SRC raku
+die unless $run-me.IO.e;
+#+END_SRC
+***** https://docs.raku.org/type/IO/Path#File_test_operators
+
+***** IO::Pipe has an os-error attribute for recent raku 
+****** "Failed to spawn process nuttin: no such file or directory (error code -2)"
+
+**** Rob has trouble getting things into raku ecosystem still
+***** Test::Meta6
+***** seems like things go through, and it doesn't, silent rejection, no diagnostics
+
+*** marton reminds
+**** https://raku.land/zef:dwarring/Pod::To::PDF/changes?v=0.1.9  
+**** always escape your user input, kids
+
+*** alan: docs site, using scripts 
+**** bruce gray hint:
+***** https://docs.raku.org/language/pod says:
+    Rakudoc (aka Pod6)
+    A markup language for documenting Raku code. Pod6 is now known as RakuDoc V1,
+    and a new RakuDoc V2 specification exists.
+********  https://raku.github.io/rakudoc
+**** rakudoc V2 richard hainsworth talk
+***** https://www.youtube.com/watch?v=vPavXDyfnhU
+
+**** alan sees breakage on upgrade with rakudo star
+https://rakudo.org/star/source
+***** TODO (there's a 2025.05 linux bundle I should really install)
+
+*** bruce gray: spinoffs from upcoming talks
+
+**** a problemette (challenge?) from "habere" (sp?):
+
+Find the one nine digit number that uses all 9 digits 1-9 once each,
+where the first two digits are multiples of two,
+first three digits are a multiple of 3,
+first four are multiples of 4, etc
+until all nine are a multiple of 9.
+
+e.g., 123,456,789 fails because:
+the first four (1234) group isn’t a multiple of 4;
+1,234,567 isn’t a multiple of 7;
+and 12,345,678 isn’t a multiple of 8.
+
+***** TODO extract some notes from here: 
+****** /home/doom/End/Cave/RakuStudy/Notes/2025may25
+***** points
+******* needding roundrobin to handle uneven list sizes without dropping an item silently
+******* >>%%<< a helpful idiom because it alerts about uneven list sizes
+******* a case where XZ might've helped (but didn't)
+
+*** speaking of hooks
+**** i speculate we could use before/after hooks on grammars
+**** a subject for next time perhaps
+***** rob doesn't see the point
+***** marton wonders how
+****** i'm thinking subclass of grammar, override parse method...
+
+** older topics from April 6th meeting
+
+*** marton:
+**** https://github.com/doomvox/raku-study/discussions/17
+***** 
+raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
+****** "race for" is at the very least not always faster then a bare "for"
+****** "hyper for" is still another case
+******* bruce finds bare "for" is pretty fast
+
+
+** announcements 
+*** next meetings
+**** Jun 22, 2025 
+
+**** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
+***** https://tprc.us/
+
+**** Jul 13, 2025 (3 week gap, to skip 4th of july weekend)
+**** Jul 27, 2025 
+**** Aug 10, 2025 
+**** Aug 24, 2025 
+**** Sep  7, 2025 (ok: labor day weekend was the week before)
+**** Sep 21, 2025 
+**** Oct  5, 2025
+**** Oct 19, 2025
+**** Nov 2, 2025
+**** Nov 16, 2025
+**** Dec 7, 2025 (three week gap, to get past thanksgiving weekend)
+**** Dec 21, 2025
+**** Jan  4, 2025
+**** Jan  18, 2025
