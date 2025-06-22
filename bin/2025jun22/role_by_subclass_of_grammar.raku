@@ -24,7 +24,6 @@ role GDateTime is GDate {
 }
 
 
-
 ## Note:
 ## o  regex date-time is composed using a regex from GDate, the default TOP regex
 ## o  you can use a role as a class, so this role can be used as a grammar
