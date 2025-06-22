@@ -35,7 +35,6 @@ say ("aaa" .. "zzz").race.map({
   ## 6615297
   ## 6615297
 
-
 {
     my $m;
     say ("aaa" .. "zzz").race.map({
