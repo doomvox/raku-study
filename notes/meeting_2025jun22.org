@@ -26,6 +26,7 @@
 *** Marton
 **** 6.e release coming up
 **** finalizing split from yet-another society (?)
+**** https://github.com/rakudo/rakudo/issues/5905
 
 *** Bill: is Raku too perlish?
 **** (too many perl-damaged brains like mine)
