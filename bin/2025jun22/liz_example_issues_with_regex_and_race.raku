@@ -11,8 +11,11 @@ say ("aaa" .. "zzz").race.map({
     $/.Str.comb.Set.keys.ords.sum
 } ).sum;
 
+## multiple runs have different numbers of hits:
+
   ## 6616892
   ## 6617629
+  ## 6617216
 
 # ====
 #  sheet of cheats
