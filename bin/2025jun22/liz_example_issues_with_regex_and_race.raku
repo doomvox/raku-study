@@ -12,7 +12,6 @@ say ("aaa" .. "zzz").race.map({
 } ).sum;
 
 ## multiple runs have different numbers of hits:
-
   ## 6616892
   ## 6617629
   ## 6617216
