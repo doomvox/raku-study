@@ -47,16 +47,11 @@ say 'abc' ~~ / <?before a> .. /;      # OUTPUT: ab
 ****** "Just like with ||, empty first branches are ignored."
 ****** Bruce Gray explains with analogy to trailing commas in lists
 
-*** Bruce Gray
-**** weekly challenge 323 part 2
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-323/
-****** tax bracket calculations
-**** sudoko generator
 
 *** whatever priming and smartmatch 
 **** Marton discussion: https://github.com/doomvox/raku-study/discussions/21
 
-***** clear bug in docs:
+***** TODO clear bug in docs:
 https://docs.raku.org/language/traps#Smartmatch_and_WhateverCode
 
 ***** Bruce Gray: reasoning behind preferring jargon "priming" to "currying"
