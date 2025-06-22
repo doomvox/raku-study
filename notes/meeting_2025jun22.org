@@ -39,6 +39,8 @@
 **** being able to say "use 6.c" is a backwards compatibility strategy
 **** Rob's peeve: too easy for devs to (accidently?) change behavior of 6.d
 ***** related side-issue: "tests are the spec" can fail
+**** Marton argues for giving up on the idea of an abstract Raku
+***** The current Rakudo is the only Raku, just live with that
 
 *** debian package for rakudo
 **** Version: 2022.12-1
