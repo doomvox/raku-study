@@ -34,3 +34,5 @@ say ("aaa" .. "zzz").race.map({
     my $m = .match(/ \w+ /);
     $m.Str.comb.Set.keys.ords.sum
 } ).sum;
+
+## 6615297
