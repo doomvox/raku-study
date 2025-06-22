@@ -99,7 +99,7 @@ say Add5_6(9);
 ******* "Subclasses of Any may choose to return any core type that does the Positional role from .list. Use .List to coerce specifically to List."
 ******* " @ as a prefix puts the initial scalar in a list context by calling .list and turning it into an Array."
 
-** topics from the void, of province unsought and unknown 
+** topics from the primordial times from the penguin-fringed abyss
 
 *** alan: docs site, using scripts 
 **** bruce gray hint:
