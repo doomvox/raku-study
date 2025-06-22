@@ -4,5 +4,5 @@
 
 use v6;
 
-say "a".ords;
+say "a".ords;  # (97)
 
