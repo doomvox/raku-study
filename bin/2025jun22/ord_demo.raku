@@ -6,3 +6,4 @@ use v6;
 
 say "a".ords;  # (97)
 
+say "A".ords;  # (97)
