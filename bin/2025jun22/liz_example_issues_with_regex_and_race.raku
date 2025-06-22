@@ -31,6 +31,6 @@ say ("aaa" .. "zzz").race.map({
 
 
 say ("aaa" .. "zzz").race.map({
-    my $.match(/ \w+ /);
-    $/.Str.comb.Set.keys.ords.sum
+    my $m = .match(/ \w+ /);
+    $m.Str.comb.Set.keys.ords.sum
 } ).sum;
