@@ -29,9 +29,10 @@
 **** https://github.com/rakudo/rakudo/issues/5905
 **** https://github.com/Raku/problem-solving/issues/477
 
-*** Bill: is Raku too perlish?
+*** Bill: is community Raku too perlish?
 **** (too many perl-damaged brains like mine)
 **** can't recruit from the perl camp (anymore?)
+**** https://github.com/librasteve/raku-org-25-proto/issues/11
 
 *** Problem with raku versioning strategy 
 **** being able to say "use 6.c" is a backwards compatibility strategy
