@@ -42,6 +42,10 @@
 **** Marton argues for giving up on the idea of an abstract Raku
 ***** The current Rakudo is the only Raku, just live with that
 
+*** side rant of my own
+**** kids these days
+**** https://www.zdnet.com/article/how-red-hat-just-quietly-radically-transformed-enterprise-server-linux/
+
 *** debian package for rakudo
 **** Version: 2022.12-1
 **** kind of old: Debian 12 stable, "bookworm"
