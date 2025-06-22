@@ -36,6 +36,7 @@ grammar GDateTime is GDate {
     my $str = "2025-06-17T07:38:00-08:00";
     say GDateTime.parse( $str );  ## Nil -- why no match?
 
+    say "===";
     say GDateTime.subparse( $str );  ## Matches:
 # ｢2025-06-17｣
 #  year => ｢2025｣
