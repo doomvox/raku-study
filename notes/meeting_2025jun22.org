@@ -27,6 +27,7 @@
 **** 6.e release coming up
 **** finalizing split from yet-another society (?)
 **** https://github.com/rakudo/rakudo/issues/5905
+**** https://github.com/Raku/problem-solving/issues/477
 
 *** Bill: is Raku too perlish?
 **** (too many perl-damaged brains like mine)
