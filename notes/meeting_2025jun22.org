@@ -31,6 +31,12 @@
 **** (too many perl-damaged brains like mine)
 **** can't recruit from the perl camp (anymore?)
 
+*** Problem with raku versioning strategy 
+**** being able to say "use 6.c" is a backwards compatibility strategy
+**** Rob's peeve: too easy for devs to (accidently?) change behavior of 6.d
+***** related side-issue: "tests are the spec" can fail
+
+
 *** Rob: standard 
 
 ** old topics
