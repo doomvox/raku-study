@@ -15,3 +15,9 @@ say ("aaa" .. "zzz").race.map({
   ## 6616892
   ## 6617629
   ## 6617216
+
+
+say ("aaa" .. "zzz").race.map({
+    m/ \w+ /;
+    $/.Str.comb.Set.keys.ords.sum
+} ).sum;
