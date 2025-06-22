@@ -54,10 +54,8 @@
 **** (anyone remember what this was about?)
 
 *** Bill complaint that $<> used to work like $/
-
- s/thingy/{$/.uc}/ 
-
-`s/thingy/{$<>.uc}/ `
+****  s/thingy/{$/.uc}/ 
+**** `s/thingy/{$<>.uc}/ `
 
 ** old topics
 
