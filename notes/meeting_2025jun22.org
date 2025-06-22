@@ -18,6 +18,11 @@
 *** any news from the southeast linux fest?
 **** https://speakers.southeastlinuxfest.org/southeast-linux-fest-2025/schedule/
 
+*** Rob: hyper whatevers
+
+*** Me: zoffix 2018 grammar examples
+**** subparse?
+
 ** old topics
 
 *** regex conjunctions
