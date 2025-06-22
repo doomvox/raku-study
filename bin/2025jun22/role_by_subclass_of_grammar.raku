@@ -4,6 +4,9 @@
 
 use v6;
 
+## my $str = "2025-06-17T07:38:00-08:00";
+#              YYYY MM DD
+
 # zoffix 2018
 # analogy: methods and classes -> regexes and grammars
 #   https://www.youtube.com/watch?v=TUmFAPvssrk
