@@ -166,7 +166,7 @@ the first four (1234) group isn’t a multiple of 4;
 and 12,345,678 isn’t a multiple of 8.
 
 ***** TODO extract some notes from here: 
-n****** /home/doom/End/Cave/RakuStudy/Notes/2025may25
+****** /home/doom/End/Cave/RakuStudy/Notes/2025may25
 ***** points
 ******* needding roundrobin to handle uneven list sizes without dropping an item silently
 ******* >>%%<< a helpful idiom because it alerts about uneven list sizes
