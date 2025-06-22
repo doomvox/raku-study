@@ -48,5 +48,13 @@ role GDateTime is GDate {
     say "===";
     say GDateTime.parse( :rule('date-time'), $str );
 
+# ｢2025-06-17T07:38:00-08:00｣
+#  date => ｢2025-06-17｣
+#   year => ｢2025｣
+#   month => ｢06｣
+#   day => ｢17｣
+#  time => ｢07:38:00-08:00｣
+#   clock => ｢07:38:00｣
+#   tz => ｢-08:00｣
 
 }
