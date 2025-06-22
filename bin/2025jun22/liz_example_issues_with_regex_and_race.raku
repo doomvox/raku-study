@@ -11,7 +11,7 @@ say ("aaa" .. "zzz").race.map({
     $/.Str.comb.Set.keys.ords.sum
 } ).sum;
 
-
+  ## 6616892
 
 
 # ====
