@@ -57,6 +57,7 @@
 ****  s/thingy/{$/.uc}/ 
 **** `s/thingy/{$<>.uc}/ `
 
+
 ** old topics
 
 *** regex conjunctions
