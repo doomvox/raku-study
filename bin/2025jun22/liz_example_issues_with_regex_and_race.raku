@@ -12,7 +12,7 @@ say ("aaa" .. "zzz").race.map({
 } ).sum;
 
   ## 6616892
-
+  ## 6617629
 
 # ====
 #  sheet of cheats
