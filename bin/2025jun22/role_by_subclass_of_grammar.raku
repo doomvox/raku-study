@@ -45,7 +45,7 @@ role GDateTime is GDate {
 ##    my $date_str = '2025-06-17';
 ##    say GDateTime.parse( $date_str, 'date' );
 
-
+    say "===";
     say GDateTime.parse( :rule('date-time'), $str );
 
 
