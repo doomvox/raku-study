@@ -35,7 +35,7 @@ say ("aaa" .. "zzz").race.map({
   ## 6615297
   ## 6615297
 
-{
+{  ## declaring the var *outside* the race causes problems
     my $m;
     say ("aaa" .. "zzz").race.map({
            $m = .match(/ \w+ /);
