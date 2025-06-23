@@ -200,7 +200,6 @@ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 
 ** announcements 
 *** next meetings
-**** Jun 22, 2025 
 
 **** Perl & Raku Conference (Greenville, SC) 2025-06-27 through 29 Fri-Sun
 ***** https://tprc.us/
