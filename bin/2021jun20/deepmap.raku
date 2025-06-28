@@ -26,6 +26,7 @@ say "===";
 my %m1 = %g1.deepmap( * * 2 );  
 say %m1{2016}{2}{'de'}; # 148
 
+# Note the whitespace sensitivity, though:
 # my %m1 = %g1.deepmap( **2 );  
 # say %m1{2016}{2}{'de'}; # Unable to parse expression in argument list; couldn't find final ')'
 
