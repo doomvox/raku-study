@@ -19,7 +19,7 @@ After a three week gap (to skip the Fourth of July weekend):
     *  https://us02web.zoom.us/j/87595273685?pwd=u7ycnGjflVd8oiH1hmZwlhkUefbhDA.1
 
 *  Sunday September  7, 2025 
-
+    *  https://us02web.zoom.us/j/83274655306?pwd=ZvSwsfT671cHnxj70InQlgbjpOZBJA.1
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
 And the super secret code you need is "4RakuRoll".
