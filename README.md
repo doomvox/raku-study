@@ -5,10 +5,7 @@ A place to share some code and meeting notes for the SF Perl Raku Study Group.
 
 Upcoming meetings:
 
-*  Sunday June 22, 2025 
-    *  https://us02web.zoom.us/j/87840601582?pwd=0GcvanafExeYaYQIGQVWbNix5oWBit.1
-
-Then, a three week gap, skipping the Fourth of July weekend
+After a three week gap (to skip the Fourth of July weekend):
 *  Sunday July 13, 2025
     *  https://us02web.zoom.us/j/89072676129?pwd=PXIZbISZ8u36nCaAz7t4NFuxSAKurE.1
 
