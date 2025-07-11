@@ -20,6 +20,7 @@ After a three week gap (to skip the Fourth of July weekend):
 
 *  Sunday September  7, 2025 
 
+
 We start at 1 pm Pacific time, and typically finish by 5pm.
 And the super secret code you need is "4RakuRoll".
 
