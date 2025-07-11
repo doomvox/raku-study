@@ -10,6 +10,7 @@ After a three week gap (to skip the Fourth of July weekend):
     *  https://us02web.zoom.us/j/89072676129?pwd=PXIZbISZ8u36nCaAz7t4NFuxSAKurE.1
 
 *  Sunday July 27, 2025 
+    *  https://us02web.zoom.us/j/82155024786?pwd=1FkvYpe8oHXO2LtZFeJaN5S1lp9yoa.1
 *  Sunday August 10, 2025 
 *  Sunday August 24, 2025 
 *  Sunday September  7, 2025 
