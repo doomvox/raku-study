@@ -16,6 +16,8 @@ After a three week gap (to skip the Fourth of July weekend):
     *  https://us02web.zoom.us/j/86522621244?pwd=MsbqG4oDa3awp1zFof0bUBK9ECyM4K.1
 
 *  Sunday August 24, 2025 
+    *  https://us02web.zoom.us/j/87595273685?pwd=u7ycnGjflVd8oiH1hmZwlhkUefbhDA.1
+
 *  Sunday September  7, 2025 
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
