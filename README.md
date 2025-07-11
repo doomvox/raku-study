@@ -33,7 +33,7 @@ Regular meeting annoucements go to the SF Perl mailing list:
 
 *  http://mail.pm.org/mailman/admin/sanfrancisco-pm
 
-You can also often find us at the perl6-users mailing list:
+As well as the perl6-users mailing list:
 
 *  https://raku.org/community/
 
