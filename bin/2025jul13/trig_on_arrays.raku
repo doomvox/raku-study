@@ -13,3 +13,4 @@ say @n.sin;
 say 3.sin;
 # 0.1411200080598672
 
+## Okay: so this misbegotten feature is still there.
