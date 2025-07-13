@@ -26,5 +26,5 @@ say @result;
 # [boneslave slabbit chopclown]
 
 # splice to do three pops;
-@monsters.splice( *-4, *-1 );
+say @monsters.splice( *-4, *-1 );
 
