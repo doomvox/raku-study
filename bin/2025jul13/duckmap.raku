@@ -17,8 +17,6 @@ use v6;
 # (('d', 'e'), 'f').deepmap(-> $_ where <e f>.any { .uc }).say;
 ## Constraint type check failed in binding to parameter '$_'; expected anonymous constraint to be met but got Str ("d")
 
-exit;
-
 { first => ('d', 'e'), second => 'f'}.duckmap(-> $_ where <e f>.any { .uc }).say;
    # {first => (d E), second => F}
 
