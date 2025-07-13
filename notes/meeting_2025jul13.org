@@ -36,6 +36,7 @@
 *** william michels
 **** https://unix.stackexchange.com/a/797530/227738
 **** https://unix.stackexchange.com/a/797471/227738
+**** https://unix.stackexchange.com/a/797904/227738
 
 *** rob's travails with pop <num_of_items> feature suggestion
 **** xtra work
