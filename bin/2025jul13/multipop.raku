@@ -10,22 +10,31 @@ use v6;
 
 # Q: what are the existing ways of doing it? 
 
-# splice to do three shifts:
-my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
-my @three = @monsters.splice(0, 3);
-say @three;
-## [goategon hargon esterk]
-## gives us the first three, preserving the order
+{
+    # splice to do three shifts:
+    my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
+    my @three = @monsters.splice(0, 3);
+    say @three;
+    ## [goategon hargon esterk]
+    ## gives us the first three, preserving the order
+}
 
-## three pops gives you the items in the reverse order
-my @result = gather
-for (0..2) {
-    take pop( @monsters );
-};
-say @result;
-# [boneslave slabbit chopclown]
+{ 
+    my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
+    ## three pops gives you the items in the reverse order
+    my @result = gather
+    for (0..2) {
+        take pop( @monsters );
+    };
+    say @result;
+    # [boneslave slabbit chopclown]
+}
 
-# splice to do three pops;
+{ 
+    # splice to do three pops;
+    my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
+
+
 
 say @monsters.splice( @monsters.elems-3);
 
