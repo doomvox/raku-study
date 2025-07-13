@@ -43,7 +43,7 @@
 **** makes raku more complicated (?)
 **** syntax
 #+BEGIN_SRC raku
-
+my @top_three = pop( @items, 3 );
 #+END_SRC
 
 *** would filtered inheritence make sense
