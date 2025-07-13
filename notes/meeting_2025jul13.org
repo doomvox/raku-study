@@ -79,7 +79,8 @@ sub make_nightmare_test ( --> Str ) {
 #+BEGIN_END
 
 
-
+*** git bisect
+**** need a point where it worked and a point where it didn't
 
 ** announcements 
 *** next meetings
