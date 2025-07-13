@@ -1,2 +1,17 @@
 * meeting notes July 13, 2025
 ** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025jul13.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
+****** https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025jun22.org 
+
+**** discussion group
+***** https://github.com/doomvox/raku-study/discussions 
+
+
