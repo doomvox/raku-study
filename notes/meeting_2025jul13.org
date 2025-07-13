@@ -43,8 +43,6 @@
 *** liskov substitution princple gets no respect
 **** list behaves differently from array even though array is a list
 
-
-
 ** announcements 
 *** next meetings
 **** Jul 27, 2025 
