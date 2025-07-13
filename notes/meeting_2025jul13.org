@@ -15,7 +15,9 @@
 ***** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** 
+*** duckmap
+**** https://docs.raku.org/routine/duckmap
+**** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025jul13/duckmap.raku
 
 ** announcements 
 *** next meetings
