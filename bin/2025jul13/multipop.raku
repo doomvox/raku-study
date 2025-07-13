@@ -17,9 +17,7 @@ say @three;
 ## [goategon hargon esterk]
 ## gives us the first three, preserving the order
 
-## three pops
-
-
+## three pops gives you the items in the reverse order
 my @result = gather
 for (0..2) {
     take pop( @monsters );
