@@ -25,6 +25,9 @@
 *** duckmap
 **** https://docs.raku.org/routine/duckmap
 **** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025jul13/duckmap.raku
+***** interestingly: got a code example that works for 2023 raku but not 2025
+****** TODO was this intended behavior?
+
 *** rob's travails with pop <num_of_items> feature suggestion
 **** xtra work
 **** makes raku more complicated (?)
