@@ -41,5 +41,5 @@ say (1, 2, 3)[]+1;
 # say (1, 2, 3)++;
 # Cannot resolve caller postfix:<++>(List:D); the following candidates
 
-
 say @(1, 2, 3)[]+1;
+# 4
