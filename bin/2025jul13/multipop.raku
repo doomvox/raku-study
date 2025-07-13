@@ -25,7 +25,7 @@ for (0..2) {
     take pop( @monsters );
 };
 say @result;
-
+# [boneslave slabbit chopclown]
 
 # splice to do three pops;
 
