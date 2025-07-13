@@ -10,4 +10,7 @@ use v6;
 
 # Q: what are the existing ways of doing it? 
 
-# slice
+# splice
+
+my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
+my @three = @monsters.splice(0, 3);
