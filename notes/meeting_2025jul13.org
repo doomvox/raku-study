@@ -33,6 +33,9 @@
 ***** interestingly: got a code example that works for 2023 raku but not 2025
 ****** TODO was this intended behavior?
 
+*** william michels
+**** https://unix.stackexchange.com/a/797530/227738
+
 *** rob's travails with pop <num_of_items> feature suggestion
 **** xtra work
 **** makes raku more complicated (?)
