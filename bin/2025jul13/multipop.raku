@@ -45,3 +45,12 @@ use v6;
     ## (boneslave slabbit chopclown)
     ## gets the values, but in reverse order
 }
+
+
+{ 
+    my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
+    my @result = pop xx 3;
+    say @result;
+    ## (boneslave slabbit chopclown)
+    ## gets the values, but in reverse order
+}
