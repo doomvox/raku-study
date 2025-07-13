@@ -27,5 +27,5 @@ say @result;
 
 # splice to do three pops;
 
-say @monsters.splice(*-3);
+say @monsters.splice( @monsters.elems-3);
 
