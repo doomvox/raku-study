@@ -7,8 +7,8 @@ use v6;
 ## I think understand "duckmap" in broad outline.
 ## How exactly do you use it?
 ## Find a code example.
-##   https://docs.raku.org/routine/duckmap
 
+##   https://docs.raku.org/routine/duckmap
 <a b c d e f g>.duckmap(-> $_ where <c d e>.any { .uc }).say;
    #  (a b C D E f g)
 (('d', 'e'), 'f').duckmap(-> $_ where <e f>.any { .uc }).say;
