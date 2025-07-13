@@ -44,5 +44,4 @@ use v6;
     say @monsters.pop xx 3;
     ## (boneslave slabbit chopclown)
     ## gets the values, but in reverse order
-
 }
