@@ -33,8 +33,5 @@ use v6;
 { 
     # splice to do three pops;
     my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
-
-
-
-say @monsters.splice( @monsters.elems-3);
-
+    say @monsters.splice( @monsters.elems-3);
+}
