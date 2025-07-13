@@ -14,3 +14,5 @@ use v6;
 
 { what => "is", this => "thing" }.map( *.Slip.flip ).say;
 # (gniht	siht si	tahw)
+
+{ what => "is", this => "thing" }.map( *.kv.flip ).say;
