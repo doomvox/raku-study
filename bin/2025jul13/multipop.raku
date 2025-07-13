@@ -48,6 +48,7 @@ use v6;
 
 
 { 
+    ## This works, and seems mildly weird but evidently it's documented:
     my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
     my @result = @monsters.pop xx 3;
     say @result;
