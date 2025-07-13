@@ -36,5 +36,5 @@ use v6;
     say @monsters.splice( *-3 );
     # [chopclown slabbit boneslave]
     ## gets you the vaules, but preserves the order
-    ## minor pain of dealing with the "*-3" syntax
+    ## with the minor pain of dealing with the "*-3" syntax
 }
