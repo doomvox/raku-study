@@ -17,3 +17,5 @@ use v6;
 
 { what => "is", this => "thing" }.map( *.kv.flip ).say;
 # (gniht siht si tahw)
+
+{ what => "is", this => "thing" }.map( *.values.flip ).say;
