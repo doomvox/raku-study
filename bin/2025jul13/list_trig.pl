@@ -34,8 +34,6 @@ say sin(0); # 0
 
 ## No.  sin of 0 is 0, duh.
 
-say arcsin(30);
-
 __END__
 
 =head1 AUTHOR
