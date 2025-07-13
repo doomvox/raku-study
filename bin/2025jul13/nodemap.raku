@@ -9,3 +9,6 @@ use v6;
  #  {this => gniht, what => si}
 
 { what => "is", this => "thing" }.map( *.flip ).say;
+# No such method 'flip' for invocant of type 'Pair'.  Did you mean any of
+# these: 'Slip', 'flat', 'skip'?
+
