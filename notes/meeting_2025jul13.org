@@ -34,7 +34,7 @@
 ***** interestingly: got a code example that works for 2023 raku but not 2025
 ****** TODO was this intended behavior?
 
-*** william michels
+*** William Michels: Raku answers to shell questions
 **** https://unix.stackexchange.com/a/797530/227738
 **** https://unix.stackexchange.com/a/797471/227738
 **** https://unix.stackexchange.com/a/797904/227738
