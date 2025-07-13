@@ -10,10 +10,13 @@ use v6;
 
 # Q: what are the existing ways of doing it? 
 
-# splice
-
+# splice to do an unshift:
 my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
 my @three = @monsters.splice(0, 3);
 say @three;
 ## [goategon hargon esterk]
 ## gives us the first three, preserving the order
+
+
+
+my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
