@@ -24,4 +24,4 @@ my $a = 'a';
 say $a + 1; 
 # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏a' (indicated by ⏏)
 
-# simple data structure thus far
+# simple data structures thus far
