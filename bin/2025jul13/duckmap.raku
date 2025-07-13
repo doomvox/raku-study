@@ -17,4 +17,4 @@ use v6;
    # {first => (d E), second => F}
 
 
-
+<a b c d e f g>.duckmap(-> $_ where <c d e>.any { .uc }).say;
