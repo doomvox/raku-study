@@ -16,7 +16,7 @@
 
 ** topics
 *** videos for 2025 perl & raku conference just went up
-**** bruce gray on hyperoperators
+**** Bruce Gray on hyperoperators
 ***** https://www.youtube.com/watch?v=_OMsWYLQLqU
 **** Bruce Gray's review
 ***** strong elements, but talks impacted by people who couldn't come
