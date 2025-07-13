@@ -16,7 +16,7 @@ use v6;
 { first => ('d', 'e'), second => 'f'}.duckmap(-> $_ where <e f>.any { .uc }).say;
    # {first => (d E), second => F}
 
-say "===":
+say "===";
 
 ## Ugh... I coulda sworn this wouldn't work but it does:
 <a b c 1 2 3>.duckmap({ $_ + 1 }).say;
