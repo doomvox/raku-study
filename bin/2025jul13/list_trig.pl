@@ -26,8 +26,12 @@ use Data::Dumper;
 
 my @a = (1, 2, 3);
 say @a.sin;
+# Use of uninitialized value $_ in sin at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025jul13/list_trig.pl line 28.
+# 30
 
+##  taking the sine of an unit, turns into sin of 0;
 
+say sin(30);
 
 
 __END__
