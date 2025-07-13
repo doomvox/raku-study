@@ -48,7 +48,7 @@ my @top_three = pop( @items, 3 );
 ***** Q: what order should they b
 ****** rob's idea: default to reverse order
 ****** I can see the argument to preserve the order
-****** suggest: still another paramer to reverse the defaultp
+****** Suggestion: still another paramer to reverse the defaultp
 
 *** would filtered inheritence make sense
 **** when you want to inherit some of the material, but skip parts that don't make sense
