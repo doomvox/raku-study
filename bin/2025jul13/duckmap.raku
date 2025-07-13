@@ -27,7 +27,7 @@ say "===";
   ## (a b c 2 3 4)
 
 ## This works for *old* raku, e.g. a 2023 version
-## For a newer raku:
+## For a newer raku, it fails:
 ##   Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏a' (indicated by ⏏)
 
 # my $a = 'a';
