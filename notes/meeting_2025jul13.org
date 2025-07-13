@@ -21,6 +21,7 @@
 **** bruce gray's review
 ***** strong elements, but talks impacted by people who couldn't come
 ****** covid, weddings, and other disasters
+***** note: abigail refuses to have his talks included
 
 *** duckmap
 **** https://docs.raku.org/routine/duckmap
