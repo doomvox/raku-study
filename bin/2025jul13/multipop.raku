@@ -58,6 +58,6 @@ use v6;
 
 { 
     my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
-    say @monsters xx 3;
+    say @monsters.slip xx 3;
 
 }
