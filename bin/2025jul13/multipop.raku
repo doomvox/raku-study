@@ -17,6 +17,16 @@ say @three;
 ## [goategon hargon esterk]
 ## gives us the first three, preserving the order
 
-# splice to do an 
+## three pops
+
+
+my @result = gather
+for(0..2){
+    take pop( @monsters );
+}
+say @result;
+
+
+# splice to do three pops;
 
 my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
