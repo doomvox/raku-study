@@ -46,7 +46,7 @@
 #+BEGIN_SRC raku
 my @top_three = pop( @items, 3 );
 #+END_SRC
-***** Q: what order should they b
+***** Q: what order should they be
 ****** rob's idea: default to reverse order
 ****** I can see the argument to preserve the order
 ****** Suggestion: still another paramer to reverse from the default
