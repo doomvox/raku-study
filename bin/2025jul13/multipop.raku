@@ -21,7 +21,7 @@ say @three;
 
 
 my @result = gather
-for (0..2){
+for (0..2) {
     take pop( @monsters );
 };
 say @result;
