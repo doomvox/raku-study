@@ -35,4 +35,6 @@ use v6;
     my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
     say @monsters.splice( *-3 );
     # [chopclown slabbit boneslave]
+    ## gets you the vaules, but preserves the order
+    ## minor pain of dealing with the "*-3" syntax
 }
