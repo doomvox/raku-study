@@ -23,6 +23,8 @@
 ****** covid, weddings, and other disasters
 ***** note: abigail refuses to have his talks included
 
+**** bruce's advice on slide prep: start with big fonts
+
 *** duckmap
 **** https://docs.raku.org/routine/duckmap
 **** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025jul13/duckmap.raku
