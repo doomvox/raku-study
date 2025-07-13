@@ -12,4 +12,4 @@ use v6;
 ## No such method 'flip' for invocant of type 'Pair'.  Did you mean any of
 ## these: 'Slip', 'flat', 'skip'?
 
-{ what => "is", this => "thing" }.map( *.slip.flip ).say;
+{ what => "is", this => "thing" }.map( *.Slip.flip ).say;
