@@ -38,3 +38,7 @@ use v6;
     ## gets you the vaules, but preserves the order
     ## with the minor pain of dealing with the "*-3" syntax
 }
+
+{ 
+    my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
+}
