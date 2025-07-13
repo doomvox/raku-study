@@ -16,6 +16,8 @@ use v6;
 { first => ('d', 'e'), second => 'f'}.duckmap(-> $_ where <e f>.any { .uc }).say;
    # {first => (d E), second => F}
 
+say "===":
+
 
 ## Ugh... I coulda sworn this wouldn't work but it does:
 <a b c 1 2 3>.duckmap({ $_ + 1 }).say;
@@ -26,21 +28,4 @@ use v6;
 # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏a' (indicated by ⏏)
 
 # simple data structures thus far
-
-
-
-say (1, 2, 3)+1;
-# 4
-
-say @(1, 2, 3)+1;
-# 4
-
-say (1, 2, 3)[]+1;
-# 4
-
-# say (1, 2, 3)++;
-# Cannot resolve caller postfix:<++>(List:D); the following candidates
-
-say @(1, 2, 3)[]+1;
-# 4
 
