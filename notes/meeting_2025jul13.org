@@ -41,6 +41,10 @@
 *** rob's travails with pop <num_of_items> feature suggestion
 **** xtra work
 **** makes raku more complicated (?)
+**** syntax
+#+BEGIN_SRC raku
+
+#+END_SRC
 
 *** would filtered inheritence make sense
 **** when you want to inherit some of the material, but skip parts that don't make sense
