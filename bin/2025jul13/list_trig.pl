@@ -30,9 +30,9 @@ say @a.sin;
 # 30
 
 ##  taking the sine of an unit, turns into sin of 0;
+say sin(0); # 0  
 
-say sin(0);
-
+## No.  sin of 0 is 0, duh.
 
 __END__
 
