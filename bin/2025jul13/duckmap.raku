@@ -30,6 +30,9 @@ say "===";
 ## For a newer raku, it fails (Rakudo™ v2025.03-236-gbe3d06a71);
 ##   Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏a' (indicated by ⏏)
 
+## Oh hand, none of us know if this is intended breakage.
+
+
 # my $a = 'a';
 # say $a + 1; 
 # # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏a' (indicated by ⏏)
