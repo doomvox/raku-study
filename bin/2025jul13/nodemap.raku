@@ -6,4 +6,4 @@ use v6;
 
 
 { what => "is", this => "thing" }.nodemap( *.flip ).say;
-# OUTPUT: «{this => gniht, what => si}␤»
+ #  {this => gniht, what => si}
