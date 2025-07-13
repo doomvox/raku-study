@@ -14,4 +14,5 @@
 **** discussion group
 ***** https://github.com/doomvox/raku-study/discussions 
 
-
+** topics
+*** 
