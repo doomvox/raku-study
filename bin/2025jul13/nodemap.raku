@@ -16,3 +16,4 @@ use v6;
 # (gniht	siht si	tahw)
 
 { what => "is", this => "thing" }.map( *.kv.flip ).say;
+# (gniht siht si tahw)
