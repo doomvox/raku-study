@@ -23,7 +23,9 @@
 ****** covid, weddings, and other disasters
 ***** note: abigail refuses to have his talks included
 
-**** bruce's advice on slide prep: start with big fonts
+**** slide prep
+***** bruce's advice on slide prep: start with big fonts
+***** my advice: go with light bg if you want, but don't go all the way to FFFFFF
 
 *** duckmap
 **** https://docs.raku.org/routine/duckmap
