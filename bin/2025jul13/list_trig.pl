@@ -34,8 +34,9 @@ say sin(0); # 0
 
 ## No.  sin of 0 is 0, duh.
 
-say scalar(@a);
+say scalar(@a);  # 3
 
+say sin(3); 
 
 
 __END__
