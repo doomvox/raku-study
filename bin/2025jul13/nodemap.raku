@@ -20,3 +20,6 @@ use v6;
 
 { what => "is", this => "thing" }.map( *.values.flip ).say;
 # (si gniht)
+
+## 'Tis true it feels awkward to get the nodemap behavior with a simple map
+##  Keep the keys unchanged, but munge each value...
