@@ -25,7 +25,7 @@
 *** rob's travails with pop <num_of_items> feature suggestion
 **** xtra work
 **** makes raku more complicated (?)
-*** liskoff substitution princple gets no respect
+*** liskov substitution princple gets no respect
 **** list behaves differently from array even though array is a list
 
 ** announcements 
