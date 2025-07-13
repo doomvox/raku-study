@@ -22,4 +22,5 @@ use v6;
 
 my $a = 'a';
 say $a + 1; 
+# Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏a' (indicated by ⏏)
 
