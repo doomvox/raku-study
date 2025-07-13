@@ -13,6 +13,11 @@ use v6;
    #  (a b C D E f g)
 (('d', 'e'), 'f').duckmap(-> $_ where <e f>.any { .uc }).say;
    #  ((d E) F)
+
+(('d', 'e'), 'f').deepmap(-> $_ where <e f>.any { .uc }).say;
+
+exit;
+
 { first => ('d', 'e'), second => 'f'}.duckmap(-> $_ where <e f>.any { .uc }).say;
    # {first => (d E), second => F}
 
