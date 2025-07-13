@@ -33,7 +33,9 @@
 **** makes raku more complicated (?)
 
 *** would filtered inheritence make sense
-**** 
+**** when you want to inherit some of the material, but skip parts that don't make sense
+**** a wonky idea of mine
+***** fix the case of trig methods available on Arrays.
 
 *** liskov substitution princple gets no respect
 **** list behaves differently from array even though array is a list
