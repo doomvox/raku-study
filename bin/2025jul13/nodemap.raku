@@ -19,3 +19,4 @@ use v6;
 # (gniht siht si tahw)
 
 { what => "is", this => "thing" }.map( *.values.flip ).say;
+# (si gniht)
