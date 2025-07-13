@@ -21,8 +21,8 @@ use v6;
 <a b c 1 2 3>.duckmap({ $_ + 1 }).say;
   ## (a b c 2 3 4)
 
-my $a = 'a';
-say $a + 1; 
+# my $a = 'a';
+# say $a + 1; 
 # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏a' (indicated by ⏏)
 
 # simple data structures thus far
