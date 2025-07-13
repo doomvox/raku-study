@@ -24,7 +24,7 @@ say "===";
 
 ## so putting some sort of Int signature restriction makes it work
 <a b c 1 2 3>.duckmap(-> $_ where Int { $_ + 1 }).say;
-
+  ## (a b c 2 3 4)
 
 ## Without the where though, it flops:
 
