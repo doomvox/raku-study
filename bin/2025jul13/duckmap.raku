@@ -31,6 +31,10 @@ say "===";
 ##   Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏a' (indicated by ⏏)
 
 ## Oh hand, none of us know if this is intended breakage.
+## The old behavior is kind-of-cool, but it might be a little too weird..
+
+
+
 
 
 # my $a = 'a';
