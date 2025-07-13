@@ -58,6 +58,13 @@ my @top_three = pop( @items, 3 );
 *** liskov substitution princple gets no respect
 **** list behaves differently from array even though array is a list
 
+*** weeklychallenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-329/#TASK2
+**** welcome to bruce gray's nightmare
+#+BEGIN_SRC txt
+AIaHAiaGAIahAiaFAIaHAiagAIahAiaEAIaHAiaGAIahAiafAIaHAiagAIahAiaDAIaHAiaGAIahAiaFAIaHAiagAIahAiaeAIaHAiaGAIahAiafAIaHAiagAIahAiaCAIaHAiaGAIahAiaFAIaHAiagAIahAiaEAIaHAiaGAIahAiafAIaHAiagAIahAiadAIaHAiaGAIahAiaFAIaHAiagAIahAiaeAIaHAiaGAIahAiafAIaHAiagAIahAiabAIaHAiaGAIahAiaFAIaHAiagAIahAiaEAIaHAiaGAIahAiafAIaHAiagAIahAiaDAIaHAiaGAIahAiaFAIaHAiagAIahAiaeAIaHAiaGAIahAiafAIaHAiagAIahAiacAIaHAiaGAIahAiaFAIaHAiagAIahAiaEAIaHAiaGAIahAiafAIaHAiagAIahAiadAIaHAiaGAIahAiaFAIaHAiagAIahAiaeAIaHAiaGAIahAiafAIaHAiagAIahAia
+#+END_SRC
+
 ** announcements 
 *** next meetings
 **** Jul 27, 2025 
