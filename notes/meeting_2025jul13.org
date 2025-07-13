@@ -18,6 +18,7 @@
 *** duckmap
 **** https://docs.raku.org/routine/duckmap
 **** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025jul13/duckmap.raku
+*** rob's travails with pop <num_of_items> feature suggestion
 
 ** announcements 
 *** next meetings
