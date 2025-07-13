@@ -22,6 +22,13 @@ use v6;
 
 say "===";
 
+<a b c 1 2 3>.duckmap(-> $_ where Int { $_ + 1 }).say;
+
+
+
+
+
+
 ## Ugh... I coulda sworn this wouldn't work but it does:
 <a b c 1 2 3>.duckmap({ $_ + 1 }).say;
   ## (a b c 2 3 4)
