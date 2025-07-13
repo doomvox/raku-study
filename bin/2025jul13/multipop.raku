@@ -26,4 +26,5 @@ say @result;
 # [boneslave slabbit chopclown]
 
 # splice to do three pops;
-my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
+@monsters.splice( *-4, *-1 );
+
