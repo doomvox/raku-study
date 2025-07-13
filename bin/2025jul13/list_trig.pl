@@ -31,7 +31,7 @@ say @a.sin;
 
 ##  taking the sine of an unit, turns into sin of 0;
 
-say sin(30);
+say sin(0);
 
 
 __END__
