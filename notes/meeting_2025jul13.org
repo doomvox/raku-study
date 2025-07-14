@@ -83,6 +83,7 @@ sub make_nightmare_test ( --> Str ) {
 **** need a point where it worked and a point where it didn't
 
 ** follow-up
+*** open an issue asking about change in duckmap behavior
 *** Log-in to stackexchange: think about giving William Michels some upvotes
 
 ** announcements 
