@@ -83,7 +83,7 @@ sub make_nightmare_test ( --> Str ) {
 **** need a point where it worked and a point where it didn't
 
 ** follow-up
-*** log-in to stackexchange, think about giving William Michels some upvotes
+*** Log-in to stackexchange: think about giving William Michels some upvotes
 
 ** announcements 
 *** next meetings
