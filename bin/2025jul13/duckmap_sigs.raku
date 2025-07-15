@@ -4,5 +4,10 @@
 
 use v6;
 
+{
+    <a b c 1 2 3>.duckmap(-> $_ where Int { $_ + 1 }).say;
+}
 
-<a b c 1 2 3>.duckmap(-> $_ where Int { $_ + 1 }).say;
+{
+    <a b c 1 2 3>.duckmap( &sub(Int){ $_ + 1 }).say;
+}
