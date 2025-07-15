@@ -19,8 +19,8 @@ enough to leave the stub unedited.
 =cut
 
 use 5.10.0;
-use warnings;
-use strict;
+# use warnings;
+# use strict;
 $|=1;
 use Data::Dumper;
 
