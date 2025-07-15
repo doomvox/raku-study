@@ -28,7 +28,7 @@ use Data::Dumper;
 my $what = "a" + 1;
 print "$what\n";
 
-
+# Argument "a" isn't numeric in addition (+) at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025jul13/character_increment.pl line 28.
 
 __END__
 
