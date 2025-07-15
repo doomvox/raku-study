@@ -18,7 +18,7 @@ enough to leave the stub unedited.
 
 =cut
 
-use 5.10.0;
+# use 5.10.0;
 # use warnings;
 use strict;
 $|=1;
