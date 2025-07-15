@@ -11,7 +11,7 @@ use v6;
 
 {
     # This works, but I'm not sure why: 
-    <a b c 1 2 3>.duckmap( *.Int + 1 ).say;
+    <a b c 1 2 3>.duckmap( *.Numeric + 1 ).say;
     # (a b c 2 3 4)
 }
 
