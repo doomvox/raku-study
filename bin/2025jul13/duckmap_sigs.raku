@@ -9,5 +9,5 @@ use v6;
 }
 
 {
-    <a b c 1 2 3>.duckmap( (Int){ $_ + 1 }).say;
+    <a b c 1 2 3>.duckmap( * + 1 ).say;
 }
