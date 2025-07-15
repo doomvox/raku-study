@@ -13,3 +13,7 @@ use v6;
     <a b c 1 2 3>.duckmap( *.Int + 1 ).say;
     # (a b c 2 3 4)
 }
+
+{
+    say "a".Int;
+    }
