@@ -20,7 +20,7 @@ enough to leave the stub unedited.
 
 use 5.10.0;
 # use warnings;
-# use strict;
+use strict;
 $|=1;
 use Data::Dumper;
 
