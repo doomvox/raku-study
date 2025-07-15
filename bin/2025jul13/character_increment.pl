@@ -28,7 +28,11 @@ use Data::Dumper;
 my $what = "a" + 1;
 print "$what\n";
 
-# Argument "a" isn't numeric in addition (+) at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025jul13/character_increment.pl line 28.
+# with warnings on, you get the message:
+#   Argument "a" isn't numeric in addition (+) at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025jul13/character_increment.pl line 28.
+
+# Either way, perl keeps going, treating the "a" as a 0, and printing "1";
+
 
 __END__
 
