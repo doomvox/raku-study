@@ -19,7 +19,7 @@
 **** https://github.com/Raku/problem-solving/issues/430
 **** https://github.com/Raku/problem-solving/issues/351
 
-** old topics (last meeting-- TODO trim these)
+** old topics (from last meeting-- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
 **** Bruce Gray on hyperoperators
 ***** https://www.youtube.com/watch?v=_OMsWYLQLqU
