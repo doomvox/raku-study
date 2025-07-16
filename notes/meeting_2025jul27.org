@@ -1,0 +1,103 @@
+* meeting notes July 13, 2025
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025jul27.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025jul27
+****** https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025jul13.org 
+
+**** discussion group
+***** https://github.com/doomvox/raku-study/discussions 
+
+** topics
+*** videos for 2025 perl & raku conference just went up
+**** Bruce Gray on hyperoperators
+***** https://www.youtube.com/watch?v=_OMsWYLQLqU
+**** Bruce Gray's review
+***** strong elements, but talks impacted by people who couldn't come
+****** covid, weddings, and other disasters
+***** note: abigail refuses to have his talks included
+***** 54 attendees
+
+**** slide prep
+***** bruce's advice on slide prep: start with big fonts
+***** my advice: go with light bg if you want, but don't go all the way to FFFFFF
+
+*** duckmap
+**** https://docs.raku.org/routine/duckmap
+**** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025jul13/duckmap.raku
+***** interestingly: got a code example that works for 2023 raku but not 2025
+****** TODO was this intended behavior?
+
+*** William Michels: Raku answers to shell questions
+**** https://unix.stackexchange.com/a/797530/227738
+**** https://unix.stackexchange.com/a/797471/227738
+**** https://unix.stackexchange.com/a/797904/227738
+
+*** rob's travails with pop <num_of_items> feature suggestion
+**** xtra work
+**** makes raku more complicated (?)
+**** syntax
+#+BEGIN_SRC raku
+my @top_three = pop( @items, 3 );
+#+END_SRC
+***** Q: what order should they be
+****** rob's idea: default to reverse order
+****** I can see the argument to preserve the order
+****** Suggestion: still another parameter to reverse from the default
+
+*** would filtered inheritence make sense
+**** when you want to inherit some of the material, but skip parts that don't make sense
+**** a wonky idea of mine
+***** use case: fix problem of trig methods available on Arrays
+
+*** liskov substitution princple gets no respect
+**** list behaves differently from array even though array is a list
+
+*** weeklychallenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-329/#TASK2
+**** welcome to bruce gray's nightmare
+#+BEGIN_SRC txt
+AIaHAiaGAIahAiaFAIaHAiagAIahAiaEAIaHAiaGAIahAiafAIaHAiagAIahAiaDAIaHAiaGAIahAiaFAIaHAiagAIahAiaeAIaHAiaGAIahAiafAIaHAiagAIahAiaCAIaHAiaGAIahAiaFAIaHAiagAIahAiaEAIaHAiaGAIahAiafAIaHAiagAIahAiadAIaHAiaGAIahAiaFAIaHAiagAIahAiaeAIaHAiaGAIahAiafAIaHAiagAIahAiabAIaHAiaGAIahAiaFAIaHAiagAIahAiaEAIaHAiaGAIahAiafAIaHAiagAIahAiaDAIaHAiaGAIahAiaFAIaHAiagAIahAiaeAIaHAiaGAIahAiafAIaHAiagAIahAiacAIaHAiaGAIahAiaFAIaHAiagAIahAiaEAIaHAiaGAIahAiafAIaHAiagAIahAiadAIaHAiaGAIahAiaFAIaHAiagAIahAiaeAIaHAiaGAIahAiafAIaHAiagAIahAia
+#+END_SRC
+***** nightmare generator
+#+BEGIN_SRC raku
+sub make_nightmare_test ( --> Str ) {
+    my $L = 'A';
+    my $R = 'a';
+    for ( 'c' .. 'i' ).reverse -> $char {
+        ( $L, $R ) = ($L,$char.uc,$R).join,
+                     ($L,$char.lc,$R).join;
+    }
+    return ($L,'b',$R).join;
+}
+#+BEGIN_END
+
+
+*** git bisect
+**** need a point where it worked and a point where it didn't
+
+** follow-up
+*** open an issue asking about change in duckmap behavior
+*** Log-in to stackexchange: think about giving William Michels some upvotes
+
+** announcements 
+*** next meetings
+**** Jul 27, 2025 
+**** Aug 10, 2025 
+**** Aug 24, 2025 
+**** Sep  7, 2025 (ok: labor day weekend was the week before)
+**** Sep 21, 2025 
+**** Oct  5, 2025
+**** Oct 19, 2025
+**** Nov 2, 2025
+**** Nov 16, 2025
+**** Dec 7, 2025 (three week gap, to get past thanksgiving weekend)
+**** Dec 21, 2025
+**** Jan  4, 2025
+**** Jan  18, 2025
