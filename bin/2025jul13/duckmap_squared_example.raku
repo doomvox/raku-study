@@ -13,6 +13,7 @@ say [[1,2,3,'N'],[[4,5],6,7]].duckmap( *² );
 # Doesn't care *what* the elements are, four of them squares to 16:
 #   [16 9]
 
+## Comparing to deepmap:
 
 ## deepmap favors recursive descent:
 say [[1,2,3],[[4,5],6,7]].deepmap( *² ); 
