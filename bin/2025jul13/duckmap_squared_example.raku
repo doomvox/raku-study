@@ -10,7 +10,7 @@ say [[1,2,3],[[4,5],6,7]].duckmap( *² ); # OUTPUT: «[9 9]␤»
 #   [9 9]
 
 say [[1,2,3,'N'],[[4,5],6,7]].duckmap( *² ); 
-# Huh?
+# Doesn't care *what* the elements are, four of them squares to 16:
 #   [16 9]
 
 
