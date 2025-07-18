@@ -14,5 +14,6 @@ say [[1,2,3,'N'],[[4,5],6,7]].duckmap( *² );
 #   [16 9]
 
 
+## deepmap favors recursive descent:
 say [[1,2,3],[[4,5],6,7]].deepmap( *² ); 
 # [[1 4 9] [[16 25] 36 49]]
