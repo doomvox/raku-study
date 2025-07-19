@@ -24,5 +24,6 @@ use v6;
 ## 'Tis true it feels awkward to get the nodemap behavior with a simple map
 ##  Keep the keys unchanged, but munge each value...
 
-
+# But in this particular example, you could also use deepmap and get the same result:
 { what => "is", this => "thing" }.deepmap( *.flip ).say;
+# {this => gniht, what => si}
