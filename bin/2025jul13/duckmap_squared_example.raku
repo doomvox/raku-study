@@ -4,6 +4,9 @@
 
 use v6;
 
+## duckmap doesn't recurse as aggressively as deepmap
+## it tries to treat sub-structures as things-in-themselves
+## before descending the tree further...
 say [[1,2,3],[[4,5],6,7]].duckmap( *² ); # OUTPUT: «[9 9]␤»
 
 # same behavior in both 2023 and current raku:
