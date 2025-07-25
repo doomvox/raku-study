@@ -17,6 +17,6 @@ sub summation (@n) {
 
 say summation([1,2,3]); # 6
 
-say summation([1,2,3,'A']); 
+## say summation([1,2,3,'A']); ## Cannot convert string to number...
 
 # say [[1,2,3],[[4,5],6,7]].duckmap( *² ); # OUTPUT: «[9 9]␤»
