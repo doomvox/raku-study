@@ -1,0 +1,13 @@
+#!/usr/bin/env raku
+# 
+# duckmap_vs_deepmap_recursion.raku            25 Jul 2025 
+
+use v6;
+
+## See: 
+## /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025jul13/duckmap_squared_example.raku
+
+## duckmap doesn't recurse as aggressively as deepmap
+## it tries to treat sub-structures as things-in-themselves
+## before descending the tree further...
+
