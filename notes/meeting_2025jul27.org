@@ -20,8 +20,9 @@
 **** https://github.com/Raku/problem-solving/issues/351
 *** opened problem solving issue concerning behavior of duckmap
 **** https://github.com/Raku/problem-solving/issues/486
-*** rsg: discussion
-
+*** rsg discussion:
+**** https://github.com/doomvox/raku-study/discussions/23
+**** Marton Polgar
 
 ** old topics (from last meeting-- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
