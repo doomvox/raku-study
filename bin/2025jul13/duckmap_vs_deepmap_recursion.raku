@@ -19,4 +19,6 @@ say summation([1,2,3]); # 6
 
 ## say summation([1,2,3,'A']); ## Cannot convert string to number...
 
-say [[1,2,3],[[4,5],6,7]].duckmap( { summation($_) });
+say [[1,2,3],[[4,5],6,7]].duckmap( { summation($_) }); ## Cannot convert string to number...
+
+say [[1,2,3],[[4,5],6,7]].duckmap( { summation($_
