@@ -20,7 +20,7 @@
 **** https://github.com/Raku/problem-solving/issues/351
 *** opened problem solving issue concerning behavior of duckmap
 **** https://github.com/Raku/problem-solving/issues/486
-*** rsg discussion:
+*** rsg discussion: "Distributions, modules, compunits revisited?"
 **** https://github.com/doomvox/raku-study/discussions/23
 **** Marton Polgar
 
