@@ -11,3 +11,10 @@ use v6;
 ## it tries to treat sub-structures as things-in-themselves
 ## before descending the tree further...
 
+sub summation (@n) {
+  @n.sum;
+}
+
+
+
+say [[1,2,3],[[4,5],6,7]].duckmap( *² ); # OUTPUT: «[9 9]␤»
