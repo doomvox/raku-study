@@ -25,6 +25,6 @@ say [[1,2,3],[[4,5],6,7]].duckmap( { summation($_) }); ## [6 15]
   ## Type check failed in binding to parameter '@n'; expected Positional but got Int (1)
 
 ## deepmap plunges all the way down to the leaf nodes, and finds it can't call "summation" on them.
-
+## interestingly adding a lone integer higher up doesn't confuse duckmap:
 
 say [0, [1,2,3],[[4,5],6,7]].duckmap( { summation($_) }); ## [0 6 15]
