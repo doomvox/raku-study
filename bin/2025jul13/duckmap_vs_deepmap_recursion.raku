@@ -17,7 +17,9 @@ sub summation (@n) {
 
 say summation([1,2,3]); # 6
 
-say summation(123); # 
+# say summation(123); # 
+## Calling summation(Int) will never work with declared signature (@n) 
+
 
 ## say summation([1,2,3,'A']); ## Cannot convert string to number...
 
