@@ -17,7 +17,7 @@ sub summation (@n) {
 
 say summation([1,2,3]); # 6
 
-# say summation(123); # 
+# say summation(123); 
 ## Calling summation(Int) will never work with declared signature (@n) 
 
 
@@ -32,3 +32,6 @@ say [[1,2,3],[[4,5],6,7]].duckmap( { summation($_) }); ## [6 15]
 ## interestingly adding a lone integer higher up doesn't confuse duckmap:
 
 say [33, [1,2,3],[[4,5],6,7]].duckmap( { summation($_) }); ## [33 6 15]
+
+say [66, 33, [1,2,3],[[4,5],6,7]].duckmap( { summation($_) }); ## [33 6 15]
+
