@@ -35,3 +35,5 @@ say [33, [1,2,3],[[4,5],6,7]].duckmap( { summation($_) }); ## [33 6 15]
 
 say [66, 33, [1,2,3],[[4,5],6,7]].duckmap( { summation($_) }); ## [66 33 6 15]
 
+## duckmap: go down one level, then act on what's there
+## deepmap: go down to leaf nodes, act on them.
