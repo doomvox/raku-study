@@ -76,6 +76,10 @@
 **** 2colours == Marton Polgar  (with accented 'a' s)
 **** doom == doomvox == tailorpaul == joseph brenner == me
 
+*** antonov gets monadic on our pipelines
+**** data shapers raku package from steve
+**** red 
+
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
 **** Bruce Gray on hyperoperators
