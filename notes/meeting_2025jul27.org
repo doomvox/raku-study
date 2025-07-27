@@ -90,6 +90,11 @@
 ****** r studio interactive interface
 ***** hark
 
+*** antonov reccomends using llms for interconvesion between formats
+**** rakudoc
+**** markdown
+**** jupyter
+
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
 **** Bruce Gray on hyperoperators
