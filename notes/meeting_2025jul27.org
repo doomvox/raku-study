@@ -46,7 +46,7 @@
 
 *** antonov: raku not data scientist friendly
 **** "sequence centered design"
-**** but with strong package support, they don't need to know that stuff.
+**** but with strong package support, so maybe they don't need to know that stuff.
 ***** Q: "monadic pipeline" ?
 **** raku llm tools a little behind 
 ***** llm issue: everyone has own protocol
