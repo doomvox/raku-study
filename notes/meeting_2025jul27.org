@@ -70,6 +70,11 @@
 **** can't supply a known seed to get reproducible results
 **** complicates testing.
 
+*** anton did work on porting graphviz capability to various languages 
+
+*** bill: hexbin in r
+**** https://cran.r-project.org/web/packages/hexbin/index.html
+
 *** farley
 **** librasteve == steve rowe
 **** jubilatious1 == william michels
