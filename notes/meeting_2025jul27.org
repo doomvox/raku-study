@@ -82,6 +82,9 @@
 **** red 
 ***** 
 **** see "raku for prediction" blog
+**** R lang
+***** shiney
+***** hark
 
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
