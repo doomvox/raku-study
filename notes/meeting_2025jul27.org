@@ -23,7 +23,7 @@
 
 *** Bruce Gray on hyperoperators
 ***** https://www.youtube.com/watch?v=_OMsWYLQLqU
-***** Util's slides
+***** slides
 ****** https://speakerdeck.com/util
 
 *** flatmap might not be deprecated any more
