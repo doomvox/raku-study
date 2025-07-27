@@ -101,6 +101,8 @@
 **** bill asks about "the Collatz conjecture"
 *****  https://mathworld.wolfram.com/CollatzProblem.html
 ***** "i don't care about number theory"
+***** https://xkcd.com/710/
+***** weekly challenge 54
 
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
