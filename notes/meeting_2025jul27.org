@@ -53,6 +53,9 @@
 ****** https://en.wikipedia.org/wiki/Llama_(language_model)
 ****** antonov uses llama file: LLaMA
 ****** https://raku.land/zef:antononcube/WWW::LLaMA
+**** note to self
+***** when you hear "llm", think "document indexing"
+***** there's nothing wrong with indexing, despite faddish terminology
 
 *** William Michels, Raku for Scientific use:
 **** combining ranges and sequences is a nightmare (?)
