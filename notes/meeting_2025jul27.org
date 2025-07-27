@@ -67,7 +67,6 @@
 **** R (and Mathematica) is lisp-like (antonov)
 **** virtues of named vectors
 
-
 *** complaint about raku's "rand"
 **** can't supply a known seed to get reproducible results
 **** complicates testing.
