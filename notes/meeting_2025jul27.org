@@ -52,6 +52,9 @@
 ***** Q: "monadic pipeline" ?
 **** raku llm tools a little behind 
 ***** llm issue: everyone has own protocol
+***** <llama> models you can run locally
+****** https://en.wikipedia.org/wiki/Llama_(language_model)
+****** antonov uses llama file
 
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
