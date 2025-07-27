@@ -68,7 +68,7 @@
 **** librasteve == steve rowe
 **** jubilatious1 == william michels
 **** util == bruce gray
-**** 2colours == Marton Polgar  (with accented as)
+**** 2colours == Marton Polgar  (with accented 'a' s)
 **** doom == doomvox == tailorpaul == joseph brenner == me
 
 ** old topics (from last meeting -- TODO trim these)
