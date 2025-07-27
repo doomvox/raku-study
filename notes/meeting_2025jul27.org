@@ -43,7 +43,6 @@
 **** Bruce Gray on hyperoperators
 ***** https://www.youtube.com/watch?v=_OMsWYLQLqU
 
-
 *** William Michels: Raku answers to shell questions
 **** https://unix.stackexchange.com/a/797530/227738
 **** https://unix.stackexchange.com/a/797471/227738
