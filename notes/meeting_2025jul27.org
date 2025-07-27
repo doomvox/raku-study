@@ -82,7 +82,7 @@
 **** red 
 ***** 
 **** see "raku for prediction" blog
-**** R lang
+**** R lang choices
 ***** shiney
 ***** hark
 
