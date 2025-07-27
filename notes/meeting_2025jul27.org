@@ -65,6 +65,11 @@
 **** R (and Mathematica) is lisp-like (antonov)
 **** virtues of named vectors
 
+
+*** farley
+**** librasteve == steve rowe
+**** jubilatious1 == william michels
+
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
 **** Bruce Gray on hyperoperators
