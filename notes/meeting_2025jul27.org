@@ -33,11 +33,6 @@
 *** videos for 2025 perl & raku conference just went up
 **** Bruce Gray on hyperoperators
 ***** https://www.youtube.com/watch?v=_OMsWYLQLqU
-**** Bruce Gray's review
-***** strong elements, but talks impacted by people who couldn't come
-****** covid, weddings, and other disasters
-***** note: abigail refuses to have his talks included
-***** 54 attendees
 
 **** slide prep
 ***** bruce's advice on slide prep: start with big fonts
