@@ -98,6 +98,8 @@
 ***** "mindmap"?
 ***** "not just using pandoc"
 
+**** bill asks about "the collettes conjecture"
+***** "i don't care about number theory"
 
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
