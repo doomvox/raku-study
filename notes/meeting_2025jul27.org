@@ -20,7 +20,6 @@
 ***** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-
 *** Bruce Gray on hyperoperators
 ***** https://www.youtube.com/watch?v=_OMsWYLQLqU
 ***** slides
