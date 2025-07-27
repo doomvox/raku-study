@@ -70,6 +70,7 @@
 **** can't supply a known seed to get reproducible results
 **** complicates testing.
 **** myself, i'm surprised there's no "seed" option
+***** open a problem solving issue
 
 *** anton did work on porting graphviz capability to various languages 
 
