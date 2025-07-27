@@ -8,8 +8,6 @@
 
 use v6;
 
-## Matrix Addition
-
 my @m =
 ( 2, 4, ),
 ( 3, 7, ),
@@ -21,8 +19,18 @@ my @n =
 ;
 
 {
+    ## Matrix Addition
     my @r =
     @m >>+<< @n;
+
+    say @r;
+    # [(14 18) (16 24)]
+}
+
+{
+    ## Matrix Mult
+    my @r =
+    @m >>*<< @n;
 
     say @r;
     # [(14 18) (16 24)]
