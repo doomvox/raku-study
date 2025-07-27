@@ -74,6 +74,7 @@
 
 *** bill: hexbin in r
 **** https://cran.r-project.org/web/packages/hexbin/index.html
+**** https://r-graph-gallery.com/hexbin-map.html
 
 *** farley
 **** librasteve == steve rowe
