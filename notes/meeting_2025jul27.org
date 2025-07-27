@@ -88,6 +88,7 @@
 **** util == bruce gray
 **** 2colours == Marton Polgar  (with accented 'a' s)
 **** doom == doomvox == tailorpaul == joseph brenner == me
+**** antonov == anton antonov
 
 *** antonov gets monadic on our pipelines
 **** data shapers raku package 
