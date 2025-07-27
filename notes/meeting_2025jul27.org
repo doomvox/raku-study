@@ -49,6 +49,7 @@
 *** antonov: raku not data scientist friendly
 **** sequence centered design
 **** but with strong package support, they don't need to know that stuff.
+***** Q: "monadic pipeline" ?
 
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
