@@ -83,7 +83,8 @@
 ***** 
 **** see "raku for prediction" blog
 **** R lang choices
-***** shiney
+***** shiney 
+****** r studio interactive interface
 ***** hark
 
 ** old topics (from last meeting -- TODO trim these)
