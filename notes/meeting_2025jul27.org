@@ -61,9 +61,9 @@
 *** duck db
 **** tool for csv files that don't fit in memory
 
-
 *** discussion of raku vs R
 **** R (and Mathematica) is lisp-like (antonov)
+**** virtues of named vectors
 
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
