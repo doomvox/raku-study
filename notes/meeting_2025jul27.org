@@ -82,6 +82,7 @@
 **** https://r-graph-gallery.com/100-high-density-scatterplot-with-binning.html
 
 *** farley
+**** apogee == matt dowdy
 **** librasteve == steve rowe
 **** jubilatious1 == william michels
 **** util == bruce gray
