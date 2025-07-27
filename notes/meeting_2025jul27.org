@@ -59,6 +59,11 @@
 *** William Michels, Raku for Scientific use:
 **** combining ranges and sequences is a nightmare (?)
 
+
+*** duck db
+
+**** tool for csv files that don't fit in memory
+
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
 **** Bruce Gray on hyperoperators
