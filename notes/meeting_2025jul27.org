@@ -75,6 +75,7 @@
 *** bill: hexbin in r
 **** https://cran.r-project.org/web/packages/hexbin/index.html
 **** https://r-graph-gallery.com/hexbin-map.html
+**** https://r-graph-gallery.com/100-high-density-scatterplot-with-binning.html
 
 *** farley
 **** librasteve == steve rowe
