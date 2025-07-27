@@ -45,7 +45,7 @@ my @l =
 {
     ## Matrix Addition, variant
     my @r =
-    @m <<+>> @n;
+      @m <<+>> @n;
 
     say @r;
     # [(14 18) (16 24)]
