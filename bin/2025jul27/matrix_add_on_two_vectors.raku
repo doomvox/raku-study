@@ -29,6 +29,7 @@ use v6;
 }
 
 {
+    # also, there's other ways of doing this one..
     my @a = 8, 10, 12, 14;
     @a>>++;
     say @a; # [9 11 13 15]
