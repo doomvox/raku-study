@@ -46,6 +46,10 @@
 **** https://github.com/doomvox/raku-study/discussions/23
 **** Marton Polgar
 
+*** antonov: raku not data scientist friendly
+**** sequence centered design
+**** but with strong package support, they don't need to know that stuff.
+
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
 **** Bruce Gray on hyperoperators
