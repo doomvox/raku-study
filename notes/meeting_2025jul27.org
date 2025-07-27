@@ -77,7 +77,8 @@
 **** doom == doomvox == tailorpaul == joseph brenner == me
 
 *** antonov gets monadic on our pipelines
-**** data shapers raku package from steve
+**** data shapers raku package 
+***** steve
 **** red 
 
 ** old topics (from last meeting -- TODO trim these)
