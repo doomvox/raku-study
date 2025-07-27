@@ -27,4 +27,4 @@ use v6;
     my @c = 1 xx @a.elems;
     say @c;
 
-    }
+}
