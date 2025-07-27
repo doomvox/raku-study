@@ -122,8 +122,7 @@
 
 
 ** follow-up
-*** open an issue asking about change in duckmap behavior
-*** Log-in to stackexchange: think about giving William Michels some upvotes
+*** log-in to stackexchange: think about giving William Michels some upvotes
 
 ** announcements 
 *** next meetings
