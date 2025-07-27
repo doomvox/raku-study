@@ -50,6 +50,7 @@
 **** sequence centered design
 **** but with strong package support, they don't need to know that stuff.
 ***** Q: "monadic pipeline" ?
+**** raku llm tools a little behind 
 
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
