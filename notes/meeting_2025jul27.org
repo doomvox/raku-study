@@ -39,7 +39,6 @@
 ****** interestingly: got a code example that works for 2023 raku but not 2025
 ******* it turns out this wasn't an intended change, what it should be is unsettled.
 
-
 *** rsg discussion: "Distributions, modules, compunits revisited?"
 **** https://github.com/doomvox/raku-study/discussions/23
 **** Marton Polgar
