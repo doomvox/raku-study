@@ -99,6 +99,7 @@
 ***** "not just using pandoc"
 
 **** bill asks about "the collettes conjecture"
+*****  https://mathworld.wolfram.com/CollatzProblem.html
 ***** "i don't care about number theory"
 
 ** old topics (from last meeting -- TODO trim these)
