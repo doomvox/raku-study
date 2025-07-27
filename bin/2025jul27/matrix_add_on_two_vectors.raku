@@ -27,3 +27,9 @@ use v6;
     my @c = 1 xx @a.elems;
     say @c; # [1 1 1 1]
 }
+
+{
+    my @a = 8, 10, 12, 14;
+    @a>>++;
+    say @a;
+    }
