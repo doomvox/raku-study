@@ -80,6 +80,7 @@
 **** data shapers raku package 
 ***** steve
 **** red 
+**** see "raku for prediction" blog
 
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
