@@ -28,7 +28,7 @@
 
 **** problem found last time: duckmap
 ***** https://docs.raku.org/routine/duckmap
-***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025jul13/duckmap.raku
+***** https://github.com/doomvox/raku-study/tree/main/bin/2025jul13/duckmap.raku
 ****** interestingly: got a code example that works for 2023 raku but not 2025
 ******* TODO was this intended behavior?
 
