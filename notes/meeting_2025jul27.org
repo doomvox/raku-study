@@ -93,6 +93,7 @@
 **** rakudoc
 **** markdown
 **** jupyter
+***** "converting jupyter notebooks to mathematica notebooks"
 
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
