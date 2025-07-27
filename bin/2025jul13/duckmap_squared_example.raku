@@ -29,4 +29,4 @@ say [[1,2,3],[[4,5],6,7]].deepmap( *² );
 ## Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏N' (indicated by ⏏)
 
 
-say [[1,2,3],[[4,5],6,7]].map( *² ); 
+say [[1,2,3],[[4,5],6,7]].map( *² );  # (9 9)
