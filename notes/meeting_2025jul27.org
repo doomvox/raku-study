@@ -95,8 +95,9 @@
 **** jupyter
 ***** e.g. "converting jupyter notebooks to mathematica notebooks"
 
-**** "mindmap"?
-**** "not just using pandoc"
+**** antonov goes fast:
+***** "mindmap"?
+***** "not just using pandoc"
 
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
