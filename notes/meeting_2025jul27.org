@@ -29,7 +29,7 @@
 **** https://github.com/doomvox/raku-study/discussions/23
 **** Marton Polgar
 
-** old topics (from last meeting-- TODO trim these)
+** old topics (from last meeting July 2013-- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
 **** Bruce Gray on hyperoperators
 ***** https://www.youtube.com/watch?v=_OMsWYLQLqU
