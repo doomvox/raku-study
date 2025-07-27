@@ -22,8 +22,8 @@ use v6;
 {
     my @a = 8, 10, 12, 14;
     my @b = 1 xx +@a;
-    say @b;
+    say @b; # [1 1 1 1]
 
     my @c = 1 xx @a.elems;
-    say @c;
+    say @c; # [1 1 1 1]
 }
