@@ -8,8 +8,11 @@ use v6;
 ## Raku Next Steps: Hypersonic
 ## https://www.youtube.com/watch?v=_OMsWYLQLqU
 
+## increment vector of ages 
 my @a = 8, 10, 12, 14;
+# create a vector of 1s of same length
 my @b = 1 xx +@a;
+# matrix addition, increment each element
 @a = @a >>+<< @b;
 
-say @a;
+say @a; # [9 11 13 15]
