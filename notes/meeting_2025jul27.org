@@ -59,7 +59,6 @@
 *** William Michels, Raku for Scientific use:
 **** combining ranges and sequences is a nightmare (?)
 
-
 *** duck db
 **** tool for csv files that don't fit in memory
 
