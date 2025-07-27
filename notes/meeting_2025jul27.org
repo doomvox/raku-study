@@ -34,9 +34,6 @@
 **** Bruce Gray on hyperoperators
 ***** https://www.youtube.com/watch?v=_OMsWYLQLqU
 
-**** slide prep
-***** bruce's advice on slide prep: start with big fonts
-***** my advice: go with light bg if you want, but don't go all the way to FFFFFF
 
 *** duckmap
 **** https://docs.raku.org/routine/duckmap
