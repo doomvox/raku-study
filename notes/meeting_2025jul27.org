@@ -32,12 +32,12 @@
 
 *** duckmap changed behavior: 
 **** https://github.com/Raku/problem-solving/issues/486
+**** https://docs.raku.org/routine/duckmap
 
 **** problem found last time: duckmap
-***** https://docs.raku.org/routine/duckmap
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2025jul13/duckmap.raku
 ****** interestingly: got a code example that works for 2023 raku but not 2025
-******* TODO was this intended behavior?
+******* it turns out this wasn't an intended change, what it should be is unsettled.
 
 
 *** rsg discussion: "Distributions, modules, compunits revisited?"
