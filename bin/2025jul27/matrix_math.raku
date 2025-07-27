@@ -35,3 +35,12 @@ my @n =
     say @r;
     # [(24 56) (39 119)]
 }
+
+{
+    ## Matrix Addition, varaint
+    my @r =
+    @m <<+>> @n;
+
+    say @r;
+    # [(14 18) (16 24)]
+}
