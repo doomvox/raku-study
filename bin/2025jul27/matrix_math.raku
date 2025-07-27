@@ -37,7 +37,7 @@ my @n =
 }
 
 {
-    ## Matrix Addition, varaint
+    ## Matrix Addition, variant
     my @r =
     @m <<+>> @n;
 
