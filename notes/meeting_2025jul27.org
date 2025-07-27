@@ -61,7 +61,6 @@
 
 
 *** duck db
-
 **** tool for csv files that don't fit in memory
 
 ** old topics (from last meeting -- TODO trim these)
