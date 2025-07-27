@@ -23,11 +23,9 @@
 
 *** Bruce Gray on hyperoperators
 ***** https://www.youtube.com/watch?v=_OMsWYLQLqU
-
-
-*** bruce gets hyper
-**** Util's slides
-***** https://speakerdeck.com/util
+**** bruce gets hyper
+***** Util's slides
+****** https://speakerdeck.com/util
 
 
 *** flatmap might not be deprecated any more
