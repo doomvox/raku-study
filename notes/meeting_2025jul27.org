@@ -56,7 +56,7 @@
 ****** antonov uses llama file: LLaMA
 ****** https://raku.land/zef:antononcube/WWW::LLaMA
 
-*** bill
+*** William Michels, Raku for Scientific use:
 **** combining ranges and sequences is a nightmare (?)
 
 ** old topics (from last meeting -- TODO trim these)
