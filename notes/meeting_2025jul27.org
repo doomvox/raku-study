@@ -32,7 +32,7 @@
 **** https://github.com/Raku/problem-solving/issues/430
 **** https://github.com/Raku/problem-solving/issues/351
 
-*** opened problem solving issue concerning behavior of duckmap
+*** duckmap changed behavior: 
 **** https://github.com/Raku/problem-solving/issues/486
 
 **** problem found last time: duckmap
