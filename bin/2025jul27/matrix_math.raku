@@ -59,5 +59,7 @@ my @l =
       @m >>+<< @l;
     say @r;
 
+# Lists on either side of non-dwimmy hyperop of infix:<+> are not of the same length while recursing
+# left: 2 elements, right: 3 elements
 
 }
