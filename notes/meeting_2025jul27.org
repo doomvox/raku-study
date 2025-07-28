@@ -63,6 +63,7 @@
 **** note to self
 ***** when you hear "LLM", think "document indexing"
 ***** there's nothing wrong with doc indexing, despite faddish terminology
+***** anton describes it as converting text into vectors, and looking for nearest neighbors
 
 *** William Michels, Raku for Scientific use:
 **** combining ranges and sequences is a nightmare (?)
