@@ -44,6 +44,7 @@
 ***** https://docs.raku.org/routine/duckmap
 ***** Rat?  Not Numeric?
 ***** Why changed data with changed code?
+***** Possibly, better examples?
 
 *** rsg discussion: "Distributions, modules, compunits revisited?"
 **** https://github.com/doomvox/raku-study/discussions/23
