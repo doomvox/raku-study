@@ -64,7 +64,7 @@
 ***** when you hear "LLM", think "document indexing"
 ***** there's nothing wrong with doc indexing, despite faddish terminology
 ***** anton describes it as converting text into vectors, and looking for nearest neighbors
-***** there's a trick involving going after sub-sets or likely relevant info
+***** there's a trick involving going after sub-sets of likely relevant info
 ****** this avoids spending weeks indexng everything available
 
 *** William Michels, Raku for Scientific use:
