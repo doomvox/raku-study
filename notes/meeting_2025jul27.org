@@ -61,7 +61,7 @@
 ****** antonov uses llama file: LLaMA
 ****** https://raku.land/zef:antononcube/WWW::LLaMA
 **** note to self
-***** when you hear "llm", think "document indexing"
+***** when you hear "LLM", think "document indexing"
 ***** there's nothing wrong with doc indexing, despite faddish terminology
 
 *** William Michels, Raku for Scientific use:
