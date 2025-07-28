@@ -65,7 +65,7 @@
 ***** there's nothing wrong with doc indexing, despite faddish terminology
 ***** anton describes it as converting text into vectors, and looking for nearest neighbors
 ***** there's a trick involving going after sub-sets or likely relevant info
-****** avoid spending a week indexng everything available
+****** avoid spending weeks indexng everything available
 
 *** William Michels, Raku for Scientific use:
 **** combining ranges and sequences is a nightmare (?)
