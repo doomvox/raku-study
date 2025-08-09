@@ -2,10 +2,10 @@
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025jul27.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025aug10.org 
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2025jul27
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025aug10
 
 ****** duckmap examples are here:
 ******* https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
