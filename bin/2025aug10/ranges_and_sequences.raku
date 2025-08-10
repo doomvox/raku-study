@@ -68,7 +68,7 @@ say "===";
 
 ## Note: triple dot is not just a variant of double dot.
 {
-   my $s = 3,4 ... 9;
+   my $s = 3, 4, 5 ... 9;
    say $s;
 
    say "A: ";
