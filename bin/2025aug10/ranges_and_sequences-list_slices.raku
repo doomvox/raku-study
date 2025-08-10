@@ -1,0 +1,6 @@
+#!/usr/bin/env raku
+# 
+# ranges_and_sequences-list_slices.raku            10 Aug 2025 
+
+use v6;
+
