@@ -58,7 +58,7 @@ say "===";
     # be confusing-- am I supposed to understand "Useless use in sink context"
     # or is that the devs throwing up their hands at finding something helpful to say?
 
-    # In practice you just need to remember bind-dont-assign for Seq.
+    # In practice you just need to remember a bind-dont-assign rule for Seq.
 
 
 }
