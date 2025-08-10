@@ -167,7 +167,6 @@
 ***** myself, i'm surprised there's no "seed" option
 ****** TODO open a problem solving issue
 
-
 ** announcements 
 *** next meetings
 
