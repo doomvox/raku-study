@@ -4,5 +4,18 @@
 
 use v6;
 
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2021feb21/simon_proctor_range_setops.pl6
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jan16/bill_issue_with_spaces_on_range_ops.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun19/controlling_range_of_regex_capture.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun19/controlling_range_of_regex_capture_without_named_regex.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2022jun19/controlling_range_of_regex_capture_without_named_regex-ii.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023may21/range_bounds_method.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2023dec03/ranges_of_points_kindof.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024jun30/non_numeric_ranges.txt
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024aug25/messing_with_ranges.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024aug25/ranges_positional.raku
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2024nov24/range_of_strings.raku
+
+
 # William Michels: combining ranges and sequences is a nightmare
 
