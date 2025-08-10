@@ -21,6 +21,11 @@
 
 ** topics
 
+*** ranges and sequences
+**** William Michels, Raku for Scientific use:
+***** combining ranges and sequences is a nightmare (?)
+
+
 *** Rob found something odd in weekly challenge land
 
 *** python vs perl/raku
@@ -44,115 +49,115 @@
 ******** https://speakerdeck.com/util
 
 
-** older topics we didn't say much about
-*** flatmap probably isn't deprecated
-**** https://github.com/Raku/problem-solving/issues/430
-**** https://github.com/Raku/problem-solving/issues/351
+*** older topics we didn't say much about
+**** flatmap probably isn't deprecated
+***** https://github.com/Raku/problem-solving/issues/430
+***** https://github.com/Raku/problem-solving/issues/351
 
-*** duckmap *has* changed in behavior: 
-**** lizmat says this was inadvertant, but seems reluctant to change it back
-***** (if one was a cranky cantankerous negative individual, one might complain about such things)
-**** https://github.com/Raku/problem-solving/issues/486
-**** https://docs.raku.org/routine/duckmap
-
-**** duckmap oddity was turned up last time:
-***** https://github.com/doomvox/raku-study/tree/main/bin/2025jul13/duckmap.raku
-****** interestingly: got a code example that works for 2023 raku but not 2025
-******* it turns out this wasn't an intended change, what it should be is unsettled.
-
-**** TODO doc problems
+**** duckmap *has* changed in behavior: 
+***** lizmat says this was inadvertant, but seems reluctant to change it back
+****** (if one was a cranky cantankerous negative individual, one might complain about such things)
+***** https://github.com/Raku/problem-solving/issues/486
 ***** https://docs.raku.org/routine/duckmap
-***** Rat?  Not Numeric?
-***** Why changed data with changed code?
-***** Possibly, better examples?
 
-*** rsg discussion: "Distributions, modules, compunits revisited?"
-**** https://github.com/doomvox/raku-study/discussions/23
-**** Marton Polgar
+***** duckmap oddity was turned up last time:
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025jul13/duckmap.raku
+******* interestingly: got a code example that works for 2023 raku but not 2025
+******** it turns out this wasn't an intended change, what it should be is unsettled.
 
-*** antonov: raku not data scientist friendly
-**** "sequence centered design"
-**** but with strong package support, so maybe they don't need to know that stuff.
-***** Q: "monadic pipeline" ?
-**** raku llm tools a little behind 
-***** llm issue: everyone has own protocol
-***** <llama> models you can run locally
-****** https://en.wikipedia.org/wiki/Llama_(language_model)
-****** antonov uses llama file: LLaMA
-****** https://raku.land/zef:antononcube/WWW::LLaMA
-**** note to self
-***** when you hear "LLM", think "document indexing"
-***** there's nothing wrong with doc indexing, despite faddish terminology
-***** anton describes it as converting text into vectors, and looking for nearest neighbors
-***** there's a trick involving going after sub-sets of likely relevant info
-****** this avoids spending weeks indexng everything available
+***** TODO doc problems
+****** https://docs.raku.org/routine/duckmap
+****** Rat?  Not Numeric?
+****** Why changed data with changed code?
+****** Possibly, better examples?
 
-*** William Michels, Raku for Scientific use:
-**** combining ranges and sequences is a nightmare (?)
+**** rsg discussion: "Distributions, modules, compunits revisited?"
+***** https://github.com/doomvox/raku-study/discussions/23
+***** Marton Polgar
 
-*** duck db
-**** tool for csv files that don't fit in memory
+**** antonov: raku not data scientist friendly
+***** "sequence centered design"
+***** but with strong package support, so maybe they don't need to know that stuff.
+****** Q: "monadic pipeline" ?
+***** raku llm tools a little behind 
+****** llm issue: everyone has own protocol
+****** <llama> models you can run locally
+******* https://en.wikipedia.org/wiki/Llama_(language_model)
+******* antonov uses llama file: LLaMA
+******* https://raku.land/zef:antononcube/WWW::LLaMA
+***** note to self
+****** when you hear "LLM", think "document indexing"
+****** there's nothing wrong with doc indexing, despite faddish terminology
+****** anton describes it as converting text into vectors, and looking for nearest neighbors
+****** there's a trick involving going after sub-sets of likely relevant info
+******* this avoids spending weeks indexng everything available
 
-*** discussion of raku vs R
-**** R (and Mathematica) is lisp-like (antonov)
-**** virtues of named vectors
+**** William Michels, Raku for Scientific use:
+***** combining ranges and sequences is a nightmare (?)
 
-*** complaint about raku's "rand"
-**** can't supply a known seed to get reproducible results
-**** complicates testing.
-**** myself, i'm surprised there's no "seed" option
-***** open a problem solving issue
+**** duck db
+***** tool for csv files that don't fit in memory
 
-*** anton did work on porting graphviz capability to various languages 
+**** discussion of raku vs R
+***** R (and Mathematica) is lisp-like (antonov)
+***** virtues of named vectors
 
-*** bill: hexbin in r
-**** https://cran.r-project.org/web/packages/hexbin/index.html
-**** https://r-graph-gallery.com/hexbin-map.html
-**** https://r-graph-gallery.com/100-high-density-scatterplot-with-binning.html
+**** complaint about raku's "rand"
+***** can't supply a known seed to get reproducible results
+***** complicates testing.
+***** myself, i'm surprised there's no "seed" option
+****** open a problem solving issue
 
-*** farley
-**** apogee == matt dowdy
-**** librasteve == steve rowe
-**** jubilatious1 == william michels
-**** util == bruce gray
-**** 2colours == Marton Polgar  (with accented 'a' s)
-**** doom == doomvox == tailorpaul == joseph brenner == me
-**** antonov == anton antonov
+**** anton did work on porting graphviz capability to various languages 
 
-*** antonov gets monadic on our pipelines
-**** data shapers raku package 
-***** steve
-**** red 
-***** 
-**** see "raku for prediction" blog
-**** R lang choices
-***** shiney 
-****** r studio interactive interface
-***** hark
+**** bill: hexbin in r
+***** https://cran.r-project.org/web/packages/hexbin/index.html
+***** https://r-graph-gallery.com/hexbin-map.html
+***** https://r-graph-gallery.com/100-high-density-scatterplot-with-binning.html
 
-*** antonov recomends using llms for interconvesion between formats
-**** rakudoc
-**** markdown
-**** jupyter
-***** e.g. "converting jupyter notebooks to mathematica notebooks"
+**** farley
+***** apogee == matt dowdy
+***** librasteve == steve rowe
+***** jubilatious1 == william michels
+***** util == bruce gray
+***** 2colours == Marton Polgar  (with accented 'a' s)
+***** doom == doomvox == tailorpaul == joseph brenner == me
+***** antonov == anton antonov
 
-**** antonov goes fast:
-***** "mindmap"?
-***** "not just using pandoc"
+**** antonov gets monadic on our pipelines
+***** data shapers raku package 
+****** steve
+***** red 
+****** 
+***** see "raku for prediction" blog
+***** R lang choices
+****** shiney 
+******* r studio interactive interface
+****** hark
 
-**** bill asks about "the Collatz conjecture"
-*****  https://mathworld.wolfram.com/CollatzProblem.html
-***** "i don't care about number theory"
-***** https://xkcd.com/710/
-***** weekly challenge 54
-***** numberphile and veritaseum
-****** https://youtu.be/5mFpVDpKX70
-****** https://youtu.be/094y1Z2wpJg
-***** https://www.youtube.com/@AAA4prediction/videos
-***** Anton Antonov's visualizations:
-****** https://rakuforprediction.wordpress.com/2025/05/25/collatz-conjecture-visualizations/
+**** antonov recomends using llms for interconvesion between formats
+***** rakudoc
+***** markdown
+***** jupyter
+****** e.g. "converting jupyter notebooks to mathematica notebooks"
 
-*** raku as "secret weapon"
+***** antonov goes fast:
+****** "mindmap"?
+****** "not just using pandoc"
+
+***** bill asks about "the Collatz conjecture"
+******  https://mathworld.wolfram.com/CollatzProblem.html
+****** "i don't care about number theory"
+****** https://xkcd.com/710/
+****** weekly challenge 54
+****** numberphile and veritaseum
+******* https://youtu.be/5mFpVDpKX70
+******* https://youtu.be/094y1Z2wpJg
+****** https://www.youtube.com/@AAA4prediction/videos
+****** Anton Antonov's visualizations:
+******* https://rakuforprediction.wordpress.com/2025/05/25/collatz-conjecture-visualizations/
+
+**** raku as "secret weapon"
 
 ** old topics (from last meeting -- TODO trim these)
 *** videos for 2025 perl & raku conference just went up
