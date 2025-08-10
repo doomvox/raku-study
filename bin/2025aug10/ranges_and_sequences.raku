@@ -48,7 +48,7 @@ say "===";
    #     at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025aug10/ranges_and_sequences.raku:45
    #     ------>    my $s = 3 ...⏏ 9;
 
-   my $s = 3 ... 9;
+   my $s := 3 ... 9;
    say $s;
 
    say "A: ";
