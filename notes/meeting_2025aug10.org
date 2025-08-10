@@ -25,6 +25,8 @@
 
 *** Rob found a python vs raku argument on linked in
 
+**** conciseness of Raku is an advantage
+
 *** Bruce Gray talk revisited
 **** ambiguity of the phrase 'cross product' (in response to a pedantic question from audience)
 ***** https://en.wikipedia.org/wiki/Cross_product_(disambiguation)
