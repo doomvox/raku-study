@@ -24,8 +24,6 @@
 *** ranges and sequences
 **** William Michels: "combining ranges and sequences is a nightmare"
 
-
-
 *** Rob found something odd in weekly challenge land
 
 *** python vs perl/raku
