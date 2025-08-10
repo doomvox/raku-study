@@ -5,3 +5,9 @@
 use v6;
 
 ## brian d foy example
+
+{
+    my $s := 1 ... 5;
+    put $s.reverse;
+    put $s;
+}
