@@ -18,3 +18,4 @@ for (3...1) { .say; }
 # 2
 # 1
 say "===";
+for (1..3).reverse { .say; }
