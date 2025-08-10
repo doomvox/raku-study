@@ -22,3 +22,7 @@ use v6;
 
 my $r =  3 .. 9;
 say $r;
+
+if ( 6 ~~ $r ) {
+    say "six matches range";
+}
