@@ -1,0 +1,9 @@
+#!/usr/bin/env raku
+# 
+# slipping_ranges_etc.raku            10 Aug 2025 
+
+use v6;
+
+
+my @a = 0..50;
+say @a[ |(3,5,7, 9 ... 11), |(13..15) ]';
