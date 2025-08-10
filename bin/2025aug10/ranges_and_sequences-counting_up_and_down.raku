@@ -56,7 +56,7 @@ say "===";
     
     # Error messages veer between superb and baffling, and the contrast itself can
     # be confusing-- am I supposed to understand "Useless use in sink context"
-    # or is that the devs throwing up their hands and finding something helpful to say?
+    # or is that the devs throwing up their hands at finding something helpful to say?
 
 
 
