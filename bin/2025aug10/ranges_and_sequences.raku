@@ -39,8 +39,9 @@ use v6;
     }
     # two is not in range
 }
-
 say "===";
+
+## Note: triple dot is not just a variant of double dot.
 {
    # Potential difficulties:
    #     Useless use of ... in sink context
