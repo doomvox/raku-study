@@ -20,18 +20,36 @@ use v6;
 
 # William Michels: combining ranges and sequences is a nightmare
 
-my $r =  3 .. 9;
-say $r;
-# 3..9
+{
+    my $r =  3 .. 9;
+    say $r;
+    # 3..9
 
-if ( 6 ~~ $r ) {
-    say "six matches range";
-}
-# six matches range
+    if ( 6 ~~ $r ) {
+        say "six matches range";
+    }
+    # six matches range
 
-if ( 2 ~~ $r ) {
-    say "two matches range";
-} else {
-    say "two is not in range";
+    if ( 2 ~~ $r ) {
+        say "two matches range";
+    } else {
+        say "two is not in range";
+    }
+    # two is not in range
 }
-# two is not in range
+
+{
+   my $s = 3 ... 9;
+   say $s;
+      if ( 6 ~~ $s ) {
+        say "six matches range";
+    }
+    # six matches range
+
+    if ( 2 ~~ $s ) {
+        say "two matches range";
+    } else {
+        say "two is not in range";
+    }
+    # two is not in range
+}
