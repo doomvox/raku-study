@@ -48,4 +48,16 @@ say "===";
 
     # (In conclusion, raku sequences are great but they're whacked and you need
     # to turn them into lists quickly to keep from losing your marbles.)
+
+    # (Editorial: the similarity of syntax between range and sequence creation
+    #  can grossly mislead you into thinking they're more similar than they are.
+    #  It can work as a mnemonic, but you need to remember when the mnemonic works
+    #  and when it doesn't.)
+    
+    # Error messages veer between superb and baffling, and the contrast itself can
+    # be confusing-- am I supposed to understand "Useless use in sink context"
+    # or is that the devs throwing up their hands and finding something helpful to say?
+
+
+
 }
