@@ -24,6 +24,8 @@ for (1..3).reverse { .say; }
 # 1
 say "===";
 {
+    # Potential difficulties:
+    #     Useless use of ... in sink context
     my $s = 3 ... 1;
     for $s { .say; }
     # 3
