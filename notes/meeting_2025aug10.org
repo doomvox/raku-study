@@ -21,6 +21,9 @@
 
 ** topics
 
+*** Rob found something odd in weekly challenge land
+
+
 *** Bruce Gray talk revisited
 **** ambiguity of the phrase 'cross product' (in response to a pedantic question from audience)
 ***** https://en.wikipedia.org/wiki/Cross_product_(disambiguation)
