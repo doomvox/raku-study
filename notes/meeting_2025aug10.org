@@ -39,6 +39,8 @@
 
 ***** impressed they could write a mathematica interpreter in python
 
+***** https://pypi.org/urser/antononcube/
+
 **** william michels
 ***** https://arxiv.org/abs/1910.08129
 
