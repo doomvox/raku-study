@@ -44,6 +44,4 @@ say "===";
 # might solve this by adding .cache on usages of the Seq, or by assigning
 # the Seq into an array)
 
-
-   say "that errored out, right?";
 }
