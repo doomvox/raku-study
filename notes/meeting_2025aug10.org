@@ -197,7 +197,7 @@
 **** Possibly, better examples?
 
 
-*** clean up firefox tabs, idij
+*** clean up firefox tabs, idjit
 
 ** announcements 
 *** next meetings
