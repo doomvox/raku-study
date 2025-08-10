@@ -76,59 +76,16 @@
 ******* interestingly: got a code example that works for 2023 raku but not 2025
 ******** it turns out this wasn't an intended change, what it should be is unsettled.
 
-
-
-**** antonov gets monadic on our pipelines
-***** data shapers raku package 
-****** steve
-***** red 
-****** 
-***** see "raku for prediction" blog
-***** R lang choices
-****** shiney 
-******* r studio interactive interface
-****** hark
-
-**** antonov recomends using llms for interconvesion between formats
-***** rakudoc
-***** markdown
-***** jupyter
-****** e.g. "converting jupyter notebooks to mathematica notebooks"
-
-***** antonov goes fast:
-****** "mindmap"?
-****** "not just using pandoc"
-
-***** bill asks about "the Collatz conjecture"
-******  https://mathworld.wolfram.com/CollatzProblem.html
-****** "i don't care about number theory"
-****** https://xkcd.com/710/
-****** weekly challenge 54
-****** numberphile and veritaseum
-******* https://youtu.be/5mFpVDpKX70
-******* https://youtu.be/094y1Z2wpJg
-****** https://www.youtube.com/@AAA4prediction/videos
-****** Anton Antonov's visualizations:
-******* https://rakuforprediction.wordpress.com/2025/05/25/collatz-conjecture-visualizations/
-
-**** raku as "secret weapon"
-
-** old topics (from last meeting -- TODO trim these)
-*** videos for 2025 perl & raku conference just went up
-**** Bruce Gray on hyperoperators
-***** https://www.youtube.com/watch?v=_OMsWYLQLqU
-
+*** complaint about raku's "rand"
+***** can't supply a known seed to get reproducible results
+****** bruce: there *is* an srand, but it's got bugs
+****** work in progress on it
 
 *** William Michels: Raku answers to shell questions
 **** https://unix.stackexchange.com/a/797530/227738
 **** https://unix.stackexchange.com/a/797471/227738
 **** https://unix.stackexchange.com/a/797904/227738
 
-
-*** would filtered inheritence make sense
-**** when you want to inherit some of the material, but skip parts that don't make sense
-**** a wonky idea of mine
-***** use case: fix problem of trig methods available on Arrays
 
 *** liskov substitution princple gets no respect
 **** list behaves differently from array even though array is a list
