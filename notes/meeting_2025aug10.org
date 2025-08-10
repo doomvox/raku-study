@@ -197,6 +197,8 @@
 **** Possibly, better examples?
 
 
+*** clean up firefox tabs
+
 ** announcements 
 *** next meetings
 
