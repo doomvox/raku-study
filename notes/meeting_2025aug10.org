@@ -76,15 +76,6 @@
 ******* interestingly: got a code example that works for 2023 raku but not 2025
 ******** it turns out this wasn't an intended change, what it should be is unsettled.
 
-**** TODO start a people file already 
-***** farley
-****** apogee == matt dowdy
-****** librasteve == steve rowe
-****** jubilatious1 == william michels
-****** util == bruce gray
-****** 2colours == Marton Polgar  (with accented 'a' s)
-****** doom == doomvox == tailorpaul == joseph brenner == me
-****** antonov == anton antonov
 
 **** antonov gets monadic on our pipelines
 ***** data shapers raku package 
@@ -159,6 +150,17 @@
 ***** complicates testing.
 ***** myself, i'm surprised there's no "seed" option
 ****** TODO open a problem solving issue
+
+*** TODO start a people file already 
+**** farley
+***** apogee == matt dowdy
+***** librasteve == steve rowe
+***** jubilatious1 == william michels
+***** util == bruce gray
+***** 2colours == Marton Polgar  (with accented 'a' s)
+***** doom == doomvox == tailorpaul == joseph brenner == me
+***** antonov == anton antonov
+
 
 ** announcements 
 *** next meetings
