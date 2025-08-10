@@ -19,7 +19,7 @@
 **** discussion group
 ***** https://github.com/doomvox/raku-study/discussions 
 
-** topics
+** older but maybe not dead topics
 
 *** Bruce Gray talk revisited
 **** ambiguity of the phrase 'cross product' (in response to a pedantic question from audience)
