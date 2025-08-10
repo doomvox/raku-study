@@ -41,7 +41,6 @@ use v6;
 }
 say "===";
 
-
 {
 
    ## Note: if you assign a seq to a var you get a mystery warning: 
