@@ -20,3 +20,5 @@ use v6;
 
 # William Michels: combining ranges and sequences is a nightmare
 
+my $r =  3 .. 9;
+say $r;
