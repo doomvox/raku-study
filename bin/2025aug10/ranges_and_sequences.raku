@@ -26,3 +26,8 @@ say $r;
 if ( 6 ~~ $r ) {
     say "six matches range";
 }
+
+
+if ( 2 ~~ $r ) {
+    say "six matches range";
+}
