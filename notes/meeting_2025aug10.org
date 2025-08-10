@@ -24,8 +24,6 @@
 *** ranges and sequences
 **** William Michels: "combining ranges and sequences is a nightmare"
 
-*** Rob found something odd in weekly challenge land
-
 *** python vs perl/raku
 **** Rob found a python vs raku argument on linked in
 ***** conciseness of Raku is an advantage
