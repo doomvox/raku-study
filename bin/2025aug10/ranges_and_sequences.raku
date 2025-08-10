@@ -29,5 +29,7 @@ if ( 6 ~~ $r ) {
 
 
 if ( 2 ~~ $r ) {
-    say "six matches range";
+    say "two matches range";
+} else {
+    say "two is not in range";
 }
