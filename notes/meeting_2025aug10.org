@@ -44,6 +44,9 @@
 **** william michels
 ***** https://arxiv.org/abs/1910.08129
 
+*** william michels at play in stackoverflow land:
+**** https://stackoverflow.com/questions/43370856/how-can-i-pass-a-perl-6-object-through-a-nativecall-callback
+
 *** Bruce Gray talk revisited
 **** ambiguity of the phrase 'cross product' (in response to a pedantic question from audience)
 ***** https://en.wikipedia.org/wiki/Cross_product_(disambiguation)
