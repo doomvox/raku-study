@@ -28,7 +28,6 @@
 ***** https://en.wikipedia.org/wiki/Cartesian_product
 ***** https://www.geeksforgeeks.org/sql/sql-cross-join/
 
-
 **** see:
 ***** Bruce Gray talk on hyperoperators
 ******* https://www.youtube.com/watch?v=_OMsWYLQLqU
