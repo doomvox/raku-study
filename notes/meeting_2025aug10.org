@@ -40,7 +40,8 @@
 **** https://github.com/Raku/problem-solving/issues/430
 **** https://github.com/Raku/problem-solving/issues/351
 
-*** duckmap changed behavior: 
+*** duckmap has changed in behavior: 
+**** lizmat says this was inadvertant, but seems reluctant to change it back
 **** https://github.com/Raku/problem-solving/issues/486
 **** https://docs.raku.org/routine/duckmap
 
