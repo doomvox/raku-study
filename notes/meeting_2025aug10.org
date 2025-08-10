@@ -83,7 +83,7 @@
 ***** can't supply a known seed to get reproducible results
 ****** bruce: there *is* an srand, but it's got bugs
 ******* https://docs.raku.org/routine/srand
-****** work in progress on it
+****** work is in progress on this
 
 *** William Michels: Raku answers to shell questions
 **** https://unix.stackexchange.com/a/797530/227738
