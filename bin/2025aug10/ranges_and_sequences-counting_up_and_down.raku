@@ -10,7 +10,7 @@ for 1..3 { .say; }
 # 3
 
 say "===";
-for (3..1) { .say; }
+for 3..1 { .say; }
 # <no output>
 say "===";
 for (3...1) { .say; }
