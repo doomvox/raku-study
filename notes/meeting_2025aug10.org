@@ -37,6 +37,9 @@
 ***** https://pythonforprediction.wordpress.com
 ***** https://pythonforprediction.wordpress.com/2022/09/18/breakdown-of-python-people-and-projects/
 
+***** impressed they could write a mathematica interpreter in python
+
+
 *** Bruce Gray talk revisited
 **** ambiguity of the phrase 'cross product' (in response to a pedantic question from audience)
 ***** https://en.wikipedia.org/wiki/Cross_product_(disambiguation)
