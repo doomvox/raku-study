@@ -45,11 +45,13 @@ say "===";
    my $s = 3 ... 9;
    say $s;
 
+   say "A: ";
    if ( 6 ~~ $s ) {
         say "six matches range";
     }
     # six matches range
 
+    say "B: ";
     if ( 2 ~~ $s ) {
         say "two matches range";
     } else {
