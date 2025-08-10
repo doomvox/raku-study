@@ -77,6 +77,7 @@
 ******** it turns out this wasn't an intended change, what it should be is unsettled.
 
 
+
 **** antonov gets monadic on our pipelines
 ***** data shapers raku package 
 ****** steve
@@ -144,12 +145,6 @@
 
 
 *** clean up firefox tabs, idjit
-
-*** complaint about raku's "rand"
-***** can't supply a known seed to get reproducible results
-***** complicates testing.
-***** myself, i'm surprised there's no "seed" option
-****** TODO open a problem solving issue
 
 *** TODO start a people file already 
 **** farley
