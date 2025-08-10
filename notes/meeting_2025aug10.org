@@ -76,37 +76,6 @@
 ******* interestingly: got a code example that works for 2023 raku but not 2025
 ******** it turns out this wasn't an intended change, what it should be is unsettled.
 
-**** rsg discussion: "Distributions, modules, compunits revisited?"
-***** https://github.com/doomvox/raku-study/discussions/23
-***** Marton Polgar
-
-**** antonov: raku not data scientist friendly
-***** "sequence centered design"
-***** but with strong package support, so maybe they don't need to know that stuff.
-****** Q: "monadic pipeline" ?
-***** raku llm tools a little behind 
-****** llm issue: everyone has own protocol
-****** <llama> models you can run locally
-******* https://en.wikipedia.org/wiki/Llama_(language_model)
-******* antonov uses llama file: LLaMA
-******* https://raku.land/zef:antononcube/WWW::LLaMA
-***** note to self
-****** when you hear "LLM", think "document indexing"
-****** there's nothing wrong with doc indexing, despite faddish terminology
-****** anton describes it as converting text into vectors, and looking for nearest neighbors
-****** there's a trick involving going after sub-sets of likely relevant info
-******* this avoids spending weeks indexng everything available
-
-**** William Michels, Raku for Scientific use:
-***** combining ranges and sequences is a nightmare (?)
-
-**** duck db
-***** tool for csv files that don't fit in memory
-
-**** discussion of raku vs R
-***** R (and Mathematica) is lisp-like (antonov)
-***** virtues of named vectors
-
 **** complaint about raku's "rand"
 ***** can't supply a known seed to get reproducible results
 ***** complicates testing.
