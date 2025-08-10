@@ -21,6 +21,10 @@
 
 ** topics
 
+*** flat hammer
+**** code example
+**** https://github.com/Raku/roast/blob/master/S32-list/flat.t
+
 *** ranges and sequences
 **** William Michels: "combining ranges and sequences is a nightmare"
 **** golden oldie:
