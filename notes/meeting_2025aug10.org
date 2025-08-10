@@ -59,7 +59,7 @@
 ******** https://speakerdeck.com/util
 
 
-*** older topics we didn't say much about
+*** revisiting older topics:
 **** flatmap probably isn't deprecated
 ***** https://github.com/Raku/problem-solving/issues/430
 ***** https://github.com/Raku/problem-solving/issues/351
