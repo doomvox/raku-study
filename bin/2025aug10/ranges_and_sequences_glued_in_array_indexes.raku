@@ -11,3 +11,10 @@ use v6;
 }
 
 ## Bruce's point: "don't do that"
+
+
+{
+    my @a = 0..50;
+    say @a[ 3, (5 ... 11), 13..15 ];
+    # (3 5 7 9 11 3)
+}
