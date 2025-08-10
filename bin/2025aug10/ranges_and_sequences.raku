@@ -31,6 +31,7 @@ use v6;
     }
     # six matches range
 
+    say "B: ";
     if ( 2 ~~ $r ) {
         say "two matches range";
     } else {
