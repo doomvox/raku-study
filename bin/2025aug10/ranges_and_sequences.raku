@@ -41,7 +41,8 @@ use v6;
 {
    my $s = 3 ... 9;
    say $s;
-      if ( 6 ~~ $s ) {
+
+   if ( 6 ~~ $s ) {
         say "six matches range";
     }
     # six matches range
