@@ -39,6 +39,9 @@
 
 ***** https://pypi.org/urser/antononcube/
 
+***** antonov has worked on
+****** https://en.wikipedia.org/wiki/Quantile_regression
+
 **** william michels
 ***** https://arxiv.org/abs/1910.08129
 
