@@ -30,7 +30,7 @@
 
 ** old topics
 
-*** Bruce Gray on hyperoperators
+*** Bruce Gray talk on hyperoperators
 ***** https://www.youtube.com/watch?v=_OMsWYLQLqU
 ***** slides
 ****** https://speakerdeck.com/util
