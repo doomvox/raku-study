@@ -55,6 +55,7 @@ say "===";
    # So we bind it to a var, rather than assign it.
    my $s := 3 ... 9;
    say $s;
+   # (3 4 5 6 7 8 9)
 
    say "A: ";
    if ( 6 ~~ $s ) {
