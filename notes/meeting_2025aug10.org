@@ -33,12 +33,9 @@
 ***** https://www.jwz.org/blog/2025/08/fucking-python/
 ***** breakage on upgrade with python
 
-**** anton on pythong 
+**** anton on python:
 ***** https://pythonforprediction.wordpress.com
 ***** https://pythonforprediction.wordpress.com/2022/09/18/breakdown-of-python-people-and-projects/
-
-
-
 
 *** Bruce Gray talk revisited
 **** ambiguity of the phrase 'cross product' (in response to a pedantic question from audience)
