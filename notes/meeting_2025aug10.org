@@ -22,7 +22,7 @@
 ** topics
 
 *** Bruce Gray talk 
-**** ambiguity of the phrase 'cross product'
+**** ambiguity of the phrase 'cross product' (in response to a pedantic question from audience)
 ***** https://en.wikipedia.org/wiki/Cross_product_(disambiguation)
 ***** https://en.wikipedia.org/wiki/Cross_product
 ***** https://en.wikipedia.org/wiki/Cartesian_product
