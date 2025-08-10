@@ -10,5 +10,5 @@ say @monsters[ 1 .. 3 ];   ## (araxxor borrokar damis)
 say @monsters[ 1 ... 3 ];  ## (araxxor borrokar damis)
 
 say @monsters[ 3 .. 1 ];   ## ()
-say @monsters[ (3 .. 1).reverse ];   ## ()  ## Huh?
-say (3 .. 1).reverse;
+say @monsters[ (1 .. 3).reverse ]; 
+
