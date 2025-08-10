@@ -6,4 +6,6 @@ use v6;
 
 my @monsters = < ankou araxxor borrokar damis delrith elvarg kalrag yuri >; ## www.runehq.com
 
-say @monsters[ 1 .. 3 ];
+say @monsters[ 1 .. 3 ];  ## (araxxor borrokar damis)
+
+say @monsters[ 1 ... 3 ];  ## (araxxor borrokar damis)
