@@ -9,3 +9,5 @@ use v6;
     say @a[ 3, 5 ... 11, 13..15 ];
     # (3 5 7 9 11 3)
 }
+
+## Bruce's point: "don't do that"
