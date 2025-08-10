@@ -22,8 +22,8 @@ for (1..3).reverse { .say; }
 # 3
 # 2
 # 1
+say "===";
 {
-    say "===";
     my $s = 3 ... 1;
     for $s { .say; }
 
