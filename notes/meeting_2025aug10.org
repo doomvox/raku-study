@@ -22,8 +22,8 @@
 ** topics
 
 *** ranges and sequences
-**** William Michels, Raku for Scientific use:
-***** combining ranges and sequences is a nightmare (?)
+**** William Michels: "combining ranges and sequences is a nightmare"
+
 
 
 *** Rob found something odd in weekly challenge land
