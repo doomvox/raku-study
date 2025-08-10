@@ -9,4 +9,5 @@ my @monsters = < ankou araxxor borrokar damis delrith elvarg kalrag yuri >; ## w
 say @monsters[ 1 .. 3 ];   ## (araxxor borrokar damis)
 say @monsters[ 1 ... 3 ];  ## (araxxor borrokar damis)
 
-say @monsters[ 3 .. 1 ];   ## (araxxor borrokar damis)
+say @monsters[ 3 .. 1 ];   ## ()
+say @monsters[ 3 .. 1.reverse ];   ## ()
