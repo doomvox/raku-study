@@ -35,6 +35,7 @@
 ******* slides
 ******** https://speakerdeck.com/util
 
+
 *** flatmap probably isn't deprecated
 **** https://github.com/Raku/problem-solving/issues/430
 **** https://github.com/Raku/problem-solving/issues/351
