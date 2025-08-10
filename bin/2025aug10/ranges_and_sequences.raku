@@ -59,19 +59,6 @@ say "===";
 
    say $s;
 
-#    say "A: ";
-#    if ( 6 ~~ $s ) {
-#         say "six matches range";
-#     }
-#     # <no output>
-
-#     say "B: ";
-#     if ( 2 ~~ $s ) {
-#         say "two matches range";
-#     } else {
-#         say "two is not in range";
-#     }
-#     # two is not in range
 }
 
 
