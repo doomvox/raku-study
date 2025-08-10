@@ -11,6 +11,8 @@ use v6;
     put $s.reverse;
     put $s;
 
+## That second put errors out, with helpful error message:
+
 # The iterator of this Seq is already in use/consumed by another Seq (you
 # might solve this by adding .cache on usages of the Seq, or by assigning
 # the Seq into an array)
