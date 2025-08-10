@@ -4,7 +4,7 @@
 
 use v6;
 
-## brian d foy example
+## brian d foy example, p. 101 "Learning Perl 6":
 
 {
     my $s := 1 ... 5;
