@@ -19,7 +19,7 @@
 **** discussion group
 ***** https://github.com/doomvox/raku-study/discussions 
 
-** older but maybe not dead topics
+** topics
 
 *** Bruce Gray talk revisited
 **** ambiguity of the phrase 'cross product' (in response to a pedantic question from audience)
@@ -36,6 +36,7 @@
 ******** https://speakerdeck.com/util
 
 
+** older topics we didn't say much about
 *** flatmap probably isn't deprecated
 **** https://github.com/Raku/problem-solving/issues/430
 **** https://github.com/Raku/problem-solving/issues/351
