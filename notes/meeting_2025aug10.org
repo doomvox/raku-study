@@ -21,7 +21,7 @@
 
 ** topics
 
-*** Bruce Gray talk 
+*** Bruce Gray talk revisited
 **** ambiguity of the phrase 'cross product' (in response to a pedantic question from audience)
 ***** https://en.wikipedia.org/wiki/Cross_product_(disambiguation)
 ***** https://en.wikipedia.org/wiki/Cross_product
