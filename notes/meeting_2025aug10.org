@@ -33,7 +33,7 @@
 ***** https://www.jwz.org/blog/2025/08/fucking-python/
 ***** breakage on upgrade with python
 
-**** anton on python:
+**** antonov on python:
 ***** https://pythonforprediction.wordpress.com
 ***** https://pythonforprediction.wordpress.com/2022/09/18/breakdown-of-python-people-and-projects/
 
