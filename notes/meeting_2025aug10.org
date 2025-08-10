@@ -82,6 +82,7 @@
 *** complaint about raku's "rand"
 ***** can't supply a known seed to get reproducible results
 ****** bruce: there *is* an srand, but it's got bugs
+******* https://docs.raku.org/routine/srand
 ****** work in progress on it
 
 *** William Michels: Raku answers to shell questions
