@@ -23,6 +23,7 @@
 
 *** Rob found something odd in weekly challenge land
 
+*** Rob found a python vs raku argument on linked in
 
 *** Bruce Gray talk revisited
 **** ambiguity of the phrase 'cross product' (in response to a pedantic question from audience)
