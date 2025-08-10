@@ -13,3 +13,5 @@ say @monsters[ 3 .. 1 ];   ## ()
 say @monsters[ (1 .. 3).reverse ];  ## (damis borrokar araxxor)
 
 say @monsters[ 3 ... 1 ];   ## (damis borrokar araxxor)
+
+
