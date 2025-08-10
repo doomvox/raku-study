@@ -26,4 +26,5 @@ my $s := 1, 3, 5 ... 13;
 say $s[3]; # 7
 say $s[2]; # 5
 
-say $s[3]; # 7
+say $s[3]; # 7   ## Q: what happened to "exhaustion"?  There's no .cache here.
+               
