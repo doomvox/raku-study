@@ -25,6 +25,7 @@ use v6;
     say $r;
     # 3..9
 
+    say "A: ";
     if ( 6 ~~ $r ) {
         say "six matches range";
     }
