@@ -56,7 +56,6 @@ say "===";
    my $s := 3 ... 9;
    say $s;
    # (3 4 5 6 7 8 9)
-
    say $s;
 
 }
@@ -65,18 +64,4 @@ say "===";
 # {
 #    my $s = 3, 4, 5 ... 9;
 #    say $s;
-
-#    say "A: ";
-#    if ( 6 ~~ $s ) {
-#         say "six matches range";
-#     }
-#     # <no output>
-
-#     say "B: ";
-#     if ( 2 ~~ $s ) {
-#         say "two matches range";
-#     } else {
-#         say "two is not in range";
-#     }
-#     # two is not in range
 # }
