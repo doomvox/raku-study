@@ -23,6 +23,7 @@ for (1..3).reverse { .say; }
 # 2
 # 1
 {
+    say "===";
     my $s = 3 ... 1;
     for $s { .say; }
 
