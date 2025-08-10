@@ -38,6 +38,7 @@ use v6;
     # two is not in range
 }
 
+say "===";
 {
    my $s = 3 ... 9;
    say $s;
