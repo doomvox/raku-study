@@ -22,14 +22,16 @@ use v6;
 
 my $r =  3 .. 9;
 say $r;
+# 3..9
 
 if ( 6 ~~ $r ) {
     say "six matches range";
 }
-
+# six matches range
 
 if ( 2 ~~ $r ) {
     say "two matches range";
 } else {
     say "two is not in range";
 }
+# two is not in range
