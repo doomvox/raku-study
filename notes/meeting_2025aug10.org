@@ -23,6 +23,8 @@
 
 *** ranges and sequences
 **** William Michels: "combining ranges and sequences is a nightmare"
+**** golden oldie:
+***** https://github.com/Raku/problem-solving/issues/407#issuecomment-1834227391
 
 *** python vs perl/raku
 **** Rob found a python vs raku argument on linked in
