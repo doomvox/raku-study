@@ -25,3 +25,5 @@ for (1..3).reverse { .say; }
 {
     my $s = 3 ... 1;
     for $s { .say; }
+
+}
