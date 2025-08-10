@@ -66,8 +66,11 @@
 
 **** duckmap *has* changed in behavior: 
 ***** lizmat says this was inadvertant, but seems reluctant to change it back
+****** another editorial:
+#+BEGIN_SRC text
    (if one was a cranky cantankerous negative individual,
     one might complain about such things)
+#+END_SRC
 ***** https://github.com/Raku/problem-solving/issues/486
 ***** https://docs.raku.org/routine/duckmap
 
