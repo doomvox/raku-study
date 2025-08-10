@@ -55,7 +55,7 @@ say "===";
    if ( 6 ~~ $s ) {
         say "six matches range";
     }
-    # six matches range
+    # <no output>
 
     say "B: ";
     if ( 2 ~~ $s ) {
