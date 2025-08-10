@@ -176,11 +176,11 @@
 ** follow-up
 *** log-in to stackexchange: think about giving William Michels some upvotes
 
-***** TODO doc problems
-****** https://docs.raku.org/routine/duckmap
-****** Rat?  Not Numeric?
-****** Why changed data with changed code?
-****** Possibly, better examples?
+*** TODO doc problems
+**** https://docs.raku.org/routine/duckmap
+**** Rat?  Not Numeric?
+**** Why changed data with changed code?
+**** Possibly, better examples?
 
 
 ** announcements 
