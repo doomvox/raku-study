@@ -21,6 +21,12 @@
 
 ** topics
 
+*** Bruce Gray talk 
+**** ambiguity of the phrase 'cross product'
+***** https://en.wikipedia.org/wiki/Cross_product_(disambiguation)
+***** https://en.wikipedia.org/wiki/Cross_product
+***** 
+
 ** old topics
 
 *** Bruce Gray on hyperoperators
