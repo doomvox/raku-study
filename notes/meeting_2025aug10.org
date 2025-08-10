@@ -24,7 +24,6 @@
 *** Rob found something odd in weekly challenge land
 
 *** Rob found a python vs raku argument on linked in
-
 **** conciseness of Raku is an advantage
 
 *** Bruce Gray talk revisited
