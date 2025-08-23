@@ -38,3 +38,19 @@ Recent questions on StackOverflow pertaining to Mixins in Raku have piqued my in
 For example, in the R-programming language, elements of a vector can be given a name (i.e. an attribute), which is very convenient for data analysis. For an excellent example see: "How to Name the Values in Your Vectors in R" by Andrie de Vries and Joris Meys, who illustrate this feature using R's built-in islands dataset. Below is a more prosaic example (code run in the R-REPL):
 
 ===
+
+
+
+Flattening
+
+The .flat method optionally takes a :hammer named argument, which will deeply flatten any data structure given:
+
+my @a = 1, [2, [3,4]];
+say @a.flat;           # (1 [2 [3 4]])
+say @a.flat(:hammer);  # (1 2 3 4)
+
+One can now also use HyperWhatever (aka **) in a postcircumfix [ ] for the same semantics:
+
+my @a = 1, [2, [3,4]];
+say @a[*];   # (1 [2 [3 4]])
+say @a[**];  # (1 2 3 4)
