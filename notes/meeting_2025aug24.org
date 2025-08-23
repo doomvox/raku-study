@@ -16,7 +16,7 @@
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025aug10.org 
 
-***** discussion group at github
+***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
