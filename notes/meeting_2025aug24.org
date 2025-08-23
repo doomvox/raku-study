@@ -51,20 +51,19 @@ foo $[1,2,3];  # item
 ****** what is this for, really?
 
 *** flatnessizers
-
-*** flat hammer
-**** code example
-***** https://github.com/Raku/roast/blob/master/S32-list/flat.t
+**** flat hammer
+***** code example
+****** https://github.com/Raku/roast/blob/master/S32-list/flat.t
 #+BEGIN_SRC raku
 is-deeply @a.flat(:hammer), $hammered, 'array.flat(:hammer)';
 #+END_SRC 
-***** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
+****** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
 #+BEGIN_SRC raku
 my @a = 1, [2, [3,4]];
 say @a.flat;           # (1 [2 [3 4]])
 say @a.flat(:hammer);  # (1 2 3 4)
 #+END_SRC 
-****** One can now also use HyperWhatever (aka **) in a postcircumfix [ ] for the same semantics:
+******* One can now also use HyperWhatever (aka **) in a postcircumfix [ ] for the same semantics:
 #+BEGIN_SRC raku
 my @a = 1, [2, [3,4]];
 say @a[*];   # (1 [2 [3 4]])
