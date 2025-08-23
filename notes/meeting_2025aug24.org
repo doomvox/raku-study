@@ -1,0 +1,146 @@
+* meeting notes August 24, 2025
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025aug24.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025aug24
+
+****** duckmap examples are here:
+******* https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
+
+****** Subtitle parsing (a subject I'll revive some day):
+******* https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025aug10.org 
+
+**** discussion group
+***** https://github.com/doomvox/raku-study/discussions 
+
+** topics
+
+*** flat hammer
+**** code example
+**** https://github.com/Raku/roast/blob/master/S32-list/flat.t
+#+BEGIN_SRC raku
+is-deeply @a.flat(:hammer), $hammered, 'array.flat(:hammer)';
+#+END_SRC 
+
+*** ranges and sequences
+**** William Michels: "combining ranges and sequences is a nightmare"
+**** golden oldie:
+***** https://github.com/Raku/problem-solving/issues/407#issuecomment-1834227391
+
+*** python vs perl/raku
+**** Rob found a python vs raku argument on linked in
+***** conciseness of Raku is an advantage
+**** python vs perl
+***** https://www.jwz.org/blog/2025/08/fucking-python/
+***** breakage on upgrade with python
+
+**** antonov on python:
+***** https://pythonforprediction.wordpress.com
+***** https://pythonforprediction.wordpress.com/2022/09/18/breakdown-of-python-people-and-projects/
+
+***** impressed they could write a mathematica interpreter in python
+
+***** https://pypi.org/urser/antononcube/
+
+***** antonov has worked on
+****** https://en.wikipedia.org/wiki/Quantile_regression
+
+**** william michels
+***** https://arxiv.org/abs/1910.08129
+
+*** william michels at play in stackoverflow land:
+**** https://stackoverflow.com/questions/43370856/how-can-i-pass-a-perl-6-object-through-a-nativecall-callback
+
+*** Bruce Gray talk revisited
+**** ambiguity of the phrase 'cross product' (in response to a pedantic question from audience)
+***** https://en.wikipedia.org/wiki/Cross_product_(disambiguation)
+***** https://en.wikipedia.org/wiki/Cross_product
+***** https://en.wikipedia.org/wiki/Cartesian_product
+***** https://www.geeksforgeeks.org/sql/sql-cross-join/
+
+**** see:
+***** Bruce Gray talk on hyperoperators
+******* https://www.youtube.com/watch?v=_OMsWYLQLqU
+******* slides
+******** https://speakerdeck.com/util
+
+
+*** revisiting older topics:
+**** flatmap probably isn't deprecated
+***** https://github.com/Raku/problem-solving/issues/430
+***** https://github.com/Raku/problem-solving/issues/351
+
+**** duckmap *has* changed in behavior: 
+***** lizmat says this was inadvertant, but seems reluctant to change it back
+****** another editorial:
+#+BEGIN_SRC text
+   (if one was a cranky cantankerous negative individual,
+    one might complain about such things)
+#+END_SRC
+***** https://github.com/Raku/problem-solving/issues/486
+***** https://docs.raku.org/routine/duckmap
+
+***** duckmap oddity was turned up last time:
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025jul13/duckmap.raku
+******* interestingly: got a code example that works for 2023 raku but not 2025
+******** it turns out this wasn't an intended change, what it should be is unsettled.
+
+*** complaint about raku's "rand"
+***** can't supply a known seed to get reproducible results
+****** bruce: there *is* an srand, but it's got bugs
+******* https://docs.raku.org/routine/srand
+****** work is in progress on this
+
+*** William Michels: Raku answers to shell questions
+**** https://unix.stackexchange.com/a/797530/227738
+**** https://unix.stackexchange.com/a/797471/227738
+**** https://unix.stackexchange.com/a/797904/227738
+
+
+*** liskov substitution princple gets no respect
+**** list behaves differently from array even though array is a list
+
+
+** follow-up
+*** log-in to stackexchange: think about giving William Michels some upvotes
+
+*** TODO doc problems
+**** https://docs.raku.org/routine/duckmap
+**** Rat?  Not Numeric?
+**** Why changed data with changed code?
+**** Possibly, better examples?
+
+
+*** clean up firefox tabs, idjit
+
+*** TODO start a people file already 
+**** farley
+***** apogee == matt dowdy
+***** librasteve == steve rowe
+***** jubilatious1 == william michels
+***** util == bruce gray
+***** 2colours == Marton Polgar  (with accented 'a' s)
+***** doom == doomvox == tailorpaul == joseph brenner == me
+***** antonov == anton antonov
+
+
+** announcements 
+*** next meetings
+
+**** Aug 24, 2025 
+**** Sep  7, 2025 (ok: labor day weekend was the week before)
+**** Sep 21, 2025 
+**** Oct  5, 2025
+**** Oct 19, 2025
+**** Nov 2, 2025
+**** Nov 16, 2025
+**** Dec 7, 2025 (three week gap, to get past thanksgiving weekend)
+**** Dec 21, 2025
+**** Jan  4, 2025
+**** Jan  18, 2025
