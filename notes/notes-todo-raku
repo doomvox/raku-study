@@ -54,3 +54,5 @@ One can now also use HyperWhatever (aka **) in a postcircumfix [ ] for the same 
 my @a = 1, [2, [3,4]];
 say @a[*];   # (1 [2 [3 4]])
 say @a[**];  # (1 2 3 4)
+
+===
