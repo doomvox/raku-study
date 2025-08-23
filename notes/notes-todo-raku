@@ -1,0 +1,19 @@
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/notes-todo-raku
+Saturday August 23, 2025   4:46 PM
+
+I bad idea whose time has come: notes-todo-raku
+A FINO stack of bits or raku-ism I want to keep track of.
+
+]librasteve[S] 1 point 1 month ago 
+
+thanks for explaining - yeah raku can be a bit different, I get that it's not for everyone and that you have to be a bit of a contrarian to want to use it
+
+fwiw its not an either/or though, raku has both
+
+role composition: role R { method m { say 'ho' } } class C1 does R {}; C1.new.m; # 'ho'
+
+class inheritance: class C1 { method m { say 'yo' } } class C2 is C1 {}; C2.new.m; # 'yo'
+
+dang I did it again!
+
+[raku has the vast majority features of the Java / C++ OO system but with much less heavyweight syntax]
