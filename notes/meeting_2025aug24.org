@@ -55,10 +55,13 @@ foo $[1,2,3];  # item
 
 *** flat hammer
 **** code example
-**** https://github.com/Raku/roast/blob/master/S32-list/flat.t
+***** https://github.com/Raku/roast/blob/master/S32-list/flat.t
 #+BEGIN_SRC raku
 is-deeply @a.flat(:hammer), $hammered, 'array.flat(:hammer)';
 #+END_SRC 
+***** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
+
+
 
 *** ranges and sequences
 **** William Michels: "combining ranges and sequences is a nightmare"
