@@ -65,7 +65,12 @@ my @a = 1, [2, [3,4]];
 say @a.flat;           # (1 [2 [3 4]])
 say @a.flat(:hammer);  # (1 2 3 4)
 #+END_SRC 
-
+****** One can now also use HyperWhatever (aka **) in a postcircumfix [ ] for the same semantics:
+#+BEGIN_SRC raku
+my @a = 1, [2, [3,4]];
+say @a[*];   # (1 [2 [3 4]])
+say @a[**];  # (1 2 3 4)
+#+END_SRC 
 
 *** ranges and sequences
 **** William Michels: "combining ranges and sequences is a nightmare"
