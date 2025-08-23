@@ -26,7 +26,7 @@
 *** problem-solving issue 407: comma seperated triple dot sequences
 **** https://github.com/Raku/problem-solving/issues/407
 **** several things are going on here
-***** the right way to achieve the goal:
+***** William Michels goal:
 ****** straight-forward extraction of columns from a tabular structure
 ******* probably: getting raku to flatten just right when you want it
 ****** generating discontinuous integer ranges
