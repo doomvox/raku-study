@@ -42,7 +42,10 @@ say 3 ... 7, 11 ... 13;
 
 
 
-***** The is item trait can be used on @ and % sigilled parameters to indicate that a Positional (in the @ case) or an Associative (in the % case) is only acceptable in dispatch if it is presented as an item. It only serves as a tie-breaker, so there should always also be a dispatch candidate that would accept the argument when it is not itemized. Perhaps an example makes this more clear:
+***** The is item trait can be used on @ and % sigilled parameters 
+****** positional or associative is acceptable in dispatch if it is presented as an item
+****** just a "tie-breaker": should always also be a dispatch candidate that accepts when not itemized
+
 
 #+BEGIN_SRC raku
 multi sub foo(@a)         { say "array" }
@@ -50,6 +53,8 @@ multi sub foo(@a is item) { say "item"  }
 foo  [1,2,3];  # array
 foo $[1,2,3];  # item
 #+END_SRC 
+
+
 
 ** older topics
 
