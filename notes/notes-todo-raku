@@ -21,3 +21,8 @@ class inheritance: class C1 { method m { say 'yo' } } class C2 is C1 {}; C2.new.
 dang I did it again!
 
 [raku has the vast majority features of the Java / C++ OO system but with much less heavyweight syntax]
+
+===
+
+https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p
+
