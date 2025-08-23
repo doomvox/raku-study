@@ -34,7 +34,8 @@
 #+BEGIN_SRC raku
 say 3 ... 7, 11 ... 13;
 #+END_SRC 
-***** 
+***** behavior of sequences (what's desired, what's necessary)
+****** quirks of the roast tests
 
 ** older topics
 
