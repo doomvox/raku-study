@@ -28,10 +28,14 @@
 **** several things are going on here
 ***** the right way to achieve the goal:
 ****** straight-forward extraction of columns from a tabular structure
+******* probably: getting raku to flatten when you want it
+
 ****** generating discontinuous integer ranges
 ***** the odd behavior of comma sep triple dots:
-
-
+#+BEGIN_SRC raku
+say 3 ... 7, 11 ... 13;
+#+END_SRC 
+***** 
 
 ** older topics
 
