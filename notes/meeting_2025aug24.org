@@ -60,7 +60,11 @@ foo $[1,2,3];  # item
 is-deeply @a.flat(:hammer), $hammered, 'array.flat(:hammer)';
 #+END_SRC 
 ***** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
-
+#+BEGIN_SRC raku
+my @a = 1, [2, [3,4]];
+say @a.flat;           # (1 [2 [3 4]])
+say @a.flat(:hammer);  # (1 2 3 4)
+#+END_SRC 
 
 
 *** ranges and sequences
