@@ -50,8 +50,7 @@ foo $[1,2,3];  # item
 #+END_SRC 
 ****** what is this for, really?
 
-
-** older topics
+*** flatnessizers
 
 *** flat hammer
 **** code example
@@ -71,6 +70,11 @@ my @a = 1, [2, [3,4]];
 say @a[*];   # (1 [2 [3 4]])
 say @a[**];  # (1 2 3 4)
 #+END_SRC 
+
+
+
+** older topics
+
 
 *** ranges and sequences
 **** William Michels: "combining ranges and sequences is a nightmare"
