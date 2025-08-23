@@ -34,6 +34,8 @@
 #+BEGIN_SRC raku
 say 3 ... 7, 11 ... 13;
 #+END_SRC 
+****** pmichaud argues this is a comma precedence thing
+******* does that explain all the observed quirks?
 ***** behavior of sequences (what's desired, what's necessary)
 ****** quirks of the roast tests
 
