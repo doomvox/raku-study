@@ -29,6 +29,9 @@
 ***** the right way to achieve the goal:
 ****** straight-forward extraction of columns from a tabular structure
 ****** generating discontinuous integer ranges
+***** the odd behavior of comma sep triple dots:
+
+
 
 ** older topics
 
