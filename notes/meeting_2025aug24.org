@@ -44,7 +44,7 @@ say 3 ... 7, 11 ... 13;
 
 ***** The is item trait can be used on @ and % sigilled parameters 
 ****** positional or associative is acceptable in dispatch if it is presented as an item
-****** just a "tie-breaker": should always also be a dispatch candidate that accepts when not itemized
+****** just a "tie-breaker": should always also a dispatch candidate that accepts when not itemized
 
 
 #+BEGIN_SRC raku
