@@ -21,6 +21,10 @@
 
 ** topics
 
+*** are sequences good for anything much?
+
+*** 
+
 ** older topics
 
 *** flat hammer
