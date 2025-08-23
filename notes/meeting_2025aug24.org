@@ -39,22 +39,16 @@ say 3 ... 7, 11 ... 13;
 
 *** "is item" trait
 **** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
-
-
-
 ***** The is item trait can be used on @ and % sigilled parameters 
 ****** positional or associative is acceptable in dispatch if it is presented as an item
 ****** just a "tie-breaker": should always also a dispatch candidate that accepts when not itemized
-
-
 #+BEGIN_SRC raku
 multi sub foo(@a)         { say "array" }
 multi sub foo(@a is item) { say "item"  }
 foo  [1,2,3];  # array
 foo $[1,2,3];  # item
 #+END_SRC 
-
-
+****** what is this for, really?
 
 ** older topics
 
