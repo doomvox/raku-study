@@ -26,3 +26,15 @@ dang I did it again!
 
 https://stackoverflow.com/questions/66926663/is-there-a-convenient-way-to-replicate-rs-concept-of-named-vectors-in-raku-p
 
+Is there a convenient way to replicate R's concept of 'named vectors' in Raku, possibly using Mixins?
+Asked 4 years, 3 months ago
+Modified 4 years, 2 months ago
+Viewed 413 times
+Part of R Language Collective
+7
+
+Recent questions on StackOverflow pertaining to Mixins in Raku have piqued my interest as to whether Mixins can be applied to replicate features present in other programming languages.
+
+For example, in the R-programming language, elements of a vector can be given a name (i.e. an attribute), which is very convenient for data analysis. For an excellent example see: "How to Name the Values in Your Vectors in R" by Andrie de Vries and Joris Meys, who illustrate this feature using R's built-in islands dataset. Below is a more prosaic example (code run in the R-REPL):
+
+===
