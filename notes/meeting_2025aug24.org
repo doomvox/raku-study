@@ -23,7 +23,9 @@
 
 *** are sequences good for anything much?
 
-*** 
+*** problem-solving issue 407: comma seperated triple dot sequences
+**** https://github.com/Raku/problem-solving/issues/407
+**** 
 
 ** older topics
 
