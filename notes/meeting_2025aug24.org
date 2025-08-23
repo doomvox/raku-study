@@ -37,6 +37,19 @@ say 3 ... 7, 11 ... 13;
 ***** behavior of sequences (what's desired, what's necessary)
 ****** quirks of the roast tests
 
+*** "is item" trait
+**** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
+
+
+
+The is item trait can be used on @ and % sigilled parameters to indicate that a Positional (in the @ case) or an Associative (in the % case) is only acceptable in dispatch if it is presented as an item. It only serves as a tie-breaker, so there should always also be a dispatch candidate that would accept the argument when it is not itemized. Perhaps an example makes this more clear:
+
+multi sub foo(@a)         { say "array" }
+multi sub foo(@a is item) { say "item"  }
+foo  [1,2,3];  # array
+foo $[1,2,3];  # item
+
+
 ** older topics
 
 *** flat hammer
