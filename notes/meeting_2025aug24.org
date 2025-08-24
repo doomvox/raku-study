@@ -73,6 +73,24 @@ say @a[**];  # (1 2 3 4)
 #+END_SRC 
 
 
+*** richard hainsworth: altering a deep filed
+
+**** 
+
+**** the hash has the following structure
+
+%sources{$lang}{$filename}{$attribute}
+
+The code I have, which works, is
+
+for %sources.values {
+    for .pairs {
+       for .value.pairs.grep({ .key eq 'modified'}) {
+          .value = transform-modified( .value )
+       }
+    }
+}
+
 
 ** older topics
 
