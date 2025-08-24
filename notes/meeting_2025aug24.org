@@ -23,7 +23,7 @@
 *** rob: weekly challenge tic-tac-toe board, determine who won.
 **** 3x3: an issue with binding and shaped arrays
 
-*** anton subject
+*** anton subject:
 **** Raku introspection nice for LLM implementations
 **** open AI, LLM providers, release packages in python
 ***** python has *some* introspection
