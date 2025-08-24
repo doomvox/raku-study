@@ -77,7 +77,7 @@ say @a[**];  # (1 2 3 4)
 
 **** https://stackoverflow.com/questions/79528856/how-to-make-altering-a-deep-field-more-idiomatic/79540270#79540270
 
-***** 
+***** the goal is to de-uglify this:
 # Given data:
 #   %sources{$lang}{$filename}{$attribute}
 #+BEGIN_SRC raku
@@ -89,6 +89,32 @@ for %sources.values {
     }
 }
 #+END_SRC 
+
+**** 
+
+
+To modify the modified fields in the bottom layer of a nested hash, you can use the duckmap method. Here's how you can do it:
+
+my %source := %(b => %(a => %(modified => True, c => 2), modified => True));
+%source.duckmap: -> %a where { 
+    .<modified>:exists 
+    and .values.none ~~ Associative 
+} { 
+    %a<modified> .=not 
+};
+say %source;
+
+This approach iterates through the hash and toggles the modified fields only in the deepest layers by checking for the existence of modified and ensuring no further associative values exist. If you prefer to create a new hash instead of mutating the original, you can use:
+
+say %source.duckmap: -> %a where { 
+    .<modified>:exists 
+    and .values.none ~~ Associative 
+} { 
+   %( |%a, modified => %a<modified>.not ) 
+};
+
+
+
 
 
 ** older topics
