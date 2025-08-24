@@ -44,6 +44,8 @@
 ****** extraction of columns from a tabular structure
 ******* really: wants raku to flatten just right when needed (TODO raku dp cookbook)
 ****** generating discontinuous integer ranges
+******* TODO forget not bg's contribution:
+******** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025aug24/bg.raku
 ***** the odd behavior of comma sep triple dots:
 #+BEGIN_SRC raku
 say 3 ... 7, 11 ... 13;
@@ -52,6 +54,8 @@ say 3 ... 7, 11 ... 13;
 ******* does that explain all the observed quirks?
 ***** behavior of sequences (what's desired, what's necessary)
 ****** quirks of the roast tests
+
+
 
 **** funny thought: why doesn't raku do descending ranges?
 ***** Q: could that be changed?  (probably not at this point)
