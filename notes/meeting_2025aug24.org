@@ -21,7 +21,7 @@
 
 ** topics
 *** rob: weekly challenge tic-tac-toe board, determine who won.
-
+**** 3x3: an issue with binding and shaped arrays
 
 *** are sequences good for anything much?
 **** my first thought: for counting down, like a reverse range
