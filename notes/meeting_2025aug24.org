@@ -142,9 +142,8 @@ say %source.duckmap: -> %a where {
 ** older topics
 
 
-**** william michels
-***** https://arxiv.org/abs/1910.08129
-
+*** william michels
+**** https://arxiv.org/abs/1910.08129
 
 *** william michels at play in stackoverflow land:
 **** https://stackoverflow.com/questions/43370856/how-can-i-pass-a-perl-6-object-through-a-nativecall-callback
