@@ -18,3 +18,5 @@ say @m[ (@a, @b) ];
 # ((mothera frankenstein dorisday) (triffids master))
 
 say @m[ flat(@a, @b) ];
+# (mothera frankenstein dorisday triffids master)
+
