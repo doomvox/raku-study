@@ -11,7 +11,7 @@ my @i  = (1, 2, 3, 7, 8);
 say @m[ @i ];  # (mothera frankenstein dorisday triffids master)
 
 
-my @m = 1, 2, 3;
-my @n = 7, 8;
+my @a = 1, 2, 3;
+my @b = 7, 8;
 
-say @m[ (@m, @n).flat ];
+say @m[ (@a, @b) ];
