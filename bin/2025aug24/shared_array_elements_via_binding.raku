@@ -5,7 +5,7 @@
 use v6;
 
 {
-    ## Two arrays with one element using a shared container:
+    ## Two simple arrays with one element using a shared container:
 
     my @a = 0,1,3;
     my @b = <a b c>;
