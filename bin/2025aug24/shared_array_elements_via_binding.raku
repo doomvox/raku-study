@@ -66,5 +66,5 @@ say "===";
     #  [d e]]
     @a[0;0] = '6'; ## Error: Cannot assign to a readonly variable or a value
     say @a, @b;
-    # [6 1 3][6 b c]
+
     }
