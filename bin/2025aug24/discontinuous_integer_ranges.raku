@@ -7,7 +7,7 @@ use v6;
 ## https://github.com/Raku/problem-solving/issues/407
 
 
-## jubilatious1 likes Raku's "c()":
+## jubilatious1 likes Rlang's "c()":
 
 #     > c( 0 : 9, 1 : 10, 2 : 11 )
 #      [1]  0 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 10 2 3 4 5 6 7 8 9
@@ -18,6 +18,7 @@ use v6;
 # > say flat (0...9),(1...10),(2...11);
 # (0 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 10 2 3 4 5 6 7 8 9 10 11)
 
+## Rlang:
 #     > c( 11 : 2, 10 : 1, 9 : 0 )
 #      [1] 11 10 9 8 7 6 5 4 3 2 10 9 8 7 6 5 4 3 2 1 9 8 7 6 5 4 3 2
 #          1 0
