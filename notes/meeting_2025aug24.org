@@ -52,7 +52,7 @@ multi sub foo(@a is item) { say "item"  }
 foo  [1,2,3];  # array
 foo $[1,2,3];  # item
 #+END_SRC 
-****** what is this for, really?
+****** Q: what is this for, really?
 
 *** flatnessizers
 **** flat hammer
