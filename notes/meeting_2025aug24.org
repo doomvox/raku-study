@@ -29,7 +29,7 @@
 **** https://github.com/Raku/problem-solving/issues/407
 **** several things are going on here
 ***** William Michels original goal:
-****** straight-forward extraction of columns from a tabular structure
+****** extraction of columns from a tabular structure
 ******* really: wants raku to flatten just right when needed
 ****** generating discontinuous integer ranges
 ***** the odd behavior of comma sep triple dots:
