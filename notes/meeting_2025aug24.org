@@ -77,12 +77,10 @@ say @a[**];  # (1 2 3 4)
 
 **** https://stackoverflow.com/questions/79528856/how-to-make-altering-a-deep-field-more-idiomatic/79540270#79540270
 
-**** 
-
-%sources{$lang}{$filename}{$attribute}
-
-The code I have, which works, is
-
+***** 
+# Given data:
+#   %sources{$lang}{$filename}{$attribute}
+#+BEGIN_SRC raku
 for %sources.values {
     for .pairs {
        for .value.pairs.grep({ .key eq 'modified'}) {
@@ -90,6 +88,7 @@ for %sources.values {
        }
     }
 }
+#+END_SRC 
 
 
 ** older topics
