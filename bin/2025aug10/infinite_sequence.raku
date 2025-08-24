@@ -8,3 +8,4 @@ use v6;
 my $s = (1 ... (Inf));
 
 say $s;
+put $s;
