@@ -23,6 +23,8 @@
 *** rob: weekly challenge tic-tac-toe board, determine who won.
 **** 3x3: an issue with binding and shaped arrays
 
+*** anton 
+
 *** are sequences good for anything much?
 **** my first thought: for counting down, like a reverse range
 **** lizmat says this is the *only* thing she uses them for
