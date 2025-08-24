@@ -40,10 +40,10 @@ use v6;
 # use case is yet well enough understood or explored ...
 
 
-sub c (@r) {
-    say @r;
+sub c  {
+    say @_;
     my @out;
-    while ( my $r = @r.pop ) {
+    while ( my $r = @_.pop ) {
         push @out, flat $r;
     }
     return | @out;
