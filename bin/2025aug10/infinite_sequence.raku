@@ -26,4 +26,5 @@ say "===";
 
 say "===";
 .say for 'a' ... 'z';
+say "===";
 .say for 'a' ... 'Z';
