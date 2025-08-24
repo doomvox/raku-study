@@ -31,7 +31,7 @@
 *** your friend the monad (tim and anton)
 **** Marton: "Promises in Javascript are 'impure' monads" 
 **** Anton: "glorified decorator pattern"
-**** Raku "feed" operators similar (?)
+**** Raku "feed" operators similar (not consistent)
 **** in raku you can make monads that define your grammars
 
 *** are sequences good for anything much?
