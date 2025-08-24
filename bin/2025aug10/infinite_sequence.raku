@@ -13,3 +13,6 @@ put $s;  ## ...
 for 1 ... (Inf) {
     say "uh oh...: $_";
 }
+
+
+.say for 1 .. 3;
