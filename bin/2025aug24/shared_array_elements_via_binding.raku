@@ -25,6 +25,7 @@ use v6;
 
 say "===";
 {
+    ## Trying simple shaped arrays, uniaxial:
     my @a[3] = 0,1,3;
     my @b[3] = <a b c>;
 
