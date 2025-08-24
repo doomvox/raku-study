@@ -35,5 +35,6 @@ use v6;
 }
 
 {
-    put 3 .. 7, 11 .. 13;  #
+    # Q: do ranges do better?  Yes, except for the formatting glitch:
+    put 3 .. 7, 11 .. 13;  # 3 4 5 6 711 12 13
 }
