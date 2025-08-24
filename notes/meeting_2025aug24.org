@@ -114,6 +114,9 @@ say %source.duckmap: -> %a where {
 #+END_SRC 
 ***** Q: why not use deepmap?
 
+***** Marton (2colours) comments semilists don't seem documented
+****** https://github.com/doomvox/raku-study/discussions/15
+
 ** older topics
 
 
