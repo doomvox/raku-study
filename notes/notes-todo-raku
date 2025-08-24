@@ -122,7 +122,7 @@ Race is one more, albeit little, step further away from lazy. You want your valu
 
 "This part about control exceptions were enlightening and gives
   straightforward explanation why gather/take and race cannot coexist
-  without extra work in the language itsef""
+  without extra work in the language itself""
 
 
 ===
