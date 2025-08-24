@@ -162,9 +162,6 @@ say %source.duckmap: -> %a where {
 **** Why changed data with changed code?
 **** Possibly, better examples?
 
-
-*** clean up firefox tabs, idjit
-
 *** TODO start a people file already 
 **** farley
 ***** apogee == matt dowdy
