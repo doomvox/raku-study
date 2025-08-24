@@ -44,7 +44,7 @@
 ****** extraction of columns from a tabular structure
 ******* really: wants raku to flatten just right when needed (TODO raku dp cookbook)
 ****** generating discontinuous integer ranges
-******* TODO forget not bg's contribution:
+******* TODO forget not bg's contribution (faking descending ranges):
 ******** https://github.com/doomvox/raku-study/tree/main/bin/2025aug24/bg.raku
 ***** the odd behavior of comma sep triple dots:
 #+BEGIN_SRC raku
