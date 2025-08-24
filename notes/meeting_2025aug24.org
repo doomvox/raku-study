@@ -46,9 +46,7 @@ say 3 ... 7, 11 ... 13;
 ****** quirks of the roast tests
 
 **** funny thought: why doesn't raku do descending ranges?
-
-
-
+***** Q: could that be changed?  (probably not at this point)
 
 *** "is item" trait
 **** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
