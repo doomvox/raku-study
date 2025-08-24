@@ -7,6 +7,8 @@ use v6;
 ## https://github.com/Raku/problem-solving/issues/407
 
 
+## jubilatious1 likes Raku's "c()":
+
 #     > c( 0 : 9, 1 : 10, 2 : 11 )
 #      [1]  0 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 10 2 3 4 5 6 7 8 9
 #           10 11
