@@ -15,3 +15,6 @@ my @a = 1, 2, 3;
 my @b = 7, 8;
 
 say @m[ (@a, @b) ];
+# ((mothera frankenstein dorisday) (triffids master))
+
+say @m[ flat(@a, @b) ];
