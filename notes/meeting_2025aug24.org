@@ -164,46 +164,6 @@ say %source.duckmap: -> %a where {
 *** william michels at play in stackoverflow land:
 **** https://stackoverflow.com/questions/43370856/how-can-i-pass-a-perl-6-object-through-a-nativecall-callback
 
-*** Bruce Gray talk revisited
-**** ambiguity of the phrase 'cross product' (in response to a pedantic question from audience)
-***** https://en.wikipedia.org/wiki/Cross_product_(disambiguation)
-***** https://en.wikipedia.org/wiki/Cross_product
-***** https://en.wikipedia.org/wiki/Cartesian_product
-***** https://www.geeksforgeeks.org/sql/sql-cross-join/
-
-**** see:
-***** Bruce Gray talk on hyperoperators
-******* https://www.youtube.com/watch?v=_OMsWYLQLqU
-******* slides
-******** https://speakerdeck.com/util
-
-
-*** revisiting older topics:
-**** flatmap probably isn't deprecated
-***** https://github.com/Raku/problem-solving/issues/430
-***** https://github.com/Raku/problem-solving/issues/351
-
-**** duckmap *has* changed in behavior: 
-***** lizmat says this was inadvertant, but seems reluctant to change it back
-****** another editorial:
-#+BEGIN_SRC text
-   (if one was a cranky cantankerous negative individual,
-    one might complain about such things)
-#+END_SRC
-***** https://github.com/Raku/problem-solving/issues/486
-***** https://docs.raku.org/routine/duckmap
-
-***** duckmap oddity was turned up last time:
-****** https://github.com/doomvox/raku-study/tree/main/bin/2025jul13/duckmap.raku
-******* interestingly: got a code example that works for 2023 raku but not 2025
-******** it turns out this wasn't an intended change, what it should be is unsettled.
-
-*** complaint about raku's "rand"
-***** can't supply a known seed to get reproducible results
-****** bruce: there *is* an srand, but it's got bugs
-******* https://docs.raku.org/routine/srand
-****** work is in progress on this
-
 *** William Michels: Raku answers to shell questions
 **** https://unix.stackexchange.com/a/797530/227738
 **** https://unix.stackexchange.com/a/797471/227738
