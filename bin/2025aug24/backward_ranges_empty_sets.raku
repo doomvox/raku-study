@@ -24,8 +24,6 @@ say "---";
 
 for (5..3).reverse {.say; }
 
-
-
 ###
 ### Aside, shocking isn't it?  
 ### Seq objects are not valid endpoints for Ranges
