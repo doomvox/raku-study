@@ -13,3 +13,4 @@ my @b = <a b c>;
 
 
 say @a, @b;
+# [a 1 3][a b c]
