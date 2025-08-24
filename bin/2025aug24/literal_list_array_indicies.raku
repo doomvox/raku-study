@@ -14,4 +14,4 @@ say @m[ @i ];  # (mothera frankenstein dorisday triffids master)
 my @m = 1, 2, 3;
 my @n = 7, 8;
 
-say @m[ flat( @m, @n) ];
+say @m[ flat( @m @n) ];
