@@ -53,11 +53,15 @@ say "===";
     @a[0;0] := @b[0;0];
 
     say @a, @b;
-    # [a 1 3][a b c]
+# [[a 1]
+#  [2 3]][[a b]
+#  [d e]]
 
     @b[0;0] = 'Z';
     say @a, @b;
-    # [Z 1 3][Z b c]
+# [[a 1]
+#  [2 3]][[Z b]
+#  [d e]]
 
     @a[0;0] = '6'; ## Error: Cannot assign to a readonly variable or a value
     say @a, @b;
