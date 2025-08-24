@@ -28,7 +28,7 @@
 *** back to problem-solving issue 407: comma seperated triple dot sequences
 **** https://github.com/Raku/problem-solving/issues/407
 **** there are multiple things going on 
-***** sequences aren't the solution here, but they *do* behave weirdly
+***** sequences aren't the solution here, but they *do* have some weirdzo aspects
 ***** William Michels original goal:
 ****** extraction of columns from a tabular structure
 ******* really: wants raku to flatten just right when needed (TODO raku dp cookbook)
