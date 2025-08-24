@@ -90,11 +90,8 @@ for %sources.values {
 }
 #+END_SRC 
 
-**** 
-
-
-To modify the modified fields in the bottom layer of a nested hash, you can use the duckmap method. Here's how you can do it:
-
+**** wamba: duckmap
+#+BEGIN_SRC raku
 my %source := %(b => %(a => %(modified => True, c => 2), modified => True));
 %source.duckmap: -> %a where { 
     .<modified>:exists 
