@@ -7,5 +7,9 @@ use v6;
 
 my $s = (1 ... (Inf));
 
-say $s;
-put $s;
+say $s;  ## (...)
+put $s;  ## ...
+
+for 1 ... (Inf) {
+    say "uh oh...: $_";
+}
