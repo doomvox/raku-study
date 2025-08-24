@@ -125,7 +125,6 @@ say %source.duckmap: -> %a where {
 .=&transform-modified for %source{*;*;'modified'};
 #+END_SRC 
 
-
 ***** Marton (2colours) comments "semilists" don't seem documented, but work
 ****** https://github.com/doomvox/raku-study/discussions/15
 
