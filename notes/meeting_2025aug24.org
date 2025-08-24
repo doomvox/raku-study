@@ -102,15 +102,17 @@ my %source := %(b => %(a => %(modified => True, c => 2), modified => True));
 say %source;
 #+END_SRC 
 
-This approach iterates through the hash and toggles the modified fields only in the deepest layers by checking for the existence of modified and ensuring no further associative values exist. If you prefer to create a new hash instead of mutating the original, you can use:
+This approach iterates through the hash and toggles the modified fields only in the deepest layers by checking for the existence of modified and ensuring no further associative values exist.
 
+If you prefer to create a new hash instead of mutating the original, you can use:
+#+BEGIN_SRC raku
 say %source.duckmap: -> %a where { 
     .<modified>:exists 
     and .values.none ~~ Associative 
 } { 
    %( |%a, modified => %a<modified>.not ) 
 };
-
+#+END_SRC 
 
 
 
