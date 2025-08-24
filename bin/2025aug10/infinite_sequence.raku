@@ -21,4 +21,8 @@ say "===";
 .say for 9 .. 7;  ## nada 
 
 say "===";
-.say for 9 ... 7;  ## nada 
+.say for 9 ... 7;  ##  9 8 7 
+   ## 
+
+.say for 'a' .. 'z';
+.say for 'a' .. 'Z';
