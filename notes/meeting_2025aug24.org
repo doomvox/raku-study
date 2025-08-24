@@ -30,6 +30,7 @@
 
 
 *** tim and anton defend the friendliness of monads
+**** Promises in Javascript are "impure" monads
 
 *** are sequences good for anything much?
 **** my first thought: for counting down, like a reverse range
