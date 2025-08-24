@@ -42,14 +42,4 @@ use v6;
 ## bruce gray:
 sub c ( *@r )  { @r.flat }
 
-sub c(@r)  {
-    say @r;
-    my @out;
-    while ( my $r = @r.pop ) {
-        push @out, flat $r;
-    }
-    return | @out;
-}
-
-
 say c( (1...3), (6...9) );
