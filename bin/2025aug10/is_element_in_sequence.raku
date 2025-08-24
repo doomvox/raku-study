@@ -13,3 +13,4 @@ say 9 ~~ 1..5;  # False
 
 say "===";
 say 5 ∈ 1...5
+# (False True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True ...)
