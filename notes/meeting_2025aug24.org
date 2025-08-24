@@ -24,6 +24,7 @@
 *** are sequences good for anything much?
 **** my first thought: for counting down, like a reverse range
 **** lizmat says this is the *only* thing she uses them for
+**** maybe: odd or even numbers
 
 *** back to problem-solving issue 407: comma seperated triple dot sequences
 **** https://github.com/Raku/problem-solving/issues/407
