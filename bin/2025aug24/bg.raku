@@ -4,6 +4,8 @@
 
 use v6;
 
+## Bruce Gray code example
+
 sub MAIN ( *@wanted ) {
     my @nums = ^Inf;
     
