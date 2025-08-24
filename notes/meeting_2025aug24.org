@@ -20,7 +20,6 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-
 *** are sequences good for anything much?
 **** my first thought: for counting down, like a reverse range
 **** lizmat says this is the *only* thing she uses them for
