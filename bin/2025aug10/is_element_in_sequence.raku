@@ -7,7 +7,6 @@ use v6;
 say 5 ~~ 1...5;  # (False)
 
 say "===";
-say 5 ~~ 1..5; 
-# (False True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True ...)
+say 5 ~~ 1..5;  # True
 
 # say 5 ∈ 1...5
