@@ -58,8 +58,6 @@ say 3 ... 7, 11 ... 13;
 ***** behavior of sequences (what's desired, what's necessary)
 ****** quirks of the roast tests
 
-
-
 **** funny thought: why doesn't raku do descending ranges?
 ***** Q: could that be changed?  (probably not at this point)
 ***** checked apocalypses to understand the design decision:
