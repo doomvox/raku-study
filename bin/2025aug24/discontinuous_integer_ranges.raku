@@ -40,4 +40,7 @@ use v6;
 # use case is yet well enough understood or explored ...
 
 
+sub c (@r) {
 
+
+}
