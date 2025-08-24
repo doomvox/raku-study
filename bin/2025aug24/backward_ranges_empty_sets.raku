@@ -22,4 +22,4 @@ say "---";
 #  [1] 10  9  8  7  6  5  4  3  2  1
 
 
-for (5..3).reverse {.say; }
+for 5..3.reverse {.say; }
