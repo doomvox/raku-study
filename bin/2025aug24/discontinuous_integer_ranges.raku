@@ -39,6 +39,8 @@ use v6;
 # flattening and whatever else is wanted. I don't think this specific
 # use case is yet well enough understood or explored ...
 
+## bruce gray:
+sub c ( *@r )  { @r.flat }
 
 sub c(@r)  {
     say @r;
