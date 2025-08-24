@@ -33,6 +33,8 @@
 **** Anton: "glorified decorator pattern"
 **** Raku "feed" operators similar (not consistent)
 **** in raku you can make monads that define your grammars
+**** Everything about monads: 
+***** https://www.youtube.com/watch?v=Xz5B4B0kVco
 
 *** are sequences good for anything much?
 **** my first thought: for counting down, like a reverse range
