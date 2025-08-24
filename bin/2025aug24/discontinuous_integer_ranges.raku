@@ -40,7 +40,7 @@ use v6;
 # use case is yet well enough understood or explored ...
 
 
-sub c  {
+sub c(@r)  {
     say @r;
     my @out;
     while ( my $r = @r.pop ) {
