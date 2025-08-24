@@ -60,7 +60,7 @@ say "===";
     @b[0;0] = 'Z';
     say @a;
     say @b;
-    # [[a 1]
+    # [[a 1]  ## Still have an 'a', changing the corresponding cell in b didn't effect this
     #  [2 3]]
     # [[Z b]
     #  [d e]]
