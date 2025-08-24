@@ -100,6 +100,7 @@ my %source := %(b => %(a => %(modified => True, c => 2), modified => True));
     %a<modified> .=not 
 };
 say %source;
+#+END_SRC 
 
 This approach iterates through the hash and toggles the modified fields only in the deepest layers by checking for the existence of modified and ensuring no further associative values exist. If you prefer to create a new hash instead of mutating the original, you can use:
 
