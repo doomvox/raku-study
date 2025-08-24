@@ -41,6 +41,7 @@ use v6;
 
 
 sub c (@r) {
+    say @r;
     my @out;
     while ( my $r = @r.pop ) {
         push @out, flat $r;
