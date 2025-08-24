@@ -32,6 +32,7 @@
 **** Marton: "Promises in Javascript are 'impure' monads" 
 **** Anton: "glorified decorator pattern"
 **** Raku "feed" operators similar (?)
+**** in raku you can make monads that define your grammars
 
 *** are sequences good for anything much?
 **** my first thought: for counting down, like a reverse range
