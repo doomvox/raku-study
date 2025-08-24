@@ -71,7 +71,7 @@ my @a = 1, [2, [3,4]];
 say @a[*];   # (1 [2 [3 4]])
 say @a[**];  # (1 2 3 4)
 #+END_SRC 
-**** how about a hyper slip?
+**** how about: hyper slip
 
 *** richard hainsworth: altering a deep filed
 
