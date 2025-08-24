@@ -20,6 +20,9 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
+*** rob: weekly challenge tic-tac-toe board, determine who won.
+
+
 *** are sequences good for anything much?
 **** my first thought: for counting down, like a reverse range
 **** lizmat says this is the *only* thing she uses them for
