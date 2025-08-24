@@ -24,6 +24,7 @@
 **** 3x3: an issue with binding and shaped arrays
 
 *** anton subject: AI stuff I think.
+**** Raku introspection nice for LLM implementations
 
 *** are sequences good for anything much?
 **** my first thought: for counting down, like a reverse range
