@@ -93,7 +93,6 @@ for %sources.values {
 **** wamba: duckmap
 ***** iterates through hash, toggles the modified fields only in the deepest layers
 ****** checks for the existence of modified and ensures no further associative values exist.
-
 #+BEGIN_SRC raku
 my %source := %(b => %(a => %(modified => True, c => 2), modified => True));
 %source.duckmap: -> %a where { 
@@ -104,10 +103,7 @@ my %source := %(b => %(a => %(modified => True, c => 2), modified => True));
 };
 say %source;
 #+END_SRC 
-
-
-
-If you prefer to create a new hash instead of mutating the original, you can use:
+***** If you prefer to create a new hash instead of mutating the original, you can use:
 #+BEGIN_SRC raku
 say %source.duckmap: -> %a where { 
     .<modified>:exists 
@@ -116,9 +112,6 @@ say %source.duckmap: -> %a where {
    %( |%a, modified => %a<modified>.not ) 
 };
 #+END_SRC 
-
-
-
 
 ** older topics
 
