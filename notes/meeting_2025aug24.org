@@ -28,7 +28,7 @@
 **** open AI, LLM providers, release packages in python
 ***** python has *some* introspection
 
-*** tim and anton defend the friendliness of monads
+*** your friend the monad (tim and anton)
 **** Marton: "Promises in Javascript are 'impure' monads" 
 
 *** are sequences good for anything much?
