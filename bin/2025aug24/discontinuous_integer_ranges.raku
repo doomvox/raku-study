@@ -47,3 +47,6 @@ sub c (@r) {
     }
     return | @out;
 }
+
+
+say c( 1..3 );
