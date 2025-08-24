@@ -85,3 +85,20 @@ This is very ugly.
 ===
 
 https://stackoverflow.com/questions/79550260/how-to-use-gather-take-with-race/79551766#79551766
+
+
+
+I can parallelize execution using Hyper and it works:
+
+$ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
+0
+3
+5
+2
+1
+7
+4
+6
+
+But how can I add gather/take behavior to such loop?
+
