@@ -17,3 +17,5 @@ put $s;  ## ...
 .say for 1 .. 3;  # 1 2 3 
 
 .say for 9 .. 7;  ## nada 
+
+.say for 9 ... 7;  ## nada 
