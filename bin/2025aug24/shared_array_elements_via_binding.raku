@@ -47,7 +47,7 @@ say "===";
 say "===";
 {
     ## Trying more complex shaped arrays, 2x2:
-    my @a[1;1] = ((0,1),(2,3));
+    my @a[1;1] = ((0,1);(2,3));
     my @b[1;1] = (<a b c>, <d e f>);
 
     @a[0,0] := @b[0,0];
