@@ -60,3 +60,22 @@ say @a[**];  # (1 2 3 4)
 Saturday August 23, 2025   5:05 PM
 
 https://stackoverflow.com/questions/79528856/how-to-make-altering-a-deep-field-more-idiomatic/79540270#79540270
+
+ have a hash with several layers of sub-hashes, and I want to alter all the modified fields in the bottom layer.
+
+The hash has the following structure
+
+%sources{$lang}{$filename}{$attribute}
+
+The code I have, which works, is
+
+for %sources.values {
+    for .pairs {
+       for .value.pairs.grep({ .key eq 'modified'}) {
+          .value = transform-modified( .value )
+       }
+    }
+}
+
+This is very ugly.
+
