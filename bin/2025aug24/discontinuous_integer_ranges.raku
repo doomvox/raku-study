@@ -37,7 +37,7 @@ use v6;
 # If writing "flat" and parens is "just too much typing", one can
 # undoubtedly create a local c() function equivalent that provides the
 # flattening and whatever else is wanted. I don't think this specific
-# use case is yet well enough understood or explored to create a
-# custom language construct for it yet.
+# use case is yet well enough understood or explored ...
+
 
 
