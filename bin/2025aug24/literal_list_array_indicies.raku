@@ -8,6 +8,6 @@ my @m = << godzilla mothera frankenstein dorisday blob golem grendel triffids ma
 
 
 my @i  = (1, 2, 3, 7, 8);
-say @m[ @i ];
+say @m[ @i ];  # (mothera frankenstein dorisday triffids master)
 
 
