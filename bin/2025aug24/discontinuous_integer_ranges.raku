@@ -42,7 +42,7 @@ use v6;
 
 sub c (@r) {
     my @out;
-    while ( $r = @r.pop ) {
+    while ( my $r = @r.pop ) {
         push @out, flat $r;
     }
     return | @out;
