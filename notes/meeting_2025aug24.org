@@ -28,6 +28,9 @@
 **** open AI, LLM providers, release packages in python
 ***** python has *some* introspection
 
+
+*** tim and anton defend the friendliness of monads
+
 *** are sequences good for anything much?
 **** my first thought: for counting down, like a reverse range
 **** lizmat says this is the *only* thing she uses them for
