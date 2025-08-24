@@ -112,6 +112,7 @@ say %source.duckmap: -> %a where {
    %( |%a, modified => %a<modified>.not ) 
 };
 #+END_SRC 
+***** Q: why not use deepmap?
 
 ** older topics
 
