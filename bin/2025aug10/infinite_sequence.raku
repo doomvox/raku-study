@@ -14,8 +14,11 @@ put $s;  ## ...
 #     say "uh oh...: $_";
 # }
 
+say "===";
 .say for 1 .. 3;  # 1 2 3 
 
+say "===";
 .say for 9 .. 7;  ## nada 
 
+say "===";
 .say for 9 ... 7;  ## nada 
