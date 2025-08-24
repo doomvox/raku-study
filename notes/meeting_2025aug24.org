@@ -32,7 +32,7 @@
 **** Marton: "Promises in Javascript are 'impure' monads" 
 **** Anton: "glorified decorator pattern"
 **** Raku "feed" operators similar (not consistent)
-**** in raku you can make monads that define your grammars
+**** "in raku you can make monads that define your grammars"
 **** Everything about monads: 
 ***** https://www.youtube.com/watch?v=Xz5B4B0kVco
 
