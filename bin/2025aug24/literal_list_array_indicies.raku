@@ -7,4 +7,6 @@ use v6;
 my @m = << godzilla mothera frankenstein dorisday blob golem grendel >>;
 
 
-my @i  = (5, 6, 7, 12, 13);
+my @i  = (1, 2, 3, 7, 8);
+
+say @m[ @i ];
