@@ -45,6 +45,10 @@ say 3 ... 7, 11 ... 13;
 ***** behavior of sequences (what's desired, what's necessary)
 ****** quirks of the roast tests
 
+**** funny thought: why doesn't raku do descending ranges?
+
+
+
 
 *** "is item" trait
 **** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
