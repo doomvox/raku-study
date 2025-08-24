@@ -6,5 +6,5 @@ use v6;
 
 
 for (3..5) {.say; }
-say "===";
+say "---";
 for (5..3) {.say; }
