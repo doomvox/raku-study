@@ -114,8 +114,24 @@ say %source.duckmap: -> %a where {
 #+END_SRC 
 ***** Q: why not use deepmap?
 
+**** Maron (2colours)
+***** 
+#+BEGIN_SRC raku
+%source{*;*;'modified'} .= map: &transform-modified;
+#+END_SRC 
+
+***** 
+#+BEGIN_SRC raku
+.=&transform-modified for %source{*;*;'modified'};
+#+END_SRC 
+
+
 ***** Marton (2colours) comments "semilists" don't seem documented, but work
 ****** https://github.com/doomvox/raku-study/discussions/15
+
+
+
+
 
 ** older topics
 
