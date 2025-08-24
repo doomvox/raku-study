@@ -153,9 +153,6 @@ say %source.duckmap: -> %a where {
 **** https://unix.stackexchange.com/a/797904/227738
 
 
-*** liskov substitution princple gets no respect
-**** list behaves differently from array even though array is a list
-
 
 ** follow-up
 *** log-in to stackexchange: think about giving William Michels some upvotes
