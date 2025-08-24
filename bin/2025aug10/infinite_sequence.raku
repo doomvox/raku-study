@@ -14,6 +14,6 @@ put $s;  ## ...
 #     say "uh oh...: $_";
 # }
 
-.say for 1 .. 3;
+.say for 1 .. 3;  # 1 2 3 
 
-.say for 9 .. 7;
+.say for 9 .. 7;  ## nada 
