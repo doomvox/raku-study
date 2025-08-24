@@ -25,7 +25,7 @@
 **** my first thought: for counting down, a reverse range
 **** lizmat says this is the *only* thing she uses them for
 
-*** problem-solving issue 407: comma seperated triple dot sequences
+*** back to problem-solving issue 407: comma seperated triple dot sequences
 **** https://github.com/Raku/problem-solving/issues/407
 **** several things are going on here
 ***** William Michels original goal:
