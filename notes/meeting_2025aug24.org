@@ -140,24 +140,6 @@ say %source.duckmap: -> %a where {
 ** older topics
 
 
-*** python vs perl/raku
-**** Rob found a python vs raku argument on linked in
-***** conciseness of Raku is an advantage
-**** python vs perl
-***** https://www.jwz.org/blog/2025/08/fucking-python/
-***** breakage on upgrade with python
-
-**** antonov on python:
-***** https://pythonforprediction.wordpress.com
-***** https://pythonforprediction.wordpress.com/2022/09/18/breakdown-of-python-people-and-projects/
-
-***** impressed they could write a mathematica interpreter in python
-
-***** https://pypi.org/urser/antononcube/
-
-***** antonov has worked on
-****** https://en.wikipedia.org/wiki/Quantile_regression
-
 **** william michels
 ***** https://arxiv.org/abs/1910.08129
 
