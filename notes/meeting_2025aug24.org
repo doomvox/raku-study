@@ -30,7 +30,7 @@
 **** several things are going on here
 ***** William Michels original goal:
 ****** straight-forward extraction of columns from a tabular structure
-******* get raku to flatten just right when you want it
+******* really: wants raku to flatten just right when you want it
 ****** generating discontinuous integer ranges
 ***** the odd behavior of comma sep triple dots:
 #+BEGIN_SRC raku
