@@ -75,9 +75,9 @@ say @a[**];  # (1 2 3 4)
 
 *** richard hainsworth: altering a deep filed
 
-**** 
+**** https://stackoverflow.com/questions/79528856/how-to-make-altering-a-deep-field-more-idiomatic/79540270#79540270
 
-**** the hash has the following structure
+**** 
 
 %sources{$lang}{$filename}{$attribute}
 
