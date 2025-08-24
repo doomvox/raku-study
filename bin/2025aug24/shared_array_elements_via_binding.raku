@@ -53,16 +53,13 @@ say "===";
     @a[0;0] := @b[0;0];
     say @a;
     say @b;
-    # [[a 1]         ## Note the 'a' first cell looks same in both
+    # [[a 1]         ## Note the 'a', first cell looks same in both
     #  [2 3]]
     # [[a b]
     #  [d e]]
     @b[0;0] = 'Z';
     say @a;
     say @b;
-# [[a 1]
-#  [2 3]][[Z b]
-#  [d e]]
 
     @a[0;0] = '6'; ## Error: Cannot assign to a readonly variable or a value
     say @a, @b;
