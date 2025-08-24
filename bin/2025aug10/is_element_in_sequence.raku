@@ -9,5 +9,8 @@ say 5 ~~ 1...5;  # (False)
 
 say "===";
 say 5 ~~ 1..5;  # True
+say 9 ~~ 1..5;  # True
+
+say "===";
 
 # say 5 ∈ 1...5
