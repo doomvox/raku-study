@@ -102,3 +102,27 @@ $ raku -e 'race for (^8).race(batch => 1, degree => 4) {sleep rand; .say}'
 
 But how can I add gather/take behavior to such loop?
 
+  
+Eagerness, Lazyness, and Hyper / Race
+
+Hyper and Race basically live on the same spectrum as Eager and Lazy.
+
+What gather/take allows you to create easily is a Lazy sequence. It will not generate values - and ideally not do any computation - until some consumer asks for more values. At the position of a take, execution of your code can be paused. This is what "coroutines", or "cooperative parallelism" are about (this is a bit of a simplification, but correct enough).
+
+Eager is one step away from Lazy. Evaluating a lazy sequence eagerly will ask for all values right away, until the sequence is exhausted.
+
+Even further away is Hyper. Hypering a part of (or the entirety of) your pipeline distributes work across multiple threads. Values are calculated "as fast as possible". You do not need to ask for more values in order for more computation to happen.
+
+You are already using the degree and batch parameters to ensure that your very small input sequence of just 8 values (^8) even launches parallel workers in the first place.
+
+Race is one more, albeit little, step further away from lazy. You want your values to not just be calculated fast, you specify that you wouldn't even mind if the results come out in a different order, as long as a value that was calculated is available quickly. Hyper on the other hand gives everything coming into the pipeline a number, and corresponding results coming out are ordered by this number.
+
+  ...
+
+
+"This part about control exceptions were enlightening and gives
+  straightforward explanation why gather/take and race cannot coexist
+  without extra work in the language itsef""
+
+
+===
