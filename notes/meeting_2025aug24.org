@@ -25,6 +25,8 @@
 
 *** anton subject: AI stuff I think.
 **** Raku introspection nice for LLM implementations
+**** open AI, LLM providers, release packages in python
+***** python has *some* introspection
 
 *** are sequences good for anything much?
 **** my first thought: for counting down, like a reverse range
