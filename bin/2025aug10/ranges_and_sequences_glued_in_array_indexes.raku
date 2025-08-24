@@ -28,6 +28,10 @@ use v6;
 
 
 {
+    ## This example displays almost "normal" behavior, except it skips 12
     say 3 ... 7, 11 ... 13;  # (3 4 5 6 7 11 13)
-    say 3 ... 7,11 ... 13;  
+    say 3 ... 7,11 ... 13;   # (3 4 5 6 7 11 13)
+
+    say 3 .. 7, 11 .. 13;  # (3 4 5 6 7 11 13)
+
 }
