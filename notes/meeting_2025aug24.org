@@ -22,7 +22,7 @@
 ** topics
 *** knuth 'concrete mathematics"
 **** bruce gray's favorite math book
-**** https://archive.org/details/concrete-mathematics 
+**** https://archive.org/details/concrete-mathematics
 
 *** rob: weekly challenge tic-tac-toe board, determine who won.
 **** 3x3: an issue with binding and shaped arrays
