@@ -84,7 +84,7 @@ say 3 ... 7, 11 ... 13;
 ****** https://www.perl.com/pub/2003/03/07/apocalypse6.html/
 ****** kind of like trying to get hip-hop by studying Chaucer
 ******* looks like there was an idea for a default auto-flat "view" that preserved internal structure
-******** larry wall thinking: Flatten or not?  Why not both?
+******** Larry Wall thinking: Flatten or not?  Why not both?
 
 *** "is item" trait
 **** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
