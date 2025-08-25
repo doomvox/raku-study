@@ -64,7 +64,7 @@ say "===";
     #  [2 3]]
     # [[Z b]
     #  [d e]]
-##    @a[0;0] = '6'; ## Error: Cannot assign to a readonly variable or a value
+    @a[0;0] = '6'; ## Error: Cannot assign to a readonly variable or a value
     say @a, @b;
     }
 
