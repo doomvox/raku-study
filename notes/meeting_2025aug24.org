@@ -30,6 +30,7 @@
 **** https://github.com/rakudo/rakudo/blob/main/src/core.c/Array/Shaped.rakumod
 **** https://github.com/rakudo/rakudo/blob/57778e432003df466d8c797070345b81cb1ffdbf/src/core.c/Array/Shaped.rakumod#L191
 **** https://github.com/rakudo/rakudo/blob/main/src/core.c/Array.rakumod
+**** https://github.com/rakudo/rakudo/tree/main/src/core.c/Array
 
 *** anton subject:
 **** Raku introspection nice for LLM implementations
