@@ -201,7 +201,7 @@ say %source.duckmap: -> %a where {
 ** follow-up
 *** next time
 **** warm-up on how to screen share right
-**** 
+**** jack the font size in emacs
 
 *** TODO doc problems
 **** https://docs.raku.org/routine/duckmap
