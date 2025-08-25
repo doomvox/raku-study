@@ -75,8 +75,8 @@ say "===";
     my @a[(2;2)] = (0,1;2,3);
     my @b[(2;2)] = (<a b>; <d e>);
 
-#    @a[(0;0)] := @b[(0;0)];  # Partially dimensioned views of shaped arrays not yet implemented. Sorry.
-    @a[0,0] := @b[0,0];  # Partially dimensioned views of shaped arrays not yet implemented. Sorry.
+    @a[(0;0)] := @b[(0;0)];  # Partially dimensioned views of shaped arrays not yet implemented. Sorry.
+#    @a[0,0] := @b[0,0];  # Partially dimensioned views of shaped arrays not yet implemented. Sorry.
     say @a;
     say @b;
     # [[a 1]         ## Note the 'a', first cell looks same in both
