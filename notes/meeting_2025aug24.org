@@ -26,6 +26,7 @@
 
 *** rob: weekly challenge tic-tac-toe board, determine who won.
 **** 3x3: an issue with binding and shaped arrays
+**** https://github.com/doomvox/raku-study/blob/main/bin/2025aug24/shared_array_elements_via_binding.raku
 
 *** anton subject:
 **** Raku introspection nice for LLM implementations
