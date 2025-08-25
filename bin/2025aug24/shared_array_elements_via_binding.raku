@@ -76,6 +76,7 @@ say "===";
     my @b[(2;2)] = (<a b>; <d e>);
 
     @a[(0;0)] := @b[(0;0)];  # Partially dimensioned views of shaped arrays not yet implemented. Sorry.
+# Same behavior as:
 #    @a[0,0] := @b[0,0];  # Partially dimensioned views of shaped arrays not yet implemented. Sorry.
     say @a;
     say @b;
