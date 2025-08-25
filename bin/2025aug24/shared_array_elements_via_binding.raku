@@ -72,7 +72,7 @@ say "===";
 say "===";
 {
     ## Trying more complex shaped arrays, 3x3;
-    my @a[2;2] = (0,1;2,3);
+    my @a[(2;2)] = (0,1;2,3);
     my @b[2;2] = (<a b>; <d e>);
 
     @a[0;0] := @b[0;0];
