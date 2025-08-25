@@ -24,7 +24,7 @@
 **** bruce gray's favorite math book
 **** https://archive.org/details/concrete-mathematics
 
-*** rob: weekly challenge tic-tac-toe board, determine who won.
+*** rob: weekly challenge spinoff tic-tac-toe board representation
 **** 3x3: an issue with binding and shaped arrays
 ***** goal: shaped arrays that share containers for particular elements
 
