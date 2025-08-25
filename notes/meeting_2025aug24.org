@@ -43,7 +43,7 @@
 **** open AI, LLM providers, release packages in python
 ***** python has *some* introspection
 
-*** your friend the monad (tim and anton)
+*** our friend the monad (tim and anton)
 **** Marton: "Promises in Javascript are 'impure' monads" 
 **** Anton: "glorified decorator pattern"
 **** Raku "feed" operators similar (not consistent)
