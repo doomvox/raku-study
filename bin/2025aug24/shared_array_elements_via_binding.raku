@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
-# 
+
+#  Note: Fixed in v6.e.PREVIEW 
+
 # shared_array_elements_via_binding.raku            24 Aug 2025 
 
 use v6;
