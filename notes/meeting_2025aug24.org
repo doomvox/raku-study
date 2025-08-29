@@ -85,7 +85,7 @@ say 3 ... 7, 11 ... 13;
 ***** checked apocalypses to understand the design decision:
 ****** https://www.perl.com/pub/2003/03/07/apocalypse6.html/
 ****** kind of like trying to get hip-hop by studying Chaucer
-******* looks like there was an idea for a default auto-flat "view" but with internal structure preserved
+******* there was an idea for a default auto-flat "view" but with internal structure preserved
 ******** Larry Wall thinking: Flatten or not?  Why not both?
 
 *** "is item" trait
