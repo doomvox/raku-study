@@ -65,7 +65,9 @@
 ***** sequences aren't the solution here, but they *do* have some weirdzo aspects
 ***** William Michels original goal:
 ****** extraction of columns from a tabular structure
-******* really: wants raku to flatten just right when needed (TODO raku dp cookbook)
+******* really: wants raku to flatten just right when needed
+******** TODO need for a "raku dp cookbook"?
+
 ****** generating discontinuous integer ranges
 ******* TODO forget not bg's contribution (faking descending ranges):
 ******** https://github.com/doomvox/raku-study/tree/main/bin/2025aug24/bg.raku
