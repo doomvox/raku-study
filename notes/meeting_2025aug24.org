@@ -201,7 +201,7 @@ say %source.duckmap: -> %a where {
 ** follow-up
 *** next time
 **** warm-up on how to screen share right
-**** jack the font size in emacs
+**** jack the font size in emacvs
 
 *** TODO doc problems
 **** https://docs.raku.org/routine/duckmap
@@ -223,7 +223,6 @@ say %source.duckmap: -> %a where {
 ** announcements 
 *** next meetings
 
-**** Aug 24, 2025 
 **** Sep  7, 2025 (ok: labor day weekend was the week before)
 **** Sep 21, 2025 
 **** Oct  5, 2025
