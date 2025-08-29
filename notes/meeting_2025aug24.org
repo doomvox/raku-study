@@ -100,6 +100,7 @@ foo  [1,2,3];  # array
 foo $[1,2,3];  # item
 #+END_SRC 
 ****** Q: what is this for, really?
+******* things that are "itemized" don't iterate, e.g. $(1, 2, 3) vs (1, 2, 3)
 
 *** flatnessizers
 **** flat hammer
