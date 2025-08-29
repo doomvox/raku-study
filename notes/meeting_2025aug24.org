@@ -127,7 +127,7 @@ say @a[**];  # (1 2 3 4)
 
 **** https://stackoverflow.com/questions/79528856/how-to-make-altering-a-deep-field-more-idiomatic/79540270#79540270
 
-***** the goal is to de-uglify this:
+***** the goal is to de-uglify this code:
 # Given data:
 #   %sources{$lang}{$filename}{$attribute}
 #+BEGIN_SRC raku
