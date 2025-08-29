@@ -123,7 +123,7 @@ say @a[**];  # (1 2 3 4)
 #+END_SRC 
 **** how about: hyper slip
 
-*** richard hainsworth: altering a deep filed
+*** richard hainsworth: altering a deep field
 **** https://stackoverflow.com/questions/79528856/how-to-make-altering-a-deep-field-more-idiomatic/79540270#79540270
 ***** the goal is to de-uglify this code:
 #+BEGIN_SRC raku
