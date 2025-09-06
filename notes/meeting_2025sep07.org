@@ -14,8 +14,9 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-***  A DateTime issue (Rob?)
+*** A DateTime issue on the mailing list (Rob?)
 **** https://www.nntp.perl.org/group/perl.perl6.users/2025/08/msg11493.html
+**** https://www.nntp.perl.org/group/perl.perl6.users/2025/08/msg11497.html
 *** Rakudo Weekly
 **** https://rakudoweekly.blog/2025/09/01/2025-35-sensitive-data/
 *** lizmat on complying with the european "cyber resilience act"
