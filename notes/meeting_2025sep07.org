@@ -18,12 +18,35 @@
 **** https://www.nntp.perl.org/group/perl.perl6.users/2025/08/msg11493.html
 **** yary might have it
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2025/08/msg11497.html
+*** grep URI line from file and trim trailing '#' comment
+**** https://unix.stackexchange.com/questions/799195/remove-new-lines-and-everything-after-comment-symbol-with-awk-or-sed
+**** raku answer from jubilatious1 
+#+BEGIN_SRC sh
+ raku -ne 'print S/ \h+ \# <-[#]>+ $$ //;  file
+#+END_SRC 
+
+#+BEGIN_SRC sh
+ raku -ne '.subst(/ \h+ \# <-[#]>+ $$ /).print;'  file
+#+END_SRC 
+***** note: the \h+ requires leading whitespace in front of comment
+
 *** Rakudo Weekly
 **** https://rakudoweekly.blog/2025/09/01/2025-35-sensitive-data/
+
+***** jubilatious1 made the cut
+
+
+~$ raku -ne 'print S/ \h+ \# <-[#]>+ $$ //;  file
+
+OR:
+
+~$ 
+
+
+
+
 *** lizmat on complying with the european "cyber resilience act"
 **** https://dev.to/lizmat/towards-more-accountability-of-raku-programs-3g2
-***** jubilatious1 made the cut
-****** https://unix.stackexchange.com/questions/799195/remove-new-lines-and-everything-after-comment-symbol-with-awk-or-sed
 
 *** todays quote from Diane Di Prima
 **** a better (later?) version kicking around the net:
