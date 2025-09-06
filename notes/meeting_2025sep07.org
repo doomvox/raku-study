@@ -15,6 +15,8 @@
 
 ** topics
 *** 
+*** Rakudo Weekly
+**** https://rakudoweekly.blog/2025/09/01/2025-35-sensitive-data/
 
 *** todays quote from Diane Di Prima
 **** a better (later?) version kicking around the net:
