@@ -31,14 +31,12 @@
 ***** made the cut for the rakudo weekly
 ****** https://rakudoweekly.blog/2025/09/01/2025-35-sensitive-data/
 
-
-
-
 *** lizmat on complying with the european "cyber resilience act"
 **** https://dev.to/lizmat/towards-more-accountability-of-raku-programs-3g2
 
+
 *** todays quote from Diane Di Prima
-**** a better (later?) version kicking around the net:
+**** better would be:
 #+BEGIN_SRC txt
 may the wind deal kindly with us
 may the fire remember our names
@@ -46,6 +44,8 @@ may springs flow, rain fall again
 may the land grow green, may it swallow our mistakes
 #+END_SRC 
 ***** https://fromtroublesofthisworld.wordpress.com/2022/04/20/life-chant-by-diane-di-prima/
+***** fixes my made a mistake: s/cover/swallow/
+***** expanding "w/us" to "with us" looks like a later improverment
 
 ** and topics from the forgotten folds of time
 *** some of my many open projects:
