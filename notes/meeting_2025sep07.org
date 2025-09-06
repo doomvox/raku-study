@@ -203,7 +203,7 @@ say %source.duckmap: -> %a where {
 
 
 
-** older topics
+** even older topics
 *** william michels
 **** https://arxiv.org/abs/1910.08129
 
