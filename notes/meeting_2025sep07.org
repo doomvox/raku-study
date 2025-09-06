@@ -21,10 +21,8 @@
 
 ** topics
 
-*** todays quote
-
+*** todays quote from Diane Di Prima
 **** a better (later?) version kicking around the net:
-
 #+BEGIN_SRC txt
 may the wind deal kindly with us
 may the fire remember our names
