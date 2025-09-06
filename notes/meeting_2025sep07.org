@@ -31,18 +31,6 @@
 ***** made the cut for the rakudo weekly
 ****** https://rakudoweekly.blog/2025/09/01/2025-35-sensitive-data/
 
-*** Rakudo Weekly
-
-
-***** jubilatious1 made the cut
-
-
-~$ raku -ne 'print S/ \h+ \# <-[#]>+ $$ //;  file
-
-OR:
-
-~$ 
-
 
 
 
