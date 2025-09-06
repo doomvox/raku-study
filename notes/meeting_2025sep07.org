@@ -7,12 +7,6 @@
 ***** code examples
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2025sep07
 
-****** duckmap examples are here:
-******* https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
-
-****** Subtitle parsing (a subject I'll revive some day):
-******* https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
-
 ***** last meeting notes
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025aug10.org 
 
