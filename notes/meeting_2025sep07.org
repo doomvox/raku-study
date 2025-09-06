@@ -101,22 +101,7 @@ may the land grow green, may it swallow our mistakes
 ****** generating discontinuous integer ranges
 ******* TODO forget not bg's contribution (faking descending ranges):
 ******** https://github.com/doomvox/raku-study/tree/main/bin/2025aug24/bg.raku
-***** the odd behavior of comma sep triple dots:
-#+BEGIN_SRC raku
-say 3 ... 7, 11 ... 13;
-#+END_SRC 
-****** pmichaud argues this is a comma precedence thing
-******* does that explain all the observed quirks?
-***** behavior of sequences (what's desired, what's necessary)
-****** quirks of the roast tests
 
-**** funny thought: why doesn't raku do descending ranges?
-***** Q: could that be changed?  (probably not at this point)
-***** checked apocalypses to understand the design decision:
-****** https://www.perl.com/pub/2003/03/07/apocalypse6.html/
-****** kind of like trying to get hip-hop by studying Chaucer
-******* there was an idea for a default auto-flat view but with internal structure preserved
-******** Sounds like Larry Wall thinking: Flatten or not?  Why not both?
 
 *** "is item" trait
 **** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
