@@ -1,0 +1,242 @@
+* meeting notes August 24, 2025
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025aug24.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025aug24
+
+****** duckmap examples are here:
+******* https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
+
+****** Subtitle parsing (a subject I'll revive some day):
+******* https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025aug10.org 
+
+***** group discussions at github
+****** https://github.com/doomvox/raku-study/discussions 
+
+** topics
+
+
+** and topics from the forgotten folds of time
+*** knuth 'concrete mathematics"
+**** bruce gray's favorite math book
+**** https://archive.org/details/concrete-mathematics
+
+*** rob: weekly challenge spinoff tic-tac-toe board representation
+**** 3x3: an issue with binding and shaped arrays
+***** goal: shaped arrays that share containers for particular elements
+
+**** https://docs.raku.org/syntax/Shaped%20arrays
+**** https://github.com/doomvox/raku-study/blob/main/bin/2025aug24/shared_array_elements_via_binding.raku
+**** https://docs.raku.org/language/containers#Binding_to_array_elements
+**** https://docs.raku.org/type/IterationBuffer#method_BIND-POS
+**** https://docs.raku.org/routine/BIND-POS
+**** https://github.com/rakudo/rakudo/blob/main/src/core.c/Array/Shaped.rakumod
+**** https://github.com/rakudo/rakudo/blob/57778e432003df466d8c797070345b81cb1ffdbf/src/core.c/Array/Shaped.rakumod#L191
+**** https://github.com/rakudo/rakudo/blob/main/src/core.c/Array.rakumod
+**** https://github.com/rakudo/rakudo/tree/main/src/core.c/Array
+
+*** anton subject:
+**** Raku introspection nice for LLM implementations
+**** open AI, LLM providers, release packages in python
+***** python has *some* introspection
+
+*** our friend the monad (tim and anton)
+**** Marton: "Promises in Javascript are 'impure' monads" 
+**** Anton: "glorified decorator pattern"
+**** Raku "feed" operators similar (not consistent)
+**** "in raku you can make monads that define your grammars"
+**** Everything about monads: 
+***** https://www.youtube.com/watch?v=Xz5B4B0kVco
+
+*** are sequences good for anything much?
+**** my first thought: for counting down, like a reverse range
+**** lizmat says this is the *only* thing she uses them for
+**** seems like you need to be doing number theory-ish things to want them
+***** maybe: odd or even numbers
+***** bruce likes arithmetic and geometric sequences
+
+*** back to problem-solving issue 407: comma seperated triple dot sequences
+**** https://github.com/Raku/problem-solving/issues/407
+***** I added a few small comments just now
+**** there are multiple things going on 
+***** sequences aren't the solution here, but they *do* have some weirdzo aspects
+***** William Michels original goal:
+****** extraction of columns from a tabular structure
+******* really: wants raku to flatten just right when needed
+******** TODO need for a "raku dp cookbook"?
+
+****** generating discontinuous integer ranges
+******* TODO forget not bg's contribution (faking descending ranges):
+******** https://github.com/doomvox/raku-study/tree/main/bin/2025aug24/bg.raku
+***** the odd behavior of comma sep triple dots:
+#+BEGIN_SRC raku
+say 3 ... 7, 11 ... 13;
+#+END_SRC 
+****** pmichaud argues this is a comma precedence thing
+******* does that explain all the observed quirks?
+***** behavior of sequences (what's desired, what's necessary)
+****** quirks of the roast tests
+
+**** funny thought: why doesn't raku do descending ranges?
+***** Q: could that be changed?  (probably not at this point)
+***** checked apocalypses to understand the design decision:
+****** https://www.perl.com/pub/2003/03/07/apocalypse6.html/
+****** kind of like trying to get hip-hop by studying Chaucer
+******* there was an idea for a default auto-flat view but with internal structure preserved
+******** Sounds like Larry Wall thinking: Flatten or not?  Why not both?
+
+*** "is item" trait
+**** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
+***** The is item trait can be used on @ and % sigilled parameters 
+****** positional or associative is acceptable in dispatch if it is presented as an item
+****** just a "tie-breaker": should always also a dispatch candidate that accepts when not itemized
+#+BEGIN_SRC raku
+multi sub foo(@a)         { say "array" }
+multi sub foo(@a is item) { say "item"  }
+foo  [1,2,3];  # array
+foo $[1,2,3];  # item
+#+END_SRC 
+****** Q: what is this for, really?
+******* things that are "itemized" don't iterate, e.g. $(1,2,3) vs (1,2,3)
+
+*** flatnessizers
+**** flat hammer
+***** code example
+****** https://github.com/Raku/roast/blob/master/S32-list/flat.t
+#+BEGIN_SRC raku
+is-deeply @a.flat(:hammer), $hammered, 'array.flat(:hammer)';
+#+END_SRC 
+****** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
+#+BEGIN_SRC raku
+my @a = 1, [2, [3,4]];
+say @a.flat;           # (1 [2 [3 4]])
+say @a.flat(:hammer);  # (1 2 3 4)
+#+END_SRC 
+******* One can now also use HyperWhatever (aka **) in a postcircumfix [ ] for the same semantics:
+#+BEGIN_SRC raku
+my @a = 1, [2, [3,4]];
+say @a[*];   # (1 [2 [3 4]])
+say @a[**];  # (1 2 3 4)
+#+END_SRC 
+**** how about: hyper slip
+
+*** richard hainsworth: altering a deep field
+**** https://stackoverflow.com/questions/79528856/how-to-make-altering-a-deep-field-more-idiomatic/79540270#79540270
+***** the goal is to de-uglify this code:
+#+BEGIN_SRC raku
+# Given data:
+#   %sources{$lang}{$filename}{$attribute}
+for %sources.values {
+    for .pairs {
+       for .value.pairs.grep({ .key eq 'modified'}) {
+          .value = transform-modified( .value )
+       }
+    }
+}
+#+END_SRC 
+
+**** wamba: duckmap
+***** iterates through hash, toggles the modified fields only in the deepest layers
+****** checks for the existence of modified and ensures no further associative values exist.
+#+BEGIN_SRC raku
+my %source := %(b => %(a => %(modified => True, c => 2), modified => True));
+%source.duckmap: -> %a where { 
+    .<modified>:exists 
+    and .values.none ~~ Associative 
+} { 
+    %a<modified> .=not 
+};
+say %source;
+#+END_SRC 
+***** If you prefer to create a new hash instead of mutating the original, you can use:
+#+BEGIN_SRC raku
+say %source.duckmap: -> %a where { 
+    .<modified>:exists 
+    and .values.none ~~ Associative 
+} { 
+   %( |%a, modified => %a<modified>.not ) 
+};
+#+END_SRC 
+***** Q: why not use deepmap?
+
+**** Maron (2colours)
+***** 
+#+BEGIN_SRC raku
+%source{*;*;'modified'} .= map: &transform-modified;
+#+END_SRC 
+
+***** 
+#+BEGIN_SRC raku
+.=&transform-modified for %source{*;*;'modified'};
+#+END_SRC 
+
+***** Marton (2colours) comments "semilists" don't seem documented, but work
+****** https://github.com/doomvox/raku-study/discussions/15
+
+
+
+*** can you use gather/take with race?
+**** A: no.
+***** Lengthy discussions follow
+****** https://stackoverflow.com/questions/79550260/use-gather-take-with-race
+****** https://github.com/doomvox/raku-study/discussions/17
+
+
+
+
+
+** older topics
+*** william michels
+**** https://arxiv.org/abs/1910.08129
+
+*** william michels at play in stackoverflow land:
+**** https://stackoverflow.com/questions/43370856/how-can-i-pass-a-perl-6-object-through-a-nativecall-callback
+
+*** William Michels: Raku answers to shell questions
+**** https://unix.stackexchange.com/a/797530/227738
+**** https://unix.stackexchange.com/a/797471/227738
+**** https://unix.stackexchange.com/a/797904/227738
+
+
+
+** follow-up
+*** next time
+**** warm-up on how to screen share right
+**** jack the font size in emacvs
+
+*** TODO doc problems
+**** https://docs.raku.org/routine/duckmap
+**** Rat?  Not Numeric?
+**** Why changed data with changed code?
+**** Possibly, better examples?
+
+*** TODO start a people file already 
+**** farley
+***** apogee == matt dowdy
+***** librasteve == steve rowe
+***** jubilatious1 == william michels
+***** util == bruce gray
+***** 2colours == Marton Polgar  (with accented 'a' s)
+***** doom == doomvox == tailorpaul == joseph brenner == me
+***** antonov == anton antonov
+
+
+** announcements 
+*** next meetings
+
+**** Sep  7, 2025 (ok: labor day weekend was the week before)
+**** Sep 21, 2025 
+**** Oct  5, 2025
+**** Oct 19, 2025
+**** Nov 2, 2025
+**** Nov 16, 2025
+**** Dec 7, 2025 (three week gap, to get past thanksgiving weekend)
+**** Dec 21, 2025
+**** Jan  4, 2025
+**** Jan  18, 2025
