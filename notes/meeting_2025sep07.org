@@ -24,7 +24,6 @@
 #+BEGIN_SRC sh
  raku -ne 'print S/ \h+ \# <-[#]>+ $$ //;  file
 #+END_SRC 
-
 #+BEGIN_SRC sh
  raku -ne '.subst(/ \h+ \# <-[#]>+ $$ /).print;'  file
 #+END_SRC 
