@@ -25,6 +25,14 @@ may the land grow green, may it swallow our mistakes
 ***** https://fromtroublesofthisworld.wordpress.com/2022/04/20/life-chant-by-diane-di-prima/
 
 ** and topics from the forgotten folds of time
+*** some of my many open projects:
+**** links I expect to use again some day
+****** duckmap examples are here:
+******* https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
+****** Subtitle parsing (a subject I'll revive some day):
+******* https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
+
+
 *** knuth 'concrete mathematics"
 **** bruce gray's favorite math book
 **** https://archive.org/details/concrete-mathematics
