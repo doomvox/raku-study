@@ -21,6 +21,16 @@
 
 ** topics
 
+*** todays quote
+
+**** a better (later?) version kicking around the net:
+
+#+BEGIN_SRC txt
+may the wind deal kindly with us
+may the fire remember our names
+may springs flow, rain fall again
+may the land grow green, may it swallow our mistakes
+#+END_SRC 
 
 ** and topics from the forgotten folds of time
 *** knuth 'concrete mathematics"
