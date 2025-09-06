@@ -20,7 +20,8 @@
 **** https://rakudoweekly.blog/2025/09/01/2025-35-sensitive-data/
 *** lizmat on complying with the european "cyber resilience act"
 **** https://dev.to/lizmat/towards-more-accountability-of-raku-programs-3g2
-***** https://unix.stackexchange.com/questions/799195/remove-new-lines-and-everything-after-comment-symbol-with-awk-or-sed
+***** jubilatious1 made the cut
+****** https://unix.stackexchange.com/questions/799195/remove-new-lines-and-everything-after-comment-symbol-with-awk-or-sed
 
 *** todays quote from Diane Di Prima
 **** a better (later?) version kicking around the net:
