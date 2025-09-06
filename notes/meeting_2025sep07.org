@@ -18,7 +18,7 @@
 **** https://www.nntp.perl.org/group/perl.perl6.users/2025/08/msg11493.html
 *** Rakudo Weekly
 **** https://rakudoweekly.blog/2025/09/01/2025-35-sensitive-data/
-*** lizmat on complying with european "cyber resilience act"
+*** lizmat on complying with the european "cyber resilience act"
 **** https://dev.to/lizmat/towards-more-accountability-of-raku-programs-3g2
 
 *** todays quote from Diane Di Prima
