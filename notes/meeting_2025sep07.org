@@ -28,9 +28,11 @@
  raku -ne '.subst(/ \h+ \# <-[#]>+ $$ /).print;'  file
 #+END_SRC 
 ***** note: the \h+ requires leading whitespace in front of comment
+***** made the cut for the rakudo weekly
+****** https://rakudoweekly.blog/2025/09/01/2025-35-sensitive-data/
 
 *** Rakudo Weekly
-**** https://rakudoweekly.blog/2025/09/01/2025-35-sensitive-data/
+
 
 ***** jubilatious1 made the cut
 
