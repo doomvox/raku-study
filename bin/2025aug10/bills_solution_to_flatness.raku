@@ -109,6 +109,9 @@ say "===";
      }
     ## that happens with 2023.02 and my more recent build: 2025.03-9-g5f399c640.
 
+    ## Q: could this be a warning, not an error? 
+    ## But: I suspect the word is going to be "no, don't use semics for that"
+
 
 
 
