@@ -16,6 +16,9 @@ my @radii = 1,2,4...256;
 # my @circles = map { Circle.new( radius => $_ ) }, @radii;
 
 my @circles = map { Circle.new(:$radius) }, @radii;
+# ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025sep07/new_circles_ex_homepage.raku
+# Variable '$radius' is not declared.  Perhaps you forgot a 'sub' if this
+
 
 .say for @circles;
 
