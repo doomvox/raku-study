@@ -104,11 +104,10 @@ say "===";
      ## ===SORRY!=== Error while compiling ...
      ## Unsupported use of C-style "for (;;)" loop.  In Raku please use: "loop
      ## (;;)".
-     
      for (4...0; 2..6; 0..2).flat -> $i {
          say @i[ $i ];
      }
-
+    ## that happens with 2023.02 and my more recent build: 2025.03-9-g5f399c640.
 
 
 
