@@ -45,7 +45,7 @@ may the land grow green, may it swallow our mistakes
 #+END_SRC 
 ***** https://fromtroublesofthisworld.wordpress.com/2022/04/20/life-chant-by-diane-di-prima/
 ***** this swallows my mistake:  s/cover/swallow/
-***** expanding "w/us" to "with us" looks like a later improvement
+***** expanding "w/us" to "with us" looks good, a later improvement?
 
 ** and topics from the forgotten folds of time
 *** some of my many open projects:
