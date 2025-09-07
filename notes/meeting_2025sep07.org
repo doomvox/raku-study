@@ -27,7 +27,7 @@
 #+BEGIN_SRC sh
  raku -ne '.subst(/ \h+ \# <-[#]>+ $$ /).print;'  file
 #+END_SRC 
-***** note: the \h+ requires leading whitespace in front of comment
+***** note: the \h+ requires leading whitespace in front of the comment character
 ***** made the cut for the rakudo weekly
 ****** https://rakudoweekly.blog/2025/09/01/2025-35-sensitive-data/
 
