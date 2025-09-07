@@ -12,6 +12,7 @@ class Circle {
 my @radii = 1,2,4...256;
 
 my @circles = map { Circle.new(:$^radius) }, @radii;
+say @circles;
 
 my $total-area = [+] @circles».area;
 
