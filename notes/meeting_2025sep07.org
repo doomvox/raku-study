@@ -23,8 +23,12 @@
 say (4...0; 2..6; 0..2).flat;
 # (4 3 2 1 0 2 3 4 5 6 0 1 2)
 #+END_SRC 
-# https://github.com/doomvox/raku-study/tree/main/bin/2025aug10/bills_solution_to_flatness.raku
-# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025aug10/bills_solution_to_flatness.raku
+***** but: this has a gotcha with for-loops
+****** the semics can be a compiler error
+****** but only with *two* semics, one or three is fine.
+******* # https://github.com/doomvox/raku-study/tree/main/bin/2025aug10/bills_solution_to_flatness.raku
+******* # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025aug10/bills_solution_to_flatness.raku
+
 
 *** A DateTime issue on the mailing list (Rob?)
 **** https://www.nntp.perl.org/group/perl.perl6.users/2025/08/msg11493.html
