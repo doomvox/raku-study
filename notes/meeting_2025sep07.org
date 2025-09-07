@@ -18,6 +18,9 @@
 *** revisiting The Bill Problem
 **** good ways to specify lists of integers via discontinuous ascending or descending ranges 
 ***** I use the english "range" here, which might or might not be a Raku "range".
+**** "B1 style": mixed doubles and triples for descending with semi-cs and trailing .flat
+#+BEGIN_SRC raku
+#+END_SRC 
 
 *** A DateTime issue on the mailing list (Rob?)
 **** https://www.nntp.perl.org/group/perl.perl6.users/2025/08/msg11493.html
