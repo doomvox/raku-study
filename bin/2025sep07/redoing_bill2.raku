@@ -19,6 +19,7 @@ use v6;
 
     say "---";
     for | (0..1; 3...1; 3..6) -> $i {
+        say $i;
         print @i[ $i ], "\t";
     }
     print "\n";
