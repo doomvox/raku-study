@@ -32,3 +32,11 @@ say (4...0; 2...6; 0...2).flat;
 say (4...0, 2..6, 0..2).flat;
 # (4 3 2 1 0 2..6 0..2)
 ## but it *might* behave the same way, depending
+
+{ ## Revisiting: Sunday September  7, 2025  11:39 AM
+
+### goal, a flattened list put together from discontinuous ranges:
+## (4 3 2 1 0 2 3 4 5 6 0 1 2)
+
+
+{
