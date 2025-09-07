@@ -15,6 +15,10 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
+*** revisiting The Bill Problem
+**** good ways to specify lists of integers via discontinuous ascending or descending ranges 
+***** I use the english "range" here, which might or might not be a Raku "range".
+
 *** A DateTime issue on the mailing list (Rob?)
 **** https://www.nntp.perl.org/group/perl.perl6.users/2025/08/msg11493.html
 **** yary might have it
