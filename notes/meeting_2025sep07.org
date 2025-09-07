@@ -6,10 +6,11 @@
 
 ***** code examples
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2025sep07
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025aug24
 ****** https://github.com/doomvox/raku-study/tree/main/bin/2025aug10
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025aug10.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025aug24.org 
 
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
@@ -29,7 +30,8 @@ say (4...0; 2..6; 0..2).flat;
 ******* # https://github.com/doomvox/raku-study/tree/main/bin/2025aug10/bills_solution_to_flatness.raku
 ******* # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025aug10/bills_solution_to_flatness.raku
 **** bruce gray code, trying to imitate Rlang's c()
-
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025aug24/discontinuous_integer_ranges.raku
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025aug24/discontinuous_integer_ranges.raku
 
 *** A DateTime issue on the mailing list (Rob?)
 **** https://www.nntp.perl.org/group/perl.perl6.users/2025/08/msg11493.html
