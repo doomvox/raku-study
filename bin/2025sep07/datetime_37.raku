@@ -33,5 +33,4 @@ use v6;
     my $b = $inst.Int;
     say $a - $b;
     # Instant:0.523749823
-
 }
