@@ -28,6 +28,7 @@ say (4...0; 2..6; 0..2).flat;
 ****** but only with *two* semics, one or three is fine.
 ******* # https://github.com/doomvox/raku-study/tree/main/bin/2025aug10/bills_solution_to_flatness.raku
 ******* # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025aug10/bills_solution_to_flatness.raku
+**** bruce gray code, trying to imitate Rlang's c()
 
 
 *** A DateTime issue on the mailing list (Rob?)
