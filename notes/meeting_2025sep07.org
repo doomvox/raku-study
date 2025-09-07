@@ -16,7 +16,6 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** whining about the obvious
 *** revisiting The Bill Problem
 **** how to specify lists of integers via discontinuous ascending or descending ranges 
 ***** I use the english "range" here, which might or might not be a Raku "range".
