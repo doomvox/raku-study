@@ -25,7 +25,7 @@ use v6;
 }
 {
     my $inst = now;
-    DateTime.new($inst).local,     "\n",
-    DateTime.new($inst.Int).local, "\n";
+    say DateTime.new($inst).local;
+    say DateTime.new($inst.Int).local;
 
 }
