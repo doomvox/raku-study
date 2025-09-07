@@ -12,4 +12,4 @@ use v6;
 my $inst = now;
 say
 DateTime.new($inst).local, "\n",
-DateTime.new($inst.Int).local, "\n"
+DateTime.new($inst.Int).local, "\n";
