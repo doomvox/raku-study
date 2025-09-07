@@ -31,7 +31,7 @@ use v6;
     say "===";
     my $a = $inst;
     my $b = $inst.Int;
-    say ($a - $b);
+    say $a - $b;
     # Instant:0.523749823
 
 }
