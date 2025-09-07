@@ -11,7 +11,7 @@ class Circle {
 
 my @radii = 1,2,4...256;
 
-# my @circles = map { Circle.new(:$^radius) }, @radii;
+my @circles = map { Circle.new(:$^radius) }, @radii;
 
 # my @circles = map { Circle.new( radius => $_ ) }, @radii;
 
