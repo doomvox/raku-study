@@ -6,6 +6,6 @@ use v6;
 
 my $a = 3;
 my $b = 4;
-## my $c = sqrt( $a**2 + $b**2 );
-my $c = sqrt( $a² + $b² );
+my $c = sqrt( $a**2 + $b**2 );
+## my $c = sqrt( $a² + $b² );
 say $c; # 5
