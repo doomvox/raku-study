@@ -28,4 +28,7 @@ use v6;
     say DateTime.new( $inst     ).local;
     say DateTime.new( $inst.Int ).local;
 
+    say $inst;
+    say $inst.Int;
+
 }
