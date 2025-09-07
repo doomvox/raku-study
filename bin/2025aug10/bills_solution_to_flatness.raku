@@ -56,7 +56,7 @@ say "===";
     ## Oops: Unsupported use of C-style "for (;;)" loop.  In Raku please use: "loop
 #    for (4...0; 2..6; 0..2; 0..1).flat -> $i {
 #        say @i[ $i ];
-3    }
+#    }
 
     ## so this semic form is another style that only works in some contexts, okay outside a for loop
     say @i[ (4...0; 2..6; 0..2).flat ];
