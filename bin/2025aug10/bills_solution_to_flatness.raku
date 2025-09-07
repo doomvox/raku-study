@@ -80,24 +80,24 @@ say "===";
      # 6
 
      say "---";
-    for (4...0; 2..6; 0..2; 0..1).flat -> $i {
-        say @i[ $i ];
-    }
-    # 4
-    # 3
-    # 2
-    # 1
-    # 0
-    # 2
-    # 3
-    # 4
-    # 5
-    # 6
-    # 0
-    # 1
-    # 2
-    # 0   ## Tacked on from an additional range
-    # 1
+     for (4...0; 2..6; 0..2; 0..1).flat -> $i {
+         say @i[ $i ];
+     }
+     # 4
+     # 3
+     # 2
+     # 1
+     # 0
+     # 2
+     # 3
+     # 4
+     # 5
+     # 6
+     # 0
+     # 1
+     # 2
+     # 0   ## Tacked on from an additional range
+     # 1
 
 
 
