@@ -24,6 +24,9 @@ say (4...0; 2..6; 0..2).flat;
 # (4 3 2 1 0 2 3 4 5 6 0 1 2)
 #+END_SRC 
 
+
+# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025aug10/bills_solution_to_flatness.raku
+
 *** A DateTime issue on the mailing list (Rob?)
 **** https://www.nntp.perl.org/group/perl.perl6.users/2025/08/msg11493.html
 **** yary might have it
