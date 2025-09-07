@@ -4,7 +4,6 @@
 
 use v6;
 
-
 class Circle {
     has $.radius;
     method area { π * $.radius² }
