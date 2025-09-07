@@ -22,6 +22,8 @@ for ( 0..1, 3...1, 3..6 ).flat(:hammer) -> $i {
 
 
 say "==="
-for ((0..1), [(3...1), (3..6)]).flat(:hammer) -> $i {
+
+## tangling up 
+## for ((0..1), [(3...1), (3..6)]).flat(:hammer) -> $i {
     say "i: ", $i;
 }
