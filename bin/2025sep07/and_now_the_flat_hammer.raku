@@ -43,7 +43,7 @@ say "ZZZ";
 # docs example:
 my @lazy-array = lazy 1, 11, 121 ... 10**100;
 
-my $s :=  1, 4, 3...4;
+my $s :=  1, 2, 3...4;
 say "array s: ", $s;  ## 1, 4
 
 
