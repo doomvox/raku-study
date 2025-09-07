@@ -20,7 +20,7 @@ use v6;
     say "---";
     for | (0..1; 3...1; 3..6) -> $i {
         say "i: ", $i;
-        print @i[ $i ], "\t";
+        print @i[ $i ], "\n";
     }
     print "\n";
     # 2	3	4	
