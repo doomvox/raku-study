@@ -54,9 +54,9 @@ say "===";
 
     say "---";
     ## Oops: Unsupported use of C-style "for (;;)" loop.  In Raku please use: "loop
-    for (4...0; 2..6; 0..2).flat -> $i {
-        say @i[ $i ];
-    }
+#     for (4...0; 2..6; 0..2).flat -> $i {
+#         say @i[ $i ];
+#     }
 
 
 }
