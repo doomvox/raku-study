@@ -8,6 +8,7 @@ use v6;
     my @i = 0, 1, 2, 3, 4, 5, 6;    # inane array that converts the index into itself.
 
 #     for ( 0..1; 3...1; 3..6 ).flat -> $i {
+     for ( flat( 0..1; 3...1; 3..6 ) ) -> $i {
         print @i[ $i ], "\t";
     }
     print "\n";
