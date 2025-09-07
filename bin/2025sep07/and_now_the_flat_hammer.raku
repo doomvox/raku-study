@@ -36,3 +36,4 @@ say "XXX";
 say (0, 2 ... 7, 9 ... 14);
 say "YYY";
 say (0, 2 ... 7, 9 ... 14).flat;
+say "ZZZ";
