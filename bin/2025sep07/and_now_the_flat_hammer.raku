@@ -42,3 +42,6 @@ say (0; 2 ... 7; 9 ... 14).flat(:hammer);
 say "ZZZ";
 # docs example:
 my @lazy-array = lazy 1, 11, 121 ... 10**100;
+
+
+say @lazy-array.head(10);
