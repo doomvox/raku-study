@@ -38,3 +38,6 @@ say (0, 2 ... 7, 9 ... 14).flat(:hammer);
 say "===";
 say (0; 2 ... 7; 9 ... 14).flat(:hammer);
 ## (0 2 3 4 5 6 7 9 10 11 12 13 14)
+
+# docs example:
+my @lazy-array = lazy 1, 11, 121 ... 10**100;
