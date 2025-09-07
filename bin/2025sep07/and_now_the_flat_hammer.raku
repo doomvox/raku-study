@@ -35,3 +35,5 @@ say "YYY";
 say (0, 2 ... 7, 9 ... 14).flat;
 say "ZZZ";
 say (0, 2 ... 7, 9 ... 14).flat(:hammer);
+say "===";
+say (0; 2 ... 7; 9 ... 14).flat(:hammer);
