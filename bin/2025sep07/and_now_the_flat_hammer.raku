@@ -17,5 +17,5 @@ say ( 0..1, 3...1, 3..6 ).flat(:hammer);
 ## And so, the flat hammer can save us from the horror of embedded semicolons in our discontinuous integer rangeoids.
 
 for ( 0..1, 3...1, 3..6 ).flat(:hammer) -> $i {
-    say $i;
+    say "i: ", $i;
 }
