@@ -44,7 +44,7 @@ say "ZZZ";
 my @lazy-array = lazy 1, 11, 121 ... 10**100;
 
 my $s :=  1, 4, 3...4;
-say "array s: ", @s;
+say "array s: ", $s;
 
 
 say @lazy-array.head(10);
