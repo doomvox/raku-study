@@ -39,6 +39,7 @@ say "===";
   ## (4 3 2 1 0 2 3 4 5 6 0 1 2)
 
     my @i = 0, 1, 2, 3, 4, 5, 6;    # inane array that converts the index into itself.
+
     for (4...0, 2..6, 0..2).flat -> $i {
         say @i[ $i ];
     }
