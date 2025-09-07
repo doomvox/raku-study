@@ -17,3 +17,5 @@ my $total-area = [+] @circles».area;
 
 
 say "Total area: $total-area";
+
+## Total area: 274515.5076633297
