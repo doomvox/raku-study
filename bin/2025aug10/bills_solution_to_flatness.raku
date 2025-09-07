@@ -65,6 +65,7 @@ say "===";
     say "---";
     say "XXX";
 
+    ## works fine with *three* semics:
 
     # exploring the compiler error, works fine with *one* semic:
      for (4...0; 2..6).flat -> $i {
