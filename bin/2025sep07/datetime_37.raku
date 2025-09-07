@@ -23,8 +23,9 @@ use v6;
 
     ## yes: 37 seconds difference
 }
+{
+    my $inst = now;
+    DateTime.new($inst).local, "\n",
+    DateTime.new($inst.Int).local, "\n";
 
-
-my $inst = now;
-DateTime.new($inst).local, "\n",
-DateTime.new($inst.Int).local, "\n";
+}
