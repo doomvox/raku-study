@@ -12,3 +12,4 @@ my $c = ( $a**2 + $b**2 )**0.5;
 say $c; # 5
 
 if ($c == 5) { say "yup, really five"; }
+# yup, really five
