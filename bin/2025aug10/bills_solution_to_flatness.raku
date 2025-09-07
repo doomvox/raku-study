@@ -96,7 +96,7 @@ say "===";
     # 0
     # 1
     # 2
-    # 0
+    # 0   ## Tacked on from an additional range
     # 1
 
 
