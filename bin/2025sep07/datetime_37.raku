@@ -13,3 +13,11 @@ my $inst = now;
 say
 DateTime.new($inst).local, "\n",
 DateTime.new($inst.Int).local, "\n";
+
+# 2025-09-07T16:51:31.888696-07:00
+# 2025-09-07T16:52:08-07:00
+
+# 1:31
+# 2:08
+
+## yes: 37 seconds difference
