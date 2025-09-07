@@ -22,5 +22,6 @@ use v6;
         print @i[ $i ], "\t";
     }
     print "\n";
+    # 2	3	4	
 
 }
