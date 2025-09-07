@@ -100,6 +100,7 @@ say "===";
      # 1
 
      say "---";
+     ## but as we found above, this bombs:
      for (4...0; 2..6; 0..2).flat -> $i {
          say @i[ $i ];
      }
