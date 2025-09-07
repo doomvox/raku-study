@@ -16,7 +16,7 @@
 
 ** topics
 *** revisiting The Bill Problem
-**** good ways to specify lists of integers via discontinuous ascending or descending ranges 
+**** how to specify lists of integers via discontinuous ascending or descending ranges 
 ***** I use the english "range" here, which might or might not be a Raku "range".
 **** "B1 style": mixed doubles and triples for descending with semi-cs and trailing .flat
 #+BEGIN_SRC raku
