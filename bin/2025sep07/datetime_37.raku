@@ -28,7 +28,8 @@ use v6;
     say DateTime.new( $inst     ).local;
     say DateTime.new( $inst.Int ).local;
 
-    
+
+    say "===";
     my $a = $inst;
     my $b = $inst.Int;
     say ($a - $b);
