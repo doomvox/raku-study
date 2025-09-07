@@ -10,3 +10,5 @@ my $b = 4;
 ## my $c = sqrt( $a² + $b² );
 my $c = ( $a**2 + $b**2 )**0.5;
 say $c; # 5
+
+if ($c == 5) { say "yup, really five"; }
