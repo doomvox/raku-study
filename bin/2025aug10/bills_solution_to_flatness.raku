@@ -99,7 +99,14 @@ say "===";
      # 0   ## Tacked on from an additional range
      # 1
 
+     say "---";
+    for (4...0; 2..6; 0..2).flat -> $i {
+        say @i[ $i ];
+    }
+
+
 
 
 
 }
+
