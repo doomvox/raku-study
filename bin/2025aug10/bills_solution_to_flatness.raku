@@ -28,6 +28,6 @@ say (4...0; 2...6; 0...2).flat;
 # (4 3 2 1 0 2 3 4 5 6 0 1 2)
 
 
-## This ALSO does what bill wants:
-say (4...0, 2..6, 0..2).flat;
+## This also does what bill wants:
+say (4...0, 2..6, 0..2).list.flat;
 # (4 3 2 1 0 2 3 4 5 6 0 1 2)
