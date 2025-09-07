@@ -100,7 +100,7 @@ say "===";
      # 1
 
      say "---";
-     ## but as we found above, this bombs:
+     ## but as we found above, this bombs with a compiler error:
      ## ===SORRY!=== Error while compiling ...
      ## Unsupported use of C-style "for (;;)" loop.  In Raku please use: "loop
      ## (;;)".
