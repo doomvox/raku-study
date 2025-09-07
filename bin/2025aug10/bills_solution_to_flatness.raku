@@ -64,7 +64,7 @@ say "===";
     # (4 3 2 1 0 2 3 4 5 6 0 1 2)
 
     say "---";
-    # exploring the compiler error
+    # exploring the compiler error, works fine with *one* semic:
      for (4...0; 2..6).flat -> $i {
          say @i[ $i ];
      }
