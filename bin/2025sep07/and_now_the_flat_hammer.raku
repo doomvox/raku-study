@@ -13,3 +13,4 @@ say ( 0..1, 3...1, 3..6 ).flat;
 say ( 0..1, 3...1, 3..6 ).flat(:hammer); 
   ## (0 1 3 2 1 3..6)      old 2023.02 raku behavior
   ## (0 1 3 2 1 3 4 5 6)   with a newer raku
+
