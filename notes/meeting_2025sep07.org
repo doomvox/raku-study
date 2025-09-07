@@ -20,6 +20,7 @@
 ***** I use the english "range" here, which might or might not be a Raku "range".
 **** "B1 style": mixed doubles and triples for descending with semi-cs and trailing .flat
 #+BEGIN_SRC raku
+say (4...0; 2..6; 0..2).flat;
 #+END_SRC 
 
 *** A DateTime issue on the mailing list (Rob?)
