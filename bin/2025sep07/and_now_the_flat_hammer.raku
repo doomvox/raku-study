@@ -19,3 +19,8 @@ say ( 0..1, 3...1, 3..6 ).flat(:hammer);
 for ( 0..1, 3...1, 3..6 ).flat(:hammer) -> $i {
     say "i: ", $i;
 }
+
+
+for ( 0..1, (3...1, (3..6) ).flat(:hammer) -> $i {
+    say "i: ", $i;
+}
