@@ -7,3 +7,4 @@ use v6;
 say pick(1..6);
 # ()
 
+say (1..6).pick;
