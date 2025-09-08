@@ -18,6 +18,7 @@
 ** topics
 *** bill complaint: spurt can erase files too easily
 **** need to routinely add createonly option to prevent that from happening accidently
+**** my first thought: why not default to append, and require an extra step to truncate?
 
 *** revisiting The Bill Problem
 **** how to specify lists of integers via discontinuous ascending or descending ranges 
