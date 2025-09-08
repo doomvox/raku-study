@@ -8,3 +8,6 @@ say pick(1..6);
 # ()
 
 say (1..6).pick;
+# 3
+
+say (1..6).roll;
