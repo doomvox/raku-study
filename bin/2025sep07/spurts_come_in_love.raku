@@ -12,3 +12,5 @@ my $fh = "/home/doom/tmp/Untitled_test_spurt".IO;
 
 
 my $fh = "Untitled_test_spurt".IO; "Untitled4".IO.slurp.subst("Hello","Hi") andthen spurt($fh, $_, createonly => True); 
+
+my $fh = "Untitled4_bak".IO; "Untitled4".IO.slurp.subst(:global, "Hello ","Hi ") andthen spurt($fh, $_, :createonly);
