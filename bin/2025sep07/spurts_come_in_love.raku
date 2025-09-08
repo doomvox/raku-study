@@ -4,9 +4,6 @@
 
 use v6;
 
-
-
-
 my $fh = "Untitled_test_spurt".IO;
 "Untitled4".IO.slurp.subst("Hello","Hi") andthen spurt($fh, $_, createonly => True); 
 
