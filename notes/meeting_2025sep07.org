@@ -19,7 +19,7 @@
 *** bill complaint: spurt can erase files too easily
 **** need to routinely add createonly option to prevent that from happening accidently
 **** my first thought: why not default to append, and require an extra step to truncate?
-**** side issue: bill fears a problem with the process 
+**** side issue: bill fears a problem with the process-- e.g. does lizmat still toss off pull requests to easily?
 
 
 *** revisiting The Bill Problem
