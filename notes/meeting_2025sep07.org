@@ -22,6 +22,7 @@
 **** side issue: bill fears a problem with the process-- e.g. does lizmat still toss off pull requests to easily?
 **** older issue about pick and roll
 ***** which i don't get as well as I thought-- e.g. method and function call forms are a little different?
+***** something about the "pop" nature of "pick"?
 
 *** revisiting The Bill Problem
 **** how to specify lists of integers via discontinuous ascending or descending ranges 
