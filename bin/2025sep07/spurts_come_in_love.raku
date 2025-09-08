@@ -9,3 +9,6 @@ my $fh = "/home/doom/tmp/Untitled_test_spurt".IO;
 ## Failed to open file /home/doom/tmp/Untitled_test_spurt: File exists
 
 "/home/doom/tmp/Untitled36".IO.slurp.subst("Hello","Hi") andthen spurt($fh, $_, createonly => True); 
+
+
+my $fh = "Untitled_test_spurt".IO; "Untitled4".IO.slurp.subst("Hello","Hi") andthen spurt($fh, $_, createonly => True); 
