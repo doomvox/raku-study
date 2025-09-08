@@ -5,6 +5,6 @@
 use v6;
 
 my $fh = "/home/doom/tmp/Untitled_test_spurt".IO;
-"Untitled4".IO.slurp.subst("Hello","Hi") andthen spurt($fh, $_, createonly => True); 
+"/home/doom/tmp/Untitled4".IO.slurp.subst("Hello","Hi") andthen spurt($fh, $_, createonly => True); 
 
 
