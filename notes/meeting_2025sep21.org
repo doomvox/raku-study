@@ -32,7 +32,6 @@
 *** Anton 
 **** LLM::Graph
 
-
 *** from last meeting: spurt
 **** bill had fears about a problem with the process-- e.g. does lizmat still toss off pull requests too easily?
 **** https://github.com/rakudo/rakudo/pull/5949
