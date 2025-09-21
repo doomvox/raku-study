@@ -30,7 +30,6 @@ https://github.com/librasteve/raku-org-25-proto/issues/14#issuecomment-330069652
 ***** "always accuse the other side of what you're doing"
 ****** that's what I think is going on.
 
-
 ** last meetings topics (trim)
 *** bill complaint: spurt can erase files too easily
 **** https://github.com/rakudo/rakudo/pull/5949
