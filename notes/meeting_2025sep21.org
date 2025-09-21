@@ -20,6 +20,11 @@
 *** William Michels drags us out to the bikeshed for a marketing session
 https://github.com/librasteve/raku-org-25-proto/issues/14#issuecomment-3300696528
 
+Parrot Raiser
+A serious issue which bears on the group.https://m.youtube.com/watch?v=EqEnemxpnTo
+How can supposedly rational people get so divorced from reality?
+
+
 ** last meetings topics (trim)
 *** bill complaint: spurt can erase files too easily
 **** https://github.com/rakudo/rakudo/pull/5949
