@@ -16,6 +16,7 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
+*** fun with The Literature
 
 ** last meetings topics (trim)
 *** bill complaint: spurt can erase files too easily
