@@ -16,6 +16,13 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
+*** perl: mocking things in functional programming
+**** my take: find a way to not mock, if you can
+**** bruce gray:
+***** Canonicalize
+***** Wrap and only use the wrapper.
+***** Replacement values by first seen.
+
 *** fun with The Literature
 **** google scholar search (using terms like 'empirical') turned up:
 ***** https://ciajournal.com/index.php/jcia/article/view/26
