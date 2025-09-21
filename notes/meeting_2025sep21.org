@@ -17,8 +17,10 @@
 
 ** topics
 *** fun with The Literature
+
 *** William Michels drags us out to the bikeshed for a marketing session
 https://github.com/librasteve/raku-org-25-proto/issues/14#issuecomment-3300696528
+
 
 *** Parrot Raiser:
 **** "A serious issue which bears on the group."
