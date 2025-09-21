@@ -19,6 +19,7 @@
 *** fun with The Literature
 **** google scholar search (using terms like 'empirical') turned up:
 ***** https://ciajournal.com/index.php/jcia/article/view/26
+***** https://ciajournal.com/index.php/jcia/article/view/26/27
 ***** "An Empirical Study on the Accuracy of Large Language Models in API Documentation Understanding: A Cross-Programming Language Analysis"
 
 *** William Michels drags us out to the bikeshed for a marketing session
