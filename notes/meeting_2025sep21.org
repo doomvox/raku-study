@@ -40,6 +40,7 @@
 *** assignment for next time: Anton will show us how to do a search index 
 **** The search process I have in mind is explained here: 
 **** https://github.com/antononcube/EconomicsAI
+**** htmx+Air+Red+Cro
 
 ** last meetings topics (trim)
 
