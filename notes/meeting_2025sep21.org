@@ -30,7 +30,7 @@
 **** Tim Schaefer pick
 
 *** Anton 
-**** LLM::Graph
+**** LLM::Graph?
 
 *** from last meeting: spurt
 **** bill had fears about a problem with the process-- e.g. does lizmat still toss off pull requests too easily?
