@@ -28,7 +28,14 @@ https://github.com/librasteve/raku-org-25-proto/issues/14#issuecomment-330069652
 ***** The left has mostly been sitting still and taking it
 ***** Standard MO on the right for many years now is
 ****** "always accuse the other side of what you're doing"
-
+***** Admittedly, I haven't gotten past the first few sentences of this talk: my mind is wide shut
+***** In the US we've got:
+****** ICE acting like armed, masked thugs, raiding without obeying rules on warrants or identification
+******* they grab people off the streets and toss them in grossly abusive dungeons
+******* the south korean engineers they locked up recently are only the most prominent of the victums
+****** we have the National Guard being used to occupy Washington DC over objections of local government
+****** we have the presidency openly intimidating major media, getting opposing voices "canceled"
+****** ... and you think I should get upset about someone saying something mean at a conference.
 
 ** last meetings topics (trim)
 *** bill complaint: spurt can erase files too easily
