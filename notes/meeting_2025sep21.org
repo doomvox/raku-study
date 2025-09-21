@@ -19,8 +19,8 @@
 *** fun with The Literature
 
 *** William Michels drags us out to the bikeshed for a marketing session
-https://github.com/librasteve/raku-org-25-proto/issues/14#issuecomment-3300696528
-
+**** https://github.com/librasteve/raku-org-25-proto/issues/14#issuecomment-3300696528
+**** The movie poster idea is pretty good
 
 *** Parrot Raiser:
 **** "A serious issue which bears on the group."
