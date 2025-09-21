@@ -28,6 +28,7 @@
 
 *** "Surfaces and Essences" by Douglas Hofstadter and Emmanuel Sander
 **** Tim Schaefer pick
+**** using analogies to understand
 
 *** Anton 
 **** LLM::Graph
