@@ -40,6 +40,7 @@
 ******* the latest is you're not allowed to quote Charlie Kirk accurately
 ****** and I'm supposed to be upset about someone saying something mean at a conference?
 
+
 ** last meetings topics (trim)
 *** bill complaint: spurt can erase files too easily
 **** https://github.com/rakudo/rakudo/pull/5949
