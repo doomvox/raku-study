@@ -26,9 +26,8 @@
 **** https://github.com/librasteve/raku-org-25-proto/issues/14#issuecomment-3300696528
 **** The movie poster idea is pretty good
 
-
 *** Surfaces and Essences by Hofstader and ___
-**** Tim Schaefer
+**** Tim Schaefer pick
 
 
 
