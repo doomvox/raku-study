@@ -16,7 +16,7 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** perl: mocking things in functional programming
+*** perl: mocking things when doing functional programming
 **** my take: find a way to not mock, if you can
 **** Bruce Gray:
 ***** Canonicalize
