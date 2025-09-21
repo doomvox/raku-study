@@ -16,6 +16,8 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
+
+** last meetings topics (trim)
 *** bill complaint: spurt can erase files too easily
 **** https://github.com/rakudo/rakudo/pull/5949
 **** need to routinely add createonly option to prevent that from happening accidently
