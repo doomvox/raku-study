@@ -17,7 +17,7 @@
 
 ** topics
 *** fun with The Literature
-*** 
+*** William Michels
 https://github.com/librasteve/raku-org-25-proto/issues/14#issuecomment-3300696528
 
 ** last meetings topics (trim)
