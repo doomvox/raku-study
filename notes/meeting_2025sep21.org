@@ -18,6 +18,7 @@
 ** topics
 *** generative art
 **** https://www.amazon.com/Generative-Art-Practical-Guide-Processing/dp/1935182625
+**** https://sonic-pi.net/
 
 *** perl: mocking things when doing functional programming
 **** my take: find a way to not mock, if you can
