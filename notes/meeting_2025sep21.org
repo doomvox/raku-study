@@ -26,7 +26,7 @@
 **** https://github.com/librasteve/raku-org-25-proto/issues/14#issuecomment-3300696528
 **** The movie poster idea is pretty good
 
-*** "Surfaces and Essences" by Douglas Hofstader and Emmanuel Sander
+*** "Surfaces and Essences" by Douglas Hofstadter and Emmanuel Sander
 **** Tim Schaefer pick
 
 *** Anton 
@@ -36,6 +36,8 @@
 **** bill had fears about a problem with the process-- e.g. does lizmat still toss off pull requests too easily?
 **** https://github.com/rakudo/rakudo/pull/5949
 ***** lizmat: "Closing as there is no consensus that this is a good idea."
+
+*** assignment for next time: Anton will show us how to do a search index 
 
 ** last meetings topics (trim)
 
