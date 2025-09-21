@@ -42,7 +42,10 @@
 **** https://github.com/antononcube/EconomicsAI
 **** htmx+Air+Red+Cro
 ***** Marton:
-****** Red is the "big Raku ORM", Cro is the "big Raku web Framework", Air is his own thing (not sure what it does) and htmx is some sort of common html templating system
+****** Red is the "big Raku ORM",
+****** Cro is the "big Raku web Framework", 
+****** Air is his own thing (not sure what it does) and 
+****** htmx is some sort of common html templating system
 
 ** last meetings topics (trim)
 
