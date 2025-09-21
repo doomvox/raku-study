@@ -64,11 +64,6 @@ say (4...0; 2..6; 0..2).flat;
 ***** https://github.com/doomvox/raku-study/tree/main/bin/2025aug24/discontinuous_integer_ranges.raku
 ***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025aug24/discontinuous_integer_ranges.raku
 
-*** A DateTime issue on the mailing list (Rob?)
-**** https://www.nntp.perl.org/group/perl.perl6.users/2025/08/msg11493.html
-**** yary might have it
-***** https://www.nntp.perl.org/group/perl.perl6.users/2025/08/msg11497.html
-
 *** grep URI line from file and trim trailing '#' comment
 **** https://unix.stackexchange.com/questions/799195/remove-new-lines-and-everything-after-comment-symbol-with-awk-or-sed
 **** raku answer from jubilatious1 
