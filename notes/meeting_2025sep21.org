@@ -17,7 +17,8 @@
 
 ** topics
 *** fun with The Literature
-
+*** 
+https://github.com/librasteve/raku-org-25-proto/issues/14#issuecomment-3300696528
 
 ** last meetings topics (trim)
 *** bill complaint: spurt can erase files too easily
