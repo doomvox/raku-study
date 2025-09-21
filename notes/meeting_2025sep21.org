@@ -255,32 +255,6 @@ say %source.duckmap: -> %a where {
 **** https://unix.stackexchange.com/a/797471/227738
 **** https://unix.stackexchange.com/a/797904/227738
 
-
-
-
-
-
-
-*** Parrot Raiser:
-**** "A serious issue which bears on the group."
-**** "How can supposedly rational people get so divorced from reality?"
-**** https://m.youtube.com/watch?v=EqEnemxpnTo
-***** Sorry man, but from where I sit it's clearly the right that keeps going with violence
-***** The left has mostly been sitting still and taking it
-***** Standard MO on the right for many years now is
-****** "always accuse the other side of what you're doing"
-***** Admittedly, I haven't gotten past the first few sentences of this talk: my mind is wide shut
-***** In the US we've got:
-****** ICE acting like armed, masked thugs, raiding without obeying rules on warrants or identification
-******* they grab people off the streets and toss them in grossly abusive dungeons
-******* the South Korean engineers they locked up recently are only the most prominent of the victims
-****** we have the National Guard being used to occupy Washington DC over objections of local government
-****** we have the presidency openly intimidating major media, getting opposing voices "canceled"
-******* the latest is you're not allowed to quote Charlie Kirk accurately
-****** And I'm supposed to be upset about someone saying something mean at a conference?
-
-
-
 ** follow-up
 *** next time
 **** warm-up on how to screen share right
