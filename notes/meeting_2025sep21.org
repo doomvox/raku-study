@@ -18,7 +18,7 @@
 ** topics
 *** perl: mocking things in functional programming
 **** my take: find a way to not mock, if you can
-**** bruce gray:
+**** Bruce Gray:
 ***** Canonicalize
 ***** Wrap and only use the wrapper.
 ***** Replacement values by first seen.
