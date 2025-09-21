@@ -42,10 +42,9 @@
 
 ** last meetings topics (trim)
 *** spurt
-**** bill fears a problem with the process-- e.g. does lizmat still toss off pull requests too easily?
-
+**** bill had fears about a problem with the process-- e.g. does lizmat still toss off pull requests too easily?
 **** https://github.com/rakudo/rakudo/pull/5949
-***** Closing as there is no consensus that this is a good idea.
+***** lizmat: "Closing as there is no consensus that this is a good idea."
 
 
 *** revisiting The Bill Problem
