@@ -28,7 +28,7 @@ https://github.com/librasteve/raku-org-25-proto/issues/14#issuecomment-330069652
 ***** The left has mostly been sitting still and taking it
 ***** Standard MO on the right for many years now is
 ***** "always accuse the other side of what you're doing"
-****** that's what I think is going on.
+
 
 ** last meetings topics (trim)
 *** bill complaint: spurt can erase files too easily
