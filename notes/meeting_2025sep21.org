@@ -18,6 +18,7 @@
 ** topics
 *** fun with The Literature
 
+
 ** last meetings topics (trim)
 *** bill complaint: spurt can erase files too easily
 **** https://github.com/rakudo/rakudo/pull/5949
