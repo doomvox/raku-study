@@ -40,11 +40,12 @@
 ******* the latest is you're not allowed to quote Charlie Kirk accurately
 ****** And I'm supposed to be upset about someone saying something mean at a conference?
 
-** last meetings topics (trim)
-*** spurt
+*** from last meeting: spurt
 **** bill had fears about a problem with the process-- e.g. does lizmat still toss off pull requests too easily?
 **** https://github.com/rakudo/rakudo/pull/5949
 ***** lizmat: "Closing as there is no consensus that this is a good idea."
+
+** last meetings topics (trim)
 
 
 *** revisiting The Bill Problem
