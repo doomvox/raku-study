@@ -8,7 +8,7 @@ Upcoming meetings:
 *  Sunday October 5, 2025
     *  https://us02web.zoom.us/j/84308531686?pwd=vveDUyyEOufPLWuLy6GjeoLSsK67se.1
 
-*  Sunday October 19, 2025
+*  Sunday October 19, 2025 (CANCELED-- sorry)
     *  https://us02web.zoom.us/j/89340718380?pwd=q6xItaKXxNWzhSrEAP4tfjprYv2mZb.1
 
 *  Sunday November 2, 2025
