@@ -31,7 +31,6 @@ As well as the perl6-users mailing list:
 
 *  https://raku.org/community/
 
-
 Note, the sf.pm.org site is currently down, but will return:
 
 *  http://sf.pm.org/
