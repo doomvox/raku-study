@@ -63,7 +63,6 @@
 **** bruce gray's favorite math book
 **** https://archive.org/details/concrete-mathematics
 
-
 *** anton subject:
 **** Raku introspection nice for LLM implementations
 **** open AI, LLM providers, release packages in python
@@ -90,18 +89,6 @@ foo $[1,2,3];  # item
 #+END_SRC 
 ****** Q: what is this for, really?
 ******* things that are "itemized" don't iterate, e.g. $(1,2,3) vs (1,2,3)
-
-** even older topics
-*** william michels
-**** https://arxiv.org/abs/1910.08129
-
-*** william michels at play in stackoverflow land:
-**** https://stackoverflow.com/questions/43370856/how-can-i-pass-a-perl-6-object-through-a-nativecall-callback
-
-*** William Michels: Raku answers to shell questions
-**** https://unix.stackexchange.com/a/797530/227738
-**** https://unix.stackexchange.com/a/797471/227738
-**** https://unix.stackexchange.com/a/797904/227738
 
 ** follow-up
 *** next time
