@@ -18,7 +18,6 @@
 
 ** old topics (TODO TRIM)
 
-
 *** fun with The Literature
 **** google scholar search (using terms like 'empirical') turned up:
 ***** https://ciajournal.com/index.php/jcia/article/view/26
