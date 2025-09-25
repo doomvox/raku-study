@@ -63,19 +63,6 @@
 **** bruce gray's favorite math book
 **** https://archive.org/details/concrete-mathematics
 
-*** rob: weekly challenge spinoff tic-tac-toe board representation
-**** 3x3: an issue with binding and shaped arrays
-***** goal: shaped arrays that share containers for particular elements
-
-**** https://docs.raku.org/syntax/Shaped%20arrays
-**** https://github.com/doomvox/raku-study/blob/main/bin/2025aug24/shared_array_elements_via_binding.raku
-**** https://docs.raku.org/language/containers#Binding_to_array_elements
-**** https://docs.raku.org/type/IterationBuffer#method_BIND-POS
-**** https://docs.raku.org/routine/BIND-POS
-**** https://github.com/rakudo/rakudo/blob/main/src/core.c/Array/Shaped.rakumod
-**** https://github.com/rakudo/rakudo/blob/57778e432003df466d8c797070345b81cb1ffdbf/src/core.c/Array/Shaped.rakumod#L191
-**** https://github.com/rakudo/rakudo/blob/main/src/core.c/Array.rakumod
-**** https://github.com/rakudo/rakudo/tree/main/src/core.c/Array
 
 *** anton subject:
 **** Raku introspection nice for LLM implementations
