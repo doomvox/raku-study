@@ -92,7 +92,7 @@ foo $[1,2,3];  # item
 
 ** follow-up
 *** next time
-**** warm-up on how to screen share right
+**** before starting meeting, warm-up on "advanced" screen sharing
 **** jack the font size in emacvs
 
 *** TODO doc problems
