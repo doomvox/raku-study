@@ -50,11 +50,6 @@
 *** async in raku and python
 **** https://www.reddit.com/r/rakulang/comments/1n8hjrr/async_in_raku_vs_python/
 
-*** lizmat on complying with the european "cyber resilience act"
-**** https://dev.to/lizmat/towards-more-accountability-of-raku-programs-3g2
-
-
-
 ** and topics from the forgotten folds of time
 *** some of my many open projects:
 **** links I expect to use again some day
