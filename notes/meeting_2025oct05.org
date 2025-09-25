@@ -33,24 +33,6 @@
 
 
 ** last meetings topics (trim)
-
-*** revisiting: how to specify lists of integers via discontinuous ascending or descending ranges 
-***** I use the english "range" here, which might or might not be a Raku "range".
-**** "B1 style": mixed doubles and triples (for descent) with semi-cs and trailing .flat
-#+BEGIN_SRC raku
-say (4...0; 2..6; 0..2).flat;
-# (4 3 2 1 0 2 3 4 5 6 0 1 2)
-#+END_SRC 
-***** but: this has a gotcha with for-loops
-****** the semics can be a compiler error
-****** but only with *two* semics, one or three is fine.
-******* # https://github.com/doomvox/raku-study/tree/main/bin/2025aug10/bills_solution_to_flatness.raku
-******* # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025aug10/bills_solution_to_flatness.raku
-
-**** bruce gray code, trying to imitate Rlang's c()
-***** https://github.com/doomvox/raku-study/tree/main/bin/2025aug24/discontinuous_integer_ranges.raku
-***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025aug24/discontinuous_integer_ranges.raku
-
 *** grep URI line from file and trim trailing '#' comment
 **** https://unix.stackexchange.com/questions/799195/remove-new-lines-and-everything-after-comment-symbol-with-awk-or-sed
 **** raku answer from jubilatious1 
