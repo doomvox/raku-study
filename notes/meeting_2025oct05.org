@@ -14,16 +14,7 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** 
-
-** old topics (TODO TRIM)
-
-*** "Surfaces and Essences" by Douglas Hofstadter and Emmanuel Sander
-**** Tim Schafer pick
-**** using analogies to understand
-
-
-*** assignment for next time: Anton will show us how to do a search index 
+*** Anton will show us how to do a search index 
 **** The search process I have in mind is explained here: 
 **** https://github.com/antononcube/EconomicsAI
 **** htmx+Air+Red+Cro
@@ -32,6 +23,14 @@
 ****** Cro is the "big Raku web Framework", 
 ****** Air is his own thing (not sure what it does) and 
 ****** htmx is some sort of common html templating system
+
+
+** old topics (TODO TRIM)
+
+*** "Surfaces and Essences" by Douglas Hofstadter and Emmanuel Sander
+**** Tim Schafer pick
+**** using analogies to understand
+
 
 ** last meetings topics (trim)
 
