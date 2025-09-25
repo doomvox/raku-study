@@ -14,6 +14,9 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
+*** 
+
+** old topics (TODO TRIM)
 *** generative art
 **** https://www.amazon.com/Generative-Art-Practical-Guide-Processing/dp/1935182625
 **** https://sonic-pi.net/
