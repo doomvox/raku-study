@@ -18,25 +18,10 @@
 
 ** old topics (TODO TRIM)
 
-*** fun with The Literature
-**** google scholar search (using terms like 'empirical') turned up:
-***** https://ciajournal.com/index.php/jcia/article/view/26
-***** https://ciajournal.com/index.php/jcia/article/view/26/27
-***** "An Empirical Study on the Accuracy of Large Language Models in API Documentation Understanding: A Cross-Programming Language Analysis"
-****** quite likely this entire paper is AI slop
-
-*** William Michels drags us out to the bikeshed for a marketing session
-**** https://github.com/librasteve/raku-org-25-proto/issues/14#issuecomment-3300696528
-**** The movie poster idea is pretty good
-
 *** "Surfaces and Essences" by Douglas Hofstadter and Emmanuel Sander
 **** Tim Schafer pick
 **** using analogies to understand
 
-*** from last meeting: spurt
-**** bill had fears about a problem with the process-- e.g. does lizmat still toss off pull requests too easily?
-**** https://github.com/rakudo/rakudo/pull/5949
-***** lizmat: "Closing as there is no consensus that this is a good idea."
 
 *** assignment for next time: Anton will show us how to do a search index 
 **** The search process I have in mind is explained here: 
