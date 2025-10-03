@@ -1,4 +1,4 @@
-#!/usr/bin/env raku
+#!/usr/bin/env rakus
 # 
 # bg.raku            24 Aug 2025 
 
