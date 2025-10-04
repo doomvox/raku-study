@@ -29,6 +29,9 @@
 
 *** Everything about monads: 
 **** https://www.youtube.com/watch?v=Xz5B4B0kVco
+*** Anton Antonov's visualizations:
+**** https://rakuforprediction.wordpress.com/2025/05/25/collatz-conjecture-visualizations/
+
 
 
 *** "Surfaces and Essences" by Douglas Hofstadter and Emmanuel Sander
