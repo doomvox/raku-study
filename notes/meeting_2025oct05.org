@@ -27,6 +27,10 @@
 
 ** old topics (TODO TRIM)
 
+*** Everything about monads: 
+**** https://www.youtube.com/watch?v=Xz5B4B0kVco
+
+
 *** "Surfaces and Essences" by Douglas Hofstadter and Emmanuel Sander
 **** Tim Schafer pick
 **** using analogies to understand
