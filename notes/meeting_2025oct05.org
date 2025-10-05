@@ -42,7 +42,7 @@ Failed to resolve some missing dependencies (use e.g. --exclude="JSON::Fast" to 
 
 **** by the way, I have *a* version of JSON::Fast
 zef install JSON::Fast
-All candidates are currently installed
+All candidates are currently installedg
 
 
 
