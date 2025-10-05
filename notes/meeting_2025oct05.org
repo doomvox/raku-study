@@ -95,6 +95,8 @@ All candidates are currently installedg
 ****** https://github.com/antononcube
 ****** https://www.youtube.com/@AAA4prediction
 ****** https://github.com/antononcube/RakuForPrediction-book/tree/main/scripts
+****** 
+******* https://www.youtube.com/watch?v=QOsVTCQZq_s
 
 *** tiobe september (rob)
 **** perl is in the top 10
