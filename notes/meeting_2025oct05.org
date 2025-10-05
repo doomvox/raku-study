@@ -127,7 +127,7 @@ All candidates are currently installedg
 **** using analogies to understand
 
 
-** last meetings topics (trim)
+** even older (TODO TRIM)
 
 *** grep URI line from file and trim trailing '#' comment
 **** https://unix.stackexchange.com/questions/799195/remove-new-lines-and-everything-after-comment-symbol-with-awk-or-sed
