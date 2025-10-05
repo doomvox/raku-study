@@ -37,3 +37,6 @@ say $gBestPoem.nodes<judge>;
 say 	$gBestPoem.dot(engine => 'dot', node-width => 1.2 ):svg;
 # OUTPUT:
 ## No graph.
+
+
+say $gBestPoem(topic => 'hockey', style => 'limerick');
