@@ -58,6 +58,8 @@ All candidates are currently installedg
 **** note to self:
 ***** look up the paper claiming people swearing by chatgpt advice are delusional
 
+
+
 ** old topics (TODO TRIM)
 
 *** Everything about monads: 
