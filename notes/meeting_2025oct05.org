@@ -91,7 +91,7 @@ All candidates are currently installedg
 ****** but you can do a lot with grammar technology of raku, 
 ****** reduce usage of LLM to where needed
 
-***** further reading
+***** more info:
 ****** https://github.com/antononcube
 ****** https://www.youtube.com/@AAA4prediction
 
