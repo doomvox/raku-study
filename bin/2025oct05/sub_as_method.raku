@@ -23,3 +23,7 @@ my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 
 ## 6.e has a "snitch":
 # https://docs.raku.org/routine/snitch
+
+
+
+## tee?
