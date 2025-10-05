@@ -75,6 +75,7 @@ All candidates are currently installedg
 ******* webapps in R
 ******* would be nice to have something like this for Raku
 ******** "homework"
+******** cro-based ?
 
 ***** vector database, publish
 
