@@ -4,6 +4,7 @@
 
 use v6;
 
+## Seems to hang
 
 use LLM::Graph;
 use Graph;
