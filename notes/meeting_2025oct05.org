@@ -32,8 +32,11 @@
 ***** ipc between emacs and other processes?
 ***** alternate to roll-your-own
 
-**** Uses vscodium 
+**** uses vscodium 
 ***** opensourcified visual studio
+***** anton uses his own JavaScript::D3 package 
+****** dynamic, interactive graphs
+****** better than Javascript::Google::Charts for this
 
 *** raku and zef
 **** Tried this, but NG:
