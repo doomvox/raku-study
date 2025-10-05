@@ -70,6 +70,8 @@ All candidates are currently installedg
 ******** usually waste
 ********* time (Anton)
 ********* memory (Tim)
+***** rshiney, hark 
+***** vector database, publish
 
 *** rob:
 **** tiobe september
