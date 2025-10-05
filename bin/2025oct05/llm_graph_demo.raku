@@ -26,11 +26,14 @@ my %rules =
 my $gBestPoem = LLM::Graph.new(%rules);
 
 say $gBestPoem;
+# OUTPUT:
 # LLM::Graph(size => 4, nodes => judge, poet1, poet2, poet3)
 
 say $gBestPoem.nodes<judge>;
+# OUTPUT:
 # sub { }
 ## ?
 
 say 	$gBestPoem.dot(engine => 'dot', node-width => 1.2 ):svg;
+# OUTPUT:
 ## No graph.
