@@ -112,6 +112,8 @@ All candidates are currently installedg
 **** look up the paper claiming people swearing by chatgpt advice are delusional
 
 
+raku -e '.say for lines.grep({ /^<alpha>+$/ and .chars == 4 }).classify(*.lc.substr(0,1)).map(*.value.pick).map({ $_ xx (1..3).pick }).flat.pick(*);' unixdict.txt
+
 
 ** old topics (TODO TRIM)
 
