@@ -13,4 +13,4 @@ sub spy {
 my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 
 
-say @numbers.map({ uc($_) }).map( $_.Int );
+@numbers.map({ uc($_) }).map( $_.Int ).say;
