@@ -8,5 +8,5 @@ my $code = { uc($^thingie) };
 
 say $code.('godzilla'); # GODZILLA
 
-say $code
-('godzilla'); 
+# say $code
+# ('godzilla'); 
