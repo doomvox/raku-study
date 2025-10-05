@@ -24,6 +24,10 @@ my %rules =
         };
  
 my $gBestPoem = LLM::Graph.new(%rules);
+say $gBestPoem(topic => 'hockey', style => 'limerick');
+
+
+exit;
 
 say $gBestPoem;
 # OUTPUT:
@@ -39,4 +43,4 @@ say 	$gBestPoem.dot(engine => 'dot', node-width => 1.2 ):svg;
 ## No graph.
 
 
-say $gBestPoem(topic => 'hockey', style => 'limerick');
+
