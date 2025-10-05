@@ -84,6 +84,10 @@ All candidates are currently installedg
 
 ***** mit study: 95% of LLM stuff is prototype, not going to production
 
+***** anton: llms energy intensive, 
+****** but you can do a lot with grammar technology of raku, 
+****** reduce usage of LLM to where needed
+
 *** rob:
 **** tiobe september
 ***** perl is in the top 10
