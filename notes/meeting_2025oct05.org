@@ -30,7 +30,7 @@
 ****** htmx is some sort of common html templating system
 
 **** zeromq 
-***** 
+***** ipc between emacs and other processes?
 
 *** raku and zef
 **** Tried this, but NG:
