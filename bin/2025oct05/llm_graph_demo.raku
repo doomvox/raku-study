@@ -7,6 +7,8 @@
 ## or you have a chatgpt token 
 
 ## "standard llm functions"
+##   The package implementation heavily relies on the package “LLM::Functions”, [AAp1].
+##   Graph functionalities are provided by “Graph”, [AAp3].
 
 use v6;
 
