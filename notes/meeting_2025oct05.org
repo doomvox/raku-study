@@ -32,6 +32,9 @@
 ***** ipc between emacs and other processes?
 ***** alternate to roll-your-own
 
+**** Uses vscodium 
+***** opensourcified visual studio
+
 *** raku and zef
 **** Tried this, but NG:
 zef install LLM::Graph --exclude="JSON::Fast"
