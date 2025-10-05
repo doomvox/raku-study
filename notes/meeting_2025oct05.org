@@ -73,6 +73,7 @@ All candidates are currently installedg
 ***** rshiney, hark 
 ****** shiney translates to javascript from R
 ******* webapps in R
+******* would be nice to have something like this for Raku
 
 ***** vector database, publish
 
