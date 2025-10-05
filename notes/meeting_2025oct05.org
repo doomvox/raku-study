@@ -48,10 +48,6 @@ Failed to resolve some missing dependencies (use e.g. --exclude="JSON::Fast" to 
 zef install JSON::Fast
 All candidates are currently installedg
 
-
-
-
-
 ** old topics (TODO TRIM)
 
 *** Everything about monads: 
