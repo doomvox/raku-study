@@ -5,7 +5,7 @@
 use v6;
 
 
-se LLM::Graph;
+use LLM::Graph;
 use Graph;
  
 my %rules =
