@@ -26,14 +26,15 @@
 
 
 *** raku and zef
-Tried this, but NG:
-
+**** Tried this, but NG:
 zef install LLM::Graph --exclude="JSON::Fast"
 
-This worked:
-
+**** This worked:
 zef install LLM::Graph --exclude="JSON::Fast:ver<0.19+>"
 
+**** Note bad messaging from zef (hint doesn't work at all)
+===> Failed to find dependencies: JSON::Fast:ver<0.19+>
+Failed to resolve some missing dependencies (use e.g. --exclude="JSON::Fast" to skip)
 
 
 
