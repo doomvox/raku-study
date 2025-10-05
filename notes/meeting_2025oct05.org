@@ -54,6 +54,8 @@ Failed to resolve some missing dependencies (use e.g. --exclude="JSON::Fast" to 
 zef install JSON::Fast
 All candidates are currently installedg
 
+**** mainstream application, though not often studied
+***** raku docs, partition it in a meaninful way, query it
 
 *** rob:
 **** tiobe september
