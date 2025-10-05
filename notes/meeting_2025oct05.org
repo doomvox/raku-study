@@ -80,7 +80,9 @@ All candidates are currently installedg
 ******** "homework"
 ******** cro-based ?
 
-***** vector database, publish
+***** vector database, published and queried separately?
+
+***** mit study: 95% of LLM stuff is prototype, not going to production
 
 *** rob:
 **** tiobe september
