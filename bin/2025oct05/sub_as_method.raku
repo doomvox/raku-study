@@ -17,3 +17,5 @@ my @numbers  = < wuhn tew thuree foah fahv sex sevhun >;
 # (U E H O A E E)
 
 @numbers.map({ uc($_) }).&spy.map({ substr($_,1,1) }).say;
+# (WUHN TEW THUREE FOAH FAHV SEX SEVHUN)
+# (U E H O A E E)
