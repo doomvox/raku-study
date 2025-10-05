@@ -30,3 +30,5 @@ say $gBestPoem;
 
 	
 say $gBestPoem.nodes<judge>;
+# sub { }
+## ?
