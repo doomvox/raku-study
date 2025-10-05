@@ -57,7 +57,9 @@ All candidates are currently installedg
 **** mainstream application, though not often studied
 ***** raku docs, partition it in a meaninful way, query it
 ***** the vector database is smaller, can be shared
-
+****** outside of zef, need to install
+******* graphviz
+******* h20
 
 *** rob:
 **** tiobe september
