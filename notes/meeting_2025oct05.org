@@ -55,6 +55,8 @@ All candidates are currently installedg
 ****** so maybe raku should keep an eye on that audience
 ***** tiobe works on stackexchange searches
 ****** so the older anti-llm crowd are over-repped (anton theory)
+**** note to self:
+***** look up the paper claiming people swearing by chatgpt advice are delusional
 
 ** old topics (TODO TRIM)
 
