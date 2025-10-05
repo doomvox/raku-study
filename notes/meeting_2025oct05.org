@@ -71,6 +71,9 @@ All candidates are currently installedg
 ********* time (Anton)
 ********* memory (Tim)
 ***** rshiney, hark 
+****** shiney translates to javascript from R
+******* webapps in R
+
 ***** vector database, publish
 
 *** rob:
