@@ -63,7 +63,7 @@ All candidates are currently installedg
 ******** to what degree should you automate installation
 ****** tim: uv for python package management (maybe)
 ******* nix os on mac
-******** e.g. used by a guy on raku dischord
+******** e.g. used by a guy on raku dischord: rcmlz
 
 *** rob:
 **** tiobe september
