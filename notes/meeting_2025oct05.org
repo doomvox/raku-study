@@ -94,6 +94,7 @@ All candidates are currently installedg
 ***** more info:
 ****** https://github.com/antononcube
 ****** https://www.youtube.com/@AAA4prediction
+****** https://github.com/antononcube/RakuForPrediction-book/tree/main/scripts
 
 *** rob:
 **** tiobe september
