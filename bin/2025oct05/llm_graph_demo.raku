@@ -34,3 +34,4 @@ say $gBestPoem.nodes<judge>;
 ## ?
 
 say 	$gBestPoem.dot(engine => 'dot', node-width => 1.2 ):svg;
+## No graph.
