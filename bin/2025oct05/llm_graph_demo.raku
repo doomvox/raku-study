@@ -10,6 +10,11 @@
 ##   The package implementation heavily relies on the package “LLM::Functions”, [AAp1].
 ##   Graph functionalities are provided by “Graph”, [AAp3].
 
+##  looks for api key-- you can specify one explicitly, or it looks for it on your system
+
+##    zef install messaging issue?
+ 
+
 use v6;
 
 use LLM::Graph;
