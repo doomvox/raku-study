@@ -14,8 +14,9 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-
-
+*** meeting announcment:
+**** Oct 19, 2025  (CANCELED-- sorry, busy traveling)
+**** Nov 2, 2025   (From Seoul)
 
 *** Anton: how to do a search index using LLM-style software (e.g. LLM::Graph)
 **** The search process I have in mind is explained here: 
