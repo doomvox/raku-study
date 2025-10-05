@@ -2,6 +2,11 @@
 # 
 # llm_graph_demo.raku            05 Oct 2025 
 
+## either run an llm locally, and specify it
+
+## or you have a chatgpt token 
+
+
 use v6;
 
 use LLM::Graph;
