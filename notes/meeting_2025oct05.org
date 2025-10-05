@@ -53,6 +53,8 @@ All candidates are currently installedg
 **** tiobe september
 ***** perl is in the top 10
 ****** so maybe raku should keep an eye on that audience
+***** tiobe works on stackexchange searches
+****** so the older anti-llm crowd are over-repped (anton theory)
 
 ** old topics (TODO TRIM)
 
