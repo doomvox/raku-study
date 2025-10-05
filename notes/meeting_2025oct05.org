@@ -70,7 +70,7 @@ All candidates are currently installedg
 ******** usually waste
 ********* time (Anton)
 ********* memory (Tim)
-****** write an org-mode 
+****** TODO write an org-mode grammar
 
 ***** rshiney, hark 
 ****** shiney translates to javascript from R
