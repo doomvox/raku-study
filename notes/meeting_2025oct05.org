@@ -62,6 +62,8 @@ All candidates are currently installedg
 ******* h20
 ******** to what degree should you automate installation
 ****** tim: uv for python package management (maybe)
+******* nix os on mac
+******** e.g. used by ___
 
 *** rob:
 **** tiobe september
