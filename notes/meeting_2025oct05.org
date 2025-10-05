@@ -101,8 +101,6 @@ All candidates are currently installedg
 ****** Robust LLM pipelines (Mathematica, Python, Raku) 
 ******* https://www.youtube.com/watch?v=QOsVTCQZq_s
 
-
-
 *** tiobe september (rob)
 **** perl is in the top 10
 ***** so maybe raku should keep an eye on that audience
