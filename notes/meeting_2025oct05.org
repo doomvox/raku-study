@@ -70,6 +70,8 @@ All candidates are currently installedg
 ******** usually waste
 ********* time (Anton)
 ********* memory (Tim)
+****** write an org-mode 
+
 ***** rshiney, hark 
 ****** shiney translates to javascript from R
 ******* webapps in R
