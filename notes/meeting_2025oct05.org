@@ -65,6 +65,7 @@ All candidates are currently installedg
 ******* nix os on mac
 ******** e.g. used by a guy on raku dischord: rcmlz
 ******* jupyter insstall not easy
+******** Raku Jupyter::Chatbook
 
 *** rob:
 **** tiobe september
