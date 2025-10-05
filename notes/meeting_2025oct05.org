@@ -58,6 +58,7 @@ All candidates are currently installedg
 ***** raku docs, partition it in a meaninful way, query it
 ***** the vector database is smaller, can be shared
 
+
 *** rob:
 **** tiobe september
 ***** perl is in the top 10
