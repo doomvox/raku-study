@@ -71,6 +71,7 @@ All candidates are currently installedg
 ********* time (Anton)
 ********* memory (Tim)
 ****** TODO write an org-mode grammar
+******* follow Raku-Markdown-Grammar as example
 
 ***** rshiney, hark 
 ****** shiney translates to javascript from R
