@@ -84,6 +84,8 @@ All candidates are currently installedg
 
 ***** mit study: 95% of LLM stuff is prototype, not going to production
 ****** https://www.forbes.com/sites/jasonsnyder/2025/08/26/mit-finds-95-of-genai-pilots-fail-because-companies-avoid-friction/
+****** actual study might be better to read
+******* 
 
 ***** anton: llms energy intensive, 
 ****** but you can do a lot with grammar technology of raku, 
