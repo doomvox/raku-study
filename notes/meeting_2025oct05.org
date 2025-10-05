@@ -61,6 +61,7 @@ All candidates are currently installedg
 ******* graphviz
 ******* h20
 ******** to what degree should you automate installation
+****** tim: uv for python package management (maybe)
 
 *** rob:
 **** tiobe september
