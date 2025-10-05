@@ -4,7 +4,7 @@
 
 use v6;
 
-
 my $code = { uc($^thingie) };
 
 say $code.('godzilla'); # GODZILLA
+
