@@ -31,6 +31,7 @@
 
 **** zeromq 
 ***** ipc between emacs and other processes?
+***** alternate to roll-your-own
 
 *** raku and zef
 **** Tried this, but NG:
