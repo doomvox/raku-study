@@ -26,3 +26,5 @@ my %rules =
         };
  
 my $gBestPoem = LLM::Graph.new(%rules);
+
+say $gBestPoem;
