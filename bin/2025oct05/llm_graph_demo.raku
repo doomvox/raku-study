@@ -26,6 +26,9 @@ my %rules =
 my $gBestPoem = LLM::Graph.new(%rules);
 say $gBestPoem(topic => 'hockey', style => 'limerick');
 
+# Tried to get the result of a broken Promise
+#   in block  at /home/doom/Dust/Sys/Raku/rakudo-star-2023.02/share/perl6/site/sources/1003ED3F0E2F15EC732FF390113D8A60D3504600 (LLM::Graph) line 364
+
 
 exit;
 
