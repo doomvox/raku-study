@@ -37,7 +37,7 @@
 ***** anton uses his own JavaScript::D3 package 
 ****** dynamic, interactive graphs
 ****** better than Javascript::Google::Charts for this
-
+****** Tim mentions Vega, Vega-light
 
 *** raku and zef
 **** Tried this, but NG:
