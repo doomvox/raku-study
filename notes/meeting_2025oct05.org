@@ -51,7 +51,7 @@ All candidates are currently installedg
 
 *** rob:
 **** tiobe september
-***** 
+***** perl is in the top 10
 
 ** old topics (TODO TRIM)
 
