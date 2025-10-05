@@ -94,7 +94,8 @@ All candidates are currently installedg
 ***** more info:
 ****** https://github.com/antononcube
 ****** https://www.youtube.com/@AAA4prediction
-****** https://github.com/antononcube/RakuForPrediction-book/tree/main/scripts
+****** scripts to simplify installation
+******* https://github.com/antononcube/RakuForPrediction-book/tree/main/scripts
 ****** Robust LLM pipelines (Mathematica, Python, Raku) 
 ******* https://www.youtube.com/watch?v=QOsVTCQZq_s
 
