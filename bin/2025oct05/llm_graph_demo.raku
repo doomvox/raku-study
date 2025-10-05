@@ -32,3 +32,5 @@ say $gBestPoem;
 say $gBestPoem.nodes<judge>;
 # sub { }
 ## ?
+
+say 	$gBestPoem.dot(engine => 'dot', node-width => 1.2 ):svg;
