@@ -52,6 +52,7 @@ All candidates are currently installedg
 *** rob:
 **** tiobe september
 ***** perl is in the top 10
+****** so maybe raku should keep an eye on that audience
 
 ** old topics (TODO TRIM)
 
