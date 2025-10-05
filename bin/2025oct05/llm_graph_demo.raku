@@ -28,7 +28,6 @@ my $gBestPoem = LLM::Graph.new(%rules);
 say $gBestPoem;
 # LLM::Graph(size => 4, nodes => judge, poet1, poet2, poet3)
 
-	
 say $gBestPoem.nodes<judge>;
 # sub { }
 ## ?
