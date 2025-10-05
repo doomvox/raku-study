@@ -87,7 +87,6 @@ All candidates are currently installedg
 ****** actual study might be better to read
 ******* https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai_report_2025.pdf
 
-
 ***** anton: llms energy intensive, 
 ****** but you can do a lot with grammar technology of raku, 
 ****** reduce usage of LLM to where needed
