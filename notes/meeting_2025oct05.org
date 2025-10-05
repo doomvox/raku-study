@@ -64,6 +64,7 @@ All candidates are currently installedg
 ****** tim: uv for python package management (maybe)
 ******* nix os on mac
 ******** e.g. used by a guy on raku dischord: rcmlz
+******* jupyter insstall not easy
 
 *** rob:
 **** tiobe september
