@@ -5,7 +5,7 @@
 use v6;
 
 sub spy {
-    say $_;
+    say $^a;
     return $_;
     }
 
