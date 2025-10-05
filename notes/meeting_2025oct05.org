@@ -60,6 +60,7 @@ All candidates are currently installedg
 ****** outside of zef, need to install
 ******* graphviz
 ******* h20
+******** to what degree should you automate installation
 
 *** rob:
 **** tiobe september
