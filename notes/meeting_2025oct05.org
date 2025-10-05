@@ -14,7 +14,7 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** meeting announcment:
+*** meeting scheduling change:
 **** Oct 19, 2025  (CANCELED-- sorry, busy traveling)
 **** Nov 2, 2025   (From Seoul)
 
