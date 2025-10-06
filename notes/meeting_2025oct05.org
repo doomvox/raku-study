@@ -130,6 +130,9 @@ some_routine( 'function ja?' );
 ****** Sac-tech.com
 ****** also on meetup
 
+https://obsidianrook.com/doomfiles/SOUL_SO_DEAD.html
+
+
 ** old topics (TODO TRIM)
 
 *** Everything about monads: 
