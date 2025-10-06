@@ -126,7 +126,8 @@ some_routine( 'function ja?' );
 
 **** "sac tech social"
 ***** gathering in the sac area
-***** they have a slack
+***** sacramento slack
+****** 
 
 ** old topics (TODO TRIM)
 
