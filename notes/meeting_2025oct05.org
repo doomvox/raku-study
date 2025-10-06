@@ -124,8 +124,6 @@ raku -e '.say for lines.grep({ /^<alpha>+$/ and .chars == 4 }).classify(*.lc.sub
 
 some_routine( 'function ja?' );
 
-
-
 **** "sac tech social"
 ***** gathering in the sac area
 
