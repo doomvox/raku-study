@@ -126,8 +126,7 @@ some_routine( 'function ja?' );
 
 
 
-**** sac tech social
-
+**** "sac tech social"
 ***** gathering in the sac area
 
 ** old topics (TODO TRIM)
