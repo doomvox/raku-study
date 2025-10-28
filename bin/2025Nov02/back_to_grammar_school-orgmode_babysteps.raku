@@ -4,5 +4,7 @@
 # Monday October 27, 2025   6:28 PM
 
 grammar orgmode {
-
+        TOP { <headbullet> <stuff> }
+        token headbullet { ^ <[*]>+ }
+        rule { 
 }
