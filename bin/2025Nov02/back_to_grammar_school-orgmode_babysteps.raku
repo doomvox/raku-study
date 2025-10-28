@@ -6,5 +6,5 @@
 grammar orgmode {
         TOP { <headbullet> <stuff> }
         token headbullet { ^ <[*]>+ }
-        rule { 
+        rule { .*?<headbullet> }
 }
