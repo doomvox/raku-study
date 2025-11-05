@@ -8,7 +8,7 @@ grammar orgmode {
         token heading {<headbullet> \s* <stuff>}
         token headbullet { ^ <[*]>+? \s*  }
 #        rule stuff { .*?<headbullet> }  ## No, that's not it... match up to something that isn't a token match
-        rule stuff { \w*?  }  ## a heading ends at eol
+        rule stuff { \N*?  }  ## a heading ends at eol
 }
 
 {
