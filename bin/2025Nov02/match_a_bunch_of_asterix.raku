@@ -6,4 +6,4 @@
 my $str1 = "*** alpha";
 say $str1;
 
-$str1 ~~ / \* * /;
+$str1 ~~ / \* *? \w /;
