@@ -5,7 +5,7 @@
 
 grammar orgmode {
         TOP { <headbullet> <stuff> }
-        token headbullet { ^ <[*]>+ <![*]>}
+        token headbullet { ^ <[*]>+ <![*]> }
 #        rule stuff { .*?<headbullet> }  ## No, that's not it... match up to something that isn't a token match
         rule stuff { .*?$ }  ## a heading ends at eol
 }
