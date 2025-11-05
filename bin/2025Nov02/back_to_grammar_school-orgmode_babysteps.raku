@@ -11,8 +11,16 @@ grammar orgmode {
         rule stuff { .*?$ }  ## a heading ends at eol
 }
 
-my $file = "/home/doom/End/Cave/Ice/Xtal/Raku/grammar.org";
-my $raw = $file.IO.slurp;
-say $raw;
+{
+        my $file = "/home/doom/End/Cave/Ice/Xtal/Raku/grammar.org";
+        my $raw = $file.IO.slurp;
+        say $raw;
 
-my $o = orgmode.parse( $raw );
+        my $o = orgmode.parse( $raw );
+        for $o.<heading> -> $h {
+
+    
+        }   
+
+
+}
