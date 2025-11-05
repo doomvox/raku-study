@@ -14,7 +14,7 @@ grammar orgmode {
 {
         my $file = "/home/doom/End/Cave/Ice/Xtal/Raku/grammar.org";
         my $raw = $file.IO.slurp;
-        say $raw;
+#        say $raw;
 
         my $o = orgmode.parse( $raw );
         for $o.<heading> -> $h {
