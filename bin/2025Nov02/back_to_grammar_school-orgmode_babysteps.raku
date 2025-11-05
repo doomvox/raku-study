@@ -13,3 +13,4 @@ grammar orgmode {
 
 
 my $file = "/home/doom/End/Cave/Ice/Xtal/Raku/grammar.org";
+my $text = $file.IO.slurp;
