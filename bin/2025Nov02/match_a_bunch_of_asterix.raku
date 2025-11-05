@@ -16,7 +16,7 @@
     my $str1 = "*** alpha";
     
 
-    $str1 ~~ / \* /
+    $str1 ~~ / \* /;
 
     say $/;  # Nil
 }
