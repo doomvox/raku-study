@@ -14,10 +14,9 @@
 
 {
     my $str1 = "*** alpha";
-    
 
     $str1 ~~ / \* /;
 
-    say $/;  # Nil
+    say $/;  # ｢*｣
 }
 
