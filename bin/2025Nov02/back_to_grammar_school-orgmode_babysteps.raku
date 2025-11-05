@@ -4,7 +4,7 @@
 # Monday October 27, 2025   6:28 PM
 
 grammar orgmode {
-        TOP { <headbullet> <stuff> }
+        TOP { <headbullet> \s* <stuff> }
         token headbullet { ^ <[*]>+ <![*]> }
 #        rule stuff { .*?<headbullet> }  ## No, that's not it... match up to something that isn't a token match
         rule stuff { .*?$ }  ## a heading ends at eol
