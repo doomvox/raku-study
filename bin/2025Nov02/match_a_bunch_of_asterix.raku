@@ -46,6 +46,7 @@ say "===";
     say $/;  # ｢*｣    # (ah, non-greedy, of course)
     $str1 ~~ / <[*]>+? \s+ /;
     say $/;  # ｢*** ｣    # note: includes the trailing space
+    $str1 ~~ / <[*]>+? <before \s+> /;
 }
 
 
