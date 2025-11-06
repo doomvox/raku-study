@@ -45,7 +45,7 @@ say "===";
     $str1 ~~ / <[*]>+? /;
     say $/;  # ｢*｣    # (ah, non-greedy, of course)
     $str1 ~~ / <[*]>+? \s+ /;
-    say $/;  # ｢*｣    # (ah, non-greedy, of course)
+    say $/;  # ｢*** ｣    # (ah, non-greedy, of course)
 }
 
 
