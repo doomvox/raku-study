@@ -5,9 +5,9 @@
 
 grammar orgmode {
         token TOP { <heading>+ }
-        token heading {<headbullet> \s* <stuff>}
-        token headbullet { ^ <[*]>+? \s*  }
-#        rule stuff { .*?<headbullet> }  ## No, that's not it... match up to something that isn't a token match
+        token heading {<indent> \s* <stuff>}
+        token indent { ^ <[*]>+? \s*  }
+#        rule stuff { .*?<indent> }  ## No, that's not it... match up to something that isn't a token match
         rule stuff { .*? [\n]  }  ## a heading ends at eol
 }
 
@@ -18,7 +18,7 @@ grammar orgmode {
 
         my $o = orgmode.parse( $raw );
         for $o.<heading> -> $h {
-           say $h.<headbullet>;
+           say $h.<indent>;
            say $h.<stuff>;
            say "---";
         }   
