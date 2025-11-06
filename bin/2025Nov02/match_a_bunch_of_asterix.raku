@@ -43,7 +43,7 @@ say "===";
     $str1 ~~ / <[*]>+ /;
     say $/;  # ｢***｣
     $str1 ~~ / <[*]>+? /;
-    say $/;  # ｢***｣
+    say $/;  # ｢*｣    # (ah, non-greedy, of course)
 
 }
 
