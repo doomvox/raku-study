@@ -50,7 +50,8 @@ say "===";
     say $/;  # 
              # ｢***｣
              #  before => ｢｣
-    say $/.Str;
+    say $/.Str; # ***
+    say $/.[0]; #
 }
 
 
