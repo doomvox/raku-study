@@ -37,3 +37,11 @@ say "===";
 ## pattern to match org-mode indent 
 ## wasn't doing what I expected:
 ##  ^ <[*]>+? \s*
+
+{
+    my $str1 = "*** alpha";
+    $str1 ~~ / <[*]>+ /;
+    say $/;  # ｢*｣
+}
+
+
