@@ -51,7 +51,7 @@ say "===";
              # ｢***｣
              #  before => ｢｣
     say $/.Str; # ***
-    say $/.perl;
+    say $/.raku;
 }
 
 
