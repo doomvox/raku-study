@@ -54,5 +54,7 @@ say "===";
     say $/.raku;
     # Match.new(:orig("*** alpha"), :from(0), :pos(3), :hash(Map.new((:before(Match.new(:orig("*** alpha"), :from(3), :pos(3)))))))
 }
+## need more work to grok internal tree of $/
+## but anyway: not clear why the usage in the grammar didn't work.  Try pinning with '^'.
 say "===";
 
