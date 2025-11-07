@@ -9,7 +9,7 @@ grammar orgmode {
         token indent { ^^ <[*]>+? <before \s+> }
 
 #        rule stuff { .*?<indent> }  ## No, that's not it... match up to something that isn't a token match
-        rule stuff { .*? [\n]  }  ## a heading ends at eol
+        rule stuff { .* $$  }  ## a heading ends at eol
 }
 
 {
