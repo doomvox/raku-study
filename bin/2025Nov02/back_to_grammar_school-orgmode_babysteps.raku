@@ -9,6 +9,7 @@ grammar orgmode {
         token indent { ^^ \s* <[*]>+? <before \s+> }
 
         rule headtext { .* $$  }  ## a heading ends at eol
+                                  ## TODO I see first one slurping to end of file
 }
 
 {
