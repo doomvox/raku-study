@@ -6,7 +6,8 @@
 grammar orgmode {
         token TOP { <heading>+ }
         token heading {<indent> \s* <stuff>}
-        token indent { ^ <[*]>+? \s*  }
+        token indent { ^^ <[*]>+? <before \s+> }
+
 #        rule stuff { .*?<indent> }  ## No, that's not it... match up to something that isn't a token match
         rule stuff { .*? [\n]  }  ## a heading ends at eol
 }
