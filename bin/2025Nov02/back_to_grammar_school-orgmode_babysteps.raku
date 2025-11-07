@@ -15,7 +15,9 @@ grammar orgmode {
 #       my $file = "/home/doom/End/Cave/Ice/Xtal/Raku/grammar.org";
         my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025Nov02/dat/simple.org";
         my $raw = $file.IO.slurp;
+        say "---";
         say $raw;
+        say "---";
 
         my $o = orgmode.parse( $raw );
 #        say $o;
