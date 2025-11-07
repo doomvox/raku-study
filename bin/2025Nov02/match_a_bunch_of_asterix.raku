@@ -61,6 +61,11 @@ say "===";
 
 say "===";
 {
+    my $str1 = "*** alpha";
+    $str1 ~~ / <[*]>+? <before \s+> /;
+    say $/.Str; # ***
+    say $/.raku;
+
 }
 
 
