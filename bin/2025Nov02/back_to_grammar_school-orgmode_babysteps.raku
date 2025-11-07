@@ -4,7 +4,7 @@
 # Monday October 27, 2025   6:28 PM
 
 grammar orgmode {
-        token TOP { <heading>+ \n* $}
+        token TOP { <heading>+ \w* $}
         token heading { <indent> \s* <headtext>}
         token indent { ^^ \s* <[*]>+? <before \s+> }
 
