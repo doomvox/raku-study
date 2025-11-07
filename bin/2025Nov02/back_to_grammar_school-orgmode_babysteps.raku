@@ -5,10 +5,10 @@
 
 grammar orgmode {
         token TOP { <heading>+ }
-        token heading {<indent> \s* <stuff>}
+        token heading {<indent> \s* <headtext>}
         token indent { ^^ <[*]>+? <before \s+> }
 
-        rule stuff { .* $$  }  ## a heading ends at eol
+        rule headtext { .* $$  }  ## a heading ends at eol
 }
 
 {
@@ -20,7 +20,7 @@ grammar orgmode {
 #        say $o;
         for $o.<heading> -> $h {
            say $h.<indent>;
-           say $h.<stuff>;
+           say $h.<headtext>;
            say "---";
         }   
 
