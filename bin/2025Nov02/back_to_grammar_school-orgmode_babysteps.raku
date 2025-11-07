@@ -5,7 +5,7 @@
 
 grammar orgmode {
         token TOP { <heading>+ }
-        token heading {<indent> \s* <headtext>}
+        token heading { \s* <indent> \s* <headtext>}
         token indent { ^^ <[*]>+? <before \s+> }
 
         rule headtext { .* $$  }  ## a heading ends at eol
