@@ -18,7 +18,7 @@ grammar orgmode {
 #        say $raw;
 
         my $o = orgmode.parse( $raw );
-        say $o;
+#        say $o;
         for $o.<heading> -> $h {
            say $h.<indent>;
            say $h.<stuff>;
