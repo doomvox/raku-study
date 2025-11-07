@@ -65,6 +65,7 @@ say "===";
     $str1 ~~ / ^^ <[*]>+? <before \s+> /;
     say $/.Str; # ***
     say $/.raku;
+    ## Match.new(:orig("*** alpha"), :from(0), :pos(3), :hash(Map.new((:before(Match.new(:orig("*** alpha"), :from(3), :pos(3)))))))
 
 }
 
