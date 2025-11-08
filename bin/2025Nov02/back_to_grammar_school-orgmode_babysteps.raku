@@ -20,7 +20,7 @@ grammar orgmode {
                                 ## *This* works, but why didn't the last try work?
 
         ## Also note that "token" doesn't work here, it has to be a
-        ## "rule: because you need to look ahead one char, then ## back-up?
+        ## "rule: because you need to look ahead one char, then back-up?
 
 }
 
