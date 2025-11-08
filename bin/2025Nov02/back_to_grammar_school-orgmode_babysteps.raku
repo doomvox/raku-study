@@ -9,7 +9,7 @@ grammar orgmode {
         token indent { ^^ \s* <[*]>+? <before \s+> }
 
         rule headtext { .* $$  }  ## a heading ends at eol
-                                  ## TODO I see first one slurp
+                                  ## TODO I see first one slurp in the rest of it.
 }
 
 {
