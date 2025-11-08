@@ -16,8 +16,8 @@ grammar orgmode {
         # heading text is one line, so ends at a newline
         rule headtext { \N*  }  ## anything that's not a newline
 
-        ## Also note that "token" doesn't work here, it has to be a "rule: 
-        ## because we're treating whitespace as significant, right?
+        ## has to be a "rule: 
+        ## because we're treating whitespace as significant
 }
 
 {
