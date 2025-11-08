@@ -16,7 +16,7 @@ grammar orgmode {
                                   ## ah: there *is* *a* line ending at eof,
                                   ## greedy matches skip past all of them.  
 
-        rule headtext { \N*  }  ## a heading ends at eol, so anything not a newline?
+        token headtext { \N*  }  ## a heading ends at eol, so anything not a newline?
                                 ## *This* works, but why didn't the last try work?
 
 }
