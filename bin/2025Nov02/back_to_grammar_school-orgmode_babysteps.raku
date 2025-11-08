@@ -8,8 +8,9 @@ grammar orgmode {
         token heading { <indent> \s* <headtext>}
         token indent { ^^ \s* <[*]>+? <before \s+> }
 
+        ## heading text is one line, so ends at a newline
+#        rule headtext { .* $$  } ## '$$' is eol, correct?  but this slurps all the way to eof.
 #        rule headtext { .*? $$  }  ## a heading ends at eol
-                                  ## TODO I see first one slurp in the rest of it.
                                   ## ah: there *is* *a* line ending at eof,
                                   ## greedy matches skip past all of them.  
 
