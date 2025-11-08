@@ -6,8 +6,7 @@
 #    Monday October 27, 2025   6:28 PM
 # Saturday November  8, 2025  10:00 PM
 
-# STATUS: this is a reasonable start, but I'm letting this version
-# stand as a record of a question that I have about it.
+# STATUS: simple grammar that works on text containing org-mode headings alone
 
 grammar orgmode {
         token TOP { <heading>+ }
