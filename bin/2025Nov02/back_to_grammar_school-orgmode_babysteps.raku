@@ -19,8 +19,8 @@ grammar orgmode {
         rule headtext { \N*  }  ## a heading ends at eol, so anything not a newline?
                                 ## *This* works, but why didn't the last try work?
 
-        ## Also note that "token" doesn't work here, it has to be a
-        ## "rule: because you need to look ahead one char, then back-up?
+        ## Also note that "token" doesn't work here, it has to be a "rule: 
+        ## because we're treating whitespace as significant, right?
 
 }
 
