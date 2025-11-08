@@ -8,10 +8,12 @@ grammar orgmode {
         token heading { <indent> \s* <headtext>}
         token indent { ^^ \s* <[*]>+? <before \s+> }
 
-        rule headtext { .*? $$  }  ## a heading ends at eol
+#        rule headtext { .*? $$  }  ## a heading ends at eol
                                   ## TODO I see first one slurp in the rest of it.
                                   ## ah: there *is* *a* line ending at eof,
                                   ## greedy matches skip past all of them.  
+
+        rule headtext { \N*  }  ## a heading ends at eol
 
 }
 
