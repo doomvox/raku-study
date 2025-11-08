@@ -21,7 +21,6 @@ grammar orgmode {
 
         ## Also note that "token" doesn't work here, it has to be a "rule: 
         ## because we're treating whitespace as significant, right?
-
 }
 
 {
