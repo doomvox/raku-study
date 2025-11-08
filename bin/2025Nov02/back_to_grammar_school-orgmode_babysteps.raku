@@ -17,7 +17,7 @@ grammar orgmode {
                                   ## greedy matches skip past all of them.  
 
         rule headtext { \N*  }  ## a heading ends at eol, so anything not a newline?
-                                ## *This* works, *that* doesn't-- why exactly?
+                                ## *This* works, but why didn't the last try work?
 
 }
 
