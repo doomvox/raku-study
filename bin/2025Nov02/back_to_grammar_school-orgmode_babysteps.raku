@@ -13,7 +13,8 @@ grammar orgmode {
                                   ## ah: there *is* *a* line ending at eof,
                                   ## greedy matches skip past all of them.  
 
-        rule headtext { \N*  }  ## a heading ends at eol
+        rule headtext { \N*  }  ## a heading ends at eol, so anything not a newline?
+                                ## *This* works, *that* doesn't-- why exactly?
 
 }
 
