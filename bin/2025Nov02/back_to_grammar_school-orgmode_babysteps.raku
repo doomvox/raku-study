@@ -3,6 +3,10 @@
 # back_to_grammar_school-orgmode_babysteps.raku
 # Monday October 27, 2025   6:28 PM
 
+# STATUS: this is a reasonable start, but I'm letting this version
+# stand as a record of a question that I have about it.
+
+
 grammar orgmode {
         token TOP { <heading>+ }
         token heading { <indent> \s* <headtext>}
