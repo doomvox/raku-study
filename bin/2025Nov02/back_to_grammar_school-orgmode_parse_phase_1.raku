@@ -13,16 +13,8 @@ grammar orgmode {
         token heading { <indent> \s* <headtext>}
         token indent { ^^ \s* <[*]>+? <before \s+> }
 
-        ## heading text is one line, so ends at a newline
-
-#        rule headtext { .* $$  } ## '$$' is eol, correct?  but this slurps all the way to eof.
-
-#        rule headtext { .*? $$  }  
-                                  ## ah: there *is* *a* line ending at eof,
-                                  ## greedy matches skip past all of them.  
-
-        rule headtext { \N*  }  ## a heading ends at eol, so anything not a newline?
-                                ## *This* works, but why didn't the last try work?
+        # heading text is one line, so ends at a newline
+        rule headtext { \N*  }  ## anything that's not a newline
 
         ## Also note that "token" doesn't work here, it has to be a "rule: 
         ## because we're treating whitespace as significant, right?
