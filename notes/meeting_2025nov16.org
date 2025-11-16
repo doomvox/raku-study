@@ -14,6 +14,21 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
+*** fron page code example
+**** topic variable considered harmful -- Damien (?)
+
+I have four topics easy to hard:
+
+1) Code highlighting: Raku vs LLMs
+
+2) LLM-graphs for using parser-interpreter fallback structures
+
+3) Recommender systems in Raku
+
+4) Sparse matrix computation performance comparison between Raku and Python
+
+
+** old topics
 
 *** meeting scheduling change:
 **** Oct 19, 2025  (CANCELED-- sorry, busy traveling)
