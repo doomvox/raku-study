@@ -26,7 +26,6 @@
 
 *** Anton topics
 I have four topics easy to hard:
-
 1) Code highlighting: Raku vs LLMs
 
 2) LLM-graphs for using parser-interpreter fallback structures
