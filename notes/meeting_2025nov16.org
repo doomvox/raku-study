@@ -39,7 +39,9 @@ I have four topics easy to hard:
 **** latest: the headache operator
 ***** https://github.com/doomvox/raku-study/discussions/25
 
-
+*** bruce 
+**** on weekly challenge
+**** rosetta
 
 ** old topics
 
