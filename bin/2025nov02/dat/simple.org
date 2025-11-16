@@ -1,0 +1,12 @@
+* grammars
+** TODO needs more
+** docs
+*** Grammar Tutorial: https://docs.raku.org/language/grammar_tutorial
+**** "GT"
+*** Grammar Reference: https://docs.raku.org/language/grammars
+**** "GR"
+** "Grammars parse strings and return data structures ..." -- GT
+*** a string transformed into a structure
+**** note: can be lossy
+**** structure means "hierarchies and lists", right?
+***** TODO how about graphs (in general, not just DAGs)

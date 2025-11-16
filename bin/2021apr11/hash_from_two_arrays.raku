@@ -2,6 +2,9 @@
 # 
 # hash_from_two_arrays.raku            07 Apr 2021 
 
+## SYNOPSIS:
+##    my %h = @names Z=> @numbers; # {a => 1, b => 2, c => 3}
+
 use v6;
 
 { # simple hash set-up and use
@@ -11,7 +14,7 @@ use v6;
   say %h<a c>; # (1 3)
   say %h<a c>[1];  # 3
 }
-
+say "===";
 { # zipping together two arrays, and pairing up into a hash:
     my @names = <a b c>;
     my @numbers = (1, 2, 3);
@@ -33,7 +36,7 @@ use v6;
     say @a[1]; # b => 2
     say @a[1].WHAT;  # (Pair)
 }
-
+say "===";
 { # 
     my @names = <a b c>;
     my @numbers = (1, 2, 3);
@@ -46,7 +49,7 @@ use v6;
     say %h; # {a b c => [1 2 3]}  ## what?
 
 }
-
+say "===";
 { # heh: [Z=>]  to zip and pair up at the same time
     my @names = <a b c>;
     my @numbers = (1, 2, 3);
@@ -62,7 +65,7 @@ use v6;
     # Actually, the brackets aren't needed in this case:
     #    my %h = @names Z=> @numbers; # {a => 1, b => 2, c => 3}
 }
-
+say "===";
 
 { # heh: [Z=>]  to zip and pair up at the same time
     my @names = <a b c>;

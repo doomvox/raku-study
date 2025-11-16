@@ -10,11 +10,8 @@ perl5_example_re.pl
 
 =head1 DESCRIPTION
 
-Stub documentation for perl5_example_re.pl,
-created by template.el.
-
-It looks like the author of this script was negligent
-enough to leave the stub unedited.
+perl5_example_re.pl:
+demo of perl regexps.
 
 =cut
 
