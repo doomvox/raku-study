@@ -16,6 +16,7 @@
 ** topics
 *** fron page code example
 **** topic variable considered harmful -- Damien (?)
+***** https://github.com/Raku/raku.org/pull/272
 ***** my uniformed take
 ****** Damien has an obsession with bullet-proof encapsulation
 ****** perl programmers don't care
