@@ -17,6 +17,7 @@
 *** fron page code example
 **** topic variable considered harmful -- Damien (?)
 
+*** Anton topics
 I have four topics easy to hard:
 
 1) Code highlighting: Raku vs LLMs
@@ -26,6 +27,8 @@ I have four topics easy to hard:
 3) Recommender systems in Raku
 
 4) Sparse matrix computation performance comparison between Raku and Python
+
+*** me: back to grammar school
 
 
 ** old topics
