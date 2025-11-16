@@ -20,6 +20,9 @@
 ****** Damien has an obsession with bullet-proof encapsulation
 ****** perl programmers don't care
 ******* encapsulation can make debugging difficult
+****** CS people prone to "one true way!", but they never hold up
+****** anton a recovered monad believer
+****** https://rakuforprediction.wordpress.com/2025/11/16/monad-laws-in-raku/
 
 *** Anton topics
 I have four topics easy to hard:
