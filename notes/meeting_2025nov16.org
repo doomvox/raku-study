@@ -16,6 +16,10 @@
 ** topics
 *** fron page code example
 **** topic variable considered harmful -- Damien (?)
+***** my uniformed take
+****** Damien has an obsession with bullet-proof encapsulation
+****** perl programmers don't care
+******* encapsulation can make debugging difficult
 
 *** Anton topics
 I have four topics easy to hard:
