@@ -143,4 +143,29 @@ You to Everyone
 
 Yes, lots of grumbling, heavy breathing and furious keyboard clicking.
 
+But there's often terminology drift.
+Márton to Everyone
+04:42 PM
+M
+
+@Bill this is also ou btw https://github.com/Raku/problem-solving/issues/502
+Bill
+04:44 PM
+B
+
+Thanks!
+Márton to Everyone
+04:42 PM
+M
+
+for you
+
+(Zoom has some sort of insert-overwrite mode weirdly)
+You to Everyone
+04:43 PM
+
+System Antics?
+
+
+
 ===
