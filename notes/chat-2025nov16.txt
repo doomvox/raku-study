@@ -84,3 +84,31 @@ Yes, lots of grumbling, heavy breathing and furious keyboard clicking.
 
 
 ===
+
+Bill to You(Direct Message)
+03:56 PM
+B
+
+Can you hear us, Joe?
+Márton to Everyone
+03:57 PM
+M
+
+https://github.com/raku-community-modules/File-Find/issues/49
+You to Everyone
+03:57 PM
+
+Yes, my sound is back to normal again, I keep finding different ways of messing things up.
+Márton to Everyone
+03:59 PM
+M
+
+https://github.com/Raku/problem-solving/issues/485
+Bill to You(Direct Message)
+04:02 PM
+B
+
+We can hear you ;-)
+
+
+===
