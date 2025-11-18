@@ -17,7 +17,6 @@ grammar orgmode {
                                   ## ah: there *is* *a* line ending at eof,
                                   ## greedy matches skip past all of them.  
 
-
 #        rule headtext { .*? $$  }  
 
         rule headtext { \N*  }  ## a heading ends at eol, so anything not a newline?
