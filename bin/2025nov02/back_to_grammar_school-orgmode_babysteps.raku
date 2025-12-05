@@ -14,10 +14,17 @@ grammar orgmode {
         ## heading text is one line, so ends at a newline
 
 #        rule headtext { .* $$  } ## '$$' is eol, correct?  but this slurps all the way to eof.
+<<<<<<< HEAD
                                   ## ah: there *is* *a* line ending at eof,
                                   ## greedy matches skip past all of them.  
 
 #        rule headtext { .*? $$  }  
+=======
+
+#        rule headtext { .*? $$  }  
+                                  ## ah: there *is* *a* line ending at eof,
+                                  ## greedy matches skip past all of them.  
+>>>>>>> 27a479e8ae48de9faab00e29e114741c21f7ad68
 
         rule headtext { \N*  }  ## a heading ends at eol, so anything not a newline?
                                 ## *This* works, but why didn't the last try work?
