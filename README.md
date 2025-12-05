@@ -10,13 +10,9 @@ Upcoming meetings:
 *  Sunday November 16, 2025
     *  https://us02web.zoom.us/j/84152895736?pwd=kNH5nyvNSXdwJC3aIut6cBhXw2FTpR.1
 
-<<<<<<< HEAD
 *  Sunday December 7, 2025
-
-
-=======
-(Sorry about the scheduling confusion lately: I'm traveling and my personal circumstances aren't co-operating with my plans: November 16th for sure.)
->>>>>>> 27a479e8ae48de9faab00e29e114741c21f7ad68
+    *  https://us02web.zoom.us/j/84558416154?pwd=bYS8AYIMdblVUF2QKbH8fAcJrYMAep.1
+ 
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
 And the super secret code you need is "4RakuRoll".
