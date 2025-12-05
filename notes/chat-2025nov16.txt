@@ -1,0 +1,190 @@
+Sunday November 16, 2025   3:04 PM
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/notes/chat-2025nov16.txt
+
+Manual cut and paste of chat:
+
+William Michels to Everyone
+01:07 PM
+WM
+
+https://www.bbc.com/sport/football/teams/northern-ireland/scores-fixtures/2025-11?filter=results
+
+https://www.irishtimes.com/sport/soccer/2025/11/16/hungary-v-ireland-live-updates-follow-action-from-crucial-world-cup-qualifier/
+You to Everyone
+01:15 PM
+
+Hey gang.   I'm clawing my way out of zoom computer hell here...
+
+Pottery
+William Michels to Everyone
+01:18 PM
+WM
+
+https://github.com/Raku/raku.org/pull/272
+Márton to Everyone
+01:19 PM
+M
+
+~why are there examples on raku.org~
+Márton to Everyone
+01:26 PM
+M
+
+AlexDaniel was a much more productive person and Zoffix as well
+Márton to Everyone
+01:26 PM
+M
+
+to be fair
+
+
+===
+
+You are viewing  Márton's screen
+View Options
+Joseph Brenner
+Bill
+Bill
+Márton
+Anton Antonov
+David Christensen
+David Christensen
+Meeting Chat
+Bill to You(Direct Message)
+03:56 PM
+B
+
+Can you hear us, Joe?
+Márton to Everyone
+03:57 PM
+M
+
+https://github.com/raku-community-modules/File-Find/issues/49
+You to Everyone
+03:57 PM
+
+Yes, my sound is back to normal again, I keep finding different ways of messing things up.
+
+
+Márton to Everyone
+03:59 PM
+M
+
+https://github.com/Raku/problem-solving/issues/485
+Bill to You(Direct Message)
+04:02 PM
+B
+
+We can hear you ;-)
+You to Everyone
+04:03 PM
+
+Yes, lots of grumbling, heavy breathing and furious keyboard clicking.
+
+
+
+===
+
+Bill to You(Direct Message)
+03:56 PM
+B
+
+Can you hear us, Joe?
+Márton to Everyone
+03:57 PM
+M
+
+https://github.com/raku-community-modules/File-Find/issues/49
+You to Everyone
+03:57 PM
+
+Yes, my sound is back to normal again, I keep finding different ways of messing things up.
+Márton to Everyone
+03:59 PM
+M
+
+https://github.com/Raku/problem-solving/issues/485
+Bill to You(Direct Message)
+04:02 PM
+B
+
+We can hear you ;-)
+
+
+===
+===
+
+ You(Direct Message)
+03:56 PM
+B
+
+Can you hear us, Joe?
+Márton to Everyone
+03:57 PM
+M
+
+https://github.com/raku-community-modules/File-Find/issues/49
+You to Everyone
+03:57 PM
+
+Yes, my sound is back to normal again, I keep finding different ways of messing things up.
+Márton to Everyone
+03:59 PM
+M
+
+https://github.com/Raku/problem-solving/issues/485
+Bill to You(Direct Message)
+04:02 PM
+B
+
+We can hear you ;-)
+You to Everyone
+04:03 PM
+
+Yes, lots of grumbling, heavy breathing and furious keyboard clicking.
+
+But there's often terminology drift.
+Márton to Everyone
+04:42 PM
+M
+
+@Bill this is also ou btw https://github.com/Raku/problem-solving/issues/502
+Bill
+04:44 PM
+B
+
+Thanks!
+Márton to Everyone
+04:42 PM
+M
+
+for you
+
+(Zoom has some sort of insert-overwrite mode weirdly)
+You to Everyone
+04:43 PM
+
+System Antics?
+
+---
+
+Anton Antonov to Everyone
+04:45 PM
+AA
+
+https://www.amazon.com/Systemantics-Systems-Work-Especially-They/dp/0812906748
+Bill to Everyone
+04:45 PM
+B
+
+BSD? https://sourceforge.net/projects/nraku/
+
+(NetBSD)
+You to Everyone
+04:46 PM
+
+Next meeting: Dec 7, 2025
+
+
+
+===
