@@ -30,6 +30,9 @@
 *** grammar to parse org-mode files
 **** (like to do more work on this first-- but might be up to the hand-wave level)
 
+
+
+
 ** olden topics from meetings gone by
 *** fron page code example
 **** topic variable considered harmful -- Damien (?)
