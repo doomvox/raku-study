@@ -77,6 +77,8 @@
 *** Rob has ideas on how to improve the customs
 **** threshing statge to eliminate chaff
 ***** https://en.wikipedia.org/wiki/Chaff
+*** missing a "temporal" base class-- 
+**** thoughts on refactoring by disconnecting classes from inheritence tree (?) 
 
 ** olden topics from meetings gone by
 *** fron page code example
