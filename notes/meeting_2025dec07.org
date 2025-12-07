@@ -2,13 +2,13 @@
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025nov16.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025dec07.org 
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2025nov16
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025dec07
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025oct05.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025nov16.org 
 
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
