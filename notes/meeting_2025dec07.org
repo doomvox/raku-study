@@ -48,6 +48,9 @@
 ***** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025dec07.org 
 ***** comparisons used of andthen and feed operator. 
 
+**** bill examples of use of anthen
+***** https://unix.stackexchange.com/search?q=user%3A227738+andthen
+
 ** olden topics from meetings gone by
 *** fron page code example
 **** topic variable considered harmful -- Damien (?)
