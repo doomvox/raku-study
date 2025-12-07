@@ -28,7 +28,7 @@
 **** Raku would be in the competing set to C-like things such as Perl, right?
 
 *** grammar to parse org-mode files
-**** like to do more work on this-- but might be up to the hand-wave level
+**** (like to do more work on this first-- but might be up to the hand-wave level)
 
 ** olden topics from meetings gone by
 *** fron page code example
