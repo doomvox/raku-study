@@ -13,6 +13,13 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 ** topics
+*** today's announcment quote
+**** "An Empirical Investigation into Programming Language Syntax"
+**** https://dl.acm.org/doi/abs/10.1145/2534973
+**** the abstract: 
+***** explicitly a survey of "students"
+***** uses the phrase "mistake rate"
+****** what methodology?  maybe: given tests and graded them 
 
 ** olden topics from meetings gone by
 *** fron page code example
