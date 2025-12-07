@@ -30,7 +30,7 @@
 *** grammar to parse org-mode files
 **** (like to do more work on this first-- but might be up to the hand-wave level)
 
-*** anton
+*** Anton
 **** eight topics
 **** if learning languages is good to stretch you're understanding, then learn different one's: perl, raku
 ***** maybe: need to expect to learn them deeply
@@ -50,6 +50,12 @@
 
 **** Bill's examples of use of anthen
 ***** https://unix.stackexchange.com/search?q=user%3A227738+andthen
+
+
+**** Marton
+***** "I have spent the last week in the hell of async/io implementations and the infamous function coloring rant"
+
+*****  https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical
 
 ** olden topics from meetings gone by
 *** fron page code example
