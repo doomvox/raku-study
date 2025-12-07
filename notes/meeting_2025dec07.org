@@ -30,7 +30,7 @@
 *** grammar to parse org-mode files
 **** (like to do more work on this first-- but might be up to the hand-wave level)
 
-*** Anton
+*** Anton Antonov
 **** eight topics
 **** if learning languages is good to stretch you're understanding, then learn different one's: perl, raku
 ***** maybe: need to expect to learn them deeply
@@ -46,7 +46,7 @@
 ***** https://docs.raku.org/routine/notandthen
 ***** https://docs.raku.org/routine/orelse
 
-**** Anton "Monadic programming examples"
+**** Anton Antonov "Monadic programming examples"
 ***** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025dec07.org 
 ***** comparisons used of andthen and feed operator. 
 ****** See Uniform Function Call Syntax (UFCS)
@@ -92,7 +92,7 @@
 ****** anton a recovered monad believer
 ******* https://rakuforprediction.wordpress.com/2025/11/16/monad-laws-in-raku/
  
-*** Anton topics
+*** Anton Antonov topics
 I have four topics easy to hard:
 1) Code highlighting: Raku vs LLMs
 2) LLM-graphs for using parser-interpreter fallback structures
@@ -107,7 +107,7 @@ I have four topics easy to hard:
 
 ** old topics
 
-*** Anton: how to do a search index using LLM-style software (e.g. LLM::Graph)
+*** Anton Antonov: how to do a search index using LLM-style software (e.g. LLM::Graph)
 **** The search process I have in mind is explained here: 
 **** https://github.com/antononcube/EconomicsAI
 **** htmx+Air+Red+Cro
@@ -157,7 +157,7 @@ All candidates are currently installedg
 ******** Raku Jupyter::Chatbook
 ******* docker
 ******** usually waste
-********* time (Anton)
+********* time (Anton Antonov)
 ********* memory (Tim)
 ****** TODO write an org-mode grammar
 ******* follow Raku-Markdown-Grammar as example
