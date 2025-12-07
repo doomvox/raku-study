@@ -10,10 +10,13 @@ my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslav
 
 {
     @monsters.map({ uc($_) if $_ eq "zoma"; $_ }).sort>>.lc.say;
-
+# (boneslave chopclown esterk goategon hargon hornbeat slabbit zoma)
 }
 
 {
     @monsters.map({ uc($_) if $_ eq "zoma"; $_ }).&spy.sort>>.lc.say;    
     sub spy($_) { say "|| $_ ||"; $_; }
+
+## || goategon hargon esterk zoma hornbeat chopclown slabbit boneslave ||
+## (boneslave chopclown esterk goategon hargon hornbeat slabbit zoma)
 }
