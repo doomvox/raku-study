@@ -75,7 +75,8 @@
 *** https://github.com/Raku/problem-solving/issues/506
 **** also 497
 *** Rob has ideas on how to improve the customs
-**** https://en.wikipedia.org/wiki/Chaff
+**** threshing statge to eliminate chaff
+***** https://en.wikipedia.org/wiki/Chaff
 
 ** olden topics from meetings gone by
 *** fron page code example
