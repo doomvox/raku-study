@@ -25,6 +25,7 @@ use v6;
     #        operations are nodal, methods are not (usually).
     #        runs nodemap or deepmap
     #        duckmap is a strange duck-- not related to hyperization
+    #            unless you do a hyper duckmap
 }
 
 say "===";
