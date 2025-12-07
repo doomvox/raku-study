@@ -34,7 +34,7 @@
 **** eight topics
 **** if learning languages is good to stretch you're understanding, then learn different one's: perl, raku
 ***** maybe: need to expect to learn them deeply
-***** e.g. python: deceptive simplistic, not so stupid, but--
+***** e.g. python: not so stupid when used at length, more deceptively simplistic
 *** William Michels at play on dischord
 **** promises
 **** andthen vs or else vs not andthen 
