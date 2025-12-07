@@ -4,6 +4,8 @@
 
 use v6;
 
-my @a = 
+
 my @a = < godzilla grendel wormface blob >;
 @a >> .say;
+
+my @b = [ [ 'a', 'b' ] ,  [ 'c', 'd' ] ];
