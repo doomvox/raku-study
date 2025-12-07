@@ -20,6 +20,13 @@
 ***** explicitly a survey of "students"
 ***** uses the phrase "mistake rate"
 ****** what methodology?  maybe: given tests and graded them 
+***** doesn't mention the sample size-- we can infer it was smal
+***** when they say "syntax" it seems they mean keyword choices
+
+***** six programming languages: 
+****** Ruby, Java, Perl, Python, Randomo, and Quorum
+
+****** "Randomo was designed by randomly choosing some keywords from the ASCII table (a metaphorical placebo). "
 
 ** olden topics from meetings gone by
 *** fron page code example
