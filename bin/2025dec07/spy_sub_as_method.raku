@@ -14,6 +14,6 @@ my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslav
 }
 
 {
-    @monsters.map({ uc($_) if $_ eq "zoma"; $_ }).spy.sort>>.lc.say;    
+    @monsters.map({ uc($_) if $_ eq "zoma"; $_ }).&spy.sort>>.lc.say;    
     sub spy { say $_; $_; }
 }
