@@ -40,6 +40,9 @@
 **** andthen vs or else vs not andthen 
 **** https://github.com/rakudo/rakudo/pull/5917
 **** https://github.com/rakudo/rakudo/issues/5919
+**** https://docs.raku.org/routine/andthen
+**** https://docs.raku.org/routine/notandthen
+**** https://docs.raku.org/routine/orelse
 
 ** olden topics from meetings gone by
 *** fron page code example
