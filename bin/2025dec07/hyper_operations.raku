@@ -20,7 +20,7 @@ use v6;
     # d
 
 
-    # bruce: keeps descending until it hits something that's not an array, and operate on the leaf nodes
+    # bruce: keeps descending until it hits something that's not an array, and operates on the leaf nodes
     #        *unless* the thing you're doing is marked nodal
     #        operations are nodal methods are not (usually).
 }
@@ -34,3 +34,4 @@ say "===";
   # $[[2, 3], [4, 5]]
   # $[[92, 93], [94, 95]]
 }
+
