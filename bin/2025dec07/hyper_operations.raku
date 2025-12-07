@@ -23,7 +23,6 @@ use v6;
     # bruce: keeps descending until it hits something that's not an array, and operate on the leaf nodes
     #        *unless* the thing you're doing is marked nodal
     #        operations are nodal methods are not (usually).
-
 }
 
 {
