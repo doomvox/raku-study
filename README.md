@@ -7,7 +7,7 @@ Upcoming meetings:
 
 *  Sunday December 7, 2025
     *  https://us02web.zoom.us/j/84558416154?pwd=bYS8AYIMdblVUF2QKbH8fAcJrYMAep.1
-  
+
 *  Sunday December 21, 2025
     *  https://us02web.zoom.us/j/82283798015?pwd=HVSTrTGNfyiAwUAoKApEbai2YesA9W.1
 
