@@ -68,6 +68,8 @@
 ****** what does that do
 ****** array of arrays
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025dec07/hyper_operations.raku
+***** Bruce: Real use of `.hyper(:200batch)`:
+****** https://rosettacode.org/wiki/Sphenic_numbers#Raku
 
 ** olden topics from meetings gone by
 *** fron page code example
