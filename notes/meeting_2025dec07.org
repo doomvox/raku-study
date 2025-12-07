@@ -55,7 +55,6 @@ I have four topics easy to hard:
 *** me: back to grammar school
 
 *** Marton on Raku
-
 **** latest: the headache operator
 ***** https://github.com/doomvox/raku-study/discussions/25
 
