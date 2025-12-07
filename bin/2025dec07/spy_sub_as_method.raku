@@ -8,4 +8,4 @@ use v6;
 my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
 
 
-@monsters.map({ uc($_) if $_ eq "zoma" }).sort>>.lc.say;
+@monsters.map({ uc($_) if $_ eq "zoma"; $_ }).sort>>.lc.say;
