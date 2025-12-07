@@ -61,7 +61,10 @@
 *****  https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical
 
 **** Rob
-***** 
+***** double fat is the feed operator ==>
+***** >>  
+****** what does that do
+****** array of arrays
 
 ** olden topics from meetings gone by
 *** fron page code example
