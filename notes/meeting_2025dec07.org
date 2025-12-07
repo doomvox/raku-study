@@ -12,6 +12,7 @@
 
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
+** topics
 
 ** olden topics from meetings gone by
 *** fron page code example
