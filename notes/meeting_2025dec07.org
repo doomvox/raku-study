@@ -13,7 +13,7 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
-** topics
+** olden topics from meetings gone by
 *** fron page code example
 **** topic variable considered harmful -- Damien (?)
 ***** https://github.com/Raku/raku.org/pull/272
