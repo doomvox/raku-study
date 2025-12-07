@@ -6,10 +6,10 @@ use v6;
 
 
 my @a = < godzilla grendel wormface blob >;
-@a >> .say;
+@a>>.say;
 
 my @b = [ [ 'a', 'b' ] ,  [ 'c', 'd' ] ];
-@b >> .@b;
+@b>>.@b;
 
 # bruce: keeps descending until it hits something that's not an array, and operate on the leaf nodes
 #        *unless* the thing you're doing is marked nodal
