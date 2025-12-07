@@ -60,6 +60,9 @@
 ***** "I have spent the last week in the hell of async/io implementations and the infamous function coloring rant"
 *****  https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical
 
+**** Rob
+***** 
+
 ** olden topics from meetings gone by
 *** fron page code example
 **** topic variable considered harmful -- Damien (?)
