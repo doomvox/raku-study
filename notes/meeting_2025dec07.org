@@ -25,6 +25,8 @@
 ***** six programming languages: 
 ****** Ruby, Java, Perl, Python, Randomo, and Quorum
 ****** "Randomo was designed by randomly choosing some keywords from the ASCII table (a metaphorical placebo)."
+**** Q: Raku would be in the competing set to C-like things such as Perl, right?
+
 
 ** olden topics from meetings gone by
 *** fron page code example
