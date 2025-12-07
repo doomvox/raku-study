@@ -25,6 +25,7 @@ use v6;
     #        operations are nodal methods are not (usually).
 }
 
+say "===";
 {
     my @a = [[1,2],[3,4]], [[91,92],[93,94]];
     my @b = @a>>.succ;
