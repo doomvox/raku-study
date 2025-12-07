@@ -27,6 +27,8 @@
 ****** "Randomo was designed by randomly choosing some keywords from the ASCII table (a metaphorical placebo)."
 **** Raku would be in the competing set to C-like things such as Perl, right?
 
+*** grammar to parse org-mode files
+**** 
 
 ** olden topics from meetings gone by
 *** fron page code example
