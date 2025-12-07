@@ -49,6 +49,7 @@
 **** Anton "Monadic programming examples"
 ***** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025dec07.org 
 ***** comparisons used of andthen and feed operator. 
+****** See Uniform Function Call Syntax (UFCS)
 
 **** Bill's examples of use of anthen
 ***** https://unix.stackexchange.com/search?q=user%3A227738+andthen
