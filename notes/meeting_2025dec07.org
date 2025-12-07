@@ -30,8 +30,8 @@
 *** grammar to parse org-mode files
 **** (like to do more work on this first-- but might be up to the hand-wave level)
 
-
-
+*** anton
+**** eight topics
 
 ** olden topics from meetings gone by
 *** fron page code example
@@ -55,6 +55,7 @@ I have four topics easy to hard:
 *** Marton on Raku
 **** latest: the headache operator
 ***** https://github.com/doomvox/raku-study/discussions/25
+
 
 
 ** old topics
