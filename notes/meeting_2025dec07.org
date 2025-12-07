@@ -73,7 +73,7 @@
 
 ** discussion about time-- example of discussion customs not quite working right
 *** https://github.com/Raku/problem-solving/issues/506
-*** Rob has ideas on how to improve 
+*** Rob has ideas on how to improve the customs
 
 ** olden topics from meetings gone by
 *** fron page code example
