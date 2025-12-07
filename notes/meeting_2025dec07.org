@@ -71,6 +71,10 @@
 ***** Bruce: Real use of `.hyper(:200batch)`:
 ****** https://rosettacode.org/wiki/Sphenic_numbers#Raku
 
+** discussion about time-- example of discussion customs not quite working right
+*** https://github.com/Raku/problem-solving/issues/506
+*** Rob has ideas on how to improve 
+
 ** olden topics from meetings gone by
 *** fron page code example
 **** topic variable considered harmful -- Damien (?)
