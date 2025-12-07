@@ -7,6 +7,10 @@ use v6;
 
 my @a = < godzilla grendel wormface blob >;
 @a>>.say;
+# godzilla
+# grendel
+# wormface
+# blob
 
 my @b = [ [ 'a', 'b' ] ,  [ 'c', 'd' ] ];
 @b>>.@b;
