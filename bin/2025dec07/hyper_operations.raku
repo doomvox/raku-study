@@ -14,6 +14,11 @@ my @a = < godzilla grendel wormface blob >;
 
 my @b = [ [ 'a', 'b' ] ,  [ 'c', 'd' ] ];
 @b>>.say;
+# a
+# b
+# c
+# d
+
 
 # bruce: keeps descending until it hits something that's not an array, and operate on the leaf nodes
 #        *unless* the thing you're doing is marked nodal
