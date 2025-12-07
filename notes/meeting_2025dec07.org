@@ -37,6 +37,8 @@
 **** promises
 **** andthen vs or else vs not andthen 
 
+
+
 ** olden topics from meetings gone by
 *** fron page code example
 **** topic variable considered harmful -- Damien (?)
