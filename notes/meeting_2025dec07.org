@@ -44,6 +44,11 @@
 **** https://docs.raku.org/routine/notandthen
 **** https://docs.raku.org/routine/orelse
 
+**** Anton "Monadic programming examples"
+***** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025dec07.org 
+
+***** comparisons used of andthen and feed operator. 
+
 ** olden topics from meetings gone by
 *** fron page code example
 **** topic variable considered harmful -- Damien (?)
