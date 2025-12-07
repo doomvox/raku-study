@@ -9,3 +9,4 @@ my @a = < godzilla grendel wormface blob >;
 @a >> .say;
 
 my @b = [ [ 'a', 'b' ] ,  [ 'c', 'd' ] ];
+@b >> .@b;
