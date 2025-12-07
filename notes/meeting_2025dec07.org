@@ -73,7 +73,7 @@
 
 ** discussion about time-- example of discussion customs not quite working right
 *** https://github.com/Raku/problem-solving/issues/506
-**** also 497?
+**** also 497
 *** Rob has ideas on how to improve the customs
 **** https://en.wikipedia.org/wiki/Chaff
 
