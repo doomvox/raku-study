@@ -1,0 +1,272 @@
+* meeting notes December 07, 2025
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025nov16.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025nov16
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025oct05.org 
+
+***** group discussions at github
+****** https://github.com/doomvox/raku-study/discussions 
+
+** topics
+*** fron page code example
+**** topic variable considered harmful -- Damien (?)
+***** https://github.com/Raku/raku.org/pull/272
+***** my uniformed take
+****** Damien has an obsession with bullet-proof encapsulation
+****** perl programmers don't care
+******* encapsulation can make debugging difficult
+****** CS people prone to "one true way!", but they never hold up
+****** anton a recovered monad believer
+******* https://rakuforprediction.wordpress.com/2025/11/16/monad-laws-in-raku/
+ 
+*** Anton topics
+I have four topics easy to hard:
+1) Code highlighting: Raku vs LLMs
+2) LLM-graphs for using parser-interpreter fallback structures
+3) Recommender systems in Raku
+4) Sparse matrix computation performance comparison between Raku and Python
+
+
+
+*** me: back to grammar school
+
+*** Marton on Raku
+
+**** latest: the headache operator
+***** https://github.com/doomvox/raku-study/discussions/25
+
+*** bruce 
+**** on weekly challenge
+**** rosetta
+
+** old topics
+
+*** meeting scheduling change:
+**** Oct 19, 2025  (CANCELED-- sorry, busy traveling)
+**** Nov 2, 2025   (From Seoul -- also CANCELED, argh)
+
+*** Anton: how to do a search index using LLM-style software (e.g. LLM::Graph)
+**** The search process I have in mind is explained here: 
+**** https://github.com/antononcube/EconomicsAI
+**** htmx+Air+Red+Cro
+***** Marton:
+****** Red is the "big Raku ORM",
+****** Cro is the "big Raku web Framework", 
+****** Air is his own thing (not sure what it does) and 
+****** htmx is some sort of common html templating system
+
+**** zeromq 
+***** ipc between emacs and other processes?
+***** alternate to roll-your-own
+
+**** uses vscodium 
+***** opensourcified visual studio
+***** anton uses his own JavaScript::D3 package 
+****** dynamic, interactive graphs
+****** better than Javascript::Google::Charts for this
+****** Tim mentions Vega, Vega-light
+
+*** raku and zef
+**** Tried this, but NG:
+zef install LLM::Graph --exclude="JSON::Fast"
+
+**** This worked:
+zef install LLM::Graph --exclude="JSON::Fast:ver<0.19+>"
+
+**** Bad messaging from zef (hint doesn't work at all):
+===> Failed to find dependencies: JSON::Fast:ver<0.19+>
+Failed to resolve some missing dependencies (use e.g. --exclude="JSON::Fast" to skip)
+
+**** by the way, I have *a* version of JSON::Fast
+zef install JSON::Fast
+All candidates are currently installedg
+
+**** mainstream application, though not often studied
+***** raku docs, partition it in a meaninful way, query it
+***** the vector database is smaller, can be shared
+****** outside of zef, need to install
+******* graphviz
+******* h20
+******** to what degree should you automate installation
+****** tim: uv for python package management (maybe)
+******* nix os on mac
+******** e.g. used by a guy on raku dischord: rcmlz
+******* jupyter install not easy
+******** Raku Jupyter::Chatbook
+******* docker
+******** usually waste
+********* time (Anton)
+********* memory (Tim)
+****** TODO write an org-mode grammar
+******* follow Raku-Markdown-Grammar as example
+
+***** rshiney, hark 
+****** shiney translates to javascript from R
+******* webapps in R
+******* would be nice to have something like this for Raku
+******** "homework"
+******** cro-based ?
+
+***** vector database, published and queried separately?
+
+***** mit study: 95% of LLM stuff is prototype, not going to production
+****** https://www.forbes.com/sites/jasonsnyder/2025/08/26/mit-finds-95-of-genai-pilots-fail-because-companies-avoid-friction/
+****** actual study might be better to read
+******* https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai_report_2025.pdf
+
+***** anton: llms energy intensive, 
+****** but you can do a lot with grammar technology of raku, 
+****** reduce usage of LLM to where needed
+
+***** More from anton:
+****** code packages
+******* https://github.com/antononcube
+****** videos
+******* https://www.youtube.com/@AAA4prediction
+****** scripts to simplify installation
+******* https://github.com/antononcube/RakuForPrediction-book/tree/main/scripts
+****** Robust LLM pipelines (Mathematica, Python, Raku) 
+******* https://www.youtube.com/watch?v=QOsVTCQZq_s
+
+
+*** tiobe september (rob)
+**** perl is in the top 10
+***** so maybe raku should keep an eye on that audience
+**** tiobe works on stackexchange searches
+***** so the older anti-llm crowd are over-repped (anton theory)
+
+*** TODO note to self:
+**** look up the paper claiming people swearing by chatgpt advice are delusional
+
+*** Bill brings up a one-liner from dischord
+**** 
+
+raku -e 'say q:format/%s/(42)'
+
+
+raku -e '.say for lines.grep({ /^<alpha>+$/ and .chars == 4 }).classify(*.lc.substr(0,1)).map(*.value.pick).map({ $_ xx (1..3).pick }).flat.pick(*);' unixdict.txt
+
+
+.&some_routine
+
+some_routine( 'function ja?' );
+
+**** "Sac Tech Social"
+***** gathering in the sac area
+***** sacramento slack
+****** Sac-tech.com
+****** also on meetup
+
+https://obsidianrook.com/doomfiles/SOUL_SO_DEAD.html
+
+
+** old topics (TODO TRIM)
+
+*** Everything about monads: 
+**** https://www.youtube.com/watch?v=Xz5B4B0kVco
+*** Anton Antonov's visualizations:
+**** https://rakuforprediction.wordpress.com/2025/05/25/collatz-conjecture-visualizations/
+
+
+
+*** "Surfaces and Essences" by Douglas Hofstadter and Emmanuel Sander
+**** Tim Schafer pick
+**** using analogies to understand
+
+
+** even older (TODO TRIM)
+
+*** grep URI line from file and trim trailing '#' comment
+**** https://unix.stackexchange.com/questions/799195/remove-new-lines-and-everything-after-comment-symbol-with-awk-or-sed
+**** raku answer from jubilatious1 
+#+BEGIN_SRC sh
+ raku -ne 'print S/ \h+ \# <-[#]>+ $$ //;  file
+#+END_SRC 
+#+BEGIN_SRC sh
+ raku -ne '.subst(/ \h+ \# <-[#]>+ $$ /).print;'  file
+#+END_SRC 
+***** note: the \h+ requires leading whitespace in front of the comment character
+***** made the cut for the rakudo weekly
+****** https://rakudoweekly.blog/2025/09/01/2025-35-sensitive-data/
+
+*** async in raku and python
+**** https://www.reddit.com/r/rakulang/comments/1n8hjrr/async_in_raku_vs_python/
+
+** and topics from the forgotten folds of time
+*** some of my many open projects:
+**** links I expect to use again some day
+****** duckmap examples are here:
+******* https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
+****** Subtitle parsing (a subject I'll revive some day):
+******* https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
+
+
+*** knuth 'concrete mathematics"
+**** bruce gray's favorite math book
+**** https://archive.org/details/concrete-mathematics
+
+*** anton subject:
+**** Raku introspection nice for LLM implementations
+**** open AI, LLM providers, release packages in python
+***** python has *some* introspection
+
+*** our friend the monad (tim and anton)
+**** Marton: "Promises in Javascript are 'impure' monads" 
+**** Anton: "glorified decorator pattern"
+**** Raku "feed" operators similar (not consistent)
+**** "in raku you can make monads that define your grammars"
+**** Everything about monads: 
+***** https://www.youtube.com/watch?v=Xz5B4B0kVco
+
+*** "is item" trait
+**** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
+***** The is item trait can be used on @ and % sigilled parameters 
+****** positional or associative is acceptable in dispatch if it is presented as an item
+****** just a "tie-breaker": should always also a dispatch candidate that accepts when not itemized
+#+BEGIN_SRC raku
+multi sub foo(@a)         { say "array" }
+multi sub foo(@a is item) { say "item"  }
+foo  [1,2,3];  # array
+foo $[1,2,3];  # item
+#+END_SRC 
+****** Q: what is this for, really?
+******* things that are "itemized" don't iterate, e.g. $(1,2,3) vs (1,2,3)
+
+** follow-up
+*** next time
+**** before starting meeting, warm-up on "advanced" screen sharing
+**** increase the font size in emacs
+
+*** TODO doc problems
+**** https://docs.raku.org/routine/duckmap
+**** Rat?  Not Numeric?
+**** Why changed data with changed code?
+**** Possibly, better examples?
+
+*** TODO start a people file already 
+**** farley
+***** apogee == matt dowdy
+***** librasteve == steve rowe
+***** jubilatious1 == william michels
+***** util == bruce gray
+***** 2colours == Marton Polgar  (with accented 'a' s)
+***** doom == doomvox == tailorpaul == joseph brenner == me
+***** antonov == anton antonov
+
+
+** announcements 
+*** next meetings
+**** Oct  5, 2025
+**** Oct 19, 2025  (CANCELED-- sorry, busy traveling)
+**** Nov 2, 2025   (From Seoul)  (CANCELED)
+**** Nov 16, 2025  (held it!)
+**** Dec 7, 2025     (three week gap, to get past thanksgiving weekend)
+**** Dec 21, 2025
+**** Jan  4, 2025
+**** Jan  18, 2025
