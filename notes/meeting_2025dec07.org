@@ -26,6 +26,8 @@
 ****** Ruby, Java, Perl, Python, Randomo, and Quorum
 ****** "Randomo was designed by randomly choosing some keywords from the ASCII table (a metaphorical placebo)."
 **** Raku would be in the competing set to C-like things such as Perl, right?
+**** The paper
+***** https://www.vidarholen.net/~vidar/An_Empirical_Investigation_into_Programming_Language_Syntax.pdf
 
 *** grammar to parse org-mode files
 **** (like to do more work on this first-- but might be up to the hand-wave level)
@@ -40,7 +42,7 @@
 **** andthen vs or else vs not andthen 
 **** https://github.com/rakudo/rakudo/pull/5917
 **** https://github.com/rakudo/rakudo/issues/5919
-
+b
 **** docs:
 ***** https://docs.raku.org/routine/andthen
 ***** https://docs.raku.org/routine/notandthen
