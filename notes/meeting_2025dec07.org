@@ -280,7 +280,6 @@ All candidates are currently installedg
 **** tiobe works on stackexchange searches
 ***** so the older anti-llm crowd are over-repped (anton theory)
 
-
 *** Using .& (William Michels) 
 **** one-liner from dischord
 #+BEGIN_SRC sh
