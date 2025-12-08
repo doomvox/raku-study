@@ -284,8 +284,6 @@ All candidates are currently installedg
 **** tiobe works on stackexchange searches
 ***** so the older anti-llm crowd are over-repped (anton theory)
 
-*** TODO note to self:
-**** look up the paper claiming people swearing by chatgpt advice are delusional
 
 *** Using .& (William Michels) 
 **** one-liner from dischord
@@ -388,6 +386,10 @@ foo $[1,2,3];  # item
 ***** 2colours == Marton Polgar  (with accented 'a' s)
 ***** doom == doomvox == tailorpaul == joseph brenner == me
 ***** antonov == anton antonov
+
+*** TODO
+**** look up the paper claiming people swearing by chatgpt advice are delusional
+
 
 
 ** announcements 
