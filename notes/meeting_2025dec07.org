@@ -112,7 +112,6 @@ Bruce Gray:
 	raku -e 'my @a; .say for @a.&wish-it-was-parallel;'
 	raku -e 'my @a; .say for @a.hyper.&wish-it-was-parallel;'
 	raku -e 'my @a; .say for @a.hyper( :batch(16), :degree(2) ).&wish-it-was-parallel;'
-
 #+END_SRC
 
 	
