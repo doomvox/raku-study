@@ -364,7 +364,7 @@ https://obsidianrook.com/doomfiles/SOUL_SO_DEAD.html
 **** Anton: "glorified decorator pattern"
 **** Raku "feed" operators similar (not consistent)
 **** "in raku you can make monads that define your grammars"
-**** Everything about monads: 
+**** TODO Everything about monads: 
 ***** https://www.youtube.com/watch?v=Xz5B4B0kVco
 
 *** "is item" trait
