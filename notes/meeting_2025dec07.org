@@ -122,13 +122,12 @@ Bruce Gray:
 ******** https://docs.raku.org/language/syntax#Method-like_function_calls_&_function-like_method_calls
 ******** https://docs.raku.org/language/operators#methodop_.&
 	
-	Also, a trick I had forgotten about, from the end of
-        https://docs.raku.org/language/operators#Hyper_operators
-
-can allow you to concisely adapt a nodal method to be non-nodal:
-	    say (<a b>, <c d e>)».elems;        # OUTPUT: «(2 3)␤»
-	    say (<a b>, <c d e>)».&{ .elems };  # OUTPUT: «((1 1) (1 1 1))␤»
-
+******** .& to concisely adapt a nodal method to be non-nodal, a trick from the end of:
+********* https://docs.raku.org/language/operators#Hyper_operators
+#+BEGIN_SRC raku 
+  say (<a b>, <c d e>)».elems;        # OUTPUT: «(2 3)␤»
+  say (<a b>, <c d e>)».&{ .elems };  # OUTPUT: «((1 1) (1 1 1))␤»
+#+END_SRC
 
 
 ** discussion about time-- example of discussion customs not quite working right
