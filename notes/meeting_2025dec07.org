@@ -65,8 +65,8 @@
 **** Márton: thunkiness
 ***** the property of the  andthen  operator that makes it so special is called "thunkiness" in Raku terms, same as the smartmatch or && or ||
 
-
-
+**** R and A history (William Michels):
+***** https://bookdown.org/rdpeng/rprogdatascience/history-and-overview-of-r.html
 
 **** Marton
 ***** "I have spent the last week in the hell of async/io implementations and the infamous function coloring rant"
@@ -105,6 +105,16 @@
 	
 2025-12-07 14:09:28 From Bruce Gray To Everyone:
 	raku -e 'my @a = [[1,2],[3,4]], [[91,92],[93,94]]; my @b = @a>>.succ; say .raku for @b;'
+
+2025-12-07 14:45:56 From Bruce Gray To Everyone:
+	.& is documented here:
+	https://docs.raku.org/language/syntax#Method-like_function_calls_&_function-like_method_calls
+	https://docs.raku.org/language/operators#methodop_.&
+	
+	Also, a trick I had forgotten about, from the end of https://docs.raku.org/language/operators#Hyper_operators , can allow you to concisely adapt a nodal method to be non-nodal:
+	    say (<a b>, <c d e>)».elems;        # OUTPUT: «(2 3)␤»
+	    say (<a b>, <c d e>)».&{ .elems };  # OUTPUT: «((1 1) (1 1 1))␤»
+
 
 
 ** discussion about time-- example of discussion customs not quite working right
