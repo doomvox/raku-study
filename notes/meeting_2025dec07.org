@@ -86,6 +86,8 @@ b
 ** Rob questions
 *** any opinions on Red
 *** constant defined from a BEGIN
+**** bruce approach:
+***** constant $FOO = BEGIN { ... };
 
 ** olden topics from meetings gone by
 *** fron page code example
