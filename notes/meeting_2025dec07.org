@@ -287,8 +287,8 @@ All candidates are currently installedg
 *** TODO note to self:
 **** look up the paper claiming people swearing by chatgpt advice are delusional
 
-*** Bill brings up a one-liner from dischord
-**** 
+*** Using .& (Bill) 
+**** one-liner from dischord
 #+BEGIN_SRC sh
 raku -e 'say q:format/%s/(42)'
 
