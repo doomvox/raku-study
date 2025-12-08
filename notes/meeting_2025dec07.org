@@ -56,7 +56,6 @@ Bruce Gray:
 ******* Seqs that aren't sunk, will not run 
 ******** https://github.com/rakudo/rakudo/issues/5976
 
-
 **** Anton: if learning languages is good to stretch you're understanding, then learn different one's: perl, raku
 ***** maybe: need to expect to learn them deeply
 ***** e.g. python: not so stupid when used for a larger project, more "deceptively simplistic"
