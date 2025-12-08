@@ -74,7 +74,7 @@
 ******* the phrase "culturual conservatism" here means mainly "resistant to change"
 ******** but also: too many rude insiders who think they're experts
 ********* (and that's why the linux kernel project has been such a flop)
-
+******** my take: this is a "if only everyone had done what I thought they should"
 
 **** Rob
 ***** double fat is the feed operator ==>
