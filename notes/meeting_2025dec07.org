@@ -88,6 +88,8 @@ b
 *** constant defined from a BEGIN
 **** bruce approach:
 ***** constant $FOO = BEGIN { ... };
+**** bill: can you use state with a constant to expand it's scope?
+***** bruce thinks not
 
 ** olden topics from meetings gone by
 *** fron page code example
