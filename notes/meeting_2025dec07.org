@@ -398,11 +398,6 @@ foo $[1,2,3];  # item
 
 ** announcements 
 *** next meetings
-**** Oct  5, 2025
-**** Oct 19, 2025  (CANCELED-- sorry, busy traveling)
-**** Nov 2, 2025   (From Seoul)  (CANCELED)
-**** Nov 16, 2025  (held it!)
-**** Dec 7, 2025     (three week gap, to get past thanksgiving weekend)
 **** Dec 21, 2025
 **** Jan  4, 2025
 **** Jan  18, 2025
