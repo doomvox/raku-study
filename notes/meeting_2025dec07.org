@@ -129,7 +129,6 @@ Bruce Gray:
   say (<a b>, <c d e>)».&{ .elems };  # OUTPUT: «((1 1) (1 1 1))␤»
 #+END_SRC
 
-
 ** discussion about time-- example of discussion customs not quite working right
 *** https://github.com/Raku/problem-solving/issues/506
 **** also 497
