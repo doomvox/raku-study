@@ -49,6 +49,14 @@ Anton Antonov:
 Bruce Gray:
 	sink my @words1 = random-pet-name(*)».lc.grep(* ~~ / ^ perl /);
 
+****** sink
+******* Anton's code examples in Jupyter Notebooks often lead with "sink"
+******* A small hack to deal with the introduced scope of code embedded in a doc
+
+******* Seqs that aren't sunk, will not run 
+******** https://github.com/rakudo/rakudo/issues/5976
+
+
 **** Anton: if learning languages is good to stretch you're understanding, then learn different one's: perl, raku
 ***** maybe: need to expect to learn them deeply
 ***** e.g. python: not so stupid when used for a larger project, more "deceptively simplistic"
