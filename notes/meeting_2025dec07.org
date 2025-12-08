@@ -82,7 +82,6 @@ b
 *** missing a "temporal" base class-- 
 **** thoughts on refactoring by disconnecting classes from inheritence tree (?) 
 
-
 ** a few Rob questions
 *** any opinions on Red
 *** can you do multiple constants defined from a BEGIN
