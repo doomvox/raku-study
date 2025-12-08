@@ -124,18 +124,17 @@
 *** missing a "temporal" base class-- 
 **** thoughts on refactoring by disconnecting classes from inheritence tree (?) 
 
-** a few Rob questions
-*** any opinions on Red
-*** can you do multiple constants defined from a BEGIN
-**** note the my style doesn't work with constant
-***** my ($a, $b, $c);
-**** bruce approach:
-***** constant $FOO = BEGIN { ... };
-**** bill: can you use state with a constant to expand it's scope?
-***** bruce thinks not
-**** but then constants are always defined at compile time like begin
-**** maybe some tricks with the binding operator?
-**** maybe an enum trick
+** Rob: any opinions on Red?
+** can you do multiple constants defined from a BEGIN (Rob)
+*** note the my style doesn't work with constant
+**** my ($a, $b, $c);
+*** bruce approach:
+**** constant $FOO = BEGIN { ... };
+*** bill: can you use state with a constant to expand it's scope?
+**** bruce thinks not
+*** but then constants are always defined at compile time like begin
+*** maybe some tricks with the binding operator?
+*** maybe an enum trick
 
 ** olden topics from meetings gone by
 *** fron page code example
