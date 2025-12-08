@@ -94,7 +94,7 @@ b
 ***** bruce thinks not
 **** but then constants are always defined at compile time like begin
 **** maybe some tricks with the binding operator?
-**** maybe an enum trick?
+**** maybe an enum trick
 
 ** olden topics from meetings gone by
 *** fron page code example
