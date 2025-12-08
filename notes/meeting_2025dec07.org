@@ -38,6 +38,14 @@
 ****** https://rakuforprediction.wordpress.com/2025/11/16/monad-laws-in-raku/
 ****** https://github.com/antononcube/RakuForPrediction-blog/blob/main/Notebooks/Jupyter/Monadic-programming-examples.ipynb
 
+Anton Antonov:
+	Well the argument I was looking for is  species :
+	random-pet-name(5, species =>'dog')
+	# (Archer Cody Daisy Sheldon Dosa)
+
+Bruce Gray To Everyone:
+	sink my @words1 = random-pet-name(*)».lc.grep(* ~~ / ^ perl /);
+
 **** Anton: if learning languages is good to stretch you're understanding, then learn different one's: perl, raku
 ***** maybe: need to expect to learn them deeply
 ***** e.g. python: not so stupid when used for a larger project, more "deceptively simplistic"
