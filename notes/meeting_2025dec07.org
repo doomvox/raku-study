@@ -67,7 +67,13 @@
 
 **** Marton
 ***** "I have spent the last week in the hell of async/io implementations and the infamous function coloring rant"
-*****  https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical
+
+***** a claim perl's design was because of an in-built 'cultural conservatism'
+******  https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical
+******* my take: the author sees what they want to see and cherry-picks evidence
+******* the phrase "culturual conservatism" here means mainly "resistant to change"
+******** the claim is also is lots of rude insiders who think they're experts
+********* (yes that's why the linux kernel project has been such a flop)
 
 **** Rob
 ***** double fat is the feed operator ==>
