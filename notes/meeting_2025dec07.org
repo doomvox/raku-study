@@ -40,7 +40,7 @@
 
 **** Anton: if learning languages is good to stretch you're understanding, then learn different one's: perl, raku
 ***** maybe: need to expect to learn them deeply
-***** e.g. python: not so stupid when used at length, more deceptively simplistic
+***** e.g. python: not so stupid when used for a larger project, more "deceptively simplistic"
 
 *** and then... "andthen"
 **** andthen vs the feed operator:  ==>
