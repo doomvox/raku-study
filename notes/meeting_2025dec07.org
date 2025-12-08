@@ -124,8 +124,8 @@
 *** missing a "temporal" base class-- 
 **** thoughts on refactoring by disconnecting classes from inheritence tree (?) 
 
-** Rob: any opinions on Red?
-** can you do multiple constants defined from a BEGIN (Rob)
+** Any opinions on Red? (Rob)
+** Can you do multiple constants defined from a BEGIN (Rob)
 *** note the my style doesn't work with constant
 **** my ($a, $b, $c);
 *** bruce approach:
