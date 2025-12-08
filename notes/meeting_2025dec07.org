@@ -97,6 +97,15 @@
 ***** Marton: "Semantics of hyper metaoperators - direction, "dwimminess", dimensions, etc"
 ****** https://github.com/Raku/problem-solving/issues/346
 
+2025-12-07 14:05:23 From Bruce Gray To Everyone:
+	(Untested; from memory):
+	raku -e 'my @a; .say for @a.&wish-it-was-parallel;'
+	raku -e 'my @a; .say for @a.hyper.&wish-it-was-parallel;'
+	raku -e 'my @a; .say for @a.hyper( :batch(16), :degree(2) ).&wish-it-was-parallel;'
+	
+2025-12-07 14:09:28 From Bruce Gray To Everyone:
+	raku -e 'my @a = [[1,2],[3,4]], [[91,92],[93,94]]; my @b = @a>>.succ; say .raku for @b;'
+
 
 ** discussion about time-- example of discussion customs not quite working right
 *** https://github.com/Raku/problem-solving/issues/506
