@@ -68,7 +68,7 @@
 **** Marton
 ***** "I have spent the last week in the hell of async/io implementations and the infamous function coloring rant"
 
-***** a claim perl's design was because of an in-built 'cultural conservatism'
+***** posts a link to a claim perl's design was because of an in-built 'cultural conservatism'
 ******  https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical
 ******* my take: the author sees what they want to see and cherry-picks evidence
 ******** ignores other evident effects in play, like self-choking success--
