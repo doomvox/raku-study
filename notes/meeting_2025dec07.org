@@ -92,6 +92,7 @@ b
 ***** bruce thinks not
 **** but then constants are always defined at compile time like begin
 
+
 ** olden topics from meetings gone by
 *** fron page code example
 **** topic variable considered harmful -- Damien (?)
