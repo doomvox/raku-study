@@ -74,6 +74,10 @@
 ******** ignores other evident effects in play, like self-choking success--
 ********* an overheated language sees a lot of random, redundant development 
 ********** sorting through it all is a non-trivial problem
+******** and my own pick: the sneerfest from CS insiders
+********* for years slashdot buzz was 
+********** "look he said perl!  We have to say python!  Python Python Python!"
+
 ******* the phrase "culturual conservatism" here means mainly "resistant to change"
 ******** but also: too many rude insiders who think they're experts
 ********* (and that's why the linux kernel project has been such a flop)
