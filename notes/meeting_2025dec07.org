@@ -289,16 +289,16 @@ All candidates are currently installedg
 
 *** Bill brings up a one-liner from dischord
 **** 
-
+#+BEGIN_SRC raku
 raku -e 'say q:format/%s/(42)'
 
 
 raku -e '.say for lines.grep({ /^<alpha>+$/ and .chars == 4 }).classify(*.lc.substr(0,1)).map(*.value.pick).map({ $_ xx (1..3).pick }).flat.pick(*);' unixdict.txt
 
-
 .&some_routine
 
 some_routine( 'function ja?' );
+#+END_SRC
 
 *** TODO Everything about monads: 
 **** https://www.youtube.com/watch?v=Xz5B4B0kVco
