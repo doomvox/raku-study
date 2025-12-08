@@ -60,7 +60,6 @@
 ****** https://tour.dlang.org/tour/en/gems/uniform-function-call-syntax-ufcs
 **** Bill: Brian Duggan post on the use of the ==> feed operator: 
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2025/09/msg11510.html
-
 **** Bill's examples of use of anthen
 ***** https://unix.stackexchange.com/search?q=user%3A227738+andthen
 
