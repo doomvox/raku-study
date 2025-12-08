@@ -141,7 +141,7 @@ Bruce Gray:
 **** my ($a, $b, $c);
 *** bruce approach:
 #+BEGIN_SRC raku
-constant $FOO = BEGIN { ... };
+  constant $FOO = BEGIN { ... };
 #+END_SRC
 *** bill: can you use state with a constant to expand it's scope?
 **** bruce thinks not
