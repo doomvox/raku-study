@@ -107,12 +107,14 @@ Bruce Gray:
 ****** https://rosettacode.org/wiki/Sphenic_numbers#Raku
 ***** Marton: "Semantics of hyper metaoperators - direction, "dwimminess", dimensions, etc"
 ****** https://github.com/Raku/problem-solving/issues/346
-
-2025-12-07 14:05:23 From Bruce Gray To Everyone:
-	(Untested; from memory):
+******* Bruce Gray (Untested; from memory):
+#+BEGIN_SRC sh
 	raku -e 'my @a; .say for @a.&wish-it-was-parallel;'
 	raku -e 'my @a; .say for @a.hyper.&wish-it-was-parallel;'
 	raku -e 'my @a; .say for @a.hyper( :batch(16), :degree(2) ).&wish-it-was-parallel;'
+
+#+END_SRC
+
 	
 2025-12-07 14:09:28 From Bruce Gray To Everyone:
 	raku -e 'my @a = [[1,2],[3,4]], [[91,92],[93,94]]; my @b = @a>>.succ; say .raku for @b;'
