@@ -4,6 +4,8 @@
 
 use v6;
 
+## Groping (unsuccesfully) for a good example of "spy" and the "&." feature
+
 
 my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
 
