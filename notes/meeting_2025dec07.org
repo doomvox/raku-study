@@ -318,18 +318,8 @@ some_routine( 'function ja?' );
 *** async in raku and python
 **** https://www.reddit.com/r/rakulang/comments/1n8hjrr/async_in_raku_vs_python/
 
-** and topics from the forgotten folds of time
-*** some of my many open projects:
-**** links I expect to use again some day
-****** duckmap examples are here:
-******* https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
-****** Subtitle parsing
-******* https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
 
 
-*** knuth 'concrete mathematics"
-**** bruce gray's favorite math book
-**** https://archive.org/details/concrete-mathematics
 
 *** anton subject:
 **** Raku introspection nice for LLM implementations
@@ -357,6 +347,23 @@ foo $[1,2,3];  # item
 #+END_SRC 
 ****** Q: what is this for, really?
 ******* things that are "itemized" don't iterate, e.g. $(1,2,3) vs (1,2,3)
+
+*** knuth 'concrete mathematics"
+**** bruce gray's favorite math book
+**** https://archive.org/details/concrete-mathematics
+
+
+*** some of my many open projects:
+**** links I expect to use again some day
+****** duckmap examples are here:
+******* https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
+****** Subtitle parsing
+******* https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
+
+
+
+
+
 
 ** follow-up
 *** next time
