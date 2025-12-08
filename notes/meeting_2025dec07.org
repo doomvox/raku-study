@@ -55,10 +55,6 @@
 ***** See Uniform Function Call Syntax (UFCS)
 ****** https://tour.dlang.org/tour/en/gems/uniform-function-call-syntax-ufcs
 
-**** docs:
-***** https://docs.raku.org/routine/andthen
-***** https://docs.raku.org/routine/notandthen
-***** https://docs.raku.org/routine/orelse
 
 
 **** Bill's examples of use of anthen
