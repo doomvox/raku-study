@@ -356,7 +356,7 @@ https://obsidianrook.com/doomfiles/SOUL_SO_DEAD.html
 
 *** anton subject:
 **** Raku introspection nice for LLM implementations
-**** open AI, LLM providers, release packages in python
+**** OpenAI, LLM providers, release packages in python
 ***** python has *some* introspection
 
 *** our friend the monad (tim and anton)
