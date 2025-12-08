@@ -19,7 +19,7 @@
 **** the abstract: 
 ***** explicitly a survey of "students"
 ***** uses the phrase "mistake rate"
-****** what methodology?  maybe: given tests and graded them 
+****** what methodology?  maybe: graded tests
 ***** doesn't mention the sample size-- we can infer it was small
 ***** when they say "syntax" it seems they mean keyword choices
 ***** six programming languages: 
