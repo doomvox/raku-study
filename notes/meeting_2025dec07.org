@@ -83,7 +83,7 @@ b
 **** thoughts on refactoring by disconnecting classes from inheritence tree (?) 
 
 
-** Rob questions
+** a few Rob questions
 *** any opinions on Red
 *** constant defined from a BEGIN
 **** bruce approach:
