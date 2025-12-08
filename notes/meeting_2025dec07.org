@@ -145,7 +145,8 @@ Bruce Gray:
 *** missing a "temporal" base class-- 
 **** thoughts on refactoring by disconnecting classes from inheritence tree (?) 
 
-** Any opinions on Red? (Rob)
+** Any opinions on Red / Cro? (Rob)
+*** https://raku-advent.blog/2019/12/02/crud-cro-http-tutorial/
 ** Can you do multiple constants defined from a BEGIN (Rob)
 *** note the my style doesn't work with constant
 **** my ($a, $b, $c);
