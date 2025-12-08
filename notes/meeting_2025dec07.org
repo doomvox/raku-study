@@ -94,8 +94,8 @@
 ****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025dec07/hyper_operations.raku
 ***** Bruce: Real use of `.hyper(:200batch)`:
 ****** https://rosettacode.org/wiki/Sphenic_numbers#Raku
-***** Marton: 
-https://github.com/Raku/problem-solving/issues/346
+***** Marton: "Semantics of hyper metaoperators - direction, "dwimminess", dimensions, etc"
+****** https://github.com/Raku/problem-solving/issues/346
 
 
 ** discussion about time-- example of discussion customs not quite working right
