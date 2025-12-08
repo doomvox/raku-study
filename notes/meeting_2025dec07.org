@@ -85,7 +85,7 @@ b
 
 ** a few Rob questions
 *** any opinions on Red
-*** mutliple constants defined from a BEGIN
+*** can you do multiple constants defined from a BEGIN
 **** note the my style doesn't work with constant
 ***** my ($a, $b, $c);
 **** bruce approach:
