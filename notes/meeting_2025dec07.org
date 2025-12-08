@@ -42,6 +42,9 @@
 ***** maybe: need to expect to learn them deeply
 ***** e.g. python: not so stupid when used at length, more deceptively simplistic
 
+*** and then... andthen
+**** and the feed operator:  ==>
+
 *** William Michels at play on dischord
 **** promises
 **** andthen vs or else vs not andthen 
