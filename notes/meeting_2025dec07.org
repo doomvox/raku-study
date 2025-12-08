@@ -90,6 +90,7 @@ b
 ***** constant $FOO = BEGIN { ... };
 **** bill: can you use state with a constant to expand it's scope?
 ***** bruce thinks not
+**** but then constants are always defined at compile time like begin
 
 ** olden topics from meetings gone by
 *** fron page code example
