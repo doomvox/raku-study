@@ -168,7 +168,7 @@ raku -e '{state constant $a = 42; $a = 43; say $a };'
 
 
 ** olden topics from meetings gone by
-*** fron page code example
+*** the front page code example
 **** topic variable considered harmful -- Damien (?)
 ***** https://github.com/Raku/raku.org/pull/272
 ***** my uniformed take
