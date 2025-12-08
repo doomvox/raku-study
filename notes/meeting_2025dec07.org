@@ -385,6 +385,9 @@ foo $[1,2,3];  # item
 *** next time
 **** before starting meeting, warm-up on "advanced" screen sharing
 **** increase the font size in emacs
+*** TODO 
+**** new raku front page
+***** leading code snippet has an very obscure idiom
 
 *** TODO doc problems
 **** https://docs.raku.org/routine/duckmap
