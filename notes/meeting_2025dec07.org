@@ -20,7 +20,7 @@
 ***** explicitly a survey of "students"
 ***** uses the phrase "mistake rate"
 ****** what methodology?  maybe: given tests and graded them 
-***** doesn't mention the sample size-- we can infer it was smal
+***** doesn't mention the sample size-- we can infer it was small
 ***** when they say "syntax" it seems they mean keyword choices
 ***** six programming languages: 
 ****** Ruby, Java, Perl, Python, Randomo, and Quorum
