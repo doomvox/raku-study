@@ -45,19 +45,17 @@
 *** and then... "andthen"
 **** andthen vs the feed operator:  ==>
 **** "orelse" vs "notandthen"
+
 **** discussions
 ***** https://github.com/rakudo/rakudo/pull/5917
 ***** https://github.com/rakudo/rakudo/issues/5919
 
+**** Anton Antonov: comparisons used of andthen and feed operator. 
+***** "Monadic programming examples":
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025dec07.org 
 
-
-**** Anton Antonov
-***** comparisons used of andthen and feed operator. 
-****** "Monadic programming examples":
-******* https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025dec07.org 
-
-****** See Uniform Function Call Syntax (UFCS)
-******* https://tour.dlang.org/tour/en/gems/uniform-function-call-syntax-ufcs
+***** See Uniform Function Call Syntax (UFCS)
+****** https://tour.dlang.org/tour/en/gems/uniform-function-call-syntax-ufcs
 
 **** docs:
 ***** https://docs.raku.org/routine/andthen
