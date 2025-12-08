@@ -82,6 +82,11 @@ b
 *** missing a "temporal" base class-- 
 **** thoughts on refactoring by disconnecting classes from inheritence tree (?) 
 
+
+** Rob questions
+*** any opinions on Red
+*** constant defined from a BEGIN
+
 ** olden topics from meetings gone by
 *** fron page code example
 **** topic variable considered harmful -- Damien (?)
