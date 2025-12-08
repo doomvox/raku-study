@@ -150,7 +150,6 @@ raku -e '{state constant $a = 42; $a = 43; say $a };'
 	Cannot use 'state' with constant declaration
 	at -e:1`
 #+END_SRC
-
 *** but then constants are always defined at compile time like begin
 *** maybe some tricks with the binding operator?
 *** maybe an enum trick
