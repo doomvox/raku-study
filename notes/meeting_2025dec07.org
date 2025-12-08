@@ -136,6 +136,7 @@
 *** maybe some tricks with the binding operator?
 *** maybe an enum trick
 
+
 ** olden topics from meetings gone by
 *** fron page code example
 **** topic variable considered harmful -- Damien (?)
