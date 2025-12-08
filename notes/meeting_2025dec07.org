@@ -45,6 +45,11 @@
 *** and then... "andthen"
 **** andthen vs the feed operator:  ==>
 **** "orelse" vs "notandthen"
+**** docs:
+***** https://docs.raku.org/routine/andthen
+***** https://docs.raku.org/routine/notandthen
+***** https://docs.raku.org/routine/orelse
+
 **** discussions
 ***** https://github.com/rakudo/rakudo/pull/5917
 ***** https://github.com/rakudo/rakudo/issues/5919
