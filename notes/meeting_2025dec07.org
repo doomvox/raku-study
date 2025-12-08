@@ -190,10 +190,6 @@ I have four topics easy to hard:
 **** latest: the headache operator
 ***** https://github.com/doomvox/raku-study/discussions/25
 
-
-
-** old topics
-
 *** Anton Antonov: how to do a search index using LLM-style software (e.g. LLM::Graph)
 **** The search process I have in mind is explained here: 
 **** https://github.com/antononcube/EconomicsAI
