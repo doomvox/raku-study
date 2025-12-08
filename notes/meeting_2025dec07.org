@@ -300,7 +300,7 @@ raku -e '.say for lines.grep({ /^<alpha>+$/ and .chars == 4 }).classify(*.lc.sub
 
 some_routine( 'function ja?' );
 
-*** Everything about monads: 
+*** TODO Everything about monads: 
 **** https://www.youtube.com/watch?v=Xz5B4B0kVco
 *** Anton Antonov's visualizations:
 **** https://rakuforprediction.wordpress.com/2025/05/25/collatz-conjecture-visualizations/
