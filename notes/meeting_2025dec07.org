@@ -346,7 +346,7 @@ https://obsidianrook.com/doomfiles/SOUL_SO_DEAD.html
 **** links I expect to use again some day
 ****** duckmap examples are here:
 ******* https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
-****** Subtitle parsing (a subject I'll revive some day):
+****** Subtitle parsing
 ******* https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
 
 
