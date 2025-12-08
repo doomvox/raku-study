@@ -62,8 +62,6 @@
 ***** https://www.nntp.perl.org/group/perl.perl6.users/2025/09/msg11510.html
 **** Bill's examples of use of anthen
 ***** https://unix.stackexchange.com/search?q=user%3A227738+andthen
-
-
 **** Márton: thunkiness
 ***** the property of the  andthen  operator that makes it so special is called "thunkiness" in Raku terms, same as the smartmatch or && or ||
 
