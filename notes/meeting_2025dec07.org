@@ -24,7 +24,10 @@
 ***** when they say "syntax" it seems they mean keyword choices
 ***** six programming languages: 
 ****** Ruby, Java, Perl, Python, Randomo, and Quorum
-******* https://quorumlanguage.com/
+******* Quorum
+******** https://quorumlanguage.com/
+******** https://rosettacode.org/wiki/Countdown#Quorum
+
 ****** "Randomo was designed by randomly choosing some keywords from the ASCII table (a metaphorical placebo)."
 **** Raku would be in the competing set to C-like things such as Perl, right?
 **** The paper
