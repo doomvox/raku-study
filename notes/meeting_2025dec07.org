@@ -36,6 +36,8 @@
 **** has around eight topics
 ***** Practical Monadic Pipelines
 ****** https://rakuforprediction.wordpress.com/2025/11/16/monad-laws-in-raku/
+****** https://github.com/antononcube/RakuForPrediction-blog/blob/main/Notebooks/Jupyter/Monadic-programming-examples.ipynb
+
 **** if learning languages is good to stretch you're understanding, then learn different one's: perl, raku
 ***** maybe: need to expect to learn them deeply
 ***** e.g. python: not so stupid when used at length, more deceptively simplistic
