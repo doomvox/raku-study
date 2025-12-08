@@ -43,7 +43,7 @@ Anton Antonov:
 	random-pet-name(5, species =>'dog')
 	# (Archer Cody Daisy Sheldon Dosa)
 
-Bruce Gray To Everyone:
+Bruce Gray:
 	sink my @words1 = random-pet-name(*)».lc.grep(* ~~ / ^ perl /);
 
 **** Anton: if learning languages is good to stretch you're understanding, then learn different one's: perl, raku
