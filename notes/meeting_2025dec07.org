@@ -176,7 +176,7 @@ raku -e '{state constant $a = 42; $a = 43; say $a };'
 ****** perl programmers don't care
 ******* encapsulation can make debugging difficult
 ****** CS people are prone to belief in "one true way!", but those rarely hold up
-****** anton a recovered monad believer
+****** Anton a recovered monad believer
 ******* https://rakuforprediction.wordpress.com/2025/11/16/monad-laws-in-raku/
  
 *** Anton Antonov topics
