@@ -218,7 +218,7 @@ zef install LLM::Graph --exclude="JSON::Fast"
 **** This worked:
 zef install LLM::Graph --exclude="JSON::Fast:ver<0.19+>"
 
-**** Bad messaging from zef (hint doesn't work at all):
+**** Bad messaging from zef (the hint doesn't work at all):
 ===> Failed to find dependencies: JSON::Fast:ver<0.19+>
 Failed to resolve some missing dependencies (use e.g. --exclude="JSON::Fast" to skip)
 
