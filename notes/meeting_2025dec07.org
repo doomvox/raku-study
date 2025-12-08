@@ -64,11 +64,6 @@
 
 
 
-**** Bill's examples of use of anthen
-***** https://unix.stackexchange.com/search?q=user%3A227738+andthen
-
-**** Bill: Brian Duggan post on the use of the ==> feed operator: 
-***** https://www.nntp.perl.org/group/perl.perl6.users/2025/09/msg11510.html
 
 **** Marton
 ***** "I have spent the last week in the hell of async/io implementations and the infamous function coloring rant"
