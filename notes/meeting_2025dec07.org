@@ -44,13 +44,12 @@
 
 *** and then... "andthen"
 **** andthen vs the feed operator:  ==>
-**** also "orelse" vs "notandthen"
+**** "orelse" vs "notandthen"
+**** 
+***** https://github.com/rakudo/rakudo/pull/5917
+***** https://github.com/rakudo/rakudo/issues/5919
 
-*** William Michels at play on dischord
-**** promises
-**** andthen vs or else vs not andthen 
-**** https://github.com/rakudo/rakudo/pull/5917
-**** https://github.com/rakudo/rakudo/issues/5919
+
 
 **** docs:
 ***** https://docs.raku.org/routine/andthen
