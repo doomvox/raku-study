@@ -56,9 +56,11 @@
 **** Anton Antonov: comparisons used of andthen and feed operator. 
 ***** "Monadic programming examples":
 ****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025dec07.org 
-
 ***** See Uniform Function Call Syntax (UFCS)
 ****** https://tour.dlang.org/tour/en/gems/uniform-function-call-syntax-ufcs
+
+**** Márton: thunkiness
+***** the property of the  andthen  operator that makes it so special is called "thunkiness" in Raku terms, same as the smartmatch or && or ||
 
 
 
