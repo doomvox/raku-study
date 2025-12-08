@@ -300,17 +300,6 @@ raku -e '.say for lines.grep({ /^<alpha>+$/ and .chars == 4 }).classify(*.lc.sub
 
 some_routine( 'function ja?' );
 
-**** "Sac Tech Social"
-***** gathering in the sac area
-***** sacramento slack
-****** Sac-tech.com
-****** also on meetup
-
-https://obsidianrook.com/doomfiles/SOUL_SO_DEAD.html
-
-
-** old topics (TODO TRIM)
-
 *** Everything about monads: 
 **** https://www.youtube.com/watch?v=Xz5B4B0kVco
 *** Anton Antonov's visualizations:
@@ -323,7 +312,7 @@ https://obsidianrook.com/doomfiles/SOUL_SO_DEAD.html
 **** using analogies to understand
 
 
-** even older (TODO TRIM)
+
 
 *** grep URI line from file and trim trailing '#' comment
 **** https://unix.stackexchange.com/questions/799195/remove-new-lines-and-everything-after-comment-symbol-with-awk-or-sed
