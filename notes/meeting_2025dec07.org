@@ -318,9 +318,6 @@ some_routine( 'function ja?' );
 *** async in raku and python
 **** https://www.reddit.com/r/rakulang/comments/1n8hjrr/async_in_raku_vs_python/
 
-
-
-
 *** anton subject:
 **** Raku introspection nice for LLM implementations
 **** OpenAI, LLM providers, release packages in python
