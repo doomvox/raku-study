@@ -16,6 +16,13 @@
 *** rob: bug with list binding inculding a pair value 
 **** https://github.com/doomvox/raku-study/tree/main/bin/2025dec21/binding_to_a_list_with_a_pair.raku
 
+#+BEGIN_SRC raku
+
+my @arr = "a", "b", "c", Pair.new('alpha','beta');
+my ($m, $n, $o    ) := @arr;
+    Unexpected named argument 'alpha' passed
+#+END_SRC
+
 *** Anton topics:
 ***** Number theory in Raku
 ****** With pretty graphics
