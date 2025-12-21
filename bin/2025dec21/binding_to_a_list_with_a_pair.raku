@@ -6,7 +6,7 @@ use v6;
 
 {
     my ($n, $m) = ("a", "b");
-    say "n: $n, m: $m";  # n: a, m: alpha	beta
+    say "n: $n, m: $m";  # n: a, m: b
     say $m.WHAT; # (Pair)
 }
 
