@@ -31,6 +31,6 @@ use v6.e.PREVIEW;
     ##   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025dec21/binding_to_a_list_with_a_pair.raku line 14
 
     ## Note: this shows the same problem:
-    ## my ($n, $m) := (alpha=>'beta', "a");
+    # my ($n, $m) := (alpha=>'beta', "a");
 
 }
