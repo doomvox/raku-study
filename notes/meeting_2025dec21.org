@@ -20,7 +20,7 @@
 ***** Number theory in Raku
 ***** With pretty graphics
 ***** Better highlighter by- and with LLMs
-***** .. And CLI  for All.
+****** .. And CLI  for All.
 ***** Using Raku in Wolfram notebooks
 ***** And Emacs version with Babel-code
 
