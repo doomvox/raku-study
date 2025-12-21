@@ -19,12 +19,15 @@
 *** Anton topics:
 ***** Number theory in Raku
 ****** With pretty graphics
+******* https://www.wolframcloud.com/obj/antononcube/Published/Numerically-2026-is-unremarkable-yet-happy-Raku.nb
+******* https://raw.githubusercontent.com/antononcube/RakuForPrediction-blog/9ad116dadc09437310a3f85c4bea3dfcb8090ff1/Articles/Diagrams/Numerically-2026-is-unremarkable-yet-happy/Happy-number-trails-upto-2026-graph.svg
+
 ***** Better highlighter by- and with LLMs
 ****** .. And CLI  for All.
 ***** Using Raku in Wolfram notebooks
 ***** An Emacs version with Babel-code
+******* https://orgmode.org/worg/org-contrib/babel/how-to-use-Org-Babel-for-R.html
 
-****** 
 
 *** number theory: the big fedinkus? 
 ***** https://mathworld.wolfram.com/NicomachussTheorem.html
