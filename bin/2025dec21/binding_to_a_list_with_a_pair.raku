@@ -5,6 +5,13 @@
 use v6;
 
 {
+    my ($n, $m) = ("a", "b");
+    say "n: $n, m: $m";  # n: a, m: alpha	beta
+    say $m.WHAT; # (Pair)
+}
+
+
+{
     my ($n, $m) = ("a", alpha=>'beta');
     say "n: $n, m: $m";  # n: a, m: alpha	beta
     say $m.WHAT; # (Pair)
