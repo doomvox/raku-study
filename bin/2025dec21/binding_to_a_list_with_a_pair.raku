@@ -5,6 +5,12 @@
 use v6.e.PREVIEW;
 
 {
+    my $p = alpha=>'beta';
+    say $p;
+    say $p.WHAT;
+    }
+
+{
     my ($n, $m) := ("a", "b");
     say "n: $n    m: $m";  # n: a    m: b
 }
