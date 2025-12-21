@@ -42,7 +42,6 @@ my ($m, $n, $o    ) := @arr;
 ***** https://en.wikipedia.org/wiki/Nicomachus
 
 ** old topics
-
 *** grammar to parse org-mode files
 **** (like to do more work on this first-- but might be up to the hand-wave level)
 
