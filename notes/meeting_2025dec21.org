@@ -1,0 +1,399 @@
+* meeting notes December 21, 2025
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025dec21.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025dec21
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025dec07.org 
+
+***** group discussions at github
+****** https://github.com/doomvox/raku-study/discussions 
+** topics
+*** today's announcment quote
+**** "An Empirical Investigation into Programming Language Syntax"
+**** https://dl.acm.org/doi/abs/10.1145/2534973
+**** the abstract: 
+***** explicitly a survey of "students"
+***** uses the phrase "mistake rate"
+****** what methodology?  maybe: graded tests
+***** doesn't mention the sample size-- we can infer it was small
+***** when they say "syntax" it seems they mean keyword choices
+***** six programming languages: 
+****** Ruby, Java, Perl, Python, Randomo, and Quorum
+******* Quorum
+******** https://quorumlanguage.com/
+******** https://rosettacode.org/wiki/Countdown#Quorum
+****** "Randomo was designed by randomly choosing some keywords from the ASCII table (a metaphorical placebo)."
+**** Raku would be in the competing set to C-like things such as Perl, right?
+**** The paper
+***** https://www.vidarholen.net/~vidar/An_Empirical_Investigation_into_Programming_Language_Syntax.pdf
+
+*** grammar to parse org-mode files
+**** (like to do more work on this first-- but might be up to the hand-wave level)
+
+*** Anton Antonov
+**** a topic chosen from a list of 5 or 8:
+***** Practical Monadic Pipelines
+****** https://rakuforprediction.wordpress.com/2025/11/16/monad-laws-in-raku/
+****** https://github.com/antononcube/RakuForPrediction-blog/blob/main/Notebooks/Jupyter/Monadic-programming-examples.ipynb
+
+Anton Antonov:
+	Well the argument I was looking for is  species :
+	random-pet-name(5, species =>'dog')
+	# (Archer Cody Daisy Sheldon Dosa)
+
+Bruce Gray:
+	sink my @words1 = random-pet-name(*)».lc.grep(* ~~ / ^ perl /);
+
+****** sink
+******* Anton's code examples in Jupyter Notebooks often lead with "sink"
+******* A small hack to deal with the introduced scope of code embedded in a doc
+
+******* Seqs that aren't sunk, will not run 
+******** https://github.com/rakudo/rakudo/issues/5976
+
+**** Anton: if learning languages is good to stretch you're understanding, then learn different one's: perl, raku
+***** maybe: need to expect to learn them deeply
+***** e.g. python: not so stupid when used for a larger project, more "deceptively simplistic"
+
+*** and then... "andthen"
+**** andthen vs the feed operator:  ==>
+**** "orelse" vs "notandthen"
+**** docs:
+***** https://docs.raku.org/routine/andthen
+***** https://docs.raku.org/routine/notandthen
+***** https://docs.raku.org/routine/orelse
+
+**** discussions
+***** https://github.com/rakudo/rakudo/pull/5917
+***** https://github.com/rakudo/rakudo/issues/5919
+**** Anton Antonov: comparisons used of andthen and feed operator. 
+***** "Monadic programming examples":
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025dec07.org 
+***** See Uniform Function Call Syntax (UFCS)
+****** https://tour.dlang.org/tour/en/gems/uniform-function-call-syntax-ufcs
+**** Bill: Brian Duggan post on the use of the ==> feed operator: 
+***** https://www.nntp.perl.org/group/perl.perl6.users/2025/09/msg11510.html
+**** Bill's examples of use of anthen
+***** https://unix.stackexchange.com/search?q=user%3A227738+andthen
+**** Márton: thunkiness
+***** the property of the  andthen  operator that makes it so special is called "thunkiness" in Raku terms, same as the smartmatch or && or ||
+
+**** R and A history (William Michels):
+***** https://bookdown.org/rdpeng/rprogdatascience/history-and-overview-of-r.html
+
+**** Marton
+***** "I have spent the last week in the hell of async/io implementations and the infamous function coloring rant"
+
+***** posts a link to a claim perl's design was because of an in-built 'cultural conservatism'
+******  https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical
+******* my take: the author sees what they want to see and cherry-picks evidence
+******** ignores other evident effects in play, like self-choking success--
+********* an overheated language sees a lot of random, redundant development 
+********** sorting through it all is a non-trivial problem
+******** and my own pick: the sneerfest from CS insiders
+********* for years slashdot buzz was 
+********** "look he said perl!  We have to say python!  Python Python Python!"
+
+******* the phrase "cultural conservatism" here means mainly "resistant to change"
+******** also: too many rude insiders who think they're experts
+********* (and that's why the linux kernel project has been such a flop)
+******** my take: this is a "if only everyone had done what I thought they should"
+
+**** Rob
+***** double fat is the feed operator ==>
+***** >>  
+****** what does that do
+****** array of arrays
+****** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025dec07/hyper_operations.raku
+***** Bruce: Real use of `.hyper(:200batch)`:
+****** https://rosettacode.org/wiki/Sphenic_numbers#Raku
+***** Marton: "Semantics of hyper metaoperators - direction, "dwimminess", dimensions, etc"
+****** https://github.com/Raku/problem-solving/issues/346
+
+
+******* Bruce Gray (Untested; from memory):
+#+BEGIN_SRC sh
+          raku -e 'my @a; .say for @a.&wish-it-was-parallel;'
+          raku -e 'my @a; .say for @a.hyper.&wish-it-was-parallel;'
+          raku -e 'my @a; .say for @a.hyper( :batch(16), :degree(2) ).&wish-it-was-parallel;'
+
+          raku -e 'my @a = [[1,2],[3,4]], [[91,92],[93,94]]; my @b = @a>>.succ; say .raku for @b;'
+#+END_SRC
+
+******* .& is documented here:
+******** https://docs.raku.org/language/syntax#Method-like_function_calls_&_function-like_method_calls
+******** https://docs.raku.org/language/operators#methodop_.&
+	
+******** .& to concisely adapt a nodal method to be non-nodal, a trick from the end of:
+********* https://docs.raku.org/language/operators#Hyper_operators
+#+BEGIN_SRC raku 
+  say (<a b>, <c d e>)».elems;        # OUTPUT: «(2 3)␤»
+  say (<a b>, <c d e>)».&{ .elems };  # OUTPUT: «((1 1) (1 1 1))␤»
+#+END_SRC
+
+** discussion about time-- example of discussion customs not quite working right
+*** https://github.com/Raku/problem-solving/issues/506
+**** also 497
+*** Rob has ideas on how to improve the customs
+**** threshing statge to eliminate chaff
+***** https://en.wikipedia.org/wiki/Chaff
+*** missing a "temporal" base class-- 
+**** thoughts on refactoring by disconnecting classes from inheritence tree (?) 
+
+** Any opinions on Red / Cro? (Rob)
+*** https://raku-advent.blog/2019/12/02/crud-cro-http-tutorial/
+** Can you do multiple constants defined from a BEGIN (Rob)
+*** note the my style doesn't work with constant
+**** my ($a, $b, $c);
+*** bruce approach:
+#+BEGIN_SRC raku
+  constant $FOO = BEGIN { ... };
+#+END_SRC
+*** bill: can you use state with a constant to expand it's scope?
+**** bruce thinks not
+**** bill tried it:
+#+BEGIN_SRC sh
+raku -e '{state constant $a = 42; $a = 43; say $a };'
+	===SORRY!=== Error while compiling -e
+	Cannot use 'state' with constant declaration
+	at -e:1`
+#+END_SRC
+*** but then constants are always defined at compile time like begin
+*** maybe some tricks with the binding operator?
+*** maybe an enum trick
+
+
+** olden topics from meetings gone by
+*** the raku front page code example
+**** topic variable considered harmful -- Damien (?)
+***** https://github.com/Raku/raku.org/pull/272
+***** my uniformed take
+****** Damien has an obsession with bullet-proof encapsulation
+****** perl programmers don't care
+******* encapsulation can make debugging difficult
+****** CS people are prone to belief in "one true way!", but those rarely hold up
+****** Anton: a recovered monad believer
+******* https://rakuforprediction.wordpress.com/2025/11/16/monad-laws-in-raku/
+ 
+*** Anton Antonov topics
+I have four topics easy to hard:
+1) Code highlighting: Raku vs LLMs
+2) LLM-graphs for using parser-interpreter fallback structures
+3) Recommender systems in Raku
+4) Sparse matrix computation performance comparison between Raku and Python
+
+*** Marton on Raku
+**** latest: the headache operator
+***** https://github.com/doomvox/raku-study/discussions/25
+
+*** Anton Antonov: how to do a search index using LLM-style software (e.g. LLM::Graph)
+**** The search process I have in mind is explained here: 
+**** https://github.com/antononcube/EconomicsAI
+**** htmx+Air+Red+Cro
+***** Marton:
+****** Red is the "big Raku ORM",
+****** Cro is the "big Raku web Framework", 
+****** Air is his own thing (not sure what it does) and 
+****** htmx is some sort of common html templating system
+
+**** zeromq 
+***** ipc between emacs and other processes?
+***** alternate to roll-your-own
+
+**** uses vscodium 
+***** opensourcified visual studio
+***** anton uses his own JavaScript::D3 package 
+****** dynamic, interactive graphs
+****** better than Javascript::Google::Charts for this
+****** Tim mentions Vega, Vega-light
+
+*** raku and zef
+**** Tried this, but NG:
+zef install LLM::Graph --exclude="JSON::Fast"
+
+**** This worked:
+zef install LLM::Graph --exclude="JSON::Fast:ver<0.19+>"
+
+**** Bad messaging from zef (the hint doesn't work at all):
+===> Failed to find dependencies: JSON::Fast:ver<0.19+>
+Failed to resolve some missing dependencies (use e.g. --exclude="JSON::Fast" to skip)
+
+**** by the way, I have *a* version of JSON::Fast
+zef install JSON::Fast
+All candidates are currently installedg
+
+**** mainstream application, though not often studied
+***** raku docs, partition it in a meaninful way, query it
+***** the vector database is smaller, can be shared
+****** outside of zef, need to install
+******* graphviz
+******* h20
+******** to what degree should you automate installation
+****** tim: uv for python package management (maybe)
+******* nix os on mac
+******** e.g. used by a guy on raku dischord: rcmlz
+******* jupyter install not easy
+******** Raku Jupyter::Chatbook
+******* docker
+******** usually waste
+********* time (Anton Antonov)
+********* memory (Tim)
+****** TODO write an org-mode grammar
+******* follow Raku-Markdown-Grammar as example
+
+***** rshiney, hark 
+****** shiney translates to javascript from R
+******* webapps in R
+******* would be nice to have something like this for Raku
+******** "homework"
+******** cro-based ?
+
+***** vector database, published and queried separately?
+
+***** mit study: 95% of LLM stuff is prototype, not going to production
+****** https://www.forbes.com/sites/jasonsnyder/2025/08/26/mit-finds-95-of-genai-pilots-fail-because-companies-avoid-friction/
+****** actual study might be better to read
+******* https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai_report_2025.pdf
+
+***** anton: llms energy intensive, 
+****** but you can do a lot with grammar technology of raku, 
+****** reduce usage of LLM to where needed
+
+***** More from anton:
+****** code packages
+******* https://github.com/antononcube
+****** videos
+******* https://www.youtube.com/@AAA4prediction
+****** scripts to simplify installation
+******* https://github.com/antononcube/RakuForPrediction-book/tree/main/scripts
+****** Robust LLM pipelines (Mathematica, Python, Raku) 
+******* https://www.youtube.com/watch?v=QOsVTCQZq_s
+
+
+*** tiobe september (rob)
+**** perl is in the top 10
+***** so maybe raku should keep an eye on that audience
+**** tiobe works on stackexchange searches
+***** so the older anti-llm crowd are over-repped (anton theory)
+
+*** Using .& (William Michels) 
+**** one-liner from dischord
+#+BEGIN_SRC sh
+raku -e 'say q:format/%s/(42)'
+
+raku -e '.say for lines.grep({ /^<alpha>+$/ and .chars == 4 }).classify(*.lc.substr(0,1)).map(*.value.pick).map({ $_ xx (1..3).pick }).flat.pick(*);' unixdict.txt
+#+END_SRC
+#+BEGIN_SRC raku
+.&some_routine
+
+some_routine( 'function ja?' );
+#+END_SRC
+
+*** TODO Everything about monads: 
+**** https://www.youtube.com/watch?v=Xz5B4B0kVco
+*** Anton Antonov's visualizations:
+**** https://rakuforprediction.wordpress.com/2025/05/25/collatz-conjecture-visualizations/
+
+*** "Surfaces and Essences" by Douglas Hofstadter and Emmanuel Sander
+**** Tim Schafer pick
+**** using analogies to understand
+
+*** grep URI line from file and trim trailing '#' comment
+**** https://unix.stackexchange.com/questions/799195/remove-new-lines-and-everything-after-comment-symbol-with-awk-or-sed
+**** raku answer from jubilatious1 
+#+BEGIN_SRC sh
+ raku -ne 'print S/ \h+ \# <-[#]>+ $$ //;  file
+#+END_SRC 
+#+BEGIN_SRC sh
+ raku -ne '.subst(/ \h+ \# <-[#]>+ $$ /).print;'  file
+#+END_SRC 
+***** note: the \h+ requires leading whitespace in front of the comment character
+***** made the cut for the rakudo weekly
+****** https://rakudoweekly.blog/2025/09/01/2025-35-sensitive-data/
+
+*** async in raku and python
+**** https://www.reddit.com/r/rakulang/comments/1n8hjrr/async_in_raku_vs_python/
+
+*** anton subject:
+**** Raku introspection nice for LLM implementations
+**** OpenAI, LLM providers, release packages in python
+***** python has *some* introspection
+
+*** our friend the monad (tim and anton)
+**** Marton: "Promises in Javascript are 'impure' monads" 
+**** Anton: "glorified decorator pattern"
+**** Raku "feed" operators similar (not consistent)
+**** "in raku you can make monads that define your grammars"
+**** TODO Everything about monads: 
+***** https://www.youtube.com/watch?v=Xz5B4B0kVco
+
+*** "is item" trait
+**** https://raku-advent.blog/2024/12/25/day-25-raku-2024-review/
+***** The is item trait can be used on @ and % sigilled parameters 
+****** positional or associative is acceptable in dispatch if it is presented as an item
+****** just a "tie-breaker": should always also a dispatch candidate that accepts when not itemized
+#+BEGIN_SRC raku
+multi sub foo(@a)         { say "array" }
+multi sub foo(@a is item) { say "item"  }
+foo  [1,2,3];  # array
+foo $[1,2,3];  # item
+#+END_SRC 
+****** Q: what is this for, really?
+******* things that are "itemized" don't iterate, e.g. $(1,2,3) vs (1,2,3)
+
+*** knuth 'concrete mathematics"
+**** bruce gray's favorite math book
+**** https://archive.org/details/concrete-mathematics
+
+
+*** some of my many open projects:
+**** links I expect to use again some day
+****** duckmap examples are here:
+******* https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
+****** Subtitle parsing
+******* https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
+
+
+
+
+
+
+** follow-up
+*** next time
+**** before starting meeting, warm-up on "advanced" screen sharing
+**** increase the font size in emacs
+*** TODO 
+**** new raku front page
+***** leading code snippet has an very obscure idiom
+
+*** TODO doc problems
+**** https://docs.raku.org/routine/duckmap
+**** Rat?  Not Numeric?
+**** Why changed data with changed code?
+**** Possibly, better examples?
+
+*** TODO start a people file already 
+**** farley
+***** apogee == matt dowdy
+***** librasteve == steve rowe
+***** jubilatious1 == william michels
+***** util == bruce gray
+***** 2colours == Marton Polgar  (with accented 'a' s)
+***** doom == doomvox == tailorpaul == joseph brenner == me
+***** antonov == anton antonov
+
+*** TODO
+**** look up the paper claiming people swearing by chatgpt advice are delusional
+
+
+
+** announcements 
+*** next meetings
+**** Dec 21, 2025
+**** Jan  4, 2025
+**** Jan  18, 2025
