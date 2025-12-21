@@ -11,7 +11,7 @@ use v6;
 
 {
     my ($n, $m) = ("a", alpha=>'beta');
-    say "n: $n    m: $m";  # n: a, m: alpha	beta
+    say "n: $n    m: $m";  # n: a    m: alpha	beta
     say $m.WHAT; # (Pair)
 }
 
