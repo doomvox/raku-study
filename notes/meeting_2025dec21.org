@@ -44,7 +44,6 @@ my ($m, $n, $o    ) := @arr;
 ** old topics
 *** grammar to parse org-mode files
 **** (like to do more work on this first-- but might be up to the hand-wave level)
-
 *** Anton Antonov
 **** a topic chosen from a list of 5 or 8:
 ***** Practical Monadic Pipelines
