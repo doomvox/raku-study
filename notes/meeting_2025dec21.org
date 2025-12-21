@@ -13,24 +13,10 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 ** topics
-*** today's announcment quote
-**** "An Empirical Investigation into Programming Language Syntax"
-**** https://dl.acm.org/doi/abs/10.1145/2534973
-**** the abstract: 
-***** explicitly a survey of "students"
-***** uses the phrase "mistake rate"
-****** what methodology?  maybe: graded tests
-***** doesn't mention the sample size-- we can infer it was small
-***** when they say "syntax" it seems they mean keyword choices
-***** six programming languages: 
-****** Ruby, Java, Perl, Python, Randomo, and Quorum
-******* Quorum
-******** https://quorumlanguage.com/
-******** https://rosettacode.org/wiki/Countdown#Quorum
-****** "Randomo was designed by randomly choosing some keywords from the ASCII table (a metaphorical placebo)."
-**** Raku would be in the competing set to C-like things such as Perl, right?
-**** The paper
-***** https://www.vidarholen.net/~vidar/An_Empirical_Investigation_into_Programming_Language_Syntax.pdf
+*** rob got a raku bug.  maybe
+*** rob
+
+** old topics
 
 *** grammar to parse org-mode files
 **** (like to do more work on this first-- but might be up to the hand-wave level)
