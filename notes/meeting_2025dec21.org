@@ -17,7 +17,6 @@
 **** https://github.com/doomvox/raku-study/tree/main/bin/2025dec21/binding_to_a_list_with_a_pair.raku
 
 #+BEGIN_SRC raku
-
 my @arr = "a", "b", "c", Pair.new('alpha','beta');
 my ($m, $n, $o    ) := @arr;
     Unexpected named argument 'alpha' passed
