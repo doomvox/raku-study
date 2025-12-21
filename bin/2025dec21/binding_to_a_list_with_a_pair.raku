@@ -9,7 +9,6 @@ use v6;
     say "n: $n, m: $m";  # n: a, m: b
 }
 
-
 {
     my ($n, $m) = ("a", alpha=>'beta');
     say "n: $n, m: $m";  # n: a, m: alpha	beta
