@@ -24,8 +24,10 @@
 ***** Using Raku in Wolfram notebooks
 ***** An Emacs version with Babel-code
 
+****** 
 
-
+*** number theory: the big fedinkus? 
+***** https://en.wikipedia.org/wiki/Nicomachus
 
 ** old topics
 
