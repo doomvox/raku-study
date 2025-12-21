@@ -17,12 +17,12 @@
 **** https://github.com/doomvox/raku-study/tree/main/bin/2025dec21/binding_to_a_list_with_a_pair.raku
 
 *** Anton topics:
-Number theory in Raku
-With pretty graphics
-Better highlighter by- and with LLMs
-.. And CLI  for All.
-Using Raku in Wolfram notebooks
-And Emacs version with Babel-code
+***** Number theory in Raku
+***** With pretty graphics
+***** Better highlighter by- and with LLMs
+***** .. And CLI  for All.
+***** Using Raku in Wolfram notebooks
+***** And Emacs version with Babel-code
 
 
 
