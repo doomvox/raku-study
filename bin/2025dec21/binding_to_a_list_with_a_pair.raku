@@ -4,24 +4,24 @@
 
 use v6.e.PREVIEW;
 
-{
+{ # you can bind a pair to a var
     my $p := alpha=>'beta';
     say $p;      ## alpha => beta
     say $p.WHAT; ## (Pair)
     }
 
-{
+{ # you can bind a list to a list
     my ($n, $m) := ("a", "b");
     say "n: $n    m: $m";  # n: a    m: b
 }
 
-{
+{ # you can assign a list to a list even if an element is a pair
     my ($n, $m) = ("a", alpha=>'beta');
     say "n: $n    m: $m";  # n: a    m: alpha	beta
     say $m.WHAT; # (Pair)
 }
 
-{
+{ # if you bind a list to a list and one element is a pair, it fails:
     my ($n, $m) := ("a", alpha=>'beta');
     say "n: $n    m: $m";
 
