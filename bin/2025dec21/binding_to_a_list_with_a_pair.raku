@@ -6,8 +6,11 @@ use v6.e.PREVIEW;
 
 {
     my $p := alpha=>'beta';
-    say $p;
-    say $p.WHAT;
+    say $p;      ## alpha => beta
+    say $p.WHAT; ## (Pair)
+
+
+
     }
 
 {
