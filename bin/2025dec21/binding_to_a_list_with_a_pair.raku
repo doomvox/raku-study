@@ -5,7 +5,7 @@
 use v6;
 
 {
-    my ($n, $m) = ("a", "b");
+    my ($n, $m) := ("a", "b");
     say "n: $n    m: $m";  # n: a    m: b
 }
 
