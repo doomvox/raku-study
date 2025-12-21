@@ -4,6 +4,8 @@
 
 use v6.e.PREVIEW;
 
+## Rob found a raku bug:
+
 { # you can bind a pair to a var
     my $p := alpha=>'beta';
     say $p;      ## alpha => beta
