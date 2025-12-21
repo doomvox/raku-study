@@ -8,9 +8,6 @@ use v6.e.PREVIEW;
     my $p := alpha=>'beta';
     say $p;      ## alpha => beta
     say $p.WHAT; ## (Pair)
-
-
-
     }
 
 {
