@@ -27,7 +27,8 @@
 ***** Using Raku in Wolfram notebooks
 ***** An Emacs version with Babel-code
 ******* https://orgmode.org/worg/org-contrib/babel/how-to-use-Org-Babel-for-R.html
-
+***** tree-sitter for raku (someday?)
+****** https://tree-sitter.github.io/tree-sitter/using-parsers/queries/1-syntax.html
 
 *** number theory: the big fedinkus? 
 ***** https://mathworld.wolfram.com/NicomachussTheorem.html
