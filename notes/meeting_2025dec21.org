@@ -13,7 +13,7 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 ** topics
-*** rob: bug with list binding with a pair value 
+*** rob: bug with list binding inculding a pair value 
 
 *** Anton topics:
 Number theory in Raku
