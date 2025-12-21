@@ -32,5 +32,4 @@ use v6.e.PREVIEW;
 
     ## Note: this shows the same problem:
     # my ($n, $m) := (alpha=>'beta', "a");
-
 }
