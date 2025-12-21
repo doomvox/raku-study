@@ -15,3 +15,5 @@ my @arr =
     for @arr -> ($m, $n, $o, $p) {
         say ($m, $n, $o, $p).raku;
     }
+
+  ## ("d", "e", "f", "g")
