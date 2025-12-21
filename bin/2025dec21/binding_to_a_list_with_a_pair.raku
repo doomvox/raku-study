@@ -24,7 +24,8 @@ use v6.e.PREVIEW;
 }
 
 { # if you bind a list to a list and one element is a pair, it fails:
-    my ($n, $m) := ("a", alpha=>'beta');
+#    my ($n, $m) := ("a", alpha=>'beta');
+    my ($n, $m) := (alpha=>'beta', "a");
     say "n: $n    m: $m";
 
     ## Too few positionals passed to '<anon>'; expected 2 arguments but got 1
