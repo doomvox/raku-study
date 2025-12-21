@@ -27,6 +27,7 @@
 ****** 
 
 *** number theory: the big fedinkus? 
+***** https://mathworld.wolfram.com/NicomachussTheorem.html
 ***** https://en.wikipedia.org/wiki/Nicomachus
 
 ** old topics
