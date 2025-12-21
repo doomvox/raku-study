@@ -2,7 +2,7 @@
 # 
 # binding_to_a_list_with_a_pair.raku            21 Dec 2025 
 
-use v6.e;
+use v6.e.PREVIEW;
 
 {
     my ($n, $m) := ("a", "b");
