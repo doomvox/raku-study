@@ -14,7 +14,9 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 ** topics
 *** rob got a raku bug.  maybe
-*** rob
+
+
+
 
 ** old topics
 
