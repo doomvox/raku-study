@@ -4,3 +4,4 @@
 
 use v6;
 
+my ($n, $m) := ("a", alpha=>'beta');
