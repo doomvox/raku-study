@@ -17,3 +17,6 @@ my @arr =
     }
 
   ## ("d", "e", "f", "g")
+
+  ## Too few positionals passed to '<anon>'; expected 4 arguments but got 3 in sub-signature
+  ##   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025dec21/binding_and_pointy_block_loops.raku line 15
