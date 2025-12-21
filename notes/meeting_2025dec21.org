@@ -13,9 +13,9 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 ** topics
-*** rob got a raku bug.  maybe
+*** rob: bug with list binding with a pair value 
 
-** Anton topics:
+*** Anton topics:
 Number theory in Raku
 With pretty graphics
 Better highlighter by- and with LLMs
