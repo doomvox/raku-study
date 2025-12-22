@@ -52,8 +52,8 @@ my ($m, $n, $o    ) := @arr;
 
 *** pair constructor vs named arg and slurpy hash calls
 **** https://stackoverflow.com/questions/79849852/too-many-positionals-passed-error-with-slurpy-hash
-**** Q: does this have to do with a
-https://github.com/doomvox/raku-study/tree/main/bin/2025dec21/pair_constructor_vs_named_arg.raku
+**** Demo of problem
+***** https://github.com/doomvox/raku-study/tree/main/bin/2025dec21/pair_constructor_vs_named_arg.raku
 
 
 *** slurpy signatures and multis
