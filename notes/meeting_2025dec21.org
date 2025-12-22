@@ -49,6 +49,10 @@ my ($m, $n, $o    ) := @arr;
 **** https://mathworld.wolfram.com/NicomachussTheorem.html
 **** https://en.wikipedia.org/wiki/Nicomachus
 
+*** advent calendar piece by lizmat
+
+https://github.com/rakudo/rakudo/blob/main/src/core.c/Array.rakumod#L468
+
 *** pair constructor vs named arg and slurpy hash calls
 **** https://stackoverflow.com/questions/79849852/too-many-positionals-passed-error-with-slurpy-hash
 **** Demo of problem
