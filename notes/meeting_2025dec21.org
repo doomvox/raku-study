@@ -21,7 +21,7 @@
 my @arr = "a", "b", "c", Pair.new('alpha','beta');
 my ($m, $n, $o    ) := @arr;
 ##    Unexpected named argument 'alpha' passed
-#+END_SRCb
+#+END_SRC
 
 *** Anton topics:
 ***** Number theory in Raku
