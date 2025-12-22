@@ -13,5 +13,6 @@ my @out2 = @nothing.List(:view);
 say @out1;  # [nada nope bupkes]
 say @out2;  # [nada nope bupkes]
 
-dd @out1;
-dd @out2;
+dd @out1;   # Array @out1 = ["nada", "nope", "bupkes"]
+dd @out2;   # Array @out2 = ["nada", "nope", "bupkes"]
+
