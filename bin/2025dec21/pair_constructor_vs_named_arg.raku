@@ -39,5 +39,5 @@ sub slurpy-hash($foo, *%bar) {
 {
     my %h = 
     'FOO', 'bar' => 'BAR';
-    say %h;
+    say %h;  # {FOO => bar => BAR}
     }
