@@ -42,7 +42,7 @@ my ($m, $n, $o    ) := @arr;
 ****** Q: how is it possible is it possible Perl is supported? 
 ******* I speculate: there's *static* parsing for perl that's very good (but not expected to be perfect)
 ******* https://metacpan.org/pod/PPI
-******* used, for example, by perlcritic
+******* used for example by perlcritic
 
 *** number theory: the big fedinkus? 
 **** https://mathworld.wolfram.com/NicomachussTheorem.html
