@@ -29,3 +29,6 @@ say @out2;  # [nada nope bupkes]
 dd @out1;   # Array @out1 = ["nada", "nope", "bupkes"]
 dd @out2;   # Array @out2 = ["nada", "nope", "bupkes"]
 
+
+## I remain puzzled by what :view could be doing for you,
+## but I gather it's a detail we're not supposed to really get.
