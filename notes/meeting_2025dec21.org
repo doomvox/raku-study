@@ -49,11 +49,13 @@ my ($m, $n, $o    ) := @arr;
 **** https://mathworld.wolfram.com/NicomachussTheorem.html
 **** https://en.wikipedia.org/wiki/Nicomachus
 
+
 *** pair constructor vs named arg and slurpy hash calls
 **** https://stackoverflow.com/questions/79849852/too-many-positionals-passed-error-with-slurpy-hash
 
 
-
+*** slurpy signatures and multis
+**** Q: can you use a "slurpy" in a sig to choose a multi to call?
 
 ** old topics
 *** grammar to parse org-mode files
