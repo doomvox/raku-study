@@ -8,7 +8,7 @@ use v6;
 
 # "The :view named argument to the .List method is an implementation
 # detail that provides an optimized way to change an Array into an
-# immutable List. "
+# immutable List." 
 
 
 # Q: what does :view do for you?  Gets you an immutable list?
