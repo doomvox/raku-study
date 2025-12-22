@@ -36,6 +36,7 @@ sub slurpy-hash($foo, *%bar) {
 
 }
 
+## They way I'd put it there's an ambiguity as to the boundaries of the "key" fed to the pair constructor:
 {
     my %h = 
     'FOO', 'bar' => 'BAR';
