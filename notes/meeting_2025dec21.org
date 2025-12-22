@@ -45,7 +45,7 @@ my ($m, $n, $o    ) := @arr;
 ******* https://metacpan.org/pod/PPI
 ******* used by perlcritic, for example 
 
-*** number theory: the big phedinkus? 
+*** number theory: the old phedinkus? 
 **** https://mathworld.wolfram.com/NicomachussTheorem.html
 **** https://en.wikipedia.org/wiki/Nicomachus
 
