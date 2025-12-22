@@ -34,6 +34,4 @@ sub slurpy-hash($foo, *%bar) {
 # FOO!
 # {bar => BAR!}
 
-
-
 }
