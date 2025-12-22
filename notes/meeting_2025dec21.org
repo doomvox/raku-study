@@ -44,6 +44,9 @@ my ($m, $n, $o    ) := @arr;
 *** pair constructor vs named arg and slurpy hash calls
 **** https://stackoverflow.com/questions/79849852/too-many-positionals-passed-error-with-slurpy-hash
 
+
+
+
 ** old topics
 *** grammar to parse org-mode files
 **** (like to do more work on this first-- but might be up to the hand-wave level)
