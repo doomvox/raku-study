@@ -7,9 +7,14 @@ use v6;
 
 ## https://stackoverflow.com/questions/79849852/too-many-positionals-passed-error-with-slurpy-hash
 
-slurpy-hash('FOO!', bar => 'BAR!'); 
-
 sub slurpy-hash($foo, *%bar) {
   say $foo;
   say %bar;
+}
+
+
+{
+    slurpy-hash('FOO!', bar => 'BAR!'); 
+    # FOO!
+    # {bar => BAR!}
 }
