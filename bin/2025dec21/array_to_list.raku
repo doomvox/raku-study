@@ -10,6 +10,11 @@ use v6;
 # detail that provides an optimized way to change an Array into an
 # immutable List." 
 
+## The code in question:
+# method warnings() {
+#     @!warnings ?? @!warnings.splice.List(:view) !! BEGIN ()
+# } 
+
 
 # Q: what does :view do for you?  Gets you an immutable list?
 #    But then, how can you get a non-immutable list out of a .List call? (lists are always immutable)
