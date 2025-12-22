@@ -19,7 +19,7 @@ sub slurpy-hash($foo, *%bar) {
     # {bar => BAR!}
 }
 
-{ ## This crashes:
+{ ## This crashes (the key is explicitly quoted to the pair constructor '=>'):
     slurpy-hash('FOO!', 'bar' => 'BAR!'); 
 
 # Too many positionals passed; expected 1 argument but got 2
