@@ -4,6 +4,11 @@
 
 use v6;
 
+# "The :view named argument to the .List method is an implementation
+# detail that provides an optimized way to change an Array into an
+# immutable List. "
+
+
 # Q: what does :view do for you?  Gets you an immutable list?
 #    But then, how can you get a non-immutable list out of a .List call?
 
