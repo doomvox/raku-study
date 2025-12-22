@@ -58,7 +58,8 @@ my ($m, $n, $o    ) := @arr;
 **** TODO Q: can you use a "slurpy" in a sig to choose a multi to call?
 
 
-
+*** games 
+**** 
 
 ** open projects:
 *** links I expect to use again some day
