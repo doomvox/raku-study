@@ -4,6 +4,8 @@
 
 use v6;
 
+# https://raku-advent.blog/2025/12/17/day-17-an-issue-with-evaluation/#respond
+
 # "The :view named argument to the .List method is an implementation
 # detail that provides an optimized way to change an Array into an
 # immutable List. "
