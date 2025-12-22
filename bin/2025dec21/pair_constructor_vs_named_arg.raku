@@ -20,10 +20,18 @@ sub slurpy-hash($foo, *%bar) {
 }
 
 { ## This crashes (the key is explicitly quoted to the pair constructor '=>'):
-    slurpy-hash('FOO!', 'bar' => 'BAR!'); 
+#    slurpy-hash('FOO!', 'bar' => 'BAR!'); 
 
 # Too many positionals passed; expected 1 argument but got 2
 #   in sub slurpy-hash at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025dec21/pair_constructor_vs_named_arg.raku line 10
 #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025dec21/pair_constructor_vs_named_arg.raku line 23
+
+}
+
+
+{ ## 
+    slurpy-hash('FOO!', :bar('BAR!') ); 
+
+
 
 }
