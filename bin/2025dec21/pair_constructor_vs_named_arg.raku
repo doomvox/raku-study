@@ -35,3 +35,7 @@ sub slurpy-hash($foo, *%bar) {
 # {bar => BAR!}
 
 }
+
+{
+    'FOO', 'bar' => 'BAR'
+    }
