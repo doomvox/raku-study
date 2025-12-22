@@ -49,5 +49,5 @@ sub slurpy-hash($foo, *%bar) {
     say %h;  # {FOO => bar => BAR}
 }
 
-# I also think LizMat isn't taking this seriously-- this is buggy behavior.
-
+# I worried lizmat wasn't taking this weirdness seriously, but she did open an issue:
+## https://github.com/rakudo/rakudo/issues/6045
