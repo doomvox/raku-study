@@ -29,8 +29,10 @@ sub slurpy-hash($foo, *%bar) {
 }
 
 
-{ ## 
+{ ## This also works:
     slurpy-hash('FOO!', :bar('BAR!') ); 
+# FOO!
+# {bar => BAR!}
 
 
 
