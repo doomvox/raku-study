@@ -59,9 +59,9 @@ my ($m, $n, $o    ) := @arr;
 ****** one hopes this will be obsolete some day
 **** ".List(:view)"
 ***** okay: converts to a list, but what's ":view"?
-
+***** Bruce Gray looks up the source:
 ****** https://github.com/rakudo/rakudo/blob/main/src/core.c/Array.rakumod#L468
-
+****** note: "is implementation-detail" -- that's a standard attribute
 
 *** pair constructor vs named arg and slurpy hash calls
 **** https://stackoverflow.com/questions/79849852/too-many-positionals-passed-error-with-slurpy-hash
