@@ -56,6 +56,7 @@ my ($m, $n, $o    ) := @arr;
 
 *** slurpy signatures and multis
 **** Q: can you use a "slurpy" in a sig to choose a multi to call?
+***** TODO
 
 ** old topics
 *** grammar to parse org-mode files
