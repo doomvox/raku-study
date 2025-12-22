@@ -34,7 +34,8 @@ my ($m, $n, $o    ) := @arr;
 ***** Using Raku in Wolfram notebooks
 ***** An Emacs version with Babel-code
 ******* https://orgmode.org/worg/org-contrib/babel/how-to-use-Org-Babel-for-R.html
-***** tree-sitter for raku (someday?)
+***** tree-sitter
+****** no bindings for raku as of yet
 ****** https://tree-sitter.github.io/tree-sitter/using-parsers/queries/1-syntax.html
 ****** written to the c11 standard
 ******* https://en.wikipedia.org/wiki/C11_(C_standard_revision)
