@@ -67,11 +67,6 @@ my ($m, $n, $o    ) := @arr;
 ***** Subtitle parsing
 ****** https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
 
-
-
-
-
-
 ** follow-up
 *** next time
 **** before starting meeting, warm-up on "advanced" screen sharing
