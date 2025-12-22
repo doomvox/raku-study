@@ -10,3 +10,5 @@ my @nothing  = < nada nope bupkes >;
 my @out1 = @nothing.List;
 my @out2 = @nothing.List(:view);
 
+say @out1;
+say @out2;
