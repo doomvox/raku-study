@@ -40,4 +40,10 @@ sub slurpy-hash($foo, *%bar) {
     my %h = 
     'FOO', 'bar' => 'BAR';
     say %h;  # {FOO => bar => BAR}
-    }
+}
+
+{
+    my %h = 
+    'FOO', bar => 'BAR';
+    say %h;  # {FOO => bar => BAR}
+}
