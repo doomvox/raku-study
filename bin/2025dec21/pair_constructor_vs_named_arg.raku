@@ -18,3 +18,9 @@ sub slurpy-hash($foo, *%bar) {
     # FOO!
     # {bar => BAR!}
 }
+
+{ ## This works:
+    slurpy-hash('FOO!', 'bar' => 'BAR!'); 
+    # FOO!
+    # {bar => BAR!}
+}
