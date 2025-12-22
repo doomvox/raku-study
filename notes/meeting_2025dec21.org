@@ -76,6 +76,7 @@ my ($m, $n, $o    ) := @arr;
 **** https://solitairex.io/blog/how-to-play-face-up-solitaire
 **** https://www.eothello.com
 ***** aka Reversi
+
 *** side discussion of the jvm dropping the "Security Manager"
 **** https://openjdk.org/jeps/486
 
