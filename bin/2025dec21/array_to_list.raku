@@ -4,6 +4,8 @@
 
 use v6;
 
+# Q: what does :view do for you?  Gets you an immutable list?
+#    But then, how can you get a non-immutable list out of a .List call?
 
 my @nothing  = < nada nope bupkes >;
 
