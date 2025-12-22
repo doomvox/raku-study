@@ -50,8 +50,18 @@ my ($m, $n, $o    ) := @arr;
 **** https://en.wikipedia.org/wiki/Nicomachus
 
 *** advent calendar piece by lizmat
+**** https://raku-advent.blog/2025/12/17/day-17-an-issue-with-evaluation/#respond
+**** demo code
+***** /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025dec21/array_to_list.raku
+**** ".splice" with no args returns entire list and zeroes it out
+**** "|| BEGIN ()" 
+***** hack to always return the *same* empty list rather than re-creating the object
+****** one hopes this will be obsolete some day
+**** ".List(:view)"
+***** okay: converts to a list, but what's ":view"?
 
-https://github.com/rakudo/rakudo/blob/main/src/core.c/Array.rakumod#L468
+****** https://github.com/rakudo/rakudo/blob/main/src/core.c/Array.rakumod#L468
+
 
 *** pair constructor vs named arg and slurpy hash calls
 **** https://stackoverflow.com/questions/79849852/too-many-positionals-passed-error-with-slurpy-hash
