@@ -48,3 +48,6 @@ sub slurpy-hash($foo, *%bar) {
     'FOO', bar => 'BAR';
     say %h;  # {FOO => bar => BAR}
 }
+
+# I also think LizMat isn't taking this seriously-- this is buggy behavior.
+
