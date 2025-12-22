@@ -15,7 +15,6 @@ use v6;
 #     @!warnings ?? @!warnings.splice.List(:view) !! BEGIN ()
 # } 
 
-
 # Q: what does :view do for you?  Gets you an immutable list?
 #    But then, how can you get a non-immutable list out of a .List call? (lists are always immutable)
 
