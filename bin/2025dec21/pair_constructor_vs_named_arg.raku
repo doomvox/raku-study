@@ -19,8 +19,11 @@ sub slurpy-hash($foo, *%bar) {
     # {bar => BAR!}
 }
 
-{ ## This works:
+{ ## This crashes:
     slurpy-hash('FOO!', 'bar' => 'BAR!'); 
-    # FOO!
-    # {bar => BAR!}
+
+# Too many positionals passed; expected 1 argument but got 2
+#   in sub slurpy-hash at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025dec21/pair_constructor_vs_named_arg.raku line 10
+#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025dec21/pair_constructor_vs_named_arg.raku line 23
+
 }
