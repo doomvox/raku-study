@@ -24,6 +24,7 @@
 **** 'o' operator (in ascii form): "function composition operator"
 ***** https://docs.raku.org/routine/o,%20infix%20%E2%88%98
 
+
 ** old topics (TODO trim)
 *** rob: bug with list binding inculding a pair value 
 **** https://github.com/doomvox/raku-study/tree/main/bin/2025dec21/binding_to_a_list_with_a_pair.raku
