@@ -15,6 +15,8 @@
 
 ** topics
 *** code highlighting, librasteve
+*** anton: graph generation puzzle, how sorted
+
 
 ** old topics (TODO trim)
 *** rob: bug with list binding inculding a pair value 
@@ -48,6 +50,7 @@ my ($m, $n, $o    ) := @arr;
 ******* I speculate: there's *static* parsing for perl that's very good (but not expected to be perfect)
 ******* https://metacpan.org/pod/PPI
 ******* used by perlcritic, for example 
+
 
 *** number theory: the old phedinkus? 
 **** https://mathworld.wolfram.com/NicomachussTheorem.html
