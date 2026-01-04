@@ -116,7 +116,7 @@ my ($m, $n, $o    ) := @arr;
 ***** antonov == anton antonov
 
 *** TODO
-**** look up the paper claiming people swearing by chatgpt advice are delusional
+**** look up the paper claiming to show programmers that swear chatgpt is really helpful are exaggerating
 
 
 
