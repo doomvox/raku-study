@@ -20,7 +20,7 @@
 ***** note Anton's
 ****** https://raku.land/zef:antononcube/JavaScript::D3
 
-*** function composition, function addition
+*** function composition, function addition, functional decompositon
 **** o operator (in ascii form)
 
 
