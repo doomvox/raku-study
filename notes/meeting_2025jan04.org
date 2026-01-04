@@ -1,0 +1,122 @@
+* meeting notes December 21, 2025
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026jan04.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2026jan04
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2025dec21.org 
+
+***** group discussions at github
+****** https://github.com/doomvox/raku-study/discussions 
+** topics
+*** rob: bug with list binding inculding a pair value 
+**** https://github.com/doomvox/raku-study/tree/main/bin/2025dec21/binding_to_a_list_with_a_pair.raku
+
+**** Bruce variation (different error message)
+#+BEGIN_SRC raku
+my @arr = "a", "b", "c", Pair.new('alpha','beta');
+my ($m, $n, $o    ) := @arr;
+##    Unexpected named argument 'alpha' passed
+#+END_SRC
+
+*** Anton topics:
+***** Number theory in Raku
+****** With pretty graphics
+******* https://www.wolframcloud.com/obj/antononcube/Published/Numerically-2026-is-unremarkable-yet-happy-Raku.nb
+******** better resolution version of the graph graphic:
+********* https://raw.githubusercontent.com/antononcube/RakuForPrediction-blog/9ad116dadc09437310a3f85c4bea3dfcb8090ff1/Articles/Diagrams/Numerically-2026-is-unremarkable-yet-happy/Happy-number-trails-upto-2026-graph.svg
+
+***** Better highlighter by- and with LLMs
+****** .. And CLI  for All.
+***** Using Raku in Wolfram notebooks
+***** An Emacs version with Babel-code
+******* https://orgmode.org/worg/org-contrib/babel/how-to-use-Org-Babel-for-R.html
+***** tree-sitter
+****** no bindings for raku as of yet
+****** https://tree-sitter.github.io/tree-sitter/using-parsers/queries/1-syntax.html
+****** written to the c11 standard
+******* https://en.wikipedia.org/wiki/C11_(C_standard_revision)
+****** Q: how is it possible is it possible Perl is supported? 
+******* I speculate: there's *static* parsing for perl that's very good (but not expected to be perfect)
+******* https://metacpan.org/pod/PPI
+******* used by perlcritic, for example 
+
+*** number theory: the old phedinkus? 
+**** https://mathworld.wolfram.com/NicomachussTheorem.html
+**** https://en.wikipedia.org/wiki/Nicomachus
+
+*** advent calendar piece by lizmat
+**** https://raku-advent.blog/2025/12/17/day-17-an-issue-with-evaluation/#respond
+**** Demo code
+***** https://github.com/doomvox/raku-study/tree/main/bin/2025dec21/array_to_list.raku
+**** ".splice" with no args returns entire list and zeroes it out
+**** "|| BEGIN ()" 
+***** hack to always return the *same* empty list rather than re-creating the object
+****** one hopes this will be obsolete some day
+**** ".List(:view)"
+***** okay: converts to a list, but what's ":view"?
+***** Bruce Gray looks up the source:
+****** https://github.com/rakudo/rakudo/blob/main/src/core.c/Array.rakumod#L468
+****** note: "is implementation-detail" -- that's a standard attribute
+
+*** pair constructor vs named arg and slurpy hash calls
+**** https://stackoverflow.com/questions/79849852/too-many-positionals-passed-error-with-slurpy-hash
+**** Demo of problem
+***** https://github.com/doomvox/raku-study/tree/main/bin/2025dec21/pair_constructor_vs_named_arg.raku
+
+*** slurpy signatures and multis
+**** TODO Q: can you use a "slurpy" in a sig to choose a multi to call?
+
+*** side discussion of games 
+**** https://www.answers.com/toys-and-games/What-is-the-strategy-for-playing-a-solitaire-game-with-all-cards-face-up
+**** https://solitairex.io/blog/how-to-play-face-up-solitaire
+**** https://www.eothello.com
+***** aka Reversi
+
+*** side discussion of the jvm dropping the "Security Manager"
+**** https://openjdk.org/jeps/486
+
+** open projects:
+*** links I expect to use again some day
+***** duckmap examples are here:
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
+***** Subtitle parsing
+****** https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
+
+** follow-up
+*** next time
+**** before starting meeting, warm-up on "advanced" screen sharing
+**** increase the font size in emacs
+*** TODO 
+**** new raku front page
+***** leading code snippet has an very obscure idiom
+
+*** TODO doc problems
+**** https://docs.raku.org/routine/duckmap
+**** Rat?  Not Numeric?
+**** Why changed data with changed code?
+**** Possibly, better examples?
+
+*** TODO start a people file already 
+**** farley
+***** apogee == matt dowdy
+***** librasteve == steve rowe
+***** jubilatious1 == william michels
+***** util == bruce gray
+***** 2colours == Marton Polgar  (with accented 'a' s)
+***** doom == doomvox == tailorpaul == joseph brenner == me
+***** antonov == anton antonov
+
+*** TODO
+**** look up the paper claiming people swearing by chatgpt advice are delusional
+
+
+
+** announcements 
+*** next meetings
+**** Jan  4, 2025
+**** Jan  18, 2025
