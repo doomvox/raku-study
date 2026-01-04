@@ -21,7 +21,7 @@
 ****** https://raku.land/zef:antononcube/JavaScript::D3
 
 *** function composition, function addition, functional decompositon
-**** o operator (in ascii form): "function composition operator"
+**** 'o' operator (in ascii form): "function composition operator"
 ***** https://docs.raku.org/routine/o,%20infix%20%E2%88%98
 
 ** old topics (TODO trim)
