@@ -16,7 +16,9 @@
 ** topics
 *** code highlighting, librasteve
 *** anton: graph generation puzzle, how sorted
-**** propose raku connectingto /using vs (js package)
+**** propose: Javascript::Vs (vs a good visualization js package)
+***** note Anton's
+****** https://raku.land/zef:antononcube/JavaScript::D3
 
 ** old topics (TODO trim)
 *** rob: bug with list binding inculding a pair value 
