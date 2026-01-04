@@ -22,7 +22,7 @@
 
 *** function composition, function addition, functional decompositon
 **** o operator (in ascii form)
-
+***** https://docs.raku.org/routine/o,%20infix%20%E2%88%98
 
 ** old topics (TODO trim)
 *** rob: bug with list binding inculding a pair value 
