@@ -20,7 +20,7 @@
 ***** note Anton's
 ****** https://raku.land/zef:antononcube/JavaScript::D3
 *** function composition, function addition
-
+**** o operator (in ascii form)
 
 ** old topics (TODO trim)
 *** rob: bug with list binding inculding a pair value 
