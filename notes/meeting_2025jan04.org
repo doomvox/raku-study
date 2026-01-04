@@ -14,7 +14,7 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-
+*** code highlighting, librasteve
 
 ** old topics (TODO trim)
 *** rob: bug with list binding inculding a pair value 
