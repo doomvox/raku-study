@@ -15,7 +15,7 @@
 
 ** topics
 *** code highlighting, librasteve
-*** anton: graph generation puzzle, how sorted
+*** anton: graph generation puzzle-- how sorted
 **** proposal: Javascript::Vs (vs a good visualization js package)
 ***** note Anton's
 ****** https://raku.land/zef:antononcube/JavaScript::D3
