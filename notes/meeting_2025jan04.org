@@ -18,7 +18,7 @@
 **** and sent it out late
 **** argh
 
-*** code highlighting, librasteve
+*** Anton mentions some code highlighting work librasteve
 
 *** anton: graph generation puzzle-- how sorted
 **** proposal: Javascript::Vs (vs a good visualization js package)
