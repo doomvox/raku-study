@@ -19,6 +19,7 @@
 **** argh
 
 *** anton discusses some code highlighting work by librasteve
+**** https://github.com/librasteve/Raku-Jupyter-Chatbook
 
 *** anton: presents a graph generation puzzle-- question: how was this sorted?
 **** He suggests there's a need for a Javascript::Vs ('vs' a visualization package in js)
@@ -28,6 +29,8 @@
 *** function composition, function addition, functional decompositon
 **** 'o' operator (in ascii form): "function composition operator"
 ***** https://docs.raku.org/routine/o,%20infix%20%E2%88%98
+
+
 
 
 ** old topics (TODO trim)
