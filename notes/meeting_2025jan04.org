@@ -14,7 +14,7 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** screwed up on the date of the annoucement: got Jan 3 not Jan 4
+*** screwed up on the date of the annoucement: used Jan 3 not Jan 4
 **** and sent it out late
 **** argh.
 
