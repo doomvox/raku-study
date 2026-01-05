@@ -20,7 +20,7 @@
 
 *** anton discusses some code highlighting work by librasteve
 
-*** anton: graph generation puzzle-- how sorted
+*** anton: presents a graph generation puzzle-- question: how was this sorted?
 **** proposal: Javascript::Vs (vs a good visualization js package)
 ***** note Anton's
 ****** https://raku.land/zef:antononcube/JavaScript::D3
