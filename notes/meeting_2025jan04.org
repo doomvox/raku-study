@@ -21,7 +21,7 @@
 *** anton discusses some code highlighting work by librasteve
 
 *** anton: presents a graph generation puzzle-- question: how was this sorted?
-**** he suggests there's a need for a Javascript::Vs ('vs' a visualization package in js
+**** He suggests there's a need for a Javascript::Vs ('vs' a visualization package in js)
 ***** Anton wrote this for 'd3':
 ****** https://raku.land/zef:antononcube/JavaScript::D3
 
