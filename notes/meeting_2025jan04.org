@@ -137,5 +137,4 @@ my ($m, $n, $o    ) := @arr;
 
 ** announcements 
 *** next meetings
-**** Jan  4, 2025
 **** Jan  18, 2025
