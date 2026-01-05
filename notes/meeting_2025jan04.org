@@ -16,7 +16,7 @@
 ** topics
 *** screwed up on the date of the annoucement: used Jan 3 not Jan 4
 **** and sent it out late
-**** argh.
+**** argh
 
 *** code highlighting, librasteve
 *** anton: graph generation puzzle-- how sorted
