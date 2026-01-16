@@ -14,6 +14,10 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
+*** Richard Hainsworth on RakuDoc
+**** https://coderlegion.com/9768/rakudoc-more-than-just-a-documentation-markup
+
+** old topics from Jan 4th
 
 *** anton discusses some code highlighting work by librasteve
 **** https://github.com/librasteve/Raku-Jupyter-Chatbook
