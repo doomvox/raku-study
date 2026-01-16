@@ -14,9 +14,6 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** screwed up on the date of the annoucement: used Jan 3 not Jan 4
-**** and sent it out late
-**** argh
 
 *** anton discusses some code highlighting work by librasteve
 **** https://github.com/librasteve/Raku-Jupyter-Chatbook
