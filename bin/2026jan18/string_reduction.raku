@@ -7,4 +7,4 @@ use v6;
 
 my $str = [~] <alpha beta gama>;
 
-say $str;
+say $str;  # alphabetagama
