@@ -20,7 +20,7 @@
 **** raku steering council
 ***** problem solving issues need more attention, recurring meetings
 
-*** Rob has something, but zoom interferes
+*** Rob suggests more boiler plate for the problem-solving 
 *** Richard Hainsworth on RakuDoc
 **** https://coderlegion.com/9768/rakudoc-more-than-just-a-documentation-markup
 
