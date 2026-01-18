@@ -4,15 +4,21 @@
 
 use v6;
 
+# spaces on quote like operators allowed here:
+
 my @a = qw<alpha beta gamma>;
 say @a;
 
 my @b = qw <alpha beta gamma>;
 say @b;
 
+
+# with parens, it's *required*
 my @c = qw (alpha beta gamma);
 say @c;
 
+
+# here it fails... looks like a sub-call:
 # my @d = qw(alpha beta gamma);
 # say @d;
 
