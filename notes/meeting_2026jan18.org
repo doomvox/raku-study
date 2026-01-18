@@ -28,7 +28,7 @@
 my $m = [+](@dataset) / $size;
 
 *** North American Perl and Raku complex
-**** late June
+**** will be in late June
 **** same place as last year
 
 *** Rob sizes of arrays, martices
