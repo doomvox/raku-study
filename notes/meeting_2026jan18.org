@@ -43,6 +43,9 @@ my $m = [+](@dataset) / $size;
 ****** https://github.com/Raku/doc/issues/4293
 ******* "Apparently, when classify or classify-list has a tester that returns an Iterable, the individual elements of it will be considered a classification hierarchy, and hence create a nested Hash. "
 
+*** lizmat, year in review
+**** https://raku-advent.blog/2025/12/25/day-25-raku-2025-review/
+
 *** Rob sizes of arrays, martices
 **** bruce's feeling is 2-d shaped arrays aren't working that well yet
 ***** but he hasn't checked in awhile
