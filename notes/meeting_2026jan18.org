@@ -49,7 +49,7 @@ my $m = [+](@dataset) / $size;
 ***** Anton has a use case involving hashes ordered by value 
 ****** python dicts
 ****** https://rakuforprediction.wordpress.com/2025/12/31/data-science-over-small-movie-dataset-part-2/
-****** recommendation systems
+******* recommendation systems
 
 *** Rob sizes of arrays, martices
 **** bruce's feeling is 2-d shaped arrays aren't working that well yet
