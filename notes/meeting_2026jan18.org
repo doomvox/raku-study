@@ -26,7 +26,8 @@
 ***** but he hasn't checked in awhile
 **** anton agrees
 ***** multi-d object arrays in raku seemd buggy
-***** 
+***** but sparse matrices are useful for data science
+****** there's a raku package that's good, but too heavy 
 
 *** Richard Hainsworth on RakuDoc
 **** https://coderlegion.com/9768/rakudoc-more-than-just-a-documentation-markup
