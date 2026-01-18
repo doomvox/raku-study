@@ -12,3 +12,6 @@ say @b;
 
 my @c = qw (alpha beta gamma);
 say @c;
+
+my @d = qw(alpha beta gamma);
+say @d;
