@@ -45,6 +45,9 @@ my $m = [+](@dataset) / $size;
 
 *** lizmat, year in review
 **** https://raku-advent.blog/2025/12/25/day-25-raku-2025-review/
+***** some discussion of Hash::Ordered
+***** Anton has a use case involving hashes ordered by value 
+****** python dicts
 
 *** Rob sizes of arrays, martices
 **** bruce's feeling is 2-d shaped arrays aren't working that well yet
