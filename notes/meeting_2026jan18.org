@@ -27,7 +27,7 @@
 ***** 
 my $m = [+](@dataset) / $size;
 
-*** North American Perl and Raku complex
+*** North American Perl and Raku conference
 **** will be in late June
 **** same place as last year
 
