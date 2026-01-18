@@ -33,6 +33,13 @@ my $m = [+](@dataset) / $size;
 
 **** same place as last year
 
+*** bruce upcoming talk idea
+**** https://docs.raku.org/routine/classify
+**** https://docs.raku.org/routine/classify-list
+**** https://docs.raku.org/routine/categorize
+**** https://docs.raku.org/routine/categorize-list
+
+
 *** Rob sizes of arrays, martices
 **** bruce's feeling is 2-d shaped arrays aren't working that well yet
 ***** but he hasn't checked in awhile
