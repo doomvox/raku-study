@@ -29,6 +29,8 @@ my $m = [+](@dataset) / $size;
 
 *** North American Perl and Raku conference
 **** will be in late June: June 26-28, 29(class) TPRC
+**** hackathon on 25th, most likely
+
 **** same place as last year
 
 *** Rob sizes of arrays, martices
