@@ -32,6 +32,8 @@
 ******* does have named rows and columns
 ****** dense matrices package
 ******* prefers named rows and columns
+****** Math::Matrix package makes up for problems with hyper ops on 
+****** Math::Matrix, Math::SparseMatrix
 
 *** Richard Hainsworth on RakuDoc
 **** https://coderlegion.com/9768/rakudoc-more-than-just-a-documentation-markup
