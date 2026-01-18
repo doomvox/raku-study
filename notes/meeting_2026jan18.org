@@ -20,6 +20,7 @@
 
 **** raku steering council
 ***** problem solving issues need more attention, recurring meetings
+***** lizmat blog post
 
 *** Bruce
 **** syntactic quirk here
