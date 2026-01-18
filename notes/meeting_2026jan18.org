@@ -50,6 +50,7 @@ my $m = [+](@dataset) / $size;
 ****** python dicts
 ****** https://rakuforprediction.wordpress.com/2025/12/31/data-science-over-small-movie-dataset-part-2/
 ******* recommendation systems
+******* wolfram: keysort
 
 *** Rob sizes of arrays, martices
 **** bruce's feeling is 2-d shaped arrays aren't working that well yet
