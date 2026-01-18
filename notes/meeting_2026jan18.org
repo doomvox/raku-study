@@ -26,7 +26,9 @@
 **** syntactic quirk here
 ***** https://rosettacode.org/wiki/Statistics/Normal_distribution#Raku
 ***** 
+#+BEGIN_SRC raku
 my $m = [+](@dataset) / $size;
+#+END_SRC
 
 *** North American Perl and Raku conference
 **** will be in late June: June 26-28, 29(class) TPRC
