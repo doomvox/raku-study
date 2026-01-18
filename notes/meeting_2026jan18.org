@@ -20,8 +20,8 @@
 **** raku steering council
 ***** problem solving issues need more attention, recurring meetings
 
-*** Rob suggests more boiler plate for the problem-solving issues
-**** suggestions about 
+*** Rob sizes of arrays, martices
+
 
 *** Richard Hainsworth on RakuDoc
 **** https://coderlegion.com/9768/rakudoc-more-than-just-a-documentation-markup
