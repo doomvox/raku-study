@@ -9,6 +9,11 @@ use v6;
 my $m = [+](@dataset) / $size;
 
 
+raku -e 'my @ds = 3,5,7; say  [+](@ds) / +@ds;'
+    5
+raku -e 'my @ds = 3,5,7; say  [+] (@ds) / +@ds;'
+    1
+
 
 # ====
 #  sheet of cheats
