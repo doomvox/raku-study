@@ -5,7 +5,7 @@
 use v6;
 
 
-my @a = qw(alpha beta gamma);
+my @a = Q(alpha beta gamma);
 say @a;
 
 # my @b = qw (alpha beta gamma);
