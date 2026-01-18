@@ -14,6 +14,7 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
+*** Rob has something, but zoom interferes
 *** Richard Hainsworth on RakuDoc
 **** https://coderlegion.com/9768/rakudoc-more-than-just-a-documentation-markup
 
