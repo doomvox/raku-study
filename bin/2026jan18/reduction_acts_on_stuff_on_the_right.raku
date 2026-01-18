@@ -4,7 +4,9 @@
 
 use v6;
 
-
+# Bruce makes the point that this gives you an average as is intended,
+# but reductions are often taught as acting on "everything to the right".
+# Parens change that, as in a subcall.
 
 my $m = [+](@dataset) / $size;
 
