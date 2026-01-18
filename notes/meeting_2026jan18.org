@@ -26,6 +26,13 @@
 *** Richard Hainsworth on RakuDoc
 **** https://coderlegion.com/9768/rakudoc-more-than-just-a-documentation-markup
 
+
+*** Anton Antonov
+
+**** I have two main show-&-tells:
+***** WWW::Ollama — LLM run locally
+***** Zeckendorf representations
+
 ** old topics from Jan 4th
 
 *** anton discusses some code highlighting work by librasteve
