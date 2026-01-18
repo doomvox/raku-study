@@ -24,6 +24,9 @@
 *** Rob sizes of arrays, martices
 **** bruce's feeling is 2-d shaped arrays aren't working that well yet
 ***** but he hasn't checked in awhile
+**** anton agrees
+***** multi-d object arrays in raku seemd buggy
+***** 
 
 *** Richard Hainsworth on RakuDoc
 **** https://coderlegion.com/9768/rakudoc-more-than-just-a-documentation-markup
