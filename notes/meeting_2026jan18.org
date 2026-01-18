@@ -28,7 +28,6 @@
 
 
 *** Anton Antonov
-
 **** I have two main show-&-tells:
 ***** WWW::Ollama — LLM run locally
 ***** Zeckendorf representations
