@@ -46,6 +46,7 @@ my $m = [+](@dataset) / $size;
 *** lizmat, year in review
 **** https://raku-advent.blog/2025/12/25/day-25-raku-2025-review/
 ***** some discussion of Hash::Ordered
+****** But there's also a Hash::Sorted
 ***** Anton has a use case involving hashes ordered by value 
 ****** python dicts
 ****** https://rakuforprediction.wordpress.com/2025/12/31/data-science-over-small-movie-dataset-part-2/
