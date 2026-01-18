@@ -39,6 +39,8 @@ my $m = [+](@dataset) / $size;
 **** https://docs.raku.org/routine/categorize
 **** https://docs.raku.org/routine/categorize-list
 **** and the concepts in general, e.g. "group by" in sql
+***** marton:
+****** https://github.com/Raku/doc/issues/4293
 
 *** Rob sizes of arrays, martices
 **** bruce's feeling is 2-d shaped arrays aren't working that well yet
