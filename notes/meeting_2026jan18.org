@@ -21,6 +21,10 @@
 **** raku steering council
 ***** problem solving issues need more attention, recurring meetings
 
+*** Bruce
+**** syntactic quirk here
+***** https://rosettacode.org/wiki/Statistics/Normal_distribution#Raku
+
 *** Rob sizes of arrays, martices
 **** bruce's feeling is 2-d shaped arrays aren't working that well yet
 ***** but he hasn't checked in awhile
