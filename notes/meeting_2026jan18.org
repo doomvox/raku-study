@@ -15,8 +15,8 @@
 
 ** topics
 *** Marton topics
-**** one for bill
-**** rosetta code topic
+**** one for bill (so for later?)
+**** A rosetta code topic
 
 **** raku steering council
 ***** problem solving issues need more attention, recurring meetings
