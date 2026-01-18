@@ -18,7 +18,7 @@
 **** one for bill
 **** one for bruce
 **** raku steering council
-***** 
+***** problem solving issues need more attention, recurring meetings
 
 *** Rob has something, but zoom interferes
 *** Richard Hainsworth on RakuDoc
