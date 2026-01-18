@@ -26,7 +26,7 @@ use Data::Dumper;
 
 
 my @words = <alpha beta gama>;
-
+say @words;
 
 
 
