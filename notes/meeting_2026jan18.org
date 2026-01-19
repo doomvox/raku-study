@@ -44,7 +44,7 @@ my $m = [+](@dataset) / $size;
 **** https://docs.raku.org/routine/categorize
 **** https://docs.raku.org/routine/categorize-list
 **** and the concepts in general, e.g. "group by" in sql
-***** marton:
+***** Márton Polgár: 
 ****** https://github.com/Raku/doc/issues/4293
 ******* "Apparently, when classify or classify-list has a tester that returns an Iterable, the individual elements of it will be considered a classification hierarchy, and hence create a nested Hash. "
 
