@@ -9,8 +9,10 @@ Upcoming meetings:
     *  https://us02web.zoom.us/j/85190626109?pwd=T6fMkbuqpWBDEQEdnnxWhuxlEcnyyh.1
 
 * Sunday February 01, 2026
-* Sunday February 15, 2026
+    * 
 
+* Sunday February 15, 2026
+    * 
 
 
 
