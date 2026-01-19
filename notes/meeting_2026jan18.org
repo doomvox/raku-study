@@ -80,29 +80,6 @@ my $m = [+](@dataset) / $size;
 ***** WWW::Ollama — LLM run locally
 ***** Zeckendorf representations
 
-** old topics from Jan 4th
-
-*** anton discusses some code highlighting work by librasteve
-**** https://github.com/librasteve/Raku-Jupyter-Chatbook
-
-*** anton: presents a graph generation puzzle-- question: how was this sorted?
-**** He suggests there's a need for a Javascript::Vs ('vs' a visualization package in js)
-***** Anton wrote this for 'd3':
-****** https://raku.land/zef:antononcube/JavaScript::D3
-
-*** long discussion of maze generation and solutions
-**** dungeons and dragons
-**** rule following 
-***** right hand/left hand
-***** the great "P" debate
-***** multidimensional mazes
-***** dynamic, mutable mazes
-
-*** function composition, function addition, functional decompositon
-**** 'o' operator (in ascii form): "function composition operator"
-***** https://docs.raku.org/routine/o,%20infix%20%E2%88%98
-
-
 *** tim schaefer 
 **** mojo: cross-platform gpu code
 
