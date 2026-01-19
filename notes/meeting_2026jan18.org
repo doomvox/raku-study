@@ -179,13 +179,13 @@ my ($m, $n, $o    ) := @arr;
 
 *** TODO start a people file already 
 **** farley
-***** apogee == matt dowdy
-***** librasteve == steve rowe
-***** jubilatious1 == william michels
-***** util == bruce gray
+***** apogee == Matt Dowdy
+***** librasteve == Steve Rowe
+***** jubilatious1 == William Michels
+***** util == Bruce Gray
 ***** 2colours == Márton Polgár
-***** doom == doomvox == tailorpaul == joseph brenner == me
-***** antonov == anton antonov
+***** doom == doomvox == tailorpaul == Joseph Brenner == me
+***** antonov == Anton Antonov
 
 *** TODO
 **** look up the paper claiming to show programmers that swear chatgpt is really helpful are exaggerating
