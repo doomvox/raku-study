@@ -115,7 +115,7 @@ my ($m, $n, $o    ) := @arr;
 ****** https://tree-sitter.github.io/tree-sitter/using-parsers/queries/1-syntax.html
 ****** written to the c11 standard
 ******* https://en.wikipedia.org/wiki/C11_(C_standard_revision)
-****** Q: how is it possible is it possible Perl is supported? 
+****** Q: how is it possible that Perl is supported? 
 ******* I speculate: there's *static* parsing for perl that's very good (but not expected to be perfect)
 ******* https://metacpan.org/pod/PPI
 ******* used by perlcritic, for example 
