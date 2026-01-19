@@ -146,12 +146,6 @@ my ($m, $n, $o    ) := @arr;
 *** slurpy signatures and multis
 **** TODO Q: can you use a "slurpy" in a sig to choose a multi to call?
 
-*** side discussion of games 
-**** https://www.answers.com/toys-and-games/What-is-the-strategy-for-playing-a-solitaire-game-with-all-cards-face-up
-**** https://solitairex.io/blog/how-to-play-face-up-solitaire
-**** https://www.eothello.com
-***** aka Reversi
-
 *** side discussion of the jvm dropping the "Security Manager"
 **** https://openjdk.org/jeps/486
 
