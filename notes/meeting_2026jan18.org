@@ -25,7 +25,7 @@
 *** Bruce
 **** syntactic quirk here
 ***** https://rosettacode.org/wiki/Statistics/Normal_distribution#Raku
-***** 
+***** reduction operators can act like function calls with arguments in parens
 #+BEGIN_SRC raku
 my $m = [+](@dataset) / $size;
 #+END_SRC
