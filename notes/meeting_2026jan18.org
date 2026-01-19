@@ -105,6 +105,9 @@ my $m = [+](@dataset) / $size;
 *** tim schaefer 
 **** mojo: cross-platform gpu code
 
+
+
+
 ** old topics (TODO trim)
 *** rob: bug with list binding inculding a pair value 
 **** https://github.com/doomvox/raku-study/tree/main/bin/2025dec21/binding_to_a_list_with_a_pair.raku
