@@ -31,14 +31,11 @@
 my $m = [+](@dataset) / $size;
 #+END_SRC
 
-*** North American Perl and Raku conference
+*** North American Perl and Raku conference (pre-annoucement)
 **** will be in late June: June 26-28, 29(class) TPRC
 **** hackathon on 25th, most likely
-
 **** same place as last year
-
 **** Keep an eye on (should be updated shortly):
-
 ***** https://tprc.us/tprc-2026-gsp
 
 *** bruce upcoming talk idea
