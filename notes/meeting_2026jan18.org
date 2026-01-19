@@ -38,7 +38,7 @@ my $m = [+](@dataset) / $size;
 **** Keep an eye on (should be updated shortly):
 ***** https://tprc.us/tprc-2026-gsp
 
-*** bruce upcoming talk idea
+*** Bruce Gray talk for the NAPR:
 **** https://docs.raku.org/routine/classify
 **** https://docs.raku.org/routine/classify-list
 **** https://docs.raku.org/routine/categorize
