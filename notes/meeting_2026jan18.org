@@ -14,7 +14,7 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** Marton topics
+*** Márton Polgár topics
 **** one for bill (so for later?)
 **** A rosetta code topic: 9 billion names of god
 ***** https://github.com/doomvox/raku-study/discussions/26
@@ -183,7 +183,7 @@ my ($m, $n, $o    ) := @arr;
 ***** librasteve == steve rowe
 ***** jubilatious1 == william michels
 ***** util == bruce gray
-***** 2colours == Marton Polgar  (with accented 'a' s)
+***** 2colours == Márton Polgár
 ***** doom == doomvox == tailorpaul == joseph brenner == me
 ***** antonov == anton antonov
 
