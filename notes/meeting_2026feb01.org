@@ -1,0 +1,187 @@
+* meeting notes January  18, 2025
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026feb01.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2026feb01
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026feb01.org 
+
+***** group discussions at github
+****** https://github.com/doomvox/raku-study/discussions 
+
+** topics
+*** Márton Polgár topics
+**** one for bill (so for later?)
+**** A rosetta code topic: 9 billion names of god
+***** https://github.com/doomvox/raku-study/discussions/26
+
+**** raku steering council
+***** problem solving issues need more attention, recurring meetings
+***** lizmat blog post
+
+*** Bruce
+**** syntactic quirk here
+***** https://rosettacode.org/wiki/Statistics/Normal_distribution#Raku
+***** reduction operators can act like function calls with arguments in parens
+#+BEGIN_SRC raku
+my $m = [+](@dataset) / $size;
+#+END_SRC
+
+*** North American Perl and Raku conference (pre-annoucement)
+**** will be in late June: June 26-28, 29(class) TPRC
+**** hackathon on 25th, most likely
+**** same place as last year
+**** Keep an eye on (should be updated shortly):
+***** https://tprc.us/tprc-2026-gsp
+
+*** Bruce Gray talk for the NAPR:
+**** https://docs.raku.org/routine/classify
+**** https://docs.raku.org/routine/classify-list
+**** https://docs.raku.org/routine/categorize
+**** https://docs.raku.org/routine/categorize-list
+**** and the concepts in general, e.g. "group by" in sql
+***** Márton Polgár: 
+****** https://github.com/Raku/doc/issues/4293
+******* "Apparently, when classify or classify-list has a tester that returns an Iterable, the individual elements of it will be considered a classification hierarchy, and hence create a nested Hash. "
+
+*** lizmat, year in review
+**** https://raku-advent.blog/2025/12/25/day-25-raku-2025-review/
+***** some discussion of Hash::Ordered
+****** Note: there's also a Hash::Sorted
+***** Anton has a use case involving hashes ordered by value 
+****** python dicts
+****** https://rakuforprediction.wordpress.com/2025/12/31/data-science-over-small-movie-dataset-part-2/
+******* recommendation systems
+******* wolfram: keysort
+
+*** Rob sizes of arrays, martices
+**** bruce's feeling is 2-d shaped arrays aren't working that well yet
+***** but he hasn't checked in awhile
+**** anton agrees
+***** multi-d object arrays in raku seemd buggy
+***** but sparse matrices are useful for data science
+****** there's a raku package that's good, but too heavy 
+******* doesn't like the way it changes operations, overwrites standard sigils
+******* does have named rows and columns
+****** dense matrices package
+******* prefers named rows and columns
+****** Math::Matrix package makes up for problems with hyper ops on 
+****** Math::Matrix, Math::SparseMatrix
+
+*** Richard Hainsworth on RakuDoc
+**** https://coderlegion.com/9768/rakudoc-more-than-just-a-documentation-markup
+
+*** Anton Antonov
+**** I have two main show-&-tells:
+***** WWW::Ollama — LLM run locally
+***** Zeckendorf representations
+
+*** tim schaefer 
+**** mojo: cross-platform gpu code
+
+** old topics (TODO trim)
+*** rob: bug with list binding including a pair value 
+**** https://github.com/doomvox/raku-study/tree/main/bin/2025dec21/binding_to_a_list_with_a_pair.raku
+
+**** Bruce variation (different error message)
+#+BEGIN_SRC raku
+my @arr = "a", "b", "c", Pair.new('alpha','beta');
+my ($m, $n, $o    ) := @arr;
+##    Unexpected named argument 'alpha' passed
+#+END_SRC
+
+*** Anton topics:
+***** Number theory in Raku
+****** With pretty graphics
+******* https://www.wolframcloud.com/obj/antononcube/Published/Numerically-2026-is-unremarkable-yet-happy-Raku.nb
+******** better resolution version of the graph graphic:
+********* https://raw.githubusercontent.com/antononcube/RakuForPrediction-blog/9ad116dadc09437310a3f85c4bea3dfcb8090ff1/Articles/Diagrams/Numerically-2026-is-unremarkable-yet-happy/Happy-number-trails-upto-2026-graph.svg
+
+***** Better highlighter by- and with LLMs
+****** .. And CLI  for All.
+***** Using Raku in Wolfram notebooks
+***** An Emacs version with Babel-code
+******* https://orgmode.org/worg/org-contrib/babel/how-to-use-Org-Babel-for-R.html
+***** tree-sitter
+****** no bindings for raku as of yet
+****** https://tree-sitter.github.io/tree-sitter/using-parsers/queries/1-syntax.html
+****** written to the c11 standard
+******* https://en.wikipedia.org/wiki/C11_(C_standard_revision)
+****** Q: how is it possible that Perl is supported? 
+******* I speculate: there's *static* parsing for perl that's very good (but not expected to be perfect)
+******* https://metacpan.org/pod/PPI
+******* used by perlcritic, for example 
+
+*** number theory: the old phedinkus? 
+**** https://mathworld.wolfram.com/NicomachussTheorem.html
+**** https://en.wikipedia.org/wiki/Nicomachus
+
+*** advent calendar piece by lizmat
+**** https://raku-advent.blog/2025/12/17/day-17-an-issue-with-evaluation/#respond
+**** Demo code
+***** https://github.com/doomvox/raku-study/tree/main/bin/2025dec21/array_to_list.raku
+**** ".splice" with no args returns entire list and zeroes it out
+**** "|| BEGIN ()" 
+***** hack to always return the *same* empty list rather than re-creating the object
+****** one hopes this will be obsolete some day
+**** ".List(:view)"
+***** okay: converts to a list, but what's ":view"?
+***** Bruce Gray looks up the source:
+****** https://github.com/rakudo/rakudo/blob/main/src/core.c/Array.rakumod#L468
+****** note: "is implementation-detail" -- that's a standard attribute
+
+*** pair constructor vs named arg and slurpy hash calls
+**** https://stackoverflow.com/questions/79849852/too-many-positionals-passed-error-with-slurpy-hash
+**** Demo of problem
+***** https://github.com/doomvox/raku-study/tree/main/bin/2025dec21/pair_constructor_vs_named_arg.raku
+
+*** slurpy signatures and multis
+**** TODO Q: can you use a "slurpy" in a sig to choose a multi to call?
+
+*** side discussion of the jvm dropping the "Security Manager"
+**** https://openjdk.org/jeps/486
+
+** open projects:
+*** links I expect to use again some day
+***** duckmap examples are here:
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
+***** Subtitle parsing
+****** https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
+
+** follow-up
+*** next time
+**** before starting meeting, warm-up on "advanced" screen sharing
+**** increase the font size in emacs
+*** TODO 
+**** new raku front page
+***** leading code snippet has an very obscure idiom
+
+*** TODO doc problems
+**** https://docs.raku.org/routine/duckmap
+**** Rat?  Not Numeric?
+**** Why changed data with changed code?
+**** Possibly, better examples?
+
+*** TODO start a people file already 
+**** farley
+***** apogee == Matt Dowdy
+***** librasteve == Steve Rowe
+***** jubilatious1 == William Michels
+***** util == Bruce Gray
+***** 2colours == Márton Polgár
+***** doom == doomvox == tailorpaul == Joseph Brenner == me
+***** antonov == Anton Antonov
+
+*** TODO
+**** look up the paper claiming to show programmers that swear chatgpt is really helpful are exaggerating
+
+
+
+** announcements 
+*** next meetings
+**** Feb  01, 2026
+**** Feb  15, 2026
