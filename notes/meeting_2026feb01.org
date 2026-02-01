@@ -17,7 +17,7 @@
 ** Kuhn, Masterman etc.
 
 ** Anton Antonov
-*** stuff
+*** stuff.  ask anton.
 *** copy editing jupyter notebooks
 **** speeding up publication of raku blog posts
 
