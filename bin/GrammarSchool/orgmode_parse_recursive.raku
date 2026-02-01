@@ -5,7 +5,7 @@
 
 # simplified task: parse org-mode file with headings alone
 
-# STATUS: not working, just thinking about it.
+# STATUS: NOT WORKING (just thinking about it)
 
 # goal get a recursive grammar working--
 #  some token will be defined (possibly indifectly) in terms of itself
