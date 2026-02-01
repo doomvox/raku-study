@@ -8,6 +8,8 @@
 # STATUS: this is a reasonable start, but I'm letting this version
 # stand as a record of a question that I have about it.
 
+use Grammar::Tracer;
+
 grammar OrgMode {
         token TOP { <tree> }
         token tree { <heading>+ }
