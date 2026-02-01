@@ -35,6 +35,8 @@
 *** Trivial raw beginner questions that  someone might just know.  
 **** Red, htmx, websockets
 
+** David:
+*** I have a question about delayed functions
 
 ** older topics
 *** Márton Polgár topics
