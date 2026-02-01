@@ -15,7 +15,6 @@ grammar OrgMode {
         token stars <[*]>+?
         token indent { ^^ <after \s*> <stars> <before \s+> }
 
-
         ## heading text is one line, so ends at a newline
 
 #        rule headtext { .* $$  } ## '$$' is eol, correct?  but this slurps all the way to eof.
