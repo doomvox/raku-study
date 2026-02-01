@@ -26,6 +26,7 @@
 **** thinking in parallel
 *** MCP raku package
 **** made with LLMs
+***** one tell: it's exhaustive, tries things every way
 **** MCPs are for LLMs, as opposed to APIs
 *** speed-up visualization of raku benchmarking
 
