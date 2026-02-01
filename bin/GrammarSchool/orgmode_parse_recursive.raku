@@ -1,11 +1,9 @@
 #!/usr/bin/raku
 
 # orgmode_parse_recursive.raku
-#   forked from back_to_grammar_school-orgmode_babysteps.raku
-#    Monday October 27, 2025   6:28 PM
 # Saturday November  8, 2025  10:00 PM
 
-# STATUS: simple grammar that works on text containing org-mode headings alone
+# simplified task: parse org-mode file with headings alone
 
 grammar orgmode {
         token TOP { <heading>+ }
