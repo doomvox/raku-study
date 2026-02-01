@@ -5,6 +5,9 @@
 
 # simplified task: parse org-mode file with headings alone
 
+# STATUS: not working, just thinking about it.
+
+
 grammar orgmode {
         token TOP { <heading>+ }
         token heading { <indent> \s* <headtext>}
