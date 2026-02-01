@@ -16,6 +16,8 @@
 
 ** Kuhn, Masterman etc.
 
+** Grammar School
+
 ** Anton Antonov
 *** stuff.  ask anton.
 *** copy editing jupyter notebooks
@@ -25,6 +27,7 @@
 *** MCP raku package
 **** made with LLMs
 **** MCPs are for LLMs, as opposed to APIs
+*** speed-up visualization of raku benchmarking
 
 ** older topics
 *** Márton Polgár topics
