@@ -17,7 +17,7 @@ grammar OrgMode {
         token stars { '*'+ }
         token indent { ^^ \s* <stars> }
 
-        rule headtext { \N+  }  ## a heading ends at eol, so anything not a newline?
+        token headtext { \N+  }  ## a heading ends at eol, so anything not a newline?
 
         ## heading text is one line, so ends at a newline
 
