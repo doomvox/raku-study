@@ -20,7 +20,7 @@
 *** stuff.  ask anton.
 *** copy editing jupyter notebooks
 **** speeding up publication of raku blog posts
-
+*** cyclic graphs maybe not needed in agentic AI
 
 ** older topics
 *** Márton Polgár topics
