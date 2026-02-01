@@ -25,8 +25,7 @@ my $dat_loc = $*PROGRAM.parent.add('dat');
 chdir( $dat_loc );
 
 {
-#       my $file = "/home/doom/End/Cave/Ice/Xtal/Raku/grammar.org";
-        my $file = "/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2025Nov02/dat/simple.org";
+        my $file = "simple.org";
         my $raw = $file.IO.slurp.chomp;
         say "===";
         say $raw;
