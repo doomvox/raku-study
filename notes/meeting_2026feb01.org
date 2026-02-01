@@ -14,6 +14,9 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
+** Kuhn, Masterman etc.
+
+
 ** older topics
 *** Márton Polgár topics
 **** one for bill (so for later?)
