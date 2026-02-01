@@ -47,6 +47,7 @@ chdir( $dat_loc );
 
         my $o = OrgMode.parse( $raw );
         say $o;
+        say $/;
 
 #         for $o.<heading> -> $h {
 #            say "indent: ",  $h.<indent>;
