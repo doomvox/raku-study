@@ -34,6 +34,7 @@
 *** Trivial raw beginner questions that  someone might just know.  
 **** Red, htmx, websockets
 
+
 ** older topics
 *** Márton Polgár topics
 **** one for bill (so for later?)
