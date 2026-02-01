@@ -36,12 +36,12 @@ chdir( $dat_loc );
         say "===";
 
         my $o = orgmode.parse( $raw );
-#        say $o;
-        for $o.<heading> -> $h {
-           say "indent: ",    $h.<indent>;
-           say "headtext: ",  $h.<headtext>;
-           say "---";
-        }   
+        say $o;
+#         for $o.<heading> -> $h {
+#            say "indent: ",    $h.<indent>;
+#            say "headtext: ",  $h.<headtext>;
+#            say "---";
+#         }   
 
 
 }
