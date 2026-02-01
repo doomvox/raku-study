@@ -21,6 +21,7 @@
 *** copy editing jupyter notebooks
 **** speeding up publication of raku blog posts
 *** cyclic graphs maybe not needed in agentic AI
+*** MCP raku package-- made with LLMs
 
 ** older topics
 *** Márton Polgár topics
