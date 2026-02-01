@@ -23,6 +23,7 @@
 *** cyclic graphs maybe not needed in agentic AI
 *** MCP raku package
 **** made with LLMs
+**** MCPs are for LLMs, as opposed to APIs
 
 ** older topics
 *** Márton Polgár topics
