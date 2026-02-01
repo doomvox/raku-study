@@ -1,7 +1,8 @@
 #!/usr/bin/raku
 
 # back_to_grammar_school-orgmode_babysteps.raku
-# Monday October 27, 2025   6:28 PM
+# Monday October  27, 2025   6:28 PM
+# Sunday February  1, 2026  12:27 PM
 
 # STATUS: this is a reasonable start, but I'm letting this version
 # stand as a record of a question that I have about it.
