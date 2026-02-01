@@ -9,7 +9,9 @@
 # stand as a record of a question that I have about it.
 
 grammar OrgMode {
-        token TOP { <heading>+ }
+        token TOP { <tree> \n }
+
+        token tree { <heading>+ }
         token heading { <indent> \s* <headtext>}
 #        token indent { ^^ \s* <[*]>*? <before \s+> }
         token stars { '*'+ }
