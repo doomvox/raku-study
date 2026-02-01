@@ -16,7 +16,6 @@ grammar orgmode {
         # heading text is one line, so ends at a newline
         rule headtext { \N*  }  ## anything that's not a newline
 
-
         ## has to be a "rule: whitespace is significant (right?)
 
 }
