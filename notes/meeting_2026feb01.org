@@ -17,6 +17,7 @@
 ** Kuhn, Masterman etc.
 
 ** Grammar School
+*** "% \n" trick to allow optional final blank lines
 
 ** Anton Antonov
 *** stuff.  ask anton.
