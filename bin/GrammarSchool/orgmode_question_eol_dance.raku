@@ -13,7 +13,7 @@ use Grammar::Tracer;
 grammar OrgMode {
 #        rule TOP { <tree> .* }
 #        rule tree { 
-       rule TOP { <heading>+ }
+        rule TOP { <heading>+ }
         token heading { <indent> \s* <headtext> \n }
         token stars { '*'+ }
         token indent { ^^ \s* <stars> }
