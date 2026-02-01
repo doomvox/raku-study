@@ -7,9 +7,10 @@
 
 # STATUS: not working, just thinking about it.
 
-# approach: change definition of a heading to
+# approach: need a definition (redfine 'heading'?) that matches 
 # an indent, heading text, *and* a following tree
 # maybe: heading text matches up to another indent or the eof
+
 
 grammar orgmode {
         token TOP { <heading>+ }
