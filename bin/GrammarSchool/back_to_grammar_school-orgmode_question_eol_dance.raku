@@ -1,6 +1,7 @@
 #!/usr/bin/raku
 
-# back_to_grammar_school-orgmode_babysteps.raku
+# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/GrammarSchool/back_to_grammar_school-orgmode_question_eol_dance.raku
+# (was back_to_grammar_school-orgmode_babysteps.raku)
 # Monday October  27, 2025   6:28 PM
 # Sunday February  1, 2026  12:27 PM
 
