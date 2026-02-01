@@ -16,7 +16,7 @@
 
 
 grammar orgmode {
-        token TOP { <heading>+ }
+        token TOP { <tree> }
         token heading { <indent> \s* <headtext>}
         token indent { ^^ \s* <[*]>+? <before \s+> }
 
