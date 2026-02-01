@@ -11,8 +11,3 @@
 **** structure means "hierarchies and lists", right?
 ***** TODO how about graphs (in general, not just DAGs)
 *** new header
-List of stuff
-- one item
-- two item
-- three item
-  
