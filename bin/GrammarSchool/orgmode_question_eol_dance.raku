@@ -17,6 +17,10 @@ grammar OrgMode {
         token stars { '*'+ }
         token indent { ^^ \s* <stars> }
 
+        rule headtext { \N+  }  ## a heading ends at eol, so anything not a newline?
+                                ## *This* works, but why didn't the last try work?
+
+
         ## heading text is one line, so ends at a newline
 
 #        rule headtext { .* $$  } ## '$$' is eol, correct?  but this slurps all the way to eof.
