@@ -17,7 +17,6 @@ grammar OrgMode {
         token indent { ^^ \s* <stars> }
 
         token headtext { \N+  }  
-
 }
 my $dat_loc = $*PROGRAM.parent.add('dat');
 chdir( $dat_loc );
