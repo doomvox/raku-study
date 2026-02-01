@@ -25,11 +25,11 @@ grammar OrgMode {
 
 #        rule headtext { .*? $$  }  
 
-#        rule headtext { \N*  }  ## a heading ends at eol, so anything not a newline?
+        rule headtext { \N*  }  ## a heading ends at eol, so anything not a newline?
                                 ## *This* works, but why didn't the last try work?
 
 #        rule headtext { .*? \N }  
-        rule headtext { .*? }  
+#        rule headtext { .*? }  
 
         ## Also note that "token" doesn't work here, it has to be a "rule: 
         ## because we're treating whitespace as significant, right?
