@@ -8,7 +8,7 @@
 # STATUS: this is a reasonable start, but I'm letting this version
 # stand as a record of a question that I have about it.
 
-grammar orgmode {
+grammar OrgMode {
         token TOP { <heading>+ }
         token heading { <indent> \s* <headtext>}
         token indent { ^^ \s* <[*]>+? <before \s+> }
@@ -38,7 +38,7 @@ chdir( $dat_loc );
         say $raw;
         say "===";
 
-        my $o = orgmode.parse( $raw );
+        my $o = OrgMode.parse( $raw );
 #        say $o;
         for $o.<heading> -> $h {
            say "indent: ",  $h.<indent>;
