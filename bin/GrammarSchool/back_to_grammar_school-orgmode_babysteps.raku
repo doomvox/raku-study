@@ -16,7 +16,7 @@ grammar orgmode {
 
 #        rule headtext { .* $$  } ## '$$' is eol, correct?  but this slurps all the way to eof.
                                   ## ah: there *is* *a* line ending at eof,
-                                  ## greedy matches skip past all of them.  
+                                  ## but greedy matches skip past all of them.  
 
 #        rule headtext { .*? $$  }  
 
