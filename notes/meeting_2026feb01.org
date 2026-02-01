@@ -31,8 +31,8 @@
 *** speed-up visualization of raku benchmarking
 
 ** Rob:
-*** Trivial raw beginner questions that  someone might just know.  Red, htmx, websockets.
-
+*** Trivial raw beginner questions that  someone might just know.  
+**** Red, htmx, websockets
 
 ** older topics
 *** Márton Polgár topics
