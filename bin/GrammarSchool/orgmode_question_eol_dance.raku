@@ -11,7 +11,7 @@
 use Grammar::Tracer;
 
 grammar OrgMode {
-        rule TOP { <heading>+ %\n }
+        rule TOP { <heading>+ % \n }
         token heading { <indent> \s* <headtext> }
         token stars { '*'+ }
         token indent { ^^ \s* <stars> }
