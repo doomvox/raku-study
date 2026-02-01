@@ -18,6 +18,7 @@
 
 ** Anton Antonov
 *** stuff
+*** copy editing jupyter notebooks
 
 ** older topics
 *** Márton Polgár topics
