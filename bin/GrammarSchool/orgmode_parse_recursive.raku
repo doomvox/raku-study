@@ -7,9 +7,9 @@
 
 # STATUS: not working, just thinking about it.
 
-# approach: need a definition (redfine 'heading'?) that matches 
+# approach: need a definition (maybe a 'tree') that matches 
 # an indent, heading text, *and* a following tree
-# maybe: heading text matches up to another indent or the eof
+# maybe: heading text matches up to another indent (or the eof)
 
 
 grammar orgmode {
