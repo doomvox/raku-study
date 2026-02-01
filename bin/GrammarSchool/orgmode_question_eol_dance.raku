@@ -16,10 +16,9 @@ grammar OrgMode {
         token stars { '*'+ }
         token indent { ^^ \s* <stars> }
 
-        token headtext { \N+  }  ## a heading ends at eol, so anything not a newline?
+        token headtext { \N+  }  
 
 }
-
 my $dat_loc = $*PROGRAM.parent.add('dat');
 chdir( $dat_loc );
 
