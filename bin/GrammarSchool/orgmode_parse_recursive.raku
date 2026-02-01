@@ -10,7 +10,7 @@
 # goal get a recursive grammar working--
 #  some token will be defined (possibly indifectly) in terms of itself
 
-# approach: need a definition (maybe a 'tree') that matches 
+# need a definition of something (maybe a 'tree') that matches 
 # an indent, heading text, *and* a following tree
 # maybe: heading text matches up to another indent (or the eof)
 
