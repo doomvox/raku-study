@@ -15,7 +15,6 @@ grammar OrgMode {
         token heading { <indent> \s* <headtext> \n }
         token stars { '*'+ }
         token indent { ^^ \s* <stars> }
-
         token headtext { \N+  }  
 }
 my $dat_loc = $*PROGRAM.parent.add('dat');
