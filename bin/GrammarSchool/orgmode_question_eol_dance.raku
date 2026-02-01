@@ -10,7 +10,7 @@
 
 grammar OrgMode {
         token TOP { <tree> }
-        token tree { <heading>+ \n }
+        token tree { <heading>+  }
         token heading { <indent> \s* <headtext>}
 #        token indent { ^^ \s* <[*]>*? <before \s+> }
         token stars { '*'+ }
