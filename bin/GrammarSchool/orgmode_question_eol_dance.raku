@@ -11,8 +11,8 @@
 grammar OrgMode {
         token TOP { <heading>+ }
         token heading { <indent> \s* <headtext>}
-#        token indent { ^^ \s* <[*]>+? <before \s+> }
-        token stars { '*'+? }
+#        token indent { ^^ \s* <[*]>*? <before \s+> }
+        token stars { '*'* }
         token indent { ^^ <after \s*> <stars> <before \s+> }
 
         ## heading text is one line, so ends at a newline
