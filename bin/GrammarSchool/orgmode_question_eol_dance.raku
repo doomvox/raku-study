@@ -48,11 +48,11 @@ chdir( $dat_loc );
         my $o = OrgMode.parse( $raw );
         say $o;
 
-        for $o.<heading> -> $h {
-           say "indent: ",  $h.<indent>;
-           say "headtext: ",  $h.<headtext>;
-           say "---";
-        }   
+#         for $o.<heading> -> $h {
+#            say "indent: ",  $h.<indent>;
+#            say "headtext: ",  $h.<headtext>;
+#            say "---";
+#         }   
 
 
 }
