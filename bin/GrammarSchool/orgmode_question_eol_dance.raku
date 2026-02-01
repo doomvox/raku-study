@@ -12,7 +12,7 @@ grammar OrgMode {
         token TOP { <heading>+ }
         token heading { <indent> \s* <headtext>}
         token indent { ^^ \s* <[*]>+? <before \s+> }
-
+        token indent { ^^ <after \s*> <[*]>+? <before \s+> }
 
         ## heading text is one line, so ends at a newline
 
