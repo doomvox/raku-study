@@ -30,6 +30,10 @@
 **** MCPs are for LLMs, as opposed to APIs
 *** speed-up visualization of raku benchmarking
 
+** Rob:
+*** Trivial raw beginner questions that  someone might just know.  Red, htmx, websockets.
+
+
 ** older topics
 *** Márton Polgár topics
 **** one for bill (so for later?)
