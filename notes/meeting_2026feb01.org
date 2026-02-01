@@ -34,6 +34,10 @@
 ** Rob:
 *** Trivial raw beginner questions that  someone might just know.  
 **** Red, htmx, websockets
+***** looking for layout flexibility
+
+**** bruce points out there's new CSS features
+***** css grid
 
 ** David:
 *** I have a question about delayed functions
