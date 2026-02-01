@@ -15,7 +15,7 @@ grammar OrgMode {
         token tree { <heading>+ }
         token heading { <indent> \s* <headtext> \n }
         token stars { '*'+ }
-        token indent { ^^ <after \s*> <stars> }
+        token indent { ^^ \s* <stars> }
 
         ## heading text is one line, so ends at a newline
 
