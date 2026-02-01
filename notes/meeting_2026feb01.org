@@ -19,6 +19,7 @@
 ** Anton Antonov
 *** stuff
 *** copy editing jupyter notebooks
+**** speeding up publication of raku blog posts
 
 ** older topics
 *** Márton Polgár topics
