@@ -17,6 +17,11 @@ grammar OrgMode {
         rule headtext { \N*  }  ## anything that's not a newline
 }
 
+class Actions {
+    method indent { ... }
+}
+
+
 my $dat_loc = $*PROGRAM.parent.add('dat');
 chdir( $dat_loc );
 
