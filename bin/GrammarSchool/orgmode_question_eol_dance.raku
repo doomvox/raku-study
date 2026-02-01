@@ -20,19 +20,6 @@ grammar OrgMode {
 
         token headtext { \N+  }  ## a heading ends at eol, so anything not a newline?
 
-        ## heading text is one line, so ends at a newline
-
-#        rule headtext { .* $$  } ## '$$' is eol, correct?  but this slurps all the way to eof.
-                                  ## ah: there *is* *a* line ending at eof,
-                                  ## but greedy matches skip past all of them.  
-
-#        rule headtext { .*? $$  }  
-
-#        rule headtext { .*? \N }  
-#        rule headtext { .*? }  
-
-        ## Also note that "token" doesn't work here, it has to be a "rule: 
-        ## because we're treating whitespace as significant, right?
 }
 
 my $dat_loc = $*PROGRAM.parent.add('dat');
