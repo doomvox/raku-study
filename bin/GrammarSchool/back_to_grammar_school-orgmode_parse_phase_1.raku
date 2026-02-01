@@ -19,9 +19,6 @@ grammar orgmode {
 
         ## has to be a "rule: whitespace is significant (right?)
 
-        ## has to be a "rule: 
- ## because we're treating whitespace as significant
-
 }
 
 {
