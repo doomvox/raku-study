@@ -21,6 +21,7 @@
 *** copy editing jupyter notebooks
 **** speeding up publication of raku blog posts
 *** cyclic graphs maybe not needed in agentic AI
+**** thinking in parallel
 *** MCP raku package
 **** made with LLMs
 **** MCPs are for LLMs, as opposed to APIs
