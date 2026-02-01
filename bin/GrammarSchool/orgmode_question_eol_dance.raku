@@ -1,4 +1,4 @@
-#!/usr/bin/raku
+#!/home/doom/Dust/Sys/Raku/rakudo-star-2023.02/bin/raku
 
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/GrammarSchool/back_to_grammar_school-orgmode_question_eol_dance.raku
 # (was back_to_grammar_school-orgmode_babysteps.raku)
