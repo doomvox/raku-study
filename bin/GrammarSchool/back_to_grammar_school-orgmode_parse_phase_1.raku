@@ -17,7 +17,6 @@ grammar orgmode {
         rule headtext { \N*  }  ## anything that's not a newline
 
         ## has to be a "rule: whitespace is significant (right?)
-
 }
 
 my $dat_loc = $*PROGRAM.parent.add('dat');
