@@ -25,7 +25,7 @@ grammar OrgMode {
 
 #        rule headtext { .*? $$  }  
 
-        rule headtext { \N  }  ## a heading ends at eol, so anything not a newline?
+        rule headtext { \N+  }  ## a heading ends at eol, so anything not a newline?
                                 ## *This* works, but why didn't the last try work?
 
 #        rule headtext { .*? \N }  
