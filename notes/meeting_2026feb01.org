@@ -55,10 +55,10 @@ _Criticism and the Growth of Knowledge_ (1970):
 *** speed-up visualization of raku benchmarking
 
 ** Rob:
-*** Trivial raw beginner questions that  someone might just know.  
+*** questions  someone might just know.  
 **** Red, htmx, websockets
 ***** looking for layout flexibility
-**** bruce points out there's new CSS features
+**** bruce points out there's a lot of new CSS features
 ***** css grid
 
 ** David:
