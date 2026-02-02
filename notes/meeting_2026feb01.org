@@ -14,7 +14,22 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
-** The Margaret Masterman quote in the meeting annoucement:
+** Margaret Masterman, Thomas Kuhn, paradigms
+*** the quote in the meeting annoucement:
+Margaret Masterman, "The Nature of a Paradigm",
+_Criticism and the Growth of Knowledge_ (1970):
+
+    "This pre-scientific and philosophic state of affairs sharply
+    contrasts, however, with _multi-paradigm science_, with that state
+    of affairs in which, far from there being no paradigm, there are
+    on the contrary too many.  (This is the present overall situation
+    in the psychological, social and information sciences.)  ... each
+    sub-field as defined by its technique is so obviously more trivial
+    and narrow than the field as defined by intuition, and also the
+    various operational definitions given by the techniques are so
+    grossly discordant with one another, that discussion on
+    fundamentals remains, and long-run progress (as opposed to local
+    progress) fails to occur."
 
 
 ** Grammar School
