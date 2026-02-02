@@ -39,7 +39,10 @@
 ***** css grid
 
 ** David:
-*** I have a question about delayed functions
+*** question about "delayed functions"
+**** e.g. succinct naming 
+***** closure
+***** lambda
 
 ** older topics
 *** Márton Polgár topics
