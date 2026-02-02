@@ -67,6 +67,7 @@ _Criticism and the Growth of Knowledge_ (1970):
 ***** closure
 ***** lambda
 
+
 ** older topics
 *** Márton Polgár
 **** one for William Michels
