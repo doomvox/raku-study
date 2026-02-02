@@ -32,9 +32,10 @@ _Criticism and the Growth of Knowledge_ (1970):
     fundamentals remains, and long-run progress (as opposed to local
     progress) fails to occur."
 #+END_SRC
-*** this paper was presneted at a 1965 conference
+*** this paper was presented at a 1965 conference
 **** back then, as now, there was a diverse range of "paradigms" for programming
 **** Raku: a multiparadigm language
+**** Note: includes discussion about programmatic identification of new paradigms
 
 *** Masterman famous for identifing 20+ meanings of "paradigm" in play in Kuhn's "Structure"
 
