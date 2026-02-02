@@ -32,6 +32,11 @@ _Criticism and the Growth of Knowledge_ (1970):
     fundamentals remains, and long-run progress (as opposed to local
     progress) fails to occur."
 #+END_SRC
+*** this paper was presneted at a 1965 conference
+**** back then, as now, there was a diverse range of "paradigms" for programming
+**** Raku: a multiparadigm language
+
+*** Masterman famous for identifing 20+ meanings of "paradigm" in play in Kuhn's "Structure"
 
 ** Grammar School
 *** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
