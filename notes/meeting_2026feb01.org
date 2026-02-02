@@ -61,7 +61,7 @@ _Criticism and the Growth of Knowledge_ (1970):
 **** bruce points out there's a lot of new CSS features
 ***** css grid
 
-** David:
+** David Christensen:
 *** question about "delayed functions"
 **** e.g. succinct naming 
 ***** closure
