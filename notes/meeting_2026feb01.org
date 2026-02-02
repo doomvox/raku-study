@@ -14,7 +14,8 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
-** Kuhn, Masterman etc.
+** The Margaret Masterman quote in the meeting annoucement:
+
 
 ** Grammar School
 *** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
