@@ -20,7 +20,7 @@
 *** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
 *** "% \n" trick to allow optional final blank lines
 
-** Anton Antonov
+** Anton Antonov ideas
 *** copy editing jupyter notebooks
 **** speeding up publication of raku blog posts
 *** cyclic graphs maybe not needed in agentic AI
