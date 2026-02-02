@@ -45,8 +45,8 @@
 ***** lambda
 
 ** older topics
-*** Márton Polgár topics
-**** one for bill (so for later?)
+*** Márton Polgár
+**** one for William Michels
 **** A rosetta code topic: 9 billion names of god
 ***** https://github.com/doomvox/raku-study/discussions/26
 
@@ -58,12 +58,6 @@
 my $m = [+](@dataset) / $size;
 #+END_SRC
 
-*** North American Perl and Raku conference (pre-annoucement)
-**** will be in late June: June 26-28, 29(class) TPRC
-**** hackathon on 25th, most likely
-**** same place as last year
-**** Keep an eye on (should be updated shortly):
-***** https://tprc.us/tprc-2026-gsp
 
 *** Bruce Gray talk for the NAPR:
 **** https://docs.raku.org/routine/classify
@@ -212,3 +206,10 @@ my ($m, $n, $o    ) := @arr;
 *** next meetings
 **** Feb  01, 2026
 **** Feb  15, 2026
+*** North American Perl and Raku conference 
+**** will be in late June: June 26-28, 29(class) TPRC
+**** hackathon on 25th, most likely
+**** same place as last year
+**** Keep an eye on (should be updated shortly):
+***** https://tprc.us/tprc-2026-gsp
+
