@@ -16,6 +16,7 @@
 
 ** Margaret Masterman, Thomas Kuhn, paradigms
 *** the quote in the meeting annoucement:
+#+BEGIN_SRC txt
 Margaret Masterman, "The Nature of a Paradigm",
 _Criticism and the Growth of Knowledge_ (1970):
 
@@ -30,7 +31,7 @@ _Criticism and the Growth of Knowledge_ (1970):
     grossly discordant with one another, that discussion on
     fundamentals remains, and long-run progress (as opposed to local
     progress) fails to occur."
-
+#+END_SRC
 
 ** Grammar School
 *** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
