@@ -50,7 +50,6 @@
 **** A rosetta code topic: 9 billion names of god
 ***** https://github.com/doomvox/raku-study/discussions/26
 
-
 *** Bruce
 **** syntactic quirk here
 ***** https://rosettacode.org/wiki/Statistics/Normal_distribution#Raku
