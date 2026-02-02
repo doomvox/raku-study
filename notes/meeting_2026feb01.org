@@ -37,7 +37,7 @@ _Criticism and the Growth of Knowledge_ (1970):
 **** Raku: a multiparadigm language
 **** Note: includes discussion about programmatic identification of new paradigms
 *** Masterman famous for identifing 20+ meanings of "paradigm" in play in Kuhn's "Structure"
-**** Kuhn cites it in a discussion if why he's given up control of the meaning of it
+**** Kuhn cites it in a discussion if why he's given up control of the meaning of "paradigm"
 
 ** Grammar School
 *** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
