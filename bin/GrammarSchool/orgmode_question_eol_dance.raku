@@ -5,7 +5,7 @@
 # Monday October  27, 2025   6:28 PM
 # Sunday February  1, 2026  12:27 PM
 
-# STATUS: a working first cut, with the help of the Raku Study Group
+# STATUS: a working first cut, with the help of the Raku Study Group.
 # Note the final fix contribute by Bruce Gray, TOP does a % \n, subdividing
 # on newline separators where the final separator is *optional*.
 
