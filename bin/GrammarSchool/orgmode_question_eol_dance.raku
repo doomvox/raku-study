@@ -5,8 +5,9 @@
 # Monday October  27, 2025   6:28 PM
 # Sunday February  1, 2026  12:27 PM
 
-# STATUS: this is a reasonable start, but I'm letting this version
-# stand as a record of a question that I have about it.
+# STATUS: a working first cut, with the help of the Raku Study Group
+# Note the final fix contribute by Bruce Gray, TOP does a % \n, subdividing
+# on newline separators where the final separator is *optional*.
 
 use Grammar::Tracer;
 
