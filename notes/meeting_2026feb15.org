@@ -22,32 +22,37 @@
 *** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
 **** "% \n" trick to allow optional final blank lines
 
-** Anton Antonov ideas
-*** copy editing jupyter notebooks
-**** speeding up publication of raku blog posts
-*** cyclic graphs maybe not needed in agentic AI
-**** thinking in parallel
-*** MCP raku package
-**** made with LLMs
-***** one tell: it's exhaustive, tries things every way
-**** MCPs are for LLMs, as opposed to APIs
-*** speed-up visualization of raku benchmarking
-
-** Rob:
-*** questions  someone might just know.  
-**** Red, htmx, websockets
-***** looking for layout flexibility
-**** bruce points out there's a lot of new CSS features
-***** css grid
-
-** David Christensen:
-*** question about "delayed functions"
-**** e.g. succinct naming 
-***** closure
-***** lambda
 
 
-** older topics
+
+** Old topics from an era gone by
+
+*** Anton Antonov ideas
+**** copy editing jupyter notebooks
+***** speeding up publication of raku blog posts
+**** cyclic graphs maybe not needed in agentic AI
+***** thinking in parallel
+**** MCP raku package
+***** made with LLMs
+****** one tell: it's exhaustive, tries things every way
+***** MCPs are for LLMs, as opposed to APIs
+**** speed-up visualization of raku benchmarking
+
+*** Rob:
+**** questions  someone might just know.  
+***** Red, htmx, websockets
+****** looking for layout flexibility
+***** bruce points out there's a lot of new CSS features
+****** css grid
+
+*** David Christensen:
+**** question about "delayed functions"
+***** e.g. succinct naming 
+****** closure
+****** lambda
+
+
+** evne older topics
 *** Márton Polgár
 **** one for William Michels
 **** A rosetta code topic: 9 billion names of god
