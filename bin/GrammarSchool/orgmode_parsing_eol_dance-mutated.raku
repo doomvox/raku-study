@@ -46,7 +46,6 @@ class OrgModeActions {
         my $oma = OrgModeActions.new;
         my $o = OrgMode.parse( $raw, actions => $oma ).made;    
 
-
         say $o;
         say "===";
         say $o.made;
