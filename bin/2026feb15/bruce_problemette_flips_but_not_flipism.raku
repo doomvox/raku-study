@@ -19,7 +19,8 @@ my $sample = q:to/END_SAMP/;
 00000011
 END_SAMP
 
-my @a = <ABC ADE AGF BDF BEG CDG CFE>;
+# my @a = <ABC ADE AGF BDF BEG CDG CFE>;
+my @a = <ABC ADE AGF>;
 
 for 0..127 -> $n {
     # convert $n to binary
