@@ -9,6 +9,8 @@
 # STATUS: a working first cut, with the help of the Raku Study Group.
 # Note the final fix contribute by Bruce Gray, TOP does a % \n, subdividing
 # on newline separators where the final separator is *optional*.
+# This neatly handles formats where you want the eof to be treated 
+# as another eol.
 
 use Grammar::Tracer;
 
