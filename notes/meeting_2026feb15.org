@@ -14,34 +14,13 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
-** Margaret Masterman, Thomas Kuhn, paradigms
-*** the quote in the meeting annoucement:
-#+BEGIN_SRC txt
-Margaret Masterman, "The Nature of a Paradigm",
-_Criticism and the Growth of Knowledge_ (1970):
-
-    "This pre-scientific and philosophic state of affairs sharply
-    contrasts, however, with _multi-paradigm science_, with that state
-    of affairs in which, far from there being no paradigm, there are
-    on the contrary too many.  (This is the present overall situation
-    in the psychological, social and information sciences.)  ... each
-    sub-field as defined by its technique is so obviously more trivial
-    and narrow than the field as defined by intuition, and also the
-    various operational definitions given by the techniques are so
-    grossly discordant with one another, that discussion on
-    fundamentals remains, and long-run progress (as opposed to local
-    progress) fails to occur."
-#+END_SRC
-*** this paper was presented at a 1965 conference
-**** back then, as now, there was a diverse range of "paradigms" for programming
-**** Raku: a multiparadigm language
-**** Note: includes discussion about programmatic identification of new paradigms
-*** This Masterman paper is famous for identifing 20+ meanings of "paradigm" in play in Kuhn's "Structure"
-**** Kuhn cites it in a discussion if why he's given up control of the meaning of "paradigm"
 
 ** Grammar School
+*** let's see actions
+**** where do I .make?  Can I make whatever I want or just use the method name?
+*** our story thus far:
 *** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
-*** "% \n" trick to allow optional final blank lines
+**** "% \n" trick to allow optional final blank lines
 
 ** Anton Antonov ideas
 *** copy editing jupyter notebooks
