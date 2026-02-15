@@ -18,7 +18,7 @@ grammar OrgMode {
 }
 
 class OrgModeActions {
-    method indent { ... }
+    method indent { say "hello"; }
 }
 
 
