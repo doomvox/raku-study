@@ -33,7 +33,7 @@ for 0..127 -> $n {
                 $n = $g.flip 
             } else {
                 $n = $g;
-                }
+            }
             push @n, $n;
         }
         say @n.join(" ");
