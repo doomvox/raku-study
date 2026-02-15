@@ -31,7 +31,7 @@ chdir( $dat_loc );
         say $raw;
         say "===";
 
-        my $o =  OrgMode.parse( $raw, actions => OrgModeActions ).made;    
+        my $o = OrgMode.parse( $raw, actions => OrgModeActions ).made;    
         say $o;
 
 #         for $o.<heading> -> $h {
