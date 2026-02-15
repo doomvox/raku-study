@@ -54,7 +54,7 @@ chdir( $dat_loc );
 
         say "===";
          for $o.<heading> -> $h {
-            say "id: ",        $h.<id>; 
+#            say "id: ",        $h.<id>; 
             say "indent: ",    $h.<indent>;
             say "headtext: ",  $h.<headtext>;
             say "---";
