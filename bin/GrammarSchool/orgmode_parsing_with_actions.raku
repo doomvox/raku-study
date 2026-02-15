@@ -6,7 +6,7 @@
 # formerly: orgmode_parse_phase_1_with_actions.raku
 # now working with grammar from orgmode_parsing_eol_dance.raku
 
-use Grammar::Tracer;
+# use Grammar::Tracer;
 use Data::Dump::Tree;  ## brings in "ddt"
 
 grammar OrgMode {
