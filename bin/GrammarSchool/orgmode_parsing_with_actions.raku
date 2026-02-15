@@ -45,7 +45,7 @@ chdir( $dat_loc );
         say "---";
         say $o;
         
-        say ".ast: ", $o.ast;
+        say ".ast: ",  $o.ast;
         say ".made: ", $o.made;
         say "---";
         # ddt $o;
