@@ -27,10 +27,16 @@ for 0..127 -> $n {
     # get digits of binary
     # @d = digits(binary($n));
     for @d -> $d {
+        my @n;
         for @a -> $g {
-            
-
+            if $d {
+                $n = $g.flip }
+            else {
+                $n = $g;
+                }
+            push @n, $n;
         }
+        say @n;
     }
     
 
