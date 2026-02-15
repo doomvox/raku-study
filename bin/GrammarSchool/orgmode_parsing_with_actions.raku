@@ -23,7 +23,8 @@ class OrgModeActions {
     method indent ($/) {
         my $str = "indent for $!id: " ~ $/.chars;
         say $str;
-        $/.make($str)
+        $/.make($str);
+
     }
     method heading ($/) { $!id++; make($/<indent>.made) }
 }
