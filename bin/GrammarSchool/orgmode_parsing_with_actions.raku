@@ -41,7 +41,7 @@ chdir( $dat_loc );
         say "===";
 
         my $oma = OrgModeActions.new;
-        my $o = OrgMode.parse( $raw, actions => $oma );
+        my $o = OrgMode.parse( $raw, actions => $oma ).make;
         say "---";
         say $o;
         say ".ast: ",  $o.ast;
