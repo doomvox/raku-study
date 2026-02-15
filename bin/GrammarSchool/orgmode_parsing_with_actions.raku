@@ -19,7 +19,7 @@ grammar OrgMode {
 
 class OrgModeActions {
     has Int $.id = 0;
-    method TOP ($/) { make( $/.<heading>.map(.made) ) }
+    method TOP ($/) { make( $/.<heading>.map(*.made) ) }
     method indent ($/) {
         my $str = "indent for $!id: " ~ $/.chars;
         $/.make($str);
