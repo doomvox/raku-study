@@ -46,6 +46,7 @@ chdir( $dat_loc );
         say $o;
         
         say ".ast: ", $o.ast;
+        say ".made: ", $o.made;
         say "---";
         # ddt $o;
         say $oma.id;
