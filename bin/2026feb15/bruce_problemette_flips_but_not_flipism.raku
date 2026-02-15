@@ -4,7 +4,7 @@
 
 use v6;
 
-my $sth = q:to/END_DATA/);
+my $sth = q:to/END_DATA/;
 ABC ADE AGF BDF BEG CDG CFE
 ABC ADE AGF BDF BEG CDG EFC
 ABC ADE AGF BDF BEG GDC CFE
