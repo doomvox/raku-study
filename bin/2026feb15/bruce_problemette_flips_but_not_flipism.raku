@@ -41,6 +41,6 @@ for 0..127 -> $n {
             push @n, $n;
         }
     }
-    say @n.join(" "), "\n";
+    say @n.join(" ");
 }
 
