@@ -38,7 +38,9 @@ chdir( $dat_loc );
 
         my $oma = OrgModeActions.new;
         my $o = OrgMode.parse( $raw, actions => $oma ).made;    
+        say "---";
         say $o;
+        say "---";
         ddt $o;
         say $oma.id;
 
