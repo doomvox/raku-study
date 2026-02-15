@@ -20,7 +20,11 @@ grammar OrgMode {
 class OrgModeActions {
     has Int $.id = 0;
     method TOP ($/) { make( $/.made ) }
-    method indent ($/) { my $str = "indent for $!id: " ~ $/.chars; say $str; $/.make($str)}
+    method indent ($/) {
+        my $str = "indent for $!id: " ~ $/.chars;
+        say $str;
+        $/.make($str)
+    }
 
     method heading ($/) { $!id++; make($/<indent>.made) }
 }
@@ -43,6 +47,7 @@ chdir( $dat_loc );
         say "---";
         # ddt $o;
         say $oma.id;
+
 
 #         for $o.<heading> -> $h {
 #            say "indent: ",    $h.<indent>;
