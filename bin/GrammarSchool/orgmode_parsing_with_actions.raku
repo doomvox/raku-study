@@ -46,6 +46,7 @@ chdir( $dat_loc );
         say "---";
 #        say "dollah o raku: ", $o.raku;
         say $o.raku;
+        say $o.<indent>;
         say ".ast: ",  $o.ast;
         say ".made: ", $o.made;
         say "---";
