@@ -46,7 +46,6 @@ chdir( $dat_loc );
         say "---";
 #        say "dollah o raku: ", $o.raku;
         say $o.raku;
-        say $o.<indent>;
         say ".ast: ",  $o.ast;
         say ".made: ", $o.made;
         say "---";
@@ -54,11 +53,11 @@ chdir( $dat_loc );
         say $oma.id;
 
 
-#         for $o.<heading> -> $h {
-#            say "indent: ",    $h.<indent>;
-#            say "headtext: ",  $h.<headtext>;
-#            say "---";
-#         }   
+         for $o.<heading> -> $h {
+            say "indent: ",    $h.<indent>;
+            say "headtext: ",  $h.<headtext>;
+            say "---";
+         }   
 
 
 }
