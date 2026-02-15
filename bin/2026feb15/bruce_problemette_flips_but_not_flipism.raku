@@ -32,6 +32,7 @@ for 0..127 -> $n {
     for @d -> $d {
         my @n;
         for @a -> $g {
+            my $n;
             if $d {
                 $n = $g.flip 
             } else {
