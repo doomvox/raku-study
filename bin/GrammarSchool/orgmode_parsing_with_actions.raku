@@ -19,7 +19,7 @@ grammar OrgMode {
 
 class OrgModeActions {
     has Int $.id = 0;
-    method indent ($/) { my $str = "indent for $!id: " ~ $/.chars; $str.make; say $str}
+    method indent ($/) { my $str = "indent for $!id: " ~ $/.chars; $/.make; say $str}
 
     method heading ($/) { $!id++ }
 }
