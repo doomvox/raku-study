@@ -4,6 +4,7 @@
 
 use v6;
 
+# steiner triple system
 my $data = q:to/END_DATA/;
 ABC ADE AGF BDF BEG CDG CFE
 ABC ADE AGF BDF BEG CDG EFC
