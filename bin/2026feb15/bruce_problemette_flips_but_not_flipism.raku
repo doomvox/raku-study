@@ -33,7 +33,7 @@ for 0..7 -> $n {
     # @d = digits(binary($n));
     my @d = $b.comb;
     say @d;
-    next;
+#    next;
     my @n;
     for @d -> $d {
         for @a -> $g {
