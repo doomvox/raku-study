@@ -26,7 +26,8 @@ my $dat_loc = $*PROGRAM.parent.add('dat');
 chdir( $dat_loc );
 
 class OrgModeActions {
-    method TOP ($/) { make( $/.made ) }
+#    method TOP ($/) { make( $/.made ) }
+    method TOP ($/) { make( "foosball" ) }
 }
 
 
