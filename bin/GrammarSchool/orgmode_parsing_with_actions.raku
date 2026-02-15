@@ -10,7 +10,6 @@ use Grammar::Tracer;
 use Data::Dump::Tree;  ## brings in "ddt"
 
 grammar OrgMode {
-        my $id = 0;
         rule TOP { <heading>+ % \n }
         token heading { <indent> \s* <headtext> }
         token stars { '*'+ }
@@ -19,7 +18,9 @@ grammar OrgMode {
 }
 
 class OrgModeActions {
+    has Int $id = 0;
     method indent ($_) { say "indent for $id: " ~ $_.chars; }
+
 }
 
 
