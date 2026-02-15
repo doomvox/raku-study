@@ -22,6 +22,10 @@ my @a = <ABC ADE AGF BDF BEG CDG CFE>;
 
 for 0..127 -> $n {
     say "n: $n";
+    # convert $n to binary
+    # $b = binary($n);
+    # get digits of binary
+    # @d = digits(binary($n));
     
 
 }
