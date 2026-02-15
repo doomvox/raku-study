@@ -41,7 +41,7 @@ chdir( $dat_loc );
         say "---";
         say $o;
         say "---";
-        ddt $o;
+        # ddt $o;
         say $oma.id;
 
 #         for $o.<heading> -> $h {
