@@ -26,6 +26,12 @@ for 0..127 -> $n {
     # $b = binary($n);
     # get digits of binary
     # @d = digits(binary($n));
+    for @d -> $d {
+        for @a -> $g {
+            
+
+        }
+    }
     
 
 }
