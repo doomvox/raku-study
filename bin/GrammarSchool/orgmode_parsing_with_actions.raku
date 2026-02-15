@@ -44,7 +44,6 @@ chdir( $dat_loc );
         my $o = OrgMode.parse( $raw, actions => $oma );
         say "---";
         say $o;
-
         say ".ast: ",  $o.ast;
         say ".made: ", $o.made;
         say "---";
