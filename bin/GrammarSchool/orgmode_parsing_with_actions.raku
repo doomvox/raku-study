@@ -50,7 +50,7 @@ chdir( $dat_loc );
         say ".made: ", $o.made;
         say "---";
         # ddt $o;
-        say $oma.id;
+        say "oma.id: ", $oma.id;
 
         say "===";
          for $o.<heading> -> $h {
