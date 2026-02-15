@@ -39,6 +39,7 @@ chdir( $dat_loc );
         my $o = OrgMode.parse( $raw, actions => $oma ).made;    
         say $o;
         ddt $o;
+        say $oma.id;
 
 #         for $o.<heading> -> $h {
 #            say "indent: ",    $h.<indent>;
