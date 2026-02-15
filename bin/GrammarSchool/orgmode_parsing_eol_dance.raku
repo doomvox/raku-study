@@ -13,7 +13,6 @@
 # as another eol.
 
 use Grammar::Tracer;
-use Data::Dump::Tree;
 
 grammar OrgMode {
         rule TOP { <heading>+ % \n }
