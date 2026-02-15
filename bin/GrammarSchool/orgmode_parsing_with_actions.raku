@@ -21,7 +21,7 @@ class OrgModeActions {
     has Int $.id = 0;
     method indent ($/) { my $str = "indent for $!id: " ~ $/.chars; say $str; $/.make($str)}
 
-    method heading ($/) { $!id++; $/.make }
+    method heading ($/) { $!id++; $/<indent>.made }
 }
 
 
