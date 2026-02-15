@@ -35,7 +35,7 @@ my $dat_loc = $*PROGRAM.parent.add('dat');
 chdir( $dat_loc );
 
 {
-        my $file = "simple.org";
+        my $file = "simpler.org";
         my $raw = $file.IO.slurp.chomp;
         say "===";
         say $raw;
