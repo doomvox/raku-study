@@ -11,12 +11,6 @@
 #    Monday October 27, 2025   6:28 PM
 # Saturday November  8, 2025  10:00 PM
 
-
-/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/GrammarSchool/orgmode_parsing_with_actions.raku
-
-
-# STATUS: simple grammar that works on text containing org-mode headings alone
-
 use Grammar::Tracer;
 
 grammar OrgMode {
