@@ -36,7 +36,7 @@ for 0..127 -> $n {
                 }
             push @n, $n;
         }
-        say @n;
+        say @n.join(" ");
     }
 }
 
