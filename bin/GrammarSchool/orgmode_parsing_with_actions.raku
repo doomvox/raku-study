@@ -10,8 +10,9 @@ use Grammar::Tracer;
 use Data::Dump::Tree;  ## brings in "ddt"
 
 grammar OrgMode {
+        my $id = 0;
         rule TOP { <heading>+ % \n }
-        token heading { <indent> \s* <headtext> }
+        token heading { <indent> \s* <headtext>; $id+ }
         token stars { '*'+ }
         token indent { ^^ \s* <stars> }
         token headtext { \N+  }  
