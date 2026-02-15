@@ -14,13 +14,13 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
-
-** Grammar School
-*** let's see actions
-**** where do I .make?  Can I make whatever I want or just use the method name?
-*** our story thus far:
-*** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
-**** "% \n" trick to allow optional final blank lines
+** topical
+*** Grammar School
+**** let's see actions
+***** where do I .make?  Can I make whatever I want or just use the method name?
+**** our story thus far:
+**** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
+***** "% \n" trick to allow optional final blank lines
 
 
 
