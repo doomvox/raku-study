@@ -38,7 +38,7 @@ for 0..7 -> $n {
     for @d -> $d {
         for @a -> $g {
             my $n;
-            if $d {
+            if +$d {
                 $n = $g.flip 
             } else {
                 $n = $g;
