@@ -18,7 +18,7 @@ grammar OrgMode {
 }
 
 class OrgModeActions {
-    method indent ($_) { say "indent: " ~ $_.length; }
+    method indent ($_) { say "indent: " ~ $_.chars; }
 }
 
 
