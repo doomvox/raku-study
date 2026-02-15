@@ -22,7 +22,8 @@ END_SAMP
 # my @a = <ABC ADE AGF BDF BEG CDG CFE>;
 my @a = <ABC ADE AGF>;
 
-for 0..127 -> $n {
+# for 0..127 -> $n {
+for 0..7 -> $n {
     # convert $n to binary
     # $b = binary($n);
     my $b = $n.base(2);
