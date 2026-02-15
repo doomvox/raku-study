@@ -4,25 +4,19 @@
 # orgmode_parsing_with_actions.raku
 # 
 # formerly: orgmode_parse_phase_1_with_actions.raku
-# using grammar from: orgmode_parsing_eol_dance.raku
-
-# back_to_grammar_school-orgmode_babysteps.raku
-#   forked from back_to_grammar_school-orgmode_babysteps.raku
-#    Monday October 27, 2025   6:28 PM
-# Saturday November  8, 2025  10:00 PM
+# now working with grammar from orgmode_parsing_eol_dance.raku
 
 use Grammar::Tracer;
 
 grammar OrgMode {
-        token TOP { <heading>+ }
-        token heading { <indent> \s* <headtext>}
-        token indent { ^^ \s* <[*]>+? <before \s+> }
-
-        # heading text is one line, so ends at a newline
-        rule headtext { \N*  }  ## anything that's not a newline
+        rule TOP { <heading>+ % \n }
+        token heading { <indent> \s* <headtext> }
+        token stars { '*'+ }
+        token indent { ^^ \s* <stars> }
+        token headtext { \N+  }  
 }
 
-class Actions {
+class OrgModeActions {
     method indent { ... }
 }
 
@@ -37,7 +31,7 @@ chdir( $dat_loc );
         say $raw;
         say "===";
 
-        my $o =  OrgMode.parse( $raw, actions => Actions).made;      ## 5
+        my $o =  OrgMode.parse( $raw, actions => OrgModeActions).made;      ## 5
         say $o;
 
 #         for $o.<heading> -> $h {
