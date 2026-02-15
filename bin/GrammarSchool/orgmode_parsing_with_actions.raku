@@ -7,7 +7,7 @@
 # now working with grammar from orgmode_parsing_eol_dance.raku
 
 use Grammar::Tracer;
-use Data::Dump::Tree;
+use Data::Dump::Tree;  ## brings in "ddt"
 
 grammar OrgMode {
         rule TOP { <heading>+ % \n }
