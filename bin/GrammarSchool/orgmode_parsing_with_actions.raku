@@ -52,7 +52,7 @@ chdir( $dat_loc );
         # ddt $o;
         say $oma.id;
 
-
+        say "===";
          for $o.<heading> -> $h {
             say "indent: ",    $h.<indent>;
             say "headtext: ",  $h.<headtext>;
