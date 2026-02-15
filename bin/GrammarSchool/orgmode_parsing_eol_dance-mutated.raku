@@ -25,6 +25,15 @@ grammar OrgMode {
 my $dat_loc = $*PROGRAM.parent.add('dat');
 chdir( $dat_loc );
 
+class OrgModeActions {
+    has Int $.id = 0;
+    method TOP ($/) { make( $/.made ) }
+    method indent ($/) { my $str = "indent for $!id: " ~ $/.chars; say $str; $/.make($str)}
+
+    method heading ($/) { $!id++; make($/<indent>.made) }
+}
+
+
 {
         my $file = "simple.org";
         my $raw = $file.IO.slurp.chomp;
@@ -32,7 +41,12 @@ chdir( $dat_loc );
         say $raw;
         say "===";
 
-        my $o = OrgMode.parse( $raw );
+#        my $o = OrgMode.parse( $raw );
+
+        my $oma = OrgModeActions.new;
+        my $o = OrgMode.parse( $raw, actions => $oma ).made;    
+
+
         say $o;
         say "===";
         say $o.made;
