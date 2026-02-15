@@ -29,8 +29,8 @@ for 0..127 -> $n {
     # get digits of binary
     # @d = digits(binary($n));
     my @d = $b.comb;
+    my @n;
     for @d -> $d {
-        my @n;
         for @a -> $g {
             my $n;
             if $d {
