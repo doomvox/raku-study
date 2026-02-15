@@ -30,8 +30,8 @@ for 0..127 -> $n {
         my @n;
         for @a -> $g {
             if $d {
-                $n = $g.flip }
-            else {
+                $n = $g.flip 
+            } else {
                 $n = $g;
                 }
             push @n, $n;
