@@ -8,6 +8,8 @@
 
 # STATUS: simple grammar that works on text containing org-mode headings alone
 
+use Grammar::Tracer;
+
 grammar OrgMode {
         token TOP { <heading>+ }
         token heading { <indent> \s* <headtext>}
