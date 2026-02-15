@@ -27,7 +27,8 @@ for 0..7 -> $n {
     # convert $n to binary
     # $b = binary($n);
 #    my $b = $n.base(2);
-    my $b = $n.fmt("%07b");
+#    my $b = $n.fmt("%07b");
+    my $b = $n.fmt("%03b");
     # get digits of binary
     # @d = digits(binary($n));
     my @d = $b.comb;
