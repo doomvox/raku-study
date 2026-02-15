@@ -15,6 +15,7 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topical
+
 *** Grammar School
 **** let's see actions
 ***** where do I .make?  Can I make whatever I want or just use the method name?
@@ -22,7 +23,7 @@
 **** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
 ***** "% \n" trick to allow optional final blank lines
 
-
+*** Bruce
 
 
 ** Old topics from an era gone by
