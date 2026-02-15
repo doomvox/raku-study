@@ -24,6 +24,7 @@ for 0..127 -> $n {
     say "n: $n";
     # convert $n to binary
     # $b = binary($n);
+    my $b = $n.base(2);
     # get digits of binary
     # @d = digits(binary($n));
     for @d -> $d {
