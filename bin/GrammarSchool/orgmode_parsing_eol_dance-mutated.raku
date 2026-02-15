@@ -26,11 +26,7 @@ my $dat_loc = $*PROGRAM.parent.add('dat');
 chdir( $dat_loc );
 
 class OrgModeActions {
-    has Int $.id = 0;
     method TOP ($/) { make( $/.made ) }
-    method indent ($/) { my $str = "indent for $!id: " ~ $/.chars; say $str; $/.make($str)}
-
-    method heading ($/) { $!id++; make($/<indent>.made) }
 }
 
 
