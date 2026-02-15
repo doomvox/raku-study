@@ -40,13 +40,6 @@ for 0..7 -> $n {
             
             my $n = +$d ?? $g !! $g.flip;
 
-#             my $n;
-#             if +$d {
-#                 $n = $g.flip 
-#             } else {
-#                 $n = $g;
-#             }
-
             push @n, $n;
         }
     }
