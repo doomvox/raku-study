@@ -18,7 +18,7 @@ grammar OrgMode {
 }
 
 class OrgModeActions {
-    method indent { say "hello"; }
+    method indent ($_) { say "hello"; }
 }
 
 
