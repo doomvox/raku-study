@@ -13,3 +13,4 @@ for @a.reverse -> $triple {
 }
 .say for @R;
 
+
