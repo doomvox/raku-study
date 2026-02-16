@@ -50,7 +50,11 @@
 **** fine-grained, frequent check-ins 
 **** crafted history of known good verisons
 
-*** Rob 
+*** Rob Ransbottom: a common thought "put home under vc?"
+**** might have an over-arching tree under vc
+**** with a dev sub-tree with individual vc
+**** myself: I've often wondered about meta-vc
+***** could you check several git repos into another
 
 *** Bruce Gray:
 **** GNU Stow is the way to manage Dotfiles
