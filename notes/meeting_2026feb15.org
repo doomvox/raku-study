@@ -29,7 +29,6 @@
 *** Rob:
 
 ****  1. A possible coercion bug in Raku or Rakudo.
- 
 
 # sub xxxx Int(Any) $a { $a };
 # xxxx("meep");
