@@ -14,4 +14,4 @@ for ^(2 ** $size) -> $n {
 }
 
 # Further rakuishness:
-say (@d Z @a).map({ +.[0] ?? .[1] !! .[1].flip });
+# say (@d Z @a).map({ +.[0] ?? .[1] !! .[1].flip });
