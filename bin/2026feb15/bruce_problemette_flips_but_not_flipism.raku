@@ -34,8 +34,8 @@ for 0..7 -> $n {
     my @d = $b.comb;
 
 
+    my @n;
     for @d.keys -> $i {
-        my @n;
         push @n, +@d[$i] ?? @a[$i] !! @a[$i].flip;
         say @n.join(" ");
     }
