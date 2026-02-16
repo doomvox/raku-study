@@ -33,12 +33,14 @@ for 0..7 -> $n {
     # @d = digits(binary($n));
     my @d = $b.comb;
 
-    my @n;
-    for @d -> $d {
-        for @a {
-            push @n, +$d ?? $_ !! .flip;
-        }
+
+    for @d.keys -> $i {
+        my @n;
+
+        push @n, +@d[$i] ?? $_ !! .flip;
+
+        say @n.join(" ");
     }
-    say @n.join(" ");
+
 }
 
