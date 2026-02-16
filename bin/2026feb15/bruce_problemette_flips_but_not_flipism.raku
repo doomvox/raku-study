@@ -36,9 +36,7 @@ for 0..7 -> $n {
 
     for @d.keys -> $i {
         my @n;
-
         push @n, +@d[$i] ?? $_ !! .flip;
-
         say @n.join(" ");
     }
 
