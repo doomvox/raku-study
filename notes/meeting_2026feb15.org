@@ -30,7 +30,7 @@
 
 ****  1. A possible coercion bug in Raku or Rakudo.
 
-****   2. The Kokakosko sequence challenge (WC 356-1):
+****  2. The Kokakosko sequence challenge (WC 356-1):
 
 *****          A)  One detail on the Raku side of the Rosetta (Code) stone
             has me confused as to why it is not a self-referential
