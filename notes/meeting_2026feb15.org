@@ -238,3 +238,6 @@ my ($m, $n, $o    ) := @arr;
 **** hackathon on 25th, most likely
 **** https://tprc.us/tprc-2026-gsp
 
+https://tprc.us/
+Perl and Raku Conference 2026 in Greenville, SC
+
