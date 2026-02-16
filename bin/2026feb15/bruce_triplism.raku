@@ -12,3 +12,6 @@ for ^(2 ** $size) -> $n {
     my @d = $n.fmt($f).comb;
     say @d.keys.map({ +@d[$_] ?? @a[$_] !! @a[$_].flip });
 }
+
+# Further rakuishness:
+say (@d Z @a).map({ +.[0] ?? .[1] !! .[1].flip });
