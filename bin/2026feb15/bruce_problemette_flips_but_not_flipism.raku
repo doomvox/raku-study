@@ -37,8 +37,7 @@ for 0..7 -> $n {
     my @n;
     for @d -> $d {
         for @a {
-            my $n = +$d ?? $_ !! .flip;
-            push @n, $n;
+            push @n, +$d ?? $_ !! .flip;
         }
     }
     say @n.join(" ");
