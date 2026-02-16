@@ -50,6 +50,8 @@
 **** fine-grained, frequent check-ins 
 **** crafted history of known good verisons
 
+*** Rob 
+
 *** Bruce Gray:
 **** GNU Stow is the way to manage Dotfiles
 ***** https://joshblais.com/blog/gnu-stow/
