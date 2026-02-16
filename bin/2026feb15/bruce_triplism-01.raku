@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 # 
-# bruce_problemette_flips_but_not_flipism.raku            15 Feb 2026 
+# bruce_triplism-01.raku                                    15 Feb 2026 
+# was: bruce_problemette_flips_but_not_flipism.raku            
 
 use v6;
 
