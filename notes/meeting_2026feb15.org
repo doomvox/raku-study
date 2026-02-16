@@ -26,17 +26,17 @@
 *** Bruce
 **** "steiner triple system" problem
 
-***** Three common-place topics I will bring forward:
+*** Rob:
 
-******  1. A possible coercion bug in Raku or Rakudo.
+****  1. A possible coercion bug in Raku or Rakudo.
 
-******   2. The Kokakosko sequence challenge (WC 356-1):
+****   2. The Kokakosko sequence challenge (WC 356-1):
 
-*******          A)  One detail on the Raku side of the Rosetta (Code) stone
+*****          A)  One detail on the Raku side of the Rosetta (Code) stone
             has me confused as to why it is not a self-referential
             definition bug.
 
-*******         B)  That the same code might be bettel in expression and+or
+*****         B)  That the same code might be bettel in expression and+or
             efficiency as an anonymous, or called, Callable inside
             of a Seq definition instead of as a Routine containing
             a Seq.
