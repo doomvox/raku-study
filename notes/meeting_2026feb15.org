@@ -30,8 +30,10 @@
 
 ****  1. A possible coercion bug in Raku or Rakudo.
  
-# xxxx("meep");
+
 # sub xxxx Int(Any) $a { $a };
+# xxxx("meep");
+# and what about "is copy"/"is rw"
 
 ****  2. The Kokakosko sequence challenge (WC 356-1):
 
