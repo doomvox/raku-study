@@ -45,7 +45,10 @@
             of a Seq definition instead of as a Routine containing
             a Seq.
 
-
+** 
+*** Bruce Gray:
+**** GNU Stow is the way to manage Dotfiles
+***** https://joshblais.com/blog/gnu-stow/
 
 
 
