@@ -12,4 +12,4 @@ for @a.reverse -> $triple {
          |@R.map({ $triple.flip, |$_ });
 }
 .say for @R;
-'
+
