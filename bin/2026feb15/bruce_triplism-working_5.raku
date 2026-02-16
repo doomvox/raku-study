@@ -8,3 +8,5 @@ use v6;
 
 # raku -e '.say for [X] @*ARGS.map({$_, .flip})' ABC ADE AGF BDF BEG CDG CFE
 
+
+.say for [X] @*ARGS.map({$_, .flip})
