@@ -29,6 +29,9 @@
 *** Rob:
 
 ****  1. A possible coercion bug in Raku or Rakudo.
+ 
+xxxx("meep");
+sub xxxx Int(Any) $a { $a };
 
 ****  2. The Kokakosko sequence challenge (WC 356-1):
 
