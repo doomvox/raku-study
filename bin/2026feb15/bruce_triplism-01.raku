@@ -1,5 +1,6 @@
 #!/usr/bin/env raku
 # 
+# steiner_triple_system_problem-01.raku
 # bruce_triplism-01.raku                                    15 Feb 2026 
 # was: bruce_problemette_flips_but_not_flipism.raku            
 
