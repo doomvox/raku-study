@@ -231,7 +231,7 @@ my ($m, $n, $o    ) := @arr;
 
 
 ** announcements 
-*** next meetings (tentative)
+*** next meetings
 **** Mar  1, 2026
 **** Mar 15, 2026
 
