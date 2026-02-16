@@ -35,6 +35,7 @@
 *******          A)  One detail on the Raku side of the Rosetta (Code) stone
             has me confused as to why it is not a self-referential
             definition bug.
+
 *******         B)  That the same code might be bettel in expression and+or
             efficiency as an anonymous, or called, Callable inside
             of a Seq definition instead of as a Routine containing
