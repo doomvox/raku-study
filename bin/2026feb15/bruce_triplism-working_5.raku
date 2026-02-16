@@ -4,3 +4,6 @@
 
 use v6;
 
+# <ABC CBA> X <ADE EDA>
+
+# raku -e '.say for [X] @*ARGS.map({$_, .flip})' ABC ADE AGF BDF BEG CDG CFE
