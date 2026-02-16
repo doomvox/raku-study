@@ -24,7 +24,9 @@
 ***** "% \n" trick to allow optional final blank lines
 
 *** Bruce
+**** "steiner triple system" problem
 
+*** 
 
 ** Old topics from an era gone by
 
