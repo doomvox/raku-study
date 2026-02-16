@@ -37,9 +37,7 @@ for 0..7 -> $n {
     my @n;
     for @d -> $d {
         for @a -> $g {
-            
             my $n = +$d ?? $g !! $g.flip;
-
             push @n, $n;
         }
     }
