@@ -4,7 +4,7 @@
 
 use v6;
 
-
+# my @a = <ABC ADE AGF BDF BEG CDG CFE>;
 my @a = <ABC ADE AGF>;
 my $size = +@a;
 my $f = "%0" ~ $size ~ "b";
