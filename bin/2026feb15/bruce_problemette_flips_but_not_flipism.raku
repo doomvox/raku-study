@@ -32,7 +32,7 @@ for 0..7 -> $n {
     # get digits of binary
     # @d = digits(binary($n));
     my @d = $b.comb;
-  
+   
     my @n;
     for @d.keys -> $i {
         push @n, +@d[$i] ?? @a[$i] !! @a[$i].flip;
