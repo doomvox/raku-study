@@ -45,7 +45,11 @@
             of a Seq definition instead of as a Routine containing
             a Seq.
 
-** 
+** discussion of version management
+*** Tim Schafer: tension between 
+**** fine-grained, frequent check-ins 
+**** crafted history of known good verisons
+
 *** Bruce Gray:
 **** GNU Stow is the way to manage Dotfiles
 ***** https://joshblais.com/blog/gnu-stow/
