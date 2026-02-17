@@ -50,7 +50,7 @@
 **** fine-grained, frequent check-ins 
 **** crafted history of known good verisons
 
-*** Rob Ransbottom: a common thought "put home under vc?"
+*** Rob Ransbottom: a common thought "put $HOME under vc?"
 **** might have an over-arching tree under vc
 **** with a dev sub-tree with individual vc
 **** myself: I've often wondered about meta-vc
@@ -60,6 +60,7 @@
 **** GNU Stow is the way to manage Dotfiles
 ***** https://joshblais.com/blog/gnu-stow/
 
+https://luma.com
 
 
 ** Old topics from an era gone by
