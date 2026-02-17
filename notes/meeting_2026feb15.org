@@ -60,7 +60,10 @@
 **** GNU Stow is the way to manage Dotfiles
 ***** https://joshblais.com/blog/gnu-stow/
 
-https://luma.com
+** meeting management
+*** luma, alternative to meetup
+**** https://luma.com
+
 
 
 ** Old topics from an era gone by
