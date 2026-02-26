@@ -63,7 +63,7 @@
 ** meeting management
 *** luma, alternative to meetup
 **** https://luma.com
-
+t
 ** Old topics from an era gone by
 
 *** Anton Antonov ideas
