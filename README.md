@@ -8,6 +8,7 @@ Upcoming meetings:
 * Sunday March 01, 2026
     * https://us02web.zoom.us/j/87470153022?pwd=br8VShSWnh7YIneB0Qh7RtYzxjv6db.1
 
+* Sunday March 15, 2026
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
 And the super secret code you need is "4RakuRoll".
