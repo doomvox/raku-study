@@ -5,11 +5,8 @@ A place to share some code and meeting notes for the SF Perl Raku Study Group.
 
 Upcoming meetings:
 
-* Sunday February 15, 2026
-    * https://us02web.zoom.us/j/87386386163?pwd=oSPxaPCaNbCY3lUlOhORxamQjmMAKg.1
-
 * Sunday March 01, 2026
-https://us02web.zoom.us/j/87470153022?pwd=br8VShSWnh7YIneB0Qh7RtYzxjv6db.1
+    * https://us02web.zoom.us/j/87470153022?pwd=br8VShSWnh7YIneB0Qh7RtYzxjv6db.1
 
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
