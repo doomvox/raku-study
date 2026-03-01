@@ -43,6 +43,8 @@
 ****** Any opinions about a Raku package “LaTeX::Grammar”
 ******* and / or having LaTeX as a target in Raku parser(s).
 
+
+***** Read: https://rakuforprediction.wordpress.com/2026/03/01/salvo-combat-modeling-battle-of-coronel/
 ** old topics
 
 *** Grammar School
