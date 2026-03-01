@@ -49,11 +49,7 @@
             a Seq.
 
 
-*** Bruce Gray:
-**** GNU Stow is the way to manage Dotfiles
-***** https://joshblais.com/blog/gnu-stow/
-
-** meeting management
+** meeting> management
 *** luma, alternative to meetup
 **** https://luma.com
 
@@ -240,6 +236,9 @@ my ($m, $n, $o    ) := @arr;
 *** TODO
 **** look up the paper claiming to show programmers that swear chatgpt is really helpful are exaggerating
 
+*** TODO Bruce Gray:
+**** GNU Stow is the way to manage Dotfiles
+***** https://joshblais.com/blog/gnu-stow/
 
 
 ** announcements 
