@@ -29,7 +29,8 @@
 ***** tends to react negatively to that treatment
 
 **** looks back at older conversations, sometimes feel like "I could've done better"
-***** some seem to hold grudges
+***** some seem to hold grudges, often at heart of project
+
 
 *** Anton: programming combat modeling 
 **** Using a new package “Math::SalvoCombatModeling”.
