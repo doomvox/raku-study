@@ -31,6 +31,8 @@
 **** looks back at older conversations, sometimes feel like "I could've done better"
 ***** some seem to hold grudges, often at heart of project
 
+**** Oh, I finally implemented a streamlined animation making (with Raku.)
+***** Using Zeckendorf chord plots.
 
 *** Anton: programming combat modeling 
 **** Using a new package “Math::SalvoCombatModeling”.
