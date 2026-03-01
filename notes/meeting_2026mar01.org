@@ -42,6 +42,7 @@
 ***** often feels like he's not the only one at fault but is always singled out.
 ****** if they warned *someone else* occasionally, he'd take them more seriously
 ****** yes of *course* Marton feels he's the victim and not the aggressor
+******* e.g. Marton doesn't try to get people removed
 
 *** Anton: programming combat modeling 
 **** Using a new package “Math::SalvoCombatModeling”.
