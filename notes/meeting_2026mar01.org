@@ -26,7 +26,8 @@
 ***** have they delivered what they were elected for?
 
 **** Alex Daniels banned for Raku critique (?)
-
+*** Anton, programming combat modeling 
+**** Using a new package “Math::SalvoCombatModeling”.
 
 
 ** old topics
