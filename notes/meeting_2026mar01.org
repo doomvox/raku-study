@@ -38,7 +38,6 @@
 **** implemented a streamlined animation making (with Raku.)
 ***** Using Zeckendorf chord plots.
 
-
 **** Predicts they'll say "we have been giving him warnings for a long time"
 
 *** Anton: programming combat modeling 
