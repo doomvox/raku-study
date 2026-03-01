@@ -34,6 +34,10 @@
 ***** Wolfram Language connection / MCP
 ***** Using a LaTeX translator
 
+Related to the Org-mode grammar exercises in the last two sessions:
+I have a Mermaid-JS grammar parser and interpreter to show-&-tell
+Work in progress, but already useful
+
 
 ** old topics
 
