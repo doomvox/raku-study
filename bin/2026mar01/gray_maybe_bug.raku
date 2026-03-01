@@ -14,3 +14,6 @@ sub foo ($i) {
             samewith($j) } }
 };
 foo(1);
+
+# 1
+# 2
