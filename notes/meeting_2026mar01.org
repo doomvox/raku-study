@@ -14,7 +14,9 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
-** topical
+** topics
+
+** deep south topical
 
 *** Grammar School
 **** let's see actions
