@@ -28,6 +28,9 @@
 **** feels like they let him speak, but never act on it, aren't taking seriously
 ***** tends to react negatively to that treatment
 
+**** looks back at older conversations, sometimes feel like "I could've done better"
+***** some seem to hold grudges
+
 *** Anton: programming combat modeling 
 **** Using a new package “Math::SalvoCombatModeling”.
 ***** Is symbolic programming wanted/possible/easy in Raku?
@@ -44,6 +47,9 @@
 ******* and / or having LaTeX as a target in Raku parser(s).
 
 ***** https://rakuforprediction.wordpress.com/2026/03/01/salvo-combat-modeling-battle-of-coronel/
+
+
+
 
 
 *** Bill:
