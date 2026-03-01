@@ -15,6 +15,7 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
+*** "banned for life", huh?
 
 
 ** old topics
