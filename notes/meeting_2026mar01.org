@@ -46,6 +46,8 @@
 
 *** Bill:
 **** https://unix.stackexchange.com/questions/652916/find-and-add-quotes-in-between-particular-string/804753#804753
+**** raku -MText::CSV -e 'csv(in => csv(in => $*IN, sep => "|"), out => $*OUT);'  < file
+
 
 *** Anton: programming combat modeling 
 **** Using a new package “Math::SalvoCombatModeling”.
