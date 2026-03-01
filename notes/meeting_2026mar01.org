@@ -34,6 +34,10 @@
 **** Oh, I finally implemented a streamlined animation making (with Raku.)
 ***** Using Zeckendorf chord plots.
 
+**** implemented a streamlined animation making (with Raku.)
+***** Using Zeckendorf chord plots.
+
+
 *** Anton: programming combat modeling 
 **** Using a new package “Math::SalvoCombatModeling”.
 ***** Is symbolic programming wanted/possible/easy in Raku?
