@@ -16,7 +16,8 @@
 
 ** topics
 *** "banned for life", huh?
-
+**** Anton: criticising Raku and Raku processes, they're taking it personally
+**** 
 
 ** old topics
 
