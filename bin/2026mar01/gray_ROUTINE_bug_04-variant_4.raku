@@ -22,4 +22,4 @@ use v6;
 # }
 
 # 1
-# Too many positionals passed; expected 0 arguments but got 1
+# 2
