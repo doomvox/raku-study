@@ -17,7 +17,7 @@ use v6;
 
 # raku -e 'sub foo ($i) { say $i; exit if $i >= 2; if True { for $i ^.. 3 -> $j {  samewith($j) } } }; foo(1);'
 
-## because of the exit, can't do multiple tests 
+## because of the exit, can't do multiple tests in one file
 {
     sub foo ($i) {
         say $i;
