@@ -16,18 +16,7 @@ use v6;
 }
 # 1
 # 2
-# 3
 
 
 
-{
-    say "===";
-    sub foo ($i) {
-        say $i;
-        exit if $i >= 2;
-        if True {
-            for $i ^.. 3 {
-                &?ROUTINE($_) } }
-    };
-    foo(1);
-}
+
