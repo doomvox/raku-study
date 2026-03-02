@@ -33,6 +33,7 @@ use v6;
 # 2
 # 3
 
+## Got a 3 here when previously stopped at 2
 
 
 # {
