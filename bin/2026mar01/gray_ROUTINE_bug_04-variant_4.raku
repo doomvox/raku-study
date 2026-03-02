@@ -14,11 +14,11 @@ use v6;
     sub foo ($i) {
         say $i;
         exit if $i >= 2;
-        if True {
+        {
             for $i ^.. 3 {
                 &?ROUTINE($_)
             }
-        }
+        } if True 
     };
     foo(1);
 # }
