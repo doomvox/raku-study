@@ -82,30 +82,8 @@ https://unix.stackexchange.com/a/804753/227738
 **** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
 ***** "% \n" trick to allow optional final blank lines
 
-*** Bruce
-**** "steiner triple system" problem
 
-*** Rob:
-
-****  1. A possible coercion bug in Raku or Rakudo.
-
-# sub xxxx Int(Any) $a { $a };
-# xxxx("meep");
-# and what about "is copy"/"is rw"
-
-****  2. The Kokakosko sequence challenge (WC 356-1):
-
-*****          A)  One detail on the Raku side of the Rosetta (Code) stone
-            has me confused as to why it is not a self-referential
-            definition bug.
-
-*****         B)  That the same code might be bettel in expression and+or
-            efficiency as an anonymous, or called, Callable inside
-            of a Seq definition instead of as a Routine containing
-            a Seq.
-
-
-** meeting> management
+** TODO meeting management
 *** luma, alternative to meetup
 **** https://luma.com
 
