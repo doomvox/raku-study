@@ -33,3 +33,15 @@ use v6;
 # 2
 
 
+
+{
+    sub foo ($i) {
+        say $i;
+        exit if $i >= 2; if True {
+            for $i ^.. 3 -> $j {
+                &?ROUTINE($j) } }
+    };
+    foo(1);
+}
+# 1
+# 2
