@@ -23,8 +23,7 @@ use v6;
     say "===";
     sub foo ($i) {
         say $i;
-#        exit if $i >= 2;
-        return if $i >= 2;
+        exit if $i >= 2;
         if True {
             for $i ^.. 3 {
                 samewith($_) } }
@@ -39,8 +38,7 @@ use v6;
 {
     sub foo ($i) {
         say $i;
-#        exit if $i >= 2;
-        return if $i >= 2;
+        exit if $i >= 2;
         if True {
             for $i ^.. 3 -> $j {
                 &?ROUTINE($j) } }
@@ -57,8 +55,7 @@ use v6;
     say "===";
     sub foo ($i) {
         say $i;
-#        exit if $i >= 2;
-        return if $i >= 2;
+        exit if $i >= 2;
         if True {
             for $i ^.. 3 {
                 &?ROUTINE($_) } }
