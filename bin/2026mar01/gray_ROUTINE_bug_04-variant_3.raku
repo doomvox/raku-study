@@ -22,16 +22,6 @@ if True {
     };
     foo(1);
 }
-## just adding an outer set of braces changes the behavior,
-## this is an infinite loop, spitting out "1":
-## 1
-
-# That's with an old rakudo:
-# 
-# raku --version
-# Welcome to Rakudo™ v2023.02.
-
-
 
 # 1
 # Too many positionals passed; expected 0 arguments but got 1
