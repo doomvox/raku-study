@@ -26,3 +26,8 @@ if True {
 # 
 # raku --version
 # Welcome to Rakudo™ v2023.02.
+
+
+
+# 1
+# Too many positionals passed; expected 0 arguments but got 1
