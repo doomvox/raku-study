@@ -6,7 +6,7 @@ use v6;
 
 # raku -e 'sub foo ($i) { say $i; exit if $i >= 2; if True { for $i ^.. 3       { &?ROUTINE($_) } } }; foo(1);'
 
- {
+# {
     sub foo ($i) {
         say &?ROUTINE.name;
         say $i;
@@ -18,7 +18,7 @@ use v6;
         }
     };
     foo(1);
- }
+# }
 ## 1
 
 
