@@ -18,6 +18,8 @@ use v6;
     };
     foo(1);
 }
+## just adding an outer set of braces changes the behavior,
+## this is an infinite loop, spitting out "1":
 ## 1
 
 
