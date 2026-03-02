@@ -19,6 +19,7 @@ use v6;
     };
     foo(1);
 # }
+
+## foo
 ## 1
-
-
+## Too many positionals passed; expected 0 arguments but got 1
