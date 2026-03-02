@@ -303,7 +303,7 @@ my ($m, $n, $o    ) := @arr;
 **** Mar 15, 2026
 
 *** North American Perl and Raku conference 
-**** will be in late June: June 26-28, 29(class) TPRC
+**** will be in late June: June 26-28, 29(class) TPRC (in person)
 **** hackathon on 25th, most likely
 **** https://tprc.us/tprc-2026-gsp
 
