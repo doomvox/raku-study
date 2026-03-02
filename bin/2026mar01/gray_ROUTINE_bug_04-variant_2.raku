@@ -9,7 +9,6 @@ use v6;
 # {
     sub foo ($i) {
         say &?ROUTINE.name;
-        say %?ROUTINE.name;
         say $i;
         exit if $i >= 2;
         if True {
