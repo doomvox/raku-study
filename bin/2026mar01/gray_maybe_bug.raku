@@ -32,3 +32,17 @@ use v6;
 # 1
 # 2
 # 3
+
+
+
+{
+    sub foo ($i) {
+        say $i;
+#        exit if $i >= 2;
+        return if $i >= 2;
+        if True {
+            for $i ^.. 3 {
+                samewith($_) } }
+    };
+    foo(1);
+}
