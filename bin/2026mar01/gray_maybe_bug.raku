@@ -21,7 +21,8 @@ use v6;
 {
     sub foo ($i) {
         say $i;
-        exit if $i >= 2;
+#        exit if $i >= 2;
+        return if $i >= 2;
         if True {
             for $i ^.. 3 -> $j {
                 samewith($j) } }
