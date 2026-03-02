@@ -15,9 +15,6 @@ use v6;
 #     1␤
 #     Too many positionals passed; expected 0 arguments but got 1
 
-
-
-
 # raku -e 'sub foo ($i) { say $i; exit if $i >= 2; if True { for $i ^.. 3 -> $j {  samewith($j) } } }; foo(1);'
 
 {
