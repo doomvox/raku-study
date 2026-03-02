@@ -87,8 +87,6 @@ https://unix.stackexchange.com/a/804753/227738
 *** luma, alternative to meetup
 **** https://luma.com
 
-
-
 *** Bruce Gray
 **** syntactic quirk here
 ***** https://rosettacode.org/wiki/Statistics/Normal_distribution#Raku
