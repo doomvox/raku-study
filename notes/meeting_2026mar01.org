@@ -148,6 +148,10 @@ my $m = [+](@dataset) / $size;
 **** GNU Stow is the way to manage Dotfiles
 ***** https://joshblais.com/blog/gnu-stow/
 
+** TODO meeting management
+*** luma, alternative to meetup
+**** https://luma.com
+
 
 ** announcements 
 *** next meetings
