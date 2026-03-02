@@ -5,7 +5,7 @@
 use v6;
 
 
-{
+# {
     sub foo ($i) {
         say $i;
         exit if $i >= 2;
@@ -14,7 +14,7 @@ use v6;
                 samewith($_) } }
     };
     foo(1);
-}
+# }
 
 # 1
 # 2
