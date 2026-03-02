@@ -35,49 +35,49 @@ use v6;
 
 
 
-{
-    say "===";
-    sub foo ($i) {
-        say $i;
-#        exit if $i >= 2;
-        return if $i >= 2;
-        if True {
-            for $i ^.. 3 {
-                samewith($_) } }
-    };
-    foo(1);
-}
+# {
+#     say "===";
+#     sub foo ($i) {
+#         say $i;
+# #        exit if $i >= 2;
+#         return if $i >= 2;
+#         if True {
+#             for $i ^.. 3 {
+#                 samewith($_) } }
+#     };
+#     foo(1);
+# }
 
-# 1
-# 2
-# 3
+# # 1
+# # 2
+# # 3
 
-{
-    sub foo ($i) {
-        say $i;
-#        exit if $i >= 2;
-        return if $i >= 2;
-        if True {
-            for $i ^.. 3 -> $j {
-                &?ROUTINE($j) } }
-    };
-    foo(1);
-}
-# 1
-# 2
-# 3
+# {
+#     sub foo ($i) {
+#         say $i;
+# #        exit if $i >= 2;
+#         return if $i >= 2;
+#         if True {
+#             for $i ^.. 3 -> $j {
+#                 &?ROUTINE($j) } }
+#     };
+#     foo(1);
+# }
+# # 1
+# # 2
+# # 3
 
 
 
-{
-    say "===";
-    sub foo ($i) {
-        say $i;
-#        exit if $i >= 2;
-        return if $i >= 2;
-        if True {
-            for $i ^.. 3 {
-                &?ROUTINE($_) } }
-    };
-    foo(1);
-}
+# {
+#     say "===";
+#     sub foo ($i) {
+#         say $i;
+# #        exit if $i >= 2;
+#         return if $i >= 2;
+#         if True {
+#             for $i ^.. 3 {
+#                 &?ROUTINE($_) } }
+#     };
+#     foo(1);
+# }
