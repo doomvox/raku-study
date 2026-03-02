@@ -23,6 +23,6 @@ use v6;
 ## 1
 
 # That's with an old rakudo:
-
+# 
 # raku --version
 # Welcome to Rakudo™ v2023.02.
