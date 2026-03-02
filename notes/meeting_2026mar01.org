@@ -301,6 +301,8 @@ my ($m, $n, $o    ) := @arr;
 *** next meetings
 **** Mar  1, 2026
 **** Mar 15, 2026
+**** March 29, 2026
+**** April 12, 2026
 
 *** North American Perl and Raku conference 
 **** will be in late June: June 26-28, 29(class) TPRC (in person)
