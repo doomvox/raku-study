@@ -5,7 +5,6 @@
 use v6;
 
 {
-    say "===";
     sub foo ($i) {
         say $i;
         exit if $i >= 2;
