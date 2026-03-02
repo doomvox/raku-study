@@ -152,7 +152,6 @@ my $m = [+](@dataset) / $size;
 *** luma, alternative to meetup
 **** https://luma.com
 
-
 ** announcements 
 *** next meetings
 **** March 15, 2026
