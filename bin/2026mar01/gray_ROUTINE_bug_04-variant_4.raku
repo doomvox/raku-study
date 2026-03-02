@@ -6,9 +6,7 @@ use v6;
 
 # raku -e 'sub foo ($i) { say $i; exit if $i >= 2; if True { for $i ^.. 3       { &?ROUTINE($_) } } }; foo(1);'
 
-## A bare block around this code changes its behavior,
-## turning it back to failing in the same way 
-## as it does without any wrapping block:
+## Rob points out a trailing "if True" works differently:
 
 # {
     sub foo ($i) {
