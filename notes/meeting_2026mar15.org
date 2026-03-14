@@ -16,8 +16,10 @@
 
 ** topics
 *** today's quote
-
-
+*** https://arxiv.org/abs/2507.09089
+*** "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity", July 25, 2025
+*** Joel Becker, Nate Rush, Elizabeth Barnes, David Rein,
+*** 
 
 ** old topics
 
