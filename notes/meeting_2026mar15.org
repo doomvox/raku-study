@@ -23,8 +23,6 @@ estimate that allowing AI reduced completion time by
 20%. Surprisingly, we find that allowing AI actually increases
 completion time by 19%--AI tooling slowed developers down."
 #+END_SRC
-
-
 *** https://arxiv.org/abs/2507.09089
 *** "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity", July 25, 2025
 *** Joel Becker, Nate Rush, Elizabeth Barnes, David Rein
