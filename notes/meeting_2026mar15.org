@@ -28,6 +28,7 @@ completion time by 19%--AI tooling slowed developers down."
 *** Joel Becker, Nate Rush, Elizabeth Barnes, David Rein
 *** METHODOLOGY
 **** Small sample size: 19 developers
+***** Expert programmers, working on open source projects on github
 **** But ~250 programming tasks
 **** Developers are paid: $150/hr
 **** They install screen surveillance
