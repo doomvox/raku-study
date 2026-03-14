@@ -37,7 +37,9 @@ completion time by 19%--AI tooling slowed developers down."
 **** Then ask developers how long they think it took
 **** But also measure the actual measured time
 **** Real working conditions: interruptions allowed.
-**** COMMENTS?
+*** COMMENTS?
+*** My comments:
+**** good to study experts (they've got some funding)
 
 ** old topics
 
