@@ -23,36 +23,36 @@ estimate that allowing AI reduced completion time by
 20%. Surprisingly, we find that allowing AI actually increases
 completion time by 19%--AI tooling slowed developers down."
 #+END_SRC
-*** https://arxiv.org/abs/2507.09089
-*** "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity", July 25, 2025
-*** Joel Becker, Nate Rush, Elizabeth Barnes, David Rein
-*** METHODOLOGY
-**** Small sample size: 19 developers
-***** Expert programmers, working on open source projects on github
-**** But ~250 programming tasks
-**** Developers are paid: $150/hr
-**** They install screen surveillance
-**** Developers estimate time with or without being allowed to use AI
-**** Random "coin flip" to choose which tasks will be AI-allowed
-**** Then ask developers how long they think it took
-**** But also measure the actual measured time
-**** Real working conditions: interruptions allowed.
-*** COMMENTS?
-**** My comments:
-***** good to study experts (they've got some funding)
-****** much easier to study students
-***** good to have a study at all
-****** there aren't many like this
-***** the programmers don't appear to do contracting
-****** they'd have their own time-tracking software/habits
-***** of course: programmer time estimates suck
-****** but this study demonstrates they suck more with the AI option
-****** undercuts the anecdotal impressions that "vibe" coding rules, man
-****** if you did studies like this on any latest bright and shiney, expect similar results
-******* arguably hard on "AI"-- need to compare it to other fads
+**** https://arxiv.org/abs/2507.09089
+**** "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity", July 25, 2025
+**** Joel Becker, Nate Rush, Elizabeth Barnes, David Rein
+**** METHODOLOGY
+***** Small sample size: 19 developers
+****** Expert programmers, working on open source projects on github
+***** But ~250 programming tasks
+***** Developers are paid: $150/hr
+***** Use screen recording surveillance
+***** Developers estimate time with or without being allowed to use AI
+***** Random "coin flip" to choose which tasks will be AI-allowed
+***** Then ask developers how long they think it took
+***** But also use an actual measured time 
+***** Real working conditions: interruptions allowed.
+**** COMMENTS?
+***** My comments:
+****** good to study experts (they've got some funding)
+******* much easier to study students
+****** good to have a study at all
+******* there aren't many like this
+****** the programmers don't appear to do contracting
+******* they'd have their own time-tracking software/habits
+****** of course: programmer time estimates suck
+******* but this study demonstrates they suck more with the AI option
+******* undercuts the anecdotal impressions that "vibe" coding rules, man
+******* if you did studies like this on any latest bright and shiney, expect similar results
+******** arguably hard on "AI"-- need to compare it to other fads
 
 
-
+** 
 
 ** old topics
 
