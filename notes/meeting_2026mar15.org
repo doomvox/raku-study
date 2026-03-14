@@ -35,7 +35,8 @@ completion time by 19%--AI tooling slowed developers down."
 **** Random "coin flip" to choose which tasks will be AI-allowed
 **** Ask developers how long they think it took
 **** Compare that to the actual measured time
-**** Real working conditions, interruptions allowed, 
+**** Real working conditions: interruptions allowed.
+
 
 ** old topics
 
