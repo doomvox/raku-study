@@ -38,17 +38,19 @@ completion time by 19%--AI tooling slowed developers down."
 **** But also measure the actual measured time
 **** Real working conditions: interruptions allowed.
 *** COMMENTS?
-*** My comments:
-**** good to study experts (they've got some funding)
-***** much easier to study students
-**** good to have a study at all
-***** there aren't many like this
-**** the programmers don't appear to do contracting
-***** they'd have their own time-tracking software/habits
-**** of course: programmer time estimates suck
-***** but this study demonstrates they suck more with the AI option
-***** undercuts the anecdotal impressions that "vibe" coding rules, man
-***** if you did studies like this on any latest bright and shiney, expect similar results
+**** My comments:
+***** good to study experts (they've got some funding)
+****** much easier to study students
+***** good to have a study at all
+****** there aren't many like this
+***** the programmers don't appear to do contracting
+****** they'd have their own time-tracking software/habits
+***** of course: programmer time estimates suck
+****** but this study demonstrates they suck more with the AI option
+****** undercuts the anecdotal impressions that "vibe" coding rules, man
+****** if you did studies like this on any latest bright and shiney, expect similar results
+******* arguably hard on "AI"-- need to compare it to other fads
+
 
 
 
