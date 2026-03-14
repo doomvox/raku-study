@@ -1,0 +1,169 @@
+* meeting notes March 15, 2026
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026mar15.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2026mar15
+****** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026feb15.org
+
+***** group discussions at github
+****** https://github.com/doomvox/raku-study/discussions 
+
+** topics
+*** "banned for life", huh?
+**** Anton: criticising Raku and Raku processes, they're taking it personally
+**** 
+*** The (yet-another) Marton affair
+**** "you haven't changed"
+***** some info on IRC, people asked why
+**** a community affairs team (CAT), with some overlap with the steering council (RSC)?
+**** RSC 
+***** elected for life?
+***** have they delivered what they were elected for?
+**** Alex Daniels banned for Raku critique (?)
+**** feels like they let him speak, but never act on it, aren't taking seriously
+***** tends to react negatively to that treatment
+
+**** looks back at older conversations, sometimes feel like "I could've done better"
+***** some seem to hold grudges, often at heart of project
+
+**** Oh, I finally implemented a streamlined animation making (with Raku.)
+***** Using Zeckendorf chord plots.
+
+**** implemented a streamlined animation making (with Raku.)
+***** Using Zeckendorf chord plots.
+
+**** Predicts they'll say "we have been giving him warnings for a long time"
+***** often feels like he's not the only one at fault but is always singled out.
+****** if they warned *someone else* occasionally, he'd take them more seriously
+****** yes of *course* Marton feels he's the victim and not the aggressor
+******* e.g. Marton doesn't try to get people removed
+
+*** Bill:
+**** https://unix.stackexchange.com/questions/652916/find-and-add-quotes-in-between-particular-string/804753#804753
+***** raku -MText::CSV -e 'csv(in => csv(in => $*IN, sep => "|"), out => $*OUT);'  < file
+***** raku -MText::CSV -e 'csv(in => $*IN, sep => "|") andthen csv(in => $_, out => $*OUT);'  < file
+
+
+*** Anton: programming combat modeling 
+**** Using a new package “Math::SalvoCombatModeling”.
+***** Is symbolic programming wanted/possible/easy in Raku?
+***** What would be possible workarounds? Say, using:
+***** Gormulas ala R
+***** Wolfram Language connection / MCP
+***** Using a LaTeX translator
+
+****** Related to the Org-mode grammar exercises in the last two sessions:
+******* I have a Mermaid-JS grammar parser and interpreter to show-&-tell
+******* Work in progress, but already useful
+
+****** Any opinions about a Raku package “LaTeX::Grammar”
+******* and / or having LaTeX as a target in Raku parser(s).
+
+***** https://rakuforprediction.wordpress.com/2026/03/01/salvo-combat-modeling-battle-of-coronel/
+
+**** https://github.com/antononcube/Raku-MermaidJS-Grammar
+
+*** Bill:
+https://unix.stackexchange.com/a/804753/227738
+
+
+** old topics
+
+*** Grammar School
+**** let's see actions
+***** where do I .make?  Can I make whatever I want or just use the method name?
+**** our story thus far:
+**** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
+***** "% \n" trick to allow optional final blank lines
+
+*** Bruce Gray
+**** syntactic quirk here
+***** https://rosettacode.org/wiki/Statistics/Normal_distribution#Raku
+***** reduction operators can act like function calls with arguments in parens
+#+BEGIN_SRC raku
+my $m = [+](@dataset) / $size;
+#+END_SRC
+
+*** Bruce Gray talk for the NAPR:
+**** https://docs.raku.org/routine/classify
+**** https://docs.raku.org/routine/classify-list
+**** https://docs.raku.org/routine/categorize
+**** https://docs.raku.org/routine/categorize-list
+**** and the concepts in general, e.g. "group by" in sql
+***** Márton Polgár: 
+****** https://github.com/Raku/doc/issues/4293
+******* "Apparently, when classify or classify-list has a tester that returns an Iterable, the individual elements of it will be considered a classification hierarchy, and hence create a nested Hash. "
+
+*** lizmat, year in review
+**** https://raku-advent.blog/2025/12/25/day-25-raku-2025-review/
+***** some discussion of Hash::Ordered
+****** Note: there's also a Hash::Sorted
+***** Anton has a use case involving hashes ordered by value 
+****** python dicts
+****** https://rakuforprediction.wordpress.com/2025/12/31/data-science-over-small-movie-dataset-part-2/
+******* recommendation systems
+******* wolfram: keysort
+
+** open projects:
+*** links I expect to use again some day
+***** duckmap examples are here:
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
+***** Subtitle parsing
+****** https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
+
+** follow-up
+*** next time
+**** before starting meeting, warm-up on "advanced" screen sharing
+**** increase the font size in emacs
+*** TODO 
+**** new raku front page
+***** leading code snippet has an very obscure idiom
+
+*** TODO doc problems
+**** https://docs.raku.org/routine/duckmap
+**** Rat?  Not Numeric?
+**** Why changed data with changed code?
+**** Possibly, better examples?
+
+*** TODO start a people file already 
+**** farley
+***** apogee == Matt Dowdy
+***** librasteve == Steve Rowe
+***** jubilatious1 == William Michels
+***** util == Bruce Gray
+***** 2colours == Márton Polgár
+***** doom == doomvox == tailorpaul == Joseph Brenner == me
+***** antonov == Anton Antonov
+
+*** TODO
+**** look up the paper claiming to show programmers that swear chatgpt is really helpful are exaggerating
+
+*** TODO Bruce Gray:
+**** GNU Stow is the way to manage Dotfiles
+***** https://joshblais.com/blog/gnu-stow/
+
+** TODO meeting management
+*** luma, alternative to meetup
+**** https://luma.com
+
+** announcements 
+*** next meetings
+**** March 15, 2026
+**** March 29, 2026
+**** April 12, 2026
+
+*** North American Perl and Raku conference 
+**** will be in late June: June 26-28, 29(class) TPRC (in person)
+**** hackathon on 25th, most likely
+**** https://tprc.us/tprc-2026-gsp
+
+*** Perl and Raku Conference 2026 in Greenville, SC
+**** https://tprc.us/
+
+
