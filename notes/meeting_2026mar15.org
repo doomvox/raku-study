@@ -16,33 +16,6 @@
 
 ** topics
 
-*** Bill:
-**** https://unix.stackexchange.com/questions/652916/find-and-add-quotes-in-between-particular-string/804753#804753
-***** raku -MText::CSV -e 'csv(in => csv(in => $*IN, sep => "|"), out => $*OUT);'  < file
-***** raku -MText::CSV -e 'csv(in => $*IN, sep => "|") andthen csv(in => $_, out => $*OUT);'  < file
-
-
-*** Anton: programming combat modeling 
-**** Using a new package “Math::SalvoCombatModeling”.
-***** Is symbolic programming wanted/possible/easy in Raku?
-***** What would be possible workarounds? Say, using:
-***** Gormulas ala R
-***** Wolfram Language connection / MCP
-***** Using a LaTeX translator
-
-****** Related to the Org-mode grammar exercises in the last two sessions:
-******* I have a Mermaid-JS grammar parser and interpreter to show-&-tell
-******* Work in progress, but already useful
-
-****** Any opinions about a Raku package “LaTeX::Grammar”
-******* and / or having LaTeX as a target in Raku parser(s).
-
-***** https://rakuforprediction.wordpress.com/2026/03/01/salvo-combat-modeling-battle-of-coronel/
-
-**** https://github.com/antononcube/Raku-MermaidJS-Grammar
-
-*** Bill:
-https://unix.stackexchange.com/a/804753/227738
 
 
 ** old topics
