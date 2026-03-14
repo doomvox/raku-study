@@ -15,34 +15,6 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** "banned for life", huh?
-**** Anton: criticising Raku and Raku processes, they're taking it personally
-**** 
-*** The (yet-another) Marton affair
-**** "you haven't changed"
-***** some info on IRC, people asked why
-**** a community affairs team (CAT), with some overlap with the steering council (RSC)?
-**** RSC 
-***** elected for life?
-***** have they delivered what they were elected for?
-**** Alex Daniels banned for Raku critique (?)
-**** feels like they let him speak, but never act on it, aren't taking seriously
-***** tends to react negatively to that treatment
-
-**** looks back at older conversations, sometimes feel like "I could've done better"
-***** some seem to hold grudges, often at heart of project
-
-**** Oh, I finally implemented a streamlined animation making (with Raku.)
-***** Using Zeckendorf chord plots.
-
-**** implemented a streamlined animation making (with Raku.)
-***** Using Zeckendorf chord plots.
-
-**** Predicts they'll say "we have been giving him warnings for a long time"
-***** often feels like he's not the only one at fault but is always singled out.
-****** if they warned *someone else* occasionally, he'd take them more seriously
-****** yes of *course* Marton feels he's the victim and not the aggressor
-******* e.g. Marton doesn't try to get people removed
 
 *** Bill:
 **** https://unix.stackexchange.com/questions/652916/find-and-add-quotes-in-between-particular-string/804753#804753
