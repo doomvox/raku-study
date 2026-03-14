@@ -15,8 +15,7 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-
-
+*** today's quote
 
 ** old topics
 
