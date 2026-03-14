@@ -26,11 +26,16 @@ completion time by 19%--AI tooling slowed developers down."
 *** https://arxiv.org/abs/2507.09089
 *** "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity", July 25, 2025
 *** Joel Becker, Nate Rush, Elizabeth Barnes, David Rein
-
-
-
-
-
+*** METHODOLOGY
+**** Small sample size: 19 developers
+**** But ~250 programming tasks
+**** Developers are paid: $150/hr
+**** They install screen surveillance
+**** Ask developers to estimate time with or without being allowed to use AI
+**** Random "coin flip" to choose which tasks will be AI-allowed
+**** Ask developers how long they think it took
+**** Compare that to the actual measured time
+**** Real working conditions, interruptions allowed, 
 
 ** old topics
 
