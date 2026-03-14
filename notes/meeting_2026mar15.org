@@ -28,13 +28,6 @@
 **** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
 ***** "% \n" trick to allow optional final blank lines
 
-*** Bruce Gray
-**** syntactic quirk here
-***** https://rosettacode.org/wiki/Statistics/Normal_distribution#Raku
-***** reduction operators can act like function calls with arguments in parens
-#+BEGIN_SRC raku
-my $m = [+](@dataset) / $size;
-#+END_SRC
 
 *** Bruce Gray talk for the NAPR:
 **** https://docs.raku.org/routine/classify
@@ -45,16 +38,6 @@ my $m = [+](@dataset) / $size;
 ***** Márton Polgár: 
 ****** https://github.com/Raku/doc/issues/4293
 ******* "Apparently, when classify or classify-list has a tester that returns an Iterable, the individual elements of it will be considered a classification hierarchy, and hence create a nested Hash. "
-
-*** lizmat, year in review
-**** https://raku-advent.blog/2025/12/25/day-25-raku-2025-review/
-***** some discussion of Hash::Ordered
-****** Note: there's also a Hash::Sorted
-***** Anton has a use case involving hashes ordered by value 
-****** python dicts
-****** https://rakuforprediction.wordpress.com/2025/12/31/data-science-over-small-movie-dataset-part-2/
-******* recommendation systems
-******* wolfram: keysort
 
 ** open projects:
 *** links I expect to use again some day
