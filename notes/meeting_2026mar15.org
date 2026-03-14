@@ -55,7 +55,7 @@ completion time by 19%--AI tooling slowed developers down."
 
 *** Grammar School
 **** let's see actions
-***** where do I .make?  Can I make whatever I want or just use the method name?
+***** where do I .make?  Can I make whatever I want or do I just use the method name?
 **** our story thus far:
 **** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
 ***** "% \n" trick to allow optional final blank lines
