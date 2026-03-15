@@ -50,7 +50,7 @@ completion time by 19%--AI tooling slowed developers down."
 ******* they'd have their own time-tracking software/habits
 ****** programmer time estimates suck
 ******* but this study demonstrates they suck more with the AI option
-******* undercuts the anecdotal impressions that "vibe" coding rules 
+******* undercuts the anecdotal claims that "vibe" coding rules 
 
 ******* if you did studies like this on any latest bright and shiney, expect similar results
 ******** arguably this is hard on "AI"-- need to compare it to other fads
