@@ -15,12 +15,18 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
+*** rakubrew is okay by me
+**** installation is simple and smooth
+**** I like "install build"-- gets you a fresh build from last month
+
 *** Anton: I am interested in explanations of the π-calculation code one-liners here:
 https://www.reddit.com/r/rakulang/comments/1rtwa7x/pi_day_2026_formulas_series_and_plots_for_π/
 
-*** 
+**** 
 
 say  4 * [+] (0 .. ∞).map({ ((-1) ** .Int) / ( 2 * .FatRat + 1 ) })[^10000]
+
+(2.FatRat, { ++$ * $_ / (2 * ++$ + 1) } ... *)[^1658].sum
 
 
 *** today's quote
