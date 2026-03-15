@@ -53,7 +53,7 @@ completion time by 19%--AI tooling slowed developers down."
 ******* undercuts the anecdotal impressions that "vibe" coding rules 
 
 ******* if you did studies like this on any latest bright and shiney, expect similar results
-******** arguably hard on "AI"-- need to compare it to other fads
+******** arguably this is hard on "AI"-- need to compare it to other fads
 
 
 ** 
