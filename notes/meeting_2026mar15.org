@@ -123,6 +123,8 @@ There are similar — in mission — packages “LLM:Prompts” and “DSL::Exam
 
 [2] I can show some nice plots based on π-random-walks. both 2D and 3D.
 
+[3] An we can go through the “Jupyer::Chatbook Cheatsheet”.
+
 
 
 ** old topics
