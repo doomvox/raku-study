@@ -20,6 +20,7 @@ https://www.reddit.com/r/rakulang/comments/1rtwa7x/pi_day_2026_formulas_series_a
 
 
 
+
 *** today's quote
 #+BEGIN_SRC txt
 "Before starting tasks, developers forecast that allowing AI will
