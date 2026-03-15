@@ -63,6 +63,7 @@ completion time by 19%--AI tooling slowed developers down."
 ******** hype and money are impervious to data
 ******* Expect to see criticism that they were Doing Something Wrong (if the study isn't just ignored)
 ******** e.g. using stale tooling rather than some new thing released last month
+******** putting the phrase "Early-2025 AI" in the title is interesting
 
 ** 
 
