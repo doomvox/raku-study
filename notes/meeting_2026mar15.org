@@ -63,7 +63,7 @@ completion time by 19%--AI tooling slowed developers down."
 ***** Developers estimate time twice: with or without AI use
 ***** Random "coin flip" to choose which tasks will be AI-allowed
 ***** They then ask developers how long they think it took
-***** But they use have an actual measured time 
+***** But the experimenters compare to an actual measured time 
 
 
 **** 
