@@ -61,6 +61,8 @@ completion time by 19%--AI tooling slowed developers down."
 ****** Predictions
 ******* This study (and it's follow-ons, if any) will have little real world effect
 ******** hype and money are impervious to data
+******* Expect to see criticism that they're Doing Something Wrong (if the study isn't just ignored)
+******** e.g. using stale tooling rather than some new thing released last month
 
 ** 
 
