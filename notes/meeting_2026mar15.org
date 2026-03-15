@@ -42,7 +42,7 @@ completion time by 19%--AI tooling slowed developers down."
 ***** Real working conditions: interruptions allowed.
 **** COMMENTS?
 ***** My comments:
-****** good to study experts (they've got some funding)
+****** studying expert programmers (they've got some funding)
 ******* much easier to study students
 ****** good to have a study at all
 ******* there aren't many like this
