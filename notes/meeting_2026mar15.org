@@ -15,7 +15,7 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** rakubrew is okay by me
+*** rakubrew is okay by me 
 **** https://rakubrew.org
 **** installation is simple and smooth
 **** I like "install build"-- gets you a fresh build from last month
