@@ -58,6 +58,9 @@ completion time by 19%--AI tooling slowed developers down."
 ******* potentially contaminates the result (though I don't imagine that's happening here)
 ******* there's a slogan: when a metric becomes a target it stops working as a metric
 
+****** Predictions
+******* This study (and it's follow-ons, if any) will have little real world effect
+
 
 ** 
 
