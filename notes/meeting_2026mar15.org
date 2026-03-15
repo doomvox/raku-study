@@ -32,11 +32,12 @@ https://en.wikipedia.org/wiki/Pareto_principle
 
 **** Leibniz formula
 #+BEGIN_SRC raku
-
 say  4 * [+] (0 .. ∞).map({ ((-1) ** .Int) / ( 2 * .FatRat + 1 ) })[^10000]
 
 (2.FatRat, { ++$ * $_ / (2 * ++$ + 1) } ... *)[^1658].sum
 #+END_SRC
+
+
 
 *** today's quote
 #+BEGIN_SRC txt
