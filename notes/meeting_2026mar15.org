@@ -55,6 +55,7 @@ do. ... For many programmers, including us, it's hard to imagine
 going back to an era before the availability of AI assistance for
 writing code."
 
+
 **** COMMENTS?
 ***** My comments:
 ****** studying expert programmers (they've got some funding)
