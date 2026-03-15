@@ -124,7 +124,10 @@ There are similar — in mission — packages “LLM:Prompts” and “DSL::Exam
 
 [3] An we can go through the “Jupyer::Chatbook Cheatsheet”.
 
+*** Associative Methods
+https://dev.to/lizmat/associative-methods-2mcl
 
+*** 
 
 ** old topics
 
