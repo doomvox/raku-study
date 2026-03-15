@@ -31,7 +31,7 @@ completion time by 19%--AI tooling slowed developers down."
 ****** Expert programmers, working on open source projects on github
 ***** But ~250 programming tasks
 ***** Developers are paid: $150/hr
-***** Use screen recording surveillance
+***** Screens recorded while working
 ***** Developers estimate time with or without being allowed to use AI
 ***** Random "coin flip" to choose which tasks will be AI-allowed
 ***** Then ask developers how long they think it took
