@@ -54,7 +54,8 @@ completion time by 19%--AI tooling slowed developers down."
 
 ******* if you did studies like this on any latest bright and shiney, expect similar results
 ******** arguably this is hard on "AI"-- need to compare it to other fads
-
+****** Note: they pay out hourly-- but the data they're measuring is hours
+******* there's a slogan: when a metric becomes a target it stops working as a metric
 
 ** 
 
