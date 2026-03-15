@@ -15,7 +15,8 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** 
+*** Anton: I am interested in explanations of the π-calculation code one-liners here:
+https://www.reddit.com/r/rakulang/comments/1rtwa7x/pi_day_2026_formulas_series_and_plots_for_π/
 
 
 
