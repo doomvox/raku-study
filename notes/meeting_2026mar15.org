@@ -200,6 +200,7 @@ https://dev.to/lizmat/associative-methods-2mcl
 **** will be in late June: June 26-28, 29(class) TPRC (in person)
 **** hackathon on 25th, most likely
 **** https://tprc.us/tprc-2026-gsp
+***** talk deadline "midnight" tonight
 
 *** Perl and Raku Conference 2026 in Greenville, SC
 **** https://tprc.us/
