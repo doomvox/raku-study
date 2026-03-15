@@ -45,7 +45,7 @@ completion time by 19%--AI tooling slowed developers down."
 ****** studying expert programmers (they've got some funding)
 ******* much easier to study students
 ****** good to have a study at all
-******* there aren't many like this
+******* there aren't many studies like this of programming methodology
 ****** the programmers don't appear to do contracting
 ******* they'd have their own time-tracking software/habits
 ****** of course: programmer time estimates suck
