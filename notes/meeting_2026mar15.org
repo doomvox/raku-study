@@ -18,8 +18,7 @@
 *** Anton: I am interested in explanations of the π-calculation code one-liners here:
 https://www.reddit.com/r/rakulang/comments/1rtwa7x/pi_day_2026_formulas_series_and_plots_for_π/
 
-
-
+*** 
 
 *** today's quote
 #+BEGIN_SRC txt
