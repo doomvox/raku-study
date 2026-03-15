@@ -34,13 +34,13 @@ completion time by 19%--AI tooling slowed developers down."
 ****** Expert programmers, working on open source projects on github
 ***** But ~250 programming tasks
 ****** Actual tasks, not contrived exercises
+****** Real working conditions: interruptions allowed.
 ***** Developers are paid: $150/hr
 ***** Screens recorded while working
 ***** Developers estimate time twice: with or without AI use
 ***** Random "coin flip" to choose which tasks will be AI-allowed
 ***** They then ask developers how long they think it took
 ***** But they use have an actual measured time 
-***** Real working conditions: interruptions allowed.
 **** COMMENTS?
 ***** My comments:
 ****** studying expert programmers (they've got some funding)
