@@ -106,6 +106,24 @@ writing code."
 
 
 
+*** Anton question about LLM::Graph name space and interface
+[1] I have package design question:
+There is package “LLM::Graph”
+I want use that package to make variety of different applications based on LLM-graphs
+Since those applications will use other packages, I do not want them to be part of “LLM::Graph”
+What would be a good name for a separate package?
+LLM::Graphs
+LLM::Graph::Collection
+LLM::Graph::Applications
+Since the applications are “just” hashmaps with code, there can be / should be an universal interface to them
+Maybe, I should serialize the code in some way to JSON?
+
+
+There are similar — in mission — packages “LLM:Prompts” and “DSL::Examples”. But their data/code are much easier to serialize into JSON.
+
+[2] I can show some nice plots based on π-random-walks. both 2D and 3D.
+
+
 
 ** old topics
 
