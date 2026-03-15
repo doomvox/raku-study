@@ -54,16 +54,19 @@ completion time by 19%--AI tooling slowed developers down."
 ***** But they use have an actual measured time 
 
 
+**** 
+
 The preface to the 2025 edition of "AI Snake Oil" (2024)
 by Arvind Narayanan & Sayash Kapoor
 
-"We are heavy users of generative AI ourselves, especially for computer
-programming, an area where capabilities are rapidly advancing.  AI
-can generate snippets of code, and even entire applications, albeit
-simple ones, based on a text description of what the code should
-do. ... For many programmers, including us, it's hard to imagine
-going back to an era before the availability of AI assistance for writing code."
-
+"We are heavy users of generative AI ourselves, especially
+for computer programming, an area where capabilities are
+rapidly advancing.  AI can generate snippets of code, and
+even entire applications, albeit simple ones, based on a
+text description of what the code should do. ... For many
+programmers, including us, it's hard to imagine going back
+to an era before the availability of AI assistance for
+writing code."
 
 
 **** COMMENTS?
