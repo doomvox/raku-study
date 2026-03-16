@@ -142,6 +142,11 @@ LLM::Graph::Applications
 ******* selection => druthers
 ******* whole => choate
 
+****** Bruce Gray points to "Fabric"
+******* 	Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
+******* 	https://danielmiessler.com/blog/fabric-origin-story
+******* 	https://github.com/danielmiessler/fabric
+
 ***** Since the applications are “just” hashmaps with code, there can be / should be an universal interface to them
 ****** Maybe, I should serialize the code in some way to JSON?
 
