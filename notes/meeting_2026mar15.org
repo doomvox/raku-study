@@ -132,6 +132,7 @@ LLM::Graph::Applications
 
 **** Plots based on π-random-walks. both 2D and 3D.
 **** The “Jupyer::Chatbook Cheatsheet”.
+***** https://rakuforprediction.wordpress.com/2026/03/14/jupyterchatbook-cheatsheet/
 
 *** Associative Methods
 **** really: Custom Associatives, methods that implement Associative
