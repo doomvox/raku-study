@@ -85,7 +85,7 @@ the availability of AI assistance for writing code."
 
 **** COMMENTS?
 ***** My comments:
-****** studying expert programmers (they've got some funding)
+****** they study expert programmers (they've got some funding)
 ******* much easier to study students
 ****** good to have a study at all
 ******* there aren't many studies like this of programming methodology
