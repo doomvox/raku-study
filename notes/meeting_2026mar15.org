@@ -130,7 +130,7 @@ There are similar — in mission — packages “LLM:Prompts” and “DSL::Exam
 [3] An we can go through the “Jupyer::Chatbook Cheatsheet”.
 
 *** Associative Methods
-**** really: methods for doing Associative
+**** really: Custom Associatives, methods that implement Associative
 **** https://dev.to/lizmat/associative-methods-2mcl
 **** https://raku.land/zef:lizmat/Hash::Ordered
 ***** https://github.com/lizmat/Hash-Ordered
