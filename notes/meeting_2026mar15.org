@@ -156,14 +156,18 @@ LLM::Graph::Applications
 ******** https://github.com/antononcube/Raku-DSL-Examples/blob/main/resources/dsl-examples.json
 
 
-https://github.com/WLJSTeam/wljs-notebook
-https://www.wolfram.com/engine/
-https://mathlive.io/compute-engine
-https://github.com/cortex-js
-https://www.npmjs.com/package/@cortex-js/compute-engine
-https://mathlive.io/compute-engine/guides/latex-syntax/
-https://en.wikipedia.org/wiki/M-expression
-https://en.wikipedia.org/wiki/S-expression
+***** link grab bag from Anton:
+
+****** https://github.com/WLJSTeam/wljs-notebook
+****** https://www.wolfram.com/engine/
+****** https://mathlive.io/compute-engine
+****** https://github.com/cortex-js
+****** https://www.npmjs.com/package/@cortex-js/compute-engine
+****** https://mathlive.io/compute-engine/guides/latex-syntax/
+
+***** M-exp vs S-exp
+****** https://en.wikipedia.org/wiki/M-expression
+****** https://en.wikipedia.org/wiki/S-expression
 
 ****** more graphology
 ******* https://raku-advent.blog/2024/12/12/day-12-graphs-in-raku/
