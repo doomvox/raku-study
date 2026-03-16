@@ -165,6 +165,10 @@ https://mathlive.io/compute-engine/guides/latex-syntax/
 https://en.wikipedia.org/wiki/M-expression
 https://en.wikipedia.org/wiki/S-expression
 
+https://raku-advent.blog/2024/12/12/day-12-graphs-in-raku/
+https://www-cs-faculty.stanford.edu/~knuth/sgb.html
+
+
 **** Plots based on π-random-walks. both 2D and 3D.
 **** The “Jupyer::Chatbook Cheatsheet”.
 ***** https://rakuforprediction.wordpress.com/2026/03/14/jupyterchatbook-cheatsheet/
