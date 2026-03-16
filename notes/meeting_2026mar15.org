@@ -15,8 +15,11 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** Bruce Gray weekly challenge
-**** hollerith card challenge
+*** TODO raid zoom chat for links
+**** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2026mar15-meeting_saved_chat.txt
+
+*** Bruce Gray rosetta: hollerith card output
+**** hollerith 
 
 *** rakubrew is okay by me 
 **** https://rakubrew.org
