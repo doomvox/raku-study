@@ -175,7 +175,7 @@ https://en.wikipedia.org/wiki/S-expression
 ******** https://snap.stanford.edu/data/
 ******* curated list of resources, tools, libraries, and applications for working with graphs and networks
 ******** https://github.com/graphgeeks-lab/awesome-graph-universe
-******* House of Graphs (Anton's pick)
+******* House of Graphs
 ******** https://houseofgraphs.org
 
 
