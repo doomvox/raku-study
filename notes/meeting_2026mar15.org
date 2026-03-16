@@ -162,7 +162,8 @@ https://mathlive.io/compute-engine
 https://github.com/cortex-js
 https://www.npmjs.com/package/@cortex-js/compute-engine
 https://mathlive.io/compute-engine/guides/latex-syntax/
-
+https://en.wikipedia.org/wiki/M-expression
+https://en.wikipedia.org/wiki/S-expression
 
 **** Plots based on π-random-walks. both 2D and 3D.
 **** The “Jupyer::Chatbook Cheatsheet”.
