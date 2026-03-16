@@ -168,6 +168,10 @@ https://en.wikipedia.org/wiki/S-expression
 https://raku-advent.blog/2024/12/12/day-12-graphs-in-raku/
 Knuth: The Stanford GraphBase
 https://www-cs-faculty.stanford.edu/~knuth/sgb.html
+collaboration project to build a large, multi-domain set of graph datasets
+https://big-graph-dataset.readthedocs.io/latest/
+Stanford Large Network Dataset Collection
+https://snap.stanford.edu/data/
 
 
 **** Plots based on π-random-walks. both 2D and 3D.
