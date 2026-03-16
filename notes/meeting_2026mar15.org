@@ -159,7 +159,9 @@ LLM::Graph::Applications
 https://github.com/WLJSTeam/wljs-notebook
 https://www.wolfram.com/engine/
 https://mathlive.io/compute-engine
-"coretext"
+https://github.com/cortex-js
+https://www.npmjs.com/package/@cortex-js/compute-engine
+https://mathlive.io/compute-engine/guides/latex-syntax/
 
 
 **** Plots based on π-random-walks. both 2D and 3D.
