@@ -141,7 +141,7 @@ There are similar — in mission — packages “LLM:Prompts” and “DSL::Exam
 **** https://docs.raku.org/routine/AT-KEY
 
 
-*** Sparse Matrix
+*** Sparse Matrix (custom associative)
 **** https://en.wikipedia.org/wiki/Sparse_matrix
 
 **** https://raku.land/zef:antononcube/Math::SparseMatrix
