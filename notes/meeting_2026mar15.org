@@ -19,7 +19,7 @@
 **** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2026mar15-meeting_saved_chat.txt
 
 *** Bruce Gray rosetta: hollerith card output
-**** 
+**** evaluating code snippets for output
 
 *** rakubrew is okay by me 
 **** https://rakubrew.org
