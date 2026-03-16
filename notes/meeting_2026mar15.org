@@ -155,6 +155,9 @@ LLM::Graph::Applications
 
 **** https://raku.land/zef:antononcube/Math::NumberTheory
 
+** Hm?
+*** https://homepage.cs.uiowa.edu/~jones/pdp8/faqs/
+
 ** old topics
 
 *** Grammar School
