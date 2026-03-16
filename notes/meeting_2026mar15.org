@@ -126,8 +126,8 @@ LLM::Graph::Applications
 
 ****** There are similar — in mission — packages “LLM:Prompts” and “DSL::Examples”. But their data/code are much easier to serialize into JSON.
 
-**** I can show some nice plots based on π-random-walks. both 2D and 3D.
-**** An we can go through the “Jupyer::Chatbook Cheatsheet”.
+**** Plots based on π-random-walks. both 2D and 3D.
+**** The “Jupyer::Chatbook Cheatsheet”.
 
 *** Associative Methods
 **** really: Custom Associatives, methods that implement Associative
