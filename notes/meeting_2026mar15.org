@@ -128,6 +128,7 @@ LLM::Graph::Applications
 ****** english needs more words for aggregates (for programmers, at least)
 ******* LLM::Graph::Tools
 ******* LLM::Graph::Components
+******* LLM::Graph::Util
 
 ***** Since the applications are “just” hashmaps with code, there can be / should be an universal interface to them
 ****** Maybe, I should serialize the code in some way to JSON?
