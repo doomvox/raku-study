@@ -27,7 +27,7 @@
 **** I like "install build"-- gets you a fresh build from last month
 
 
-*** Anton:  explanations of the π-calculation code one-liners here:
+*** Anton: (in honor of pi-day) explanations of the π-calculation code one-liners here:
 https://www.reddit.com/r/rakulang/comments/1rtwa7x/pi_day_2026_formulas_series_and_plots_for_π/
 
 **** benford's law
