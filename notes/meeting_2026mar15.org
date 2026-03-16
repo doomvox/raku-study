@@ -140,6 +140,10 @@ There are similar — in mission — packages “LLM:Prompts” and “DSL::Exam
 
 **** https://docs.raku.org/routine/AT-KEY
 
+**** 
+
+**** https://raku-advent.blog/2024/12/12/day-12-graphs-in-raku/
+
 ** old topics
 
 *** Grammar School
