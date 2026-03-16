@@ -146,9 +146,13 @@ There are similar — in mission — packages “LLM:Prompts” and “DSL::Exam
 
 **** https://raku.land/zef:antononcube/Math::SparseMatrix
 
+**** https://en.wikipedia.org/wiki/Sparse_matrix
+
 **** https://raku-advent.blog/2024/12/12/day-12-graphs-in-raku/
 
 **** https://www.linkedin.com/posts/anton-antonov-89a8797_sparse-matrix-neat-examples-in-raku-activity-7278810198905958400-l3lE
+
+**** https://raku.land/zef:antononcube/Math::NumberTheory
 
 ** old topics
 
