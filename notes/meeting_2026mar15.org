@@ -135,7 +135,7 @@ LLM::Graph::Applications
 ******* Assemblage
 ******* Anthology
 ******* Kit
-******** I was once excited about the word "bag".  A short, simple term for aggregates that wasn't already over used in programming circles-- then I realized it was a mathematical term for a variant of sets.
+******** I was once excited about the word "bag".  A short, simple term for aggregates that wasn't already over used in programming circles-- then I realized it was a mathematical term for a variant of a set.
 
 ***** Since the applications are “just” hashmaps with code, there can be / should be an universal interface to them
 ****** Maybe, I should serialize the code in some way to JSON?
