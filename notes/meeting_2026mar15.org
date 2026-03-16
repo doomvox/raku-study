@@ -129,6 +129,8 @@ LLM::Graph::Applications
 ****** Maybe, I should serialize the code in some way to JSON?
 
 ****** There are similar — in mission — packages “LLM:Prompts” and “DSL::Examples”. But their data/code are much easier to serialize into JSON.
+******* https://raku.land/zef:antononcube/DSL::Examples
+******* https://github.com/antononcube/Raku-DSL-Examples/blob/main/resources/dsl-examples.json
 
 **** Plots based on π-random-walks. both 2D and 3D.
 **** The “Jupyer::Chatbook Cheatsheet”.
