@@ -144,9 +144,12 @@ There are similar — in mission — packages “LLM:Prompts” and “DSL::Exam
 
 ***** https://github.com/antononcube/Raku-Math-SparseMatrix/blob/main/lib/Math/SparseMatrix.rakumod
 
+*** Sparse Matricies
+**** https://en.wikipedia.org/wiki/Sparse_matrix
+
 **** https://raku.land/zef:antononcube/Math::SparseMatrix
 
-**** https://en.wikipedia.org/wiki/Sparse_matrix
+
 
 **** https://raku-advent.blog/2024/12/12/day-12-graphs-in-raku/
 
