@@ -140,7 +140,11 @@ There are similar — in mission — packages “LLM:Prompts” and “DSL::Exam
 
 **** https://docs.raku.org/routine/AT-KEY
 
-**** 
+***** https://github.com/antononcube/Raku-Math-SparseMatrix/blob/main/examples/arithmetic.raku
+
+***** https://github.com/antononcube/Raku-Math-SparseMatrix/blob/main/lib/Math/SparseMatrix.rakumod
+
+**** https://raku.land/zef:antononcube/Math::SparseMatrix
 
 **** https://raku-advent.blog/2024/12/12/day-12-graphs-in-raku/
 
