@@ -19,7 +19,7 @@
 **** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2026mar15-meeting_saved_chat.txt
 
 *** Bruce Gray rosetta: hollerith card output
-**** hollerith 
+**** 
 
 *** rakubrew is okay by me 
 **** https://rakubrew.org
@@ -55,6 +55,8 @@ completion time by 19%--AI tooling slowed developers down."
 **** https://arxiv.org/abs/2507.09089
 **** "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity", July 25, 2025
 **** Joel Becker, Nate Rush, Elizabeth Barnes, David Rein
+***** METR -- "meter"
+
 **** METHODOLOGY
 ***** Small sample size: 19 developers
 ****** Expert programmers, working on open source projects on github
