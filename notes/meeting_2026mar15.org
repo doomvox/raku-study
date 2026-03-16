@@ -166,6 +166,7 @@ https://en.wikipedia.org/wiki/M-expression
 https://en.wikipedia.org/wiki/S-expression
 
 https://raku-advent.blog/2024/12/12/day-12-graphs-in-raku/
+Knuth: The Stanford GraphBase
 https://www-cs-faculty.stanford.edu/~knuth/sgb.html
 
 
