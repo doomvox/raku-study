@@ -169,18 +169,18 @@ LLM::Graph::Applications
 ****** https://en.wikipedia.org/wiki/M-expression
 ****** https://en.wikipedia.org/wiki/S-expression
 
-****** more graphology
-******* https://raku-advent.blog/2024/12/12/day-12-graphs-in-raku/
-******* Knuth: The Stanford GraphBase
-******** https://www-cs-faculty.stanford.edu/~knuth/sgb.html
-******* collaboration project to build a large, multi-domain set of graph datasets
-******** https://big-graph-dataset.readthedocs.io/latest/
-******* Stanford Large Network Dataset Collection
-******** https://snap.stanford.edu/data/
-******* curated list of resources, tools, libraries, and applications for working with graphs and networks
-******** https://github.com/graphgeeks-lab/awesome-graph-universe
-******* House of Graphs
-******** https://houseofgraphs.org
+***** More graphology
+****** https://raku-advent.blog/2024/12/12/day-12-graphs-in-raku/
+****** Knuth: The Stanford GraphBase
+******* https://www-cs-faculty.stanford.edu/~knuth/sgb.html
+****** collaboration project to build a large, multi-domain set of graph datasets
+******* https://big-graph-dataset.readthedocs.io/latest/
+****** Stanford Large Network Dataset Collection
+******* https://snap.stanford.edu/data/
+****** curated list of resources, tools, libraries, and applications for working with graphs and networks
+******* https://github.com/graphgeeks-lab/awesome-graph-universe
+****** House of Graphs
+******* https://houseofgraphs.org
 
 
 **** Plots based on π-random-walks. both 2D and 3D.
