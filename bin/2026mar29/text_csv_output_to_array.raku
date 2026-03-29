@@ -18,7 +18,7 @@ use Text::CSV;
 }
 
 say "===";
-{
+{ # out to existing array seems broken
     my @data;
 
     my $ret = csv(in => $f, out => @data);
@@ -32,7 +32,7 @@ say "===";
 }
 
 say "===";
-{
+{ ## Callable works
   my @d;
   csv(in => $f, out => { @d.push: $_ });
   say @d[0];
