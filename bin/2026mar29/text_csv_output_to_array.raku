@@ -11,3 +11,4 @@ use Text::CSV;
 my @aoa = csv(in => $f);  # as array of arrays
 
 say @aoa[0];
+say @aoa[1];
