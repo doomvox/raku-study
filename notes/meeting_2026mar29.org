@@ -27,11 +27,10 @@
 ***** perl: use "Memoize" (also raku?)
 ***** raku: "is cached" attribute
 **** strategies: pure functions vs managed cache
-
-https://docs.raku.org/routine/is%20cached
-    `is cached` applies to `Routine`
-https://docs.raku.org/type/Method
-    Diagram at the bottom shows that `Method` is a `Routine`
+***** https://docs.raku.org/routine/is%20cached
+****** `is cached` applies to `Routine`
+***** https://docs.raku.org/type/Method
+****** Diagram at the bottom shows that `Method` is a `Routine`
 
 
 *** Anton's todo list
