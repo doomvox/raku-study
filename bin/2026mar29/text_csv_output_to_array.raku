@@ -28,6 +28,7 @@ say "===";
     say "ret: ", $ret.head(3);
 }
 
+say "===";
 {
   my @d;
   csv(in => $f, out => { @d.push: $_ });
