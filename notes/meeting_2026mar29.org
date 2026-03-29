@@ -23,6 +23,7 @@
 *** Anton has mathematical topics
 **** 
 
+
 ** old topics
 *** TODO raid zoom chat for links
 **** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2026mar15-meeting_saved_chat.txt
