@@ -27,3 +27,10 @@ say "===";
 
     say "ret: ", $ret.head(3);
 }
+
+{
+  my @d;
+  csv(in => $in, out => { @d.push: $_ });
+  say @d[0];
+  say @d[1];
+}
