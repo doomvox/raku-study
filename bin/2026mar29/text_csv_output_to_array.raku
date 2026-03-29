@@ -32,7 +32,7 @@ say "===";
 }
 
 say "===";
-{ ## Callable works
+{ ## out to Callable works
   my @d;
   csv(in => $f, out => { @d.push: $_ });
   say @d[0];
