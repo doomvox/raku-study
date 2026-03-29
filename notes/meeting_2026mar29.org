@@ -30,7 +30,6 @@
 ****** raku: "is cached" attribute
 ***** strategies: pure functions vs managed cache
 
-
 https://docs.raku.org/routine/is%20cached
     `is cached` applies to `Routine`
 https://docs.raku.org/type/Method
