@@ -18,43 +18,6 @@
 *** TODO raid zoom chat for links
 **** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2026mar15-meeting_saved_chat.txt
 
-*** today's quote
-#+BEGIN_SRC txt
-"Before starting tasks, developers forecast that allowing AI will
-reduce completion time by 24%. After completing the study, developers
-estimate that allowing AI reduced completion time by
-20%. Surprisingly, we find that allowing AI actually increases
-completion time by 19%--AI tooling slowed developers down."
-#+END_SRC
-**** https://arxiv.org/abs/2507.09089
-**** "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity", July 25, 2025
-**** Joel Becker, Nate Rush, Elizabeth Barnes, David Rein
-***** METR -- "meter"
-
-**** METHODOLOGY
-***** Small sample size: 19 developers
-****** Expert programmers, working on open source projects on github
-***** But ~250 programming tasks
-****** Actual tasks, not contrived exercises
-****** Real working conditions: interruptions allowed.
-***** Developers are paid: $150/hr
-***** Screens recorded while working
-***** Developers estimate time twice: with or without AI use
-***** Random "coin flip" to choose which tasks will be AI-allowed
-***** They then ask developers how long they think it took
-***** But the experimenters compare to an actual measured time 
-****** Q: WTF does that mean?
-
-**** From the preface to the 2025 edition of "AI Snake Oil" (2024) by Arvind Narayanan & Sayash Kapoor
-#+BEGIN_SRC txt
-"We are heavy users of generative AI ourselves, especially for
-computer programming, an area where capabilities are rapidly
-advancing. AI can generate snippets of code, and even entire
-applications, albeit simple ones, based on a text description
-of what the code should do. ... For many programmers,
-including us, it's hard to imagine going back to an era before
-the availability of AI assistance for writing code."
-#+END_SRC 
 
 
 **** COMMENTS?
