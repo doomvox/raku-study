@@ -40,7 +40,10 @@
 
 *** Anton's Latex Grammar
 **** used Raku AST 
-***** cheating?
+***** literally, used the .AST method in a grammar
+***** he was afraid that was "cheating"
+***** lizmat/Jonathan Worthington thought that was okay
+
 **** Latex to Raku
 
 *** Antler
