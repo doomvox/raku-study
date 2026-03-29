@@ -22,6 +22,8 @@ say thing( 6 );
 say thing( 3 );
 say thing( 6 );
 
+say "===";
 
-my @n = ( 4, 8, 12 );
-say ([1..100].hyper.map({ $_ +1 }).list);
+my @n = ( 4, 8, 4 );
+say (@n.hyper.map({ $_ +1 }).list);
+
