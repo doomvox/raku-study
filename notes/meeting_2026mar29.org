@@ -26,7 +26,7 @@
 *** Rob
 **** small stuff
 ***** memoization
-****** perl: use "Memoize"
+****** perl: use "Memoize" (also raku?)
 ****** raku: "is cached" attribute
 ***** strategies: pure functions vs managed cache
 
