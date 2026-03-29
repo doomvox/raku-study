@@ -45,6 +45,10 @@
 **** BNF
 **** Much like Raku grammars
 
+
+*** Marton publication discussion
+**** https://www.nntp.perl.org/group/perl.perl6.users/2026/03/msg11707.html
+
 ** old topics
 *** TODO raid zoom chat for links
 **** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2026mar15-meeting_saved_chat.txt
