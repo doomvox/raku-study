@@ -1,0 +1,291 @@
+* meeting notes March 15, 2026
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026mar29.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2026mar29
+****** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026mar01.org
+
+***** group discussions at github
+****** https://github.com/doomvox/raku-study/discussions 
+
+** old topics
+*** TODO raid zoom chat for links
+**** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2026mar15-meeting_saved_chat.txt
+
+*** Bruce Gray rosetta: hollerith card output
+**** https://rosettacode.org/wiki/Punched_cards
+**** evaluating code snippets for output
+**** https://gist.github.com/Util/8d31c883d65002298d9ef528efd45fa7
+
+
+
+*** rakubrew is okay by me 
+**** https://rakubrew.org
+**** installation is simple and smooth
+**** I like "install build"-- gets you a fresh build from last month
+
+
+*** Anton: (in honor of pi-day) explanations of the π-calculation code one-liners here:
+https://www.reddit.com/r/rakulang/comments/1rtwa7x/pi_day_2026_formulas_series_and_plots_for_π/
+
+**** benford's law
+https://en.wikipedia.org/wiki/Benford%27s_law
+
+**** pareto distribution
+https://en.wikipedia.org/wiki/Pareto_distribution
+https://en.wikipedia.org/wiki/Pareto_principle
+
+**** Leibniz formula
+***** https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80
+#+BEGIN_SRC raku
+say  4 * [+] (0 .. ∞).map({ ((-1) ** .Int) / ( 2 * .FatRat + 1 ) })[^10000]
+
+(2.FatRat, { ++$ * $_ / (2 * ++$ + 1) } ... *)[^1658].sum
+#+END_SRC
+
+**** more π-plots here: https://community.wolfram.com/groups/-/m/t/3661100
+
+*** today's quote
+#+BEGIN_SRC txt
+"Before starting tasks, developers forecast that allowing AI will
+reduce completion time by 24%. After completing the study, developers
+estimate that allowing AI reduced completion time by
+20%. Surprisingly, we find that allowing AI actually increases
+completion time by 19%--AI tooling slowed developers down."
+#+END_SRC
+**** https://arxiv.org/abs/2507.09089
+**** "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity", July 25, 2025
+**** Joel Becker, Nate Rush, Elizabeth Barnes, David Rein
+***** METR -- "meter"
+
+**** METHODOLOGY
+***** Small sample size: 19 developers
+****** Expert programmers, working on open source projects on github
+***** But ~250 programming tasks
+****** Actual tasks, not contrived exercises
+****** Real working conditions: interruptions allowed.
+***** Developers are paid: $150/hr
+***** Screens recorded while working
+***** Developers estimate time twice: with or without AI use
+***** Random "coin flip" to choose which tasks will be AI-allowed
+***** They then ask developers how long they think it took
+***** But the experimenters compare to an actual measured time 
+****** Q: WTF does that mean?
+
+**** From the preface to the 2025 edition of "AI Snake Oil" (2024) by Arvind Narayanan & Sayash Kapoor
+#+BEGIN_SRC txt
+"We are heavy users of generative AI ourselves, especially for
+computer programming, an area where capabilities are rapidly
+advancing. AI can generate snippets of code, and even entire
+applications, albeit simple ones, based on a text description
+of what the code should do. ... For many programmers,
+including us, it's hard to imagine going back to an era before
+the availability of AI assistance for writing code."
+#+END_SRC 
+
+
+**** COMMENTS?
+***** My comments:
+****** they study expert programmers (they've got some funding)
+******* much easier to study students
+****** good to have a study at all
+******* there aren't many studies like this of programming methodology
+****** the programmers don't appear to do contracting
+******* they'd have their own time-tracking software/habits
+****** programmer time estimates suck
+******* but this study demonstrates they suck more with the AI option
+******* undercuts the anecdotal claims that "vibe" coding rules 
+******* if you did studies like this on any latest bright and shiney, I expect similar results
+******** arguably this is hard on "AI": need to compare it to other fads
+****** Note: they pay out on hours-- but the data they're measuring is hours
+******* potentially contaminates the result (though I don't imagine that's happening here)
+******* there's a slogan: when a metric becomes a target it stops working as a metric
+****** Predictions
+******* This study (and it's follow-ons, if any) will have little real world effect
+******** hype and money are impervious to data
+******* Expect to see criticism that they were Doing Something Wrong (if the study isn't just ignored)
+******** e.g. using stale tooling rather than some new thing released last month
+******** putting the phrase "Early-2025 AI" in the title is interesting
+
+
+
+*** Anton question about LLM::Graph name space and interface
+**** package design question:  “LLM::Graph”
+***** I want use that package to make variety of different applications based on LLM-graphs
+***** Since those applications will use other packages, I do not want them to be part of “LLM::Graph”
+***** What would be a good name for a separate package?
+#+BEGIN_SRC txt
+LLM::Graphs
+LLM::Graph::Collection
+LLM::Graph::Applications
+#+END_SRC
+****** english needs more words for aggregates (for programmers, at least)
+******* LLM::Graph::Tools
+******* LLM::Graph::Components
+******* LLM::Graph::Utils
+******* Ensemble
+******* Orchestra
+******* Outfit
+******* Assemblage
+******* Anthology
+******* Kit
+******** I was once excited about the word "bag".  A short, simple term for "collection" that wasn't already over used in programming circles-- 
+********* Then I realized it was a mathematical term for a variant of a set.
+********* I sometimes resort to "pile".  I find no one else wants to call their data a pile.
+****** some great synonyms out there:
+******* selection => druthers
+******* whole => choate
+
+****** Bruce Gray points to "Fabric"
+******* 	Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
+******* 	https://danielmiessler.com/blog/fabric-origin-story
+******* 	https://github.com/danielmiessler/fabric
+
+***** Since the applications are “just” hashmaps with code, there can be / should be an universal interface to them
+****** Maybe, I should serialize the code in some way to JSON?
+
+****** There are similar — in mission — packages “LLM:Prompts” and “DSL::Examples”. 
+******* but the data/code is much easier to serialize into JSON.
+******** https://raku.land/zef:antononcube/DSL::Examples
+******** https://github.com/antononcube/Raku-DSL-Examples/blob/main/resources/dsl-examples.json
+
+
+***** link grab bag from Anton:
+
+****** https://github.com/WLJSTeam/wljs-notebook
+****** https://www.wolfram.com/engine/
+****** https://mathlive.io/compute-engine
+****** https://github.com/cortex-js
+****** https://www.npmjs.com/package/@cortex-js/compute-engine
+****** https://mathlive.io/compute-engine/guides/latex-syntax/
+
+***** M-exp vs S-exp
+****** https://en.wikipedia.org/wiki/M-expression
+****** https://en.wikipedia.org/wiki/S-expression
+
+***** More graphology
+****** https://raku-advent.blog/2024/12/12/day-12-graphs-in-raku/
+****** Knuth: The Stanford GraphBase
+******* https://www-cs-faculty.stanford.edu/~knuth/sgb.html
+****** collaboration project to build a large, multi-domain set of graph datasets
+******* https://big-graph-dataset.readthedocs.io/latest/
+****** Stanford Large Network Dataset Collection
+******* https://snap.stanford.edu/data/
+****** curated list of resources, tools, libraries, and applications for working with graphs and networks
+******* https://github.com/graphgeeks-lab/awesome-graph-universe
+****** House of Graphs
+******* https://houseofgraphs.org
+
+
+**** Plots based on π-random-walks. both 2D and 3D.
+**** The “Jupyer::Chatbook Cheatsheet”.
+***** https://rakuforprediction.wordpress.com/2026/03/14/jupyterchatbook-cheatsheet/
+
+*** Associative Methods
+**** really: Custom Associatives, methods that implement Associative
+**** https://dev.to/lizmat/associative-methods-2mcl
+**** https://raku.land/zef:lizmat/Hash::Ordered
+***** https://github.com/lizmat/Hash-Ordered
+***** https://github.com/lizmat/Hash-Ordered/blob/main/lib/Hash/Ordered.rakumod
+**** https://github.com/FCO/OrderedHash/blob/master/lib/OrderedHash.pm6
+**** https://docs.raku.org/routine/AT-KEY
+
+*** Sparse Matrix (custom associative)
+**** https://en.wikipedia.org/wiki/Sparse_matrix
+
+**** https://raku.land/zef:antononcube/Math::SparseMatrix
+***** https://github.com/antononcube/Raku-Math-SparseMatrix/blob/main/examples/arithmetic.raku
+***** https://github.com/antononcube/Raku-Math-SparseMatrix/blob/main/lib/Math/SparseMatrix.rakumod
+
+**** https://raku-advent.blog/2024/12/12/day-12-graphs-in-raku/
+
+**** https://www.linkedin.com/posts/anton-antonov-89a8797_sparse-matrix-neat-examples-in-raku-activity-7278810198905958400-l3lE
+
+**** https://raku.land/zef:antononcube/Math::NumberTheory
+
+** Hm?
+*** https://homepage.cs.uiowa.edu/~jones/pdp8/faqs/
+
+** old topics
+
+*** Grammar School
+**** let's see actions
+***** where do I .make?  Can I make whatever I want or do I just use the method name?
+**** our story thus far:
+**** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool/orgmode_question_eol_dance.raku
+***** "% \n" trick to allow optional final blank lines
+
+
+*** Bruce Gray talk for the NAPR:
+**** https://docs.raku.org/routine/classify
+**** https://docs.raku.org/routine/classify-list
+**** https://docs.raku.org/routine/categorize
+**** https://docs.raku.org/routine/categorize-list
+**** and the concepts in general, e.g. "group by" in sql
+***** Márton Polgár: 
+****** https://github.com/Raku/doc/issues/4293
+******* "Apparently, when classify or classify-list has a tester that returns an Iterable, the individual elements of it will be considered a classification hierarchy, and hence create a nested Hash. "
+
+** open projects:
+*** links I expect to use again some day
+***** duckmap examples are here:
+****** https://github.com/doomvox/raku-study/tree/main/bin/2025jul13
+***** Subtitle parsing
+****** https://github.com/doomvox/raku-study/tree/main/bin/Subtitles
+
+** follow-up
+*** next time
+**** before starting meeting, warm-up on "advanced" screen sharing
+**** increase the font size in emacs
+*** TODO 
+**** new raku front page
+***** leading code snippet has an very obscure idiom
+
+*** TODO doc problems
+**** https://docs.raku.org/routine/duckmap
+**** Rat?  Not Numeric?
+**** Why changed data with changed code?
+**** Possibly, better examples?
+
+*** TODO start a people file already 
+**** farley
+***** apogee == Matt Dowdy
+***** librasteve == Steve Rowe
+***** jubilatious1 == William Michels
+***** util == Bruce Gray
+***** 2colours == Márton Polgár
+***** doom == doomvox == tailorpaul == Joseph Brenner == me
+***** antonov == Anton Antonov
+
+*** TODO
+**** look up the paper claiming to show programmers that swear chatgpt is really helpful are exaggerating
+
+*** TODO Bruce Gray:
+**** GNU Stow is the way to manage Dotfiles
+***** https://joshblais.com/blog/gnu-stow/
+
+** TODO meeting management
+*** luma, alternative to meetup
+**** https://luma.com
+
+** announcements 
+*** next meetings
+**** March 29, 2026
+**** April 12, 2026
+
+*** North American Perl and Raku conference 
+**** will be in late June: June 26-28, 29(class) TPRC (in person)
+**** hackathon on 25th, most likely
+**** https://tprc.us/tprc-2026-gsp
+***** talk deadline "midnight" tonight
+
+*** Perl and Raku Conference 2026 in Greenville, SC
+**** https://tprc.us/
+
+
