@@ -34,8 +34,6 @@
 **** some text-oriented formats look simple for Raku
 **** harder to do display and manipulation
 
-*** Anton has mathematical topics
-
 *** Anton's Latex Grammar
 **** used Raku AST 
 ***** cheating?
