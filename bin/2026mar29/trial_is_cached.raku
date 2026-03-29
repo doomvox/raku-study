@@ -8,6 +8,7 @@ sub thing ($x) is cached {
     my $r = internal( $x );
     return $r;
 }
+
 sub internal ($a) {
     say "doing internal calc";
     my $r = $a * 2;
