@@ -17,7 +17,7 @@
 
 ** topics
 *** Rob
-**** follow anton?
+**** small stuff
 
 *** Anton's todo list
 **** Symbolic computations in Raku — by hijacking
