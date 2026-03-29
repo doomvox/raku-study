@@ -33,6 +33,9 @@
 ****** Diagram at the bottom shows that `Method` is a `Routine`
 
 
+system monitor
+debian
+
 *** Anton's todo list
 **** Symbolic computations in Raku — by hijacking
 ***** bruce's interest
