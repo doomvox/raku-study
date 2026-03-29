@@ -24,6 +24,7 @@
 
 *** Anton's todo list
 **** Symbolic computations in Raku — by hijacking
+***** bruce's itnerest
 **** Game theory package(s)
 **** LaTeX parsing and interpretation — many actions
 ***** joe's interest
