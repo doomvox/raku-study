@@ -27,8 +27,6 @@
 *** TODO raid zoom chat for links
 **** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2026mar15-meeting_saved_chat.txt
 
-
-
 *** Anton question about LLM::Graph name space and interface
 **** package design question:  “LLM::Graph”
 ***** I want use that package to make variety of different applications based on LLM-graphs
