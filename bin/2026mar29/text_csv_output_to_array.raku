@@ -25,5 +25,5 @@ say "===";
     say @data[0];
     say @data[1];
 
-    say "ret: $ret";
+    say "ret: ", $ret.head(30);
 }
