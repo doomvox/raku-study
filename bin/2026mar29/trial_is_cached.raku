@@ -4,6 +4,8 @@
 
 use v6;
 
+use experimental :cached;
+
 sub thing ($x) is cached {
     my $r = internal( $x );
     return $r;
