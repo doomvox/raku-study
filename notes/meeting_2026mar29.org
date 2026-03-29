@@ -17,7 +17,6 @@
 
 ** topics
 *** 3-d graphs via raku, not really there yet.
-
 *** Anton has mathematical topics
 
 ** old topics
