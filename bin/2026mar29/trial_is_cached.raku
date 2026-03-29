@@ -11,6 +11,7 @@ sub thing ($x) is cached {
 }
 
 sub internal ($a) {
+    say "doing internal calc";
     my $r = $a * 2;
     return $r;
 }
