@@ -14,3 +14,6 @@ sub internal ($a) {
     my $r = $a * 2;
     return $r;
 }
+
+say thing( 3 );
+say thing( 6 );
