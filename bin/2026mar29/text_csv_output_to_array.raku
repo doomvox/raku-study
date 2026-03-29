@@ -18,4 +18,8 @@ say @aoa[1];
 
 my @data;
 
-my $ret = csv(in => $f, out => @data)
+my $ret = csv(in => $f, out => @data);
+say @data[0];
+say @data[1];
+
+say "ret: $ret";
