@@ -19,7 +19,6 @@
 *** Discussion of the recent Marton publication 
 **** https://www.nntp.perl.org/group/perl.perl6.users/2026/03/msg11707.html
 
-
 *** David C
 **** spec for Raku
 
