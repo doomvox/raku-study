@@ -36,6 +36,9 @@
 **** debian tool "system monitor" shows what's happening with individual processors
 
 
+
+
+
 *** Anton's todo list
 **** Symbolic computations in Raku — by hijacking
 ***** bruce's interest
