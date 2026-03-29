@@ -23,6 +23,9 @@
 *** Anton has mathematical topics
 
 *** Anton's Latex Grammar
+**** used Raku AST 
+***** cheating?
+**** Latex to Raku
 
 *** Antler
 **** Code generator
