@@ -19,5 +19,4 @@ sub internal ($a) {
 
 say thing( 3 );
 say thing( 6 );
-say thing( 9 );
 say thing( 3 );
