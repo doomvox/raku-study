@@ -22,7 +22,7 @@
 *** David C
 **** spec for Raku
 
-*** Rob
+*** Rob Ransbottom (rir):
 **** small stuff
 ***** memoization
 ****** perl: use "Memoize" (also raku?)
