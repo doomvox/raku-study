@@ -17,6 +17,9 @@
 
 ** topics
 *** 3-d graphs via raku, not really there yet.
+**** some text-oriented formats look simple for Raku
+**** harder to do display and manipulation
+
 *** Anton has mathematical topics
 
 ** old topics
