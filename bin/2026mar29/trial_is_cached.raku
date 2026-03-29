@@ -31,4 +31,4 @@ say (@n.hyper.map({ thing($_) }).list);
 say "===";
 
 
-raku -e '(1..1000).hyper(:8degree).map({ say $_ })'
+
