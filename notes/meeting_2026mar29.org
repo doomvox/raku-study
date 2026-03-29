@@ -14,32 +14,12 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
+
+** topics
+
 ** old topics
 *** TODO raid zoom chat for links
 **** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2026mar15-meeting_saved_chat.txt
-
-**** COMMENTS?
-***** My comments:
-****** they study expert programmers (they've got some funding)
-******* much easier to study students
-****** good to have a study at all
-******* there aren't many studies like this of programming methodology
-****** the programmers don't appear to do contracting
-******* they'd have their own time-tracking software/habits
-****** programmer time estimates suck
-******* but this study demonstrates they suck more with the AI option
-******* undercuts the anecdotal claims that "vibe" coding rules 
-******* if you did studies like this on any latest bright and shiney, I expect similar results
-******** arguably this is hard on "AI": need to compare it to other fads
-****** Note: they pay out on hours-- but the data they're measuring is hours
-******* potentially contaminates the result (though I don't imagine that's happening here)
-******* there's a slogan: when a metric becomes a target it stops working as a metric
-****** Predictions
-******* This study (and it's follow-ons, if any) will have little real world effect
-******** hype and money are impervious to data
-******* Expect to see criticism that they were Doing Something Wrong (if the study isn't just ignored)
-******** e.g. using stale tooling rather than some new thing released last month
-******** putting the phrase "Early-2025 AI" in the title is interesting
 
 
 
