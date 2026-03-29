@@ -35,3 +35,6 @@ say "===";
   say @d[0];
   say @d[1];
 }
+
+# [ mpg cyl disp hp drat wt qsec vs am gear carb]
+# [Mazda RX4 21 6 160 110 3.9 2.62 16.46 0 1 4 4]
