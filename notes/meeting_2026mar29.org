@@ -22,12 +22,11 @@
 *** David C
 **** spec for Raku
 
-*** Rob Ransbottom (rir):
-**** small stuff
-***** memoization
-****** perl: use "Memoize" (also raku?)
-****** raku: "is cached" attribute
-***** strategies: pure functions vs managed cache
+*** memoization  -- Rob Ransbottom (rir)
+**** memoization
+***** perl: use "Memoize" (also raku?)
+***** raku: "is cached" attribute
+**** strategies: pure functions vs managed cache
 
 https://docs.raku.org/routine/is%20cached
     `is cached` applies to `Routine`
