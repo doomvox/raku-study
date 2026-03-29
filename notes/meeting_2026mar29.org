@@ -30,6 +30,7 @@
 ****** raku: "is cached" attribute
 ***** strategies: pure functions
 
+
 *** Anton's todo list
 **** Symbolic computations in Raku — by hijacking
 ***** bruce's interest
