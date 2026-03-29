@@ -18,39 +18,6 @@
 *** TODO raid zoom chat for links
 **** /home/doom/End/Cave/RakuStudy/Notes/ZoomChats/raku_study-2026mar15-meeting_saved_chat.txt
 
-*** Bruce Gray rosetta: hollerith card output
-**** https://rosettacode.org/wiki/Punched_cards
-**** evaluating code snippets for output
-**** https://gist.github.com/Util/8d31c883d65002298d9ef528efd45fa7
-
-
-
-*** rakubrew is okay by me 
-**** https://rakubrew.org
-**** installation is simple and smooth
-**** I like "install build"-- gets you a fresh build from last month
-
-
-*** Anton: (in honor of pi-day) explanations of the π-calculation code one-liners here:
-https://www.reddit.com/r/rakulang/comments/1rtwa7x/pi_day_2026_formulas_series_and_plots_for_π/
-
-**** benford's law
-https://en.wikipedia.org/wiki/Benford%27s_law
-
-**** pareto distribution
-https://en.wikipedia.org/wiki/Pareto_distribution
-https://en.wikipedia.org/wiki/Pareto_principle
-
-**** Leibniz formula
-***** https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80
-#+BEGIN_SRC raku
-say  4 * [+] (0 .. ∞).map({ ((-1) ** .Int) / ( 2 * .FatRat + 1 ) })[^10000]
-
-(2.FatRat, { ++$ * $_ / (2 * ++$ + 1) } ... *)[^1658].sum
-#+END_SRC
-
-**** more π-plots here: https://community.wolfram.com/groups/-/m/t/3661100
-
 *** today's quote
 #+BEGIN_SRC txt
 "Before starting tasks, developers forecast that allowing AI will
