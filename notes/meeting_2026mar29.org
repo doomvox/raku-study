@@ -49,20 +49,20 @@
 *** Bruce Gray researched Anton Antonov's coding environment
 
 ***** https://www.youtube.com/watch?v=nWeGkJU3wdM
-******     Using Wolfram Engine in Raku sessions
+****** Using Wolfram Engine in Raku sessions
 
 ***** https://vscodium.com/
-******         VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.
-******         (No telemetry)
+****** VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.
+****** (No telemetry)
 
 ***** https://jupyter.org/
-******         Interactive computing : Jupyter Notebook
+****** Interactive computing : Jupyter Notebook
 
 ***** https://metacpan.org/pod/Devel::IPerl
-******         Perl language kernel for Jupyter
+****** Perl language kernel for Jupyter
 
 ***** https://raku.land/zef:antononcube/Jupyter::Chatbook
-******         Raku version of Perl's Jupyter::Kernel / Devel::IPerl
+****** Raku version of Perl's Jupyter::Kernel / Devel::IPerl
 
 
 **** Marton publication discussion
