@@ -30,7 +30,7 @@ say "===";
 
 {
   my @d;
-  csv(in => $in, out => { @d.push: $_ });
+  csv(in => $f, out => { @d.push: $_ });
   say @d[0];
   say @d[1];
 }
