@@ -16,6 +16,9 @@
 
 
 ** topics
+*** David C
+**** spec for Raku
+
 *** Rob
 **** small stuff
 
