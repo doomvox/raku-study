@@ -26,8 +26,8 @@
 *** Rob
 **** small stuff
 ***** memoization
-****** perl use "Memoize"
-****** raku "is cached" attribute
+****** perl: use "Memoize"
+****** raku: "is cached" attribute
 
 *** Anton's todo list
 **** Symbolic computations in Raku — by hijacking
