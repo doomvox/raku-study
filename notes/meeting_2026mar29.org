@@ -26,6 +26,7 @@
 **** Symbolic computations in Raku — by hijacking
 **** Game theory package(s)
 **** LaTeX parsing and interpretation — many actions
+***** joe's interest
 **** Tabulation and visualization of LaTeX interpretations
 
 *** 3-d graphs via raku, not really there yet.
