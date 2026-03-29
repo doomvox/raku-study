@@ -21,6 +21,7 @@
 **** harder to do display and manipulation
 
 *** Anton has mathematical topics
+**** 
 
 ** old topics
 *** TODO raid zoom chat for links
