@@ -1,11 +1,11 @@
-* meeting notes March 15, 2026
+* meeting notes April 12, 2026
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026mar29.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026apr12.org 
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2026mar29
+****** https://github.com/doomvox/raku-study/tree/main/bin/2026apr12
 ****** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool
 
 ***** last meeting notes
