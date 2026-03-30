@@ -16,6 +16,10 @@
 
 
 ** topics
+*** 
+
+** old topics
+
 *** Discussion of the recent Marton publication 
 **** https://www.nntp.perl.org/group/perl.perl6.users/2026/03/msg11707.html
 
@@ -80,6 +84,8 @@
 
 **** parsing markdown into jupyter 
 https://rakuforprediction.wordpress.com/2024/02/17/notebook-transformations/
+
+
 
 ** Text::CSV "out" to @array
 *** docs say this works
