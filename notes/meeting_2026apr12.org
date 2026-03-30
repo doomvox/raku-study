@@ -16,7 +16,8 @@
 
 
 ** topics
-*** 
+*** Function return types should also tell about the used assignment/container
+**** https://github.com/Raku/problem-solving/issues/337#issuecomment-3867569693
 
 ** old topics
 
