@@ -82,6 +82,8 @@
 https://rakuforprediction.wordpress.com/2024/02/17/notebook-transformations/
 
 ** Text::CSV "out" to @array
+*** docs
+
 *** docs say this works
 #+BEGIN_SRC raku
    my $ret = csv(in => $f, out => @data);
