@@ -32,7 +32,6 @@
 ***** https://docs.raku.org/type/Method
 ****** Diagram at the bottom shows that `Method` is a `Routine`
 
-
 **** debian tool "system monitor" shows what's happening with individual processors
 
 *** Anton's todo list
