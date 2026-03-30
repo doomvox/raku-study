@@ -1,4 +1,4 @@
-* meeting notes March 29, 2026
+* meeting notes March 15, 2026
 ** the raku study group
 **** usual links
 ***** these notes
