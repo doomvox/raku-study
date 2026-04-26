@@ -12,3 +12,5 @@ multi hat ( Hash $arg ) {
     say "A Hash";
     dd $arg;
     }
+
+hat(@monsters);
