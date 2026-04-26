@@ -16,7 +16,8 @@
     say $m;         # BagHash(blob crinoid godzilla rhodan tingler)
     say $m.elems;   # 5
 
-    $m<rhodan>:delete;
+    my $ret = 
+        $m<rhodan>:delete;
     say $m;         # BagHash(blob crinoid godzilla tingler)
     say $m.elems;   # 4 
 }
