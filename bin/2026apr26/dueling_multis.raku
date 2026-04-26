@@ -9,6 +9,6 @@ multi hat ( Array $arg ) {
     }
 
 multi hat ( Hash $arg ) {
-    say "An Hash";
+    say "A Hash";
     dd $arg;
     }
