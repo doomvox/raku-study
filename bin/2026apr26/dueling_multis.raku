@@ -25,12 +25,12 @@ my %threat  = ('godilla' => 8, 'rhodan' => 3, 'blob' => 5, 'tingler' => 4, 'crin
 
 
 {
-    multi sub hat ( Array $arg ) {
+    multi hat ( Array $arg ) {
         say "An Array";
         dd $arg;
     }
 
-    multi sub hat ( Hash $arg ) {
+    multi hat ( Hash $arg ) {
         say "A Hash";
         dd $arg;
     }
