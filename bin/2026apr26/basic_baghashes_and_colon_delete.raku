@@ -26,6 +26,8 @@ my @monsters = <<godzilla rhodan blob tingler crinoid>>;
     say %carpet;      # {blob => 1, crinoid => 1, godzilla => 1, rhodan => 1, tingler => 1}
     say %carpet.WHAT; # (Hash)
 
-    ## That's a definite surprise, I would say.
+# Type check failed for an element of %carpet; expected BagHash but got Int (1)
+#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026apr26/basic_baghashes_and_colon_delete.raku line 25
+
 }
 
