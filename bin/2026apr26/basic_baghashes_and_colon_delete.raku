@@ -38,7 +38,7 @@ my @monsters = <<godzilla rhodan blob tingler crinoid>>;
     say %carpet;      # BagHash(blob crinoid godzilla rhodan tingler)
     say %carpet.WHAT; # (BagHash)
 
-    say %carpet<crinoid>;
+    say %carpet<crinoid>; # 1
 
 
 # Type check failed for an element of %carpet; expected BagHash but got Int (1)
