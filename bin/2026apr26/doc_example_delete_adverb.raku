@@ -16,7 +16,7 @@
     say $m;         #
     say $m.elems;   # 
 
-    %m<a>:delete;
-    say %m;         # 
-    say %m.elems;   # 
+    $m<a>:delete;
+    say $m;         # 
+    say $m.elems;   # 
 }
