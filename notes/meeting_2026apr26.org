@@ -35,7 +35,6 @@
 *** Anton Antonov
 **** https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 
-
 *** Weekly Challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-368/
 **** Bruce Gray:
