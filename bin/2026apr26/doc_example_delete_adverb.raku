@@ -13,10 +13,10 @@
 {
     my @monsters = <<godzilla rhodan blob tingler crinoid>>;
     my $m = @monsters.BagHash;
-    say $m;         #
-    say $m.elems;   # 
+    say $m;         # BagHash(blob crinoid godzilla rhodan tingler)
+    say $m.elems;   # 5
 
     $m<rhodan>:delete;
-    say $m;         # 
-    say $m.elems;   # 
+    say $m;         # BagHash(blob crinoid godzilla tingler)
+    say $m.elems;   # 4 
 }
