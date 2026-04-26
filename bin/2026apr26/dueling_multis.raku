@@ -42,6 +42,8 @@ say "===";
 
     hat(%threat);
 
+# A slurped Array
+# [:godilla(8), :tingler(4), :crinoid(6), :rhodan(3), :blob(5)]
 
 
 }
