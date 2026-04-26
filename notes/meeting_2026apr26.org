@@ -51,10 +51,10 @@
 *** Announcment via Bruce Gray
 
 
-FYI: https://luma.com/49xu5xux
-Toronto Perl Mongers: Parsing Perl Without Perl: A Rust LSP for Perl
-Thursday, April 30
-6:00 PM - 7:30 PM CDT (on Zoom)
+**** FYI: https://luma.com/49xu5xux
+**** Toronto Perl Mongers: Parsing Perl Without Perl: A Rust LSP for Perl
+**** Thursday, April 30
+**** 6:00 PM - 7:30 PM CDT (on Zoom)
 
 
 
