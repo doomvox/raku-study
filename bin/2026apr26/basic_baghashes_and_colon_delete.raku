@@ -56,6 +56,7 @@ my @monsters = <<godzilla rhodan blob tingler crinoid>>;
 #    my BagHash $vinyl  = %h.List.BagHash;
 
 
+
 # Odd number of elements found where hash initializer expected:
 # Found 5 (implicit) elements:
 # Last element seen: "crinoid"
