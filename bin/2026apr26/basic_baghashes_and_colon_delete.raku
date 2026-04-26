@@ -41,11 +41,6 @@ my @monsters = <<godzilla rhodan blob tingler crinoid>>;
     say %carpet<crinoid>; # 1
 }
 
-
-
-exit;
-
-
 {
     my BagHash $vinyl = @monsters.Hash;
     say $vinyl;      # {blob => 1, crinoid => 1, godzilla => 1, rhodan => 1, tingler => 1}
