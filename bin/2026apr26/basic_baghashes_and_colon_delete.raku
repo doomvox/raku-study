@@ -48,7 +48,7 @@ my @monsters = <<godzilla rhodan blob tingler crinoid>>;
     # Welcome to Rakudo™ v2024.09.
 
     my %h = ( 'a' => 1, 'b' => 2, 'c' => 3 );
-    say %h;
+    say %h;  # {a => 1, b => 2, c => 3}
 
     my  BagHash $vinyl  = %h;
 
