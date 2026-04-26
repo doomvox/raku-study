@@ -51,6 +51,7 @@ my @monsters = <<godzilla rhodan blob tingler crinoid>>;
     say %h;  # {a => 1, b => 2, c => 3}
 
     my  BagHash $vinyl  = %h;
+    ## Type check failed in assignment to $vinyl; expected BagHash but got Hash ({:a(1), :b(2), :c(3)})
 
     say $vinyl;      # {blob => 1, crinoid => 1, godzilla => 1, rhodan => 1, tingler => 1}
     say $vinyl.WHAT; # (Hash)
