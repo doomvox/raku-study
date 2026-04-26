@@ -22,3 +22,24 @@ my %threat  = ('godilla' => 8, 'rhodan' => 3, 'blob' => 5, 'tingler' => 4, 'crin
     # A Hash
     # ${:blob(5), :crinoid(6), :godilla(8), :rhodan(3), :tingler(4)}
 }
+
+
+{
+    multi sub hat ( Array $arg ) {
+        say "An Array";
+        dd $arg;
+    }
+
+    multi sub hat ( Hash $arg ) {
+        say "A Hash";
+        dd $arg;
+    }
+
+    hat(@monsters);  
+    # An Array
+    # $["godzilla", "rhodan", "blob", "tingler", "crinoid"]
+
+    hat(%threat);
+    # A Hash
+    # ${:blob(5), :crinoid(6), :godilla(8), :rhodan(3), :tingler(4)}
+}
