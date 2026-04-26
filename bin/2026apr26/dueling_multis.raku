@@ -26,13 +26,13 @@ my %threat  = ('godilla' => 8, 'rhodan' => 3, 'blob' => 5, 'tingler' => 4, 'crin
 
 {
     multi hat ( *@arg ) {
-        say "An Array";
-        dd $arg;
+        say "A slurped Array";
+        dd @arg;
     }
 
     multi hat ( *%arg ) {
-        say "A Hash";
-        dd $arg;
+        say "A slurped Hash";
+        dd %arg;
     }
 
     hat(@monsters);  
