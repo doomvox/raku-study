@@ -21,11 +21,13 @@
 **** raku -- "feel"
 ***** https://www.youtube.com/watch?v=gygMcVLlPd8
 
-*** The meeting annoucement quote from Dijkstra is from a piece out there on-line:
-**** https://www.smaldone.com.ar/documentos/ewd/EWD1036_pretty.pdf
 
 ** topics
 *** so, whatcha got?
+
+*** The meeting annoucement quote from Dijkstra is from a piece out there on-line:
+**** https://www.smaldone.com.ar/documentos/ewd/EWD1036_pretty.pdf
+
 
 *** Rob: issues with stashing an anonymous routine in a variable
 
