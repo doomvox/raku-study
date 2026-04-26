@@ -42,7 +42,7 @@ my @monsters = <<godzilla rhodan blob tingler crinoid>>;
 }
 
 {
-    my BagHash $vinyl = @monsters.Hash;
+    my  $vinyl is BagHash = @monsters.Hash;
     say $vinyl;      # {blob => 1, crinoid => 1, godzilla => 1, rhodan => 1, tingler => 1}
     say $vinyl.WHAT; # (Hash)
 
