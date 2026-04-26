@@ -45,7 +45,7 @@ my @monsters = <<godzilla rhodan blob tingler crinoid>>;
 
 
 
-
+exit;
 
 
 {
