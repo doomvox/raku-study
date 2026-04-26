@@ -39,11 +39,6 @@ my @monsters = <<godzilla rhodan blob tingler crinoid>>;
     say %carpet.WHAT; # (BagHash)
 
     say %carpet<crinoid>; # 1
-
-
-# Type check failed for an element of %carpet; expected BagHash but got Int (1)
-#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026apr26/basic_baghashes_and_colon_delete.raku line 25
-
 }
 
 
