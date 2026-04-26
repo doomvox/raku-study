@@ -27,6 +27,9 @@
 ** topics
 *** so, whatcha got?
 
+*** Rob: issues with stashing an anonymous routine in a variable
+
+
 *** Weekly Challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-368/
 **** Bruce Gray:
