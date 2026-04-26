@@ -33,7 +33,7 @@ my @monsters = <<godzilla rhodan blob tingler crinoid>>;
 
 
 {
-    my BagHash %carpet = @monsters.BagHash;
+    my %carpet is BagHash = @monsters.BagHash;
     say %carpet;      # {blob => 1, crinoid => 1, godzilla => 1, rhodan => 1, tingler => 1}
     say %carpet.WHAT; # (Hash)
 
