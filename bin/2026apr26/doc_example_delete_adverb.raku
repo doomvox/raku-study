@@ -16,7 +16,7 @@
     say $m;         #
     say $m.elems;   # OUTPUT: «1␤»
 
-    %h<a>:delete;
-    say %h;         # OUTPUT: «{}␤»
-    say %h.elems;   # OUTPUT: «0␤»
+    %m<a>:delete;
+    say %m;         # OUTPUT: «{}␤»
+    say %m.elems;   # OUTPUT: «0␤»
 }
