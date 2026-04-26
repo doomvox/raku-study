@@ -27,8 +27,6 @@
 ** topics
 *** so, whatcha got?
 
-
-
 *** Weekly Challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-368/
 **** Bruce Gray:
