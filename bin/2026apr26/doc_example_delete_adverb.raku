@@ -17,6 +17,7 @@
     say $m.elems;   # 5
 
     say "rhodan value is: ", $m<rhodan>;
+    # rhodan value is: 1
 
     my $ret = 
         $m<rhodan>:delete;
