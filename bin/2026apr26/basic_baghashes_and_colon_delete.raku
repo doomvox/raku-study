@@ -38,8 +38,11 @@ my @monsters = <<godzilla rhodan blob tingler crinoid>>;
     say $vinyl;      # {blob => 1, crinoid => 1, godzilla => 1, rhodan => 1, tingler => 1}
     say $vinyl.WHAT; # (Hash)
 
-# Type check failed for an element of %carpet; expected BagHash but got Int (1)
-#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026apr26/basic_baghashes_and_colon_delete.raku line 25
+# Odd number of elements found where hash initializer expected:
+# Found 5 (implicit) elements:
+# Last element seen: "crinoid"
+#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026apr26/basic_baghashes_and_colon_delete.raku line 37
+
 
 }
 
