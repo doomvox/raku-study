@@ -5,11 +5,38 @@ A place to share some code and meeting notes for the SF Perl Raku Study Group.
 
 Upcoming meetings:
 
-* Sunday March 29, 2026
-    * https://us02web.zoom.us/j/81063399254?pwd=GXCs7ovFDWt4sPmgpSBbrNzEqoI6NO.1
+* Sunday April 26, 2026
+    * https://us02web.zoom.us/j/84472838637?pwd=Tz3bJuCqJlxMi4Cjs9xygzquUQVvx3.1
 
-* Sunday April 12, 2026
-    * https://us02web.zoom.us/j/83092238528?pwd=zGB7wipB6KZJ4m40ADAXiH0NYb8mvF.1
+* Sunday May 10, 2026
+    * https://us02web.zoom.us/j/81884518495?pwd=r0sPB9kTd2MaXcgzBXuafFTaTat1WX.1
+
+* Sunday May 31, 2026 (after a two week gap)
+    * https://us02web.zoom.us/j/83153438427?pwd=3qdeMclfLAHDUgkjJbUTytQ7Indhxi.1
+
+* Sunday June 07, 2026 (the Sunday immediately after the last)
+    * https://us02web.zoom.us/j/88179610122?pwd=p9gfXDROmrShsYWhJXA0ZhJ7iykhO0.1
+
+* Sunday June 21, 2026
+    * https://us02web.zoom.us/j/81299040597?pwd=4z4rWmjiLztbSAKe6Jhq3DBb1SoMzb.1
+
+Then over June 25th-29th, there's the North American Perl and Raku conference in Greenville, SC, https://tprc.us/
+and after that is the fourth of July weekend, so our next meeting will be:
+
+* Sunday July 12, 2026 
+    * https://us02web.zoom.us/j/87107787787?pwd=OgCqrESJGaaW1JnDMOV2LQoy3hiZzS.1
+
+* Sunday July 26, 2026 
+    * https://us02web.zoom.us/j/81211720710?pwd=gTglY11WAZeafc0sVrKDZllPTaMov9.1
+
+* Sunday August 09, 2026 
+    * https://us02web.zoom.us/j/86987426788?pwd=MpJEnO4sbd1gDwFxVTKSBaM6NduD6j.1
+
+
+Note: the raku/perl conference is on the weekend of the 28th,
+which is the week immediately before the July 4th weekend.
+
+
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
 And the super secret code you need is "4RakuRoll".

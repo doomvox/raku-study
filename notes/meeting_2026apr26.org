@@ -1,50 +1,38 @@
-* meeting notes April 12, 2026
+* meeting notes April 26, 2026
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026apr12.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026apr26.org 
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2026apr12
+****** https://github.com/doomvox/raku-study/tree/main/bin/2026apr26
 ****** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026mar29.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026apr12.org
 
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
+** opening screen xkcd:
+*** https://xkcd.com/3228
+
+*** latest Raku Study Group theme song
+**** raku -- "feel"
+***** https://www.youtube.com/watch?v=gygMcVLlPd8
+
+*** The meeting annoucement quote from Dijkstra is from a piece out there on-line:
+**** https://www.smaldone.com.ar/documentos/ewd/EWD1036_pretty.pdf
 
 ** topics
-*** TODO 
-**** raku "feel"
-***** https://www.youtube.com/watch?v=gygMcVLlPd8&list=RDgygMcVLlPd8&start_radio=1
+*** so, whatcha got?
 
-*** Anton Antonov, quote for next month (?):
-**** "Disappointment is something to get used to, especially if you do programming."
-***** Or was it: "-- develop software." ?
 
-*** Function return types should also tell about the used assignment/container
-**** https://github.com/Raku/problem-solving/issues/337#issuecomment-3867569693
 
-*** Bruce tells me he may have to skip this one
-*** Sorry about the late annoucements.
-**** I'm in Seoul again
-**** the co-working space I scouted months ago has just changed it's business model
-**** I'm broadcasting from a 24 hour robot cafe in Mangwon-dong
-***** I might suddenly go mute and switch to just typing
-***** At the 3 hour point, we're taking a break while I run to a public restroom a block away
-****** this is almost enough to make me want to stay in a boring hotel next time
+
+** old topics from April 12th
 
 *** Anton Antonov
-I have three show-&-tell today:
-1) GameTheory in Raku 
-   - …and bitching about Game Theory courses
-2) First useful version of “LLM::Resources” 
-   - It was discussed here 2 weeks ago (or a month ago)
-3) Astronomical data in Raku
-  - Artemis II is back and today is Cosmonautics Day
-
 **** https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 
 
@@ -227,7 +215,8 @@ https://rakuforprediction.wordpress.com/2024/02/17/notebook-transformations/
 **** April 26, 2026
 
 *** North American Perl and Raku conference 
-**** will be in late June: June 26-28, 29(class) TPRC (in person)
+**** will be in late June: June 26-28, 29(class) TPRC 
+**** not on-line, an actual in person conference
 **** hackathon on 25th, most likely
 **** https://tprc.us/tprc-2026-gsp
 ***** talk deadline "midnight" tonight
