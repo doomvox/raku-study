@@ -20,5 +20,5 @@
         $m<rhodan>:delete;
     say $m;         # BagHash(blob crinoid godzilla tingler)
     say $m.elems;   # 4 
-    say $ret;
+    say $ret;       # 1
 }
