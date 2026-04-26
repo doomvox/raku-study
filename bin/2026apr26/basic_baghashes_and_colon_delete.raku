@@ -9,5 +9,5 @@ say $plaid;      # BagHash(blob crinoid godzilla rhodan tingler)
 say $plaid.WHAT; # (BagHash) 
 
 my %carpet = @monsters.BagHash;
-say %carpet;      {blob => 1, crinoid => 1, godzilla => 1, rhodan => 1, tingler => 1}
-say %carpet.WHAT; (Hash)
+say %carpet;      # {blob => 1, crinoid => 1, godzilla => 1, rhodan => 1, tingler => 1}
+say %carpet.WHAT; # (Hash)
