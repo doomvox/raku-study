@@ -1,5 +1,7 @@
 #!/usr/bin/raku
 
+## Trying to type a code example in-progress off of a shared screen
+
 multi task( Str:D() $in is copy, Array() $bad -->Str) {
     my $ret =
     ( $(
