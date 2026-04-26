@@ -35,8 +35,8 @@ my @monsters = <<godzilla rhodan blob tingler crinoid>>;
 {
 #    my %carpet is BagHash = @monsters.BagHash;
     my %carpet is BagHash = @monsters;
-    say %carpet;      # {blob => 1, crinoid => 1, godzilla => 1, rhodan => 1, tingler => 1}
-    say %carpet.WHAT; # (Hash)
+    say %carpet;      # BagHash(blob crinoid godzilla rhodan tingler)
+    say %carpet.WHAT; # (BagHash)
 
 # Type check failed for an element of %carpet; expected BagHash but got Int (1)
 #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026apr26/basic_baghashes_and_colon_delete.raku line 25
