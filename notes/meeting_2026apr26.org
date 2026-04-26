@@ -27,10 +27,7 @@
 ** topics
 *** so, whatcha got?
 
-** old topics from April 12th
 
-*** Anton Antonov
-**** https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 
 *** Weekly Challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-368/
@@ -48,6 +45,12 @@
 >     use Prime::Factor;
 >     multi sub task2 ( UInt $s, 0 --> UInt ) { +prime-factors($s).squish }
 >     multi sub task2 ( UInt $s, 1 --> UInt ) { +prime-factors($s)        }
+
+
+** old topics from April 12th
+
+*** Anton Antonov
+**** https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 
 *** Annoucements
 **** next meetings
