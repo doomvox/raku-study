@@ -14,9 +14,9 @@
     my @monsters = <<godzilla rhodan blob tingler crinoid>>;
     my $m = @monsters.BagHash;
     say $m;         #
-    say $m.elems;   # OUTPUT: «1␤»
+    say $m.elems;   # 
 
     %m<a>:delete;
-    say %m;         # OUTPUT: «{}␤»
-    say %m.elems;   # OUTPUT: «0␤»
+    say %m;         # 
+    say %m.elems;   # 
 }
