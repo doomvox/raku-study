@@ -47,7 +47,7 @@ my @monsters = <<godzilla rhodan blob tingler crinoid>>;
     # raku --version
     # Welcome to Rakudo™ v2024.09.
 
-    my  $vinyl is BagHash = @monsters.Hash;
+    my  BagHash $vinyl  = @monsters.Hash;
 
     say $vinyl;      # {blob => 1, crinoid => 1, godzilla => 1, rhodan => 1, tingler => 1}
     say $vinyl.WHAT; # (Hash)
