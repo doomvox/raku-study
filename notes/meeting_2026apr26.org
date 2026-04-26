@@ -53,14 +53,6 @@
 >     multi sub task2 ( UInt $s, 1 --> UInt ) { +prime-factors($s)        }
 
 *** Annoucements
-**** Bruce Gray:
-***** open for talks
-"Would you please tell the group that we are still welcoming
-talk/session submissions, and conference registrations, for the The
-Perl and Raku Conference in June?
-
-******  https://tprc.us/
-
 **** next meetings
 ***** April 12, 2026
 ***** April 26, 2026
