@@ -25,12 +25,12 @@ my %threat  = ('godilla' => 8, 'rhodan' => 3, 'blob' => 5, 'tingler' => 4, 'crin
 
 
 {
-    multi hat ( Array $arg ) {
+    multi hat ( *@arg ) {
         say "An Array";
         dd $arg;
     }
 
-    multi hat ( Hash $arg ) {
+    multi hat ( *%arg ) {
         say "A Hash";
         dd $arg;
     }
@@ -42,4 +42,8 @@ my %threat  = ('godilla' => 8, 'rhodan' => 3, 'blob' => 5, 'tingler' => 4, 'crin
     hat(%threat);
     # A Hash
     # ${:blob(5), :crinoid(6), :godilla(8), :rhodan(3), :tingler(4)}
+
+
+
 }
+
