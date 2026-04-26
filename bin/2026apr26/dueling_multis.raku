@@ -14,3 +14,4 @@ multi hat ( Hash $arg ) {
     }
 
 hat(@monsters);
+hat(%threat);
