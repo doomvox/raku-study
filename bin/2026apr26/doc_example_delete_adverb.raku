@@ -23,5 +23,5 @@
         $m<rhodan>:delete;
     say $m;         # BagHash(blob crinoid godzilla tingler)
     say $m.elems;   # 4 
-    say $ret;       # 1
+    say $ret;       # 1, which is the rhodan value
 }
