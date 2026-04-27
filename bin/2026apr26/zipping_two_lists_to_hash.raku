@@ -47,3 +47,9 @@ say $t;
     say $h;
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
     }
+
+
+{
+    my %h = 'wuhn', 1, 'tew', 2, 'thuree', 3;
+    say %h;
+    }
