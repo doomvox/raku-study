@@ -32,3 +32,4 @@ say $h;
 # # Type Seq does not support associative indexing.
 
 my $h2 = (@monsters Z @levels)>>.pairup;
+say $h2;
