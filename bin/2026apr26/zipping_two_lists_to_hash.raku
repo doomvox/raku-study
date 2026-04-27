@@ -123,8 +123,7 @@ say $t;
 
     my %h;
 #     %h<< @monsters >> = @levels;
-#     say %h; # {@monsters => [8 3 5 4 6]}
-#     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
+#     say %h;  # {@monsters => [8 3 5 4 6]}
 
     %h{ @monsters } = @levels;
     say %h;
