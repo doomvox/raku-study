@@ -149,8 +149,10 @@ say $t;
 
     my %h = (@monsters Z @levels)>>.kv.flat;
     say %h;
-    # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
+    # {0 => crinoid, 1 => 6}
 
-    # Odd number of elements found where hash initializer expected:
+    # heh: fail. But how?
+
+    say (@monsters Z @levels)>>.kv.flat;
 
 }
