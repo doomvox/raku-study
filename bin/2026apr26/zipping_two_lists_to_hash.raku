@@ -16,3 +16,7 @@ say @monsters Z @levels;
 # ((godzilla 8) (rhodan 3) (blob 5) (tingler 4) (crinoid 6))
 
 say (@monsters Z @levels).Hash;
+# Odd number of elements found where hash initializer expected:
+
+my %h =  (@monsters Z @levels);
+say %h
