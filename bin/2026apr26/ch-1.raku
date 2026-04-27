@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
 ## code by rir: Rob Ransbottom
+## Sunday April 26, 2026  11:56 PM
 
 # :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉⊆≡≢«␤ » ∴ 🐧
 use v6.d;
