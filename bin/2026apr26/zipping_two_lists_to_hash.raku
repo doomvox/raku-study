@@ -35,3 +35,4 @@ my $h2 = (@monsters Z @levels)>>.pairup;
 say $h2;
 # ((godzilla => 8) (rhodan => 3) (blob => 5) (tingler => 4) (crinoid => 6))
 
+my %h3 = | (@monsters Z @levels)>>.pairup;
