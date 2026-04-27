@@ -51,5 +51,5 @@ say $t;
 
 {
     my %h = 'wuhn', 1, 'tew', 2, 'thuree', 3;
-    say %h;
+    say %h; # {tew => 2, thuree => 3, wuhn => 1}
     }
