@@ -23,5 +23,7 @@ say @monsters Z @levels;
 
 say "===";
 
-my $h = (@monsters Z @levels).map({$_.pairup}).Hash;
+# my $h = (@monsters Z @levels).map({$_.pairup}).Hash;
+
+ my $h = (@monsters Z @levels).map({$_.pairup});
 say $h;
