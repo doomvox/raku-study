@@ -147,7 +147,7 @@ say $t;
     my @monsters = <<godzilla rhodan blob tingler crinoid>>;
     my @levels = 8, 3, 5, 4, 6;
 
-    my %h = (@monsters Z @levels)>>.kv;
+    my %h = (@monsters Z @levels)>>.kv.flat;
     say %h;
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
 
