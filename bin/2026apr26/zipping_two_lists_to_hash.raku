@@ -60,12 +60,7 @@ say $t;
     my @monsters = <<godzilla rhodan blob tingler crinoid>>;
     my @levels = 8, 3, 5, 4, 6;
 
-    my $t = ((@monsters Z @levels)>>.pairup).flat; 
-    say $t;
-
-
-    my $h;
-    @monsters.reverse.map({ $h{$_} = @levels.pop });
+    my $h = ((@monsters Z @levels)>>.pairup).flat; 
     say $h;
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
     }
