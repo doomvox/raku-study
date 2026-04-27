@@ -138,5 +138,6 @@ say $t;
     my %h = (@monsters Z @levels)>>.kv;
     say %h;
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
+    # Odd number of elements found where hash initializer expected:
 
 }
