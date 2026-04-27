@@ -10,6 +10,6 @@ my %threat  =
 ## But typing the key values over again seems silly.
 ## So:
 
-say @levels = 8, 3, 5, 4, 6;
+my @levels = 8, 3, 5, 4, 6;
 
 say @monsters Z @levels;
