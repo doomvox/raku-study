@@ -45,5 +45,5 @@ say $t;
     my $h;
     @monsters.reverse.map({ $h{$_} = @levels.pop });
     say $h;
-    # {blob => 5, crinoid => 8, godzilla => 6, rhodan => 4, tingler => 3}
+    # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
     }
