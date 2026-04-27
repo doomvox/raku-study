@@ -163,3 +163,23 @@ say $t;
     
 
 }
+
+{
+    my @monsters = <<godzilla rhodan blob tingler crinoid>>;
+    my @levels = 8, 3, 5, 4, 6;
+
+    my %h = (@monsters Z @levels)>>.flat.flat;
+    say %h;
+
+    # heh: fail. But how?
+
+    say (@monsters Z @levels)>>.kv.flat;
+    # (0 godzilla 1 8 0 rhodan 1 3 0 blob 1 5 0 tingler 1 4 0 crinoid 1 6)
+
+    # Ah: calling .kv on a list, so you get indicies...
+
+    # my @a = (@monsters Z @levels)>>.kv.flat;
+    # for @a -> $a { say $a; }
+    
+
+}
