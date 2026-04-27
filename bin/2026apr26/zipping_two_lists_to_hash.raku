@@ -155,4 +155,6 @@ say $t;
 
     say (@monsters Z @levels)>>.kv.flat;
 
+    # (0 godzilla 1 8 0 rhodan 1 3 0 blob 1 5 0 tingler 1 4 0 crinoid 1 6)
+
 }
