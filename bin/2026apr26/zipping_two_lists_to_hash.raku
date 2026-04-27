@@ -42,7 +42,8 @@ say $t;
 {
     my @monsters = <<godzilla rhodan blob tingler crinoid>>;
     my @levels = 8, 3, 5, 4, 6;
-    my %h = @monsters.map({$_ => @levels.pop });
+    my $h;
+    @monsters.map({ $h{$_} = @levels.pop });
     say $h;
     # ((godzilla => 8) (rhodan => 3) (blob => 5) (tingler => 4) (crinoid => 6))
     }
