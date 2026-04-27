@@ -63,5 +63,15 @@ say $t;
     my $h = ((@monsters Z @levels)>>.pairup).flat; 
     say $h;
     # (godzilla => 8 rhodan => 3 blob => 5 tingler => 4 crinoid => 6)
-    say $h<blob>;
+    # say $h<blob>; # Type Seq does not support associative indexing.
+    }
+
+{
+    my @monsters = <<godzilla rhodan blob tingler crinoid>>;
+    my @levels = 8, 3, 5, 4, 6;
+
+    my %h = ((@monsters Z @levels)>>.pairup).flat; 
+    say %h;
+    # (godzilla => 8 rhodan => 3 blob => 5 tingler => 4 crinoid => 6)
+    say $h<blob>; #
     }
