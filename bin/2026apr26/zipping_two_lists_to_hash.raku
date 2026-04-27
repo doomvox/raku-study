@@ -18,6 +18,8 @@ say @monsters Z @levels;
 # say (@monsters Z @levels).Hash;
 # # Odd number of elements found where hash initializer expected:
 
+# my %h =  (@monsters Z @levels);
+# say %h;
+
 say "===";
-my %h =  (@monsters Z @levels);
-say %h;
+
