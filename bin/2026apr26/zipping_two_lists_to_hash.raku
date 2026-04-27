@@ -72,6 +72,6 @@ say $t;
 
     my %h = ((@monsters Z @levels)>>.pairup).flat; 
     say %h;
-    # (godzilla => 8 rhodan => 3 blob => 5 tingler => 4 crinoid => 6)
-    say $h<blob>; #
+    # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
+    say %h<blob>; #
     }
