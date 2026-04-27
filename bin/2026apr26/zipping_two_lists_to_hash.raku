@@ -11,3 +11,5 @@ my %threat  =
 ## So:
 
 say @levels = 8, 3, 5, 4, 6;
+
+say @monsters Z @levels;
