@@ -136,7 +136,7 @@ say $t;
     my @levels = 8, 3, 5, 4, 6;
 
     my %h = 
-        %{ @monsters } = @levels;
+        %( @monsters ) = @levels;
     say %h;
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
 }
