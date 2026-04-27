@@ -126,4 +126,5 @@ say $t;
     say %h; # {@monsters => [8 3 5 4 6]}
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
 
+    %h{ @monsters } = @levels;
 }
