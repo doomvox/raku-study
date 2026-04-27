@@ -40,7 +40,6 @@ say $t;
 # ((godzilla => 8) (rhodan => 3) (blob => 5) (tingler => 4) (crinoid => 6))
 
 {
-
     my @l = @levels;
 
     my $h;
@@ -58,7 +57,6 @@ say $t;
 
 
 {
-
     my $h = ((@monsters Z @levels)>>.pairup).flat; 
     say $h;
     # (godzilla => 8 rhodan => 3 blob => 5 tingler => 4 crinoid => 6)
@@ -66,7 +64,6 @@ say $t;
     }
 
 {
-
     my %h = ((@monsters Z @levels)>>.pairup).flat; 
     say %h;
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
@@ -76,7 +73,6 @@ say $t;
 
 
 {
-
 #     my %h = (@monsters Z @levels)>>.flat; 
 #     say %h;
 #     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
@@ -92,7 +88,6 @@ say $t;
 
 
 {
-
     my %h = %( (@monsters Z @levels)>>.pairup.flat ) ; 
     say %h;
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
@@ -100,7 +95,6 @@ say $t;
 }
 
 {
-
     my %h = (@monsters Z @levels)>>.pairup.flat;
     say %h;
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
@@ -109,7 +103,6 @@ say $t;
 
 
 {
-
     my %h;
 #     %h<< @monsters >> = @levels;
 #     say %h;  # {@monsters => [8 3 5 4 6]}
@@ -121,7 +114,6 @@ say $t;
 
 
 {
-
 #     my %h = (@monsters Z @levels)>>.kv;
 #     say %h;
 #     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
@@ -131,7 +123,6 @@ say $t;
 }
 
 {
-
     my %h = (@monsters Z @levels)>>.kv.flat;
     say %h;
     # {0 => crinoid, 1 => 6}
