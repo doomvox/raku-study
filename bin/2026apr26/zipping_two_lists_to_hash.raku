@@ -82,8 +82,14 @@ say $t;
     my @monsters = <<godzilla rhodan blob tingler crinoid>>;
     my @levels = 8, 3, 5, 4, 6;
 
-    my %h = (@monsters Z @levels)>>.flat; 
-    say %h;
-    # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
-    say %h<blob>; # 5
+#     my %h = (@monsters Z @levels)>>.flat; 
+#     say %h;
+#     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
+#     say %h<blob>; # 5
+
+# # Odd number of elements found where hash initializer expected:
+# # Found 5 (implicit) elements:
+# # Last element seen: $(("crinoid",).Seq, (6,).Seq)
+
+
     }
