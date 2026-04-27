@@ -101,5 +101,6 @@ say $t;
     my @levels = 8, 3, 5, 4, 6;
 
     my %h = %( (@monsters Z @levels)>>.flat ) ; 
+    say %h;
 
 }
