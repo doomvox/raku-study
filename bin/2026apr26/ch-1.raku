@@ -1,4 +1,7 @@
 #!/usr/bin/env raku
+
+## code by rir: Rob Ransbottom
+
 # :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉⊆≡≢«␤ » ∴ 🐧
 use v6.d;
 use Test;
