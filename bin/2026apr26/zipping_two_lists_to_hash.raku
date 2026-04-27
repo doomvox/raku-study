@@ -25,9 +25,10 @@ say "===";
 
 # my $h = (@monsters Z @levels).map({$_.pairup}).Hash;
 
- my $h = (@monsters Z @levels).map({$_.pairup});
+my $h = (@monsters Z @levels).map({$_.pairup});
 say $h;
 # ((godzilla => 8) (rhodan => 3) (blob => 5) (tingler => 4) (crinoid => 6))
 # say $h<rhodan>;
 # # Type Seq does not support associative indexing.
 
+my $h2 = (@monsters Z @levels)>>.pairup;
