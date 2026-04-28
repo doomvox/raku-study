@@ -151,7 +151,9 @@ say $t;
 
 {
     say (@monsters Z=> @levels);
-#     my %h = %( (@monsters Z @levels)>>.List.flat ) ; 
-#     say %h;
+    # (godzilla => 8 rhodan => 3 blob => 5 tingler => 4 crinoid => 6)
+
+    my %h = (@monsters Z=> @levels);
+    say %h;
 #     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
 }
