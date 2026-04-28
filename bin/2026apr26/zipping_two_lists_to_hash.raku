@@ -102,7 +102,7 @@ say $t;
 }
 
 
-{
+{ # GOOD assign to hash slice
     my %h;
 #     %h<< @monsters >> = @levels;
 #     say %h;  # {@monsters => [8 3 5 4 6]}
@@ -149,7 +149,7 @@ say $t;
 
 
 
-{ ## VERY GOOD 
+{ ## GOOD: Z metaop applied to =>
     say (@monsters Z=> @levels);
     # (godzilla => 8 rhodan => 3 blob => 5 tingler => 4 crinoid => 6)
 
