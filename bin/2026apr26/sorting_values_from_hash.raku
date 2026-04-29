@@ -79,6 +79,14 @@ for %threat.sort(*.invert).reverse -> $p {
     say $p.value, "\t", $p.key;
 }
 
+# 8	leviathan
+# 7	basilisk
+# 6	minotaur   ## result differs here, tie-breaker is a reverse sort on name
+# 6	chimera
+# 5	ziz
+# 5	manticore
+# 4	behemoth
+
 
 say "===";
 
