@@ -48,3 +48,4 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 # 4  ziz => 5
 # 5  manticore => 5
 # 6  behemoth => 4
+
