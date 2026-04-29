@@ -130,6 +130,7 @@ say "===";
     say "^^^";
     %threat.sort(*.antipair).reverse.WHAT;
     %threat.sort(*.invert).reverse.WHAT;
+    say "^^^";
 
     my @stuff    =  %threat.sort(*.antipair).reverse;
     my @stuffier =  %threat.sort(*.invert).reverse;
