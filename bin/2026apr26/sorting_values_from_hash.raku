@@ -66,22 +66,45 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 
 
 
-# Source - https://stackoverflow.com/a/56070395
-# Posted by Brad Gilbert
-# Retrieved 2026-04-28, License - CC BY-SA 4.0
+# # Source - https://stackoverflow.com/a/56070395
+# # Posted by Brad Gilbert
+# # Retrieved 2026-04-28, License - CC BY-SA 4.0
 
-# default $_
-for %h.sort: *.invert {
-  say .key ~ ' => ' ~ .value
-}
+# # default $_
+# for %h.sort: *.invert {
+#   say .key ~ ' => ' ~ .value
+# }
 
-# extract as named attributes
-for %h.sort: *.invert -> (:$key, :$value) {
-  say "$key => $value"
-}
+# # extract as named attributes
+# for %h.sort: *.invert -> (:$key, :$value) {
+#   say "$key => $value"
+# }
 
-# more explicit form of above
-for %h.sort: *.invert -> Pair $ (:key($key), :value($value)) {
-  say "$key => $value"
-}
+# # more explicit form of above
+# for %h.sort: *.invert -> Pair $ (:key($key), :value($value)) {
+#   say "$key => $value"
+# }
 
+# # Source - https://stackoverflow.com/a/56070395
+# # Posted by Brad Gilbert
+# # Retrieved 2026-04-28, License - CC BY-SA 4.0
+# 
+# say %h.sort(*.invert).map(*.kv).perl;
+# # (("c", 1).Seq, ("b", 2).Seq, ("a", 3).Seq).Seq
+# say %h.sort(*.invert)».kv.perl;
+# # (("c", 1).Seq, ("b", 2).Seq, ("a", 3).Seq).Seq
+
+# # default $_
+# for %h.sort(*.invert).map(*.kv) {
+#   say .key ~ ' => ' ~ .value
+# }
+
+# # extract inner positional parameters
+# for %h.sort(*.invert).map(*.kv) -> ($k,$v) {
+#   say "$k => $v"
+# }
+
+# # `».kv` instead of `.map(*.kv)`
+# for %h.sort(*.invert)».kv -> ($k,$v) {
+#   say "$k => $v"
+# }
