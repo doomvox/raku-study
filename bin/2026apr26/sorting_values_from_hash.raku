@@ -33,7 +33,8 @@ for %threat.sort(*.value).reverse -> $p {
 ## The documentation is precise but not at all clear because of the need to cover multiple cases 
 ## ("If the .value of the invocant is NOT an Iterable, ...").
 ## 
-## Code examples use colon pairs to key key-values, and they still strike me as poor on readability.
+## Code examples use colon pairs to key key-values, and they still
+## strike me as poor on readability.
 
 ## https://docs.raku.org/routine/invert
 
