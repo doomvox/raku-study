@@ -157,10 +157,13 @@ say "===";
 ### are a pain to read because they keep wandering around 
 ### evidently making explicit various *other* features of
 ### the language than addressing the question.
+
+## E.g. he's demoing colon pairs to do key-values, 
+## (which still strike me weak on readability, but they
+## get used because fewer characters).
+
 ### they also look stale, e.g. using ".perl" instead of ".raku"
 
-## He's demoing colon pairs to do key-values, and they still
-## strike me as poor on readability.
 
 
 
