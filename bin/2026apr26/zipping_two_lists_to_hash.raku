@@ -157,3 +157,14 @@ say $t;
     say %h;
 #    {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
 }
+
+
+
+
+
+
+
+
+
+
+
