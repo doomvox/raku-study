@@ -57,6 +57,8 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 ##   https://docs.raku.org/routine/invert
 
 
+
+# Again:
 # WORKS: sorts hash on values, largest first
 for %threat.sort(*.value).reverse -> $p {
     say $p.value, "\t", $p.key;
@@ -69,6 +71,10 @@ for %threat.sort(*.value).reverse -> $p {
 # 5	ziz
 # 5	manticore
 # 4	behemoth
+
+for %threat.sort(*.invert).reverse -> $p {
+    say $p.value, "\t", $p.key;
+}
 
 
 
