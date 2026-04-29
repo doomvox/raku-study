@@ -118,10 +118,7 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 # }
 
 
-# # Source - https://stackoverflow.com/a/56070395
-# # Posted by Brad Gilbert
-# # Retrieved 2026-04-28, License - CC BY-SA 4.0
-# 
+
 # say %h.sort(*.invert).map(*.kv).flat.perl;
 # # ("c", 1, "b", 2, "a", 3).Seq
 # say %h.sort(*.invert)».kv.flat.perl;
