@@ -102,8 +102,6 @@ for %threat.sort(*.antipair).reverse -> $p {
 # 5	manticore
 # 4	behemoth
 
-
-
 say "===";
 
 ## .invert does something like .antipair, but 
