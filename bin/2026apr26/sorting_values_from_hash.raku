@@ -40,6 +40,7 @@ for %threat.sort(*.value).reverse -> $p {
 for %threat.sort(*.value).reverse.kv -> $monster, $level {
     say $monster, '  ', $level;
 }
+
 # 0  leviathan => 8
 # 1  basilisk => 7
 # 2  chimera => 6
