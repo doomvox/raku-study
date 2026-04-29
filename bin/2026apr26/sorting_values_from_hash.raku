@@ -12,6 +12,6 @@ my %threat = @monsters Z=> @level;
 say %threat;
 # {basilisk => 7, behemoth => 4, chimera => 6, leviathan => 8, manticore => 5, minotaur => 6, ziz => 5}
 
-for %threat.sort(*.value).kv -> $monster, $level {
+for %threat.sort(*.value).kv.reverse -> $monster, $level {
     printf "threat level: %s %s \n",  $monster, $level;
 }
