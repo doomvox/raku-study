@@ -134,8 +134,8 @@ say "===";
 # [leviathan => 8 basilisk => 7 minotaur => 6 chimera => 6 ziz => 5 manticore => 5 behemoth => 4]
 # [leviathan => 8 basilisk => 7 minotaur => 6 chimera => 6 ziz => 5 manticore => 5 behemoth => 4]
 
-    put @stuff;     
-    put @stuffier;
+    dd @stuff;     
+    dd @stuffier;
 
 
 }
