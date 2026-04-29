@@ -121,8 +121,8 @@ say "===";
 
     ## So, in the loop examples above, is there single argument rule magic?
 
-    say ($p.invert).[0];   # (Seq)
-    say $p.invert.[1];   # (Seq)
+    say ($p.invert).[0];   #
+    say ($p.invert).[1];   # (Seq)
 
 
     my @stuff    =  %threat.sort(*.antipair).reverse;
