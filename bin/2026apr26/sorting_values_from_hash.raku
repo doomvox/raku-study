@@ -12,6 +12,7 @@ my %threat = @monsters Z=> @level;
 say %threat;
 # {basilisk => 7, behemoth => 4, chimera => 6, leviathan => 8, manticore => 5, minotaur => 6, ziz => 5}
 
+# Works: sorts hash on values, largest first
 for %threat.sort(*.value).reverse -> $p {
     say $p.value, "\t", $p.key;
 }
