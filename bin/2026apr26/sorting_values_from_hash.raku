@@ -119,6 +119,11 @@ say "===";
     say $p.invert.WHAT;   # (Seq)
     say $p.antipair.WHAT; # (Pair)
 
+    ## So, in the loop examples above,
+    ## the .invert case gets a Seq of a Pair handed to the ->
+    ## the .antipair case gets a single Pair:
+    ## both have the same effect.  single argument rule?
+
 }
 
 
