@@ -108,3 +108,21 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 # for %h.sort(*.invert)».kv -> ($k,$v) {
 #   say "$k => $v"
 # }
+
+
+# Source - https://stackoverflow.com/a/56070395
+# Posted by Brad Gilbert
+# Retrieved 2026-04-28, License - CC BY-SA 4.0
+
+say %h.sort(*.invert).map(*.kv).flat.perl;
+# ("c", 1, "b", 2, "a", 3).Seq
+say %h.sort(*.invert)».kv.flat.perl;
+# ("c", 1, "b", 2, "a", 3).Seq
+
+for %h.sort(*.invert).map(*.kv).flat -> $k, $v {
+  say "$k => $v"
+}
+
+for %h.sort(*.invert)».kv.flat -> $k, $v {
+  say "$k => $v"
+}
