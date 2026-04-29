@@ -123,7 +123,6 @@ say "===";
     ## the .invert case gets a Seq of a Pair handed to the ->
     ## the .antipair case gets a single Pair:
     ## both have the same effect.  single argument rule?
-
 }
 
 
