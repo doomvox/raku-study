@@ -95,8 +95,8 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 #   say "$key => $value"
 # }
 
-# # Retrieved 2026-04-28, License - CC BY-SA 4.0
-# 
+
+
 # say %h.sort(*.invert).map(*.kv).perl;
 # # (("c", 1).Seq, ("b", 2).Seq, ("a", 3).Seq).Seq
 # say %h.sort(*.invert)».kv.perl;
