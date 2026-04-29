@@ -37,3 +37,6 @@ for %threat.sort(*.value).reverse -> $p {
 ## That puts a sequence index into $monster, and $level gets a pair
 ## that still needs to be split (?)
 
+for %threat.sort(*.value).reverse.kv -> $monster, $level {
+    say $monster, '  ', $level;
+}
