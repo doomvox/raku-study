@@ -41,11 +41,11 @@ for %threat.sort(*.value).reverse -> $p {
 ## .invert does something like .antipair, but 
 ## slightly different, so both exist. (Great.)
 
-
-my $p = key => 6;
-say $p.invert; # (6 => key)
-say $p.antipair; # (6 => key)
-
+{
+    my $p = key => 6;
+    say $p.invert; # (6 => key)
+    say $p.antipair; # (6 => key)
+}
 
 
 
