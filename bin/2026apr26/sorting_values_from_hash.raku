@@ -57,6 +57,7 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 ##   https://docs.raku.org/routine/invert
 
 
+say "===";
 
 # Again:
 # WORKS: sorts hash on values, largest first
@@ -77,6 +78,7 @@ for %threat.sort(*.invert).reverse -> $p {
 }
 
 
+say "===";
 
 ## .invert does something like .antipair, but 
 ## slightly different, so both exist. (Great.)
