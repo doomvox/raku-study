@@ -62,7 +62,7 @@ for %threat.sort(*.value).reverse -> $p {
 ## that still needs to be split (?)
 
 for %threat.sort(*.value).reverse.kv -> $monster, $level {
-    say $monster, '  ', $level;
+    say $monster, '  ', '|', $level, '|';
 }
 
 # 0  leviathan => 8
