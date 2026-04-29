@@ -12,7 +12,7 @@ my %threat = @monsters Z=> @level;
 say %threat;
 # {basilisk => 7, behemoth => 4, chimera => 6, leviathan => 8, manticore => 5, minotaur => 6, ziz => 5}
 
-# Works: sorts hash on values, largest first
+# WORKS: sorts hash on values, largest first
 for %threat.sort(*.value).reverse -> $p {
     say $p.value, "\t", $p.key;
 }
@@ -48,9 +48,6 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 # 6  |behemoth => 4|
 
 
-
-
-
 ## The stackoverflow answer plays with *.invert a lot in order to (somehow) get
 ## tie-breaking using the name in the key-- a nice touch, it has me looking up "invert"...
 
@@ -58,9 +55,22 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 ## ("If the .value of the invocant is NOT an Iterable, ..."):
 ## 
 ##   https://docs.raku.org/routine/invert
-## 
-## Code examples use colon pairs to key key-values, and they still
-## strike me as poor on readability.
+
+
+# WORKS: sorts hash on values, largest first
+for %threat.sort(*.value).reverse -> $p {
+    say $p.value, "\t", $p.key;
+}
+
+# 8	leviathan
+# 7	basilisk
+# 6	chimera
+# 6	minotaur
+# 5	ziz
+# 5	manticore
+# 4	behemoth
+
+
 
 ## .invert does something like .antipair, but 
 ## slightly different, so both exist. (Great.)
@@ -86,6 +96,10 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 ### evidently making explicit various *other* features of
 ### the language than addressing the question.
 ### they also look stale, e.g. using ".perl" instead of ".raku"
+
+## He's demoing colon pairs to do key-values, and they still
+## strike me as poor on readability.
+
 
 
 # # Source - https://stackoverflow.com/a/56070395
