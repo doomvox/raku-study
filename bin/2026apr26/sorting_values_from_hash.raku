@@ -31,8 +31,9 @@ for %threat.sort(*.value).reverse -> $p {
 ## to see how that works.
 
 ## I find it mildly disappointing that I can't just do something like 
-
+##
 ##   for %threat.sort(*.value).reverse.kv -> $monster, $level {
+##
 ## That puts a sequence index into $monster, and $level gets a pair
 ## that still needs to be split (?)
 
