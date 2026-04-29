@@ -62,6 +62,7 @@ say "===";
 # Again:
 # WORKS: sorts hash on values, largest first
 for %threat.sort(*.value).reverse -> $p {
+    say $p.WHAT;
     say $p.value, "\t", $p.key;
 }
 
