@@ -162,7 +162,7 @@ say "===";
 ## (which still strike me weak on readability, but they
 ## get used because fewer characters).
 
-### they also look stale, e.g. using ".perl" instead of ".raku"
+### These examples also seem stale, e.g. using ".perl" instead of ".raku"
 
 
 
