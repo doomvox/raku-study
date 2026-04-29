@@ -64,3 +64,24 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 # 5  manticore => 5
 # 6  behemoth => 4
 
+
+
+# Source - https://stackoverflow.com/a/56070395
+# Posted by Brad Gilbert
+# Retrieved 2026-04-28, License - CC BY-SA 4.0
+
+# default $_
+for %h.sort: *.invert {
+  say .key ~ ' => ' ~ .value
+}
+
+# extract as named attributes
+for %h.sort: *.invert -> (:$key, :$value) {
+  say "$key => $value"
+}
+
+# more explicit form of above
+for %h.sort: *.invert -> Pair $ (:key($key), :value($value)) {
+  say "$key => $value"
+}
+
