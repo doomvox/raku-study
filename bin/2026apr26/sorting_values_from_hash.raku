@@ -125,9 +125,13 @@ say "===";
     ## both have the same effect.  single argument rule?
 }
 
+{
+    my @stuff    =  %threat.sort(*.antipair).reverse;
+    my @stuffier =  %threat.sort(*.invert).reverse;
 
-
-
+    say @stuff;
+    say @stuffier;
+}
 
 
 ### The code examples clipped from Brad Gilbert's answer
