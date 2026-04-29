@@ -136,14 +136,12 @@ say "===";
     my @stuffier =  %threat.sort(*.invert);
 
     say @stuff;     
-    say @stuffier;
-# [leviathan => 8 basilisk => 7 minotaur => 6 chimera => 6 ziz => 5 manticore => 5 behemoth => 4]
-# [leviathan => 8 basilisk => 7 minotaur => 6 chimera => 6 ziz => 5 manticore => 5 behemoth => 4]
+# [behemoth => 4 manticore => 5 ziz => 5 chimera => 6 minotaur => 6 basilisk => 7 leviathan => 8]
 
     dd @stuff;     
     dd @stuffier;
-# [:leviathan(8), :basilisk(7), :minotaur(6), :chimera(6), :ziz(5), :manticore(5), :behemoth(4)]
-# [:leviathan(8), :basilisk(7), :minotaur(6), :chimera(6), :ziz(5), :manticore(5), :behemoth(4)]
+    say @stuffier;
+
 
 
 }
