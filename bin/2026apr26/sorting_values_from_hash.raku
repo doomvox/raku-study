@@ -87,6 +87,12 @@ for %threat.sort(*.invert).reverse -> $p {
 # 5	manticore
 # 4	behemoth
 
+say "---";
+
+for %threat.sort(*.antipair).reverse -> $p {
+    say $p.value, "\t", $p.key;
+}
+
 
 say "===";
 
