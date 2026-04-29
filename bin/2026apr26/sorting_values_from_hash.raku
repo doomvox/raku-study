@@ -31,13 +31,15 @@ for %threat.sort(*.value).reverse -> $p {
 ## to see how that works.
 
 ## The documentation is precise but not at all clear because of the need to cover multiple cases 
-## ("If the .value of the invocant is NOT an Iterable, ...").
+## ("If the .value of the invocant is NOT an Iterable, ..."):
 ## 
-## https://docs.raku.org/routine/invert
+##   https://docs.raku.org/routine/invert
 ## 
 ## Code examples use colon pairs to key key-values, and they still
 ## strike me as poor on readability.
 
+## It does something like .antipair, but .antipair does something
+## slightly different, so both exist. (Great.)
 
 
 
