@@ -62,7 +62,7 @@ say "===";
 # Again:
 # WORKS: sorts hash on values, largest first
 for %threat.sort(*.value).reverse -> $p {
-    say $p.WHAT;
+    # say $p.WHAT; # (Pair)
     say $p.value, "\t", $p.key;
 }
 
@@ -77,7 +77,7 @@ for %threat.sort(*.value).reverse -> $p {
 say "---";
 
 for %threat.sort(*.invert).reverse -> $p {
-    say $p.WHAT;
+    # say $p.WHAT; # (Pair)
     say $p.value, "\t", $p.key;
 }
 
