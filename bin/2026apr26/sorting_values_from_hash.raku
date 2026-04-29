@@ -27,6 +27,30 @@ for %threat.sort(*.value).reverse -> $p {
 
 ## I like that one well enough, it's readable, and more-or-less does the job
 
+
+## I find it mildly disappointing that I can't just do something like 
+##
+##   for %threat.sort(*.value).reverse.kv -> $monster, $level {
+##
+## That puts a sequence index into $monster, and $level gets a pair
+## that still needs to be split (?)
+
+for %threat.sort(*.value).reverse.kv -> $monster, $level {
+    say $monster, '  ', '|', $level, '|';
+}
+
+# 0  |leviathan => 8|
+# 1  |basilisk => 7|
+# 2  |minotaur => 6|
+# 3  |chimera => 6|
+# 4  |manticore => 5|
+# 5  |ziz => 5|
+# 6  |behemoth => 4|
+
+
+
+
+
 ## The stackoverflow answer plays with *.invert a lot in order to (somehow) get
 ## tie-breaking using the name in the key-- a nice touch, it has me looking up "invert"...
 
@@ -54,24 +78,7 @@ for %threat.sort(*.value).reverse -> $p {
 
 
 
-## I find it mildly disappointing that I can't just do something like 
-##
-##   for %threat.sort(*.value).reverse.kv -> $monster, $level {
-##
-## That puts a sequence index into $monster, and $level gets a pair
-## that still needs to be split (?)
 
-for %threat.sort(*.value).reverse.kv -> $monster, $level {
-    say $monster, '  ', '|', $level, '|';
-}
-
-# 0  |leviathan => 8|
-# 1  |basilisk => 7|
-# 2  |minotaur => 6|
-# 3  |chimera => 6|
-# 4  |manticore => 5|
-# 5  |ziz => 5|
-# 6  |behemoth => 4|
 
 
 ### The code examples clipped from Brad Gilbert's answer
