@@ -146,9 +146,6 @@ say $t;
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
 }
 
-
-
-
 { ## GOOD: Z metaop applied to =>
     say (@monsters Z=> @levels);
     # (godzilla => 8 rhodan => 3 blob => 5 tingler => 4 crinoid => 6)
