@@ -76,6 +76,7 @@ for %threat.sort(*.value).reverse -> $p {
 say "---";
 
 for %threat.sort(*.invert).reverse -> $p {
+    say $p.WHAT;
     say $p.value, "\t", $p.key;
 }
 
@@ -91,6 +92,7 @@ say "---";
 
 ## swapping in .antipair for .invert gives you the same effect:
 for %threat.sort(*.antipair).reverse -> $p {
+    say $p.WHAT;
     say $p.value, "\t", $p.key;
 }
 
