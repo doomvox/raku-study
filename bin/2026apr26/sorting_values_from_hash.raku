@@ -13,5 +13,5 @@ say %threat;
 # {basilisk => 7, behemoth => 4, chimera => 6, leviathan => 8, manticore => 5, minotaur => 6, ziz => 5}
 
 for %threat.sort(*.value).reverse -> $p {
-    printf "threat level: |%15s| ^%8s^ \n",  $p.key, $p.value;
+    printf "threat level: |%15d| ^%8s^ \n",  $p.key, $p.value;
 }
