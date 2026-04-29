@@ -132,16 +132,18 @@ say "===";
     say %threat.sort(*.invert).WHAT;   # (Seq)
     say "^^^";
 
-    my @stuff    =  %threat.sort(*.antipair);
-    my @stuffier =  %threat.sort(*.invert);
+    my @stuff_antipair    =  %threat.sort(*.antipair);
+    my @stuff_invert =  %threat.sort(*.invert);
 
-    say @stuff;     
+    say @stuff_antipair;     
 # [behemoth => 4 manticore => 5 ziz => 5 chimera => 6 minotaur => 6 basilisk => 7 leviathan => 8]
-    dd @stuff;     
+    dd @stuff_antipair;     
 # [:behemoth(4), :manticore(5), :ziz(5), :chimera(6), :minotaur(6), :basilisk(7), :leviathan(8)]
 
-    say @stuffier;
-    dd @stuffier;
+    say @stuff_invert;
+# [behemoth => 4 manticore => 5 ziz => 5 chimera => 6 minotaur => 6 basilisk => 7 leviathan => 8]
+    dd @stuff_invert;
+# [:behemoth(4), :manticore(5), :ziz(5), :chimera(6), :minotaur(6), :basilisk(7), :leviathan(8)]
 
 
 }
