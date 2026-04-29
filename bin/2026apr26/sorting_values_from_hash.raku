@@ -128,7 +128,6 @@ say "===";
 
     say ($p.invert).[0].WHAT; # (Pair)
     ## So invert is indeed giving us a Sequence of a single Pair element.
-    say "AAA";
     say ($p.antipair).[0].WHAT; # (Pair)
 
     say "vvv";
