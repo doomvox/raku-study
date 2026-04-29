@@ -28,7 +28,7 @@ for %threat.sort(*.value).reverse -> $p {
 ## I like that one well enough, it's readable, and more-or-less does the job
 
 ## The stackoverflow answer plays with *.invert a lot in order to (somehow) get
-## tie-breaking using the name in the key-- a nice touch, it has me looking up "invert"
+## tie-breaking using the name in the key-- a nice touch, it has me looking up "invert"...
 
 ## The documentation is precise but not at all clear because of the need to cover multiple cases 
 ## ("If the .value of the invocant is NOT an Iterable, ..."):
