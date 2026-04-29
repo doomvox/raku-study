@@ -4,3 +4,9 @@
 ##  https://stackoverflow.com/questions/56067089/raku-sorting-hash-by-values-and-using-kv
 
 
+my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
+my @level    = 7, 6, 4, 8, 5, 6, 5;
+
+my %threat = @monsters Z=> @level;
+
+say %threat;
