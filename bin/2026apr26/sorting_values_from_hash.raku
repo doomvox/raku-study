@@ -119,7 +119,9 @@ say "===";
     say $p.invert.WHAT;   # (Seq)
     say $p.antipair.WHAT; # (Pair)
 
-    ## So, in the loop examples above, is there single argument rule magic?
+    ## So, in the loop examples above,
+    ## is there single argument rule magic with the pointy block?
+    ## (but below, we establish it's the sort level that yeilds identical output)
 
     say ($p.invert).[0];   # 6 => key
     say ($p.invert).[1];   # Nil
