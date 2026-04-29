@@ -126,7 +126,7 @@ say "===";
     say ($p.invert).[0];   # 6 => key
     say ($p.invert).[1];   # Nil
 
-    say ($p.invert).[0].WHAT; # (Pair)
+    say ($p.invert).[0].WHAT;   # (Pair)
     ## So invert is indeed giving us a Sequence of a single Pair element.
     say ($p.antipair).[0].WHAT; # (Pair)
 
