@@ -74,6 +74,11 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 # 6  |behemoth => 4|
 
 
+### The code examples clipped from Brad Gilbert's answer
+### are a pain to read because they keep wandering around 
+### evidently making explicit various *other* features of
+### the language than addressing the question.
+### they also look stale, e.g. using ".perl" instead of ".raku"
 
 
 # # Source - https://stackoverflow.com/a/56070395
