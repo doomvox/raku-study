@@ -38,7 +38,7 @@ for %threat.sort(*.value).reverse -> $p {
 ## Code examples use colon pairs to key key-values, and they still
 ## strike me as poor on readability.
 
-## It does something like .antipair, but .antipair does something
+## .invert does something like .antipair, but 
 ## slightly different, so both exist. (Great.)
 
 
