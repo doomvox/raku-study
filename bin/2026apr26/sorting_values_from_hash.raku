@@ -43,8 +43,12 @@ for %threat.sort(*.value).reverse -> $p {
 
 {
     my $p = key => 6;
-    say $p.invert; # (6 => key)
-    say $p.antipair; # (6 => key)
+    say $p.invert;   # (6 => key)
+    say $p.antipair; # 6 => key
+
+    say $p.invert.WHAT;   # (6 => key)
+    say $p.antipair.WHAT; # 6 => key
+
 }
 
 
