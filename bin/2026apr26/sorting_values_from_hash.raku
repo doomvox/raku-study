@@ -13,5 +13,5 @@ say %threat;
 # {basilisk => 7, behemoth => 4, chimera => 6, leviathan => 8, manticore => 5, minotaur => 6, ziz => 5}
 
 for %threat.sort(*.value).reverse -> $p {
-    say $p.value, $p.key;
+    say $p.value, "\t", $p.key;
 }
