@@ -127,6 +127,10 @@ say "===";
     say ($p.invert).[0].WHAT; # (Pair)
     ## So invert is indeed giving us a Sequence of a single Pair element.
 
+    %threat.sort(*.antipair).reverse.WHAT;
+    %threat.sort(*.invert).reverse.WHAT;
+
+
     my @stuff    =  %threat.sort(*.antipair).reverse;
     my @stuffier =  %threat.sort(*.invert).reverse;
 
