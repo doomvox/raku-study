@@ -138,10 +138,10 @@ say "===";
     say @stuff;     
 # [behemoth => 4 manticore => 5 ziz => 5 chimera => 6 minotaur => 6 basilisk => 7 leviathan => 8]
     dd @stuff;     
+# [:behemoth(4), :manticore(5), :ziz(5), :chimera(6), :minotaur(6), :basilisk(7), :leviathan(8)]
 
-    dd @stuffier;
     say @stuffier;
-
+    dd @stuffier;
 
 
 }
