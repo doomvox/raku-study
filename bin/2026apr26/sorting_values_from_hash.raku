@@ -2,6 +2,8 @@
 
 ## From an old stackoverflow question:
 ##  https://stackoverflow.com/questions/56067089/raku-sorting-hash-by-values-and-using-kv
+## Accepted answer by Brad Gilbert
+
 
 
 my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
@@ -85,8 +87,6 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 #   say "$key => $value"
 # }
 
-# # Source - https://stackoverflow.com/a/56070395
-# # Posted by Brad Gilbert
 # # Retrieved 2026-04-28, License - CC BY-SA 4.0
 # 
 # say %h.sort(*.invert).map(*.kv).perl;
