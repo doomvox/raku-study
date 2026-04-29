@@ -30,6 +30,12 @@ for %threat.sort(*.value).reverse -> $p {
 ## tie-breaking using the name in the key-- a nice touch, but I have to look up invert
 ## to see how that works.
 
+## The documentation is precise but not at all clear because of the need to cover multiple cases 
+## (if the value is not an Iterable, then...)
+
+## https://docs.raku.org/routine/invert
+
+
 ## I find it mildly disappointing that I can't just do something like 
 ##
 ##   for %threat.sort(*.value).reverse.kv -> $monster, $level {
