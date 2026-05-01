@@ -62,7 +62,7 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 
 say "===";
 
-# Again:
+# Let's look at this again:
 # WORKS: sorts hash on values, largest first
 for %threat.sort(*.value).reverse -> $p {
     # say $p.WHAT; # (Pair)
