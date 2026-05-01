@@ -79,7 +79,6 @@ for %threat.sort(*.value).reverse -> $p {
 say "---";
 
 for %threat.sort(*.invert).reverse -> $p {
-    # say $p.WHAT; # (Pair)
     say $p.value, "\t", $p.key;
 }
 
