@@ -48,8 +48,10 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 # 6  |behemoth => 4|
 
 
-## The stackoverflow answer plays with *.invert a lot in order to (somehow) get
-## tie-breaking using the name in the key-- a nice touch, it has me looking up "invert"...
+## The stackoverflow answer plays with *.invert a lot in order to get the name 
+## used as a tie-breaker-- a nice touch, it has me looking up "invert"...
+
+## Note: I presume this ends up forming a joint key of the value followed by the key (string concat?)
 
 ## The documentation is precise but not at all clear because of the need to cover multiple cases 
 ## ("If the .value of the invocant is NOT an Iterable, ..."):
