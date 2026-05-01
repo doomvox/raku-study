@@ -53,7 +53,8 @@ for %threat.sort(*.value).reverse.kv -> $monster, $level {
 
 ## Note: I presume this ends up forming a joint key of the value followed by the key (string concat?)
 
-## The documentation is precise but not at all clear because of the need to cover multiple cases 
+## The docs for .invert may be precise but they're not at all clear
+## because of the need to cover multiple cases
 ## ("If the .value of the invocant is NOT an Iterable, ..."):
 ## 
 ##   https://docs.raku.org/routine/invert
