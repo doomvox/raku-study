@@ -37,8 +37,6 @@
 # 222
 # 333
 
-
-
 (flat @a, @b).sort
 (111 222 333 444 aaa bbb ccc ddd)
 > (flat @a, @b)
