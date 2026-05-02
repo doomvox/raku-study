@@ -7,3 +7,42 @@
 # The vertical bars ...  are the "slip" 
 # operator, which kind-of sort-of do flattening.  (There's 
 # a subtle difference between slip and flat that I forget).
+
+
+{
+    my @a = <aaa bbb ccc ddd>;
+    my @b = <111 222 333 444>;
+    say @a;
+    say @b;
+
+# [aaa bbb ccc ddd]
+# [111 222 333 444]
+> .say for (@a, @b)
+[aaa bbb ccc ddd]
+[111 222 333 444]
+> .say for (|@a, |@b)
+aaa
+bbb
+ccc
+ddd
+111
+222
+333
+444
+> .say for (flat @a, @b)
+aaa
+bbb
+ccc
+ddd
+111
+222
+333
+444
+
+
+(flat @a, @b).sort
+(111 222 333 444 aaa bbb ccc ddd)
+> (flat @a, @b)
+(aaa bbb ccc ddd 111 222 333 444)
+> (flat @a, @b).grep({/2/})
+(222)
