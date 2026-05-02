@@ -27,10 +27,8 @@
     .say for (flat @a, @b);
     # aaa
     # bbb
-    # ccc
     # 111
     # 222
-    # 333
 
     say (flat @a, @b).sort;
     # (111 222 333 aaa bbb ccc)
