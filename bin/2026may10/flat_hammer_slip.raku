@@ -39,3 +39,8 @@
     say (flat @a, @b).grep({/2/});
     # (222)
 }
+
+# Interprets the invocant as a list, flattens non-containerized
+# Iterables into a flat list, and returns that list. Keep in
+# mind Map and Hash types are Iterable and so will be flattened
+# into lists of pairs.
