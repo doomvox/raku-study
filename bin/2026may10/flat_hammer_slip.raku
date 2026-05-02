@@ -76,6 +76,8 @@ use v6.e.PREVIEW;
     say @b>>.flat;          # [(X) (Y) [(a) (b) (c)]]    # hyperflat is less flat
     say @b>>.List;          # ((X) (Y) (a b c))          # also the same with use v6.e.PREVIEW;
 
+    say @b>>.List.flat;
+
 
 }
 
