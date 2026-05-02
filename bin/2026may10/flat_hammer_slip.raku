@@ -42,5 +42,6 @@ say (flat @a, @b).sort
 
 say (flat @a, @b)
 # (aaa bbb ccc 111 222 333)
-> (flat @a, @b).grep({/2/})
-(222)
+
+say (flat @a, @b).grep({/2/})
+# (222)
