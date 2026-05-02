@@ -26,7 +26,7 @@
         # 222
         # 333
 
-    .say for (flat @a, @b)
+    .say for (flat @a, @b);
     # aaa
     # bbb
     # ccc
