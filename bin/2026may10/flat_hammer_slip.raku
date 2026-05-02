@@ -78,10 +78,8 @@ use v6.e.PREVIEW;
 
     say @b>>.List.flat;     # (X Y a b c)
 
-    say @b>>.flat(:hammer); 
+    say @b>>.flat(:hammer); # ((X) (Y) (a b c))          # hammering flat isn't very flat
 
 }
 
-## Had this: lost some code above (?)
 
-# ((X) (Y) (a b c))
