@@ -46,7 +46,7 @@
 # Interprets the invocant as a list, flattens non-containerized
 # Iterables into a flat list, and returns that list.
 
-# ... does not flatten itemized sublists (e.g. $( a, b )
+# ... does not flatten itemized sublists, e.g. $( 'a', 'b' ) 
 
 
 # Keep in mind Map and Hash types are Iterable and so will be
