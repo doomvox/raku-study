@@ -19,18 +19,19 @@
 # [111 222 333 444]
 
 .say for (@a, @b)
-[aaa bbb ccc ddd]
-[111 222 333 444]
-> .say for (|@a, |@b)
-aaa
-bbb
-ccc
-ddd
-111
-222
-333
-444
-> .say for (flat @a, @b)
+# [aaa bbb ccc ddd]
+# [111 222 333 444]
+.say for (|@a, |@b)
+# aaa
+# bbb
+# ccc
+# ddd
+# 111
+# 222
+# 333
+# 444
+
+.say for (flat @a, @b)
 aaa
 bbb
 ccc
