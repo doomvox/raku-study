@@ -40,7 +40,14 @@
     # (222)
 }
 
+
+# https://docs.raku.org/routine/flat
+
 # Interprets the invocant as a list, flattens non-containerized
-# Iterables into a flat list, and returns that list. Keep in
-# mind Map and Hash types are Iterable and so will be flattened
-# into lists of pairs.
+# Iterables into a flat list, and returns that list.
+
+# ... does not flatten itemized sublists (e.g. $( a, b )
+
+
+# Keep in mind Map and Hash types are Iterable and so will be
+# flattened into lists of pairs.
