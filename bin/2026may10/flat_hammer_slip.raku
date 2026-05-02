@@ -69,6 +69,7 @@
     my @b = 'X', 'Y', @a;
     say @b; # [X Y [a b c]]
 
-    say @b.flat;
+    say @b.flat; # (X Y [a b c])
+    say @b>>.flat; # (X Y [a b c])
 
 }
