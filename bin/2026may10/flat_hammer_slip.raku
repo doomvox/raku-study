@@ -10,36 +10,34 @@
 
 
 {
-    my @a = <aaa bbb ccc ddd>;
-    my @b = <111 222 333 444>;
+    my @a = <aaa bbb ccc>;
+    my @b = <111 222 333>;
     say @a;
     say @b;
 
-# [aaa bbb ccc ddd]
-# [111 222 333 444]
+# [aaa bbb ccc]
+# [111 222 333]
 
 .say for (@a, @b)
-# [aaa bbb ccc ddd]
-# [111 222 333 444]
+# [aaa bbb ccc]
+# [111 222 333]
 .say for (|@a, |@b)
 # aaa
 # bbb
 # ccc
-# ddd
 # 111
 # 222
 # 333
-# 444
+
 
 .say for (flat @a, @b)
 # aaa
 # bbb
 # ccc
-# ddd
 # 111
 # 222
 # 333
-# 444
+
 
 
 (flat @a, @b).sort
