@@ -14,30 +14,30 @@
     my @a = <aaa bbb>;
     my @b = <111 222>;
 
-    .say for (@a, @b);
-    # [aaa bbb]
-    # [111 222]
-    
-    .say for (|@a, |@b);
-    # aaa
-    # bbb
-    # 111
-    # 222
+        .say for (@a, @b);
+                # [aaa bbb]
+                # [111 222]
+        
+                    .say for (|@a, |@b);
+                        # aaa
+                        # bbb
+                        # 111
+                        # 222
 
-    .say for (flat @a, @b);
-    # aaa
-    # bbb
-    # 111
-    # 222
+                        .say for (flat @a, @b);
+                        # aaa
+                        # bbb
+                        # 111
+                        # 222
 
-    say (flat @a, @b).sort;
-    # (111 222 aaa bbb)
+                        say (flat @a, @b).sort;
+                        # (111 222 aaa bbb)
 
-    say (flat @a, @b);
-    # (aaa bbb 111 222)
+                        say (flat @a, @b);
+                        # (aaa bbb 111 222)
 
-    say (flat @a, @b).grep({/2/});
-    # (222)
+                        say (flat @a, @b).grep({/2/});
+                        # (222)
 }
 
 
@@ -53,3 +53,12 @@
 
 # Keep in mind Map and Hash types are Iterable and so will be
 # flattened into lists of pairs.
+
+# You can use the hyper method call to call the .List method on
+# all the inner Iterables and so de-containerize them, so that
+# flat can flatten them:
+
+
+say [[1, 2, 3], [(4, 5), 6, 7]]      .flat; # OUTPUT: «([1 2 3] [(4 5) 6 7])␤»
+say [[1, 2, 3], [(4, 5), 6, 7]]».List.flat; # OUTPUT: «(1 2 3 4 5 6 7)␤»
+
