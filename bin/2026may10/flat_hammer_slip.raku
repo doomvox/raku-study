@@ -78,6 +78,7 @@ use v6.e.PREVIEW;
 
     say @b>>.List.flat;     # (X Y a b c)
 
+    say @b>>.flat(:hammer); 
 
 }
 
