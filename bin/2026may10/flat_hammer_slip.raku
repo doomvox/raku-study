@@ -70,6 +70,6 @@
     say @b; # [X Y [a b c]]
 
     say @b.flat; # (X Y [a b c])
-    say @b>>.flat; # (X Y [a b c])
+    say @b>>.flat; [(X) (Y) [(a) (b) (c)]]
 
 }
