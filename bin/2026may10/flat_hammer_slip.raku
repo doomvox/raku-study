@@ -82,3 +82,20 @@ use v6.e.PREVIEW;
 }
 
 
+
+Sometimes you want to insert the elements of a list into another list. This can be done with a special type of list called a Slip.
+Raku highlighting
+
+say (1, (2, 3), 4) eqv (1, 2, 3, 4);         # OUTPUT: «False␤»
+say (1, Slip.new(2, 3), 4) eqv (1, 2, 3, 4); # OUTPUT: «True␤»
+say (1, slip(2, 3), 4) eqv (1, 2, 3, 4);     # OUTPUT: «True␤»
+
+Another way to make a Slip is with the | prefix operator. Note that this has a tighter precedence than the comma, so it only affects a single value, but unlike the above options, it will break Scalars.
+
+
+Raku highlighting
+
+say (1, |(2, 3), 4) eqv (1, 2, 3, 4);        # OUTPUT: «True␤»
+say (1, |$(2, 3), 4) eqv (1, 2, 3, 4);       # OUTPUT: «True␤»
+say (1, slip($(2, 3)), 4) eqv (1, 2, 3, 4);  # OUTPUT: «True␤»
+
