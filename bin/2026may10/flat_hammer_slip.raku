@@ -78,5 +78,8 @@ use v6.e.PREVIEW;
     say @b>>.List.flat;     # (X Y a b c)
 
     say @b>>.flat(:hammer); # [(X) (Y) [(a) (b) (c)]]    # rakudo version: fv2024.09
-                            # ((X) (Y) (a b c))          # rakudo version: v2025.08-4-ga988e79f9.
+                            # ((X) (Y) (a b c))          # rakudo version: v2025.08-4-ga988e79f9.  
+                                                         # same with use v6.e.PREVIEW;
+
+
 }
