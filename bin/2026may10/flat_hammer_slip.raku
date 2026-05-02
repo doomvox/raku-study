@@ -78,3 +78,10 @@ use v6.e.PREVIEW;
 
 
 }
+
+# [X Y [a b c]]
+# (X Y [a b c])
+# ((X) (Y) (a b c))
+# ((X) (Y) (a b c))
+# (X Y a b c)
+# ((X) (Y) (a b c))
