@@ -12,16 +12,12 @@
 {
     my @a = <aaa bbb ccc>;
     my @b = <111 222 333>;
-    say @a;
-    say @b;
 
-        # [aaa bbb ccc]
-        # [111 222 333]
-
-        .say for (@a, @b)
-        # [aaa bbb ccc]
-        # [111 222 333]
-                .say for (|@a, |@b)
+    .say for (@a, @b);
+    # [aaa bbb ccc]
+    # [111 222 333]
+    
+    .say for (|@a, |@b);
         # aaa
         # bbb
         # ccc
