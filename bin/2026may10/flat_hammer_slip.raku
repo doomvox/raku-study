@@ -14,7 +14,7 @@
     my @a = <aaa bbb>;
     my @b = <111 222>;
 
-        .say for (@a, @b);
+        .say for (@a, @b);          ## Emacs raku-mode bug, a leading .say messes with indentation.
                 # [aaa bbb]
                 # [111 222]
         
@@ -62,3 +62,4 @@
   say [[1, 2, 3], [(4, 5), 6, 7]]      .flat;  # ([1 2 3] [(4 5) 6 7])
   say [[1, 2, 3], [(4, 5), 6, 7]]».List.flat;  # (1 2 3 4 5 6 7)
 }
+
