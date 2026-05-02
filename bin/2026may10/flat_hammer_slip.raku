@@ -58,7 +58,6 @@
 # all the inner Iterables and so de-containerize them, so that
 # flat can flatten them:
 
-
 {
   say [[1, 2, 3], [(4, 5), 6, 7]]      .flat;  # ([1 2 3] [(4 5) 6 7])
   say [[1, 2, 3], [(4, 5), 6, 7]]».List.flat;  # (1 2 3 4 5 6 7)
