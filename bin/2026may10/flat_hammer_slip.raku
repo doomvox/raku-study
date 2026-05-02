@@ -32,14 +32,14 @@
 # 444
 
 .say for (flat @a, @b)
-aaa
-bbb
-ccc
-ddd
-111
-222
-333
-444
+# aaa
+# bbb
+# ccc
+# ddd
+# 111
+# 222
+# 333
+# 444
 
 
 (flat @a, @b).sort
