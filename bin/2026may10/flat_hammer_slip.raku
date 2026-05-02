@@ -46,6 +46,9 @@
 # Interprets the invocant as a list, flattens non-containerized
 # Iterables into a flat list, and returns that list.
 
+# Note that Arrays containerize their elements by default, and
+# so flat will not flatten them.
+
 # ... does not flatten itemized sublists, e.g. $( 'a', 'b' ) 
 
 
