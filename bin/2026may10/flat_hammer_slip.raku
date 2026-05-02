@@ -15,33 +15,34 @@
     say @a;
     say @b;
 
-# [aaa bbb ccc]
-# [111 222 333]
+        # [aaa bbb ccc]
+        # [111 222 333]
 
-.say for (@a, @b)
-# [aaa bbb ccc]
-# [111 222 333]
-.say for (|@a, |@b)
-# aaa
-# bbb
-# ccc
-# 111
-# 222
-# 333
+        .say for (@a, @b)
+        # [aaa bbb ccc]
+        # [111 222 333]
+                .say for (|@a, |@b)
+        # aaa
+        # bbb
+        # ccc
+        # 111
+        # 222
+        # 333
 
-.say for (flat @a, @b)
-# aaa
-# bbb
-# ccc
-# 111
-# 222
-# 333
+        .say for (flat @a, @b)
+             # aaa
+             # bbb
+             # ccc
+             # 111
+             # 222
+             # 333
 
-say (flat @a, @b).sort
-# (111 222 333 aaa bbb ccc)
+             say (flat @a, @b).sort
+                                   # (111 222 333 aaa bbb ccc)
 
-say (flat @a, @b)
-# (aaa bbb ccc 111 222 333)
+                                   say (flat @a, @b)
+                                   # (aaa bbb ccc 111 222 333)
 
-say (flat @a, @b).grep({/2/})
-# (222)
+                                   say (flat @a, @b).grep({/2/})
+                                                         # (222)
+}
