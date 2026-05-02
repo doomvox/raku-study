@@ -73,5 +73,6 @@
     say @b>>.flat;       # [(X) (Y) [(a) (b) (c)]]    # hyperflat is less flat
     say @b>>.List;       # ((X) (Y) (a b c))
     say @b>>.List.flat;  # (X Y a b c)
+    say @b>>.flat(:hammer);
 
 }
