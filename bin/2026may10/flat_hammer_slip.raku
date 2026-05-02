@@ -67,5 +67,5 @@
 {
     my @a = <a b c>;
     my @b = 'X', 'Y', @a;
-    say @b;
+    say @b; # [X Y [a b c]]
 }
