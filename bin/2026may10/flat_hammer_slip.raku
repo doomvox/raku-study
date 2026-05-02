@@ -51,6 +51,5 @@
 
 # ... does not flatten itemized sublists, e.g. $( 'a', 'b' ) 
 
-
 # Keep in mind Map and Hash types are Iterable and so will be
 # flattened into lists of pairs.
