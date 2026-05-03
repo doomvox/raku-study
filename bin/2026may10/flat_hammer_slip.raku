@@ -80,10 +80,12 @@ say "===";
     my @a = <a b c>;
     my @b = 'X', 'Y', @a;
     say @b; # [X Y [a b c]]
+    say "---";
 
     say @b.flat;            # (X Y [a b c])
     say @b>>.flat;          # [(X) (Y) [(a) (b) (c)]]    # hyperflat is less flat than flat
     say @b>>.List;          # ((X) (Y) (a b c))          # also the same with use v6.e.PREVIEW;
+    say "---";
 
     say @b>>.List.flat;     # (X Y a b c)
 
