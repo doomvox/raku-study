@@ -134,7 +134,7 @@ say "===";
     ## Notes:
 
     ## (1) on the web that totally looks like "break Scalar S", 
-    ## which leaves one going "S"?  Where's "S" defined?
+    ## which leaves one going "S"?  Where's "S" defined?  TODO
 
     ## (2) what does that mean?  Does the | operator not work with scalar arguments?
 
