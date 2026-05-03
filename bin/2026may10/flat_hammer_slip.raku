@@ -102,6 +102,6 @@ use v6.e.PREVIEW;
   ##       (2) what does that mean?  Does the | operator not work with scalar arguments?
 
     say (1, |(2, 3), 4);       # (1, 2, 3, 4); 
-    say (1, |$(2, 3), 4);      # (1, 2, 3, 4); 
+    say (1, |$(2, 3), 4);      # (1, 2, 3, 4);   ## here we're apply slip to an "itemized list", for many readers
     say (1, slip($(2, 3)), 4); # (1, 2, 3, 4); 
 }
