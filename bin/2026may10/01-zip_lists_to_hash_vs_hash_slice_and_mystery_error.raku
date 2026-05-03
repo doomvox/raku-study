@@ -24,7 +24,7 @@ my %threat  =
     is-deeply(%h, %threat, "Assign to hash slice");
 }
 
-## The one drawback is the need to declare the hash before assignment,
+## The one drawback is that need to declare the hash before assignment,
 
 { 
     ## this doesn't work:
