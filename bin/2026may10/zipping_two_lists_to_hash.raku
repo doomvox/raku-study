@@ -112,6 +112,13 @@ say $t;
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
 }
 
+{ # GOOD assign to hash slice
+
+    my %h{ @monsters } = @levels;
+    say %h;
+    # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
+}
+
 
 {
 #     my %h = (@monsters Z @levels)>>.kv;
