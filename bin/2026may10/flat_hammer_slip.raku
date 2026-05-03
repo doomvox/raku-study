@@ -86,6 +86,7 @@ say "===";
 
   say "slip slip flat";
   say [[1, 2, 3], [(4, 5), 6, 7]]».Slip.Slip.flat;  # (1 2 3 (4 5) 6 7)
+  say [[1, 2, 3], [(4, 5), 6, 7]]».Slip.flat.Slip;  # (1 2 3 (4 5) 6 7)
 
 }
 say "===";
