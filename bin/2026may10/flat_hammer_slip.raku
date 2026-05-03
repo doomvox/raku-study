@@ -3,7 +3,7 @@
 
 
 # use v6.e.PREVIEW; ## TODO I thought that you needed this for the flat hammer, but evidently not any more.
-use v6.d;
+use v6.d;  # flat hammer slipped into 6.d, evidently
 
 # From back in 2018 (?!):
 #  /home/doom/End/Cave/RakuStudy/Notes/notes-basic_perl6_again
