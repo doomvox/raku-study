@@ -104,5 +104,4 @@ use v6.e.PREVIEW;
     say (1, |(2, 3), 4) eqv (1, 2, 3, 4);        # OUTPUT: «True␤»
     say (1, |$(2, 3), 4) eqv (1, 2, 3, 4);       # OUTPUT: «True␤»
     say (1, slip($(2, 3)), 4) eqv (1, 2, 3, 4);  # OUTPUT: «True␤»
-
 }
