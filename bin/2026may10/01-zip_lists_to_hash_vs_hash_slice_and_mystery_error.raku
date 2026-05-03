@@ -28,14 +28,16 @@ my %threat  =
 ## this doesn't work:
 
 { 
+    # my %h{ @monsters } = @levels;
+    # compilation ERROR:
+    # Invalid hash shape; type expected
+
+    # And that's because of this syntax, if you want a hash restricted to Int keys, for example:
     my %i{Int};
     %i{1} = 'okay';
     say %i; # {1 => okay}
-    %i{'tew'} = 'no workies';
-#    my %h{ @monsters } = @levels;
-    # compilation ERROR:
-    # Invalid hash shape; type expected
-    #   (does that mean anything?)  Oh, like
+    %i{'tew'} = 'no workies'; # Type check failed in binding to parameter 'key'; expected Int but got Str ("tew")
+
 
 }
 
