@@ -15,4 +15,8 @@ my %threats = @monsters Z=> @levels;
     # (description quip leviathan => 8 behemoth => 7 ziz => 4 manticore => 4 basilisk => 6 minotaur => 5 chimera => 3)
     say @stuff.flat(:hammer);
     say @stuff[**];
+
+
+    @stuff.deepmap({.say});
+
 }
