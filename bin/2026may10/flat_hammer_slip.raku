@@ -138,7 +138,7 @@ use v6.e.PREVIEW;
     say slip((2, 3))>>.WHAT; # (Slip)
 
     ## anyway:
-    $a = 'a';
+    my $a = 'a';
     say slip($a);
     say | $a;
 
