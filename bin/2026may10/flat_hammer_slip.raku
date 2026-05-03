@@ -102,6 +102,8 @@ say "===";
     say "WORKS:";
     say @b.flat(:hammer);    # (X Y a b c)               # duh: don't hyper it WORKS
 
+    say @b[**];
+
     say "---";
 
     my @c = ( "c", @b );
