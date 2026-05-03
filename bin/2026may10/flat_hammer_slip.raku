@@ -119,8 +119,9 @@ use v6.e.PREVIEW;
     my @stuff = | @a_of_a;
     dd @stuff;  # ["a", ["b"]]
 
-    say slip $('a', 'b'); # (a b)
-    say | $('a', 'b'); # ab
-    say  $('a', 'b').Slip; 
+    say slip $('a', 'b');  # (a b)
+    say | $('a', 'b');     # ab
+    say  $('a', 'b').Slip; # (a b)
+    say  $('a', 'b')>>!;
 
 }
