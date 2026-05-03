@@ -137,11 +137,12 @@ say "===";
     say | $('a', 'b');     # ab
     say  $('a', 'b').Slip; # (a b)
     say  $('a', 'b')>>.Slip;  # ((a) (b))
-
+    say "---";
 
     say slip($(2, 3));  # (2 3)
     say |$(2, 3);       # 23
     say |$(2, 3).elems; # 2
+    say "---";
 
     say slip($(2, 3)).WHAT; # (Slip)
     # say |$(2, 3).WHAT;    # Cannot look up attributes in a List type object. Did you forget a '.new'?
@@ -150,8 +151,9 @@ say "===";
     say $(2, 3)>>.WHAT;      # (List)
     say (2, 3)>>.WHAT;       # (List)
     say slip((2, 3))>>.WHAT; # (Slip)
+    say "---";
 
-    ## anyway:
+    ## anyway, what was that about "|" and Scalars?:
     my $a = 'a';
     say slip($a);  # (a)
     say | $a;      # a
