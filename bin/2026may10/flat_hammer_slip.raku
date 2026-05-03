@@ -123,7 +123,6 @@ say "===";
 }
 
 {
-
   # Another way to make a Slip is with the | prefix
   # operator. Note that this has a tighter precedence than the
   # comma, so it only affects a single value, but unlike the
