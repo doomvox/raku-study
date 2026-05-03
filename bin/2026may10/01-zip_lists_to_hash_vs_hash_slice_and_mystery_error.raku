@@ -28,7 +28,10 @@ my %threat  =
 ## this doesn't work:
 
 { 
-     my %h{ @monsters } = @levels;    # Invalid hash shape; type expected
+    my %h{ @monsters } = @levels;
+    # compilation ERROR:
+    # Invalid hash shape; type expected
+    #   (does that mean anything?)
 
 }
 
