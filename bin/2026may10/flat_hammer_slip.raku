@@ -153,14 +153,14 @@ say "===";
 }
 
 {
-  # Another way to make a Slip is with the | prefix
-  # operator. Note that this has a tighter precedence than the
-  # comma, so it only affects a single value, but unlike the
-  # above options, it will break Scalars.
+    # Another way to make a Slip is with the | prefix
+    # operator. Note that this has a tighter precedence than the
+    # comma, so it only affects a single value, but unlike the
+    # above options, it will break Scalars.
 
-  ## (( what does 'break Scalars' mean?  Does the | operator not work with scalar arguments? ))
+    ## (( what does 'break Scalars' mean?  Does the | operator not work with scalar arguments? ))
 
-  ## on the web that totally looks like "break Scalar S", which leaves one going "S"?  Where's "S" defined?  TODO
+    ## on the web that totally looks like "break Scalar S", which leaves one going "S"?  Where's "S" defined?  TODO
 
     say (1, |(2, 3), 4);       # (1, 2, 3, 4); 
     say (1, |$(2, 3), 4);      # (1, 2, 3, 4);   ## here we apply slip to an "itemized list" (a *different* raku oddity to help confuse)
