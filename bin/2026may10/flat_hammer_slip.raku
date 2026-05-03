@@ -133,7 +133,7 @@ say "===";
     say "---";
 
     my @c = ( "c", @b );
-    say "AT_C: \n", @c;           # at c:
+    say "AT_C: \n", @c;           # AT C:
                                   # [c [X Y [a b c]]]
 
     say @c>>.flat.flat;           # (c X Y [a b c])
