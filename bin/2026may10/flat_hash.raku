@@ -11,7 +11,6 @@ my %threats = @monsters Z=> @levels;
     # [description quip {basilisk => 6, behemoth => 7, chimera => 3, leviathan => 8, manticore => 4, minotaur => 5, ziz => 4}]
 
     # flat hammer doesn't break-up pairs, passes them through with key and value:
-    
     say @stuff.flat(:hammer);
     say @stuff[**];
     # (description quip leviathan => 8 behemoth => 7 ziz => 4 manticore => 4 basilisk => 6 minotaur => 5 chimera => 3)
