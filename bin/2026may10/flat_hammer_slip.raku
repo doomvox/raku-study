@@ -167,12 +167,12 @@ say "===";
     say (1, slip($(2, 3)), 4); # (1, 2, 3, 4); 
 
     say "SCALY";
-    say slip($(1));
-    say slip((1));
-    say slip(1);
-    say |$(1);
-    say |(1);
-    say |1;
+    say slip($(1));  # (1)
+    say slip((1));   # (1)
+    say slip(1);     # (1)
+    say |$(1);       # 1
+    say |(1);        # 1
+    say |1;          # 1
 
     ## Maybe it's just saying that "| 1, 2"  is like  "slip(1), 2"?
 
