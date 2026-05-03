@@ -109,4 +109,6 @@ use v6.e.PREVIEW;
 {
     my @a = <a>;
     dd @a;
+    my @a_of_a = ('a', ('b');
+
 }
