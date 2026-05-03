@@ -103,7 +103,7 @@ say "===";
     say "---";
 
     my @c = ( "c", @b );
-    say @c;
+    say "at c: ", @c;
 
 
 }
