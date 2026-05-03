@@ -16,6 +16,9 @@ my %threats = @monsters Z=> @levels;
     say @stuff.flat(:hammer);
     say @stuff[**];
 
+    foreach @stuff[**] -> $item { say $item.WHAT };
+
+
     ## deepmap descends through structure, getting to values without the keys
     @stuff.deepmap({.say});
     # description
