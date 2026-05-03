@@ -135,5 +135,6 @@ use v6.e.PREVIEW;
 
     say $(2, 3)>>.WHAT; # (List)
     say (2, 3)>>.WHAT;  # (List)
+    say slip((2, 3))>>.WHAT;  # (List)
 
 }
