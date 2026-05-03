@@ -114,8 +114,6 @@ say "===";
 
 }
 say "===";
-
-
 {
     # https://docs.raku.org/language/list#Slips    
 
