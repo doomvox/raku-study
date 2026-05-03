@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 ## Problemette: Starting with lists of names and values, create a hash:
-my @monsters = <<godzilla rhodan blob tingler crinoid>>;
+my @monsters = <godzilla rhodan blob tingler crinoid>;
 my @levels = 8, 3, 5, 4, 6;
 
 ## I want a hash with numeric values assigned to each:
