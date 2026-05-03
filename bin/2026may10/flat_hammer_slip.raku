@@ -133,8 +133,8 @@ use v6.e.PREVIEW;
     # say |$(2, 3).WHAT;    # Cannot look up attributes in a List type object. Did you forget a '.new'?
     # say |$(2, 3)>>.WHAT;  # The same error?
 
-    say $(2, 3)>>.WHAT; # (List)
-    say (2, 3)>>.WHAT;  # (List)
-    say slip((2, 3))>>.WHAT;  # (List)
+    say $(2, 3)>>.WHAT;      # (List)
+    say (2, 3)>>.WHAT;       # (List)
+    say slip((2, 3))>>.WHAT; # (Slip)
 
 }
