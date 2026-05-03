@@ -30,6 +30,7 @@ my %threat  =
 { 
     my %i{Int};
     %i{1} = 'okay';
+    say %i;
 #    my %h{ @monsters } = @levels;
     # compilation ERROR:
     # Invalid hash shape; type expected
