@@ -186,6 +186,10 @@ say "===";
 
 say "===";
 # From flat.t (which one?):
+
+## The flat hammer has an optional argument that limits the
+## number of levels down it will flatten.  
+## (None of this is documented.)
 {
     use Test;
     my $hammered := (1,2,3,4,5);
