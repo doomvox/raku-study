@@ -17,6 +17,15 @@ my %threats = @monsters Z=> @levels;
     say @stuff[**];
 
     for @stuff[**] -> $item { say $item.WHAT };
+    # (Str)
+    # (Str)
+    # (Pair)
+    # (Pair)
+    # (Pair)
+    # (Pair)
+    # (Pair)
+    # (Pair)
+    # (Pair)
 
     ## deepmap descends through structure, getting to values without the keys
     @stuff.deepmap({.say});
