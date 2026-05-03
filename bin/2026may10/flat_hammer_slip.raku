@@ -121,6 +121,6 @@ use v6.e.PREVIEW;
 
     say slip $('a', 'b'); # (a b)
     say | $('a', 'b'); # ab
-    say  $('a', 'b').slip; 
+    say  $('a', 'b').Slip; 
 
 }
