@@ -101,7 +101,7 @@ use v6.e.PREVIEW;
 
   ##       (2) what does that mean?  Does the | operator not work with scalar arguments?
 
-    say (1, |(2, 3), 4) eqv (1, 2, 3, 4);        # OUTPUT: «True␤»
-    say (1, |$(2, 3), 4) eqv (1, 2, 3, 4);       # OUTPUT: «True␤»
-    say (1, slip($(2, 3)), 4) eqv (1, 2, 3, 4);  # OUTPUT: «True␤»
+    say (1, |(2, 3), 4) ;       # (1, 2, 3, 4); 
+    say (1, |$(2, 3), 4) ;      # (1, 2, 3, 4); 
+    say (1, slip($(2, 3)), 4) ; # (1, 2, 3, 4); 
 }
