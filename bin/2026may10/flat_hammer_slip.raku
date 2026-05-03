@@ -134,6 +134,6 @@ use v6.e.PREVIEW;
     # say |$(2, 3)>>.WHAT;  # The same error?
 
     say $(2, 3)>>.WHAT; # (List)
-    say (2, 3)>>.WHAT; # (List)
+    say (2, 3)>>.WHAT;  # (List)
 
 }
