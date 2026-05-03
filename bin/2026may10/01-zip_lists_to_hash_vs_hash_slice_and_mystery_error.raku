@@ -21,7 +21,7 @@ my %threat  =
     %h{ @monsters } = @levels;
     say %h;
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
-    is-deeply(%h, %threat, "Zippy fat comma");
+    is-deeply(%h, %threat, "Assign to hash slice");
 }
 
 # { 
