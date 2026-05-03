@@ -131,7 +131,7 @@ say "===";
   # comma, so it only affects a single value, but unlike the
   # above options, it will break Scalars.
 
-    ## Note:
+    ## Notes:
 
     ## (1) on the web that totally looks like "break Scalar S", 
     ## which leaves one going "S"?  Where's "S" defined?
