@@ -139,7 +139,7 @@ use v6.e.PREVIEW;
 
     ## anyway:
     my $a = 'a';
-    say slip($a);
-    say | $a;
+    say slip($a);  # (a)
+    say | $a;      # a
 
 }
