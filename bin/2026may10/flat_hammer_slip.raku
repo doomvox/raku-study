@@ -28,7 +28,7 @@ use v6.e.PREVIEW;
     for (|@a, |@b) { .say };
 
         
-                    .say for (|@a, |@b);
+#                    .say for (|@a, |@b);
                         # aaa
                         # bbb
                         # 111
