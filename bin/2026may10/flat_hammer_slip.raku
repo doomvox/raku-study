@@ -106,7 +106,7 @@ say "===";
     say "at c: \n", @c;      # at c:
                              # [c [X Y [a b c]]]
 
-    say @c.>>flat.flat;      # (c [X Y [a b c]])
+    say @c.>>.flat.flat;      # (c [X Y [a b c]])
     say @c.List.flat;      # (c X Y [a b c])
     say @c.List.flat.List;      # (c X Y [a b c])
     say @c.List.flat.List.flat;      # (c X Y [a b c])
