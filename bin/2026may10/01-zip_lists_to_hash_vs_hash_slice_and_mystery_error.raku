@@ -12,8 +12,7 @@ my %threat  =
 
 {   # this works well:
     my %h = @monsters Z=> @levels;
-    say %h;
-    # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
+    say %h; # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
     is-deeply(%h, %threat, "Zippy fat comma");
 }
 
