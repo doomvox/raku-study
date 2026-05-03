@@ -174,6 +174,7 @@ say "===";
     say |(1);
     say |1;
 
+    ## Maybe it's just saying that "| 1, 2"  is like  "slip(1), 2"?
 
 }
 say "===";
