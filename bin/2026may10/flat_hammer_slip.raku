@@ -166,7 +166,7 @@ say "===";
     ## (2) what does that mean?  Does the | operator not work with scalar arguments?
 
     say (1, |(2, 3), 4);       # (1, 2, 3, 4); 
-    say (1, |$(2, 3), 4);      # (1, 2, 3, 4);   ## here we're apply slip to an "itemized list" (a *different* raku oddity to help confuse)
+    say (1, |$(2, 3), 4);      # (1, 2, 3, 4);   ## here we apply slip to an "itemized list" (a *different* raku oddity to help confuse)
     say (1, slip($(2, 3)), 4); # (1, 2, 3, 4); 
 }
 say "===";
