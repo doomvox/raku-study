@@ -100,7 +100,7 @@ say "===";
     say @b>>.flat(:hammer); # ((X) (Y) (a b c))          # hammering flat isn't very flat (?) 
 
     say "WORKS:";
-    say @b.flat(:hammer); # ((X) (Y) (a b c))          # hammering flat isn't very flat (?) 
+    say @b.flat(:hammer);    # (X Y a b c)               # duh: don't hyper it WORKS
 
     say "---";
 
