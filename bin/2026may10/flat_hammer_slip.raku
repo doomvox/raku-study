@@ -17,7 +17,7 @@ use v6.e.PREVIEW;
     my @a = <aaa bbb>;
     my @b = <111 222>;
 
-        # .say for (@a, @b);          ## Emacs raku-mode bug, a leading .say messes with indentation.
+        # .say for (@a, @b);          ## TODO Emacs raku-mode bug, a leading .say messes with indentation.
                 # [aaa bbb]
                 # [111 222]
 
@@ -31,7 +31,8 @@ use v6.e.PREVIEW;
     # 111
     # 222
 
-                        .say for (flat @a, @b);
+
+    for (flat @a, @b) { .say };
                         # aaa
                         # bbb
                         # 111
