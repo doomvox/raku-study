@@ -113,5 +113,5 @@ use v6.e.PREVIEW;
     dd @a_of_a;  ## ["a", "b"] 
     
     @a_of_a = ('a', ['b']);
-
+    dd @a_of_a;  ## 
 }
