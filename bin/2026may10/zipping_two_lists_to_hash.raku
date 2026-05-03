@@ -102,7 +102,7 @@ say $t;
 }
 
 
-{ # GOOD assign to hash slice
+{ # WORKS assign to hash slice
     my %h;
 #     %h<< @monsters >> = @levels;
 #     say %h;  # {@monsters => [8 3 5 4 6]}
