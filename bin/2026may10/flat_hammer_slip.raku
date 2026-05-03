@@ -120,5 +120,5 @@ use v6.e.PREVIEW;
     dd @stuff;  # ["a", ["b"]]
 
     say | $('a', 'b'); # ab
-
+    say slip( $('a', 'b') ); # ab
 }
