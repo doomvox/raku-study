@@ -88,7 +88,7 @@ say "===";
 
     say "HF";
     say @b>>.flat.Slip;          # ((X) (Y) (a b c))
-    say @b>>.flat.List;
+    say @b>>.flat.List;          # ((X) (Y) (a b c))
 
     say "---";
 
