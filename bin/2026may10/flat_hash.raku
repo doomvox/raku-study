@@ -7,5 +7,7 @@ my %threats = @monsters Z=> @levels;
 
 {
     my @stuff = ( 'description', 'quirky quip', %threats );
-
+    say @stuff;
+    say @stuff.flat(:hammer);
+    say @stuff[**];
 }
