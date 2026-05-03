@@ -125,9 +125,8 @@ use v6.e.PREVIEW;
     say  $('a', 'b')>>.Slip;  # ((a) (b))
 
 
-    say |$(2, 3); # 23
-    say slip($(2, 3)); # (2 3)
-
-    say |$(2, 3).elems;
+    say slip($(2, 3));  # (2 3)
+    say |$(2, 3);       # 23
+    say |$(2, 3).elems; # 2
 
 }
