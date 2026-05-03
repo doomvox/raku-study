@@ -167,7 +167,7 @@ say "===";
     say (1, slip($(2, 3)), 4); # (1, 2, 3, 4); 
 
     say "SCALY";
-    say slip($(1));  # (1)  # Is it just me, or would you say that slip simply isn't working here?
+    say slip($(1));  # (1)  
     say slip((1));   # (1)
     say slip(1);     # (1)
     say |$(1);       # 1
@@ -175,6 +175,10 @@ say "===";
     say |1;          # 1
 
     ## Maybe it's just saying that "| 1, 2"  is like  "slip(1), 2"?
+
+    say flat($(1));  # (1)  
+    say flat((1));   # (1)
+    say flat(1);     # (1)
 
 
 
