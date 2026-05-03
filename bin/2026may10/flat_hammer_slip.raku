@@ -35,10 +35,10 @@ use v6.e.PREVIEW;
 
     for (flat @a, @b) { .say };
     say "---";
-                        # aaa
-                        # bbb
-                        # 111
-                        # 222
+    # aaa
+    # bbb
+    # 111
+    # 222
 
                         say (flat @a, @b).sort;
                         # (111 222 aaa bbb)
@@ -48,6 +48,7 @@ use v6.e.PREVIEW;
 
                         say (flat @a, @b).grep({/2/});
                         # (222)
+                        say "---";
 }
 
 
