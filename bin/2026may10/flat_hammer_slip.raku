@@ -113,4 +113,7 @@ use v6.e.PREVIEW;
     @a_of_a = ['a', ['b']];
     dd @a_of_a;  # ["a", ["b"]]
 
+    say | @a_of_a;
+
+
 }
