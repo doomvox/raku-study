@@ -46,7 +46,7 @@ Perl and programming in general are fair game, along with Raku,
 Regular meeting annoucements go to the SF Perl mailing list:
 
 *  http://mail.pm.org/mailman/admin/sanfrancisco-pm
-
+ 
 As well as the perl6-users mailing list:
 
 *  https://raku.org/community/
