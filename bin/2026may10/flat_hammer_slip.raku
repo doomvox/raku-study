@@ -2,7 +2,7 @@
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/flat_hammer_slip.raku
 
 
-# use v6.e.PREVIEW;
+# use v6.e.PREVIEW; ## TODO I thought that you needed this for the flat hammer, but evidently not any more.
 
 # From back in 2018 (?!):
 #  /home/doom/End/Cave/RakuStudy/Notes/notes-basic_perl6_again
