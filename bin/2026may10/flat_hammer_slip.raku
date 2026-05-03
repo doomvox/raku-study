@@ -91,7 +91,7 @@ say "===";
 # 7
 # [[True True True] [(True True) True True]]
 
-  say [[1, 2, 3], [(4, 5), 6, 7]]».List.flat;  # (1 2 3 4 5 6 7)
+  say [[1, 2, 3], [(4, 5), 6, 7]]».List.flat;  # (1 2 3 4 5 6 7)      # WORKS
   say [[1, 2, 3], [(4, 5), 6, 7]]».Slip.flat;  # (1 2 3 (4 5) 6 7)
   # Note: hyper .List deconts, but not hyper .Slip (?!)
 
