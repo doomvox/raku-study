@@ -16,14 +16,8 @@ my %threat  =
     is-deeply(%h, %threat, "Zippy fat comma");
 }
 
-
-exit;
-
-{ # GOOD assign to hash slice
+{ # also works well:
     my %h;
-#     %h<< @monsters >> = @levels;
-#     say %h;  # {@monsters => [8 3 5 4 6]}
-
     %h{ @monsters } = @levels;
     say %h;
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
