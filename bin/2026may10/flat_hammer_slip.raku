@@ -130,10 +130,12 @@ say "===";
   # operator. Note that this has a tighter precedence than the
   # comma, so it only affects a single value, but unlike the
   # above options, it will break Scalars.
-  ## Note: (1) on the web that totally looks like "break Scalar S", 
-  ## which leaves one going "S"?  Where's "S" defined?
 
-  ##       (2) what does that mean?  Does the | operator not work with scalar arguments?
+    ## Note:
+    ## (1) on the web that totally looks like "break Scalar S", 
+    ## which leaves one going "S"?  Where's "S" defined?
+
+    ## (2) what does that mean?  Does the | operator not work with scalar arguments?
 
     say (1, |(2, 3), 4);       # (1, 2, 3, 4); 
     say (1, |$(2, 3), 4);      # (1, 2, 3, 4);   ## here we're apply slip to an "itemized list": may not be clear for many readers, 
