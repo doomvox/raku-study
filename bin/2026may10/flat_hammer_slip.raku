@@ -89,13 +89,13 @@ say "===";
     say "HF";
     say @b>>.flat.Slip;          # ((X) (Y) (a b c))
     say @b>>.flat.List;          # ((X) (Y) (a b c))
-    say @b>>.flat.flat;          # (X Y a b c)           # Of course, hyper flat flat, why didn't I think of that?
+    say @b>>.flat.flat;          # (X Y a b c)           # WORKS? Of course, hyper flat flat, why didn't I think of that?
 
     say @b.flat.flat;          # (X Y [a b c])           # Same as a single flat
 
     say "---";
 
-    say @b>>.List.flat;     # (X Y a b c)                # Hyper list flat works
+    say @b>>.List.flat;     # (X Y a b c)                # Hyper list flat WORKS
     say @b>>.List.List;     # ((X) (Y) (a b c))          # Just checking.
 
 
