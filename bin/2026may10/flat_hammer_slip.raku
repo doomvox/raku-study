@@ -85,7 +85,7 @@ use v6.e.PREVIEW;
 {
     # https://docs.raku.org/language/list#Slips    
 
-    say (1, (2, 3), 4);          # (1, 2, 3, 4);         
+    say (1, (2, 3), 4);          # (1 (2 3) 4)
     say (1, Slip.new(2, 3), 4);  # (1, 2, 3, 4); 
     say (1, slip(2, 3), 4);      # (1, 2, 3, 4);     
 }
