@@ -184,7 +184,7 @@ say "===";
     say | $a;      # a
 }
 
-
+say "===";
 # From flat.t (which one?):
 {
     use Test;
