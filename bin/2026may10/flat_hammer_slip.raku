@@ -169,6 +169,7 @@ say "===";
     say "SCALY";
     say slip($(1));
     say slip((1));
+    say slip(1);
 
 }
 say "===";
