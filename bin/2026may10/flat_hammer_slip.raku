@@ -84,6 +84,7 @@ say "===";
   say [[1, 2, 3], [(4, 5), 6, 7]]».Slip.flat;  # (1 2 3 (4 5) 6 7)
   # Note: hyper .List deconts, but not hyper .Slip (?!)
 
+  say "slip slip flat";
   say [[1, 2, 3], [(4, 5), 6, 7]]».Slip.Slip.flat;  # (1 2 3 (4 5) 6 7)
 
 }
