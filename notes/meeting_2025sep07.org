@@ -210,7 +210,7 @@ say %source.duckmap: -> %a where {
 #+END_SRC 
 ***** Q: why not use deepmap?
 
-**** Maron (2colours)
+**** Marton (2colours)
 ***** 
 #+BEGIN_SRC raku
 %source{*;*;'modified'} .= map: &transform-modified;
