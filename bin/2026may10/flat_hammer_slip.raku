@@ -124,4 +124,10 @@ use v6.e.PREVIEW;
     say  $('a', 'b').Slip; # (a b)
     say  $('a', 'b')>>.Slip;  # ((a) (b))
 
+
+    say |$(2, 3);
+    say slip($(2, 3));
+
+
+
 }
