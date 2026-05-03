@@ -99,7 +99,7 @@ say "===";
 
     say @b>>.flat(:hammer); # ((X) (Y) (a b c))          # hammering flat isn't very flat (?) 
 
-    say "BINGLOW";
+    say "WORKS:";
     say @b.flat(:hammer); # ((X) (Y) (a b c))          # hammering flat isn't very flat (?) 
 
     say "---";
