@@ -103,7 +103,7 @@ say "===";
     say "---";
 
     my @c = ( "c", @b );
-    say "at c: ", @c;
+    say "at c: ", @c;      # at c: [c [X Y [a b c]]]
 
 
 }
