@@ -75,7 +75,6 @@ say "===";
   # Note: hyper .List deconts, but not hyper .Slip (?!)
 }
 say "===";
-
 {
     my @a = <a b c>;
     my @b = 'X', 'Y', @a;
