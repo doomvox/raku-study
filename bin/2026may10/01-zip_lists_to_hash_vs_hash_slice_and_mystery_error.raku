@@ -30,7 +30,7 @@ my %threat  =
 { 
     # my %h{ @monsters } = @levels;
     # ERROR:
-    # Invalid hash shape; type expected
+    #    Invalid hash shape; type expected
 
     # And that's because of this syntax, if you want a hash restricted to Int keys, for example:
     my %i{Int};
