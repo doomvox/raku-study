@@ -13,6 +13,15 @@ use v6.d;  # flat hammer slipped into 6.d, evidently
 # a subtle difference between slip and flat that I forget).
 
 
+## Anyway: the issue with .flat() and the new .flat(:hammer)
+## (And the double-splat array de-reference syntax)
+## is a familiar bit of evolution:  .flat doesn't do what
+## anyone expects, so options had to be added to cover that
+## the default behavior is wrong: the non-breaking change dance.
+## (The idea of perl6 was to *fix* the defaults, but it was too
+## complicated to hope you could get it all right, even with
+## many years of banging on the design-- WiB.)
+
 {
     # my early attempts at playing with slip and flat showed no difference:
     my @a = <aaa bbb>;
