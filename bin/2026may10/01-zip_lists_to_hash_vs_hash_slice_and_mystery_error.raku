@@ -24,12 +24,15 @@ my %threat  =
     is-deeply(%h, %threat, "Assign to hash slice");
 }
 
-# { 
-#     say "TRIAL: one line declare and use hash";
-#     my %h{ @monsters } = @levels;    # Invalid hash shape; type expected
-#     say %h;
-#     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
-# }
+## The one drawback is the need to declare the hash before assignment,
+## this doesn't work:
+
+{ 
+     say "TRIAL: one line declare and use hash";
+     my %h{ @monsters } = @levels;    # Invalid hash shape; type expected
+     say %h;
+     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
+}
 
 
 
