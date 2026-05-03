@@ -117,6 +117,8 @@ use v6.e.PREVIEW;
     dd | @a_of_a;   # @a_of_a = $["b"]
 
     my @stuff = | @a_of_a;
-    dd @stuff;
+    dd @stuff;  # ["a", ["b"]]
+
+    say | $('a', 'b');
 
 }
