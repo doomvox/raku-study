@@ -20,7 +20,12 @@ use v6.e.PREVIEW;
         # .say for (@a, @b);          ## Emacs raku-mode bug, a leading .say messes with indentation.
                 # [aaa bbb]
                 # [111 222]
-        for (@a, @b) { .say }
+
+    for (@a, @b) { .say };
+    # [aaa bbb]
+    # [111 222]
+
+    for (|@a, |@b) { .say };
 
         
                     .say for (|@a, |@b);
