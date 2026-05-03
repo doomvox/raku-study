@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+use Test;
+
 ## Problemette: Starting with lists of names and values, create a hash:
 my @monsters = <godzilla rhodan blob tingler crinoid>;
 my @levels = 8, 3, 5, 4, 6;
@@ -12,6 +14,7 @@ my %threat  =
     my %h = @monsters Z=> @levels;
     say %h;
 #    {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
+    is-deeply(%h, %threat, "Zippy fat comma");
 }
 
 
