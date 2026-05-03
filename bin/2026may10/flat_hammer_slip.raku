@@ -90,7 +90,15 @@ use v6.e.PREVIEW;
     say (1, slip(2, 3), 4);      # (1, 2, 3, 4);     
 }
 
-# Another way to make a Slip is with the | prefix operator. Note that this has a tighter precedence than the comma, so it only affects a single value, but unlike the above options, it will break Scalars.
+{
+
+  # Another way to make a Slip is with the | prefix
+  # operator. Note that this has a tighter precedence than the
+  # comma, so it only affects a single value, but unlike the
+  # above options, it will break Scalars.
+  ## Note; on the web that totally looks like "break Scalar S", 
+  ## which leaves one going "S"?  Where's "S" defined?
+
 
 say (1, |(2, 3), 4) eqv (1, 2, 3, 4);        # OUTPUT: «True␤»
 say (1, |$(2, 3), 4) eqv (1, 2, 3, 4);       # OUTPUT: «True␤»
