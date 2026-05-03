@@ -33,8 +33,8 @@ use v6.e.PREVIEW;
     # 111
     # 222
 
-
     for (flat @a, @b) { .say };
+    say "---";
                         # aaa
                         # bbb
                         # 111
