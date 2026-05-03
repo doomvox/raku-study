@@ -113,7 +113,7 @@ say $t;
 }
 
 { # GOOD assign to hash slice
-    say "ONE LINE DECLARE AND USE HASH"
+    say "ONE LINE DECLARE AND USE HASH";
     my %h{ @monsters } = @levels;
     say %h;
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
