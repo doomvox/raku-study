@@ -129,4 +129,6 @@ use v6.e.PREVIEW;
     say |$(2, 3);       # 23
     say |$(2, 3).elems; # 2
 
+    say slip($(2, 3)).WHAT;
+
 }
