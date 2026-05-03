@@ -105,3 +105,6 @@ use v6.e.PREVIEW;
     say (1, |$(2, 3), 4);      # (1, 2, 3, 4);   ## here we're apply slip to an "itemized list": may not be clear for many readers, 
     say (1, slip($(2, 3)), 4); # (1, 2, 3, 4); 
 }
+
+{
+    my @a = <a>;
