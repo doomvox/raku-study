@@ -29,6 +29,7 @@ my %threat  =
 
 { 
     # my %h{ @monsters } = @levels;
+
     # ERROR:
     #    Invalid hash shape; type expected
 
