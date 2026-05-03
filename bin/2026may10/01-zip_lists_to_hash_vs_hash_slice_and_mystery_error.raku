@@ -28,10 +28,11 @@ my %threat  =
 ## this doesn't work:
 
 { 
-    my %h{ @monsters } = @levels;
+    my %i{Int};
+#    my %h{ @monsters } = @levels;
     # compilation ERROR:
     # Invalid hash shape; type expected
-    #   (does that mean anything?)
+    #   (does that mean anything?)  Oh, like
 
 }
 
