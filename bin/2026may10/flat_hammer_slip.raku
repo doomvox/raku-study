@@ -110,7 +110,7 @@ use v6.e.PREVIEW;
     my @a = <a>;
     dd @a;
 
-    @a_of_a = ['a', ['b']];
+    my @a_of_a = ['a', ['b']];
     dd @a_of_a;  # ["a", ["b"]]
 
     say | @a_of_a;
