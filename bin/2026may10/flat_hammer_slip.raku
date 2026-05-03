@@ -87,7 +87,7 @@ say "===";
     say @b>>.List;          # ((X) (Y) (a b c))          
 
     say "HF";
-    say @b>>.flat.Slip;          # [(X) (Y) [(a) (b) (c)]]    
+    say @b>>.flat.Slip;          # ((X) (Y) (a b c))
 
     say "---";
 
