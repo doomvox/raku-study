@@ -38,7 +38,6 @@ my %threat  =
     say %i; # {1 => okay}
     %i{'tew'} = 'no workies'; # Type check failed in binding to parameter 'key'; expected Int but got Str ("tew")
 
-
 }
 
 
