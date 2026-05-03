@@ -8,7 +8,7 @@ my @levels = 8, 3, 5, 4, 6;
 
 # Goal:
 my %threat  =
-    ('godilla' => 8, 'rhodan' => 3, 'blob' => 5, 'tingler' => 4, 'crinoid' => 6);
+    ('godzilla' => 8, 'rhodan' => 3, 'blob' => 5, 'tingler' => 4, 'crinoid' => 6);
 
 {
     my %h = @monsters Z=> @levels;
