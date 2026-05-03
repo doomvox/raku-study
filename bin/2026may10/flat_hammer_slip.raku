@@ -184,7 +184,7 @@ say "===";
     say flat((1,2));   # (1, 2)
     say flat(1,2);     # (1, 2)
 
-    say flat($(1,2),3);  # ((1 2) 3)  
+    say flat($(1,2),3);  # ((1 2) 3)   ## the 'itemization' protects from flattening?
     say flat((1,2),3);   # (1 2 3)
     say flat(1,2),3;     # (1 2)3
 
