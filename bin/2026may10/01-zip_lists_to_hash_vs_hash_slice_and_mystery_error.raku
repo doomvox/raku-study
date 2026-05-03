@@ -8,11 +8,6 @@ my @levels = 8, 3, 5, 4, 6;
 my %threat  =
     ('godilla' => 8, 'rhodan' => 3, 'blob' => 5, 'tingler' => 4, 'crinoid' => 6);
 
-## But typing the key values over again seems silly.
-## So:
-
-
-
 {
     my %h = @monsters Z=> @levels;
     say %h;
