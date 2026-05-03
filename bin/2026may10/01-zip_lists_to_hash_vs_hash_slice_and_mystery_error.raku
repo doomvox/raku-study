@@ -25,7 +25,6 @@ my %threat  =
 }
 
 ## The one drawback is that need to declare the hash before assignment,
-
 { 
     ## this doesn't work:
     # my %h{ @monsters } = @levels;
