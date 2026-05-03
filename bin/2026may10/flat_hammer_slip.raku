@@ -157,5 +157,4 @@ say "===";
     my $a = 'a';
     say slip($a);  # (a)
     say | $a;      # a
-
 }
