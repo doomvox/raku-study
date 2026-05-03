@@ -27,5 +27,4 @@ my %threats = @monsters Z=> @levels;
     # 8
     # 7
     # 6
-
 }
