@@ -81,7 +81,7 @@ use v6.e.PREVIEW;
     say @b; # [X Y [a b c]]
 
     say @b.flat;            # (X Y [a b c])
-    say @b>>.flat;          # [(X) (Y) [(a) (b) (c)]]    # hyperflat is less flat
+    say @b>>.flat;          # [(X) (Y) [(a) (b) (c)]]    # hyperflat is less flat than flat
     say @b>>.List;          # ((X) (Y) (a b c))          # also the same with use v6.e.PREVIEW;
 
     say @b>>.List.flat;     # (X Y a b c)
