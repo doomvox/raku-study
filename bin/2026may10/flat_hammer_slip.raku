@@ -127,7 +127,7 @@ say "===";
     dd @a_of_a;  # ["a", ["b"]]
 
     say | @a_of_a;  # a[b]
-    dd | @a_of_a;   # @a_of_a = $["b"]  ## ?! What?
+    dd | @a_of_a;   # @a_of_a = $["b"]  ## ?! Where did the "a" go?
 
     my @stuff = | @a_of_a;
     dd @stuff;  # ["a", ["b"]]
