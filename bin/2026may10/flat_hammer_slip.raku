@@ -158,12 +158,11 @@ say "===";
   # comma, so it only affects a single value, but unlike the
   # above options, it will break Scalars.
 
-    ## Notes:
+  ## (( what does 'break Scalars' mean?  Does the | operator not work with scalar arguments? ))
 
-    ## (1) on the web that totally looks like "break Scalar S", 
-    ## which leaves one going "S"?  Where's "S" defined?  TODO
+  ## on the web that totally looks like "break Scalar S", which leaves one going "S"?  Where's "S" defined?  TODO
 
-    ## (2) what does that mean?  Does the | operator not work with scalar arguments?
+
 
     say (1, |(2, 3), 4);       # (1, 2, 3, 4); 
     say (1, |$(2, 3), 4);      # (1, 2, 3, 4);   ## here we apply slip to an "itemized list" (a *different* raku oddity to help confuse)
