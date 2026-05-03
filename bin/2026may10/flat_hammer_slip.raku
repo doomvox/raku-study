@@ -96,11 +96,13 @@ use v6.e.PREVIEW;
   # operator. Note that this has a tighter precedence than the
   # comma, so it only affects a single value, but unlike the
   # above options, it will break Scalars.
-  ## Note; on the web that totally looks like "break Scalar S", 
+  ## Note: (1) on the web that totally looks like "break Scalar S", 
   ## which leaves one going "S"?  Where's "S" defined?
 
+  ##       (2) what does that mean?  Does the | operator not work with scalar arguments?
 
-say (1, |(2, 3), 4) eqv (1, 2, 3, 4);        # OUTPUT: «True␤»
-say (1, |$(2, 3), 4) eqv (1, 2, 3, 4);       # OUTPUT: «True␤»
-say (1, slip($(2, 3)), 4) eqv (1, 2, 3, 4);  # OUTPUT: «True␤»
+    say (1, |(2, 3), 4) eqv (1, 2, 3, 4);        # OUTPUT: «True␤»
+    say (1, |$(2, 3), 4) eqv (1, 2, 3, 4);       # OUTPUT: «True␤»
+    say (1, slip($(2, 3)), 4) eqv (1, 2, 3, 4);  # OUTPUT: «True␤»
 
+}
