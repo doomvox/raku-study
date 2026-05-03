@@ -48,9 +48,8 @@ use v6.e.PREVIEW;
 
     say (flat @a, @b).grep({/2/});
     # (222)
-    say "---";
 }
-
+say "===";
 
 # https://docs.raku.org/routine/flat
 
