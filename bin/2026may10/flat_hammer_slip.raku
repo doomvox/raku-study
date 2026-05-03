@@ -132,6 +132,7 @@ say "===";
   # above options, it will break Scalars.
 
     ## Note:
+
     ## (1) on the web that totally looks like "break Scalar S", 
     ## which leaves one going "S"?  Where's "S" defined?
 
