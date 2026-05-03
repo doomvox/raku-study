@@ -27,12 +27,10 @@ use v6.e.PREVIEW;
 
     for (|@a, |@b) { .say };
 
-        
-#                    .say for (|@a, |@b);
-                        # aaa
-                        # bbb
-                        # 111
-                        # 222
+    # aaa
+    # bbb
+    # 111
+    # 222
 
                         .say for (flat @a, @b);
                         # aaa
