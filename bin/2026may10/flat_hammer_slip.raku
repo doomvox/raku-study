@@ -40,15 +40,15 @@ use v6.e.PREVIEW;
     # 111
     # 222
 
-                        say (flat @a, @b).sort;
-                        # (111 222 aaa bbb)
+    say (flat @a, @b).sort;
+    # (111 222 aaa bbb)
+    
+    say (flat @a, @b);
+    # (aaa bbb 111 222)
 
-                        say (flat @a, @b);
-                        # (aaa bbb 111 222)
-
-                        say (flat @a, @b).grep({/2/});
-                        # (222)
-                        say "---";
+    say (flat @a, @b).grep({/2/});
+    # (222)
+    say "---";
 }
 
 
