@@ -176,10 +176,14 @@ say "===";
 
     ## Maybe it's just saying that "| 1, 2"  is like  "slip(1), 2"?
 
-    say flat($(1));  # (1)  
+    say flat($(1));  # (1)   ## Is it just me, or would you say flat simply isn't working here?  
     say flat((1));   # (1)
     say flat(1);     # (1)
 
+
+    say flat($(1,2));  # (1)   ## Is it just me, or would you say flat simply isn't working here?  
+    say flat((1,2));   # (1)
+    say flat(1,2);     # (1)
 
 
 }
