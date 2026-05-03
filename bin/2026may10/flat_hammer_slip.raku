@@ -131,6 +131,7 @@ say "===";
 
     my @stuff = | @a_of_a;
     dd @stuff;  # ["a", ["b"]]
+    say "---";
 
     say slip $('a', 'b');  # (a b)
     say | $('a', 'b');     # ab
