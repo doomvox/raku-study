@@ -82,8 +82,8 @@ use v6.e.PREVIEW;
 }
 
 
-
-Sometimes you want to insert the elements of a list into another list. This can be done with a special type of list called a Slip.
+{
+# https://docs.raku.org/language/list#Slips    
 Raku highlighting
 
 say (1, (2, 3), 4) eqv (1, 2, 3, 4);         # OUTPUT: «False␤»
