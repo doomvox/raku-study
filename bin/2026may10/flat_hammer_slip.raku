@@ -170,6 +170,10 @@ say "===";
     say slip($(1));
     say slip((1));
     say slip(1);
+    say |$(1);
+    say |(1);
+    say |1;
+
 
 }
 say "===";
