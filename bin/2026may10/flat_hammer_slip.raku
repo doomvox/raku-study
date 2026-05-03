@@ -103,14 +103,14 @@ say "===";
     say "---";
 
     my @c = ( "c", @b );
-    say "AT_C: \n", @c;      # at c:
-                             # [c [X Y [a b c]]]
+    say "AT_C: \n", @c;           # at c:
+                                  # [c [X Y [a b c]]]
 
-    say @c>>.flat.flat;      # (c [X Y [a b c]])
-    say @c>>.List.flat;      # (c X Y [a b c])
-    say @c>>.List.flat.List;      # (c X Y [a b c])
-    say @c>>.List.flat.List.flat;      # (c X Y [a b c])
-    say @c>>.List.flat.List.flat;      # (c X Y [a b c])
+    say @c>>.flat.flat;           # (c X Y [a b c])
+    say @c>>.List.flat;           # (c X Y a b c)
+    say @c>>.List.flat.List;      # (c X Y a b c)
+    say @c>>.List.flat.List.flat; # (c X Y a b c)
+    say @c>>.List.flat.List.flat; #  (c X Y a b c)
 
 }
 say "===";
