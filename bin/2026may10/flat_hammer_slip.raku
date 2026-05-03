@@ -108,3 +108,5 @@ use v6.e.PREVIEW;
 
 {
     my @a = <a>;
+    dd @a;
+}
