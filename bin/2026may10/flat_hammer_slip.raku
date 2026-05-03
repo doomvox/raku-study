@@ -162,8 +162,6 @@ say "===";
 
   ## on the web that totally looks like "break Scalar S", which leaves one going "S"?  Where's "S" defined?  TODO
 
-
-
     say (1, |(2, 3), 4);       # (1, 2, 3, 4); 
     say (1, |$(2, 3), 4);      # (1, 2, 3, 4);   ## here we apply slip to an "itemized list" (a *different* raku oddity to help confuse)
     say (1, slip($(2, 3)), 4); # (1, 2, 3, 4); 
