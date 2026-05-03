@@ -106,6 +106,7 @@ say "===";
     say "at c: ", @c;      # at c:  [c [X Y [a b c]]]
 
     say @c.flat.flat;
+    say @c.List.flat;
 
 }
 say "===";
