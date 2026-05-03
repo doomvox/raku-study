@@ -16,7 +16,7 @@ my %threat  =
     is-deeply(%h, %threat, "Zippy fat comma");
 }
 
-{ # also works well:
+{ # this also works well:
     my %h;
     %h{ @monsters } = @levels;
     say %h;
