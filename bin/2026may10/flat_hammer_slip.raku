@@ -22,10 +22,12 @@ use v6.e.PREVIEW;
                 # [111 222]
 
     for (@a, @b) { .say };
+    say "---";
     # [aaa bbb]
     # [111 222]
 
     for (|@a, |@b) { .say };
+    say "---";
     # aaa
     # bbb
     # 111
