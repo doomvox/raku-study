@@ -17,7 +17,7 @@ my %threat  =
 }
 
 { # this also works well:
-    my %h;
+    my %h;  # Note: has needs to be declared before the slice assignment
     %h{ @monsters } = @levels;
     say %h;
     # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
