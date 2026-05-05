@@ -1,10 +1,13 @@
 #!/usr/bin/env perl
 
 use List::Util qw(pairmap);
+use Data::Dumper;
 
-my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
-my @levels   =  (6,       5,       7,       8,         4,   3,       4); 
-my %threats = @monsters Z=> @levels;
 
-{
-    my @stuff = ( 'description', 'quip', %threats );
+my %threats = (  basilisk => 6, minotaur => 7, behemoth => 8 );
+say Dumper( \%threats );
+
+my @stuff = ( 'description', 'quip', %threats );
+
+say Dumper( \@stuff );
+
