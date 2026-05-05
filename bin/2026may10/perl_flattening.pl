@@ -6,6 +6,12 @@ use Data::Dumper;
 
 my %threats = (  basilisk => 6, minotaur => 7, behemoth => 8 );
 say Dumper( \%threats );
+# $VAR1 = {
+#           'basilisk' => 6,
+#           'behemoth' => 8,
+#           'minotaur' => 7
+#         };
+
 
 my @stuff = ( 'description', 'quip', %threats );  # in perl, the hash flattens to keys and values
 
