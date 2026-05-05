@@ -4,8 +4,6 @@ use 5.10.0;
 use List::Util qw(pairmap);
 use Data::Dumper;
 
-
-
 my %threats = (  basilisk => 6, minotaur => 7, behemoth => 8 );
 say Dumper( \%threats );
 
@@ -23,3 +21,7 @@ say Dumper( \@stuff );
 #           'basilisk',
 #           6
 #         ];
+
+
+
+my @deep_stuff = ( 'description', 'quip', \%threats );
