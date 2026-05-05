@@ -33,6 +33,8 @@ say Dumper( \@stuff );
 my @deep_stuff = ( 'description', 'quip', \%threats );
 # That's just 3 elements in the array:
 say scalar @deep_stuff;  # 3
+
+# but one element is the hash ref
 say Dumper( \@deep_stuff );
 # $VAR1 = [
 #           'description',
