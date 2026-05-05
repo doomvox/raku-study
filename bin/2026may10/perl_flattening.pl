@@ -7,7 +7,7 @@ use Data::Dumper;
 my %threats = (  basilisk => 6, minotaur => 7, behemoth => 8 );
 say Dumper( \%threats );
 
-my @stuff = ( 'description', 'quip', %threats );
+my @stuff = ( 'description', 'quip', %threats );  # in perl, the hash flattens to keys and values
 
 say Dumper( \@stuff );
 
@@ -23,5 +23,6 @@ say Dumper( \@stuff );
 #         ];
 
 
-
+# you prevent flattening by using a reference (a funny scalar that points at other stuff)
 my @deep_stuff = ( 'description', 'quip', \%threats );
+say Dumper( \@deep_stuff );
