@@ -32,13 +32,12 @@ say Dumper( \@stuff );
 # you prevent flattening by using a reference (a funny scalar that points at other stuff)
 my @deep_stuff = ( 'description', 'quip', \%threats );
 say Dumper( \@deep_stuff );
-
-$VAR1 = [
-          'description',
-          'quip',
-          {
-            'basilisk' => 6,
-            'behemoth' => 8,
-            'minotaur' => 7
-          }
-        ];
+# $VAR1 = [
+#           'description',
+#           'quip',
+#           {
+#             'basilisk' => 6,
+#             'behemoth' => 8,
+#             'minotaur' => 7
+#           }
+#         ];
