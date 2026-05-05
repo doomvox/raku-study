@@ -13,3 +13,13 @@ my @stuff = ( 'description', 'quip', %threats );
 
 say Dumper( \@stuff );
 
+# $VAR1 = [
+#           'description',
+#           'quip',
+#           'minotaur',
+#           7,
+#           'behemoth',
+#           8,
+#           'basilisk',
+#           6
+#         ];
