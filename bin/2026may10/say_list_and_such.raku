@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/say_list_and_such.raku
+# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/hyper_descends_like_deepmap.raku
 use v6.d;  
 
 
