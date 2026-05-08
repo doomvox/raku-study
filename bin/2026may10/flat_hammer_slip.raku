@@ -91,6 +91,7 @@ say "===";
   # 6
   # 7
   ## So here... the *hyper* decontainerizes?  Or the .say?  Or the hyper .say?  WTF?
+
   ## Ah: hyper recurses:
   ## /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/hyper_descends_like_deepmap.raku
 
