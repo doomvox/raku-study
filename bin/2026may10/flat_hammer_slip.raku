@@ -91,10 +91,8 @@ say "===";
   # 6
   # 7
   ## So here... the *hyper* decontainerizes?  Or the .say?  Or the hyper .say?  WTF?
-
-    ## I think: arrays are handed off to hyper, which runs .say on individual elements
-    say (4, 5);
-
+  ## Ah: hyper recurses:
+  ## /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/hyper_descends_like_deepmap.raku
 
   say [[1, 2, 3], [(4, 5), 6, 7]]».List.flat;  # (1 2 3 4 5 6 7)      # WORKS
   say [[1, 2, 3], [(4, 5), 6, 7]]».Slip.flat;  # (1 2 3 (4 5) 6 7)
