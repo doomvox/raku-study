@@ -24,3 +24,6 @@ say (4, 5);
 # 1
 # (4 5)
 
+# The hyper descends, doesn't just loop over the top level.
+
+(1, (4, 5)).map({.say});
