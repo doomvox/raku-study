@@ -92,6 +92,10 @@ say "===";
   # 7
   ## So here... the *hyper* decontainerizes?  Or the .say?  Or the hyper .say?  WTF?
 
+    ## I think: arrays are handed off to hyper, which runs .say on individual elements
+
+
+
   say [[1, 2, 3], [(4, 5), 6, 7]]».List.flat;  # (1 2 3 4 5 6 7)      # WORKS
   say [[1, 2, 3], [(4, 5), 6, 7]]».Slip.flat;  # (1 2 3 (4 5) 6 7)
   # Note: hyper .List deconts, but not hyper .Slip (?!)
