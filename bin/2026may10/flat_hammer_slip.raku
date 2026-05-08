@@ -256,3 +256,4 @@ say "===";
     is-deeply @a.flat(4, :hammer), (1,2,3,4,5),
     'array.flat(4, :hammer)';
 }
+# Q: why turn the array into a .Seq before the tests?
