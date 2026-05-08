@@ -17,3 +17,7 @@ say (4, 5);
 # 1
 # 4
 # 5
+
+# That's not just 
+say 1;
+say (4, 5);
