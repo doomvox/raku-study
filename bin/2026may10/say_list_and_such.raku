@@ -25,5 +25,5 @@ say (4, 5);
 # (4 5)
 
 # The hyper descends, doesn't just loop over the top level.
-
+say "===";
 (1, (4, 5)).map({.say});
