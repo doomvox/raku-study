@@ -20,7 +20,7 @@ use v6.d;  # flat hammer slipped into 6.d, evidently
 ## the default behavior is wrong: the non-breaking change dance.
 ## (The idea of perl6 was to *fix* the defaults, but it was too
 ## complicated to hope you could get it all right, even with
-## many years of banging on the design-- WiB.)
+## many years of banging on the design...)
 
 {
     # my early attempts at playing with slip and flat showed no difference:
