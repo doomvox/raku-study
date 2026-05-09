@@ -28,10 +28,6 @@ use v6.d;
 # my $str = 『hello』;
 # my $str = ⎡hey⎦;
 
-{
-    my $str = 'hi';
-    say $str; # hi
-}
 
 # ｢	U+FF62	Q//	as part of ｢｣ (Note: Q// variant cannot be used bare in regexes)
 # ｣	U+FF63	Q//	as part of ｢｣ (Note: Q// variant cannot be used bare in regexes)
