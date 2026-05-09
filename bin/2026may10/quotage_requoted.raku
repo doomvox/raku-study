@@ -22,7 +22,12 @@ use v6.d;
 # my $str = 『hello』;
 # my $str = ⎡hey⎦;
 
-my $str = 'lo';
+{
+    my $str = 'lo';
+    say $str;
+}
 
-say $str;
-
+{
+    my $str = 'lo';
+    say $str;
+}
