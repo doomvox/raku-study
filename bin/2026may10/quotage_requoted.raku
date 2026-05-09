@@ -13,16 +13,19 @@ use v6.d;
 # 231F;BOTTOM RIGHT CORNER;So;0;ON;;;;;N;;;;;
 
 # 23A1;LEFT SQUARE BRACKET UPPER CORNER;Sm;0;ON;;;;;N;;;;;
-# 23A2;LEFT SQUARE BRACKET EXTENSION;Sm;0;ON;;;;;N;;;;;
 # 23A3;LEFT SQUARE BRACKET LOWER CORNER;Sm;0;ON;;;;;N;;;;;
+
 # 23A4;RIGHT SQUARE BRACKET UPPER CORNER;Sm;0;ON;;;;;N;;;;;
-# 23A5;RIGHT SQUARE BRACKET EXTENSION;Sm;0;ON;;;;;N;;;;;
 # 23A6;RIGHT SQUARE BRACKET LOWER CORNER;Sm;0;ON;;;;;N;;;;;
 
 # my $str = 「hello」;
 # my $str = 『hello』;
 # my $str = ⎡hey⎦;
 
+my $str = 'lo';
+
+
+my $str = hey;
 
 say $str;
 
