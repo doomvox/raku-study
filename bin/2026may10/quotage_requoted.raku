@@ -24,7 +24,7 @@ use v6.d;
 
 {
     my $str = 'hi';
-    say $str;
+    say $str; # hi
 }
 
 {
@@ -35,6 +35,6 @@ use v6.d;
 # FF62;HALFWIDTH LEFT CORNER BRACKET;Ps;0;ON;<narrow> 300C;;;;Y;HALFWIDTH OPENING CORNER BRACKET;;;;
 # FF63;HALFWIDTH RIGHT CORNER BRACKET;Pe;0;ON;<narrow> 300D;;;;Y;HALFWIDTH CLOSING CORNER BRACKET;;;;
 
-    my $str = ｢lo｣;
+    my $str = ｢lo｣; # lo
     say $str;
 }
