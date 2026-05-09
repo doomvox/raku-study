@@ -53,5 +53,5 @@ use v6.d;
 }
 
 {
-    $str = ｢ why can't you stick in one more: ｢ ｣; 
+    my $str = ｢ why can't you stick in one more: ｢ ｣; 
 }
