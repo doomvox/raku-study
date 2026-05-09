@@ -23,7 +23,7 @@ use v6.d;
 # my $str = ⎡hey⎦;
 
 {
-    my $str = 'lo';
+    my $str = 'hi';
     say $str;
 }
 
