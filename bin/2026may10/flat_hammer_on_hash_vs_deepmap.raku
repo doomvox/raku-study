@@ -44,10 +44,15 @@ my %threats = @monsters Z=> @levels;
 
     say "===";
     @stuff[**]>>.say;
-
-
-
-
+    # xtra_string_1
+    # xst2
+    # ziz => 4
+    # manticore => 4
+    # basilisk => 6
+    # minotaur => 5
+    # chimera => 3
+    # behemoth => 7
+    # leviathan => 8
 
 }
 
