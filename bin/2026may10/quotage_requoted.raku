@@ -9,7 +9,8 @@ use v6.d;
 
 
 # my $str = 「hello」;
-my $str = 『hello』;
+# my $str = 『hello』;
+
 
 
 say $str;
