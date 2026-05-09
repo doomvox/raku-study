@@ -44,7 +44,7 @@ use v6.d;
     # $str = ｢ why can't you stick in one more: ｢ ｣; 
     # Unable to parse expression in corner quotes; couldn't find final '｣' (corresponding starter was at line 44)
 
-    $str = ｢ well, can you nest: ｢ these things  ｣, I suspect not. ｣; 
+    $str = ｢ well then, you probably can't nest: ｢ these things  ｣, can you? (oops) ｣; 
     say $str;
     # well, can you nest: ｢ these things  ｣, I suspect not. 
     ### okay, you *can* nest them, but they become just ordinary characters in the string
