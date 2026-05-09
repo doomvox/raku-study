@@ -39,6 +39,6 @@ use v6.d;
 
 
     $str = ｢hell, 'low', you know?｣; 
-    say $str;
+    say $str; # hell, 'low', you know?
 
 }
