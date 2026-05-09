@@ -27,14 +27,13 @@ use v6.d;
     say $str; # hi
 }
 
-{
-
 # ｢	U+FF62	Q//	as part of ｢｣ (Note: Q// variant cannot be used bare in regexes)
 # ｣	U+FF63	Q//	as part of ｢｣ (Note: Q// variant cannot be used bare in regexes)
 
 # FF62;HALFWIDTH LEFT CORNER BRACKET;Ps;0;ON;<narrow> 300C;;;;Y;HALFWIDTH OPENING CORNER BRACKET;;;;
 # FF63;HALFWIDTH RIGHT CORNER BRACKET;Pe;0;ON;<narrow> 300D;;;;Y;HALFWIDTH CLOSING CORNER BRACKET;;;;
 
-    my $str = ｢lo｣; # lo
-    say $str;
+{
+    my $str = ｢lo｣; 
+    say $str; # lo
 }
