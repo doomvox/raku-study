@@ -19,8 +19,6 @@ use v6.d;
 # 23A5;RIGHT SQUARE BRACKET EXTENSION;Sm;0;ON;;;;;N;;;;;
 # 23A6;RIGHT SQUARE BRACKET LOWER CORNER;Sm;0;ON;;;;;N;;;;;
 
-
-
 # my $str = 「hello」;
 # my $str = 『hello』;
 
