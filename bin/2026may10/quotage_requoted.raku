@@ -40,4 +40,9 @@ use v6.d;
     $str = ｢hell, 'low', you know?｣; 
     say $str; # hell, 'low', you know?
 
+
+    $str = ｢ squared up, so why can't you stick in one more: ｢ ｣; 
+    say $str; # hell, 'low', you know?
+
+
 }
