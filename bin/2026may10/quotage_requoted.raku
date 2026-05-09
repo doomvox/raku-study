@@ -51,3 +51,7 @@ use v6.d;
     ### but if you *don't* balance them, then it can't parse, which seems weird.
 
 }
+
+{
+    $str = ｢ why can't you stick in one more: ｢ ｣; 
+}
