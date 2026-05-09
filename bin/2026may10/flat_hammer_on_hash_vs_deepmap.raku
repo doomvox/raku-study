@@ -10,6 +10,7 @@ my %threats = @monsters Z=> @levels;
     say @stuff;
     # [description quip {basilisk => 6, behemoth => 7, chimera => 3, leviathan => 8, manticore => 4, minotaur => 5, ziz => 4}]
 
+
     # flat hammer doesn't break-up pairs, passes them through with key and value:
     say @stuff.flat(:hammer);
     say @stuff[**];
@@ -25,6 +26,7 @@ my %threats = @monsters Z=> @levels;
     # (Pair)
     # (Pair)
     # (Pair)
+
 
     ## deepmap descends through structure, getting to values without the keys
     @stuff.deepmap({.say});
