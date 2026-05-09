@@ -41,7 +41,7 @@ use v6.d;
     say $str; # hell, 'low', you know?
 
 
-    # $str = ｢ squared up, so why can't you stick in one more: ｢ ｣; 
+    # $str = ｢ why can't you stick in one more: ｢ ｣; 
     # Unable to parse expression in corner quotes; couldn't find final '｣' (corresponding starter was at line 44)
 
 
