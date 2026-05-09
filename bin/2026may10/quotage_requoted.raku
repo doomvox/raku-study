@@ -24,8 +24,5 @@ use v6.d;
 
 my $str = 'lo';
 
-
-my $str = hey;
-
 say $str;
 
