@@ -46,5 +46,8 @@ use v6.d;
 
     $str = ｢ well, can you nest: ｢ these things  ｣, I suspect not. ｣; 
     say $str;
+    # well, can you nest: ｢ these things  ｣, I suspect not. 
+    ### okay, you *can* nest them, but they become just ordinary characters in the string
+    ### but if you *don't* balance them, then it can't parse, which seems weird.
 
 }
