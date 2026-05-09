@@ -48,7 +48,7 @@ use v6.d;
 
 
 ## There's a lot of matched "corner" characters in unicode. 
-## There's only one set that works as Raku paired delimeters.
+## But only that one set (FF62 & FF63) works as Raku paired delimeters.
 
 # There are a lot of fakeout possibilites: 
 
