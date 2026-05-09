@@ -8,5 +8,9 @@ use v6.d;
 # 300F;RIGHT WHITE CORNER BRACKET;Pe;0;ON;;;;;Y;CLOSING WHITE CORNER BRACKET;;;;
 
 
-my $str = 「hello」;
+# my $str = 「hello」;
+my $str = 『hello;
+
+
 say $str;
+
