@@ -43,7 +43,7 @@ my %threats = @monsters Z=> @levels;
 
 
     say "===";
-    @stuff[**]>>.kv.say;
+    @stuff[**]>>.say;
 
 
 
