@@ -39,4 +39,13 @@ my %threats = @monsters Z=> @levels;
     # 8
     # 7
     # 6
+
+
+    @stuff[**]>>.say;
+
+
+
+
+
 }
+
