@@ -21,8 +21,7 @@ use v6.d;
 
 # my $str = 「hello」;
 # my $str = 『hello』;
-
-my $str = ⎡hey⎦;
+# my $str = ⎡hey⎦;
 
 
 say $str;
