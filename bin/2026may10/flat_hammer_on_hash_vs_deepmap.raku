@@ -54,7 +54,7 @@ my %threats = @monsters Z=> @levels;
     # behemoth => 7
     # leviathan => 8
 
-    # Q: what if you *wanted* to flatten out pairs into seperate keys and values?
+    # Q: what if you *wanted* to flatten out pairs, seperating the keys and values?
 
 }
 
