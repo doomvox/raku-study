@@ -28,7 +28,7 @@ use v6.d;
 # my $str = 『hello』;
 # my $str = ⎡hey⎦;
 
-
+## Resorting to the documentation:
 # ｢	U+FF62	Q//	as part of ｢｣ (Note: Q// variant cannot be used bare in regexes)
 # ｣	U+FF63	Q//	as part of ｢｣ (Note: Q// variant cannot be used bare in regexes)
 
