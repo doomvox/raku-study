@@ -54,4 +54,8 @@ use v6.d;
 
 {
     my $str = ｢ if we embed an open quote, like so: ｢, then we're in a SORRY state.｣; 
+    # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/quotage_requoted.raku
+    # Unable to parse expression in corner quotes; couldn't find final '｣' (corresponding starter was at line 56)
+
+
 }
