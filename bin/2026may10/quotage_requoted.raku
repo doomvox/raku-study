@@ -2,6 +2,11 @@
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/quotage_requoted.raku
 use v6.d;  
 
+# Exploring a raku oddity with the square corner quotes, which are
+# actually unicode codepoints FF62 and FF63.  
+
+# There are a lot of fakeout possibilites: 
+
 # 300C;LEFT CORNER BRACKET;Ps;0;ON;;;;;Y;OPENING CORNER BRACKET;;;;
 # 300D;RIGHT CORNER BRACKET;Pe;0;ON;;;;;Y;CLOSING CORNER BRACKET;;;;
 # 300E;LEFT WHITE CORNER BRACKET;Ps;0;ON;;;;;Y;OPENING WHITE CORNER BRACKET;;;;
