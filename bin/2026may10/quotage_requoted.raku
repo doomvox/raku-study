@@ -53,5 +53,5 @@ use v6.d;
 }
 
 {
-    my $str = ｢ why can't you stick in one more: ｢ ｣; 
+    my $str = ｢ if we embed an open quote, like so: ｢, then we're in a SORRY state.｣; 
 }
