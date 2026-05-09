@@ -23,6 +23,7 @@ use v6.d;
 # 23A4;RIGHT SQUARE BRACKET UPPER CORNER;Sm;0;ON;;;;;N;;;;;
 # 23A6;RIGHT SQUARE BRACKET LOWER CORNER;Sm;0;ON;;;;;N;;;;;
 
+## These don't work:
 # my $str = 「hello」;
 # my $str = 『hello』;
 # my $str = ⎡hey⎦;
