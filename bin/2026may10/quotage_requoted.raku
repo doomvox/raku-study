@@ -2,9 +2,6 @@
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/quotage_requoted.raku
 use v6.d;  
 
-## brian d foy talks about these box corner quotes at the beginning of Chapter 4.
-
-
 # Exploring a raku oddity with the square corner quotes, which are
 # the unicode codepoints FF62 and FF63.  
 
@@ -15,6 +12,8 @@ use v6.d;
 
 # FF62;HALFWIDTH LEFT CORNER BRACKET;Ps;0;ON;<narrow> 300C;;;;Y;HALFWIDTH OPENING CORNER BRACKET;;;;
 # FF63;HALFWIDTH RIGHT CORNER BRACKET;Pe;0;ON;<narrow> 300D;;;;Y;HALFWIDTH CLOSING CORNER BRACKET;;;;
+
+# brian d foy talks about this, Chapter 4.
 
 {
     my $str = ｢lo｣; 
