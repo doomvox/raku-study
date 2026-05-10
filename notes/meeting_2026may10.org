@@ -63,6 +63,11 @@
 ***** 
 https://github.com/Raku/problem-solving/issues/319
 
+https://github.com/Raku/problem-solving/issues/3874
+3874
+remove special handling of any 
+
+
 ***** liz discussed removing junction negation
 ****** where?
 
