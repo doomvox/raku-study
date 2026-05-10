@@ -215,8 +215,9 @@ https://rakuforprediction.wordpress.com/2024/02/17/notebook-transformations/
 
 ** announcements 
 *** next meetings
-**** May 31, 2026
-**** April 26, 2026
+**** May  31, 2026
+**** June 07, 2026
+**** June 21, 2026
 
 *** North American Perl and Raku conference 
 **** will be in late June: June 26-28, 29(class) TPRC 
