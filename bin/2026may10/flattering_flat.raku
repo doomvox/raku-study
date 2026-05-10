@@ -11,6 +11,7 @@ my %threats = @monsters Z=> @levels;
     # [xtra_string_1 xst2 {basilisk => 6, behemoth => 7, chimera => 3, leviathan => 8, manticore => 4, minotaur => 5, ziz => 4}]
 
     say "---";
+    say @stuff;
     say @stuff[*];
     # (xtra_string_1 xst2 {basilisk => 6, behemoth => 7, chimera => 3, leviathan => 8, manticore => 4, minotaur => 5, ziz => 4})
 
