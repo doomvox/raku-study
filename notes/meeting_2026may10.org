@@ -55,8 +55,7 @@
 >     multi sub task2 ( UInt $s, 0 --> UInt ) { +prime-factors($s).squish }
 >     multi sub task2 ( UInt $s, 1 --> UInt ) { +prime-factors($s)        }
 #+END_SRC
-
-
+***** use of END_SRC here works with github... Anton makes connection to babel-mode 
 ** announcements 
 *** next meetings
 **** May  31, 2026
