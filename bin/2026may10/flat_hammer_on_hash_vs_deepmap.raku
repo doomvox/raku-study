@@ -13,7 +13,7 @@ my %threats = @monsters Z=> @levels;
     say "===";
     # flat hammer doesn't break-up pairs, passes them through with key and value:
     say @stuff.flat(:hammer);
-    say @stuff[**];
+    say @stuff[**]; 
     # (xtra_string_1 xst2 leviathan => 8 behemoth => 7 ziz => 4 manticore => 4 basilisk => 6 minotaur => 5 chimera => 3)
 
     say "===";
