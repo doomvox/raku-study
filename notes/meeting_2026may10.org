@@ -33,7 +33,7 @@
 **** https://dev.to/finanalyst/series/23505
 
 
-**** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026may10.org
+
 
 ** old topics
 
