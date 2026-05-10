@@ -40,7 +40,7 @@ say "===";
     say "row 1: ";
     say @frame[1];     #  [3 4 5]
 
-    say @frame[1;2];
+    say @frame[1;2];   #  5         -- last element of middle row
 
-    say @frame[*;2];
+    say @frame[*;2];   #  (2 5 0)   -- the third column
 }
