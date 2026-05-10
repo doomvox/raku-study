@@ -38,7 +38,7 @@ say "===";
     say "---";
 
     say "row 1: ";
-    say @frame[1];
+    say @frame[1];     #  [3 4 5]
 
     say @frame[1;2];
 
