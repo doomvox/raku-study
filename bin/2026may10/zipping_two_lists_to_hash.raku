@@ -34,7 +34,7 @@ say $h;
 
 {
  # Steve Roe solution:
- say (@monsters Z @levels).flat.pairup.Hash
+ say (@monsters Z @levels).flat.pairup.Hash;
  # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
 
  say (@monsters Z @levels).flat.Hash;
