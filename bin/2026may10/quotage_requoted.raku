@@ -23,7 +23,7 @@ use v6.d;
     my $str = ‘hey’;
     say $str; # hey
 
-    my $str = ‘hey ‘ho ’;
+    my $str = ‘hey ‘ho‘ huh? ’;
 
 
     }
