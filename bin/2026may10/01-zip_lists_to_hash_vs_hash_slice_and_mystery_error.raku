@@ -25,6 +25,7 @@ my %threat  =
 }
 
 {
+    my %h{ @monsters } = @levels;
 
     }
 
