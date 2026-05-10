@@ -99,7 +99,7 @@ exit;
     my $str2 = ‘hey ‘ho’ huh? ’;
     say $str2; # hey ‘ho’ huh? 
 
-    # my $str3 = ‘hey ‘ho huh? ’;
+    my $str3 = ‘hey ‘ho huh? ’;
 
     say $str3; # hey ‘ho’ huh? 
     # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/quotage_requoted.raku
