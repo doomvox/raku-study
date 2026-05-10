@@ -14,7 +14,6 @@ say @input.pairup;
 say @input.rotor(2);
 # ((goategon 7) (hargon 4) (esterk 3) (zoma 9) (hornbeat 4))
 
-
 say @input.rotor(2).flat;
 # (goategon 7 hargon 4 esterk 3 zoma 9 hornbeat 4)
 
