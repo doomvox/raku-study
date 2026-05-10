@@ -26,12 +26,9 @@
 **** zipping_two_lists_to_hash.raku
  
 *** .flat(:hammer)
-
 **** flat_hammer_on_hash_vs_deepmap.raku
-
 **** flattering_flat.raku
-
-
+**** flat_hammer_slip.raku
 
 *** rob: messing with syntax of character class extensions
 
