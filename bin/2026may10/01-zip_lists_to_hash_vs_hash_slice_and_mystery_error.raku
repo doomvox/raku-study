@@ -47,7 +47,7 @@ my %threat  =
     my %i{Int};
     %i{1} = 'okay';
     say %i; # {1 => okay}
-#    %i{'tew'} = 'no workies'; # Type check failed in binding to parameter 'key'; expected Int but got Str ("tew")
+    %i{'tew'} = 'no workies'; # Type check failed in binding to parameter 'key'; expected Int but got Str ("tew")
 }
 
 
