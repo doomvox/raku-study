@@ -54,8 +54,8 @@
 ***** sub sig type of "Any" splits junction into values, "Mu" takes it as a junction
 ****** note: code blocks, pointy blocks, get "Mu" defaults, sub gets "Any" defaults
 ***** 
-
-
+***** bruce gray 
+****** sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 ** old topics
 
 *** so, whatcha got?
