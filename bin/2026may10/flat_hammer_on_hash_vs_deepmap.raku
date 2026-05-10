@@ -44,9 +44,11 @@ my %threats = @monsters Z=> @levels;
     # 6
 
     say "---";
+    ## if you like 
     @stuff.deepmap:  *.say;
+
     say "---";
-    exit;
+
 
 
     say "===";
