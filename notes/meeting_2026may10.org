@@ -63,6 +63,8 @@
 ***** 
 https://github.com/Raku/problem-solving/issues/319
 
+***** liz discussed removing junction negation
+****** 
 
 ***** bruce gray 
 ****** sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
