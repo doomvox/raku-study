@@ -16,6 +16,10 @@ my %threat  =
     is-deeply(%h, %threat, "Zippy fat comma");
 }
 
+## Bruce Gray points out that this might be even better, to cover issues with arrays of different length
+  ## my %h = @a »=>« @b;
+
+
 { # this also works well:
     my %h;  # Note: has needs to be declared before the slice assignment
     %h{ @monsters } = @levels;
