@@ -41,7 +41,10 @@
 **** multidimensional array plotting
 ***** d3.js
 
-**** LLM chat -- cli chat tool
+**** llm-chat -- cli chat tool
+
+***** https://github.com/antononcube/Raku-Chatnik
+***** https://pypi.org/project/Chatnik/
 
 ** old topics
 
