@@ -15,7 +15,9 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** rob talks to steve row, html layout, css etc.
+*** Steve Roe drops by
+
+*** rob talks to Steve Roe, html layout, css etc.
 
 ** old topics
 
