@@ -31,7 +31,6 @@
 
 ** old topics
 
-
 *** so, whatcha got?
 
 *** The meeting annoucement quote from Dijkstra is from a piece out there on-line:
@@ -55,15 +54,6 @@
 >     use Prime::Factor;
 >     multi sub task2 ( UInt $s, 0 --> UInt ) { +prime-factors($s).squish }
 >     multi sub task2 ( UInt $s, 1 --> UInt ) { +prime-factors($s)        }
-
-
-*** Announcment via Bruce Gray
-
-
-**** FYI: https://luma.com/49xu5xux
-**** Toronto Perl Mongers: Parsing Perl Without Perl: A Rust LSP for Perl
-**** Thursday, April 30
-**** 6:00 PM - 7:30 PM CDT (on Zoom)
 
 
 
