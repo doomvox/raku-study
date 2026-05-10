@@ -24,6 +24,9 @@ my %threat  =
     is-deeply(%h, %threat, "Assign to hash slice");
 }
 
+{
+
+    }
 
 
 
