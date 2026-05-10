@@ -16,6 +16,13 @@ use v6.d;
 # brian d foy talks about this, Chapter 4.
 
 {
+# 2018;LEFT SINGLE QUOTATION MARK;Pi;0;ON;;;;;N;SINGLE TURNED COMMA QUOTATION MARK;;;;
+# 2019;RIGHT SINGLE QUOTATION MARK;Pf;0;ON;;;;;N;SINGLE COMMA QUOTATION MARK;;;;
+
+
+    my $str = ‘hey’;
+    say $str;
+
     }
 
 exit;
