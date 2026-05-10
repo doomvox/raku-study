@@ -10,3 +10,5 @@ my @input = < goategon 7 hargon 4 esterk 3 zoma 9 hornbeat 4 >;
 say @input.pairup;
 # (goategon => 7 hargon => 4 esterk => 3 zoma => 9 hornbeat => 4)
 
+
+say @input.rotor(2);
