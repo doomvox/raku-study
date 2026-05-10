@@ -24,23 +24,33 @@ my %threat  =
     is-deeply(%h, %threat, "Assign to hash slice");
 }
 
+
+
+
+
 ## The one drawback is that need to declare the hash before assignment,
-{ 
-    ## this doesn't work:
-    # my %h{ @monsters } = @levels;
+# { 
+#     ## this doesn't work:
+#     # my %h{ @monsters } = @levels;
 
-    # ERROR:
-    #    Invalid hash shape; type expected
+#     # ERROR:
+#     #    Invalid hash shape; type expected
 
-    # And that's because of this syntax, if you want a hash restricted to Int keys, for example:
-    my %i{Int};
-    %i{1} = 'okay';
-    say %i; # {1 => okay}
-    %i{'tew'} = 'no workies'; # Type check failed in binding to parameter 'key'; expected Int but got Str ("tew")
-}
+#     # And that's because of this syntax, if you want a hash restricted to Int keys, for example:
+#     my %i{Int};
+#     %i{1} = 'okay';
+#     say %i; # {1 => okay}
+#     %i{'tew'} = 'no workies'; # Type check failed in binding to parameter 'key'; expected Int but got Str ("tew")
+# }
+
+
+# {
+# my @monsters = <godzilla rhodan blob tingler crinoid>;
+# my @levels = 8, 3, 5, 4, 6;
 
 
 
+#     }
 
 
 
