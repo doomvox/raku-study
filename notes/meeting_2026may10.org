@@ -42,7 +42,6 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-368/
 **** Bruce Gray:
 #+BEGIN_SRC text
-
 > 3) In case it is of interest, my quick solutions to this week's Weekly Challenge are:
 >
 >     sub task1 ( UInt $s, UInt $c --> UInt ) {
