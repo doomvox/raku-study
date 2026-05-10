@@ -37,8 +37,9 @@
 **** https://raku.github.io/rakudoc
 **** https://dev.to/finanalyst/series/23505
 
-
-
+*** Anton Antonov 
+**** LLM
+**** LLM chat -- cli chat tool
 
 ** old topics
 
