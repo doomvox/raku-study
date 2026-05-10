@@ -24,6 +24,7 @@ use v6.d;
     say $str; # hey
 
     $str = ‘hey ‘ho’ huh? ’;
+    say $str;
 
 
     }
