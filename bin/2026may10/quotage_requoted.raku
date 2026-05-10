@@ -15,22 +15,6 @@ use v6.d;
 
 # brian d foy talks about this, Chapter 4.
 
-{
-# 2018;LEFT SINGLE QUOTATION MARK;Pi;0;ON;;;;;N;SINGLE TURNED COMMA QUOTATION MARK;;;;
-# 2019;RIGHT SINGLE QUOTATION MARK;Pf;0;ON;;;;;N;SINGLE COMMA QUOTATION MARK;;;;
-
-
-    my $str = ‘hey’;
-    say $str; # hey
-
-    my $str2 = ‘hey ‘ho’ huh? ’;
-    say $str2; # hey ‘ho’ huh? 
-
-    my $str3 = ‘hey ‘ho huh? ’;
-    say $str3; # hey ‘ho’ huh? 
-
-
-    }
 
 exit;
 
@@ -99,3 +83,26 @@ exit;
 
 # FF62;HALFWIDTH LEFT CORNER BRACKET;Ps;0;ON;<narrow> 300C;;;;Y;HALFWIDTH OPENING CORNER BRACKET;;;;
 # FF63;HALFWIDTH RIGHT CORNER BRACKET;Pe;0;ON;<narrow> 300D;;;;Y;HALFWIDTH CLOSING CORNER BRACKET;;;;
+
+
+
+{
+  ## Other obvious paired quote marks work the same way:
+
+# 2018;LEFT SINGLE QUOTATION MARK;Pi;0;ON;;;;;N;SINGLE TURNED COMMA QUOTATION MARK;;;;
+# 2019;RIGHT SINGLE QUOTATION MARK;Pf;0;ON;;;;;N;SINGLE COMMA QUOTATION MARK;;;;
+
+
+    my $str = ‘hey’;
+    say $str; # hey
+
+    my $str2 = ‘hey ‘ho’ huh? ’;
+    say $str2; # hey ‘ho’ huh? 
+
+    # my $str3 = ‘hey ‘ho huh? ’;
+
+    say $str3; # hey ‘ho’ huh? 
+    # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/quotage_requoted.raku
+    # Unable to parse expression in curly single quotes; couldn't find final "’" (corresponding starter was at line 29)
+
+    }
