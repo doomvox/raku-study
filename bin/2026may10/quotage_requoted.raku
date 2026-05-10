@@ -26,7 +26,7 @@ use v6.d;
     my $str2 = ‘hey ‘ho’ huh? ’;
     say $str2; # hey ‘ho’ huh? 
 
-    $str3 = ‘hey ‘ho huh? ’;
+    my $str3 = ‘hey ‘ho huh? ’;
     say $str3; # hey ‘ho’ huh? 
 
 
