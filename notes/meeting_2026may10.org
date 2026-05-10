@@ -63,8 +63,8 @@
 ***** 
 https://github.com/Raku/problem-solving/issues/319
 
-https://github.com/Raku/problem-solving/issues/3874
-3874
+https://github.com/rakudo/rakudo/issues/3748
+
 remove special handling of any 
 
 
