@@ -32,7 +32,7 @@ my %threats = @monsters Z=> @levels;
 
     say @frame;
 
-    say "row 1: ":
+    say "row 1: ";
     say @frame[1];
 
     say @frame[*];
