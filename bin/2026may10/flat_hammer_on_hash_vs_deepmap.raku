@@ -31,7 +31,8 @@ my %threats = @monsters Z=> @levels;
 
     say "===";
     ## deepmap descends through structure, getting to values without the keys
-    @stuff.deepmap({.say});
+    @stuff.deepmap({ .say });  
+
     # xtra_string_1
     # xst2
     # 3
