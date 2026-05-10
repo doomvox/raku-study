@@ -54,7 +54,6 @@
 >     use Prime::Factor;
 >     multi sub task2 ( UInt $s, 0 --> UInt ) { +prime-factors($s).squish }
 >     multi sub task2 ( UInt $s, 1 --> UInt ) { +prime-factors($s)        }
-
 #+END_SRC
 
 
