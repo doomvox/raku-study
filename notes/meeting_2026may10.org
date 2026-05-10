@@ -63,9 +63,13 @@
 ***** 
 https://github.com/Raku/problem-solving/issues/319
 
+***** 
 https://github.com/rakudo/rakudo/issues/3748
 
+***** 
 remove special handling of any 
+any(0,4) != 0 is False #3748
+
 
 
 ***** liz discussed removing junction negation
