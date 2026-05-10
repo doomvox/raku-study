@@ -26,10 +26,7 @@
  
 *** rob: messing with syntax of character class extensions
 
-
-
-
-
+*** rakudoc
 
 ** old topics
 
