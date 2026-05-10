@@ -99,9 +99,9 @@ exit;
     my $str2 = ‘hey ‘ho’ huh? ’;
     say $str2; # hey ‘ho’ huh? 
 
-    my $str3 = ‘hey ‘ho huh? ’;
+#     my $str3 = ‘hey ‘ho huh? ’;
+#     say $str3; # hey ‘ho’ huh? 
 
-    say $str3; # hey ‘ho’ huh? 
     # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/quotage_requoted.raku
     # Unable to parse expression in curly single quotes; couldn't find final "’" (corresponding starter was at line 29)
 
