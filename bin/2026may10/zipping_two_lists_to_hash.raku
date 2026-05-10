@@ -33,7 +33,7 @@ say $h;
 
 
 {
- (@monsters Z @levels).flat.pairup.Hash
+ say (@monsters Z @levels).flat.pairup.Hash
 
 }
 
