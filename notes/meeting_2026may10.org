@@ -215,7 +215,7 @@ https://rakuforprediction.wordpress.com/2024/02/17/notebook-transformations/
 
 ** announcements 
 *** next meetings
-**** April 12, 2026
+**** May 31, 2026
 **** April 26, 2026
 
 *** North American Perl and Raku conference 
