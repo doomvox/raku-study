@@ -2,10 +2,10 @@
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026apr26.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026may10.org 
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2026apr26
+****** https://github.com/doomvox/raku-study/tree/main/bin/2026may10
 ****** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool
 
 ***** last meeting notes
