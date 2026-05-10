@@ -29,7 +29,6 @@
 *** rakudoc 2
 
 **** https://raku.github.io/rakudoc
-
 **** https://dev.to/finanalyst/series/23505
 
 
