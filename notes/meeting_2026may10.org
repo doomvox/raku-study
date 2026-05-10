@@ -41,6 +41,7 @@
 *** Weekly Challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-368/
 **** Bruce Gray:
+#+BEGIN_SRC txt
 
 > 3) In case it is of interest, my quick solutions to this week's Weekly Challenge are:
 >
@@ -55,7 +56,7 @@
 >     multi sub task2 ( UInt $s, 0 --> UInt ) { +prime-factors($s).squish }
 >     multi sub task2 ( UInt $s, 1 --> UInt ) { +prime-factors($s)        }
 
-
+#+END_SRC
 
 
 ** announcements 
