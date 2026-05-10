@@ -31,9 +31,6 @@ my %threat  =
 
     }
 
-
-
-
 ## The one drawback is that need to declare the hash before assignment,
 # { 
 #     ## this doesn't work:
@@ -51,7 +48,7 @@ my %threat  =
 }
 
 
-# {
+{
 # my @monsters = <godzilla rhodan blob tingler crinoid>;
 # my @levels = 8, 3, 5, 4, 6;
 
