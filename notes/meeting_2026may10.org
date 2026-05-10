@@ -26,8 +26,7 @@
  
 *** rob: messing with syntax of character class extensions
 
-*** rakudoc 2
-
+*** rakudoc 2 docs
 **** https://raku.github.io/rakudoc
 **** https://dev.to/finanalyst/series/23505
 
