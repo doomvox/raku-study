@@ -49,8 +49,6 @@ my %threats = @monsters Z=> @levels;
 
     say "---";
 
-
-
     say "===";
     @stuff[**]>>.say;
     # xtra_string_1
