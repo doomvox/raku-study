@@ -16,6 +16,12 @@ use v6.d;
 # brian d foy talks about this, Chapter 4.
 
 {
+    }
+
+exit;
+
+
+{
     my $str = ｢lo｣; 
     say $str; # lo
 
