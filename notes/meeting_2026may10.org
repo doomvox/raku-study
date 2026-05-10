@@ -41,8 +41,10 @@
 **** multidimensional array plotting
 ***** d3.js
 
-**** llm-chat -- cli chat tool
+**** https://rakuforprediction.wordpress.com/2026/05/03/latent-semantic-analysis-in-raku/
 
+
+**** llm-chat -- cli chat tool
 ***** https://github.com/antononcube/Raku-Chatnik
 ***** https://pypi.org/project/Chatnik/
 
