@@ -14,8 +14,12 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
+** topics
+*** rob talks to steve row, html layout, css etc.
 
 ** old topics
+
+
 *** so, whatcha got?
 
 *** The meeting annoucement quote from Dijkstra is from a piece out there on-line:
