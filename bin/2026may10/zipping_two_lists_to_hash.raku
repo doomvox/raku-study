@@ -33,7 +33,7 @@ say $h;
 
 
 {
- # Steve Roe:
+ # Steve Roe solution:
  say (@monsters Z @levels).flat.pairup.Hash
  # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
 }
