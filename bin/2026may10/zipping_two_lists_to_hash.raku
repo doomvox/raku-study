@@ -37,6 +37,7 @@ say $h;
 
 }
 
+exit;
 
 my $h2 = (@monsters Z @levels)>>.pairup;
 say $h2;
