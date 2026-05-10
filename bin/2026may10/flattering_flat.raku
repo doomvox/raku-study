@@ -43,4 +43,9 @@ say "===";
     say @frame[1;2];   #  5         -- last element of middle row
 
     say @frame[*;2];   #  (2 5 0)   -- the third column
+
+    say "---";
+
+    say @frame[**];
+
 }
