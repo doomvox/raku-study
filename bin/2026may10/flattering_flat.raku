@@ -12,9 +12,10 @@ my %threats = @monsters Z=> @levels;
 
     say "---";
     say @stuff;
-    say @stuff[*];
+    say @stuff[*];  
     # (xtra_string_1 xst2 {basilisk => 6, behemoth => 7, chimera => 3, leviathan => 8, manticore => 4, minotaur => 5, ziz => 4})
 
+    ## 'Tis true that a single asterix doesn't do anything there.
 
 
     say "===";
