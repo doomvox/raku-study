@@ -53,7 +53,8 @@
 ***** example where it's not clear if you've got "any and all" or "all and any"-- which gets priority?
 ***** sub sig type of "Any" splits junction into values, "Mu" takes it as a junction
 ****** note: code blocks, pointy blocks, get "Mu" defaults, sub gets "Any" defaults
-***** 
+***** Check for code examples
+****** /home/doom/End/Cave/RakuStudy/Notes/MartonJunctions
 
 ***** bruce gray 
 ****** sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
