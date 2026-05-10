@@ -32,9 +32,9 @@ say "===";
                   [ 3, 4,  5 ],
                   [ 9, 10, 0 ] ];
 
-    say @frame;        #  [[0 1 2] [3 4 5] [9 10 0]]
+    say @frame;        #  [[0 1 2] [3 4 5] [9 10 0]]  # note square brackets
     say "---";
-    say @frame[*];     #  ([0 1 2] [3 4 5] [9 10 0])
+    say @frame[*];     #  ([0 1 2] [3 4 5] [9 10 0])  # note parens
     say "---";
 
     say "row 1: ";
