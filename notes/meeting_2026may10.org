@@ -38,7 +38,8 @@
 **** https://dev.to/finanalyst/series/23505
 
 *** Anton Antonov 
-**** LLM
+**** multidimensional array plotting
+***** d3.js
 **** LLM chat -- cli chat tool
 
 ** old topics
