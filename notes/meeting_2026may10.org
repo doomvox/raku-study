@@ -17,6 +17,8 @@
 ** topics
 *** Steve Roe drops by
 
+*** jubilatious1 = William Michels
+
 *** rob talks to Steve Roe, html layout, css etc.
 
  
