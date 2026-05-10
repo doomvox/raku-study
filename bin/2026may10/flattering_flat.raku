@@ -25,8 +25,8 @@ my %threats = @monsters Z=> @levels;
 
 }
 
+say "===";
 {
-    my @stuff = ( 'xtra_string_1', 'xst2', ['hey', 'ho', [ 1, 2, 3] ] );
 
     my @frame = [ [ 0, 1,  2],
                   [ 3, 4,  5 ],
