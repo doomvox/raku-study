@@ -38,7 +38,7 @@ say $h;
  # {blob => 5, crinoid => 6, godzilla => 8, rhodan => 3, tingler => 4}
 }
 
-exit;
+
 
 my $h2 = (@monsters Z @levels)>>.pairup;
 say $h2;
