@@ -19,7 +19,10 @@
 
 *** jubilatious1 = William Michels = Bill
 
-*** rob talks to Steve Roe, html layout, css etc.
+*** rob asks Steve Roe, html layout, css etc.
+
+*** me: talking zipping arrays to a hash:
+01-zip_lists_to_hash_vs_hash_slice_and_mystery_error.raku
 
  
 
