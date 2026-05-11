@@ -71,8 +71,6 @@ remove special handling of any
 ****** 
 any(0,4) != 0 is False #3748
 
-
-
 ***** liz discussed removing junction negation
 ****** where?
 
