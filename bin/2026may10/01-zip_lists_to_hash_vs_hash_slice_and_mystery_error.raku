@@ -6,7 +6,7 @@ use Test;
 my @monsters = <godzilla rhodan blob tingler crinoid>;
 my @levels = 8, 3, 5, 4, 6;
 
-# Goal (this is what we want to create):
+# Goal, this is what we want to create:
 my %threat  =
     ('godzilla' => 8, 'rhodan' => 3, 'blob' => 5, 'tingler' => 4, 'crinoid' => 6);
 
