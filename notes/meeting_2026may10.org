@@ -76,9 +76,8 @@ any(0,4) != 0 is False #3748
 
 ***** bruce gray 
 ****** sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
-** old topics
 
-*** so, whatcha got?
+** old topics
 
 *** The meeting annoucement quote from Dijkstra is from a piece out there on-line:
 **** https://www.smaldone.com.ar/documentos/ewd/EWD1036_pretty.pdf
