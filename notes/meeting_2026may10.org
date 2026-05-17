@@ -58,7 +58,7 @@
 ***** negation of junctions does funny stuff
 ****** known problem, much discussed
 ***** Any and All used together, the All is "outside"
-****** no way to control the order (not easily) 
+****** no way to control the order (or not easily) 
 
 ***** 
 https://github.com/Raku/problem-solving/issues/319
