@@ -16,7 +16,7 @@ my %threat  =
     is-deeply(%h, %threat, "Zippy fat comma");
 }
 
-## Bruce Gray points out that this might be even better, to cover issues with arrays of different length
+## Bruce Gray: even better, covers issues with arrays of different length
   ## my %h = @a »=>« @b;
 
 
