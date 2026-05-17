@@ -79,9 +79,6 @@ any(0,4) != 0 is False #3748
 
 ** old topics
 
-*** The meeting annoucement quote from Dijkstra is from a piece out there on-line:
-**** https://www.smaldone.com.ar/documentos/ewd/EWD1036_pretty.pdf
-
 *** Rob: issues with stashing an anonymous routine in a variable
 
 *** Weekly Challenge
