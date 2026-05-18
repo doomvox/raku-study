@@ -23,8 +23,6 @@
 **** evaluating code snippets for output
 **** https://gist.github.com/Util/8d31c883d65002298d9ef528efd45fa7
 
-
-
 *** rakubrew is okay by me 
 **** https://rakubrew.org
 **** installation is simple and smooth
