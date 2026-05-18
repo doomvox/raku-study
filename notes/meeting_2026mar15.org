@@ -110,8 +110,6 @@ the availability of AI assistance for writing code."
 ******** e.g. using stale tooling rather than some new thing released last month
 ******** putting the phrase "Early-2025 AI" in the title is interesting
 
-
-
 *** Anton question about LLM::Graph name space and interface
 **** package design question:  “LLM::Graph”
 ***** I want use that package to make variety of different applications based on LLM-graphs
