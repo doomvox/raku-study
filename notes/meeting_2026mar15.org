@@ -73,7 +73,7 @@ completion time by 19%--AI tooling slowed developers down."
 ***** Random "coin flip" to choose which tasks will be AI-allowed
 ***** They then ask developers how long they think it took
 ***** But the experimenters compare to an actual measured time 
-****** Q: WTF does that mean?
+****** BUT: how did they measure it?  
 
 **** From the preface to the 2025 edition of "AI Snake Oil" (2024) by Arvind Narayanan & Sayash Kapoor
 #+BEGIN_SRC txt
