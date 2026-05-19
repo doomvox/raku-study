@@ -116,7 +116,7 @@ say "===";
     ## Interestingly, I don't see a list method that would be good to give you every-other element.  TODO
 
     my @new2 = @monsters.kv.rotor(2)>>.[1];
-    say @new2;
+    say @new2; # [godzilla rhodan blob tingler crinoid]
 
 }
 
