@@ -83,6 +83,11 @@ my %threat  =
     say @a;                 # [0 godzilla 1 rhodan 2 blob 3 tingler 4 crinoid]
     say @a.kv;              # (0 0 1 godzilla 2 1 3 rhodan 4 2 5 blob 6 3 7 tingler 8 4 9 crinoid)
 
+    # You can keep doing that, and look for number theory wisdom in the pattern
+
+    @monsters.kv;
+    @monsters.kv.kv;
+    @monsters.kv.kv.kv;
 
  }
 
