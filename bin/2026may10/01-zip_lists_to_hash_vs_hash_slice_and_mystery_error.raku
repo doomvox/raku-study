@@ -43,7 +43,6 @@ my %threat  =
 
     }
 
-
 {
     ## And that's because of this syntax, if you want a hash restricted to Int keys, for example:
     my %i{Int};
