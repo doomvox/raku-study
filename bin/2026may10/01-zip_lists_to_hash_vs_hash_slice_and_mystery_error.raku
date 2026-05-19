@@ -113,6 +113,8 @@ say "===";
     my @new1 = @monsters.kv.grep({$++%2});  
     say @new1;  # [godzilla rhodan blob tingler crinoid]
 
+    ## Interestingly, I don't see a list method that would be good to give you every-other element.  TODO
+
 }
 
 
