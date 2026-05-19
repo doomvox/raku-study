@@ -89,6 +89,15 @@ my %threat  =
     say @monsters.kv;
     say @monsters.kv.kv;
     say @monsters.kv.kv.kv;
+    say @monsters.kv.kv.kv.kv;
+    say @monsters.kv.kv.kv.kv.kv;
+
+# (0 godzilla 1 rhodan 2 blob 3 tingler 4 crinoid)
+# (0 0 1 godzilla 2 1 3 rhodan 4 2 5 blob 6 3 7 tingler 8 4 9 crinoid)
+# (0 0 1 0 2 1 3 godzilla 4 2 5 1 6 3 7 rhodan 8 4 9 2 10 5 11 blob 12 6 13 3 14 7 15 tingler 16 8 17 4 18 9 19 crinoid)
+
+
+
 
  }
 
