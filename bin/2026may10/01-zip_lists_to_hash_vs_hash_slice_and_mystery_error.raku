@@ -81,6 +81,7 @@ my %threat  =
     my @a = @monsters.kv;
     say @monsters;          # [godzilla rhodan blob tingler crinoid]
     say @a;                 # [0 godzilla 1 rhodan 2 blob 3 tingler 4 crinoid]
+    say @a.kv;
 
 
  }
