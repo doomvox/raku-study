@@ -104,12 +104,13 @@ my %threat  =
  }
 
 say "===";
-{  
+{   # But okay, how do you get *.kv to round-trip in array creation?
     my @monsters = <godzilla rhodan blob tingler crinoid>;
     my @levels = 8, 3, 5, 4, 6;
 
     say @monsters.kv; # (0 godzilla 1 rhodan 2 blob 3 tingler 4 crinoid)
 
+    my @new1 = @monsters.kv.map({})
 
 }
 
