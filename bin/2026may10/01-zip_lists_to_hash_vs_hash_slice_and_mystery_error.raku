@@ -118,6 +118,10 @@ say "===";
     my @new2 = @monsters.kv.rotor(2)>>.[1];
     say @new2; # [godzilla rhodan blob tingler crinoid]
 
+    my @new3 = @monsters>>.[$++%2];
+    say @new3; # [godzilla rhodan blob tingler crinoid]
+
+
 }
 
 
