@@ -85,9 +85,9 @@ my %threat  =
 
     # You can keep doing that, and look for number theory wisdom in the pattern
 
-    @monsters.kv;
-    @monsters.kv.kv;
-    @monsters.kv.kv.kv;
+    say @monsters.kv;
+    say @monsters.kv.kv;
+    say @monsters.kv.kv.kv;
 
  }
 
