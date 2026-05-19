@@ -77,7 +77,8 @@ my %threat  =
     say %h3;
     # {0 => godzilla, 1 => rhodan, 2 => blob, 3 => tingler, 4 => crinoid}
  
- 
+    my @a = @monsters.kv;
+    say @a;
 
 
  }
