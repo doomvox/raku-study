@@ -108,6 +108,8 @@ say "===";
     my @monsters = <godzilla rhodan blob tingler crinoid>;
     my @levels = 8, 3, 5, 4, 6;
 
+    say @monsters.kv;
+
 
 }
 
