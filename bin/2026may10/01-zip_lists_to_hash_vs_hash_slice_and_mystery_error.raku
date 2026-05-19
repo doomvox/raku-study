@@ -69,6 +69,9 @@ my %threat  =
     my %h2{Int} = @monsters.kv.Hash;
     say %h2;
     # {0 => godzilla, 1 => rhodan, 2 => blob, 3 => tingler, 4 => crinoid}
+      # Type check failed in binding to parameter 'key'; expected Int but got Str ("1")
+
+
 
 
  }
