@@ -52,7 +52,7 @@ my %threat  =
 }
 
 
-## (I don't remember where I was going with this, so I'm making something up now.)
+## (I don't remember where I was going with this-- making something up now.)
 { 
     my @monsters = <godzilla rhodan blob tingler crinoid>;
     my @levels = 8, 3, 5, 4, 6;
@@ -60,6 +60,7 @@ my %threat  =
     ## *.kv on an array gives you the integers as keys
     say @monsters.kv;
     # (0 godzilla 1 rhodan 2 blob 3 tingler 4 crinoid)
+
 
 
 
