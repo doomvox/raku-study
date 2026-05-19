@@ -110,7 +110,7 @@ say "===";
 
     say @monsters.kv; # (0 godzilla 1 rhodan 2 blob 3 tingler 4 crinoid)
 
-    my @new1 = @monsters.kv.skip(0);
+    my @new1 = @monsters.kv.skip(1);
     say @new1;
 
 }
