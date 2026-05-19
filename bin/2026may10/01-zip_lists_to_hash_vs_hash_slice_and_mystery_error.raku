@@ -61,7 +61,7 @@ my %threat  =
     say @monsters.kv;
     # (0 godzilla 1 rhodan 2 blob 3 tingler 4 crinoid)
 
-    my %h{Int} = @monsters.kv.Hash;
+    my %h = @monsters.kv.Hash;
     say %h;
     # {0 => godzilla, 1 => rhodan, 2 => blob, 3 => tingler, 4 => crinoid}
 
