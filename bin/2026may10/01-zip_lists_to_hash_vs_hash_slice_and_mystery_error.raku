@@ -110,8 +110,8 @@ say "===";
 
     say @monsters.kv; # (0 godzilla 1 rhodan 2 blob 3 tingler 4 crinoid)
 
-    my @new1 = @monsters.kv.grep({$++%2});  # [godzilla rhodan blob tingler crinoid]
-    say @new1;
+    my @new1 = @monsters.kv.grep({$++%2});  
+    say @new1;  # [godzilla rhodan blob tingler crinoid]
 
 }
 
