@@ -33,7 +33,7 @@ my %threat  =
 #     ## this doesn't work:
 #     # my %h{ @monsters } = @levels;
 
-#     # ERROR:
+#     # compiler error:
 #     #    Invalid hash shape; type expected
 
 {
