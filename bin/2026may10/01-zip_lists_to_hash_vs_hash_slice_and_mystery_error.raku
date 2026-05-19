@@ -100,6 +100,7 @@ my %threat  =
 
     # Q: How would you implement a "do this method n times"? 
 
+    # Q: good way to format that output, to get numeric series displayed in parallel
  }
 
 say "===";
