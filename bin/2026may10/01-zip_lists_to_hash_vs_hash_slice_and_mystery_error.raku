@@ -61,16 +61,22 @@ my %threat  =
     say @monsters.kv;
     # (0 godzilla 1 rhodan 2 blob 3 tingler 4 crinoid)
 
+    # can create a hash from a kv stream easily:
     my %h = @monsters.kv.Hash;
     say %h;
     # {0 => godzilla, 1 => rhodan, 2 => blob, 3 => tingler, 4 => crinoid}
 
+#     # but if you restrict to Int keys, it fails: those "numerics" are strings
+#     my %h2{Int} = @monsters.kv.Hash;
+#     say %h2;
+#     # {0 => godzilla, 1 => rhodan, 2 => blob, 3 => tingler, 4 => crinoid}
+#       # Type check failed in binding to parameter 'key'; expected Int but got Str ("1")
 
-    my %h2{Int} = @monsters.kv.Hash;
+
+    my %h2{Int(Cool)} = @monsters.kv.Hash;
     say %h2;
     # {0 => godzilla, 1 => rhodan, 2 => blob, 3 => tingler, 4 => crinoid}
       # Type check failed in binding to parameter 'key'; expected Int but got Str ("1")
-
 
 
 
