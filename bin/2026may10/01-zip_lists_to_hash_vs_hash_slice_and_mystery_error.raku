@@ -72,7 +72,7 @@ my %threat  =
 #     # {0 => godzilla, 1 => rhodan, 2 => blob, 3 => tingler, 4 => crinoid}
 #       # Type check failed in binding to parameter 'key'; expected Int but got Str ("1")
 
-
+    # But you can make them Ints that are Cool with that
     my %h3{Int(Cool)} = @monsters.kv.Hash;
     say %h3;
     # {0 => godzilla, 1 => rhodan, 2 => blob, 3 => tingler, 4 => crinoid}
