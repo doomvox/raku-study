@@ -28,13 +28,6 @@ my %threat  =
     is-deeply(%h, %threat, "Assign to hash slice");
 }
 
-{
-#    my %h{ @monsters } = @levels;
-    # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/01-zip_lists_to_hash_vs_hash_slice_and_mystery_error.raku
-    # Invalid hash shape; type expected
-
-    }
-
 ## The one drawback is that need to declare the hash before assignment,
 # { 
 #     ## this doesn't work:
@@ -42,6 +35,14 @@ my %threat  =
 
 #     # ERROR:
 #     #    Invalid hash shape; type expected
+
+{
+#    my %h{ @monsters } = @levels;
+    # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/01-zip_lists_to_hash_vs_hash_slice_and_mystery_error.raku
+    # Invalid hash shape; type expected
+
+    }
+
 
 {
     ## And that's because of this syntax, if you want a hash restricted to Int keys, for example:
