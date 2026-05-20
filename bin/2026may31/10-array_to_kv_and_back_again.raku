@@ -43,7 +43,15 @@
     my %h4{Int} = @monsters.kv.map({ .Int unless $++%2 }).Hash;
     say %h4;
 
+    sub spy ($arg) {
+        say $arg;
+        $arg;
+        }
+
+
     }
+
+
 
 
 {
