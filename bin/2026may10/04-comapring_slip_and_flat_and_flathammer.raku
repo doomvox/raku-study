@@ -1,5 +1,6 @@
 #!/usr/bin/env raku
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/flat_hammer_slip.raku
+# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/04-comapring_slip_and_flat_and_flathammer.raku
 
 
 # use v6.e.PREVIEW; ## TODO I thought that you needed this for the flat hammer, but evidently not any more.
