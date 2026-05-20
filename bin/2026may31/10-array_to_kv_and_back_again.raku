@@ -38,7 +38,7 @@
 }
 
 {
-    ## If you wanted to make the keys Ints first (but why?)
+    ## If you didn't want the hash keys cool, then you need to make the keys Ints first
     my @monsters = <godzilla rhodan blob tingler crinoid>;
     my %h4{Int} = @monsters.kv.map({ if($++%2) {} else { .Int }})>>.&spy.Hash;
     say %h4;
