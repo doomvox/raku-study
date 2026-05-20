@@ -5,7 +5,7 @@
   ## bin/2026may10/01-zip_lists_to_hash_vs_hash_slice_and_mystery_error.raku
 
 {
-    ## And that's because of this syntax, if you want a hash restricted to Int keys, for example:
+    ## This gets you a hash restricted to Int keys:
     my %i{Int};
     %i{1} = 'okay';
     say %i; # {1 => okay}
