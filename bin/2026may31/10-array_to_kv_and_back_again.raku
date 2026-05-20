@@ -12,8 +12,6 @@
 #    %i{'tew'} = 'no workies'; # Type check failed in binding to parameter 'key'; expected Int but got Str ("tew")
 }
 
-
-## (I don't remember where I was going with this-- making something up now.)
 { 
     my @monsters = <godzilla rhodan blob tingler crinoid>;
     my @levels = 8, 3, 5, 4, 6;
