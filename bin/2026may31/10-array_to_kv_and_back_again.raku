@@ -40,7 +40,7 @@
 {
     ## If you wanted to make the keys Ints first (but why?)
     my @monsters = <godzilla rhodan blob tingler crinoid>;
-    my %h4{Int} = @monsters.kv.map({ .Int unless $++%2 })>>.&spy.Hash;
+    my %h4{Int} = @monsters.kv.map({ if($++%2) {} else { .Int }})>>.&spy.Hash;
     say %h4;
 
     sub spy ($arg) {
