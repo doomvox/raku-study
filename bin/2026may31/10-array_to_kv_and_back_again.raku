@@ -40,8 +40,8 @@
 {
     ## If you wanted to make the keys Ints first (but why?)
     my @monsters = <godzilla rhodan blob tingler crinoid>;
-    my %h3{Int(Cool)} = @monsters.kv.Hash;
-
+    my %h4{Int} = @monsters.kv.map({ .Int unless $++%2 }).Hash;
+    say %h4;
 
     }
 
