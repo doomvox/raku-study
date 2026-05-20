@@ -9,9 +9,9 @@ use v6.d;  # flat hammer slipped into 6.d, evidently
 #  /home/doom/End/Cave/RakuStudy/Notes/notes-basic_perl6_again
 
 #    The vertical bars ...  are the "slip" 
-#    operator, which kind-of sort-of do flattening.  (There's 
-#    a subtle difference between slip and flat that I forget).
-
+#    operator, which kind-of sort-of do flattening.  
+#    (There's a subtle difference between slip and flat 
+#    that I forget).
 
 ## Anyway: the issue with .flat() and the new .flat(:hammer)
 ## (And the double-splat array de-reference syntax)
