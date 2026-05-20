@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-## .rotor(2) and .pairup are opposing uh, pairs (but only roughly)
+## .rotor(2) and .pairup are an opposing uh, pair (but only roughly)
 
 my @monsters = < goategon hargon esterk zoma hornbeat chopclown slabbit boneslave >; ## monster-db.com
 
