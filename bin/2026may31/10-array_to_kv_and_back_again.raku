@@ -35,6 +35,9 @@
     say %h3;
     # {0 => godzilla, 1 => rhodan, 2 => blob, 3 => tingler, 4 => crinoid}
 
+}
+
+{
     # Round-trip recreation of the original array from the *.kv stream isn't that straight-forward 
     my @a = @monsters.kv;
     say @monsters;          # [godzilla rhodan blob tingler crinoid]
