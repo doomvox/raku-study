@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+## STATUS: not there yet
+## (some interesting behavior with map?)
 
 {
     ## If you didn't want the hash keys cool, then you need to make the keys Ints first
