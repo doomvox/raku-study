@@ -63,6 +63,7 @@
     # Q: How would you implement a "do this method n times"? 
 
     # Q: any good way to format that output, to get numeric series displayed in parallel
+    #    want something like:
 
     #  (0  0  1  0  2  1  3  0  4  2  5  1  6  3  7  0  8  4  9  2 10  5 11  1 12  6 13  3 14  7 15 godzilla
     #  16  8 17  4 18  9 19  2 20 10 21  5 22 11 23  1 24 12 25  6 26 13 27  3 28 14 29  7 30 15 31 rhodan
