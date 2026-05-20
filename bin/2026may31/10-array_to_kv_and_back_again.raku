@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-
+  ## 2026may10/01-zip_lists_to_hash_vs_hash_slice_and_mystery_error.raku
 
 
 {
