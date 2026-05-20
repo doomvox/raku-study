@@ -1,5 +1,6 @@
 #!/usr/bin/env raku
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/flat_hash.raku
+# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/03-flat_hammer_on_hash_vs_deepmap.raku
 
 my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
 my @levels   =  (6,       5,       7,       8,         4,   3,       4); 
