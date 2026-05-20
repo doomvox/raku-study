@@ -80,14 +80,14 @@ say "===";
     my @new1 = @monsters.kv.grep({ $++%2 });  
     say @new1;  # [godzilla rhodan blob tingler crinoid]
 
-    ## Interestingly, I don't see a list method that would be good to give you every-other element.  TODO
-
     my @new2 = @monsters.kv.rotor(2)>>.[1];
     say @new2; # [godzilla rhodan blob tingler crinoid]
 
     my @new3 = @monsters>>.[$++%2];
     say @new3; # [godzilla rhodan blob tingler crinoid]
 
+
+    ## Interestingly, I don't see a list method that would be good to give you every-other element.  TODO
 
 }
 
