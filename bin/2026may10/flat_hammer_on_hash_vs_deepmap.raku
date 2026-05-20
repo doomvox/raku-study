@@ -50,6 +50,7 @@ my %threats = @monsters Z=> @levels;
     say "---";
 
     say "===";
+    # Double splat array de-ref is an implicit flat hammer
     @stuff[**]>>.say;
     # xtra_string_1
     # xst2
