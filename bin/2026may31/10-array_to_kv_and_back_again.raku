@@ -38,6 +38,15 @@
 }
 
 {
+    ## If you wanted to make the keys Ints first (but why?)
+    my @monsters = <godzilla rhodan blob tingler crinoid>;
+    my %h3{Int(Cool)} = @monsters.kv.Hash;
+
+
+    }
+
+
+{
     # Round-trip recreation of the original array from the *.kv stream isn't that straight-forward 
     my @a = @monsters.kv;
     say @monsters;          # [godzilla rhodan blob tingler crinoid]
