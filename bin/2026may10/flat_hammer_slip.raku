@@ -8,8 +8,8 @@ use v6.d;  # flat hammer slipped into 6.d, evidently
 # From back in 2018 (?!):
 #  /home/doom/End/Cave/RakuStudy/Notes/notes-basic_perl6_again
 
-#    The vertical bars ...  are the "slip" 
-#    operator, which kind-of sort-of do flattening.  
+#    The vertical bars ...  are the "slip" operator,
+#    which kind-of sort-of do flattening.  
 #    (There's a subtle difference between slip and flat 
 #    that I forget).
 
