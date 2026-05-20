@@ -14,8 +14,11 @@ Upcoming meetings:
 * Sunday June 21, 2026
     * https://us02web.zoom.us/j/81299040597?pwd=4z4rWmjiLztbSAKe6Jhq3DBb1SoMzb.1
 
-Then next weekend, June 25th-29th, there's the North American Perl and Raku conference in Greenville, SC, https://tprc.us/
-and after that is the fourth of July weekend, so our next meeting will be:
+Then next weekend, June 25th-29th, there's the North American Perl and Raku conference in Greenville, SC,
+
+  https://tprc.us/
+
+And after that is the fourth of July weekend, so our next meeting will be:
 
 * Sunday July 12, 2026 
     * https://us02web.zoom.us/j/87107787787?pwd=OgCqrESJGaaW1JnDMOV2LQoy3hiZzS.1
