@@ -15,7 +15,7 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** in rancid bitterness and outrageous hope, let us once again resume the RSG
+*** In rancid bitterness and outrageous hope, let us once again resume the RSG
 
 ** old topics
 *** Steve Roe drops by
