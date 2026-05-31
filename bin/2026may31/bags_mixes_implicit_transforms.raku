@@ -15,3 +15,4 @@ my @stuff = ( @monsters, @toho ).flat(:hammer);
 say @stuff; # [basilisk minotaur behemoth godzilla godzilla mothera rhodan]
 
 my $b = bag(@stuff);
+say $b;
