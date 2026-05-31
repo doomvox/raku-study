@@ -34,6 +34,6 @@ my $sh = $thingy.SetHash;
 say $sh;
 # SetHash(basilisk behemoth godzilla minotaur mothera rhodan)
 
-$sh{joker} = True;
+$sh{'joker'} = True;
 
 say $sh;
