@@ -5,7 +5,6 @@
 
 so all(1,3) > 2 #False
 so all(1,3) <= 2 #False
-In these cases, it seems like the semantics is "for all elements listed, the substitution results into a True value".
 
 However
 so all(1,3) == 3 #False
