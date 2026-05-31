@@ -44,8 +44,6 @@ if ( @l.one == 0 ) {
     say "Just one @l be zero.";  # Just one @l be zero.
 }
 
-
-
 if ( @l.one != 0 ) {
     say "negated comparison";
 } else {
