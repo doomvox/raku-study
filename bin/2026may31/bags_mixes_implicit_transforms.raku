@@ -6,3 +6,5 @@ my @toho = < godzilla mothera rhodan >;
 
 my $ret = @monsters (-) @toho;
 
+say $ret;
+say $ret.WHAT;
