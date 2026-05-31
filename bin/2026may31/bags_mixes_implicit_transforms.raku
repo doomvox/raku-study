@@ -32,3 +32,8 @@ say $thingy.Set;
 
 my $sh = $thingy.SetHash;
 say $sh;
+# SetHash(basilisk behemoth godzilla minotaur mothera rhodan)
+
+$sh{joker} = True;
+
+say $sh;
