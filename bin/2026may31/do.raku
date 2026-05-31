@@ -7,6 +7,5 @@ say $x.WHAT;  #(List)
 my $ret = do if (True) { "urn" };
 say $ret; # urn
 
-
 my $ret2 = if (True) { "urn" };
 say $ret2;
