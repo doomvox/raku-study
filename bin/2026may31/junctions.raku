@@ -51,7 +51,7 @@ if ( @l.one != 0 ) {
 }
 ## Okay, that much is okay.
 
-say so ( (1,0,1,0).one != 0 );
+say so (1,0,1,0).one != 0;
 
 if ( (1,0,1,0).one != 0 ) {
     say "negated comparison of a false gets you here";
