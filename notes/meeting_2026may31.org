@@ -40,11 +40,11 @@ my $n = 1020;
 divisors($n).map({ $n.contains($_) && $_ != $n ?? $_.chars !! 0 }).max
 #+END_SRC 
 
-https://obsidianrook.com/doomfiles/LAMPPOST.html
-
 *** Junctions
 **** or allomorphs?
 **** https://github.com/Raku/problem-solving/issues/431
+
+*** https://obsidianrook.com/doomfiles/LAMPPOST.html
 
 *** Tim
 **** shoot breeze dead
