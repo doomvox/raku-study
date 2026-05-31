@@ -35,10 +35,10 @@
 ****** Also,  is-harshad-number , `is-abundant-number`, `is-deficient-number`, and  is-perfect-number .
 
 **** Anton idea:
-
+#+BEGIN_SRC raku
 my $n = 1020;
 divisors($n).map({ $n.contains($_) && $_ != $n ?? $_.chars !! 0 }).max
-
+#+END_SRC 
 
 
 *** Junctions
