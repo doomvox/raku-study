@@ -13,9 +13,7 @@ say all(1,3) != 3;   #  True
                      # Why not: all(True, False) ?
 
 say "===";
-if ( all(1,2) > 2 )  { say "case 1 is true"; } else { say "wtf?"; }    # wtf?
-if ( so all(1,2) > 2 )  { say "case 1 is true"; } else { say "wtf?"; } # wtf?
-
+if ( all(1,2) > 2 )  { say "case 1 is true"; } else { say "case 1 is false" };
 
 if ( True ) { say "True is True"; };  # True is True
 if ( all(True) ) { say "All truth is True!"; };   # All truth is True! 
