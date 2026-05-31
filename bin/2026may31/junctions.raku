@@ -14,7 +14,7 @@ say all(1,3) != 3;   #  True
 
 say "===";
 if ( all(1,2) > 2 )  { say "case 1 is true"; } else { say "wtf?"; }  # wtf?
-if ( so all(1,2) > 2 )  { say "case 1 is true"; } else { say "wtf?"; }  # wtf?
+if ( so all(1,2) > 2 )  { say "case 1 is true"; } else { say "wtf?"; }  
 
 
 if ( True ) { say "True is True"; };  # True is True
