@@ -64,7 +64,7 @@ if ( (1,0,1,0).one != 0 ) {
 say "===";
 # deoac via Marton 
 
-1, 1).one (elem) (1..10) # one(True, True)
-(1, 1).one ∉ (1..10) # one(False, False)
+say (1, 1).one (elem) (1..10); # one(True, True)
+say (1, 1).one ∉ (1..10);      # one(False, False)
 #as opposed to:
-(1, 1).one !(elem) (1..10) # True
+say (1, 1).one !(elem) (1..10) # True
