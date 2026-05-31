@@ -14,7 +14,8 @@ say all(1,3) != 3;   #  True
 
 say !(all(1,3) == 3); # True
 
-  ## 
+
+## 
 
 say "===";
 say do if ( all(1,2) > 2 )  { "case 1 is true"; } else { "case 1 is false" }; # case 1 is false
