@@ -6,6 +6,6 @@
 so all(1,3) > 2 #False
 so all(1,3) <= 2 #False
 
-However
+
 so all(1,3) == 3 #False
 so all(1,3) != 3 #True!
