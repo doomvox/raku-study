@@ -35,7 +35,7 @@
 *** Tim
 **** shoot breeze dead
 **** wants to dicuss chaining together transformations
-**** @Tim Schafer In Haskell, you might investigate https://wiki.haskell.org/Pointfree
+**** Bruce: you might investigate https://wiki.haskell.org/Pointfree
 
 
 *** I made a note of these Raku links (I may remember why, shortly);
