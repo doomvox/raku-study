@@ -31,7 +31,7 @@
 *** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/ 
 **** nice tricks with set ops and bag ops
 **** Anton's aside:
-****** “Math::NumberTheory” has  divisors  and  factor-integer .
+****** “Math::NumberTheory” has  divisors  and  factor-integer
 
 *** Junctions
 **** or allomorphs?
