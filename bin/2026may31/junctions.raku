@@ -83,7 +83,7 @@ if ( (1, 1).one !(elem) (1..10) ) {
 }
 
 say "===";
-# Rob:
+# Rob example:
 
 if ( ((1,3,3,3)>>.&infix:<!=>( 3)).one ) {
     say "what?";  # what?
