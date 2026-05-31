@@ -28,7 +28,6 @@ say "---";
 if ( all(True) ) { say "All truth is True!"; };   # All truth is True! 
 if ( any(True) ) { say "Any truth is True!"; };   # Any truth is True! 
 
-
 ## if ( all(True,False) ) { say "fuggetaboutit"; } ;   # All truth is True! 
 
 
