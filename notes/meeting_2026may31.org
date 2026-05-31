@@ -27,7 +27,8 @@
 *** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/  to cover.
 
 *** Junctions
-**** 
+**** or allomorphs?
+**** https://github.com/Raku/problem-solving/issues/431
 
 *** Tim
 **** shoot breeze dead
