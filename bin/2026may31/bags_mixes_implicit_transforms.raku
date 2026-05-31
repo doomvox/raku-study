@@ -8,3 +8,5 @@ my $ret = @monsters (-) @toho;
 
 say $ret;       # Set(basilisk behemoth minotaur)
 say $ret.WHAT;  # (Set)
+
+
