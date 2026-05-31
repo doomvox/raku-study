@@ -22,6 +22,8 @@
 **** the original discussion:
 ***** https://github.com/Raku/problem-solving/issues/431
 
+*** Junctions
+**** 
 
 *** I made a note of these Raku links (I may remember why, shortly);
 
