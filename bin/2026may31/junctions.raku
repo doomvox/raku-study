@@ -30,7 +30,6 @@ if ( any(True) ) { say "Any truth is True!"; };   # Any truth is True!
 
 ## if ( all(True,False) ) { say "fuggetaboutit"; } ;   # All truth is True! 
 
-
 ##
 
 say "---";
