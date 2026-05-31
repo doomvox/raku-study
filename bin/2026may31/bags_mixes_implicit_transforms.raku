@@ -37,3 +37,4 @@ say $sh;
 $sh{'joker'} = True;
 
 say $sh;
+# SetHash(basilisk behemoth godzilla joker minotaur mothera rhodan)
