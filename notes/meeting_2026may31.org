@@ -26,7 +26,7 @@
 **** blurb from OpenAI:
 ***** https://openai.com/index/model-disproves-discrete-geometry-conjecture/
 **** Here is Wolfram Language post which I currently re-creating with Raku:
-**** https://community.wolfram.com/groups/-/m/t/37238733723873
+***** https://community.wolfram.com/groups/-/m/t/37238733723873
 
 *** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/  to cover.
 
