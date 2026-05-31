@@ -17,3 +17,6 @@ say @stuff; # [basilisk minotaur behemoth godzilla godzilla mothera rhodan]
 my $b = bag(@stuff);
 say $b;
 # Bag(basilisk behemoth godzilla(2) minotaur mothera rhodan)
+
+my $c = mix(@stuff);
+say $c;
