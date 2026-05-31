@@ -3,8 +3,10 @@
 ## marton's junction examples
 ##   https://github.com/Raku/problem-solving/issues/319
 
-so all(1,3) > 2 #False
-so all(1,3) <= 2 #False
+say all(1,3) > 2  ; #False
+say all(1,3) <= 2 ; #False
 
-so all(1,3) == 3 #False
-so all(1,3) != 3 #True!
+
+say all(1,3) == 3 ; #False
+say all(1,3) != 3 ; #True!
+
