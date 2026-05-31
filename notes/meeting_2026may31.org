@@ -23,7 +23,7 @@
 ***** https://github.com/Raku/problem-solving/issues/431
 
 
-*** I've had a bunch of Raku pages open recently, though I don't remember why:
+*** I made a note of these Raku links (I may remember why, shortly);
 
 **** https://github.com/Raku-Steering-Council/Papers/blob/a621f24a862c3204e8b880f81545945821c51230/papers/Raku_Steering_Council_Code.md
 
