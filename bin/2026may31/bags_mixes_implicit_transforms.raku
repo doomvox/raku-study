@@ -24,3 +24,5 @@ say $c;
 
 my $thingy =  $b (.) $c;
 say $thingy;
+# Mix(basilisk behemoth godzilla(4) minotaur mothera rhodan)
+
