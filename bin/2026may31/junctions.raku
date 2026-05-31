@@ -67,4 +67,12 @@ say "===";
 say (1, 1).one (elem) (1..10); # one(True, True)
 say (1, 1).one ∉ (1..10);      # one(False, False)
 #as opposed to:
+say (1, 1).one !(elem) (1..10); # True
+
+
+if ( (1, 1).one (elem) (1..10) ) {
+}; # one(True, True)
+
+say (1, 1).one ∉ (1..10);      # one(False, False)
+#as opposed to:
 say (1, 1).one !(elem) (1..10) # True
