@@ -70,9 +70,14 @@ say (1, 1).one ∉ (1..10);      # one(False, False)
 say (1, 1).one !(elem) (1..10); # True
 
 
-if ( (1, 1).one (elem) (1..10) ) {
-}; # one(True, True)
+if ( (1, 1).one (elem) (1..10) ) {   # one(True, True)
+    say "truthy";
+}; 
 
-say (1, 1).one ∉ (1..10);      # one(False, False)
-#as opposed to:
-say (1, 1).one !(elem) (1..10) # True
+if ( (1, 1).one ∉ (1..10) ) {        # one(False, False)
+    say "falsey";
+};      
+
+if ( (1, 1).one !(elem) (1..10) ) {
+    say "true instead of false?";
+}
