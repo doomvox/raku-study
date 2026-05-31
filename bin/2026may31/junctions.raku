@@ -12,7 +12,7 @@ say all(1,3) != 3;   #  True
 
                      # Why not: all(True, False) ?
 
-say !(all(1,3) == 3);
+say !(all(1,3) == 3); # True
 
   ## 
 
