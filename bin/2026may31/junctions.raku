@@ -50,3 +50,9 @@ if ( @l.one != 0 ) {
     say "negating truth gets you where?"; # negating truth gets you where?
 }
 ## Okay, that much is okay.
+
+if ( (1,0,1,0).one != 0 ) {
+    say "negated comparison";
+} else {
+    say "negating truth gets you where?"; # negating truth gets you where?
+}
