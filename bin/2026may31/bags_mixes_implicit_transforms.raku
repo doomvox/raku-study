@@ -6,5 +6,5 @@ my @toho = < godzilla mothera rhodan >;
 
 my $ret = @monsters (-) @toho;
 
-say $ret;
-say $ret.WHAT;
+say $ret;       # Set(basilisk behemoth minotaur)
+say $ret.WHAT;  # (Set)
