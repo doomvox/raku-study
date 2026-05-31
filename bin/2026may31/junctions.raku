@@ -51,6 +51,7 @@ if ( @l.one != 0 ) {
 }
 ## Okay, that much is okay.
 
+say so (1,0,1,0).one == 0;  # True
 say so (1,0,1,0).one != 0;  # True
 
 if ( (1,0,1,0).one != 0 ) {
@@ -58,3 +59,4 @@ if ( (1,0,1,0).one != 0 ) {
 } else {
     say "negating truth gets you where?"; # negating truth gets you where?
 }
+
