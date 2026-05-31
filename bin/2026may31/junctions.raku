@@ -11,3 +11,6 @@ say all(1,3) == 3;   # all(False, True)
 say all(1,3) != 3;   #  True
 
                      # Why not: all(True, False) ?
+
+if( all(1,2) > 2 ) { "case 1 is true"; }
+if( all(1,3) != 2 ) { "case 4 is..."; }
