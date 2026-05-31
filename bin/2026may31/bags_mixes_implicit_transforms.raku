@@ -20,3 +20,5 @@ say $b;
 
 my $c = mix(@stuff);
 say $c;
+# Mix(basilisk behemoth godzilla(2) minotaur mothera rhodan)
+
