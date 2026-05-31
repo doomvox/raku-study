@@ -41,7 +41,7 @@ say "===";
 
 my @l = (-1, 0, 1, 2);
 if ( @l.one == 0 ) {
-    say "Just one @l be zero.";
+    say "Just one @l be zero.";  # Just one @l be zero.
 }
 
 
@@ -49,5 +49,7 @@ if ( @l.one == 0 ) {
 if ( @l.one != 0 ) {
     say "negated comparison";
 } else {
-    say "negating truth gets you where?";
+    say "negating truth gets you where?"; # negating truth gets you where?
 }
+
+## Okay, tath much is okay.
