@@ -30,4 +30,4 @@ say $thingy.Set;
 # Set(basilisk behemoth godzilla minotaur mothera rhodan)
 
 
-say $thingy.SetHash;
+my $sh = $thingy.SetHash;
