@@ -23,6 +23,8 @@
 ***** https://github.com/Raku/problem-solving/issues/431
 
 *** Anton: things of interest
+**** blurb from OpenAI:
+***** https://openai.com/index/model-disproves-discrete-geometry-conjecture/
 **** Here is Wolfram Language post which I currently re-creating with Raku:
 **** https://community.wolfram.com/groups/-/m/t/37238733723873
 
