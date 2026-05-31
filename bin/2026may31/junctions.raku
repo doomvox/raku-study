@@ -35,6 +35,5 @@ if ( any(True) ) { say "Any truth is True!"; };   # Any truth is True!
 ##
 
 say "---";
-
 say so all(1,3) == 3; # False
 
