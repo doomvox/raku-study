@@ -39,8 +39,10 @@ say so all(1,3) == 3; # False
 say "===";
 # hwayne
 
-
-@l.one == 0 is true
+my @l = ();
+if ( @l.one == 0 ) {
+    say "";
+}
 
 iff exactly one element of @l is zero.
 so @l.one != 0 i
