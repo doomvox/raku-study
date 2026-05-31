@@ -32,6 +32,7 @@
 **** nice tricks with set ops and bag ops
 **** Anton's aside:
 ****** “Math::NumberTheory” has  divisors  and  factor-integer
+****** Also,  is-harshad-number , `is-abundant-number`, `is-deficient-number`, and  is-perfect-number .
 
 *** Junctions
 **** or allomorphs?
