@@ -8,5 +8,5 @@ say all(1,3) <= 2;
 
 
 say all(1,3) == 3; 
-say all(1,3) != 3; 
+say all(1,3) != 3;   #  True
 
