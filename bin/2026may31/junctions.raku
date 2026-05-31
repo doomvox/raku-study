@@ -39,7 +39,7 @@ say so all(1,3) == 3; # False
 say "===";
 # hwayne
 
-my @l = ();
+my @l = (-1, 0, 1, 2);
 if ( @l.one == 0 ) {
     say "";
 }
