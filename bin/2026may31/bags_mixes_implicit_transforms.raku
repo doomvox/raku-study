@@ -10,3 +10,6 @@ say $ret;       # Set(basilisk behemoth minotaur)
 say $ret.WHAT;  # (Set)
 
 
+my @stuff = ( @monsters, @toho ).flat(:hammer);
+
+say @stuff;
