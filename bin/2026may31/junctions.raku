@@ -44,5 +44,10 @@ if ( @l.one == 0 ) {
     say "Just one @l be zero.";
 }
 
-iff exactly one element of @l is zero.
-so @l.one != 0 i
+
+
+if ( @l.one != 0 ) {
+    say "negated comparison";
+} else {
+    say "negating truth gets you where?";
+}
