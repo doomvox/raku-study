@@ -22,7 +22,7 @@
 **** the original discussion:
 ***** https://github.com/Raku/problem-solving/issues/431
 
-*** Anton: things of interest
+*** Anton: OpenAI’s disproving of Erdos conjecture
 **** blurb from OpenAI:
 ***** https://openai.com/index/model-disproves-discrete-geometry-conjecture/
 **** Here is Wolfram Language post which I currently re-creating with Raku:
