@@ -31,3 +31,4 @@ say $thingy.Set;
 
 
 my $sh = $thingy.SetHash;
+say $sh;
