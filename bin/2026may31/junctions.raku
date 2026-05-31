@@ -49,4 +49,4 @@ if ( @l.one != 0 ) {
 } else {
     say "negating truth gets you where?"; # negating truth gets you where?
 }
-## Okay, tath much is okay.
+## Okay, that much is okay.
