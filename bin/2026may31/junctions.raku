@@ -41,7 +41,7 @@ say "===";
 
 my @l = (-1, 0, 1, 2);
 if ( @l.one == 0 ) {
-    say "";
+    say "Just one @l be zero.";
 }
 
 iff exactly one element of @l is zero.
