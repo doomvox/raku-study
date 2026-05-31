@@ -79,5 +79,5 @@ if ( (1, 1).one ∉ (1..10) ) {        # one(False, False)
 };      
 
 if ( (1, 1).one !(elem) (1..10) ) {
-    say "true instead of false?";
+    say "true instead of false?";  # true instead of false?
 }
