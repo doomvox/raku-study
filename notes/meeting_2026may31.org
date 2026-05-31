@@ -18,9 +18,8 @@
 *** In rancid bitterness and outrageous hope, let us once again resume the RSG
 
 *** Steve Rowe opened an issue on flat(:hammer) documentation
+**** https://github.com/Raku/doc/issues/4807
 **** 
-
-
 ** old topics
 
 *** zipping arrays to a hash:
