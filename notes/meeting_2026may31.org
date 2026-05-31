@@ -24,7 +24,6 @@
 
 *** Anton: things of interest
 
-
 *** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/  to cover.
 
 *** Junctions
