@@ -12,4 +12,6 @@ say $ret.WHAT;  # (Set)
 
 my @stuff = ( @monsters, @toho ).flat(:hammer);
 
-say @stuff;
+say @stuff; # [basilisk minotaur behemoth godzilla godzilla mothera rhodan]
+
+my $b = bag(@stuff);
