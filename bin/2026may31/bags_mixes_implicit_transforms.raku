@@ -27,3 +27,5 @@ say $thingy;
 # Mix(basilisk behemoth godzilla(4) minotaur mothera rhodan)
 
 say $thingy.Set;
+# Set(basilisk behemoth godzilla minotaur mothera rhodan)
+
