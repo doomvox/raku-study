@@ -5,4 +5,8 @@ say $x; # (0 1 2 3)
 say $x.WHAT;  #(List)
 
 my $ret = do if (True) { "urn" };
-say $ret;
+say $ret; # urn
+
+
+my $ret2 = if (True) { "urn" };
+say $ret2;
