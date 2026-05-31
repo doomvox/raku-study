@@ -22,8 +22,12 @@
 **** the original discussion:
 ***** https://github.com/Raku/problem-solving/issues/431
 
+
+*** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/  to cover.
+
 *** Junctions
 **** 
+
 
 *** I made a note of these Raku links (I may remember why, shortly);
 
