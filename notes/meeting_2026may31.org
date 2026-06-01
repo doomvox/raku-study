@@ -47,7 +47,6 @@ divisors($n).map({ $n.contains($_) && $_ != $n ?? $_.chars !! 0 }).max
 *** https://obsidianrook.com/doomfiles/LAMPPOST.html
 
 *** Tim
-**** shoot breeze dead
 **** wants to dicuss chaining together transformations
 **** Bruce: you might investigate https://wiki.haskell.org/Pointfree
 
