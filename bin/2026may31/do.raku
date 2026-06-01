@@ -1,5 +1,9 @@
 #!/usr/bin/env raku
 
+## Making sure that Raku's "do" does what I think it do, 
+## which is to say turns the following block into something that 
+## evaluates to the value of it's last expression.
+
 {
     my $x = do for 0..3 {$_};
     say $x; # (0 1 2 3)
