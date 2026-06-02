@@ -30,6 +30,9 @@
 
 *** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/ 
 **** virtuouso display, using (and abusing) set operations and they're relatives
+***** bag multiplication operation: (.)
+
+
 **** Anton's aside:
 ****** “Math::NumberTheory” has  divisors  and  factor-integer
 ****** Also,  is-harshad-number , `is-abundant-number`, `is-deficient-number`, and  is-perfect-number .
