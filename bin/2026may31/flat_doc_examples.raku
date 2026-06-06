@@ -3,7 +3,7 @@
 ## Making a stab at flat documentation:
 
 # A flattening operation acts on some data, removing structure. and
-# returning a "flatter" form with values preserved, for example a series
+# returning a "flatter" form with values preserved, for example a structure
 # of nested lists becomes a single list of all the values.
 
 #   << example, using "flat" >>
