@@ -18,7 +18,9 @@
   say ([(1, 3), 7], 9).flat; # OUTPUT: ((1 3) 7 9)
 
 
-  say ([(1, 3), 7], 9).flat; # OUTPUT: ((1 3) 7 9)
+# More aggressive flattening is available (since version ___) with the :harder adverb:
+
+  say ([(1, 3), 7], 9).flat(:harder); # OUTPUT: ((1 3) 7 9)
 
 
 
