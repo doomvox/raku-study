@@ -3,7 +3,8 @@
 
 # #!/usr/bin/env raku
 
-use v6.e.PREVIEW;
+# This doesn't seem to be necessary for :hammer:
+#   use v6.e.PREVIEW;
 
 ## Making a stab at flat documentation:
 
