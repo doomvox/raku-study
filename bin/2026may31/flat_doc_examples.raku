@@ -7,6 +7,7 @@
 # of nested lists becomes a simplified single list of all the values.
 
 #   << example, using "flat" >>
+
 say ((("a", "b"), "c"), "d").flat; # OUTPUT: ("a", "b", "c", "d")
 
 
