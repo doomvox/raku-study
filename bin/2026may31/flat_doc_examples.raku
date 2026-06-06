@@ -8,7 +8,7 @@
 
 #   << example, using "flat" >>
 
-say ((("a", "b"), "c"), "d").flat; # OUTPUT: ("a", "b", "c", "d")
+say ((("a", "b"), "c"), "d").flat; # OUTPUT: (a b c d)
 
 
 # There are two variant forms of flat that make different exceptions in 
