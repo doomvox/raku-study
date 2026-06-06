@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/flat_hammer_slip.raku
 # /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/04-comapring_slip_and_flat_and_flathammer.raku
-
+# /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026may10/04-comparing_slip_and_flat_and_flathammer.raku
 
 # use v6.e.PREVIEW; ## TODO I thought that you needed this for the flat hammer, but evidently not any more.
 use v6.d;  # flat hammer slipped into 6.d, evidently
