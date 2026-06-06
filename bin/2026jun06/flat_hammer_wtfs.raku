@@ -18,6 +18,7 @@ use v6.d;
 
 say "===";
 {
+  # so, why are these the same?
 
   say ([(1, 3), 7], 9).flat;          # ((1 3) 7 9)
 
