@@ -18,6 +18,10 @@
   say ([(1, 3), 7], 9).flat; # OUTPUT: ((1 3) 7 9)
 
 
+  say ([(1, 3), 7], 9).flat; # OUTPUT: ((1 3) 7 9)
+
+
+
 # There are two variant forms of flat that make different exceptions in 
 # precisely what gets flattened.  
 
