@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+use v6.e.PREVIEW;
+
 ## Making a stab at flat documentation:
 
 # Flatenning operations reduce the depth of a data structure while preserving the values.
