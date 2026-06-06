@@ -24,5 +24,9 @@ say "===";
 
   # btw: if you get the wrong adverb it fails silently
   say ([(1, 3), 7], 9).flat(:harder); # ((1 3) 7 9)
-
 }
+
+say "===";
+
+## examples with hashes/maps
+## also: what happens with Set-like things?
