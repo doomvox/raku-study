@@ -9,7 +9,7 @@ use v6.d;
     say @b.flat(:hammer);    # (X Y a b c)
 
     my @c = 'X', 'Y', [ 'a', 'b', 'c' ];
-    say @c.flat;            # (X Y [a b c])
+    say @c.flat;             # (X Y [a b c])
     say @c.flat(:hammer);    # (X Y a b c)
 
 
