@@ -26,7 +26,7 @@
 
 # More aggressive flattening is available (since version ___) with the :harder adverb:
 
-  say ([(1, 3), 7], 9).flat(:harder); # OUTPUT: ((1 3) 7 9)
+  say ([(1, 3), 7], 9).flat(:hammer); # OUTPUT: ((1 3) 7 9)
 
 ## (( But that, of course, doesn't seem to work. ))
 
