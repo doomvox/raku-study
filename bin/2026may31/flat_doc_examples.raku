@@ -23,7 +23,6 @@
 
   say ([(1, 3), 7], 9).flat; # OUTPUT: ((1 3) 7 9)
 
-
 # More aggressive flattening that breaks into containers is available
 # (since version ___) with the :harder adverb:
 
