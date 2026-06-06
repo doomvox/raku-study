@@ -14,6 +14,7 @@
 
 # Similarly, by default .flat does not break into containers.
 
+  my @a = [1, 3];
   say (( 1, 3, 7), 9).flat; # OUTPUT: ((1 3) 7 9)
 
 
