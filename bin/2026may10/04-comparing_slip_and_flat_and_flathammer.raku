@@ -127,7 +127,7 @@ say "===";
     say @b>>.List.flat;     # (X Y a b c)                # Hyper list flat WORKS
     say @b>>.List.List;     # ((X) (Y) (a b c))          # Just checking.
 
-    say @b>>.flat(:hammer); # ((X) (Y) (a b c))          # hammering flat isn't very flat? (mistake: using >>)
+    say @b>>.flat(:hammer); # ((X) (Y) (a b c))          # hammering flat isn't very flat? ((mistake: using >>))
 
     say "WORKS:";
     say @b.flat(:hammer);    # (X Y a b c)               # duh: don't hyper it WORKS
