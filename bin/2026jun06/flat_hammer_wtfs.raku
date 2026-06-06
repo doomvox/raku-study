@@ -7,4 +7,7 @@ use v6.d;
     say @b; # [X Y [a b c]]
     say @b.flat;            # (X Y [a b c])
     say @b.flat(:hammer);    # (X Y a b c)
+
+    my @c = 'X', 'Y', [ 'a', 'b', 'c' ];
+
 }
