@@ -4,7 +4,7 @@
 
 # A flattening operation acts on some data, removing structure. and
 # returning a "flatter" form with values preserved, for example a structure
-# of nested lists becomes a single list of all the values.
+# of nested lists becomes a single list:
 
 #   << example, using "flat" >>
 
