@@ -8,7 +8,7 @@ use v6.d;
     say @b.flat;            # (X Y [a b c])
     say @b.flat(:hammer);    # (X Y a b c)
 
-    # square brackets do the same:
+    # square brackets behave the same as an intermediate array variable:
     my @c = 'X', 'Y', [ 'a', 'b', 'c' ];
     say @c.flat;             # (X Y [a b c])
     say @c.flat(:hammer);    # (X Y a b c)
