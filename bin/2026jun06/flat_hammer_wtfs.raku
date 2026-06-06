@@ -15,3 +15,11 @@ use v6.d;
 
 
 }
+
+say "===";
+{
+
+  say ([(1, 3), 7], 9).flat; # OUTPUT: ((1 3) 7 9)
+
+  say ([(1, 3), 7], 9).flat(:harder); # OUTPUT: ((1 3) 7 9)
+}
