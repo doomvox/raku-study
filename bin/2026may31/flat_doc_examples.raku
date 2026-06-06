@@ -1,5 +1,4 @@
-# #!/usr/bin/env raku
-# /home/doom/End/Cave/Raku/bin/raku_gh
+#!/home/doom/End/Cave/Raku/bin/raku_gh
 use v6.e.PREVIEW;
 
 ## Making a stab at flat documentation:
