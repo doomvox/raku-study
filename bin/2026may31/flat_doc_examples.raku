@@ -28,7 +28,11 @@
 
   say ([(1, 3), 7], 9).flat(:hammer); # OUTPUT: (1 3 7 9)
 
-## (( But that, of course, doesn't seem to work. ))
+# When using the :hammer adverb, you can also specify a numeric limit for the depth to which you want to flatten:
+
+# << steal example from *.t? >>
+
+
 
 # There are two variant forms of flat that make different exceptions in 
 # precisely what gets flattened.  
