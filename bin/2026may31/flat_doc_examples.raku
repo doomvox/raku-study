@@ -12,7 +12,7 @@
 
   say (($(1, 3), 7), 9).flat; # OUTPUT: ((1 3) 7 9)
 
-# Similarly, by default .flat does not break into containers.
+# And by default .flat does not break into containers.
 
   say ([(1, 3), 7], 9).flat; # OUTPUT: ((1 3) 7 9)
 
