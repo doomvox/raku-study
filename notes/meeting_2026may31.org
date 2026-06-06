@@ -29,7 +29,7 @@
 ***** https://community.wolfram.com/groups/-/m/t/37238733723873
 
 *** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/ 
-**** virtuouso display, using (and abusing) set operations and they're relatives
+**** virtuouso display, using (and abusing) set operations and their relatives
 ***** bag multiplication operation: (.)
 
 
