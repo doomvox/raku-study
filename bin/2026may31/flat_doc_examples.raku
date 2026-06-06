@@ -22,7 +22,7 @@
 
   say ([(1, 3), 7], 9).flat(:harder); # OUTPUT: ((1 3) 7 9)
 
-
+## (( But that, of course, doesn't seem to work. ))
 
 # There are two variant forms of flat that make different exceptions in 
 # precisely what gets flattened.  
