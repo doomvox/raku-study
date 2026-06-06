@@ -13,6 +13,7 @@
   say (($(1, 3), 7), 9).flat; # OUTPUT: ((1 3) 7 9)
 
 # And by default .flat does not break into containers ((link)), so making a sublist here an array
+# (note the square brackets: []) shields it's individual elements from flattening:
 
   say ([(1, 3), 7], 9).flat; # OUTPUT: ((1 3) 7 9)
 
