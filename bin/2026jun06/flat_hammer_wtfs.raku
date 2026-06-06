@@ -21,4 +21,9 @@ say "===";
   # so, why doesn't :hammer do anything here:
   say ([(1, 3), 7], 9).flat;          # ((1 3) 7 9)
   say ([(1, 3), 7], 9).flat(:hammer); # (1 3 7 9)
+
+  # btw: if you get the wrong adverb it fails silently
+  say ([(1, 3), 7], 9).flat(:hammer); # (1 3 7 9)
+
+
 }
