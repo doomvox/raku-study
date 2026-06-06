@@ -10,7 +10,7 @@
 
   say (((1, 3), 7), 9).flat; # OUTPUT: (1 3 7 9)
 
-A sublist could be protected from flattening by making it itemized (link):
+# A sublist could be protected from flattening by making it itemized (link):
 
   say (($(1, 3), 7), 9).flat; # OUTPUT: ((1 3) 7 9)
 
