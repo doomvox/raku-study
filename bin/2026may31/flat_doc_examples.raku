@@ -37,6 +37,10 @@
 
   say @a.flat(:hammer);
 
+  say @a.flat(0 :hammer);
+  say @a.flat(1 :hammer);
+  say @a.flat(2 :hammer);
+
 # is-deeply @a.flat(:hammer), $hammered, 'array.flat(:hammer)';
 # is-deeply @a.flat(1, :hammer), (1, 2, [3, [4, 5]]),
 #   'array.flat(1, :hammer)';
