@@ -37,7 +37,7 @@
 
   say @a.flat(:hammer);
 
-  say @a.flat(0 :hammer);
+  say @a.flat(0, :hammer);
   say @a.flat(1 :hammer);
   say @a.flat(2 :hammer);
 
