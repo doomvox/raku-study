@@ -22,7 +22,7 @@
 ****** https://imgur.com/gallery/unit-distance-graph-animations-vyg2m6s
 ******* making svg images via ffmpeg
 ******* svg code converted to png images given to ffpack ((?))
-
+******** svg files can be huge
 ***** How the package "Graph" can / should be extended with more performant code
 
 
