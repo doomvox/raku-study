@@ -21,9 +21,6 @@
 ***** Most notably — Raku-made animations
 ***** How the package "Graph" can / should be extended with more performant code
 
-
-
-
 ** topics lost from the dawn of forgotten time
 *** strange digression number 3: "red button vs. blue button" dilemmas
 
