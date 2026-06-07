@@ -45,9 +45,9 @@
 **** Actually my topic 3 is LLM related:
 ***** How come LLM disproved that Erdos conjecture?
 
-Learn and use "Math::GameTheory":
-https://raku.land/zef:antononcube/Math::GameTheory
-It has 153 games.
+***** Learn and use "Math::GameTheory":
+****** https://raku.land/zef:antononcube/Math::GameTheory
+****** It has 153 games.
 
 
 *** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/ 
