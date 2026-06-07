@@ -36,6 +36,17 @@
   my $hammered := (1,2,3,4,5);
 
 
+# is-deeply @a.flat(:hammer), $hammered, 'array.flat(:hammer)';
+# is-deeply @a.flat(1, :hammer), (1, 2, [3, [4, 5]]),
+#   'array.flat(1, :hammer)';
+# is-deeply @a.flat(2, :hammer), (1, 2, 3, [4, 5]),
+#   'array.flat(2, :hammer)';
+# is-deeply @a.flat(3, :hammer), (1,2,3,4,5),
+#   'array.flat(3, :hammer)';
+# is-deeply @a.flat(4, :hammer), (1,2,3,4,5),
+#   'array.flat(4, :hammer)';
+
+
 
 # There are two variant forms of flat that make different exceptions in 
 # precisely what gets flattened.  
