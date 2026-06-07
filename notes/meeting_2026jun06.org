@@ -25,6 +25,8 @@
 
 
 ** topics lost from the dawn of forgotten time
+*** me: some more bits about .flat(:hammer)
+
 *** Marton
 **** junction fever
 **** gfldex's issue about smartmatching of checks and type smileys
