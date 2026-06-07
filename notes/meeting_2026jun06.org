@@ -19,7 +19,7 @@
 **** I have two subjects, can be seen as related, but can be discussed separately:
 ***** Show-&-tell with Erdos conjecture unit distance graphs
 ***** Most notably — Raku-made animations
-***** How the package "Graph' can / should be extended with more performant code
+***** How the package "Graph" can / should be extended with more performant code
 
 
 ** topics lost from the dawn of forgotten time
