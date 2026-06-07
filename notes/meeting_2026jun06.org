@@ -32,10 +32,7 @@
 **** gfldex's issue about smartmatching of checks and type smileys
 ***** https://github.com/doomvox/raku-study/discussions/27
 
-*** strange digression number 3: red button/blue button
-
-
-
+*** strange digression number 3: "red button vs. blue button" dilemmas
 
 *** Steve Rowe opened an issue on flat(:hammer) documentation
 **** https://github.com/Raku/doc/issues/4807
