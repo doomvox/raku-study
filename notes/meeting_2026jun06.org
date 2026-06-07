@@ -37,7 +37,11 @@
 
 
 
-*** strange digression: "red button vs. blue button" dilemmas
+*** strange digression: 
+
+**** "red button vs. blue button" dilemmas
+
+*** 
 
 *** .flat(:hammer) again
 
