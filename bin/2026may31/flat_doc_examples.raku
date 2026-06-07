@@ -45,7 +45,8 @@ my $test-data =
  ["a", "b", "c"]            => ("a", "b", "c").Seq,
  ["a", ["b", ["c"]]]        => ("a", $["b", ["c"]]).Seq,
  (<anon|1>.new,)            => (<anon|1>.new,).Seq,
- (Complex, $(Any, $(Int,))) => (Complex, $(Any, $(Int,))).Seq).Seq;
+ (Complex, $(Any, $(Int,))) => (Complex, $(Any, $(Int,))).Seq
+).Seq;
 
 
 
