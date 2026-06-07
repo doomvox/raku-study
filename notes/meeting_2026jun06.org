@@ -30,7 +30,7 @@
 **** gfldex's issue about smartmatching of checks and type smileys
 ***** https://github.com/doomvox/raku-study/discussions/27
 
-*** strange digression number 3: about red button/blue button
+*** strange digression number 3: red button/blue button
 
 
 
