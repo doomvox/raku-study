@@ -32,6 +32,8 @@
 
 # << steal example from *.t? >>
 
+  my @a = 1,[2,[3,[4,5]]];
+  my $hammered := (1,2,3,4,5);
 
 
 
