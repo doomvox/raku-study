@@ -15,7 +15,9 @@ sub make-test-data {
     }
 }
 
+say "===";
 say make-test-data();
+say "===";
 
 plan 2 * make-test-data() + 21;
 
