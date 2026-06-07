@@ -27,10 +27,10 @@
 ** topics lost from the dawn of forgotten time
 *** Marton
 **** junction fever
-**** 
-***** gfldex's issue about smartmatching of checks and type smileys?
+**** gfldex's issue about smartmatching of checks and type smileys
 ***** https://github.com/doomvox/raku-study/discussions/27
 
+**** strange digression about red button/blue button
 
 
 
