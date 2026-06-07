@@ -23,6 +23,7 @@
 ******* making svg images via ffmpeg
 ******* svg code converted to png images given to ffpack ((?))
 ******** svg files can be huge
+******* (google charts also useful for animations)
 ***** How the package "Graph" can / should be extended with more performant code
 
 
