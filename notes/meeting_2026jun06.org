@@ -20,6 +20,9 @@
 ***** Show-and-tell with Erdos conjecture unit distance graphs
 ***** Most notably-- Raku-made animations
 ****** https://imgur.com/gallery/unit-distance-graph-animations-vyg2m6s
+******* making svg images via ffmpeg
+******* svg code converted to png images given to ffpack ((?))
+
 ***** How the package "Graph" can / should be extended with more performant code
 
 
