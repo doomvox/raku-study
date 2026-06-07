@@ -43,6 +43,10 @@
   say @a.flat(2, :hammer); # (1 2 3 [4 5])
   say @a.flat(3, :hammer); # (1 2 3 4 5)
 
+  say "---";
+  say (((1, 3), 7), 9).flat(2); # OUTPUT: 
+
+
   say "===";
 
 # is-deeply @a.flat(:hammer), $hammered, 'array.flat(:hammer)';
