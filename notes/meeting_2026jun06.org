@@ -25,7 +25,7 @@
 
 
 ** topics lost from the dawn of forgotten time
-*** more bits about .flat(:hammer)
+*** .flat(:hammer)
 
 *** Marton
 **** junction fever
