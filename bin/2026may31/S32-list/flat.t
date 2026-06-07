@@ -16,7 +16,7 @@ sub make-test-data {
 }
 
 say "===";
-say make-test-data();
+say make-test-data().raku;
 say "===";
 
 plan 2 * make-test-data() + 21;
