@@ -48,7 +48,6 @@
 ****** https://raku.land/zef:antononcube/Math::GameTheory
 ****** It has 153 games.
 
-
 *** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/ 
 **** virtuouso display, using (and abusing) set operations and their relatives
 ***** bag multiplication operation: (.)
