@@ -38,8 +38,7 @@
 
 
 *** strange digression: 
-
-
+**** politeness rules 
 **** "red button vs. blue button" dilemmas
 
 *** .flat(:hammer) again
