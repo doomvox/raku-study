@@ -26,6 +26,16 @@
 ******* (google charts are also useful for animations)
 ***** How the package "Graph" can / should be extended with more performant code
 
+******* Actually my topic 3 is LLM related:
+******** How come LLM disproved that Erdos conjecture?
+******** Learn and use "Math::GameTheory":
+********* https://raku.land/zef:antononcube/Math::GameTheory
+********* It has 153 games.
+********* The game data in JSON:
+********** https://github.com/antononcube/Raku-Math-GameTheory/blob/main/resources/game-data.json
+
+
+
 
 *** strange digression number 3: "red button vs. blue button" dilemmas
 
@@ -51,13 +61,6 @@
 **** Here is Wolfram Language post which I currently re-creating with Raku:
 ***** https://community.wolfram.com/groups/-/m/t/37238733723873
 
-**** Actually my topic 3 is LLM related:
-***** How come LLM disproved that Erdos conjecture?
-***** Learn and use "Math::GameTheory":
-****** https://raku.land/zef:antononcube/Math::GameTheory
-****** It has 153 games.
-****** The game data in JSON:
-******* https://github.com/antononcube/Raku-Math-GameTheory/blob/main/resources/game-data.json
 
 *** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/ 
 **** virtuouso display, using (and abusing) set operations and their relatives
