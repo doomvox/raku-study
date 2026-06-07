@@ -1,0 +1,176 @@
+* meeting notes June 06, 2026
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026jun06.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2026jun06
+****** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026may10.org
+
+***** group discussions at github
+****** https://github.com/doomvox/raku-study/discussions 
+
+** topics
+*** In rancid bitterness and outrageous hope, let us once again resume the RSG
+
+*** Steve Rowe opened an issue on flat(:hammer) documentation
+**** https://github.com/Raku/doc/issues/4807
+**** the original discussion:
+***** https://github.com/Raku/problem-solving/issues/431
+
+*** Anton: OpenAI’s disproof of Erdos conjecture
+**** blurb from OpenAI:
+***** https://openai.com/index/model-disproves-discrete-geometry-conjecture/
+**** Here is Wolfram Language post which I currently re-creating with Raku:
+***** https://community.wolfram.com/groups/-/m/t/37238733723873
+
+*** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/ 
+**** virtuouso display, using (and abusing) set operations and their relatives
+***** bag multiplication operation: (.)
+
+
+**** Anton's aside:
+****** “Math::NumberTheory” has  divisors  and  factor-integer
+****** Also,  is-harshad-number , `is-abundant-number`, `is-deficient-number`, and  is-perfect-number .
+
+**** Anton idea:
+#+BEGIN_SRC raku
+my $n = 1020;
+divisors($n).map({ $n.contains($_) && $_ != $n ?? $_.chars !! 0 }).max
+#+END_SRC 
+
+*** Junctions
+**** or allomorphs?
+**** https://github.com/Raku/problem-solving/issues/431
+
+*** https://obsidianrook.com/doomfiles/LAMPPOST.html
+
+*** Tim
+**** wants to dicuss chaining together transformations
+**** Bruce Gray: you might investigate https://wiki.haskell.org/Pointfree
+
+
+*** I made a note of these Raku links (I may remember why, shortly);
+**** https://github.com/Raku-Steering-Council/Papers/blob/a621f24a862c3204e8b880f81545945821c51230/papers/Raku_Steering_Council_Code.md
+**** https://irclogs.raku.org/raku/2024-01-06.html#21:22
+**** https://github.com/Raku/problem-solving/issues/337#issuecomment-3867569693
+**** https://github.com/Raku/problem-solving/issues/489#issuecomment-3865236200
+**** https://dev.to/lizmat/the-second-two-1k5d
+**** https://developer.ibm.com/tutorials/l-linux-filesystem/
+**** https://en.wikipedia.org/wiki/Inode
+**** https://docs.raku.org/language/grammar_tutorial
+**** https://docs.raku.org/language/classtut
+**** https://docs.raku.org/language/classtut
+**** https://www.gtk.org/docs/architecture/pango
+**** https://rakudoweekly.blog/2026/02/23/2026-08-positional-adverbs/
+**** https://dev.to/lizmat/method-not-found-fallback-5cn8
+**** https://dev.to/damil/beautiful-perl-feature-blocks-2o4
+**** https://blogs.perl.org/users/zoffix_znet/2017/08/on-troll-hugging-hole-digging-and-improving-open-source-communities.html
+
+
+
+
+** old topics
+
+*** zipping arrays to a hash:
+**** 01-zip_lists_to_hash_vs_hash_slice_and_mystery_error.raku
+**** zipping_two_lists_to_hash.raku
+**** pairup.raku
+
+*** .flat(:hammer)
+**** flat_hammer_on_hash_vs_deepmap.raku
+**** flattering_flat.raku
+**** flat_hammer_slip.raku
+
+*** rob: messing with syntax of character class extensions
+
+*** rakudoc 2 docs
+**** https://raku.github.io/rakudoc
+**** https://dev.to/finanalyst/series/23505
+
+*** Anton Antonov 
+**** multidimensional array plotting
+***** d3.js
+
+**** https://rakuforprediction.wordpress.com/2026/05/03/latent-semantic-analysis-in-raku/
+
+
+**** llm-chat -- cli chat tool
+***** https://github.com/antononcube/Raku-Chatnik
+***** https://pypi.org/project/Chatnik/
+
+*** Marton
+**** junction weirdness
+***** example where it's not clear if you've got "any and all" or "all and any"-- which gets priority?
+***** sub sig type of "Any" splits junction into values, "Mu" takes it as a junction
+****** note: code blocks, pointy blocks, get "Mu" defaults, sub gets "Any" defaults
+***** TODO Check for code examples: /home/doom/End/Cave/RakuStudy/Notes/MartonJunctions
+
+***** negation of junctions does funny stuff
+****** known problem, much discussed
+***** Any and All used together, the All is "outside"
+****** no way to control the order (or not easily) 
+
+***** 
+https://github.com/Raku/problem-solving/issues/319
+
+***** 
+https://github.com/rakudo/rakudo/issues/3748
+
+****** 
+remove special handling of any 
+****** 
+any(0,4) != 0 is False #3748
+
+***** liz discussed removing junction negation
+****** where?
+
+***** bruce gray 
+****** sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
+
+** older topics
+
+*** Rob: issues with stashing an anonymous routine in a variable
+
+*** Weekly Challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-368/
+**** Bruce Gray:
+#+BEGIN_SRC text
+> 3) In case it is of interest, my quick solutions to this week's Weekly Challenge are:
+>
+>     sub task1 ( UInt $s, UInt $c --> UInt ) {
+>
+>         sub all-but ( UInt $n --> UInt ) { +( $s.substr(0,$n) ~ $s.substr($n+1) )}
+>
+>         return $s.indices($c).map(&all-but).max;
+>     }
+>
+>     use Prime::Factor;
+>     multi sub task2 ( UInt $s, 0 --> UInt ) { +prime-factors($s).squish }
+>     multi sub task2 ( UInt $s, 1 --> UInt ) { +prime-factors($s)        }
+#+END_SRC
+
+***** use of END_SRC here works with github... Anton makes connection to babel-mode 
+
+** announcements 
+*** next meetings
+
+**** June 07, 2026 (next week!)
+**** June 21, 2026
+**** July 12, 2026
+
+*** North American Perl and Raku conference 
+**** will be in late June: June 26-28, 29(class) TPRC 
+**** not on-line, an actual in person conference
+**** hackathon on 25th, most likely
+**** https://tprc.us/tprc-2026-gsp
+***** talk deadline "midnight" tonight
+
+*** Perl and Raku Conference 2026 in Greenville, SC
+**** https://tprc.us/
+
+
