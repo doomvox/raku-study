@@ -31,6 +31,7 @@
 # When using the :hammer adverb, you can also specify a numeric limit for the depth to which you want to flatten:
 
 # << steal example from *.t? >>
+say "===";
 
   my @a = 1,[2,[3,[4,5]]];
   my $hammered := (1,2,3,4,5);
