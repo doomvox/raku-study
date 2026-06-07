@@ -40,7 +40,6 @@
 *** strange digressions: 
 **** politeness rules 
 **** "red button vs. blue button" dilemmas
-
 *** .flat(:hammer) again
 
 *** Marton
