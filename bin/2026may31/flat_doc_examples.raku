@@ -32,6 +32,7 @@
 
 # << steal example from *.t? >>
 
+# key is "got", value is "expected"
 my $test-data = 
 ((1, 2, 3).Seq              => (1, 2, 3).Seq,
  (1, (2, (3,))).Seq         => (1, 2, 3).Seq,
