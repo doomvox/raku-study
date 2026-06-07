@@ -32,6 +32,19 @@
 
 # << steal example from *.t? >>
 
+((1, 2, 3).Seq => (1, 2, 3).Seq,
+ (1, (2, (3,))).Seq => (1, 2, 3).Seq,
+ (1, 2, 3) => (1, 2, 3).Seq,
+ (1, (2, (3,))) => (1, 2, 3).Seq,
+ 1..3 => (1, 2, 3).Seq,
+ (1, 2..3) => (1, 2, 3).Seq,
+ (1, 2, 3) => (1, 2, 3).Seq,
+ (1, $(2, $(3,))) => (1, $(2, $(3,))).Seq,
+ ["a", "b", "c"] => ("a", "b", "c").Seq,
+ ["a", ["b", ["c"]]] => ("a", $["b", ["c"]]).Seq,
+ (<anon|1>.new,) => (<anon|1>.new,).Seq,
+ (Complex, $(Any, $(Int,))) => (Complex, $(Any, $(Int,))).Seq).Seq
+
 
 
 # There are two variant forms of flat that make different exceptions in 
