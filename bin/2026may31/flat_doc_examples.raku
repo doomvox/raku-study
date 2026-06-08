@@ -44,7 +44,9 @@
   say @a.flat(3, :hammer); # (1 2 3 4 5)
 
   say "---";
-  say (((1, 3), 7), 9).flat(1); # OUTPUT: (1 3 7 9)
+
+
+  say (1,(2,(3,(4,5))).flat(1); # OUTPUT: ((1 3) 7 9)
 
 
   say "===";
