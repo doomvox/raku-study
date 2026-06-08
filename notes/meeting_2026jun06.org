@@ -46,6 +46,7 @@
 **** TODO gfldex's issue about smartmatching of checks and type smileys (NEXT TIME)
 ***** https://github.com/doomvox/raku-study/discussions/27
 
+
 *******  NEXT TIME
 ** topics lost from the dawn of forgotten time
 
@@ -88,7 +89,7 @@ divisors($n).map({ $n.contains($_) && $_ != $n ?? $_.chars !! 0 }).max
 **** Bruce Gray: you might investigate https://wiki.haskell.org/Pointfree
 
 
-*** I made a note of these Raku links (I may remember why, shortly);
+*** TODO I made a note of these Raku links (I may remember why, shortly);
 **** https://github.com/Raku-Steering-Council/Papers/blob/a621f24a862c3204e8b880f81545945821c51230/papers/Raku_Steering_Council_Code.md
 **** https://irclogs.raku.org/raku/2024-01-06.html#21:22
 **** https://github.com/Raku/problem-solving/issues/337#issuecomment-3867569693
