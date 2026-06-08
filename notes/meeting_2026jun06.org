@@ -45,14 +45,9 @@
 
 *** Marton
 **** junction fever
-**** gfldex's issue about smartmatching of checks and type smileys
+**** gfldex's issue about smartmatching of checks and type smileys (NEXT TIME)
 ***** https://github.com/doomvox/raku-study/discussions/27
-
-
-
-
-
-
+*******  NEXT TIME
 ** topics lost from the dawn of forgotten time
 
 *** Steve Rowe opened an issue on flat(:hammer) documentation
