@@ -48,7 +48,6 @@
   say (1,(2,(3,(4,5)))).flat(1); # OUTPUT: (1 2 (3 (4 5)))
   say (1,(2,(3,(4,5)))).flat(2); # OUTPUT: (1 2 3 (4 5))
 
-
   say "===";
 
 # is-deeply @a.flat(:hammer), $hammered, 'array.flat(:hammer)';
