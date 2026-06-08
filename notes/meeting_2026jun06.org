@@ -34,9 +34,6 @@
 *********** The game data in JSON:
 ************ https://github.com/antononcube/Raku-Math-GameTheory/blob/main/resources/game-data.json
 
-
-
-
 *** strange digressions: 
 **** politeness rules 
 **** "red button vs. blue button" dilemmas
