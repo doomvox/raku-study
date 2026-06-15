@@ -49,7 +49,7 @@
   say (1,(2,(3,(4,5)))).flat(1); # OUTPUT: (1 2 (3 (4 5)))
   say (1,(2,(3,(4,5)))).flat(2); # OUTPUT: (1 2 3 (4 5))
    
-  ## There's no way to use this 
+  ## There's no way to use that with the function form of flat
   say flat (1,(2,(3,(4,5)))); # OUTPUT: (1 2 3 4 5)
   say flat 2, (1,(2,(3,(4,5)))); # OUTPUT: (2 1 2 3 4 5)
 
