@@ -23,8 +23,8 @@
 
   say ([(1, 3), 7], 9).flat; # OUTPUT: ((1 3) 7 9)
 
-# More aggressive flattening is available (since version ___) that
-# does not ignore containers, by using .flat with the :hammer adverb:
+# But aggressive flattening is available by using the :hammer adverb (since version ___) which 
+# does not ignore containers:
 
   say ([(1, 3), 7], 9).flat(:hammer); # OUTPUT: (1 3 7 9)
 
