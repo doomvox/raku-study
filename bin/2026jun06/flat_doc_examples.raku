@@ -55,6 +55,18 @@
 
   say "===";
 
+  ## With :hammer set, flat descends into any Iterable type,
+  ## which includes Hash and Map: flat extracts lists of Pairs
+  ## from those types.
+
+  ## (( Example ))
+
+  ## Since a Pair is not Iterable, any data structure included as
+  ## value of a pair will not be flattened.
+
+  ## (( Example ))
+
+
 # is-deeply @a.flat(:hammer), $hammered, 'array.flat(:hammer)';
 # is-deeply @a.flat(1, :hammer), (1, 2, [3, [4, 5]]),
 #   'array.flat(1, :hammer)';
