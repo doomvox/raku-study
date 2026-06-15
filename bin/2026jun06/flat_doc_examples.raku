@@ -73,38 +73,3 @@
 
 
 
-# is-deeply @a.flat(:hammer), $hammered, 'array.flat(:hammer)';
-# is-deeply @a.flat(1, :hammer), (1, 2, [3, [4, 5]]),
-#   'array.flat(1, :hammer)';
-# is-deeply @a.flat(2, :hammer), (1, 2, 3, [4, 5]),
-#   'array.flat(2, :hammer)';
-# is-deeply @a.flat(3, :hammer), (1,2,3,4,5),
-#   'array.flat(3, :hammer)';
-# is-deeply @a.flat(4, :hammer), (1,2,3,4,5),
-#   'array.flat(4, :hammer)';
-
-
-
-
-# There are two variant forms of flat that make different exceptions in 
-# precisely what gets flattened.  
-
-# The default .flat (without the :hammer adverb) does not break into
-# containers or itemized lists, it preserves them as values to be passed
-# through. 
-
-#   << check, work up examples >>
-
-# The more extreme flattening operation .flat(:hammer) acts on
-# containers and will flatten out anything that is Iterable (which
-# includes Arrays, Hashes, etc.)  Note that this does not include Pairs,
-# which means, for example that a Hash will flatten out into a list of
-# Pairs.
-
-#   <<example>>    
-
-# Note: If instead you wanted to descend into Pairs and extract their
-# values (discarding the keys) you would need to do something else,
-# e.g. using deepmap:
-
-#   <<example>>
