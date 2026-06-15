@@ -66,7 +66,10 @@
 
   ## (( Example ))
 
+  ## Note that to flatten a Pair, you would need to use an alternate
+  ## technique, such as deepmap:
 
+  ## (( Example ))
 
 
 
