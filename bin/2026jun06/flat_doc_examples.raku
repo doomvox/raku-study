@@ -49,8 +49,7 @@
   say (1,(2,(3,(4,5)))).flat(2); # OUTPUT: (1 2 3 (4 5))
    
   ## There's a function call form of flat that works much like the
-  ## method call form, except that you can't use the recursion limit
-  ## with it:
+  ## method call form, except that you can't use the recursion limit:
   say flat (1,(2,(3,(4,5)))); # OUTPUT: (1 2 3 4 5)
   say flat 2, (1,(2,(3,(4,5)))); # OUTPUT: (2 1 2 3 4 5)
 
