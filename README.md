@@ -23,6 +23,7 @@ And after that is the fourth of July weekend, so our next meeting will be:
 * Sunday August 09, 2026 
     * https://us02web.zoom.us/j/86987426788?pwd=MpJEnO4sbd1gDwFxVTKSBaM6NduD6j.1
 
+
 We start at 1 pm Pacific time, and typically finish by 5pm.
 And the super secret code you need is "4RakuRoll".
 
