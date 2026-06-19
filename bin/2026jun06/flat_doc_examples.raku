@@ -17,6 +17,8 @@
 
 # (( Q: does hammer break into itemized lists?  Are they Iterable? ))
 
+# Some examples:
+
 # Raku's .flat method can take a nested list of list and return all the values in one list:
 
   say (((1, 3), 7), 9).flat; # OUTPUT: (1 3 7 9)
