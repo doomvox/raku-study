@@ -8,7 +8,7 @@
 
 ## Making a stab at flat documentation:
 
-# Flatenning operations reduce the depth of a data structure while preserving the values.
+# Flattening operations reduce the depth of a data structure while preserving the values.
 # For example, Raku's .flat method can take a nested list of list and return all the values 
 # in one list:
 
