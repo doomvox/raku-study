@@ -9,8 +9,7 @@
 ## Making a stab at flat documentation:
 
 # Flattening operations reduce the depth of a data structure while preserving the values.
-# Raku's .flat method can take a nested list of list and return all the values 
-# in one list:
+# Raku's .flat method can take a nested list of list and return all the values in one list:
 
   say (((1, 3), 7), 9).flat; # OUTPUT: (1 3 7 9)
 
