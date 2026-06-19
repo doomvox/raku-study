@@ -9,6 +9,13 @@
 ## Making a stab at flat documentation:
 
 # Flattening operations reduce the depth of a data structure while preserving the values.
+# Raku has a "flat" operation that acts on data structures (such as ___), 
+# which descends recursively through the structure, extracting values,
+# which does not descend into itemized lists or (by default) containers,
+# though it can be made to break into containers by using the :hammer adverb
+# with it, in which case it descends through anything Iterable.
+# The method form of flat can be given a recursion limit as an optional argument.
+
 # Raku's .flat method can take a nested list of list and return all the values in one list:
 
   say (((1, 3), 7), 9).flat; # OUTPUT: (1 3 7 9)
