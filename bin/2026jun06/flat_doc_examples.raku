@@ -10,11 +10,12 @@
 
 # Flattening operations reduce the depth of a data structure while preserving the values.
 # Raku has a "flat" operation that acts on data structures (such as ___), 
-# which descends recursively through the structure, extracting values,
-# which does not descend into itemized lists or (by default) containers,
+# descending recursively. It does not descend into itemized lists or (by default) containers,
 # though it can be made to break into containers by using the :hammer adverb
 # with it, in which case it descends through anything Iterable.
 # The method form of flat can be given a recursion limit as an optional argument.
+
+# (( Q: does hammer break into itemized lists?  Are they Iterable? ))
 
 # Raku's .flat method can take a nested list of list and return all the values in one list:
 
