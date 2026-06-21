@@ -29,8 +29,8 @@
 ***** js good but painfully not raku
 ***** python ubiquitous (and also not raku)
 ***** rust, webassembly on the todo list
-****** go: mediocrity perfected
-******* corporate appeal
+***** go: mediocrity perfected
+****** corporate appeal
 
 
 *** Marton
