@@ -25,7 +25,7 @@
 ******* Q: does it handle pathological cases right?
 
 **** once around the state of other languages
-***** haskel for reduce trickery
+***** haskell is good for learning reduce trickery and such
 ***** js good but not raku
 ***** python ubiquitous, but also not raku
 ***** rust, webassembly on the todo list
