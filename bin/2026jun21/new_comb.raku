@@ -42,4 +42,5 @@ say "===";
 {
     my $str = "abcdef";
     say $str.comb( 2 ).join("|");
+    say $str.comb( -2 ).join("|");
 }
