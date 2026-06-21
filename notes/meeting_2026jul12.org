@@ -15,14 +15,6 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** any one got anything?
-*** bruce gray
-**** weekly challenge
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-377/
-***** comb 
-****** in 6.e comb has explicit skip-back features
-******* .comb(2 => -1)
-******* Q: does it handle pathological cases right?
 
 **** once around the state of other languages
 ***** haskell is good for learning reduce trickery and such
@@ -52,6 +44,15 @@
 
 
 ** older topics
+
+*** bruce gray
+**** weekly challenge
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-377/
+***** comb 
+****** in 6.e comb has explicit skip-back features
+******* .comb(2 => -1)
+******* Q: does it handle pathological cases right?
+
 
 *** Anton Antonov: OpenAI’s disproof of Erdos conjecture
 **** blurb from OpenAI:
