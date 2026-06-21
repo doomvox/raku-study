@@ -61,7 +61,7 @@ GetOptions ("d|debug"    => \$DEBUG,
 say sin(45);  # 0.850903524534118
 
 my @alpha = ('a','b','c');
-say sin( @alpha );
+say sin( @alpha ); # 0.141120008059867
 
 
 
