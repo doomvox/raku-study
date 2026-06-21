@@ -224,6 +224,6 @@ any(0,4) != 0 is False #3748
 **** not on-line, an actual in person conference
 **** hackathon on 25th, most likely
 **** https://tprc.us/tprc-2026-gsp
-***** talk deadline "midnight" tonight
+
 
 
