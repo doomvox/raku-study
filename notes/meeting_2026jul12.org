@@ -16,6 +16,10 @@
 
 ** topics
 
+*** comb in 6.3 has an explicit skip-back features
+**** .comb(2 => -1)
+**** it doesn't handle weird cases well...
+
 
 *** Marton
 **** gfldex's issue about smartmatching of checks and type smileys
