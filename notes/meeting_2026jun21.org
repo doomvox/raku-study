@@ -43,7 +43,7 @@
 
 ** old topics
 
-*** Anton: OpenAI’s disproof of Erdos conjecture
+*** Anton Antonov: OpenAI’s disproof of Erdos conjecture
 **** blurb from OpenAI:
 ***** https://openai.com/index/model-disproves-discrete-geometry-conjecture/
 **** Here is Wolfram Language post which I currently re-creating with Raku:
