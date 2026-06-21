@@ -11,3 +11,4 @@ say $str.comb( 3 );
 say $str.comb( 3 => 3 );
 # (her ere ty   gu , e  co ien and nfe on, rdo)
 
+say $str.comb( 3 => -2 );
