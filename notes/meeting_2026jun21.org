@@ -100,7 +100,7 @@ divisors($n).map({ $n.contains($_) && $_ != $n ?? $_.chars !! 0 }).max
 **** or allomorphs?
 **** https://github.com/Raku/problem-solving/issues/431
 
-*** https://obsidianrook.com/doomfiles/LAMPPOST.html
+
 
 *** Tim
 **** wants to dicuss chaining together transformations
