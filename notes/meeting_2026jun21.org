@@ -218,14 +218,12 @@ any(0,4) != 0 is False #3748
 **** July 26, 2026
 **** August 9, 2026
 
-*** North American Perl and Raku conference 
+*** North American Perl and Raku conference in Greenville, SC
+**** https://tprc.us/
 **** will be in late June: June 26-28, 29(class) TPRC 
 **** not on-line, an actual in person conference
 **** hackathon on 25th, most likely
 **** https://tprc.us/tprc-2026-gsp
 ***** talk deadline "midnight" tonight
-
-*** Perl and Raku Conference 2026 in Greenville, SC
-**** https://tprc.us/
 
 
