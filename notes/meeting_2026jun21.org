@@ -95,10 +95,7 @@ divisors($n).map({ $n.contains($_) && $_ != $n ?? $_.chars !! 0 }).max
 **** wants to dicuss chaining together transformations
 **** Bruce Gray: you might investigate https://wiki.haskell.org/Pointfree
 
-*** zipping arrays to a hash:
-**** 01-zip_lists_to_hash_vs_hash_slice_and_mystery_error.raku
-**** zipping_two_lists_to_hash.raku
-**** pairup.raku
+
 
 *** .flat(:hammer)
 **** flat_hammer_on_hash_vs_deepmap.raku
