@@ -53,7 +53,7 @@
 
 
 
-** old topics
+** older topics
 
 *** Anton Antonov: OpenAI’s disproof of Erdos conjecture
 **** blurb from OpenAI:
