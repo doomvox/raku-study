@@ -57,7 +57,6 @@
 *********** The game data in JSON:
 ************ https://github.com/antononcube/Raku-Math-GameTheory/blob/main/resources/game-data.json
 
-
 *** Marton
 **** junction fever
 **** TODO gfldex's issue about smartmatching of checks and type smileys (NEXT TIME)
