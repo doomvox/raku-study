@@ -80,7 +80,9 @@ say $scalar; # 3
 
 ## say ${%fried};  # Can't use string ("3") as a SCALAR ref while "strict refs"
 
-say scalar %fried;
+say scalar %fried; # 3
+
+
 
 
 
