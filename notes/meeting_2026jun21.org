@@ -45,6 +45,13 @@
 **** the original discussion:
 ***** https://github.com/Raku/problem-solving/issues/431
 
+*** .flat(:hammer)
+**** flat_hammer_on_hash_vs_deepmap.raku
+**** flattering_flat.raku
+**** flat_hammer_slip.raku
+
+
+
 
 ** old topics
 
@@ -97,10 +104,6 @@ divisors($n).map({ $n.contains($_) && $_ != $n ?? $_.chars !! 0 }).max
 
 
 
-*** .flat(:hammer)
-**** flat_hammer_on_hash_vs_deepmap.raku
-**** flattering_flat.raku
-**** flat_hammer_slip.raku
 
 *** rob: messing with syntax of character class extensions
 
