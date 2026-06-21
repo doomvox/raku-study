@@ -27,7 +27,7 @@
 **** once around the state of other languages
 ***** haskell is good for learning reduce trickery and such
 ***** js good but painfully not raku
-***** python ubiquitous, but also not raku
+***** python ubiquitous (and also not raku)
 ***** rust, webassembly on the todo list
 ****** go: mediocrity perfected
 ******* corporate appeal
