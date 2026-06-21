@@ -27,6 +27,14 @@
 ******* corporate appeal
 
 
+*** Marton
+**** junction fever
+**** gfldex's issue about smartmatching of checks and type smileys (NEXT TIME)
+***** https://github.com/doomvox/raku-study/discussions/27
+*******  NEXT TIME
+
+
+
 ** old topics from a time not yet forgotten
 
 *** Anton Antonov
@@ -38,6 +46,7 @@
 ******* svg code converted to png images given to ffpack ((?))
 ******** svg files can be huge
 ******* (google charts are also useful for animations)
+
 ***** How the package "Graph" can / should be extended with more performant code
 
 ********* Actually my topic 3 is LLM related:
@@ -53,9 +62,8 @@
 **** junction fever
 **** TODO gfldex's issue about smartmatching of checks and type smileys (NEXT TIME)
 ***** https://github.com/doomvox/raku-study/discussions/27
-
-
 *******  NEXT TIME
+
 ** topics lost from the dawn of forgotten time
 
 *** Steve Rowe opened an issue on flat(:hammer) documentation
