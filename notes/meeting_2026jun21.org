@@ -75,6 +75,7 @@
 *********** The game data in JSON:
 ************ https://github.com/antononcube/Raku-Math-GameTheory/blob/main/resources/game-data.json
 
+
 *** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/ 
 **** virtuouso display, using (and abusing) set operations and their relatives
 ***** bag multiplication operation: (.)
