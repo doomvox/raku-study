@@ -58,8 +58,10 @@ GetOptions ("d|debug"    => \$DEBUG,
 { no warnings 'once'; $DB::single = 1; }
 
 
-say sin(45);
+say sin(45);  # 0.850903524534118
 
+my @alpha = ('a','b','c');
+say sin( @alpha );
 
 
 
