@@ -63,11 +63,6 @@
 *********** The game data in JSON:
 ************ https://github.com/antononcube/Raku-Math-GameTheory/blob/main/resources/game-data.json
 
-*** Marton
-**** junction fever
-**** TODO gfldex's issue about smartmatching of checks and type smileys (NEXT TIME)
-***** https://github.com/doomvox/raku-study/discussions/27
-*******  NEXT TIME
 
 
 ** topics lost from the dawn of forgotten time
