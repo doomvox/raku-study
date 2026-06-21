@@ -66,15 +66,15 @@ say sin( @alpha ); # 0.141120008059867
 say sin( 3 );  # 0.141120008059867
 
 
-my   %fried = ( a => 1,
-               b => 2,
-               c => 3,
-               );
+my %fried = ( a => 1,
+              b => 2,
+              c => 3,
+             );
 
 say %fried;  # a1b2c3
 
 my $scalar = %fried; 
-say $scalar;
+say $scalar; # 3
 
 
 ### end main, into the subs
