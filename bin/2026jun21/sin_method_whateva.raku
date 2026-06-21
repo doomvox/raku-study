@@ -17,6 +17,9 @@
 
 {
     my @a = "a" x 3;
-    say @a;
+    say @a; # [aaa]
+    
+    my @a = "a" xx 3;
+
 
     }
