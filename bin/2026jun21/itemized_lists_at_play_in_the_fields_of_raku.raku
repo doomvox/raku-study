@@ -2,6 +2,8 @@
 ##   that's a recent build from github: v2026.04-47-g386eb023d
 
 
-say $(1, 3);
+say $(1, 3);  # (1 3)
 
-say $(1, 3).WHAT;
+say $(1, 3).WHAT;  # (List)
+
+
