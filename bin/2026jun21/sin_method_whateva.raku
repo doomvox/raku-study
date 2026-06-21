@@ -21,5 +21,4 @@
     
     my @a = "a" xx 3;
     say @a; # [a a a]
-
     }
