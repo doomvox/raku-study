@@ -18,6 +18,10 @@
 *** any one got anything?
 *** bruce gray
 **** weekly challenge
+***** comb 
+****** comb has explicit skip-back features
+******* what if...
+
 **** other langs
 ***** haskel for reduce trickery
 ***** js good but not raku
