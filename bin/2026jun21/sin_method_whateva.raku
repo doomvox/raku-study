@@ -11,6 +11,7 @@
 }
 
 {
-    
+    my @a = <a b c d>;
+    say @a.sin;
 
     }
