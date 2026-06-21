@@ -16,3 +16,4 @@ say $str.comb( 3 => -2 );
 
 say "===";
 say $str.comb( 3 => -3 );
+## Output is *identical* to -2 case.  WTF?
