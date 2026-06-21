@@ -46,7 +46,7 @@
 ** older topics
 
 *** bruce gray
-**** weekly challenge
+**** weekly challenge 377
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-377/
 ***** comb 
 ****** in 6.e comb has explicit skip-back features
