@@ -2,4 +2,4 @@
 
 use v6.e.PREVIEW;
 
-
+my $str = "";
