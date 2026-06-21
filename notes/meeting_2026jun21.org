@@ -60,13 +60,6 @@
 ******** svg files can be huge
 ******* (google charts are also useful for animations)
 
-
-
-
-
-
-
-
 ***** How the package "Graph" can / should be extended with more performant code
 
 ********* Actually my topic 3 is LLM related:
