@@ -4,9 +4,8 @@
 
 {
     my $str = "abc";
-
-    say $str.sin;
-    # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏abc' (indicated by ⏏)
+#    say $str.sin;
+#    # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏abc' (indicated by ⏏)
 
 }
 
