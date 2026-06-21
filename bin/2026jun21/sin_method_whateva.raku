@@ -2,6 +2,10 @@
 ##   that's a recent build from github: v2026.04-47-g386eb023d
 
 
-my $str = "abc";
+{
+    my $str = "abc";
 
-say $str.sin;
+    say $str.sin;
+    # Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏abc' (indicated by ⏏)
+
+}
