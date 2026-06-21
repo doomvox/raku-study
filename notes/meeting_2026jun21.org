@@ -23,7 +23,7 @@
 ***** js good but not raku
 ***** python ubiquitous, but also not raku
 ***** rust, webassembly on the todo list
-
+****** go-- mediocrity perfected
 ** old topics from a time not yet forgotten
 
 *** Anton Antonov
@@ -44,6 +44,7 @@
 *********** It has 153 games.
 *********** The game data in JSON:
 ************ https://github.com/antononcube/Raku-Math-GameTheory/blob/main/resources/game-data.json
+
 
 *** Marton
 **** junction fever
