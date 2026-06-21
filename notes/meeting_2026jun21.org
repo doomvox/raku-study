@@ -215,6 +215,8 @@ any(0,4) != 0 is False #3748
 ** announcements 
 *** next meetings
 **** July 12, 2026
+**** July 26, 2026
+**** August 9, 2026
 
 *** North American Perl and Raku conference 
 **** will be in late June: June 26-28, 29(class) TPRC 
