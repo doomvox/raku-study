@@ -95,28 +95,6 @@ divisors($n).map({ $n.contains($_) && $_ != $n ?? $_.chars !! 0 }).max
 **** wants to dicuss chaining together transformations
 **** Bruce Gray: you might investigate https://wiki.haskell.org/Pointfree
 
-
-*** TODO I made a note of these Raku links (I may remember why, shortly);
-**** https://github.com/Raku-Steering-Council/Papers/blob/a621f24a862c3204e8b880f81545945821c51230/papers/Raku_Steering_Council_Code.md
-**** https://irclogs.raku.org/raku/2024-01-06.html#21:22
-**** https://github.com/Raku/problem-solving/issues/337#issuecomment-3867569693
-**** https://github.com/Raku/problem-solving/issues/489#issuecomment-3865236200
-**** https://dev.to/lizmat/the-second-two-1k5d
-**** https://developer.ibm.com/tutorials/l-linux-filesystem/
-**** https://en.wikipedia.org/wiki/Inode
-**** https://docs.raku.org/language/grammar_tutorial
-**** https://docs.raku.org/language/classtut
-**** https://www.gtk.org/docs/architecture/pango
-**** https://rakudoweekly.blog/2026/02/23/2026-08-positional-adverbs/
-**** https://dev.to/lizmat/method-not-found-fallback-5cn8
-**** https://dev.to/damil/beautiful-perl-feature-blocks-2o4
-**** https://blogs.perl.org/users/zoffix_znet/2017/08/on-troll-hugging-hole-digging-and-improving-open-source-communities.html
-
-
-
-
-** old topics
-
 *** zipping arrays to a hash:
 **** 01-zip_lists_to_hash_vs_hash_slice_and_mystery_error.raku
 **** zipping_two_lists_to_hash.raku
