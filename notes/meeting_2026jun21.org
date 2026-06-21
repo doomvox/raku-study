@@ -47,7 +47,8 @@
 **** blurb from OpenAI:
 ***** https://openai.com/index/model-disproves-discrete-geometry-conjecture/
 
-
+**** "Unit distance graph animations"
+https://community.wolfram.com/groups/-/m/t/3723873
 
 
 **** Anton Antonov, "Graph representation of grammars"  july 2023
