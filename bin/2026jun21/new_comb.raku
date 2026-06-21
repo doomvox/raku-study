@@ -9,3 +9,5 @@ say $str.comb( 3 );
 # (her e w ere  du ty  and  gu ilt , e vil  co nsc ien ce  and  co nfe ssi on,  pa rdo n a nd)
 
 say $str.comb( 3 => 3 );
+# (her ere ty   gu , e  co ien and nfe on, rdo)
+
