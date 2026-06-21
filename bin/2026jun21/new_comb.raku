@@ -37,3 +37,9 @@ say "===";
     say $str.comb( 2 => -4 ).join("|");
     # ab|bc|cd|de|ef
 }
+
+
+{
+    my $str = "abcdef";
+    say $str.comb( 2 ).join("|");
+}
