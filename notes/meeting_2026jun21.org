@@ -24,6 +24,7 @@
 ***** python ubiquitous, but also not raku
 ***** rust, webassembly on the todo list
 ****** go: mediocrity perfected
+
 ** old topics from a time not yet forgotten
 
 *** Anton Antonov
