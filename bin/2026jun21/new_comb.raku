@@ -26,5 +26,5 @@ use v6.e.PREVIEW;
 {
     my $str = "abcdef";
     say $str.comb( 2 => -1 ).join("|");
-
+    ab|bc|cd|de|ef
 }
