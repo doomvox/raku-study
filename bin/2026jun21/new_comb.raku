@@ -25,6 +25,6 @@ use v6.e.PREVIEW;
 
 {
     my $str = "abcdef";
-    say $str.comb( 2 => -3 );
+    say $str.comb( 2 => -1 );
 
 }
