@@ -24,7 +24,7 @@
 ******* .comb(2 => -1)
 ******* Q: does it handle pathological cases right?
 
-**** other langs
+**** once around the state of other languages
 ***** haskel for reduce trickery
 ***** js good but not raku
 ***** python ubiquitous, but also not raku
