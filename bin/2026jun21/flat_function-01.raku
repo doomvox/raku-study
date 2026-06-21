@@ -2,6 +2,6 @@
 ##   that's a recent build from github: v2026.04-47-g386eb023d
 
 
-  say (((1, 3), 7), 9).flat; # OUTPUT: (1 3 7 9)
+  say flat (((1, 3), 7), 9); # OUTPUT: (1 3 7 9)
 
   say (($(1, 3), 7), 9).flat; # OUTPUT: ((1 3) 7 9)
