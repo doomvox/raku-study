@@ -64,8 +64,7 @@
 *******  NEXT TIME
 
 
-** topics lost from the dawn of forgotten
-time
+** topics lost from the dawn of forgotten time
 
 *** Steve Rowe opened an issue on flat(:hammer) documentation
 **** https://github.com/Raku/doc/issues/4807
