@@ -66,6 +66,14 @@ say sin( @alpha ); # 0.141120008059867
 say sin( 3 );  # 0.141120008059867
 
 
+say %fried = ( a => 1,
+               b => 2,
+               c => 3,
+               );
+
+say %fried;
+
+
 
 ### end main, into the subs
 
