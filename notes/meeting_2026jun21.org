@@ -50,12 +50,11 @@
 
 
 
-Anton Antonov, "Graph representation of grammars"  july 2023
-https://community.wolfram.com/groups/-/m/t/2955399
+**** Anton Antonov, "Graph representation of grammars"  july 2023
+***** https://community.wolfram.com/groups/-/m/t/2955399
 
 
 *** Anton Antonov
-**** I have two subjects, can be seen as related, but can be discussed separately:
 ***** Show-and-tell with Erdos conjecture unit distance graphs
 ***** Most notably-- Raku-made animations
 ****** https://imgur.com/gallery/unit-distance-graph-animations-vyg2m6s
