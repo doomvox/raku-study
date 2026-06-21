@@ -22,6 +22,7 @@
 ***** haskel for reduce trickery
 ***** js good but not raku
 ***** python ubiquitous, but also not raku
+***** rust, webassembly on the todo list
 
 ** old topics from a time not yet forgotten
 
