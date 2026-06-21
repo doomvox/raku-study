@@ -45,4 +45,6 @@ say "===";
     say $str.comb( 2 ).join("|");
     # ab|cd|ef
     say $str.comb( -2 ).join("|");
+    # a|b|c|d|e|f
 }
+
