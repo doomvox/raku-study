@@ -12,3 +12,5 @@ say $str.comb( 3 => 3 );
 # (her ere ty   gu , e  co ien and nfe on, rdo)
 
 say $str.comb( 3 => -2 );
+# (her ere re  e w  we wer ere re  e d  du dut uty ty  y a  an and nd  d g  gu gui uil ilt lt, t,  , e  ev evi vil il  l c  co con ons nsc sci cie ien enc nce ce  e a  an and nd  d c  co con onf nfe fes ess ssi sio ion on, n,  , p  pa par ard rdo don on  n a  an and)
+
