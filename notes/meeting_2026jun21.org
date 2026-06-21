@@ -50,9 +50,6 @@
 **** flattering_flat.raku
 **** flat_hammer_slip.raku
 
-
-
-
 ** older topics
 
 *** Anton Antonov: OpenAI’s disproof of Erdos conjecture
