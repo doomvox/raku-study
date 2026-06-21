@@ -41,7 +41,7 @@
 
 
 
-** old topics from a time not yet forgotten
+** old topics
 
 *** Anton: OpenAI’s disproof of Erdos conjecture
 **** blurb from OpenAI:
