@@ -43,7 +43,6 @@
 
 ** old topics from a time not yet forgotten
 
-
 *** Anton: OpenAI’s disproof of Erdos conjecture
 **** blurb from OpenAI:
 ***** https://openai.com/index/model-disproves-discrete-geometry-conjecture/
