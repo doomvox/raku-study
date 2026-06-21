@@ -32,5 +32,6 @@ say "===";
     # ab|bc|cd|de|ef
     say $str.comb( 2 => -2 ).join("|");
     # ab|bc|cd|de|ef
+    say $str.comb( 2 => -3 ).join("|");
 
 }
