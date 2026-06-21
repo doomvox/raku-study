@@ -18,8 +18,10 @@
 *** any one got anything?
 *** bruce gray
 **** weekly challenge
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-377/
 ***** comb 
-****** comb has explicit skip-back features
+****** in 6.e comb has explicit skip-back features
+******* .comb(2 => -1)
 ******* what if...
 
 **** other langs
