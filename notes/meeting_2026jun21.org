@@ -102,15 +102,6 @@ divisors($n).map({ $n.contains($_) && $_ != $n ?? $_.chars !! 0 }).max
 **** wants to dicuss chaining together transformations
 **** Bruce Gray: you might investigate https://wiki.haskell.org/Pointfree
 
-
-
-
-*** rob: messing with syntax of character class extensions
-
-*** rakudoc 2 docs
-**** https://raku.github.io/rakudoc
-**** https://dev.to/finanalyst/series/23505
-
 *** Anton Antonov 
 **** multidimensional array plotting
 ***** d3.js
