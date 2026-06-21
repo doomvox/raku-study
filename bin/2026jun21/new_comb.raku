@@ -8,6 +8,7 @@ use v6.e.PREVIEW;
 
     say $str.comb( 3 );
     # (her e w ere  du ty  and  gu ilt , e vil  co nsc ien ce  and  co nfe ssi on,  pa rdo n a nd)
+    say $str.comb( 3 ).join("|";
 
     say $str.comb( 3 => 3 );
     # (her ere ty   gu , e  co ien and nfe on, rdo)
@@ -22,6 +23,6 @@ use v6.e.PREVIEW;
 }
 
 {
-    my $str = "here were duty and guilt, evil conscience and confession, pardon and";
-
+    my $str = "abcdefghijk";
+    say $str.comb( 3 => -3 );
 }
