@@ -7,7 +7,7 @@
   say flat (($(1, 3), 7), 9); # OUTPUT: ((1 3) 7 9)
 
 
-  say flat (((1, 3), 7), 9), :hammer;  # OUTPUT: (1 3 7 9)
-  say flat (($(1, 3), 7), 9), :hammer; # OUTPUT: ((1 3) 7 9)
+  say flat( (((1, 3), 7), 9), :hammer );  # OUTPUT: (1 3 7 9)
+  say flat( (($(1, 3), 7), 9), :hammer); # OUTPUT: ((1 3) 7 9)
 
 }
