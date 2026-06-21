@@ -8,6 +8,8 @@
 
 ## Making a stab at flat documentation:
 
+### what's a "value"-- container vs. value
+
 # Flattening operations reduce the depth of a data structure while preserving the values.
 # Raku has a "flat" operation that acts on data structures (such as ___), 
 # descending recursively. It does not descend into itemized lists or (by default) containers,
