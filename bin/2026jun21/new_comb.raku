@@ -26,6 +26,7 @@ use v6.e.PREVIEW;
 say "===";
 {
     my $str = "abcdef";
+    say $str.comb( 2 => 0 ).join("|");
     say $str.comb( 2 => -1 ).join("|");
     # ab|bc|cd|de|ef
     say $str.comb( 2 => -2 ).join("|");
