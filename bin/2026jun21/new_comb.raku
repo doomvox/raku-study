@@ -29,6 +29,6 @@ say "===";
     say $str.comb( 2 => -1 ).join("|");
     # ab|bc|cd|de|ef
     say $str.comb( 2 => -2 ).join("|");
-
+    # ab|bc|cd|de|ef
 
 }
