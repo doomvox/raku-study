@@ -71,7 +71,7 @@ my %fried = ( a => 1,
               c => 3,
              );
 
-say $fried{ b };
+say $fried{ b }; # 2
 
 say %fried;  # a1b2c3
 
