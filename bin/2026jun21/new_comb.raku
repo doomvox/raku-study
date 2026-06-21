@@ -24,6 +24,7 @@ use v6.e.PREVIEW;
 }
 
 {
-    my $str = "abcdefghijk";
-    say $str.comb( 3 => -3 );
+    my $str = "abcdef";
+    say $str.comb( 2 => -3 );
+
 }
