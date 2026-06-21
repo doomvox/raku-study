@@ -16,6 +16,12 @@
 
 ** topics
 *** any one got anything?
+*** bruce gray
+**** weekly challenge
+**** other langs
+***** haskel for reduce trickery
+***** js good but not raku
+***** python ubiquitous, but also not raku
 
 ** old topics from a time not yet forgotten
 
