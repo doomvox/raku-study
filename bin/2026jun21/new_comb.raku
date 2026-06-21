@@ -23,6 +23,7 @@ use v6.e.PREVIEW;
 
 }
 
+say "===";
 {
     my $str = "abcdef";
     say $str.comb( 2 => -1 ).join("|");
