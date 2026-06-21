@@ -49,7 +49,6 @@
 
 **** Anton Antonov, "Unit distance graph animations"
 ***** https://community.wolfram.com/groups/-/m/t/3723873
-
 ***** Ed Pegg, "OpenAI disproves Erdős unit distance conjecture"
 ****** https://community.wolfram.com/groups/-/m/t/3719376
 
