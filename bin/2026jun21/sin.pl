@@ -78,7 +78,7 @@ say %fried;  # a1b2c3
 my $scalar = %fried; 
 say $scalar; # 3
 
-say $%fried;
+say ${%fried};
 
 
 
