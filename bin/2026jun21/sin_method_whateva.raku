@@ -20,6 +20,7 @@
     say @a; # [aaa]
     
     my @a = "a" xx 3;
+    say @a;
 
 
     }
