@@ -46,8 +46,13 @@
 *** Anton Antonov: OpenAI’s disproof of Erdos conjecture
 **** blurb from OpenAI:
 ***** https://openai.com/index/model-disproves-discrete-geometry-conjecture/
-**** Here is Wolfram Language post which I currently re-creating with Raku:
-***** https://community.wolfram.com/groups/-/m/t/37238733723873
+
+
+
+
+Anton Antonov, "Graph representation of grammars"  july 2023
+https://community.wolfram.com/groups/-/m/t/2955399
+
 
 *** Anton Antonov
 **** I have two subjects, can be seen as related, but can be discussed separately:
