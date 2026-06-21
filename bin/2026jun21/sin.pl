@@ -71,8 +71,9 @@ my   %fried = ( a => 1,
                c => 3,
                );
 
-say %fried;
+say %fried;  # a1b2c3
 
+my $scalar = %fried; 
 
 
 ### end main, into the subs
