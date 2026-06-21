@@ -214,7 +214,6 @@ any(0,4) != 0 is False #3748
 
 ** announcements 
 *** next meetings
-
 **** July 12, 2026
 
 *** North American Perl and Raku conference 
