@@ -16,14 +16,6 @@
 
 ** topics
 
-**** once around the state of other languages
-***** haskell is good for learning reduce trickery and such
-***** js good but painfully not raku
-***** python ubiquitous (and also not raku)
-***** rust, webassembly on the todo list
-***** go: mediocrity perfected
-****** corporate appeal
-
 
 *** Marton
 **** gfldex's issue about smartmatching of checks and type smileys
