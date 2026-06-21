@@ -142,11 +142,10 @@ any(0,4) != 0 is False #3748
 ***** bruce gray 
 ****** sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 
-** older topics
 
-*** Rob: issues with stashing an anonymous routine in a variable
 
-*** Weekly Challenge
+
+*** Weekly Challenge 368
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-368/
 **** Bruce Gray:
 #+BEGIN_SRC text
