@@ -16,9 +16,10 @@
 
 ** topics
 
+*** Any news from Greenville?
+**** https://tprc.us/
 
-
-*** comb in 6.3 has  explicit skip-back features
+*** comb in 6.3 has explicit skip-back features
 **** .comb(2 => -1)
 **** it doesn't handle weird cases well: 
 ***** does something unexpected silently without error or warning
