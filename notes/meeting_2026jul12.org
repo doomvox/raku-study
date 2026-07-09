@@ -29,7 +29,6 @@
 ***** https://github.com/doomvox/raku-study/discussions/27
 *******  NEXT TIME
 
-
 *** Steve Rowe opened an issue on flat(:hammer) documentation
 **** https://github.com/Raku/doc/issues/4807
 **** the original discussion:
