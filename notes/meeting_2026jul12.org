@@ -22,6 +22,7 @@
 ***** https://www.youtube.com/@YAPCNA/videos  
 **** steven lembark class on monday
 ***** some code issues, docs need updates (Kathy H)
+***** first hour was video taped
 
 *** DataCenters and the AI fad
 **** Anton: LLMs good for creating Raku Grammars
