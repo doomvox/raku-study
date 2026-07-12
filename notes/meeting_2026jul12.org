@@ -50,6 +50,9 @@
 ***** has to do with partially ordered sets
 ***** and operations that produce them
 
+*** Weekly Challenge
+**** bruce gray
+
 *** Ben McMahon
 **** raku grammar example
 **** rakubrew problem:
