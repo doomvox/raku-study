@@ -17,7 +17,8 @@
 ** topics
 *** DataCenters and the AI fad
 **** Anton: LLMs good for creating Raku Grammars
-**** 
+**** Next wave: chinese, local, adversarial ?
+
 
 *** Any news from Greenville?
 **** https://tprc.us/
