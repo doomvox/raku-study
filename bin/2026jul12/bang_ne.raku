@@ -1,4 +1,4 @@
-
+#!/home/doom/End/Cave/Raku/bin/raku_gh
 
 o
 Sunday July 12, 2026  11:16 AM
