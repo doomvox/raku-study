@@ -25,6 +25,7 @@
 ***** first hour was video taped
 **** anton: mcp servers common, clients less so
 ***** Raku has MCP::Client 
+
 *** DataCenters and the AI fad
 **** Anton: LLMs good for creating Raku Grammars
 **** Next wave: chinese, local, adversarial ?
