@@ -33,6 +33,15 @@
 ***** I had to update that package recently.
 ***** Using LLMs, but with lots of direction by me.
 
+
+**** 'Doing it right'-- having same workflows in all programming languages
+***** Anton's approach: 
+****** Implementations in Raku, Python, and Wolfram Language
+****** In that order
+****** DSL translation examples — making code generation LLM-ready
+****** Chatnik — CLI interface to chatting with LLMs
+
+
 *** David C.
 **** macbook pro 2015 vintage
 ***** home/end not working like windows/linux
