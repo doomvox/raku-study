@@ -20,7 +20,7 @@
 **** Tim C is also interested
 **** Look for videos: 
 ***** https://www.youtube.com/@YAPCNA/videos  
-**** steven lembark class on monday
+**** steven lembark class on monday (ai-ish)
 ***** some code issues, docs need updates (Kathy H)
 ***** first hour was video taped
 **** anton: mcp servers common, clients less so
