@@ -15,6 +15,13 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
+*** Any news from Greenville?
+**** https://tprc.us/
+**** Tim C is also interested
+
+**** Look for videos: https://www.youtube.com/@YAPCNA/videos  
+
+
 *** DataCenters and the AI fad
 **** Anton: LLMs good for creating Raku Grammars
 **** Next wave: chinese, local, adversarial ?
@@ -63,9 +70,6 @@
 
 ***** Key codes in Mac Terminal.app: https://apple.stackexchange.com/a/396208
 
-*** Any news from Greenville?
-**** https://tprc.us/
-**** Tim C is also interested
 
 
 *** comb in 6.3 has explicit skip-back features
