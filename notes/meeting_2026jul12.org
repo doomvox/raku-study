@@ -33,7 +33,6 @@
 ***** I had to update that package recently.
 ***** Using LLMs, but with lots of direction by me.
 
-
 **** 'Doing it right'-- having same workflows in all programming languages
 ***** Anton's approach: 
 ****** Implementations in Raku, Python, and Wolfram Language
