@@ -45,7 +45,7 @@
 ***** home/end not working like windows/linux
 
 *** semilattices
-**** junctions connection?
+**** connection to junctions?
 **** remedial like what are they, why would you care
 ***** has to do with partially ordered sets
 ***** and operations that produce them
