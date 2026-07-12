@@ -1,5 +1,7 @@
 #!/home/doom/End/Cave/Raku/bin/raku_gh
 
+## use v6.e.PREVIEW;
+
 o
 Sunday July 12, 2026  11:16 AM
 
