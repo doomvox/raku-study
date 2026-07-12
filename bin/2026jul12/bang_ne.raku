@@ -26,5 +26,7 @@
 
 {
     my $n = 7;
-    say so $n == 7;
+    say so $n == 7; # True
+    say so $n eq 7; # True
+
 }
