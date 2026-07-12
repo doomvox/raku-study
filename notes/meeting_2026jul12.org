@@ -33,8 +33,9 @@
 
 *** semilattices
 **** junctions connection?
-**** like what are they, why would you care
-
+**** remedial like what are they, why would you care
+***** has to do with partially ordered sets
+***** and operations that produce them
 *** Ben McMahon
 **** raku grammar example
 **** rakubrew problem:
