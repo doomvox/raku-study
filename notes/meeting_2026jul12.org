@@ -40,7 +40,7 @@
 ****** DSL translation examples-- making code generation LLM-ready
 ****** Chatnik-- CLI interface to chatting with LLMs
 
-*** David C.
+*** David C mac sysadmin issue:
 **** macbook pro 2015 vintage
 ***** home/end not working like windows/linux
 
