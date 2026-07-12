@@ -62,7 +62,7 @@
 ***** has to do with partially ordered sets
 ***** and operations that produce them
 **** anton: monads and feed operators
-***** associative, category theory
+***** associativity, category theory
 
 *** Weekly Challenge
 **** bruce gray
