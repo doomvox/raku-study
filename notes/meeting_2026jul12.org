@@ -29,7 +29,8 @@
 
 *** Ben McMahon
 **** raku grammar example
-**** rakubrew problem, can you add thgnis to the repository
+**** rakubrew problem:
+***** arm64/netbsd platform missing, can you add things to the repository
 
 *** Any news from Greenville?
 **** https://tprc.us/
