@@ -19,6 +19,9 @@
 **** Anton: LLMs good for creating Raku Grammars
 **** Next wave: chinese, local, adversarial ?
 
+*** David C.
+**** macbook pro 2015 vintage
+***** home/end not working like windows/linux
 
 *** Any news from Greenville?
 **** https://tprc.us/
