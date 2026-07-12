@@ -23,3 +23,8 @@
 
 
 # This has me wondering what !ne would do.
+
+{
+    my $n = 7;
+    say so $n == 7;
+}
