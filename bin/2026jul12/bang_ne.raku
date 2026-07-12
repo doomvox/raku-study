@@ -22,4 +22,4 @@
 # > gone that way... :-))
 
 
-# This has me wondering what !ne wouild do.
+# This has me wondering what !ne would do.
