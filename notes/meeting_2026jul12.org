@@ -24,7 +24,7 @@
 ***** home/end not working like windows/linux
 
 *** semilattics
-**** junctions?
+**** junctions connection?
 **** like what are they, why would you care
 
 *** Ben McMahon
@@ -33,7 +33,7 @@
 ***** arm64/netbsd on rasberry pi;
 ***** platform missing, can you add things to the repository
 
-*** Any news from Greenville?
+*** any news from Greenville?
 **** https://tprc.us/
 
 *** comb in 6.3 has explicit skip-back features
