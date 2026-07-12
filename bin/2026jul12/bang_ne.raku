@@ -22,7 +22,7 @@
 # > gone that way... :-))
 
 
-# This has me wondering what !ne would do.
+# This has me wondering about !ne
 
 {
     my $n = 7;
