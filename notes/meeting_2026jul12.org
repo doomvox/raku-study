@@ -60,7 +60,7 @@
 
 ***** Key codes in Mac Terminal.app: https://apple.stackexchange.com/a/396208
 
-*** any news from Greenville?
+*** Any news from Greenville?
 **** https://tprc.us/
 **** Tim C is also interested
 
