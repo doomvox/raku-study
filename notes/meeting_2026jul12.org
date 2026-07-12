@@ -18,9 +18,7 @@
 *** Any news from Greenville?
 **** https://tprc.us/
 **** Tim C is also interested
-
 **** Look for videos: https://www.youtube.com/@YAPCNA/videos  
-
 
 *** DataCenters and the AI fad
 **** Anton: LLMs good for creating Raku Grammars
