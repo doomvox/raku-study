@@ -31,7 +31,7 @@
 **** raku grammar example
 **** rakubrew problem:
 ***** arm64/netbsd on rasberry pi;
-*****  platform missing, can you add things to the repository
+***** platform missing, can you add things to the repository
 
 *** Any news from Greenville?
 **** https://tprc.us/
