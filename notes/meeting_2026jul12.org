@@ -27,7 +27,6 @@
 ***** Postulate rules of evolution that encompass a focus set sequences
 ***** Make a car using a suitably large 3D printer and (personal) mechanical tools
 
-
 ***** I am not sure is this of interest-- using Ephemerides tables. 
 ****** For astronomical objects tracking.
 ****** I had to update that package recently.
