@@ -58,9 +58,9 @@ say "===";
 {
     my $n = '7';
     my $j = 3|9;
-    say so $n ==  $j; # True
-    say so $n eq  $j; # True
-    say so $n !== $j; # False
-    say so $n ne  $j; # False
-    say so $n !ne $j; # True
+    say so $n ==  $j; # False
+    say so $n eq  $j; # False
+    say so $n !== $j; # True
+    say so $n ne  $j; # True
+    say so $n !ne $j; # False
 }
