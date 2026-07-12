@@ -51,6 +51,7 @@
 ****** Anton: BTW, Wolfram Language is free to run on Rasberry Pi  
 ******* https://www.wolfram.com/raspberry-pi/
 
+***** Key codes in Mac Terminal.app: https://apple.stackexchange.com/a/396208
 
 *** any news from Greenville?
 **** https://tprc.us/
