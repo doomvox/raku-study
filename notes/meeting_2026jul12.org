@@ -85,8 +85,6 @@ regex md-table-field { \h* $<field>=(<md-text-element>* % <md-table-field-sep>) 
 
 ***** Key codes in Mac Terminal.app: https://apple.stackexchange.com/a/396208
 
-
-
 *** Weekly Challenge
 **** bruce gray
 
