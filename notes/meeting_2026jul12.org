@@ -64,9 +64,6 @@
 **** anton: monads and feed operators
 ***** associativity, category theory
 
-*** Weekly Challenge
-**** bruce gray
-
 *** Ben McMahon
 **** raku grammar example
 **** rakubrew problem:
@@ -76,6 +73,11 @@
 ******* https://www.wolfram.com/raspberry-pi/
 
 ***** Key codes in Mac Terminal.app: https://apple.stackexchange.com/a/396208
+
+
+
+*** Weekly Challenge
+**** bruce gray
 
 
 
