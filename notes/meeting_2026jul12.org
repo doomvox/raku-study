@@ -64,6 +64,8 @@
 **** anton: monads and feed operators
 ***** associativity, category theory
 ***** translators of dsls...
+**** bruce: first impression
+***** 
 
 *** Ben McMahon
 **** raku grammar example
