@@ -20,6 +20,9 @@
 **** Tim C is also interested
 **** Look for videos: 
 ***** https://www.youtube.com/@YAPCNA/videos  
+**** steven lembark class on monday
+***** some code issues, docs need updates
+
 *** DataCenters and the AI fad
 **** Anton: LLMs good for creating Raku Grammars
 **** Next wave: chinese, local, adversarial ?
