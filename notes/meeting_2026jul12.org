@@ -19,6 +19,15 @@
 **** Anton: LLMs good for creating Raku Grammars
 **** Next wave: chinese, local, adversarial ?
 
+*** Anton Antonov:
+**** See this computational essay: https://community.wolfram.com/groups/-/m/t/37541443754144
+***** What is your preferred programming experience?
+***** Make an architectural structure where certain type of events occur
+***** Write and re-write code until language that fits the problem is derived
+***** Postulate rules of evolution that encompass a focus set sequences
+***** Make a car using a suitably large 3D printer and (personal) mechanical tools
+
+
 *** David C.
 **** macbook pro 2015 vintage
 ***** home/end not working like windows/linux
@@ -35,6 +44,7 @@
 
 *** any news from Greenville?
 **** https://tprc.us/
+
 
 *** comb in 6.3 has explicit skip-back features
 **** .comb(2 => -1)
