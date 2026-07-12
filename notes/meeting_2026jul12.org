@@ -65,7 +65,8 @@
 ***** associativity, category theory
 ***** translators of dsls...
 **** bruce: first impression
-***** 
+***** combining junctions related
+****** abstract algebra of semilattics
 
 *** Ben McMahon
 **** raku grammar example
