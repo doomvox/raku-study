@@ -15,7 +15,7 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** 
+*** DataCenters and the AI fad
 **** Anton: LLMs good for creating Raku Grammars
 
 *** Any news from Greenville?
