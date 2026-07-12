@@ -92,6 +92,7 @@
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-381/
 ***** Bruce Gray, Rob Ransbottom, Mark A
 ***** side discussion of "Test" features in Raku and test philosophy
+***** .minmax.bounds vs .minmax.min, .minmax.max
 ***** TODO  (|@a, |@b) vs [|](@a, @b) bs. (@a, @b)>>|
 
 
