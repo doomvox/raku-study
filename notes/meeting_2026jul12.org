@@ -63,6 +63,7 @@
 ***** and operations that produce them
 **** anton: monads and feed operators
 ***** associativity, category theory
+***** translators of dsls...
 
 *** Ben McMahon
 **** raku grammar example
