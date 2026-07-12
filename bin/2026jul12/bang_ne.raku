@@ -31,5 +31,4 @@
     say so $n !== 7; # False
     say so $n ne  7; # False
     say so $n !ne 7; # True
-
 }
