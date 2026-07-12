@@ -27,7 +27,6 @@
 ***** Postulate rules of evolution that encompass a focus set sequences
 ***** Make a car using a suitably large 3D printer and (personal) mechanical tools
 
-
 *** David C.
 **** macbook pro 2015 vintage
 ***** home/end not working like windows/linux
