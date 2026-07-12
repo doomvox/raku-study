@@ -46,7 +46,7 @@ say "===";
 say "===";
 {
     my $n = '7';
-    my $j = '6|7';
+    my $j = 6|7;
     say so $n ==  $j; # False
     say so $n eq  $j; # False
     say so $n !== $j; # True
