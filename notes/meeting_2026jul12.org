@@ -52,6 +52,8 @@
 
 *** any news from Greenville?
 **** https://tprc.us/
+**** Tim C is also interested
+
 
 *** comb in 6.3 has explicit skip-back features
 **** .comb(2 => -1)
