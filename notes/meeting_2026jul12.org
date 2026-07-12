@@ -85,8 +85,9 @@
 
 ***** Key codes in Mac Terminal.app: https://apple.stackexchange.com/a/396208
 
-*** Weekly Challenge
-**** bruce gray
+*** Weekly Challenge 381
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-381/
+***** Bruce Gray, Rob Ransbottom, 
 
 *** comb in 6.3 has explicit skip-back features
 **** .comb(2 => -1)
