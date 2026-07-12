@@ -25,7 +25,11 @@
 
 *** semilattics
 **** junctions?
-**** 
+**** like what are they, why would you care
+
+*** Ben McMahon
+**** raku grammar example
+**** rakubrew problem, can you add thgnis to the repository
 
 *** Any news from Greenville?
 **** https://tprc.us/
