@@ -17,6 +17,7 @@
 ** topics
 *** DataCenters and the AI fad
 **** Anton: LLMs good for creating Raku Grammars
+**** 
 
 *** Any news from Greenville?
 **** https://tprc.us/
