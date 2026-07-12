@@ -48,6 +48,8 @@
 **** rakubrew problem:
 ***** arm64/netbsd on rasberry pi;
 ***** platform missing, can you add things to the repository
+****** Anton: BTW, Wolfram Language is free to run on Rasberry Pi  
+******* https://www.wolfram.com/raspberry-pi/
 
 *** any news from Greenville?
 **** https://tprc.us/
