@@ -69,7 +69,6 @@
 ******* (google charts are also useful for animations)
 
 ***** How the package "Graph" can/should be extended with more performant code
-
 ********* Actually my topic 3 is LLM related:
 ********** How come LLM disproved that Erdos conjecture?
 ********** Learn and use "Math::GameTheory":
