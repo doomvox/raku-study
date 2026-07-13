@@ -62,8 +62,8 @@
 **** 
 **** https://en.wikipedia.org/wiki/Semilattice
 
-***** connection to junctions?
-***** remedial: like what are they, why would you care
+***** what's the connection of semilattices to junctions?
+***** what are semilattices, and why would you care
 ****** has to do with partially ordered sets
 ****** and operations that produce them
 ***** anton: monads and feed operators
