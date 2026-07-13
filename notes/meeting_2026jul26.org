@@ -29,6 +29,7 @@ say @b.are(Int);  # True
 #+END_SRC
 **** perl6-users: "Tip: what is in an array's cell"
 
+
 *** Any (more) news from Greenville?
 **** governance of open source projects
 
