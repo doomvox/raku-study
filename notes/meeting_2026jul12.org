@@ -30,7 +30,7 @@
 
 *** DataCenters and the AI fad
 **** What will we call the next wave? 
-***** chinese, local, adversarial ?
+***** chinese, local, adversarial?
 **** Anton: LLMs good for creating Raku Grammars
 
 *** Anton Antonov:
