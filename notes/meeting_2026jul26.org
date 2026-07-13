@@ -31,7 +31,6 @@ say @b.are(Int);  # True
 
 *** Any (more) news from Greenville?
 **** governance of open source projects
-***** 
 
 **** Look for videos: 
 ***** https://www.youtube.com/@YAPCNA/videos 
