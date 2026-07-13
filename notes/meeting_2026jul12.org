@@ -32,6 +32,7 @@
 **** Anton: LLMs good for creating Raku Grammars
 **** What will we call the next wave? 
 ***** chinese, local, adversarial ?
+
 *** Anton Antonov:
 **** See this computational essay: https://community.wolfram.com/groups/-/m/t/37541443754144
 **** more stuff
