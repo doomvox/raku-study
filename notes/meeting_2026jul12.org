@@ -35,6 +35,7 @@
 
 *** Anton Antonov:
 **** See this computational essay: https://community.wolfram.com/groups/-/m/t/37541443754144
+***** TODO bad link?
 **** more stuff
 ***** What is your preferred programming experience?
 ****** Make an architectural structure where certain type of events occur
