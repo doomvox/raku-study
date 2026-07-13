@@ -28,9 +28,6 @@ say @a.are(Int);  # False
 say @b.are(Int);  # True
 #+END_SRC
 
-
-
-
 *** Any news from Greenville?
 **** https://tprc.us/
 **** Tim C is also interested
