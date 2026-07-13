@@ -37,10 +37,10 @@
 **** See this computational essay: https://community.wolfram.com/groups/-/m/t/37541443754144
 **** more stuff
 ***** What is your preferred programming experience?
-***** Make an architectural structure where certain type of events occur
-***** Write and re-write code until language that fits the problem is derived
-***** Postulate rules of evolution that encompass a focus set sequences
-***** Make a car using a suitably large 3D printer and (personal) mechanical tools
+****** Make an architectural structure where certain type of events occur
+****** Write and re-write code until language that fits the problem is derived
+****** Postulate rules of evolution that encompass a focus set sequences
+****** Make a car using a suitably large 3D printer and (personal) mechanical tools
 
 **** I am not sure is this of interest-- using Ephemerides tables. 
 ***** For astronomical objects tracking.
