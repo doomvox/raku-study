@@ -28,7 +28,7 @@ say @a.are(Int);  # False
 say @b.are(Int);  # True
 #+END_SRC
 **** perl6-users: "Tip: what is in an array's cell"
-
+**** Q: consider other idioms, like hyper-narrow-WHAT
 
 *** Any (more) news from Greenville?
 **** governance of open source projects
