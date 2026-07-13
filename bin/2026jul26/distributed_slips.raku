@@ -30,3 +30,7 @@ say @m2; # [any([(1 2 3) (4 5 6) (7 8 9)], ((1 4 7) (2 5 8) (3 6 9)))]
 
 my @m3 = ( @a, [Z] @a )>>.slip;
 say @m3;
+
+# No such method 'slip' for invocant of type 'Int'. Did you mean any of
+# these: 'Slip', 'flip', 'skip', 'sin', 'slice', 'split'?
+#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026jul26/distributed_slips.raku line 31
