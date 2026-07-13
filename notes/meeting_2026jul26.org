@@ -28,9 +28,9 @@ say @a.are(Int);  # False
 say @b.are(Int);  # True
 #+END_SRC
 
-*** Any news from Greenville?
-**** https://tprc.us/
-**** Tim C is also interested
+*** Any (more) news from Greenville?
+**** governance of open source projects
+
 **** Look for videos: 
 ***** https://www.youtube.com/@YAPCNA/videos 
 **** steven lembark class on monday (ai-ish) 
