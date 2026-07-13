@@ -59,16 +59,19 @@
 ***** solution: enter terminfo codes yourself into a helpful gui
 
 *** semilattices
-**** connection to junctions?
-**** remedial: like what are they, why would you care
-***** has to do with partially ordered sets
-***** and operations that produce them
-**** anton: monads and feed operators
-***** associativity, category theory
-***** translators of dsls...
-**** bruce: first impression
-***** combining junctions 
-****** related to abstract algebra of semilattices
+**** 
+**** https://en.wikipedia.org/wiki/Semilattice
+
+***** connection to junctions?
+***** remedial: like what are they, why would you care
+****** has to do with partially ordered sets
+****** and operations that produce them
+***** anton: monads and feed operators
+****** associativity, category theory
+****** translators of dsls...
+***** bruce: first impression
+****** combining junctions 
+******* related to abstract algebra of semilattices
 
 
 *** Ben McMahon
