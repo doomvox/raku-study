@@ -68,7 +68,7 @@
 ***** translators of dsls...
 **** bruce: first impression
 ***** combining junctions 
-****** related to abstract algebra of semilattics
+****** related to abstract algebra of semilattices
 
 
 *** Ben McMahon
