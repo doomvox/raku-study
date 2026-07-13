@@ -71,7 +71,6 @@ say @b.are(Int);  # True
 ****** DSL translation examples-- making code generation LLM-ready
 ****** Chatnik-- CLI interface to chatting with LLMs
 
-
 *** semilattices
 **** https://www.reddit.com/r/rakulang/comments/1ut0ibf/junctions_as_semilattice/
 **** https://en.wikipedia.org/wiki/Semilattice
