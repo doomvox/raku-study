@@ -58,6 +58,7 @@
 **** macbook pro 2015 vintage
 ***** home/end not working like windows/linux
 ***** solution: enter terminfo codes yourself into a helpful gui
+***** Key codes in Mac Terminal.app: https://apple.stackexchange.com/a/396208
 
 *** semilattices
 **** https://www.reddit.com/r/rakulang/comments/1ut0ibf/junctions_as_semilattice/
