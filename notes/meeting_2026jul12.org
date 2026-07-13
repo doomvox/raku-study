@@ -67,8 +67,8 @@
 ***** associativity, category theory
 ***** translators of dsls...
 **** bruce: first impression
-***** combining junctions related
-****** abstract algebra of semilattics
+***** combining junctions 
+****** related to abstract algebra of semilattics
 
 
 *** Ben McMahon
