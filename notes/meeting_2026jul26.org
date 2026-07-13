@@ -24,7 +24,6 @@ In relation to all this, there's the `.are` method:
 my @a = 42, 3.14, "foo";
 say @a.are;  # (Cool)
 
-
 use v6.e.PREVIEW;
 my @b = 1,2,3;
 say @a.are(Int);  # False
