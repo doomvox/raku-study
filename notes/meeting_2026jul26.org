@@ -85,7 +85,6 @@ say @b.are(Int);  # True
 ****** combining junctions 
 ******* related to abstract algebra of semilattices
 
-
 *** Ben McMahon
 **** raku grammar example
 ***** Here is an example of code block delimiter parsing: 
