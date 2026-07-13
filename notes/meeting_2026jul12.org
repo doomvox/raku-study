@@ -60,7 +60,7 @@
 
 *** semilattices
 **** connection to junctions?
-**** remedial like what are they, why would you care
+**** remedial: like what are they, why would you care
 ***** has to do with partially ordered sets
 ***** and operations that produce them
 **** anton: monads and feed operators
