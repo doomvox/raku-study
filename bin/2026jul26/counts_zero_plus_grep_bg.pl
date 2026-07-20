@@ -81,7 +81,7 @@ my @pets = qw<dog cat dog cat dog dog>;
 }
 
 
-
+say "===";
 { # pattern match instead of eq
   my $dogs = 0+grep { /dog/ } @pets;
   my $cats = 0+grep { /cat/ } @pets;
