@@ -23,9 +23,11 @@ B<counts_zero_plus_grep_bg.pl> is a script which
 
 use v5.36; ## currently have 5.40 installed
 use Data::Dumper;
-  $Data::Dumper::Sortkeys = 1;
-  $Data::Dumper::Useqq = 1;
+$Data::Dumper::Sortkeys = 1;
+$Data::Dumper::Useqq = 1;
 
+use utf8;
+use open qw<:std :utf8>;  ## note, also see use autodie
 
 
 # use feature ":5.20.0";
