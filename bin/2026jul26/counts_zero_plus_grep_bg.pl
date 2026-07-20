@@ -82,7 +82,7 @@ my @pets = qw<dog cat dog cat dog dog>;
 
 
 
-{ # bruce gray slide, 
+{ # pattern match instead of eq
   # https://files.speakerdeck.com/presentations/f6b5c3e61fab4a3b8635f16afdb6cc6b/grouping_unclassified_-_tprc_2026.pdf
   my $dogs = 0+grep { /dog/ } @pets;
   my $cats = 0+grep { /cat/ } @pets;
