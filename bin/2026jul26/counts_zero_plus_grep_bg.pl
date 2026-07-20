@@ -71,8 +71,8 @@ GetOptions ("d|debug"    => \$DEBUG,
   my $dogs = 0+grep { $_ eq 'dog' } @pets;
   my $cats = 0+grep { $_ eq 'cat' } @pets;
 
-  say "cats: $cats";
-  say "dogs: $dogs";
+  say "cats: $cats"; # cats: 2
+  say "dogs: $dogs"; # dogs: 4
 
   for (@pets) {
     $_ eq 'dog' or $_ eq 'cat' or warn;
