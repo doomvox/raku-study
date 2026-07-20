@@ -66,13 +66,14 @@ GetOptions ("d|debug"    => \$DEBUG,
 
 { no warnings 'once'; $DB::single = 1; }
 
-my @pets = qw<dog cat dog cat dog dog>;
-my $dogs = 0+grep { $_ eq 'dog' } @pets;
-my $cats = 0+grep { $_ eq 'cat' } @pets;
-for (@pets) {
-$_
-
-
+{
+  my @pets = qw<dog cat dog cat dog dog>;
+  my $dogs = 0+grep { $_ eq 'dog' } @pets;
+  my $cats = 0+grep { $_ eq 'cat' } @pets;
+  for (@pets) {
+    $_ eq 'dog' or $_ eq 'cat' or warn;
+  }
+}
 
 
 
