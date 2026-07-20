@@ -88,7 +88,6 @@ say "===";
 
   say "cats: $cats"; # cats: 2
   say "dogs: $dogs"; # dogs: 4
-
 }
 
 
