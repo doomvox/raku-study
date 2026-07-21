@@ -91,7 +91,7 @@ say "=== += ===";
 
 
 
-say "===";
+say "=== m not eq ==";
 { # pattern match instead of eq
   my $dogs = 0+grep { /dog/ } @pets;
   my $cats = 0+grep { /cat/ } @pets;
