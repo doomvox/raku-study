@@ -80,7 +80,7 @@ my @pets = qw<dog cat dog cat dog dog>;
   }
 }
 
-say "===";
+say "=== += ===";
 { # But why not +=? 
   my $dogs += grep { /dog/ } @pets;
   my $cats += grep { /cat/ } @pets;
