@@ -123,6 +123,18 @@ say "=== count hash, bg ==";
 }
 
 
+say "=== List::MoreUtils::frequency, bg ==";
+{ # List::MoreUtils has frequency
+  use List::MoreUtils qw( frequency );
+  my %count = frequency( @pets );
+  my $dogs = $count{dog};
+  my $cats = $count{cat};
+
+  say "cats: $cats"; # cats: 2
+  say "dogs: $dogs"; # dogs: 4
+}
+
+
 
 ### end main, into the subs
 
