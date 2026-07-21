@@ -103,7 +103,7 @@ say "=== m instead ==";
 { # count hash
   my %count;
   my @ret = 
-    map { $count{$_} } @pets;
+    map { $count{$_}++ } @pets;
   say Dumper( \%count );
   my $dogs = $count{dog};
   my $cats = $count{cat};
