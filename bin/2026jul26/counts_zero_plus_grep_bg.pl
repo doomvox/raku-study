@@ -90,6 +90,14 @@ say "===";
   say "dogs: $dogs"; # dogs: 4
 }
 
+say "===";
+{ # 
+  my $dogs += grep { /dog/ } @pets;
+  my $cats += grep { /cat/ } @pets;
+
+  say "cats: $cats"; # cats: 2
+  say "dogs: $dogs"; # dogs: 4
+}
 
 
 
