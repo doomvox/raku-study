@@ -99,12 +99,12 @@ say "=== m instead ==";
 }
 
 
-say "=== m instead ==";
+say "=== count hash ==";
 { # count hash
   my %count;
   my @ret = 
     map { $count{$_}++ } @pets;
-  say Dumper( \%count );
+  say Dumper( \@ret );
   my $dogs = $count{dog};
   my $cats = $count{cat};
 
