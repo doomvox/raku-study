@@ -89,8 +89,6 @@ say "=== += ===";
   say "dogs: $dogs"; # dogs: 4
 }
 
-
-
 say "=== m instead ==";
 { # pattern match instead of eq
   my $dogs = 0+grep { /dog/ } @pets;
