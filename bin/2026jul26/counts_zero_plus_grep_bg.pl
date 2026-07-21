@@ -80,20 +80,21 @@ my @pets = qw<dog cat dog cat dog dog>;
   }
 }
 
-
 say "===";
-{ # pattern match instead of eq
-  my $dogs = 0+grep { /dog/ } @pets;
-  my $cats = 0+grep { /cat/ } @pets;
+{ # But why not +=? 
+  my $dogs += grep { /dog/ } @pets;
+  my $cats += grep { /cat/ } @pets;
 
   say "cats: $cats"; # cats: 2
   say "dogs: $dogs"; # dogs: 4
 }
 
+
+
 say "===";
-{ # 
-  my $dogs += grep { /dog/ } @pets;
-  my $cats += grep { /cat/ } @pets;
+{ # pattern match instead of eq
+  my $dogs = 0+grep { /dog/ } @pets;
+  my $cats = 0+grep { /cat/ } @pets;
 
   say "cats: $cats"; # cats: 2
   say "dogs: $dogs"; # dogs: 4
