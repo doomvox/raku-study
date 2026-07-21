@@ -108,9 +108,6 @@ say "=== m instead ==";
   my $dogs = $count{dog};
   my $cats = $count{cat};
 
-  my $dogs = 0+grep { /dog/ } @pets;
-  my $cats = 0+grep { /cat/ } @pets;
-
   say "cats: $cats"; # cats: 2
   say "dogs: $dogs"; # dogs: 4
 }
