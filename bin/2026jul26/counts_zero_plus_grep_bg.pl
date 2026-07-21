@@ -100,7 +100,7 @@ say "=== m instead ==";
 
 
 say "=== count hash ==";
-{ # count hash
+{ # count hash  
   my %count;
   map { $count{$_}++ } @pets;
   my $dogs = $count{dog};
