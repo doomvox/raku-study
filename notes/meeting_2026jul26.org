@@ -30,7 +30,7 @@ say @b.are(Int);  # True
 **** perl6-users: "Tip: what is in an array's cell"
 **** Q: consider other idioms, like hyper-narrow-WHAT
 
-*** David C was looking for Chad Granum's Test2 talk: link up yet?
+*** David Christensen was looking for Chad Granum's Test2 talk: link up yet?
 
 
 ** topics from last meeting, July 12, 2026
