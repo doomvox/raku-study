@@ -111,6 +111,17 @@ say "=== count hash ==";
 }
 
 
+say "=== count hash, bg ==";
+{ # count hash with for (neater than map) 
+  my %count;
+  $count{$_}++ for @pets;
+  my $dogs = $count{dog};
+  my $cats = $count{cat};
+
+  say "cats: $cats"; # cats: 2
+  say "dogs: $dogs"; # dogs: 4
+}
+
 
 
 ### end main, into the subs
