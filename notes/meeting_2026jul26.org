@@ -63,6 +63,10 @@ say @b.are(Int);  # True
 
 *** Weekly Challenge
 **** squares in circular order
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-383/#TASK2
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-382/#TASK1
+***** http://ccgi.campbellsmiths.force9.co.uk/challenge/382
+
 
 *** Possible conference venue
 **** University of Waterloo, Ontario, Canada
