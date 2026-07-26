@@ -57,9 +57,6 @@ say @b.are(Int);  # True
 
 **** puzzle
 
-
-
-
 *** Raku Course 
 **** course.raku.org
 **** announced completed
