@@ -55,6 +55,9 @@ say @b.are(Int);  # True
 **** course.raku.org
 **** announced completed
 
+*** Weekly Challenge
+**** squares in circular order
+
 ** topics from last meeting, July 12, 2026
 
 *** Any (more) news from Greenville?
