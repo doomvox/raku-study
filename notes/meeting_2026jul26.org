@@ -72,14 +72,7 @@ say @b.are(Int);  # True
 ******** * many solutions scale badly: O(N^2)
 ***** perl Tree::DAG_Node
 
-*** Possible conference venue
-**** University of Waterloo, Ontario, Canada
-
-*** Ben: L10N and I18N
-**** https://raku.land/zef:l10n/L10N::JA
-***** The sample from raku.org succeeds for me with ryuu but fails with raku2026.06 
-***** is this related to a change toward RakuAST replacing what used to be NQP?
-
+** Mark A:
 
 
 ** topics from last meeting, July 12, 2026
