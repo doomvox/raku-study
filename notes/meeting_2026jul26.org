@@ -77,8 +77,18 @@ say @b.are(Int);  # True
 ****** Abigail: Finding Hamiltonian Path Using Regexp Engine   
 ******* https://perlmonks.org/?node_id=282049
 
+*** Ben points out that there's problems with the Japanese example on the front page
+**** the module L10N::JA also has problems
+***** naming of the script: ryuu vs ryuuu
+****** script example works
+***** the explicit "use L10N::JA" example doesn't work
 
 
+*** https://rakudoweekly.blog/2025/06/22/2025-25-to-found-or-not/
+**** Erry Kostala-- video about how they write Raku programs in Japanese using the L10N::JA module.
+***** https://www.youtube.com/watch?v=6QSiEuByC1Y&t=140s
+
+**** 
 ** topics from last meeting, July 12, 2026
 
 *** Any (more) news from Greenville?
