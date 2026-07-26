@@ -67,6 +67,11 @@ say @b.are(Int);  # True
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-382/#TASK1
 ***** http://ccgi.campbellsmiths.force9.co.uk/challenge/382
 
+**** hamiltonian cycle problem
+***** bruce points out there may be a way to prune what you need to do
+
+**** perl Tree::DAG_Node
+
 *** Possible conference venue
 **** University of Waterloo, Ontario, Canada
 
