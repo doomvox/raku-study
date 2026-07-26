@@ -16,6 +16,11 @@
 
 ** topics
 
+*** videos for tprf 2026 
+**** up on line now -- just getting started on them myself
+**** 
+
+
 *** lizmat on the .are method
 **** https://docs.raku.org/routine/are
 #+BEGIN_SRC raku
