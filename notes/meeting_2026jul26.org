@@ -73,7 +73,7 @@ say @b.are(Int);  # True
 ***** perl Tree::DAG_Node
 
 ***** Mark A:
-****** Abigail: finding hamiltonian path using regexp engine   
+****** Abigail: Finding Hamiltonian Path Using Regexp Engine   
 ******* https://perlmonks.org/?node_id=282049
 
 
