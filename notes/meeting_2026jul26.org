@@ -73,6 +73,8 @@ say @b.are(Int);  # True
 ***** perl Tree::DAG_Node
 
 ** Mark A:
+   
+https://perlmonks.org/?node_id=282049
 
 
 ** topics from last meeting, July 12, 2026
