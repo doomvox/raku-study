@@ -49,7 +49,16 @@ say @b.are(Int);  # True
 **** perl6-users: "Tip: what is in an array's cell"
 **** Q: consider other idioms, like hyper-narrow-WHAT
 
-*** David Christensen was looking for Chad Granum's Test2 talk: link up yet?
+*** David 
+**** testing
+***** David Christensen was looking for Chad Granum's Test2 talk: link up yet?
+****** All About Test2 ~ Chad Granum
+****** https://www.youtube.com/watch?v=wsCNdr3vNHY 
+
+**** puzzle
+
+
+
 
 *** Raku Course 
 **** course.raku.org
@@ -58,9 +67,6 @@ say @b.are(Int);  # True
 *** Weekly Challenge
 **** squares in circular order
 
-*** David 
-**** testing
-**** puzzle
 
 ** topics from last meeting, July 12, 2026
 
