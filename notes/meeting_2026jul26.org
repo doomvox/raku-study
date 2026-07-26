@@ -51,6 +51,9 @@ say @b.are(Int);  # True
 
 *** David Christensen was looking for Chad Granum's Test2 talk: link up yet?
 
+*** Raku Course 
+**** course.raku.org
+**** completed? 
 
 ** topics from last meeting, July 12, 2026
 
