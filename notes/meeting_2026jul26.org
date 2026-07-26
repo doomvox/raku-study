@@ -22,6 +22,7 @@
 
 
 *** William Michels, One-liner talk
+**** Bill's talk on Raku One-liners at TPRC2026:  https://youtu.be/4QoR1swxWrs?list=PLWmGBGYq6fEQ
 **** nice introduction
 **** good:  put vs say, S/// vs s///
 **** picking nits:
