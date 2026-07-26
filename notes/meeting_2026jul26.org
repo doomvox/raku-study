@@ -58,7 +58,6 @@ say @b.are(Int);  # True
 *** Weekly Challenge
 **** squares in circular order
 
-
 *** David 
 **** testing
 **** puzzle
