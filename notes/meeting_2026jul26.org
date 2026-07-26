@@ -21,6 +21,14 @@
 **** https://www.youtube.com/@YAPCNA
 
 
+*** William Michels, One-liner talk
+**** nice introduction
+**** good:  put vs say
+**** picking nits:
+***** s:g///
+****** :g for global meaning multiple 
+****** compare s///g 
+
 *** lizmat on the .are method
 **** https://docs.raku.org/routine/are
 #+BEGIN_SRC raku
