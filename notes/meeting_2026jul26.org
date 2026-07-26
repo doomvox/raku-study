@@ -72,9 +72,9 @@ say @b.are(Int);  # True
 ******** * many solutions scale badly: O(N^2)
 ***** perl Tree::DAG_Node
 
-** Mark A:
-   
-https://perlmonks.org/?node_id=282049
+***** Mark A:
+****** abigail: finding hamiltonian path using regexp engine   
+******* https://perlmonks.org/?node_id=282049
 
 
 ** topics from last meeting, July 12, 2026
