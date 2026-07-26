@@ -3,6 +3,7 @@
 my 
 while 
 
+
 {
     my $i;
     s:g/ a /A{++$i}/;'
