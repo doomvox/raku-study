@@ -58,6 +58,11 @@ say @b.are(Int);  # True
 *** Weekly Challenge
 **** squares in circular order
 
+
+*** David 
+**** testing
+**** puzzle
+
 ** topics from last meeting, July 12, 2026
 
 *** Any (more) news from Greenville?
