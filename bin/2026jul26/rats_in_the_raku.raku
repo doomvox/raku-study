@@ -4,4 +4,4 @@ my $n = 332.76;
 
 put $n.round(1/3);  # 332.666667
 
-put $n.round(1/3).WHAT;
+
