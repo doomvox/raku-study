@@ -1,4 +1,4 @@
-#!/home/doom/End/Cave/Raku/bin/raku_gh
+#!/home/doom/.raku/bin/ryuu
 
 use L10N::JA;
 言う "こんにちは世界";
