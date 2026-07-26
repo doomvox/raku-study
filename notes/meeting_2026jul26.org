@@ -23,7 +23,7 @@
 
 *** William Michels, One-liner talk
 **** nice introduction
-**** good:  put vs say
+**** good:  put vs say, S/// vs s///
 **** picking nits:
 ***** s:g///
 ****** :g for global meaning multiple 
