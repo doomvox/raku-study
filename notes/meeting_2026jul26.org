@@ -81,6 +81,7 @@ say @b.are(Int);  # True
 ***** is this related to a change toward RakuAST replacing what used to be NQP?
 
 
+
 ** topics from last meeting, July 12, 2026
 
 *** Any (more) news from Greenville?
