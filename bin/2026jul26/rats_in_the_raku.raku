@@ -2,4 +2,4 @@
 
 my $n = 332.76;
 
-say $n.round(1/3);
+put $n.round(1/3);
