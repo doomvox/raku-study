@@ -53,7 +53,7 @@ say @b.are(Int);  # True
 
 *** Raku Course 
 **** course.raku.org
-**** completed? 
+**** announced completed
 
 ** topics from last meeting, July 12, 2026
 
