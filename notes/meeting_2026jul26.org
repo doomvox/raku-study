@@ -29,6 +29,7 @@
 ****** :g for global meaning multiple 
 ****** contrast s///g 
 
+
 *** lizmat on the .are method
 **** https://docs.raku.org/routine/are
 #+BEGIN_SRC raku
