@@ -68,8 +68,9 @@ say @b.are(Int);  # True
 ***** http://ccgi.campbellsmiths.force9.co.uk/challenge/382
 
 **** hamiltonian cycle problem
-***** bruce points out there may be a way to prune what you need to do
-******** * many solutions scale badly: O(N^2)
+***** Bruce Gray points out there may be a way to prune what you need to do
+******** many solutions scale badly: O(N^2)
+******** Anton: maybe a version of Warnsdorff's Rule for the Knight’s Tour problem can be applied.
 ***** perl Tree::DAG_Node
 
 ***** Mark A:
