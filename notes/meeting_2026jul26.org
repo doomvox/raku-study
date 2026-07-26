@@ -64,7 +64,7 @@ say @b.are(Int);  # True
 *** Weekly Challenge
 **** squares in circular order
 
-*** 
+*** possible conference venue
 **** University of Waterloo, Ontario, Canada
 
 ** topics from last meeting, July 12, 2026
