@@ -1,5 +1,7 @@
 #!/home/doom/End/Cave/Raku/bin/raku_gh
 
+## rakudoc.org front page issue:
+
 私の $数 = プロンプト "数を教えてください ";
 言う "数は{$数}です。";
 
