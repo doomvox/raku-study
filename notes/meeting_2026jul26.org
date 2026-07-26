@@ -78,6 +78,7 @@ say @b.are(Int);  # True
 ******* https://perlmonks.org/?node_id=282049
 
 
+
 ** topics from last meeting, July 12, 2026
 
 *** Any (more) news from Greenville?
