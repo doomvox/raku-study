@@ -27,7 +27,7 @@
 **** picking nits:
 ***** s:g///
 ****** :g for global meaning multiple 
-****** compare s///g 
+****** contrast s///g 
 
 *** lizmat on the .are method
 **** https://docs.raku.org/routine/are
