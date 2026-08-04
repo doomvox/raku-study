@@ -20,5 +20,6 @@
     ## {any(True, False, False, False, False, False) => [3]}
 
     say (3).categorize( { $_ == any(3, 4, 5, 6, 7, 8) } );
+    ## {any(True, False, False, False, False, False) => [3]}
 
 }
