@@ -8,3 +8,5 @@
 
 say (3).classify( * ~~ any(3, 4, 5, 6, 7, 8) );
 ## {True => [3]}
+
+say (3).classify( { $_ ~~ any(3, 4, 5, 6, 7, 8) } );
