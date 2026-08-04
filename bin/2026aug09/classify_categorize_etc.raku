@@ -7,3 +7,4 @@
 ## guessing at what that was intended to do:
 
 say (3).classify( * ~~ any(3, 4, 5, 6, 7, 8) );
+## {True => [3]}
