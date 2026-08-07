@@ -20,47 +20,12 @@
 **** https://www.youtube.com/@YAPCNA
 
 
-*** lizmat on the .are method
-**** https://docs.raku.org/routine/are
-#+BEGIN_SRC raku
-my @a = 42, 3.14, "foo";
-say @a.are;  # (Cool)
-
-use v6.e.PREVIEW;
-my @b = 1,2,3;
-say @a.are(Int);  # False
-say @b.are(Int);  # True
-#+END_SRC
-**** perl6-users: "Tip: what is in an array's cell"
-**** Q: consider other idioms, like hyper-narrow-WHAT
-
-*** David 
-**** testing
-***** David Christensen was looking for Chad Granum's Test2 talk: link up yet?
-****** All About Test2 ~ Chad Granum
-****** https://www.youtube.com/watch?v=wsCNdr3vNHY 
-
-**** puzzle
 
 *** Raku Course 
 **** course.raku.org
+
 **** announced completed
 
-*** Weekly Challenge
-**** squares in circular order
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-383/#TASK2
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-382/#TASK1
-***** http://ccgi.campbellsmiths.force9.co.uk/challenge/382
-
-**** hamiltonian cycle problem
-***** Bruce Gray points out there may be a way to prune what you need to do
-******** many solutions scale badly: O(N^2)
-******** Anton: maybe a version of Warnsdorff's Rule for the Knight’s Tour problem can be applied.
-***** perl Tree::DAG_Node
-
-***** Mark A:
-****** Abigail: Finding Hamiltonian Path Using Regexp Engine   
-******* https://perlmonks.org/?node_id=282049
 
 *** Ben points out that there's problems with the Japanese example on the front page
 **** the module L10N::JA also has problems
@@ -68,29 +33,14 @@ say @b.are(Int);  # True
 ****** script example works
 ***** the explicit "use L10N::JA" example doesn't work
 
+
 *** https://rakudoweekly.blog/2025/06/22/2025-25-to-found-or-not/
 **** Erry Kostala-- video about how they write Raku programs in Japanese using the L10N::JA module.
 ***** https://www.youtube.com/watch?v=6QSiEuByC1Y&t=140s
 
 
+
 ** topics from last meeting, July 12, 2026
-
-*** Any (more) news from Greenville?
-**** governance of open source projects
-
-**** Look for videos: 
-***** https://www.youtube.com/@YAPCNA/videos 
-**** steven lembark class on monday (ai-ish) 
-***** some code issues, docs need updates (Kathy H)
-***** first hour was video taped
-**** anton: mcp servers common, clients less so
-***** Raku has MCP::Client 
-****** https://raku.land/zef:antononcube/MCP::Client
-
-*** DataCenters and the AI fad
-**** What will we call the next wave? 
-***** chinese, local, adversarial?
-**** Anton: LLMs good for creating Raku Grammars
 
 *** Anton Antonov:
 **** See this computational essay: https://community.wolfram.com/groups/-/m/t/37541443754144
