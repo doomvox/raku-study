@@ -14,10 +14,9 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
-** topics
+** old topics
 
 *** videos for tprf 2026 
-**** up on line now -- just getting started on them myself
 **** https://www.youtube.com/@YAPCNA
 
 *** The Jacobian Conjecture
