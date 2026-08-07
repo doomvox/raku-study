@@ -19,11 +19,6 @@
 *** videos for tprf 2026 
 **** https://www.youtube.com/@YAPCNA
 
-*** The Jacobian Conjecture
-**** Anton Antonov
-**** https://jacobianfun.org/jacobian-explained
-***** Bruce Gray: "Very visual"
-
 *** William Michels, One-liner talk
 **** Bill's talk on Raku One-liners at TPRC2026:  
 ***** https://youtu.be/4QoR1swxWrs?list=PLWmGBGYq6fEQ
