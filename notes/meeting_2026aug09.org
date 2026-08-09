@@ -20,7 +20,8 @@
 **** The state of the arts for Ben Reina
 
 **** PDF for brian d foy's "Learning Perl 6"   has been updated to Raku naming, free to read!
-https://greenteapress.com/wp/think-perl-6/
+***** https://greenteapress.com/wp/think-perl-6/
+***** https://andrewshitov.com/raku-books/
 
 *** Anton Antonov topics:
 
