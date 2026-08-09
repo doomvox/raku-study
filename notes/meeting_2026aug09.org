@@ -33,7 +33,7 @@
 ****** https://www.youtube.com/watch?v=rRFHehSKlZI&list=PLWmGBGYq6fEQ&index=30&pp=iAQB0gcJCb4LAYcqIYzv
 
 **** Mark A
-***** speaking of Andrew did you see his solution to this problem? [(^)] @lists  🤯
+***** speaking of Andrew did you see his solution to this problem? [(^)] @lists
 ****** "ash"
 ****** https://github.com/manwar/perlweeklychallenge-club/commit/93b56589895718ef8037dbc6abdc5485eeddd0bd
 
