@@ -16,17 +16,17 @@
 
 ** topics
 
-My topics:
+*** My topics:
 
-Hamiltonian paths / cycles with regexes — meh
-Integrating OpenRouter and xAI with Raku — both sessions and Jupyter magic cells
-Cellular Automata (CA) in Raku
-
-
- What is our policy for people who refer to “Raku” as “Perl6” ?
+**** Hamiltonian paths / cycles with regexes — meh
+**** Integrating OpenRouter and xAI with Raku — both sessions and Jupyter magic cells
+**** Cellular Automata (CA) in Raku
 
 
-My topics:
+****  What is our policy for people who refer to “Raku” as “Perl6” ?
+
+
+**** Ben McMahon
 The Weekly Challenge 385
 fez init
 
