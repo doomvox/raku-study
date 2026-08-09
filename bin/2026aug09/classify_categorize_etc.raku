@@ -23,7 +23,8 @@
     ## {any(True, False, False, False, False, False) => [3]}
 
 
-    say so (3).categorize( { $_ == any(3, 4, 5, 6, 7, 8) } );
+    say (3).categorize( { $_ == any(3, 4, 5, 6, 7, 8) } ).keys;
+
 
     if ( any(True, False, False, False, False, False) ) {
         say "in other words, 'True'";
