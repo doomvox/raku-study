@@ -78,14 +78,14 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 
 
 *** funding os work
-
 **** grants
-
 **** gofundme/patreon
 
-**** https://xkcd.com/2347/
+**** Bruce discourse about the critical need to defend against bitrot
 
-**** https://monacaron.com/murals/market-st-railway-mural-last-section-utopia-market-st
+***** https://xkcd.com/2347/
+
+***** https://monacaron.com/murals/market-st-railway-mural-last-section-utopia-market-st
 
 ** older topics
 
