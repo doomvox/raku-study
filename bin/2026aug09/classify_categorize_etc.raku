@@ -36,6 +36,7 @@
     ## True  (( Oh. ))
 
     say True ~~ | (3).categorize( { $_ == any(300, 400, 500, 600, 700, 800) } ).keys;
+    ## False
 
     if ( any(True, False, False, False, False, False) ) {
         say "in other words, 'True'";
