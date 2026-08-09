@@ -26,7 +26,6 @@
 ***** https://andrewshitov.com/raku-books/
 
 *** Anton Antonov topics:
-
 **** Hamiltonian paths / cycles with regexes-- meh
 **** Integrating OpenRouter and xAI with Raku-- both sessions and Jupyter magic cells
 **** Cellular Automata (CA) in Raku
