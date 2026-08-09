@@ -32,6 +32,7 @@
 **** Mark A
 ***** speaking of Andrew did you see his solution to this problem? [(^)] @lists  🤯
 ****** "ash"
+****** https://github.com/manwar/perlweeklychallenge-club/commit/93b56589895718ef8037dbc6abdc5485eeddd0bd
 
 ***** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-385/mark-anderson/raku/ch-2.raku
 
