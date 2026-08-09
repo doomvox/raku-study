@@ -244,28 +244,6 @@ any(0,4) != 0 is False #3748
 
 
 
-
-*** Weekly Challenge 368
-**** https://theweeklychallenge.org/blog/perl-weekly-challenge-368/
-**** Bruce Gray:
-#+BEGIN_SRC text
-> 3) In case it is of interest, my quick solutions to this week's Weekly Challenge are:
->
->     sub task1 ( UInt $s, UInt $c --> UInt ) {
->
->         sub all-but ( UInt $n --> UInt ) { +( $s.substr(0,$n) ~ $s.substr($n+1) )}
->
->         return $s.indices($c).map(&all-but).max;
->     }
->
->     use Prime::Factor;
->     multi sub task2 ( UInt $s, 0 --> UInt ) { +prime-factors($s).squish }
->     multi sub task2 ( UInt $s, 1 --> UInt ) { +prime-factors($s)        }
-#+END_SRC
-
-***** use of END_SRC here works with github... Anton makes connection to babel-mode 
-
-
 ** announcements 
 *** next meetings
 **** August 9, 2026
