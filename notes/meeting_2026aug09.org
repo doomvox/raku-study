@@ -34,11 +34,6 @@
 
 ***** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-385/mark-anderson/raku/ch-2.raku
 
-
-
-**** fez init
-
-
 *** Bruce Gray
 **** coercion protocol
 raku -e 'sub foo ( Int(Cool) $p ) { say $p }; foo( 3.5);'
