@@ -30,6 +30,7 @@
     say so | (3).categorize( { $_ == any(3, 4, 5, 6, 7, 8) } ).keys;
     ## True
 
+    ## any(False, False, False, False, False, False)
     say | (3).categorize( { $_ == any(300, 400, 500, 600, 700, 800) } ).keys;
     say so | (3).categorize( { $_ == any(300, 400, 500, 600, 700, 800) } ).keys;
     ## True
