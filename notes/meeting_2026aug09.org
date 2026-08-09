@@ -71,7 +71,8 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 **** https://www.youtube.com/watch?v=2y6B0Spuo9U
 **** (Speaking at Toronto PerlMongers, earlier this year) -- Bruce Gray
 
-
+*** Perl School -- also a book publisher
+**** https://perlschool.com/
 
 ** older topics
 
