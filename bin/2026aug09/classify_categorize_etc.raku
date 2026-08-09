@@ -45,8 +45,8 @@
     }
 
     if ( any(False, False, False) ) {
-        say "in other words, 'True'";
-        ## in other words, 'True'
+        say "in other words, 'False'";
+        ## in other words, 'False'
     }
 
 
