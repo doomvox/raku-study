@@ -27,6 +27,7 @@
     ## (any(True, False, False, False, False, False))
     say | (3).categorize( { $_ == any(3, 4, 5, 6, 7, 8) } ).keys;
     ## any(True, False, False, False, False, False)
+    say so | (3).categorize( { $_ == any(3, 4, 5, 6, 7, 8) } ).keys;
 
 
     if ( any(True, False, False, False, False, False) ) {
