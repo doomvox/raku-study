@@ -236,6 +236,9 @@ any(0,4) != 0 is False #3748
 ** announcements 
 *** next meetings
 **** August 9, 2026
+**** August 23, 2026
+**** (skipping Labor Day weekend, 9/7)
+**** September 13, 2026
 
 
 
