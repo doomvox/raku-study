@@ -69,7 +69,7 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 
 
 
-** old topics
+** older topics
 
 *** videos for tprf 2026 
 **** https://www.youtube.com/@YAPCNA
@@ -87,10 +87,6 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 *** https://rakudoweekly.blog/2025/06/22/2025-25-to-found-or-not/
 **** Erry Kostala-- video about how they write Raku programs in Japanese using the L10N::JA module.
 ***** https://www.youtube.com/watch?v=6QSiEuByC1Y&t=140s
-
-
-
-** topics from last meeting, July 12, 2026
 
 *** Anton Antonov:
 **** See this computational essay: https://community.wolfram.com/groups/-/m/t/37541443754144
