@@ -28,6 +28,14 @@
 *** Ben McMahon:
 **** The Weekly Challenge 385
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-385/
+
+**** Mark A
+***** speaking of Andrew did you see his solution to this problem? [(^)] @lists  🤯
+
+
+
+
+
 **** fez init
 
 
@@ -37,6 +45,8 @@ raku -e 'sub foo ( Int(Cool) $p ) { say $p }; foo( 3.5);'
     3
 raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
     3.5
+
+
 
 *** Anton Antonov topics:
 **** Hamiltonian paths / cycles with regexes-- meh
