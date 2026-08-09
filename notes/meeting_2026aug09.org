@@ -29,6 +29,9 @@
 **** The Weekly Challenge 385
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-385/
 
+***** I suggest looking at Bruce Gray's last talk:
+****** https://www.youtube.com/watch?v=rRFHehSKlZI&list=PLWmGBGYq6fEQ&index=30&pp=iAQB0gcJCb4LAYcqIYzv
+
 **** Mark A
 ***** speaking of Andrew did you see his solution to this problem? [(^)] @lists  🤯
 ****** "ash"
