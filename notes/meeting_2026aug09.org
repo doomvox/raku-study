@@ -37,7 +37,6 @@
 
 *** Raku Course 
 **** course.raku.org
-
 **** announced completed
 
 
