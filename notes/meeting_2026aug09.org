@@ -33,8 +33,6 @@
 *** videos for tprf 2026 
 **** https://www.youtube.com/@YAPCNA
 
-
-
 *** Raku Course 
 **** course.raku.org
 
