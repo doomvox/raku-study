@@ -67,6 +67,10 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 ****  What is our policy for people who refer to 'Raku' as 'Perl6' ?
 
 
+*** Dave Cross: Still Munging Data with Perl 
+**** https://www.youtube.com/watch?v=2y6B0Spuo9U
+**** (Speaking at Toronto PerlMongers, earlier this year) -- Bruce Gray
+
 
 
 ** older topics
