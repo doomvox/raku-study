@@ -73,7 +73,6 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 
 *** Perl School -- also a book publisher
 **** https://perlschool.com/
-
 **** https://raku.org/learn
 
 
