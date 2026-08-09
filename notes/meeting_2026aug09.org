@@ -25,6 +25,10 @@
 **** 
 ***** https://andrewshitov.com/raku-books/
 
+*** Ben McMahon:
+**** The Weekly Challenge 385
+**** fez init
+
 *** Anton Antonov topics:
 **** Hamiltonian paths / cycles with regexes-- meh
 **** Integrating OpenRouter and xAI with Raku-- both sessions and Jupyter magic cells
@@ -32,9 +36,6 @@
 
 ****  What is our policy for people who refer to 'Raku' as 'Perl6' ?
 
-*** Ben McMahon:
-**** The Weekly Challenge 385
-**** fez init
 
 
 
