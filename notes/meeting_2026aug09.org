@@ -137,6 +137,7 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 **** gfldex's issue about smartmatching of checks and type smileys
 ***** https://github.com/doomvox/raku-study/discussions/27
 
+
 *** Steve Rowe opened an issue on flat(:hammer) documentation
 **** https://github.com/Raku/doc/issues/4807
 **** the original discussion:
@@ -146,9 +147,6 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 **** flat_hammer_on_hash_vs_deepmap.raku
 **** flattering_flat.raku
 **** flat_hammer_slip.raku
-
-
-** older topics
 
 *** bruce gray
 **** weekly challenge 377
