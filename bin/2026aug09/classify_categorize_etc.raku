@@ -46,7 +46,6 @@
 
     if ( any(False, False, False) ) {
         say "in other words: something's wrong";
-        ## in other words, 'False'
     } else {
         say "in other words, 'False'";
     }
