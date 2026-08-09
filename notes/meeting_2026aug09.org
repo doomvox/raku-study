@@ -47,7 +47,7 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 
 
 *** Ben McMahon:
-**** fez init
+**** zef init
 ***** creates a META6.json, etc
 **** alternate: mi6
 
