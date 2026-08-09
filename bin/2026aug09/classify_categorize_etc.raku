@@ -23,7 +23,8 @@
     ## {any(True, False, False, False, False, False) => [3]}
 
     if ( any(True, False, False, False, False, False) ) {
-        say "in other words, 'True'"; # in other words, 'True'
+        say "in other words, 'True'";
+        ## in other words, 'True'
     }
 
 }
