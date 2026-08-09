@@ -88,17 +88,12 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 **** Erry Kostala-- video about how they write Raku programs in Japanese using the L10N::JA module.
 ***** https://www.youtube.com/watch?v=6QSiEuByC1Y&t=140s
 
-*** Anton Antonov:
-**** See this computational essay: https://community.wolfram.com/groups/-/m/t/37541443754144
-***** TODO bad link?
-
-
-**** 'Doing it right'-- having same workflows in all programming languages
-***** Anton's approach: 
-****** Implementations in Raku, Python, and Wolfram Language
-******* In that order
-****** DSL translation examples-- making code generation LLM-ready
-****** Chatnik-- CLI interface to chatting with LLMs
+*** 'Doing it right'-- having same workflows in all programming languages
+**** Anton's approach: 
+***** Implementations in Raku, Python, and Wolfram Language
+****** In that order
+***** DSL translation examples-- making code generation LLM-ready
+***** Chatnik-- CLI interface to chatting with LLMs
 
 
 *** semilattices
