@@ -22,7 +22,7 @@
 **** Integrating OpenRouter and xAI with Raku-- both sessions and Jupyter magic cells
 **** Cellular Automata (CA) in Raku
 
-****  What is our policy for people who refer to “Raku” as “Perl6” ?
+****  What is our policy for people who refer to 'Raku' as 'Perl6' ?
 
 **** Ben McMahon:
 ***** The Weekly Challenge 385
