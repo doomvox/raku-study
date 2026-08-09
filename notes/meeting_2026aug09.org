@@ -16,7 +16,7 @@
 
 ** topics
 
-*** My topics:
+*** Anton Antonov topics:
 
 **** Hamiltonian paths / cycles with regexes-- meh
 **** Integrating OpenRouter and xAI with Raku-- both sessions and Jupyter magic cells
@@ -27,6 +27,8 @@
 **** Ben McMahon:
 ***** The Weekly Challenge 385
 ***** fez init
+
+
 
 ** old topics
 
