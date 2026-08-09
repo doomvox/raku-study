@@ -88,6 +88,7 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 ***** https://monacaron.com/murals/market-st-railway-mural-last-section-utopia-market-st
 ***** https://www.foundant.com/
 
+
 ** older topics
 
 *** videos for tprf 2026 
