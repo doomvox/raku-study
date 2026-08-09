@@ -14,6 +14,16 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
+** topics
+
+My topics:
+Hamiltonian paths / cycles with regexes — meh
+Integrating OpenRouter and xAI with Raku — both sessions and Jupyter magic cells
+Cellular Automata (CA) in Raku
+
+
+
+
 ** old topics
 
 *** videos for tprf 2026 
