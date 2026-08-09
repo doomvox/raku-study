@@ -32,6 +32,7 @@
 
 
 *** Bruce Gray
+**** coercion protocol
 raku -e 'sub foo ( Int(Cool) $p ) { say $p }; foo( 3.5);'
     3
 raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
