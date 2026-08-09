@@ -41,6 +41,12 @@ raku -e 'sub foo ( Int(Cool) $p ) { say $p }; foo( 3.5);'
 raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
     3.5
 
+**** https://docs.raku.org/routine/but
+
+
+*** Ben McMahon:
+**** fez init
+
 
 
 *** Anton Antonov topics:
