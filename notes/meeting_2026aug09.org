@@ -188,7 +188,6 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 **** virtuouso display, using (and abusing) set operations and their relatives
 ***** bag multiplication operation: (.)
 
-
 **** Anton's aside:
 ****** “Math::NumberTheory” has  divisors  and  factor-integer
 ****** Also,  is-harshad-number , `is-abundant-number`, `is-deficient-number`, and  is-perfect-number .
