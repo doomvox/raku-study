@@ -27,6 +27,7 @@
 
 *** Ben McMahon:
 **** The Weekly Challenge 385
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-385/
 **** fez init
 
 *** Anton Antonov topics:
