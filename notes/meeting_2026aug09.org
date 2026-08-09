@@ -39,7 +39,6 @@
 **** course.raku.org
 **** announced completed
 
-
 *** Ben points out that there's problems with the Japanese example on the front page
 **** the module L10N::JA also has problems
 ***** naming of the script: ryuu vs ryuuu
