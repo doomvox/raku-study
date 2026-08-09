@@ -16,6 +16,12 @@
 
 ** topics
 
+*** Recent history Perl 5 and Raku
+**** Ben Reina
+
+**** PDF for brian d foy's "Learning Perl 6"   has been updated to Raku naming, free to read!
+https://greenteapress.com/wp/think-perl-6/
+
 *** Anton Antonov topics:
 
 **** Hamiltonian paths / cycles with regexes-- meh
