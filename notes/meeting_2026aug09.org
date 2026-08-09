@@ -26,9 +26,9 @@
 ****  What is our policy for people who refer to “Raku” as “Perl6” ?
 
 
-**** Ben McMahon
-The Weekly Challenge 385
-fez init
+**** Ben McMahon:
+***** The Weekly Challenge 385
+***** fez init
 
 
 ** old topics
