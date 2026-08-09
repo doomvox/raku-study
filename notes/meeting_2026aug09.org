@@ -22,6 +22,12 @@ Integrating OpenRouter and xAI with Raku — both sessions and Jupyter magic cel
 Cellular Automata (CA) in Raku
 
 
+ What is our policy for people who refer to “Raku” as “Perl6” ?
+
+
+My topics:
+The Weekly Challenge 385
+fez init
 
 
 ** old topics
