@@ -30,7 +30,7 @@
 **** The Weekly Challenge 385
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-385/
 
-***** Bruce Gray's last talk is on this subject:
+***** Bruce Gray's last talk is on the subject of counting and classifying:
 ****** https://www.youtube.com/watch?v=rRFHehSKlZI&list=PLWmGBGYq6fEQ&index=30&pp=iAQB0gcJCb4LAYcqIYzv
 
 **** Mark A
