@@ -19,6 +19,7 @@
 *** Recent history Perl 5 and Raku
 **** The state of the art(s) (Ben Reina)
 
+
 *** books
 **** PDF for brian d foy's "Learning Perl 6"   has been updated to Raku naming, free to read!
 ***** https://greenteapress.com/wp/think-perl-6/
