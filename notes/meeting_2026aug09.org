@@ -55,9 +55,9 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 *** Ben McMahon:
 **** zef init
 ***** creates a META6.json, etc
-**** alternate: mi6
+**** alternate: mi6 (Rob)
 
-**** Creating Raku modules (META6, etc):
+**** creating Raku modules (META6, etc):
 ***** https://github.com/jonathanstowe/META6
 ***** https://github.com/Raku/old-design-docs/blob/master/S22-package-format.pod#distribution-1
 
