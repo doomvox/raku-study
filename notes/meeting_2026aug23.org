@@ -38,6 +38,7 @@
 
 *** ANY TOPICS OUT THERE
 
+*** rob: on github easy way to check status of issues?
 
 
 ** older topics
