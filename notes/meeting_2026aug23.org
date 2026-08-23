@@ -1,0 +1,280 @@
+* meeting notes August 23, 2026
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026aug09.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2026aug09
+****** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026jul26.org
+
+***** group discussions at github
+****** https://github.com/doomvox/raku-study/discussions 
+
+** topics
+
+*** Recent history Perl 5 and Raku
+**** The state of the art(s) (Ben Reina)
+
+
+*** books
+**** PDF for "Think Perl 6" has been updated with Raku naming, free (CC license):
+***** https://greenteapress.com/wp/think-perl-6/
+**** 
+***** https://andrewshitov.com/raku-books/
+
+*** Ben McMahon:
+**** The Weekly Challenge 385
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-385/
+
+***** Bruce Gray's last talk is on the subject of counting (and classifying):
+****** https://www.youtube.com/watch?v=rRFHehSKlZI&list=PLWmGBGYq6fEQ&index=30&pp=iAQB0gcJCb4LAYcqIYzv
+
+
+**** Mark A: "speaking of Andrew did you see his solution to this problem? [(^)] @lists"
+***** Goes by: "ash"
+***** https://github.com/manwar/perlweeklychallenge-club/commit/93b56589895718ef8037dbc6abdc5485eeddd0bd
+
+***** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-385/mark-anderson/raku/ch-2.raku
+
+
+*** coercion protocol (Bruce Gray)
+#+BEGIN_SRC sh
+raku -e 'sub foo ( Int(Cool) $p ) { say $p }; foo( 3.5);'
+    3
+raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
+    3.5
+#+END_SRC
+
+**** https://docs.raku.org/routine/but
+
+
+*** Ben McMahon:
+**** zef init
+***** creates a META6.json, etc
+**** alternate: mi6 (Rob)
+
+**** creating Raku modules (META6, etc):
+***** https://github.com/jonathanstowe/META6
+***** https://github.com/Raku/old-design-docs/blob/master/S22-package-format.pod#distribution-1
+
+
+*** Anton Antonov topics: (TODO NEXT TIME)
+**** Hamiltonian paths / cycles with regexes-- meh
+**** Integrating OpenRouter and xAI with Raku-- both sessions and Jupyter magic cells
+**** Cellular Automata (CA) in Raku
+
+****  What is our policy for people who refer to 'Raku' as 'Perl6' ?
+
+
+*** Dave Cross: Still Munging Data with Perl 
+**** https://www.youtube.com/watch?v=2y6B0Spuo9U
+**** (Speaking at Toronto PerlMongers, earlier this year) -- Bruce Gray
+
+*** Perl School -- also a book publisher
+**** https://perlschool.com/
+**** https://raku.org/learn
+
+
+*** funding os work
+**** grants
+**** gofundme/patreon
+**** redhat used to play ball
+***** maybe some of their stuff is closed source now? (Tim)
+***** https://www.theregister.com/software/2023/06/23/red-hat-strikes-a-crushing-blow-against-rhel-downstreams/1381461
+****** the rhel code uses a dodge: 
+******* it's gpl, but source is only provided if you sign-off on another agreement prohibiting redistribution
+
+**** Bruce discoursed about the critical need to defend against OS bitrot
+***** https://xkcd.com/2347/
+***** https://monacaron.com/murals/market-st-railway-mural-last-section-utopia-market-st
+***** https://www.foundant.com/
+
+
+
+** older topics
+
+*** videos for tprf 2026 
+**** https://www.youtube.com/@YAPCNA
+
+*** Raku Course 
+**** course.raku.org
+**** announced completed
+
+*** Ben points out that there's problems with the Japanese example on the front page
+**** the module L10N::JA also has problems
+***** naming of the script: ryuu vs ryuuu
+****** script example works
+***** the explicit "use L10N::JA" example doesn't work
+
+*** https://rakudoweekly.blog/2025/06/22/2025-25-to-found-or-not/
+**** Erry Kostala-- video about how they write Raku programs in Japanese using the L10N::JA module.
+***** https://www.youtube.com/watch?v=6QSiEuByC1Y&t=140s
+
+*** 'Doing it right'-- having same workflows in all programming languages
+**** Anton's approach: 
+***** Implementations in Raku, Python, and Wolfram Language
+****** In that order
+***** DSL translation examples-- making code generation LLM-ready
+***** Chatnik-- CLI interface to chatting with LLMs
+
+
+*** semilattices
+**** https://www.reddit.com/r/rakulang/comments/1ut0ibf/junctions_as_semilattice/
+**** https://en.wikipedia.org/wiki/Semilattice
+***** what's the connection between junctions and semilattices?
+***** and what are semilattices, and why would you care
+****** has to do with partially ordered sets
+****** and operations that produce them
+***** anton: monads and feed operators
+****** associativity, category theory
+****** translators of dsls...
+***** bruce: first impression
+****** combining junctions 
+******* related to abstract algebra of semilattices
+
+
+*** Ben McMahon
+**** raku grammar example
+***** Here is an example of code block delimiter parsing: 
+****** https://github.com/antononcube/Raku-Markdown-Grammar/blob/bc0d33704a9a8596221d5b399e284ee163246e37/lib/Markdown/Grammarish.rakumod#L988596221https://github.com/antononcube/Raku-Markdown-Grammar/blob/bc0d33704a9a8596221d5b399e284ee163246e37/lib/Markdown/Grammarish.rakumod#L98163246https://github.com/antononcube/Raku-Markdown-Grammar/blob/bc0d33704a9a8596221d5b399e284ee163246e37/lib/Markdown/Grammarish.rakumod#L98
+
+***** Anton:
+****** regex md-table-field { \h* $<field>=(<md-text-element>* % <md-table-field-sep>) \h* <!{ $<field>.Str.contains('|') }> }
+
+
+*** Weekly Challenge 381
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-381/
+***** Bruce Gray, Rob Ransbottom, Mark A
+***** side discussion of "Test" features in Raku and test philosophy
+***** .minmax.bounds vs .minmax.min, .minmax.max
+***** TODO  (|@a, |@b) vs [|](@a, @b) bs. (@a, @b)>>|
+
+
+*** comb in 6.3 has explicit skip-back features
+**** .comb(2 => -1)
+**** it doesn't handle weird cases well: 
+***** does something unexpected silently without error or warning
+
+*** Marton
+**** gfldex's issue about smartmatching of checks and type smileys
+***** https://github.com/doomvox/raku-study/discussions/27
+
+
+*** Steve Rowe opened an issue on flat(:hammer) documentation
+**** https://github.com/Raku/doc/issues/4807
+**** the original discussion:
+***** https://github.com/Raku/problem-solving/issues/431
+
+*** .flat(:hammer)
+**** flat_hammer_on_hash_vs_deepmap.raku
+**** flattering_flat.raku
+**** flat_hammer_slip.raku
+
+*** bruce gray
+**** weekly challenge 377
+***** https://theweeklychallenge.org/blog/perl-weekly-challenge-377/
+***** comb 
+****** in 6.e comb has explicit skip-back features
+******* .comb(2 => -1)
+******* Q: does it handle pathological cases right?
+
+
+*** Anton Antonov: OpenAI’s disproof of Erdos conjecture
+**** blurb from OpenAI:
+***** https://openai.com/index/model-disproves-discrete-geometry-conjecture/
+
+**** Anton Antonov, "Unit distance graph animations"
+***** https://community.wolfram.com/groups/-/m/t/3723873
+***** Ed Pegg, "OpenAI disproves Erdős unit distance conjecture"
+****** https://community.wolfram.com/groups/-/m/t/3719376
+
+***** Show-and-tell with Erdos conjecture unit distance graphs
+***** Most notably-- Raku-made animations
+****** https://imgur.com/gallery/unit-distance-graph-animations-vyg2m6s
+******* making svg images via ffmpeg
+******* svg code converted to png images given to ffpack ((?))
+******** svg files can be huge
+******* (google charts are also useful for animations)
+
+***** How the package "Graph" can/should be extended with more performant code
+****** LLM related:
+******* How come LLM disproved that Erdos conjecture?
+******* Learn and use "Math::GameTheory":
+******** https://raku.land/zef:antononcube/Math::GameTheory
+******** It has 153 games.
+******** The game data in JSON:
+********* https://github.com/antononcube/Raku-Math-GameTheory/blob/main/resources/game-data.json
+
+
+*** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/ 
+**** virtuouso display, using (and abusing) set operations and their relatives
+***** bag multiplication operation: (.)
+
+**** Anton's aside:
+****** “Math::NumberTheory” has  divisors  and  factor-integer
+****** Also,  is-harshad-number , `is-abundant-number`, `is-deficient-number`, and  is-perfect-number .
+
+**** Anton idea:
+#+BEGIN_SRC raku
+my $n = 1020;
+divisors($n).map({ $n.contains($_) && $_ != $n ?? $_.chars !! 0 }).max
+#+END_SRC 
+
+*** Tim
+**** wants to dicuss chaining together transformations
+**** Bruce Gray: you might investigate https://wiki.haskell.org/Pointfree
+
+*** Anton Antonov 
+**** multidimensional array plotting
+***** d3.js
+
+**** https://rakuforprediction.wordpress.com/2026/05/03/latent-semantic-analysis-in-raku/
+
+
+**** llm-chat -- cli chat tool
+***** https://github.com/antononcube/Raku-Chatnik
+***** https://pypi.org/project/Chatnik/
+
+*** Marton
+**** junction weirdness
+***** example where it's not clear if you've got "any and all" or "all and any"-- which gets priority?
+***** sub sig type of "Any" splits junction into values, "Mu" takes it as a junction
+****** note: code blocks, pointy blocks, get "Mu" defaults, sub gets "Any" defaults
+***** TODO Check for code examples: /home/doom/End/Cave/RakuStudy/Notes/MartonJunctions
+
+***** negation of junctions does funny stuff
+****** known problem, much discussed
+***** Any and All used together, the All is "outside"
+****** no way to control the order (or not easily) 
+
+***** 
+https://github.com/Raku/problem-solving/issues/319
+
+***** 
+https://github.com/rakudo/rakudo/issues/3748
+
+****** 
+remove special handling of any 
+****** 
+any(0,4) != 0 is False #3748
+
+***** liz discussed removing junction negation
+****** where?
+
+***** bruce gray 
+****** sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
+
+
+
+** announcements 
+*** next meetings
+**** August 23, 2026
+**** (skipping Labor Day weekend, 9/7)
+**** September 13, 2026
+*** more info is always here
+**** https://github.com/doomvox/raku-study/blob/main/README.md
+
