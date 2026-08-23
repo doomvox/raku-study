@@ -94,6 +94,12 @@ real	0m1.114s
 user	0m1.235s
 sys	0m0.165s
 
+time /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026aug23/bruce_animals_oneliner.raku
+(5 1 94)
+
+real	0m4.375s
+user	0m4.524s
+sys	0m0.133s
 
 
 *** annals of time
