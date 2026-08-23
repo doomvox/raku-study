@@ -57,7 +57,7 @@ Q-P >= 1
 
 
 
-Anton: 174 sheep
+Anton: 174 sheep (skips $100)
 Anton: 94 sheep 5 cows 1 pig
 
 ** older topics
