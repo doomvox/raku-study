@@ -5,4 +5,5 @@ my @threats =       8,      4,      9,      5,      3,    4;
 
 my %h = @monsters Z=> @threats;
 
-say %h;
+say %h; # {gammera => 5, ghidora => 9, godzilla => 8, golem => 3, mothera => 4, rhodan => 4}
+
