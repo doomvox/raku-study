@@ -48,6 +48,10 @@
 # 100 animals total, and wants to spend exactly $100.00, how many cows,
 # pigs, and sheep should the farmer buy?  Find all solutions.
 
+C-cow = 10
+C-pig = 3
+C-sheep = 0.50
+
 
 
 ** older topics
