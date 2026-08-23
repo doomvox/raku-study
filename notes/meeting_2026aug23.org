@@ -40,6 +40,7 @@
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-387/
 
+
 *** David Challenge
 
 # A farmer goes to the fair.  Cows cost $10.00 each, pigs cost $3.00
