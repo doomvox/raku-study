@@ -40,6 +40,16 @@
 *** puzzle from david
 
 *** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-387/
+
+*** David Challenge
+
+# A farmer goes to the fair.  Cows cost $10.00 each, pigs cost $3.00
+# each, and sheep cost $0.50 each.  If the farmer wants to buy
+# at least one cow, at least one pig, at least one sheep, and exactly
+# 100 animals total, and wants to spend exactly $100.00, how many cows,
+# pigs, and sheep should the farmer buy?  Find all solutions.
+
 
 
 ** older topics
