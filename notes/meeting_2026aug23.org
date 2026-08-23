@@ -74,6 +74,7 @@ Anton:
   a * cows + b * pigs + c * (100 - cows - pigs)  == 100
 
 
+Bruce Gray:
 .say if .sum == 100 and (.list Z* (10,3,0.5)).sum == 100 for [X] (1..100) xx 3
 
 
