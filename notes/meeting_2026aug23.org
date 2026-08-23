@@ -78,6 +78,24 @@ Bruce Gray's one-liner:
 .say if .sum == 100 and (.list Z* (10,3,0.5)).sum == 100 for [X] (1..100) xx 3
 
 
+time /home/doom/End/Cave/Eye/bin/david_animals.pl
+cows 5 pigs 1 sheep 94 animals 100 cost 100
+
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026aug23/david_animals.pl
+real	0m0.038s
+user	0m0.016s
+sys	0m0.017s
+
+
+time /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026aug23/bruce_solution_cows_pigs_sheep.raku
+(5 1 94 100 100)
+
+real	0m1.114s
+user	0m1.235s
+sys	0m0.165s
+
+
+
 *** annals of time
 **** Gnu "time" has an option to show memory usage?
 
