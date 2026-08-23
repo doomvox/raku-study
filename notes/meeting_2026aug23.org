@@ -117,6 +117,13 @@ real	0m2.441s
 user	0m2.917s
 sys	0m0.234s
 
+time /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026aug23/bruce_animals.pl
+5 1 94
+
+real	0m0.015s
+user	0m0.003s
+sys	0m0.011s
+
 
 *** annals of time
 **** Gnu "time" has an option to show memory usage?
