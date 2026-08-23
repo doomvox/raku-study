@@ -15,4 +15,8 @@ my %j = (joe => 5, doom => 4, doomvox => 6, joseph => 3, 'joseph brenner' => 8, 
 say %j; # {doom => 4, doomvox => 6, joe => 5, joe brenner => 2, joseph => 3, joseph brenner => 8}
 
 my $c = %j.BagHash;
-say $c;
+say $c; # BagHash(doom(4) doomvox(6) joe brenner(2) joe(5) joseph brenner(8) joseph(3))
+
+
+my $r = $b + $c;
+say $r;
