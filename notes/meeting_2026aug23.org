@@ -68,11 +68,9 @@ Anton: 94 sheep 5 cows 1 pig
 
 Anton:
 
-https://reference.wolfram.com/language/ref/FrobeniusSolve.html
-
-a * cows + b * pigs + c * sheep == 100
-
-a * cows + b * pigs + c * (100 - cows - pigs)  == 100
+  https://reference.wolfram.com/language/ref/FrobeniusSolve.html
+  a * cows + b * pigs + c * sheep == 100
+  a * cows + b * pigs + c * (100 - cows - pigs)  == 100
 
 
 ** older topics
