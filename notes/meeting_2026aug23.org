@@ -14,7 +14,7 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
-** topics
+** older topics
 
 *** Recent history Perl 5 and Raku
 **** The state of the art(s) (Ben Reina)
@@ -95,7 +95,7 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 
 
 
-** older topics
+** even older oldster topics of oldness
 
 *** videos for tprf 2026 
 **** https://www.youtube.com/@YAPCNA
