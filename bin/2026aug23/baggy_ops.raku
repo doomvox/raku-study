@@ -18,5 +18,7 @@ my $c = %j.BagHash;
 say $c; # BagHash(doom(4) doomvox(6) joe brenner(2) joe(5) joseph brenner(8) joseph(3))
 
 
-my $r = $b + $c;
-say $r;
+my $r_eh = $b + $c;
+say $r_eh; # 61
+
+my $r = $b (+) $c;
