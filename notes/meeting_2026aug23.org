@@ -388,6 +388,7 @@ any(0,4) != 0 is False #3748
 **** August 23, 2026
 **** (skipping Labor Day weekend, 9/7)
 **** September 13, 2026
+
 *** more info is always here
 **** https://github.com/doomvox/raku-study/blob/main/README.md
 
