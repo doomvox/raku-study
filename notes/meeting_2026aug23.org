@@ -106,6 +106,10 @@ Anton:
 raku -e 'use Math::NumberTheory; my $sol = frobenius-solve([95,25], 500).grep({ $_.min ≥ 1 }).head; say [|$sol, 100 - $sol.sum]'
 raku -e   0.33s user 0.06s system 107% cpu 0.367 total
 
+zef install of Anton's Math::NumberTheory failed tests for me, worked for Bruce
+
+zef install --force-test Math::NumberTheory
+
 
 *** annals of time
 **** Gnu "time" has an option to show memory usage?
