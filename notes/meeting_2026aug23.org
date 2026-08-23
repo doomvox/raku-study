@@ -37,8 +37,6 @@
 
 *** rob: on github easy way to check status of issues?
 
-*** puzzle from david
-
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-387/
 
