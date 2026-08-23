@@ -110,6 +110,13 @@ zef install of Anton's Math::NumberTheory failed tests for me, worked for Bruce
 
 zef install --force-test Math::NumberTheory
 
+time /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026aug23/anton_animals_solution.raku
+[5 1 94]
+
+real	0m2.441s
+user	0m2.917s
+sys	0m0.234s
+
 
 *** annals of time
 **** Gnu "time" has an option to show memory usage?
