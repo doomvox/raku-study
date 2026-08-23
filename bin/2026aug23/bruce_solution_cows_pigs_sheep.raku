@@ -2,7 +2,7 @@
 use v6.d;
 
 my $bank1 = 100;
-for 1..($bank1 div 10) -> $cow {               # 1 to 10 cows
+for 1..($bank1 div 10) -> $cow {                            # 1 to 10 cows
     my $bank2 = $bank1 - 10 * $cow;
     for 1..($bank2 div 3) -> $pig {
         my $bank3 = $bank2 - 3 * $pig;
