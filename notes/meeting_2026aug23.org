@@ -62,7 +62,6 @@ C-C * Q-C + C-P * Q-P + C-S * Q-S = $100
 
 How many solutions for the 3 Qs?
 
-
 Anton: 174 sheep (skips 100 contraint)
 Anton: 94 sheep 5 cows 1 pig
 
