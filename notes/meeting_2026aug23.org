@@ -39,8 +39,10 @@
 
 *** rob: on github easy way to check status of issues?
 
-*** weekly challenge
 *** puzzle from david
+
+*** weekly challenge
+
 
 ** older topics
 
