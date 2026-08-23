@@ -52,6 +52,10 @@ C-cow = 10
 C-pig = 3
 C-sheep = 0.50
 
+Q-C >= 1
+Q-P >= 1 
+
+174 sheep
 
 
 ** older topics
