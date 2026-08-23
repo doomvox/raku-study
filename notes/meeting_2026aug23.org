@@ -35,8 +35,6 @@
 *** Once again me on the hype machine, blah blah
 **** paper from google: "AIs Can't Jump"
 
-*** ANY TOPICS OUT THERE
-
 *** rob: on github easy way to check status of issues?
 
 *** puzzle from david
