@@ -380,6 +380,9 @@ any(0,4) != 0 is False #3748
 
 
 
+
+
+
 ** announcements 
 *** next meetings
 **** August 23, 2026
@@ -388,3 +391,7 @@ any(0,4) != 0 is False #3748
 *** more info is always here
 **** https://github.com/doomvox/raku-study/blob/main/README.md
 
+*** https://raku.foundation/
+**** USA can now donate too!
+*** https://yapcjapan.org/2026tokyo/
+**** Larry Wall to speak!
