@@ -54,10 +54,13 @@ C-sheep = 0.50
 
 Q-C >= 1
 Q-P >= 1 
+Q-S >= 1
+
+Q-C + Q-P + Q-S = 100
 
 
 
-Anton: 174 sheep (skips $100)
+Anton: 174 sheep (skips 100 contraint)
 Anton: 94 sheep 5 cows 1 pig
 
 ** older topics
