@@ -33,3 +33,6 @@ say $r.WHAT; # (BagHash)
 # (BagHash)
 # (BagHash)
 # (Bag)
+
+# I don't get this from just reading:
+#  https://docs.raku.org/language/setbagmix#Operators_with_set_semantics
