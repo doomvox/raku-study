@@ -25,3 +25,5 @@ say $r;
 # BagHash(doom(4) doomvox(6) gammera(5) ghidora(9) godzilla(8) golem(3) joe brenner(2) joe(5) joseph brenner(8) joseph(3) mothera(4) rhodan(4))
 
 say $r.WHAT; # (BagHash)
+
+# Union of a BagHash and a BagHash is another BagHash
