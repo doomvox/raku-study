@@ -55,7 +55,8 @@ C-sheep = 0.50
 Q-C >= 1
 Q-P >= 1 
 
-174 sheep
+
+Anton: 174 sheep
 
 
 ** older topics
