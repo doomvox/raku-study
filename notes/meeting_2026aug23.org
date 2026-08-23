@@ -58,7 +58,7 @@ Q-P >= 1
 
 
 Anton: 174 sheep
-
+Anton: 94 sheep 5 cows 1 pig
 
 ** older topics
 
