@@ -7,3 +7,6 @@ my %h = @monsters Z=> @threats;
 
 say %h; # {gammera => 5, ghidora => 9, godzilla => 8, golem => 3, mothera => 4, rhodan => 4}
 
+say $b = %h.BagHash;
+
+say $b;
