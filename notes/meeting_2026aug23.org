@@ -22,6 +22,9 @@
 
 
 
+*** looma
+**** meetup alternate, free for basic usage, popular with tech, west coast
+
 ** older topics
 
 *** Recent history Perl 5 and Raku
