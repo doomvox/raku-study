@@ -36,3 +36,6 @@ say $r.WHAT; # (BagHash)
 
 # I don't get this from just reading:
 #  https://docs.raku.org/language/setbagmix#Operators_with_set_semantics
+
+
+## Rob had a problem with this in the Class/Action setting.
