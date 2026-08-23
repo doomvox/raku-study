@@ -31,6 +31,10 @@
 **** some existing raku modules work with it
 ***** install failures (from test failures ?) are common
 
+
+*** 
+Paper from google: "AIs Can't Jump"
+
 ** older topics
 
 *** Recent history Perl 5 and Raku
