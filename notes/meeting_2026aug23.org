@@ -26,7 +26,7 @@
 *** https://luma.com/
 **** meetup alternate, free for basic usage, popular with tech, west coast
 
-*** Raku++/rakupp
+*** Raku++ / rakupp
 **** https://andrewshitov.com/2026/07/13/raku-the-fastest-raku-compiler/
 **** significant speed advantage
 **** some existing raku modules work with it
