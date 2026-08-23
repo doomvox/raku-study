@@ -66,6 +66,15 @@ How many solutions for the 3 Qs?
 Anton: 174 sheep (skips 100 contraint)
 Anton: 94 sheep 5 cows 1 pig
 
+Anton:
+
+https://reference.wolfram.com/language/ref/FrobeniusSolve.html
+
+a * cows + b * pigs + c * sheep == 100
+
+a * cows + b * pigs + c * (100 - cows - pigs)  == 100
+
+
 ** older topics
 
 *** Recent history Perl 5 and Raku
