@@ -27,3 +27,9 @@ say $r;
 say $r.WHAT; # (BagHash)
 
 # Union of a BagHash and a BagHash is another BagHash
+
+## Bruce Gray:
+# raku -e 'say .WHAT for (BagHash.new ⊎ BagHash.new), (BagHash.new ⊎ Bag.new), (Bag.new ⊎ BagHash.new)'
+# (BagHash)
+# (BagHash)
+# (Bag)
