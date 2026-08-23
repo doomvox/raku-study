@@ -79,7 +79,7 @@ Bruce Gray's one-liner:
 
 
 *** annals of time
-Gnu "time" has an option to show memory usage?
+**** Gnu "time" has an option to show memory usage?
 
 
 ** older topics
