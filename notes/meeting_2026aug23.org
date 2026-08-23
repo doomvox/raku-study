@@ -48,9 +48,9 @@
 # 100 animals total, and wants to spend exactly $100.00, how many cows,
 # pigs, and sheep should the farmer buy?  Find all solutions.
 
-C-cow = 10
-C-pig = 3
-C-sheep = 0.50
+C-cow = $10
+C-pig = $3
+C-sheep = $0.50
 
 Q-C >= 1
 Q-P >= 1 
@@ -58,6 +58,9 @@ Q-S >= 1
 
 Q-C + Q-P + Q-S = 100
 
+C-C * Q-C + C-P * Q-P + C-S * Q-S = $100
+
+How many 
 
 
 Anton: 174 sheep (skips 100 contraint)
