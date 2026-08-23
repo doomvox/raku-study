@@ -86,7 +86,6 @@ real	0m0.038s
 user	0m0.016s
 sys	0m0.017s
 
-
 time /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026aug23/bruce_solution_cows_pigs_sheep.raku
 (5 1 94 100 100)
 
