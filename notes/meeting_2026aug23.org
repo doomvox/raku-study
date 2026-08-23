@@ -25,6 +25,9 @@
 *** https://luma.com/
 **** meetup alternate, free for basic usage, popular with tech, west coast
 
+*** Raku++
+**** 
+
 ** older topics
 
 *** Recent history Perl 5 and Raku
