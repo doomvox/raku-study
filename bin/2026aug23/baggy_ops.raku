@@ -22,3 +22,4 @@ my $r_eh = $b + $c;
 say $r_eh; # 61
 
 my $r = $b (+) $c;
+say $r;
