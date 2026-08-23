@@ -59,7 +59,6 @@ Q-S >= 1
 Q-C + Q-P + Q-S = 100
 C-C * Q-C + C-P * Q-P + C-S * Q-S = $100
 
-
   C-C * Q-C + C-P * Q-P + C-s * (100 - Q-C - Q-P)  == 100
 
 
