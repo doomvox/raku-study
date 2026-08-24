@@ -140,9 +140,6 @@ sys	0m0.011s
 
 ** older topics
 
-*** Recent history Perl 5 and Raku
-**** The state of the art(s) (Ben Reina)
-
 
 *** books
 **** PDF for "Think Perl 6" has been updated with Raku naming, free (CC license):
