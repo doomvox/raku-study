@@ -187,7 +187,6 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 **** course.raku.org
 **** announced completed
 
-
 *** semilattices
 **** https://www.reddit.com/r/rakulang/comments/1ut0ibf/junctions_as_semilattice/
 **** https://en.wikipedia.org/wiki/Semilattice
