@@ -277,8 +277,6 @@ divisors($n).map({ $n.contains($_) && $_ != $n ?? $_.chars !! 0 }).max
 any(0,4) != 0 is False #3748
 #+END_SRC
 
-***** liz discussed removing junction negation
-****** where?
 
 ***** bruce gray 
 ****** sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
