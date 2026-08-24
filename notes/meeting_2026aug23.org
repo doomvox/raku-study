@@ -235,36 +235,11 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 ***** https://github.com/Raku/problem-solving/issues/431
 
 
-*** Anton Antonov: OpenAI’s disproof of Erdos conjecture
-**** blurb from OpenAI:
-***** https://openai.com/index/model-disproves-discrete-geometry-conjecture/
-
-**** Anton Antonov, "Unit distance graph animations"
-***** https://community.wolfram.com/groups/-/m/t/3723873
-***** Ed Pegg, "OpenAI disproves Erdős unit distance conjecture"
-****** https://community.wolfram.com/groups/-/m/t/3719376
-
-***** Show-and-tell with Erdos conjecture unit distance graphs
-***** Most notably-- Raku-made animations
-****** https://imgur.com/gallery/unit-distance-graph-animations-vyg2m6s
-******* making svg images via ffmpeg
-******* svg code converted to png images given to ffpack ((?))
-******** svg files can be huge
-******* (google charts are also useful for animations)
-
-***** How the package "Graph" can/should be extended with more performant code
-****** LLM related:
-******* How come LLM disproved that Erdos conjecture?
-******* Learn and use "Math::GameTheory":
-******** https://raku.land/zef:antononcube/Math::GameTheory
-******** It has 153 games.
-******** The game data in JSON:
-********* https://github.com/antononcube/Raku-Math-GameTheory/blob/main/resources/game-data.json
-
 
 *** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/ 
 **** virtuouso display, using (and abusing) set operations and their relatives
 ***** bag multiplication operation: (.)
+
 
 **** Anton's aside:
 ****** “Math::NumberTheory” has  divisors  and  factor-integer
