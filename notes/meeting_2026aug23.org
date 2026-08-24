@@ -147,21 +147,6 @@ sys	0m0.011s
 **** 
 ***** https://andrewshitov.com/raku-books/
 
-*** Ben McMahon:
-**** The Weekly Challenge 385
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-385/
-
-***** Bruce Gray's last talk is on the subject of counting (and classifying):
-****** https://www.youtube.com/watch?v=rRFHehSKlZI&list=PLWmGBGYq6fEQ&index=30&pp=iAQB0gcJCb4LAYcqIYzv
-
-
-**** Mark A: "speaking of Andrew did you see his solution to this problem? [(^)] @lists"
-***** Goes by: "ash"
-***** https://github.com/manwar/perlweeklychallenge-club/commit/93b56589895718ef8037dbc6abdc5485eeddd0bd
-
-***** https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-385/mark-anderson/raku/ch-2.raku
-
-
 *** coercion protocol (Bruce Gray)
 #+BEGIN_SRC sh
 raku -e 'sub foo ( Int(Cool) $p ) { say $p }; foo( 3.5);'
