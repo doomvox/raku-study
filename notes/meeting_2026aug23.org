@@ -48,6 +48,9 @@
 # 100 animals total, and wants to spend exactly $100.00, how many cows,
 # pigs, and sheep should the farmer buy?  Find all solutions.
 
+Notation:
+Cows, Pigs, Sheep = C, P, S
+
 C-C = $10
 C-P = $3
 C-S = $0.50
@@ -76,6 +79,7 @@ Anton:
 
 Bruce Gray's one-liner:
 .say if .sum == 100 and (.list Z* (10,3,0.5)).sum == 100 for [X] (1..100) xx 3
+
 
 
 time /home/doom/End/Cave/Eye/bin/david_animals.pl
