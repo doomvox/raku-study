@@ -50,6 +50,7 @@
 
 Notation:
 Cows, Pigs, Sheep = C, P, S
+Quantity and Costs = Q and C
 
 C-C = $10
 C-P = $3
