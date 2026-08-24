@@ -68,9 +68,8 @@ c * C + p * P + s * S = $100
   c * C + p * P + s * (100 - C - P)  == 100
 
 
-How many solutions for the 3 Qs?
+How many solutions for CPS?  
 
-Anton: 174 sheep (skips 100 contraint)
 Anton: 94 sheep 5 cows 1 pig
 
 Anton:
