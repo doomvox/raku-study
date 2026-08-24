@@ -124,6 +124,10 @@ user	0m0.003s
 sys	0m0.011s
 
 
+*** Anton
+**** Chemistry::Stoichiometry::Grammar
+**** "smiles" chemistry
+
 *** annals of time
 **** Gnu "time" has an option to show memory usage?
 
