@@ -63,7 +63,7 @@ S >= 1
 C + P + S = 100
 c * C + p * P + s * S = $100
 
-  c * C + p * P + C-s * (100 - C - P)  == 100
+  c * C + p * P + s * (100 - C - P)  == 100
 
 
 How many solutions for the 3 Qs?
