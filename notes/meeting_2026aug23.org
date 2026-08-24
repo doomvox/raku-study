@@ -279,8 +279,10 @@ any(0,4) != 0 is False #3748
 
 
 ***** bruce gray 
-****** sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
-
+****** 
+#+BEGIN_SRC raku
+sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
+#+END_SRC
 
 
 
