@@ -256,16 +256,6 @@ divisors($n).map({ $n.contains($_) && $_ != $n ?? $_.chars !! 0 }).max
 **** wants to dicuss chaining together transformations
 **** Bruce Gray: you might investigate https://wiki.haskell.org/Pointfree
 
-*** Anton Antonov 
-**** multidimensional array plotting
-***** d3.js
-
-**** https://rakuforprediction.wordpress.com/2026/05/03/latent-semantic-analysis-in-raku/
-
-
-**** llm-chat -- cli chat tool
-***** https://github.com/antononcube/Raku-Chatnik
-***** https://pypi.org/project/Chatnik/
 
 *** Marton
 **** junction weirdness
