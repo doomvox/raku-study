@@ -296,8 +296,6 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 *** https://yapcjapan.org/2026tokyo/
 **** Larry Wall to speak!
 
-
-
 *** next meetings
 **** We're going to skip Labor Day weekend, 9/7
 **** September 13, 2026
