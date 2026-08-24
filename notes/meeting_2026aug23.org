@@ -195,21 +195,6 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 **** https://raku.org/learn
 
 
-*** funding os work
-**** grants
-**** gofundme/patreon
-**** redhat used to play ball
-***** maybe some of their stuff is closed source now? (Tim)
-***** https://www.theregister.com/software/2023/06/23/red-hat-strikes-a-crushing-blow-against-rhel-downstreams/1381461
-****** the rhel code uses a dodge: 
-******* it's gpl, but source is only provided if you sign-off on another agreement prohibiting redistribution
-
-**** Bruce discoursed about the critical need to defend against OS bitrot
-***** https://xkcd.com/2347/
-***** https://monacaron.com/murals/market-st-railway-mural-last-section-utopia-market-st
-***** https://www.foundant.com/
-
-
 
 ** even older oldster topics of oldness
 
