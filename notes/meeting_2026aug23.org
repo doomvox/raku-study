@@ -234,14 +234,6 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 **** the original discussion:
 ***** https://github.com/Raku/problem-solving/issues/431
 
-*** bruce gray
-**** weekly challenge 377
-***** https://theweeklychallenge.org/blog/perl-weekly-challenge-377/
-***** comb 
-****** in 6.e comb has explicit skip-back features
-******* .comb(2 => -1)
-******* Q: does it handle pathological cases right?
-
 
 *** Anton Antonov: OpenAI’s disproof of Erdos conjecture
 **** blurb from OpenAI:
