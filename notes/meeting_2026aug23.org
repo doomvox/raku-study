@@ -234,11 +234,6 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 **** the original discussion:
 ***** https://github.com/Raku/problem-solving/issues/431
 
-*** .flat(:hammer)
-**** flat_hammer_on_hash_vs_deepmap.raku
-**** flattering_flat.raku
-**** flat_hammer_slip.raku
-
 *** bruce gray
 **** weekly challenge 377
 ***** https://theweeklychallenge.org/blog/perl-weekly-challenge-377/
