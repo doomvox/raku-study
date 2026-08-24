@@ -56,14 +56,14 @@ c = $10
 p = $3
 s = $0.50
 
-Q-C >= 1
-Q-P >= 1 
-Q-S >= 1
+C >= 1
+P >= 1 
+S >= 1
 
-Q-C + Q-P + Q-S = 100
-c * Q-C + p * Q-P + s * Q-S = $100
+C + P + S = 100
+c * C + p * P + s * S = $100
 
-  c * Q-C + p * Q-P + C-s * (100 - Q-C - Q-P)  == 100
+  c * C + p * P + C-s * (100 - C - P)  == 100
 
 
 How many solutions for the 3 Qs?
