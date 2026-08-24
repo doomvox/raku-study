@@ -49,8 +49,10 @@
 # pigs, and sheep should the farmer buy?  Find all solutions.
 
 Notation:
-Cows, Pigs, Sheep = C, P, S
-Quantity and Costs = Q and C
+  Cows, Pigs, Sheep
+  Quantity and Costs
+Lower-case cps for cost (constants)
+Upper-case CPS for quantities (variables to solve for)
 
 c = $10
 p = $3
