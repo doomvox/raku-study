@@ -289,17 +289,21 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 
 
 ** announcements 
+
+
+*** https://raku.foundation/
+**** USA can now donate too!
+*** https://yapcjapan.org/2026tokyo/
+**** Larry Wall to speak!
+
+
+
 *** next meetings
 **** We're going to skip Labor Day weekend, 9/7
 **** September 13, 2026
 
 *** more info is always here
 **** https://github.com/doomvox/raku-study/blob/main/README.md
-
-*** https://raku.foundation/
-**** USA can now donate too!
-*** https://yapcjapan.org/2026tokyo/
-**** Larry Wall to speak!
 
 
 
