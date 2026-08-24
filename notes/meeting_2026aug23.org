@@ -290,8 +290,7 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 
 ** announcements 
 *** next meetings
-**** August 23, 2026
-**** (skipping Labor Day weekend, 9/7)
+**** We're going to skip Labor Day weekend, 9/7
 **** September 13, 2026
 
 *** more info is always here
