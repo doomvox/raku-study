@@ -18,6 +18,8 @@
 
 *** David Christensen on "the Farmer Puzzle"
 
+**** code update
+
 ** topics from Aug 23
 
 *** Anton Antonov topics: (TODO NEXT TIME)
