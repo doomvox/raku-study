@@ -17,7 +17,6 @@
 ** topics
 
 *** David Christensen on "the Farmer Puzzle"
-
 **** code update
 
 ** topics from Aug 23
