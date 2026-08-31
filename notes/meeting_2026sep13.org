@@ -21,8 +21,6 @@
 **** Integrating OpenRouter and xAI with Raku-- both sessions and Jupyter magic cells
 **** Cellular Automata (CA) in Raku
 
-
-
 *** https://luma.com/
 **** meetup alternate, free for basic usage, popular with tech, west coast
 
