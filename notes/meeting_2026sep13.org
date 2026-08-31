@@ -1,0 +1,307 @@
+* meeting notes September 13, 2026
+** the raku study group
+**** usual links
+***** these notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026sep13.org 
+
+***** code examples
+****** https://github.com/doomvox/raku-study/tree/main/bin/2026sep13
+****** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool
+
+***** last meeting notes
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026aug23.org
+
+***** group discussions at github
+****** https://github.com/doomvox/raku-study/discussions 
+
+** topics
+
+*** Anton Antonov topics: (TODO NEXT TIME)
+**** Hamiltonian paths / cycles with regexes-- meh
+**** Integrating OpenRouter and xAI with Raku-- both sessions and Jupyter magic cells
+**** Cellular Automata (CA) in Raku
+
+
+
+*** https://luma.com/
+**** meetup alternate, free for basic usage, popular with tech, west coast
+
+*** Raku++ / rakupp
+**** https://andrewshitov.com/2026/07/13/raku-the-fastest-raku-compiler/
+**** significant speed advantage
+**** some existing raku modules work with it
+***** install failures (from test failures ?) are common
+
+*** Once again me on the hype machine, blah blah
+**** paper from google: "AIs Can't Jump"
+
+*** rob: on github easy way to check status of issues?
+
+*** weekly challenge
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-387/
+
+*** David Challenge
+
+# A farmer goes to the fair.  Cows cost $10.00 each, pigs cost $3.00
+# each, and sheep cost $0.50 each.  If the farmer wants to buy
+# at least one cow, at least one pig, at least one sheep, and exactly
+# 100 animals total, and wants to spend exactly $100.00, how many cows,
+# pigs, and sheep should the farmer buy?  Find all solutions.
+
+Notation:
+  Cows, Pigs, Sheep
+  Quantity and Costs
+Lower-case cps for cost (constants)
+Upper-case CPS for quantities (variables to solve for)
+
+c = $10
+p = $3
+s = $0.50
+
+C >= 1
+P >= 1 
+S >= 1
+
+C + P + S = 100
+c * C + p * P + s * S = $100
+
+  c * C + p * P + s * (100 - C - P)  == 100
+
+
+How many solutions for CPS?  
+
+Anton: 94 sheep 5 cows 1 pig
+
+Anton:
+
+  https://reference.wolfram.com/language/ref/FrobeniusSolve.html
+  a * cows + b * pigs + c * sheep == 100
+  a * cows + b * pigs + c * (100 - cows - pigs)  == 100
+
+
+Bruce Gray's one-liner:
+.say if .sum == 100 and (.list Z* (10,3,0.5)).sum == 100 for [X] (1..100) xx 3
+
+
+
+time /home/doom/End/Cave/Eye/bin/david_animals.pl
+cows 5 pigs 1 sheep 94 animals 100 cost 100
+
+/home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026aug23/david_animals.pl
+real	0m0.038s
+user	0m0.016s
+sys	0m0.017s
+
+time /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026aug23/bruce_solution_cows_pigs_sheep.raku
+(5 1 94 100 100)
+
+real	0m1.114s
+user	0m1.235s
+sys	0m0.165s
+
+time /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026aug23/bruce_animals_oneliner.raku
+(5 1 94)
+
+real	0m4.375s
+user	0m4.524s
+sys	0m0.133s
+
+Anton:
+raku -e 'use Math::NumberTheory; my $sol = frobenius-solve([95,25], 500).grep({ $_.min ≥ 1 }).head; say [|$sol, 100 - $sol.sum]'
+raku -e   0.33s user 0.06s system 107% cpu 0.367 total
+
+zef install of Anton's Math::NumberTheory failed tests for me, worked for Bruce
+
+zef install --force-test Math::NumberTheory
+
+time /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026aug23/anton_animals_solution.raku
+[5 1 94]
+
+real	0m2.441s
+user	0m2.917s
+sys	0m0.234s
+
+
+time /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026aug23/bruce_animals.pl
+5 1 94
+
+real	0m0.015s
+user	0m0.003s
+sys	0m0.011s
+
+
+*** Anton
+**** Chemistry::Stoichiometry::Grammar
+**** "smiles" chemistry
+
+*** annals of time
+**** Gnu "time" has an option to show memory usage?
+
+
+** older topics
+
+
+*** books
+**** PDF for "Think Perl 6" has been updated with Raku naming, free (CC license):
+***** https://greenteapress.com/wp/think-perl-6/
+**** 
+***** https://andrewshitov.com/raku-books/
+
+*** coercion protocol (Bruce Gray)
+#+BEGIN_SRC sh
+raku -e 'sub foo ( Int(Cool) $p ) { say $p }; foo( 3.5);'
+    3
+raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
+    3.5
+#+END_SRC
+
+**** https://docs.raku.org/routine/but
+
+
+*** Ben McMahon:
+**** zef init
+***** creates a META6.json, etc
+**** alternate: mi6 (Rob)
+
+**** creating Raku modules (META6, etc):
+***** https://github.com/jonathanstowe/META6
+***** https://github.com/Raku/old-design-docs/blob/master/S22-package-format.pod#distribution-1
+
+
+*** Dave Cross: Still Munging Data with Perl 
+**** https://www.youtube.com/watch?v=2y6B0Spuo9U
+**** (Speaking at Toronto PerlMongers, earlier this year) -- Bruce Gray
+
+*** Perl School -- also a book publisher
+**** https://perlschool.com/
+**** https://raku.org/learn
+
+
+
+** even older oldster topics of oldness
+
+*** videos for tprf 2026 
+**** https://www.youtube.com/@YAPCNA
+
+*** Raku Course 
+**** course.raku.org
+**** announced completed
+
+*** semilattices
+**** https://www.reddit.com/r/rakulang/comments/1ut0ibf/junctions_as_semilattice/
+**** https://en.wikipedia.org/wiki/Semilattice
+***** what's the connection between junctions and semilattices?
+***** and what are semilattices, and why would you care
+****** has to do with partially ordered sets
+****** and operations that produce them
+***** anton: monads and feed operators
+****** associativity, category theory
+****** translators of dsls...
+***** bruce: first impression
+****** combining junctions 
+******* related to abstract algebra of semilattices
+
+
+*** Ben McMahon
+**** raku grammar example
+***** Here is an example of code block delimiter parsing: 
+****** https://github.com/antononcube/Raku-Markdown-Grammar/blob/bc0d33704a9a8596221d5b399e284ee163246e37/lib/Markdown/Grammarish.rakumod#L988596221https://github.com/antononcube/Raku-Markdown-Grammar/blob/bc0d33704a9a8596221d5b399e284ee163246e37/lib/Markdown/Grammarish.rakumod#L98163246https://github.com/antononcube/Raku-Markdown-Grammar/blob/bc0d33704a9a8596221d5b399e284ee163246e37/lib/Markdown/Grammarish.rakumod#L98
+
+***** Anton:
+****** regex md-table-field { \h* $<field>=(<md-text-element>* % <md-table-field-sep>) \h* <!{ $<field>.Str.contains('|') }> }
+
+
+*** Weekly Challenge 381
+**** https://theweeklychallenge.org/blog/perl-weekly-challenge-381/
+***** Bruce Gray, Rob Ransbottom, Mark A
+***** side discussion of "Test" features in Raku and test philosophy
+***** .minmax.bounds vs .minmax.min, .minmax.max
+***** TODO  (|@a, |@b) vs [|](@a, @b) bs. (@a, @b)>>|
+
+
+*** comb in 6.3 has explicit skip-back features
+**** .comb(2 => -1)
+**** it doesn't handle weird cases well: 
+***** does something unexpected silently without error or warning
+
+*** Marton
+**** gfldex's issue about smartmatching of checks and type smileys
+***** https://github.com/doomvox/raku-study/discussions/27
+
+
+*** Steve Rowe opened an issue on flat(:hammer) documentation
+**** https://github.com/Raku/doc/issues/4807
+**** the original discussion:
+***** https://github.com/Raku/problem-solving/issues/431
+
+
+
+*** Bruce: https://theweeklychallenge.org/blog/perl-weekly-challenge-375/ 
+**** virtuouso display, using (and abusing) set operations and their relatives
+***** bag multiplication operation: (.)
+
+
+**** Anton's aside:
+****** “Math::NumberTheory” has  divisors  and  factor-integer
+****** Also,  is-harshad-number , `is-abundant-number`, `is-deficient-number`, and  is-perfect-number .
+
+**** Anton idea:
+#+BEGIN_SRC raku
+my $n = 1020;
+divisors($n).map({ $n.contains($_) && $_ != $n ?? $_.chars !! 0 }).max
+#+END_SRC 
+
+
+*** Tim
+**** wants to dicuss chaining together transformations
+**** Bruce Gray: you might investigate https://wiki.haskell.org/Pointfree
+
+
+*** Marton
+**** junction weirdness
+***** example where it's not clear if you've got "any and all" or "all and any"-- which gets priority?
+***** sub sig type of "Any" splits junction into values, "Mu" takes it as a junction
+****** note: code blocks, pointy blocks, get "Mu" defaults, sub gets "Any" defaults
+***** TODO Check for code examples: /home/doom/End/Cave/RakuStudy/Notes/MartonJunctions
+
+***** negation of junctions does funny stuff
+****** known problem, much discussed
+***** Any and All used together, the All is "outside"
+****** no way to control the order (or not easily) 
+
+***** https://github.com/Raku/problem-solving/issues/319
+***** https://github.com/rakudo/rakudo/issues/3748
+
+****** remove special handling of any 
+#+BEGIN_SRC raku
+any(0,4) != 0 is False #3748
+#+END_SRC
+
+
+***** bruce gray 
+****** 
+#+BEGIN_SRC raku
+sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
+#+END_SRC
+
+
+
+
+
+** announcements 
+
+
+*** https://raku.foundation/
+**** USA can now donate too!
+*** https://yapcjapan.org/2026tokyo/
+**** Larry Wall to speak!
+
+*** next meetings
+**** We're going to skip Labor Day weekend, 9/7
+**** September 13, 2026
+
+*** more info is always here
+**** https://github.com/doomvox/raku-study/blob/main/README.md
+
+
+
