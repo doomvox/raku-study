@@ -53,3 +53,28 @@ foreach (@r) {
      my $b = $c * 10.00 + $p *  3.00 + $s *  0.50;
      print "cows $c pigs $p sheep $s animals $a cost $b\n";
 }
+
+2026-08-25 18:11:15 dpchrist@laalaa ~/sandbox/perl/farmer-puzzle
+$ time perl dpchrist-benchmark
+cows 5 pigs 1 sheep 94 animals 100 cost 100
+
+real    0m1.122s
+user    0m1.122s
+sys     0m0.000s
+
+2026-08-25 18:11:22 dpchrist@laalaa ~/sandbox/perl/farmer-puzzle
+$ time perl dpchrist-benchmark
+cows 5 pigs 1 sheep 94 animals 100 cost 100
+
+real    0m1.122s
+user    0m1.122s
+sys     0m0.000s
+
+2026-08-25 18:11:24 dpchrist@laalaa ~/sandbox/perl/farmer-puzzle
+$ time perl dpchrist-benchmark
+cows 5 pigs 1 sheep 94 animals 100 cost 100
+
+real    0m1.127s
+user    0m1.127s
+sys     0m0.000s
+
