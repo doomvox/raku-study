@@ -16,6 +16,10 @@
 
 ** topics
 
+*** David Christensen on "the Farmer Puzzle"
+
+** topics from Aug 23
+
 *** Anton Antonov topics: (TODO NEXT TIME)
 **** Hamiltonian paths / cycles with regexes-- meh
 **** Integrating OpenRouter and xAI with Raku-- both sessions and Jupyter magic cells
