@@ -12,7 +12,7 @@ Upcoming meetings:
     https://us02web.zoom.us/j/81215774811?pwd=pDlCBPIOwwZkngOk6iSMilzH15VZ0W.1
 
 * Sunday October 11, 2026
-
+    https://us02web.zoom.us/j/89736220418?pwd=175I4uaas9bCMplfGysNbfFJzpcs6k.1
 
 * Sunday October 18, 2026
 
