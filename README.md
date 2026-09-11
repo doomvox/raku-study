@@ -18,7 +18,7 @@ Upcoming meetings:
     https://us02web.zoom.us/j/86868147563?pwd=yDlIz8aEyufknjA31SPJT8yJD9nqwD.1
 
 * Sunday November 08, 2026
-
+    https://us02web.zoom.us/j/84570176879?pwd=2w4dJSIhaSqFGa4y7PucubwkSsf35d.1
 
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
