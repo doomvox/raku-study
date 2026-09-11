@@ -9,12 +9,16 @@ Upcoming meetings:
     * https://us02web.zoom.us/j/86154126231?pwd=PYAYW9jVNGHrUaqXpbAovzR3xoXJ1v.1
 
 * Sunday September 27, 2026
+    https://us02web.zoom.us/j/81215774811?pwd=pDlCBPIOwwZkngOk6iSMilzH15VZ0W.1
 
 * Sunday October 11, 2026
 
+
 * Sunday October 18, 2026
 
+
 * Sunday November 01, 2026
+
 
 
 We start at 1 pm Pacific time, and typically finish by 5pm.
