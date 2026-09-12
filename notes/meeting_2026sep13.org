@@ -23,6 +23,15 @@ September) will be the first Rakudo release that will use the new Raku
 backend (based on a new grammar producing RakuAST) as the default"
 **** To use old backend, envar: RAKUDO_LEGACY=1
 
+**** 
+"In the past weeks the Raku ecosystem has been thoroughly scoured for
+code that would stop functioning in RakuAST. Some finds turned out to
+be omissions / errors in the RakuAST implementation (which then have
+been fixed). Others turned out to be modules doing (semi-)naughty
+things, for which Pull Requests were made to ensure they will continue
+to operate in RakuAST."
+
+
 *** David Christensen on "the Farmer Puzzle"
 **** code update
 **** https://github.com/doomvox/raku-study/tree/main/bin/2026sep13/farmer-puzzle.pl
