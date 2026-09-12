@@ -15,8 +15,8 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** 
-
+*** "Mainstreaming of RakuAST" 
+**** 
 
 *** David Christensen on "the Farmer Puzzle"
 **** code update
