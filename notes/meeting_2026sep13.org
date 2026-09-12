@@ -16,8 +16,11 @@
 
 ** topics
 *** "Mainstreaming of RakuAST" 
+**** Lizmat: 
+"... the next release of Rakudo (2026.09, tentatively planned for 26
+September) will be the first Rakudo release that will use the new Raku
+backend (based on a new grammar producing RakuAST) as the default"
 **** 
-
 *** David Christensen on "the Farmer Puzzle"
 **** code update
 **** https://github.com/doomvox/raku-study/tree/main/bin/2026sep13/farmer-puzzle.pl
