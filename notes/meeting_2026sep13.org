@@ -16,11 +16,11 @@
 
 ** topics
 *** "Mainstreaming of RakuAST" 
+**** https://dev.to/lizmat/mainstreaming-rakuast-49j8
 **** Lizmat: 
 "... the next release of Rakudo (2026.09, tentatively planned for 26
 September) will be the first Rakudo release that will use the new Raku
 backend (based on a new grammar producing RakuAST) as the default"
-**** https://dev.to/lizmat/mainstreaming-rakuast-49j8
 **** To use old backend, envar: RAKUDO_LEGACY=1
 
 *** David Christensen on "the Farmer Puzzle"
