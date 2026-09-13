@@ -54,6 +54,8 @@ my @a = < godzilla grendel wormface blob >;
 
 
 {
+    ## Can swap arrays using binding and a weirdo signature assign,
+    ## but *only* if the arrays are in *this* scope (an outer scope is no good)
 
     my @c  = < wuhn tew thuree >;
     my @d = < alpha beta gamma >;
@@ -62,5 +64,7 @@ my @a = < godzilla grendel wormface blob >;
 
     say @c;
     say @d;
+    # [alpha beta gamma]
+    # [wuhn tew thuree]
 
 }
