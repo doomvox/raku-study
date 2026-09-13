@@ -43,7 +43,7 @@ my ($k, $v) = 0, 1;  # Marton: kinda problematic but I'm not sure this is the ri
 ***** Data wrangling
 ***** Clustering
 **** Emacs interactive Raku execution via Rakupp
-***** Rakupp Emacs Lisp bnding : https://github.com/ash/rakupp/issues/44
+***** Rakupp Emacs Lisp binding : https://github.com/ash/rakupp/issues/44
 
 *** "Mainstreaming of RakuAST" 
 **** https://dev.to/lizmat/mainstreaming-rakuast-49j8
@@ -65,7 +65,9 @@ to operate in RakuAST."
 ***** They didn't arbitrarily change "the spec" to match the binary, right?
 
 
-
+*** Marton Weekly Challenge 390 in prolog
+**** led to dicussion of parsing approaches
+**** Anton: I think what Marton describes is similar to what “FunctionalParsers” does. https://raku.land/zef:antononcube/FunctionalParsers
 
 
 *** David Christensen on "the Farmer Puzzle"
