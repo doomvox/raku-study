@@ -51,3 +51,17 @@ my @a = < godzilla grendel wormface blob >;
 # Lexical with name '@a' does not exist in this frame
 #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026sep13/list_of_array_assignment.raku line 43
 }
+
+
+{
+
+my @c  = < wuhn tew thuree >;
+my @d = < alpha beta gamma >;
+
+
+    :(@c, @d) := (@d, @c);
+
+    say @c;
+    say @d;
+
+}
