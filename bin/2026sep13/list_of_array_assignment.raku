@@ -47,4 +47,7 @@ my @a = < godzilla grendel wormface blob >;
 
     # (\Array_94720428556792 = [[] Array_94720428556792])
     # []
+
+# Lexical with name '@a' does not exist in this frame
+#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026sep13/list_of_array_assignment.raku line 43
 }
