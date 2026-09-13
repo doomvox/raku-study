@@ -33,7 +33,6 @@
 ***** Clustering
 **** Emacs interactive Raku execution via Rakupp
 
-
 *** "Mainstreaming of RakuAST" 
 **** https://dev.to/lizmat/mainstreaming-rakuast-49j8
 **** Lizmat: 
