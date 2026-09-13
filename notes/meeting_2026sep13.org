@@ -75,6 +75,7 @@ to operate in RakuAST."
 *** grand tour of programming languages
 **** with MCs Marton Polgar and Tim Schafer
 ***** https://madhadron.com/programming/seven_ur_languages.html
+***** https://esolangs.org/wiki/Wiwa
 ***** https://en.wikipedia.org/wiki/Array_programming
 ***** https://www.uiua.org/
 
