@@ -82,6 +82,7 @@ to operate in RakuAST."
 ***** language Hedy
 ***** language where beginners can pick things up gradually
 ****** strategy for Raku
+
 *** David Christensen on "the Farmer Puzzle"
 **** code update
 **** https://github.com/doomvox/raku-study/tree/main/bin/2026sep13/farmer-puzzle.pl
