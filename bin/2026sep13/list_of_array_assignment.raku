@@ -10,3 +10,6 @@ my @a = < godzilla grendel wormface blob >;
 
 say @a;
 say @b;
+
+# (\Array_94720428556792 = [[] Array_94720428556792])
+# []
