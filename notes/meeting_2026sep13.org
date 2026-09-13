@@ -86,6 +86,7 @@ to operate in RakuAST."
 **** local copy: /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026sep13/farmer-puzzle.pl
 
 
+
 ** topics from Aug 23
 
 *** Anton Antonov topics: (TODO NEXT TIME)
