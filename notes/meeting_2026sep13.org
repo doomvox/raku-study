@@ -26,6 +26,11 @@
 my ($k, $v) = 0, 1;  # Marton: kinda problematic but I'm not sure this is the right battle to fight, to put it this way
 #+END_SRC
 
+Mark A:
+https://rakudoweekly.blog/2022/06/20/2022-25-we-will-raku/
+
+
+
 *** Anton Antonov's topics
 **** Rakupp vs Rakudo demo
 ***** In notebooks 
@@ -353,3 +358,5 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 
 
 
+
+to make things more confusing see the "did you know" section https://rakudoweekly.blog/2022/06/20/2022-25-we-will-raku/
