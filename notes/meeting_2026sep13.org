@@ -16,6 +16,7 @@
 
 ** topics
 *** Call for topics!
+**** Bill stack exchange
 
 
 *** "Mainstreaming of RakuAST" 
