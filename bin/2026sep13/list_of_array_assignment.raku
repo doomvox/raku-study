@@ -57,7 +57,7 @@ my @a = < godzilla grendel wormface blob >;
     ## Can swap arrays using binding and a weirdo signature assign,
     ## but *only* if the arrays are in *this* scope (an outer scope is no good)
 
-    my @c  = < wuhn tew thuree >;
+    my @c = < wuhn tew thuree >;
     my @d = < alpha beta gamma >;
 
     :(@c, @d) := (@d, @c);
