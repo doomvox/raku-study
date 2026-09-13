@@ -23,7 +23,7 @@
 
 ****  
 #+BEGIN_SRC raku
-my ($k, $v) = 0, 1;  is kinda problematic but I'm not sure this is the right battle to fight, to put it this way
+my ($k, $v) = 0, 1;  # Marton: kinda problematic but I'm not sure this is the right battle to fight, to put it this way
 #+END_SRC
 
 *** Anton Antonov's topics
