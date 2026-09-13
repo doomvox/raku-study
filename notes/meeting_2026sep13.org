@@ -87,8 +87,8 @@ to operate in RakuAST."
 **** code update
 **** https://github.com/doomvox/raku-study/tree/main/bin/2026sep13/farmer-puzzle.pl
 **** local copy: /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026sep13/farmer-puzzle.pl
-
-
+**** Bruce suggests we revisit Anton's solution to this.  TODO
+***** Math::NumberTheory
 
 ** topics from Aug 23
 
