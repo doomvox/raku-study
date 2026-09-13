@@ -58,7 +58,6 @@ my @a = < godzilla grendel wormface blob >;
 my @c  = < wuhn tew thuree >;
 my @d = < alpha beta gamma >;
 
-
     :(@c, @d) := (@d, @c);
 
     say @c;
