@@ -19,6 +19,20 @@
 **** Bill stack exchange
 ***** https://unix.stackexchange.com/questions/807243/extracting-last-occurrence-of-line-number-from-basic-file/807330#807330807243https://unix.stackexchange.com/questions/807243/extracting-last-occurrence-of-line-number-from-basic-file/807330#807330807330https://unix.stackexchange.com/questions/807243/extracting-last-occurrence-of-line-number-from-basic-file/807330#807330807330
 
+*** Anton Antonov's topics
+
+**** Rakupp vs Rakudo demo
+***** In notebooks 
+***** For graphs, distance functions, integer factorizations, prefix-trees
+**** Raku AI-Agent skills 
+***** Graphics / plots
+***** LLM graphs
+***** Number theory
+**** H2O client for Raku
+***** Classification
+***** Data wrangling
+***** Clustering
+
 *** "Mainstreaming of RakuAST" 
 **** https://dev.to/lizmat/mainstreaming-rakuast-49j8
 **** Lizmat: 
