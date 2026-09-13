@@ -26,6 +26,8 @@
 my ($k, $v) = 0, 1;  # Marton: kinda problematic but I'm not sure this is the right battle to fight, to put it this way
 #+END_SRC
 
+***** side issue: assignments of lists of arrays is pretty weird
+
 Mark A:
 https://rakudoweekly.blog/2022/06/20/2022-25-we-will-raku/
 
