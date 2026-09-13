@@ -31,7 +31,7 @@ been fixed). Others turned out to be modules doing (semi-)naughty
 things, for which Pull Requests were made to ensure they will continue
 to operate in RakuAST."
 
-**** I don't see a claim for 100% roast coverage
+**** roast coverage?  Not seeing a claim they're at 100%.
 ***** They didn't arbitrarily change "the spec" to match the binary, right?
 
 *** David Christensen on "the Farmer Puzzle"
