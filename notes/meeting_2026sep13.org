@@ -20,7 +20,6 @@
 ***** https://unix.stackexchange.com/questions/807243/extracting-last-occurrence-of-line-number-from-basic-file/807330#807330807243https://unix.stackexchange.com/questions/807243/extracting-last-occurrence-of-line-number-from-basic-file/807330#807330807330https://unix.stackexchange.com/questions/807243/extracting-last-occurrence-of-line-number-from-basic-file/807330#807330807330
 
 *** Anton Antonov's topics
-
 **** Rakupp vs Rakudo demo
 ***** In notebooks 
 ***** For graphs, distance functions, integer factorizations, prefix-trees
