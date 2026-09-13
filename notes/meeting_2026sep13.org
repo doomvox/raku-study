@@ -45,7 +45,6 @@ my ($k, $v) = 0, 1;  # Marton: kinda problematic but I'm not sure this is the ri
 **** Emacs interactive Raku execution via Rakupp
 ***** Rakupp Emacs Listp bnding : https://github.com/ash/rakupp/issues/44
 
-
 *** "Mainstreaming of RakuAST" 
 **** https://dev.to/lizmat/mainstreaming-rakuast-49j8
 **** Lizmat: 
