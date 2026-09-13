@@ -76,7 +76,6 @@ to operate in RakuAST."
 **** with MCs Marton Polgar and Tim Schafer
 
 **** https://en.wikipedia.org/wiki/Array_programming
-
 **** https://www.uiua.org/
 
 *** David Christensen on "the Farmer Puzzle"
