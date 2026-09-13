@@ -31,7 +31,7 @@
 ***** Classification
 ***** Data wrangling
 ***** Clustering
-**** Another topic — Emacs interactive Raku execution via Rakupp
+**** Emacs interactive Raku execution via Rakupp
 
 
 *** "Mainstreaming of RakuAST" 
