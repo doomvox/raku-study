@@ -79,6 +79,7 @@ to operate in RakuAST."
 ***** https://en.wikipedia.org/wiki/Array_programming
 ***** https://www.uiua.org/
 
+
 *** David Christensen on "the Farmer Puzzle"
 **** code update
 **** https://github.com/doomvox/raku-study/tree/main/bin/2026sep13/farmer-puzzle.pl
