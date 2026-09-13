@@ -18,6 +18,9 @@
 *** Call for topics!
 **** Bill stack exchange
 ***** https://unix.stackexchange.com/questions/807243/extracting-last-occurrence-of-line-number-from-basic-file/807330#807330807243
+**** ? 
+***** https://github.com/Raku/problem-solving/issues/529
+
 
 *** Anton Antonov's topics
 **** Rakupp vs Rakudo demo
