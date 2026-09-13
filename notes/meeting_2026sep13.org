@@ -43,6 +43,8 @@ my ($k, $v) = 0, 1;  # Marton: kinda problematic but I'm not sure this is the ri
 ***** Data wrangling
 ***** Clustering
 **** Emacs interactive Raku execution via Rakupp
+***** Rakupp Emacs Listp bnding : https://github.com/ash/rakupp/issues/44
+
 
 *** "Mainstreaming of RakuAST" 
 **** https://dev.to/lizmat/mainstreaming-rakuast-49j8
@@ -62,6 +64,10 @@ to operate in RakuAST."
 
 **** roast coverage?  Not seeing a claim they're at 100%.
 ***** They didn't arbitrarily change "the spec" to match the binary, right?
+
+
+
+
 
 *** David Christensen on "the Farmer Puzzle"
 **** code update
