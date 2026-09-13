@@ -40,7 +40,7 @@ my @a = < godzilla grendel wormface blob >;
 
 {
     ## https://rakudoweekly.blog/2022/06/20/2022-25-we-will-raku/
-    (@a, @b) := @b, @a;
+    :(@a, @b) := @b, @a;
 
     say @a;
     say @b;
