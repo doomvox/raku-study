@@ -38,19 +38,19 @@ my @a = < godzilla grendel wormface blob >;
 }
 
 
-{
-    ## https://rakudoweekly.blog/2022/06/20/2022-25-we-will-raku/
-    :(@a, @b) := (@b, @a);
+# {
+#     ## https://rakudoweekly.blog/2022/06/20/2022-25-we-will-raku/
+#     :(@a, @b) := (@b, @a);
 
-    say @a;
-    say @b;
+#     say @a;
+#     say @b;
 
-    # (\Array_94720428556792 = [[] Array_94720428556792])
-    # []
+#     # (\Array_94720428556792 = [[] Array_94720428556792])
+#     # []
 
-# Lexical with name '@a' does not exist in this frame
-#   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026sep13/list_of_array_assignment.raku line 43
-}
+# # Lexical with name '@a' does not exist in this frame
+# #   in block <unit> at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/2026sep13/list_of_array_assignment.raku line 43
+# }
 
 
 {
