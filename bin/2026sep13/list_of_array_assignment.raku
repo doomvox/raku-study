@@ -80,6 +80,5 @@ my @a = < godzilla grendel wormface blob >;
     say @c;
     say @d;
     # [alpha beta gamma]
-    # [wuhn tew thuree]
-
+    # [alpha beta gamma]
 }
