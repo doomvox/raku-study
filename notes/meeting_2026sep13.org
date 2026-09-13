@@ -66,7 +66,7 @@ to operate in RakuAST."
 ***** They didn't arbitrarily change "the spec" to match the binary, right?
 
 
-*** Marton Weekly Challenge 390 in prolog
+*** Marton on the Weekly Challenge 390 in prolog
 **** led to dicussion of parsing approaches
 **** Anton: I think what Marton describes is similar to what “FunctionalParsers” does. https://raku.land/zef:antononcube/FunctionalParsers
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-390/
