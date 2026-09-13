@@ -72,7 +72,7 @@ my @a = < godzilla grendel wormface blob >;
 
 {
 
-    my @c = < wuhn tew thuree >;
+    my @c = < wuhn tew thuree  >;
     my @d = < alpha beta gamma >;
 
     (@c, @d) Z= (@d, @c);
