@@ -18,9 +18,13 @@
 *** Call for topics!
 **** Bill stack exchange
 ***** https://unix.stackexchange.com/questions/807243/extracting-last-occurrence-of-line-number-from-basic-file/807330#807330807243
-**** ? 
+**** Z= a natural idiom for the Rakoon?
 ***** https://github.com/Raku/problem-solving/issues/529
 
+****  
+#+BEGIN_SRC raku
+my ($k, $v) = 0, 1;  is kinda problematic but I'm not sure this is the right battle to fight, to put it this way
+#+END_SRC
 
 *** Anton Antonov's topics
 **** Rakupp vs Rakudo demo
