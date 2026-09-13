@@ -52,6 +52,7 @@ my ($k, $v) = 0, 1;  # Marton: kinda problematic but I'm not sure this is the ri
 September) will be the first Rakudo release that will use the new Raku
 backend (based on a new grammar producing RakuAST) as the default"
 **** To use old backend, envar: RAKUDO_LEGACY=1
+**** envar to use the new ast before the release: RAKUDO_RAKUAST=1
 
 **** 
 "In the past weeks the Raku ecosystem has been thoroughly scoured for
