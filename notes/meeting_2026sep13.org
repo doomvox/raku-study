@@ -78,7 +78,9 @@ to operate in RakuAST."
 ***** https://esolangs.org/wiki/Wiwa
 ***** https://en.wikipedia.org/wiki/Array_programming
 ***** https://www.uiua.org/
-
+**** gradual programming, as opposed to typing
+***** language Hedy
+***** language where beginners can pick things up gradually
 
 *** David Christensen on "the Farmer Puzzle"
 **** code update
