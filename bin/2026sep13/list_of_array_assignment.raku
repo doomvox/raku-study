@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-## Marton Polgar 
+## Marton Polgar issue:
 
 use v6.d;
 
