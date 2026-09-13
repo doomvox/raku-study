@@ -30,8 +30,6 @@ my ($k, $v) = 0, 1;  # Marton: kinda problematic but I'm not sure this is the ri
 ****** Mark A:
 ******* https://rakudoweekly.blog/2022/06/20/2022-25-we-will-raku/
 
-
-
 *** Anton Antonov's topics
 **** Rakupp vs Rakudo demo
 ***** In notebooks 
