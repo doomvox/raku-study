@@ -72,6 +72,13 @@ to operate in RakuAST."
 ***** https://raku.land/zef:antononcube/FunctionalParsers
 
 
+*** grand tour of programming languages
+**** with MCs Marton Polgar and Tim Schafer
+
+**** https://en.wikipedia.org/wiki/Array_programming
+
+**** https://www.uiua.org/
+
 *** David Christensen on "the Farmer Puzzle"
 **** code update
 **** https://github.com/doomvox/raku-study/tree/main/bin/2026sep13/farmer-puzzle.pl
