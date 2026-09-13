@@ -21,7 +21,7 @@
 **** Z= a natural idiom for the Rakoon?
 ***** https://github.com/Raku/problem-solving/issues/529
 
-****  
+*****  
 #+BEGIN_SRC raku
 my ($k, $v) = 0, 1;  # Marton: kinda problematic but I'm not sure this is the right battle to fight, to put it this way
 #+END_SRC
