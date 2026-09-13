@@ -1,5 +1,6 @@
 #!/usr/bin/env raku
 
+## Marton Polgar 
 
 use v6.d;
 
@@ -13,3 +14,4 @@ say @b;
 
 # (\Array_94720428556792 = [[] Array_94720428556792])
 # []
+
