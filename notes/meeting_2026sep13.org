@@ -367,7 +367,6 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 
 ** announcements 
 
-
 *** https://raku.foundation/
 **** USA can now donate too!
 *** https://yapcjapan.org/2026tokyo/
