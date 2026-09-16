@@ -63,7 +63,6 @@ things, for which Pull Requests were made to ensure they will continue
 to operate in RakuAST."
 
 **** roast coverage?  Not seeing a claim they're at 100%"
-
 ***** They didn't arbitrarily change "the spec" to match the binary, right?
 
 *** Marton on the Weekly Challenge 390 in prolog
