@@ -65,7 +65,7 @@ to operate in RakuAST."
 **** roast coverage?  Looking for a claim that they're at 100%
 ***** They didn't arbitrarily change "the spec" to match the binary, right?
 ***** cursory check: looks like there's no change in roast results with rakuast
-
+****** what "100%" means here is tricky.
 
 *** Marton on the Weekly Challenge 390 in prolog
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-390/
