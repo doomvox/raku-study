@@ -62,8 +62,10 @@ been fixed). Others turned out to be modules doing (semi-)naughty
 things, for which Pull Requests were made to ensure they will continue
 to operate in RakuAST."
 
-**** roast coverage?  Not seeing a claim they're at 100%"
+**** roast coverage?  Looking for a claim that they're at 100%
 ***** They didn't arbitrarily change "the spec" to match the binary, right?
+***** cursory check: looks like there's no change in roast results with rakuast
+
 
 *** Marton on the Weekly Challenge 390 in prolog
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-390/
