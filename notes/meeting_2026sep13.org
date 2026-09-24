@@ -375,7 +375,7 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 **** Larry Wall to speak!
 
 *** next meetings
-**** September 27, 2026
+**** September 27, 2026 (Oops: had to rescedule for October 4th)
 
 *** more info is always here
 **** https://github.com/doomvox/raku-study/blob/main/README.md
