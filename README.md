@@ -10,6 +10,7 @@ Upcoming meetings:
 
 * Sunday October 04, 2026
 
+
 * Sunday October 11, 2026
     https://us02web.zoom.us/j/89736220418?pwd=175I4uaas9bCMplfGysNbfFJzpcs6k.1
 
