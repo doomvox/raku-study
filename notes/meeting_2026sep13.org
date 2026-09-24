@@ -380,4 +380,4 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 *** more info is always here
 **** https://github.com/doomvox/raku-study/blob/main/README.md
 
-to make things more confusing see the "did you know" section https://rakudoweekly.blog/2022/06/20/2022-25-we-will-raku/
+
