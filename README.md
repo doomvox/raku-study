@@ -6,7 +6,7 @@ A place to share some code and meeting notes for the SF Perl Raku Study Group.
 Upcoming meetings:
 
 NOTE: the following meeting was originally scheduled 
-for September 27, 2026, it's been postponed to October 04.
+for September 27, 2026, it's been postponed to October 4th.
 
 * Sunday October 04, 2026
     https://us02web.zoom.us/j/81215774811?pwd=pDlCBPIOwwZkngOk6iSMilzH15VZ0W.1
