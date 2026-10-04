@@ -6,3 +6,5 @@ say "90".sin;
 say "ratfink".sin;
 ## Cannot convert string to number: base-10 number must begin with valid digits or '.' in '⏏ratfink' (indicated by ⏏)
 
+my @bunnies  = < bugs peter easter gloria haruhi >;
+say @bunnies.sin;
