@@ -40,7 +40,11 @@
 ***** https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/
 ****** Márton Polgar: "this is also the intuitionist debate"
 
-***** https://zeromq.org
+***** zeromq
+****** https://zeromq.org
+****** Here are the ZeroMQ connections to Jupyter: 
+******* https://jupyter-client.readthedocs.io/en/stable/messaging.html
+
 
 **** keyboards
 ***** kinesis classic
