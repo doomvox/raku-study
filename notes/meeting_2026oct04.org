@@ -15,87 +15,86 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 **  topics
-*** Call for topics
-**** rakuast is now on by default for the latest rakudos
-**** 2026.09 has AST as default for core and programs (Bruce Gray)
-**** latest version of rakudo turns on rakuast by default
-***** rakubrew has it
-***** mac's homebrew update will get you there
-**** Rob asks about: core stash
-**** Anton topics;
-***** rakupp tests (Ben Tablet):
-****** New rakupp release v5.2.1 (2026-10-03) -- 100.00% of Roast. 
-******* Of the tests Roast expects an implementation to pass, all 218,420 pass, 
-******* and all 1,424 files in Roast's spectest.data pass completely.
-***** Rakupp for Emacs
-****** supposed to work on the mac now, anton hasn't seen it yet
-******* zeromq
-******** An open-source universal messaging library 
-******** https://zeromq.org
-******** Here are the ZeroMQ connections to Jupyter: 
-********* https://jupyter-client.readthedocs.io/en/stable/messaging.html
-******** https://raku.land/zef:antononcube/Proc::ZMQed
+*** rakuast is now on by default for the latest rakudos
+*** 2026.09 has AST as default for core and programs (Bruce Gray)
+*** latest version of rakudo turns on rakuast by default
+**** rakubrew has it
+**** mac's homebrew update will get you there
+*** Rob asks about: core stash
+*** Anton topics;
+**** rakupp tests (Ben Tablet):
+***** New rakupp release v5.2.1 (2026-10-03) -- 100.00% of Roast. 
+****** Of the tests Roast expects an implementation to pass, all 218,420 pass, 
+****** and all 1,424 files in Roast's spectest.data pass completely.
+**** Rakupp for Emacs
+***** supposed to work on the mac now, anton hasn't seen it yet
+****** zeromq
+******* An open-source universal messaging library 
+******* https://zeromq.org
+******* Here are the ZeroMQ connections to Jupyter: 
+******** https://jupyter-client.readthedocs.io/en/stable/messaging.html
+******* https://raku.land/zef:antononcube/Proc::ZMQed
 
-***** Using Rakudo from Rakupp and vice versa.
-***** Numerical integration framework
-****** With diagrams and process trace plots
-***** How to sandbox AI-agents
-****** Those fucekrs can’t keep to themselves!!
-****** Explicitlyd o not guarantee it in their EULA
-***** The new SystemOne LLM-based classifier
-****** Very fast!
-******* ≈ 10 time faster:
-*******   SystemOne run locally via Ollama takes 0.5 s
-*******   GPT-5.6-Terra (OpenAI) takes 5 s
-***** https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/
-****** Márton Polgar: "this is also the intuitionist debate"
+**** Using Rakudo from Rakupp and vice versa.
+**** Numerical integration framework
+***** With diagrams and process trace plots
+**** How to sandbox AI-agents
+***** Those fucekrs can’t keep to themselves!!
+***** Explicitlydo  not guarantee it in their EULA
+**** The new SystemOne LLM-based classifier
+***** Very fast!
+****** ≈ 10 time faster:
+******   SystemOne run locally via Ollama takes 0.5 s
+******   GPT-5.6-Terra (OpenAI) takes 5 s
+**** https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/
+***** Márton Polgar: "this is also the intuitionist debate"
 
-**** docker has security leaks
-***** insecure, can get at the host
-****** proven in recent "AI" attacks
-***** https://devpot.sh
-****** Repeatable dev environment for any infra, any IDE, and any programming language.
+*** docker has security leaks
+**** insecure, can get at the host
+***** proven in recent "AI" attacks
+**** https://devpot.sh
+***** Repeatable dev environment for any infra, any IDE, and any programming language.
 
-**** rakudo, rakupp competition
-***** fix rakudo's 'unhealthy habits' (Marton Polgar)
-***** https://raku.online/deep/rakudo-bugs/  
-****** funny page!
+*** rakudo, rakupp competition
+**** fix rakudo's 'unhealthy habits' (Marton Polgar)
+**** https://raku.online/deep/rakudo-bugs/  
+***** funny page!
 
-***** raptor: an odd "vibe" coded more perl-ish (?) variant of raku:
-****** https://github.com/xyzzyapps/raptor
+**** raptor: an odd "vibe" coded more perl-ish (?) variant of raku:
+***** https://github.com/xyzzyapps/raptor
 
-****** MoarVM Go Thing (Marton Polgar):
-******* A Go host and FFI binding for MoarVM (the 6model 64-bit virtual machine) with a CompUnit v7 bytecode emitter, 6Model types, https://github.com/xyzzyapps/raptor/blob/master/gcre grammars (Raku subset, PEG-compatible), and a Tcl frontend.
+***** MoarVM Go Thing (Marton Polgar):
+****** A Go host and FFI binding for MoarVM (the 6model 64-bit virtual machine) with a CompUnit v7 bytecode emitter, 6Model types, https://github.com/xyzzyapps/raptor/blob/master/gcre grammars (Raku subset, PEG-compatible), and a Tcl frontend.
 
-**** Timo quit because of LLM stuff in rakudo 
-***** https://irclogs.raku.org/raku/2026-09-14.html#22:30
+*** Timo quit because of LLM stuff in rakudo 
+**** https://irclogs.raku.org/raku/2026-09-14.html#22:30
 
 
-**** Bruce Gray pick:
-***** bscan == Brian Scannell
-***** https://www.youtube.com/watch?v=ENN05EhBkgM
-***** The Perl Navigator: Code Intelligence for any Editor
+*** Bruce Gray pick:
+**** bscan == Brian Scannell
+**** https://www.youtube.com/watch?v=ENN05EhBkgM
+**** The Perl Navigator: Code Intelligence for any Editor
 
-**** keyboards
-***** kinesis classic
-***** mark a: Perl conference talk keyboards
-****** https://www.youtube.com/watch?v=1voFAri6RG0
+*** keyboards
+**** kinesis classic
+**** mark a: Perl conference talk keyboards
+***** https://www.youtube.com/watch?v=1voFAri6RG0
 
-**** raku regexp
-***** starting with perl 5.28:
+*** raku regexp
+**** starting with perl 5.28:
 #+BEGIN_SRC cperl
   qr/^(*script_run:.*)$/
 #+END_SRC
-***** Raku has it? Does it?
-***** not a perfect test for confuseables
-****** same script confuseables
-******* "l" and "1"
-******* "O" and "0"
+**** Raku has it? Does it?
+**** not a perfect test for confuseables
+***** same script confuseables
+****** "l" and "1"
+****** "O" and "0"
 
-***** https://util.unicode.org/UnicodeJsps/confusables.jsp?a=paypal&r=UTS46%2BUTS39#data
+**** https://util.unicode.org/UnicodeJsps/confusables.jsp?a=paypal&r=UTS46%2BUTS39#data
 
-***** https://github.com/Perl/perl5/blob/blead/t/re/script_run.t   
-****** This is the test in Perl to exercise the "script run" regex feature.
+**** https://github.com/Perl/perl5/blob/blead/t/re/script_run.t   
+***** This is the test in Perl to exercise the "script run" regex feature.
 
 ** ye olde topics
 
