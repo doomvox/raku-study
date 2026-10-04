@@ -457,7 +457,6 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 **** Larry Wall to speak!
 
 *** next meetings
-**** 
 **** October 11, 2026
 
 *** more info is always here
