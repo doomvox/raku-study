@@ -52,6 +52,7 @@
 
 **** docker has security leaks
 ***** insecure, can get at the host
+****** proven in recent "AI" attacks
 ***** https://devpot.sh
 ****** Repeatable dev environment for any infra, any IDE, and any programming language.
 
