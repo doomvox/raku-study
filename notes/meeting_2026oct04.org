@@ -39,7 +39,10 @@ Very fast!
   qr/^(*script_run:.*)$/
 #+END_SRC
 ***** Raku has it? Does it?
-
+***** not a perfect test for confuseables
+****** same script confuseables
+******* "l" and "1"
+******* "O" and "0"
 ** ye olde topics
 
 *** Call for topics!
