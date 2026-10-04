@@ -20,15 +20,15 @@
 
 **** Rob asks about: core stash
 **** Anton topics;
-Rakupp for Emacs
-Using Rakudo from Rakupp and vice versa.
-Numerical integration framework
-With diagrams and process trace plots
-How to sandbox AI-agents
-Those fuckers can’t keep to themselves!!
-Explicitly do not guarantee it in their EULA
-The new SystemOne LLM-based classifier
-Very fast!
+***** Rakupp for Emacs
+***** Using Rakudo from Rakupp and vice versa.
+***** Numerical integration framework
+***** With diagrams and process trace plots
+***** How to sandbox AI-agents
+***** Those fuckers can’t keep to themselves!!
+***** Explicitly do not guarantee it in their EULA
+***** The new SystemOne LLM-based classifier
+***** Very fast!
 
 **** keyboards
 ***** kinesis classic
