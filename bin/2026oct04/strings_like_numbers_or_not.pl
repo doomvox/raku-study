@@ -7,6 +7,6 @@ say sin( @bunnies );  # -0.958924274663138
 
 
 
-eval 'use $some_module';
+## eval 'use $some_module';
 
 
