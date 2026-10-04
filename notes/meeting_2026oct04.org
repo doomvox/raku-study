@@ -41,7 +41,7 @@
 ****** With diagrams and process trace plots
 ***** How to sandbox AI-agents
 ****** Those fucekrs can’t keep to themselves!!
-****** Explicitly do not guarantee it in their EULA
+****** Explicitlyd o not guarantee it in their EULA
 ***** The new SystemOne LLM-based classifier
 ****** Very fast!
 ******* ≈ 10 time faster:
@@ -66,6 +66,10 @@
 
 ****** MoarVM Go Thing (Marton Polgar):
 ******* A Go host and FFI binding for MoarVM (the 6model 64-bit virtual machine) with a CompUnit v7 bytecode emitter, 6Model types, https://github.com/xyzzyapps/raptor/blob/master/gcre grammars (Raku subset, PEG-compatible), and a Tcl frontend.
+
+**** 
+https://irclogs.raku.org/raku/2026-09-14.html#22:30
+
 
 **** Bruce Gray pick:
 ***** bscan == Brian Scannell
