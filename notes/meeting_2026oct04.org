@@ -20,7 +20,7 @@
 ***** mac's homebrew update will get you there
 **** Rob asks about: core stash
 **** Anton topics;
-***** rakupp tests
+***** rakupp tests (Ben Tablet):
 ****** New rakupp release v5.2.1 (2026-10-03) -- 100.00% of Roast. 
 ******* Of the tests Roast expects an implementation to pass, all 218,420 pass, 
 ******* and all 1,424 files in Roast's spectest.data pass completely.
