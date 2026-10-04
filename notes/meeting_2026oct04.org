@@ -31,8 +31,8 @@
 ***** The new SystemOne LLM-based classifier
 ***** Very fast!
 ****** ≈ 10 time faster:
-******   -- SystemOne run locally via Ollama takes 0.5 s
-******   -- GPT-5.6-Terra (OpenAI) takes 5 s
+******   SystemOne run locally via Ollama takes 0.5 s
+******   GPT-5.6-Terra (OpenAI) takes 5 s
 ***** test coverage
 ****** New rakupp release v5.2.1 (2026-10-03) -- 100.00% of Roast. 
 ******* Of the tests Roast expects an implementation to pass, all 218,420 pass, 
