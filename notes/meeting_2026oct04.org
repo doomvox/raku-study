@@ -37,6 +37,7 @@
 ******* ≈ 10 time faster:
 *******   SystemOne run locally via Ollama takes 0.5 s
 *******   GPT-5.6-Terra (OpenAI) takes 5 s
+***** https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/
 
 
 **** keyboards
