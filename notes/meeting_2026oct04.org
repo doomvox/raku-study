@@ -16,7 +16,7 @@
 
 **  topics
 *** Call for topics
-**** 
+**** latest version of rakudo turns on rakuast by default
 
 **** Rob asks about: core stash
 **** Anton topics;
