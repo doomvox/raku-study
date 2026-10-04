@@ -30,7 +30,8 @@ Very fast!
 
 **** keyboards
 ***** kinesis classic
-***** mark a: Perl conference talk keyboards https://www.youtube.com/watch?v=1voFAri6RG0
+***** mark a: Perl conference talk keyboards
+****** https://www.youtube.com/watch?v=1voFAri6RG0
 
 ** ye olde topics
 
