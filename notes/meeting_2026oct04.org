@@ -21,7 +21,6 @@
 **** Rob asks about: core stash
 **** Anton topics;
 ***** Rakupp for Emacs
-****** 
 ***** Using Rakudo from Rakupp and vice versa.
 ***** Numerical integration framework
 ****** With diagrams and process trace plots
