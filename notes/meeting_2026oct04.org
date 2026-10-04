@@ -14,7 +14,12 @@
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
-** topics
+**  topics
+*** Call for topics!
+
+
+** ye olde topics
+
 *** Call for topics!
 **** Bill stack exchange
 ***** https://unix.stackexchange.com/questions/807243/extracting-last-occurrence-of-line-number-from-basic-file/807330#807330807243
