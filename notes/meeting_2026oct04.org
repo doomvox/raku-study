@@ -66,7 +66,6 @@
 ****** https://www.youtube.com/watch?v=ENN05EhBkgM
 ****** The Perl Navigator: Code Intelligence for any Editor
 
-
 **** keyboards
 ***** kinesis classic
 ***** mark a: Perl conference talk keyboards
