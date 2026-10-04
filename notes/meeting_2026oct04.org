@@ -33,6 +33,13 @@ Very fast!
 ***** mark a: Perl conference talk keyboards
 ****** https://www.youtube.com/watch?v=1voFAri6RG0
 
+**** raku regexp
+***** starting with perl 5.28:
+#+BEGIN_SRC cperl
+  qr/^(*script_run:.*)$/
+#+END_SRC
+***** Raku has it? Does it?
+
 ** ye olde topics
 
 *** Call for topics!
