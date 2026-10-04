@@ -16,8 +16,8 @@
 
 **  topics
 *** Call for topics
-**** latest version of rakudo turns on rakuast by default
-
+**** bruce points out latest version of rakudo turns on rakuast by default
+***** mac's homebrew update will get you there
 **** Rob asks about: core stash
 **** Anton topics;
 ***** Rakupp for Emacs
