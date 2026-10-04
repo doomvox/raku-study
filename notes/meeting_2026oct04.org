@@ -33,7 +33,6 @@
 ********* https://jupyter-client.readthedocs.io/en/stable/messaging.html
 ******** https://raku.land/zef:antononcube/Proc::ZMQed
 
-
 ***** Using Rakudo from Rakupp and vice versa.
 ***** Numerical integration framework
 ****** With diagrams and process trace plots
