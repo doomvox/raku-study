@@ -64,9 +64,8 @@
 ***** raptor: an odd "vibe" coded more perl-ish (?) variant of raku:
 ****** https://github.com/xyzzyapps/raptor
 
-
-***** MoarVM Go Thing (Marton Polgar):
-****** A Go host and FFI binding for MoarVM (the 6model 64-bit virtual machine) with a CompUnit v7 bytecode emitter, 6Model types, https://github.com/xyzzyapps/raptor/blob/master/gcre grammars (Raku subset, PEG-compatible), and a Tcl frontend.
+****** MoarVM Go Thing (Marton Polgar):
+******* A Go host and FFI binding for MoarVM (the 6model 64-bit virtual machine) with a CompUnit v7 bytecode emitter, 6Model types, https://github.com/xyzzyapps/raptor/blob/master/gcre grammars (Raku subset, PEG-compatible), and a Tcl frontend.
 
 **** Bruce Gray pick:
 ***** bscan == Brian Scannell
