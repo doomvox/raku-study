@@ -1,6 +1,5 @@
 #!/usr/bin/env raku
 
-
 use Proc::ZMQed::Raku;
 
 my Proc::ZMQed::Raku $rakuProc;
