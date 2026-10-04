@@ -20,6 +20,12 @@
 ***** mac's homebrew update will get you there
 **** Rob asks about: core stash
 **** Anton topics;
+***** rakupp tests
+****** New rakupp release v5.2.1 (2026-10-03) -- 100.00% of Roast. 
+******* Of the tests Roast expects an implementation to pass, all 218,420 pass, 
+******* and all 1,424 files in Roast's spectest.data pass completely.
+
+
 ***** Rakupp for Emacs
 ****** supposed to work on the mac now, anton hasn't seen it yet
 ***** Using Rakudo from Rakupp and vice versa.
@@ -33,10 +39,6 @@
 ******* ≈ 10 time faster:
 *******   SystemOne run locally via Ollama takes 0.5 s
 *******   GPT-5.6-Terra (OpenAI) takes 5 s
-***** test coverage
-****** New rakupp release v5.2.1 (2026-10-03) -- 100.00% of Roast. 
-******* Of the tests Roast expects an implementation to pass, all 218,420 pass, 
-******* and all 1,424 files in Roast's spectest.data pass completely.
 
 
 **** keyboards
