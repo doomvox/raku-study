@@ -18,6 +18,10 @@
 *** Call for topics
 
 
+
+
+
+
 ** ye olde topics
 
 *** Call for topics!
@@ -380,6 +384,7 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 
 *** next meetings
 **** September 27, 2026 (Oops: had to rescedule for October 4th)
+**** October 11, 2026
 
 *** more info is always here
 **** https://github.com/doomvox/raku-study/blob/main/README.md
