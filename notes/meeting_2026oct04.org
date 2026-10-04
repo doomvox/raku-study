@@ -16,6 +16,8 @@
 
 **  topics
 *** Call for topics
+**** 
+
 **** Rob asks about: core stash
 **** Anton topics;
 Rakupp for Emacs
@@ -45,6 +47,9 @@ Very fast!
 ******* "O" and "0"
 
 ***** https://util.unicode.org/UnicodeJsps/confusables.jsp?a=paypal&r=UTS46%2BUTS39#data
+
+***** https://github.com/Perl/perl5/blob/blead/t/re/script_run.t   
+****** This is the test in Perl to exercise the "script run" regex feature.
 
 ** ye olde topics
 
