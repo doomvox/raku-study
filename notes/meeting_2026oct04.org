@@ -44,7 +44,7 @@ Very fast!
 ******* "l" and "1"
 ******* "O" and "0"
 
-https://util.unicode.org/UnicodeJsps/confusables.jsp?a=paypal&r=UTS46%2BUTS39#data
+***** https://util.unicode.org/UnicodeJsps/confusables.jsp?a=paypal&r=UTS46%2BUTS39#data
 
 
 
