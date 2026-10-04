@@ -56,6 +56,9 @@
 ***** https://devpot.sh
 ****** Repeatable dev environment for any infra, any IDE, and any programming language.
 
+**** rakudo, rakupp competition
+***** fix rakudo's 'unhealthy habits' (Marton Polgar)
+
 **** keyboards
 ***** kinesis classic
 ***** mark a: Perl conference talk keyboards
