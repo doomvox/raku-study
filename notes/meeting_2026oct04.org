@@ -26,6 +26,14 @@
 ******* and all 1,424 files in Roast's spectest.data pass completely.
 ***** Rakupp for Emacs
 ****** supposed to work on the mac now, anton hasn't seen it yet
+******* zeromq
+******** An open-source universal messaging library 
+******** https://zeromq.org
+******** Here are the ZeroMQ connections to Jupyter: 
+********* https://jupyter-client.readthedocs.io/en/stable/messaging.html
+******** https://raku.land/zef:antononcube/Proc::ZMQed
+
+
 ***** Using Rakudo from Rakupp and vice versa.
 ***** Numerical integration framework
 ****** With diagrams and process trace plots
@@ -40,12 +48,6 @@
 ***** https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/
 ****** Márton Polgar: "this is also the intuitionist debate"
 
-***** zeromq
-****** An open-source universal messaging library 
-****** https://zeromq.org
-****** Here are the ZeroMQ connections to Jupyter: 
-******* https://jupyter-client.readthedocs.io/en/stable/messaging.html
-****** https://raku.land/zef:antononcube/Proc::ZMQed
 
 **** keyboards
 ***** kinesis classic
