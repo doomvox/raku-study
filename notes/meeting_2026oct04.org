@@ -61,10 +61,15 @@
 ***** https://raku.online/deep/rakudo-bugs/  
 ****** funny page!
 
+***** raptor: an odd "vibe" coded more perl-ish (?) variant of raku:
+****** https://github.com/xyzzyapps/raptor
+
 ***** Bruce Gray:
 ****** bscan == Brian Scannell
 ****** https://www.youtube.com/watch?v=ENN05EhBkgM
 ****** The Perl Navigator: Code Intelligence for any Editor
+
+
 
 **** keyboards
 ***** kinesis classic
