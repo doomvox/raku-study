@@ -458,7 +458,7 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 
 *** next meetings
 **** October 11, 2026
-
+ 
 *** more info is always here
 **** https://github.com/doomvox/raku-study/blob/main/README.md
 
