@@ -16,7 +16,10 @@
 
 **  topics
 *** Call for topics
-**** bruce points out latest version of rakudo turns on rakuast by default
+**** rakuast is now on by default for the latest rakudos
+**** 2026.09 has AST as default for core and programs (Bruce Gray)
+**** latest version of rakudo turns on rakuast by default
+***** Rakubrew has it.
 ***** mac's homebrew update will get you there
 **** Rob asks about: core stash
 **** Anton topics;
