@@ -19,3 +19,5 @@ $rakuProc.terminate;
 # $*RAKU.compiler.id : "5.2.1"
 # $*RAKU.compiler.codename : "Raku++"
 # $(5.477225575051661e0, 6.324555320336759e0, 1.4142135623730951e0)
+
+# https://raku.land/zef:antononcube/Proc::ZMQed
