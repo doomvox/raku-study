@@ -68,7 +68,7 @@
 ******* A Go host and FFI binding for MoarVM (the 6model 64-bit virtual machine) with a CompUnit v7 bytecode emitter, 6Model types, https://github.com/xyzzyapps/raptor/blob/master/gcre grammars (Raku subset, PEG-compatible), and a Tcl frontend.
 
 **** 
-https://irclogs.raku.org/raku/2026-09-14.html#22:30
+***** https://irclogs.raku.org/raku/2026-09-14.html#22:30
 
 
 **** Bruce Gray pick:
