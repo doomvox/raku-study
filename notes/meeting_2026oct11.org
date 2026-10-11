@@ -58,8 +58,8 @@
 ***** https://conf.raku.org/talk/154
 
 *** Marton on Junction issues
-
-**** https://github.com/rakudo/rakudo/pull/3849
+**** approves of AlexDaniels take
+***** https://github.com/rakudo/rakudo/pull/3849
 
 ** rancid decaying topics of a bygone era
 *** rakuast is now on by default for the latest rakudos
