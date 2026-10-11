@@ -18,6 +18,7 @@
 *** Marton Polgar (2colours) post on "Is generative AI killing or saving Raku?"
 **** https://dev.to/2colours/is-generative-ai-killing-or-saving-raku-37ai
 **** And this was posted at reddit.com/r/rakulang by lizmat
+
 *** Anton finds Raku++ is 2x faster on his large numeric package
 
 *** Webraku
