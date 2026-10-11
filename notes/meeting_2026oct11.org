@@ -48,8 +48,6 @@
 ***** https://edumentab.github.io/rakudo-and-nqp-internals-course/slides-day2.pdf
 ***** https://edumentab.github.io/rakudo-and-nqp-internals-course/exercises.pdf
 
-
-
 ** rancid decaying topics of a bygone era
 *** rakuast is now on by default for the latest rakudos
 **** https://rakuweekly.blog/2026/09/29/2026-39-mainstreamed/
