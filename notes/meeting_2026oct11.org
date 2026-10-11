@@ -24,7 +24,14 @@
 *** package names
 **** Dist::Uniform vs. UniformDistribution
 *** Rob problems
-**** lizmats type introspection
+**** lizmat's type introspection module
+***** 
+**** Object::Examine
+***** https://github.com/doomvox/perl6-object-examine
+***** as a demo of object introspection: ^.mro, ^.methods, etc.
+***** This is somewhat similar: https://raku.land/zef:antononcube/Data::TypeSystem
+
+
 
 
 ** rancid decaying topics of a bygone era
