@@ -30,10 +30,10 @@
 ** rancid decaying topics of a bygone era
 *** rakuast is now on by default for the latest rakudos
 **** https://rakuweekly.blog/2026/09/29/2026-39-mainstreamed/
-*** 2026.09 has AST as default for core and programs (Bruce Gray)
-*** latest version of rakudo turns on rakuast by default
-**** rakubrew has it
-**** mac's homebrew update will get you there
+**** 2026.09 has AST as default for core and programs (Bruce Gray)
+**** latest version of rakudo turns on rakuast by default
+***** rakubrew has it
+***** mac's homebrew update will get you there
 *** Rob asks about: core stash
 *** Anton topics;
 **** rakupp tests (Ben Tablet):
