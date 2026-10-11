@@ -54,7 +54,8 @@
 ***** https://edumentab.github.io/rakudo-and-nqp-internals-course/slides-day1.pdf
 ***** https://edumentab.github.io/rakudo-and-nqp-internals-course/slides-day2.pdf
 ***** https://edumentab.github.io/rakudo-and-nqp-internals-course/exercises.pdf
-
+**** Vadim Belman tutorial
+***** https://conf.raku.org/talk/154
 
 ** rancid decaying topics of a bygone era
 *** rakuast is now on by default for the latest rakudos
