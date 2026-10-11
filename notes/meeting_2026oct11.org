@@ -15,7 +15,8 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** Marton Polgar post on "Is generative AI killing or saving Raku?"
+*** Marton Polgar (2colours) post on "Is generative AI killing or saving Raku?"
+**** https://dev.to/2colours/is-generative-ai-killing-or-saving-raku-37ai
 **** and this was posted at reddit.com/r/rakulang by lizmat
 
 ** rancid decaying topics of a bygone era
