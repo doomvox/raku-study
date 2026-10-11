@@ -15,7 +15,8 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-
+*** Marton Polgar post on "Is generative AI killing or saving Raku?"
+**** and this was posted at reddit.com/r/rakulang by lizmat
 
 ** rancid decaying topics of a bygone era
 *** rakuast is now on by default for the latest rakudos
