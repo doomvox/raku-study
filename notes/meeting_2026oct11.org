@@ -54,7 +54,7 @@
 ***** https://edumentab.github.io/rakudo-and-nqp-internals-course/slides-day1.pdf
 ***** https://edumentab.github.io/rakudo-and-nqp-internals-course/slides-day2.pdf
 ***** https://edumentab.github.io/rakudo-and-nqp-internals-course/exercises.pdf
-**** Vadim Belman tutorial
+**** Vadim Belman tutorial: 4 hours
 ***** https://conf.raku.org/talk/154
 
 ** rancid decaying topics of a bygone era
