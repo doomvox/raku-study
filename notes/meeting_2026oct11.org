@@ -17,7 +17,10 @@
 ** topics
 *** Marton Polgar (2colours) post on "Is generative AI killing or saving Raku?"
 **** https://dev.to/2colours/is-generative-ai-killing-or-saving-raku-37ai
-**** and this was posted at reddit.com/r/rakulang by lizmat
+**** And this was posted at reddit.com/r/rakulang by lizmat
+*** Web::
+**** 
+*** 
 
 ** rancid decaying topics of a bygone era
 *** rakuast is now on by default for the latest rakudos
