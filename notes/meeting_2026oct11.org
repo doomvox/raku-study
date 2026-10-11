@@ -20,7 +20,7 @@
 **** And this was posted at reddit.com/r/rakulang by lizmat
 **** Anton finds Raku++ is 2x faster on his large numeric package
 *** Web::
-**** 
+**** competitor to Cro
 *** package names
 **** Dist::Uniform vs. UniformDistribution
 *** Rob problems
