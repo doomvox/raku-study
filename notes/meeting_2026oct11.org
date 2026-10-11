@@ -23,8 +23,8 @@
 **** 
 *** package names
 **** Dist::Uniform vs. UniformDistribution
-*** 
-
+*** Rob problems
+**** lizmats type introspection
 
 
 ** rancid decaying topics of a bygone era
