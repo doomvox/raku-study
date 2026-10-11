@@ -32,7 +32,8 @@
 ***** Somewhat similar: https://raku.land/zef:antononcube/Data::TypeSystem
 ***** Related project
 ****** https://github.com/doomvox/perl6-symbol-scan
-
+****** based on
+******* https://stackoverflow.com/questions/44861432/is-there-a-way-to-get-a-list-of-all-known-types-in-a-perl-6-program
 
 ** rancid decaying topics of a bygone era
 *** rakuast is now on by default for the latest rakudos
