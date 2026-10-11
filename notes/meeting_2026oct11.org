@@ -19,8 +19,11 @@
 **** https://dev.to/2colours/is-generative-ai-killing-or-saving-raku-37ai
 **** And this was posted at reddit.com/r/rakulang by lizmat
 **** Anton finds Raku++ is 2x faster on his large numeric package
-*** Web::
+*** Webraku
 **** competitor to Cro
+**** "A full-stack web framework for Raku: server-rendered pages that come alive in the browser, written in Raku alone, with no JavaScript."
+**** depends on raku++: needs to compile for target=js
+
 *** package names
 **** Dist::Uniform vs. UniformDistribution
 *** Rob problems
