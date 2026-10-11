@@ -29,9 +29,9 @@
 **** Object::Examine
 ***** https://github.com/doomvox/perl6-object-examine
 ***** as a demo of object introspection: ^.mro, ^.methods, etc.
-***** This is somewhat similar: https://raku.land/zef:antononcube/Data::TypeSystem
-
-
+***** Somewhat similar: https://raku.land/zef:antononcube/Data::TypeSystem
+***** Related project
+****** https://github.com/doomvox/perl6-symbol-scan
 
 
 ** rancid decaying topics of a bygone era
