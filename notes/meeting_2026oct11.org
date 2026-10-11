@@ -20,7 +20,8 @@
 **** And this was posted at reddit.com/r/rakulang by lizmat
 *** Web::
 **** 
-*** 
+*** package names
+**** Dist::Uniform vs. UniformDistribution
 
 ** rancid decaying topics of a bygone era
 *** rakuast is now on by default for the latest rakudos
