@@ -43,7 +43,10 @@
 *** Raku internals, resources
 **** https://andrewshitov.com/category/perl-6-internals/page/3/
 **** https://www.reddit.com/r/rakulang/comments/o28dzl/did_you_know_that_vadim_belman/
-**** 
+**** https://edumentab.github.io/rakudo-and-nqp-internals-course/slides-day1.pdf
+**** https://edumentab.github.io/rakudo-and-nqp-internals-course/slides-day2.pdf
+**** https://edumentab.github.io/rakudo-and-nqp-internals-course/exercises.pdf
+
 
 
 ** rancid decaying topics of a bygone era
