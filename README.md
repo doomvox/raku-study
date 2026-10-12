@@ -8,9 +8,6 @@ Upcoming meetings:
 NOTE: the following meeting was originally scheduled 
 for September 27, 2026, it's been postponed to October 4th.
 
-* Sunday October 11, 2026
-    https://us02web.zoom.us/j/89736220418?pwd=175I4uaas9bCMplfGysNbfFJzpcs6k.1
-
 * Sunday October 25, 2026
     https://us02web.zoom.us/j/86868147563?pwd=yDlIz8aEyufknjA31SPJT8yJD9nqwD.1
 
