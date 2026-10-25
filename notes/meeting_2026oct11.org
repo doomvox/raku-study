@@ -2,19 +2,23 @@
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026oct11.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026oct25.org 
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2026oct11
+****** https://github.com/doomvox/raku-study/tree/main/bin/2026oct25
 ****** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026oct04.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026oct11.org
 
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
+
+
+
+** dank mumblings of elder gods long passed two weeks ago
 *** Marton Polgar (2colours) post on "Is generative AI killing or saving Raku?"
 **** https://dev.to/2colours/is-generative-ai-killing-or-saving-raku-37ai
 **** And this was posted at reddit.com/r/rakulang by lizmat
