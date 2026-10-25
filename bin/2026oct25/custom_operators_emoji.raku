@@ -12,8 +12,6 @@ use v6;
 # 1F9B2;EMOJI COMPONENT BALD;So;0;ON;;;;;N;;;;;
 # 1F9B3;EMOJI COMPONENT WHITE HAIR;So;0;ON;;;;;N;;;;;
 
-
-
 multi infix:<😂> (  $a,  $b ) is export { say "Fundamentally no $a really knows anything about $b"; };
 
 
