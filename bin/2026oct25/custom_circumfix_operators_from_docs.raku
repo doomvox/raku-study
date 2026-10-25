@@ -7,4 +7,4 @@ sub circumfix:<α ω>( $a ) {
 };
 
 
-α♥ω;               # OUTPUT: «♥ is the beginning and the end.␤»
+α♥ω;               
