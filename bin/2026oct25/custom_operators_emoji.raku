@@ -24,4 +24,4 @@ sub infix:<😂> (  $a,  $b ) is export { say "Fundamentally no $a really knows 
 
 sub circumflex:<😅> ( $a ) { say "But what about $a"; } 
 
-😅😅
+😅The hole design pattern😅;
