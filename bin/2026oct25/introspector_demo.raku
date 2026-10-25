@@ -7,6 +7,5 @@ use Object::Examine;
 
 
 my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
-
 @monsters does Introspector;
 say @monsters.menu;
