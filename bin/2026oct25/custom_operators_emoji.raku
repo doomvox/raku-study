@@ -1,4 +1,6 @@
+#!/usr/bin/env perl6
 
+use v6;
 
 # 1F602;FACE WITH TEARS OF JOY;So;0;ON;;;;;N;;;;;
 # 1F603;SMILING FACE WITH OPEN MOUTH;So;0;ON;;;;;N;;;;;
