@@ -6,3 +6,4 @@ use Object::Examine;
 my $a;
 my Any $b;
 
+$a does Introspector;
