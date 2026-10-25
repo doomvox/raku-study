@@ -39,6 +39,14 @@
 #+END_SRC
 ****** "This kind of specification of method specifications demands the GoF patterns Builder, AbstractFactory, Decorator, Interpreter, etc."
 
+**** custom operators 
+***** unicode emoji okay?
+***** circumfix operator issues
+
+***** Anton points at Steve Roe, using the Libra sign as an operator:
+****** https://github.com/librasteve/raku-Physics-Measure/blob/main/docs/PythonPint2rakuPhysicsMeasure.pdf
+
+
 
 
 ** dank mumblings of elder gods long passed two weeks ago
