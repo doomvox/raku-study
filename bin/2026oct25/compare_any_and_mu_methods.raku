@@ -3,13 +3,13 @@
 use Object::Examine;
 
 
-my $a;
-# my Any $b;
+# my $a;
+my Any $b;
 
-$a does Introspector;
-# Cannot use 'does' operator on a type object Mu.
+# $a does Introspector;
+## Cannot use 'does' operator on a type object Mu.
 
-# $b does Introspector;
+$b does Introspector;
 # Cannot use 'does' operator on a type object Any.
 
 say "---";
