@@ -5,5 +5,9 @@ my @a = ();
 my @b;
 
 
-say @a.WHAT;
-say @b.WHAT;
+say @a.WHAT;  # (Array)
+say @b.WHAT;  # (Array)
+
+
+say @a[0].WHAT;  # (Array)
+say @b[0].WHAT;  # (Array)
