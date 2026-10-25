@@ -5,7 +5,6 @@ use Object::Examine;
 # $b does Introspector;
 # say $b.menu;
 
-
 my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
 @monsters does Introspector;
 say @monsters.menu;
