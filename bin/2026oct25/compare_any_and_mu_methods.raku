@@ -4,7 +4,7 @@ use Object::Examine;
 
 
 my $a;
-my Any $b;
+# my Any $b;
 
 $a does Introspector;
 # $b does Introspector;
