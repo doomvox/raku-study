@@ -23,7 +23,8 @@
 **** numerical regression
 **** rakupp grammars: ~20x faster (20 times, not percent)
 **** junctions and assignment (Marton issue: rakupp differs from rakudo?)
-
+***** https://github.com/ash/rakupp/issues/185
+***** https://dev.to/2colours/why-raku-junctions-cannot-work-the-short-story-2kmi
 ** dank mumblings of elder gods long passed two weeks ago
 *** Marton Polgar (2colours) post on "Is generative AI killing or saving Raku?"
 **** https://dev.to/2colours/is-generative-ai-killing-or-saving-raku-37ai
