@@ -22,7 +22,7 @@
 **** quintile regression
 **** numerical regression
 **** rakupp grammars: ~20x faster (20 times, not percent)
-
+**** junctions and assignment (Marton issue: rakupp differs from rakudo?)
 
 ** dank mumblings of elder gods long passed two weeks ago
 *** Marton Polgar (2colours) post on "Is generative AI killing or saving Raku?"
