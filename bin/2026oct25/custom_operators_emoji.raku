@@ -24,6 +24,6 @@ multi infix:<😂> (  $a,  $b ) is export { say "Fundamentally no $a really know
 
 multi circumfix:<😃 😄> ( $a ) { say "But what about $a"; } 
 
-my $r = 😃The hole design pattern😄;
+my $r = 😃'The hole design pattern'😄;
 
 
