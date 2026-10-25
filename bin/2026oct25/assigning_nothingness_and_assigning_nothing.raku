@@ -22,3 +22,6 @@ say "===";
 use Object::Examine;
 @b does Introspector;
 say @b.menu;
+
+
+### Can't find any practical difference in @a and @b...
