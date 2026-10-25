@@ -16,3 +16,5 @@ say $i.menu;
 
 my Int $not_yet;
 $not_yet does Introspector;
+## 
+## Cannot use 'does' operator on a type object Int.
