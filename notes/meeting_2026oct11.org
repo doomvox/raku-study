@@ -46,6 +46,8 @@
 ***** Anton points at Steve Roe, using the Libra sign as an operator:
 ****** https://github.com/librasteve/raku-Physics-Measure/blob/main/docs/PythonPint2rakuPhysicsMeasure.pdf
 
+***** https://docs.raku.org/language/unicode
+***** https://docs.raku.org/language/unicode#Codepoint_sequences
 
 
 
