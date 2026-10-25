@@ -8,3 +8,7 @@ use Object::Examine;
 my @monsters = < basilisk minotaur behemoth leviathan ziz chimera manticore >;
 @monsters does Introspector;
 say @monsters.menu;
+
+
+my %h = a => 1, b => 2, c => 3;
+
