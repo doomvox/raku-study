@@ -26,7 +26,7 @@
 ***** https://github.com/ash/rakupp/issues/185
 ***** https://dev.to/2colours/why-raku-junctions-cannot-work-the-short-story-2kmi
 
-
+**** GOF design patterns in Raku
 #+BEGIN_SRC raku
   ## Here is an “Math::NIntegrate” example:
 
@@ -37,6 +37,9 @@
                  )
           )):pairs
 #+END_SRC
+****** "This kind of specification of method specifications demands the GoF patterns Builder, AbstractFactory, Decorator, Interpreter, etc."
+
+
 
 ** dank mumblings of elder gods long passed two weeks ago
 *** Marton Polgar (2colours) post on "Is generative AI killing or saving Raku?"
