@@ -1,7 +1,7 @@
 #!/usr/bin/env perl6
 
-say ().WHAT;
-say Empty.WHAT;
+say ().WHAT;     # (List)
+say Empty.WHAT;  # (Slip)
 say "---";
 
 my @a = ();
