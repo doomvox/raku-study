@@ -26,4 +26,4 @@ multi circumfix:<😃 😄> ( $a ) { say "But what about $a"; }
 
 my $r = 😃The hole design pattern😄;
 
-## Cannot add tokens of category 'circumflex'
+
