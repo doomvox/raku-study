@@ -1,5 +1,9 @@
 #!/usr/bin/env perl6
 
+say ().WHAT;
+say Empty.WHAT;
+say "---";
+
 my @a = ();
 my @b;
 my @c = Empty;
