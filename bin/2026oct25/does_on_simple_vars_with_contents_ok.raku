@@ -43,5 +43,5 @@ say "---";
 
 
 my List @arrayishness = ( (23, 3), (86, 4), (99, 5));
-say @arrayishness;
+say @arrayishness;  # [(23 3) (86 4) (99 5)]
 
