@@ -2,6 +2,7 @@
 
 my @a = ();
 my @b;
+my @c = Empty;
 
 say @a.WHAT;  # (Array)
 say @b.WHAT;  # (Array)
@@ -20,3 +21,4 @@ use Object::Examine;
 say @b.menu;
 
 ### Can't find any practical difference in @a and @b...
+
