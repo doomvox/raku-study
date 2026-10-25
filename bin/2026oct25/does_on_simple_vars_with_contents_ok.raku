@@ -30,4 +30,8 @@ say $l.menu;
 
 say "===";
 my  @l = 1, 2, 3;
-say @l;
+say @l; # [1 2 3]
+say "---";
+
+my  $l = 23, 86, 99;
+say $l; 
