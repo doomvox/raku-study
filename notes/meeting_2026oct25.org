@@ -52,6 +52,7 @@
 
 
 **** Rob's quiz
+#+BEGIN_SRC raku
 
 my $a;
 my Any $b;
@@ -60,10 +61,10 @@ $a = Mu;  # Okay
 $b = Mu;  # Fails
 
 $b = Junction;  # Also fails
+#+END_SRC
 
 
-
-https://docs.raku.org/language/variables#Sigils
+***** https://docs.raku.org/language/variables#Sigils
 
 
 
