@@ -11,7 +11,6 @@ $i does Introspector;
 
 say $i.menu;
 
-
 # Conclusion: Rob is right.  Undefined vars behave differently than merely declared ones.  
 
 my Int $not_yet;
