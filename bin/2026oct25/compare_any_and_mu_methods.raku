@@ -3,7 +3,7 @@
 use Object::Examine;
 
 
-my $a;
+my Mu $a;
 # my Any $b;
 
 $a does Introspector;
