@@ -23,6 +23,7 @@ say $i.menu;
 # ## 
 # ## Cannot use 'does' operator on a type object List.
 
-
+say "===";
 my List $l = (1, 2, 3);
 $l does Introspector;
+say $l.menu;
