@@ -37,5 +37,11 @@ say "---";
 # say $l; 
 # # Type check failed in assignment to $l; expected List but got Int (23)
 
-my Array $k = 23, 86, 99;
-say $k; 
+# my Array $k = 23, 86, 99;
+# say $k; 
+# # Type check failed in assignment to $k; expected Array but got Int (23)
+
+
+my Array @arrayishness = 23, 86, 99;
+say @arrayishness;
+
