@@ -19,3 +19,4 @@ sub infix:<😂> (  $a,  $b ) is export { say "Fundamentally no $a really knows 
 
 "programmers" 😂 "holes in the ground";
 
+# Fundamentally no programmers really knows anything about holes in the ground
