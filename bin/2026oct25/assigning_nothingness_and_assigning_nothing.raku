@@ -13,5 +13,5 @@ say @a[0].WHAT;  # (Any)
 say @b[0].WHAT;  # (Any)
 
 
-use Object::Examine
+use Object::Examine;
 @a does Introspector;
