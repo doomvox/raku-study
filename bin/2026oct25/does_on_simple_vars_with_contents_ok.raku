@@ -33,5 +33,9 @@ my  @l = 1, 2, 3;
 say @l; # [1 2 3]
 say "---";
 
-my  $l = 23, 86, 99;
+# my  $l = 23, 86, 99;
+# say $l; 
+# # Type check failed in assignment to $l; expected List but got Int (23)
+
+my Array $l = 23, 86, 99;
 say $l; 
