@@ -42,6 +42,8 @@ say "---";
 # # Type check failed in assignment to $k; expected Array but got Int (23)
 
 
+## Playing with declarations:
+## an array of lists:
 my List @arrayishness = ( (23, 3), (86, 4), (99, 5));
 say @arrayishness;  # [(23 3) (86 4) (99 5)]
 
