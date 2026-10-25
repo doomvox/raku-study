@@ -15,3 +15,4 @@ say @b[0].WHAT;  # (Any)
 
 use Object::Examine;
 @a does Introspector;
+say @a.menu;
