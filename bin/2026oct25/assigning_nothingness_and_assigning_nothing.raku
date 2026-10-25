@@ -15,7 +15,6 @@ use Object::Examine;
 say @a.menu;
 
 say "===";
-
 use Object::Examine;
 @b does Introspector;
 say @b.menu;
