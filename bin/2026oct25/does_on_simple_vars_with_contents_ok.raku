@@ -24,5 +24,5 @@ say $i.menu;
 # ## Cannot use 'does' operator on a type object List.
 
 
-my List $l = 1, 2, 3;
+my List $l = (1, 2, 3);
 $l does Introspector;
