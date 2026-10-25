@@ -24,6 +24,6 @@ multi infix:<😂> (  $a,  $b ) is export { say "Fundamentally no $a really know
 
 multi circumfix:<😃 😄> ( $a ) { say "But what about $a"; } 
 
-😅The hole design pattern😅;
+😃The hole design pattern😄;
 
 ## Cannot add tokens of category 'circumflex'
