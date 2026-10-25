@@ -25,7 +25,7 @@ multi circumfix:<😃 😄> ( $a ) { say "But what about $a"; }
 my $r = 😃'The hole design pattern'😄;
 
 ## Would be nice to be able to just do it like this:
-# my $r = 😃The hole design pattern😄;
+my $r = 😃The hole design pattern😄;
 
 
 ## It's perhaps a missing feature: Can you
