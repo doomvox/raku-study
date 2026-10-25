@@ -7,8 +7,10 @@ my $a;
 # my Any $b;
 
 $a does Introspector;
+# Cannot use 'does' operator on a type object Mu.
+
 # $b does Introspector;
-## Cannot use 'does' operator on a type object Any.
+# Cannot use 'does' operator on a type object Any.
 
 say "---";
 say $a.menu;
