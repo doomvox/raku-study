@@ -14,7 +14,7 @@ use v6;
 
 
 
-sub infix:<😂> (  $a,  $b ) is export { say "Fundamentally no $a really knows anything about $b"; };
+multi infix:<😂> (  $a,  $b ) is export { say "Fundamentally no $a really knows anything about $b"; };
 
 
 "programmer" 😂 "holes in the ground";
@@ -22,7 +22,7 @@ sub infix:<😂> (  $a,  $b ) is export { say "Fundamentally no $a really knows 
 # Fundamentally no programmer really knows anything about holes in the ground
 
 
-sub circumfix:<😅 😅> ( $a ) { say "But what about $a"; } 
+multi circumfix:<😅 😅> ( $a ) { say "But what about $a"; } 
 
 😅The hole design pattern😅;
 
