@@ -29,3 +29,8 @@ my $r = 😃The hole design pattern😄;
 
 
 ## It's perhaps a missing feature: Can you define custom quote operators? 
+
+# Some references (Bruce suggests macros-- not yet fully implemented-- could do it.)
+# https://docs.raku.org/syntax/macros
+
+# https://docs.raku.org/language/quoting  
