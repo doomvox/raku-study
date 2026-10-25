@@ -1,4 +1,4 @@
-* meeting notes October 11, 2026
+* meeting notes October 25, 2026
 ** the raku study group
 **** usual links
 ***** these notes
@@ -505,7 +505,7 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 **** Larry Wall to speak!
 
 *** next meetings
-**** October 11, 2026
+**** November 8, 2026
  
 *** more info is always here
 **** https://github.com/doomvox/raku-study/blob/main/README.md
