@@ -4,3 +4,6 @@
 
 multi sub circumfix:<⁅ ⁆> ( $middle ) { $middle³ }
 say ⁅ 5 ⁆;
+
+# 125
+
