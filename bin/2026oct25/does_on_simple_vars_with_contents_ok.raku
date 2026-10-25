@@ -7,10 +7,6 @@ $i does Introspector;
 
 # Question, will we see:
 # Cannot use 'does' operator on a type object Int
+say $i.menu;
 
-say "---";
-# say $a.menu;
-say "---";
-say $b.menu;
 
-say "---";
