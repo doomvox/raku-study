@@ -17,9 +17,9 @@ use v6;
 sub infix:<😂> (  $a,  $b ) is export { say "Fundamentally no $a really knows anything about $b"; };
 
 
-"programmers" 😂 "holes in the ground";
+"programmer" 😂 "holes in the ground";
 
-# Fundamentally no programmers really knows anything about holes in the ground
+# Fundamentally no programmer really knows anything about holes in the ground
 
 
 sub circumflex:<😅> ( $a ) { say "But what about $a"; } 
