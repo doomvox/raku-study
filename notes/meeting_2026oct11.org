@@ -25,6 +25,19 @@
 **** junctions and assignment (Marton issue: rakupp differs from rakudo?)
 ***** https://github.com/ash/rakupp/issues/185
 ***** https://dev.to/2colours/why-raku-junctions-cannot-work-the-short-story-2kmi
+
+
+#+BEGIN_SRC raku
+  ## Here is an “Math::NIntegrate” example:
+
+  nintegrate( { ($^x + $^y ** 2).sqrt }, <x 0 1>, <y 0 1>, 
+    method => ('global-adaptive', 
+      method => ('cartesian-rule',
+                  method => (('gauss-kronrod-rule', points => 5), ('trapezoidal-rule', points => 10))
+                 )
+          )):pairs
+#+END_SRC
+
 ** dank mumblings of elder gods long passed two weeks ago
 *** Marton Polgar (2colours) post on "Is generative AI killing or saving Raku?"
 **** https://dev.to/2colours/is-generative-ai-killing-or-saving-raku-37ai
