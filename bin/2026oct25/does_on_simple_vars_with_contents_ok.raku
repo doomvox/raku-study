@@ -27,3 +27,7 @@ say "===";
 my List $l = (1, 2, 3);
 $l does Introspector;
 say $l.menu;
+
+say "===";
+my  @l = 1, 2, 3;
+say @l;
