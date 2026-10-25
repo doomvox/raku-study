@@ -3,8 +3,8 @@
 use v6;
 
 # 1F602;FACE WITH TEARS OF JOY;So;0;ON;;;;;N;;;;;     😂
-# 1F603;SMILING FACE WITH OPEN MOUTH;So;0;ON;;;;;N;;;;;
-# 1F604;SMILING FACE WITH OPEN MOUTH AND SMILING EYES;So;0;ON;;;;;N;;;;;
+# 1F603;SMILING FACE WITH OPEN MOUTH;So;0;ON;;;;;N;;;;;  😃
+# 1F604;SMILING FACE WITH OPEN MOUTH AND SMILING EYES;So;0;ON;;;;;N;;;;;😄
 # 1F605;SMILING FACE WITH OPEN MOUTH AND COLD SWEAT;So;0;ON;;;;;N;;;;;   😅
 
 # 1F9B0;EMOJI COMPONENT RED HAIR;So;0;ON;;;;;N;;;;;
@@ -22,7 +22,7 @@ multi infix:<😂> (  $a,  $b ) is export { say "Fundamentally no $a really know
 # Fundamentally no programmer really knows anything about holes in the ground
 
 
-multi circumfix:<😅 😅> ( $a ) { say "But what about $a"; } 
+multi circumfix:<😃 😄> ( $a ) { say "But what about $a"; } 
 
 😅The hole design pattern😅;
 
