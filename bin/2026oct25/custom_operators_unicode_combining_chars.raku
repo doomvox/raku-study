@@ -17,26 +17,26 @@ say "🦰😂";
 
 
 
-multi infix:<😂> (  $a,  $b ) is export { say "Fundamentally no $a really knows anything about $b"; };
+# multi infix:<😂> (  $a,  $b ) is export { say "Fundamentally no $a really knows anything about $b"; };
 
 
-"programmer" 😂 "holes in the ground";
+# "programmer" 😂 "holes in the ground";
 
-# Fundamentally no programmer really knows anything about holes in the ground
-
-
-multi circumfix:<😃 😄> ( $a ) { say "But what about $a"; } 
-
-my $r = 😃'The hole design pattern'😄;
-
-## Would be nice to be able to just do it like this:
-# my $r = 😃The hole design pattern😄;
-## But raku wants to call routines named "design" and "pattern" and so on.
+# # Fundamentally no programmer really knows anything about holes in the ground
 
 
-## It's perhaps a missing feature: Can you define custom quote operators? 
+# multi circumfix:<😃 😄> ( $a ) { say "But what about $a"; } 
 
-# Some references (Bruce suggests macros-- not yet fully implemented-- could do it.)
-#   https://docs.raku.org/syntax/macros
+# my $r = 😃'The hole design pattern'😄;
 
-#   https://docs.raku.org/language/quoting  
+# ## Would be nice to be able to just do it like this:
+# # my $r = 😃The hole design pattern😄;
+# ## But raku wants to call routines named "design" and "pattern" and so on.
+
+
+# ## It's perhaps a missing feature: Can you define custom quote operators? 
+
+# # Some references (Bruce suggests macros-- not yet fully implemented-- could do it.)
+# #   https://docs.raku.org/syntax/macros
+
+# #   https://docs.raku.org/language/quoting  
