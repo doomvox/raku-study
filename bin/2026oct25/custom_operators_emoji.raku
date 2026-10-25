@@ -28,4 +28,4 @@ my $r = 😃'The hole design pattern'😄;
 my $r = 😃The hole design pattern😄;
 
 
-## It's perhaps a missing feature: Can you
+## It's perhaps a missing feature: Can you define custom quote operators? 
