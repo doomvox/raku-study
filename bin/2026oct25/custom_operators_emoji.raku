@@ -2,7 +2,7 @@
 
 use v6;
 
-# 1F602;FACE WITH TEARS OF JOY;So;0;ON;;;;;N;;;;;
+# 1F602;FACE WITH TEARS OF JOY;So;0;ON;;;;;N;;;;;     😂
 # 1F603;SMILING FACE WITH OPEN MOUTH;So;0;ON;;;;;N;;;;;
 # 1F604;SMILING FACE WITH OPEN MOUTH AND SMILING EYES;So;0;ON;;;;;N;;;;;
 # 1F605;SMILING FACE WITH OPEN MOUTH AND COLD SWEAT;So;0;ON;;;;;N;;;;;
@@ -11,3 +11,8 @@ use v6;
 # 1F9B1;EMOJI COMPONENT CURLY HAIR;So;0;ON;;;;;N;;;;;
 # 1F9B2;EMOJI COMPONENT BALD;So;0;ON;;;;;N;;;;;
 # 1F9B3;EMOJI COMPONENT WHITE HAIR;So;0;ON;;;;;N;;;;;
+
+
+
+sub infix:<😂> (  $a,  $b ) is export { say "Fundamentally no $a really knows anything about $b"; };
+
