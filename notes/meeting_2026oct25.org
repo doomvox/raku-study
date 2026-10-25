@@ -63,7 +63,6 @@ $b = Mu;  # Fails
 $b = Junction;  # Also fails
 #+END_SRC
 
-
 ***** https://docs.raku.org/language/variables#Sigils
 
 
