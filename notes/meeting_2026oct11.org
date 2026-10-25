@@ -1,56 +1,20 @@
-* meeting notes October 25, 2026
+* meeting notes October 11, 2026
 ** the raku study group
 **** usual links
 ***** these notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026oct25.org 
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026oct11.org 
 
 ***** code examples
-****** https://github.com/doomvox/raku-study/tree/main/bin/2026oct25
+****** https://github.com/doomvox/raku-study/tree/main/bin/2026oct11
 ****** https://github.com/doomvox/raku-study/tree/main/bin/GrammarSchool
 
 ***** last meeting notes
-****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026oct11.org
+****** https://github.com/doomvox/raku-study/blob/main/notes/meeting_2026oct04.org
 
 ***** group discussions at github
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** any one got anything
-*** pop quiz 
-*** anton
-**** using llms: threat or menace?
-**** quintile regression
-**** numerical regression
-**** rakupp grammars: ~20x faster (20 times, not percent)
-**** junctions and assignment (Marton issue: rakupp differs from rakudo?)
-***** https://github.com/ash/rakupp/issues/185
-***** https://dev.to/2colours/why-raku-junctions-cannot-work-the-short-story-2kmi
-
-**** GOF design patterns in Raku
-#+BEGIN_SRC raku
-  ## Here is an “Math::NIntegrate” example:
-
-  nintegrate( { ($^x + $^y ** 2).sqrt }, <x 0 1>, <y 0 1>, 
-    method => ('global-adaptive', 
-      method => ('cartesian-rule',
-                  method => (('gauss-kronrod-rule', points => 5), ('trapezoidal-rule', points => 10))
-                 )
-          )):pairs
-#+END_SRC
-****** "This kind of specification of method specifications demands the GoF patterns Builder, AbstractFactory, Decorator, Interpreter, etc."
-
-**** custom operators 
-***** unicode emoji okay?
-***** circumfix operator issues
-
-***** Anton points at Steve Roe, using the Libra sign as an operator:
-****** https://github.com/librasteve/raku-Physics-Measure/blob/main/docs/PythonPint2rakuPhysicsMeasure.pdf
-
-***** combining chars work with operators?  Like, any grapheme?
-****** https://docs.raku.org/language/unicode
-****** https://docs.raku.org/language/unicode#Codepoint_sequences
-
-** dank mumblings of elder gods long passed two weeks ago
 *** Marton Polgar (2colours) post on "Is generative AI killing or saving Raku?"
 **** https://dev.to/2colours/is-generative-ai-killing-or-saving-raku-37ai
 **** And this was posted at reddit.com/r/rakulang by lizmat
@@ -541,7 +505,7 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 **** Larry Wall to speak!
 
 *** next meetings
-**** November 8, 2026
+**** October 11, 2026
  
 *** more info is always here
 **** https://github.com/doomvox/raku-study/blob/main/README.md
