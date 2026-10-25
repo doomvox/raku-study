@@ -42,6 +42,6 @@ say "---";
 # # Type check failed in assignment to $k; expected Array but got Int (23)
 
 
-my Array @arrayishness = (23, 86, 99);
+my Array @arrayishness = ( (23, 3), (86, 4), (99, 5));
 say @arrayishness;
 
