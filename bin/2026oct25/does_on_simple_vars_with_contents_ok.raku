@@ -7,6 +7,9 @@ $i does Introspector;
 # 
 # Question, will we see:
 # Cannot use 'does' operator on a type object Int
+# A: no we don't!
+
 say $i.menu;
 
 
+# Conclusion: Rob is right.  Undefined vars behave differently than merely declared ones.  
