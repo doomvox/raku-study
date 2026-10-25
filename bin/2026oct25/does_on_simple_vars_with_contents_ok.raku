@@ -4,7 +4,9 @@ use Object::Examine;
 
 my Int $i = 666;
 $i does Introspector;
-# Cannot use 'does' operator on a type object Any.
+
+# Question, will we see:
+# Cannot use 'does' operator on a type object Int
 
 say "---";
 # say $a.menu;
