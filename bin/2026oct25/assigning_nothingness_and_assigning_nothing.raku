@@ -12,7 +12,6 @@ say @b.WHAT;  # (Array)
 say @a[0].WHAT;  # (Any)
 say @b[0].WHAT;  # (Any)
 
-
 use Object::Examine;
 @a does Introspector;
 say @a.menu;
