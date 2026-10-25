@@ -16,3 +16,6 @@ use v6;
 
 sub infix:<😂> (  $a,  $b ) is export { say "Fundamentally no $a really knows anything about $b"; };
 
+
+"programmers" 😂 "holes in the ground";
+
