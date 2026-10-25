@@ -18,7 +18,7 @@
 *** any one got anything
 *** pop quiz 
 *** anton
-**** not using llms stupid ?
+**** using llms: threat or menace?
 
 ** dank mumblings of elder gods long passed two weeks ago
 *** Marton Polgar (2colours) post on "Is generative AI killing or saving Raku?"
