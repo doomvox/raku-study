@@ -21,4 +21,5 @@ say $i.menu;
 my List $not_yet;
 $not_yet does Introspector;
 ## 
-## Cannot use 'does' operator on a type object Int.
+## Cannot use 'does' operator on a type object List.
+
