@@ -13,7 +13,12 @@ say $i.menu;
 
 # Conclusion: Rob is right.  Undefined vars behave differently than merely declared ones.  
 
-my Int $not_yet;
+# my Int $not_yet;
+# $not_yet does Introspector;
+# ## 
+# ## Cannot use 'does' operator on a type object Int.
+
+my List $not_yet;
 $not_yet does Introspector;
 ## 
 ## Cannot use 'does' operator on a type object Int.
