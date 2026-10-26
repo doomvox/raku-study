@@ -289,10 +289,6 @@ to operate in RakuAST."
 *** annals of time
 **** Gnu "time" has an option to show memory usage?
 
-
-** older topics
-
-
 *** books
 **** PDF for "Think Perl 6" has been updated with Raku naming, free (CC license):
 ***** https://greenteapress.com/wp/think-perl-6/
