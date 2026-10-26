@@ -124,7 +124,7 @@ raku -e 'my @a; @a[0] = 1, 2, 3; @a[0].&{$_ = 2, 3, 4}; dd @a'
 **** latest version of rakudo turns on rakuast by default
 ***** rakubrew has it
 ***** mac's homebrew update will get you there
-*** Rob asks about: core stash
+
 *** Anton topics;
 **** rakupp tests (Ben Tablet):
 ***** New rakupp release v5.2.1 (2026-10-03) -- 100.00% of Roast. 
