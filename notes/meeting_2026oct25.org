@@ -93,7 +93,6 @@ raku -e 'my @a; @a[0] = 1, 2, 3; @a[0].&{$_ = 2, 3, 4}; dd @a'
 **** "A full-stack web framework for Raku: server-rendered pages that come alive in the browser, written in Raku alone, with no JavaScript."
 **** depends on raku++: needs to compile for target=js
 
-
 *** raku introspection and class diagrams
 
 **** Object::Examine
