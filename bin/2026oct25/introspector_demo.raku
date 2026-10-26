@@ -20,4 +20,4 @@ say "---";
 my %h = a => 1, b => 2, c => 3;
 %h does Introspector; 
 say %h.menu;
-say %h.sin;  # 
+say %h.sin;  #  0.1411200080598672
