@@ -72,6 +72,12 @@ $b = Junction;  # Also fails
 1.&{.say}
 #+END_SRC
 
+#+BEGIN_SRC sh
+raku -e 'my @a; @a[0] = 1, 2, 3; @a[0] andthen $_ = 2, 3, 4; dd @a'
+
+raku -e 'my @a; @a[0] = 1, 2, 3; @a[0].&{$_ = 2, 3, 4}; dd @a'
+#+END_SRC
+
 ** dank mumblings of elder gods long passed two weeks ago
 *** Marton Polgar (2colours) post on "Is generative AI killing or saving Raku?"
 **** https://dev.to/2colours/is-generative-ai-killing-or-saving-raku-37ai
