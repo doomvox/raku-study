@@ -15,8 +15,6 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** any one got anything
-*** pop quiz 
 
 *** anton
 **** using llms: threat or menace?
