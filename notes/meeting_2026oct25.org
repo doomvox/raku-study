@@ -279,8 +279,6 @@ to operate in RakuAST."
 **** some existing raku modules work with it
 ***** install failures (from test failures ?) are common
 
-*** rob: on github easy way to check status of issues?
-
 *** weekly challenge
 **** https://theweeklychallenge.org/blog/perl-weekly-challenge-387/
 
