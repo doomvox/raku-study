@@ -77,6 +77,7 @@ raku -e 'my @a; @a[0] = 1, 2, 3; @a[0] andthen $_ = 2, 3, 4; dd @a'
 # [(2, 3, 4),]
 
 raku -e 'my @a; @a[0] = 1, 2, 3; @a[0].&{$_ = 2, 3, 4}; dd @a'
+# [2]
 #+END_SRC
 
 ** dank mumblings of elder gods long passed two weeks ago
