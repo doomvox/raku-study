@@ -94,7 +94,6 @@ raku -e 'my @a; @a[0] = 1, 2, 3; @a[0].&{$_ = 2, 3, 4}; dd @a'
 **** depends on raku++: needs to compile for target=js
 
 *** raku introspection and class diagrams
-
 **** Object::Examine
 ***** https://github.com/doomvox/perl6-object-examine
 ***** as a demo of object introspection: ^.mro, ^.methods, etc.
