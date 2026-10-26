@@ -80,7 +80,7 @@ raku -e 'my @a; @a[0] = 1, 2, 3; @a[0].&{$_ = 2, 3, 4}; dd @a'
 # [2]
 #+END_SRC
 
-** dank mumblings of elder gods long passed two weeks ago
+** dank rumblings of elder gods from weeks gone by
 *** Marton Polgar (2colours) post on "Is generative AI killing or saving Raku?"
 **** https://dev.to/2colours/is-generative-ai-killing-or-saving-raku-37ai
 **** And this was posted at reddit.com/r/rakulang by lizmat
