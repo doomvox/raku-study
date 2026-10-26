@@ -22,7 +22,7 @@
 **** quintile regression
 **** numerical regression
 **** rakupp grammars: ~20x faster (20 times, not percent)
-**** junctions and assignment (Marton issue: rakupp differs from rakudo?)
+**** junctions and assignment (Marton issue: rakupp differs from rakudo with "andthen"?)
 ***** https://github.com/ash/rakupp/issues/185
 ***** https://dev.to/2colours/why-raku-junctions-cannot-work-the-short-story-2kmi
 
