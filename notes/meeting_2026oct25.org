@@ -194,9 +194,7 @@ raku -e 'my @a; @a[0] = 1, 2, 3; @a[0].&{$_ = 2, 3, 4}; dd @a'
 **** https://github.com/Perl/perl5/blob/blead/t/re/script_run.t   
 ***** This is the test in Perl to exercise the "script run" regex feature.
 
-** ye olde topics
 
-*** Call for topics!
 **** Bill stack exchange
 ***** https://unix.stackexchange.com/questions/807243/extracting-last-occurrence-of-line-number-from-basic-file/807330#807330807243
 **** Z= a natural idiom for the Rakoon?
