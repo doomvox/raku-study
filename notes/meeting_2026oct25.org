@@ -79,10 +79,8 @@ $b = Junction;  # Also fails
 **** "A full-stack web framework for Raku: server-rendered pages that come alive in the browser, written in Raku alone, with no JavaScript."
 **** depends on raku++: needs to compile for target=js
 
-*** Rob problems
-**** lizmat's type introspection module
-***** https://github.com/lizmat/Rakudo-Type-Introspection
-***** https://github.com/lizmat/Rakudo-Type-Introspection/blob/main/lib/Rakudo-Type-Introspection.rakumod
+
+*** raku introspection and class diagrams
 
 **** Object::Examine
 ***** https://github.com/doomvox/perl6-object-examine
@@ -92,10 +90,6 @@ $b = Junction;  # Also fails
 ****** https://github.com/doomvox/perl6-symbol-scan
 ****** based on
 ******* https://stackoverflow.com/questions/44861432/is-there-a-way-to-get-a-list-of-all-known-types-in-a-perl-6-program
-
-*** Hmm...
-**** https://en.wikipedia.org/wiki/Eric_Weinstein
-**** https://en.wikipedia.org/wiki/David_Gelernter
 
 *** Raku internals, resources
 **** https://andrewshitov.com/category/perl-6-internals/page/3/
