@@ -66,8 +66,6 @@ $b = Junction;  # Also fails
 ***** https://docs.raku.org/language/variables#Sigils
 
 
-
-
 ** dank mumblings of elder gods long passed two weeks ago
 *** Marton Polgar (2colours) post on "Is generative AI killing or saving Raku?"
 **** https://dev.to/2colours/is-generative-ai-killing-or-saving-raku-37ai
