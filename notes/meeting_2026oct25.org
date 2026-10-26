@@ -66,6 +66,11 @@ $b = Junction;  # Also fails
 
 ***** https://docs.raku.org/language/variables#Sigils
 
+*** Marton makes the point these two lines do different things:
+#+BEGIN_SRC raku
+1 andthen .say
+1.&{.say}
+#+END_SRC
 
 ** dank mumblings of elder gods long passed two weeks ago
 *** Marton Polgar (2colours) post on "Is generative AI killing or saving Raku?"
