@@ -74,6 +74,7 @@ $b = Junction;  # Also fails
 
 #+BEGIN_SRC sh
 raku -e 'my @a; @a[0] = 1, 2, 3; @a[0] andthen $_ = 2, 3, 4; dd @a'
+# [(2, 3, 4),]
 
 raku -e 'my @a; @a[0] = 1, 2, 3; @a[0].&{$_ = 2, 3, 4}; dd @a'
 #+END_SRC
