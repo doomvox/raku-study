@@ -324,10 +324,6 @@ raku -e 'sub foo ( Cool(Int) $p ) { say $p }; foo( 3.5);'
 **** https://perlschool.com/
 **** https://raku.org/learn
 
-
-
-** even older oldster topics of oldness
-
 *** videos for tprf 2026 
 **** https://www.youtube.com/@YAPCNA
 
