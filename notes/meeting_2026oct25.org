@@ -79,8 +79,6 @@ $b = Junction;  # Also fails
 **** "A full-stack web framework for Raku: server-rendered pages that come alive in the browser, written in Raku alone, with no JavaScript."
 **** depends on raku++: needs to compile for target=js
 
-*** package names
-**** Dist::Uniform vs. UniformDistribution
 *** Rob problems
 **** lizmat's type introspection module
 ***** https://github.com/lizmat/Rakudo-Type-Introspection
