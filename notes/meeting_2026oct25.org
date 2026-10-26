@@ -173,7 +173,6 @@ raku -e 'my @a; @a[0] = 1, 2, 3; @a[0].&{$_ = 2, 3, 4}; dd @a'
 *** Timo quit because of LLM stuff in rakudo 
 **** https://irclogs.raku.org/raku/2026-09-14.html#22:30
 
-
 *** Bruce Gray pick:
 **** bscan == Brian Scannell
 **** https://www.youtube.com/watch?v=ENN05EhBkgM
