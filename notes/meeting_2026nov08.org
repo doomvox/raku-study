@@ -65,6 +65,8 @@
 
 **** https://stackoverflow.com/questions/79841342/how-can-i-unconditionally-evaluate-two-terms-and-return-the-first-one-evaluated
 ***** mildly baffling question-- the title question makes sense, the code example confuses
+***** title question sounds like the converse of "await".  
+***** Marton is reminded of .snitch
 
 ** retro bell bottom spats topics with suspenders.
 
