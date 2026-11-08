@@ -49,6 +49,10 @@
 ****  https://gram.liten.app
 ***** use Gram instead of Zed
 
+**** helix
+***** tim schafer pick 
+***** "in the spirit of emacs"
+
 *** 
 **** https://stackoverflow.com/questions/80005669/why-does-so-all-return-true
 **** Marton:
