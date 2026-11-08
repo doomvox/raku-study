@@ -12,6 +12,6 @@ use v6.e.PREVIEW;
 # (A B C D E F)
 # (65 66 67 68 69 70)
 
-for ("a".."f")  {
-   .uc.snitch.ord.say;
-}
+say for ("a".."f")  {
+    .uc.snitch.ord
+    }
