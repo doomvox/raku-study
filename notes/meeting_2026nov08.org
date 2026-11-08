@@ -29,6 +29,9 @@
 **** Different new graphics:  js-d3-parallel-axis-plot ,  js-d3-radial-axis-plot ,
 **** 3D graphics
 
+*** docker alts
+**** fly.io
+**** devbox
 
 *** 
 **** https://stackoverflow.com/questions/80005669/why-does-so-all-return-true
