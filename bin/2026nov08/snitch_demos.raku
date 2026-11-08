@@ -15,3 +15,7 @@ use v6.e.PREVIEW;
 say gather for ("a".."f")  {
     take .uc.snitch.ord
 }
+
+say "===";
+
+.say for ("a".."f").map( *.uc.snitch.ord)
