@@ -7,5 +7,5 @@ use v6.e.PREVIEW;
 
 
 
-("a".."f").map({ uc($_) }).say;
+("a".."f").map({ .uc }).say;
 
