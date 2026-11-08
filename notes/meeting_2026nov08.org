@@ -23,6 +23,7 @@
 
 *** Anton Antonov
 **** XKCD styling for  graphics made with “JavaScript::*” packages
+***** https://www.reddit.com/r/xkcd/s/aYay5WuA6H
 **** Quantile Regression with Rakudo and Rakupp
 **** Impressions from Wolfram Technology Conference 2026 (WTC-20226)
 **** Different new graphics:  js-d3-parallel-axis-plot ,  js-d3-radial-axis-plot ,
