@@ -15,8 +15,8 @@
 ****** https://github.com/doomvox/raku-study/discussions 
 
 ** topics
-*** anyone want to start?
-
+*** r lang vs "who cares we just use LLMs"
+*** 
 
 ** retro bell bottom spats topics with suspenders.
 
@@ -440,7 +440,7 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 
 *** next meetings
 
-**** November 22, 2026
+**** November 22, 2026  (in two weeks)
 **** December 06, 2026
 **** December 20, 2026
 
