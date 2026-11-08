@@ -31,7 +31,11 @@
 
 *** docker alts
 **** fly.io
-**** devbox
+***** https://fly.io 
+***** Tim Schafer pick
+**** devpod
+***** https://devpod.sh
+
 
 *** 
 **** https://stackoverflow.com/questions/80005669/why-does-so-all-return-true
