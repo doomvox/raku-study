@@ -13,8 +13,5 @@ use v6.e.PREVIEW;
 # (65 66 67 68 69 70)
 
 for ("a".."f")  {
-   .uc      
-   .snitch  
-   .ord     
-   .say;
+   .uc.snitch.ord.say;
 }
