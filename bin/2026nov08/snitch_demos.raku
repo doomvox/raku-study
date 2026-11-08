@@ -23,4 +23,4 @@ say "===";
 say "---";
 .say for ("a".."c").map( *.uc.snitch.ord ).rotor(2);
 say "---";
-.say for ("a".."c").map( *.uc.snitch.ord.rotor(2));
+.say for ("a".."c").map( *.uc.snitch.ord.rotor(2) );
