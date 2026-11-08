@@ -7,5 +7,5 @@ use v6.e.PREVIEW;
 
 
 
-("a".."f").map({ .uc }).map({ .ord  }).say;
+("a".."f").map({ .uc }).snitch.map({ .ord  }).say;
 
