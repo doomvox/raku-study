@@ -14,7 +14,6 @@ use v6.e.PREVIEW;
 
 for ("a".."f")  {
    .uc;
-   .say;
    .ord;
    .say;
 }
