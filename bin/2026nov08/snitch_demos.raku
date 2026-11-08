@@ -14,6 +14,7 @@ use v6.e.PREVIEW;
 
 for ("a".."f")  {
    .uc andthen
+    .snitch andthen
    .ord andthen
    .say;
 }
