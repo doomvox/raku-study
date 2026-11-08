@@ -7,5 +7,5 @@ use v6.e.PREVIEW;
 
 
 for ("a".."f") {
-    say;
+    say $_;
     }
