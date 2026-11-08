@@ -63,6 +63,9 @@
 ***** it's not "all of the this one element, that being the empty array", it's "all of no elements at all", and an empty conjunction makes sense to be defined as True, so that adding elements is monotonous
 
 
+**** https://stackoverflow.com/questions/79841342/how-can-i-unconditionally-evaluate-two-terms-and-return-the-first-one-evaluated
+***** mildly baffling question-- the title question makes sense, the code example confuses
+
 ** retro bell bottom spats topics with suspenders.
 
 *** anton
