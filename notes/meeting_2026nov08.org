@@ -20,6 +20,11 @@
 ***** https://medium.com/@realmerlyn/the-day-i-decided-never-to-learn-python-2c59d1a1edc5
 *** rakupp
 **** repeatedable random sequences given a seed, as a design decision (Anton Antonov)
+
+*** Anton Antonov
+**** xkcd 
+
+
 ** retro bell bottom spats topics with suspenders.
 
 *** anton
