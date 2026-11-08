@@ -13,5 +13,5 @@ use v6.e.PREVIEW;
 # (65 66 67 68 69 70)
 
 say for ("a".."f")  {
-    .uc.snitch.ord
+      .uc.snitch.ord
     }
