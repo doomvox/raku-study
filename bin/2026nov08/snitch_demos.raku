@@ -8,6 +8,4 @@ use v6.e.PREVIEW;
 
 
 ("a".."f").map({ uc }).say;
-    say $_;
-    
-    }
+
