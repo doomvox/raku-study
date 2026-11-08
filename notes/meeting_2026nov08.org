@@ -36,6 +36,15 @@
 **** devpod
 ***** https://devpod.sh
 
+*** lsp aware editors
+
+**** Bruce Gray:
+I have read that `rakupp` has a built-in LSP that you can use when editing in any LSP-using editor, even if you are executing your Raku program with `rakudo`.
+Start with: `rakupp --lsp`
+
+**** https://zed.dev
+
+
 
 *** 
 **** https://stackoverflow.com/questions/80005669/why-does-so-all-return-true
