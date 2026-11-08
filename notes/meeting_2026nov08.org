@@ -22,7 +22,12 @@
 **** repeatedable random sequences given a seed, as a design decision (Anton Antonov)
 
 *** Anton Antonov
-**** xkcd 
+**** XKCD styling for  graphics made with “JavaScript::*” packages
+**** Quantile Regression with Rakudo and Rakupp
+**** Impressions from Wolfram Technology Conference 2026 (WTC-20226)
+**** Different new graphics:  js-d3-parallel-axis-plot ,  js-d3-radial-axis-plot ,
+**** 3D graphics
+
 
 
 ** retro bell bottom spats topics with suspenders.
