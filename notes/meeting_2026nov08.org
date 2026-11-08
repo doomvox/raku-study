@@ -442,6 +442,8 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 
 ***** to make things more confusing see the "did you know" section https://rakudoweekly.blog/2022/06/20/2022-25-we-will-raku/
 
+** 
+*** https://obsidianrook.com/doomfiles/THE_VOICE_OF_DOOM.html
 
 
 ** announcements 
