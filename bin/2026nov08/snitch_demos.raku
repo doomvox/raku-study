@@ -19,3 +19,6 @@ say gather for ("a".."f")  {
 say "===";
 
 .say for ("a".."c").map( *.uc.snitch.ord)
+
+say "---";
+.say for ("a".."f").map( *.uc.snitch.ord).rotor(2)
