@@ -38,9 +38,12 @@
 
 *** lsp aware editors
 
-**** Bruce Gray:
-I have read that `rakupp` has a built-in LSP that you can use when editing in any LSP-using editor, even if you are executing your Raku program with `rakudo`.
-Start with: `rakupp --lsp`
+**** rakupp --lsp
+***** Bruce Gray:  `rakupp` has a built-in LSP that you can use when editing in any LSP-using editor, 
+***** even if you are executing your Raku program with `rakudo`. `
+
+***** Also, this is a older LSP for Raku: https://github.com/bscan/RakuNavigator
+
 
 **** https://zed.dev
 
