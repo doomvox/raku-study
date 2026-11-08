@@ -53,6 +53,10 @@
 ***** tim schafer pick 
 ***** "in the spirit of emacs"
 
+***** https://helix-editor.com/
+***** https://github.com/helix-editor/helix
+
+
 *** 
 **** https://stackoverflow.com/questions/80005669/why-does-so-all-return-true
 **** Marton:
