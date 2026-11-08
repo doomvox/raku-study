@@ -9,3 +9,5 @@ use v6.e.PREVIEW;
 
 ("a".."f").map({ .uc }).snitch.map({ .ord  }).say;
 
+# (A B C D E F)
+# (65 66 67 68 69 70)
