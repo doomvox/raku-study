@@ -44,10 +44,10 @@
 
 ***** Also, this is a older LSP for Raku: https://github.com/bscan/RakuNavigator
 
-
 **** https://zed.dev
 
-
+****  https://gram.liten.app
+***** use Gram instead of Zed
 
 *** 
 **** https://stackoverflow.com/questions/80005669/why-does-so-all-return-true
