@@ -9,6 +9,7 @@ Upcoming meetings:
    https://us02web.zoom.us/j/84746387617?pwd=Ikaxxg1wUyGp7Hzx0fZRoVTy5yY4We.1
 
 * Sunday December 6, 2026
+
 * Sunday December 20, 2026
 * Sunday January 3, 2026
 * Sunday January 18, 2026
