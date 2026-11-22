@@ -25,8 +25,9 @@ commands to enable time correction if needed:
 https://www.server-world.info/en/note?os=Debian_13&p=ntp&f=3
 
 *** Dave Cross has revised his "Data Munging with Perl" book:
-
 https://perlhacks.com/2026/11/data-munging-with-perl-twenty-five-years-later/
+
+**** flow based programming
 
 *** David on perl module interdependence
 **** "how to manage many Perl module/ distribution source directories when the modules/ distributions are interdependent?"
