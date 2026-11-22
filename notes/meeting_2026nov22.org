@@ -22,14 +22,20 @@ systemctl status systemd-timesyncd
 #+END_SRC
 
 **** Anton Antonov topics:
-Using Apple’s Foundation Models (FM) in Raku sessions
-LLM-graphs with loops
-Not trivial extension of the LLM-graph framework
-Interesting Raku mechanism for code segregation and assembly
-Using  multi  can work but  proto  has to be sacrificed
-What is the practical application trionic arrays ?
-Bad experiences with my blog-writer AI-agent
-LLM/AI-haters might rejoice …
+***** Using Apple’s Foundation Models (FM) in Raku sessions
+***** LLM-graphs with loops
+***** Not trivial extension of the LLM-graph framework
+***** Interesting Raku mechanism for code segregation and assembly
+***** Using  multi  can work but  proto  has to be sacrificed
+***** What is the practical application trionic arrays ?
+***** Bad experiences with my blog-writer AI-agent
+***** LLM/AI-haters might rejoice …
+
+
+*** David on perl module interdependenc
+**** "how to manage many Perl module/ distribution source directories when the modules/ distributions are interdependent?"
+"E.g.  ‘perl Makefile.PL’, ‘make’, ‘make test’, etc.."
+
 
 
 ** old topics
