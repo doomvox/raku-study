@@ -21,6 +21,7 @@
 systemctl status systemd-timesyncd
 #+END_SRC
 
+
 ** old topics
 
 *** lsp aware editors
