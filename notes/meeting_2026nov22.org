@@ -19,7 +19,6 @@
 *** 
 
 ** old topics
-
 *** docker alts
 **** fly.io
 ***** https://fly.io 
