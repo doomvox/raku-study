@@ -50,8 +50,11 @@ https://perlhacks.com/2026/11/data-munging-with-perl-twenty-five-years-later/
 **** Mojo syntactic sugar over MLIR
 **** fast kernels without vendor lock-in
 
+https://youtu.be/TtOoLanFzGw
 
+https://x.com/dhh/status/21015362074107989612101536207410798961
 
+https://x.com/dhh/status/20875860112240848082087586011224084808
 
 
 ** old topics
