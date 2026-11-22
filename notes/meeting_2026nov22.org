@@ -28,9 +28,6 @@ https://www.server-world.info/en/note?os=Debian_13&p=ntp&f=3
 
 https://perlhacks.com/2026/11/data-munging-with-perl-twenty-five-years-later/
 
-
-
-
 *** Anton Antonov topics:
 **** Using Apple’s Foundation Models (FM) in Raku sessions
 **** LLM-graphs with loops
