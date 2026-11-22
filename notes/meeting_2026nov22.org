@@ -33,6 +33,9 @@ systemctl status systemd-timesyncd
 
 ***  Tim Schafer
 **** Mojo, language that targets cpus/gpus/etc
+**** nvida vs amd etc.
+**** Mojo syntactic sugar over MLIR
+**** fast kernels without vendor lock-in
 
 *** David on perl module interdependenc
 **** "how to manage many Perl module/ distribution source directories when the modules/ distributions are interdependent?"
