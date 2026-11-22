@@ -16,7 +16,10 @@
 
 ** topics
 *** mail server setup war stories
-*** 
+*** debian time setup hints
+#+BEGIN_SRC sh 
+systemctl status systemd-timesyncd
+#+END_SRC
 
 ** old topics
 
