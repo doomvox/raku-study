@@ -31,7 +31,8 @@ systemctl status systemd-timesyncd
 **** Bad experiences with my blog-writer AI-agent
 **** LLM/AI-haters might rejoice …
 
-***  TimSchafedr
+***  Tim Schafer
+**** Mojo, language that targets cpus/gpus/etc
 
 *** David on perl module interdependenc
 **** "how to manage many Perl module/ distribution source directories when the modules/ distributions are interdependent?"
