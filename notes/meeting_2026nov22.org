@@ -28,6 +28,10 @@ https://www.server-world.info/en/note?os=Debian_13&p=ntp&f=3
 
 https://perlhacks.com/2026/11/data-munging-with-perl-twenty-five-years-later/
 
+*** David on perl module interdependence
+**** "how to manage many Perl module/ distribution source directories when the modules/ distributions are interdependent?"
+"E.g.  ‘perl Makefile.PL’, ‘make’, ‘make test’, etc.."
+
 *** Anton Antonov topics:
 **** Using Apple’s Foundation Models (FM) in Raku sessions
 **** LLM-graphs with loops
@@ -44,9 +48,6 @@ https://perlhacks.com/2026/11/data-munging-with-perl-twenty-five-years-later/
 **** Mojo syntactic sugar over MLIR
 **** fast kernels without vendor lock-in
 
-*** David on perl module interdependenc
-**** "how to manage many Perl module/ distribution source directories when the modules/ distributions are interdependent?"
-"E.g.  ‘perl Makefile.PL’, ‘make’, ‘make test’, etc.."
 
 
 
