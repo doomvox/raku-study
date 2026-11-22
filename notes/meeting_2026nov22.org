@@ -17,9 +17,13 @@
 ** topics
 *** mail server setup war stories
 *** debian time setup hints
+will tell you if systemd is keeping the time correct:
 #+BEGIN_SRC sh 
 systemctl status systemd-timesyncd
 #+END_SRC
+
+.  Here is the web page where I got it.  The page also has commands to enable time correction if needed: https://www.server-world.info/en/note?os=Debian_13&p=ntp&f=3
+
 
 *** Anton Antonov topics:
 **** Using Apple’s Foundation Models (FM) in Raku sessions
