@@ -38,6 +38,7 @@ systemctl status systemd-timesyncd
 
 
 
+
 ** old topics
 
 *** lsp aware editors
