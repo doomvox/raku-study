@@ -54,7 +54,6 @@ https://perlhacks.com/2026/11/data-munging-with-perl-twenty-five-years-later/
 
 *** bill's interested 
 **** in the idea that "vibe coded" linux setup can make linux accessible to all
-
 ***** https://youtu.be/TtOoLanFzGw
 
 ***** https://x.com/dhh/status/21015362074107989612101536207410798961
