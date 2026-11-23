@@ -79,6 +79,12 @@ https://www.reddit.com/r/perl/comments/1xsstwb/i_built_a_tool_to_visualize_perl_
 Based on: https://news.ycombinator.com/item?id=5036681150366811 Codemap – one-page interactive map of any Go repository
 
 
+https://cdn.jwz.org/images/2024/comments/1dd6a28f022908d-1.png
+
+
+If you are going to give a FOSDEM talk, pick "Perl and Raku" as the "Track" and submit the proposal here: https://pretalx.fosdem.org/fosdem-2027/cfp
+
+
 
 ** older topics
 
