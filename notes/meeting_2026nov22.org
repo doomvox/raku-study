@@ -53,6 +53,8 @@ https://perlhacks.com/2026/11/data-munging-with-perl-twenty-five-years-later/
 **** fast kernels without vendor lock-in
 
 *** bill's interested in-- 
+**** David Heinemeier Hansson's take on the LLM era. 
+
 **** the idea that "vibe coded" linux setup can make linux accessible to all
 ***** https://youtu.be/TtOoLanFzGw
 
