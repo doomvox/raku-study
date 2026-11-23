@@ -62,6 +62,13 @@ https://perlhacks.com/2026/11/data-munging-with-perl-twenty-five-years-later/
 
 ***** https://omarchy.org
 
+*** Bruce Gray: call for submissions to the Raku Advent Calendar
+
+It is time to start writing for the Raku Advent Calendar:
+https://raku-advent.blog/2025/11/03/the-2025-raku-advent-posts/
+I will be contributing "Joyful Lamb(da)s".
+I see that Anton has signed up too!
+Anyone have a blog post they want to write?
 
 
 ** older topics
