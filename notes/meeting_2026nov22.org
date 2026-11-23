@@ -62,6 +62,8 @@ https://perlhacks.com/2026/11/data-munging-with-perl-twenty-five-years-later/
 
 ***** https://omarchy.org
 
+
+
 ** old topics
 
 *** lsp aware editors
@@ -73,17 +75,8 @@ https://perlhacks.com/2026/11/data-munging-with-perl-twenty-five-years-later/
 ***** Also, this is a older LSP for Raku: https://github.com/bscan/RakuNavigator
 
 **** https://zed.dev
-
 ****  https://gram.liten.app
 ***** use Gram instead of Zed
-
-**** helix
-***** tim schafer pick 
-***** "in the spirit of emacs"
-
-***** https://helix-editor.com/
-***** https://github.com/helix-editor/helix
-
 
 *** 
 **** https://stackoverflow.com/questions/80005669/why-does-so-all-return-true
