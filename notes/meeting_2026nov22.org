@@ -72,8 +72,8 @@ I see that Anton has signed up too!
 Anyone have a blog post they want to write?
 
 
-*** Bruce Gray-- Perl::CodeMap
-Just released 12 days ago!
+*** Perl::CodeMap 
+Bruce Gray: Just released 12 days ago!
 https://metacpan.org/dist/Perl-CodeMap
 https://www.reddit.com/r/perl/comments/1xsstwb/i_built_a_tool_to_visualize_perl_codebases/
 Based on: https://news.ycombinator.com/item?id=5036681150366811 Codemap – one-page interactive map of any Go repository
