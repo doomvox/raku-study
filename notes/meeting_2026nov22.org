@@ -86,6 +86,17 @@ https://cdn.jwz.org/images/2024/comments/1dd6a28f022908d-1.png
 ****** https://pretalx.fosdem.org/fosdem-2027/cfp
 ****** https://fosdem.org/2027/
 
+
+*** commenting on dave's logging problem
+**** https://metacpan.org/pod/Log::Log4perl
+Log::Log4perl::Appender::DBI
+**** https://www.sourceware.org/gdb/current/onlinedocs/gdb.html/Remote-Protocol.html
+
+**** Bruce Gray: Only loosely related, but I mention it when I can:
+https://arxiv.org/abs/cs/03100160310016  
+Debugging Backwards in Time (Omniscient Debugging)
+
+
 ** older topics
 
 *** lsp aware editors
@@ -529,7 +540,7 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 *** next meetings
 
 **** November 22, 2026  (in two weeks)
-**** December 06, 2026
+**** December 6, 2026
 **** December 20, 2026
 
 *** more info is always here
