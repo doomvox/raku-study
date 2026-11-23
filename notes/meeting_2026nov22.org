@@ -539,7 +539,6 @@ sub strange ($n) { $n !%% 2 && $n % 2 != 1 }
 
 *** next meetings
 
-**** November 22, 2026  (in two weeks)
 **** December 6, 2026
 **** December 20, 2026
 
