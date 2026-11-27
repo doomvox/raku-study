@@ -27,3 +27,5 @@ sub thing ( $sig ) {
     say "the first thing: $a";
     say "the other thing: $b";
 }
+
+stuff( "alpha", "omega" );
