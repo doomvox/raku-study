@@ -62,10 +62,6 @@ say $sig.^methods;
 # Actual available methods:
 #  arity count params new ACCEPTS raku gist BUILDALL
 
-
-say $sig.names;
-
-
 # sub thing -> $sig {
 #      say "the first thing: $a";
 #      say "the other thing: $b";
