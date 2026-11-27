@@ -54,13 +54,16 @@ my $sig = :($a, $b);
 ## Q: is there a way to use "Standalone Signature object"
 ## as a sub signature?
 
-
+## This is fun:
 say $sig.^methods;
 
 # (The 'ForeignCode' class is a Rakudo-specific implementation detail and has no serviceable parts inside The 'ForeignCode' class is a Rakudo-specific implementation detail and has no serviceable parts inside The 'ForeignCode' class is a Rakudo-specific implementation detail and has no serviceable parts inside The 'ForeignCode' class is a Rakudo-specific implementation detail and has no serviceable parts inside The 'ForeignCode' class is a Rakudo-specific implementation detail and has no serviceable parts inside Capture arity count params new ACCEPTS raku gist BUILDALL) 
 
 # Actual available methods:
 #  arity count params new ACCEPTS raku gist BUILDALL
+
+
+say $sig.^methods;
 
 
 # sub thing -> $sig {
