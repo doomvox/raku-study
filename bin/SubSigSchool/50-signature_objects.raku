@@ -63,7 +63,7 @@ say $sig.^methods;
 #  arity count params new ACCEPTS raku gist BUILDALL
 
 
-say $sig>>.names;
+say $sig>>.name;
 
 
 # sub thing -> $sig {
