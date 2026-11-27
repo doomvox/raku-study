@@ -39,7 +39,6 @@ my $sig = :($a, $b);
 # stuff( "alpha", "omega" );
 # # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/SubSigSchool/50-signature_objects.raku
 
-
 sub thing -> $sig {
     say "the first thing: $a";
     say "the other thing: $b";
