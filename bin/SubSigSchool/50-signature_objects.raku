@@ -68,3 +68,6 @@ say $sig.^methods;
 #      say "the other thing: $b";
 # }
 # stuff( "alpha", "omega" );
+
+
+say $sig.params;
