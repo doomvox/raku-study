@@ -9,5 +9,14 @@ use v6.d;
 
 ## echo raku version
 
+
+sub stuff ( $a, $b ) {
+    say "the first stuff: $a";
+    say "the other stuff: $b";
+}
+
+stuff( "hey", "ho" );
+
+
 my $sig = :($a, $b);
 
