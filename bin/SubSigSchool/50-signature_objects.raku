@@ -51,3 +51,7 @@ stuff( "alpha", "omega" );
 # ------> sub thing⏏ -> $sig {
 #     expecting any of:
 
+## Q: is there a way to use "Standalone Signature object"
+## as a sub signature?
+
+
