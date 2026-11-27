@@ -71,4 +71,4 @@ say $sig.^methods;
 
 
 say $sig.params; # (Mu $a Mu $b)
-say $sig.params>>.methods;
+say $sig.params>>.^methods;
