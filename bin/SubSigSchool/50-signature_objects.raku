@@ -23,9 +23,18 @@ stuff( "hey", "ho" );
 
 my $sig = :($a, $b);
 
-sub thing ( $sig ) {
+# sub thing ( $sig ) {
+#     say "the first thing: $a";
+#     say "the other thing: $b";
+# }
+
+# stuff( "alpha", "omega" );
+# # Variable '$a' is not declared.  Perhaps you forgot a 'sub' if this was
+
+sub thing $sig {
     say "the first thing: $a";
     say "the other thing: $b";
 }
 
 stuff( "alpha", "omega" );
+# Variable '$a' is not declared.  Perhaps you forgot a 'sub' if this was
