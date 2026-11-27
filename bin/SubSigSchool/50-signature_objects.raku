@@ -9,3 +9,5 @@ use v6.d;
 
 ## echo raku version
 
+my $sig = :($a, $b);
+
