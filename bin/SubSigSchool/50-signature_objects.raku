@@ -70,4 +70,5 @@ say $sig.^methods;
 # stuff( "alpha", "omega" );
 
 
-say $sig.params;
+say $sig.params; # (Mu $a Mu $b)
+say $sig.params>>.methods;
