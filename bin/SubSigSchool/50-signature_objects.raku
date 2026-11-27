@@ -45,3 +45,9 @@ sub thing -> $sig {
 }
 stuff( "alpha", "omega" );
 
+# ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/SubSigSchool/50-signature_objects.raku
+# Missing block
+# at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/SubSigSchool/50-signature_objects.raku:43
+# ------> sub thing⏏ -> $sig {
+#     expecting any of:
+
