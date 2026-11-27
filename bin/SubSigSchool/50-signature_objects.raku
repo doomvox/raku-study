@@ -16,6 +16,9 @@ sub stuff ( $a, $b ) {
 }
 
 stuff( "hey", "ho" );
+# Output:
+# the first stuff: hey
+# the other stuff: ho
 
 
 my $sig = :($a, $b);
