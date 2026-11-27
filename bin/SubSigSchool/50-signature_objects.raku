@@ -37,4 +37,4 @@ sub thing $sig {
 }
 
 stuff( "alpha", "omega" );
-# Variable '$a' is not declared.  Perhaps you forgot a 'sub' if this was
+
