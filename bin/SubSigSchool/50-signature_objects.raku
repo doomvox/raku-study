@@ -23,3 +23,8 @@ stuff( "hey", "ho" );
 
 my $sig = :($a, $b);
 
+
+sub thing ( $sig ) {
+    say "the first thing: $a";
+    say "the other thing: $b";
+}
