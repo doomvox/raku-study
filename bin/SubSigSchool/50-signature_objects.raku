@@ -60,7 +60,7 @@ say $sig.^methods;
 # (The 'ForeignCode' class is a Rakudo-specific implementation detail and has no serviceable parts inside The 'ForeignCode' class is a Rakudo-specific implementation detail and has no serviceable parts inside The 'ForeignCode' class is a Rakudo-specific implementation detail and has no serviceable parts inside The 'ForeignCode' class is a Rakudo-specific implementation detail and has no serviceable parts inside The 'ForeignCode' class is a Rakudo-specific implementation detail and has no serviceable parts inside Capture arity count params new ACCEPTS raku gist BUILDALL) 
 
 # Actual available methods:
-# arity count params new ACCEPTS raku gist BUILDALL
+#  arity count params new ACCEPTS raku gist BUILDALL
 
 
 # sub thing -> $sig {
