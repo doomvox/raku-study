@@ -31,6 +31,15 @@ my $sig = :($a, $b);
 # stuff( "alpha", "omega" );
 # # Variable '$a' is not declared.  Perhaps you forgot a 'sub' if this was
 
+# sub thing $sig {
+#     say "the first thing: $a";
+#     say "the other thing: $b";
+# }
+
+# stuff( "alpha", "omega" );
+# # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/SubSigSchool/50-signature_objects.raku
+
+
 sub thing $sig {
     say "the first thing: $a";
     say "the other thing: $b";
