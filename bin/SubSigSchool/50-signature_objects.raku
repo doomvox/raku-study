@@ -39,19 +39,26 @@ my $sig = :($a, $b);
 # stuff( "alpha", "omega" );
 # # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/SubSigSchool/50-signature_objects.raku
 
-sub thing -> $sig {
-    say "the first thing: $a";
-    say "the other thing: $b";
-}
-stuff( "alpha", "omega" );
+# sub thing -> $sig {
+#     say "the first thing: $a";
+#     say "the other thing: $b";
+# }
+# stuff( "alpha", "omega" );
 
-# ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/SubSigSchool/50-signature_objects.raku
-# Missing block
-# at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/SubSigSchool/50-signature_objects.raku:43
-# ------> sub thing⏏ -> $sig {
-#     expecting any of:
+# # ===SORRY!=== Error while compiling /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/SubSigSchool/50-signature_objects.raku
+# # Missing block
+# # at /home/doom/End/Cave/RakuStudy/Wall/raku-study/bin/SubSigSchool/50-signature_objects.raku:43
+# # ------> sub thing⏏ -> $sig {
+# #     expecting any of:
 
 ## Q: is there a way to use "Standalone Signature object"
 ## as a sub signature?
 
 
+say $sig.^methods;
+
+# sub thing -> $sig {
+#      say "the first thing: $a";
+#      say "the other thing: $b";
+# }
+# stuff( "alpha", "omega" );
