@@ -72,3 +72,5 @@ say $sig.^methods;
 
 say $sig.params; # (Mu $a Mu $b)
 say $sig.params>>.^methods;
+
+# (from-iterator from-slurpy from-slurpy-onearg from-slurpy-flat new to from ASSIGN-POS BIND-POS reification-target sink STORE eager Capture FLATTENABLE_LIST FLATTENABLE_HASH roll reverse rotate combinations permutations join push append unshift prepend shift pop of item flat lazy-if lazy hyper race Bool Int end Numeric Str sum fmt elems head AT-POS EXISTS-POS iterator ACCEPTS list values keys kv pairs antipairs invert gist raku List Slip Array Supply is-lazy pick sort tail Mix MixHash Bag BagHash Set SetHash BUILDALL chrs)
