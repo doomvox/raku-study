@@ -60,7 +60,9 @@ GetOptions ("d|debug"    => \$DEBUG,
 { no warnings 'once'; $DB::single = 1; }
 
 sub inane_report ($first, $second, @rest) {
-
+  say "the first: $first";
+  say "the second: $second";  
+  say "the rest: ", join ' ', @rest;
 }
 
 
