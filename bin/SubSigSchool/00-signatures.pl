@@ -65,6 +65,7 @@ sub inane_report ($first, $second, @rest) {
   say "the rest: ", join ' ', @rest;
 }
 
+inane_report('left', 'right', 'up', 'down', 'sideways');
 
 
 
