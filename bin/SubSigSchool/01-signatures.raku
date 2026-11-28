@@ -7,7 +7,7 @@
 sub inane_report ($first, $second, *@rest) {
   say "the first: $first";
   say "the second: $second";  
-  say "the rest: ", @rest;
+  say "the rest: ", @rest.join(' ');
 }
 
 inane_report('left', 'right', 'up', 'down', 'sideways');
