@@ -11,3 +11,6 @@ sub inane_report ($first, $second, *@rest) {
 }
 
 inane_report('left', 'right', 'up', 'down', 'sideways');
+# the first: left
+# the second: right
+# the rest: [up down sideways]
