@@ -22,7 +22,7 @@ B<00-signatures.pl> is a script which
 =cut
 
 use feature ":5.20.0";
-use feature 'signatures';  # introduced 5.20
+use feature 'signatures';  # introduced 5.20, on by default 5.36
 use warnings;
 use strict;
 $|=1;
@@ -59,7 +59,7 @@ GetOptions ("d|debug"    => \$DEBUG,
 
 { no warnings 'once'; $DB::single = 1; }
 
-
+use feature 'signatures';
 
 
 
